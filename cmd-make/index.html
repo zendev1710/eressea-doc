@@ -1,0 +1,603 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="zendev1710">
+      
+      
+        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/cmd-make/">
+      
+      
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+          <link rel="alternate" href="../fr/cmd-make/" hreflang="fr">
+        
+          <link rel="alternate" href="../de/cmd-make/" hreflang="de">
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>MAKE - Eressea</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#make" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eressea
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MAKE
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../fr/cmd-make/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/cmd-make/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Eressea
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Items
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Potions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herbs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Units
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buildings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roads
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="make">MAKE</h1>
+<p><strong><code>MAKE</code></strong><code>[</code><em><code>amount</code></em><code>]</code><em><code>item</code></em><br />
+<strong><code>MAKE</code></strong><code>[</code><em><code>amount</code></em><code>] HERBS</code><br />
+<strong><code>MAKE TEMP</code></strong><code></code><em><code>unit-alias-id</code></em><code>["</code><em><code>name</code></em><code>"]</code><br />
+<strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>]</code><em><code>building_type</code></em><code>[</code><em><code>id_building</code></em><code>]</code><br />
+<strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>]</code><em><code>ship_type</code></em><br />
+<strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>] SHIP [</code><em><code>ship-id</code></em><code>]</code><br />
+<strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>] ROAD</code><em><code>direction</code></em><code></code></p>
+<p>The <code>MAKE</code> order is the general production order. To find out more, see the <a href="/Spezial:Meine_Sprache/Produktion" title="Spezial:Meine Sprache/Produktion">production</a> chapter.</p>
+<h2 id="items">Items</h2>
+<p><a href="/Spezial:Meine_Sprache/Waren" title="Spezial:Meine Sprache/Waren">Items</a> and <a href="/Spezial:Meine_Sprache/Rohstoffe" title="Spezial:Meine Sprache/Rohstoffe">raw materials</a> are created with <code>MAKE [</code><em><code>number</code></em><code>]</code><em><code>item</code></em><code></code>. Depending on the item, a certain skill and perhaps also certain raw materials are required. Without specifying <em>number</em>, the unit will produce as many items as people, skill and possibly raw materials allow it to.</p>
+<h3 id="potions">Potions</h3>
+<p>Creating a potion is very complex and can only be done by particularly talented alchemists. Details can be found in the <a href="/Spezial:Meine_Sprache/List_of_talents" title="Spezial:Meine Sprache/List of talents (Seite nicht vorhanden)">Alchemy chapter</a>.</p>
+<h3 id="herbs">Herbs</h3>
+<p>Herbs are produced with the command <code>MAKE HERBS</code> by units with the skill <a href="/Spezial:Meine_Sprache/Kr%C3%A4uter" title="Spezial:Meine Sprache/Kräuter">herbology</a>. For details, see the chapter on <a href="/Spezial:Meine_Sprache/Kr%C3%A4uter" title="Spezial:Meine Sprache/Kräuter">herbs</a>.</p>
+<h2 id="units">Units</h2>
+<p>When you create a new unit (<code>MAKE TEMP xy</code>), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example <code>GIVE TEMP xy 100 silver</code>). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID <em>TEMP xy</em>, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.</p>
+<p>The alias number will be used as the new number of the unit if it is not taken. You can also assign a name to the new unit. The orders</p>
+<pre><code> MAKE TEMP 1
+    NAME UNIT "Clowns"
+    NUMBER UNIT funy
+</code></pre>
+<p>can be shortened to</p>
+<pre><code> MAKE TEMP funy "Clowns"
+</code></pre>
+<p>A maximum of 2500 units are allowed per party. If the party has 2500 or more units, no new units can be created with <code>MAKE TEMP</code>; other units must first be deleted, e.g. by merging them. As the deletion of empty units comes at the end of the command sequence, new TEMP units can only be created in the following week.</p>
+<p>The orders following the MAKE TEMP order are assigned to the new unit up to the END order.</p>
+<p>However, the new unit must still have members, otherwise it will be silently deleted at the end of the round! It must therefore recruit or be given people. If the new unit is to recruit new members, it must also receive enough money to do so. If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week. If the unit receives money but does not recruit any members, it is also disbanded and the money falls to <a href="/Spezial:Meine_Sprache/Parteien#disbanding" title="Spezial:Meine Sprache/Parteien">other units of their own faction</a>.</p>
+<pre><code> UNIT 17;       Fighters [15,700$]
+ MAKE TEMP 1
+    NAME UNIT "dragon riders"
+    LEARN melee
+ END
+ GIVE TEMP 1 5 MEN
+  
+ GIB TEMP 2 100 silver
+ MAKE TEMP 2
+    RECRUIT 1
+    NAME UNIT "scouts"
+    DEFAULT "LEARN perception"
+    MOVE west
+ END
+</code></pre>
+<h2 id="buildings">Buildings</h2>
+<p>To erect a new building, use the order <code>MAKE [</code><em><code>levels</code></em><code>]</code><em><code>building_type</code></em> (see <a href="/Spezial:Meine_Sprache/Geb%C3%A4ude" title="Spezial:Meine Sprache/Gebäude">buildings</a>). To continue building, the order is <code>MAKE [levels]</code><em><code>building_type</code></em><code></code><em><code>building_id</code></em>. The <em>building type</em> can also be replaced by CASTLE when continuing to build, even if it is a different type of building.</p>
+<p>Castles and many other buildings can be enlarged as much as you want. In order to build castles, the unit must have the masonry skill and stones; other buildings usually also require wood, iron, and silver in various quantities.</p>
+<h2 id="ships">Ships</h2>
+<p>With <code>MAKE</code><em><code>ship_type</code></em> a unit starts building a new <a href="/Spezial:Meine_Sprache/Schiffe" title="Spezial:Meine Sprache/Schiffe">ship</a>. This requires the shipcraft skill and wood. It can continue building with <code>MAKE [</code><em><code>levels</code></em><code>] SHIP</code><em><code>ship-nr</code></em>. Ships cannot be expanded like castles; the type is determined at the start of construction. Ships can only be built up to the size specified by their type.</p>
+<p>With buildings as well as ships you can specify with <em>levels</em> how many size points you would like to add to the ship.</p>
+<ul>
+<li>first week: <code>MAKE longboat</code><br />
+  A new ship is constructed and gets the number 76 from the server.</li>
+<li>second week: <code>MAKE SHIP 76</code><br />
+  Continue building the ship with the number 76.</li>
+</ul>
+<h2 id="roads">Roads</h2>
+<p>To make it easier to travel through a region with roads and bridges, use <code>MAKE ROAD</code><em><code>direction</code></em>. To build <a href="/Spezial:Meine_Sprache/Stra%C3%9Fen" title="Spezial:Meine Sprache/Straßen">roads</a>, the unit needs the skill <a href="/Spezial:Meine_Sprache/Stra%C3%9Fenbau" title="Spezial:Meine Sprache/Straßenbau">roadwork</a> and <a href="/Spezial:Meine_Sprache/Waren" title="Spezial:Meine Sprache/Waren">stones</a>. In glaciers, it needs a <a href="/Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Tunnel" title="Spezial:Meine Sprache/Andere Gebäude">tunnel</a> beforehand, in deserts a <a href="/Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Karawanserei" title="Spezial:Meine Sprache/Andere Gebäude">caravanserai</a> and in swamps a <a href="/Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Damm" title="Spezial:Meine Sprache/Andere Gebäude">dam</a>. One stone is used per skill point of road construction. Between 50 and 250 stones are required for each desired direction, depending on the <a href="/Spezial:Meine_Sprache/Gel%C3%A4ndearten" title="Spezial:Meine Sprache/Geländearten">terrain types</a>. Roads only work if they are complete.</p>
+<p>Player experience: Solthar Except when erecting a new building you can exchange the type in MAKE type xyz with BURG or any other building type.</p>
+<p><code>MAKE type</code> or <code>MAKE SHIP</code> without further parameters is currently continuing construction on the building or ship in which the unit is currently located. <strong>Attention:</strong> If the unit is in a building, MAKE lighthouse does not start a new building, but continues building on the old one.</p>
+<h2 id="examples">Examples</h2>
+<pre><code> MAKE 5 sword ; produces 5 swords (at most)
+ MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
+ MAKE KRÄUTER
+
+ LEAVE
+ MAKE lighthouse ; starts building a new lighthouse
+ MAKE lighthouse xyz ; expands the lighthouse xyz
+
+ LEAVE
+ MAKE CASTLE xyz ; continues building on xyz (of whatever building type)
+ MAKE 5 Trireme ; starts a new trireme
+ MAKE SHIP abc ; continues building the ship abc
+
+ MAKE ROAD SE ; continues or starts building the road towards the south-east
+
+ MAKE Trireme abc ; wrong: starts a new trireme
+ MAKE building xyz ; wrong: only CASTLE or building type is allowed
+</code></pre>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="/Spezial:Meine_Sprache/Produktion" title="Spezial:Meine Sprache/Produktion">Production</a></li>
+<li><a href="/Spezial:Meine_Sprache/Alchemie" title="Spezial:Meine Sprache/Alchemie">Alchemy</a></li>
+</ul>
+<p>Abgerufen von „<a href="https://wiki.eressea.de/index.php?title=MACHE/en&amp;oldid=16445">https://wiki.eressea.de/index.php?title=MACHE/en&amp;oldid=16445</a>“</p>
+<p><a href="/Spezial:Kategorien" title="Spezial:Kategorien">Kategorie</a>:</p>
+<ul>
+<li><a href="/index.php?title=Kategorie:Befehle/en/en&amp;action=edit&amp;redlink=1" title="Kategorie:Befehle/en/en (Seite nicht vorhanden)">Befehle/en/en</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

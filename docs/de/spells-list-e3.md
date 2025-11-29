@@ -1,0 +1,304 @@
+# Zauberliste E3
+
+Das sind alle Zauber, die es in E3 (und Deveron) gibt. Wahrscheinlich.
+
+## Alle Zauber
+
+| T   | N   | A   | G   | I   | D   | C   | Name | Kurzbeschreibung | Art | Stufe | Rang | Komponenten | Modifikationen |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| J   | J   | J   | J   | J   | J   | J   | [Astrale Schwächezone] | Mit diesem Zauber kann der Magier eine Zone der astralen Schwächung erzeugen, ein lokales Ungleichgewicht im Astralen Feld. | Normal | 5   | 2   | 3 Aura \* Stufe | Fern |
+| J   | J   | J   | J   | J   | J   | J   | [Astraler Riss] | Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der Magie bewirken, der alle magische Kraft aus der Region reißen wird. | Normal | 9   | 3   | 35 Aura, 1 Drachenblut |     |
+| J   | J   | J   | J   | J   | J   | J   | [Astrales Chaos] | Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken. | K-Prä | 9   | 2   | 6 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Astralschutzgeister] | Dieses Ritual beschwört einige Elementargeister der Magie und schickt sie in die Reihen der feindlichen Magier. | K-Prä | 5   | 2   | 5 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Aufruhr beschwichtigen] | Mit Hilfe dieses magischen Gesangs kann der Magier eine Region in Aufruhr wieder beruhigen. | Normal | 14  | 5   | 30 Aura | Fern |
+| N   | J   | N   | N   | N   | N   | J   | [Aufruhr verursachen] | Mit Hilfe dieses magischen Gesangs versetzt der Magier eine ganze Region in Aufruhr. | Normal | 15  | 5   | 40 Aura | Fern |
+| N   | J   | N   | J   | J   | J   | J   | [Auratransfer] | Mit Hilfe dieses Zauber kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen. | Normal | 5   | 1   | 1 Aura | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Aushorchen] | Erliegt die Einheit dem Zauber, so wird sie dem Magier alles erzählen, was sie über die gefragte Region weiß. | Normal | 7   | 5   | 4 Aura, 100 Silber |     |
+| J   | J   | J   | J   | J   | J   | J   | [Bannlied] | Dieser schrille Gesang hallt über das ganze Schlachtfeld. | K-Prä | 5   | 2   | 5 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Belebtes Gestein] | Dieses kräftezehrende Ritual beschwört mit Hilfe einer Kugel aus konzentriertem Laen einen gewaltigen Erdelementar und bannt ihn in ein Gebäude. | Normal | 13  | 5   | 10 Aura \* Stufe, 1 permanente Aura, 5 Laen |     |
+| J   | J   | J   | J   | J   | J   | J   | [Bergwächter] | Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELFE BEWACHE) verhindert, solange er die Region bewacht. | Normal | 3   | 5   | 3 Aura \* Stufe | Fern |
+| J   | J   | J   | J   | N   | J   | J   | [Beschleunigung] | Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können. | K-Prä | 9   | 5   | 5 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Beschwöre Schattendämonen] | Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der Schatten. | Normal | 8   | 5   | 3 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Beschwöre Schattenmeister] | Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der Schatten. | Normal | 12  | 5   | 7 Aura \* Stufe |     |
+| N   | J   | N   | J   | N   | N   | N   | [Beschwöre einen Erdelementar] | Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen. | Normal | 6   | 5   | 25 Aura, 2 Laen | Fern |
+| N   | J   | N   | J   | N   | N   | N   | [Beschwöre einen Sturmelementar] | Die Beschwörung von Elementargeistern der Stürme ist ein uraltes Ritual. | Normal | 6   | 5   | 6 Aura \* Stufe | See, Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Beschwörung eines Hitzeelementar] | Dieses Ritual beschwört wütende Elementargeister der Hitze. | Normal | 13  | 5   | 600 Aura | Fern |
+| N   | J   | J   | J   | J   | J   | J   | [Beschwörung eines Wasserelementares] | Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen Dienst und bringt sie dazu, das angegebene Schiff schneller durch das Wasser zu tragen. | Normal | 4   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Blick des Basilisken] | Dieser schwierige, aber effektive Kampfzauber benutzt die Elementargeister des Steins, um eine Reihe von Gegnern für die Dauer des Kampfes in Stein zu verwandeln. | Kampf | 8   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Blutrausch] | In diesem blutigen Ritual opfert der Magier vor der Schlacht ein Neugeborenes vor den Augen seiner Armee. | K-Prä | 5   | 4   | 5 Aura \* Stufe, 1 Bauer |     |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Bauernblut] | Zu den gefährlichsten und geheimsten Wissen der Magier zählt das Wissen über die Macht des Todes. | Normal | 5   | 5   | 3 Aura \* Stufe, 1 Alraune \* Stufe, 1 Gurgelkraut \* Stufe, 1 Höhlenglimm \* Stufe, 1 Bauer | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Elixier der Macht] | Ebenso wie das Wissen über den Tod ist das Wissen über gewisse Monster bei der abergläubigen Bevölkerung nicht gerne gesehen. | Normal | 9   | 5   | 5 Aura \* Stufe, 1 Alraune \* Stufe, 1 Blasenmorchel \* Stufe, 1 Höhlenglimm \* Stufe, 1 Schneekristall \* Stufe, 1 Sandfäule \* Stufe, 1 Drachenblut | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Heiltrank] | Manche Magier erforschen den Tod, bis sie verstorbene wieder ins Leben zurück bringen können. | Normal | 8   | 5   | 5 Aura \* Stufe, 1 Flachwurz \* Stufe, 1 Blasenmorchel \* Stufe, 1 Steinbeißer \* Stufe, 1 Eisblume \* Stufe, 1 Wasserfinder \* Stufe | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Pferdeglück] | Obwohl für Magier das Gebiet der Liebe Tabu ist und sie im strengen Zölibat leben, haben sie ein großes Wissen darüber, wie man gewisse Bedürfnisse weckt, weshalb sie immer wieder von Dorfbewohnerinnen und Dorfbewohnern nach entsprechenden Zaubern gefragt werden. | Normal | 4   | 5   | 3 Aura \* Stufe, 1 Flachwurz \* Stufe, 1 Blasenmorchel \* Stufe, 1 Steinbeißer \* Stufe | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Schaffenstrunk] | Ein weiteres Anwendungsgebiet des Wissens über die Zeit welches ein Magier ansammelt stellt der Schaffenstrunk dar. | Normal | 7   | 5   | 4 Aura \* Stufe, 1 Windbeutel \* Stufe, 1 Gurgelkraut \* Stufe, 1 Schneekristall \* Stufe, 1 Wasserfinder \* Stufe | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Siebenmeilentee] | Die Zeit ist eines der ersten Geheimnisse, die jeder Magier zu erkunden versucht. | Normal | 3   | 5   | 2 Aura \* Stufe, 1 Windbeutel \* Stufe, 1 Höhlenglimm \* Stufe | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Wasser des Lebens] | In einem der seltsamsten Zauber kann der Magier seiner Umgebung ein klein wenig der Lebensenergie entziehen um das sogenannte Wasser des Lebens herstellen. | Normal | 2   | 5   | 2 Aura \* Stufe, 1 Blauer Baumringel \* Stufe, 1 Gurgelkraut \* Stufe | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Braue Wundsalbe] | Nach einem harten Kampf sollte man sich heilen lassen. | Normal | 6   | 5   | 4 Aura \* Stufe, 1 Blauer Baumringel \* Stufe, 1 Steinbeißer \* Stufe, 1 Eisblume \* Stufe, 1 Sandfäule \* Stufe | Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Chaosfluch] | Dieser heimtückische Fluch beeinträchtigt die magischen Fähigkeiten des Opfers erheblich. | Normal | 5   | 4   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Drachenruf] | Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für Drachen einfach unwiderstehlich riecht. | Normal | 11  | 5   | 80 Aura, 1 Drachenkopf | Fern |
+| N   | J   | N   | N   | N   | N   | N   | [Eisiger Drachenodem] |     | Kampf | 6   | 5   | 2 Aura |     |
+| N   | J   | N   | N   | N   | N   | N   | [Eisnebel] | Tötet die Feinde mit Kälte. | Kampf | 8   | 5   | 2 Aura |     |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe Antimagiekristall] | Mit Hilfe dieses Zauber entzieht der Magier einem Quarzkristall all seine magischen Energien. | Normal | 7   | 5   | 50 Aura, 3000 Silber | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe Eisengolems] | Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden. | Normal | 2   | 4   | 2 Aura \* Stufe, 1 Eisen \* Stufe, 1 Weihrauch |     |
+| N   | J   | N   | J   | N   | N   | N   | [Erschaffe Steingolems] | Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde. | Normal | 20  | 4   | 2 Aura \* Stufe, 1 Stein \* Stufe, 10 Juwelen |     |
+| N   | J   | N   | J   | J   | J   | J   | [Erschaffe ein Amulett des wahren Sehens] | Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. | Normal | 6   | 5   | 50 Aura, 3000 Silber, 1 permanente Aura | Schiff |
+| N   | J   | N   | N   | J   | N   | N   | [Erschaffe ein Traumauge] | Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen. | Normal | 14  | 5   | 1 Drachenkopf, 5 permanente Aura | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe einen Aurafocus] |     | Normal | 9   | 5   | 100 Aura, 1 permanente Aura | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe einen Beutel des Negativen Gewichts] | Dieser Beutel umschließt eine kleine Dimensionsfalte, in der bis zu 200 Gewichtseinheiten transportiert werden können, ohne dass sie auf das Traggewicht angerechnet werden. | Normal | 10  | 5   | 30 Aura, 1 permanente Aura, 5000 Silber | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe einen Gürtel der Trollstärke] | Dieses magische Artefakt verleiht dem Träger die Stärke eines ausgewachsenen Höhlentrolls. | Normal | 9   | 5   | 20 Aura, 1 permanente Aura | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe einen Ring der Macht] | Dieses mächtige Ritual erschafft einen Ring der Macht. | Normal | 9   | 5   | 100 Aura, 1 permanente Aura, 4000 Silber | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Erschaffe einen Ring der Regeneration] |     | Normal | 9   | 5   | 100 Aura, 1 permanente Aura | Schiff |
+| N   | J   | N   | J   | J   | J   | J   | [Erschaffe einen Ring der Unsichtbarkeit] | Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. | Normal | 7   | 5   | 50 Aura, 3000 Silber, 1 permanente Aura | Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Erwecke Ents] | Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf. | Normal | 10  | 5   | 6 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Feuerball] | Der Zauberer schleudert fokussiertes Chaos in die Reihen der Gegner. | Kampf | 2   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | N   | [Feuersturm] | Tötet die Feinde mit Feuer. | Kampf | 8   | 5   | 2 Aura |     |
+| J   | J   | J   | J   | J   | J   | J   | [Feuerteufel] | Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen. | Normal | 10  | 5   | 50 Aura, 5 Öl | Fern |
+| N   | J   | N   | N   | N   | N   | N   | [Feuerwalze] | Verletzt alle Gegner. | Kampf | 12  | 5   | 24 Aura |     |
+| N   | J   | N   | N   | N   | J   | N   | [Feuerwand] | Der Zauberer erschafft eine Wand aus Feuer in der angegebenen Richtung. | Normal | 7   | 4   | 6 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Fluch brechen] | Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen. | Normal | 7   | 3   | 3 Aura \* Stufe | Fern, Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Fluch der Pestilenz] | In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region. | Normal | 7   | 5   | 30 Aura, 50 Bauern | Fern |
+| J   | J   | J   | J   | J   | J   | J   | [Friedenslied] | Dieses Lied zähmt selbst den wildesten Ork und macht ihn friedfertig und sanftmütig. | K-Prä | 1   | 5   | 2 Aura |     |
+| N   | J   | N   | N   | N   | N   | N   | [Furchteinflößende Aura] | Panik. | Kampf | 12  | 5   | 12 Aura |     |
+| N   | J   | N   | N   | N   | J   | N   | [Gabe des Chaos] | Der Magier öffnet seinen Geist den Sphären des Chaos und wird so für einige Zeit über mehr magische Kraft verfügen. | Normal | 3   | 3   | 6 Aura | Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Gaukeleien] | Cerddormagier sind \_die\_ Gaukler unter den Magiern, sie lieben es das Volk zu unterhalten und im Mittelpunkt zu stehen. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Geister bannen] | Wie die alten Lehren der Druiden berichten, besteht das, was die normalen Wesen Magie nennen, aus Elementargeistern. | Normal | 8   | 2   | 6 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang der Angst] | Dieser Kriegsgesang sät Panik in der Front der Gegner und schwächt so ihre Kampfkraft erheblich. | K-Prä | 8   | 5   | 5 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang der Friedfertigkeit] | Dieser mächtige Bann verhindert jegliche Attacken. | Normal | 12  | 5   | 20 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang der Furcht] | Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt. | Kampf | 3   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang der Versklavung] | Dieser mächtige Bann raubt dem Opfer seinen freien Willen und unterwirft sie den Befehlen des Barden. | Normal | 13  | 5   | 40 Aura |     |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang der Verwirrung] | Aus den uralten Gesängen der Katzen entstammt dieses magisches Lied, welches vor einem Kampfe eingesetzt, einem entscheidende strategische Vorteile bringen kann. | K-Prä | 4   | 5   | 2 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang des schwachen Geistes] | Dieses Lied, das in die magische Essenz der Region gewoben wird, schwächt die natürliche Widerstandskraft gegen eine Verzauberung einmalig um 15%. | Normal | 12  | 2   | 2 Aura \* Stufe | Fern |
+| N   | J   | N   | N   | N   | N   | J   | [Gesang des wachen Geistes] | Dieses magische Lied wird, einmal mit Inbrunst gesungen, sich in der Region fortpflanzen, von Mund zu Mund springen und eine Zeitlang überall zu vernehmen sein. | Normal | 10  | 2   | 2 Aura \* Stufe | Fern |
+| N   | J   | N   | N   | J   | N   | N   | [Gestaltwandlung] | Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern. | Normal | 3   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | J   | N   | N   | [Grauen der Schlacht] | Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die viele Gegner in Panik versetzen. | K-Prä | 2   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | N   | [Großer Drachenodem] |     | Kampf | 12  | 5   | 3 Aura |     |
+| N   | J   | N   | J   | N   | N   | N   | [Hagel] | Im Kampf ruft der Magier die Elementargeister der Kälte an und bindet sie an sich. | Kampf | 3   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | J   | N   | N   | N   | [Hainzauber] | Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln. | Normal | 2   | 5   | 4 Aura \* Stufe, 1 Holz \* Stufe, 10 Myrrhe | Fern |
+| N   | J   | N   | J   | N   | N   | N   | [Heiliger Boden] | Dieses Ritual beschwört verschiedene Naturgeister in den Boden der Region, welche diese fortan bewachen. | Normal | 9   | 5   | 80 Aura, 3 permanente Aura |     |
+| N   | J   | N   | J   | N   | N   | N   | [Heilung] | Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen. | K-Post | 5   | 5   | 1 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Heimstein] | Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern der Burg, in der er sich gerade befindet. | Normal | 7   | 5   | 50 Aura, 1 permanente Aura |     |
+| N   | J   | N   | N   | N   | N   | J   | [Heldengesang] | Dieser alte Schlachtengesang hebt die Moral der eigenen Truppen und und hilft ihnen auch der angsteinflößenden Aura dämonischer und untoter Wesen zu widerstehen. | K-Prä | 5   | 4   | 2 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Hohe Kunst der Überzeugung] | Aus 'Wanderungen' von Firudin dem Weisen: 'In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist. | Normal | 14  | 5   | 20 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Hohes Lied der Gaukelei] | Dieser fröhliche Gesang wird sich wie ein Gerücht in der Region ausbreiten und alle Welt in Feierlaune versetzen. | Normal | 2   | 5   | 2 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Kleine Flüche] | In den dunkleren Gassen gibt es sie, die Flüche und Verhexungen auf Bestellung. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Kleines Blutopfer] | Mit diesem Ritual kann der Magier einen Teil seiner Lebensenergie opfern, um dafür an magischer Kraft zu gewinnen. | Normal | 4   | 1   | 16 Trefferpunkte | Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Kriegsgesang] | Wie viele magischen Gesänge, so entstammt auch dieser den altem Wissen der Katzen, die schon immer um die machtvolle Wirkung der Stimme wussten. | K-Prä | 7   | 4   | 5 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Lebenslied festigen] | Jede Verzauberung beeinflußt das Lebenslied, schwächt und verzerrt es. | Normal | 8   | 2   | 5 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Lied der Heilung] | Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen. | K-Post | 2   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Lied der Verführung] | Mit diesem Lied kann eine Einheit derartig betört werden, so dass sie dem Barden den größten Teil ihres Bargelds und ihres Besitzes schenkt. | Normal | 6   | 5   | 12 Aura |     |
+| J   | J   | J   | J   | J   | J   | J   | [Luftschiff] | Diese magischen Runen bringen ein Boot oder Langboot für eine Woche zum fliegen. | Normal | 6   | 5   | 10 Aura, 1 Windbeutel, 1 Schneekristall | Schiff |
+| J   | J   | J   | J   | J   | N   | J   | [Magie analysieren] | Mit diesem Spruch kann der Magier versuchen, die Verzauberungen eines einzelnen angegebenen Objekts zu erkennen. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Magiefresser] | Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen. | Normal | 5   | 2   | 4 Aura \* Stufe | Fern, Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Magischer Pfad] | Durch Ausführung dieser Rituale ist der Magier in der Lage einen mächtigen Erdelementar zu beschwören. | Normal | 4   | 5   | 1 Aura \* Stufe, 1 Stein, 1 Holz | Fern, Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Mahlstrom] | Dieses Ritual beschört einen großen Wasserelementar aus den Tiefen des Ozeans. | Normal | 15  | 5   | 200 Aura, 1 Seeschlangenkopf | See, Schiff |
+| J   | J   | N   | J   | J   | J   | J   | [Mauern der Ewigkeit] | Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern des Gebäudes. | Normal | 7   | 5   | 50 Aura, 1 permanente Aura | Schiff |
+| N   | J   | N   | N   | N   | N   | N   | [Meteorregen] | Ein Schauer von Meteoren regnet über das Schlachtfeld. | Kampf | 3   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Miriams flinke Finger] | Die berühmte Bardin Miriam bhean'Meddaf war bekannt für ihr außergewöhnliches Geschick mit der Harfe. | Normal | 11  | 5   | 20 Aura, 1000 Silber, 1 permanente Aura | Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Mob aufwiegeln] | Mit Hilfe dieses magischen Gesangs überzeugt der Magier die Bauern der Region, sich ihm anzuschließen. | Normal | 10  | 5   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Monster friedlich stimmen] | Dieser einschmeichelnde Gesang kann fast jedes intelligente Monster zähmen. | Normal | 6   | 5   | 15 Aura | Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Mächte des Todes] | Nächtelang muss der Schwarzmagier durch die Friedhöfe und Gräberfelder der Region ziehen um dann die ausgegrabenen Leichen beleben zu können. | Normal | 6   | 5   | 5 Aura \* Stufe | Fern, Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Opfere Kraft] | Mit Hilfe dieses Zaubers kann der Magier einen Teil seiner magischen Kraft permanent auf einen anderen Magier übertragen. | Normal | 15  | 1   | 100 Aura |     |
+| N   | J   | N   | N   | N   | J   | N   | [Pentagramm] | Genau um Mitternacht, wenn die Kräfte der Finsternis am größten sind, kann auch ein Schwarzmagier seine Kräfte nutzen um Verzauberungen aufzuheben. | Normal | 10  | 2   | 10 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | N   | N   | N   | J   | [Plappermaul] | Die verzauberte Einheit beginnt hemmungslos zu plappern und erzählt welche Talente sie kann, was für Gegenstände sie mit sich führt und sollte sie magisch begabt sein, sogar welche Zauber sie beherrscht. | Normal | 4   | 5   | 10 Aura |     |
+| J   | J   | J   | J   | J   | J   | J   | [Regentanz] | Durch dieses uralte Tanzritual ruft der Zauberkundige die Kräfte des Lebens und der Fruchtbarkeit an. | Normal | 2   | 5   | 1 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Rindenhaut] | Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung. | K-Prä | 12  | 2   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | J   | [Ritual der Aufnahme] | Dieses Ritual ermöglicht es, eine Einheit, egal welcher Art, in die eigene Partei aufzunehmen. | Normal | 9   | 5   | 3 Aura \* Stufe, 1 permanente Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Rosthauch] | Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt. | Kampf | 6   | 5   | 2 Aura \* Stufe |     |
+| N   | J   | N   | J   | N   | N   | N   | [Rostregen] | Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt. | Normal | 3   | 5   | 2 Aura \* Stufe | Fern |
+| J   | J   | J   | J   | J   | J   | N   | [Runen des Schutzes] | Zeichnet man diese Runen auf die Wände eines Gebäudes oder auf die Planken eines Schiffes, so wird es schwerer durch Zauber zu beeinflussen sein. | Normal | 8   | 2   | 20 Aura | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Rüstschild] | Diese vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung. | K-Prä | 12  | 2   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | N   | N   | [Schattenodem] | Entzieht Talentstufen und macht Schaden wie Großer Odem. | Kampf | 12  | 5   | 4 Aura |     |
+| N   | J   | N   | N   | J   | N   | N   | [Schattenritter] | Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln. | K-Prä | 1   | 4   | 1 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Schild des Fisches] | Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln, so wie der Fisch im Wasser auch nicht dort ist wo er zu sein scheint. | K-Prä | 8   | 2   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | J   | N   | N   | [Schlaf] | Dieser Zauber läßt einige feindliche Kämpfer einschlafen. | Kampf | 7   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | N   | J   | N   | N   | [Schlechte Träume] | Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELFE BEWACHE) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren. | Normal | 10  | 5   | 90 Aura | Fern |
+| J   | J   | J   | J   | J   | J   | J   | [Schlechter Schlaf] | Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe. | Normal | 6   | 5   | 18 Aura | Fern |
+| J   | J   | J   | J   | J   | J   | J   | [Schleieraura] | Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| J   | J   | J   | J   | J   | J   | J   | [Schockwelle] | Dieser Zauber läßt eine Welle aus purer Kraft über die gegnerischen Reihen hinwegfegen. | Kampf | 5   | 5   | 1 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Schutz vor Magie] | Dieser Zauber legt ein antimagisches Feld um die Magier der Feinde und behindert ihre Zauber erheblich. | K-Prä | 2   | 2   | 3 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Schutzzauber] | Dieser Zauber verstärkt die natürliche Widerstandskraft gegen Magie. | Normal | 3   | 2   | 5 Aura \* Stufe | Schiff |
+| N   | J   | N   | N   | J   | N   | N   | [Schwere Glieder] | Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden. | K-Prä | 4   | 5   | 4 Aura \* Stufe |     |
+| N   | J   | N   | N   | J   | N   | N   | [Schöne Träume] | Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen. | Normal | 8   | 5   | 80 Aura | Fern |
+| N   | J   | N   | N   | J   | N   | N   | [Seelenfrieden] | Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode gekommenen und ermöglicht es ihnen so, ihre letzte Reise in die Anderlande zu beginnen. | Normal | 2   | 5   | 3 Aura \* Stufe, 10 Balsam |     |
+| N   | J   | N   | N   | J   | N   | N   | [Seelenkopie] | Dieser mächtige Zauber kann einen Magier vor dem sicheren Tod bewahren. | Normal | 9   | 5   | 100 Aura, 20 permanente Aura, 5 Drachenblut, 20 Seide |     |
+| N   | J   | N   | J   | N   | N   | N   | [Segen der Erde] | Für dieses Ernteritual sendet der Druide seine arkane Energie entlang der astralen Kraftlinien der gesamten Umgebung, um selbst weit entfernte Naturgeister zu erreichen. | Normal | 3   | 5   | 1 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | J   | N   | N   | N   | [Segne Steinkreis] | Dieses Ritual segnet einen Steinkreis, der zuvor aus Steinen und etwas Holz gebaut werden muss. | Normal | 11  | 5   | 350 Aura, 5 permanente Aura |     |
+| J   | J   | J   | J   | J   | J   | J   | [Starkes Tor und feste Mauer] | Mit dieser Formel bindet der Magier zu Beginn eines Kampfes einige Elementargeister des Fels in die Mauern des Gebäudes, in dem er sich gerade befindet. | K-Prä | 8   | 5   | 2 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Stehle Aura] | Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen dessen Willen entziehen und sich selber zuführen. | Normal | 6   | 3   | 2 Aura \* Stufe | Fern |
+| N   | J   | N   | N   | N   | N   | N   | [Säurenebel] | Tötet die Feinde mit Säure. | Kampf | 8   | 5   | 2 Aura |     |
+| N   | J   | N   | N   | J   | N   | N   | [Tod des Geistes] | Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an. | K-Prä | 11  | 5   | 2 Aura \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Todeswolke] | Mit einem düsteren Ritual und unter Opferung seines eigenen Blutes beschwört der Schwarzmagier einen großen Geist von der Elementarebene der Gifte. | Normal | 11  | 5   | 40 Aura, 15 Trefferpunkte | Fern |
+| N   | J   | N   | N   | N   | N   | N   | [Traum der Magie] | Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen. | Normal | 3   | 1   | 2 Aura | Schiff |
+| N   | J   | N   | N   | J   | N   | N   | [Traumbilder entwirren] | Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren. | Normal | 8   | 2   | 6 Aura \* Stufe | Fern, Schiff |
+| N   | J   | N   | N   | J   | N   | N   | [Traumdeuten] | Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opfers ein und kann so seine intimsten Geheimnisse ausspähen. | Normal | 7   | 5   | 20 Aura |     |
+| N   | J   | N   | N   | J   | N   | N   | [Traumlesen] | Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten. | Normal | 4   | 5   | 8 Aura | Fern |
+| N   | J   | N   | N   | J   | N   | N   | [Traumschlößchen] | Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebäudes erzeugen. | Normal | 3   | 5   | 3 Aura |     |
+| N   | J   | N   | N   | J   | N   | N   | [Traumsenden] | Der Zauberer sendet dem Ziel des Spruches einen Traum. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Unheilige Kraft] | Nur geflüstert wird dieses Ritual an den dunklen Akademien an die Adepten weitergegeben, gehört es doch zu den finstersten, die je niedergeschrieben wurden. | Normal | 14  | 5   | 10 Aura \* Stufe, 5 Bauern \* Stufe |     |
+| N   | J   | N   | N   | N   | J   | N   | [Untote Helden] | Dieses Ritual bindet die bereits entfliehenden Seelen einiger Kampfopfer an ihren toten Körper, wodurch sie zu untoten Leben wiedererweckt werden. | K-Post | 9   | 5   | 1 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Vertrauten rufen] | Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird. | Normal | 9   | 5   | 100 Aura, 5 permanente Aura |     |
+| N   | J   | N   | N   | N   | J   | N   | [Verwünschung] | Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht. | Normal | 1   | 5   | 1 Aura \* Stufe |     |
+| N   | J   | N   | J   | N   | N   | N   | [Viehheilung] | Die Fähigkeiten der Gwyrrd-Magier in der Viehzucht und Heilung sind bei den Bauern sehr begehrt. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | N   | N   | J   | N   | [Wahnsinn des Krieges] | Vor den Augen der feindlichen Soldaten opfert der Schwarzmagier die zehn Bauern in einem blutigen, grausamen Ritual und beschwört auf diese Weise Geister des Wahnsinns über die feindlichen Truppen. | K-Prä | 8   | 5   | 3 Aura \* Stufe, 10 Bauern |     |
+| N   | J   | N   | N   | J   | N   | N   | [Wahrsagen] | Niemand kann so gut die Träume deuten wie ein Magier des Illaun. | Normal | 1   | 5   | 1 Aura \* Stufe | Schiff |
+| N   | J   | N   | N   | J   | N   | N   | [Wiederbelebung] | Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen. | K-Post | 5   | 4   | 1 Aura \* Stufe |     |
+| N   | J   | N   | J   | N   | N   | N   | [Windschild] | Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden. | K-Prä | 4   | 5   | 2 Aura \* Stufe |     |
+| J   | J   | J   | J   | J   | J   | J   | [Wirbelwind] | Diese Beschwörung öffnet ein Tor in die Ebene der Elementargeister des Windes. | K-Prä | 5   | 5   | 15 Aura |     |
+| N   | J   | N   | J   | N   | N   | N   | [Wolfsgeheul] | Nicht wenige Druiden freunden sich im Laufe ihres Lebens in der Natur mit den ältesten Freunden der großen Völker an. | K-Prä | 7   | 5   | 2 Aura \* Stufe |     |
+| J   | J   | J   | N   | J   | J   | J   | [Zeitdehnung] | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern. | Normal | 11  | 5   | 5 Aura \* Stufe | Schiff |
+
+[Astrale Schwächezone]: /Zauberbeschreibungen_E3#Astrale_Schwächezone "Zauberbeschreibungen E3"
+[Astraler Riss]: /Zauberbeschreibungen_E3#Astraler_Riss "Zauberbeschreibungen E3"
+[Astrales Chaos]: /Zauberbeschreibungen_E3#Astrales_Chaos "Zauberbeschreibungen E3"
+[Astralschutzgeister]: /Zauberbeschreibungen_E3#Astralschutzgeister "Zauberbeschreibungen E3"
+[Aufruhr beschwichtigen]: /Zauberbeschreibungen_E3#Aufruhr_beschwichtigen "Zauberbeschreibungen E3"
+[Aufruhr verursachen]: /Zauberbeschreibungen_E3#Aufruhr_verursachen "Zauberbeschreibungen E3"
+[Auratransfer]: /Zauberbeschreibungen_E3#Auratransfer "Zauberbeschreibungen E3"
+[Aushorchen]: /Zauberbeschreibungen_E3#Aushorchen "Zauberbeschreibungen E3"
+[Bannlied]: /Zauberbeschreibungen_E3#Bannlied "Zauberbeschreibungen E3"
+[Belebtes Gestein]: /Zauberbeschreibungen_E3#Belebtes_Gestein "Zauberbeschreibungen E3"
+[Bergwächter]: /Zauberbeschreibungen_E3#Bergwächter "Zauberbeschreibungen E3"
+[Beschleunigung]: /Zauberbeschreibungen_E3#Beschleunigung "Zauberbeschreibungen E3"
+[Beschwöre Schattendämonen]: /Zauberbeschreibungen_E3#Beschwöre_Schattendämonen "Zauberbeschreibungen E3"
+[Beschwöre Schattenmeister]: /Zauberbeschreibungen_E3#Beschwöre_Schattenmeister "Zauberbeschreibungen E3"
+[Beschwöre einen Erdelementar]: /Zauberbeschreibungen_E3#Beschwöre_einen_Erdelementar "Zauberbeschreibungen E3"
+[Beschwöre einen Sturmelementar]: /Zauberbeschreibungen_E3#Beschwöre_einen_Sturmelementar "Zauberbeschreibungen E3"
+[Beschwörung eines Hitzeelementar]: /Zauberbeschreibungen_E3#Beschwörung_eines_Hitzeelementar "Zauberbeschreibungen E3"
+[Beschwörung eines Wasserelementares]: /Zauberbeschreibungen_E3#Beschwörung_eines_Wasserelementares "Zauberbeschreibungen E3"
+[Blick des Basilisken]: /Zauberbeschreibungen_E3#Blick_des_Basilisken "Zauberbeschreibungen E3"
+[Blutrausch]: /Zauberbeschreibungen_E3#Blutrausch "Zauberbeschreibungen E3"
+[Braue Bauernblut]: /Zauberbeschreibungen_E3#Braue_Bauernblut "Zauberbeschreibungen E3"
+[Braue Elixier der Macht]: /Zauberbeschreibungen_E3#Braue_Elixier_der_Macht "Zauberbeschreibungen E3"
+[Braue Heiltrank]: /Zauberbeschreibungen_E3#Braue_Heiltrank "Zauberbeschreibungen E3"
+[Braue Pferdeglück]: /Zauberbeschreibungen_E3#Braue_Pferdeglück "Zauberbeschreibungen E3"
+[Braue Schaffenstrunk]: /Zauberbeschreibungen_E3#Braue_Schaffenstrunk "Zauberbeschreibungen E3"
+[Braue Siebenmeilentee]: /Zauberbeschreibungen_E3#Braue_Siebenmeilentee "Zauberbeschreibungen E3"
+[Braue Wasser des Lebens]: /Zauberbeschreibungen_E3#Braue_Wasser_des_Lebens "Zauberbeschreibungen E3"
+[Braue Wundsalbe]: /Zauberbeschreibungen_E3#Braue_Wundsalbe "Zauberbeschreibungen E3"
+[Chaosfluch]: /Zauberbeschreibungen_E3#Chaosfluch "Zauberbeschreibungen E3"
+[Drachenruf]: /Zauberbeschreibungen_E3#Drachenruf "Zauberbeschreibungen E3"
+[Eisiger Drachenodem]: /Zauberbeschreibungen_E3#Eisiger_Drachenodem "Zauberbeschreibungen E3"
+[Eisnebel]: /Zauberbeschreibungen_E3#Eisnebel "Zauberbeschreibungen E3"
+[Erschaffe Antimagiekristall]: /Zauberbeschreibungen_E3#Erschaffe_Antimagiekristall "Zauberbeschreibungen E3"
+[Erschaffe Eisengolems]: /Zauberbeschreibungen_E3#Erschaffe_Eisengolems "Zauberbeschreibungen E3"
+[Erschaffe Steingolems]: /Zauberbeschreibungen_E3#Erschaffe_Steingolems "Zauberbeschreibungen E3"
+[Erschaffe ein Amulett des wahren Sehens]: /Zauberbeschreibungen_E3#Erschaffe_ein_Amulett_des_wahren_Sehens "Zauberbeschreibungen E3"
+[Erschaffe ein Traumauge]: /Zauberbeschreibungen_E3#Erschaffe_ein_Traumauge "Zauberbeschreibungen E3"
+[Erschaffe einen Aurafocus]: /Zauberbeschreibungen_E3#Erschaffe_einen_Aurafocus "Zauberbeschreibungen E3"
+[Erschaffe einen Beutel des Negativen Gewichts]: /Zauberbeschreibungen_E3#Erschaffe_einen_Beutel_des_Negativen_Gewichts "Zauberbeschreibungen E3"
+[Erschaffe einen Gürtel der Trollstärke]: /Zauberbeschreibungen_E3#Erschaffe_einen_Gürtel_der_Trollstärke "Zauberbeschreibungen E3"
+[Erschaffe einen Ring der Macht]: /Zauberbeschreibungen_E3#Erschaffe_einen_Ring_der_Macht "Zauberbeschreibungen E3"
+[Erschaffe einen Ring der Regeneration]: /Zauberbeschreibungen_E3#Erschaffe_einen_Ring_der_Regeneration "Zauberbeschreibungen E3"
+[Erschaffe einen Ring der Unsichtbarkeit]: /Zauberbeschreibungen_E3#Erschaffe_einen_Ring_der_Unsichtbarkeit "Zauberbeschreibungen E3"
+[Erwecke Ents]: /Zauberbeschreibungen_E3#Erwecke_Ents "Zauberbeschreibungen E3"
+[Feuerball]: /Zauberbeschreibungen_E3#Feuerball "Zauberbeschreibungen E3"
+[Feuersturm]: /Zauberbeschreibungen_E3#Feuersturm "Zauberbeschreibungen E3"
+[Feuerteufel]: /Zauberbeschreibungen_E3#Feuerteufel "Zauberbeschreibungen E3"
+[Feuerwalze]: /Zauberbeschreibungen_E3#Feuerwalze "Zauberbeschreibungen E3"
+[Feuerwand]: /Zauberbeschreibungen_E3#Feuerwand "Zauberbeschreibungen E3"
+[Fluch brechen]: /Zauberbeschreibungen_E3#Fluch_brechen "Zauberbeschreibungen E3"
+[Fluch der Pestilenz]: /Zauberbeschreibungen_E3#Fluch_der_Pestilenz "Zauberbeschreibungen E3"
+[Friedenslied]: /Zauberbeschreibungen_E3#Friedenslied "Zauberbeschreibungen E3"
+[Furchteinflößende Aura]: /Zauberbeschreibungen_E3#Furchteinflößende_Aura "Zauberbeschreibungen E3"
+[Gabe des Chaos]: /Zauberbeschreibungen_E3#Gabe_des_Chaos "Zauberbeschreibungen E3"
+[Gaukeleien]: /Zauberbeschreibungen_E3#Gaukeleien "Zauberbeschreibungen E3"
+[Geister bannen]: /Zauberbeschreibungen_E3#Geister_bannen "Zauberbeschreibungen E3"
+[Gesang der Angst]: /Zauberbeschreibungen_E3#Gesang_der_Angst "Zauberbeschreibungen E3"
+[Gesang der Friedfertigkeit]: /Zauberbeschreibungen_E3#Gesang_der_Friedfertigkeit "Zauberbeschreibungen E3"
+[Gesang der Furcht]: /Zauberbeschreibungen_E3#Gesang_der_Furcht "Zauberbeschreibungen E3"
+[Gesang der Versklavung]: /Zauberbeschreibungen_E3#Gesang_der_Versklavung "Zauberbeschreibungen E3"
+[Gesang der Verwirrung]: /Zauberbeschreibungen_E3#Gesang_der_Verwirrung "Zauberbeschreibungen E3"
+[Gesang des schwachen Geistes]: /Zauberbeschreibungen_E3#Gesang_des_schwachen_Geistes "Zauberbeschreibungen E3"
+[Gesang des wachen Geistes]: /Zauberbeschreibungen_E3#Gesang_des_wachen_Geistes "Zauberbeschreibungen E3"
+[Gestaltwandlung]: /Zauberbeschreibungen_E3#Gestaltwandlung "Zauberbeschreibungen E3"
+[Grauen der Schlacht]: /Zauberbeschreibungen_E3#Grauen_der_Schlacht "Zauberbeschreibungen E3"
+[Großer Drachenodem]: /Zauberbeschreibungen_E3#Großer_Drachenodem "Zauberbeschreibungen E3"
+[Hagel]: /Zauberbeschreibungen_E3#Hagel "Zauberbeschreibungen E3"
+[Hainzauber]: /Zauberbeschreibungen_E3#Hainzauber "Zauberbeschreibungen E3"
+[Heiliger Boden]: /Zauberbeschreibungen_E3#Heiliger_Boden "Zauberbeschreibungen E3"
+[Heilung]: /Zauberbeschreibungen_E3#Heilung "Zauberbeschreibungen E3"
+[Heimstein]: /Zauberbeschreibungen_E3#Heimstein "Zauberbeschreibungen E3"
+[Heldengesang]: /Zauberbeschreibungen_E3#Heldengesang "Zauberbeschreibungen E3"
+[Hohe Kunst der Überzeugung]: /Zauberbeschreibungen_E3#Hohe_Kunst_der_Überzeugung "Zauberbeschreibungen E3"
+[Hohes Lied der Gaukelei]: /Zauberbeschreibungen_E3#Hohes_Lied_der_Gaukelei "Zauberbeschreibungen E3"
+[Kleine Flüche]: /Zauberbeschreibungen_E3#Kleine_Flüche "Zauberbeschreibungen E3"
+[Kleines Blutopfer]: /Zauberbeschreibungen_E3#Kleines_Blutopfer "Zauberbeschreibungen E3"
+[Kriegsgesang]: /Zauberbeschreibungen_E3#Kriegsgesang "Zauberbeschreibungen E3"
+[Lebenslied festigen]: /Zauberbeschreibungen_E3#Lebenslied_festigen "Zauberbeschreibungen E3"
+[Lied der Heilung]: /Zauberbeschreibungen_E3#Lied_der_Heilung "Zauberbeschreibungen E3"
+[Lied der Verführung]: /Zauberbeschreibungen_E3#Lied_der_Verführung "Zauberbeschreibungen E3"
+[Luftschiff]: /Zauberbeschreibungen_E3#Luftschiff "Zauberbeschreibungen E3"
+[Magie analysieren]: /Zauberbeschreibungen_E3#Magie_analysieren "Zauberbeschreibungen E3"
+[Magiefresser]: /Zauberbeschreibungen_E3#Magiefresser "Zauberbeschreibungen E3"
+[Magischer Pfad]: /Zauberbeschreibungen_E3#Magischer_Pfad "Zauberbeschreibungen E3"
+[Mahlstrom]: /Zauberbeschreibungen_E3#Mahlstrom "Zauberbeschreibungen E3"
+[Mauern der Ewigkeit]: /Zauberbeschreibungen_E3#Mauern_der_Ewigkeit "Zauberbeschreibungen E3"
+[Meteorregen]: /Zauberbeschreibungen_E3#Meteorregen "Zauberbeschreibungen E3"
+[Miriams flinke Finger]: /Zauberbeschreibungen_E3#Miriams_flinke_Finger "Zauberbeschreibungen E3"
+[Mob aufwiegeln]: /Zauberbeschreibungen_E3#Mob_aufwiegeln "Zauberbeschreibungen E3"
+[Monster friedlich stimmen]: /Zauberbeschreibungen_E3#Monster_friedlich_stimmen "Zauberbeschreibungen E3"
+[Mächte des Todes]: /Zauberbeschreibungen_E3#Mächte_des_Todes "Zauberbeschreibungen E3"
+[Opfere Kraft]: /Zauberbeschreibungen_E3#Opfere_Kraft "Zauberbeschreibungen E3"
+[Pentagramm]: /Zauberbeschreibungen_E3#Pentagramm "Zauberbeschreibungen E3"
+[Plappermaul]: /Zauberbeschreibungen_E3#Plappermaul "Zauberbeschreibungen E3"
+[Regentanz]: /Zauberbeschreibungen_E3#Regentanz "Zauberbeschreibungen E3"
+[Rindenhaut]: /Zauberbeschreibungen_E3#Rindenhaut "Zauberbeschreibungen E3"
+[Ritual der Aufnahme]: /Zauberbeschreibungen_E3#Ritual_der_Aufnahme "Zauberbeschreibungen E3"
+[Rosthauch]: /Zauberbeschreibungen_E3#Rosthauch "Zauberbeschreibungen E3"
+[Rostregen]: /Zauberbeschreibungen_E3#Rostregen "Zauberbeschreibungen E3"
+[Runen des Schutzes]: /Zauberbeschreibungen_E3#Runen_des_Schutzes "Zauberbeschreibungen E3"
+[Rüstschild]: /Zauberbeschreibungen_E3#Rüstschild "Zauberbeschreibungen E3"
+[Schattenodem]: /Zauberbeschreibungen_E3#Schattenodem "Zauberbeschreibungen E3"
+[Schattenritter]: /Zauberbeschreibungen_E3#Schattenritter "Zauberbeschreibungen E3"
+[Schild des Fisches]: /Zauberbeschreibungen_E3#Schild_des_Fisches "Zauberbeschreibungen E3"
+[Schlaf]: /Zauberbeschreibungen_E3#Schlaf "Zauberbeschreibungen E3"
+[Schlechte Träume]: /Zauberbeschreibungen_E3#Schlechte_Träume "Zauberbeschreibungen E3"
+[Schlechter Schlaf]: /Zauberbeschreibungen_E3#Schlechter_Schlaf "Zauberbeschreibungen E3"
+[Schleieraura]: /Zauberbeschreibungen_E3#Schleieraura "Zauberbeschreibungen E3"
+[Schockwelle]: /Zauberbeschreibungen_E3#Schockwelle "Zauberbeschreibungen E3"
+[Schutz vor Magie]: /Zauberbeschreibungen_E3#Schutz_vor_Magie "Zauberbeschreibungen E3"
+[Schutzzauber]: /Zauberbeschreibungen_E3#Schutzzauber "Zauberbeschreibungen E3"
+[Schwere Glieder]: /Zauberbeschreibungen_E3#Schwere_Glieder "Zauberbeschreibungen E3"
+[Schöne Träume]: /Zauberbeschreibungen_E3#Schöne_Träume "Zauberbeschreibungen E3"
+[Seelenfrieden]: /Zauberbeschreibungen_E3#Seelenfrieden "Zauberbeschreibungen E3"
+[Seelenkopie]: /Zauberbeschreibungen_E3#Seelenkopie "Zauberbeschreibungen E3"
+[Segen der Erde]: /Zauberbeschreibungen_E3#Segen_der_Erde "Zauberbeschreibungen E3"
+[Segne Steinkreis]: /Zauberbeschreibungen_E3#Segne_Steinkreis "Zauberbeschreibungen E3"
+[Starkes Tor und feste Mauer]: /Zauberbeschreibungen_E3#Starkes_Tor_und_feste_Mauer "Zauberbeschreibungen E3"
+[Stehle Aura]: /Zauberbeschreibungen_E3#Stehle_Aura "Zauberbeschreibungen E3"
+[Säurenebel]: /Zauberbeschreibungen_E3#Säurenebel "Zauberbeschreibungen E3"
+[Tod des Geistes]: /Zauberbeschreibungen_E3#Tod_des_Geistes "Zauberbeschreibungen E3"
+[Todeswolke]: /Zauberbeschreibungen_E3#Todeswolke "Zauberbeschreibungen E3"
+[Traum der Magie]: /Zauberbeschreibungen_E3#Traum_der_Magie "Zauberbeschreibungen E3"
+[Traumbilder entwirren]: /Zauberbeschreibungen_E3#Traumbilder_entwirren "Zauberbeschreibungen E3"
+[Traumdeuten]: /Zauberbeschreibungen_E3#Traumdeuten "Zauberbeschreibungen E3"
+[Traumlesen]: /Zauberbeschreibungen_E3#Traumlesen "Zauberbeschreibungen E3"
+[Traumschlößchen]: /Zauberbeschreibungen_E3#Traumschlößchen "Zauberbeschreibungen E3"
+[Traumsenden]: /Zauberbeschreibungen_E3#Traumsenden "Zauberbeschreibungen E3"
+[Unheilige Kraft]: /Zauberbeschreibungen_E3#Unheilige_Kraft "Zauberbeschreibungen E3"
+[Untote Helden]: /Zauberbeschreibungen_E3#Untote_Helden "Zauberbeschreibungen E3"
+[Vertrauten rufen]: /Zauberbeschreibungen_E3#Vertrauten_rufen "Zauberbeschreibungen E3"
+[Verwünschung]: /Zauberbeschreibungen_E3#Verwünschung "Zauberbeschreibungen E3"
+[Viehheilung]: /Zauberbeschreibungen_E3#Viehheilung "Zauberbeschreibungen E3"
+[Wahnsinn des Krieges]: /Zauberbeschreibungen_E3#Wahnsinn_des_Krieges "Zauberbeschreibungen E3"
+[Wahrsagen]: /Zauberbeschreibungen_E3#Wahrsagen "Zauberbeschreibungen E3"
+[Wiederbelebung]: /Zauberbeschreibungen_E3#Wiederbelebung "Zauberbeschreibungen E3"
+[Windschild]: /Zauberbeschreibungen_E3#Windschild "Zauberbeschreibungen E3"
+[Wirbelwind]: /Zauberbeschreibungen_E3#Wirbelwind "Zauberbeschreibungen E3"
+[Wolfsgeheul]: /Zauberbeschreibungen_E3#Wolfsgeheul "Zauberbeschreibungen E3"
+[Zeitdehnung]: /Zauberbeschreibungen_E3#Zeitdehnung "Zauberbeschreibungen E3"
+
+<sup>T</sup> Tybied  
+<sup>N</sup> Kein Magiegebiet  
+<sup>A</sup> Gemein  
+<sup>G</sup> Gwyrrd  
+<sup>I</sup> Illaun  
+<sup>D</sup> Draig  
+<sup>C</sup> Cerddor  
+<sup>V</sup> Kann nicht vom Vertrauten gezaubert werden  
+
+Abgerufen von „[https://wiki.eressea.de/index.php?title=Zauberliste\_E3&oldid=6023]“
+
+  [Zur Navigation springen]: #column-one
+  [Zur Suche springen]: #searchInput
+  [https://wiki.eressea.de/index.php?title=Zauberliste\_E3&oldid=6023]: https://wiki.eressea.de/index.php?title=Zauberliste_E3&oldid=6023

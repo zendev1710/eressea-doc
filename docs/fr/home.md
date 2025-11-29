@@ -1,0 +1,109 @@
+# Accueil
+
+Bienvenue dans [Eressea]!
+
+Dans ce wiki, nous rassemblons les informations pour les joueurs d'Eressea.
+
+Cette documentation est **en construction**! Si vous souhaitez contribuer, n'hésitez pas à nous rejoindre sur le serveur [Discord] d'Eressea.
+
+## Ce qu'on y trouve
+
+- Les [règles]
+- [Inscription au jeu]
+- [E-Announce][]: la mailing list pour les modifications de règles — IMPORTANT!
+- [Outils pour jouer]
+- [Conseils pour les débutants]
+- The [L'histoire Eressea]
+- Eressea provient d'[Atlantis]
+- [Frequently asked questions] au maître de jeu.
+
+## Liens à visiter
+
+- [Séquence des ordres] - la page la plus importante des règles !
+- [Tactics] - Combien de tacticiens pour quels bonus
+- [Familiers] - Tout sur ces créatures magiques
+- [Développement] d'outils et de scripts
+- [Xontormia Express] - la gazette et ses [numéros archivés]
+- Les archives des [annonces] de changements de règles
+- [pages de joueurs]
+- [Tu joues trop à Eressea si ...]
+
+## Listes des jeux
+
+### E2
+
+Le jeu se déroule sans fin depuis 1996. Depuis quelques changements de règles en 2000, il est nommé "Le deuxième âge", en abrégé E2.
+
+### E3
+
+Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat. Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele. Das Spiel endete am 11. August 2019 nach 517 Auswertungen.
+
+- [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]
+- [Eine Liste aller Regeländerungen gegenüber dem alten Eressea-Spiel][Das dritte Zeitalter]
+- [Ankündigungen aus der e3-announce Mailingliste]
+
+#### Deveron
+
+Am 19. April 2014 begann eine neue Partie names [Deveron] für Ennos [Patreon-Förderer]. Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien. Sie endete mit Auswertung 243 am 2. März 2019.
+
+#### Drachensgrab
+
+Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 ZAT pro Woche und kleinen Änderungen.
+
+- [Thread im Forum]
+- [Regeln]
+
+## Liens vers d'autres sites
+
+- [Eressea home page]
+- [**Inscription for E2 !**]
+- Serveur [Discord]. Tu pourras trouver ici des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.
+- [Forum] d'Eressea (ancien)
+- [Mantis] - signaler des bugs
+- [Magellan]
+- [CSMapFX]
+- [Ralf Duckstein's Eressea wiki]
+- [Eressea on Wikipedia]
+- La fameuse [carte du monde connu]
+- [Who is Who of Eressea (in the Internet Archive, in German)]
+- [Un génerateur de casus belli]
+
+<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
+
+  [Eressea]: /Spezial:Meine_Sprache/Eressea "Spezial:Meine Sprache/Eressea"
+  [Discord]: https://discord.gg/KT5Fffh
+  [règles]: /Spezial:Meine_Sprache/Regeln "Spezial:Meine Sprache/Regeln"
+  [Inscription au jeu]: https://www.eressea.de/?page_id=186
+  [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+  [Outils pour jouer]: /Spezial:Meine_Sprache/Hilfsmittel "Spezial:Meine Sprache/Hilfsmittel"
+  [Conseils pour les débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Spezial:Meine Sprache/Anfängertipps"
+  [L'histoire Eressea]: /Spezial:Meine_Sprache/Geschichte_von_Eressea "Spezial:Meine Sprache/Geschichte von Eressea"
+  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Spezial:Meine Sprache/Atlantis"
+  [Frequently asked questions]: /Spezial:Meine_Sprache/FAQ "Spezial:Meine Sprache/FAQ"
+  [Séquence des ordres]: /Spezial:Meine_Sprache/Befehlsreihenfolge "Spezial:Meine Sprache/Befehlsreihenfolge"
+  [Tactics]: /Spezial:Meine_Sprache/Taktik "Spezial:Meine Sprache/Taktik"
+  [Familiers]: /Spezial:Meine_Sprache/Vertraute "Spezial:Meine Sprache/Vertraute"
+  [Développement]: /Spezial:Meine_Sprache/Entwicklung "Spezial:Meine Sprache/Entwicklung"
+  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Spezial:Meine Sprache/Xontormia Express"
+  [numéros archivés]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
+  [annonces]: /Spezial:Meine_Sprache/Ank%C3%BCndigungen "Spezial:Meine Sprache/Ankündigungen"
+  [pages de joueurs]: /Spezial:Meine_Sprache/Spielerseiten "Spezial:Meine Sprache/Spielerseiten"
+  [Tu joues trop à Eressea si ...]: /Spezial:Meine_Sprache/Du_spielst_zuviel_Eressea,_wenn... "Spezial:Meine Sprache/Du spielst zuviel Eressea, wenn..."
+  [Das dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+  [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
+  [Ankündigungen aus der e3-announce Mailingliste]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"
+  [Deveron]: /index.php?title=Deveron&action=edit&redlink=1 "Deveron (Seite nicht vorhanden)"
+  [Patreon-Förderer]: https://www.patreon.com/enno
+  [Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+  [Regeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
+  [Eressea home page]: https://www.eressea.de
+  [**Inscription for E2 !**]: https://www.eressea.de/?page_id=189&lang=en
+  [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+  [Mantis]: https://bugs.eressea.de/
+  [Magellan]: https://magellan2.github.io
+  [CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+  [Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
+  [Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
+  [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
+  [Who is Who of Eressea (in the Internet Archive, in German)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
+  [Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/

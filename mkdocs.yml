@@ -1,0 +1,43 @@
+site_name: Eressea
+site_url: https://zendev1710.github.io/eressea-doc
+site_author: zendev1710
+
+theme:
+  name: material
+# language: en
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+      docs_structure: folder
+      build_only_locale: !ENV [BUILD_ONLY_LOCALE]
+
+# https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/?h=language
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Français
+      link: /fr/ 
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+nav:
+  - Home: home.md
+  - Getting Started: introduction.md
+  - Rules: rules.md
+

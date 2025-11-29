@@ -1,0 +1,71 @@
+# Talentmodifikatoren
+
+Die verschiedenen [Rassen] haben neben ihren Spezialfähigkeiten unterschiedliche Rekrutierungskosten und Modifikatoren auf [Talente]. Diese sind in dieser Tabelle zusammengefasst. Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird immer die effektive Stufe angezeigt.
+
+|     |     |     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Rassenmodifikatoren
+| Talent | [Zwerge] | [Orks] | [Elfen] | [Katzen] | [Dämonen] | [Halblinge] | [Menschen] | [Goblins] | [Insekten] | [Trolle] | [Meerm.] |
+| Rekrutierungskosten | 110 | 70  | 130 | 90  | 150 | 80  | 75  | 40  | 80  | 90  | 80  |
+| Trefferpunkte | 24  | 24  | 18  | 20  | 50  | 18  | 20  | 16  | 24  | 30  | 20  |
+| nat. Rüstung | 0   | 0   | 0   | 0   | 2   | 0   | 0   | 0   | 2   | 1   | 0   |
+| Regeneration | 5%  | 5%  | 5%  | 5%  | 7.5% | 5%  | 5%  | 10% | 5%  | 7.5% | 5%  |
+| Magieresistenz | 5   | \-5 | 10  | 0   | 15  | 5   | 0   | \-5 | 5   | 10  | 0   |
+| Alchemie | 0   | +1  | \-1 | \-1 | +2  | 0   | 0   | +1  | 0   | 0   | 0   |
+| Armbrustschießen | 0   | 0   | 0   | 0   | 0   | +1  | 0   | 0   | +1  | 0   | 0   |
+| Ausdauer | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| Bergbau | +2  | +1  | \-2 | \-2 | 0   | +1  | 0   | +1  | +1  | +2  | \-2 |
+| Bogenschießen | \-1 | 0   | +2  | 0   | 0   | \-1 | 0   | 0   | \-2 | \-2 | 0   |
+| Burgenbau | +2  | +1  | \-1 | \-1 | 0   | +1  | 0   | +1  | +2  | +2  | \-1 |
+| Handeln | +1  | \-3 | 0   | 0   | \-3 | +2  | +1  | \-1 | \-1 | 0   | +2  |
+| Hiebwaffen | +1  | 0   | 0   | 0   | +1  | \-1 | 0   | 0   | \-1 | +1  | 0   |
+| Holzfällen | \-1 | +1  | 0   | 0   | +1  | 0   | 0   | 0   | +1  | 0   | 0   |
+| Katapultbedienung | +2  | 0   | \-2 | \-1 | 0   | \-1 | 0   | +1  | 0   | +2  | 0   |
+| Kräuterkunde | \-2 | \-2 | +2  | +1  | \-3 | +2  | \-1 | 0   | +1  | \-1 | 0   |
+| Magie | \-2 | \-1 | +1  | 0   | +1  | 0   | 0   | \-1 | 0   | 0   | 0   |
+| Pferdedressur | \-2 | \-1 | +1  | 0   | \-3 | \-1 | 0   | 0   | \-3 | \-1 | 0   |
+| Reiten | \-2 | 0   | 0   | 0   | \-1 | \-1 | 0   | 0   | \-3 | \-2 | 0   |
+| Rüstungsbau | +2  | +1  | \-1 | \-1 | 0   | 0   | 0   | 0   | +2  | +2  | \-1 |
+| Schiffbau | \-1 | \-1 | \-1 | \-1 | \-1 | \-1 | +1  | \-2 | 0   | \-1 | +3  |
+| Segeln | \-2 | \-1 | \-1 | \-2 | \-1 | \-2 | +1  | \-2 | 0   | \-1 | +3  |
+| Spionage | 0   | \-1 | 0   | +2  | 0   | +1  | 0   | 0   | 0   | \-3 | 0   |
+| Stangenwaffen | 0   | 0   | 0   | 0   | +1  | \-1 | 0   | 0   | +1  | 0   | 0   |
+| Steinbau | +2  | +1  | \-1 | \-1 | 0   | 0   | 0   | 0   | 0   | +2  | 0   |
+| Steuereintreiben | +1  | +1  | 0   | +1  | +1  | \-1 | 0   | 0   | 0   | +1  | 0   |
+| Straßenbau | +2  | 0   | \-1 | \-1 | 0   | +1  | 0   | \-2 | \-1 | +2  | \-1 |
+| Taktik | 0   | +1  | 0   | 0   | \-1 | 0   | 0   | \-2 | \-1 | \-1 | 0   |
+| Tarnung | \-1 | 0   | +1  | +1  | +1  | +1  | 0   | +1  | \-1 | \-3 | 0   |
+| Unterhaltung | \-1 | \-2 | 0   | 0   | \-3 | +1  | 0   | \-1 | \-2 | \-1 | 0   |
+| Waffenbau | +2  | +2  | 0   | 0   | +1  | 0   | 0   | 0   | 0   | 0   | 0   |
+| Wagenbau | 0   | \-1 | 0   | 0   | \-2 | +2  | 0   | \-1 | 0   | 0   | 0   |
+| Wahrnehmung | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
+
+[Zwerge]: /Spezial:Meine_Sprache/Zwerge "Spezial:Meine Sprache/Zwerge"
+[Orks]: /Spezial:Meine_Sprache/Orks "Spezial:Meine Sprache/Orks"
+[Elfen]: /Spezial:Meine_Sprache/Elfen "Spezial:Meine Sprache/Elfen"
+[Katzen]: /Spezial:Meine_Sprache/Katzen "Spezial:Meine Sprache/Katzen"
+[Dämonen]: /Spezial:Meine_Sprache/Rassen#Dämonen "Spezial:Meine Sprache/Rassen"
+[Halblinge]: /Spezial:Meine_Sprache/Halblinge "Spezial:Meine Sprache/Halblinge"
+[Menschen]: /Spezial:Meine_Sprache/Menschen "Spezial:Meine Sprache/Menschen"
+[Goblins]: /Spezial:Meine_Sprache/Goblins "Spezial:Meine Sprache/Goblins"
+[Insekten]: /Spezial:Meine_Sprache/Insekten "Spezial:Meine Sprache/Insekten"
+[Trolle]: /Spezial:Meine_Sprache/Trolle "Spezial:Meine Sprache/Trolle"
+[Meerm.]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
+
+|     |     |
+| --- | --- |
+| Weiterlesen: | [Talente] |
+
+[Talente]: ./skills.md "Spezial:Meine Sprache/Talente"
+
+Abgerufen von „[https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857]“
+
+[Kategorien][]:
+
+- [Regeln]
+- [Rassen][1]
+
+  [Rassen]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
+  [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857]: https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857
+  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
+  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+  [1]: /Kategorie:Rassen "Kategorie:Rassen"

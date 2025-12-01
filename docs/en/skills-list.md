@@ -141,7 +141,7 @@ The unit is always on the lookout for camouflaged units. For example this allows
 [trade]: /Spezial:Meine_Sprache/Handel "Handel"
 [BUY]: ./cmd-buy.md "BUY"
 [1]: ./resources.md#Tief_im_Wald "Resources"
-[`RESEARCH HERBS`]: ./cmd-search.md "RESEARCH"
+[`RESEARCH HERBS`]: ./cmd-research.md "RESEARCH"
 [`MAKE SEEDS`]: ./cmd-make.md "MAKE"
 [production]: ./production.md "Produktion"
 [`PLANT`]: ./cmd-plant.md "PLANT"

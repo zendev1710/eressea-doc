@@ -12,11 +12,7 @@ MkDocs project for Eressea documentation.
 | buildings-others     |  X  |  X  |  X  | andere_gebäude                 |
 | castles              |  X  |  X  |  X  | burg                           |
 | camouflage           |  X  |  NT |  X  | tarnung                        |
-| cmd-follow           |     |  X  |  X  |                                |
-| cmd-give             |     |  X  |  X  |                                |
-| cmd-make             |     |  X  |  X  |                                |
-| cmd-work             |  X  |     |  X  |                                |
-| combat               |  X  |  X  |  X  |                                |
+| combat               |  X  |     |  X  |                                |
 | commands-list        |  X  |  NT |  NT | kurzbeschreibung               |
 | commands-send        |  X  |  NT |  NT | befehle_einschicken            |
 | commands-sequence    |  X  |  X  |  X  | befehlsreihenfolge             |
@@ -58,6 +54,59 @@ MkDocs project for Eressea documentation.
 
 Each command page can be accessed from commands page.
 
+| cmd-recruit          |  S  |     |     | REKRUTIERE                     |
+| cmd-attack           |  S  |     |     | ATTACKIERE                     |
+| cmd-name             |  S  |     |     | BENENNE                        |
+| cmd-follow           |  S  |  X  |  X  | FOLGE                          |
+| cmd-give             |  S  |  X  |  X  | GIB                            |
+| cmd-make             |  S  |  X  |  X  | MACHE                          |
+| cmd-work             |  X  |     |  X  | ARBEITE                        |
+| cmd-show             |  S  |     |     | ZEIGE                          |
+| cmd-use              |  S  |     |     | BENUTZE                        |
+| cmd-help             |  S  |     |     | HELFE                          |
+| cmd-contact          |  S  |     |     | KONTAKTIERE                    |
+| cmd-guard            |  S  |     |     | BEWACHE                        |
+| cmd-enter            |  S  |     |     | BETRETE                        |
+| cmd-hide             |  S  |     |     | TARNE                          |
+| cmd-pay-not          |  S  |     |     | BEZAHLE NICHT                  |
+| cmd-sort             |  S  |     |     | SORTIERE                       |
+| cmd-destroy          |  S  |     |     | ZERSTÖRE                       |
+| cmd-steal            |  S  |     |     | BEKLAUE                        |
+| cmd-combat           |  S  |     |     | KÄMPFE                         |
+| cmd-combatspell      |  S  |     |     | KAMPFZAUBER                    |
+| cmd-group            |  S  |     |     | GRUPPE                         |
+| cmd-promote          |  S  |     |     | BEFÖRDERE                      |
+| cmd-leave            |  S  |     |     | VERLASSE                       |
+| cmd-piracy           |  S  |     |     | PIRATERIE                      |
+| cmd-move             |  S  |     |     | NACH                           |
+| cmd-route            |  S  |     |     | ROUTE                          |
+| cmd-banner           |  S  |     |     | BANNER                         |
+| cmd-claim            |  S  |     |     | BEANSPRUCHE                    |
+| cmd-describe         |  S  |     |     | BESCHREIBE                     |
+| cmd-message          |  S  |     |     | BOTSCHAFT                      |
+| cmd-default          |  S  |     |     | DEFAULT                        |
+| cmd-email            |  S  |     |     | EMAIL                          |
+| cmd-ride             |  S  |     |     | FAHRE                          |
+| cmd-research         |  S  |     |     | FORSCHE                        |
+| cmd-buy              |  S  |     |     | KAUFE                          |
+| cmd-teach            |  S  |     |     | LEHRE                          |
+| cmd-learn            |  S  |     |     | LERNE                          |
+| cmd-number           |  S  |     |     | NUMMER                         |
+| cmd-option           |  S  |     |     | OPTION                         |
+| cmd-password         |  S  |     |     | PASSWORT                       |
+| cmd-plant            |  S  |     |     | PFLANZE                        |
+| cmd-reserve          |  S  |     |     | RESERVIERE                     |
+| cmd-spy              |  S  |     |     | SPIONIERE                      |
+| cmd-quit             |  S  |     |     | STIRB                          |
+| cmd-carry            |  S  |     |     | TRANSPORTIERE                  |
+| cmd-tax              |  S  |     |     | TREIBE                         |
+| cmd-entertain        |  S  |     |     | UNTERHALTE                     |
+| cmd-origin           |  S  |     |     | URSPRUNG                       |
+| cmd-forget           |  S  |     |     | VERGISS                        |
+| cmd-sell             |  S  |     |     | VERKAUFE                       |
+| cmd-cast             |  S  |     |     | ZAUBERE                        |
+| cmd-grow             |  S  |  S  |  S  | ZÜCHTE                         |
+
 | announcements        |     |     |     | ankündigungen                  |
 | spells-list-e3       |  X  |     |     | zauberbeschreibungen_e3        |
 | spells-list-e3 ???   |     |     |     | zauberliste_e3                 |
@@ -69,3 +118,4 @@ bad :
 
 | commands-sequence-e3      |     |     |     | befehlsreihenfolge_(e3)        |
 | reports-request-again     |     |     |     | befehle_einschicken            |
+LEARN AUTO

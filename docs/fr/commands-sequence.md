@@ -127,7 +127,7 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
   [CAST]: ./cmd-cast.md "CAST"
   [TEACH]: ./cmd-teach.md "TEACH"
   [LEARN]: ./cmd-learn.md "LEARN"
-  [RESEARCH]: ./cmd-search.md "RESEARCH"
+  [RESEARCH]: ./cmd-research.md "RESEARCH"
   [PLANT]: ./cmd-plant.md "PLANT"
   [SPY]: ./cmd-spy.md "SPIONIERE"
   [GROW]: ./cmd-grow.md "GROW"

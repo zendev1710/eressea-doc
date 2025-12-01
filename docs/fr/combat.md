@@ -12,23 +12,13 @@ Cet ordre détermine la réaction d’une unité en cas de combat (voir égaleme
 
 - `COMBATTEZ AVEC AGRESSION` : Au combat, l’unité est en première ligne et ne fuira jamais, mais se battra jusqu’à la mort. C’est un avantage considérable lorsque chaque once de puissance offensive est cruciale.
 
-
-
 - `COMBAT DE FRONTIÈRE` : En combat, l’unité est positionnée en première ligne. Elle tentera de fuir si ses points de vie sont inférieurs ou égaux à 20 %. Cet avantage est particulièrement avantageux pour les épéistes aguerris. Peut également être combiné avec `COMBAT` .
-
-
 
 - `COMBAT PAR L'ARRIÈRE` : L'unité combat en deuxième ligne. Même si le front est décimé, ces unités seront toujours engagées au corps à corps ! C'est un avantage pour les fusiliers. L'unité tentera de fuir lorsqu'il lui restera 20 % ou moins de ses points de vie.
 
-
-
 - `COMBAT DÉFENSIF` : Similaire à `RIGUER` , mais l’unité fuira lorsqu’il lui restera 90 % de ses points de vie. Ceci est avantageux pour les mages.
 
-
-
 - `NE PAS COMBATTRE` : L’unité ne combattra que si elle est elle-même la cible d’un ordre [`d’ATTAQUE`] ennemi . Ceci est avantageux pour les unités qui doivent rester hors de combat sans pour autant fuir, par exemple parce qu’elles occupent un bâtiment. L’unité tentera de fuir lorsqu’il lui restera 90 % de ses points de vie.  
-
-
 
 - `FUITE` : Si une unité dotée de ce statut de combat est engagée dans un combat, elle tentera de fuir avant chaque round. Pour plus d'informations sur le comportement de fuite, consultez la section «[Fuite] --> du chapitre « Combat ». Ce statut est avantageux pour la quasi-totalité des civils. Si un seul membre d'une unité parvient à fuir, il quitte automatiquement les bâtiments ou navires où il se trouve. Il est donc important de déterminer si ce statut est utile pour les occupants des bâtiments. Les unités dotées de ce statut ne peuvent ni [ATTAQUER][`d’ATTAQUE`] ni [GARDER] . Si une unité de garde utilise FUITE, sa mission de garde est immédiatement annulée, avec les conséquences qui en découlent. Les unités dotées de ce statut peuvent toujours se déplacer après un combat (en utilisant [les commandes VERS] , [ITINÉRAIRE] et [SUIVRE] ).
 

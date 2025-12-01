@@ -143,7 +143,7 @@ Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann ma
 [Handel]: /Spezial:Meine_Sprache/Handel "Handel"
 [KAUFE]: ./cmd-buy.md "KAUFE"
 [1]: ./resources.md#Tief_im_Wald "Rohstoffe"
-[`FORSCHE KRÄUTER`]: ./cmd-search.md "FORSCHE"
+[`FORSCHE KRÄUTER`]: ./cmd-research.md "FORSCHE"
 [`MACHE SAMEN`]: ./cmd-make.md "MACHE"
 [Produktion]: ./production.md "Produktion"
 [`PFLANZE`]: ./cmd-plant.md "PFLANZE"

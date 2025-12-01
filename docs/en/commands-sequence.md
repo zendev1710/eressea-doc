@@ -126,7 +126,7 @@ It does not mean that units leaving a ship can still attack in the same turn, as
   [CAST]: ./cmd-cast.md "CAST"
   [TEACH]: ./cmd-teach.md "TEACH"
   [LEARN]: ./cmd-learn.md "LEARN"
-  [RESEARCH]: ./cmd-search.md "RESEARCH"
+  [RESEARCH]: ./cmd-research.md "RESEARCH"
   [PLANT]: ./cmd-plant.md "PLANT"
   [SPY]: ./cmd-spy.md "SPIONIERE"
   [GROW]: ./cmd-grow.md "GROW"

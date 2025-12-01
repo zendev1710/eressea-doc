@@ -2,24 +2,6 @@
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
 
-## Sommaire
-
-- [1 Die Seiten in einer Schlacht]
-- [2 Die Schlacht]
-  - [2.1 Kampfreihen]
-  - [2.2 Überrennen]
-- [3 Die Musterung der Einheiten]
-- [4 Die Taktikerrunde]
-- [5 Helden]
-- [6 Der Kampf zwischen zwei Personen]
-  - [6.1 Fernkampf]
-  - [6.2 Boni und Mali]
-- [7 Die Flucht]
-- [8 Kampf auf und von Schiffen]
-- [9 Piraterie]
-- [10 Das Ende]
-- [11 Siehe auch]
-
 ## Die Seiten in einer Schlacht
 
 Mit dem Befehl [`ATTACKIERE`] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde].
@@ -180,27 +162,17 @@ Das Talent, mit dem Orks in den unbewaffneten Kampf gehen, bestimmt sich aus der
 
 Manche Rassen (i.A. nur Vertraute) können das Talent Unbewaffneter Kampf lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen.
 
-
-
 Burgenbonus  
 Personen in Burgen sind zusätzlich geschützt. Burginsassen erhalten je nach Größe der Burg einen Bonus bei der Parade, wenn sie zur verteidigenden Seite gehören und die Burg groß genug ist, um sie zu beherbergen. Dabei gibt eine Befestigung +1, ein Turm +2 usw. bis zur Zitadelle, die +5 gibt. Greifen die Burginsassen selber an, erhalten sie den Burgenbonus zur Parade nicht mehr. Der Burgenbonus gilt auch gegen Fernkämpfer!
-
-
 
 Pferdebonus  
 In Ebenen, Wüsten und Hochländern können Nahkämpfer in der ersten Reihe auf freiem Feld ein Pferd benutzen. Um ein Pferd in den Kampf zu reiten, braucht man ein Reiten Talent von mindestens 2. Reiter bekommen einen Bonus von +2 auf Attacke und Parade, weil sie schneller und wendiger sind. Keinen Pferdebonus erhalten Personen, die innerhalb einer Burg stehen, vom Burgenbonus profitieren und attackiert werden. Trolle können Pferde nicht im Kampf nutzen!
 
-
-
 Lanzenbonus  
 Berittene Speer- und Lanzenträger erhalten einen weiteren Bonus von +1 zur Attacke.
 
-
-
 Pikenbonus  
 Speer- und Hellebardenträger, die kein Pferd benutzen, erhalten gegen berittene Truppen einen Bonus von +1 zur Parade.
-
-
 
 Waffenmodifikatoren  
 Auch [Waffenmodifikatoren][Waffeneigenschaften] gelten in diesem Sinne als Boni und Mali.

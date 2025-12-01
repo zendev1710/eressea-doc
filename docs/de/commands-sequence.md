@@ -125,7 +125,7 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
   [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
   [LEHRE]: ./cmd-teach.md "LEHRE"
   [LERNE]: ./cmd-learn.md "LERNE"
-  [FORSCHE]: ./cmd-search.md "FORSCHE"
+  [FORSCHE]: ./cmd-research.md "FORSCHE"
   [PFLANZE]: ./cmd-plant.md "PFLANZE"
   [SPIONIERE]: ./cmd-spy.md "SPIONIERE"
   [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"

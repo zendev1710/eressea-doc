@@ -119,7 +119,7 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
   [BEKLAUE]: ./camouflage.md "BEKLAUE"
   [FAHRE]: ./cmd-ride.md "FAHRE"
   [FOLGE]: ./cmd-follow.md "FOLGE"
-  [FORSCHE]: ./cmd-search.md "FORSCHE"
+  [FORSCHE]: ./cmd-research.md "FORSCHE"
   [KAUFE]: ./cmd-buy.md "KAUFE"
   [LEHRE]: ./cmd-teach.md "LEHRE"
   [LERNE]: ./cmd-learn.md "LERNE"

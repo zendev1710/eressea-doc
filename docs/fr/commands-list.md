@@ -186,7 +186,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`RIDE <unit id>`]: ./cmd-ride.md "RIDE"
 [`FOLLOW UNIT <unit id>`]: ./cmd-follow.md "FOLLOW"
 [`FOLLOW SHIP <ship id>`]: ./cmd-follow.md "FOLLOW"
-[`RESEARCH HERBS`]: ./cmd-search.md "RESEARCH"
+[`RESEARCH HERBS`]: ./cmd-research.md "RESEARCH"
 [`GIVE <unit id> herb`]: ./cmd-give.md "GIVE"
 [`GIVE <unit id> KOMMANDO`]: ./cmd-give.md "GIVE"
 [`GIVE <unit id> UNIT`]: ./cmd-give.md "GIVE"

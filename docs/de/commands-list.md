@@ -186,7 +186,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [FAHRE einheit-nr]: ./cmd-ride.md "FAHRE"
 [FOLGE EINHEIT einheit-nr]: ./cmd-follow.md "FOLGE"
 [FOLGE SCHIFF schiff-nr]: ./cmd-follow.md "FOLGE"
-[FORSCHE KRÄUTER]: ./cmd-search.md "FORSCHE"
+[FORSCHE KRÄUTER]: ./cmd-research.md "FORSCHE"
 [GIB einheit-nr KRÄUTER]: ./cmd-give.md "GIB"
 [GIB einheit-nr KOMMANDO]: ./cmd-give.md "GIB"
 [GIB einheit-nr EINHEIT]: ./cmd-give.md "GIB"

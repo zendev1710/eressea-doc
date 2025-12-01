@@ -7,8 +7,8 @@ Il existe de nombreuses races de monstres avec des caractéristiques et des capa
 Les joueurs peuvent également, dans certaines circonstances, posséder des unités de monstres (par exemple des squelettes).
 
 <!-- TODO: achieve page compared to german page -->
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-  [Types de Morts-Vivants]: /Spezial:Meine_Sprache/Untote "Spezial:Meine Sprache/Untote"
-  [dragons]: /Spezial:Meine_Sprache/Drachen "Spezial:Meine Sprache/Drachen"
-  [Braineaters]: /Spezial:Meine_Sprache/Hirnt%C3%B6ter "Spezial:Meine Sprache/Hirntöter (Seite nicht vorhanden)"
+  [Types de Morts-Vivants]: /Spezial:Meine_Sprache/Untote "Untote"
+  [dragons]: ./monsters.md#drachen "Drachen"
+  [Braineaters]: /Spezial:Meine_Sprache/Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"

@@ -14,7 +14,7 @@ Comme les personnes (de la plupart des [Races]) peuvent porter 5,4 UW/GE, elles 
 
 Si l'on veut recruter des personnes, il faut suffisamment d'argent, car les candidats au recrutement sont souvent particulièrement avides ... Pour chaque personne recrutée, il faut dépenser, selon la race, entre 40 et 150 Silver en frais de recrutement. Le coût du recrutement dépend de la race et est indiqué dans ce [tableau][Races].
 
-Guarder empêche le recrutement (sauf HELP)
+Garder empêche le recrutement (sauf HELP)
 
 ### Frais d'entretien
 
@@ -59,7 +59,7 @@ Un paysan gagne normalement 11 Silver par tour. Ce salaire peut augmenter jusqu'
 
 Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires. Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [`WORK`][WORK].
 
-Guarder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
+Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
 
 ### Collecter les impôts
 
@@ -67,7 +67,7 @@ Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l
 
 Si le nombre de paysans est près du maximum de population, presque toutes les réserves de silver de la région seront utilisées par les paysans, de sorte qu'ils n'auront plus de Silver "à disposition" pour les impôts. Les impôts pourront tout de même être collectés (à hauteur de la réserve de la région), mais les paysans non approvisionnés mourront de faim (et donc les gains n'augmenteront pas non plus ...). C'est pour cela qu'il est judicieux de construire un château, car cela permet d'augmenter le salaire de base : avec 12 Silver au lieu de 11, 2000 paysans gagnent 2000 Silver de plus par tour !
 
-Guarder empêche la collecte des taxes (sauf HELP).
+Garder empêche la collecte des taxes (sauf HELP).
 
 ### Divertissement (Entertain)
 
@@ -89,7 +89,7 @@ Dans cet exemple, le revenu total est plus faible parce que tous les paysans ne 
 
 Cela ne tient pas compte non plus de l'épargne des paysans ( la réserve en silvers de la région). Ils vivront sur cette réserve en cas de surpopulation. L'argent disponible pour le divertissement est également influencé par le montant de cette réserve. En règle générale, il est donc possible de gagner plus grâce au divertissement (5% de la réserve).
 
-Guarder empêche le divertissement uniquement pour les unités se trouvant à l'intérieur d'un bateau. (sauf help)
+Garder empêche le divertissement uniquement pour les unités se trouvant à l'intérieur d'un bateau. (sauf help)
 
 ### Le Vol : la méthode malhonnête
 
@@ -109,7 +109,7 @@ De plus, il est nécessaire pour faire du commerce qu'il y ait dans la région u
 
 Le propriétaire du plus grand château de la région reçoit une part des recettes des ventes des autres joueurs. Cette part de recettes est déduite des recettes des marchands. Si deux châteaux sont de même taille, personne ne reçoit cette part. Le montant du "taux d'imposition" est indiqué dans le tableau du chapitre [châteaux].
 
-Guarder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
+Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
 
 Chaque marchandise a un prix de base fixe (voir le tableau). Il indique les prix de base des produits de luxe. Le nombre d'unités de produits de luxe qui peuvent être achetées sans que leur prix n'augmente est égal à 1% du nombre de paysans de la région. Chaque fois que cette quantité est achetée (le total acheté par toutes les factions), le prix augmente du prix de base. Une région de 2 000 paysans permet d'acheter 20 objets de luxe sans en augmenter le prix d'achat. Le prix revient à la normale au tour suivant, les produits étant à nouveau disponibles.
 
@@ -134,7 +134,7 @@ Exemple :
 
 - Supposons une région comptant 8000 paysans. Elle propose de l'encens (incense) à 4 Silver et demande des épices (spice) à 15 Silver. 1% des paysans correspond à 80. Si un commerçant vend 200 épices, les 80 premières épices seront vendues à 15 Silver, les 80 suivantes à 10 Silver et les 40 restantes à 5 Silver. La semaine suivante, les épices ne pourront plus être vendues qu'à 5 Silver. Sauf si le prix est remonté à 10 (10% de probabilité, 20% si harbour).
 
-<!-- -->
+
 
 - Si 100 encens sont achetés dans cette région, les 80 premiers encens coûtent 4 Silver pièce, et les 20 suivants 8 Silver. La semaine suivante, le prix de l'encens est à nouveau de 4 Silver et on peut à nouveau acheter les 80 premiers encens à ce prix. Si les 100 encens ont été achetés par des unités de deux factions différentes, les deux paieront (aux effets d'arrondi près) 4,8 Silver par produit de luxe.
 
@@ -148,13 +148,13 @@ Lorsque plusieurs factions travaillent, divertissent, collectent des impôts ou 
 
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter. Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un navire.
 
-Si toutes les factions qui guardent ont paramétré [`HELP GUARD`][HELP SILVER] ou [`HELP ALL`][HELP SILVER] avec notre faction ou un ordre [`CONTACT`] avec notre unité ou notre faction, alors la guarde n'a pas d'effet. Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon. Pour une unité TEMP (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] ou [`HELP ALL`][HELP SILVER] avec notre faction ou un ordre [`CONTACT`] avec notre unité ou notre faction, alors la garde n'a pas d'effet. Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon. Pour une unité TEMP (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 
 ## Voir aussi
 
 - [GIVE]
 - [RESERVE][réservé]
-- [REKRUTIERE]
+- [RECRUIT]
 - [itempool]
 - [stealth]
 - [GUARD]
@@ -163,41 +163,35 @@ Si toutes les factions qui guardent ont paramétré [`HELP GUARD`][HELP SILVER] 
 | --- | --- |
 | Weiterlesen: | [Material Pool] |
 
-[Material Pool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
+[Material Pool]: ./items-pool.md "Materialpool"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [travailler]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [divertir]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [collecter les impôts]: /Spezial:Meine_Sprache/TREIBE "Spezial:Meine Sprache/TREIBE"
-  [commercer]: /Spezial:Meine_Sprache/Geld#Handel "Spezial:Meine Sprache/Geld"
-  [Races]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [HELP SILVER]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [ici]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
-  [réservé]: /Spezial:Meine_Sprache/RESERVIERE "Spezial:Meine Sprache/RESERVIERE"
-  [Bâtiments]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [aquarians]: /Spezial:Meine_Sprache/Meermensch "Spezial:Meine Sprache/Meermensch"
-  [dommages]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [Fin de bataille]: /Spezial:Meine_Sprache/Kampfende "Spezial:Meine Sprache/Kampfende"
-  [compétence endurance]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [morts-vivants]: /Spezial:Meine_Sprache/Undead "Spezial:Meine Sprache/Undead (Seite nicht vorhanden)"
-  [WORK]: /Spezial:Meine_Sprache/ARBEITEN "Spezial:Meine Sprache/ARBEITEN"
-  [ce]: /Spezial:Meine_Sprache/Burg#übersicht "Spezial:Meine Sprache/Burg"
-  [`STEAL`]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [Stealth]: /Spezial:Meine_Sprache/Tarnung "Spezial:Meine Sprache/Tarnung"
-  [perception]: /Spezial:Meine_Sprache/Wahrnehmung "Spezial:Meine Sprache/Wahrnehmung"
-  [BUY]: /Spezial:Meine_Sprache/KAUFE "Spezial:Meine Sprache/KAUFE"
-  [SELL]: /Spezial:Meine_Sprache/VERKAUFE "Spezial:Meine Sprache/VERKAUFE"
-  [châteaux]: /Spezial:Meine_Sprache/Burgen "Spezial:Meine Sprache/Burgen"
-  [Port (harbour)]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [`CONTACT`]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [GIVE]: /Spezial:Meine_Sprache/GIB "Spezial:Meine Sprache/GIB"
-  [REKRUTIERE]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [itempool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
-  [GUARD]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[travailler]: ./cmd-work.md "WORK"
+[divertir]: ./cmd-entertain.md "ENTERTAIN"
+[collecter les impôts]: ./cmd-tax.md "TAX"
+[commercer]: ./silver.md#Handel "Argent"
+[Races]: ./race.md "Rassen"
+[HELP SILVER]: ./cmd-help.md "HELP"
+[ici]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[réservé]: ./cmd-reserve.md "RESERVE"
+[Bâtiments]: ./buildings.md "Gebäude"
+[aquarians]: /Spezial:Meine_Sprache/Meermensch "Meermensch"
+[dommages]: ./ships.md "Schiff"
+[Fin de bataille]: ./war.md#fin-de-la-bataille"Fin de la bataille"
+[compétence endurance]: ./war.mdstabellen "Guerrestabellen"
+[morts-vivants]: /Spezial:Meine_Sprache/Undead "Undead (Seite nicht vorhanden)"
+[WORK]: ./cmd-work.mdN "ARBEITEN"
+[ce]: ./castles.md#übersicht "Burg"
+[`STEAL`]: ./camouflage.md "STEAL"
+[Stealth]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[perception]: /Spezial:Meine_Sprache/Wahrnehmung "Wahrnehmung"
+[BUY]: ./cmd-buy.md "BUY"
+[SELL]: ./cmd-sell.md "SELL"
+[châteaux]: ./castles.mden "Burgen"
+[Port (harbour)]: ./buildings-others.md "Andere Gebäude"
+[`CONTACT`]: ./cmd-contact.md "CONTACT"
+[GIVE]: ./cmd-give.md "GIVE"
+[RECRUIT]:./silver.md#recruter "RECRUIT"
+[itempool]: ./items-pool.md "Materialpool"
+[GUARD]: ./cmd-guard.md "GUARD"

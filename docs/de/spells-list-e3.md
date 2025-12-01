@@ -297,8 +297,4 @@ Das sind alle Zauber, die es in E3 (und Deveron) gibt. Wahrscheinlich.
 <sup>C</sup> Cerddor  
 <sup>V</sup> Kann nicht vom Vertrauten gezaubert werden  
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Zauberliste\_E3&oldid=6023]“
-
-  [Zur Navigation springen]: #column-one
-  [Zur Suche springen]: #searchInput
-  [https://wiki.eressea.de/index.php?title=Zauberliste\_E3&oldid=6023]: https://wiki.eressea.de/index.php?title=Zauberliste_E3&oldid=6023
+<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E3&oldid=6023] -->

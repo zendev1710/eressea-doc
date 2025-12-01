@@ -310,13 +310,12 @@ Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änder
 | --- | --- |
 | Weiterlesen: | [Tränke] |
 
-[Tränke]: /Spezial:Meine_Sprache/Tr%C3%A4nke "Spezial:Meine Sprache/Tränke"
+[Tränke]: ./alchemy.md "Tränke"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782]“
+<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
 
   [Cerddor]: /Cerddorzauber "Cerddorzauber"
   [Draig]: /Draigzauber "Draigzauber"
   [Gwyrrd]: /Gwyrrdzauber "Gwyrrdzauber"
   [Illaun]: /Illaunzauber "Illaunzauber"
   [Tybied]: /Tybiedzauber "Tybiedzauber"
-  [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782]: https://wiki.eressea.de/index.php?title=Zauberliste_E2&oldid=15782

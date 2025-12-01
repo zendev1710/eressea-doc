@@ -204,9 +204,8 @@ Expérience de jeu :Das Terrain in dem der Vertraute gerufen wird scheint keine
 
 Expérience de jeu :Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen. Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
 
-  [SHOW]: /Spezial:Meine_Sprache/ZEIGE "Spezial:Meine Sprache/ZEIGE"
-  [Démons]: /Spezial:Meine_Sprache/Rassen#Dämonen "Spezial:Meine Sprache/Rassen"
-  [Goblins]: /Spezial:Meine_Sprache/Rassen#Goblins "Spezial:Meine Sprache/Rassen"
-  [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641]: https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641
+  [SHOW]: ./cmd-show.md "SHOW"
+  [Démons]: ./race.md#Dämonen "Rassen"
+  [Goblins]: ./race.md#Goblins "Rassen"

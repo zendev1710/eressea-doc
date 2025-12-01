@@ -6,7 +6,7 @@ La [compétence] *stealth* permet de se camoufler aux yeux des autres unités. U
 
 Les unités camouflées peuvent être découvertes grâce à la compétence *perception*. Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en stealth d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible. Si le niveau de perception et le niveau de stealth sont égaux, l'unité camouflée apparaît dans le rapport. C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités ont stealth et perception au niveau 0.
 
-## Contrecarrer la guarde
+## Contrecarrer la garde
 
 Les unités camouflées avec succès ne sont pas soumises aux conséquences de [GUARD]. Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.
 
@@ -44,20 +44,14 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 - [revenus]
 
 Weiterlesen:
-[déplacements](/Spezial:Meine_Sprache/Reisen)
+[déplacements](./travel.md)
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 
-[Kategorie][]:
-
-- [Talente/fr]
-
-  [compétence]: ./skills.md "Spezial:Meine Sprache/Talente"
-  [GUARD]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [combat]: ./war.md#Die_Flucht "Spezial:Meine Sprache/Krieg"
-  [`STEAL`]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [espionnage]: /Spezial:Meine_Sprache/Spionage "Spezial:Meine Sprache/Spionage"
-  [position de combat]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [revenus]: /Einnahmen#Diebstahl:_der_unehrliche_Weg "Einnahmen"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Talente/fr]: /index.php?title=Kategorie:Talente/fr&action=edit&redlink=1 "Kategorie:Talente/fr (Seite nicht vorhanden)"
+[compétence]: ./skills.md "Talente"
+[GUARD]: ./cmd-guard.md "GUARD"
+[combat]: ./war.md#la-fuite "Guerre"
+[`STEAL`]: ./camouflage.md "STEAL"
+[espionnage]: ./skills-list.md#espionnage "Spionage"
+[position de combat]: ./cmd-combat.md "COMBAT"
+[revenus]: /Einnahmen#Diebstahl:_der_unehrliche_Weg "Einnahmen"

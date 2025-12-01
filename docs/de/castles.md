@@ -19,15 +19,15 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 
 - Die Einheit "Thors Baumeister", die aus 20 Leuten besteht, welche mit dem Burgenbautalent 1 arbeiten und 100 Steine haben, verfügt aufgrund ihrer Talentstufe und der Personenzahl über 20 Produktionspunkte, mit denen, abhängig vom nötigen Mindesttalent, unterschiedlich viele Steine verbaut werden können.
 
-<!-- -->
+
 
 - Wenn diese Einheit beginnt, eine neue Burg zu errichten, kann sie in der ersten Runde 10 Steine verbauen: für Grundmauern und Handelsposten liegt das Mindesttalent bei 1; um einen Stein zu verbauen, wird ein Produktionspunkt benötigt, die Einheit baut also erstmal den Handelsposten bis zur Größe 10 aus, womit das Gebäude zur Befestigung wird. Nun sind noch 10 Produktionspunkte übrig, aufgrund des nun nötigen Mindestbautalents von 2 für Befestigungen verfallen diese jedoch.
 
-<!-- -->
+
 
 - Hat die Einheit ein Burgenbautalent der Stufe 2, beginnt sie mit 40 Produktionspunkten, von denen wieder 10 für den Ausbau des Handelspostens zur Befestigung benötigt werden. Jetzt kann sie aber die verbleibenden 30 Produktionspunkte für den Ausbau der Befestigung noch in der gleichen Runde nutzen. Allerdings bedeutet ein Mindesttalent von 2 auch, dass pro Stein 2 Produktionspunkte aufzuwenden sind. Somit wächst die Befestigung um 15 Steine und insgesamt entsteht in einer Runde eine Befestigung der Größe 25.
 
-<!-- -->
+
 
 - Mit dem Talentwert 2 werden die Baumeister innerhalb von weiteren 2 Runden die Befestigung bis zur Größe 50 ausbauen, wodurch ein Turm entsteht, den sie wegen des damit notwendigen Mindesttalentwerts von 3 nicht erweitern können.
 
@@ -55,21 +55,14 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 | --- | --- |
 | Weiterlesen: | [Andere Gebäude] |
 
-[Andere Gebäude]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
+[Andere Gebäude]: ./buildings-others.md "Andere Gebäude"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Burg&oldid=17012]“
+<!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
 
-[Kategorie][]:
-
-- [Gebäude][1]
-
-  [Pest]: /Spezial:Meine_Sprache/Pest "Spezial:Meine Sprache/Pest (Seite nicht vorhanden)"
-  [MACHE BURG]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [Krieg]: ./war.md "Spezial:Meine Sprache/Krieg"
-  [Boni und Mali]: /Spezial:Meine_Sprache/Boni_und_Mali "Spezial:Meine Sprache/Boni und Mali"
-  [Übersichtstabelle]: #übersicht
-  [Gebäude]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [Einnahmen]: /Spezial:Meine_Sprache/Einnahmen "Spezial:Meine Sprache/Einnahmen"
-  [https://wiki.eressea.de/index.php?title=Burg&oldid=17012]: https://wiki.eressea.de/index.php?title=Burg&oldid=17012
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [1]: /Kategorie:Geb%C3%A4ude "Kategorie:Gebäude"
+[Pest]: ./pest.md "Pest (Seite nicht vorhanden)"
+[MACHE BURG]: ./cmd-make.md "MACHE"
+[Krieg]: ./war.md "Krieg"
+[Boni und Mali]: /./war.md#boni-und-mali "Boni und Mali"
+[Übersichtstabelle]: #übersicht
+[Gebäude]: ./buildings.md "Gebäude"
+[Einnahmen]: ./silver.md#einnahmen "Einnahmen"

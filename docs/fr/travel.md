@@ -74,22 +74,16 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 | --- | --- |
 | Weiterlesen: | [Naviguer] |
 
-[Naviguer]: /Spezial:Meine_Sprache/Schiffsreise "Spezial:Meine Sprache/Schiffsreise"
+[Naviguer]: ./ships.mdsreise "Schiffsreise"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [`MOVE`]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [`ROUTE`]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`CARRY`]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [`RIDE`]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [`FOLLOW`]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [GUARD]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [objets]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
-  [routes]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [bateaux]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[`MOVE`]: ./cmd-move.md "MOVE"
+[`ROUTE`]: ./cmd-route.md "ROUTE"
+[`CARRY`]: ./cmd-carry.md "CARRY"
+[`RIDE`]: ./cmd-ride.md "RIDE"
+[`FOLLOW`]: ./cmd-follow.md "FOLLOW"
+[GUARD]: ./cmd-guard.md "GUARD"
+[objets]: /Spezial:Meine_Sprache/Waren "Waren"
+[routes]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[bateaux]: ./ships.md "Schiff"

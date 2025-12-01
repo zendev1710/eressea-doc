@@ -74,23 +74,16 @@ If a unit has several horses and carts, their transport capacity is simply added
 | --- | --- |
 | Continue reading: | [Ship Voyages] |
 
-[Ship Voyages]: /Spezial:Meine_Sprache/Schiffsreise "Spezial:Meine Sprache/Schiffsreise"
+[Ship Voyages]: ./ships.mdsreise "Schiffsreise"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637]“
+<!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [`MOVE`]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [`ROUTE`]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`CARRY`]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [`RIDE`]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [`FOLLOW`]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [GUARD]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [this table]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
-  [roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [Ships]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637]: https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[`MOVE`]: ./cmd-move.md "MOVE"
+[`ROUTE`]: ./cmd-route.md "ROUTE"
+[`CARRY`]: ./cmd-carry.md "CARRY"
+[`RIDE`]: ./cmd-ride.md "RIDE"
+[`FOLLOW`]: ./cmd-follow.md "FOLLOW"
+[GUARD]: ./cmd-guard.md "GUARD"
+[this table]: /Spezial:Meine_Sprache/Waren "Waren"
+[roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[Ships]: ./ships.md "Schiff"

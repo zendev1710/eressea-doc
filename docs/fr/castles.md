@@ -14,15 +14,15 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 
 - L'unité "Thors Baumeister" est composée de 20 personnes ayant Masonry niveau 1 et dispose de 100 pierres. En raison de son niveau de compétence et du nombre de personnes de l'unité, elle dispose de 20 points de production (PP). Cela lui permet de construire PP/(niveau requis) unités de taille du chateau chaque semaine.
 
-<!-- -->
+
 
 - Lorsque cette unité commence à construire un nouveau château, elle peut construire 10 unités de taille au premier tour : pour les fondations et le tradepost, le niveau minimal en masonry est de 1 ; pour construire une unité de taille, il faut un point de production, donc l'unité construit d'abord le tradepost jusqu'à la taille 10, ce qui fait de ce bâtiment une fortification. Il reste alors 10 points de production, mais ils sont perdus parce que le niveau minimum requis en masonry pour les fortifications est de 2.
 
-<!-- -->
+
 
 - Si l'unité a un niveau 2 en masonry, elle commence avec 40 points de production, dont 10 sont nécessaires pour une fortification. Elle peut ensuite utiliser les 30 points de production restants pour améliorer la fortification dans le même tour. Cependant, un talent minimum de 2 signifie également que 2 points de production doivent être dépensés par pierre. Ainsi, la fortification augmente de 15 pierres et une fortification de taille 25 est construite à la fin de la semaine.
 
-<!-- -->
+
 
 - Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours supplémentaires, agrandir la fortification jusqu'à la taille 50, créant ainsi une tour (Tower) qu'ils ne pourront pas agrandir en raison du niveau minimal de 3 requis.
 
@@ -48,22 +48,15 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 
 |     |     |
 | --- | --- |
-| Weiterlesen: | [bâtiments spéciaux](/Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude") |
+| Weiterlesen: | [bâtiments spéciaux](./buildings-others.md "Andere Gebäude") |
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
 
-[Kategorie][]:
-
-- [Gebäude/fr]
-
-  [peste]: /Spezial:Meine_Sprache/Pest "Spezial:Meine Sprache/Pest (Seite nicht vorhanden)"
-  [MAKE CASTLE]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [guerre]: ./war.md "Spezial:Meine Sprache/Krieg"
-  [bonus et malus]: /Spezial:Meine_Sprache/Boni_und_Mali "Spezial:Meine Sprache/Boni und Mali"
-  [tableau du bas]: #aperçu
-  [bâtiments spéciaux]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [bâtiments]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [revenus]: /Spezial:Meine_Sprache/Einnahmen "Spezial:Meine Sprache/Einnahmen"
-  [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498]: https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Gebäude/fr]: /index.php?title=Kategorie:Geb%C3%A4ude/fr&action=edit&redlink=1 "Kategorie:Gebäude/fr (Seite nicht vorhanden)"
+[peste]: ./pest.md "Pest (Seite nicht vorhanden)"
+[MAKE CASTLE]: ./cmd-make.md "MAKE"
+[guerre]: ./war.md "Guerre"
+[bonus et malus]: /./war.md#boni-und-mali "Boni und Mali"
+[tableau du bas]: #aperçu
+[bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
+[bâtiments]: ./buildings.md "Gebäude"
+[revenus]: ./silver.md#einnahmen "Einnahmen"

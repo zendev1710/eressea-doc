@@ -118,7 +118,7 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 
 Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal skepticism, and their sailing skills are among the worst in the world.
 
-- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain. (see [here] and [here][quarried]).
+- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine] and [mining][quarried]).
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
 - Dwarves [mages][magician] regenerate aura 50% slower.
 
@@ -126,43 +126,36 @@ Their homes are the mountains, their weapons are famous, and their fortresses ar
 | --- | --- |
 | Continue reading: | [Racial skill modifiers] |
 
-[Racial skill modifiers]: /Spezial:Meine_Sprache/Talentmodifikatoren "Spezial:Meine Sprache/Talentmodifikatoren"
+[Racial skill modifiers]: ./skills-modifiers.md "Talentmodifikatoren"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644]“
+<!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [bonuses and penalties]: /Spezial:Meine_Sprache/Talentmodifikatoren "Spezial:Meine Sprache/Talentmodifikatoren"
-  [starvation rule]: /Spezial:Meine_Sprache/Hunger "Spezial:Meine Sprache/Hunger"
-  [recruited]: /Spezial:Meine_Sprache/Ausgaben#Rekrutieren "Spezial:Meine Sprache/Ausgaben"
-  [`GIVE 0`]: /Spezial:Meine_Sprache/GIB "Spezial:Meine Sprache/GIB"
-  [change their appearance]: /Spezial:Meine_Sprache/TARNE "Spezial:Meine Sprache/TARNE"
-  [region's maximum]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
-  [magician]: /Spezial:Meine_Sprache/Magie "Spezial:Meine Sprache/Magie"
-  [elven bows]: ./war.mdstabellen#Waffeneigenschaften "Spezial:Meine Sprache/Kriegstabellen"
-  [steal]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [ships]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [flee]: ./war.md#Die_Flucht "Spezial:Meine Sprache/Krieg"
-  [`COMBAT FLEE`]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [dragons]: /Spezial:Meine_Sprache/Drachen "Spezial:Meine Sprache/Drachen"
-  [alchemists]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [potion]: /Spezial:Meine_Sprache/Tr%C3%A4nke "Spezial:Meine Sprache/Tränke"
-  [combat table]: ./war.mdstabellen#Rasseneigenschaften "Spezial:Meine Sprache/Kriegstabellen"
-  [tactics]: /Spezial:Meine_Sprache/Taktik "Spezial:Meine Sprache/Taktik"
-  [groups]: /Spezial:Meine_Sprache/GRUPPE "Spezial:Meine Sprache/GRUPPE"
-  [trade]: /Spezial:Meine_Sprache/Geld#Handel "Spezial:Meine Sprache/Geld"
-  [move]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [long orders]: /Spezial:Meine_Sprache/Befehl "Spezial:Meine Sprache/Befehl"
-  [swimming]: /Spezial:Meine_Sprache/Schiffsreisen#Anschwimmen "Spezial:Meine Sprache/Schiffsreisen"
-  [`WORK`]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [expensive skills]: ./skills.md "Spezial:Meine Sprache/Talente"
-  [heroes]: /Spezial:Meine_Sprache/BEF%C3%96RDERE "Spezial:Meine Sprache/BEFÖRDERE"
-  [quarried]: /Spezial:Meine_Sprache/Rohstoffe#Vom_Bergbau "Spezial:Meine Sprache/Rohstoffe"
-  [quarry]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Steinbruch "Spezial:Meine Sprache/Andere Gebäude"
-  [RIDE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [here]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Bergwerk "Spezial:Meine Sprache/Andere Gebäude"
-  [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644]: https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[bonuses and penalties]: ./skills-modifiers.md "Talentmodifikatoren"
+[starvation rule]: ./silver.md#hunger "Hunger"
+[recruited]: ./silver.md#ausgaben#Rekrutieren "Ausgaben"
+[`GIVE 0`]: ./cmd-give.md "GIVE"
+[change their appearance]: ./cmd-hide.md "HIDE"
+[region's maximum]: ./world.md "Welt"
+[magician]: ./magic.md "Magie"
+[elven bows]: ./war.mdstabellen#Waffeneigenschaften "Warstabellen"
+[steal]: ./camouflage.md "STEAL"
+[ships]: ./ships.md "Schiff"
+[flee]: ./war.md#Die_Flucht "War"
+[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
+[dragons]: ./monsters.md#drachen "Drachen"
+[alchemists]: ./skills-list.md "Skills list"
+[potion]: ./alchemy.md "Tränke"
+[combat table]: ./war.mdstabellen#Rasseneigenschaften "Warstabellen"
+[tactics]: ./tactic.md "Taktik"
+[groups]: ./cmd-group.md "GROUP"
+[trade]: ./silver.md#handel "Silver"
+[move]: ./travel.md "Reisen"
+[long orders]: ./commands.md "Befehl"
+[swimming]: ./travel.md#swimming "Schiffsreisen"
+[`WORK`]: ./cmd-work.md "WORK"
+[expensive skills]: ./skills.md "Talente"
+[heroes]: ./cmd-promote.md "PROMOTE"
+[quarried]: ./resources.md#about-mining "Resources"
+[quarry]: ./buildings-others.md#Steinbruch "Andere Gebäude"
+[RIDE]: ./cmd-ride.md "RIDE"
+[mine]: ./buildings-others.md#mine "Andere Gebäude"

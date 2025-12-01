@@ -67,18 +67,11 @@ The following table shows the items available on Eressea. They can only be produ
 | --- | --- |
 | Continue reading: | [Roads] |
 
-[Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
+[Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685]“
+<!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [these examples]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [resources]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [buildings]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [war tables]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685]: https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[these examples]: ./production.md "Produktion"
+[resources]: ./resources.md "Resources"
+[buildings]: ./buildings.md "Gebäude"
+[war tables]: ./war.mdstabellen "Warstabellen"

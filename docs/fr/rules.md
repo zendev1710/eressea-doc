@@ -17,15 +17,9 @@ L'édition de ces règles est autorisée et encouragée, mais il est important d
 | --- | --- |
 | Weiterlesen: | [Introduction] |
 
-[Introduction]: /Spezial:Meine_Sprache/Einleitung "Spezial:Meine Sprache/Einleitung"
+[Introduction]: /Spezial:Meine_Sprache/Einleitung "Einleitung"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [Atlantis]: /Atlantis "Atlantis"
-  [Conseils pour l'édition des règles]: /Spezial:Meine_Sprache/Eressea:Mitmachen "Spezial:Meine Sprache/Eressea:Mitmachen"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[Atlantis]: /Atlantis "Atlantis"
+[Conseils pour l'édition des règles]: /Spezial:Meine_Sprache/Eressea:Mitmachen "Eressea:Mitmachen"

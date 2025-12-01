@@ -47,14 +47,7 @@ Cela signifie que 12 tacticiens de niveau X atteignent en moyenne le même nivea
 
 - [de la guerre]
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Taktik/fr&oldid=13466] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Taktik/fr&oldid=13466] -->
 
-[Kategorie][]:
-
-- [Talente/fr]
-
-  [Taktik]: /Taktik "Taktik"
-  [combat]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [de la guerre]: /Kampf#Die_Taktikerrunde "Kampf"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Talente/fr]: /index.php?title=Kategorie:Talente/fr&action=edit&redlink=1 "Kategorie:Talente/fr (Seite nicht vorhanden)"
+[combat]: ./cmd-combat.md "COMBAT"
+[de la guerre]: /Kampf#Die_Taktikerrunde "Kampf"

@@ -49,7 +49,7 @@ However, the new unit must still have members, otherwise it will be silently del
      END
      GIVE TEMP 1 5 MEN
       
-     GIB TEMP 2 100 silver
+     GIVE TEMP 2 100 silver
      MAKE TEMP 2
         RECRUIT 1
         NAME UNIT "scouts"
@@ -86,7 +86,7 @@ Player experience: Solthar Except when erecting a new building you can exchange 
 
      MAKE 5 sword ; produces 5 swords (at most)
      MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
-     MAKE KRÄUTER
+     MAKE HERBS
      
      LEAVE
      MAKE lighthouse ; starts building a new lighthouse
@@ -108,27 +108,20 @@ Player experience: Solthar Except when erecting a new building you can exchange 
 - [Production]
 - [Alchemy]
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=MACHE/en&oldid=16445]“
+<!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->
 
-[Kategorie][]:
-
-- [Befehle/en/en]
-
-  [production]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [Items]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
-  [raw materials]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [Alchemy chapter]: /Spezial:Meine_Sprache/List_of_talents "Spezial:Meine Sprache/List of talents (Seite nicht vorhanden)"
-  [herbology]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
-  [other units of their own faction]: /Spezial:Meine_Sprache/Parteien#disbanding "Spezial:Meine Sprache/Parteien"
-  [buildings]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [ship]: /Spezial:Meine_Sprache/Schiffe "Spezial:Meine Sprache/Schiffe"
-  [roads]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Spezial:Meine Sprache/Straßen"
-  [roadwork]: /Spezial:Meine_Sprache/Stra%C3%9Fenbau "Spezial:Meine Sprache/Straßenbau"
-  [tunnel]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Tunnel "Spezial:Meine Sprache/Andere Gebäude"
-  [caravanserai]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Karawanserei "Spezial:Meine Sprache/Andere Gebäude"
-  [dam]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Damm "Spezial:Meine Sprache/Andere Gebäude"
-  [terrain types]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Spezial:Meine Sprache/Geländearten"
-  [Alchemy]: /Spezial:Meine_Sprache/Alchemie "Spezial:Meine Sprache/Alchemie"
-  [https://wiki.eressea.de/index.php?title=MACHE/en&oldid=16445]: https://wiki.eressea.de/index.php?title=MACHE/en&oldid=16445
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle/en/en]: /index.php?title=Kategorie:Befehle/en/en&action=edit&redlink=1 "Kategorie:Befehle/en/en (Seite nicht vorhanden)"
+[production]: ./production.md "Produktion"
+[Items]: /Spezial:Meine_Sprache/Waren "Waren"
+[raw materials]: ./resources.md "Resources"
+[Alchemy chapter]: /Spezial:Meine_Sprache/List_of_talents "List of talents (Seite nicht vorhanden)"
+[herbology]: ./herbs.md "Herbs"
+[other units of their own faction]: ./factions.mden#disbanding "Parteien"
+[buildings]: ./buildings.md "Gebäude"
+[ship]: ./ships.mde "Schiffe"
+[roads]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[roadwork]: /Spezial:Meine_Sprache/Stra%C3%9Fenbau "Straßenbau"
+[tunnel]: ./buildings-others.md#Tunnel "Andere Gebäude"
+[caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
+[dam]: ./buildings-others.md#Damm "Andere Gebäude"
+[terrain types]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
+[Alchemy]: /Spezial:Meine_Sprache/Alchemie "Alchemie"

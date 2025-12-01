@@ -6,9 +6,8 @@ There are many different monster races with different characteristics and abilit
 
 In certain circumstances, players can also own monster units (e.g. skeletons).
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052]“
+<!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
-  [undead types]: /Spezial:Meine_Sprache/Untote "Spezial:Meine Sprache/Untote"
-  [dragons]: /Spezial:Meine_Sprache/Drachen "Spezial:Meine Sprache/Drachen"
-  [braineaters]: /Spezial:Meine_Sprache/Hirnt%C3%B6ter "Spezial:Meine Sprache/Hirntöter (Seite nicht vorhanden)"
-  [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052]: https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052
+  [undead types]: /Spezial:Meine_Sprache/Untote "Untote"
+  [dragons]: ./monsters.md#drachen "Drachen"
+  [braineaters]: /Spezial:Meine_Sprache/Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"

@@ -69,19 +69,11 @@ Die "Restwirkung" von Tränken verfällt nicht bei allen Tränken, so dass z.B. 
 | --- | --- |
 | Weiterlesen: | [Kräuter] |
 
-[Kräuter]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
+<!-- From [https://wiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Tränke&oldid=16967]“
-
-[Kategorie][]:
-
-- [Regeln]
-
-  [Kräutern]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
-  [Alchemie]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [`MACHE`]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [ZEIGE]: /Spezial:Meine_Sprache/ZEIGE "Spezial:Meine Sprache/ZEIGE"
-  [`BENUTZE`]: /Spezial:Meine_Sprache/BENUTZE "Spezial:Meine Sprache/BENUTZE"
-  [https://wiki.eressea.de/index.php?title=Tränke&oldid=16967]: https://wiki.eressea.de/index.php?title=Tränke&oldid=16967
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[Kräuter]: ./herbs.md "Kräuter"
+[Kräutern]: ./herbs.md "Kräuter"
+[Alchemie]: ./skills-list.md "Liste der Talente"
+[`MACHE`]: ./cmd-make.md "MACHE"
+[ZEIGE]: ./cmd-show.md "ZEIGE"
+[`BENUTZE`]: ./cmd-use.md "BENUTZE"

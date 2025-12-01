@@ -67,19 +67,12 @@ Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie könne
 | --- | --- |
 | Weiterlesen: | [Straße] |
 
-[Straße]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
+[Straße]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Waren&oldid=16664]“
+<!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [diese Beispiele]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [Rohstoffe]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Spezial:Meine Sprache/Straßen"
-  [Gebäude]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [Kriegstabellen]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [https://wiki.eressea.de/index.php?title=Waren&oldid=16664]: https://wiki.eressea.de/index.php?title=Waren&oldid=16664
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[diese Beispiele]: ./production.md "Produktion"
+[Rohstoffe]: ./resources.md "Rohstoffe"
+[Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Gebäude]: ./buildings.md "Gebäude"
+[Kriegstabellen]: ./war.mdstabellen "Kriegstabellen"

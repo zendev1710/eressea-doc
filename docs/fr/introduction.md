@@ -36,30 +36,23 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 | --- | --- |
 | Weiterlesen: | [Monde] |
 
-[Monde]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
+[Monde]: ./world.md "Welt"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [faction]: /Spezial:Meine_Sprache/Partei "Spezial:Meine Sprache/Partei"
-  [race]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [Inscription]: /Spezial:Meine_Sprache/Anmelden_wie%3F "Spezial:Meine Sprache/Anmelden wie?"
-  [Elfes]: /Spezial:Meine_Sprache/Elf "Spezial:Meine Sprache/Elf"
-  [Nains]: /Spezial:Meine_Sprache/Zwerg "Spezial:Meine Sprache/Zwerg"
-  [magie]: /Spezial:Meine_Sprache/Magie "Spezial:Meine Sprache/Magie"
-  [dragons]: /Spezial:Meine_Sprache/Drachen "Spezial:Meine Sprache/Drachen"
-  [monstres]: /Spezial:Meine_Sprache/Monster "Spezial:Meine Sprache/Monster"
-  [guerre]: ./war.md "Spezial:Meine Sprache/Krieg"
-  [ordres]: /Spezial:Meine_Sprache/Befehle "Spezial:Meine Sprache/Befehle"
-  [NR]: /Spezial:Meine_Sprache/NR "Spezial:Meine Sprache/NR (Seite nicht vorhanden)"
-  [CR]: /Spezial:Meine_Sprache/CR "Spezial:Meine Sprache/CR (Seite nicht vorhanden)"
-  [programmes]: /Spezial:Meine_Sprache/Hilfsmittel "Spezial:Meine Sprache/Hilfsmittel"
-  [modèle de train]: /Spezial:Meine_Sprache/Zugvorlage "Spezial:Meine Sprache/Zugvorlage (Seite nicht vorhanden)"
-  [point hebdomadaire]: /Spezial:Meine_Sprache/Wochenbericht "Spezial:Meine Sprache/Wochenbericht"
-  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Spezial:Meine Sprache/Xontormia Express"
-  [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807]: https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[faction]: ./factions.md "Partei"
+[race]: ./race.md "Rassen"
+[Inscription]: /Spezial:Meine_Sprache/Anmelden_wie%3F "Anmelden wie?"
+[Elfes]: ./races.md#elfes "Elf"
+[Nains]: ./races.md#nains "Zwerg"
+[magie]: ./magic.md "Magie"
+[dragons]: ./monsters.md#drachen "Drachen"
+[monstres]: ./monsters.md "Monster"
+[guerre]: ./war.md "Guerre"
+[ordres]: ./commands.md "Befehle"
+[NR]: /Spezial:Meine_Sprache/NR "NR (Seite nicht vorhanden)"
+[CR]: /Spezial:Meine_Sprache/CR "CR (Seite nicht vorhanden)"
+[programmes]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
+[modèle de train]: /Spezial:Meine_Sprache/Zugvorlage "Zugvorlage (Seite nicht vorhanden)"
+[point hebdomadaire]: /Spezial:Meine_Sprache/Wochenbericht "Wochenbericht"
+[Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Xontormia Express"

@@ -25,7 +25,7 @@ Unit 87b6 will now watch unit hz7 and follow it as it moves. Otherwise, she will
 
 Player experience: Solthar Es ist möglich, mit einer Einheit A einer Einheit B zu folgen, die ihrerseits einer dritten Einheit C folgt. Das hat jedoch zur Folge, dass A keinen langen Befehl mehr ausführt, denn der Server nimmt zu diesem Zeitpunkt an, dass Einheit B sich ebenfalls bewegt, unabhängig davon, ob Einheit C sich ebenfalls bewegt.
 
-Es ist nicht möglich, sinnvoll mehrere FOLGE-Befehle zu geben. Es wird immer nur der erste ausgeführt.
+Es ist nicht möglich, sinnvoll mehrere FOLLOW-Befehle zu geben. Es wird immer nur der erste ausgeführt.
 
 ## See also
 
@@ -36,18 +36,11 @@ Es ist nicht möglich, sinnvoll mehrere FOLGE-Befehle zu geben. Es wird immer nu
 - [CARRY]
 - [PIRACY]
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=FOLGE/en&oldid=8282]“
+<!-- From [https://wiki.eressea.de/index.php?title=FOLLOW/en&oldid=8282] -->
 
-[Kategorie][]:
-
-- [Befehle/en]
-
-  [Travel]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [MOVE]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [RIDE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [CARRY]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [PIRACY]: /Spezial:Meine_Sprache/PIRATERIE "Spezial:Meine Sprache/PIRATERIE"
-  [https://wiki.eressea.de/index.php?title=FOLGE/en&oldid=8282]: https://wiki.eressea.de/index.php?title=FOLGE/en&oldid=8282
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle/en]: /index.php?title=Kategorie:Befehle/en&action=edit&redlink=1 "Kategorie:Befehle/en (Seite nicht vorhanden)"
+[Travel]: ./travel.md "Reisen"
+[MOVE]: ./cmd-move.md "MOVE"
+[ROUTE]: ./cmd-route.md "ROUTE"
+[RIDE]: ./cmd-ride.md "RIDE"
+[CARRY]: ./cmd-carry.md "CARRY"
+[PIRACY]: ./cmd-piracy.md "PIRATERIE"

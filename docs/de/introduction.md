@@ -36,30 +36,23 @@ Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move
 | --- | --- |
 | Weiterlesen: | [Welt] |
 
-[Welt]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
+[Welt]: ./world.md "Welt"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805]“
+<!-- From [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805] -->
 
-[Kategorie][]:
-
-- [Regeln/de]
-
-  [Partei]: /Partei "Partei"
-  [Rasse]: /Rassen "Rassen"
-  [Anmeldung]: /Anmelden_wie%3F "Anmelden wie?"
-  [Elfen]: /Elf "Elf"
-  [Zwerge]: /Zwerg "Zwerg"
-  [Magie]: /Magie "Magie"
-  [Drachen]: /Drachen "Drachen"
-  [Monster]: /Monster "Monster"
-  [Krieg]: /Krieg "Krieg"
-  [Befehlen]: /Befehle "Befehle"
-  [NR]: /index.php?title=NR&action=edit&redlink=1 "NR (Seite nicht vorhanden)"
-  [CR]: /index.php?title=CR&action=edit&redlink=1 "CR (Seite nicht vorhanden)"
-  [Hilfsprogramme]: /Hilfsmittel "Hilfsmittel"
-  [Zugvorlage]: /Befehl "Befehl"
-  [Wochenbericht]: /Wochenbericht "Wochenbericht"
-  [Xontormia Express]: /Xontormia_Express "Xontormia Express"
-  [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805]: https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/de]: /index.php?title=Kategorie:Regeln/de&action=edit&redlink=1 "Kategorie:Regeln/de (Seite nicht vorhanden)"
+[Partei]: /Partei "Partei"
+[Rasse]: /Rassen "Rassen"
+[Anmeldung]: /Anmelden_wie%3F "Anmelden wie?"
+[Elfen]: /Elf "Elf"
+[Zwerge]: /Zwerg "Zwerg"
+[Magie]: /Magie "Magie"
+[Drachen]: /Drachen "Drachen"
+[Monster]: /Monster "Monster"
+[Krieg]: /Krieg "Krieg"
+[Befehlen]./commands.md "Befehle"
+[NR]: /index.php?title=NR&action=edit&redlink=1 "NR (Seite nicht vorhanden)"
+[CR]: /index.php?title=CR&action=edit&redlink=1 "CR (Seite nicht vorhanden)"
+[Hilfsprogramme]: /Hilfsmittel "Hilfsmittel"
+[Zugvorlage]./commands.md "Befehl"
+[Wochenbericht]: /Wochenbericht "Wochenbericht"
+[Xontormia Express]: /Xontormia_Express "Xontormia Express"

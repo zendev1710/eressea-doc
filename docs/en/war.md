@@ -35,7 +35,7 @@ I fight my enemies. My enemies are factions that attack me, that I attack, or th
 
 Player experience:In fact, it's even more complicated. See for example the [discussion here].
 
-[discussion here]: /Spezial:Meine_Sprache/Kampfregeln "Spezial:Meine Sprache/Kampfregeln"
+[discussion here]: /Spezial:Meine_Sprache/Kampfregeln "Kampfregeln"
 
 **Warning:** Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes. Allies have stood by and done nothing or have even fought amongst themselves. There are a few tips to help you avoid the biggest blunders:
 
@@ -167,12 +167,12 @@ Some races (generally only familiars) can learn the unarmed combat skill and the
 Castle bonus  
 People in castles are additionally protected. Castle occupants receive a parry bonus depending on the size of the castle if they belong to the defending side and the castle is large enough to accommodate them. A fortification gives +1, a tower +2 etc. up to the citadel, which gives +5. If the castle occupants attack themselves, they no longer receive the castle bonus for parrying. The castle bonus also applies against ranged fighters!
 
-<!-- -->
+
 
 Horse bonus  
 In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground. To ride a horse into battle, you need a riding talent of at least 2. Riders get a +2 bonus to attack and parry because they are faster and more agile. People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus. Trolls cannot use horses in combat!
 
-<!-- -->
+
 
 lance bonus  
 Mounted spear and lance users get an additional bonus of +1 to attacks.
@@ -253,7 +253,7 @@ Fleeing units evade combat, but remain at a safe distance from the fighting in t
 
 **Note:** It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle. It should be noted that the command should also be handed back to the correct unit with [`GIVE COMMAND`].
 
-Special rules apply to units with the FLEE status. These units can still move after combat, even if they would otherwise not be able to execute a long order. Furthermore, these units cannot guard regions. Any guarding performed is automatically canceled when the unit assumes the FLEE status. This happens at the beginning of the turn, which means that all effects of [`BEWACHE`] are immediately negated.
+Special rules apply to units with the FLEE status. These units can still move after combat, even if they would otherwise not be able to execute a long order. Furthermore, these units cannot guard regions. Any guarding performed is automatically canceled when the unit assumes the FLEE status. This happens at the beginning of the turn, which means that all effects of [`GUARD`] are immediately negated.
 
 ## Combat on and with ships
 
@@ -265,7 +265,7 @@ More damage can occur if sea serpents are involved in the battle. These monsters
 
 If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage].
 
-If you want to land in a region [guarded][`BEWACHE`] by another faction, you must first [`LEAVE`] the ship and can attack or move only in the following round. This gives your enemies some time to prepare.
+If you want to land in a region [guarded][`GUARD`] by another faction, you must first [`LEAVE`] the ship and can attack or move only in the following round. This gives your enemies some time to prepare.
 
 From land you can attack a ship immediately. Units on ships join the battle rows normally according to their `COMBAT` and [`HELP`][`HELP COMBAT`] status if their allies or they themselves are attacked.
 
@@ -279,27 +279,27 @@ There are a few things to bear in mind with the whole story:
 
 - Only parties with which you are not allied with `HELP FIGHT` are recognized as targets.
 
-<!-- -->
+
 
 - If party numbers are specified ([`PIRACY`*`<party number>`*`...`]), only captains of the specified parties are recognized as targets.
 
-<!-- -->
+
 
 - The mechanism also works when the pirate ship is on land. It therefore offers an effective means of coastal protection.
 
-<!-- -->
+
 
 - Pirates also sail into land regions, provided the ship can land there. If it cannot land, it takes damage.
 
-<!-- -->
+
 
 - Pirate captains are thick as thieves. They cannot assess whether a target is possibly superior to them and will happily sail a single ship into an enemy fleet of 100 vessels. Being a pirate has its risks.
 
-<!-- -->
+
 
 - If there are several potential targets to choose from, the captain will select one at random.
 
-<!-- -->
+
 
 - Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set [`HELP FIGHT`][`HELP COMBAT`]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
 
@@ -324,48 +324,40 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 | --- | --- |
 | Continue reading: | [Alliances] |
 
-[Alliances]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
+[Alliances]: /Spezial:Meine_Sprache/Allianz "Allianz"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626]“
+<!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [`ATTACK`]: /Spezial:Meine_Sprache/ATTACKIERE "Spezial:Meine Sprache/ATTACKIERE"
-  [tactics turn]: #Taktik
-  [`COMBAT`]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [`HELP COMBAT`]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [combat rows]: #Schlacht
-  [flee]: #Flucht
-  [`GROUP`]: /Spezial:Meine_Sprache/GRUPPE "Spezial:Meine Sprache/GRUPPE"
-  [combat at sea]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Spezial:Meine Sprache/Kampf auf Schiffen"
-  [fleeing]: /Spezial:Meine_Sprache/Die_Flucht "Spezial:Meine Sprache/Die Flucht"
-  [unarmed]: /Spezial:Meine_Sprache/Boni_and_Mali "Spezial:Meine Sprache/Boni and Mali (Seite nicht vorhanden)"
-  [1]: #Boni_and_Mali
-  [Tactician]: /Spezial:Meine_Sprache/Taktik "Spezial:Meine Sprache/Taktik"
-  [PROMOTE]: /Spezial:Meine_Sprache/BEF%C3%96RDERE "Spezial:Meine Sprache/BEFÖRDERE"
-  [Heroes]: /Spezial:Meine_Sprache/BEF%C3%96RDERUNG "Spezial:Meine Sprache/BEFÖRDERUNG"
-  [Weapon characteristics]: ./war.mdstabellen#Waffeneigenschaften "Spezial:Meine Sprache/Kriegstabellen"
-  [Racial skill modifiers]: ./war.mdstabellen#Rasseneigenschaften "Spezial:Meine Sprache/Kriegstabellen"
-  [this]: ./war.mdstabellen#Rüstung "Spezial:Meine Sprache/Kriegstabellen"
-  [Magic Resistance]: ./war.mdstabellen#Magieresistenz "Spezial:Meine Sprache/Kriegstabellen"
-  [this table]: ./war.mdstabellen#Ausdauer "Spezial:Meine Sprache/Kriegstabellen"
-  [2]: #Boni_und_Mali
-  [MAKE ammunition]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [combat tables]: ./war.mdstabellen#Kampfmodifikatoren "Spezial:Meine Sprache/Kriegstabellen"
-  [COMBAT FLIGHT]: /Spezial:Meine_Sprache/COMBAT "Spezial:Meine Sprache/COMBAT (Seite nicht vorhanden)"
-  [`GIVE COMMAND`]: /Spezial:Meine_Sprache/GIVE "Spezial:Meine Sprache/GIVE (Seite nicht vorhanden)"
-  [`BEWACHE`]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [ships]: /Spezial:Meine_Sprache/Schiffe "Spezial:Meine Sprache/Schiffe"
-  [damage]: /Spezial:Meine_Sprache/Schiff#Schiffsschaden "Spezial:Meine Sprache/Schiff"
-  [`LEAVE`]: /Spezial:Meine_Sprache/VERLASSE "Spezial:Meine Sprache/VERLASSE"
-  [`FOLLOW SHIP`]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [`PIRACY `*`<party number>`*` ...`]: /Spezial:Meine_Sprache/PIRATERIE "Spezial:Meine Sprache/PIRATERIE"
-  [races]: /Spezial:Meine_Sprache/Talentmodifikatoren "Spezial:Meine Sprache/Talentmodifikatoren"
-  [`MOVE`]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [`ROUTE`]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [War tables]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626]: https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[`ATTACK`]: ./cmd-attack.md "ATTACK"
+[tactics turn]: #taktik
+[`COMBAT`]: ./cmd-combat.md "COMBAT"
+[`HELP COMBAT`]: ./cmd-help.md "HELP"
+[combat rows]: #Schlacht
+[flee]: #Flucht
+[`GROUP`]: ./cmd-group.md "GROUP"
+[combat at sea]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[fleeing]: ./war.md#flee "Die Flucht"
+[unarmed]: /Spezial:Meine_Sprache/Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
+[1]: #Boni_and_Mali
+[Tactician]: ./tactic.md "Taktik"
+[PROMOTE]: ./cmd-promote.md "PROMOTE"
+[Heroes]: /Spezial:Meine_Sprache/BEF%C3%96RDERUNG "BEFÖRDERUNG"
+[Weapon characteristics]: ./war.mdstabellen#Waffeneigenschaften "Warstabellen"
+[Racial skill modifiers]: ./war.mdstabellen#Rasseneigenschaften "Warstabellen"
+[this]: ./war.mdstabellen#Rüstung "Warstabellen"
+[Magic Resistance]: ./war.mdstabellen#Magieresistenz "Warstabellen"
+[this table]: ./war.mdstabellen#Ausdauer "Warstabellen"
+[2]: #boni-und-mali
+[MAKE ammunition]: ./cmd-make.md "MAKE"
+[combat tables]: ./war.mdstabellen#Kampfmodifikatoren "Warstabellen"
+[COMBAT FLIGHT]: /Spezial:Meine_Sprache/COMBAT "COMBAT (Seite nicht vorhanden)"
+[`GIVE COMMAND`]: /Spezial:Meine_Sprache/GIVE "GIVE (Seite nicht vorhanden)"
+[`GUARD`]: ./cmd-guard.md "GUARD"
+[ships]: ./ships.mde "Schiffe"
+[damage]: ./ships.md#Schiffsschaden "Schiff"
+[`LEAVE`]: ./cmd-leave.md "LEAVE"
+[`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
+[races]: ./skills-modifiers.md "Talentmodifikatoren"
+[`MOVE`]: ./cmd-move.md "MOVE"
+[`ROUTE`]: ./cmd-route.md "ROUTE"
+[War tables]: ./war.mdstabellen "Warstabellen"

@@ -39,25 +39,25 @@ Les différentes [races] ont, en plus de leurs capacités spéciales, des coûts
 | cartmaking | 0   | \-1 | 0   | 0   | \-2 | +2  | 0   | \-1 | 0   | 0   | 0   |
 | perception | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
 
-[dwarves]: /Spezial:Meine_Sprache/Zwerge "Spezial:Meine Sprache/Zwerge"
-[orcs]: /Spezial:Meine_Sprache/Orks "Spezial:Meine Sprache/Orks"
-[elves]: /Spezial:Meine_Sprache/Elfen "Spezial:Meine Sprache/Elfen"
-[cats]: /Spezial:Meine_Sprache/Katzen "Spezial:Meine Sprache/Katzen"
-[demons]: /Spezial:Meine_Sprache/Rassen#Dämonen "Spezial:Meine Sprache/Rassen"
-[halflings]: /Spezial:Meine_Sprache/Halblinge "Spezial:Meine Sprache/Halblinge"
-[humans]: /Spezial:Meine_Sprache/Menschen "Spezial:Meine Sprache/Menschen"
-[goblins]: /Spezial:Meine_Sprache/Goblins "Spezial:Meine Sprache/Goblins"
-[insects]: /Spezial:Meine_Sprache/Insekten "Spezial:Meine Sprache/Insekten"
-[trolls]: /Spezial:Meine_Sprache/Trolle "Spezial:Meine Sprache/Trolle"
-[aqua.]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
+[dwarves]: ./races.md#nainse "Zwerge"
+[orcs]: /Spezial:Meine_Sprache/Orks "Orks"
+[elves]: ./races.md#elfes "Elfen"
+[cats]: /Spezial:Meine_Sprache/Katzen "Katzen"
+[demons]: ./race.md#Dämonen "Rassen"
+[halflings]: /Spezial:Meine_Sprache/Halblinge "Halblinge"
+[humans]: /Spezial:Meine_Sprache/Menschen "Menschen"
+[goblins]: /Spezial:Meine_Sprache/Goblins "Goblins"
+[insects]: /Spezial:Meine_Sprache/Insekten "Insekten"
+[trolls]: /Spezial:Meine_Sprache/Trolle "Trolle"
+[aqua.]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
 
 |     |     |
 | --- | --- |
 | Weiterlesen: | [Talente] |
 
-[Talente]: ./skills.md "Spezial:Meine Sprache/Talente"  
+[Talente]: ./skills.md "Talente"  
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
 
 [Kategorien][]:
 
@@ -65,8 +65,8 @@ Les différentes [races] ont, en plus de leurs capacités spéciales, des coûts
 - [Rassen/fr/fr]
 
   [Talentmodifikatoren]: /Talentmodifikatoren "Talentmodifikatoren"
-  [races]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [compétences]: ./skills.md "Spezial:Meine Sprache/Talente"
+  [races]: ./race.md "Rassen"
+  [compétences]: ./skills.md "Talente"
   [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
   [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
   [Rassen/fr/fr]: /index.php?title=Kategorie:Rassen/fr/fr&action=edit&redlink=1 "Kategorie:Rassen/fr/fr (Seite nicht vorhanden)"

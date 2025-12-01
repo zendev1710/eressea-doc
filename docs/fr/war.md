@@ -1,4 +1,4 @@
-# La Guerre
+# La guerre
 
 Les conflits sont inévitables dans Eressea. Il y aura des disputes pour l'argent, pour les régions, pour les droits de taxes, pour les routes commerciales et ainsi de suite. C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis vont et viennent, les ennemis se multiplient".
 
@@ -35,7 +35,7 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 
 Expérience de jeu :En fait, c'est encore un peu plus compliqué. Voir par exemple les [Diskussion hier].
 
-[Diskussion hier]: /Spezial:Meine_Sprache/Kampfregeln "Spezial:Meine Sprache/Kampfregeln"
+[Diskussion hier]: /Spezial:Meine_Sprache/Kampfregeln "Kampfregeln"
 
 **Attention :** Des statuts d'aide ou des ordres d'ATTACK mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue. Des alliés sont restés sans rien faire ou se sont même battus entre eux. Quelques astuces permettent d'éviter les plus grosses bourdes :
 
@@ -56,7 +56,7 @@ Notez que les personnes participant à un combat ( les personnes listées dans l
 Durant la bataille, il y a quatre lignes de combat. Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus). Pour plus d'informations sur les statuts de combat, voir [COMBAT][`COMBAT`].
 
 1. ligne: Ici se trouvent toutes les unités qui ont mis [`COMBAT`] ou [`COMBAT AGGRESSIVE`][`COMBAT`].
-2. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT REAR`][`COMBAT`] ou [`KÄMPFE DEFENSIVE`][`COMBAT`].
+2. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT REAR`][`COMBAT`] ou [`COMBAT DEFENSIVE`][`COMBAT`].
 3. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT NOT`][`COMBAT`].
 4. ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper. Donc celles qui ont mis [`COMBAT FLEE`][`COMBAT`] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite]).
 
@@ -163,27 +163,27 @@ La compétence avec laquelle les orcs engagent le combat au corps à corps est d
 
 Certaines races (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.
 
-<!-- -->
+
 
 Bonus du château
 Les personnes se trouvant dans un château bénéficient d'une protection supplémentaire. Les occupants du château bénéficient d'un bonus de parade, selon la taille du château, s'ils appartiennent au camp défenseur et que le château est suffisamment grand pour les accueillir. Une fortification donne +1, une tour +2, et ainsi de suite, jusqu'à la citadelle, qui donne +5. Si les occupants du château s'attaquent eux-mêmes, ils ne bénéficient d'aucun bonus de parade. Le bonus du château s'applique également aux combattants à distance !
 
-<!-- -->
+
 
 Bonus Cavalerie
 Dans les plaines, les déserts et les Highlands, les combattants en première ligne en terrain découvert peuvent utiliser un cheval. Pour monter un cheval au combat, il faut un score de Riding d'au moins 2 et un cheval. Les cavaliers bénéficient d'un bonus de +2 à l'attaque et à la parade, car ils sont plus rapides et plus agiles. Les cavaliers à l'intérieur d'un château, et bénéficiant du bonus du château, n'ont pas le bonus cavalerie si ils sont attaqués. Les trolls ne peuvent pas utiliser de chevaux au combat.
 
-<!-- -->
+
 
 Bonus de lance  
 Les porteurs de lances et de spears montés reçoivent un bonus additionnel de +1 en attaque.
 
-<!-- -->
+
 
 Bonus de piquiers  
 Les porteurs de spears et de hallebardes qui n'utilisent pas de cheval reçoivent un bonus de +1 à la parade contre les troupes montées.
 
-<!-- -->
+
 
 Modificateurs d'armes  
 Les [Modificateurs d'armes][Caractéristiques des armes] sont également considérés comme des bonus et des malus.
@@ -245,11 +245,11 @@ Der Angreifer hat damit eine Trefferchance von 35%.
 
 Hieraus folgt, dass man eine Burg relativ gut halten kann, dass man aber aus einer Burg heraus möglichst keine Angriffe starten sollte, denn damit verliert man seinen Bonus bei der Verteidigung. Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppen sind als Schwertträger.
 
-## Die Flucht
+## La fuite
 
-Personen, die [KÄMPFE FLIEHE][`COMBAT`] gesetzt haben und [attackiert][`ATTACK`] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
+Personen, die [COMBAT FLEE][`COMBAT`] gesetzt haben und [attackiert][`ATTACK`] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
 
-Personen mit [`KÄMPFE`][`COMBAT`] oder [`KÄMPFE HINTEN`][`COMBAT`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`COMBAT`] oder [`KÄMPFE NICHT`][`COMBAT`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.
+Personen mit [`COMBAT`][`COMBAT`] oder [`COMBAT REAR`][`COMBAT`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`COMBAT DEFENSIVE`][`COMBAT`] oder [`COMBAT NOT`][`COMBAT`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.
 
 Die Grundchance für die Flucht beträgt 25% (50% für Halblinge), dazu kommen 10%, wenn man ein Pferd hat und je 5% pro Stufe im Talent Tarnung; der Maximalwert ist aber 75% (bzw. 90% für Halblinge).
 
@@ -257,7 +257,7 @@ Fliehende Einheiten entziehen sich dem Kampf, verbleiben aber in sicherer Entfer
 
 **Hinweis:** Es kann deshalb sinnvoll sein, Burgen- oder Schiffsinsassen zu befehlen, ihr eigenes Schiff wieder zu betreten, was sie nach dem Kampf evtl. tun können. Zu beachten ist, dass auch das Kommando wieder an die richtige Einheit übergeben werden sollte.
 
-Besonderheiten gelten für Einheiten mit dem Status FLIEHE. Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften. Weiterhin können diese Einheiten keine Regionen bewachen. Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLIEHE einnimmt. Dies geschieht zu Beginn der Runde, womit alle Effekte von [`BEWACHE`] sofort aufgelöst werden.
+Besonderheiten gelten für Einheiten mit dem Status FLEE. Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften. Weiterhin können diese Einheiten keine Regionen bewachen. Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLEE einnimmt. Dies geschieht zu Beginn der Runde, womit alle Effekte von [`GUARD`] sofort aufgelöst werden.
 
 ## Kampf auf und von Schiffen
 
@@ -269,23 +269,23 @@ Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][`BEWACHE`] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
+Will man mit einem Schiff Truppen in einer feindlich [bewachten][`GUARD`] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
-Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELFE`][`HELP COMBAT`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
+Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELP`][`HELP COMBAT`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
 ## Piraterie
 
 Mit **Piraterie** hat ein Schiffskapitän die Möglichkeit, Schiffe anderer Parteien in Nachbarregionen aufzubringen.
 
-Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [`FOLGE SCHIFF`] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:
+Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [`FOLLOW SHIP`] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:
 
-- Als Ziele werden nur Parteien erkannt, mit denen man nicht mit `HELFE KÄMPFE` alliiert ist.
+- Als Ziele werden nur Parteien erkannt, mit denen man nicht mit `HELP COMBAT` alliiert ist.
 - Werden Parteinummern angegeben ([`PIRATERIE <parteinummer> ...`], so werden nur Kapitäne der angegebenen Parteien als Ziele erkannt.
 - Der Mechanismus funktioniert auch, wenn das Piratenschiff an Land ist. Er bietet also eine effektive Möglichkeit zum Küstenschutz.
 - Piraten segeln auch in Landregionen, sofern das Schiff dort landen kann. Falls es nicht landen kann, nimmt es Schaden.
 - Piratenkapitäne sind dumm wie Brot. Sie können nicht einschätzen, ob ein Ziel ihnen möglicherweise überlegen ist, und werden fröhlich auch mit einem einzigen Schiff in einer feindliche Flotte von 100 Schiffen hineinfahren. Das Piratendasein hat eben seine Risiken.
 - Stehen mehrere potentielle Ziele zur Auswahl, wird der Kapitän eines nach dem Zufallsprinzip aussuchen.
-- Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [`HELFE KÄMPFE`][`HELP COMBAT`] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.
+- Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [`HELP COMBAT`][`HELP COMBAT`] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.
 
 ## Das Ende
 
@@ -293,9 +293,9 @@ Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von a
 
 Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige [Rassen] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELP COMBAT`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
+Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELP GUARD`][`HELP COMBAT`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
-Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`COMBAT`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [`NACH`]`,`[`ROUTE`]` oder `[`FOLGE`][`FOLGE SCHIFF`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
+Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COMBAT`] und Einheiten auf See. Einheiten mit dem Status `COMBAT FLEE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [`MOVE`]`,`[`ROUTE`]` oder `[`FOLLOW`][`FOLLOW SHIP`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Siehe auch
 
@@ -306,47 +306,41 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 | --- | --- |
 | Weiterlesen: | [Allianz] |
 
-[Allianz]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
+[Allianz]: /Spezial:Meine_Sprache/Allianz "Allianz"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [`ATTACK`]: /Spezial:Meine_Sprache/ATTACKIERE "Spezial:Meine Sprache/ATTACKIERE"
-  [tour de tactique]: #Taktik
-  [`COMBAT`]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [`HELP COMBAT`]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [Lignes de combat]: /Schlacht "Schlacht"
-  [fuir]: #Flucht
-  [`GROUPE`]: /Spezial:Meine_Sprache/GRUPPE "Spezial:Meine Sprache/GRUPPE"
-  [combat en mer]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Spezial:Meine Sprache/Kampf auf Schiffen"
-  [la fuite]: /Spezial:Meine_Sprache/Die_Flucht "Spezial:Meine Sprache/Die Flucht"
-  [non armés]: #Boni_und_Mali
-  [Tacticien]: /Spezial:Meine_Sprache/Taktik "Spezial:Meine Sprache/Taktik"
-  [PROMOTE]: /Spezial:Meine_Sprache/BEF%C3%96RDERE "Spezial:Meine Sprache/BEFÖRDERE"
-  [Héros]: /index.php?title=Sp%C3%A9cial:MyLanguage/BEF%C3%96RDERUNG&action=edit&redlink=1 "Spécial:MyLanguage/BEFÖRDERUNG (Seite nicht vorhanden)"
-  [Caractéristiques des armes]: ./war.mdstabellen#Waffeneigenschaften "Spezial:Meine Sprache/Kriegstabellen"
-  [Modificateurs de compétences]: ./war.mdstabellen#Caractéristiques_raciales "Spezial:Meine Sprache/Kriegstabellen"
-  [ce]: ./war.mdstabellen#Rüstung "Spezial:Meine Sprache/Kriegstabellen"
-  [Résistance à la magie]: ./war.mdstabellen#Magieresistenz "Spezial:Meine Sprache/Kriegstabellen"
-  [ce tableau]: ./war.mdstabellen#Ausdauer "Spezial:Meine Sprache/Kriegstabellen"
-  [débordé]: #Schlacht
-  [à mains nues]: #Bonus_et_Malus
-  [MAKE ammunition]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [tables de combat]: ./war.mdstabellen#Kampfmodifikatoren "Spezial:Meine Sprache/Kriegstabellen"
-  [`BEWACHE`]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [Schiffe]: /Spezial:Meine_Sprache/Schiffe "Spezial:Meine Sprache/Schiffe"
-  [Schaden]: /Spezial:Meine_Sprache/Schiff#Schiffsschaden "Spezial:Meine Sprache/Schiff"
-  [`VERLASSEN`]: /Spezial:Meine_Sprache/VERLASSE "Spezial:Meine Sprache/VERLASSE"
-  [`FOLGE SCHIFF`]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [`PIRATERIE <parteinummer> ...`]: /Spezial:Meine_Sprache/PIRATERIE "Spezial:Meine Sprache/PIRATERIE"
-  [Rassen]: /Spezial:Meine_Sprache/Talentmodifikatoren "Spezial:Meine Sprache/Talentmodifikatoren"
-  [bewacht]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
-  [`NACH`]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [`ROUTE`]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [Taktik]: /Taktik "Taktik"
-  [Kriegstabellen]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[`ATTACK`]: ./cmd-attack.md "ATTACK"
+[tour de tactique]: #taktik
+[`COMBAT`]: ./cmd-combat.md "COMBAT"
+[`HELP COMBAT`]: ./cmd-help.md "HELP"
+[Lignes de combat]: /Schlacht "Schlacht"
+[fuir]: #la-fuite
+[`GROUPE`]: ./cmd-group.md "GROUP"
+[combat en mer]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[la fuite]: ./war.md#la-fuite "Die Flucht"
+[non armés]: #boni-und-mali
+[Tacticien]: ./tactic.md "Taktik"
+[PROMOTE]: ./cmd-promote.md "PROMOTE"
+[Héros]: /index.php?title=Sp%C3%A9cial:MyLanguage/BEF%C3%96RDERUNG&action=edit&redlink=1 "Spécial:MyLanguage/BEFÖRDERUNG (Seite nicht vorhanden)"
+[Caractéristiques des armes]: ./war.mdstabellen#Waffeneigenschaften "Guerrestabellen"
+[Modificateurs de compétences]: ./war.mdstabellen#Caractéristiques_raciales "Guerrestabellen"
+[ce]: ./war.mdstabellen#Rüstung "Guerrestabellen"
+[Résistance à la magie]: ./war.mdstabellen#Magieresistenz "Guerrestabellen"
+[ce tableau]: ./war.mdstabellen#Ausdauer "Guerrestabellen"
+[débordé]: #Schlacht
+[à mains nues]: #Bonus_et_Malus
+[MAKE ammunition]: ./cmd-make.md "MAKE"
+[tables de combat]: ./war.mdstabellen#Kampfmodifikatoren "Guerrestabellen"
+[`GUARD`]: ./cmd-guard.md "GUARD"
+[Schiffe]: ./ships.mde "Schiffe"
+[Schaden]: ./ships.md#Schiffsschaden "Schiff"
+[`VERLASSEN`]: ./cmd-leave.md "LEAVE"
+[`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
+[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
+[Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
+[bewacht]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[`MOVE`]: ./cmd-move.md "MOVE"
+[`ROUTE`]: ./cmd-route.md "ROUTE"
+[Taktik]: /Taktik "Taktik"
+[Kriegstabellen]: ./war.mdstabellen "Guerrestabellen"

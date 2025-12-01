@@ -104,9 +104,9 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 | --- | --- |
 | Weiterlesen: | [Befehlsreihenfolge] |
 
-[Befehlsreihenfolge]: /Spezial:Meine_Sprache/Befehlsreihenfolge "Spezial:Meine Sprache/Befehlsreihenfolge"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Befehl&oldid=16787]“
+<!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
 [Kategorien][]:
 
@@ -114,30 +114,29 @@ Abgerufen von „[https://wiki.eressea.de/index.php?title=Befehl&oldid=16787]“
 - [Regeln]
 
   [`OPTION ZUGVORLAGE`]: /OPTION "OPTION"
-  [ARBEITE]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [ATTACKIERE]: /Spezial:Meine_Sprache/ATTACKIERE "Spezial:Meine Sprache/ATTACKIERE"
-  [BEKLAUE]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [FAHRE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [FOLGE]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [FORSCHE]: /Spezial:Meine_Sprache/FORSCHE "Spezial:Meine Sprache/FORSCHE"
-  [KAUFE]: /Spezial:Meine_Sprache/KAUFE "Spezial:Meine Sprache/KAUFE"
-  [LEHRE]: /Spezial:Meine_Sprache/LEHRE "Spezial:Meine Sprache/LEHRE"
-  [LERNE]: /Spezial:Meine_Sprache/LERNE "Spezial:Meine Sprache/LERNE"
-  [MACHE]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [NACH]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [PFLANZE]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
-  [PIRATERIE]: /Spezial:Meine_Sprache/PIRATERIE "Spezial:Meine Sprache/PIRATERIE"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [SPIONIERE]: /Spezial:Meine_Sprache/SPIONIERE "Spezial:Meine Sprache/SPIONIERE"
-  [TREIBE]: /Spezial:Meine_Sprache/TREIBE "Spezial:Meine Sprache/TREIBE"
-  [UNTERHALTE]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [VERKAUFE]: /Spezial:Meine_Sprache/VERKAUFE "Spezial:Meine Sprache/VERKAUFE"
-  [ZAUBERE]: /Spezial:Meine_Sprache/ZAUBERE "Spezial:Meine Sprache/ZAUBERE"
-  [ZERSTÖRE]: /Spezial:Meine_Sprache/ZERST%C3%96RE "Spezial:Meine Sprache/ZERSTÖRE"
-  [ZÜCHTE]: /Spezial:Meine_Sprache/Z%C3%9CCHTE "Spezial:Meine Sprache/ZÜCHTE"
-  [Kurzbeschreibung]: /Spezial:Meine_Sprache/Kurzbeschreibung "Spezial:Meine Sprache/Kurzbeschreibung"
-  [DEFAULT]: /Spezial:Meine_Sprache/DEFAULT "Spezial:Meine Sprache/DEFAULT"
-  [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787]: https://wiki.eressea.de/index.php?title=Befehl&oldid=16787
+  [ARBEITE]: ./cmd-work.md "ARBEITE"
+  [ATTACKIERE]: ./cmd-attack.md "ATTACKIERE"
+  [BEKLAUE]: ./camouflage.md "BEKLAUE"
+  [FAHRE]: ./cmd-ride.md "FAHRE"
+  [FOLGE]: ./cmd-follow.md "FOLGE"
+  [FORSCHE]: ./cmd-search.md "FORSCHE"
+  [KAUFE]: ./cmd-buy.md "KAUFE"
+  [LEHRE]: ./cmd-teach.md "LEHRE"
+  [LERNE]: ./cmd-learn.md "LERNE"
+  [MACHE]: ./cmd-make.md "MACHE"
+  [NACH]: ./cmd-move.md "NACH"
+  [PFLANZE]: ./cmd-plant.md "PFLANZE"
+  [PIRATERIE]: ./cmd-piracy.md "PIRATERIE"
+  [ROUTE]: ./cmd-route.md "ROUTE"
+  [SPIONIERE]: ./cmd-spy.md "SPIONIERE"
+  [TREIBE]: ./cmd-tax.md "TREIBE"
+  [UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"
+  [VERKAUFE]: ./cmd-sell.md "VERKAUFE"
+  [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
+  [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
+  [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
+  [Kurzbeschreibung]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
+  [DEFAULT]: ./cmd-default.md "DEFAULT"
   [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
   [1]: /Kategorie:Befehle "Kategorie:Befehle"
   [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"

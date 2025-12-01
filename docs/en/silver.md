@@ -134,7 +134,7 @@ Examples:
 
 - Let's assume a region with 8,000 peasants that offers incense for 4 silver, and buys spice for 15 silver. 1% of the peasants is 80. If all the traders in the region sell 200 spices, the first 80 units are sold for 15 silver a piece, the next 80 units are sold for 10 silver a piece (down one base price for spice), and the last 40 spice are sold for only 5 silver a piece. The next week, spices will be sold for only 5 silver. Unless the price has already risen to 10 again (10% probability, 20% with a harbour).
 
-<!-- -->
+
 
 - If 100 incense is bought in the same region, the first 80 are bought at 4 silver a piece, and the next 20 are bought at 8 silver a piece (an increase of one basic price). In the coming week the price for incense will be 4 silver again and you can buy the first 80 incense for this price. If the 100 incense was purchased by units from two different factions, both pay approximately 4.8 silver per luxury good (disregarding rounding effects).
 
@@ -163,42 +163,35 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 | --- | --- |
 | Continue reading: | [Material pool] |
 
-[Material pool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
+[Material pool]: ./items-pool.md "Materialpool"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779]“
+<!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [working]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [entertaining]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [collecting taxes]: /Spezial:Meine_Sprache/TREIBE "Spezial:Meine Sprache/TREIBE"
-  [trading]: /Spezial:Meine_Sprache/Geld#Handel "Spezial:Meine Sprache/Geld"
-  [races]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [recruit]: /REKRUTIERE "REKRUTIERE"
-  [HELP SILVER]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [alliances]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
-  [reserved]: /Spezial:Meine_Sprache/RESERVIERE "Spezial:Meine Sprache/RESERVIERE"
-  [buildings]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [aquarians]: /Spezial:Meine_Sprache/Meermensch "Spezial:Meine Sprache/Meermensch"
-  [damage]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [combat end]: /Spezial:Meine_Sprache/Kampfende "Spezial:Meine Sprache/Kampfende"
-  [endurance skill]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [undead]: /Spezial:Meine_Sprache/Untote "Spezial:Meine Sprache/Untote"
-  [`WORK`]: /Spezial:Meine_Sprache/ARBEITEN "Spezial:Meine Sprache/ARBEITEN"
-  [castles table]: /Spezial:Meine_Sprache/Burg#übersicht "Spezial:Meine Sprache/Burg"
-  [`STEAL`]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [stealth skill]: /Spezial:Meine_Sprache/Tarnung "Spezial:Meine Sprache/Tarnung"
-  [perception]: /Spezial:Meine_Sprache/Wahrnehmung "Spezial:Meine Sprache/Wahrnehmung"
-  [BUY]: /Spezial:Meine_Sprache/KAUFE "Spezial:Meine Sprache/KAUFE"
-  [castles]: /Spezial:Meine_Sprache/Burgen#übersicht "Spezial:Meine Sprache/Burgen"
-  [harbour]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Hafen "Spezial:Meine Sprache/Andere Gebäude"
-  [`CONTACT`]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [GIVE]: /Spezial:Meine_Sprache/GIB "Spezial:Meine Sprache/GIB"
-  [1]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [Item pool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
-  [GUARD]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779]: https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[working]: ./cmd-work.md "WORK"
+[entertaining]: ./cmd-entertain.md "ENTERTAIN"
+[collecting taxes]: ./cmd-tax.md "TAX"
+[trading]: ./silver.md#Handel "Silver"
+[races]: ./race.md "Rassen"
+[recruit]: /RECRUIT "RECRUIT"
+[HELP SILVER]: ./cmd-help.md "HELP"
+[alliances]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[reserved]: ./cmd-reserve.md "RESERVE"
+[buildings]: ./buildings.md "Gebäude"
+[aquarians]: /Spezial:Meine_Sprache/Meermensch "Meermensch"
+[damage]: ./ships.md "Schiff"
+[combat end]: ./war.md#the-end"End of the battle"
+[endurance skill]: ./war.mdstabellen "Warstabellen"
+[undead]: /Spezial:Meine_Sprache/Untote "Untote"
+[`WORK`]: ./cmd-work.mdN "ARBEITEN"
+[castles table]: ./castles.md#übersicht "Burg"
+[`STEAL`]: ./camouflage.md "STEAL"
+[stealth skill]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[perception]: /Spezial:Meine_Sprache/Wahrnehmung "Wahrnehmung"
+[BUY]: ./cmd-buy.md "BUY"
+[castles]: ./castles.mden#übersicht "Burgen"
+[harbour]: ./buildings-others.md#Hafen "Andere Gebäude"
+[`CONTACT`]: ./cmd-contact.md "CONTACT"
+[GIVE]: ./cmd-give.md "GIVE"
+[1]:./silver.md#recruiting "RECRUIT"
+[Item pool]: ./items-pool.md "Materialpool"
+[GUARD]: ./cmd-guard.md "GUARD"

@@ -63,20 +63,10 @@ Le tableau suivant montre les objets disponibles sur Eressea. Ils ne peuvent êt
 - [bâtiments]
 - [tables militaires]
 
-  
+<!-- From [https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666] -->
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666] -->
-
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [Waren]: /Waren "Waren"
-  [ces exemples]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [ressources]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Spezial:Meine Sprache/Straßen"
-  [bâtiments]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [tables militaires]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666]: https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[ces exemples]: ./production.md "Produktion"
+[ressources]: ./resources.md "Ressources"
+[routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[bâtiments]: ./buildings.md "Gebäude"
+[tables militaires]: ./war.mdstabellen "Guerrestabellen"

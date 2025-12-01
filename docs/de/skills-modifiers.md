@@ -39,33 +39,32 @@ Die verschiedenen [Rassen] haben neben ihren Spezialfähigkeiten unterschiedlich
 | Wagenbau | 0   | \-1 | 0   | 0   | \-2 | +2  | 0   | \-1 | 0   | 0   | 0   |
 | Wahrnehmung | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
 
-[Zwerge]: /Spezial:Meine_Sprache/Zwerge "Spezial:Meine Sprache/Zwerge"
-[Orks]: /Spezial:Meine_Sprache/Orks "Spezial:Meine Sprache/Orks"
-[Elfen]: /Spezial:Meine_Sprache/Elfen "Spezial:Meine Sprache/Elfen"
-[Katzen]: /Spezial:Meine_Sprache/Katzen "Spezial:Meine Sprache/Katzen"
-[Dämonen]: /Spezial:Meine_Sprache/Rassen#Dämonen "Spezial:Meine Sprache/Rassen"
-[Halblinge]: /Spezial:Meine_Sprache/Halblinge "Spezial:Meine Sprache/Halblinge"
-[Menschen]: /Spezial:Meine_Sprache/Menschen "Spezial:Meine Sprache/Menschen"
-[Goblins]: /Spezial:Meine_Sprache/Goblins "Spezial:Meine Sprache/Goblins"
-[Insekten]: /Spezial:Meine_Sprache/Insekten "Spezial:Meine Sprache/Insekten"
-[Trolle]: /Spezial:Meine_Sprache/Trolle "Spezial:Meine Sprache/Trolle"
-[Meerm.]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
+[Zwerge]: ./races.md#swerge "Zwerge"
+[Orks]: /Spezial:Meine_Sprache/Orks "Orks"
+[Elfen]: ./races.md#elfen "Elfen"
+[Katzen]: /Spezial:Meine_Sprache/Katzen "Katzen"
+[Dämonen]: ./race.md#Dämonen "Rassen"
+[Halblinge]: /Spezial:Meine_Sprache/Halblinge "Halblinge"
+[Menschen]: /Spezial:Meine_Sprache/Menschen "Menschen"
+[Goblins]: /Spezial:Meine_Sprache/Goblins "Goblins"
+[Insekten]: /Spezial:Meine_Sprache/Insekten "Insekten"
+[Trolle]: /Spezial:Meine_Sprache/Trolle "Trolle"
+[Meerm.]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
 
 |     |     |
 | --- | --- |
 | Weiterlesen: | [Talente] |
 
-[Talente]: ./skills.md "Spezial:Meine Sprache/Talente"
+[Talente]: ./skills.md "Talente"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857]“
+<!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857] -->
 
 [Kategorien][]:
 
 - [Regeln]
 - [Rassen][1]
 
-  [Rassen]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857]: https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857
+  [Rassen]: ./race.md "Rassen"
   [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
   [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
   [1]: /Kategorie:Rassen "Kategorie:Rassen"

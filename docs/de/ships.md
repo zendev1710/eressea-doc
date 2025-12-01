@@ -78,19 +78,12 @@ Spielererfahrung: Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist
 | --- | --- |
 | Weiterlesen: | [Gebäude] |
 
-[Gebäude]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
+[Gebäude]: ./buildings.md "Gebäude"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Schiff&oldid=16111]“
+<!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [1]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [umbenennen]: /Spezial:Meine_Sprache/BENENNE "Spezial:Meine Sprache/BENENNE"
-  [beschreiben]: /Spezial:Meine_Sprache/BESCHREIBE "Spezial:Meine Sprache/BESCHREIBE"
-  [übergibt]: /Spezial:Meine_Sprache/GIB "Spezial:Meine Sprache/GIB"
-  [Schiffsreise]: /Spezial:Meine_Sprache/Schiffsreise "Spezial:Meine Sprache/Schiffsreise"
-  [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111]: https://wiki.eressea.de/index.php?title=Schiff&oldid=16111
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[1]: ./cmd-make.md "MACHE"
+[umbenennen]: ./cmd-name.md "BENENNE"
+[beschreiben]: ./cmd-describe.md "BESCHREIBE"
+[übergibt]: ./cmd-give.md "GIB"
+[Schiffsreise]: ./ships.mdsreise "Schiffsreise"

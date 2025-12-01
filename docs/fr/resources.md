@@ -4,7 +4,7 @@ Les matières premières peuvent être obtenues directement à partir des réser
 
 ## Exploitation des ressources
 
-Lors de l'exploitation des ressources, il est important considérer que les unités en [guarde] empêchent l'exploitation, si les factions en guardue n'ont ni [`HELP GUARD`]` ni `[`HELP ALL`][`HELP GUARD`]` avec votre faction ou donné l'ordre `[`CONTACT`]` avec l'unité ou la faction qui exploite. Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est `[`camouflé`]`.`
+Lors de l'exploitation des ressources, il est important considérer que les unités en [garde] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`]` ni `[`HELP ALL`][`HELP GUARD`]` avec votre faction ou donné l'ordre `[`CONTACT`]` avec l'unité ou la faction qui exploite. Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est `[`camouflé`]`.`
 
 ` `
 
@@ -24,7 +24,7 @@ Les chevaux peuvent également être capturés à volonté avec l'ordre [`MAKE h
 
 Expérience de jeu : SoltharDie maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10. In einer relativ leeren Region vermehren sie sich mit ca. 4%. Je näher sie dem Limit kommen, desto langsamer das Wachstum. Am schnellsten geht es bei ungefähr halben Besatz. In einer Ebene gibt es bei 25 Pferden jede Runde ein neues. Bei 500 Pferden kommen 10 pro Runde hinzu. Ab 1000 Pferden tut sich nichts mehr.
 
-[Arbeitsplätze]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
+[Arbeitsplätze]: ./world.md "Welt"
 
 On peut également récolter des plantes pour concocter des potions. Il y a au maximum une espèce de plante dans chaque région. Voir la [Liste des Plantes]. Compétences : Herbalism, Alchemy
 
@@ -39,33 +39,20 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 | --- | --- |
 | Weiterlesen: | [objets] |
 
-[objets]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
+[objets]: /Spezial:Meine_Sprache/Waren "Waren"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [Régions]: /Welt "Welt"
-  [objets]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
-  [1 Exploitation des ressources]: #Exploitation_des_ressources
-  [1.1 Ressources minières]: #Ressources_minières
-  [1.2 Ressources Forestières]: #Ressources_Forestières
-  [1.3 Autres ressources]: #Autres_ressources
-  [2 Voir aussi]: #Voir_aussi
-  [guarde]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [`HELP GUARD`]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [`CONTACT`]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [`camouflé`]: /Spezial:Meine_Sprache/Tarnung "Spezial:Meine Sprache/Tarnung"
-  [`MAKE`]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [Herbalism]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [`PLANT`]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
-  [Stable]: /Spezial:Meine_Sprache/Pferdezucht "Spezial:Meine Sprache/Pferdezucht"
-  [Liste des Plantes]: /Spezial:Meine_Sprache/Kr%C3%A4uter#Kräuterliste "Spezial:Meine Sprache/Kräuter"
-  [Production]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [Routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Spezial:Meine Sprache/Straßen"
-  [Bâtiments]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659]: https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[Régions]./world.md "Welt"
+[garde]: ./cmd-guard.md "GUARD"
+[`HELP GUARD`]: ./cmd-help.md "HELP"
+[`CONTACT`]: ./cmd-contact.md "CONTACT"
+[`camouflé`]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[`MAKE`]: ./cmd-make.md "MAKE"
+[Herbalism]: ./skills-list.md "Liste des compétences"
+[`PLANT`]: ./cmd-plant.md "PLANT"
+[Stable]: /Spezial:Meine_Sprache/Pferdezucht "Pferdezucht"
+[Liste des Plantes]: ./herbs.md#Kräuterliste "Plantes"
+[Production]: ./production.md "Produktion"
+[Routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Bâtiments]: ./buildings.md "Gebäude"

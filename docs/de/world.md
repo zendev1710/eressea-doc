@@ -67,41 +67,18 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 | --- | --- |
 | Weiterlesen: | [Parteien] |
 
-[Parteien]: /Spezial:Meine_Sprache/Parteien "Spezial:Meine Sprache/Parteien"
+[Parteien]: ./factions.mden "Parteien"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560]“
+<!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[Kategorie][]:
-
-- [Regeln/de]
-
-  [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Datei:KarteCSMap.jpeg"
-  [URSPRUNG]: /Spezial:Meine_Sprache/URSPRUNG "Spezial:Meine Sprache/URSPRUNG"
-  [Geländearten]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Spezial:Meine Sprache/Geländearten"
-  [Arbeit]: /Spezial:Meine_Sprache/Geld#Arbeiten "Spezial:Meine Sprache/Geld"
-  [Burgen]: /Spezial:Meine_Sprache/Burg "Spezial:Meine Sprache/Burg"
-  [Kräuter]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
-  [Tränke]: /Spezial:Meine_Sprache/Tr%C3%A4nke "Spezial:Meine Sprache/Tränke"
-  [angepflanzt]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
-  [Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [spezielle Gebäude]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [Ressourcen]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [Bergwerk]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Bergwerk "Spezial:Meine Sprache/Andere Gebäude"
-  [Pferdedressur]: /Spezial:Meine_Sprache/Pferdedressur "Spezial:Meine Sprache/Pferdedressur"
-  [Transport]: /Spezial:Meine_Sprache/Pferd_und_Wagen "Spezial:Meine Sprache/Pferd und Wagen"
-  [Pferdebonus]: ./war.md#Boni_und_Mali "Spezial:Meine Sprache/Krieg"
-  [Karawanserei]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Karawanserei "Spezial:Meine Sprache/Andere Gebäude"
-  [verdienen]: /Spezial:Meine_Sprache/Geld#Einnahmen "Spezial:Meine Sprache/Geld"
-  [Leuchtturm]: /Spezial:Meine_Sprache/Leuchtturm "Spezial:Meine Sprache/Leuchtturm"
-  [REKRUTIERE]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [MACHE]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [Handel]: /Spezial:Meine_Sprache/Handel "Spezial:Meine Sprache/Handel"
-  [Befehle]: /Spezial:Meine_Sprache/Befehle "Spezial:Meine Sprache/Befehle"
-  [Insekt]: /Spezial:Meine_Sprache/Insekt "Spezial:Meine Sprache/Insekt"
-  [See]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [Waldwachstums]: /Spezial:Meine_Sprache/Rohstoffe#Tief_im_Wald "Spezial:Meine Sprache/Rohstoffe"
-  [Geld]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [UNTERHALTE]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560]: https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/de]: /index.php?title=Kategorie:Regeln/de&action=edit&redlink=1 "Kategorie:Regeln/de (Seite nicht vorhanden)"
+[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Datei:KarteCSMap.jpeg"
+[URSPRUNG]: ./cmd-origin.md "URSPRUNG"
+[Geländearten]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
+[Kräuter]: ./herbs.md "Kräuter"
+[REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
+[Befehle]: ./commands.md "Befehle"
+[Insekt]: /Spezial:Meine_Sprache/Insekt "Insekt"
+[See]: ./travel.md "Reisen"
+[Waldwachstums]: ./resources.md#Tief_im_Wald "Rohstoffe"
+[Geld]: ./silver.md "Geld"
+[UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"

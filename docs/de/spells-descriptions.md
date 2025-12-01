@@ -1524,7 +1524,7 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 
 - [Zauberliste E2]
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278]“
+<!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
 
   [Zauberbeschreibungen]: /index.php?title=Zauberbeschreibungen&redirect=no "Zauberbeschreibungen"
   [Bergwächter]: /index.php?title=Bergw%C3%A4chter&action=edit&redlink=1 "Bergwächter (Seite nicht vorhanden)"
@@ -1543,4 +1543,3 @@ Abgerufen von „[https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_
   [magischen Kräuterbeutel]: /index.php?title=Magischer_Kr%C3%A4uterbeutel&action=edit&redlink=1 "Magischer Kräuterbeutel (Seite nicht vorhanden)"
   [Ents]: /index.php?title=Ent&action=edit&redlink=1 "Ent (Seite nicht vorhanden)"
   [Zauberliste E2]: /Zauberliste_E2 "Zauberliste E2"
-  [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278]: https://wiki.eressea.de/index.php?title=Zauberbeschreibungen_E2&oldid=9278

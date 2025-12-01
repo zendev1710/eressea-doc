@@ -1,9 +1,5 @@
 # Anfängertipps
 
-De Eressea
-
-[Aller à la navigation][][Aller à la recherche]
-
 Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt. Setzt ein [Passwort] und vergesst es nicht.
 
 Es ist für alle interessanter, wenn ihr eure Partei und alle Einheiten auf originelle Art und Weise benennt. Beachtet dabei bitte, dass Eressea ein Fantasy-Rollenspiel ist - Namen wie "Barney's Folterknechte der Fernbedienung" (ja, sowas gab es wirklich!) passen partout nicht in die Atmosphäre von Eressea.
@@ -79,16 +75,16 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 | --- | --- |
 | Weiterlesen: | [Xontormia-Express] |
 
-[Xontormia-Express]: /Spezial:Meine_Sprache/Xontormia-Express "Spezial:Meine Sprache/Xontormia-Express"
+[Xontormia-Express]: /Spezial:Meine_Sprache/Xontormia-Express "Xontormia-Express"
 
-Récupérée de « [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] »
+<!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
   [Passwort]: /PASSWORT "PASSWORT"
   [1]: https://discord.gg/JyAeYJw%7CDiscord
   [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
   [Magellan]: /Magellan "Magellan"
   [ECheck]: /ECheck "ECheck"
-  [Zugvorlage]: /Befehl "Befehl"
+  [Zugvorlage]./commands.md "Befehl"
   [Unterhaltung]: /UNTERHALTE "UNTERHALTE"
   [Steuereintreiber]: /TREIBE "TREIBE"
   [Bergbau]: /Rohstoffe#Vom_Bergbau "Rohstoffe"
@@ -117,4 +113,3 @@ Récupérée de « [https://wiki.eressea.de/index.php?title=Anfängertipps&oldi
   [Hinweise]: /Hinweise "Hinweise"
   [Der erste Zug]: /Der_erste_Zug "Der erste Zug"
   [Grundlagen]: /Grundlagen "Grundlagen"
-  [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013]: https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013

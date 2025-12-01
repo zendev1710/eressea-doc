@@ -8,7 +8,7 @@
 
 Le monde d'Eressea est composé d'une multitude d'îles et de continents de tailles très différentes. Les îles et les océans sont divisés en régions. Dans les régions, on trouve les unités des joueurs, les bâtiments et les bateaux, les paysans et différentes matières premières.
 
-*Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsque Selen pointa du doigt l'une des îles en bordure. "Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?"*
+"*Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsque Selen pointa du doigt l'une des îles en bordure. "Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?*"
 
 [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Fichier:KarteCSMap.jpeg</span>]
 
@@ -16,7 +16,7 @@ Le monde d'Eressea est composé d'une multitude d'îles et de continents de tail
 
 Dans cet exemple, à (0,0) il y a un marais, au nord-est à (0,1) il y a une montagne. Chaque faction d'Eressea a son propre système de coordonnées, qui peut être déplacé avec la commande [ORIGIN], par exemple pour l'aligner sur celui d'une autre faction.
 
-*"Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle. "Ces cartes servent surtout à la navigation de nos bateaux. Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations. C'est pourquoi..." - et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte, - "... c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées. Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."*
+*"Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle. "Ces cartes servent surtout à la navigation de nos bateaux. Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations. C'est pourquoi..." - et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte, - "... c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées. Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions"*.
 
 Dans le monde d'Eressea, il existe plusieurs [Types de terrain] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.
 
@@ -48,11 +48,11 @@ Inversement, on peut donc aussi dire que si un mineur de niveau 4 ne voit pas de
 
 Outre le fer et les pierres, il y a aussi le laen, un métal nettement plus rare. Si une montagne, un glacier ou un volcan abrite du laen, on en trouve à partir de la profondeur d'extraction 7. Dans d'autres types de régions, on peut aussi avoir de la chance de trouver du laen, mais alors éventuellement seulement au niveau d'extraction 7 à 10. Il faut donc un mineur de niveau 5 pour pouvoir exclure le laen dans chaque région. Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [Mine] pour l'exploiter.
 
-*Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates. "Rahel, mon enfant, tu n'as pas besoin de te souvenir de tous ces chiffres. Retiens plutôt que tu pourras les consulter ici, dans la bibliothèque, à tout moment". La jeune novice essayait d'avoir l'air calme, mais la magistrate Selen pouvait voir qu'elle était soulagée de ne pas avoir à se souvenir de toutes les informations immédiatement. Selen poursuit "Mais on n'apprend pas seulement dans les académies et les bibliothèques, mais aussi dans les tavernes. Car on y rencontre parfois des mineurs autour d'un hydromel, qui se racontent des histoires sur un métal encore plus rare que le laen. Ils l'appellent adamantium. Il serait encore bien plus rare que le laen et seuls les mineurs les plus expérimentés l'auraient jamais trouvé. Mais avec ce métal, les meilleurs forgerons peuvent aussi fabriquer les meilleures armes et armures de tout Eressea."*
+*Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates. "Rahel, mon enfant, tu n'as pas besoin de te souvenir de tous ces chiffres. Retiens plutôt que tu pourras les consulter ici, dans la bibliothèque, à tout moment". La jeune novice essayait d'avoir l'air calme, mais la magistrate Selen pouvait voir qu'elle était soulagée de ne pas avoir à se souvenir de toutes les informations immédiatement. Selen poursuit "Mais on n'apprend pas seulement dans les académies et les bibliothèques, mais aussi dans les tavernes. Car on y rencontre parfois des mineurs autour d'un hydromel, qui se racontent des histoires sur un métal encore plus rare que le laen. Ils l'appellent adamantium. Il serait encore bien plus rare que le laen et seuls les mineurs les plus expérimentés l'auraient jamais trouvé. Mais avec ce métal, les meilleurs forgerons peuvent aussi fabriquer les meilleures armes et armures de tout Eressea"*.
 
 Pour la région suivante, les infos sont expliquées en détail :
 
-` Vîpot (3,-4), Desert, 0/1 Trees, 22 Stones/3, 190 Peasants, 5765 Silvers, 36 Horses.`
+`Vîpot (3,-4), Desert, 0/1 Trees, 22 Stones/3, 190 Peasants, 5765 Silvers, 36 Horses.`
 
 La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis le [ORIGINE][ORIGIN] de la faction. Un autre joueur - avec une autre ORIGINE- connaît la même région sous le même nom mais avec des coordonnées différentes. Le type de région est le désert. Dans un désert, il y a au maximum 500 emplois libres. Vîpot compte actuellement 190 paysans. Chaque paysan consomme un emploi. En outre, il n'y a actuellement pas d'arbres mais une pousse. La pousse d'arbre consomme actuellement 4 emplois. Il reste donc actuellement 306 emplois libres dans la région.
 
@@ -76,7 +76,7 @@ Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesqu
 
 Les paysans vivant dans la région peuvent être recrutés dans sa faction avec la commande [RECRUIT], les arbres peuvent être abattus et les chevaux domestiqués avec la commande [MAKE].
 
-'*Très bien, Rahel. Et que disent les lignes en dessous ?"*
+"*Très bien, Rahel. Et que disent les lignes en dessous ?*"
 
 `The local market offers incense at a price of 4 silver. Traders can sell balm for 12 silver, spice for 10 silver, gems for 21 silver, myrrh for 15 silver, oil for 12 silver and silk for 30 silver.`  
   
@@ -92,17 +92,17 @@ Les paysans vivant dans la région peuvent être recrutés dans sa faction avec 
 `swords: 2`  
 `horses: 4`
 
-*La jeune novice rayonne de fierté devant son enseignante apparemment satisfaite. "Il s'agit, Magistra, d'informations supplémentaires que nos éclaireurs ont obtenues. Tout d'abord, ils semblent avoir fait le tour du marché et noté les prix. Dans la partie inférieure, ils indiquent combien d'argent les habitants de la région sont prêts à dépenser pour les forains et les musiciens, combien on peut obtenir pour des travaux simples, combien de paysans sont prêts à se joindre à un peuple et combien de marchandises sont vendues sur le marché au prix indiqué ci-dessus. Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y trouvent et ce qu'elles transportent."*
+"*La jeune novice rayonne de fierté devant son enseignante apparemment satisfaite. "Il s'agit, Magistra, d'informations supplémentaires que nos éclaireurs ont obtenues. Tout d'abord, ils semblent avoir fait le tour du marché et noté les prix. Dans la partie inférieure, ils indiquent combien d'argent les habitants de la région sont prêts à dépenser pour les forains et les musiciens, combien on peut obtenir pour des travaux simples, combien de paysans sont prêts à se joindre à un peuple et combien de marchandises sont vendues sur le marché au prix indiqué ci-dessus. Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y trouvent et ce qu'elles transportent.*"
 
 Dans Luxuries, vous pouvez voir la quantité de marchandises achetées ou vendues par les paysans pour le prix indiqué (voir aussi [Trade]). Échanger plus de marchandises changera le prix durablement ! Pour plus d'informations, lisez la section [Trade].
 
-'*Excellent, Rahel. Ce que tu as sous les yeux est un rapport complet. Mais parfois, nous recevons des rapports moins complets, par exemple lorsqu'un éclaireur a simplement traversé une région à la hâte. Nous ne recevons des rapports aussi détaillés que celui-ci que lorsque des membres de notre peuple s'y trouvent."*
+"*Excellent, Rahel. Ce que tu as sous les yeux est un rapport complet. Mais parfois, nous recevons des rapports moins complets, par exemple lorsqu'un éclaireur a simplement traversé une région à la hâte. Nous ne recevons des rapports aussi détaillés que celui-ci que lorsque des membres de notre peuple s'y trouvent.*"
 
-*Selen désigne de la main la chaise de l'autre côté de la table. "Tu peux t'asseoir maintenant, mon enfant". Rahel s'approcha de la chaise, s'assit et émit un bref ronronnement, mélange de satisfaction de ne pas avoir apparemment déçu son professeur et d'attente de ce qui allait suivre. La consacrée des Chats aux Yeux d'Or se pencha en arrière sur sa chaise et regarda Rahel un instant. "Ce que tu vois là, ce ne sont que des chiffres. Des chiffres utiles, qui valent la peine d'être conservés, oui. Mais il est aussi important d'étudier les lois qui se cachent derrière ces chiffres."*
+"*Selen désigne de la main la chaise de l'autre côté de la table. "Tu peux t'asseoir maintenant, mon enfant". Rahel s'approcha de la chaise, s'assit et émit un bref ronronnement, mélange de satisfaction de ne pas avoir apparemment déçu son professeur et d'attente de ce qui allait suivre. La consacrée des Chats aux Yeux d'Or se pencha en arrière sur sa chaise et regarda Rahel un instant. "Ce que tu vois là, ce ne sont que des chiffres. Des chiffres utiles, qui valent la peine d'être conservés, oui. Mais il est aussi important d'étudier les lois qui se cachent derrière ces chiffres.*"
 
-*Elle se leva, plongea la main dans le sac qu'elle avait placé sous la table et en sortit un autre parchemin qu'elle étala sur la table, au-dessus de la carte. Rahel y jeta un regard intéressé, mais ne reconnut d'abord qu'un dessin chaotique fait de lignes plus ou moins horizontales. Elle regarda son enseignante d'un air interrogateur. "Qu'est-ce que cela signifie, Magistra ?"*
+"*Elle se leva, plongea la main dans le sac qu'elle avait placé sous la table et en sortit un autre parchemin qu'elle étala sur la table, au-dessus de la carte. Rahel y jeta un regard intéressé, mais ne reconnut d'abord qu'un dessin chaotique fait de lignes plus ou moins horizontales. Elle regarda son enseignante d'un air interrogateur. "Qu'est-ce que cela signifie, Magistra ?*"
 
-*"Ceci, mon enfant, est une tentative de suivre les lois de la nature. Chaque semaine, le nombre d'arbres, de paysans et de chevaux d'une région change. Ils meurent, naissent ou vont chercher fortune ailleurs. Je me suis efforcée de comprendre pourquoi ils font cela, sans jamais les interroger". La consacrée sourit intérieurement. "Il semble que beaucoup de choses dépendent de la place qu'il y a dans une région. Les paysans, les arbres et les chevaux se prennent mutuellement la place". La novice désigna un deuxième petit dessin griffonné sur le bord du parchemin. "Et que signifie ce dessin ? Il ressemble presque au grand". "Dans le grand dessin, Rahel, j'ai reporté les chiffres pour une région côtière plate avec un sol excellent. Le plus petit dessin décrit le développement dans un marais inhospitalier. Comme tu le vois, l'évolution est similaire, sauf que dans le marais, on trouve moins de tout."*
+"*Ceci, mon enfant, est une tentative de suivre les lois de la nature. Chaque semaine, le nombre d'arbres, de paysans et de chevaux d'une région change. Ils meurent, naissent ou vont chercher fortune ailleurs. Je me suis efforcée de comprendre pourquoi ils font cela, sans jamais les interroger". La consacrée sourit intérieurement. "Il semble que beaucoup de choses dépendent de la place qu'il y a dans une région. Les paysans, les arbres et les chevaux se prennent mutuellement la place". La novice désigna un deuxième petit dessin griffonné sur le bord du parchemin. "Et que signifie ce dessin ? Il ressemble presque au grand". "Dans le grand dessin, Rahel, j'ai reporté les chiffres pour une région côtière plate avec un sol excellent. Le plus petit dessin décrit le développement dans un marais inhospitalier. Comme tu le vois, l'évolution est similaire, sauf que dans le marais, on trouve moins de tout.*"
 
 ## Le calendrier d'Eressea
 
@@ -141,47 +141,39 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 - [RECRUIT][1]
 - [ENTERTAIN]
 
-  
 |     |     |
 | --- | --- |
 | Weiterlesen: | [Factions] |
 
-[Factions]: /Spezial:Meine_Sprache/Parteien "Spezial:Meine Sprache/Parteien"
+[Factions]: ./factions.mden "Parteien"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [Welt]: /Welt "Welt"
-  [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Fichier:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Fichier:KarteCSMap.jpeg"
-  [ORIGIN]: /Spezial:Meine_Sprache/URSPRUNG "Spezial:Meine Sprache/URSPRUNG"
-  [Types de terrain]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Spezial:Meine Sprache/Geländearten"
-  [travail]: /Spezial:Meine_Sprache/Geld#Arbeiten "Spezial:Meine Sprache/Geld"
-  [châteaux]: /Spezial:Meine_Sprache/Burg "Spezial:Meine Sprache/Burg"
-  [herbes]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
-  [potions]: /Spezial:Meine_Sprache/Tr%C3%A4nke "Spezial:Meine Sprache/Tränke"
-  [PLANT]: /Spezial:Meine_Sprache/Z%C3%9CCHTE "Spezial:Meine Sprache/ZÜCHTE"
-  [routes]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [bâtiments spéciaux]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [ressources]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [Mine]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Bergwerk "Spezial:Meine Sprache/Andere Gebäude"
-  [Taming]: /Spezial:Meine_Sprache/Pferdedressur "Spezial:Meine Sprache/Pferdedressur"
-  [transport]: /Spezial:Meine_Sprache/Pferd_und_Wagen "Spezial:Meine Sprache/Pferd und Wagen"
-  [bonus de cavalerie]: ./war.md#Boni_und_Mali "Spezial:Meine Sprache/Krieg"
-  [Caravanserai]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Karawanserei "Spezial:Meine Sprache/Andere Gebäude"
-  [revenus]: /Spezial:Meine_Sprache/Geld#Einnahmen "Spezial:Meine Sprache/Geld"
-  [Lighthouse]: /Spezial:Meine_Sprache/Leuchtturm "Spezial:Meine Sprache/Leuchtturm"
-  [RECRUIT]: /Spezial:Meine_Sprache/REKRUTIER "Spezial:Meine Sprache/REKRUTIER (Seite nicht vorhanden)"
-  [MAKE]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [Trade]: /Spezial:Meine_Sprache/Handel "Spezial:Meine Sprache/Handel"
-  [Ordres]: /Spezial:Meine_Sprache/Befehle "Spezial:Meine Sprache/Befehle"
-  [Insectes]: /Spezial:Meine_Sprache/Insekt "Spezial:Meine Sprache/Insekt"
-  [Mer]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [croissance des forêts]: /Spezial:Meine_Sprache/Rohstoffe#Tief_im_Wald "Spezial:Meine Sprache/Rohstoffe"
-  [l'argent]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [1]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [ENTERTAIN]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Fichier:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Fichier:KarteCSMap.jpeg"
+[ORIGIN]: ./cmd-origin.md "ORIGIN"
+[Types de terrain]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
+[travail]: ./silver.md#Arbeiten "Argent"
+[châteaux]: ./castles.md "Burg"
+[herbes]: ./herbs.md "Plantes"
+[potions]: ./alchemy.md "Tränke"
+[PLANT]: ./cmd-grow.md "GROW"
+[routes]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
+[ressources]: ./resources.md "Ressources"
+[Mine]: ./buildings-others.md#Bergwerk "Andere Gebäude"
+[Taming]: /Spezial:Meine_Sprache/Pferdedressur "Pferdedressur"
+[transport]: /Spezial:Meine_Sprache/Pferd_und_Wagen "Pferd und Wagen"
+[bonus de cavalerie]: ./war.md#boni-und-mali "Guerre"
+[Caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
+[revenus]: ./silver.md#Einnahmen "Argent"
+[Lighthouse]: /Spezial:Meine_Sprache/Leuchtturm "Leuchtturm"
+[RECRUIT]: /Spezial:Meine_Sprache/REKRUTIER "REKRUTIER (Seite nicht vorhanden)"
+[MAKE]: ./cmd-make.md "MAKE"
+[Trade]: /Spezial:Meine_Sprache/Handel "Handel"
+[Ordres]: ./commands.md "Befehle"
+[Insectes]: /Spezial:Meine_Sprache/Insekt "Insekt"
+[Mer]: ./travel.md "Reisen"
+[croissance des forêts]: ./resources.md#Tief_im_Wald "Ressources"
+[l'argent]: ./silver.md "Argent"
+[1]:./silver.md#recruter "RECRUIT"
+[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"

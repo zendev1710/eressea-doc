@@ -36,30 +36,23 @@ If no move is received by the game master, this results in a so-called NMR (no m
 | --- | --- |
 | Continue reading: | [World] |
 
-[World]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
+[World]: ./world.md "Welt"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806]“
+<!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [faction]: /Spezial:Meine_Sprache/Partei "Spezial:Meine Sprache/Partei"
-  [race]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [sign up]: /Spezial:Meine_Sprache/Anmelden_wie%3F "Spezial:Meine Sprache/Anmelden wie?"
-  [elves]: /Spezial:Meine_Sprache/Elf "Spezial:Meine Sprache/Elf"
-  [dwarves]: /Spezial:Meine_Sprache/Zwerg "Spezial:Meine Sprache/Zwerg"
-  [magic]: /Spezial:Meine_Sprache/Magie "Spezial:Meine Sprache/Magie"
-  [dragons]: /Spezial:Meine_Sprache/Drachen "Spezial:Meine Sprache/Drachen"
-  [monsters]: /Spezial:Meine_Sprache/Monster "Spezial:Meine Sprache/Monster"
-  [war]: ./war.md "Spezial:Meine Sprache/Krieg"
-  [orders]: /Spezial:Meine_Sprache/Befehle "Spezial:Meine Sprache/Befehle"
-  [NR]: /Spezial:Meine_Sprache/NR "Spezial:Meine Sprache/NR (Seite nicht vorhanden)"
-  [CR]: /Spezial:Meine_Sprache/CR "Spezial:Meine Sprache/CR (Seite nicht vorhanden)"
-  [automatic tools]: /Spezial:Meine_Sprache/Hilfsmittel "Spezial:Meine Sprache/Hilfsmittel"
-  [move template]: /Spezial:Meine_Sprache/Zugvorlage "Spezial:Meine Sprache/Zugvorlage (Seite nicht vorhanden)"
-  [weekly abstract]: /Spezial:Meine_Sprache/Wochenbericht "Spezial:Meine Sprache/Wochenbericht"
-  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Spezial:Meine Sprache/Xontormia Express"
-  [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806]: https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[faction]: ./factions.md "Partei"
+[race]: ./race.md "Rassen"
+[sign up]: /Spezial:Meine_Sprache/Anmelden_wie%3F "Anmelden wie?"
+[elves]: ./races.md#elves "Elf"
+[dwarves]: ./races.md#dwarves "Zwerg"
+[magic]: ./magic.md "Magie"
+[dragons]: ./monsters.md#drachen "Drachen"
+[monsters]: ./monsters.md "Monster"
+[war]: ./war.md "War"
+[orders]: ./commands.md "Befehle"
+[NR]: /Spezial:Meine_Sprache/NR "NR (Seite nicht vorhanden)"
+[CR]: /Spezial:Meine_Sprache/CR "CR (Seite nicht vorhanden)"
+[automatic tools]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
+[move template]: /Spezial:Meine_Sprache/Zugvorlage "Zugvorlage (Seite nicht vorhanden)"
+[weekly abstract]: /Spezial:Meine_Sprache/Wochenbericht "Wochenbericht"
+[Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Xontormia Express"

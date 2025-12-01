@@ -87,20 +87,13 @@ Soyez gentils les uns avec les autres. Même votre pire ennemi dans le jeu est c
 | --- | --- |
 | Weiterlesen: | [conseils pour débutants] |
 
-[conseils pour débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Spezial:Meine Sprache/Anfängertipps"
+[conseils pour débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
-[Kategorie][]:
-
-- [Regeln/fr]
-
-  [Link]: https://www.eressea.de/?page_id=186
-  [rapport de bug]: /Spezial:Meine_Sprache/Bugreport "Spezial:Meine Sprache/Bugreport"
-  [Mantis]: http://bugs.eressea.de/
-  [Discord]: https://discord.gg/KT5Fffh
-  [QUIT]: /Spezial:Meine_Sprache/STIRB "Spezial:Meine Sprache/STIRB"
-  [BANNER]: /Spezial:Meine_Sprache/BANNER "Spezial:Meine Sprache/BANNER"
-  [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039]: https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
+[Link]: https://www.eressea.de/?page_id=186
+[rapport de bug]: /Spezial:Meine_Sprache/Bugreport "Bugreport"
+[Mantis]: http://bugs.eressea.de/
+[Discord]: https://discord.gg/KT5Fffh
+[QUIT]: ./cmd-quit.md "STIRB"
+[BANNER]: ./cmd-banner.md "BANNER"

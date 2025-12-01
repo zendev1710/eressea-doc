@@ -24,16 +24,9 @@ Dabei stehen in verschiedenen Regionen unterschiedlich viele Arbeitsplätze zur 
 
 Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [`BEWACHE`], [`HELFE`] und [`UNTERHALTE`]).
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714]“
+<!-- From [https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714] -->
 
-[Kategorie][]:
-
-- [Befehle]
-
-  [diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
-  [`BEWACHE`]: /BEWACHE "BEWACHE"
-  [`HELFE`]: /HELFE "HELFE"
-  [`UNTERHALTE`]: /UNTERHALTE "UNTERHALTE"
-  [https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714]: https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle]: /Kategorie:Befehle "Kategorie:Befehle"
+[diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
+[`BEWACHE`]: /BEWACHE "BEWACHE"
+[`HELFE`]: /HELFE "HELFE"
+[`UNTERHALTE`]: /UNTERHALTE "UNTERHALTE"

@@ -4,7 +4,7 @@ You can leave your island only with [ships] and, for example, open up new market
 
 All ships larger than a boat (including longboats) can only dock in plains and forests. All other types of region (e.g. mountains, highlands, swamps, etc.) require a [**Harbour**] for ships to dock. If a ship tries to dock in an unsuitable region, it suffers [damages]. However, ships can set sail from anywhere, so you can build ships in any coastal region and launch them.
 
-Ships cannot pass directly from one coast to a neighbouring coastal region without first sailing on an ocean region. Similarly, they can't leave in all directions, but only in the direction from which they came and in neighbouring directions. A ship coming from the east (report indicates then "coast east") can thus leave towards the east, the north-east and the south-east. However, if a region has a harbour, the ships of the owner of the harbour and of friendly factions (see [HELFE]) can go in any directions as long as they are oceanic regions.
+Ships cannot pass directly from one coast to a neighbouring coastal region without first sailing on an ocean region. Similarly, they can't leave in all directions, but only in the direction from which they came and in neighbouring directions. A ship coming from the east (report indicates then "coast east") can thus leave towards the east, the north-east and the south-east. However, if a region has a harbour, the ships of the owner of the harbour and of friendly factions (see [HELP]) can go in any directions as long as they are oceanic regions.
 
 On the high seas - i.e. ocean areas that are not bordered by a land region - ships can drift into a neighbouring area and suffer damage due to storms. This does not apply to ships ordering [FOLLOW] or [Piracy].
 
@@ -89,34 +89,27 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 | --- | --- |
 | Continue reading: | [Produktion] |
 
-[Produktion]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
+[Produktion]: ./production.md "Produktion"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812]“
+<!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
 
-[Kategorie][]:
-
-- [Regeln/en/en]
-
-  [ships]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [**Harbour**]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Hafen "Spezial:Meine Sprache/Andere Gebäude"
-  [damages]: #schiffsschaden
-  [HELFE]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [FOLLOW]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [Piracy]: ./war.md#Piraterie "Spezial:Meine Sprache/Krieg"
-  [items]: /Spezial:Meine_Sprache/Waren#Getenständen "Spezial:Meine Sprache/Waren"
-  [Weights and Capacities]: /Spezial:Meine_Sprache/Reisen#Rassengewichte "Spezial:Meine Sprache/Reisen"
-  [convoy]: /Spezial:Meine_Sprache/Schiff#Konvoi "Spezial:Meine Sprache/Schiff"
-  [MOVE]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`WORK`]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [earn silver]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [LEAVE]: /Spezial:Meine_Sprache/VERLASSE "Spezial:Meine Sprache/VERLASSE"
-  [RIDE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [CARRY]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [Aquarians]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
-  [Battle on ship]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Spezial:Meine Sprache/Kampf auf Schiffen"
-  [1]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [movement]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812]: https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en/en]: /index.php?title=Kategorie:Regeln/en/en&action=edit&redlink=1 "Kategorie:Regeln/en/en (Seite nicht vorhanden)"
+[ships]: ./ships.md "Schiff"
+[**Harbour**]: ./buildings-others.md#Hafen "Andere Gebäude"
+[damages]: #damage-to-ships
+[HELP]: ./cmd-help.md "HELP"
+[FOLLOW]: ./cmd-follow.md "FOLLOW"
+[Piracy]: ./war.md#Piraterie "War"
+[items]: /Spezial:Meine_Sprache/Waren#Getenständen "Waren"
+[Weights and Capacities]: ./travel.md#Rassengewichte "Reisen"
+[convoy]: ./ships.md#konvoi "Schiff"
+[MOVE]: ./cmd-move.md "MOVE"
+[ROUTE]: ./cmd-route.md "ROUTE"
+[`WORK`]: ./cmd-work.md "WORK"
+[earn silver]: ./silver.md "Silver"
+[LEAVE]: ./cmd-leave.md "LEAVE"
+[RIDE]: ./cmd-ride.md "RIDE"
+[CARRY]: ./cmd-carry.md "CARRY"
+[Aquarians]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
+[Battle on ship]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[1]: ./cmd-make.md "MAKE"
+[movement]: ./travel.md "Reisen"

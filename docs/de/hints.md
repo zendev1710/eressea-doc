@@ -87,20 +87,13 @@ Seid nett zueinander. Auch euer ärgster Feind im Spiel ist sicherlich ein nette
 | --- | --- |
 | Weiterlesen: | [Anfängertipps] |
 
-[Anfängertipps]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Spezial:Meine Sprache/Anfängertipps"
+[Anfängertipps]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366]“
+<!-- From [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [Link]: https://www.eressea.de/?page_id=186
-  [Bugreport]: /Spezial:Meine_Sprache/Bugreport "Spezial:Meine Sprache/Bugreport"
-  [Mantis]: http://bugs.eressea.de/
-  [Discord]: https://discord.gg/KT5Fffh
-  [STIRB]: /Spezial:Meine_Sprache/STIRB "Spezial:Meine Sprache/STIRB"
-  [BANNER]: /Spezial:Meine_Sprache/BANNER "Spezial:Meine Sprache/BANNER"
-  [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366]: https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[Link]: https://www.eressea.de/?page_id=186
+[Bugreport]: /Spezial:Meine_Sprache/Bugreport "Bugreport"
+[Mantis]: http://bugs.eressea.de/
+[Discord]: https://discord.gg/KT5Fffh
+[STIRB]: ./cmd-quit.md "STIRB"
+[BANNER]: ./cmd-banner.md "BANNER"

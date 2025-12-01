@@ -134,7 +134,7 @@ Beispiele:
 
 - Angenommen, in einer Region mit 8000 Bauern wird für Weihrauch 4 Silber verlangt, und für Gewürze werden 15 Silber geboten. 1% der Bauern sind 80. Verkauft ein Händler nun 200 Gewürze, werden die ersten 80 Gewürze zu 15 Silber verkauft, die nächsten 80 Gewürze zu 10 Silber, und die restlichen 40 Gewürze zu 5 Silber. In der kommenden Woche würden Gewürze hier nur noch für 5 Silber verkauft werden können - wenn der Preis nicht mit einer Wahrscheinlichkeit von 10% wieder auf 10 gestiegen ist.
 
-<!-- -->
+
 
 - Werden in der selben Region 100 Weihrauch gekauft, so kosten die ersten 80 Weihrauch 4 Silber, und die nächsten 20 Weihrauch kosten 8 Silber. In der kommenden Woche liegt der Preis für Weihrauch wieder bei 4 Silber und man kann die ersten 80 Weihrauch wieder für diesen Preis einkaufen. Falls die 100 Weihrauch von Einheiten von zwei verschiedenen Parteien gekauft wurden, zahlen beide (bis auf Rundungseffekte) 4,8 Silber pro Luxusgut.
 
@@ -163,44 +163,37 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 | --- | --- |
 | Weiterlesen: | [Materialpool] |
 
-[Materialpool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
+[Materialpool]: ./items-pool.md "Materialpool"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Geld&oldid=16840]“
+<!-- From [https://wiki.eressea.de/index.php?title=Geld&oldid=16840] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [Arbeiten]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [Unterhalten]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [Steuern eintreiben]: /Spezial:Meine_Sprache/TREIBE "Spezial:Meine Sprache/TREIBE"
-  [Handel]: /Spezial:Meine_Sprache/Geld#Handel "Spezial:Meine Sprache/Geld"
-  [Rassen]: /Spezial:Meine_Sprache/Rassen "Spezial:Meine Sprache/Rassen"
-  [rekrutieren]: /REKRUTIERE "REKRUTIERE"
-  [Tabelle der Rasseneigenschaften]: /Spezial:Meine_Sprache/Talentmodifikatoren "Spezial:Meine Sprache/Talentmodifikatoren"
-  [HELFE SILBER]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [hier]: /Spezial:Meine_Sprache/Allianz "Spezial:Meine Sprache/Allianz"
-  [reserviert]: /Spezial:Meine_Sprache/RESERVIERE "Spezial:Meine Sprache/RESERVIERE"
-  [Gebäude]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [Meermenschen]: /Spezial:Meine_Sprache/Meermensch "Spezial:Meine Sprache/Meermensch"
-  [Schaden]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [Kampfende]: /Spezial:Meine_Sprache/Kampfende "Spezial:Meine Sprache/Kampfende"
-  [Ausdauertalent]: ./war.mdstabellen "Spezial:Meine Sprache/Kriegstabellen"
-  [Untote]: /Spezial:Meine_Sprache/Untote "Spezial:Meine Sprache/Untote"
-  [1]: /Spezial:Meine_Sprache/ARBEITEN "Spezial:Meine Sprache/ARBEITEN"
-  [Burgen-Tabelle]: /Spezial:Meine_Sprache/Burg#übersicht "Spezial:Meine Sprache/Burg"
-  [`BEKLAUE`]: ./camouflage.md "Spezial:Meine Sprache/BEKLAUE"
-  [Tarnungstalent]: /Spezial:Meine_Sprache/Tarnung "Spezial:Meine Sprache/Tarnung"
-  [Wahrnehmung]: /Spezial:Meine_Sprache/Wahrnehmung "Spezial:Meine Sprache/Wahrnehmung"
-  [Tarnung]: /Tarnung "Tarnung"
-  [kaufen]: /Spezial:Meine_Sprache/KAUFE "Spezial:Meine Sprache/KAUFE"
-  [verkaufen]: /Spezial:Meine_Sprache/VERKAUFE "Spezial:Meine Sprache/VERKAUFE"
-  [Burgen]: /Spezial:Meine_Sprache/Burgen "Spezial:Meine Sprache/Burgen"
-  [Hafen]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [`KONTAKTIERE`]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [GIB]: /Spezial:Meine_Sprache/GIB "Spezial:Meine Sprache/GIB"
-  [REKRUTIERE]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [BEWACHE]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [https://wiki.eressea.de/index.php?title=Geld&oldid=16840]: https://wiki.eressea.de/index.php?title=Geld&oldid=16840
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[Arbeiten]: ./cmd-work.md "ARBEITE"
+[Unterhalten]: ./cmd-entertain.md "UNTERHALTE"
+[Steuern eintreiben]: ./cmd-tax.md "TREIBE"
+[Handel]: ./silver.md#Handel "Geld"
+[Rassen]: ./race.md "Rassen"
+[rekrutieren]: /REKRUTIERE "REKRUTIERE"
+[Tabelle der Rasseneigenschaften]: ./skills-modifiers.md "Talentmodifikatoren"
+[HELFE SILBER]: ./cmd-help.md "HELFE"
+[hier]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[reserviert]: ./cmd-reserve.md "RESERVIERE"
+[Gebäude]: ./buildings.md "Gebäude"
+[Meermenschen]: /Spezial:Meine_Sprache/Meermensch "Meermensch"
+[Schaden]: ./ships.md "Schiff"
+[Kampfende]: ./war.md#kampfende"Kampfende"
+[Ausdauertalent]: ./war.mdstabellen "Kriegstabellen"
+[Untote]: /Spezial:Meine_Sprache/Untote "Untote"
+[1]: ./cmd-work.mdN "ARBEITEN"
+[Burgen-Tabelle]: ./castles.md#übersicht "Burg"
+[`BEKLAUE`]: ./camouflage.md "BEKLAUE"
+[Tarnungstalent]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[Wahrnehmung]: /Spezial:Meine_Sprache/Wahrnehmung "Wahrnehmung"
+[Tarnung]: /Tarnung "Tarnung"
+[kaufen]: ./cmd-buy.md "KAUFE"
+[verkaufen]: ./cmd-sell.md "VERKAUFE"
+[Burgen]: ./castles.mden "Burgen"
+[Hafen]: ./buildings-others.md "Andere Gebäude"
+[`KONTAKTIERE`]: ./cmd-contact.md "KONTAKTIERE"
+[GIB]: ./cmd-give.md "GIB"
+[REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
+[BEWACHE]: ./cmd-guard.md "BEWACHE"

@@ -8,7 +8,7 @@ When exploiting resources, it is important to consider that units on [guard] pre
 
 ### About Mining
 
-Iron, stone, laen, and, in particularly ancient regions, sometimes even adamantium, can be mined or quarried from mountains, glaciers, and sometimes other types of regions. Laen and adamantium require a mine and particularly high mining skill. These resources can be difficult to extract. In your report you can find out by the number after the “/”. For example, if the report says "20 iron/4", this means that 20 iron can still be mined at skill level 4. Once these have been extracted, miners will need to be level 5 to extract iron from the next layer (5). In general, the quantities that can be extracted increase with each new layer.
+Iron, stone, laen, and, in particularly ancient regions, sometimes even adamantium, can be mined or quarried from mountains, glaciers, and sometimes other types of regions. Laen and adamantium require a mine and particularly high mining skill. These resources can be difficult to extract. In your report you can find out by the number after the  -->/”. For example, if the report says "20 iron/4", this means that 20 iron can still be mined at skill level 4. Once these have been extracted, miners will need to be level 5 to extract iron from the next layer (5). In general, the quantities that can be extracted increase with each new layer.
 
 ### Deep in the Forest
 
@@ -22,7 +22,7 @@ You may capture wild horses as you like with [`MAKE horse`][`MAKE`] by a unit wi
 
 Player experience: SoltharThe maximal amount of horses in a region equals the number of [jobs] / 10. In a relatively empty plain they grow at a rate of 4%. As they approach the upper limit, growth slows down. The most new horses are born at about half the maximal population. In a plain with 25 horses, there is 1 birth per week. With 500 horses there are 10 new horses per round. At 1000 horses there is no more growth.
 
-[jobs]: /Spezial:Meine_Sprache/Welt "Spezial:Meine Sprache/Welt"
+[jobs]: ./world.md "Welt"
 
 Herbs can also be harvested to make potions. There is a maximum of one herb species in each region. See the [herbs list].
 
@@ -37,27 +37,20 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 | --- | --- |
 | Continue reading: | [Goods] |
 
-[Goods]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
+[Goods]: /Spezial:Meine_Sprache/Waren "Waren"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867]“
+<!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [guard]: /Spezial:Meine_Sprache/GUARD "Spezial:Meine Sprache/GUARD (Seite nicht vorhanden)"
-  [`HELP GUARD`]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [CONTACTing]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [cloaked]: /Spezial:Meine_Sprache/Tarnung "Spezial:Meine Sprache/Tarnung"
-  [`MAKE`]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [herbalism]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [`PLANT`]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
-  [stable]: /Spezial:Meine_Sprache/Pferdezucht "Spezial:Meine Sprache/Pferdezucht"
-  [`BREED HORSES`]: /Spezial:Meine_Sprache/Z%C3%9CCHTE "Spezial:Meine Sprache/ZÜCHTE"
-  [herbs list]: /Spezial:Meine_Sprache/Kr%C3%A4uter#Kräuterliste "Spezial:Meine Sprache/Kräuter"
-  [Production]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
-  [Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Spezial:Meine Sprache/Straßen"
-  [Buildings]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
-  [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867]: https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[guard]: /Spezial:Meine_Sprache/GUARD "GUARD (Seite nicht vorhanden)"
+[`HELP GUARD`]: ./cmd-help.md "HELP"
+[CONTACTing]: ./cmd-contact.md "CONTACT"
+[cloaked]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[`MAKE`]: ./cmd-make.md "MAKE"
+[herbalism]: ./skills-list.md "Skills list"
+[`PLANT`]: ./cmd-plant.md "PLANT"
+[stable]: /Spezial:Meine_Sprache/Pferdezucht "Pferdezucht"
+[`BREED HORSES`]: ./cmd-grow.md "GROW"
+[herbs list]: ./herbs.md#Kräuterliste "Herbs"
+[Production]: ./production.md "Produktion"
+[Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Buildings]: ./buildings.md "Gebäude"

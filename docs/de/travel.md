@@ -74,23 +74,16 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 | --- | --- |
 | Weiterlesen: | [Schiffsreise] |
 
-[Schiffsreise]: /Spezial:Meine_Sprache/Schiffsreise "Spezial:Meine Sprache/Schiffsreise"
+[Schiffsreise]: ./ships.mdsreise "Schiffsreise"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Reisen&oldid=16133]“
+<!-- From [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [`NACH`]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [`ROUTE`]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`TRANSPORTIERE`]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [`FAHRE`]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [`FOLGE`]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [BEWACHE]: /Spezial:Meine_Sprache/BEWACHE "Spezial:Meine Sprache/BEWACHE"
-  [diese Tabelle]: /Spezial:Meine_Sprache/Waren "Spezial:Meine Sprache/Waren"
-  [Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [Schiffe]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133]: https://wiki.eressea.de/index.php?title=Reisen&oldid=16133
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[`NACH`]: ./cmd-move.md "NACH"
+[`ROUTE`]: ./cmd-route.md "ROUTE"
+[`TRANSPORTIERE`]: ./cmd-carry.md "TRANSPORTIERE"
+[`FAHRE`]: ./cmd-ride.md "FAHRE"
+[`FOLGE`]: ./cmd-follow.md "FOLGE"
+[BEWACHE]: ./cmd-guard.md "BEWACHE"
+[diese Tabelle]: /Spezial:Meine_Sprache/Waren "Waren"
+[Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[Schiffe]: ./ships.md "Schiff"

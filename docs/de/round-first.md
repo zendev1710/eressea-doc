@@ -233,10 +233,9 @@ Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als e
 | --- | --- |
 | Weiterlesen: | [Welpenschutz] |
 
-[Welpenschutz]: /Spezial:Meine_Sprache/Welpenschutz "Spezial:Meine Sprache/Welpenschutz"
+[Welpenschutz]: /Spezial:Meine_Sprache/Welpenschutz "Welpenschutz"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430]“
+<!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
   [Magellan]: /Magellan "Magellan"
   [Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/
-  [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430]: https://wiki.eressea.de/index.php?title=Der_erste_Zug&oldid=7430

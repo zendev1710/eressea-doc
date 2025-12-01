@@ -1,8 +1,8 @@
-# ARBEITE/en
+# WORK/en
 
 [Zur Navigation springen][][Zur Suche springen]
 
-**`ARBEITE`**
+**`WORK`**
 
 Die Einheit arbeitet in der Landwirtschaft und verdient zwischen 10 und 15 Silber pro Person und Runde (s.a. [diese Tabelle]).
 
@@ -24,17 +24,11 @@ Dabei stehen in verschiedenen Regionen unterschiedlich viele Arbeitsplätze zur 
 | Wald | 10000 | 1250 | 200 |
 | Vulkan | 500 | 63  | 50  |
 
-Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [`BEWACHE`], [`HELFE`] und [`UNTERHALTE`]).
+Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [`GUARD`], [`HELP`] und [`ENTERTAIN`]).
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=ARBEITE/en&oldid=11713] -->
+<!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[Kategorie][]:
-
-- [Befehle]
-
-  [diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
-  [`BEWACHE`]: /BEWACHE "BEWACHE"
-  [`HELFE`]: /HELFE "HELFE"
-  [`UNTERHALTE`]: /UNTERHALTE "UNTERHALTE"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle]: /Kategorie:Befehle "Kategorie:Befehle"
+[diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
+[`GUARD`]: /GUARD "GUARD"
+[`HELP`]: /HELP "HELP"
+[`ENTERTAIN`]: /ENTERTAIN "ENTERTAIN"

@@ -47,15 +47,7 @@ This means that 12 Tacticians level X reach the same level on average as one Tac
 
 - [Vom Kriege]
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952]“
+<!-- From [https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952] -->
 
-[Kategorie][]:
-
-- [Talente/en]
-
-  [Taktik]: /Taktik "Taktik"
-  [fighting]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [Vom Kriege]: /Kampf#Die_Taktikerrunde "Kampf"
-  [https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952]: https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Talente/en]: /index.php?title=Kategorie:Talente/en&action=edit&redlink=1 "Kategorie:Talente/en (Seite nicht vorhanden)"
+[fighting]: ./cmd-combat.md "COMBAT"
+[Vom Kriege]: /Kampf#Die_Taktikerrunde "Kampf"

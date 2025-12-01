@@ -16,7 +16,7 @@ Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheite
 - Eine Drachenschiff mit einer Einheit mit 25 Personen der Stufe 2 segelt 5 Regionen weit. Mit 3 Personen der Stufe 20 kann es allerdings 7 Regionen weit segeln.
 
 |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Schiffe - Reichweite, Kapazität, Talente      
+| --- | --- | --- | --- | --- | --- |Schiffe - Reichweite, Kapazität, Talente
 | Typ | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
 | Boot | 2   | 50  | 1/2 | 1   | 5   |
 | Langboot | 3   | 500 | 1/10 | 1   | 50  |
@@ -85,35 +85,28 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 | --- | --- |
 | Weiterlesen: | [Produktion] |
 
-[Produktion]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
+[Produktion]: ./production.md "Produktion"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813]“
+<!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
-[Kategorie][]:
-
-- [Regeln]
-
-  [Schiffen]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [**Hafen**]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Hafen "Spezial:Meine Sprache/Andere Gebäude"
-  [Schaden]: #schiffsschaden
-  [HELFE]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [FOLGE]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [Piraterie]: ./war.md#Piraterie "Spezial:Meine Sprache/Krieg"
-  [Waren]: /Spezial:Meine_Sprache/Waren#Gegenstände "Spezial:Meine Sprache/Waren"
-  [Reisen]: /Spezial:Meine_Sprache/Reisen#Rassengewichte "Spezial:Meine Sprache/Reisen"
-  [Konvoi]: /Spezial:Meine_Sprache/Schiffe#Konvoi "Spezial:Meine Sprache/Schiffe"
-  [Schiffe]: /Spezial:Meine_Sprache/Schiffe "Spezial:Meine Sprache/Schiffe"
-  [NACH]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`ARBEITE`]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [Geld verdienen]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [VERLASSE]: /Spezial:Meine_Sprache/VERLASSE "Spezial:Meine Sprache/VERLASSE"
-  [FAHRE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [TRANSPORTIERE]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [Meermenschen]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
-  [Kampf auf Schiffen]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Spezial:Meine Sprache/Kampf auf Schiffen"
-  [1]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [2]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813]: https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
+[Schiffen]: ./ships.md "Schiff"
+[**Hafen**]: ./buildings-others.md#Hafen "Andere Gebäude"
+[Schaden]: #schiffsschaden
+[HELFE]: ./cmd-help.md "HELFE"
+[FOLGE]: ./cmd-follow.md "FOLGE"
+[Piraterie]: ./war.md#Piraterie "Krieg"
+[Waren]: /Spezial:Meine_Sprache/Waren#Gegenstände "Waren"
+[Reisen]: ./travel.md#Rassengewichte "Reisen"
+[Konvoi]: ./ships.mde#Konvoi "Schiffe"
+[Schiffe]: ./ships.mde "Schiffe"
+[NACH]: ./cmd-move.md "NACH"
+[ROUTE]: ./cmd-route.md "ROUTE"
+[`ARBEITE`]: ./cmd-work.md "ARBEITE"
+[Geld verdienen]: ./silver.md "Geld"
+[VERLASSE]: ./cmd-leave.md "VERLASSE"
+[FAHRE]: ./cmd-ride.md "FAHRE"
+[TRANSPORTIERE]: ./cmd-carry.md "TRANSPORTIERE"
+[Meermenschen]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
+[Kampf auf Schiffen]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[1]: ./cmd-make.md "MACHE"
+[2]: ./travel.md "Reisen"

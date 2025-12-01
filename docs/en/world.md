@@ -8,7 +8,8 @@
 
 The world of Eressea consists of many islands and continents with entirely different sizes. Islands and oceans are segmented to regions. Inside the regions are the players' units, buildings and ships, as well as peasants and various raw materials.
 
-*Rahel was still looking at the secret map in amazement when Selen pointed to one of the islands at the very edge. "Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"*
+> Rahel was still looking at the secret map in amazement when Selen pointed to one of the islands at the very edge.
+> "Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"
 
 [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">File:KarteCSMap.jpeg</span>]
 
@@ -16,7 +17,10 @@ The world of Eressea consists of many islands and continents with entirely diffe
 
 In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the command [ORIGIN] in order to adjust it to the one of another faction.
 
-*"Well done my child," Selen assured the much younger cat. "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..." − Selen opened a big, heavy book beside the map − "... our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."*
+> "Well done my child," Selen assured the much younger cat.
+> "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..."
+> − Selen opened a big, heavy book beside the map − "... 
+> our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."
 
 In the world of Eressea there are various [terrain types] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics. An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys. One example is the "wall of fire", which represents an insurmountable obstacle. As a rule, walls of fire demarcate the worlds in Eressea. This is to prevent factions of very different ages from easily clashing.
 
@@ -48,7 +52,13 @@ Conversely, you can also say that if a level 4 miner sees no iron in a plain (wh
 
 In addition to iron and stone, there is also the much rarer metal laen. If a mountain, glacier or volcano is home to laen, then it can be found from mining depth 7. In other region types you can also find laen with luck, but then possibly only at mining level 7 to 10. You therefore need a miner with mining 5 to be able to rule out laen in every land region. However, if you are very lucky and have found a region with laen, you will need a [mine] to gain it.
 
-*Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates. "Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time." The young novice tried to look composed, but Magistra Selen noticed her relief at not having to memorise all the information immediately. Selen then continued "You don't just learn in the academies and libraries, but also in the taverns. Because that's where you occasionally meet miners over a mead who tell each other stories about an even rarer metal than Laen. They call it adamantium. It is said to be even rarer than Laen and only the most experienced miners have ever found it. But the best smiths can make the best weapons and armour in all of Eressea from this metal."*
+> Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.
+> "Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time." 
+> The young novice tried to look composed, but Magistra Selen noticed her relief at not having to memorise all the information immediately.
+> Selen then continued "You don't just learn in the academies and libraries, but also in the taverns.
+> Because that's where you occasionally meet miners over a mead who tell each other stories about an even rarer metal than Laen. They call it adamantium.
+> It is said to be even rarer than Laen and only the most experienced miners have ever found it.
+> But the best smiths can make the best weapons and armour in all of Eressea from this metal."
 
 The information for the following region is explained in detail:
 
@@ -72,11 +82,14 @@ The report lists all regions in which you have a unit, through which you have tr
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamps of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountains of Nipevan (−2,0).`
 
-*"Well, first, there is the region's name as known by its inhabitants and its position, followed by its type. We can also see how many peasants live there and how much silver they have. Finally, the scout has reported the amount of trees and horses they have found in this region. Stones and iron have not yet been discovered there."*
+> "Well, first, there is the region's name as known by its inhabitants and its position, followed by its type.
+> We can also see how many peasants live there and how much silver they have.
+> Finally, the scout has reported the amount of trees and horses they have found in this region.
+> Stones and iron have not yet been discovered there."
 
 The peasants living in the region can be recruited to your faction with the command [RECRUIT], the trees can be cut down and horses tamed with the command [MAKE].
 
-*"Very good, Rahel. And what is written in the lines below?"*
+> "Very good, Rahel. And what is written in the lines below?"
 
 `The local market offers incense at a price of 4 silver. Traders can sell balm for 12 silver, spice for 10 silver, gems for 21 silver, myrrh for 15 silver, oil for 12 silver and silk for 30 silver.`  
   
@@ -91,25 +104,28 @@ The peasants living in the region can be recruited to your faction with the comm
 `silver: 821`  
 `swords: 2`  
 
-*The young novice beamed proudly at her obviously satisfied teacher. "This, Magistra, is further information that our scouts have discovered. Firstly, they seem to have looked around the market and noted the prices. The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above. The last lines then state how many of our people are there and what they are carrying."*
+> The young novice beamed proudly at her obviously satisfied teacher.
+> "This, Magistra, is further information that our scouts have discovered. Firstly, they seem to have looked around the market and noted the prices.
+> The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
+> The last lines then state how many of our people are there and what they are carrying."
 
 Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade]). Trading more goods may change the price permanently! For further information, read the section on[trade].
 
-*"Excellent, my child. This is a complete report. Sometimes we only get less extensive ones, especially when our scout only passed through a region on their horse. We only get detailed reports like this when members of our people stay there."*
+> "Excellent, my child. This is a complete report.
+> Sometimes we only get less extensive ones, especially when our scout only passed through a region on their horse. We only get detailed reports like this when members of our people stay there."
 
-*Selen pointed at a chair at the other side of the table. "You may sit down now, child." Rahel took place, purring briefly, a little bit satisfied she had not disappointed her teacher, but also wondering what would come next. The ordained member of the Clan of the Golden-Eyed Cats leaned back in her chair and watched her. "These are just numbers, useful and worth preserving, yes. But exploring the laws they are based on, is very important, too."*
-
-*Standing up, Selen took out another parchment from the bag she had placed beneath the table and spread it above the map. Rahel tried to understand the chaotic drawing of almost horizontal lines, but she couldn't make head or tail of it. "Explain it to me, please."*
-
-*"This, my child, is an attempt to track down the natural laws. Every week, the amount of peasants, trees, and horses are changing in the regions. They die, are born or emigrate. I tried to find out why they do so, without ever asking them." A silent smile appeared on Selens face. "It seems that most depends on the space peasants and trees must share." The young novice pointed at a second little drawing scribbled at the edge of the parchment. "And what does this mean? It looks similar to the big one." - "In the big drawing, I sketched in the figures of a plain near the ocean with fertile soil. The little one describes the development of an inhospitable swamp. You can see that the trends are similar, but the swamp has less of everything."*
+> Selen pointed at a chair at the other side of the table.
+> "You may sit down now, child." Rahel took place, purring briefly, a little bit satisfied she had not disappointed her teacher, but also wondering what would come next. The ordained member of the Clan of the Golden-Eyed Cats leaned back in her chair and watched her.
+> "These are just numbers, useful and worth preserving, yes. But exploring the laws they are based on, is very important, too."
+> Standing up, Selen took out another parchment from the bag she had placed beneath the table and spread it above the map. Rahel tried to understand the chaotic drawing of almost horizontal lines, but she couldn't make head or tail of it.
+> "Explain it to me, please."*
+> "This, my child, is an attempt to track down the natural laws. Every week, the amount of peasants, trees, and horses are changing in the regions. They die, are born or emigrate. I tried to find out why they do so, without ever asking them." A silent smile appeared on Selens face. "It seems that most depends on the space peasants and trees must share." The young novice pointed at a second little drawing scribbled at the edge of the parchment. "And what does this mean? It looks similar to the big one." - "In the big drawing, I sketched in the figures of a plain near the ocean with fertile soil. The little one describes the development of an inhospitable swamp. You can see that the trends are similar, but the swamp has less of everything."
 
 ## The Eressean Calendar
 
-*Selen Ard'Ragorn rose from her chair. Rahel also stood up and admired how supple the old abbess still moved. She already knew what would follow. At the end of every instruction, they were taking a walk through the spacious garden of the temple during which she would receive more lessons.*
-
-*Together they walked through a little grove, when Selen said: "Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us. Very hard on the insects, who can't breed in winter." - "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again." - "You are right, Rahel. So there is something positive to be found in everything."*
-
-*Until late in the evenening, the guardians of the temple could see the two cats strolling through the garden, illuminated by magic...*
+> Selen Ard'Ragorn rose from her chair. Rahel also stood up and admired how supple the old abbess still moved. She already knew what would follow. At the end of every instruction, they were taking a walk through the spacious garden of the temple during which she would receive more lessons.
+> Together they walked through a little grove, when Selen said: "Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us. Very hard on the insects, who can't breed in winter." - "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again." - "You are right, Rahel. So there is something positive to be found in everything."
+> Until late in the evenening, the guardians of the temple could see the two cats strolling through the garden, illuminated by magic...
 
 Eressea's year is divided into nine months with three weeks in each:
 
@@ -144,41 +160,34 @@ Although the influence of the seasons is generally not particularly pronounced, 
 | --- | --- |
 | Continue reading: | [Factions] |
 
-[Factions]: /Spezial:Meine_Sprache/Parteien "Spezial:Meine Sprache/Parteien"
+[Factions]: ./factions.mden "Parteien"
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559]“
+<!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 
-[Kategorie][]:
-
-- [Regeln/en]
-
-  [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">File:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "File:KarteCSMap.jpeg"
-  [ORIGIN]: /Spezial:Meine_Sprache/URSPRUNG "Spezial:Meine Sprache/URSPRUNG"
-  [terrain types]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Spezial:Meine Sprache/Geländearten"
-  [work]: /Spezial:Meine_Sprache/Geld#Arbeiten "Spezial:Meine Sprache/Geld"
-  [castles]: /Spezial:Meine_Sprache/Burg "Spezial:Meine Sprache/Burg"
-  [herbs]: /Spezial:Meine_Sprache/Kr%C3%A4uter "Spezial:Meine Sprache/Kräuter"
-  [potions]: /Spezial:Meine_Sprache/Tr%C3%A4nke "Spezial:Meine Sprache/Tränke"
-  [replanted]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
-  [roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Spezial:Meine Sprache/Straße"
-  [special buildings]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude "Spezial:Meine Sprache/Andere Gebäude"
-  [resources]: /Spezial:Meine_Sprache/Rohstoffe "Spezial:Meine Sprache/Rohstoffe"
-  [mine]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Bergwerk "Spezial:Meine Sprache/Andere Gebäude"
-  [taming]: /Spezial:Meine_Sprache/Pferdedressur "Spezial:Meine Sprache/Pferdedressur"
-  [transport]: /Spezial:Meine_Sprache/Pferd_und_Wagen "Spezial:Meine Sprache/Pferd und Wagen"
-  [horse bonus]: ./war.md#Boni_und_Mali "Spezial:Meine Sprache/Krieg"
-  [caravanserai]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Karawanserei "Spezial:Meine Sprache/Andere Gebäude"
-  [income]: /Spezial:Meine_Sprache/Geld#Einnahmen "Spezial:Meine Sprache/Geld"
-  [lighthouse]: /Spezial:Meine_Sprache/Leuchtturm "Spezial:Meine Sprache/Leuchtturm"
-  [RECRUIT]: /Spezial:Meine_Sprache/REKRUTIERE "Spezial:Meine Sprache/REKRUTIERE"
-  [MAKE]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [trade]: /Spezial:Meine_Sprache/Handel "Spezial:Meine Sprache/Handel"
-  [orders]: /Spezial:Meine_Sprache/Befehle "Spezial:Meine Sprache/Befehle"
-  [insect]: /Spezial:Meine_Sprache/Insekt "Spezial:Meine Sprache/Insekt"
-  [sea]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [forest growth]: /Spezial:Meine_Sprache/Rohstoffe#Tief_im_Wald "Spezial:Meine Sprache/Rohstoffe"
-  [money]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [ENTERTAIN]: /Spezial:Meine_Sprache/UNTERHALTE "Spezial:Meine Sprache/UNTERHALTE"
-  [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559]: https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
+[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">File:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "File:KarteCSMap.jpeg"
+[ORIGIN]: ./cmd-origin.md "ORIGIN"
+[terrain types]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
+[work]: ./silver.md#Arbeiten "Silver"
+[castles]: ./castles.md "Burg"
+[herbs]: ./herbs.md "Herbs"
+[potions]: ./alchemy.md "Tränke"
+[replanted]: ./cmd-plant.md "PLANT"
+[roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[special buildings]: ./buildings-others.md "Andere Gebäude"
+[resources]: ./resources.md "Resources"
+[mine]: ./buildings-others.md#Bergwerk "Andere Gebäude"
+[taming]: /Spezial:Meine_Sprache/Pferdedressur "Pferdedressur"
+[transport]: /Spezial:Meine_Sprache/Pferd_und_Wagen "Pferd und Wagen"
+[horse bonus]: ./war.md#boni-und-mali "War"
+[caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
+[income]: ./silver.md#Einnahmen "Silver"
+[lighthouse]: /Spezial:Meine_Sprache/Leuchtturm "Leuchtturm"
+[RECRUIT]:./silver.md#recruiting "RECRUIT"
+[MAKE]: ./cmd-make.md "MAKE"
+[trade]: /Spezial:Meine_Sprache/Handel "Handel"
+[orders]: ./commands.md "Befehle"
+[insect]: /Spezial:Meine_Sprache/Insekt "Insekt"
+[sea]: ./travel.md "Reisen"
+[forest growth]: ./resources.md#Tief_im_Wald "Resources"
+[money]: ./silver.md "Silver"
+[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"

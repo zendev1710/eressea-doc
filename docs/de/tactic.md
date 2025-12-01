@@ -47,14 +47,7 @@ Das bedeutet 12 Taktiker Stufe X erreichen im Mittel die gleiche Stufe wie ein T
 
 - [Vom Kriege]
 
-Abgerufen von „[https://wiki.eressea.de/index.php?title=Taktik&oldid=9946]“
+<!-- From [https://wiki.eressea.de/index.php?title=Taktik&oldid=9946] -->
 
-[Kategorie][]:
-
-- [Talente]
-
-  [kämpft]: /Spezial:Meine_Sprache/K%C3%84MPFE "Spezial:Meine Sprache/KÄMPFE"
-  [Vom Kriege]: /Kampf#Die_Taktikerrunde "Kampf"
-  [https://wiki.eressea.de/index.php?title=Taktik&oldid=9946]: https://wiki.eressea.de/index.php?title=Taktik&oldid=9946
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Talente]: /Kategorie:Talente "Kategorie:Talente"
+[kämpft]: ./cmd-combat.md "KÄMPFE"
+[Vom Kriege]: /Kampf#Die_Taktikerrunde "Kampf"

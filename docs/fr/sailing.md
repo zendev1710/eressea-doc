@@ -4,7 +4,7 @@ Seuls les [bateaux] permettent de quitter son île et ainsi, par exemple, d'ouvr
 
 Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts. Tous les autres types de régions (par exemple les montagnes, les highlands, les marais, etc.) ont besoin d'un [**Port**] pour que les bateaux puissent accoster. Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages]. Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.
 
-Les bateaux ne peuvent pas passer directement d'une côte à une région côtière voisine sans naviguer d'abord sur une région océanique. De même, ils ne peuvent pas partir dans toutes les directions, mais seulement dans la direction d'où ils sont venus et dans les directions voisines. Un bateau venant de l'est (le rapport indique alors "côte est") peut donc partir vers l'est, le nord-est et le sud-est. Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [HELFE]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.
+Les bateaux ne peuvent pas passer directement d'une côte à une région côtière voisine sans naviguer d'abord sur une région océanique. De même, ils ne peuvent pas partir dans toutes les directions, mais seulement dans la direction d'où ils sont venus et dans les directions voisines. Un bateau venant de l'est (le rapport indique alors "côte est") peut donc partir vers l'est, le nord-est et le sud-est. Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [HELP]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.
 
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes. Cela ne s'applique pas aux bateaux qui ordonnent des [FOLLOW] ou [Piraterie].
 
@@ -89,34 +89,28 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 | --- | --- |
 | Weiterlesen: | [Produktion] |
 
-[Produktion]: /Spezial:Meine_Sprache/Produktion "Spezial:Meine Sprache/Produktion"
+[Produktion]: ./production.md "Produktion"
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
 
-[Kategorie][]:
-
-- [Regeln/fr/fr]
-
-  [bateaux]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [**Port**]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Hafen "Spezial:Meine Sprache/Andere Gebäude"
-  [dommages]: #schiffsschaden
-  [HELFE]: /Spezial:Meine_Sprache/HELFE "Spezial:Meine Sprache/HELFE"
-  [FOLLOW]: /Spezial:Meine_Sprache/FOLGE "Spezial:Meine Sprache/FOLGE"
-  [Piraterie]: ./war.md#Piraterie "Spezial:Meine Sprache/Krieg"
-  [objets]: /Spezial:Meine_Sprache/Waren#Getenständen "Spezial:Meine Sprache/Waren"
-  [Poids et Capacités]: /Spezial:Meine_Sprache/Reisen#Rassengewichte "Spezial:Meine Sprache/Reisen"
-  [convoi]: /Spezial:Meine_Sprache/Schiffe#Konvoi "Spezial:Meine Sprache/Schiffe"
-  [1]: /Spezial:Meine_Sprache/Schiffe "Spezial:Meine Sprache/Schiffe"
-  [MOVE]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [`WORK`]: /Spezial:Meine_Sprache/ARBEITE "Spezial:Meine Sprache/ARBEITE"
-  [gagner d'argent]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [LEAVE]: /Spezial:Meine_Sprache/VERLASSE "Spezial:Meine Sprache/VERLASSE"
-  [RIDE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [CARRY]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [aquariens]: /Spezial:Meine_Sprache/Meermenschen "Spezial:Meine Sprache/Meermenschen"
-  [combat naval]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Spezial:Meine Sprache/Kampf auf Schiffen"
-  [2]: /Spezial:Meine_Sprache/MACHE "Spezial:Meine Sprache/MACHE"
-  [déplacement]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [Kategorie]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr/fr]: /index.php?title=Kategorie:Regeln/fr/fr&action=edit&redlink=1 "Kategorie:Regeln/fr/fr (Seite nicht vorhanden)"
+[bateaux]: ./ships.md "Schiff"
+[**Port**]: ./buildings-others.md#Hafen "Andere Gebäude"
+[dommages]: #schiffsschaden
+[HELP]: ./cmd-help.md "HELP"
+[FOLLOW]: ./cmd-follow.md "FOLLOW"
+[Piraterie]: ./war.md#Piraterie "Guerre"
+[objets]: /Spezial:Meine_Sprache/Waren#Getenständen "Waren"
+[Poids et Capacités]: ./travel.md#Rassengewichte "Reisen"
+[convoi]: ./ships.mde#Konvoi "Schiffe"
+[1]: ./ships.mde "Schiffe"
+[MOVE]: ./cmd-move.md "MOVE"
+[ROUTE]: ./cmd-route.md "ROUTE"
+[`WORK`]: ./cmd-work.md "WORK"
+[gagner d'argent]: ./silver.md "Argent"
+[LEAVE]: ./cmd-leave.md "LEAVE"
+[RIDE]: ./cmd-ride.md "RIDE"
+[CARRY]: ./cmd-carry.md "CARRY"
+[aquariens]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
+[combat naval]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[2]: ./cmd-make.md "MAKE"
+[déplacement]: ./travel.md "Reisen"

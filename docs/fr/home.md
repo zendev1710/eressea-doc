@@ -68,27 +68,27 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 - [Who is Who of Eressea (in the Internet Archive, in German)]
 - [Un génerateur de casus belli]
 
-<!-- Récupéré depuis [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
+<!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
-  [Eressea]: /Spezial:Meine_Sprache/Eressea "Spezial:Meine Sprache/Eressea"
+  [Eressea]: /Spezial:Meine_Sprache/Eressea "Eressea"
   [Discord]: https://discord.gg/KT5Fffh
-  [règles]: /Spezial:Meine_Sprache/Regeln "Spezial:Meine Sprache/Regeln"
+  [règles]: ./rules.md "Regeln"
   [Inscription au jeu]: https://www.eressea.de/?page_id=186
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Outils pour jouer]: /Spezial:Meine_Sprache/Hilfsmittel "Spezial:Meine Sprache/Hilfsmittel"
-  [Conseils pour les débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Spezial:Meine Sprache/Anfängertipps"
-  [L'histoire Eressea]: /Spezial:Meine_Sprache/Geschichte_von_Eressea "Spezial:Meine Sprache/Geschichte von Eressea"
-  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Spezial:Meine Sprache/Atlantis"
-  [Frequently asked questions]: /Spezial:Meine_Sprache/FAQ "Spezial:Meine Sprache/FAQ"
-  [Séquence des ordres]: /Spezial:Meine_Sprache/Befehlsreihenfolge "Spezial:Meine Sprache/Befehlsreihenfolge"
-  [Tactics]: /Spezial:Meine_Sprache/Taktik "Spezial:Meine Sprache/Taktik"
-  [Familiers]: /Spezial:Meine_Sprache/Vertraute "Spezial:Meine Sprache/Vertraute"
-  [Développement]: /Spezial:Meine_Sprache/Entwicklung "Spezial:Meine Sprache/Entwicklung"
-  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Spezial:Meine Sprache/Xontormia Express"
+  [Outils pour jouer]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
+  [Conseils pour les débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
+  [L'histoire Eressea]: /Spezial:Meine_Sprache/Geschichte_von_Eressea "Geschichte von Eressea"
+  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Atlantis"
+  [Frequently asked questions]: /Spezial:Meine_Sprache/FAQ "FAQ"
+  [Séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
+  [Tactics]: ./tactic.md "Taktik"
+  [Familiers]: ./familiars.md "Vertraute"
+  [Développement]: /Spezial:Meine_Sprache/Entwicklung "Entwicklung"
+  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Xontormia Express"
   [numéros archivés]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [annonces]: /Spezial:Meine_Sprache/Ank%C3%BCndigungen "Spezial:Meine Sprache/Ankündigungen"
-  [pages de joueurs]: /Spezial:Meine_Sprache/Spielerseiten "Spezial:Meine Sprache/Spielerseiten"
-  [Tu joues trop à Eressea si ...]: /Spezial:Meine_Sprache/Du_spielst_zuviel_Eressea,_wenn... "Spezial:Meine Sprache/Du spielst zuviel Eressea, wenn..."
+  [annonces]: /Spezial:Meine_Sprache/Ank%C3%BCndigungen "Ankündigungen"
+  [pages de joueurs]: /Spezial:Meine_Sprache/Spielerseiten "Spielerseiten"
+  [Tu joues trop à Eressea si ...]: /Spezial:Meine_Sprache/Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
   [Das dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
   [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
   [Ankündigungen aus der e3-announce Mailingliste]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"

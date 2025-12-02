@@ -11,7 +11,7 @@ Eine Einheit kann jeweils nur eine Struktur (Gebäude, Straße, Schiff) pro Woch
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZERSTÖRE&oldid=16738] -->
 
-  [<sup>`L`</sup>]: /Befehl#KurzLang "Befehl"
+  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
   [Schiff]: /Schiff "Schiff"
-  [Gebäude]: /Geb%C3%A4ude "Gebäude"
+  [Gebäude]: ./buildings.md "Gebäude"
   [Straße]: /Stra%C3%9Fe "Straße"

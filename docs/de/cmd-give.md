@@ -71,7 +71,7 @@ Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen 
  ENDE
 ```
 
-[Migranteneinheit]: /Spezial:Meine_Sprache/Rassen#Menschen "Spezial:Meine Sprache/Rassen"
+[Migranteneinheit]: /Rassen#Menschen "Rassen"
 
 Mit `GIB`*`einheit-nr`*`EINHEIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 
@@ -94,10 +94,10 @@ Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiff
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 
-  [KONTAKTIERE]: /Spezial:Meine_Sprache/KONTAKTIERE "Spezial:Meine Sprache/KONTAKTIERE"
-  [Materialpool]: /Spezial:Meine_Sprache/Materialpool "Spezial:Meine Sprache/Materialpool"
-  [Talente]: /Spezial:Meine_Sprache/Talente "Spezial:Meine Sprache/Talente"
-  [Konvoi]: /Spezial:Meine_Sprache/Schiff#Konvoi "Spezial:Meine Sprache/Schiff"
-  [RESERVIERE]: /Spezial:Meine_Sprache/RESERVIERE "Spezial:Meine Sprache/RESERVIERE"
-  [Schiff]: /Spezial:Meine_Sprache/Schiff "Spezial:Meine Sprache/Schiff"
-  [Gebäude]: /Spezial:Meine_Sprache/Geb%C3%A4ude "Spezial:Meine Sprache/Gebäude"
+  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+  [Materialpool]: /Materialpool "Materialpool"
+  [Talente]: ./skills.md "Talente"
+  [Konvoi]: /Schiff#Konvoi "Schiff"
+  [RESERVIERE]: /RESERVIERE "RESERVIERE"
+  [Schiff]: /Schiff "Schiff"
+  [Gebäude]: ./buildings.md "Gebäude"

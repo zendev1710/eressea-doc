@@ -111,7 +111,7 @@ MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->
 
 [production]: ./production.md "Produktion"
-[Gegenstände]: /Spezial:Meine_Sprache/Waren "Waren"
+[Gegenstände]: /Waren "Waren"
 [Rohstoffe]: ./resources.md "Ressources"
 [Alchemie-Kapitel]: ./skills-list.md "Liste des compétences"
 [Kräuterkunde]: ./herbs.mdkunde "Planteskunde"
@@ -119,10 +119,10 @@ MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
 [wieder einer Einheit der eigenen Partei zu]: ./factions.mden#Auflösung_von_Einheiten "Parteien"
 [Gebäude]: ./buildings.md "Gebäude"
 [Schiff]: ./ships.mde "Schiffe"
-[Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
-[Straßenbau]: /Spezial:Meine_Sprache/Stra%C3%9Fenbau "Straßenbau"
+[Straßen]: /Stra%C3%9Fen "Straßen"
+[Straßenbau]: /Stra%C3%9Fenbau "Straßenbau"
 [Tunnel]: ./buildings-others.md#Tunnel "Andere Gebäude"
 [Karawanserei]: ./buildings-others.md#Karawanserei "Andere Gebäude"
 [Damm]: ./buildings-others.md#Damm "Andere Gebäude"
-[Geländearten]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
-[Alchemie]: /Spezial:Meine_Sprache/Alchemie "Alchemie"
+[Geländearten]: /Gel%C3%A4ndearten "Geländearten"
+[Alchemie]: /Alchemie "Alchemie"

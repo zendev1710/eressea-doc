@@ -73,11 +73,11 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 
 [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Datei:KarteCSMap.jpeg"
 [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
-[Geländearten]: /Spezial:Meine_Sprache/Gel%C3%A4ndearten "Geländearten"
+[Geländearten]: /Gel%C3%A4ndearten "Geländearten"
 [Kräuter]: ./herbs.md "Kräuter"
 [REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
 [Befehle]: ./commands.md "Befehle"
-[Insekt]: /Spezial:Meine_Sprache/Insekt "Insekt"
+[Insekt]: /Insekt "Insekt"
 [See]: ./travel.md "Reisen"
 [Waldwachstums]: ./resources.md#Tief_im_Wald "Rohstoffe"
 [Geld]: ./silver.md "Geld"

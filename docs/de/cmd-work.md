@@ -28,5 +28,5 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 [diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
 [`BEWACHE`]: /BEWACHE "BEWACHE"
-[`HELFE`]: /HELFE "HELFE"
-[`UNTERHALTE`]: /UNTERHALTE "UNTERHALTE"
+[`HELFE`]: ./cmd-help.md "HELFE"
+[`UNTERHALTE`]: ./cmd-entertain.md "UNTERHALTE"

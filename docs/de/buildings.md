@@ -43,7 +43,7 @@ Gebäude werden mit dem [MACHE][`MACHE `*`Gebäude`*]-Befehl gebaut und erweiter
 [`MACHE `*`Gebäude`*]: ./cmd-make.md "MACHE"
 [`BEZAHLE NICHT`]: ./cmd-pay-not.md_NICHT "BEZAHLE NICHT"
 [SORTIERE]: ./cmd-sort.md "SORTIERE"
-[ZERSTÖRE]: /ZERST%C3%96RE "ZERSTÖRE"
+[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
 [Andere Gebäude]: ./buildings-others.md "Andere Gebäude"
 [Produktion]: ./production.md "Produktion"
 [Ausgaben]: ./silver.md#ausgaben "Ausgaben"

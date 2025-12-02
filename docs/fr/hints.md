@@ -87,12 +87,12 @@ Soyez gentils les uns avec les autres. Même votre pire ennemi dans le jeu est c
 | --- | --- |
 | Weiterlesen: | [conseils pour débutants] |
 
-[conseils pour débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
+[conseils pour débutants]: /Anf%C3%A4ngertipps "Anfängertipps"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
 [Link]: https://www.eressea.de/?page_id=186
-[rapport de bug]: /Spezial:Meine_Sprache/Bugreport "Bugreport"
+[rapport de bug]: /Bugreport "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 [QUIT]: ./cmd-quit.md "STIRB"

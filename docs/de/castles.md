@@ -62,7 +62,7 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 [Pest]: ./pest.md "Pest (Seite nicht vorhanden)"
 [MACHE BURG]: ./cmd-make.md "MACHE"
 [Krieg]: ./war.md "Krieg"
-[Boni und Mali]: /./war.md#boni-und-mali "Boni und Mali"
+[Boni und Mali]: ./war.md#boni-und-mali "Boni und Mali"
 [Übersichtstabelle]: #übersicht
 [Gebäude]: ./buildings.md "Gebäude"
 [Einnahmen]: ./silver.md#einnahmen "Einnahmen"

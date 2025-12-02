@@ -37,20 +37,20 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 | --- | --- |
 | Continue reading: | [Goods] |
 
-[Goods]: /Spezial:Meine_Sprache/Waren "Waren"
+[Goods]: /Waren "Waren"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 
-[guard]: /Spezial:Meine_Sprache/GUARD "GUARD (Seite nicht vorhanden)"
+[guard]: /GUARD "GUARD (Seite nicht vorhanden)"
 [`HELP GUARD`]: ./cmd-help.md "HELP"
 [CONTACTing]: ./cmd-contact.md "CONTACT"
-[cloaked]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[cloaked]: /Tarnung "Tarnung"
 [`MAKE`]: ./cmd-make.md "MAKE"
 [herbalism]: ./skills-list.md "Skills list"
 [`PLANT`]: ./cmd-plant.md "PLANT"
-[stable]: /Spezial:Meine_Sprache/Pferdezucht "Pferdezucht"
+[stable]: /Pferdezucht "Pferdezucht"
 [`BREED HORSES`]: ./cmd-grow.md "GROW"
 [herbs list]: ./herbs.md#Kräuterliste "Herbs"
 [Production]: ./production.md "Produktion"
-[Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Roads]: /Stra%C3%9Fen "Straßen"
 [Buildings]: ./buildings.md "Gebäude"

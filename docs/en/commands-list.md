@@ -144,7 +144,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`DESTROY [stufen]`] STRASSE richtung | Straße einreißen | [L] |
 | [`GROW PFERDE`] | Pferde züchten - nur in Pferdezucht | L   |
 
-<!-- [//]: /Spezial:Meine_Sprache/KOMMENTAR "KOMMENTAR"-->
+<!-- [//]: /KOMMENTAR "KOMMENTAR"-->
 [K]./commands.md#KurzLang "Befehl"
 [`WORK`]: ./cmd-work.md "WORK"
 [L]./commands.md#KurzLang "Befehl"
@@ -179,10 +179,10 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`MESSAGE UNIT <unit id> "<text>"`]: ./cmd-message.md "MESSAGE"
 [`MESSAGE FACTION <faction id> "<text>"`]: ./cmd-message.md "MESSAGE"
 [`DEFAULT "befehl"`]: ./cmd-default.md "DEFAULT"
-[`UNIT <unit id>`]: /Spezial:Meine_Sprache/UNIT "UNIT"
+[`UNIT <unit id>`]: /UNIT "UNIT"
 [`EMAIL email@adresse`]: ./cmd-email.md "EMAIL"
-[`END`]: /Spezial:Meine_Sprache/END "END"
-[`ERESSEA <faction id> "passwort"`]: /Spezial:Meine_Sprache/ERESSEA "ERESSEA"
+[`END`]: /END "END"
+[`ERESSEA <faction id> "passwort"`]: /ERESSEA "ERESSEA"
 [`RIDE <unit id>`]: ./cmd-ride.md "RIDE"
 [`FOLLOW UNIT <unit id>`]: ./cmd-follow.md "FOLLOW"
 [`FOLLOW SHIP <ship id>`]: ./cmd-follow.md "FOLLOW"
@@ -217,7 +217,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`TEACH <unit id> [<unit id> etc.]`]: ./cmd-teach.md "TEACH"
 [`LEARN <skill>`]: ./cmd-learn.md "LEARN"
 [`LEARN AUTO <skill>`]: ./cmd-learn.md_AUTO "LEARN AUTO"
-[`LOCALE en/de`]: /Spezial:Meine_Sprache/LOCALE "LOCALE"
+[`LOCALE en/de`]: /LOCALE "LOCALE"
 [`MAKE TEMP unit-alias-nr ["<name>"]`]: ./cmd-make.md "MAKE"
 [`MAKE [stufe] gebäude-typ [<building id>]`]: ./cmd-make.md "MAKE"
 [`MAKE [stufe] schiffstyp`]: ./cmd-make.md "MAKE"
@@ -228,7 +228,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`MAKE [<number>] trank`]: ./cmd-make.md "MAKE"
 [`MAKE [<number>] <item>`]: ./cmd-make.md "MAKE"
 [`MOVE richtung [richtung etc.]`]: ./cmd-move.md "MOVE"
-[`NÄCHSTER`]: /Spezial:Meine_Sprache/N%C3%84CHSTER "NÄCHSTER"
+[`NÄCHSTER`]: /N%C3%84CHSTER "NÄCHSTER"
 [`NUMBER UNIT [neue\_nr]`]: ./cmd-number.md "NUMBER"
 [`NUMBER BUILDING [neue\_nr]`]: ./cmd-number.md "NUMBER"
 [`NUMBER FACTION [neue\_nr]`]: ./cmd-number.md "NUMBER"
@@ -250,8 +250,8 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`PLANT [<number>] MALLORNSAMEN`]: ./cmd-plant.md "PLANT"
 [`PLANT [<number>] SAMEN`]: ./cmd-plant.md "PLANT"
 [`PIRATERIE [partei\_1] [partei\_2] [...]`]: ./cmd-piracy.md "PIRATERIE"
-[`PRÄFIX [präfix]`]: /Spezial:Meine_Sprache/PR%C3%84FIX "PRÄFIX"
-[`REGION x,y`]: /Spezial:Meine_Sprache/REGION "REGION"
+[`PRÄFIX [präfix]`]: /PR%C3%84FIX "PRÄFIX"
+[`REGION x,y`]: /REGION "REGION"
 [`RECRUIT <number>`]:./silver.md#recruter "RECRUIT"
 [`RESERVE <number> "<item>"`]: ./cmd-reserve.md "RESERVE"
 [`RESERVE <number> SILVER`]: ./cmd-reserve.md "RESERVE"
@@ -259,7 +259,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`SORT VOR <unit id>`]: ./cmd-sort.md "SORT"
 [`SORT HINTER <unit id>`]: ./cmd-sort.md "SORT"
 [`SPIONIERE <unit id>`]: ./cmd-spy.md "SPIONIERE"
-[`SPRACHE en/de`]: /Spezial:Meine_Sprache/SPRACHE "SPRACHE"
+[`SPRACHE en/de`]: /SPRACHE "SPRACHE"
 [`STIRB <passwort> [FACTION <faction id>]`]: ./cmd-quit.md "STIRB"
 [`HIDE [stufe]`]: ./cmd-hide.md "HIDE"
 [`HIDE rasse`]: ./cmd-hide.md "HIDE"
@@ -297,7 +297,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | --- | --- |
 | Weiterlesen: | [Der erste Zug] |
 
-[Der erste Zug]: /Spezial:Meine_Sprache/Der_erste_Zug "Der erste Zug"
+[Der erste Zug]: ./round-first.md "Der erste Zug"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 

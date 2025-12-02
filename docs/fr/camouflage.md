@@ -54,4 +54,4 @@ Weiterlesen:
 [`STEAL`]: ./camouflage.md "STEAL"
 [espionnage]: ./skills-list.md#espionnage "Spionage"
 [position de combat]: ./cmd-combat.md "COMBAT"
-[revenus]: /Einnahmen#Diebstahl:_der_unehrliche_Weg "Einnahmen"
+[revenus]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"

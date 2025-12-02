@@ -14,7 +14,7 @@ Das Editieren dieser Regeln ist erlaubt und erwünscht, beachtet aber bitte unbe
 | --- | --- |
 | Weiterlesen: | [Einleitung] |
 
-[Einleitung]: /Spezial:Meine_Sprache/Einleitung "Einleitung"
+[Einleitung]: /Einleitung "Einleitung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln&oldid=14085] -->
 

@@ -56,11 +56,11 @@ Hier findet man eine Liste aller [Draigzauber].
 | --- | --- |
 | Weiterlesen: | [Zauberliste E2] |
 
-[Zauberliste E2]: /Spezial:Meine_Sprache/Zauberliste_E2 "Zauberliste E2"
+[Zauberliste E2]: /Zauberliste_E2 "Zauberliste E2"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
-[Magie]: /Magie "Magie"
+[Magie]: ./cmd-magic.md "Magie"
 [Illaunzauber]: /Illaunzauber "Illaunzauber"
 [Tybiedzauber]: /Tybiedzauber "Tybiedzauber"
 [Cerddorzauber]: /Cerddorzauber "Cerddorzauber"

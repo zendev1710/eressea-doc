@@ -151,7 +151,7 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 | --- | --- |
 | Weiterlesen: | [Hinweise] |
 
-[Hinweise]: /Spezial:Meine_Sprache/Hinweise "Hinweise"
+[Hinweise]: ./hints.md "Hinweise"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
@@ -159,9 +159,9 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
 [CSMapFX]: /CSMapFX "CSMapFX"
-[ECheck]: /ECheck "ECheck"
+[ECheck]: ./echeck.md "ECheck"
 [EHMV]: /EHMV "EHMV"
-[1]: /Magellan "Magellan"
+[1]: ./magellan.md "Magellan"
 [ExtendedCommands]: /ExtendedCommands "ExtendedCommands"
 [FFTools2]: /FFTools2 "FFTools2"
 [Vorlage]: /Vorlage "Vorlage"
@@ -172,11 +172,11 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 [NÄCHSTER]: /N%C3%84CHSTER "NÄCHSTER"
 [`UNIT`]: /UNIT "UNIT"
 [`WORK`]: /ARBEITEN "ARBEITEN"
-[TAX STEUERN EIN]: /TREIBEN "TREIBEN"
+[TAX STEUERN EIN]: ./cmd-tax.mdN "TREIBEN"
 [`ENTERTAIN`]: /ENTERTAIN "ENTERTAIN"
 [LEARN MAGIE]: /LEARN "LEARN"
 [`MOVE`]: /MOVE "MOVE"
 [;]: /; ";"
 [Kommentar-Befehl //]: /KOMMENTAR "KOMMENTAR"
 [Die Welt]./world.md "Welt"
-[Der erste Zug]: /Der_erste_Zug "Der erste Zug"
+[Der erste Zug]: ./round-first.md "Der erste Zug"

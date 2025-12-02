@@ -55,7 +55,7 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 [peste]: ./pest.md "Pest (Seite nicht vorhanden)"
 [MAKE CASTLE]: ./cmd-make.md "MAKE"
 [guerre]: ./war.md "Guerre"
-[bonus et malus]: /./war.md#boni-und-mali "Boni und Mali"
+[bonus et malus]: ./war.md#boni-und-mali "Boni und Mali"
 [tableau du bas]: #aperçu
 [bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
 [bâtiments]: ./buildings.md "Gebäude"

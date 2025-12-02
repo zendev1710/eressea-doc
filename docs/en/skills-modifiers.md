@@ -39,34 +39,23 @@ The different [races] have, in addition to their special abilities, different re
 | cartmaking | 0   | \-1 | 0   | 0   | \-2 | +2  | 0   | \-1 | 0   | 0   | 0   |
 | perception | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
 
-[dwarves]: ./races.md#dwarvese "Zwerge"
-[orcs]: /Spezial:Meine_Sprache/Orks "Orks"
-[elves]: ./races.md#elves "Elfen"
-[cats]: /Spezial:Meine_Sprache/Katzen "Katzen"
-[demons]: ./race.md#Dämonen "Rassen"
-[halflings]: /Spezial:Meine_Sprache/Halblinge "Halblinge"
-[humans]: /Spezial:Meine_Sprache/Menschen "Menschen"
-[goblins]: /Spezial:Meine_Sprache/Goblins "Goblins"
-[insects]: /Spezial:Meine_Sprache/Insekten "Insekten"
-[trolls]: /Spezial:Meine_Sprache/Trolle "Trolle"
-[aqua.]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
-
 |     |     |
 | --- | --- |
 | Continue reading: | [Talente] |
 
-[Talente]: ./skills.md "Talente"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/en&oldid=14951] -->
 
-[Kategorien][]:
-
-- [Regeln/en]
-- [Rassen/en/en]
-
-  [Talentmodifikatoren]: /Talentmodifikatoren "Talentmodifikatoren"
-  [races]: ./race.md "Rassen"
-  [skills]: ./skills.md "Talente"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"
-  [Rassen/en/en]: /index.php?title=Kategorie:Rassen/en/en&action=edit&redlink=1 "Kategorie:Rassen/en/en (Seite nicht vorhanden)"
+[Talente]: ./skills.md "Talente"
+[dwarves]: ./races.md#dwarvese "Zwerge"
+[orcs]: /Orks "Orks"
+[elves]: ./races.md#elves "Elfen"
+[cats]: /Katzen "Katzen"
+[demons]: ./race.md#Dämonen "Rassen"
+[halflings]: /Halblinge "Halblinge"
+[humans]: /Menschen "Menschen"
+[goblins]: /Goblins "Goblins"
+[insects]: /Insekten "Insekten"
+[trolls]: /Trolle "Trolle"
+[aqua.]: /Meermenschen "Meermenschen"
+[races]: ./race.md "Rassen"
+[skills]: ./skills.md "Talente"

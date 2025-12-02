@@ -40,4 +40,3 @@ Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (
 <!-- From [https://wiki.eressea.de/index.php?title=Straße&oldid=15933] -->
 
 [Gebäude]: ./buildings-others.md "Andere Gebäude"
-[https://wiki.eressea.de/index.php?title=Straße&oldid=15933]: https://wiki.eressea.de/index.php?title=Straße&oldid=15933

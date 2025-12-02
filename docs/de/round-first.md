@@ -233,9 +233,9 @@ Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als e
 | --- | --- |
 | Weiterlesen: | [Welpenschutz] |
 
-[Welpenschutz]: /Spezial:Meine_Sprache/Welpenschutz "Welpenschutz"
+[Welpenschutz]: ./puppy-protection.md "Welpenschutz"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-  [Magellan]: /Magellan "Magellan"
+  [Magellan]: ./magellan.md "Magellan"
   [Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/

@@ -83,14 +83,9 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 | --- | --- |
 | Continue reading: | [Short Description] |
 
-[Short Description]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"  
+[Short Description]: ./commands-list.md "Kurzbeschreibung"  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
-
-[Kategorien][]:
-
-- [Befehle]
-- [Regeln/en]
 
   [GROUP]: ./cmd-group.md "GROUP"
   [MAKE TEMP]: ./cmd-make.md "MAKE"
@@ -146,8 +141,5 @@ It does not mean that units leaving a ship can still attack in the same turn, as
   [notes]: #notes
   [item pool]: ./items-pool.md "Materialpool"
   [orders]: ./commands.md "Befehle"
-  [short description DE/EN]: /Spezial:Meine_Sprache/Diskussion:Kurzbeschreibung "Diskussion:Kurzbeschreibung"
+  [short description DE/EN]: /Diskussion:Kurzbeschreibung "Diskussion:Kurzbeschreibung"
   [Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle]: /Kategorie:Befehle "Kategorie:Befehle"
-  [Regeln/en]: /index.php?title=Kategorie:Regeln/en&action=edit&redlink=1 "Kategorie:Regeln/en (Seite nicht vorhanden)"

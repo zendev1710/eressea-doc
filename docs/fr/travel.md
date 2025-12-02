@@ -84,6 +84,6 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 [`RIDE`]: ./cmd-ride.md "RIDE"
 [`FOLLOW`]: ./cmd-follow.md "FOLLOW"
 [GUARD]: ./cmd-guard.md "GUARD"
-[objets]: /Spezial:Meine_Sprache/Waren "Waren"
-[routes]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[objets]: /Waren "Waren"
+[routes]: /Stra%C3%9Fe "Straße"
 [bateaux]: ./ships.md "Schiff"

@@ -35,7 +35,7 @@ I fight my enemies. My enemies are factions that attack me, that I attack, or th
 
 Player experience:In fact, it's even more complicated. See for example the [discussion here].
 
-[discussion here]: /Spezial:Meine_Sprache/Kampfregeln "Kampfregeln"
+[discussion here]: /Kampfregeln "Kampfregeln"
 
 **Warning:** Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes. Allies have stood by and done nothing or have even fought amongst themselves. There are a few tips to help you avoid the biggest blunders:
 
@@ -324,7 +324,7 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 | --- | --- |
 | Continue reading: | [Alliances] |
 
-[Alliances]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[Alliances]: ./alliances.md "Allianz"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
@@ -335,13 +335,13 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [combat rows]: #Schlacht
 [flee]: #Flucht
 [`GROUP`]: ./cmd-group.md "GROUP"
-[combat at sea]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[combat at sea]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
 [fleeing]: ./war.md#flee "Die Flucht"
-[unarmed]: /Spezial:Meine_Sprache/Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
+[unarmed]: /Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
 [1]: #Boni_and_Mali
 [Tactician]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
-[Heroes]: /Spezial:Meine_Sprache/BEF%C3%96RDERUNG "BEFÖRDERUNG"
+[Heroes]: /BEF%C3%96RDERUNG "BEFÖRDERUNG"
 [Weapon characteristics]: ./war.mdstabellen#Waffeneigenschaften "Warstabellen"
 [Racial skill modifiers]: ./war.mdstabellen#Rasseneigenschaften "Warstabellen"
 [this]: ./war.mdstabellen#Rüstung "Warstabellen"
@@ -350,8 +350,8 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [2]: #boni-und-mali
 [MAKE ammunition]: ./cmd-make.md "MAKE"
 [combat tables]: ./war.mdstabellen#Kampfmodifikatoren "Warstabellen"
-[COMBAT FLIGHT]: /Spezial:Meine_Sprache/COMBAT "COMBAT (Seite nicht vorhanden)"
-[`GIVE COMMAND`]: /Spezial:Meine_Sprache/GIVE "GIVE (Seite nicht vorhanden)"
+[COMBAT FLIGHT]: /COMBAT "COMBAT (Seite nicht vorhanden)"
+[`GIVE COMMAND`]: ./cmd-give.md "GIVE (Seite nicht vorhanden)"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [ships]: ./ships.mde "Schiffe"
 [damage]: ./ships.md#Schiffsschaden "Schiff"

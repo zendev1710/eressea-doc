@@ -71,7 +71,7 @@ L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exempl
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
 
-[Alchemy]: ./skills-list.md "Liste des compétences"
-[`MAKE`]: ./cmd-make.md "MACHE"
+[Alchemy]: ./skills-list.md#alchemy "Alchemy"
+[`MAKE`]: ./cmd-make.md "MAKE"
 [SHOW]: ./cmd-show.md "SHOW"
 [`USE`]: ./cmd-use.md "USE"

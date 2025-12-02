@@ -39,32 +39,22 @@ Die verschiedenen [Rassen] haben neben ihren Spezialfähigkeiten unterschiedlich
 | Wagenbau | 0   | \-1 | 0   | 0   | \-2 | +2  | 0   | \-1 | 0   | 0   | 0   |
 | Wahrnehmung | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
 
-[Zwerge]: ./races.md#swerge "Zwerge"
-[Orks]: /Spezial:Meine_Sprache/Orks "Orks"
-[Elfen]: ./races.md#elfen "Elfen"
-[Katzen]: /Spezial:Meine_Sprache/Katzen "Katzen"
-[Dämonen]: ./race.md#Dämonen "Rassen"
-[Halblinge]: /Spezial:Meine_Sprache/Halblinge "Halblinge"
-[Menschen]: /Spezial:Meine_Sprache/Menschen "Menschen"
-[Goblins]: /Spezial:Meine_Sprache/Goblins "Goblins"
-[Insekten]: /Spezial:Meine_Sprache/Insekten "Insekten"
-[Trolle]: /Spezial:Meine_Sprache/Trolle "Trolle"
-[Meerm.]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
-
 |     |     |
 | --- | --- |
 | Weiterlesen: | [Talente] |
 
-[Talente]: ./skills.md "Talente"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857] -->
 
-[Kategorien][]:
-
-- [Regeln]
-- [Rassen][1]
-
-  [Rassen]: ./race.md "Rassen"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
-  [1]: /Kategorie:Rassen "Kategorie:Rassen"
+[Talente]: ./skills.md "Talente"
+[Zwerge]: ./races.md#swerge "Zwerge"
+[Orks]: /Orks "Orks"
+[Elfen]: ./races.md#elfen "Elfen"
+[Katzen]: /Katzen "Katzen"
+[Dämonen]: ./race.md#Dämonen "Rassen"
+[Halblinge]: /Halblinge "Halblinge"
+[Menschen]: /Menschen "Menschen"
+[Goblins]: /Goblins "Goblins"
+[Insekten]: /Insekten "Insekten"
+[Trolle]: /Trolle "Trolle"
+[Meerm.]: /Meermenschen "Meermenschen"
+[Rassen]: ./race.md "Rassen"

@@ -84,6 +84,6 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 [`FAHRE`]: ./cmd-ride.md "FAHRE"
 [`FOLGE`]: ./cmd-follow.md "FOLGE"
 [BEWACHE]: ./cmd-guard.md "BEWACHE"
-[diese Tabelle]: /Spezial:Meine_Sprache/Waren "Waren"
-[Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[diese Tabelle]: /Waren "Waren"
+[Straßen]: /Stra%C3%9Fe "Straße"
 [Schiffe]: ./ships.md "Schiff"

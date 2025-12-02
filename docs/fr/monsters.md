@@ -9,6 +9,6 @@ Les joueurs peuvent également, dans certaines circonstances, posséder des unit
 <!-- TODO: achieve page compared to german page -->
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-  [Types de Morts-Vivants]: /Spezial:Meine_Sprache/Untote "Untote"
+  [Types de Morts-Vivants]: /Untote "Untote"
   [dragons]: ./monsters.md#drachen "Drachen"
-  [Braineaters]: /Spezial:Meine_Sprache/Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"
+  [Braineaters]: /Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"

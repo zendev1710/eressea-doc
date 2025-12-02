@@ -35,7 +35,7 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 
 Expérience de jeu :En fait, c'est encore un peu plus compliqué. Voir par exemple les [Diskussion hier].
 
-[Diskussion hier]: /Spezial:Meine_Sprache/Kampfregeln "Kampfregeln"
+[Diskussion hier]: /Kampfregeln "Kampfregeln"
 
 **Attention :** Des statuts d'aide ou des ordres d'ATTACK mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue. Des alliés sont restés sans rien faire ou se sont même battus entre eux. Quelques astuces permettent d'éviter les plus grosses bourdes :
 
@@ -306,7 +306,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 | --- | --- |
 | Weiterlesen: | [Allianz] |
 
-[Allianz]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[Allianz]: ./alliances.md "Allianz"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
@@ -314,10 +314,10 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 [tour de tactique]: #taktik
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
-[Lignes de combat]: /Schlacht "Schlacht"
+[Lignes de combat]: ./war.md#schlacht "Schlacht"
 [fuir]: #la-fuite
 [`GROUPE`]: ./cmd-group.md "GROUP"
-[combat en mer]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
+[combat en mer]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
 [la fuite]: ./war.md#la-fuite "Die Flucht"
 [non armés]: #boni-und-mali
 [Tacticien]: ./tactic.md "Taktik"
@@ -339,8 +339,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
 [Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
-[bewacht]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[bewacht]: ./alliances.md "Allianz"
 [`MOVE`]: ./cmd-move.md "MOVE"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
-[Taktik]: /Taktik "Taktik"
+[Taktik]: ./tactic.md "Taktik"
 [Kriegstabellen]: ./war.mdstabellen "Guerrestabellen"

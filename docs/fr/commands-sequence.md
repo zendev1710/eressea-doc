@@ -83,16 +83,10 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
 | --- | --- |
 | Weiterlesen: | [brève description] |
 
-[brève description]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
+[brève description]: ./commands-list.md "Kurzbeschreibung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
-[Kategorien][]:
-
-- [Befehle]
-- [Regeln/fr]
-
-  [Befehlsreihenfolge]: /Befehlsreihenfolge "Befehlsreihenfolge"
   [GROUP]: ./cmd-group.md "GROUP"
   [MAKE TEMP]: ./cmd-make.md "MAKE"
   [NAME]: ./cmd-name.md "NAME"
@@ -147,9 +141,5 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
   [notes explicatives]: #Erläuterungen
   [item pool]: ./items-pool.md "Materialpool"
   [ordres]: ./commands.md "Befehle"
-  [brève description]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
-  [brève description DE/EN]: /Spezial:Meine_Sprache/Diskussion:Kurzbeschreibung "Diskussion:Kurzbeschreibung"
+  [brève description DE/EN]: /Diskussion:Kurzbeschreibung "Diskussion:Kurzbeschreibung"
   [Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Befehle]: /Kategorie:Befehle "Kategorie:Befehle"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"

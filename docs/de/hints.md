@@ -87,12 +87,12 @@ Seid nett zueinander. Auch euer ärgster Feind im Spiel ist sicherlich ein nette
 | --- | --- |
 | Weiterlesen: | [Anfängertipps] |
 
-[Anfängertipps]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
+[Anfängertipps]: /Anf%C3%A4ngertipps "Anfängertipps"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366] -->
 
 [Link]: https://www.eressea.de/?page_id=186
-[Bugreport]: /Spezial:Meine_Sprache/Bugreport "Bugreport"
+[Bugreport]: /Bugreport "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 [STIRB]: ./cmd-quit.md "STIRB"

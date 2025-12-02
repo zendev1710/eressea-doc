@@ -14,10 +14,10 @@ Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
 
-  [<sup>`(l)`</sup>]: /Befehl#KurzLang "Befehl"
-  [Fernzaubern]: /Magie#Fernzauber "Magie"
-  [Kosten]: /Magie#Komponenten "Magie"
-  [Magie]: /Magie "Magie"
+  [<sup>`(l)`</sup>]: ./commands.md#KurzLang "Befehl"
+  [Fernzaubern]: ./cmd-magic.md#Fernzauber "Magie"
+  [Kosten]: ./cmd-magic.md#Komponenten "Magie"
+  [Magie]: ./cmd-magic.md "Magie"
   [`ZEIGE ALLE ZAUBER`]: /ZEIGE "ZEIGE"
-  [`KAMPFZAUBER`]: /KAMPFZAUBER "KAMPFZAUBER"
-  [attackieren]: /ATTACKIERE "ATTACKIERE"
+  [`KAMPFZAUBER`]: ./cmd-combatspell.md "KAMPFZAUBER"
+  [attackieren]: ./cmd-attack.md "ATTACKIERE"

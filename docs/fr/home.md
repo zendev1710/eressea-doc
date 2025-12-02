@@ -70,25 +70,25 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
-  [Eressea]: /Spezial:Meine_Sprache/Eressea "Eressea"
+  [Eressea]: /Eressea "Eressea"
   [Discord]: https://discord.gg/KT5Fffh
   [règles]: ./rules.md "Regeln"
   [Inscription au jeu]: https://www.eressea.de/?page_id=186
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Outils pour jouer]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
-  [Conseils pour les débutants]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
-  [L'histoire Eressea]: /Spezial:Meine_Sprache/Geschichte_von_Eressea "Geschichte von Eressea"
-  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Atlantis"
-  [Frequently asked questions]: /Spezial:Meine_Sprache/FAQ "FAQ"
+  [Outils pour jouer]: /Hilfsmittel "Hilfsmittel"
+  [Conseils pour les débutants]: /Anf%C3%A4ngertipps "Anfängertipps"
+  [L'histoire Eressea]: /Geschichte_von_Eressea "Geschichte von Eressea"
+  [Atlantis]: /Atlantis "Atlantis"
+  [Frequently asked questions]: /FAQ "FAQ"
   [Séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
   [Tactics]: ./tactic.md "Taktik"
   [Familiers]: ./familiars.md "Vertraute"
-  [Développement]: /Spezial:Meine_Sprache/Entwicklung "Entwicklung"
-  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Xontormia Express"
+  [Développement]: /Entwicklung "Entwicklung"
+  [Xontormia Express]: /Xontormia_Express "Xontormia Express"
   [numéros archivés]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [annonces]: /Spezial:Meine_Sprache/Ank%C3%BCndigungen "Ankündigungen"
-  [pages de joueurs]: /Spezial:Meine_Sprache/Spielerseiten "Spielerseiten"
-  [Tu joues trop à Eressea si ...]: /Spezial:Meine_Sprache/Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
+  [annonces]: /Ank%C3%BCndigungen "Ankündigungen"
+  [pages de joueurs]: /Spielerseiten "Spielerseiten"
+  [Tu joues trop à Eressea si ...]: /Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
   [Das dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
   [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
   [Ankündigungen aus der e3-announce Mailingliste]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"

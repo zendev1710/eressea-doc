@@ -17,9 +17,9 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
 
-  [<sup>`L`</sup>]: /Befehl#KurzLang "Befehl"
-  [Tarnungstalent]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [Silberpool]: /Silberpool "Silberpool"
-  [immun]: /Welpenschutz "Welpenschutz"
-  [Geld]: /Spezial:Meine_Sprache/Geld "Spezial:Meine Sprache/Geld"
-  [Tarnung und Wahrnehmung]: /Spezial:Meine_Sprache/Wahrnehmung "Spezial:Meine Sprache/Wahrnehmung"
+  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
+  [Tarnungstalent]: ./skills-list.md "Liste der Talente"
+  [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
+  [immun]: ./puppy-protection.md "Welpenschutz"
+  [Geld]: ./silver.md "Geld"
+  [Tarnung und Wahrnehmung]: ./camouflage.md "Wahrnehmung"

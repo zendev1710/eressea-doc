@@ -14,9 +14,9 @@ Editing the rules is encouraged, but please be sure to regard the [Instructions 
 | --- | --- |
 | Continue reading: | [Introduction] |
 
-[Introduction]: /Spezial:Meine_Sprache/Einleitung "Einleitung"
+[Introduction]: /Einleitung "Einleitung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/en&oldid=14181] -->
 
 [Atlantis]: /Atlantis "Atlantis"
-[Instructions for editing the rules]: /Spezial:Meine_Sprache/Eressea:Mitmachen "Eressea:Mitmachen"
+[Instructions for editing the rules]: /Eressea:Mitmachen "Eressea:Mitmachen"

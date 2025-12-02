@@ -38,10 +38,10 @@ Es ist nicht möglich, sinnvoll mehrere FOLGE-Befehle zu geben. Es wird immer nu
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
-  [<sup>`(l)`</sup>]: /Befehl#KurzLang "Befehl"
-  [Reisen]: /Spezial:Meine_Sprache/Reisen "Spezial:Meine Sprache/Reisen"
-  [NACH]: /Spezial:Meine_Sprache/NACH "Spezial:Meine Sprache/NACH"
-  [ROUTE]: /Spezial:Meine_Sprache/ROUTE "Spezial:Meine Sprache/ROUTE"
-  [FAHRE]: /Spezial:Meine_Sprache/FAHRE "Spezial:Meine Sprache/FAHRE"
-  [TRANSPORTIERE]: /Spezial:Meine_Sprache/TRANSPORTIERE "Spezial:Meine Sprache/TRANSPORTIERE"
-  [PIRATERIE]: /Spezial:Meine_Sprache/PIRATERIE "Spezial:Meine Sprache/PIRATERIE"
+  [<sup>`(l)`</sup>]: ./commands.md#KurzLang "Befehl"
+  [Reisen]: ./travel.md "Reisen"
+  [NACH]: ./cmd-move.md "NACH"
+  [ROUTE]: ./cmd-route.md "ROUTE"
+  [FAHRE]: /FAHRE "FAHRE"
+  [TRANSPORTIERE]: /TRANSPORTIERE "TRANSPORTIERE"
+  [PIRATERIE]: /PIRATERIE "PIRATERIE"

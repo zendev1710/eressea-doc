@@ -67,6 +67,6 @@ Le tableau suivant montre les objets disponibles sur Eressea. Ils ne peuvent êt
 
 [ces exemples]: ./production.md "Produktion"
 [ressources]: ./resources.md "Ressources"
-[routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[routes]: /Stra%C3%9Fen "Straßen"
 [bâtiments]: ./buildings.md "Gebäude"
 [tables militaires]: ./war.mdstabellen "Guerrestabellen"

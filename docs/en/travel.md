@@ -84,6 +84,6 @@ If a unit has several horses and carts, their transport capacity is simply added
 [`RIDE`]: ./cmd-ride.md "RIDE"
 [`FOLLOW`]: ./cmd-follow.md "FOLLOW"
 [GUARD]: ./cmd-guard.md "GUARD"
-[this table]: /Spezial:Meine_Sprache/Waren "Waren"
-[roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[this table]: /Waren "Waren"
+[roads]: /Stra%C3%9Fe "Straße"
 [Ships]: ./ships.md "Schiff"

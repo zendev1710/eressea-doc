@@ -31,8 +31,8 @@ Mit `TARNE rasse` können [Dämonen] sich als andere Rasse tarnen.
 <!-- From [https://wiki.eressea.de/index.php?title=TARNE&oldid=15791] -->
 
   [Talent]: /Tarnung "Tarnung"
-  [Spionage]: /Liste_der_Talente "Liste der Talente"
-  [HELFE xyz PARTEITARNUNG]: /HELFE "HELFE"
+  [Spionage]: ./skills-list.md "Liste der Talente"
+  [HELFE xyz PARTEITARNUNG]: ./cmd-help.md "HELFE"
   [GRUPPE]: /GRUPPE "GRUPPE"
   [Dämonen]: /D%C3%A4monen "Dämonen"
-  [Wahrnehmung]: /Wahrnehmung "Wahrnehmung"
+  [Wahrnehmung]: ./camouflage.md "Wahrnehmung"

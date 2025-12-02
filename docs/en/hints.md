@@ -87,12 +87,12 @@ Please be nice to each other. Even your most vicious enemy in the game is actual
 | --- | --- |
 | Continue reading: | [Tips for Beginners] |
 
-[Tips for Beginners]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"  
+[Tips for Beginners]: /Anf%C3%A4ngertipps "Anfängertipps"  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
 [Link]: https://www.eressea.de/?page_id=189&lang=en
-[bug report]: /Spezial:Meine_Sprache/Bugreport "Bugreport"
+[bug report]: /Bugreport "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 [QUIT]: ./cmd-quit.md "STIRB"

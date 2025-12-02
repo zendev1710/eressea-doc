@@ -68,30 +68,30 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 - [Who is Who of Eressea (in the Internet Archive, in German)]
 - [Generator of excuses for war]
 
-  [Eressea]: /Spezial:Meine_Sprache/Eressea "Eressea"
+  [Eressea]: /Eressea "Eressea"
   [Discord]: https://discord.gg/KT5Fffh
   [rules]: ./rules.md "Regeln"
-  [Registering for the game]: /Spezial:Meine_Sprache/Hinweise#Anmeldung "Hinweise"
+  [Registering for the game]: ./hints.md#Anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Tools]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
-  [Tips for beginners]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
-  [story of Eressea]: /Spezial:Meine_Sprache/Geschichte_von_Eressea "Geschichte von Eressea"
-  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Atlantis"
-  [Frequently asked questions]: /Spezial:Meine_Sprache/FAQ "FAQ"
+  [Tools]: /Hilfsmittel "Hilfsmittel"
+  [Tips for beginners]: /Anf%C3%A4ngertipps "Anfängertipps"
+  [story of Eressea]: /Geschichte_von_Eressea "Geschichte von Eressea"
+  [Atlantis]: /Atlantis "Atlantis"
+  [Frequently asked questions]: /FAQ "FAQ"
   [Orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"
   [Tactics]: ./tactic.md "Taktik"
   [Familiars]: ./familiars.md "Vertraute"
-  [Development]: /Spezial:Meine_Sprache/Entwicklung "Entwicklung"
-  [Xontormia Express]: /Spezial:Meine_Sprache/Xontormia_Express "Xontormia Express"
+  [Development]: /Entwicklung "Entwicklung"
+  [Xontormia Express]: /Xontormia_Express "Xontormia Express"
   [archived issues]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [announcements]: /Spezial:Meine_Sprache/Ank%C3%BCndigungen "Ankündigungen"
-  [Player pages]: /Spezial:Meine_Sprache/Spielerseiten "Spielerseiten"
-  [You play too much Eressea if ...]: /Spezial:Meine_Sprache/Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
-  [The Third Age]: /Spezial:Meine_Sprache/Das_dritte_Zeitalter "Das dritte Zeitalter"
+  [announcements]: /Ank%C3%BCndigungen "Ankündigungen"
+  [Player pages]: /Spielerseiten "Spielerseiten"
+  [You play too much Eressea if ...]: /Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
+  [The Third Age]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
   [An overview about race changes (in German)]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
   [List of rules changes compared to E2 (in German)]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
   [Announcments from the e3-announce mailing list]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"
-  [Deveron]: /Spezial:Meine_Sprache/Deveron "Deveron (Seite nicht vorhanden)"
+  [Deveron]: /Deveron "Deveron (Seite nicht vorhanden)"
   [Patreons]: https://www.patreon.com/enno
   [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
   [Rules (in German)]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

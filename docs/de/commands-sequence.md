@@ -82,14 +82,9 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 | --- | --- |
 | Weiterlesen: | [Kurzbeschreibung] |
 
-[Kurzbeschreibung]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
+[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
-
-[Kategorien][]:
-
-- [Befehle][1]
-- [Regeln/de]
 
   [GRUPPE]: ./cmd-group.md "GRUPPE"
   [MACHE TEMP]: ./cmd-make.md "MACHE"
@@ -142,11 +137,7 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
   [DEFAULT]: ./cmd-default.md "DEFAULT"
   [SORTIERE]: ./cmd-sort.md "SORTIERE"
   [NUMMER]: ./cmd-number.md "NUMMER"
-  [Erläuterungen]: #Erläuterungen
+  [Erläuterungen]: #erläuterungen
   [Materialpool]: /Materialpool "Materialpool"
   [Befehle]: ./commands.md "Befehle"
-  [Kurzbeschreibung]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
   [Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [1]: /Kategorie:Befehle "Kategorie:Befehle"
-  [Regeln/de]: /index.php?title=Kategorie:Regeln/de&action=edit&redlink=1 "Kategorie:Regeln/de (Seite nicht vorhanden)"

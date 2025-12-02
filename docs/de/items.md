@@ -67,12 +67,12 @@ Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie könne
 | --- | --- |
 | Weiterlesen: | [Straße] |
 
-[Straße]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[Straße]: /Stra%C3%9Fe "Straße"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
 
 [diese Beispiele]: ./production.md "Produktion"
 [Rohstoffe]: ./resources.md "Rohstoffe"
-[Straßen]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Straßen]: /Stra%C3%9Fen "Straßen"
 [Gebäude]: ./buildings.md "Gebäude"
 [Kriegstabellen]: ./war.mdstabellen "Kriegstabellen"

@@ -144,8 +144,8 @@ Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 
   [Befehl]: /Befehl "Befehl"
-  [`OPTION`]: /OPTION "OPTION"
-  [langen Befehle]: /Befehl#Kurze_und_Lange_Befehle "Befehl"
+  [`OPTION`]: ./cmd-option.md "OPTION"
+  [langen Befehle]: ./commands.md#Kurze_und_Lange_Befehle "Befehl"
   [//]: /index.php?title=Kommentar&action=edit&redlink=1 "Kommentar (Seite nicht vorhanden)"
   [Lange Kommentare]: /KOMMENTAR "KOMMENTAR"
   [Befehle einschicken]: /Befehle_einschicken "Befehle einschicken"

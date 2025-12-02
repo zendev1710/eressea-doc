@@ -40,16 +40,16 @@ Les différentes [races] ont, en plus de leurs capacités spéciales, des coûts
 | perception | 0   | 0   | +1  | +2  | +1  | +1  | 0   | 0   | +1  | \-1 | 0   |
 
 [dwarves]: ./races.md#nainse "Zwerge"
-[orcs]: /Spezial:Meine_Sprache/Orks "Orks"
+[orcs]: /Orks "Orks"
 [elves]: ./races.md#elfes "Elfen"
-[cats]: /Spezial:Meine_Sprache/Katzen "Katzen"
+[cats]: /Katzen "Katzen"
 [demons]: ./race.md#Dämonen "Rassen"
-[halflings]: /Spezial:Meine_Sprache/Halblinge "Halblinge"
-[humans]: /Spezial:Meine_Sprache/Menschen "Menschen"
-[goblins]: /Spezial:Meine_Sprache/Goblins "Goblins"
-[insects]: /Spezial:Meine_Sprache/Insekten "Insekten"
-[trolls]: /Spezial:Meine_Sprache/Trolle "Trolle"
-[aqua.]: /Spezial:Meine_Sprache/Meermenschen "Meermenschen"
+[halflings]: /Halblinge "Halblinge"
+[humans]: /Menschen "Menschen"
+[goblins]: /Goblins "Goblins"
+[insects]: /Insekten "Insekten"
+[trolls]: /Trolle "Trolle"
+[aqua.]: /Meermenschen "Meermenschen"
 
 |     |     |
 | --- | --- |
@@ -59,14 +59,5 @@ Les différentes [races] ont, en plus de leurs capacités spéciales, des coûts
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
 
-[Kategorien][]:
-
-- [Regeln/fr]
-- [Rassen/fr/fr]
-
-  [Talentmodifikatoren]: /Talentmodifikatoren "Talentmodifikatoren"
   [races]: ./race.md "Rassen"
   [compétences]: ./skills.md "Talente"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln/fr]: /index.php?title=Kategorie:Regeln/fr&action=edit&redlink=1 "Kategorie:Regeln/fr (Seite nicht vorhanden)"
-  [Rassen/fr/fr]: /index.php?title=Kategorie:Rassen/fr/fr&action=edit&redlink=1 "Kategorie:Rassen/fr/fr (Seite nicht vorhanden)"

@@ -11,5 +11,5 @@ Zeigt die Beschreibung zu einem Zauberspruch, das Rezept eines alchemistischen T
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZEIGE&oldid=14967] -->
 
-[Parteipool]: /Parteipool "Parteipool"
+[Parteipool]: ./factions-pool.md "Parteipool"
 [Vertraute]: /Vertraute "Vertraute"

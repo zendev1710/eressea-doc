@@ -23,5 +23,5 @@ Für Rechenfaule hier eine Tabelle, bei welcher Personenzahl in der Partei wie v
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEFÖRDERE&oldid=16056] -->
 
-[Kampf]: /Krieg "Krieg"
-[Silberpool]: /Silberpool "Silberpool"
+[Kampf]: ./war.md "Krieg"
+[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"

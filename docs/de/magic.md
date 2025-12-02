@@ -222,7 +222,7 @@ Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezau
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: /Spezial:Meine_Sprache/Kr%C3%B6te "Kröte"
+[Kröte]: /Kr%C3%B6te "Kröte"
 
 ## Magieresistenz
 
@@ -293,17 +293,12 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Kategorien][]:
-
-- [Regeln]
-- [Talente/de]
-
   [Kampf]: ./war.md "Krieg"
-  [Illaun]: /Spezial:Meine_Sprache/Illaunzauber "Illaunzauber"
-  [Tybied]: /Spezial:Meine_Sprache/Tybiedzauber "Tybiedzauber"
-  [Gwyrrd]: /Spezial:Meine_Sprache/Gwyrrdzauber "Gwyrrdzauber"
-  [Cerddor]: /Spezial:Meine_Sprache/Cerddorzauber "Cerddorzauber"
-  [Draig]: /Spezial:Meine_Sprache/Draigzauber "Draigzauber"
+  [Illaun]: /Illaunzauber "Illaunzauber"
+  [Tybied]: /Tybiedzauber "Tybiedzauber"
+  [Gwyrrd]: /Gwyrrdzauber "Gwyrrdzauber"
+  [Cerddor]: /Cerddorzauber "Cerddorzauber"
+  [Draig]: /Draigzauber "Draigzauber"
   [LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md "LERNE"
   [Partei]: ./factions.md "Partei"
   [Akademie]: ./buildings-others.md "Andere Gebäude"
@@ -317,21 +312,18 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
   [Aura]: #aura
   [Fernzauber]: #fernzauber
   [Magieresistenz]: #magieresistenz
-  [Ring der Macht]: /Spezial:Meine_Sprache/Ring_der_Macht "Ring der Macht (Seite nicht vorhanden)"
+  [Ring der Macht]: /Ring_der_Macht "Ring der Macht (Seite nicht vorhanden)"
   [Andere Gebäude#Magierturm]: ./buildings-others.md#Magierturm "Andere Gebäude"
   [gesegneten Steinkreis]: ./buildings-others.md#Steinkreis "Andere Gebäude"
   [Wahrscheinlichkeit für Patzer]: #patzer
   [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Rassen]: /Spezial:Meine_Sprache/Rasse "Rasse (Seite nicht vorhanden)"
-  [Zauber]: /Spezial:Meine_Sprache/Zauberliste_E2 "Zauberliste E2"
+  [Rassen]: /Rasse "Rasse (Seite nicht vorhanden)"
+  [Zauber]: /Zauberliste_E2 "Zauberliste E2"
   [Waffen oder Rüstungen]: ./war.mdstabellen#Magieresistenz "Kriegstabellen"
   [Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
-  [Chaosfluch]: /Spezial:Meine_Sprache/Zauberliste_E2#Chaosfluch "Zauberliste E2"
+  [Chaosfluch]: /Zauberliste_E2#Chaosfluch "Zauberliste E2"
   [Vertraute]: ./familiars.md "Vertraute"
   [NACH]: ./cmd-move.md "NACH"
   [Wesen]: ./monsters.md#Hirntöter "Monster"
-  [Zauberbeschreibungen]: /Spezial:Meine_Sprache/Zauberbeschreibungen_E2 "Zauberbeschreibungen E2"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"
-  [Talente/de]: /index.php?title=Kategorie:Talente/de&action=edit&redlink=1 "Kategorie:Talente/de (Seite nicht vorhanden)"
+  [Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

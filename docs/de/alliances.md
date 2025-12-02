@@ -62,6 +62,6 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 [Steuern eintreiben]: ./silver.md "Geld"
 [rekrutieren]:./silver.md#recruiting "REKRUTIERE"
 [Rohstoffe]: ./resources.md "Rohstoffe"
-[Kampfende]: ./war.md#kampfende"Kampfende"
+[Kampfende]: ./war.md#kampfende "Kampfende"
 [betreten]: ./cmd-enter.md "BETRETE"
 [TARNE PARTEI NUMMER xx]: ./cmd-hide.md "TARNE"

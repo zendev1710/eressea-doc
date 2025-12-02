@@ -67,7 +67,7 @@ The following table shows the items available on Eressea. They can only be produ
 | --- | --- |
 | Continue reading: | [Roads] |
 
-[Roads]: /Spezial:Meine_Sprache/Stra%C3%9Fe "Straße"
+[Roads]: /Stra%C3%9Fe "Straße"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 

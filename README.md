@@ -6,6 +6,18 @@ MkDocs project for Eressea documentation.
 
 | page                 | DE  | EN  | FR  | GERMAN TERM                    |
 | -------------------- | --- | --- | --- | ------------------------------ |
+| birthday-cake        |  N  |  N  |  N  | geburtstagstorte               |
+| sun-sail             |  S  |  N  |  N  | sonnensegel                    |
+| stardust             |  S  |  N  |  N  | sternenstaub                   |
+| christmas-tree       |  S  |  N  |  N  | weihnachtsbaum                 |
+| shell                |  S  |  N  |  N  | muschel                        |
+| adamantium           |  S  |  N  |  N  | adamantium                     |
+| adamantium-armor     |  S  |  N  |  N  | adamantiumrüstung              |
+| puppy-protection     |  S  |  N  |  N  | welpenschutz                   |
+| magellan             |  S  |  N  |  N  | magellan                       |
+| echeck               |  S  |  N  |  N  | echeck                         |
+| tips-and-tricks      |  S  |  N  |  N  | tipps_und_Tricks               |
+| basics               |  S  |  N  |  N  | grundlagen                     |
 | alchemy              |  X  |  X  |  X  | tränke                         |
 | alliances            |  X  |  X  |  NT | allianz                        |
 | buildings            |  X  |  X  |  X  | gebäude                        |
@@ -107,6 +119,8 @@ Each command page can be accessed from commands page.
 | cmd-cast             |  S  |     |     | ZAUBERE                        |
 | cmd-grow             |  S  |  S  |  S  | ZÜCHTE                         |
 
+later :
+
 | announcements        |     |     |     | ankündigungen                  |
 | spells-list-e3       |  X  |     |     | zauberbeschreibungen_e3        |
 | spells-list-e3 ???   |     |     |     | zauberliste_e3                 |
@@ -116,6 +130,6 @@ Each command page can be accessed from commands page.
 
 bad :
 
-| commands-sequence-e3      |     |     |     | befehlsreihenfolge_(e3)        |
-| reports-request-again     |     |     |     | befehle_einschicken            |
+| commands-sequence-e3      |     |     |     | befehlsreihenfolge_(e3)   |
+| reports-request-again     |     |     |     | befehle_einschicken       |
 LEARN AUTO

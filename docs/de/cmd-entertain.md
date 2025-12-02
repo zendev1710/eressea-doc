@@ -20,6 +20,6 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
   [`ARBEITE`]: /ARBEITE "ARBEITE"
   [`BEWACHE`]: /BEWACHE "BEWACHE"
-  [`HELFE`]: /HELFE "HELFE"
-  [Handel]: /Handel "Handel"
-  [Geld]: /Geld "Geld"
+  [`HELFE`]: ./cmd-help.md "HELFE"
+  [Handel]: ./silver.md#handel "Handel"
+  [Geld]: ./silver.md "Geld"

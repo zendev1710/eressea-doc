@@ -1,15 +1,5 @@
 # GROW
 
-Cette page est une [version traduite] de la page [ZÜCHTE] et la traduction est terminée à 75 %.
-
-Les traductions désuètes sont identifiées ainsi.
-
-Autres langues :
-
-- [Deutsch]
-- English
-- [français]
-
 **`GROW`**`Horses`  
 **`GROW`**`[`*`amount`*`] HERBS`
 
@@ -27,10 +17,6 @@ For `GROW HERBS` you need at least [Herbalism][Taming] 6. The unit tries to plan
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE/en&oldid=14482] -->
 
-  [version traduite]: //wiki.eressea.de/index.php?title=Spezial:%C3%9Cbersetzen&group=page-Z%C3%9CCHTE&action=page&filter=&language=en
-  [ZÜCHTE]: /Z%C3%9CCHTE "ZÜCHTE"
-  [Deutsch]: /Z%C3%9CCHTE "ZÜCHTE (100 % traduits)"
-  [français]: /Z%C3%9CCHTE/fr "GROW (100 % traduits)"
-  [Stable]: /Spezial:Meine_Sprache/Andere_Geb%C3%A4ude#Pferdezucht "Spezial:Meine Sprache/Andere Gebäude"
-  [Taming]: /Spezial:Meine_Sprache/Liste_der_Talente "Spezial:Meine Sprache/Liste der Talente"
-  [PLANT]: /Spezial:Meine_Sprache/PFLANZE "Spezial:Meine Sprache/PFLANZE"
+  [Stable]: /Andere_Geb%C3%A4ude#Pferdezucht "Andere Gebäude"
+  [Taming]: ./skills-list.md "Liste der Talente"
+  [PLANT]: /PFLANZE "PFLANZE"

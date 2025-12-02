@@ -35,7 +35,7 @@ Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, 
 
 Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter. Siehe zum Beispiel die [Diskussion hier].
 
-[Diskussion hier]: /Spezial:Meine_Sprache/Kampfregeln "Kampfregeln"
+[Diskussion hier]: /Kampfregeln "Kampfregeln"
 
 **Achtung:** Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde. Freunde blieben plötzlich tatenlos im Lager zurück oder kämpften gar plötzlich gegeneinander. Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
 
@@ -305,30 +305,30 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 | --- | --- |
 | Weiterlesen: | [Allianz] |
 
-[Allianz]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[Allianz]: ./alliances.md "Allianz"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
 [6.2 Boni und Mali]: #boni-und-mali
-[`ATTACKIERE`]: /Spezial:Meine_Sprache/ATTACKIERE "ATTACKIERE"
+[`ATTACKIERE`]: ./cmd-attack.md "ATTACKIERE"
 [Taktikerrunde]: #taktik
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
 [`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
 [Kampfreihen]: #Schlacht
 [flüchten]: #Flucht
 [`GRUPPE`]: ./cmd-group.md "GRUPPE"
-[Kämpfe auf See]: /Spezial:Meine_Sprache/Kampf_auf_Schiffen "Kampf auf Schiffen"
-[Flucht]: /Spezial:Meine_Sprache/Die_Flucht "Die Flucht"
-[Taktiker]: /Spezial:Meine_Sprache/Taktik "Taktik"
+[Kämpfe auf See]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[Flucht]: ./war.md#die-flucht "Die Flucht"
+[Taktiker]: ./tactic.md "Taktik"
 [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
-[Helden]: /Spezial:Meine_Sprache/BEF%C3%96RDERUNG "BEFÖRDERUNG"
-[Waffeneigenschaften]: /Spezial:Meine_Sprache/Kriegstabellen#Waffeneigenschaften "Kriegstabellen"
-[Rasseneigenschaften]: /Spezial:Meine_Sprache/Kriegstabellen#Rasseneigenschaften "Kriegstabellen"
-[diese]: /Spezial:Meine_Sprache/Kriegstabellen#Rüstung "Kriegstabellen"
-[Magieresistenz]: /Spezial:Meine_Sprache/Kriegstabellen#Magieresistenz "Kriegstabellen"
-[diese Tabelle]: /Spezial:Meine_Sprache/Kriegstabellen#Ausdauer "Kriegstabellen"
+[Helden]: /BEF%C3%96RDERUNG "BEFÖRDERUNG"
+[Waffeneigenschaften]: /Kriegstabellen#Waffeneigenschaften "Kriegstabellen"
+[Rasseneigenschaften]: /Kriegstabellen#Rasseneigenschaften "Kriegstabellen"
+[diese]: /Kriegstabellen#Rüstung "Kriegstabellen"
+[Magieresistenz]: /Kriegstabellen#Magieresistenz "Kriegstabellen"
+[diese Tabelle]: /Kriegstabellen#Ausdauer "Kriegstabellen"
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
-[1]: /Spezial:Meine_Sprache/Kriegstabellen#Kampfmodifikatoren "Kriegstabellen"
+[1]: /Kriegstabellen#Kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.mde "Schiffe"
 [Schaden]: ./ships.md#Schiffsschaden "Schiff"
@@ -336,8 +336,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
 [Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
-[bewacht]: /Spezial:Meine_Sprache/Allianz "Allianz"
+[bewacht]: ./alliances.md "Allianz"
 [`NACH`]: ./cmd-move.md "NACH"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
-[Taktik]: /Taktik "Taktik"
-[Kriegstabellen]: /Spezial:Meine_Sprache/Kriegstabellen "Kriegstabellen"
+[Taktik]: ./tactic.md "Taktik"
+[Kriegstabellen]: /Kriegstabellen "Kriegstabellen"

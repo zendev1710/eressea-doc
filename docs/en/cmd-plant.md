@@ -22,8 +22,8 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=PFLANZE&oldid=16730] -->
 
-  [<sup>`L`</sup>]: /Befehl#KurzLang "Befehl"
-  [Kräuterkunde]: /Liste_der_Talente "Liste der Talente"
+  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
+  [Kräuterkunde]: ./skills-list.md "Liste der Talente"
   [Wasser des Lebens]: /Tabellen:_Tr%C3%A4nke_und_Kr%C3%A4uter "Tabellen: Tränke und Kräuter"
-  [ZÜCHTE]: /Z%C3%9CCHTE "ZÜCHTE"
-  [Rohstoffe]: /Rohstoffe "Rohstoffe"
+  [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
+  [Rohstoffe]: ./resources.md "Rohstoffe"

@@ -108,12 +108,7 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
-[Kategorien][]:
-
-- [Befehle][1]
-- [Regeln]
-
-  [`OPTION ZUGVORLAGE`]: /OPTION "OPTION"
+  [`OPTION ZUGVORLAGE`]: ./cmd-option.md "OPTION"
   [ARBEITE]: ./cmd-work.md "ARBEITE"
   [ATTACKIERE]: ./cmd-attack.md "ATTACKIERE"
   [BEKLAUE]: ./camouflage.md "BEKLAUE"
@@ -135,8 +130,5 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
   [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
   [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
   [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
-  [Kurzbeschreibung]: /Spezial:Meine_Sprache/Kurzbeschreibung "Kurzbeschreibung"
+  [Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
   [DEFAULT]: ./cmd-default.md "DEFAULT"
-  [Kategorien]: /Spezial:Kategorien "Spezial:Kategorien"
-  [1]: /Kategorie:Befehle "Kategorie:Befehle"
-  [Regeln]: /Kategorie:Regeln "Kategorie:Regeln"

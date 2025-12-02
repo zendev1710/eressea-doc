@@ -39,7 +39,7 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 | --- | --- |
 | Weiterlesen: | [objets] |
 
-[objets]: /Spezial:Meine_Sprache/Waren "Waren"
+[objets]: /Waren "Waren"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
@@ -47,12 +47,12 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 [garde]: ./cmd-guard.md "GUARD"
 [`HELP GUARD`]: ./cmd-help.md "HELP"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
-[`camouflé`]: /Spezial:Meine_Sprache/Tarnung "Tarnung"
+[`camouflé`]: /Tarnung "Tarnung"
 [`MAKE`]: ./cmd-make.md "MAKE"
 [Herbalism]: ./skills-list.md "Liste des compétences"
 [`PLANT`]: ./cmd-plant.md "PLANT"
-[Stable]: /Spezial:Meine_Sprache/Pferdezucht "Pferdezucht"
+[Stable]: /Pferdezucht "Pferdezucht"
 [Liste des Plantes]: ./herbs.md#Kräuterliste "Plantes"
 [Production]: ./production.md "Produktion"
-[Routes]: /Spezial:Meine_Sprache/Stra%C3%9Fen "Straßen"
+[Routes]: /Stra%C3%9Fen "Straßen"
 [Bâtiments]: ./buildings.md "Gebäude"

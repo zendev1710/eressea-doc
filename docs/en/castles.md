@@ -57,7 +57,7 @@ A larger castle improves the population's income: all workers and peasants recei
 [plagues]: ./pest.md "Pest (Seite nicht vorhanden)"
 [`MAKE CASTLE`]: ./cmd-make.md "MAKE"
 [war]: ./war.md "War"
-[bonuses and penalties]: /./war.md#boni-und-mali "Boni und Mali"
+[bonuses and penalties]: ./war.md#boni-und-mali "Boni und Mali"
 [summary table]: #overview
 [Buildings]: ./buildings.md "Gebäude"
 [Income]: ./silver.md#einnahmen "Einnahmen"

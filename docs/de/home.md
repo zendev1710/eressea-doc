@@ -68,19 +68,19 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
-  [Eressea]: /Spezial:Meine_Sprache/Eressea "Eressea"
+  [Eressea]: /Eressea "Eressea"
   [Regeln]: ./rules.md "Regeln"
-  [Anmeldung zum Spiel]: /Spezial:Meine_Sprache/Hinweise#Anmeldung "Hinweise"
+  [Anmeldung zum Spiel]: ./hints.md#Anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Hilfsmittel]: /Spezial:Meine_Sprache/Hilfsmittel "Hilfsmittel"
-  [Anfängertipps]: /Spezial:Meine_Sprache/Anf%C3%A4ngertipps "Anfängertipps"
+  [Hilfsmittel]: /Hilfsmittel "Hilfsmittel"
+  [Anfängertipps]: /Anf%C3%A4ngertipps "Anfängertipps"
   [Geschichte von Eressea]: /Geschichte_von_Eressea "Geschichte von Eressea"
-  [Atlantis]: /Spezial:Meine_Sprache/Atlantis "Atlantis"
-  [Häufig gestellte Fragen]: /Spezial:Meine_Sprache/FAQ "FAQ"
+  [Atlantis]: /Atlantis "Atlantis"
+  [Häufig gestellte Fragen]: /FAQ "FAQ"
   [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
   [Taktik]: ./tactic.md "Taktik"
   [Vertraute]: ./familiars.md "Vertraute"
-  [Entwicklung]: /Spezial:Meine_Sprache/Entwicklung "Entwicklung"
+  [Entwicklung]: /Entwicklung "Entwicklung"
   [Xontormia Express]: /Xontormia_Express "Xontormia Express"
   [Archiv alter Ausgaben]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
   [Ankündigungen]: /Ank%C3%BCndigungen "Ankündigungen"

@@ -34,5 +34,5 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
   [Vorlage für die Befehle der nächsten Runde]: /Befehl "Befehl"
   [Materialpool]: /Materialpool "Materialpool"
-  [Silberpool]: /Silberpool "Silberpool"
+  [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
   [`RESERVIERE`]: /RESERVIERE "RESERVIERE"

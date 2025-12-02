@@ -17,21 +17,28 @@ Im Gegensatz zu Gebäuden können Schiffe nicht erweitert werden. Wer also einma
 
 Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachbarte Ozeanregion ablegen.
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Schiffe - Reichweite, Kapazität, Talente      
-| Typ | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
-| Boot | 2   | 50  | 1/2 | 1   | 5   |
-| Langboot | 3   | 500 | 1/10 | 1   | 50  |
-| Drachenschiff | 5\* | 1000 | 2/50 | 2   | 100 |
-| Karavelle | 5   | 3000 | 3/30 | 3   | 250 |
-| Trireme | 7   | 2000 | 4/120 | 4   | 200 |
-| Galeone | 5   | 20000 | 5/250\*\* | 5   | 2000 |
-| \* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent  <br><br>\*\* Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen |     |     |     |     |     |
+Schiffe - Reichweite, Kapazität, Talente
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Drachenschiffgeschwindigkeit
-| Kapitän | 2   | 6   | 18  | 54  | 162 |
-| Reichweite | 5   | 6   | 7   | 8   | 9   |
+|               |            |           |                   |           |         |
+|---------------|------------|-----------|-------------------|-----------|---------|
+| Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+| Boot          | 2          | 50        | 1/2               | 1         | 5       |
+| Langboot      | 3          | 500       | 1/10              | 1         | 50      |
+| Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
+| Karavelle     | 5          | 3000      | 3/30              | 3         | 250     |
+| Trireme       | 7          | 2000      | 4/120             | 4         | 200     |
+| Galeone       | 5          | 20000     | 5/250\*\*         | 5         | 2000    |
+
+\* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
+
+\*\* Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.
+
+Drachenschiffgeschwindigkeit
+
+|            |   |   |    |    |     |
+|------------|---|---|----|----|-----|
+| Kapitän    | 2 | 6 | 18 | 54 | 162 |
+| Reichweite | 5 | 6 | 7  | 8  | 9   |
 
 ## Konvoi
 
@@ -74,16 +81,15 @@ Spielererfahrung: Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist
 - [Schiffsreise]
 - [GIB][übergibt]
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [Gebäude] |
-
-[Gebäude]: ./buildings.md "Gebäude"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
+[Gebäude]: ./buildings.md "Gebäude"
 [1]: ./cmd-make.md "MACHE"
 [umbenennen]: ./cmd-name.md "BENENNE"
 [beschreiben]: ./cmd-describe.md "BESCHREIBE"
 [übergibt]: ./cmd-give.md "GIB"
-[Schiffsreise]: ./ships.mdsreise "Schiffsreise"
+[Schiffsreise]: ./travel.md "Schiffsreise"

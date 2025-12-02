@@ -46,8 +46,8 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 - [BEWACHE]
 - [KONTAKTIERE]
 
-|     |     |
-| --- | --- |
+|              |         |
+|--------------|---------|
 | Weiterlesen: | [Magie] |
 
 [Magie]: ./magic.md "Magic"
@@ -60,7 +60,7 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 [Kampf]: ./war.md "Krieg"
 [BEWACHE]: ./cmd-guard.md "BEWACHE"
 [Steuern eintreiben]: ./silver.md "Geld"
-[rekrutieren]:./silver.md#recruiting "REKRUTIERE"
+[rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
 [Rohstoffe]: ./resources.md "Rohstoffe"
 [Kampfende]: ./war.md#kampfende "Kampfende"
 [betreten]: ./cmd-enter.md "BETRETE"

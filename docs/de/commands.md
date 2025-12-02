@@ -100,8 +100,8 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 - [Kurzbeschreibung]
 - [DEFAULT]
 
-|     |     |
-| --- | --- |
+|              |                      |
+|--------------|----------------------|
 | Weiterlesen: | [Befehlsreihenfolge] |
 
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

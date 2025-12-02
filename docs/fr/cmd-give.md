@@ -104,7 +104,7 @@ Mit `GIVE`*`einheit-nr`*` `*`anzahl`*`SHIP` übergibt der Besitzer eines Schiffe
 [CONTACT]: ./cmd-contact.md "CONTACT"
 [Materialpool]: ./items-pool.md "Materialpool"
 [Talente]: ./skills.md "Talente"
-[E3A — Das Dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [Konvoi]: ./ships.md#konvoi "Schiff"
 [RESERVE]: ./cmd-reserve.md "RESERVE"
 [Schiff]: ./ships.md "Schiff"

@@ -126,16 +126,16 @@ Construction of carts and catapults from wood. A cart can be built with 5 wood. 
 
 The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [perception]).
 
-|     |     |
-| --- | --- |
+|                   |           |
+|-------------------|-----------|
 | Continue reading: | [Stealth] |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
 
-[Stealth]: /Tarnung "Tarnung"
+[Stealth]: ./camouflage.md "Tarnung"
 [potions]: ./alchemy.md "Tränke"
 [herbs]: ./herbs.md "Herbs"
-[table]: /Kampftabellen#Ausdauer "Kampftabellen"
+[table]: ./war.md#Ausdauer "Kampftabellen"
 [resources]: ./resources.md "Resources"
 [castles and other buildings]: ./buildings.md "Gebäude"
 [trade]: ./silver.md#handel "Handel"
@@ -146,16 +146,16 @@ The unit is always on the lookout for camouflaged units. For example this allows
 [production]: ./production.md "Produktion"
 [`PLANT`]: ./cmd-plant.md "PLANT"
 [Magic]: ./magic.md "Magie"
-[horses]: /Pferd_und_Wagen "Pferd und Wagen"
+[horses]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [`GROW HORSES`]: ./cmd-grow.md "GROW"
-[stable]: /Pferdezucht "Pferdezucht"
-[items]: /Waren "Waren"
+[stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
+[items]: ./items.md "Waren"
 [ships]: ./ships.mde "Schiffe"
 [`SPY`]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#about-mining "Resources"
-[roads]: /Stra%C3%9Fen "Straßen"
+[roads]: ./roads.md "Straßen"
 [Tactics]: ./tactic.md "Taktik"
-[mustering]: /Musterung "Musterung"
+[mustering]: ./war.md#die-musterung-der-einheiten "Musterung"
 [steal]: ./camouflage.md "STEAL"
 [guarding]: ./cmd-guard.md "GUARD"
 [perception]: ./camouflage.md "Wahrnehmung"

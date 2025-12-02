@@ -32,27 +32,26 @@ In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug best
 
 Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move Received). Bei 4 NMR in Folge wird die Partei automatisch aus dem Spiel genommen, also wird beim 5. NMR die Partei gelöscht.
 
-|     |     |
-| --- | --- |
+|              |        |
+|--------------|--------|
 | Weiterlesen: | [Welt] |
-
-[Welt]: ./world.md "Welt"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805] -->
 
-[Partei]: /Partei "Partei"
-[Rasse]: /Rassen "Rassen"
-[Anmeldung]: /Anmelden_wie%3F "Anmelden wie?"
-[Elfen]: /Elf "Elf"
-[Zwerge]: /Zwerg "Zwerg"
+[Welt]: ./world.md "Welt"
+[Partei]: ./factions.md "Partei"
+[Rasse]: ./races.md "Rassen"
+[Anmeldung]: ./hints.md#anmeldung "Anmelden wie?"
+[Elfen]: ./races.md#elfen "Elf"
+[Zwerge]: ./races.md#zwerge "Zwerg"
 [Magie]: ./cmd-magic.md "Magie"
-[Drachen]: /Drachen "Drachen"
-[Monster]: /Monster "Monster"
+[Drachen]: ./monsters.md#drachen "Drachen"
+[Monster]: ./monsters.md "Monster"
 [Krieg]: ./war.md "Krieg"
-[Befehlen]./commands.md "Befehle"
-[NR]: /index.php?title=NR&action=edit&redlink=1 "NR (Seite nicht vorhanden)"
-[CR]: /index.php?title=CR&action=edit&redlink=1 "CR (Seite nicht vorhanden)"
-[Hilfsprogramme]: /Hilfsmittel "Hilfsmittel"
-[Zugvorlage]./commands.md "Befehl"
-[Wochenbericht]: /Wochenbericht "Wochenbericht"
-[Xontormia Express]: /Xontormia_Express "Xontormia Express"
+[Befehlen]: ./commands.md "Befehle"
+[NR]: ./reports.md#nr "NR (Seite nicht vorhanden)"
+[CR]: ./reports.md#cr "CR (Seite nicht vorhanden)"
+[Hilfsprogramme]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Zugvorlage]: ./commands.md "Befehl"
+[Wochenbericht]: ./weekly-report.md "Wochenbericht"
+[Xontormia Express]: ./xontormia-express.md "Xontormia Express"

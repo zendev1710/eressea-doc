@@ -71,11 +71,11 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 - [Der erste Zug]
 - [Grundlagen]
 
-|     |     |
-| --- | --- |
+|              |                     |
+|--------------|---------------------|
 | Weiterlesen: | [Xontormia-Express] |
 
-[Xontormia-Express]: /Xontormia-Express "Xontormia-Express"
+[Xontormia-Express]: ./xontormia-express.cmd "Xontormia-Express"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
@@ -84,7 +84,7 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
   [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
   [Magellan]: ./magellan.md "Magellan"
   [ECheck]: ./echeck.md "ECheck"
-  [Zugvorlage]./commands.md "Befehl"
+  [Zugvorlage]: ./commands.md "Befehl"
   [Unterhaltung]: /ENTERTAIN "ENTERTAIN"
   [Steuereintreiber]: /TAX "TAX"
   [Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"

@@ -161,17 +161,17 @@ Construction de chariots (cart) et de catapultes (catapults) avec du bois. 1 car
 
 L'unité est toujours à l'affût des unités camouflées. Cela vous permet par exemple d'éviter les vols (voir [perception]).
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [stealth] |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
-[stealth]: /Tarnung "Tarnung"  
-[Alchemy]: /Alchemie "Alchemie"
+[stealth]: ./camouflage.md "Tarnung"  
+[Alchemy]: ./alchemy.cmd "Alchemie"
 [potions]: ./alchemy.md "Tränke"
 [plantes]: ./herbs.md "Plantes"
-[tableau]: /Kampftabellen#Ausdauer "Kampftabellen"
+[tableau]: ./war.md#Ausdauer "Kampftabellen"
 [ressources]: ./resources.md "Ressources"
 [bâtiments et des châteaux]: ./buildings.md "Gebäude"
 [commerce]: ./silver.md#handel "Handel"
@@ -182,10 +182,10 @@ L'unité est toujours à l'affût des unités camouflées. Cela vous permet par 
 [production]: ./production.md "Produktion"
 [`PLANT`]: ./cmd-plant.md "PLANT"
 [magic]: ./magic.md "Magie"
-[chevaux]: /Pferd_und_Wagen "Pferd und Wagen"
+[chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [`GROW HORSES`]: ./cmd-grow.md "GROW"
-[stable]: /Pferdezucht "Pferdezucht"
-[objects]: /Waren "Waren"
+[stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
+[objects]: ./items.md "Waren"
 [bateaux]: ./ships.mde "Schiffe"
 [`SPY`]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#ressources-minières "Ressources"

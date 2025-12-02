@@ -44,7 +44,7 @@ On June 24th, 2009 the Third Age of Eressea started. [The Third Age] is a new wo
 
 #### Deveron
 
-On April 19, 2014 a new game called [Deveron] for Enno's [Patreons]. The world started with E3 rules, but was supposed to be subject to further changes. It ended with turn 243 on March 2, 2019.
+On April 19, 2014 a new game called **Deveron** for Enno's [Patreons]. The world started with E3 rules, but was supposed to be subject to further changes. It ended with turn 243 on March 2, 2019.
 
 #### Drachensgrab
 
@@ -73,25 +73,24 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
   [rules]: ./rules.md "Regeln"
   [Registering for the game]: ./hints.md#Anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Tools]: /Hilfsmittel "Hilfsmittel"
-  [Tips for beginners]: /Anf%C3%A4ngertipps "Anfängertipps"
-  [story of Eressea]: /Geschichte_von_Eressea "Geschichte von Eressea"
-  [Atlantis]: /Atlantis "Atlantis"
-  [Frequently asked questions]: /FAQ "FAQ"
+  [Tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+  [Tips for beginners]: ./getting-started-tips.md "Anfängertipps"
+  [story of Eressea]: ./eressea-story.md "Geschichte von Eressea"
+  [Atlantis]: ./atlantis.md "Atlantis"
+  [Frequently asked questions]: ./faq.md "FAQ"
   [Orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"
   [Tactics]: ./tactic.md "Taktik"
   [Familiars]: ./familiars.md "Vertraute"
-  [Development]: /Entwicklung "Entwicklung"
-  [Xontormia Express]: /Xontormia_Express "Xontormia Express"
-  [archived issues]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [announcements]: /Ank%C3%BCndigungen "Ankündigungen"
-  [Player pages]: /Spielerseiten "Spielerseiten"
-  [You play too much Eressea if ...]: /Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
-  [The Third Age]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
-  [An overview about race changes (in German)]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
-  [List of rules changes compared to E2 (in German)]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
-  [Announcments from the e3-announce mailing list]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"
-  [Deveron]: /Deveron "Deveron (Seite nicht vorhanden)"
+  [Development]: ./development.md "Entwicklung"
+  [Xontormia Express]: ./xontormia-express.md "Xontormia Express"
+  [archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
+  [announcements]: ./announcements.md "Ankündigungen"
+  [Player pages]: ./player-pages.md "Spielerseiten"
+  [You play too much Eressea if ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
+  [The Third Age]: ./the-third-age.md "Das dritte Zeitalter"
+  [An overview about race changes (in German)]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
+  [List of rules changes compared to E2 (in German)]: ./the-third-age.md "Das dritte Zeitalter"
+  [Announcments from the e3-announce mailing list]: ./announcements.md_(E3) "Ankündigungen (E3)"
   [Patreons]: https://www.patreon.com/enno
   [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
   [Rules (in German)]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

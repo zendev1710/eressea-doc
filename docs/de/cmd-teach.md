@@ -21,4 +21,4 @@ Durch den Befehl [LERNE AUTO] versucht der Server das Lernen und Lehren in einer
   [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
   [HELFE]: ./cmd-help.md "HELFE"
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [LERNE AUTO]: /LERNE_AUTO "LERNE AUTO"
+  [LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"

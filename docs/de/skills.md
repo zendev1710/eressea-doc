@@ -81,8 +81,8 @@ Segeln und Reiten werden im Kapitel über [Reisen] erklärt. Reiten ist zudem au
 
 Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im [Krieg] besonders relevant, sei es gegen andere Parteien oder Monster.
 
-|     |     |
-| --- | --- |
+|              |                     |
+|--------------|---------------------|
 | Weiterlesen: | [Liste der Talente] |
 
 [Liste der Talente]: ./skills-list.md "Liste der Talente"
@@ -91,7 +91,7 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 
 [Einheiten]: ./cmd-unit.mden "Einheiten"
 [`LERNE`]: ./cmd-learn.md "LERNE"
-[Rasse]: /Rassen "Rassen"
+[Rasse]: ./races.md "Rassen"
 [Zwergeneinheit]: /Zwerg "Zwerg"
 [lehren]: ./cmd-teach.md "LEHRE"
 [Akademie]: /Akademie "Akademie"
@@ -102,10 +102,10 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 [1]: ./buildings-others.md#Akademie "Andere Gebäude"
 [`VERGISS`]: ./cmd-forget.md "VERGISS"
 [Produktion]: ./production.md "Produktion"
-[5]: /Alchemie "Alchemie"
+[5]: ./alchemy.cmd "Alchemie"
 [Geld]: ./silver.md "Geld"
 [Spionage]: ./skills-list#spionage "Spionage"
-[Tarnung]: /Tarnung "Tarnung"
+[Tarnung]: ./camouflage.md "Tarnung"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
 [Reisen]: ./travel.md "Reisen"
 [Kampf]: /Kampf "Kampf"

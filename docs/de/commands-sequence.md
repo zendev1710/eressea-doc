@@ -78,8 +78,8 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 - [Kurzbeschreibung]
 - [Befehlsreihenfolge (E3)]
 
-|     |     |
-| --- | --- |
+|              |                    |
+|--------------|--------------------|
 | Weiterlesen: | [Kurzbeschreibung] |
 
 [Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
@@ -111,7 +111,7 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
   [BEANSPRUCHE]: ./cmd-claim.md "BEANSPRUCHE"
   [GIB KOMMANDO]: ./cmd-give.md "GIB"
   [VERGISS]: ./cmd-forget.md "VERGISS"
-  [REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
+  [REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
   [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
   [FOLGE]: ./cmd-follow.md "FOLGE"
   [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
@@ -138,6 +138,6 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
   [SORTIERE]: ./cmd-sort.md "SORTIERE"
   [NUMMER]: ./cmd-number.md "NUMMER"
   [Erläuterungen]: #erläuterungen
-  [Materialpool]: /Materialpool "Materialpool"
+  [Materialpool]: ./items-pool.md "Materialpool"
   [Befehle]: ./commands.md "Befehle"
   [Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)"

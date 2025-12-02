@@ -15,21 +15,28 @@ Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire 
 - Une trirème peut être pilotée par une unité de 30 personnes avec sailing 4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2. Dans tous les cas, elle navigue sur 7 régions par tour (8 pour les aquariens) et peut emporter 2000 GE, dont le poids de l'équipage est bien sûr déduit.
 - Un dragonship avec une unité de 25 personnes de niveau 2 se déplace 5 régions. Cependant, avec 3 personnes de niveau 20, il peut se déplacer de 7 régions.
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Bateau - Portée, Capacité, Compétence
-| Type | Portée | Capacité | Capitaine/Equipage | Niveau en Shipcraft | Quantité de bois |
-| Boat | 2   | 50  | 1/2 | 1   | 5   |
-| Longboat | 3   | 500 | 1/10 | 1   | 50  |
-| Dragonship | 5\* | 1000 | 2/50 | 2   | 100 |
-| Caravel | 5   | 3000 | 3/30 | 3   | 250 |
-| Trireme | 7   | 2000 | 4/120 | 4   | 200 |
-| Galleon | 5   | 20000 | 5/250\*\* | 5   | 2000 |
-| \* La portée d'un Dragonship dépend du niveau du capitaine  <br><br>\*\* Lorsque l'on calcule le niveau total de l'équipage d'un Galleon, seuls les marins min. T2 comptent. |     |     |     |     |     |
+Bateau - Portée, Capacité, Compétence
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Portée d'un Dragonship
-| Capitaine | 2   | 6   | 18  | 54  | 162 |
-| Portée | 5   | 6   | 7   | 8   | 9   |
+|            |        |          |                    |                     |                  |
+|------------|--------|----------|--------------------|---------------------|------------------|
+| Type       | Portée | Capacité | Capitaine/Equipage | Niveau en Shipcraft | Quantité de bois |
+| Boat       | 2      | 50       | 1/2                | 1                   | 5                |
+| Longboat   | 3      | 500      | 1/10               | 1                   | 50               |
+| Dragonship | 5\*    | 1000     | 2/50               | 2                   | 100              |
+| Caravel    | 5      | 3000     | 3/30               | 3                   | 250              |
+| Trireme    | 7      | 2000     | 4/120              | 4                   | 200              |
+| Galleon    | 5      | 20000    | 5/250\*\*          | 5                   | 2000             |
+
+\* La portée d'un Dragonship dépend du niveau du capitaine.
+
+\*\* Lorsque l'on calcule le niveau total de l'équipage d'un Galleon, seuls les marins min. T2 comptent.
+
+Portée d'un Dragonship
+
+|           |   |   |    |    |     |
+|-----------|---|---|----|----|-----|
+| Capitaine | 2 | 6 | 18 | 54 | 162 |
+| Portée    | 5 | 6 | 7  | 8  | 9   |
 
 Si un navire n'est pas doté d'un équipage suffisant, il ne peut pas appareiller. Si cela se produit en mer (par exemple à cause d'un combat ou d'unités affamées par manque d'argent), il dérive jusqu'à ce qu'il touche une région côtière. Il subit alors chaque tour des [dommages], si bien qu'il coule rapidement.
 
@@ -85,8 +92,8 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 - [déplacement]
 - [bateaux]
 
-|     |     |
-| --- | --- |
+|              |              |
+|--------------|--------------|
 | Weiterlesen: | [Produktion] |
 
 [Produktion]: ./production.md "Produktion"
@@ -99,7 +106,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [HELP]: ./cmd-help.md "HELP"
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
 [Piraterie]: ./war.md#Piraterie "Guerre"
-[objets]: /Waren#Getenständen "Waren"
+[objets]: ./items.md#Getenständen "Waren"
 [Poids et Capacités]: ./travel.md#Rassengewichte "Reisen"
 [convoi]: ./ships.mde#Konvoi "Schiffe"
 [1]: ./ships.mde "Schiffe"
@@ -110,7 +117,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [RIDE]: ./cmd-ride.md "RIDE"
 [CARRY]: ./cmd-carry.md "CARRY"
-[aquariens]: /Meermenschen "Meermenschen"
-[combat naval]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[aquariens]: ./races.md#meermenschen "Meermenschen"
+[combat naval]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [2]: ./cmd-make.md "MAKE"
 [déplacement]: ./travel.md "Reisen"

@@ -16,4 +16,4 @@ Achtung! Nicht verwechseln mit dem Materialpool, auf den man mit [RESERVIERE] zu
 
   [Parteipool]: ./factions-pool.md "Parteipool"
   [Benutzt]: ./cmd-use.md "BENUTZE"
-  [RESERVIERE]: /RESERVIERE "RESERVIERE"
+  [RESERVIERE]: ./cmd-reserve.md "RESERVIERE"

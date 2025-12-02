@@ -55,8 +55,8 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 - [faction pool]
 - [ordres]
 
-|     |     |
-| --- | --- |
+|              |         |
+|--------------|---------|
 | Weiterlesen: | [races] |
 
 [races]: ./race.md "Rassen"
@@ -66,13 +66,13 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 [race]: ./race.md "Rassen"
 [compétences]: ./skills.md "Talente"
 [ordres]: ./commands.md "Befehl"
-[cadeau de départ spécifique à la race choisie]: /Geschichte_von_Eressea#Start_der_6._Welt "Geschichte von Eressea"
+[cadeau de départ spécifique à la race choisie]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
 [`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
-[recruiter]:./silver.md#recruter "RECRUIT"
-[produire des objets]: /Gegenst%C3%A4nde "Gegenstände"
+[recruiter]: ./silver.md#recruter "RECRUIT"
+[produire des objets]: ./items.md "Gegenstände"
 [bâtiments]: ./buildings.md "Gebäude"
 [bateaux]: ./ships.mde "Schiffe"
-[chevaux]: /Pferd_und_Wagen "Pferd und Wagen"
+[chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [armes]: ./war.mdstabellen "Guerrestabellen"
 [MAKE TEMP]: ./cmd-make.md "MAKE"
 [transférer]: ./cmd-give.md "GIVE"
@@ -81,16 +81,16 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 [taxation]: ./cmd-tax.md "TAX"
 [défaut]: ./cmd-default.md "DEFAULT"
 [guerre]: ./war.md "Guerre"
-[lignes de combat]: /Schlacht#Kampfreihen "Schlacht"
+[lignes de combat]: ./war.md#die-schlacht "Schlacht"
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [famine]: ./silver.md#hunger "Hunger"
 [masquée]: ./cmd-hide.md "HIDE"
 [`MESSAGE`]: ./cmd-message.md "MESSAGE"
-[trolls]: /Trolle "Trolle"
-[humains]: /Mensch "Mensch"
+[trolls]: ./races.md#trolle "Trolle"
+[humains]: ./races.md##menschen "Mensch"
 [nains]: ./races.md#nains "Zwerg"
-[1]: /Troll "Troll"
+[1]: ./races.md#trolle "Troll"
 [fin du tour]: ./commands-sequence.md "Befehlsreihenfolge"
 [`HELP silver`]: ./cmd-help.md "HELP"
 [faction pool]: ./factions.mdpool "Parteipool"

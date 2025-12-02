@@ -22,5 +22,5 @@ Spielererfahrung: SoltharHELFE pnr ohne Parameter macht dasselbe wie HELFE pnr A
 <!-- From [https://wiki.eressea.de/index.php?title=HELFE&oldid=7439] -->
 
   [Allianzen]: ./alliances.md "Allianz"
-  [E3A — Das Dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
-  [1]: /Das_dritte_Zeitalter#Allianzen "Das dritte Zeitalter"
+  [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+  [1]: ./the-third-age.md#Allianzen "Das dritte Zeitalter"

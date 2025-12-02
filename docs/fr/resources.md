@@ -35,24 +35,24 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 - [Routes]
 - [Bâtiments]
 
-|     |     |
-| --- | --- |
+|              |          |
+|--------------|----------|
 | Weiterlesen: | [objets] |
 
-[objets]: /Waren "Waren"
+[objets]: ./items.md "Waren"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
-[Régions]./world.md "Welt"
+[Régions]: ./world.md "Welt"
 [garde]: ./cmd-guard.md "GUARD"
 [`HELP GUARD`]: ./cmd-help.md "HELP"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
-[`camouflé`]: /Tarnung "Tarnung"
+[`camouflé`]: ./camouflage.md "Tarnung"
 [`MAKE`]: ./cmd-make.md "MAKE"
 [Herbalism]: ./skills-list.md "Liste des compétences"
 [`PLANT`]: ./cmd-plant.md "PLANT"
-[Stable]: /Pferdezucht "Pferdezucht"
+[Stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [Liste des Plantes]: ./herbs.md#Kräuterliste "Plantes"
 [Production]: ./production.md "Produktion"
-[Routes]: /Stra%C3%9Fen "Straßen"
+[Routes]: ./roads.md "Straßen"
 [Bâtiments]: ./buildings.md "Gebäude"

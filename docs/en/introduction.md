@@ -32,8 +32,8 @@ In Eressea, you send in a *turn* at regular intervals. A turn consists of [order
 
 If no move is received by the game master, this results in a so-called NMR (no move received). If there are 4 NMRs in a row, the faction is automatically removed from the game. This means that the faction is deleted on the 5th NMR.
 
-|     |     |
-| --- | --- |
+|                   |         |
+|-------------------|---------|
 | Continue reading: | [World] |
 
 [World]: ./world.md "Welt"
@@ -42,7 +42,7 @@ If no move is received by the game master, this results in a so-called NMR (no m
 
 [faction]: ./factions.md "Partei"
 [race]: ./race.md "Rassen"
-[sign up]: /Anmelden_wie%3F "Anmelden wie?"
+[sign up]: ./hints.md#anmeldung "Anmelden wie?"
 [elves]: ./races.md#elves "Elf"
 [dwarves]: ./races.md#dwarves "Zwerg"
 [magic]: ./magic.md "Magie"
@@ -50,9 +50,9 @@ If no move is received by the game master, this results in a so-called NMR (no m
 [monsters]: ./monsters.md "Monster"
 [war]: ./war.md "War"
 [orders]: ./commands.md "Befehle"
-[NR]: /NR "NR (Seite nicht vorhanden)"
-[CR]: /CR "CR (Seite nicht vorhanden)"
-[automatic tools]: /Hilfsmittel "Hilfsmittel"
+[NR]: ./reports.md#nr "NR (Seite nicht vorhanden)"
+[CR]: ./reports.md#cr "CR (Seite nicht vorhanden)"
+[automatic tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [move template]: /Zugvorlage "Zugvorlage (Seite nicht vorhanden)"
-[weekly abstract]: /Wochenbericht "Wochenbericht"
-[Xontormia Express]: /Xontormia_Express "Xontormia Express"
+[weekly abstract]: ./weekly-report.md "Wochenbericht"
+[Xontormia Express]: ./xontormia-express.md "Xontormia Express"

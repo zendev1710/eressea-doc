@@ -26,4 +26,4 @@ Auch das Benennen der Partei muss von einer Einheit ausgeführt werden.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BENENNE&oldid=16968] -->
 
-[`BESCHREIBE`]: /BESCHREIBE "BESCHREIBE"
+[`BESCHREIBE`]: ./cmd-describe.md "BESCHREIBE"

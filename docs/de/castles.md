@@ -33,16 +33,18 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 
 ## Übersicht
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
-| Typ | ab Größe | Burgenbau | Silberbonus | Erlösanteil | Verteidigungsbonus |
-| Grundmauern | 1   | 1   | 0 Silber | nichts | 0   |
-| Handelsposten | 2   | 1   | 0 Silber | 6%  | 0   |
-| Befestigung | 10  | 2   | 1 Silber | 12% | +1  |
-| Turm | 50  | 3   | 2 Silber | 18% | +2  |
-| Burg | 250 | 4   | 3 Silber | 24% | +3  |
-| Festung | 1250 | 5   | 4 Silber | 30% | +4  |
-| Zitadelle | 6250 | 6   | 5 Silber | 36% | +5  |
+Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
+
+|               |          |           |             |             |                    |
+|---------------|----------|-----------|-------------|-------------|--------------------|
+| Typ           | ab Größe | Burgenbau | Silberbonus | Erlösanteil | Verteidigungsbonus |
+| Grundmauern   | 1        | 1         | 0 Silber    | nichts      | 0                  |
+| Handelsposten | 2        | 1         | 0 Silber    | 6%          | 0                  |
+| Befestigung   | 10       | 2         | 1 Silber    | 12%         | +1                 |
+| Turm          | 50       | 3         | 2 Silber    | 18%         | +2                 |
+| Burg          | 250      | 4         | 3 Silber    | 24%         | +3                 |
+| Festung       | 1250     | 5         | 4 Silber    | 30%         | +4                 |
+| Zitadelle     | 6250     | 6         | 5 Silber    | 36%         | +5                 |
 
 ## Siehe auch
 
@@ -51,8 +53,8 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 - [Boni und Mali]
 - [Einnahmen]
 
-|     |     |
-| --- | --- |
+|              |                  |
+|--------------|------------------|
 | Weiterlesen: | [Andere Gebäude] |
 
 [Andere Gebäude]: ./buildings-others.md "Andere Gebäude"

@@ -6,16 +6,18 @@ In jeder Region kann man in die sechs Himmelsrichtungen eine Straße errichten. 
 
 Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Außerdem sind einige Regionen so ungastlich, dass zuvor ein [Gebäude] errichtet werden muss. Dieses muss zum Zeitpunkt des Baus funktionieren, d.h., es muss fertig sein und der Unterhalt muss gezahlt werden. Die fertige Straße funktioniert, auch ohne dass der Unterhalt gezahlt wird.
 
-|     |     |     |
-| --- | --- | --- |Straßenbau
-| Gelände | Steine | Gebäude |
-| Ebene / Wald | 50  | \-  |
-| Hochland | 100 | \-  |
-| Gebirge | 250 | \-  |
-| Vulkan | 250 |     |
-| Sumpf | 75  | [Damm] |
-| Wüste | 100 | [Karawanserei] |
-| Gletscher | 250 | [Tunnel] |
+Straßenbau
+
+|              |        |                |
+|--------------|--------|----------------|
+| Gelände      | Steine | Gebäude        |
+| Ebene / Wald | 50     | \-             |
+| Hochland     | 100    | \-             |
+| Gebirge      | 250    | \-             |
+| Vulkan       | 250    |                |
+| Sumpf        | 75     | [Damm]         |
+| Wüste        | 100    | [Karawanserei] |
+| Gletscher    | 250    | [Tunnel]       |
 
 [Damm]: ./buildings-others.md#Damm "Andere Gebäude"
 [Karawanserei]: ./buildings-others.md#Karawanserei "Andere Gebäude"
@@ -31,8 +33,8 @@ Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Au
 
 Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (1,1) reisen.
 
-|     |     |
-| --- | --- |
+|              |          |
+|--------------|----------|
 | Weiterlesen: | [Schiff] |
 
 [Schiff]: ./ships.md "Schiff"

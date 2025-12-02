@@ -137,12 +137,14 @@ Against ranged weapons, those being attacked only defend with half their skill l
 
 Catapults require ammunition. This can be produced from stones using [MAKE ammunition] by a mason with quarrying skill 3 and it weighs 10 weight units. One unit of ammunition corresponds to one volley.
 
-|     |     |     |     |
-| --- | --- | --- | --- |Ranged weapons - bonuses and time
-| Weapon | Skill | Offensive bonus | Reloading |
-| crossbow / mallorn crossbow | crossbow | 0   | 2   |
-| catapult | catapult | \-4 | 5   |
-| bow / mallorn bow / elven bow | bow | \-2 | 0   |
+Ranged weapons - bonuses and time
+
+|                               |          |                 |           |
+|-------------------------------|----------|-----------------|-----------|
+| Weapon                        | Skill    | Offensive bonus | Reloading |
+| crossbow / mallorn crossbow   | crossbow | 0               | 2         |
+| catapult                      | catapult | \-4             | 5         |
+| bow / mallorn bow / elven bow | bow      | \-2             | 0         |
 
 The time it takes to get the weapon ready to fire again is indicated under reloading. A catapult can therefore only be used once in each battle. A crossbow can fire every third round, bows even every round.
 
@@ -320,8 +322,8 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 - [Tactics][Tactician]
 - [War tables]
 
-|     |     |
-| --- | --- |
+|                   |             |
+|-------------------|-------------|
 | Continue reading: | [Alliances] |
 
 [Alliances]: ./alliances.md "Allianz"
@@ -335,13 +337,13 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [combat rows]: #Schlacht
 [flee]: #Flucht
 [`GROUP`]: ./cmd-group.md "GROUP"
-[combat at sea]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[combat at sea]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [fleeing]: ./war.md#flee "Die Flucht"
 [unarmed]: /Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
 [1]: #Boni_and_Mali
 [Tactician]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
-[Heroes]: /BEF%C3%96RDERUNG "BEFÖRDERUNG"
+[Heroes]: ./cmd-promote.md "BEFÖRDERUNG"
 [Weapon characteristics]: ./war.mdstabellen#Waffeneigenschaften "Warstabellen"
 [Racial skill modifiers]: ./war.mdstabellen#Rasseneigenschaften "Warstabellen"
 [this]: ./war.mdstabellen#Rüstung "Warstabellen"

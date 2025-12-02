@@ -75,13 +75,15 @@ The silver that remains to peasants after paying taxes is added to the region's 
 
 ### Examples of potential income
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |Income and upkeep
+Income and upkeep
+
+|        |       |          |              |      |        |        |         |           |
+|--------|-------|----------|--------------|------|--------|--------|---------|-----------|
 | Region | Trees | Peasants | Max. workers | Wage | Income | Upkeep | Surplus | Entertain |
-| Plain | 200 | 3742 | 8400 | 11  | 41162 | 37420 | 3742 | 187 |
-| Plain | 200 | 3742 | 8400 | 14  | 52388 | 37420 | 14968 | 748 |
-| Forest | 818 | 3742 | 3456 | 11  | 38016 | 37420 | 596 | 29  |
-| Forest | 818 | 3742 | 3456 | 12  | 41472 | 37420 | 4052 | 202 |
+| Plain  | 200   | 3742     | 8400         | 11   | 41162  | 37420  | 3742    | 187       |
+| Plain  | 200   | 3742     | 8400         | 14   | 52388  | 37420  | 14968   | 748       |
+| Forest | 818   | 3742     | 3456         | 11   | 38016  | 37420  | 596     | 29        |
+| Forest | 818   | 3742     | 3456         | 12   | 41472  | 37420  | 4052    | 202       |
 
 For each tree, the maximum number of peasants that may work is decreased by 8, for each sapling the number is decreased by 4.
 
@@ -113,16 +115,18 @@ Trade is prevented by guarding only for trading units on ships.
 
 Every type of trade good has a certain base price (see table below). The number of luxury goods that can be bought without raising this price is 1% of the number of peasants in the region. Every time this amount is bought (the total bought by all factions), the price is increased by the base price. A region with 2,000 peasants means that 20 luxury items can be bought without raising the price. The price drops to normal the next turn.
 
-|     |     |     |
-| --- | --- | --- |Base prices of luxury goods:
+Base prices of luxury goods:
+
+|             |            |              |
+|-------------|------------|--------------|
 | Luxury good | Base price | Weight UW/GE |
-| Balm | 4   | 2   |
-| Oil | 3   | 3   |
-| Spice | 5   | 2   |
-| Silk | 6   | 3   |
-| Gem | 7   | 1   |
-| Incense | 4   | 2   |
-| Myrrh | 5   | 2   |
+| Balm        | 4          | 2            |
+| Oil         | 3          | 3            |
+| Spice       | 5          | 2            |
+| Silk        | 6          | 3            |
+| Gem         | 7          | 1            |
+| Incense     | 4          | 2            |
+| Myrrh       | 5          | 2            |
 
 The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a [harbour], this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.
 
@@ -159,8 +163,8 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 - [Stealth][stealth skill]
 - [GUARD]
 
-|     |     |
-| --- | --- |
+|                   |                 |
+|-------------------|-----------------|
 | Continue reading: | [Material pool] |
 
 [Material pool]: ./items-pool.md "Materialpool"
@@ -177,21 +181,21 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 [alliances]: ./alliances.md "Allianz"
 [reserved]: ./cmd-reserve.md "RESERVE"
 [buildings]: ./buildings.md "Gebäude"
-[aquarians]: /Meermensch "Meermensch"
+[aquarians]: ./races.md#meermenschen "Meermensch"
 [damage]: ./ships.md "Schiff"
 [combat end]: ./war.md#the-end"End of the battle"
 [endurance skill]: ./war.mdstabellen "Warstabellen"
-[undead]: /Untote "Untote"
-[`WORK`]: ./cmd-work.mdN "ARBEITEN"
+[undead]: ./monsters.md#untote "Untote"
+[`WORK`]: ./cmd-work.md "ARBEITEN"
 [castles table]: ./castles.md#übersicht "Burg"
 [`STEAL`]: ./camouflage.md "STEAL"
-[stealth skill]: /Tarnung "Tarnung"
+[stealth skill]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
 [BUY]: ./cmd-buy.md "BUY"
 [castles]: ./castles.mden#übersicht "Burgen"
 [harbour]: ./buildings-others.md#Hafen "Andere Gebäude"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
 [GIVE]: ./cmd-give.md "GIVE"
-[1]:./silver.md#recruiting "RECRUIT"
+[1]: ./silver.md#recruiting "RECRUIT"
 [Item pool]: ./items-pool.md "Materialpool"
 [GUARD]: ./cmd-guard.md "GUARD"

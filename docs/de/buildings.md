@@ -30,8 +30,8 @@ Gebäude werden mit dem [MACHE][`MACHE `*`Gebäude`*]-Befehl gebaut und erweiter
 - [Ausgaben]
 - [Zerstöre][4]
 
-|     |     |
-| --- | --- |
+|              |          |
+|--------------|----------|
 | Weiterlesen: | [Burgen] |
 
 [Burgen]: ./castles.md "Burg"

@@ -75,13 +75,15 @@ L'argent qui reste aux paysans après les impôts est ajouté aux réserves de l
 
 ### Exemples de possibilités de rémunération
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |Revenus et frais d'entretien
+Revenus et frais d'entretien
+
+|        |        |         |              |         |        |           |         |           |
+|--------|--------|---------|--------------|---------|--------|-----------|---------|-----------|
 | Region | Arbres | Paysans | Max. workers | Salaire | Revenu | Entretien | Surplus | Entertain |
-| Plain | 200 | 3742 | 8400 | 11  | 41162 | 37420 | 3742 | 187 |
-| Plain | 200 | 3742 | 8400 | 14  | 52388 | 37420 | 14968 | 748 |
-| Forest | 818 | 3742 | 3456 | 11  | 38016 | 37420 | 596 | 29  |
-| Forest | 818 | 3742 | 3456 | 12  | 41472 | 37420 | 4052 | 202 |
+| Plain  | 200    | 3742    | 8400         | 11      | 41162  | 37420     | 3742    | 187       |
+| Plain  | 200    | 3742    | 8400         | 14      | 52388  | 37420     | 14968   | 748       |
+| Forest | 818    | 3742    | 3456         | 11      | 38016  | 37420     | 596     | 29        |
+| Forest | 818    | 3742    | 3456         | 12      | 41472  | 37420     | 4052    | 202       |
 
 Pour chaque arbre, le nombre maximum de paysans pouvant travailler est diminué de 8, pour chaque jeune arbre le nombre est diminué de 4.
 
@@ -113,16 +115,18 @@ Garder empêche de travailler uniquement les unités se trouvant à l'intérieur
 
 Chaque marchandise a un prix de base fixe (voir le tableau). Il indique les prix de base des produits de luxe. Le nombre d'unités de produits de luxe qui peuvent être achetées sans que leur prix n'augmente est égal à 1% du nombre de paysans de la région. Chaque fois que cette quantité est achetée (le total acheté par toutes les factions), le prix augmente du prix de base. Une région de 2 000 paysans permet d'acheter 20 objets de luxe sans en augmenter le prix d'achat. Le prix revient à la normale au tour suivant, les produits étant à nouveau disponibles.
 
-|     |     |     |
-| --- | --- | --- |Prix de base des biens de luxe :
+Prix de base des biens de luxe :
+
+|               |              |             |
+|---------------|--------------|-------------|
 | Biens de luxe | Prix de base | Poids en GE |
-| Balm | 4   | 2   |
-| Oil | 3   | 3   |
-| Spice | 5   | 2   |
-| Silk | 6   | 3   |
-| Gem | 7   | 1   |
-| Incense | 4   | 2   |
-| Myrrh | 5   | 2   |
+| Balm          | 4            | 2           |
+| Oil           | 3            | 3           |
+| Spice         | 5            | 2           |
+| Silk          | 6            | 3           |
+| Gem           | 7            | 1           |
+| Incense       | 4            | 2           |
+| Myrrh         | 5            | 2           |
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région. Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes. Chaque tour, il y a 10% de chances que le prix de vente de chaque produit de luxe augmente du prix de base. Dans les régions où se trouve un [Port (harbour)], cette chance est de 20%. Si le prix de vente est déjà de 25 fois le prix de base, il n'augmentera pas davantage.
 
@@ -159,8 +163,8 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 - [stealth]
 - [GUARD]
 
-|     |     |
-| --- | --- |
+|              |                 |
+|--------------|-----------------|
 | Weiterlesen: | [Material Pool] |
 
 [Material Pool]: ./items-pool.md "Materialpool"
@@ -176,15 +180,15 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [ici]: ./alliances.md "Allianz"
 [réservé]: ./cmd-reserve.md "RESERVE"
 [Bâtiments]: ./buildings.md "Gebäude"
-[aquarians]: /Meermensch "Meermensch"
+[aquarians]: ./races.md#meermenschen "Meermensch"
 [dommages]: ./ships.md "Schiff"
 [Fin de bataille]: ./war.md#fin-de-la-bataille"Fin de la bataille"
 [compétence endurance]: ./war.mdstabellen "Guerrestabellen"
 [morts-vivants]: /Undead "Undead (Seite nicht vorhanden)"
-[WORK]: ./cmd-work.mdN "ARBEITEN"
+[WORK]: ./cmd-work.md "ARBEITEN"
 [ce]: ./castles.md#übersicht "Burg"
 [`STEAL`]: ./camouflage.md "STEAL"
-[Stealth]: /Tarnung "Tarnung"
+[Stealth]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
 [BUY]: ./cmd-buy.md "BUY"
 [SELL]: ./cmd-sell.md "SELL"
@@ -192,6 +196,6 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [Port (harbour)]: ./buildings-others.md "Andere Gebäude"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
 [GIVE]: ./cmd-give.md "GIVE"
-[RECRUIT]:./silver.md#recruter "RECRUIT"
+[RECRUIT]: ./silver.md#recruter "RECRUIT"
 [itempool]: ./items-pool.md "Materialpool"
 [GUARD]: ./cmd-guard.md "GUARD"

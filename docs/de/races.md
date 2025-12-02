@@ -86,10 +86,12 @@ Menschen können alles ein bisschen, nichts so richtig schlecht aber auch nichts
 
 Die Anzahl der *Migranten* errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50). Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen. Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden]. Die folgende Tabelle enthält einige Beispiele:
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Migranten
-| Personen in der Partei | 1   | 56  | 57  | 63  | 71  | 80  | 89  | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
-| Migranten | 0   | 0   | 1   | 2   | 3   | 4   | 5   | 10  | 20  | 26  | 40  | 60  | 80  | 100 |
+Migranten
+
+|                        |   |    |    |    |    |    |    |     |     |      |      |       |        |         |
+|------------------------|---|----|----|----|----|----|----|-----|-----|------|------|-------|--------|---------|
+| Personen in der Partei | 1 | 56 | 57 | 63 | 71 | 80 | 89 | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
+| Migranten              | 0 | 0  | 1  | 2  | 3  | 4  | 5  | 10  | 20  | 26   | 40   | 60    | 80     | 100     |
 
 ## Orks
 
@@ -122,8 +124,8 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
 - [Zwergenmagier][Magier] regenerieren Aura 50% langsamer.
 
-|     |     |
-| --- | --- |
+|              |                       |
+|--------------|-----------------------|
 | Weiterlesen: | [Talentmodifikatoren] |
 
 [Talentmodifikatoren]: ./skills-modifiers.md "Talentmodifikatoren"
@@ -137,7 +139,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 [tarnen]: ./cmd-hide.md "TARNE"
 [Regionskapazität]: ./world.md "Welt"
 [Magier]: ./magic.md "Magic"
-[Elfenbögen]: /Kriegstabellen#Waffeneigenschaften "Kriegstabellen"
+[Elfenbögen]: ./war-tables.md#Waffeneigenschaften "Kriegstabellen"
 [klauen]: ./cmd-steal.md "BEKLAUE"
 [Schiffe]: ./ships.md "Schiff"
 [fliehen]: ./war.md#die-flucht "Krieg"
@@ -145,9 +147,9 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 [Drachen]: ./monsters.md#drachen "Drachen"
 [Alchemie]: ./skills-list.md "Liste der Talente"
 [Trank]: ./alchemy.md "Tränke"
-[hier]: /Kriegstabellen#Rasseneigenschaften "Kriegstabellen"
+[hier]: ./war-tables.md#Rasseneigenschaften "Kriegstabellen"
 [Taktik]: ./tactic.md "Taktik"
-[Gruppen]: ./cmd-group.mdn "Gruppen (Seite nicht vorhanden)"
+[Gruppen]: ./cmd-group.md "Gruppen (Seite nicht vorhanden)"
 [handeln]: ./silver.md#handel "Geld"
 [bewegen]: ./travel.md "Reisen"
 [lange Befehle]: ./commands.md "Befehl"

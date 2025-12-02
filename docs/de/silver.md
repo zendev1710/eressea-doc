@@ -75,13 +75,15 @@ Das Geld, das den Bauern nach den Steuern noch übrig bleibt, ist das Regionssil
 
 ### Beispiele zu den Verdienstmöglichkeiten
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |Verdienst und Lebenskosten
+Verdienst und Lebenskosten
+
+|        |       |        |               |      |           |              |            |              |
+|--------|-------|--------|---------------|------|-----------|--------------|------------|--------------|
 | Region | Bäume | Bauern | Arbeitsplätze | Lohn | Einnahmen | Lebenskosten | Überschuss | Unterhaltung |
-| Ebene | 200 | 3742 | 8400 | 11  | 41162 | 37420 | 3742 | 187 |
-| Ebene | 200 | 3742 | 8400 | 14  | 52388 | 37420 | 14968 | 748 |
-| Wald | 818 | 3742 | 3456 | 11  | 38016 | 37420 | 596 | 29  |
-| Wald | 818 | 3742 | 3456 | 12  | 41472 | 37420 | 4052 | 202 |
+| Ebene  | 200   | 3742   | 8400          | 11   | 41162     | 37420        | 3742       | 187          |
+| Ebene  | 200   | 3742   | 8400          | 14   | 52388     | 37420        | 14968      | 748          |
+| Wald   | 818   | 3742   | 3456          | 11   | 38016     | 37420        | 596        | 29           |
+| Wald   | 818   | 3742   | 3456          | 12   | 41472     | 37420        | 4052       | 202          |
 
 Pro Baum können 8 Bauern, pro Schössling 4 Bauern in der Region nicht arbeiten.
 
@@ -113,16 +115,18 @@ Handel wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
 Jede Handelsware hat einen festen Grundpreis (siehe Tabelle). Dies ist der Preis, zu dem man die unter Luxusgüter zum angegebenen Preis angegebene Anzahl Luxusgüter ohne Preissteigerung kaufen kann. Sobald jeweils diese Anzahl (entsprechend 1% der Bauern) an Luxusgütern von den Spielern gekauft wurde, steigt der Einkaufspreis um den Grundpreis. Der Einkaufspreis sinkt in der nächsten Runde wieder auf den einfachen Grundpreis, da die Luxusgüter wieder produziert werden.
 
-|     |     |
-| --- | --- |Grundpreise von Luxusgütern
-| Luxusgut | Grundpreis |
-| Balsam | 4   |
-| Öl  | 3   |
-| Gewürz | 5   |
-| Seide | 6   |
-| Juwelen | 7   |
-| Weihrauch | 4   |
-| Myrrhe | 5   |
+Grundpreise von Luxusgütern
+
+|           |            |
+|-----------|------------|
+| Luxusgut  | Grundpreis |
+| Balsam    | 4          |
+| Öl        | 3          |
+| Gewürz    | 5          |
+| Seide     | 6          |
+| Juwelen   | 7          |
+| Weihrauch | 4          |
+| Myrrhe    | 5          |
 
 Der Verkaufspreis eines Luxusgutes ist ein Vielfaches des Grundpreises und ist im Regionsreport angegeben. Sobald in einer Runde jeweils 1% der Bauern ein Produkt gekauft hat, sinkt der Verkaufspreis um den Grundpreis und steigt in den nächsten Wochen erst langsam wieder an. Jede Runde besteht für jedes Luxusgut eine 10%ige Chance, dass sich der Verkaufspreis um den Grundpreis erhöht. In Regionen, in denen ein [Hafen] ist, liegt diese Chance bei 20%. Liegt der Kaufpreis bereits beim 25fachen Grundpreis, wird er sich nicht weiter erhöhen.
 
@@ -159,8 +163,8 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 - [Tarnung][Tarnungstalent]
 - [BEWACHE]
 
-|     |     |
-| --- | --- |
+|              |                |
+|--------------|----------------|
 | Weiterlesen: | [Materialpool] |
 
 [Materialpool]: ./items-pool.md "Materialpool"
@@ -172,28 +176,28 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 [Steuern eintreiben]: ./cmd-tax.md "TREIBE"
 [Handel]: ./silver.md#Handel "Geld"
 [Rassen]: ./race.md "Rassen"
-[rekrutieren]: /REKRUTIERE "REKRUTIERE"
+[rekrutieren]: ./cmd-recruit.md "REKRUTIERE"
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md "Talentmodifikatoren"
 [HELFE SILBER]: ./cmd-help.md "HELFE"
 [hier]: ./alliances.md "Allianz"
 [reserviert]: ./cmd-reserve.md "RESERVIERE"
 [Gebäude]: ./buildings.md "Gebäude"
-[Meermenschen]: /Meermensch "Meermensch"
+[Meermenschen]: ./races.md#meermenschen "Meermensch"
 [Schaden]: ./ships.md "Schiff"
 [Kampfende]: ./war.md#kampfende "Kampfende"
 [Ausdauertalent]: ./war.mdstabellen "Kriegstabellen"
-[Untote]: /Untote "Untote"
-[1]: ./cmd-work.mdN "ARBEITEN"
+[Untote]: ./monsters.md#untote "Untote"
+[1]: ./cmd-work.md "ARBEITEN"
 [Burgen-Tabelle]: ./castles.md#übersicht "Burg"
 [`BEKLAUE`]: ./camouflage.md "BEKLAUE"
-[Tarnungstalent]: /Tarnung "Tarnung"
+[Tarnungstalent]: ./camouflage.md "Tarnung"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Tarnung]: /Tarnung "Tarnung"
+[Tarnung]: ./camouflage.md "Tarnung"
 [kaufen]: ./cmd-buy.md "KAUFE"
 [verkaufen]: ./cmd-sell.md "VERKAUFE"
 [Burgen]: ./castles.mden "Burgen"
 [Hafen]: ./buildings-others.md "Andere Gebäude"
 [`KONTAKTIERE`]: ./cmd-contact.md "KONTAKTIERE"
 [GIB]: ./cmd-give.md "GIB"
-[REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
+[REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
 [BEWACHE]: ./cmd-guard.md "BEWACHE"

@@ -134,47 +134,47 @@ Keine Informationen über diese Rasse verfügbar.
 
 Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus. Einige sind selbst magiebegabt und verfügen über eigene Aura. Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren. Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben. Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
 
-| Eigenschaft | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Trefferpunkte | 15  | 50  | 24  | 40  | 9   | 6   | 30  | 16  | 40  | 300 | 20  | 15  | 10  | 900 | 40  | 10  | 30  | 10  | 300 | 25  |
-| Gewicht \[GE\] | 5   | 10  | 5   | 5   | 5   | 2   | 5   | 6   | 5   | 5   | 5   | 10  | 1   | 16  | 10  | 5   | 5   | 5   | 300 | 5   |
-| Kapazität \[GE\] | 5,4 | 5,4 | 5,4 | 20  | 5,4 | 5,4 | 5,4 | 4,4 | 5,4 | 5,4 | 5,4 | 5,4 | 5,4 | 6   | 6   | 5,4 | 5,4 | 5,4 | 100 | 5,4 |
-| nat. Rüstung | 0   | 2   | 0   | 0   | 0   | 0   | 5   | 0   | 0   | 0   | 0   | 0   | 0   | 7   | 1   | 1   | 0   | 0   | 6   | 0   |
-| Magieresistenz | 0   | 15  | 0   | 90  | 0   | 80  | 100 | \-5 | 50  | 0   | 0   | 90  | 0   | 0   | 99  | 50  | 0   | 50  | 80  | 0   |
-| eigene Zauber |     |     |     | ja  |     | ja  | ja  |     |     |     |     | ja  |     |     | ja  | ja  |     | ja  |     |     |
-| kann sich über Land bewegen | ja  | ja  |     | ja  | ja  | ja  | ja  | ja  | ja  |     | ja  | ja  | ja  | ja  | ja  | ja  | ja  | ja  | ja  | ja  |
-| kann Ozeanfelder betreten | ja  |     | ja  |     | ja  | ja  | ja  |     |     | ja  |     |     |     | ja  | ja  | ja  |     | ja  |     |     |
-| Kann Rüstungen benutzen |     | ja  |     |     |     | ja  | ja  | ja  |     |     |     | ja  |     |     |     | ja  |     |     |     |     |
-| Talent | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-| Alchemie |     | +2  |     |     |     |     |     | +1  |     |     |     | 0   |     |     |     |     |     |     |     |     |
-| Armbrustschießen |     | 0   |     |     |     |     |     | 0   |     |     |     | 0   |     |     |     |     |     |     |     |     |
-| Ausdauer | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | \-1 | 0   | 0   | 0   | 0   | 0   | 0   | +2  | 0   |
-| Bergbau |     | +0  |     |     |     |     |     | +1  |     |     |     |     |     |     |     |     |     |     | +10 |     |
-| Bogenschießen |     | 0   |     |     |     |     |     | 0   |     |     |     | +2  |     |     |     |     |     |     |     |     |
-| Burgenbau |     | 0   |     |     |     |     |     | +1  |     |     |     |     |     |     |     |     |     |     |     |     |
-| Handeln |     | \-3 |     |     |     |     |     | \-1 |     |     |     | \-2 |     |     |     |     |     |     |     |     |
-| Hiebwaffen |     | +1  |     |     |     | \-1 | 0   | 0   |     |     |     | 0   |     |     |     | 0   |     | 0   |     |     |
-| Holzfällen |     | +1  |     |     |     |     |     | 0   |     |     |     |     |     |     |     |     |     |     | +10 |     |
-| Katapultbedienung |     | 0   |     |     |     |     |     | +1  |     |     |     |     |     |     |     |     |     |     |     |     |
-| Kräuterkunde |     | \-3 |     |     |     |     |     | 0   |     |     | +1  | +4  |     |     |     |     |     |     |     |     |
-| Magie | 0   | +1  | 0   | +2  | 0   | +1  | +1  | \-1 | 0   | 0   | 0   | +1  | 0   | 0   | +1  | +1  | 0   | +1  | 0   | 0   |
-| Pferdedressur |     | \-3 |     |     |     |     |     | 0   |     |     | +1  | +5  |     |     |     |     |     |     |     |     |
-| Reiten |     | \-1 |     |     |     | \-1 | \-2 | 0   |     |     |     | +5  |     |     |     | \-1 |     |     |     |     |
-| Rüstungsbau |     | 0   |     |     |     |     |     | 0   |     |     |     | \-2 |     |     |     |     |     |     |     |     |
-| Schiffbau |     | \-1 |     |     |     |     |     | \-2 |     |     |     |     |     |     |     |     |     |     |     |     |
-| Segeln |     | \-1 |     |     |     |     |     | \-2 |     |     |     | \-2 |     |     |     |     |     |     |     |     |
-| Spionage | 0   | 0   | 0   | 0   | +1  | +2  | 0   | 0   | 0   | 0   | 0   | 0   | +5  | 0   | 0   | +1  | 0   | +1  | 0   | 0   |
-| Stangenwaffen |     | +1  |     |     |     | \-1 | 0   | 0   |     |     |     | 0   |     |     |     | 0   |     | 0   |     |     |
-| Steinbau |     | 0   |     |     |     |     |     | 0   |     |     |     |     |     |     |     |     |     |     | +10 |     |
-| Steuereintreiben |     | +1  |     |     |     |     |     | 0   |     |     |     | \-2 |     |     |     | +1  |     | +1  |     |     |
-| Straßenbau |     | 0   |     |     |     |     |     | \-2 |     |     |     |     |     |     |     |     |     |     |     |     |
-| Taktik |     | \-1 | 0   | 0   |     |     |     | \-2 | 0   | 0   |     | \-2 |     |     |     |     | 0   |     |     | 0   |
-| Tarnung |     | +1  | 0   | +4  | +1  | +5  | 0   | +1  | 0   |     | +3  | +3  | +4  |     | 0   | +1  | 0   | +1  |     | 0   |
-| Unterhaltung |     | \-3 |     |     |     |     |     | \-1 |     |     |     | +10 |     |     |     |     |     |     |     |     |
-| Waffenbau |     | +1  |     |     |     |     |     | 0   |     |     |     | \-2 |     |     |     |     |     |     |     |     |
-| Waffenloser Kampf | 0   | \-  | 0   | 0   | 0   | 0   | 0   | \-  | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
-| Wagenbau |     | \-2 |     |     |     |     |     | \-1 |     |     |     | \-2 |     |     |     |     |     |     |     |     |
-| Wahrnehmung | +2  | +1  | +1  | +5  | +5  | +2  | 0   | 0   | +1  | +1  | +4  | +2  | +2  | +1  | 0   | +1  | +1  | +1  |     | +2  |
+| Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
+|-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
+| Trefferpunkte               | 15    | 50    | 24      | 40      | 9    | 6   | 30    | 16     | 40          | 300   | 20    | 15     | 10    | 900               | 40         | 10         | 30    | 10         | 300        | 25   |
+| Gewicht \[GE\]              | 5     | 10    | 5       | 5       | 5    | 2   | 5     | 6      | 5           | 5     | 5     | 10     | 1     | 16                | 10         | 5          | 5     | 5          | 300        | 5    |
+| Kapazität \[GE\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4  | 5,4 | 5,4   | 4,4    | 5,4         | 5,4   | 5,4   | 5,4    | 5,4   | 6                 | 6          | 5,4        | 5,4   | 5,4        | 100        | 5,4  |
+| nat. Rüstung                | 0     | 2     | 0       | 0       | 0    | 0   | 5     | 0      | 0           | 0     | 0     | 0      | 0     | 7                 | 1          | 1          | 0     | 0          | 6          | 0    |
+| Magieresistenz              | 0     | 15    | 0       | 90      | 0    | 80  | 100   | \-5    | 50          | 0     | 0     | 90     | 0     | 0                 | 99         | 50         | 0     | 50         | 80         | 0    |
+| eigene Zauber               |       |       |         | ja      |      | ja  | ja    |        |             |       |       | ja     |       |                   | ja         | ja         |       | ja         |            |      |
+| kann sich über Land bewegen | ja    | ja    |         | ja      | ja   | ja  | ja    | ja     | ja          |       | ja    | ja     | ja    | ja                | ja         | ja         | ja    | ja         | ja         | ja   |
+| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja   | ja  | ja    |        |             | ja    |       |        |       | ja                | ja         | ja         |       | ja         |            |      |
+| Kann Rüstungen benutzen     |       | ja    |         |         |      | ja  | ja    | ja     |             |       |       | ja     |       |                   |            | ja         |       |            |            |      |
+| Talent                      | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
+| Alchemie                    |       | +2    |         |         |      |     |       | +1     |             |       |       | 0      |       |                   |            |            |       |            |            |      |
+| Armbrustschießen            |       | 0     |         |         |      |     |       | 0      |             |       |       | 0      |       |                   |            |            |       |            |            |      |
+| Ausdauer                    | 0     | 0     | 0       | 0       | 0    | 0   | 0     | 0      | 0           | 0     | 0     | \-1    | 0     | 0                 | 0          | 0          | 0     | 0          | +2         | 0    |
+| Bergbau                     |       | +0    |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            | +10        |      |
+| Bogenschießen               |       | 0     |         |         |      |     |       | 0      |             |       |       | +2     |       |                   |            |            |       |            |            |      |
+| Burgenbau                   |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
+| Handeln                     |       | \-3   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
+| Hiebwaffen                  |       | +1    |         |         |      | \-1 | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
+| Holzfällen                  |       | +1    |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
+| Katapultbedienung           |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
+| Kräuterkunde                |       | \-3   |         |         |      |     |       | 0      |             |       | +1    | +4     |       |                   |            |            |       |            |            |      |
+| Magie                       | 0     | +1    | 0       | +2      | 0    | +1  | +1    | \-1    | 0           | 0     | 0     | +1     | 0     | 0                 | +1         | +1         | 0     | +1         | 0          | 0    |
+| Pferdedressur               |       | \-3   |         |         |      |     |       | 0      |             |       | +1    | +5     |       |                   |            |            |       |            |            |      |
+| Reiten                      |       | \-1   |         |         |      | \-1 | \-2   | 0      |             |       |       | +5     |       |                   |            | \-1        |       |            |            |      |
+| Rüstungsbau                 |       | 0     |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
+| Schiffbau                   |       | \-1   |         |         |      |     |       | \-2    |             |       |       |        |       |                   |            |            |       |            |            |      |
+| Segeln                      |       | \-1   |         |         |      |     |       | \-2    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
+| Spionage                    | 0     | 0     | 0       | 0       | +1   | +2  | 0     | 0      | 0           | 0     | 0     | 0      | +5    | 0                 | 0          | +1         | 0     | +1         | 0          | 0    |
+| Stangenwaffen               |       | +1    |         |         |      | \-1 | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
+| Steinbau                    |       | 0     |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
+| Steuereintreiben            |       | +1    |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            | +1         |       | +1         |            |      |
+| Straßenbau                  |       | 0     |         |         |      |     |       | \-2    |             |       |       |        |       |                   |            |            |       |            |            |      |
+| Taktik                      |       | \-1   | 0       | 0       |      |     |       | \-2    | 0           | 0     |       | \-2    |       |                   |            |            | 0     |            |            | 0    |
+| Tarnung                     |       | +1    | 0       | +4      | +1   | +5  | 0     | +1     | 0           |       | +3    | +3     | +4    |                   | 0          | +1         | 0     | +1         |            | 0    |
+| Unterhaltung                |       | \-3   |         |         |      |     |       | \-1    |             |       |       | +10    |       |                   |            |            |       |            |            |      |
+| Waffenbau                   |       | +1    |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
+| Waffenloser Kampf           | 0     | \-    | 0       | 0       | 0    | 0   | 0     | \-     | 0           | 0     | 0     | 0      | 0     | 0                 | 0          | 0          | 0     | 0          | 0          | 0    |
+| Wagenbau                    |       | \-2   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
+| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
 
 ## Zuteilung von Vertrauten
 
@@ -186,19 +186,19 @@ Spielererfahrung:Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen
 
 Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiegebiet) oder einen Luchs (Primärvertrauter), aber eben auch eine geringere Chance eine zufällige Rasse aus der Tabelle zu bekommen.
 
-| Rasse | Primärvertrauter | Illaun | Tybied | Cerddor | Gwyrrd | Draig |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mensch | Wolf | Traumkatze | Eule | Eule | Adler | Teufelchen |
-| Meermensch | Riesenschildkröte | Delphin | Riesenschildkröte | Delphin | Delphin | Krake |
-| Katze | Luchs | Traumkatze | Luchs | Singdrache | Tiger | Höllenkatze |
-| Halbling | Eule | Ratte | Adler | Singdrache | Adler | Ratte |
-| Insekt | Geist | Ratte | Eule | Ratte | Tunnelwurm | Teufelchen |
-| Dämon | Teufelchen | Teufelchen | Geist | Ratte | Wolf | Teufelchen |
-| Troll | Tunnelwurm | Ratte | Ratte | Adler | Tunnelwurm | Wolf |
-| Goblin | Ratte | Singdrache | Teufelchen | Ratte | Ratte | Teufelchen |
-| Elf | Luchs | Fee | Eule | Nymphe | Einhorn | Teufelchen |
-| Zwerg | Tunnelwurm | Adler | Eule | Luchs | Wolf | Ratte |
-| Ork | Goblin | Geist | Teufelchen | Ratte | Wolf | Dämon |
+| Rasse      | Primärvertrauter  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
+|------------|-------------------|------------|-------------------|------------|------------|-------------|
+| Mensch     | Wolf              | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
+| Meermensch | Riesenschildkröte | Delphin    | Riesenschildkröte | Delphin    | Delphin    | Krake       |
+| Katze      | Luchs             | Traumkatze | Luchs             | Singdrache | Tiger      | Höllenkatze |
+| Halbling   | Eule              | Ratte      | Adler             | Singdrache | Adler      | Ratte       |
+| Insekt     | Geist             | Ratte      | Eule              | Ratte      | Tunnelwurm | Teufelchen  |
+| Dämon      | Teufelchen        | Teufelchen | Geist             | Ratte      | Wolf       | Teufelchen  |
+| Troll      | Tunnelwurm        | Ratte      | Ratte             | Adler      | Tunnelwurm | Wolf        |
+| Goblin     | Ratte             | Singdrache | Teufelchen        | Ratte      | Ratte      | Teufelchen  |
+| Elf        | Luchs             | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
+| Zwerg      | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
+| Ork        | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
 
 Spielererfahrung:Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
 

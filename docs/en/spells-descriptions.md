@@ -1528,7 +1528,7 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 
   [Zauberbeschreibungen]: /index.php?title=Zauberbeschreibungen&redirect=no "Zauberbeschreibungen"
   [Bergwächter]: /index.php?title=Bergw%C3%A4chter&action=edit&redlink=1 "Bergwächter (Seite nicht vorhanden)"
-  [Drachen]: /Drachen "Drachen"
+  [Drachen]: ./monsters.md#drachen "Drachen"
   [Antimagiekristall]: /index.php?title=Antimagiekristall&action=edit&redlink=1 "Antimagiekristall (Seite nicht vorhanden)"
   [Eisengolems]: /index.php?title=Eisengolem&action=edit&redlink=1 "Eisengolem (Seite nicht vorhanden)"
   [Steingolems]: /index.php?title=Steingolem&action=edit&redlink=1 "Steingolem (Seite nicht vorhanden)"

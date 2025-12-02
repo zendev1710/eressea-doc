@@ -12,4 +12,4 @@ Mit diesem Befehl legt sich der Kapitän eines Schiffes automatisch auf die Laue
 
   [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
   [`HELFE`]: ./cmd-help.md "HELFE"
-  [Piraterie]: /Piraterie "Piraterie"
+  [Piraterie]: ./war.md#piraterie "Piraterie"

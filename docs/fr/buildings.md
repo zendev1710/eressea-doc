@@ -33,8 +33,8 @@ Les bâtiments sont construits et améliorés avec l'ordre [MAKE][`MAKE `*`Bâti
 - [production]
 - [dépenses]
 
-|     |     |
-| --- | --- |
+|              |            |
+|--------------|------------|
 | Weiterlesen: | [châteaux] |
 
 [châteaux]: ./castles.md "Burg"
@@ -45,7 +45,7 @@ Les bâtiments sont construits et améliorés avec l'ordre [MAKE][`MAKE `*`Bâti
 [séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
 [`MAKE `*`Bâtiment_type`*]: ./cmd-make.md "MACHE"
 [`PAY NOT`]: ./cmd-pay-not.md_NICHT "PAY NOT"
-[E3A — Das Dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [SORT]: ./cmd-sort.md "SORT"
 [bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"

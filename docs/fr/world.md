@@ -24,15 +24,15 @@ En fonction du type de terrain, la région accueillera un nombre différent de p
 
 La seule différence entre une plaine et une forêt est le nombre d'arbres et de pousses d'arbres dans la région. A partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt. Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou, inversement, de transformer une plaine en forêt en la reboisant.
 
-| Terrain | max. workers | min. workers (quelque soit le nombre d'arbres) | Pierres pour routes (par direction) | Herbes |
-| --- | --- | --- | --- | --- |
-| Mountain | 1000 | 100 | 250 | rock weed, gapgrowth , cave lichen |
-| Plain / Forest | 10000 | 200 | 50  | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier | 100 | 10  | 250 | ice begonia, white hemlock, snowcrystal petal |
-| Highland | 4000 | 200 | 100 | windbag, fjord fungus, mandrake |
-| Swamp | 2000 | 200 | 75  | bugleweed , knotroot , bubblemorel |
-| Desert | 500 | 50  | 100 | waterfinder, peyote, sand reeker |
-| Volcano | 500 | 50  | 250 | \-  |
+| Terrain        | max. workers | min. workers (quelque soit le nombre d'arbres) | Pierres pour routes (par direction) | Herbes                                                                    |
+|----------------|--------------|------------------------------------------------|-------------------------------------|---------------------------------------------------------------------------|
+| Mountain       | 1000         | 100                                            | 250                                 | rock weed, gapgrowth , cave lichen                                        |
+| Plain / Forest | 10000        | 200                                            | 50                                  | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier        | 100          | 10                                             | 250                                 | ice begonia, white hemlock, snowcrystal petal                             |
+| Highland       | 4000         | 200                                            | 100                                 | windbag, fjord fungus, mandrake                                           |
+| Swamp          | 2000         | 200                                            | 75                                  | bugleweed , knotroot , bubblemorel                                        |
+| Desert         | 500          | 50                                             | 100                                 | waterfinder, peyote, sand reeker                                          |
+| Volcano        | 500          | 50                                             | 250                                 | \-                                                                        |
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire - les paysans ont également besoin de 10 silvers chaque tour pour survivre, qu'ils gagnent grâce au [travail]. Les plus grands [châteaux] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible. De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.
 
@@ -114,17 +114,17 @@ Dans Luxuries, vous pouvez voir la quantité de marchandises achetées ou vendue
 
 Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines chacun :
 
-| Mois | en Allemand | Saison | Fréquence des tempêtes |
-| --- | --- | --- | --- |
-| Harvest Moon | Feldsegen | Summer | 0.5% |
-| Impenetrable Fog | Nebeltage | Autumn | 3%  |
-| Storm Moon | Sturmmond | Autumn | 4%  |
-| Hearth Fire | Herdfeuer | Winter | 2.5% |
-| Icewind | Eiswind | Winter | 1.5% |
-| Snowbane | Schneebann | Winter | 3%  |
-| Flowerrain | Blütenregen | Spring | 3%  |
-| Mild Winds | Mond der milden Winde | Spring | 0.5% |
-| Sunfire | Sonnenfeuer | Summer | 3%  |
+| Mois             | en Allemand           | Saison | Fréquence des tempêtes |
+|------------------|-----------------------|--------|------------------------|
+| Harvest Moon     | Feldsegen             | Summer | 0.5%                   |
+| Impenetrable Fog | Nebeltage             | Autumn | 3%                     |
+| Storm Moon       | Sturmmond             | Autumn | 4%                     |
+| Hearth Fire      | Herdfeuer             | Winter | 2.5%                   |
+| Icewind          | Eiswind               | Winter | 1.5%                   |
+| Snowbane         | Schneebann            | Winter | 3%                     |
+| Flowerrain       | Blütenregen           | Spring | 3%                     |
+| Mild Winds       | Mond der milden Winde | Spring | 0.5%                   |
+| Sunfire          | Sonnenfeuer           | Summer | 3%                     |
 
 Chaque tour du jeu correspond à une semaine dans le monde. Pendant ce temps, on peut faire beaucoup de choses. Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir le chapitre [Ordres]).
 
@@ -141,8 +141,8 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 - [RECRUIT][1]
 - [ENTERTAIN]
 
-|     |     |
-| --- | --- |
+|              |            |
+|--------------|------------|
 | Weiterlesen: | [Factions] |
 
 [Factions]: ./factions.mden "Parteien"
@@ -157,12 +157,12 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 [herbes]: ./herbs.md "Plantes"
 [potions]: ./alchemy.md "Tränke"
 [PLANT]: ./cmd-grow.md "GROW"
-[routes]: /Stra%C3%9Fe "Straße"
+[routes]: ./roads.md "Straße"
 [bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
 [ressources]: ./resources.md "Ressources"
 [Mine]: ./buildings-others.md#Bergwerk "Andere Gebäude"
 [Taming]: /Pferdedressur "Pferdedressur"
-[transport]: /Pferd_und_Wagen "Pferd und Wagen"
+[transport]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [bonus de cavalerie]: ./war.md#boni-und-mali "Guerre"
 [Caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
 [revenus]: ./silver.md#Einnahmen "Argent"
@@ -171,9 +171,9 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 [MAKE]: ./cmd-make.md "MAKE"
 [Trade]: ./silver.md#handel "Handel"
 [Ordres]: ./commands.md "Befehle"
-[Insectes]: /Insekt "Insekt"
+[Insectes]: ./races.md#insekten "Insekt"
 [Mer]: ./travel.md "Reisen"
 [croissance des forêts]: ./resources.md#Tief_im_Wald "Ressources"
 [l'argent]: ./silver.md "Argent"
-[1]:./silver.md#recruter "RECRUIT"
+[1]: ./silver.md#recruter "RECRUIT"
 [ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"

@@ -10,13 +10,12 @@ Eressea ist ein Spiel im Fluss. Es hat in den letzten Jahren kontinuierliche Ver
 
 Das Editieren dieser Regeln ist erlaubt und erwünscht, beachtet aber bitte unbedingt die [Hinweise zum Editieren der Regeln]!
 
-|     |     |
-| --- | --- |
+|              |              |
+|--------------|--------------|
 | Weiterlesen: | [Einleitung] |
-
-[Einleitung]: /Einleitung "Einleitung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln&oldid=14085] -->
 
-[Atlantis]: /Atlantis "Atlantis"
-[Hinweise zum Editieren der Regeln]: /Eressea:Mitmachen "Eressea:Mitmachen"
+[Einleitung]: ./introduction.md "Einleitung"
+[Atlantis]: ./atlantis.md "Atlantis"
+[Hinweise zum Editieren der Regeln]: ./eressea-join.md "Eressea:Mitmachen"

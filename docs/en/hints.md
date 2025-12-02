@@ -83,16 +83,15 @@ Exploiting a bug to gain an advantage instead of reporting it to the game manage
 
 Please be nice to each other. Even your most vicious enemy in the game is actually surely a nice person and does not deserve being spammed with hoax mails, nasty pictures or other things. **Anti-social behavior will lead to exclusion from the game.**
 
-|     |     |
-| --- | --- |
+|                   |                      |
+|-------------------|----------------------|
 | Continue reading: | [Tips for Beginners] |
-
-[Tips for Beginners]: /Anf%C3%A4ngertipps "Anfängertipps"  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
+[Tips for Beginners]: ./getting-started-tips.md "Anfängertipps"  
 [Link]: https://www.eressea.de/?page_id=189&lang=en
-[bug report]: /Bugreport "Bugreport"
+[bug report]: #bug-report "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 [QUIT]: ./cmd-quit.md "STIRB"

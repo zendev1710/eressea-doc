@@ -33,25 +33,25 @@ Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe 
 - [Straßen]
 - [Gebäude]
 
-|     |     |
-| --- | --- |
+|              |         |
+|--------------|---------|
 | Weiterlesen: | [Waren] |
 
-[Waren]: /Waren "Waren"
+[Waren]: ./items.md "Waren"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe&oldid=16865] -->
 
-[Region]./world.md "Welt"
-[Waren]: /Waren "Waren"
+[Region]: ./world.md "Welt"
+[Waren]: ./items.md "Waren"
 [`HELFE BEWACHE`]: ./cmd-help.md "HELFE"
 [kontaktiert]: ./cmd-contact.md "KONTAKTIERE"
-[getarnt]: /Tarnung "Tarnung"
+[getarnt]: ./camouflage.md "Tarnung"
 [`MACHE`]: ./cmd-make.md "MACHE"
 [Kräuterkundlern]: ./skills-list.md "Liste der Talente"
 [`PFLANZE`]: ./cmd-plant.md "PFLANZE"
-[Pferdezucht]: /Pferdezucht "Pferdezucht"
+[Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
 [Kräuterliste]: ./herbs.md#Kräuterliste "Kräuter"
 [Produktion]: ./production.md "Produktion"
-[Straßen]: /Stra%C3%9Fen "Straßen"
+[Straßen]: ./roads.md "Straßen"
 [Gebäude]: ./buildings.md "Gebäude"

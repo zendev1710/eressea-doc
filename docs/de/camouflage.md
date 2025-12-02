@@ -43,8 +43,8 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 - [BEWACHE][Bewacht]
 - [Einnahmen]
 
-|     |     |
-| --- | --- |
+|              |          |
+|--------------|----------|
 | Weiterlesen: | [Reisen] |
 
 [Reisen]: ./travel.md "Reisen"

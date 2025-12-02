@@ -28,16 +28,18 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 
 ## Aperçu
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Construction de châteaux - matériaux, minimum skill, bonus salaire, part du commerce et défense
-| Type | Taille min | Masonry min | Bonus salaire | Part commerce | Bonus Défense |
-| Foundation | 1   | 1   | 0 Silber | rien | 0   |
-| Tradepost | 2   | 1   | 0 Silber | 6%  | 0   |
-| Fortification | 10  | 2   | 1 Silber | 12% | +1  |
-| Tower | 50  | 3   | 2 Silver | 18% | +2  |
-| Stronghold | 250 | 4   | 3 Silber | 24% | +3  |
-| Fortress | 1250 | 5   | 4 Silber | 30% | +4  |
-| Citadel | 6250 | 6   | 5 Silber | 36% | +5  |
+Construction de châteaux - matériaux, minimum skill, bonus salaire, part du commerce et défense
+
+|               |            |             |               |               |               |
+|---------------|------------|-------------|---------------|---------------|---------------|
+| Type          | Taille min | Masonry min | Bonus salaire | Part commerce | Bonus Défense |
+| Foundation    | 1          | 1           | 0 Silber      | rien          | 0             |
+| Tradepost     | 2          | 1           | 0 Silber      | 6%            | 0             |
+| Fortification | 10         | 2           | 1 Silber      | 12%           | +1            |
+| Tower         | 50         | 3           | 2 Silver      | 18%           | +2            |
+| Stronghold    | 250        | 4           | 3 Silber      | 24%           | +3            |
+| Fortress      | 1250       | 5           | 4 Silber      | 30%           | +4            |
+| Citadel       | 6250       | 6           | 5 Silber      | 36%           | +5            |
 
 ## Voir aussi
 
@@ -46,8 +48,8 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 - [bonus et malus]
 - [revenus]
 
-|     |     |
-| --- | --- |
+|              |                                                              |
+|--------------|--------------------------------------------------------------|
 | Weiterlesen: | [bâtiments spéciaux](./buildings-others.md "Andere Gebäude") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->

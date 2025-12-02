@@ -16,20 +16,22 @@ If the cargo (including any passengers) is too heavy for a unit or ship, it cann
 
 TODO: Katapulte
 
-|     |     |     |
-| --- | --- | --- |Weights and Capacities
-|     | Weight | Capacity |
-| trolls | 20  | 10,8 |
-| goblins | 6   | 4,4 |
-| all other player races | 10  | 5,4 |
-| horse | 50  | 20  |
-| cart | 40  | 100 |
-| boat | \-/- | 50  |
-| longboat | \-/- | 500 |
-| dragonship | \-/- | 1000 |
-| caravel | \-/- | 3000 |
-| trireme | \-/- | 2000 |
-| galleon | \-/- | 20000 |
+Weights and Capacities
+
+|                        |        |          |
+|------------------------|--------|----------|
+|                        | Weight | Capacity |
+| trolls                 | 20     | 10,8     |
+| goblins                | 6      | 4,4      |
+| all other player races | 10     | 5,4      |
+| horse                  | 50     | 20       |
+| cart                   | 40     | 100      |
+| boat                   | \-/-   | 50       |
+| longboat               | \-/-   | 500      |
+| dragonship             | \-/-   | 1000     |
+| caravel                | \-/-   | 3000     |
+| trireme                | \-/-   | 2000     |
+| galleon                | \-/-   | 20000    |
 
 ## Roads
 
@@ -70,11 +72,11 @@ If a unit has several horses and carts, their transport capacity is simply added
 - [Ships]
 - [Roads]
 
-|     |     |
-| --- | --- |
+|                   |                |
+|-------------------|----------------|
 | Continue reading: | [Ship Voyages] |
 
-[Ship Voyages]: ./ships.mdsreise "Schiffsreise"
+[Ship Voyages]: ./travel.md "Schiffsreise"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
 
@@ -84,6 +86,6 @@ If a unit has several horses and carts, their transport capacity is simply added
 [`RIDE`]: ./cmd-ride.md "RIDE"
 [`FOLLOW`]: ./cmd-follow.md "FOLLOW"
 [GUARD]: ./cmd-guard.md "GUARD"
-[this table]: /Waren "Waren"
-[roads]: /Stra%C3%9Fe "Straße"
+[this table]: ./items.md "Waren"
+[roads]: ./roads.md "Straße"
 [Ships]: ./ships.md "Schiff"

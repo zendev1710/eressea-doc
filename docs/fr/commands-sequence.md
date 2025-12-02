@@ -79,8 +79,8 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
 - [brève description DE/EN]
 - [Befehlsreihenfolge (E3)]
 
-|     |     |
-| --- | --- |
+|              |                     |
+|--------------|---------------------|
 | Weiterlesen: | [brève description] |
 
 [brève description]: ./commands-list.md "Kurzbeschreibung"
@@ -112,7 +112,7 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
   [CLAIM]: ./cmd-claim.md "CLAIM"
   [GIVE CONTROL]: ./cmd-give.md "GIVE"
   [FORGET]: ./cmd-forget.md "FORGET"
-  [RECRUIT]:./silver.md#recruter "RECRUIT"
+  [RECRUIT]: ./silver.md#recruter "RECRUIT"
   [DESTROY]: ./cmd-destroy.md "DESTROY"
   [FOLLOW]: ./cmd-follow.md "FOLLOW"
   [PROMOTE]: ./cmd-promote.md "PROMOTE"

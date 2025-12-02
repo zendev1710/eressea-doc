@@ -71,45 +71,44 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 - [Der erste Zug]
 - [Grundlagen]
 
-|     |     |
-| --- | --- |
+|              |                     |
+|--------------|---------------------|
 | Weiterlesen: | [Xontormia-Express] |
-
-[Xontormia-Express]: /Xontormia-Express "Xontormia-Express"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-  [Passwort]: ./cmd-password.md "PASSWORT"
-  [1]: https://discord.gg/JyAeYJw%7CDiscord
-  [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
-  [Magellan]: ./magellan.md "Magellan"
-  [ECheck]: ./echeck.md "ECheck"
-  [Zugvorlage]./commands.md "Befehl"
-  [Unterhaltung]: ./cmd-entertain.md "UNTERHALTE"
-  [Steuereintreiber]: ./cmd-tax.md "TREIBE"
-  [Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
-  [Holzfällen]: ./resources.md#Tief_im_Wald "Rohstoffe"
-  [Steuereintreiben]: ./skills.md#Arbeiten.2C_Unterhaltung.2C_Steuern_und_Handel "Talente"
-  [Waffentalente]: ./skills.md#Waffentalente_und_Ausdauer "Talente"
-  [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-  [Diebstahl]: ./silver.md#Diebstahl:_der_unehrliche_Weg "Geld"
-  [Burgen]: ./castles.md "Burg"
-  [Burgenbau]: ./buildings.md "Gebäude"
-  [Handel]: ./silver.md#Handel "Geld"
-  [Pferde und ggf. Wägen]: ./travel.md#Pferd_und_Wagen "Reisen"
-  [Taktiker]: ./tactic.md "Taktik"
-  [Alchemisten]: ./skills-list.md "Liste der Talente"
-  [Magier]: ./cmd-magic.md "Magie"
-  [EINHEIT-Befehl]: ./cmd-unit.md "EINHEIT"
-  [2]: ./silver.md#handel "Handel"
-  [OPTION]: ./cmd-option.md "OPTION"
-  [BOTSCHAFT]: ./cmd-message.md "BOTSCHAFT"
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Befehlsreihenfolge]: ./commands-sequencemd "Befehlsreihenfolge"
-  [GIB]: ./cmd-give.md "GIB"
-  [MACHE]: ./cmd-make.md "MACHE"
-  [BENUTZE]: ./cmd-use.md "BENUTZE"
-  [Tipps und Tricks]: ./tips-and-tricks.md "Tipps und Tricks"
-  [Hinweise]: ./hints.md "Hinweise"
-  [Der erste Zug]: ./round-first.md "Der erste Zug"
-  [Grundlagen]: ./basics.md "Grundlagen"
+[Xontormia-Express]: ./xontormia-express.cmd "Xontormia-Express"
+[Passwort]: ./cmd-password.md "PASSWORT"
+[1]: https://discord.gg/JyAeYJw%7CDiscord
+[PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
+[Magellan]: ./magellan.md "Magellan"
+[ECheck]: ./echeck.md "ECheck"
+[Zugvorlage]: ./commands.md "Befehl"
+[Unterhaltung]: ./cmd-entertain.md "UNTERHALTE"
+[Steuereintreiber]: ./cmd-tax.md "TREIBE"
+[Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
+[Holzfällen]: ./resources.md#Tief_im_Wald "Rohstoffe"
+[Steuereintreiben]: ./skills.md#Arbeiten.2C_Unterhaltung.2C_Steuern_und_Handel "Talente"
+[Waffentalente]: ./skills.md#Waffentalente_und_Ausdauer "Talente"
+[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
+[Diebstahl]: ./silver.md#Diebstahl:_der_unehrliche_Weg "Geld"
+[Burgen]: ./castles.md "Burg"
+[Burgenbau]: ./buildings.md "Gebäude"
+[Handel]: ./silver.md#Handel "Geld"
+[Pferde und ggf. Wägen]: ./travel.md#Pferd_und_Wagen "Reisen"
+[Taktiker]: ./tactic.md "Taktik"
+[Alchemisten]: ./skills-list.md "Liste der Talente"
+[Magier]: ./cmd-magic.md "Magie"
+[EINHEIT-Befehl]: ./cmd-unit.md "EINHEIT"
+[2]: ./silver.md#handel "Handel"
+[OPTION]: ./cmd-option.md "OPTION"
+[BOTSCHAFT]: ./cmd-message.md "BOTSCHAFT"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[Befehlsreihenfolge]: ./commands-sequencemd "Befehlsreihenfolge"
+[GIB]: ./cmd-give.md "GIB"
+[MACHE]: ./cmd-make.md "MACHE"
+[BENUTZE]: ./cmd-use.md "BENUTZE"
+[Tipps und Tricks]: ./tips-and-tricks.md "Tipps und Tricks"
+[Hinweise]: ./hints.md "Hinweise"
+[Der erste Zug]: ./round-first.md "Der erste Zug"
+[Grundlagen]: ./basics.md "Grundlagen"

@@ -86,10 +86,12 @@ Les humains (humans) peuvent tout faire un peu. Ils n'ont aucune compétence vra
 
 Le nombre d'immigrants se calcule comme suit : 20 × log<sub>10</sub> (taille de la faction ÷ 50). Si l'on a soudainement trop d'immigrants à cause d'une catastrophe ou d'un combat, ceux-ci ne sont pas supprimés, on ne peut juste plus en accueillir de nouveaux. Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros]. Le tableau suivant contient quelques exemples :
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Immigrants
-| personnes dans la faction | 1   | 56  | 57  | 63  | 71  | 80  | 89  | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
-| immigrants | 0   | 0   | 1   | 2   | 3   | 4   | 5   | 10  | 20  | 26  | 40  | 60  | 80  | 100 |
+Immigrants
+
+|                           |   |    |    |    |    |    |    |     |     |      |      |       |        |         |
+|---------------------------|---|----|----|----|----|----|----|-----|-----|------|------|-------|--------|---------|
+| personnes dans la faction | 1 | 56 | 57 | 63 | 71 | 80 | 89 | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
+| immigrants                | 0 | 0  | 1  | 2  | 3  | 4  | 5  | 10  | 20  | 26   | 40   | 60    | 80     | 100     |
 
 ## Orcs
 
@@ -122,8 +124,8 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 - Dans les montagnes et les glaciers, les nains obtiennent +1 à leur compétence [tactics].
 - Les [mages] nains régénèrent leur aura beaucoup plus lentement que les autres.
 
-|     |     |
-| --- | --- |
+|              |                                |
+|--------------|--------------------------------|
 | Weiterlesen: | [Modificateurs de compétences] |
 
 [Modificateurs de compétences]: ./skills-modifiers.md "Talentmodifikatoren"
@@ -147,7 +149,7 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 [potion]: ./alchemy.md "Tränke"
 [hier]: ./war.mdstabellen#Rasseneigenschaften "Guerrestabellen"
 [tactics]: ./tactic.md "Taktik"
-[groupes]: ./cmd-group.mdn "Gruppen (Seite nicht vorhanden)"
+[groupes]: ./cmd-group.md "Gruppen (Seite nicht vorhanden)"
 [commercer]: ./silver.md#Handel "Argent"
 [déplacent]: ./travel.md "Reisen"
 [ordres longs]: ./commands.md "Befehl"

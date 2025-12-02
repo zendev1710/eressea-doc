@@ -14,9 +14,9 @@ Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-a
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERLASSE&oldid=15184] -->
 
-  [`BETRETE`]: /BETRETE "BETRETE"
+  [`BETRETE`]: ./cmd-enter.md "BETRETE"
   [`NACH`]: ./cmd-move.md "NACH"
-  [E3A — Das Dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+  [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
   [`GIB einheit-nr KOMMANDO`]: ./cmd-give.md "GIB"
-  [`BEWACHE`]: /BEWACHE "BEWACHE"
-  [Anschwimmen]: /Schiffsreise#Anschwimmen "Schiffsreise"
+  [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
+  [Anschwimmen]./travel.md#anschwimmen "Schiffsreise"

@@ -15,21 +15,28 @@ To be able to sail a ship, you need a trained crew, i.e. units that have learnt 
 - A trireme can be piloted by a unit of 30 persons with sailing 4 or by a unit of one person with sailing 4 and a unit of 58 persons with sailing 2. In all cases, it sails over 7 regions per turn (8 for Aquarians) and can carry 2000 GE, from which the weight of the crew is of course deducted.
 - A dragonship with a level 2 unit of 25 persons moves 5 regions. However, with 3 level 20 persons, it can move 7 regions.
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Ship - Range, Capacity, Skill
-| Type | Range | Capacity | Captain/Crew | Shipcraft lvl | Qty of Wood |
-| Boat | 2   | 50  | 1/2 | 1   | 5   |
-| Longboat | 3   | 500 | 1/10 | 1   | 50  |
-| Dragonship | 5\* | 1000 | 2/50 | 2   | 100 |
-| Caravel | 5   | 3000 | 3/30 | 3   | 250 |
-| Trireme | 7   | 2000 | 4/120 | 4   | 200 |
-| Galleon | 5   | 20000 | 5/250\*\* | 5   | 2000 |
-| \* Dragonship range depends on captain skill<br><br>\*\* When calculating the Galleons crews total skill, only min. T2 crews are counting. |     |     |     |     |     |
+Ship - Range, Capacity, Skill
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Dragonship Range
-| Captain | 2   | 6   | 18  | 54  | 162 |
-| Range | 5   | 6   | 7   | 8   | 9   |
+|            |       |          |              |               |             |
+|------------|-------|----------|--------------|---------------|-------------|
+| Type       | Range | Capacity | Captain/Crew | Shipcraft lvl | Qty of Wood |
+| Boat       | 2     | 50       | 1/2          | 1             | 5           |
+| Longboat   | 3     | 500      | 1/10         | 1             | 50          |
+| Dragonship | 5\*   | 1000     | 2/50         | 2             | 100         |
+| Caravel    | 5     | 3000     | 3/30         | 3             | 250         |
+| Trireme    | 7     | 2000     | 4/120        | 4             | 200         |
+| Galleon    | 5     | 20000    | 5/250\*\*    | 5             | 2000        |
+
+\* Dragonship range depends on captain skill.
+
+\*\* When calculating the Galleons crews total skill, only min. T2 crews are counting.
+
+Dragonship Range
+
+|         |   |   |    |    |     |
+|---------|---|---|----|----|-----|
+| Captain | 2 | 6 | 18 | 54 | 162 |
+| Range   | 5 | 6 | 7  | 8  | 9   |
 
 If a ship does not have a sufficient crew, it cannot set sail. If this happens at sea (for example due to combat or units starving for lack of money), it drifts until it reaches a coastal region. It then suffers [damages] every turn, so that it quickly sinks.
 
@@ -85,8 +92,8 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 - [movement]
 - [ships]
 
-|     |     |
-| --- | --- |
+|                   |              |
+|-------------------|--------------|
 | Continue reading: | [Produktion] |
 
 [Produktion]: ./production.md "Produktion"
@@ -99,7 +106,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [HELP]: ./cmd-help.md "HELP"
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
 [Piracy]: ./war.md#Piraterie "War"
-[items]: /Waren#Getenständen "Waren"
+[items]: ./items.md#Getenständen "Waren"
 [Weights and Capacities]: ./travel.md#Rassengewichte "Reisen"
 [convoy]: ./ships.md#konvoi "Schiff"
 [MOVE]: ./cmd-move.md "MOVE"
@@ -109,7 +116,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [RIDE]: ./cmd-ride.md "RIDE"
 [CARRY]: ./cmd-carry.md "CARRY"
-[Aquarians]: /Meermenschen "Meermenschen"
-[Battle on ship]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[Aquarians]: ./races.md#meermenschen "Meermenschen"
+[Battle on ship]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [1]: ./cmd-make.md "MAKE"
 [movement]: ./travel.md "Reisen"

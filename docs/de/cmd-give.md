@@ -71,7 +71,7 @@ Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen 
  ENDE
 ```
 
-[Migranteneinheit]: /Rassen#Menschen "Rassen"
+[Migranteneinheit]: ./races.md#Menschen "Rassen"
 
 Mit `GIB`*`einheit-nr`*`EINHEIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 
@@ -95,9 +95,9 @@ Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiff
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Materialpool]: /Materialpool "Materialpool"
+  [Materialpool]: ./items-pool.md "Materialpool"
   [Talente]: ./skills.md "Talente"
-  [Konvoi]: /Schiff#Konvoi "Schiff"
-  [RESERVIERE]: /RESERVIERE "RESERVIERE"
-  [Schiff]: /Schiff "Schiff"
+  [Konvoi]: ./ships.md#konvoi "Schiff"
+  [RESERVIERE]: ./cmd-reserve.md "RESERVIERE"
+  [Schiff]: ./ships.md "Schiff"
   [Gebäude]: ./buildings.md "Gebäude"

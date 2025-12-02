@@ -42,7 +42,7 @@ Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter]
 
 #### Deveron (eingestellt)
 
-Am 19. April 2014 begann eine neue Partie names [Deveron] für Ennos [Patreon-Förderer]. Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien. Sie endete mit Auswertung 243 am 2. März 2019.
+Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-Förderer]. Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien. Sie endete mit Auswertung 243 am 2. März 2019.
 
 #### Drachensgrab (eingestellt)
 
@@ -72,24 +72,23 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
   [Regeln]: ./rules.md "Regeln"
   [Anmeldung zum Spiel]: ./hints.md#Anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Hilfsmittel]: /Hilfsmittel "Hilfsmittel"
-  [Anfängertipps]: /Anf%C3%A4ngertipps "Anfängertipps"
-  [Geschichte von Eressea]: /Geschichte_von_Eressea "Geschichte von Eressea"
-  [Atlantis]: /Atlantis "Atlantis"
-  [Häufig gestellte Fragen]: /FAQ "FAQ"
+  [Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+  [Anfängertipps]: ./getting-started-tips.md "Anfängertipps"
+  [Geschichte von Eressea]: ./eressea-story.md "Geschichte von Eressea"
+  [Atlantis]: ./atlantis.md "Atlantis"
+  [Häufig gestellte Fragen]: ./faq.md "FAQ"
   [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
   [Taktik]: ./tactic.md "Taktik"
   [Vertraute]: ./familiars.md "Vertraute"
-  [Entwicklung]: /Entwicklung "Entwicklung"
-  [Xontormia Express]: /Xontormia_Express "Xontormia Express"
-  [Archiv alter Ausgaben]: /Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [Ankündigungen]: /Ank%C3%BCndigungen "Ankündigungen"
-  [Spielerseiten]: /Spielerseiten "Spielerseiten"
-  [Du spielst zuviel Eressea, wenn...]: /Du_spielst_zuviel_Eressea,_wenn... "Du spielst zuviel Eressea, wenn..."
-  [Das dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
-  [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: /Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter"
-  [Ankündigungen aus der e3-announce Mailingliste]: /Ank%C3%BCndigungen_(E3) "Ankündigungen (E3)"
-  [Deveron]: /index.php?title=Deveron&action=edit&redlink=1 "Deveron (Seite nicht vorhanden)"
+  [Entwicklung]: ./development.md "Entwicklung"
+  [Xontormia Express]: ./xontormia-express.md "Xontormia Express"
+  [Archiv alter Ausgaben]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
+  [Ankündigungen]: ./announcements.md "Ankündigungen"
+  [Spielerseiten]: ./player-pages.md "Spielerseiten"
+  [Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
+  [Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+  [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
+  [Ankündigungen aus der e3-announce Mailingliste]: ./announcements.md_(E3) "Ankündigungen (E3)"
   [Patreon-Förderer]: https://www.patreon.com/enno
   [Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
   [1]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

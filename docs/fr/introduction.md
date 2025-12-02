@@ -32,8 +32,8 @@ Dans Eressea, tu envoies un *train d'ordres* à intervalles réguliers. Un train
 
 Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle un NMR (No Move Received). En cas de 4 NMR consécutifs, la faction est automatiquement retirée du jeu, donc au 5ème NMR, la faction est supprimée.
 
-|     |     |
-| --- | --- |
+|              |         |
+|--------------|---------|
 | Weiterlesen: | [Monde] |
 
 [Monde]: ./world.md "Welt"
@@ -42,7 +42,7 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 
 [faction]: ./factions.md "Partei"
 [race]: ./race.md "Rassen"
-[Inscription]: /Anmelden_wie%3F "Anmelden wie?"
+[Inscription]: ./hints.md#anmeldung "Anmelden wie?"
 [Elfes]: ./races.md#elfes "Elf"
 [Nains]: ./races.md#nains "Zwerg"
 [magie]: ./magic.md "Magie"
@@ -50,9 +50,9 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 [monstres]: ./monsters.md "Monster"
 [guerre]: ./war.md "Guerre"
 [ordres]: ./commands.md "Befehle"
-[NR]: /NR "NR (Seite nicht vorhanden)"
-[CR]: /CR "CR (Seite nicht vorhanden)"
-[programmes]: /Hilfsmittel "Hilfsmittel"
+[NR]: ./reports.md#nr "NR (Seite nicht vorhanden)"
+[CR]: ./reports.md#cr "CR (Seite nicht vorhanden)"
+[programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [modèle de train]: /Zugvorlage "Zugvorlage (Seite nicht vorhanden)"
-[point hebdomadaire]: /Wochenbericht "Wochenbericht"
-[Xontormia Express]: /Xontormia_Express "Xontormia Express"
+[point hebdomadaire]: ./weekly-report.md "Wochenbericht"
+[Xontormia Express]: ./xontormia-express.md "Xontormia Express"

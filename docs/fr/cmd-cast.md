@@ -18,6 +18,6 @@ Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine
   [Fernzaubern]: ./cmd-magic.md#Fernzauber "Magie"
   [Kosten]: ./cmd-magic.md#Komponenten "Magie"
   [Magie]: ./cmd-magic.md "Magie"
-  [`ZEIGE ALLE ZAUBER`]: /ZEIGE "ZEIGE"
+  [`ZEIGE ALLE ZAUBER`]: ./cmd-show.md "ZEIGE"
   [`KAMPFZAUBER`]: ./cmd-combatspell.md "KAMPFZAUBER"
   [attackieren]: ./cmd-attack.md "ATTACKIERE"

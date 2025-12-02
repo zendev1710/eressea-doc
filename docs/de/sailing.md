@@ -15,21 +15,29 @@ Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheite
 - Eine Trireme kann mit einer Einheit mit 30 Personen mit Segeln 4 gesteuert werden oder mit einer Einheit mit einer Person der Stufe 4 und einer Einheit mit 58 Personen der Stufe 2. In jedem Fall segelt sie pro Runde 7 Regionen weit (Meermenschen 8) und kann 2000 GE mitnehmen, wovon das Gewicht der Crew natürlich abgeht.
 - Eine Drachenschiff mit einer Einheit mit 25 Personen der Stufe 2 segelt 5 Regionen weit. Mit 3 Personen der Stufe 20 kann es allerdings 7 Regionen weit segeln.
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Schiffe - Reichweite, Kapazität, Talente
-| Typ | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
-| Boot | 2   | 50  | 1/2 | 1   | 5   |
-| Langboot | 3   | 500 | 1/10 | 1   | 50  |
-| Drachenschiff | 5\* | 1000 | 2/50 | 2   | 100 |
-| Karavelle | 5   | 3000 | 3/30 | 3   | 250 |
-| Trireme | 7   | 2000 | 4/120 | 4   | 200 |
-| Galeone | 5   | 20000 | 5/250\*\* | 5   | 2000 |
-| \* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent  <br><br>\*\* Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen |     |     |     |     |     |
+Schiffe - Reichweite, Kapazität, Talente
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Drachenschiffgeschwindigkeit
-| Kapitän | 2   | 6   | 18  | 54  | 162 |
-| Reichweite | 5   | 6   | 7   | 8   | 9   |
+|               |            |           |                   |           |         |
+|---------------|------------|-----------|-------------------|-----------|---------|
+| Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+| Boot          | 2          | 50        | 1/2               | 1         | 5       |
+| Langboot      | 3          | 500       | 1/10              | 1         | 50      |
+| Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
+| Karavelle     | 5          | 3000      | 3/30              | 3         | 250     |
+| Trireme       | 7          | 2000      | 4/120             | 4         | 200     |
+| Galeone       | 5          | 20000     | 5/250\*\*         | 5         | 2000    |
+|               |            |           |                   |           |         |
+
+\* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
+
+\*\* Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.
+
+Drachenschiffgeschwindigkeit
+
+|            |   |   |    |    |     |
+|------------|---|---|----|----|-----|
+| Kapitän    | 2 | 6 | 18 | 54 | 162 |
+| Reichweite | 5 | 6 | 7  | 8  | 9   |
 
 Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passiert dies auf See (z.B. durch einen Kampf oder Einheiten verhungerten wegen Silbermangel), treibt es steuerlos umher, bis es an eine Küstenregion trifft. Dabei nimmt es ständig [Schaden], so dass es nach kurzer Zeit versinken wird.
 
@@ -81,8 +89,8 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 - [Reisen][2]
 - [Schiff][Schiffen]
 
-|     |     |
-| --- | --- |
+|              |              |
+|--------------|--------------|
 | Weiterlesen: | [Produktion] |
 
 [Produktion]: ./production.md "Produktion"
@@ -94,10 +102,10 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 [Schaden]: #schiffsschaden
 [HELFE]: ./cmd-help.md "HELFE"
 [FOLGE]: ./cmd-follow.md "FOLGE"
-[Piraterie]: ./war.md#Piraterie "Krieg"
-[Waren]: /Waren#Gegenstände "Waren"
-[Reisen]: ./travel.md#Rassengewichte "Reisen"
-[Konvoi]: ./ships.mde#Konvoi "Schiffe"
+[Piraterie]: ./war.md#piraterie "Krieg"
+[Waren]: ./items.md#gegenstände "Waren"
+[Reisen]: ./travel.md#rassengewichte "Reisen"
+[Konvoi]: ./ships.mde#konvoi "Schiffe"
 [Schiffe]: ./ships.mde "Schiffe"
 [NACH]: ./cmd-move.md "NACH"
 [ROUTE]: ./cmd-route.md "ROUTE"
@@ -106,7 +114,7 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 [VERLASSE]: ./cmd-leave.md "VERLASSE"
 [FAHRE]: ./cmd-ride.md "FAHRE"
 [TRANSPORTIERE]: ./cmd-carry.md "TRANSPORTIERE"
-[Meermenschen]: /Meermenschen "Meermenschen"
-[Kampf auf Schiffen]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[Meermenschen]: ./races.md#meermenschen "Meermenschen"
+[Kampf auf Schiffen]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [1]: ./cmd-make.md "MACHE"
 [2]: ./travel.md "Reisen"

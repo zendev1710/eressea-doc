@@ -152,15 +152,15 @@ In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder
 - [RESERVIERE]
 - [Befehlsreihenfolge]
 
-|     |     |
-| --- | --- |
+|              |         |
+|--------------|---------|
 | Weiterlesen: | [Krieg] |
 
 [Krieg]: ./war.md "Krieg"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[REKRUTIERE]:./silver.md#recruiting "REKRUTIERE"
+[REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
 [Gebäude]: ./buildings.md "Gebäude"
 [GIB]: ./cmd-give.md "GIB"
 [MACHE]: ./cmd-make.md "MACHE"

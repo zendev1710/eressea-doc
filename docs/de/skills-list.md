@@ -127,17 +127,17 @@ Bau von Wagen und Katapulten aus Holz. Pro Person und Talentstufe kann aus 5 Hol
 
 Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung]).
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [Tarnung] |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
-[Tarnung]: /Tarnung "Tarnung"
-[Alchemie]: /Alchemie "Alchemie"
+[Tarnung]: ./camouflage.md "Tarnung"
+[Alchemie]: ./alchemy.cmd "Alchemie"
 [Tränken]: ./alchemy.md "Tränke"
 [Kräutern]: ./herbs.md "Kräuter"
-[Tabelle]: /Kampftabellen#Ausdauer "Kampftabellen"
+[Tabelle]: ./war.md#ausdauer "Kampftabellen"
 [Rohstoffe]: ./resources.md "Rohstoffe"
 [Gebäude und Burgen]: ./buildings.md "Gebäude"
 [Handel]: ./silver.md#handel "Handel"
@@ -148,16 +148,16 @@ Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann ma
 [Produktion]: ./production.md "Produktion"
 [`PFLANZE`]: ./cmd-plant.md "PFLANZE"
 [Magie]: ./magic.md "Magic"
-[Pferde]: /Pferd_und_Wagen "Pferd und Wagen"
+[Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
-[Pferdezucht]: /Pferdezucht "Pferdezucht"
-[Waren]: /Waren "Waren"
+[Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
+[Waren]: ./items.md "Waren"
 [Schiffe]: ./ships.mde "Schiffe"
 [`SPIONIERE`]: ./cmd-spy.md "SPIONIERE"
-[2]: ./resources.md#vom-Bergbau "Rohstoffe"
-[Straßen]: /Stra%C3%9Fen "Straßen"
+[2]: ./resources.md#vom-bergbau "Rohstoffe"
+[Straßen]: ./roads.md "Straßen"
 [Taktik]: ./tactic.md "Taktik"
-[Musterung]: /Musterung "Musterung"
+[Musterung]: ./war.md#die-musterung-der-einheiten "Musterung"
 [beklauen]: ./camouflage.md "BEKLAUE"
 [Bewachungen]: ./cmd-guard.md "BEWACHE"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"

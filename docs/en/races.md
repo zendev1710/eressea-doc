@@ -86,10 +86,12 @@ Humans can do a bit of everything. They don't have any really bad skills, but th
 
 The number of *migrants* is calculated as 20 × log<sub>10</sub> (persons in the faction ÷ 50). If you have to many migrants, for example after a battle, they are not removed, but you cannot add any more either. The maximum number of migrants is shown in your report. It is almost identical to the number of [heroes] for large factions. The following table has some examples.
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Migrants
-| people in the faction | 1   | 56  | 57  | 63  | 71  | 80  | 89  | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
-| migrants | 0   | 0   | 1   | 2   | 3   | 4   | 5   | 10  | 20  | 26  | 40  | 60  | 80  | 100 |
+Migrants
+
+|                       |   |    |    |    |    |    |    |     |     |      |      |       |        |         |
+|-----------------------|---|----|----|----|----|----|----|-----|-----|------|------|-------|--------|---------|
+| people in the faction | 1 | 56 | 57 | 63 | 71 | 80 | 89 | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
+| migrants              | 0 | 0  | 1  | 2  | 3  | 4  | 5  | 10  | 20  | 26   | 40   | 60    | 80     | 100     |
 
 ## Orcs
 
@@ -122,8 +124,8 @@ Their homes are the mountains, their weapons are famous, and their fortresses ar
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
 - Dwarves [mages][magician] regenerate aura 50% slower.
 
-|     |     |
-| --- | --- |
+|                   |                          |
+|-------------------|--------------------------|
 | Continue reading: | [Racial skill modifiers] |
 
 [Racial skill modifiers]: ./skills-modifiers.md "Talentmodifikatoren"

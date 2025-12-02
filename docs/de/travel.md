@@ -16,20 +16,22 @@ Wenn eine Einheit oder ein Schiff zu schwer beladen ist, können sie sich nicht 
 
 TODO: Katapulte
 
-|     |     |     |
-| --- | --- | --- |Gewichte und Kapazitäten
-|     | Gewicht | Kapazität |
-| Trolle | 20  | 10,8 |
-| Goblins | 6   | 4,4 |
-| alle anderen Spielerrassen | 10  | 5,4 |
-| Pferd | 50  | 20  |
-| Wagen | 40  | 100 |
-| Boot | \-/- | 50  |
-| Langboot | \-/- | 500 |
-| Drachenschiff | \-/- | 1000 |
-| Karavelle | \-/- | 3000 |
-| Trireme | \-/- | 2000 |
-| Galeone | \-/- | 20000 |
+Gewichte und Kapazitäten
+
+|                            |         |           |
+|----------------------------|---------|-----------|
+|                            | Gewicht | Kapazität |
+| Trolle                     | 20      | 10,8      |
+| Goblins                    | 6       | 4,4       |
+| alle anderen Spielerrassen | 10      | 5,4       |
+| Pferd                      | 50      | 20        |
+| Wagen                      | 40      | 100       |
+| Boot                       | \-/-    | 50        |
+| Langboot                   | \-/-    | 500       |
+| Drachenschiff              | \-/-    | 1000      |
+| Karavelle                  | \-/-    | 3000      |
+| Trireme                    | \-/-    | 2000      |
+| Galeone                    | \-/-    | 20000     |
 
 ## Straßen
 
@@ -70,11 +72,11 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 - [Schiffe]
 - [Straße][Straßen]
 
-|     |     |
-| --- | --- |
+|              |                |
+|--------------|----------------|
 | Weiterlesen: | [Schiffsreise] |
 
-[Schiffsreise]: ./ships.mdsreise "Schiffsreise"
+[Schiffsreise]: ./travel.md "Schiffsreise"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133] -->
 
@@ -84,6 +86,6 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 [`FAHRE`]: ./cmd-ride.md "FAHRE"
 [`FOLGE`]: ./cmd-follow.md "FOLGE"
 [BEWACHE]: ./cmd-guard.md "BEWACHE"
-[diese Tabelle]: /Waren "Waren"
-[Straßen]: /Stra%C3%9Fe "Straße"
+[diese Tabelle]: ./items.md "Waren"
+[Straßen]: ./roads.md "Straße"
 [Schiffe]: ./ships.md "Schiff"

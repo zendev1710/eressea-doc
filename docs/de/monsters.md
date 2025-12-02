@@ -64,14 +64,14 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
 
-[Untoten-Typen]: /Untote "Untote"
-[Drachen]: /Drachen "Drachen"
+[Untoten-Typen]: ./monsters.md#untote "Untote"
+[Drachen]: ./monsters.md#drachen "Drachen"
 [Hirntöter]: /index.php?title=Hirnt%C3%B6ter&action=edit&redlink=1 "Hirntöter (Seite nicht vorhanden)"
 [Vertrauten]: /index.php?title=Vertrauten&action=edit&redlink=1 "Vertrauten (Seite nicht vorhanden)"
-[Hungersnöte]: /Hunger "Hunger"
+[Hungersnöte]: ./silver.md#hunger "Hunger"
 [Kampf]: ./war.md "Krieg"
 [Talente]: ./skills.md "Talente"
-[bewaffnet]: /Bewaffnet "Bewaffnet"
+[bewaffnet]: ./armed.md "Bewaffnet"
 [Magier]: ./cmd-magic.md "Magie"
 [Igjarjuk]: /index.php?title=Igjarjuk&action=edit&redlink=1 "Igjarjuk (Seite nicht vorhanden)"
 [Pentagramm und Tirawon]: /Pentagramm_und_Tirawon "Pentagramm und Tirawon"

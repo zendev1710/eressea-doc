@@ -10,10 +10,12 @@ Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien 
 
 Das Talent Magie zu erlernen kostet (50 + 25 \* (1 + Stufe) \* Stufe) Silber pro Person und Runde.
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Lernkosten
-| Nächste Stufe | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | ... | 20  | ... | 30  | ... | 40  |
-| Kosten | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
+Lernkosten
+
+|               |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |     |       |     |       |     |       |
+|---------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
+| Nächste Stufe | 1   | 2   | 3   | 4   | 5   | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | ... | 20    | ... | 30    | ... | 40    |
+| Kosten        | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
 
 Ein ungelernter Magier bezahlt also 100 Silber für seine ersten Lektionen; hat er schon Stufe 5 im Magietalent, so muss er 1100 Silber pro Lernwoche bezahlen.
 
@@ -148,20 +150,20 @@ Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber i
 
 Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den [URSPRUNG]. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |
-| Entfernung Regionen (a) | 0   | 1   | 2   | 3   | 4   |
+|                                   |                                   |                                     |                                     |                                     |                                       |
+|-----------------------------------|-----------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|---------------------------------------|
+| Entfernung Regionen (a)           | 0                                 | 1                                   | 2                                   | 3                                   | 4                                     |
 | Anzahl der benötigten Komponenten | 1 Stein  <br>5 Eisen  <br>10 Holz | 2 Steine  <br>10 Eisen  <br>20 Holz | 4 Steine  <br>20 Eisen  <br>40 Holz | 8 Steine  <br>40 Eisen  <br>80 Holz | 16 Steine  <br>80 Eisen  <br>160 Holz |
 
 Aurakosten werden auch erhöht, wenn eine Einheit mehrere Zauber in einer Runde zaubert (Formel: 2<sup>b-1</sup>, wobei b die Anzahl der Zauber in dieser Runde ist, siehe [oben][Aura]). Für andere Komponenten gilt dies nicht, sie werden nur durch Fernzauber erhöht.
 
 Fernzauber und Mehrfachzauber können also auch in Kombination die Aurakosten erhöhen:
 
-| Entfernung Regionen (a) | 0   | 1   | 2   | 3   | 4   |
-| --- | --- | --- | --- | --- | --- |
-| Aurakosten (1. Spruch) | Aurakosten \* 1 | Aurakosten \* 2 | Aurakosten \* 4 | Aurakosten \* 8 | Aurakosten \* 16 |
-| Aurakosten (2. Spruch) | Aurakosten \* 2 | Aurakosten \* 4 | Aurakosten \* 8 | Aurakosten \* 16 | Aurakosten \* 32 |
-| Aurakosten (3. Spruch) | Aurakosten \* 4 | Aurakosten \* 8 | Aurakosten \* 16 | Aurakosten \* 32 | Aurakosten \* 64 |
+| Entfernung Regionen (a) | 0               | 1               | 2                | 3                | 4                |
+|-------------------------|-----------------|-----------------|------------------|------------------|------------------|
+| Aurakosten (1. Spruch)  | Aurakosten \* 1 | Aurakosten \* 2 | Aurakosten \* 4  | Aurakosten \* 8  | Aurakosten \* 16 |
+| Aurakosten (2. Spruch)  | Aurakosten \* 2 | Aurakosten \* 4 | Aurakosten \* 8  | Aurakosten \* 16 | Aurakosten \* 32 |
+| Aurakosten (3. Spruch)  | Aurakosten \* 4 | Aurakosten \* 8 | Aurakosten \* 16 | Aurakosten \* 32 | Aurakosten \* 64 |
 
 Die beiden Modifikatoren können auch verknüpft werden:
 
@@ -285,8 +287,8 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
-|     |     |
-| --- | --- |
+|              |                |
+|--------------|----------------|
 | Weiterlesen: | [Magiegebiete] |
 
 [Magiegebiete]: ./magic.mdgebiete "Magicgebiete"
@@ -302,7 +304,7 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
   [LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md "LERNE"
   [Partei]: ./factions.md "Partei"
   [Akademie]: ./buildings-others.md "Andere Gebäude"
-  [ZEIGE]: /ZEIGE "ZEIGE"
+  [ZEIGE]: ./cmd-show.md "ZEIGE"
   [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
   [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
   [KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md "KAMPFZAUBER"

@@ -16,20 +16,22 @@ Si une unité ou un navire est trop lourdement chargé, il ne peut pas se dépla
 
 TODO: Katapulte
 
-|     |     |     |
-| --- | --- | --- |Poids et Capacités
-|     | Poids | Capacités |
-| trolls | 20  | 10,8 |
-| goblins | 6   | 4,4 |
-| autres races de joueurs | 10  | 5,4 |
-| horse | 50  | 20  |
-| cart | 40  | 100 |
-| boat | \-/- | 50  |
-| longboat | \-/- | 500 |
-| dragonship | \-/- | 1000 |
-| caravel | \-/- | 3000 |
-| trireme | \-/- | 2000 |
-| galleon | \-/- | 20000 |
+Poids et Capacités
+
+|                         |       |           |
+|-------------------------|-------|-----------|
+|                         | Poids | Capacités |
+| trolls                  | 20    | 10,8      |
+| goblins                 | 6     | 4,4       |
+| autres races de joueurs | 10    | 5,4       |
+| horse                   | 50    | 20        |
+| cart                    | 40    | 100       |
+| boat                    | \-/-  | 50        |
+| longboat                | \-/-  | 500       |
+| dragonship              | \-/-  | 1000      |
+| caravel                 | \-/-  | 3000      |
+| trireme                 | \-/-  | 2000      |
+| galleon                 | \-/-  | 20000     |
 
 ## Routes
 
@@ -70,11 +72,11 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 - [bateaux]
 - [routes]
 
-|     |     |
-| --- | --- |
+|              |            |
+|--------------|------------|
 | Weiterlesen: | [Naviguer] |
 
-[Naviguer]: ./ships.mdsreise "Schiffsreise"
+[Naviguer]: ./travel.md "Schiffsreise"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
 
@@ -84,6 +86,6 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 [`RIDE`]: ./cmd-ride.md "RIDE"
 [`FOLLOW`]: ./cmd-follow.md "FOLLOW"
 [GUARD]: ./cmd-guard.md "GUARD"
-[objets]: /Waren "Waren"
-[routes]: /Stra%C3%9Fe "Straße"
+[objets]: ./items.md "Waren"
+[routes]: ./roads.md "Straße"
 [bateaux]: ./ships.md "Schiff"

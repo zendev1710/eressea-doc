@@ -82,8 +82,8 @@ Sailing et riding sont expliquées dans le chapitre sur les [déplacements]. rid
 
 Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [batailles], que ce soit contre d'autres factions ou des monstres.
 
-|     |     |
-| --- | --- |
+|              |                         |
+|--------------|-------------------------|
 | Weiterlesen: | [liste des compétences] |
 
 [liste des compétences]: ./skills-list.md "Liste des compétences"
@@ -103,10 +103,10 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 [1]: ./buildings-others.md#Akademie "Andere Gebäude"
 [`FORGET`]: ./cmd-forget.md "FORGET"
 [production]: ./production.md "Produktion"
-[2]: /Alchemie "Alchemie"
+[2]: ./alchemy.cmd "Alchemie"
 [l'argent]: ./silver.md "Argent"
 [espionage]: ./skills-list.md#espionnage "Spionage"
-[stealth]: /Tarnung "Tarnung"
+[stealth]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
 [déplacements]: ./travel.md "Reisen"
 [combats]: /Kampf "Kampf"

@@ -29,23 +29,23 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 - [Gebäude]
 - [Parteipool]
 
-|     |     |
-| --- | --- |
+|              |             |
+|--------------|-------------|
 | Weiterlesen: | [Rohstoffe] |
 
 [Rohstoffe]: ./resources.md "Rohstoffe"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
 
-[Endprodukte]: /Waren "Waren"
-[Schiffe]: /Schiffe "Schiffe"
+[Endprodukte]: ./items.md "Waren"
+[Schiffe]: ./ships.md "Schiffe"
 [Gebäude]: ./buildings.md "Gebäude"
-[Straßen]: /Stra%C3%9Fen "Straßen"
+[Straßen]: ./roads.md "Straßen"
 [Tränke]: ./alchemy.md "Tränke"
 [1]: ./resources.md "Rohstoffe"
-[Gegenstände]: /Waren "Waren"
-[Bergwerk]: /Andere_Geb%C3%A4ude#Bergwerk "Andere Gebäude"
-[Materialpool]: /Materialpool "Materialpool"
-[2]: /Stra%C3%9Fe "Straße"
-[3]: /Schiff "Schiff"
+[Gegenstände]: ./items.md "Waren"
+[Bergwerk]: ./buildings-others.md#bergwerk "Andere Gebäude"
+[Materialpool]: ./items-pool.md "Materialpool"
+[2]: ./roads.md "Straße"
+[3]: ./ships.md "Schiff"
 [Parteipool]: ./factions-pool.md "Parteipool"

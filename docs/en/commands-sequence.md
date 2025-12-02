@@ -79,8 +79,8 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 - [short description DE/EN]
 - [Befehlsreihenfolge (E3)]
 
-|     |     |
-| --- | --- |
+|                   |                     |
+|-------------------|---------------------|
 | Continue reading: | [Short Description] |
 
 [Short Description]: ./commands-list.md "Kurzbeschreibung"  
@@ -112,7 +112,7 @@ It does not mean that units leaving a ship can still attack in the same turn, as
   [CLAIM]: ./cmd-claim.md "CLAIM"
   [GIVE CONTROL]: ./cmd-give.md "GIVE"
   [FORGET]: ./cmd-forget.md "FORGET"
-  [RECRUIT]:./silver.md#recruiting "RECRUIT"
+  [RECRUIT]: ./silver.md#recruiting "RECRUIT"
   [DESTROY]: ./cmd-destroy.md "DESTROY"
   [FOLLOW]: ./cmd-follow.md "FOLLOW"
   [PROMOTE]: ./cmd-promote.md "PROMOTE"

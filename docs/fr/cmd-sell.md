@@ -21,5 +21,5 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
   [<sup>`(l)`</sup>]: ./commands.md#KurzLang "Befehl"
   [Handeln]: ./silver.md#handel "Handel"
   [Burgtyp]: ./castles.md "Burgen"
-  [`KAUFE`]: /KAUFE "KAUFE"
-  ["pseudolanger" Befehl]: /Befehl "Befehl"
+  [`KAUFE`]: ./cmd-buy.md "KAUFE"
+  ["pseudolanger" Befehl]: ./commands.md "Befehl"

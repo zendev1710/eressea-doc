@@ -57,8 +57,8 @@ Player experience: SoltharThere have been cases where special magic items produc
 - [The faction pool]
 - [Orders]
 
-|     |     |
-| --- | --- |
+|                   |         |
+|-------------------|---------|
 | Continue reading: | [Races] |
 
 [Races]: ./race.md "Rassen"  
@@ -68,13 +68,13 @@ Player experience: SoltharThere have been cases where special magic items produc
 [race]: ./race.md "Rassen"
 [skills]: ./skills.md "Talente"
 [orders]: ./commands.md "Befehl"
-[race-specific starting gift]: /Geschichte_von_Eressea#Start_der_6._Welt "Geschichte von Eressea"
+[race-specific starting gift]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
 [`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
-[recruit]:./silver.md#recruiting "RECRUIT"
-[produce items]: /Gegenst%C3%A4nde "Gegenstände"
+[recruit]: ./silver.md#recruiting "RECRUIT"
+[produce items]: ./items.md "Gegenstände"
 [buildings]: ./buildings.md "Gebäude"
 [ships]: ./ships.mde "Schiffe"
-[horses]: /Pferd_und_Wagen "Pferd und Wagen"
+[horses]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [weapons]: ./war.mdstabellen "Warstabellen"
 [MAKE TEMP]: ./cmd-make.md "MAKE"
 [transfer]: ./cmd-give.md "GIVE"
@@ -83,16 +83,16 @@ Player experience: SoltharThere have been cases where special magic items produc
 [taxation]: ./cmd-tax.md "TAX"
 [default order]: ./cmd-default.md "DEFAULT"
 [war]: ./war.md "War"
-[combat rows]: /Schlacht#Kampfreihen "Schlacht"
+[combat rows]: ./war.md#die-schlacht "Schlacht"
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [Hunger]: ./silver.md#hunger "Hunger"
 [cloaked]: ./cmd-hide.md "HIDE"
 [`MESSAGE`]: ./cmd-message.md "MESSAGE"
-[trolls]: /Trolle "Trolle"
-[humans]: /Mensch "Mensch"
+[trolls]: ./races.md#trolle "Trolle"
+[humans]: ./races.md##menschen "Mensch"
 [dwarves]: ./races.md#dwarves "Zwerg"
-[1]: /Troll "Troll"
+[1]: ./races.md#trolle "Troll"
 [end of the round]: ./commands-sequence.md "Befehlsreihenfolge"
 [`HELP silver`]: ./cmd-help.md "HELP"
 [The faction pool]: ./factions.mdpool "Parteipool"

@@ -36,9 +36,9 @@ Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué
 
 [les lignes de bataille dans le chapitre]: /Schlacht "bataille"
 [Sur la guerre]: /Krieg "Guerre"
-[`d’ATTAQUE`]: /ATTACK "ATTAQUE"
+[`d’ATTAQUE`]: ./cmd-attack.md "ATTAQUE"
 [ Fuite]: /Die_Flucht "L'évasion"
-[GARDER]: /BEWACHEN "GARDE"
+[GARDER]: ./cmd-guard.mdN "GARDE"
 [les commandes VERS]: /MOVE "APRÈS"
 [ITINÉRAIRE]: /ROUTE "ITINÉRAIRE"
 [SUIVRE]: /FOLLOW "CONSÉQUENCE"

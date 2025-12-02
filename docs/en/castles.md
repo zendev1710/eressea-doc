@@ -28,16 +28,18 @@ A larger castle improves the population's income: all workers and peasants recei
 
 ## Overview
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Building Castles - building material, minimum skill, wage bonus, trade share and defense
-| Type | From Size | Masonry min | Wage bonus | Trade share | Defense bonus |
-| Foundation | 1   | 1   | 0 silver | \-  | 0   |
-| Tradepost | 2   | 1   | 0 silver | 6%  | 0   |
-| Fortification | 10  | 2   | 1 silver | 12% | +1  |
-| Tower | 50  | 3   | 2 silver | 18% | +2  |
-| Stronghold | 250 | 4   | 3 silver | 24% | +3  |
-| Fortress | 1250 | 5   | 4 silver | 30% | +4  |
-| Citadel | 6250 | 6   | 5 silver | 36% | +5  |
+Building Castles - building material, minimum skill, wage bonus, trade share and defense
+
+|               |           |             |            |             |               |
+|---------------|-----------|-------------|------------|-------------|---------------|
+| Type          | From Size | Masonry min | Wage bonus | Trade share | Defense bonus |
+| Foundation    | 1         | 1           | 0 silver   | \-          | 0             |
+| Tradepost     | 2         | 1           | 0 silver   | 6%          | 0             |
+| Fortification | 10        | 2           | 1 silver   | 12%         | +1            |
+| Tower         | 50        | 3           | 2 silver   | 18%         | +2            |
+| Stronghold    | 250       | 4           | 3 silver   | 24%         | +3            |
+| Fortress      | 1250      | 5           | 4 silver   | 30%         | +4            |
+| Citadel       | 6250      | 6           | 5 silver   | 36%         | +5            |
 
 ## See also
 
@@ -46,8 +48,8 @@ A larger castle improves the population's income: all workers and peasants recei
 - [Bonuses and penalties]
 - [Income]
 
-|     |     |
-| --- | --- |
+|                   |                   |
+|-------------------|-------------------|
 | Continue reading: | [Other Buildings] |
 
 [Other Buildings]: ./buildings-others.md "Andere Gebäude"

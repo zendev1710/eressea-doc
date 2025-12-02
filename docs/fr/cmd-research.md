@@ -12,4 +12,4 @@ Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Re
 
   [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
   [Kräuterkunde]: ./skills-list.md "Liste der Talente"
-  [Kräuter]: /Kr%C3%A4uter "Kräuter"
+  [Kräuter]: ./herbs.md "Kräuter"

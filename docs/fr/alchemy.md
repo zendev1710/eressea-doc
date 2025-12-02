@@ -14,24 +14,26 @@ L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exempl
 
 ## Liste des potions
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Liste des Potions
-| Niveau | Abbr | Nom | Ingrédients | Description | Cible |
-| 1   | Sm  | Seven mile tea | cobalt fungus, windbag | 10 hommes à pied peuvent se déplacer aussi vite que s'ils montaient à cheval | Unité |
-| 1   | Gw  | Goliath water | bugleweed, fjord fungus | 10 hommes peuvent porter autant que 10 chevaux | Unité |
-| 1   | WL  | Water of life | elvendear, knotroot | Transforme 10 bois ou mallorn en 10 mallorns/pouces | Region |
-| 1   | TW  | Potion of truth | flatroot, fjord fungus | Cette potion n'a plus aucune fonction | Region |
-| 2   | St  | Busybeer | mandrake, gapgrowth, tangy temerity | Double la productivité de 10 hommes utilisant l'ordre `MAKE`. | Unité |
-| 2   | Ws  | Ointment | cobalt fungus, white hemlock, tangy temerity | Soigne jusqu'à 400 points de vie | Unité |
-| 2   | Ba  | Peasant blood | cave lichen, fjord fungus, cobalt fungus, Peasant | Jusqu'à 100 démons peuvent se passer de tuer des paysans | Unité\* |
-| 3   | Gs  | Brain wax | waterfinder, rock weed, windbag, bugleweed | jusqu'à 10 personnes : Augmente les chances d'apprentissage d'une compétence | Unité |
-| 3   | Db  | Duncebun | owlsgaze, spider ivy, cave lichen, fjord fungus | pour 10 personnes : pas d'apprentissage ou l'enseignant n'apporte rien ou oublie 1 semaine de la meilleure compétence | (foreign) Unité\*\* |
-| 3   | Nw  | Potion of nest warmth | ice begonia, spider ivy, gapgrowth, peyote | Permet aux insectes de recruter même en hiver | Region |
-| 3   | Pg  | Horsepower potion | cobalt fungus, sand reeker, peyote, knotroot | 50 chevaux mettent au monde jusqu'à 4 poulains | Region |
-| 3   | Be  | Berserkers blood | white hemlock, mandrake, flatroot, sand reeker | 10 personnes reçoivent un modificateur d'attaque de +1 au combat | Unité |
-| 4   | Bl  | Peasant love potion | mandrake, snowcrystal petal, rock weed, bubblemorel, elvendear | 1000 paysans croissent deux fois plus vite que la normale | Region |
-| 4   | EM  | Elixir of power | elvendear, waterfinder, windbag, spider ivy, bubblemorel, Dragon blood | 10 personnes ont leurs points de vie quintuplés | Unité |
-| 4   | Ht  | Healing potion | bugleweed, windbag, ice begonia, elvendear, gapgrowth | une personne survit à des dommages mortels ; possible une seule fois par personne et par semaine | Unité |
+Liste des Potions
+
+|        |      |                       |                                                                        |                                                                                                                       |                     |
+|--------|------|-----------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------|
+| Niveau | Abbr | Nom                   | Ingrédients                                                            | Description                                                                                                           | Cible               |
+| 1      | Sm   | Seven mile tea        | cobalt fungus, windbag                                                 | 10 hommes à pied peuvent se déplacer aussi vite que s'ils montaient à cheval                                          | Unité               |
+| 1      | Gw   | Goliath water         | bugleweed, fjord fungus                                                | 10 hommes peuvent porter autant que 10 chevaux                                                                        | Unité               |
+| 1      | WL   | Water of life         | elvendear, knotroot                                                    | Transforme 10 bois ou mallorn en 10 mallorns/pouces                                                                   | Region              |
+| 1      | TW   | Potion of truth       | flatroot, fjord fungus                                                 | Cette potion n'a plus aucune fonction                                                                                 | Region              |
+| 2      | St   | Busybeer              | mandrake, gapgrowth, tangy temerity                                    | Double la productivité de 10 hommes utilisant l'ordre `MAKE`.                                                         | Unité               |
+| 2      | Ws   | Ointment              | cobalt fungus, white hemlock, tangy temerity                           | Soigne jusqu'à 400 points de vie                                                                                      | Unité               |
+| 2      | Ba   | Peasant blood         | cave lichen, fjord fungus, cobalt fungus, Peasant                      | Jusqu'à 100 démons peuvent se passer de tuer des paysans                                                              | Unité\*             |
+| 3      | Gs   | Brain wax             | waterfinder, rock weed, windbag, bugleweed                             | jusqu'à 10 personnes : Augmente les chances d'apprentissage d'une compétence                                          | Unité               |
+| 3      | Db   | Duncebun              | owlsgaze, spider ivy, cave lichen, fjord fungus                        | pour 10 personnes : pas d'apprentissage ou l'enseignant n'apporte rien ou oublie 1 semaine de la meilleure compétence | (foreign) Unité\*\* |
+| 3      | Nw   | Potion of nest warmth | ice begonia, spider ivy, gapgrowth, peyote                             | Permet aux insectes de recruter même en hiver                                                                         | Region              |
+| 3      | Pg   | Horsepower potion     | cobalt fungus, sand reeker, peyote, knotroot                           | 50 chevaux mettent au monde jusqu'à 4 poulains                                                                        | Region              |
+| 3      | Be   | Berserkers blood      | white hemlock, mandrake, flatroot, sand reeker                         | 10 personnes reçoivent un modificateur d'attaque de +1 au combat                                                      | Unité               |
+| 4      | Bl   | Peasant love potion   | mandrake, snowcrystal petal, rock weed, bubblemorel, elvendear         | 1000 paysans croissent deux fois plus vite que la normale                                                             | Region              |
+| 4      | EM   | Elixir of power       | elvendear, waterfinder, windbag, spider ivy, bubblemorel, Dragon blood | 10 personnes ont leurs points de vie quintuplés                                                                       | Unité               |
+| 4      | Ht   | Healing potion        | bugleweed, windbag, ice begonia, elvendear, gapgrowth                  | une personne survit à des dommages mortels ; possible une seule fois par personne et par semaine                      | Unité               |
 
 \* Agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste. Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de "peasant blood" pour tous les démons.
 
@@ -39,32 +41,32 @@ L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exempl
 
 ## Tableau des Plantes
 
-| Herb | TW  | Sm  | Gw  | WL  | Ba  | St  | Ws  | Be  | Db  | Gs  | Pg  | Nw  | Bl  | EM  | Ht  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| flatroot | X   |     |     |     |     |     |     | X   |     |     |     |     |     |     |     |
-| tangy temerity |     |     |     |     |     | X   | X   |     |     |     |     |     |     |     |     |
-| owlsgaze |     |     |     |     |     |     |     |     | X   |     |     |     |     |     |     |
-| spider ivy |     |     |     |     |     |     |     |     | X   |     |     | X   |     | X   |     |
-| cobalt fungus |     | X   |     |     | X   |     | X   |     |     |     | X   |     |     |     |     |
-| elvendear |     |     |     | X   |     |     |     |     |     |     |     |     | X   | X   | X   |
-| bugleweed |     |     | X   |     |     |     |     |     |     | X   |     |     |     |     | X   |
-| knotroot |     |     |     | X   |     |     |     |     |     |     | X   |     |     |     |     |
-| bubblemorel |     |     |     |     |     |     |     |     |     |     |     |     | X   | X   |     |
-| waterfinder |     |     |     |     |     |     |     |     |     | X   |     |     |     | X   |     |
-| peyote |     |     |     |     |     |     |     |     |     |     | X   | X   |     |     |     |
-| sand reeker |     |     |     |     |     |     |     | X   |     |     | X   |     |     |     |     |
-| windbag |     | X   |     |     |     |     |     |     |     | X   |     |     |     | X   | X   |
-| fjord fungus | X   |     | X   |     | X   |     |     |     | X   |     |     |     |     |     |     |
-| mandrake |     |     |     |     |     | X   |     | X   |     |     |     |     | X   |     |     |
-| rock weed |     |     |     |     |     |     |     |     |     | X   |     |     | X   |     |     |
-| gapgrowth |     |     |     |     |     | X   |     |     |     |     |     | X   |     |     | X   |
-| cave lichen |     |     |     |     | X   |     |     |     | X   |     |     |     |     |     |     |
-| ice begonia |     |     |     |     |     |     |     |     |     |     |     | X   |     |     | X   |
-| white hemlock |     |     |     |     |     |     | X   | X   |     |     |     |     |     |     |     |
-| snowcrystal petal |     |     |     |     |     |     |     |     |     |     |     |     | X   |     |     |
+| Herb              | TW | Sm | Gw | WL | Ba | St | Ws | Be | Db | Gs | Pg | Nw | Bl | EM | Ht |
+|-------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| flatroot          | X  |    |    |    |    |    |    | X  |    |    |    |    |    |    |    |
+| tangy temerity    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |    |
+| owlsgaze          |    |    |    |    |    |    |    |    | X  |    |    |    |    |    |    |
+| spider ivy        |    |    |    |    |    |    |    |    | X  |    |    | X  |    | X  |    |
+| cobalt fungus     |    | X  |    |    | X  |    | X  |    |    |    | X  |    |    |    |    |
+| elvendear         |    |    |    | X  |    |    |    |    |    |    |    |    | X  | X  | X  |
+| bugleweed         |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    | X  |
+| knotroot          |    |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    |
+| bubblemorel       |    |    |    |    |    |    |    |    |    |    |    |    | X  | X  |    |
+| waterfinder       |    |    |    |    |    |    |    |    |    | X  |    |    |    | X  |    |
+| peyote            |    |    |    |    |    |    |    |    |    |    | X  | X  |    |    |    |
+| sand reeker       |    |    |    |    |    |    |    | X  |    |    | X  |    |    |    |    |
+| windbag           |    | X  |    |    |    |    |    |    |    | X  |    |    |    | X  | X  |
+| fjord fungus      | X  |    | X  |    | X  |    |    |    | X  |    |    |    |    |    |    |
+| mandrake          |    |    |    |    |    | X  |    | X  |    |    |    |    | X  |    |    |
+| rock weed         |    |    |    |    |    |    |    |    |    | X  |    |    | X  |    |    |
+| gapgrowth         |    |    |    |    |    | X  |    |    |    |    |    | X  |    |    | X  |
+| cave lichen       |    |    |    |    | X  |    |    |    | X  |    |    |    |    |    |    |
+| ice begonia       |    |    |    |    |    |    |    |    |    |    |    | X  |    |    | X  |
+| white hemlock     |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
+| snowcrystal petal |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [plantes] |
 
 [plantes]: ./herbs.md "Plantes"

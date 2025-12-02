@@ -136,12 +136,14 @@ Gegen Fernkampfwaffen parieren angegriffene Personen nur mit ihrem halben Talent
 
 Katapulte benötigen Munition. Diese kann mittels [MACHE Katapultmunition] durch einen Steinbauer mit Talent 3 aus Steinen produziert werden und wiegt 10 Gewichtseinheiten. Eine Munitionseinheit entspricht dabei einer Salve.
 
-|     |     |     |     |
-| --- | --- | --- | --- |Schusswaffen - Proben, Zeitaufwand und Treffer
-| Waffe | Talent | Offensivbonus | Nachladen |
-| Armbrust / Mallornarmbrust | Armbrustschießen | 0   | 2   |
-| Katapult | Katapultbedienung | \-4 | 5   |
-| Bogen / Mallornbogen / Elfenbogen | Bogenschießen | \-2 | 0   |
+Schusswaffen - Proben, Zeitaufwand und Treffer
+
+|                                   |                   |               |           |
+|-----------------------------------|-------------------|---------------|-----------|
+| Waffe                             | Talent            | Offensivbonus | Nachladen |
+| Armbrust / Mallornarmbrust        | Armbrustschießen  | 0             | 2         |
+| Katapult                          | Katapultbedienung | \-4           | 5         |
+| Bogen / Mallornbogen / Elfenbogen | Bogenschießen     | \-2           | 0         |
 
 Dabei ist unter Nachladen angegeben, wie lange es dauert, die Waffe wieder schussbereit zu machen. Ein Katapult kann also in jedem Kampf nur einmal eingesetzt werden. Eine Armbrust kann demnach jede dritte Runde schießen, Bögen sogar jede Runde.
 
@@ -291,8 +293,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 - [Taktik]
 - [Kriegstabellen]
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [Allianz] |
 
 [Allianz]: ./alliances.md "Allianz"
@@ -306,18 +308,18 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [Kampfreihen]: #Schlacht
 [flüchten]: #Flucht
 [`GRUPPE`]: ./cmd-group.md "GRUPPE"
-[Kämpfe auf See]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [Flucht]: ./war.md#die-flucht "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
 [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
-[Helden]: /BEF%C3%96RDERUNG "BEFÖRDERUNG"
-[Waffeneigenschaften]: /Kriegstabellen#Waffeneigenschaften "Kriegstabellen"
-[Rasseneigenschaften]: /Kriegstabellen#Rasseneigenschaften "Kriegstabellen"
-[diese]: /Kriegstabellen#Rüstung "Kriegstabellen"
-[Magieresistenz]: /Kriegstabellen#Magieresistenz "Kriegstabellen"
-[diese Tabelle]: /Kriegstabellen#Ausdauer "Kriegstabellen"
+[Helden]: ./cmd-promote.md "BEFÖRDERUNG"
+[Waffeneigenschaften]: ./war-tables.md#Waffeneigenschaften "Kriegstabellen"
+[Rasseneigenschaften]: ./war-tables.md#Rasseneigenschaften "Kriegstabellen"
+[diese]: ./war-tables.md#Rüstung "Kriegstabellen"
+[Magieresistenz]: ./war-tables.md#Magieresistenz "Kriegstabellen"
+[diese Tabelle]: ./war-tables.md#Ausdauer "Kriegstabellen"
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
-[10]: /Kriegstabellen#Kampfmodifikatoren "Kriegstabellen"
+[10]: ./war-tables.md#Kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.mde "Schiffe"
 [Schaden]: ./ships.md#Schiffsschaden "Schiff"
@@ -329,4 +331,4 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [`NACH`]: ./cmd-move.md "NACH"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
 [Taktik]: ./tactic.md "Taktik"
-[Kriegstabellen]: /Kriegstabellen "Kriegstabellen"
+[Kriegstabellen]: ./war-tables.md "Kriegstabellen"

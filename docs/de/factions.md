@@ -56,24 +56,23 @@ Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gege
 - [Der Parteipool]
 - [Befehle]
 
-|     |     |
-| --- | --- |
+|              |          |
+|--------------|----------|
 | Weiterlesen: | [Rassen] |
-
-[Rassen]: ./race.md "Rassen"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien&oldid=16699] -->
 
+[Rassen]: ./race.md "Rassen"
 [Rasse]: ./race.md "Rassen"
 [Talente]: ./skills.md "Talente"
 [Befehle]: ./commands.md "Befehl"
-[rassenspezifischen Startgeschenk]: /Geschichte_von_Eressea#Start_der_6._Welt "Geschichte von Eressea"
+[rassenspezifischen Startgeschenk]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
 [`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md "ZEIGE"
-[rekrutieren]:./silver.md#recruiting "REKRUTIERE"
-[Gegenstände produzieren]: /Gegenst%C3%A4nde "Gegenstände"
+[rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
+[Gegenstände produzieren]: ./items.md "Gegenstände"
 [Gebäude]: ./buildings.md "Gebäude"
 [Schiffe]: ./ships.mde "Schiffe"
-[Pferde]: /Pferd_und_Wagen "Pferd und Wagen"
+[Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [Waffen]: ./war.mdstabellen "Kriegstabellen"
 [`MACHE TEMP`]: ./cmd-make.md "MACHE"
 [transferiert]: ./cmd-give.md "GIB"
@@ -82,16 +81,16 @@ Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gege
 [Steuereintreiben]: ./cmd-tax.md "TREIBE"
 [Defaultbefehl]: ./cmd-default.md "DEFAULT"
 [Krieg]: ./war.md "Krieg"
-[Kampfreihen]: /Schlacht#Kampfreihen "Schlacht"
+[Kampfreihen]: ./war.md#die-schlacht "Schlacht"
 [KÄMPFE]: ./cmd-combat.md "KÄMPFE"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
 [Hunger]: ./silver.md#hunger "Hunger"
 [Zwergen]: ./races.md#swerg "Zwerg"
 [parteigetarnt]: ./cmd-hide.md "TARNE"
 [`BOTSCHAFT`]: ./cmd-message.md "BOTSCHAFT"
-[Trolle]: /Trolle "Trolle"
-[Menschen]: /Mensch "Mensch"
-[Trollen]: /Troll "Troll"
+[Trolle]: ./races.md#trolle "Trolle"
+[Menschen]: ./races.md##menschen "Mensch"
+[Trollen]: ./races.md#trolle "Troll"
 [Ende der Runde]: ./commands-sequence.md "Befehlsreihenfolge"
 [`HELFE Silber`]: ./cmd-help.md "HELFE"
 [Der Parteipool]: ./factions.mdpool "Parteipool"

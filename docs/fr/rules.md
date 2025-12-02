@@ -13,13 +13,13 @@ Eressea est un jeu vivant. Il a connu des améliorations continues au cours des 
 
 L'édition de ces règles est autorisée et encouragée, mais il est important de respecter les [Conseils pour l'édition des règles] !
 
-|     |     |
-| --- | --- |
+|              |                |
+|--------------|----------------|
 | Weiterlesen: | [Introduction] |
 
-[Introduction]: /Einleitung "Einleitung"
+[Introduction]: ./introduction.md "Einleitung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->
 
-[Atlantis]: /Atlantis "Atlantis"
-[Conseils pour l'édition des règles]: /Eressea:Mitmachen "Eressea:Mitmachen"
+[Atlantis]: ./atlantis.md "Atlantis"
+[Conseils pour l'édition des règles]: ./eressea-join.md "Eressea:Mitmachen"

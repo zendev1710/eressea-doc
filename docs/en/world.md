@@ -28,15 +28,15 @@ Depending on the type of terrain, different numbers of peasants will find space 
 
 The only difference between a plain and a forest is the number of trees and saplings in the region. From a total number of 600 trees and/or saplings, a plain is considered a forest. This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.
 
-| Terrain | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs |
-| --- | --- | --- | --- | --- |
-| Mountain | 1000 | 100 | 250 | rock weed, gapgrowth, cave lichen |
-| Plain / Forest | 10000 | 200 | 50  | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier | 100 | 10  | 250 | ice begonia, white hemlock, snowcrystal petal |
-| Highland | 4000 | 200 | 100 | windbag, fjord fungus, mandrake |
-| Swamp | 2000 | 200 | 75  | bugleweed, knotroot, bubblemorel |
-| Desert | 500 | 50  | 100 | waterfinder, peyote, sand reeker |
-| Volcano | 500 | 50  | 250 | \-  |
+| Terrain        | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs                                                                     |
+|----------------|--------------|-----------------------------------|---------------------------------|---------------------------------------------------------------------------|
+| Mountain       | 1000         | 100                               | 250                             | rock weed, gapgrowth, cave lichen                                         |
+| Plain / Forest | 10000        | 200                               | 50                              | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier        | 100          | 10                                | 250                             | ice begonia, white hemlock, snowcrystal petal                             |
+| Highland       | 4000         | 200                               | 100                             | windbag, fjord fungus, mandrake                                           |
+| Swamp          | 2000         | 200                               | 75                              | bugleweed, knotroot, bubblemorel                                          |
+| Desert         | 500          | 50                                | 100                             | waterfinder, peyote, sand reeker                                          |
+| Volcano        | 500          | 50                                | 250                             | \-                                                                        |
 
 If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [castles] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
 
@@ -129,17 +129,17 @@ Under luxuries you can see the amount of goods bought or sold by the peasants fo
 
 Eressea's year is divided into nine months with three weeks in each:
 
-| Month | In German | Season | Storm Frequency |
-| --- | --- | --- | --- |
-| harvest moon | Feldsegen | summer | 0.5% |
-| impenetrable fog | Nebeltage | autumn | 3%  |
-| storm moon | Sturmmond | autumn | 4%  |
-| hearth fire | Herdfeuer | winter | 2.5% |
-| icewind | Eiswind | winter | 1.5% |
-| snowbane | Schneebann | winter | 3%  |
-| flowerrain | Blütenregen | spring | 3%  |
-| mild winds | Mond der milden Winde | spring | 0.5% |
-| sunfire | Sonnenfeuer | summer | 3%  |
+| Month            | In German             | Season | Storm Frequency |
+|------------------|-----------------------|--------|-----------------|
+| harvest moon     | Feldsegen             | summer | 0.5%            |
+| impenetrable fog | Nebeltage             | autumn | 3%              |
+| storm moon       | Sturmmond             | autumn | 4%              |
+| hearth fire      | Herdfeuer             | winter | 2.5%            |
+| icewind          | Eiswind               | winter | 1.5%            |
+| snowbane         | Schneebann            | winter | 3%              |
+| flowerrain       | Blütenregen           | spring | 3%              |
+| mild winds       | Mond der milden Winde | spring | 0.5%            |
+| sunfire          | Sonnenfeuer           | summer | 3%              |
 
 Every turn of the game corresponds to one week in Eressea's world. Many things can be done in one week. But there are some actions lasting almost the whole week. You can only do one of these so called long orders per turn (see also the chapter about [orders]).
 
@@ -156,8 +156,8 @@ Although the influence of the seasons is generally not particularly pronounced, 
 - [RECRUIT]
 - [ENTERTAIN]
 
-|     |     |
-| --- | --- |
+|                   |            |
+|-------------------|------------|
 | Continue reading: | [Factions] |
 
 [Factions]: ./factions.mden "Parteien"
@@ -172,21 +172,21 @@ Although the influence of the seasons is generally not particularly pronounced, 
 [herbs]: ./herbs.md "Herbs"
 [potions]: ./alchemy.md "Tränke"
 [replanted]: ./cmd-plant.md "PLANT"
-[roads]: /Stra%C3%9Fe "Straße"
+[roads]: ./roads.md "Straße"
 [special buildings]: ./buildings-others.md "Andere Gebäude"
 [resources]: ./resources.md "Resources"
 [mine]: ./buildings-others.md#Bergwerk "Andere Gebäude"
 [taming]: /Pferdedressur "Pferdedressur"
-[transport]: /Pferd_und_Wagen "Pferd und Wagen"
+[transport]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [horse bonus]: ./war.md#boni-und-mali "War"
 [caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
 [income]: ./silver.md#Einnahmen "Silver"
 [lighthouse]: /Leuchtturm "Leuchtturm"
-[RECRUIT]:./silver.md#recruiting "RECRUIT"
+[RECRUIT]: ./silver.md#recruiting "RECRUIT"
 [MAKE]: ./cmd-make.md "MAKE"
 [trade]: ./silver.md#handel "Handel"
 [orders]: ./commands.md "Befehle"
-[insect]: /Insekt "Insekt"
+[insect]: ./races.md#insekten "Insekt"
 [sea]: ./travel.md "Reisen"
 [forest growth]: ./resources.md#Tief_im_Wald "Resources"
 [money]: ./silver.md "Silver"

@@ -137,12 +137,14 @@ Contre les armes à distance, les personnes attaquées ne se défendent qu'avec 
 
 Les catapultes nécessitent des munitions. Celles-ci peuvent être fabriquées à partir de pierres (Stone) avec l'ordre [MAKE ammunition] par maçon avec la compétence quarrying niveau 3. Elles pèsent 10 GE. Une unité de munitions correspond à une salve (6 cibles).
 
-|     |     |     |     |
-| --- | --- | --- | --- |Ranged weapons - bonuses and time
-| Weapon | Skill | Offensive bonus | Reloading |
-| crossbow / mallorn crossbow | crossbow | 0   | 2   |
-| catapult | catapult | \-4 | 5   |
-| bow / mallorn bow / elven bow | bow | \-2 | 0   |
+Ranged weapons - bonuses and time
+
+|                               |          |                 |           |
+|-------------------------------|----------|-----------------|-----------|
+| Weapon                        | Skill    | Offensive bonus | Reloading |
+| crossbow / mallorn crossbow   | crossbow | 0               | 2         |
+| catapult                      | catapult | \-4             | 5         |
+| bow / mallorn bow / elven bow | bow      | \-2             | 0         |
 
 La colonne « Reloading » indique le temps nécessaire pour que l'arme soit à nouveau prête à tirer. Une catapulte ne peut donc être utilisée qu'une fois par combat. Une arbalète peut tirer tous les trois rounds, et un arc peut tirer à chaque round.
 
@@ -302,8 +304,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 - [Taktik]
 - [Kriegstabellen]
 
-|     |     |
-| --- | --- |
+|              |           |
+|--------------|-----------|
 | Weiterlesen: | [Allianz] |
 
 [Allianz]: ./alliances.md "Allianz"
@@ -317,7 +319,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 [Lignes de combat]: ./war.md#schlacht "Schlacht"
 [fuir]: #la-fuite
 [`GROUPE`]: ./cmd-group.md "GROUP"
-[combat en mer]: /Kampf_auf_Schiffen "Kampf auf Schiffen"
+[combat en mer]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [la fuite]: ./war.md#la-fuite "Die Flucht"
 [non armés]: #boni-und-mali
 [Tacticien]: ./tactic.md "Taktik"

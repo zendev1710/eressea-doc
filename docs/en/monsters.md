@@ -8,6 +8,6 @@ In certain circumstances, players can also own monster units (e.g. skeletons).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
-  [undead types]: /Untote "Untote"
+  [undead types]: ./monsters.md#untote "Untote"
   [dragons]: ./monsters.md#drachen "Drachen"
   [braineaters]: /Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"

@@ -6,16 +6,18 @@ In each region, you can build a road to the six cardinal directions. For a road 
 
 The following table states how many stones per direction are needed. Furthermore, some regions are so inhospitable that a [building] is required before building a road. It must function while building it, that is, it must be completed and the maintenance costs must be paid. Once completed, the road works without paying the building maintenance.
 
-|     |     |     |
-| --- | --- | --- |Building Roads
-| Terrain | Stones | Building |
-| Plain/Forest | 50  | \-  |
-| Highland | 100 | \-  |
-| Mountain | 250 | \-  |
-| Volcano | 250 | \-  |
-| Swamp | 75  | [Dam] |
-| Desert | 100 | [Caravanserai] |
-| Glacier | 250 | [Tunnel] |
+Building Roads
+
+|              |        |                |
+|--------------|--------|----------------|
+| Terrain      | Stones | Building       |
+| Plain/Forest | 50     | \-             |
+| Highland     | 100    | \-             |
+| Mountain     | 250    | \-             |
+| Volcano      | 250    | \-             |
+| Swamp        | 75     | [Dam]          |
+| Desert       | 100    | [Caravanserai] |
+| Glacier      | 250    | [Tunnel]       |
 
 [Dam]: ./buildings-others.md#Damm "Andere Gebäude"
 [Caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
@@ -31,8 +33,8 @@ The following table states how many stones per direction are needed. Furthermore
 
 After completion a unit can travel on foot with `MOVE E NE` from (0,0) to (1,1) in one round.
 
-|     |     |
-| --- | --- |
+|                   |         |
+|-------------------|---------|
 | Continue reading: | [Ships] |
 
 [Ships]: ./ships.md "Schiff"

@@ -59,10 +59,12 @@ Hiermit werden alle Dateien, die auch nach der regulären Auswertung verschickt 
 
 Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht zur Hand habt. Derartige Anforderungen verursachen unnötigen Traffic.
 
-|     |     |
-| --- | --- |Mails an Eressea
-| Betreff | Hinweis |
-| ERESSEA 2 BEFEHLE | Enthält Befehle für Eressea im Text |
+Mails an Eressea
+
+|                                |                                      |
+|--------------------------------|--------------------------------------|
+| Betreff                        | Hinweis                              |
+| ERESSEA 2 BEFEHLE              | Enthält Befehle für Eressea im Text  |
 | ERESSEA 2 REPORT nr "passwort" | Fordert den Report für die Partei an |
 
 ## Was man bei der Eingabe beachten muss
@@ -135,15 +137,15 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 - [Der erste Zug]
 - [Befehle]
 
-|     |     |
-| --- | --- |
+|              |            |
+|--------------|------------|
 | Weiterlesen: | [Hinweise] |
 
 [Hinweise]: ./hints.md "Hinweise"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
-[Befehle]./commands.md "Befehl"
+[Befehle]: ./commands.md "Befehl"
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
 [CSMapFX]: /CSMapFX "CSMapFX"
@@ -153,18 +155,18 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 [ExtendedCommands]: /ExtendedCommands "ExtendedCommands"
 [FFTools2]: /FFTools2 "FFTools2"
 [Vorlage]: /Vorlage "Vorlage"
-[Hilfsmittel]: /Hilfsmittel "Hilfsmittel"
-[Befehle am bequemsten direkt aus dem Programm verschicken]: /Befehle_von_Magellan_verschicken "Befehle von Magellan verschicken"
+[Hilfsmittel]: #was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md "Befehle von Magellan verschicken"
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 [ERESSEA xxx "passwort"]: /ERESSEA "ERESSEA"
-[NÄCHSTER]: /N%C3%84CHSTER "NÄCHSTER"
+[NÄCHSTER]: ./cmd-next.md "NÄCHSTER"
 [EINHEIT]: ./cmd-unit.md "EINHEIT"
-[ARBEITE]: /ARBEITEN "ARBEITEN"
-[TREIBE STEUERN EIN]: ./cmd-tax.mdN "TREIBEN"
+[ARBEITE]: ./cmd-work.mdN "ARBEITEN"
+[TREIBE STEUERN EIN]: ./cmd-tax.md "TREIBEN"
 [UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"
-[LERNE MAGIE]: /LERNE "LERNE"
+[LERNE MAGIE]: ./cmd-learn.md "LERNE"
 [NACH]: ./cmd-move.md "NACH"
 [;]: /; ";"
-[Kommentar-Befehl //]: /KOMMENTAR "KOMMENTAR"
-[Die Welt]./world.md "Welt"
+[Kommentar-Befehl //]: ./cmd-comment.md "KOMMENTAR"
+[Die Welt]: ./world.md "Welt"
 [Der erste Zug]: ./round-first.md "Der erste Zug"

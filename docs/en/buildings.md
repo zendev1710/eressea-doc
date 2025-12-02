@@ -33,8 +33,8 @@ Buildings are constructed and expanded using the [MAKE][`MAKE `*`Building_type`*
 - [production]
 - [expenses]
 
-|     |     |
-| --- | --- |
+|                   |           |
+|-------------------|-----------|
 | Continue reading: | [castles] |
 
 [castles]: ./castles.md "Burg"
@@ -45,7 +45,7 @@ Buildings are constructed and expanded using the [MAKE][`MAKE `*`Building_type`*
 [orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"
 [`MAKE `*`Building_type`*]: ./cmd-make.md "MACHE"
 [`PAY NOT`]: ./cmd-pay-not.md_NICHT "PAY NOT"
-[E3A — Das Dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [SORT]: ./cmd-sort.md "SORT"
 [special buildings]: ./buildings-others.md "Andere Gebäude"

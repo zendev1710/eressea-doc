@@ -27,5 +27,5 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 
   [<sup>`(l)`</sup>]: ./commands.md#KurzLang "Befehl"
   [Handeln]: ./silver.md#handel "Handel"
-  [`VERKAUFE`]: /VERKAUFE "VERKAUFE"
-  ["pseudolanger" Befehl]: /Befehl "Befehl"
+  [`VERKAUFE`]: ./cmd-sell.md "VERKAUFE"
+  ["pseudolanger" Befehl]: ./commands.md "Befehl"

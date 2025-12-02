@@ -42,8 +42,8 @@ this covers all the above areas in one order.
 - [`GUARD`]
 - [`CONTACT`]
 
-|     |     |
-| --- | --- |
+|                   |         |
+|-------------------|---------|
 | Continue reading: | [magic] |
 
 [magic]: ./magic.md "Magie"  
@@ -57,7 +57,7 @@ this covers all the above areas in one order.
 [supporting]: ./silver.md#Unterhaltskosten "Silver"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [raise taxes]: ./silver.md "Silver"
-[recruit]:./silver.md#recruiting "RECRUIT"
+[recruit]: ./silver.md#recruiting "RECRUIT"
 [produce]: ./resources.md "Resources"
 [after battles]: ./war.md#Kampfende "War"
 [enter]: ./cmd-enter.md "ENTER"

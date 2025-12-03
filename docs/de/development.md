@@ -65,7 +65,7 @@ Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimie
 [Handel]: /Automatisierung_Handel "Automatisierung Handel"
 [Transport]: /Automatisierung_Transport "Automatisierung Transport"
 [Lernketten]: /Automatisierung_Lernketten "Automatisierung Lernketten"
-[Produktion]: /index.php?title=Automatisierung_Produktion&action=edit&redlink=1 "Automatisierung Produktion (Seite nicht vorhanden)"
+[Produktion]: ./production.md "Automatisierung Produktion (Seite nicht vorhanden)"
 [Wegfindung]: /index.php?title=Automatisierung_Wegfindung&action=edit&redlink=1 "Automatisierung Wegfindung (Seite nicht vorhanden)"
 [Ereignissreaktion]: /Automatisierung_Ereignissreaktion "Automatisierung Ereignissreaktion"
 [Wegfindung / Routenberechnung]: /Optimierung_Wegfindung "Optimierung Wegfindung"

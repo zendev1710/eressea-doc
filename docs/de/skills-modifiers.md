@@ -4,9 +4,8 @@ Die verschiedenen [Rassen] haben neben ihren Spezialfähigkeiten unterschiedlich
 
 Rassenmodifikatoren
 
-|                     |          |        |         |          |           |             |            |           |            |          |          |
-|---------------------|----------|--------|---------|----------|-----------|-------------|------------|-----------|------------|----------|----------|
 | Talent              | [Zwerge] | [Orks] | [Elfen] | [Katzen] | [Dämonen] | [Halblinge] | [Menschen] | [Goblins] | [Insekten] | [Trolle] | [Meerm.] |
+|---------------------|----------|--------|---------|----------|-----------|-------------|------------|-----------|------------|----------|----------|
 | Rekrutierungskosten | 110      | 70     | 130     | 90       | 150       | 80          | 75         | 40        | 80         | 90       | 80       |
 | Trefferpunkte       | 24       | 24     | 18      | 20       | 50        | 18          | 20         | 16        | 24         | 30       | 20       |
 | nat. Rüstung        | 0        | 0      | 0       | 0        | 2         | 0           | 0          | 0         | 2          | 1        | 0        |
@@ -41,7 +40,6 @@ Rassenmodifikatoren
 | Wagenbau            | 0        | \-1    | 0       | 0        | \-2       | +2          | 0          | \-1       | 0          | 0        | 0        |
 | Wahrnehmung         | 0        | 0      | +1      | +2       | +1        | +1          | 0          | 0         | +1         | \-1      | 0        |
 
-|              |           |
 |--------------|-----------|
 | Weiterlesen: | [Talente] |
 
@@ -52,7 +50,7 @@ Rassenmodifikatoren
 [Orks]: ./races.md#orks "Orks"
 [Elfen]: ./races.md#elfen "Elfen"
 [Katzen]: ./races.md#katzen "Katzen"
-[Dämonen]: ./race.md#Dämonen "Rassen"
+[Dämonen]: ./race.md#dämonen "Rassen"
 [Halblinge]: ./races.md#halblinge "Halblinge"
 [Menschen]: ./races.md##menschenen "Menschen"
 [Goblins]: ./races.md#goblins "Goblins"

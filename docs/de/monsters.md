@@ -76,5 +76,5 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 [Igjarjuk]: /index.php?title=Igjarjuk&action=edit&redlink=1 "Igjarjuk (Seite nicht vorhanden)"
 [Pentagramm und Tirawon]: /Pentagramm_und_Tirawon "Pentagramm und Tirawon"
 [Draig]: /index.php?title=Draig&action=edit&redlink=1 "Draig (Seite nicht vorhanden)"
-[Astralraum]: ./cmd-magic.md#Der_Astralraum "Magie"
+[Astralraum]: ./cmd-magic.md#der-astralraum "Magie"
 [Vertraute]: ./familiars.md "Vertraute"

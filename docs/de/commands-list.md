@@ -6,9 +6,8 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 
 Kurzliste der Befehle
 
-|                                                             |                                                        |         |
-|-------------------------------------------------------------|--------------------------------------------------------|---------|
 | Befehl                                                      | Beschreibung                                           | K/L     |
+|-------------------------------------------------------------|--------------------------------------------------------|---------|
 | [//]                                                        | bleibender Kommentar                                   | [K]     |
 | [ARBEITE]                                                   | verdient 10 Silber oder mehr                           | [L]     |
 | [ATTACKIERE einheit-nr]                                     | greift die Einheit an                                  | [(l)] 1 |
@@ -147,11 +146,11 @@ Kurzliste der Befehle
 | [ZÜCHTE PFERDE]                                             | Pferde züchten - nur in Pferdezucht                    | L       |
 
 [//]: ./cmd-comment.md "KOMMENTAR"
-[K]: ./commands.md#KurzLang "Befehl"
+[K]: ./commands.md#kurzlang "Befehl"
 [ARBEITE]: ./cmd-work.md "ARBEITE"
-[L]: ./commands.md#KurzLang "Befehl"
+[L]: ./commands.md#kurzlang "Befehl"
 [ATTACKIERE einheit-nr]: ./cmd-attack.md "ATTACKIERE"
-[(l)]: ./commands.md#KurzLang "Befehl"
+[(l)]: ./commands.md#kurzlang "Befehl"
 [BANNER "text"]: ./cmd-banner.md "BANNER"
 [BEANSPRUCHE anzahl gegenstand]: ./cmd-claim.md "BEANSPRUCHE"
 [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
@@ -295,7 +294,6 @@ Kurzliste der Befehle
 - [Befehle]
 - [Befehlsreihenfolge]
 
-|              |                 |
 |--------------|-----------------|
 | Weiterlesen: | [Der erste Zug] |
 
@@ -304,7 +302,7 @@ Kurzliste der Befehle
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [Befehl]: ./commands.md "Befehl"
-[<sup>(l)</sup>]: ./commands.md#KurzLang "Befehl"
+[<sup>(l)</sup>]: ./commands.md#kurzlang "Befehl"
 [Kampfende]: ./war.md#kampfende "Kampfende"
 [Befehle]: ./commands.md "Befehle"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

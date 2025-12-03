@@ -377,7 +377,7 @@ Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt,
 [Katze (Designerin)]: /index.php?title=Katze_(Designerin)&action=edit&redlink=1 "Katze (Designerin) (Seite nicht vorhanden)"
 [Enno Rehling]: /index.php?title=Enno&action=edit&redlink=1 "Enno (Seite nicht vorhanden)"
 [Faroul]: /index.php?title=Faroul&acti.mdon=edit&redlink=1 "Faroul (Seite nicht vorhanden)"
-[ECheck]: /ECheck "ECheck"
+[ECheck]: ./echeck.md "ECheck"
 [Xolgrim]: /Benutzer:Xolgrim "Benutzer:Xolgrim"
 [Xontormia-Express]: ./xontormia-express "Xontormia-Express"
 [E3A]: /E3A "E3A"

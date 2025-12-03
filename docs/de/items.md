@@ -8,9 +8,8 @@ Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie könne
 
 Gewicht, Talente und Materialbedarf
 
-|                   |         |               |      |                      |
-|-------------------|---------|---------------|------|----------------------|
 | Gegenstand        | Gewicht | Talent        | min. | Rohstoffe            |
+|-------------------|---------|---------------|------|----------------------|
 | Silber            | 0,01    | \-/-          | \-/- | \-/-                 |
 | Juwelen           | 1       | Handeln       | 1    | \-/-                 |
 | Weihrauch         | 2       | Handeln       | 1    | \-/-                 |
@@ -67,7 +66,6 @@ Gewicht, Talente und Materialbedarf
 - [Gebäude]
 - [Kriegstabellen]
 
-|              |          |
 |--------------|----------|
 | Weiterlesen: | [Straße] |
 

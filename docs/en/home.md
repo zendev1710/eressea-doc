@@ -71,7 +71,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
   [Eressea]: /Eressea "Eressea"
   [Discord]: https://discord.gg/KT5Fffh
   [rules]: ./rules.md "Regeln"
-  [Registering for the game]: ./hints.md#Anmeldung "Hinweise"
+  [Registering for the game]: ./hints.md#anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
   [Tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
   [Tips for beginners]: ./getting-started-tips.md "Anfängertipps"

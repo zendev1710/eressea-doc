@@ -61,9 +61,8 @@ Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht 
 
 Mails an Eressea
 
-|                                |                                      |
-|--------------------------------|--------------------------------------|
 | Betreff                        | Hinweis                              |
+|--------------------------------|--------------------------------------|
 | ERESSEA 2 BEFEHLE              | Enthält Befehle für Eressea im Text  |
 | ERESSEA 2 REPORT nr "passwort" | Fordert den Report für die Partei an |
 
@@ -137,7 +136,6 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 - [Der erste Zug]
 - [Befehle]
 
-|              |            |
 |--------------|------------|
 | Weiterlesen: | [Hinweise] |
 

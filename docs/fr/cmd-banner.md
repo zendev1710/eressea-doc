@@ -11,4 +11,4 @@ Hiermit kann man eine Beschreibung setzen, die in der Adressliste von [`OPTION`]
 <!-- From [https://wiki.eressea.de/index.php?title=BANNER&oldid=6357] -->
 
   [`OPTION`]: ./cmd-option.md "OPTION"
-  [Urlaubsvertretung]: ./hints.md#Schummeln "Hinweise"
+  [Urlaubsvertretung]: ./hints.md#schummeln "Hinweise"

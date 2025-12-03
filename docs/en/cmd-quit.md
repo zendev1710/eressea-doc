@@ -34,5 +34,5 @@ Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann 
 <!-- From [https://wiki.eressea.de/index.php?title=STIRB&oldid=16825] -->
 
 [HELFE SILBER]: ./cmd-help.md "HELFE"
-[Orks]: ./races.md#Orks "Rassen"
-[Dämonen]: ./races.md#Dämonen "Rassen"
+[Orks]: ./races.md#orks "Rassen"
+[Dämonen]: ./races.md#dämonen "Rassen"

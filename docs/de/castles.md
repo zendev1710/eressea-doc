@@ -35,9 +35,8 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 
 Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 
-|               |          |           |             |             |                    |
-|---------------|----------|-----------|-------------|-------------|--------------------|
 | Typ           | ab Größe | Burgenbau | Silberbonus | Erlösanteil | Verteidigungsbonus |
+|---------------|----------|-----------|-------------|-------------|--------------------|
 | Grundmauern   | 1        | 1         | 0 Silber    | nichts      | 0                  |
 | Handelsposten | 2        | 1         | 0 Silber    | 6%          | 0                  |
 | Befestigung   | 10       | 2         | 1 Silber    | 12%         | +1                 |
@@ -53,7 +52,6 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 - [Boni und Mali]
 - [Einnahmen]
 
-|              |                  |
 |--------------|------------------|
 | Weiterlesen: | [Andere Gebäude] |
 

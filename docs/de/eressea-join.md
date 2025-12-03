@@ -83,13 +83,13 @@ sollten am Ende eines Artikels als Liste im eigenen Abschnitt stehen:
 
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea:Mitmachen&oldid=16081] -->
 
-[Regelseiten]: /Regeln "Regeln"
+[Regelseiten]: ./rules.md "Regeln"
 [unten]: #regeln
 [Discord]: https://discord.gg/KT5Fffh
 [Ein paar ungewöhnliche aber wichtige Befehle]: /Eressea:Editierhilfe "Eressea:Editierhilfe"
 [Hilfe bei Mediawiki]: http://www.mediawiki.org/wiki/Help:Formatting/de
 [Hilfe bei Wikipedia]: http://de.wikipedia.org/wiki/Hilfe:Bearbeitungshilfe
 [English Wiki Formatting Rules]: http://www.mediawiki.org/wiki/Help:Formatting
-[Das dritte Zeitalter]: /Das_dritte_Zeitalter "Das dritte Zeitalter"
+[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [Eressea:Translating]: /Eressea:Translating "Eressea:Translating"
 [mw:Help:Formatting]: /index.php?title=Mw:Help:Formatting&action=edit&redlink=1 "Mw:Help:Formatting (Seite nicht vorhanden)"

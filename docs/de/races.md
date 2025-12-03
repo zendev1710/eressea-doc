@@ -124,7 +124,6 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
 - [Zwergenmagier][Magier] regenerieren Aura 50% langsamer.
 
-|              |                       |
 |--------------|-----------------------|
 | Weiterlesen: | [Talentmodifikatoren] |
 
@@ -134,12 +133,12 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 
 [Boni bzw. Mali]: ./skills-modifiers.md "Talentmodifikatoren"
 [Hungerregel]: ./silver.md#hunger "Hunger"
-[Rekrutierte]: ./silver.md#ausgaben#Rekrutieren "Ausgaben"
+[Rekrutierte]: ./silver.md#ausgaben#rekrutieren "Ausgaben"
 [`GIB 0`]: ./cmd-give.md "GIB"
 [tarnen]: ./cmd-hide.md "TARNE"
 [Regionskapazität]: ./world.md "Welt"
 [Magier]: ./magic.md "Magic"
-[Elfenbögen]: ./war-tables.md#Waffeneigenschaften "Kriegstabellen"
+[Elfenbögen]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [klauen]: ./cmd-steal.md "BEKLAUE"
 [Schiffe]: ./ships.md "Schiff"
 [fliehen]: ./war.md#die-flucht "Krieg"
@@ -147,7 +146,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 [Drachen]: ./monsters.md#drachen "Drachen"
 [Alchemie]: ./skills-list.md "Liste der Talente"
 [Trank]: ./alchemy.md "Tränke"
-[hier]: ./war-tables.md#Rasseneigenschaften "Kriegstabellen"
+[hier]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
 [Taktik]: ./tactic.md "Taktik"
 [Gruppen]: ./cmd-group.md "Gruppen (Seite nicht vorhanden)"
 [handeln]: ./silver.md#handel "Geld"
@@ -157,7 +156,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 [`ARBEITE`]: ./cmd-work.md "ARBEITE"
 [teuren Talenten]: ./skills.md "Talente"
 [Helden]: ./cmd-promote.md "BEFÖRDERE"
-[abgebaute Steine]: ./resources.md#Vom_Bergbau "Rohstoffe"
-[Steinbruch]: ./buildings-others.md#Steinbruch "Andere Gebäude"
+[abgebaute Steine]: ./resources.md#vom-bergbau "Rohstoffe"
+[Steinbruch]: ./buildings-others.md#steinbruch "Andere Gebäude"
 [FAHRE]: ./cmd-ride.md "FAHRE"
-[11]: ./buildings-others.md#Bergwerk "Andere Gebäude"
+[11]: ./buildings-others.md#bergwerk "Andere Gebäude"

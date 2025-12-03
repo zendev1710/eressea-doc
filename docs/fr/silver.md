@@ -174,7 +174,7 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [travailler]: ./cmd-work.md "WORK"
 [divertir]: ./cmd-entertain.md "ENTERTAIN"
 [collecter les impôts]: ./cmd-tax.md "TAX"
-[commercer]: ./silver.md#Handel "Argent"
+[commercer]: ./silver.md#handel "Argent"
 [Races]: ./race.md "Rassen"
 [HELP SILVER]: ./cmd-help.md "HELP"
 [ici]: ./alliances.md "Allianz"

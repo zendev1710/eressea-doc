@@ -70,7 +70,7 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 
   [Eressea]: /Eressea "Eressea"
   [Regeln]: ./rules.md "Regeln"
-  [Anmeldung zum Spiel]: ./hints.md#Anmeldung "Hinweise"
+  [Anmeldung zum Spiel]: ./hints.md#anmeldung "Hinweise"
   [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
   [Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
   [Anfängertipps]: ./getting-started-tips.md "Anfängertipps"

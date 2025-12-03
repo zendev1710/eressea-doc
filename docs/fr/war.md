@@ -325,18 +325,18 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 [Tacticien]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
 [Héros]: /index.php?title=Sp%C3%A9cial:MyLanguage/BEF%C3%96RDERUNG&action=edit&redlink=1 "Spécial:MyLanguage/BEFÖRDERUNG (Seite nicht vorhanden)"
-[Caractéristiques des armes]: ./war.mdstabellen#Waffeneigenschaften "Guerrestabellen"
-[Modificateurs de compétences]: ./war.mdstabellen#Caractéristiques_raciales "Guerrestabellen"
-[ce]: ./war.mdstabellen#Rüstung "Guerrestabellen"
-[Résistance à la magie]: ./war.mdstabellen#Magieresistenz "Guerrestabellen"
-[ce tableau]: ./war.mdstabellen#Ausdauer "Guerrestabellen"
-[débordé]: #Schlacht
-[à mains nues]: #Bonus_et_Malus
+[Caractéristiques des armes]: ./war.mdstabellen#waffeneigenschaften "Guerrestabellen"
+[Modificateurs de compétences]: ./war.mdstabellen#caractéristiques-raciales "Guerrestabellen"
+[ce]: ./war.mdstabellen#rüstung "Guerrestabellen"
+[Résistance à la magie]: ./war.mdstabellen#magieresistenz "Guerrestabellen"
+[ce tableau]: ./war.mdstabellen#ausdauer "Guerrestabellen"
+[débordé]: #schlacht
+[à mains nues]: #bonus-et-malus
 [MAKE ammunition]: ./cmd-make.md "MAKE"
-[tables de combat]: ./war.mdstabellen#Kampfmodifikatoren "Guerrestabellen"
+[tables de combat]: ./war.mdstabellen#kampfmodifikatoren "Guerrestabellen"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [Schiffe]: ./ships.mde "Schiffe"
-[Schaden]: ./ships.md#Schiffsschaden "Schiff"
+[Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"

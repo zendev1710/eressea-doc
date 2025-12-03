@@ -46,7 +46,6 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 - [BEWACHE]
 - [KONTAKTIERE]
 
-|              |         |
 |--------------|---------|
 | Weiterlesen: | [Magie] |
 

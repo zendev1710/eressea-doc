@@ -38,9 +38,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Größenbegrenzung:          | Keine                                 |
 | Kapazität:                 | 4 Einheiten                           |
 
-|       |             |            |
-|-------|-------------|------------|
 | Größe | Wahrnehmung | Sichtweite |
+|-------|-------------|------------|
 | 10    | 3           | 1          |
 | 10    | 6           | 2          |
 | 100   | 9           | 3          |
@@ -296,7 +295,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 [HELFE BEWACHE]: ./cmd-help.md "HELFE"
 [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
 [Tabelle zu Burgen]: ./castles.md#übersicht "Burgen"
-[gesegnet werden]: ./spells-descriptions.md#Segne_Steinkreis "Zauberbeschreibungen E2"
+[gesegnet werden]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
 [Gebäude]: ./buildings.md "Gebäude"
 [Burgen]: ./castles.md "Burgen"
 [Produktion]: ./production.md "Produktion"

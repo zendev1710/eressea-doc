@@ -10,7 +10,6 @@ Eressea ist ein Spiel im Fluss. Es hat in den letzten Jahren kontinuierliche Ver
 
 Das Editieren dieser Regeln ist erlaubt und erwünscht, beachtet aber bitte unbedingt die [Hinweise zum Editieren der Regeln]!
 
-|              |              |
 |--------------|--------------|
 | Weiterlesen: | [Einleitung] |
 

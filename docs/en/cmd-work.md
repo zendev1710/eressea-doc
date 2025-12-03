@@ -26,7 +26,7 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 <!-- From [https://wiki.eressea.de/index.php?title=ARBEITE/en&oldid=11713] -->
 
-  [diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
+  [diese Tabelle]: /Einnahmen#beispiele-zu-den-verdienstmöglichkeiten "Einnahmen"
   [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
   [`HELFE`]: ./cmd-help.md "HELFE"
   [`UNTERHALTE`]: ./cmd-entertain.md "UNTERHALTE"

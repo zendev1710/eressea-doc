@@ -78,7 +78,6 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 - [Kurzbeschreibung]
 - [Befehlsreihenfolge (E3)]
 
-|              |                    |
 |--------------|--------------------|
 | Weiterlesen: | [Kurzbeschreibung] |
 

@@ -291,7 +291,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 [HELP GUARD]: ./cmd-help.md "HELFE"
 [DESTROY]: ./cmd-destroy.md "ZERSTÖRE"
 [table des chateaux]: ./castles.md#übersicht "Burgen"
-[puissant sort]: ./spells-descriptions.md#Segne_Steinkreis "Zauberbeschreibungen E2"
+[puissant sort]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
 [Bâtiments]: ./buildings.md "Gebäude"
 [Châteaux]: ./castles.md "Burgen"
 [Production]: ./production.md "Produktion"

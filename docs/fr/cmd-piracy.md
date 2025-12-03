@@ -10,6 +10,6 @@ Mit diesem Befehl legt sich der Kapitän eines Schiffes automatisch auf die Laue
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRATERIE&oldid=16789] -->
 
-  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
+  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
   [`HELFE`]: ./cmd-help.md "HELFE"
   [Piraterie]: ./war.md#piraterie "Piraterie"

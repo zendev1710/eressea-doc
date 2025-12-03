@@ -32,7 +32,6 @@ In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug best
 
 Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move Received). Bei 4 NMR in Folge wird die Partei automatisch aus dem Spiel genommen, also wird beim 5. NMR die Partei gelöscht.
 
-|              |        |
 |--------------|--------|
 | Weiterlesen: | [Welt] |
 

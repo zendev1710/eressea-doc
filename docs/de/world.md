@@ -63,7 +63,6 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 - [REKRUTIERE]
 - [UNTERHALTE]
 
-|              |            |
 |--------------|------------|
 | Weiterlesen: | [Parteien] |
 
@@ -79,6 +78,6 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 [Befehle]: ./commands.md "Befehle"
 [Insekt]: ./races.md#insekten "Insekt"
 [See]: ./travel.md "Reisen"
-[Waldwachstums]: ./resources.md#Tief_im_Wald "Rohstoffe"
+[Waldwachstums]: ./resources.md#tief-im-wald "Rohstoffe"
 [Geld]: ./silver.md "Geld"
 [UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"

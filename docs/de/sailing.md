@@ -17,9 +17,8 @@ Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheite
 
 Schiffe - Reichweite, Kapazität, Talente
 
-|               |            |           |                   |           |         |
-|---------------|------------|-----------|-------------------|-----------|---------|
 | Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+|---------------|------------|-----------|-------------------|-----------|---------|
 | Boot          | 2          | 50        | 1/2               | 1         | 5       |
 | Langboot      | 3          | 500       | 1/10              | 1         | 50      |
 | Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
@@ -89,7 +88,6 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 - [Reisen][2]
 - [Schiff][Schiffen]
 
-|              |              |
 |--------------|--------------|
 | Weiterlesen: | [Produktion] |
 
@@ -98,7 +96,7 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
 [Schiffen]: ./ships.md "Schiff"
-[**Hafen**]: ./buildings-others.md#Hafen "Andere Gebäude"
+[**Hafen**]: ./buildings-others.md#hafen "Andere Gebäude"
 [Schaden]: #schiffsschaden
 [HELFE]: ./cmd-help.md "HELFE"
 [FOLGE]: ./cmd-follow.md "FOLGE"

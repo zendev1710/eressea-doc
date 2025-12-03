@@ -10,4 +10,4 @@ Der Befehl kann sowohl im Kontext der gesamten Partei als auch im Gruppenkontext
 
 <!-- From [https://wiki.eressea.de/index.php?title=PRÄFIX&oldid=5733] -->
 
-[Gruppe]: /GRUPPE "GRUPPE"
+[Gruppe]: ./cmd-group.md "GRUPPE"

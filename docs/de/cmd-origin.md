@@ -8,4 +8,4 @@ Hinweis: Der Befehl gilt für die Ebene, in der sich die Partei befindet (siehe 
 
 <!-- From [https://wiki.eressea.de/index.php?title=URSPRUNG/fr&oldid=14966] -->
 
-[Astralraum]: ./cmd-magic.md#Der_Astralraum "Magie"
+[Astralraum]: ./cmd-magic.md#der-astralraum "Magie"

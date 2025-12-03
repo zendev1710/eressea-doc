@@ -29,9 +29,9 @@ Construction de routes
 | Desert       | 100     | [Caravanserai] |
 | Glacier      | 250     | [Tunnel]       |
 
-[Dam]: ./buildings-others.md#Damm "Andere Gebäude"
-[Caravanserai]: ./buildings-others.md#Karawanserei "Andere Gebäude"
-[Tunnel]: ./buildings-others.md#Tunnel "Andere Gebäude"  
+[Dam]: ./buildings-others.md#damm "Andere Gebäude"
+[Caravanserai]: ./buildings-others.md#karawanserei "Andere Gebäude"
+[Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"  
 
 |              |           |
 |--------------|-----------|

@@ -52,7 +52,7 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 [Herbalism]: ./skills-list.md "Liste des compétences"
 [`PLANT`]: ./cmd-plant.md "PLANT"
 [Stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
-[Liste des Plantes]: ./herbs.md#Kräuterliste "Plantes"
+[Liste des Plantes]: ./herbs.md#kräuterliste "Plantes"
 [Production]: ./production.md "Produktion"
 [Routes]: ./roads.md "Straßen"
 [Bâtiments]: ./buildings.md "Gebäude"

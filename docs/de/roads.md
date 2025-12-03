@@ -8,9 +8,8 @@ Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Au
 
 Straßenbau
 
-|              |        |                |
-|--------------|--------|----------------|
 | Gelände      | Steine | Gebäude        |
+|--------------|--------|----------------|
 | Ebene / Wald | 50     | \-             |
 | Hochland     | 100    | \-             |
 | Gebirge      | 250    | \-             |
@@ -19,9 +18,9 @@ Straßenbau
 | Wüste        | 100    | [Karawanserei] |
 | Gletscher    | 250    | [Tunnel]       |
 
-[Damm]: ./buildings-others.md#Damm "Andere Gebäude"
-[Karawanserei]: ./buildings-others.md#Karawanserei "Andere Gebäude"
-[Tunnel]: ./buildings-others.md#Tunnel "Andere Gebäude"
+[Damm]: ./buildings-others.md#damm "Andere Gebäude"
+[Karawanserei]: ./buildings-others.md#karawanserei "Andere Gebäude"
+[Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
 
 **Beispiel:** Um von der Ebene bei (0,0) über den Sumpf bei (1,0) bis zum Berg in (1,1) eine Straße zu bauen, brauchst du
 
@@ -33,7 +32,6 @@ Straßenbau
 
 Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (1,1) reisen.
 
-|              |          |
 |--------------|----------|
 | Weiterlesen: | [Schiff] |
 

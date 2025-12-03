@@ -71,7 +71,7 @@ Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen 
  ENDE
 ```
 
-[Migranteneinheit]: ./races.md#Menschen "Rassen"
+[Migranteneinheit]: ./races.md#menschen "Rassen"
 
 Mit `GIB`*`einheit-nr`*`EINHEIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 

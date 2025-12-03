@@ -29,7 +29,6 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 - [Gebäude]
 - [Parteipool]
 
-|              |             |
 |--------------|-------------|
 | Weiterlesen: | [Rohstoffe] |
 

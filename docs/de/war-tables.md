@@ -6,9 +6,8 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 
 Waffenschäden
 
-|                     |               |             |               |      |     |     |        |               |
-|---------------------|---------------|-------------|---------------|------|-----|-----|--------|---------------|
 | Waffe               | Schaden/Fuß   | ⌀           | Schaden/Pferd | ⌀    | OB  | DB  | Talent | Summe OB + DB |
+|---------------------|---------------|-------------|---------------|------|-----|-----|--------|---------------|
 | Katapult ¹          | 3d10+5; 6 mal | 21,5; 6 mal | 3d10+5; 6 mal | 21.5 | \-4 | 0   | K      | \-4           |
 | Armbrust²           | 3d3+5         | 11          | 3d3+5         | 11   | 0   | 0   | A      | 0             |
 | Mallornarmbrust²    | 3d3+6         | 12          | 3d3+6         | 12   | 0   | 0   | A      | 0             |
@@ -76,9 +75,8 @@ Sehr stark: &gt; 200% HP
 
 Rüstungen
 
-|                        |           |               |
-|------------------------|-----------|---------------|
 | Rüstung                | Panzerung | Trefferchance |
+|------------------------|-----------|---------------|
 | Plattenpanzer          | 5         | 130%          |
 | Kettenhemd             | 3         | 115%          |
 | Schild                 | 1         | 85%           |
@@ -89,7 +87,6 @@ Rüstungen
 | Rostiges Kettenhemd    | 2         | 130%          |
 | Rostiger Plattenpanzer | 3         | 145%          |
 
-|         |           |
 |---------|-----------|
 | **E3A** | Rüstungen |
 
@@ -109,9 +106,8 @@ Ein Plattenpanzer fängt also von jedem Treffer 5 Punkte ab, erhöht die Chance,
 
 Trefferpunkte, Magieresistenz und natürliche Rüstung
 
-|              |               |           |              |
-|--------------|---------------|-----------|--------------|
 | Rasse        | Trefferpunkte | Magieres. | nat. Rüstung |
+|--------------|---------------|-----------|--------------|
 | Menschen     | 20            | 0         | 0            |
 | Meermenschen | 20            | 0         | 0            |
 | Zwerge       | 24            | 5         | 0            |
@@ -144,10 +140,10 @@ Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nic
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
-[Goblins]: ./race.md#Goblins "Rassen"
-[Trolle]: ./race.md#Trolle "Rassen"
-[Orks]: ./race.md#Orks "Rassen"
-[Katzen]: ./race.md#Katzen "Rassen"
+[Goblins]: ./race.md#goblins "Rassen"
+[Trolle]: ./race.md#trolle "Rassen"
+[Orks]: ./race.md#orks "Rassen"
+[Katzen]: ./race.md#katzen "Rassen"
 [Vertraute]: ./familiars.md "Vertraute"
 [Pferdebonus]: ./war.md#boni-und-mali "Boni und Mali"
 [Talent]: ./skills.md "Talente"

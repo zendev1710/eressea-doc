@@ -71,7 +71,6 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 - [Der erste Zug]
 - [Grundlagen]
 
-|              |                     |
 |--------------|---------------------|
 | Weiterlesen: | [Xontormia-Express] |
 
@@ -87,15 +86,15 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 [Unterhaltung]: ./cmd-entertain.md "UNTERHALTE"
 [Steuereintreiber]: ./cmd-tax.md "TREIBE"
 [Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
-[Holzfällen]: ./resources.md#Tief_im_Wald "Rohstoffe"
-[Steuereintreiben]: ./skills.md#Arbeiten.2C_Unterhaltung.2C_Steuern_und_Handel "Talente"
-[Waffentalente]: ./skills.md#Waffentalente_und_Ausdauer "Talente"
+[Holzfällen]: ./resources.md#tief-im-wald "Rohstoffe"
+[Steuereintreiben]: ./skills.md#arbeiten.2c-unterhaltung.2c-steuern-und-handel "Talente"
+[Waffentalente]: ./skills.md#waffentalente-und-ausdauer "Talente"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Diebstahl]: ./silver.md#Diebstahl:_der_unehrliche_Weg "Geld"
+[Diebstahl]: ./silver.md#diebstahl:-der-unehrliche-weg "Geld"
 [Burgen]: ./castles.md "Burg"
 [Burgenbau]: ./buildings.md "Gebäude"
-[Handel]: ./silver.md#Handel "Geld"
-[Pferde und ggf. Wägen]: ./travel.md#Pferd_und_Wagen "Reisen"
+[Handel]: ./silver.md#handel "Geld"
+[Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
 [Taktiker]: ./tactic.md "Taktik"
 [Alchemisten]: ./skills-list.md "Liste der Talente"
 [Magier]: ./cmd-magic.md "Magie"

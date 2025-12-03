@@ -100,7 +100,7 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 [magie]: ./magic.md "Magie"
 [alchimie]: ./skills-list.md "Liste des compétences"
 [tactics]: ./tactic.md "Taktik"
-[1]: ./buildings-others.md#Akademie "Andere Gebäude"
+[1]: ./buildings-others.md#akademie "Andere Gebäude"
 [`FORGET`]: ./cmd-forget.md "FORGET"
 [production]: ./production.md "Produktion"
 [2]: ./alchemy.cmd "Alchemie"

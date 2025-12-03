@@ -122,7 +122,7 @@ Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet
 
 Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
 
-Durch einen [Ring der Macht], [Andere Gebäude#Magierturm] oder [gesegneten Steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
+Durch einen [Ring der Macht], [Andere Gebäude#magierturm] oder [gesegneten Steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
 
 Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer] beeinflusst.
 
@@ -254,7 +254,7 @@ Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht
 
 ## Magierturm
 
-Ein [Magierturm][Andere Gebäude#Magierturm] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
+Ein [Magierturm][Andere Gebäude#magierturm] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
 
 ## Vertraute
 
@@ -287,7 +287,6 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
-|              |                |
 |--------------|----------------|
 | Weiterlesen: | [Magiegebiete] |
 
@@ -308,24 +307,24 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
   [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
   [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
   [KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md "KAMPFZAUBER"
-  [KÄMPFE-Befehle]: ./war.md#Kampfreihen "Krieg"
-  [Die Seiten in einer Schlacht]: ./war.md#Die_Seiten_in_einer_Schlacht "Krieg"
+  [KÄMPFE-Befehle]: ./war.md#kampfreihen "Krieg"
+  [Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
   [ATTACKIERE]: ./cmd-attack.md "ATTACKIERE"
   [Aura]: #aura
   [Fernzauber]: #fernzauber
   [Magieresistenz]: #magieresistenz
   [Ring der Macht]: /Ring_der_Macht "Ring der Macht (Seite nicht vorhanden)"
-  [Andere Gebäude#Magierturm]: ./buildings-others.md#Magierturm "Andere Gebäude"
-  [gesegneten Steinkreis]: ./buildings-others.md#Steinkreis "Andere Gebäude"
+  [Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
+  [gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
   [Wahrscheinlichkeit für Patzer]: #patzer
   [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
   [Rassen]: ./races.md "Rasse (Seite nicht vorhanden)"
   [Zauber]: /Zauberliste_E2 "Zauberliste E2"
-  [Waffen oder Rüstungen]: ./war.mdstabellen#Magieresistenz "Kriegstabellen"
+  [Waffen oder Rüstungen]: ./war.mdstabellen#magieresistenz "Kriegstabellen"
   [Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
-  [Chaosfluch]: /Zauberliste_E2#Chaosfluch "Zauberliste E2"
+  [Chaosfluch]: /Zauberliste_E2#chaosfluch "Zauberliste E2"
   [Vertraute]: ./familiars.md "Vertraute"
   [NACH]: ./cmd-move.md "NACH"
-  [Wesen]: ./monsters.md#Hirntöter "Monster"
+  [Wesen]: ./monsters.md#hirntöter "Monster"
   [Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

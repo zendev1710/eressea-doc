@@ -101,13 +101,13 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
 
 [ships]: ./ships.md "Schiff"
-[**Harbour**]: ./buildings-others.md#Hafen "Andere Gebäude"
+[**Harbour**]: ./buildings-others.md#hafen "Andere Gebäude"
 [damages]: #damage-to-ships
 [HELP]: ./cmd-help.md "HELP"
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
-[Piracy]: ./war.md#Piraterie "War"
-[items]: ./items.md#Getenständen "Waren"
-[Weights and Capacities]: ./travel.md#Rassengewichte "Reisen"
+[Piracy]: ./war.md#piraterie "War"
+[items]: ./items.md#getenständen "Waren"
+[Weights and Capacities]: ./travel.md#rassengewichte "Reisen"
 [convoy]: ./ships.md#konvoi "Schiff"
 [MOVE]: ./cmd-move.md "MOVE"
 [ROUTE]: ./cmd-route.md "ROUTE"

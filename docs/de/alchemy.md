@@ -18,9 +18,8 @@ Die "Restwirkung" von Tränken verfällt nicht bei allen Tränken, so dass z.B. 
 
 Trankliste
 
-|       |        |                    |                                                                                    |                                                                                                |                      |
-|-------|--------|--------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------|
 | Stufe | Kürzel | Name               | Zutaten                                                                            | Beschreibung                                                                                   | Wirkung              |
+|-------|--------|--------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------|
 | 1     | TW     | Trank der Wahrheit | Flachwurz, Fjordwuchs                                                              | Dieser Trank hat schon seit einiger Zeit keine Funktion mehr                                   | Region               |
 | 1     | Sm     | Siebenmeilentee    | Blauer Baumringel, Windbeutel                                                      | 10 Leute schnell wie Pferde                                                                    | Einheit              |
 | 1     | Gw     | Goliathwasser      | Gurgelkraut, Fjordwuchs                                                            | 10 Leute Tragkraft wie Pferde                                                                  | Einheit              |
@@ -67,7 +66,6 @@ Trankliste
 | Weißer Wüterich   |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
 | Schneekristall    |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
 
-|              |           |
 |--------------|-----------|
 | Weiterlesen: | [Kräuter] |
 

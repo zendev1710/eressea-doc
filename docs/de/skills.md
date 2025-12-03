@@ -81,7 +81,6 @@ Segeln und Reiten werden im Kapitel über [Reisen] erklärt. Reiten ist zudem au
 
 Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im [Krieg] besonders relevant, sei es gegen andere Parteien oder Monster.
 
-|              |                     |
 |--------------|---------------------|
 | Weiterlesen: | [Liste der Talente] |
 
@@ -99,7 +98,7 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 [Magie]: ./magic.md "Magic"
 [Alchemie]: ./skills-list.md "Liste der Talente"
 [Taktik]: ./tactic.md "Taktik"
-[1]: ./buildings-others.md#Akademie "Andere Gebäude"
+[1]: ./buildings-others.md#akademie "Andere Gebäude"
 [`VERGISS`]: ./cmd-forget.md "VERGISS"
 [Produktion]: ./production.md "Produktion"
 [5]: ./alchemy.cmd "Alchemie"

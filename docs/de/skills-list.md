@@ -127,7 +127,6 @@ Bau von Wagen und Katapulten aus Holz. Pro Person und Talentstufe kann aus 5 Hol
 
 Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung]).
 
-|              |           |
 |--------------|-----------|
 | Weiterlesen: | [Tarnung] |
 
@@ -142,7 +141,7 @@ Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann ma
 [Gebäude und Burgen]: ./buildings.md "Gebäude"
 [Handel]: ./silver.md#handel "Handel"
 [KAUFE]: ./cmd-buy.md "KAUFE"
-[1]: ./resources.md#Tief_im_Wald "Rohstoffe"
+[1]: ./resources.md#tief-im-wald "Rohstoffe"
 [`FORSCHE KRÄUTER`]: ./cmd-research.md "FORSCHE"
 [`MACHE SAMEN`]: ./cmd-make.md "MACHE"
 [Produktion]: ./production.md "Produktion"

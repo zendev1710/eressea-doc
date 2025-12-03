@@ -18,9 +18,8 @@ TODO: Katapulte
 
 Gewichte und Kapazitäten
 
-|                            |         |           |
-|----------------------------|---------|-----------|
 |                            | Gewicht | Kapazität |
+|----------------------------|---------|-----------|
 | Trolle                     | 20      | 10,8      |
 | Goblins                    | 6       | 4,4       |
 | alle anderen Spielerrassen | 10      | 5,4       |
@@ -72,7 +71,6 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 - [Schiffe]
 - [Straße][Straßen]
 
-|              |                |
 |--------------|----------------|
 | Weiterlesen: | [Schiffsreise] |
 

@@ -147,11 +147,11 @@ Kurzliste der Befehle
 | [`GROW PFERDE`] | Pferde züchten - nur in Pferdezucht | L   |
 
 <!-- [//]: ./cmd-comment.md "KOMMENTAR"-->
-[K]: ./commands.md#KurzLang "Befehl"
+[K]: ./commands.md#kurzlang "Befehl"
 [`WORK`]: ./cmd-work.md "WORK"
-[L]: ./commands.md#KurzLang "Befehl"
+[L]: ./commands.md#kurzlang "Befehl"
 [`ATTACK <unit id>`]: ./cmd-attack.md "ATTACK"
-[(l)]: ./commands.md#KurzLang "Befehl"
+[(l)]: ./commands.md#kurzlang "Befehl"
 [`BANNER "<text>"`]: ./cmd-banner.md "BANNER"
 [`CLAIM <number> <item>`]: ./cmd-claim.md "CLAIM"
 [`PROMOTE`]: ./cmd-promote.md "PROMOTE"
@@ -304,7 +304,7 @@ Kurzliste der Befehle
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [Befehl]: ./commands.md "Befehl"
-[<sup>(l)</sup>]: ./commands.md#KurzLang "Befehl"
+[<sup>(l)</sup>]: ./commands.md#kurzlang "Befehl"
 [Kampfende]: ./war.md#fin-de-la-bataille"Fin de la bataille"
 [Befehle]: ./commands.md "Befehle"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

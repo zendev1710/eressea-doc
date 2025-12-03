@@ -33,7 +33,6 @@ Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe 
 - [Straßen]
 - [Gebäude]
 
-|              |         |
 |--------------|---------|
 | Weiterlesen: | [Waren] |
 
@@ -51,7 +50,7 @@ Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe 
 [`PFLANZE`]: ./cmd-plant.md "PFLANZE"
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
-[Kräuterliste]: ./herbs.md#Kräuterliste "Kräuter"
+[Kräuterliste]: ./herbs.md#kräuterliste "Kräuter"
 [Produktion]: ./production.md "Produktion"
 [Straßen]: ./roads.md "Straßen"
 [Gebäude]: ./buildings.md "Gebäude"

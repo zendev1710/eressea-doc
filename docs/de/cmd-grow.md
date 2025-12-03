@@ -16,7 +16,7 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE&oldid=16739] -->
 
-  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
-  [Pferdezucht]: ./buildings-others.md#Pferdezucht "Andere Gebäude"
+  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+  [Pferdezucht]: ./buildings-others.md#pferdezucht "Andere Gebäude"
   [Pferdedressur]: ./skills-list.md "Liste der Talente"
   [PFLANZE]: ./cmd-plant.md "PFLANZE"

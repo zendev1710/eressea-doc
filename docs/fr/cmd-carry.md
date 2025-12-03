@@ -34,7 +34,7 @@ Mit dem Befehl `FAHRE` schließt sich eine Einheit einer transportierenden Einhe
 
 <!-- From [https://wiki.eressea.de/index.php?title=FAHRE&oldid=16721] -->
 
-  [<sup>`L`</sup>]: ./commands.md#KurzLang "Befehl"
+  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
   [Meermenschen]: ./races.md#meermenschen "Meermenschen"
   [Anschwimmen]: ./travel.md#anschwimmen "Schiffsreisen"
   [Insekten]: ./races.md#insekten "Insekt"

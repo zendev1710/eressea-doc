@@ -52,7 +52,7 @@ Racial skill modifiers
 [orcs]: ./races.md#orks "Orks"
 [elves]: ./races.md#elves "Elfen"
 [cats]: ./races.md#katzen "Katzen"
-[demons]: ./race.md#Dämonen "Rassen"
+[demons]: ./race.md#dämonen "Rassen"
 [halflings]: ./races.md#halblinge "Halblinge"
 [humans]: ./races.md##menschenen "Menschen"
 [goblins]: ./races.md#goblins "Goblins"

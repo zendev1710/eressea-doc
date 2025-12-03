@@ -27,7 +27,7 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 
   [Gebäude]: ./buildings.md "Gebäude"
   [Schiff]: ./ships.md "Schiff"
-  [Kommando]: ./buildings.md#Einheiten_und_Gebäude "Gebäude"
+  [Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
   [HELFE]: ./cmd-help.md "HELFE"
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
   [VERLASSE]: ./cmd-leave.md "VERLASSE"

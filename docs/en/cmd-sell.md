@@ -18,7 +18,7 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERKAUFE&oldid=16784] -->
 
-  [<sup>`(l)`</sup>]: ./commands.md#KurzLang "Befehl"
+  [<sup>`(l)`</sup>]: ./commands.md#kurzlang "Befehl"
   [Handeln]: ./silver.md#handel "Handel"
   [Burgtyp]: ./castles.md "Burgen"
   [`KAUFE`]: ./cmd-buy.md "KAUFE"

@@ -28,7 +28,7 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[diese Tabelle]: /Einnahmen#Beispiele_zu_den_Verdienstmöglichkeiten "Einnahmen"
+[diese Tabelle]: /Einnahmen#beispiele-zu-den-verdienstmöglichkeiten "Einnahmen"
 [`GUARD`]: /GUARD "GUARD"
 [`HELP`]: /HELP "HELP"
 [`ENTERTAIN`]: /ENTERTAIN "ENTERTAIN"

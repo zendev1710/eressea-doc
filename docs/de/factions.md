@@ -56,7 +56,6 @@ Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gege
 - [Der Parteipool]
 - [Befehle]
 
-|              |          |
 |--------------|----------|
 | Weiterlesen: | [Rassen] |
 

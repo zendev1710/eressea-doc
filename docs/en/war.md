@@ -334,29 +334,29 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [tactics turn]: #taktik
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
-[combat rows]: #Schlacht
-[flee]: #Flucht
+[combat rows]: #schlacht
+[flee]: #flucht
 [`GROUP`]: ./cmd-group.md "GROUP"
 [combat at sea]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [fleeing]: ./war.md#flee "Die Flucht"
 [unarmed]: /Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
-[1]: #Boni_and_Mali
+[1]: #boni-and-mali
 [Tactician]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
 [Heroes]: ./cmd-promote.md "BEFÖRDERUNG"
-[Weapon characteristics]: ./war.mdstabellen#Waffeneigenschaften "Warstabellen"
-[Racial skill modifiers]: ./war.mdstabellen#Rasseneigenschaften "Warstabellen"
-[this]: ./war.mdstabellen#Rüstung "Warstabellen"
-[Magic Resistance]: ./war.mdstabellen#Magieresistenz "Warstabellen"
-[this table]: ./war.mdstabellen#Ausdauer "Warstabellen"
+[Weapon characteristics]: ./war.mdstabellen#waffeneigenschaften "Warstabellen"
+[Racial skill modifiers]: ./war.mdstabellen#rasseneigenschaften "Warstabellen"
+[this]: ./war.mdstabellen#rüstung "Warstabellen"
+[Magic Resistance]: ./war.mdstabellen#magieresistenz "Warstabellen"
+[this table]: ./war.mdstabellen#ausdauer "Warstabellen"
 [2]: #boni-und-mali
 [MAKE ammunition]: ./cmd-make.md "MAKE"
-[combat tables]: ./war.mdstabellen#Kampfmodifikatoren "Warstabellen"
+[combat tables]: ./war.mdstabellen#kampfmodifikatoren "Warstabellen"
 [COMBAT FLIGHT]: /COMBAT "COMBAT (Seite nicht vorhanden)"
 [`GIVE COMMAND`]: ./cmd-give.md "GIVE (Seite nicht vorhanden)"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [ships]: ./ships.mde "Schiffe"
-[damage]: ./ships.md#Schiffsschaden "Schiff"
+[damage]: ./ships.md#schiffsschaden "Schiff"
 [`LEAVE`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
 [races]: ./skills-modifiers.md "Talentmodifikatoren"

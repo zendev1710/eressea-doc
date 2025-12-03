@@ -77,9 +77,8 @@ Das Geld, das den Bauern nach den Steuern noch übrig bleibt, ist das Regionssil
 
 Verdienst und Lebenskosten
 
-|        |       |        |               |      |           |              |            |              |
-|--------|-------|--------|---------------|------|-----------|--------------|------------|--------------|
 | Region | Bäume | Bauern | Arbeitsplätze | Lohn | Einnahmen | Lebenskosten | Überschuss | Unterhaltung |
+|--------|-------|--------|---------------|------|-----------|--------------|------------|--------------|
 | Ebene  | 200   | 3742   | 8400          | 11   | 41162     | 37420        | 3742       | 187          |
 | Ebene  | 200   | 3742   | 8400          | 14   | 52388     | 37420        | 14968      | 748          |
 | Wald   | 818   | 3742   | 3456          | 11   | 38016     | 37420        | 596        | 29           |
@@ -117,9 +116,8 @@ Jede Handelsware hat einen festen Grundpreis (siehe Tabelle). Dies ist der Preis
 
 Grundpreise von Luxusgütern
 
-|           |            |
-|-----------|------------|
 | Luxusgut  | Grundpreis |
+|-----------|------------|
 | Balsam    | 4          |
 | Öl        | 3          |
 | Gewürz    | 5          |
@@ -163,7 +161,6 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 - [Tarnung][Tarnungstalent]
 - [BEWACHE]
 
-|              |                |
 |--------------|----------------|
 | Weiterlesen: | [Materialpool] |
 
@@ -174,7 +171,7 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 [Arbeiten]: ./cmd-work.md "ARBEITE"
 [Unterhalten]: ./cmd-entertain.md "UNTERHALTE"
 [Steuern eintreiben]: ./cmd-tax.md "TREIBE"
-[Handel]: ./silver.md#Handel "Geld"
+[Handel]: ./silver.md#handel "Geld"
 [Rassen]: ./race.md "Rassen"
 [rekrutieren]: ./cmd-recruit.md "REKRUTIERE"
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md "Talentmodifikatoren"

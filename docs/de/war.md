@@ -138,9 +138,8 @@ Katapulte benötigen Munition. Diese kann mittels [MACHE Katapultmunition] durch
 
 Schusswaffen - Proben, Zeitaufwand und Treffer
 
-|                                   |                   |               |           |
-|-----------------------------------|-------------------|---------------|-----------|
 | Waffe                             | Talent            | Offensivbonus | Nachladen |
+|-----------------------------------|-------------------|---------------|-----------|
 | Armbrust / Mallornarmbrust        | Armbrustschießen  | 0             | 2         |
 | Katapult                          | Katapultbedienung | \-4           | 5         |
 | Bogen / Mallornbogen / Elfenbogen | Bogenschießen     | \-2           | 0         |
@@ -293,7 +292,6 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 - [Taktik]
 - [Kriegstabellen]
 
-|              |           |
 |--------------|-----------|
 | Weiterlesen: | [Allianz] |
 
@@ -305,24 +303,24 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [Taktikerrunde]: #taktik
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
 [`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
-[Kampfreihen]: #Schlacht
-[flüchten]: #Flucht
+[Kampfreihen]: #schlacht
+[flüchten]: #flucht
 [`GRUPPE`]: ./cmd-group.md "GRUPPE"
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [Flucht]: ./war.md#die-flucht "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
 [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
 [Helden]: ./cmd-promote.md "BEFÖRDERUNG"
-[Waffeneigenschaften]: ./war-tables.md#Waffeneigenschaften "Kriegstabellen"
-[Rasseneigenschaften]: ./war-tables.md#Rasseneigenschaften "Kriegstabellen"
-[diese]: ./war-tables.md#Rüstung "Kriegstabellen"
-[Magieresistenz]: ./war-tables.md#Magieresistenz "Kriegstabellen"
-[diese Tabelle]: ./war-tables.md#Ausdauer "Kriegstabellen"
+[Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
+[Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
+[diese]: ./war-tables.md#rüstung "Kriegstabellen"
+[Magieresistenz]: ./war-tables.md#magieresistenz "Kriegstabellen"
+[diese Tabelle]: ./war-tables.md#ausdauer "Kriegstabellen"
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
-[10]: ./war-tables.md#Kampfmodifikatoren "Kriegstabellen"
+[10]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.mde "Schiffe"
-[Schaden]: ./ships.md#Schiffsschaden "Schiff"
+[Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"

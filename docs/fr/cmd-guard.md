@@ -36,12 +36,12 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
-  [Waffe]: ./war-tables.md#Waffeneigenschaften "Kriegstabellen"
+  [Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
   [bewaffnet]: ./armed.md "Bewaffnet"
   [alliiert]: ./alliances.md "Allianz"
   [`HELFE BEWACHE`]: ./cmd-help.md "HELFE"
   [`KONTAKTIERE`]: ./cmd-contact.md "KONTAKTIERE"
-  [HANDELN]: ./silver.md#Handel "Geld"
+  [HANDELN]: ./silver.md#handel "Geld"
   [`ARBEITEN`]: ./cmd-work.md "ARBEITE"
   [`UNTERHALTEN`]: ./cmd-entertain.md "UNTERHALTE"
   [`ATTACKIEREN`]: ./cmd-attack.md "ATTACKIERE"

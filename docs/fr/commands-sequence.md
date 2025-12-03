@@ -138,7 +138,7 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
   [DEFAULT]: ./cmd-default.md "DEFAULT"
   [SORT]: ./cmd-sort.md "SORT"
   [NUMBER]: ./cmd-number.md "NUMBER"
-  [notes explicatives]: #Erläuterungen
+  [notes explicatives]: #erläuterungen
   [item pool]: ./items-pool.md "Materialpool"
   [ordres]: ./commands.md "Befehle"
   [brève description DE/EN]: /Diskussion:Kurzbeschreibung "Diskussion:Kurzbeschreibung"

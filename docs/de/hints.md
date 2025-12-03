@@ -83,7 +83,6 @@ Wer einen Fehler des Programms zu seinem Vorteil ausnutzt, anstatt ihn der Spiel
 
 Seid nett zueinander. Auch euer ärgster Feind im Spiel ist sicherlich ein netter Mensch und verdient es nicht, mit Werbe-Mails, "Igitt-Bildern" und anderen Dingen bombardiert zu werden. **Unsoziales Verhalten führt zum Ausschluss vom Spiel.**
 
-|              |                 |
 |--------------|-----------------|
 | Weiterlesen: | [Anfängertipps] |
 

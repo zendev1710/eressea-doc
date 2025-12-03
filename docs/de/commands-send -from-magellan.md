@@ -95,8 +95,8 @@ Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_von\_Magellan\_verschicken&oldid=7407] -->
 
-[Magellan]: /Magellan "Magellan"
-[E-Mail-Versands]: /Befehle_einschicken "Befehle einschicken"
+[Magellan]: ./magellan.md "Magellan"
+[E-Mail-Versands]: ./reports-request-again.md "Befehle einschicken"
 [https://hilfe.gmx.net/pop-imap/index.html]: https://hilfe.gmx.net/pop-imap/index.html
 [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html]: https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html
 [https://hilfe.gmx.net/pop-imap/einschalten.html]: https://hilfe.gmx.net/pop-imap/einschalten.html

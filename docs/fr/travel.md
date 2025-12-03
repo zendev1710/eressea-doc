@@ -18,9 +18,8 @@ TODO: Katapulte
 
 Poids et Capacités
 
-|                         |       |           |
-|-------------------------|-------|-----------|
 |                         | Poids | Capacités |
+|-------------------------|-------|-----------|
 | trolls                  | 20    | 10,8      |
 | goblins                 | 6     | 4,4       |
 | autres races de joueurs | 10    | 5,4       |
@@ -72,9 +71,8 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 - [bateaux]
 - [routes]
 
-|              |            |
 |--------------|------------|
-| Weiterlesen: | [Naviguer] |
+| En savoir plus : | [Naviguer] |
 
 [Naviguer]: ./travel.md "Schiffsreise"
 

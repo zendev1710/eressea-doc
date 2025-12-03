@@ -13,9 +13,8 @@ Eressea est un jeu vivant. Il a connu des améliorations continues au cours des 
 
 L'édition de ces règles est autorisée et encouragée, mais il est important de respecter les [Conseils pour l'édition des règles] !
 
-|              |                |
 |--------------|----------------|
-| Weiterlesen: | [Introduction] |
+| En savoir plus : | [Introduction] |
 
 [Introduction]: ./introduction.md "Einleitung"
 

@@ -141,9 +141,8 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 - [RECRUIT][1]
 - [ENTERTAIN]
 
-|              |            |
 |--------------|------------|
-| Weiterlesen: | [Factions] |
+| En savoir plus : | [Factions] |
 
 [Factions]: ./factions.mden "Parteien"
 

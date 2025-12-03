@@ -161,9 +161,8 @@ Construction de chariots (cart) et de catapultes (catapults) avec du bois. 1 car
 
 L'unité est toujours à l'affût des unités camouflées. Cela vous permet par exemple d'éviter les vols (voir [perception]).
 
-|              |           |
 |--------------|-----------|
-| Weiterlesen: | [stealth] |
+| En savoir plus : | [stealth] |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 

@@ -42,9 +42,7 @@ this covers all the above areas in one order.
 - [`GUARD`]
 - [`CONTACT`]
 
-|                   |         |
-|-------------------|---------|
-| Continue reading: | [magic] |
+En savoir plus :  [magic]
 
 [magic]: ./magic.md "Magie"  
 

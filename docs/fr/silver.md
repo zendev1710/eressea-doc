@@ -77,9 +77,8 @@ L'argent qui reste aux paysans après les impôts est ajouté aux réserves de l
 
 Revenus et frais d'entretien
 
-|        |        |         |              |         |        |           |         |           |
-|--------|--------|---------|--------------|---------|--------|-----------|---------|-----------|
 | Region | Arbres | Paysans | Max. workers | Salaire | Revenu | Entretien | Surplus | Entertain |
+|--------|--------|---------|--------------|---------|--------|-----------|---------|-----------|
 | Plain  | 200    | 3742    | 8400         | 11      | 41162  | 37420     | 3742    | 187       |
 | Plain  | 200    | 3742    | 8400         | 14      | 52388  | 37420     | 14968   | 748       |
 | Forest | 818    | 3742    | 3456         | 11      | 38016  | 37420     | 596     | 29        |
@@ -117,9 +116,8 @@ Chaque marchandise a un prix de base fixe (voir le tableau). Il indique les prix
 
 Prix de base des biens de luxe :
 
-|               |              |             |
-|---------------|--------------|-------------|
 | Biens de luxe | Prix de base | Poids en GE |
+|---------------|--------------|-------------|
 | Balm          | 4            | 2           |
 | Oil           | 3            | 3           |
 | Spice         | 5            | 2           |
@@ -163,9 +161,8 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 - [stealth]
 - [GUARD]
 
-|              |                 |
 |--------------|-----------------|
-| Weiterlesen: | [Material Pool] |
+| En savoir plus : | [Material Pool] |
 
 [Material Pool]: ./items-pool.md "Materialpool"
 

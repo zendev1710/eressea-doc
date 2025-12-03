@@ -287,9 +287,8 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
-|              |                |
 |--------------|----------------|
-| Weiterlesen: | [Magiegebiete] |
+| En savoir plus : | [Magiegebiete] |
 
 [Magiegebiete]: ./magic.mdgebiete "Magicgebiete"
 

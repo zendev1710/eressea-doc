@@ -35,9 +35,8 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 - [Routes]
 - [Bâtiments]
 
-|              |          |
 |--------------|----------|
-| Weiterlesen: | [objets] |
+| En savoir plus : | [objets] |
 
 [objets]: ./items.md "Waren"
 

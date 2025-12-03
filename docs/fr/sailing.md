@@ -17,9 +17,8 @@ Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire 
 
 Bateau - Portée, Capacité, Compétence
 
-|            |        |          |                    |                     |                  |
-|------------|--------|----------|--------------------|---------------------|------------------|
 | Type       | Portée | Capacité | Capitaine/Equipage | Niveau en Shipcraft | Quantité de bois |
+|------------|--------|----------|--------------------|---------------------|------------------|
 | Boat       | 2      | 50       | 1/2                | 1                   | 5                |
 | Longboat   | 3      | 500      | 1/10               | 1                   | 50               |
 | Dragonship | 5\*    | 1000     | 2/50               | 2                   | 100              |
@@ -92,9 +91,8 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 - [déplacement]
 - [bateaux]
 
-|              |              |
 |--------------|--------------|
-| Weiterlesen: | [Produktion] |
+| En savoir plus : | [Produktion] |
 
 [Produktion]: ./production.md "Produktion"
 

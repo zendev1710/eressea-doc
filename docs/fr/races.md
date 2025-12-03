@@ -124,9 +124,8 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 - Dans les montagnes et les glaciers, les nains obtiennent +1 à leur compétence [tactics].
 - Les [mages] nains régénèrent leur aura beaucoup plus lentement que les autres.
 
-|              |                                |
 |--------------|--------------------------------|
-| Weiterlesen: | [Modificateurs de compétences] |
+| En savoir plus : | [Modificateurs de compétences] |
 
 [Modificateurs de compétences]: ./skills-modifiers.md "Talentmodifikatoren"
 

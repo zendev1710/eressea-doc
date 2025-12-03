@@ -43,7 +43,7 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 - [GUARD]
 - [revenus]
 
-Weiterlesen:
+En savoir plus :
 [déplacements](./travel.md)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->

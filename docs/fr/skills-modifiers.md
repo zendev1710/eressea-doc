@@ -4,9 +4,8 @@ Les différentes [races] ont, en plus de leurs capacités spéciales, des coûts
 
 modificateurs de compétences
 
-|                |           |        |         |        |          |             |          |           |           |          |         |
-|----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|
 | Compétence     | [dwarves] | [orcs] | [elves] | [cats] | [demons] | [halflings] | [humans] | [goblins] | [insects] | [trolls] | [aqua.] |
+|----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|
 | recrutement    | 110       | 70     | 130     | 90     | 150      | 80          | 75       | 40        | 80        | 90       | 80      |
 | points de vie  | 24        | 24     | 18      | 20     | 50       | 18          | 20       | 16        | 24        | 30       | 20      |
 | armure nat.    | 0         | 0      | 0       | 0      | 2        | 0           | 0        | 0         | 2         | 1        | 0       |
@@ -53,9 +52,8 @@ modificateurs de compétences
 [trolls]: ./races.md#trolle "Trolle"
 [aqua.]: ./races.md#meermenschen "Meermenschen"
 
-|              |           |
 |--------------|-----------|
-| Weiterlesen: | [Talente] |
+| En savoir plus : | [Talente] |
 
 [Talente]: ./skills.md "Talente"  
 

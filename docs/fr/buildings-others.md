@@ -42,9 +42,8 @@ The capacity refers only to the persons who can benefit from the building.
 | Maximum size:            | none                                 |
 | Capacity:                | 4 units                              |
 
-|      |            |            |
-|------|------------|------------|
 | Size | Perception | Visibility |
+|------|------------|------------|
 | 10   | 3          | 1          |
 | 10   | 6          | 2          |
 | 100  | 9          | 3          |
@@ -283,7 +282,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 |              |               |
 |--------------|---------------|
-| Weiterlesen: | [factionpool] |
+| En savoir plus : | [factionpool] |
 
 [water of life]: ./alchemy.md "Tränke"
 [USE 1 water~of~life]: ./cmd-use.md "BENUTZE"

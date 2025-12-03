@@ -83,9 +83,8 @@ Celui qui exploite une erreur du programme à son avantage au lieu de la signale
 
 Soyez gentils les uns avec les autres. Même votre pire ennemi dans le jeu est certainement quelqu'un de gentil et ne mérite pas d'être bombardé de mails publicitaires, d'images "beurk" et autres. **Un comportement antisocial entraîne l'exclusion du jeu.**
 
-|              |                           |
 |--------------|---------------------------|
-| Weiterlesen: | [conseils pour débutants] |
+| En savoir plus : | [conseils pour débutants] |
 
 [conseils pour débutants]: ./getting-started-tips.md "Anfängertipps"
 

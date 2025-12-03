@@ -4,7 +4,7 @@ MkDocs project for Eressea documentation.
 
 ## Pages
 
-| page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGES       |
+| page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGE        |
 |-------------------------------|----|----|----|--------------------------------------|
 | [adamantium-armor]            | S  | N  | N  | [adamantiumrüstung]                  |
 | [adamantium]                  | S  | N  | N  | [adamantium]                         |

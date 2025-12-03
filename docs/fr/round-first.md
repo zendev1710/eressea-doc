@@ -229,9 +229,8 @@ Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als e
 
 - Ein weiteres [Eressea-Tutorium]
 
-|              |                |
 |--------------|----------------|
-| Weiterlesen: | [Welpenschutz] |
+| En savoir plus : | [Welpenschutz] |
 
 [Welpenschutz]: ./puppy-protection.md "Welpenschutz"
 

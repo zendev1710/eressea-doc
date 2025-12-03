@@ -30,9 +30,8 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 
 Construction de châteaux - matériaux, minimum skill, bonus salaire, part du commerce et défense
 
-|               |            |             |               |               |               |
-|---------------|------------|-------------|---------------|---------------|---------------|
 | Type          | Taille min | Masonry min | Bonus salaire | Part commerce | Bonus Défense |
+|---------------|------------|-------------|---------------|---------------|---------------|
 | Foundation    | 1          | 1           | 0 Silber      | rien          | 0             |
 | Tradepost     | 2          | 1           | 0 Silber      | 6%            | 0             |
 | Fortification | 10         | 2           | 1 Silber      | 12%           | +1            |
@@ -48,9 +47,8 @@ Construction de châteaux - matériaux, minimum skill, bonus salaire, part du co
 - [bonus et malus]
 - [revenus]
 
-|              |                                                              |
 |--------------|--------------------------------------------------------------|
-| Weiterlesen: | [bâtiments spéciaux](./buildings-others.md "Andere Gebäude") |
+| En savoir plus : | [bâtiments spéciaux](./buildings-others.md "Andere Gebäude") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
 

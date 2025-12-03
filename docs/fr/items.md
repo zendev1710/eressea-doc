@@ -8,9 +8,8 @@ Le tableau suivant montre les objets disponibles sur Eressea. Ils ne peuvent êt
 
 Poids, compétence et ressources nécessaires.
 
-|                   |                      |       |                |      |                      |
-|-------------------|----------------------|-------|----------------|------|----------------------|
 | Objet en allemand | Objet                | Poids | compétence     | min. | ressources           |
+|-------------------|----------------------|-------|----------------|------|----------------------|
 | Silber            | Silver               | 0,01  | \-/-           | \-/- | \-/-                 |
 | Juwelen           | gem                  | 1     | TRADE          | 1    | \-/-                 |
 | Weihrauch         | incense              | 2     | TRADE          | 1    | \-/-                 |

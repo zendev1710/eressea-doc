@@ -32,9 +32,8 @@ Liste des plantes et leur localisation incl. noms allemand
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Volcano      | \--                                                                                     | \--                                                                      |
 
-|              |                               |
 |--------------|-------------------------------|
-| Weiterlesen: | [Befehle](./commands.md "Befehle") |
+| En savoir plus : | [Befehle](./commands.md "Befehle") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
 

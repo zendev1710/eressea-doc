@@ -12,7 +12,6 @@ Jede Einheit kann nur einer Gruppe angehören. Eine Einheit, die einen `HELFE` B
 
 In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon passiert, wenn Einheiten parteigetarnt sind.
 
-|         |                                                                                  |
 |---------|----------------------------------------------------------------------------------|
 | **E3A** | Für E3 gilt das nicht! Hier sind alle Einheiten einer Partei in dem selben Heer. |
 

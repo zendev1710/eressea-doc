@@ -55,9 +55,8 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 - [faction pool]
 - [ordres]
 
-|              |         |
 |--------------|---------|
-| Weiterlesen: | [races] |
+| En savoir plus : | [races] |
 
 [races]: ./race.md "Rassen"
 

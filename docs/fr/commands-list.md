@@ -6,9 +6,8 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 
 Kurzliste der Befehle
 
-|                                                |                                              |         |
-|------------------------------------------------|----------------------------------------------|---------|
 | Befehl                                         | Beschreibung                                 | K/L     |
+|------------------------------------------------|----------------------------------------------|---------|
 | [//]                                           | bleibender Kommentar                         | [K]     |
 | [`WORK`]                                       | verdient 10 Silber oder mehr                 | [L]     |
 | [`ATTACK <unit id>`]                           | greift die Einheit an                        | [(l)] 1 |
@@ -295,9 +294,8 @@ Kurzliste der Befehle
 - [Befehle]
 - [Befehlsreihenfolge]
 
-|              |                 |
 |--------------|-----------------|
-| Weiterlesen: | [Der erste Zug] |
+| En savoir plus : | [Der erste Zug] |
 
 [Der erste Zug]: ./round-first.md "Der erste Zug"
 

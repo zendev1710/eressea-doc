@@ -18,9 +18,8 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 
 Construction de routes
 
-|              |         |                |
-|--------------|---------|----------------|
 | Terrain      | Pierres | bâtiment       |
+|--------------|---------|----------------|
 | Plain/Forest | 50      | \-             |
 | Highland     | 100     | \-             |
 | Mountain     | 250     | \-             |
@@ -33,9 +32,8 @@ Construction de routes
 [Caravanserai]: ./buildings-others.md#karawanserei "Andere Gebäude"
 [Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"  
 
-|              |           |
 |--------------|-----------|
-| Weiterlesen: | [Bateaux] |
+| En savoir plus : | [Bateaux] |
 
 [Bateaux]: ./ships.md "Schiff"
 

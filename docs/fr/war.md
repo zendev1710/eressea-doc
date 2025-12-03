@@ -139,9 +139,8 @@ Les catapultes nécessitent des munitions. Celles-ci peuvent être fabriquées �
 
 Ranged weapons - bonuses and time
 
-|                               |          |                 |           |
-|-------------------------------|----------|-----------------|-----------|
 | Weapon                        | Skill    | Offensive bonus | Reloading |
+|-------------------------------|----------|-----------------|-----------|
 | crossbow / mallorn crossbow   | crossbow | 0               | 2         |
 | catapult                      | catapult | \-4             | 5         |
 | bow / mallorn bow / elven bow | bow      | \-2             | 0         |
@@ -304,9 +303,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 - [Taktik]
 - [Kriegstabellen]
 
-|              |           |
 |--------------|-----------|
-| Weiterlesen: | [Allianz] |
+| En savoir plus : | [Allianz] |
 
 [Allianz]: ./alliances.md "Allianz"
 

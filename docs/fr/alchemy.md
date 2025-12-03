@@ -14,11 +14,8 @@ L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exempl
 
 ## Liste des potions
 
-Liste des Potions
-
-|        |      |                       |                                                                        |                                                                                                                       |                     |
-|--------|------|-----------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------|
 | Niveau | Abbr | Nom                   | Ingrédients                                                            | Description                                                                                                           | Cible               |
+|--------|------|-----------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------|
 | 1      | Sm   | Seven mile tea        | cobalt fungus, windbag                                                 | 10 hommes à pied peuvent se déplacer aussi vite que s'ils montaient à cheval                                          | Unité               |
 | 1      | Gw   | Goliath water         | bugleweed, fjord fungus                                                | 10 hommes peuvent porter autant que 10 chevaux                                                                        | Unité               |
 | 1      | WL   | Water of life         | elvendear, knotroot                                                    | Transforme 10 bois ou mallorn en 10 mallorns/pouces                                                                   | Region              |
@@ -65,9 +62,7 @@ Liste des Potions
 | white hemlock     |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
 | snowcrystal petal |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
 
-|              |           |
-|--------------|-----------|
-| Weiterlesen: | [plantes] |
+En savoir plus : [plantes]
 
 [plantes]: ./herbs.md "Plantes"
 

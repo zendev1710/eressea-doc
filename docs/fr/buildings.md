@@ -35,7 +35,7 @@ Les bâtiments sont construits et améliorés avec l'ordre [MAKE][`MAKE `*`Bâti
 
 |              |            |
 |--------------|------------|
-| Weiterlesen: | [châteaux] |
+| En savoir plus : | [châteaux] |
 
 [châteaux]: ./castles.md "Burg"
 

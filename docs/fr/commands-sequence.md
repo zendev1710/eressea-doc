@@ -79,9 +79,8 @@ Cela ne signifie pas que les unités qui quittent un navire peuvent attaquer dan
 - [brève description DE/EN]
 - [Befehlsreihenfolge (E3)]
 
-|              |                     |
 |--------------|---------------------|
-| Weiterlesen: | [brève description] |
+| En savoir plus : | [brève description] |
 
 [brève description]: ./commands-list.md "Kurzbeschreibung"
 

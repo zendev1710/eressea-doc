@@ -152,9 +152,8 @@ In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder
 - [RESERVIERE]
 - [Befehlsreihenfolge]
 
-|              |         |
-|--------------|---------|
-| Weiterlesen: | [Krieg] |
+|-------------------|---------|
+| Continue reading: | [Krieg] |
 
 [Krieg]: ./war.md "Krieg"
 

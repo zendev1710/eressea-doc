@@ -52,9 +52,8 @@ Prophezeiung Igjarjuks, eines der Ältesten der Wyrme, auf seinem Totenlager nac
 
 Hier findet man eine Liste aller [Draigzauber].
 
-|              |                  |
-|--------------|------------------|
-| Weiterlesen: | [Zauberliste E2] |
+|-------------------|------------------|
+| Continue reading: | [Zauberliste E2] |
 
 [Zauberliste E2]: /Zauberliste_E2 "Zauberliste E2"
 

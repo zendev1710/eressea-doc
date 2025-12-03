@@ -156,7 +156,6 @@ Although the influence of the seasons is generally not particularly pronounced, 
 - [RECRUIT]
 - [ENTERTAIN]
 
-|                   |            |
 |-------------------|------------|
 | Continue reading: | [Factions] |
 

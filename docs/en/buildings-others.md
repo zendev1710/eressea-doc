@@ -270,7 +270,6 @@ The capacity refers only to the persons who can benefit from the building.
 - [Castles]
 - [Production]
 
-|                   |                |
 |-------------------|----------------|
 | Continue reading: | [Faction Pool] |
 

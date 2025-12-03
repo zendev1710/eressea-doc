@@ -32,7 +32,6 @@ In Eressea, you send in a *turn* at regular intervals. A turn consists of [order
 
 If no move is received by the game master, this results in a so-called NMR (no move received). If there are 4 NMRs in a row, the faction is automatically removed from the game. This means that the faction is deleted on the 5th NMR.
 
-|                   |         |
 |-------------------|---------|
 | Continue reading: | [World] |
 

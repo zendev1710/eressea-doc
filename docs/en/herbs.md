@@ -32,7 +32,7 @@ List of herbs and their distribution incl. German names
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Volcano      | \--                                                                                     | \--                                                                      |
 
-|-------------------|---------------------------------------------------------------------------|
+|-------------------|------------------------------------|
 | Continue reading: | [Befehle](./commands.md "Befehle") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->

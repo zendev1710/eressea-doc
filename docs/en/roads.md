@@ -8,9 +8,8 @@ The following table states how many stones per direction are needed. Furthermore
 
 Building Roads
 
-|              |        |                |
-|--------------|--------|----------------|
 | Terrain      | Stones | Building       |
+|--------------|--------|----------------|
 | Plain/Forest | 50     | \-             |
 | Highland     | 100    | \-             |
 | Mountain     | 250    | \-             |
@@ -33,7 +32,6 @@ Building Roads
 
 After completion a unit can travel on foot with `MOVE E NE` from (0,0) to (1,1) in one round.
 
-|                   |         |
 |-------------------|---------|
 | Continue reading: | [Ships] |
 

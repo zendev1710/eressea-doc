@@ -57,7 +57,6 @@ Player experience: SoltharThere have been cases where special magic items produc
 - [The faction pool]
 - [Orders]
 
-|                   |         |
 |-------------------|---------|
 | Continue reading: | [Races] |
 

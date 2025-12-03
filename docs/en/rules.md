@@ -10,7 +10,6 @@ Eressea is a game in the river. It has undergone continuous improvements in rece
 
 Editing the rules is encouraged, but please be sure to regard the [Instructions for editing the rules]!
 
-|                   |                |
 |-------------------|----------------|
 | Continue reading: | [Introduction] |
 

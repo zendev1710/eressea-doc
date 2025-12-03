@@ -306,9 +306,8 @@
 
 Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
 
-|              |          |
-|--------------|----------|
-| Weiterlesen: | [Tränke] |
+|-------------------|----------|
+| Continue reading: | [Tränke] |
 
 [Tränke]: ./alchemy.md "Tränke"
 

@@ -33,7 +33,6 @@ Buildings are constructed and expanded using the [MAKE][`MAKE `*`Building_type`*
 - [production]
 - [expenses]
 
-|                   |           |
 |-------------------|-----------|
 | Continue reading: | [castles] |
 

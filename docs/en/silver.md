@@ -77,9 +77,8 @@ The silver that remains to peasants after paying taxes is added to the region's 
 
 Income and upkeep
 
-|        |       |          |              |      |        |        |         |           |
-|--------|-------|----------|--------------|------|--------|--------|---------|-----------|
 | Region | Trees | Peasants | Max. workers | Wage | Income | Upkeep | Surplus | Entertain |
+|--------|-------|----------|--------------|------|--------|--------|---------|-----------|
 | Plain  | 200   | 3742     | 8400         | 11   | 41162  | 37420  | 3742    | 187       |
 | Plain  | 200   | 3742     | 8400         | 14   | 52388  | 37420  | 14968   | 748       |
 | Forest | 818   | 3742     | 3456         | 11   | 38016  | 37420  | 596     | 29        |
@@ -117,9 +116,8 @@ Every type of trade good has a certain base price (see table below). The number 
 
 Base prices of luxury goods:
 
-|             |            |              |
-|-------------|------------|--------------|
 | Luxury good | Base price | Weight UW/GE |
+|-------------|------------|--------------|
 | Balm        | 4          | 2            |
 | Oil         | 3          | 3            |
 | Spice       | 5          | 2            |
@@ -163,7 +161,6 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 - [Stealth][stealth skill]
 - [GUARD]
 
-|                   |                 |
 |-------------------|-----------------|
 | Continue reading: | [Material pool] |
 

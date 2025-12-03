@@ -71,9 +71,8 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 - [Der erste Zug]
 - [Grundlagen]
 
-|              |                     |
-|--------------|---------------------|
-| Weiterlesen: | [Xontormia-Express] |
+|-------------------|---------------------|
+| Continue reading: | [Xontormia-Express] |
 
 [Xontormia-Express]: ./xontormia-express.cmd "Xontormia-Express"
 

@@ -8,9 +8,8 @@ The following table shows the items available on Eressea. They can only be produ
 
 Weight, skill and raw material requirements
 
-|                   |                  |        |                |      |                      |
-|-------------------|------------------|--------|----------------|------|----------------------|
 | Item in german    | Item             | Weight | Skill          | min. | raw material         |
+|-------------------|------------------|--------|----------------|------|----------------------|
 | Silber            | silver           | 0,01   | \-/-           | \-/- | \-/-                 |
 | Juwelen           | gem              | 1      | trade          | 1    | \-/-                 |
 | Weihrauch         | incense          | 2      | trade          | 1    | \-/-                 |
@@ -67,7 +66,6 @@ Weight, skill and raw material requirements
 - [buildings]
 - [war tables]
 
-|                   |         |
 |-------------------|---------|
 | Continue reading: | [Roads] |
 

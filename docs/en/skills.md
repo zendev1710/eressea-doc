@@ -82,9 +82,8 @@ Sailing et riding sont expliquées dans le chapitre sur les [déplacements]. rid
 
 Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [batailles], que ce soit contre d'autres factions ou des monstres.
 
-|              |                         |
-|--------------|-------------------------|
-| Weiterlesen: | [liste des compétences] |
+|-------------------|-------------------------|
+| Continue reading: | [liste des compétences] |
 
 [liste des compétences]: ./skills-list.md "Liste des compétences"
 

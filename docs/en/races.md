@@ -124,7 +124,6 @@ Their homes are the mountains, their weapons are famous, and their fortresses ar
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
 - Dwarves [mages][magician] regenerate aura 50% slower.
 
-|                   |                          |
 |-------------------|--------------------------|
 | Continue reading: | [Racial skill modifiers] |
 

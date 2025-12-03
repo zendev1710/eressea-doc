@@ -20,9 +20,8 @@ Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachba
 
 Schiffe - Reichweite, Kapazität, Talente:
 
-|               |            |           |                   |           |         |
-|---------------|------------|-----------|-------------------|-----------|---------|
 | Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+|---------------|------------|-----------|-------------------|-----------|---------|
 | Boot          | 2          | 50        | 1/2               | 1         | 5       |
 | Langboot      | 3          | 500       | 1/10              | 1         | 50      |
 | Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
@@ -82,9 +81,8 @@ Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb
 - [naviguer]
 - [GIVE]
 
-|              |           |
-|--------------|-----------|
-| Weiterlesen: | [Gebäude] |
+|-------------------|-----------|
+| Continue reading: | [Gebäude] |
 
 [Gebäude]: ./buildings.md "Gebäude"
 

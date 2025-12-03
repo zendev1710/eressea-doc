@@ -4,9 +4,8 @@ The different [races] have, in addition to their special abilities, different re
 
 Racial skill modifiers
 
-|                |           |        |         |        |          |             |          |           |           |          |         |
-|----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|
 | Skill          | [dwarves] | [orcs] | [elves] | [cats] | [demons] | [halflings] | [humans] | [goblins] | [insects] | [trolls] | [aqua.] |
+|----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|
 | recruitment    | 110       | 70     | 130     | 90     | 150      | 80          | 75       | 40        | 80        | 90       | 80      |
 | hit points     | 24        | 24     | 18      | 20     | 50       | 18          | 20       | 16        | 24        | 30       | 20      |
 | nat. armour    | 0         | 0      | 0       | 0      | 2        | 0           | 0        | 0         | 2         | 1        | 0       |
@@ -41,7 +40,6 @@ Racial skill modifiers
 | cartmaking     | 0         | \-1    | 0       | 0      | \-2      | +2          | 0        | \-1       | 0         | 0        | 0       |
 | perception     | 0         | 0      | +1      | +2     | +1       | +1          | 0        | 0         | +1        | \-1      | 0       |
 
-|                   |           |
 |-------------------|-----------|
 | Continue reading: | [Talente] |
 

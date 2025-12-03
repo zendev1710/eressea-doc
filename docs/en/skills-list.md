@@ -126,7 +126,6 @@ Construction of carts and catapults from wood. A cart can be built with 5 wood. 
 
 The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [perception]).
 
-|                   |           |
 |-------------------|-----------|
 | Continue reading: | [Stealth] |
 

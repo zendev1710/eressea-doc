@@ -30,9 +30,8 @@ A larger castle improves the population's income: all workers and peasants recei
 
 Building Castles - building material, minimum skill, wage bonus, trade share and defense
 
-|               |           |             |            |             |               |
-|---------------|-----------|-------------|------------|-------------|---------------|
 | Type          | From Size | Masonry min | Wage bonus | Trade share | Defense bonus |
+|---------------|-----------|-------------|------------|-------------|---------------|
 | Foundation    | 1         | 1           | 0 silver   | \-          | 0             |
 | Tradepost     | 2         | 1           | 0 silver   | 6%          | 0             |
 | Fortification | 10        | 2           | 1 silver   | 12%         | +1            |
@@ -48,7 +47,6 @@ Building Castles - building material, minimum skill, wage bonus, trade share and
 - [Bonuses and penalties]
 - [Income]
 
-|                   |                   |
 |-------------------|-------------------|
 | Continue reading: | [Other Buildings] |
 

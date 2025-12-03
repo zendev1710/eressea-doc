@@ -4,9 +4,8 @@
 
 Liste der alchemistischen Tränke
 
-|       |                    |                                                                                                |
-|-------|--------------------|------------------------------------------------------------------------------------------------|
 | Stufe | Name               | Beschreibung                                                                                   |
+|-------|--------------------|------------------------------------------------------------------------------------------------|
 | 1     | Siebenmeilentee    | 10 Leute schnell wie Pferde                                                                    |
 | 1     | Goliathwasser      | 10 Leute Tragkraft wie Pferde                                                                  |
 | 1     | Wasser des Lebens  | Macht aus 10 Holz/Mallorn 10 Schößlinge/Mallornschößlinge                                      |
@@ -31,9 +30,8 @@ siehe [Alchemie]
 
 Liste der Kräuter und deren Verbreitung 
 
-|                                                                                         |             |
-|-----------------------------------------------------------------------------------------|-------------|
 | Kräuter                                                                                 | Verbreitung |
+|-----------------------------------------------------------------------------------------|-------------|
 | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | Wald/Ebene  |
 | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           | Sumpf       |
 | Wasserfinder, Kakteenschwitz, Sandfäule                                                 | Wüste       |

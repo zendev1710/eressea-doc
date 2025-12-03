@@ -79,7 +79,6 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 - [short description DE/EN]
 - [Befehlsreihenfolge (E3)]
 
-|                   |                     |
 |-------------------|---------------------|
 | Continue reading: | [Short Description] |
 

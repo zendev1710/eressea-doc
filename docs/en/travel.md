@@ -18,9 +18,8 @@ TODO: Katapulte
 
 Weights and Capacities
 
-|                        |        |          |
-|------------------------|--------|----------|
 |                        | Weight | Capacity |
+|------------------------|--------|----------|
 | trolls                 | 20     | 10,8     |
 | goblins                | 6      | 4,4      |
 | all other player races | 10     | 5,4      |
@@ -72,7 +71,6 @@ If a unit has several horses and carts, their transport capacity is simply added
 - [Ships]
 - [Roads]
 
-|                   |                |
 |-------------------|----------------|
 | Continue reading: | [Ship Voyages] |
 

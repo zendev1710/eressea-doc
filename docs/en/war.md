@@ -139,9 +139,8 @@ Catapults require ammunition. This can be produced from stones using [MAKE ammun
 
 Ranged weapons - bonuses and time
 
-|                               |          |                 |           |
-|-------------------------------|----------|-----------------|-----------|
 | Weapon                        | Skill    | Offensive bonus | Reloading |
+|-------------------------------|----------|-----------------|-----------|
 | crossbow / mallorn crossbow   | crossbow | 0               | 2         |
 | catapult                      | catapult | \-4             | 5         |
 | bow / mallorn bow / elven bow | bow      | \-2             | 0         |
@@ -322,7 +321,6 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 - [Tactics][Tactician]
 - [War tables]
 
-|                   |             |
 |-------------------|-------------|
 | Continue reading: | [Alliances] |
 

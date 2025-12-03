@@ -17,9 +17,8 @@ To be able to sail a ship, you need a trained crew, i.e. units that have learnt 
 
 Ship - Range, Capacity, Skill
 
-|            |       |          |              |               |             |
-|------------|-------|----------|--------------|---------------|-------------|
 | Type       | Range | Capacity | Captain/Crew | Shipcraft lvl | Qty of Wood |
+|------------|-------|----------|--------------|---------------|-------------|
 | Boat       | 2     | 50       | 1/2          | 1             | 5           |
 | Longboat   | 3     | 500      | 1/10         | 1             | 50          |
 | Dragonship | 5\*   | 1000     | 2/50         | 2             | 100         |
@@ -92,7 +91,6 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 - [movement]
 - [ships]
 
-|                   |              |
 |-------------------|--------------|
 | Continue reading: | [Produktion] |
 

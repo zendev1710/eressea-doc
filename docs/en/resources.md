@@ -33,7 +33,6 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 - [Roads]
 - [Buildings]
 
-|                   |         |
 |-------------------|---------|
 | Continue reading: | [Goods] |
 

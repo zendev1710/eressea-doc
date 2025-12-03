@@ -320,7 +320,7 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
   [Wahrscheinlichkeit für Patzer]: #patzer
   [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
   [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Rassen]: /Rasse "Rasse (Seite nicht vorhanden)"
+  [Rassen]: ./races.md "Rasse (Seite nicht vorhanden)"
   [Zauber]: /Zauberliste_E2 "Zauberliste E2"
   [Waffen oder Rüstungen]: ./war.mdstabellen#Magieresistenz "Kriegstabellen"
   [Elfen]: ./skills-modifiers.md "Talentmodifikatoren"

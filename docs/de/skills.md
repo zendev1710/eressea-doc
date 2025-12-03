@@ -109,4 +109,4 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
 [Reisen]: ./travel.md "Reisen"
 [Kampf]: /Kampf "Kampf"
-[Krieg]: /Krieg "Krieg"
+[Krieg]: ./war.md "Krieg"

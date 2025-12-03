@@ -1,3 +1,1 @@
-# FAQ
-
-<!-- TODO: add content -->
+The MediaWiki FAQ can be found at: https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:FAQ

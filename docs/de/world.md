@@ -73,7 +73,7 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 
 [<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Datei:KarteCSMap.jpeg"
 [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
-[Geländearten]: /Gel%C3%A4ndearten "Geländearten"
+[Geländearten]: ./terrains.md "Geländearten"
 [Kräuter]: ./herbs.md "Kräuter"
 [REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
 [Befehle]: ./commands.md "Befehle"

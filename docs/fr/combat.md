@@ -35,13 +35,13 @@ Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
 [les lignes de bataille dans le chapitre]: /Schlacht "bataille"
-[Sur la guerre]: /Krieg "Guerre"
+[Sur la guerre]: ./war.md "Guerre"
 [`d’ATTAQUE`]: ./cmd-attack.md "ATTAQUE"
 [ Fuite]: /Die_Flucht "L'évasion"
 [GARDER]: ./cmd-guard.mdN "GARDE"
 [les commandes VERS]: /MOVE "APRÈS"
-[ITINÉRAIRE]: /ROUTE "ITINÉRAIRE"
+[ITINÉRAIRE]: ./cmd-route.md "ITINÉRAIRE"
 [SUIVRE]: /FOLLOW "CONSÉQUENCE"
 [les sorts de combat]: /COMBATSPELL "SORTS DE COMBAT"
 [`section AIDE`]: /HELP "AIDE"
-[Alliance]: /Allianz "Allianz"
+[Alliance]: ./alliances.md "Allianz"

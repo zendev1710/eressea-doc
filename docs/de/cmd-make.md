@@ -123,5 +123,5 @@ Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit b
   [Tunnel]: ./buildings-others.md#Tunnel "Andere Gebäude"
   [Karawanserei]: ./buildings-others.md#Karawanserei "Andere Gebäude"
   [Damm]: ./buildings-others.md#Damm "Andere Gebäude"
-  [Geländearten]: /Gel%C3%A4ndearten "Geländearten"
+  [Geländearten]: ./terrains.md "Geländearten"
   [Alchemie]: ./alchemy.cmd "Alchemie"

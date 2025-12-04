@@ -4,6 +4,7 @@
 
 Die Einheit wird das Schiff oder das Gebäude, in dem sie sich befindet, verlassen. Wenn man die Befehle [`BETRETE`] oder [`NACH`] verwendet, verlassen die Einheiten z.T. automatisch ihre Schiffe und Gebäude. Dies funktioniert allerdings nicht immer: ist die Einheit Kapitän eines Schiffs und verwendet NACH, wird sie versuchen in diese Richtung zu segeln, auch wenn dort Festland ist. Kapitäne müssen ihr Schiff zuerst `VERLASSEN`, alle anderen Segler können sich aber mit `NACH` über Land bewegen und verlassen das Schiff dabei automatisch.
 
+<!-- TODO: exclude E3 from documentation -->
 **[E3A — Das Dritte Zeitalter]**
 
 Gebäudebesitzer müssen ebenfalls das Gebäude `VERLASSEN` oder das Kommando abgeben, um sich zu Bewegen oder ein anderes Gebäude oder Schiff zu betreten.
@@ -14,9 +15,10 @@ Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-a
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERLASSE&oldid=15184] -->
 
-  [`BETRETE`]: ./cmd-enter.md "BETRETE"
-  [`NACH`]: ./cmd-move.md "NACH"
-  [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-  [`GIB einheit-nr KOMMANDO`]: ./cmd-give.md "GIB"
-  [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
-  [Anschwimmen]./travel.md#anschwimmen "Schiffsreise"
+[`BETRETE`]: ./cmd-enter.md "BETRETE"
+[`NACH`]: ./cmd-move.md "NACH"
+[Anschwimmen]./travel.md#anschwimmen "Schiffsreise"
+<!-- TODO: exclude E3 from documentation -->
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+[`GIB einheit-nr KOMMANDO`]: ./cmd-give.md "GIB"
+[`BEWACHE`]: ./cmd-guard.md "BEWACHE"

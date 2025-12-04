@@ -57,4 +57,4 @@ Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Wochenbericht&oldid=7724] -->
 
-[an dieser Stelle]: /Kategorie:Wochenberich "Kategorie:Wochenberich"
+[an dieser Stelle]: https://wiki.eressea.de/Kategorie:Wochenbericht "Kategorie:Wochenberich"

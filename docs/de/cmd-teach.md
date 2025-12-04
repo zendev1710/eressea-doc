@@ -18,7 +18,7 @@ Durch den Befehl [LERNE AUTO] versucht der Server das Lernen und Lehren in einer
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEHRE&oldid=16726] -->
 
-  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-  [HELFE]: ./cmd-help.md "HELFE"
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[HELFE]: ./cmd-help.md "HELFE"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"

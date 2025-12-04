@@ -14,9 +14,9 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TREIBE&oldid=16747] -->
 
-  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-  [Talent]: ./skills-list.md "Liste der Talente"
-  [bewaffneter]: ./armed.md "Bewaffnet"
-  [Hunger]: ./silver.md#hunger "Hunger"
-  [`BEWACHEN`]: ./cmd-guard.md "BEWACHEN"
-  [Geld]: ./silver.md "Geld"
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[Talent]: ./skills-list.md "Liste der Talente"
+[bewaffneter]: ./armed.md "Bewaffnet"
+[Hunger]: ./silver.md#hunger "Hunger"
+[`BEWACHEN`]: ./cmd-guard.md "BEWACHEN"
+[Geld]: ./silver.md "Geld"

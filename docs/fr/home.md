@@ -70,39 +70,39 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
-  [Eressea]: /Eressea "Eressea"
-  [Discord]: https://discord.gg/KT5Fffh
-  [règles]: ./rules.md "Regeln"
-  [Inscription au jeu]: https://www.eressea.de/?page_id=186
-  [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-  [Outils pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-  [Conseils pour les débutants]: ./getting-started-tips.md "Anfängertipps"
-  [L'histoire Eressea]: ./eressea-story.md "Geschichte von Eressea"
-  [Atlantis]: ./atlantis.md "Atlantis"
-  [Frequently asked questions]: ./faq.md "FAQ"
-  [Séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
-  [Tactics]: ./tactic.md "Taktik"
-  [Familiers]: ./familiars.md "Vertraute"
-  [Développement]: ./development.md "Entwicklung"
-  [Xontormia Express]: ./xontormia-express.md "Xontormia Express"
-  [numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-  [annonces]: ./announcements.md "Ankündigungen"
-  [pages de joueurs]: ./player-pages.md "Spielerseiten"
-  [Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
-  [Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-  [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
-  [Ankündigungen aus der e3-announce Mailingliste]: ./announcements.md_(E3) "Ankündigungen (E3)"
-  [Patreon-Förderer]: https://www.patreon.com/enno
-  [Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
-  [Regeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
-  [Eressea home page]: https://www.eressea.de
-  [**Inscription for E2 !**]: https://www.eressea.de/?page_id=189&lang=en
-  [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
-  [Mantis]: https://bugs.eressea.de/
-  [Magellan]: https://magellan2.github.io
-  [CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
-  [Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
-  [Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
-  [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
-  [Who is Who of Eressea (in the Internet Archive, in German)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
-  [Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/
+[Eressea]: ./cmd-eressea.md "Eressea"
+[Discord]: https://discord.gg/KT5Fffh
+[règles]: ./rules.md "Regeln"
+[Inscription au jeu]: https://www.eressea.de/?page_id=186
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Outils pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Conseils pour les débutants]: ./getting-started-tips.md "Anfängertipps"
+[L'histoire Eressea]: ./eressea-story.md "Geschichte von Eressea"
+[Atlantis]: ./atlantis.md "Atlantis"
+[Frequently asked questions]: ./faq.md "FAQ"
+[Séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
+[Tactics]: ./tactic.md "Taktik"
+[Familiers]: ./familiars.md "Vertraute"
+[Développement]: ./development.md "Entwicklung"
+[Xontormia Express]: ./xontormia-express.md "Xontormia Express"
+[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
+[annonces]: ./announcements.md "Ankündigungen"
+[pages de joueurs]: ./player-pages.md "Spielerseiten"
+[Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
+[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+[Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
+[Ankündigungen aus der e3-announce Mailingliste]: ./announcements.md_(E3) "Ankündigungen (E3)"
+[Patreon-Förderer]: https://www.patreon.com/enno
+[Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Regeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
+[Eressea home page]: https://www.eressea.de
+[**Inscription for E2 !**]: https://www.eressea.de/?page_id=189&lang=en
+[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Mantis]: https://bugs.eressea.de/
+[Magellan]: https://magellan2.github.io
+[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
+[Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
+[carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
+[Who is Who of Eressea (in the Internet Archive, in German)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
+[Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/

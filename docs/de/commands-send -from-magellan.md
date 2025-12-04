@@ -1,9 +1,11 @@
 # Befehle von Magellan verschicken
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:MagellanBefehleGmail.png" class="mw-file-description" title="Befehle mit Magellan Einsenden am Beispiel Gmail"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/6/60/MagellanBefehleGmail.png/400px-MagellanBefehleGmail.png" data-original-image-title="" decoding="async" width="400" height="134" srcset="/images/thumb/6/60/MagellanBefehleGmail.png/600px-MagellanBefehleGmail.png 1.5x, /images/thumb/6/60/MagellanBefehleGmail.png/800px-MagellanBefehleGmail.png 2x">Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
+<!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
+![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
+<!--
+Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
-</figure>
+-->
 
 [Magellan] bietet die Möglichkeit des [E-Mail-Versands] der Befehle direkt aus dem Programm. Vorteil davon ist, dass es keine Fehler durch Kopieren in das E-Mail-Programm oder Webmailer gibt und diese keine automatischen Formatierung vornehmen, die der Eressea Server nicht versteht, zum Beispiel HTML-Formatierung, komische Zeilenumbrüche, automatische Banner oder eine seltsame Buchstabencodierung, insbesondere bei Umlauten. Um eine Kopie der gesendeten E-Mail zu haben, kann man sich die Befehle als Kopie an die eigene Adresse senden. Hierzu muss man in Magellan die entsprechenden Einstellungen vornehmen inklusive der korrekten Daten des SMTP-Servers des Mailanbieters. Die Daten erhält man üblicherweise aus der Hilfe des Anbieters, für einige sind die Daten unten angegeben. Darüber hinaus kann es sein das man beim Anbieter explizit Berechtigung für externe Programme geben muss.
 
@@ -47,10 +49,12 @@ Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-
 
 ## Gmail
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:MagellanBefehleGmail2.png" class="mw-file-description" title="Befehle mit Magellan Einsenden am Beispiel Gmail"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/0/07/MagellanBefehleGmail2.png/400px-MagellanBefehleGmail2.png" data-original-image-title="" decoding="async" width="400" height="163" srcset="/images/thumb/0/07/MagellanBefehleGmail2.png/600px-MagellanBefehleGmail2.png 1.5x, /images/thumb/0/07/MagellanBefehleGmail2.png/800px-MagellanBefehleGmail2.png 2x">Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
+<!-- TODO: - should be where in the page ? -->
+![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
+<!--
+Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
-</figure>
+-->
 
 **Absenderadresse:** Deine E-Mail bei Gmail  
 **SMTP-Server:** smtp.googlemail.com  
@@ -78,10 +82,12 @@ Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-
 
 ## Posteo
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:MagellanBefehlePosteo.png" class="mw-file-description" title="Befehle mit Magellan Einsenden am Beispiel Posteo"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/5/57/MagellanBefehlePosteo.png/400px-MagellanBefehlePosteo.png" data-original-image-title="" decoding="async" width="400" height="159" srcset="/images/thumb/5/57/MagellanBefehlePosteo.png/600px-MagellanBefehlePosteo.png 1.5x, /images/5/57/MagellanBefehlePosteo.png 2x">Befehle mit Magellan Einsenden am Beispiel Posteo</span></a>
+<!-- TODO: orders sending with Posteo 400X159 - should be where in the page ? -->
+![Befehle mit Magellan Einsenden am Beispiel Posteo](./assets/images/orders-sending-posteo.png "Befehle mit Magellan Einsenden am Beispiel Posteo")
+<!--
+title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Einsenden am Beispiel Posteo</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Posteo</figcaption>
-</figure>
+-->
 
 **Absenderadresse:** Deine E-Mail bei Posteo  
 **SMTP-Server:** posteo.de  

@@ -82,8 +82,8 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
 [Trolle]: ./races.md#trolle "Troll"
-[Umherwandernde Bauern]: /Bauernwanderung "Bauernwanderung"
-[Bauernvermehrung]: /Bauernvermehrung "Bauernvermehrung"
+[Umherwandernde Bauern]: ./farmers-hike.md "Bauernwanderung"
+[Bauernvermehrung]: ./farmers-proliferation.md "Bauernvermehrung"
 [RESERVIERE]: ./cmd-reserve.md "RESERVIERE"
 [SORTIERE]: ./cmd-sort.md "SORTIERE"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

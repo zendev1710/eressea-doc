@@ -49,7 +49,7 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
 [Magellan]: ./magellan.md "Magellan"
-[CSMap]: /CSMap "CSMap"
+[CSMap]: ./csmapfx.md "CSMap"
 [Aktion]:./commands.md#kurze-und-lange-befehle "Befehl"
 [bewacht]: ./cmd-guard.md "BEWACHE"
 [attackiert]: ./cmd-attack.md "ATTACKIERE"

@@ -43,4 +43,4 @@ siehe [Alchemie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->
 
-[Alchemie]: /Trank "Trank"
+[Alchemie]: ./alchemy.md "Trank"

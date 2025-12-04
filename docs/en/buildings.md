@@ -14,6 +14,7 @@ If there is a shortage of Silver, or if a certain building is not used during a 
 
 All the units inside a building are listed underneath. The first unit has command of the building; it is the owner. It determines which other units can enter the building, and it can rename and describe the building. The unit that owns the largest castle in a region can even rename and describe the region it rules.
 
+<!-- TODO: exclude E3 from documentation -->
 **[E3A — Das Dritte Zeitalter]**
 
 Der Gebäudebesitzer kann das Gebäude nur verlassen, wenn er explizit den [GIVE][`GIVE`] Kommando oder den [LEAVE] Befehl verwendet

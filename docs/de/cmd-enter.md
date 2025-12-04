@@ -7,6 +7,7 @@ Betritt das angegebene [Gebäude] oder [Schiff]. Die Einheit mit dem [Kommando] 
 
 Ein BETRETE impliziert [VERLASSE], wenn die Einheit sich auf einem Schiff oder in einem Gebäude befindet.
 
+<!-- TODO: exclude E3 from documentation -->
 **[E3A — Das Dritte Zeitalter]**
 
 Ein Ausnahme sind Gebäudebesitzer. Diese müssen entweder ein explizites [VERLASSE] setzen, oder [GIB] KOMMANDO verwenden.
@@ -25,11 +26,12 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 
 <!-- From [https://wiki.eressea.de/index.php?title=BETRETE&oldid=7174] -->
 
-  [Gebäude]: ./buildings.md "Gebäude"
-  [Schiff]: ./ships.md "Schiff"
-  [Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
-  [HELFE]: ./cmd-help.md "HELFE"
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [VERLASSE]: ./cmd-leave.md "VERLASSE"
-  [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-  [GIB]: ./cmd-give.md "GIB"
+[Gebäude]: ./buildings.md "Gebäude"
+[Schiff]: ./ships.md "Schiff"
+[Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
+[HELFE]: ./cmd-help.md "HELFE"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[VERLASSE]: ./cmd-leave.md "VERLASSE"
+[GIB]: ./cmd-give.md "GIB"
+<!-- TODO: exclude E3 from documentation -->
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"

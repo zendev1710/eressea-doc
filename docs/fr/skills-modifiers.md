@@ -59,5 +59,5 @@ modificateurs de compétences
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
 
-  [races]: ./race.md "Rassen"
-  [compétences]: ./skills.md "Talente"
+[races]: ./race.md "Rassen"
+[compétences]: ./skills.md "Talente"

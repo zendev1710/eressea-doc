@@ -206,6 +206,6 @@ Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnense
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
-  [ZEIGE]: ./cmd-show.md "ZEIGE"
-  [Dämonen]: ./race.md#d.c3.a4monen "Rassen"
-  [Goblins]: ./race.md#goblins "Rassen"
+[ZEIGE]: ./cmd-show.md "ZEIGE"
+[Dämonen]: ./race.md#d.c3.a4monen "Rassen"
+[Goblins]: ./race.md#goblins "Rassen"

@@ -10,4 +10,4 @@ Dies geschah gegen den ausdrücklichen Wunsch des [Weihnachtsgnoms][Weihnachtsge
 
 [Weihnachtsgeschenk]: ./christmas.md "Weihnachten"
 [`ZEIGE`]: ./cmd-show..md "ZEIGE"
-[`BEANSPRUCHE`]: /cmd-claim.md "BEANSPRUCHE"
+[`BEANSPRUCHE`]: ./cmd-claim.md "BEANSPRUCHE"

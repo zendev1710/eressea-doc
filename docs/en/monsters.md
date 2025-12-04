@@ -6,8 +6,16 @@ There are many different monster races with different characteristics and abilit
 
 In certain circumstances, players can also own monster units (e.g. skeletons).
 
+<!-- TODO: add parapraphs in page -->
+
+## Undead
+
+## Dragons
+
+## Braineaters
+
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
-  [undead types]: ./monsters.md#untote "Untote"
-  [dragons]: ./monsters.md#drachen "Drachen"
-  [braineaters]: /Hirnt%C3%B6ter "Hirntöter (Seite nicht vorhanden)"
+[undead types]: #undead "undead"
+[dragons]: #dragons "Drachen"
+[braineaters]: #braineaters "Hirntöter"

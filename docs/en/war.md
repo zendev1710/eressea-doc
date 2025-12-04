@@ -33,9 +33,7 @@ I fight my enemies. My enemies are factions that attack me, that I attack, or th
 
 **Example 4:** A and B attack C. In this case they help each other against C (even if they are not allied), since they have a common enemy.
 
-Player experience:In fact, it's even more complicated. See for example the [discussion here].
-
-[discussion here]: /Kampfregeln "Kampfregeln"
+Player experience:In fact, it's even more complicated.
 
 **Warning:** Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes. Allies have stood by and done nothing or have even fought amongst themselves. There are a few tips to help you avoid the biggest blunders:
 
@@ -244,7 +242,7 @@ It follows from this that you can hold a castle relatively well, but that you sh
 
 ## Fleeing
 
-People who have set [COMBAT FLIGHT] and are [attacked][`ATTACK`], try to flee. They do this before each round of combat, so they may have to take (more) hits before they can escape.
+People who have set [`COMBAT FLEE`] and are [attacked][`ATTACK`], try to flee. They do this before each round of combat, so they may have to take (more) hits before they can escape.
 
 Persons with [`COMBAT`] or [`COMBAT REAR`][`COMBAT`] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][`COMBAT`] or [`COMBAT NOT`][`COMBAT`] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat. Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count. This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
 
@@ -329,16 +327,16 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
 [`ATTACK`]: ./cmd-attack.md "ATTACK"
-[tactics turn]: #taktik
+[tactics turn]: #tacticians-round
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
-[combat rows]: #schlacht
-[flee]: #flucht
+[combat rows]: #combat-rows
+[flee]: #fleeing
 [`GROUP`]: ./cmd-group.md "GROUP"
 [combat at sea]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [fleeing]: ./war.md#flee "Die Flucht"
-[unarmed]: /Boni_and_Mali "Boni and Mali (Seite nicht vorhanden)"
-[1]: #boni-and-mali
+[unarmed]: #bonuses-and-mali "Boni and Mali"
+[1]: #bonuses-and-mali
 [Tactician]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
 [Heroes]: ./cmd-promote.md "BEFÖRDERUNG"
@@ -347,11 +345,11 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [this]: ./war.mdstabellen#rüstung "Warstabellen"
 [Magic Resistance]: ./war.mdstabellen#magieresistenz "Warstabellen"
 [this table]: ./war.mdstabellen#ausdauer "Warstabellen"
-[2]: #boni-und-mali
+[2]: #bonuses-and-mali
 [MAKE ammunition]: ./cmd-make.md "MAKE"
 [combat tables]: ./war.mdstabellen#kampfmodifikatoren "Warstabellen"
-[COMBAT FLIGHT]: /COMBAT "COMBAT (Seite nicht vorhanden)"
-[`GIVE COMMAND`]: ./cmd-give.md "GIVE (Seite nicht vorhanden)"
+[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
+[`GIVE COMMAND`]: ./cmd-give.md "GIVE"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [ships]: ./ships.mde "Schiffe"
 [damage]: ./ships.md#schiffsschaden "Schiff"

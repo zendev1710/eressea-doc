@@ -40,7 +40,7 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 
-[guard]: /GUARD "GUARD (Seite nicht vorhanden)"
+[guard]: ./cmd-guard.md "GUARD (Seite nicht vorhanden)"
 [`HELP GUARD`]: ./cmd-help.md "HELP"
 [CONTACTing]: ./cmd-contact.md "CONTACT"
 [cloaked]: ./camouflage.md "Tarnung"

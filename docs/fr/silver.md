@@ -181,7 +181,7 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [dommages]: ./ships.md "Schiff"
 [Fin de bataille]: ./war.md#fin-de-la-bataille"Fin de la bataille"
 [compétence endurance]: ./war.mdstabellen "Guerrestabellen"
-[morts-vivants]: /Undead "Undead (Seite nicht vorhanden)"
+[morts-vivants]: ./monsters.md#undead "Undead"
 [WORK]: ./cmd-work.md "ARBEITEN"
 [ce]: ./castles.md#übersicht "Burg"
 [`STEAL`]: ./camouflage.md "STEAL"

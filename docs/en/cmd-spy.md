@@ -49,5 +49,5 @@ Klar ist, dass Spionageversuche mit vielen schlechten Einheiten mit fast 100% Si
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPIONIERE&oldid=16733] -->
 
-  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-  [Tarnungstalent]: ./camouflage.md "Tarnung"
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[Tarnungstalent]: ./camouflage.md "Tarnung"

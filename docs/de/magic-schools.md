@@ -55,13 +55,13 @@ Hier findet man eine Liste aller [Draigzauber].
 |--------------|------------------|
 | Weiterlesen: | [Zauberliste E2] |
 
-[Zauberliste E2]: /Zauberliste_E2 "Zauberliste E2"
+[Zauberliste E2]: ./spells-list.md "Zauberliste E2"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
 [Magie]: ./cmd-magic.md "Magie"
-[Illaunzauber]: /Illaunzauber "Illaunzauber"
-[Tybiedzauber]: /Tybiedzauber "Tybiedzauber"
-[Cerddorzauber]: /Cerddorzauber "Cerddorzauber"
-[Gwyrrdzauber]: /Gwyrrdzauber "Gwyrrdzauber"
-[Draigzauber]: /Draigzauber "Draigzauber"
+[Illaunzauber]: ./magic-school-illaun.md "Illaunzauber"
+[Tybiedzauber]: ./magic-school-tybied.md "Tybiedzauber"
+[Cerddorzauber]: ./magic-school-cerddor.md "Cerddorzauber"
+[Gwyrrdzauber]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
+[Draigzauber]: ./magic-school-draig.md "Draigzauber"

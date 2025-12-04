@@ -33,9 +33,7 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 
 **Exemple 4:** A et B attaquent C. Dans ce cas, ils s'entraident contre C (même s'ils ne sont pas alliés), puisqu'ils ont un ennemi commun.
 
-Expérience de jeu :En fait, c'est encore un peu plus compliqué. Voir par exemple les [Diskussion hier].
-
-[Diskussion hier]: /Kampfregeln "Kampfregeln"
+Expérience de jeu : en fait, c'est encore un peu plus compliqué.
 
 **Attention :** Des statuts d'aide ou des ordres d'ATTACK mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue. Des alliés sont restés sans rien faire ou se sont même battus entre eux. Quelques astuces permettent d'éviter les plus grosses bourdes :
 
@@ -311,25 +309,25 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
 [`ATTACK`]: ./cmd-attack.md "ATTACK"
-[tour de tactique]: #taktik
+[tour de tactique]: #tour-du-tacticien
 [`COMBAT`]: ./cmd-combat.md "COMBAT"
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
-[Lignes de combat]: ./war.md#schlacht "Schlacht"
+[Lignes de combat]: #lignes-de-combat "Lignes de combat"
 [fuir]: #la-fuite
 [`GROUPE`]: ./cmd-group.md "GROUP"
 [combat en mer]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [la fuite]: ./war.md#la-fuite "Die Flucht"
-[non armés]: #boni-und-mali
+[non armés]: #boni-et-mali
 [Tacticien]: ./tactic.md "Taktik"
 [PROMOTE]: ./cmd-promote.md "PROMOTE"
-[Héros]: /index.php?title=Sp%C3%A9cial:MyLanguage/BEF%C3%96RDERUNG&action=edit&redlink=1 "Spécial:MyLanguage/BEFÖRDERUNG (Seite nicht vorhanden)"
+[Héros]: #héros "Héros"
 [Caractéristiques des armes]: ./war.mdstabellen#waffeneigenschaften "Guerrestabellen"
 [Modificateurs de compétences]: ./war.mdstabellen#caractéristiques-raciales "Guerrestabellen"
 [ce]: ./war.mdstabellen#rüstung "Guerrestabellen"
 [Résistance à la magie]: ./war.mdstabellen#magieresistenz "Guerrestabellen"
 [ce tableau]: ./war.mdstabellen#ausdauer "Guerrestabellen"
-[débordé]: #schlacht
-[à mains nues]: #bonus-et-malus
+[débordé]: #lignes-de-combat "Lignes de combat"
+[à mains nues]: #boni-et-mali
 [MAKE ammunition]: ./cmd-make.md "MAKE"
 [tables de combat]: ./war.mdstabellen#kampfmodifikatoren "Guerrestabellen"
 [`GUARD`]: ./cmd-guard.md "GUARD"

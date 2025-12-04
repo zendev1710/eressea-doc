@@ -94,10 +94,10 @@ Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiff
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Materialpool]: ./items-pool.md "Materialpool"
-  [Talente]: ./skills.md "Talente"
-  [Konvoi]: ./ships.md#konvoi "Schiff"
-  [RESERVIERE]: ./cmd-reserve.md "RESERVIERE"
-  [Schiff]: ./ships.md "Schiff"
-  [Gebäude]: ./buildings.md "Gebäude"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[Materialpool]: ./items-pool.md "Materialpool"
+[Talente]: ./skills.md "Talente"
+[Konvoi]: ./ships.md#konvoi "Schiff"
+[RESERVIERE]: ./cmd-reserve.md "RESERVIERE"
+[Schiff]: ./ships.md "Schiff"
+[Gebäude]: ./buildings.md "Gebäude"

@@ -18,8 +18,8 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 <!-- From [https://wiki.eressea.de/index.php?title=UNTERHALTE&oldid=16748] -->
 
-  [`ARBEITE`]: ./cmd-work.md "ARBEITE"
-  [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
-  [`HELFE`]: ./cmd-help.md "HELFE"
-  [Handel]: ./silver.md#handel "Handel"
-  [Geld]: ./silver.md "Geld"
+[`ARBEITE`]: ./cmd-work.md "ARBEITE"
+[`BEWACHE`]: ./cmd-guard.md "BEWACHE"
+[`HELFE`]: ./cmd-help.md "HELFE"
+[Handel]: ./silver.md#handel "Handel"
+[Geld]: ./silver.md "Geld"

@@ -50,4 +50,4 @@ Das bedeutet 12 Taktiker Stufe X erreichen im Mittel die gleiche Stufe wie ein T
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik&oldid=9946] -->
 
 [kämpft]: ./cmd-combat.md "KÄMPFE"
-[Vom Kriege]: /Kampf#die-taktikerrunde "Kampf"
+[Vom Kriege]: ./war-tables.md#die-taktikerrunde "Kampf"

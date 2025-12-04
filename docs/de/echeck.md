@@ -8,7 +8,7 @@ ECheck kann auf verschieden Arten aufgerufen werden:
 - In Magellan. Hier kann man die Optionen beliebig einstellen. Magellan kann außerdem die "Meta-Befehle" automatisch hinzufügen. Das sind Kommentare, die ECheck helfen, zum Beispiel den Silberverbrauch zu prüfen. Es gibt aber eigentlich keinen Grund mehr, ECheck von Magellan aufzurufen, da Magellans eigene Mechanismen (Syntaxcheck und "Offene Probleme") zuverlässiger sind und mehr können.
 - Auf der Kommandozeile (unter Windows Eingabeaufforderung ("cmd"), unter Linux in jedem Terminal). Dann muss man die unten aufgeführten Parameter mit angeben.
 
-Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden. Mit \`-w1\` werden nur Syntaxfehler ausgegeben. Die Stufen \`w2\` bis \`w4 geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus. Die noxxx-Parameter können außerdem bestimmte Warnungen unterdrücken. ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt. Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen, Befehle für E3 mit -Re3.
+Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden. Mit \`-w1\` werden nur Syntaxfehler ausgegeben. Die Stufen \`w2\` bis \`w4 geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus. Die noxxx-Parameter können außerdem bestimmte Warnungen unterdrücken. ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt. Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.
 
 ## Aufruf
 

@@ -77,8 +77,6 @@ MkDocs project for Eressea documentation.
 | [weekly-report]               | S  | N  | N  | [wochenbericht]                      |
 | [world]                       | X  | X  | X  | [welt]                               |
 
-Each command page can be accessed from commands page.
-
 | cmd page          | DE | EN | FR | GERMAN TERM     |
 |-------------------|----|----|----|-----------------|
 | [cmd-leave]       | S  |    |    | [VERLASSE]      |
@@ -149,6 +147,10 @@ Each command page can be accessed from commands page.
 | [thanks]             |    |    |    | [danksagung]                  |
 | [the-third-age]      |    |    |    | [das_dritte_zeitalter]        |
 | [xontormia-express]  |    |    |    | [xontormia_express]           |
+
+| empty pages     | DE | EN | FR | GERMAN TERM      |
+|-----------------|----|----|----|------------------|
+| [ring-of-power] |    |    |    | [ring_der_macht] |
 
 | bad page                | DE | EN | FR | GERMAN TERM               |
 |-------------------------|----|----|----|---------------------------|
@@ -366,6 +368,8 @@ Each command page can be accessed from commands page.
 [reports]: ./reports.md "reports"
 [reports-request-again]: ./reports-request-again.md "reports-request-again"
 [resources]: ./resources.md "resources"
+[ring-of-power]: ./ring-of-power.md "ring of power"
+[ring_der_macht]: <https://wiki.eressea.de/ring_der_macht> "Ring der Macht"
 [roads]: ./roads.md "roads"
 [rohstoffe]: <https://wiki.eressea.de/rohstoffe> "rohstoffe"
 [round-first]: ./round-first.md "round-first"

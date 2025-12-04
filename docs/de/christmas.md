@@ -20,8 +20,8 @@ Hier eine kleine Übersicht über die Weihnachtsgeschenke der letzten Jahre
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachten&oldid=4853] -->
 
-[Mistelzweig]: /Mistelzweig "Mistelzweig"
-[Schneemann]: /Schneemann "Schneemann"
+[Mistelzweig]: ./mistletoe.md "Mistelzweig"
+[Schneemann]: ./snowman.md "Schneemann"
 [Sonnensegel]: ./sun-sail.md "Sonnensegel"
 [Sternenstaub]: ./stardust.md "Sternenstaub"
 [Weihnachtsbaum]: ./christmas-tree.cmd "Weihnachtsbaum"

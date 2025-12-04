@@ -12,10 +12,13 @@ Jede Einheit kann nur einer Gruppe angehören. Eine Einheit, die einen `HELFE` B
 
 In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon passiert, wenn Einheiten parteigetarnt sind.
 
+<!-- exclude E3 from documentation -->
+<!--
 |---------|----------------------------------------------------------------------------------|
 | **E3A** | Für E3 gilt das nicht! Hier sind alle Einheiten einer Partei in dem selben Heer. |
+-->
 
 <!-- From [https://wiki.eressea.de/index.php?title=GRUPPE&oldid=6657] -->
 
-  [`HELFE`]: ./cmd-help.md "HELFE"
-  [PRÄFIX]: ./cmd-prefix.md "PRÄFIX"
+[`HELFE`]: ./cmd-help.md "HELFE"
+[PRÄFIX]: ./cmd-prefix.md "PRÄFIX"

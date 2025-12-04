@@ -236,5 +236,5 @@ Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als e
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-  [Magellan]: ./magellan.md "Magellan"
-  [Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/
+[Magellan]: ./magellan.md "Magellan"
+[Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/

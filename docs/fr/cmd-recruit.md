@@ -20,9 +20,9 @@ Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführ
 
 <!-- From [https://wiki.eressea.de/index.php?title=REKRUTIERE&oldid=15790] -->
 
-  [Rasse]: ./races.md "Rassen"
-  [Rekrutierungskosten]: ./skills-modifiers.md "Talentmodifikatoren"
-  [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
-  [Migranten]: ./races.md##menschen "Mensch"
-  [Mischen von Talenten]: ./skills.md#mischen-von-talenten "Talente"
-  [Geld]: ./silver.md#rekrutieren "Geld"
+[Rasse]: ./races.md "Rassen"
+[Rekrutierungskosten]: ./skills-modifiers.md "Talentmodifikatoren"
+[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
+[Migranten]: ./races.md##menschen "Mensch"
+[Mischen von Talenten]: ./skills.md#mischen-von-talenten "Talente"
+[Geld]: ./silver.md#rekrutieren "Geld"

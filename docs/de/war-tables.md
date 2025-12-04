@@ -87,8 +87,11 @@ Rüstungen
 | Rostiges Kettenhemd    | 2         | 130%          |
 | Rostiger Plattenpanzer | 3         | 145%          |
 
+<!-- exclude E3 from documentation -->
+<!--
 |---------|-----------|
 | **E3A** | Rüstungen |
+-->
 
 RüstungPanzerungChance NahfernPlattenpanzer3115%100%Kettenhemd2110%100%Schild090%90%Laenschild190%90%Laenkettenhemd3100%90%Turmschild085%75%Schuppenpanzer3110%105%Rostiger Schild095%100%Rostiges Kettenhemd1120%100%
 
@@ -126,6 +129,7 @@ Trolle haben eine natürliche Rüstung von 1. Das bedeutet, ohne sonstige Rüstu
 
 Ein Insekt oder ein Dämon mit Kettenhemd kommt hingegen auf einen Rüstungswert von 4. Das maximal Erreichbare mit konventioneller Ausrüstung ist ein Rüstungswert von 7 mit Plattenpanzer und Schild. Mit Laenausrüstung ist sogar ein Rüstungswert von 9 möglich und mit Adamantium gar 10. Eine derart gut gepanzerte Einheit ist mit einfachen Waffen wie Schwertern oder Bögen nur schwer zu verwunden, da die Rüstung viel vom Schaden abfangen kann.
 
+<!-- TODO: exclude E3 from documentation -->
 **[E3A — Das Dritte Zeitalter]**
 
 Trolle starten mit einer natürlichen Rüstung von 1, können aber durch das Lernen von Ausdauer die natürliche Rüstung erhöhen. Da Trolle so eine natürliche Rüstung von 3 oder größer bekommen können wirkt im [dritten Zeitalter] natürliche Rüstung symmetrisch-halbadditiv, d.h. zum größeren Rüstungswert wird die Hälfte des kleineren addiert.
@@ -147,5 +151,6 @@ Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nic
 [Vertraute]: ./familiars.md "Vertraute"
 [Pferdebonus]: ./war.md#boni-und-mali "Boni und Mali"
 [Talent]: ./skills.md "Talente"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [dritten Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+<!-- TODO: exclude E3 from documentation -->
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"

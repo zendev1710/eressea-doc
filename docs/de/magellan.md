@@ -2,10 +2,8 @@
 
 Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte anzeigen, Suchen, Befehle geben, und überhaupt braucht man das Programm fast nur noch zu verlassen, um Mails an die Verbündeten zu schreiben. Fast. Magellan wird sporadisch weiterentwickelt, hauptsächlich, wenn es Änderungen am Server gibt. Zu den Features gehören:
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:Magellan_Screenshot.png" class="mw-file-description" title="Magellan 2 Screenshot"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/7/71/Magellan_Screenshot.png/400px-Magellan_Screenshot.png" data-original-image-title="" decoding="async" width="400" height="309" srcset="/images/thumb/7/71/Magellan_Screenshot.png/600px-Magellan_Screenshot.png 1.5x, /images/thumb/7/71/Magellan_Screenshot.png/800px-Magellan_Screenshot.png 2x">Magellan 2 Screenshot</span></a>
-<figcaption>Magellan 2 Screenshot</figcaption>
-</figure>
+<!-- TODO: magellan screenshot 400X309 - should be where in the page ? -->
+![Magellan 2 Screenshot](./assets/images/magellan-screenshot.png "Magellan 2 Screenshot")
 
 - Anzeige von Karte, Einheiten, Regionsdetails, und allen anderen Reporteigenschaften. Dabei kann die Anordnung der verschiedenen Fenster frei angepasst werden.
 - Umfangreicher Befehlseditor mit Autovervollständigung und Syntaxcheck.

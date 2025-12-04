@@ -25,11 +25,11 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 
 <!-- From [https://wiki.eressea.de/index.php?title=BETRETE&oldid=7174] -->
 
-  [Gebäude]: ./buildings.md "Gebäude"
-  [Schiff]: ./ships.md "Schiff"
-  [Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
-  [HELFE]: ./cmd-help.md "HELFE"
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [VERLASSE]: ./cmd-leave.md "VERLASSE"
-  [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-  [GIB]: ./cmd-give.md "GIB"
+[Gebäude]: ./buildings.md "Gebäude"
+[Schiff]: ./ships.md "Schiff"
+[Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
+[HELFE]: ./cmd-help.md "HELFE"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[VERLASSE]: ./cmd-leave.md "VERLASSE"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+[GIB]: ./cmd-give.md "GIB"

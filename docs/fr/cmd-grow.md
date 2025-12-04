@@ -17,6 +17,6 @@ Pour `GROW HERBS` vous devez avoir au moins [Herbalism][Taming] 6. L'unité essa
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE/fr&oldid=14489] -->
 
-  [Taming]: ./skills-list.md "Liste der Talente"
-  [écurie]: ./buildings-others.md#pferdezucht "Andere Gebäude"
-  [PLANT]: ./cmd-plant.md "PFLANZE"
+[Taming]: ./skills-list.md "Liste der Talente"
+[écurie]: ./buildings-others.md#pferdezucht "Andere Gebäude"
+[PLANT]: ./cmd-plant.md "PFLANZE"

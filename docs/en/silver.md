@@ -173,7 +173,7 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 [collecting taxes]: ./cmd-tax.md "TAX"
 [trading]: ./silver.md#handel "Silver"
 [races]: ./race.md "Rassen"
-[recruit]: /RECRUIT "RECRUIT"
+[recruit]: ./cmd-recruit.md "RECRUIT"
 [HELP SILVER]: ./cmd-help.md "HELP"
 [alliances]: ./alliances.md "Allianz"
 [reserved]: ./cmd-reserve.md "RESERVE"

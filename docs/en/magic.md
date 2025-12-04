@@ -224,7 +224,7 @@ Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezau
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: /Kr%C3%B6te "Kröte"
+[Kröte]: ./toad.md "Kröte"
 
 ## Magieresistenz
 
@@ -270,10 +270,11 @@ Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber] möglich �
 
 Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen. Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft. Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild). Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen. Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet. Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
-<figure class="mw-halign-right" typeof="mw:File/Frame">
-<a href="/Datei:Astralraumverbindung.jpg" class="mw-file-description"><span class="image placeholder mw-file-element" data-original-image-src="/images/3/39/Astralraumverbindung.jpg" data-original-image-title="" decoding="async" width="488" height="393">Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
+<!-- TODO: astral connection map 488X393 - should be where in the page ? -->
+![Astral space connection](../assets/images/astral-space-connection.jpeg "Astral space connection")
+<!-- Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
 <figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
-</figure>
+-->
 
 Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt. Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb). Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost. Der "Bezugspunkt" ist die südwestliche Ecke davon. Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt. Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung. Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden. Je nach benutztem Zauber können noch weitere Einschränkungen gelten.
 
@@ -294,37 +295,37 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-  [Kampf]: ./war.md "Krieg"
-  [Illaun]: /Illaunzauber "Illaunzauber"
-  [Tybied]: /Tybiedzauber "Tybiedzauber"
-  [Gwyrrd]: /Gwyrrdzauber "Gwyrrdzauber"
-  [Cerddor]: /Cerddorzauber "Cerddorzauber"
-  [Draig]: /Draigzauber "Draigzauber"
-  [LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md "LERNE"
-  [Partei]: ./factions.md "Partei"
-  [Akademie]: ./buildings-others.md "Andere Gebäude"
-  [ZEIGE]: ./cmd-show.md "ZEIGE"
-  [ZAUBERE]: ./cmd-cast.md "ZAUBERE"
-  [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-  [KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md "KAMPFZAUBER"
-  [KÄMPFE-Befehle]: ./war.md#kampfreihen "Krieg"
-  [Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
-  [ATTACKIERE]: ./cmd-attack.md "ATTACKIERE"
-  [Aura]: #aura
-  [Fernzauber]: #fernzauber
-  [Magieresistenz]: #magieresistenz
-  [Ring der Macht]: /Ring_der_Macht "Ring der Macht (Seite nicht vorhanden)"
-  [Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
-  [gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
-  [Wahrscheinlichkeit für Patzer]: #patzer
-  [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
-  [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-  [Rassen]: ./races.md "Rasse (Seite nicht vorhanden)"
-  [Zauber]: /Zauberliste_E2 "Zauberliste E2"
-  [Waffen oder Rüstungen]: ./war.mdstabellen#magieresistenz "Kriegstabellen"
-  [Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
-  [Chaosfluch]: /Zauberliste_E2#chaosfluch "Zauberliste E2"
-  [Vertraute]: ./familiars.md "Vertraute"
-  [NACH]: ./cmd-move.md "NACH"
-  [Wesen]: ./monsters.md#hirntöter "Monster"
-  [Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"
+[Kampf]: ./war.md "Krieg"
+[Illaun]: ./magic-school-illaun.md "Illaunzauber"
+[Tybied]: ./magic-school-tybied.md "Tybiedzauber"
+[Gwyrrd]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
+[Cerddor]: ./magic-school-cerddor.md "Cerddorzauber"
+[Draig]: ./magic-school-draig.md "Draigzauber"
+[LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md "LERNE"
+[Partei]: ./factions.md "Partei"
+[Akademie]: ./buildings-others.md "Andere Gebäude"
+[ZEIGE]: ./cmd-show.md "ZEIGE"
+[ZAUBERE]: ./cmd-cast.md "ZAUBERE"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md "KAMPFZAUBER"
+[KÄMPFE-Befehle]: ./war.md#kampfreihen "Krieg"
+[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
+[ATTACKIERE]: ./cmd-attack.md "ATTACKIERE"
+[Aura]: #aura
+[Fernzauber]: #fernzauber
+[Magieresistenz]: #magieresistenz
+[Ring der Macht]: ./ring-of-power.md "Ring der Macht (Seite nicht vorhanden)"
+[Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
+[gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
+[Wahrscheinlichkeit für Patzer]: #patzer
+[URSPRUNG]: ./cmd-origin.md "URSPRUNG"
+[KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
+[Rassen]: ./races.md "Rasse (Seite nicht vorhanden)"
+[Zauber]: ./spells-list.md "Zauberliste E2"
+[Waffen oder Rüstungen]: ./war.mdstabellen#magieresistenz "Kriegstabellen"
+[Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
+[Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
+[Vertraute]: ./familiars.md "Vertraute"
+[NACH]: ./cmd-move.md "NACH"
+[Wesen]: ./monsters.md#hirntöter "Monster"
+[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

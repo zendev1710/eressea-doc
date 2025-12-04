@@ -313,8 +313,8 @@ Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änder
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
 
-  [Cerddor]: /Cerddorzauber "Cerddorzauber"
-  [Draig]: /Draigzauber "Draigzauber"
-  [Gwyrrd]: /Gwyrrdzauber "Gwyrrdzauber"
-  [Illaun]: /Illaunzauber "Illaunzauber"
-  [Tybied]: /Tybiedzauber "Tybiedzauber"
+[Cerddor]: ./magic-school-cerddor.md "Cerddorzauber"
+[Draig]: ./magic-school-draig.md "Draigzauber"
+[Gwyrrd]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
+[Illaun]: ./magic-school-illaun.md "Illaunzauber"
+[Tybied]: ./magic-school-tybied.md "Tybiedzauber"

@@ -37,9 +37,9 @@ Vorlage nächste Woche:
 
 <!-- From [https://wiki.eressea.de/index.php?title=NACH&oldid=16729] -->
 
-  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-  [Defaultbefehle]: ./cmd-default.md "DEFAULT"
-  [Zugvorlage]: ./commands.md "Befehl"
-  [Reisen]: ./travel.md "Reisen"
-  [ROUTE]: ./cmd-route.md "ROUTE"
-  [FOLGE]: ./cmd-follow.md "FOLGE"
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[Defaultbefehle]: ./cmd-default.md "DEFAULT"
+[Zugvorlage]: ./commands.md "Befehl"
+[Reisen]: ./travel.md "Reisen"
+[ROUTE]: ./cmd-route.md "ROUTE"
+[FOLGE]: ./cmd-follow.md "FOLGE"

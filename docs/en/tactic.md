@@ -50,4 +50,4 @@ This means that 12 Tacticians level X reach the same level on average as one Tac
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952] -->
 
 [fighting]: ./cmd-combat.md "COMBAT"
-[Vom Kriege]: /Kampf#die-taktikerrunde "Kampf"
+[Vom Kriege]: ./war-tables.md#die-taktikerrunde "Kampf"

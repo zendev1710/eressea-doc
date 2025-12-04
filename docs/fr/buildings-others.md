@@ -9,7 +9,7 @@ Les bâtiments sont construits avec l'ordre [MAKE "type de bâtiment"] et peuven
 
 Voici un tableau récapitulatif, des explications plus détaillées suivent ci-dessous.
 
-Building; see also table on [building castles]  
+Building; see also table on [Construction d'un château]  
 The capacity refers only to the persons who can benefit from the building.  
 \*: also 2 Mallorn and 2 Laen per size point
 
@@ -295,8 +295,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 [Châteaux]: ./castles.md "Burgen"
 [Production]: ./production.md "Produktion"
 [factionpool]: ./factions-pool.md "Parteipool"
-
-[building castles]: /BurLighthousegen "Burgen"
+[Construction d'un château]: ./castles.md#aperçu "Construction d'un château"
 [Lighthouse]: #lighthouse
 [Mine]: #mine
 [Quarry]: #quarry

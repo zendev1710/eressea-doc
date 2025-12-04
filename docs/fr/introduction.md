@@ -1,14 +1,12 @@
 # Introduction
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:Logo.jpeg" class="mw-file-description"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/5/58/Logo.jpeg/160px-Logo.jpeg" data-original-image-title="" decoding="async" width="160" height="160" srcset="/images/5/58/Logo.jpeg 1.5x">Kartenausschnitt</span></a>
-</figure>
+<!-- TODO: logo 180X180 - should be to the left or right part of the page -->
+![Eressea logo](../assets/images/logo.png "Eressea map view")
 
 Dans Eressea, chaque joueur prend en charge une [faction] de personnes d'une certaine [race], qu'il peut choisir lors de l'[Inscription]. Les joueurs sont ensuite plongés avec quelques autres dans le monde d'Eressea et à partir de là peuvent commencer à explorer les alentours et plus.
 
-<figure class="mw-halign-left" typeof="mw:File">
-<a href="/Datei:Icons.png" class="mw-file-description"><span class="image placeholder mw-file-element" data-original-image-src="/images/f/fc/Icons.png" data-original-image-title="" decoding="async" width="160" height="160">Fantastische Symbole</span></a>
-</figure>
+<!-- TODO: icons 160X160 - should be to the left or right part of the page -->
+![Eressea icons](../assets/images/icons.png "Fantasy symbols")
 
 Eressea est un monde fantastique. Des êtres comme les [Elfes] et les [Nains] peuplent le monde, et la [magie] fait partie du quotidien. Même des [dragons] ont été aperçus, des [monstres] grands, puissants et surtout dangereux, qui nécessitent des centaines de soldats pour les affronter, ainsi que des serpents de mer, des Ents et d'autres créatures étranges.
 
@@ -16,17 +14,15 @@ Eressea est un vaste monde. Des centaines de peuples vivent sur les îles d'Eres
 
 L'Eressea est un monde complexe. Diriger un peuple n'est pas une tâche facile. Il y a beaucoup de choses à prendre en compte pour que tout se passe correctement, et c'est sans compter l'intervention vos voisins ! Il faut trouver des accords, il se peut qu'il y ait des querelles, voire une [guerre]. Même si tout se passe bien, Eressea prend beaucoup de temps. Alors qu'au début, il faut à peine une heure par semaine, cela peut monter à dix heures et plus par semaine.
 
-<figure class="mw-halign-right" typeof="mw:File">
-<a href="/Datei:Nr.jpg" class="mw-file-description"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/0/0e/Nr.jpg/160px-Nr.jpg" data-original-image-title="" decoding="async" width="160" height="132" srcset="/images/thumb/0/0e/Nr.jpg/240px-Nr.jpg 1.5x, /images/thumb/0/0e/Nr.jpg/320px-Nr.jpg 2x">Bild eines Reports</span></a>
-</figure>
+<!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
+![Eressea report](../assets/images/nr.jpeg "An NR report")
 
 Il n'y a pas d'objectif de jeu clair dans Eressea, pas de fin à atteindre. Tu peux te fixer des "objectifs d'étape" à atteindre, que ce soit la construction d'un empire commercial, la conquête d'une île entière, l'exploration d'un maximum de régions ou quoi que ce soit d'autre. Quoi qu'il en soit, cela aura un impact sur le monde que tu peux décrire et dont tu peux influencer le destin.
 
 ## Comment fonctionne le jeu
 
-<figure class="mw-halign-left" typeof="mw:File">
-<a href="/Datei:Orders.jpg" class="mw-file-description"><span class="image placeholder mw-file-element" data-original-image-src="/images/thumb/5/57/Orders.jpg/160px-Orders.jpg" data-original-image-title="" decoding="async" width="160" height="146" srcset="/images/thumb/5/57/Orders.jpg/240px-Orders.jpg 1.5x, /images/thumb/5/57/Orders.jpg/320px-Orders.jpg 2x">Bild einer Befehlsdatei</span></a>
-</figure>
+<!-- TODO: orders 160X160 - should be to the left or right part of the page -->
+![Eressea orders](./assets/images/orders.jpeg "Eressea orders")
 
 Dans Eressea, tu envoies un *train d'ordres* à intervalles réguliers. Un train est composé d'[ordres] que les unités de ta faction dans ce monde vont exécuter du mieux qu'elles peuvent. Un train ressemble à un programme informatique, afin que le *serveur*, le programme informatique qui connaît l'état du monde, puisse l'évaluer ainsi que les trains de tous les autres joueurs et calculer le nouvel état du monde. Le rythme des trains est d'un par semaine, la date limite de remise des trains, Due Date (ZAT pour les joueurs allemands) est le samedi soir à 21h00 (CET). En réponse à ton *train d'ordres*, tu reçois un *rapport* qui contient l'état du monde connu de ta faction. Le rapport se compose de plusieurs parties : un *[NR]* (rapport normal), qui présente le rapport sous une forme facile à lire pour les humains. Un *[CR]* (rapport informatique/computer report), qui présente les mêmes informations, mais sous une forme lisible par ordinateur, avec des [programmes] adaptés. Et un *[modèle de train]*(txt) qui peut servir de modèle (template) pour ton prochain tour. Il peut aussi y avoir le [point hebdomadaire] (Wochenbericht), qui contient quelques statistiques sur l'état général du monde. Et parfois le [Xontormia Express], la gazette alimentée par les écrits des joueurs.
 
@@ -52,6 +48,6 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 [NR]: ./reports.md#nr "NR (Seite nicht vorhanden)"
 [CR]: ./reports.md#cr "CR (Seite nicht vorhanden)"
 [programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[modèle de train]: /Zugvorlage "Zugvorlage (Seite nicht vorhanden)"
+[modèle de train]: ./move-template.md "Zugvorlage (Seite nicht vorhanden)"
 [point hebdomadaire]: ./weekly-report.md "Wochenbericht"
 [Xontormia Express]: ./xontormia-express.md "Xontormia Express"

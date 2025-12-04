@@ -10,6 +10,6 @@ Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Re
 
 <!-- From [https://wiki.eressea.de/index.php?title=FORSCHE&oldid=16724] -->
 
-  [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-  [Kräuterkunde]: ./skills-list.md "Liste der Talente"
-  [Kräuter]: ./herbs.md "Kräuter"
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[Kräuterkunde]: ./skills-list.md "Liste der Talente"
+[Kräuter]: ./herbs.md "Kräuter"

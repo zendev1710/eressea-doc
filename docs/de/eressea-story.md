@@ -348,7 +348,7 @@ Dezember 2008 -- Anmeldung (endgültig) geschlossen
 
 10.05.2009
 
-- Die Entwicklung von Eressea 1.5 wird aufgeschoben. Anstelle dessen trit des Projekts [E3A]. Zielsetzung ist es schnell eine spielbare Version zu erarbeiten die grosse Änderungen beinhaltet welche mit möglichst wenig Coding umgesezt werden können.
+- Die Entwicklung von Eressea 1.5 wird aufgeschoben. Anstelle dessen trit des Projekts E3A. Zielsetzung ist es schnell eine spielbare Version zu erarbeiten die grosse Änderungen beinhaltet welche mit möglichst wenig Coding umgesezt werden können.
 
 02.12.2017 - Warteliste wird erstmals wieder abgearbeitet
 
@@ -373,11 +373,10 @@ Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt,
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
 [Atlantis]: ./atlantis.md "Atlantis"
-[Corwin]: /index.php?title=Corwin&action=edit&redlink=1 "Corwin (Seite nicht vorhanden)"
-[Katze (Designerin)]: /index.php?title=Katze_(Designerin)&action=edit&redlink=1 "Katze (Designerin) (Seite nicht vorhanden)"
-[Enno Rehling]: /index.php?title=Enno&action=edit&redlink=1 "Enno (Seite nicht vorhanden)"
-[Faroul]: /index.php?title=Faroul&acti.mdon=edit&redlink=1 "Faroul (Seite nicht vorhanden)"
+[Corwin]: ./contributors.md#corwin "Corwin (Seite nicht vorhanden)"
+[Katze (Designerin)]: ./contributors.md#katja-zedel "Katze (Designerin)"
+[Enno Rehling]: ./contributors.md#enno "Enno (Seite nicht vorhanden)"
+[Faroul]: ./contributors.md#faroul "Faroul (Seite nicht vorhanden)"
 [ECheck]: ./echeck.md "ECheck"
-[Xolgrim]: /Benutzer:Xolgrim "Benutzer:Xolgrim"
+[Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim"
 [Xontormia-Express]: ./xontormia-express "Xontormia-Express"
-[E3A]: /E3A "E3A"

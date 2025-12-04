@@ -42,6 +42,10 @@ Es heißt, manche Magier könnten Drachen beeinflussen. Es darf aber bezweifelt 
 
 Mit der Zeit beginnen Drachen und Wyrme ein Gefolge um sich zu scharen, die so genannten Dracoide. Niedere, geschuppte, humanoide Wesen welche mit Schwertern, Speeren oder Bögen kämpfen können.
 
+## Igjarjuk
+
+Eisdrache
+
 ## Schattendämonen und Schattenmeister
 
 Schattendämonen und Schattenmeister können von [Draig]-Magiern beschworen werden. Sie besitzen Magieresistenz. Erfolgreich Attacken erzeugen bei Gegnern Panik, die Angriffs- oder Verteidigungswert um 1 verringert. Bei Schattenmeister können deren Opfer sogar pro Treffer den Gegenwert einer Lernwoche eines ihrer Talente.
@@ -64,17 +68,17 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
 
-[Untoten-Typen]: ./monsters.md#untote "Untote"
-[Drachen]: ./monsters.md#drachen "Drachen"
-[Hirntöter]: /index.php?title=Hirnt%C3%B6ter&action=edit&redlink=1 "Hirntöter (Seite nicht vorhanden)"
-[Vertrauten]: /index.php?title=Vertrauten&action=edit&redlink=1 "Vertrauten (Seite nicht vorhanden)"
+[Untoten-Typen]: #untote "Untote"
+[Drachen]: #drachen "Drachen"
+[Hirntöter]: #hirntöter "Hirntöter"
+[Vertrauten]: ./familiars.md "Vertrauten"
 [Hungersnöte]: ./silver.md#hunger "Hunger"
 [Kampf]: ./war.md "Krieg"
 [Talente]: ./skills.md "Talente"
 [bewaffnet]: ./armed.md "Bewaffnet"
 [Magier]: ./cmd-magic.md "Magie"
-[Igjarjuk]: /index.php?title=Igjarjuk&action=edit&redlink=1 "Igjarjuk (Seite nicht vorhanden)"
-[Pentagramm und Tirawon]: /Pentagramm_und_Tirawon "Pentagramm und Tirawon"
-[Draig]: /index.php?title=Draig&action=edit&redlink=1 "Draig (Seite nicht vorhanden)"
+[Igjarjuk]: #igjarjuk "Igjarjuk"
+[Pentagramm und Tirawon]: ./pentagram-and-tirawon.md "Pentagramm und Tirawon"
+[Draig]: ./magic-schools.md#draig "Draig"
 [Astralraum]: ./cmd-magic.md#der-astralraum "Magie"
 [Vertraute]: ./familiars.md "Vertraute"

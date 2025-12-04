@@ -33,9 +33,7 @@ Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, 
 
 **Beispiel 4:** A und B attackieren C. Dann helfen sie sich gegen C (auch, wenn sie nicht alliiert sind), da sie ja einen gemeinsamen Feind haben.
 
-Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter. Siehe zum Beispiel die [Diskussion hier].
-
-[Diskussion hier]: /Kampfregeln "Kampfregeln"
+Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter.
 
 **Achtung:** Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde. Freunde blieben plötzlich tatenlos im Lager zurück oder kämpften gar plötzlich gegeneinander. Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
 

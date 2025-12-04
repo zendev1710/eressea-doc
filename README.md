@@ -6,6 +6,42 @@ MkDocs project for Eressea documentation.
 
 | page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGE        |
 |-------------------------------|----|----|----|--------------------------------------|
+| [auto-event-response]         | S  | N  | N  | [] |
+| [auto-learning-chains]        | S  | N  | N  | [] |
+| [auto-trading]                | S  | N  | N  | [] |
+| [auto-transport]              | S  | N  | N  | [] |
+| [cmd-end]                     | S  | N  | N  | [] |
+| [cmd-eressea]                 | S  | N  | N  | [] |
+| [cmd-semicolon]               | S  | N  | N  | [] |
+| [cmd-unit]                    | S  | N  | N  | [] |
+| [commands-extended]           | S  | N  | X  | [] |
+| [commands-short-descriptions] | S  | S  | S  | [] |
+| [cr-format]                   | S  | N  | N  | [] |
+| [csmapfx]                     | S  | N  | N  | [] |
+| [ehmv]                        | S  | N  | N  | [] |
+| [farmers-hike]                | S  | N  | N  | [] |
+| [fftools2]                    | S  | N  | N  | [] |
+| [flaming-sword]               | S  | N  | N  | [] |
+| [magic-school-cerddor]        | S  | N  | N  | [] |
+| [magic-school-draig]          | S  | N  | N  | [] |
+| [magic-school-gwyrrd]         | S  | N  | N  | [] |
+| [magic-school-illaun]         | S  | N  | N  | [] |
+| [magic-school-tybied]         | S  | N  | N  | [] |
+| [mistletoe]                   | S  | N  | N  | [] |
+| [optimize-learning-chains]    | S  | N  | N  | [] |
+| [optimize-production]         | S  | N  | N  | [] |
+| [optimize-transport]          | S  | N  | N  | [] |
+| [optimize-way-finding]        | S  | N  | N  | [] |
+| [pentagram-and-tirawon]       | S  | N  | N  | [] |
+| [ring-of-invisibility]        | S  | N  | N  | [] |
+| [snowman]                     | S  | N  | N  | [] |
+| [toad]                        | S  | N  | N  | [] |
+| [vorlage]                     | S  | N  | N  | [] |
+| [xml-format]                  | S  | N  | N  | [] |
+
+
+| page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGE        |
+|-------------------------------|----|----|----|--------------------------------------|
 | [adamantium-armor]            | S  | N  | N  | [adamantiumrüstung]                  |
 | [adamantium]                  | S  | N  | N  | [adamantium]                         |
 | [alchemy]                     | X  | X  | X  | [tränke]                             |

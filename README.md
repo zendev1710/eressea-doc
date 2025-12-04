@@ -6,48 +6,16 @@ MkDocs project for Eressea documentation.
 
 | page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGE        |
 |-------------------------------|----|----|----|--------------------------------------|
-| [auto-event-response]         | S  | N  | N  | [] |
-| [auto-learning-chains]        | S  | N  | N  | [] |
-| [auto-trading]                | S  | N  | N  | [] |
-| [auto-transport]              | S  | N  | N  | [] |
-| [cmd-end]                     | S  | N  | N  | [] |
-| [cmd-eressea]                 | S  | N  | N  | [] |
-| [cmd-semicolon]               | S  | N  | N  | [] |
-| [cmd-unit]                    | S  | N  | N  | [] |
-| [commands-extended]           | S  | N  | X  | [] |
-| [commands-short-descriptions] | S  | S  | S  | [] |
-| [cr-format]                   | S  | N  | N  | [] |
-| [csmapfx]                     | S  | N  | N  | [] |
-| [ehmv]                        | S  | N  | N  | [] |
-| [farmers-hike]                | S  | N  | N  | [] |
-| [fftools2]                    | S  | N  | N  | [] |
-| [flaming-sword]               | S  | N  | N  | [] |
-| [magic-school-cerddor]        | S  | N  | N  | [] |
-| [magic-school-draig]          | S  | N  | N  | [] |
-| [magic-school-gwyrrd]         | S  | N  | N  | [] |
-| [magic-school-illaun]         | S  | N  | N  | [] |
-| [magic-school-tybied]         | S  | N  | N  | [] |
-| [mistletoe]                   | S  | N  | N  | [] |
-| [optimize-learning-chains]    | S  | N  | N  | [] |
-| [optimize-production]         | S  | N  | N  | [] |
-| [optimize-transport]          | S  | N  | N  | [] |
-| [optimize-way-finding]        | S  | N  | N  | [] |
-| [pentagram-and-tirawon]       | S  | N  | N  | [] |
-| [ring-of-invisibility]        | S  | N  | N  | [] |
-| [snowman]                     | S  | N  | N  | [] |
-| [toad]                        | S  | N  | N  | [] |
-| [vorlage]                     | S  | N  | N  | [] |
-| [xml-format]                  | S  | N  | N  | [] |
-
-
-| page                          | DE | EN | FR | GERMAN LINK TO WIKIMEDIA PAGE        |
-|-------------------------------|----|----|----|--------------------------------------|
 | [adamantium-armor]            | S  | N  | N  | [adamantiumrüstung]                  |
 | [adamantium]                  | S  | N  | N  | [adamantium]                         |
 | [alchemy]                     | X  | X  | X  | [tränke]                             |
 | [alliances]                   | X  | X  | NT | [allianz]                            |
 | [armed]                       | S  | N  | N  | [bewaffnet]                          |
 | [atlantis]                    | S  | N  | N  | [atlantis]                           |
+| [auto-event-response]         | S  | N  | N  | []                                   |
+| [auto-learning-chains]        | S  | N  | N  | []                                   |
+| [auto-trading]                | S  | N  | N  | []                                   |
+| [auto-transport]              | S  | N  | N  | []                                   |
 | [basics]                      | S  | N  | N  | [grundlagen]                         |
 | [birthday-cake]               | N  | N  | N  | [geburtstagstorte]                   |
 | [buildings-others]            | X  | X  | X  | [andere_gebäude]                     |
@@ -56,14 +24,81 @@ MkDocs project for Eressea documentation.
 | [castles]                     | X  | X  | X  | [burg]                               |
 | [christmas-tree]              | S  | N  | N  | [weihnachtsbaum]                     |
 | [christmas]                   | S  | N  | N  | [weihnachten]                        |
+| [cmd-attack]                  | S  |    |    | [ATTACKIERE]                         |
+| [cmd-banner]                  | S  |    |    | [BANNER]                             |
+| [cmd-buy]                     | S  |    |    | [KAUFE]                              |
+| [cmd-carry]                   | S  |    |    | [TRANSPORTIERE]                      |
+| [cmd-cast]                    | S  |    |    | [ZAUBERE]                            |
+| [cmd-claim]                   | S  |    |    | [BEANSPRUCHE]                        |
+| [cmd-combat]                  | S  |    |    | [KÄMPFE]                             |
+| [cmd-combatspell]             | S  |    |    | [KAMPFZAUBER]                        |
+| [cmd-comment]                 | S  |    |    | [KOMMENTAR]                          |
+| [cmd-contact]                 | S  |    |    | [KONTAKTIERE]                        |
+| [cmd-default]                 | S  |    |    | [DEFAULT]                            |
+| [cmd-describe]                | S  |    |    | [BESCHREIBE]                         |
+| [cmd-destroy]                 | S  |    |    | [ZERSTÖRE]                           |
+| [cmd-email]                   | S  |    |    | [EMAIL]                              |
+| [cmd-end]                     | S  | N  | N  | []                                   |
+| [cmd-enter]                   | S  |    |    | [BETRETE]                            |
+| [cmd-entertain]               | S  |    |    | [UNTERHALTE]                         |
+| [cmd-eressea]                 | S  | N  | N  | []                                   |
+| [cmd-follow]                  | S  | X  | X  | [FOLGE]                              |
+| [cmd-forget]                  | S  |    |    | [VERGISS]                            |
+| [cmd-give]                    | S  | X  | X  | [GIB]                                |
+| [cmd-group]                   | S  |    |    | [GRUPPE]                             |
+| [cmd-grow]                    | S  | S  | S  | [ZÜCHTE]                             |
+| [cmd-guard]                   | S  |    |    | [BEWACHE]                            |
+| [cmd-help]                    | S  |    |    | [HELFE]                              |
+| [cmd-hide]                    | S  |    |    | [TARNE]                              |
+| [cmd-language]                | S  |    |    | [SPRACHE]                            |
+| [cmd-learn-auto]              | S  |    |    | [LERNE_AUTO]                         |
+| [cmd-learn]                   | S  |    |    | [LERNE]                              |
+| [cmd-leave]                   | S  |    |    | [VERLASSE]                           |
+| [cmd-make]                    | S  | X  | X  | [MACHE]                              |
+| [cmd-message]                 | S  |    |    | [BOTSCHAFT]                          |
+| [cmd-move]                    | S  |    |    | [NACH]                               |
+| [cmd-name]                    | S  |    |    | [BENENNE]                            |
+| [cmd-next]                    | S  |    |    | [NÄCHSTER]                           |
+| [cmd-number]                  | S  |    |    | [NUMMER]                             |
+| [cmd-option]                  | S  |    |    | [OPTION]                             |
+| [cmd-origin]                  | S  |    |    | [URSPRUNG]                           |
+| [cmd-password]                | S  |    |    | [PASSWORT]                           |
+| [cmd-pay-not]                 | S  |    |    | [BEZAHLE NICHT]                      |
+| [cmd-piracy]                  | S  |    |    | [PIRATERIE]                          |
+| [cmd-plant]                   | S  |    |    | [PFLANZE]                            |
+| [cmd-prefix]                  | S  |    |    | [PRÄFIX]                             |
+| [cmd-promote]                 | S  |    |    | [BEFÖRDERE]                          |
+| [cmd-quit]                    | S  |    |    | [STIRB]                              |
+| [cmd-recruit]                 | S  |    |    | [REKRUTIERE]                         |
+| [cmd-region]                  | S  |    |    | [REGION]                             |
+| [cmd-research]                | S  |    |    | [FORSCHE]                            |
+| [cmd-reserve]                 | S  |    |    | [RESERVIERE]                         |
+| [cmd-ride]                    | S  |    |    | [FAHRE]                              |
+| [cmd-route]                   | S  |    |    | [ROUTE]                              |
+| [cmd-sell]                    | S  |    |    | [VERKAUFE]                           |
+| [cmd-semicolon]               | S  | N  | N  | []                                   |
+| [cmd-show]                    | S  |    |    | [ZEIGE]                              |
+| [cmd-sort]                    | S  |    |    | [SORTIERE]                           |
+| [cmd-spy]                     | S  |    |    | [SPIONIERE]                          |
+| [cmd-steal]                   | S  |    |    | [BEKLAUE]                            |
+| [cmd-tax]                     | S  |    |    | [TREIBE]                             |
+| [cmd-teach]                   | S  |    |    | [LEHRE]                              |
+| [cmd-unit]                    | S  | N  | N  | []                                   |
+| [cmd-use]                     | S  |    |    | [BENUTZE]                            |
+| [cmd-work]                    | X  |    | X  | [ARBEITE]                            |
 | [combat]                      | X  |    | X  |                                      |
+| [commands-extended]           | S  | N  | X  | []                                   |
 | [commands-list]               | X  | NT | NT | [kurzbeschreibung]                   |
 | [commands-send-from-magellan] | X  | N  | N  | [befehle_von_magellan_verschicken]   |
 | [commands-send]               | X  | NT | NT | [befehle_einschicken]                |
 | [commands-sequence]           | X  | X  | X  | [befehlsreihenfolge]                 |
+| [commands-short-descriptions] | S  | S  | S  | []                                   |
 | [commands]                    | X  | N  | N  | [befehl]                             |
+| [cr-format]                   | S  | N  | N  | []                                   |
+| [csmapfx]                     | S  | N  | N  | []                                   |
 | [development]                 | S  | N  | N  | [entwicklung]                        |
 | [echeck]                      | S  | N  | N  | [echeck]                             |
+| [ehmv]                        | S  | N  | N  | []                                   |
 | [eressea-join]                | S  | N  | N  | [eressea:mitmachen]                  |
 | [eressea-story]               | S  | N  | N  | [Geschichte_von_Eressea]             |
 | [factions-pool]               | X  | NT | NT | [parteipool]                         |
@@ -71,6 +106,9 @@ MkDocs project for Eressea documentation.
 | [familiars]                   | X  | NT | X  | [vertraute]                          |
 | [faq]                         | S  | N  | N  | [faq]                                |
 | [faq]                         | X  | NT | NT | [faq]                                |
+| [farmers-hike]                | S  | N  | N  | []                                   |
+| [fftools2]                    | S  | N  | N  | []                                   |
+| [flaming-sword]               | S  | N  | N  | []                                   |
 | [getting-started-tips]        | X  | NT | NT | [anfängertipps]                      |
 | [herbs]                       | S  | N  | N  | [kräuter]                            |
 | [hints]                       | X  | X  | X  | [hinweise]                           |
@@ -79,9 +117,20 @@ MkDocs project for Eressea documentation.
 | [items-pool]                  | X  | NT | NT | [materialpool]                       |
 | [items]                       | X  | X  | X  | [waren]                              |
 | [magellan]                    | S  | N  | N  | [magellan]                           |
+| [magic-school-cerddor]        | S  | N  | N  | []                                   |
+| [magic-school-draig]          | S  | N  | N  | []                                   |
+| [magic-school-gwyrrd]         | S  | N  | N  | []                                   |
+| [magic-school-illaun]         | S  | N  | N  | []                                   |
+| [magic-school-tybied]         | S  | N  | N  | []                                   |
 | [magic-schools]               | X  | NT | NT | [magiegebiete]                       |
 | [magic]                       | X  | NT | NT | [magie]                              |
+| [mistletoe]                   | S  | N  | N  | []                                   |
 | [monsters]                    | X  | X  | X  | [monster]                            |
+| [optimize-learning-chains]    | S  | N  | N  | []                                   |
+| [optimize-production]         | S  | N  | N  | []                                   |
+| [optimize-transport]          | S  | N  | N  | []                                   |
+| [optimize-way-finding]        | S  | N  | N  | []                                   |
+| [pentagram-and-tirawon]       | S  | N  | N  | []                                   |
 | [play-too-much-if]            | S  | N  | N  | [du_spielst_zuviel_eressea,_wenn...] |
 | [player-pages]                | S  | N  | N  | [spielerseiten]                      |
 | [potions-and-herbs]           | X  | NT | NT | [tabellen:_tränke_und_kräuter]       |
@@ -90,6 +139,7 @@ MkDocs project for Eressea documentation.
 | [races]                       | X  | X  | X  | [rassen]                             |
 | [reports]                     | N  | N  | N  |                                      |
 | [resources]                   | X  | X  | X  | [rohstoffe]                          |
+| [ring-of-invisibility]        | S  | N  | N  | []                                   |
 | [roads]                       | X  | X  | X  | [straße]                             |
 | [round-first]                 | X  | NT | NT | [der_erste_zug]                      |
 | [rules]                       | X  | X  | X  | [regeln]                             |
@@ -100,6 +150,7 @@ MkDocs project for Eressea documentation.
 | [skills-list]                 | X  | X  | X  | [liste_der_talente]                  |
 | [skills-modifiers]            | X  | X  | X  | [talentmodifikatoren]                |
 | [skills]                      | X  | NT | X  | [talente]                            |
+| [snowman]                     | S  | N  | N  | []                                   |
 | [spells-descriptions]         | X  | NT | NT | [zauberbeschreibungen_e2]            |
 | [spells-list]                 | X  | NT | NT | [zuberliste_e2]                      |
 | [stardust]                    | S  | N  | N  | [sternenstaub]                       |
@@ -107,91 +158,30 @@ MkDocs project for Eressea documentation.
 | [tactic]                      | X  | X  | X  | [taktik]                             |
 | [terrains]                    | X  | X  | X  | [geländearten]                       |
 | [tips-and-tricks]             | S  | N  | N  | [tipps_und_Tricks]                   |
+| [toad]                        | S  | N  | N  | []                                   |
 | [travel]                      | X  | X  | X  | [reisen]                             |
+| [vorlage]                     | S  | N  | N  | []                                   |
 | [war-tables]                  | X  | NT | NT | [kriegstabellen]                     |
 | [war]                         | X  | X  | X  | [krieg]                              |
 | [weekly-report]               | S  | N  | N  | [wochenbericht]                      |
 | [world]                       | X  | X  | X  | [welt]                               |
+| [xml-format]                  | S  | N  | N  | []                                   |
+| cmd page                      | DE | EN | FR | GERMAN TERM                          |
 
-| cmd page          | DE | EN | FR | GERMAN TERM     |
-|-------------------|----|----|----|-----------------|
-| [cmd-leave]       | S  |    |    | [VERLASSE]      |
-| [cmd-attack]      | S  |    |    | [ATTACKIERE]    |
-| [cmd-banner]      | S  |    |    | [BANNER]        |
-| [cmd-buy]         | S  |    |    | [KAUFE]         |
-| [cmd-carry]       | S  |    |    | [TRANSPORTIERE] |
-| [cmd-cast]        | S  |    |    | [ZAUBERE]       |
-| [cmd-claim]       | S  |    |    | [BEANSPRUCHE]   |
-| [cmd-combat]      | S  |    |    | [KÄMPFE]        |
-| [cmd-combatspell] | S  |    |    | [KAMPFZAUBER]   |
-| [cmd-comment]     | S  |    |    | [KOMMENTAR]     |
-| [cmd-contact]     | S  |    |    | [KONTAKTIERE]   |
-| [cmd-default]     | S  |    |    | [DEFAULT]       |
-| [cmd-describe]    | S  |    |    | [BESCHREIBE]    |
-| [cmd-destroy]     | S  |    |    | [ZERSTÖRE]      |
-| [cmd-email]       | S  |    |    | [EMAIL]         |
-| [cmd-enter]       | S  |    |    | [BETRETE]       |
-| [cmd-entertain]   | S  |    |    | [UNTERHALTE]    |
-| [cmd-follow]      | S  | X  | X  | [FOLGE]         |
-| [cmd-forget]      | S  |    |    | [VERGISS]       |
-| [cmd-give]        | S  | X  | X  | [GIB]           |
-| [cmd-group]       | S  |    |    | [GRUPPE]        |
-| [cmd-grow]        | S  | S  | S  | [ZÜCHTE]        |
-| [cmd-guard]       | S  |    |    | [BEWACHE]       |
-| [cmd-help]        | S  |    |    | [HELFE]         |
-| [cmd-hide]        | S  |    |    | [TARNE]         |
-| [cmd-language]    | S  |    |    | [SPRACHE]       |
-| [cmd-learn-auto]  | S  |    |    | [LERNE_AUTO]    |
-| [cmd-learn]       | S  |    |    | [LERNE]         |
-| [cmd-make]        | S  | X  | X  | [MACHE]         |
-| [cmd-message]     | S  |    |    | [BOTSCHAFT]     |
-| [cmd-move]        | S  |    |    | [NACH]          |
-| [cmd-name]        | S  |    |    | [BENENNE]       |
-| [cmd-next]        | S  |    |    | [NÄCHSTER]      |
-| [cmd-number]      | S  |    |    | [NUMMER]        |
-| [cmd-option]      | S  |    |    | [OPTION]        |
-| [cmd-origin]      | S  |    |    | [URSPRUNG]      |
-| [cmd-password]    | S  |    |    | [PASSWORT]      |
-| [cmd-pay-not]     | S  |    |    | [BEZAHLE NICHT] |
-| [cmd-piracy]      | S  |    |    | [PIRATERIE]     |
-| [cmd-plant]       | S  |    |    | [PFLANZE]       |
-| [cmd-prefix]      | S  |    |    | [PRÄFIX]        |
-| [cmd-promote]     | S  |    |    | [BEFÖRDERE]     |
-| [cmd-quit]        | S  |    |    | [STIRB]         |
-| [cmd-recruit]     | S  |    |    | [REKRUTIERE]    |
-| [cmd-region]      | S  |    |    | [REGION]        |
-| [cmd-research]    | S  |    |    | [FORSCHE]       |
-| [cmd-reserve]     | S  |    |    | [RESERVIERE]    |
-| [cmd-ride]        | S  |    |    | [FAHRE]         |
-| [cmd-route]       | S  |    |    | [ROUTE]         |
-| [cmd-sell]        | S  |    |    | [VERKAUFE]      |
-| [cmd-show]        | S  |    |    | [ZEIGE]         |
-| [cmd-sort]        | S  |    |    | [SORTIERE]      |
-| [cmd-spy]         | S  |    |    | [SPIONIERE]     |
-| [cmd-steal]       | S  |    |    | [BEKLAUE]       |
-| [cmd-tax]         | S  |    |    | [TREIBE]        |
-| [cmd-teach]       | S  |    |    | [LEHRE]         |
-| [cmd-use]         | S  |    |    | [BENUTZE]       |
-| [cmd-work]        | X  |    | X  | [ARBEITE]       |
+## Other miscellaneous pages
 
-| misc page            | DE | EN | FR | GERMAN TERM                   |
-|----------------------|----|----|----|-------------------------------|
-| [announcements]      |    |    |    | [ankündigungen]               |
-| [races-in-third-age] |    |    |    | [rassen_im_dritten_zeitalter] |
-| [spells-list-e3]     |    |    |    | [zauberliste_e3]              |
-| [spells-list-e3]     | X  |    |    | [zauberbeschreibungen_e3]     |
-| [thanks]             |    |    |    | [danksagung]                  |
-| [the-third-age]      |    |    |    | [das_dritte_zeitalter]        |
-| [xontormia-express]  |    |    |    | [xontormia_express]           |
-
-| empty pages     | DE | EN | FR | GERMAN TERM      |
-|-----------------|----|----|----|------------------|
-| [ring-of-power] |    |    |    | [ring_der_macht] |
-
-| bad page                | DE | EN | FR | GERMAN TERM               |
-|-------------------------|----|----|----|---------------------------|
-| [commands-sequence-e3]  |    |    |    | [befehlsreihenfolge_(e3)] |
-| [reports-request-again] |    |    |    | [befehle_einschicken]     |
+| misc page               | DE | EN | FR | GERMAN TERM                   |
+|-------------------------|----|----|----|-------------------------------|
+| [announcements]         |    |    |    | [ankündigungen]               |
+| [races-in-third-age]    |    |    |    | [rassen_im_dritten_zeitalter] |
+| [spells-list-e3]        |    |    |    | [zauberliste_e3]              |
+| [spells-list-e3]        | X  |    |    | [zauberbeschreibungen_e3]     |
+| [thanks]                |    |    |    | [danksagung]                  |
+| [the-third-age]         |    |    |    | [das_dritte_zeitalter]        |
+| [xontormia-express]     |    |    |    | [xontormia_express]           |
+| [ring-of-power]         |    |    |    | [ring_der_macht]              |
+| [commands-sequence-e3]  |    |    |    | [befehlsreihenfolge_(e3)]     |
+| [reports-request-again] |    |    |    | [befehle_einschicken]         |
 
 [ARBEITE]: https://wiki.eressea.de/ARBEITE "ARBEITE"
 [ATTACKIERE]: https://wiki.eressea.de/ATTACKIERE "ATTACKIERE"
@@ -252,8 +242,8 @@ MkDocs project for Eressea documentation.
 [ZEIGE]: <https://wiki.eressea.de/ZEIGE> "ZEIGE"
 [ZERSTÖRE]: <https://wiki.eressea.de/ZERSTÖRE> "ZERSTÖRE"
 [ZÜCHTE]: <https://wiki.eressea.de/ZÜCHTE> "ZÜCHTE"
-[adamantium]: ./adamantium.md "adamantium"
 [adamantium-armor]: ./adamantium-armor.md "adamantium-armor"
+[adamantium]: ./adamantium.md "adamantium"
 [adamantiumrüstung]: <https://wiki.eressea.de/adamantiumrüstung> "adamantiumrüstung"
 [alchemy]: ./alchemy.md "alchemy"
 [alliances]: ./alliances.md "alliances"
@@ -272,13 +262,13 @@ MkDocs project for Eressea documentation.
 [befehlsreihenfolge_(e3)]: <https://wiki.eressea.de/befehlsreihenfolge_(e3)> "befehlsreihenfolge_(e3)"
 [bewaffnet]: <https://wiki.eressea.de/bewaffnet> "bewaffnet"
 [birthday-cake]: ./birthday-cake.md "birthday-cake"
-[buildings]: ./buildings.md "buildings"
 [buildings-others]: ./buildings-others.md "buildings-others"
+[buildings]: ./buildings.md "buildings"
 [burg]: <https://wiki.eressea.de/burg> "burg"
 [camouflage]: ./camouflage.md "camouflage"
 [castles]: ./castles.md "castles"
-[christmas]: ./christmas.md "christmas"
 [christmas-tree]: ./christmas-tree.md "christmas-tree"
+[christmas]: ./christmas.md "christmas"
 [cmd-attack]: ./cmd-attack.md "cmd-attack"
 [cmd-banner]: ./cmd-banner.md "cmd-banner"
 [cmd-buy]: ./cmd-buy.md "cmd-buy"
@@ -304,8 +294,8 @@ MkDocs project for Eressea documentation.
 [cmd-help]: ./cmd-help.md "cmd-help"
 [cmd-hide]: ./cmd-hide.md "cmd-hide"
 [cmd-language]: ./cmd-language.md "cmd-language"
-[cmd-learn]: ./cmd-learn.md "cmd-learn"
 [cmd-learn-auto]: ./cmd-learn-auto.md "cmd-learn-auto"
+[cmd-learn]: ./cmd-learn.md "cmd-learn"
 [cmd-leave]: ./cmd-leave.md "cmd-leave"
 [cmd-make]: ./cmd-make.md "cmd-make"
 [cmd-message]: ./cmd-message.md "cmd-message"
@@ -338,12 +328,12 @@ MkDocs project for Eressea documentation.
 [cmd-use]: ./cmd-use.md "cmd-use"
 [cmd-work]: ./cmd-work.md "cmd-work"
 [combat]: ./combat.md "combat"
-[commands]: ./commands.md "commands"
 [commands-list]: ./commands-list.md "commands-list"
-[commands-send]: ./commands-send.md "commands-send"
 [commands-send-from-magellan]: ./commands-send-from-magellan.md "commands-send-from-magellan"
-[commands-sequence]: ./commands-sequence.md "commands-sequence"
+[commands-send]: ./commands-send.md "commands-send"
 [commands-sequence-e3]: ./commands-sequence-e3.md "commands-sequence-e3"
+[commands-sequence]: ./commands-sequence.md "commands-sequence"
+[commands]: ./commands.md "commands"
 [danksagung]: <https://wiki.eressea.de/danksagung> "danksagung"
 [das_dritte_zeitalter]: <https://wiki.eressea.de/das_dritte_zeitalter> "das_dritte_zeitalter"
 [der_erste_zug]: <https://wiki.eressea.de/der_erste_zug> "der_erste_zug"
@@ -355,8 +345,8 @@ MkDocs project for Eressea documentation.
 [eressea-join]: ./eressea-join.md "eressea-join"
 [eressea-story]: ./eressea-story.md "eressea-story"
 [eressea:mitmachen]: <https://wiki.eressea.de/eressea:mitmachen> "eressea:mitmachen"
-[factions]: ./factions.md "factions"
 [factions-pool]: ./factions-pool.md "factions-pool"
+[factions]: ./factions.md "factions"
 [familiars]: ./familiars.md "familiars"
 [faq]: ./faq.md "faq"
 [geburtstagstorte]: <https://wiki.eressea.de/geburtstagstorte> "geburtstagstorte"
@@ -371,16 +361,16 @@ MkDocs project for Eressea documentation.
 [hinweise]: <https://wiki.eressea.de/hinweise> "hinweise"
 [home]: ./home.md "home"
 [introduction]: ./introduction.md "introduction"
-[items]: ./items.md "items"
 [items-pool]: ./items-pool.md "items-pool"
+[items]: ./items.md "items"
 [krieg]: <https://wiki.eressea.de/krieg> "krieg"
 [kriegstabellen]: <https://wiki.eressea.de/kriegstabellen> "kriegstabellen"
 [kräuter]: <https://wiki.eressea.de/kräuter> "kräuter"
 [kurzbeschreibung]: <https://wiki.eressea.de/kurzbeschreibung> "kurzbeschreibung"
 [liste_der_talente]: <https://wiki.eressea.de/liste_der_talente> "liste_der_talente"
 [magellan]: ./magellan.md "magellan"
-[magic]: ./magic.md "magic"
 [magic-schools]: ./magic-schools.md "magic-schools"
+[magic]: ./magic.md "magic"
 [magie]: <https://wiki.eressea.de/magie> "magie"
 [magiegebiete]: <https://wiki.eressea.de/magiegebiete> "magiegebiete"
 [materialpool]: <https://wiki.eressea.de/materialpool> "materialpool"
@@ -395,14 +385,14 @@ MkDocs project for Eressea documentation.
 [production]: ./production.md "production"
 [produktion]: <https://wiki.eressea.de/produktion> "produktion"
 [puppy-protection]: ./puppy-protection.md "puppy-protection"
-[races]: ./races.md "races"
 [races-in-third-age]: ./races-in-third-age.md "races-in-third-age"
+[races]: ./races.md "races"
 [rassen]: <https://wiki.eressea.de/rassen> "rassen"
 [rassen_im_dritten_zeitalter]: <https://wiki.eressea.de/rassen_im_dritten_zeitalter> "rassen_im_dritten_zeitalter"
 [regeln]: <https://wiki.eressea.de/regeln> "regeln"
 [reisen]: <https://wiki.eressea.de/reisen> "reisen"
-[reports]: ./reports.md "reports"
 [reports-request-again]: ./reports-request-again.md "reports-request-again"
+[reports]: ./reports.md "reports"
 [resources]: ./resources.md "resources"
 [ring-of-power]: ./ring-of-power.md "ring of power"
 [ring_der_macht]: <https://wiki.eressea.de/ring_der_macht> "Ring der Macht"
@@ -416,13 +406,13 @@ MkDocs project for Eressea documentation.
 [shell]: ./shell.md "shell"
 [ships]: ./ships.md "ships"
 [silver]: ./silver.md "silver"
-[skills]: ./skills.md "skills"
 [skills-list]: ./skills-list.md "skills-list"
 [skills-modifiers]: ./skills-modifiers.md "skills-modifiers"
+[skills]: ./skills.md "skills"
 [sonnensegel]: <https://wiki.eressea.de/sonnensegel> "sonnensegel"
 [spells-descriptions]: ./spells-descriptions.md "spells-descriptions"
-[spells-list]: ./spells-list.md "spells-list"
 [spells-list-e3]: ./spells-list-e3.md "spells-list-e3"
+[spells-list]: ./spells-list.md "spells-list"
 [spielerseiten]: <https://wiki.eressea.de/spielerseiten> "spielerseiten"
 [stardust]: ./stardust.md "stardust"
 [sternenstaub]: <https://wiki.eressea.de/sternenstaub> "sternenstaub"
@@ -442,8 +432,8 @@ MkDocs project for Eressea documentation.
 [travel]: ./travel.md "travel"
 [tränke]: <https://wiki.eressea.de/tränke> "tränke"
 [vertraute]: <https://wiki.eressea.de/vertraute> "vertraute"
-[war]: ./war.md "war"
 [war-tables]: ./war-tables.md "war-tables"
+[war]: ./war.md "war"
 [waren]: <https://wiki.eressea.de/waren> "waren"
 [weekly-report]: ./weekly-report.md "weekly-report"
 [weihnachten]: <https://wiki.eressea.de/weihnachten> "weihnachten"

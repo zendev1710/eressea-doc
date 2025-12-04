@@ -100,14 +100,14 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 
 [bateaux]: ./ships.md "Schiff"
 [**Port**]: ./buildings-others.md#hafen "Andere Gebäude"
-[dommages]: #schiffsschaden
+[dommages]: #dommages-aux-bateaux
 [HELP]: ./cmd-help.md "HELP"
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
 [Piraterie]: ./war.md#piraterie "Guerre"
 [objets]: ./items.md#getenständen "Waren"
 [Poids et Capacités]: ./travel.md#rassengewichte "Reisen"
-[convoi]: ./ships.mde#konvoi "Schiffe"
-[1]: ./ships.mde "Schiffe"
+[convoi]: ./ships.md#konvoi "Schiffe"
+[1]: ./ships.md "Schiffe"
 [MOVE]: ./cmd-move.md "MOVE"
 [ROUTE]: ./cmd-route.md "ROUTE"
 [`WORK`]: ./cmd-work.md "WORK"

@@ -95,7 +95,7 @@ Junge Parteien etwa können keine 5-stufigen Pyramiden aufbauen, weil sie gar ni
 Mit ein paar Vereinfachungen und etwas Mathematik, kann man Lernketten bezüglich dieser vier Faktoren gut analysieren.
 
 **Vereinfachungen:** 1) Alle Einheiten brauchen gleich lang, um die nächste Stufe zu erreichen. Tatsächlich gibt es zufällige Schwankungen in der Lerndauer bis zur nächsten Stufe und Lehrer müssen etwas mehr lernen als Schüler, weil sie sich auf einer höheren Talent-Stufe befinden.  
-2) Die Zeit lässt sich beliebig fein unterteilen. Tatsächlich kann man nur Wochenweise lehren/lerne. Praktisch ist diese Unterteilung auch fein genug.  
+2) Die Zeit lässt sich beliebig fein unterteilen. Tatsächlich kann man nur Wochenweise lehren./cmd-learn.md. Praktisch ist diese Unterteilung auch fein genug.  
 3) "Lehren" und "gelehrt werden" behindern sich nicht gegenseitig. Denkbar sind Situationen wie: S2 könnte bei S1 lernen, aber auch S3 lehren; S1 kann nicht bei L lernen und S3 kann nicht S4 lehren. Da S2 nicht beides gleichzeitig machen kann, muss entweder S1 oder S3 ohne Lehrer lernen, wobei Zeit verschwendet wird. Tatsächlich können solche Situationen aber (fast) nur in der Startphase auftreten. Damit solch eine Konstellation "von alleine" entsteht, müsste S1 in einer Woche zwei Talentstufen nach oben geklettert sein, was ja doch eher unwahrscheinlich ist.
 
 **Beispielrechnung** für eine Pyramide mit drei Stufen (L,S1,S2): Für jede Einheit ist angegeben, welchen Anteil ihrer Zeit sie damit verbringt gelehrt zu werden / ohne Lehrer zu lernen / zu lehren / etwas anderes zu tun.

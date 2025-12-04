@@ -76,7 +76,7 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Xontormia-Express]: ./xontormia-express.cmd "Xontormia-Express"
+[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
 [Passwort]: ./cmd-password.md "PASSWORT"
 [1]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
@@ -97,13 +97,13 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 [Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
 [Taktiker]: ./tactic.md "Taktik"
 [Alchemisten]: ./skills-list.md "Liste der Talente"
-[Magier]: ./cmd-magic.md "Magie"
+[Magier]: ./magic.md "Magie"
 [EINHEIT-Befehl]: ./cmd-unit.md "EINHEIT"
 [2]: ./silver.md#handel "Handel"
 [OPTION]: ./cmd-option.md "OPTION"
 [BOTSCHAFT]: ./cmd-message.md "BOTSCHAFT"
 [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"
-[Befehlsreihenfolge]: ./commands-sequencemd "Befehlsreihenfolge"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
 [GIB]: ./cmd-give.md "GIB"
 [MACHE]: ./cmd-make.md "MACHE"
 [BENUTZE]: ./cmd-use.md "BENUTZE"

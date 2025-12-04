@@ -162,27 +162,17 @@ La compétence avec laquelle les orcs engagent le combat au corps à corps est d
 
 Certaines races (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.
 
-
-
 Bonus du château
 Les personnes se trouvant dans un château bénéficient d'une protection supplémentaire. Les occupants du château bénéficient d'un bonus de parade, selon la taille du château, s'ils appartiennent au camp défenseur et que le château est suffisamment grand pour les accueillir. Une fortification donne +1, une tour +2, et ainsi de suite, jusqu'à la citadelle, qui donne +5. Si les occupants du château s'attaquent eux-mêmes, ils ne bénéficient d'aucun bonus de parade. Le bonus du château s'applique également aux combattants à distance !
-
-
 
 Bonus Cavalerie
 Dans les plaines, les déserts et les Highlands, les combattants en première ligne en terrain découvert peuvent utiliser un cheval. Pour monter un cheval au combat, il faut un score de Riding d'au moins 2 et un cheval. Les cavaliers bénéficient d'un bonus de +2 à l'attaque et à la parade, car ils sont plus rapides et plus agiles. Les cavaliers à l'intérieur d'un château, et bénéficiant du bonus du château, n'ont pas le bonus cavalerie si ils sont attaqués. Les trolls ne peuvent pas utiliser de chevaux au combat.
 
-
-
 Bonus de lance  
 Les porteurs de lances et de spears montés reçoivent un bonus additionnel de +1 en attaque.
 
-
-
 Bonus de piquiers  
 Les porteurs de spears et de hallebardes qui n'utilisent pas de cheval reçoivent un bonus de +1 à la parade contre les troupes montées.
-
-
 
 Modificateurs d'armes  
 Les [Modificateurs d'armes][Caractéristiques des armes] sont également considérés comme des bonus et des malus.
@@ -331,7 +321,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 [MAKE ammunition]: ./cmd-make.md "MAKE"
 [tables de combat]: ./war.mdstabellen#kampfmodifikatoren "Guerrestabellen"
 [`GUARD`]: ./cmd-guard.md "GUARD"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"

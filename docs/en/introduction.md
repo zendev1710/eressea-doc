@@ -36,7 +36,7 @@ If no move is received by the game master, this results in a so-called NMR (no m
 <!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
 [faction]: ./factions.md "Partei"
-[race]: ./race.md "Rassen"
+[race]: ./races.md "Rassen"
 [sign up]: ./hints.md#anmeldung "Anmelden wie?"
 [elves]: ./races.md#elves "Elf"
 [dwarves]: ./races.md#dwarves "Zwerg"

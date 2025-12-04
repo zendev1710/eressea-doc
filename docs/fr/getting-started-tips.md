@@ -73,7 +73,7 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 
 | En savoir plus : | [Xontormia-Express] |
 
-[Xontormia-Express]: ./xontormia-express.cmd "Xontormia-Express"
+[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
@@ -97,13 +97,13 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 [Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
 [Taktiker]: ./tactic.md "Taktik"
 [Alchemisten]: ./skills-list.md "Liste der Talente"
-[Magier]: ./cmd-magic.md "Magie"
+[Magier]: ./magic.md "Magie"
 [UNIT-Befehl]: ./cmd-unit.md "UNIT"
 [2]: ./silver.md#handel "Handel"
 [OPTION]: ./cmd-option.md "OPTION"
 [MESSAGE]: ./cmd-message.md "MESSAGE"
 [CONTACT]: ./cmd-contact.md "CONTACT"
-[Befehlsreihenfolge]: ./commands-sequencemd "Befehlsreihenfolge"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
 [GIVE]: ./cmd-give.md "GIVE"
 [MAKE]: ./cmd-make.md "MAKE"
 [USE]: ./cmd-use.md "USE"

@@ -1,7 +1,7 @@
 # Befehle von Magellan verschicken
 
 <!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
-![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
+![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
 <!--
 Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
@@ -102,7 +102,7 @@ title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Ein
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_von\_Magellan\_verschicken&oldid=7407] -->
 
 [Magellan]: ./magellan.md "Magellan"
-[E-Mail-Versands]: ./reports-request-again.md "Befehle einschicken"
+[E-Mail-Versands]: ./commands-send.md "Befehle einschicken"
 [https://hilfe.gmx.net/pop-imap/index.html]: https://hilfe.gmx.net/pop-imap/index.html
 [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html]: https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html
 [https://hilfe.gmx.net/pop-imap/einschalten.html]: https://hilfe.gmx.net/pop-imap/einschalten.html

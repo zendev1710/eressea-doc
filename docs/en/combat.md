@@ -161,27 +161,17 @@ Das Talent, mit dem Orks in den unbewaffneten Kampf gehen, bestimmt sich aus der
 
 Manche Rassen (i.A. nur Vertraute) können das Talent Unbewaffneter Kampf lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen.
 
-
-
 Burgenbonus  
 Personen in Burgen sind zusätzlich geschützt. Burginsassen erhalten je nach Größe der Burg einen Bonus bei der Parade, wenn sie zur verteidigenden Seite gehören und die Burg groß genug ist, um sie zu beherbergen. Dabei gibt eine Befestigung +1, ein Turm +2 usw. bis zur Zitadelle, die +5 gibt. Greifen die Burginsassen selber an, erhalten sie den Burgenbonus zur Parade nicht mehr. Der Burgenbonus gilt auch gegen Fernkämpfer!
-
-
 
 Pferdebonus  
 In Ebenen, Wüsten und Hochländern können Nahkämpfer in der ersten Reihe auf freiem Feld ein Pferd benutzen. Um ein Pferd in den Kampf zu reiten, braucht man ein Reiten Talent von mindestens 2. Reiter bekommen einen Bonus von +2 auf Attacke und Parade, weil sie schneller und wendiger sind. Keinen Pferdebonus erhalten Personen, die innerhalb einer Burg stehen, vom Burgenbonus profitieren und attackiert werden. Trolle können Pferde nicht im Kampf nutzen!
 
-
-
 Lanzenbonus  
 Berittene Speer- und Lanzenträger erhalten einen weiteren Bonus von +1 zur Attacke.
 
-
-
 Pikenbonus  
 Speer- und Hellebardenträger, die kein Pferd benutzen, erhalten gegen berittene Truppen einen Bonus von +1 zur Parade.
-
-
 
 Waffenmodifikatoren  
 Auch [Waffenmodifikatoren][Waffeneigenschaften] gelten in diesem Sinne als Boni und Mali.
@@ -309,11 +299,11 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 
 [6.2 Boni und Mali]: #boni-und-mali
 [`ATTACKIERE`]: ./cmd-attack.md "ATTACKIERE"
-[Taktikerrunde]: #taktik
+[Taktikerrunde]: #die-taktikerrunde
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
 [`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
-[Kampfreihen]: #schlacht
-[flüchten]: #flucht
+[Kampfreihen]: #die-schlacht
+[flüchten]: #die-flucht
 [`GRUPPE`]: ./cmd-group.md "GRUPPE"
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [Flucht]: ./war.md#die-flucht "Die Flucht"
@@ -328,7 +318,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
 [1]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"

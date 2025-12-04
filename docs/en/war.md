@@ -166,12 +166,8 @@ Some races (generally only familiars) can learn the unarmed combat skill and the
 Castle bonus  
 People in castles are additionally protected. Castle occupants receive a parry bonus depending on the size of the castle if they belong to the defending side and the castle is large enough to accommodate them. A fortification gives +1, a tower +2 etc. up to the citadel, which gives +5. If the castle occupants attack themselves, they no longer receive the castle bonus for parrying. The castle bonus also applies against ranged fighters!
 
-
-
 Horse bonus  
 In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground. To ride a horse into battle, you need a riding talent of at least 2. Riders get a +2 bonus to attack and parry because they are faster and more agile. People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus. Trolls cannot use horses in combat!
-
-
 
 lance bonus  
 Mounted spear and lance users get an additional bonus of +1 to attacks.
@@ -278,27 +274,15 @@ There are a few things to bear in mind with the whole story:
 
 - Only parties with which you are not allied with `HELP FIGHT` are recognized as targets.
 
-
-
 - If party numbers are specified ([`PIRACY`*`<party number>`*`...`]), only captains of the specified parties are recognized as targets.
-
-
 
 - The mechanism also works when the pirate ship is on land. It therefore offers an effective means of coastal protection.
 
-
-
 - Pirates also sail into land regions, provided the ship can land there. If it cannot land, it takes damage.
-
-
 
 - Pirate captains are thick as thieves. They cannot assess whether a target is possibly superior to them and will happily sail a single ship into an enemy fleet of 100 vessels. Being a pirate has its risks.
 
-
-
 - If there are several potential targets to choose from, the captain will select one at random.
-
-
 
 - Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set [`HELP FIGHT`][`HELP COMBAT`]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
 
@@ -351,7 +335,7 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
 [`GIVE COMMAND`]: ./cmd-give.md "GIVE"
 [`GUARD`]: ./cmd-guard.md "GUARD"
-[ships]: ./ships.mde "Schiffe"
+[ships]: ./ships.md "Schiffe"
 [damage]: ./ships.md#schiffsschaden "Schiff"
 [`LEAVE`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"

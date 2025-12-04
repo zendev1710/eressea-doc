@@ -159,7 +159,7 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 [ERESSEA xxx "passwort"]: ./cmd-eressea.md "ERESSEA"
 [NÄCHSTER]: ./cmd-next.md "NÄCHSTER"
 [EINHEIT]: ./cmd-unit.md "EINHEIT"
-[ARBEITE]: ./cmd-work.mdN "ARBEITEN"
+[ARBEITE]: ./cmd-work.md "ARBEITEN"
 [TREIBE STEUERN EIN]: ./cmd-tax.md "TREIBEN"
 [UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"
 [LERNE MAGIE]: ./cmd-learn.md "LERNE"

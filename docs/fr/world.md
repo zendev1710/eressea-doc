@@ -10,7 +10,8 @@ Le monde d'Eressea est composé d'une multitude d'îles et de continents de tail
 
 "*Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsque Selen pointa du doigt l'une des îles en bordure. "Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?*"
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Fichier:KarteCSMap.jpeg</span>]
+<!-- TODO: 490X264 - should be where in the page ? -->
+![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
 *La novice observa attentivement la carte. Apparemment, on s'était limité à l'essentiel lors de son élaboration et les régions découvertes n'avaient été que grossièrement classées. Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plaines non boisées.*
 
@@ -144,11 +145,10 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 |--------------|------------|
 | En savoir plus : | [Factions] |
 
-[Factions]: ./factions.mden "Parteien"
+[Factions]: ./factions.md "Parteien"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Fichier:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Fichier:KarteCSMap.jpeg"
 [ORIGIN]: ./cmd-origin.md "ORIGIN"
 [Types de terrain]: ./terrains.md "Geländearten"
 [travail]: ./silver.md#arbeiten "Argent"

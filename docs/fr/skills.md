@@ -91,7 +91,7 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 
 [unité]: ./cmd-unit.mden "Einheiten"
 [`LEARN`]: ./cmd-learn.md "LEARN"
-[race]: ./race.md "Rassen"
+[race]: ./races.md "Rassen"
 [nain]: ./races.md#nains "Zwerg"
 [enseigner]: ./cmd-teach.md "TEACH"
 [académie]: ./buildings-others.md#akademie "Akademie"
@@ -102,7 +102,7 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 [1]: ./buildings-others.md#akademie "Andere Gebäude"
 [`FORGET`]: ./cmd-forget.md "FORGET"
 [production]: ./production.md "Produktion"
-[2]: ./alchemy.cmd "Alchemie"
+[2]: ./alchemy.md "Alchemie"
 [l'argent]: ./silver.md "Argent"
 [espionage]: ./skills-list.md#espionnage "Spionage"
 [stealth]: ./camouflage.md "Tarnung"

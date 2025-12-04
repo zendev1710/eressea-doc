@@ -24,4 +24,4 @@ Hier eine kleine Übersicht über die Weihnachtsgeschenke der letzten Jahre
 [Schneemann]: ./snowman.md "Schneemann"
 [Sonnensegel]: ./sun-sail.md "Sonnensegel"
 [Sternenstaub]: ./stardust.md "Sternenstaub"
-[Weihnachtsbaum]: ./christmas-tree.cmd "Weihnachtsbaum"
+[Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"

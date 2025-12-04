@@ -167,7 +167,7 @@ L'unité est toujours à l'affût des unités camouflées. Cela vous permet par 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
 [stealth]: ./camouflage.md "Tarnung"  
-[Alchemy]: ./alchemy.cmd "Alchemie"
+[Alchemy]: ./alchemy.md "Alchemie"
 [potions]: ./alchemy.md "Tränke"
 [plantes]: ./herbs.md "Plantes"
 [tableau]: ./war.md#ausdauer "Kampftabellen"
@@ -185,7 +185,7 @@ L'unité est toujours à l'affût des unités camouflées. Cela vous permet par 
 [`GROW HORSES`]: ./cmd-grow.md "GROW"
 [stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [objects]: ./items.md "Waren"
-[bateaux]: ./ships.mde "Schiffe"
+[bateaux]: ./ships.md "Schiffe"
 [`SPY`]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#ressources-minières "Ressources"
 [routes]: ./roads.md "Routes"

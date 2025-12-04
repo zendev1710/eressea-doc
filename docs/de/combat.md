@@ -328,7 +328,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
 [1]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"

@@ -58,11 +58,11 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 |--------------|---------|
 | En savoir plus : | [races] |
 
-[races]: ./race.md "Rassen"
+[races]: ./races.md "Rassen"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
 
-[race]: ./race.md "Rassen"
+[race]: ./races.md "Rassen"
 [compétences]: ./skills.md "Talente"
 [ordres]: ./commands.md "Befehl"
 [cadeau de départ spécifique à la race choisie]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
@@ -70,7 +70,7 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 [recruiter]: ./silver.md#recruter "RECRUIT"
 [produire des objets]: ./items.md "Gegenstände"
 [bâtiments]: ./buildings.md "Gebäude"
-[bateaux]: ./ships.mde "Schiffe"
+[bateaux]: ./ships.md "Schiffe"
 [chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [armes]: ./war.mdstabellen "Guerrestabellen"
 [MAKE TEMP]: ./cmd-make.md "MAKE"

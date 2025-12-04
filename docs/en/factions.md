@@ -60,11 +60,11 @@ Player experience: SoltharThere have been cases where special magic items produc
 |-------------------|---------|
 | Continue reading: | [Races] |
 
-[Races]: ./race.md "Rassen"  
+[Races]: ./races.md "Rassen"  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/en&oldid=16635] -->
 
-[race]: ./race.md "Rassen"
+[race]: ./races.md "Rassen"
 [skills]: ./skills.md "Talente"
 [orders]: ./commands.md "Befehl"
 [race-specific starting gift]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
@@ -72,7 +72,7 @@ Player experience: SoltharThere have been cases where special magic items produc
 [recruit]: ./silver.md#recruiting "RECRUIT"
 [produce items]: ./items.md "Gegenstände"
 [buildings]: ./buildings.md "Gebäude"
-[ships]: ./ships.mde "Schiffe"
+[ships]: ./ships.md "Schiffe"
 [horses]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [weapons]: ./war.mdstabellen "Warstabellen"
 [MAKE TEMP]: ./cmd-make.md "MAKE"

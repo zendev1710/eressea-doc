@@ -11,7 +11,8 @@ The world of Eressea consists of many islands and continents with entirely diffe
 > Rahel was still looking at the secret map in amazement when Selen pointed to one of the islands at the very edge.
 > "Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">File:KarteCSMap.jpeg</span>]
+<!-- TODO: 490X264 - should be where in the page ? -->
+![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
 *The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified. Rahel recognized forests and mountains, many swamps and some woodless plains.*
 
@@ -159,11 +160,10 @@ Although the influence of the seasons is generally not particularly pronounced, 
 |-------------------|------------|
 | Continue reading: | [Factions] |
 
-[Factions]: ./factions.mden "Parteien"
+[Factions]: ./factions.md "Parteien"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">File:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "File:KarteCSMap.jpeg"
 [ORIGIN]: ./cmd-origin.md "ORIGIN"
 [terrain types]: ./terrains.md "Geländearten"
 [work]: ./silver.md#arbeiten "Silver"

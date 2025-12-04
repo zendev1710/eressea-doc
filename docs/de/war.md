@@ -69,13 +69,13 @@ Hat eine Partei und ihre Verbündeten mehr als dreimal so viele Personen in der 
 
 ## Die Musterung der Einheiten
 
-Nun bewaffnen sich die Einheiten: jede Person in einer Einheit rüstet sich mit einer Nah- und Fernkampfwaffe und einer Rüstung, die sie gebrauchen kann, aus. Dabei bevorzugt sie diejenigen Waffen, bei denen sie in der Summe aus Attacke und Parade das höchste Talent hat. Magier, die einen Kampfzauber gesetzt haben, benutzen diesen zum Angriff. Für die Verteidigung benötigen sie aber eine Waffe (und ein passendes Kampftalent), sonst gelten sie als [unbewaffnet][6.2 Boni und Mali].
+Nun bewaffnen sich die Einheiten: jede Person in einer Einheit rüstet sich mit einer Nah- und Fernkampfwaffe und einer Rüstung, die sie gebrauchen kann, aus. Dabei bevorzugt sie diejenigen Waffen, bei denen sie in der Summe aus Attacke und Parade das höchste Talent hat. Magier, die einen Kampfzauber gesetzt haben, benutzen diesen zum Angriff. Für die Verteidigung benötigen sie aber eine Waffe (und ein passendes Kampftalent), sonst gelten sie als [unbewaffnet].
 
 **Vorsicht:** ungebrauchte Waffen oder Rüstungen werden nicht automatisch an unbewaffnete oder ungerüstete Einheiten weiter verteilt.
 
 Während des Kampfes wird die Waffe nicht mehr gewechselt, es sei denn, es kann eine bessere Waffe von einer Person aus der gleichen Einheit übernommen werden, die bereits gestorben ist (die überlebenden Kämpfer benutzen jeweils die besten verfügbaren Waffensets).
 
-Ein Fernkämpfer, der plötzlich in der ersten Reihe angegriffen wird, muss zu einer Nahkampfwaffe greifen (sofern er eine besitzt und das entsprechende Talent zumindest auf Stufe 1 hat), sonst verteidigt er sich [ohne Waffe][6.2 Boni und Mali].
+Ein Fernkämpfer, der plötzlich in der ersten Reihe angegriffen wird, muss zu einer Nahkampfwaffe greifen (sofern er eine besitzt und das entsprechende Talent zumindest auf Stufe 1 hat), sonst verteidigt er sich [ohne Waffe].
 
 **Beispiele:** Eine Einheit mit 20 Personen hat 15 Schwerter, 10 Schilde und 5 Kettenhemden. Dann werden 5 Personen mit Schwert, Schild und Kettenhemd kämpfen, 5 weitere mit Schwert und Schild, 5 nur mit einem Schwert und die letzten 5 Kämpfer bleiben unbewaffnet. Eine Einheit mit 10 Personen und 10 Schwertern und 10 Kriegsäxten wird mit Schwertern kämpfen, da diese den besseren Bonus haben, obwohl sie wahrscheinlich weniger Schaden verursachen!
 
@@ -100,7 +100,7 @@ Für nähere Informationen siehe [BEFÖRDERE].
 In jeder Schlacht kämpfen die Armeen personenweise gegeneinander, egal wie groß sie sind. Dabei wird folgendermaßen vorgegangen:
 
 - Die Attacke des Angreifers und die Parade des Verteidigers sind (zunächst) so hoch, wie ihr Waffentalent.
-- Boni/Mali addieren: Zur Attacke des Angreifers und zur Parade des Verteidigers werden eventuelle [Boni und Mali][6.2 Boni und Mali] addiert.
+- Boni/Mali addieren: Zur Attacke des Angreifers und zur Parade des Verteidigers werden eventuelle [Boni und Mali] addiert.
 - Handelt es sich bei dem Angreifer um einen Fernkämpfer, wird der so modifizierte Paradewert seines Gegners halbiert.
 - Die Basis-Trefferchance (BT) eines Angreifers liegt grundsätzlich bei 30%.
 - Werte voneinander abziehen: Für jeden Punkt Differenz zwischen der Attacke des Angreifers und der Parade des Verteidigers wird jetzt die BT um 5% erhöht bzw erniedrigt. Die tatsächliche Trefferchance ergibt sich also aus folgender Formel: (Attacke(Angreifer)-Parade(Verteidiger)) \* 5% + 30%.
@@ -130,7 +130,7 @@ Die Tabelle unten zeigt, wie sich die Schusswaffen unterscheiden. Einen Bogen zu
 
 Gegen Fernkampfwaffen parieren angegriffene Personen nur mit ihrem halben Talent. Einheiten in der ersten Reihe verteidigen sich aber mit ihrem vollem Talentwert, wenn die Fernkämpfereinheit auch in der ersten Reihe steht.
 
-**Achtung!** Wenn ein Fernkämpfer in die erste Reihe gerät (z.B. weil diese [überrannt][Kampfreihen] wurde), muss er sich mit einer Nahkampfwaffe verteidigen. Wenn er diese nicht hat oder nicht damit umgehen kann (also sein entsprechendes Talent kleiner als 1 ist), verteidigt er sich [unbewaffnet][6.2 Boni und Mali]!
+**Achtung!** Wenn ein Fernkämpfer in die erste Reihe gerät (z.B. weil diese [überrannt][Kampfreihen] wurde), muss er sich mit einer Nahkampfwaffe verteidigen. Wenn er diese nicht hat oder nicht damit umgehen kann (also sein entsprechendes Talent kleiner als 1 ist), verteidigt er sich [unbewaffnet]!
 
 Katapulte benötigen Munition. Diese kann mittels [MACHE Katapultmunition] durch einen Steinbauer mit Talent 3 aus Steinen produziert werden und wiegt 10 Gewichtseinheiten. Eine Munitionseinheit entspricht dabei einer Salve.
 
@@ -297,6 +297,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
+[ohne Waffe]: #boni-und-mali
 [`ATTACKIERE`]: ./cmd-attack.md "ATTACKIERE"
 [Taktikerrunde]: #taktik
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
@@ -317,7 +318,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
 [10]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"

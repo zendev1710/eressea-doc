@@ -14,15 +14,9 @@ A larger castle improves the population's income: all workers and peasants recei
 
 - The unit "Thor's Builders" has 20 persons with masonry level 1 and 100 stones. Due to its skill level and the number of people in the unit, it has 20 production points which allows it to increase a castle's size by a number dependent on the required level for the castle.
 
-
-
 - When this unit starts to build a new castle, it can build 10 size units on the first turn: for the foundations and the tradepost, the required level in masonry is 1; to build 1 size unit, 1 production point is required, so the unit first builds the tradepost up to size 10, which makes this building a fortification. There are then 10 production points left, but they are lost because the minimum masonry level required for fortifications is 2.
 
-
-
 - If the unit has a level 2 in masonry, it starts with 40 skill points; 10 are needed for the fortification. It will then use the remaining 30 points to improve the fortification in the same turn. However, a minimum skill of 2 also means that 2 production points must be spent per stone. So, the fortification is increased by 15 stones and a size 25 fortification will have been built at the end of the week.
-
-
 
 - With skill level 2, builders will, in 2 additional weeks, enlarge the fortification to size 50, creating a tower. They will not be able to enlarge the tower, though, due to the new required minimum level of 3.
 
@@ -54,7 +48,7 @@ Building Castles - building material, minimum skill, wage bonus, trade share and
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
 
-[plagues]: ./pest.md "Pest (Seite nicht vorhanden)"
+[plagues]: ./plague.md "Pest (Seite nicht vorhanden)"
 [`MAKE CASTLE`]: ./cmd-make.md "MAKE"
 [war]: ./war.md "War"
 [bonuses and penalties]: ./war.md#boni-und-mali "Boni und Mali"

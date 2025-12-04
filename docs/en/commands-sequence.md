@@ -77,7 +77,6 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 - [orders]
 - [short description]
 - [short description DE/EN]
-- [Befehlsreihenfolge (E3)]
 
 |-------------------|---------------------|
 | Continue reading: | [Short Description] |
@@ -141,4 +140,3 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 [item pool]: ./items-pool.md "Materialpool"
 [orders]: ./commands.md "Befehle"
 [short description DE/EN]: ./commands-list.md "Diskussion:Kurzbeschreibung"
-[Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)"

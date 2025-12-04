@@ -141,5 +141,3 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 [Erläuterungen]: #erläuterungen
 [Materialpool]: ./items-pool.md "Materialpool"
 [Befehle]: ./commands.md "Befehle"
-<!-- exclude E3 from documentation -->
-<!-- [Befehlsreihenfolge (E3)]: ./commands.mdsreihenfolge_(E3) "Befehlsreihenfolge (E3)" -->

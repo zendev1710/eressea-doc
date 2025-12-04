@@ -136,8 +136,6 @@ Beispiele:
 
 - Angenommen, in einer Region mit 8000 Bauern wird für Weihrauch 4 Silber verlangt, und für Gewürze werden 15 Silber geboten. 1% der Bauern sind 80. Verkauft ein Händler nun 200 Gewürze, werden die ersten 80 Gewürze zu 15 Silber verkauft, die nächsten 80 Gewürze zu 10 Silber, und die restlichen 40 Gewürze zu 5 Silber. In der kommenden Woche würden Gewürze hier nur noch für 5 Silber verkauft werden können - wenn der Preis nicht mit einer Wahrscheinlichkeit von 10% wieder auf 10 gestiegen ist.
 
-
-
 - Werden in der selben Region 100 Weihrauch gekauft, so kosten die ersten 80 Weihrauch 4 Silber, und die nächsten 20 Weihrauch kosten 8 Silber. In der kommenden Woche liegt der Preis für Weihrauch wieder bei 4 Silber und man kann die ersten 80 Weihrauch wieder für diesen Preis einkaufen. Falls die 100 Weihrauch von Einheiten von zwei verschiedenen Parteien gekauft wurden, zahlen beide (bis auf Rundungseffekte) 4,8 Silber pro Luxusgut.
 
 Das Geld, das die Bauern ausgegeben haben, kommt den verkaufenden Händlern zugute. Trotzdem verliert die Region kein Silber, denn die Bauern besitzen ja Luxusgüter, mit denen sie die Steuern bezahlen können. Das Geld entsteht nicht aus dem Nichts - es ist der Wert der Güter, die in einer anderen Region produziert worden sind. Das Silber, das durch KAUFE ausgegeben wurde, kommt dagegen in den Regionsvorrat. Gewiefte Regenten können es ihnen durch Unterhaltung und Steuern wieder abnehmen.
@@ -172,7 +170,7 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 [Unterhalten]: ./cmd-entertain.md "UNTERHALTE"
 [Steuern eintreiben]: ./cmd-tax.md "TREIBE"
 [Handel]: ./silver.md#handel "Geld"
-[Rassen]: ./race.md "Rassen"
+[Rassen]: ./races.md "Rassen"
 [rekrutieren]: ./cmd-recruit.md "REKRUTIERE"
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md "Talentmodifikatoren"
 [HELFE SILBER]: ./cmd-help.md "HELFE"

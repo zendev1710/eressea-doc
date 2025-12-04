@@ -17,5 +17,5 @@ Nicht alle Zaubersprüche sind Kampfzauber, dieses kann der Beschreibung der Zau
 <!-- From [https://wiki.eressea.de/index.php?title=KAMPFZAUBER&oldid=16818] -->
 
 [`ZEIGE`]: ./cmd-show.md "ZEIGE"
-[Magie]: ./cmd-magic.md "Magie"
+[Magie]: ./magic.md "Magie"
 [ZAUBERE]: ./cmd-cast.md "ZAUBERE"

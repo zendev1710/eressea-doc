@@ -59,7 +59,7 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
 
-[Pest]: ./pest.md "Pest (Seite nicht vorhanden)"
+[Pest]: ./plague.md "Pest (Seite nicht vorhanden)"
 [MACHE BURG]: ./cmd-make.md "MACHE"
 [Krieg]: ./war.md "Krieg"
 [Boni und Mali]: ./war.md#boni-und-mali "Boni und Mali"

@@ -61,8 +61,8 @@ Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gege
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien&oldid=16699] -->
 
-[Rassen]: ./race.md "Rassen"
-[Rasse]: ./race.md "Rassen"
+[Rassen]: ./races.md "Rassen"
+[Rasse]: ./races.md "Rassen"
 [Talente]: ./skills.md "Talente"
 [Befehle]: ./commands.md "Befehl"
 [rassenspezifischen Startgeschenk]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
@@ -70,7 +70,7 @@ Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gege
 [rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
 [Gegenstände produzieren]: ./items.md "Gegenstände"
 [Gebäude]: ./buildings.md "Gebäude"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [Waffen]: ./war.mdstabellen "Kriegstabellen"
 [`MACHE TEMP`]: ./cmd-make.md "MACHE"

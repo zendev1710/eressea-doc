@@ -23,7 +23,7 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 [Talent]: ./skills.md "Talente"
 [lernen]: ./skills.md#talente-erlernen "Talente"
 [Liste der Talente]: ./skills-list.md "Liste der Talente"
-[Magiegebiet]: ./cmd-magic.md "Magie"
+[Magiegebiet]: ./magic.md "Magie"
 [ECheck]: ./echeck.md "ECheck"
 [Lehrern]: ./cmd-teach.md "LEHRE"
 [LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"

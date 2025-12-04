@@ -54,6 +54,6 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 [Bewacht]: ./cmd-guard.md "BEWACHE"
 [Kampf]: ./war.md#die-flucht "Krieg"
 [`BEKLAUE`]: ./cmd-steal.md "BEKLAUE"
-[Spionage]: ./skills-list#spionage "Spionage"
+[Spionage]: ./skills-list.md#spionage "Spionage"
 [Kampfstatus]: ./cmd-combat.md "KÄMPFE"
 [Einnahmen]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"

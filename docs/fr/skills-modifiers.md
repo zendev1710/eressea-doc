@@ -44,7 +44,7 @@ modificateurs de compétences
 [orcs]: ./races.md#orks "Orks"
 [elves]: ./races.md#elfes "Elfen"
 [cats]: ./races.md#katzen "Katzen"
-[demons]: ./race.md#dämonen "Rassen"
+[demons]: ./races.md#dämonen "Rassen"
 [halflings]: ./races.md#halblinge "Halblinge"
 [humans]: ./races.md##menschenen "Menschen"
 [goblins]: ./races.md#goblins "Goblins"
@@ -59,5 +59,5 @@ modificateurs de compétences
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
 
-[races]: ./race.md "Rassen"
+[races]: ./races.md "Rassen"
 [compétences]: ./skills.md "Talente"

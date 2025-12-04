@@ -8,15 +8,17 @@
 
 Die Welt von Eressea besteht aus einer Vielzahl von Inseln und Kontinenten von ganz unterschiedlicher Größe. Inseln wie Ozeane sind unterteilt in Regionen. In den Regionen findet man die Einheiten der Spieler, Gebäude und Schiffe, die Bauern und verschiedene Rohstoffe.
 
-*Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit dem Finger auf eine der Inseln ganz am Rande deutete. "Sieh, Rahel. Dort ist eine Insel, die gerade erst eingetragen wurde. Erkennst du, wie unsere Kartographen arbeiten?"*
+>Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit dem Finger auf eine der Inseln ganz am Rande deutete.
+> "Sieh, Rahel. Dort ist eine Insel, die gerade erst eingetragen wurde. Erkennst du, wie unsere Kartographen arbeiten?"
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]
+<!-- TODO: 490X264 - should be where in the page ? -->
+![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
-*Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert. Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.*
+> Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert. Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.
 
 In diesem Beispiel ist bei (0,0) ein Sumpf, nordöstlich davon bei (0,1) ein Gebirge. Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [URSPRUNG] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.
 
-*"Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze. "Solche Karten dienen vor allem der Navigation unserer Schiffe. Wie du aber sicher leicht einsiehst, enthalten sie nicht sehr viele Informationen. Deshalb ..." - und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben der Karte auf dem Tisch gelegen hatte, - "... deshalb bekommen wir von jedem unserer Kundschafter jede Woche einen ausführlichen Bericht über die erforschten Regionen. Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."*
+> "Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze. "Solche Karten dienen vor allem der Navigation unserer Schiffe. Wie du aber sicher leicht einsiehst, enthalten sie nicht sehr viele Informationen. Deshalb ..." - und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben der Karte auf dem Tisch gelegen hatte, - "... deshalb bekommen wir von jedem unserer Kundschafter jede Woche einen ausführlichen Bericht über die erforschten Regionen. Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."
 
 In der Welt von Eressea gibt es verschiedene [Geländearten] (Berge, Ebene, Wald, Gletscher, Hochland, Sumpf, Wüste und Vulkan) mit unterschiedlichen Eigenschaften. Ein Forschungsreisender, der die weiten Ozeane nicht scheut, wird auf seinen Erkundungsreisen eventuell noch andere, exotische Regionstypen entdecken. Als ein Beispiel sei hier nur die "Feuerwand" erwähnt, die ein unüberwindbares Hindernis darstellt. Feuerwände grenzen in der Regel die Welten in Eressea ab. Damit soll verhindert werden, dass Parteien sehr unterschiedlichen Alters leicht aufeinander treffen.
 
@@ -66,11 +68,10 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 |--------------|------------|
 | Weiterlesen: | [Parteien] |
 
-[Parteien]: ./factions.mden "Parteien"
+[Parteien]: ./factions.md "Parteien"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[<span class="image placeholder mw-file-element" original-image-src="/images/5/5b/KarteCSMap.jpeg" original-image-title="" decoding="async" width="490" height="264">Datei:KarteCSMap.jpeg</span>]: /Datei:KarteCSMap.jpeg "Datei:KarteCSMap.jpeg"
 [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
 [Geländearten]: ./terrains.md "Geländearten"
 [Kräuter]: ./herbs.md "Kräuter"

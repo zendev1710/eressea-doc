@@ -36,7 +36,7 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
 [faction]: ./factions.md "Partei"
-[race]: ./race.md "Rassen"
+[race]: ./races.md "Rassen"
 [Inscription]: ./hints.md#anmeldung "Anmelden wie?"
 [Elfes]: ./races.md#elfes "Elf"
 [Nains]: ./races.md#nains "Zwerg"

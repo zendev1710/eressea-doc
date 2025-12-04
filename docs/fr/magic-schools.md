@@ -59,7 +59,7 @@ Hier findet man eine Liste aller [Draigzauber].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
-[Magie]: ./cmd-magic.md "Magie"
+[Magie]: ./magic.md "Magie"
 [Illaunzauber]: ./magic-school-illaun.md "Illaunzauber"
 [Tybiedzauber]: ./magic-school-tybied.md "Tybiedzauber"
 [Cerddorzauber]: ./magic-school-cerddor.md "Cerddorzauber"

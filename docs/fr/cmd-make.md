@@ -80,7 +80,7 @@ Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, v
 
 Expérience de jeu : Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MAKE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.
 
-`MAKE gebäudetyp` bzw. `MAKE SHIP` ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet. **Achtung:** Falls sich die Einheit in einem Gebäude befindet, fängt MAKE Leuchtturm _kein neues_ Gebäude an, sondern baut an dem alten weiter.
+`MAKE gebäudetyp` bzw. `MAKE SHIP` ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet. **Achtung:** Falls sich die Einheit in einem Gebäude befindet, fängt MAKE Leuchtturm *kein neues* Gebäude an, sondern baut an dem alten weiter.
 
 ## Beispiele
 
@@ -116,13 +116,13 @@ MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
 [Alchemie-Kapitel]: ./skills-list.md "Liste des compétences"
 [Kräuterkunde]: ./herbs.mdkunde "Planteskunde"
 [Kräuter]: ./herbs.md "Plantes"
-[wieder einer Einheit der eigenen Partei zu]: ./factions.mden#auflösung-von-einheiten "Parteien"
+[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten "Parteien"
 [Gebäude]: ./buildings.md "Gebäude"
-[Schiff]: ./ships.mde "Schiffe"
+[Schiff]: ./ships.md "Schiffe"
 [Straßen]: ./roads.md "Straßen"
 [Straßenbau]: ./skills-list.md#straßenbau "Straßenbau"
 [Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
 [Karawanserei]: ./buildings-others.md#karawanserei "Andere Gebäude"
 [Damm]: ./buildings-others.md#damm "Andere Gebäude"
 [Geländearten]: ./terrains.md "Geländearten"
-[Alchemie]: ./alchemy.cmd "Alchemie"
+[Alchemie]: ./alchemy.md "Alchemie"

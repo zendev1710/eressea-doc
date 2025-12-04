@@ -136,8 +136,6 @@ Examples:
 
 - Let's assume a region with 8,000 peasants that offers incense for 4 silver, and buys spice for 15 silver. 1% of the peasants is 80. If all the traders in the region sell 200 spices, the first 80 units are sold for 15 silver a piece, the next 80 units are sold for 10 silver a piece (down one base price for spice), and the last 40 spice are sold for only 5 silver a piece. The next week, spices will be sold for only 5 silver. Unless the price has already risen to 10 again (10% probability, 20% with a harbour).
 
-
-
 - If 100 incense is bought in the same region, the first 80 are bought at 4 silver a piece, and the next 20 are bought at 8 silver a piece (an increase of one basic price). In the coming week the price for incense will be 4 silver again and you can buy the first 80 incense for this price. If the 100 incense was purchased by units from two different factions, both pay approximately 4.8 silver per luxury good (disregarding rounding effects).
 
 The silver spent by peasants to buy the luxury goods benefits the selling traders. Nevertheless, the region does not lose any silver, because the peasants own luxury goods with which they can pay the taxes. The money is not created out of nothing - it is the value of goods produced in another region. The silver spent by BUY, on the other hand, goes into the region's supply. Clever rulers can take it back from them through entertainment and taxes.
@@ -172,7 +170,7 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 [entertaining]: ./cmd-entertain.md "ENTERTAIN"
 [collecting taxes]: ./cmd-tax.md "TAX"
 [trading]: ./silver.md#handel "Silver"
-[races]: ./race.md "Rassen"
+[races]: ./races.md "Rassen"
 [recruit]: ./cmd-recruit.md "RECRUIT"
 [HELP SILVER]: ./cmd-help.md "HELP"
 [alliances]: ./alliances.md "Allianz"

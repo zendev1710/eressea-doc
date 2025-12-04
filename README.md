@@ -181,7 +181,6 @@ MkDocs project for Eressea documentation.
 | [xontormia-express]     |    |    |    | [xontormia_express]           |
 | [ring-of-power]         |    |    |    | [ring_der_macht]              |
 | [commands-sequence-e3]  |    |    |    | [befehlsreihenfolge_(e3)]     |
-| [reports-request-again] |    |    |    | [befehle_einschicken]         |
 
 [ARBEITE]: https://wiki.eressea.de/ARBEITE "ARBEITE"
 [ATTACKIERE]: https://wiki.eressea.de/ATTACKIERE "ATTACKIERE"
@@ -391,7 +390,6 @@ MkDocs project for Eressea documentation.
 [rassen_im_dritten_zeitalter]: <https://wiki.eressea.de/rassen_im_dritten_zeitalter> "rassen_im_dritten_zeitalter"
 [regeln]: <https://wiki.eressea.de/regeln> "regeln"
 [reisen]: <https://wiki.eressea.de/reisen> "reisen"
-[reports-request-again]: ./reports-request-again.md "reports-request-again"
 [reports]: ./reports.md "reports"
 [resources]: ./resources.md "resources"
 [ring-of-power]: ./ring-of-power.md "ring of power"

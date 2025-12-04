@@ -39,7 +39,7 @@ Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move
 [Anmeldung]: ./hints.md#anmeldung "Anmelden wie?"
 [Elfen]: ./races.md#elfen "Elf"
 [Zwerge]: ./races.md#zwerge "Zwerg"
-[Magie]: ./cmd-magic.md "Magie"
+[Magie]: ./magic.md "Magie"
 [Drachen]: ./monsters.md#drachen "Drachen"
 [Monster]: ./monsters.md "Monster"
 [Krieg]: ./war.md "Krieg"

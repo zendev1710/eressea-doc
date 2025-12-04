@@ -149,7 +149,7 @@ The unit is always on the lookout for camouflaged units. For example this allows
 [`GROW HORSES`]: ./cmd-grow.md "GROW"
 [stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [items]: ./items.md "Waren"
-[ships]: ./ships.mde "Schiffe"
+[ships]: ./ships.md "Schiffe"
 [`SPY`]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#about-mining "Resources"
 [roads]: ./roads.md "Straßen"

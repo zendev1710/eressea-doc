@@ -65,16 +65,16 @@ Will man Personen verschiedener Einheiten zusammenführen, so geschieht dies mit
 
 Player experience: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches HELP GIVE nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN. Falls die Empfängereinheit eine [Migranteneinheit] ist, darf sie außerdem zum Zeitpunkt der Übergabe keine Personen haben. Am besten sollte sie also eine leere TEMP-Einheit sein. Beispiel:
 
-```
- UNIT a; Partei X
- GIVE TEMP x ALLES PERSONS
- Einheit b; Partei Y
- MAKE TEMP x
- CONTACT UNIT a
- END
-```
+    ```
+    UNIT a; Partei X
+    GIVE TEMP x ALLES PERSONS
+    Einheit b; Partei Y
+    MAKE TEMP x
+    CONTACT UNIT a
+    END
+    ```
 
-[Migranteneinheit]: ./race.md#menschen "Rassen"
+[Migranteneinheit]: ./races.md#menschen "Rassen"
 
 Mit `GIVE`*`einheit-nr`*`UNIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 

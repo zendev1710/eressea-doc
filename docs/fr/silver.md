@@ -136,8 +136,6 @@ Exemple :
 
 - Supposons une région comptant 8000 paysans. Elle propose de l'encens (incense) à 4 Silver et demande des épices (spice) à 15 Silver. 1% des paysans correspond à 80. Si un commerçant vend 200 épices, les 80 premières épices seront vendues à 15 Silver, les 80 suivantes à 10 Silver et les 40 restantes à 5 Silver. La semaine suivante, les épices ne pourront plus être vendues qu'à 5 Silver. Sauf si le prix est remonté à 10 (10% de probabilité, 20% si harbour).
 
-
-
 - Si 100 encens sont achetés dans cette région, les 80 premiers encens coûtent 4 Silver pièce, et les 20 suivants 8 Silver. La semaine suivante, le prix de l'encens est à nouveau de 4 Silver et on peut à nouveau acheter les 80 premiers encens à ce prix. Si les 100 encens ont été achetés par des unités de deux factions différentes, les deux paieront (aux effets d'arrondi près) 4,8 Silver par produit de luxe.
 
 L'argent dépensé par les commerçants pour acheter le bien de luxe disponible dans la région bénéficie aux vendeurs. Malgré cela, la région ne perd pas d'argent, car les agriculteurs possèdent des biens de luxe avec lesquels ils peuvent payer les impôts. L'argent n'est pas créé à partir de rien - c'est la valeur des biens qui ont été produits dans une autre région. En revanche, l'argent qui a été dépensé par BUY s'ajoute à la réserve de la région. Des gouvernants avisés peuvent le leur reprendre en les divertissant et en les taxant.
@@ -172,7 +170,7 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [divertir]: ./cmd-entertain.md "ENTERTAIN"
 [collecter les impôts]: ./cmd-tax.md "TAX"
 [commercer]: ./silver.md#handel "Argent"
-[Races]: ./race.md "Rassen"
+[Races]: ./races.md "Rassen"
 [HELP SILVER]: ./cmd-help.md "HELP"
 [ici]: ./alliances.md "Allianz"
 [réservé]: ./cmd-reserve.md "RESERVE"

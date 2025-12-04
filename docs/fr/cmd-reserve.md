@@ -49,4 +49,4 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 [Materialpool]: ./items-pool.md "Materialpool"
 [`GIB`]: ./cmd-give.md "GIB"
 [REKRUTIERE]: ./cmd-recruit.md "REKRUTIERE"
-[Befehlsreihenfolge]: ./commands-sequencemd "Befehlsreihenfolge"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

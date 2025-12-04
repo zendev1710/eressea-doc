@@ -133,7 +133,7 @@ Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann ma
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
 [Tarnung]: ./camouflage.md "Tarnung"
-[Alchemie]: ./alchemy.cmd "Alchemie"
+[Alchemie]: ./alchemy.md "Alchemie"
 [Tränken]: ./alchemy.md "Tränke"
 [Kräutern]: ./herbs.md "Kräuter"
 [Tabelle]: ./war.md#ausdauer "Kampftabellen"
@@ -151,7 +151,7 @@ Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann ma
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [Waren]: ./items.md "Waren"
-[Schiffe]: ./ships.mde "Schiffe"
+[Schiffe]: ./ships.md "Schiffe"
 [`SPIONIERE`]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#vom-bergbau "Rohstoffe"
 [Straßen]: ./roads.md "Straßen"

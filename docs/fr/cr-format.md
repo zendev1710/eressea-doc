@@ -76,10 +76,8 @@ Der String ist bereits gelesen also das ';' überspringen, und den Namen des Tag
 
 ## Siehe auch
 
-- [XML Format]
 - [CR-Format Details] gesammelt und aufbereitet von tww
 
 <!-- From [https://wiki.eressea.de/index.php?title=CR\_Format&oldid=5847] -->
 
-  [XML Format]: ./xml-format.md "XML Format"
-  [CR-Format Details]: http://dose.0wnz.at/thewhitewolf/cr-format
+[CR-Format Details]: http://dose.0wnz.at/thewhitewolf/cr-format

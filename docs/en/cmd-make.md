@@ -113,7 +113,7 @@ Player experience: Solthar Except when erecting a new building you can exchange 
 [production]: ./production.md "Produktion"
 [Items]: ./items.md "Waren"
 [raw materials]: ./resources.md "Resources"
-[Alchemy chapter]: ./skills-list.md "List of talents (Seite nicht vorhanden)"
+[Alchemy chapter]: ./skills-list.md "List of talents (to be documented)"
 [herbology]: ./herbs.md "Herbs"
 [other units of their own faction]: ./factions.md#disbanding "Parteien"
 [buildings]: ./buildings.md "Gebäude"

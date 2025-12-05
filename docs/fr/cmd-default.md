@@ -134,7 +134,7 @@ Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus
 
 [Vorlage]: ./vorlage.md "Vorlage"
 [ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
-[FFTools]: ./fftools2.md "FFTools (Seite nicht vorhanden)"
+[FFTools]: ./fftools2.md "FFTools (to be documented)"
 
 ## Siehe auch
 

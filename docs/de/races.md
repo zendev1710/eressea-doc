@@ -148,7 +148,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 [Trank]: ./alchemy.md "Tränke"
 [hier]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
 [Taktik]: ./tactic.md "Taktik"
-[Gruppen]: ./cmd-group.md "Gruppen (Seite nicht vorhanden)"
+[Gruppen]: ./cmd-group.md "Gruppen (to be documented)"
 [handeln]: ./silver.md#handel "Geld"
 [bewegen]: ./travel.md "Reisen"
 [lange Befehle]: ./commands.md "Befehl"

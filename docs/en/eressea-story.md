@@ -373,10 +373,10 @@ Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt,
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
 [Atlantis]: ./atlantis.md "Atlantis"
-[Corwin]: ./contributors.md#corwin "Corwin (Seite nicht vorhanden)"
+[Corwin]: ./contributors.md#corwin "Corwin (to be documented)"
 [Katze (Designerin)]: ./contributors.md#katja-zedel "Katze (Designerin)"
-[Enno Rehling]: ./contributors.md#enno "Enno (Seite nicht vorhanden)"
-[Faroul]: ./contributors.md#faroul "Faroul (Seite nicht vorhanden)"
+[Enno Rehling]: ./contributors.md#enno "Enno (to be documented)"
+[Faroul]: ./contributors.md#faroul "Faroul (to be documented)"
 [ECheck]: ./echeck.md "ECheck"
 [Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim"
 [Xontormia-Express]: ./xontormia-express "Xontormia-Express"

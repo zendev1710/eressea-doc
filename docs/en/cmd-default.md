@@ -146,6 +146,6 @@ Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus
 [Befehl]: ./commands.md "Befehl"
 [`OPTION`]: ./cmd-option.md "OPTION"
 [langen Befehle]: ./commands.md#kurze-und-lange-befehle "Befehl"
-[//]: ./cmd-comment.md "Kommentar (Seite nicht vorhanden)"
+[//]: ./cmd-comment.md "Kommentar (to be documented)"
 [Lange Kommentare]: ./cmd-comment.md "KOMMENTAR"
 [Befehle einschicken]: ./commands-send.md "Befehle einschicken"

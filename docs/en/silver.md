@@ -179,7 +179,7 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 [aquarians]: ./races.md#meermenschen "Meermensch"
 [damage]: ./ships.md "Schiff"
 [combat end]: ./war.md#the-end"End of the battle"
-[endurance skill]: ./war.mdstabellen "Warstabellen"
+[endurance skill]: ./war-tables.md "Warstabellen"
 [undead]: ./monsters.md#untote "Untote"
 [`WORK`]: ./cmd-work.md "ARBEITEN"
 [castles table]: ./castles.md#übersicht "Burg"

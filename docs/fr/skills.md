@@ -89,7 +89,7 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
-[unité]: ./cmd-unit.mden "Einheiten"
+[unité]: ./cmd-unit.md "Einheiten"
 [`LEARN`]: ./cmd-learn.md "LEARN"
 [race]: ./races.md "Rassen"
 [nain]: ./races.md#nains "Zwerg"

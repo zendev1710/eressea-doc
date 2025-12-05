@@ -165,7 +165,6 @@ MkDocs project for Eressea documentation.
 | [war]                         | X  | X  | X  | [krieg]                              |
 | [weekly-report]               | S  | N  | N  | [wochenbericht]                      |
 | [world]                       | X  | X  | X  | [welt]                               |
-| [xml-format]                  | S  | N  | N  | []                                   |
 | cmd page                      | DE | EN | FR | GERMAN TERM                          |
 
 ## Other miscellaneous pages
@@ -181,6 +180,7 @@ MkDocs project for Eressea documentation.
 | [xontormia-express]     |    |    |    | [xontormia_express]           |
 | [ring-of-power]         |    |    |    | [ring_der_macht]              |
 | [commands-sequence-e3]  |    |    |    | [befehlsreihenfolge_(e3)]     |
+| [xml-format]            | S  | N  | N  | []                            |
 
 [ARBEITE]: https://wiki.eressea.de/ARBEITE "ARBEITE"
 [ATTACKIERE]: https://wiki.eressea.de/ATTACKIERE "ATTACKIERE"
@@ -440,7 +440,7 @@ MkDocs project for Eressea documentation.
 [welt]: <https://wiki.eressea.de/welt> "welt"
 [wochenbericht]: <https://wiki.eressea.de/wochenbericht> "wochenbericht"
 [world]: ./world.md "world"
-[xontormia-express]: ./xontormia-express.md "xontormia-express"
+[xontormia-express]: <https://wiki.eressea.de/xontormia_express> "xontormia-express"
 [xontormia_express]: <https://wiki.eressea.de/xontormia_express> "xontormia_express"
 [zauberbeschreibungen_e2]: <https://wiki.eressea.de/zauberbeschreibungen_e2> "zauberbeschreibungen_e2"
 [zauberbeschreibungen_e3]: <https://wiki.eressea.de/zauberbeschreibungen_e3> "zauberbeschreibungen_e3"

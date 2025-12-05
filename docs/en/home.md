@@ -82,7 +82,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 [Tactics]: ./tactic.md "Taktik"
 [Familiars]: ./familiars.md "Vertraute"
 [Development]: ./development.md "Entwicklung"
-[Xontormia Express]: ./xontormia-express.md "Xontormia Express"
+[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
 [archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [announcements]: ./announcements.md "Ankündigungen"
 [Player pages]: ./player-pages.md "Spielerseiten"

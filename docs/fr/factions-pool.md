@@ -27,7 +27,7 @@ Nicht zu verwechseln ist der Parteipool mit dem [Materialpool] und dem [Silberpo
 [ZEIGE]: ./cmd-show.md "ZEIGE"
 [Adamantium]: ./adamantium.md "Adamantium"
 [Adamantiumrüstung]: ./adamantium-armor.md "Adamantiumrüstung"
-[Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (Seite nicht vorhanden)"
+[Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (to be documented)"
 [Sonnensegel]: ./sun-sail.md "Sonnensegel"
 [Sternenstaub]: ./stardust.md "Sternenstaub"
 [Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"

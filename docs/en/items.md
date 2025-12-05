@@ -76,4 +76,4 @@ Weight, skill and raw material requirements
 [these examples]: ./production.md "Produktion"
 [resources]: ./resources.md "Resources"
 [buildings]: ./buildings.md "Gebäude"
-[war tables]: ./war.mdstabellen "Warstabellen"
+[war tables]: ./war-tables.md "Warstabellen"

@@ -48,7 +48,7 @@ Building Castles - building material, minimum skill, wage bonus, trade share and
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
 
-[plagues]: ./plague.md "Pest (Seite nicht vorhanden)"
+[plagues]: ./plague.md "Pest (to be documented)"
 [`MAKE CASTLE`]: ./cmd-make.md "MAKE"
 [war]: ./war.md "War"
 [bonuses and penalties]: ./war.md#boni-und-mali "Boni und Mali"

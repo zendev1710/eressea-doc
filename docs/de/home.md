@@ -81,7 +81,7 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 [Taktik]: ./tactic.md "Taktik"
 [Vertraute]: ./familiars.md "Vertraute"
 [Entwicklung]: ./development.md "Entwicklung"
-[Xontormia Express]: ./xontormia-express.md "Xontormia Express"
+[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
 [Archiv alter Ausgaben]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [Ankündigungen]: ./announcements.md "Ankündigungen"
 [Spielerseiten]: ./player-pages.md "Spielerseiten"

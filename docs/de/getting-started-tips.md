@@ -76,7 +76,7 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+[Xontormia-Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia-Express"
 [Passwort]: ./cmd-password.md "PASSWORT"
 [1]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/

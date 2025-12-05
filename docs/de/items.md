@@ -77,4 +77,4 @@ Gewicht, Talente und Materialbedarf
 [Rohstoffe]: ./resources.md "Rohstoffe"
 [Straßen]: ./roads.md "Straßen"
 [Gebäude]: ./buildings.md "Gebäude"
-[Kriegstabellen]: ./war.mdstabellen "Kriegstabellen"
+[Kriegstabellen]: ./war-tables.md "Kriegstabellen"

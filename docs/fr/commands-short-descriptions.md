@@ -14,39 +14,39 @@ brief description of orders
 | [BANNER "text"](./cmd-banner.md "BANNER")                                               | BANNER                                       | Sets text for the address list                    | K           |
 | [BEANSPRUCHE anzahl gegenstand](/BEANSPRUCHE "BEANSPRUCHE")                     | CLAIM                                        | Fetches items from party pool                     | K           |
 | [BEFÖRDERE](/BEF%C3%96RDERE "BEFÖRDERE")                                        | PROMOTE                                      | Promote a unit to heroe                           | K           |
-| [BEKLAUE einheit-nr](/BEKLAUE "BEKLAUE")                                        | STEAL unit-ID                                | steal 50 Silver or more                           | L           |
-| [BENENNE EINHEIT "name"](/BENENNE "BENENNE")                                    | NAME UNIT "name"                             | names the specified object                        | K           |
-| [BENENNE PARTEI "name"](/BENENNE "BENENNE")                                     | NAME FACTION "name"                          |                                                   | K           |
-| [BENENNE GEBÄUDE "name"](/BENENNE "BENENNE")                                    | NAME BUILDING "name"                         |                                                   | K           |
-| [BENENNE SCHIFF "name"](/BENENNE "BENENNE")                                     | NAME SHIP "name"                             |                                                   | K           |
-| [BENENNE REGION "name"](/BENENNE "BENENNE")                                     | NAME REGION "name"                           |                                                   | K           |
-| [BENENNE FREMDE EINHEIT einheit-nr "name"](/BENENNE "BENENNE")                  | NAME FOREIGN UNIT unit-no "name"             | names the specified foreign object                | K           |
-| [BENENNE FREMDES SCHIFF schiff-nr "name"](/BENENNE "BENENNE")                   | NAME FOREIGN SHIP ship-no "name"             |                                                   | K           |
-| [BENENNE FREMDES GEBÄUDE gebäude-nr "name"](/BENENNE "BENENNE")                 | NAME FOREIGN BUILDING building-no "name"     |                                                   | K           |
-| [BENENNE FREMDE PARTEI partei-nr "name"](/BENENNE "BENENNE")                    | NAME FOREIGN FACTION faction-id "name"       |                                                   | K           |
+| [BEKLAUE einheit-nr](./cmd-steal.md "BEKLAUE")                                        | STEAL unit-ID                                | steal 50 Silver or more                           | L           |
+| [BENENNE EINHEIT "name"](./cmd-name.md "BENENNE")                                    | NAME UNIT "name"                             | names the specified object                        | K           |
+| [BENENNE PARTEI "name"](./cmd-name.md "BENENNE")                                     | NAME FACTION "name"                          |                                                   | K           |
+| [BENENNE GEBÄUDE "name"](./cmd-name.md "BENENNE")                                    | NAME BUILDING "name"                         |                                                   | K           |
+| [BENENNE SCHIFF "name"](./cmd-name.md "BENENNE")                                     | NAME SHIP "name"                             |                                                   | K           |
+| [BENENNE REGION "name"](./cmd-name.md "BENENNE")                                     | NAME REGION "name"                           |                                                   | K           |
+| [BENENNE FREMDE EINHEIT einheit-nr "name"](./cmd-name.md "BENENNE")                  | NAME FOREIGN UNIT unit-no "name"             | names the specified foreign object                | K           |
+| [BENENNE FREMDES SCHIFF schiff-nr "name"](./cmd-name.md "BENENNE")                   | NAME FOREIGN SHIP ship-no "name"             |                                                   | K           |
+| [BENENNE FREMDES GEBÄUDE gebäude-nr "name"](./cmd-name.md "BENENNE")                 | NAME FOREIGN BUILDING building-no "name"     |                                                   | K           |
+| [BENENNE FREMDE PARTEI partei-nr "name"](./cmd-name.md "BENENNE")                    | NAME FOREIGN FACTION faction-id "name"       |                                                   | K           |
 | [BENUTZE \[anzahl\] trank](/BENUTZE "BENUTZE")                                  | USE \[amount\] potion                        | uses alchemical potion                            | K           |
-| [BESCHREIBE EINHEIT "text"](/BESCHREIBE "BESCHREIBE")                           | DESCRIBE UNIT "text"                         | describes object                                  | K           |
-| [BESCHREIBE PRIVAT "text"](/BESCHREIBE "BESCHREIBE")                            | DESCRIBE PRIVATE "text"                      | unit description for the owner                    | K           |
-| [BESCHREIBE GEBÄUDE "text"](/BESCHREIBE "BESCHREIBE")                           | DESCRIBE BUILDING "text"                     |                                                   | K           |
-| [BESCHREIBE SCHIFF "text"](/BESCHREIBE "BESCHREIBE")                            | DESCRIBE SHIP "text"                         |                                                   | K           |
-| [BESCHREIBE REGION "text"](/BESCHREIBE "BESCHREIBE")                            | DESCRIBE REGION "text"                       |                                                   | K           |
-| [BETRETE GEBÄUDE gebäude-nr](/BETRETE "BETRETE")                                | ENTER BUILDING building-id                   | Enter a building                                  | K           |
-| [BETRETE SCHIFF schiff-nr](/BETRETE "BETRETE")                                  | ENTER SHIP ship-id                           | Enter a ship                                      | K           |
-| [BEWACHE \[NICHT\]](/BEWACHE "BEWACHE")                                         | GUARD                                        | guard the region                                  | K           |
-| [BEZAHLE NICHT \[gebäude-nr\]](/BEZAHLE "BEZAHLE")                              | PAY \[NOT\]                                  | do not pay a maintenance                          | K           |
-| [BOTSCHAFT REGION "text"](/BOTSCHAFT "BOTSCHAFT")                               | MESSAGE REGION "text"                        | Send a message                                    | K           |
-| [BOTSCHAFT SCHIFF schiff-nr "text"](/BOTSCHAFT "BOTSCHAFT")                     | MESSAGE SHIP ship-id "text"                  | Send a message                                    | K           |
-| [BOTSCHAFT GEBÄUDE gebäude-nr "text"](/BOTSCHAFT "BOTSCHAFT")                   | MESSAGE BUILDING building-id "text"          | Send a message                                    | K           |
-| [BOTSCHAFT EINHEIT einh-nr "text"](/BOTSCHAFT "BOTSCHAFT")                      | MESSAGE UNIT unit-id "text"                  | Send a message                                    | K           |
-| [BOTSCHAFT PARTEI partei-nr "text"](/BOTSCHAFT "BOTSCHAFT")                     | MESSAGE FACTION faction-id "text"            | Send a message                                    | K           |
+| [BESCHREIBE EINHEIT "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE UNIT "text"                         | describes object                                  | K           |
+| [BESCHREIBE PRIVAT "text"](./cmd-describe.md "BESCHREIBE")                            | DESCRIBE PRIVATE "text"                      | unit description for the owner                    | K           |
+| [BESCHREIBE GEBÄUDE "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE BUILDING "text"                     |                                                   | K           |
+| [BESCHREIBE SCHIFF "text"](./cmd-describe.md "BESCHREIBE")                            | DESCRIBE SHIP "text"                         |                                                   | K           |
+| [BESCHREIBE REGION "text"](./cmd-describe.md "BESCHREIBE")                            | DESCRIBE REGION "text"                       |                                                   | K           |
+| [BETRETE GEBÄUDE gebäude-nr](./cmd-enter.md "BETRETE")                                | ENTER BUILDING building-id                   | Enter a building                                  | K           |
+| [BETRETE SCHIFF schiff-nr](./cmd-enter.md "BETRETE")                                  | ENTER SHIP ship-id                           | Enter a ship                                      | K           |
+| [BEWACHE \[NICHT\]](./cmd-guard.md "BEWACHE")                                         | GUARD                                        | guard the region                                  | K           |
+| [BEZAHLE NICHT \[gebäude-nr\]](./cmd-pay-not.md "BEZAHLE")                              | PAY \[NOT\]                                  | do not pay a maintenance                          | K           |
+| [BOTSCHAFT REGION "text"](./cmd-message.md "BOTSCHAFT")                               | MESSAGE REGION "text"                        | Send a message                                    | K           |
+| [BOTSCHAFT SCHIFF schiff-nr "text"](./cmd-message.md "BOTSCHAFT")                     | MESSAGE SHIP ship-id "text"                  | Send a message                                    | K           |
+| [BOTSCHAFT GEBÄUDE gebäude-nr "text"](./cmd-message.md "BOTSCHAFT")                   | MESSAGE BUILDING building-id "text"          | Send a message                                    | K           |
+| [BOTSCHAFT EINHEIT einh-nr "text"](./cmd-message.md "BOTSCHAFT")                      | MESSAGE UNIT unit-id "text"                  | Send a message                                    | K           |
+| [BOTSCHAFT PARTEI partei-nr "text"](./cmd-message.md "BOTSCHAFT")                     | MESSAGE FACTION faction-id "text"            | Send a message                                    | K           |
 | [DEFAULT befehl](./cmd-default.md "DEFAULT")                                            | DEFAULT                                      | sets the default order for the next turn          | K           |
 | [EINHEIT einheit-nr](./cmd-unit.md "EINHEIT")                                        | UNIT unit-ID                                 | beginning of a unit's orders                      | K           |
 | [EMAIL email@adresse](./cmd-email.md "EMAIL")                                           | EMAIL email@adresse                          | sets the e−mail the report is sent to             | K           |
 | [ENDE](./cmd-end.md "ENDE")                                                            | END                                          | ends a MAKE TEMP block                            | K           |
 | [ERESSEA partei-nr "passwort"](./cmd-eressea.md "ERESSEA")                              | ERESSEA faction-id "password"                | beginning of faction's orders                     | K           |
-| [FAHRE einheit-nr](/FAHRE "FAHRE")                                              | RIDE unit-id                                 | be transported by unit−id                         | L           |
-| [FOLGE EINHEIT einheit-nr](/FOLGE "FOLGE")                                      | FOLLOW UNIT unit-id                          | follows a unit                                    | (L)\*\*     |
-| [FOLGE SCHIFF schiff-nr](/FOLGE "FOLGE")                                        | FOLLOW SHIP ship-id                          | follows a ship                                    | (L)\*\*     |
+| [FAHRE einheit-nr](./cmd-ride.md "FAHRE")                                              | RIDE unit-id                                 | be transported by unit−id                         | L           |
+| [FOLGE EINHEIT einheit-nr](./cmd-follow.md "FOLGE")                                      | FOLLOW UNIT unit-id                          | follows a unit                                    | (L)\*\*     |
+| [FOLGE SCHIFF schiff-nr](./cmd-follow.md "FOLGE")                                        | FOLLOW SHIP ship-id                          | follows a ship                                    | (L)\*\*     |
 | [FORSCHE KRÄUTER](/FORSCHE "FORSCHE")                                           | RESEARCH herbs                               | search for herbs                                  | L           |
 | [GIB einheit-nr KRÄUTER](./cmd-give.md "GIB")                                            | GIVE unit-id herbs                           | give a unit all herbs                             | K           |
 | [GIB einheit-nr KOMMANDO](./cmd-give.md "GIB")                                           | GIVE unit-id command                         | give a unit ship/ building control                | K           |

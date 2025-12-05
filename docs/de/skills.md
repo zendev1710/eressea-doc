@@ -88,7 +88,7 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente&oldid=16985] -->
 
-[Einheiten]: ./cmd-unit.mden "Einheiten"
+[Einheiten]: ./cmd-unit.md "Einheiten"
 [`LERNE`]: ./cmd-learn.md "LERNE"
 [Rasse]: ./races.md "Rassen"
 [Zwergeneinheit]: ./races.md#swerg "Zwerg"

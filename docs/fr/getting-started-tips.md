@@ -73,7 +73,7 @@ Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst
 
 | En savoir plus : | [Xontormia-Express] |
 
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+[Xontormia-Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia-Express"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 

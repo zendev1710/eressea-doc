@@ -21,7 +21,6 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 ## Formate
 
 - [CR Format]
-- zukünftiges? [XML Format]
 
 ## Skripte
 
@@ -59,14 +58,13 @@ Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimie
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
 [CR Format]: ./cr-format.md "CR Format"
-[XML Format]: ./xml-format.md "XML Format"
 [Skriptsammlung]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [1]: ./vorlage.md "Vorlage"
 [Handel]: ./auto-trading.md "Automatisierung Handel"
 [Transport]: ./auto-transport.md "Automatisierung Transport"
 [Lernketten]: ./auto-learning-chains.md "Automatisierung Lernketten"
-[Produktion]: ./production.md "Automatisierung Produktion (Seite nicht vorhanden)"
-[Wegfindung]: ./auto-way-finding.md "Automatisierung Wegfindung (Seite nicht vorhanden)"
+[Produktion]: ./production.md "Automatisierung Produktion (to be documented)"
+[Wegfindung]: ./auto-way-finding.md "Automatisierung Wegfindung (to be documented)"
 [Ereignissreaktion]: ./auto-event-response.md "Automatisierung Ereignissreaktion"
 [Wegfindung / Routenberechnung]: ./optimize-way-finding.md "Optimierung Wegfindung"
 [Optimierung von Lernketten]: ./optimize-learning-chains.md "Optimierung Lernketten"

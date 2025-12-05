@@ -46,7 +46,7 @@ Construction de châteaux - matériaux, minimum skill, bonus salaire, part du co
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
 
-[peste]: ./plague.md "Pest (Seite nicht vorhanden)"
+[peste]: ./plague.md "Pest (to be documented)"
 [MAKE CASTLE]: ./cmd-make.md "MAKE"
 [guerre]: ./war.md "Guerre"
 [bonus et malus]: ./war.md#boni-und-mali "Boni und Mali"

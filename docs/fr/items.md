@@ -72,4 +72,4 @@ Poids, compétence et ressources nécessaires.
 [ressources]: ./resources.md "Ressources"
 [routes]: ./roads.md "Straßen"
 [bâtiments]: ./buildings.md "Gebäude"
-[tables militaires]: ./war.mdstabellen "Guerrestabellen"
+[tables militaires]: ./war-tables.md "Guerrestabellen"

@@ -1,0 +1,665 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="zendev1710">
+      
+      
+        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/de/optimize-transport/">
+      
+      
+      
+      
+        
+          <link rel="alternate" href="../../optimize-transport/" hreflang="en">
+        
+          <link rel="alternate" href="../../fr/optimize-transport/" hreflang="fr">
+        
+          <link rel="alternate" href="./" hreflang="de">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Optimierung Transport - Eressea</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#optimierung-transport" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eressea
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Optimierung Transport
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../optimize-transport/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../fr/optimize-transport/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Eressea
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handelsreisender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handelsreisender
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optimale-beladung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimale Beladung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Optimale Beladung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pakete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pakete
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiwegfindung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiwegfindung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multiwegfindung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gleichwertige-ziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        gleichwertige Ziele
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umschlagplatze" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Umschlagplätze
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bewertungsfunktion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bewertungsfunktion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bewertungsfunktion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bewertungsbasis-warenwert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bewertungsbasis Warenwert
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bewertungsbasis Warenwert">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifizierung-durch-dringlichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifizierung durch Dringlichkeit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifizierung-durch-entfernung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifizierung durch Entfernung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bewertung-von-leerfahrten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bewertung von Leerfahrten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="optimierung-transport">Optimierung Transport</h1>
+<h2 id="handelsreisender">Handelsreisender</h2>
+<p>Da wir bei Eressea nicht mit wenigen sondern mit sehr vielen Einheiten hantieren, stellt sich die Problematik des Handelsreisenden weniger, da Transporte oft nicht mehrere Regionen im Kreis anfahren, sondern Bedarfe eher mit vielen einzelnen Transporten parallel bearbeitet werden.</p>
+<h2 id="optimale-beladung">Optimale Beladung</h2>
+<p>Für die Beladung eines Transportes mit Waren liegt es nahe das Rucksackproblem anzuwenden. Allerdings läuft man in Eressea dabei schnell in die Falle zu viele gleichartige Gegenstände verladen zu wollen. Optimierungen des Rucksackproblems kommen damit kaum klar.</p>
+<p>Ein einfaches Beispiel:</p>
+<p>Zu transportieren sind 10 Steine (je 60 GE) und 100 Juwelen (je 1 GE). Es steht jedoch nur 500GE Kapazität zur Verfügung. Ein Stein wird mit einem Wert von 1200 bemessen, ein Juwel mit einem Wert von 50. Da die Juwelen mehr Wert pro GE bieten (50 je GE) laden wir also zuerst alle Juwelen auf:</p>
+<pre><code>Wert   = 100 * 50 = 5000 
+Ladung = 100 * 1 GE = 100 GE
+frei   = 400 GE
+</code></pre>
+<p>Bei 400 GE gelingt es uns also noch 6 Steine aufzuladen, 40 GE bleiben frei.</p>
+<pre><code>Wert   = 5000 + 6 * 1200 = 12200
+Ladung = 100 GE + 6 * 60 GE = 460 GE
+frei   = 40 GE
+</code></pre>
+<p>Versuchen wir es also mit den Steinen zuerst: 8 Steine, dann bleibt noch Platz für 20 Juwelen:</p>
+<pre><code>Wert   = 20 * 50 + 8 * 1200 = 10600
+</code></pre>
+<p>Das war offenbar nichts. Aber geht es doch noch irgendwie besser? Ja, 7 Steine und 80 Juwelen scheinen offenbar die Kapazität besser auszunutzen:</p>
+<pre><code>Wert   = 80 * 50 + 7 * 1200 = 12400
+</code></pre>
+<p>Der Weg dahin führt z.b. über greedy suche, also das durchsuchen sämtlicher Zustände. In dem Fall also 0 bis 8 Steine und 0 bis 100 Juwelen (manchmal weniger) macht also rund 900 Zustände die zu prüfen wären. Wenn man sich jetzt noch eine 3. oder 4. Ware vorstellt wird schnell klar, so kommen wir nicht zum Ergebnis.</p>
+<p>Normalerweise führt hier der schnelle Weg zum Ziel über sogenannte Pareto-optimale Zwischenzustände. Was solche Zwischenzustände sind lässt sich leichter anders rum erklären. Zustände die bei gleicher Beladung weniger Wert sind als ein anderer Zwischenzustand sind nicht Pareto-optimal. Diese braucht man nicht weiter zu verfolgen, da offenbar immer wieder nur nicht Pareto-optimale Zustände erreicht werden können.</p>
+<p>Vergleicht man also beispielsweise den Zustand "60 Juwelen" mit "1 Stein" so zeigt sich, das 60 Juwelen offenbar bei gleicher Beladung weit mehr Wert sind. Es lohnt also nicht "1 Stein" weiter zu expandieren. Genau genommen kommt man zu dieser Feststellung bereits wenn man 24 Juwelen expandiert hat.</p>
+<p>Problematisch ist diese Art der Optimumsberechnung nun, da offenbar jede Anzahl von Juwelen zwischen 0 und 100 pareto-optimal ist. Schlimmer noch auch jede Kombination aus 1-6 Steinen mit 77 bis 100 Juwelen und 7 Steinen mit 77 bis 80 Juwelen ist pareto-optimal. D.h. trotz Optimierung müssen wir 100 + 6 * 24 + 4 = 248 Zustände von ca. 900 Zuständen expandieren, bis wir uns der gefundenen Lösung sicher sein können - kein schönes Ergebnis.</p>
+<p>Allerdings bietet sich eine andere Optimierung an. Wir können die verwendeten Transportmengen einschränken. Da sich Juwelen so lange lohnen wie sie zusammen eine ganz Anzahl Steine ergeben, liegt die Juwelenzahl zwischen 60 und 100. Die Juwelen können jedoch nie die komplette Kapazität belegen, weshalb mindestens 6 Steine und maximal 8 mitgenommen werden können. Damit reduziert sich die Suche auf 41*3 oder mit Pareto-optimalen Zwischenzuständen auf 41 + 24 + 4 = 69 Zustände.</p>
+<p><em>Achtung: Priorisiert man die Waren, statt sie zu bewerten, dann lässt sich diese Art der Packung eher nicht anwenden. Dann gilt: Höchste Priorität zuerst ...</em></p>
+<h3 id="pakete">Pakete</h3>
+<p>Oftmals lohnt der Transport von Rohstoffen erst, wenn alle benötigten Rohstoffe das Ziel erreichen. Die Idee ist nun diese Rohstoffe zu paketieren. Das kann heissen diese entweder alle oder gar nicht zu verschicken, oder aber bei Erreichen der Paketgrösse einen Bonus aufzuschlagen. Da in Eressea die einzelnen Rohstoffe auf aus unterschiedlichen Regionen kommen, würde erstere Variante wohl dazu führen, dass gar nichts geliefert wird. Die zweite Variante wäre wünschenswert, torpediert aber leider die Optimierung mit Pareto-optimalen Zwischenzuständen. Was bleibt ist die erste Variante eingeschränkt auf einen Typ Gegenstand. Ob der Aufwand lohnt bleibt fraglich.</p>
+<p>Unabhängig davon ist es natürlich möglich und sinnvoll Gegenstände die zur Vollendung eines Ziels fehlen ein wenig höher zu bewerten.</p>
+<p>Es macht ggf. sinn zwei bzw. drei Arten von Paketen zu unterscheiden:</p>
+<ol>
+<li>Gruppen von Gegenständen die nur in Summe überhaupt verwendet werden können, also z.b. einzelne Stufen eines Gebäudes, mehrere Komponenten für Tränke oder Waffen. Einzeln können diese Gegenstände am Ziel nicht verarbeitet werden, d.h. es muss gewartet werden, bis die letzte Komponente eingetroffen ist.</li>
+<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorie zur vollen Auslastung in der wöchentlichen Produktion nötig sind. Es kann jedoch auch ohne voll Auslastung produziert werden. Das reduziert nur die Zeit in der ggf. etwas anderes getan werden kann.</li>
+<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorien, die zur vollen Erfüllung eines Auftrags notwendig sind, d.h. Vollendung eines Schiffes oder Gebäudes, oder volle Ausstattung einer Einheit mit ihrer Ausrüstung. Es kann produziert werden, möglicherweise sogar voll ausgelastet. Es ist nur noch nicht sichergestellt, dass alle Komponenten zur Fertigstellung demnächst eintreffen.</li>
+</ol>
+<p>Die letzten beiden Gruppen können in der Praxis wohl zusammengefasst und höchstwahrscheinlich ignoriert werden. Für die erste Gruppe ist ein Erfüllungsbonus jedoch denkbar und liesse sich auch planen.</p>
+<h2 id="multiwegfindung">Multiwegfindung</h2>
+<p>Bei der Transportplanung kann es aber durchaus vorkommen, dass ein Transport bereits etwas Ladung und dementsprechend eine Zielregion hat. Es steht aber auf dem Transport noch Kapazität bereit, die durch andere Waren belegt werden könnten. Einfache Möglichkeiten liegen nun darin nur Waren mitzugeben, die in den Zwischenpunkten der Route gebraucht werden. Fortgeschrittene Techniken laden Waren auf, die dadurch dem Ziel ein Stück näher kommen.</p>
+<p>Möglich scheint mir aber auch eine Anpassung der Route, dahingehend, dass bei gleicher Dauer zum ersten Ziel eine Route gesucht wird, die gleichzeitig möglichst nah oder sogar über die Region des 2. Zieles führt. Ebenso denkbar ist die Optimierung der Route, das diese über "Umschlagplätze" läuft, um sicherzustellen, dass die Waren für das 2. Ziel dann auch einen Transport in der Gabelregion finden.</p>
+<p>Wie also könnte eine solche Multiwegfindung laufen? Die Runden bis zur Ankunft bei Ziel 1 sind bekannt. Es kommen also nur Routen in Frage, die nicht länger dauern. Das erfährt man jedoch erst wenn eine Route gefunden wurde. Die minimale Entfernung zum Ziel 2 ist also zweites Kriterium bei der Routenbewertung und lässt die Routenberechnung ein wenig mehr "greedy" werden, da nun alle Regionen die im Kriterium 1 den gleichen Wert ergeben auf den 2. Wert getestet werden müssen. Glücklicherweise liefert auch hier die Schätzfunktion gute Dienste.</p>
+<h3 id="gleichwertige-ziele">gleichwertige Ziele</h3>
+<p>Sind mehrere Ziele gleichwertig, konkurrieren diese natürlich ab einem bestimmten Punkt um die weitere Route. Bis dahin kann man die Route prima auf das Minimum aus beiden Routen optimieren, d.h. man fährt zur näheren Region, und lädt die Waren für die andere Region ab, wenn man möglichst nah dran ist.</p>
+<p>Fügt man jedoch mehr und mehr Ziele hinzu, so wird aus dem Transport tatsächlich ein lokaler "Handelsreisender". Ob und wann es sich lohnt hier tatsächlich eine kleine Rundreise zu machen, habe ich noch nicht näher betrachtet. Sicher gibt es aber solche Grenze.</p>
+<h3 id="umschlagplatze">Umschlagplätze</h3>
+<p>Die Multiwegfindung kann man sich aber auch wesentlich vereinfachen. Definiert man ausreichend Umschlagplätze, so kann man die Transporte anweisen bei Routen über einer Woche als Zwischenpunkte <strong>immer</strong> Umschlagplätze anzulaufen, oder dies zumindest dann zu tun, wenn eine Kapazitätsgrenze unterschritten ist, oder der Umschlagplatz keinen Umweg bedeutet.</p>
+<p>Das Transportsystem der ehemaligen EWG hatte sich diesem Umstand implizit zueigen gemacht, indem es hierarchisch organisiert war. Umschlagplätze sind dort Regionen die untergeordnete Regionen haben. Die Hierarchie bedeutet allerdings oft Umwege. Ob solch ein System gut funktioniert, hängt dann auch von der Topologie der Insel ab. Vor allem Inseln die Ringe bilden, eignen sich wenig für ein streng hierarchisches Transportsystem.</p>
+<h2 id="bewertungsfunktion">Bewertungsfunktion</h2>
+<p>Verschiedene Optimierungsalgorithmen benötigen zur Bewertung von möglichen Zwischen- und Zielzuständen eine Bewertungsfunktion.</p>
+<p>Eine solche Funktion für "Logistische Zustände" zu finden, ist auf den ersten Blick nicht einfach.</p>
+<p>Was und wie bewertet man nun am besten?</p>
+<ul>
+<li>Befriedigung möglichst vieler Nachfragen?</li>
+<li>Ausnutzung der vorhandenen Transportkapazität?</li>
+<li>Einfluss von Prioritäten und Wertigkeiten?</li>
+</ul>
+<p>Am besten stellt man wie auch beim Lernen verschiedene sehr simple Auswahlmöglichkeiten nebeneinander und grenzt sie voneinander ab. Wicht dabei: Alle nicht erwähnten Eigenschaften sind gleich.</p>
+<p>Einfache Bewertungsregeln:</p>
+<ul>
+<li>Es ist besser ein nahes Angebot zu verwenden als eine fernes Angebot.</li>
+<li>Es ist besser eine Nachfrage hoher Priorität zu bedienen als eins mit niedriger Priorität.</li>
+<li>Es ist besser eine Nachfrage von einer nahen Quelle zu beliefern, als von einer fernen Quelle.</li>
+</ul>
+<p>kompliziertere Bewertungsregeln:</p>
+<ul>
+<li>Es ist besser einen Transport gut auszulasten als diesen mit viel Leerraum fahren zu lassen. Die Abgrenzung von "Gut" und "viel" ist hier die komplizierte Angelegenheit. Gegenstände gleicher Wertigkeit aber unterschiedlichen Gewichts rufen je nach Umgebung andere Herangehensweisen hervor. Kann der Transport mit dem leichten Gegenstand nicht ausgelastet werden und sind keine anderen Güter zu transportieren, dann ist der schwerere Gegenstand vorzuziehen.</li>
+<li>Gruppierte Bedarfe (Pakete) sollen möglichst zur gleichen Zeit (oder zeitnah) am Ziel eintreffen.</li>
+<li>Es ist besser etwas in ein Umschlagzentrum zu bringen als es liegen zu lassen, aber nur wenn das Umschlagzentrum nicht weiter entfernt ist und in einer Woche erreicht werden kann.</li>
+<li>Priorität kann man auch zweidimensional als Dringlichkeit und Wichtigkeit auffassen. Es bedarf aber einer Vergleichsmöglichkeit zweier solcher zweidimensionaler Punkte.</li>
+<li>Es ist besser einen Transport leer in eine Region mit dringend benötigten Angeboten fahren zu lassen, als in eine Umschlagsregion. Letzteres ist aber immer noch besser als nur zu lernen oder nichts zu tun.</li>
+<li>Gibt es in einer nahen Quelle keinen Transport, in einer ferneren Quelle schon, und führt die Route über die nahe Quelle, so soll der Transport genau dann unterbleiben, wenn die ferne Quelle nach Beladung dann weniger von der Ware hätte als die Nahe Quelle nach Beladung.</li>
+<li>Beipiel:<ul>
+<li>A hat 100 Steine Bedarf.</li>
+<li>In B, eine Runde von A entfernt, liegen 1000 Steine. Es gibt keinen verfügbaren Transport in B.</li>
+<li>In C, zwei Runden von A und eine von B entfernt, liegen 500 Steine. Transport verfügbar.</li>
+<li>-&gt; Transport sollte ggf. leer von C nach B fahren.</li>
+<li>Liegen in C 2000 Steine, werden die Steine mitgenommen.</li>
+<li>Liegen in C 1050 Steine, so werden 75 Steine mitgenommen. Beide Quellen haben nach aufladen auf den Transport dann noch 975 Steine.</li>
+</ul>
+</li>
+</ul>
+<h3 id="bewertungsbasis-warenwert">Bewertungsbasis Warenwert</h3>
+<p>Grundlage ist hier ein Basis-Warenwert, der für jeden Gegenstand vom Nutzer vorgegeben wird. Ebenso denkbar sind Berechnungen die Global Angebot und Nachfrage berücksichtigen.</p>
+<p>Der Warenwert enthält also ein die globale Wichtigkeit des Gegenstandes.</p>
+<p>Der Basis-Warenwert kann z.b. in Silber ausgedrückt werden. Eine Handelsware könnte z.b. als Wert den Mittelwert von Einkaufspreis und Verkaufspreis verwenden. Schwerer wird es knappe Rohstoffe in Silber zu bewerten. Eine Überbewertung würde sonst möglicherweise dazu führen, dass Silber für Unterhalt nicht geliefert wird, weil irgendwo ein Laenschwert fehlt und der Transport deshalb eine andere Route einschlägt.</p>
+<h4 id="modifizierung-durch-dringlichkeit">Modifizierung durch Dringlichkeit</h4>
+<p>Es ist daher klar, dass der Basiswert noch modifiziert werden muss. Dabei sollte die Dringlichkeit sich so stark auswirken können, dass selbst Gegenstände mit niedrigem Basiswert interessant genug werden. Eine exponentielle Funktion o.ä. auf die Dringlichkeit ist somit sinnvoll.</p>
+<pre><code>f(runden bis nötig)=?
+f(0)=10000%*Basiswert
+f(1)=1000%*Basiswert
+f(2)=200%*Basiswert
+f(3)=50%*Basiswert
+f(4)=15%*Basiswert
+f(5)=8%*Basiswert
+f(irgendwann)=5%*Basiswert
+</code></pre>
+<p>Dies wären Werte die mir im Moment vorschweben und die entweder in einer Lookup Tabelle abgelegt werden, oder durch eine Funktion modelliert werden. Die Ausdehnung dieser Formel hängt im wesentlichen von der Bandbreite der verwendeten Basiswerte ab. Ein Flammenschwert, dass irgendwann benötig wird, mag einen Basiswert von 10000 haben, die 10 Silber die in einer anderen Region aber für Unterhalt dringend gebraucht werden, müssen dennoch zu einem Höheren Gesamtwert führen. Mit obiger Formel wäre das Flammenschwert 500 und die 10 Silber 100 wert - zu wenig also um geliefert zu werden. Daher sollten die Parameter der Dringlichkeitsfunktion anhand der min und max werte der Basiswerte berechnet werden.</p>
+<p>Ebenso kann natürlich die Wichtigkeit eines Gegenstandes lokal verschieden sein, da die Umgebungsbedingungen andere sind.</p>
+<h4 id="modifizierung-durch-entfernung">Modifizierung durch Entfernung</h4>
+<p>Oft wird es vorkommen, dass eine Ware nicht vom Anbieter direkt zur Nachfrage geschafft werden kann, da beide Regionen zu weit auseinander sind. Damit jedoch eine Belieferung von einer möglichst nahegelegenen Quelle erfolgt, bietet es sich an die Teilausführung einer Nachfrage auf den unterschiedlichen Teilstücken auch unterschiedlich stark zu bewerten.</p>
+<h4 id="bewertung-von-leerfahrten">Bewertung von Leerfahrten</h4>
+<p>Leerfahrten sind unter Umständen nötig, um nicht in Regionen hängen zu bleiben die lediglich als Senken funktionieren.</p>
+<p>Für Leerfahrten kann es 2 verschieden motivierte Ziele geben:</p>
+<ol>
+<li>Ansteuern von Regionen mit dringend benötigten Gütern.</li>
+<li>Ansteuern von Umschlagsregionen - hier ist immer viel zu transportieren.</li>
+</ol>
+<p>Es kann ggf. sogar sinnvoll sein, dass eine leerfahrt</p>
+<!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Transport&oldid=2585] -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

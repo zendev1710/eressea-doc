@@ -1,0 +1,649 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="zendev1710">
+      
+      
+        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/fr/commands-send/">
+      
+      
+      
+      
+        
+          <link rel="alternate" href="../../commands-send/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="fr">
+        
+          <link rel="alternate" href="../../de/commands-send/" hreflang="de">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Befehle einschicken - Eressea</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#befehle-einschicken" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eressea
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Befehle einschicken
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../commands-send/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/commands-send/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Eressea
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sommaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sommaire
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-man-braucht-um-eressea-zu-spielen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was man braucht, um Eressea zu spielen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Was man braucht, um Eressea zu spielen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beispiele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiele
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wie-man-befehle-einschickt-und-was-man-dafur-bekommt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wie man Befehle einschickt, und was man dafür bekommt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nachfordern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nachfordern
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nachfordern">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#den-report-nachfordern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Den Report nachfordern
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-man-bei-der-eingabe-beachten-muss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was man bei der Eingabe beachten muss
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#siehe-auch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Siehe auch
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="befehle-einschicken">Befehle einschicken</h1>
+<h2 id="sommaire">Sommaire</h2>
+<ul>
+<li><a href="#befehle-einschicken">Befehle einschicken</a></li>
+<li><a href="#sommaire">Sommaire</a></li>
+<li><a href="#was-man-braucht-um-eressea-zu-spielen">Was man braucht, um Eressea zu spielen</a><ul>
+<li><a href="#beispiele">Beispiele</a></li>
+</ul>
+</li>
+<li><a href="#wie-man-befehle-einschickt-und-was-man-dafür-bekommt">Wie man Befehle einschickt, und was man dafür bekommt</a></li>
+<li><a href="#nachfordern">Nachfordern</a><ul>
+<li><a href="#den-report-nachfordern">Den Report nachfordern</a></li>
+</ul>
+</li>
+<li><a href="#was-man-bei-der-eingabe-beachten-muss">Was man bei der Eingabe beachten muss</a></li>
+<li><a href="#siehe-auch">Siehe auch</a></li>
+</ul>
+<h2 id="was-man-braucht-um-eressea-zu-spielen">Was man braucht, um Eressea zu spielen</h2>
+<p>Neben einem eigenen Email-Zugang braucht man nur wenig, um Eressea spielen zu können.</p>
+<p>Um die <a href="../commands/" title="Befehl">Befehle</a> zu bearbeiten, reicht ein einfacher Texteditor. Unter UNIX/Linux z.B. VI oder EMACS, unter Windows tut's auch das Notepad. Wichtig ist: der Editor sollte nur dort einen Zeilenumbruch machen, wo man auch wirklich einen eingibt. Überlange Zeilen dürfen auf keinen Fall selbständig umgebrochen werden, sonst kann es passieren, dass Befehle nicht richtig ausgeführt werden.</p>
+<ul>
+<li><a href="http://notepad-plus.sourceforge.net/">Notepad++</a> ist ein guter Editor für Windows.</li>
+</ul>
+<h3 id="beispiele">Beispiele</h3>
+<p>Die meisten Neuspieler benutzen das Tool <a href="http://magellan-client.sf.net">Magellan</a>. Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben leichter machen. Hier eine Auflistung der bekanntesten.</p>
+<ul>
+<li><a href="../csmapfx/" title="CSMapFX">CSMapFX</a></li>
+<li><a href="../echeck/" title="ECheck">ECheck</a></li>
+<li><a href="../ehmv/" title="EHMV">EHMV</a></li>
+<li><a href="../magellan/" title="Magellan">Magellan</a></li>
+<li><a href="../commands-extended/" title="ExtendedCommands">ExtendedCommands</a></li>
+<li><a href="../fftools2/" title="FFTools2">FFTools2</a></li>
+<li><a href="../vorlage/" title="Vorlage">Vorlage</a></li>
+</ul>
+<h2 id="wie-man-befehle-einschickt-und-was-man-dafur-bekommt">Wie man Befehle einschickt, und was man dafür bekommt</h2>
+<p>Man kann in jeder Runde seine Befehle bis zu 20 mal einschicken. Das Einsenden von provisorischen Befehlen ist also möglich und wird empfohlen. Du solltest darauf achten, dass auf Deinem Computer die richtige Zeit eingestellt ist. Der Server nimmt die Sendezeit als Grundlage, um alte Befehle zu überschreiben, nicht die Zeit des Empfanges.</p>
+<p>Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text der Mail stehen (Mail-Body). Alternativ können sie in einer .txt Datei im Anhang versendet werden, dann muss die Mail jedoch ansonsten leer sein (kein Text im Mail-Body). Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse <a href="./#was-man-bei-der-eingabe-beachten-muss" title="Hilfsmittel">Hilfsmittel</a>, die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern. Vorsicht bei der Benutzung von Weboberflächen wie bei GMX oder GMail! Diese haben sich in der Vergangenheit immer mal wieder als problematisch erwiesen, da Mails falsch formatiert wurden. Benutzer von <a href="../magellan/" title="Magellan">Magellan</a> können die <a href="../commands-send-from-magellan/" title="Befehle von Magellan verschicken">Befehle am bequemsten direkt aus dem Programm verschicken</a>, ohne den Umweg über Mailprogramme oder Webmailer.</p>
+<p>Die Befehle müssen immer an die Adresse <a href="mailto:eressea-server@kn-bremen.de">eressea-server@kn-bremen.de</a> mit dem Betreff <strong>ERESSEA 2 BEFEHLE</strong> geschickt werden. Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert. Richtig angekommene Züge werden automatisch mit dem Syntax-Checker ECheck geprüft und das Ergebnis der Prüfung wird dem Spieler zugeschickt. Ein Beispiel:</p>
+<pre><code> ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
+
+ Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
+ Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
+ Silberpool aktiviert.
+
+ Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
+ Die Befehle scheinen in Ordnung zu sein.
+</code></pre>
+<p>In der Regel erfolgt diese Bestätigung innerhalb weniger Minuten. Da der Server aus technischen Gründen derzeit leider nur eine Befehlsbestätigung alle 2 Minuten versenden kann, kann es jedoch, gerade kurz vor der Auswertung, zu längeren Wartezeiten kommen. Häufiges Einsenden identischer Befehle, um schneller eine Bestätigung zu erhalten, hilft also niemandem, sondern verschlimmert das Problem nur. Sofern die Befehle korrekt an den Server gesendet wurden, werden sie jedoch in der Regel verarbeitet, auch wenn keine Befehlsbestätigung bis zur Auswertung eingegangen ist. Aus technischen Gründen werden samstags zwischen 20:45 und Mitternacht keine Bestätigungen verschickt, <strong>es empfiehlt sich also, Befehle so früh wie möglich vor dem ZAT um 21:00 Uhr zu senden.</strong> Verzögert sich die Auswertung aufgrund technischer Probleme oder Fehlern im Spiel, entfällt die Auswertung in der Folgewoche, wenn die Auswertung nicht spätestens bis Sonntagmorgen 11:00 Uhr abgesendet wurde.</p>
+<p>Treffen über fünf Runden hinweg keine Befehle beim Spielleiter ein (sog. "NMR", No Moves Received), löst sich die Partei automatisch auf!</p>
+<p>ECheck auf dem Server macht nur grundlegende Syntax-Tests. Man kann sich ECheck auch für zu Hause runterladen und dessen Optionen für etwas weitergehende Test nutzen. Auch Magellan hat weitgehende Tests eingebaut, die ECheck im Grunde überflüssig machen.</p>
+<h2 id="nachfordern">Nachfordern</h2>
+<h3 id="den-report-nachfordern">Den Report nachfordern</h3>
+<p>Manchmal kann es vorkommen, dass durch technische Ausfälle irgendwo die E-Mail mit dem Report verloren geht. Hat man Montag Abend noch immer keinen Report erhalten und es gab auch keine Ankündigung in der Liste Eressea-Announce, so kann man die aktuelle Auswertung nochmals anfordern.</p>
+<p>Dazu schickt man eine eMail mit folgendem Betreff an <a href="mailto:eressea-server@kn-bremen.de">eressea-server@kn-bremen.de</a>, da nur dort die Daten vorliegen:</p>
+<pre><code> ERESSEA 2 REPORT parteinummer "passwort"
+</code></pre>
+<p>Hiermit werden alle Dateien, die auch nach der regulären Auswertung verschickt wurden, nochmals an die anfordernde Adresse (die verschieden sein kann von der Adresse, an die der Report normalerweise geschickt wird) gesandt, also evtl. auch der Computer-Report usw.</p>
+<p><strong>Achtung:</strong> Parteien mit Sonderzeichen im Passwort können keinen Report nachfordern!</p>
+<p>Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht zur Hand habt. Derartige Anforderungen verursachen unnötigen Traffic.</p>
+<p>Mails an Eressea</p>
+<table>
+<thead>
+<tr>
+<th>Betreff</th>
+<th>Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ERESSEA 2 BEFEHLE</td>
+<td>Enthält Befehle für Eressea im Text</td>
+</tr>
+<tr>
+<td>ERESSEA 2 REPORT nr "passwort"</td>
+<td>Fordert den Report für die Partei an</td>
+</tr>
+</tbody>
+</table>
+<h2 id="was-man-bei-der-eingabe-beachten-muss">Was man bei der Eingabe beachten muss</h2>
+<p>Jeder Zug muss mit der Zeile <a href="../cmd-eressea/" title="ERESSEA">ERESSEA xxx "passwort"</a> beginnen. xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei. Jeder Zug muss mit dem Schlüsselwort <a href="../cmd-next/" title="NÄCHSTER">NÄCHSTER</a> beendet werden.</p>
+<p>Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Partei als Ganzes betreffen; irgendjemand muss sie halt ausführen.</p>
+<p>In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:</p>
+<pre><code>   ERESSEA 2 "GrofxMoftzg"
+
+   ; ECHECK -z -w4 -r100
+
+   REGION 4,2;     Handan
+   ; ECHECK LOHN 12
+
+   UNIT 5;            Horde der Trolle [5,100$]
+     Lerne Bergbau
+   UNIT 36;           Tänzer des Todes [10,630$]
+     Unterhalte
+
+   REGION 4,3;     Carcavelos
+   ; ECHECK LOHN 11
+
+   UNIT 35;           Untote Sklaven [10,110$]
+     Arbeite
+
+   REGION 5,3;     Grandola
+   ; ECHECK LOHN 11
+
+   UNIT 32;           Reiter der Verdammnis [5,30$]
+     Lerne Unterhaltung
+
+   NÄCHSTER
+</code></pre>
+<p>Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [<code>UNIT</code>] ausgewertet, ebenso werden dann Einnahmen mit [<code>WORK</code>] (idR. je 11 Silber pro Person) und <a href="../cmd-tax/" title="TREIBEN">TAX STEUERN EIN</a> und [<code>ENTERTAIN</code>] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. <a href="../cmd-learn/" title="LEARN">LEARN MAGIE</a> und Einheiten, die mit [<code>MOVE</code>] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.</p>
+<p>Die Zeile ; ECHECK LOHN 12 ist ebenfalls für ECheck und legt den Lohn für Arbeit in dieser Region auf 12 Silber fest.</p>
+<p>Man kann erkennen, dass Personen aus Einheit 32 hungern werden: 30 Silber reichen nicht für fünf Personen. Mit dem oben benutzten ECheck-Parameter -z -w4 wird ECheck dies aber bemerken und eine Warnung ausgeben. Die Einheit sollte also entweder Geld verdienen (z.B. mit [<code>ENTERTAIN</code>], sofern sie das Talent Unterhaltung schon beherrscht, sonst ggf. mit [<code>WORK</code>]) oder eine andere Einheit mit genug Silber sollte in die Region 5,3 ziehen.</p>
+<p>Alle <a href="../commands/" title="Befehl">Befehle</a> können abgekürzt werden. Der Computer nimmt einfach das erste Wort, welches dem eingegebenen Befehl entspricht.</p>
+<ul>
+<li>NA S kann für den Computer entweder MOVE SÜDOSTEN, MOVE SÜDWESTEN oder NÄCHSTER S bedeuten, wobei der Computer im letzten Fall alle weiteren Befehle ignoriert!</li>
+<li>TE 5 bedeutet für den Computer TEMP 5, TE5 hingegen ist für den Computer ein unbekanntes Wort.</li>
+</ul>
+<p>Im Zweifelsfall sollte man also keine Abkürzungen nehmen. Pro Zeile darf nur ein Befehl stehen. Wenn man ein Mailprogramm hat, das lange Textzeilen automatisch umbricht, kann man Befehle über mehrere kurze Zeilen hinweg verteilen; sie müssen dann aber "verlängert" werden, indem man hinter Zeilen einen \ (Schrägstrich rückwärts, Backslash) setzt, wenn die folgende Zeile dazugehört:</p>
+<pre><code>  Beschreibe Einheit "Die alte Krieger hat sich schon lange \
+      zur Ruhe gesetzt. Sein narbenzerfurchtes Gesicht \
+      zeugt von einer langen Dienstzeit an der Front."
+
+  Route Nordwest West West Nordwest Pause \
+      Nordwest Nordost Nordwest Nordost Pause \
+      Südwest Südost Südwest Südost Pause \
+      Südost Ost Ost Südost Südost Pause
+</code></pre>
+<p>Alle Befehle sind unabhängig von Groß- und Kleinschreibung. Die einzige Ausnahme hierzu ist das Passwort, dieses muss <strong>genau</strong> so eingegeben werden, wie es gesetzt wurde.</p>
+<p>Werden für die Befehle Zeichenketten (z.B. für den Namen) verlangt, muss man sie in Anführungsstrichen einschließen, falls sie Leerzeichen enthalten. Falls nötig, können diese Zeichenketten sich über mehrere Zeilen erstrecken, sofern diese wie oben beschrieben verlängert wird. Zwischen den Anführungsstrichen werden mehrfache Leerzeichen, Zeilenumbrüche und Tabulatoren immer auf jeweils ein Leerzeichen komprimiert.</p>
+<p>Aller Text, der hinter einem Semikolon ('<a href="../cmd-semicolon/" title=";">;</a>') steht, wird als <a href="../cmd-semicolon/" title=";">Kommentar</a> angesehen. Kommentare können einem das Verstehen der gemachten Züge beim nächsten Mal sehr erleichtern. Schreibt man Kommentare mit dem <a href="../cmd-comment/" title="KOMMENTAR">Kommentar-Befehl //</a>, so wird der Kommentar automatisch in die <a href="../commands/" title="Befehl">Zugvorlage</a> der nächsten Runde übernommen.</p>
+<p>Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für einige Einheiten einschicken und somit sich selbst und dem Server Übertragungsvolumen ersparen. Die Befehle der anderen Einheiten bleiben dann unverändert. Als Reihenfolge wird das Datum der Mail (Date:-Header) benutzt.</p>
+<h2 id="siehe-auch">Siehe auch</h2>
+<ul>
+<li><a href="../world/" title="Welt">Die Welt</a></li>
+<li><a href="../round-first/" title="Der erste Zug">Der erste Zug</a></li>
+<li><a href="../commands/" title="Befehl">Befehle</a></li>
+</ul>
+<p>|--------------|------------|
+| En savoir plus : | <a href="../hints/" title="Hinweise">Hinweise</a> |</p>
+<!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

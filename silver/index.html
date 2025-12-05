@@ -1,0 +1,789 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="zendev1710">
+      
+      
+        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/silver/">
+      
+      
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+          <link rel="alternate" href="../fr/silver/" hreflang="fr">
+        
+          <link rel="alternate" href="../de/silver/" hreflang="de">
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Money - Eressea</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#money" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eressea
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Money
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../fr/silver/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/silver/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Eressea
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#expenses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expenses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Expenses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recruiting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recruiting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upkeep-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upkeep costs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starvation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starvation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Starvation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#starvation-for-player-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starvation for player units
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starvation-for-peasants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Starvation for peasants
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#income" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Income
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Income">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collecting-taxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Collecting taxes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entertainment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entertainment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples-of-potential-income" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples of potential income
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stealing-the-dishonest-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stealing: the dishonest way
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competition-between-different-factions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competition between different factions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="money">Money</h1>
+<p>Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: <a href="../cmd-work/" title="WORK">working</a>, <a href="../cmd-entertain/" title="ENTERTAIN">entertaining</a> the peasants, <a href="../cmd-tax/" title="TAX">collecting taxes</a>, or <a href="./#trade" title="Silver">trading</a>.</p>
+<p>Working is more of a type of stopgap, units working will earn barely enough to feed themselves. You can make quite a lot of money with entertainment and taxation. Especially at the beginning of your ventures, trading might be the biggest source of income, profits of some thousands of silver are possible, provided the regions have the appropriate luxury goods.</p>
+<p>Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/GE). There is no rounding: even one piece of silver above your carrying limit can overload.</p>
+<p>Because persons (of most <a href="../races/" title="Rassen">races</a>) can carry 5.4 UW/GE, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/GE capacity), for example, can carry one person (10 GE for most <a href="../races/" title="Rassen">races</a>) with 4000 Silver; even 4001 silver would be too much.</p>
+<h2 id="expenses">Expenses</h2>
+<h3 id="recruiting">Recruiting</h3>
+<p>If you want to <a href="../cmd-recruit/" title="RECRUIT">recruit</a> people, all you need is enough small change, because those willing to be recruited are often particularly thirsty. Depending on the race, you have to spend between 40 and 150 silver as recruitment costs for each person you recruit. The amount of the recruitment costs depends on the race and can be found in the <a href="../races/" title="Rassen">racial modifiers table</a>.</p>
+<p>Recruitment is prevented by guarding.</p>
+<h3 id="upkeep-costs">Upkeep costs</h3>
+<p>Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive. Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set <a href="../cmd-help/" title="HELP">HELP SILVER</a> to your own faction will also help (see <a href="../alliances/" title="Allianz">alliances</a>). Units that move must be supplied where they arrive. Silver, which was previously <a href="../cmd-reserve/" title="RESERVE">reserved</a>, is also used for unit maintenance. Without enough silver, people will starve (see below).</p>
+<p>Some buildings also require a weekly maintenance cost in order to function. These maintenance costs are incurred at the start of the round, i.e. they must be collected in the preliminary round and are due as soon as the building has been started (i.e. even for half-finished buildings). If there is not enough silver available, the function of the building cannot be used. More details can be found in the chapter on <a href="../buildings/" title="Gebäude">buildings</a>.</p>
+<h2 id="starvation">Starvation</h2>
+<h3 id="starvation-for-player-units">Starvation for player units</h3>
+<p>Starving units take damage, i.e., they lose hit points. The hungry Halflings proportionally more than others. The health status of the unit can be seen in the report. Here, the unit is displayed as exhausted, wounded or badly wounded. However, a fully rested unit will not die of starvation in the first week.</p>
+<p>A starving unit cannot give people to other units. In addition, the skill levels of starving units are reduced by half, they do not regenerate health points and they learn much more slowly than normal. Starving or wounded units can, however, still execute orders.</p>
+<p>Over time, wounded units recover. Units normally regenerate 5% (some races more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.</p>
+<p>The sailing skill is only reduced by one level when units are starving. Nevertheless, starvation at sea is a critical situation. On the one hand, nobody can work there except <a href="../races/#aquarians" title="Aquarians">aquarians</a>, so you are dependent on silver from outside. Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take <a href="../ships/" title="Schiff">damage</a> and drift away.</p>
+<p>Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning. Units lose hit points and will be much weaker in any subsequent battle. If units survive such a battle anyway, there is still a risk that they will continue to starve because they were unable to work due to the battle (see <a href="../war/#the-end" title="End of the battle">combat end</a>).</p>
+<p>If units master the <a href="../war-tables/" title="Warstabellen">endurance skill</a> at a high level, they may experience the strange effect that a unit is "very strong" according to the report (i.e. it has more hit points than it should normally have) after starving.</p>
+<h3 id="starvation-for-peasants">Starvation for peasants</h3>
+<p>Peasants also need sustenance, which they normally earn themselves and take from the regional supply. If the regional supply is exhausted, the peasants starve and die. This can have various causes:</p>
+<ul>
+<li>The region is overpopulated. In a plain without trees, where each peasant earns 12 silver, only 12000 peasants can survive in the long term, because only 10000 peasants work, earning 120000 silver, which is only enough for 12000 peasants. In the short term, the number of peasants can be higher as long as there is still enough silver in the region's supply.</li>
+<li>The region is not overpopulated, but <a href="../cmd-work/" title="WORK">working</a> player units occupy some of the jobs.</li>
+<li>The peasants earn enough silver, but player units collect <a href="../cmd-tax/" title="TAX">taxes</a> before the peasants can provide for themselves.</li>
+<li>There are also rumors of special events that can temporarily or permanently reduce the fertility of a region, which means that the peasants can no longer earn their own living.</li>
+</ul>
+<p>Starved peasants can later be resurrected as <a href="../monsters/#untote" title="Untote">undead</a>.</p>
+<h2 id="income">Income</h2>
+<h3 id="work">Work</h3>
+<p>Units can earn money by working in agriculture (see [<code>WORK</code>]). However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs. The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [WORK][<code>WORK</code>] order page).</p>
+<p>A peasant normally earns 11 silver per turn. This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the <a href="../castles/#overview" title="Burg">castles table</a>). If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.</p>
+<p>However, working units of players earn less - after all, they are only auxiliaries. How much they can earn (usually 1 silver less than peasants) is specified in the report and can also be found in the table in the [WORK order page][<code>WORK</code>].</p>
+<p>Work is prevented by guarding only for units working on ships.</p>
+<h3 id="collecting-taxes">Collecting taxes</h3>
+<p>Armed and trained henchmen can use the order <a href="../cmd-tax/" title="TAX"><code>TAX</code></a> to squeeze 20 silver in taxes per person and skill taxation level out of the peasants. To do this, you will of course need the taxation skill, as well as one weapon per person (catapults don't count) and at least one level of the corresponding weapon skill.</p>
+<p>If the peasants live close to the maximum population, almost all the silver reserves will be used up by themselves, so they will have no more silver "left" for taxes. Taxes can then still be collected (up to the amount in the regional reserve), but the peasants who are not supplied at the end of the round will starve to death (which will not increase their earnings either ...). This is why it makes sense to build a castle, as this increases wages: with 12 silver instead of 11 silver, 2000 peasants earn 2000 silver more per turn!</p>
+<p>Collecting taxes is prevented by guarding.</p>
+<h3 id="entertainment">Entertainment</h3>
+<p>The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak). Of this silver, 5% can be earned through entertainment. This amount is also stated in the region's statistics. Each person can earn up to 20 silver per round and talent level in entertainment with the <a href="../cmd-entertain/" title="ENTERTAIN"><code>ENTERTAIN</code></a> order if the peasants have enough money available.</p>
+<h3 id="examples-of-potential-income">Examples of potential income</h3>
+<p>Income and upkeep</p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Trees</th>
+<th>Peasants</th>
+<th>Max. workers</th>
+<th>Wage</th>
+<th>Income</th>
+<th>Upkeep</th>
+<th>Surplus</th>
+<th>Entertain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plain</td>
+<td>200</td>
+<td>3742</td>
+<td>8400</td>
+<td>11</td>
+<td>41162</td>
+<td>37420</td>
+<td>3742</td>
+<td>187</td>
+</tr>
+<tr>
+<td>Plain</td>
+<td>200</td>
+<td>3742</td>
+<td>8400</td>
+<td>14</td>
+<td>52388</td>
+<td>37420</td>
+<td>14968</td>
+<td>748</td>
+</tr>
+<tr>
+<td>Forest</td>
+<td>818</td>
+<td>3742</td>
+<td>3456</td>
+<td>11</td>
+<td>38016</td>
+<td>37420</td>
+<td>596</td>
+<td>29</td>
+</tr>
+<tr>
+<td>Forest</td>
+<td>818</td>
+<td>3742</td>
+<td>3456</td>
+<td>12</td>
+<td>41472</td>
+<td>37420</td>
+<td>4052</td>
+<td>202</td>
+</tr>
+</tbody>
+</table>
+<p>For each tree, the maximum number of peasants that may work is decreased by 8, for each sapling the number is decreased by 4.</p>
+<p>In the last example of the table, the total income is decreased because not all the peasants can work. This is because too many trees are preventing them from growing food.</p>
+<p>The values in the table do not account for the peasants' savings (region silver reserve). They will live on this reserve when overpopulation strikes. The silver available for entertainment is also affected by the amount in the silver reserve. As a rule, more silver can therefore be earned through entertainment, as the 5% refers to this reserve.</p>
+<p>Entertainment is prevented by guarding only for entertaining units on ships.</p>
+<h3 id="stealing-the-dishonest-way">Stealing: the dishonest way</h3>
+<p>In addition to the honest ways of earning money, there is also the dishonest variant: theft. Units that with stealth can attempt to steal silver from other units using the [<code>STEAL</code>] order.</p>
+<p>If the <a href="../camouflage/" title="Tarnung">stealth skill</a> of the stealing unit is higher than the <a href="../camouflage/" title="Wahrnehmung">perception</a> of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.</p>
+<p>It is also worth reading the chapter on <a href="../camouflage/" title="Tarnung">stealth</a> about this topic.</p>
+<h2 id="trade">Trade</h2>
+<p>In every region, the peasantry produce one special luxury item. Your units may purchase this product. In all regions that do not produce this special luxury product, there is a continuously rising demand. If you are not afraid of the risks involved in long distance travels, trading is a very lucrative method of earning silver.</p>
+<p>In order to trade, a unit needs the trade skill. For every level of trade skill, a person can <a href="../cmd-buy/" title="BUY">BUY</a> up to 10 luxury items or sell 10 luxury items. The respective numbers of traded goods can be selected completely freely. For example, a unit consisting of a person with skill level 4 in trading can buy 20 gems and sell 12 silk and 8 balm in one round.</p>
+<p>Furthermore, some form of castle is required for the trade to take place. At least the size level of a tradepost is required. It does not matter who controls the castle, the owner cannot directly prevent the trading from taking place. However, they can indirectly prevent trading by simply attacking the trading units with their own armed units.</p>
+<p>The unit that owns the largest castle in the region receives a percentage of the proceeds of all sales by the other factions. This revenue share is deducted from the trader's income. If two castles in the region are the same size, no one receives this share. The amount of the "tax rate" can be found in the table in the <a href="../castles/" title="Burgen">castles</a> chapter.</p>
+<p>Trade is prevented by guarding only for trading units on ships.</p>
+<p>Every type of trade good has a certain base price (see table below). The number of luxury goods that can be bought without raising this price is 1% of the number of peasants in the region. Every time this amount is bought (the total bought by all factions), the price is increased by the base price. A region with 2,000 peasants means that 20 luxury items can be bought without raising the price. The price drops to normal the next turn.</p>
+<p>Base prices of luxury goods:</p>
+<table>
+<thead>
+<tr>
+<th>Luxury good</th>
+<th>Base price</th>
+<th>Weight UW/GE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Balm</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Oil</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Spice</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Silk</td>
+<td>6</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Gem</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Incense</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Myrrh</td>
+<td>5</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a <a href="../buildings-others/#harbour" title="Andere Gebäude">harbour</a>, this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.</p>
+<p>The prices and maximums shown are valid for all factions in the region and not per faction, but per luxury product. Without trade agreements between players, the selling prices of luxury goods can be "messed up" faster than you would like ...</p>
+<p>All purchases and sales of luxury goods are distributed equally among the factions. The price increase or decrease therefore affects everyone who buys or sells in the turn equally.</p>
+<p>Examples:</p>
+<ul>
+<li>
+<p>Let's assume a region with 8,000 peasants that offers incense for 4 silver, and buys spice for 15 silver. 1% of the peasants is 80. If all the traders in the region sell 200 spices, the first 80 units are sold for 15 silver a piece, the next 80 units are sold for 10 silver a piece (down one base price for spice), and the last 40 spice are sold for only 5 silver a piece. The next week, spices will be sold for only 5 silver. Unless the price has already risen to 10 again (10% probability, 20% with a harbour).</p>
+</li>
+<li>
+<p>If 100 incense is bought in the same region, the first 80 are bought at 4 silver a piece, and the next 20 are bought at 8 silver a piece (an increase of one basic price). In the coming week the price for incense will be 4 silver again and you can buy the first 80 incense for this price. If the 100 incense was purchased by units from two different factions, both pay approximately 4.8 silver per luxury good (disregarding rounding effects).</p>
+</li>
+</ul>
+<p>The silver spent by peasants to buy the luxury goods benefits the selling traders. Nevertheless, the region does not lose any silver, because the peasants own luxury goods with which they can pay the taxes. The money is not created out of nothing - it is the value of goods produced in another region. The silver spent by BUY, on the other hand, goes into the region's supply. Clever rulers can take it back from them through entertainment and taxes.</p>
+<p>It's worth equipping a ship and setting sail. Although it is possible to trade with the two products usually produced on an island, the profits remain relatively low. On the other hand, if you return from a foreign island with a cargo of rare goods, you can make astronomical profits, whatever the distance between the islands. Remember that a tradepost is a prerequisite for any trade, so if you equip an expedition to a new world, make sure to account for that.</p>
+<h2 id="competition-between-different-factions">Competition between different factions</h2>
+<p>If several factions work, maintain, collect taxes or trade in a region, the possible income is divided as evenly as possible between the units. It is best to consult with your neighbours, provided that they are friendly.</p>
+<p>If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit. Work, entertainment and trade are possible, however, unless your own unit is on a ship.</p>
+<p>If all guarding factions have set <a href="../cmd-help/" title="HELP"><code>HELP GUARD</code></a> or <a href="../cmd-help/" title="HELP"><code>HELP ALL</code></a> to our faction or [<code>CONTACT</code>] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command <code>MAKE TEMP</code>.</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../cmd-give/" title="GIVE">GIVE</a></li>
+<li><a href="../cmd-reserve/" title="RESERVE">RESERVE</a></li>
+<li><a href="./#recruiting" title="RECRUIT">RECRUIT</a></li>
+<li><a href="../items-pool/" title="Materialpool">Item pool</a></li>
+<li><a href="../camouflage/" title="Tarnung">Stealth</a></li>
+<li><a href="../cmd-guard/" title="GUARD">GUARD</a></li>
+</ul>
+<p>|-------------------|-----------------|
+| Continue reading: | <a href="../items-pool/" title="Materialpool">Material pool</a> |</p>
+<!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

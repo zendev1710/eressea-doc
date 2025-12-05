@@ -38,7 +38,7 @@ Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué
 [Sur la guerre]: ./war.md "Guerre"
 [`d’ATTAQUE`]: ./cmd-attack.md "ATTAQUE"
 [ Fuite]: ./camouflage.md#die-flucht "L'évasion"
-[GARDER]: ./cmd-guard.mdN "GARDE"
+[GARDER]: ./cmd-guard.md "GARDE"
 [les commandes VERS]: ./cmd-move.md "APRÈS"
 [ITINÉRAIRE]: ./cmd-route.md "ITINÉRAIRE"
 [SUIVRE]: ./cmd-follow.md "CONSÉQUENCE"

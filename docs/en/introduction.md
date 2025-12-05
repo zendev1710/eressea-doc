@@ -6,7 +6,7 @@
 In Eressea, each player takes charge of a [faction] of people of a certain [race] that they can choose at [sign up]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea icons](../assets/images/icons.png "Fantasy symbols")
+![Eressea icons](../assets/images/fantasy-symbols.png "Fantasy symbols")
 
 Eressea is a fantastic world. Creatures such as [elves] and [dwarves] populate the world, and [magic] is a daily occurrence. Even [dragons] have been sighted, large, powerful and above all dangerous [monsters] that require hundreds of soldiers to fight, as well as sea serpents, ents and other strange creatures.
 
@@ -15,14 +15,14 @@ Eressea is a large world. Hundreds of peoples live on the islands of Eressea, an
 Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbours are also involved. Agreements have to be made, there may be quarrels, even [war]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea report](../assets/images/nr.jpg "An NR report")
+![Eressea report](../assets/images/nr-report.jpg "An NR report")
 
 There is no clear game objective in Eressea, no end that needs to be reached. Each player sets their own "milestones" that they want to achieve, be it building a trading empire, conquering an entire island, exploring as many regions as possible or whatever. Whatever it is, it will affect the world, which you can describe and whose fate you will help to determine.
 
 ## How the game works
 
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
-![Eressea orders](./assets/images/orders.jpeg "Eressea orders")
+![Eressea orders](./assets/images/orders-example.jpg "Eressea orders")
 
 In Eressea, you send in a *turn* at regular intervals. A turn consists of [orders] that your party's units execute in the world as well as possible. A turn is similar to a computer program so that the *server*, the computer program that knows the state of the world, can evaluate it and the turns of all other players and calculate the new state of the world. The turn cycle is one week, Due Date (ZAT in German for "move submission deadline") is Saturday evening 21:00 (CET). In response to your turn you will receive a *report* containing the state of the world as far as it is known to your party. A report consists of several parts: A *[NR]* (normal report), which presents the report in a form that is easy to read for humans. A *[CR]* (computer report), which presents the same information but in computer-readable form that [automatic tools] can work with. And a *[move template]*, which can serve as a template for your next move. There may also be [weekly abstract] (Wochenbericht), which contains a few statistics about the state of the game. And sometimes the [Xontormia Express], a newspaper that contains posts from players from the perspective of the game world.
 

@@ -74,7 +74,7 @@ Player experience: Solthar Willst du einer Einheit einer anderen Partei Personen
     END
     ```
 
-[Migranteneinheit]: ./races.md#menschen "Rassen"
+[Migranteneinheit]: ./races.md#humans "Menschen"
 
 Mit `GIVE`*`einheit-nr`*`UNIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 
@@ -105,7 +105,7 @@ Mit `GIVE`*`einheit-nr`*` `*`anzahl`*`SHIP` übergibt der Besitzer eines Schiffe
 [Materialpool]: ./items-pool.md "Materialpool"
 [Talente]: ./skills.md "Talente"
 [E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[Konvoi]: ./ships.md#konvoi "Schiff"
+[Konvoi]: ./ships.md#convoi "Convoi"
 [RESERVE]: ./cmd-reserve.md "RESERVE"
 [Schiff]: ./ships.md "Schiff"
 [Gebäude]: ./buildings.md "Gebäude"

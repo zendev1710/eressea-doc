@@ -43,9 +43,9 @@ Les goblins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent comp
 
 ## Halflings
 
-Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bâteaux] aux autres. Le maniement des armes n'est pas leur point fort.
+Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, see [`COMBAT FLEE`]).
+- Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`]).
 - Les halflings ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons].
 - Les halflings sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
@@ -132,15 +132,15 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 
 [Bonus et Malus]: ./skills-modifiers.md "Talentmodifikatoren"
-[famine]: ./silver.md#hunger "Hunger"
-[recrutés]: ./silver.md#ausgaben#rekrutieren "Ausgaben"
+[famine]: ./silver.md#famine "Famine"
+[recrutés]: ./silver.md#recruter "Recrutement"
 [`GIVE 0`]: ./cmd-give.md "GIVE"
 [camoufler]: ./cmd-hide.md "HIDE"
 [max. workers]: ./world.md "Welt"
 [mages]: ./magic.md "Magie"
 [elven bows]: ./war-tables.md#waffeneigenschaften "Guerrestabellen"
 [volent]: ./cmd-steal.md "STEAL"
-[bâteaux]: ./ships.md "Schiff"
+[bateaux]: ./ships.md "Bateaux"
 [fuir]: ./war.md#la-fuite "Guerre"
 [`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
 [dragons]: ./monsters.md#drachen "Drachen"
@@ -149,10 +149,10 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 [hier]: ./war-tables.md#rasseneigenschaften "Guerrestabellen"
 [tactics]: ./tactic.md "Tactique"
 [groupes]: ./cmd-group.md "GROUP"
-[commercer]: ./silver.md#handel "Argent"
+[commercer]: ./silver.md#commerce "Argent"
 [déplacent]: ./travel.md "Reisen"
 [ordres longs]: ./commands.md "Befehl"
-[nager]: ./travel.md#swimming "Schiffsreisen"
+[nager]: ./sailing.md#nager "Schiffsreisen"
 [`WORK`]: ./cmd-work.md "WORK"
 [compétences payantes]: ./skills.md "Talente"
 [Héros]: ./cmd-promote.md "PROMOTE"

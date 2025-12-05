@@ -165,7 +165,7 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 [ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
 [FFTools2]: ./fftools2.md "FFTools2"
 [Vorlage]: ./vorlage.md "Vorlage"
-[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Hilfsmittel]: #wie-man-befehle-einschickt-und-was-man-dafür-bekommt "Hilfsmittel"
 [Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md "Befehle von Magellan verschicken"
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 [ERESSEA xxx "passwort"]: ./cmd-eressea.md "ERESSEA"

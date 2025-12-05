@@ -317,8 +317,8 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 [combat rows]: #combat-rows
 [flee]: #fleeing
 [`GROUP`]: ./cmd-group.md "GROUP"
-[combat at sea]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
-[fleeing]: ./war.md#flee "Die Flucht"
+[combat at sea]: #combat-on-and-with-ships "Kampf auf Schiffen"
+[fleeing]: #fleeing "Fleeing"
 [unarmed]: #bonuses-and-mali "Boni and Mali"
 [1]: #bonuses-and-mali
 [Tactician]: ./tactic.md "Taktik"

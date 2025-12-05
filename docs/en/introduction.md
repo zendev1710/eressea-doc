@@ -37,7 +37,7 @@ If no move is received by the game master, this results in a so-called NMR (no m
 
 [faction]: ./factions.md "Partei"
 [race]: ./races.md "Rassen"
-[sign up]: ./hints.md#anmeldung "Anmelden wie?"
+[sign up]: ./hints.md#registration "Anmelden wie?"
 [elves]: ./races.md#elves "Elf"
 [dwarves]: ./races.md#dwarves "Zwerg"
 [magic]: ./magic.md "Magie"

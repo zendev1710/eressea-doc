@@ -146,7 +146,7 @@ Kurzliste der Befehle
 | [`GROW PFERDE`] | Pferde züchten - nur in Pferdezucht | L   |
 
 <!-- [//]: ./cmd-comment.md "KOMMENTAR"-->
-[K]: ./commands.md#kurzlang "Befehl"
+[K]: ./commands.md#kurze-und-lange-befehle "Befehl"
 [`WORK`]: ./cmd-work.md "WORK"
 [L]: ./commands.md#kurzlang "Befehl"
 [`ATTACK <unit id>`]: ./cmd-attack.md "ATTACK"
@@ -303,6 +303,6 @@ Kurzliste der Befehle
 
 [Befehl]: ./commands.md "Befehl"
 [<sup>(l)</sup>]: ./commands.md#kurzlang "Befehl"
-[Kampfende]: ./war.md#fin-de-la-bataille"Fin de la bataille"
+[Kampfende]: ./war.md#the-end "Fin de la bataille"
 [Befehle]: ./commands.md "Befehle"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

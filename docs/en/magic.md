@@ -315,8 +315,8 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
 [Fernzauber]: #fernzauber
 [Magieresistenz]: #magieresistenz
 [Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
-[Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
-[gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
+[Andere Gebäude#magierturm]: ./buildings-others.md#mage-tower "Andere Gebäude"
+[gesegneten Steinkreis]: ./buildings-others.md#stonecircle "Andere Gebäude"
 [Wahrscheinlichkeit für Patzer]: #patzer
 [URSPRUNG]: ./cmd-origin.md "URSPRUNG"
 [KONTAKTIERE]: ./cmd-contact.md "KONTAKTIERE"

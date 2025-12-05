@@ -378,5 +378,5 @@ Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt,
 [Enno Rehling]: ./contributors.md#enno "Enno (to be documented)"
 [Faroul]: ./contributors.md#faroul "Faroul (to be documented)"
 [ECheck]: ./echeck.md "ECheck"
-[Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
-[Xontormia-Express]: ./xontormia-express "Xontormia-Express"
+[Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
+[Xontormia-Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia-Express"

@@ -34,5 +34,5 @@ Mit `TARNE rasse` können [Dämonen] sich als andere Rasse tarnen.
 [Spionage]: ./skills-list.md "Liste der Talente"
 [HELFE xyz PARTEITARNUNG]: ./cmd-help.md "HELFE"
 [GRUPPE]: ./cmd-group.md "GRUPPE"
-[Dämonen]: ./races.md#dämonen "Dämonen"
+[Dämonen]: ./races.md#demons "Demonn"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"

@@ -294,7 +294,7 @@ The capacity refers only to the persons who can benefit from the building.
 [GROW]: ./cmd-grow.md "ZÜCHTE"
 [HELP GUARD]: ./cmd-help.md "HELFE"
 [DESTROY]: ./cmd-destroy.md "ZERSTÖRE"
-[castle rules table]: ./castles.md#übersicht "Burgen"
+[castle rules table]: ./castles.md#overview "Burgen"
 [powerful spell]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
 [Buildings]: ./buildings.md "Gebäude"
 [Castles]: ./castles.md "Burgen"

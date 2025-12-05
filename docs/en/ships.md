@@ -1,5 +1,6 @@
-# Bateaux
+# Ships
 
+<!-- TODO: translate from german to english -->
 Schiffe werden dem Befehl [**`MAKE`**`[`*`stufen`*`]`*`Schiffstyp`*][1] gebaut. Existierende, unfertige oder beschädigte Schiffe werden mit **`MAKE`**`[`*`stufen`*`] SHIP [`*`schiff-nr`*`]` weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen. Eine Einheit kann pro Runde (Talentstufe \* Personen / Mindesttalent) Holz verbauen.
 
 Auch Schiffe haben Nummern, die in Befehlen gebraucht werden. Hier ein Beispiel für ein Schiff:

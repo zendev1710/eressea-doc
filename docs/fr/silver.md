@@ -32,7 +32,7 @@ Une unité affamée ne peut pas donner de personnes à d'autres unités. De plus
 
 Au fil du temps, les unités blessées se rétablissent. Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certaines races davantage), avec un minimum d'un point par personne dans l'unité. Les unités de Morts-vivants ne se régénèrent pas
 
-La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées. Néanmoins, la famine en mer est une situation critique. D'une part, personne d'autre que les [aquarians] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers. D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le bateau, ce qui fait que le bateau subit des [dommages] et dérive.
+La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées. Néanmoins, la famine en mer est une situation critique. D'une part, personne d'autre que les [aquariens] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers. D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le bateau, ce qui fait que le bateau subit des [dommages] et dérive.
 
 La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification. Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat. Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille]).
 
@@ -175,7 +175,7 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 [ici]: ./alliances.md "Allianz"
 [réservé]: ./cmd-reserve.md "RESERVE"
 [Bâtiments]: ./buildings.md "Gebäude"
-[aquarians]: ./races.md#meermenschen "Meermensch"
+[aquariens]: ./races.md#aquariens "Aquariens"
 [dommages]: ./ships.md "Schiff"
 [Fin de bataille]: ./war.md#fin-de-la-bataille"Fin de la bataille"
 [compétence endurance]: ./war-tables.md "Guerrestabellen"

@@ -18,8 +18,8 @@ Building Roads
 | Desert       | 100    | [Caravanserai] |
 | Glacier      | 250    | [Tunnel]       |
 
-[Dam]: ./buildings-others.md#damm "Andere Gebäude"
-[Caravanserai]: ./buildings-others.md#karawanserei "Andere Gebäude"
+[Dam]: ./buildings-others.md#dam "Andere Gebäude"
+[Caravanserai]: ./buildings-others.md#caravanserai "Andere Gebäude"
 [Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
 
 **Example:** For building a road from the plain at (0,0) through the swamp at (1,0) to the mountain at (1,1) you need

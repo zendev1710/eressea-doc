@@ -47,7 +47,7 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 [`MAKE`]: ./cmd-make.md "MAKE"
 [herbalism]: ./skills-list.md "Skills list"
 [`PLANT`]: ./cmd-plant.md "PLANT"
-[stable]: ./buildings-others.md#pferdezucht "Pferdezucht"
+[stable]: ./buildings-others.md#stable "Pferdezucht"
 [`BREED HORSES`]: ./cmd-grow.md "GROW"
 [herbs list]: ./herbs.md#kräuterliste "Herbs"
 [Production]: ./production.md "Produktion"

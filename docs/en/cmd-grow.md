@@ -17,6 +17,6 @@ For `GROW HERBS` you need at least [Herbalism][Taming] 6. The unit tries to plan
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE/en&oldid=14482] -->
 
-[Stable]: ./buildings-others.md#pferdezucht "Andere Gebäude"
+[Stable]: ./buildings-others.md#stable "Andere Gebäude"
 [Taming]: ./skills-list.md "Liste der Talente"
 [PLANT]: ./cmd-plant.md "PFLANZE"

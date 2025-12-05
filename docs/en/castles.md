@@ -51,7 +51,7 @@ Building Castles - building material, minimum skill, wage bonus, trade share and
 [plagues]: ./plague.md "Pest (to be documented)"
 [`MAKE CASTLE`]: ./cmd-make.md "MAKE"
 [war]: ./war.md "War"
-[bonuses and penalties]: ./war.md#boni-und-mali "Boni und Mali"
+[bonuses and penalties]: ./war.md#bonuses-and-mali "Boni und Mali"
 [summary table]: #overview
 [Buildings]: ./buildings.md "Gebäude"
-[Income]: ./silver.md#einnahmen "Einnahmen"
+[Income]: ./silver.md#income "Einnahmen"

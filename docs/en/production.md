@@ -43,7 +43,7 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 [Tränke]: ./alchemy.md "Tränke"
 [1]: ./resources.md "Rohstoffe"
 [Gegenstände]: ./items.md "Waren"
-[Bergwerk]: ./buildings-others.md#bergwerk "Andere Gebäude"
+[Bergwerk]: ./buildings-others.md#mine "Andere Gebäude"
 [Materialpool]: ./items-pool.md "Materialpool"
 [2]: ./roads.md "Straße"
 [3]: ./ships.md "Schiff"

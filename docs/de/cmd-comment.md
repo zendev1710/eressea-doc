@@ -18,4 +18,4 @@ machen. Außerdem muß ein Leerzeichen hinter den `//` sein.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
 
-[;]: /; ";"
+[;]: ./cmd-semicolon.md ";"

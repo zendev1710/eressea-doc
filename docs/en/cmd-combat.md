@@ -35,9 +35,9 @@ Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie od
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
 [Vom Kriege]: ./war.md "Krieg"
-[Kampfreihen]: ./war.md#schlacht "Schlacht"
+[Kampfreihen]: ./war.md#combat-rows "Schlacht"
 [`ATTACKIERE`]: ./cmd-attack.md "ATTACKIERE"
-[Flucht]: ./war.md#die-flucht "Die Flucht"
+[Flucht]: ./war.md#fleeing "Fleeing"
 [BEWACHEN]: ./cmd-guard.md "BEWACHEN"
 [NACH]: ./cmd-move.md "NACH"
 [ROUTE]: ./cmd-route.md "ROUTE"

@@ -53,4 +53,4 @@ Construction de châteaux - matériaux, minimum skill, bonus salaire, part du co
 [tableau du bas]: #aperçu
 [bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
 [bâtiments]: ./buildings.md "Gebäude"
-[revenus]: ./silver.md#einnahmen "Einnahmen"
+[revenus]: ./silver.md#revenus "Einnahmen"

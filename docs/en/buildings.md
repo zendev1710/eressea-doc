@@ -50,4 +50,4 @@ Buildings are constructed and expanded using the [MAKE][`MAKE `*`Building_type`*
 [SORT]: ./cmd-sort.md "SORT"
 [special buildings]: ./buildings-others.md "Andere Gebäude"
 [production]: ./production.md "Produktion"
-[expenses]: ./silver.md#ausgaben "Ausgaben"
+[expenses]: ./silver.md#expenses "Ausgaben"

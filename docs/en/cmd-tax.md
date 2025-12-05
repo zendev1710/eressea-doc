@@ -17,6 +17,6 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
 [Talent]: ./skills-list.md "Liste der Talente"
 [bewaffneter]: ./armed.md "Bewaffnet"
-[Hunger]: ./silver.md#hunger "Hunger"
+[Hunger]: ./silver.md#starvation "Starvation"
 [`BEWACHEN`]: ./cmd-guard.md "BEWACHEN"
 [Geld]: ./silver.md "Geld"

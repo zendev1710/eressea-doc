@@ -305,8 +305,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [Kampfreihen]: #die-schlacht
 [flüchten]: #die-flucht
 [`GRUPPE`]: ./cmd-group.md "GRUPPE"
-[Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
-[Flucht]: ./war.md#die-flucht "Die Flucht"
+[Kämpfe auf See]: ./war.md#combat-on-and-with-ships "Kampf auf Schiffen"
+[Flucht]: ./war.md#fleeing "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
 [BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
 [Helden]: ./cmd-promote.md "BEFÖRDERUNG"
@@ -319,7 +319,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 [1]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
 [`BEWACHE`]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.md "Schiffe"
-[Schaden]: ./ships.md#schiffsschaden "Schiff"
+[Schaden]: ./Ships.md#convoi "Schiff"
 [`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"

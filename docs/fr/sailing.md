@@ -115,7 +115,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [RIDE]: ./cmd-ride.md "RIDE"
 [CARRY]: ./cmd-carry.md "CARRY"
-[aquariens]: ./races.md#meermenschen "Meermenschen"
+[aquariens]: ./races.md#aquariens "Aquariens"
 [combat naval]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [2]: ./cmd-make.md "MAKE"
 [déplacement]: ./travel.md "Reisen"

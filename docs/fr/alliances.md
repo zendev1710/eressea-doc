@@ -52,7 +52,7 @@ En savoir plus :  [magic]
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
 [`GIVE`]: ./cmd-give.md "GIVE"
 [join a fight]: ./war.md "War"
-[supporting]: ./silver.md#unterhaltskosten "Silver"
+[supporting]: ./silver.md#frais-dentretien "Silver"
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [raise taxes]: ./silver.md "Silver"
 [recruit]: ./silver.md#recruiting "RECRUIT"

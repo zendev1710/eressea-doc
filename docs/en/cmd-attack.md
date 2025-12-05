@@ -18,7 +18,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Angriffe.
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACKIERE&oldid=16719] -->
 
 [<sup>`(l)`</sup>]: ./commands.md#kurzlang "Befehl"
-[Kampfende]: ./war.md#das-ende "Kampfende"
+[Kampfende]: ./war.md#the-end "Kampfende"
 [kämpfen]: ./cmd-combat.md "KÄMPFE"
 [immun]: ./puppy-protection.md "Welpenschutz"
 [Krieg]: ./war.md "Krieg"

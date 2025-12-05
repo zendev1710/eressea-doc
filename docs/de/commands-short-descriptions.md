@@ -12,8 +12,8 @@ Kurzliste der Befehle
 | [ARBEITE](./cmd-work.md "ARBEITE")                                                   | WORK                                         | verdient 10 Silber oder mehr                           | L           |
 | [ATTACKIERE einheit-nr](./cmd-attack.md "ATTACKIERE")                               | ATTACK unit-ID                               | greift die Einheit an                                  | (L)\*       |
 | [BANNER "text"](./cmd-banner.md "BANNER")                                               | BANNER                                       | Setzt Text für Adress-Liste                            | K           |
-| [BEANSPRUCHE anzahl gegenstand](/BEANSPRUCHE "BEANSPRUCHE")                     | CLAIM                                        | holt Gegenstände aus Parteipool                        | K           |
-| [BEFÖRDERE](/BEF%C3%96RDERE "BEFÖRDERE")                                        | PROMOTE                                      | macht Einheit zu Helden                                | K           |
+| [BEANSPRUCHE anzahl gegenstand](./cmd-claim.md "BEANSPRUCHE")                     | CLAIM                                        | holt Gegenstände aus Parteipool                        | K           |
+| [BEFÖRDERE](./cmd-promote.md "BEFÖRDERE")                                        | PROMOTE                                      | macht Einheit zu Helden                                | K           |
 | [BEKLAUE einheit-nr](./cmd-steal.md "BEKLAUE")                                        | STEAL unit-ID                                | klaut 50 Silber oder mehr                              | L           |
 | [BENENNE EINHEIT "name"](./cmd-name.md "BENENNE")                                    | NAME UNIT "name"                             | benennt Objekte                                        | K           |
 | [BENENNE PARTEI "name"](./cmd-name.md "BENENNE")                                     | NAME FACTION "name"                          |                                                        | K           |
@@ -24,7 +24,7 @@ Kurzliste der Befehle
 | [BENENNE FREMDES SCHIFF schiff-nr "name"](./cmd-name.md "BENENNE")                   | NAME FOREIGN SHIP ship-no "name"             |                                                        | K           |
 | [BENENNE FREMDES GEBÄUDE gebäude-nr "name"](./cmd-name.md "BENENNE")                 | NAME FOREIGN BUILDING building-no "name"     |                                                        | K           |
 | [BENENNE FREMDE PARTEI partei-nr "name"](./cmd-name.md "BENENNE")                    | NAME FOREIGN FACTION?? faction??-no "name"   |                                                        | K           |
-| [BENUTZE \[anzahl\] trank](/BENUTZE "BENUTZE")                                  | USE \[amount\] potion                        | benutzt alchemistischen Trank                          | K           |
+| [BENUTZE \[anzahl\] trank](./cmd-use.md "BENUTZE")                                  | USE \[amount\] potion                        | benutzt alchemistischen Trank                          | K           |
 | [BESCHREIBE EINHEIT "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE UNIT "text"                         | beschreibt Objekte                                     | K           |
 | [BESCHREIBE PRIVAT "text"](./cmd-describe.md "BESCHREIBE")                            | DESCRIBE PRIVATE "text"                      |                                                        | K           |
 | [BESCHREIBE GEBÄUDE "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE BUILDING "text"                     |                                                        | K           |
@@ -47,7 +47,7 @@ Kurzliste der Befehle
 | [FAHRE einheit-nr](./cmd-ride.md "FAHRE")                                              | RIDE unit-id                                 | sich transportieren lassen                             | L           |
 | [FOLGE EINHEIT einheit-nr](./cmd-follow.md "FOLGE")                                      | FOLLOW UNIT unit-id                          | folgt einer Einheit                                    | (L)\*\*     |
 | [FOLGE SCHIFF schiff-nr](./cmd-follow.md "FOLGE")                                        | FOLLOW SHIP ship-id                          | folgt einem Schiff                                     | (L)\*\*     |
-| [FORSCHE KRÄUTER](/FORSCHE "FORSCHE")                                           | RESEARCH herbs                               | sucht Kräuter                                          | L           |
+| [FORSCHE KRÄUTER](./cmd-research.md "FORSCHE")                                           | RESEARCH herbs                               | sucht Kräuter                                          | L           |
 | [GIB einheit-nr KRÄUTER](./cmd-give.md "GIB")                                            | GIVE unit-id herbs\_name                     | gibt einer Einheit alle Kräuter                        | K           |
 | [GIB einheit-nr KOMMANDO](./cmd-give.md "GIB")                                           | GIVE unit-id command                         | übergibt Kommando über Schiff/Gebäude                  | K           |
 | [GIB einheit-nr EINHEIT](./cmd-give.md "GIB")                                            | GIVE unit-id UNIT                            | übergibt Einheit an fremde Partei                      | K           |
@@ -74,10 +74,10 @@ Kurzliste der Befehle
 | [KÄMPFE NICHT](./cmd-combat.md "KÄMPFE")                                           | COMBAT NOT                                   |                                                        | K           |
 | [KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]](./cmd-combatspell.md "KAMPFZAUBER")  | COMBATSPELL \[level n\] "spell" \[NOT\]      | setzt Zauber für Kämpfe                                | K           |
 | [KAUFE anzahl luxusgut](./cmd-buy.md "KAUFE")                                         | BUY amount luxurygood                        | kaufe Luxusgüter                                       | L\*\*\*     |
-| [KONTAKTIERE einheit-nr](/KONTAKTIERE "KONTAKTIERE")                            | CONTACT unit-no                              | kontaktiere fremde Einheiten                           | K           |
+| [KONTAKTIERE einheit-nr](./cmd-contact.md "KONTAKTIERE")                            | CONTACT unit-no                              | kontaktiere fremde Einheiten                           | K           |
 | [LEHRE einheit-nr \[einheit-nr etc.\]](./cmd-teach.md "LEHRE")                          | TEACH unit-no                                | lehre Einheiten                                        | L           |
 | [LERNE talent](./cmd-learn.md "LERNE")                                                  | LEARN skill                                  | Talent lernen                                          | L           |
-| [LERNE AUTO talent](/LERNE_AUTO "LERNE AUTO")                                   | LEARN AUTO                                   | Talent lernen oder lehren                              | L           |
+| [LERNE AUTO talent](./cmd-learn-auto.md "LERNE AUTO")                                   | LEARN AUTO                                   | Talent lernen oder lehren                              | L           |
 | [LOCALE en/de](./cmd-locale.md "LOCALE")                                                | LOCALE en/de??                               | Zeigt die Sprache der Befehle an                       | K           |
 | [MACHE TEMP unit-alias-nr \["name"\]](./cmd-make.md "MACHE")                           | MAKE TEMP unit-alias-nr \["name"\]           | erschaffe neue Einheit                                 | K           |
 | [MACHE \[stufe\] gebäude-typ \[gebäude-nr\]](./cmd-make.md "MACHE")                    | MAKE \[level\] building-type \[building-ID\] | erweitere oder baue neues Gebäude                      | L           |
@@ -93,8 +93,8 @@ Kurzliste der Befehle
 | [MACHE \[anzahl\] KRÄUTER](./cmd-make.md "MACHE")                                      | MAKE \[amount\] HERBS                        | suche Kräuter der Region                               | L           |
 | [MACHE \[anzahl\] trank](./cmd-make.md "MACHE")                                        | MAKE \[amount\] POTIONS                      | mache einen alchemistischen Trank                      | L           |
 | [MACHE \[anzahl\] gegenstand](./cmd-make.md "MACHE")                                   | MAKE \[amount\] item                         | mache einen Gegenstand                                 | L           |
-| [NACH richtung \[richtung etc.\]](/NACH "NACH")                                 | MOVE direction \[direction\]                 | Reisen                                                 | L           |
-| [NÄCHSTER](/N%C3%84CHSTER "NÄCHSTER")                                           | NEXT                                         | Beendet Befehle                                        | K           |
+| [NACH richtung \[richtung etc.\]](./cmd-move.md "NACH")                                 | MOVE direction \[direction\]                 | Reisen                                                 | L           |
+| [NÄCHSTER](./cmd-next.md "NÄCHSTER")                                           | NEXT                                         | Beendet Befehle                                        | K           |
 | [NUMMER EINHEIT \[neue\_nr\]](./cmd-number.md "NUMMER")                                 | NUMBER UNIT \[newID\]                        | vergibt neue Nummer                                    | K           |
 | [NUMMER GEBÄUDE \[neue\_nr\]](./cmd-number.md "NUMMER")                                 | NUMBER CASTLE \[newID\]                      |                                                        | K           |
 | [NUMMER PARTEI \[neue\_nr\]](./cmd-number.md "NUMMER")                                  | NUMBER FACTION \[newID\]                     |                                                        | K           |
@@ -132,7 +132,7 @@ Kurzliste der Befehle
 | [TARNE PARTEI \[NICHT\]](./cmd-tax.md "TARNE")                                        | HIDE FACTION \[NOT\]                         | Parteizugehörigkeit verbergen (als "anonym" getarnt)   | K           |
 | [TARNE PARTEI NUMMER nummer](./cmd-tax.md "TARNE")                                    | HIDE FACTION faction-ID                      | Parteizugehörigkeit tarnen (als andere Partei getarnt) | K           |
 | [TRANSPORTIERE einheit-nr](./cmd-carry.md "TRANSPORTIERE")                      | CARRY unit-id                                | andere Einheiten mitnehmen                             | K           |
-| [TREIBE \[betrag\]](/TREIBE "TREIBE")                                           | TAX \[amount\]                               | Steuern eintreiben (max. 20 S/Talentstufe)             | L           |
+| [TREIBE \[betrag\]](./cmd-tax.md "TREIBE")                                           | TAX \[amount\]                               | Steuern eintreiben (max. 20 S/Talentstufe)             | L           |
 | [UNTERHALTE \[betrag\]](./cmd-entertain.md "UNTERHALTE")                               | ENTERTAIN \[amount\]                         | verdiene 20 oder mehr Silber                           | L           |
 | [URSPRUNG \[x y\]](./cmd-origin.md "URSPRUNG")                                        | ORIGIN \[x y\]                               | setzt den Koordinaten-Ursprung                         | K           |
 | [VERGISS talent](./cmd-forget.md "VERGISS")                                            | FORGET skill                                 | vergißt das Talent                                     | K           |
@@ -154,7 +154,7 @@ Kurzliste der Befehle
 
 |              |                                                 |
 |--------------|-------------------------------------------------|
-| Weiterlesen: | [Der erste Zug](/Der_erste_Zug "Der erste Zug") |
+| Weiterlesen: | [Der erste Zug](./round-first.md "Der erste Zug") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung&oldid=8099] -->
 

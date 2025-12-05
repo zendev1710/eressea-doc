@@ -40,17 +40,17 @@ modificateurs de compétences
 | cartmaking     | 0         | \-1    | 0       | 0      | \-2      | +2          | 0        | \-1       | 0         | 0        | 0       |
 | perception     | 0         | 0      | +1      | +2     | +1       | +1          | 0        | 0         | +1        | \-1      | 0       |
 
-[dwarves]: ./races.md#nainse "Zwerge"
-[orcs]: ./races.md#orks "Orks"
-[elves]: ./races.md#elfes "Elfen"
-[cats]: ./races.md#katzen "Katzen"
-[demons]: ./races.md#dämonen "Rassen"
-[halflings]: ./races.md#halblinge "Halblinge"
-[humans]: ./races.md##menschenen "Menschen"
+[dwarves]: ./races.md#nains "Nains"
+[orcs]: ./races.md#orcs "Orcs"
+[elves]: ./races.md#elfes "Elfes"
+[cats]: ./races.md#chats "Chats"
+[demons]: ./races.md#démons "Démos"
+[halflings]: ./races.md#halflings "Halflinge"
+[humans]: ./races.md#humains "Humains"
 [goblins]: ./races.md#goblins "Goblins"
-[insects]: ./races.md#insekten "Insekten"
-[trolls]: ./races.md#trolle "Trolle"
-[aqua.]: ./races.md#meermenschen "Meermenschen"
+[insects]: ./races.md#insectes "Insecten"
+[trolls]: ./races.md#trolls "Trolls"
+[aqua.]: ./races.md#aquariens "Aquariens"
 
 |--------------|-----------|
 | En savoir plus : | [Talente] |

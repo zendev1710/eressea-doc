@@ -141,9 +141,9 @@ Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nic
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
 [Goblins]: ./races.md#goblins "Rassen"
-[Trolle]: ./races.md#trolle "Rassen"
-[Orks]: ./races.md#orks "Rassen"
-[Katzen]: ./races.md#katzen "Rassen"
+[Trolle]: ./races.md#trolls "Trolls"
+[Orks]: ./races.md#orks "Orcs"
+[Katzen]: ./races.md#cats "Cats"
 [Vertraute]: ./familiars.md "Vertraute"
 [Pferdebonus]: ./war.md#boni-und-mali "Boni und Mali"
 [Talent]: ./skills.md "Talente"

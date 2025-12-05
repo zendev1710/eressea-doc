@@ -99,7 +99,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
 
 [ships]: ./ships.md "Schiff"
-[**Harbour**]: ./buildings-others.md#hafen "Andere Gebäude"
+[**Harbour**]: ./buildings-others.md#harbour "Hafen"
 [damages]: #damage-to-ships
 [HELP]: ./cmd-help.md "HELP"
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
@@ -114,7 +114,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 [LEAVE]: ./cmd-leave.md "LEAVE"
 [RIDE]: ./cmd-ride.md "RIDE"
 [CARRY]: ./cmd-carry.md "CARRY"
-[Aquarians]: ./races.md#meermenschen "Meermenschen"
+[Aquarians]: ./races.md#aquarians "Meermenschen"
 [Battle on ship]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [1]: ./cmd-make.md "MAKE"
 [movement]: ./travel.md "Reisen"

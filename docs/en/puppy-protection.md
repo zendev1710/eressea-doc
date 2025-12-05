@@ -5,7 +5,7 @@ Normalerweise findet sich in den ersten Reports einer Partei ein Hinweis der For
 In der Vergangenheit hieß die Meldung "Deine Partei ist noch x Wochen immun gegen Angriffe". **Vorsicht:** Wenn in deinem Report steht, "Deine Partei ist noch 1 Wochen immun", bedeutet das, dass du in der Woche, für die du nun deine Befehle einsendest, schon beklaut und angegriffen werden kannst!
 
 |--------------|-------------------------------------------------------------------|
-| Weiterlesen: | [Befehle einschicken](/Befehle_einschicken "Befehle einschicken") |
+| Weiterlesen: | [Befehle einschicken](./commands-send.md "Befehle einschicken") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
 

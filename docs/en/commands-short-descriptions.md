@@ -12,8 +12,8 @@ brief description of orders
 | [ARBEITE](./cmd-work.md "ARBEITE")                                                   | WORK                                         | earns 10 silver or more                           | L           |
 | [ATTACKIERE einheit-nr](./cmd-attack.md "ATTACKIERE")                               | ATTACK unit-ID                               | attacks the unit                                  | (L)\*       |
 | [BANNER "text"](./cmd-banner.md "BANNER")                                               | BANNER                                       | Sets text for the address list                    | K           |
-| [BEANSPRUCHE anzahl gegenstand](/BEANSPRUCHE "BEANSPRUCHE")                     | CLAIM                                        | Fetches items from party pool                     | K           |
-| [BEFÖRDERE](/BEF%C3%96RDERE "BEFÖRDERE")                                        | PROMOTE                                      | Promote a unit to heroe                           | K           |
+| [BEANSPRUCHE anzahl gegenstand](./cmd-claim.md "BEANSPRUCHE")                     | CLAIM                                        | Fetches items from party pool                     | K           |
+| [BEFÖRDERE](./cmd-promote.md "BEFÖRDERE")                                        | PROMOTE                                      | Promote a unit to heroe                           | K           |
 | [BEKLAUE einheit-nr](./cmd-steal.md "BEKLAUE")                                        | STEAL unit-ID                                | steal 50 Silver or more                           | L           |
 | [BENENNE EINHEIT "name"](./cmd-name.md "BENENNE")                                    | NAME UNIT "name"                             | names the specified object                        | K           |
 | [BENENNE PARTEI "name"](./cmd-name.md "BENENNE")                                     | NAME FACTION "name"                          |                                                   | K           |
@@ -24,7 +24,7 @@ brief description of orders
 | [BENENNE FREMDES SCHIFF schiff-nr "name"](./cmd-name.md "BENENNE")                   | NAME FOREIGN SHIP ship-no "name"             |                                                   | K           |
 | [BENENNE FREMDES GEBÄUDE gebäude-nr "name"](./cmd-name.md "BENENNE")                 | NAME FOREIGN BUILDING building-no "name"     |                                                   | K           |
 | [BENENNE FREMDE PARTEI partei-nr "name"](./cmd-name.md "BENENNE")                    | NAME FOREIGN FACTION faction-id "name"       |                                                   | K           |
-| [BENUTZE \[anzahl\] trank](/BENUTZE "BENUTZE")                                  | USE \[amount\] potion                        | uses alchemical potion                            | K           |
+| [BENUTZE \[anzahl\] trank](./cmd-use.md "BENUTZE")                                  | USE \[amount\] potion                        | uses alchemical potion                            | K           |
 | [BESCHREIBE EINHEIT "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE UNIT "text"                         | describes object                                  | K           |
 | [BESCHREIBE PRIVAT "text"](./cmd-describe.md "BESCHREIBE")                            | DESCRIBE PRIVATE "text"                      | unit description for the owner                    | K           |
 | [BESCHREIBE GEBÄUDE "text"](./cmd-describe.md "BESCHREIBE")                           | DESCRIBE BUILDING "text"                     |                                                   | K           |
@@ -47,7 +47,7 @@ brief description of orders
 | [FAHRE einheit-nr](./cmd-ride.md "FAHRE")                                              | RIDE unit-id                                 | be transported by unit−id                         | L           |
 | [FOLGE EINHEIT einheit-nr](./cmd-follow.md "FOLGE")                                      | FOLLOW UNIT unit-id                          | follows a unit                                    | (L)\*\*     |
 | [FOLGE SCHIFF schiff-nr](./cmd-follow.md "FOLGE")                                        | FOLLOW SHIP ship-id                          | follows a ship                                    | (L)\*\*     |
-| [FORSCHE KRÄUTER](/FORSCHE "FORSCHE")                                           | RESEARCH herbs                               | search for herbs                                  | L           |
+| [FORSCHE KRÄUTER](./cmd-research.md "FORSCHE")                                           | RESEARCH herbs                               | search for herbs                                  | L           |
 | [GIB einheit-nr KRÄUTER](./cmd-give.md "GIB")                                            | GIVE unit-id herbs                           | give a unit all herbs                             | K           |
 | [GIB einheit-nr KOMMANDO](./cmd-give.md "GIB")                                           | GIVE unit-id command                         | give a unit ship/ building control                | K           |
 | [GIB einheit-nr EINHEIT](./cmd-give.md "GIB")                                            | GIVE unit-id UNIT                            | give unit to a foreign faction                    | K           |
@@ -74,10 +74,10 @@ brief description of orders
 | [KÄMPFE NICHT](./cmd-combat.md "KÄMPFE")                                           | COMBAT NOT                                   |                                                   | K           |
 | [KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]](./cmd-combatspell.md "KAMPFZAUBER")  | COMBATSPELL \[level n\] "spell" \[NOT\]      | set spell for combat                              | K           |
 | [KAUFE anzahl luxusgut](./cmd-buy.md "KAUFE")                                         | BUY amount luxurygood                        | buy luxury item                                   | L\*\*\*     |
-| [KONTAKTIERE einheit-nr](/KONTAKTIERE "KONTAKTIERE")                            | CONTACT unit-no                              | contact foreign unit                              | K           |
+| [KONTAKTIERE einheit-nr](./cmd-contact.md "KONTAKTIERE")                            | CONTACT unit-no                              | contact foreign unit                              | K           |
 | [LEHRE einheit-nr \[einheit-nr etc.\]](./cmd-teach.md "LEHRE")                          | TEACH unit-no                                | teach units                                       | L           |
 | [LERNE talent](./cmd-learn.md "LERNE")                                                  | LEARN skill                                  | learn a skill                                     | L           |
-| [LERNE AUTO talent](/LERNE_AUTO "LERNE AUTO")                                   | LEARN AUTO                                   | learn or teach a skill                            | L           |
+| [LERNE AUTO talent](./cmd-learn-auto.md "LERNE AUTO")                                   | LEARN AUTO                                   | learn or teach a skill                            | L           |
 | [LOCALE en/de](./cmd-locale.md "LOCALE")                                                | LOCALE en/de                                 | no function (only for tools)                      | K           |
 | [MACHE TEMP unit-alias-nr \["name"\]](./cmd-make.md "MACHE")                           | MAKE TEMP unit-alias-nr \["name"\]           | creates a new unit                                | K           |
 | [MACHE \[stufe\] gebäude-typ \[gebäude-nr\]](./cmd-make.md "MACHE")                    | MAKE \[level\] building-type \[building-ID\] | erect or extend a building                        | L           |
@@ -93,8 +93,8 @@ brief description of orders
 | [MACHE \[anzahl\] KRÄUTER](./cmd-make.md "MACHE")                                      | MAKE \[amount\] HERBS                        | pick herbs in a region                            | L           |
 | [MACHE \[anzahl\] trank](./cmd-make.md "MACHE")                                        | MAKE \[amount\] POTIONS                      | make a potion                                     | L           |
 | [MACHE \[anzahl\] gegenstand](./cmd-make.md "MACHE")                                   | MAKE \[amount\] item                         | make an item                                      | L           |
-| [NACH richtung \[richtung etc.\]](/NACH "NACH")                                 | MOVE direction \[direction\]                 | move unit                                         | L           |
-| [NÄCHSTER](/N%C3%84CHSTER "NÄCHSTER")                                           | NEXT                                         | ends the orders of a faction                      | K           |
+| [NACH richtung \[richtung etc.\]](./cmd-move.md "NACH")                                 | MOVE direction \[direction\]                 | move unit                                         | L           |
+| [NÄCHSTER](./cmd-next.md "NÄCHSTER")                                           | NEXT                                         | ends the orders of a faction                      | K           |
 | [NUMMER EINHEIT \[neue\_nr\]](./cmd-number.md "NUMMER")                                 | NUMBER UNIT \[newID\]                        | gives a new id                                    | K           |
 | [NUMMER GEBÄUDE \[neue\_nr\]](./cmd-number.md "NUMMER")                                 | NUMBER CASTLE \[newID\]                      |                                                   | K           |
 | [NUMMER PARTEI \[neue\_nr\]](./cmd-number.md "NUMMER")                                  | NUMBER FACTION \[newID\]                     |                                                   | K           |
@@ -132,7 +132,7 @@ brief description of orders
 | [TARNE PARTEI \[NICHT\]](./cmd-tax.md "TARNE")                                        | HIDE FACTION \[NOT\]                         | hide faction membership (hide as"anonym")         | K           |
 | [TARNE PARTEI NUMMER nummer](./cmd-tax.md "TARNE")                                    | HIDE FACTION faction-ID                      | disguised as another faction                      | K           |
 | [TRANSPORTIERE einheit-nr](./cmd-carry.md "TRANSPORTIERE")                      | CARRY unit-id                                | transport another unit                            | K           |
-| [TREIBE \[betrag\]](/TREIBE "TREIBE")                                           | TAX \[amount\]                               | tax peasants (max. 20 silver/skill lvl)           | L           |
+| [TREIBE \[betrag\]](./cmd-tax.md "TREIBE")                                           | TAX \[amount\]                               | tax peasants (max. 20 silver/skill lvl)           | L           |
 | [UNTERHALTE \[betrag\]](./cmd-entertain.md "UNTERHALTE")                               | ENTERTAIN \[amount\]                         | earn 20 or more silver (max. 20 silver/skill lvl) | L           |
 | [URSPRUNG \[x y\]](./cmd-origin.md "URSPRUNG")                                        | ORIGIN \[x y\]                               | Sets the origin to x,y                            | K           |
 | [VERGISS talent](./cmd-forget.md "VERGISS")                                            | FORGET skill                                 | forget a skill                                    | K           |
@@ -153,11 +153,11 @@ brief description of orders
 - [Orders sequence]
 
 |-------------------|-------------------------------------------------|
-| Continue reading: | [Der erste Zug](/Der_erste_Zug "Der erste Zug") |
+| Continue reading: | [Der erste Zug](./round-first.md "Der erste Zug") |
 
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung/en&oldid=8215] -->
 
   [Order]: ./commands.md "Befehl"
-  [The aftermath of battle]: ./war.md#kampfende "Kampfende"
+  [The aftermath of battle]: ./war.md#the-end "Kampfende"
   [Orders]: ./commands.md "Befehle"
   [Orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"

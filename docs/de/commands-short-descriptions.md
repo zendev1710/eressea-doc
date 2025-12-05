@@ -58,21 +58,21 @@ Kurzliste der Befehle
 | [GIB 0 anzahl SILBER](./cmd-give.md "GIB")                                               | GIVE 0 number SILVER                         | wegwerfen von Gegenständen                             | K           |
 | [GIB 0 anzahl PERSONEN](./cmd-give.md "GIB")                                             | GIVE 0 number MEN                            |                                                        | K           |
 | [GIB 0 anzahl gegenstand](./cmd-give.md "GIB")                                           | GIVE 0 number item                           |                                                        | K           |
-| [GRUPPE \["name"\]](/GRUPPE "GRUPPE")                                           | GROUP \["name"\]                             | Gruppieren von Einheiten                               | K           |
+| [GRUPPE \["name"\]](./cmd-group.md "GRUPPE")                                           | GROUP \["name"\]                             | Gruppieren von Einheiten                               | K           |
 | [HELFE partei-nr ALLES \[NICHT\]](./cmd-help.md "HELFE")                               | HELP faction-id ALL \[NOT\]                  | setze/lösche einseitige Allianz                        | K           |
 | [HELFE partei-nr GIB \[NICHT\]](./cmd-help.md "HELFE")                                 | HELP faction-id GIVE \[NOT\]                 |                                                        | K           |
 | [HELFE partei-nr KÄMPFE \[NICHT\]](./cmd-help.md "HELFE")                              | HELP faction-id COMBAT \[NOT\]               |                                                        | K           |
 | [HELFE partei-nr BEWACHE \[NICHT\]](./cmd-help.md "HELFE")                             | HELP faction-id GUARD \[NOT\]                |                                                        | K           |
 | [HELFE partei-nr SILBER \[NICHT\]](./cmd-help.md "HELFE")                              | HELP faction-id SILVER \[NOT\]               |                                                        | K           |
 | [HELFE partei-nr PARTEITARNUNG \[NICHT\]](./cmd-help.md "HELFE")                       | HELP faction-id FACTIONSTEALTH \[NOT\]       |                                                        | K           |
-| [KÄMPFE](/K%C3%84MPFE "KÄMPFE")                                                 | COMBAT                                       | setzt Verhalten im Kampf                               | K           |
-| [KÄMPFE AGGRESSIV](/K%C3%84MPFE "KÄMPFE")                                       | COMBAT AGGRESSIVE                            |                                                        | K           |
-| [KÄMPFE DEFENSIV](/K%C3%84MPFE "KÄMPFE")                                        | COMBAT DEFENSIVE                             |                                                        | K           |
-| [KÄMPFE FLIEHE](/K%C3%84MPFE "KÄMPFE")                                          | COMBAT FLEE                                  |                                                        | K           |
-| [KÄMPFE HELFE \[NICHT\]](/K%C3%84MPFE "KÄMPFE")                                 | COMBAT HELP \[NOT\]                          | der Einheit wird im Kampf \[nicht\] geholfen           | K           |
-| [KÄMPFE HINTEN](/K%C3%84MPFE "KÄMPFE")                                          | COMBAT REAR                                  |                                                        | K           |
-| [KÄMPFE NICHT](/K%C3%84MPFE "KÄMPFE")                                           | COMBAT NOT                                   |                                                        | K           |
-| [KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]](/KAMPFZAUBER "KAMPFZAUBER")  | COMBATSPELL \[level n\] "spell" \[NOT\]      | setzt Zauber für Kämpfe                                | K           |
+| [KÄMPFE](./cmd-combat.md "KÄMPFE")                                                 | COMBAT                                       | setzt Verhalten im Kampf                               | K           |
+| [KÄMPFE AGGRESSIV](./cmd-combat.md "KÄMPFE")                                       | COMBAT AGGRESSIVE                            |                                                        | K           |
+| [KÄMPFE DEFENSIV](./cmd-combat.md "KÄMPFE")                                        | COMBAT DEFENSIVE                             |                                                        | K           |
+| [KÄMPFE FLIEHE](./cmd-combat.md "KÄMPFE")                                          | COMBAT FLEE                                  |                                                        | K           |
+| [KÄMPFE HELFE \[NICHT\]](./cmd-combat.md "KÄMPFE")                                 | COMBAT HELP \[NOT\]                          | der Einheit wird im Kampf \[nicht\] geholfen           | K           |
+| [KÄMPFE HINTEN](./cmd-combat.md "KÄMPFE")                                          | COMBAT REAR                                  |                                                        | K           |
+| [KÄMPFE NICHT](./cmd-combat.md "KÄMPFE")                                           | COMBAT NOT                                   |                                                        | K           |
+| [KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]](./cmd-combatspell.md "KAMPFZAUBER")  | COMBATSPELL \[level n\] "spell" \[NOT\]      | setzt Zauber für Kämpfe                                | K           |
 | [KAUFE anzahl luxusgut](./cmd-buy.md "KAUFE")                                         | BUY amount luxurygood                        | kaufe Luxusgüter                                       | L\*\*\*     |
 | [KONTAKTIERE einheit-nr](/KONTAKTIERE "KONTAKTIERE")                            | CONTACT unit-no                              | kontaktiere fremde Einheiten                           | K           |
 | [LEHRE einheit-nr \[einheit-nr etc.\]](./cmd-teach.md "LEHRE")                          | TEACH unit-no                                | lehre Einheiten                                        | L           |
@@ -117,7 +117,7 @@ Kurzliste der Befehle
 | [PFLANZE \[anzahl\] SAMEN](./cmd-plant.md "PFLANZE")                                  | PLANT \[amount\] SEEDS                       | pflanzt Samen                                          | L           |
 | [PIRATERIE \[partei\_1\] \[partei\_2\] \[...\]](./cmd-piracy.md "PIRATERIE")         | PIRACY \[faction\_1\] \[faction\_2\]         | Piraterie setzen                                       | L           |
 | [PRÄFIX \[präfix\]](./cmd-prefix.md "PRÄFIX")                                      | PREFIX                                       | gibt der Rassenbezeichnung ein Präfix                  | K           |
-| [REGION x,y](/REGION "REGION")                                                  | REGION x,y                                   | keine Funktion (nur für Tools)                         | K           |
+| [REGION x,y](./cmd-region.md "REGION")                                                  | REGION x,y                                   | keine Funktion (nur für Tools)                         | K           |
 | [REKRUTIERE anzahl](./cmd-recruit.md "REKRUTIERE")                                   | RECRUIT amount                               | rekrutiere weitere Personen                            | K           |
 | [RESERVIERE anzahl "gegenstand"](./cmd-reserve.md "RESERVIERE")                      | RESERVE amount item                          | Gegenstände reservieren                                | K           |
 | [RESERVIERE anzahl SILBER](./cmd-reserve.md "RESERVIERE")                            | RESERVE amount silver                        | Silber reservieren                                     | K           |
@@ -133,17 +133,17 @@ Kurzliste der Befehle
 | [TARNE PARTEI NUMMER nummer](./cmd-tax.md "TARNE")                                    | HIDE FACTION faction-ID                      | Parteizugehörigkeit tarnen (als andere Partei getarnt) | K           |
 | [TRANSPORTIERE einheit-nr](./cmd-carry.md "TRANSPORTIERE")                      | CARRY unit-id                                | andere Einheiten mitnehmen                             | K           |
 | [TREIBE \[betrag\]](/TREIBE "TREIBE")                                           | TAX \[amount\]                               | Steuern eintreiben (max. 20 S/Talentstufe)             | L           |
-| [UNTERHALTE \[betrag\]](/UNTERHALTE "UNTERHALTE")                               | ENTERTAIN \[amount\]                         | verdiene 20 oder mehr Silber                           | L           |
+| [UNTERHALTE \[betrag\]](./cmd-entertain.md "UNTERHALTE")                               | ENTERTAIN \[amount\]                         | verdiene 20 oder mehr Silber                           | L           |
 | [URSPRUNG \[x y\]](./cmd-origin.md "URSPRUNG")                                        | ORIGIN \[x y\]                               | setzt den Koordinaten-Ursprung                         | K           |
-| [VERGISS talent](/VERGISS "VERGISS")                                            | FORGET skill                                 | vergißt das Talent                                     | K           |
-| [VERKAUFE anzahl luxusgut](/VERKAUFE "VERKAUFE")                                | SELL \[amount\] \[ALL\] luxurygood           | verkaufe Luxusgüter                                    | (L)\*\*\*\* |
+| [VERGISS talent](./cmd-forget.md "VERGISS")                                            | FORGET skill                                 | vergißt das Talent                                     | K           |
+| [VERKAUFE anzahl luxusgut](./cmd-sell.md "VERKAUFE")                                | SELL \[amount\] \[ALL\] luxurygood           | verkaufe Luxusgüter                                    | (L)\*\*\*\* |
 | [VERLASSE](./cmd-leave.md "VERLASSE")                                                | LEAVE                                        | Schiff oder Gebäude verlassen                          | K           |
 | [ZAUBERE \[REGION x y\] \[STUFE n\] "zauberspruch" \[...\]](./cmd-cast.md "ZAUBERE") | CAST \[REGION x y\] \[level n\] "spell"      | Zaubern                                                | (L)         |
 | [ZEIGE "zauberspruch"](./cmd-show.md "ZEIGE")                                          | SHOW                                         | Zeige Beschreibung des Zaubers                         | K           |
 | [ZERSTÖRE](./cmd-destroy.md "ZERSTÖRE")                                           | DESTROY                                      | Gebäude, Schiff oder Straße                            | L           |
-| [ZÜCHTE PFERDE](/Z%C3%9CCHTE "ZÜCHTE")                                          | GROW HORSES                                  | Pferde züchten - nur in Pferdezucht                    | L           |
-| [ZÜCHTE KRÄUTER](/Z%C3%9CCHTE "ZÜCHTE")                                         | GROW HERBS                                   | Kräuter züchten                                        | L           |
-| [ZÜCHTE BÄUME](/Z%C3%9CCHTE "ZÜCHTE")                                           | GROW TREES                                   | Samen pflanzen                                         | L           |
+| [ZÜCHTE PFERDE](./cmd-grow.md "ZÜCHTE")                                          | GROW HORSES                                  | Pferde züchten - nur in Pferdezucht                    | L           |
+| [ZÜCHTE KRÄUTER](./cmd-grow.md "ZÜCHTE")                                         | GROW HERBS                                   | Kräuter züchten                                        | L           |
+| [ZÜCHTE BÄUME](./cmd-grow.md "ZÜCHTE")                                           | GROW TREES                                   | Samen pflanzen                                         | L           |
 
 \* siehe [Kampfende]; \*\*bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden; \*\*\*kann mit VERKAUFE kombiniert werden; \*\*\*\*kann mit KAUFE kombiniert werden
 

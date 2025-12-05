@@ -14,7 +14,7 @@ Vorlage-Tutorials:
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vorlage&oldid=5874] -->
 
-[Juttas Vorlage-Tutorial für Anfänger]: ./vorlage-tutorial.md "Jutta's Vorlage Tutorial für Anfänger"
-[Ennos kleine Makro-Sammlung und Batchdatei]: ./vorlage-script.md "Ennos Vorlageskript"
+[Juttas Vorlage-Tutorial für Anfänger]: https://wiki.eressea.de/Jutta%27s_Vorlage_Tutorial_f%C3%BCr_Anf%C3%A4nger "Jutta's Vorlage Tutorial für Anfänger (wiki)"
+[Ennos kleine Makro-Sammlung und Batchdatei]: https://wiki.eressea.de/Ennos_Vorlageskript "Ennos Vorlageskript (wiki)"
 [Vorlage auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html
 [Anleitung]: http://www.gulrak.de/vorlage/doku/

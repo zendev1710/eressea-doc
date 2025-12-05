@@ -291,7 +291,7 @@ Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das 
 |--------------|----------------|
 | En savoir plus : | [Magiegebiete] |
 
-[Magiegebiete]: ./magic.mdgebiete "Magicgebiete"
+[Magiegebiete]: ./magic-schools.md "Magicgebiete"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 

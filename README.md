@@ -165,7 +165,6 @@ MkDocs project for Eressea documentation.
 | [war]                         | X  | X  | X  | [krieg]                              |
 | [weekly-report]               | S  | N  | N  | [wochenbericht]                      |
 | [world]                       | X  | X  | X  | [welt]                               |
-| cmd page                      | DE | EN | FR | GERMAN TERM                          |
 
 ## Other miscellaneous pages
 

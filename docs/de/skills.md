@@ -94,7 +94,7 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 [Zwergeneinheit]: ./races.md#swerg "Zwerg"
 [lehren]: ./cmd-teach.md "LEHRE"
 [Akademie]: ./buildings-others.md#akademie  "Akademie"
-[LERNE AUTO]: ./cmd-learn.md_AUTO "LERNE AUTO"
+[LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"
 [Magie]: ./magic.md "Magic"
 [Alchemie]: ./skills-list.md "Liste der Talente"
 [Taktik]: ./tactic.md "Taktik"

@@ -15,7 +15,7 @@ Eressea is a large world. Hundreds of peoples live on the islands of Eressea, an
 Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbours are also involved. Agreements have to be made, there may be quarrels, even [war]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea report](../assets/images/nr.jpeg "An NR report")
+![Eressea report](../assets/images/nr.jpg "An NR report")
 
 There is no clear game objective in Eressea, no end that needs to be reached. Each player sets their own "milestones" that they want to achieve, be it building a trading empire, conquering an entire island, exploring as many regions as possible or whatever. Whatever it is, it will affect the world, which you can describe and whose fate you will help to determine.
 

@@ -15,7 +15,7 @@ Eressea ist eine große Welt. Hunderte von Völkern leben auf den Inseln Eressea
 Eressea ist eine komplexe Welt. Ein Volk zu führen ist keine leichte Aufgabe. Vieles gilt es zu berücksichtigen, damit alles klappt und die Nachbarn mischen auch noch mit. Absprachen müssen getroffen werden, vielleicht kommt es zu Streitereien, gar zum [Krieg]. Und auch, wenn alles gut geht, beansprucht Eressea viel Zeit. Während man anfänglich kaum eine Stunde pro Woche braucht, kann das später auf zehn und mehr Stunden pro Woche anwachsen.
 
 <!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
-![Eressea report](../assets/images/nr.jpeg "An NR report")
+![Eressea report](../assets/images/nr.jpg "An NR report")
 
 Es gibt kein eindeutiges Spielziel in Eressea, kein Ende, welches es zu erreichen gilt. Du kannst dir selbst "Etappenziele" setzen, die du erreichen möchtest, sei es der Aufbau eines Handelsimperiums, das Erobern einer kompletten Insel, das Erforschen möglichst vieler Regionen oder was auch immer. Was auch immer es ist, es wird Auswirkungen auf die Welt haben, die du beschreiben kannst und deren Geschicke du mitbestimmst.
 

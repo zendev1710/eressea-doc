@@ -85,13 +85,13 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 [Familiers]: ./familiars.md "Vertraute"
 [Développement]: ./development.md "Entwicklung"
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
-[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-[annonces]: ./announcements.md "Ankündigungen"
+[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [pages de joueurs]: ./player-pages.md "Spielerseiten"
 [Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
 [Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
-[Ankündigungen aus der e3-announce Mailingliste]: ./announcements.md_(E3) "Ankündigungen (E3)"
+[Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
+[Ankündigungen aus der e3-announce Mailingliste]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
 [Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Regeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

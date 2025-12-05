@@ -187,7 +187,7 @@ If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HE
 [stealth skill]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
 [BUY]: ./cmd-buy.md "BUY"
-[castles]: ./castles.mden#übersicht "Burgen"
+[castles]: ./castles.md "Burgen"
 [harbour]: ./buildings-others.md#hafen "Andere Gebäude"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
 [GIVE]: ./cmd-give.md "GIVE"

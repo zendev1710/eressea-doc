@@ -83,14 +83,14 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 [Familiars]: ./familiars.md "Vertraute"
 [Development]: ./development.md "Entwicklung"
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
-[archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-[announcements]: ./announcements.md "Ankündigungen"
+[archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[announcements]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Player pages]: ./player-pages.md "Spielerseiten"
 [You play too much Eressea if ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
 [The Third Age]: ./the-third-age.md "Das dritte Zeitalter"
-[An overview about race changes (in German)]: ./races-in-third-age.md "Rassen im dritten Zeitalter"
+[An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [List of rules changes compared to E2 (in German)]: ./the-third-age.md "Das dritte Zeitalter"
-[Announcments from the e3-announce mailing list]: ./announcements.md_(E3) "Ankündigungen (E3)"
+[Announcments from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreons]: https://www.patreon.com/enno
 [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Rules (in German)]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

@@ -95,7 +95,7 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 [nain]: ./races.md#nains "Zwerg"
 [enseigner]: ./cmd-teach.md "TEACH"
 [académie]: ./buildings-others.md#akademie "Akademie"
-[LEARN AUTO]: ./cmd-learn.md_AUTO "LEARN AUTO"
+[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
 [magie]: ./magic.md "Magie"
 [alchimie]: ./skills-list.md "Liste des compétences"
 [tactics]: ./tactic.md "Taktik"

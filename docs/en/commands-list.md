@@ -217,7 +217,7 @@ Kurzliste der Befehle
 [`CONTACT <unit id>`]: ./cmd-contact.md "CONTACT"
 [`TEACH <unit id> [<unit id> etc.]`]: ./cmd-teach.md "TEACH"
 [`LEARN <skill>`]: ./cmd-learn.md "LEARN"
-[`LEARN AUTO <skill>`]: ./cmd-learn.md_AUTO "LEARN AUTO"
+[`LEARN AUTO <skill>`]: ./cmd-learn-auto.md "LEARN AUTO"
 [`LOCALE en/de`]: ./cmd-locale.md "LOCALE"
 [`MAKE TEMP unit-alias-nr ["<name>"]`]: ./cmd-make.md "MAKE"
 [`MAKE [stufe] gebäude-typ [<building id>]`]: ./cmd-make.md "MAKE"

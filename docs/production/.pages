@@ -1,0 +1,10 @@
+nav:
+  - production.md
+  - resources.md
+  - items.md
+  - roads.md
+  - ships.md
+  # subfolder for building ?
+  - buildings.md
+  - castles.md
+  - buildings-other.md

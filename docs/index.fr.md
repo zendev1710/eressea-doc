@@ -1,0 +1,114 @@
+# Accueil
+
+Bienvenue dans [Eressea] !
+
+Dans cette documentation, nous rassemblons les informations pour les joueurs d'Eressea.
+
+Cette documentation est **en construction** ! Si vous souhaitez y contribuer, n'hésitez pas à nous rejoindre sur le serveur [Discord] d'Eressea.
+
+## Ce qu'on y trouve
+
+- [Les règles]
+- [L'inscription au jeu]
+- [E-Announce][] : la mailing list pour les modifications de règles — **IMPORTANT** !
+- [Les outils indispensables pour jouer]
+- [Conseils pour les nouveaux joueurs]
+- [L'histoire d'Eressea] : Eressea provient d'[Atlantis]
+- [Questions fréquentes (FAQ)]
+
+## Liens utiles
+
+- [Séquence des ordres] : **la page la plus importante** des règles !
+- [Tactics] - Combien de tacticiens pour quels bonus
+- [Les Familiers] - Tout sur ces créatures magiques
+- [Développement] d'outils et de scripts
+- [Xontormia Express] - La gazette et ses [numéros archivés]
+- Les archives des [annonces] des changements de règles
+- [Les pages des joueurs]
+- [Tu joues trop à Eressea si ...]
+
+## Les jeux
+
+### Eressea, le jeu : « le Deuxième Âge » (E2)
+
+Le jeu se déroule sans interruption depuis 1996.
+
+Depuis quelques changements de règles en 2000, il est nommé « Le Deuxième Âge » (en abrégé E2).
+
+### E3
+
+Le 24 juin 2009 a marqué le début du Troisième Âge d'Eressea. Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur plusieurs aspects.
+La simplification de la gestion et une séparation plus nette des races constituaient les deux principaux objectifs de conception d'E3.
+
+La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation. Sur E3, tu peux consulter la documentation suivante :
+
+- [Aperçu de nos réflexions concernant les races]
+- [Ensemble des modifications des règles par rapport au jeu Eressea original][Le Troisième Âge]
+- [Annonces de la liste de diffusion e3-announce]
+
+#### Deveron
+
+Le 19 avril 2014, un nouveau jeu intitulé **Deveron** a été lancé pour les contributeurs [Patreon-Förderer].
+Le jeu était basé sur les règles d'E3, mais a subi des modifications plus importantes que sur les jeux précédents.
+Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.
+
+#### Drachensgrab (« La tombe du Dragon »)
+
+Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par semaine et quelques modifications mineures.
+
+- [Discussion sur le forum]
+- [Règles]
+
+## Liens utiles externes
+
+- [Page d'accueil d'Eressea]
+- **[Inscription à Eressea] !**
+- Serveur [Discord]. Tu pourras y trouver des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.
+- [Forum] d'Eressea (ancien)
+- [Mantis] - signaler des bugs
+- [Magellan]
+- [CSMapFX]
+- [Le wiki Eressea de Ralf Duckstein]
+- [Eressea sur Wikipedia]
+- La fameuse [carte du monde connu]
+- [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]
+- [Un génerateur de casus belli]
+
+<!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
+
+[Eressea]: ./eressea.md "Eressea"
+[Discord]: https://discord.gg/KT5Fffh
+[Les règles]: ./rules.md "Regeln"
+[L'inscription au jeu]: https://www.eressea.de/?page_id=186
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Conseils pour les nouveaux joueurs]: ./getting-started-tips.md "Anfängertipps"
+[L'histoire d'Eressea]: ./eressea-story.md "Geschichte von Eressea"
+[Atlantis]: ./atlantis.md "Atlantis"
+[Questions fréquentes (FAQ)]: ./faq.md "FAQ"
+[Séquence des ordres]: ./commands-sequence.md "Séquence des ordres"
+[Tactics]: ./tactic.md "Taktik"
+[Les Familiers]: ./familiars.md "Les Familiers"
+[Développement]: ./development.md "Développement"
+[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
+[Les pages des joueurs]: ./player-pages.md "Pages des joueurs"
+[Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
+[Le Troisième Âge]: ./the-third-age.md "Le Troisième Âge"
+[Aperçu de nos réflexions concernant les races]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les races au Troisième Âge (wiki)"
+[Annonces de la liste de diffusion e3-announce]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
+[Patreon-Förderer]: https://www.patreon.com/enno
+[Discussion sur le forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Règles]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
+[Page d'accueil d'Eressea]: https://www.eressea.de
+[Inscription à Eressea]: https://www.eressea.de/?page_id=189&lang=en
+[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Mantis]: https://bugs.eressea.de/
+[Magellan]: https://magellan2.github.io
+[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[Le wiki Eressea de Ralf Duckstein]: http://wiki.duckstein.net/Eressea/Eressea
+[Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
+[carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
+[Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
+[Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/

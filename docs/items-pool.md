@@ -1,0 +1,168 @@
+# Materialpool
+
+Besonders bei größeren Parteien verliert man als Spieler in einigen Regionen die Übersicht, zumal "Geldverteilen" eher eine langweilige Fleißarbeit ist und den Spielspaß wenig fördert.
+
+## Der Silberpool
+
+Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [RECRUIT] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird. Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen. Dies ist nur, um zu vermeiden, dass es vergessen wird.
+
+Ebenso werden [Gebäude] aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist. Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren. Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.
+
+TEMP-Einheiten können nicht reservieren. Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [GIVE] übergeben bekommen. Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.
+
+Für den Unterhalt von Einheiten gelten besondere Regeln: hier wird alles Silber der Region benutzt, ohne Rücksicht auf vorherige Reservierungen. Einheiten geben kein Silber, das sie für ihren eigenen Unterhalt brauchen, an Einheiten weg, um deren Unterhalt zu bezahlen.
+
+## Der Materialpool
+
+Der Materialpool ist die logische Fortführung des Silberpools: jede Einheit, die etwas benötigt, z.B. Steine und Holz für den Gebäudebau, holt sich dies automatisch von anderen eigenen Einheiten in der Region.
+
+Die Pools gelten nur für die eigene Partei. Fremden Einheiten müssen Gegenstände explizit übergeben werden.
+
+Achtung, die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [MAKE], sondern im Grunde für alles, insbesondere auch bei den Befehlen [RESERVE], [GIVE], [USE], [CAST], [RECRUIT]. Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren. Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.
+
+Unerfahrene Parteien sollten den Materialpool gründlich planen, da man leicht Einheiten Ressourcen "klaut", mit denen man nicht rechnete, und somit "beklaute" Einheiten nicht oder nicht genug produzieren kann, während die andere Einheit mehr Ressourcen verbrauchte und mehr produzierte, als beabsichtigt.
+
+### Beispiel 1
+
+     UNIT a ; Steinbauer, haben 30 Eisen
+     MAKE 20 Eisen
+     @GIVE c ALLES Eisen
+     ;
+     UNIT b ; Burgenbauer, haben kein Eisen
+     RESERVE 10 Eisen
+     MAKE 10 Schwert
+     ;
+     UNIT c; Depot, hat kein Eisen
+     LEARN Tarnung
+
+**Ergebnis:**
+
+- Einheit b holt sich zunächst 10 Eisen aus dem Materialpool von a.
+- Einheit a gibt die restlichen 20 Eisen an c.
+- Einheit b macht 10 Schwerter aus 10 Eisen.
+- Einheit a macht 20 Eisen.
+- Einheit b hat also 10 Schwerter
+- Einheit a hat 20 Eisen
+- Einheit c hat 20 Eisen
+
+## RESERVE und GIVE
+
+Bei [RESERVE] und [GIVE], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:
+
+Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung. Also kann sie nur noch die Einheit, die sie reserviert oder bekommen hat, verbrauchen.
+
+Bei RESERVE-Befehlen geht die Einheit wie folgt vor: In einem ersten Durchgang reserviert jede Einheit zunächst ihre eigenen Gegenstände. Alles, was reserviert wurde, steht ab dann nicht mehr für den Pool zur Verfügung. Dann erst versuchen die Einheiten sich die Gegenstände, die sie im ersten Schritt nicht selber hatten, von anderen Einheiten aus dem Pool zu holen. Sowohl das Abarbeiten der RESERVE-Befehle als auch beim Holen von Gegenständen wird dabei in der Reihenfolge vorgegangen, wie die Einheiten im Report stehen - dies ist streng genommen nicht garantiert, aber seit langem die Praxis.
+
+Wenn eine Einheit mehrere RESERVE-Befehle für einen Gegenstand hat, gilt dies nicht additiv. Stattdessen werden alle Befehle der Reihe nach ausgeführt. Dieses Verhalten wird jedoch im Moment ebenfalls nicht garantiert, deswegen sollte eine Einheit besser nur einen RESERVE-Befehl pro Gegenstand haben.
+
+Bei der anschließenden Ausführung von GIVE werden Gegenstände falls nötig ebenfalls aus dem Pool entnommen. Auch hier geht es nach Reportreihenfolge. Gegenstände, die von irgend einer Einheit (einschließlich der Einheit mit dem GIVE-Befehl) reserviert wurden, werden dabei nicht weitergegeben. Übergebene Gegenstände sind anschließend ebenfalls nicht mehr im Pool. Merke: `GIVE xyz ALLES` übergibt nur nicht reservierte Gegenstände der Einheit selber.
+
+Alle anderen Befehle benutzen zunächst die eigenen, reservierten oder an sie übergebenen Gegenstände und erst danach nicht reservierte Gegenstände aus dem Pool.
+
+### Beispiel 2
+
+      UNIT a; hat 10 Silber
+      LEARN Hiebwaffen
+      RESERVE 20 Silber
+      ;
+      Einheit b; hat 0 Silber
+      LEARN Hiebwaffen
+      RESERVE 10 Silber
+      ;
+      Einheit c; hat 10 Silber
+      LEARN Hiebwaffen
+      RESERVE 10 Silber
+
+**Ergebnis:**
+
+- Einheit a reserviert ihre eigenen 10 Silber
+- Einheit c reserviert ihre eigenen 10 Silber
+- Da insgesamt nur 20 Silber in der Region vorhanden waren verfallen die übrigen RESERVE-Befehle
+- Einheit a verbraucht ihre eigenen 10 Silber Unterhalt.
+- Einheit c verbraucht ihre eigenen 10 Silber Unterhalt.
+- Einheit b hungert weil kein Silber mehr übrig ist.
+
+Hätte irgend eine Einheit zu Anfang 10 Silber mehr gehabt, hätte Einheit b nicht hungern müssen.
+
+### Beispiel 3
+
+      UNIT a; hat 20 Silber
+      RESERVE 20 Silber
+      GIVE c 20 Silber
+      ;
+      Einheit b; hat 20 Silber
+      MOVE o
+      ;
+      Einheit c; hat 0 Silber
+      MOVE w
+
+**Ergebnis:**
+
+- Einheit a reserviert ihre eigenen 20 Silber
+- Einheit a gibt 20 Silber aus dem Materialpool an c. Ihre eigenen 20 Silber sind reserviert, also nimmt sie die 20 Silber von b.
+- Einheit b geht nach Osten und wird hungern, falls dort keine andere Einheit mit Silber ist.
+- Einheit c nimmt die 20 Silber nach Westen mit.
+
+### Beispiel 4
+
+     UNIT a ; hat 10 Silber, 20 Holz, 10 Eisen
+     LEARN Hiebwaffen
+     RESERVE 5 Eisen ; (1)
+     GIVE d ALLES Eisen ; (6)
+     ;
+     UNIT b ; hat 10 Silber, 10 Eisen
+     RESERVE 100 Silber ; (2), (4)
+     RESERVE 10 Holz; (5)
+     GIVE c 100 Silber ; (7)
+     GIVE d 9 Holz ; (8)
+     LEARN Hiebwaffen
+     ;
+     UNIT c ; Waffenbau 10, hat 100 Silber
+     RESERVE 100 Silber ; (3)
+     MAKE 10 Speer ; (9)
+     ;
+     UNIT d ; hat 200 Silber
+     LEARN Holzfällen
+
+**Ausführung:**
+
+- (1), (2), (3): Die Einheiten a, b, und c reservieren zunächst ihre eigenen 5 Eisen, 10 Silber, bzw. 100 Silber.
+- (4): Dann erst holt sich b die restlichen 90 Silber aus dem Pool, und zwar 10 von Einheit a und 80 von Einheit d, da diese als einzige noch nicht reserviert sind.
+- (5): Einheit b nimmt sich 10 Holz aus dem Pool von Einheit a.
+- (6): Einheit a gibt die restlichen 5 Eisen, die nicht reserviert waren, an Einheit d.
+- (7): Einheit b versucht 100 Silber an c zu übergeben; das einzige Silber, dass noch nicht reserviert ist, hat Einheit d (120), also werden 100 davon an c übergeben.
+- (8): Einheit b gibt 9 Holz von Einheit a an Einheit d.
+- (9): Einheit c nimmt sich zur Produktion aus dem Pool 1 Holz von Einheit a, das noch nicht reserviert ist. Sie kann also nur einen Speer bauen.
+- (10): Alle Einheiten bezahlen Unterhalt (wir nehmen an, 10 Silber pro Person).
+
+**Ergebnis:**
+
+- Einheit a hat 0 Silber, 0 Holz, 5 Eisen.
+- Einheit b hat 10 Holz, 80 Silber (20 verbraucht für Unterhalt von a und b), 10 Eisen.
+- Einheit c hat 190 Silber (10 verbraucht) und einen Speer
+- Einheit d hat 9 Holz und 10 Silber (10 verbraucht), 5 Eisen.
+
+## Historische Bemerkung
+
+In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder Spieler an- oder abschalten konnte. Es gab getrennte Einstellungen für Silber und andere Gegenstände. Nun ist der Silber- und der Materialpool für alle Parteien automatisch aktiv und nicht mehr deaktivierbar.
+
+## See also
+
+- [GIVE]
+- [RESERVE]
+- [Befehlsreihenfolge]
+
+Continue reading: [Krieg].
+
+[Krieg]: ./war.md "Krieg"
+
+<!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
+
+[RECRUIT]: ./silver.md#recruiting "RECRUIT"
+[Gebäude]: ./buildings.md "Gebäude"
+[GIVE]: ./cmd-give.md "GIVE"
+[MAKE]: ./cmd-make.md "MAKE"
+[RESERVE]: ./cmd-reserve.md "RESERVE"
+[USE]: ./cmd-use.md "USE"
+[CAST]: ./cmd-cast.md "CAST"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

@@ -1,0 +1,135 @@
+ª   X alliances ==> magic
+ª   X camouflage ==> traval
+ª   X faq ==> [X]
+ª   hints ==> getting-started-tips
+ª   index (home) ==> [X]
+ª   rules ==> introduction
+ª   introduction ==> world
+ª   silver ==> items-pool
+ª   troubleshootings ==> 
+ª   weekly-report ==> 
++---alchemy
+ª       alchemy ==> herbs
+ª       herbs ==> commands
+ª       potions-and-herbs ==>        
++---appendices
+ª       getting-started-tips ==> https://wiki.eressea.de/xontormia_express
+ª       reports ==> 
+ª       round-first ==> 
+
++---gameplay-misc
+ª       atlantis ==> 
+ª       auto-event-response ==> 
+ª       auto-learning-chains ==> 
+ª       auto-trading ==> 
+ª       auto-transport ==> 
+ª       auto-way-finding ==> 
+ª       basics ==> 
+ª       eressea ==> 
+ª       optimize-learning-chains ==> 
+ª       optimize-production ==> 
+ª       optimize-transport ==> 
+ª       optimize-way-finding ==>       
++---items
+ª       adamantium-armor ==> 
+ª       adamantium ==> 
+ª       amulet-of-true-vision ==> 
+ª       antimagic-crystal ==> 
+ª       belt-of-troll-strength ==> 
+ª       dream-eye ==> 
+ª       flaming-sword ==> 
+ª       iron-golem ==> 
+ª       mountain-guard ==> 
+ª       negative-weight-bag ==> 
+ªª      ring-of-invisibility ==> 
+ª       ring-of-power ==> 
+ª       sphere-of-invisibility ==> 
+ª       stardust ==> 
+ª       stone-golem ==> 
+ª       sun-sail ==>      
++---magic
+ª       familiars ==> 
+ª       magic-school-cerddor ==> 
+ª       magic-school-draig ==> 
+ª       magic-school-gwyrrd ==> 
+ª       magic-school-illaun ==> 
+ª       magic-school-tybied ==> 
+ª       magic-schools ==> spells-list
+ª       magic ==> magic-schools
+ª       magical-herb-bag ==> 
+ª       spells-descriptions ==> 
+ª       spells-list ==> alchemy (potions)      
++---orders
+ª       commands-list ==> round-first
+ª       commands-send ==> hints
+ª       commands-sequence ==> commands-list
+ª       commands ==> 
+ª       cmd-* ==> 
+ª       commands-extended ==> 
+ª       commands-short-descriptions ==> 
+ª       commands-send-from-magellan ==> 
++---production
+ª       production ==> resources
+ª       resources ==> items
+ª       items ==> 
+ª       roads ==> ships
+ª       ships ==> buildings  
+ª       buildings ==> castles
+ª       castles ==> buildings-others
+ª       buildings-others ==> faction-pool
++---skills
+ª       skills ==> skills-list
+ª       skills-list ==> camouflage
+ª       skills-modifiers ==> skills     
++---special-items
+ª       birthday-cake ==> 
+ª       christmas-tree ==> 
+ª       christmas ==> 
+ª       contributors ==> 
+ª       cr-format ==> 
+ª       csmapfx ==> 
+ª       development ==> 
+ª       echeck ==> 
+ª       ehmv ==> 
+ª       eressea-join ==> 
+ª       eressea-story ==> 
+ª       farmers-hike ==> 
+ª       farmers-proliferation ==> 
+ª       fftools ==> 
+ª       magellan ==> 
+ª       mistletoe ==> 
+ª       pentagram-and-tirawon ==> 
+ª       plague ==> 
+ª       play-too-much-if ==> 
+ª       player-pages ==> 
+ª       puppy-protection ==> 
+ª       shell ==> 
+ª       snowman ==> 
+ª       the-third-age ==> 
+ª       tips-and-tricks ==> 
+ª       toad ==> 
+ª       vorlage ==> 
+ª       
++---travel
+ª       travel ==> sailing
+ª       sailing ==> production     
++---war
+ª       armed ==> 
+ª       combat ==> 
+ª       tactic ==> 
+ª       war-tables ==> 
+ª       war ==> alliances
+ª       
++---world
+        faction-pool ==> silver
+        factions ==> races
+        items-pool ==> war
+        monsters ==> 
+        races ==> skills-modifiers
+        terrains ==> 
+        world ==> factions
++---misc
+        X TO IMPORT: xontormia-express ==> thanks
+        TOIMPORT: thanks => FAQ
+X FAQ
++---appendices

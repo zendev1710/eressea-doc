@@ -1,12 +1,32 @@
 site_name: Eressea
 site_url: https://zendev1710.github.io/eressea-doc
+repo_url: https://github.com/zendev1710/eressea-doc
+site_description: "Eressea documentation."
 site_author: zendev1710
 
 theme:
   name: material
+  # favicon: assets/images/favicon.ico
+  # font: false
+  # https://materialdesignicons.com/
+  # icon:
+  #   logo: material/human-greeting
+  #   logo_tech: material/bash
+  #   logo_fpv: material/quadcopter
+  # features:
+  #   - navigation.tabs
+  #   - navigation.expand
+  #   - navigation.sections
+  #   - toc.integrate
+  # custom_dir: theme_overrides
 # language: en
 
+# extra_css:
+#   - assets/stylesheets/extra.css
+copyright: Copyright &copy; 2025-2026 Cyril Guillon
+
 plugins:
+  - redirects
   - search
   - i18n:
       languages:
@@ -20,7 +40,7 @@ plugins:
         - locale: de
           name: Deutsch
           build: true
-      docs_structure: folder
+      docs_structure: suffix
       build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 
 # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/?h=language
@@ -36,8 +56,192 @@ extra:
       link: /de/
       lang: de
 
-nav:
-  - Home: home.md
-  - Getting Started: introduction.md
-  - Rules: rules.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
+# nav:
+#   - Home: index.md
+#   - Getting Started: introduction.md
+#   - Production: production.md
+#   - Money: silver.md
+#   - War: war.md
+#   - Rules: rules.md
+#   - Hints: hints.md
+#   - FAQ: faq.md
+#   - World:
+#       - faction-pool: world/faction-pool.md
+#       - items-pool: world/items-pool.md
+#       - monsters: world/monsters.md
+#       - resources: world/resources.md
+#       - roads: world/roads.md
+#       - terrains: world/terrains.md
+#       - travel: world/travel.md
+#       - world: world/world.md
+#   - Gameplay:
+#       - alliances: gameplay/alliances.md
+#       - armed: gameplay/armed.md
+#       - buildings-others: gameplay/buildings-others.md
+#       - buildings: gameplay/buildings.md
+#       - camouflage: gameplay/camouflage.md
+#       - castles: gameplay/castles.md
+#       - combat: gameplay/combat.md
+#       - factions: gameplay/factions.md
+#       - familiars: gameplay/familiars.md
+#       - races: gameplay/races.md
+#       - sailing: gameplay/sailing.md
+#       - ships: gameplay/ships.md
+#       - skills-list: gameplay/skills-list.md
+#       - skills-modifiers: gameplay/skills-modifiers.md
+#       - skills: gameplay/skills.md
+#       - tactic: gameplay/tactic.md
+#   - Gameplay Misc:
+#       - atlantis: gameplay-misc/atlantis.md
+#       - auto-event-response: gameplay-misc/auto-event-response.md
+#       - auto-learning-chains: gameplay-misc/auto-learning-chains.md
+#       - auto-trading: gameplay-misc/auto-trading.md
+#       - auto-transport: gameplay-misc/auto-transport.md
+#       - auto-way-finding: gameplay-misc/auto-way-finding.md
+#       - basics: gameplay-misc/basics.md
+#       - eressea: gameplay-misc/eressea.md
+#       - optimize-learning-chains: gameplay-misc/optimize-learning-chains.md
+#       - optimize-production: gameplay-misc/optimize-production.md
+#       - optimize-transport: gameplay-misc/optimize-transport.md
+#       - optimize-way-finding: gameplay-misc/optimize-way-finding.md
+#   - Magic:
+#       - magic-school-cerddor: magic/magic-school-cerddor.md
+#       - magic-school-draig: magic/magic-school-draig.md
+#       - magic-school-gwyrrd: magic/magic-school-gwyrrd.md
+#       - magic-school-illaun: magic/magic-school-illaun.md
+#       - magic-school-tybied: magic/magic-school-tybied.md
+#       - magic-schools: magic/magic-schools.md
+#       - magic: magic/magic.md
+#       - spells-descriptions: magic/spells-descriptions.md
+#       - spells-list: magic/spells-list.md
+#   - Orders:
+#       - cmd-attack: commands/cmd-attack.md
+#       - cmd-banner: commands/cmd-banner.md
+#       - cmd-buy: commands/cmd-buy.md
+#       - cmd-carry: commands/cmd-carry.md
+#       - cmd-cast: commands/cmd-cast.md
+#       - cmd-claim: commands/cmd-claim.md
+#       - cmd-combat: commands/cmd-combat.md
+#       - cmd-combatspell: commands/cmd-combatspell.md
+#       - cmd-comment: commands/cmd-comment.md
+#       - cmd-contact: commands/cmd-contact.md
+#       - cmd-default: commands/cmd-default.md
+#       - cmd-describe: commands/cmd-describe.md
+#       - cmd-destroy: commands/cmd-destroy.md
+#       - cmd-email: commands/cmd-email.md
+#       - cmd-end: commands/cmd-end.md
+#       - cmd-enter: commands/cmd-enter.md
+#       - cmd-entertain: commands/cmd-entertain.md
+#       - cmd-follow: commands/cmd-follow.md
+#       - cmd-forget: commands/cmd-forget.md
+#       - cmd-give: commands/cmd-give.md
+#       - cmd-group: commands/cmd-group.md
+#       - cmd-grow: commands/cmd-grow.md
+#       - cmd-guard: commands/cmd-guard.md
+#       - cmd-help: commands/cmd-help.md
+#       - cmd-hide: commands/cmd-hide.md
+#       - cmd-language: commands/cmd-language.md
+#       - cmd-learn-auto: commands/cmd-learn-auto.md
+#       - cmd-learn: commands/cmd-learn.md
+#       - cmd-leave: commands/cmd-leave.md
+#       - cmd-make: commands/cmd-make.md
+#       - cmd-message: commands/cmd-message.md
+#       - cmd-move: commands/cmd-move.md
+#       - cmd-name: commands/cmd-name.md
+#       - cmd-next: commands/cmd-next.md
+#       - cmd-number: commands/cmd-number.md
+#       - cmd-option: commands/cmd-option.md
+#       - cmd-origin: commands/cmd-origin.md
+#       - cmd-password: commands/cmd-password.md
+#       - cmd-pay-not: commands/cmd-pay-not.md
+#       - cmd-piracy: commands/cmd-piracy.md
+#       - cmd-plant: commands/cmd-plant.md
+#       - cmd-prefix: commands/cmd-prefix.md
+#       - cmd-promote: commands/cmd-promote.md
+#       - cmd-quit: commands/cmd-quit.md
+#       - cmd-recruit: commands/cmd-recruit.md
+#       - cmd-region: commands/cmd-region.md
+#       - cmd-research: commands/cmd-research.md
+#       - cmd-reserve: commands/cmd-reserve.md
+#       - cmd-ride: commands/cmd-ride.md
+#       - cmd-route: commands/cmd-route.md
+#       - cmd-sell: commands/cmd-sell.md
+#       - cmd-semicolon: commands/cmd-semicolon.md
+#       - cmd-show: commands/cmd-show.md
+#       - cmd-sort: commands/cmd-sort.md
+#       - cmd-spy: commands/cmd-spy.md
+#       - cmd-steal: commands/cmd-steal.md
+#       - cmd-tax: commands/cmd-tax.md
+#       - cmd-teach: commands/cmd-teach.md
+#       - cmd-unit: commands/cmd-unit.md
+#       - cmd-use: commands/cmd-use.md
+#       - cmd-work: commands/cmd-work.md
+#       - commands-extended: commands/commands-extended.md
+#       - commands-list: commands/commands-list.md
+#       - commands-send-from-magellan: commands/commands-send-from-magellan.md
+#       - commands-send: commands/commands-send.md
+#       - commands-sequence: commands/commands-sequence.md
+#       - commands-short-descriptions: commands/commands-short-descriptions.md
+#       - commands: commands/commands.md
+#   - Items:
+#       - adamantium-armor: items/adamantium-armor.md
+#       - adamantium: items/adamantium.md
+#       - alchemy: items/alchemy.md
+#       - amulet-of-true-vision: items/amulet-of-true-vision.md
+#       - antimagic-crystal: items/antimagic-crystal.md
+#       - belt-of-troll-strength: items/belt-of-troll-strength.md
+#       - dream-eye: items/dream-eye.md
+#       - flaming-sword: items/flaming-sword.md
+#       - herbs: items/herbs.md
+#       - iron-golem: items/iron-golem.md
+#       - magical-herb-bag: items/magical-herb-bag.md
+#       - mountain-guard: items/mountain-guard.md
+#       - negative-weight-bag: items/negative-weight-bag.md
+#       - potions-and-herbs: items/potions-and-herbs.md
+#       - ring-of-invisibility: items/ring-of-invisibility.md
+#       - ring-of-power: items/ring-of-power.md
+#       - sphere-of-invisibility: items/sphere-of-invisibility.md
+#       - stardust: items/stardust.md
+#       - stone-golem: items/stone-golem.md
+#       - sun-sail: items/sun-sail.md
+#   - Special Items:
+#       - birthday-cake: special-items/birthday-cake.md
+#       - christmas-tree: special-items/christmas-tree.md
+#       - christmas: special-items/christmas.md
+#       - contributors: special-items/contributors.md
+#       - cr-format: special-items/cr-format.md
+#       - csmapfx: special-items/csmapfx.md
+#       - development: special-items/development.md
+#       - echeck: special-items/echeck.md
+#       - ehmv: special-items/ehmv.md
+#       - eressea-join: special-items/eressea-join.md
+#       - eressea-story: special-items/eressea-story.md
+#       - farmers-hike: special-items/farmers-hike.md
+#       - farmers-proliferation: special-items/farmers-proliferation.md
+#       - fftools: special-items/fftools.md
+#       - magellan: special-items/magellan.md
+#       - mistletoe: special-items/mistletoe.md
+#       - pentagram-and-tirawon: special-items/pentagram-and-tirawon.md
+#       - plague: special-items/plague.md
+#       - play-too-much-if: special-items/play-too-much-if.md
+#       - player-pages: special-items/player-pages.md
+#       - puppy-protection: special-items/puppy-protection.md
+#       - shell: special-items/shell.md
+#       - snowman: special-items/snowman.md
+#       - the-third-age: special-items/the-third-age.md
+#       - tips-and-tricks: special-items/tips-and-tricks.md
+#       - toad: special-items/toad.md
+#       - vorlage: special-items/vorlage.md
+#   - Appendices:
+#       - getting-started-tips: appendices/getting-started-tips.md
+#       - reports: appendices/reports.md
+#       - round-first: appendices/round-first.md
+#       - war-tables: appendices/war-tables.md
+
+
 

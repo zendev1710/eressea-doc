@@ -2,6 +2,8 @@
 
 MkDocs project for Eressea documentation.
 
+[Weblate](https://hosted.weblate.org) is used for translations (see [**Eressea Documentation** Weblate project](https://hosted.weblate.org/projects/eressea-doc/)).
+
 ## Pages
 
 | page                          | DE | EN | FR | GERMAN LINK TO WIKI PAGE             | status |

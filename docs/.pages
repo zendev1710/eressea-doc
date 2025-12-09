@@ -1,11 +1,9 @@
 nav:
   - index.md
   - introduction.md
-  - getting-started.md
   - rules.md
   - world.md
   - factions.md
-  - races
   - skills
   - camouflage.md
   - travel
@@ -19,13 +17,12 @@ nav:
   - orders
   - misc
   - appendices
-
-
-
-
-  # - hints.md
-  # - world
-  # - gameplay
-  # - gameplay-misc
-  # - items
-  # - special-items
+  - assets
+  - items
+  - faq.md
+  - hints.md
+  - items-pool.md
+  - races.md
+  - tips-and-tricks.md
+  - troubleshootings.md
+  - weekly-report.md

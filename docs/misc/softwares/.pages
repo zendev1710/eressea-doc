@@ -1,14 +1,7 @@
 nav:
-  - atlantis.md
-  - auto-event-response.md
-  - auto-learning-chains.md
-  - auto-trading.md
-  - auto-transport.md
-  - auto-way-finding.md
-  - basics.md
-  - eressea.md
-  - optimize-learning-chains.md
-  - optimize-production.md
-  - optimize-transport.md
-  - optimize-way-finding.md
-
+  - csmapfx.md
+  - echeck.md
+  - ehmv.md
+  - fftools.md
+  - magellan.md
+  - vorlage.md

@@ -4,6 +4,4 @@ nav:
   - items.md
   - roads.md
   - ships.md
-  - buildings.md
-  - castles.md
-  - buildings-others.md
+  - buildings

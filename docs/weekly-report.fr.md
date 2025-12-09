@@ -1,4 +1,4 @@
-# Wochenbericht
+# Rapport hebdomadaire
 
 Der Wochenbericht ist eine kleine Statistik für Eressea. Er beginnt mit dem Ingame Datum, der Auswertungsnummer und einigen Zahlen zur allgemeinen Spielerentwicklung. Darauf folgt die Auflistung der Parteienzahl nach Rasse sortiert, gefolt von der Personanzahl pro Rasse. Abgeschlossen wird er mit der Anzahl der NMR und der Zahl neuer Spieler. Er wird zusammen mit dem Report als .txt Datei versendet und erscheint damit, wie der Name bereits vermuten lässt, wöchentlich. Früher wurde die Absolute Veränderungszahlen und bei den Personen pro Rasse auch die Prozentuale veränderung mit angegeben. Das ist jedoch seit einigen Jahren nicht mehr so.
 

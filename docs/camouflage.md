@@ -1,4 +1,4 @@
-# Tarnung
+# Camouflage
 
 Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
 
@@ -10,11 +10,11 @@ Getarnte Einheiten kann man mit dem Talent *Wahrnehmung* entdecken. Ist das best
 
 Für erfolgreich getarnte Einheiten zählen die Restriktionen von [GUARD][Bewacht] nicht. Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
 
-## Fluchtchance erhöhen
+## Increase chance of escape
 
 Die Standardfluchtchance einer Einheit im [Kampf] beträgt 25% (Halblinge 50%). Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%. Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NOT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann. Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
 
-## Diebstahl von Silber
+## Theft of Silver
 
 Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [`STEAL`] Silber stehlen. Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region. Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber. Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen. Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem. Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch. Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
 
@@ -24,7 +24,7 @@ Rechnet man damit, erfolgreich beklaut zu werden, hilft es nur, Silber in die be
 
 Diebstahl stellt hin und wieder eine effektive Möglichkeit dar, Spione zur Strecke zu bringen, die ihrerseits gut getarnt sind, da diese bei Angriffen durch ihre hohe Tarnung eine hohe Fluchtchance haben.
 
-## Spionage
+## Espionage
 
 Gibt eine Einheit mit dem Talent [Spionage] den Befehl [`SPY`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen. Die Grundchance für einen erfolgreichen Spionageversuch ist 10%. Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%. Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren. Um eine Erfolgschance von 50% zu erreichen muss der Spion 8 Stufen besser sein. Lernt man nun wenigstens Tarnung 2 braucht der Spion überproportional länger um die 8 Stufen zu erreichen.
 
@@ -43,17 +43,16 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 - [GUARD][Bewacht]
 - [Einnahmen]
 
-|--------------|----------|
-| Weiterlesen: | [Reisen] |
+Continue reading: [Reisen].
 
 [Reisen]: ./travel.md "Reisen"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Talent]: ./skills.md "Talente"
+[Talent]: ./skills.md "Skills"
 [Bewacht]: ./cmd-guard.md "GUARD"
-[Kampf]: ./war.md#fleeing "Krieg"
+[Kampf]: ./war.md#fleeing "War"
 [`STEAL`]: ./cmd-steal.md "STEAL"
-[Spionage]: ./skills-list.md#espionage "Spionage"
+[Spionage]: ./skills-list.md#espionage "Espionage"
 [Kampfstatus]: ./cmd-combat.md "COMBAT"
-[Einnahmen]: ./silver.md#stealing-the-dishonest-way "Einnahmen"
+[Einnahmen]: ./silver.md#stealing-the-dishonest-way "Stealing: the dishonest way"

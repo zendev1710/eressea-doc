@@ -26,8 +26,11 @@ theme:
 copyright: Copyright &copy; 2025-2026 Cyril Guillon
 
 plugins:
+  # - categories
   - redirects
   - search
+  # - autorefs
+  # - live-edit
   - i18n:
       languages:
         - locale: en
@@ -58,6 +61,7 @@ extra:
 
 markdown_extensions:
   - admonition
+  # - attr_list
   - pymdownx.details
   - pymdownx.superfences
   

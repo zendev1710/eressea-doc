@@ -1,28 +1,27 @@
 nav:
   - index.md
   - introduction.md
-  - rules.md
+  # - rules.md
   - world.md
   - factions.md
+  - races
   - skills
   - camouflage.md
   - travel
   - production
   - faction-pool.md
   - silver.md
-  - war
+  - items-pool.md
+  - war.md
   - alliances.md
   - magic
   - alchemy
   - orders
-  - misc
-  - appendices
-  - assets
-  - items
-  - faq.md
   - hints.md
-  - items-pool.md
-  - races.md
   - tips-and-tricks.md
+  # - misc
+  - faq.md
   - troubleshootings.md
-  - weekly-report.md
+  - appendices
+  # - assets
+  # - weekly-report.md

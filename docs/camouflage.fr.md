@@ -1,6 +1,6 @@
 # Discrétion
 
-La [compétence] *stealth* permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [GUARD] une région ou se trouve sur un bateau ou dans un bâtiment.
+La [compétence] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [garde] une région, se trouve sur un bateau ou dans un bâtiment.
 
 ## Contre-mesures
 
@@ -49,6 +49,7 @@ Poursuivre la lecture : [déplacements](./travel.md).
 
 [compétence]: ./skills.md "Talente"
 [GUARD]: ./cmd-guard.md "GUARD"
+[garde]: ./cmd-guard.md "Garde"
 [combat]: ./war.md#la-fuite "Guerre"
 [`STEAL`]: ./camouflage.md "STEAL"
 [espionnage]: ./skills-list.md#espionnage "Spionage"

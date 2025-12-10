@@ -1,58 +1,58 @@
 # Camouflage
 
-Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
+The **Stealth** [skill] allows you to camouflage yourself from other units. However, if a unit [is guarding] the region, or is on a ship or in a building, it is always visible.
 
-## Gegenmaßnahmen
+## Countermeasures
 
-Getarnte Einheiten kann man mit dem Talent *Wahrnehmung* entdecken. Ist das beste Wahrnehmungstalent deiner Partei in der Region kleiner als das Tarnungstalent einer fremden Einheit, erscheint die getarnte Einheit nicht in der Auswertung - sie wird unsichtbar. Sind Wahrnehmungstalent und Tarnungstalent gleich groß, so erscheint die getarnte Einheit in der Auswertung. Dies ist die Ausgangslage wenn man das Spiel beginnt, da alle neuen Einheiten Tarnung und Wahrnehmung auf Stufe 0 haben.
+Camouflaged units can be detected using the **Perception** skill. If your faction's highest Perception skill in the region is lower than the Camouflage skill of an opposing unit, the camouflaged unit will not appear in the report — it will be invisible. If the Perception and Camouflage skills are equal, the camouflaged unit will appear in the report. This is the starting situation when you begin the game, as all new units have Stealth and Perception at level 0.
 
-## Bewachen unterlaufen
+## Counter the guard
 
-Für erfolgreich getarnte Einheiten zählen die Restriktionen von [GUARD][Bewacht] nicht. Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
+For successfully disguised units, the restrictions of [GUARD] do not apply. They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.
 
 ## Increase chance of escape
 
-Die Standardfluchtchance einer Einheit im [Kampf] beträgt 25% (Halblinge 50%). Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%. Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NOT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann. Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
+The standard escape chance of a unit in [combat] is 25% (halflings 50%). Each level of camouflage increases the unit's escape chance by 5%. A horse increases a person's escape chance by 10% once (so 5 horses do NOT give a person +50%, but only +10%), regardless of whether the unit can ride. The maximum escape chance is 75% (halflings 90%).
 
 ## Theft of Silver
 
-Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [`STEAL`] Silber stehlen. Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region. Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber. Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen. Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem. Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch. Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
+Successful stealers can steal silver from other units using the [`STEAL`] command. The highest Perception skill of the targeted party in the region determines the amount stolen. For each skill level difference, each thief steals 50 silver. The silver is **always** stolen from the entire silver pool of the targeted party in the region. The targeted party receives a notification that they have been robbed, but not by whom. If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt. If the stealth is too poor, the targeted party receives a notification with the names of the thieves.
 
-Goblins klauen, sofern sie Tarnung bis mindestens Stufe 4 gelernt haben, immer mindestens 50 Silber, auch wenn ihre Tarnung unter dem Wahrnehmungstalent liegt. Solcher Diebstahl fällt natürlich auf und ist daher nur unter bestimmten Umständen sinnvoll. Man hört, Goblinarmeen haben dem Gegner schon durch Nahrungsentzug den entscheidenden Schlag versetzt.
+Goblins, provided they have learned at least level 4 of stealth, always steal at least 50 silver, even if their stealth skill is lower than their Perception skill. Such theft is, of course, noticeable and therefore only makes sense under certain circumstances. It is said that goblin armies have even dealt the enemy a decisive blow by depriving them of food.
 
-Rechnet man damit, erfolgreich beklaut zu werden, hilft es nur, Silber in die betroffene Region zu schaffen, da selbst die Einnahmen aus Unterhaltung, Steuereintreiben, Arbeiten und Handel von den Dieben geklaut werden können.
+If you expect to be successfully robbed, the only solution is to bring silver into the affected region, as even income from entertainment, tax collection, work and trade can be stolen by the thieves.
 
-Diebstahl stellt hin und wieder eine effektive Möglichkeit dar, Spione zur Strecke zu bringen, die ihrerseits gut getarnt sind, da diese bei Angriffen durch ihre hohe Tarnung eine hohe Fluchtchance haben.
+Theft occasionally presents an effective way to bring down spies who are themselves well disguised, as their high level of camouflage gives them a high chance of escape during attacks.
 
 ## Espionage
 
-Gibt eine Einheit mit dem Talent [Spionage] den Befehl [`SPY`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen. Die Grundchance für einen erfolgreichen Spionageversuch ist 10%. Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%. Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren. Um eine Erfolgschance von 50% zu erreichen muss der Spion 8 Stufen besser sein. Lernt man nun wenigstens Tarnung 2 braucht der Spion überproportional länger um die 8 Stufen zu erreichen.
+If a unit with the [Espionage] skill issues the command [`SPY`*`unit-nr`*], its espionage skill is compared to the target unit's camouflage value. The base chance for a successful espionage attempt is 10%. For each skill level by which the espionage skill exceeds the target's camouflage skill, the latter increases by 5%. A high camouflage skill thus helps the unit to make a successful espionage attempt more difficult. To achieve a 50% success rate, the spy must be 8 levels higher. If the spy learns at least camouflage level 2, it takes disproportionately longer to reach those 8 levels.
 
-Ist der Spionageversuch erfolgreich, erfährt der Spion den Kampfstatus, die Gegenstände im Besitz der Einheit und die Talente. Die Parteizugehörigkeit kann zusätzlich ermittelt werden, wenn das Spionagetalent mindestens 6 Talentstufen über dem Tarnungstalent der Einheit liegt. Eine hohe Tarnung ist also sinnvoll für eine gelungene Parteitarnung.
+If the espionage attempt is successful, the spy learns the unit's combat status, the items it possesses, and its skills. Faction affiliation can also be determined if the spy's espionage skill is at least six levels higher than the unit's stealth skill. Therefore, a high stealth skill is advantageous for successful faction concealment.
 
-Anschließend wird - unabhängig vom Erfolg - gewürfelt, ob der Spionageversuch bemerkt wurde. Die Wahrscheinlichkeit dafür ist (100 − SpionageSpion \* 5 + WahrnehmungOpfer \* 2)%.
+Then, regardless of success, a die is rolled to determine whether the espionage attempt was detected. The probability of this is (100 − Espionage * Spy 5 + Perception Victim 2)%.
 
-## Einschätzung
+## Remarks
 
-Viele Völker lagern ihre Waren bei einer sehr gut getarnten Einheit pro Region ([Kampfstatus][]: `COMBAT NOT` oder `FLIEHE`). Die Gegenstände sind so vor einer Vielzahl von Gefahren geschützt, solange kein gegnerischer Wahrnehmer den Tarner auffliegen lässt.
+Many factions store their goods with a highly camouflaged unit per region ([combat status][]: `COMBAT NOT` or `FLEE`). The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.
 
-Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgebildeten Tarnern auf Informationsbeschaffung gehen oder die Möglichkeit des Diebstahls nutzen.
+In addition to these passive applications of camouflage, one can of course use well-trained camouflaged individuals to gather information or take advantage of the possibility of theft.
 
 ## See also
 
 - [GUARD][Bewacht]
-- [Einnahmen]
+- [revenue]
 
-Continue reading: [Reisen].
+Continue reading: [Travel].
 
-[Reisen]: ./travel.md "Reisen"
+[Travel]: ./travel.md "Travel"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Talent]: ./skills.md "Skills"
+[Skill]: ./skills.md "Skills"
 [Bewacht]: ./cmd-guard.md "GUARD"
-[Kampf]: ./war.md#fleeing "War"
+[combat]: ./war.md#fleeing "War"
 [`STEAL`]: ./cmd-steal.md "STEAL"
-[Spionage]: ./skills-list.md#espionage "Espionage"
-[Kampfstatus]: ./cmd-combat.md "COMBAT"
-[Einnahmen]: ./silver.md#stealing-the-dishonest-way "Stealing: the dishonest way"
+[Espionage]: ./skills-list.md#espionage "Espionage"
+[Combat status]: ./cmd-combat.md "COMBAT"
+[revenue]: ./silver.md#stealing-the-dishonest-way "Stealing: the dishonest way"

@@ -1,4 +1,4 @@
-# Vertraute
+# Familiars
 
 Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt. Dennoch sind Vertraute in der Lage Zauber zu wirken. Sie bedienen sich jedoch sowohl bei den Zaubern, als auch bei der Aura und anderen Komponenten stets beim Magier. Die maximale Entfernung für auf solche weise gewirkte Zauber entspricht dem Talent des Magiers. Vertraute unterliegen bei diesen Zaubern jedoch gewissen Einschränkungen. Die Stufe des Zaubers kann nicht größer als das Magietalent des Vertrauten oder das halbe Talent des Magiers sein. Auch verdoppeln sich die Kosten für den Spruch.
 
@@ -6,47 +6,47 @@ In seltenen Fällen jedoch können es magiebegabte Wesen sein, welche sich als V
 
 Außerdem können viele Vertraute bestimmte Talente lernen oder haben besondere Fähigkeiten. Aufgrund ihrer grundlegend anderen Sichtweise, können sie jedoch ihr Wissen nicht durch Lehren weitergeben. Der Vertraute verleiht dem Magier einen Bonus in Höhe des halben Talentwertes auf jedes Talent (ausgenommen Magie), welches der Vertraute beherrscht. Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [SHOW] genau in Erinnerung zu rufen.
 
-## Vertrautenrassen
+## Familiar breeds
 
 Die Welt und die Magie Eresseas kennt verschiedene Rassen, die sich einem Magier als Vertraute anschließen können
 
-### Adler
+### Eagle
 
 Der Adler ist ein ausgezeichneter Späher, fliegend überquert er sogar kurze Meerengen, doch ist er hoch oben am Himmel auch sehr exponiert, was ihn beim Rasten zu einem leichten Ziel macht.
 
 15 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 2. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d3). Magie +0, Spionage +0, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
 
-### Dämon
+### Demon
 
 [Dämonen] sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
 
 50 Trefferpunkte, Magieresistenz 15, Angriff: -2, Verteidigung: -2, Rüstung: 2. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5), ein magischer Angriff. Alchemie +2, Armbrustschießen +0, Bergbau +0, Bogenschießen +0, Burgenbau +0, Handeln -3, Holzfällen +1, Katapultbedienung +0, Kräuterkunde -3, Magie +1, Pferdedressur -3, Reiten -1, Rüstungsbau +0, Schiffbau -1, Hiebwaffen +1, Segeln -1, Stangenwaffen +1, Spionage +0, Steinbau +0, Straßenbau +0, Taktik -1, Tarnung +1, Unterhaltung -3, Waffenbau +1, Wagenbau -2, Wahrnehmung +1, Steuereintreiben +1 und Ausdauer +0
 
-### Delphin
+### Dolphin
 
 Keine Informationen über diese Rasse verfügbar.
 
 24 Trefferpunkte, Magieresistenz 0, Angriff: 5, Verteidigung: 5. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Einhorn
+### Unicorn
 
 Dieses mystische Wesen lebt bevorzugt in den tiefsten Wäldern und vermag sich hervorragend vor den Augen anderer zu verbergen. Nur selten schließt sich ein Einhorn einem Magier an, jedoch wenn das geschieht ist es ein mächtiger Verbündeter, der auch über eigene Magie verfügt.
 
 40 Trefferpunkte, Magieresistenz 90, Angriff: 6, Verteidigung: 4. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (3d12), ein unbewaffneter Angriff (2d4). Magie +2, Spionage +0, Taktik +0, Tarnung +4, Wahrnehmung +5, Ausdauer +0 und Waffenloser Kampf +0
 
-### Eule
+### Owl
 
 Keine Informationen über diese Rasse verfügbar.
 
 9 Trefferpunkte, Magieresistenz 0, Angriff: 2, Verteidigung: 4. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d4). Magie +0, Spionage +1, Tarnung +1, Wahrnehmung +5, Ausdauer +0 und Waffenloser Kampf +0
 
-### Fee
+### Fairy
 
 Keine Informationen über diese Rasse verfügbar.
 
 6 Trefferpunkte, Magieresistenz 80, Angriff: 6, Verteidigung: 14. Kann Waffen benutzen. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3). Magie +1, Reiten -1, Hiebwaffen -1, Stangenwaffen -1, Spionage +2, Tarnung +5, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
 
-### Geist
+### Ghost
 
 Keine Informationen über diese Rasse verfügbar.
 
@@ -58,49 +58,49 @@ Keine Informationen über diese Rasse verfügbar.
 
 16 Trefferpunkte, Magieresistenz -5, Angriff: -2, Verteidigung: 0. Kann Waffen benutzen. 2 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5). Alchemie +1, Armbrustschießen +0, Bergbau +1, Bogenschießen +0, Burgenbau +1, Handeln -1, Holzfällen +0, Katapultbedienung +1, Kräuterkunde +0, Magie -1, Pferdedressur +0, Reiten +0, Rüstungsbau +0, Schiffbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +0, Steinbau +0, Straßenbau -2, Taktik -2, Tarnung +1, Unterhaltung -1, Waffenbau +0, Wagenbau -1, Wahrnehmung +0, Steuereintreiben +0 und Ausdauer +0
 
-### Höllenkatze
+### Hellcat
 
 Keine Informationen über diese Rasse verfügbar.
 
 40 Trefferpunkte, Magieresistenz 50, Angriff: 6, Verteidigung: 4. Ist durch Stichwaffen, Bögen und Armbrüste schwer zu verwunden. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d6), ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Krake
+### Octopus
 
 Keine Informationen über diese Rasse verfügbar.
 
 300 Trefferpunkte, Magieresistenz 0, Angriff: 7, Verteidigung: 7. 7 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10). Magie +0, Spionage +0, Taktik +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Luchs
+### Lynx
 
 Der Luchs ist bekannt für seine Geschicklichkeit im Verbergen und Beobachten. Mit ein wenig Geduld kann er zu einem hervorragenden Späher ausgebildet werden. Im Kampf verteidigt er sich mit seinen scharfen Krallen und weiß seine Gewandheit zu nutzen.
 
 20 Trefferpunkte, Magieresistenz 0, Angriff: 4, Verteidigung: 5. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d3). Kräuterkunde +1, Magie +0, Pferdedressur +1, Spionage +3, Tarnung +3, Wahrnehmung +4, Ausdauer +0 und Waffenloser Kampf +0
 
-### Nymphe
+### Nymph
 
 Keine Informationen über diese Rasse verfügbar.
 
 15 Trefferpunkte, Magieresistenz 90, Angriff: 3, Verteidigung: 1. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d4), ein magischer Angriff. Alchemie +0, Armbrustschießen +0, Bogenschießen +2, Handeln -2, Kräuterkunde +4, Magie +1, Pferdedressur +5, Reiten +5, Rüstungsbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +2, Taktik -2, Tarnung +3, Unterhaltung +10, Waffenbau -2, Wagenbau -2, Wahrnehmung +2, Steuereintreiben -2, Ausdauer -1 und Waffenloser Kampf +0
 
-### Ratte
+### Rat
 
 Keine Informationen über diese Rasse verfügbar.
 
 10 Trefferpunkte, Magieresistenz 0, Angriff: 1, Verteidigung: 1. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d4), ein unbewaffneter Angriff (1d4). Magie +0, Spionage +5, Tarnung +4, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
 
-### Riesenschildkröte
+### Giant tortoise
 
 Keine Informationen über diese Rasse verfügbar.
 
 900 Trefferpunkte, Magieresistenz 0, Angriff: 10, Verteidigung: 5, Rüstung: 7. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d50). Magie +0, Spionage +0, Taktik +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Singdrache
+### Singing Dragon
 
 Singdrachen sind von der Größe eines ausgewachsenden Tigers. Ihre Färbung reicht von schillerndem Rot, über dunkles Grün bis hin zu tiefem Schwarz. Alle bekannten Drachen dieser Art weisen eine hohe Intelligenz und ein hohes Maß an magischen Fähigkeiten auf. Wie Ihre großen Verwandten verfügen sie über einen Feuerodem. Sie lieben den Gesang und das üppige Mahl. Von Zeit zu Zeit gehen sie eine engen magisches Bund zu einem Magier ein. Wenn dies geschieht, so steht dem Magier ein äußerst loyaler und lohnender Vertrauter zur Seite.
 
 40 Trefferpunkte, Magieresistenz 99, Angriff: 3, Verteidigung: 1, Rüstung: 1. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein magischer Angriff. Magie +1, Spionage +0, Tarnung +0, Wahrnehmung +0, Ausdauer +0 und Waffenloser Kampf +0
 
-### Teufelchen
+### Devil
 
 Keine Informationen über diese Rasse verfügbar.
 
@@ -112,13 +112,13 @@ Keine Informationen über diese Rasse verfügbar.
 
 30 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 3. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d6), ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Traumkatze
+### Dreamcat
 
 Keine Informationen über diese Rasse verfügbar.
 
 10 Trefferpunkte, Magieresistenz 50, Angriff: 5, Verteidigung: 6. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d5), ein unbewaffneter Angriff (1d5). Magie +1, Hiebwaffen +0, Stangenwaffen +0, Spionage +1, Tarnung +1, Wahrnehmung +1, Steuereintreiben +1, Ausdauer +0 und Waffenloser Kampf +0
 
-### Tunnelwurm
+### Tunnel worm
 
 Diese aus den Tiefen Eresseas stammende gigantische Geschöpf ist dem Leben im Untergrund hervorragend angepasst. Blind, taub und nicht besonders intelligent, aber mit seinen gewaltigen Kräften kann es ganze Berge versetzen oder Wälder roden.
 
@@ -130,7 +130,7 @@ Keine Informationen über diese Rasse verfügbar.
 
 25 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 3. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d4), ein unbewaffneter Angriff (1d4). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
 
-## Talentmodifikation
+## Skill modifiers
 
 Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus. Einige sind selbst magiebegabt und verfügen über eigene Aura. Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren. Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben. Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
 
@@ -176,7 +176,7 @@ Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lerne
 | Wagenbau                    |       | \-2   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
 | Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
 
-## Zuteilung von Vertrauten
+## Assignment of Familiars
 
 Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig. Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
 

@@ -1,4 +1,4 @@
-# Compétences
+# Skills
 
 Les compétences sont un élément essentiel qui définit une [unité] dans Eressea. Toutes les personnes d'une unité ont les mêmes compétences. Elles doivent d'abord les apprendre. Pour être précis, avec l'ordre [`LEARN`], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
 
@@ -6,7 +6,7 @@ Certaines compétences s'améliorent également en les utilisant. Si l'unité ut
 
 Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser. Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence. Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.
 
-## Apprendre des compétences
+## Learn talents
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau. En moyenne, la progression vers un nouveau niveau de compétence avec la commande [`LEARN`] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race] ou le terrain. Le temps d'apprentissage minimal est d'1 semaine. La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1). Les valeurs extrêmes sont moins fréquentes que la valeur moyenne. Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines. Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
 
@@ -38,7 +38,7 @@ Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiemen
 
 Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence. Ceci est possible avec l'ordre [`FORGET`].
 
-## Mélanger les compétences
+## Mixing skills
 
 Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu. Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi. Tu devrais donc éviter autant que possible de fusionner inutilement des unités.
 
@@ -50,35 +50,35 @@ Expérience de jeu : Solthar Tatsächlich ist die Sache komplizierter. Das kann
 
 Beim Mischen von (5,1) und (1,1), also Personen, die schon fast den nächsten Aufstieg geschafft haben, käme sogar (4,4) heraus. Beim Mischen von (5,11) und (1,3) ergibt sich hingegen (3,5) als neuer Wert. Es ist also nicht möglich, den Talentwert einer gemischten Einheit genau vorherzusagen. Es kann lediglich ein Minimal- und Maximalwert angegeben werden.
 
-## Utilisations des compétences
+## Use of skills
 
 Les compétences permettent aux unités de faire certaines choses. Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée. Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes \* le niveau de compétence.
 
 Les compétences peuvent être divisées en plusieurs groupes :
 
-### Compétences pour la production
+### Skills for production
 
 alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking
 
 Il s'agit du plus grand groupe de compétences. Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes. Elles sont expliquées plus en détail dans les chapitres [production] et [alchimie][2].
 
-### Compétences pour gagner de l'argent
+### Skills for making money
 
 Trade, taxation et entertainment sont nécessaires pour générer des Silver. Pour en savoir plus, consultez le chapitre sur [l'argent].
 
-### Dissimulation & Co
+### Concealment & Co
 
 [espionage], [stealth] et [perception] sont centrés sur la dissimulation. Elles ont leur propre chapitre.
 
-### Pour les déplacements
+### For travel
 
 Sailing et riding sont expliquées dans le chapitre sur les [déplacements]. riding est également abordé dans le chapitre des [combats].
 
-### La magie
+### Magic
 
 [magic][magie] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
 
-### Compétences de combat
+### Combat skills
 
 Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [batailles], que ce soit contre d'autres factions ou des monstres.
 

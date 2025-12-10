@@ -50,7 +50,7 @@ Expérience de jeu : Solthar Tatsächlich ist die Sache komplizierter. Das kann
 
 Beim Mischen von (5,1) und (1,1), also Personen, die schon fast den nächsten Aufstieg geschafft haben, käme sogar (4,4) heraus. Beim Mischen von (5,11) und (1,3) ergibt sich hingegen (3,5) als neuer Wert. Es ist also nicht möglich, den Talentwert einer gemischten Einheit genau vorherzusagen. Es kann lediglich ein Minimal- und Maximalwert angegeben werden.
 
-## Utilisations des compétences
+## Utilisation des compétences
 
 Les compétences permettent aux unités de faire certaines choses. Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée. Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes \* le niveau de compétence.
 

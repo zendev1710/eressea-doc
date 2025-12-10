@@ -6,7 +6,7 @@ Dans de rares cas, cependant, il peut s'agir d'êtres doués de magie qui se lai
 
 De plus, de nombreux familiers peuvent apprendre certains talents ou ont des compétences particulières. Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant. Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise. Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [SHOW].
 
-## Races de familiers
+## Races de Familiers
 
 Le monde et la magie d'Eressea connaissent différentes races qui peuvent se lier à un mage en tant que familiers.
 
@@ -176,7 +176,7 @@ Les familiers sont très différents les uns des autres. Tous les familiers ne p
 | Wagenbau                    |       | \-2   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
 | Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
 
-## Zuteilung von Vertrauten
+## Attribution de familiers
 
 Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig. Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
 

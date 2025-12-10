@@ -1,4 +1,4 @@
-# Produktion
+# Production
 
 Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MAKE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MAKE Eisen, MAKE Schwert` oder `MAKE 15 Elfenbogen`.
 

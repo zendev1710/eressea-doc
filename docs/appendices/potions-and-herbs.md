@@ -1,6 +1,6 @@
-# Tabellen: Tränke und Kräuter
+# Tables: Potions and Herbs
 
-## Liste der alchemistischen Tränke und Kräuter
+## List of alchemical potions and herbs
 
 Liste der alchemistischen Tränke
 

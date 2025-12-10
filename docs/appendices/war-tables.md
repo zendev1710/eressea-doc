@@ -1,8 +1,8 @@
-# Kriegstabellen
+# War tables
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.
 
-## Waffeneigenschaften
+## Weapon properties
 
 Waffenschäden
 
@@ -43,7 +43,7 @@ Waffenschäden
 - Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und -rüstungen um 30%. Details zur Magieresistenz folgen unten.
 - Ein Flammenschwert zaubert pro Kampfrunde zusätzlich einen kleinen Feuerball.
 
-## Ausdauer
+## Endurance
 
 Erhöhte Trefferpunkte durch Ausdauer  
 Die Formel dazu ist (Talent/2)^(1,5)\*20%

@@ -1,4 +1,4 @@
-# Zauberbeschreibungen E2
+# Description des sorts
 
 ## A
 

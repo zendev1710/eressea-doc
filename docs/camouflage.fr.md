@@ -4,7 +4,7 @@ La [compétence] **Stealth** permet de se camoufler aux yeux des autres unités.
 
 ## Contre-mesures
 
-Les unités camouflées peuvent être découvertes grâce à la compétence *perception*. Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en stealth d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible. Si le niveau de perception et le niveau de stealth sont égaux, l'unité camouflée apparaît dans le rapport. C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités ont stealth et perception au niveau 0.
+Les unités camouflées peuvent être découvertes grâce à la compétence **Perception**. Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en stealth d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible. Si le niveau de perception et le niveau de stealth sont égaux, l'unité camouflée apparaît dans le rapport. C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités ont Stealth et Perception au niveau 0.
 
 ## Contrecarrer la garde
 

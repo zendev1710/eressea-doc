@@ -12,11 +12,11 @@ Cependant, ces informations peuvent être vagues, et tu devras dans ce cas déte
 Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à présent :
 
 - [Adamantium] (au tour 574)
-- [Armure d'Adamantium] (au tour 574)
-- [Geburtstagstorte] (au tour 487, Le 20 août 2006, à l'occasion des 10 ans d'Eressea)
-- [Sonnensegel] (au tour 407, Noël 2004)
-- [Sternenstaub] (au tour 454, Noël 2005)
-- [Weihnachtsbaum] (au tour 503, Noël 2006)
+- [Armure d'adamantium] (au tour 574)
+- [Gâteau d'anniversaire] (au tour 487, Le 20 août 2006, à l'occasion des 10 ans d'Eressea)
+- [Voile Solaire] (au tour 407, Noël 2004)
+- [Poussière d'Étoile] (au tour 454, Noël 2005)
+- [Sapin de Noël] (au tour 503, Noël 2006)
 - [Coquillage] (accueil des personnes qui atteignent le Plateau des Coquillages pour la première fois, le 11 Décembre 2005)
 
 !!! note
@@ -31,11 +31,11 @@ Poursuivre la lecture : [l'argent].
 [CLAIM]: ./cmd-claim.md "CLAIM"
 [SHOW]: ./cmd-show.md "SHOW"
 [Adamantium]: ./adamantium.md "Adamantium"
-[Armure d'Adamantium]: ./adamantium-armor.md "Adamantiumrüstung"
-[Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (to be documented)"
-[Sonnensegel]: ./sun-sail.md "Sonnensegel"
-[Sternenstaub]: ./stardust.md "Sternenstaub"
-[Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"
+[Armure d'adamantium]: ./adamantium-armor.md "Armure d'adamantium (à documenter)"
+[Gâteau d'anniversaire]: ./birthday-cake.md "Geburtstagstorte (à documenter)"
+[Voile Solaire]: ./sun-sail.md "Voile Solaire"
+[Poussière d'Étoile]: ./stardust.md "Poussière d'Étoile"
+[Sapin de Noël]: ./christmas-tree.md "Sapin de Noël"
 [Coquillage]: ./shell.md "Coquillage"
 [réserve de matériaux]: ./items-pool.md "Réserve de matériaux"
 [réserve d'argent]: ./items-pool.md#der-silberpool "Réserve d'argent"

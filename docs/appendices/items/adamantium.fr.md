@@ -1,11 +1,11 @@
 # Adamantium
 
-Spielererfahrung: BruckAdamantium ist noch seltener als Laen! Pro Schicht gib es gerade mal ein Adamantium, so es überhaupt Adamantium in der Region gibt.
+Expérience du joueur : L’adamantium est encore plus rare que le laen ! On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.
 
-## Externe Links
+## Liens externes
 
-- [Adamantium auf Wikipedia]
+- [Adamantium sur Wikipedia]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Adamantium&oldid=6241] -->
 
-[Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium
+[Adamantium sur Wikipedia]: http://fr.wikipedia.org/wiki/Adamantium

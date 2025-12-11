@@ -64,10 +64,9 @@ L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exempl
 
 Poursuivre la lecture : [plantes]
 
-[plantes]: ./herbs.md "Plantes"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
 
+[plantes]: ./herbs.md "Plantes"
 [Alchemy]: ./skills-list.md#alchemy "Alchemy"
 [`MAKE`]: ./cmd-make.md "MAKE"
 [SHOW]: ./cmd-show.md "SHOW"

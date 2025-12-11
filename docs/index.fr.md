@@ -59,7 +59,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Discussion sur le forum]
 - [Règles]
 
-## Liens utiles externes
+## Liens externes
 
 - [Page d'accueil d'Eressea]
 - **[Inscription à Eressea] !**
@@ -74,11 +74,13 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]
 - [Un génerateur de casus belli]
 
+Poursuivre la lecture : [Les règles].
+
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
 [Eressea]: ./eressea.md "Eressea"
 [Discord]: https://discord.gg/KT5Fffh
-[Les règles]: ./rules.md "Regeln"
+[Les règles]: ./rules.md "Règles du jeu"
 [L'inscription au jeu]: https://www.eressea.de/?page_id=186
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"

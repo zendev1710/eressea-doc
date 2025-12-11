@@ -12,9 +12,8 @@ Editing the rules is encouraged, but please be sure to regard the [Instructions 
 
 Continue reading: [Introduction].
 
-[Introduction]: ./introduction.md "Einleitung"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/en&oldid=14181] -->
 
+[Introduction]: ./introduction.md "Einleitung"
 [Atlantis]: ./atlantis.md "Atlantis"
 [Instructions for editing the rules]: ./eressea-join.md "Eressea:Mitmachen"

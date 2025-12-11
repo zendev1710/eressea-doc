@@ -1,4 +1,9 @@
-# Alliance
+---
+alias: 
+    name: alliances
+    text: Alliances
+---
+# Alliances
 
 Alliances form the backbone of the world, be it in war, trade or just peaceful cooperation. There are areas of Eressea where you can do this not just "in spirit" but also with respect to the game rules, which is achieved with the [`HELP`] order.
 

@@ -44,4 +44,5 @@ Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie od
 [FOLLOW]: ./cmd-follow.md "FOLLOW"
 [Kampfzauber]: ./cmd-combatspell.md "COMBATSPELL"
 [`HELP`]: ./cmd-help.md "HELP"
-[Allianz]: ./alliances.md "Allianz"
+[Allianz]: [[alliances]] "Alliances"
+<!-- [Allianz]: ./alliances.md "Alliances"-->

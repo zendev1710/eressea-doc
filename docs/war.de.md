@@ -292,8 +292,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 
 Weiterlesen: [Allianz].
 
-[Allianz]: ./alliances.md "Allianz"
-
+[Allianz]: [[alliances]] "Allianz"
+<!-- [Allianz]: ./alliances.md "Allianz"-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
 [ohne Waffe]: #boni-und-mali

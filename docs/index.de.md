@@ -66,6 +66,8 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 - [Who is Who von Eressea (im Internet Archive)]
 - [Der Kriegsgrundgenerator]
 
+Weiterlesen: [Regeln].
+
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
 [Eressea]: ./cmd-eressea.md "Eressea"

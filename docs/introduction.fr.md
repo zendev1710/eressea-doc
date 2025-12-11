@@ -28,9 +28,9 @@ Dans Eressea, tu envoies un *train d'ordres* à intervalles réguliers. Un train
 
 Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle un NMR (No Move Received). En cas de 4 NMR consécutifs, la faction est automatiquement retirée du jeu, donc au 5ème NMR, la faction est supprimée.
 
-Poursuivre la lecture : [Monde].
+Poursuivre la lecture : [Le monde d'Eressea].
 
-[Monde]: ./world.md "Welt"
+[Le monde d'Eressea]: ./world.md "Le monde d'Eressea"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 

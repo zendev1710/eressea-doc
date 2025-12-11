@@ -68,9 +68,11 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 - [Who is Who of Eressea (in the Internet Archive, in German)]
 - [Generator of excuses for war]
 
+Continue reading: [rules].
+
+[rules]: ./rules.md "Rules"
 [Eressea]: ./cmd-eressea.md "Eressea"
 [Discord]: https://discord.gg/KT5Fffh
-[rules]: ./rules.md "Regeln"
 [Registering for the game]: ./hints.md#registration "Hinweise"
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"

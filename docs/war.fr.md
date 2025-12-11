@@ -291,9 +291,13 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 - [Taktik]
 - [Kriegstabellen]
 
+Poursuivre la lecture : [[alliances|hello "my link"]] "Bonjour".
+
+<!--
 Poursuivre la lecture : [Allianz].
 
-[Allianz]: ./alliances.md "Allianz"
+[Allianz]: [[alliances]] "Alliances" -->
+<!-- [Allianz]: ./alliances.md "Alliances"-->
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 

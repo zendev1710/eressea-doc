@@ -305,7 +305,8 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 
 Continue reading: [Alliances].
 
-[Alliances]: ./alliances.md "Allianz"
+[Alliances]: [[alliances]] "Alliances"
+<!-- [Alliances]: ./alliances.md "Alliances"-->
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 

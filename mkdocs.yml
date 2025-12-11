@@ -5,8 +5,49 @@ site_description: "Eressea documentation."
 site_author: zendev1710
 
 theme:
+  features:
+    - content.tooltips
+    - header.autohide
+    - navigation.instant
+    - navigation.indexes
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
   name: material
-  # favicon: assets/images/favicon.ico
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
   # font: false
   # https://materialdesignicons.com/
   # icon:
@@ -21,14 +62,15 @@ theme:
   # custom_dir: theme_overrides
 # language: en
 
-# extra_css:
-#   - assets/stylesheets/extra.css
-copyright: Copyright &copy; 2025-2026 zendev1710.
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Cyril Guillon
 
 plugins:
   # - categories
-  - awesome-nav:
-      filename: .pages
+  - alias
+  # - awesome-nav
   - redirects
   - search
   # - autorefs
@@ -46,6 +88,29 @@ plugins:
           name: Deutsch
           build: true
       docs_structure: suffix
+      nav_translations:
+        fr: # Translations for French
+          home: accueil
+          gameplay: le jeu
+          exploration: Exploration
+          production: production
+          war: la guerre
+          magic: magie
+          alchemy: alchimie
+          orders: ordres
+          references: références
+          help: aide
+        de: # Translations for French
+          home: Hauptseite
+          gameplay: Spielablauf
+          exploration: Erforschung
+          production: produktion
+          war: Krieg
+          magic: magie
+          alchemy: alchimie
+          orders: Befehle
+          references: Referenzen
+          help: helfen
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 
 # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/?h=language
@@ -62,8 +127,161 @@ extra:
       lang: de
 
 markdown_extensions:
+  - abbr
   - admonition
-  # - attr_list
+  - attr_list
   - pymdownx.details
+  - pymdownx.snippets
   - pymdownx.superfences
+
+# Page tree
+nav:
+  - Home:
+    #- index.md
+    - rules.md
+    - introduction.md
+    - troubleshootings.md
+  - Gameplay:
+    - world.md
+    - factions.md
+    - races/races.md
+    - races/skills-modifiers.md
+    - skills/skills.md
+    - skills/skill-list.md
+    - camouflage.md
+  - Exploration:
+    - travel/travel.md
+    - travel/sailing.md
+  - Production:
+    - production/production.md
+    - production/resources.md
+    - production/resources.md
+    - production/items.md
+    - production/roads.md
+    - production/ships.md
+    - production/buildings/buildings.md
+    - production/buildings/castles.md
+    - production/buildings/buildings-others.md
+    - faction-pool.md
+    - silver.md
+    - items-pool.md
+  - War:
+    - war.md
+    - alliances.md
+  - Magic:
+    - magic/magic.md
+    - magic/magic-schools.md
+    - magic/familiars.md
+    - magic/spells-list.md
+    - magic/spells-descriptions.md
+    # - magic/magic-school-cerddor.md
+    # - magic/magic-school-draig.md
+    #- magic/magic-school-gwyrrd.md
+    #- magic/magic-school-illaun.md
+    #- magic/magic-school-tybied.md
+    #- magic/magical-herb-bag.md
+  - Alchemy:
+    - alchemy/alchemy.md
+    - alchemy/herbs.md
+  - Orders:
+    - orders/commands.md
+    - orders/commands-sequence.md
+    - orders/commands-short-descriptions.md
+    - orders/first-round.md
+    # - puppy-protection.md
+    # - commands-send.md
+    # - cmd-attack.md
+    # - cmd-banner.md
+    # - cmd-buy.md
+    # - cmd-carry.md
+    # - cmd-cast.md
+    # - cmd-claim.md
+    # - cmd-combat.md
+    # - cmd-combatspell.md
+    # - cmd-comment.md
+    # - cmd-contact.md
+    # - cmd-default.md
+    # - cmd-describe.md
+    # - cmd-destroy.md
+    # - cmd-email.md
+    # - cmd-end.md
+    # - cmd-enter.md
+    # - cmd-entertain.md
+    # - cmd-follow.md
+    # - cmd-forget.md
+    # - cmd-give.md
+    # - cmd-group.md
+    # - cmd-grow.md
+    # - cmd-guard.md
+    # - cmd-help.md
+    # - cmd-hide.md
+    # - cmd-language.md
+    # - cmd-learn-auto.md
+    # - cmd-learn.md
+    # - cmd-leave.md
+    # - cmd-make.md
+    # - cmd-message.md
+    # - cmd-move.md
+    # - cmd-name.md
+    # - cmd-next.md
+    # - cmd-number.md
+    # - cmd-option.md
+    # - cmd-origin.md
+    # - cmd-password.md
+    # - cmd-pay-not.md
+    # - cmd-piracy.md
+    # - cmd-plant.md
+    # - cmd-prefix.md
+    # - cmd-promote.md
+    # - cmd-quit.md
+    # - cmd-recruit.md
+    # - cmd-region.md
+    # - cmd-research.md
+    # - cmd-reserve.md
+    # - cmd-ride.md
+    # - cmd-route.md
+    # - cmd-sell.md
+    # - cmd-semicolon.md
+    # - cmd-show.md
+    # - cmd-sort.md
+    # - cmd-spy.md
+    # - cmd-steal.md
+    # - cmd-tax.md
+    # - cmd-teach.md
+    # - cmd-unit.md
+    # - cmd-use.md
+    # - cmd-work.md
+    # - cmd-eressea.md
+    # - cmd-locale.md
+    # - commands-extended.md
+    # - commands-list.md
+    # - commands-send-from-magellan.md
+    - hints.md
+     # - misc
+    # - weekly-report.md
+  - References:
+      - appendices/potions-and-herbs.md
+      - appendices/terrains.md
+      - appendices/war-tables.md
+      - Items:
+        - appendices/items/adamantium-armor.md
+        - appendices/items/adamantium.md
+        - appendices/items/amulet-of-true-vision.md
+        - appendices/items/antimagic-crystal.md
+        - appendices/items/belt-of-troll-strength.md
+        - appendices/items/dream-eye.md
+        - appendices/items/flaming-sword.md
+        - appendices/items/iron-golem.md
+        - appendices/items/mountain-guard.md
+        - appendices/items/negative-weight-bag.md
+        - appendices/items/ring-of-invisibility.md
+        - appendices/items/ring-of-power.md
+        - appendices/items/sphere-of-invisibility.md
+        - appendices/items/stardust.md
+        - appendices/items/stone-golem.md
+        - appendices/items/sun-sail.md
+  - Help:
+    - faq.md
+    - tips-and-tricks.md
+    - tutorials.md
   

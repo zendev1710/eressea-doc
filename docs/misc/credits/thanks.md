@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: thanks
+	text: Thanks
 ---
 # Thanks
 

@@ -1,9 +1,9 @@
 ---
 alias:
-	name: 
-	text: 
+	name: extended-commands
+	text: Extended Commands
 ---
-# ExtendedCommands
+# Extended commands
 
 ndedCommands sind ein Plugin für [Magellan], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.
 

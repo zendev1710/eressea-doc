@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: cmd-comment-semi-colon
+	text: COMMENT ;
 ---
 # COMMENT (;)
 

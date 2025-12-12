@@ -1,6 +1,6 @@
 ---
 alias:
-	name: dhell
+	name: shell
 	text: Shell
 ---
 # Shell

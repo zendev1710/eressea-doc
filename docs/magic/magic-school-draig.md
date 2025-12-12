@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Draig spells
+	name: draig-spells
 	text: Draig spells
 ---
 # Draig spells

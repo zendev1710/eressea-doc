@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: other-buildings
+	text: Other Buildings
 ---
 # Other Buildings
 

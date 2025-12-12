@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: cmd-quit
+	text: QUIT
 ---
 # QUIT
 

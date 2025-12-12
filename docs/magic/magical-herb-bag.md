@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Magical herb bag
+	name: magical-herb-bag
 	text: Magical herb bag
 ---
 # Magical herb bag

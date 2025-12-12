@@ -1,6 +1,6 @@
 ---
 alias:
-	name: tybied spells
+	name: tybied-spells
 	text: Tybied spells
 ---
 # Tybied spells

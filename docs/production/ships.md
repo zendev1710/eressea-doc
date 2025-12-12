@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: ships
+	text: Ships
 ---
 # Ships
 

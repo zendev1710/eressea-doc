@@ -1,13 +1,11 @@
 ---
 alias:
-	name: 
-	text: 
+	name: racial-skill-modifiers
+	text: Racial skill modifiers
 ---
 # Racial skill modifiers
 
 The different [races] have, in addition to their special abilities, different recruitment costs and modifiers on their [skills]. These are summarised in this table. In the report, these modifiers are already taken into account, which means that the effective level is always displayed.
-
-Racial skill modifiers
 
 | Skill          | [dwarves] | [orcs] | [elves] | [cats] | [demons] | [halflings] | [humans] | [goblins] | [insects] | [trolls] | [aqua.] |
 |----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|

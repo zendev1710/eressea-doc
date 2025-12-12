@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: the-third-age
+	text: The Third Age
 ---
 # The Third Age
 

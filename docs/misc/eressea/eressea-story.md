@@ -1,6 +1,6 @@
 ---
 alias:
-	name: History of Eressea
+	name: history-of-eressea
 	text: History of Eressea
 ---
 # History of Eressea

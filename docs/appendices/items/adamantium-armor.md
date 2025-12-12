@@ -1,7 +1,7 @@
 ---
 alias:
 	name: adamantium-armor
-	text: Adamantium Armor
+	text: Adamantium armor
 ---
 # Adamantium Armor
 

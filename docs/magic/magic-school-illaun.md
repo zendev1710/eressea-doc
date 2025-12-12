@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Illaun spells
+	name: illaun-spells
 	text: Illaun spells
 ---
 # Illaun spells

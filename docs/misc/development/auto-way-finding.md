@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Automated wayfinding
+	name: auto-wayfinding
 	text: Automated wayfinding
 ---
 # Automated wayfinding

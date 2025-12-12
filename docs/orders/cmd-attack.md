@@ -1,6 +1,6 @@
 ---
 alias:
-	name: attack
+	name: cmd-attack
 	text: ATTACK
 ---
 # ATTACK

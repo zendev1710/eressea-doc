@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: puppy-protection
+	text: Puppy protection
 ---
 # Puppy protection
 

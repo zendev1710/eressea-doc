@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: cmd-learn
+	text: LEARN
 ---
 # LEARN
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: cr-format
+	text: CR Format
 ---
 # CR Format
 

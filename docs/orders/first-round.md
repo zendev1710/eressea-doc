@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: the-first-round
+	text: The first round
 ---
 # The first round
 

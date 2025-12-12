@@ -1,9 +1,9 @@
 ---
 alias:
 	name: join-eressea
-	text: join Eressea
+	text: Join Eressea
 ---
-# Eressea: join
+# Join Eressea
 
 <!-- TODO: rewrite becaus this page describes how to help editing the mediawiki -->
 

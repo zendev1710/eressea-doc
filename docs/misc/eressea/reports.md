@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: reports
+	text: Reports
 ---
 # Reports
 

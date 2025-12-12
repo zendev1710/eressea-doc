@@ -1,6 +1,6 @@
 ---
 alias:
-	name: List of spells
+	name: list-of-spells
 	text: List of spells
 ---
 # List of spells

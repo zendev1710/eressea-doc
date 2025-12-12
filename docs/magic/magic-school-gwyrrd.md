@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Gwyrrd spells
+	name: gwyrrd-spells
 	text: Gwyrrd spells
 ---
 # Gwyrrd spells

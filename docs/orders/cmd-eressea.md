@@ -1,6 +1,6 @@
 ---
 alias:
-	name: eressea
+	name: mcd-eressea
 	text: ERESSEA
 ---
 # ERESSEA

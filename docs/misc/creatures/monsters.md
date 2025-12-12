@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: monsters
+	text: Monsters
 ---
 # Monsters
 

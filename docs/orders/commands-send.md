@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: sending-orders
+	text: Sending orders
 ---
 # Sending orders
 

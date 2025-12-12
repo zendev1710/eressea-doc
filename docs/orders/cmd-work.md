@@ -1,6 +1,6 @@
 ---
 alias:
-	name: work
+	name: cmd-work
 	text: WORK
 ---
 # WORK

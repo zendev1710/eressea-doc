@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: list-of-orders
+	text: List of orders
 ---
 # List of orders
 

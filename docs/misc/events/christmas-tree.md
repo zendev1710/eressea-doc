@@ -1,9 +1,9 @@
 ---
 alias:
-	name: 
-	text: 
+	name: christmas-tree
+	text: Christmas Tree
 ---
-# Christmas tree
+# Christmas Tree
 
 Der **Weihnachtsbaum** war das Eresseanische Weihnachtsgeschenk des Jahres 2006.
 

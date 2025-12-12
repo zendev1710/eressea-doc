@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: castles
+	text: Castles
 ---
 # Castles
 

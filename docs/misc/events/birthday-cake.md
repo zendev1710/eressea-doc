@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: birthday-cake
+	text: Birthday Cake
 ---
 # Birthday Cake
 

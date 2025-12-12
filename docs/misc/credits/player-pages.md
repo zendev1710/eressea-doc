@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: players
+	text: Players
 ---
 # Players
 

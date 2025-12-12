@@ -1,9 +1,9 @@
 ---
 alias:
-	name: 
-	text: 
+	name: orders-sequence
+	text: Orders sequence
 ---
-# Orders Sequence
+# Orders sequence
 
 Eressea's orders are evaluated in a fixed sequence. Orders with the same number are executed at the same time or the exact sequence is irrelevant.
 

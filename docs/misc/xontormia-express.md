@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Xontormia Express
+	name: xontormia-express
 	text: Xontormia Express
 ---
 # Xontormia Express

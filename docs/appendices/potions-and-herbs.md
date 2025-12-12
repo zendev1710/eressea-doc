@@ -1,7 +1,7 @@
 ---
 alias:
 	name: tables-potions-and-herbs 
-	text: "Tables: Potions and Herbs"
+	text: "Tables: potions and herbs"
 ---
 # Tables: Potions and Herbs
 

@@ -1,6 +1,6 @@
 ---
 alias:
-	name: Schools of Magic
+	name: schools-of-magic
 	text: Schools of Magic
 ---
 # Schools of Magic

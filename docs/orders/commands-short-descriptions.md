@@ -1,7 +1,7 @@
 ---
 alias:
-	name: 
-	text: 
+	name: discussion-short-description
+	text: "Discussion:Short description"
 ---
 # Discussion:Short description
 

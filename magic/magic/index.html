@@ -30,7 +30,7 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -40,6 +40,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -58,6 +61,8 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +72,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -90,12 +102,11 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -118,6 +129,54 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_4">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -175,11 +234,18 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -211,13 +277,244 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../world/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gameplay
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../travel/travel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Exploration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../production/production/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Production
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../war/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  War
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../alchemy/alchemy/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Alchemy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../orders/commands/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Orders
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../appendices/potions-and-herbs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Help
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -231,13 +528,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     Eressea
@@ -263,9 +561,38 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -279,13 +606,58 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -310,9 +682,113 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshootings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshootings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gameplay
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -337,9 +813,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -364,53 +841,7 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Races
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Races
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+              
             
               
                 
@@ -468,60 +899,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Skills
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Skills
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -557,14 +934,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../../skills/skills-list/" class="md-nav__link">
+      <a href="../../skills/skill-list.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Skill list
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../camouflage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Camouflage
   
 
     
@@ -591,53 +996,37 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../camouflage/" class="md-nav__link">
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
+      
+        
+      
     
-  
-    Camouflage
-  
-
     
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
     
       
       
-  
-  
-  
-  
-    
-    
-    
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Travel
+    Exploration
   
 
     
@@ -648,12 +1037,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Travel
+    Exploration
   
 
           </label>
@@ -730,17 +1119,48 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -758,8 +1178,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -784,6 +1204,34 @@
     
   
     Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../production/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
   
 
     
@@ -915,53 +1363,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Buildings
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Buildings
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../production/buildings/buildings/" class="md-nav__link">
         
@@ -1040,23 +1441,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+                
   
   
   
@@ -1081,9 +1467,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1108,9 +1495,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1135,9 +1523,75 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    War
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    War
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -1162,9 +1616,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1177,7 +1632,7 @@
   <span class="md-ellipsis">
     
   
-    Alliance
+    Alliances
   
 
     
@@ -1186,6 +1641,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1200,17 +1663,37 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" checked>
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -1228,8 +1711,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_15">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1623,17 +2106,28 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
@@ -1651,8 +2145,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1733,17 +2227,34 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -1761,8 +2272,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_17">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1814,7 +2325,7 @@
   <span class="md-ellipsis">
     
   
-    Orders Sequence
+    Orders sequence
   
 
     
@@ -1884,15 +2395,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -1917,84 +2421,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../tips-and-tricks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tips and tricks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    FAQ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../troubleshootings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Troubleshootings
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2007,24 +2438,39 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Appendices
+    References
   
 
     
@@ -2035,12 +2481,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Appendices
+    References
   
 
           </label>
@@ -2117,6 +2563,699 @@
     
   
     War tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium-armor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium Armor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/amulet-of-true-vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/antimagic-crystal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antimagic Crystal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/belt-of-troll-strength/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/dream-eye/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dreameye
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/flaming-sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flaming Sword
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/iron-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iron Golem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/mountain-guard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mountain Guard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/negative-weight-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Negative Weight Bag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring of Invisibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring of Power
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sphere-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sphere of Invisibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stardust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stardust
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stone-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stone Golem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sun-sail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solar Sail
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Help
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Help
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tips-and-tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tips and tricks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorials
   
 
     
@@ -2356,6 +3495,54 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Magic
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -2365,9 +3552,9 @@
   
 
 
-<h1 id="magic">Magic</h1>
+<h1 id="magic">Magic<a class="headerlink" href="#magic" title="Permanent link">&para;</a></h1>
 <p>Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im <a href="./war.md" title="Krieg">Kampf</a> den Feind schwächen oder Verbündete stärken.</p>
-<h2 id="das-studium-der-magie">Das Studium der Magie</h2>
+<h2 id="das-studium-der-magie">Das Studium der Magie<a class="headerlink" href="#das-studium-der-magie" title="Permanent link">&para;</a></h2>
 <p>Jede Partei muss sich für eines der fünf <a href="../magic-schools/" title="Magicgebiete">Magiegebiete</a> entscheiden: <a href="../magic-school-illaun/" title="Illaunzauber">Illaun</a>, <a href="../magic-school-tybied/" title="Tybiedzauber">Tybied</a>, <a href="../magic-school-gwyrrd/" title="Gwyrrdzauber">Gwyrrd</a>, <a href="../magic-school-cerddor/" title="Cerddorzauber">Cerddor</a> oder <a href="../magic-school-draig/" title="Draigzauber">Draig</a>. Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls <a href="./cmd-learn.md" title="LEARN">LEARN MAGIE "Magiegebiet"</a>. In Folge heißt der Befehl nur noch <a href="./cmd-learn.md" title="LEARN">LEARN MAGIE</a> und alle Magier einer <a href="./factions.md" title="Partei">Partei</a> erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten <a href="./cmd-learn.md" title="LEARN">LEARN MAGIE "Magiegebiet"</a> zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!</p>
 <p>Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.</p>
 <p>Das Talent Magie zu erlernen kostet (50 + 25 * (1 + Stufe) * Stufe) Silber pro Person und Runde.</p>
@@ -2455,10 +3642,10 @@
 <p><strong>Achtung, Zwerge:</strong> Sie haben -2 auf das Magietalent. Eine Einheit, die mit Magie 0 angezeigt wird, kann eigentlich auf T1 oder T2 sein. Die Lernkosten steigen in letzterem Fall jedoch auf 350 Silber! Es gibt keinen Weg herauszufinden, was von beiden zutrifft. Also lieber etwas großzügiger planen.</p>
 <p>Lernen in einer <a href="./buildings-others.md" title="Andere Gebäude">Akademie</a> kostet das Doppelte. Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer. Ein Draig-Magier kann also keinen Illaun-Magier lehren.</p>
 <p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann. Magie kann auch, durch [[Special:MyLanguage/Talente|Anwendung (CAST) gelernt werden. Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht. Natürlich kostet Lernen durch Anwendung kein Silber.</p>
-<h2 id="spruche">Sprüche</h2>
+<h2 id="spruche">Sprüche<a class="headerlink" href="#spruche" title="Permanent link">&para;</a></h2>
 <p>Mit jeder Stufe, die die Einheit in Magie erreicht, kann sie neue Sprüche bekommen. Es gibt zur Zeit einen Spruch in jeder Stufe, in Ausnahmefällen auch einmal mehrere oder gar keinen. Hat man eine neue Stufe erreicht, so werden die Sprüche in der Auswertung beschrieben. Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl <a href="./cmd-show.md" title="SHOW">SHOW</a> nochmals zeigen lassen.</p>
 <p>Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:</p>
-<pre><code>                                 Wunderdoktor
+<div class="highlight"><pre><span></span><code>                                 Wunderdoktor
 
 Beschreibung:
   Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
@@ -2476,9 +3663,9 @@ Komponenten:
 Modifikationen: Schiffszauber
 Syntax:
   CAST [LEVEL n] Wunderdoktor
-</code></pre>
+</code></pre></div>
 <p>oder so</p>
-<pre><code>                    Erschaffe einen Ring der Unsichtbarkeit
+<div class="highlight"><pre><span></span><code>                    Erschaffe einen Ring der Unsichtbarkeit
 
 Beschreibung:
   Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
@@ -2494,13 +3681,13 @@ Komponenten:
 - 1 permanente Aura
 Modifikationen: Schiffszauber
 Syntax:
-  CAST 'Erschaffe einen Ring der Unsichtbarkeit'
-</code></pre>
-<h3 id="art">Art</h3>
+  CAST &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
+</code></pre></div>
+<h3 id="art">Art<a class="headerlink" href="#art" title="Permanent link">&para;</a></h3>
 <p>Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.</p>
 <p>Normale Zauber werden mit dem Befehl <a href="./cmd-cast.md" title="CAST">CAST</a> gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe <a href="./commands-sequence.md" title="Befehlsreihenfolge">Befehlsreihenfolge</a>) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.</p>
 <p>Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl <a href="./cmd-combatspell.md" title="COMBATSPELL">COMBATSPELL LEVEL n "Zauber"</a> gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="./cmd-combatspell.md" title="COMBATSPELL">COMBATSPELL "Zauber" NOT</a> oder alle gesetzten Kampfzauber mit <a href="./cmd-combatspell.md" title="COMBATSPELL">COMBATSPELL NOT</a>. Kampfzauber wirken in etwa wie die <a href="./war.md#kampfreihen" title="Krieg">COMBAT-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
-<pre><code>                              Gesang der Furcht
+<div class="highlight"><pre><span></span><code>                              Gesang der Furcht
 
 Beschreibung:
   Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in
@@ -2514,17 +3701,17 @@ Komponenten:
 -   1 Aura  * Stufe
 Modifikationen:
 Syntax:
-  COMBATSPELL [LEVEL n] 'Gesang der Furcht'
-</code></pre>
+  COMBATSPELL [LEVEL n] &#39;Gesang der Furcht&#39;
+</code></pre></div>
 <p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt. Entweder indem sie selber ATTACK befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="./war.md#die-seiten-in-einer-schlacht" title="Krieg">Die Seiten in einer Schlacht</a>). Das kann also auch passieren, wenn sie auf COMBAT NOT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="./cmd-attack.md" title="ATTACK">ATTACK</a> angegriffen wird!</p>
 <p>Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert. Ein normaler Kampfzauber einmal in jeder Kampfrunde. Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter <a href="#aura">Aura</a>) und dass sie noch lebt.</p>
-<h3 id="aura">Aura</h3>
+<h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
 <p>Aura ist die magische Kraft, mit deren Hilfe Zauberer ihre Magie ausüben. Aura wird durch das Zaubern verbraucht und regeneriert sich mit der Zeit wieder. Eine Magiereinheit kann eine bestimmte maximale Menge Aura aufnehmen. Wie viel, wird - ebenso wie die Auraregeneration - durch das Magietalent der Einheit bestimmt. Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird. Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken. Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.</p>
 <p>Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit dessen Hilfe eine Einheit Aura auf eine andere transferieren kann. Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann. Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen. Überschüssige Aura geht aber am Ende einer Runde wieder verloren.</p>
 <p>Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit". Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann. In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.</p>
 <p><a href="./cmd-cast.md" title="CAST">CAST</a> ist ein pseudolanger Befehl vergleichbar mit <a href="./cmd-attack.md" title="ATTACK">ATTACK</a>. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.</p>
 <p>Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. <a href="#fernzauber">Fernzauber</a> erhöhen ebenfalls die Zauberkosten.</p>
-<h3 id="zauberstufe">Zauberstufe</h3>
+<h3 id="zauberstufe">Zauberstufe<a class="headerlink" href="#zauberstufe" title="Permanent link">&para;</a></h3>
 <p>Der Wert, der als "Stufe" angegeben wird, ist zunächst einmal das Mindesttalent, bei dem die Einheit den Zauber bekommt.</p>
 <p>Manche Zauber haben feste Wirkungen und Kosten. Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden. Für Dinge wie <a href="#magieresistenz">Magieresistenz</a> kann sie trotzdem wichtig sein. <em>Ring der Unsichtbarkeit</em> wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.</p>
 <p>Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet sich von der Stufe ab, auf der gezaubert wurde. Die Details hängen vom jeweiligen Zauber ab. Manchmal betrifft es die Wirkungsdauer, manchmal die Anzahl der verzauberten Personen und so weiter.</p>
@@ -2532,19 +3719,19 @@ Syntax:
 <p>Durch einen <a href="./ring-of-power.md" title="Ring der Macht (to be documented)">Ring der Macht</a>, <a href="./buildings-others.md#mage-tower" title="Andere Gebäude">Andere Gebäude#magierturm</a> oder <a href="./buildings-others.md#stonecircle" title="Andere Gebäude">gesegneten Steinkreis</a> kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.</p>
 <p>Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die <a href="#patzer">Wahrscheinlichkeit für Patzer</a> beeinflusst.</p>
 <p>Diese Modifikation funktioniert auch bei Kampfzaubern:</p>
-<pre><code> COMBATSPELL LEVEL 2 "Gesang der Furcht"
-</code></pre>
+<div class="highlight"><pre><span></span><code> COMBATSPELL LEVEL 2 &quot;Gesang der Furcht&quot;
+</code></pre></div>
 <p>Das ist zum Beispiel sinnvoll, wenn man sich etwas Aura aufsparen will, um für einen Postkampfzauber noch etwas Aura übrig zu haben.</p>
 <p><strong>Beispiel:</strong></p>
-<pre><code> CAST LEVEL 4 "Wunderdoktor"
-</code></pre>
+<div class="highlight"><pre><span></span><code> CAST LEVEL 4 &quot;Wunderdoktor&quot;
+</code></pre></div>
 <p>Dieser Zauber wird 4 Aura kosten und 200 Silber verdienen. Mit einem Ring der Macht kostet er immer noch 4 Aura, verdient aber 250 Silber.</p>
-<h3 id="komponenten">Komponenten</h3>
+<h3 id="komponenten">Komponenten<a class="headerlink" href="#komponenten" title="Permanent link">&para;</a></h3>
 <p>Steht dort einfach nur Anzahl Aura, so heißt das, dass die Kosten fix sind: <em>Ring der Unsichtbarkeit</em> kostet immer 50 Aura. Steht dort eine Angabe wie etwa <code>3 Aura * Stufe</code>, dann heißt das, dass für einmal Zaubern 3 Aura multipliziert mit der Stufe, auf welcher der Zauber gesprochen wird, an Aurakosten anfallen. <em>Wunderdoktor</em> kostet 1 Aura, wenn er auf Stufe 1 gezaubert wird und 30 Aura, wenn er auf Stufe 30 gezaubert wird. Erfordert der Spruch permanente Aura, so verringert sich die maximale Aura der Einheit für immer um diesen Wert. Weitere Komponenten können Kräuter, Rohstoffe, Silber, Tränke oder auch seltene Gegenstände und sogar Bauern sein.</p>
-<h3 id="fernzauber">Fernzauber</h3>
+<h3 id="fernzauber">Fernzauber<a class="headerlink" href="#fernzauber" title="Permanent link">&para;</a></h3>
 <p>Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber in einer anderen. Bei diesen Zaubern kann man dann die folgende Syntax benutzen:</p>
-<pre><code> CAST REGION &lt;x&gt; &lt;y&gt; "Zauber"
-</code></pre>
+<div class="highlight"><pre><span></span><code> CAST REGION &lt;x&gt; &lt;y&gt; &quot;Zauber&quot;
+</code></pre></div>
 <p>Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den <a href="./cmd-origin.md" title="ORIGIN">ORIGIN</a>. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:</p>
 <table>
 <thead>
@@ -2617,16 +3804,16 @@ Syntax:
 </tbody>
 </table>
 <p>Die beiden Modifikatoren können auch verknüpft werden:</p>
-<pre><code> CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;nr&gt; "Zauber"
-</code></pre>
+<div class="highlight"><pre><span></span><code> CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;nr&gt; &quot;Zauber&quot;
+</code></pre></div>
 <p>Dabei ist wichtig, dass man erst die Region und dann die Stufe angibt.</p>
 <p><strong>Beispiel:</strong></p>
 <p>Eine Einheit in der Region (1,1) zaubert als ersten Zauberspruch der Runde "Segen der Erde" auf Stufe 3 in die östlich gelegene Nachbarregion (a = 1 Feld Entfernung). Das kostet 2 * 3 = 6 Aura. Der Befehl für diesen Spruch lautet <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.</p>
-<h3 id="schiffs-und-seezauber">Schiffs- und Seezauber</h3>
+<h3 id="schiffs-und-seezauber">Schiffs- und Seezauber<a class="headerlink" href="#schiffs-und-seezauber" title="Permanent link">&para;</a></h3>
 <p>Neben den Fernzaubern gibt es auch noch zwei andere Klassen von besonderen Sprüchen. Generell können Zauber <strong>nicht von ablegenden Schiffen</strong> aus gezaubert werden. Eine Ausnahme bilden nur die als <strong>Schiffszauber</strong> bezeichneten Sprüche. Sprüche, die als <strong>Seezauber</strong> gekennzeichnet sind, können auch von Nicht-Meermenschen auf dem Ozean gezaubert werden.</p>
-<h3 id="personen-und-objektzauber">Personen- und Objektzauber</h3>
+<h3 id="personen-und-objektzauber">Personen- und Objektzauber<a class="headerlink" href="#personen-und-objektzauber" title="Permanent link">&para;</a></h3>
 <p>Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen. Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit <a href="./cmd-contact.md" title="CONTACT">CONTACT</a> den Magier kontaktiert. Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit <a href="./cmd-contact.md" title="CONTACT">CONTACT</a> signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.</p>
-<h3 id="rang">Rang</h3>
+<h3 id="rang">Rang<a class="headerlink" href="#rang" title="Permanent link">&para;</a></h3>
 <p>Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers. Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt. Dabei ist Rang 1 der niedrigste und Rang 9 der höchste. Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert. Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.</p>
 <p><strong>Beispiel:</strong></p>
 <p>Es gäbe drei Zauber, genannt "Aaaa", "Beee" und "Ceee".</p>
@@ -2634,12 +3821,12 @@ Syntax:
 <p>"Beee" hat Rang 2 und kostet 20 Aura.</p>
 <p>"Ceee" hat Rang 5 und kostet 5 Aura.</p>
 <p>Angenommen die Einheit hat die Befehle</p>
-<pre><code>   CAST "Ceee"
-   CAST "Beee"
-   CAST "Aaaa"
-</code></pre>
+<div class="highlight"><pre><span></span><code>   CAST &quot;Ceee&quot;
+   CAST &quot;Beee&quot;
+   CAST &quot;Aaaa&quot;
+</code></pre></div>
 <p>in dieser Reihenfolge. Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura. Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa". "Ceee" ist der zweite Zauber, er kostet also 5*2^1=10 Aura. Nun kommt noch "Aaaa". "Aaaa" ist der dritte Zauber, er kostet also 10*2^2=40 Aura.</p>
-<h2 id="patzer">Patzer</h2>
+<h2 id="patzer">Patzer<a class="headerlink" href="#patzer" title="Permanent link">&para;</a></h2>
 <p>Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen. Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken. Zudem kann ein Zauberer einen Spruch auch verpatzen.</p>
 <p>Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht. Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl."). Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.</p>
 <p>Die Wahrscheinlichkeit für einen Patzer hängt von vielen Faktoren ab, unter anderem von der Stufe, Schwierigkeitsgrad des Spruchs im Verhältnis zur Stufe, auf der der Spruch vom Magier gezaubert wird, dem Magiegebiet, dem Spruch, der Umgebung, dem Ziel usw.</p>
@@ -2652,7 +3839,7 @@ Syntax:
 <li>Der Zauber funktioniert nicht und es gibt einen speziellen Effekt.</li>
 </ul>
 <p>Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).</p>
-<h2 id="magieresistenz">Magieresistenz</h2>
+<h2 id="magieresistenz">Magieresistenz<a class="headerlink" href="#magieresistenz" title="Permanent link">&para;</a></h2>
 <p>Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:</p>
 <ul>
 <li>die natürliche Magieresistenz der <a href="./races.md" title="Rasse (to be documented)">Rassen</a></li>
@@ -2672,11 +3859,11 @@ Syntax:
 <p><strong>Beispiele:</strong> Die Basischance ist 0% für Menschen, 10% für <a href="./skills-modifiers.md" title="Talentmodifikatoren">Elfen</a>, für <a href="./skills-modifiers.md" title="Talentmodifikatoren">Goblins</a> ist sie nur -5%.</p>
 <p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a href="../spells-list/#chaosfluch" title="Zauberliste E2">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.</p>
 <p>Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit <a href="./war-tables.md#magieresistenz" title="Kriegstabellen">Laenschwert</a> nur (90% * 70%) = 63% davon, also etwa 31 Schaden.</p>
-<h2 id="magierturm">Magierturm</h2>
+<h2 id="magierturm">Magierturm<a class="headerlink" href="#magierturm" title="Permanent link">&para;</a></h2>
 <p>Ein <a href="./buildings-others.md#mage-tower" title="Andere Gebäude">Magierturm</a> erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.</p>
-<h2 id="vertraute">Vertraute</h2>
+<h2 id="vertraute">Vertraute<a class="headerlink" href="#vertraute" title="Permanent link">&para;</a></h2>
 <p>Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über <a href="../familiars/" title="Vertraute">Vertraute</a> finden.</p>
-<h2 id="der-astralraum">Der Astralraum</h2>
+<h2 id="der-astralraum">Der Astralraum<a class="headerlink" href="#der-astralraum" title="Permanent link">&para;</a></h2>
 <p><strong>Hinweis:</strong> Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.</p>
 <p>So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die <em>Welt der Geisterwesen</em>, andere wiederum die <em>astrale Welt</em>, am bekanntesten jedoch ist der Begriff <em>Astralraum</em>. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.</p>
 <p>Wer den Astralraum betritt – dies ist nur durch bestimmte <a href="../spells-list/" title="Zauberliste E2">Zauber</a> möglich –, verschwindet vollständig aus der realen Welt. Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt. Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt. Sie können also Befehle wie <a href="./cmd-move.md" title="MOVE">MOVE</a> und <a href="./cmd-attack.md" title="ATTACK">ATTACK</a> erhalten und mit anderen Einheiten in der astralen Welt interagieren. Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.</p>
@@ -2691,7 +3878,7 @@ Syntax:
 <p>Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf. Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können. Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.</p>
 <p>Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten. Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen. Einzig <em>Elfenpferde</em> scheinen als magische Reittiere im Astralraum überleben zu können.</p>
 <p>Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen <a href="./monsters.md#hirntöter" title="Monster">Wesen</a> bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben. Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.</p>
-<h2 id="listen-aller-zauber">Listen aller Zauber</h2>
+<h2 id="listen-aller-zauber">Listen aller Zauber<a class="headerlink" href="#listen-aller-zauber" title="Permanent link">&para;</a></h2>
 <p>Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine <a href="../spells-list/" title="Zauberliste E2">Liste aller Zauber</a> und <a href="../spells-descriptions/" title="Zauberbeschreibungen E2">Zauberbeschreibungen</a>.</p>
 <p>Continue reading: <a href="../magic-schools/" title="Magicgebiete">Magiegebiete</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
@@ -2701,6 +3888,9 @@ Syntax:
 
 
 
+
+  
+  
 
 
 
@@ -2715,6 +3905,12 @@ Syntax:
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2724,7 +3920,7 @@ Syntax:
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025-2026 zendev1710.
+      Copyright &copy; 2025 Cyril Guillon
     </div>
   
   
@@ -2748,7 +3944,7 @@ Syntax:
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

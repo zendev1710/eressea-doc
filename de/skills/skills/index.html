@@ -18,7 +18,7 @@
         <link rel="prev" href="../../races/skills-modifiers/">
       
       
-        <link rel="next" href="../skills-list/">
+        <link rel="next" href="../../camouflage/">
       
       
         
@@ -30,7 +30,7 @@
         
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -40,6 +40,9 @@
     
     
       <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -58,6 +61,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +72,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -90,12 +102,11 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
     <a href="../../" title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -118,6 +129,54 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_4">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -175,11 +234,18 @@
       </label>
       <nav class="md-search__options" aria-label="Suche">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Teilen" aria-label="Teilen" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -211,13 +277,244 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hauptseite
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../world/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Spielablauf
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../travel/travel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Erforschung
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../production/production/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Produktion
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../war/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Krieg
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magic/magic/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../alchemy/alchemy/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Alchimie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../orders/commands/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Befehle
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../appendices/potions-and-herbs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Referenzen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  helfen
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -231,13 +528,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../" title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     Eressea
@@ -263,9 +561,38 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -279,13 +606,58 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hauptseite
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -298,7 +670,7 @@
   <span class="md-ellipsis">
     
   
-    Einleitung
+    Introduction
   
 
     
@@ -310,9 +682,118 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshootings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshootings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spielablauf
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spielablauf
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -337,9 +818,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -364,53 +846,7 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Races
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Races
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+              
             
               
                 
@@ -467,62 +903,6 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Skills
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Skills
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -711,14 +1091,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills-list/" class="md-nav__link">
+      <a href="../../../skills/skill-list.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Liste der Talente
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../camouflage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarnung
   
 
     
@@ -745,53 +1153,37 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../camouflage/" class="md-nav__link">
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
+      
+        
+      
     
-  
-    Tarnung
-  
-
     
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
     
       
       
-  
-  
-  
-  
-    
-    
-    
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Travel
+    Erforschung
   
 
     
@@ -802,12 +1194,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Travel
+    Erforschung
   
 
           </label>
@@ -884,24 +1276,55 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Production
+    Produktion
   
 
     
@@ -912,12 +1335,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Production
+    Produktion
   
 
           </label>
@@ -938,6 +1361,34 @@
     
   
     Produktion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../production/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rohstoffe
   
 
     
@@ -1069,53 +1520,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Buildings
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Buildings
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../production/buildings/buildings/" class="md-nav__link">
         
@@ -1194,23 +1598,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+                
   
   
   
@@ -1235,9 +1624,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1262,9 +1652,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1289,9 +1680,75 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Krieg
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Krieg
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -1316,9 +1773,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1343,6 +1801,14 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -1352,24 +1818,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Magic
+    Magie
   
 
     
@@ -1380,12 +1863,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_15">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Magic
+    Magie
   
 
           </label>
@@ -1546,24 +2029,35 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Alchemy
+    Alchimie
   
 
     
@@ -1574,12 +2068,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Alchemy
+    Alchimie
   
 
           </label>
@@ -1656,24 +2150,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Orders
+    Befehle
   
 
     
@@ -1684,12 +2195,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_17">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Orders
+    Befehle
   
 
           </label>
@@ -1807,15 +2318,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -1840,84 +2344,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../tips-and-tricks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tipps und Tricks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Faq
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../troubleshootings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Fehlerbehebung
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1930,24 +2361,39 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Appendices
+    Referenzen
   
 
     
@@ -1958,12 +2404,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Appendices
+    Referenzen
   
 
           </label>
@@ -2040,6 +2486,699 @@
     
   
     Kriegstabellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium-armor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantiumrüstung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/amulet-of-true-vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulett des wahren Sehens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/antimagic-crystal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antimagiekristall
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/belt-of-troll-strength/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gürtel der Trollstärke
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/dream-eye/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traumauge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/flaming-sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flammenschwert
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/iron-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eisengolem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/mountain-guard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bergwächter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/negative-weight-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beutel des Negativen Gewichts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring der Unsichtbarkeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring der Macht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sphere-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sphäre der Unsichtbarkeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stardust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sternenstaub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stone-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Steingolem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sun-sail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sonnensegel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    helfen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    helfen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faq
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tips-and-tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tipps und Tricks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anleitungen
   
 
     
@@ -2202,6 +3341,54 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Hauptseite
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../world/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Spielablauf
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -2211,17 +3398,17 @@
   
 
 
-<h1 id="talente">Talente</h1>
+<h1 id="talente">Talente<a class="headerlink" href="#talente" title="Permanent link">&para;</a></h1>
 <p>Eine der wesentlichen Eigenschaften, die <a href="./cmd-unit.md" title="Einheiten">Einheiten</a> in Eressea definieren, sind ihre Talente. Alle Mitglieder einer Einheit haben dieselben Talente. Jedes Talent hat eine Stufe. Je höher die Stufe desto besser kann die Einheit das Talent benutzen. Um ein Talent zu lernen, kann eine Einheit mit dem Befehl [<code>LERNE</code>] pro Zug einen Versuch machen, in eine neue Stufe aufzusteigen.</p>
 <p>Manche Talente verbessern sich zudem noch durch Anwendung. Wendet die Einheit das Talent lediglich an, dauert es ungefähr dreimal so lange, eine Stufe aufzusteigen, wie beim Lernen. Zu den Talenten, die sich <em>nicht</em> durch Anwendung verbessern, gehören alle Waffentalente, Ausdauer, Wahrnehmung, Taktik und Steuereintreiben.</p>
 <p>Für die meisten Belange ist der Talentwert entscheidend, der im Report angezeigt wird. Er schließt Rassenboni, Regionsboni und Dinge wie Hunger oder Magie ein, die den Talentwert verändern. Manchmal wird aber auch der "rohe" Talentwert ohne Boni benötigt, vor allem um die Lernkosten von Magie und die Lernzeiten zu berechnen.</p>
-<h2 id="talente-erlernen">Talente erlernen</h2>
+<h2 id="talente-erlernen">Talente erlernen<a class="headerlink" href="#talente-erlernen" title="Permanent link">&para;</a></h2>
 <p>Eine weitere Talentstufe zu erreichen, wird von Stufe zu Stufe schwieriger. Im Mittel dauert der Aufstieg in eine neue Talentstufe mit dem Befehl [<code>LERNE</code>] in etwa Anzahl von Wochen entsprechend der angepeilten Talentstufe, ohne Berücksichtigung von Modifikationen durch <a href="./races.md" title="Rassen">Rasse</a> oder Terrain. Die minimale Lernzeit beträgt eine Woche. Die maximale Lernzeit übersteigt (2 x neue Stufe − 1) nicht. Diese Extremwerte kommen weniger häufig vor als die durchschnittliche Dauer.</p>
 <p><strong>Beispiele:</strong> Das Aufsteigen von Stufe 3 nach Stufe 4 dauert im Schnitt 4 Wochen, jedoch manchmal nur eine Woche und manchmal bis zu 7 Wochen. Eine <a href="./races.md#swerg" title="Zwerg">Zwergeneinheit</a> mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben. Sie benötigt für den Aufstieg im Talent Bergbau von Stufe 3 nach Stufe 4 im Schnitt zwei Wochen.</p>
 <p>Um die Zeit herabzusetzen, die eine Einheit zum Erlernen eines Talentes benötigt, kann eine zweite Einheit, die besser ist, die erste Einheit das Talent <a href="./cmd-teach.md" title="LEHRE">lehren</a>. Diese lehrende Einheit muss eine Talentstufe haben, die um mindestens 2 größer ist als die Talentstufe der Schüler. Damit lernt die gelehrte Einheit doppelt so schnell, als wenn sie versucht, ein Talent auf eigene Faust zu verbessern. Die lehrende Einheit lernt jedoch gar nicht. Ein Lernen in einer <a href="./buildings-others.md#akademie" title="Akademie">Akademie</a> bringt einen weiteren Zeitvorteil.</p>
 <p>Eine Lehrperson kann maximal 10 Schüler lehren. Hat die "Schüler-Einheit" mehr Personen, als die Lehreinheit lehren kann, so wird dies trotzdem anteilig auf die Zeit, die neue Stufe zu erreichen, angerechnet. Eine Einheit kann mehrere Einheiten lehren, ebenso kann eine Einheit von mehreren Einheiten gelehrt werden, wobei natürlich jede Person nur maximal einmal profitieren kann.</p>
 <p><strong>Beispiel:</strong></p>
-<pre><code>  Einheit l1; 1 Person, Ausdauer 3
+<div class="highlight"><pre><span></span><code>  Einheit l1; 1 Person, Ausdauer 3
   LEHRE s1
   Einheit l2; 1 Person, Hiebwaffen 3, Ausdauer 3
   LEHRE s1 s2
@@ -2229,33 +3416,33 @@
   LERNE Ausdauer
   Einheit s2; 10 Personen, Hiebwaffen 1
   LERNE Hiebwaffen
-</code></pre>
+</code></pre></div>
 <p>Ergebnis: Einheit l1 lehrt 10 Personen von Einheit s1 in Ausdauer. Einheit l2 lehrt die restlichen 5 Personen von s1 in Ausdauer und 5 Personen von Einheit s2 in Hiebwaffen. Einheit s1 wird von l1 und l2 gelehrt und lernt doppelt so schnell wie normal. Einheit s2 wird nur zur Hälfte in Ausdauer gelehrt und lernt deshalb nur 50% schneller.</p>
 <p>Vorsicht! Lehren mehrere Lehrer-Einheiten mehrere Schüler-Einheiten in verschiedenen Talenten oder Talentstufen seitens der Lehrer, kann es passieren, dass einige Schüler keine oder nicht die richtigen Lehrer abbekommen. Dies lässt sich aufgrund der Interna von Eressea nicht anders gestalten. Hier solltest du also ggf. durch Umstrukturieren der Lehrer-Einheiten "klare Verhältnisse" schaffen. Beim Befehl <a href="./cmd-learn-auto.md" title="LERNE AUTO">LERNE AUTO</a> versucht der Server, das Lernen und Lehren in einer Region zu automatisieren. Da dies allerdings durch eine einfache Heuristik bewirkt wird, ist nicht garantiert, dass hier eine (dauerhaft) optimale Lernkette entsteht.</p>
 <p><a href="./magic.md" title="Magic">Magie</a>, <a href="../skills-list/" title="Liste der Talente">Alchemie</a>, <a href="../skills-list/" title="Liste der Talente">Kräuterkunde</a>, <a href="../skills-list/" title="Liste der Talente">Spionage</a> und <a href="./tactic.md" title="Taktik">Taktik</a> zu erlernen ist besonders schwer und aufwendig. Spionage zu erlernen kostet 100 Silber pro Person und Runde, Alchemie, Kräuterkunde und Taktik sogar 200 Silber pro Person und Woche. Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe <a href="./magic.md" title="Magic">Tabelle</a>). Die Einheit, welche eines dieser Talente lernt, muss dieses Silber bei sich tragen. Dabei ist es für die Kosten unerheblich, ob die Einheit gelehrt wird oder nicht. Befindet sich die Einheit in einer <a href="./buildings-others.md#akademie" title="Andere Gebäude">Akademie</a>, verdoppeln sich die Lernkosten teurer Talente.</p>
 <p>Wenn der lernenden Einheit zum Zeitpunkt des Bezahlens nicht der volle Betrag des Geldes zur Verfügung steht, lernt sie anteilig je nach vorhandener Geldmenge, das heißt, wenn sie beispielsweise nur 500 von 550 Silber hat, sinkt ihre Lerngeschwindigkeit um etwa 10%.</p>
 <p>In seltenen Fällen will eine Einheit ein Talent auch wieder loswerden. Dies ist mit dem Befehl [<code>VERGISS</code>] möglich.</p>
-<h2 id="mischen-von-talenten">Mischen von Talenten</h2>
+<h2 id="mischen-von-talenten">Mischen von Talenten<a class="headerlink" href="#mischen-von-talenten" title="Permanent link">&para;</a></h2>
 <p>Werden Personen in eine Einheit transferiert oder rekrutiert, berechnen sich die neuen Talentstufen nach der Anzahl der Lernwochen, die die beiden Einheiten hatten. Dabei kann es dazu kommen, dass Lernwochen durch Rundungseffekte "verloren gehen". Du solltest also unnötiges Zusammenlegen von Einheiten möglichst vermeiden.</p>
 <p><strong>Beispiel:</strong> Eine Einheit mit zwei Personen mit Hiebwaffen 5 rekrutiert einen Bauern. Die zwei Personen haben bis zum Aufstieg auf Stufe 5 ungefähr je 15 Wochen (nämlich 1+2+3+4+5) gelernt. Bauern haben keine Talente, also wird hier 0 dazugerechnet. Die neue Einheit hat also 3 Personen und ca. 30 Lernwochen. Dies entspricht 3 Personen mit Hiebwaffen 4 (1+2+3+4=10 Wochen pro Person). Die neue Einheit hat also Stufe 4.</p>
 <p>Bei der Berechnung der Lernwochen kommt es wie beim Lernen auf die "rohen" Talentwerte an, bei denen alle Boni und -mali wie Rassenboni zunächst abgezogen werden.</p>
 <p>Spielererfahrung: Solthar Tatsächlich ist die Sache komplizierter. Das kannst du jedoch überspringen, wenn du diese Anleitung zum ersten Mal liest. Jedes Mal, wenn eine Einheit eine Stufe aufsteigt, wird gewürfelt, wie viele Wochen sie zum Aufstieg auf die nächste Stufe brauchen wird. Dabei ergibt sich ein Wert zwischen 1 und (2 x neue Stufe − 1). Eine Einheit kann also ein Talent zwischen (6,1) – diese Schreibweise bedeutet hier Stufe 6 und noch eine Woche bis zum Aufstieg – und (6,13) haben. Dieser Wert ist "geheim": er wird nirgends angezeigt, nur der Server kennt ihn. Er wird beim Mischen aber mit eingerechnet. Mischst du zum Beispiel eine Person mit (5,6) und eine Person mit (1,2) – beides entspricht genau dem Durchschnitt – haben sie zusammen 16 Lernwochen. Zwei Personen mit (3,4) entsprechen aber nur 12 Lernwochen. Die Differenz von zwei Wochen pro Person wird der neuen Einheit "gutgeschrieben". Sie hat deshalb (3,2) – ein bisschen besser als durchschnittlich.</p>
 <p>Beim Mischen von (5,1) und (1,1), also Personen, die schon fast den nächsten Aufstieg geschafft haben, käme sogar (4,4) heraus. Beim Mischen von (5,11) und (1,3) ergibt sich hingegen (3,5) als neuer Wert. Es ist also nicht möglich, den Talentwert einer gemischten Einheit genau vorherzusagen. Es kann lediglich ein Minimal- und Maximalwert angegeben werden.</p>
-<h2 id="anwendungen-von-talenten">Anwendungen von Talenten</h2>
+<h2 id="anwendungen-von-talenten">Anwendungen von Talenten<a class="headerlink" href="#anwendungen-von-talenten" title="Permanent link">&para;</a></h2>
 <p>Talente ermöglichen Einheiten erst, bestimmte Dinge zu tun. Dabei kommt es manchmal auf die Talentstufe der Einheit an, ab der eine bestimmte Tätigkeit möglich wird. Manchmal spielt auch das Gesamttalent der Einheit eine Rolle, also Personenzahl * Talentwert.</p>
 <p>Talente lassen sich in einige Gruppen einteilen:</p>
-<h3 id="produktionstalente">Produktionstalente</h3>
+<h3 id="produktionstalente">Produktionstalente<a class="headerlink" href="#produktionstalente" title="Permanent link">&para;</a></h3>
 <p>Alchemie, Bergbau, Burgenbau, Holzfällen, Kräuterkunde, Pferdedressur, Rüstungsbau, Schiffbau, Steinbau, Straßenbau, Waffenbau, Wagenbau</p>
 <p>Dies ist die größte Gruppe von Talenten. Sie ermöglichen es, bestimmte Gegenstände, Gebäude, Schiffe oder Straßen herzustellen. Sie werden im Kapitel <a href="./production.md" title="Produktion">Produktion</a> und <a href="./alchemy.md" title="Alchemie">Alchemie</a> näher erklärt.</p>
-<h3 id="silbertalente">Silbertalente</h3>
+<h3 id="silbertalente">Silbertalente<a class="headerlink" href="#silbertalente" title="Permanent link">&para;</a></h3>
 <p>Handel, Steuereintreiben und Unterhaltung werden gebraucht, um Silber erzeugen zu können. Mehr dazu im Kapitel über <a href="./silver.md" title="Geld">Geld</a>.</p>
-<h3 id="heimlich-co">Heimlich &amp; Co</h3>
+<h3 id="heimlich-co">Heimlich &amp; Co<a class="headerlink" href="#heimlich-co" title="Permanent link">&para;</a></h3>
 <p><a href="../skills-list/#spionage" title="Spionage">Spionage</a>, <a href="./camouflage.md" title="Tarnung">Tarnung</a> und <a href="./camouflage.md" title="Wahrnehmung">Wahrnehmung</a> drehen sich um Heimlichkeiten. Sie haben ihre eigenen Kapitel.</p>
-<h3 id="fortbewegung">Fortbewegung</h3>
+<h3 id="fortbewegung">Fortbewegung<a class="headerlink" href="#fortbewegung" title="Permanent link">&para;</a></h3>
 <p>Segeln und Reiten werden im Kapitel über <a href="./travel.md" title="Reisen">Reisen</a> erklärt. Reiten ist zudem auch im <a href="./war-tables.md" title="Kampf">Kampf</a> nützlich.</p>
-<h3 id="magie">Magie</h3>
+<h3 id="magie">Magie<a class="headerlink" href="#magie" title="Permanent link">&para;</a></h3>
 <p><a href="./magic.md" title="Magic">Magie</a> ist ein Talent mit besonders großen Auswirkungen und beansprucht ein Kapitel für sich.</p>
-<h3 id="kampftalente">Kampftalente</h3>
+<h3 id="kampftalente">Kampftalente<a class="headerlink" href="#kampftalente" title="Permanent link">&para;</a></h3>
 <p>Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im <a href="./war.md" title="Krieg">Krieg</a> besonders relevant, sei es gegen andere Parteien oder Monster.</p>
 <p>Weiterlesen: <a href="../skills-list/" title="Liste der Talente">Liste der Talente</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Talente&oldid=16985] -->
@@ -2279,6 +3466,12 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Zurück zum Seitenanfang
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2288,7 +3481,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025-2026 zendev1710.
+      Copyright &copy; 2025 Cyril Guillon
     </div>
   
   
@@ -2312,7 +3505,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>

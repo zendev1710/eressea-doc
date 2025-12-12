@@ -16,7 +16,7 @@
       
       
       
-        <link rel="next" href="introduction/">
+        <link rel="next" href="rules/">
       
       
         
@@ -28,7 +28,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -38,6 +38,9 @@
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -56,6 +59,8 @@
       
     
     
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -65,7 +70,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -88,12 +100,11 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
     <a href="./" title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,6 +127,54 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_4">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -173,11 +232,18 @@
       </label>
       <nav class="md-search__options" aria-label="Recherche">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -209,13 +275,244 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Accueil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="world/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Le jeu
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="travel/travel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Exploration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="production/production/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Production
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="war/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  La guerre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="magic/magic/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  La magie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="alchemy/alchemy/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  L'alchimie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="orders/commands/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Les ordres
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appendices/potions-and-herbs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Références
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Aide
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -229,13 +526,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="./" title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/images/logo.png" alt="logo">
 
     </a>
     Eressea
@@ -263,16 +561,41 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
       
       
         
       
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
           
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   
   <span class="md-ellipsis">
@@ -286,17 +609,43 @@
   
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accueil
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="rules/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Accueil
+    Rules
   
 
     
@@ -305,132 +654,13 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ce-quon-y-trouve" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ce qu'on y trouve
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#liens-utiles" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Liens utiles
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#les-jeux" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Les jeux
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Les jeux">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#eressea-le-jeu-le-deuxieme-age-e2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Eressea, le jeu : « le Deuxième Âge » (E2)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#e3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        E3
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="E3">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#deveron" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deveron
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#drachensgrab-la-tombe-du-dragon" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Drachensgrab (« La tombe du Dragon »)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#liens-utiles-externes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Liens utiles externes
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -455,9 +685,113 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshootings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dépannage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Le jeu
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Le jeu
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -470,7 +804,7 @@
   <span class="md-ellipsis">
     
   
-    Monde
+    Le Monde d'Eressea
   
 
     
@@ -482,9 +816,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -509,53 +844,7 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Races
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Races
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+              
             
               
                 
@@ -613,60 +902,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Skills
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Skills
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -702,14 +937,42 @@
   
   
     <li class="md-nav__item">
-      <a href="skills/skills-list/" class="md-nav__link">
+      <a href="../skills/skill-list.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Liste des compétences
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="camouflage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Camouflage
   
 
     
@@ -736,53 +999,37 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="camouflage/" class="md-nav__link">
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
+      
+        
+      
     
-  
-    Discrétion
-  
-
     
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
     
       
       
-  
-  
-  
-  
-    
-    
-    
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Travel
+    Exploration
   
 
     
@@ -793,12 +1040,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Travel
+    Exploration
   
 
           </label>
@@ -875,17 +1122,48 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -903,8 +1181,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -929,6 +1207,34 @@
     
   
     Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="production/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ressources
   
 
     
@@ -1060,53 +1366,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Buildings
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Buildings
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="production/buildings/buildings/" class="md-nav__link">
         
@@ -1185,23 +1444,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+                
   
   
   
@@ -1226,9 +1470,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1253,9 +1498,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1280,9 +1526,75 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    La guerre
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    La guerre
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -1307,9 +1619,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1322,7 +1635,7 @@
   <span class="md-ellipsis">
     
   
-    Alliance
+    Alliances
   
 
     
@@ -1331,6 +1644,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1343,24 +1664,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Magic
+    La magie
   
 
     
@@ -1371,12 +1709,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_15">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Magic
+    La magie
   
 
           </label>
@@ -1537,24 +1875,35 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Alchemy
+    L'alchimie
   
 
     
@@ -1565,12 +1914,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Alchemy
+    L'alchimie
   
 
           </label>
@@ -1647,24 +1996,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Orders
+    Les ordres
   
 
     
@@ -1675,12 +2041,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_17">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Orders
+    Les ordres
   
 
           </label>
@@ -1798,15 +2164,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -1831,84 +2190,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tips-and-tricks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Trucs et astuces
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Questions fréquentes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="troubleshootings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dépannage
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1921,24 +2207,39 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Appendices
+    Références
   
 
     
@@ -1949,12 +2250,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Appendices
+    Références
   
 
           </label>
@@ -2031,6 +2332,699 @@
     
   
     Tableaux relatifs à la guerre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/adamantium-armor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armure en adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/adamantium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/amulet-of-true-vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/antimagic-crystal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cristal d'Antimagie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/belt-of-troll-strength/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/dream-eye/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dream Eye
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/flaming-sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flammenschwert
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/iron-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eisengolem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/mountain-guard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Garde des Montagnes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/negative-weight-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Negative Weight Bag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/ring-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring der Unsichtbarkeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/ring-of-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anneau de Pouvoir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/sphere-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sphère d'invisibilité
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/stardust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sternenstaub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/stone-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Golem de pierre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="appendices/items/sun-sail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voile Solaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Questions fréquentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tips-and-tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trucs et astuces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriels
   
 
     
@@ -2167,10 +3161,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#liens-utiles-externes" class="md-nav__link">
+  <a href="#liens-externes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Liens utiles externes
+        Liens externes
       
     </span>
   </a>
@@ -2188,6 +3182,54 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="./" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -2197,70 +3239,110 @@
   
 
 
-<h1 id="accueil">Accueil</h1>
-<p>Bienvenue dans <a href="./eressea.md" title="Eressea">Eressea</a> !</p>
+<h1 id="accueil">Accueil<a class="headerlink" href="#accueil" title="Permanent link">&para;</a></h1>
+<p>Bienvenue dans [Eressea] !</p>
 <p>Dans cette documentation, nous rassemblons les informations pour les joueurs d'Eressea.</p>
-<p>Cette documentation est <strong>en construction</strong> ! Si vous souhaitez y contribuer, n'hésitez pas à nous rejoindre sur le serveur <a href="https://discord.gg/KT5Fffh">Discord</a> d'Eressea.</p>
-<h2 id="ce-quon-y-trouve">Ce qu'on y trouve</h2>
+<p>Cette documentation est <strong>en construction</strong> ! Si vous souhaitez y contribuer, n'hésitez pas à nous rejoindre sur le serveur [Discord] d'Eressea.</p>
+<h2 id="ce-quon-y-trouve">Ce qu'on y trouve<a class="headerlink" href="#ce-quon-y-trouve" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="rules/" title="Regeln">Les règles</a></li>
-<li><a href="https://www.eressea.de/?page_id=186">L'inscription au jeu</a></li>
-<li><a href="https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/">E-Announce</a> : la mailing list pour les modifications de règles — <strong>IMPORTANT</strong> !</li>
-<li><a href="./commands-send.md#was-man-bei-der-eingabe-beachten-muss" title="Hilfsmittel">Les outils indispensables pour jouer</a></li>
-<li><a href="./getting-started-tips.md" title="Anfängertipps">Conseils pour les nouveaux joueurs</a></li>
-<li><a href="./eressea-story.md" title="Geschichte von Eressea">L'histoire d'Eressea</a> : Eressea provient d'<a href="./atlantis.md" title="Atlantis">Atlantis</a></li>
-<li><a href="faq/" title="FAQ">Questions fréquentes (FAQ)</a></li>
+<li>[Les règles]</li>
+<li>[L'inscription au jeu]</li>
+<li>[E-Announce][] : la mailing list pour les modifications de règles — <strong>IMPORTANT</strong> !</li>
+<li>[Les outils indispensables pour jouer]</li>
+<li>[Conseils pour les nouveaux joueurs]</li>
+<li>[L'histoire d'Eressea] : Eressea provient d'[Atlantis]</li>
+<li>[Questions fréquentes (FAQ)]</li>
 </ul>
-<h2 id="liens-utiles">Liens utiles</h2>
+<h2 id="liens-utiles">Liens utiles<a class="headerlink" href="#liens-utiles" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="./commands-sequence.md" title="Séquence des ordres">Séquence des ordres</a> : <strong>la page la plus importante</strong> des règles !</li>
-<li><a href="./tactic.md" title="Taktik">Tactics</a> - Combien de tacticiens pour quels bonus</li>
-<li><a href="./familiars.md" title="Les Familiers">Les Familiers</a> - Tout sur ces créatures magiques</li>
-<li><a href="./development.md" title="Développement">Développement</a> d'outils et de scripts</li>
-<li><a href="https://wiki.eressea.de/xontormia_express" title="Xontormia Express">Xontormia Express</a> - La gazette et ses <a href="https://wiki.eressea.de/Kategorie:Xontormia_Express" title="Kategorie:Xontormia Express (wiki)">numéros archivés</a></li>
-<li>Les archives des <a href="https://wiki.eressea.de/Ankündigungen" title="Ankündigungen (wiki)">annonces</a> des changements de règles</li>
-<li><a href="./player-pages.md" title="Pages des joueurs">Les pages des joueurs</a></li>
-<li><a href="./play-too-much-if.md" title="Du spielst zuviel Eressea, wenn...">Tu joues trop à Eressea si ...</a></li>
+<li>[Séquence des ordres] : <strong>la page la plus importante</strong> des règles !</li>
+<li>[Tactics] - Combien de tacticiens pour quels bonus</li>
+<li>[Les Familiers] - Tout sur ces créatures magiques</li>
+<li>[Développement] d'outils et de scripts</li>
+<li>[Xontormia Express] - La gazette et ses [numéros archivés]</li>
+<li>Les archives des [annonces] des changements de règles</li>
+<li>[Les pages des joueurs]</li>
+<li>[Tu joues trop à Eressea si ...]</li>
 </ul>
-<h2 id="les-jeux">Les jeux</h2>
-<h3 id="eressea-le-jeu-le-deuxieme-age-e2">Eressea, le jeu : « le Deuxième Âge » (E2)</h3>
+<h2 id="les-jeux">Les jeux<a class="headerlink" href="#les-jeux" title="Permanent link">&para;</a></h2>
+<h3 id="eressea-le-jeu-le-deuxieme-age-e2">Eressea, le jeu : « le Deuxième Âge » (E2)<a class="headerlink" href="#eressea-le-jeu-le-deuxieme-age-e2" title="Permanent link">&para;</a></h3>
 <p>Le jeu se déroule sans interruption depuis 1996.</p>
 <p>Depuis quelques changements de règles en 2000, il est nommé « Le Deuxième Âge » (en abrégé E2).</p>
-<h3 id="e3">E3</h3>
+<h3 id="e3">E3<a class="headerlink" href="#e3" title="Permanent link">&para;</a></h3>
 <p>Le 24 juin 2009 a marqué le début du Troisième Âge d'Eressea. Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur plusieurs aspects.
 La simplification de la gestion et une séparation plus nette des races constituaient les deux principaux objectifs de conception d'E3.</p>
 <p>La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation. Sur E3, tu peux consulter la documentation suivante :</p>
 <ul>
-<li><a href="https://wiki.eressea.de/Rassen_im_dritten_Zeitalter" title="Les races au Troisième Âge (wiki)">Aperçu de nos réflexions concernant les races</a></li>
-<li><a href="./the-third-age.md" title="Le Troisième Âge">Ensemble des modifications des règles par rapport au jeu Eressea original</a></li>
-<li><a href="https://wiki.eressea.de/Ankündigungen_(E3)" title="Annonces E3 (wiki)">Annonces de la liste de diffusion e3-announce</a></li>
+<li>[Aperçu de nos réflexions concernant les races]</li>
+<li>[Ensemble des modifications des règles par rapport au jeu Eressea original][Le Troisième Âge]</li>
+<li>[Annonces de la liste de diffusion e3-announce]</li>
 </ul>
-<h4 id="deveron">Deveron</h4>
-<p>Le 19 avril 2014, un nouveau jeu intitulé <strong>Deveron</strong> a été lancé pour les contributeurs <a href="https://www.patreon.com/enno">Patreon-Förderer</a>.
+<h4 id="deveron">Deveron<a class="headerlink" href="#deveron" title="Permanent link">&para;</a></h4>
+<p>Le 19 avril 2014, un nouveau jeu intitulé <strong>Deveron</strong> a été lancé pour les contributeurs [Patreon-Förderer].
 Le jeu était basé sur les règles d'E3, mais a subi des modifications plus importantes que sur les jeux précédents.
 Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.</p>
-<h4 id="drachensgrab-la-tombe-du-dragon">Drachensgrab (« La tombe du Dragon »)</h4>
+<h4 id="drachensgrab-la-tombe-du-dragon">Drachensgrab (« La tombe du Dragon »)<a class="headerlink" href="#drachensgrab-la-tombe-du-dragon" title="Permanent link">&para;</a></h4>
 <p>Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par semaine et quelques modifications mineures.</p>
 <ul>
-<li><a href="https://www.pbem-spiele.de/forum/viewtopic.php?f=16&amp;t=4170">Discussion sur le forum</a></li>
-<li><a href="https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc">Règles</a></li>
+<li>[Discussion sur le forum]</li>
+<li>[Règles]</li>
 </ul>
-<h2 id="liens-utiles-externes">Liens utiles externes</h2>
+<h2 id="liens-externes">Liens externes<a class="headerlink" href="#liens-externes" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.eressea.de">Page d'accueil d'Eressea</a></li>
-<li><strong><a href="https://www.eressea.de/?page_id=189&amp;lang=en">Inscription à Eressea</a> !</strong></li>
-<li>Serveur <a href="https://discord.gg/KT5Fffh">Discord</a>. Tu pourras y trouver des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.</li>
-<li><a href="https://www.pbem-spiele.de/forum/viewforum.php?f=16">Forum</a> d'Eressea (ancien)</li>
-<li><a href="https://bugs.eressea.de/">Mantis</a> - signaler des bugs</li>
-<li><a href="https://magellan2.github.io">Magellan</a></li>
-<li><a href="https://www.eressea.kn-bremen.de/downloads/">CSMapFX</a></li>
-<li><a href="http://wiki.duckstein.net/Eressea/Eressea">Le wiki Eressea de Ralf Duckstein</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Eressea_(video_game)">Eressea sur Wikipedia</a></li>
-<li>La fameuse <a href="https://karten.adi.tz-o.de/Inselnamen.jpg">carte du monde connu</a></li>
-<li><a href="https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/">Le <em>Who's Who</em> d'Eressea (Internet Archive, en allemand)</a></li>
-<li><a href="https://www.eressea.kn-bremen.de/eressea/reason.php/">Un génerateur de casus belli</a></li>
+<li>[Page d'accueil d'Eressea]</li>
+<li><strong>[Inscription à Eressea] !</strong></li>
+<li>Serveur [Discord]. Tu pourras y trouver des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.</li>
+<li>[Forum] d'Eressea (ancien)</li>
+<li>[Mantis] - signaler des bugs</li>
+<li>[Magellan]</li>
+<li>[CSMapFX]</li>
+<li>[Le wiki Eressea de Ralf Duckstein]</li>
+<li>[Eressea sur Wikipedia]</li>
+<li>La fameuse [carte du monde connu]</li>
+<li>[Le <em>Who's Who</em> d'Eressea (Internet Archive, en allemand)]</li>
+<li>[Un génerateur de casus belli]</li>
 </ul>
+<p>Poursuivre la lecture : [Les règles].</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
+
+<!--
+[Eressea]: ./eressea.md "Eressea"
+[Discord]: https://discord.gg/KT5Fffh
+[Les règles]: ./rules.md "Règles du jeu"
+[L'inscription au jeu]: https://www.eressea.de/?page_id=186
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Conseils pour les nouveaux joueurs]: ./getting-started-tips.md "Anfängertipps"
+[L'histoire d'Eressea]: ./eressea-story.md "Geschichte von Eressea"
+[Atlantis]: ./atlantis.md "Atlantis"
+[Questions fréquentes (FAQ)]: ./faq.md "FAQ"
+[Séquence des ordres]: ./commands-sequence.md "Séquence des ordres"
+[Tactics]: ./tactic.md "Taktik"
+[Les Familiers]: ./familiars.md "Les Familiers"
+[Développement]: ./development.md "Développement"
+[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
+[Les pages des joueurs]: ./player-pages.md "Pages des joueurs"
+[Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
+[Le Troisième Âge]: ./the-third-age.md "Le Troisième Âge"
+[Aperçu de nos réflexions concernant les races]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les races au Troisième Âge (wiki)"
+[Annonces de la liste de diffusion e3-announce]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
+[Patreon-Förderer]: https://www.patreon.com/enno
+[Discussion sur le forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Règles]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
+[Page d'accueil d'Eressea]: https://www.eressea.de
+[Inscription à Eressea]: https://www.eressea.de/?page_id=189&lang=en
+[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Mantis]: https://bugs.eressea.de/
+[Magellan]: https://magellan2.github.io
+[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[Le wiki Eressea de Ralf Duckstein]: http://wiki.duckstein.net/Eressea/Eressea
+[Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
+[carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
+[Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
+[Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/
+-->
 
 
 
@@ -2281,6 +3363,12 @@ Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.</p>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2290,7 +3378,7 @@ Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025-2026 zendev1710.
+      Copyright &copy; 2025 Cyril Guillon
     </div>
   
   
@@ -2314,7 +3402,7 @@ Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>

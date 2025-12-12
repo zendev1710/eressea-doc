@@ -26,16 +26,19 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>ExtendedCommands - Eressea</title>
+        <title>Extended commands - Eressea</title>
       
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -54,6 +57,8 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -63,7 +68,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -72,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#extendedcommands" class="md-skip">
+        <a href="#extended-commands" class="md-skip">
           Skip to content
         </a>
       
@@ -86,12 +98,11 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -108,12 +119,60 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ExtendedCommands
+              Extended commands
             
           </span>
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_4">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -171,11 +230,18 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -207,13 +273,242 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../world/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gameplay
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../travel/travel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Exploration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../production/production/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Production
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../war/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  War
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magic/magic/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Magic
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../alchemy/alchemy/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Alchemy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../commands/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Orders
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../appendices/potions-and-herbs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Help
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -227,13 +522,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     Eressea
@@ -259,9 +555,38 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -275,13 +600,58 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -306,9 +676,113 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshootings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshootings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gameplay
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -333,9 +807,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -360,53 +835,7 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Races
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Races
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+              
             
               
                 
@@ -464,60 +893,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Skills
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Skills
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -553,14 +928,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../../skills/skills-list/" class="md-nav__link">
+      <a href="../../skills/skill-list.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Skill list
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../camouflage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Camouflage
   
 
     
@@ -587,53 +990,37 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../camouflage/" class="md-nav__link">
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
+      
+        
+      
     
-  
-    Camouflage
-  
-
     
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
     
       
       
-  
-  
-  
-  
-    
-    
-    
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Travel
+    Exploration
   
 
     
@@ -644,12 +1031,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Travel
+    Exploration
   
 
           </label>
@@ -726,17 +1113,48 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -754,8 +1172,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -780,6 +1198,34 @@
     
   
     Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../production/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
   
 
     
@@ -911,53 +1357,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Buildings
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Buildings
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../production/buildings/buildings/" class="md-nav__link">
         
@@ -1036,23 +1435,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+                
   
   
   
@@ -1077,9 +1461,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1104,9 +1489,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1131,9 +1517,75 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    War
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    War
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -1158,9 +1610,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1173,7 +1626,7 @@
   <span class="md-ellipsis">
     
   
-    Alliance
+    Alliances
   
 
     
@@ -1182,6 +1635,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1194,17 +1655,34 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -1222,8 +1700,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_15">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1388,17 +1866,28 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
@@ -1416,8 +1905,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1498,17 +1987,34 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -1526,8 +2032,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_17">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1579,7 +2085,7 @@
   <span class="md-ellipsis">
     
   
-    Orders Sequence
+    Orders sequence
   
 
     
@@ -1649,15 +2155,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -1682,84 +2181,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../tips-and-tricks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tips and tricks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    FAQ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../troubleshootings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Troubleshootings
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1772,24 +2198,39 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Appendices
+    References
   
 
     
@@ -1800,12 +2241,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Appendices
+    References
   
 
           </label>
@@ -1882,6 +2323,699 @@
     
   
     War tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium-armor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium Armor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/adamantium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/amulet-of-true-vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/antimagic-crystal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antimagic Crystal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/belt-of-troll-strength/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/dream-eye/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dreameye
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/flaming-sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flaming Sword
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/iron-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iron Golem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/mountain-guard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mountain Guard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/negative-weight-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Negative Weight Bag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring of Invisibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/ring-of-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring of Power
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sphere-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sphere of Invisibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stardust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stardust
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/stone-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stone Golem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/items/sun-sail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solar Sail
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Help
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Help
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tips-and-tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tips and tricks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorials
   
 
     
@@ -1989,6 +3123,14 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -1998,12 +3140,12 @@
   
 
 
-<h1 id="extendedcommands">ExtendedCommands</h1>
+<h1 id="extended-commands">Extended commands<a class="headerlink" href="#extended-commands" title="Permanent link">&para;</a></h1>
 <p>ndedCommands sind ein Plugin für <a href="http://magellan-client.sf.net">Magellan</a>, das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.</p>
 <p>Auf der <a href="http://magellan.narabi.de/plugins_extcmds_en.php">offiziellen Seite</a> gibt es eine Einführung und ein paar Beispielscripte.</p>
 <p>Die Script-Bibliothek versteckt sich im Magellan Menü: Plugins -&gt; Erweiterte Befehle -&gt; Bibliothek Bearbeiten... Es geht seitlich ein neuer View auf, mit einer grossen Textarea zum Code eingeben, sowie Buttons zum Ausführen und Speichern.</p>
 <p>Was folgt sind Metas Beispielskripte. Einen anderen Ansatz verfolgen der E3CommandParser von Solthar.</p>
-<h2 id="metas-skripte">Metas Skripte</h2>
+<h2 id="metas-skripte">Metas Skripte<a class="headerlink" href="#metas-skripte" title="Permanent link">&para;</a></h2>
 <p>Generell kann man die Scripte einem nach dem anderen reinkopieren, aber ich hab es bei mir in 4 Teile aufgeteilt:</p>
 <ol>
 <li>Imports: Nur 2 Zeilen reinkopieren.</li>
@@ -2013,14 +3155,14 @@
 </ol>
 <p>Wenn man selber was schreiben will findet man unter Desktop-&gt;Erweiterte Befehle Hilfe alles was man braucht. Mittels Button "Browser" kann man sich die Seite auch im Browser anzeigen lassen.</p>
 <p>Achja, hier sind die 2 Zeilen für den Import:</p>
-<pre><code>import magellan.library.*;
+<div class="highlight"><pre><span></span><code>import magellan.library.*;
 import magellan.library.rules.*;
-</code></pre>
+</code></pre></div>
 <p>Hier sind meine vorgefertigten Scripts:</p>
-<h3 id="metas-burgenbauschilder">Meta's BurgenbauSchilder</h3>
+<h3 id="metas-burgenbauschilder">Meta's BurgenbauSchilder<a class="headerlink" href="#metas-burgenbauschilder" title="Permanent link">&para;</a></h3>
 <p>Ein Aufruf von <code>metaBurgenbauSchilder()</code> bekommt man in allen Regionen ein Schild mit folgenden Infos: Burggrösse M Moral Silber pro Burgengrösse / Stein für nächsten Burgupgrade Steineffizienz (=Silber pro Burgengrösse / Stein für nächsten Burgupgrade)</p>
-<pre><code>/*********************************************
-*        Meta's BurgenbauSchilder            *
+<div class="highlight"><pre><span></span><code>/*********************************************
+*        Meta&#39;s BurgenbauSchilder            *
 * Version 0.5                                *
 *********************************************/
 metaBurgenbauSchilder() {
@@ -2052,26 +3194,26 @@ metaBurgenbauSchilder() {
       else nextBurgUpgrade = 0;//wird noch dauern bis ich es brauche
       stein2Upgrade = nextBurgUpgrade - burggroesse;
       steinEffizienz = silberpool/stein2Upgrade;
-      signtext = ""+burggroesse+" M"+moral;
+      signtext = &quot;&quot;+burggroesse+&quot; M&quot;+moral;
       region.addSign(new Sign( signtext ));
-      signtext = ""+silberpool/100+"$/"+stein2Upgrade+"S";
+      signtext = &quot;&quot;+silberpool/100+&quot;$/&quot;+stein2Upgrade+&quot;S&quot;;
       region.addSign(new Sign( signtext ));
-      signtext = ""+steinEffizienz/100+","+steinEffizienz%100;//+"="+steinEffizienz;
-      if (steinEffizienz&gt;10000) signtext = "**" + signtext + "**";
-      else if (steinEffizienz&gt;1000) signtext = "*" + signtext + "*";
+      signtext = &quot;&quot;+steinEffizienz/100+&quot;,&quot;+steinEffizienz%100;//+&quot;=&quot;+steinEffizienz;
+      if (steinEffizienz&gt;10000) signtext = &quot;**&quot; + signtext + &quot;**&quot;;
+      else if (steinEffizienz&gt;1000) signtext = &quot;*&quot; + signtext + &quot;*&quot;;
       region.addSign(new Sign( signtext ));
     }
   }
 }
-</code></pre>
-<h3 id="metas-freundfeindschilder">Meta's FreundFeindSchilder</h3>
+</code></pre></div>
+<h3 id="metas-freundfeindschilder">Meta's FreundFeindSchilder<a class="headerlink" href="#metas-freundfeindschilder" title="Permanent link">&para;</a></h3>
 <p>Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Doku wird noch nachgeliefert:</p>
-<pre><code>/*********************************************
-*        Meta's FreundFeindSchilder          *
+<div class="highlight"><pre><span></span><code>/*********************************************
+*        Meta&#39;s FreundFeindSchilder          *
 * Version 0.6                                *
 *********************************************/
 metaFreundFeindSchilder(String type) {
-  if (type.equals("people")){//einfach nur Leute zählen
+  if (type.equals(&quot;people&quot;)){//einfach nur Leute zählen
     HashMap people;
     String allianceName;
     for (Region region : world.regions().values()) {
@@ -2088,17 +3230,17 @@ metaFreundFeindSchilder(String type) {
       }
       region.clearSigns();
       Iterator iterator = people.keySet().iterator();
-      String signtext = "";
+      String signtext = &quot;&quot;;
       while (iterator.hasNext()) {
         String allianceStr = iterator.next();
         int amount = people.get(allianceStr);
-        signtext = allianceStr + ":" + amount;
+        signtext = allianceStr + &quot;:&quot; + amount;
         Sign sign = new Sign( signtext );
         region.addSign(sign);
       } 
     }
   }
-  else if (type.equals("soldier")){
+  else if (type.equals(&quot;soldier&quot;)){
     HashMap people;
     HashMap soldiers;
     HashMap heros;
@@ -2128,15 +3270,15 @@ metaFreundFeindSchilder(String type) {
       }
       region.clearSigns();
       Iterator iterator = people.keySet().iterator();
-      String signtext = "";
+      String signtext = &quot;&quot;;
       while (iterator.hasNext()) {
         String ffi = iterator.next();//friendFoeInfo
         int p = people.get(ffi);
         int s = soldiers.get(ffi);
         int h = heros.get(ffi);
-        signtext = ffi + ":"+ p;
-        if (s&gt;0) signtext = signtext+"+"+s; 
-        if (h&gt;0) signtext = signtext+"+"+h+"H"; 
+        signtext = ffi + &quot;:&quot;+ p;
+        if (s&gt;0) signtext = signtext+&quot;+&quot;+s; 
+        if (h&gt;0) signtext = signtext+&quot;+&quot;+h+&quot;H&quot;; 
         Sign sign = new Sign( signtext );
         region.addSign(sign);
       } 
@@ -2147,7 +3289,7 @@ metaFreundFeindSchilder(String type) {
 
 boolean metaUnitIsSoldier(unit) {//etwas gekürzt aus dem Helper
   Collection items = unit.getItems();
-  ItemCategory weapons = world.rules.getItemCategory(StringID.create("weapons"), false);
+  ItemCategory weapons = world.rules.getItemCategory(StringID.create(&quot;weapons&quot;), false);
   for (Item item : items) {
     ItemCategory itemCategory = item.getItemType().getCategory();
     if (itemCategory == null) {continue;}
@@ -2186,38 +3328,38 @@ metaDiplomatieListe(String chefdiplomat,String outputType){
   //magellan.library.utils.OrderedHashtable col = world.factions();
   for (Faction faction : world.factions().values()){
     AllianceGroup alliance = faction.getAlliance();
-    if (alliance==null) allianceId = "?";
+    if (alliance==null) allianceId = &quot;?&quot;;
     else allianceId = alliance.getID().toString();
-    if (outputType.equals("code")){
-      factionString = "tmpCallback.put(\""+faction.getID().toString()+"\",\""+metaGetFriendFoeInfo(faction)+"\");/"+"/"+faction.getName();
+    if (outputType.equals(&quot;code&quot;)){
+      factionString = &quot;tmpCallback.put(\&quot;&quot;+faction.getID().toString()+&quot;\&quot;,\&quot;&quot;+metaGetFriendFoeInfo(faction)+&quot;\&quot;);/&quot;+&quot;/&quot;+faction.getName();
     } else {
-      factionString = ""+faction.getName()+","+faction.getID().toString();
-      factionString = factionString + ","+allianceId+","+faction.getRace();
-      factionString = factionString + ","+faction.getPersons()+","+faction.getRace();
-      factionString = factionString + ","+faction.getSpellSchool()+","+faction.getScore();
+      factionString = &quot;&quot;+faction.getName()+&quot;,&quot;+faction.getID().toString();
+      factionString = factionString + &quot;,&quot;+allianceId+&quot;,&quot;+faction.getRace();
+      factionString = factionString + &quot;,&quot;+faction.getPersons()+&quot;,&quot;+faction.getRace();
+      factionString = factionString + &quot;,&quot;+faction.getSpellSchool()+&quot;,&quot;+faction.getScore();
     }
     unit.addOrderAt(0,factionString);
   }
-  unit.addOrderAt(0,"/"+"/ TODO Factionliste rauskopieren");
+  unit.addOrderAt(0,&quot;/&quot;+&quot;/ TODO Factionliste rauskopieren&quot;);
 }
-</code></pre>
+</code></pre></div>
 <p>Zur Konfiguration braucht man noch eine weitere Funktion, in der jede Parteinummer die einem speziellen Allianz zugeteilt werden soll, eine Zuordnung:</p>
-<pre><code>metaFriendFoeCallback(HashMap tmpCallback){
-tmpCallback.put("ii","MOB");//Monster
+<div class="highlight"><pre><span></span><code>metaFriendFoeCallback(HashMap tmpCallback){
+tmpCallback.put(&quot;ii&quot;,&quot;MOB&quot;);//Monster
 return tmpCallback;
 }
-</code></pre>
-<h3 id="metas-befehlschecker">Meta's BefehlsChecker</h3>
+</code></pre></div>
+<h3 id="metas-befehlschecker">Meta's BefehlsChecker<a class="headerlink" href="#metas-befehlschecker" title="Permanent link">&para;</a></h3>
 <p>Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); aufgerufen. Dadurch bekommen Einheiten die die Zeilen <code>// m/abbauen/stein</code> bzw. auch für eisen oder holz gesetzt haben, die entsprechenden Befehle.</p>
-<pre><code>/*********************************************
-*        Meta's BefehlsChecker               *
+<div class="highlight"><pre><span></span><code>/*********************************************
+*        Meta&#39;s BefehlsChecker               *
 * Version 0.6                                *
 *********************************************/
 
 metaBefehlChecker(String factionId){
-  String metaPrefix = "/" + "/ m/"; //gibt sonst probleme mit Kommentarzeichen
-  List metaBefehlsListe;// Befehle mit "// m/"
-  List genBefehlsListe;// Befehle mit " ;m"
+  String metaPrefix = &quot;/&quot; + &quot;/ m/&quot;; //gibt sonst probleme mit Kommentarzeichen
+  List metaBefehlsListe;// Befehle mit &quot;// m/&quot;
+  List genBefehlsListe;// Befehle mit &quot; ;m&quot;
   List tmpBefehlsListe;//sonstige Befehle
   for (Region region : world.regions().values()) { //alle Regionen
     for (Unit unit : region.units()) { //alle Einheiten
@@ -2228,16 +3370,16 @@ metaBefehlChecker(String factionId){
         for (String befehl : unit.getOrders()){
           if (befehl.startsWith(metaPrefix)){//metaBefehle suchen
             metaBefehlsListe.add(befehl);
-          } else if (!(befehl.endsWith(" ;m"))){//nichtgenerierte Befehle aufheben
+          } else if (!(befehl.endsWith(&quot; ;m&quot;))){//nichtgenerierte Befehle aufheben
             tmpBefehlsListe.add(befehl);
           } //generierte Befehle kommen weg - sollen neu generiert werden!
         }
         if (metaBefehlsListe.size()&gt;0){ //einheit mit metaBefehlen
           for (String befehl : metaBefehlsListe) {//metaBefehle abarbeiten
-            if (befehl.startsWith("abbauen",5)){
-              if (befehl.startsWith("eisen",13)) metaAbbauenSub (unit,befehl,genBefehlsListe,"Eisen","Bergbau",500);
-              if (befehl.startsWith("stein",13)) metaAbbauenSub (unit,befehl,genBefehlsListe,"Steine","Steinbau",250);
-              if (befehl.startsWith("holz",13)) metaAbbauenSub (unit,befehl,genBefehlsListe,"Holz","Holzfällen",250);
+            if (befehl.startsWith(&quot;abbauen&quot;,5)){
+              if (befehl.startsWith(&quot;eisen&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Eisen&quot;,&quot;Bergbau&quot;,500);
+              if (befehl.startsWith(&quot;stein&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Steine&quot;,&quot;Steinbau&quot;,250);
+              if (befehl.startsWith(&quot;holz&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Holz&quot;,&quot;Holzfällen&quot;,250);
             }
           }
           unit.clearOrders();
@@ -2256,9 +3398,9 @@ metaAbbauenSub (Unit unit, String befehl, List genBefehlsListe, String itemName,
   boolean istAbbauMoeglich=true;
   int unitLevel = metaGetUnitSkillLevel(unit,skillName);
   int abbauMenge = (unit.getPersons() * (unitLevel + 1));
-  if (itemName.equals("Holz")){//genug Baum+Schössling?
-    int baum = metaGetRegionRessourceAmount(unit.getRegion(),"Bäume");
-    int schoessling = metaGetRegionRessourceAmount(unit.getRegion(),"Schößlinge");
+  if (itemName.equals(&quot;Holz&quot;)){//genug Baum+Schössling?
+    int baum = metaGetRegionRessourceAmount(unit.getRegion(),&quot;Bäume&quot;);
+    int schoessling = metaGetRegionRessourceAmount(unit.getRegion(),&quot;Schößlinge&quot;);
     if (baum+schoessling == 0) istAbbauMoeglich = false;
   } else {//Tiefencheck
     int ressLevel = metaGetRegionRessourceLevel(unit.getRegion(),itemName);
@@ -2267,33 +3409,33 @@ metaAbbauenSub (Unit unit, String befehl, List genBefehlsListe, String itemName,
     if (ressLevel == unitLevel) {//genug in Ebene noch da?
       if (ressAmount &lt; (abbauMenge/2)) {// halbe wegen Gebäude
         istAbbauMoeglich = false;//per default wird mal nicht abgebaut
-        genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/menge ;m");//noch was da, aber nicht genug für maxauslastung
+        genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauen/&quot;+itemName+&quot;/menge ;m&quot;);//noch was da, aber nicht genug für maxauslastung
       }
     }
   }
-  if (metaGetUnitItem(unit,"Silber")&lt;unterhaltSilber) {
+  if (metaGetUnitItem(unit,&quot;Silber&quot;)&lt;unterhaltSilber) {
     if (istAbbauMoeglich==true){//wenn abbau eh nicht möglich, dann auch kein Silbercheck
-      genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/silber ;m");//nicht genug Silber für Gebäudeunterhalt
+      genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauen/&quot;+itemName+&quot;/silber ;m&quot;);//nicht genug Silber für Gebäudeunterhalt
     }
     istAbbauMoeglich = false;
   }    
   if (istAbbauMoeglich==true) {
     if (abbauMenge % 2 == 1) abbauMenge--;//gerade wegen Gebäudeeinsparung
-    genBefehlsListe.add("MACHEN "+abbauMenge+" "+itemName+" ;m");
+    genBefehlsListe.add(&quot;MACHEN &quot;+abbauMenge+&quot; &quot;+itemName+&quot; ;m&quot;);
   } else {
-    genBefehlsListe.add("LERNEN "+skillName+" ;m");
-    genBefehlsListe.add("BEZAHLEN NOT ;m");
+    genBefehlsListe.add(&quot;LERNEN &quot;+skillName+&quot; ;m&quot;);
+    genBefehlsListe.add(&quot;BEZAHLEN NOT ;m&quot;);
   }
-  if (itemName.equals("Eisen")){//wenn Laen abbaubar dann Todo
-    int laenLevel = metaGetRegionRessourceLevel(unit.getRegion(),"Laen");
+  if (itemName.equals(&quot;Eisen&quot;)){//wenn Laen abbaubar dann Todo
+    int laenLevel = metaGetRegionRessourceLevel(unit.getRegion(),&quot;Laen&quot;);
     if (laenLevel &lt;= unitLevel){
-        genBefehlsListe.add("/" + "/ TODO abbauenTODO abbauen/"+itemName+"/laen ;m");
+        genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauenTODO abbauen/&quot;+itemName+&quot;/laen ;m&quot;);
     }
   }
 }
 
 int metaGetUnitItem(Unit unit,String itemName){
-  Item items = unit.getModifiedItem(new ItemType(StringID.create("Silber")));
+  Item items = unit.getModifiedItem(new ItemType(StringID.create(&quot;Silber&quot;)));
   if (items==null) return 0;//garnix da!
   else return items.getAmount();
 }
@@ -2320,7 +3462,7 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
     }
   return 0;
 }
-</code></pre>
+</code></pre></div>
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 <!--[E3CommandParser]: /E3CommandParser "E3CommandParser"-->
 
@@ -2329,6 +3471,9 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
 
 
 
+
+  
+  
 
 
 
@@ -2343,6 +3488,12 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2352,7 +3503,7 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025-2026 zendev1710.
+      Copyright &copy; 2025 Cyril Guillon
     </div>
   
   
@@ -2376,7 +3527,7 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

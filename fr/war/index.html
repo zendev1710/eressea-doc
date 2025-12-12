@@ -30,7 +30,7 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -40,6 +40,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -58,6 +61,8 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +72,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -90,12 +102,11 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
     <a href="../" title="Eressea" class="md-header__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -118,6 +129,54 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_3" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_3">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_4">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -175,11 +234,18 @@
       </label>
       <nav class="md-search__options" aria-label="Recherche">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -211,13 +277,244 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Accueil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../world/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Le jeu
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../travel/travel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Exploration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../production/production/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Production
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  La guerre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../magic/magic/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  La magie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../alchemy/alchemy/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  L'alchimie
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../orders/commands/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Les ordres
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../appendices/potions-and-herbs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Références
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Aide
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -231,13 +528,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../" title="Eressea" class="md-nav__button md-logo" aria-label="Eressea" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     Eressea
@@ -263,9 +561,38 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -279,13 +606,58 @@
   
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accueil
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -310,9 +682,113 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshootings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dépannage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Le jeu
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Le jeu
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -325,7 +801,7 @@
   <span class="md-ellipsis">
     
   
-    Monde
+    Le Monde d'Eressea
   
 
     
@@ -337,9 +813,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -364,53 +841,7 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Races
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Races
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
+              
             
               
                 
@@ -468,60 +899,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Skills
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Skills
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -557,14 +934,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/skills-list/" class="md-nav__link">
+      <a href="../../skills/skill-list.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Liste des compétences
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../camouflage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Camouflage
   
 
     
@@ -591,53 +996,37 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../camouflage/" class="md-nav__link">
+    
+    
+      
         
-  
-  
-  <span class="md-ellipsis">
+      
+        
+      
     
-  
-    Discrétion
-  
-
     
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
     
       
       
-  
-  
-  
-  
-    
-    
-    
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Travel
+    Exploration
   
 
     
@@ -648,12 +1037,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Travel
+    Exploration
   
 
           </label>
@@ -730,17 +1119,48 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -758,8 +1178,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -784,6 +1204,34 @@
     
   
     Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../production/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ressources
   
 
     
@@ -915,53 +1363,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Buildings
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Buildings
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../production/buildings/buildings/" class="md-nav__link">
         
@@ -1040,23 +1441,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+                
   
   
   
@@ -1081,9 +1467,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1108,9 +1495,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1135,9 +1523,80 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    La guerre
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    La guerre
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
     
@@ -1358,10 +1817,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#das-ende" class="md-nav__link">
+  <a href="#fin-du-combat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Das Ende
+        Fin du combat
       
     </span>
   </a>
@@ -1386,9 +1845,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -1401,7 +1861,7 @@
   <span class="md-ellipsis">
     
   
-    Alliance
+    Alliances
   
 
     
@@ -1410,6 +1870,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1422,24 +1890,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Magic
+    La magie
   
 
     
@@ -1450,12 +1935,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_15">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Magic
+    La magie
   
 
           </label>
@@ -1616,24 +2101,35 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Alchemy
+    L'alchimie
   
 
     
@@ -1644,12 +2140,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Alchemy
+    L'alchimie
   
 
           </label>
@@ -1726,24 +2222,41 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Orders
+    Les ordres
   
 
     
@@ -1754,12 +2267,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_17">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Orders
+    Les ordres
   
 
           </label>
@@ -1877,15 +2390,8 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
+              
+                
   
   
   
@@ -1910,84 +2416,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tips-and-tricks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Trucs et astuces
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Questions fréquentes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../troubleshootings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dépannage
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2000,24 +2433,39 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
+        
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Appendices
+    Références
   
 
     
@@ -2028,12 +2476,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Appendices
+    Références
   
 
           </label>
@@ -2110,6 +2558,699 @@
     
   
     Tableaux relatifs à la guerre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/adamantium-armor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armure en adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/adamantium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/amulet-of-true-vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/antimagic-crystal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cristal d'Antimagie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/belt-of-troll-strength/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/dream-eye/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dream Eye
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/flaming-sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flammenschwert
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/iron-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eisengolem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/mountain-guard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Garde des Montagnes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/negative-weight-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Negative Weight Bag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/ring-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ring der Unsichtbarkeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/ring-of-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anneau de Pouvoir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/sphere-of-invisibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sphère d'invisibilité
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/stardust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sternenstaub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/stone-golem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Golem de pierre
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/items/sun-sail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voile Solaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Questions fréquentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tips-and-tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trucs et astuces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriels
   
 
     
@@ -2312,10 +3453,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#das-ende" class="md-nav__link">
+  <a href="#fin-du-combat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Das Ende
+        Fin du combat
       
     </span>
   </a>
@@ -2344,6 +3485,54 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    La guerre
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -2353,9 +3542,9 @@
   
 
 
-<h1 id="la-guerre">La guerre</h1>
+<h1 id="la-guerre">La guerre<a class="headerlink" href="#la-guerre" title="Permanent link">&para;</a></h1>
 <p>Les conflits sont inévitables dans Eressea. Il y aura des disputes pour l'argent, pour les régions, pour les droits de taxes, pour les routes commerciales et ainsi de suite. C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis vont et viennent, les ennemis se multiplient".</p>
-<h2 id="les-camps-dans-une-bataille">Les camps dans une bataille</h2>
+<h2 id="les-camps-dans-une-bataille">Les camps dans une bataille<a class="headerlink" href="#les-camps-dans-une-bataille" title="Permanent link">&para;</a></h2>
 <p>L'ordre [<code>ATTACK</code>] permet de lancer l'attaque contre l'adversaire. Les ordres <code>ATTACK</code> sont exécutés dans un ordre aléatoire. Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne). Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le <a href="#tour-du-tacticien">tour de tactique</a>.</p>
 <p>Le camp attaquant est constitué de toutes les unités qui ont donné des ordres <code>ATTACK</code> contre une ou plusieurs unités des défenseurs.</p>
 <p>Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre <code>ATTACK</code><em><code>unité-id</code></em>, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [<code>COMBAT</code>]<code>,</code>[<code>COMBAT AGGRESSIVE</code>][<code>COMBAT</code>]<code>,</code>[<code>COMBAT REAR</code>][<code>COMBAT</code>] ou [<code>COMBAT DEFENSIVE</code>][<code>COMBAT</code>]). De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [<code>HELP COMBAT</code>] avec la faction attaquée, apportent leur aide.</p>
@@ -2384,10 +3573,10 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <li>Il est conseillé d'attaquer toutes les unités ennemies. Tu devrais au moins attaquer une unité de chaque faction ennemie.</li>
 <li>Notez également que le camouflage des factions ne permet pas toujours de savoir qui appartient vraiment à quelle faction. Une autre stratégie pourrait consister à n'attaquer qu'une seule unité ennemie à la fois, en espérant que les statuts d'HELP de l'adversaire créent une certaine confusion. Nous ne jugerons pas ici si cette approche est honorable.</li>
 </ul>
-<h2 id="le-combat">Le combat</h2>
+<h2 id="le-combat">Le combat<a class="headerlink" href="#le-combat" title="Permanent link">&para;</a></h2>
 <p>Une bataille dure cinq tours de combat, plus un éventuel tour de tactique. A chaque tour de combat, les combattants frappent dans un ordre aléatoire.</p>
 <p>Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs. Les exceptions sont <a href="./#kampf-auf-und-von-schiffen" title="Kampf auf Schiffen">combat en mer</a> et les combats dans des régions qui, <em>au début du combat</em>, sont gardées par au moins une unité de sa propre faction ou qui a mis [<code>HELP GUARD</code>][<code>HELP COMBAT</code>] avec celle du combattant. Dans ce cas, d'autres ordres longs sont possibles.</p>
-<h3 id="lignes-de-combat">Lignes de combat</h3>
+<h3 id="lignes-de-combat">Lignes de combat<a class="headerlink" href="#lignes-de-combat" title="Permanent link">&para;</a></h3>
 <p>Durant la bataille, il y a quatre lignes de combat. Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus). Pour plus d'informations sur les statuts de combat, voir [COMBAT][<code>COMBAT</code>].</p>
 <ol>
 <li>ligne: Ici se trouvent toutes les unités qui ont mis [<code>COMBAT</code>] ou [<code>COMBAT AGGRESSIVE</code>][<code>COMBAT</code>].</li>
@@ -2398,23 +3587,23 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <p>Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées. Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée. Les unités en fuite tentent naturellement de s'échapper (voir <a href="./#la-fuite" title="Die Flucht">ici</a>).</p>
 <p>Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous). Contre les attaques à distance adverses, elles se défendent avec leur meilleure compétence de combat.</p>
 <p>Les sorts de combat des mages peuvent être lancés de l'arrière et de la ligne de front ; cela mis à part, ils s'armeront et se battront comme tout le monde.</p>
-<h3 id="debordement">Débordement</h3>
+<h3 id="debordement">Débordement<a class="headerlink" href="#debordement" title="Permanent link">&para;</a></h3>
 <p>Si une faction et ses alliés ont plus de trois fois plus de personnes en première ligne que leurs adversaires, la 1ère rangée est débordée. Toutes les unités adverses de 2e ligne sont obligées de monter en première ligne. La 3e ligne remonte alors en 2e ligne et participe au combat. S'il n'y a toujours pas assez de personnes en 1ère ligne, les lignes suivantes remontent jusqu'à ce qu'il y ait suffisamment de personnes en 1ère ligne. Cette répartition est vérifiée avant chaque tour de combat.</p>
-<h2 id="aux-armes-eresseens">Aux armes (eresséens)</h2>
+<h2 id="aux-armes-eresseens">Aux armes (eresséens)<a class="headerlink" href="#aux-armes-eresseens" title="Permanent link">&para;</a></h2>
 <p>Maintenant, les unités s'arment. Chaque personne d'une unité s'équipe en fonction de ses compétences d'une arme de corps à corps, d'une arme à distance et d'une armure. Elle privilégie les armes qui lui permettent d'obtenir le plus haut score en Attaque et Parade. Les mages qui ont choisi un sort de combat l'utilisent pour attaquer. Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence de combat appropriée), sinon ils seront considérés comme <a href="#boni-et-mali">non armés</a>.</p>
 <p><strong>Attention:</strong> les armes ou armures non utilisées ne sont pas automatiquement redistribuées aux unités non armées ou non équipées.</p>
 <p>Pendant le combat, on ne change plus d'arme, sauf s'il est possible de prendre une meilleure arme à une personne de la même unité qui est déjà morte (les combattants survivants utilisent chacun les meilleurs sets d'armes disponibles).</p>
 <p>Un combattant à distance qui soudain se retrouve en première ligne doit s'il est attaqué se saisir d'une arme de corps à corps (s'il en possède une et s'il a la compétence correspondante au moins au niveau 1), sinon il se défend <a href="#boni-et-mali">sans arme</a>.</p>
 <p><strong>Exemple :</strong> Une unité de 20 personnes dispose de 15 épées, 10 boucliers et 5 cottes de mailles. Alors 5 personnes se battront avec une épée, un bouclier et une cotte de mailles, 5 autres avec une épée et un bouclier, 5 avec une épée seulement et les 5 derniers combattants resteront sans armes. Une unité de 10 personnes avec 10 épées et 10 haches de guerre se battra avec des épées, car elles ont un meilleur bonus, même si elles infligent probablement moins de dégâts !</p>
-<h2 id="tour-du-tacticien">Tour du tacticien</h2>
-<p>Avant la bataille, le meilleur <a href="./tactic.md" title="Taktik">Tacticien</a> de toutes les unités participantes est désigné. Un tacticien qui se bat en première ligne reçoit un bonus de +1 à sa compétence "tactics". S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1. Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.</p>
+<h2 id="tour-du-tacticien">Tour du tacticien<a class="headerlink" href="#tour-du-tacticien" title="Permanent link">&para;</a></h2>
+<p>Avant la bataille, le meilleur <a href="../tactic/" title="Taktik">Tacticien</a> de toutes les unités participantes est désigné. Un tacticien qui se bat en première ligne reçoit un bonus de +1 à sa compétence "tactics". S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1. Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.</p>
 <p>Le camp avec la meilleure valeur de tactique peut attaquer au tour 0 (appelé "tour du tacticien") sans que l'ennemi ne puisse attaquer. Le nombre de coups portés dépend de la différence entre la meilleure valeur de tactique du camp gagnant et celle du camp perdant : Pour chaque point de différence, chaque personne a 10 % de chances d'attaquer lors du tour du tacticien.</p>
 <p><strong>Exemple:</strong> Le camp A a une personne avec tactics 4 en première ligne. Le camp B a 10 personnes avec tactics 4 en troisième ligne. Donc, le camp A a effectivement 5 et le camp B 3. Sans le bonus aléatoire, chaque personne du camp A aurait 20% de chances d'attaquer lors du tour du tacticien. Si la personne du camp A obtient un 0 en bonus, il faut qu'au moins une personne du camp B obtienne un 2. Sinon, le camp A a le tour du tacticien. Supposons que le meilleur résultat obtenu au jet par le camp B soit un 5 (c'est peu probable, mais tout à fait possible). La différence pour le camp B est donc de (3 + 5) - (5 + 0) = 3. Chaque personne du camp B a alors 30% de chances de frapper au tour 0. Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est d'environ 3 attaques.</p>
-<h2 id="heros">Héros</h2>
+<h2 id="heros">Héros<a class="headerlink" href="#heros" title="Permanent link">&para;</a></h2>
 <p>Les héros sont des combattants particulièrement puissants. Ils doivent avoir été préalablement désignés avec l'ordre <a href="./cmd-promote.md" title="PROMOTE">PROMOTE</a>. Les héros peuvent attaquer 5 fois à chaque tour de combat.</p>
 <p>Attention ! Cela ne s'applique pas aux attaques magiques ni aux arbalètes et catapultes.</p>
 <p>Pour plus d'informations, voir <a href="./cmd-promote.md" title="PROMOTE">PROMOTE</a>.</p>
-<h2 id="le-combat-entre-deux-personnes">Le combat entre deux personnes</h2>
+<h2 id="le-combat-entre-deux-personnes">Le combat entre deux personnes<a class="headerlink" href="#le-combat-entre-deux-personnes" title="Permanent link">&para;</a></h2>
 <p>Dans chaque bataille, les armées s'affrontent personne par personne, quel que soit leur nombre. La procédure est la suivante :</p>
 <ul>
 <li>L'attaque de l'attaquant et la parade du défenseur sont (au départ) aussi élevées que leur niveau de compétence en armes.</li>
@@ -2430,7 +3619,7 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <p>Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts. Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir <a href="./war-tables.md#rüstung" title="Guerrestabellen">ce</a> tableau). Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).</p>
 <p>Certaines créatures ou armes peuvent également infliger des dégâts magiques. Une armure normale est inefficace contre les dégâts magiques. Seule compte la <a href="./war-tables.md#magieresistenz" title="Guerrestabellen">Résistance à la magie</a>, qui peut être augmentée par certains équipements et sorts.</p>
 <p>Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir <a href="./war-tables.md#ausdauer" title="Guerrestabellen">ce tableau</a>).</p>
-<h3 id="combat-a-distance">Combat à distance</h3>
+<h3 id="combat-a-distance">Combat à distance<a class="headerlink" href="#combat-a-distance" title="Permanent link">&para;</a></h3>
 <p>Les armes à distance et les catapultes peuvent être utilisées efficacement en deuxième ligne. Là, elles seront protégées des combattants au corps à corps de l'adversaire par votre première ligne.</p>
 <p>Les combattants à distance peuvent également tirer dans la deuxième ligne adverse. Ils choisissent une cible au hasard parmi tous les ennemis en première ou deuxième ligne.</p>
 <p>Les arbalètes peuvent également transpercer les armures : Contre un tir d'arbalète, l'armure ne fait effet que pour moitié (arrondi inférieur).</p>
@@ -2470,13 +3659,13 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 </tbody>
 </table>
 <p>La colonne « Reloading » indique le temps nécessaire pour que l'arme soit à nouveau prête à tirer. Une catapulte ne peut donc être utilisée qu'une fois par combat. Une arbalète peut tirer tous les trois rounds, et un arc peut tirer à chaque round.</p>
-<h3 id="boni-et-mali">Boni et Mali</h3>
+<h3 id="boni-et-mali">Boni et Mali<a class="headerlink" href="#boni-et-mali" title="Permanent link">&para;</a></h3>
 <p>Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry). All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters. The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here. See also <a href="./war-tables.md#kampfmodifikatoren" title="Guerrestabellen">tables de combat</a>.</p>
 <p>Combat à mains nues (unarmed combat)<br />
 Les personnes ne possédant pas de compétence correspondant à leur arme sont également considérées comme désarmées.</p>
 <p>Les personnes désarmées combattent avec un score de -2.</p>
 <p>Les combattants à distance qui entrent en combat au corps à corps et ne peuvent accéder à une arme de corps à corps (et au skill correspondant) se défendent avec un score de -2. Ils peuvent toujours attaquer avec leur arme à distance.</p>
-<p>Les gobelins se défendent avec +/-0.</p>
+<p>Les gobelins se défendent avec &plusmn;0.</p>
 <p>La compétence avec laquelle les orcs engagent le combat au corps à corps est déterminée par le niveau de leur meilleur skill de corps à corps -3.</p>
 <p>Certaines races (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.</p>
 <p>Bonus du château
@@ -2555,21 +3744,21 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 </ul>
 <p>Der Angreifer hat damit eine Trefferchance von 35%.</p>
 <p>Hieraus folgt, dass man eine Burg relativ gut halten kann, dass man aber aus einer Burg heraus möglichst keine Angriffe starten sollte, denn damit verliert man seinen Bonus bei der Verteidigung. Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppen sind als Schwertträger.</p>
-<h2 id="la-fuite">La fuite</h2>
+<h2 id="la-fuite">La fuite<a class="headerlink" href="#la-fuite" title="Permanent link">&para;</a></h2>
 <p>Personen, die [COMBAT FLEE][<code>COMBAT</code>] gesetzt haben und [attackiert][<code>ATTACK</code>] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.</p>
 <p>Personen mit [<code>COMBAT</code>][<code>COMBAT</code>] oder [<code>COMBAT REAR</code>][<code>COMBAT</code>], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [<code>COMBAT DEFENSIVE</code>][<code>COMBAT</code>] oder [<code>COMBAT NOT</code>][<code>COMBAT</code>], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.</p>
 <p>Die Grundchance für die Flucht beträgt 25% (50% für Halblinge), dazu kommen 10%, wenn man ein Pferd hat und je 5% pro Stufe im Talent Tarnung; der Maximalwert ist aber 75% (bzw. 90% für Halblinge).</p>
 <p>Fliehende Einheiten entziehen sich dem Kampf, verbleiben aber in sicherer Entfernung zum Kampfgeschehen in der Region. Befand sich die Einheit in einem Gebäude oder auf einem Schiff an Land, verlässt sie dieses, sobald eine Person aus der Einheit während des Kampfes geflohen ist.</p>
 <p><strong>Hinweis:</strong> Es kann deshalb sinnvoll sein, Burgen- oder Schiffsinsassen zu befehlen, ihr eigenes Schiff wieder zu betreten, was sie nach dem Kampf evtl. tun können. Zu beachten ist, dass auch das Kommando wieder an die richtige Einheit übergeben werden sollte.</p>
 <p>Besonderheiten gelten für Einheiten mit dem Status FLEE. Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften. Weiterhin können diese Einheiten keine Regionen bewachen. Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLEE einnimmt. Dies geschieht zu Beginn der Runde, womit alle Effekte von [<code>GUARD</code>] sofort aufgelöst werden.</p>
-<h2 id="kampf-auf-und-von-schiffen">Kampf auf und von Schiffen</h2>
+<h2 id="kampf-auf-und-von-schiffen">Kampf auf und von Schiffen<a class="headerlink" href="#kampf-auf-und-von-schiffen" title="Permanent link">&para;</a></h2>
 <p>Seeschlachten werden wie Schlachten zu Land ausgefochten: Die <a href="./ships.md" title="Schiffe">Schiffe</a> entern sich gegenseitig und die Einheiten fallen übereinander her. Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.</p>
-<p>Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war. Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen. Die <a href="./tactic.md" title="Taktik">Taktikrunde</a> und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.</p>
+<p>Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war. Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen. Die <a href="../tactic/" title="Taktik">Taktikrunde</a> und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.</p>
 <p>Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind. Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.</p>
 <p>Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren <a href="./ships.md#schiffsschaden" title="Schiff">Schaden</a>.</p>
 <p>Will man mit einem Schiff Truppen in einer feindlich [bewachten][<code>GUARD</code>] Region anlanden, so müssen diese erst das Schiff [<code>VERLASSEN</code>] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.</p>
 <p>Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [<code>HELP</code>][<code>HELP COMBAT</code>]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.</p>
-<h2 id="piraterie">Piraterie</h2>
+<h2 id="piraterie">Piraterie<a class="headerlink" href="#piraterie" title="Permanent link">&para;</a></h2>
 <p>Mit <strong>Piraterie</strong> hat ein Schiffskapitän die Möglichkeit, Schiffe anderer Parteien in Nachbarregionen aufzubringen.</p>
 <p>Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [<code>FOLLOW SHIP</code>] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:</p>
 <ul>
@@ -2581,17 +3770,19 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <li>Stehen mehrere potentielle Ziele zur Auswahl, wird der Kapitän eines nach dem Zufallsprinzip aussuchen.</li>
 <li>Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [<code>HELP COMBAT</code>][<code>HELP COMBAT</code>] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.</li>
 </ul>
-<h2 id="das-ende">Das Ende</h2>
-<p>Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von ausgelöschten Einheiten wird zusammengetragen und unter den Überlebenden verteilt.</p>
-<p>Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige <a href="./skills-modifiers.md" title="Talentmodifikatoren">Rassen</a> mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.</p>
-<p>Wenn die Region, in der gekämpft wurde, <em>bei Kampfbeginn</em> von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [<code>HELP GUARD</code>][<code>HELP COMBAT</code>] gesetzt hat, <a href="../alliances/" title="Allianz">bewacht</a> wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die <code>ATTACKE</code>-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region <code>BEWACHEN</code>, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.</p>
+<!-- GERMAN SECTION TRANSLATED -->
+<h2 id="fin-du-combat">Fin du combat<a class="headerlink" href="#fin-du-combat" title="Permanent link">&para;</a></h2>
+<p>Après la bataille, on compte les morts, et tout le matériel utilisable des unités anéanties est récupéré et distribué aux survivants.</p>
+<p>Les unités blessées au combat restent blessées. Ceci est indiqué dans le rapport. Avec le temps, elles guérissent. Elles régénèrent généralement 5 % (certaines <a href="./skills-modifiers.md" title="Talentmodifikatoren">races</a> davantage) de leurs points de vie maximum par tour, mais au moins un point par individu. Les unités mortes-vivantes ne se régénèrent pas.</p>
+<p>Si la région où les combats ont eu lieu était <a href="../alliances/">gardée</a> <em>au début du combat</em> par une unité amie ou une unité ayant activé l'ordre [<code>HELP GUARD</code>][<code>HELP COMBAT</code>] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs. Ceci est valable même si des troupes ennemies gardent également la région. Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre <code>ATTACK</code>).</p>
+<p>Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.</p>
 <p>Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [<code>COMBAT FLEE</code>][<code>COMBAT</code>] und Einheiten auf See. Einheiten mit dem Status <code>COMBAT FLEE</code> können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [<code>MOVE</code>]<code>,</code>[<code>ROUTE</code>]<code>oder</code>[<code>FOLLOW</code>][<code>FOLLOW SHIP</code>]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.</p>
-<h2 id="voir-aussi">Voir aussi</h2>
+<h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="./tactic.md" title="Taktik">Taktik</a></li>
+<li><a href="../tactic/" title="Taktik">Taktik</a></li>
 <li><a href="./war-tables.md" title="Guerrestabellen">Kriegstabellen</a></li>
 </ul>
-<p>Poursuivre la lecture : <a href="../alliances/" title="Allianz">Allianz</a>.</p>
+<p>Poursuivre la lecture : <a href="../alliances/">Alliances</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
 
@@ -2613,6 +3804,12 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2622,7 +3819,7 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025-2026 zendev1710.
+      Copyright &copy; 2025 Cyril Guillon
     </div>
   
   
@@ -2646,7 +3843,7 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

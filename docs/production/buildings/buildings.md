@@ -34,12 +34,12 @@ Buildings are constructed and expanded using the [MAKE][`MAKE `*`Building_type`*
 
 ## See also
 
-- [castles]
+- [[castles]]
 - [special buildings]
 - [production]
 - [expenses]
 
-Continue reading: [castles].
+Continue reading: [[castles]].
 
 [castles]: ./castles.md "Burg"
 

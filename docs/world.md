@@ -44,9 +44,9 @@ The only difference between a plain and a forest is the number of trees and sapl
 | Desert         | 500          | 50                                | 100                             | waterfinder, peyote, sand reeker                                          |
 | Volcano        | 500          | 50                                | 250                             | \-                                                                        |
 
-If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [castles] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
+If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
 
-The terrain type also determines which [herbs] can grow in the region. An alchemist will be able to brew helpful [potions] from different ingredients. Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there. However, the herbs that grow there cannot be changed. Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted]. If in doubt, you must try out which herb has originally grown here. Herbs never grow in volcanoes.
+The terrain type also determines which [[herbs]] can grow in the region. An alchemist will be able to brew helpful [potions] from different ingredients. Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there. However, the herbs that grow there cannot be changed. Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted]. If in doubt, you must try out which herb has originally grown here. Herbs never grow in volcanoes.
 
 In each region, [roads] can be built. The costs vary depending on the terrain. In addition, roads can be built in glaciers, swamps and deserts only if there are [special buildings].
 
@@ -154,7 +154,7 @@ Although the influence of the seasons is generally not particularly pronounced, 
 - Peoples of the [insect] race can hardly recruit in winter
 - Storms at [sea] are much more common in autumn
 - The individual phases of [forest growth] are linked to seasonal cycle
-- In winter the growth of the [herbs] comes to a standstill
+- In winter the growth of the [[herbs]] comes to a standstill
 
 ## See also
 
@@ -172,7 +172,6 @@ Continue reading: [Factions].
 [terrain types]: ./terrains.md "Geländearten"
 [work]: ./silver.md#work "Silver"
 [castles]: ./castles.md "Burg"
-[herbs]: ./herbs.md "Herbs"
 [potions]: ./alchemy.md "Tränke"
 [replanted]: ./cmd-plant.md "PLANT"
 [roads]: ./roads.md "Straße"

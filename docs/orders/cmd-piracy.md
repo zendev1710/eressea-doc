@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-piracy
-	text: PIRACY
+    name: cmd-piracy
+    text: PIRACY
 ---
 # PIRACY
 

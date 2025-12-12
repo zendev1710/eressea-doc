@@ -1,7 +1,7 @@
 ---
 alias:
-	name: ring-of-power
-	text: Ring of Power
+    name: ring-of-power
+    text: Ring of Power
 ---
 # Ring of Power
 

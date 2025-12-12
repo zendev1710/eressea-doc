@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-teach
-	text: TEACH
+    name: cmd-teach
+    text: TEACH
 ---
 # TEACH
 

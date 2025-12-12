@@ -1,7 +1,7 @@
 ---
 alias:
-	name: introduction
-	text: Introduction
+    name: introduction
+    text: Introduction
 ---
 # Introduction
 

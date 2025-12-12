@@ -1,7 +1,7 @@
 ---
 alias:
-	name: flaming-sword
-	text: Flaming Sword
+    name: flaming-sword
+    text: Flaming Sword
 ---
 # Flaming Sword
 

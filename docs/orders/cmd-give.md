@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-give
-	text: GIVE
+    name: cmd-give
+    text: GIVE
 ---
 # GIVE
 

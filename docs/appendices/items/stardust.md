@@ -1,7 +1,7 @@
 ---
 alias:
-	name: stardust
-	text: Stardust
+    name: stardust
+    text: Stardust
 ---
 # Stardust
 

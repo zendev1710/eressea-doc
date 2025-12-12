@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-show
-	text: SHOW
+    name: cmd-show
+    text: SHOW
 ---
 # SHOW
 

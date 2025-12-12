@@ -1,7 +1,7 @@
 ---
 alias:
-	name: christmas-tree
-	text: Christmas Tree
+    name: christmas-tree
+    text: Christmas Tree
 ---
 # Christmas Tree
 

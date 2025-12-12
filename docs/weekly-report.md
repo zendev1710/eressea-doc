@@ -1,7 +1,7 @@
 ---
 alias:
-	name: weekly-report
-	text: Weekly report
+    name: weekly-report
+    text: Weekly report
 ---
 # Weekly report
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-leave
-	text: LEAVE
+    name: cmd-leave
+    text: LEAVE
 ---
 # LEAVE
 

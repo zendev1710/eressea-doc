@@ -1,7 +1,7 @@
 ---
 alias:
-	name: resources
-	text: Resources
+    name: resources
+    text: Resources
 ---
 # Resources
 

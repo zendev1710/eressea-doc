@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-forget
-	text: FORGET
+    name: cmd-forget
+    text: FORGET
 ---
 # FORGET
 

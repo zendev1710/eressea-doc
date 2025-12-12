@@ -1,7 +1,7 @@
 ---
 alias:
-	name: adamantium
-	text: Adamantium
+    name: adamantium
+    text: Adamantium
 ---
 # Adamantium
 

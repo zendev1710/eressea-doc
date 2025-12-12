@@ -1,7 +1,7 @@
 ---
 alias:
-	name: troubleshootings
-	text: Troubleshootings
+    name: troubleshootings
+    text: Troubleshootings
 ---
 # Troubleshootings
 

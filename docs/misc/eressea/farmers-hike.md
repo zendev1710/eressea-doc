@@ -1,7 +1,7 @@
 ---
 alias:
-	name: farmers-hike
-	text: Farmers hike
+    name: farmers-hike
+    text: Farmers hike
 ---
 # Farmers hike
 

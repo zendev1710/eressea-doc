@@ -1,7 +1,7 @@
 ---
 alias:
-	name: production
-	text: Production
+    name: production
+    text: Production
 ---
 # Production
 

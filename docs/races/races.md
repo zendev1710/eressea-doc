@@ -1,7 +1,7 @@
 ---
 alias:
-	name: races
-	text: Races
+    name: races
+    text: Races
 ---
 # Races
 

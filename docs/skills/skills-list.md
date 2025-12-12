@@ -1,7 +1,7 @@
 ---
 alias:
-	name: list-of-skills
-	text: List of skills
+    name: list-of-skills
+    text: List of skills
 ---
 # List of skills
 

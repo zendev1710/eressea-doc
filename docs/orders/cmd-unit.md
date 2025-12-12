@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-unit
-	text: UNIT
+    name: cmd-unit
+    text: UNIT
 ---
 # UNIT
 

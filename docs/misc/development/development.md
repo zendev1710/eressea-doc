@@ -1,7 +1,7 @@
 ---
 alias:
-	name: development
-	text: Development
+    name: development
+    text: Development
 ---
 # Development
 

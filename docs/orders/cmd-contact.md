@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-contact
-	text: CONTACT
+    name: cmd-contact
+    text: CONTACT
 ---
 # CONTACT
 

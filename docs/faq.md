@@ -1,7 +1,7 @@
 ---
 alias:
-	name: faq
-	text: FAQ
+    name: faq
+    text: FAQ
 ---
 # FAQ
 

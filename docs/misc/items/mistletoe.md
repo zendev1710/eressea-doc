@@ -1,7 +1,7 @@
 ---
 alias:
-	name: mistletoe
-	text: Mistletoe
+    name: mistletoe
+    text: Mistletoe
 ---
 # Mistletoe
 

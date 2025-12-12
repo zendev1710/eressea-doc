@@ -1,7 +1,7 @@
 ---
 alias:
-	name: join-eressea
-	text: Join Eressea
+    name: join-eressea
+    text: Join Eressea
 ---
 # Join Eressea
 

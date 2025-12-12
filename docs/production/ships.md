@@ -1,7 +1,7 @@
 ---
 alias:
-	name: ships
-	text: Ships
+    name: ships
+    text: Ships
 ---
 # Ships
 
@@ -12,9 +12,9 @@ Auch Schiffe haben Nummern, die in Befehlen gebraucht werden. Hier ein Beispiel 
 
 Stolz der Sieben Winde (18), Langboot, (254/500). Dieses schöne
 
-       Schiff war das erste, welches die Händlerfamilie Plötzbogen
-       einsetzte.  Kapitän Gorm steht auf dem Achterdeck und erteilt
-       Befehle an die Matrosen. Er hat alles voll im Griff.
+    Schiff war das erste, welches die Händlerfamilie Plötzbogen
+    einsetzte. Kapitän Gorm steht auf dem Achterdeck und erteilt
+    Befehle an die Matrosen. Er hat alles voll im Griff.
 
 Bei eigenen Schiffen steht hinter dem Schiffstyp die Beladung und die Kapazität (hier 254 Gewichtseinheiten von 500 möglichen).
 

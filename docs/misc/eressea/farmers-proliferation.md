@@ -1,7 +1,7 @@
 ---
 alias:
-	name: farmers-proliferation
-	text: Farmers proliferation
+    name: farmers-proliferation
+    text: Farmers proliferation
 ---
 # Farmers proliferation
 

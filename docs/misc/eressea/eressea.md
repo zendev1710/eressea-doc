@@ -1,7 +1,7 @@
 ---
 alias:
-	name: eressea
-	text: Eressea
+    name: eressea
+    text: Eressea
 ---
 # Eressea
 

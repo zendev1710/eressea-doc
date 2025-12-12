@@ -1,7 +1,7 @@
 ---
 alias:
-	name: contributors
-	text: Contributors
+    name: contributors
+    text: Contributors
 ---
 # Contributors
 

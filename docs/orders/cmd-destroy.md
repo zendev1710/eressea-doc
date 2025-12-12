@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-destroy
-	text: DESTROY
+    name: cmd-destroy
+    text: DESTROY
 ---
 # DESTROY
 

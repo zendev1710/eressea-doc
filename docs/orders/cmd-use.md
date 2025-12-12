@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-use
-	text: USE
+    name: cmd-use
+    text: USE
 ---
 # USE
 

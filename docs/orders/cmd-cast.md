@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-cast
-	text: CAST
+    name: cmd-cast
+    text: CAST
 ---
 # CAST
 

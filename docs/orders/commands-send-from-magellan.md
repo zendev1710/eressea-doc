@@ -1,7 +1,7 @@
 ---
 alias:
-	name: sending-orders-from-magellan
-	text: Sending orders from Magellan
+    name: sending-orders-from-magellan
+    text: Sending orders from Magellan
 ---
 # Sending orders from Magellan
 

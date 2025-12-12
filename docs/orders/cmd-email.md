@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-email
-	text: EMAIL
+    name: cmd-email
+    text: EMAIL
 ---
 # EMAIL
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: you-play-too-much-if
-	text: You play too much if
+    name: you-play-too-much-if
+    text: You play too much if
 ---
 # You play too much if
 

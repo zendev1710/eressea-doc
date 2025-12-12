@@ -1,7 +1,7 @@
 ---
 alias:
-	name: shell
-	text: Shell
+    name: shell
+    text: Shell
 ---
 # Shell
 

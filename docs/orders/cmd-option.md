@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-option
-	text: OPTION
+    name: cmd-option
+    text: OPTION
 ---
 # OPTION
 

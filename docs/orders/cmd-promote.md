@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-promote
-	text: PROMOTE
+    name: cmd-promote
+    text: PROMOTE
 ---
 # PROMOTE
 

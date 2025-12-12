@@ -1,7 +1,7 @@
 ---
 alias:
-	name: camouflage
-	text: Camouflage
+    name: camouflage
+    text: Camouflage
 ---
 # Camouflage
 

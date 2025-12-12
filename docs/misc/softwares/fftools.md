@@ -1,7 +1,7 @@
 ---
 alias:
-	name: fftools
-	text: FFTools
+    name: fftools
+    text: FFTools
 ---
 # FFTools
 

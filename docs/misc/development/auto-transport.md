@@ -1,7 +1,7 @@
 ---
 alias:
-	name: auto-transport
-	text: Automated transport
+    name: auto-transport
+    text: Automated transport
 ---
 # Automatisierung Transport
 

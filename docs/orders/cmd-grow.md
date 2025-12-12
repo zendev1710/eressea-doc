@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-grow
-	text: GROW
+    name: cmd-grow
+    text: GROW
 ---
 # GROW
 

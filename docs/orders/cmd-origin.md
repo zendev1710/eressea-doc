@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-origin
-	text: ORIGIN
+    name: cmd-origin
+    text: ORIGIN
 ---
 # ORIGIN
 

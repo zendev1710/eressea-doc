@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-steal
-	text: STEAL
+    name: cmd-steal
+    text: STEAL
 ---
 # STEAL
 

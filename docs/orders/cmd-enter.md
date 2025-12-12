@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-enter
-	text: ENTER
+    name: cmd-enter
+    text: ENTER
 ---
 # ENTER
 

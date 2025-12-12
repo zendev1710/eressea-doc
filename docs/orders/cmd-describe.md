@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-describe
-	text: DESCRIBE
+    name: cmd-describe
+    text: DESCRIBE
 ---
 # DESCRIBE
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: pay-not
-	text: PAY NOT
+    name: pay-not
+    text: PAY NOT
 ---
 # PAY NOT
 

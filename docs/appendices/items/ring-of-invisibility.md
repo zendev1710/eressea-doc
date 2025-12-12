@@ -1,7 +1,7 @@
 ---
 alias:
-	name: ring-of-invisibility
-	text: Ring of Invisibility
+    name: ring-of-invisibility
+    text: Ring of Invisibility
 ---
 # Ring of Invisibility
 

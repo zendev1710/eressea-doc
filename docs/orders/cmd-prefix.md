@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-prefix
-	text: PREFIX
+    name: cmd-prefix
+    text: PREFIX
 ---
 # PREFIX
 

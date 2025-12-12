@@ -1,9 +1,9 @@
 ---
 alias:
-	name: war
-	text: War
+    name: combat
+    text: combat
 ---
-# War
+# Combat
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
 

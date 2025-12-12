@@ -1,7 +1,7 @@
 ---
 alias:
-	name: auto-learning-chains
-	text: Automated learning chains
+    name: auto-learning-chains
+    text: Automated learning chains
 ---
 # Automatisierung Lernketten
 

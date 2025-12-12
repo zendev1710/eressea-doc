@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-tax
-	text: TAX
+    name: cmd-tax
+    text: TAX
 ---
 # TAX
 

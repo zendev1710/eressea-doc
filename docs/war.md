@@ -1,7 +1,7 @@
 ---
 alias:
-	name: war
-	text: War
+    name: war
+    text: War
 ---
 # War
 

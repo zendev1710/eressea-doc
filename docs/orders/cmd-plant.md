@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-plant
-	text: PLANT
+    name: cmd-plant
+    text: PLANT
 ---
 # PLANT
 

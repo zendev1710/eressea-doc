@@ -1,7 +1,7 @@
 ---
 alias:
-	name: plague
-	text: Plague
+    name: plague
+    text: Plague
 ---
 # Plague
 

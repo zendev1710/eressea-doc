@@ -1,7 +1,7 @@
 ---
 alias:
-	name: magic
-	text: Magic
+    name: magic
+    text: Magic
 ---
 # Magic
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-sort
-	text: SORT
+    name: cmd-sort
+    text: SORT
 ---
 # SORT
 

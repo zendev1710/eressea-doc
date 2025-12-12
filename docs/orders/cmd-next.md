@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-next
-	text: NEXT
+    name: cmd-next
+    text: NEXT
 ---
 # NEXT
 

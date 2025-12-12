@@ -1,7 +1,7 @@
 ---
 alias:
-	name: echeck
-	text: ECheck
+    name: echeck
+    text: ECheck
 ---
 # ECheck
 

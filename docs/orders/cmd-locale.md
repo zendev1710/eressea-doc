@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-locale
-	text: LOCALE
+    name: cmd-locale
+    text: LOCALE
 ---
 # LOCALE
 

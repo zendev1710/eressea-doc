@@ -1,7 +1,7 @@
 ---
 alias:
-	name: basics
-	text: Basics
+    name: basics
+    text: Basics
 ---
 # Basics
 

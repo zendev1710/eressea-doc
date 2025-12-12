@@ -1,7 +1,7 @@
 ---
 alias:
-	name: amulet-of-true-vision
-	text: Amulet of True Vision 
+    name: amulet-of-true-vision
+    text: Amulet of True Vision 
 ---
 # Amulet of True Vision
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-spy
-	text: SPY
+    name: cmd-spy
+    text: SPY
 ---
 # SPY
 

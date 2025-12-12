@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-follow
-	text: FOLLOW
+    name: cmd-follow
+    text: FOLLOW
 ---
 # FOLLOW
 

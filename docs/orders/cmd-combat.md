@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-combat
-	text: COMBAT
+    name: cmd-combat
+    text: COMBAT
 ---
 # COMBAT
 

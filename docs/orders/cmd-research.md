@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-research
-	text: RESEARCH
+    name: cmd-research
+    text: RESEARCH
 ---
 # RESEARCH
 

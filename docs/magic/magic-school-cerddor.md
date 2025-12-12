@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cerddor-spells
-	text: Cerddor spells
+    name: cerddor-spells
+    text: Cerddor spells
 ---
 # Cerddor spells
 

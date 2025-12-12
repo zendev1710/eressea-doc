@@ -1,7 +1,7 @@
 ---
 alias:
-	name: extended-commands
-	text: Extended Commands
+    name: extended-commands
+    text: Extended Commands
 ---
 # Extended commands
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: description-of-spells
-	text: Description of spells
+    name: description-of-spells
+    text: Description of spells
 ---
 # Description of spells
 

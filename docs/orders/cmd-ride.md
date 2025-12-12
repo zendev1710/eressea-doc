@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-ride
-	text: RIDE
+    name: cmd-ride
+    text: RIDE
 ---
 # RIDE
 

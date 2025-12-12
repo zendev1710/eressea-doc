@@ -1,7 +1,7 @@
 ---
 alias:
-	name: items-pool
-	text: Items pool
+    name: items-pool
+    text: Items pool
 ---
 # Items pool
 

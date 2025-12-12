@@ -1,7 +1,7 @@
 ---
 alias:
-	name: sailing
-	text: Sailing
+    name: sailing
+    text: Sailing
 ---
 # Sailing
 

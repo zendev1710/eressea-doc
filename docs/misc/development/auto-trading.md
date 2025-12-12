@@ -1,7 +1,7 @@
 ---
 alias:
-	name: auto-trading
-	text: Automated trading
+    name: auto-trading
+    text: Automated trading
 ---
 # Automatisierung Handel
 

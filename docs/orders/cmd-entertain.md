@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-entertain
-	text: ENTERTAIN
+    name: cmd-entertain
+    text: ENTERTAIN
 ---
 # ENTERTAIN
 

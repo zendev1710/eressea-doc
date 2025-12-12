@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-password
-	text: PASSWORD
+    name: cmd-password
+    text: PASSWORD
 ---
 # PASSWORD
 

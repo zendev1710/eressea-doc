@@ -1,7 +1,7 @@
 ---
 alias:
-	name: iron-golem
-	text: Iron Golem
+    name: iron-golem
+    text: Iron Golem
 ---
 # Iron Golem
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: faction-pool 
-	text: Faction pool
+    name: faction-pool 
+    text: Faction pool
 ---
 # Faction pool
 

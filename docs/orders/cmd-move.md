@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-move
-	text: MOVE
+    name: cmd-move
+    text: MOVE
 ---
 # MOVE
 

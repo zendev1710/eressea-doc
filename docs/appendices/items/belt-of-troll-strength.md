@@ -1,7 +1,7 @@
 ---
 alias:
-	name: belt-of-troll-strength
-	text: Belt of Troll Strength
+    name: belt-of-troll-strength
+    text: Belt of Troll Strength
 ---
 # Belt of Troll Strength
 

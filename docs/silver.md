@@ -1,7 +1,7 @@
 ---
 alias:
-	name: money
-	text: Money
+    name: money
+    text: Money
 ---
 # Money
 

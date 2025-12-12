@@ -1,7 +1,7 @@
 ---
 alias:
-	name: armed
-	text: Armed
+    name: armed
+    text: Armed
 ---
 # Armed
 

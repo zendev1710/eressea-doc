@@ -1,9 +1,9 @@
 ---
 alias:
-	name: cmd-ride
-	text: RIDE
+    name: cmd-carry
+    text: CARRY
 ---
-# RIDE
+# CARRY
 
 **`RIDE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
 **`CARRY`**` `*`einheit-nr`*

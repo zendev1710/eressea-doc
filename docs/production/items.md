@@ -1,7 +1,7 @@
 ---
 alias:
-	name: items
-	text: Items
+    name: items
+    text: Items
 ---
 # Items
 

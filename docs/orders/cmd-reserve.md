@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-reserve
-	text: RESERVE
+    name: cmd-reserve
+    text: RESERVE
 ---
 # RESERVE
 

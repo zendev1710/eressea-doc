@@ -1,7 +1,7 @@
 ---
 alias:
-	name: LEARN AUTO
-	text: LEARN AUTO
+    name: LEARN AUTO
+    text: LEARN AUTO
 ---
 # LEARN AUTO
 

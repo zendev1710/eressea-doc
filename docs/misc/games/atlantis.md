@@ -1,7 +1,7 @@
 ---
 alias:
-	name: atlantis
-	text: Atlantis
+    name: atlantis
+    text: Atlantis
 ---
 # Atlantis
 

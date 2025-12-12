@@ -1,7 +1,7 @@
 ---
 alias:
-	name: christmas
-	text: Christmas
+    name: christmas
+    text: Christmas
 ---
 # Christmas
 

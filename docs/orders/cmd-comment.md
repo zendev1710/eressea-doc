@@ -1,7 +1,7 @@
 ---
 alias:
-	name: comment-slashes
-	text: COMMENT //
+    name: comment-slashes
+    text: COMMENT //
 ---
 # COMMENT
 

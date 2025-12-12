@@ -1,7 +1,7 @@
 ---
 alias:
-	name: tutorials
-	text: Tutorials
+    name: tutorials
+    text: Tutorials
 ---
 # Tutorials
 

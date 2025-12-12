@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-recruit
-	text: RECRUIT
+    name: cmd-recruit
+    text: RECRUIT
 ---
 # RECRUIT
 

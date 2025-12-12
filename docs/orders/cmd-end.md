@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-end
-	text: END
+    name: cmd-end
+    text: END
 ---
 # END
 

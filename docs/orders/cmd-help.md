@@ -1,7 +1,7 @@
 ---
 alias:
-  name: cmd-help
-  text: HELP
+    name: cmd-help
+    text: HELP
 ---
 # HELP
 

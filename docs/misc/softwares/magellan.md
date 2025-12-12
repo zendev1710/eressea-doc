@@ -1,7 +1,7 @@
 ---
 alias:
-	name: magellan
-	text: Magellan
+    name: magellan
+    text: Magellan
 ---
 # Magellan
 

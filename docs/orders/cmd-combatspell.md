@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-combatspell
-	text: COMBATSPELL
+    name: cmd-combatspell
+    text: COMBATSPELL
 ---
 # COMBATSPELL
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-banner
-	text: BANNER
+    name: cmd-banner
+    text: BANNER
 ---
 # BANNER
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: pentagram-and-tirawon
-	text: Pentagram and Tirawon
+    name: pentagram-and-tirawon
+    text: Pentagram and Tirawon
 ---
 # Pentagram and Tirawon
 

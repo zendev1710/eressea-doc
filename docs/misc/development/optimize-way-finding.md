@@ -1,7 +1,7 @@
 ---
 alias:
-	name: optimizing-wayfinding
-	text: Optimizing wayfinding
+    name: optimizing-wayfinding
+    text: Optimizing wayfinding
 ---
 # Optimizing wayfinding
 

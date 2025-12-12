@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-hide
-	text: HIDE
+    name: cmd-hide
+    text: HIDE
 ---
 # HIDE
 

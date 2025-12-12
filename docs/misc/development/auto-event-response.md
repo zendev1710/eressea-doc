@@ -1,7 +1,7 @@
 ---
 alias:
-	name: auto-event-response
-	text: Automated event response
+    name: auto-event-response
+    text: Automated event response
 ---
 # Automated event response
 

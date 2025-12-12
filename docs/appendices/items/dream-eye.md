@@ -1,7 +1,7 @@
 ---
 alias:
-	name: Dreameye
-	text: Dreameye
+    name: Dreameye
+    text: Dreameye
 ---
 # Dreameye
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-message
-	text: MESSAGE
+    name: cmd-message
+    text: MESSAGE
 ---
 # MESSAGE
 

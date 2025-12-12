@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-guard
-	text: GUARD
+    name: cmd-guard
+    text: GUARD
 ---
 # GUARD
 

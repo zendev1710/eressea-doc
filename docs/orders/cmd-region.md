@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-region
-	text: REGION
+    name: cmd-region
+    text: REGION
 ---
 # REGION
 

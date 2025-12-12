@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-group
-	text: GROUP
+    name: cmd-group
+    text: GROUP
 ---
 # GROUP
 

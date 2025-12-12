@@ -1,7 +1,7 @@
 ---
 alias:
-	name: potions
-	text: Potions
+    name: potions
+    text: Potions
 ---
 # Potions
 

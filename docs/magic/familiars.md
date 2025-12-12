@@ -1,7 +1,7 @@
 ---
 alias:
-	name: familiars
-	text: Familiars
+    name: familiars
+    text: Familiars
 ---
 # Familiars
 

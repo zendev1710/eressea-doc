@@ -1,7 +1,7 @@
 ---
 alias:
-	name: vorlage
-	text: Vorlage
+    name: vorlage
+    text: Vorlage
 ---
 # Vorlage
 

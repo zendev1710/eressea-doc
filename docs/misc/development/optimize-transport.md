@@ -1,7 +1,7 @@
 ---
 alias:
-	name: optimizing-transport
-	text: Optimizing transport
+    name: optimizing-transport
+    text: Optimizing transport
 ---
 # Optimizing transport
 

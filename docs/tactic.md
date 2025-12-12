@@ -1,7 +1,7 @@
 ---
 alias:
-	name: tactics
-	text: Tactics
+    name: tactics
+    text: Tactics
 ---
 # Tactics
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: terrain-types
-	text: Terrain types
+    name: terrain-types
+    text: Terrain types
 ---
 # Terrain types
 

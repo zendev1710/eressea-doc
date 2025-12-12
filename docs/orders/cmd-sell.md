@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-sell
-	text: SELL
+    name: cmd-sell
+    text: SELL
 ---
 # SELL
 

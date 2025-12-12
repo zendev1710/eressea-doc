@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-buy
-	text: BUY
+    name: cmd-buy
+    text: BUY
 ---
 # BUY
 

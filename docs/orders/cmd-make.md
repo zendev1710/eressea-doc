@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-make
-	text: MAKE
+    name: cmd-make
+    text: MAKE
 ---
 # MAKE
 

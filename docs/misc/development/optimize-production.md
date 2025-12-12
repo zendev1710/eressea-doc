@@ -1,7 +1,7 @@
 ---
 alias:
-	name: optimizing-production
-	text: Optimizing production
+    name: optimizing-production
+    text: Optimizing production
 ---
 # Optimizing production
 

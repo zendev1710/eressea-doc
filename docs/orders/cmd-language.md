@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-language
-	text: LANGUAGE
+    name: cmd-language
+    text: LANGUAGE
 ---
 # LANGUAGE
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: racial-skill-modifiers
-	text: Racial skill modifiers
+    name: racial-skill-modifiers
+    text: Racial skill modifiers
 ---
 # Racial skill modifiers
 

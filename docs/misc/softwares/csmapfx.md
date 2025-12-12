@@ -1,7 +1,7 @@
 ---
 alias:
-	name: csmap
-	text: CSMap
+    name: csmap
+    text: CSMap
 ---
 # CSMap
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: solar-sail
-	text: Solar Sail
+    name: solar-sail
+    text: Solar Sail
 ---
 # Solar Sail
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: beginner-tips
-	text: Beginner tips
+    name: beginner-tips
+    text: Beginner tips
 ---
 # Beginner tips
 

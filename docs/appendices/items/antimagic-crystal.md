@@ -1,7 +1,7 @@
 ---
 alias:
-	name: antimagic-crystal
-	text: Antimagic Crystal
+    name: antimagic-crystal
+    text: Antimagic Crystal
 ---
 # Antimagic Crystal
 

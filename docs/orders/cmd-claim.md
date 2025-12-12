@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-claim
-	text: CLAIM
+    name: cmd-claim
+    text: CLAIM
 ---
 # CLAIM
 

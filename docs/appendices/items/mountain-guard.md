@@ -1,7 +1,7 @@
 ---
 alias:
-	name: mountain-guard
-	text: Mountain Guard
+    name: mountain-guard
+    text: Mountain Guard
 ---
 # Mountain Guard
 

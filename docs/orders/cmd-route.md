@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-route
-	text: ROUTE
+    name: cmd-route
+    text: ROUTE
 ---
 # ROUTE
 

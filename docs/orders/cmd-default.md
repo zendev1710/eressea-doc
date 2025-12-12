@@ -1,7 +1,7 @@
 ---
 alias:
-	name: cmd-default
-	text: DEFAULT
+    name: cmd-default
+    text: DEFAULT
 ---
 # DEFAULT
 

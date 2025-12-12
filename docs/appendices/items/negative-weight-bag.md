@@ -1,7 +1,7 @@
 ---
 alias:
-	name: negative-weight-bag
-	text: Negative Weight Bag
+    name: negative-weight-bag
+    text: Negative Weight Bag
 ---
 # Negative Weight Bag
 

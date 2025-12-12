@@ -1,7 +1,7 @@
 ---
 alias:
-	name: snowman
-	text: Snowman
+    name: snowman
+    text: Snowman
 ---
 # Snowman
 

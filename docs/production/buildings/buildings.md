@@ -1,7 +1,7 @@
 ---
 alias:
-	name: buildings
-	text: Buildings
+    name: buildings
+    text: Buildings
 ---
 # Buildings
 

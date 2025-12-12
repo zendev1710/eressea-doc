@@ -1,7 +1,7 @@
 ---
 alias:
-	name: world
-	text: World
+    name: world
+    text: World
 ---
 # World
 

@@ -1,7 +1,7 @@
 ---
 alias:
-	name: movement
-	text: Movement
+    name: movement
+    text: Movement
 ---
 # Movement
 

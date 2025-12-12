@@ -1,7 +1,7 @@
 ---
 alias:
-	name: toad
-	text: Toad
+    name: toad
+    text: Toad
 ---
 # Toad
 

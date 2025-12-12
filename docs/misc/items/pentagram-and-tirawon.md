@@ -1,4 +1,9 @@
-# Pentagramm und Tirawon
+---
+alias:
+	name: Pentagram and Tirawon
+	text: Pentagram and Tirawon
+---
+# Pentagram and Tirawon
 
 Die Bündnisse **"Das Pentagramm"** und **"Ewiges Feuer von Tirawon / Grüne Hand Salassars"** waren zwei der mächtigsten Großbündnisse der 6. Welt und herrschten jeweils über mehrere hundert Regionen. In der Runde 381 (letzte Woche des Monats Sturmmond im Jahre 8 des zweiten Zeitalters) trafen ihre aufeinander ...
 

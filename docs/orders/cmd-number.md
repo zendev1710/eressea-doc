@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # NUMBER
 
 **`NUMBER UNIT`**`[`*`neue-nr`*`]`  

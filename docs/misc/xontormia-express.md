@@ -1,3 +1,8 @@
+---
+alias:
+	name: Xontormia Express
+	text: Xontormia Express
+---
 # Xontormia Express
 
 ## Was ist der Xontormia Express?

@@ -1,4 +1,9 @@
-# Optimierung Wegfindung
+---
+alias:
+	name: optimizing-wayfinding
+	text: Optimizing wayfinding
+---
+# Optimizing wayfinding
 
 Die generelle Funktionsweise eine Routenberechnung dürfte vielen bekannt sein. Es werden glücklicherweise nicht alle Wege nach Rom gesucht, sondern nur solche die offenbar in die ungefähre Richtung gehen.
 

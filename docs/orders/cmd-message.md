@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # MESSAGE
 
 **`MESSAGE`**` UNIT `*`einh-nr`*`"`*`text`*`"`  

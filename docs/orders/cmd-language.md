@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # LANGUAGE
 
 **`LANGUAGE`**`de`  

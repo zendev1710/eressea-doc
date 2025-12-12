@@ -1,4 +1,4 @@
-# Discrétion
+# Camouflage
 
 La [compétence] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [garde] une région, se trouve sur un bateau ou dans un bâtiment.
 
@@ -47,6 +47,7 @@ Poursuivre la lecture : [déplacements](./travel.md).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 
+<!--
 [compétence]: ./skills.md "Talente"
 [GUARD]: ./cmd-guard.md "GUARD"
 [garde]: ./cmd-guard.md "Garde"
@@ -55,3 +56,4 @@ Poursuivre la lecture : [déplacements](./travel.md).
 [espionnage]: ./skills-list.md#espionnage "Spionage"
 [position de combat]: ./cmd-combat.md "COMBAT"
 [revenus]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"
+-->

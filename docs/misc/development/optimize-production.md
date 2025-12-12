@@ -1,4 +1,9 @@
-# Optimierung Produktion
+---
+alias:
+	name: optimizing-production
+	text: Optimizing production
+---
+# Optimizing production
 
 Unter der Optimierung der Produktion verstehe ich hauptsächlich die sparsame Verwendung von Einheiten. D.h. Ich habe in einer Region eine Gruppe von Einheiten mit der gleichen Aufgabe und soll eine festgelegte Menge produzieren (Silber, Handel, Gegenstände, Schiffe und Gebäude).
 

@@ -1,4 +1,9 @@
-# Automatisierung Ereignissreaktion
+---
+alias:
+	name: auto-event-response
+	text: Automated event response
+---
+# Automated event response
 
 Viele Ereignisse in Eressea sind zufällig oder durch andere Spieler beeinflusst. Um solche Ereignisse nicht zu verpassen oder besser noch gleich angemessen darauf zu reagieren, muss man natürlich erstmal festlegen welche Ereignisse man entdecken will und wie dies zu bewerkstelligen ist.
 

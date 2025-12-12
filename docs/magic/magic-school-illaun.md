@@ -1,3 +1,8 @@
+---
+alias:
+	name: Illaun spells
+	text: Illaun spells
+---
 # Illaun spells
 
 ## Schattenritter

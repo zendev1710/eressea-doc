@@ -1,4 +1,9 @@
-# Grundlagen
+---
+alias:
+	name: basics
+	text: Basics
+---
+# Basics
 
 Nur weil es in Eressea keinen Gewinner gibt, heißt das nicht, das man nicht verlieren kann. Unter Anfängern sehen wir immer wieder vermeidbare Fehler, die dazu führen, dass eine Partei frühzeitig aus dem Spiel ausscheidet, weil eine Regel nicht vollständig versanden wurde, oder der Spieler unvorbereitet auf Probleme stößt.
 

@@ -1,4 +1,9 @@
-# Schneemann
+---
+alias:
+	name: 
+	text: 
+---
+# Snowman
 
 Ein Bauer fährt mit seiner Ernte in Richtung Stadt. Die Sonne brennt auf die ausgedörrte Erde herab. Unerklärlicherweise steht am Wegesrand ein Schneemann und schmilzt vor sich hin. Der Bauer hat eine Idee. Er hält mit seinem Fuhrwerk neben dem Schneemann und spricht ihn an:
 

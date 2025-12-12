@@ -1,3 +1,8 @@
+---
+alias:
+	name: troubleshootings
+	text: Troubleshootings
+---
 # Troubleshootings
 
 ## Errors in the Game

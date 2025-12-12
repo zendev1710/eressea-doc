@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Skill list
 
 Here is a list of all skills units can learn in Eressea. This is just a short overview, all details are given in the respective chapters.

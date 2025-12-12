@@ -1,3 +1,8 @@
+---
+alias:
+	name: herbs
+	text: Herbs
+---
 # Herbs
 
 **Herbs** are gathered with the order [MAKE HERBS]. Depending on the skill level in [Herbalism], you will gather more or less herbs in the region. Each region have only one typ of herb. Herbs grow back like trees; if you are not careful, you can pick all the herbs in a region and then have to plant some again using [GROW HERBS]. If in doubt, you have to try out which herb has ever grown here.

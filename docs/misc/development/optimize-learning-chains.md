@@ -1,3 +1,8 @@
+---
+alias:
+	name: optimizing-learning-chains
+	text: Optimizing learning chains
+---
 # Optimierung Lernketten
 
 ## Vorüberlegungen

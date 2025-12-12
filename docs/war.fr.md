@@ -276,13 +276,16 @@ Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in e
 - Stehen mehrere potentielle Ziele zur Auswahl, wird der Kapitän eines nach dem Zufallsprinzip aussuchen.
 - Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [`HELP COMBAT`][`HELP COMBAT`] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.
 
-## Das Ende
+<!-- GERMAN SECTION TRANSLATED -->
+## Fin du combat
 
-Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von ausgelöschten Einheiten wird zusammengetragen und unter den Überlebenden verteilt.
+Après la bataille, on compte les morts, et tout le matériel utilisable des unités anéanties est récupéré et distribué aux survivants.
 
-Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige [Rassen] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
+Les unités blessées au combat restent blessées. Ceci est indiqué dans le rapport. Avec le temps, elles guérissent. Elles régénèrent généralement 5 % (certaines [races] davantage) de leurs points de vie maximum par tour, mais au moins un point par individu. Les unités mortes-vivantes ne se régénèrent pas.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELP GUARD`][`HELP COMBAT`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
+Si la région où les combats ont eu lieu était [[alliances|gardée]] *au début du combat* par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][`HELP COMBAT`] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs. Ceci est valable même si des troupes ennemies gardent également la région. Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre `ATTACK`).
+
+Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 
 Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COMBAT`] und Einheiten auf See. Einheiten mit dem Status `COMBAT FLEE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [`MOVE`]`,`[`ROUTE`]` oder `[`FOLLOW`][`FOLLOW SHIP`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
@@ -291,13 +294,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COM
 - [Taktik]
 - [Kriegstabellen]
 
-Poursuivre la lecture : [[alliances|hello "my link"]] "Bonjour".
-
-<!--
-Poursuivre la lecture : [Allianz].
-
-[Allianz]: [[alliances]] "Alliances" -->
-<!-- [Allianz]: ./alliances.md "Alliances"-->
+Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
@@ -329,8 +326,7 @@ Poursuivre la lecture : [Allianz].
 [`VERLASSEN`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
 [`PIRACY <parteinummer> ...`]: ./cmd-piracy.md "PIRACY"
-[Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
-[bewacht]: ./alliances.md "Allianz"
+[races]: ./skills-modifiers.md "Talentmodifikatoren"
 [`MOVE`]: ./cmd-move.md "MOVE"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
 [Taktik]: ./tactic.md "Taktik"

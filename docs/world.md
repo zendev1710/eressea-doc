@@ -1,3 +1,8 @@
+---
+alias:
+	name: world
+	text: World
+---
 # World
 
 ## Geography

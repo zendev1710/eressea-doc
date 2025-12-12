@@ -8,10 +8,11 @@ theme:
   features:
     - content.tooltips
     - header.autohide
-    - navigation.instant
     - navigation.indexes
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    # not compatible with i18n
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
     - navigation.sections
     - navigation.path
     - navigation.tabs
@@ -84,33 +85,56 @@ plugins:
         - locale: fr
           name: Français
           build: true
+          nav_translations:
+            Home: Accueil
+            Gameplay: Le jeu
+            Exploration: Exploration
+            Production: Production
+            War: La guerre
+            Magic: La magie
+            Alchemy: L'alchimie
+            Orders: Les ordres
+            References: Références
+            Help: Aide
+            Troubleshootings: Dépannage
         - locale: de
           name: Deutsch
           build: true
+          nav_translations:
+            Home: Hauptseite
+            Gameplay: Spielablauf
+            Exploration: Erforschung
+            Production: Produktion
+            War: Krieg
+            Magic: Magie
+            Alchemy: Alchimie
+            Orders: Befehle
+            References: Referenzen
+            Help: helfen
       docs_structure: suffix
-      nav_translations:
-        fr: # Translations for French
-          home: accueil
-          gameplay: le jeu
-          exploration: Exploration
-          production: production
-          war: la guerre
-          magic: magie
-          alchemy: alchimie
-          orders: ordres
-          references: références
-          help: aide
-        de: # Translations for French
-          home: Hauptseite
-          gameplay: Spielablauf
-          exploration: Erforschung
-          production: produktion
-          war: Krieg
-          magic: magie
-          alchemy: alchimie
-          orders: Befehle
-          references: Referenzen
-          help: helfen
+      # nav_translations:
+      #   fr: # Translations for French
+      #     Home: Accueil
+      #     Gameplay: Le jeu
+      #     Exploration: Exploration
+      #     Production: Production
+      #     War: La guerre
+      #     Magic: Magie
+      #     Alchemy: Alchimie
+      #     Orders: Ordres
+      #     References: Références
+      #     Help: Aide
+        # de: # Translations for French
+        #   home: Hauptseite
+        #   gameplay: Spielablauf
+        #   exploration: Erforschung
+        #   production: produktion
+        #   war: Krieg
+        #   magic: magie
+        #   alchemy: alchimie
+        #   orders: Befehle
+        #   references: Referenzen
+        #   help: helfen
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 
 # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/?h=language
@@ -126,21 +150,48 @@ extra:
       link: /eressea-doc/de/
       lang: de
 
+# Extensions
 markdown_extensions:
+
+# Python Markdown
   - abbr
   - admonition
   - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 # Page tree
 nav:
   - Home:
-    #- index.md
-    - rules.md
-    - introduction.md
-    - troubleshootings.md
+    - Home: index.md
+    - Rules: rules.md
+    - Introduction: introduction.md
+    - Troubleshootings: troubleshootings.md
   - Gameplay:
     - world.md
     - factions.md
@@ -168,6 +219,9 @@ nav:
   - War:
     - war.md
     - alliances.md
+    # - tactics.md
+    # - armed.md
+    # - combat.md
   - Magic:
     - magic/magic.md
     - magic/magic-schools.md

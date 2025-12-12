@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # LEARN AUTO
 
 **`LEARN AUTO`**` `*`talent`*

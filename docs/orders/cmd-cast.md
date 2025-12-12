@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # CAST
 
 **`CAST`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`

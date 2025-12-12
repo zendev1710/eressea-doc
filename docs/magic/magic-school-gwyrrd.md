@@ -1,3 +1,8 @@
+---
+alias:
+	name: Gwyrrd spells
+	text: Gwyrrd spells
+---
 # Gwyrrd spells
 
 ## Steingolems

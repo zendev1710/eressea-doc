@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # REGION
 
 `REGION x,y; Name der Region`

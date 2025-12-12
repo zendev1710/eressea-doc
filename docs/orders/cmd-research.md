@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # RESEARCH
 
 **`RESEARCH`**[<sup>`L`</sup>]`KRÄUTER`

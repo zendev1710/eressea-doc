@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # RESERVE
 
 **`RESERVE`**` `*`anzahl`*` `*`gegenstand`*  

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Monsters
 
 The faction of monsters is currently the only NPC faction in Eressea. It had the faction ID 0, but since around round 572 it has had the ID (ii). Why actually (ii)? If you convert ii from Base36 to the decimal system, you get 666.

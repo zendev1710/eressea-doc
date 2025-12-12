@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # PLANT
 
 **`PLANT`**[<sup>`L`</sup>]`[`*`anzahl`*`] KRÄUTER`  

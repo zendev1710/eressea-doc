@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # NAME
 
     NAME UNIT "name"

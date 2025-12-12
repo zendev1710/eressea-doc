@@ -1,6 +1,9 @@
-# Du spielst zuviel Eressea, wenn
-
-## Du spielst zuviel Eressea, wenn
+---
+alias:
+	name: You play too much if
+	text: You play too much if
+---
+# You play too much if
 
 - du eine Mail an deinen Root mit "Seid gegrüßt!" einleitest
 - du die Webseiten über "Creative Anachronism" liest

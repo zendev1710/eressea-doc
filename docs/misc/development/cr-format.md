@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # CR Format
 
 Der CR besteht aus Blocks, Attributen und Listeneinträge. Ein Block entspricht meist einem Objekt, ein Attribut einer Variablen des Objektes. Blöcke können Unterblöcke haben.

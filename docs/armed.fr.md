@@ -1,4 +1,4 @@
-# Bewaffnet
+# Armé
 
 Eine Einheit gilt als bewaffnet, wenn sie über ein [Kampftalent] (Hiebwaffen, Stangenwaffen, Bogenschießen, Armbrustschießen, Katapultbedienung) und mindestens eine Waffe des entsprechenden Typs verfügt.
 

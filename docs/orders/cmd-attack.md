@@ -1,3 +1,8 @@
+---
+alias:
+	name: attack
+	text: ATTACK
+---
 # ATTACK
 
 **`ATTACK`**[<sup>`(l)`</sup>]` `*`einheit-nr`*

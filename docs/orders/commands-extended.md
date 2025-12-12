@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # ExtendedCommands
 
 ndedCommands sind ein Plugin für [Magellan], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # GIVE
 
 ` `**`GIVE`**` `*`unit_ID amount item`*  

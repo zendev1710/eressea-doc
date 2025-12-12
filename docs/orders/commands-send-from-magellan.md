@@ -1,4 +1,9 @@
-# Befehle von Magellan verschicken
+---
+alias:
+	name: 
+	text: 
+---
+# Sending orders from Magellan
 
 <!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
 ![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")

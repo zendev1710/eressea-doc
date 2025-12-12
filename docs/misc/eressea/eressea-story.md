@@ -1,4 +1,9 @@
-# Geschichte von Eressea
+---
+alias:
+	name: History of Eressea
+	text: History of Eressea
+---
+# History of Eressea
 
 Laut [Wikipedia] startete Eressea am 27. August 1996. Es wurde als Ableger von [Atlantis] entwickelt. Die Popularität war relativ starken Schwankungen unterlegen. Der Rekord lag bei über 2000 Parteien Anfang des Jahres 2002. Ende 2005 waren es erstmals unter 1000 Parteien. Ende 2008 wurde die Neuanmeldung zeitweilig geschlossen. Zu diesem Zeitpunkt gab es unter 700 Parteien. Das Spiel geht aber immer noch weiter.
 

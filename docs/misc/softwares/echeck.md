@@ -1,3 +1,8 @@
+---
+alias:
+	name: echeck
+	text: ECheck
+---
 # ECheck
 
 **ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut. ECheck ist nicht perfekt und nicht vollständig. Es kann sowohl falsch negative, als auch falsch positive Meldungen geben. Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind. Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind. Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid. ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # ENTER
 
 **`ENTER`**` BURG `*`gebäude-nr`*  

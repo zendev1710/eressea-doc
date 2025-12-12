@@ -1,3 +1,8 @@
+---
+alias:
+	name: BANNER
+	text: BANNER
+---
 # BANNER
 
 **`BANNER`**`"`*`text`*`"`

@@ -30,10 +30,10 @@ Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle 
 
 Poursuivre la lecture : [Le monde d'Eressea].
 
-[Le monde d'Eressea]: ./world.md "Le monde d'Eressea"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
+<!--
+[Le monde d'Eressea]: ./world.md "Le monde d'Eressea"
 [faction]: ./factions.md "Partei"
 [race]: ./races.md "Rassen"
 [Inscription]: ./hints.md#anmeldung "Anmelden wie?"
@@ -50,3 +50,4 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [modèle de train]: ./move-template.md "Zugvorlage (to be documented)"
 [point hebdomadaire]: ./weekly-report.md "Wochenbericht"
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+-->

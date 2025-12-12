@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # CONTACT
 
 **`CONTACT`**` UNIT `*`einheit-nr`*  

@@ -1,3 +1,8 @@
+---
+alias:
+	name: camouflage
+	text: Camouflage
+---
 # Camouflage
 
 The **Stealth** [skill] allows you to camouflage yourself from other units. However, if a unit [is guarding] the region, or is on a ship or in a building, it is always visible.

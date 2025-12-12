@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Discussion:Short description
 
 Under "K/L" it is noted whether the [Order] is a short or long order, i.e. whether it is executed immediately (and further orders are possible afterwards) or takes a whole round to execute. K is a short order, L is a long order.

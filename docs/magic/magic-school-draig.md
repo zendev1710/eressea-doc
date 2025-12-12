@@ -1,3 +1,8 @@
+---
+alias:
+	name: Draig spells
+	text: Draig spells
+---
 # Draig spells
 
 ## Kleine Flüche

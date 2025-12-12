@@ -1,3 +1,11 @@
+---
+# alias:
+#  name: 
+#  text: 
+# category:
+# tags:
+#  - magie
+---
 # eressea-doc
 
 MkDocs project for Eressea documentation.
@@ -19,7 +27,7 @@ Currently the web site handles the following languages:
 | [adamantium-armor]      | N  | N  | N  | [adamantiumrüstung]       | TBW   |
 | [adamantium]            | X  | NT | NT | [adamantium]              | TBR   |
 | [alchemy]               | X  | X  | X  | [tränke]                  |       |
-| [alliances]             | X  | X  | NT | [allianz]                 |       |
+| [alliances]             | X  | X  | NT | [allianz]                 | TBR   |
 | [armed]                 | X  | N  | N  | [bewaffnet]               |       |
 | [atlantis]              | X  | N  | N  | [atlantis]                |       |
 | [auto-event-response]   | X  | N  | N  | [automat_ereigniss]       |       |

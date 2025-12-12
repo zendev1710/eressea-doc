@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Atlantis
 
 **Atlantis** ist der Urvater von Eressea.

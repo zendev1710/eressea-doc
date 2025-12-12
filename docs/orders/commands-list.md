@@ -1,4 +1,9 @@
-# Kurzbeschreibung
+---
+alias:
+	name: 
+	text: 
+---
+# List of orders
 
 Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.
 

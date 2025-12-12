@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Ships
 
 <!-- TODO: translate from german to english -->

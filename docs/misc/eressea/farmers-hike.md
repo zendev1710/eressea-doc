@@ -1,4 +1,9 @@
-# Bauernwanderung
+---
+alias:
+	name: Farmers hike
+	text: Farmers hike
+---
+# Farmers hike
 
 Bauern sind in der Lage von Region zu Region zu wandern. Sie tun das aus unterschiedlichen Gründen, die sich in der Geschichte Eressea immer mal änderten:
 

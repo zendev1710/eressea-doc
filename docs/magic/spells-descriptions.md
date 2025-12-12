@@ -1,3 +1,8 @@
+---
+alias:
+	name: Description of spells
+	text: Description of spells
+---
 # Description of spells
 
 ## A

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # RIDE
 
 **`RIDE`**[<sup>`L`</sup>]` `*`einheit-nr`*  

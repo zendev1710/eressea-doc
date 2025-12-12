@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # SELL
 
 **`SELL`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*  

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # ROUTE
 
 **`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`

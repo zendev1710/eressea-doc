@@ -1,3 +1,8 @@
+---
+alias:
+	name: eressea
+	text: ERESSEA
+---
 # ERESSEA
 
 **`ERESSEA`**` `*`partei-nr`*`"`*`passwort`*`"`

@@ -1,3 +1,8 @@
+---
+alias:
+	name: money
+	text: Money
+---
 # Money
 
 Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working], [entertaining] the peasants, [collecting taxes], or [trading].

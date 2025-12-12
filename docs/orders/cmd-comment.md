@@ -1,4 +1,9 @@
-# KOMMENTAR
+---
+alias:
+	name: comment
+	text: COMMENT
+---
+# COMMENT
 
 **`//`**` `*`Kommentar`*
 

@@ -1,3 +1,8 @@
+---
+alias:
+	name: faction-pool 
+	text: Faction pool
+---
 # Faction pool
 
 Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [CLAIM] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.

@@ -1,3 +1,8 @@
+---
+alias:
+	name: factions
+	text: Factions
+---
 # Factions
 
 Players lead so-called **factions** on Eressea. A faction initially consists of one, later sometimes many units. These units consist of one, a few or even thousands of people from the [race] of the faction. Each unit can have any number of items and silver, and can also learn all [skills] of Eressea. You can give units [orders] every turn, which they will carry out as well as they can.

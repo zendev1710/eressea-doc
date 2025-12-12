@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Christmas tree
 
 Der **Weihnachtsbaum** war das Eresseanische Weihnachtsgeschenk des Jahres 2006.

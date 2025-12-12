@@ -1,3 +1,8 @@
+---
+alias:
+	name: auto-trading
+	text: Automated trading
+---
 # Automatisierung Handel
 
 Handel hat ja nur einen Zweck: Maximierung des Silberertrages. Damit ist das Grosse Ziel schonmal sehr einfach definiert.

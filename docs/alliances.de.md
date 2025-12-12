@@ -1,8 +1,3 @@
----
-alias: 
-    name: Allianz
-    text: Allianz
----
 # Allianz
 
 Allianzen bilden das Rückgrat der Welt, ob dies nun Kriegs-, Handels- oder einfach nur Friedensallianzen sind. In Eressea gibt es einige Bereiche, in denen man anderen Parteien nicht nur "im Geiste" helfen, sondern sie auch regeltechnisch unterstützen kann, was mit dem Befehl [HELFE] geschieht.

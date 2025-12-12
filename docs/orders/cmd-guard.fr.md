@@ -4,7 +4,7 @@
 
 Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
-Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([`HELP GUARD`] oder [`CONTACT`]), folgende Einschränkungen:
+Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [[alliances|alliiert]] sind ([`HELP GUARD`] oder [`CONTACT`]), folgende Einschränkungen:
 
 - Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [HANDELN] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
@@ -31,14 +31,13 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 ## Voir aussi
 
 - [HELP][`HELP GUARD`]
-- [Allianz][alliiert]
+- [[alliances]]
 - [CONTACT][`CONTACT`]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
 [Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [bewaffnet]: ./armed.md "Bewaffnet"
-[alliiert]: ./alliances.md "Allianz"
 [`HELP GUARD`]: ./cmd-help.md "HELP"
 [`CONTACT`]: ./cmd-contact.md "CONTACT"
 [HANDELN]: ./silver.md#handel "Geld"

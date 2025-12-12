@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # BUY
 
 **`BUY`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*

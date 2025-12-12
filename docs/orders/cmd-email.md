@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # EMAIL
 
 **`EMAIL`**`"`*`adresse@example.com`*`"`

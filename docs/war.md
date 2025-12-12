@@ -1,3 +1,8 @@
+---
+alias:
+	name: war
+	text: War
+---
 # War
 
 Conflict is bound to arise in Eressea. There will be quarrels over money, over regions, over taxes, over trade routes and so on. That's why you should always look for friends and allies, because "friends come and go, enemies multiply".
@@ -303,9 +308,8 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 - [Tactics][Tactician]
 - [War tables]
 
-Continue reading: [Alliances].
+Continue reading: [[alliances]].
 
-[Alliances]: [[alliances]] "Alliances"
 <!-- [Alliances]: ./alliances.md "Alliances"-->
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->

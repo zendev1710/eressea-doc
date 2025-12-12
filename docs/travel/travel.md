@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Movement
 
 There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships. Sometimes you may even fly or swim. For alle modes the orders [`MOVE`] or [`ROUTE`] are used.

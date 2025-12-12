@@ -1,4 +1,9 @@
-# Entwicklung
+---
+alias:
+	name: development
+	text: Development
+---
+# Development
 
 Diese Seite soll Entwickler verschiedener Tools oder Skriptentwickler zusammenführen bzw. auf Fragestellungen eingehen die sich immer wieder stellen.
 

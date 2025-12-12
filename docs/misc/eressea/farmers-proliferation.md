@@ -1,4 +1,9 @@
-# Bauernvermehrung
+---
+alias:
+	name: farmers-proliferation
+	text: Farmers proliferation
+---
+# Farmers proliferation
 
 Bauern vermehren sich mit einer Rate von 1 Promille pro Woche. Es wird aufgerundet, d.h. in einer Woche kommen pro angefangene 1000 Bauern einer dazu.
 

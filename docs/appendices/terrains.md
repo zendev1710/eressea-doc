@@ -1,3 +1,8 @@
+---
+alias:
+	name: terrain-types
+	text: Terrain types
+---
 # Terrain types
 
 | Terrain  | max. workers | min. workers (despite many trees) | max. Trees | Stones for road (per direction) |

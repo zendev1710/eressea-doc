@@ -1,4 +1,9 @@
-# Muschel
+---
+alias:
+	name: dhell
+	text: Shell
+---
+# Shell
 
 Muschelplateau wurde als Botschafterregion des "Rat von Podina" im Norden der 10. Welt gegründet. Später, als die "Allianz der Inseln" entstand, legten die Mitglieder fest, dass diese Region auch die Botschafterregion der AdI ist.
 

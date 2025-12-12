@@ -36,7 +36,7 @@ Poids et Capacités
 
 La construction de [routes] permet d'augmenter d'une région la vitesse de déplacement. Pour cela, toutes les régions traversées doivent avoir un réseau routier complet. Ainsi, si l'on veut se rendre à pied à l'est en deux régions en une semaine, la région de départ a besoin d'une route complète vers l'est, la région intermédiaire d'une route complète vers l'est et d'une route complète vers l'ouest et la région d'arrivée d'une route complète vers l'ouest.
 
-## Chevaux et Chariots
+## Chevaux et chariots
 
 La **vitesse de déplacement** à pied sans [route][routes] est d'une région par tour ; avec une route, c'est deux. À cheval, on peut se déplacer de deux régions sans route, de trois régions avec des routes. Un niveau de compétence par 2 chevaux est nécessaire pour monter. L'unité monte automatiquement si elle a assez de niveaux en riding pour tous les chevaux possédés et si l'unité n'est pas surchargée. Si l'unité est trop lourdement chargée pour monter à cheval, mais pas trop lourdement chargée pour se déplacer à pied, l'unité se déplace d'une seule région (sans route). On considère qu'elle mène les chevaux par la bride.
 
@@ -77,6 +77,7 @@ Poursuivre la lecture : [Naviguer].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
 
+<!--
 [`MOVE`]: ./cmd-move.md "MOVE"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
 [`CARRY`]: ./cmd-carry.md "CARRY"
@@ -86,3 +87,4 @@ Poursuivre la lecture : [Naviguer].
 [objets]: ./items.md "Waren"
 [routes]: ./roads.md "Straße"
 [bateaux]: ./ships.md "Schiff"
+-->

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Castles
 
 Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack. They also reduce the likelihood of [plagues]. Castles are built from stone using the [`MAKE CASTLE`] command and the masonry skill. The size at which a castle enters a new category is shown in the table below. The larger the castle, the more difficult it is to expand it further. To continue building a castle, you need the masonry skill at the required level. Each week, the unit will extend the building by (total skill) / (skill level required) using the same amount of stones. You can easily build a tower in a week with a sufficiently large and skilled unit and enough stones.

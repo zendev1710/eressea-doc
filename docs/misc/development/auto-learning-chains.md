@@ -1,3 +1,8 @@
+---
+alias:
+	name: auto-learning-chains
+	text: Automated learning chains
+---
 # Automatisierung Lernketten
 
 Für Magellan gibt es das für jeden einsetzbare Teacher Plugin, welches nach ein wenig Vorarbeit Automatisch Lehrer und Schüler zuordnet. Es verwendet zur Berechnung der Lehrer-Schüler Beziehungen einen [Genetischen Algorithmus]. Details zur Bewertungsfunktion, Selektion, Rekombination oder Mutation sind nicht bekannt.

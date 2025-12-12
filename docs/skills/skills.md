@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Skills
 
 Les compétences sont un élément essentiel qui définit une [unité] dans Eressea. Toutes les personnes d'une unité ont les mêmes compétences. Elles doivent d'abord les apprendre. Pour être précis, avec l'ordre [`LEARN`], une unité peut faire une tentative par tour pour gagner un nouveau niveau.

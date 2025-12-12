@@ -1,3 +1,8 @@
+---
+alias:
+	name: hints
+	text: Hints
+---
 # Hints
 
 ## Registration

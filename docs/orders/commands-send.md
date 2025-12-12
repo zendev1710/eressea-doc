@@ -1,16 +1,9 @@
-# Befehle einschicken
-
-## Sommaire
-
-- [Befehle einschicken](#befehle-einschicken)
-  - [Sommaire](#sommaire)
-  - [Was man braucht, um Eressea zu spielen](#was-man-braucht-um-eressea-zu-spielen)
-    - [Beispiele](#beispiele)
-  - [Wie man Befehle einschickt, und was man dafür bekommt](#wie-man-befehle-einschickt-und-was-man-dafür-bekommt)
-  - [Nachfordern](#nachfordern)
-    - [Den Report nachfordern](#den-report-nachfordern)
-  - [Was man bei der Eingabe beachten muss](#was-man-bei-der-eingabe-beachten-muss)
-  - [See also](#siehe-auch)
+---
+alias:
+	name: 
+	text: 
+---
+# Sending orders
 
 ## Was man braucht, um Eressea zu spielen
 

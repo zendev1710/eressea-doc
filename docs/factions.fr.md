@@ -26,7 +26,7 @@ Voici un exemple d'unités :
        
       + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
 
-Vos propres unités sont marquées d'un '\*'. Les unités des autres factions sont marquées d'un '-', ou '+' si vous [aidez] cette faction.
+Vos propres unités sont marquées d'un '\*'. Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|aidez]] cette faction.
 
 Chaque unité possède un numéro unique (ID) attribué par le système et utilisé pour tous les ordres, dans le premier cas ici le numéro est tb2. Le terme "numéro" semble ici étrange, car dans Eressea, les ID des unités sont en caractères "base36" ; à côté des chiffres 0-9, les lettres a-z sont donc valables comme "chiffres". Chaque unité a également un nom ("Konrad Rabenhelm") ainsi peut-être qu'une description (après le point-virgule). Ensuite, les possessions visibles et, si l'information. La plupart des descriptions que vous rencontrerez au cours du jeu seront en allemand, car la majorité des joueurs est également allemande. Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos unités, mais gardez à l'esprit l'impact que cela peut avoir sur l'expérience de vos co-joueurs.est disponible, les compétences sont indiquées.
 
@@ -57,10 +57,9 @@ Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux pr
 
 Poursuivre la lecture : [races].
 
-[races]: ./races.md "Rassen"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
 
+[races]: ./races.md "Rassen"
 [race]: ./races.md "Rassen"
 [compétences]: ./skills.md "Talente"
 [ordres]: ./commands.md "Ordres"
@@ -75,7 +74,6 @@ Poursuivre la lecture : [races].
 [MAKE TEMP]: ./cmd-make.md "MAKE"
 [transférer]: ./cmd-give.md "GIVE"
 [l'argent]: ./silver.md#ausgaben "Ausgaben"
-[aidez]: ./alliances.md "Allianz"
 [taxation]: ./cmd-tax.md "TAX"
 [défaut]: ./cmd-default.md "DEFAULT"
 [guerre]: ./war.md "Guerre"

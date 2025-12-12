@@ -30,7 +30,7 @@ Katapulte zu bedienen ist eine Aufgabe, die viel Vorbereitung erfordert, daher w
 
 - `KÄMPFE HELFE`: Einer Einheit mit `KÄMPFE HELFE NICHT` wird im Kampf nicht geholfen, weder von Einheiten der eigenen Partei noch von Verbündeten. Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf gezogen. Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.
 
-Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird. Weitere Details unter [`HELFE`] und in den Kapiteln [Kampf][Vom Kriege] und [Allianz].
+Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird. Weitere Details unter [`HELFE`] und in den Kapiteln [Kampf][Vom Kriege] und [[alliances|Allianz]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
@@ -44,5 +44,3 @@ Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie od
 [FOLGE]: ./cmd-follow.md "FOLGE"
 [Kampfzauber]: ./cmd-combatspell.md "KAMPFZAUBER"
 [`HELFE`]: ./cmd-help.md "HELFE"
-[Allianz]: [[alliances]] "Alliances"
-<!-- [Allianz]: ./alliances.md "Alliances"-->

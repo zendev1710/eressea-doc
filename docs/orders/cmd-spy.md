@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # SPY
 
 **`SPY`**[<sup>`L`</sup>]` `*`einheit-nr`*

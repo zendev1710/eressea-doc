@@ -290,9 +290,8 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 - [Taktik]
 - [Kriegstabellen]
 
-Weiterlesen: [Allianz].
+Weiterlesen: [[alliances|Allianz]].
 
-[Allianz]: [[alliances]] "Allianz"
 <!-- [Allianz]: ./alliances.md "Allianz"-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 

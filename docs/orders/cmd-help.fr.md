@@ -1,26 +1,22 @@
 # HELP
 
-**`HELP`**` `*`partei-nr`*`GIVE [NOT]`  
-**`HELP`**` `*`partei-nr`*`COMBAT [NOT]`  
-**`HELP`**` `*`partei-nr`*`SILBER [NOT]`  
-**`HELP`**` `*`partei-nr`*`GUARD [NOT]`  
-**`HELP`**` `*`partei-nr`*`PARTEITARNUNG [NOT]`  
-**`HELP`**` `*`partei-nr`*`ALLES [NOT]`
+**`HELP`**` `*`faction-id`*`GIVE [NOT]`  
+**`HELP`**` `*`faction-id`*`COMBAT [NOT]`  
+**`HELP`**` `*`faction-id`*`SILBER [NOT]`  
+**`HELP`**` `*`faction-id`*`GUARD [NOT]`  
+**`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
+**`HELP`**` `*`faction-id`*`ALLES [NOT]`
 
-Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
+Cet ordre permet à une faction d'attribuer différents niveaux de soutien à une autre faction. Cette dernière ne sera pas informée de ce changement de statut et n'est pas tenue d'avoir le même statut.
 
-Die einzelnen Modi sind im Abschnitt über [Allianzen] erklärt. Beispiel:
+Les différents modes sont expliqués dans la section [[alliances]].
+Exemple :
 
      HELP 7 GIVE NOT
 
-**[E3A — Das Dritte Zeitalter]**
+Expérience du joueur Solthar :
 
-HELP COMBAT hat in E3A keine Funktion mehr, da dies über den neuen [Allianzen][1] geregelt wird. Da Parteitarnung abgeschafft wurde hat auch HELP PARTEITARNUNG keine Funktion mehr.
-
-Spielererfahrung: SoltharHELFE pnr ohne Parameter macht dasselbe wie HELP pnr ALLES. HELP pnr NOT macht dasselbe wie HELP pnr ALLES NOT.
+- `HELP`` `*`faction-id`* sans paramètres a le même effet que `HELP`` `*`faction-id`* ` ALL`
+- `HELP`` `*`faction-id`*` ``NOT` a le même effet que `HELP`` `*`faction-id`*` ``ALL NOT`
 
 <!-- From [https://wiki.eressea.de/index.php?title=HELP&oldid=7439] -->
-
-[Allianzen]: ./alliances.md "Allianz"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[1]: ./the-third-age.md#allianzen "Das dritte Zeitalter"

@@ -1,4 +1,9 @@
-# Spielerseiten
+---
+alias:
+	name: 
+	text: 
+---
+# Players
 
 Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene hast, oder eine kennst, die hier noch fehlt, füge sie doch bitte einfach dazu.
 

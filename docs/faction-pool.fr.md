@@ -24,10 +24,10 @@ Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à
 
 Poursuivre la lecture : [l'argent].
 
-[l'argent]: ./silver.md "l'argent"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
+<!--
+[l'argent]: ./silver.md "l'argent"
 [CLAIM]: ./cmd-claim.md "CLAIM"
 [SHOW]: ./cmd-show.md "SHOW"
 [Adamantium]: ./adamantium.md "Adamantium"
@@ -39,3 +39,4 @@ Poursuivre la lecture : [l'argent].
 [Coquillage]: ./shell.md "Coquillage"
 [réserve de matériaux]: ./items-pool.md "Réserve de matériaux"
 [réserve d'argent]: ./items-pool.md#der-silberpool "Réserve d'argent"
+-->

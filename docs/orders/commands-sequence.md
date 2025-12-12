@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Orders Sequence
 
 Eressea's orders are evaluated in a fixed sequence. Orders with the same number are executed at the same time or the exact sequence is irrelevant.

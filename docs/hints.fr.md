@@ -85,13 +85,14 @@ Soyez gentils les uns avec les autres. Même votre pire ennemi dans le jeu est c
 
 Poursuivre la lecture : [conseils pour débutants].
 
-[conseils pour débutants]: ./getting-started-tips.md "Anfängertipps"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
+<!--
+[conseils pour débutants]: ./getting-started-tips.md "Anfängertipps"
 [Link]: https://www.eressea.de/?page_id=186
 [rapport de bug]: #rapport-de-bug
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 [QUIT]: ./cmd-quit.md "QUIT"
 [BANNER]: ./cmd-banner.md "BANNER"
+-->

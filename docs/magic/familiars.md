@@ -1,3 +1,8 @@
+---
+alias:
+	name: familiars
+	text: Familiars
+---
 # Familiars
 
 Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt. Dennoch sind Vertraute in der Lage Zauber zu wirken. Sie bedienen sich jedoch sowohl bei den Zaubern, als auch bei der Aura und anderen Komponenten stets beim Magier. Die maximale Entfernung für auf solche weise gewirkte Zauber entspricht dem Talent des Magiers. Vertraute unterliegen bei diesen Zaubern jedoch gewissen Einschränkungen. Die Stufe des Zaubers kann nicht größer als das Magietalent des Vertrauten oder das halbe Talent des Magiers sein. Auch verdoppeln sich die Kosten für den Spruch.

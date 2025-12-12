@@ -18,7 +18,7 @@ Garder empêche le recrutement (sauf HELP)
 
 ### Frais d'entretien
 
-Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture. Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de Silver !) Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [HELP SILVER] avec votre faction aident aussi (voir [ici]). Les unités qui se déplacent doivent être ravitaillées là où elles arrivent. Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé]. Sans suffisamment de Silver, les gens souffrent de la faim (voir ci-dessous).
+Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture. Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de Silver !) Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [HELP SILVER] avec votre faction aident aussi (voir : [[alliances]]). Les unités qui se déplacent doivent être ravitaillées là où elles arrivent. Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé]. Sans suffisamment de Silver, les gens souffrent de la faim (voir ci-dessous).
 
 Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pour fonctionner. Ces frais d'entretien sont dûs dès le début du tour, ils doivent donc être perçus dès le premier tour et sont dûs dès que le bâtiment a été commencé (donc également pour les bâtiments à moitié construits). S'il n'y a pas assez d'argent disponible, la fonction du bâtiment ne peut pas être utilisée. Pour plus de détails, voir le chapitre sur les [Bâtiments].
 
@@ -171,7 +171,6 @@ Poursuivre la lecture : [Material Pool].
 [commercer]: ./silver.md#handel "Argent"
 [Races]: ./races.md "Rassen"
 [HELP SILVER]: ./cmd-help.md "HELP"
-[ici]: ./alliances.md "Allianz"
 [réservé]: ./cmd-reserve.md "RESERVE"
 [Bâtiments]: ./buildings.md "Gebäude"
 [aquariens]: ./races.md#aquariens "Aquariens"

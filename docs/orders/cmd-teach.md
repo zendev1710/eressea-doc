@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # TEACH
 
 **`TEACH`**[<sup>`L`</sup>]` `*`einheit-nr`*`[`*`einheit-nr`*`]...`

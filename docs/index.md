@@ -1,3 +1,8 @@
+---
+alias:
+    name: home
+    text: Home
+---
 # Home
 
 Welcome to [Eressea]!

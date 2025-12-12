@@ -1,3 +1,8 @@
+---
+alias:
+	name: solar-sail
+	text: Solar Sail
+---
 # Solar Sail
 
 <!-- TODO: check the real name in the game: Sun Sail or Solar Sail or what ? -->

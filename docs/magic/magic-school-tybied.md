@@ -1,3 +1,8 @@
+---
+alias:
+	name: tybied spells
+	text: Tybied spells
+---
 # Tybied spells
 
 ## Magie analysieren

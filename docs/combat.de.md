@@ -267,7 +267,7 @@ Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][`BEWACHE`] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
+Will man mit einem Schiff Truppen in einer feindlich [[alliances|`BEWACHE`]] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELFE`][`HELFE KÄMPFE`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
@@ -278,7 +278,7 @@ Mit **Piraterie** hat ein Schiffskapitän die Möglichkeit, Schiffe anderer Part
 Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [`FOLGE SCHIFF`] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:
 
 - Als Ziele werden nur Parteien erkannt, mit denen man nicht mit `HELFE KÄMPFE` alliiert ist.
-- Werden Parteinummern angegeben ([`PIRATERIE <parteinummer> ...`], so werden nur Kapitäne der angegebenen Parteien als Ziele erkannt.
+- Werden Parteinummern angegeben ([`PIRATERIE <parteinummer> ...`]), so werden nur Kapitäne der angegebenen Parteien als Ziele erkannt.
 - Der Mechanismus funktioniert auch, wenn das Piratenschiff an Land ist. Er bietet also eine effektive Möglichkeit zum Küstenschutz.
 - Piraten segeln auch in Landregionen, sofern das Schiff dort landen kann. Falls es nicht landen kann, nimmt es Schaden.
 - Piratenkapitäne sind dumm wie Brot. Sie können nicht einschätzen, ob ein Ziel ihnen möglicherweise überlegen ist, und werden fröhlich auch mit einem einzigen Schiff in einer feindliche Flotte von 100 Schiffen hineinfahren. Das Piratendasein hat eben seine Risiken.
@@ -291,7 +291,7 @@ Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von a
 
 Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige [Rassen] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
+Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [[alliances|bewacht]] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
 Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [`NACH`]`,`[`ROUTE`]` oder `[`FOLGE`][`FOLGE SCHIFF`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
@@ -300,9 +300,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 - [Taktik]
 - [Kriegstabellen]
 
-Weiterlesen: [Allianz].
-
-[Allianz]: ./alliances.md "Allianz"
+Weiterlesen: [[alliances|Allianz]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
@@ -333,7 +331,6 @@ Weiterlesen: [Allianz].
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
 [Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
-[bewacht]: ./alliances.md "Allianz"
 [`NACH`]: ./cmd-move.md "NACH"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
 [Taktik]: ./tactic.md "Taktik"

@@ -1,3 +1,8 @@
+---
+alias:
+	name: war-tables
+	text: War tables
+---
 # War tables
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.

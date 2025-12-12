@@ -1,3 +1,8 @@
+---
+alias:
+	name: magic
+	text: Magic
+---
 # Magic
 
 Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [Kampf] den Feind schwächen oder Verbündete stärken.

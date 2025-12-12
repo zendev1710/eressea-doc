@@ -1,3 +1,8 @@
+---
+alias:
+	name: rules
+	text: Rules
+---
 # Rules
 
 These are the rules for the play-by-email game *Eressea*. Eressea is played exclusively by e-mail. If you do not have your own e-mail address, you cannot play Eressea. Eressea originates from [Atlantis], a game that was developed in 1993 by Russell Wallace. Eressea has been running continuously since 1996. In Eressea you will lead a *faction* and play together with many other factions of other people in a fantastical world.

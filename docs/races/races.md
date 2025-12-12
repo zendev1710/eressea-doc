@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Races
 
 As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties] in certain skills, and sometimes special abilities; each race has different [recruitment costs][bonuses and penalties]. As a general rule, a person weighs 10 weight units (WU or GE) and can carry 5.4 WU/GE. Trolls, goblins and various monsters are exceptions.

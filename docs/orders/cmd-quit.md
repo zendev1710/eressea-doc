@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # QUIT
 
 **`QUIT`**`"Passwort"`

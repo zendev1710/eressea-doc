@@ -1,6 +1,9 @@
+---
+alias:
+	name: tips-and-tricks
+	text: Tips and tricks
+---
 # Tips and tricks
-
-# Trucs et astuces
 
 ## Il n'est pas toujours nécessaire de savoir monter à cheval
 

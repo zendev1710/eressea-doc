@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # MAKE
 
 **`MAKE`**`[`*`amount`*`]`*`item`*  

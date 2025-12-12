@@ -1,4 +1,9 @@
-# Krieg
+---
+alias:
+	name: war
+	text: War
+---
+# War
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
 
@@ -257,7 +262,7 @@ Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][`GUARD`] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
+Will man mit einem Schiff Truppen in einer feindlich [[alliances|`GUARD`]] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELP`][`HELP COMBAT`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
@@ -290,10 +295,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLIEHE`][`C
 - [Taktik]
 - [Kriegstabellen]
 
-|--------------|-----------|
-| Weiterlesen: | [Allianz] |
-
-[Allianz]: ./alliances.md "Allianz"
+Weiterlesen:  [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 

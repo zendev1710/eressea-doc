@@ -1,4 +1,9 @@
-# Sternenstaub
+---
+alias:
+	name: stardust
+	text: Stardust
+---
+# Stardust
 
 Zwei Jahre lang hatte das eigens dafür gegründete "Institut zur Erforschung des Sternenstaubs" intensiv recherchiert, geforscht, experimentiert, diskutiert und philosophiert. Heute war nun der Tag gekommen, die Ergebnisse zu präsentieren. Der Institutsleiter tritt vor die versammelten Vertreter der schreibenden Zunft und beginnt zu referieren:
 

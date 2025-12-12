@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # LEARN
 
 **`LEARN`**[<sup>`L`</sup>]` `*`talent`*  

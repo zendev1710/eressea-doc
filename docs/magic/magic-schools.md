@@ -1,3 +1,8 @@
+---
+alias:
+	name: Schools of Magic
+	text: Schools of Magic
+---
 # Schools of Magic
 
 There are five Schools of Magic in Eressea.

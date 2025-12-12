@@ -1,3 +1,8 @@
+---
+alias:
+	name: tactics
+	text: Tactics
+---
 # Tactics
 
 Before the battle, the best tactician of all participating units is determined. The side with the best tactician wins the so-called "tactician round": in a skilful manoeuvre, he lures the enemy into an ambush and his allies can strike unexpectedly with a certain chance before the first round of battle, without the enemy being able to attack in this round. If two or more tacticians from different sides are equally good, all of them can strike in the tactician round. The chance of making this strike is 10% for every skill point difference between your best tactician and the best tactician on the other side, including bonuses or penalties. From a talent difference of 10, all allies strike once. The tactician round also counts for reloading, so a crossbow that has fired in the tactician round shoots a second time in round 3 instead of round 4. The tactician round also allows an additional escape attempt.

@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # FORGET
 
 **`FORGET`**` `*`talent`*

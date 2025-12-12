@@ -1,3 +1,8 @@
+---
+alias:
+	name: auto-transport
+	text: Automated transport
+---
 # Automatisierung Transport
 
 Die Logistikabläufe bei Eressea lassen sich grob diesen 3 Bereichen zuordnen:

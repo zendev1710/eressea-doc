@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Buildings
 
 There are a number of different buildings in Eressea that offer different benefits. Apart from castles and monuments, all buildings have a recurring maintenance cost to keep them running.

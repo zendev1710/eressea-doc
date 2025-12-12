@@ -1,3 +1,8 @@
+---
+alias:
+	name: potions
+	text: Potions
+---
 # Potions
 
 Alchemical *potions* are prepared using [Herbs] and other ingredients, and can then be used by any unit. To make a potion, you need units with the skill [Alchemy], and to find the required herbs, you need units with the skill [Herbalism][Alchemy].

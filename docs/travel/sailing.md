@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Sailing
 
 You can leave your island only with [ships] and, for example, open up new markets or establish direct contact with other factions. With a ship it is possible to move up to 7 regions, even more than 7 regions with the help of aquarians or with magic.

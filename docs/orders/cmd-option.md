@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # OPTION
 
 **`OPTION`**` `*`option`*`[NOT]`

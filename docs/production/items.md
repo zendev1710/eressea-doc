@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Items
 
 ## Production of items

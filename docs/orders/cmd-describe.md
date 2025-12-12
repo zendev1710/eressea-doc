@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # DESCRIBE
 
 **`DESCRIBE UNIT`**`"`*`text`*`"`  

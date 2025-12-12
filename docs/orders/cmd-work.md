@@ -1,4 +1,9 @@
-# WORK/en
+---
+alias:
+	name: work
+	text: WORK
+---
+# WORK
 
 **`WORK`**
 

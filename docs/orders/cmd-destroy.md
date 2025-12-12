@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # DESTROY
 
 **`DESTROY`**[<sup>`L`</sup>]`[`*`stufen`*`]`  

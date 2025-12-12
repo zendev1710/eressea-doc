@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # MOVE
 
 **`MOVE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`]...`

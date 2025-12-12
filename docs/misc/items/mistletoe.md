@@ -1,4 +1,9 @@
-# Mistelzweig
+---
+alias:
+	name: mistletoe
+	text: Mistletoe
+---
+# Mistletoe
 
 Ein Elf und ein Zwerg unterhalten sich:
 

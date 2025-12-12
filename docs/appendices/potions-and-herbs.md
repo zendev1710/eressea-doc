@@ -1,6 +1,12 @@
+---
+alias:
+	name: tables-potions-and-herbs 
+	text: "Tables: Potions and Herbs"
+---
 # Tables: Potions and Herbs
 
 ## List of alchemical potions and herbs
+
 
 Liste der alchemistischen Tränke
 

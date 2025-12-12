@@ -1,4 +1,9 @@
-# Anfängertipps
+---
+alias:
+	name: Beginner tips
+	text: Beginner tips
+---
+# Beginner tips
 
 Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt. Setzt ein [Passwort] und vergesst es nicht.
 

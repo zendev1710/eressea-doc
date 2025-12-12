@@ -1,3 +1,8 @@
+---
+alias:
+	name: introduction
+	text: Introduction
+---
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->

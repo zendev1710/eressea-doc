@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Resources
 
 Raw materials can be obtained without other ingredients from the region without further ingredients. However, the deposits are limited and regenerate only slowly or not at all. The necessary skill can be looked up in the section about [goods].

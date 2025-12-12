@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # STEAL
 
 **`STEAL`**[<sup>`L`</sup>]` `*`einheit-nr`*

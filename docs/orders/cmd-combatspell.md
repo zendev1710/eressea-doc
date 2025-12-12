@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # COMBATSPELL
 
 **`COMBATSPELL`**` [LEVEL `*`n`*`] "<Zauberspruch>"`  

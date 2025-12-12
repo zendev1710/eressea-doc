@@ -78,6 +78,7 @@ Poursuivre la lecture : [Les règles].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
+<!--
 [Eressea]: ./eressea.md "Eressea"
 [Discord]: https://discord.gg/KT5Fffh
 [Les règles]: ./rules.md "Règles du jeu"
@@ -114,3 +115,4 @@ Poursuivre la lecture : [Les règles].
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
 [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
 [Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/
+-->

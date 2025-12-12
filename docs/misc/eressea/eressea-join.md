@@ -1,4 +1,9 @@
-# Eressea:Mitmachen
+---
+alias:
+	name: join-eressea
+	text: join Eressea
+---
+# Eressea: join
 
 <!-- TODO: rewrite becaus this page describes how to help editing the mediawiki -->
 

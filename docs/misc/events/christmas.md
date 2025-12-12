@@ -1,4 +1,9 @@
-# Weihnachten
+---
+alias:
+	name: christmas
+	text: Christmas
+---
+# Christmas
 
 ## Der Weihnachtsgnom
 

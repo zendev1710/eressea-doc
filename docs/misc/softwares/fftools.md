@@ -1,4 +1,9 @@
-# FFTools2
+---
+alias:
+	name: fftools
+	text: FFTools
+---
+# FFTools
 
 FFTools2 sind ein Plugin für [Magellan] zum automatischen Erstellen von Befehlen für Einheiten.
 

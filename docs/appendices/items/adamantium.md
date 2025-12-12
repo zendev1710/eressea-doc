@@ -1,3 +1,8 @@
+---
+alias:
+	name: adamantium
+	text: Adamantium
+---
 # Adamantium
 
 Player experience: Adamantium is even rarer than Laen! There's barely one Adamantium per round, assuming there is any Adamantium in the region at all.

@@ -1,3 +1,8 @@
+---
+alias:
+	name: List of spells
+	text: List of spells
+---
 # List of spells
 
 ## All spells

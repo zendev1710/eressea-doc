@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # SHOW
 
 **`SHOW`**`"Zauberspruch"`  

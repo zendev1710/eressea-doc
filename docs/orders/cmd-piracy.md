@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # PIRACY
 
 **`PIRACY`**[<sup>`L`</sup>]`[`*`partei-nr`*`[`*`partei-nr`*`...]]`

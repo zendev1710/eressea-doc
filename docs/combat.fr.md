@@ -30,7 +30,7 @@ L'utilisation des catapultes est une tâche qui nécessite beaucoup de préparat
 
 - `AIDE AU COMBAT` : Une unité bénéficiant `du statut AIDE AU COMBAT` ne recevra aucune assistance au combat, ni de ses propres troupes ni de ses alliés. Si une telle unité est attaquée, aucune autre unité ne sera appelée en renfort. Ceci n'est valable que si aucune autre unité ne possédant pas ce statut n'est également attaquée.
 
-Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué, lui ou un groupe qu'il aide. Vous trouverez plus de détails dans la [`section AIDE`] et dans les chapitres [Combat][Sur la guerre] et [Alliance] .
+Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué, lui ou un groupe qu'il aide. Vous trouverez plus de détails dans la [`section AIDE`] et dans les chapitres [Combat][Sur la guerre] et [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
@@ -44,4 +44,4 @@ Votre groupe est toujours impliqué lorsqu'il attaque, ou lorsqu'il est attaqué
 [SUIVRE]: ./cmd-follow.md "CONSÉQUENCE"
 [les sorts de combat]: ./cmd-combatspell.md "SORTS DE COMBAT"
 [`section AIDE`]: ./cmd-help.md "AIDE"
-[Alliance]: ./alliances.md "Allianz"
+

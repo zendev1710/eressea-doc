@@ -1,3 +1,8 @@
+---
+alias:
+	name: 
+	text: 
+---
 # Puppy protection
 
 Generally, a faction's first report contains a message such as: "Your faction is immune to attacks for the next 3 weeks."

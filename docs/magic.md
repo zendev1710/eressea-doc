@@ -9,7 +9,8 @@ Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen
 
 ## The Study of Magic
 
-Jede Partei muss sich für eines der fünf [Magiegebiete] entscheiden: [Illaun], [Tybied], [Gwyrrd], [Cerddor] oder [Draig]. Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LEARN MAGIE "Magiegebiet"]. In Folge heißt der Befehl nur noch [LEARN MAGIE][LEARN MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten [LEARN MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!
+Each factoin must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], {[tybied-spells|Tybied]}, [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].
+Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LEARN MAGIE "Magiegebiet"]. In Folge heißt der Befehl nur noch [LEARN MAGIE][LEARN MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten [LEARN MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!
 
 Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.
 
@@ -293,17 +294,10 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
-Continue reading: [Magiegebiete].
-
-[Magiegebiete]: ./magic-schools.md "Magicgebiete"
+Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Illaun]: ./magic-school-illaun.md "Illaunzauber"
-[Tybied]: ./magic-school-tybied.md "Tybiedzauber"
-[Gwyrrd]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
-[Cerddor]: ./magic-school-cerddor.md "Cerddorzauber"
-[Draig]: ./magic-school-draig.md "Draigzauber"
 [LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md "LEARN"
 [Partei]: ./factions.md "Partei"
 [Akademie]: ./buildings-others.md "Andere Gebäude"

@@ -7,13 +7,15 @@ alias:
 
 **`GUARD`**`[NOT]`
 
-Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
+Units can guard their region. To do so, the unit must be [[armed]] with at least one [weapon] and possess the appropriate weapon skill.
+Ocean regions cannot be guarded.
 
-Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([`HELP GUARD`] oder [[cmd-contact]]), folgende Einschränkungen:
+Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [[alliances|alliiert]] sind ([[cmd-help|`HELP GUARD`]] oder [[cmd-contact]]), folgende Einschränkungen:
 
-- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[cmd-trade]] oder Bauern rekrutieren.
-- Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
-- Befinden sie sich auf einem Schiff, so können sie nicht [[cmd-work]]`,`[`UNTERHALTEN`]`,`[`ATTACKIEREN`] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[cmd-leave]] haben.
+- You can no longer collect taxes, mine raw materials, [trade] or recruit farmers in this region
+- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [trade] oder Bauern rekrutieren
+- Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt
+- Befinden sie sich auf einem Schiff, so können sie nicht [[cmd-work]], [[cmd-entertain]], [[cmd-attack]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[cmd-leave]] haben.
 
 Wenn die Einheit nicht gesehen wird, beispielsweise weil sie ein höheres Tarnungstalent hat als das beste Wahrnehmungstalent der bewachenden Partei in der Region ist, so gelten die ersten beiden Beschränkungen nicht.
 
@@ -25,33 +27,22 @@ Parteien, die mit *mindestens einer* bewachenden Partei alliiert sind, können t
 
 In der Runde, in der der `GUARD`-Befehl gegeben wurde, gelten all diese Beschränkungen allerdings noch nicht, denn die bewachende Einheit muss erst einmal herausfinden, wo fremde Einheiten überall Silber eintreiben könnten etc. Die bewachende Einheit wird sofort für alle anderen Einheiten in der Region sichtbar, egal wie hoch ihr Tarnungstalent ist.
 
-Mit `GUARD NOT` wird der Bewachungsstatus einer Einheit aufgelöst. Das passiert außerdem, wenn sich die Einheit fortbewegt. Einheiten mit dem Kampfstatus [COMBAT FLIEHE] können nicht bewachen und Einheiten, aus denen im Kampf alle überlebenden Personen fliehen, beenden ebenfalls das Bewachen.
+Mit `GUARD NOT` wird der Bewachungsstatus einer Einheit aufgelöst. Das passiert außerdem, wenn sich die Einheit fortbewegt. Einheiten mit dem Kampfstatus [[cmd-combat|COMBAT FLEE]] können nicht bewachen und Einheiten, aus denen im Kampf alle überlebenden Personen fliehen, beenden ebenfalls das Bewachen.
 
 Wenn eine Einheit durch eine Region reist, die von mindestens einer nicht verbündeten Partei bewacht wird, hängt die Chance, dass sie aufgehalten wird von mehreren Faktoren ab: Sie wird vergrößert durch die Anzahl der feindlichen Bewacher, den Regionstyp (es wird schwerer in Sümpfen, Gletschern, Bergen und Vulkanen), das Wahrnehmungstalent der feindlichen Bewacher, Amulette des Wahren Sehens, sowie die Größe der Burg des Regionsbesitzers, falls dieser nicht verbündet ist. Sie wird verringert durch die Anzahl der verbündeten Bewacher und das Tarnungstalent der Einheit, sowie Ringe der Unsichtbarkeit.
 
-Hinweis: [Monster] Einheiten der Partei (ii) gelten durch ihre Klauen, Zähne, Krallen und sonstige Extremitäten prinzipiell als bewaffnet, auch wenn sie keine sichtbare Waffe tragen. Dies gilt auch für von Spielern magisch beschworene Monster.
+Hinweis: [[monsters|Monster]] Einheiten der Partei (ii) gelten durch ihre Klauen, Zähne, Krallen und sonstige Extremitäten prinzipiell als bewaffnet, auch wenn sie keine sichtbare Waffe tragen. Dies gilt auch für von Spielern magisch beschworene Monster.
 
-In den [ersten Wochen] kann deine Partei noch nicht bewachen.
+In den [[puppy-protection|ersten Wochen]] kann deine Partei noch nicht bewachen.
 
 ## See also
 
-- [[cmd-help]][`HELP GUARD`]
-- [Allianz][alliiert]
-- [[cmd-contact]][`CONTACT`]
+- [[cmd-help|`HELP GUARD`]]
+- [[alliances]]
+- [[cmd-contact]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
-[Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
-[bewaffnet]: ./armed.md "Bewaffnet"
-[alliiert]: ./alliances.md "Allianz"
-[`HELP GUARD`]: ./cmd-help.md "HELP"
-[`CONTACT`]: ./cmd-contact.md "CONTACT"
-[HANDELN]: ./silver.md#trade "Trade"
-[`ARBEITEN`]: ./cmd-work.md "WORK"
-[`UNTERHALTEN`]: ./cmd-entertain.md "ENTERTAIN"
-[`ATTACKIEREN`]: ./cmd-attack.md "ATTACK"
-[`VERLASSEN`]: ./cmd-leave.md "LEAVE"
+[weapon]: ./war-tables.md#weapon-properties
+[trade]: ./silver.md#trade
 [Kampfende]: ./war.md#the-end "Kampfende"
-[COMBAT FLIEHE]: ./cmd-combat.md "COMBAT"
-[Monster]: ./monsters.md "Monster"
-[ersten Wochen]: ./puppy-protection.md "Welpenschutz"

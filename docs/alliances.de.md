@@ -25,7 +25,7 @@ Hebt die behindernden Funktionen von [[bef-bewache]] auf und dehnt die nützlich
 
 Außerdem dürfen alliierte Parteien eventuell nach langen Kämpfen noch lange Befehle ausführen (siehe [Kampfende]).
 
-Schließlich wird hiermit alliierten Parteien erlaubt, eigene Burgen und Schiffe zu [[bef-betreten|betreten]].
+Schließlich wird hiermit alliierten Parteien erlaubt, eigene Burgen und Schiffe zu [[bef-betrete|betreten]].
 
 HELFE PARTEITARNUNG  
 Wenn man eigene Einheiten mit [bef-tarne|TARNE PARTEI NUMMER xx] mit einer anderen Parteikennung versieht, können Parteien, denen man diesen Helfe-Status gibt, die echte Partei trotzdem erkennen.

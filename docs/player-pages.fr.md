@@ -23,7 +23,7 @@ Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene h
 ### Ehemalige Spieler und Bündnisse
 
 - [Imperium Romanum] Westliche 6. Welt.
-- [[cmd-kbc]]
+- [KBC]
 - [Transozeanische Liga] Südliche 8. Welt. vernichtet.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Spielerseiten&oldid=17009] -->
@@ -33,4 +33,5 @@ Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene h
 [Interdimensionale Tee- und Handelsgesellschaft GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
 [Zwerge von Brogars Clan]: http://www.cedrik.net/eressea/index.html
 [Imperium Romanum]: http://roma.ste-net.de/nuntius.php4
+[KBC]: http://www.vorlon.ruhr.de/kbc.html
 [Transozeanische Liga]: http://www.fietefietz.de/eressea/TOL/

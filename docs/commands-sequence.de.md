@@ -6,7 +6,7 @@ alias: befehlsreihenfolge
 Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle, die unter der selben Nummer stehen, werden zur gleichen Zeit ausgeführt oder die Reihenfolge spielt keine Rolle.
 
 1. neue Default-Befehle werden gesetzt
-2. [[bef-gruppe]], [MACHE TEMP]
+2. [[bef-gruppe]], [[bef-mache|MACHE TEMP]]
 3. [[bef-benenne]], [[bef-beschreibe]], [BEWACHE NICHT], [[bef-helfe]], [KÄMPFE], [[bef-kampfzauber]], [[bef-tarne]], [[bef-ursprung]], [[bef-zeige]]
 4. [[bef-banner]], [[bef-email]], [[bef-option]], [[bef-passwort]]
 5. [[bef-kontaktiere]]
@@ -31,7 +31,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 24. [[bef-zaubere]]
 25. [[bef-lehre]]
 26. [[bef-lerne]]
-27. [[bef-mache]][MACHE TEMP] \*
+27. [[bef-mache|MACHE TEMP]] \*
 28. [[bef-forsche]], [[bef-pflanze]], [[bef-spioniere]], [ZÜCHTE]
 29. [[bef-unterhalte]] \*
 30. [[bef-arbeite]] \*
@@ -42,7 +42,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 35. Schiffe mit mangelnder Besatzung nehmen Schäden
 36. BETRETE; 4. Versuch
 37. [[bef-nach]] und [[bef-route]], dabei wird auch [[bef-fahre]] und [[bef-transportiere]] ausgeführt und Verfolger folgen
-38. [[bef-bewache]][BEWACHE NICHT] an; das geht nur, wenn die Einheit sich nicht bewegt hat
+38. [[bef-bewache|BEWACHE NICHT]] an; das geht nur, wenn die Einheit sich nicht bewegt hat
 39. Schiffe treiben auf hoher See
 40. [[bef-default]]
 41. leere Einheiten werden beseitigt
@@ -80,66 +80,18 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 - [Befehle]
 - [Kurzbeschreibung]
 
-<!-- exclude E3 from documentation -->
-<!-- - [Befehlsreihenfolge (E3)] -->
-
 Weiterlesen: [Kurzbeschreibung].
 
 [Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
 
-[bef-gruppe]: ./cmd-group.md "GRUPPE"
-[MACHE TEMP]: ./cmd-make.md "MACHE"
-[bef-benenne]: ./cmd-name.md "BENENNE"
-[bef-beschreibe]: ./cmd-describe.md "BESCHREIBE"
 [BEWACHE NICHT]: ./cmd-guard.md "BEWACHE"
-[bef-helfe]: ./cmd-help.md "HELFE"
 [KÄMPFE]: ./cmd-combat.md "KÄMPFE"
-[bef-kampfzauber]: ./cmd-combatspell.md "KAMPFZAUBER"
-[bef-tarne]: ./cmd-hide.md "TARNE"
-[bef-ursprung]: ./cmd-origin.md "URSPRUNG"
-[bef-zeige]: ./cmd-show.md "ZEIGE"
-[bef-banner]: ./cmd-banner.md "BANNER"
-[bef-email]: ./cmd-email.md "EMAIL"
-[bef-option]: ./cmd-option.md "OPTION"
-[bef-passwort]: ./cmd-password.md "PASSWORT"
-[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
-[bef-botschaft]: ./cmd-message.md "BOTSCHAFT"
-[bef-betrete]: ./cmd-enter.md "BETRETE"
-[bef-benutze]: ./cmd-use.md "BENUTZE"
-[bef-verlasse]: ./cmd-leave.md "VERLASSE"
-[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
-[bef-reserviere]: ./cmd-reserve.md "RESERVIERE"
-[bef-beanspruche]: ./cmd-claim.md "BEANSPRUCHE"
 [GIB KOMMANDO]: ./cmd-give.md "GIB"
-[bef-vergiss]: ./cmd-forget.md "VERGISS"
-[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
 [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[bef-folge]: ./cmd-follow.md "FOLGE"
-[BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
 [BEZAHLE NICHT]: ./cmd-pay-not.md "BEZAHLE"
-[bef-stirb]: ./cmd-quit.md "STIRB"
-[bef-zaubere]: ./cmd-cast.md "ZAUBERE"
-[bef-lehre]: ./cmd-teach.md "LEHRE"
-[bef-lerne]: ./cmd-learn.md "LERNE"
-[bef-forsche]: ./cmd-research.md "FORSCHE"
-[bef-pflanze]: ./cmd-plant.md "PFLANZE"
-[bef-spioniere]: ./cmd-spy.md "SPIONIERE"
 [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
-[bef-unterhalte]: ./cmd-entertain.md "UNTERHALTE"
-[bef-arbeite]: ./cmd-work.md "ARBEITE"
-[bef-treibe]: ./cmd-tax.md "TREIBE"
-[bef-kaufe]: ./cmd-buy.md "KAUFE"
-[bef-verkaufe]: ./cmd-sell.md "VERKAUFE"
-[bef-beklaue]: ./camouflage.md "BEKLAUE"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
-[bef-transportiere]: ./cmd-carry.md "TRANSPORTIERE"
-[bef-default]: ./cmd-default.md "DEFAULT"
-[bef-sortiere]: ./cmd-sort.md "SORTIERE"
-[bef-nummer]: ./cmd-number.md "NUMMER"
 [Erläuterungen]: #erläuterungen
 [Materialpool]: ./items-pool.md "Materialpool"
 [Befehle]: ./commands.md "Befehle"

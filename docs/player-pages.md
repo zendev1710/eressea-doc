@@ -25,7 +25,7 @@ Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene h
 ### Ehemalige Spieler und Bündnisse
 
 - [Imperium Romanum] Westliche 6. Welt.
-- [[cmd-kbc]]
+- [KBC]
 - [Transozeanische Liga] Südliche 8. Welt. vernichtet.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Spielerseiten&oldid=17009] -->

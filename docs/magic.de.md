@@ -4,7 +4,7 @@ Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen
 
 ## Das Studium der Magie
 
-Jede Partei muss sich für eines der fünf [Magiegebiete] entscheiden: [Illaun], [Tybied], [Gwyrrd], [Cerddor] oder [Draig]. Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LERNE MAGIE "Magiegebiet"]. In Folge heißt der Befehl nur noch [LERNE MAGIE][LERNE MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten [LERNE MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!
+Jede Partei muss sich für eines der fünf [[magiegebiete]] entscheiden: [Illaun], [Tybied], [Gwyrrd], [Cerddor] oder [Draig]. Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LERNE MAGIE "Magiegebiet"]. In Folge heißt der Befehl nur noch [LERNE MAGIE][LERNE MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten [LERNE MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!
 
 Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.
 
@@ -290,9 +290,7 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
-Weiterlesen: [Magiegebiete].
-
-[Magiegebiete]: ./magic-schools.md "Magicgebiete"
+Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 

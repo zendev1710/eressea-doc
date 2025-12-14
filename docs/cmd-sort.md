@@ -25,5 +25,4 @@ Sorting takes place at the very end of the round, after movement.
 Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.
 
 [Zugvorlage]: ./commands.md "Orders"
-[`GIVE `*`unit-id`*` COMMAND`]: ./cmd-give.md "GIVE"
-[has an impact]: ./tips-and-tricks
+[has an impact]: ./tips-and-tricks.md#échapper-à-la-mort-par-famine

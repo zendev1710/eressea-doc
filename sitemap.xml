@@ -1049,6 +1049,14 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/mountain-guard/"/>
     </url>
     <url>
+        <loc>https://zendev1710.github.io/eressea-doc/move-template/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/move-template/"/>
+    </url>
+    <url>
         <loc>https://zendev1710.github.io/eressea-doc/negative-weight-bag/</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>daily</changefreq>
@@ -2481,6 +2489,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/mountain-guard/"/>
     </url>
     <url>
+        <loc>https://zendev1710.github.io/eressea-doc/fr/move-template/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/move-template/"/>
+    </url>
+    <url>
         <loc>https://zendev1710.github.io/eressea-doc/fr/negative-weight-bag/</loc>
         <lastmod>2025-12-14</lastmod>
         <changefreq>daily</changefreq>
@@ -3911,6 +3927,14 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/mountain-guard/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/mountain-guard/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/mountain-guard/"/>
+    </url>
+    <url>
+        <loc>https://zendev1710.github.io/eressea-doc/de/move-template/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/move-template/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/move-template/"/>
     </url>
     <url>
         <loc>https://zendev1710.github.io/eressea-doc/de/negative-weight-bag/</loc>

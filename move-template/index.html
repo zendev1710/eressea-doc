@@ -12,21 +12,17 @@
         <meta name="author" content="zendev1710">
       
       
-        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/cmd-combat/">
+        <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/move-template/">
       
       
-        <link rel="prev" href="../cmd-claim/">
-      
-      
-        <link rel="next" href="../cmd-combatspell/">
       
       
         
           <link rel="alternate" href="./" hreflang="en">
         
-          <link rel="alternate" href="../fr/cmd-combat/" hreflang="fr">
+          <link rel="alternate" href="../fr/move-template/" hreflang="fr">
         
-          <link rel="alternate" href="../de/cmd-combat/" hreflang="de">
+          <link rel="alternate" href="../de/move-template/" hreflang="de">
         
       
       
@@ -35,7 +31,7 @@
     
     
       
-        <title>COMBAT - Eressea</title>
+        <title>Move template - Eressea</title>
       
     
     
@@ -88,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#combat" class="md-skip">
+        <a href="#move-template" class="md-skip">
           Skip to content
         </a>
       
@@ -123,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              COMBAT
+              Move template
             
           </span>
         </div>
@@ -198,13 +194,13 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../fr/cmd-combat/" hreflang="fr" class="md-select__link">
+            <a href="../fr/move-template/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../de/cmd-combat/" hreflang="de" class="md-select__link">
+            <a href="../de/move-template/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
@@ -463,12 +459,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../commands/" class="md-tabs__link">
           
   
@@ -2097,10 +2091,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -2244,22 +2236,19 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
@@ -2277,7 +2266,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2572,19 +2561,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../cmd-combat/" class="md-nav__link">
         
   
   
@@ -2600,7 +2580,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -5365,46 +5344,6 @@
   
 
 
-  <nav class="md-path" aria-label="Navigation" >
-    <ol class="md-path__list">
-      
-        
-  
-  
-    <li class="md-path__item">
-      <a href=".." class="md-path__link">
-        
-  <span class="md-ellipsis">
-    Home
-  </span>
-
-      </a>
-    </li>
-  
-
-      
-      
-        
-  
-  
-    
-    
-      <li class="md-path__item">
-        <a href="../commands/" class="md-path__link">
-          
-  <span class="md-ellipsis">
-    Orders
-  </span>
-
-        </a>
-      </li>
-    
-  
-
-      
-    </ol>
-  </nav>
-
               
               <article class="md-content__inner md-typeset">
                 
@@ -5415,33 +5354,8 @@
   
 
 
-<h1 id="combat">COMBAT<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h1>
-<p><strong><code>COMBAT</code></strong><code>VORNE</code><br />
-<strong><code>COMBAT</code></strong><code>AGGRESSIV</code><br />
-<strong><code>COMBAT</code></strong><code>HINTEN</code><br />
-<strong><code>COMBAT</code></strong><code>DEFENSIV</code><br />
-<strong><code>COMBAT</code></strong><code>NOT</code><br />
-<strong><code>COMBAT</code></strong><code>FLIEHE</code><br />
-<strong><code>COMBAT</code></strong><code>HELP [NOT]</code></p>
-<p>Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel <a href="../war/">Vom Kriege</a> auch den Abschnitt <a href="../war/#combat-rows" title="Schlacht">Kampfreihen</a>).</p>
-<ul>
-<li><code>COMBAT AGGRESSIV</code>: Im Kampf steht die Einheit an der Front und wird nie fliehen, sondern bis zum Tode kämpfen. Dies verwendet man mit Vorteil, wenn es wirklich auf das letzte bisschen Offensivkraft ankommt.</li>
-<li><code>COMBAT VORNE</code>: Im Kampf steht die Einheit an der Front. Sie wird versuchen zu fliehen, wenn sie weniger oder gleich 20% ihrer Trefferpunkte hat. Dies verwendet man mit Vorteil für gute Schwertkämpfer. Kann auch mit <code>COMBAT</code> gesetzt werden.</li>
-<li><code>COMBAT HINTEN</code>: Die Einheit kämpft in der zweiten Reihe. Ist die Front aufgerieben, werden diese Einheiten trotzdem in den Nahkampf hineingezogen! Dies verwendet man mit Vorteil für Schützen. Die Einheit versucht zu fliehen, wenn sie weniger oder gleich 20% ihrer Trefferpunkte hat.</li>
-<li><code>COMBAT DEFENSIV</code>: Wie <code>COMBAT HINTEN</code>, aber die Einheit wird schon fliehen, wenn sie noch 90% ihrer Trefferpunkte hat. Dies verwendet man mit Vorteil für Magier.</li>
-<li><code>COMBAT NOT</code>: Die Einheit kämpft nur noch dann mit, wenn sie selber das Ziel eines feindlichen <a href="../cmd-attack/">ATTACK</a>-Befehls ist. Dies setzt man mit Vorteil für Einheiten ein, die sich aus dem Kampf heraushalten, aber nicht fliehen sollen, weil sie z.B. ein Gebäude besetzt halten sollen. Die Einheit versucht zu fliehen, wenn sie noch 90% ihrer Trefferpunkte hat.  </li>
-<li><code>COMBAT FLIEHE</code>: Wird eine fluchtbereite Einheit in einen Kampf verwickelt, versucht sie vor jeder Kampfrunde zu fliehen. Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt <a href="../war/#fleeing" title="Fleeing">Flucht</a> im Kapitel Kampf. Diesen Kampfstatus setzt man mit Vorteil für fast alle "Zivilisten" ein. Flieht aus einer Einheit auch nur eine Person erfolgreich aus einem Kampf, verlässt diese automatisch Gebäude oder an Land liegende Schiffe, in denen sie sich befindet. Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist. Einheiten mit diesem Kampfstatus können auch nicht <a href="../cmd-attack/">ATTACK</a> oder <a href="../cmd-guard/">GUARD</a>. Setzt eine bewachende Einheit COMBAT FLIEHE, wird das Bewachen sofort aufgehoben, mit entsprechenden Konsequenzen. Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a>, <a href="../cmd-follow/">FOLLOW</a>).</li>
-</ul>
-<p><em>Achtung</em>! Einheiten mit COMBAT FLIEHE oder COMBAT NOT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.
-Das heißt, Magier zaubern auch. Prä- und Postkampfzauber werden (derzeit) selbst dann gezaubert, wenn die ersten Reihen nicht überrannt werden.
-Soll dies verhindert werden, kann man die <a href="./">Kampfzauber</a> deaktivieren.</p>
-<p>Katapulte zu bedienen ist eine Aufgabe, die viel Vorbereitung erfordert, daher werden Einheiten mit dem Kampfstatus COMBAT NOT und COMBAT FLIEHE keine Munition verschießen, aber zu anderen Waffen greifen, so sie welche dabei haben und beherrschen.</p>
-<p><em>Achtung</em>! Personen mit niedrigen Trefferpunkten, die nicht <code>COMBAT FLIEHE</code> gesetzt haben, fliehen erst dann, wenn sie im Kampf auch einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Personen mit <code>COMBAT FLIEHE</code> fliehen natürlich schon vorher.</p>
-<ul>
-<li><code>COMBAT HELP</code>: Einer Einheit mit <code>COMBAT HELP NOT</code> wird im Kampf nicht geholfen, weder von Einheiten der eigenen Partei noch von Verbündeten. Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf gezogen.Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.</li>
-</ul>
-<p>Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird. Weitere Details unter <a href="../cmd-help/">HELP</a> und in den Kapiteln [Kampf] <a href="../war/">Vom Kriege</a> und <a href="../alliances/">Allianz</a>.</p>
-<!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
+<h1 id="move-template">Move template<a class="headerlink" href="#move-template" title="Permanent link">&para;</a></h1>
+<!-- TODO: TO BE WRITTEN -->
 
 
 

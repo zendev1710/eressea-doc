@@ -1,3 +1,6 @@
+---
+alias: parteien
+---
 # Parteien
 
 Spielende führen sogenannte **Parteien** auf Eressea. Eine Partei besteht zunächst aus einer, später dann mitunter aus sehr vielen Einheiten. Diese Einheiten bestehen aus einer, einigen wenigen oder gar Tausenden von Personen der [Rasse] der Partei. Jede Einheit kann beliebig viele Gegenstände und Silber besitzen, und ebenso alle [Talente] von Eressea erlernen. Den Einheiten kannst du jede Runde [Befehle] geben, welche sie so gut wie möglich ausführen.
@@ -35,11 +38,11 @@ Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report 
 
 Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten kannst du im Kapital [Krieg] im Abschnitt [Kampfreihen] sowie in der Erklärung zum Befehl [KÄMPFE] nachlesen.
 
-Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [`BEWACHE`]). In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
+Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [[bef-bewache]]). In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
 
 Schlussendlich kann eine Einheit durch einen [Kampf][Krieg] oder durch [Hunger] verwundet sein. In diesem Fall steht bei der Einheit noch "erschöpft", "verwundet" oder gar "schwer verwundet".
 
-Die nächste Einheit hat die Nummer 2ow, besteht aus einem [Zwergen] und hat ein Pferd und einen Silberbeutel. Das heißt, dass sie mehr als 500 Silber bei sich hat. Hätte sie gar mehr als 5000 Silber bei sich, sähe man eine Silberkassette. Hätte sie nur 500 Silber oder weniger, würde man bei einer fremden Einheit gar nichts sehen. Welcher Partei die fremde Einheit angehört, kann man nicht sehen, denn sie hat sich [parteigetarnt], verbirgt also ihre Parteizugehörigkeit. Dies ist bei Botschaftern natürlich keine besonders kluge Wahl, da die anderen Spielenden so auch nicht an die E-Mail-Adresse der Partei kommen. Du kannst einer solchen Einheit höchstens eine [`BOTSCHAFT`] zukommen lassen.
+Die nächste Einheit hat die Nummer 2ow, besteht aus einem [Zwergen] und hat ein Pferd und einen Silberbeutel. Das heißt, dass sie mehr als 500 Silber bei sich hat. Hätte sie gar mehr als 5000 Silber bei sich, sähe man eine Silberkassette. Hätte sie nur 500 Silber oder weniger, würde man bei einer fremden Einheit gar nichts sehen. Welcher Partei die fremde Einheit angehört, kann man nicht sehen, denn sie hat sich [parteigetarnt], verbirgt also ihre Parteizugehörigkeit. Dies ist bei Botschaftern natürlich keine besonders kluge Wahl, da die anderen Spielenden so auch nicht an die E-Mail-Adresse der Partei kommen. Du kannst einer solchen Einheit höchstens eine [[bef-botschaft]] zukommen lassen.
 
 Schließlich siehst du ein paar befreundete [Trolle], die Juwelen geladen haben. Neben [Menschen], [Zwergen] und [Trollen] gibt es noch viele andere Rassen in Eressea. Sie werden [diesem Kapitel][Rasse] näher behandelt.
 
@@ -81,11 +84,11 @@ Weiterlesen: [Rassen].
 [Krieg]: ./war.md "Krieg"
 [Kampfreihen]: ./war.md#die-schlacht "Schlacht"
 [KÄMPFE]: ./cmd-combat.md "KÄMPFE"
-[`BEWACHE`]: ./cmd-guard.md "BEWACHE"
+[bef-bewache]: ./cmd-guard.md "BEWACHE"
 [Hunger]: ./silver.md#hunger "Hunger"
 [Zwergen]: ./races.md#swerg "Zwerg"
 [parteigetarnt]: ./cmd-hide.md "TARNE"
-[`BOTSCHAFT`]: ./cmd-message.md "BOTSCHAFT"
+[bef-botschaft]: ./cmd-message.md "BOTSCHAFT"
 [Trolle]: ./races.md#trolle "Trolle"
 [Menschen]: ./races.md##menschen "Mensch"
 [Trollen]: ./races.md#trolle "Troll"

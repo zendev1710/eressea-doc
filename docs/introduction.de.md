@@ -1,3 +1,6 @@
+---
+alias: einleitung
+---
 # Einleitung
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
@@ -24,7 +27,7 @@ Es gibt kein eindeutiges Spielziel in Eressea, kein Ende, welches es zu erreiche
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
 ![Eressea orders](./assets/images/orders-example.jpg "Eressea orders")
 
-In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug besteht aus [Befehlen], die die Einheiten deiner Partei in der Welt so gut wie möglich auszuführen. Ein Zug ähnelt einem Computerprogramm, damit der *Server*, das Computerprogramm, das den Zustand der Welt kennt, ihn und die Züge aller anderen Spielenden auswerten und den neuen Zustand der Welt berechnen kann. Der Zugrhythmus liegt bei einer Woche, ZAT (Zug-Abgabe-Termin) ist jeweils Samstag Abend 21:00 Uhr (CET). Als Antwort auf deinen Zug bekommst du einen *Report*, der den Zustand der Welt enthält, soweit er deiner Partei bekannt ist. Die Auswertung besteht aus mehreren Teilen: Einem *[NR]* (Normalreport), der den Report in einer für Menschen gut lesbaren Form darstellt. Einem *[CR]* (Computerreport), der die gleichen Informationen, aber in einer computerlesbaren Form darstellt, mit der [Hilfsprogramme] gut zurechtkommen. Und einer *[Zugvorlage]*, die als Schablone für deinen nächsten Zug dienen kann. Außerdem kann es noch einen [Wochenbericht] geben, der ein paar Statistiken über den Zustand des Spiels enthält. Und manchmal den [Xontormia Express], eine Zeitung, die Beiträge von Spielenden aus Sicht der Spielwelt enthält.
+In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug besteht aus [Befehlen], die die Einheiten deiner Partei in der Welt so gut wie möglich auszuführen. Ein Zug ähnelt einem Computerprogramm, damit der *Server*, das Computerprogramm, das den Zustand der Welt kennt, ihn und die Züge aller anderen Spielenden auswerten und den neuen Zustand der Welt berechnen kann. Der Zugrhythmus liegt bei einer Woche, ZAT (Zug-Abgabe-Termin) ist jeweils Samstag Abend 21:00 Uhr (CET). Als Antwort auf deinen Zug bekommst du einen *Report*, der den Zustand der Welt enthält, soweit er deiner Partei bekannt ist. Die Auswertung besteht aus mehreren Teilen: Einem *[[bef-nr]]* (Normalreport), der den Report in einer für Menschen gut lesbaren Form darstellt. Einem *[[bef-cr]]* (Computerreport), der die gleichen Informationen, aber in einer computerlesbaren Form darstellt, mit der [Hilfsprogramme] gut zurechtkommen. Und einer *[Zugvorlage]*, die als Schablone für deinen nächsten Zug dienen kann. Außerdem kann es noch einen [Wochenbericht] geben, der ein paar Statistiken über den Zustand des Spiels enthält. Und manchmal den [Xontormia Express], eine Zeitung, die Beiträge von Spielenden aus Sicht der Spielwelt enthält.
 
 Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move Received). Bei 4 NMR in Folge wird die Partei automatisch aus dem Spiel genommen, also wird beim 5. NMR die Partei gelöscht.
 
@@ -43,8 +46,8 @@ Weiterlesen: [Welt].
 [Monster]: ./monsters.md "Monster"
 [Krieg]: ./war.md "Krieg"
 [Befehlen]: ./commands.md "Befehle"
-[NR]: ./reports.md#nr "NR (to be documented)"
-[CR]: ./reports.md#cr "CR (to be documented)"
+[bef-nr]: ./reports.md#nr "NR (to be documented)"
+[bef-cr]: ./reports.md#cr "CR (to be documented)"
 [Hilfsprogramme]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [Zugvorlage]: ./commands.md "Befehl"
 [Wochenbericht]: ./weekly-report.md "Wochenbericht"

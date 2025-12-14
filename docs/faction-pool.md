@@ -5,9 +5,9 @@ alias:
 ---
 # Faction pool
 
-Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [CLAIM] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.
+Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [[cmd-claim]] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.
 
-Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit einen bestimmten Gegenstand verwenden soll. Gegenstände im Parteipool haben in den meisten Fällen besondere magische Kräfte. Mittels [SHOW] erhältst Informationen darüber. Dies funktioniert auch, wenn der Gegenstand noch im Parteipool liegt. Diese Informationen sind jedoch oft nur vage und in der Regel musst du die Wirkung selbst erkunden.
+Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit einen bestimmten Gegenstand verwenden soll. Gegenstände im Parteipool haben in den meisten Fällen besondere magische Kräfte. Mittels [[cmd-show]] erhältst Informationen darüber. Dies funktioniert auch, wenn der Gegenstand noch im Parteipool liegt. Diese Informationen sind jedoch oft nur vage und in der Regel musst du die Wirkung selbst erkunden.
 
 Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
 

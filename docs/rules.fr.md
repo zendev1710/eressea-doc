@@ -1,3 +1,6 @@
+---
+alias: regles
+---
 # Règles
 
 Ceci est le guide du jeu *Eressea*. Eressea se joue exclusivement par e-mail. Ceux qui n'ont pas d'adresse e-mail ne peuvent malheureusement pas jouer à Eressea. Eressea est la version allemande d'[Atlantis], un jeu développé en 1993 par Russell Wallace. Eressea fonctionne sans interruption depuis 1996. Dans Eressea, tu prends la direction d'une *faction* et tu joues avec de nombreuses autres factions dirigées par d'autres personnes dans le même monde fantastique.

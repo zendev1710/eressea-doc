@@ -13,7 +13,7 @@ Camouflaged units can be detected using the **Perception** skill. If your factio
 
 ## Counter the guard
 
-For successfully disguised units, the restrictions of [GUARD] do not apply. They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.
+For successfully disguised units, the restrictions of [[cmd-guard]] do not apply. They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.
 
 ## Increase chance of escape
 
@@ -21,7 +21,7 @@ The standard escape chance of a unit in [combat] is 25% (halflings 50%). Each le
 
 ## Theft of Silver
 
-Successful stealers can steal silver from other units using the [`STEAL`] command. The highest Perception skill of the targeted party in the region determines the amount stolen. For each skill level difference, each thief steals 50 silver. The silver is **always** stolen from the entire silver pool of the targeted party in the region. The targeted party receives a notification that they have been robbed, but not by whom. If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt. If the stealth is too poor, the targeted party receives a notification with the names of the thieves.
+Successful stealers can steal silver from other units using the [[cmd-steal]] command. The highest Perception skill of the targeted party in the region determines the amount stolen. For each skill level difference, each thief steals 50 silver. The silver is **always** stolen from the entire silver pool of the targeted party in the region. The targeted party receives a notification that they have been robbed, but not by whom. If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt. If the stealth is too poor, the targeted party receives a notification with the names of the thieves.
 
 Goblins, provided they have learned at least level 4 of stealth, always steal at least 50 silver, even if their stealth skill is lower than their Perception skill. Such theft is, of course, noticeable and therefore only makes sense under certain circumstances. It is said that goblin armies have even dealt the enemy a decisive blow by depriving them of food.
 
@@ -45,7 +45,7 @@ In addition to these passive applications of camouflage, one can of course use w
 
 ## See also
 
-- [GUARD][Bewacht]
+- [[cmd-guard]][Bewacht]
 - [revenue]
 
 Continue reading: [Travel].

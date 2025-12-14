@@ -1,0 +1,18 @@
+---
+alias: bef-piraterie
+---
+# PIRATERIE
+
+**`PIRATERIE`**[<sup>`L`</sup>]`[`*`partei-nr`*`[`*`partei-nr`*`...]]`
+
+Mit diesem Befehl legt sich der Kapitän eines Schiffes automatisch auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Er wird sich dann automatisch dorthin begeben. Werden Parteinummern angegeben, wird er nur auf Schiffe der angegebenen Parteien reagieren. Wird keine Parteinummer angegeben, reagiert er auf alle Schiffe von Parteien, zu denen die Partei des Kapitäns kein [[bef-helfe]]`KÄMPFE` gesetzt hat.
+
+## Siehe auch
+
+- [Piraterie]
+
+<!-- From [https://wiki.eressea.de/index.php?title=PIRATERIE&oldid=16789] -->
+
+[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[bef-helfe]: ./cmd-help.md "HELFE"
+[Piraterie]: ./war.md#piraterie "Piraterie"

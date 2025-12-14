@@ -32,13 +32,13 @@ Chaque unité possède un numéro unique (ID) attribué par le système et utili
 
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport. Elle est composée d'un humain de sa propre faction (non affiché), possède 20 Silver et peut se battre avec melee : dans cette compétence, l'unité est de niveau 1. Il maîtrise [taxation] au niveau 2 (pour plus de détails sur les [compétences] voir le chapitre correspondant). Comme vous pouvez le voir, Konrad a également une épée (sword). "`TAX`" est ce qu'on appelle un ordre par [défaut]. Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes. Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un. Ils ne seront listés que dans le CR ou dans les modèles d'ordres. Plus d'informations à ce sujet dans le chapitre [ordres].
 
-Les unités ont un "combat status" (posture en combat), qui dans ce cas est "front" (devant). Les détails sont expliqués dans le chapitre sur la [guerre] dans la section sur [lignes de combat] et l'explication de l'ordre [`COMBAT`]).
+Les unités ont un "combat status" (posture en combat), qui dans ce cas est "front" (devant). Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat] et l'explication de l'ordre [[cmd-combat]]).
 
-Une unité peut garder une région (pour plus de détails sur les conséquences, voir [`GUARD`]). Cela sera noté par "guards the region" dans le rapport.
+Une unité peut garder une région (pour plus de détails sur les conséquences, voir [[cmd-guard]]). Cela sera noté par "guards the region" dans le rapport.
 
-Enfin, une unité peut être blessée lors d'un [combat][guerre] ou d'une [famine]. Elle sera notée "exhausted"(épuisée), "wounded"(blessée), voire "badly wounded"(gravement blessée).
+Enfin, une unité peut être blessée lors d'un [[guerre|combat]] ou d'une [famine]. Elle sera notée "exhausted"(épuisée), "wounded"(blessée), voire "badly wounded"(gravement blessée).
 
-L'unité suivante porte le numéro 2ow, est composée d'un nain, d'un cheval et d'un sac de pièces. Cela signifie qu'elle possède au moins 500 Silver. Si elle avait plus de 5000 Silver, vous verriez un "coffre de Silver". Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient. Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction. La seule chose que vous pouvez faire est de lui envoyer un [`MESSAGE`].
+L'unité suivante porte le numéro 2ow, est composée d'un nain, d'un cheval et d'un sac de pièces. Cela signifie qu'elle possède au moins 500 Silver. Si elle avait plus de 5000 Silver, vous verriez un "coffre de Silver". Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient. Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction. La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
 Enfin, des alliés [trolls] transportent des gems (joyaux). En plus des [humains], [nains], et [trolls][1], il y a beaucoup d'autres races en Eressea. Elles sont décrites dans [ce chapitre][race].
 
@@ -76,13 +76,9 @@ Poursuivre la lecture : [races].
 [l'argent]: ./silver.md#ausgaben "Ausgaben"
 [taxation]: ./cmd-tax.md "TAX"
 [défaut]: ./cmd-default.md "DEFAULT"
-[guerre]: ./war.md "Guerre"
 [lignes de combat]: ./war.md#die-schlacht "Schlacht"
-[`COMBAT`]: ./cmd-combat.md "COMBAT"
-[`GUARD`]: ./cmd-guard.md "GUARD"
 [famine]: ./silver.md#hunger "Hunger"
 [masquée]: ./cmd-hide.md "HIDE"
-[`MESSAGE`]: ./cmd-message.md "MESSAGE"
 [trolls]: ./races.md#trolle "Trolle"
 [humains]: ./races.md##menschen "Mensch"
 [nains]: ./races.md#nains "Zwerg"

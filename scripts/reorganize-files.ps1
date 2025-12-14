@@ -9,7 +9,7 @@ $cmdFiles = @(
     'cmd-make', 'cmd-message', 'cmd-move', 'cmd-name', 'cmd-next', 'cmd-number',
     'cmd-option', 'cmd-origin', 'cmd-password', 'cmd-pay-not', 'cmd-piracy', 'cmd-plant',
     'cmd-prefix', 'cmd-promote', 'cmd-quit', 'cmd-recruit', 'cmd-region', 'cmd-research',
-    'cmd-reserve', 'cmd-ride', 'cmd-route', 'cmd-sell', 'cmd-semicolon', 'cmd-show',
+    'cmd-reserve', 'cmd-ride', 'cmd-route', 'cmd-sell', 'cmd-comment', 'cmd-show',
     'cmd-sort', 'cmd-spy', 'cmd-steal', 'cmd-tax', 'cmd-teach', 'cmd-unit', 'cmd-use', 'cmd-work'
 )
 

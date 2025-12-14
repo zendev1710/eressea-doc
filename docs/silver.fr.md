@@ -1,4 +1,7 @@
-# L'argent
+---
+alias: argent
+---
+# Argent
 
 L'argent mène le monde - c'est aussi le cas dans Eressea. Il y a plusieurs façons d'en obtenir : [travailler], [divertir], [collecter les impôts] ou [commercer].
 
@@ -6,7 +9,7 @@ Le travail (work) est plus une sorte de palliatif, les unités qui travaillent g
 
 L'argent a son propre poids : 100 silver équivalent à une unité de poids. Lors du calcul du poids, il est courant d'arrondir à l'unité supérieure ; une seule pièce peut surcharger.
 
-Comme les personnes (de la plupart des [Races]) peuvent porter 5,4 UW/GE, elles peuvent transporter jusqu'à 540 silvers; lorsqu'elles en portent 541 une seule personne est surchargée. Un bateau (capacité de 50 UW/GE) par exemple, peut transporter une personne (10 GE dans la plupart des cas) avec 4000 argent ; 4001 pièces serait une surcharge.
+Comme les personnes (de la plupart des [Races]) peuvent porter 5,4 UW/kg, elles peuvent transporter jusqu'à 540 silvers; lorsqu'elles en portent 541 une seule personne est surchargée. Un bateau (capacité de 50 UW/kg) par exemple, peut transporter une personne (10 kg dans la plupart des cas) avec 4000 argent ; 4001 pièces serait une surcharge.
 
 ## Dépenses
 
@@ -53,17 +56,17 @@ Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivan
 
 ### Travail
 
-Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir la commande [`WORK`][travailler]`)`. Cependant, plus les forêts sont denses dans une région, moins il y a de surface cultivable, et moins les paysans (et aussi les unités de joueurs) peuvent travailler : par arbre, huit paysans ou joueurs ne peuvent plus travailler et chaque pousse d'arbre occupe 4 emplois. Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [WORK]).
+Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir la commande [[cmd-work]][travailler]`)`. Cependant, plus les forêts sont denses dans une région, moins il y a de surface cultivable, et moins les paysans (et aussi les unités de joueurs) peuvent travailler : par arbre, huit paysans ou joueurs ne peuvent plus travailler et chaque pousse d'arbre occupe 4 emplois. Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [[cmd-work]]).
 
 Un paysan gagne normalement 11 Silver par tour. Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce] tableau). Par exemple, si une citadelle est construite dans une plaine et que la forêt est coupée, 10000 paysans peuvent se nourrir en un tour et 60000 Silver supplémentaires sont ajoutés aux réserves de la région.
 
-Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires. Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [`WORK`][WORK].
+Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires. Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [[cmd-work]][WORK].
 
 Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
 
 ### Collecter les impôts
 
-Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [`TAX`][collecter les impôts] par personne et par niveau de compétence. Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.
+Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax]][collecter les impôts] par personne et par niveau de compétence. Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.
 
 Si le nombre de paysans est près du maximum de population, presque toutes les réserves de silver de la région seront utilisées par les paysans, de sorte qu'ils n'auront plus de Silver "à disposition" pour les impôts. Les impôts pourront tout de même être collectés (à hauteur de la réserve de la région), mais les paysans non approvisionnés mourront de faim (et donc les gains n'augmenteront pas non plus ...). C'est pour cela qu'il est judicieux de construire un château, car cela permet d'augmenter le salaire de base : avec 12 Silver au lieu de 11, 2000 paysans gagnent 2000 Silver de plus par tour !
 
@@ -71,7 +74,7 @@ Garder empêche la collecte des taxes (sauf HELP).
 
 ### Divertissement (Entertain)
 
-L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans). Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment). Les statistiques de la région indiquent également ce montant. Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [`ENTERTAIN`][divertir], si les paysans ont suffisamment d'argent à disposition.
+L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans). Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment). Les statistiques de la région indiquent également ce montant. Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [[cmd-entertain]][divertir], si les paysans ont suffisamment d'argent à disposition.
 
 ### Exemples de possibilités de rémunération
 
@@ -94,7 +97,7 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 
 ### Le Vol : la méthode malhonnête
 
-Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol. Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [`STEAL`].
+Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol. Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal]].
 
 Si la compétence [Stealth] du voleur est supérieur à la [perception] de la meilleure unité de la faction volée dans la région, il vole 50 Silver par point de différence de compétences.
 
@@ -104,7 +107,7 @@ Il vaut la peine de lire également le chapitre sur [stealth] à ce sujet.
 
 Dans chaque région, les paysans fabriquent un produit de luxe. Ce produit peut leur être acheté. Dans toutes les régions qui ne produisent pas ce bien, il existe une demande toujours croissante pour ces produits. Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.
 
-Pour faire du commerce, il faut avoir le talent Trade. Une personne (or a unit) peut acheter ou/et vendre au maximum 10 produits de luxe par niveau de talent. voir [BUY] et [SELL]. Les quantités respectives de biens échangés sont totalement arbitraires. Par exemple, une unité composée d'une personne avec un talent de niveau 4 en TRADE peut acheter 20 Gems et vendre 12 Silk et 8 Baum par tour.
+Pour faire du commerce, il faut avoir le talent Trade. Une personne (or a unit) peut acheter ou/et vendre au maximum 10 produits de luxe par niveau de talent. voir [[cmd-buy]] et [[cmd-sell]]. Les quantités respectives de biens échangés sont totalement arbitraires. Par exemple, une unité composée d'une personne avec un talent de niveau 4 en TRADE peut acheter 20 Gems et vendre 12 Silk et 8 Baum par tour.
 
 De plus, il est nécessaire pour faire du commerce qu'il y ait dans la région un château au moins la taille d'un tradepost (comptoir commercial), dans lequel se déroule en quelque sorte le marché. La faction propriétaire du château n'a pas d'importance pour le commerce - les propriétaires du château ne peuvent pas (selon les règles) empêcher le commerce dans la région. En revanche, ils peuvent décider de le "perturber" en attaquant les marchands pour leur faire cesser leurs activités.
 
@@ -116,7 +119,7 @@ Chaque marchandise a un prix de base fixe (voir le tableau). Il indique les prix
 
 Prix de base des biens de luxe :
 
-| Biens de luxe | Prix de base | Poids en GE |
+| Biens de luxe | Prix de base | Poids en kg |
 |---------------|--------------|-------------|
 | Balm          | 4            | 2           |
 | Oil           | 3            | 3           |
@@ -148,16 +151,16 @@ Lorsque plusieurs factions travaillent, divertissent, collectent des impôts ou 
 
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter. Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.
 
-Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] ou [`HELP ALL`][HELP SILVER] avec notre faction ou un ordre [`CONTACT`] avec notre unité ou notre faction, alors la garde n'a pas d'effet. Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon. Pour une unité TEMP (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] ou [`HELP ALL`][HELP SILVER] avec notre faction ou un ordre [[cmd-contact]] avec notre unité ou notre faction, alors la garde n'a pas d'effet. Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon. Pour une unité TEMP (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 
 ## Voir aussi
 
-- [GIVE]
-- [RESERVE][réservé]
-- [RECRUIT]
+- [[cmd-give]]
+- [[cmd-reserve]][réservé]
+- [[cmd-recruit]]
 - [itempool]
 - [stealth]
-- [GUARD]
+- [[cmd-guard]]
 
 Poursuivre la lecture : [Material Pool].
 

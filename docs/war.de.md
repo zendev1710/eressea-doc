@@ -1,10 +1,13 @@
+---
+alias: krieg
+---
 # Krieg
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
 
 ## Die Seiten in einer Schlacht
 
-Mit dem Befehl [`ATTACKIERE`] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde].
+Mit dem Befehl [[bef-attackiere]] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde].
 
 Die angreifende Seite besteht aus allen Einheiten, welche `ATTACKIERE`-Befehle gegen eine oder mehrere Einheiten der verteidigenden Partei gegeben haben.
 
@@ -17,7 +20,7 @@ Es gibt also unterschiedliche Gründe, warum eine Einheit am Kampf teilnimmt. Di
 3. Eine Einheit aus der eigenen Partei wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie weder `KÄMPFE NICHT` noch `KÄMPFE FLIEHE` gesetzt hat. In letzterem Fall kommt sie nicht auf die Idee, zu [flüchten], da sie ja nicht selbst bedroht ist.
 4. Eine Einheit aus einer verbündeten Partei (also einer Partei, der man `HELFE KÄMPFE` gesetzt hat) wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie nicht `KÄMPFE NICHT` oder `KÄMPFE FLIEHE` gesetzt hat. Wiederum wird eine Einheit mit `KÄMPFE FLIEHE` nicht [flüchten], da sie keiner direkten Bedrohung ausgesetzt ist.
 
-Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verteidiger nicht selber attackiert hat*. Angegriffene verteidigen sich mit dem Rest der Partei, wenn dieser sich nicht explizit aus dem Kampf heraushält. Für einen Angriff spielt der Kampfstatus primär keine Rolle: außer Verteidigern werden nur solche Einheiten in den Kampf verwickelt, die einen [`ATTACKIERE`] Befehl gegeben haben. Einheiten, die jedoch [`KÄMPFE NICHT`][`KÄMPFE`] oder [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben, können aber nicht angreifen.
+Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verteidiger nicht selber attackiert hat*. Angegriffene verteidigen sich mit dem Rest der Partei, wenn dieser sich nicht explizit aus dem Kampf heraushält. Für einen Angriff spielt der Kampfstatus primär keine Rolle: außer Verteidigern werden nur solche Einheiten in den Kampf verwickelt, die einen [[bef-attackiere]] Befehl gegeben haben. Einheiten, die jedoch [`KÄMPFE NICHT`][`KÄMPFE`] oder [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben, können aber nicht angreifen.
 
 Um also einen Feind gemeinsam anzugreifen, muss jede angreifende Partei mindestens eine Einheit des Feindes attackieren. Um sich gemeinsam gegen Angreifer zu wehren, müssen sich die verteidigenden Parteien nur gegenseitig helfen.
 
@@ -38,7 +41,7 @@ Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter.
 **Achtung:** Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde. Freunde blieben plötzlich tatenlos im Lager zurück oder kämpften gar plötzlich gegeneinander. Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
 
 - Du solltest regelmäßig deine Helfe-Stati kontrollieren zu allen Verbündeten. Am besten ist HELFE ALLES für alle, mit denen du in einen Kampf geraten *könntest*. Misstrauen tut hier oft weh.
-- Nach Möglichkeit sollte nur eine [`GRUPPE`] vorhanden sein.
+- Nach Möglichkeit sollte nur eine [[bef-gruppe]] vorhanden sein.
 - Von deiner Partei sollten entweder alle Kampfeinheiten ATTACKIERE-Befehle haben oder keine. Wenn nur ein Teil deiner Einheiten attackiert, kann es sein, dass der Rest nicht am Kampf teilnimmt, wenn ein Verbündeter angegriffen wird.
 - Es ist ratsam, alle feindlichen Einheiten anzugreifen. Mindestens solltest du von jeder feindlichen Partei eine Einheit angreifen. Beachte auch, dass durch Parteitarnung nicht immer klar sein könnte, wer wirklich zu welcher Partei gehört. Eine andere Strategie könnte sein, überhaupt nur eine feindliche Einheit anzugreifen und vielleicht zu hoffen, dass auf der Gegenseite falsch HELFE-Stati zu Verwirrung fühlen. Ob dies ein ehrenwertes Vorgehen wäre, wollen wir hier nicht beurteilen.
 
@@ -89,11 +92,11 @@ Die Seite mit dem besten Taktikwert kann in der 0. Runde attackieren (die sogena
 
 ## Helden
 
-Helden sind besonders starke Kämpfer. Sie müssen zuvor mit dem Befehl [BEFÖRDERE] ernannt worden sein. Helden können in jeder Kampfrunde 5 mal angreifen.
+Helden sind besonders starke Kämpfer. Sie müssen zuvor mit dem Befehl [[bef-befoerdere]] ernannt worden sein. Helden können in jeder Kampfrunde 5 mal angreifen.
 
 Achtung! Dies gilt nicht für magische Angriffe und auch nicht für Armbrüste und Katapulte.
 
-Für nähere Informationen siehe [BEFÖRDERE].
+Für nähere Informationen siehe [[bef-befoerdere]].
 
 ## Der Kampf zwischen zwei Personen
 
@@ -235,7 +238,7 @@ Hieraus folgt, dass man eine Burg relativ gut halten kann, dass man aber aus ein
 
 ## Die Flucht
 
-Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [attackiert][`ATTACKIERE`] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
+Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [attackiert][[bef-attackiere]] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
 
 Personen mit [`KÄMPFE`] oder [`KÄMPFE HINTEN`][`KÄMPFE`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`KÄMPFE`] oder [`KÄMPFE NICHT`][`KÄMPFE`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.
 
@@ -245,7 +248,7 @@ Fliehende Einheiten entziehen sich dem Kampf, verbleiben aber in sicherer Entfer
 
 **Hinweis:** Es kann deshalb sinnvoll sein, Burgen- oder Schiffsinsassen zu befehlen, ihr eigenes Schiff wieder zu betreten, was sie nach dem Kampf evtl. tun können. Zu beachten ist, dass auch das Kommando wieder an die richtige Einheit übergeben werden sollte.
 
-Besonderheiten gelten für Einheiten mit dem Status FLIEHE. Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften. Weiterhin können diese Einheiten keine Regionen bewachen. Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLIEHE einnimmt. Dies geschieht zu Beginn der Runde, womit alle Effekte von [`BEWACHE`] sofort aufgelöst werden.
+Besonderheiten gelten für Einheiten mit dem Status FLIEHE. Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften. Weiterhin können diese Einheiten keine Regionen bewachen. Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLIEHE einnimmt. Dies geschieht zu Beginn der Runde, womit alle Effekte von [[bef-bewache]] sofort aufgelöst werden.
 
 ## Kampf auf und von Schiffen
 
@@ -257,9 +260,9 @@ Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][`BEWACHE`] Region anlanden, so müssen diese erst das Schiff [`VERLASSEN`] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
+Will man mit einem Schiff Truppen in einer feindlich [bewachten][[bef-bewache]] Region anlanden, so müssen diese erst das Schiff [[bef-verlassen]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
-Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELFE`][`HELFE KÄMPFE`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
+Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [[bef-helfe]][`HELFE KÄMPFE`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
 ## Piraterie
 
@@ -283,7 +286,7 @@ Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report m
 
 Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
-Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [`NACH`]`,`[`ROUTE`]` oder `[`FOLGE`][`FOLGE SCHIFF`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
+Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[[bef-folge]][`FOLGE SCHIFF`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Siehe auch
 
@@ -296,13 +299,13 @@ Weiterlesen: [[alliances|Allianz]].
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
 [ohne Waffe]: #boni-und-mali
-[`ATTACKIERE`]: ./cmd-attack.md "ATTACKIERE"
+[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
 [Taktikerrunde]: #taktik
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
 [`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
 [Kampfreihen]: #schlacht
 [flüchten]: #flucht
-[`GRUPPE`]: ./cmd-group.md "GRUPPE"
+[bef-gruppe]: ./cmd-group.md "GRUPPE"
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [Flucht]: ./war.md#die-flucht "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
@@ -315,15 +318,15 @@ Weiterlesen: [[alliances|Allianz]].
 [diese Tabelle]: ./war-tables.md#ausdauer "Kriegstabellen"
 [MACHE Katapultmunition]: ./cmd-make.md "MACHE"
 [10]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
-[`BEWACHE`]: ./cmd-guard.md "BEWACHE"
+[bef-bewache]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
-[`VERLASSEN`]: ./cmd-leave.md "VERLASSE"
+[bef-verlassen]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
 [Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
 [bewacht]: ./alliances.md "Allianz"
-[`NACH`]: ./cmd-move.md "NACH"
-[`ROUTE`]: ./cmd-route.md "ROUTE"
+[bef-nach]: ./cmd-move.md "NACH"
+[bef-route]: ./cmd-route.md "ROUTE"
 [Taktik]: ./tactic.md "Taktik"
 [Kriegstabellen]: ./war-tables.md "Kriegstabellen"

@@ -12,7 +12,7 @@ Eressea est un monde fantastique. Des êtres comme les [Elfes] et les [Nains] pe
 
 Eressea est un vaste monde. Des centaines de peuples vivent sur les îles d'Eressea, et la plus part ne se rencontreront probablement jamais, car il peut falloir des années pour combler les distances.
 
-L'Eressea est un monde complexe. Diriger un peuple n'est pas une tâche facile. Il y a beaucoup de choses à prendre en compte pour que tout se passe correctement, et c'est sans compter l'intervention vos voisins ! Il faut trouver des accords, il se peut qu'il y ait des querelles, voire une [guerre]. Même si tout se passe bien, Eressea prend beaucoup de temps. Alors qu'au début, il faut à peine une heure par semaine, cela peut monter à dix heures et plus par semaine.
+L'Eressea est un monde complexe. Diriger un peuple n'est pas une tâche facile. Il y a beaucoup de choses à prendre en compte pour que tout se passe correctement, et c'est sans compter l'intervention vos voisins ! Il faut trouver des accords, il se peut qu'il y ait des querelles, voire une [[guerre]]. Même si tout se passe bien, Eressea prend beaucoup de temps. Alors qu'au début, il faut à peine une heure par semaine, cela peut monter à dix heures et plus par semaine.
 
 <!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
 ![Eressea report](../assets/images/nr-report.jpg "An NR report")
@@ -32,7 +32,6 @@ Poursuivre la lecture : [Le monde d'Eressea].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
-<!--
 [Le monde d'Eressea]: ./world.md "Le monde d'Eressea"
 [faction]: ./factions.md "Partei"
 [race]: ./races.md "Rassen"
@@ -42,7 +41,6 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [magie]: ./magic.md "Magie"
 [dragons]: ./monsters.md#drachen "Drachen"
 [monstres]: ./monsters.md "Monster"
-[guerre]: ./war.md "Guerre"
 [ordres]: ./commands.md "Befehle"
 [NR]: ./reports.md#nr "NR (to be documented)"
 [CR]: ./reports.md#cr "CR (to be documented)"
@@ -50,4 +48,3 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [modèle de train]: ./move-template.md "Zugvorlage (to be documented)"
 [point hebdomadaire]: ./weekly-report.md "Wochenbericht"
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
--->

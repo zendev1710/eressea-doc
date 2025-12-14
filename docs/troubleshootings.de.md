@@ -1,3 +1,6 @@
+---
+alias: fehlerbehebung
+---
 # Fehlerbehebung
 
 ## Fehler im Spiel

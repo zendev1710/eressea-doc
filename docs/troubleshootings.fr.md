@@ -1,3 +1,6 @@
+---
+alias: depannage
+---
 # Dépannage
 
 ## Erreur dans le jeu

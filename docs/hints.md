@@ -21,7 +21,7 @@ If you play more than one faction ("double play"), you gain an advantage over ot
 
 The past has shown that such a ban alone is not enough and double play sometimes happens. Without knowledge of the game masters it is always, for whatever region it happened, grounds to be excluded from the game.
 
-Another reason is often that the departure of a faction would lead to a major change in the balance of power. An alliance that loses an important member takes over the player's party and runs it as a second party. This is also not okay unless it has been coordinated with the game management (there are several legacy factions where it has been allowed). To alleviate the phenomenon, we have the command [QUIT] with the argument FACTION, which transfers the units of the leaving party to an allied party, which ensures that the unit limit and the upper limits for mages, heroes, etc. are adhered to.
+Another reason is often that the departure of a faction would lead to a major change in the balance of power. An alliance that loses an important member takes over the player's party and runs it as a second party. This is also not okay unless it has been coordinated with the game management (there are several legacy factions where it has been allowed). To alleviate the phenomenon, we have the command [[cmd-quit]] with the argument FACTION, which transfers the units of the leaving party to an allied party, which ensures that the unit limit and the upper limits for mages, heroes, etc. are adhered to.
 
 Players sharing an E-Mail-Account, cannot be admitted to the game. The danger of cheating is too big. Just get your own E-Mail, it's easy.
 
@@ -39,7 +39,7 @@ Der Fairness halber muss allerdings immer offensichtlich sein, dass zwei Parteie
 
 ### Vacation replacement
 
-While sending in orders for other factions is generally prohibited, the only exception to this are absence replacements. For them to be legal, the party must state the E-Mail of the replacement player and the exact duration of the replacement in their [BANNER]. Taking over a faction for "liquidating" the faction is not a vacation replacement! Replacements of more than 3 weeks must be reported to the game management. **Disregarding this rules leads to the liquidation of the faction.**
+While sending in orders for other factions is generally prohibited, the only exception to this are absence replacements. For them to be legal, the party must state the E-Mail of the replacement player and the exact duration of the replacement in their [[cmd-banner]]. Taking over a faction for "liquidating" the faction is not a vacation replacement! Replacements of more than 3 weeks must be reported to the game management. **Disregarding this rules leads to the liquidation of the faction.**
 
 ### Exploiting software errors
 

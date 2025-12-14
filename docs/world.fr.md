@@ -1,3 +1,6 @@
+---
+alias: le-monde-d-eressea
+---
 # Le Monde d'Eressea
 
 ## Géographie
@@ -19,7 +22,7 @@ Dans les régions, on trouve les unités des joueurs, les bâtiments et les bate
 
 > La novice observa attentivement la carte. Apparemment, on s'était limité à l'essentiel lors de son élaboration et les régions découvertes n'avaient été que grossièrement classées. Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plaines non boisées.
 
-Dans cet exemple, à (0,0) il y a un marais, au nord-est à (0,1) il y a une montagne. Chaque faction d'Eressea a son propre système de coordonnées, qui peut être déplacé avec la commande [ORIGIN], par exemple pour l'aligner sur celui d'une autre faction.
+Dans cet exemple, à (0,0) il y a un marais, au nord-est à (0,1) il y a une montagne. Chaque faction d'Eressea a son propre système de coordonnées, qui peut être déplacé avec la commande [[cmd-origin]], par exemple pour l'aligner sur celui d'une autre faction.
 
 > "Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
 > "Ces cartes servent surtout à la navigation de nos bateaux. Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations. C'est pourquoi..." - et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte, - "... c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées. Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
@@ -42,7 +45,7 @@ La seule différence entre une plaine et une forêt est le nombre d'arbres et de
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire - les paysans ont également besoin de 10 silvers chaque tour pour survivre, qu'ils gagnent grâce au [travail]. Les plus grands [châteaux] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible. De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.
 
-Le type de terrain détermine également quelles [herbes] peuvent pousser dans la région. Un alchimiste pourra concocter des [potions] utiles à partir de différents ingrédients. Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là. Les herbes qui y poussent ne peuvent toutefois pas être modifiées. Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [PLANT]. En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici. En général, les herbes ne poussent pas dans les volcans.
+Le type de terrain détermine également quelles [herbes] peuvent pousser dans la région. Un alchimiste pourra concocter des [potions] utiles à partir de différents ingrédients. Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là. Les herbes qui y poussent ne peuvent toutefois pas être modifiées. Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]]. En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici. En général, les herbes ne poussent pas dans les volcans.
 
 Dans chaque région, il est possible de construire des [routes]. Les coûts varient en fonction du terrain. De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [bâtiments spéciaux] s'y trouvent.
 
@@ -60,7 +63,7 @@ Pour la région suivante, les infos sont expliquées en détail :
 
 `Vîpot (3,-4), Desert, 0/1 Trees, 22 Stones/3, 190 Peasants, 5765 Silvers, 36 Horses.`
 
-La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis le [ORIGINE][ORIGIN] de la faction. Un autre joueur - avec une autre ORIGINE- connaît la même région sous le même nom mais avec des coordonnées différentes. Le type de région est le désert. Dans un désert, il y a au maximum 500 emplois libres. Vîpot compte actuellement 190 paysans. Chaque paysan consomme un emploi. En outre, il n'y a actuellement pas d'arbres mais une pousse. La pousse d'arbre consomme actuellement 4 emplois. Il reste donc actuellement 306 emplois libres dans la région.
+La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis les coordonnées d'[[cmd-origin|origine]] de la faction. Un autre joueur - avec une autre ORIGINE- connaît la même région sous le même nom mais avec des coordonnées différentes. Le type de région est le désert. Dans un désert, il y a au maximum 500 emplois libres. Vîpot compte actuellement 190 paysans. Chaque paysan consomme un emploi. En outre, il n'y a actuellement pas d'arbres mais une pousse. La pousse d'arbre consomme actuellement 4 emplois. Il reste donc actuellement 306 emplois libres dans la région.
 
 36 chevaux sauvages vivent dans la région. Les chevaux n'ont aucune influence sur le nombre d'emplois disponibles. Le talent [Taming] permet de capturer les chevaux et de les utiliser par exemple pour le [transport] de marchandises ou d'en équiper des combattants, qui peuvent alors recevoir le [bonus de cavalerie] au combat s'ils maîtrisent au moins Riding 2.
 
@@ -82,7 +85,7 @@ Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesqu
 
 >"Tout d'abord, il y a le nom par lequel la région est connue des locaux, ainsi que sa localisation. Juste derrière, l'éclaireur a noté la nature de la région. On y trouve également le nombre de paysans qui y vivent et une estimation approximative de leur richesse. Le nombre d'arbres et de montures trouvés dans la région est également indiqué. Les pierres et le fer n'y ont pas encore été découverts."
 
-Les paysans vivant dans la région peuvent être recrutés dans sa faction avec la commande [RECRUIT], les arbres peuvent être abattus et les chevaux domestiqués avec la commande [MAKE].
+Les paysans vivant dans la région peuvent être recrutés dans sa faction avec la commande [[cmd-recruit]], les arbres peuvent être abattus et les chevaux domestiqués avec la commande [[cmd-make]].
 
 > "Très bien, Rahel. Et que disent les lignes en dessous ?"
 
@@ -146,8 +149,8 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 ## Voir aussi
 
 - [L'argent]
-- [RECRUIT][1]
-- [ENTERTAIN]
+- [[cmd-recruit]][1]
+- [[cmd-entertain]]
 
 Poursuivre la lecture : [Factions].
 
@@ -161,7 +164,6 @@ Poursuivre la lecture : [Factions].
 [châteaux]: ./castles.md "Château"
 [herbes]: ./herbs.md "Plantes"
 [potions]: ./alchemy.md "Potions"
-[PLANT]: ./cmd-grow.md "GROW"
 [routes]: ./roads.md "Routes"
 [bâtiments spéciaux]: ./buildings-others.md "Bâtiments spéciaux"
 [ressources]: ./resources.md "Ressources"
@@ -172,8 +174,6 @@ Poursuivre la lecture : [Factions].
 [caravanserail]: ./buildings-others.md#caravanserail "Caravanserail"
 [revenus]: ./silver.md#revenus "Argent"
 [phare]: ./buildings-others.md#phare "Phare"
-[RECRUIT]: ./cmd-recruit.md "RECRUIT"
-[MAKE]: ./cmd-make.md "MAKE"
 [Commerce]: ./silver.md#commerce "Commerce"
 [Ordres]: ./commands.md "Ordres"
 [Insectes]: ./races.md#insectes "Insectes"
@@ -181,4 +181,3 @@ Poursuivre la lecture : [Factions].
 [croissance des forêts]: ./resources.md#ressources-forestières "Ressources"
 [L'argent]: ./silver.md "Argent"
 [1]: ./silver.md#recruter "RECRUIT"
-[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"

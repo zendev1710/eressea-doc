@@ -1,3 +1,6 @@
+---
+alias: hinweise
+---
 # Hinweise
 
 ## Anmeldung
@@ -55,7 +58,7 @@ Wer mehr als eine Partei spielt ("Doppelspiel"), erschleicht sich damit einen Vo
 
 Die Vergangenheit hat gezeigt, dass ein solches Verbot alleine nicht reicht, und aus verschiedenen Gründen doch Doppelspiel auftritt. Ohne Absprache mit der Spielleitung ist das, egal aus welchem Grund, trotzdem ein Grund, vom Spiel ausgeschlossen zu werden.
 
-Ein anderer Grund ist oft, dass das Ausscheiden einer Partei zu einer starken Änderung der Kräfteverhältnisse führen würde. Eine Allianz, die ein wichtiges Mitglied verliert, übernimmt die Partei des Spielers, und führt sie als Zweitpartei. Das ist ebenfalls nicht okay, es sei denn es wurde mit der Spielleitung abgesprochen (es gibt mehrere Altparteien, bei denen es erlaubt wurde). Zur Linderung des Phänomens haben wir den Befehl [STIRB] mit dem Argument PARTEI, der die Einheiten der ausscheidenden Partei an eine verbündete Partei übergibt, was die Einhaltung des Einheitenlimits und der Obergrenzen für Magier, Helden, etc. gewährleistet.
+Ein anderer Grund ist oft, dass das Ausscheiden einer Partei zu einer starken Änderung der Kräfteverhältnisse führen würde. Eine Allianz, die ein wichtiges Mitglied verliert, übernimmt die Partei des Spielers, und führt sie als Zweitpartei. Das ist ebenfalls nicht okay, es sei denn es wurde mit der Spielleitung abgesprochen (es gibt mehrere Altparteien, bei denen es erlaubt wurde). Zur Linderung des Phänomens haben wir den Befehl [[bef-stirb]] mit dem Argument PARTEI, der die Einheiten der ausscheidenden Partei an eine verbündete Partei übergibt, was die Einhaltung des Einheitenlimits und der Obergrenzen für Magier, Helden, etc. gewährleistet.
 
 Mehrere Spieler, die sich einen Mail-Account teilen, können zu Eressea nicht zugelassen werden - die Gefahr des Schummelns ist hier zu groß.
 
@@ -73,7 +76,7 @@ Der Fairness halber muss allerdings immer offensichtlich sein, dass zwei Parteie
 
 ### Urlaubsvertretung
 
-Das Einsenden von Befehlen für fremde Parteien ist grundsätzlich verboten. Die einzige Ausnahme hiervon sind Urlaubsvertretungen. Damit diese legal sind, muss die zu vertretende Partei im [BANNER] die E-Mail-Adresse und die genaue Dauer der Vertretung angeben. Eine kurzzeitige Übernahme zum Zweck der "Auflösung" der Partei ist keine Urlaubsvertretung! Urlaubsvertretungen von mehr als 3 Wochen sind vorher bei der Spielleitung anzumelden. **Missachtung dieser Regel führt zur Löschung der Partei.**
+Das Einsenden von Befehlen für fremde Parteien ist grundsätzlich verboten. Die einzige Ausnahme hiervon sind Urlaubsvertretungen. Damit diese legal sind, muss die zu vertretende Partei im [[bef-banner]] die E-Mail-Adresse und die genaue Dauer der Vertretung angeben. Eine kurzzeitige Übernahme zum Zweck der "Auflösung" der Partei ist keine Urlaubsvertretung! Urlaubsvertretungen von mehr als 3 Wochen sind vorher bei der Spielleitung anzumelden. **Missachtung dieser Regel führt zur Löschung der Partei.**
 
 ### Ausnutzen von Fehlern im Programm
 
@@ -93,5 +96,3 @@ Weiterlesen: [Anfängertipps].
 [Bugreport]: #bugreport "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
-[STIRB]: ./cmd-quit.md "STIRB"
-[BANNER]: ./cmd-banner.md "BANNER"

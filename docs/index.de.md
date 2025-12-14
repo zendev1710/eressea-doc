@@ -1,19 +1,22 @@
+---
+alias: hauptseite
+---
 # Hauptseite
 
-Willkommen auf [Eressea]!
+Willkommen auf [eressea]!
 
 In diesem Wiki sammeln wir Informationen für Spieler von Eressea.
 
 ## Was es hier gibt
 
-- Die [Regeln]
+- Die [[regeln]]
 - [Anmeldung zum Spiel]
 - [E-Announce] – Mailingliste Für Regeländerungen WICHTIG!
 - [Hilfsmittel]
 - [Anfängertipps]
 - Die [Geschichte von Eressea]
-- Eressea stammt von [Atlantis] ab
-- [Häufig gestellte Fragen] an die Spielleitung.
+- Eressea stammt von [[atlantis]] ab
+- [[faq|Häufig gestellte Fragen]] an die Spielleitung.
 
 ## Sehenswerte Seiten
 
@@ -49,7 +52,7 @@ Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-
 Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 ZAT pro Woche und kleinen Änderungen.
 
 - [Thread im Forum]
-- [Regeln][1]
+- [Drachensgrab-Spielregeln]
 
 ## Externe Links
 
@@ -66,34 +69,32 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 - [Who is Who von Eressea (im Internet Archive)]
 - [Der Kriegsgrundgenerator]
 
-Weiterlesen: [Regeln].
+Weiterlesen: [[regeln]].
 
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
-[Eressea]: ./cmd-eressea.md "Eressea"
-[Regeln]: ./rules.md "Regeln"
-[Anmeldung zum Spiel]: ./hints.md#anmeldung "Hinweise"
-[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[Anfängertipps]: ./getting-started-tips.md "Anfängertipps"
-[Geschichte von Eressea]: ./eressea-story.md "Geschichte von Eressea"
-[Atlantis]: ./atlantis.md "Atlantis"
-[Häufig gestellte Fragen]: ./faq.md "FAQ"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+[Spielerseiten]: ./player-pages.md "Spielerseiten"
+[Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
 [Taktik]: ./tactic.md "Taktik"
 [Vertraute]: ./familiars.md "Vertraute"
 [Entwicklung]: ./development.md "Entwicklung"
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+[Anfängertipps]: ./getting-started-tips.md "Anfängertipps"
+[Geschichte von Eressea]: ./eressea-story.md "Geschichte von Eressea"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+
+[Anmeldung zum Spiel]: ./hints.md#anmeldung "Hinweise"
+[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
 [Archiv alter Ausgaben]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [Ankündigungen]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
-[Spielerseiten]: ./player-pages.md "Spielerseiten"
-[Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
-[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
 [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [Ankündigungen aus der e3-announce Mailingliste]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
 [Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
-[1]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
+[Drachensgrab-Spielregeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
 [Eressea Homepage]: https://www.eressea.de
 [**Anmeldunge zum Spiel**]: https://www.eressea.de/?page_id=186
 [Discord]: https://discord.gg/KT5Fffh

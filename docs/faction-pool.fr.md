@@ -1,11 +1,14 @@
+---
+alias: reserve-de-faction
+---
 # Réserve de faction
 
-La réserve de faction (*factino pool*) contient des objets spéciaux, généralement placés là par le maître du jeu pour des occasions particulières (par exemple, Noël, les anniversaires d'Eresea). N'importe quelle unité peut prendre des objets dans la réserve grâce à la commande [CLAIM]. **Les objets ne peuvent ensuite plus être remis dans la réserve**.
+La réserve de faction (*factino pool*) contient des objets spéciaux, généralement placés là par le maître du jeu pour des occasions particulières (par exemple, Noël, les anniversaires d'Eresea). N'importe quelle unité peut prendre des objets dans la réserve grâce à la commande [[cmd-claim]]. **Les objets ne peuvent ensuite plus être remis dans la réserve**.
 
 Le but de la réserve de faction est de te permettre de choisir quelle unité utilisera un objet particulier.
 Les objets de la réserve possèdent généralement des pouvoirs magiques spéciaux.
 
-Tu peux obtenir des informations sur ces pouvoirs en utilisant l'ordre [SHOW].
+Tu peux obtenir des informations sur ces pouvoirs en utilisant l'ordre [[cmd-show]].
 Cela fonctionne également si l'objet est déjà dans la réserve.
 Cependant, ces informations peuvent être vagues, et tu devras dans ce cas déterminer toi-même les effets réels de l'objet récupéré depuis la réserve.
 

@@ -9,9 +9,9 @@ Money makes the world go round; even in Eressea. Many different ways to earn mon
 
 Working is more of a type of stopgap, units working will earn barely enough to feed themselves. You can make quite a lot of money with entertainment and taxation. Especially at the beginning of your ventures, trading might be the biggest source of income, profits of some thousands of silver are possible, provided the regions have the appropriate luxury goods.
 
-Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/GE). There is no rounding: even one piece of silver above your carrying limit can overload.
+Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/kg). There is no rounding: even one piece of silver above your carrying limit can overload.
 
-Because persons (of most [races]) can carry 5.4 UW/GE, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/GE capacity), for example, can carry one person (10 GE for most [races]) with 4000 Silver; even 4001 silver would be too much.
+Because persons (of most [races]) can carry 5.4 UW/kg, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/kg capacity), for example, can carry one person (10 kg for most [races]) with 4000 Silver; even 4001 silver would be too much.
 
 ## Expenses
 
@@ -58,7 +58,7 @@ Starved peasants can later be resurrected as [undead].
 
 ### Work
 
-Units can earn money by working in agriculture (see [`WORK`]). However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs. The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [WORK][`WORK`] order page).
+Units can earn money by working in agriculture (see [[cmd-work]]). However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs. The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [[cmd-work]][`WORK`] order page).
 
 A peasant normally earns 11 silver per turn. This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table]). If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.
 
@@ -68,7 +68,7 @@ Work is prevented by guarding only for units working on ships.
 
 ### Collecting taxes
 
-Armed and trained henchmen can use the order [`TAX`][collecting taxes] to squeeze 20 silver in taxes per person and skill taxation level out of the peasants. To do this, you will of course need the taxation skill, as well as one weapon per person (catapults don't count) and at least one level of the corresponding weapon skill.
+Armed and trained henchmen can use the order [[cmd-tax]][collecting taxes] to squeeze 20 silver in taxes per person and skill taxation level out of the peasants. To do this, you will of course need the taxation skill, as well as one weapon per person (catapults don't count) and at least one level of the corresponding weapon skill.
 
 If the peasants live close to the maximum population, almost all the silver reserves will be used up by themselves, so they will have no more silver "left" for taxes. Taxes can then still be collected (up to the amount in the regional reserve), but the peasants who are not supplied at the end of the round will starve to death (which will not increase their earnings either ...). This is why it makes sense to build a castle, as this increases wages: with 12 silver instead of 11 silver, 2000 peasants earn 2000 silver more per turn!
 
@@ -76,7 +76,7 @@ Collecting taxes is prevented by guarding.
 
 ### Entertainment
 
-The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak). Of this silver, 5% can be earned through entertainment. This amount is also stated in the region's statistics. Each person can earn up to 20 silver per round and talent level in entertainment with the [`ENTERTAIN`][entertaining] order if the peasants have enough money available.
+The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak). Of this silver, 5% can be earned through entertainment. This amount is also stated in the region's statistics. Each person can earn up to 20 silver per round and talent level in entertainment with the [[cmd-entertain]][entertaining] order if the peasants have enough money available.
 
 ### Examples of potential income
 
@@ -99,7 +99,7 @@ Entertainment is prevented by guarding only for entertaining units on ships.
 
 ### Stealing: the dishonest way
 
-In addition to the honest ways of earning money, there is also the dishonest variant: theft. Units that with stealth can attempt to steal silver from other units using the [`STEAL`] order.
+In addition to the honest ways of earning money, there is also the dishonest variant: theft. Units that with stealth can attempt to steal silver from other units using the [[cmd-steal]] order.
 
 If the [stealth skill] of the stealing unit is higher than the [perception] of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.
 
@@ -109,7 +109,7 @@ It is also worth reading the chapter on [stealth][stealth skill] about this topi
 
 In every region, the peasantry produce one special luxury item. Your units may purchase this product. In all regions that do not produce this special luxury product, there is a continuously rising demand. If you are not afraid of the risks involved in long distance travels, trading is a very lucrative method of earning silver.
 
-In order to trade, a unit needs the trade skill. For every level of trade skill, a person can [BUY] up to 10 luxury items or sell 10 luxury items. The respective numbers of traded goods can be selected completely freely. For example, a unit consisting of a person with skill level 4 in trading can buy 20 gems and sell 12 silk and 8 balm in one round.
+In order to trade, a unit needs the trade skill. For every level of trade skill, a person can [[cmd-buy]] up to 10 luxury items or sell 10 luxury items. The respective numbers of traded goods can be selected completely freely. For example, a unit consisting of a person with skill level 4 in trading can buy 20 gems and sell 12 silk and 8 balm in one round.
 
 Furthermore, some form of castle is required for the trade to take place. At least the size level of a tradepost is required. It does not matter who controls the castle, the owner cannot directly prevent the trading from taking place. However, they can indirectly prevent trading by simply attacking the trading units with their own armed units.
 
@@ -121,7 +121,7 @@ Every type of trade good has a certain base price (see table below). The number 
 
 Base prices of luxury goods:
 
-| Luxury good | Base price | Weight UW/GE |
+| Luxury good | Base price | Weight UW/kg |
 |-------------|------------|--------------|
 | Balm        | 4          | 2            |
 | Oil         | 3          | 3            |
@@ -153,16 +153,16 @@ If several factions work, maintain, collect taxes or trade in a region, the poss
 
 If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit. Work, entertainment and trade are possible, however, unless your own unit is on a ship.
 
-If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HELP SILVER] to our faction or [`CONTACT`] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
+If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HELP SILVER] to our faction or [[cmd-contact]] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
 
 ## See also
 
-- [GIVE]
-- [RESERVE][reserved]
-- [RECRUIT][1]
+- [[cmd-give]]
+- [[cmd-reserve]][reserved]
+- [[cmd-recruit]][1]
 - [Item pool]
 - [Stealth][stealth skill]
-- [GUARD]
+- [[cmd-guard]]
 
 Continue reading: [Material pool].
 

@@ -33,19 +33,19 @@ Here is an example for units:
 
 Your own units are marked with a '\*'. Units of other factions are marked with '-', or '+' if you [help] that faction.
 
-Each unit has a unique computer-generated number, which is used as in identifier in all orders, in this example it is tb2. You may find the term "number" strange, but in Eressea units are given "base 36" numbers: along with the digits 0–9, the letters a–z are also valid "digits" here. Every unit also has a name ("Konrad Rabenhelm") and maybe a description (following the semicolon). The belongings and, if available, the skills are also displayed.
+Each unit has a unique computer-generated number, which is used as in identifier in all orders, in this example it is tb2. You may find the term "number" strange, but in Eressea units are given "base 36" numbers: along with the digits 0–9, the letters a–z are also valid "digits" here. Every unit also has a name ("Konrad Rabenhelm") and maybe a description (following the comment). The belongings and, if available, the skills are also displayed.
 
 Many of the descriptions that you encounter during the game will be in German, because the majority of players is also German. You may use any language you feel comfortable with for naming and describing your units, just bear in mind how that may affect the experience of your co-players.
 
 The first unit in the example is a unit of the faction that received that report. It consists of one human of that faction, which is not explicitly mentioned. It has 20 silver and knows how to wield melee weapons: it has level 1 in this skill. It masters [taxation] at level 2 (for more on [skills] see the corresponding chapter). As you can see, Konrad also has a sword. "`TAX`" is his so-called [default order]. If the unit is not given new orders for the next round, it will continue gathering taxes. Only one default order is ever given in the NR, but units may sometimes have more than one. They will be only listed in the CR or in the template orders. More on this in the chapter on [orders].
 
-Units have a "combat status", which is "front" in this case. The details are explained in the chapter about [war] in the section on [combat rows] and the explanation of the order [`COMBAT`].
+Units have a "combat status", which is "front" in this case. The details are explained in the chapter about [[war]] in the section on [combat rows] and the explanation of the order [[cmd-combat]].
 
-A unit may guard a region (for more on the consequences, see [`GUARD`]). This will be noted with "guards the region" in the report.
+A unit may guard a region (for more on the consequences, see [[cmd-guard]]). This will be noted with "guards the region" in the report.
 
-At last, a unit may be wounded by a [combat][war] or [Hunger]. This will be noted with "exhausted", "wounded", or even "badly wounded".
+At last, a unit may be wounded by a [[war|combat]] or [Hunger]. This will be noted with "exhausted", "wounded", or even "badly wounded".
 
-The next unit has the number 2ow, consists of a dwarf and has a horse and a silver bag. This means that it has at least 500 silver. If it had more than 5000 silver, you would see a "silverchest". With less than 500 you wouldn't see anything for a foreign unit. You cannot see which faction the unit belongs to because it is [cloaked], that is, it does not reveal the faction it belongs to. This is probably not a very smart choice for a "Botschafter" (ambassador), because you do not even get the E-Mail address of the faction now. The only thing you can do is sending it a [`MESSAGE`].
+The next unit has the number 2ow, consists of a dwarf and has a horse and a silver bag. This means that it has at least 500 silver. If it had more than 5000 silver, you would see a "silverchest". With less than 500 you wouldn't see anything for a foreign unit. You cannot see which faction the unit belongs to because it is [cloaked], that is, it does not reveal the faction it belongs to. This is probably not a very smart choice for a "Botschafter" (ambassador), because you do not even get the E-Mail address of the faction now. The only thing you can do is sending it a [[cmd-message]].
 
 Finally you have some allied [trolls] carrying gems. In addition to [humans], [dwarves], and [trolls][1], there are a lot of other races in Eressea. They are describe in [this chapter][race].
 
@@ -85,13 +85,9 @@ Continue reading: [Races].
 [help]: ./alliances.md "Allianz"
 [taxation]: ./cmd-tax.md "TAX"
 [default order]: ./cmd-default.md "DEFAULT"
-[war]: ./war.md "War"
 [combat rows]: ./war.md#combat-rows "Combat rows"
-[`COMBAT`]: ./cmd-combat.md "COMBAT"
-[`GUARD`]: ./cmd-guard.md "GUARD"
 [Hunger]: ./silver.md#starvation "Starvation"
 [cloaked]: ./cmd-hide.md "HIDE"
-[`MESSAGE`]: ./cmd-message.md "MESSAGE"
 [trolls]: ./races.md#trolls "Trolls"
 [humans]: ./races.md#humans "Humans"
 [dwarves]: ./races.md#dwarves "Zwerg"

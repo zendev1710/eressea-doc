@@ -1,8 +1,11 @@
+---
+alias: parteipool
+---
 # Parteipool
 
-Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [BEANSPRUCHE] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.
+Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [[bef-beanspruche]] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.
 
-Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit einen bestimmten Gegenstand verwenden soll. Gegenstände im Parteipool haben in den meisten Fällen besondere magische Kräfte. Mittels [ZEIGE] erhältst Informationen darüber. Dies funktioniert auch, wenn der Gegenstand noch im Parteipool liegt. Diese Informationen sind jedoch oft nur vage und in der Regel musst du die Wirkung selbst erkunden.
+Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit einen bestimmten Gegenstand verwenden soll. Gegenstände im Parteipool haben in den meisten Fällen besondere magische Kräfte. Mittels [[bef-zeige]] erhältst Informationen darüber. Dies funktioniert auch, wenn der Gegenstand noch im Parteipool liegt. Diese Informationen sind jedoch oft nur vage und in der Regel musst du die Wirkung selbst erkunden.
 
 Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
 
@@ -22,8 +25,6 @@ Weiterlesen: [Geld].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
-[BEANSPRUCHE]: ./cmd-claim.md "BEANSPRUCHE"
-[ZEIGE]: ./cmd-show.md "ZEIGE"
 [Adamantium]: ./adamantium.md "Adamantium"
 [Adamantiumrüstung]: ./adamantium-armor.md "Adamantiumrüstung"
 [Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (to be documented)"

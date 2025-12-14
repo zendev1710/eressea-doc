@@ -94,7 +94,7 @@ Currently the web site handles the following languages:
 | [cmd-ride]              | X  |    |    | [FAHRE]                   |       |
 | [cmd-route]             | X  |    |    | [ROUTE]                   |       |
 | [cmd-sell]              | X  |    |    | [VERKAUFE]                |       |
-| [cmd-semicolon]         | X  | N  | N  | [;]                       |       |
+| [cmd-comment]         | X  | N  | N  | [;]                       |       |
 | [cmd-show]              | X  |    |    | [ZEIGE]                   |       |
 | [cmd-sort]              | X  | NT | NT | [SORTIERE]                | TBR   |
 | [cmd-spy]               | X  |    |    | [SPIONIERE]               |       |
@@ -338,7 +338,7 @@ Legend:
 [cmd-claim]: ./cmd-claim.md "cmd-claim"
 [cmd-combat]: ./cmd-combat.md "cmd-combat"
 [cmd-combatspell]: ./cmd-combatspell.md "cmd-combatspell"
-[cmd-comment]: ./cmd-comment.md "cmd-comment"
+[cmd-comment]: ./cmd-comment-slash.md "cmd-comment"
 [cmd-contact]: ./cmd-contact.md "cmd-contact"
 [cmd-default]: ./cmd-default.md "cmd-default"
 [cmd-describe]: ./cmd-describe.md "cmd-describe"
@@ -382,7 +382,7 @@ Legend:
 [cmd-ride]: ./cmd-ride.md "cmd-ride"
 [cmd-route]: ./cmd-route.md "cmd-route"
 [cmd-sell]: ./cmd-sell.md "cmd-sell"
-[cmd-semicolon]: ./cmd-semicolon.md "cmd-semicolon"
+[cmd-comment]: ./cmd-comment.md "cmd-comment"
 [cmd-show]: ./cmd-show.md "cmd-show"
 [cmd-sort]: ./cmd-sort.md "cmd-sort"
 [cmd-spy]: ./cmd-spy.md "cmd-spy"
@@ -392,7 +392,6 @@ Legend:
 [cmd-unit]: ./cmd-unit.md "cmd-unit"
 [cmd-use]: ./cmd-use.md "cmd-use"
 [cmd-work]: ./cmd-work.md "cmd-work"
-[combat]: ./combat.md "combat"
 [commands-extended]: ./commands-extended.md "commands-extended"
 [commands-list]: ./commands-list.md "commands-list"
 [commands-send-from]: ./commands-send-from-magellan.md "commands-send-from-magellan"

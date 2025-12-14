@@ -1,3 +1,6 @@
+---
+alias: geld
+---
 # Geld
 
 Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben] oder [Handel] treiben.
@@ -53,17 +56,17 @@ Verhungerte Bauern können später als [Untote] wiederauferstehen.
 
 ### Arbeiten
 
-Geld können Einheiten mit dem Befehl [`ARBEITE`][Arbeiten] in der Landwirtschaft verdienen. Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze. Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [ARBEITEN][1]).
+Geld können Einheiten mit dem Befehl [[bef-arbeite]][Arbeiten] in der Landwirtschaft verdienen. Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze. Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [[bef-arbeiten]][1]).
 
 Ein Bauer verdient normalerweise 11 Silber pro Runde. Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.
 
-Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter. Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [ARBEITE][1] nachlesen.
+Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter. Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [[bef-arbeite]][1] nachlesen.
 
 Arbeiten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
 ### Steuereintreiben
 
-Bewaffnete und trainierte Schergen können mit dem Befehl [`TREIBE`][Steuern eintreiben] pro Person und Talentstufe Steuereintreiben 20 Silber an Steuern aus den Bauern herausquetschen. Hierzu brauchen sie natürlich das Talent Steuereintreiben, außerdem pro Person eine Waffe (Katapulte zählen nicht) und die entsprechenden Talente Hiebwaffen, Stangenwaffen, Bogen- oder Armbrustschießen.
+Bewaffnete und trainierte Schergen können mit dem Befehl [[bef-treibe]][Steuern eintreiben] pro Person und Talentstufe Steuereintreiben 20 Silber an Steuern aus den Bauern herausquetschen. Hierzu brauchen sie natürlich das Talent Steuereintreiben, außerdem pro Person eine Waffe (Katapulte zählen nicht) und die entsprechenden Talente Hiebwaffen, Stangenwaffen, Bogen- oder Armbrustschießen.
 
 Wenn die Bauern nahe am Maximum der Bevölkerungsdichte leben, werden fast alle Geldreserven von den Bauern selber aufgebraucht, so dass sie kein Silber mehr für Steuern "übrig" haben. Steuern können dann trotzdem (in Höhe des Regionsvorrats) eingetrieben werden, aber die nicht versorgten Bauern werden dann verhungern (und dadurch werden die Verdienste auch nicht mehr ...). Gerade hier ist es sinnvoll, eine Burg zu bauen, da damit der Arbeitslohn steigt: Schon bei 12 statt 11 Silber verdienen 2000 Bauern auch 2000 Silber pro Runde mehr!
 
@@ -71,7 +74,7 @@ Steuereintriben wird durch Bewachung verhindert.
 
 ### Unterhaltung
 
-Das Geld, das den Bauern nach den Steuern noch übrig bleibt, ist das Regionssilber (quasi der Silbervorrat der Bauern). Von diesem Silber sind 5% durch Unterhaltung zu erwirtschaften. In der Statistik der Region ist dieser Betrag auch angegeben. Jede Person kann pro Runde und Talentstufe Unterhaltung mit dem Befehl [`UNTERHALTE`][Unterhalten] bis zu 20 Silber verdienen, falls die Bauern genügend Geld zur Verfügung haben.
+Das Geld, das den Bauern nach den Steuern noch übrig bleibt, ist das Regionssilber (quasi der Silbervorrat der Bauern). Von diesem Silber sind 5% durch Unterhaltung zu erwirtschaften. In der Statistik der Region ist dieser Betrag auch angegeben. Jede Person kann pro Runde und Talentstufe Unterhaltung mit dem Befehl [[bef-unterhalte]][Unterhalten] bis zu 20 Silber verdienen, falls die Bauern genügend Geld zur Verfügung haben.
 
 ### Beispiele zu den Verdienstmöglichkeiten
 
@@ -94,7 +97,7 @@ Unterhalten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
 ### Diebstahl: der unehrliche Weg
 
-Neben den ehrlichen Wegen, Geld zu verdienen (und auch auszugeben) gibt es die unehrliche Variante: Diebstahl. Einheiten, die sich getarnt haben, können versuchen, mit dem Befehl [`BEKLAUE`] bei anderen Einheiten Silber zu stehlen.
+Neben den ehrlichen Wegen, Geld zu verdienen (und auch auszugeben) gibt es die unehrliche Variante: Diebstahl. Einheiten, die sich getarnt haben, können versuchen, mit dem Befehl [[bef-beklaue]] bei anderen Einheiten Silber zu stehlen.
 
 Ist das [Tarnungstalent] der klauenden Einheit höher als die [Wahrnehmung] der besten Einheit der bestohlenen Partei in der Region, so klaut sie pro Talentstufe Unterschied 50 Silber.
 
@@ -148,16 +151,16 @@ Wenn mehrere Parteien in einer Region arbeiten, unterhalten, Steuern eintreiben 
 
 Wird die Region von einer fremden Partei bewacht, kann eine eigene Einheit keine Steuern eintreiben und nicht rekrutieren. Arbeit, Unterhaltung und Handel sind aber möglich, es sei denn die eigene Einheit befindet sich auf einem Schiff.
 
-Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALLES`][HELFE SILBER] zu unserer Partei gesetzt haben oder [`KONTAKTIERE`] zu unserer Einheit oder unserer Partei, dann hat das Bewachen keinen Effekt. Die gilt auch, falls unsere Einheit wegen genügend guter Tarnung nicht gesehen wird. Für eine TEMP-Einheit (besonders relevant beim Rekrutieren) zählt die "Mutter"-Einheit, also die Einheit, die den Befehl `MACHE TEMP` gibt.
+Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALLES`][HELFE SILBER] zu unserer Partei gesetzt haben oder [[bef-kontaktiere]] zu unserer Einheit oder unserer Partei, dann hat das Bewachen keinen Effekt. Die gilt auch, falls unsere Einheit wegen genügend guter Tarnung nicht gesehen wird. Für eine TEMP-Einheit (besonders relevant beim Rekrutieren) zählt die "Mutter"-Einheit, also die Einheit, die den Befehl `MACHE TEMP` gibt.
 
 ## Siehe auch
 
-- [GIB]
-- [RESERVIERE][reserviert]
-- [REKRUTIERE]
+- [[bef-gib]]
+- [[bef-reserviere]][reserviert]
+- [[bef-rekrutiere]]
 - [Materialpool]
 - [Tarnung][Tarnungstalent]
-- [BEWACHE]
+- [[bef-bewache]]
 
 Weiterlesen: [Materialpool].
 
@@ -183,7 +186,7 @@ Weiterlesen: [Materialpool].
 [Untote]: ./monsters.md#untote "Untote"
 [1]: ./cmd-work.md "ARBEITEN"
 [Burgen-Tabelle]: ./castles.md#übersicht "Burg"
-[`BEKLAUE`]: ./camouflage.md "BEKLAUE"
+[bef-beklaue]: ./camouflage.md "BEKLAUE"
 [Tarnungstalent]: ./camouflage.md "Tarnung"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"
 [Tarnung]: ./camouflage.md "Tarnung"
@@ -191,7 +194,7 @@ Weiterlesen: [Materialpool].
 [verkaufen]: ./cmd-sell.md "VERKAUFE"
 [Burgen]: ./castles.md "Burgen"
 [Hafen]: ./buildings-others.md "Andere Gebäude"
-[`KONTAKTIERE`]: ./cmd-contact.md "KONTAKTIERE"
-[GIB]: ./cmd-give.md "GIB"
-[REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
-[BEWACHE]: ./cmd-guard.md "BEWACHE"
+[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
+[bef-gib]: ./cmd-give.md "GIB"
+[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
+[bef-bewache]: ./cmd-guard.md "BEWACHE"

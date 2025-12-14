@@ -7,27 +7,27 @@ alias:
 
 Besonders bei größeren Parteien verliert man als Spieler in einigen Regionen die Übersicht, zumal "Geldverteilen" eher eine langweilige Fleißarbeit ist und den Spielspaß wenig fördert.
 
-## Der Silberpool
+## The silver pool
 
-Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [RECRUIT] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird. Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen. Dies ist nur, um zu vermeiden, dass es vergessen wird.
+Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [[cmd-recruit]] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird. Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen. Dies ist nur, um zu vermeiden, dass es vergessen wird.
 
 Ebenso werden [Gebäude] aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist. Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren. Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.
 
-TEMP-Einheiten können nicht reservieren. Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [GIVE] übergeben bekommen. Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.
+TEMP-Einheiten können nicht reservieren. Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [[cmd-give]] übergeben bekommen. Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.
 
 Für den Unterhalt von Einheiten gelten besondere Regeln: hier wird alles Silber der Region benutzt, ohne Rücksicht auf vorherige Reservierungen. Einheiten geben kein Silber, das sie für ihren eigenen Unterhalt brauchen, an Einheiten weg, um deren Unterhalt zu bezahlen.
 
-## Der Materialpool
+## The material pool
 
 Der Materialpool ist die logische Fortführung des Silberpools: jede Einheit, die etwas benötigt, z.B. Steine und Holz für den Gebäudebau, holt sich dies automatisch von anderen eigenen Einheiten in der Region.
 
 Die Pools gelten nur für die eigene Partei. Fremden Einheiten müssen Gegenstände explizit übergeben werden.
 
-Achtung, die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [MAKE], sondern im Grunde für alles, insbesondere auch bei den Befehlen [RESERVE], [GIVE], [USE], [CAST], [RECRUIT]. Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren. Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.
+Achtung, die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[cmd-make]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]], [[cmd-recruit]]. Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren. Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.
 
 Unerfahrene Parteien sollten den Materialpool gründlich planen, da man leicht Einheiten Ressourcen "klaut", mit denen man nicht rechnete, und somit "beklaute" Einheiten nicht oder nicht genug produzieren kann, während die andere Einheit mehr Ressourcen verbrauchte und mehr produzierte, als beabsichtigt.
 
-### Beispiel 1
+### Example 1
 
      UNIT a ; Steinbauer, haben 30 Eisen
      MAKE 20 Eisen
@@ -50,9 +50,9 @@ Unerfahrene Parteien sollten den Materialpool gründlich planen, da man leicht E
 - Einheit a hat 20 Eisen
 - Einheit c hat 20 Eisen
 
-## RESERVE und GIVE
+## RESERVE and GIVE
 
-Bei [RESERVE] und [GIVE], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:
+Bei [[cmd-reserve]] und [[cmd-give]], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:
 
 Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung. Also kann sie nur noch die Einheit, die sie reserviert oder bekommen hat, verbrauchen.
 
@@ -64,7 +64,7 @@ Bei der anschließenden Ausführung von GIVE werden Gegenstände falls nötig eb
 
 Alle anderen Befehle benutzen zunächst die eigenen, reservierten oder an sie übergebenen Gegenstände und erst danach nicht reservierte Gegenstände aus dem Pool.
 
-### Beispiel 2
+### Example 2
 
       UNIT a; hat 10 Silber
       LEARN Hiebwaffen
@@ -89,7 +89,7 @@ Alle anderen Befehle benutzen zunächst die eigenen, reservierten oder an sie ü
 
 Hätte irgend eine Einheit zu Anfang 10 Silber mehr gehabt, hätte Einheit b nicht hungern müssen.
 
-### Beispiel 3
+### Example 3
 
       UNIT a; hat 20 Silber
       RESERVE 20 Silber
@@ -108,7 +108,7 @@ Hätte irgend eine Einheit zu Anfang 10 Silber mehr gehabt, hätte Einheit b nic
 - Einheit b geht nach Osten und wird hungern, falls dort keine andere Einheit mit Silber ist.
 - Einheit c nimmt die 20 Silber nach Westen mit.
 
-### Beispiel 4
+### Example 4
 
      UNIT a ; hat 10 Silber, 20 Holz, 10 Eisen
      LEARN Hiebwaffen
@@ -147,27 +147,19 @@ Hätte irgend eine Einheit zu Anfang 10 Silber mehr gehabt, hätte Einheit b nic
 - Einheit c hat 190 Silber (10 verbraucht) und einen Speer
 - Einheit d hat 9 Holz und 10 Silber (10 verbraucht), 5 Eisen.
 
-## Historische Bemerkung
+## Historical note
 
 In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder Spieler an- oder abschalten konnte. Es gab getrennte Einstellungen für Silber und andere Gegenstände. Nun ist der Silber- und der Materialpool für alle Parteien automatisch aktiv und nicht mehr deaktivierbar.
 
 ## See also
 
-- [GIVE]
-- [RESERVE]
+- [[cmd-give]]
+- [[cmd-reserve]]
 - [Befehlsreihenfolge]
 
-Continue reading: [Krieg].
-
-[Krieg]: ./war.md "Krieg"
+Continue reading: [[war]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[RECRUIT]: ./silver.md#recruiting "RECRUIT"
 [Gebäude]: ./buildings.md "Gebäude"
-[GIVE]: ./cmd-give.md "GIVE"
-[MAKE]: ./cmd-make.md "MAKE"
-[RESERVE]: ./cmd-reserve.md "RESERVE"
-[USE]: ./cmd-use.md "USE"
-[CAST]: ./cmd-cast.md "CAST"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

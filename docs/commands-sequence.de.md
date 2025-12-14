@@ -1,0 +1,145 @@
+---
+alias: befehlsreihenfolge
+---
+# Befehlsreihenfolge
+
+Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle, die unter der selben Nummer stehen, werden zur gleichen Zeit ausgeführt oder die Reihenfolge spielt keine Rolle.
+
+1. neue Default-Befehle werden gesetzt
+2. [[bef-gruppe]], [MACHE TEMP]
+3. [[bef-benenne]], [[bef-beschreibe]], [BEWACHE NICHT], [[bef-helfe]], [KÄMPFE], [[bef-kampfzauber]], [[bef-tarne]], [[bef-ursprung]], [[bef-zeige]]
+4. [[bef-banner]], [[bef-email]], [[bef-option]], [[bef-passwort]]
+5. [[bef-kontaktiere]]
+6. [[bef-botschaft]]
+7. [[bef-betrete]]; 1. Versuch
+8. [[bef-benutze]]
+9. [[bef-verlasse]]
+10. [[bef-betrete]]; 2. Versuch
+11. [[bef-attackiere]]
+12. [[bef-reserviere]], [[bef-beanspruche]]
+13. [[bef-betrete]]; 3. Versuch
+14. [GIB KOMMANDO]
+15. [[bef-vergiss]]
+16. [[bef-gib]][GIB KOMMANDO]
+17. [[bef-rekrutiere]] \*
+18. [ZERSTÖRE]
+19. [[bef-folge]] wird gesetzt
+20. [[bef-befoerdere]]
+21. [BEZAHLE NICHT] Stellt Funktion und Unterhaltskosten für das entsprechende Gebäude ein.
+22. Unterhaltskosten für unterhaltspflichtige Gebäude fallen an; sonst haben sie keine Funktion!
+23. [[bef-stirb]]
+24. [[bef-zaubere]]
+25. [[bef-lehre]]
+26. [[bef-lerne]]
+27. [[bef-mache]][MACHE TEMP] \*
+28. [[bef-forsche]], [[bef-pflanze]], [[bef-spioniere]], [ZÜCHTE]
+29. [[bef-unterhalte]] \*
+30. [[bef-arbeite]] \*
+31. [[bef-treibe]] \*
+32. [[bef-kaufe]] \*
+33. [[bef-verkaufe]] \*
+34. [[bef-beklaue]] \*
+35. Schiffe mit mangelnder Besatzung nehmen Schäden
+36. BETRETE; 4. Versuch
+37. [[bef-nach]] und [[bef-route]], dabei wird auch [[bef-fahre]] und [[bef-transportiere]] ausgeführt und Verfolger folgen
+38. [[bef-bewache]][BEWACHE NICHT] an; das geht nur, wenn die Einheit sich nicht bewegt hat
+39. Schiffe treiben auf hoher See
+40. [[bef-default]]
+41. leere Einheiten werden beseitigt
+42. die Bauern, Pferde und Wälder vermehren sich, falls möglich; die übriggebliebenen Bauern wandern umher
+43. Silber für die Versorgung der Einheiten wird abgezogen
+44. [[bef-sortiere]]
+45. [[bef-nummer]]
+
+\* So markierte Befehle werden "gerecht" aufgeteilt. Siehe [Erläuterungen] unten.
+
+Die Befehle müssen aber nicht zwingend in dieser Reihenfolge eingegeben werden. Es ist durchaus zulässig, folgendes einzugeben:
+
+    GIB TEMP 5 300 Silber
+    MACHE TEMP 5
+      REKRUTIERE 1
+      KÄMPFE NICHT
+      LERNE HOLZFÄLLEN
+    ENDE
+
+Die neue Einheit wird zuerst erschaffen, kämpft nicht mehr, erhält 300 Silber, rekrutiert 1 und lernt schlussendlich Holzfällen - obwohl das nicht der Reihenfolge entspricht, in der die Befehle eingegeben wurden.
+
+## Erläuterungen
+
+Gleichrangige Befehle verschiedener Einheiten werden normalerweise in der Reihenfolge abgearbeitet, wie sie im Report erscheinen. Also zum Beispiel erst alle GIB-Befehle der ersten Einheit, dann alle GIB-Befehle der zweiten Einheit, später alle `REKRUTIERE`-Befehle der ersten Einheit, dann der zweiten und so fort. Auch der [Materialpool] funktioniert üblicherweise in dieser Reihenfolge: Einheiten, die weiter oben in der Reihenfolge stehen, werden also zuerst "befragt", ob sie einen Gegenstand hergeben können. Die Reihenfolge kann sich jedoch durch bestimmte Befehle verändern. Dazu gehören `BETRETE, VERLASSE, MACHE TEMP, GIB KOMMANDO` und `GIB SCHIFF`. Das genaue Verhalten wird nicht garantiert! Deshalb sollte man im Zweifel Befehle so geben, dass die Einheitenreihenfolge dafür keine Rolle spielt.
+
+Bei Befehlen, deren Resultat eine Obergrenze hat, z.B. die maximale Menge an Bäumen in der Region bei `MACHE Holz`, die maximale Zahl von Rekruten bei `REKRUTIERE` oder dem Regionssilber bei `UNTERHALTE` und `TREIBE`, kann es vorkommen, dass mehrere Einheiten in Konkurrenz zueinander stehen. In diesem Fall wird versucht, das knappe Gut anteilig an der Menge zu verteilen, die jede Einheit produzieren könnte, wenn es unbegrenzt wäre. Hierbei kann es zu Abweichungen kommen, und eine Einheit eventuell leer ausgehen. Ebenfalls betroffen sind die Befehle `VERKAUFE, KAUFE` und `ARBEITE`.
+
+Betrete 1./2./3./4. Versuch  
+Das bedeutet, dass man vor einem Angriff noch eine Burg betreten kann. Nach dem Kampf, kann man es nochmal versuchen, denn die Vorbesitzer könnten inzwischen tot oder geflohen sein.
+
+Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben Runde attackieren können, da sich der Server merkt, wer Schiffe verlassen hat, und das entsprechend abfängt.
+
+## Siehe auch
+
+- [Befehle]
+- [Kurzbeschreibung]
+
+<!-- exclude E3 from documentation -->
+<!-- - [Befehlsreihenfolge (E3)] -->
+
+Weiterlesen: [Kurzbeschreibung].
+
+[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
+
+<!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
+
+[bef-gruppe]: ./cmd-group.md "GRUPPE"
+[MACHE TEMP]: ./cmd-make.md "MACHE"
+[bef-benenne]: ./cmd-name.md "BENENNE"
+[bef-beschreibe]: ./cmd-describe.md "BESCHREIBE"
+[BEWACHE NICHT]: ./cmd-guard.md "BEWACHE"
+[bef-helfe]: ./cmd-help.md "HELFE"
+[KÄMPFE]: ./cmd-combat.md "KÄMPFE"
+[bef-kampfzauber]: ./cmd-combatspell.md "KAMPFZAUBER"
+[bef-tarne]: ./cmd-hide.md "TARNE"
+[bef-ursprung]: ./cmd-origin.md "URSPRUNG"
+[bef-zeige]: ./cmd-show.md "ZEIGE"
+[bef-banner]: ./cmd-banner.md "BANNER"
+[bef-email]: ./cmd-email.md "EMAIL"
+[bef-option]: ./cmd-option.md "OPTION"
+[bef-passwort]: ./cmd-password.md "PASSWORT"
+[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
+[bef-botschaft]: ./cmd-message.md "BOTSCHAFT"
+[bef-betrete]: ./cmd-enter.md "BETRETE"
+[bef-benutze]: ./cmd-use.md "BENUTZE"
+[bef-verlasse]: ./cmd-leave.md "VERLASSE"
+[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
+[bef-reserviere]: ./cmd-reserve.md "RESERVIERE"
+[bef-beanspruche]: ./cmd-claim.md "BEANSPRUCHE"
+[GIB KOMMANDO]: ./cmd-give.md "GIB"
+[bef-vergiss]: ./cmd-forget.md "VERGISS"
+[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
+[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
+[bef-folge]: ./cmd-follow.md "FOLGE"
+[BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
+[BEZAHLE NICHT]: ./cmd-pay-not.md "BEZAHLE"
+[bef-stirb]: ./cmd-quit.md "STIRB"
+[bef-zaubere]: ./cmd-cast.md "ZAUBERE"
+[bef-lehre]: ./cmd-teach.md "LEHRE"
+[bef-lerne]: ./cmd-learn.md "LERNE"
+[bef-forsche]: ./cmd-research.md "FORSCHE"
+[bef-pflanze]: ./cmd-plant.md "PFLANZE"
+[bef-spioniere]: ./cmd-spy.md "SPIONIERE"
+[ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
+[bef-unterhalte]: ./cmd-entertain.md "UNTERHALTE"
+[bef-arbeite]: ./cmd-work.md "ARBEITE"
+[bef-treibe]: ./cmd-tax.md "TREIBE"
+[bef-kaufe]: ./cmd-buy.md "KAUFE"
+[bef-verkaufe]: ./cmd-sell.md "VERKAUFE"
+[bef-beklaue]: ./camouflage.md "BEKLAUE"
+[bef-nach]: ./cmd-move.md "NACH"
+[bef-route]: ./cmd-route.md "ROUTE"
+[bef-fahre]: ./cmd-ride.md "FAHRE"
+[bef-transportiere]: ./cmd-carry.md "TRANSPORTIERE"
+[bef-default]: ./cmd-default.md "DEFAULT"
+[bef-sortiere]: ./cmd-sort.md "SORTIERE"
+[bef-nummer]: ./cmd-number.md "NUMMER"
+[Erläuterungen]: #erläuterungen
+[Materialpool]: ./items-pool.md "Materialpool"
+[Befehle]: ./commands.md "Befehle"

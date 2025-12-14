@@ -1,3 +1,6 @@
+---
+alias: trucs-et-astuces
+---
 # Trucs et astuces
 
 ## Il n'est pas toujours nécessaire de savoir monter à cheval
@@ -59,8 +62,8 @@ Conclusion : Quiconque s'intéresse aux tendances démographiques jette égaleme
 ## Entrepôt
 
 Dans une région, un entrepôt est géré par une unité prioritaire (par exemple, le seigneur du plus ancien château) qui reçoit les marchandises excédentaires.
-Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [RESERVE].
-Il est important que l'entrepôt soit prioritaire car [RESERVE] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède. De plus, cela permet de visualiser en un coup d'œil les objets disponibles.
+Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [[cmd-reserve]].
+Il est important que l'entrepôt soit prioritaire car [[cmd-reserve]] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède. De plus, cela permet de visualiser en un coup d'œil les objets disponibles.
 
 !!! tip
      Si l'entrepôt adopte un camouflage permanent, le stock devrait échapper à un espion peu compétent, errant ou nageant, appartenant à une faction hostile. Une autre théorie suggère un niveau de perception élevé pour rendre l'entrepôt difficile à piller ; toutefois, un bon observateur de la même faction, en plus de la présence de l'entrepôt lui-même, suffirait également à empêcher le vol.
@@ -76,7 +79,7 @@ Si une région manque d'argent pour nourrir tout le monde, par négligence ou vo
 Si un seul membre d'une unité souffre de la faim, l'unité entière subit le désavantage de voir ses compétences réduites de moitié.
 Par conséquent, placer une unité de 100 collecteurs d'impôts tout en bas d'une région n'est peut-être pas la meilleure stratégie.
 
-Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [SORT].
+Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [[cmd-sort]].
 
 ## Routes maritimes sûres
 

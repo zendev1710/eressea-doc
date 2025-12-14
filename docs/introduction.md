@@ -17,7 +17,7 @@ Eressea is a fantastic world. Creatures such as [elves] and [dwarves] populate t
 
 Eressea is a large world. Hundreds of peoples live on the islands of Eressea, and many of them will probably never meet, as it can take years to bridge the distances.
 
-Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbours are also involved. Agreements have to be made, there may be quarrels, even [war]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
+Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbours are also involved. Agreements have to be made, there may be quarrels, even [[war]]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea report](../assets/images/nr-report.jpg "An NR report")
@@ -47,7 +47,6 @@ Continue reading: [World].
 [magic]: ./magic.md "Magie"
 [dragons]: ./monsters.md#drachen "Drachen"
 [monsters]: ./monsters.md "Monster"
-[war]: ./war.md "War"
 [orders]: ./commands.md "Befehle"
 [NR]: ./reports.md#nr "NR (to be documented)"
 [CR]: ./reports.md#cr "CR (to be documented)"

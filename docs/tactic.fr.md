@@ -1,3 +1,6 @@
+---
+alias: tactique
+---
 # Tactique
 
 Avant la bataille, le meilleur tacticien de toutes les unités participantes est désigné. Le camp ayant le meilleur tacticien gagne ce que l'on appelle le "tour du tacticien" : par une manœuvre habile, il attire l'ennemi dans une embuscade et ses alliés peuvent frapper par surprise avant le premier tour de combat avec une certaine chance, sans que l'ennemi puisse aussi attaquer pendant ce tour. Si deux tacticiens ou plus de différents camps sont aussi bons l'un que l'autre, ils peuvent tous frapper lors du tour de tacticien. La chance de porter ce coup est de 10% pour chaque point de compétence entre le meilleur tacticien de son camp et le meilleur tacticien du camp adverse, bonus ou malus inclus. A partir d'une différence de compétence de 10, tous les alliés frappent une fois. Pour le rechargement, le tour du tacticien compte également, une arbalète qui a tiré pendant le tour du tacticien tire donc une deuxième fois au tour 3 au lieu du tour 4. Le tour de tactique permet également une tentative de fuite supplémentaire.

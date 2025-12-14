@@ -21,7 +21,7 @@ The world of Eressea consists of many islands and continents with entirely diffe
 
 *The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified. Rahel recognized forests and mountains, many swamps and some woodless plains.*
 
-In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the command [ORIGIN] in order to adjust it to the one of another faction.
+In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the command [[cmd-origin]] in order to adjust it to the one of another faction.
 
 > "Well done my child," Selen assured the much younger cat.
 > "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..."
@@ -70,7 +70,7 @@ The information for the following region is explained in detail:
 
 `Vîpot (3,-4), desert, 0/1 trees, 22 stones/3, 190 peasants, 5765 silver, 36 horses.`
 
-The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [ORIGIN] of the faction. Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates. The region type is desert. There is a maximum of 500 free jobs in a desert. There are currently 190 peasants living in Vîpot. Each peasant takes up one job. In addition, a sapling grows here and there are currently no trees. The sapling currently takes up 4 jobs. This means that there are currently 306 vacant jobs in the region.
+The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [[cmd-origin]] of the faction. Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates. The region type is desert. There is a maximum of 500 free jobs in a desert. There are currently 190 peasants living in Vîpot. Each peasant takes up one job. In addition, a sapling grows here and there are currently no trees. The sapling currently takes up 4 jobs. This means that there are currently 306 vacant jobs in the region.
 
 There are 36 wild horses living in the region. Horses have no influence on the number of jobs available. With the skill [taming] you can capture the horses and use them for [transport] of goods, for example, or equip fighters with them, who can then receive the [horse bonus] in battle if they have at least riding 2.
 
@@ -93,7 +93,7 @@ The report lists all regions in which you have a unit, through which you have tr
 > Finally, the scout has reported the amount of trees and horses they have found in this region.
 > Stones and iron have not yet been discovered there."
 
-The peasants living in the region can be recruited to your faction with the command [RECRUIT], the trees can be cut down and horses tamed with the command [MAKE].
+The peasants living in the region can be recruited to your faction with the command [[cmd-recruit]], the trees can be cut down and horses tamed with the command [[cmd-make]].
 
 > "Very good, Rahel. And what is written in the lines below?"
 
@@ -159,8 +159,8 @@ Although the influence of the seasons is generally not particularly pronounced, 
 ## See also
 
 - [money]
-- [RECRUIT]
-- [ENTERTAIN]
+- [[cmd-recruit]]
+- [[cmd-entertain]]
 
 Continue reading: [Factions].
 

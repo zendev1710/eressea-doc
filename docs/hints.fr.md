@@ -1,3 +1,6 @@
+---
+alias: remarques
+---
 # Remarques
 
 ## Inscription
@@ -55,7 +58,7 @@ Celui qui joue plus d'une faction ("jeu multiple") s'arroge ainsi un avantage su
 
 Le passé a montré qu'une telle interdiction ne suffit pas à elle seule et que, pour diverses raisons, il y a quand même du "Jeu multiple". Quelle qu'en soit la raison, sans accord prélable du maître de jeu, cela sera un motif d'exclusion.
 
-Une autre raison est souvent que la disparition d'une faction entraînerait un changement important dans l'équilibre des forces. Une alliance qui perd un membre important reprend la faction du joueur et la gère comme une seconde faction. Cela n'est pas non plus acceptable, sauf si cela a été convenu avec le meneur de jeu (il existe plusieurs anciennes factions pour lesquelles cela a été autorisé). Pour atténuer ce phénomène, nous avons la commande [QUIT] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
+Une autre raison est souvent que la disparition d'une faction entraînerait un changement important dans l'équilibre des forces. Une alliance qui perd un membre important reprend la faction du joueur et la gère comme une seconde faction. Cela n'est pas non plus acceptable, sauf si cela a été convenu avec le meneur de jeu (il existe plusieurs anciennes factions pour lesquelles cela a été autorisé). Pour atténuer ce phénomène, nous avons la commande [[cmd-quit]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
 
 Plusieurs joueurs partageant un compte de messagerie ne peuvent pas être admis à Eressea - le risque de tricherie est trop important.
 
@@ -73,7 +76,7 @@ Par souci d'équité, il doit cependant toujours être évident que deux faction
 
 ### Remplacement pour les vacances
 
-L'envoi d'ordres pour d'autres factions est en principe interdit. La seule exception à cette règle concerne les remplacements de vacances. Pour que celles-ci soient légales, la faction à remplacer doit indiquer dans le [BANNER] l'adresse e-mail et la durée exacte du remplacement. Une prise en charge de courte durée dans le but de "dissoudre" la faction n'est pas un remplacement de vacances ! Les remplacements de vacances de plus de 3 semaines doivent être annoncés au préalable à la direction du jeu. **Le non-respect de cette règle entraîne la suppression de la faction.**
+L'envoi d'ordres pour d'autres factions est en principe interdit. La seule exception à cette règle concerne les remplacements de vacances. Pour que celles-ci soient légales, la faction à remplacer doit indiquer dans le [[cmd-banner]] l'adresse e-mail et la durée exacte du remplacement. Une prise en charge de courte durée dans le but de "dissoudre" la faction n'est pas un remplacement de vacances ! Les remplacements de vacances de plus de 3 semaines doivent être annoncés au préalable à la direction du jeu. **Le non-respect de cette règle entraîne la suppression de la faction.**
 
 ### Exploiter les erreurs du programme
 

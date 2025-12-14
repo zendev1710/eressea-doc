@@ -1,15 +1,15 @@
+---
+alias: arme
+---
 # Armé
 
-Eine Einheit gilt als bewaffnet, wenn sie über ein [Kampftalent] (Hiebwaffen, Stangenwaffen, Bogenschießen, Armbrustschießen, Katapultbedienung) und mindestens eine Waffe des entsprechenden Typs verfügt.
+Une unité est considérée comme armée si elle possède une [[liste-des-competences|compétence de combat]] (bladed weapons, polearms, archery, crossbow shooting, catapult operation) et au moins une arme du type correspondant.
 
-Eine Einheit muss bewaffnet sein, um eine Region [bewachen] zu können.
+Une unité doit être armée pour pouvoir [[cmd-guard|garder]] une région.
 
-Auch für das Steuereintreiben muss man bewaffnet sein, wobei auch nur die Personen Steuern eintreiben, die eine Waffe haben.
+Même pour la collecte des impôts, il faut être armé, bien que seuls ceux qui possèdent une arme puissent collecter les impôts.
 
-[Monster] und andere Einheiten mit dem Talent 'Waffenloser Kampf' gelten auch dann als bewaffnet, wenn sie keine Waffe tragen. Sie sind sozusagen mit Zähnen und Klauen (oder Tentakeln, Fangarmen usw.) bewaffnet.
+Les [[monstres]] et autres unités possédant la compétence « Combat à mains nues » sont considérés comme armés même lorsqu'ils ne portent pas d'arme.
+En réalité, ils sont armés de dents et de griffes (ou de tentacules, etc.).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bewaffnet&oldid=6339] -->
-
-[Kampftalent]: ./skills-list.md "Liste der Talente"
-[bewachen]: ./cmd-guard.md "GUARD"
-[Monster]: ./monsters.md "Monster"

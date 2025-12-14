@@ -1,3 +1,6 @@
+---
+alias: tipps-und-tricks
+---
 # Tipps und Tricks
 
 ## Man muss nicht immer reiten können
@@ -40,7 +43,7 @@ Fazit: Wer auf die Entwicklung der Bevölkerungszahl achtet, wirft damit auch ei
 
 ## Warenlager
 
-Ein Warenlager in einer Region besteht aus einer Einheit, die möglichst weit oben in der Zugvorlage steht (z.B. der Burgherr der ältesten Burg) und an die überschüssige Waren abgegeben werden. Benötigt eine andere Einheit etwas davon, so kann sie es sich (bei eingeschaltetem Materialpool) per [RESERVIERE] selbst nehmen. Das Warenlager sollte deshalb weit oben stehen, weil `RESERVIERE` die Einheiten einer Region der Reihe nach durchgeht und sich benötigte Gegenstände von der ersten verfügbaren Einheit nimmt, die diese Gegenstände besitzt. Ein weiterer Vorteil, man sieht auf einem Blick, welche Gegenstände verfügbar sind.
+Ein Warenlager in einer Region besteht aus einer Einheit, die möglichst weit oben in der Zugvorlage steht (z.B. der Burgherr der ältesten Burg) und an die überschüssige Waren abgegeben werden. Benötigt eine andere Einheit etwas davon, so kann sie es sich (bei eingeschaltetem Materialpool) per [[bef-reserviere]] selbst nehmen. Das Warenlager sollte deshalb weit oben stehen, weil `RESERVIERE` die Einheiten einer Region der Reihe nach durchgeht und sich benötigte Gegenstände von der ersten verfügbaren Einheit nimmt, die diese Gegenstände besitzt. Ein weiterer Vorteil, man sieht auf einem Blick, welche Gegenstände verfügbar sind.
 
 \[E2-Tipp\]: Lernt das Warenlager permanent Tarnung, entzieht sich der Lagerbestand hoffentlich einem wenig talentierten herumziehenden oder anschwimmenden Spion einer unfreundlichen Partei. Eine andere Theorie fordert ein hohes Wahrnehmungstalent, damit das Lager nur schwer bestohlen werden kann - um dies zu verhindern reicht aber auch ein guter Wahrnehmer der gleichen Partei zusätzlich zum Lager.
 
@@ -48,7 +51,7 @@ Ein Warenlager in einer Region besteht aus einer Einheit, die möglichst weit ob
 
 Magier, Wahrnehmer, Taktiker und andere wichtige Einheiten sollten im NR so weit wie möglich oben stehen. Silber wird eigentlich immer (eine Garantie seitens der SL gibt es hierfür nicht!) von oben nach unten verteilt. Gibt es in einer Region durch eine Unachtsamkeit oder Diebstahl nicht genug Silber um alle Personen zu versorgen nehmen sich die oberen Einheiten zuerst das Essen und die unteren müssen (ver-)hungern. Hungert von einer Einheit auch nur eine einzelne Person so unterliegt die ganze Einheit dem Nachteil der Talenthalbierung. Die 100er Einheit Steuereintreiber ganz unten in der Region stehen zu haben ist also eventuell auch nicht so clever.
 
-In die gewünschte Reihenfolge bekommt man die Einheiten mit dem Befehl [SORTIERE].
+In die gewünschte Reihenfolge bekommt man die Einheiten mit dem Befehl [[bef-sortiere]].
 
 ## Sichere (Schiffs-)routen
 
@@ -84,7 +87,7 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 [Trolle]: ./races.md#trolle "Troll"
 [Umherwandernde Bauern]: ./farmers-hike.md "Bauernwanderung"
 [Bauernvermehrung]: ./farmers-proliferation.md "Bauernvermehrung"
-[RESERVIERE]: ./cmd-reserve.md "RESERVIERE"
-[SORTIERE]: ./cmd-sort.md "SORTIERE"
+[bef-reserviere]: ./cmd-reserve.md "RESERVIERE"
+[bef-sortiere]: ./cmd-sort.md "SORTIERE"
 [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
 [Hinweise]: ./hints.md "Hinweise"

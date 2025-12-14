@@ -1,3 +1,0 @@
-# Geburtstagstorte
-
-<!-- TODO: add content -->

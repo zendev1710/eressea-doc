@@ -5,6 +5,11 @@ site_description: "Eressea documentation."
 site_author: zendev1710
 
 theme:
+  font:
+    # text: Roboto
+    # TODO: try some fonts like : Merriweather, Lora, Playfair Display (PT Serif? Crimson Text?)
+    text: Merriweather
+    code: Roboto Mono
   features:
     - content.tooltips
     - header.autohide
@@ -87,21 +92,17 @@ plugins:
           build: true
           nav_translations:
             Home: Accueil
-            Gameplay: Le jeu
+            Getting-started: Premiers pas
+            Gameplay: Jeu
             Exploration: Exploration
-            Production: Production
-            War: La guerre
-            Magic: La magie
-            Alchemy: L'alchimie
-            Orders: Les ordres
             References: Références
             Help: Aide
-            Troubleshootings: Dépannage
         - locale: de
           name: Deutsch
           build: true
           nav_translations:
             Home: Hauptseite
+            Getting-started: Erste Schritte
             Gameplay: Spielablauf
             Exploration: Erforschung
             Production: Produktion
@@ -112,29 +113,6 @@ plugins:
             References: Referenzen
             Help: helfen
       docs_structure: suffix
-      # nav_translations:
-      #   fr: # Translations for French
-      #     Home: Accueil
-      #     Gameplay: Le jeu
-      #     Exploration: Exploration
-      #     Production: Production
-      #     War: La guerre
-      #     Magic: Magie
-      #     Alchemy: Alchimie
-      #     Orders: Ordres
-      #     References: Références
-      #     Help: Aide
-        # de: # Translations for French
-        #   home: Hauptseite
-        #   gameplay: Spielablauf
-        #   exploration: Erforschung
-        #   production: produktion
-        #   war: Krieg
-        #   magic: magie
-        #   alchemy: alchimie
-        #   orders: Befehle
-        #   references: Referenzen
-        #   help: helfen
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 
 # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/?h=language
@@ -188,125 +166,120 @@ markdown_extensions:
 # Page tree
 nav:
   - Home:
-    - Home: index.md
+    - index.md
+  - Getting-started:
     - Rules: rules.md
     - Introduction: introduction.md
-    - Troubleshootings: troubleshootings.md
+    - Weekly reports: weekly-report.md
   - Gameplay:
     - world.md
     - factions.md
-    - races/races.md
-    - races/skills-modifiers.md
-    - skills/skills.md
-    - skills/skill-list.md
+    - races.md
+    - skills-modifiers.md
+    - skills.md
     - camouflage.md
   - Exploration:
-    - travel/travel.md
-    - travel/sailing.md
+    - travel.md
+    - sailing.md
   - Production:
-    - production/production.md
-    - production/resources.md
-    - production/resources.md
-    - production/items.md
-    - production/roads.md
-    - production/ships.md
-    - production/buildings/buildings.md
-    - production/buildings/castles.md
-    - production/buildings/buildings-others.md
+    - production.md
+    - resources.md
+    - resources.md
+    - items.md
+    - roads.md
+    - ships.md
+    - buildings.md
+    - castles.md
+    - buildings-others.md
     - faction-pool.md
     - silver.md
     - items-pool.md
   - War:
     - war.md
     - alliances.md
-    # - tactics.md
-    # - armed.md
-    # - combat.md
+    - tactic.md
+    - armed.md
   - Magic:
-    - magic/magic.md
-    - magic/magic-schools.md
-    - magic/familiars.md
-    - magic/spells-list.md
-    - magic/spells-descriptions.md
-    # - magic/magic-school-cerddor.md
-    # - magic/magic-school-draig.md
-    #- magic/magic-school-gwyrrd.md
-    #- magic/magic-school-illaun.md
-    #- magic/magic-school-tybied.md
-    #- magic/magical-herb-bag.md
+    - magic.md
+    - magic-schools.md
+    - familiars.md
+    - spells-list.md
+    - spells-descriptions.md
+    #- magical-herb-bag.md
   - Alchemy:
-    - alchemy/alchemy.md
-    - alchemy/herbs.md
+    - alchemy.md
+    - herbs.md
   - Orders:
-    - orders/commands.md
-    - orders/commands-sequence.md
-    - orders/commands-short-descriptions.md
-    - orders/first-round.md
+    - commands.md
+    - commands-sequence.md
+    - commands-short-descriptions.md
+    - first-round.md
     # - puppy-protection.md
     # - commands-send.md
-    # - cmd-attack.md
-    # - cmd-banner.md
-    # - cmd-buy.md
-    # - cmd-carry.md
-    # - cmd-cast.md
-    # - cmd-claim.md
-    # - cmd-combat.md
-    # - cmd-combatspell.md
-    # - cmd-comment.md
-    # - cmd-contact.md
-    # - cmd-default.md
-    # - cmd-describe.md
-    # - cmd-destroy.md
-    # - cmd-email.md
-    # - cmd-end.md
-    # - cmd-enter.md
-    # - cmd-entertain.md
-    # - cmd-follow.md
-    # - cmd-forget.md
-    # - cmd-give.md
-    # - cmd-group.md
-    # - cmd-grow.md
-    # - cmd-guard.md
-    # - cmd-help.md
-    # - cmd-hide.md
-    # - cmd-language.md
-    # - cmd-learn-auto.md
-    # - cmd-learn.md
-    # - cmd-leave.md
-    # - cmd-make.md
-    # - cmd-message.md
-    # - cmd-move.md
-    # - cmd-name.md
-    # - cmd-next.md
-    # - cmd-number.md
-    # - cmd-option.md
-    # - cmd-origin.md
-    # - cmd-password.md
-    # - cmd-pay-not.md
-    # - cmd-piracy.md
-    # - cmd-plant.md
-    # - cmd-prefix.md
-    # - cmd-promote.md
-    # - cmd-quit.md
-    # - cmd-recruit.md
-    # - cmd-region.md
-    # - cmd-research.md
-    # - cmd-reserve.md
-    # - cmd-ride.md
-    # - cmd-route.md
-    # - cmd-sell.md
-    # - cmd-semicolon.md
-    # - cmd-show.md
-    # - cmd-sort.md
-    # - cmd-spy.md
-    # - cmd-steal.md
-    # - cmd-tax.md
-    # - cmd-teach.md
-    # - cmd-unit.md
-    # - cmd-use.md
-    # - cmd-work.md
-    # - cmd-eressea.md
-    # - cmd-locale.md
+  # - Commands:  
+    - cmd-attack.md
+    - cmd-banner.md
+    - cmd-buy.md
+    - cmd-carry.md
+    - cmd-cast.md
+    - cmd-claim.md
+    - cmd-combat.md
+    - cmd-combatspell.md
+    - cmd-comment-slash.md
+    - cmd-contact.md
+    - cmd-default.md
+    - cmd-describe.md
+    - cmd-destroy.md
+    - cmd-email.md
+    - cmd-end.md
+    - cmd-enter.md
+    - cmd-entertain.md
+    - cmd-follow.md
+    - cmd-forget.md
+    - cmd-give.md
+    - cmd-group.md
+    - cmd-grow.md
+    - cmd-guard.md
+    - cmd-help.md
+    - cmd-hide.md
+    - cmd-language.md
+    - cmd-learn-auto.md
+    - cmd-learn.md
+    - cmd-leave.md
+    - cmd-make.md
+    - cmd-message.md
+    - cmd-move.md
+    - cmd-name.md
+    - cmd-next.md
+    - cmd-number.md
+    - cmd-option.md
+    - cmd-origin.md
+    - cmd-password.md
+    - cmd-pay-not.md
+    - cmd-piracy.md
+    - cmd-plant.md
+    - cmd-prefix.md
+    - cmd-promote.md
+    - cmd-quit.md
+    - cmd-recruit.md
+    - cmd-region.md
+    - cmd-research.md
+    - cmd-reserve.md
+    - cmd-ride.md
+    - cmd-route.md
+    - cmd-sell.md
+    - cmd-comment.md
+    - cmd-show.md
+    - cmd-sort.md
+    - cmd-spy.md
+    - cmd-steal.md
+    - cmd-tax.md
+    - cmd-teach.md
+    - cmd-unit.md
+    - cmd-use.md
+    - cmd-work.md
+    - cmd-eressea.md
+    - cmd-locale.md
     # - commands-extended.md
     # - commands-list.md
     # - commands-send-from-magellan.md
@@ -314,28 +287,36 @@ nav:
      # - misc
     # - weekly-report.md
   - References:
-      - appendices/potions-and-herbs.md
-      - appendices/terrains.md
-      - appendices/war-tables.md
+      - terrains.md
+      - skills-list.md
+      - war-tables.md
+      - potions-and-herbs.md
+      - Magic:
+        - magic-school-cerddor.md
+        - magic-school-draig.md
+        - magic-school-gwyrrd.md
+        - magic-school-illaun.md
+        - magic-school-tybied.md
       - Items:
-        - appendices/items/adamantium-armor.md
-        - appendices/items/adamantium.md
-        - appendices/items/amulet-of-true-vision.md
-        - appendices/items/antimagic-crystal.md
-        - appendices/items/belt-of-troll-strength.md
-        - appendices/items/dream-eye.md
-        - appendices/items/flaming-sword.md
-        - appendices/items/iron-golem.md
-        - appendices/items/mountain-guard.md
-        - appendices/items/negative-weight-bag.md
-        - appendices/items/ring-of-invisibility.md
-        - appendices/items/ring-of-power.md
-        - appendices/items/sphere-of-invisibility.md
-        - appendices/items/stardust.md
-        - appendices/items/stone-golem.md
-        - appendices/items/sun-sail.md
+        - adamantium-armor.md
+        - adamantium.md
+        - amulet-of-true-vision.md
+        - antimagic-crystal.md
+        - belt-of-troll-strength.md
+        - dream-eye.md
+        - flaming-sword.md
+        - iron-golem.md
+        - mountain-guard.md
+        - negative-weight-bag.md
+        - ring-of-invisibility.md
+        - ring-of-power.md
+        - sphere-of-invisibility.md
+        - stardust.md
+        - stone-golem.md
+        - sun-sail.md
   - Help:
-    - faq.md
     - tips-and-tricks.md
     - tutorials.md
+    - faq.md
+    - troubleshootings.md
   

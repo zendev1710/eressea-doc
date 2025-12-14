@@ -5,7 +5,7 @@ alias:
 ---
 # Home
 
-Welcome to [Eressea]!
+Welcome to [[eressea]]!
 
 In this documentation, we collect information for Eressea players.
 
@@ -13,9 +13,9 @@ This documentation is **under construction**! If you'd like to help, please join
 
 ## What is here?
 
-- The [rules]
+- The [[rules]]
 - [Registering for the game]
-- [E-Announce][]: mailing list for rules changes — IMPORTANT!
+- [E-Announce]: mailing list for rules changes — IMPORTANT!
 - [Tools]
 - [Tips for beginners]
 - The [story of Eressea]

@@ -4,7 +4,7 @@
 
 ## Building the web site
 
-In a PowerShell console, from the folder containing the `docs` folder:  `mkdocs build`
+In a PowerShell console, from the folder containing the `docs` folder:  `mkdocs build` or `mkdocs build *> build.log`
 
 ## Running in local mode
 

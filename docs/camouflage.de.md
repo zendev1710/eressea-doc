@@ -1,3 +1,6 @@
+---
+alias: tarnung
+---
 # Tarnung
 
 Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
@@ -8,7 +11,7 @@ Getarnte Einheiten kann man mit dem Talent *Wahrnehmung* entdecken. Ist das best
 
 ## Bewachen unterlaufen
 
-Für erfolgreich getarnte Einheiten zählen die Restriktionen von [BEWACHE][Bewacht] nicht. Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
+Für erfolgreich getarnte Einheiten zählen die Restriktionen von [[bef-bewache]][Bewacht] nicht. Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
 
 ## Fluchtchance erhöhen
 
@@ -16,7 +19,7 @@ Die Standardfluchtchance einer Einheit im [Kampf] beträgt 25% (Halblinge 50%). 
 
 ## Diebstahl von Silber
 
-Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [`BEKLAUE`] Silber stehlen. Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region. Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber. Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen. Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem. Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch. Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
+Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [[bef-beklaue]] Silber stehlen. Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region. Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber. Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen. Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem. Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch. Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
 
 Goblins klauen, sofern sie Tarnung bis mindestens Stufe 4 gelernt haben, immer mindestens 50 Silber, auch wenn ihre Tarnung unter dem Wahrnehmungstalent liegt. Solcher Diebstahl fällt natürlich auf und ist daher nur unter bestimmten Umständen sinnvoll. Man hört, Goblinarmeen haben dem Gegner schon durch Nahrungsentzug den entscheidenden Schlag versetzt.
 
@@ -40,7 +43,7 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 
 ## Siehe auch
 
-- [BEWACHE][Bewacht]
+- [[bef-bewache]][Bewacht]
 - [Einnahmen]
 
 Weiterlesen: [Reisen].
@@ -52,7 +55,7 @@ Weiterlesen: [Reisen].
 [Talent]: ./skills.md "Talente"
 [Bewacht]: ./cmd-guard.md "BEWACHE"
 [Kampf]: ./war.md#die-flucht "Krieg"
-[`BEKLAUE`]: ./cmd-steal.md "BEKLAUE"
+[bef-beklaue]: ./cmd-steal.md "BEKLAUE"
 [Spionage]: ./skills-list.md#spionage "Spionage"
 [Kampfstatus]: ./cmd-combat.md "KÄMPFE"
 [Einnahmen]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"

@@ -1,3 +1,6 @@
+---
+alias: welt
+---
 # Welt
 
 ## Die Landschaft von Eressea
@@ -16,7 +19,7 @@ Die Welt von Eressea besteht aus einer Vielzahl von Inseln und Kontinenten von g
 
 > Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert. Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.
 
-In diesem Beispiel ist bei (0,0) ein Sumpf, nordöstlich davon bei (0,1) ein Gebirge. Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [URSPRUNG] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.
+In diesem Beispiel ist bei (0,0) ein Sumpf, nordöstlich davon bei (0,1) ein Gebirge. Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [[bef-ursprung]] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.
 
 > "Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze. "Solche Karten dienen vor allem der Navigation unserer Schiffe. Wie du aber sicher leicht einsiehst, enthalten sie nicht sehr viele Informationen. Deshalb ..." - und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben der Karte auf dem Tisch gelegen hatte, - "... deshalb bekommen wir von jedem unserer Kundschafter jede Woche einen ausführlichen Bericht über die erforschten Regionen. Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."
 
@@ -62,8 +65,8 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 ## Siehe auch
 
 - [Geld]
-- [REKRUTIERE]
-- [UNTERHALTE]
+- [[bef-rekrutiere]]
+- [[bef-unterhalte]]
 
 Weiterlesen: [Parteien].
 
@@ -71,13 +74,13 @@ Weiterlesen: [Parteien].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[URSPRUNG]: ./cmd-origin.md "URSPRUNG"
+[bef-ursprung]: ./cmd-origin.md "URSPRUNG"
 [Geländearten]: ./terrains.md "Geländearten"
 [Kräuter]: ./herbs.md "Kräuter"
-[REKRUTIERE]: ./silver.md#recruiting "REKRUTIERE"
+[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
 [Befehle]: ./commands.md "Befehle"
 [Insekt]: ./races.md#insekten "Insekt"
 [See]: ./travel.md "Reisen"
 [Waldwachstums]: ./resources.md#tief-im-wald "Rohstoffe"
 [Geld]: ./silver.md "Geld"
-[UNTERHALTE]: ./cmd-entertain.md "UNTERHALTE"
+[bef-unterhalte]: ./cmd-entertain.md "UNTERHALTE"

@@ -8,7 +8,7 @@ Les unités camouflées peuvent être découvertes grâce à la compétence **Pe
 
 ## Contrecarrer la garde
 
-Les unités camouflées avec succès ne sont pas soumises aux conséquences de [GUARD]. Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.
+Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard]]. Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.
 
 ## Augmenter les chances de fuite
 
@@ -16,7 +16,7 @@ La chance de fuite standard d'une unité en [combat] est de 25% (50% pour les ha
 
 ## Vols de Silver
 
-Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [`STEAL`]. Ici aussi, la perception la plus élevée de la faction volée dans la région compte. Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver. Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région. La faction volée reçoit un message indiquant qu'elle a été volée, mais pas par qui. Si le niveau de stealth est seulement égal au niveau de perception, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative. Si le niveau de stealth est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.
+Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal]]. Ici aussi, la perception la plus élevée de la faction volée dans la région compte. Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver. Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région. La faction volée reçoit un message indiquant qu'elle a été volée, mais pas par qui. Si le niveau de stealth est seulement égal au niveau de perception, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative. Si le niveau de stealth est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.
 
 Les gobelins, s'ils ont appris stealth jusqu'au niveau 4 au moins, volent toujours au moins 50 Silver, même si leur niveau de stealth est inférieur à celui de perception. Un tel vol se remarque bien sûr et n'a donc de sens que dans certaines circonstances. On entend dire que les armées gobelines ont déjà porté un coup décisif à leurs adversaires en les privant de nourriture.
 
@@ -40,7 +40,7 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 
 ## Voir aussi
 
-- [GUARD]
+- [[cmd-guard]]
 - [revenus]
 
 Poursuivre la lecture : [déplacements](./travel.md).

@@ -1,6 +1,9 @@
+---
+alias: accueil
+---
 # Accueil
 
-Bienvenue dans [Eressea] !
+Bienvenue dans [[eressea]] !
 
 Dans cette documentation, nous rassemblons les informations pour les joueurs d'Eressea.
 
@@ -8,20 +11,20 @@ Cette documentation est **en construction** ! Si vous souhaitez y contribuer, n'
 
 ## Ce qu'on y trouve
 
-- [Les règles]
+- Les [[regles]]
 - [L'inscription au jeu]
-- [E-Announce][] : la mailing list pour les modifications de règles — **IMPORTANT** !
+- [E-Announce] : la mailing list pour les modifications de règles — **IMPORTANT** !
 - [Les outils indispensables pour jouer]
 - [Conseils pour les nouveaux joueurs]
-- [L'histoire d'Eressea] : Eressea provient d'[Atlantis]
+- [L'histoire d'Eressea] : Eressea provient d'[[atlantis]]
 - [Questions fréquentes (FAQ)]
 
 ## Liens utiles
 
-- [Séquence des ordres] : **la page la plus importante** des règles !
-- [Tactics] - Combien de tacticiens pour quels bonus
-- [Les Familiers] - Tout sur ces créatures magiques
-- [Développement] d'outils et de scripts
+- [[sequence-des-ordres]] : **la page la plus importante** des règles !
+- [[tactique]] - Combien de tacticiens pour quels bonus
+- [[familiers]] - Tout sur ces créatures magiques
+- [[developpement]] d'outils et de scripts
 - [Xontormia Express] - La gazette et ses [numéros archivés]
 - Les archives des [annonces] des changements de règles
 - [Les pages des joueurs]
@@ -74,31 +77,24 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]
 - [Un génerateur de casus belli]
 
-Poursuivre la lecture : [Les règles].
+Poursuivre la lecture : [[regles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
-<!--
-[Eressea]: ./eressea.md "Eressea"
-[Discord]: https://discord.gg/KT5Fffh
-[Les règles]: ./rules.md "Règles du jeu"
-[L'inscription au jeu]: https://www.eressea.de/?page_id=186
-[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [Conseils pour les nouveaux joueurs]: ./getting-started-tips.md "Anfängertipps"
 [L'histoire d'Eressea]: ./eressea-story.md "Geschichte von Eressea"
-[Atlantis]: ./atlantis.md "Atlantis"
 [Questions fréquentes (FAQ)]: ./faq.md "FAQ"
-[Séquence des ordres]: ./commands-sequence.md "Séquence des ordres"
-[Tactics]: ./tactic.md "Taktik"
-[Les Familiers]: ./familiars.md "Les Familiers"
-[Développement]: ./development.md "Développement"
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
-[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
-[annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Les pages des joueurs]: ./player-pages.md "Pages des joueurs"
 [Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
 [Le Troisième Âge]: ./the-third-age.md "Le Troisième Âge"
+
+[Discord]: https://discord.gg/KT5Fffh
+[L'inscription au jeu]: https://www.eressea.de/?page_id=186
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Aperçu de nos réflexions concernant les races]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les races au Troisième Âge (wiki)"
 [Annonces de la liste de diffusion e3-announce]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
@@ -115,4 +111,3 @@ Poursuivre la lecture : [Les règles].
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
 [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
 [Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/
--->

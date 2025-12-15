@@ -309,7 +309,6 @@ Weiterlesen: [[alliances|Allianz]].
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [Flucht]: ./war.md#die-flucht "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
-[BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
 [Helden]: ./cmd-promote.md "BEFÖRDERUNG"
 [Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"

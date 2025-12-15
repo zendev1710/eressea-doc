@@ -85,7 +85,7 @@ Sailing et riding sont expliquées dans le chapitre sur les [déplacements]. rid
 
 ### Combat skills
 
-Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des monstres.
+Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
 
 Continue reading: [skills list].
 
@@ -95,19 +95,20 @@ Continue reading: [skills list].
 
 [unité]: ./cmd-unit.md "Einheiten"
 [race]: ./races.md "Rassen"
-[nain]: ./races.md#nains "Zwerg"
 [enseigner]: ./cmd-teach.md "TEACH"
-[académie]: ./buildings-others.md#academy "Akademie"
 [LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
 [magie]: ./magic.md "Magie"
 [alchimie]: ./skills-list.md "Skills list"
 [tactics]: ./tactic.md "Taktik"
-[1]: ./buildings-others.md#academy "Andere Gebäude"
 [production]: ./production.md "Produktion"
 [2]: ./alchemy.md "Alchemie"
 [l'argent]: ./silver.md "Argent"
-[espionage]: ./skills-list.md#espionnage "Spionage"
 [stealth]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
 [déplacements]: ./travel.md "Reisen"
 [combats]: ./war-tables.md "Kampf"
+
+[espionage]: ./skills-list.md#espionnage "Spionage"
+[1]: ./buildings-others.md#academy "Andere Gebäude"
+[académie]: ./buildings-others.md#academy "Akademie"
+[nain]: ./races.md#dwarves "Zwerg"

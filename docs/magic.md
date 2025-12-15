@@ -5,7 +5,7 @@ alias:
 ---
 # Magic
 
-Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [[krieg|kampf]] den Feind schwächen oder Verbündete stärken.
+Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [[war|kampf]] den Feind schwächen oder Verbündete stärken.
 
 ## The Study of Magic
 
@@ -82,7 +82,7 @@ oder so
 
 Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.
 
-Normale Zauber werden mit dem Befehl [[cmd-cast]] gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe [Befehlsreihenfolge]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
+Normale Zauber werden mit dem Befehl [[cmd-cast]] gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe [[commands-sequence|Befehlsreihenfolge]]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
 
 Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl [COMBATSPELL LEVEL n "Zauber"] gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl [COMBATSPELL "Zauber" NOT][COMBATSPELL LEVEL n "Zauber"] oder alle gesetzten Kampfzauber mit [COMBATSPELL NOT][COMBATSPELL LEVEL n "Zauber"]. Kampfzauber wirken in etwa wie die [COMBAT-Befehle], d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.
 
@@ -114,7 +114,7 @@ Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit
 
 Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit". Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann. In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.
 
-[CAST] ist ein pseudolanger Befehl vergleichbar mit [[cmd-attack]]. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.
+[[cmd-cast]] ist ein pseudolanger Befehl vergleichbar mit [[cmd-attack]]. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.
 
 Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. [Fernzauber] erhöhen ebenfalls die Zauberkosten.
 
@@ -187,11 +187,17 @@ Neben den Fernzaubern gibt es auch noch zwei andere Klassen von besonderen Sprü
 
 ### Magic with people and objects
 
-Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen. Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit [[cmd-contact]] den Magier kontaktiert. Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit [[cmd-contact]] signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.
+Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen.
+Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit [[cmd-contact]] den Magier kontaktiert.
+Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit [[cmd-contact]] signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.
 
 ### Rank
 
-Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers. Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt. Dabei ist Rang 1 der niedrigste und Rang 9 der höchste. Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert. Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.
+Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers.
+Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt.
+Dabei ist Rang 1 der niedrigste und Rang 9 der höchste.
+Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert.
+Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.
 
 **Example:**
 
@@ -209,23 +215,33 @@ Angenommen die Einheit hat die Befehle
        CAST "Beee"
        CAST "Aaaa"
 
-in dieser Reihenfolge. Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura. Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa". "Ceee" ist der zweite Zauber, er kostet also 5\*2^1=10 Aura. Nun kommt noch "Aaaa". "Aaaa" ist der dritte Zauber, er kostet also 10\*2^2=40 Aura.
+in dieser Reihenfolge.
+Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2.
+Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura.
+Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa".
+"Ceee" ist der zweite Zauber, er kostet also 5\*2^1=10 Aura. Nun kommt noch "Aaaa".
+"Aaaa" ist der dritte Zauber, er kostet also 10\*2^2=40 Aura.
 
 ## Blunder
 
-Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen. Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken. Zudem kann ein Zauberer einen Spruch auch verpatzen.
+Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen.
+Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken.
+Zudem kann ein Zauberer einen Spruch auch verpatzen.
 
-Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht. Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl."). Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.
+Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht.
+Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl.").
+Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.
 
 Die Wahrscheinlichkeit für einen Patzer hängt von vielen Faktoren ab, unter anderem von der Stufe, Schwierigkeitsgrad des Spruchs im Verhältnis zur Stufe, auf der der Spruch vom Magier gezaubert wird, dem Magiegebiet, dem Spruch, der Umgebung, dem Ziel usw.
 
 Patzer können äußerst unangenehme Nebenwirkungen haben! Überlebt die Einheit jedoch einen Patzer, sind diese normalerweise nicht permanent.
 
-Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance. Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):
+Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance.
+Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):
 
-- Der Zauber funktioniert, aber nachfolgende Sprüche werden viel teurer.
-- Alle Aura geht verloren, der Zauber funktioniert oder auch nicht.
-- Der Zauber funktioniert nicht und du wirst zur [Kröte] für 2 oder mehr Wochen.
+- Der Zauber funktioniert, aber nachfolgende Sprüche werden viel teurer
+- Alle Aura geht verloren, der Zauber funktioniert oder auch nicht
+- Der Zauber funktioniert nicht und du wirst zur [Kröte] für 2 oder mehr Wochen
 - Der Zauber funktioniert nicht und es gibt einen speziellen Effekt.
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
@@ -234,7 +250,8 @@ Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig
 
 ## Magic resistance
 
-Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:
+Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird.
+Die Magieresistenz einer Einheit ist:
 
 - die natürliche Magieresistenz der [Rassen]
 - plus 5% pro Magietalent
@@ -272,9 +289,18 @@ Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exe
 
 So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die *Welt der Geisterwesen*, andere wiederum die *astrale Welt*, am bekanntesten jedoch ist der Begriff *Astralraum*. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.
 
-Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber] möglich –, verschwindet vollständig aus der realen Welt. Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt. Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt. Sie können also Befehle wie [[cmd-move]] und [[cmd-attack]] erhalten und mit anderen Einheiten in der astralen Welt interagieren. Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
+Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber] möglich –, verschwindet vollständig aus der realen Welt.
+Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt.
+Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt.
+Sie können also Befehle wie [[cmd-move]] und [[cmd-attack]] erhalten und mit anderen Einheiten in der astralen Welt interagieren.
+Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
 
-Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen. Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft. Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild). Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen. Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet. Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
+Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen.
+Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft.
+Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild).
+Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen.
+Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet.
+Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 ![Astral space connection](../assets/images/astral-space-connection.jpg "Astral space connection")
@@ -282,17 +308,30 @@ Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen
 <figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
 -->
 
-Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt. Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb). Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost. Der "Bezugspunkt" ist die südwestliche Ecke davon. Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt. Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung. Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden. Je nach benutztem Zauber können noch weitere Einschränkungen gelten.
+Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt.
+Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb).
+Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost.
+Der "Bezugspunkt" ist die südwestliche Ecke davon.
+Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt.
+Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung.
+Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden.
+Je nach benutztem Zauber können noch weitere Einschränkungen gelten.
 
-Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf. Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können. Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.
+Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf.
+Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können.
+Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.
 
-Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten. Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen. Einzig *Elfenpferde* scheinen als magische Reittiere im Astralraum überleben zu können.
+Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten.
+Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen.
+Einzig *Elfenpferde* scheinen als magische Reittiere im Astralraum überleben zu können.
 
-Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben. Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
+Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben.
+Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
 
 ## Lists of all spells
 
-Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
+Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären.
+Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
 
 Continue reading: [[schools-of-magic]].
 
@@ -301,8 +340,6 @@ Continue reading: [[schools-of-magic]].
 [LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md "LEARN"
 [Partei]: ./factions.md "Partei"
 [Akademie]: ./buildings-others.md "Andere Gebäude"
-[CAST]: ./cmd-cast.md "CAST"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
 [COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md "COMBATSPELL"
 [COMBAT-Befehle]: ./war.md#kampfreihen "Krieg"
 [Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"

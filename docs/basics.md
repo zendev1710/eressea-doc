@@ -11,7 +11,7 @@ Die folgenden grundlegenden Dinge sollte jeder Spieler verstehen.
 
 ## Der Report
 
-Es gibt jede Woche zwei Reporte, in denen die selben Daten stehen. Der normale Report (NR) ist eine Textdatei die mit jedem Editor gelesen werden kann. Der Computerreport (CR) ist eine Datei, die von Tools wie [Magellan] und [CSMap] verstanden wird.
+Es gibt jede Woche zwei Reporte, in denen die selben Daten stehen. Der normale Report (NR) ist eine Textdatei die mit jedem Editor gelesen werden kann. Der Computerreport (CR) ist eine Datei, die von Tools wie [[magellan]] und [[csmap]] verstanden wird.
 
 Wir empfehlen Anfängern, ihre ersten Züge mit dem Normalreport und einem Texteditor zu machen. Die ersten Befehle sind selten mehr als ein Dutzend Zeilen, und man braucht kein Tool wie Magellan zur Erstellung. Im Gegenteil, weil diese Tools für das Management großer Parteien mit hunderten von Einheiten entwickelt wurden, haben sie eine Menge Features, die am Anfang eher verwirren, und von den wichtigen Informationen ablenken, die im normalen Report einfacher zu sehen sind.
 
@@ -19,9 +19,9 @@ Wir empfehlen Anfängern, ihre ersten Züge mit dem Normalreport und einem Texte
 
 Einheiten können nur eine lange [Aktion] Aktion pro Woche ausführen, aber beliebig viele kurze. ACHTUNG! Kampf kann eine lange Aktion, selbst wenn man nicht selber attackiert hat.
 
-## Kampf
+## Kampf|
 
-Kämpfe in Regionen die man nicht [bewacht] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [attackiert] hat, daran ihren langen Befehl auszuführen. Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der deine Partei angegriffen werden kann, deine Regionen bewachst.
+Kämpfe in Regionen die man nicht [[cmd-guard|bewacht]] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [[cmd-attack|attackiert]] hat, daran ihren langen Befehl auszuführen. Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der deine Partei angegriffen werden kann, deine Regionen bewachst.
 
 ## Hunger
 
@@ -53,10 +53,6 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Magellan]: ./magellan.md "Magellan"
-[CSMap]: ./csmapfx.md "CSMap"
-[Aktion]:./commands.md#kurze-und-lange-befehle "Orders"
-[bewacht]: ./cmd-guard.md "GUARD"
-[attackiert]: ./cmd-attack.md "ATTACK"
+[Aktion]:./commands.md#short-and-long-orders "Orders"
 [Hungern]: ./silver.md#starvation "Starvation"
 [Materialpool]: ./items-pool.md "Materialpool"

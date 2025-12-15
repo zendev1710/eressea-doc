@@ -59,6 +59,6 @@ Continue reading: [magic].
 [raise taxes]: ./silver.md "Silver"
 [recruit]: ./silver.md#recruiting "RECRUIT"
 [produce]: ./resources.md "Resources"
-[after battles]: ./war.md#kampfende "War"
+[after battles]: ./war.md#combat-rows "kampfende"
 [enter]: ./cmd-enter.md "ENTER"
 [`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md "HIDE"

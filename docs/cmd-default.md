@@ -7,7 +7,7 @@ alias:
 
 **`DEFAULT`**`"`*`befehl`*`"`
 
-`DEFAULT` ändert den [Befehl], den eine Einheit normalerweise *in der nächsten Woche* ausführen würde:
+`DEFAULT` ändert den [[orders|Befehl]], den eine Einheit normalerweise *in der nächsten Woche* ausführen würde:
 
 ## Zugvorlage und Defaultbefehle
 
@@ -143,14 +143,12 @@ Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus
 
 ## See also
 
-- [Befehle][Befehl]
+- [[orders|Befehl]]
 - [Befehle einschicken]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 
-[Befehl]: ./commands.md "Orders"
-[`OPTION`]: ./cmd-option.md "OPTION"
-[langen Befehle]: ./commands.md#kurze-und-lange-befehle "Orders"
+[langen Befehle]: ./commands.md#short-and-long-orders "Orders"
 [//]: ./cmd-comment-slash.md "Kommentar (to be documented)"
 [Lange Kommentare]: ./cmd-comment-slash.md "KOMMENTAR"
 [Befehle einschicken]: ./commands-send.md "Befehle einschicken"

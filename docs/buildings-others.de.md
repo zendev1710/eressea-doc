@@ -297,7 +297,7 @@ Weiterlesen: [Parteipool].
 [ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
 [HELFE BEWACHE]: ./cmd-help.md "HELFE"
 [ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[Tabelle zu Burgen]: ./castles.md#übersicht "Burgen"
+[Tabelle zu Burgen]: ./castles.md#uebersicht "Burgen"
 [gesegnet werden]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
 [Gebäude]: ./buildings.md "Gebäude"
 [Burgen]: ./castles.md "Burgen"

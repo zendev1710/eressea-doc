@@ -5,17 +5,21 @@ alias: bef-kommentar-slash
 
 **`//`**` `*`Kommentar`*
 
-Im Gegensatz zu einem Kommentar hinter einem [[bef-commentar|;]] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
+Im Gegensatz zu einem Kommentar hinter einem [[bef-kommentar|;]] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
 
-       EINHEIT 123;     Hundertdreiundzwanzig [20,450$]
-            // Unterhalt Magierturm
-          @GIB 234 1000 SILBER
-            // Ab und an Stangenwaffen lernen
-          TREIBE Steuern ein
+    ```
+    EINHEIT 123;     Hundertdreiundzwanzig [20,450$]
+        // Unterhalt Magierturm
+        @GIB 234 1000 SILBER
+        // Ab und an Stangenwaffen lernen
+        TREIBE Steuern ein
+    ```
 
 Das `//` muß wie ein Befehl behandelt werden, man darf also nicht
 
-          @GIB 345 100 SILBER // wegen Sägewerk
+    ```
+    @GIB 345 100 SILBER // wegen Sägewerk
+    ```
 
 machen. Außerdem muß ein Leerzeichen hinter den `//` sein.
 

@@ -18,8 +18,8 @@ Dämonen sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und
 - Alle Talente, in denen sie mindestens Talentstufe 1 haben (vor Rassenmalus), verschieben sich mit einer Wahrscheinlichkeit von 25% um bis zu 3 Lernwochen nach oben (mit 60% Chance) oder unten (mit 40% Chance; das Talent steigt oder sinkt also, nicht beides). Die Verschiebung erfolgt nach den langen Befehlen und der Bewegung. Negative Talentwerte entstehen dabei nicht; ein Talent kann nicht unter 0 fallen.
 - Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel].
 - [Rekrutierte] Dämonen werden nicht vom Bauernpool abgezogen. Aus spieltechnischen Gründen gilt aber trotzdem das Rekrutierungslimit.
-- Gibt man Dämonen mit [`GIB 0`] an die Bauern, kehren diese in ihre Heimatsphäre zurück, sie werden nicht zu Bauern.
-- Dämonen können sich als eine andere Rasse [tarnen].
+- Gibt man Dämonen mit [[bef-gib|`GIB 0`]] an die Bauern, kehren diese in ihre Heimatsphäre zurück, sie werden nicht zu Bauern.
+- Dämonen können sich als eine andere Rasse [[bef-tarne|tarnen]].
 - Im Nahkampf bewirkt jeder Treffer eines Dämons bei einem Gegner eine "1-Personen-Panik": die betroffene Person hat -1 auf ihr Kampftalent.
 - Verwundete Dämonen regenerieren sich mit 7,5% ihrer Trefferpunkte.
 
@@ -48,7 +48,7 @@ Goblins sind alleine klein und schwach; sie verlassen sich lieber auf List oder 
 
 Halblinge sind kleine Gesellen mit haarigen Füßen. Sie sind gute Händler und verstehen es, die Bauern zu unterhalten. Sie sind gute Baumeister, Pferde und [Schiffe] überlassen sie aber lieber anderen. Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
 
-- Halblinge, die in einem Kampf versuchen zu [fliehen], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [`KÄMPFE FLIEHE`]).
+- Halblinge, die in einem Kampf versuchen zu [fliehen], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [[bef-kaempfe|`KÄMPFE FLIEHE`]]).
 - Halblinge haben einen Angriffs- und Schadens-Bonus von je +5 im Kampf gegen [Drachen].
 - Halblinge nehmen durch Hungern mehr Schaden als andere Rassen. (Zwischen 8 und 17 Punkten (1d10+7) Schaden.)
 
@@ -62,7 +62,7 @@ Insekten sind nicht sehr geeignet für unerfahrene Eressea-Spieler!
 - Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel].
 - Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie] ein [Trank] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
 - Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier]).
-- Insekten bekommen einen [Taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [Gruppen] in der Regel in verschiedenen Heeren!
+- Insekten bekommen einen [Taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [[bef-gruppe|Gruppen]] in der Regel in verschiedenen Heeren!
 - Insekten können in Wüsten und Sümpfen auch ohne Burgen [handeln].
 
 ## Katzen
@@ -85,7 +85,7 @@ Meermenschen sind im Wasser zu Hause, im Gebirge fühlen sie sich dagegen unwohl
 
 Menschen können alles ein bisschen, nichts so richtig schlecht aber auch nichts so richtig gut. Deshalb können sie die Schwächen ihrer Verbündeten oft ausgleichen und sind überall zu finden.
 
-- Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [geben lassen][`GIB 0`]. Es gibt keine Migranten mit [teuren Talenten], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
+- Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [[bef-gib|geben lassen]]. Es gibt keine Migranten mit [teuren Talenten], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
 
 Die Anzahl der *Migranten* errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50). Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen. Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden]. Die folgende Tabelle enthält einige Beispiele:
 
@@ -103,7 +103,7 @@ Orks sind ein recht kämpferisches Volk; schon in der Kindergrube wissen sie mit
 - Neu rekrutierte Orks starten mit je Talentstufe 1 in Hiebwaffen und Stangenwaffen.
 - Orks verdienen mit [[bef-arbeite]] weniger als andere Rassen.
 - Rekrutierte Orks werden - ähnlich dem zwergischen Eisenbonus - nur zu 50% von den Regionsbauern abgezogen. Ein rekrutierter Ork wird deshalb nur zur Hälfte vom Rekrutierungslimit der Region abgezogen. Es wird aufgerundet.
-- Analog gilt: Gibt man Orks mit [`GIB 0`] an die Bauern, so werden sie nur zur Hälfte zu den Bauern addiert. Hierbei wird allerdings abgerundet.
+- Analog gilt: Gibt man Orks mit [[bef-gib|`GIB 0`]] an die Bauern, so werden sie nur zur Hälfte zu den Bauern addiert. Hierbei wird allerdings abgerundet.
 - Unbewaffnete Orks kämpfen im Nahkampf nicht wie andere Rassen mit -2, sondern mit (bestes Nahkampftalent - 3). Zum Steuereintreiben benötigen sie trotzdem Waffen.
 - Orks sind langsame Denker und lernen generell alle Nicht-Waffentalente etwas langsamer als andere Rassen.
 
@@ -133,32 +133,26 @@ Weiterlesen: [Talentmodifikatoren].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
-[Boni bzw. Mali]: ./skills-modifiers.md "Talentmodifikatoren"
-[Hungerregel]: ./silver.md#hunger "Hunger"
-[Rekrutierte]: ./silver.md#ausgaben#rekrutieren "Ausgaben"
-[`GIB 0`]: ./cmd-give.md "GIB"
-[tarnen]: ./cmd-hide.md "TARNE"
-[Regionskapazität]: ./world.md "Welt"
-[Magier]: ./magic.md "Magic"
-[Elfenbögen]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
+[Boni bzw. Mali]: ./skills-modifiers.md
+[Hungerregel]: ./silver.md#hunger
+[Rekrutierte]: ./silver.md#rekrutieren
+[Regionskapazität]: ./world.md
+[Magier]: ./magic.md
+[Elfenbögen]: ./war-tables.md#waffeneigenschaften
 [klauen]: ./cmd-steal.md "BEKLAUE"
-[Schiffe]: ./ships.md "Schiff"
+[Schiffe]: ./ships.md
 [fliehen]: ./war.md#die-flucht "Krieg"
-[`KÄMPFE FLIEHE`]: ./cmd-combat.md "KÄMPFE"
-[Drachen]: ./monsters.md#drachen "Drachen"
-[Alchemie]: ./skills-list.md "Liste der Talente"
-[Trank]: ./alchemy.md "Tränke"
-[hier]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
+[Drachen]: ./monsters.md#drachen
+[Alchemie]: ./skills-list.md
+[Trank]: ./alchemy.md
+[hier]: ./war-tables.md#rasseneigenschaften
 [Taktik]: ./tactic.md "Taktik"
-[Gruppen]: ./cmd-group.md "Gruppen (to be documented)"
-[handeln]: ./silver.md#handel "Geld"
-[bewegen]: ./travel.md "Reisen"
-[lange Befehle]: ./commands.md "Befehl"
-[Anschwimmen]: ./travel.md#anschwimmen "Schiffsreisen"
-[bef-arbeite]: ./cmd-work.md "ARBEITE"
-[teuren Talenten]: ./skills.md "Talente"
+[handeln]: ./silver.md#handel
+[bewegen]: ./travel.md
+[lange Befehle]: ./commands.md
+[Anschwimmen]: ./travel.md#anschwimmen
+[teuren Talenten]: ./skills.md
 [Helden]: ./cmd-promote.md "BEFÖRDERE"
-[abgebaute Steine]: ./resources.md#vom-bergbau "Rohstoffe"
-[Steinbruch]: ./buildings-others.md#steinbruch "Andere Gebäude"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
-[11]: ./buildings-others.md#bergwerk "Andere Gebäude"
+[abgebaute Steine]: ./resources.md#vom-bergbau
+[Steinbruch]: ./buildings-others.md#steinbruch
+[11]: ./buildings-others.md#bergwerk

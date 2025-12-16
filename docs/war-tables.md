@@ -76,13 +76,15 @@ Increased hit points through endurance. Formula: (lvl/2)^(1.5) x 20%.
 | Trolls                |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 | ... |   153 | ... |   219 | ... |   295 | ... |    378 | ... |    469 | ... |    566 |
 | Demons                |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 | ... |   255 | ... |   366 | ... |   491 | ... |    630 | ... |    782 | ... |    944 |
 
-## Wound status
+## Health status
 
-Exhausted: < 99% HP
-Wounded: < 75% HP
-Severely wounded: < 50% HP
-Strong: > 150% HP
-Very strong: > 200% HP
+A unit can be in one of the following health status:
+
+- Exhausted: < 99% HP
+- Wounded: < 75% HP
+- Severely wounded: < 50% HP
+- Strong: > 150% HP
+- Very strong: > 200% HP
 
 ## Armor
 
@@ -116,7 +118,7 @@ The final result is always rounded down to the defender's disadvantage, meaning 
 
 ## Races and their characteristics
 
-Hit points (HP), magic resistance (R), and natural armor (NA).
+Hit points (HP), magic resistance (R.), and natural armor (NA).
 
 | Race      | HP |  R. | NA |
 |-----------|---:|----:|---:|
@@ -132,23 +134,27 @@ Hit points (HP), magic resistance (R), and natural armor (NA).
 | Insects   | 24 |   5 |  2 |
 | Cats      | 20 |   0 |  0 |
 
-Natural armor reduces damage from hits, just like the protection provided by armor or shields described above. Natural armor of certain races is semi-cumulative, meaning half of the natural armor value (rounded down) is added to the damage.
+Natural armor reduces damage from hits, just like the protection provided by armor or shields described above.
+Natural armor of certain races is semi-cumulative, meaning half of the natural armor value (rounded down) is added to the damage.
 
 Trolls have a natural armor value of 1. This means that without any other armor, a troll has this armor value of 1, and damage from hits is reduced by 1. Natural armor does not increase a troll's overall protection.
 If a troll is wearing armor or a shield, only one zero is added (half the natural armor value, rounded down).
 If a troll is wearing chainmail, their armor value is 3.
 
 An insect or a demon wearing chainmail, on the other hand, has an armor rating of 4.
-The maximum achievable with conventional equipment is an armor rating of 7 with plate armor and a shield. With armor made of Laen armor, an armor rating of 9 is even possible, and with adamantium, a rating of 10. Such a well-armored unit is difficult to wound with simple weapons like swords or bows, as the armor can absorb much of the damage.
+The maximum achievable with conventional equipment is an armor rating of 7 with plate armor and a shield.
+With armor made of Laen armor, an armor rating of 9 is even possible, and with adamantium, a rating of 10.
+Such a well-armored unit is difficult to wound with simple weapons like swords or bows, as the armor can absorb much of the damage.
 
 ## Magic resistance
 
 Magic resistance is a special attribute that can be influenced by race and equipment, as well as by certain spells.
 It indicates what percentage of magical damage is reduced by combat spells.
 
-All Mallorn weapons increase magic resistance by 15%, all Laen weapons and armor by 30%. The combination of natural magic resistance, weapon, armor, and shield is not simply added together, but multiplied like the hit chance modification.
+All Mallorn weapons increase magic resistance by 15%, all Laen weapons and armor by 30%.
+The combination of natural magic resistance, weapon, armor, and shield is not simply added together, but multiplied like the hit chance modification.
 
-An elf with a longsword and full longsword armor (shield + chain) therefore does *not* have 10+30+30+30=100% resistance but 90%\*70%\*70%\*70%=31% -> 69% magic resistance.
+An elf with a longsword and full longsword armor (shield + chain) therefore does *not* have 10 + 30 +30 + 30 = 100% resistance but 90% x 70% x 70% x 70% = 31% -> 69% magic resistance.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 

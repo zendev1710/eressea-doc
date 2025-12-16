@@ -103,7 +103,7 @@ Weiterlesen: [Produktion].
 [bef-helfe]: ./cmd-help.md "HELFE"
 [bef-folge]: ./cmd-follow.md "FOLGE"
 [Piraterie]: ./war.md#piraterie "Krieg"
-[Waren]: ./items.md#gegenstände "Waren"
+[Waren]: ./items.md#gegenstaende "Waren"
 [Reisen]: ./travel.md#rassengewichte "Reisen"
 [Konvoi]: ./ships.md#konvoi "Schiffe"
 [Schiffe]: ./ships.md "Schiffe"

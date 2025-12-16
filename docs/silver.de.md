@@ -186,7 +186,7 @@ Weiterlesen: [Materialpool].
 [Kampfende]: ./war.md#kampfende "Kampfende"
 [Ausdauertalent]: ./war-tables.md "Kriegstabellen"
 [Untote]: ./monsters.md#untote "Untote"
-[Burgen-Tabelle]: ./castles.md#übersicht "Burg"
+[Burgen-Tabelle]: ./castles.md#uebersicht "Burg"
 [bef-beklaue]: ./camouflage.md "BEKLAUE"
 [Tarnungstalent]: ./camouflage.md "Tarnung"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"

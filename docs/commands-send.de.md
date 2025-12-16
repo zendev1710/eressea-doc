@@ -17,7 +17,7 @@ Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerde
 
 - [CSMapFX]
 - [ECheck]
-- [[bef-ehmv]]
+- [[ehmv]]
 - [Magellan][1]
   - [ExtendedCommands]
   - [FFTools2]
@@ -150,7 +150,6 @@ Weiterlesen: [Hinweise].
 [Magellan]: http://magellan-client.sf.net
 [CSMapFX]: ./csmapfx.md "CSMapFX"
 [ECheck]: ./echeck.md "ECheck"
-[bef-ehmv]: ./ehmv.md "EHMV"
 [1]: ./magellan.md "Magellan"
 [ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
 [FFTools2]: ./fftools.md "FFTools2"

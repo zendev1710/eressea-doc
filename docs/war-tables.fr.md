@@ -64,25 +64,25 @@ Remarques :
 
 Augmentation des points de vie grâce à l'endurance. Formula: (niv/2)^(1.5) x 20%.
 
-| Niveau d'endurance      | 0   | 1   | 2    | 3    | 4    | 5    | 6     | 7     | 8     | 9     | 10    | ... | 15    | ... | 20    | ... | 25    | ... | 30     | ... | 35     | ... | 40     |
-|-------------------------|-----|-----|------|------|------|------|-------|-------|-------|-------|-------|-----|-------|-----|-------|-----|-------|-----|--------|-----|--------|-----|--------|
+| Niveau d'endurance      |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 | ... |    15 | ... |    20 | ... |    25 | ... |     30 | ... |     35 | ... |     40 |
+|-------------------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|----:|------:|----:|------:|----:|------:|----:|-------:|----:|-------:|----:|-------:|
 | Trefferpunkte           | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | ... | +410% | ... | +632% | ... | +883% | ... | +1161% | ... | +%1464 | ... | +1788% |
-| Goblins                 | 16  | 17  | 19   | 21   | 25   | 28   | 32    | 36    | 41    | 46    | 51    | ... | 81    | ... | 117   | ... | 157   | ... | 201    | ... | 250    | ... | 302    |
-| Elfes/Halflinge         | 18  | 19  | 21   | 24   | 28   | 32   | 36    | 41    | 46    | 52    | 58    | ... | 91    | ... | 131   | ... | 177   | ... | 227    | ... | 281    | ... | 339    |
-| Chats/Aquariens/Humains | 20  | 21  | 24   | 27   | 31   | 35   | 40    | 46    | 52    | 58    | 64    | ... | 102   | ... | 146   | ... | 196   | ... | 252    | ... | 312    | ... | 377    |
-| Nains/Orcs/Insexten     | 24  | 25  | 28   | 32   | 37   | 42   | 48    | 55    | 62    | 69    | 77    | ... | 122   | ... | 175   | ... | 236   | ... | 302    | ... | 375    | ... | 453    |
-| Trolls                  | 30  | 32  | 36   | 41   | 46   | 53   | 61    | 69    | 78    | 87    | 97    | ... | 153   | ... | 219   | ... | 295   | ... | 378    | ... | 469    | ... | 566    |
-| Démons                  | 50  | 53  | 60   | 68   | 78   | 89   | 101   | 115   | 130   | 145   | 161   | ... | 255   | ... | 366   | ... | 491   | ... | 630    | ... | 782    | ... | 944    |
+| Goblins                 |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 | ... |    81 | ... |   117 | ... |   157 | ... |    201 | ... |    250 | ... |    302 |
+| Elfes/Halflinge         |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 | ... |    91 | ... |   131 | ... |   177 | ... |    227 | ... |    281 | ... |    339 |
+| Chats/Aquariens/Humains |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 | ... |   102 | ... |   146 | ... |   196 | ... |    252 | ... |    312 | ... |    377 |
+| Nains/Orcs/Insexten     |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 | ... |   122 | ... |   175 | ... |   236 | ... |    302 | ... |    375 | ... |    453 |
+| Trolls                  |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 | ... |   153 | ... |   219 | ... |   295 | ... |    378 | ... |    469 | ... |    566 |
+| Démons                  |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 | ... |   255 | ... |   366 | ... |   491 | ... |    630 | ... |    782 | ... |    944 |
 
 ## État de santé pour le combat
 
-Une unité peut être dans l'un des 5 états de santé suivants :
+Une unité peut être dans l'un des états de santé suivants :
 
-- Épuisé (*Exhausted*) : < 99% PV
+- Épuisé (*exhausted*) : < 99% PV
 - Wounded (*wounded*) : < 75% PV
 - Gravement blessé (*badly wounded*) : < 50% PV
 - Fort (*strong*) : > 150% PV
-- Très fort (*Very strong*) : > 200% PV
+- Très fort (*very strong*) : > 200% PV
 
 ## Armure
 
@@ -134,7 +134,8 @@ Points de vie (PV), résistance magique (R) et armure naturelle (AN).
 | Insectes  | 24 |   5 |  2 |
 | Chats     | 20 |   0 |  0 |
 
-L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment. L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.
+L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment.
+L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.
 
 Les trolls ont une armure naturelle de 1.
 Cela signifie que sans autre armure, un troll possède cette valeur d'armure de 1 et les dégâts qu'il subit sont réduits de 1. L'armure naturelle n'augmente pas la protection globale d'un troll. Si un troll porte une armure ou un bouclier, on ajoute seulement un zéro (la moitié de sa valeur d'armure naturelle, arrondie à l'inférieur).
@@ -150,9 +151,10 @@ Une unité aussi bien protégée est difficile à blesser avec des armes simples
 La résistance magique est un attribut spécial influencé par la race, l'équipement et certains sorts.
 Elle indique le pourcentage de dégâts magiques réduits par les sorts de combat.
 
-Toutes les armes Mallorn augmentent la résistance magique de 15 %, toutes les armes et armures Laen de 30 %. La combinaison de la résistance magique naturelle, de l'arme, de l'armure et du bouclier ne s'additionne pas simplement, mais se multiplie comme la modification des chances de toucher.
+Toutes les armes Mallorn augmentent la résistance magique de 15%, toutes les armes et armures Laen de 30%.
+La combinaison de la résistance magique naturelle, de l'arme, de l'armure et du bouclier ne s'additionne pas simplement, mais se multiplie comme la modification des chances de toucher.
 
-Un elfe avec une épée longue et une armure complète d'épée longue (bouclier + cotte de mailles) n'a donc *pas* 10+30+30+30=100% de résistance mais 90%\*70%\*70%\*70%=31% -> 69% de résistance magique.
+Un elfe avec une épée longue et une armure complète d'épée longue (bouclier + cotte de mailles) n'a donc *pas* 10 + 30 + 30 + 30 = 100% de résistance mais 90% x 70% x 70% x 70% = 31% -> 69% de résistance magique.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 

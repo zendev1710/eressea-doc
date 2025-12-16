@@ -7,9 +7,9 @@ alias: bef-bewache
 
 Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
-Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([`HELFE BEWACHE`] oder [[bef-kontaktiere]]), folgende Einschränkungen:
+Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
-- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[bef-handel]] oder Bauern rekrutieren.
+- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[handel]] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
 - Befinden sie sich auf einem Schiff, so können sie nicht [[bef-arbeite]]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[bef-verlasse]] haben.
 
@@ -33,7 +33,7 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 ## Siehe auch
 
-- [[bef-helfe]][`HELFE BEWACHE`]
+- [[bef-helfe|`HELFE BEWACHE`]]
 - [Allianz][alliiert]
 - [[bef-kontaktiere]][[bef-kontaktiere]]
 
@@ -42,7 +42,6 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 [Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [bewaffnet]: ./armed.md "Bewaffnet"
 [alliiert]: ./alliances.md "Allianz"
-[`HELFE BEWACHE`]: ./cmd-help.md "HELFE"
 [bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
 [Kampfende]: ./war.md#das-ende "Kampfende"
 [KÄMPFE FLIEHE]: ./cmd-combat.md "KÄMPFE"

@@ -40,7 +40,7 @@ theme:
       primary: teal
       accent: teal
       toggle:
-        icon: material/toggle-switch 
+        icon: material/toggle-switch
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -170,7 +170,14 @@ nav:
   - Getting-started:
     - Rules: rules.md
     - Introduction: introduction.md
+    - eressea.md
     - Weekly reports: weekly-report.md
+    - hints.md
+    - getting-started-tips.md
+    - basics.md
+    - commands-send.md
+    - commands-send-from-magellan.md
+    - puppy-protection.md
   - Gameplay:
     - world.md
     - factions.md
@@ -213,10 +220,11 @@ nav:
     - commands.md
     - commands-sequence.md
     - commands-short-descriptions.md
+    - commands-list.md
     - first-round.md
     # - puppy-protection.md
     # - commands-send.md
-  # - Commands:  
+  # - Commands:
     - cmd-attack.md
     - cmd-banner.md
     - cmd-buy.md
@@ -283,9 +291,43 @@ nav:
     # - commands-extended.md
     # - commands-list.md
     # - commands-send-from-magellan.md
-    - hints.md
-     # - misc
+    # - misc
     # - weekly-report.md
+  - Misc:
+    - Development:
+      - development.md
+      - auto-event-response.md
+      - auto-learning-chains.md
+      - auto-trading.md
+      - auto-transport.md
+      - auto-way-finding.md
+      - optimize-learning-chains.md
+      - optimize-production.md
+      - optimize-transport.md
+      - optimize-way-finding.md
+      - commands-extended.md
+      - reports.md
+      - cr-format.md
+      - move-template.md
+    - Tools:
+      - magellan.md
+      - csmapfx.md
+      - echeck.md
+      - fftools.md
+      - vorlage.md
+      - atlantis.md
+      - ehmv.md
+    - Events:
+      - birthday-cake.md
+      - christmas.md
+      - christmas-tree.md
+    # TODO: begin
+    - farmers-hike.md
+    - farmers-proliferation.md
+    - plague.md
+    # - the-third-age.md
+    - xontormia-express.md
+    # TODO: end
   - References:
       - terrains.md
       - skills-list.md
@@ -297,26 +339,40 @@ nav:
         - magic-school-gwyrrd.md
         - magic-school-illaun.md
         - magic-school-tybied.md
+      - Creatures:
+        - monsters.md
+        - dream-eye.md
+        - iron-golem.md
+        - stone-golem.md
+        - mountain-guard.md
+        - mistletoe.md
+        - snowman.md
+        - toad.md
       - Items:
         - adamantium-armor.md
         - adamantium.md
         - amulet-of-true-vision.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md
-        - dream-eye.md
         - flaming-sword.md
-        - iron-golem.md
-        - mountain-guard.md
+        - magical-herb-bag.md
         - negative-weight-bag.md
         - ring-of-invisibility.md
         - ring-of-power.md
+        - shell.md
         - sphere-of-invisibility.md
         - stardust.md
-        - stone-golem.md
         - sun-sail.md
+        - pentagram-and-tirawon.md
   - Help:
     - tips-and-tricks.md
     - tutorials.md
     - faq.md
     - troubleshootings.md
-  
+    - play-too-much-if.md
+    - Credits:
+      - thanks.md
+      - contributors.md
+      - player-pages.md
+      - eressea-join.md
+      - eressea-story.md

@@ -15,7 +15,7 @@ Die eigenen Einheiten werden alles annehmen, was alliierte Einheiten ihnen geben
 Achtung! Für die Übergabe einzelner Personen oder Einheiten an Einheiten einer anderen Partei mit dem Befehl [[bef-gib|GIB fremder-einheit anzahl PERSONEN]] muss weiterhin der [[bef-kontaktiere]]-Befehl explizit von der Empfänger-Partei benutzt werden! Ebenso kann für einige Zauber ein [[bef-kontaktiere]] notwendig sein.
 
 HELFE KÄMPFE  
-Eigene kampfbereite Einheiten (solche mit Kampfstatus vorne und hinten) werden mit in einen [Kampf] eingreifen, wenn die alliierte Partei angegriffen wird.
+Eigene kampfbereite Einheiten (solche mit Kampfstatus vorne und hinten) werden mit in einen [[krieg|kampf]] eingreifen, wenn die alliierte Partei angegriffen wird.
 
 HELFE SILBER  
 Hiermit unterstützen die eigenen Einheiten die alliierte Partei im Unterhalt, sofern sie nach dem Unterhalt für die eigenen Einheiten noch Silber übrig haben. Reicht das Silber der alliierten Einheiten nicht zur Ernährung, werden die eigenen Einheiten mit Silber aushelfen. Für das reine Bereitstellen von Unterhalt über HELFE SILBER ist kein HELFE GIB der Empfängerpartei notwendig.
@@ -43,8 +43,7 @@ Weiterlesen: [[magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->
 
-[Kampf]: ./war.md "Krieg"
 [Steuern eintreiben]: ./silver.md "Geld"
-[rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
+[rekrutieren]: ./silver.md#rekrutieren "REKRUTIERE"
 [Rohstoffe]: ./resources.md "Rohstoffe"
 [Kampfende]: ./war.md#das-ende "Kampfende"

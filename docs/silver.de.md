@@ -56,11 +56,13 @@ Verhungerte Bauern können später als [Untote] wiederauferstehen.
 
 ### Arbeiten
 
-Geld können Einheiten mit dem Befehl [[bef-arbeite]][Arbeiten] in der Landwirtschaft verdienen. Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze. Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [[bef-arbeiten]][1]).
+Geld können Einheiten mit dem Befehl [[bef-arbeite]] in der Landwirtschaft verdienen.
+Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze.
+Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [[bef-arbeite]]).
 
 Ein Bauer verdient normalerweise 11 Silber pro Runde. Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.
 
-Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter. Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [[bef-arbeite]][1] nachlesen.
+Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter. Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [[bef-arbeite]] nachlesen.
 
 Arbeiten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
@@ -184,7 +186,6 @@ Weiterlesen: [Materialpool].
 [Kampfende]: ./war.md#kampfende "Kampfende"
 [Ausdauertalent]: ./war-tables.md "Kriegstabellen"
 [Untote]: ./monsters.md#untote "Untote"
-[1]: ./cmd-work.md "ARBEITEN"
 [Burgen-Tabelle]: ./castles.md#übersicht "Burg"
 [bef-beklaue]: ./camouflage.md "BEKLAUE"
 [Tarnungstalent]: ./camouflage.md "Tarnung"

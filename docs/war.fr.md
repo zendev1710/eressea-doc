@@ -307,11 +307,11 @@ Poursuivre la lecture : [[alliances]].
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
 [Lignes de combat]: #lignes-de-combat "Lignes de combat"
 [fuir]: #la-fuite
-[combat en mer]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
+[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires "Kampf auf Schiffen"
 [la fuite]: ./war.md#la-fuite "Die Flucht"
 [non armés]: #boni-et-mali
 [Tacticien]: ./tactic.md "Taktik"
-[Héros]: #héros "Héros"
+[Héros]: ./#heros "Héros"
 [Caractéristiques des armes]: ./war-tables.md#waffeneigenschaften "Guerrestabellen"
 [Modificateurs de compétences]: ./war-tables.md#caractéristiques-raciales "Guerrestabellen"
 [ce]: ./war-tables.md#rüstung "Guerrestabellen"

@@ -5,7 +5,7 @@ alias:
 ---
 # RIDE
 
-**`RIDE`**[<sup>`L`</sup>]` `*`unit-id`*  
+**`RIDE`**[<sup>`L`</sup>]` `*`unit-id`*
 **`CARRY`**` `*`unit-id`*
 
 Mit dem Befehl `RIDE` schließt sich eine Einheit einer transportierenden Einheit an und kann von dieser, sofern sie den Befehl `CARRY` für die fahrende Einheit gegeben hat, mitgenommen werden. Durch diesen Befehl ist es möglich, auch ohne das Reiten-Talent auf Pferden oder Wagen zu reisen. Voraussetzung dafür ist natürlich, dass die transportierende Einheit über genügend freie Kapazitäten verfügt, um die fahrenden Einheiten samt Gegenständen aufzuladen.
@@ -41,6 +41,6 @@ Mit dem Befehl `RIDE` schließt sich eine Einheit einer transportierenden Einhei
 
 [<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
 [Meermenschen]: ./races.md#aquarians "Meermenschen"
-[Anschwimmen]: ./travel.md#swimming "Schiffsreisen"
+[Anschwimmen]: ./sailing.md#swimming "Schiffsreisen"
 [Insekten]: ./races.md#insects "Insects"
 [Reisen]: ./travel.md "Reisen"

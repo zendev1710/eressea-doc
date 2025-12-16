@@ -7,34 +7,32 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 
 ## Waffeneigenschaften
 
-Waffenschäden
-
-| Waffe               | Schaden/Fuß   | ⌀           | Schaden/Pferd | ⌀    | OB  | DB  | Talent | Summe OB + DB |
-|---------------------|---------------|-------------|---------------|------|-----|-----|--------|---------------|
-| Katapult ¹          | 3d10+5; 6 mal | 21,5; 6 mal | 3d10+5; 6 mal | 21.5 | \-4 | 0   | K      | \-4           |
-| Armbrust²           | 3d3+5         | 11          | 3d3+5         | 11   | 0   | 0   | A      | 0             |
-| Mallornarmbrust²    | 3d3+6         | 12          | 3d3+6         | 12   | 0   | 0   | A      | 0             |
-| Bogen               | 1d11+1        | 7           | 1d11+1        | 7    | \-2 | 0   | B      | \-2           |
-| Mallornbogen        | 1d11+2        | 8           | 1d11+2        | 8    | \-2 | 0   | B      | \-2           |
-| Elfenbogen          | 2d6+4         | 11          | 2d6+4         | 11   | \-2 | 0   | B      | \-2           |
-| Speer               | 1d10          | 5,5         | 1d12+2        | 8,5  | 0   | 0   | S      | 0             |
-| Mallornspeer        | 1d10+1        | 6,5         | 1d12+3        | 9,5  | 0   | 0   | S      | 0             |
-| Hellebarde          | 2d6+3         | 10          | 2d6+3         | 10   | \-1 | +2  | S      | +1            |
-| Lanze               | 1d5           | 3           | 2d6+5         | 12   | 0   | \-2 | S      | \-2           |
-| Mallornlanze        | 1d5+1         | 4           | 2d6+6         | 13   | 0   | \-2 | S      | \-2           |
-| Schwert             | 1d9+2         | 7           | 1d9+2         | 7    | 0   | 0   | H      | 0             |
-| Bihänder            | 2d8+3         | 12          | 2d8+3         | 12   | \-1 | \-2 | H      | \-3           |
-| Kriegsaxt           | 2d6+4         | 11          | 2d6+4         | 11   | +1  | \-2 | H      | \-1           |
-| Laenschwert         | 3d6+10        | 20,5        | 3d6+10        | 20,5 | +1  | +1  | H      | +2            |
-| Adamantiumaxt       | 3d4+15        | 22,5        | 3d4+15        | 22,5 | +2  | \-2 | H      | 0             |
-| Flammenschwert      | 3d6+10        | 20,5        | 3d6+10        | 20,5 | +1  | +1  | H      | +2            |
-| Rostige Hellebarde  | 2d6           | 7           | 2d6           | 7    | \-2 | +1  | S      | \-1           |
-| Schartiges Schwert  | 1d9           | 5           | 1d9           | 5    | \-1 | \-1 | H      | \-2           |
-| Rostiger Zweihänder | 2d8           | 9           | 2d8           | 9    | \-2 | \-3 | H      | \-5           |
-| Rostige Kriegsaxt   | 2d6           | 7           | 2d6           | 7    | 0   | \-3 | H      | \-3           |
-| Unbewaffnete³       | 1d5           | 3           | 1d6           | 3,5  | \-2 | \-2 |        | \-4           |
-| " Goblins           | 1d5           | 3           | 1d6           | 3,5  | \-2 | 0   |        | \-2           |
-| " Trolle            | 1d5+1         | 4           | \-            | \-   | \-2 | \-2 |        | \-4           |
+| Waffe               | Schaden/Fuß   | ⌀           | Schaden/Pferd | ⌀    |  OB |  DB | Talent| Summe |
+|---------------------|---------------|-------------|---------------|------|----:|----:|:-----:|-------:|
+| Katapult ¹          | 3d10+5; 6 mal | 21,5; 6 mal | 3d10+5; 6 mal | 21.5 | \-4 |   0 |   K   |    \-4 |
+| Armbrust²           | 3d3+5         | 11          | 3d3+5         | 11   |   0 |   0 |   A   |      0 |
+| Mallornarmbrust²    | 3d3+6         | 12          | 3d3+6         | 12   |   0 |   0 |   A   |      0 |
+| Bogen               | 1d11+1        |  7          | 1d11+1        |  7   | \-2 |   0 |   B   |    \-2 |
+| Mallornbogen        | 1d11+2        |  8          | 1d11+2        |  8   | \-2 |   0 |   B   |    \-2 |
+| Elfenbogen          | 2d6+4         | 11          | 2d6+4         | 11   | \-2 |   0 |   B   |    \-2 |
+| Speer               | 1d10          |  5,5        | 1d12+2        |  8,5 |   0 |   0 |   S   |      0 |
+| Mallornspeer        | 1d10+1        |  6,5        | 1d12+3        |  9,5 |   0 |   0 |   S   |      0 |
+| Hellebarde          | 2d6+3         | 10          | 2d6+3         | 10   | \-1 |  +2 |   S   |     +1 |
+| Lanze               | 1d5           |  3          | 2d6+5         | 12   |   0 | \-2 |   S   |    \-2 |
+| Mallornlanze        | 1d5+1         |  4          | 2d6+6         | 13   |   0 | \-2 |   S   |    \-2 |
+| Schwert             | 1d9+2         |  7          | 1d9+2         |  7   |   0 |   0 |   H   |      0 |
+| Bihänder            | 2d8+3         | 12          | 2d8+3         | 12   | \-1 | \-2 |   H   |    \-3 |
+| Kriegsaxt           | 2d6+4         | 11          | 2d6+4         | 11   |  +1 | \-2 |   H   |    \-1 |
+| Laenschwert         | 3d6+10        | 20,5        | 3d6+10        | 20,5 |  +1 |  +1 |   H   |     +2 |
+| Adamantiumaxt       | 3d4+15        | 22,5        | 3d4+15        | 22,5 |  +2 | \-2 |   H   |      0 |
+| Flammenschwert      | 3d6+10        | 20,5        | 3d6+10        | 20,5 |  +1 |  +1 |   H   |     +2 |
+| Rostige Hellebarde  | 2d6           |  7          | 2d6           |  7   | \-2 |  +1 |   S   |    \-1 |
+| Schartiges Schwert  | 1d9           |  5          | 1d9           |  5   | \-1 | \-1 |   H   |    \-2 |
+| Rostiger Zweihänder | 2d8           |  9          | 2d8           |  9   | \-2 | \-3 |   H   |    \-5 |
+| Rostige Kriegsaxt   | 2d6           |  7          | 2d6           |  7   |   0 | \-3 |   H   |    \-3 |
+| Unbewaffnete³       | 1d5           |  3          | 1d6           |  3,5 | \-2 | \-2 |       |    \-4 |
+| " Goblins           | 1d5           |  3          | 1d6           |  3,5 | \-2 |   0 |       |    \-2 |
+| " Trolle            | 1d5+1         |  4          | \-            |  \-  | \-2 | \-2 |       |    \-4 |
 
 - ¹ Katapulte schießen nur in der 1. Runde des Kampfes, treffen dort aber 6 Ziele.
 - ² Armbrüste schießen nur in der 1. Runde und in der 4. Runde. Bei einem Armbrusttreffer wird der Rüstungsschutz des Gegners halbiert und abgerundet.

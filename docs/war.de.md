@@ -260,7 +260,7 @@ Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][[bef-bewache]] Region anlanden, so müssen diese erst das Schiff [[bef-verlassen]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
+Will man mit einem Schiff Truppen in einer feindlich [bewachten][[bef-bewache]] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [[bef-helfe]][`HELFE KÄMPFE`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
@@ -320,7 +320,6 @@ Weiterlesen: [[alliances|Allianz]].
 [bef-bewache]: ./cmd-guard.md "BEWACHE"
 [Schiffe]: ./ships.md "Schiffe"
 [Schaden]: ./ships.md#schiffsschaden "Schiff"
-[bef-verlassen]: ./cmd-leave.md "VERLASSE"
 [`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
 [Rassen]: ./skills-modifiers.md "Talentmodifikatoren"

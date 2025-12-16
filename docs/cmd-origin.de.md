@@ -1,8 +1,11 @@
-# ORIGIN
+---
+alias: bef-ursprung
+---
+# URSPRUNG
 
-**`ORIGIN`**` `*`x y`*
+**`URSPRUNG`**` `*`x y`*
 
-Cette commande permet à une unité de déplacer le système de coordonnées de la faction. Cette opération place l'origine (0,0) du système de coordonnées de la faction dans la région (x,y).
+Mit diesem Befehl kann eine Einheit das Koordinaten-System der Partei versetzen. Der Ursprung (0,0) wird an die angegebene Position des jetzigen Koordinatensystems gesetzt.
 
 Hinweis: Der Befehl gilt für die Ebene, in der sich die Partei befindet (siehe auch [Astralraum]).
 

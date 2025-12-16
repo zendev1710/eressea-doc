@@ -27,8 +27,10 @@ So, to jointly attack an enemy, each attacking faction must attack at least one 
 
 Basically anyone to whom [`HELP COMBAT`] has been assigned, and who has not attacked anyone to whom [`HELP COMBAT`] has also been assigned is considered an ally.
 
-**Example 1:** A helps B and C. C attacks B, which is why A is involved in the battle: B is an ally. Faction C is not considered an ally because it is attacking an ally.  
-Who's fighting who now?  
+**Example 1:** A helps B and C. C attacks B, which is why A is involved in the battle: B is an ally. Faction C is not considered an ally because it is attacking an ally.
+
+Who's fighting who now?
+
 I fight my enemies. My enemies are factions that attack me, that I attack, or that attack an ally (according to the definition just given).
 
 **Example 2:** A helps B and C. B and C attack each other. In this situation, A helps neither B nor C, because neither of them is considered an ally and neither is an enemy of A.
@@ -39,7 +41,11 @@ I fight my enemies. My enemies are factions that attack me, that I attack, or th
 
 Player experience:In fact, it's even more complicated.
 
-**Warning:** Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes. Allies have stood by and done nothing or have even fought amongst themselves. There are a few tips to help you avoid the biggest blunders:
+!!! warning
+    Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes.
+    Allies have stood by and done nothing or have even fought amongst themselves.
+
+There are a few tips to help you **avoid the biggest blunders**:
 
 - You should regularly check the help statuses for all your allies. HELP ALL is preferable for anyone you *might* fight. Mistrust often does damage here.
 - If possible, there should only be one [[cmd-group]].
@@ -187,7 +193,7 @@ A halberd unit thus has +2 to its parry (in addition to any other bonuses or pen
 
 **Examples:**
 
-- Base chance of the attacker -&gt; BC = 30%  
+- Base chance of the attacker -&gt; BC = 30%
 
 Attacker with skill 3, defender skill 4 -&gt; hit chance = 25%  
 Defender in a citadel -&gt; parry +5 -&gt; hit chance = 0%  
@@ -221,16 +227,16 @@ The shooter effectively attacks with a 7 against the rider with 11. The resultin
 
 The attacker has a hit chance of (3 - 5) \* 5% + 30% = 20%.
 
-- - She will parry with 4 (skill 3, no castle bonus because she attacked, +1 pike bonus) against 6 (+2 horse bonus and +1 lance bonus).  
+- - She will parry with 4 (skill 3, no castle bonus because she attacked, +1 pike bonus) against 6 (+2 horse bonus and +1 lance bonus).
 
 The rider has a hit chance of (6 - 4) \* 5% + 30% = 40%.
 
 - A rider with riding 2 and melee 2 against a spear fighter with polearms 3:
-  - They attack with 4 (skill 2, +2 horse bonus) against 4 (skill 3 and +1 pike bonus).  
+  - They attack with 4 (skill 2, +2 horse bonus) against 4 (skill 3 and +1 pike bonus).
 
 The attacker has a hit chance of 30%.
 
-- - The spear fighter fights back with 3 against 4 (the pike bonus does not apply while attacking).  
+- - The spear fighter fights back with 3 against 4 (the pike bonus does not apply while attacking).
 
 The spear bearer has a hit chance of 25%.
 
@@ -319,13 +325,11 @@ Continue reading: [[alliances]].
 [`HELP COMBAT`]: ./cmd-help.md "HELP"
 [combat rows]: #combat-rows
 [flee]: #fleeing
-[`GROUP`]: ./cmd-group.md "GROUP"
 [combat at sea]: #combat-on-and-with-ships "Kampf auf Schiffen"
 [fleeing]: #fleeing "Fleeing"
 [unarmed]: #bonuses-and-mali "Boni and Mali"
 [1]: #bonuses-and-mali
 [Tactician]: ./tactic.md "Taktik"
-[PROMOTE]: ./cmd-promote.md "PROMOTE"
 [Heroes]: ./cmd-promote.md "BEFÖRDERUNG"
 [Weapon characteristics]: ./war-tables.md#waffeneigenschaften "Warstabellen"
 [Racial skill modifiers]: ./war-tables.md#rasseneigenschaften "Warstabellen"
@@ -340,9 +344,7 @@ Continue reading: [[alliances]].
 [`GUARD`]: ./cmd-guard.md "GUARD"
 [ships]: ./ships.md "Schiffe"
 [damage]: ./ships.md#schiffsschaden "Schiff"
-[`LEAVE`]: ./cmd-leave.md "LEAVE"
 [`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
 [races]: ./skills-modifiers.md "Talentmodifikatoren"
-[`MOVE`]: ./cmd-move.md "MOVE"
 [`ROUTE`]: ./cmd-route.md "ROUTE"
 [War tables]: ./war-tables.md "Warstabellen"

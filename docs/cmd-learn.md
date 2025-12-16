@@ -5,7 +5,7 @@ alias:
 ---
 # LEARN
 
-**`LEARN`**[<sup>`L`</sup>]` `*`talent`*  
+**`LEARN`**[<sup>`L`</sup>]` `*`talent`*
 **`LEARN`**[<sup>`L`</sup>]`Magie "`*`Magiegebiet`*`"`
 
 Mit diesem Befehl verbringt die Einheit eine Runde damit, das angegebene [Talent] zu [lernen] (siehe auch: [Liste der Talente]). Im Mittel dauert der Aufstieg in eine neue Talentstufe durch reines Lernen in etwa eine Anzahl von Wochen entsprechend der angepeilten Talentstufe ohne Berücksichtigung von Modifikationen durch Rasse oder Terrain. Um von Stufe 2 auf 3 zu kommen also etwa 3 Wochen. Normalerweise ist ein Talentwert von 2 doppelt so effektiv wie ein Talentwert von 1, ein Talentwert von 3 dreimal so effektiv und so weiter.
@@ -26,7 +26,7 @@ Mit `LEARN`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 
 [<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
 [Talent]: ./skills.md "Talente"
-[lernen]: ./skills.md#apprendre-des-compétences "Talente"
+[lernen]: ./skills.md#learn-skills "Skills"
 [Liste der Talente]: ./skills-list.md "Liste der Talente"
 [Magiegebiet]: ./magic.md "Magie"
 [ECheck]: ./echeck.md "ECheck"

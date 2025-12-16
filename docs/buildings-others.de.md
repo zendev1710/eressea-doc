@@ -3,13 +3,15 @@ alias: andere-gebaeude
 ---
 # Andere Gebäude
 
-Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: MACHE [[bef-leuchtturm]] oder MACHE [[bef-hafen]] xyz. Für diese Gebäude ist ein Mindesttalentwert in Burgenbau erforderlich, der in der Tabelle angegeben ist. Außerdem können einige Gebäude nur bis zu einer bestimmten Größe ausgebaut werden.
+Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: [[bef-mache|MACHE leuchtturm]] oder [[bef-mache|MACHE hafen]] xyz.
+Für diese Gebäude ist ein Mindesttalentwert in Burgenbau erforderlich, der in der Tabelle angegeben ist. Außerdem können einige Gebäude nur bis zu einer bestimmten Größe ausgebaut werden.
 
 Hier zunächst eine zusammenfassende Tabelle, nähere Erklärungen folgen darunter.
 
 Gebäude; siehe auch Tabelle [Burgenbau]
 
-Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitieren können.  
+Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitieren können.
+
 \* außerdem 2 Mallorn und 2 Laen pro Größenpunkt
 
 | Gebäude        | Baukosten |      |       |        | Talent | Unterhalt |            | Max.  | Kapazität   |

@@ -1,3 +1,6 @@
+---
+alias: bef-route
+---
 # ROUTE
 
 **`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`

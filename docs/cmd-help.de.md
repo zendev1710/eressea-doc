@@ -3,12 +3,12 @@ alias: bef-helfe
 ---
 # HELFE
 
-**`HELFE`**` `*`partei-nr`*`GIB [[bef-nicht]]`  
-**`HELFE`**` `*`partei-nr`*`KÄMPFE [[bef-nicht]]`  
-**`HELFE`**` `*`partei-nr`*`SILBER [[bef-nicht]]`  
-**`HELFE`**` `*`partei-nr`*`BEWACHE [[bef-nicht]]`  
-**`HELFE`**` `*`partei-nr`*`PARTEITARNUNG [[bef-nicht]]`  
-**`HELFE`**` `*`partei-nr`*`ALLES [[bef-nicht]]`
+**`HELFE`**` `*`partei-nr`*`GIB [NICHT]`
+**`HELFE`**` `*`partei-nr`*`KÄMPFE [NICHT]`
+**`HELFE`**` `*`partei-nr`*`SILBER [NICHT]`
+**`HELFE`**` `*`partei-nr`*`BEWACHE [NICHT]`
+**`HELFE`**` `*`partei-nr`*`PARTEITARNUNG [NICHT]`
+**`HELFE`**` `*`partei-nr`*`ALLES [NICHT]`
 
 Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
 

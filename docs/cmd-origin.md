@@ -13,4 +13,4 @@ Hinweis: Der Befehl gilt für die Ebene, in der sich die Partei befindet (siehe 
 
 <!-- From [https://wiki.eressea.de/index.php?title=ORIGIN/en&oldid=14964] -->
 
-[Astralraum]: ./magic.md#der-astralraum "Magie"
+[Astralraum]: ./magic.md#the-astral-space "Magie"

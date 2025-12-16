@@ -1,3 +1,6 @@
+---
+alias: bef-default
+---
 # DEFAULT
 
 **`DEFAULT`**`"`*`befehl`*`"`

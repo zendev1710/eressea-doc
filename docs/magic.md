@@ -82,7 +82,7 @@ oder so
 
 Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.
 
-Normale Zauber werden mit dem Befehl [[cmd-cast]] gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe [[commands-sequence|Befehlsreihenfolge]]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
+Normale Zauber werden mit dem Befehl [[cmd-cast]] gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe [[orders-sequence|Befehlsreihenfolge]]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
 
 Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl [COMBATSPELL LEVEL n "Zauber"] gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl [COMBATSPELL "Zauber" NOT][COMBATSPELL LEVEL n "Zauber"] oder alle gesetzten Kampfzauber mit [COMBATSPELL NOT][COMBATSPELL LEVEL n "Zauber"]. Kampfzauber wirken in etwa wie die [COMBAT-Befehle], d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.
 
@@ -341,8 +341,8 @@ Continue reading: [[schools-of-magic]].
 [Partei]: ./factions.md "Partei"
 [Akademie]: ./buildings-others.md "Andere Gebäude"
 [COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md "COMBATSPELL"
-[COMBAT-Befehle]: ./war.md#kampfreihen "Krieg"
-[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
+[COMBAT-Befehle]: ./war.md#combat-rows "Krieg"
+[Die Seiten in einer Schlacht]: ./war.md#the-sides-in-a-battle "Krieg"
 [Aura]: #aura
 [Fernzauber]: #distance-magic
 [Magieresistenz]: #magic-resistance
@@ -352,9 +352,9 @@ Continue reading: [[schools-of-magic]].
 [Wahrscheinlichkeit für Patzer]: #blunder
 [Rassen]: ./races.md "Rasse (to be documented)"
 [Zauber]: ./spells-list.md "Zauberliste E2"
-[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz "Kriegstabellen"
+[Waffen oder Rüstungen]: ./war-tables.md#magic-resistance "Kriegstabellen"
 [Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
 [Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
 [Vertraute]: ./familiars.md "Vertraute"
-[Wesen]: ./monsters.md#hirntöter "Monster"
+[Wesen]: ./monsters.md#braineaters "Monster"
 [Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

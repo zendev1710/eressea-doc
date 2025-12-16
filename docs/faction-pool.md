@@ -1,6 +1,6 @@
 ---
 alias:
-    name: faction-pool 
+    name: faction-pool
     text: Faction pool
 ---
 # Faction pool
@@ -27,8 +27,6 @@ Continue reading: [Geld].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
-[CLAIM]: ./cmd-claim.md "CLAIM"
-[SHOW]: ./cmd-show.md "SHOW"
 [Adamantium]: ./adamantium.md "Adamantium"
 [Adamantiumrüstung]: ./adamantium-armor.md "Adamantiumrüstung"
 [Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (to be documented)"
@@ -37,4 +35,4 @@ Continue reading: [Geld].
 [Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"
 [Muschel]: ./shell.md "Muschel"
 [Materialpool]: ./items-pool.md "Materialpool"
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
+[Silberpool]: ./items-pool.md#the-silver-pool "Silberpool"

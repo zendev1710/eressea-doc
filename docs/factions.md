@@ -64,14 +64,14 @@ Player experience: SoltharThere have been cases where special magic items produc
 
 Continue reading: [Races].
 
-[Races]: ./races.md "Rassen"  
+[Races]: ./races.md "Rassen"
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/en&oldid=16635] -->
 
 [race]: ./races.md "Rassen"
 [skills]: ./skills.md "Talente"
 [orders]: ./commands.md "Orders"
-[race-specific starting gift]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
+[race-specific starting gift]: ./eressea-story.md#start-of-the-6th-world "Geschichte von Eressea"
 [`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
 [recruit]: ./silver.md#recruiting "RECRUIT"
 [produce items]: ./items.md "Gegenstände"

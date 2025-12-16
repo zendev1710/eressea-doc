@@ -1,6 +1,9 @@
+---
+alias: bef-option
+---
 # OPTION
 
-**`OPTION`**` `*`option`*`[[bef-nicht]]`
+**`OPTION`**` `*`option`*`[NICHT]`
 
 Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswertung genau aussieht.
 

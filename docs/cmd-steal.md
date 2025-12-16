@@ -24,7 +24,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 [<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
 [Tarnungstalent]: ./skills-list.md "Liste der Talente"
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
+[Silberpool]: ./items-pool.md#the-silver-pool "Silberpool"
 [immun]: ./puppy-protection.md "Welpenschutz"
 [Geld]: ./silver.md "Geld"
 [Tarnung und Wahrnehmung]: ./camouflage.md "Wahrnehmung"

@@ -5,7 +5,7 @@ alias:
 ---
 # Sending orders
 
-## Was man braucht, um Eressea zu spielen
+## What you need to play Eressea
 
 Neben einem eigenen Email-Zugang braucht man nur wenig, um Eressea spielen zu können.
 
@@ -13,7 +13,7 @@ Um die [Befehle] zu bearbeiten, reicht ein einfacher Texteditor. Unter UNIX/Linu
 
 - [Notepad++] ist ein guter Editor für Windows.
 
-### Beispiele
+### Examples
 
 Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben leichter machen. Hier eine Auflistung der bekanntesten.
 
@@ -25,7 +25,7 @@ Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerde
   - [FFTools2]
 - [Vorlage]
 
-## Wie man Befehle einschickt, und was man dafür bekommt
+## How to submit orders, and what you get in return.
 
 Man kann in jeder Runde seine Befehle bis zu 20 mal einschicken. Das Einsenden von provisorischen Befehlen ist also möglich und wird empfohlen. Du solltest darauf achten, dass auf Deinem Computer die richtige Zeit eingestellt ist. Der Server nimmt die Sendezeit als Grundlage, um alte Befehle zu überschreiben, nicht die Zeit des Empfanges.
 
@@ -34,11 +34,11 @@ Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text 
 Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden. Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert. Richtig angekommene Züge werden automatisch mit dem Syntax-Checker ECheck geprüft und das Ergebnis der Prüfung wird dem Spieler zugeschickt. Ein Beispiel:
 
      ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
-     
+
      Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
      Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
      Silberpool aktiviert.
-     
+
      Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
      Die Befehle scheinen in Ordnung zu sein.
 
@@ -48,9 +48,9 @@ Treffen über fünf Runden hinweg keine Befehle beim Spielleiter ein (sog. "NMR"
 
 ECheck auf dem Server macht nur grundlegende Syntax-Tests. Man kann sich ECheck auch für zu Hause runterladen und dessen Optionen für etwas weitergehende Test nutzen. Auch Magellan hat weitgehende Tests eingebaut, die ECheck im Grunde überflüssig machen.
 
-## Nachfordern
+## Request
 
-### Den Report nachfordern
+### Request the report
 
 Manchmal kann es vorkommen, dass durch technische Ausfälle irgendwo die E-Mail mit dem Report verloren geht. Hat man Montag Abend noch immer keinen Report erhalten und es gab auch keine Ankündigung in der Liste Eressea-Announce, so kann man die aktuelle Auswertung nochmals anfordern.
 
@@ -71,7 +71,7 @@ Mails an Eressea
 | ERESSEA 2 BEFEHLE              | Enthält Befehle für Eressea im Text  |
 | ERESSEA 2 REPORT nr "passwort" | Fordert den Report für die Partei an |
 
-## Was man bei der Eingabe beachten muss
+## What you need to consider when entering data
 
 Jeder Zug muss mit der Zeile [ERESSEA xxx "passwort"] beginnen. xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei. Jeder Zug muss mit dem Schlüsselwort [[cmd-next]] beendet werden.
 
@@ -80,29 +80,29 @@ Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Pa
 In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
 
        ERESSEA 2 "GrofxMoftzg"
-       
+
        ; ECHECK -z -w4 -r100
-       
+
        REGION 4,2;     Handan
        ; ECHECK LOHN 12
-       
+
        UNIT 5;            Horde der Trolle [5,100$]
          Lerne Bergbau
        UNIT 36;           Tänzer des Todes [10,630$]
          Unterhalte
-       
+
        REGION 4,3;     Carcavelos
        ; ECHECK LOHN 11
-       
+
        UNIT 35;           Untote Sklaven [10,110$]
          Arbeite
-       
+
        REGION 5,3;     Grandola
        ; ECHECK LOHN 11
-       
+
        UNIT 32;           Reiter der Verdammnis [5,30$]
          Lerne Unterhaltung
-       
+
        NEXT
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[cmd-unit]] ausgewertet, ebenso werden dann Einnahmen mit [[cmd-work]] (idR. je 11 Silber pro Person) und [TAX STEUERN EIN] und [[cmd-entertain]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LEARN MAGIE] und Einheiten, die mit [[cmd-move]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
@@ -148,8 +148,6 @@ Continue reading: [Hinweise].
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
 [Befehle]: ./commands.md "Orders"
-[Notepad++]: http://notepad-plus.sourceforge.net/
-[Magellan]: http://magellan-client.sf.net
 [CSMapFX]: ./csmapfx.md "CSMapFX"
 [ECheck]: ./echeck.md "ECheck"
 [EHMV]: ./ehmv.md "EHMV"
@@ -157,9 +155,7 @@ Continue reading: [Hinweise].
 [ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
 [FFTools2]: ./fftools.md "FFTools2"
 [Vorlage]: ./vorlage.md "Vorlage"
-[Hilfsmittel]: #wie-man-befehle-einschickt-und-was-man-dafür-bekommt "Hilfsmittel"
 [Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md "Befehle von Magellan verschicken"
-[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 [ERESSEA xxx "passwort"]: ./cmd-eressea.md "ERESSEA"
 [TAX STEUERN EIN]: ./cmd-tax.md "TREIBEN"
 [LEARN MAGIE]: ./cmd-learn.md "LEARN"
@@ -167,3 +163,9 @@ Continue reading: [Hinweise].
 [Kommentar-Befehl //]: ./cmd-comment-slash.md "KOMMENTAR"
 [Die Welt]: ./world.md "Welt"
 [Der erste Zug]: ./first-round.md "Der erste Zug"
+
+[Hilfsmittel]: #how-to-submit-orders-and-what-you-get-in-return "Hilfsmittel"
+
+[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
+[Notepad++]: http://notepad-plus.sourceforge.net/
+[Magellan]: http://magellan-client.sf.net

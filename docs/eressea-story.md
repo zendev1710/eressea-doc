@@ -7,7 +7,7 @@ alias:
 
 Laut [Wikipedia] startete Eressea am 27. August 1996. Es wurde als Ableger von [Atlantis] entwickelt. Die Popularität war relativ starken Schwankungen unterlegen. Der Rekord lag bei über 2000 Parteien Anfang des Jahres 2002. Ende 2005 waren es erstmals unter 1000 Parteien. Ende 2008 wurde die Neuanmeldung zeitweilig geschlossen. Zu diesem Zeitpunkt gab es unter 700 Parteien. Das Spiel geht aber immer noch weiter.
 
-## Entwickler
+## Developer
 
 - Russel Wallace
 
@@ -38,17 +38,17 @@ Entwickler, u.a. des Zugüberprüfers [ECheck]
 
 Co-Entwickler in den ersten Jahren, u.a. der Alchemie
 
-## Regeländerungen
+## Rule changes
 
 Im Laufe der Zeit hat es viele kleinere und größere Regeländerungen gegeben, in der Regel um die Spielbalance zu verbesseren. Hier eine Liste, die bei weitem nicht komplett ist.
 
-## Erstes Zeitalter
+## First Age
 
 Irgendwann
 
-- Die Rassen werden eingeführt.
-- Nur noch Menschen können Migranten erhalten, Migranten anderer Rassen werden in die Rasse des Besitzers umgewandelt, wobei sie ihre Talentstufe behalten (und dadurch gegebenenfalls Lentage dazu erhalten).
-- Elfen verlieren ihre Boni von +1 in Unterhaltung und Holzfällen.  
+- Die Rassen werden eingeführt
+- Nur noch Menschen können Migranten erhalten, Migranten anderer Rassen werden in die Rasse des Besitzers umgewandelt, wobei sie ihre Talentstufe behalten (und dadurch gegebenenfalls Lentage dazu erhalten)
+- Elfen verlieren ihre Boni von +1 in Unterhaltung und Holzfällen
 
 27.08.1996
 
@@ -165,12 +165,16 @@ Irgendwann
 
 - **BEWACHEN** können nur noch bewaffnete Einheiten, die mit der Waffe umgehen können.
 
-## Zweites Zeitalter
+## Second Age
 
-"Wir schreiben Die erste Woche des Monats Feldsegen, im 1. Jahr des zweiten Zeitalters". (Runde 184)  
-Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend damit ist eine große Menge an umwälzenden Regeländerungen, die unter dem Oberbegriff Magiereform zusammengefasst werden. Dabei handelt es sich jedoch nicht ausschließlich um Änderungen, welche die Magie betreffen. Der weitaus größere Teil umfasst Rassen und Kampfregeln.
+"Wir schreiben Die erste Woche des Monats Feldsegen, im 1. Jahr des zweiten Zeitalters". (Runde 184)
 
-### Start der 6. Welt
+Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter.
+Einhergehend damit ist eine große Menge an umwälzenden Regeländerungen, die unter dem Oberbegriff Magiereform zusammengefasst werden.
+Dabei handelt es sich jedoch nicht ausschließlich um Änderungen, welche die Magie betreffen.
+Der weitaus größere Teil umfasst Rassen und Kampfregeln.
+
+### Start of the 6th World
 
 - Die Starteinheit jeder Rasse bekommt nun ein Startgeschenk mit auf den Weg.
   - Elfen bekommen Feenstiefel
@@ -186,7 +190,7 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
   - Dämonen bekommen T15 Ausdauer.
 - Feuerwände werden als neue Regionstypen eingeführt.
 
-### Die "Magiereform" 08.04.2000 (Runde 184)
+### The "Magician Reform" 08.04.2000 (Round 184)
 
 - Das bisher universelle Magiegebiet Lirpa (Der Name stammt ursprünglich aus einer Aprilscherz Ankündigung, wurde nach Einführung der neuen Magiegebiete aber recht schnell als geläufiger Name für 'die alte Magie' eingebürgert.) wird von Draig, Illaun, Tybied, Gwyrrd und Cerddor abgelöst. Die Reform bedeutet eine drastische Abschwächung der Magie, gerade durch das Wegbleiben des Spruches Sonnenfeuer, dessen Wirkung mit keinem heute bekannten Kampfzauber zu vergleichen ist.
 - **RESEARCH** nach Sprüchen entfällt. Ein Magier kann alle Sprüche seines Magiegebietes zaubern, deren Stufe kleiner oder gleich seinem Magietalent ist.
@@ -211,7 +215,7 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
 - Bauernblut wirkt auf 100 Dämonen in einer Region, nicht mehr nur auf eine Einheit.
 - Vertraute und der Astralraum werden eingeführt.
 
-### "Rohstoffreform" Datum und Runde unbekannt
+### "Raw material reform" Date and round unknown
 
 Die Rohstoffreform, sicher die grösste Sammlung von weitreichenden Änderungen nach der Magiereform, erfolgte nach dem öffentlich angekündigten Entwicklungsstopp von Eressea. Angekündigt als allerletzte (Wer nun an Käse denkt kennt sich mit der Geschichte von Eressea wirklich aus ;) Regeländerung. Viele weitere grössere und kleinere Änderungen danach bewiesen jedoch das Gegenteil.
 
@@ -227,7 +231,7 @@ Die Rohstoffreform, sicher die grösste Sammlung von weitreichenden Änderungen 
 - Laen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen immer bei Stufe 7, in anderen Regionen kann diese höher liegen. Laen sammelte sich früher nicht an, man konnte eine geringe Menge, die starken schwankungen unterlag, in Bergen abbauen, tat man dies nicht lagerte sich das Laen an und man konnte es später abbauen.
 - GUARD verhindert den Abbau aller Rohstoffe durch sichtbare Einheiten.
 
-### Andere Änderungen
+### Other changes
 
 März 2002 -- BRAVO Screenfun
 
@@ -360,7 +364,7 @@ Dezember 2008 -- Anmeldung (endgültig) geschlossen
 - neue Spieler werden ab 24.12.2017 (letzte Woche des Monats Sturmmond im Jahre 33 des zweiten Zeitalters - 1056) ausgesetzt
 - die 18. Welt entsteht
 
-## Eressea das Dritte Zeitalter
+## Eressea the Third Age
 
 Eressea 2 ist seit Jahren geplant, mittlerweile ist sich Enno sicher, dass diese Version von Eressea ein Webgame werden soll. Dafür sind allerdings grundlegende Änderungen des Codes und des Spielprinzips nötig welche vorher in Eressea 1.5 getestet werden sollten.
 

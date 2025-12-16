@@ -1,3 +1,6 @@
+---
+alias: bef-banner
+---
 # BANNER
 
 **`BANNER`**`"`*`text`*`"`

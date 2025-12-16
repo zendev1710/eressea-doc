@@ -1,3 +1,6 @@
+---
+alias: bef-locale
+---
 # LOCALE
 
 **`LOCALE`**`en`  

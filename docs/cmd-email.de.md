@@ -1,3 +1,6 @@
+---
+alias: bef-email
+---
 # EMAIL
 
 **`EMAIL`**`"`*`adresse@example.com`*`"`

@@ -3,15 +3,15 @@ alias: bef-bewache
 ---
 # BEWACHE
 
-**`BEWACHE`**`[[bef-nicht]]`
+**`BEWACHE`**`[NICHT]`
 
 Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
 Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([`HELFE BEWACHE`] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
-- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[bef-handeln]] oder Bauern rekrutieren.
+- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[bef-handel]] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
-- Befinden sie sich auf einem Schiff, so können sie nicht [[bef-arbeiten]]`,`[[bef-unterhalten]]`,`[[bef-attackieren]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[bef-verlassen]] haben.
+- Befinden sie sich auf einem Schiff, so können sie nicht [[bef-arbeite]]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[bef-verlasse]] haben.
 
 Wenn die Einheit nicht gesehen wird, beispielsweise weil sie ein höheres Tarnungstalent hat als das beste Wahrnehmungstalent der bewachenden Partei in der Region ist, so gelten die ersten beiden Beschränkungen nicht.
 
@@ -44,11 +44,6 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 [alliiert]: ./alliances.md "Allianz"
 [`HELFE BEWACHE`]: ./cmd-help.md "HELFE"
 [bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
-[bef-handeln]: ./silver.md#handel "Geld"
-[bef-arbeiten]: ./cmd-work.md "ARBEITE"
-[bef-unterhalten]: ./cmd-entertain.md "UNTERHALTE"
-[bef-attackieren]: ./cmd-attack.md "ATTACKIERE"
-[bef-verlassen]: ./cmd-leave.md "VERLASSE"
 [Kampfende]: ./war.md#das-ende "Kampfende"
 [KÄMPFE FLIEHE]: ./cmd-combat.md "KÄMPFE"
 [Monster]: ./monsters.md "Monster"

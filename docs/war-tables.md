@@ -58,7 +58,7 @@ Remarks:
 
 - Damage incurred while on horseback only applies in conjunction with the [horse bonus]
 - OB and DB represent the offensive and defensive bonuses; thus, an axe is designed more as an offensive weapon, while a halberd is more useful for defense
-- In [Skill], K = catapult operation, A = crossbow shooting, B = archery, H = edged weapons, S = polearms
+- In [[skills|Skill]], K = catapult operation, A = crossbow shooting, B = archery, H = edged weapons, S = polearms
 - All Mallorn weapons increase magic resistance by 15%, all laen weapons and armor by 30% (details on magic resistance follow below)
 - A Flaming Sword also conjures a small fireball per combat round
 
@@ -158,10 +158,8 @@ An elf with a longsword and full longsword armor (shield + chain) therefore does
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
-[Goblins]: ./races.md#goblins "Rassen"
-[Trolls]: ./races.md#trolls "Trolls"
-[Orcs]: ./races.md#orks "Orcs"
-[Cats]: ./races.md#cats "Cats"
-[familiars]: ./familiars.md "Vertraute"
-[horse bonus]: ./war.md#boni-und-mali "Boni und Mali"
-[Skill]: ./skills.md "Talente"
+[Goblins]: ./races.md#goblins
+[Trolls]: ./races.md#trolls
+[Orcs]: ./races.md#orcs
+[Cats]: ./races.md#cats
+[horse bonus]: ./war.md#boni-und-mali

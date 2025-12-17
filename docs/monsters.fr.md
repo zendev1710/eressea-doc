@@ -15,10 +15,20 @@ Les joueurs peuvent également, dans certaines circonstances, posséder des unit
 
 ## Dragons
 
-## Braineaters
+## Igjarjuk
+
+## Démons de l'Ombre et maîtres de l'Ombre
+
+## Mangeurs de cerveau
+
+## Voir aussi
+
+## Ents
+
+- [[familiers]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-[Types de Morts-Vivants]: #morts-vivants "Untote"
-[dragons]: #dragons "Drachen"
-[Braineaters]: #braineaters "Hirntöter"
+[Types de Morts-Vivants]: #morts-vivants
+[dragons]: #dragons
+[Braineaters]: #mangeurs-de-cerveau

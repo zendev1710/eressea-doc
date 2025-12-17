@@ -3,15 +3,22 @@ alias: monster
 ---
 # Monster
 
-Die Partei der Monster ist derzeit die einzige NPC-Partei in Eressea. Sie hatte die Nummer 0. Seit etwa der Runde 572 trägt sie die Nummer (ii). Wieso eigentlich (ii)? Wenn man ii von Base36 in das Dezimalsystem umrechnet, kommt man auf 666.
+Die Partei der Monster ist derzeit die einzige NPC-Partei in Eressea.
+Sie hatte die Nummer 0. Seit etwa der Runde 572 trägt sie die Nummer (ii). Wieso eigentlich (ii)? Wenn man ii von Base36 in das Dezimalsystem umrechnet, kommt man auf 666.
 
-Es gibt viele verschiedene Monster-Rassen mit unterschiedlichen Eigenschaften und Fähigkeiten. Am verbreitetsten sind die verschiedenen [Untoten-Typen] sowie [Drachen] und ihr Gefolge. Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter], findet man (fast) nur in bestimmten Gegenden.
+Es gibt viele verschiedene Monster-Rassen mit unterschiedlichen Eigenschaften und Fähigkeiten.
+Am verbreitetsten sind die verschiedenen [Untoten-Typen] sowie [Drachen] und ihr Gefolge.
+Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter], findet man (fast) nur in bestimmten Gegenden.
 
 Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von [Vertrauten] nichts lernen, nicht lehren und keine Gegenstände bekommen.
 
 ## Untote
 
-Untote stellen den größten Teil der Monster-Partei. Sie entstehen da, wo Bauern sterben (durch [Hungersnöte] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [Kampf] fallen. Untote können verschiedene [Talente] lernen und werden dadurch gefährlicher. Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden. Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [bewaffnet]), können aber auch Waffen tragen.
+Untote stellen den größten Teil der Monster-Partei.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [Kampf] fallen.
+Untote können verschiedene [Talente] lernen und werden dadurch gefährlicher.
+Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
+Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [bewaffnet]), können aber auch Waffen tragen.
 
 Es gibt sieben Arten von Untoten:
 
@@ -20,7 +27,7 @@ Es gibt sieben Arten von Untoten:
 - **Ghoule**, mutieren zu **Ghasten**
 - **Zombies**, mutieren zu **Juju-Zombies**
 
-Manche [Magier] sind in der Lage, Untote zu kontrollieren.
+Manche [[magie|Magier]] sind in der Lage, Untote zu kontrollieren.
 
 ## Drachen
 
@@ -67,21 +74,21 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 ## Siehe auch
 
-- [Vertraute]
+- [[vertraute]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
 
 [Untoten-Typen]: #untote "Untote"
 [Drachen]: #drachen "Drachen"
-[Hirntöter]: #hirntöter "Hirntöter"
-[Vertrauten]: ./familiars.md "Vertrauten"
+[Hirntöter]: ./#hirntoeter "Hirntöter"
+[Igjarjuk]: #igjarjuk "Igjarjuk"
+
 [Hungersnöte]: ./silver.md#hunger "Hunger"
+[Draig]: ./magic-schools.md#draig "Draig"
+
+[Vertrauten]: ./familiars.md "Vertrauten"
 [Kampf]: ./war.md "Krieg"
 [Talente]: ./skills.md "Talente"
 [bewaffnet]: ./armed.md "Bewaffnet"
-[Magier]: ./magic.md "Magie"
-[Igjarjuk]: #igjarjuk "Igjarjuk"
 [Pentagramm und Tirawon]: ./pentagram-and-tirawon.md "Pentagramm und Tirawon"
-[Draig]: ./magic-schools.md#draig "Draig"
 [Astralraum]: ./magic.md#der-astralraum "Magie"
-[Vertraute]: ./familiars.md "Vertraute"

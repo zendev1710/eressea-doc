@@ -42,7 +42,7 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 - [Trolle] machen unbewaffnet mehr Schaden, können aber nicht zu Pferd kämpfen
 - [Orks] kämpfen mit bestem Nahkampftalent -3
 - [Katzen] bekommen ihren üblichen Bonus, haben also unbewaffnet -1 auf Defensive
-- Manche Rassen (i.A. nur Monster und [Vertraute]) können das Talent *Unbewaffneter Kampf* lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen
+- Manche Rassen (i.A. nur Monster und [[vertraute]]) können das Talent *Unbewaffneter Kampf* lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen
 
 !!! info
     d steht für dice, Würfel.
@@ -56,7 +56,7 @@ Bemerkungen:
 
 - Der Schaden zu Pferd gilt nur in Verbindung mit dem [Pferdebonus]
 - OB und DB sind der Offensiv- und Defensiv-Bonus; so ist eine Kriegsaxt eher als Angriffswaffe ausgelegt, derweil eine Hellebarde eher der Verteidigung dienlich ist
-- Bei [Talent] bedeutet K = Katapultbedienung, A = Armbrustschießen, B = Bogenschießen, H = Hiebwaffen, S = Stangenwaffen
+- Bei [[talente]] bedeutet K = Katapultbedienung, A = Armbrustschießen, B = Bogenschießen, H = Hiebwaffen, S = Stangenwaffen
 - Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und -rüstungen um 30%. Details zur Magieresistenz folgen unten
 - Ein Flammenschwert zaubert pro Kampfrunde zusätzlich einen kleinen Feuerball
 
@@ -102,7 +102,7 @@ RüstungPanzerungChance NahfernPlattenpanzer3115%100%Kettenhemd2110%100%Schild09
 
 Es kann jeweils nur eine Rüstung benutzt werden, mehrere Rüstungen schützen nicht mehrfach.
 
-Nicht alle [Vertrautenrassen][Vertraute] oder beschworene Monster können Rüstungen benutzen.
+Nicht alle [[vertraute|Vertrautenrassen]] oder beschworene Monster können Rüstungen benutzen.
 
 Schilde können, obwohl sie als Rüstung zählen, zusammen mit einer Rüstung benutzt werden und wirken dann additiv zur Rüstung, aber auch nur jeweils ein Schild pro Person.
 
@@ -158,10 +158,8 @@ Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nic
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
-[Goblins]: ./races.md#goblins "Rassen"
-[Trolle]: ./races.md#trolle "Rassen"
-[Orks]: ./races.md#orks "Rassen"
-[Katzen]: ./races.md#katzen "Rassen"
-[Vertraute]: ./familiars.md "Vertraute"
+[Goblins]: ./races.md#goblins
+[Trolle]: ./races.md#trolle
+[Orks]: ./races.md#orks
+[Katzen]: ./races.md#katzen
 [Pferdebonus]: ./war.md#boni-und-mali "Boni und Mali"
-[Talent]: ./skills.md "Talente"

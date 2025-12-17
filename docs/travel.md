@@ -1,6 +1,6 @@
 ---
 alias:
-    name: movement
+    name: travel
     text: Movement
 ---
 # Movement
@@ -19,11 +19,9 @@ Travelling units may be stopped from passing through a region by guarding units 
 
 If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move. The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table] to find out the weight of items).
 
-TODO: Katapulte
+TODO: Katapulte.
 
-Weights and Capacities
-
-|                        | Weight | Capacity |
+| Race                   | Weight | Capacity |
 |------------------------|--------|----------|
 | trolls                 | 20     | 10,8     |
 | goblins                | 6      | 4,4      |

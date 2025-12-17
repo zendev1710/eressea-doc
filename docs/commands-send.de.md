@@ -31,14 +31,14 @@ Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text 
 
 Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden. Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert. Richtig angekommene Züge werden automatisch mit dem Syntax-Checker ECheck geprüft und das Ergebnis der Prüfung wird dem Spieler zugeschickt. Ein Beispiel:
 
-     ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
-     
-     Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
-     Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
-     Silberpool aktiviert.
-     
-     Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
-     Die Befehle scheinen in Ordnung zu sein.
+    ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
+
+    Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
+    Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
+    Silberpool aktiviert.
+
+    Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
+    Die Befehle scheinen in Ordnung zu sein.
 
 In der Regel erfolgt diese Bestätigung innerhalb weniger Minuten. Da der Server aus technischen Gründen derzeit leider nur eine Befehlsbestätigung alle 2 Minuten versenden kann, kann es jedoch, gerade kurz vor der Auswertung, zu längeren Wartezeiten kommen. Häufiges Einsenden identischer Befehle, um schneller eine Bestätigung zu erhalten, hilft also niemandem, sondern verschlimmert das Problem nur. Sofern die Befehle korrekt an den Server gesendet wurden, werden sie jedoch in der Regel verarbeitet, auch wenn keine Befehlsbestätigung bis zur Auswertung eingegangen ist. Aus technischen Gründen werden samstags zwischen 20:45 und Mitternacht keine Bestätigungen verschickt, **es empfiehlt sich also, Befehle so früh wie möglich vor dem ZAT um 21:00 Uhr zu senden.** Verzögert sich die Auswertung aufgrund technischer Probleme oder Fehlern im Spiel, entfällt die Auswertung in der Folgewoche, wenn die Auswertung nicht spätestens bis Sonntagmorgen 11:00 Uhr abgesendet wurde.
 
@@ -77,31 +77,28 @@ Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Pa
 
 In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
 
-       ERESSEA 2 "GrofxMoftzg"
-       
-       ; ECHECK -z -w4 -r100
-       
-       REGION 4,2;     Handan
-       ; ECHECK LOHN 12
-       
-       EINHEIT 5;            Horde der Trolle [5,100$]
-         Lerne Bergbau
-       EINHEIT 36;           Tänzer des Todes [10,630$]
-         Unterhalte
-       
-       REGION 4,3;     Carcavelos
-       ; ECHECK LOHN 11
-       
-       EINHEIT 35;           Untote Sklaven [10,110$]
-         Arbeite
-       
-       REGION 5,3;     Grandola
-       ; ECHECK LOHN 11
-       
-       EINHEIT 32;           Reiter der Verdammnis [5,30$]
-         Lerne Unterhaltung
-       
-       NÄCHSTER
+    ```
+    ERESSEA 2 "GrofxMoftzg"
+
+    ; ECHECK -z -w4 -r100
+
+    REGION 4,2;     Handan
+    ; ECHECK LOHN 12
+
+    EINHEIT 5;            Horde der Trolle [5,100$]
+    Lerne Bergbau
+    EINHEIT 36;           Tänzer des Todes [10,630$]
+    Unterhalte
+    REGION 4,3;     Carcavelos
+    ; ECHECK LOHN 11
+    EINHEIT 35;           Untote Sklaven [10,110$]
+    Arbeite
+    REGION 5,3;     Grandola
+    ; ECHECK LOHN 11
+    EINHEIT 32;           Reiter der Verdammnis [5,30$]
+    Lerne Unterhaltung
+    NÄCHSTER
+    ```
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[bef-einheit]] ausgewertet, ebenso werden dann Einnahmen mit [[bef-arbeite]] (idR. je 11 Silber pro Person) und [TREIBE STEUERN EIN] und [[bef-unterhalte]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LERNE MAGIE] und Einheiten, die mit [[bef-nach]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
 

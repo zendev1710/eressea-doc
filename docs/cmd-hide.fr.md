@@ -34,5 +34,5 @@ Mit `HIDE rasse` können [Dämonen] sich als andere Rasse tarnen.
 [Spionage]: ./skills-list.md "Liste der Talente"
 [HELP xyz PARTEITARNUNG]: ./cmd-help.md "HELP"
 [GROUP]: ./cmd-group.md "GROUP"
-[Dämonen]: ./races.md#dämonen "Dämonen"
+[Dämonen]: ./races.md#demons "Dämonen"
 [Wahrnehmung]: ./camouflage.md "Wahrnehmung"

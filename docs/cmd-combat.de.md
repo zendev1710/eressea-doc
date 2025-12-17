@@ -32,12 +32,8 @@ Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie od
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
-[Vom Kriege]: ./war.md "Krieg"
-[Kampfreihen]: ./war.md#schlacht "Schlacht"
-[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
-[Flucht]: ./war.md#die-flucht "Die Flucht"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
-[bef-folge]: ./cmd-follow.md "FOLGE"
-[Kampfzauber]: ./cmd-combatspell.md "KAMPFZAUBER"
-[bef-helfe]: ./cmd-help.md "HELFE"
+[Vom Kriege]: ./war.md
+[Kampfzauber]: ./cmd-combatspell.md
+
+[Kampfreihen]: ./war.md#die-schlacht
+[Flucht]: ./war.md#die-flucht

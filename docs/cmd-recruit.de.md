@@ -26,6 +26,6 @@ Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführ
 [Rasse]: ./races.md "Rassen"
 [Rekrutierungskosten]: ./skills-modifiers.md "Talentmodifikatoren"
 [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
-[Migranten]: ./races.md##menschen "Mensch"
+[Migranten]: ./races.md#menschen "Mensch"
 [Mischen von Talenten]: ./skills.md#mischen-von-talenten "Talente"
 [Geld]: ./silver.md#rekrutieren "Geld"

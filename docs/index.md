@@ -80,7 +80,7 @@ Continue reading: [rules].
 [Discord]: https://discord.gg/KT5Fffh
 [Registering for the game]: ./hints.md#registration "Hinweise"
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Tools]: ./commands-send.md#what-you-need-to-play-eressea "Hilfsmittel"
 [Tips for beginners]: ./getting-started-tips.md "Anfängertipps"
 [story of Eressea]: ./eressea-story.md "Geschichte von Eressea"
 [Atlantis]: ./atlantis.md "Atlantis"

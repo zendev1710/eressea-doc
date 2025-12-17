@@ -149,7 +149,7 @@ Dabei ist unter Nachladen angegeben, wie lange es dauert, die Waffe wieder schus
 
 ### Boni und Mali
 
-Verschiedene Faktoren können die Chance, jemanden zu treffen (Attacke) oder einen Treffer abzuwehren (Parade), modifizieren. Alle Boni und Mali wirken sich direkt auf das Talent aus und werden vor einer eventuellen Talent-Halbierung durch Fernkämpfer angerechnet. Die Schadenspunkte, die eine Person austeilt, werden durch die Boni und Mali nicht verändert, hier zählen die unmodifizierten Talentwerte. Siehe verkürzt auch [diese Tabelle][10].
+Verschiedene Faktoren können die Chance, jemanden zu treffen (Attacke) oder einen Treffer abzuwehren (Parade), modifizieren. Alle Boni und Mali wirken sich direkt auf das Talent aus und werden vor einer eventuellen Talent-Halbierung durch Fernkämpfer angerechnet. Die Schadenspunkte, die eine Person austeilt, werden durch die Boni und Mali nicht verändert, hier zählen die unmodifizierten Talentwerte. Siehe verkürzt auch [[kriegstabellen|diese Tabelle]].
 
 Unbewaffnete  
 Als unbewaffnet gelten auch Personen, die kein passendes Waffentalent zu ihrer Waffe haben.
@@ -252,7 +252,7 @@ Besonderheiten gelten für Einheiten mit dem Status FLIEHE. Diese Einheiten kön
 
 ## Kampf auf und von Schiffen
 
-Seeschlachten werden wie Schlachten zu Land ausgefochten: Die [Schiffe] entern sich gegenseitig und die Einheiten fallen übereinander her. Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.
+Seeschlachten werden wie Schlachten zu Land ausgefochten: Die [[schiff|Schiffe]] entern sich gegenseitig und die Einheiten fallen übereinander her. Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.
 
 Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war. Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen. Die [Taktikrunde][Taktiker] und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.
 
@@ -268,7 +268,7 @@ Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich T
 
 Mit **Piraterie** hat ein Schiffskapitän die Möglichkeit, Schiffe anderer Parteien in Nachbarregionen aufzubringen.
 
-Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [`FOLGE SCHIFF`] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:
+Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen. Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren. Mit Hilfe von [[bef-folge|`FOLGE SCHIFF`]] könnte man zum Beispiel seine Opfer auch erstmal verfolgen. Bei der ganzen Geschichte sind einige Sachen zu beachten:
 
 - Als Ziele werden nur Parteien erkannt, mit denen man nicht mit `HELFE KÄMPFE` alliiert ist.
 - Werden Parteinummern angegeben ([`PIRATERIE <parteinummer> ...`], so werden nur Kapitäne der angegebenen Parteien als Ziele erkannt.
@@ -282,49 +282,42 @@ Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in e
 
 Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von ausgelöschten Einheiten wird zusammengetragen und unter den Überlebenden verteilt.
 
-Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige [Rassen] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
+Einheiten, die im Kampf verletzt wurden, bleiben verletzt. Dies wird im Report mit angezeigt. Im Laufe der Zeit erholen sich die verletzten Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige [[talentmodifikatoren|rassen]] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [bewacht] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
+Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [[allianz|bewacht]] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen. Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen. Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden). Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
-Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[[bef-folge]][`FOLGE SCHIFF`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
+Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See. Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[[bef-folge|`FOLGE SCHIFF`]]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Siehe auch
 
-- [Taktik]
-- [Kriegstabellen]
+- [[taktik]]
+- [[kriegstabellen]]
 
-Weiterlesen: [[alliances|Allianz]].
+Weiterlesen: [[allianz]].
 
 <!-- [Allianz]: ./alliances.md "Allianz"-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
-[ohne Waffe]: #boni-und-mali
 [bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
-[Taktikerrunde]: #taktik
 [`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
 [`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
-[Kampfreihen]: #schlacht
-[flüchten]: #flucht
 [bef-gruppe]: ./cmd-group.md "GRUPPE"
-[Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
-[Flucht]: ./war.md#die-flucht "Die Flucht"
 [Taktiker]: ./tactic.md "Taktik"
 [Helden]: ./cmd-promote.md "BEFÖRDERUNG"
+[MACHE Katapultmunition]: ./cmd-make.md "MACHE"
+[bef-bewache]: ./cmd-guard.md "BEWACHE"
+[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
+
+[ohne Waffe]: #boni-und-mali
+[Taktikerrunde]: #die-taktikerrunde
+[Kampfreihen]: #die-schlacht
+[flüchten]: #die-flucht
+
+[Schaden]: ./ships.md#schiffsschaden
+[Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen
+[Flucht]: ./war.md#die-flucht "Die Flucht"
 [Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
-[diese]: ./war-tables.md#rüstung "Kriegstabellen"
+[diese]: ./war-tables.md#ruestung "Kriegstabellen"
 [Magieresistenz]: ./war-tables.md#magieresistenz "Kriegstabellen"
 [diese Tabelle]: ./war-tables.md#ausdauer "Kriegstabellen"
-[MACHE Katapultmunition]: ./cmd-make.md "MACHE"
-[10]: ./war-tables.md#kampfmodifikatoren "Kriegstabellen"
-[bef-bewache]: ./cmd-guard.md "BEWACHE"
-[Schiffe]: ./ships.md "Schiffe"
-[Schaden]: ./ships.md#schiffsschaden "Schiff"
-[`FOLGE SCHIFF`]: ./cmd-follow.md "FOLGE"
-[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
-[Rassen]: ./skills-modifiers.md "Talentmodifikatoren"
-[bewacht]: ./alliances.md "Allianz"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
-[Taktik]: ./tactic.md "Taktik"
-[Kriegstabellen]: ./war-tables.md "Kriegstabellen"

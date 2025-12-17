@@ -34,5 +34,6 @@ Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 
 [HELP SILBER]: ./cmd-help.md "HELP"
-[Orks]: ./races.md#orks "Rassen"
-[Dämonen]: ./races.md#dämonen "Rassen"
+
+[Orks]: ./races.md#orcs
+[Dämonen]: ./races.md#demons

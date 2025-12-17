@@ -93,7 +93,7 @@ Weiterlesen: [Liste der Talente].
 [Einheiten]: ./cmd-unit.md "Einheiten"
 [bef-lerne]: ./cmd-learn.md "LERNE"
 [Rasse]: ./races.md "Rassen"
-[Zwergeneinheit]: ./races.md#swerg "Zwerg"
+[Zwergeneinheit]: ./races.md#zwerge "Zwerg"
 [lehren]: ./cmd-teach.md "LEHRE"
 [Akademie]: ./buildings-others.md#akademie  "Akademie"
 [LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"

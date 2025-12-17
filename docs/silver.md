@@ -11,19 +11,22 @@ Working is more of a type of stopgap, units working will earn barely enough to f
 
 Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/kg). There is no rounding: even one piece of silver above your carrying limit can overload.
 
-Because persons (of most [races]) can carry 5.4 UW/kg, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/kg capacity), for example, can carry one person (10 kg for most [races]) with 4000 Silver; even 4001 silver would be too much.
+Because persons (of most [[races]]) can carry 5.4 UW/kg, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/kg capacity), for example, can carry one person (10 kg for most [[races]]) with 4000 Silver; even 4001 silver would be too much.
 
 ## Expenses
 
 ### Recruiting
 
-If you want to [recruit] people, all you need is enough small change, because those willing to be recruited are often particularly thirsty. Depending on the race, you have to spend between 40 and 150 silver as recruitment costs for each person you recruit. The amount of the recruitment costs depends on the race and can be found in the [racial modifiers table][races].
+If you want to [recruit] people, all you need is enough small change, because those willing to be recruited are often particularly thirsty. Depending on the race, you have to spend between 40 and 150 silver as recruitment costs for each person you recruit. The amount of the recruitment costs depends on the race and can be found in the [[races|modifiers table]].
 
 Recruitment is prevented by guarding.
 
 ### Upkeep costs
 
-Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive. Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [HELP SILVER] to your own faction will also help (see [alliances]). Units that move must be supplied where they arrive. Silver, which was previously [reserved], is also used for unit maintenance. Without enough silver, people will starve (see below).
+Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive.
+Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [[cmdèhelp|HELP SILVER]] to your own faction will also help (see [[alliances]]).
+Units that move must be supplied where they arrive. Silver, which was previously [reserved], is also used for unit maintenance.
+Without enough silver, people will starve (see below).
 
 Some buildings also require a weekly maintenance cost in order to function. These maintenance costs are incurred at the start of the round, i.e. they must be collected in the preliminary round and are due as soon as the building has been started (i.e. even for half-finished buildings). If there is not enough silver available, the function of the building cannot be used. More details can be found in the chapter on [buildings].
 
@@ -153,7 +156,7 @@ If several factions work, maintain, collect taxes or trade in a region, the poss
 
 If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit. Work, entertainment and trade are possible, however, unless your own unit is on a ship.
 
-If all guarding factions have set [`HELP GUARD`][HELP SILVER] or [`HELP ALL`][HELP SILVER] to our faction or [[cmd-contact]] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
+If all guarding factions have set [[cmd-help|`HELP GUARD`]] or [[cmd-help|`HELP ALL`]] to our faction or [[cmd-contact]] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
 
 ## See also
 
@@ -170,31 +173,24 @@ Continue reading: [Material pool].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
+[collecting taxes]: ./cmd-tax.md "TAX"
 [working]: ./cmd-work.md "WORK"
 [entertaining]: ./cmd-entertain.md "ENTERTAIN"
-[collecting taxes]: ./cmd-tax.md "TAX"
-[trading]: ./silver.md#trade "Silver"
-[races]: ./races.md "Rassen"
 [recruit]: ./cmd-recruit.md "RECRUIT"
-[HELP SILVER]: ./cmd-help.md "HELP"
-[alliances]: ./alliances.md "Allianz"
 [reserved]: ./cmd-reserve.md "RESERVE"
 [buildings]: ./buildings.md "Gebäude"
-[aquarians]: ./races.md#aquarians "Aquarians"
 [damage]: ./ships.md "Schiff"
-[combat end]: ./war.md#the-end"End of the battle"
 [endurance skill]: ./war-tables.md "Warstabellen"
-[undead]: ./monsters.md#untote "Untote"
 [`WORK`]: ./cmd-work.md "ARBEITEN"
-[castles table]: ./castles.md#overview "Burg"
-[`STEAL`]: ./camouflage.md "STEAL"
 [stealth skill]: ./camouflage.md "Tarnung"
 [perception]: ./camouflage.md "Wahrnehmung"
-[BUY]: ./cmd-buy.md "BUY"
 [castles]: ./castles.md "Burgen"
-[harbour]: ./buildings-others.md#harbour "Andere Gebäude"
-[`CONTACT`]: ./cmd-contact.md "CONTACT"
-[GIVE]: ./cmd-give.md "GIVE"
-[1]: ./silver.md#recruiting "RECRUIT"
 [Item pool]: ./items-pool.md "Materialpool"
-[GUARD]: ./cmd-guard.md "GUARD"
+
+[trading]: ./silver.md#trade
+[aquarians]: ./races.md#aquarians
+[combat end]: ./war.md#the-end
+[undead]: ./monsters.md#undead
+[castles table]: ./castles.md#overview
+[harbour]: ./buildings-others.md#harbour
+[1]: ./silver.md#recruiting

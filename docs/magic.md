@@ -303,7 +303,7 @@ Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, r
 Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
-![Astral space connection](../assets/images/astral-space-connection.jpg "Astral space connection")
+![Astral space connection](assets/images/astral-space-connection.jpg "Astral space connection")
 <!-- Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
 <figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
 -->
@@ -353,8 +353,8 @@ Continue reading: [[schools-of-magic]].
 [Rassen]: ./races.md "Rasse (to be documented)"
 [Zauber]: ./spells-list.md "Zauberliste E2"
 [Waffen oder Rüstungen]: ./war-tables.md#magic-resistance "Kriegstabellen"
-[Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
-[Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
+[Elfen]: ./skills-modifiers.md
+[Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Vertraute]: ./familiars.md "Vertraute"
 [Wesen]: ./monsters.md#braineaters "Monster"
 [Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

@@ -10,7 +10,7 @@ alias:
 **`HELP`**` `*`faction-id`*`SILBER [NOT]`  
 **`HELP`**` `*`faction-id`*`GUARD [NOT]`  
 **`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
-**`HELP`**` `*`faction-id`*`ALLES [NOT]`
+**`HELP`**` `*`faction-id`*`ALLES [NOT]`  
 
 Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
 

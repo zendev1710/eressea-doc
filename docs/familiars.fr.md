@@ -209,5 +209,5 @@ Expérience de jeu : Ein Meermensch sollte sich nicht unbedingt neben einen Bin
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
 
-[Démons]: ./races.md#dämonen "Rassen"
+[Démons]: ./races.md#demons "Rassen"
 [Goblins]: ./races.md#goblins "Rassen"

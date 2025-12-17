@@ -7,7 +7,10 @@ alias: bef-stirb
 
 Dies bewirkt, dass die Partei sich auflöst und nicht mehr mitspielt. Zur Sicherheit muss das Passwort der Partei angeben werden. Auch dieser Befehl muss einer Einheit gegeben werden.
 
-Alle Gegenstände inklusive Silber der sterbenden Partei werden an befreundete Einheiten übergeben, die in derselben Region stehen wie Einheiten der sterbenden Partei. Sind mehrere in der Region, wird nach der Anzahl Personen in der Region aufgeteilt. Als befreundet gilt hier nur, wem ein [HELFE SILBER] gesetzt wurde, wo also seitens der ausscheidenden Partei bereits Vertrauen herrschte. Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben. Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region. Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern. Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks], [Dämonen], Monstern).
+Alle Gegenstände inklusive Silber der sterbenden Partei werden an befreundete Einheiten übergeben, die in derselben Region stehen wie Einheiten der sterbenden Partei.
+Sind mehrere in der Region, wird nach der Anzahl Personen in der Region aufgeteilt.
+Als befreundet gilt hier nur, wem ein [[bef-helfe|HELFE SILBER]] gesetzt wurde, wo also seitens der ausscheidenden Partei bereits Vertrauen herrschte.
+Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben. Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region. Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern. Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks], [Dämonen], Monstern).
 
 **`STIRB`**` "Passwort" PARTEI `*`Partei-nr`*
 
@@ -36,6 +39,5 @@ Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann 
 
 <!-- From [https://wiki.eressea.de/index.php?title=STIRB&oldid=16825] -->
 
-[HELFE SILBER]: ./cmd-help.md "HELFE"
-[Orks]: ./races.md#orks "Rassen"
-[Dämonen]: ./races.md#dämonen "Rassen"
+[Orks]: ./races.md#orks
+[Dämonen]: ./races.md#daemonen

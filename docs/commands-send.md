@@ -25,7 +25,7 @@ Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerde
   - [FFTools2]
 - [Vorlage]
 
-## How to submit orders, and what you get in return.
+## How to submit orders, and what you get in return
 
 Man kann in jeder Runde seine Befehle bis zu 20 mal einschicken. Das Einsenden von provisorischen Befehlen ist also möglich und wird empfohlen. Du solltest darauf achten, dass auf Deinem Computer die richtige Zeit eingestellt ist. Der Server nimmt die Sendezeit als Grundlage, um alte Befehle zu überschreiben, nicht die Zeit des Empfanges.
 
@@ -79,31 +79,33 @@ Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Pa
 
 In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
 
-       ERESSEA 2 "GrofxMoftzg"
+    ```
+    ERESSEA 2 "GrofxMoftzg"
 
-       ; ECHECK -z -w4 -r100
+    ; ECHECK -z -w4 -r100
 
-       REGION 4,2;     Handan
-       ; ECHECK LOHN 12
+    REGION 4,2;     Handan
+    ; ECHECK LOHN 12
 
-       UNIT 5;            Horde der Trolle [5,100$]
-         Lerne Bergbau
-       UNIT 36;           Tänzer des Todes [10,630$]
-         Unterhalte
+    UNIT 5;            Horde der Trolle [5,100$]
+    Lerne Bergbau
+    UNIT 36;           Tänzer des Todes [10,630$]
+    Unterhalte
 
-       REGION 4,3;     Carcavelos
-       ; ECHECK LOHN 11
+    REGION 4,3;     Carcavelos
+    ; ECHECK LOHN 11
 
-       UNIT 35;           Untote Sklaven [10,110$]
-         Arbeite
+    UNIT 35;           Untote Sklaven [10,110$]
+    Arbeite
 
-       REGION 5,3;     Grandola
-       ; ECHECK LOHN 11
+    REGION 5,3;     Grandola
+    ; ECHECK LOHN 11
 
-       UNIT 32;           Reiter der Verdammnis [5,30$]
-         Lerne Unterhaltung
+    UNIT 32;           Reiter der Verdammnis [5,30$]
+    Lerne Unterhaltung
 
-       NEXT
+    NEXT
+    ```
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[cmd-unit]] ausgewertet, ebenso werden dann Einnahmen mit [[cmd-work]] (idR. je 11 Silber pro Person) und [TAX STEUERN EIN] und [[cmd-entertain]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LEARN MAGIE] und Einheiten, die mit [[cmd-move]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
 

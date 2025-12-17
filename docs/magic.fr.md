@@ -163,11 +163,11 @@ Aurakosten werden auch erhöht, wenn eine Einheit mehrere Zauber in einer Runde 
 
 Fernzauber und Mehrfachzauber können also auch in Kombination die Aurakosten erhöhen:
 
-| Entfernung Regionen (a) | 0               | 1               | 2                | 3                | 4                |
-|-------------------------|-----------------|-----------------|------------------|------------------|------------------|
-| Aurakosten (1. Spruch)  | Aurakosten \* 1 | Aurakosten \* 2 | Aurakosten \* 4  | Aurakosten \* 8  | Aurakosten \* 16 |
-| Aurakosten (2. Spruch)  | Aurakosten \* 2 | Aurakosten \* 4 | Aurakosten \* 8  | Aurakosten \* 16 | Aurakosten \* 32 |
-| Aurakosten (3. Spruch)  | Aurakosten \* 4 | Aurakosten \* 8 | Aurakosten \* 16 | Aurakosten \* 32 | Aurakosten \* 64 |
+| Entfernung Regionen (a) | 0              | 1              | 2               | 3               | 4               |
+|-------------------------|----------------|----------------|-----------------|-----------------|-----------------|
+| Aurakosten (1. Spruch)  | Aurakosten x 1 | Aurakosten x 2 | Aurakosten x 4  | Aurakosten x 8  | Aurakosten x 16 |
+| Aurakosten (2. Spruch)  | Aurakosten x 2 | Aurakosten x 4 | Aurakosten x 8  | Aurakosten x 16 | Aurakosten x 32 |
+| Aurakosten (3. Spruch)  | Aurakosten x 4 | Aurakosten x 8 | Aurakosten x 16 | Aurakosten x 32 | Aurakosten x 64 |
 
 Die beiden Modifikatoren können auch verknüpft werden:
 
@@ -275,7 +275,7 @@ Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber] möglich �
 Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen. Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft. Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild). Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen. Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet. Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
-![Astral space connection](../assets/images/astral-space-connection.jpg "Astral space connection")
+![Astral space connection](assets/images/astral-space-connection.jpg "Astral space connection")
 <!-- Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
 <figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
 -->
@@ -306,12 +306,12 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 [COMBAT-Befehle]: ./war.md#kampfreihen "Krieg"
 [Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
 [Aura]: #aura
-[Fernzauber]: #fernzauber
-[Magieresistenz]: #magieresistenz
+[Fernzauber]: ./#magie-a-distance
+[Magieresistenz]: ./#resistance-a-la-magie
 [Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
 [Andere Gebäude#magierturm]: ./buildings-others.md#tour-de-mage "Tour de mage"
 [gesegneten Steinkreis]: ./buildings-others.md#cercle-de-pierres "Cercle de Pierres"
-[Wahrscheinlichkeit für Patzer]: #patzer
+[Wahrscheinlichkeit für Patzer]: #gaffe
 [Rassen]: ./races.md "Rasse (to be documented)"
 [Zauber]: ./spells-list.md "Zauberliste E2"
 [Waffen oder Rüstungen]: ./war-tables.md#magieresistenz "Kriegstabellen"

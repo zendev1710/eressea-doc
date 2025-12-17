@@ -59,16 +59,16 @@ Poursuivre la lecture : [races].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
 
-[races]: ./races.md "Rassen"
-[race]: ./races.md "Rassen"
-[compétences]: ./skills.md "Talente"
-[ordres]: ./commands.md "Ordres"
+[races]: ./races.md
+[race]: ./races.md
+[compétences]: ./skills.md
+[ordres]: ./commands.md
 [cadeau de départ spécifique à la race choisie]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
 [`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
 [recruiter]: ./silver.md#recruter "RECRUIT"
 [produire des objets]: ./items.md "Gegenstände"
 [bâtiments]: ./buildings.md "Gebäude"
-[bateaux]: ./ships.md "Schiffe"
+[bateaux]: ./ships.md
 [chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [armes]: ./war-tables.md "Guerrestabellen"
 [MAKE TEMP]: ./cmd-make.md "MAKE"
@@ -79,10 +79,10 @@ Poursuivre la lecture : [races].
 [lignes de combat]: ./war.md#die-schlacht "Schlacht"
 [famine]: ./silver.md#hunger "Hunger"
 [masquée]: ./cmd-hide.md "HIDE"
-[trolls]: ./races.md#trolle "Trolle"
-[humains]: ./races.md##menschen "Mensch"
+[trolls]: ./races.md#trolls
+[humains]: ./races.md#menschen
 [nains]: ./races.md#nains "Zwerg"
-[1]: ./races.md#trolle "Troll"
+[1]: ./races.md#trolls "Troll"
 [fin du tour]: ./commands-sequence.md "Befehlsreihenfolge"
 [`HELP silver`]: ./cmd-help.md "HELP"
 [faction pool]: ./faction-pool.md "Parteipool"

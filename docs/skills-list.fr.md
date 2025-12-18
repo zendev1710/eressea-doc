@@ -5,74 +5,100 @@ alias: liste-des-competences
 
 Voici la liste de toutes les compétences que les unités peuvent apprendre sur Eressea. Il ne s'agit là que d'un bref aperçu, les chapitres correspondants contiennent plus de détails.
 
-## [Alchemy]
+## [[alchimie]]
 
-Fabriquer des [potions] à partir de [plantes]. L'apprentissage coûte 200 Silver par tour et par personne. Il ne peut y avoir plus de trois alchimistes par faction.
+*Alchemy (EN), Alchemie (DE)*.
 
-## Crossbow
+Fabriquer des [[alchimie|potions]] à partir de [[plantes]].
+L'apprentissage coûte 200 silvers par tour et par personne.
 
-Tir à l'arbalète.
+!!! note "Important"
+    Il ne peut y avoir plus de **trois alchimistes par faction**.
+
+## Tir à l'arbalète
+
+*Crossbow (EN), Armbrustschießen (DE)*.
 
 Avec une crossbow (arbalète) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
 
 ## Endurance
 
+*Endurance (EN), Ausdauer (DE)*.
+
 Permet à une unité d'encaisser plus de points de dégâts au combat et de mieux résister à la famine. (voir ce [tableau]).
 
-## Mining  
+## Mining
 
+*Mining (EN), Bergbau (DE)*.
 Pour extraire du fer (iron), du laen et de l' Adamantium. Il est possible d'extraire un fer par personne, par niveau de talent et par tour. Pour le laen et l'adamantium, il faut la compétence au niveau 7 (8 pour l'admantium) et une mine.
 
 Notez que les gisements sont limités par niveau (voir [ressources]). On ne voit que la quantité de fer qui se trouve sur la couche supérieure. Pour la prospection, on ne voit pas plus que la couche (niveau en mining\*2). Si la couche est plus profonde on ne verra rien.
 
-## Bow  
+## Tir à l'arc
 
-Tir à l'arc.
+*Bow (EN), Bogenschießen (DE)*.
 
 Avec un bow (arc) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
 
-## Masonry
+## Maçonnerie
 
-Pour construire des [bâtiments et des châteaux].
+*Masonry (EN), Burgenbau (DE)*.
 
-## Trade
+Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
 
-Commerce.
+## Commerce
+
+*Trade (EN), Handeln (DE)*.
 
 Dans les régions avec un château : acheter et vendre des biens de luxe. 10 biens peuvent être échangés par personne, niveau de compétence et tour (voir [commerce] et [[cmd-buy]]).
 
-## Melee
+## Mêlée
+
+*Melee (EN), Hiebwaffen (DE)*.
 
 Avec une arme de mêlée (sword, claymore, axe, laensword) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
 
 ## Forestry
 
+*Forestry (EN), Holzfällen (DE)*.
+
 Abattre des arbres et des mallorns pour faire du bois (wood) (voir [ressources][1]).
 
-## Catapult
+## Tir à la catapulte
 
-Tir à la catapulte.
+*Catapult (EN), Katapultbedienung (DE)*.
 
 Avec une catapult (catapulte) et des Ammunitions (munitions) : se battre. On ne peut pas taxer avec.
 
-## Herbalism  
+## Herbalism
 
-Permet de récolter des [plantes] pour concocter des [potions]. Le coût d'apprentissage est de 200 Silver par semaine et par personne. A un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`], [`MAKE SEEDS`] (voir [production]) et [[cmd-plant]]. Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
+*Herbalism (EN), Kräuterkunde (DE)*.
 
-## [magic]  
+Permet de récolter des [plantes] pour concocter des [[alchimie|potions]].
+Le coût d'apprentissage est de 200 silver par semaine et par personne.
+À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (voir [[production]]) et [[cmd-plant]]. Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
-Cela permet de lancer des sorts de combat et d'autres types de sorts. L'apprentissage de la magie coûte des [silver][magic] par personne et par tour, en fonction du niveau.
+## [[magie|Magie]]
 
-## Taming  
+* Magic (EN), Magie (DE)*.
+
+Cela permet de lancer des sorts de combat et d'autres types de sorts.
+L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tour, en fonction du niveau.
+
+## Taming
+
+*Taming (EN), Pferdedressur (DE)*.
 
 Dressage.
 
 Cette compétence est nécessaire pour obtenir des [chevaux]. On peut l'utiliser de deux façons :
 
-- Avec [[cmd-make]][`MAKE SEEDS`]`[`*`quantité`*`] horse` on capture des chevaux présents dans la région, à raison d'un cheval par personne et par niveau de compétence en taming. Bien sûr, au maximum autant de chevaux que présents dans la région.
-- Avec [`GROW HORSES`] il est possible de reproduire chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans une [stable].
+* Avec [[cmd-make|`MAKE SEEDS`]]`[`*`quantité`*`] horse` on capture des chevaux présents dans la région, à raison d'un cheval par personne et par niveau de compétence en taming. Bien sûr, au maximum autant de chevaux que présents dans la région.
+* Avec [[cmd-grow|`GROW HORSES`]] il est possible de reproduire chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans une [stable].
 
-## Riding  
+## Riding
+
+*Riding (EN), Reiten (DE)*.
 
 Monter à cheval.
 
@@ -80,35 +106,45 @@ Avec un [cheval][chevaux] : A partir de riding 1, déplacement plus rapide, à 
 
 Par personne et par niveau de compétence, il est possible de mener (4 x niveau riding)+1 chevaux sur 1 région (2 avec une route) ou de monter (2 x niveau riding) chevaux sur 2 régions (3 avec une route).
 
-## Armoursmithing  
+## Armoursmithing
+
+*Armoursmithing (EN), Rüstungsbau (DE)*.
 
 Fabriquer des armures.
 
-Fabrication d'armures en fer, laen et adamantium (voir [objects]).
+Fabrication d'armures en fer, laen et adamantium (voir [[objets]]).
 
-## Shipcraft  
+## Shipcraft
+
+*Shipcraft (EN), Schiffbau (DE)*.
 
 Construction navale.
 
-Construction et réparation de bateaux en bois (voir [bateaux]).
+Construction et réparation de bateaux en bois (voir [[bateaux]]).
 
-## Sailing  
+## Sailing
+
+*Sailing (EN), Segeln (DE)*.
 
 Naviguer.
 
 Avec un bateau: permet de naviguer. Toutes les unités sur le bateau ayant la compétence sailing comptent dans l'équipage.
 
-## Espionage  
+## Espionnage
 
-Espionnage.
+*Espionage (EN), Spionage (DE)*.
 
 Nécessaire pour utiliser l'ordre [[cmd-spy]] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
 
-## Polearm  
+## Polearm
+
+*Polearm (EN), Stangenwaffen (DE)*.
 
 Avec une arme d'hast (spear, mallorn spear, lance, mallorn lance, halberd) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
 
-## Quarrying  
+## Quarrying
+
+*Quarrying (EN), Steinbau (DE)*.
 
 Exploitation de carrières.
 
@@ -116,7 +152,9 @@ Produire des pierres et des munitions de catapulte (à partir du niveau 3). Une 
 
 Notez que les gisements sont limités par niveau (voir [ressources][2]). On ne voit toujours que le nombre de pierres qui se trouvent dans la couche supérieure. S'il n'y a pas de pierres dans la couche (niveau de compétence\*2), on ne voit rien.
 
-## Taxation  
+## Taxation
+
+*Taxation (EN), Steuereintreiben (DE)*.
 
 Taxer.
 
@@ -124,21 +162,30 @@ Collecter les taxes auprès des paysans. Par niveau de compétence et par person
 
 Cette compétence n'augmente pas en l'utilisant, pas plus que la compétence d'arme correspondante.
 
-## Roadwork  
+## Roadwork
 
-Construire des routes avec des pierres. Une pierre peut être posée par personne, par niveau de compétence et par tour. (voir [routes])
+*Roadwork (EN), Straßenbau (DE)*.
 
-## [tactics]  
+Construire des [[routes]] avec des pierres.
+Une pierre peut être posée par personne, par niveau de compétence et par tour.
+
+## [[tactique]]
+
+*Tactics (EN), Taktik (DE)*.
 
 Lors d'un combat, le camp avec le meilleur tacticien a des attaques supplémentaires. Apprendre coûte 200 Silver par tour et par personne (voir [rassemblement]).
 
-## [stealth]  
+## [stealth]
+
+*Stealth (EN), Tarnung (DE)*.
 
 Discrétion.
 
-L'unité est toujours camouflée et n'est visible que pour les unités ayant le même niveau de compétence en perception ou un niveau supérieur. Les unités camouflées avec succès peuvent [voler] ou déjouer la [vigilance] d'autres unités.
+L'unité est toujours camouflée et n'est visible que pour les unités ayant le même niveau de compétence en perception ou un niveau supérieur. Les unités camouflées avec succès peuvent [[camouflage|voler]] ou déjouer la [[cmd-guard|vigilance]] d'autres unités.
 
-## Entertainment
+## Divertissement
+
+*Entertainment (EN), Unterhaltung (DE)*.
 
 Divertissement.
 
@@ -146,15 +193,21 @@ Divertir les paysans. Si les paysans ont suffisamment d'argent, il est possible 
 
 ## Weaponsmithing
 
+*Weaponsmithing (EN), Waffenbau (DE)*.
+
 Fabriquer des armes.
 
-Fabrication d'armes en bois et en métal (voir [objets][objects]).
+Fabrication d'armes en bois et en métal (voir [[objets]]).
 
 ## Unarmed combat
+
+*Unarmed combat (EN), Waffenloser Kampf (DE)*.
 
 Les races des joueurs ne peuvent apprendre cette compétence. Ce n'est possible que pour les monstres et autres races spéciales. Cela une compétence de combat à main nue (sans arme).
 
 ## Cartmaking
+
+*Cartmaking (EN), Wagenbau (DE)*.
 
 Fabrication de chariots.
 
@@ -162,37 +215,23 @@ Construction de chariots (cart) et de catapultes (catapults) avec du bois. 1 car
 
 ## Perception
 
-L'unité est toujours à l'affût des unités camouflées. Cela vous permet par exemple d'éviter les vols (voir [perception]).
+*Perception (EN), Wahrnehmung (DE)*.
 
-Poursuivre la lecture : [camouflage].
+L'unité est toujours à l'affût des unités camouflées.
+Cela vous permet par exemple d'éviter les [[camouflage|vols]].
+
+Poursuivre la lecture : [[camouflage]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
-[camouflage]: ./camouflage.md "Tarnung"  
-[Alchemy]: ./alchemy.md "Alchemie"
-[potions]: ./alchemy.md "Tränke"
-[plantes]: ./herbs.md "Plantes"
-[tableau]: ./war.md#ausdauer "Kampftabellen"
-[ressources]: ./resources.md "Ressources"
-[bâtiments et des châteaux]: ./buildings.md "Gebäude"
-[commerce]: ./silver.md#handel "Handel"
-[BUY]: ./cmd-buy.md "BUY"
-[1]: ./resources.md#tief-im-wald "Ressources"
-[`RESEARCH HERBS`]: ./cmd-research.md "RESEARCH"
-[`MAKE SEEDS`]: ./cmd-make.md "MAKE"
-[production]: ./production.md "Produktion"
-[`PLANT`]: ./cmd-plant.md "PLANT"
-[magic]: ./magic.md "Magie"
-[chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
-[`GROW HORSES`]: ./cmd-grow.md "GROW"
-[stable]: ./buildings-others.md#haras "Haras"
-[objects]: ./items.md "Waren"
-[bateaux]: ./ships.md "Schiffe"
-[`SPY`]: ./cmd-spy.md "SPY"
-[2]: ./resources.md#ressources-minières "Ressources"
-[routes]: ./roads.md "Routes"
-[tactics]: ./tactic.md "Taktik"
-[rassemblement]: ./war.md#aux-armes-eresséens "rassemblement"
-[voler]: ./camouflage.md "STEAL"
-[vigilance]: ./cmd-guard.md "GUARD"
-[perception]: ./camouflage.md "Wahrnehmung"
+[plantes]: ./herbs.md
+[ressources]: ./resources.md
+[bâtiments et des châteaux]: ./buildings.md
+
+[tableau]: ./war.md#ausdauer
+[commerce]: ./silver.md#commerce
+[1]: ./resources.md#tief-im-wald Ressources Forestières
+[chevaux]: ./travel.md#chevaux-et-chariots
+[stable]: ./buildings-others.md#haras
+[2]: ./resources.md#ressources-minieres
+[rassemblement]: ./war.md#aux-armes-eresseens

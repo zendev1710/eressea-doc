@@ -1,6 +1,6 @@
 # Camouflage
 
-La [compétence] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [garde] une région, se trouve sur un bateau ou dans un bâtiment.
+La [[competences|compétence]] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.
 
 ## Contre-mesures
 
@@ -34,7 +34,8 @@ Ensuite, on détermine si la tentative d'espionnage a été remarquée, indépen
 
 ## Remarques
 
-De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([position de combat][]: `COMBAT NOT` ou `FLEE`). Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.
+De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([[cmd-combat|position de combat]]: `COMBAT NOT` ou `FLEE`).
+Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.
 
 Outre ces utilisations passives de la dissimulation, il est bien sûr possible de partir à la recherche d'informations avec des unités furtives bien entraînées ou d'utiliser la capacité de voler.
 
@@ -43,17 +44,10 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 - [[cmd-guard]]
 - [revenus]
 
-Poursuivre la lecture : [déplacements](./travel.md).
+Poursuivre la lecture : [[deplacements]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 
-<!--
-[compétence]: ./skills.md "Talente"
-[GUARD]: ./cmd-guard.md "GUARD"
-[garde]: ./cmd-guard.md "Garde"
-[combat]: ./war.md#la-fuite "Guerre"
-[`STEAL`]: ./camouflage.md "STEAL"
-[espionnage]: ./skills-list.md#espionnage "Spionage"
-[position de combat]: ./cmd-combat.md "COMBAT"
-[revenus]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"
--->
+[combat]: ./war.md#la-fuite
+[espionnage]: ./skills-list.md#espionnage
+[revenus]: ./silver.md#le-vol-la-methode-malhonnete

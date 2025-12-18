@@ -110,19 +110,19 @@ MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->
 
-[production]: ./production.md "Produktion"
-[Gegenstände]: ./items.md "Waren"
-[Rohstoffe]: ./resources.md "Ressources"
-[Alchemie-Kapitel]: ./skills-list.md "Liste des compétences"
-[Kräuterkunde]: ./herbs.md "Les plantes"
-[Kräuter]: ./herbs.md "Les plantes"
-[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten "Parteien"
-[Gebäude]: ./buildings.md "Gebäude"
-[Schiff]: ./ships.md "Schiffe"
-[Straßen]: ./roads.md "Straßen"
-[Straßenbau]: ./skills-list.md#straßenbau "Straßenbau"
-[Tunnel]: ./buildings-others.md#tunnel "Tunnel"
-[Karawanserei]: ./buildings-others.md#caravanserail "Caravanserail"
-[Damm]: ./buildings-others.md#barrage "Barrage"
-[Geländearten]: ./terrains.md "Geländearten"
-[Alchemie]: ./alchemy.md "Alchemie"
+[production]: ./production.md
+[Gegenstände]: ./items.md
+[Rohstoffe]: ./resources.md
+[Alchemie-Kapitel]: ./skills-list.md
+[Kräuterkunde]: ./herbs.md
+[Kräuter]: ./herbs.md
+[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten
+[Gebäude]: ./buildings.md
+[Schiff]: ./ships.md
+[Straßen]: ./roads.md
+[Geländearten]: ./terrains.md
+[Alchemie]: ./alchemy.md
+[Straßenbau]: ./skills-list.md#roadwork
+[Tunnel]: ./buildings-others.md#tunnel
+[Karawanserei]: ./buildings-others.md#caravanserail
+[Damm]: ./buildings-others.md#barrage

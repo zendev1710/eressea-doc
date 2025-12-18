@@ -357,4 +357,4 @@ Continue reading: [[schools-of-magic]].
 [Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Vertraute]: ./familiars.md "Vertraute"
 [Wesen]: ./monsters.md#braineaters "Monster"
-[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"
+s[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"

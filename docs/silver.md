@@ -24,7 +24,7 @@ Recruitment is prevented by guarding.
 ### Upkeep costs
 
 Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive.
-Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [[cmdèhelp|HELP SILVER]] to your own faction will also help (see [[alliances]]).
+Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [[cmd-help|HELP SILVER]] to your own faction will also help (see [[alliances]]).
 Units that move must be supplied where they arrive. Silver, which was previously [reserved], is also used for unit maintenance.
 Without enough silver, people will starve (see below).
 
@@ -61,7 +61,9 @@ Starved peasants can later be resurrected as [undead].
 
 ### Work
 
-Units can earn money by working in agriculture (see [[cmd-work]]). However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs. The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [[cmd-work]][`WORK`] order page).
+Units can earn money by working in agriculture (see [[cmd-work]]).
+However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs.
+The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [[cmd-work]] order page).
 
 A peasant normally earns 11 silver per turn. This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table]). If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.
 
@@ -71,32 +73,41 @@ Work is prevented by guarding only for units working on ships.
 
 ### Collecting taxes
 
-Armed and trained henchmen can use the order [[cmd-tax]][collecting taxes] to squeeze 20 silver in taxes per person and skill taxation level out of the peasants. To do this, you will of course need the taxation skill, as well as one weapon per person (catapults don't count) and at least one level of the corresponding weapon skill.
+Armed and trained henchmen can use the order [[cmd-tax]][collecting taxes] to squeeze 20 silver in taxes per person and skill taxation level out of the peasants.
+To do this, you will of course need the taxation skill, as well as one weapon per person (catapults don't count) and at least one level of the corresponding weapon skill.
 
-If the peasants live close to the maximum population, almost all the silver reserves will be used up by themselves, so they will have no more silver "left" for taxes. Taxes can then still be collected (up to the amount in the regional reserve), but the peasants who are not supplied at the end of the round will starve to death (which will not increase their earnings either ...). This is why it makes sense to build a castle, as this increases wages: with 12 silver instead of 11 silver, 2000 peasants earn 2000 silver more per turn!
+If the peasants live close to the maximum population, almost all the silver reserves will be used up by themselves, so they will have no more silver "left" for taxes.
+Taxes can then still be collected (up to the amount in the regional reserve), but the peasants who are not supplied at the end of the round will starve to death (which will not increase their earnings either ...).
+This is why it makes sense to build a castle, as this increases wages: with 12 silver instead of 11 silver, 2000 peasants earn 2000 silver more per turn!
 
 Collecting taxes is prevented by guarding.
 
 ### Entertainment
 
-The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak). Of this silver, 5% can be earned through entertainment. This amount is also stated in the region's statistics. Each person can earn up to 20 silver per round and talent level in entertainment with the [[cmd-entertain]][entertaining] order if the peasants have enough money available.
+The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak).
+Of this silver, 5% can be earned through entertainment. This amount is also stated in the region's statistics.
+Each person can earn up to 20 silver per round and talent level in entertainment with the [[cmd-entertain]][entertaining] order if the peasants have enough money available.
 
 ### Examples of potential income
 
 Income and upkeep
 
 | Region | Trees | Peasants | Max. workers | Wage | Income | Upkeep | Surplus | Entertain |
-|--------|-------|----------|--------------|------|--------|--------|---------|-----------|
-| Plain  | 200   | 3742     | 8400         | 11   | 41162  | 37420  | 3742    | 187       |
-| Plain  | 200   | 3742     | 8400         | 14   | 52388  | 37420  | 14968   | 748       |
-| Forest | 818   | 3742     | 3456         | 11   | 38016  | 37420  | 596     | 29        |
-| Forest | 818   | 3742     | 3456         | 12   | 41472  | 37420  | 4052    | 202       |
+|--------|------:|---------:|-------------:|-----:|-------:|-------:|--------:|----------:|
+| Plain  |   200 |     3742 |         8400 |   11 |  41162 |  37420 |    3742 |       187 |
+| Plain  |   200 |     3742 |         8400 |   14 |  52388 |  37420 |   14968 |       748 |
+| Forest |   818 |     3742 |         3456 |   11 |  38016 |  37420 |     596 |        29 |
+| Forest |   818 |     3742 |         3456 |   12 |  41472 |  37420 |    4052 |       202 |
 
 For each tree, the maximum number of peasants that may work is decreased by 8, for each sapling the number is decreased by 4.
 
-In the last example of the table, the total income is decreased because not all the peasants can work. This is because too many trees are preventing them from growing food.
+In the last example of the table, the total income is decreased because not all the peasants can work.
+This is because too many trees are preventing them from growing food.
 
-The values in the table do not account for the peasants' savings (region silver reserve). They will live on this reserve when overpopulation strikes. The silver available for entertainment is also affected by the amount in the silver reserve. As a rule, more silver can therefore be earned through entertainment, as the 5% refers to this reserve.
+The values in the table do not account for the peasants' savings (region silver reserve).
+They will live on this reserve when overpopulation strikes.
+The silver available for entertainment is also affected by the amount in the silver reserve.
+As a rule, more silver can therefore be earned through entertainment, as the 5% refers to this reserve.
 
 Entertainment is prevented by guarding only for entertaining units on ships.
 
@@ -110,13 +121,21 @@ It is also worth reading the chapter on [stealth][stealth skill] about this topi
 
 ## Trade
 
-In every region, the peasantry produce one special luxury item. Your units may purchase this product. In all regions that do not produce this special luxury product, there is a continuously rising demand. If you are not afraid of the risks involved in long distance travels, trading is a very lucrative method of earning silver.
+In every region, the peasantry produce one special luxury item.
+Your units may purchase this product.
+In all regions that do not produce this special luxury product, there is a continuously rising demand.
+If you are not afraid of the risks involved in long distance travels, trading is a very lucrative method of earning silver.
 
-In order to trade, a unit needs the trade skill. For every level of trade skill, a person can [[cmd-buy]] up to 10 luxury items or sell 10 luxury items. The respective numbers of traded goods can be selected completely freely. For example, a unit consisting of a person with skill level 4 in trading can buy 20 gems and sell 12 silk and 8 balm in one round.
+In order to trade, a unit needs the trade skill.
+For every level of trade skill, a person can [[cmd-buy]] up to 10 luxury items or sell 10 luxury items. The respective numbers of traded goods can be selected completely freely.
+For example, a unit consisting of a person with skill level 4 in trading can buy 20 gems and sell 12 silk and 8 balm in one round.
 
-Furthermore, some form of castle is required for the trade to take place. At least the size level of a tradepost is required. It does not matter who controls the castle, the owner cannot directly prevent the trading from taking place. However, they can indirectly prevent trading by simply attacking the trading units with their own armed units.
+Furthermore, some form of castle is required for the trade to take place. At least the size level of a tradepost is required.
+It does not matter who controls the castle, the owner cannot directly prevent the trading from taking place.
+However, they can indirectly prevent trading by simply attacking the trading units with their own armed units.
 
-The unit that owns the largest castle in the region receives a percentage of the proceeds of all sales by the other factions. This revenue share is deducted from the trader's income. If two castles in the region are the same size, no one receives this share. The amount of the "tax rate" can be found in the table in the [castles] chapter.
+The unit that owns the largest castle in the region receives a percentage of the proceeds of all sales by the other factions.
+This revenue share is deducted from the trader's income. If two castles in the region are the same size, no one receives this share. The amount of the "tax rate" can be found in the table in the [castles] chapter.
 
 Trade is prevented by guarding only for trading units on ships.
 

@@ -54,7 +54,7 @@ Voir aussi : [Construction d'un château].
 
 ## Phare
 
-> *Lighthouse (EN), Leuchtturm (DE)*
+*Lighthouse (EN), Leuchtturm (DE)*.
 
 | Propriété                 | Valeur                                |
 |---------------------------|---------------------------------------|
@@ -79,7 +79,7 @@ Les avantages d'un phare :
 
 ## Mine
 
-> *Mine (EN), Bergwerk (DE)*
+*Mine (EN), Bergwerk (DE)*.
 
 | Propriété                 | Valeur                                 |
 |---------------------------|----------------------------------------|
@@ -101,7 +101,7 @@ Les avantages d'un phare :
 
 ## Carrière
 
-> *Quarry (EN), Steinbruch (DE)*
+*Quarry (EN), Steinbruch (DE)*.
 
 | Propriété                 | Valeur                                |
 |---------------------------|---------------------------------------|
@@ -124,7 +124,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Scierie
 
-> *Sawmill (EN),  (DE)*
+*Sawmill (EN), Sägewerk (DE)*.
 
 | Coûts par point de taille | 5 pierres, 5 bois, 3 fers, 200 pièces |
 | Niveau requis          | 3                                   |
@@ -139,7 +139,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Forge
 
-> *Smithy (EN),  (DE)*
+*Smithy (EN), Schmiede (DE)*.
 
 | Propriété                 | Valeur                                |
 |---------------------------|---------------------------------------|
@@ -154,7 +154,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Haras
 
-> *Stable (EN),  (DE)*
+*Stable (EN), Pferdezucht (DE)*.
 
 | Propriété                 | Valeur                                |
 |---------------------------|---------------------------------------|
@@ -170,7 +170,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Port
 
-> *Harbour (EN),  (DE)*
+*Harbour (EN), Hafen (DE)*.
 
 | Propriété                 | Valeur                                         |
 |---------------------------|------------------------------------------------|
@@ -191,7 +191,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Académie
 
-> *Academy (EN),  (DE)*
+*Academy (EN), Akademie (DE)*.
 
 | Propriété                 | Valeur                                       |
 |---------------------------|----------------------------------------------|
@@ -209,7 +209,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Tour de mage
 
-> *Mage Tower (EN),  (DE)*
+*Mage Tower (EN), Magierturm (DE)*.
 
 | Propriété                 | Valeur                                                                 |
 |---------------------------|------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Caravanserail
 
-> *Caravanserai (EN),  (DE)*
+*Caravanserai (EN), Karawanserei (DE)*.
 
 | Propriété                 | Valeur                                    |
 |---------------------------|-------------------------------------------|
@@ -245,7 +245,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Barrage
 
-> *Dam (EN),  (DE)*
+*Dam (EN), Damm (DE)*.
 
 | Propriété                 | Valeur                                       |
 |---------------------------|----------------------------------------------|
@@ -261,7 +261,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Tunnel
 
-> *Tunnel (EN),  (DE)*
+*Tunnel (EN), Tunnel (DE)*.
 
 | Propriété                 | Valeur                                         |
 |---------------------------|------------------------------------------------|
@@ -277,7 +277,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Auberge
 
-> *Inn (EN),  (DE)*
+*Inn (EN), Taverne (DE)*.
 
 | Propriété                 | Valeur                               |
 |---------------------------|--------------------------------------|
@@ -292,7 +292,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Monument
 
-> *Monument (EN),  (DE)*
+*Monument (EN), Monument (DE)*.
 
 | Propriété                 | Valeur                              |
 |---------------------------|-------------------------------------|
@@ -307,7 +307,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 ## Cercle de Pierres
 
-> *Stonecircle (EN),  (DE)*
+*Stonecircle (EN), Steinkreis (DE)*.
 
 | Propriété                 | Valeur                |
 |---------------------------|-----------------------|
@@ -334,9 +334,7 @@ Poursuivre la lecture : [pool de factions].
 
 [water of life]: ./alchemy.md "Tränke"
 [USE 1 water~of~life]: ./cmd-use.md "USE"
-[GROW]: ./cmd-grow.md "GROW"
 [HELP GUARD]: ./cmd-help.md "HELP"
-[DESTROY]: ./cmd-destroy.md "DESTROY"
 [tableau des chateaux]: ./castles.md#übersicht "tableau des chateaux"
 [puissant sort]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
 [Bâtiments]: ./buildings.md "Bâtiments"
@@ -352,7 +350,7 @@ Poursuivre la lecture : [pool de factions].
 [Haras]: #haras
 [Port]: #port
 [Caravanserail]: #caravanserail
-[Académie]: #académie
+[Académie]: ./#academie
 [Tour de mage]: #tour-de-mage
 [Barrage]: #barrage
 [Tunnel]: #tunnel
@@ -360,5 +358,3 @@ Poursuivre la lecture : [pool de factions].
 [Monument]: #monument
 [Cercle de Pierres]: #cercle-de-pierres
 [MAKE "type de bâtiment"]: ./cmd-make.md "MAKE"
-[maçonnerie]: ./skills-list.md#masonry "Maçonnerie"
-[frais d'entretien]: ./silver.md#frais-d-entretien

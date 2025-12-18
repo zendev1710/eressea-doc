@@ -25,7 +25,7 @@ Texte, die Leerzeichen enthalten, müssen in Anführungszeichen (") eingeschloss
 
      NAME Schiff "Großer Blauer Vogel"
      GIVE einh 5 Würziger~Wagemut
-     KAEMPFE HINTEN
+     KAEMPFE REAR
 
 Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.
 

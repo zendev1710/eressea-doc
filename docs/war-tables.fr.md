@@ -100,7 +100,7 @@ Une unité peut être dans l'un des états de santé suivants :
 
 On ne peut utiliser qu'une seule armure à la fois; plusieurs armures n'offrent pas plusieurs niveaux de protection.
 
-Tous les [[Familiers]] ou les monstres invoqués ne peuvent pas utiliser d'armure.
+Tous les [[familiers]] ou les monstres invoqués ne peuvent pas utiliser d'armure.
 
 Schilde können, obwohl sie als Rüstung zählen, zusammen mit einer Rüstung benutzt werden und wirken dann additiv zur Rüstung, aber auch nur jeweils ein Schild pro Person.
 

@@ -6,7 +6,7 @@ Dieser Befehl attackiert die betreffende Einheit in der aktuellen Region. Pro Ei
 
 [<sup>(l)</sup>][<sup>`(l)`</sup>] Der `ATTACK`-Befehl ist ein pseudolanger Befehl. Er ist kurz in der Hinsicht, dass man mehrere `ATTACK`-Befehle geben kann. Er ist lang, da er weitere lange Befehle ausschließt, falls es tatsächlich zum "langen" Kampf kommen sollte. Wann ein "langer" Kampf gegeben ist, wird unter [Kampfende] erläutert.
 
-Einheiten, die nicht vorne (COMBAT oder COMBAT AGGRESSIV) oder hinten (COMBAT HINTEN oder COMBAT DEFENSIV) [kämpfen], können auch nicht attackieren.
+Einheiten, die nicht vorne (COMBAT oder COMBAT AGGRESSIV) oder hinten (COMBAT REAR oder COMBAT DEFENSIV) [kämpfen], können auch nicht attackieren.
 
 In den ersten Wochen ist deine Partei [immun] gegen Angriffe.
 

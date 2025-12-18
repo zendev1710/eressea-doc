@@ -73,7 +73,7 @@ brief description of orders
 | [COMBAT DEFENSIV](./cmd-combat.md "COMBAT")                                          | COMBAT DEFENSIVE                             |                                                   | K           |
 | [COMBAT FLIEHE](./cmd-combat.md "COMBAT")                                            | COMBAT FLEE                                  |                                                   | K           |
 | [COMBAT HELP \[NOT\]](./cmd-combat.md "COMBAT")                                      | COMBAT HELP \[NOT\]                          | the unit is \[not\] helped in the fight           | K           |
-| [COMBAT HINTEN](./cmd-combat.md "COMBAT")                                            | COMBAT REAR                                  |                                                   | K           |
+| [COMBAT REAR](./cmd-combat.md "COMBAT")                                            | COMBAT REAR                                  |                                                   | K           |
 | [COMBAT NOT](./cmd-combat.md "COMBAT")                                               | COMBAT NOT                                   |                                                   | K           |
 | [COMBATSPELL \[LEVEL n\] "zauberspruch" \[NOT\]](./cmd-combatspell.md "COMBATSPELL") | COMBATSPELL \[level n\] "spell" \[NOT\]      | set spell for combat                              | K           |
 | [BUY anzahl luxusgut](./cmd-buy.md "BUY")                                            | BUY amount luxurygood                        | buy luxury item                                   | L\*\*\*     |

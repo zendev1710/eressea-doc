@@ -1,3 +1,8 @@
+---
+alias:
+    name: alchimie
+    text: Alchimie
+---
 # Potions
 
 Les **potions** alchimiques sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle unité. Pour fabriquer une potion, il faut des unités avec la compétence [Alchemy], et pour trouver les plantes nécessaires, il faut des unités avec la compétence [Herbalism].
@@ -66,5 +71,5 @@ Poursuivre la lecture : [[herbs|plantes]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
 
-[Alchemy]: ./skills-list.md#alchemy
+[Alchemy]: ./skills-list.md#alchimie
 [Herbalism]: ./skills-list.md#herbalism

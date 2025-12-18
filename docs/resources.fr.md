@@ -3,17 +3,25 @@ alias: ressources
 ---
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [Régions] sans aucun autre ingrédient. Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout. La compétence requise est indiquée dans le tableau de la section [objets].
+Les matières premières peuvent être obtenues directement à partir des réserves des [régions] sans aucun autre ingrédient. Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout. La compétence requise est indiquée dans le tableau de la section [objets].
 
 ## Exploitation des ressources
 
-Lors de l'exploitation des ressources, il est important considérer que les unités en [garde] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`]` ni `[`HELP ALL`][`HELP GUARD`]` avec votre faction ou donné l'ordre `[`CONTACT`]` avec l'unité ou la faction qui exploite. Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est `[`camouflé`]`.`
+Lors de l'exploitation des ressources, il est important de considérer que les unités en [[cmd-guard|garde]] empêchent l'exploitation, si les factions en garde n'ont ni [[cmd-help|`HELP GUARD`]] ni [[cmd-help|`HELP ALL`]] avec ta faction, ou donné l'ordre [[cmd-contact|`CONTACT`]] avec l'unité ou la faction qui exploite.
+Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est `[`camouflé`]`.`
 
 ` `
 
 ### Ressources minières
 
-Le fer, la pierre, le laen et, dans les régions particulièrement anciennes, parfois même l'adamantium, peuvent être extraits des montagnes, des glaciers et parfois d'autres types de régions. Le laen et l'adamantium nécessitent une mine et une compétence en Mining particulièrement élevée. Ces ressources peuvent être difficiles à extraire. Dans votre rapport vous pouvez le savoir suivant le nombre après le "/". Par exemple, si le rapport indique « 20 iron/4 », cela signifie que 20 fers avec un niveau de compétence 4 peuvent encore être extraits. Une fois ceux-ci extraits, les mineurs auront besoin d'être niveau 5 pour extraire du fer de la couche suivante (5). En général, les quantités pouvant être extraites augmentent à chaque nouvelle couche. L'extraction nécessite les compétences Mining ou Quarrying selon la ressource.
+Le fer, la pierre, le laen et, dans les régions particulièrement anciennes, parfois même l'adamantium, peuvent être extraits des montagnes, des glaciers et parfois d'autres types de régions.
+Le laen et l'adamantium nécessitent une mine et une compétence en Mining particulièrement élevée.
+Ces ressources peuvent être difficiles à extraire.
+Dans ton rapport tu peux le savoir suivant le nombre après le "/".
+Par exemple, si le rapport indique « 20 iron/4 », cela signifie que 20 fers avec un niveau de compétence 4 peuvent encore être extraits.
+Une fois ceux-ci extraits, les mineurs auront besoin d'être niveau 5 pour extraire du fer de la couche suivante (5).
+En général, les quantités pouvant être extraites augmentent à chaque nouvelle couche.
+L'extraction nécessite les compétences Mining ou Quarrying selon la ressource.
 
 ### Ressources Forestières
 
@@ -23,7 +31,11 @@ Si du bois ou du mallorn est abattu, la forêt se rétrécit et ne se reconstitu
 
 ### Autres ressources
 
-Les chevaux peuvent également être capturés à volonté avec l'ordre [`MAKE horse`][`MAKE`]. Sans aide, seuls les chevaux sauvages se reproduisent. Il est toutefois possible de faire naître d'autres chevaux dans une [Stable]. Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'entre eux migrent vers les régions voisines lorsque les chevaux y sont moins nombreux. Compétence : taming
+Les chevaux peuvent également être capturés à volonté avec l'ordre [[cmd-make|`MAKE horse`]].
+Sans aide, seuls les chevaux sauvages se reproduisent.
+Il est toutefois possible de faire naître d'autres chevaux dans une [Stable].
+Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'entre eux migrent vers les régions voisines lorsque les chevaux y sont moins nombreux.
+Compétence : taming
 
 Expérience de jeu : SoltharDie maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10. In einer relativ leeren Region vermehren sie sich mit ca. 4%. Je näher sie dem Limit kommen, desto langsamer das Wachstum. Am schnellsten geht es bei ungefähr halben Besatz. In einer Ebene gibt es bei 25 Pferden jede Runde ein neues. Bei 500 Pferden kommen 10 pro Runde hinzu. Ab 1000 Pferden tut sich nichts mehr.
 
@@ -33,27 +45,18 @@ On peut également récolter des plantes pour concocter des potions. Il y a au m
 
 ## Voir aussi
 
-- [Production]
-- [Objets]
-- [Routes]
-- [Bâtiments]
+- [[production]]
+- [[objets]]
+- [[routes]]
+- [[batiments]]
 
-Poursuivre la lecture : [objets].
-
-[objets]: ./items.md "Waren"
+Poursuivre la lecture : [[objets]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
-[Régions]: ./world.md "Welt"
-[garde]: ./cmd-guard.md "GUARD"
-[`HELP GUARD`]: ./cmd-help.md "HELP"
-[`CONTACT`]: ./cmd-contact.md "CONTACT"
-[`camouflé`]: ./camouflage.md "Tarnung"
-[`MAKE`]: ./cmd-make.md "MAKE"
-[Herbalism]: ./skills-list.md "Liste des compétences"
-[`PLANT`]: ./cmd-plant.md "PLANT"
-[Stable]: ./buildings-others.md#haras "Haras"
-[Liste des Plantes]: ./herbs.md#liste-des-plantes "Plantes"
-[Production]: ./production.md "Produktion"
-[Routes]: ./roads.md "Straßen"
-[Bâtiments]: ./buildings.md "Gebäude"
+[Régions]: ./world.md
+[`MAKE`]: ./cmd-make.md
+[Herbalism]: ./skills-list.md
+
+[Stable]: ./buildings-others.md#haras
+[Liste des Plantes]: ./herbs.md#liste-des-plantes

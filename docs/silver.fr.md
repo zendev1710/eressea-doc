@@ -3,13 +3,15 @@ alias: argent
 ---
 # Argent
 
-L'argent mène le monde - c'est aussi le cas dans Eressea. Il y a plusieurs façons d'en obtenir : [travailler], [divertir], [collecter les impôts] ou [commercer].
+L'argent mène le monde - c'est aussi le cas dans Eressea. Il y a plusieurs façons d'en obtenir : [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer].
 
 Le travail (work) est plus une sorte de palliatif, les unités qui travaillent gagnent à peine de quoi se nourrir. Vous pouvez gagner beaucoup d'argent avec le divertissement (entertain) et les impôts (tax). Surtout au début de votre aventure, le commerce peut être la plus grande source de revenus, des profits de quelques milliers d'argent sont possibles, à condition que les régions aient les produits de luxe appropriés.
 
 L'argent a son propre poids : 100 silver équivalent à une unité de poids. Lors du calcul du poids, il est courant d'arrondir à l'unité supérieure ; une seule pièce peut surcharger.
 
-Comme les personnes (de la plupart des [Races]) peuvent porter 5,4 UW/kg, elles peuvent transporter jusqu'à 540 silvers; lorsqu'elles en portent 541 une seule personne est surchargée. Un bateau (capacité de 50 UW/kg) par exemple, peut transporter une personne (10 kg dans la plupart des cas) avec 4000 argent ; 4001 pièces serait une surcharge.
+Comme les personnes (de la plupart des [[races]]) peuvent porter 5,4 UW/kg, elles peuvent transporter jusqu'à 540 silvers;
+lorsqu'elles en portent 541 une seule personne est surchargée.
+Un bateau (capacité de 50 UW/kg) par exemple, peut transporter une personne (10 kg dans la plupart des cas) avec 4000 silvers; 4001 pièces serait une surcharge.
 
 ## Dépenses
 
@@ -21,23 +23,42 @@ Garder empêche le recrutement (sauf HELP)
 
 ### Frais d'entretien
 
-Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture. Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de Silver !) Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [HELP SILVER] avec votre faction aident aussi (voir : [[alliances]]). Les unités qui se déplacent doivent être ravitaillées là où elles arrivent. Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé]. Sans suffisamment de Silver, les gens souffrent de la faim (voir ci-dessous).
+Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture.
+Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de silvers !)
+Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [[cmd-help|HELP SILVER]] avec votre faction aident aussi (voir [[alliances]])..
+Les unités qui se déplacent doivent être ravitaillées là où elles arrivent. Pour l'entretien des unités, on utilise aussi des silvers, qui a été préalablement [[cmd-reserve|réservé]].
+Sans suffisamment de silvers, les gens souffrent de la faim (voir ci-dessous).
 
-Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pour fonctionner. Ces frais d'entretien sont dûs dès le début du tour, ils doivent donc être perçus dès le premier tour et sont dûs dès que le bâtiment a été commencé (donc également pour les bâtiments à moitié construits). S'il n'y a pas assez d'argent disponible, la fonction du bâtiment ne peut pas être utilisée. Pour plus de détails, voir le chapitre sur les [Bâtiments].
+Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pour fonctionner.
+Ces frais d'entretien sont dûs dès le début du tour, ils doivent donc être perçus dès le premier tour et sont dûs dès que le bâtiment a été commencé (donc également pour les bâtiments à moitié construits).
+S'il n'y a pas assez d'argent disponible, la fonction du bâtiment ne peut pas être utilisée.
+Pour plus de détails, voir le chapitre sur les [Bâtiments].
 
 ## Famine
 
 ### La Famine pour les unités des joueurs
 
-Les unités affamées subissent des dégâts, et donc perdent des points de vie. Les halflings affamés proportionnellement plus que les autres races. La santé d'une unité apparaît dans le rapport. L'unité sera exhausted, wounded ou badly wounded. Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine.
+Les unités affamées subissent des dégâts, et donc perdent des points de vie.
+Les halflings affamés proportionnellement plus que les autres races.
+La santé d'une unité apparaît dans le rapport.
+L'unité sera exhausted, wounded ou badly wounded.
+Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine.
 
-Une unité affamée ne peut pas donner de personnes à d'autres unités. De plus, les unités affamées voient leur score de talent chuter de moitié, ne régénèrent pas de points de vie et apprennent beaucoup plus lentement que d'habitude. Cependant, les unités affamées ou blessées peuvent encore exécuter des ordres longs.
+Une unité affamée ne peut pas donner de personnes à d'autres unités.
+De plus, les unités affamées voient leur score de talent chuter de moitié, ne régénèrent pas de points de vie et apprennent beaucoup plus lentement que d'habitude.
+Cependant, les unités affamées ou blessées peuvent encore exécuter des ordres longs.
 
-Au fil du temps, les unités blessées se rétablissent. Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certaines races davantage), avec un minimum d'un point par personne dans l'unité. Les unités de Morts-vivants ne se régénèrent pas
+Au fil du temps, les unités blessées se rétablissent.
+Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certaines races davantage), avec un minimum d'un point par personne dans l'unité.
+Les unités de Morts-vivants ne se régénèrent pas
 
-La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées. Néanmoins, la famine en mer est une situation critique. D'une part, personne d'autre que les [aquariens] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers. D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le bateau, ce qui fait que le bateau subit des [dommages] et dérive.
+La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées.
+Néanmoins, la famine en mer est une situation critique.
+D'une part, personne d'autre que les [aquariens] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers.
+D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le bateau, ce qui fait que le bateau subit des [dommages] et dérive.
 
-La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification. Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat. Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille]).
+La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification. Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat.
+Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille]).
 
 Si l'unité maîtrise la [compétence endurance] à un niveau élevé, il peut arriver, après avoir été affamé, qu'une unité soit "très forte"(Very Strong) selon le rapport (c'est-à-dire qu'elle ait plus de points de vie qu'elle ne devrait normalement en avoir).
 
@@ -45,9 +66,9 @@ Si l'unité maîtrise la [compétence endurance] à un niveau élevé, il peut a
 
 Les paysans ont eux aussi besoin de subsistance, qu'ils gagnent généralement eux-mêmes et qu'ils prélèvent dans les réserves de la région. Lorsque les réserves de la région sont épuisées, les paysans meurent de faim. Cela peut avoir plusieurs causes :
 
-- La région est surpeuplée. Dans une plaine sans arbres, où chaque paysan gagne 12 silver, seuls 12000 paysans peuvent survivre à long terme, car seuls 10000 paysans travaillent tout en gagnant 120000$, ce qui ne suffit que pour 12000 paysans. A court terme, le nombre de paysans peut être plus élevé tant qu'il reste suffisamment de Silver dans les réserves de la région.
+- La région est surpeuplée. Dans une plaine sans arbres, où chaque paysan gagne 12 silvers, seuls 12 000 paysans peuvent survivre à long terme, car seuls 10 000 paysans travaillent tout en gagnant 1 200 00$, ce qui ne suffit que pour 12 000 paysans. A court terme, le nombre de paysans peut être plus élevé tant qu'il reste suffisamment de Silver dans les réserves de la région.
 - La région n'est pas surpeuplée, mais les unités des joueurs [travaillent][travailler] et occupent donc une partie des emplois.
-- Les paysans gagnent suffisamment de Silver, mais les unités de joueurs [taxent][collecter les impôts] avant que les paysans n'aient pu subvenir à leurs besoins.
+- Les paysans gagnent suffisamment de silvers, mais les unités de joueurs [[cmd-tax|taxent]] avant que les paysans n'aient pu subvenir à leurs besoins.
 - De plus, des rumeurs circulent sur des événements particuliers qui peuvent temporairement ou définitivement dégrader la fertilité d'une région, empêchant les paysans de subvenir à leurs besoins.
 
 Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivants].
@@ -66,7 +87,7 @@ Garder empêche de travailler uniquement les unités se trouvant à l'intérieur
 
 ### Collecter les impôts
 
-Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax]][collecter les impôts] par personne et par niveau de compétence. Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.
+Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax]] par personne et par niveau de compétence. Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.
 
 Si le nombre de paysans est près du maximum de population, presque toutes les réserves de silver de la région seront utilisées par les paysans, de sorte qu'ils n'auront plus de Silver "à disposition" pour les impôts. Les impôts pourront tout de même être collectés (à hauteur de la réserve de la région), mais les paysans non approvisionnés mourront de faim (et donc les gains n'augmenteront pas non plus ...). C'est pour cela qu'il est judicieux de construire un château, car cela permet d'augmenter le salaire de base : avec 12 Silver au lieu de 11, 2000 paysans gagnent 2000 Silver de plus par tour !
 
@@ -111,39 +132,61 @@ Pour faire du commerce, il faut avoir le talent Trade. Une personne (or a unit) 
 
 De plus, il est nécessaire pour faire du commerce qu'il y ait dans la région un château au moins la taille d'un tradepost (comptoir commercial), dans lequel se déroule en quelque sorte le marché. La faction propriétaire du château n'a pas d'importance pour le commerce - les propriétaires du château ne peuvent pas (selon les règles) empêcher le commerce dans la région. En revanche, ils peuvent décider de le "perturber" en attaquant les marchands pour leur faire cesser leurs activités.
 
-Le propriétaire du plus grand château de la région reçoit une part des recettes des ventes des autres joueurs. Cette part de recettes est déduite des recettes des marchands. Si deux châteaux sont de même taille, personne ne reçoit cette part. Le montant du "taux d'imposition" est indiqué dans le tableau du chapitre [châteaux].
+Le propriétaire du plus grand château de la région reçoit une part des recettes des ventes des autres joueurs.
+Cette part de recettes est déduite des recettes des marchands.
+Si deux châteaux sont de même taille, personne ne reçoit cette part.
+Le montant du "taux d'imposition" est indiqué dans le tableau du chapitre [châteaux].
 
-Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau. (sauf help)
+Garder empêche de travailler uniquement si les unités se trouvent à l'intérieur d'un bateau (sauf help).
 
-Chaque marchandise a un prix de base fixe (voir le tableau). Il indique les prix de base des produits de luxe. Le nombre d'unités de produits de luxe qui peuvent être achetées sans que leur prix n'augmente est égal à 1% du nombre de paysans de la région. Chaque fois que cette quantité est achetée (le total acheté par toutes les factions), le prix augmente du prix de base. Une région de 2 000 paysans permet d'acheter 20 objets de luxe sans en augmenter le prix d'achat. Le prix revient à la normale au tour suivant, les produits étant à nouveau disponibles.
+Chaque marchandise a un prix de base fixe (voir le tableau ci-dessous).
+Il indique les prix de base des produits de luxe.
+Le nombre d'unités de produits de luxe qui peuvent être achetées sans que leur prix n'augmente est égal à 1% du nombre de paysans de la région.
+Chaque fois que cette quantité est achetée (le total acheté par toutes les factions), le prix augmente du prix de base.
+Une région de 2 000 paysans permet d'acheter 20 objets de luxe sans en augmenter le prix d'achat.
+Le prix revient à la normale au tour suivant, les produits étant à nouveau disponibles.
 
 Prix de base des biens de luxe :
 
-| Biens de luxe | Prix de base | Poids en kg |
-|---------------|--------------|-------------|
-| Balm          | 4            | 2           |
-| Oil           | 3            | 3           |
-| Spice         | 5            | 2           |
-| Silk          | 6            | 3           |
-| Gem           | 7            | 1           |
-| Incense       | 4            | 2           |
-| Myrrh         | 5            | 2           |
+| Biens de luxe | Prix de base | Poids (kg) |
+|---------------|-------------:|-----------:|
+| Balm          |            4 |          2 |
+| Oil           |            3 |          3 |
+| Spice         |            5 |          2 |
+| Silk          |            6 |          3 |
+| Gem           |            7 |          1 |
+| Incense       |            4 |          2 |
+| Myrrh         |            5 |          2 |
 
-Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région. Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes. Chaque tour, il y a 10% de chances que le prix de vente de chaque produit de luxe augmente du prix de base. Dans les régions où se trouve un [Port (harbour)], cette chance est de 20%. Si le prix de vente est déjà de 25 fois le prix de base, il n'augmentera pas davantage.
+Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.
+Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.
+Chaque tour, il y a 10% de chances que le prix de vente de chaque produit de luxe augmente du prix de base.
+Dans les régions où se trouve un [[batiments-speciaux|port (*harbour*)]], cette chance est de 20%.
+Si le prix de vente est déjà de 25 fois le prix de base, il n'augmentera pas davantage.
 
-Les prix et les maxima indiqués sont valables pour toutes les factions de la région et non par faction, mais par produit de luxe. Sans accord entre les factions, le prix de vente peut être "dévalué" plus vite qu'on ne le souhaiterait...
+Les prix et les maxima indiqués sont valables pour toutes les factions de la région et non par faction, mais par produit de luxe.
+Sans accord entre les factions, le prix de vente peut être "dévalué" plus vite qu'on ne le souhaiterait...
 
-Tous les achats et les ventes de produits de luxe sont équitablement répartis entre les factions. La hausse ou la baisse des prix affecte donc de manière égale tous ceux qui achètent ou vendent pendant le tour.
+Tous les achats et les ventes de produits de luxe sont équitablement répartis entre les factions.
+La hausse ou la baisse des prix affecte donc de manière égale tous ceux qui achètent ou vendent pendant le tour.
 
 Exemple :
 
 - Supposons une région comptant 8000 paysans. Elle propose de l'encens (incense) à 4 Silver et demande des épices (spice) à 15 Silver. 1% des paysans correspond à 80. Si un commerçant vend 200 épices, les 80 premières épices seront vendues à 15 Silver, les 80 suivantes à 10 Silver et les 40 restantes à 5 Silver. La semaine suivante, les épices ne pourront plus être vendues qu'à 5 Silver. Sauf si le prix est remonté à 10 (10% de probabilité, 20% si harbour).
-
 - Si 100 encens sont achetés dans cette région, les 80 premiers encens coûtent 4 Silver pièce, et les 20 suivants 8 Silver. La semaine suivante, le prix de l'encens est à nouveau de 4 Silver et on peut à nouveau acheter les 80 premiers encens à ce prix. Si les 100 encens ont été achetés par des unités de deux factions différentes, les deux paieront (aux effets d'arrondi près) 4,8 Silver par produit de luxe.
 
-L'argent dépensé par les commerçants pour acheter le bien de luxe disponible dans la région bénéficie aux vendeurs. Malgré cela, la région ne perd pas d'argent, car les agriculteurs possèdent des biens de luxe avec lesquels ils peuvent payer les impôts. L'argent n'est pas créé à partir de rien - c'est la valeur des biens qui ont été produits dans une autre région. En revanche, l'argent qui a été dépensé par BUY s'ajoute à la réserve de la région. Des gouvernants avisés peuvent le leur reprendre en les divertissant et en les taxant.
+L'argent dépensé par les commerçants pour acheter le bien de luxe disponible dans la région bénéficie aux vendeurs.
+Malgré cela, la région ne perd pas d'argent car les agriculteurs possèdent des biens de luxe avec lesquels ils peuvent payer les impôts.
+L'argent n'est pas créé à partir de rien - c'est la valeur des biens qui ont été produits dans une autre région.
+En revanche, l'argent qui a été dépensé par BUY s'ajoute à la réserve de la région.
+Des gouvernants avisés peuvent le leur reprendre en les divertissant et en les taxant.
 
-Il vaut la peine d'équiper un bateau et de prendre la mer. Bien qu'il soit possible de faire du commerce avec les deux produits fabriqués sur une île, les bénéfices restent relativement faibles. En revanche, si l'on revient d'une île étrangère avec une cargaison de marchandises rares, on peut réaliser des bénéfices astronomiques, quelque soit la distance entre les îles. Attention un tradepost est un préalable à tout commerce.
+Il vaut la peine d'équiper un bateau et de prendre la mer.
+Bien qu'il soit possible de faire du commerce avec les deux produits fabriqués sur une île, les bénéfices restent relativement faibles.
+En revanche, si l'on revient d'une île étrangère avec une cargaison de marchandises rares, on peut réaliser des bénéfices astronomiques, quelque soit la distance entre les îles.
+
+!!! warning "Attention"
+    Un tradepost est un préalable à tout commerce.
 
 ## Concurrence entre différentes factions
 
@@ -156,9 +199,9 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 ## Voir aussi
 
 - [[cmd-give]]
-- [[cmd-reserve]][réservé]
+- [[cmd-reserve]]
 - [[cmd-recruit]]
-- [itempool]
+- [[reserve-d-objets]]
 - [stealth]
 - [[cmd-guard]]
 
@@ -170,11 +213,8 @@ Poursuivre la lecture : [Material Pool].
 
 [travailler]: ./cmd-work.md "WORK"
 [divertir]: ./cmd-entertain.md "ENTERTAIN"
-[collecter les impôts]: ./cmd-tax.md "TAX"
-[commercer]: ./silver.md#handel "Argent"
 [Races]: ./races.md "Rassen"
 [HELP SILVER]: ./cmd-help.md "HELP"
-[réservé]: ./cmd-reserve.md "RESERVE"
 [Bâtiments]: ./buildings.md "Gebäude"
 [aquariens]: ./races.md#aquariens "Aquariens"
 [dommages]: ./ships.md "Schiff"
@@ -190,8 +230,5 @@ Poursuivre la lecture : [Material Pool].
 [SELL]: ./cmd-sell.md "SELL"
 [châteaux]: ./castles.md "Burgen"
 [Port (harbour)]: ./buildings-others.md "Andere Gebäude"
-[`CONTACT`]: ./cmd-contact.md "CONTACT"
-[GIVE]: ./cmd-give.md "GIVE"
-[RECRUIT]: ./silver.md#recruter "RECRUIT"
-[itempool]: ./items-pool.md "Materialpool"
-[GUARD]: ./cmd-guard.md "GUARD"
+
+[commercer]: #commerce

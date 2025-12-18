@@ -1,5 +1,7 @@
 ---
-alias: traenke
+alias:
+    name: alchemie
+    text: Alchemie
 ---
 # Tränke
 

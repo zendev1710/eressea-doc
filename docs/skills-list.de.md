@@ -5,7 +5,7 @@ alias: liste-der-talente
 
 Hier die Liste aller Talente, die Einheiten in Eressea erlernen können. Dies ist nur eine kurze Übersicht, weitere Details enthalten die jeweiligen Kapitel.
 
-## [Alchemie]
+## [[alchemie]]
 
 Herstellen von [Tränken] aus [Kräutern]. Lernen kostet 200 Silber Person. Pro Partei darf es maximal drei Alchemisten geben.
 
@@ -51,7 +51,7 @@ Zusammen mit einem Katapult und Katapultmunition: kämpfen. Mit Katapulten kann 
 
 Finden von [Kräutern] zur Herstellung von [alchemistischen Tränken][Tränken]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
 
-## [Magie]
+## [[magie]]
 
 Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [Silber][Magie].
 
@@ -102,7 +102,7 @@ Dieses Talent steigt nicht durch Anwendung, ebenso wenig das entsprechende Waffe
 
 Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut werden (siehe [Straßen]).
 
-## [Taktik]
+## [[taktik]]
 
 Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (siehe [Musterung]). Lernen kostet 200 Silber pro Person.
 
@@ -157,7 +157,6 @@ Weiterlesen: [Tarnung].
 [bef-spioniere]: ./cmd-spy.md "SPIONIERE"
 [2]: ./resources.md#vom-bergbau "Rohstoffe"
 [Straßen]: ./roads.md "Straßen"
-[Taktik]: ./tactic.md "Taktik"
 [Musterung]: ./war.md#die-musterung-der-einheiten "Musterung"
 [beklauen]: ./camouflage.md "BEKLAUE"
 [Bewachungen]: ./cmd-guard.md "BEWACHE"

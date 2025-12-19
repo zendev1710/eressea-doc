@@ -27,7 +27,7 @@ Es gibt sieben Arten von Untoten:
 - **Ghoule**, mutieren zu **Ghasten**
 - **Zombies**, mutieren zu **Juju-Zombies**
 
-Manche [[magie|Magier]] sind in der Lage, Untote zu kontrollieren.
+Manche [[magie-de|Magier]] sind in der Lage, Untote zu kontrollieren.
 
 ## Drachen
 

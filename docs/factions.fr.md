@@ -17,7 +17,7 @@ Voici un exemple d'unités :
         * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
         melee 1, taxation 2, has: sword, 20 silver, "TAX";
         Konrad Rabenhelm ist ein typischer Ritter seines Ordens. Der Orden der
-        Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden 
+        Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden
         Mitglieder. Sie scheinen alle an einem finsteren Erlebnis zu nagen.
        
       - Botschafter des Clans (2ow), anonymous, 1 dwarf, has: horse,

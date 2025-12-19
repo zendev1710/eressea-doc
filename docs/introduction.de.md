@@ -11,7 +11,7 @@ In Eressea übernimmst du eine [Partei] von Personen einer bestimmten [Rasse], d
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
 
-Eressea ist eine fantastische Welt. Wesen wie [Elfen] und [Zwerge] bevölkern die Welt, und [Magie] gehört zum täglichen Geschehen. Sogar [Drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
+Eressea ist eine fantastische Welt. Wesen wie [Elfen] und [Zwerge] bevölkern die Welt, und [[magie-de]] gehört zum täglichen Geschehen. Sogar [Drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
 
 Eressea ist eine große Welt. Hunderte von Völkern leben auf den Inseln Eresseas und viele von ihnen werden sich wohl niemals begegnen, denn es kann Jahre dauern, die Entfernungen zu überbrücken.
 
@@ -41,7 +41,6 @@ Weiterlesen: [Welt].
 [Anmeldung]: ./hints.md#anmeldung "Anmelden wie?"
 [Elfen]: ./races.md#elfen "Elf"
 [Zwerge]: ./races.md#zwerge "Zwerg"
-[Magie]: ./magic.md "Magie"
 [Drachen]: ./monsters.md#drachen "Drachen"
 [Monster]: ./monsters.md "Monster"
 [Krieg]: ./war.md "Krieg"

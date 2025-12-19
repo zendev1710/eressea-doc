@@ -1,0 +1,24 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "127.0.0.1:8000"
+    },
+    {
+      "pattern": "gitlab-repo-gpf.apps.eul.sncf.fr"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["http", ".", "/"],
+      "headers": {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+      }
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206, 403]
+}

@@ -1,0 +1,81 @@
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: '0.2'
+
+caseSensitive: true
+loadDefaultConfiguration: true
+
+language: "fr-fr"
+
+dictionaryDefinitions:
+  - name: custom-dictionary
+    path: '.cspell/custom-dictionary.txt'
+    addWords: true
+
+# To be compatible with ide
+# enable only dictionaries needed
+dictionaries:
+  - custom-dictionary
+  - fr-fr
+  - "softwareTerms"
+  - "companies"
+  - "html"
+  - "html-symbol-entities"
+  - "filetypes"
+  - "!ada"
+  - "!aws"
+  - "!bash"
+  - "!backwards-compatibility"
+  - "!cpp"
+  - "!cpp-refined"
+  - "!csharp"
+  - "!css"
+  - "!cryptocurrencies"
+  - "!dart"
+  - "!django"
+  - "!docker"
+  - "!dotnet"
+  - "!elixir"
+  - "!en_us"
+  - "!en-gb"
+  - "!fonts"
+  - "!fullstack"
+  - "!golang"
+  - "!haskell"
+  - "!java"
+  - "!latex"
+  - "!lorem-ipsum"
+  - "!lua"
+  - "!networking-terms"
+  - "!node"
+  - "!npm"
+  - "!php"
+  - "!powershell"
+  - "!python"
+  - "!python-common"
+  - "!public-licenses"
+  - "!r"
+  - "!ruby"
+  - "!rust"
+  - "!scala"
+  - "!swift"
+  - "!typescript"
+
+import:
+  - "@cspell/dict-fr-fr/cspell-ext.json"  # see: https://www.npmjs.com/package/@cspell/dict-fr-fr
+
+ignoreRegExpList:
+  - "/^\\s*```[\\s\\S]*?^\\s*```/gm"                  # ignore Markdown code blocks
+  - "\\[.*]\\(.*\\)"                                  # ignore Markdown link
+  - "\\[.*]\\(.*\\){.*}"                              # ignore Markdown link with class attributs, i.e [...](..){ my-attribut: ... }
+  - "\\[.*]\\[.*]"                                    # ignore other markdown link format : [...][<entry>]
+  - ":[^ ]*:"                                         # ignore emoji or icon format, i.e :my-icon:
+  - "`[^ ].*[^ ]`"                                    # ignore inline code block, i.e `my inline block`
+  - "<!--.*-->"                                       # ignore markdown comment, i.e <!-- my comment -->
+  - "<(?:\"[^\"]*\"['\"]*|'[^']*'['\"]*|[^'\">])+>"   # ignore html tags
+  - "^\\[.*]:.*"                                      # ignore link entry (cf other markdown link format) : [...]: <link>
+  - "/^(-|\\.){3}[\\s\\S]*?^\\s*(-|\\.){3}/gm"        # ignore yaml header tag : --- <multiline content> ---
+
+ignorePaths:
+  - ./node_modules
+  - ./mkdocs.yml
+  - ./Taskfile.yml

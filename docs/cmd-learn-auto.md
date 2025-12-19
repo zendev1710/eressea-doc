@@ -1,6 +1,6 @@
 ---
 alias:
-    name: LEARN AUTO
+    name: cmd-learn-auto
     text: LEARN AUTO
 ---
 # LEARN AUTO

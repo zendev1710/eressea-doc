@@ -1,0 +1,9 @@
+# See: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Line length > 80
+MD013: false
+# MD024: false
+# no-inline-html Inline HTML (br, sub, sup, etc.)
+MD033: false
+# MD040: false
+# MD046: false

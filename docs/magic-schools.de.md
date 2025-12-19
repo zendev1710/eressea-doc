@@ -3,7 +3,7 @@ alias: magiegebiete
 ---
 # Magiegebiete
 
-Es gibt fünf Magiegebiete in Eressea. Jede Partei muss sich beim ersten Mal Lernen von [Magie] für ein Magiegebiet entscheiden; einmal festgesetzt kann das Magiegebiet nicht geändert werden.
+Es gibt fünf Magiegebiete in Eressea. Jede Partei muss sich beim ersten Mal Lernen von [[magie-de]] für ein Magiegebiet entscheiden; einmal festgesetzt kann das Magiegebiet nicht geändert werden.
 
 Im Folgenden stehen die Beschreibungen der fünf Magiegebiete und jeweils ein Link zu den Zaubersprüchen.
 
@@ -61,7 +61,6 @@ Weiterlesen: [Zauberliste E2].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
-[Magie]: ./magic.md "Magie"
 [Illaunzauber]: ./magic-school-illaun.md "Illaunzauber"
 [Tybiedzauber]: ./magic-school-tybied.md "Tybiedzauber"
 [Cerddorzauber]: ./magic-school-cerddor.md "Cerddorzauber"

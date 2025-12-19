@@ -1,0 +1,199 @@
+#!/usr/bin/env groovy
+
+@Library('build_libs') _
+
+Map options = [
+    // Nombre de builds à conserver dans l historique des builds du job Jenkins
+    NUM_TO_KEEP: 10,
+    // Version de Python
+    PYTHON_VERSION: '3.13',
+    // Version de Node (debian based because xargs require -L option support)
+    NODE_VERSION: '22-bookworm'
+]
+
+Map chatBotEulUrl = [
+  staging: 'https://aieul-rec.apps.eul.sncf.fr/api', // Ou staging ?
+  production: 'https://aieul.apps.eul.sncf.fr/api',
+]
+Map chatBotTokenUrl = [
+  staging: 'https://waeul-mme-speechi.azurewebsites.net/directline/token',
+  production: 'https://waeul-mme-speechi.azurewebsites.net/directline/token' // A changer quand on aura un environnement de prod
+]
+
+// Valorisation des options par défaut
+options = defaultBuildOptions(options)
+
+// Propriétés du job
+properties([
+    // Paramètres
+    parameters([
+        booleanParam(name: 'SKIP_STAGING', defaultValue: false, description: 'Ignore la publication sur staging'),
+    ]),
+    // Connexion GitLab
+    gitLabConnection("${options['GITLAB_NAME']}"),
+    // Conservation des N dernières exécutions
+    buildDiscarder(logRotator(numToKeepStr: "${options['NUM_TO_KEEP']}")),
+    // Déclenchement du job via webhook lors de push de nouveau code ou de création de merge request
+    pipelineTriggers([[$class: 'GitLabPushTrigger', triggerOnPush: true, triggerOnMergeRequest: true, branchFilterType: 'All', excludeBranchesSpec: 'main']]),
+    // Permission accordée à la pipeline de déploiement pour copier le dossier /site
+    copyArtifactPermission('/groupeeul-dosn/02608/Documentation/deploy*'),
+])
+
+// Abort the previous build if a new is created
+// Usefull in multibranch pipeline to prevent build tsunami
+// Remove on the next Jenkins Upgrade (LULE-9574)
+// https://github.com/jenkinsci/workflow-job-plugin/pull/200
+def buildNumber = env.BUILD_NUMBER as int
+if (buildNumber > 1) { milestone(buildNumber - 1) }
+milestone(buildNumber)
+
+// Horodatage des lignes de log Jenkins
+timestamps {
+    ansiColor('xterm') {
+        withTools([
+            [name: 'python', version: "${options['PYTHON_VERSION']}", requestCpu: '1', requestMemory: '1Gi', limitMemory: '2Gi'],
+            [name: 'node', image: 'node-web-browsers', registry: 'eul', version: "${options['NODE_VERSION']}", requestCpu: '1', requestMemory: '1Gi'],
+        ]) {
+            try {
+                stage('Checkout') {
+                    println '🔰 Récupération du code source'
+                    scmInfo = checkout scm
+                    env.GIT_COMMIT = scmInfo.GIT_COMMIT
+                    env.GIT_URL = scmInfo.GIT_URL
+                    println '✔️ Récupération du code source effectuée'
+                }
+
+                stage('Install tools') {
+                    println '🔰 Installation de taskfile'
+                    sh '''
+                        mkdir -p /home/jenkins/agent/.cli
+                        curl --fail -sSL https://artefact-repo.apps.eul.sncf.fr/artifactory/raw-public/go-task/task/releases/download/v3.25.0/task_linux_amd64.tar.gz | tar -zxvf - -C /home/jenkins/agent/.cli task
+                    '''
+                    parallel python: {
+                        container('python') {
+                            sh '''
+                                ln -s /home/jenkins/agent/.cli/task /usr/local/bin/task
+                                task install:mkdocs
+                            '''
+                        }
+                    },
+                    node: {
+                        container('node') {
+                            sh '''
+                                ln -s /home/jenkins/agent/.cli/task /usr/local/bin/task
+                                task install:dev
+                            '''
+                        }
+                    }
+                    println '✔️ Installation des outils effectuée'
+                }
+
+                stage('Build') {
+                    println '🔰 Build'
+                    String chatbotEnv = 'production'
+                    String currentDate = new Date().format('dd-MM-yyyy HH:mm')
+                    env.PDF_SUBTITLE = "${env.GIT_COMMIT} - ${currentDate}"
+                    if (env.CHANGE_ID || (env.BRANCH_NAME != 'main')) {
+                        String stagingUrl = getStagingUrl()
+                        println "🔀 Surcharge du paramètre `site_url` avec la valeur '${stagingUrl}' vu qu'on est en staging"
+                        env.SITE_URL = stagingUrl
+                        env.ENABLE_PDF_PLUGIN = 0       // Désactive la génération de la documentation au format .pdf
+                        chatbotEnv = 'staging'
+                    }
+                    container('python') {
+                        withEnv([
+                            "CHATBOT_TOKEN_URL=${chatBotTokenUrl[chatbotEnv]}",
+                            "CHATBOT_EUL_URL=${chatBotEulUrl[chatbotEnv]}",
+                        ]) {
+                            sh 'task build'
+                        }
+                    }
+                    println '✔️ Build effectué'
+                }
+
+                stage('QA') {
+                    println '🔰 Analyse qualité'
+                    container('node') {
+                        parallel md: {
+                            if (sh(script: 'task -x lint:md', returnStatus: true) == 1) {
+                                error  '❌ Le linter markdown (task lint:md) a identifié des erreurs de formatage markdown. Merci de les corriger.'
+                            }
+                        },
+                        spell: {
+                            if (sh(script: 'task -x lint:spell', returnStatus: true) == 1) {
+                                error  "❌️ Le correcteur orthographique (task lint:spell) a identifié des fautes d\'orthographe. Merci de corriger les erreurs d'orthographes cf. https://gitlab-repo-gpf.apps.eul.sncf.fr/dosn/groupeeul-dosn/02608/documentations/docs.apps.eul.fr/-/blob/main/REDACTOR.md#corriger-les-erreurs-orthographiques"
+                            }
+                        },
+                        link: {
+                            if (sh(script: 'task -x lint:link', returnStatus: true) == 1) {
+                                error  '❌️ Le validateur de liens (task lint:link) a identifié des liens erronés. Merci de les corriger.'
+                            }
+                        }
+                    }
+                    println '✔️️ Analyse qualité effectuée'
+                }
+
+                // Archive le dossier /site
+                archiveArtifacts artifacts: 'site/**/*.*',
+                   allowEmptyArchive: true,
+                   fingerprint: true,
+                   onlyIfSuccessful: true
+
+                // Publication de la preview de la documentation sur l'environnement de staging
+                stage('Preview on staging') {
+                    when(!params.SKIP_STAGING) {
+                        println '🔰 Publication de la preview sur l\'environnement de staging en cours'
+                        build(job: '../deploy', wait: false, parameters: [
+                            string(name: 'ENVIRONMENT', value: 'staging'),
+                            string(name: 'BRANCH', value: env.BRANCH_NAME),
+                            string(name: 'MR_ID', value: env.CHANGE_ID?.trim() ? env.CHANGE_ID : ''),
+                            string(name: 'BUILD_NUMBER', value: env.BUILD_NUMBER),
+                            booleanParam(name: 'SKIP_BUILD', value: true),
+                        ])
+                        publishPreviewStagingLink()
+                        println '✔️️ Publication de la preview sur l\'environnement de staging effectuée'
+                    }
+                }
+
+                // Voir https://jenkins.io/doc/pipeline/steps/gitlab-plugin/ pour plus de précisions
+                updateGitlabCommitStatus name: 'build', state: 'success'
+                println '👍 Build du job de snapshot terminé avec succès'
+                currentBuild.result = 'SUCCESS'
+            } catch (all) {
+                currentBuild.result = 'FAILURE'
+                updateGitlabCommitStatus name: 'build', state: 'failed'
+                // Envoi d'un mail en cas d'échec
+                // Voir https://jenkins.io/doc/pipeline/steps/email-ext/ pour plus de précisions
+                emailext(
+                    body: '$DEFAULT_CONTENT',
+                    subject: '$DEFAULT_SUBJECT',
+                    // Envoi du mail aux développeurs responsables d'une modification du code
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                // Pour également envoyer le mail à une liste d'adresses (séparées par des ,) :
+                //to: "adressmail1, adressmail2"
+                )
+                throw all
+            }
+        }
+    }
+}
+
+def getStagingUrl() {
+    String stagingUrl = 'https://docs.staging.aks.eul.sncf.fr/ci'
+
+    if (env.CHANGE_ID?.trim()) {
+        stagingUrl += "/mr-${env.CHANGE_ID}/"
+    } else {
+        stagingUrl += "/branch-${env.BRANCH_NAME}/"
+    }
+}
+
+def publishPreviewStagingLink() {
+    String text = 'h2. Preview sur staging\n'
+    String stagingUrl = getStagingUrl()
+
+    text += "[${stagingUrl}|${stagingUrl}]"
+
+    rtp stableText: text, failedAsStable: true, nullAction: '1', parserName: 'Confluence'
+    println "📝 Lien vers l\'environnement de staging : ${stagingUrl}"
+}

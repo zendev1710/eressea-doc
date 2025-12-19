@@ -14,12 +14,11 @@ Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien 
 
 Das Talent Magie zu erlernen kostet (50 + 25 \* (1 + Stufe) \* Stufe) Silber pro Person und Runde.
 
-Lernkosten
+Coûts d'apprentissage.
 
-|               |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |     |       |     |       |     |       |
-|---------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
-| Nächste Stufe | 1   | 2   | 3   | 4   | 5   | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | ... | 20    | ... | 30    | ... | 40    |
-| Kosten        | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
+| Niveau suivant | 1   | 2   | 3   | 4   | 5   | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | ... | 20    | ... | 30    | ... | 40    |
+|----------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
+| Coût           | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
 
 Ein ungelernter Magier bezahlt also 100 Silber für seine ersten Lektionen; hat er schon Stufe 5 im Magietalent, so muss er 1100 Silber pro Lernwoche bezahlen.
 

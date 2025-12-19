@@ -1,114 +1,144 @@
 ---
-alias:
-    name: beginner-tips
-    text: Beginner tips
+alias: beginner-tips
 ---
 # Beginner tips
 
-Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt. Setzt ein [Passwort] und vergesst es nicht.
+When entering commands, make sure you have used the correct faction number and unit numbers.
+[[cmd-password|Set a password]] and don't forget it.
 
-Es ist für alle interessanter, wenn ihr eure Partei und alle Einheiten auf originelle Art und Weise benennt. Beachtet dabei bitte, dass Eressea ein Fantasy-Rollenspiel ist - Namen wie "Barney's Folterknechte der Fernbedienung" (ja, sowas gab es wirklich!) passen partout nicht in die Atmosphäre von Eressea.
+It's more interesting for everyone if you name your faction and all units in an original way.
+Please keep in mind that Eressea is a fantasy role-playing game – names like "Barney's Remote Control Torturers" (yes, that really existed!) simply don't fit the atmosphere of Eressea.
 
-Wenn ihr euch nicht sicher seid, oder Fragen habt, wendet Euch am besten an den Discord Channel von Eressea \[[\[1\]][1]\]. Das geht per Browser, installiertem Programm oder App. Man wird euch hier sicher Tips für die ersten Züge geben oder eure Fragen beantworten. Mit Fragen könnt ihr euch auch im [PbEm-Spiele-Forum] melden. Dort hat Eressea ein eigenes Sub-Forum.
+If you're unsure about anything or have any questions, the best thing to do is contact [Eressea's Discord channel].
+You can access it via browser, installed program, or app.
+They'll definitely give you tips for your first moves or answer your questions.
+You can also ask questions in the [PbEm Games forum].
+Eressea has its own subforum there.
 
-Die meisten Spieler benutzen [Magellan], ein Programm, was den CR (Computer Report) liest, übersichtlich darstellt, bei der Erstellung der Befehle hilft und viele Fehler anzeigt.
+Most players use [[magellan]], a program that reads the CR (Computer Report), displays it clearly, helps in creating commands, and shows many errors.
 
-Dann gibt es noch [ECheck], ein Programm, mit dem man seine Züge auf ihre Korrektheit überprüfen kann. ECheck wird vom Server automatisch auf die eingehenden Züge angesetzt und das Ergebnis zurückgeschickt. Verwendet ECheck zu Hause mit der Option -e um zu überprüfen, ob eure Befehle wie erwartet interpretiert werden. ECheck überprüft nur die Schreibweise der Befehle und die Reihenfolge der Parameter. Die Semantik (also Sinn und Unsinn der Befehle) wird von ECheck nicht erfasst, wobei ECheck jedoch verschiedene Tests bezüglich Silber ausführen kann, wenn die [Zugvorlage] des Servers benutzt wird.
+Then there's [[echeck]], a program that lets you check your moves for correctness.
+ECheck is automatically run by the server on incoming moves and the result is sent back.
+Use ECheck at home with the -e option to check if your commands are being interpreted as expected.
+ECheck only checks the spelling of the commands and the order of the parameters.
+ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [move template] is used.
 
-Steckt euch mehrere Ziele, die ihr erreichen wollt. Eines der ersten Ziele sollte die Erkundung der Umgebung sein. Nur so findet ihr wichtige Berg- und Waldregionen, in denen ihr Erz abbauen und Holz fällen könnt. Schickt also einige Einheiten mit nur einer Person und gebt ihnen genug Silber mit, um sich eine Weile über Wasser zu halten. Vorsicht: das Silber für die Rekrutierung muss dabei eingerechnet werden!
+Set yourself several goals you want to achieve.
+One of your first goals should be exploring the surrounding area.
+This is the only way to find important mountain and forest regions where you can mine ore and harvest timber.
+So send out a few single-person units and give them enough silver to sustain themselves for a while.
+Note: the silver required for recruitment must be factored in!
 
-Erschafft weitere Einheiten und lernt ein paar Talente, die ihr in den nächsten drei bis vier Runden zu brauchen gedenkt:
+Create more units and learn some skills that you expect to need in the next three to four rounds.
 
-Hier ist vor allem [Unterhaltung] essenziell, um Geld zu verdienen. Ohne entsprechendes Silber wird eure Partei nicht wachsen können. Auch [Steuereintreiber] sind eine gute Einnahmequelle; hierfür braucht man z.B. Metalle ([Bergbau]) oder Holz ([Holzfällen]), um Waffen wie Schwerter oder Speere zu bauen; und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben], [Waffentalente]).
+[[cmd-entertain|Entertainment]] is essential for earning money. Without sufficient silver, your faction won't be able to grow.
+[Tax collectors] are also a good source of income; for this, you need, for example, metals ([mining]) or wood ([logging]) to craft weapons like swords or spears; and of course, tax collectors need the appropriate weapon skill ([tax collection], [weapon skills]).
 
-[Wahrnehmung] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird. Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen. Ratsam ist auch das frühe Bauen von [Burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][Bergbau] für die Steine und [Burgenbau] zum Bau der Burg), damit [Handel] getrieben werden kann, und natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel Reiter) sowie deren Ausstattung ([Pferde und ggf. Wägen]). Handel zu verstehen ist für Anfänger nicht ganz leicht, aber es lohnt sich.
+[Perception] is a very important skill that is often underestimated by beginners.
+Only Perceivers are able to see camouflaged units and prevent them from [stealing]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
+It's also advisable to build [castles] early, at least at level 2, and "trading posts" (required skills: [Stone Construction] and [Mining] for the stone and [Castle Construction] for building the castle) so that [trade] can be conducted.
+Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons] is also essential.
+Understanding trade isn't easy for beginners, but it's worth the effort.
 
-Einheiten mit teuren Talenten wie [Taktiker], [Alchemisten] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde). [Magier] auszubilden kostet noch mehr Silber, doch ein Magier mit Kampfzaubern kann im Konfliktfall große Vorteile bringen. Und Magier aller Magiegebiete können bereits sehr früh einen Zauber zum Silberverdienen sprechen, sodass sich hier eine frühe Investition (vor allem für Rassen mit +1 in Magie) lohnt.
+Units with expensive skills like [Tactician], [Alchemist], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
+Training [[magic|Mages]] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
+And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
-Auch eine kleine Vorsorge, falls die Nachbarn nicht sehr friedlich sein sollten, wäre ratsam. Also ein Plan, wie man seine Partei zum Ende der anfänglichen Immunität vor Angriffen wappnet.
+It would also be advisable to have some precautions in case the neighbors aren't very peaceful.
+In other words, a plan for how to protect your faction from attacks once the initial immunity period ends.
 
-Schreibt reichhaltig Kommentare in eure Befehlsdateien, damit ihr in den nächsten Runden auch wisst, wofür dies oder das gemacht wurde. Es ist eine gute Idee, die Befehle nach Regionen zu gruppieren, so dass man ein paar Zeilen an Kommentaren für die Region zur Verfügung hat. Ein guter Ausgangspunkt für eure neue Befehlsdatei ist die an der Auswertung angehängte [Zugvorlage] für den nächsten Zug. Bei jeder Einheit kann man noch anmerken, was sie produziert, für wen sie es produziert, wohin sie unterwegs ist, oder welche Art von Handel sie treibt. Hier ein Beispiel für diese Kommentare:
+Write plenty of comments in your orders files so you know what each action was for in the following rounds.
+It's a good idea to group orders by region so you have a few lines of comments for each region.
+A good starting point for your new orders file is the [Round Template] appended to the evaluation for the next round.
+For each unit, you can also note what it produces, for whom it produces it, where it's going, or what kind of trade it's engaged in.
+Here is an example of these comments:
 
-       REGION 4,4 ; Lochinver
-       ; Vorsicht vor der dunklen Horde
-       ; abgeholzt?
+    ```
+    REGION 4,4 ; Lochinver
+    ; Beware the dark horde
+    ; cut down?
 
-       UNIT zbt;           Bogenbauer Jog'nabat und seine Sippe [4;100$]
-          MAKE Schwerter
-          Gib sjur 5 Schwerter ; wahrscheinlich gibt er nur die 4, die er
-                               ; letzte Runde hatte
+    UNIT zbt;           Bow maker Jog'nabat and his clan [4;100$]
+        MAKE Swords
+        GIVE sjur 5 Swords; He probably only gives the 4 that he
+                          ; had last round
 
-       UNIT sjur;          Fuhrmann Sjur [2;243$]
-         // Kapazität: 420 = 7 Steine; Silber!
-         Gib 7jht 7 Steine
-         Route Südwest West Pause Ost Nordost Pause
+    UNIT sjur;          Fuhrmann Sjur [2;243$]
+        // Capacity: 420 = 7 stones; Silver!
+        GIVE 7jht 7 Stones
+        ROUTE SW W PAUSE E NE PAUSE
+    ```
 
-Der Kommentar hinter dem [UNIT-Befehl] wird vom Programm in die Zugvorlage eingesetzt; hinter dem Namen der Einheit steht in \[ \], wie viele Personen in der Einheit sind und wieviel Geld sie dabei hat (hier also 4 Personen mit 100 Silber und 2 mit 243 Silber).
+The comment following the [[cmd-unit|UNIT order]] is inserted into the move template by the program;
+following the unit name, in \[ \], is how many people are in the unit and how much money it has (here, 4 people with 100 silver and 2 with 243 silver).
 
-Vorsicht vor den Unterhaltskosten. Große Einheiten brauchen sehr viel Geld, und wenn sie es nicht haben, werden Leute verhungern. Es reicht, wenn in einer Region eine eigene Einheit genug Silber hat, um alle anderen Einheiten zu ernähren. Dabei sollte man Einheiten, die die Region verlassen, nicht vergessen!
+Beware of upkeep costs.
+Large units need a lot of money, and if they don't have it, people will starve.
+It's enough if one of your own units in a region has enough silver to feed all the other units.
+Don't forget units that leave the region!
 
-In den ersten Runden kann man noch vom Startkapital leben, aber bald braucht man aber ein ständiges Einkommen. Dieser Schatz ist im Allgemeinen nach vier bis sechs Runden aufgebraucht. Einnahmen erwirtschaftet man am schnellsten mit Steuereintreibern und Unterhaltern, und der [Handel][2] mit Luxusgütern verspricht langfristig große Gewinne.
+In the first few rounds, you can live off your starting capital, but soon you'll need a steady income.
+This nest egg is generally depleted after four to six rounds.
+The fastest way to generate income is with tax collectors and entertainers, and [trading] luxury goods promises large profits in the long run.
 
-Plant die ersten Wochen vollständig durch. Man kann genau ausrechnen, wieviele Unterhalter, Steuereintreiber, Waffenbauer, Holzfäller ect. man ausheben kann und braucht.
+Plan the first few weeks thoroughly.
+You can calculate exactly how many entertainers, tax collectors, weapon makers, lumberjacks, etc., you can and need to recruit.
 
-Wenn das Spiel beginnt, sitzen manchmal Einheiten mehrerer Parteien eng benachbart zueinander. Sprecht euch ab und teilt eure Aufgaben auf, damit ihr euch möglichst effizient ausbreiten könnt. Pflegt Kontakt mit vielen Parteien, dies macht das Spiel spannend und es wird euch später helfen. Gerät man in Konflikte, ist es gut zu wissen, dass man nicht alleine dasteht. Kontakte erlauben euch einen Informationsaustausch, z.B. für Karteninformation; sie ermöglichen es, Erfahrungen und Tipps auszutauschen, und besonders das gegenseitige Lehren ist sehr hilfreich.
+When the game begins, units from multiple factions are sometimes positioned close together.
+Coordinate with each other and divide your tasks so you can expand as efficiently as possible.
+Maintain contact with many factions; this makes the game exciting and will help you later.
+If you get into conflicts, it's good to know you're not alone.
+Contacts allow you to exchange information, such as map data; they enable you to share experiences and tips, and mutual learning is especially helpful.
 
-Um Kontakt mit den anderen Parteien aufzunehmen, beschafft euch die Liste der anderen Parteien in euren Regionen mit [[cmd-option]] ADRESSEN und kontaktiert sie direkt. Verwendet den Befehl [[cmd-message]] REGION, um die Mitspieler auf euch aufmerksam zu machen.
+To contact other factions, obtain a list of them in your region using [[cmd-option]] ADDRESSES and contact them directly.
+Use the [[cmd-message]] REGION order to alert other factions to your presence.
 
-Um die Ziele zu erreichen, die ihr euch gesteckt habt, solltet ihr keine Ausgaben scheuen. Das Startkapital ist zur Investition gedacht. Der erste fördert im großen Stil Eisen, der zweite schmiedet Schwerter und der dritte bildet Kämpfer aus. Daneben könnt ihr euch schon eine Reihe weiterer Aufgaben stellen: Kartographieren, Magier-Ausbildung, Schiffbau, Burgenbau, Aufstellen einer Diebesgilde, Aufbau einer kleinen Handelskarawane mit Pferden und Wagen... Für diese Aufgaben könnt ihr wiederum ein paar kleine neue Einheiten erschaffen.
+To achieve your goals, you shouldn't skimp on expenses.
+The starting capital is intended for investment.
+The first miner produces iron on a large scale, the second forges swords, and the third trains warriors.
+In addition, you can take on a number of other tasks: mapping, training mages, ship building, castle construction, establishing a thieves' guild, building a small trade caravan with horses and wagons...
+For these tasks, you can create a few new units.
 
-Kriege sollte man besonders in der Anfangsphase vermeiden - zu schnell sind wertvolle Einheiten weg, und die Einnahmen zu gering oder der Nachschub an Material versiegt.
+Wars should be avoided, especially in the initial phase – valuable units are lost too quickly, income is too low, or the supply of materials dries up.
 
-Wenn ihr Kontakt zu einer mächtigen Partei habt, versucht, ihr etwas zu verkaufen. Versucht, Holz zu fällen, Steine zu brechen oder Eisen zu fördern. Es lohnt sich, zwei Burgen ausfindig zu machen oder selber zu bauen, um zwischen ihnen Handel zu treiben. Dafür braucht man Händler und Wagen. Kauft euch einen Wagen und zwei Pferde vom Burgherren oder baut selber einen.
+If you have contact with a powerful faction, try to sell them something.
+Try to cut down trees, quarry stones, or mine iron.
+It's worthwhile to locate or build two castles to trade between.
+For this, you'll need merchants and wagons.
+Buy a wagon and two horses from the lord of the castle or build one yourself.
 
-Man muss mit Handelspartnern nicht alliiert sein. Verwendet den Befehl [[cmd-contact]], um mit anderen Parteien Waren und Silber austauschen zu können, ohne alliiert zu sein.
+You don't need to be allied with trading partners.
+Use the [[cmd-contact]] command to exchange goods and silver with other factions without being allied.
 
-Eine der wichtigsten Tabellen in dieser Anleitung ist die [Befehlsreihenfolge], also die Reihenfolge, in der die Befehle beim Server bearbeitet werden. Aus ihr ist ersichtlich, dass man z.B. eiem Waffenbauer durchaus noch in der selben Woche Rohstoffe geben kann, bevor er produziert ([GIVE] kommt an Position 14, [[cmd-make]] an Position 22), man aber keine Tränke übergeben und dann sofort benutzen kann ([USE] ist an Stelle 7).
+One of the most important tables in this guide is the [commands sequence], which shows the order in which orders are processed by the server.
+It illustrates, for example, that you can certainly give raw materials to a weaponsmith in the same week before he starts production ([[cmd-give]] is at position 14, [[cmd-make]] is at position 22), but you cannot give him potions and then use them immediately ([[cmd-use]] is at position 7).
 
-Es gibt keine Gewinner in diesem Spiel. Das Spiel dauert so lange, bis ihr an euch selber verzweifelt oder eure Feinde euch ausgerottet haben. Danach müsst ihr, falls die Spielleitung das zulässt, als neue Partei anfangen.
+There are no winners in this game.
+The game lasts until you despair of yourselves or your enemies have wiped you out.
+After that, if the game masters allow it, you must start again as a new faction.
 
-Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst euch nicht ärgern und zu unüberlegten Dingen hinreißen - wahrscheinlich ist der Spieler der fiesen und gemeinen Orks eigentlich ein netter Mensch...
+And always remember: the game is just a game! It's meant to be fun for everyone.
+Don't let yourselves get annoyed or be carried away by rash decisions – the player portraying the nasty and mean orcs is probably actually a nice person...
 
 ## See also
 
-- [Tipps und Tricks]
-- [Hinweise]
-- [Der erste Zug]
-- [Grundlagen]
+- [[tips-and-tricks]]
+- [[hints]]
+- [[first-round]]
+- [[basics]]
 
-Continue reading: [Xontormia-Express].
-
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+Continue reading: [[xontormia-express]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Passwort]: ./cmd-password.md "PASSWORD"
-[1]: https://discord.gg/JyAeYJw%7CDiscord
-[PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
-[Magellan]: ./magellan.md "Magellan"
-[ECheck]: ./echeck.md "ECheck"
-[Zugvorlage]: ./commands.md "Orders"
-[Unterhaltung]: ./cmd-entertain.md "ENTERTAIN"
-[Steuereintreiber]: ./cmd-tax.md "TAX"
-[Bergbau]: ./resources.md#about-mining "Rohstoffe"
-[Holzfällen]: ./resources.md#deep-in-the-forest "Rohstoffe"
-[Steuereintreiben]: ./skills.md#arbeiten.2c-unterhaltung.2c-steuern-und-handel "Talente"
-[Waffentalente]: ./skills.md#waffentalente-und-ausdauer "Talente"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Diebstahl]: ./silver.md#stealing-the-dishonest-way "Geld"
-[Burgen]: ./castles.md "Burg"
-[Burgenbau]: ./buildings.md "Gebäude"
-[Handel]: ./silver.md#trade "Geld"
-[Pferde und ggf. Wägen]: ./travel.md#horse-and-carriage "Reisen"
-[Taktiker]: ./tactic.md "Taktik"
-[Alchemisten]: ./skills-list.md "Liste der Talente"
-[Magier]: ./magic.md "Magie"
-[UNIT-Befehl]: ./cmd-unit.md "UNIT"
-[2]: ./silver.md#trade "Handel"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-[GIVE]: ./cmd-give.md "GIVE"
-[USE]: ./cmd-use.md "USE"
-[Tipps und Tricks]: ./tips-and-tricks.md "Tipps und Tricks"
-[Hinweise]: ./hints.md "Hinweise"
-[Der erste Zug]: ./first-round.md "Der erste Zug"
-[Grundlagen]: ./basics.md "Grundlagen"
+[mining]: ./resources.md#about-mining
+[logging]: ./resources.md#deep-in-the-forest
+[tax collection]: ./silver.md#collecting-taxes
+[weapon skills]: ./skills.md#combat-skills "Talente"
+[stealing]: ./silver.md#stealing-the-dishonest-way "Geld"
+[trade]: ./silver.md#trade
+[trading]: ./silver.md#trade
+[horses and wagons]: ./travel.md#horse-and-carriage
+
+[Eressea's Discord channel]: https://discord.gg/JyAeYJw%7CDiscord
+[PbEm Games forum]: http://www.pbem-spiele.de/

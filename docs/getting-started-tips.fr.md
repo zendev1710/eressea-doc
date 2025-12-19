@@ -3,114 +3,142 @@ alias: conseils-pour-debutants
 ---
 # Conseils pour débutants
 
-Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt. Setzt ein [Passwort] und vergesst es nicht.
+Lors de la saisie des commandes, assures-toi d'avoir utilisé le numéro de faction et les numéros d'unité corrects.
+[[cmd-password|Définis un mot de passe]] et n'oublie pas de le mémoriser.
 
-Es ist für alle interessanter, wenn ihr eure Partei und alle Einheiten auf originelle Art und Weise benennt. Beachtet dabei bitte, dass Eressea ein Fantasy-Rollenspiel ist - Namen wie "Barney's Folterknechte der Fernbedienung" (ja, sowas gab es wirklich!) passen partout nicht in die Atmosphäre von Eressea.
+C'est plus intéressant pour tout le monde si tu donnes des noms originaux à ta faction et à toutes tes unités.
+N'oublie pas qu'Eressea est un jeu de rôle fantastique : des noms comme « Les tortionnaires télécommandés de Barney » (oui, ça a vraiment existé !) ne correspondent pas à l'ambiance d'Eressea.
 
-Wenn ihr euch nicht sicher seid, oder Fragen habt, wendet Euch am besten an den Discord Channel von Eressea \[[\[1\]][1]\]. Das geht per Browser, installiertem Programm oder App. Man wird euch hier sicher Tips für die ersten Züge geben oder eure Fragen beantworten. Mit Fragen könnt ihr euch auch im [PbEm-Spiele-Forum] melden. Dort hat Eressea ein eigenes Sub-Forum.
+Si tu as le moindre doute ou la moindre question, le mieux est de contacter le [serveur Discord d'Eressea].
+Tu peux y accéder via un navigateur, un programme installé ou une application.
+On t'y donnera sans aucun doute des conseils pour tes premiers pas et tu auras les réponses à tes questions.
+Tu peux également poser tes questions sur le [forum des Jeux PbEm].
+Eressea y possède son propre sous-forum.
 
-Die meisten Spieler benutzen [Magellan], ein Programm, was den CR (Computer Report) liest, übersichtlich darstellt, bei der Erstellung der Befehle hilft und viele Fehler anzeigt.
+La plupart des joueurs utilisent[ [magellan]], un programme qui lit le CR (Computer Report), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.
 
-Dann gibt es noch [ECheck], ein Programm, mit dem man seine Züge auf ihre Korrektheit überprüfen kann. ECheck wird vom Server automatisch auf die eingehenden Züge angesetzt und das Ergebnis zurückgeschickt. Verwendet ECheck zu Hause mit der Option -e um zu überprüfen, ob eure Befehle wie erwartet interpretiert werden. ECheck überprüft nur die Schreibweise der Befehle und die Reihenfolge der Parameter. Die Semantik (also Sinn und Unsinn der Befehle) wird von ECheck nicht erfasst, wobei ECheck jedoch verschiedene Tests bezüglich Silber ausführen kann, wenn die [Zugvorlage] des Servers benutzt wird.
+Il y a ensuite [[echeck]], un programme qui te permet de vérifier la validité de tes ordres.
+ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.
+Utilise ECheck chez toi avec l'option -e pour vérifier si tes ordres sont interprétés comme prévu.
+ECheck vérifie uniquement la syntaxe des ordres.
+ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'évaluation]] du serveur est utilisé.
 
-Steckt euch mehrere Ziele, die ihr erreichen wollt. Eines der ersten Ziele sollte die Erkundung der Umgebung sein. Nur so findet ihr wichtige Berg- und Waldregionen, in denen ihr Erz abbauen und Holz fällen könnt. Schickt also einige Einheiten mit nur einer Person und gebt ihnen genug Silber mit, um sich eine Weile über Wasser zu halten. Vorsicht: das Silber für die Rekrutierung muss dabei eingerechnet werden!
+Fixe-toi plusieurs objectifs.
+L'un de tes premiers objectifs devrait être d'explorer les environs.
+C'est le seul moyen de découvrir les régions montagneuses et forestières importantes où tu pourras extraire du minerai et récolter du bois.
+Envoie donc quelques unités composées d'un seul soldat et donne-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.
+Remarque : n'oublie pas de prendre en compte l'argent nécessaire au recrutement !
 
-Erschafft weitere Einheiten und lernt ein paar Talente, die ihr in den nächsten drei bis vier Runden zu brauchen gedenkt:
+Crée davantage d'unités et apprends certaines compétences dont tu penses avoir besoin lors des trois ou quatre prochains tours.
 
-Hier ist vor allem [Unterhaltung] essenziell, um Geld zu verdienen. Ohne entsprechendes Silber wird eure Partei nicht wachsen können. Auch [Steuereintreiber] sind eine gute Einnahmequelle; hierfür braucht man z.B. Metalle ([Bergbau]) oder Holz ([Holzfällen]), um Waffen wie Schwerter oder Speere zu bauen; und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben], [Waffentalente]).
+Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent. Sans suffisamment d'argent, ta faction ne pourra pas se développer.
+Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus; pour cela, il te faut, par exemple, des métaux ([exploitation minière]) ou du bois ([exploitation forestière]) pour fabriquer des armes comme des épées ou des lances; et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts], [compétences d'armes]).
 
-[Wahrnehmung] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird. Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen. Ratsam ist auch das frühe Bauen von [Burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][Bergbau] für die Steine und [Burgenbau] zum Bau der Burg), damit [Handel] getrieben werden kann, und natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel Reiter) sowie deren Ausstattung ([Pferde und ggf. Wägen]). Handel zu verstehen ist für Anfänger nicht ganz leicht, aber es lohnt sich.
+La [[camouflage|perception]] est une compétence essentielle, souvent sous-estimée par les débutants.
+Seuls les percepteurs peuvent repérer les unités camouflées et les empêcher de [piller] ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.
+Il est également conseillé de construire des [[chateaux|châteaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].
+Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].
+Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.
 
-Einheiten mit teuren Talenten wie [Taktiker], [Alchemisten] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde). [Magier] auszubilden kostet noch mehr Silber, doch ein Magier mit Kampfzaubern kann im Konfliktfall große Vorteile bringen. Und Magier aller Magiegebiete können bereits sehr früh einen Zauber zum Silberverdienen sprechen, sodass sich hier eine frühe Investition (vor allem für Rassen mit +1 in Magie) lohnt.
+Les unités aux compétences coûteuses, comme [[tactique]], [[liste-des-competences|alchimiste]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).
+Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.
+De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).
 
-Auch eine kleine Vorsorge, falls die Nachbarn nicht sehr friedlich sein sollten, wäre ratsam. Also ein Plan, wie man seine Partei zum Ende der anfänglichen Immunität vor Angriffen wappnet.
+Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.
+En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.
 
-Schreibt reichhaltig Kommentare in eure Befehlsdateien, damit ihr in den nächsten Runden auch wisst, wofür dies oder das gemacht wurde. Es ist eine gute Idee, die Befehle nach Regionen zu gruppieren, so dass man ein paar Zeilen an Kommentaren für die Region zur Verfügung hat. Ein guter Ausgangspunkt für eure neue Befehlsdatei ist die an der Auswertung angehängte [Zugvorlage] für den nächsten Zug. Bei jeder Einheit kann man noch anmerken, was sie produziert, für wen sie es produziert, wohin sie unterwegs ist, oder welche Art von Handel sie treibt. Hier ein Beispiel für diese Kommentare:
+Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.
+Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.
+Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.
+Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.
+Voici un exemple de ces commentaires :
 
-       REGION 4,4 ; Lochinver
-       ; Vorsicht vor der dunklen Horde
-       ; abgeholzt?
+    ```
+    REGION 4,4 ; Lochinver
+    ; Prendre garde à la horde des ténèbres
+    ; combattre ?
 
-       UNIT zbt;           Bogenbauer Jog'nabat und seine Sippe [4;100$]
-          MAKE Schwerter
-          Gib sjur 5 Schwerter ; wahrscheinlich gibt er nur die 4, die er
-                               ; letzte Runde hatte
+    UNIT zbt;           Fabricant d'arc Jog'nabat et son clan [4;100$]
+        MAKE Swords
+        GIVE sjur 5 Swords; il ne donne probablement que les 4 qu'il
+                          ; avait au dernier tour
 
-       UNIT sjur;          Fuhrmann Sjur [2;243$]
-         // Kapazität: 420 = 7 Steine; Silber!
-         Gib 7jht 7 Steine
-         Route Südwest West Pause Ost Nordost Pause
+    UNIT sjur;          Fuhrmann Sjur [2;243$]
+        // Capacité: 420 = 7 pierres; et des pièces d'argent !
+        GIVE 7jht 7 Stones
+        ROUTE SW W PAUSE E NE PAUSE
+    ```
 
-Der Kommentar hinter dem [UNIT-Befehl] wird vom Programm in die Zugvorlage eingesetzt; hinter dem Namen der Einheit steht in \[ \], wie viele Personen in der Einheit sind und wieviel Geld sie dabei hat (hier also 4 Personen mit 100 Silber und 2 mit 243 Silber).
+Le commentaire suivant l'ordre [[cmd-unit]] est inséré dans le modèle d'évaluation par le programme ;
+après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).
 
-Vorsicht vor den Unterhaltskosten. Große Einheiten brauchen sehr viel Geld, und wenn sie es nicht haben, werden Leute verhungern. Es reicht, wenn in einer Region eine eigene Einheit genug Silber hat, um alle anderen Einheiten zu ernähren. Dabei sollte man Einheiten, die die Region verlassen, nicht vergessen!
+Attention aux coûts d'entretien.
+Les grandes unités consomment beaucoup d'argent, et sans ressources, la population mourra de faim.
+Il suffit qu'une seule de tes unités dans une région dispose de suffisamment d'argent pour nourrir toutes les autres.
+N'oublie pas les unités qui quittent la région !
 
-In den ersten Runden kann man noch vom Startkapital leben, aber bald braucht man aber ein ständiges Einkommen. Dieser Schatz ist im Allgemeinen nach vier bis sechs Runden aufgebraucht. Einnahmen erwirtschaftet man am schnellsten mit Steuereintreibern und Unterhaltern, und der [Handel][2] mit Luxusgütern verspricht langfristig große Gewinne.
+Durant les premiers tours, tu peux vivre de ton capital de départ, mais tu auras rapidement besoin d'un revenu régulier.
+Ce capital de départ est généralement épuisé après quatre à six tours.
+Le moyen le plus rapide de générer des revenus est de travailler comme percepteur d'impôts et artiste, et le [commerce] de produits de luxe promet des profits importants à long terme.
 
-Plant die ersten Wochen vollständig durch. Man kann genau ausrechnen, wieviele Unterhalter, Steuereintreiber, Waffenbauer, Holzfäller ect. man ausheben kann und braucht.
+Planifie soigneusement les premières semaines.
+Tu pourras ainsi calculer précisément le nombre d'artistes, de percepteurs d'impôts, d'armuriers, de bûcherons, etc., que tu peux et dois recruter.
 
-Wenn das Spiel beginnt, sitzen manchmal Einheiten mehrerer Parteien eng benachbart zueinander. Sprecht euch ab und teilt eure Aufgaben auf, damit ihr euch möglichst effizient ausbreiten könnt. Pflegt Kontakt mit vielen Parteien, dies macht das Spiel spannend und es wird euch später helfen. Gerät man in Konflikte, ist es gut zu wissen, dass man nicht alleine dasteht. Kontakte erlauben euch einen Informationsaustausch, z.B. für Karteninformation; sie ermöglichen es, Erfahrungen und Tipps auszutauschen, und besonders das gegenseitige Lehren ist sehr hilfreich.
+Au début de la partie, les unités de plusieurs factions sont parfois positionnées à proximité les unes des autres.
+Coordonne-toi et répartis les tâches afin d'optimiser ton expansion.
+Maintiens le contact avec de nombreuses factions; cela rend le jeu plus palpitant et te sera utile par la suite.
+En cas de conflit, sache que tu n'es pas seul.
+Les contacts te permettent d'échanger des informations, comme des données cartographiques; ils te permettent de partager tes expériences et tes astuces, et l'apprentissage mutuel est particulièrement précieux.
 
-Um Kontakt mit den anderen Parteien aufzunehmen, beschafft euch die Liste der anderen Parteien in euren Regionen mit [[cmd-option]] ADRESSEN und kontaktiert sie direkt. Verwendet den Befehl [[cmd-message]] REGION, um die Mitspieler auf euch aufmerksam zu machen.
+Pour contacter d'autres factions, obtiens la liste de celles de ta région à l'aide de l'ordre [[cmd-option]] ADRESSES et contacte-les directement.
+Utilise lordre [[cmd-message]] REGION pour signaler ta présence aux autres factions.
 
-Um die Ziele zu erreichen, die ihr euch gesteckt habt, solltet ihr keine Ausgaben scheuen. Das Startkapital ist zur Investition gedacht. Der erste fördert im großen Stil Eisen, der zweite schmiedet Schwerter und der dritte bildet Kämpfer aus. Daneben könnt ihr euch schon eine Reihe weiterer Aufgaben stellen: Kartographieren, Magier-Ausbildung, Schiffbau, Burgenbau, Aufstellen einer Diebesgilde, Aufbau einer kleinen Handelskarawane mit Pferden und Wagen... Für diese Aufgaben könnt ihr wiederum ein paar kleine neue Einheiten erschaffen.
+Pour atteindre tes objectifs, ne lésine pas sur les dépenses.
+Le capital de départ est destiné à l'investissement.
+Le premier mineur produit du fer à grande échelle, le deuxième forge des épées et le troisième entraîne des guerriers.
+De plus, tu peux entreprendre diverses autres tâches : cartographier, former des mages, construire des navires, bâtir un château, fonder une guilde de voleurs, créer une petite caravane commerciale avec des chevaux et des chariots...
+Pour ces tâches, tu peux créer de nouvelles unités.
 
-Kriege sollte man besonders in der Anfangsphase vermeiden - zu schnell sind wertvolle Einheiten weg, und die Einnahmen zu gering oder der Nachschub an Material versiegt.
+Il faut éviter les guerres, surtout dans la phase initiale : les unités précieuses sont perdues trop rapidement, les revenus sont trop faibles ou les approvisionnements en matériaux s'épuisent.
 
-Wenn ihr Kontakt zu einer mächtigen Partei habt, versucht, ihr etwas zu verkaufen. Versucht, Holz zu fällen, Steine zu brechen oder Eisen zu fördern. Es lohnt sich, zwei Burgen ausfindig zu machen oder selber zu bauen, um zwischen ihnen Handel zu treiben. Dafür braucht man Händler und Wagen. Kauft euch einen Wagen und zwei Pferde vom Burgherren oder baut selber einen.
+Si tu es en contact avec une faction puissante, essaie de lui vendre quelque chose.
+Essaie d'abattre des arbres, d'extraire des pierres ou du fer.
+Il est judicieux de localiser ou de construire deux châteaux pour commercer entre eux.
+Pour cela, tu auras besoin de marchands et de chariots.
+Achète un chariot et deux chevaux au seigneur du château ou construis-en un toi-même.
 
-Man muss mit Handelspartnern nicht alliiert sein. Verwendet den Befehl [[cmd-contact]], um mit anderen Parteien Waren und Silber austauschen zu können, ohne alliiert zu sein.
+Il n'est pas nécessaire d'être allié à des partenaires commerciaux.
+Utilise l'ordre' [[cmd-contact]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.
 
-Eine der wichtigsten Tabellen in dieser Anleitung ist die [Befehlsreihenfolge], also die Reihenfolge, in der die Befehle beim Server bearbeitet werden. Aus ihr ist ersichtlich, dass man z.B. eiem Waffenbauer durchaus noch in der selben Woche Rohstoffe geben kann, bevor er produziert ([GIVE] kommt an Position 14, [[cmd-make]] an Position 22), man aber keine Tränke übergeben und dann sofort benutzen kann ([USE] ist an Stelle 7).
+L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.
+Il illustre, par exemple, que tu peux tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give]] est en position 14, [[cmd-make]] en position 22), mais tu ne peux pas lui donner de potions et les utiliser immédiatement ([[cmd-use]] est en position 7).
 
-Es gibt keine Gewinner in diesem Spiel. Das Spiel dauert so lange, bis ihr an euch selber verzweifelt oder eure Feinde euch ausgerottet haben. Danach müsst ihr, falls die Spielleitung das zulässt, als neue Partei anfangen.
+Il n'y a pas de gagnants dans ce jeu.
+La partie dure jusqu'à ce que tu perdes espoir ou que tes ennemis t'aient anéantis.
+Ensuite, si les maîtres du jeu le permettent, tu devrez recommencer avec une nouvelle faction.
 
-Und denkt immer dran: das Spiel ist ein Spiel! Es soll allen Spaß machen. Lasst euch nicht ärgern und zu unüberlegten Dingen hinreißen - wahrscheinlich ist der Spieler der fiesen und gemeinen Orks eigentlich ein netter Mensch...
+Et surtout, n'oublie jamais : ce n'est qu'un jeu ! Il est fait pour que tout le monde s'amuse.
+Ne te laisse pas agacer ni emporter par des décisions hâtives : le joueur qui incarne les orcs méchants est probablement quelqu'un de bien...
 
 ## Voir aussi
 
-- [Tipps und Tricks]
-- [Hinweise]
-- [Der erste Zug]
-- [Grundlagen]
+- [[trucs-et-astuces]]
+- [[remarques]]
+- [[premier-tour]]
+- [[bases|Les bases]]
 
-Poursuivre la lecture : [Xontormia-Express].
-
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+Poursuivre la lecture : [[xontormia-express]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Passwort]: ./cmd-password.md "PASSWORD"
-[1]: https://discord.gg/JyAeYJw%7CDiscord
-[PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
-[Magellan]: ./magellan.md "Magellan"
-[ECheck]: ./echeck.md "ECheck"
-[Zugvorlage]: ./commands.md "Ordres"
-[Unterhaltung]: ./cmd-entertain.md "ENTERTAIN"
-[Steuereintreiber]: ./cmd-tax.md "TAX"
-[Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
-[Holzfällen]: ./resources.md#tief-im-wald "Rohstoffe"
-[Steuereintreiben]: ./skills.md#arbeiten.2c-unterhaltung.2c-steuern-und-handel "Talente"
-[Waffentalente]: ./skills.md#waffentalente-und-ausdauer "Talente"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Diebstahl]: ./silver.md#diebstahl:-der-unehrliche-weg "Geld"
-[Burgen]: ./castles.md "Burg"
-[Burgenbau]: ./buildings.md "Gebäude"
-[Handel]: ./silver.md#handel "Geld"
-[Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
-[Taktiker]: ./tactic.md "Taktik"
-[Alchemisten]: ./skills-list.md "Liste der Talente"
-[Magier]: ./magic.md "Magie"
-[UNIT-Befehl]: ./cmd-unit.md "UNIT"
-[2]: ./silver.md#handel "Handel"
-[OPTION]: ./cmd-option.md "OPTION"
-[MESSAGE]: ./cmd-message.md "MESSAGE"
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-[GIVE]: ./cmd-give.md "GIVE"
-[MAKE]: ./cmd-make.md "MAKE"
-[USE]: ./cmd-use.md "USE"
-[Tipps und Tricks]: ./tips-and-tricks.md "Tipps und Tricks"
-[Hinweise]: ./hints.md "Hinweise"
-[Der erste Zug]: ./first-round.md "Der erste Zug"
-[Grundlagen]: ./basics.md "Grundlagen"
+[exploitation minière]: ./resources.md#ressources-minieres
+[exploitation forestière]: ./resources.md#ressources-forestieres
+[collecte d'impôts]: ./silver.md#collecter-les-impots
+[compétences d'armes]: ./skills.md#competences-de-combat
+[piller]: ./silver.md#le-vol-la-methode-malhonnete
+[commerce]: ./silver.md#commerce
+[commercer]: ./silver.md#commerce
+[de chevaux et de chariots]: ./travel.md#chevaux-et-chariots
+
+[serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
+[forum des Jeux PbEm]: http://www.pbem-spiele.de/

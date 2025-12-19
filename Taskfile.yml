@@ -1,0 +1,99 @@
+version: "3"
+
+vars:
+  # see:
+  # - https://stackoverflow.com/a/61612842 for UTF8 characters with git diff
+  # - https://unix.stackexchange.com/a/330662 for avoid exit code 1 with grep
+  MODIFIED_FILES:
+    sh: git -c core.quotepath=false --no-pager diff --no-renames --name-only --diff-filter=ACM origin/main | { grep -E "(.md$)" || true; }
+  MODIFIED_FILES_INLINE:
+    sh: echo "{{.MODIFIED_FILES}}" | tr '\n' ' '
+
+tasks:
+  install:
+    desc: Install all necessaries dependencies (dev & mkdocs)
+    cmds:
+      - task: install:mkdocs
+      - task: install:dev
+
+  install:mkdocs:
+    desc: Install mkdocs, theme and plugins
+    cmds:
+      - pip install --upgrade -r requirements.txt
+
+  install:dev:
+    desc: Install dev tools
+    cmds:
+      - |
+        npm install -g \
+          markdownlint-cli2 \
+          markdown-link-check \
+          cspell \
+          @cspell/dict-fr-fr
+
+  run:
+    desc: Serve documentation
+    env:
+      ENABLE_GIT_PLUGINS: false
+    cmds:
+      - mkdocs serve
+
+  build:
+    desc: Build documentation
+    env:
+      ENABLE_PDF_PLUGIN: 1
+    cmds:
+      - mkdocs build
+
+  lint:
+    desc: Lint documentation
+    cmds:
+      - task: lint:md
+      - task: lint:spell
+      - task: lint:link
+
+  # into a git bash or WSL shell
+  lint:md:
+    desc: Lint the modified markdown files with markdownlint (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
+    cmds:
+      - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then markdownlint-cli2 {{.MODIFIED_FILES_INLINE}}; else echo 'no modified markdown, lint ignored'; exit 2; fi"
+
+  lint:spell:
+    desc: Spell check the modified markdown files with cspell (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
+    cmds:
+      - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then echo \"{{.MODIFIED_FILES}}\" | cspell lint -c cspell.yml --file-list stdin; else echo 'no modified markdown, lint ignored'; exit 2; fi"
+
+  lint:link:
+    desc: Lint the modified markdown links with markdown-link-check (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
+    cmds:
+      - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then echo \"{{.MODIFIED_FILES}}\" | xargs -l1 markdown-link-check --quiet -c .markdown-link-check.json; else echo 'no modified markdown, lint ignored'; exit 2; fi"
+
+
+  lint:link:all:
+    desc: Lint all markdown links with markdown-link-check
+    cmds:
+      - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then find \"docs/\" -name \"*.md\" -print0 | xargs -0 -n1 markdown-link-check --quiet -c .markdown-link-check.json; else echo 'no modified markdown, lint ignored'; exit 2; fi"
+
+  lint:link:wget:
+    desc: Lint all markdown links with wget (mkdocs server must running)
+    cmds:
+      - wget --recursive --spider --force-html --level=100 -nv -e robots=off -p -S http://127.0.0.1:8000
+
+  lint:link:permalink:
+    desc: Check that all pages contains a permalink definition
+    cmds:
+      - |
+        set +e
+        error=0
+        for file in {{.MODIFIED_FILES_INLINE}}; do
+          echo "Vérification du permalink dans le fichier : ${file}"
+          grep -E '^permalink: \w+' $file > /dev/null
+          if [ $? -ne 0 ]; then
+            error=$((error+1))
+            echo "Permalink missing in file $file"
+          fi
+        done
+        if [ $error -gt 0 ]; then
+          echo "One or more documentation files are missing a permalink"
+          exit $error
+        fi

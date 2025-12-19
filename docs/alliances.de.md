@@ -39,7 +39,7 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 - [[bef-bewache]]
 - [[bef-kontaktiere]]
 
-Weiterlesen: [[magie]].
+Weiterlesen: [[magie-de]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->
 

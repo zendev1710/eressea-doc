@@ -51,9 +51,9 @@ Zusammen mit einem Katapult und Katapultmunition: kämpfen. Mit Katapulten kann 
 
 Finden von [Kräutern] zur Herstellung von [alchemistischen Tränken][Tränken]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
 
-## [[magie]]
+## [[magie-de]]
 
-Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [Silber][Magie].
+Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [[magie-de|Silber]].
 
 ## Pferdedressur
 
@@ -148,7 +148,6 @@ Weiterlesen: [Tarnung].
 [`MACHE SAMEN`]: ./cmd-make.md "MACHE"
 [Produktion]: ./production.md "Produktion"
 [bef-pflanze]: ./cmd-plant.md "PFLANZE"
-[Magie]: ./magic.md "Magic"
 [Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"

@@ -32,7 +32,9 @@ Permet à une unité d'encaisser plus de points de dégâts au combat et de mieu
 *Mining (EN), Bergbau (DE)*.
 Pour extraire du fer (iron), du laen et de l' Adamantium. Il est possible d'extraire un fer par personne, par niveau de talent et par tour. Pour le laen et l'adamantium, il faut la compétence au niveau 7 (8 pour l'admantium) et une mine.
 
-Notez que les gisements sont limités par niveau (voir [ressources]). On ne voit que la quantité de fer qui se trouve sur la couche supérieure. Pour la prospection, on ne voit pas plus que la couche (niveau en mining\*2). Si la couche est plus profonde on ne verra rien.
+Notez que les gisements sont limités par niveau (voir [ressources minières]).
+On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
+Pour la prospection, on ne voit pas plus que la couche (niveau en mining\*2). Si la couche est plus profonde on ne verra rien.
 
 ## Tir à l'arc
 
@@ -50,7 +52,8 @@ Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
 
 *Trade (EN), Handeln (DE)*.
 
-Dans les régions avec un château : acheter et vendre des biens de luxe. 10 biens peuvent être échangés par personne, niveau de compétence et tour (voir [commerce] et [[cmd-buy]]).
+Dans les régions **avec un château** : permet d'acheter et vendre des biens de luxe.
+10 biens peuvent être échangés par personne, niveau de compétence et tour (voir [commerce] et [[cmd-buy]]).
 
 ## Mêlée
 
@@ -58,11 +61,11 @@ Dans les régions avec un château : acheter et vendre des biens de luxe. 10 bi
 
 Avec une arme de mêlée (sword, claymore, axe, laensword) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
 
-## Forestry
+## Sylviculture
 
 *Forestry (EN), Holzfällen (DE)*.
 
-Abattre des arbres et des mallorns pour faire du bois (wood) (voir [ressources][1]).
+Abattre des arbres et des mallorns pour faire du bois (*wood*) (voir [ressources forestières]).
 
 ## Tir à la catapulte
 
@@ -70,17 +73,18 @@ Abattre des arbres et des mallorns pour faire du bois (wood) (voir [ressources][
 
 Avec une catapult (catapulte) et des Ammunitions (munitions) : se battre. On ne peut pas taxer avec.
 
-## Herbalism
+## Herboristerie
 
 *Herbalism (EN), Kräuterkunde (DE)*.
 
 Permet de récolter des [plantes] pour concocter des [[alchimie|potions]].
 Le coût d'apprentissage est de 200 silver par semaine et par personne.
-À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (voir [[production]]) et [[cmd-plant]]. Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
+À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (voir [[production]]) et [[cmd-plant]].
+Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 ## [[magie|Magie]]
 
-* Magic (EN), Magie (DE)*.
+*Magic (EN), Magie (DE)*.
 
 Cela permet de lancer des sorts de combat et d'autres types de sorts.
 L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tour, en fonction du niveau.
@@ -93,20 +97,23 @@ Dressage.
 
 Cette compétence est nécessaire pour obtenir des [chevaux]. On peut l'utiliser de deux façons :
 
-* Avec [[cmd-make|`MAKE SEEDS`]]`[`*`quantité`*`] horse` on capture des chevaux présents dans la région, à raison d'un cheval par personne et par niveau de compétence en taming. Bien sûr, au maximum autant de chevaux que présents dans la région.
-* Avec [[cmd-grow|`GROW HORSES`]] il est possible de reproduire chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans une [stable].
+- Avec [[cmd-make|`MAKE SEEDS`]]`[`*`quantité`*`] horse` on capture des chevaux présents dans la région, à raison d'un cheval par personne et par niveau de compétence en taming. Bien sûr, au maximum autant de chevaux que présents dans la région.
+- Avec [[cmd-grow|`GROW HORSES`]] il est possible de reproduire chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans une [stable].
 
-## Riding
+## Équitation
 
 *Riding (EN), Reiten (DE)*.
 
 Monter à cheval.
 
-Avec un [cheval][chevaux] : A partir de riding 1, déplacement plus rapide, à partir de riding 2, bonus de cavalerie au combat.
+Avec un [cheval][chevaux] :
 
-Par personne et par niveau de compétence, il est possible de mener (4 x niveau riding)+1 chevaux sur 1 région (2 avec une route) ou de monter (2 x niveau riding) chevaux sur 2 régions (3 avec une route).
+- À partir du niveau 1 : les déplacements sont plus rapides
+- À partir de riding 2 : donne un bonus de cavalerie au combat
 
-## Armoursmithing
+Par personne et par niveau de compétence, il est possible de mener `(4 X Niveau) + 1` chevaux sur 1 région (sur 2 avec une route) ou de monter (`2 X Niveau`) chevaux sur 2 régions (sur 3 avec une route).
+
+## Armurerie
 
 *Armoursmithing (EN), Rüstungsbau (DE)*.
 
@@ -122,7 +129,7 @@ Construction navale.
 
 Construction et réparation de bateaux en bois (voir [[bateaux]]).
 
-## Sailing
+## Voile
 
 *Sailing (EN), Segeln (DE)*.
 
@@ -150,7 +157,9 @@ Exploitation de carrières.
 
 Produire des pierres et des munitions de catapulte (à partir du niveau 3). Une pierre peut être extraite par personne, par niveau de compétence et par tour.
 
-Notez que les gisements sont limités par niveau (voir [ressources][2]). On ne voit toujours que le nombre de pierres qui se trouvent dans la couche supérieure. S'il n'y a pas de pierres dans la couche (niveau de compétence\*2), on ne voit rien.
+Notez que les gisements sont limités par niveau (voir [ressources minières]).
+On ne voit toujours que le nombre de pierres qui se trouvent dans la couche supérieure.
+S'il n'y a pas de pierres dans la couche (niveau de compétence\*2), on ne voit rien.
 
 ## Taxation
 
@@ -162,11 +171,11 @@ Collecter les taxes auprès des paysans. Par niveau de compétence et par person
 
 Cette compétence n'augmente pas en l'utilisant, pas plus que la compétence d'arme correspondante.
 
-## Roadwork
+## Construction de routes
 
 *Roadwork (EN), Straßenbau (DE)*.
 
-Construire des [[routes]] avec des pierres.
+Cette compétence permet de construire des [[routes]] avec des pierres.  
 Une pierre peut être posée par personne, par niveau de compétence et par tour.
 
 ## [[tactique]]
@@ -225,13 +234,10 @@ Poursuivre la lecture : [[camouflage]].
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
 [plantes]: ./herbs.md
-[ressources]: ./resources.md
-[bâtiments et des châteaux]: ./buildings.md
-
-[tableau]: ./war.md#ausdauer
+[tableau]: ./war-tables.md#endurance
 [commerce]: ./silver.md#commerce
-[1]: ./resources.md#tief-im-wald Ressources Forestières
+[ressources forestières]: ./resources.md#ressources-forestieres
 [chevaux]: ./travel.md#chevaux-et-chariots
 [stable]: ./buildings-others.md#haras
-[2]: ./resources.md#ressources-minieres
+[ressources minières]: ./resources.md#ressources-minieres
 [rassemblement]: ./war.md#aux-armes-eresseens

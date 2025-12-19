@@ -1,0 +1,5 @@
+plugins:
+  redirects:
+    redirect_maps:
+      #index.md: actualités/index.md
+

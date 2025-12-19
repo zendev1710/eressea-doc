@@ -3,19 +3,25 @@ alias: competences
 ---
 # Compétences
 
-Les compétences sont un élément essentiel qui définit une [unité] dans Eressea. Toutes les personnes d'une unité ont les mêmes compétences. Elles doivent d'abord les apprendre. Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
+Les compétences sont un élément essentiel qui définit une [[cmd-unit|unité]] dans Eressea.
+Toutes les personnes d'une unité ont les mêmes compétences.
+Elles doivent d'abord les apprendre.
+Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
 
-Certaines compétences s'améliorent également en les utilisant. Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas). Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN). Les compétences qui ne s'améliorent *pas* en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
+Certaines compétences s'améliorent également en les utilisant.
+Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
+Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN).
+Les compétences qui ne s'améliorent *pas* en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
 
 Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser. Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence. Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.
 
 ## Apprendre des compétences
 
-Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau. En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race] ou le terrain. Le temps d'apprentissage minimal est d'1 semaine. La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1). Les valeurs extrêmes sont moins fréquentes que la valeur moyenne. Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines. Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
+Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau. En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [[races|race]] ou le terrain. Le temps d'apprentissage minimal est d'1 semaine. La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1). Les valeurs extrêmes sont moins fréquentes que la valeur moyenne. Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines. Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
 
 **Beispiele:** Das Aufsteigen von Stufe 3 nach Stufe 4 dauert im Schnitt 4 Wochen, jedoch manchmal nur eine Woche und manchmal bis zu 7 Wochen. Eine [Zwergeneinheit][nain] mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben. Sie benötigt für den Aufstieg im Talent Bergbau von Stufe 3 nach Stufe 4 im Schnitt zwei Wochen.
 
-Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [enseigner] la compétence. Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence. L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur. L'unité enseignante, elle, n'en tire aucune expérience. Un apprentissage dans une [académie] permet d'apprendre en plus rapidement.
+Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence. Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence. L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur. L'unité enseignante, elle, n'en tire aucune expérience. Un apprentissage dans une [académie] permet d'apprendre en plus rapidement.
 
 Un enseignant peut avoir jusqu'à 10 élèves. Une unité enseignante peut contenir autant de personnes que souhaité. Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage. Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.
 
@@ -33,9 +39,14 @@ Einheit l1; 1 Person, Ausdauer 3
 
 Ergebnis: Einheit l1 lehrt 10 Personen von Einheit s1 in Ausdauer. Einheit l2 lehrt die restlichen 5 Personen von s1 in Ausdauer und 5 Personen von Einheit s2 in Hiebwaffen. Einheit s1 wird von l1 und l2 gelehrt und lernt doppelt so schnell wie normal. Einheit s2 wird nur zur Hälfte in Ausdauer gelehrt und lernt deshalb nur 50% schneller.
 
-Attention! Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur. Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea. Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques. Avec l'ordre [LEARN AUTO], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région. Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.
+Attention! Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.
+Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.
+Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.
+Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.
+Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.
 
-[magie], [alchimie], [herboristerie][alchimie], [espionnage][alchimie] et [tactics] sont particulièrement difficiles et coûteux à apprendre. Apprendre l'espionnage coûte 100 Silver par personne et par tour. 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique. Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [tableau][magie]). L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme. Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût. Si l'unité est dans une [académie][1], le coût d'apprentissage des compétences payantes est doublé.
+[[magie]], [alchimie], [herboristerie], [espionnage] et [[tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
+Apprendre l'espionnage coûte 100 Silver par personne et par tour. 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique. Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [[magie|tableau]]). L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme. Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût. Si l'unité est dans une [académie], le coût d'apprentissage des compétences payantes est doublé.
 
 Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose; par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
 
@@ -61,52 +72,42 @@ Les compétences peuvent être divisées en plusieurs groupes :
 
 ### Compétences pour la production
 
-alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking
+alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking.
 
-Il s'agit du plus grand groupe de compétences. Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes. Elles sont expliquées plus en détail dans les chapitres [production] et [alchimie][2].
+Il s'agit du plus grand groupe de compétences.
+Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
+Elles sont expliquées plus en détail dans les chapitres [[production]] et [[alchimie]].
 
 ### Compétences pour gagner de l'argent
 
-Trade, taxation et entertainment sont nécessaires pour générer des Silver. Pour en savoir plus, consultez le chapitre sur [l'argent].
+Le commerce, la taxation, et le divertissement sont nécessaires pour générer des silvers.
+Pour en savoir plus, consulte le chapitre sur [[argent|l'argent]].
 
 ### Dissimulation & Co
 
-[espionage], [stealth] et [perception] sont centrés sur la dissimulation. Elles ont leur propre chapitre.
+[espionage], [stealth] et [[camouflage|perception]] sont centrés sur la dissimulation.
+Elles ont leur propre chapitre.
 
 ### Pour les déplacements
 
-Sailing et riding sont expliquées dans le chapitre sur les [déplacements]. riding est également abordé dans le chapitre des [combats].
+La Voile (*Sailing*) et l'Équitation (*Riding*, aptitude à monter à cheval) sont des compétences expliquées dans le chapitre sur les [[deplacements]].
+L'Équitation est également abordé dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
 
 ### La magie
 
-[magic][magie] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
+[[magie]] est une compétence aux pouvoirs particulièrement puissants.
 
 ### Compétences de combat
 
-Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [batailles], que ce soit contre d'autres factions ou des monstres.
+Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des monstres.
 
-Poursuivre la lecture : [liste des compétences].
-
-[liste des compétences]: ./skills-list.md "Liste des compétences"
+Poursuivre la lecture : [[liste-des-competences]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
-[unité]: ./cmd-unit.md "Einheiten"
-[race]: ./races.md "Rassen"
-[nain]: ./races.md#nains "Zwerg"
-[enseigner]: ./cmd-teach.md "TEACH"
-[académie]: ./buildings-others.md#académie "Académie"
-[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
-[magie]: ./magic.md "Magie"
-[alchimie]: ./skills-list.md "Liste des compétences"
-[tactics]: ./tactic.md "Taktik"
-[1]: ./buildings-others.md#académie "Académie"
-[production]: ./production.md "Production"
-[2]: ./alchemy.md "Alchemie"
-[l'argent]: ./silver.md "Argent"
-[espionage]: ./skills-list.md#espionnage "Spionage"
-[stealth]: ./camouflage.md "Tarnung"
-[perception]: ./camouflage.md "Wahrnehmung"
-[déplacements]: ./travel.md "Reisen"
-[combats]: ./war-tables.md "Kampf"
-[batailles]: ./war.md "Guerre"
+[nain]: ./races.md#nains
+[académie]: ./buildings-others.md#academie
+[alchimie]: ./skills-list.md#alchimie
+[herboristerie]: ./skills-list.md#herboristerie
+[espionage]: ./skills-list.md#espionnage
+[stealth]: ./camouflage.md#vols-de-silver

@@ -1,0 +1,145 @@
+#!/usr/bin/env groovy
+
+@Library('build_libs') _
+
+Map options = [
+    // Nombre de builds à conserver dans l'historique des builds du job Jenkins
+    NUM_TO_KEEP: 10,
+    // Branche principale
+    BRANCH_MAIN: 'main',
+    // Version du Azcli
+    AZCLI_VERSION: '2.36.0',
+]
+
+// Valorisation des options par défaut
+options = defaultBuildOptions(options)
+
+// Propriétés du job
+properties([
+    // Paramètres
+    parameters([
+        choice(name: 'ENVIRONMENT', choices: ['production', 'staging'], description: 'Choisir un environnement sur lequel déployer la documentation eUL (défaut: production)'),
+        string(name: 'BRANCH', defaultValue: options['BRANCH_MAIN'], description: "Renseigner la branche à déployer (défaut: ${options['BRANCH_MAIN']})", trim: true),
+        booleanParam(name: 'SKIP_BUILD', defaultValue: false, description: 'Ignore l\'étape de build'),
+        string(name: 'BUILD_NUMBER', description: 'N° de build Jenkins déjà existant', trim: true),
+        string(name: 'MR_ID', description: 'ID de la merge request GitLab associée', trim: true),
+    ]),
+    // Connexion GitLab
+    gitLabConnection("${options['GITLAB_NAME']}"),
+    // Conservation des N dernières exécutions
+    buildDiscarder(logRotator(numToKeepStr: "${options['NUM_TO_KEEP']}")),
+    // Déclenchement du job via webhook lors de push de nouveau code ou de création de merge request
+    pipelineTriggers([[$class: 'GitLabPushTrigger', triggerOnPush: true, triggerOnMergeRequest: true, branchFilterType: 'All']]),
+])
+
+// Horodatage des lignes de log Jenkins
+timestamps {
+    ansiColor('xterm') {
+        withTools([[name: 'azurecli', image: 'azure-cli', version: "${options['AZCLI_VERSION']}"]]) {
+            try {
+                stage('Install tools') {
+                    container('azurecli') {
+                        sh '''
+                            apk add --update coreutils
+                            curl --fail https://artefact-repo.apps.eul.sncf.fr/artifactory/raw-tools/microsoft/azcopy10 -o /usr/bin/azcopy
+                            chmod +x /usr/bin/azcopy
+                        '''
+                    }
+                }
+
+                stage('Build') {
+                    if (params.SKIP_BUILD) {
+                        copyArtifacts(projectName: "./build/${params.BRANCH}", selector: specific(params.BUILD_NUMBER))
+                    } else {
+                        // Build avec le pipeline de CI sur la branche main et copie du dossier /site
+                        def built = build(job: "./build/${params.BRANCH}", propagate: false, parameters: [booleanParam(name: 'SKIP_STAGING', value: true)])
+                        copyArtifacts(projectName: "./build/${params.BRANCH}", selector: specific("${built.number}"))
+                    }
+                }
+
+                stage('Deploy') {
+                    println '🔰 Déploiement de la documentation eUL'
+                    container('azurecli') {
+                        // Préparation pour l'environnement de staging
+                        if (params.ENVIRONMENT == 'staging') {
+                            println '📜 Déploiement sur l\'environnement de staging en cours'
+                            env.azurecredz = 'AZURE_EUL_SA_NP'
+                            env.account = 'e.sncf dosn nprd'
+                            env.group = 'rg-dosn-hprod-shr-eul'
+                            env.srv = 'sadosnnpfceul07'
+                            if (params.MR_ID?.trim()) {
+                                env.dest = "https://${srv}.blob.core.windows.net/\$web/ci/mr-${params.MR_ID}/"
+                            } else if (params.BRANCH.trim()) {
+                                env.dest = "https://${srv}.blob.core.windows.net/\$web/ci/branch-${params.BRANCH}/"
+                            }
+                        } else {
+                            // Préparation pour l'environnement de production
+                            println '📜 Déploiement sur l\'environnement de production en cours'
+                            // On déploie uniquement sur la branche main en production
+                            if (params.BRANCH != options['BRANCH_MAIN']) {
+                                error "❌ Déploiement interdit d\'une branche autre que la principale (${options['BRANCH_MAIN']}) en production (docs.apps.eul.sncf.fr)"
+                            }
+                            env.azurecredz = 'AZURE_EUL_SA_PRD'
+                            env.account = 'e.sncf dosn prd'
+                            env.group = 'rg-dosn-pr-shr-eul-prd'
+                            env.srv = 'sadosnprfceul06'
+                            env.dest = "https://${srv}.blob.core.windows.net/\$web"
+                        }
+
+                        // Déploiement
+                        withCredentials([usernamePassword(credentialsId: "${azurecredz}", passwordVariable: 'AZP', usernameVariable: 'AZU')]) {
+                            // Préparation au déploiement
+                            env.tenant = '4a7c8238-5799-4b16-9fc6-9ad8fce5a7d9'
+                            sh '''
+                                az login --service-principal --username ${AZU} --password ${AZP} --tenant ${tenant} > /dev/null
+                                az account set -s "${account}"
+                            '''
+
+                            // Génération du sas pour manipuler le storage account
+                            // Voir https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview
+                            // Utilisation de la variable AZURE_STORAGE_KEY pour ne pas afficher la clé dans les logs
+                            // Voir https://learn.microsoft.com/fr-fr/cli/azure/storage/container?view=azure-cli-latest#az-storage-container-generate-sas-optional-parameters
+                            env.AZURE_STORAGE_KEY = sh(script : 'az storage account keys list -g ${group} --account-name ${srv} | jq -r ".[0].value"', returnStdout: true).trim()
+                            env.dayplusone = sh(script: 'date -d "+ 1 day" "+%Y-%m-%d"', returnStdout: true).trim()
+                            env.sas = sh(script: 'az storage container generate-sas --name \\$web --account-name ${srv} --expiry ${dayplusone} --permissions acdlrw --https-only --auth-mode key | jq -r', returnStdout: true).trim()
+                            env.dest += "?${sas}"
+
+                            // Upload du dossier site/ provenant du job build dans le storage account
+                            sh 'azcopy sync --delete-destination true "site/" "${dest}"'
+                        }
+                    }
+                    println '✔️ Déploiement de la documentation eUL effectué'
+                }
+
+                stage('Update staging homepage') {
+                    when(params.ENVIRONMENT == 'staging') {
+                        // Mise à jour de la page d'accueil de docs.staging.aks.eul.sncf.fr
+                        // en y incorporant un lien vers la nouvelle MR ou branche
+                        println '📜 Mise à jour de la page d\'accueil de staging'
+                        build(job: './update-home-staging', wait: false)
+                        println '✔️ Mise à jour de la page d\'accueil de staging effectuée'
+                    }
+                }
+
+                // Voir https://jenkins.io/doc/pipeline/steps/gitlab-plugin/ pour plus de précisions
+                updateGitlabCommitStatus name: 'build', state: 'success'
+                println '👍 Déploiement de la documentation eUL terminée avec succès'
+                currentBuild.result = 'SUCCESS'
+            } catch (all) {
+                currentBuild.result = 'FAILURE'
+                updateGitlabCommitStatus name: 'build', state: 'failed'
+                // Envoi d'un mail en cas d'échec
+                // Voir https://jenkins.io/doc/pipeline/steps/email-ext/ pour plus de précisions
+                emailext(
+                    body: '$DEFAULT_CONTENT',
+                    subject: '$DEFAULT_SUBJECT',
+                    // Envoi du mail aux développeurs responsables d'une modification du code
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                    // Pour également envoyer le mail à une liste d'adresses (séparées par des ,) :
+                    //to: "adressmail1, adressmail2"
+                )
+                throw all
+            }
+        }
+    }
+}

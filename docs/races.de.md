@@ -29,7 +29,7 @@ Elfen sind ein geradezu magisches Volk. Schwere Arbeiten sind nicht unbedingt ih
 
 - Jeder Elf in der Region (bis zu maximal 1/8 der [Regionskapazität] für Bauern, das entspricht z.B. bis zu 250 Elfen in einem Sumpf) erhöht die Chance eines Baums, in einer Sommer- oder Herbstwoche einen Samen abzuwerfen. Das kann je nach Anzahl der Elfen einen ganz deutlichen Unterschied ausmachen.
 - Elfen haben in Wäldern zusätzlich Tarnung und Wahrnehmung +1 und Taktik +2.
-- Elfen dürfen sechs (statt fünf) [Magier] besitzen.
+- Elfen dürfen sechs (statt fünf) [[magie-de|Magier]] besitzen.
 - Elfenmagier regenerieren Aura 25% schneller
 - Elfen machen mit Bögen einen Schadenspunkt mehr.
 - Nur Elfen können [Elfenbögen] bauen.
@@ -125,7 +125,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 
 - Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][11] und [hier][abgebaute Steine]).
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
-- [Zwergenmagier][Magier] regenerieren Aura 50% langsamer.
+- [[magie-de|Zwergenmagier]] regenerieren Aura 50% langsamer.
 
 Weiterlesen: [Talentmodifikatoren].
 
@@ -137,7 +137,6 @@ Weiterlesen: [Talentmodifikatoren].
 [Hungerregel]: ./silver.md#hunger
 [Rekrutierte]: ./silver.md#rekrutieren
 [Regionskapazität]: ./world.md
-[Magier]: ./magic.md
 [Elfenbögen]: ./war-tables.md#waffeneigenschaften
 [klauen]: ./cmd-steal.md "BEKLAUE"
 [Schiffe]: ./ships.md

@@ -3,7 +3,7 @@ alias: ressources
 ---
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [régions] sans aucun autre ingrédient. Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout. La compétence requise est indiquée dans le tableau de la section [objets].
+Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient. Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout. La compétence requise est indiquée dans le tableau de la section [objets].
 
 ## Exploitation des ressources
 
@@ -54,9 +54,6 @@ Poursuivre la lecture : [[objets]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
-[Régions]: ./world.md
-[`MAKE`]: ./cmd-make.md
-[Herbalism]: ./skills-list.md
-
+[Herbalism]: ./skills-list.md#herboristerie
 [Stable]: ./buildings-others.md#haras
 [Liste des Plantes]: ./herbs.md#liste-des-plantes

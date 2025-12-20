@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-attack
     text: ATTACK
@@ -22,7 +23,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Angriffe.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Kampfende]: ./war.md#the-end "Kampfende"
-[kämpfen]: ./cmd-combat.md "COMBAT"
-[immun]: ./puppy-protection.md "Welpenschutz"
+[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders
+[Kampfende]: ./war.md#the-end
+[kämpfen]: ./cmd-combat.md
+[immun]: ./puppy-protection.md

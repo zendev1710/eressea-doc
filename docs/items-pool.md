@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: items-pool
     text: Items pool
@@ -161,5 +162,5 @@ Continue reading: [[war]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[Gebäude]: ./buildings.md "Gebäude"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Gebäude]: ./buildings.md
+[Befehlsreihenfolge]: ./commands-sequence.md

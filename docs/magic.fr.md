@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: magie
 ---
 # Magie
@@ -227,7 +228,7 @@ Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezau
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: ./toad.md "Kröte"
+[Kröte]: ./toad.md
 
 ## Résistance à la magie
 
@@ -249,9 +250,9 @@ Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattde
 
 Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.
 
-**Exemples :** Die Basischance ist 0% für Menschen, 10% für [Elfen], für [Goblins][Elfen] ist sie nur -5%.
+**Exemples :** Die Basischance ist 0% für Menschen, 10% für [Elfen], für [Gobelins][Elfen] ist sie nur -5%.
 
-Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
+Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Gobelins, sinkt die Chance weiter auf 35%.
 
 Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][Waffen oder Rüstungen] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
 
@@ -295,27 +296,27 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Kampf]: ./war.md "Krieg"
-[LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md "LEARN"
-[Partei]: ./factions.md "Partei"
-[Akademie]: ./buildings-others.md "Andere Gebäude"
-[CAST]: ./cmd-cast.md "CAST"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-[COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md "COMBATSPELL"
-[COMBAT-Befehle]: ./war.md#kampfreihen "Krieg"
-[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
+[Kampf]: ./war.md
+[LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md
+[Partei]: ./factions.md
+[Akademie]: ./buildings-others.md
+[CAST]: ./cmd-cast.md
+[Befehlsreihenfolge]: ./commands-sequence.md
+[COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md
+[COMBAT-Befehle]: ./war.md#kampfreihen
+[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht
 [Aura]: #aura
 [Fernzauber]: ./#magie-a-distance
 [Magieresistenz]: ./#resistance-a-la-magie
-[Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
-[Andere Gebäude#magierturm]: ./buildings-others.md#tour-de-mage "Tour de mage"
-[gesegneten Steinkreis]: ./buildings-others.md#cercle-de-pierres "Cercle de Pierres"
+[Ring der Macht]: ./ring-of-power.md
+[Andere Gebäude#magierturm]: ./buildings-others.md#tour-de-mage
+[gesegneten Steinkreis]: ./buildings-others.md#cercle-de-pierres
 [Wahrscheinlichkeit für Patzer]: #gaffe
-[Rassen]: ./races.md "Rasse (to be documented)"
-[Zauber]: ./spells-list.md "Zauberliste E2"
-[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz "Kriegstabellen"
-[Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
-[Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
-[Vertraute]: ./familiars.md "Vertraute"
-[Wesen]: ./monsters.md#hirntöter "Monster"
-[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"
+[Rassen]: ./races.md
+[Zauber]: ./spells-list.md
+[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz
+[Elfen]: ./skills-modifiers.md
+[Chaosfluch]: ./spells-list.md#chaosfluch
+[Vertraute]: ./familiars.md
+[Wesen]: ./monsters.md#hirntöter
+[Zauberbeschreibungen]: ./spells-descriptions.md

@@ -17,8 +17,8 @@ In den ersten Wochen ist deine Partei [immun] gegen Angriffe.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Kampfende]: ./war.md#das-ende "Kampfende"
-[kämpfen]: ./cmd-combat.md "COMBAT"
-[immun]: ./puppy-protection.md "Welpenschutz"
-[Krieg]: ./war.md "Krieg"
+[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
+[Kampfende]: ./war.md#das-ende
+[kämpfen]: ./cmd-combat.md
+[immun]: ./puppy-protection.md
+[Krieg]: ./war.md

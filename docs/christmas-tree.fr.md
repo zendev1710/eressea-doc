@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: sapin-de-noeel
 ---
 # Sapin de Nöel

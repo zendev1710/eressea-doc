@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: auto-event-response
     text: Automated event response

@@ -16,6 +16,6 @@ Nicht alle Zaubersprüche sind Kampfzauber, dieses kann der Beschreibung der Zau
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBATSPELL&oldid=16818] -->
 
-[`SHOW`]: ./cmd-show.md "SHOW"
-[Magie]: ./magic.md "Magie"
-[CAST]: ./cmd-cast.md "CAST"
+[`SHOW`]: ./cmd-show.md
+[Magie]: ./magic.md
+[CAST]: ./cmd-cast.md

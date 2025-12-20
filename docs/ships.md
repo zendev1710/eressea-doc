@@ -1,50 +1,63 @@
 ---
+# cSpell:locale en
 alias:
     name: ships
     text: Ships
 ---
 # Ships
 
-<!-- TODO: translate from german to english -->
-Schiffe werden dem Befehl [**`MAKE`**`[`*`stufen`*`]`*`Schiffstyp`*][1] gebaut. Existierende, unfertige oder beschädigte Schiffe werden mit **`MAKE`**`[`*`stufen`*`] SHIP [`*`ship-id`*`]` weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen. Eine Einheit kann pro Runde (Talentstufe \* Personen / Mindesttalent) Holz verbauen.
+<!-- translated from german to english -->
 
-Auch Schiffe haben Nummern, die in Befehlen gebraucht werden. Hier ein Beispiel für ein Schiff:
+Ships are built using the command [[cmd-make|**`MAKE`**`[`*`levels`*`]`*`ship type`*]].  
+Existing, unfinished, or damaged ships can be further built using **`MAKE`**`[`*`levels`*`] SHIP [`*`ship-id`*`]`.  
 
-Stolz der Sieben Winde (18), Langboot, (254/500). Dieses schöne
+Wood is needed for this. The more complex the ship, the harder it is to build and command.
+This is summarized in the table below.  
 
-    Schiff war das erste, welches die Händlerfamilie Plötzbogen
-    einsetzte. Kapitän Gorm steht auf dem Achterdeck und erteilt
-    Befehle an die Matrosen. Er hat alles voll im Griff.
+To start building a ship or to continue building or repairing one, the unit needs at least the specified shipbuilding skill.  
+The table shows how much wood is required to build a ship.  
+A unit can use per round this number of woods : `skill level X people / minimum skill`.
 
-Bei eigenen Schiffen steht hinter dem Schiffstyp die Beladung und die Kapazität (hier 254 Gewichtseinheiten von 500 möglichen).
+A ship also has an id that is used in orders. Here is an example of a ship:
 
-Unter einem Schiff sind die Einheiten eingerückt, die sich auf dem Schiff befinden. Die erste Einheit ist Kapitänin und hat das Kommando über das Schiff. Sie bestimmt, welche anderen Einheiten das Schiff betreten dürfen. Sie darf das Schiff [umbenennen] oder [beschreiben] und sie zählt auch als Besatzung.
+Pride of the Seven Winds (18), Longboat, (254/500). This beautiful
 
-Im Gegensatz zu Gebäuden können Schiffe nicht erweitert werden. Wer also einmal begonnen hat, ein Langboot zu bauen, kann dies später nicht zu einer Karavelle umbauen.
+    ship was the first to be built by the Plötzbogen merchant family
+    used. Captain Gorm stands on the quarterdeck and gives orders
+    Orders to the sailors. He has everything completely under control.
 
-Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachbarte Ozeanregion ablegen.
+For your own ships, the ship type indicates the load and capacity (here 254 weight units out of 500 possible).
 
-Schiffe - Reichweite, Kapazität, Talente:
+In the report, the units that are on the ship are indented under the ship.
 
-| Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
-|---------------|------------|-----------|-------------------|-----------|---------|
-| Boot          | 2          | 50        | 1/2               | 1         | 5       |
-| Langboot      | 3          | 500       | 1/10              | 1         | 50      |
-| Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
-| Karavelle     | 5          | 3000      | 3/30              | 3         | 250     |
-| Trireme       | 7          | 2000      | 4/120             | 4         | 200     |
-| Galeone       | 5          | 20000     | 5/250\*\*         | 5         | 2000    |
+The first unit is a captain and has command of the ship.
+The captain determines which other units are allowed to board the ship.
+He may [[cmd-name|rename]] or [[cmd-describe|describe]] the ship, and also counts as crew.
 
-\* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
+Unlike buildings, ships cannot be expanded.
+So once you start building a longboat, you won't be able to convert it into a caravel later.
 
-\*\* Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.
+Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.
 
-Drachenschiffgeschwindigkeit:
+Ships - type, range, capacity, needed sailing skill for captain/crew, needed building skill, needed wood.
 
-|            |   |   |    |    |     |
-|------------|---|---|----|----|-----|
-| Kapitän    | 2 | 6 | 18 | 54 | 162 |
-| Reichweite | 5 | 6 | 7  | 8  | 9   |
+| Type       | Range | Capacity | Captain/Crew | Building skill | Wood |
+|------------|------:|---------:|-------------:|---------------:|-----:|
+| Boot       |     2 |       50 |          1/2 |              1 |    5 |
+| Longboat   |     3 |      500 |         1/10 |              1 |   50 |
+| Dragonship |    5* |     1000 |         2/50 |              2 |  100 |
+| Caravel    |     5 |     3000 |         3/30 |              3 |  250 |
+| Trireme    |     7 |     2000 |        4/120 |              4 |  200 |
+| Galleon    |     5 |    20000 |      5/250** |              5 | 2000 |
+
+\* Dragonship speed depends on captain sailing skill.  
+\*\* Only units from lelel 2 in sails are taken into account for the overall skill of the galleon.  
+
+Dragon ship speed.
+
+| Captain | 2 | 6 | 18 | 54 | 162 |
+|---------|---|---|----|----|-----|
+| Range   | 5 | 6 | 7  | 8  | 9   |
 
 ## Convoi
 
@@ -77,23 +90,16 @@ Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent p
 
 Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
 
-```
-  GIVE 123 1 SHIP
-  GIVE 123 ALLES PERSONS
-```
+    ```
+    GIVE 123 1 SHIP
+    GIVE 123 ALL PERSONS
+    ```
 
 ## Voir aussi
 
-- [naviguer]
+- [[travel]]
 - [[cmd-give]]
 
-Continue reading: [Gebäude].
-
-[Gebäude]: ./buildings.md "Gebäude"
+Continue reading: [[buildings]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
-
-[1]: ./cmd-make.md "MAKE"
-[umbenennen]: ./cmd-name.md "NAME"
-[beschreiben]: ./cmd-describe.md "DESCRIBE"
-[naviguer]: ./travel.md "Schiffsreise"

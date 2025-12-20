@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: protection-du-chiot
 ---
 # Protection du chiot
@@ -19,10 +20,10 @@ Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes
 
     Si ton rapport indique « Votre groupe est immunisé pendant 1 semaine », cela signifie que tu peux déjà être victime de vols et d’attaques pendant la semaine pour laquelle tu soumets actuellement tes ordres !
 
-Poursuivre la lecture : [Envoi des ordres](./commands-send.md "Envoi des ordres")
+Poursuivre la lecture : [Envoi des ordres](./commands-send.md)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
 
-[attaquée]: ./cmd-attack.md "ATTACK"
-[volée]: ./cmd-steal.md "STEAL"
-[garder]: ./cmd-guard.md "GUARD"
+[attaquée]: ./cmd-attack.md
+[volée]: ./cmd-steal.md
+[garder]: ./cmd-guard.md

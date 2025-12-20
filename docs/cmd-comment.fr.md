@@ -51,8 +51,8 @@ Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Vers
 
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
-  [Zugvorlage]: ./commands.md "Ordres"
-  [ECheck]: ./echeck.md "ECheck"
-  [`Vorlage`]: ./vorlage.md "Vorlage"
-  [//]: ./cmd-comment-slash.md "KOMMENTAR"
+  [Zugvorlage]: ./commands.md
+  [ECheck]: ./echeck.md
+  [`Vorlage`]: ./vorlage.md
+  [//]: ./cmd-comment-slash.md
   [Vorlage und VPP auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html

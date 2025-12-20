@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: premier-tour
 ---
 # Premier tour
@@ -13,7 +14,7 @@ Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du na
        Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
                               Zeitalters. Es ist Sommer.
 
-            Partei 37wj (37wj), Goblins/Kein Magiegebiet (drac@example.de)
+            Partei 37wj (37wj), Gobelins/Kein Magiegebiet (drac@example.de)
 
                               Dein Passwort lautet pwpw42.
 
@@ -245,9 +246,9 @@ Cependant, si tu utilises [Magellan] pour tes ordres, tu n'as pas à t'en soucie
 
 Poursuivre la lecture : [protection du chiot].
 
-[protection du chiot]: ./puppy-protection.md "Protection du chiot"
+[protection du chiot]: ./puppy-protection.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Magellan]: ./magellan.md "Magellan"
+[Magellan]: ./magellan.md
 [Tutoriel Eressea]: https://playeressea.wordpress.com/eressea-tutorium/ "Tutoriel Erressea en allemand (web)"

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: amulett-des-wahren-sehens
 ---
 # Amulett des wahren Sehens

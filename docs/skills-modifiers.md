@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: skill-modifiers
     text: skill modifiers
@@ -47,17 +48,17 @@ Continue reading: [Talente].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/en&oldid=14951] -->
 
-[Talente]: ./skills.md "Skill"
-[dwarves]: ./races.md#dwarves "Dwarves"
-[orcs]: ./races.md#orcs "Orcs"
-[elves]: ./races.md#elves "Elves"
-[cats]: ./races.md#cats "CAts"
-[demons]: ./races.md#demons "Demons"
-[halflings]: ./races.md#halflings "Halflinge"
-[humans]: ./races.md#humans "Humans"
-[goblins]: ./races.md#goblins "Goblins"
-[insects]: ./races.md#insects "Insects"
-[trolls]: ./races.md#trolls "Trolls"
-[aqua.]: ./races.md#aquarians "Aquarians"
-[races]: ./races.md "Races"
-[skills]: ./skills.md "Skills"
+[Talente]: ./skills.md
+[dwarves]: ./races.md#dwarves
+[orcs]: ./races.md#orcs
+[elves]: ./races.md#elves
+[cats]: ./races.md#cats
+[demons]: ./races.md#demons
+[halflings]: ./races.md#halflings
+[humans]: ./races.md#humans
+[goblins]: ./races.md#goblins
+[insects]: ./races.md#insects
+[trolls]: ./races.md#trolls
+[aqua.]: ./races.md#aquarians
+[races]: ./races.md
+[skills]: ./skills.md

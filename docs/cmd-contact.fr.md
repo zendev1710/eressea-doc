@@ -34,5 +34,5 @@ Einheit a darf Einheit x also die 1000 Silber übergeben. Falls x die einzige be
 
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->
 
-[HELP]: ./cmd-help.md "HELP"
-[`GIVE PERSONEN`]: ./cmd-give.md "GIVE"
+[HELP]: ./cmd-help.md
+[`GIVE PERSONEN`]: ./cmd-give.md

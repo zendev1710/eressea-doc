@@ -1,6 +1,7 @@
 ---
+# cSpell:locale fr, en
 alias: armure-en-adamantium
 ---
 # Armure en adamantium
 
-*Adamantium Armor (EN), Adamantiumrüstung (DE)*.
+Terme anglais: *Adamantium Armor*.

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: terrain-types
     text: Terrain types
@@ -24,4 +25,4 @@ In glaciers, swamps and deserts, road construction is only possible if there are
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten/en&oldid=9103] -->
 
-[special buildings]: ./buildings-others.md "Andere Gebäude"
+[special buildings]: ./buildings-others.md

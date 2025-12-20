@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: factions
     text: Factions
@@ -64,34 +65,34 @@ Player experience: SoltharThere have been cases where special magic items produc
 
 Continue reading: [Races].
 
-[Races]: ./races.md "Rassen"
+[Races]: ./races.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/en&oldid=16635] -->
 
-[race]: ./races.md "Rassen"
-[skills]: ./skills.md "Talente"
-[orders]: ./commands.md "Orders"
-[race-specific starting gift]: ./eressea-story.md#start-of-the-6th-world "Geschichte von Eressea"
-[`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
-[recruit]: ./silver.md#recruiting "RECRUIT"
-[produce items]: ./items.md "Gegenstände"
-[buildings]: ./buildings.md "Gebäude"
-[ships]: ./ships.md "Schiffe"
-[horses]: ./travel.md#horse-and-carriage "Pferd und Wagen"
-[weapons]: ./war-tables.md "Warstabellen"
-[MAKE TEMP]: ./cmd-make.md "MAKE"
-[transfer]: ./cmd-give.md "GIVE"
-[money]: ./silver.md#expenses "Ausgaben"
-[help]: ./alliances.md "Allianz"
-[taxation]: ./cmd-tax.md "TAX"
-[default order]: ./cmd-default.md "DEFAULT"
-[combat rows]: ./war.md#combat-rows "Combat rows"
-[Hunger]: ./silver.md#starvation "Starvation"
-[cloaked]: ./cmd-hide.md "HIDE"
-[trolls]: ./races.md#trolls "Trolls"
-[humans]: ./races.md#humans "Humans"
-[dwarves]: ./races.md#dwarves "Zwerg"
-[1]: ./races.md#trolls "Trolls"
-[end of the round]: ./commands-sequence.md "Befehlsreihenfolge"
-[`HELP silver`]: ./cmd-help.md "HELP"
-[The faction pool]: ./faction-pool.md "Parteipool"
+[race]: ./races.md
+[skills]: ./skills.md
+[orders]: ./commands.md
+[race-specific starting gift]: ./eressea-story.md#start-of-the-6th-world
+[`SHOW "`*`Item`*`"`]: ./cmd-show.md
+[recruit]: ./silver.md#recruiting
+[produce items]: ./items.md
+[buildings]: ./buildings.md
+[ships]: ./ships.md
+[horses]: ./travel.md#horse-and-carriage
+[weapons]: ./war-tables.md
+[MAKE TEMP]: ./cmd-make.md
+[transfer]: ./cmd-give.md
+[money]: ./silver.md#expenses
+[help]: ./alliances.md
+[taxation]: ./cmd-tax.md
+[default order]: ./cmd-default.md
+[combat rows]: ./war.md#combat-rows
+[Hunger]: ./silver.md#starvation
+[cloaked]: ./cmd-hide.md
+[trolls]: ./races.md#trolls
+[humans]: ./races.md#humans
+[dwarves]: ./races.md#dwarves
+[1]: ./races.md#trolls
+[end of the round]: ./commands-sequence.md
+[`HELP silver`]: ./cmd-help.md
+[The faction pool]: ./faction-pool.md

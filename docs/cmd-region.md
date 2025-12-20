@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-region
     text: REGION
@@ -11,5 +12,5 @@ Der `REGION`-Befehl erfüllt keine Funktion für Eressea. Er wird lediglich in d
 
 <!-- From [https://wiki.eressea.de/index.php?title=REGION&oldid=16696] -->
 
-[Zugvorlage]:./commands.md "Orders"
-[ECheck]: ./echeck.md "ECheck"
+[Zugvorlage]:./commands.md
+[ECheck]: ./echeck.md

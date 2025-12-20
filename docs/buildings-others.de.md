@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: andere-gebaeude
 ---
 # Andere Gebäude

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: accueil
 ---
 # Accueil
@@ -81,13 +82,13 @@ Poursuivre la lecture : [[regles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 
-[Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[Conseils pour les nouveaux joueurs]: ./getting-started-tips.md "Anfängertipps"
-[L'histoire d'Eressea]: ./eressea-story.md "Geschichte von Eressea"
-[Questions fréquentes (FAQ)]: ./faq.md "FAQ"
-[Les pages des joueurs]: ./player-pages.md "Pages des joueurs"
-[Tu joues trop à Eressea si ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
-[Le Troisième Âge]: ./the-third-age.md "Le Troisième Âge"
+[Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[Conseils pour les nouveaux joueurs]: ./getting-started-tips.md
+[L'histoire d'Eressea]: ./eressea-story.md
+[Questions fréquentes (FAQ)]: ./faq.md
+[Les pages des joueurs]: ./player-pages.md
+[Tu joues trop à Eressea si ...]: ./play-too-much-if.md
+[Le Troisième Âge]: ./the-third-age.md
 
 [Discord]: https://discord.gg/KT5Fffh
 [L'inscription au jeu]: https://www.eressea.de/?page_id=186

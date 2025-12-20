@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: tabellen-traenke-und-kraeuter
 ---
 # Tabellen: Tränke und Kräuter

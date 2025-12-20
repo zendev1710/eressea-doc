@@ -1,40 +1,44 @@
 ---
+# cSpell:locale en
 alias:
     name: extended-commands
     text: Extended Commands
 ---
 # Extended commands
 
-ndedCommands sind ein Plugin für [Magellan], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.
+ExtendedCommands sind ein Plugin für [[magellan]], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.
 
-Auf der [offiziellen Seite] gibt es eine Einführung und ein paar Beispielscripte.
+There is an introduction and a few example scripts on the [official site].
 
-Die Script-Bibliothek versteckt sich im Magellan Menü: Plugins -&gt; Erweiterte Befehle -&gt; Bibliothek Bearbeiten... Es geht seitlich ein neuer View auf, mit einer grossen Textarea zum Code eingeben, sowie Buttons zum Ausführen und Speichern.
+The script library is hidden in the Magellan menu: Plugins -> Advanced Commands -> Edit Library... A new view opens on the side, with a large text area for entering code, as well as buttons for executing and saving.
 
-Was folgt sind Metas Beispielskripte. Einen anderen Ansatz verfolgen der E3CommandParser von Solthar.
+What follows are meta example scripts. The E3CommandParser from Solthar takes a different approach.
 
-## Metas Skripte
+## Meta scripts
 
-Generell kann man die Scripte einem nach dem anderen reinkopieren, aber ich hab es bei mir in 4 Teile aufgeteilt:
+In general you can copy the scripts one after the other, but I divided it into 4 parts:
 
-1. Imports: Nur 2 Zeilen reinkopieren.
-2. Funktionenbibliothek: Einfach reinkopieren
-3. Konfiguration: Hier muss man etwas Hand anlegen
-4. Aufrufe: Da kann man halt jeweils einstellen was man tun will.
+1. Imports: Copy only 2 lines.
+2. Function library: Simply copy it in
+3. Configuration: Here you have to lend a little hand
+4. Views: You can set what you want to do.
 
-Wenn man selber was schreiben will findet man unter Desktop-&gt;Erweiterte Befehle Hilfe alles was man braucht. Mittels Button "Browser" kann man sich die Seite auch im Browser anzeigen lassen.
+If you want to write something yourself, you can find everything you need under Desktop->Advanced Commands Help. You can also display the page in the browser using the “Browser” button.
 
-Achja, hier sind die 2 Zeilen für den Import:
+Oh yes, here are the 2 lines for the import:
 
+    ```java
     import magellan.library.*;
     import magellan.library.rules.*;
+    ```
 
-Hier sind meine vorgefertigten Scripts:
+Here are my pre-made scripts:
 
-### Meta's BurgenbauSchilder
+### Meta castle building signs
 
-Ein Aufruf von `metaBurgenbauSchilder()` bekommt man in allen Regionen ein Schild mit folgenden Infos: Burggrösse M Moral Silber pro Burgengrösse / Stein für nächsten Burgupgrade Steineffizienz (=Silber pro Burgengrösse / Stein für nächsten Burgupgrade)
+A call from `metaBurgenbauSchilder()` in all regions you will receive a sign with the following information: Castle size M Morale Silver per castle size /stone for the next castle upgrade Stone efficiency (= Silver per castle size /stone for the next castle upgrade)
 
+    ```java
     /*********************************************
     *        Meta's BurgenbauSchilder            *
     * Version 0.5                                *
@@ -55,7 +59,7 @@ Ein Aufruf von `metaBurgenbauSchilder()` bekommt man in allen Regionen ein Schil
           moral = region.getMorale();
           burggroesse = 0;
           for (Building building : region.buildings()){
-            if (building.getSize()>burggroesse){// TODO check ob Gebäude = Burg
+            if (building.getSize()>burggroesse){// TODO check whether building = castle
               burggroesse = building.getSize();
             }
           }
@@ -65,31 +69,33 @@ Ein Aufruf von `metaBurgenbauSchilder()` bekommt man in allen Regionen ein Schil
           else if (burggroesse<250) nextBurgUpgrade = 250;
           else if (burggroesse<1250) nextBurgUpgrade = 1250;
           else if (burggroesse<6250) nextBurgUpgrade = 6250;
-          else nextBurgUpgrade = 0;//wird noch dauern bis ich es brauche
+          else nextBurgUpgrade = 0; // it will be a while before I need it
           stein2Upgrade = nextBurgUpgrade - burggroesse;
           steinEffizienz = silberpool/stein2Upgrade;
           signtext = ""+burggroesse+" M"+moral;
           region.addSign(new Sign( signtext ));
           signtext = ""+silberpool/100+"$/"+stein2Upgrade+"S";
           region.addSign(new Sign( signtext ));
-          signtext = ""+steinEffizienz/100+","+steinEffizienz%100;//+"="+steinEffizienz;
+          signtext = ""+steinEffizienz/100+","+steinEffizienz%100; //+"="+steinEffizienz;
           if (steinEffizienz>10000) signtext = "**" + signtext + "**";
           else if (steinEffizienz>1000) signtext = "*" + signtext + "*";
           region.addSign(new Sign( signtext ));
         }
       }
     }
+    ```
 
-### Meta's FreundFeindSchilder
+### Meta friend enemy signs
 
-Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Doku wird noch nachgeliefert:
+This is a bit more complicated as it requires some configuration. More detailed documentation will be provided later:
 
+    ```java
     /*********************************************
-    *        Meta's FreundFeindSchilder          *
+    *        Meta's Friend enemy signs           *
     * Version 0.6                                *
     *********************************************/
     metaFreundFeindSchilder(String type) {
-      if (type.equals("people")){//einfach nur Leute zählen
+      if (type.equals("people")){ // just counting people
         HashMap people;
         String allianceName;
         for (Region region : world.regions().values()) {
@@ -121,26 +127,26 @@ Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Do
         HashMap soldiers;
         HashMap heros;
         String friendFoeInfo;
-        for (Region region : world.regions().values()) {//alle Regionen
+        for (Region region : world.regions().values()) { // all regions
           people = new HashMap();
           soldiers = new HashMap();
           heros = new HashMap();
-          for (Unit unit : region.units()) {//zusammenzaehlen
+          for (Unit unit : region.units()) { // Add up
             friendFoeInfo = metaGetFriendFoeInfo(unit.getFaction());
-            if (!(people.containsKey(friendFoeInfo))) {//wenn leer init
+            if (!(people.containsKey(friendFoeInfo))) { // if empty init
               people.put(friendFoeInfo,0);
             }
             if (!(soldiers.containsKey(friendFoeInfo))) {//wenn leer init
               soldiers.put(friendFoeInfo,0);
             }
-            if (!(heros.containsKey(friendFoeInfo))) {//wenn leer init
+            if (!(heros.containsKey(friendFoeInfo))) { // if empty init
               heros.put(friendFoeInfo,0);
             }
-            if (!metaUnitIsSoldier(unit)){//keine Soldaten
+            if (!metaUnitIsSoldier(unit)){ // no soldiers
               people.put(friendFoeInfo,people.get(friendFoeInfo)+unit.getPersons());
-            } else if (unit.isHero()){//helden
+            } else if (unit.isHero()){ // Heroes
               heros.put(friendFoeInfo,heros.get(friendFoeInfo)+unit.getPersons());
-            } else {//soldaten
+            } else { // soldiers
               soldiers.put(friendFoeInfo,soldiers.get(friendFoeInfo)+unit.getPersons());
             }
           }
@@ -148,22 +154,22 @@ Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Do
           Iterator iterator = people.keySet().iterator();
           String signtext = "";
           while (iterator.hasNext()) {
-            String ffi = iterator.next();//friendFoeInfo
+            String ffi = iterator.next(); // Friend foe info
             int p = people.get(ffi);
             int s = soldiers.get(ffi);
             int h = heros.get(ffi);
             signtext = ffi + ":"+ p;
-            if (s>0) signtext = signtext+"+"+s; 
-            if (h>0) signtext = signtext+"+"+h+"H"; 
+            if (s>0) signtext = signtext+"+"+s;
+            if (h>0) signtext = signtext+"+"+h+"H";
             Sign sign = new Sign( signtext );
             region.addSign(sign);
-          } 
+          }
         }
       }
     }
 
 
-    boolean metaUnitIsSoldier(unit) {//etwas gekürzt aus dem Helper
+    boolean metaUnitIsSoldier(unit) { // a little shortened from the Helper
       Collection items = unit.getItems();
       ItemCategory weapons = world.rules.getItemCategory(StringID.create("weapons"), false);
       for (Item item : items) {
@@ -181,7 +187,7 @@ Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Do
         }
       }
       return false;
-    } 
+    }
 
     String metaGetFriendFoeInfo(Faction faction){
       String factionId = faction.getID().toString();
@@ -218,43 +224,47 @@ Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Do
       }
       unit.addOrderAt(0,"/"+"/ TODO Factionliste rauskopieren");
     }
+    ```
 
-Zur Konfiguration braucht man noch eine weitere Funktion, in der jede Parteinummer die einem speziellen Allianz zugeteilt werden soll, eine Zuordnung:
+To configure, you need another function in which each faction number that is to be assigned to a specific alliance has an assignment:
 
+    ```java
     metaFriendFoeCallback(HashMap tmpCallback){
-    tmpCallback.put("ii","MOB");//Monster
-    return tmpCallback;
+      tmpCallback.put("ii","MOB"); // Monster
+      return tmpCallback;
     }
+    ```
 
-### Meta's BefehlsChecker
+### Meta orders checker
 
-Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); aufgerufen. Dadurch bekommen Einheiten die die Zeilen `// m/abbauen/stein` bzw. auch für eisen oder holz gesetzt haben, die entsprechenden Befehle.
+This is also a little more complicated. Is done using `metaCommandChecker("party#");` called. This means that units get the lines `// m/abbauen/stein` or have also set the corresponding commands for iron or wood.
 
+    ```java
     /*********************************************
-    *        Meta's BefehlsChecker               *
+    *        Meta's Command checker              *
     * Version 0.6                                *
     *********************************************/
 
     metaBefehlChecker(String factionId){
-      String metaPrefix = "/" + "/ m/"; //gibt sonst probleme mit Kommentarzeichen
-      List metaBefehlsListe;// Befehle mit "// m/"
-      List genBefehlsListe;// Befehle mit " ;m"
-      List tmpBefehlsListe;//sonstige Befehle
-      for (Region region : world.regions().values()) { //alle Regionen
-        for (Unit unit : region.units()) { //alle Einheiten
-          if (unit.getFaction().getID().toString().equals(factionId)) { //eigene Einheiten
-            metaBefehlsListe = new ArrayList();//init fuer neue Einheit
-            genBefehlsListe = new ArrayList();//init fuer neue Einheit
-            tmpBefehlsListe = new ArrayList();//init fuer neue Einheit
+      String metaPrefix = "/" + "/ m/"; // Otherwise there will be problems with comment characters
+      List metaBefehlsListe; // Commands with "//m/"
+      List genBefehlsListe; // Commands with " ;m"
+      List tmpBefehlsListe; // Other Commands
+      for (Region region : world.regions().values()) { //all regions
+        for (Unit unit : region.units()) { // all units
+          if (unit.getFaction().getID().toString().equals(factionId)) { //own units
+            metaBefehlsListe = new ArrayList();// init for new unit
+            genBefehlsListe = new ArrayList();// init for new unit
+            tmpBefehlsListe = new ArrayList();// init for new unit
             for (String befehl : unit.getOrders()){
-              if (befehl.startsWith(metaPrefix)){//metaBefehle suchen
+              if (befehl.startsWith(metaPrefix)){ // search metacommands
                 metaBefehlsListe.add(befehl);
-              } else if (!(befehl.endsWith(" ;m"))){//nichtgenerierte Befehle aufheben
+              } else if (!(befehl.endsWith(" ;m"))){ // cancel ungenerated commands
                 tmpBefehlsListe.add(befehl);
-              } //generierte Befehle kommen weg - sollen neu generiert werden!
+              } // generated commands are removed -should be regenerated!
             }
-            if (metaBefehlsListe.size()>0){ //einheit mit metaBefehlen
-              for (String befehl : metaBefehlsListe) {//metaBefehle abarbeiten
+            if (metaBefehlsListe.size()>0){ // unity with meta commands
+              for (String befehl : metaBefehlsListe) { // Process meta commands
                 if (befehl.startsWith("abbauen",5)){
                   if (befehl.startsWith("eisen",13)) metaAbbauenSub (unit,befehl,genBefehlsListe,"Eisen","Bergbau",500);
                   if (befehl.startsWith("stein",13)) metaAbbauenSub (unit,befehl,genBefehlsListe,"Steine","Steinbau",250);
@@ -265,8 +275,8 @@ Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); auf
               unit.addOrders(metaBefehlsListe);
               unit.addOrders(genBefehlsListe);
               unit.addOrders(tmpBefehlsListe);
-              unit.setOrdersChanged(true); //scheint aber nicht zu funktionieren ;o(
-              //unit.setOrdersConfirmed(true); //das kommt, sobald das Script aus der Beta ist.
+              unit.setOrdersChanged(true); // but doesn't seem to work ;o(
+              //unit.setOrdersConfirmed(true); //this will come as soon as the script is out of beta.
             }
           }
         }
@@ -281,31 +291,31 @@ Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); auf
         int baum = metaGetRegionRessourceAmount(unit.getRegion(),"Bäume");
         int schoessling = metaGetRegionRessourceAmount(unit.getRegion(),"Schößlinge");
         if (baum+schoessling == 0) istAbbauMoeglich = false;
-      } else {//Tiefencheck
+      } else { // Tiefencheck
         int ressLevel = metaGetRegionRessourceLevel(unit.getRegion(),itemName);
         int ressAmount = metaGetRegionRessourceAmount(unit.getRegion(),itemName);
         if (ressLevel > unitLevel) istAbbauMoeglich =false;//zu tief
-        if (ressLevel == unitLevel) {//genug in Ebene noch da?
-          if (ressAmount < (abbauMenge/2)) {// halbe wegen Gebäude
-            istAbbauMoeglich = false;//per default wird mal nicht abgebaut
-            genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/menge ;m");//noch was da, aber nicht genug für maxauslastung
+        if (ressLevel == unitLevel) { // enough level still there?
+          if (ressAmount < (abbauMenge/2)) { // half because of building
+            istAbbauMoeglich = false; // per default wird mal nicht abgebaut
+            genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/menge ;m"); // There is still something there, but not enough for maximum utilization
           }
         }
       }
       if (metaGetUnitItem(unit,"Silber")<unterhaltSilber) {
-        if (istAbbauMoeglich==true){//wenn abbau eh nicht möglich, dann auch kein Silbercheck
-          genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/silber ;m");//nicht genug Silber für Gebäudeunterhalt
+        if (istAbbauMoeglich==true){ // If dismantling is not possible anyway, then no silver check either
+          genBefehlsListe.add("/" + "/ TODO abbauen/"+itemName+"/silber ;m"); // not enough silver for building maintenance
         }
         istAbbauMoeglich = false;
-      }    
+      }
       if (istAbbauMoeglich==true) {
-        if (abbauMenge % 2 == 1) abbauMenge--;//gerade wegen Gebäudeeinsparung
+        if (abbauMenge % 2 == 1) abbauMenge--; // precisely because of building savings
         genBefehlsListe.add("MACHEN "+abbauMenge+" "+itemName+" ;m");
       } else {
         genBefehlsListe.add("LERNEN "+skillName+" ;m");
         genBefehlsListe.add("BEZAHLEN NOT ;m");
       }
-      if (itemName.equals("Eisen")){//wenn Laen abbaubar dann Todo
+      if (itemName.equals("Eisen")){ // if Laen is degradable then Todo
         int laenLevel = metaGetRegionRessourceLevel(unit.getRegion(),"Laen");
         if (laenLevel <= unitLevel){
             genBefehlsListe.add("/" + "/ TODO abbauenTODO abbauen/"+itemName+"/laen ;m");
@@ -315,23 +325,23 @@ Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); auf
 
     int metaGetUnitItem(Unit unit,String itemName){
       Item items = unit.getModifiedItem(new ItemType(StringID.create("Silber")));
-      if (items==null) return 0;//garnix da!
+      if (items==null) return 0; // nothing there!
       else return items.getAmount();
     }
 
     int metaGetRegionRessourceLevel(Region region,String itemName){
       RegionResource regRess = region.getResource(new ItemType(StringID.create(itemName)));
-      if (regRess==null) return 999;//garnix da!
+      if (regRess==null) return 999; // nothing there!
       else return regRess.getSkillLevel();
     }
 
     int metaGetRegionRessourceAmount(Region region,String itemName){
       RegionResource regRess = region.getResource(new ItemType(StringID.create(itemName)));
-      if (regRess==null) return 0;//garnix da!
+      if (regRess==null) return 0; // nothing there!
       else return regRess.getAmount();
     }
 
-    int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper kopiert
+    int metaGetUnitSkillLevel(Unit unit, String skillName) { // actually copied from Helper
       Collection skills = unit.getSkills();
       if (skills != null) {
         for (Skill skill : skills) {
@@ -340,9 +350,11 @@ Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); auf
           }
         }
       return 0;
-    } 
+    }
+    ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 
-[Magellan]: http://magellan-client.sf.net
-[offiziellen Seite]: http://magellan.narabi.de/plugins_extcmds_en.php
+<!-- TODO: add to magellan.md -->
+<!-- [Magellan]: http://magellan-client.sf.net -->
+[official site]: http://magellan.narabi.de/plugins_extcmds_en.php

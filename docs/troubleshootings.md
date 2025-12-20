@@ -1,9 +1,8 @@
 ---
-alias:
-    name: troubleshootings
-    text: Troubleshootings
+# cSpell:locale en
+alias: troubleshooting
 ---
-# Troubleshootings
+# Troubleshooting
 
 ## Errors in the Game
 

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: der-erste-zug
 ---
 # Der erste Zug

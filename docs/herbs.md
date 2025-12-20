@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: herbs
     text: Herbs
@@ -37,13 +38,13 @@ List of herbs and their distribution incl. German names
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Volcano      | \--                                                                                     | \--                                                                      |
 
-Continue reading: [Befehle](./commands.md "Befehle").
+Continue reading: [Befehle](./commands.md).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->
 
-[MAKE HERBS]: ./cmd-make.md "MAKE"
-[Herbalism]: ./skills-list.md#herbalism "Liste der Talente"
-[GROW HERBS]: ./cmd-grow.md "GROW"
-[alchemy]: ./alchemy.md "Alchemie"
-[spells]: ./magic.md "Magie"
-[RESEARCH HERBS]: ./cmd-research.md "RESEARCH"
+[MAKE HERBS]: ./cmd-make.md
+[Herbalism]: ./skills-list.md#herbalism
+[GROW HERBS]: ./cmd-grow.md
+[alchemy]: ./alchemy.md
+[spells]: ./magic.md
+[RESEARCH HERBS]: ./cmd-research.md

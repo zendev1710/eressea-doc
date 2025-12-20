@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: tables-potions-and-herbs 
     text: "Tables: potions and herbs"
@@ -49,4 +50,4 @@ siehe [Alchemie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->
 
-[Alchemie]: ./alchemy.md "Trank"
+[Alchemie]: ./alchemy.md

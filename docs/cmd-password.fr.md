@@ -29,4 +29,4 @@ Vorsicht:
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->
 
-[`ERESSEA`]: ./cmd-eressea.md "ERESSEA"
+[`ERESSEA`]: ./cmd-eressea.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: resources
     text: Resources
@@ -27,7 +28,7 @@ You may capture wild horses as you like with [`MAKE horse`][`MAKE`] by a unit wi
 
 Player experience: SoltharThe maximal amount of horses in a region equals the number of [jobs] / 10. In a relatively empty plain they grow at a rate of 4%. As they approach the upper limit, growth slows down. The most new horses are born at about half the maximal population. In a plain with 25 horses, there is 1 birth per week. With 500 horses there are 10 new horses per round. At 1000 horses there is no more growth.
 
-[jobs]: ./world.md "Welt"
+[jobs]: ./world.md
 
 Herbs can also be harvested to make potions. There is a maximum of one herb species in each region. See the [herbs list].
 
@@ -40,20 +41,20 @@ Herbs can also be harvested to make potions. There is a maximum of one herb spec
 
 Continue reading: [Goods].
 
-[Goods]: ./items.md "Waren"
+[Goods]: ./items.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 
-[guard]: ./cmd-guard.md "GUARD (to be documented)"
-[`HELP GUARD`]: ./cmd-help.md "HELP"
-[CONTACTing]: ./cmd-contact.md "CONTACT"
-[cloaked]: ./camouflage.md "Tarnung"
-[`MAKE`]: ./cmd-make.md "MAKE"
-[herbalism]: ./skills-list.md "Skills list"
-[`PLANT`]: ./cmd-plant.md "PLANT"
-[stable]: ./buildings-others.md#stable "Pferdezucht"
-[`BREED HORSES`]: ./cmd-grow.md "GROW"
-[herbs list]: ./herbs.md#kräuterliste "Herbs"
-[Production]: ./production.md "Produktion"
-[Roads]: ./roads.md "Straßen"
-[Buildings]: ./buildings.md "Gebäude"
+[guard]: ./cmd-guard.md
+[`HELP GUARD`]: ./cmd-help.md
+[CONTACTing]: ./cmd-contact.md
+[cloaked]: ./camouflage.md
+[`MAKE`]: ./cmd-make.md
+[herbalism]: ./skills-list.md
+[`PLANT`]: ./cmd-plant.md
+[stable]: ./buildings-others.md#stable
+[`BREED HORSES`]: ./cmd-grow.md
+[herbs list]: ./herbs.md#kräuterliste
+[Production]: ./production.md
+[Roads]: ./roads.md
+[Buildings]: ./buildings.md

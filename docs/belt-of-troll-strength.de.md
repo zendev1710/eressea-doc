@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: guertel-der-trollstaerke
 ---
 # Gürtel der Trollstärke

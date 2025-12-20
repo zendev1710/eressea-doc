@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cerddor-spells
     text: Cerddor spells

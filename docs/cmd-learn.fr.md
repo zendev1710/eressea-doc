@@ -19,11 +19,11 @@ Mit `LEARN`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Talent]: ./skills.md "Talente"
-[lernen]: ./skills.md#talente-erlernen "Talente"
-[Liste der Talente]: ./skills-list.md "Liste der Talente"
-[Magiegebiet]: ./magic.md "Magie"
-[ECheck]: ./echeck.md "ECheck"
-[Lehrern]: ./cmd-teach.md "TEACH"
-[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Talent]: ./skills.md
+[lernen]: ./skills.md#talente-erlernen
+[Liste der Talente]: ./skills-list.md
+[Magiegebiet]: ./magic.md
+[ECheck]: ./echeck.md
+[Lehrern]: ./cmd-teach.md
+[LEARN AUTO]: ./cmd-learn-auto.md

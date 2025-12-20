@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: skills
     text: Skills
@@ -89,26 +90,26 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 
 Continue reading: [skills list].
 
-[skills list]: ./skills-list.md "Skills list"
+[skills list]: ./skills-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
-[unité]: ./cmd-unit.md "Einheiten"
-[race]: ./races.md "Rassen"
-[enseigner]: ./cmd-teach.md "TEACH"
-[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
-[magie]: ./magic.md "Magie"
-[alchimie]: ./skills-list.md "Skills list"
-[tactics]: ./tactic.md "Taktik"
-[production]: ./production.md "Produktion"
-[2]: ./alchemy.md "Alchemie"
-[l'argent]: ./silver.md "Argent"
-[stealth]: ./camouflage.md "Tarnung"
-[perception]: ./camouflage.md "Wahrnehmung"
-[déplacements]: ./travel.md "Reisen"
-[combats]: ./war-tables.md "Kampf"
+[unité]: ./cmd-unit.md
+[race]: ./races.md
+[enseigner]: ./cmd-teach.md
+[LEARN AUTO]: ./cmd-learn-auto.md
+[magie]: ./magic.md
+[alchimie]: ./skills-list.md
+[tactics]: ./tactic.md
+[production]: ./production.md
+[2]: ./alchemy.md
+[l'argent]: ./silver.md
+[stealth]: ./camouflage.md
+[perception]: ./camouflage.md
+[déplacements]: ./travel.md
+[combats]: ./war-tables.md
 
-[espionage]: ./skills-list.md#espionnage "Spionage"
-[1]: ./buildings-others.md#academy "Andere Gebäude"
-[académie]: ./buildings-others.md#academy "Akademie"
-[nain]: ./races.md#dwarves "Zwerg"
+[espionage]: ./skills-list.md#espionnage
+[1]: ./buildings-others.md#academy
+[académie]: ./buildings-others.md#academy
+[nain]: ./races.md#dwarves

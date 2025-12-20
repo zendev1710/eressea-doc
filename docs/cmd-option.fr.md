@@ -32,7 +32,7 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[Vorlage für die Befehle der nächsten Runde]: ./commands.md "Ordres"
-[Materialpool]: ./items-pool.md "Materialpool"
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
-[`RESERVE`]: ./cmd-reserve.md "RESERVE"
+[Vorlage für die Befehle der nächsten Runde]: ./commands.md
+[Materialpool]: ./items-pool.md
+[Silberpool]: ./items-pool.md#der-silberpool
+[`RESERVE`]: ./cmd-reserve.md

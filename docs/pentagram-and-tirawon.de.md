@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: pentagramm-und-tirawon
 ---
 # Pentagramm und Tirawon

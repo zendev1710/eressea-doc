@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-language
     text: LANGUAGE
@@ -16,5 +17,5 @@ So ändert man die Sprache der Partei von Englisch auf Deutsch oder umgekehrt. D
 
 <!-- From [https://wiki.eressea.de/index.php?title=LANGUAGE&oldid=16697] -->
 
-[Zugvorlage]:./commands.md "Orders"
-[LOCALE]:./cmd-locale.md "LOCALE"
+[Zugvorlage]:./commands.md
+[LOCALE]:./cmd-locale.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: sailing
     text: Sailing
@@ -114,7 +115,7 @@ Continue reading: [[production]].
 [damages]: #damage-to-ships
 [**Harbour**]: ./buildings-others.md#harbour
 [Piracy]: ./war.md#piraterie
-[items]: ./items.md#getenständen "Waren"
+[items]: ./items.md#getenständen
 [Weights and Capacities]: ./travel.md#travel-by-land-or-by-sea
 [convoy]: ./ships.md#convoi
 [Aquarians]: ./races.md#aquarians

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: ordres
 ---
 # Ordres
@@ -103,34 +104,10 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 - [Kurzbeschreibung]
 - [[cmd-default]]
 
-|--------------|----------------------|
-| Weiterlesen: | [Befehlsreihenfolge] |
-
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+Poursuivre la lecture: [[sequence-des-commandes]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
-[`OPTION ZUGVORLAGE`]: ./cmd-option.md "OPTION"
-[WORK]: ./cmd-work.md "WORK"
-[ATTACK]: ./cmd-attack.md "ATTACK"
-[STEAL]: ./camouflage.md "STEAL"
-[RIDE]: ./cmd-ride.md "RIDE"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
-[RESEARCH]: ./cmd-research.md "RESEARCH"
-[BUY]: ./cmd-buy.md "BUY"
-[TEACH]: ./cmd-teach.md "TEACH"
-[LEARN]: ./cmd-learn.md "LEARN"
-[MAKE]: ./cmd-make.md "MAKE"
-[MOVE]: ./cmd-move.md "MOVE"
-[PLANT]: ./cmd-plant.md "PLANT"
-[PIRACY]: ./cmd-piracy.md "PIRACY"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[SPY]: ./cmd-spy.md "SPY"
-[TAX]: ./cmd-tax.md "TAX"
-[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"
-[SELL]: ./cmd-sell.md "SELL"
-[CAST]: ./cmd-cast.md "CAST"
-[DESTROY]: ./cmd-destroy.md "DESTROY"
-[GROW]: ./cmd-grow.md "GROW"
-[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
-[DEFAULT]: ./cmd-default.md "DEFAULT"
+[`OPTION ZUGVORLAGE`]: ./cmd-option.md
+[WORK]: ./cmd-work.md
+[Kurzbeschreibung]: ./commands-list.md

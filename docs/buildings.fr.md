@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: batiments
 ---
 # Bâtiments
@@ -38,17 +39,17 @@ Les bâtiments sont construits et améliorés avec l'ordre [[cmd-make]][`MAKE `*
 
 Poursuivre la lecture : [châteaux].
 
-[châteaux]: ./castles.md "Burg"
+[châteaux]: ./castles.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/fr&oldid=16680] -->
 
-[`GIVE`]: ./cmd-give.md "GIVE"
-[séquence des ordres]: ./commands-sequence.md "Befehlsreihenfolge"
-[`MAKE `*`Bâtiment_type`*]: ./cmd-make.md "MAKE"
+[`GIVE`]: ./cmd-give.md
+[séquence des ordres]: ./commands-sequence.md
+[`MAKE `*`Bâtiment_type`*]: ./cmd-make.md
 [`PAY NOT`]: ./cmd-pay-not.md_NICHT "PAY NOT"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[LEAVE]: ./cmd-leave.md "LEAVE"
-[SORT]: ./cmd-sort.md "SORT"
-[bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
-[production]: ./production.md "Produktion"
-[dépenses]: ./silver.md#ausgaben "Ausgaben"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md
+[LEAVE]: ./cmd-leave.md
+[SORT]: ./cmd-sort.md
+[bâtiments spéciaux]: ./buildings-others.md
+[production]: ./production.md
+[dépenses]: ./silver.md#ausgaben

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: the-third-age
     text: The Third Age

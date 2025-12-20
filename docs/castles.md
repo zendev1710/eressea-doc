@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: castles
     text: Castles
@@ -76,7 +77,7 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 
 Continue reading: [Other Buildings].
 
-[Other Buildings]: ./buildings-others.md "Andere Gebäude"
+[Other Buildings]: ./buildings-others.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
 

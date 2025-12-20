@@ -6,7 +6,7 @@ Der Xontormia Express ist die Zeitung für Eressea, deren Artikel von Spielern g
 
 ## Aufbau der Artikel
 
-Der Xontromia Express unterteilt die Artikel in Welten. Es sollte also immer als erstes die Welt genannt werden für die der Artikel geschrieben wurde, oder in welcher die jeweilige Geschichte spielt. Geschrieben werden darf über alles was in der Welt Eressea geschieht, solange die offensichtlichen Regeln eingehalten werden.
+Der Xontormia Express unterteilt die Artikel in Welten. Es sollte also immer als erstes die Welt genannt werden für die der Artikel geschrieben wurde, oder in welcher die jeweilige Geschichte spielt. Geschrieben werden darf über alles was in der Welt Eressea geschieht, solange die offensichtlichen Regeln eingehalten werden.
 
 Falls sich der Artikel auf eine bereits geschriebene Geschichte bezieht, so fügt gerne einen vollständigen Link hinzu, damit die Leser einen Bezug herstellen können.
 
@@ -34,7 +34,7 @@ Ein **Beispielartikel** könnte so aussehen:
     von der Nachbarinsel Klumphausen unsere Festung in
     Nifelheim überfallen. 3000 unserer Bauern wurden dabei
     auf brutale Art erschlagen. Wir, die Schrumpfbauch-
-    Goblins schwören blutige Rache.
+    Gobelins schwören blutige Rache.
 
     Und in einem neuen Absatz wird die Geschichte weiter
     geschrieben, aber im Beispiel gibt es keinen weiteren
@@ -42,11 +42,11 @@ Ein **Beispielartikel** könnte so aussehen:
 
     Gibli der Schreiber-Goblin
 
-## Archiv des Xontromia Express
+## Archiv des Xontormia Express
 
 Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle][Archiv].
 
-Weiterlesen: [Remerciements].
+Poursuivre la lecture: [Remerciements].
 
 ## Referenzen
 
@@ -54,7 +54,7 @@ Weiterlesen: [Remerciements].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Xontormia\_Express&oldid=16988] -->
 
-[Remerciements]: ./thanks.md "Remerciements"
+[Remerciements]: ./thanks.md
 [Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [express@eressea.de]: mailto:express@eressea.de
 [Ankündigung des neuen XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025

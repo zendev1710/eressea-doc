@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: sac-a-herbes-magique
 ---
 # Sac à herbes magique

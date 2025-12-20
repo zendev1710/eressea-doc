@@ -1,28 +1,43 @@
 ---
+# cSpell:locale en
 alias:
     name: stardust
     text: Stardust
 ---
 # Stardust
 
-Zwei Jahre lang hatte das eigens dafür gegründete "Institut zur Erforschung des Sternenstaubs" intensiv recherchiert, geforscht, experimentiert, diskutiert und philosophiert. Heute war nun der Tag gekommen, die Ergebnisse zu präsentieren. Der Institutsleiter tritt vor die versammelten Vertreter der schreibenden Zunft und beginnt zu referieren:
+The “Institute for the Study of Stardust,” which was founded specifically for this purpose, had spent two years intensively researching, researching, experimenting, discussing and philosophizing.  
+Today was the day to present the results.  
+The head of the institute steps in front of the assembled representatives of the writing guild and begins to give a lecture:
 
-"Auf Grund unserer Forschungsergebnisse müssen wir davon ausgehen, das Sternenstaub einen extraeresseanischen Ursprung hat. Der wahrscheinlichsten Hypothese zufolge -- wobei ich nicht verschweigen möchte, dass es auch gegenteilige Vermutungen gibt -- handelt es sich ... Interstellare Materie ... Novas und Supernovas ... Staubbildungsfenster ... Impulsübertragung ... Strahlungsdruck ... Isotopenverhältnisse ... Extinktion ... primäres Kondensat ... Keimbildung ... ersten Agglomerationen ... veränderlichen Sternen ..."
+"Based on our research results, we must assume that stardust has an extra-Eressian origin.  
+According to the most likely hypothesis -although I don't want to hide the fact that there are also conjectures to the contrary -it is...  
+Interstellar matter...  
+Novas and supernovas...  
+Dust formation window...  
+Impulse transmission...  
+Radiation pressure...  
+Isotope ratios...  
+Extinction...  
+primary condensate...  
+Nucleation...  
+first agglomerations...  
+variable stars..."
 
-Die Gedanken der Schreiberlinge schweifen ab, sie können den Ausführungen des Institutsleiters schon lange nicht mehr folgen und spätestens nach dem Satz: "Diese Informationen finden sie auch in unserer kleinen Info-Broschüre ...", haben sie auch aufgehört mitzuschreiben. Erst als der Vortragende sich schon mit den Worten "Vielen Dank für ihre Aufmerksamkeit." verabschieden will, wachen sie wie aus einer Trance auf und einer von ihnen besitzt genügend Geistesgegenwart noch eine letzte Frage zu stellen:
+The writers' minds wander, they can no longer follow the director of the institute's explanations for a long time and at the latest after the sentence:  
+"You can also find this information in our small information brochure..." they have stopped taking notes.  
+Only when the speaker said "Thank you for your attention." When they want to say goodbye, they wake up as if from a trance and one of them has enough presence of mind to ask one last question:
 
-"Wofür ist Sternenstaub gut, besitzt er irgendwelche nützliche Eigenschaften?"
+"What is stardust good for, does it have any useful properties?"  
+The head of the institute is visibly struggling for words; he is obviously rather uncomfortable with the topic.  
+"Well, yes, due to its unique molecular structure, you could call it a strong A..., um..."  
 
-Der Institutsleiter ringt sichtbar um Worte, das Thema ist ihm offenbar eher unangenehm.
+He interrupts his sentence and addresses the questioner directly:  
 
-"Nun ja, also, auf Grund seiner einzigartigen Molekülstruktur könnte man es als starkes A..., ähm ..."
+"Everyone can read what you write later? Yes? Even children? Yes? And women? Yes? Maybe even elves? Yes?"  
+Each time the writer nodded, slightly confused -what were these questions about? The color of the institute director's face changes in rapid succession, first to dark red and then to deathly pale.  
+Finally he pulls himself together:
 
-Er unterbricht seinen Satz und spricht den Fragesteller direkt an:
-
-"Das was sie da schreiben, dass kann doch später jeder lesen? Ja? Auch Kinder? Ja? Und Frauen? Ja? Vieleicht sogar Elfen? Ja?"
-
-Der Schreiberling nickte jedesmal leicht verwirrt -- was sollten diese Fragen? Die Gesichtsfarbe des Institusleiters wechselt dabei in schneller Folge zuerst nach dunkelrot und dann nach leichenblass. Schließlich gibt er sich einen Ruck:
-
-"Nein, wir konnten keine nützlichen Eigenschaften des Sternenstaubs entdecken, wir forschen natürlich weiter. Vielen Dank. Auf Wiedersehen." und ohne ein weiteres Wort rauscht er davon.
+"No, we were unable to discover any useful properties of stardust, of course we continue to research. Thank you very much. Goodbye." and without another word he rushes away.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sternenstaub&oldid=2429] -->

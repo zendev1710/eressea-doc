@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: tipps-und-tricks
 ---
 # Tipps und Tricks

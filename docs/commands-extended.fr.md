@@ -221,11 +221,11 @@ Das ist etwas komplizierter, da es etwas an Konfiguration erfordert. Genauere Do
     }
 ```
 
-Pour la configuration, une autre fonction est nécessaire dans laquelle est définie chaque numéro de faction qui doit être attribué à une alliance spécifique.
+Pour la configuration, une autre fonction est nécessaire dans laquelle est définie chaque ID de faction qui doit être attribué à une alliance spécifique.
 
 ```java
     metaFriendFoeCallback(HashMap tmpCallback){
-    tmpCallback.put("ii","MOB");//Monster
+    tmpCallback.put("ii","MOB"); //Monster
     return tmpCallback;
     }
 ```

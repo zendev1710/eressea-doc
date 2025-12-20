@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-reserve
     text: RESERVE
@@ -51,7 +52,6 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVE&oldid=14809] -->
 
-[Materialpool]: ./items-pool.md "Materialpool"
-[`GIVE`]: ./cmd-give.md "GIVE"
-[RECRUIT]: ./cmd-recruit.md "RECRUIT"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Materialpool]: ./items-pool.md
+[`GIVE`]: ./cmd-give.md
+[Befehlsreihenfolge]: ./commands-sequence.md

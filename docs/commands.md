@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: orders
     text: Orders
@@ -106,16 +107,10 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 
 ## See also
 
-- [Befehlsreihenfolge]
-- [Kurzbeschreibung]
+- [[commands-sequence]]
+- [[commands-list]]
 - [[cmd-default]]
 
-|--------------|----------------------|
-| Weiterlesen: | [Befehlsreihenfolge] |
-
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+Continue reading: [[commands-sequence]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
-
-[WORK]: ./cmd-work.md "WORK"
-[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"

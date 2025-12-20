@@ -1,0 +1,6 @@
+!commande
+!navire
+!numéro
+!talent
+!talents
+Aquariens

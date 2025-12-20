@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: le-troisieme-age
 ---
 # Le Troisième Âge

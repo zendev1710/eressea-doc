@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-unit
     text: UNIT

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: histoire-d-eressea
 ---
 # Histoire d'Eressea
@@ -175,7 +176,7 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
   - Zwerge bekommen eine Axt, ein Kettenhemd und 30 Lerntage Hiebwaffen
   - Orks bekommen T4 in allen Waffentalenten
   - Katzen bekommen einen RdU
-  - Goblins bekommen eine Starteinheit die 10 und nicht nur eine Person gross ist, ausserdem einen RdU.
+  - Gobelins bekommen eine Starteinheit die 10 und nicht nur eine Person gross ist, ausserdem einen RdU.
   - Insekten bekommen neun Nestwärmetränke, genug um einen Winter lang zu rekrutieren.
   - Meermenschen bekommen ein Boot und 30 Lerntage Segeln
   - Menschen bekommen eine Befestigung (Damals bestand diese nur aus 2 Steinen)
@@ -375,11 +376,11 @@ Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt,
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Atlantis]: ./atlantis.md "Atlantis"
-[Corwin]: ./contributors.md#corwin "Corwin (to be documented)"
-[Katze (Designerin)]: ./contributors.md#katja-zedel "Katze (Designerin)"
-[Enno Rehling]: ./contributors.md#enno "Enno (to be documented)"
-[Faroul]: ./contributors.md#faroul "Faroul (to be documented)"
-[ECheck]: ./echeck.md "ECheck"
+[Atlantis]: ./atlantis.md
+[Corwin]: ./contributors.md#corwin
+[Katze (Designerin)]: ./contributors.md#katja-zedel
+[Enno Rehling]: ./contributors.md#enno
+[Faroul]: ./contributors.md#faroul
+[ECheck]: ./echeck.md
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+[Xontormia-Express]: ./xontormia-express.md

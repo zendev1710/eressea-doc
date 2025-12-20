@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: magical-herb-bag
     text: Magical herb bag

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: the-first-round
     text: The first round
@@ -246,9 +247,9 @@ However, if you're using [Magellan] for your orders, you don't need to worry abo
 
 Continue reading: [Welpenschutz].
 
-[Welpenschutz]: ./puppy-protection.md "Welpenschutz"
+[Welpenschutz]: ./puppy-protection.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Magellan]: ./magellan.md "Magellan"
+[Magellan]: ./magellan.md
 [Eressea Tutorial]: https://playeressea.wordpress.com/eressea-tutorium/ "Erressea Tutorial in German (web)"

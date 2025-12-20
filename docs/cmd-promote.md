@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-promote
     text: PROMOTE
@@ -28,4 +29,4 @@ Für Rechenfaule hier eine Tabelle, bei welcher Personenzahl in der Partei wie v
 
 <!-- From [https://wiki.eressea.de/index.php?title=PROMOTE&oldid=16056] -->
 
-[Silberpool]: ./items-pool.md#the-silver-pool "Silberpool"
+[Silberpool]: ./items-pool.md#the-silver-pool

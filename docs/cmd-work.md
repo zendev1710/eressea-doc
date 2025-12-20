@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-work
     text: WORK
@@ -31,7 +32,7 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[diese Tabelle]: ./silver.md#examples-of-potential-income "Einnahmen"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[`HELP`]: ./cmd-help.md "HELP"
-[`ENTERTAIN`]: ./cmd-entertain.md "ENTERTAIN"
+[diese Tabelle]: ./silver.md#examples-of-potential-income
+[`GUARD`]: ./cmd-guard.md
+[`HELP`]: ./cmd-help.md
+[`ENTERTAIN`]: ./cmd-entertain.md

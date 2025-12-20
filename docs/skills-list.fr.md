@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: liste-des-competences
 ---
 # Liste des compétences

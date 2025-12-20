@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: tableaux-relatifs-a-la-guerre
 ---
 # Tableaux relatifs à la guerre
@@ -8,7 +9,7 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 ## Armes et leurs propriétés
 
 | Arme                   | Dommage/à pied | ⌀           | Dommage/à cheval | ⌀    | OB  | DB  | Compétence | Somme OB + DB |
-|------------------------|----------------|-------------|------------------|------|-----|-----|------------|---------------|
+|------------------------|----------------|-------------|------------------|------|----:|----:|-----------:|--------------:|
 | Catapult¹              | 3d10+5; 6 mal  | 21,5; 6 mal | 3d10+5; 6 mal    | 21.5 | \-4 | 0   | K          | \-4           |
 | Crossbow               | 3d3+5          | 11          | 3d3+5            | 11   | 0   | 0   | A          | 0             |
 | Mallorn crossbow²      | 3d3+6          | 12          | 3d3+6            | 12   | 0   | 0   | A          | 0             |
@@ -31,14 +32,14 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 | Rusty two-handed sword | 2d8            | 9           | 2d8              | 9    | \-2 | \-3 | H          | \-5           |
 | Rusty axe              | 2d6            | 7           | 2d6              | 7    | 0   | \-3 | H          | \-3           |
 | Unarmed³               | 1d5            | 3           | 1d6              | 3,5  | \-2 | \-2 |            | \-4           |
-| " Goblins              | 1d5            | 3           | 1d6              | 3,5  | \-2 | 0   |            | \-2           |
+| " Gobelins              | 1d5            | 3           | 1d6              | 3,5  | \-2 | 0   |            | \-2           |
 | " Trolls               | 1d5+1          | 4           | \-               | \-   | \-2 | \-2 |            | \-4           |
 
 ¹ Les catapultes ne tirent que lors du premier round de la bataille, mais **atteignent 6 cibles**.
 ² Les arbalètes ne tirent qu'aux 1er et 4e tours. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
 ³ Particularités selon la race :
 
-- Les [goblins] ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
+- Les [gobelins] ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
 - Les [trolls] infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
 - Les [orcs] combattent avec leur meilleure compétence de mêlée à -3;
 - Les [chats] bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
@@ -67,10 +68,10 @@ Augmentation des points de vie grâce à l'endurance. Formula: (niv/2)^(1.5) x 2
 | Niveau d'endurance      |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 | ... |    15 | ... |    20 | ... |    25 | ... |     30 | ... |     35 | ... |     40 |
 |-------------------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|----:|------:|----:|------:|----:|------:|----:|-------:|----:|-------:|----:|-------:|
 | Trefferpunkte           | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | ... | +410% | ... | +632% | ... | +883% | ... | +1161% | ... | +%1464 | ... | +1788% |
-| Goblins                 |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 | ... |    81 | ... |   117 | ... |   157 | ... |    201 | ... |    250 | ... |    302 |
+| Gobelins                 |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 | ... |    81 | ... |   117 | ... |   157 | ... |    201 | ... |    250 | ... |    302 |
 | Elfes/Halflinge         |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 | ... |    91 | ... |   131 | ... |   177 | ... |    227 | ... |    281 | ... |    339 |
 | Chats/Aquariens/Humains |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 | ... |   102 | ... |   146 | ... |   196 | ... |    252 | ... |    312 | ... |    377 |
-| Nains/Orcs/Insexten     |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 | ... |   122 | ... |   175 | ... |   236 | ... |    302 | ... |    375 | ... |    453 |
+| Nains/Orcs/Insecten     |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 | ... |   122 | ... |   175 | ... |   236 | ... |    302 | ... |    375 | ... |    453 |
 | Trolls                  |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 | ... |   153 | ... |   219 | ... |   295 | ... |    378 | ... |    469 | ... |    566 |
 | Démons                  |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 | ... |   255 | ... |   366 | ... |   491 | ... |    630 | ... |    782 | ... |    944 |
 
@@ -128,7 +129,7 @@ Points de vie (PV), résistance magique (R) et armure naturelle (AN).
 | Orcs      | 24 | \-5 |  0 |
 | Elfes     | 18 |  10 |  0 |
 | Halflinge | 18 |   5 |  0 |
-| Goblins   | 16 | \-5 |  0 |
+| Gobelins   | 16 | \-5 |  0 |
 | Trolls    | 30 |  10 |  1 |
 | Démons    | 50 |  15 |  2 |
 | Insectes  | 24 |   5 |  2 |
@@ -158,8 +159,8 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
-[goblins]: ./races.md#goblins
-[trolls]: ./races.md#trolls "Rassen"
-[orcs]: ./races.md#orcs "Rassen"
-[chats]: ./races.md#cats "Rassen"
-[familiers]: ./familiars.md "Vertraute"
+[gobelins]: ./races.md#gobelins
+[trolls]: ./races.md#trolls
+[orcs]: ./races.md#orcs
+[chats]: ./races.md#cats
+[familiers]: ./familiars.md

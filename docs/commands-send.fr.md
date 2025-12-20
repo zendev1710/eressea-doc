@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: envoi-des-ordres
 ---
 # Envoi des ordres
@@ -141,26 +142,26 @@ Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für
 
 Poursuivre la lecture : [Hinweise].
 
-[Hinweise]: ./hints.md "Hinweise"
+[Hinweise]: ./hints.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
-[Befehle]: ./commands.md "Ordres"
+[Befehle]: ./commands.md
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
-[CSMapFX]: ./csmapfx.md "CSMapFX"
-[ECheck]: ./echeck.md "ECheck"
-[1]: ./magellan.md "Magellan"
-[ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
-[FFTools2]: ./fftools.md "FFTools2"
-[Vorlage]: ./vorlage.md "Vorlage"
-[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md "Befehle von Magellan verschicken"
+[CSMapFX]: ./csmapfx.md
+[ECheck]: ./echeck.md
+[1]: ./magellan.md
+[ExtendedCommands]: ./commands-extended.md
+[FFTools2]: ./fftools.md
+[Vorlage]: ./vorlage.md
+[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
-[ERESSEA xxx "passwort"]: ./cmd-eressea.md "ERESSEA"
-[TAX STEUERN EIN]: ./cmd-tax.md "TREIBEN"
-[LEARN MAGIE]: ./cmd-learn.md "LEARN"
-[;]: ./cmd-comment.md ";"
-[Kommentar-Befehl //]: ./cmd-comment-slash.md "KOMMENTAR"
-[Die Welt]: ./world.md "Welt"
-[Der erste Zug]: ./first-round.md "Der erste Zug"
+[ERESSEA xxx "passwort"]: ./cmd-eressea.md
+[TAX STEUERN EIN]: ./cmd-tax.md
+[LEARN MAGIE]: ./cmd-learn.md
+[;]: ./cmd-comment.md
+[Kommentar-Befehl //]: ./cmd-comment-slash.md
+[Die Welt]: ./world.md
+[Der erste Zug]: ./first-round.md

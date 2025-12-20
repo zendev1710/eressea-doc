@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: routes
 ---
 # Routes
@@ -31,14 +32,14 @@ Construction de routes
 | Desert       | 100     | [Caravanserai] |
 | Glacier      | 250     | [Tunnel]       |
 
-[Dam]: ./buildings-others.md#barrage "Barrage"
-[Caravanserai]: ./buildings-others.md#caravanserail "Caravanserail"
-[Tunnel]: ./buildings-others.md#tunnel "Tunnel"  
+[Dam]: ./buildings-others.md#barrage
+[Caravanserai]: ./buildings-others.md#caravanserail
+[Tunnel]: ./buildings-others.md#tunnel  
 
 Poursuivre la lecture : [Bateaux].
 
-[Bateaux]: ./ships.md "Schiff"
+[Bateaux]: ./ships.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/fr&oldid=15940] -->
 
-[bâtiment]: ./buildings-others.md "Andere Gebäude"
+[bâtiment]: ./buildings-others.md

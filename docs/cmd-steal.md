@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-steal
     text: STEAL
@@ -22,9 +23,9 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Tarnungstalent]: ./skills-list.md "Liste der Talente"
-[Silberpool]: ./items-pool.md#the-silver-pool "Silberpool"
-[immun]: ./puppy-protection.md "Welpenschutz"
-[Geld]: ./silver.md "Geld"
-[Tarnung und Wahrnehmung]: ./camouflage.md "Wahrnehmung"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Tarnungstalent]: ./skills-list.md
+[Silberpool]: ./items-pool.md#the-silver-pool
+[immun]: ./puppy-protection.md
+[Geld]: ./silver.md
+[Tarnung und Wahrnehmung]: ./camouflage.md

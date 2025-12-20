@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: solar-sail
     text: Solar Sail
@@ -18,6 +19,4 @@ This occurred against the express wishes of the Christmas Gnome, and some even a
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sonnensegel&oldid=5701] -->
 
-[Christmas Gift]: ./christmas.md "Christmas Gift"
-[`SHOW`]: ./cmd-show..md "SHOW"
-[`CLAIM`]: ./cmd-claim.md "CLAIM"
+[Christmas Gift]: ./christmas.md

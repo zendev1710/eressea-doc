@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-spy
     text: SPY
@@ -54,5 +55,5 @@ Klar ist, dass Spionageversuche mit vielen schlechten Einheiten mit fast 100% Si
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Tarnungstalent]: ./camouflage.md "Tarnung"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Tarnungstalent]: ./camouflage.md

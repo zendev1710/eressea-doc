@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: types-de-terrain
 ---
 # Types de terrain
@@ -22,4 +23,4 @@ Dans les glaciers, les marais et les déserts, la construction de routes n'est p
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten/fr&oldid=9104] -->
 
-[bâtiments spéciaux]: ./buildings-others.md "Andere Gebäude"
+[bâtiments spéciaux]: ./buildings-others.md

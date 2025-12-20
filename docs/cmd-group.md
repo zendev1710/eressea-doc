@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-group
     text: GROUP
@@ -22,5 +23,5 @@ In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon p
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->
 
-[`HELP`]: ./cmd-help.md "HELP"
-[PREFIX]: ./cmd-prefix.md "PREFIX"
+[`HELP`]: ./cmd-help.md
+[PREFIX]: ./cmd-prefix.md

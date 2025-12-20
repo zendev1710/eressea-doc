@@ -17,9 +17,9 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Tarnungstalent]: ./skills-list.md "Liste der Talente"
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
-[immun]: ./puppy-protection.md "Welpenschutz"
-[Geld]: ./silver.md "Geld"
-[Tarnung und Wahrnehmung]: ./camouflage.md "Wahrnehmung"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Tarnungstalent]: ./skills-list.md
+[Silberpool]: ./items-pool.md#der-silberpool
+[immun]: ./puppy-protection.md
+[Geld]: ./silver.md
+[Tarnung und Wahrnehmung]: ./camouflage.md

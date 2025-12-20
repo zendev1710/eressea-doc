@@ -9,6 +9,6 @@ Es gibt noch andere Gegenstände außer Tränken, die benutzt werden können. Da
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
 
-[Antimagiekristalle]: ./spells-descriptions.md#erschaffe-antimagiekristall "Zauberbeschreibungen E2"
-[Weihnachtsgeschenke]: ./christmas.md "Weihnachten"
-[SHOW]: ./cmd-show.md "SHOW"
+[Antimagiekristalle]: ./spells-descriptions.md#erschaffe-antimagiekristall
+[Weihnachtsgeschenke]: ./christmas.md
+[SHOW]: ./cmd-show.md

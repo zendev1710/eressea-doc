@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-move
     text: MOVE
@@ -42,9 +43,9 @@ Vorlage nächste Woche:
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Defaultbefehle]: ./cmd-default.md "DEFAULT"
-[Zugvorlage]: ./commands.md "Orders"
-[Reisen]: ./travel.md "Reisen"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Defaultbefehle]: ./cmd-default.md
+[Zugvorlage]: ./commands.md
+[Reisen]: ./travel.md
+[ROUTE]: ./cmd-route.md
+[FOLLOW]: ./cmd-follow.md

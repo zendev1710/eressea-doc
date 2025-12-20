@@ -18,8 +18,8 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Handeln]: ./silver.md#handel "Handel"
-[Burgtyp]: ./castles.md "Burgen"
-[`BUY`]: ./cmd-buy.md "BUY"
-["pseudolanger" Befehl]: ./commands.md "Ordres"
+[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
+[Handeln]: ./silver.md#handel
+[Burgtyp]: ./castles.md
+[`BUY`]: ./cmd-buy.md
+["pseudolanger" Befehl]: ./commands.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-name
     text: NAME
@@ -31,4 +32,4 @@ Auch das Benennen der Partei muss von einer Einheit ausgeführt werden.
 
 <!-- From [https://wiki.eressea.de/index.php?title=NAME&oldid=16968] -->
 
-[`DESCRIBE`]: ./cmd-describe.md "DESCRIBE"
+[`DESCRIBE`]: ./cmd-describe.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: liste-der-talente
 ---
 # Liste der Talente

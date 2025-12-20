@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-make
     text: MAKE
@@ -115,18 +116,18 @@ Player experience: Solthar Except when erecting a new building you can exchange 
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->
 
-[production]: ./production.md "Produktion"
-[Items]: ./items.md "Waren"
-[raw materials]: ./resources.md "Resources"
-[Alchemy chapter]: ./skills-list.md "List of talents (to be documented)"
-[herbology]: ./herbs.md "Herbs"
-[other units of their own faction]: ./factions.md#dissolving-units "Parteien"
-[buildings]: ./buildings.md "Gebäude"
-[ship]: ./ships.md "Schiffe"
-[roads]: ./roads.md "Straßen"
-[roadwork]: ./skills-list.md#roadwork "Straßenbau"
-[tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
-[caravanserai]: ./buildings-others.md#caravanserai "Andere Gebäude"
-[dam]: ./buildings-others.md#dam "Andere Gebäude"
-[terrain types]: ./terrains.md "Geländearten"
-[Alchemy]: ./alchemy.md "Alchemie"
+[production]: ./production.md
+[Items]: ./items.md
+[raw materials]: ./resources.md
+[Alchemy chapter]: ./skills-list.md
+[herbology]: ./herbs.md
+[other units of their own faction]: ./factions.md#dissolving-units
+[buildings]: ./buildings.md
+[ship]: ./ships.md
+[roads]: ./roads.md
+[roadwork]: ./skills-list.md#roadwork
+[tunnel]: ./buildings-others.md#tunnel
+[caravanserai]: ./buildings-others.md#caravanserai
+[dam]: ./buildings-others.md#dam
+[terrain types]: ./terrains.md
+[Alchemy]: ./alchemy.md

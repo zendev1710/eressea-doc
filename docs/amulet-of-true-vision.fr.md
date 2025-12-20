@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: amulette-de-vision-decuplee
 ---
 # Amulette de vision décuplée

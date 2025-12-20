@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: trucs-et-astuces
 ---
 # Trucs et astuces
@@ -103,7 +104,7 @@ Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui 
      END
      GIVE neu COMMAND
 
-L'unité vide transmet fidèlement la commande à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouveau numéro).
+L'unité vide transmet fidèlement la commande à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouvel identifiant).
 
 ## Mon bateau échoue à prendre la mer alors qu'il n'est pas surchargé
 
@@ -121,10 +122,10 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[trolls]: ./races.md#trolls "Trolls"
-[paysans nomades]: ./farmers-hike.md "Bauernwanderung"
-[migration de paysans]: ./farmers-proliferation.md "Prolifération des paysans"
-[RESERVE]: ./cmd-reserve.md "RESERVE"
-[SORT]: ./cmd-sort.md "SORT"
-[séquence des ordres]: ./commands-sequence.md "Séquence des ordres"
-[Conseils]: ./hints.md "Conseils"
+[trolls]: ./races.md#trolls
+[paysans nomades]: ./farmers-hike.md
+[migration de paysans]: ./farmers-proliferation.md
+[RESERVE]: ./cmd-reserve.md
+[SORT]: ./cmd-sort.md
+[séquence des ordres]: ./commands-sequence.md
+[Conseils]: ./hints.md

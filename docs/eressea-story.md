@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: history-of-eressea
     text: History of Eressea
@@ -10,63 +11,50 @@ Laut [Wikipedia] startete Eressea am 27. August 1996. Es wurde als Ableger von [
 ## Developer
 
 - Russel Wallace
-
-Entwickler von Atlantis 1.0
-
+    Developer of Atlantis 1.0
 - Alex Schröder
-
-Entwickler von German Atlantis.  
-Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
-
+    Entwickler von German Atlantis.  
+    Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
 - Christian Schlittchen ([Corwin])
-
-entwickelte Eressa und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
-
+    Developed Eressea and ran the game for a long time (until round 289, around mid-2002).
 - Katja Zedel ([Katze (Designerin)])
-
-war zusammen mit Corwin Entwicklerin und Spielleiterin von Eressea. Katjas grösstes Projekt war die Entwicklung der neuen Magie.
-
+    was the developer and game director of Eressea together with Corwin. Katja's biggest project was the development of new magic.
 - [Enno Rehling]
-
-ist seit Runde 39 dabei und übernahm Entwicklung und Spielleitung nach dem Ausstieg der anderen beiden Spielleiter.
-
+    has been there since round 39 and took over development and game management after the other two game managers left.
 - Henning Peters ([Faroul])
-
-Entwickler, u.a. des Zugüberprüfers [ECheck]
-
+    Developer, among others, of the train checker [ECheck].
 - Benjamin Bärmann, Ingo Wilken
-
-Co-Entwickler in den ersten Jahren, u.a. der Alchemie
+    Co-developer in the first years, including alchemy
 
 ## Rule changes
 
-Im Laufe der Zeit hat es viele kleinere und größere Regeländerungen gegeben, in der Regel um die Spielbalance zu verbesseren. Hier eine Liste, die bei weitem nicht komplett ist.
+There have been many minor and major rule changes over time, usually to improve game balance. Here is a list that is far from complete.
 
 ## First Age
 
-Irgendwann
+Sometime
 
-- Die Rassen werden eingeführt
-- Nur noch Menschen können Migranten erhalten, Migranten anderer Rassen werden in die Rasse des Besitzers umgewandelt, wobei sie ihre Talentstufe behalten (und dadurch gegebenenfalls Lentage dazu erhalten)
-- Elfen verlieren ihre Boni von +1 in Unterhaltung und Holzfällen
+- The breeds are introduced
+- Only humans can now receive migrants, migrants of other races are converted into the owner's race, while retaining their skill level (and thereby gaining Lentage if necessary)
+- Elves lose their +1 bonuses in entertainment and lumbering
 
 27.08.1996
 
-- Die erste Auswertung
+- The first evaluation
 
 04.12.1998
 
-- Der Befehl **FINDE** fällt weg (Was hat der gemacht?).
-- Die Option **ADRESSEN** wird eingeführt.
+- The order **FIND** falls away (What did he do?)
+- The option **ADDRESSES** is introduced
 
 05.12.1998
 
-- Das Einsenden von Teilbefehlen ist nun möglich, ohne dass die bisher eingegangenen Befehle für andere Einheiten gelöscht werden.
+- Submitting partial orders is now possible without deleting previously received orders for other units
 
 13.12.1998
 
-- Schiffe, die ohne ausreichende Besatzung auf dem Meer treiben, sinken mit 33% Wahrscheinlichkeit.
-- Unbemannte Monumente zerfallen langsam.
+- Ships adrift at sea without sufficient crew have a 33% chance of sinking
+- Unmanned monuments are slowly crumbling
 
 18.12.1998
 
@@ -366,26 +354,33 @@ Dezember 2008 -- Anmeldung (endgültig) geschlossen
 
 ## Eressea the Third Age
 
-Eressea 2 ist seit Jahren geplant, mittlerweile ist sich Enno sicher, dass diese Version von Eressea ein Webgame werden soll. Dafür sind allerdings grundlegende Änderungen des Codes und des Spielprinzips nötig welche vorher in Eressea 1.5 getestet werden sollten.
+Eressea 2 has been planned for years, but Enno is now sure that this version of Eressea will be a web game.
+However, this requires fundamental changes to the code and gameplay, which should be tested in Eressea 1.5 beforehand.
 
-Um endlich wieder etwas neues für die Spielerschaft auf den Weg zu bringen und erste Erfahrungen mit einer vereinfachten Version von Eressea zu erlangen startet am 10.05.2009 die Entwicklung von Eressea 1.1 Arbeitstitel E2K9. Versionsnummer 1.5 wird nicht gewählt da E1.1 vorallem durch streichen etlicher Befehle und ändern vorhandener Parameter auskommen soll ohne grossen Programmieraufwand. Ursprünglich ist es als kleinerer Zwischenschritt zu E1.5 gedacht.
+In order to finally bring something new to the table for the players and to gain initial experience with a simplified version of Eressea, the development of Eressea 1.1 working title E2K9 will start on May 10, 2009. Version number 1.5 is not chosen because E1.1 is supposed to get by without a lot of programming effort by deleting a number of commands and changing existing parameters. It was originally intended as a smaller intermediate step to E1.5.
 
-Auf Grund der massiven Regeländerungen wird E1.1 in einer neuen Welt gestartet. Um den Problemen des Endlosspieles entgegen zu wirken und den Arbeitsaufwand für das laufende Spiel so gering wie möglich zu halten wird ein späterer Einstieg in das Spiel nicht möglich sein.
+Due to the massive rule changes, E1.1 will start in a new world. In order to counteract the problems of the endless game and to keep the workload for the current game as low as possible, it will not be possible to start the game later.
 
-Programmierer für dieses Projekt ist [Enno][Enno Rehling] das Design Team besteht zu diesem Zeitpunkt nur aus Xolgrim. Bereits wenige Tage später wird es mit Eon, der Enno über ein Mailingliste aufgefallen war, und Phygon, welcher wie Xolgrim schon an diversen nicht zu Ende gebrachten Eressea Projekten mitgearbeitet hatte, auf aktuelle Größe erweitert.
+The programmer for this project is [Enno][Enno Rehling] the design team at this point only consists of Xolgrim. Just a few days later, it was expanded to its current size with Eon, who had noticed Enno via a mailing list, and Phygon, who, like Xolgrim, had already worked on various unfinished Eressea projects.
 
-Der Arbeitstitel welcher als Kürzel für "Eressea 2009" steht verdeutlicht das kleine Zeitfenster welches für Entwicklung, Design, Programmierung und Tests bleibt. Der 24. Juni 2009 ist der erste geplante Starttermin, dieser kann aus mehreren Gründen jedoch nicht eingehalten werden. Vor allen anderen, meist privaten, Gründen ist die Zahl der Neuanmeldungen entscheidend. Erhofft waren mehr als 50 Spieler erträumt um die 100. Drei Tage vor Anmeldeschluss waren jedoch schon fast 400 Spieler angemeldet. Pünktlich zum 24. Juni wurde wenigstens der Aussetzalgorithmus in seinen Grundzügen fertig gestellt. Das Erstellen der Welt kann beginnen.
+The working title, which stands as an abbreviation for "Eressea 2009", illustrates the small time window that remains for development, design, programming and testing.
+June 24, 2009 is the first planned start date, but this cannot be met for several reasons.
+Above all other, mostly private, reasons, the number of new registrations is crucial. The hope was for more than 50 players, the dream was around 100.
+However, three days before the registration deadline, almost 400 players had already registered. At least the basic features of the suspension algorithm were completed in time for June 24th. World building can begin.
 
-Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt, daran glaubt inzwischen keiner mehr. Die Liste der kleinen und grossen Änderungen ist lang, die ToDo-Liste der Dinge die nach dem Start dringend erledigt werden müssen noch länger. Beispielsweise sind viele Zauber, teilweise schon Stufe 2er, noch nicht abschliessend überarbeitet. Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können bleibt für diese und andere Kleinigkeiten ja noch jede Menge Zeit...
+No one believes that Eressea the third age, E3 for short, can do without a lot of reprogramming.
+The list of small and large changes is long, and the to-do list of things that urgently need to be done after the launch is even longer.
+For example, many spells, some of which are already level 2, have not yet been completely revised.
+Since these can only be conjured up in the second round of the game at the earliest, there is still plenty of time for these and other little things...
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Atlantis]: ./atlantis.md "Atlantis"
-[Corwin]: ./contributors.md#corwin "Corwin (to be documented)"
-[Katze (Designerin)]: ./contributors.md#katja-zedel "Katze (Designerin)"
-[Enno Rehling]: ./contributors.md#enno "Enno (to be documented)"
-[Faroul]: ./contributors.md#faroul "Faroul (to be documented)"
-[ECheck]: ./echeck.md "ECheck"
+[Atlantis]: ./atlantis.md
+[Corwin]: ./contributors.md#corwin
+[Katze (Designerin)]: ./contributors.md#katja-zedel
+[Enno Rehling]: ./contributors.md#enno
+[Faroul]: ./contributors.md#faroul
+[ECheck]: ./echeck.md
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
+[Xontormia-Express]: ./xontormia-express.md

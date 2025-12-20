@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: sequence-des-ordres
 ---
 # Séquence des ordres
@@ -82,61 +83,61 @@ Cela ne signifie pas que les unités qui quittent un bateau peuvent attaquer dan
 
 Poursuivre la lecture : [brève description].
 
-[brève description]: ./commands-list.md "Kurzbeschreibung"
+[brève description]: ./commands-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
-[GROUP]: ./cmd-group.md "GROUP"
-[MAKE TEMP]: ./cmd-make.md "MAKE"
-[NAME]: ./cmd-name.md "NAME"
-[DESCRIBE]: ./cmd-describe.md "DESCRIBE"
-[GUARD NOT]: ./cmd-guard.md "GUARD"
-[HELP]: ./cmd-help.md "HELP"
-[COMBAT]: ./cmd-combat.md "COMBAT"
-[COMBATSPELL]: ./cmd-combatspell.md "COMBATSPELL"
-[HIDE]: ./cmd-hide.md "HIDE"
-[ORIGIN]: ./cmd-origin.md "ORIGIN"
-[SHOW]: ./cmd-show.md "SHOW"
-[BANNER]: ./cmd-banner.md "BANNER"
-[EMAIL]: ./cmd-email.md "EMAIL"
-[OPTION]: ./cmd-option.md "OPTION"
-[PASSWORD]: ./cmd-password.md "PASSWORD"
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[MESSAGE]: ./cmd-message.md "MESSAGE"
-[ENTER]: ./cmd-enter.md "ENTER"
-[USE]: ./cmd-use.md "USE"
-[LEAVE]: ./cmd-leave.md "LEAVE"
-[ATTACK]: ./cmd-attack.md "ATTACK"
-[RESERVE]: ./cmd-reserve.md "RESERVE"
-[CLAIM]: ./cmd-claim.md "CLAIM"
-[GIVE CONTROL]: ./cmd-give.md "GIVE"
-[FORGET]: ./cmd-forget.md "FORGET"
-[RECRUIT]: ./silver.md#recruter "RECRUIT"
-[DESTROY]: ./cmd-destroy.md "DESTROY"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
-[PROMOTE]: ./cmd-promote.md "PROMOTE"
-[PAY NOT]: ./cmd-pay-not.md "PAY"
-[QUIT]: ./cmd-quit.md "QUIT"
-[CAST]: ./cmd-cast.md "CAST"
-[TEACH]: ./cmd-teach.md "TEACH"
-[LEARN]: ./cmd-learn.md "LEARN"
-[RESEARCH]: ./cmd-research.md "RESEARCH"
-[PLANT]: ./cmd-plant.md "PLANT"
-[SPY]: ./cmd-spy.md "SPY"
-[GROW]: ./cmd-grow.md "GROW"
-[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"
-[WORK]: ./cmd-work.md "WORK"
-[TAX]: ./cmd-tax.md "TAX"
-[BUY]: ./cmd-buy.md "BUY"
-[SELL]: ./cmd-sell.md "SELL"
-[STEAL]: ./camouflage.md "STEAL"
-[MOVE]: ./cmd-move.md "MOVE"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[RIDE]: ./cmd-ride.md "RIDE"
-[CARRY]: ./cmd-carry.md "CARRY"
-[DEFAULT]: ./cmd-default.md "DEFAULT"
-[SORT]: ./cmd-sort.md "SORT"
-[NUMBER]: ./cmd-number.md "NUMBER"
+[GROUP]: ./cmd-group.md
+[MAKE TEMP]: ./cmd-make.md
+[NAME]: ./cmd-name.md
+[DESCRIBE]: ./cmd-describe.md
+[GUARD NOT]: ./cmd-guard.md
+[HELP]: ./cmd-help.md
+[COMBAT]: ./cmd-combat.md
+[COMBATSPELL]: ./cmd-combatspell.md
+[HIDE]: ./cmd-hide.md
+[ORIGIN]: ./cmd-origin.md
+[SHOW]: ./cmd-show.md
+[BANNER]: ./cmd-banner.md
+[EMAIL]: ./cmd-email.md
+[OPTION]: ./cmd-option.md
+[PASSWORD]: ./cmd-password.md
+[CONTACT]: ./cmd-contact.md
+[MESSAGE]: ./cmd-message.md
+[ENTER]: ./cmd-enter.md
+[USE]: ./cmd-use.md
+[LEAVE]: ./cmd-leave.md
+[ATTACK]: ./cmd-attack.md
+[RESERVE]: ./cmd-reserve.md
+[CLAIM]: ./cmd-claim.md
+[GIVE CONTROL]: ./cmd-give.md
+[FORGET]: ./cmd-forget.md
+[RECRUIT]: ./silver.md#recruter
+[DESTROY]: ./cmd-destroy.md
+[FOLLOW]: ./cmd-follow.md
+[PROMOTE]: ./cmd-promote.md
+[PAY NOT]: ./cmd-pay-not.md
+[QUIT]: ./cmd-quit.md
+[CAST]: ./cmd-cast.md
+[TEACH]: ./cmd-teach.md
+[LEARN]: ./cmd-learn.md
+[RESEARCH]: ./cmd-research.md
+[PLANT]: ./cmd-plant.md
+[SPY]: ./cmd-spy.md
+[GROW]: ./cmd-grow.md
+[ENTERTAIN]: ./cmd-entertain.md
+[WORK]: ./cmd-work.md
+[TAX]: ./cmd-tax.md
+[BUY]: ./cmd-buy.md
+[SELL]: ./cmd-sell.md
+[STEAL]: ./camouflage.md
+[MOVE]: ./cmd-move.md
+[ROUTE]: ./cmd-route.md
+[RIDE]: ./cmd-ride.md
+[CARRY]: ./cmd-carry.md
+[DEFAULT]: ./cmd-default.md
+[SORT]: ./cmd-sort.md
+[NUMBER]: ./cmd-number.md
 [notes explicatives]: #notes-explicatives
-[item pool]: ./items-pool.md "Materialpool"
-[ordres]: ./commands.md "Befehle"
+[item pool]: ./items-pool.md
+[ordres]: ./commands.md

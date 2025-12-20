@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: travel
     text: Movement
@@ -21,23 +22,23 @@ If the cargo (including any passengers) is too heavy for a unit or ship, it cann
 
 TODO: Katapulte.
 
-| Race                   | Weight | Capacity |
-|------------------------|--------|----------|
-| trolls                 | 20     | 10,8     |
-| goblins                | 6      | 4,4      |
-| all other player races | 10     | 5,4      |
-| horse                  | 50     | 20       |
-| cart                   | 40     | 100      |
-| boat                   | \-/-   | 50       |
-| longboat               | \-/-   | 500      |
-| dragonship             | \-/-   | 1000     |
-| caravel                | \-/-   | 3000     |
-| trireme                | \-/-   | 2000     |
-| galleon                | \-/-   | 20000    |
+| Race            | Weight | Capacity |
+|-----------------|-------:|---------:|
+| trolls          |     20 |     10.8 |
+| goblins         |      6 |      4.4 |
+| all other races |     10 |      5.4 |
+| horse           |     50 |     20.0 |
+| cart            |     40 |    100.0 |
+| boat            |   \-/- |     50.0 |
+| longboat        |   \-/- |    500.0 |
+| dragonship      |   \-/- |   1000.0 |
+| caravel         |   \-/- |   3000.0 |
+| trireme         |   \-/- |   2000.0 |
+| galleon         |   \-/- |  20000.0 |
 
 ## Roads
 
-The speed of travel can be enhanced by building [roads]. If all regions that are passed through have the appropriate road network, you can travel one region further. If, for example, a unit wants to walk two regions to the east, it needs to start in a region with a (completed) road towards the east. In addition, the middle region needs to have roads to the east and west, and the destination needs to have a road to the west - all of which must be completed, too.
+The speed of travel can be enhanced by building [roads]. If all regions that are passed through have the appropriate road network. you can travel one region further. If. for example. a unit wants to walk two regions to the east, it needs to start in a region with a (completed) road towards the east. In addition, the middle region needs to have roads to the east and west, and the destination needs to have a road to the west - all of which must be completed, too.
 
 ## Horse and Carriage
 
@@ -76,16 +77,10 @@ If a unit has several horses and carts, their transport capacity is simply added
 
 Continue reading: [Sailing].
 
-[Sailing]: ./sailing.md "Sailing"
+[Sailing]: ./sailing.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
 
-[`MOVE`]: ./cmd-move.md "MOVE"
-[`ROUTE`]: ./cmd-route.md "ROUTE"
-[`CARRY`]: ./cmd-carry.md "CARRY"
-[`RIDE`]: ./cmd-ride.md "RIDE"
-[`FOLLOW`]: ./cmd-follow.md "FOLLOW"
-[GUARD]: ./cmd-guard.md "GUARD"
-[this table]: ./items.md "Waren"
-[roads]: ./roads.md "Straße"
-[Ships]: ./ships.md "Schiff"
+[this table]: ./items.md
+[roads]: ./roads.md
+[Ships]: ./ships.md

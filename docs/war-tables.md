@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: war-tables
     text: War tables
@@ -9,32 +10,34 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ## Weapon properties
 
+<!-- TODO: adequately translate Schartiges - Rusty  ?) -->
+
 | Weapon                 | Damage/foot   | ⌀           | Damage/horse  | ⌀    |  OB |  DB | Skill | Sum |
 |------------------------|---------------|-------------|---------------|------|----:|----:|:-----:|----:|
 | Catapult¹              | 3d10+5; 6 mal | 21.5; 6 mal | 3d10+5; 6 mal | 21.5 | \-4 |   0 |   K   | \-4 |
 | Crossbow²              | 3d3+5         | 11          | 3d3+5         | 11   |   0 |   0 |   A   |   0 |
 | Mallorn crossbow²      | 3d3+6         | 12          | 3d3+6         | 12   |   0 |   0 |   A   |   0 |
-| Bow                    | 1d11+1        |  7          | 1d11+1        |  7   | \-2 |   0 |   B   | \-2 |
-| Mallorn bow            | 1d11+2        |  8          | 1d11+2        |  8   | \-2 |   0 |   B   | \-2 |
+| Bow                    | 1d11+1        | 7           | 1d11+1        | 7    | \-2 |   0 |   B   | \-2 |
+| Mallorn bow            | 1d11+2        | 8           | 1d11+2        | 8    | \-2 |   0 |   B   | \-2 |
 | Elven bow              | 2d6+4         | 11          | 2d6+4         | 11   | \-2 |   0 |   B   | \-2 |
-| Spear                  | 1d10          |  5.5        | 1d12+2        |  8.5 |   0 |   0 |   S   |   0 |
-| Mallorn spear          | 1d10+1        |  6.5        | 1d12+3        |  9.5 |   0 |   0 |   S   |   0 |
+| Spear                  | 1d10          | 5.5         | 1d12+2        | 8.5  |   0 |   0 |   S   |   0 |
+| Mallorn spear          | 1d10+1        | 6.5         | 1d12+3        | 9.5  |   0 |   0 |   S   |   0 |
 | Halberd                | 2d6+3         | 10          | 2d6+3         | 10   | \-1 |  +2 |   S   |  +1 |
-| Lance                  | 1d5           |  3          | 2d6+5         | 12   |   0 | \-2 |   S   | \-2 |
-| Mallorn lance          | 1d5+1         |  4          | 2d6+6         | 13   |   0 | \-2 |   S   | \-2 |
-| Sword                  | 1d9+2         |  7          | 1d9+2         |  7   |   0 |   0 |   H   |   0 |
+| Lance                  | 1d5           | 3           | 2d6+5         | 12   |   0 | \-2 |   S   | \-2 |
+| Mallorn lance          | 1d5+1         | 4           | 2d6+6         | 13   |   0 | \-2 |   S   | \-2 |
+| Sword                  | 1d9+2         | 7           | 1d9+2         | 7    |   0 |   0 |   H   |   0 |
 | Claymore               | 2d8+3         | 12          | 2d8+3         | 12   | \-1 | \-2 |   H   | \-3 |
 | Axe                    | 2d6+4         | 11          | 2d6+4         | 11   |  +1 | \-2 |   H   | \-1 |
 | Laen sword             | 3d6+10        | 20.5        | 3d6+10        | 20.5 |  +1 |  +1 |   H   |  +2 |
 | Adamantium axe         | 3d4+15        | 22.5        | 3d4+15        | 22.5 |  +2 | \-2 |   H   |   0 |
 | Flaming sword          | 3d6+10        | 20.5        | 3d6+10        | 20;5 |  +1 |  +1 |   H   |  +2 |
-| Rusty hellbard         | 2d6           |  7          | 2d6           |  7   | \-2 |  +1 |   S   | \-1 |
-| Schartiges sword       | 1d9           |  5          | 1d9           |  5   | \-1 | \-1 |   H   | \-2 |
-| Rusty two-handed sword | 2d8           |  9          | 2d8           |  9   | \-2 | \-3 |   H   | \-5 |
-| Rusty axe              | 2d6           |  7          | 2d6           |  7   |   0 | \-3 |   H   | \-3 |
-| Unarmed³               | 1d5           |  3          | 1d6           |  3.5 | \-2 | \-2 |       | \-4 |
-| " Goblins              | 1d5           |  3          | 1d6           |  3.5 | \-2 |   0 |       | \-2 |
-| " Trolls               | 1d5+1         |  4          | \-            | \-   | \-2 | \-2 |       | \-4 |
+| Rusty halberd          | 2d6           | 7           | 2d6           | 7    | \-2 |  +1 |   S   | \-1 |
+| Rusty sword            | 1d9           | 5           | 1d9           | 5    | \-1 | \-1 |   H   | \-2 |
+| Rusty two-handed sword | 2d8           | 9           | 2d8           | 9    | \-2 | \-3 |   H   | \-5 |
+| Rusty axe              | 2d6           | 7           | 2d6           | 7    |   0 | \-3 |   H   | \-3 |
+| Unarmed³               | 1d5           | 3           | 1d6           | 3.5  | \-2 | \-2 |       | \-4 |
+| " Goblins              | 1d5           | 3           | 1d6           | 3.5  | \-2 |   0 |       | \-2 |
+| " Trolls               | 1d5+1         | 4           | \-            | \-   | \-2 | \-2 |       | \-4 |
 
 ¹ Catapults only fire in the first round of the battle, but **hit 6 targets** there.
 ² Crossbows only fire in the 1st and 4th rounds. A crossbow hit halves the opponent's armor protection.

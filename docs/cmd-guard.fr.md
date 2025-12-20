@@ -39,8 +39,8 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 [commerce]: ./silver.md#commerce
 [arme]: ./war-tables.md#armes-et-leurs-proprietes
-[`UNTERHALTEN`]: ./cmd-entertain.md "ENTERTAIN"
-[`ATTACKIEREN`]: ./cmd-attack.md "ATTACK"
-[Kampfende]: ./war.md#das-ende "Kampfende"
-[COMBAT FLIEHE]: ./cmd-combat.md "COMBAT"
-[ersten Wochen]: ./puppy-protection.md "Welpenschutz"
+[`UNTERHALTEN`]: ./cmd-entertain.md
+[`ATTACKIEREN`]: ./cmd-attack.md
+[Kampfende]: ./war.md#das-ende
+[COMBAT FLIEHE]: ./cmd-combat.md
+[ersten Wochen]: ./puppy-protection.md

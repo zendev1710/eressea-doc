@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: ressources
 ---
 # Ressources
@@ -39,7 +40,7 @@ Compétence : taming
 
 Expérience de jeu : SoltharDie maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10. In einer relativ leeren Region vermehren sie sich mit ca. 4%. Je näher sie dem Limit kommen, desto langsamer das Wachstum. Am schnellsten geht es bei ungefähr halben Besatz. In einer Ebene gibt es bei 25 Pferden jede Runde ein neues. Bei 500 Pferden kommen 10 pro Runde hinzu. Ab 1000 Pferden tut sich nichts mehr.
 
-[Arbeitsplätze]: ./world.md "Welt"
+[Arbeitsplätze]: ./world.md
 
 On peut également récolter des plantes pour concocter des potions. Il y a au maximum une espèce de plante dans chaque région. Voir la [Liste des Plantes]. Compétences : Herbalism, Alchemy
 

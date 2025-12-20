@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: camouflage
     text: Camouflage
@@ -50,14 +51,14 @@ In addition to these passive applications of camouflage, one can of course use w
 
 Continue reading: [Travel].
 
-[Travel]: ./travel.md "Travel"
+[Travel]: ./travel.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Skill]: ./skills.md "Skills"
-[Bewacht]: ./cmd-guard.md "GUARD"
-[combat]: ./war.md#fleeing "War"
-[`STEAL`]: ./cmd-steal.md "STEAL"
-[Espionage]: ./skills-list.md#espionage "Espionage"
-[Combat status]: ./cmd-combat.md "COMBAT"
-[revenue]: ./silver.md#stealing-the-dishonest-way "Stealing: the dishonest way"
+[Skill]: ./skills.md
+[Bewacht]: ./cmd-guard.md
+[combat]: ./war.md#fleeing
+[`STEAL`]: ./cmd-steal.md
+[Espionage]: ./skills-list.md#espionage
+[Combat status]: ./cmd-combat.md
+[revenue]: ./silver.md#stealing-the-dishonest-way

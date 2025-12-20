@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-banner
     text: BANNER
@@ -15,5 +16,5 @@ Hiermit kann man eine Beschreibung setzen, die in der Adressliste von [[cmd-opti
 
 <!-- From [https://wiki.eressea.de/index.php?title=BANNER&oldid=6357] -->
 
-[`OPTION`]: ./cmd-option.md "OPTION"
-[Urlaubsvertretung]: ./hints.md#cheating "Hinweise"
+[`OPTION`]: ./cmd-option.md
+[Urlaubsvertretung]: ./hints.md#cheating

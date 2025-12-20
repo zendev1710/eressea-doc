@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: belt-of-troll-strength
     text: Belt of Troll Strength

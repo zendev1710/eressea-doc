@@ -30,9 +30,9 @@ Mit `HIDE rasse` können [Dämonen] sich als andere Rasse tarnen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 
-[Talent]: ./camouflage.md "Tarnung"
-[Spionage]: ./skills-list.md "Liste der Talente"
-[HELP xyz PARTEITARNUNG]: ./cmd-help.md "HELP"
-[GROUP]: ./cmd-group.md "GROUP"
-[Dämonen]: ./races.md#demons "Dämonen"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
+[Talent]: ./camouflage.md
+[Spionage]: ./skills-list.md
+[HELP xyz PARTEITARNUNG]: ./cmd-help.md
+[GROUP]: ./cmd-group.md
+[Dämonen]: ./races.md#demons
+[Wahrnehmung]: ./camouflage.md

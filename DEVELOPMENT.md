@@ -1,3 +1,4 @@
+<!-- cspell: -->
 # Development
 
 ## Requirements
@@ -14,7 +15,7 @@
 3. Install python 3
 4. Install [mkdocs](https://www.mkdocs.org/user-guide/installation/): `pip install mkdocs`
 5. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#installation): `pip install mkdocs-material`
-6. Install other needed mkdocs plugins:
+6. Install other needed MkDocs plugins:
    1. [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/getting-started/installation/): `pip install mkdocs-static-i18n[material]`
    2. [mkdocs-alias-plugin](https://github.com/EddyLuten/mkdocs-alias-plugin?tab=readme-ov-file#installation): `pip install mkdocs-alias-plugin`
    3. [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects) (optional): `pip install mkdocs-redirects`
@@ -33,4 +34,7 @@ In a PowerShell console, from the folder containing the `docs` folder:
 
 ## Deployment on GitHub
 
-- `mkdocs gh-deploy`: <https://zendev1710.github.io/eressea-doc/> should be then updated
+`mkdocs gh-deploy`:
+
+- site content is updated on the `gh-deploy` repository branch
+- Updated branch is deployed on <https://zendev1710.github.io/eressea-doc/>, which should be then updated

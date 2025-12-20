@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: tableau-recapitulatif-des-ordres
 ---
 # Tableau récapitulatif des ordres
@@ -146,141 +147,141 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`DESTROY [stufen]`] STRASSE richtung | Straße einreißen | [L] |
 | [`GROW PFERDE`] | Pferde züchten - nur in Pferdezucht | L   |
 
-<!-- [//]: ./cmd-comment-slash.md "KOMMENTAR"-->
-[L]: ./commands.md#ordres-courts-et-longs "Ordres"
-[`ATTACK <unit id>`]: ./cmd-attack.md "ATTACK"
-[(l)]: ./commands.md#ordres-courts-et-longs "Ordres"
-[`BANNER "<text>"`]: ./cmd-banner.md "BANNER"
-[`CLAIM <number> <item>`]: ./cmd-claim.md "CLAIM"
-[`STEAL <unit id>`]: ./camouflage.md "STEAL"
-[`NAME UNIT "<name>"`]: ./cmd-name.md "NAME"
-[`NAME FACTION "<name>"`]: ./cmd-name.md "NAME"
-[`NAME BUILDING "<name>"`]: ./cmd-name.md "NAME"
-[`NAME SHIP "<name>"`]: ./cmd-name.md "NAME"
-[`NAME REGION "<name>"`]: ./cmd-name.md "NAME"
-[`NAME FREMDE UNIT einheit "<name>"`]: ./cmd-name.md "NAME"
-[`NAME FREMDES SHIP schiff "<name>"`]: ./cmd-name.md "NAME"
-[`NAME FREMDES BUILDING gebäude "<name>"`]: ./cmd-name.md "NAME"
-[`NAME FREMDE FACTION partei "<name>"`]: ./cmd-name.md "NAME"
-[`USE [<number>] trank`]: ./cmd-use.md "USE"
-[`DESCRIBE UNIT "<text>"`]: ./cmd-describe.md "DESCRIBE"
-[`DESCRIBE PRIVAT "<text>"`]: ./cmd-describe.md "DESCRIBE"
-[`DESCRIBE BUILDING "<text>"`]: ./cmd-describe.md "DESCRIBE"
-[`DESCRIBE SHIP "<text>"`]: ./cmd-]describe.md "DESCRIBE"
-[`DESCRIBE REGION "<text>"`]: ./cmd-describe.md "DESCRIBE"
-[`ENTER BUILDING <building id>`]: ./cmd-enter.md "ENTER"
-[`ENTER SHIP <ship id>`]: ./cmd-enter.md "ENTER"
-[`GUARD [NOT]`]: ./cmd-guard.md "GUARD"
-[`PAY NOT [<building id>]`]: ./cmd-pay-not.md "PAY"
-[`MESSAGE REGION "<text>"`]: ./cmd-message.md "MESSAGE"
-[`MESSAGE SHIP <ship id> "<text>"`]: ./cmd-message.md "MESSAGE"
-[`MESSAGE BUILDING <building id> "<text>"`]: ./cmd-message.md "MESSAGE"
-[`MESSAGE UNIT <unit id> "<text>"`]: ./cmd-message.md "MESSAGE"
-[`MESSAGE FACTION <faction id> "<text>"`]: ./cmd-message.md "MESSAGE"
-[`DEFAULT "Ordres"`]: ./cmd-default.md "DEFAULT"
-[`UNIT <unit id>`]: ./cmd-unit.md "UNIT"
-[`EMAIL email@adresse`]: ./cmd-email.md "EMAIL"
-[`END`]: ./cmd-end.md "END"
-[`ERESSEA <faction id> "passwort"`]: ./cmd-eressea.md "ERESSEA"
-[`RIDE <unit id>`]: ./cmd-ride.md "RIDE"
-[`FOLLOW UNIT <unit id>`]: ./cmd-follow.md "FOLLOW"
-[`FOLLOW SHIP <ship id>`]: ./cmd-follow.md "FOLLOW"
-[`RESEARCH HERBS`]: ./cmd-research.md "RESEARCH"
-[`GIVE <unit id> herb`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> KOMMANDO`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> UNIT`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> [JE] <number> PERSONS`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> [JE] <number> SHIP`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> [JE] <number> SILVER`]: ./cmd-give.md "GIVE"
-[`GIVE <unit id> [JE] <number> <item>`]: ./cmd-give.md "GIVE"
-[`GIVE 0 <number> SILVER`]: ./cmd-give.md "GIVE"
-[`GIVE 0 <number> PERSONS`]: ./cmd-give.md "GIVE"
-[`GIVE 0 <number> <item>`]: ./cmd-give.md "GIVE"
-[`GROUP ["<name>"]`]: ./cmd-group.md "GROUP"
-[`HELP <faction id> ALLES [NOT]`]: ./cmd-help.md "HELP"
-[`HELP <faction id> GIVE [NOT]`]: ./cmd-help.md "HELP"
-[`HELP <faction id> COMBAT [NOT]`]: ./cmd-help.md "HELP"
-[`HELP <faction id> GUARD [NOT]`]: ./cmd-help.md "HELP"
-[`HELP <faction id> SILVER [NOT]`]: ./cmd-help.md "HELP"
-[`HELP <faction id> PARTEITARNUNG [NOT]`]: ./cmd-help.md "HELP"
-[`COMBAT`]: ./cmd-combat.md "COMBAT"
-[`COMBAT AGGRESSIVE`]: ./cmd-combat.md "COMBAT"
-[`COMBAT DEFENSIVE``]: ./cmd-combat.md "COMBAT"
-[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
-[`COMBAT HELP [NOT]`]: ./cmd-combat.md "COMBAT"
-[`COMBAT REAR`]: ./cmd-combat.md "COMBAT"
-[`COMBAT NOT`]: ./cmd-combat.md "COMBAT"
+<!-- [//]: ./cmd-comment-slash.md-->
+[L]: ./commands.md#ordres-courts-et-longs
+[`ATTACK <unit id>`]: ./cmd-attack.md
+[(l)]: ./commands.md#ordres-courts-et-longs
+[`BANNER "<text>"`]: ./cmd-banner.md
+[`CLAIM <number> <item>`]: ./cmd-claim.md
+[`STEAL <unit id>`]: ./camouflage.md
+[`NAME UNIT "<name>"`]: ./cmd-name.md
+[`NAME FACTION "<name>"`]: ./cmd-name.md
+[`NAME BUILDING "<name>"`]: ./cmd-name.md
+[`NAME SHIP "<name>"`]: ./cmd-name.md
+[`NAME REGION "<name>"`]: ./cmd-name.md
+[`NAME FREMDE UNIT einheit "<name>"`]: ./cmd-name.md
+[`NAME FREMDES SHIP schiff "<name>"`]: ./cmd-name.md
+[`NAME FREMDES BUILDING gebäude "<name>"`]: ./cmd-name.md
+[`NAME FREMDE FACTION partei "<name>"`]: ./cmd-name.md
+[`USE [<number>] trank`]: ./cmd-use.md
+[`DESCRIBE UNIT "<text>"`]: ./cmd-describe.md
+[`DESCRIBE PRIVAT "<text>"`]: ./cmd-describe.md
+[`DESCRIBE BUILDING "<text>"`]: ./cmd-describe.md
+[`DESCRIBE SHIP "<text>"`]: ./cmd-]describe.md
+[`DESCRIBE REGION "<text>"`]: ./cmd-describe.md
+[`ENTER BUILDING <building id>`]: ./cmd-enter.md
+[`ENTER SHIP <ship id>`]: ./cmd-enter.md
+[`GUARD [NOT]`]: ./cmd-guard.md
+[`PAY NOT [<building id>]`]: ./cmd-pay-not.md
+[`MESSAGE REGION "<text>"`]: ./cmd-message.md
+[`MESSAGE SHIP <ship id> "<text>"`]: ./cmd-message.md
+[`MESSAGE BUILDING <building id> "<text>"`]: ./cmd-message.md
+[`MESSAGE UNIT <unit id> "<text>"`]: ./cmd-message.md
+[`MESSAGE FACTION <faction id> "<text>"`]: ./cmd-message.md
+[`DEFAULT "Ordres"`]: ./cmd-default.md
+[`UNIT <unit id>`]: ./cmd-unit.md
+[`EMAIL email@adresse`]: ./cmd-email.md
+[`END`]: ./cmd-end.md
+[`ERESSEA <faction id> "passwort"`]: ./cmd-eressea.md
+[`RIDE <unit id>`]: ./cmd-ride.md
+[`FOLLOW UNIT <unit id>`]: ./cmd-follow.md
+[`FOLLOW SHIP <ship id>`]: ./cmd-follow.md
+[`RESEARCH HERBS`]: ./cmd-research.md
+[`GIVE <unit id> herb`]: ./cmd-give.md
+[`GIVE <unit id> KOMMANDO`]: ./cmd-give.md
+[`GIVE <unit id> UNIT`]: ./cmd-give.md
+[`GIVE <unit id> [JE] <number> PERSONS`]: ./cmd-give.md
+[`GIVE <unit id> [JE] <number> SHIP`]: ./cmd-give.md
+[`GIVE <unit id> [JE] <number> SILVER`]: ./cmd-give.md
+[`GIVE <unit id> [JE] <number> <item>`]: ./cmd-give.md
+[`GIVE 0 <number> SILVER`]: ./cmd-give.md
+[`GIVE 0 <number> PERSONS`]: ./cmd-give.md
+[`GIVE 0 <number> <item>`]: ./cmd-give.md
+[`GROUP ["<name>"]`]: ./cmd-group.md
+[`HELP <faction id> ALLES [NOT]`]: ./cmd-help.md
+[`HELP <faction id> GIVE [NOT]`]: ./cmd-help.md
+[`HELP <faction id> COMBAT [NOT]`]: ./cmd-help.md
+[`HELP <faction id> GUARD [NOT]`]: ./cmd-help.md
+[`HELP <faction id> SILVER [NOT]`]: ./cmd-help.md
+[`HELP <faction id> PARTEITARNUNG [NOT]`]: ./cmd-help.md
+[`COMBAT`]: ./cmd-combat.md
+[`COMBAT AGGRESSIVE`]: ./cmd-combat.md
+[`COMBAT DEFENSIVE``]: ./cmd-combat.md
+[`COMBAT FLEE`]: ./cmd-combat.md
+[`COMBAT HELP [NOT]`]: ./cmd-combat.md
+[`COMBAT REAR`]: ./cmd-combat.md
+[`COMBAT NOT`]: ./cmd-combat.md
 [`COMBATSPELL [LEVEL n] "zauberspruch" [NOT]`]: ./cmd-combatspell.md
-[`BUY <number> luxusgut`]: ./cmd-buy.md "BUY"
-[`CONTACT <unit id>`]: ./cmd-contact.md "CONTACT"
-[`TEACH <unit id> [<unit id> etc.]`]: ./cmd-teach.md "TEACH"
-[`LEARN <skill>`]: ./Learn.md "LEARN"
-[`LEARN AUTO <skill>`]: ./Learn-auto.md "LEARN AUTO"
-[`LOCALE en/de`]: ./Locale.md "LOCALE"
-[`MAKE TEMP unit-alias-nr ["<name>"]`]: ./cmd-make.md "MAKE"
-[`MAKE [stufe] gebäude-typ [<building id>]`]: ./cmd-make.md "MAKE"
-[`MAKE [stufe] schiffstyp`]: ./cmd-make.md "MAKE"
-[`MAKE [stufe] SHIP [<ship id>]`]: ./cmd-make.md "MAKE"
-[`MAKE`]: ./cmd-make.md "MAKE"
-[`MAKE [stufe] STRASSE richtung`]: ./cmd-make.md "MAKE"
-[`MAKE [<number>] <herb>`]: ./cmd-make.md "MAKE"
-[`MAKE [<number>] trank`]: ./cmd-make.md "MAKE"
-[`MAKE [<number>] <item>`]: ./cmd-make.md "MAKE"
-[`MOVE richtung [richtung etc.]`]: ./cmd-move.md "MOVE"
-[`NEXT`]: ./cmd-next.md "NEXT"
-[`NUMBER UNIT [neue\_nr]`]: ./cmd-number.md "NUMBER"
-[`NUMBER BUILDING [neue\_nr]`]: ./cmd-number.md "NUMBER"
-[`NUMBER FACTION [neue\_nr]`]: ./cmd-number.md "NUMBER"
-[`NUMBER SHIP [neue\_nr]`]: ./cmd-number.md "NUMBER"
-[`OPTION AUSWERTUNG [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION COMPUTER [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION ZIPPED [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION BZIP2 [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION SILBERPOOL [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION MATERIALPOOL [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION ADRESSEN [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION ZUGVORLAGE [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION STATISTIK [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION TALENTVERSCHIEBUNG [NOT]`]: ./cmd-option.md "OPTION"
-[`OPTION PUNKTE [NOT]`]: ./cmd-option.md "OPTION"
-[`PASSWORD "neues-passwort"`]: ./cmd-password.md "PASSWORD"
-[`PLANT [<number>] herb`]: ./cmd-plant.md "PLANT"
-[`PLANT [<number>] BÄUME`]: ./cmd-plant.md "PLANT"
-[`PLANT [<number>] MALLORNSAMEN`]: ./cmd-plant.md "PLANT"
-[`PLANT [<number>] SAMEN`]: ./cmd-plant.md "PLANT"
-[`PIRACY [partei\_1] [partei\_2] [...]`]: ./cmd-piracy.md "PIRACY"
-[`PREFIX [präfix]`]: ./cmd-prefix.md "PREFIX"
-[`REGION x,y`]: ./cmd-region.md "REGION"
-[`RECRUIT <number>`]: ./silver.md#recruter "RECRUIT"
-[`RESERVE <number> "<item>"`]: ./cmd-reserve.md "RESERVE"
-[`RESERVE <number> SILVER`]: ./cmd-reserve.md "RESERVE"
-[`ROUTE richtung [richtung etc.]`]: ./cmd-route.md "ROUTE"
-[`SORT BEFORE <unit id>`]: ./cmd-sort.md "SORT"
-[`SORT AFTER <unit id>`]: ./cmd-sort.md "SORT"
-[`SPY <unit id>`]: ./cmd-spy.md "SPY"
-[`LANGUAGE en/de`]: ./Language.md "LANGUAGE"
-[`QUIT <passwort> [FACTION <faction id>]`]: ./cmd-quit.md "QUIT"
-[`HIDE [stufe]`]: ./cmd-hide.md "HIDE"
-[`HIDE rasse`]: ./cmd-hide.md "HIDE"
-[`HIDE FACTION [NOT]`]: ./cmd-hide.md "HIDE"
-[`HIDE FACTION NUMBER nummer`]: ./cmd-hide.md "HIDE"
-[`CARRY <unit id>`]: ./cmd-carry.md "CARRY"
-[`TAX [betrag]`]: ./cmd-tax.md "TAX"
-[`ENTERTAIN [betrag]`]: ./cmd-entertain.md "ENTERTAIN"
-[`ORIGIN x y`]: ./cmd-origin.md "ORIGIN"
-[`FORGET <skill>`]: ./cmd-forget.md "FORGET"
-[`SELL <number> luxusgut`]: ./cmd-sell.md "SELL"
-[`SELL ALLES luxusgut`]: ./cmd-sell.md "SELL"
-[`LEAVE`]: ./Leave.md "LEAVE"
-[`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`]: ./cmd-cast.md "CAST"
-[`SHOW ALLE ZAUBER`]: ./cmd-show.md "SHOW"
-[`SHOW ALLE TRÄNKE`]: ./cmd-show.md "SHOW"
-[`SHOW "Gegenstand"`]: ./cmd-show.md "SHOW"
-[`SHOW "Trank"`]: ./cmd-show.md "SHOW"
-[`SHOW "Zauberspruch"`]: ./cmd-show.md "SHOW"
-[`SHOW "Rasse"`]: ./cmd-show.md "SHOW"
-[`DESTROY [stufen]`]: ./cmd-destroy.md "DESTROY"
-[`GROW PFERDE`]: ./cmd-grow.md "GROW"
+[`BUY <number> luxusgut`]: ./cmd-buy.md
+[`CONTACT <unit id>`]: ./cmd-contact.md
+[`TEACH <unit id> [<unit id> etc.]`]: ./cmd-teach.md
+[`LEARN <skill>`]: ./Learn.md
+[`LEARN AUTO <skill>`]: ./Learn-auto.md
+[`LOCALE en/de`]: ./Locale.md
+[`MAKE TEMP unit-alias-nr ["<name>"]`]: ./cmd-make.md
+[`MAKE [stufe] gebäude-typ [<building id>]`]: ./cmd-make.md
+[`MAKE [stufe] schiffstyp`]: ./cmd-make.md
+[`MAKE [stufe] SHIP [<ship id>]`]: ./cmd-make.md
+[`MAKE`]: ./cmd-make.md
+[`MAKE [stufe] STRASSE richtung`]: ./cmd-make.md
+[`MAKE [<number>] <herb>`]: ./cmd-make.md
+[`MAKE [<number>] trank`]: ./cmd-make.md
+[`MAKE [<number>] <item>`]: ./cmd-make.md
+[`MOVE richtung [richtung etc.]`]: ./cmd-move.md
+[`NEXT`]: ./cmd-next.md
+[`NUMBER UNIT [neue\_nr]`]: ./cmd-number.md
+[`NUMBER BUILDING [neue\_nr]`]: ./cmd-number.md
+[`NUMBER FACTION [neue\_nr]`]: ./cmd-number.md
+[`NUMBER SHIP [neue\_nr]`]: ./cmd-number.md
+[`OPTION AUSWERTUNG [NOT]`]: ./cmd-option.md
+[`OPTION COMPUTER [NOT]`]: ./cmd-option.md
+[`OPTION ZIPPED [NOT]`]: ./cmd-option.md
+[`OPTION BZIP2 [NOT]`]: ./cmd-option.md
+[`OPTION SILBERPOOL [NOT]`]: ./cmd-option.md
+[`OPTION MATERIALPOOL [NOT]`]: ./cmd-option.md
+[`OPTION ADRESSEN [NOT]`]: ./cmd-option.md
+[`OPTION ZUGVORLAGE [NOT]`]: ./cmd-option.md
+[`OPTION STATISTIK [NOT]`]: ./cmd-option.md
+[`OPTION TALENTVERSCHIEBUNG [NOT]`]: ./cmd-option.md
+[`OPTION PUNKTE [NOT]`]: ./cmd-option.md
+[`PASSWORD "neues-passwort"`]: ./cmd-password.md
+[`PLANT [<number>] herb`]: ./cmd-plant.md
+[`PLANT [<number>] BÄUME`]: ./cmd-plant.md
+[`PLANT [<number>] MALLORNSAMEN`]: ./cmd-plant.md
+[`PLANT [<number>] SAMEN`]: ./cmd-plant.md
+[`PIRACY [partei\_1] [partei\_2] [...]`]: ./cmd-piracy.md
+[`PREFIX [präfix]`]: ./cmd-prefix.md
+[`REGION x,y`]: ./cmd-region.md
+[`RECRUIT <number>`]: ./silver.md#recruter
+[`RESERVE <number> "<item>"`]: ./cmd-reserve.md
+[`RESERVE <number> SILVER`]: ./cmd-reserve.md
+[`ROUTE richtung [richtung etc.]`]: ./cmd-route.md
+[`SORT BEFORE <unit id>`]: ./cmd-sort.md
+[`SORT AFTER <unit id>`]: ./cmd-sort.md
+[`SPY <unit id>`]: ./cmd-spy.md
+[`LANGUAGE en/de`]: ./Language.md
+[`QUIT <passwort> [FACTION <faction id>]`]: ./cmd-quit.md
+[`HIDE [stufe]`]: ./cmd-hide.md
+[`HIDE rasse`]: ./cmd-hide.md
+[`HIDE FACTION [NOT]`]: ./cmd-hide.md
+[`HIDE FACTION NUMBER nummer`]: ./cmd-hide.md
+[`CARRY <unit id>`]: ./cmd-carry.md
+[`TAX [betrag]`]: ./cmd-tax.md
+[`ENTERTAIN [betrag]`]: ./cmd-entertain.md
+[`ORIGIN x y`]: ./cmd-origin.md
+[`FORGET <skill>`]: ./cmd-forget.md
+[`SELL <number> luxusgut`]: ./cmd-sell.md
+[`SELL ALLES luxusgut`]: ./cmd-sell.md
+[`LEAVE`]: ./Leave.md
+[`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`]: ./cmd-cast.md
+[`SHOW ALLE ZAUBER`]: ./cmd-show.md
+[`SHOW ALLE TRÄNKE`]: ./cmd-show.md
+[`SHOW "Gegenstand"`]: ./cmd-show.md
+[`SHOW "Trank"`]: ./cmd-show.md
+[`SHOW "Zauberspruch"`]: ./cmd-show.md
+[`SHOW "Rasse"`]: ./cmd-show.md
+[`DESTROY [stufen]`]: ./cmd-destroy.md
+[`GROW PFERDE`]: ./cmd-grow.md
 
 <sup>1</sup> der Befehl ist nicht immer lang, siehe [Kampfende]  
 <sup>2</sup> bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  
@@ -294,12 +295,12 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 
 Poursuivre la lecture : [Der erste Zug].
 
-[Der erste Zug]: ./first-round.md "Der erste Zug"
+[Der erste Zug]: ./first-round.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
-[Befehl]: ./commands.md "Ordres"
-[<sup>(l)</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
+[Befehl]: ./commands.md
+[<sup>(l)</sup>]: ./commands.md#ordres-courts-et-longs
 [Kampfende]: ./war.md#fin-de-la-bataille"Fin de la bataille"
-[Befehle]: ./commands.md "Befehle"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Befehle]: ./commands.md
+[Befehlsreihenfolge]: ./commands-sequence.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: optimierung-transport
 ---
 # Optimierung Transport

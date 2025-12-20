@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: hints
     text: Hints
@@ -53,7 +54,7 @@ Continue reading: [Tips for Beginners].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
-[Tips for Beginners]: ./getting-started-tips.md "Anfängertipps"  
+[Tips for Beginners]: ./getting-started-tips.md  
 [Link]: https://www.eressea.de/?page_id=189&lang=en
-[QUIT]: ./cmd-quit.md "QUIT"
-[BANNER]: ./cmd-banner.md "BANNER"
+[QUIT]: ./cmd-quit.md
+[BANNER]: ./cmd-banner.md

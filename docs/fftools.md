@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: fftools
     text: FFTools

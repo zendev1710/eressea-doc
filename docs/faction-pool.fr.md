@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: reserve-de-faction
 ---
 # Réserve de faction
@@ -30,16 +31,16 @@ Poursuivre la lecture : [l'argent].
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
 <!--
-[l'argent]: ./silver.md "l'argent"
-[CLAIM]: ./cmd-claim.md "CLAIM"
-[SHOW]: ./cmd-show.md "SHOW"
-[Adamantium]: ./adamantium.md "Adamantium"
-[Armure d'adamantium]: ./adamantium-armor.md "Armure d'adamantium (à documenter)"
-[Gâteau d'anniversaire]: ./birthday-cake.md "Geburtstagstorte (à documenter)"
-[Voile Solaire]: ./sun-sail.md "Voile Solaire"
-[Poussière d'Étoile]: ./stardust.md "Poussière d'Étoile"
-[Sapin de Noël]: ./christmas-tree.md "Sapin de Noël"
-[Coquillage]: ./shell.md "Coquillage"
-[réserve de matériaux]: ./items-pool.md "Réserve de matériaux"
-[réserve d'argent]: ./items-pool.md#der-silberpool "Réserve d'argent"
+[l'argent]: ./silver.md
+[CLAIM]: ./cmd-claim.md
+[SHOW]: ./cmd-show.md
+[Adamantium]: ./adamantium.md
+[Armure d'adamantium]: ./adamantium-armor.md
+[Gâteau d'anniversaire]: ./birthday-cake.md
+[Voile Solaire]: ./sun-sail.md
+[Poussière d'Étoile]: ./stardust.md
+[Sapin de Noël]: ./christmas-tree.md
+[Coquillage]: ./shell.md
+[réserve de matériaux]: ./items-pool.md
+[réserve d'argent]: ./items-pool.md#der-silberpool
 -->

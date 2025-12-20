@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: faq
     text: FAQ

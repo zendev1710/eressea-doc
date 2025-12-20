@@ -17,6 +17,6 @@ Pour `GROW HERBS` vous devez avoir au moins [Herbalism][Taming] 6. L'unité essa
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/fr&oldid=14489] -->
 
-[Taming]: ./skills-list.md "Liste der Talente"
-[écurie]: ./buildings-others.md#haras "Haras"
-[PLANT]: ./cmd-plant.md "PLANT"
+[Taming]: ./skills-list.md
+[écurie]: ./buildings-others.md#haras
+[PLANT]: ./cmd-plant.md

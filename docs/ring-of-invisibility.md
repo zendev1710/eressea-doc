@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: ring-of-invisibility
     text: Ring of Invisibility

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias: beginner-tips
 ---
 # Beginner tips
@@ -134,8 +135,8 @@ Continue reading: [[xontormia-express]].
 [mining]: ./resources.md#about-mining
 [logging]: ./resources.md#deep-in-the-forest
 [tax collection]: ./silver.md#collecting-taxes
-[weapon skills]: ./skills.md#combat-skills "Talente"
-[stealing]: ./silver.md#stealing-the-dishonest-way "Geld"
+[weapon skills]: ./skills.md#combat-skills
+[stealing]: ./silver.md#stealing-the-dishonest-way
 [trade]: ./silver.md#trade
 [trading]: ./silver.md#trade
 [horses and wagons]: ./travel.md#horse-and-carriage

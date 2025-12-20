@@ -1,10 +1,18 @@
 ---
+# cSpell:locale en
 alias:
     name: toad
     text: Toad
 ---
 # Toad
 
-*Die Kröte ist eine der seltensten Rassen Eresseas. Man munkelt, sie würde nur auf magische Weise entstehen. In einer uralten Abhandlung über Magie aus der Bibliothek der Akademie von Xontormia wird die Theorie aufgestellt, das die Kröte die ins morphische Feld des Magiers übertragene Manifestation eines implodierten Zauberfeldes sein könnte. Vieleicht deswegen ist die Kröte auch gegen Zauber weitaus widerstandsfähiger als die normalen Rassen Eresseas, leider aber auch weitaus unmagischer als diese. Die Kröte kann schon aufgrund ihrer Größe und der fehlenden Hände nur unter Schwierigkeiten normale Tätigkeiten ausüben. Der einzige Vorteil ihrer geringen Größe ist, dass sie sich leichter verstecken kann.*
+<!-- translated -->
+The toad is one of Eressea's rarest breeds.  
+
+It is rumored that it only appears magically.  
+An ancient treatise on magic from the library of the Academy of Xontormia theorizes that the toad could be the manifestation of an imploded magic field transferred into the magician's morphic field.  
+Maybe that's why the toad is far more resistant to magic than the normal races of Eressea, but unfortunately also far less magical than them.  
+Due to its size and lack of hands, the toad has difficulty carrying out normal activities.  
+The only advantage of her small size is that it can hide more easily.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kröte&oldid=9052] -->

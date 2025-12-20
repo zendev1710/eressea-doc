@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: crapaud
 ---
 # Crapaud

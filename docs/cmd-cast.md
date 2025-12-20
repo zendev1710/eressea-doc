@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-cast
     text: CAST
@@ -19,10 +20,10 @@ Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Fernzaubern]: ./magic.md#distance-magic "Magie"
-[Kosten]: ./magic.md#components "Magie"
-[Magie]: ./magic.md "Magie"
-[`SHOW ALLE ZAUBER`]: ./cmd-show.md "SHOW"
-[`COMBATSPELL`]: ./cmd-combatspell.md "COMBATSPELL"
-[attackieren]: ./cmd-attack.md "ATTACK"
+[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders
+[Fernzaubern]: ./magic.md#distance-magic
+[Kosten]: ./magic.md#components
+[Magie]: ./magic.md
+[`SHOW ALLE ZAUBER`]: ./cmd-show.md
+[`COMBATSPELL`]: ./cmd-combatspell.md
+[attackieren]: ./cmd-attack.md

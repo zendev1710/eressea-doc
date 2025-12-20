@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: bonhomme-de-neige
 ---
 # Bonhomme de neige

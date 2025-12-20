@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: ecoles-de-magie
 ---
 # Écoles de Magie
@@ -61,13 +62,13 @@ En savoir plus :  [tous les sorts Draig].
 
 Poursuivre la lecture : [liste des sorts].
 
-[liste des sorts]: ./spells-list.md "liste des sorts"
+[liste des sorts]: ./spells-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
-[magie]: ./magic.md "Magie"
-[tous les sorts Illaun]: ./magic-school-illaun.md "sorts Illaun"
-[tous les sorts Tybied]: ./magic-school-tybied.md "sorts Tybied"
-[tous les sorts Cerddor]: ./magic-school-cerddor.md "sorts Cerddor"
-[tous les sorts Gwyrrd]: ./magic-school-gwyrrd.md "sorts Gwyrrd"
-[tous les sorts Draig]: ./magic-school-draig.md "sorts Draig"
+[magie]: ./magic.md
+[tous les sorts Illaun]: ./magic-school-illaun.md
+[tous les sorts Tybied]: ./magic-school-tybied.md
+[tous les sorts Cerddor]: ./magic-school-cerddor.md
+[tous les sorts Gwyrrd]: ./magic-school-gwyrrd.md
+[tous les sorts Draig]: ./magic-school-draig.md

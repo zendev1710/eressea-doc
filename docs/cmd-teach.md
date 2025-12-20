@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-teach
     text: TEACH
@@ -23,7 +24,7 @@ Durch den Befehl [LEARN AUTO] versucht der Server das Lernen und Lehren in einer
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[HELP]: ./cmd-help.md "HELP"
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[HELP]: ./cmd-help.md
+[CONTACT]: ./cmd-contact.md
+[LEARN AUTO]: ./cmd-learn-auto.md

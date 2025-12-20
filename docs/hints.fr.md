@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: remarques
 ---
 # Remarques
@@ -29,7 +30,7 @@ Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoi
 2. Lis les mails dans la liste "E-Announce", les rapports de bug dans Mantis ou le canal \#general dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
 3. Réfléchis à la manière dont l'erreur s'est produite. Rassemble tous les éléments nécessaires. Ouvre un nouveau rapport de bug dans [Mantis]. Il devrait contenir les éléments suivants :
     1. Ton ID de Faction
-    2. Numéros des unités, bateaux ou autres objets concernés
+    2. Identifiants des unités, bateaux ou autres objets concernés
     3. Messages du rapport qui sont pertinents pour l'événement
     4. Noms et ID des régions où cela s'est produit
     5. des extraits pertinents du rapport actuel et, le cas échéant, de rapports plus anciens
@@ -91,11 +92,11 @@ Poursuivre la lecture : [conseils pour débutants].
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
 <!--
-[conseils pour débutants]: ./getting-started-tips.md "Anfängertipps"
+[conseils pour débutants]: ./getting-started-tips.md
 [Link]: https://www.eressea.de/?page_id=186
 [rapport de bug]: #rapport-de-bug
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
-[QUIT]: ./cmd-quit.md "QUIT"
-[BANNER]: ./cmd-banner.md "BANNER"
+[QUIT]: ./cmd-quit.md
+[BANNER]: ./cmd-banner.md
 -->

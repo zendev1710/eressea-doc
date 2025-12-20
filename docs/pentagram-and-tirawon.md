@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: pentagram-and-tirawon
     text: Pentagram and Tirawon
@@ -76,7 +77,7 @@ Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-  [Igjarjuk]: ./monsters.md#igjarjuk "Igjarjuk"
-  [Untoter Wyrm]: ./monsters.md#drachen "Drachen"
-  [falschem Banner]: ./cmd-hide.md "HIDE"
+  [Igjarjuk]: ./monsters.md#igjarjuk
+  [Untoter Wyrm]: ./monsters.md#drachen
+  [falschem Banner]: ./cmd-hide.md
   [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html

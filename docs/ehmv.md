@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: ehmv
     text: EHMV

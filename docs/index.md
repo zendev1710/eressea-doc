@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: home
     text: Home
@@ -75,28 +76,28 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 
 Continue reading: [rules].
 
-[rules]: ./rules.md "Rules"
-[Eressea]: ./cmd-eressea.md "Eressea"
+[rules]: ./rules.md
+[Eressea]: ./cmd-eressea.md
 [Discord]: https://discord.gg/KT5Fffh
-[Registering for the game]: ./hints.md#registration "Hinweise"
+[Registering for the game]: ./hints.md#registration
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Tools]: ./commands-send.md#what-you-need-to-play-eressea "Hilfsmittel"
-[Tips for beginners]: ./getting-started-tips.md "Anfängertipps"
-[story of Eressea]: ./eressea-story.md "Geschichte von Eressea"
-[Atlantis]: ./atlantis.md "Atlantis"
-[Frequently asked questions]: ./faq.md "FAQ"
-[Orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"
-[Tactics]: ./tactic.md "Taktik"
-[Familiars]: ./familiars.md "Vertraute"
-[Development]: ./development.md "Entwicklung"
+[Tools]: ./commands-send.md#what-you-need-to-play-eressea
+[Tips for beginners]: ./getting-started-tips.md
+[story of Eressea]: ./eressea-story.md
+[Atlantis]: ./atlantis.md
+[Frequently asked questions]: ./faq.md
+[Orders sequence]: ./commands-sequence.md
+[Tactics]: ./tactic.md
+[Familiars]: ./familiars.md
+[Development]: ./development.md
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
 [archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [announcements]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
-[Player pages]: ./player-pages.md "Spielerseiten"
-[You play too much Eressea if ...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
-[The Third Age]: ./the-third-age.md "Das dritte Zeitalter"
+[Player pages]: ./player-pages.md
+[You play too much Eressea if ...]: ./play-too-much-if.md
+[The Third Age]: ./the-third-age.md
 [An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
-[List of rules changes compared to E2 (in German)]: ./the-third-age.md "Das dritte Zeitalter"
+[List of rules changes compared to E2 (in German)]: ./the-third-age.md
 [Announcments from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreons]: https://www.patreon.com/enno
 [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-sort
     text: SORT
@@ -24,5 +25,5 @@ The following limitations apply:
 Sorting takes place at the very end of the round, after movement.
 Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.
 
-[Zugvorlage]: ./commands.md "Orders"
+[Zugvorlage]: ./commands.md
 [has an impact]: ./tips-and-tricks.md#escaping-death-by-starvation

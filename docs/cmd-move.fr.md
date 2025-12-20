@@ -37,9 +37,9 @@ Vorlage nächste Woche:
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Defaultbefehle]: ./cmd-default.md "DEFAULT"
-[Zugvorlage]: ./commands.md "Ordres"
-[Reisen]: ./travel.md "Reisen"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Defaultbefehle]: ./cmd-default.md
+[Zugvorlage]: ./commands.md
+[Reisen]: ./travel.md
+[ROUTE]: ./cmd-route.md
+[FOLLOW]: ./cmd-follow.md

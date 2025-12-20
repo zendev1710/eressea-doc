@@ -1,34 +1,43 @@
 ---
+# cSpell:locale en
 alias:
     name: xontormia-express
     text: Xontormia Express
 ---
 # Xontormia Express
 
-## Was ist der Xontormia Express?
+## What is the Xontormia Express?
 
-Der Xontormia Express ist die Zeitung für Eressea, deren Artikel von Spielern geschrieben werden. Es ist der Ort für Propaganda und Fantasien aller Art. Er erschien mit Unterbrechungen in verschiedenen Medien und wurde im Jahre 2008 wegen zu geringer Beteiligung vorläufig eingestellt. 2015 wurde er wieder eingeführt. Er wird zusammen mit dem Report versendet und erscheint damit wöchentlich, sofern Artikel eingereicht wurden. Jede Ausgabe wird nach Veröffentlichung im [Archiv] abgelegt.
+The Xontormia Express is the newspaper for Eressea, whose articles are written by players.
+It is the place for propaganda and fantasies of all kinds.
+It appeared intermittently in various media and was temporarily discontinued in 2008 due to insufficient participation.
+It was reintroduced in 2015.
+It is sent together with the report and appears weekly as long as articles have been submitted.
+Each issue is stored in the [Archive] after publication.
 
 ## Aufbau der Artikel
 
-Der Xontromia Express unterteilt die Artikel in Welten. Es sollte also immer als erstes die Welt genannt werden für die der Artikel geschrieben wurde, oder in welcher die jeweilige Geschichte spielt. Geschrieben werden darf über alles was in der Welt Eressea geschieht, solange die offensichtlichen Regeln eingehalten werden.
+The Xontormia Express divides the articles into worlds.
+The world for which the article was written or in which the respective story takes place should always be mentioned first.
+You can write about anything that happens in the world of Eressea, as long as the obvious rules are followed.
 
-Falls sich der Artikel auf eine bereits geschriebene Geschichte bezieht, so fügt gerne einen vollständigen Link hinzu, damit die Leser einen Bezug herstellen können.
+If the article refers to a story that has already been written, please include a full link so readers can make the connection.
 
-Nach der Angabe der Welt bitte zwei Zeilen darunter die Überschrift deines Artikel schreiben.
+After specifying the world, please write the title of your article two lines below.
 
-Nach einer weiteren Freizeile kannst du deinen Artikel schreiben, der so lang sein kann, wie du willst, er darf Absätze und Leerzeilen haben, nur nicht abstrus viele. Jede Zeile sollte bei ca. 80 Zeichen umgebrochen sein. Um die Überschriften können bereits "=" gesetzt werden. Zwei "=" um die Welt-Angabe, 3 "=" um die Überschrift des Artikels (das erleichtert die Übertragung ins Online-Archive :-) ).
+After another free line you can write your article, which can be as long as you want, it can have paragraphs and empty lines, just not an absurd number of them. Each line should wrap at approximately 80 characters. "=" can already be placed around the headings. Two "=" around the world information, 3 "=" around the title of the article (this makes it easier to transfer to the online archive :-) ).
 
-Bitte achte drauf, **Absätze** entsprechend einzufügen wo es dir für den Textfluss sinnvoll erscheint. Dies hilft dabei, den Text im Archiv einzufügen.
+Please pay attention **paragraphs** insert where it seems sensible for the flow of the text. This will help insert the text into the archive.
 
-Enden sollte ein Artikel mit dem Namen des Autoren.
+An article should end with the name of the author.
 
-Donnerstag 14:00Uhr ist Einsendeschluss für Artikel die noch in der selben Woche erscheinen sollen.
+Thursday 2:00 p.m. is the deadline for articles to be published in the same week.
 
-Die Mailadresse, an die jeder Spieler Artikel schicken kann ist [express@eressea.de].
+The email address to which each player can send articles is [[express@eressea.de](mailto:express@eressea.de)].
 
-Ein **Beispielartikel** könnte so aussehen:
+A **Example article** could look like this:
 
+    ```
     == 13. Welt ==
 
     === Krieg in der 13. Welt ===
@@ -46,20 +55,21 @@ Ein **Beispielartikel** könnte so aussehen:
     Inhalt.
 
     Gibli der Schreiber-Goblin
+    ```
 
-## Archiv des Xontromia Express
+## Xontormia Express Archives
 
-Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle][Archiv].
+The archive of past issues can be found [at this location][Archive].
 
-Weiterlesen: [Danksagung].
+Continue reading: [[thanks]].
 
-## Referenzen
+## References
 
-- [Ankündigung des neuen XE]
+- [Announcement of the new XE]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Xontormia\_Express&oldid=16988] -->
 
-[Danksagung]: ./thanks.md "Danksagung"
-[Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
+[Announcement of the new XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025
+[Archive]: https://wiki.eressea.de/Kategorie:Xontormia_Express
+
 [express@eressea.de]: mailto:express@eressea.de
-[Ankündigung des neuen XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: batiments-speciaux
 ---
 # Bâtiments spéciaux
@@ -332,16 +333,16 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 Poursuivre la lecture : [pool de factions].
 
-[water of life]: ./alchemy.md "Tränke"
-[USE 1 water~of~life]: ./cmd-use.md "USE"
-[HELP GUARD]: ./cmd-help.md "HELP"
-[tableau des chateaux]: ./castles.md#übersicht "tableau des chateaux"
-[puissant sort]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
-[Bâtiments]: ./buildings.md "Bâtiments"
-[Châteaux]: ./castles.md "Châteaux"
-[Production]: ./production.md "Production"
-[pool de factions]: ./faction-pool.md "Pool de factions"
-[Construction d'un château]: ./castles.md#aperçu "Construction d'un château"
+[water of life]: ./alchemy.md
+[USE 1 water~of~life]: ./cmd-use.md
+[HELP GUARD]: ./cmd-help.md
+[tableau des chateaux]: ./castles.md#übersicht
+[puissant sort]: ./spells-descriptions.md#segne-steinkreis
+[Bâtiments]: ./buildings.md
+[Châteaux]: ./castles.md
+[Production]: ./production.md
+[pool de factions]: ./faction-pool.md
+[Construction d'un château]: ./castles.md#aperçu
 [Phare]: #phare
 [Mine]: #mine
 [Carrière]: #carrière
@@ -357,4 +358,4 @@ Poursuivre la lecture : [pool de factions].
 [Auberge]: #auberge
 [Monument]: #monument
 [Cercle de Pierres]: #cercle-de-pierres
-[MAKE "type de bâtiment"]: ./cmd-make.md "MAKE"
+[MAKE "type de bâtiment"]: ./cmd-make.md

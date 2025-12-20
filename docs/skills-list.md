@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: list-of-skills
     text: List of skills
@@ -135,30 +136,30 @@ Continue reading: [Stealth].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
 
-[Stealth]: ./camouflage.md "Tarnung"
-[potions]: ./alchemy.md "Tränke"
-[herbs]: ./herbs.md "Herbs"
-[table]: ./war-tables.md#ausdauer "Kampftabellen"
-[resources]: ./resources.md "Resources"
-[castles and other buildings]: ./buildings.md "Gebäude"
-[trade]: ./silver.md#trade "Handel"
-[BUY]: ./cmd-buy.md "BUY"
-[1]: ./resources.md#deep-in-the-forest "Resources"
-[`RESEARCH HERBS`]: ./cmd-research.md "RESEARCH"
-[`MAKE SEEDS`]: ./cmd-make.md "MAKE"
-[production]: ./production.md "Produktion"
-[`PLANT`]: ./cmd-plant.md "PLANT"
-[Magic]: ./magic.md "Magie"
-[horses]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
-[`GROW HORSES`]: ./cmd-grow.md "GROW"
-[stable]: ./buildings-others.md#stable "Pferdezucht"
-[items]: ./items.md "Waren"
-[ships]: ./ships.md "Schiffe"
-[`SPY`]: ./cmd-spy.md "SPY"
-[2]: ./resources.md#about-mining "Resources"
-[roads]: ./roads.md "Straßen"
-[Tactics]: ./tactic.md "Taktik"
-[mustering]: ./war.md#die-musterung-der-einheiten "Musterung"
-[steal]: ./camouflage.md "STEAL"
-[guarding]: ./cmd-guard.md "GUARD"
-[perception]: ./camouflage.md "Wahrnehmung"
+[Stealth]: ./camouflage.md
+[potions]: ./alchemy.md
+[herbs]: ./herbs.md
+[table]: ./war-tables.md#ausdauer
+[resources]: ./resources.md
+[castles and other buildings]: ./buildings.md
+[trade]: ./silver.md#trade
+[BUY]: ./cmd-buy.md
+[1]: ./resources.md#deep-in-the-forest
+[`RESEARCH HERBS`]: ./cmd-research.md
+[`MAKE SEEDS`]: ./cmd-make.md
+[production]: ./production.md
+[`PLANT`]: ./cmd-plant.md
+[Magic]: ./magic.md
+[horses]: ./travel.md#pferd-und-wagen
+[`GROW HORSES`]: ./cmd-grow.md
+[stable]: ./buildings-others.md#stable
+[items]: ./items.md
+[ships]: ./ships.md
+[`SPY`]: ./cmd-spy.md
+[2]: ./resources.md#about-mining
+[roads]: ./roads.md
+[Tactics]: ./tactic.md
+[mustering]: ./war.md#die-musterung-der-einheiten
+[steal]: ./camouflage.md
+[guarding]: ./cmd-guard.md
+[perception]: ./camouflage.md

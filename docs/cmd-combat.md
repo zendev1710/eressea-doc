@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-combat
     text: COMBAT
@@ -78,5 +79,5 @@ Weitere Details unter [[cmd-help]] und in den Kapiteln [Kampf] [[war|Vom Kriege]
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
-[Kampfreihen]: ./war.md#combat-rows "Schlacht"
-[Flucht]: ./war.md#fleeing "Fleeing"
+[Kampfreihen]: ./war.md#combat-rows
+[Flucht]: ./war.md#fleeing

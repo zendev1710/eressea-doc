@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: rapport-hebdomadaire
 ---
 # Rapport hebdomadaire
@@ -33,7 +34,7 @@ Spielerpopulation: 12639338 (+32404)
 
                  Zwerge: 1810332 (+8019,+0%)
                   Elfen: 1092577 (+1097,+0%)
-                Goblins: 180811 (-786,0%)
+                Gobelins: 180811 (-786,0%)
                Menschen: 6447771 (+13337,+0%)
                  Trolle: 559079 (+843,+0%)
                Dämonen: 23056 (+0,+0%)

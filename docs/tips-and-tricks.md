@@ -1,9 +1,12 @@
 ---
+# cSpell:locale en
 alias:
     name: tips-and-tricks
     text: Tips and tricks
 ---
 # Tips and tricks
+
+<!-- TODO: translate in english -->
 
 ## You don't always have to be able to ride a horse
 
@@ -85,7 +88,7 @@ Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [
 
 ## Safe ship routes
 
-Avec de grandes factions, il est facile de perdre le fil dans la gestin de sa flotte.
+Avec de grandes factions, il est facile de perdre le fil dans la gestion de sa flotte.
 Un oubli d'ordre ROUTE (ou NMR) peut facilement entraîner la poursuite du trajet d'un bateau déjà arrivé à destination, et qui finira par s'écraser contre une montagne au tour suivant. Pour éviter cela, termine les ordres ROUTE par une double PAUSE, par exemple :
 
 ROUTE NE NE NE NE E E E E E E NW NW NW SE PAUSE PAUSE
@@ -98,14 +101,16 @@ Un message d'erreur s'affiche alors, mais le vaisseau ne bouge plus.
 Avec les unités TEMP, tu peux faire toutes sortes de choses et contourner les restrictions que le jeu impose par excès de prudence.
 Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui va se passer ? C'est très simple.
 
-     GIVE TEMP 123 ALL
-     GIVE TEMP 123 ALL PERSONS
-     MAKE TEMP 123
+```text
+    GIVE TEMP 123 ALL
+    GIVE TEMP 123 ALL PERSONS
+    MAKE TEMP 123
           ; ... NAME et autres nouveaux ordres de l'unité
-     END
-     GIVE neu COMMAND
+    END
+    GIVE neu COMMAND
+```
 
-L'unité vide transmet fidèlement la commande à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouveau numéro).
+L'unité vide transmet fidèlement l'ordre à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouvel identifiant).
 
 ## My ship can't sail even though it's not overloaded
 
@@ -123,8 +128,8 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[trolls]: ./races.md#trolls "Trolls"
-[paysans nomades]: ./farmers-hike.md "Bauernwanderung"
-[migration de paysans]: ./farmers-proliferation.md "Prolifération des paysans"
-[séquence des ordres]: ./commands-sequence.md "Séquence des ordres"
-[Hints]: ./hints.md "Hints"
+[trolls]: ./races.md#trolls
+[paysans nomades]: ./farmers-hike.md
+[migration de paysans]: ./farmers-proliferation.md
+[séquence des ordres]: ./commands-sequence.md
+[Hints]: ./hints.md

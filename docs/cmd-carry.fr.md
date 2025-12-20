@@ -34,8 +34,8 @@ Mit dem Befehl `RIDE` schließt sich eine Einheit einer transportierenden Einhei
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Meermenschen]: ./races.md#aquariens "Aquariens"
-[Anschwimmen]: ./travel.md#anschwimmen "Schiffsreisen"
-[Insekten]: ./races.md#insectes "Insectes"
-[Reisen]: ./travel.md "Reisen"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Meermenschen]: ./races.md#aquariens
+[Anschwimmen]: ./travel.md#anschwimmen
+[Insekten]: ./races.md#insectes
+[Reisen]: ./travel.md

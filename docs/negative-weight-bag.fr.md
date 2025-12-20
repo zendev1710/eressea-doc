@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: sac-a-poids-negatif
 ---
 # Sac à poids négatif

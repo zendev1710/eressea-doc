@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: regles
 ---
 # Règles
@@ -20,5 +21,5 @@ Poursuivre la lecture : [[introduction]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->
 
-[Atlantis]: ./atlantis.md "Atlantis"
-[Conseils pour l'édition des règles]: ./eressea-join.md "Eressea:Mitmachen"
+[Atlantis]: ./atlantis.md
+[Conseils pour l'édition des règles]: ./eressea-join.md

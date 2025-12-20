@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-grow
     text: GROW
@@ -22,6 +23,6 @@ For `GROW HERBS` you need at least [Herbalism][Taming] 6. The unit tries to plan
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/en&oldid=14482] -->
 
-[Stable]: ./buildings-others.md#stable "Andere Gebäude"
-[Taming]: ./skills-list.md "Liste der Talente"
-[PLANT]: ./cmd-plant.md "PLANT"
+[Stable]: ./buildings-others.md#stable
+[Taming]: ./skills-list.md
+[PLANT]: ./cmd-plant.md

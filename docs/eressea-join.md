@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: join-eressea
     text: Join Eressea
@@ -66,4 +67,4 @@ Sonstige Beispiele sollten eher nicht als eigener Abschnitt gesetzt werden, sond
 
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea:Mitmachen&oldid=16081] -->
 
-[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
+[Das dritte Zeitalter]: ./the-third-age.md

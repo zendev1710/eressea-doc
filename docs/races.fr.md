@@ -31,14 +31,14 @@ Le peuple magique du royaume des fées n'est pas fait pour le travail pénible, 
 - Les elfes font 1 point de dégâts supplémentaire avec les arcs.
 - Seuls les elfes peuvent construire des [elven bows].
 
-## Goblins
+## Gobelins
 
-Les goblins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent compter sur la ruse ou le surnombre. Chez eux, la règle est "la masse plutôt que la classe".
+Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent compter sur la ruse ou le surnombre. Chez eux, la règle est "la masse plutôt que la classe".
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
-- Les goblins ne pèsent que 6 kg, mais leur capacité de transport (4,4 kg) est également moindre.
-- Si des goblins ayant un niveau d'au moins 4 en stealth [volent], ils dérobent toujours au moins 50 Silver, même s'ils se font prendre.
-- Les goblins non armés ont un bonus de +2 à leur défense.
+- Les gobelins ne pèsent que 6 kg, mais leur capacité de transport (4,4 kg) est également moindre.
+- Si des gobelins ayant un niveau d'au moins 4 en stealth [volent], ils dérobent toujours au moins 50 Silver, même s'ils se font prendre.
+- Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 
 ## Halflings
@@ -126,34 +126,34 @@ Les nains (dwarves) vivent dans les montagnes, leurs armes sont réputées et le
 
 Poursuivre la lecture : [Modificateurs de compétences].
 
-[Modificateurs de compétences]: ./skills-modifiers.md "Talentmodifikatoren"
+[Modificateurs de compétences]: ./skills-modifiers.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 
-[Bonus et Malus]: ./skills-modifiers.md "Talentmodifikatoren"
-[famine]: ./silver.md#famine "Famine"
-[recrutés]: ./silver.md#recruter "Recrutement"
-[`GIVE 0`]: ./cmd-give.md "GIVE"
-[camoufler]: ./cmd-hide.md "HIDE"
-[max. workers]: ./world.md "Welt"
-[mages]: ./magic.md "Magie"
-[elven bows]: ./war-tables.md#armes-et-leurs-proprietes "Guerrestabellen"
-[volent]: ./cmd-steal.md "STEAL"
-[bateaux]: ./ships.md "Bateaux"
-[fuir]: ./war.md#la-fuite "Guerre"
-[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
-[dragons]: ./monsters.md#dragons "Drachen"
-[alchemy]: ./skills-list.md "Liste des compétences"
-[potion]: ./alchemy.md "Tränke"
-[hier]: ./war-tables.md#rasseneigenschaften "Guerrestabellen"
-[tactics]: ./tactic.md "Tactique"
-[groupes]: ./cmd-group.md "GROUP"
-[commercer]: ./silver.fr.md#commerce "Argent"
-[déplacent]: ./travel.md "Reisen"
-[ordres longs]: ./commands.md "Ordres"
-[nager]: ./sailing.fr.md#nager "Schiffsreisen"
-[compétences payantes]: ./skills.md "Talente"
-[Héros]: ./cmd-promote.md "PROMOTE"
-[ici]: ./buildings-others.fr.md#celcle-de-pierres "Cercle de Pierres"
-[1]: ./resources.fr.md#ressources-minières "Ressources"
-[2]: ./buildings-others.fr.md#mine "Mine"
+[Bonus et Malus]: ./skills-modifiers.md
+[famine]: ./silver.md#famine
+[recrutés]: ./silver.md#recruter
+[`GIVE 0`]: ./cmd-give.md
+[camoufler]: ./cmd-hide.md
+[max. workers]: ./world.md
+[mages]: ./magic.md
+[elven bows]: ./war-tables.md#armes-et-leurs-proprietes
+[volent]: ./cmd-steal.md
+[bateaux]: ./ships.md
+[fuir]: ./war.md#la-fuite
+[`COMBAT FLEE`]: ./cmd-combat.md
+[dragons]: ./monsters.md#dragons
+[alchemy]: ./skills-list.md
+[potion]: ./alchemy.md
+[hier]: ./war-tables.md#rasseneigenschaften
+[tactics]: ./tactic.md
+[groupes]: ./cmd-group.md
+[commercer]: ./silver.fr.md#commerce
+[déplacent]: ./travel.md
+[ordres longs]: ./commands.md
+[nager]: ./sailing.fr.md#nager
+[compétences payantes]: ./skills.md
+[Héros]: ./cmd-promote.md
+[ici]: ./buildings-others.fr.md#celcle-de-pierres
+[1]: ./resources.fr.md#ressources-minières
+[2]: ./buildings-others.fr.md#mine

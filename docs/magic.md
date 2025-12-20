@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: magic
     text: Magic
@@ -9,8 +10,12 @@ Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen
 
 ## The Study of Magic
 
-Each factoin must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], {[tybied-spells|Tybied]}, [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].
-Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LEARN MAGIE "Magiegebiet"]. In Folge heißt der Befehl nur noch [LEARN MAGIE][LEARN MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten [LEARN MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!
+Each faction must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], {[tybied-spells|Tybied]}, [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].
+
+Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls [LEARN MAGIE "Magiegebiet"].
+In Folge heißt der Befehl nur noch [LEARN MAGIE][LEARN MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet.
+Es ist jedoch möglich, mehreren Einheiten [LEARN MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden.
+Deshalb will diese Entscheidung wohl überlegt sein!
 
 Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.
 
@@ -246,7 +251,7 @@ Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: ./toad.md "Kröte"
+[Kröte]: ./toad.md
 
 ## Magic resistance
 
@@ -337,24 +342,24 @@ Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md "LEARN"
-[Partei]: ./factions.md "Partei"
-[Akademie]: ./buildings-others.md "Andere Gebäude"
-[COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md "COMBATSPELL"
-[COMBAT-Befehle]: ./war.md#combat-rows "Krieg"
-[Die Seiten in einer Schlacht]: ./war.md#the-sides-in-a-battle "Krieg"
+[LEARN MAGIE "Magiegebiet"]: ./cmd-learn.md
+[Partei]: ./factions.md
+[Akademie]: ./buildings-others.md
+[COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md
+[COMBAT-Befehle]: ./war.md#combat-rows
+[Die Seiten in einer Schlacht]: ./war.md#the-sides-in-a-battle
 [Aura]: #aura
 [Fernzauber]: #distance-magic
 [Magieresistenz]: #magic-resistance
-[Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
-[Andere Gebäude#magierturm]: ./buildings-others.md#mage-tower "Andere Gebäude"
-[gesegneten Steinkreis]: ./buildings-others.md#stonecircle "Andere Gebäude"
+[Ring der Macht]: ./ring-of-power.md
+[Andere Gebäude#magierturm]: ./buildings-others.md#mage-tower
+[gesegneten Steinkreis]: ./buildings-others.md#stonecircle
 [Wahrscheinlichkeit für Patzer]: #blunder
-[Rassen]: ./races.md "Rasse (to be documented)"
-[Zauber]: ./spells-list.md "Zauberliste E2"
-[Waffen oder Rüstungen]: ./war-tables.md#magic-resistance "Kriegstabellen"
+[Rassen]: ./races.md
+[Zauber]: ./spells-list.md
+[Waffen oder Rüstungen]: ./war-tables.md#magic-resistance
 [Elfen]: ./skills-modifiers.md
 [Chaosfluch]: ./spells-descriptions.md#chaosfluch
-[Vertraute]: ./familiars.md "Vertraute"
-[Wesen]: ./monsters.md#braineaters "Monster"
-s[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"
+[Vertraute]: ./familiars.md
+[Wesen]: ./monsters.md#braineaters
+s[Zauberbeschreibungen]: ./spells-descriptions.md

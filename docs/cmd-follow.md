@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-follow
     text: FOLLOW
@@ -43,9 +44,9 @@ Es ist nicht möglich, sinnvoll mehrere FOLLOW-Befehle zu geben. Es wird immer n
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLLOW/en&oldid=8282] -->
 
-[Travel]: ./travel.md "Reisen"
-[MOVE]: ./cmd-move.md "MOVE"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[RIDE]: ./cmd-ride.md "RIDE"
-[CARRY]: ./cmd-carry.md "CARRY"
-[PIRACY]: ./cmd-piracy.md "PIRACY"
+[Travel]: ./travel.md
+[MOVE]: ./cmd-move.md
+[ROUTE]: ./cmd-route.md
+[RIDE]: ./cmd-ride.md
+[CARRY]: ./cmd-carry.md
+[PIRACY]: ./cmd-piracy.md

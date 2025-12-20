@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: schools-of-magic
     text: Schools of Magic
@@ -63,13 +64,13 @@ Hier findet man eine Liste aller [Draigzauber].
 
 Continue reading: [Zauberliste E2].
 
-[Zauberliste E2]: ./spells-list.md "Zauberliste E2"
+[Zauberliste E2]: ./spells-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
 
-[magic]: ./magic.md "Magic"
-[Illaunzauber]: ./magic-school-illaun.md "Illaunzauber"
-[Tybiedzauber]: ./magic-school-tybied.md "Tybiedzauber"
-[Cerddorzauber]: ./magic-school-cerddor.md "Cerddorzauber"
-[Gwyrrdzauber]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
-[Draigzauber]: ./magic-school-draig.md "Draigzauber"
+[magic]: ./magic.md
+[Illaunzauber]: ./magic-school-illaun.md
+[Tybiedzauber]: ./magic-school-tybied.md
+[Cerddorzauber]: ./magic-school-cerddor.md
+[Gwyrrdzauber]: ./magic-school-gwyrrd.md
+[Draigzauber]: ./magic-school-draig.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: epee-flamboyante
 ---
 # Épée flamboyante

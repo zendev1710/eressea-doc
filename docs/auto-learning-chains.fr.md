@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: chaines-d-apprentissage-automatisees
 ---
 # Chaînes d'apprentissage automatisées

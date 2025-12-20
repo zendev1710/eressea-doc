@@ -1,57 +1,61 @@
 ---
+# cSpell:locale fr, en
 alias: conseils-pour-debutants
 ---
 # Conseils pour débutants
 
-Lors de la saisie des commandes, assures-toi d'avoir utilisé le numéro de faction et les numéros d'unité corrects.
-[[cmd-password|Définis un mot de passe]] et n'oublie pas de le mémoriser.
+Lors de la saisie des commandes, assure-toi d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
+[[cmd-password|Définis un mot de passe]] et n'oublie pas de le mémoriser.  
 
-C'est plus intéressant pour tout le monde si tu donnes des noms originaux à ta faction et à toutes tes unités.
-N'oublie pas qu'Eressea est un jeu de rôle fantastique : des noms comme « Les tortionnaires télécommandés de Barney » (oui, ça a vraiment existé !) ne correspondent pas à l'ambiance d'Eressea.
+C'est plus intéressant pour tout le monde si tu donnes des noms originaux à ta faction et à toutes tes unités.  
+N'oublie pas qu'Eressea est un jeu de rôle fantastique : des noms comme « Les tortionnaires télécommandés de Barney » (oui, ça a vraiment existé !) ne correspondent pas à l'ambiance d'Eressea.  
 
-Si tu as le moindre doute ou la moindre question, le mieux est de contacter le [serveur Discord d'Eressea].
-Tu peux y accéder via un navigateur, un programme installé ou une application.
-On t'y donnera sans aucun doute des conseils pour tes premiers pas et tu auras les réponses à tes questions.
-Tu peux également poser tes questions sur le [forum des Jeux PbEm].
-Eressea y possède son propre sous-forum.
+Si tu as le moindre doute ou la moindre question, le mieux est de contacter le [serveur Discord d'Eressea].  
+Tu peux y accéder via un navigateur, un programme installé ou une application.  
+On t'y donnera sans aucun doute des conseils pour tes premiers pas et tu auras les réponses à tes questions.  
+Tu peux également poser tes questions sur le [forum des Jeux PbEm].  
+Eressea y possède son propre sous-forum.  
 
-La plupart des joueurs utilisent[ [magellan]], un programme qui lit le CR (Computer Report), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.
+La plupart des joueurs utilisent[ [magellan]], un programme qui lit le CR (Computer Report), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
 
-Il y a ensuite [[echeck]], un programme qui te permet de vérifier la validité de tes ordres.
-ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.
-Utilise ECheck chez toi avec l'option -e pour vérifier si tes ordres sont interprétés comme prévu.
-ECheck vérifie uniquement la syntaxe des ordres.
-ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'évaluation]] du serveur est utilisé.
+Il y a ensuite [[echeck]], un programme qui te permet de vérifier la validité de tes ordres.  
+ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  
+Utilise ECheck chez toi avec l'option -e pour vérifier si tes ordres sont interprétés comme prévu.  
+ECheck vérifie uniquement la syntaxe des ordres.  
+ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'évaluation]] du serveur est utilisé.  
 
-Fixe-toi plusieurs objectifs.
-L'un de tes premiers objectifs devrait être d'explorer les environs.
-C'est le seul moyen de découvrir les régions montagneuses et forestières importantes où tu pourras extraire du minerai et récolter du bois.
-Envoie donc quelques unités composées d'un seul soldat et donne-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.
-Remarque : n'oublie pas de prendre en compte l'argent nécessaire au recrutement !
+Fixe-toi plusieurs objectifs.  
+L'un de tes premiers objectifs devrait être d'explorer les environs.  
+C'est le seul moyen de découvrir les régions montagneuses et forestières importantes où tu pourras extraire du minerai et récolter du bois.  
+Envoie donc quelques unités composées d'un seul soldat et donne-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.  
+Remarque : n'oublie pas de prendre en compte l'argent nécessaire au recrutement !  
 
-Crée davantage d'unités et apprends certaines compétences dont tu penses avoir besoin lors des trois ou quatre prochains tours.
+Crée davantage d'unités et apprends certaines compétences dont tu penses avoir besoin lors des trois ou quatre prochains tours.  
 
-Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent. Sans suffisamment d'argent, ta faction ne pourra pas se développer.
-Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus; pour cela, il te faut, par exemple, des métaux ([exploitation minière]) ou du bois ([exploitation forestière]) pour fabriquer des armes comme des épées ou des lances; et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts], [compétences d'armes]).
+Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent. Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
+Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus;  
+pour cela, il te faut, par exemple, des métaux ([exploitation minière]) ou du bois ([exploitation forestière]) pour fabriquer des armes comme des épées ou des lances;  
+et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts], [compétences d'armes]).  
 
-La [[camouflage|perception]] est une compétence essentielle, souvent sous-estimée par les débutants.
-Seuls les percepteurs peuvent repérer les unités camouflées et les empêcher de [piller] ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.
-Il est également conseillé de construire des [[chateaux|châteaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].
-Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].
-Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.
+La [[camouflage|perception]] est une compétence essentielle, souvent sous-estimée par les débutants.  
+Seuls les percepteurs peuvent repérer les unités camouflées et les empêcher de [piller] ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
+Il est également conseillé de construire des [[chateaux|châteaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].  
+Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].  
+Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 
-Les unités aux compétences coûteuses, comme [[tactique]], [[liste-des-competences|alchimiste]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).
-Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.
-De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).
+Les unités aux compétences coûteuses, comme [[tactique]], [[liste-des-competences|alchimiste]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).  
+Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
+De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  
 
-Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.
-En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.
+Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.  
+En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.  
 
-Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.
-Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.
-Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.
-Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.
-Voici un exemple de ces commentaires :
+Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
+Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.  
+Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.  
+Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  
+
+Exemple de commentaires :
 
     ```
     REGION 4,4 ; Lochinver
@@ -69,56 +73,56 @@ Voici un exemple de ces commentaires :
         ROUTE SW W PAUSE E NE PAUSE
     ```
 
-Le commentaire suivant l'ordre [[cmd-unit]] est inséré dans le modèle d'évaluation par le programme ;
-après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).
+Le commentaire suivant l'ordre [[cmd-unit]] est inséré dans le modèle d'évaluation par le programme ;  
+après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).  
 
-Attention aux coûts d'entretien.
-Les grandes unités consomment beaucoup d'argent, et sans ressources, la population mourra de faim.
-Il suffit qu'une seule de tes unités dans une région dispose de suffisamment d'argent pour nourrir toutes les autres.
-N'oublie pas les unités qui quittent la région !
+Attention aux coûts d'entretien.  
+Les grandes unités consomment beaucoup d'argent, et sans ressources, la population mourra de faim.  
+Il suffit qu'une seule de tes unités dans une région dispose de suffisamment d'argent pour nourrir toutes les autres.  
+N'oublie pas les unités qui quittent la région !  
 
-Durant les premiers tours, tu peux vivre de ton capital de départ, mais tu auras rapidement besoin d'un revenu régulier.
-Ce capital de départ est généralement épuisé après quatre à six tours.
-Le moyen le plus rapide de générer des revenus est de travailler comme percepteur d'impôts et artiste, et le [commerce] de produits de luxe promet des profits importants à long terme.
+Durant les premiers tours, tu peux vivre de ton capital de départ, mais tu auras rapidement besoin d'un revenu régulier.  
+Ce capital de départ est généralement épuisé après quatre à six tours.  
+Le moyen le plus rapide de générer des revenus est de travailler comme percepteur d'impôts et artiste, et le [commerce] de produits de luxe promet des profits importants à long terme.  
 
-Planifie soigneusement les premières semaines.
-Tu pourras ainsi calculer précisément le nombre d'artistes, de percepteurs d'impôts, d'armuriers, de bûcherons, etc., que tu peux et dois recruter.
+Planifie soigneusement les premières semaines.  
+Tu pourras ainsi calculer précisément le nombre d'artistes, de percepteurs d'impôts, d'armuriers, de bûcherons, etc., que tu peux et dois recruter.  
 
-Au début de la partie, les unités de plusieurs factions sont parfois positionnées à proximité les unes des autres.
-Coordonne-toi et répartis les tâches afin d'optimiser ton expansion.
-Maintiens le contact avec de nombreuses factions; cela rend le jeu plus palpitant et te sera utile par la suite.
-En cas de conflit, sache que tu n'es pas seul.
-Les contacts te permettent d'échanger des informations, comme des données cartographiques; ils te permettent de partager tes expériences et tes astuces, et l'apprentissage mutuel est particulièrement précieux.
+Au début de la partie, les unités de plusieurs factions sont parfois positionnées à proximité les unes des autres.  
+Coordonne-toi et répartis les tâches afin d'optimiser ton expansion.  
+Maintiens le contact avec de nombreuses factions; cela rend le jeu plus palpitant et te sera utile par la suite.  
+En cas de conflit, sache que tu n'es pas seul.  
+Les contacts te permettent d'échanger des informations, comme des données cartographiques; ils te permettent de partager tes expériences et tes astuces, et l'apprentissage mutuel est particulièrement précieux.  
 
-Pour contacter d'autres factions, obtiens la liste de celles de ta région à l'aide de l'ordre [[cmd-option]] ADRESSES et contacte-les directement.
-Utilise lordre [[cmd-message]] REGION pour signaler ta présence aux autres factions.
+Pour contacter d'autres factions, obtiens la liste de celles de ta région à l'aide de l'ordre [[cmd-option]] ADRESSES et contacte-les directement.  
+Utilise l'ordre [[cmd-message]] REGION pour signaler ta présence aux autres factions.  
 
-Pour atteindre tes objectifs, ne lésine pas sur les dépenses.
-Le capital de départ est destiné à l'investissement.
-Le premier mineur produit du fer à grande échelle, le deuxième forge des épées et le troisième entraîne des guerriers.
-De plus, tu peux entreprendre diverses autres tâches : cartographier, former des mages, construire des navires, bâtir un château, fonder une guilde de voleurs, créer une petite caravane commerciale avec des chevaux et des chariots...
-Pour ces tâches, tu peux créer de nouvelles unités.
+Pour atteindre tes objectifs, ne lésine pas sur les dépenses.  
+Le capital de départ est destiné à l'investissement.  
+Le premier mineur produit du fer à grande échelle, le deuxième forge des épées et le troisième entraîne des guerriers.  
+De plus, tu peux entreprendre diverses autres tâches : cartographier, former des mages, construire des navires, bâtir un château, fonder une guilde de voleurs, créer une petite caravane commerciale avec des chevaux et des chariots...  
+Pour ces tâches, tu peux créer de nouvelles unités.  
 
-Il faut éviter les guerres, surtout dans la phase initiale : les unités précieuses sont perdues trop rapidement, les revenus sont trop faibles ou les approvisionnements en matériaux s'épuisent.
+Il faut éviter les guerres, surtout dans la phase initiale : les unités précieuses sont perdues trop rapidement, les revenus sont trop faibles ou les approvisionnements en matériaux s'épuisent.  
 
-Si tu es en contact avec une faction puissante, essaie de lui vendre quelque chose.
-Essaie d'abattre des arbres, d'extraire des pierres ou du fer.
-Il est judicieux de localiser ou de construire deux châteaux pour commercer entre eux.
-Pour cela, tu auras besoin de marchands et de chariots.
-Achète un chariot et deux chevaux au seigneur du château ou construis-en un toi-même.
+Si tu es en contact avec une faction puissante, essaie de lui vendre quelque chose.  
+Essaie d'abattre des arbres, d'extraire des pierres ou du fer.  
+Il est judicieux de localiser ou de construire deux châteaux pour commercer entre eux.  
+Pour cela, tu auras besoin de marchands et de chariots.  
+Achète un chariot et deux chevaux au seigneur du château ou construis-en un toi-même.  
 
-Il n'est pas nécessaire d'être allié à des partenaires commerciaux.
-Utilise l'ordre' [[cmd-contact]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.
+Il n'est pas nécessaire d'être allié à des partenaires commerciaux.  
+Utilise l'ordre' [[cmd-contact]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
 
-L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.
+L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.  
 Il illustre, par exemple, que tu peux tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give]] est en position 14, [[cmd-make]] en position 22), mais tu ne peux pas lui donner de potions et les utiliser immédiatement ([[cmd-use]] est en position 7).
 
-Il n'y a pas de gagnants dans ce jeu.
-La partie dure jusqu'à ce que tu perdes espoir ou que tes ennemis t'aient anéantis.
-Ensuite, si les maîtres du jeu le permettent, tu devrez recommencer avec une nouvelle faction.
+Il n'y a pas de gagnants dans ce jeu.  
+La partie dure jusqu'à ce que tu perdes espoir ou que tes ennemis t'aient anéantis.  
+Ensuite, si les maîtres du jeu le permettent, tu devrez recommencer avec une nouvelle faction.  
 
-Et surtout, n'oublie jamais : ce n'est qu'un jeu ! Il est fait pour que tout le monde s'amuse.
-Ne te laisse pas agacer ni emporter par des décisions hâtives : le joueur qui incarne les orcs méchants est probablement quelqu'un de bien...
+Et surtout, n'oublie jamais : ce n'est qu'un jeu ! Il est fait pour que tout le monde s'amuse.  
+Ne te laisse pas agacer ni emporter par des décisions hâtives : le joueur qui incarne les orcs méchants est probablement quelqu'un de bien...  
 
 ## Voir aussi
 

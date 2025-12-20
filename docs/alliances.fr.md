@@ -49,13 +49,13 @@ Poursuivre la lecture : [magic].
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 
 <!-- -->
-[magic]: ./magic.md "Magie"  
-[soutenant]: ./silver.md#frais-dentretien "Argent"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[lever des impôts]: ./silver.md "Argent"
-[recruter]: ./silver.md#recruiting "RECRUIT"
-[produire]: ./resources.md "Ressources"
-[après les combats]: ./war.md#kampfende "La guerre"
-[entrer]: ./cmd-enter.md "ENTER"
-[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md "HIDE"
+[magic]: ./magic.md
+[soutenant]: ./silver.md#frais-dentretien
+[`GUARD`]: ./cmd-guard.md
+[lever des impôts]: ./silver.md
+[recruter]: ./silver.md#recruiting
+[produire]: ./resources.md
+[après les combats]: ./war.md#fin-du-combat
+[entrer]: ./cmd-enter.md
+[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md
 <!-- -->

@@ -22,8 +22,8 @@ Spielererfahrung: Solthar`PLANT` und `GROW` sind synonyme Befehle. Du kannst Sam
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Kräuterkunde]: ./skills-list.md "Liste der Talente"
-[Wasser des Lebens]: ./potions-and-herbs.md "Tabellen: Tränke und Kräuter"
-[GROW]: ./cmd-grow.md "GROW"
-[Rohstoffe]: ./resources.md "Rohstoffe"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Kräuterkunde]: ./skills-list.md
+[Wasser des Lebens]: ./potions-and-herbs.md
+[GROW]: ./cmd-grow.md
+[Rohstoffe]: ./resources.md

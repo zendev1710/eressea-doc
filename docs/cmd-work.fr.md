@@ -26,4 +26,4 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[diese Tabelle]: ./silver.md#beispiele-zu-den-verdienstmöglichkeiten "Einnahmen"
+[diese Tabelle]: ./silver.md#beispiele-zu-den-verdienstmöglichkeiten

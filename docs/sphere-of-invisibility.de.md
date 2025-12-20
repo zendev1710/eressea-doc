@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: sphaere-der-unsichtbarkeit
 ---
 # Sphäre der Unsichtbarkeit

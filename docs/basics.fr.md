@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: bases
 ---
 # Bases
@@ -51,10 +52,10 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Magellan]: ./magellan.md "Magellan"
-[CSMap]: ./csmapfx.md "CSMap"
-[Aktion]:./commands.md#kurze-und-lange-befehle "Ordres"
-[bewacht]: ./cmd-guard.md "GUARD"
-[attackiert]: ./cmd-attack.md "ATTACK"
-[Hungern]: ./silver.md#hunger "Geld"
-[Materialpool]: ./items-pool.md "Materialpool"
+[Magellan]: ./magellan.md
+[CSMap]: ./csmapfx.md
+[Aktion]:./commands.md#kurze-und-lange-befehle
+[bewacht]: ./cmd-guard.md
+[attackiert]: ./cmd-attack.md
+[Hungern]: ./silver.md#hunger
+[Materialpool]: ./items-pool.md

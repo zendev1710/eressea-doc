@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-sell
     text: SELL
@@ -23,8 +24,8 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Handeln]: ./silver.md#trade "Trade"
-[Burgtyp]: ./castles.md "Burgen"
-[`BUY`]: ./cmd-buy.md "BUY"
-["pseudolanger" Befehl]: ./commands.md "Orders"
+[<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders
+[Handeln]: ./silver.md#trade
+[Burgtyp]: ./castles.md
+[`BUY`]: ./cmd-buy.md
+["pseudolanger" Befehl]: ./commands.md

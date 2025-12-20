@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: du-spielst-zuviel-eressea-wenn
 ---
 # Du spielst zuviel Eressea, wenn

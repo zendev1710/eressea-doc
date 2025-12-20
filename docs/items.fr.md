@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: objets
 ---
 # Objets
@@ -71,8 +72,8 @@ Poids, compétence et ressources nécessaires.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666] -->
 
-[ces exemples]: ./production.md "Produktion"
-[ressources]: ./resources.md "Ressources"
-[routes]: ./roads.md "Straßen"
-[bâtiments]: ./buildings.md "Gebäude"
-[tables militaires]: ./war-tables.md "Guerrestabellen"
+[ces exemples]: ./production.md
+[ressources]: ./resources.md
+[routes]: ./roads.md
+[bâtiments]: ./buildings.md
+[tables militaires]: ./war-tables.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: argent
 ---
 # Argent
@@ -207,28 +208,28 @@ Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][HELP SILVER] o
 
 Poursuivre la lecture : [Material Pool].
 
-[Material Pool]: ./items-pool.md "Materialpool"
+[Material Pool]: ./items-pool.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
 
-[travailler]: ./cmd-work.md "WORK"
-[divertir]: ./cmd-entertain.md "ENTERTAIN"
-[Races]: ./races.md "Rassen"
-[HELP SILVER]: ./cmd-help.md "HELP"
-[Bâtiments]: ./buildings.md "Gebäude"
-[aquariens]: ./races.md#aquariens "Aquariens"
-[dommages]: ./ships.md "Schiff"
+[travailler]: ./cmd-work.md
+[divertir]: ./cmd-entertain.md
+[Races]: ./races.md
+[HELP SILVER]: ./cmd-help.md
+[Bâtiments]: ./buildings.md
+[aquariens]: ./races.md#aquariens
+[dommages]: ./ships.md
 [Fin de bataille]: ./war.md#fin-de-la-bataille"Fin de la bataille"
-[compétence endurance]: ./war-tables.md "Guerrestabellen"
-[morts-vivants]: ./monsters.md#undead "Undead"
-[WORK]: ./cmd-work.md "ARBEITEN"
-[ce]: ./castles.md#übersicht "Burg"
-[`STEAL`]: ./camouflage.md "STEAL"
-[Stealth]: ./camouflage.md "Tarnung"
-[perception]: ./camouflage.md "Wahrnehmung"
-[BUY]: ./cmd-buy.md "BUY"
-[SELL]: ./cmd-sell.md "SELL"
-[châteaux]: ./castles.md "Burgen"
-[Port (harbour)]: ./buildings-others.md "Andere Gebäude"
+[compétence endurance]: ./war-tables.md
+[morts-vivants]: ./monsters.md#undead
+[WORK]: ./cmd-work.md
+[ce]: ./castles.md#übersicht
+[`STEAL`]: ./camouflage.md
+[Stealth]: ./camouflage.md
+[perception]: ./camouflage.md
+[BUY]: ./cmd-buy.md
+[SELL]: ./cmd-sell.md
+[châteaux]: ./castles.md
+[Port (harbour)]: ./buildings-others.md
 
 [commercer]: #commerce

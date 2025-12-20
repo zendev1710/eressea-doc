@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: tactique
 ---
 # Tactique
@@ -52,5 +53,5 @@ Cela signifie que 12 tacticiens de niveau X atteignent en moyenne le même nivea
 
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/fr&oldid=13466] -->
 
-[combat]: ./cmd-combat.md "COMBAT"
-[de la guerre]: ./war-tables.md#die-taktikerrunde "Kampf"
+[combat]: ./cmd-combat.md
+[de la guerre]: ./war-tables.md#die-taktikerrunde

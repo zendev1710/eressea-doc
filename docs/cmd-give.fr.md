@@ -74,7 +74,7 @@ Expérience de jeu : Solthar Willst du einer Einheit einer anderen Partei Perso
     END
     ```
 
-[1]: ./races.md#menschen "Rassen"
+[1]: ./races.md#menschen
 
 Mit `GIVE`*`unit-id`*`UNIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 
@@ -101,11 +101,11 @@ Mit `GIVE`*`unit-id`*` `*`anzahl`*`SHIP` übergibt der Besitzer eines Schiffes o
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/fr&oldid=15993] -->
 
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[Materialpool]: ./items-pool.md "Materialpool"
-[Talente]: ./skills.md "Talente"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[Konvoi]: ./ships.md#konvoi "Schiff"
-[RESERVE]: ./cmd-reserve.md "RESERVE"
-[Schiff]: ./ships.md "Schiff"
-[Gebäude]: ./buildings.md "Gebäude"
+[CONTACT]: ./cmd-contact.md
+[Materialpool]: ./items-pool.md
+[Talente]: ./skills.md
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md
+[Konvoi]: ./ships.md#konvoi
+[RESERVE]: ./cmd-reserve.md
+[Schiff]: ./ships.md
+[Gebäude]: ./buildings.md

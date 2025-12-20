@@ -32,19 +32,19 @@ Poursuivre la lecture : [Le monde d'Eressea].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
-[Le monde d'Eressea]: ./world.md "Le monde d'Eressea"
-[faction]: ./factions.md "Partei"
-[race]: ./races.md "Rassen"
-[Inscription]: ./hints.md#anmeldung "Anmelden wie?"
-[Elfes]: ./races.md#elfes "Elf"
-[Nains]: ./races.md#nains "Zwerg"
-[magie]: ./magic.md "Magie"
-[dragons]: ./monsters.md#drachen "Drachen"
-[monstres]: ./monsters.md "Monster"
-[ordres]: ./commands.md "Befehle"
-[NR]: ./reports.md#nr "NR (to be documented)"
-[CR]: ./reports.md#cr "CR (to be documented)"
-[programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[modèle de train]: ./move-template.md "Zugvorlage (to be documented)"
-[point hebdomadaire]: ./weekly-report.md "Wochenbericht"
+[Le monde d'Eressea]: ./world.md
+[faction]: ./factions.md
+[race]: ./races.md
+[Inscription]: ./hints.md#anmeldung
+[Elfes]: ./races.md#elfes
+[Nains]: ./races.md#nains
+[magie]: ./magic.md
+[dragons]: ./monsters.md#drachen
+[monstres]: ./monsters.md
+[ordres]: ./commands.md
+[NR]: ./reports.md#nr
+[CR]: ./reports.md#cr
+[programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[modèle de train]: ./move-template.md
+[point hebdomadaire]: ./weekly-report.md
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"

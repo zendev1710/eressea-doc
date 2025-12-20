@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: envoi-des-ordres-depuis-magellan
 ---
 # Envoi des ordres depuis Magellan
@@ -104,8 +105,8 @@ title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Ein
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_von\_Magellan\_verschicken&oldid=7407] -->
 
-[Magellan]: ./magellan.md "Magellan"
-[E-Mail-Versands]: ./commands-send.md "Befehle einschicken"
+[Magellan]: ./magellan.md
+[E-Mail-Versands]: ./commands-send.md
 [https://hilfe.gmx.net/pop-imap/index.html]: https://hilfe.gmx.net/pop-imap/index.html
 [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html]: https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html
 [https://hilfe.gmx.net/pop-imap/einschalten.html]: https://hilfe.gmx.net/pop-imap/einschalten.html

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: reponse-automatisee-a-un-evenement
 ---
 # Réponse automatisée à un événement

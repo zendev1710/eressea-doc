@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: golem-de-fer
 ---
 # Golem de Fer

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-carry
     text: CARRY
@@ -39,8 +40,8 @@ Mit dem Befehl `RIDE` schließt sich eine Einheit einer transportierenden Einhei
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Meermenschen]: ./races.md#aquarians "Meermenschen"
-[Anschwimmen]: ./sailing.md#swimming "Swimming"
-[Insekten]: ./races.md#insects "Insects"
-[Reisen]: ./travel.md "Reisen"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Meermenschen]: ./races.md#aquarians
+[Anschwimmen]: ./sailing.md#swimming
+[Insekten]: ./races.md#insects
+[Reisen]: ./travel.md

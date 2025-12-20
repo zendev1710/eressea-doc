@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: races
     text: Races
@@ -56,14 +57,14 @@ Halflings are small fellows with hairy feet. They are good traders and know how 
 
 ## Insects
 
-Most insectoid warriors live in organized hives. They hate the cold and prefer the swamps and deserts of Eressea. Their hard carapace will protect them in the battlefields, their skills and discipline make them renowned teachers.
+Most insect warriors live in organized hives. They hate the cold and prefer the swamps and deserts of Eressea. Their hard carapace will protect them in the battlefields, their skills and discipline make them renowned teachers.
 
-**Attention!** Insects not very suitable for inexperienced Eressea players!
+**Attention!** Insects are not very suitable for inexperienced Eressea players!
 
 - Cold Blooded: In deserts and swamps, insects get +1 on all skills they still have at least at 1, in mountains and glaciers they get -1.
 - Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation rule] rule.
 - Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can produce a [potion] of "nest warmth" that makes recruitment in other terrains possible.
-- Carapace Armor: Insects are protected by their natural armor. This natural armour will be halved if the insects are wearing additional armor. (see this [combat table]).
+- Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table]).
 - Tacticians: Insects get a bonus on the [tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
 - Nomad Traders: Insects can [trade] in deserts and swamps without needing castles.
 
@@ -79,7 +80,7 @@ Known for their enhanced senses, the cat people are excellent spies and master g
 
 Aquarians are at home in the water, but they feel uncomfortable in the mountains. They build and drive ships as easily as they were building blocks, while other tasks do not come to them so naturally.
 
-- Expert Sailors: All ships commanded by an aquarian captain belonging to an aquarian faction [move] by 1 extra region per week.
+- Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move] by 1 extra region per week.
 - Sea dwellers: Aquarians can issue [long orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming].
 - Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
 
@@ -131,36 +132,36 @@ Their homes are the mountains, their weapons are famous, and their fortresses ar
 
 Continue reading: [Racial skill modifiers].
 
-[Racial skill modifiers]: ./skills-modifiers.md "Talentmodifikatoren"
+[Racial skill modifiers]: ./skills-modifiers.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
-[bonuses and penalties]: ./skills-modifiers.md "Talentmodifikatoren"
-[starvation rule]: ./silver.md#starvation "Starvation"
-[recruited]: ./silver.md#recruiting "Recruiting"
-[`GIVE 0`]: ./cmd-give.md "GIVE"
-[change their appearance]: ./cmd-hide.md "HIDE"
-[region's maximum]: ./world.md "Welt"
-[magician]: ./magic.md "Magie"
-[elven bows]: ./war-tables.md#waffeneigenschaften "Warstabellen"
-[steal]: ./camouflage.md "STEAL"
-[ships]: ./ships.md "Ships"
-[flee]: ./war.md#fleeing "War"
-[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
-[dragons]: ./monsters.md#dragons "Dragons"
-[alchemists]: ./skills-list.md "Skills list"
-[potion]: ./alchemy.md "Tränke"
-[combat table]: ./war-tables.md#rasseneigenschaften "Warstabellen"
-[tactics]: ./tactic.md "Taktik"
-[groups]: ./cmd-group.md "GROUP"
-[trade]: ./silver.md#trade "Silver"
-[move]: ./travel.md "Reisen"
-[long orders]: ./commands.md "Orders"
-[swimming]: ./sailing.md#swimming "Swimming"
-[`WORK`]: ./cmd-work.md "WORK"
-[expensive skills]: ./skills.md "Skills"
-[heroes]: ./cmd-promote.md "PROMOTE"
-[quarried]: ./resources.md#about-mining "Resources"
-[quarry]: ./buildings-others.md#quarry "Quarry"
-[RIDE]: ./cmd-ride.md "RIDE"
-[mine]: ./buildings-others.md#mine "Mine"
+[bonuses and penalties]: ./skills-modifiers.md
+[starvation rule]: ./silver.md#starvation
+[recruited]: ./silver.md#recruiting
+[`GIVE 0`]: ./cmd-give.md
+[change their appearance]: ./cmd-hide.md
+[region's maximum]: ./world.md
+[magician]: ./magic.md
+[elven bows]: ./war-tables.md#waffeneigenschaften
+[steal]: ./camouflage.md
+[ships]: ./ships.md
+[flee]: ./war.md#fleeing
+[`COMBAT FLEE`]: ./cmd-combat.md
+[dragons]: ./monsters.md#dragons
+[alchemists]: ./skills-list.md
+[potion]: ./alchemy.md
+[combat table]: ./war-tables.md#rasseneigenschaften
+[tactics]: ./tactic.md
+[groups]: ./cmd-group.md
+[trade]: ./silver.md#trade
+[move]: ./travel.md
+[long orders]: ./commands.md
+[swimming]: ./sailing.md#swimming
+[`WORK`]: ./cmd-work.md
+[expensive skills]: ./skills.md
+[heroes]: ./cmd-promote.md
+[quarried]: ./resources.md#about-mining
+[quarry]: ./buildings-others.md#quarry
+[RIDE]: ./cmd-ride.md
+[mine]: ./buildings-others.md#mine

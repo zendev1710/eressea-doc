@@ -18,8 +18,8 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
 
-[`WORK`]: ./cmd-work.md "WORK"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[`HELP`]: ./cmd-help.md "HELP"
-[Handel]: ./silver.md#handel "Handel"
-[Geld]: ./silver.md "Geld"
+[`WORK`]: ./cmd-work.md
+[`GUARD`]: ./cmd-guard.md
+[`HELP`]: ./cmd-help.md
+[Handel]: ./silver.md#handel
+[Geld]: ./silver.md

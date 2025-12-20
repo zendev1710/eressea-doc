@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias:
     name: alchimie
     text: Alchimie
@@ -9,7 +10,7 @@ Les **potions** alchimiques sont préparées à l'aide de [[herbs|plantes]] et d
 
 Les potions sont créées avec l'ordre [[cmd-make]]`"nom_de_la_Potion"`. Chaque potion nécessite plusieurs ingrédients. Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter. Plus tard, on pourra les retrouver avec la commande [[cmd-show]]. Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion. Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion\*2) potions. Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.
 
-Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use]]`[quantité] "nom_de_la_potion" [ID d'unité]`. Les numéros d'unité (ID) ne doivent être spécifiés que pour la potion Duncebun. Une potion ne peut pas être divisée entre plusieurs unités. On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.
+Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use]]`[quantité] "nom_de_la_potion" [ID d'unité]`. Les identifiants d'unité (ID) ne doivent être spécifiés que pour la potion Duncebun. Une potion ne peut pas être divisée entre plusieurs unités. On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.
 
 La plupart des potions profitent à l'unité qui les utilise. Les exceptions sont les potions qui se rapportent à une région - dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités (potion Duncebun).
 

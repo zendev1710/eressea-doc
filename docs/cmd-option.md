@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-option
     text: OPTION
@@ -37,6 +38,6 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[Vorlage für die Befehle der nächsten Runde]: ./commands.md "Orders"
-[Materialpool]: ./items-pool.md "Materialpool"
-[Silberpool]: ./items-pool.md#the-silver-pool "Silberpool"
+[Vorlage für die Befehle der nächsten Runde]: ./commands.md
+[Materialpool]: ./items-pool.md
+[Silberpool]: ./items-pool.md#the-silver-pool

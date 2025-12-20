@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     - war
 ---
@@ -169,7 +170,7 @@ Ranged combatants who get into close combat and do not have access to a melee we
 
 Unarmed goblins defend themselves with +/-0.
 
-The skill with which orcs enter unarmed combat is determined by the level of their best melee talent -3.
+The skill with which orcs enter unarmed combat is determined by the level of their best melee skill -3.
 
 Some races (generally only familiars) can learn the unarmed combat skill and then have no penalty when fighting without a weapon.
 
@@ -177,7 +178,7 @@ Castle bonus
 People in castles are additionally protected. Castle occupants receive a parry bonus depending on the size of the castle if they belong to the defending side and the castle is large enough to accommodate them. A fortification gives +1, a tower +2 etc. up to the citadel, which gives +5. If the castle occupants attack themselves, they no longer receive the castle bonus for parrying. The castle bonus also applies against ranged fighters!
 
 Horse bonus  
-In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground. To ride a horse into battle, you need a riding talent of at least 2. Riders get a +2 bonus to attack and parry because they are faster and more agile. People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus. Trolls cannot use horses in combat!
+In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground. To ride a horse into battle, you need a riding skill of at least 2. Riders get a +2 bonus to attack and parry because they are faster and more agile. People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus. Trolls cannot use horses in combat!
 
 lance bonus  
 Mounted spear and lance users get an additional bonus of +1 to attacks.
@@ -315,36 +316,36 @@ The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] an
 
 Continue reading: [[alliances]].
 
-<!-- [Alliances]: ./alliances.md "Alliances"-->
+<!-- [Alliances]: ./alliances.md-->
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
-[`ATTACK`]: ./cmd-attack.md "ATTACK"
+[`ATTACK`]: ./cmd-attack.md
 [tactics turn]: #tacticians-round
-[`COMBAT`]: ./cmd-combat.md "COMBAT"
-[`HELP COMBAT`]: ./cmd-help.md "HELP"
+[`COMBAT`]: ./cmd-combat.md
+[`HELP COMBAT`]: ./cmd-help.md
 [combat rows]: #combat-rows
 [flee]: #fleeing
 [combat at sea]: #combat-on-and-with-ships "Kampf auf Schiffen"
 [fleeing]: #fleeing "Fleeing"
 [unarmed]: #bonuses-and-mali "Boni and Mali"
 [1]: #bonuses-and-mali
-[Tactician]: ./tactic.md "Taktik"
-[Heroes]: ./cmd-promote.md "BEFÖRDERUNG"
-[Weapon characteristics]: ./war-tables.md#waffeneigenschaften "Warstabellen"
-[Racial skill modifiers]: ./war-tables.md#rasseneigenschaften "Warstabellen"
-[this]: ./war-tables.md#rüstung "Warstabellen"
-[Magic Resistance]: ./war-tables.md#magieresistenz "Warstabellen"
-[this table]: ./war-tables.md#ausdauer "Warstabellen"
+[Tactician]: ./tactic.md
+[Heroes]: ./cmd-promote.md
+[Weapon characteristics]: ./war-tables.md#waffeneigenschaften
+[Racial skill modifiers]: ./war-tables.md#rasseneigenschaften
+[this]: ./war-tables.md#rüstung
+[Magic Resistance]: ./war-tables.md#magieresistenz
+[this table]: ./war-tables.md#ausdauer
 [2]: #bonuses-and-mali
-[MAKE ammunition]: ./cmd-make.md "MAKE"
-[combat tables]: ./war-tables.md#kampfmodifikatoren "Warstabellen"
-[`COMBAT FLEE`]: ./cmd-combat.md "COMBAT"
-[`GIVE COMMAND`]: ./cmd-give.md "GIVE"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[ships]: ./ships.md "Schiffe"
-[damage]: ./ships.md#schiffsschaden "Schiff"
-[`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
-[races]: ./skills-modifiers.md "Talentmodifikatoren"
-[`ROUTE`]: ./cmd-route.md "ROUTE"
-[War tables]: ./war-tables.md "Warstabellen"
+[MAKE ammunition]: ./cmd-make.md
+[combat tables]: ./war-tables.md#kampfmodifikatoren
+[`COMBAT FLEE`]: ./cmd-combat.md
+[`GIVE COMMAND`]: ./cmd-give.md
+[`GUARD`]: ./cmd-guard.md
+[ships]: ./ships.md
+[damage]: ./ships.md#schiffsschaden
+[`FOLLOW SHIP`]: ./cmd-follow.md
+[races]: ./skills-modifiers.md
+[`ROUTE`]: ./cmd-route.md
+[War tables]: ./war-tables.md

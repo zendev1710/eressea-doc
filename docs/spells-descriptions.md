@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: description-of-spells
     text: Description of spells
@@ -1531,19 +1532,19 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
 
-[Bergwächter]: ./mountain-guard.md "Bergwächter (to be documented)"
-[Drachen]: ./monsters.md#drachen "Drachen"
-[Antimagiekristall]: ./antimagic-crystal.md "Antimagiekristall (to be documented)"
-[Eisengolems]: ./iron-golem.md "Eisengolem (to be documented)"
-[Steingolems]: ./stone-golem.md "Steingolem (to be documented)"
-[Amulett des wahren Sehens]: ./amulet-of-true-vision.md "Amulett des wahren Sehens (to be documented)"
-[Flammenschwert]: ./flaming-sword.md "Flammenschwert"
-[Traumauge]: ./dream-eye.md "Traumauge (to be documented)"
-[Sphäre der Unsichtbarkeit]: ./sphere-of-invisibility.md "Sphäre der Unsichtbarkeit (to be documented)"
-[Beutel des Negativen Gewichts]: ./negative-weight-bag.md "Beutel des Negativen Gewichts (to be documented)"
-[Gürtel der Trollstärke]: ./belt-of-troll-strength.md "Gürtel der Trollstärke (to be documented)"
-[Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
-[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md "Ring der Unsichtbarkeit"
-[magischen Kräuterbeutel]: ./magical-herb-bag.md "Magischer Kräuterbeutel (to be documented)"
-[Ents]: ./monsters.md#ents "Ent"
-[Zauberliste E2]: ./spells-list.md "Zauberliste E2"
+[Bergwächter]: ./mountain-guard.md
+[Drachen]: ./monsters.md#drachen
+[Antimagiekristall]: ./antimagic-crystal.md
+[Eisengolems]: ./iron-golem.md
+[Steingolems]: ./stone-golem.md
+[Amulett des wahren Sehens]: ./amulet-of-true-vision.md
+[Flammenschwert]: ./flaming-sword.md
+[Traumauge]: ./dream-eye.md
+[Sphäre der Unsichtbarkeit]: ./sphere-of-invisibility.md
+[Beutel des Negativen Gewichts]: ./negative-weight-bag.md
+[Gürtel der Trollstärke]: ./belt-of-troll-strength.md
+[Ring der Macht]: ./ring-of-power.md
+[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
+[magischen Kräuterbeutel]: ./magical-herb-bag.md
+[Ents]: ./monsters.md#ents
+[Zauberliste E2]: ./spells-list.md

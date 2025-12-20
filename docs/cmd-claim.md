@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-claim
     text: CLAIM
@@ -19,6 +20,6 @@ Achtung! Nicht verwechseln mit dem Materialpool, auf den man mit [[cmd-reserve]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=CLAIM&oldid=3992] -->
 
-[Parteipool]: ./faction-pool.md "Parteipool"
-[Benutzt]: ./cmd-use.md "USE"
-[RESERVE]: ./cmd-reserve.md "RESERVE"
+[Parteipool]: ./faction-pool.md
+[Benutzt]: ./cmd-use.md
+[RESERVE]: ./cmd-reserve.md

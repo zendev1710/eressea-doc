@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: familiers
 ---
 # Familiers
@@ -57,7 +58,7 @@ Il vole et dispose de sa propre magie
 
 ### Goblin
 
-Les [Goblins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.
+Les [Gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.
 
 16 Trefferpunkte, Magieresistenz -5, Angriff: -2, Verteidigung: 0. Kann Waffen benutzen. 2 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5). Alchemie +1, Armbrustschießen +0, Bergbau +1, Bogenschießen +0, Burgenbau +1, Handeln -1, Holzfällen +0, Katapultbedienung +1, Kräuterkunde +0, Magie -1, Pferdedressur +0, Reiten +0, Rüstungsbau +0, Schiffbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +0, Steinbau +0, Straßenbau -2, Taktik -2, Tarnung +1, Unterhaltung -1, Waffenbau +0, Wagenbau -1, Wahrnehmung +0, Steuereintreiben +0 und Ausdauer +0
 
@@ -209,5 +210,5 @@ Expérience de jeu : Ein Meermensch sollte sich nicht unbedingt neben einen Bin
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
 
-[Démons]: ./races.md#demons "Rassen"
-[Goblins]: ./races.md#goblins "Rassen"
+[Démons]: ./races.md#demons
+[Gobelins]: ./races.md#gobelins

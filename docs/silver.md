@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: money
     text: Money
@@ -188,23 +189,23 @@ If all guarding factions have set [[cmd-help|`HELP GUARD`]] or [[cmd-help|`HELP 
 
 Continue reading: [Material pool].
 
-[Material pool]: ./items-pool.md "Materialpool"
+[Material pool]: ./items-pool.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
-[collecting taxes]: ./cmd-tax.md "TAX"
-[working]: ./cmd-work.md "WORK"
-[entertaining]: ./cmd-entertain.md "ENTERTAIN"
-[recruit]: ./cmd-recruit.md "RECRUIT"
-[reserved]: ./cmd-reserve.md "RESERVE"
-[buildings]: ./buildings.md "Gebäude"
-[damage]: ./ships.md "Schiff"
-[endurance skill]: ./war-tables.md "Warstabellen"
-[`WORK`]: ./cmd-work.md "ARBEITEN"
-[stealth skill]: ./camouflage.md "Tarnung"
-[perception]: ./camouflage.md "Wahrnehmung"
-[castles]: ./castles.md "Burgen"
-[Item pool]: ./items-pool.md "Materialpool"
+[collecting taxes]: ./cmd-tax.md
+[working]: ./cmd-work.md
+[entertaining]: ./cmd-entertain.md
+[recruit]: ./cmd-recruit.md
+[reserved]: ./cmd-reserve.md
+[buildings]: ./buildings.md
+[damage]: ./ships.md
+[endurance skill]: ./war-tables.md
+[`WORK`]: ./cmd-work.md
+[stealth skill]: ./camouflage.md
+[perception]: ./camouflage.md
+[castles]: ./castles.md
+[Item pool]: ./items-pool.md
 
 [trading]: ./silver.md#trade
 [aquarians]: ./races.md#aquarians

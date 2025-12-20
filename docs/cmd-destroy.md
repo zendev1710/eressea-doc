@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-destroy
     text: DESTROY
@@ -16,7 +17,7 @@ Eine Einheit kann jeweils nur eine Struktur (Gebäude, Straße, Schiff) pro Woch
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Schiff]: ./ships.md "Schiff"
-[Gebäude]: ./buildings.md "Gebäude"
-[Straße]: ./roads.md "Straße"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Schiff]: ./ships.md
+[Gebäude]: ./buildings.md
+[Straße]: ./roads.md

@@ -1,3 +1,6 @@
+---
+# cSpell:locale fr, en
+---
 # MAKE
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
@@ -6,7 +9,7 @@
 **`MAKE`**`[`*`niveau`*`] SHIP [`*`bateau-id`*`]`  
 **`MAKE`**`[`*`niveau`*`] Road`*`direction`*  
 **`MAKE`**`[`*`quantité`*`] HERBS`  
-**`MAKE`**`[`*`quantité`*`]`*`objet`*
+**`MAKE`**`[`*`quantité`*`]`*`objet`*  
 
 La commande `MAKE` est la commande de production générale. Pour en savoir plus, voir le chapitre [production].
 

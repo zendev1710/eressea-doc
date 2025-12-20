@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: development
     text: Development
@@ -7,7 +8,7 @@ alias:
 
 Diese Seite soll Entwickler verschiedener Tools oder Skriptentwickler zusammenführen bzw. auf Fragestellungen eingehen die sich immer wieder stellen.
 
-## Newsgroups & Mailinglisten
+## Newsgroups & mailing lists
 
 Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magellan-Development Liste.
 
@@ -18,40 +19,43 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 - [Vorlage]
 - [crtools]
 
-### Interessante Entwicklungs-Plugins
+### Interesting development plugins
 
 - [ExtendedCommands Plugin] für Magellan
 - [FFTools 2] für Magellan
 
 ## Formate
 
-- [CR Format]
+- [[cr-format]]
 
-## Skripte
+## Scripts
 
 Bei automatisieren von Eressea-Parteien fallen immer wieder die gleichen Probleme auf. Jeder hat natürlich eine etwas andere Herangehensweise, aber im Grunde sind die Problemgebiete die gleichen. Damit man nicht immer wieder von vorn anfängt und sich vielleicht Anregungen holen kann, möchte ich hier gern eine Art Fundgrube für Automatisierungen gründen. Solche Fragesellung sind ja unabhängig vom verwendeten Tool. Natürlich sind aber auch Links auf (toolspezifische) Skriptsammlungen hilfreich.
 
-### Skriptsammlungen
+### Script collections
 
-- [Skriptsammlung] für [Vorlage][1] auf der Vorlage Homepage
+- [Skriptsammlung] für [[vorlage]] auf der Vorlage Homepage
 
-### Wiederkehrende Fragestellungen
+### Recurring questions
 
-- [Handel]
-- [Transport]
-- [Lernketten]
-- [Produktion]
-- [Wegfindung]
-- [Ereignissreaktion]
+- [[auto-trading]]
+- [[auto-transport]]
+- [[auto-learning-chains]]
+- [[produktion]]
+- [[auto-way-finding]]
+- [[auto-event-response]]
 
-### Optimierungsprobleme
+### Optimization problems
 
-Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimierungsprobleme (nahezu) optimal lösen. Dabei trifft man viele grundlegende Optimierungprobleme an. Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithmen zu beschäftigen, die solche Optimierungsprobleme in angemessener Zeit lösen.
+The central questions can often only be solved (almost) optimally by solving complex optimization problems.  
+You will encounter many fundamental optimization problems.  
 
-- [Wegfindung / Routenberechnung] (A\*-Suche)
-- [Optimierung von Lernketten] (A\*-Suche, Rucksackproblem)
-- [Transport- und Handelssysteme] (Handelsreisender, Rucksackproblem)
-- [Produktionsoptimierung] (Rucksackproblem)
+This is exactly the right thing for (prospective) computer scientists to deal with algorithms in practice that solve such optimization problems in a reasonable amount of time.
+
+- [[optimize-way-finding|Way finding / Route calculation]] (A\*-Search)
+- [[optimize-learning-chains]] (A\*-Search, Backpack problem)
+- [[optimize-transport|Transportation and trading systems]] (traveling salesman, Backpack problem)
+- [[optimize-production]] (Backpack problem)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->
 
@@ -62,16 +66,4 @@ Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimie
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
-[CR Format]: ./cr-format.md "CR Format"
 [Skriptsammlung]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
-[1]: ./vorlage.md "Vorlage"
-[Handel]: ./auto-trading.md "Automatisierung Handel"
-[Transport]: ./auto-transport.md "Automatisierung Transport"
-[Lernketten]: ./auto-learning-chains.md "Automatisierung Lernketten"
-[Produktion]: ./production.md "Automatisierung Produktion (to be documented)"
-[Wegfindung]: ./auto-way-finding.md "Automatisierung Wegfindung (to be documented)"
-[Ereignissreaktion]: ./auto-event-response.md "Automatisierung Ereignissreaktion"
-[Wegfindung / Routenberechnung]: ./optimize-way-finding.md "Optimierung Wegfindung"
-[Optimierung von Lernketten]: ./optimize-learning-chains.md "Optimierung Lernketten"
-[Transport- und Handelssysteme]: ./optimize-transport.md "Optimierung Transport"
-[Produktionsoptimierung]: ./optimize-production.md "Optimierung Produktion"

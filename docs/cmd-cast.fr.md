@@ -14,10 +14,10 @@ Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Fernzaubern]: ./magic.md#fernzauber "Magie"
-[Kosten]: ./magic.md#komponenten "Magie"
-[Magie]: ./magic.md "Magie"
-[`SHOW ALLE ZAUBER`]: ./cmd-show.md "SHOW"
-[`COMBATSPELL`]: ./cmd-combatspell.md "COMBATSPELL"
-[attackieren]: ./cmd-attack.md "ATTACK"
+[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
+[Fernzaubern]: ./magic.md#fernzauber
+[Kosten]: ./magic.md#komponenten
+[Magie]: ./magic.md
+[`SHOW ALLE ZAUBER`]: ./cmd-show.md
+[`COMBATSPELL`]: ./cmd-combatspell.md
+[attackieren]: ./cmd-attack.md

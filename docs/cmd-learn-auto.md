@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-learn-auto
     text: LEARN AUTO
@@ -33,5 +34,5 @@ Spielererfahrung: XolgrimEin Block für LEARN AUTO besteht pro Region und Talent
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN\_AUTO&oldid=15393] -->
 
-[Lernen]: ./cmd-learn.md "LEARN"
-[Lehren]: ./cmd-teach.md "TEACH"
+[Lernen]: ./cmd-learn.md
+[Lehren]: ./cmd-teach.md

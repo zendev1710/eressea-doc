@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: befehle-von-magellan-verschicken
 ---
 # Befehle von Magellan verschicken

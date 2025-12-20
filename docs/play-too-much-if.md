@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: you-play-too-much-if
     text: You play too much if

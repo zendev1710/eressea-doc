@@ -25,11 +25,11 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTER&oldid=7174] -->
 
-[Gebäude]: ./buildings.md "Gebäude"
-[Schiff]: ./ships.md "Schiff"
-[Kommando]: ./buildings.md#einheiten-und-gebäude "Gebäude"
-[HELP]: ./cmd-help.md "HELP"
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[LEAVE]: ./cmd-leave.md "LEAVE"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[GIVE]: ./cmd-give.md "GIVE"
+[Gebäude]: ./buildings.md
+[Schiff]: ./ships.md
+[Kommando]: ./buildings.md#einheiten-und-gebäude
+[HELP]: ./cmd-help.md
+[CONTACT]: ./cmd-contact.md
+[LEAVE]: ./cmd-leave.md
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md
+[GIVE]: ./cmd-give.md

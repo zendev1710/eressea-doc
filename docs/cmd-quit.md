@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-quit
     text: QUIT
@@ -38,6 +39,6 @@ Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann 
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 
-[HELP SILBER]: ./cmd-help.md "HELP"
-[Orks]: ./races.md#orcs "Orcs"
-[Dämonen]: ./races.md#demons "Demons"
+[HELP SILBER]: ./cmd-help.md
+[Orks]: ./races.md#orcs
+[Dämonen]: ./races.md#demons

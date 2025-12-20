@@ -18,7 +18,7 @@ Durch den Befehl [LEARN AUTO] versucht der Server das Lernen und Lehren in einer
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[HELP]: ./cmd-help.md "HELP"
-[CONTACT]: ./cmd-contact.md "CONTACT"
-[LEARN AUTO]: ./cmd-learn-auto.md "LEARN AUTO"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[HELP]: ./cmd-help.md
+[CONTACT]: ./cmd-contact.md
+[LEARN AUTO]: ./cmd-learn-auto.md

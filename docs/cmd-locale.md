@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-locale
     text: LOCALE
@@ -14,4 +15,4 @@ Zum andern ist er, wenn er von einer Einheit gegeben wird, ein Synonym von [[cmd
 
 <!-- From [https://wiki.eressea.de/index.php?title=LOCALE&oldid=6692] -->
 
-[`LANGUAGE`]: ./cmd-language.md "LANGUAGE"
+[`LANGUAGE`]: ./cmd-language.md

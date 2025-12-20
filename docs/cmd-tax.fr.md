@@ -14,8 +14,8 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Talent]: ./skills-list.md "Liste der Talente"
-[bewaffneter]: ./armed.md "Bewaffnet"
-[Hunger]: ./silver.md#hunger "Hunger"
-[Geld]: ./silver.md "Geld"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Talent]: ./skills-list.md
+[bewaffneter]: ./armed.md
+[Hunger]: ./silver.md#hunger
+[Geld]: ./silver.md

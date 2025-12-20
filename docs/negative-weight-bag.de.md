@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: beutel-des-negativen-gewichts
 ---
 # Beutel des Negativen Gewichts

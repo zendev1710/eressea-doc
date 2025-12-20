@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: developpement
 ---
 # Développement
@@ -60,16 +61,16 @@ Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimie
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
-[CR Format]: ./cr-format.md "CR Format"
+[CR Format]: ./cr-format.md
 [Skriptsammlung]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
-[1]: ./vorlage.md "Vorlage"
-[Handel]: ./auto-trading.md "Automatisierung Handel"
-[Transport]: ./auto-transport.md "Automatisierung Transport"
-[Lernketten]: ./auto-learning-chains.md "Automatisierung Lernketten"
-[Produktion]: ./production.md "Automatisierung Produktion (to be documented)"
-[Wegfindung]: ./auto-way-finding.md "Automatisierung Wegfindung (to be documented)"
-[Ereignissreaktion]: ./auto-event-response.md "Automatisierung Ereignissreaktion"
-[Wegfindung / Routenberechnung]: ./optimize-way-finding.md "Optimierung Wegfindung"
-[Optimierung von Lernketten]: ./optimize-learning-chains.md "Optimierung Lernketten"
-[Transport- und Handelssysteme]: ./optimize-transport.md "Optimierung Transport"
-[Produktionsoptimierung]: ./optimize-production.md "Optimierung Produktion"
+[1]: ./vorlage.md
+[Handel]: ./auto-trading.md
+[Transport]: ./auto-transport.md
+[Lernketten]: ./auto-learning-chains.md
+[Produktion]: ./production.md
+[Wegfindung]: ./auto-way-finding.md
+[Ereignissreaktion]: ./auto-event-response.md
+[Wegfindung / Routenberechnung]: ./optimize-way-finding.md
+[Optimierung von Lernketten]: ./optimize-learning-chains.md
+[Transport- und Handelssysteme]: ./optimize-transport.md
+[Produktionsoptimierung]: ./optimize-production.md

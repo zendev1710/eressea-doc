@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: christmas
     text: Christmas
@@ -25,8 +26,8 @@ Hier eine kleine Übersicht über die Weihnachtsgeschenke der letzten Jahre
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachten&oldid=4853] -->
 
-[Mistelzweig]: ./mistletoe.md "Mistelzweig"
-[Schneemann]: ./snowman.md "Schneemann"
-[Sonnensegel]: ./sun-sail.md "Sonnensegel"
-[Sternenstaub]: ./stardust.md "Sternenstaub"
-[Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"
+[Mistelzweig]: ./mistletoe.md
+[Schneemann]: ./snowman.md
+[Sonnensegel]: ./sun-sail.md
+[Sternenstaub]: ./stardust.md
+[Weihnachtsbaum]: ./christmas-tree.md

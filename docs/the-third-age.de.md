@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: das-dritte-zeitalter
 ---
 # Das dritte Zeitalter

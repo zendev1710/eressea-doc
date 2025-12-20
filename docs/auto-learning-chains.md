@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: auto-learning-chains
     text: Automated learning chains

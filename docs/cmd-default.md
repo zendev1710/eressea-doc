@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-default
     text: DEFAULT
@@ -137,9 +138,9 @@ Spielererfahrung: Solthar `DEFAULT DEFAULT`???
 
 Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen? Nun, so etwas wie `DEFAULT "DEFAULT 'LEARN Ausdauer'"` funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben. Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast. Für solche Vorhaben sind Scriptsprachen wie [Vorlage], [ExtendedCommands] oder [FFTools] besser geeignet.
 
-[Vorlage]: ./vorlage.md "Vorlage"
-[ExtendedCommands]: ./commands-extended.md "ExtendedCommands"
-[FFTools]: ./fftools.md "FFTools"
+[Vorlage]: ./vorlage.md
+[ExtendedCommands]: ./commands-extended.md
+[FFTools]: ./fftools.md
 
 ## See also
 
@@ -148,7 +149,7 @@ Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 
-[langen Befehle]: ./commands.md#short-and-long-orders "Orders"
-[//]: ./cmd-comment-slash.md "Kommentar (to be documented)"
-[Lange Kommentare]: ./cmd-comment-slash.md "KOMMENTAR"
-[Befehle einschicken]: ./commands-send.md "Befehle einschicken"
+[langen Befehle]: ./commands.md#short-and-long-orders
+[//]: ./cmd-comment-slash.md
+[Lange Kommentare]: ./cmd-comment-slash.md
+[Befehle einschicken]: ./commands-send.md

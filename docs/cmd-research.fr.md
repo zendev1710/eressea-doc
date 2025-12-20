@@ -10,6 +10,6 @@ Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Re
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESEARCH&oldid=16724] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Kräuterkunde]: ./skills-list.md "Liste der Talente"
-[Kräuter]: ./herbs.md "Kräuter"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Kräuterkunde]: ./skills-list.md
+[Kräuter]: ./herbs.md

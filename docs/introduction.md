@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: introduction
     text: Introduction
@@ -35,22 +36,22 @@ If no move is received by the game master, this results in a so-called NMR (no m
 
 Continue reading: [World].
 
-[World]: ./world.md "Welt"
+[World]: ./world.md
 
 <!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
-[faction]: ./factions.md "Partei"
-[race]: ./races.md "Rassen"
-[sign up]: ./hints.md#registration "Anmelden wie?"
-[elves]: ./races.md#elves "Elf"
-[dwarves]: ./races.md#dwarves "Zwerg"
-[magic]: ./magic.md "Magie"
-[dragons]: ./monsters.md#dragons "Drachen"
-[monsters]: ./monsters.md "Monster"
-[orders]: ./commands.md "Befehle"
-[NR]: ./reports.md#nr "NR (to be documented)"
-[CR]: ./reports.md#cr "CR (to be documented)"
-[automatic tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[move template]: ./move-template.md "Zugvorlage (to be documented)"
-[weekly abstract]: ./weekly-report.md "Wochenbericht"
+[faction]: ./factions.md
+[race]: ./races.md
+[sign up]: ./hints.md#registration
+[elves]: ./races.md#elves
+[dwarves]: ./races.md#dwarves
+[magic]: ./magic.md
+[dragons]: ./monsters.md#dragons
+[monsters]: ./monsters.md
+[orders]: ./commands.md
+[NR]: ./reports.md#nr
+[CR]: ./reports.md#cr
+[automatic tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[move template]: ./move-template.md
+[weekly abstract]: ./weekly-report.md
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"

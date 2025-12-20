@@ -31,19 +31,19 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 
 Poursuivre la lecture : [Rohstoffe].
 
-[Rohstoffe]: ./resources.md "Rohstoffe"
+[Rohstoffe]: ./resources.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
 
-[Endprodukte]: ./items.md "Waren"
-[Schiffe]: ./ships.md "Schiffe"
-[Gebäude]: ./buildings.md "Gebäude"
-[Straßen]: ./roads.md "Straßen"
-[Tränke]: ./alchemy.md "Tränke"
-[1]: ./resources.md "Rohstoffe"
-[Gegenstände]: ./items.md "Waren"
-[Bergwerk]: ./buildings-others.md#mine "Mine"
-[Materialpool]: ./items-pool.md "Materialpool"
-[2]: ./roads.md "Straße"
-[3]: ./ships.md "Schiff"
-[Parteipool]: ./faction-pool.md "Parteipool"
+[Endprodukte]: ./items.md
+[Schiffe]: ./ships.md
+[Gebäude]: ./buildings.md
+[Straßen]: ./roads.md
+[Tränke]: ./alchemy.md
+[1]: ./resources.md
+[Gegenstände]: ./items.md
+[Bergwerk]: ./buildings-others.md#mine
+[Materialpool]: ./items-pool.md
+[2]: ./roads.md
+[3]: ./ships.md
+[Parteipool]: ./faction-pool.md

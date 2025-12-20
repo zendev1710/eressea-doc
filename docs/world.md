@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: world
     text: World
@@ -21,11 +22,11 @@ The world of Eressea consists of many islands and continents with entirely diffe
 
 *The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified. Rahel recognized forests and mountains, many swamps and some woodless plains.*
 
-In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the command [[cmd-origin]] in order to adjust it to the one of another faction.
+In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.
 
 > "Well done my child," Selen assured the much younger cat.
 > "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..."
-> − Selen opened a big, heavy book beside the map − "... 
+> − Selen opened a big, heavy book beside the map − "...
 > our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."
 
 In the world of Eressea there are various [terrain types] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics. An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys. One example is the "wall of fire", which represents an insurmountable obstacle. As a rule, walls of fire demarcate the worlds in Eressea. This is to prevent factions of very different ages from easily clashing.
@@ -59,7 +60,7 @@ Conversely, you can also say that if a level 4 miner sees no iron in a plain (wh
 In addition to iron and stone, there is also the much rarer metal laen. If a mountain, glacier or volcano is home to laen, then it can be found from mining depth 7. In other region types you can also find laen with luck, but then possibly only at mining level 7 to 10. You therefore need a miner with mining 5 to be able to rule out laen in every land region. However, if you are very lucky and have found a region with laen, you will need a [mine] to gain it.
 
 > Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.
-> "Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time." 
+> "Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time."
 > The young novice tried to look composed, but Magistra Selen noticed her relief at not having to memorise all the information immediately.
 > Selen then continued "You don't just learn in the academies and libraries, but also in the taverns.
 > Because that's where you occasionally meet miners over a mead who tell each other stories about an even rarer metal than Laen. They call it adamantium.
@@ -136,16 +137,16 @@ Under luxuries you can see the amount of goods bought or sold by the peasants fo
 Eressea's year is divided into nine months with three weeks in each:
 
 | Month            | In German             | Season | Storm Frequency |
-|------------------|-----------------------|--------|-----------------|
-| harvest moon     | Feldsegen             | summer | 0.5%            |
-| impenetrable fog | Nebeltage             | autumn | 3%              |
-| storm moon       | Sturmmond             | autumn | 4%              |
-| hearth fire      | Herdfeuer             | winter | 2.5%            |
-| icewind          | Eiswind               | winter | 1.5%            |
-| snowbane         | Schneebann            | winter | 3%              |
-| flowerrain       | Blütenregen           | spring | 3%              |
-| mild winds       | Mond der milden Winde | spring | 0.5%            |
-| sunfire          | Sonnenfeuer           | summer | 3%              |
+|------------------|-----------------------|--------|----------------:|
+| harvest moon     | Feldsegen             | summer |            0.5% |
+| impenetrable fog | Nebeltage             | autumn |              3% |
+| storm moon       | Sturmmond             | autumn |              4% |
+| hearth fire      | Herdfeuer             | winter |            2.5% |
+| icewind          | Eiswind               | winter |            1.5% |
+| snowbane         | Schneebann            | winter |              3% |
+| flowerrain       | Blütenregen           | spring |              3% |
+| mild winds       | Mond der milden Winde | spring |            0.5% |
+| sunfire          | Sonnenfeuer           | summer |              3% |
 
 Every turn of the game corresponds to one week in Eressea's world. Many things can be done in one week. But there are some actions lasting almost the whole week. You can only do one of these so called long orders per turn (see also the chapter about [orders]).
 
@@ -164,32 +165,28 @@ Although the influence of the seasons is generally not particularly pronounced, 
 
 Continue reading: [Factions].
 
-[Factions]: ./factions.md "Parteien"
+[Factions]: ./factions.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 
-[ORIGIN]: ./cmd-origin.md "ORIGIN"
-[terrain types]: ./terrains.md "Geländearten"
-[work]: ./silver.md#work "Silver"
-[castles]: ./castles.md "Burg"
-[potions]: ./alchemy.md "Tränke"
-[replanted]: ./cmd-plant.md "PLANT"
-[roads]: ./roads.md "Straße"
-[special buildings]: ./buildings-others.md "Andere Gebäude"
-[resources]: ./resources.md "Resources"
-[mine]: ./buildings-others.md#mine "Andere Gebäude"
-[taming]: ./skills-list.md#taming "Pferdedressur"
-[transport]: ./travel.md#horse-and-carriage "Pferd und Wagen"
-[horse bonus]: ./war.md#bonuses-and-mali "War"
-[caravanserai]: ./buildings-others.md#caravanserai "Andere Gebäude"
-[income]: ./silver.md#income "Silver"
-[lighthouse]: ./buildings-others.md#lighthouse "Lighthouse"
-[RECRUIT]: ./silver.md#recruiting "RECRUIT"
-[MAKE]: ./cmd-make.md "MAKE"
-[trade]: ./silver.md#trade "Handel"
-[orders]: ./commands.md "Befehle"
-[insect]: ./races.md#insects "Insekt"
-[sea]: ./travel.md "Reisen"
-[forest growth]: ./resources.md#deep-in-the-forest "Resources"
-[money]: ./silver.md "Silver"
-[ENTERTAIN]: ./cmd-entertain.md "ENTERTAIN"
+[terrain types]: ./terrains.md
+[work]: ./silver.md#work
+[castles]: ./castles.md
+[potions]: ./alchemy.md
+[replanted]: ./cmd-plant.md
+[roads]: ./roads.md
+[special buildings]: ./buildings-others.md
+[resources]: ./resources.md
+[mine]: ./buildings-others.md#mine
+[taming]: ./skills-list.md#taming
+[transport]: ./travel.md#horse-and-carriage
+[horse bonus]: ./war.md#bonuses-and-mali
+[caravanserai]: ./buildings-others.md#caravanserai
+[income]: ./silver.md#income
+[lighthouse]: ./buildings-others.md#lighthouse
+[trade]: ./silver.md#trade
+[orders]: ./commands.md
+[insect]: ./races.md#insects
+[sea]: ./travel.md
+[forest growth]: ./resources.md#deep-in-the-forest
+[money]: ./silver.md

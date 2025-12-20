@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: reserve-d-objets
 ---
 # Réserve d'objets
@@ -159,5 +160,5 @@ Poursuivre la lecture : la [[guerre]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[Gebäude]: ./buildings.md "Gebäude"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Gebäude]: ./buildings.md
+[Befehlsreihenfolge]: ./commands-sequence.md

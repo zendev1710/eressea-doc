@@ -1,6 +1,7 @@
 ---
+# cSpell:locale en
 alias:
-    name: optimizing-production
+    name: optimize-production
     text: Optimizing production
 ---
 # Optimizing production

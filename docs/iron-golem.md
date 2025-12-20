@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: iron-golem
     text: Iron Golem

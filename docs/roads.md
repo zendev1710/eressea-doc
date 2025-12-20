@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: roads
     text: Roads
@@ -23,9 +24,9 @@ Building Roads
 | Desert       | 100    | [Caravanserai] |
 | Glacier      | 250    | [Tunnel]       |
 
-[Dam]: ./buildings-others.md#dam "Andere Gebäude"
-[Caravanserai]: ./buildings-others.md#caravanserai "Andere Gebäude"
-[Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
+[Dam]: ./buildings-others.md#dam
+[Caravanserai]: ./buildings-others.md#caravanserai
+[Tunnel]: ./buildings-others.md#tunnel
 
 **Example:** For building a road from the plain at (0,0) through the swamp at (1,0) to the mountain at (1,1) you need
 
@@ -39,8 +40,8 @@ After completion a unit can travel on foot with `MOVE E NE` from (0,0) to (1,1) 
 
 Continue reading: [Ships].
 
-[Ships]: ./ships.md "Schiff"
+[Ships]: ./ships.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/en&oldid=15936] -->
 
-[building]: ./buildings-others.md "Andere Gebäude"
+[building]: ./buildings-others.md

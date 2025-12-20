@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: sphere-d-invisibilite
 ---
 # Sphère d'invisibilité

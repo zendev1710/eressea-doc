@@ -1,5 +1,5 @@
-
 ---
+# cSpell:locale fr, en
 alias: garde-des-montagnes
 ---
 # Garde des Montagnes

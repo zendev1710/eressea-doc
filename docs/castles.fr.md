@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: chateaux
 ---
 # Châteaux
@@ -26,14 +27,17 @@ Chaque semaine, l'unité agrandit le bâtiment de PP/(niveau de compétence requ
 Les pierres nécessaires doivent également être disponibles.
 Vous pouvez facilement construire une tour en une semaine avec une unité suffisamment grande et compétente et suffisamment de pierres.
 
-Les châteaux ont aussi des numéros (ID), utilisés pour les ordres.
-Voici un exemple de château :
+Un chateau a aussi un identifiant (ID), utilisé pour les ordres.  
 
+Exemple :
+
+```text
 Grand temple du chat aux yeux d'or (58), taille 58, tour ; Le temple brille d'un blanc éclatant au soleil, encadré par le vert délicat des arbres du parc.
 La tour élancée, qui s'élève au-dessus de la ville, est visible de loin.
 Au nord du temple, la ville de Xontormia s'étend le long du Whyren, enjambée un gigantesque pont près du port.
+```
 
-Les unités dans châteaux sont protégées, à savoir qu'une personne est protégée par unité de taille du château.
+Les unités dans un château sont protégées, à savoir qu'une personne est protégée par unité de taille du château.
 Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre [[guerre]], en particulier la liste des [bonus et malus]).
 Chaque unité de taille du château nécessite une pierre.
 
@@ -83,5 +87,5 @@ Poursuivre la lecture : [[batiments-speciaux]].
 
 [tableau du bas]: ./#apercu
 
-[bonus et malus]: ./war.md#boni-und-mali "Boni und Mali"
-[revenus]: ./silver.md#revenus "Einnahmen"
+[bonus et malus]: ./war.md#boni-und-mali
+[revenus]: ./silver.md#revenus

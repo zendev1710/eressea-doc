@@ -1,6 +1,7 @@
 ---
+# cSpell:locale en
 alias:
-    name: optimizing-learning-chains
+    name: optimize-learning-chains
     text: Optimizing learning chains
 ---
 # Optimierung Lernketten
@@ -149,5 +150,5 @@ Beginnt man mit 2er Einheiten an der Spitze so füllen diese eine Akademie zur H
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
 
-[teurer Talente]: ./skills.md "Talente"
-[Waffentalent und Ausdauer]: ./skills-list.md "Liste der Talente"
+[teurer Talente]: ./skills.md
+[Waffentalent und Ausdauer]: ./skills-list.md

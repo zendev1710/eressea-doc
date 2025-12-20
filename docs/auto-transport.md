@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: auto-transport
     text: Automated transport

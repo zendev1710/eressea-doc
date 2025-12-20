@@ -1,5 +1,6 @@
 ---
-alias: 
+# cSpell:locale en
+alias:
     name: alliances
     text: Alliances
 ---
@@ -49,16 +50,16 @@ this covers all the above areas in one order.
 
 Continue reading: [magic].
 
-[magic]: ./magic.md "Magie"  
+[magic]: ./magic.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 
-[`GIVE`]: ./cmd-give.md "GIVE"
-[supporting]: ./silver.md#upkeep-costs "Silver"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[raise taxes]: ./silver.md "Silver"
-[recruit]: ./silver.md#recruiting "RECRUIT"
-[produce]: ./resources.md "Resources"
-[after battles]: ./war.md#combat-rows "kampfende"
-[enter]: ./cmd-enter.md "ENTER"
-[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md "HIDE"
+[`GIVE`]: ./cmd-give.md
+[supporting]: ./silver.md#upkeep-costs
+[`GUARD`]: ./cmd-guard.md
+[raise taxes]: ./silver.md
+[recruit]: ./silver.md#recruiting
+[produce]: ./resources.md
+[after battles]: ./war.md#the-end
+[enter]: ./cmd-enter.md
+[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md

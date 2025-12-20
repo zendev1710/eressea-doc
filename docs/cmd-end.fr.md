@@ -12,4 +12,4 @@ Dieser Befehl beendet die Eingabe der Befehle für eine temporäre Einheit, die 
 
 <!-- From [https://wiki.eressea.de/index.php?title=END&oldid=3999] -->
 
-[`MAKE TEMP`]: ./cmd-make.md "MAKE"
+[`MAKE TEMP`]: ./cmd-make.md

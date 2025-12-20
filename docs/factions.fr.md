@@ -12,7 +12,7 @@ Les nouvelles unités sont créées en les générant avec une unité existante 
 
 Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le nom de **limite d'unités**. Celle-ci est actuellement de 2500 unités et est également affichée dans le rapport. La limite d'unités empêche la création de nouvelles unités. Cela n'a pas d'importance si des unités sont dissoutes plus tard dans le tour. Dans certaines circonstances, il est possible qu'une faction ait plus d'unités que la limite d'unités. Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.
 
-Voici un exemple d'unités :
+Exemple d'unités :
 
         * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
         melee 1, taxation 2, has: sword, 20 silver, "TAX";
@@ -28,7 +28,11 @@ Voici un exemple d'unités :
 
 Vos propres unités sont marquées d'un '\*'. Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|aidez]] cette faction.
 
-Chaque unité possède un numéro unique (ID) attribué par le système et utilisé pour tous les ordres, dans le premier cas ici le numéro est tb2. Le terme "numéro" semble ici étrange, car dans Eressea, les ID des unités sont en caractères "base36" ; à côté des chiffres 0-9, les lettres a-z sont donc valables comme "chiffres". Chaque unité a également un nom ("Konrad Rabenhelm") ainsi peut-être qu'une description (après le point-virgule). Ensuite, les possessions visibles et, si l'information. La plupart des descriptions que vous rencontrerez au cours du jeu seront en allemand, car la majorité des joueurs est également allemande. Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos unités, mais gardez à l'esprit l'impact que cela peut avoir sur l'expérience de vos co-joueurs.est disponible, les compétences sont indiquées.
+Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.  
+Dans le premier cas ici l'ID est ***tb2***.  
+Dans Eressea, les identifiants des unités sont définis en *base 36*, donc constitués uniquement de caractères alphanumériques en minscules.  
+
+Chaque unité a également un nom ("Konrad Rabenhelm") ainsi peut-être qu'une description (après le point-virgule). Ensuite, les possessions visibles et, si l'information. La plupart des descriptions que vous rencontrerez au cours du jeu seront en allemand, car la majorité des joueurs est également allemande. Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos unités, mais gardez à l'esprit l'impact que cela peut avoir sur l'expérience de vos co-joueurs.est disponible, les compétences sont indiquées.
 
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport. Elle est composée d'un humain de sa propre faction (non affiché), possède 20 Silver et peut se battre avec melee : dans cette compétence, l'unité est de niveau 1. Il maîtrise [taxation] au niveau 2 (pour plus de détails sur les [compétences] voir le chapitre correspondant). Comme vous pouvez le voir, Konrad a également une épée (sword). "`TAX`" est ce qu'on appelle un ordre par [défaut]. Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes. Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un. Ils ne seront listés que dans le CR ou dans les modèles d'ordres. Plus d'informations à ce sujet dans le chapitre [ordres].
 
@@ -38,7 +42,7 @@ Une unité peut garder une région (pour plus de détails sur les conséquences,
 
 Enfin, une unité peut être blessée lors d'un [[guerre|combat]] ou d'une [famine]. Elle sera notée "exhausted"(épuisée), "wounded"(blessée), voire "badly wounded"(gravement blessée).
 
-L'unité suivante porte le numéro 2ow, est composée d'un nain, d'un cheval et d'un sac de pièces. Cela signifie qu'elle possède au moins 500 Silver. Si elle avait plus de 5000 Silver, vous verriez un "coffre de Silver". Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient. Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction. La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
+L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'un sac de pièces. Cela signifie qu'elle possède au moins 500 Silver. Si elle avait plus de 5000 Silver, vous verriez un "coffre de Silver". Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient. Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction. La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
 Enfin, des alliés [trolls] transportent des gems (joyaux). En plus des [humains], [nains], et [trolls][1], il y a beaucoup d'autres races en Eressea. Elles sont décrites dans [ce chapitre][race].
 
@@ -63,26 +67,26 @@ Poursuivre la lecture : [races].
 [race]: ./races.md
 [compétences]: ./skills.md
 [ordres]: ./commands.md
-[cadeau de départ spécifique à la race choisie]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
-[`SHOW "`*`Item`*`"`]: ./cmd-show.md "SHOW"
-[recruiter]: ./silver.md#recruter "RECRUIT"
-[produire des objets]: ./items.md "Gegenstände"
-[bâtiments]: ./buildings.md "Gebäude"
+[cadeau de départ spécifique à la race choisie]: ./eressea-story.md#start-der-6.-welt
+[`SHOW "`*`Item`*`"`]: ./cmd-show.md
+[recruiter]: ./silver.md#recruter
+[produire des objets]: ./items.md
+[bâtiments]: ./buildings.md
 [bateaux]: ./ships.md
-[chevaux]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
-[armes]: ./war-tables.md "Guerrestabellen"
-[MAKE TEMP]: ./cmd-make.md "MAKE"
-[transférer]: ./cmd-give.md "GIVE"
-[l'argent]: ./silver.md#ausgaben "Ausgaben"
-[taxation]: ./cmd-tax.md "TAX"
-[défaut]: ./cmd-default.md "DEFAULT"
-[lignes de combat]: ./war.md#die-schlacht "Schlacht"
-[famine]: ./silver.md#hunger "Hunger"
-[masquée]: ./cmd-hide.md "HIDE"
+[chevaux]: ./travel.md#pferd-und-wagen
+[armes]: ./war-tables.md
+[MAKE TEMP]: ./cmd-make.md
+[transférer]: ./cmd-give.md
+[l'argent]: ./silver.md#ausgaben
+[taxation]: ./cmd-tax.md
+[défaut]: ./cmd-default.md
+[lignes de combat]: ./war.md#die-schlacht
+[famine]: ./silver.md#hunger
+[masquée]: ./cmd-hide.md
 [trolls]: ./races.md#trolls
 [humains]: ./races.md#menschen
-[nains]: ./races.md#nains "Zwerg"
-[1]: ./races.md#trolls "Troll"
-[fin du tour]: ./commands-sequence.md "Befehlsreihenfolge"
-[`HELP silver`]: ./cmd-help.md "HELP"
-[faction pool]: ./faction-pool.md "Parteipool"
+[nains]: ./races.md#nains
+[1]: ./races.md#trolls
+[fin du tour]: ./commands-sequence.md
+[`HELP silver`]: ./cmd-help.md
+[faction pool]: ./faction-pool.md

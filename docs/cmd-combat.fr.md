@@ -75,8 +75,8 @@ Weitere Details unter [[cmd-help]] und in den Kapiteln [Kampf][Vom Kriege] und [
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
-[Vom Kriege]: ./war.md "Krieg"
-[Kampfreihen]: ./war.md#schlacht "Schlacht"
-[`ATTACK`]: ./cmd-attack.md "ATTACK"
-[Flucht]: ./war.md#die-flucht "Die Flucht"
-[Kampfzauber]: ./cmd-combatspell.md "COMBATSPELL"
+[Vom Kriege]: ./war.md
+[Kampfreihen]: ./war.md#schlacht
+[`ATTACK`]: ./cmd-attack.md
+[Flucht]: ./war.md#die-flucht
+[Kampfzauber]: ./cmd-combatspell.md

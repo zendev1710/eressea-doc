@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: pentagramme-et-tirawon
 ---
 # Pentagramme et Tirawon
@@ -29,7 +30,7 @@ Auf Seiten **Tirawons** kämpften 15 Völker:
 - Heer 29: Naugrim (naug) -- 5052 Zwerge
 - Heer 30: Tänzer im Sturm (jL) -- 1596 Meermenschen
 - Heer 31: Rollo's gehorsame Kinder (roLo) -- 1671 Zwerge
-- Heer 32: Skarsniks Clan der Blauschaedel (hs) -- 4154 Goblins
+- Heer 32: Skarsniks Clan der Blauschaedel (hs) -- 4154 Gobelins
 - Heer 33: Elfen des verschwiegenen Waldes (fb) -- 9000 Elfen
 - Heer 34: Die wahren Diener der heiligen Nuß (nuss) -- 8407 Zwerge
 - Heer 35: Nelvin (neLv) -- 2508 Halblinge
@@ -74,7 +75,7 @@ Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-  [Igjarjuk]: ./monsters.md#igjarjuk "Igjarjuk"
-  [Untoter Wyrm]: ./monsters.md#drachen "Drachen"
-  [falschem Banner]: ./cmd-hide.md "HIDE"
+  [Igjarjuk]: ./monsters.md#igjarjuk
+  [Untoter Wyrm]: ./monsters.md#drachen
+  [falschem Banner]: ./cmd-hide.md
   [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: farmers-hike
     text: Farmers hike
@@ -15,6 +16,6 @@ Wandernde Bauern arbeiten in der Woche der Wanderung nicht, verbrauchen aber tro
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
 
-[Monstern]: ./monsters.md "Monster"
-[hier]: ./cmd-work.md "WORK"
-[Steuern eingetrieben]: ./cmd-tax.md "TAX"
+[Monstern]: ./monsters.md
+[hier]: ./cmd-work.md
+[Steuern eingetrieben]: ./cmd-tax.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: familiars
     text: Familiars
@@ -211,5 +212,5 @@ Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnense
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
-[Dämonen]: ./races.md#demons "Demons"
-[Goblins]: ./races.md#goblins "Goblins"
+[Dämonen]: ./races.md#demons
+[Goblins]: ./races.md#goblins

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: ceinture-de-force-de-troll
 ---
 # Ceinture de force de troll

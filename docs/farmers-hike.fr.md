@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: deplacement-des-agriculteurs
 ---
 # Déplacement des agriculteurs
@@ -13,6 +14,6 @@ Wandernde Bauern arbeiten in der Woche der Wanderung nicht, verbrauchen aber tro
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
 
-[Monstern]: ./monsters.md "Monster"
-[hier]: ./cmd-work.md "WORK"
-[Steuern eingetrieben]: ./cmd-tax.md "TAX"
+[Monstern]: ./monsters.md
+[hier]: ./cmd-work.md
+[Steuern eingetrieben]: ./cmd-tax.md

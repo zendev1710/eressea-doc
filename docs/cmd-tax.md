@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-tax
     text: TAX
@@ -19,8 +20,8 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders "Orders"
-[Talent]: ./skills-list.md "Liste der Talente"
-[bewaffneter]: ./armed.md "Bewaffnet"
-[Hunger]: ./silver.md#starvation "Starvation"
-[Geld]: ./silver.md "Geld"
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[Talent]: ./skills-list.md
+[bewaffneter]: ./armed.md
+[Hunger]: ./silver.md#starvation
+[Geld]: ./silver.md

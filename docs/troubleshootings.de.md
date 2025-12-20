@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: fehlerbehebung
 ---
 # Fehlerbehebung

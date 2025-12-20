@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: birthday-cake
     text: Birthday Cake

@@ -11,7 +11,7 @@ Eine Einheit kann jeweils nur eine Struktur (Gebäude, Straße, Schiff) pro Woch
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[Schiff]: ./ships.md "Schiff"
-[Gebäude]: ./buildings.md "Gebäude"
-[Straße]: ./roads.md "Straße"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Schiff]: ./ships.md
+[Gebäude]: ./buildings.md
+[Straße]: ./roads.md

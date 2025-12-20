@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: list-of-spells
     text: List of spells
@@ -160,165 +161,165 @@ alias:
 |    |    | 16 |    |    | [Wurzeln der Magie]                             | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim | Fernzauber                |
 |    |    |    |    | 11 | [Zeitdehnung]                                   | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 Aura \* Stufe                                          | Schiffszauber             |
 
-[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwächezone "Zauberbeschreibungen E2"
-[Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang "Zauberbeschreibungen E2"
-[Astraler Riss]: ./spells-descriptions.md#astraler-riss "Zauberbeschreibungen E2"
-[Astraler Ruf]: ./spells-descriptions.md#astraler-ruf "Zauberbeschreibungen E2"
-[Astraler Weg]: ./spells-descriptions.md#astraler-weg "Zauberbeschreibungen E2"
-[Astrales Chaos]: ./spells-descriptions.md#astrales-chaos "Zauberbeschreibungen E2"
-[Astralschutzgeister]: ./spells-descriptions.md#astralschutzgeister "Zauberbeschreibungen E2"
-[Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen "Zauberbeschreibungen E2"
-[Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen "Zauberbeschreibungen E2"
-[Auratransfer]: ./spells-descriptions.md#auratransfer "Zauberbeschreibungen E2"
-[Aushorchen]: ./spells-descriptions.md#aushorchen "Zauberbeschreibungen E2"
-[Bannlied]: ./spells-descriptions.md#bannlied "Zauberbeschreibungen E2"
-[Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein "Zauberbeschreibungen E2"
-[Bergwächter]: ./spells-descriptions.md#bergwächter "Zauberbeschreibungen E2"
-[Beschleunigung]: ./spells-descriptions.md#beschleunigung "Zauberbeschreibungen E2"
-[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwöre-schattendämonen "Zauberbeschreibungen E2"
-[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwöre-schattenmeister "Zauberbeschreibungen E2"
-[Beute Bewahren]: ./spells-descriptions.md#beute-bewahren "Zauberbeschreibungen E2"
-[Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken "Zauberbeschreibungen E2"
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realität "Zauberbeschreibungen E2"
-[Blutrausch]: ./spells-descriptions.md#blutrausch "Zauberbeschreibungen E2"
-[Chaosfluch]: ./spells-descriptions.md#chaosfluch "Zauberbeschreibungen E2"
-[Chaossog]: ./spells-descriptions.md#chaossog "Zauberbeschreibungen E2"
-[Drachenruf]: ./spells-descriptions.md#drachenruf "Zauberbeschreibungen E2"
-[Erdelementar]: ./spells-descriptions.md#erdelementar "Zauberbeschreibungen E2"
-[Erschaffe Antimagiekristall]: ./spells-descriptions.md#erschaffe-antimagiekristall "Zauberbeschreibungen E2"
-[Erschaffe Eisengolems]: ./spells-descriptions.md#erschaffe-eisengolems "Zauberbeschreibungen E2"
-[Erschaffe Steingolems]: ./spells-descriptions.md#erschaffe-steingolems "Zauberbeschreibungen E2"
-[Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens "Zauberbeschreibungen E2"
-[Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert "Zauberbeschreibungen E2"
-[Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge "Zauberbeschreibungen E2"
-[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphäre-der-unsichtbarkeit "Zauberbeschreibungen E2"
-[Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts "Zauberbeschreibungen E2"
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gürtel-der-trollstärke "Zauberbeschreibungen E2"
-[Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht "Zauberbeschreibungen E2"
-[Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit "Zauberbeschreibungen E2"
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kräuterbeutel "Zauberbeschreibungen E2"
-[Erwecke Ents]: ./spells-descriptions.md#erwecke-ents "Zauberbeschreibungen E2"
-[Feuerball]: ./spells-descriptions.md#feuerball "Zauberbeschreibungen E2"
-[Feuerteufel]: ./spells-descriptions.md#feuerteufel "Zauberbeschreibungen E2"
-[Feuerwand]: ./spells-descriptions.md#feuerwand "Zauberbeschreibungen E2"
-[Firuns Fell]: ./spells-descriptions.md#firuns-fell "Zauberbeschreibungen E2"
-[Fluch brechen]: ./spells-descriptions.md#fluch-brechen "Zauberbeschreibungen E2"
-[Fluch der Pestilenz]: ./spells-descriptions.md#fluch-der-pestilenz "Zauberbeschreibungen E2"
-[Friedenslied]: ./spells-descriptions.md#friedenslied "Zauberbeschreibungen E2"
-[Gabe des Chaos]: ./spells-descriptions.md#gabe-des-chaos "Zauberbeschreibungen E2"
-[Gaukeleien]: ./spells-descriptions.md#gaukeleien "Zauberbeschreibungen E2"
-[Geister bannen]: ./spells-descriptions.md#geister-bannen "Zauberbeschreibungen E2"
-[Gesang der Angst]: ./spells-descriptions.md#gesang-der-angst "Zauberbeschreibungen E2"
-[Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit "Zauberbeschreibungen E2"
-[Gesang der Furcht]: ./spells-descriptions.md#gesang-der-furcht "Zauberbeschreibungen E2"
-[Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie "Zauberbeschreibungen E2"
-[Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung "Zauberbeschreibungen E2"
-[Gesang der Verwirrung]: ./spells-descriptions.md#gesang-der-verwirrung "Zauberbeschreibungen E2"
-[Gesang des Auratransfers]: ./spells-descriptions.md#gesang-des-auratransfers "Zauberbeschreibungen E2"
-[Gesang des Lebens analysieren]: ./spells-descriptions.md#gesang-des-lebens-analysieren "Zauberbeschreibungen E2"
-[Gesang des Werbens]: ./spells-descriptions.md#gesang-des-werbens "Zauberbeschreibungen E2"
-[Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes "Zauberbeschreibungen E2"
-[Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes "Zauberbeschreibungen E2"
-[Gestaltwandlung]: ./spells-descriptions.md#gestaltwandlung "Zauberbeschreibungen E2"
-[Grauen der Schlacht]: ./spells-descriptions.md#grauen-der-schlacht "Zauberbeschreibungen E2"
-[Hagel]: ./spells-descriptions.md#hagel "Zauberbeschreibungen E2"
-[Hainzauber]: ./spells-descriptions.md#hainzauber "Zauberbeschreibungen E2"
-[Heiliger Boden]: ./spells-descriptions.md#heiliger-boden "Zauberbeschreibungen E2"
-[Heilung]: ./spells-descriptions.md#heilung "Zauberbeschreibungen E2"
-[Heimstein]: ./spells-descriptions.md#heimstein "Zauberbeschreibungen E2"
-[Heldengesang]: ./spells-descriptions.md#heldengesang "Zauberbeschreibungen E2"
-[Hitzeelementar]: ./spells-descriptions.md#hitzeelementar "Zauberbeschreibungen E2"
-[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-überzeugung "Zauberbeschreibungen E2"
-[Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei "Zauberbeschreibungen E2"
-[Kleine Flüche]: ./spells-descriptions.md#kleine-flüche "Zauberbeschreibungen E2"
-[Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer "Zauberbeschreibungen E2"
-[Kriegsgesang]: ./spells-descriptions.md#kriegsgesang "Zauberbeschreibungen E2"
-[Lebenslied festigen]: ./spells-descriptions.md#lebenslied-festigen "Zauberbeschreibungen E2"
-[Lied der Heilung]: ./spells-descriptions.md#lied-der-heilung "Zauberbeschreibungen E2"
-[Lied der Verführung]: ./spells-descriptions.md#lied-der-verführung "Zauberbeschreibungen E2"
-[Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren "Zauberbeschreibungen E2"
-[Luftschiff]: ./spells-descriptions.md#luftschiff "Zauberbeschreibungen E2"
-[Machtübertragung]: ./spells-descriptions.md#machtübertragung "Zauberbeschreibungen E2"
-[Magie analysieren]: ./spells-descriptions.md#magie-analysieren "Zauberbeschreibungen E2"
-[Magiefresser]: ./spells-descriptions.md#magiefresser "Zauberbeschreibungen E2"
-[Magischer Pfad]: ./spells-descriptions.md#magischer-pfad "Zauberbeschreibungen E2"
-[Mahlstrom]: ./spells-descriptions.md#mahlstrom "Zauberbeschreibungen E2"
-[Mauern der Ewigkeit]: ./spells-descriptions.md#mauern-der-ewigkeit "Zauberbeschreibungen E2"
-[Meditation]: ./spells-descriptions.md#meditation "Zauberbeschreibungen E2"
-[Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger "Zauberbeschreibungen E2"
-[Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln "Zauberbeschreibungen E2"
-[Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen "Zauberbeschreibungen E2"
-[Mächte des Todes]: ./spells-descriptions.md#mächte-des-todes "Zauberbeschreibungen E2"
-[Opfere Kraft]: ./spells-descriptions.md#opfere-kraft "Zauberbeschreibungen E2"
-[Pentagramm]: ./spells-descriptions.md#pentagramm "Zauberbeschreibungen E2"
-[Plappermaul]: ./spells-descriptions.md#plappermaul "Zauberbeschreibungen E2"
-[Regentanz]: ./spells-descriptions.md#regentanz "Zauberbeschreibungen E2"
-[Rindenhaut]: ./spells-descriptions.md#rindenhaut "Zauberbeschreibungen E2"
-[Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme "Zauberbeschreibungen E2"
-[Rosthauch]: ./spells-descriptions.md#rosthauch "Zauberbeschreibungen E2"
-[Rostregen]: ./spells-descriptions.md#rostregen "Zauberbeschreibungen E2"
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realität "Zauberbeschreibungen E2"
-[Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes "Zauberbeschreibungen E2"
-[Rüstschild]: ./spells-descriptions.md#rüstschild "Zauberbeschreibungen E2"
-[Schaler Wein]: ./spells-descriptions.md#schaler-wein "Zauberbeschreibungen E2"
-[Schattenritter]: ./spells-descriptions.md#schattenritter "Zauberbeschreibungen E2"
-[Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches "Zauberbeschreibungen E2"
-[Schlaf]: ./spells-descriptions.md#schlaf "Zauberbeschreibungen E2"
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-träume "Zauberbeschreibungen E2"
-[Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf "Zauberbeschreibungen E2"
-[Schleieraura]: ./spells-descriptions.md#schleieraura "Zauberbeschreibungen E2"
-[Schockwelle]: ./spells-descriptions.md#schockwelle "Zauberbeschreibungen E2"
-[Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie "Zauberbeschreibungen E2"
-[Schutzzauber]: ./spells-descriptions.md#schutzzauber "Zauberbeschreibungen E2"
-[Schwere Glieder]: ./spells-descriptions.md#schwere-glieder "Zauberbeschreibungen E2"
-[Schöne Träume]: ./spells-descriptions.md#schöne-träume "Zauberbeschreibungen E2"
-[Seelenfrieden]: ./spells-descriptions.md#seelenfrieden "Zauberbeschreibungen E2"
-[Segen der Erde]: ./spells-descriptions.md#segen-der-erde "Zauberbeschreibungen E2"
-[Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken "Zauberbeschreibungen E2"
-[Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
-[Sog des Lebens]: ./spells-descriptions.md#sog-des-lebens "Zauberbeschreibungen E2"
-[Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer "Zauberbeschreibungen E2"
-[Stehle Aura]: ./spells-descriptions.md#stehle-aura "Zauberbeschreibungen E2"
-[Sturmelementar]: ./spells-descriptions.md#sturmelementar "Zauberbeschreibungen E2"
-[Störe Astrale Integrität]: ./spells-descriptions.md#störe-astrale-integrität "Zauberbeschreibungen E2"
-[Süße Träume]: ./spells-descriptions.md#süße-träume "Zauberbeschreibungen E2"
-[Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes "Zauberbeschreibungen E2"
-[Todeswolke]: ./spells-descriptions.md#todeswolke "Zauberbeschreibungen E2"
-[Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze "Zauberbeschreibungen E2"
-[Traum der Magie]: ./spells-descriptions.md#traum-der-magie "Zauberbeschreibungen E2"
-[Traumbilder analysieren]: ./spells-descriptions.md#traumbilder-analysieren "Zauberbeschreibungen E2"
-[Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren "Zauberbeschreibungen E2"
-[Traumdeuten]: ./spells-descriptions.md#traumdeuten "Zauberbeschreibungen E2"
-[Traumlesen]: ./spells-descriptions.md#traumlesen "Zauberbeschreibungen E2"
-[Traumschlößchen]: ./spells-descriptions.md#traumschlößchen "Zauberbeschreibungen E2"
-[Traumsenden]: ./spells-descriptions.md#traumsenden "Zauberbeschreibungen E2"
-[Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft "Zauberbeschreibungen E2"
-[Untote Helden]: ./spells-descriptions.md#untote-helden "Zauberbeschreibungen E2"
-[Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen "Zauberbeschreibungen E2"
-[Verwünschung]: ./spells-descriptions.md#verwünschung "Zauberbeschreibungen E2"
-[Viehheilung]: ./spells-descriptions.md#viehheilung "Zauberbeschreibungen E2"
-[Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges "Zauberbeschreibungen E2"
-[Wahrsagen]: ./spells-descriptions.md#wahrsagen "Zauberbeschreibungen E2"
-[Wasserelementar]: ./spells-descriptions.md#wasserelementar "Zauberbeschreibungen E2"
-[Weg der Bäume]: ./spells-descriptions.md#weg-der-bäume "Zauberbeschreibungen E2"
-[Wiederbelebung]: ./spells-descriptions.md#wiederbelebung "Zauberbeschreibungen E2"
-[Windschild]: ./spells-descriptions.md#windschild "Zauberbeschreibungen E2"
-[Wirbelwind]: ./spells-descriptions.md#wirbelwind "Zauberbeschreibungen E2"
-[Wolfsgeheul]: ./spells-descriptions.md#wolfsgeheul "Zauberbeschreibungen E2"
-[Wunderdoktor]: ./spells-descriptions.md#wunderdoktor "Zauberbeschreibungen E2"
-[Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie "Zauberbeschreibungen E2"
-[Zeitdehnung]: ./spells-descriptions.md#zeitdehnung "Zauberbeschreibungen E2"
+[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwächezone
+[Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang
+[Astraler Riss]: ./spells-descriptions.md#astraler-riss
+[Astraler Ruf]: ./spells-descriptions.md#astraler-ruf
+[Astraler Weg]: ./spells-descriptions.md#astraler-weg
+[Astrales Chaos]: ./spells-descriptions.md#astrales-chaos
+[Astralschutzgeister]: ./spells-descriptions.md#astralschutzgeister
+[Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen
+[Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen
+[Auratransfer]: ./spells-descriptions.md#auratransfer
+[Aushorchen]: ./spells-descriptions.md#aushorchen
+[Bannlied]: ./spells-descriptions.md#bannlied
+[Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
+[Bergwächter]: ./spells-descriptions.md#bergwächter
+[Beschleunigung]: ./spells-descriptions.md#beschleunigung
+[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwöre-schattendämonen
+[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwöre-schattenmeister
+[Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
+[Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realität
+[Blutrausch]: ./spells-descriptions.md#blutrausch
+[Chaosfluch]: ./spells-descriptions.md#chaosfluch
+[Chaossog]: ./spells-descriptions.md#chaossog
+[Drachenruf]: ./spells-descriptions.md#drachenruf
+[Erdelementar]: ./spells-descriptions.md#erdelementar
+[Erschaffe Antimagiekristall]: ./spells-descriptions.md#erschaffe-antimagiekristall
+[Erschaffe Eisengolems]: ./spells-descriptions.md#erschaffe-eisengolems
+[Erschaffe Steingolems]: ./spells-descriptions.md#erschaffe-steingolems
+[Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens
+[Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert
+[Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
+[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphäre-der-unsichtbarkeit
+[Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
+[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gürtel-der-trollstärke
+[Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
+[Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
+[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kräuterbeutel
+[Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
+[Feuerball]: ./spells-descriptions.md#feuerball
+[Feuerteufel]: ./spells-descriptions.md#feuerteufel
+[Feuerwand]: ./spells-descriptions.md#feuerwand
+[Firuns Fell]: ./spells-descriptions.md#firuns-fell
+[Fluch brechen]: ./spells-descriptions.md#fluch-brechen
+[Fluch der Pestilenz]: ./spells-descriptions.md#fluch-der-pestilenz
+[Friedenslied]: ./spells-descriptions.md#friedenslied
+[Gabe des Chaos]: ./spells-descriptions.md#gabe-des-chaos
+[Gaukeleien]: ./spells-descriptions.md#gaukeleien
+[Geister bannen]: ./spells-descriptions.md#geister-bannen
+[Gesang der Angst]: ./spells-descriptions.md#gesang-der-angst
+[Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit
+[Gesang der Furcht]: ./spells-descriptions.md#gesang-der-furcht
+[Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie
+[Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung
+[Gesang der Verwirrung]: ./spells-descriptions.md#gesang-der-verwirrung
+[Gesang des Auratransfers]: ./spells-descriptions.md#gesang-des-auratransfers
+[Gesang des Lebens analysieren]: ./spells-descriptions.md#gesang-des-lebens-analysieren
+[Gesang des Werbens]: ./spells-descriptions.md#gesang-des-werbens
+[Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes
+[Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes
+[Gestaltwandlung]: ./spells-descriptions.md#gestaltwandlung
+[Grauen der Schlacht]: ./spells-descriptions.md#grauen-der-schlacht
+[Hagel]: ./spells-descriptions.md#hagel
+[Hainzauber]: ./spells-descriptions.md#hainzauber
+[Heiliger Boden]: ./spells-descriptions.md#heiliger-boden
+[Heilung]: ./spells-descriptions.md#heilung
+[Heimstein]: ./spells-descriptions.md#heimstein
+[Heldengesang]: ./spells-descriptions.md#heldengesang
+[Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
+[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-überzeugung
+[Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei
+[Kleine Flüche]: ./spells-descriptions.md#kleine-flüche
+[Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer
+[Kriegsgesang]: ./spells-descriptions.md#kriegsgesang
+[Lebenslied festigen]: ./spells-descriptions.md#lebenslied-festigen
+[Lied der Heilung]: ./spells-descriptions.md#lied-der-heilung
+[Lied der Verführung]: ./spells-descriptions.md#lied-der-verführung
+[Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
+[Luftschiff]: ./spells-descriptions.md#luftschiff
+[Machtübertragung]: ./spells-descriptions.md#machtübertragung
+[Magie analysieren]: ./spells-descriptions.md#magie-analysieren
+[Magiefresser]: ./spells-descriptions.md#magiefresser
+[Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
+[Mahlstrom]: ./spells-descriptions.md#mahlstrom
+[Mauern der Ewigkeit]: ./spells-descriptions.md#mauern-der-ewigkeit
+[Meditation]: ./spells-descriptions.md#meditation
+[Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
+[Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
+[Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
+[Mächte des Todes]: ./spells-descriptions.md#mächte-des-todes
+[Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
+[Pentagramm]: ./spells-descriptions.md#pentagramm
+[Plappermaul]: ./spells-descriptions.md#plappermaul
+[Regentanz]: ./spells-descriptions.md#regentanz
+[Rindenhaut]: ./spells-descriptions.md#rindenhaut
+[Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
+[Rosthauch]: ./spells-descriptions.md#rosthauch
+[Rostregen]: ./spells-descriptions.md#rostregen
+[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realität
+[Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
+[Rüstschild]: ./spells-descriptions.md#rüstschild
+[Schaler Wein]: ./spells-descriptions.md#schaler-wein
+[Schattenritter]: ./spells-descriptions.md#schattenritter
+[Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
+[Schlaf]: ./spells-descriptions.md#schlaf
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-träume
+[Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
+[Schleieraura]: ./spells-descriptions.md#schleieraura
+[Schockwelle]: ./spells-descriptions.md#schockwelle
+[Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
+[Schutzzauber]: ./spells-descriptions.md#schutzzauber
+[Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
+[Schöne Träume]: ./spells-descriptions.md#schöne-träume
+[Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
+[Segen der Erde]: ./spells-descriptions.md#segen-der-erde
+[Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
+[Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
+[Sog des Lebens]: ./spells-descriptions.md#sog-des-lebens
+[Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer
+[Stehle Aura]: ./spells-descriptions.md#stehle-aura
+[Sturmelementar]: ./spells-descriptions.md#sturmelementar
+[Störe Astrale Integrität]: ./spells-descriptions.md#störe-astrale-integrität
+[Süße Träume]: ./spells-descriptions.md#süße-träume
+[Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
+[Todeswolke]: ./spells-descriptions.md#todeswolke
+[Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
+[Traum der Magie]: ./spells-descriptions.md#traum-der-magie
+[Traumbilder analysieren]: ./spells-descriptions.md#traumbilder-analysieren
+[Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
+[Traumdeuten]: ./spells-descriptions.md#traumdeuten
+[Traumlesen]: ./spells-descriptions.md#traumlesen
+[Traumschlößchen]: ./spells-descriptions.md#traumschlößchen
+[Traumsenden]: ./spells-descriptions.md#traumsenden
+[Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
+[Untote Helden]: ./spells-descriptions.md#untote-helden
+[Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
+[Verwünschung]: ./spells-descriptions.md#verwünschung
+[Viehheilung]: ./spells-descriptions.md#viehheilung
+[Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
+[Wahrsagen]: ./spells-descriptions.md#wahrsagen
+[Wasserelementar]: ./spells-descriptions.md#wasserelementar
+[Weg der Bäume]: ./spells-descriptions.md#weg-der-bäume
+[Wiederbelebung]: ./spells-descriptions.md#wiederbelebung
+[Windschild]: ./spells-descriptions.md#windschild
+[Wirbelwind]: ./spells-descriptions.md#wirbelwind
+[Wolfsgeheul]: ./spells-descriptions.md#wolfsgeheul
+[Wunderdoktor]: ./spells-descriptions.md#wunderdoktor
+[Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
+[Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
 
 Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
 
 Continue reading: [Tränke].
 
-[Tränke]: ./alchemy.md "Potions"
+[Tränke]: ./alchemy.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
 
-[Cerddor]: ./magic-school-cerddor.md "Cerddorzauber"
-[Draig]: ./magic-school-draig.md "Draigzauber"
-[Gwyrrd]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
-[Illaun]: ./magic-school-illaun.md "Illaunzauber"
-[Tybied]: ./magic-school-tybied.md "Tybiedzauber"
+[Cerddor]: ./magic-school-cerddor.md
+[Draig]: ./magic-school-draig.md
+[Gwyrrd]: ./magic-school-gwyrrd.md
+[Illaun]: ./magic-school-illaun.md
+[Tybied]: ./magic-school-tybied.md

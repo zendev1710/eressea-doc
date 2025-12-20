@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: modificateurs-de-competences
 ---
 # Modificateurs de compétences
@@ -9,7 +10,7 @@ Ceux-ci sont résumés dans ce tableau.
 !!! note
     Dans le rapport, ces modificateurs sont déjà pris en compte, ce qui signifie que le niveau effectif est toujours affiché.
 
-| Compétence     | [dwarves] | [orcs] | [elves] | [cats] | [demons] | [halflings] | [humans] | [goblins] | [insects] | [trolls] | [aqua.] |
+| Compétence     | [dwarves] | [orcs] | [elves] | [cats] | [demons] | [halflings] | [humans] | [gobelins] | [insects] | [trolls] | [aqua.] |
 |----------------|-----------|--------|---------|--------|----------|-------------|----------|-----------|-----------|----------|---------|
 | recrutement    | 110       | 70     | 130     | 90     | 150      | 80          | 75       | 40        | 80        | 90       | 80      |
 | points de vie  | 24        | 24     | 18      | 20     | 50       | 18          | 20       | 16        | 24        | 30       | 20      |
@@ -49,14 +50,14 @@ Poursuivre la lecture : [[competences]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->
 
-[dwarves]: ./races.md#nains "Nains"
-[orcs]: ./races.md#orcs "Orcs"
-[elves]: ./races.md#elfes "Elfes"
-[cats]: ./races.md#chats "Chats"
-[demons]: ./races.md#démons "Démos"
-[halflings]: ./races.md#halflings "Halflinge"
-[humans]: ./races.md#humains "Humains"
-[goblins]: ./races.md#goblins "Goblins"
-[insects]: ./races.md#insectes "Insecten"
-[trolls]: ./races.md#trolls "Trolls"
-[aqua.]: ./races.md#aquariens "Aquariens"
+[dwarves]: ./races.md#nains
+[orcs]: ./races.md#orcs
+[elves]: ./races.md#elfes
+[cats]: ./races.md#chats
+[demons]: ./races.md#démons
+[halflings]: ./races.md#halflings
+[humans]: ./races.md#humains
+[gobelins]: ./races.md#gobelins
+[insects]: ./races.md#insectes
+[trolls]: ./races.md#trolls
+[aqua.]: ./races.md#aquariens

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: buildings
     text: Buildings
@@ -41,17 +42,17 @@ Buildings are constructed and expanded using the [[cmd-make]][`MAKE `*`Building_
 
 Continue reading: [[castles]].
 
-[castles]: ./castles.md "Burg"
+[castles]: ./castles.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/en&oldid=16677] -->
 
-[`GIVE`]: ./cmd-give.md "GIVE"
-[orders sequence]: ./commands-sequence.md "Befehlsreihenfolge"
-[`MAKE `*`Building_type`*]: ./cmd-make.md "MAKE"
+[`GIVE`]: ./cmd-give.md
+[orders sequence]: ./commands-sequence.md
+[`MAKE `*`Building_type`*]: ./cmd-make.md
 [`PAY NOT`]: ./cmd-pay-not.md_NICHT "PAY NOT"
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[LEAVE]: ./cmd-leave.md "LEAVE"
-[SORT]: ./cmd-sort.md "SORT"
-[special buildings]: ./buildings-others.md "Andere Gebäude"
-[production]: ./production.md "Produktion"
-[expenses]: ./silver.md#expenses "Ausgaben"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md
+[LEAVE]: ./cmd-leave.md
+[SORT]: ./cmd-sort.md
+[special buildings]: ./buildings-others.md
+[production]: ./production.md
+[expenses]: ./silver.md#expenses

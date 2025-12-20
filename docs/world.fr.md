@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: le-monde-d-eressea
 ---
 # Le Monde d'Eressea
@@ -154,30 +155,30 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 
 Poursuivre la lecture : [Factions].
 
-[Factions]: ./factions.md "Parteien"
+[Factions]: ./factions.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
-[ORIGIN]: ./cmd-origin.md "ORIGIN"
-[types de terrain]: ./terrains.md "Terrains"
-[travail]: ./silver.md#travail "Argent"
-[châteaux]: ./castles.md "Château"
-[herbes]: ./herbs.md "Plantes"
-[potions]: ./alchemy.md "Potions"
-[routes]: ./roads.md "Routes"
-[bâtiments spéciaux]: ./buildings-others.md "Bâtiments spéciaux"
-[ressources]: ./resources.md "Ressources"
-[mine]: ./buildings-others.md#mine "Mine"
-[Taming]: ./skills-list.md#taming "Pferdedressur"
-[transport]: ./travel.md#chevaux-et-chariots "Chevaux et chariots"
-[bonus de cavalerie]: ./war.md#boni-et-mali "Guerre"
-[caravanserail]: ./buildings-others.md#caravanserail "Caravanserail"
-[revenus]: ./silver.md#revenus "Argent"
-[phare]: ./buildings-others.md#phare "Phare"
-[Commerce]: ./silver.md#commerce "Commerce"
-[Ordres]: ./commands.md "Ordres"
-[Insectes]: ./races.md#insectes "Insectes"
-[mer]: ./travel.md "Reisen"
-[croissance des forêts]: ./resources.md#ressources-forestières "Ressources"
-[L'argent]: ./silver.md "Argent"
-[1]: ./silver.md#recruter "RECRUIT"
+[ORIGIN]: ./cmd-origin.md
+[types de terrain]: ./terrains.md
+[travail]: ./silver.md#travail
+[châteaux]: ./castles.md
+[herbes]: ./herbs.md
+[potions]: ./alchemy.md
+[routes]: ./roads.md
+[bâtiments spéciaux]: ./buildings-others.md
+[ressources]: ./resources.md
+[mine]: ./buildings-others.md#mine
+[Taming]: ./skills-list.md#taming
+[transport]: ./travel.md#chevaux-et-chariots
+[bonus de cavalerie]: ./war.md#boni-et-mali
+[caravanserail]: ./buildings-others.md#caravanserail
+[revenus]: ./silver.md#revenus
+[phare]: ./buildings-others.md#phare
+[Commerce]: ./silver.md#commerce
+[Ordres]: ./commands.md
+[Insectes]: ./races.md#insectes
+[mer]: ./travel.md
+[croissance des forêts]: ./resources.md#ressources-forestières
+[L'argent]: ./silver.md
+[1]: ./silver.md#recruter

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: puppy-protection
     text: Puppy protection
@@ -21,10 +22,10 @@ This system aims to improve game balance for new factions.
 
     If your report states: "Your faction is immune for 1 week", this means you can be targeted by stealth and attacks starting in the week for which you submit your orders!
 
-Continue reading: [Send Orders](./commands-send.md "Send Orders")
+Continue reading: [Send Orders](./commands-send.md)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
 
-[attacked]: ./cmd-attack.md "ATTACK"
-[stolen]: ./cmd-steal.md "STEAL"
-[guard]: ./cmd-guard.md "GUARD"
+[attacked]: ./cmd-attack.md
+[stolen]: ./cmd-steal.md
+[guard]: ./cmd-guard.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: sphere-of-invisibility
     text: Sphere of Invisibility

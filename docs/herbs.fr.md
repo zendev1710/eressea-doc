@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: plantes
 ---
 # Plantes
@@ -35,13 +36,13 @@ Liste des plantes et leur localisation incl. noms allemand
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Volcano      | \--                                                                                     | \--                                                                      |
 
-Poursuivre la lecture : [Befehle](./commands.md "Befehle").
+Poursuivre la lecture : [Befehle](./commands.md).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
 
-[MAKE HERBS]: ./cmd-make.md "MAKE"
-[Herbalism]: ./skills-list.md "Liste der Talente"
-[GROW HERBS]: ./cmd-grow.md "GROW"
-[alchimie]: ./alchemy.md "Alchemie"
-[sorts]: ./magic.md "Magie"
-[RESEARCH HERBS]: ./cmd-research.md "RESEARCH"
+[MAKE HERBS]: ./cmd-make.md
+[Herbalism]: ./skills-list.md
+[GROW HERBS]: ./cmd-grow.md
+[alchimie]: ./alchemy.md
+[sorts]: ./magic.md
+[RESEARCH HERBS]: ./cmd-research.md

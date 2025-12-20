@@ -34,9 +34,9 @@ Eine ältere Version von Magellan ("Magellan 1") wird nicht mehr weiterentwickel
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magellan&oldid=7285] -->
 
-[ECheck]: ./echeck.md "ECheck"
+[ECheck]: ./echeck.md
 [Bugtracker]: https://magellan2.github.io/bugs/
-[Befehle von Magellan verschicken]: ./commands-send-from-magellan.md "Befehle von Magellan verschicken"
+[Befehle von Magellan verschicken]: ./commands-send-from-magellan.md
 [Magellan 2]: https://magellan2.github.io
 [Magellan-Quellcode (für Entwickler)]: https://github.com/magellan2
 [Magellan auf Sourceforge (veraltet)]: http://sourceforge.net/projects/magellan-client

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: naviguer
 ---
 # Naviguer
@@ -96,28 +97,28 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 
 Poursuivre la lecture : [Produktion].
 
-[Produktion]: ./production.md "Produktion"
+[Produktion]: ./production.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
 
-[bateaux]: ./ships.md "Schiff"
-[**Port**]: ./buildings-others.md#port "Port"
+[bateaux]: ./ships.md
+[**Port**]: ./buildings-others.md#port
 [dommages]: #dommages-aux-bateaux
-[HELP]: ./cmd-help.md "HELP"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
-[Piraterie]: ./war.md#piraterie "Guerre"
-[objets]: ./items.md#getenständen "Waren"
-[Poids et Capacités]: ./travel.md#rassengewichte "Reisen"
-[convoi]: ./ships.md#konvoi "Schiffe"
-[1]: ./ships.md "Schiffe"
-[MOVE]: ./cmd-move.md "MOVE"
-[ROUTE]: ./cmd-route.md "ROUTE"
-[`WORK`]: ./cmd-work.md "WORK"
-[gagner d'argent]: ./silver.md "Argent"
-[LEAVE]: ./cmd-leave.md "LEAVE"
-[RIDE]: ./cmd-ride.md "RIDE"
-[CARRY]: ./cmd-carry.md "CARRY"
-[aquariens]: ./races.md#aquariens "Aquariens"
-[combat naval]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
-[2]: ./cmd-make.md "MAKE"
-[déplacement]: ./travel.md "Reisen"
+[HELP]: ./cmd-help.md
+[FOLLOW]: ./cmd-follow.md
+[Piraterie]: ./war.md#piraterie
+[objets]: ./items.md#getenständen
+[Poids et Capacités]: ./travel.md#rassengewichte
+[convoi]: ./ships.md#konvoi
+[1]: ./ships.md
+[MOVE]: ./cmd-move.md
+[ROUTE]: ./cmd-route.md
+[`WORK`]: ./cmd-work.md
+[gagner d'argent]: ./silver.md
+[LEAVE]: ./cmd-leave.md
+[RIDE]: ./cmd-ride.md
+[CARRY]: ./cmd-carry.md
+[aquariens]: ./races.md#aquariens
+[combat naval]: ./war.md#kampf-auf-und-von-schiffen
+[2]: ./cmd-make.md
+[déplacement]: ./travel.md

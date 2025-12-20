@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: items
     text: Items
@@ -73,11 +74,11 @@ Weight, skill and raw material requirements
 
 Continue reading: [Roads].
 
-[Roads]: ./roads.md "Straße"
+[Roads]: ./roads.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 
-[these examples]: ./production.md "Produktion"
-[resources]: ./resources.md "Resources"
-[buildings]: ./buildings.md "Gebäude"
-[war tables]: ./war-tables.md "Warstabellen"
+[these examples]: ./production.md
+[resources]: ./resources.md
+[buildings]: ./buildings.md
+[war tables]: ./war-tables.md

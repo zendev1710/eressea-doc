@@ -34,7 +34,7 @@ Und schließlich wieder wie am Anfang.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs "Ordres"
-[`MOVE`]: ./cmd-move.md "MOVE"
-[Reisen]: ./travel.md "Reisen"
-[FOLLOW]: ./cmd-follow.md "FOLLOW"
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[`MOVE`]: ./cmd-move.md
+[Reisen]: ./travel.md
+[FOLLOW]: ./cmd-follow.md

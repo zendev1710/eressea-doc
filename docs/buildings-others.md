@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: other-buildings
     text: Other Buildings
@@ -277,7 +278,7 @@ The capacity refers only to the persons who can benefit from the building.
 
 Continue reading: [Faction Pool].
 
-[building castles]: ./castles.md "Burgen"
+[building castles]: ./castles.md
 [Lighthouse]: #lighthouse
 [Mine]: #mine
 [Quarry]: #quarry
@@ -293,15 +294,15 @@ Continue reading: [Faction Pool].
 [Inn]: #inn
 [Monument]: #monument
 [Stonecircle]: #stonecircle
-[water of life]: ./alchemy.md "Tränke"
-[USE 1 water~of~life]: ./cmd-use.md "USE"
-[GROW]: ./cmd-grow.md "GROW"
-[HELP GUARD]: ./cmd-help.md "HELP"
-[DESTROY]: ./cmd-destroy.md "DESTROY"
-[castle rules table]: ./castles.md#overview "Burgen"
-[powerful spell]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
-[Buildings]: ./buildings.md "Gebäude"
-[Castles]: ./castles.md "Burgen"
-[Production]: ./production.md "Produktion"
-[Faction Pool]: ./faction-pool.md "Parteipool"
-[MAKE "building type"]: ./cmd-make.md "MAKE"
+[water of life]: ./alchemy.md
+[USE 1 water~of~life]: ./cmd-use.md
+[GROW]: ./cmd-grow.md
+[HELP GUARD]: ./cmd-help.md
+[DESTROY]: ./cmd-destroy.md
+[castle rules table]: ./castles.md#overview
+[powerful spell]: ./spells-descriptions.md#segne-steinkreis
+[Buildings]: ./buildings.md
+[Castles]: ./castles.md
+[Production]: ./production.md
+[Faction Pool]: ./faction-pool.md
+[MAKE "building type"]: ./cmd-make.md

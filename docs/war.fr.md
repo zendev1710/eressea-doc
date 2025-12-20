@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr, en
 alias: guerre
 ---
 # Guerre
@@ -301,32 +302,32 @@ Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
-[`ATTACK`]: ./cmd-attack.md "ATTACK"
+[`ATTACK`]: ./cmd-attack.md
 [tour de tactique]: #tour-du-tacticien
-[`COMBAT`]: ./cmd-combat.md "COMBAT"
-[`HELP COMBAT`]: ./cmd-help.md "HELP"
+[`COMBAT`]: ./cmd-combat.md
+[`HELP COMBAT`]: ./cmd-help.md
 [Lignes de combat]: #lignes-de-combat "Lignes de combat"
 [fuir]: #la-fuite
-[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires "Kampf auf Schiffen"
-[la fuite]: ./war.md#la-fuite "Die Flucht"
+[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires
+[la fuite]: ./war.md#la-fuite
 [non armés]: #boni-et-mali
-[Tacticien]: ./tactic.md "Taktik"
+[Tacticien]: ./tactic.md
 [Héros]: ./#heros "Héros"
-[Caractéristiques des armes]: ./war-tables.md#waffeneigenschaften "Guerrestabellen"
-[Modificateurs de compétences]: ./war-tables.md#caractéristiques-raciales "Guerrestabellen"
-[ce]: ./war-tables.md#rüstung "Guerrestabellen"
-[Résistance à la magie]: ./war-tables.md#magieresistenz "Guerrestabellen"
-[ce tableau]: ./war-tables.md#ausdauer "Guerrestabellen"
+[Caractéristiques des armes]: ./war-tables.md#waffeneigenschaften
+[Modificateurs de compétences]: ./war-tables.md#caractéristiques-raciales
+[ce]: ./war-tables.md#rüstung
+[Résistance à la magie]: ./war-tables.md#magieresistenz
+[ce tableau]: ./war-tables.md#ausdauer
 [débordé]: #lignes-de-combat "Lignes de combat"
 [à mains nues]: #boni-et-mali
-[MAKE ammunition]: ./cmd-make.md "MAKE"
-[tables de combat]: ./war-tables.md#kampfmodifikatoren "Guerrestabellen"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[Schiffe]: ./ships.md "Schiffe"
-[Schaden]: ./ships.md#schiffsschaden "Schiff"
-[`FOLLOW SHIP`]: ./cmd-follow.md "FOLLOW"
-[`PIRACY <parteinummer> ...`]: ./cmd-piracy.md "PIRACY"
-[races]: ./skills-modifiers.md "Talentmodifikatoren"
-[`ROUTE`]: ./cmd-route.md "ROUTE"
-[Taktik]: ./tactic.md "Taktik"
-[Kriegstabellen]: ./war-tables.md "Guerrestabellen"
+[MAKE ammunition]: ./cmd-make.md
+[tables de combat]: ./war-tables.md#kampfmodifikatoren
+[`GUARD`]: ./cmd-guard.md
+[Schiffe]: ./ships.md
+[Schaden]: ./ships.md#schiffsschaden
+[`FOLLOW SHIP`]: ./cmd-follow.md
+[`PIRACY <parteinummer> ...`]: ./cmd-piracy.md
+[races]: ./skills-modifiers.md
+[`ROUTE`]: ./cmd-route.md
+[Taktik]: ./tactic.md
+[Kriegstabellen]: ./war-tables.md

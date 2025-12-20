@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-guard
     text: GUARD
@@ -45,4 +46,4 @@ In den [[puppy-protection|ersten Wochen]] kann deine Partei noch nicht bewachen.
 
 [weapon]: ./war-tables.md#weapon-properties
 [trade]: ./silver.md#trade
-[Kampfende]: ./war.md#the-end "Kampfende"
+[Kampfende]: ./war.md#the-end

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale de
 alias: geschichte-von-eressea
 ---
 # Geschichte von Eressea

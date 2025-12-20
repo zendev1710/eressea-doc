@@ -4,9 +4,18 @@ version: '0.2'
 caseSensitive: true
 loadDefaultConfiguration: true
 
-language: "fr-fr"
+language: "en, en-GB, fr-fr, fr_FR, de-de, de_DE"
 
 dictionaryDefinitions:
+  - name: custom-dictionary-en
+    path: '.cspell/custom-dictionary-en.txt'
+    addWords: true
+  - name: custom-dictionary-fr
+    path: '.cspell/custom-dictionary-fr.txt'
+    addWords: true
+  - name: custom-dictionary-de
+    path: '.cspell/custom-dictionary-de.txt'
+    addWords: true
   - name: custom-dictionary
     path: '.cspell/custom-dictionary.txt'
     addWords: true
@@ -14,8 +23,13 @@ dictionaryDefinitions:
 # To be compatible with ide
 # enable only dictionaries needed
 dictionaries:
+  - custom-dictionary-en
+  - custom-dictionary-fr
+  - custom-dictionary-de
   - custom-dictionary
+  - en-en
   - fr-fr
+  - de-de
   - "softwareTerms"
   - "companies"
   - "html"
@@ -31,12 +45,10 @@ dictionaries:
   - "!css"
   - "!cryptocurrencies"
   - "!dart"
-  - "!django"
   - "!docker"
-  - "!dotnet"
   - "!elixir"
-  - "!en_us"
-  - "!en-gb"
+  #- "!en_us"
+  #- "!en-gb"
   - "!fonts"
   - "!fullstack"
   - "!golang"
@@ -61,11 +73,15 @@ dictionaries:
   - "!typescript"
 
 import:
+  - "@cspell/dict-en-gb/cspell-ext.json"  # see: https://www.npmjs.com/package/@cspell/dict-en-gb
   - "@cspell/dict-fr-fr/cspell-ext.json"  # see: https://www.npmjs.com/package/@cspell/dict-fr-fr
+  - "@cspell/dict-de-de/cspell-ext.json"  # see: https://www.npmjs.com/package/@cspell/dict-de-de
 
 ignoreRegExpList:
   - "/^\\s*```[\\s\\S]*?^\\s*```/gm"                  # ignore Markdown code blocks
-  - "\\[.*]\\(.*\\)"                                  # ignore Markdown link
+  - "\\[.*]\\(.*\\)"                                  # ignore Markdown link [...](...)
+  - "\\[\\[[^|]*\\|"                                  # ignore Markdown link alias [[...]]
+  - "\\[\\[[^|]*\\]\\]"                               # ignore left part (A) of Markdown link alias [[A|B]]
   - "\\[.*]\\(.*\\){.*}"                              # ignore Markdown link with class attributs, i.e [...](..){ my-attribut: ... }
   - "\\[.*]\\[.*]"                                    # ignore other markdown link format : [...][<entry>]
   - ":[^ ]*:"                                         # ignore emoji or icon format, i.e :my-icon:
@@ -74,8 +90,14 @@ ignoreRegExpList:
   - "<(?:\"[^\"]*\"['\"]*|'[^']*'['\"]*|[^'\">])+>"   # ignore html tags
   - "^\\[.*]:.*"                                      # ignore link entry (cf other markdown link format) : [...]: <link>
   - "/^(-|\\.){3}[\\s\\S]*?^\\s*(-|\\.){3}/gm"        # ignore yaml header tag : --- <multiline content> ---
+  - "\\*« .* »\\*"                                    # ignore emphasized quotes in italic to represent a translation : *« my translation »*
 
 ignorePaths:
   - ./node_modules
   - ./mkdocs.yml
   - ./Taskfile.yml
+  - ./docs/*.fr.md
+  - ./docs/*.de.md
+
+files:
+  - ./docs/*.md

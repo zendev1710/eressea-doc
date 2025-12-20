@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: basics
     text: Basics
@@ -53,6 +54,6 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Aktion]:./commands.md#short-and-long-orders "Orders"
-[Hungern]: ./silver.md#starvation "Starvation"
-[Materialpool]: ./items-pool.md "Materialpool"
+[Aktion]:./commands.md#short-and-long-orders
+[Hungern]: ./silver.md#starvation
+[Materialpool]: ./items-pool.md

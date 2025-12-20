@@ -11,5 +11,5 @@ Zeigt die Beschreibung zu einem Zauberspruch, das Rezept eines alchemistischen T
 
 <!-- From [https://wiki.eressea.de/index.php?title=SHOW&oldid=14967] -->
 
-[Parteipool]: ./faction-pool.md "Parteipool"
-[Vertraute]: ./familiars.md "Vertraute"
+[Parteipool]: ./faction-pool.md
+[Vertraute]: ./familiars.md

@@ -1,4 +1,5 @@
 ---
+# cSpell:locale en
 alias:
     name: cmd-entertain
     text: ENTERTAIN
@@ -23,8 +24,8 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
 
-[`WORK`]: ./cmd-work.md "WORK"
-[`GUARD`]: ./cmd-guard.md "GUARD"
-[`HELP`]: ./cmd-help.md "HELP"
-[Handel]: ./silver.md#trade "Trade"
-[Geld]: ./silver.md "Money"
+[`WORK`]: ./cmd-work.md
+[`GUARD`]: ./cmd-guard.md
+[`HELP`]: ./cmd-help.md
+[Handel]: ./silver.md#trade
+[Geld]: ./silver.md

@@ -1,28 +1,26 @@
 ---
 # cSpell:locale en
-alias:
-    name: optimize-production
-    text: Optimizing production
+alias: optimize-production
 ---
 # Optimizing production
 
-Unter der Optimierung der Produktion verstehe ich hauptsächlich die sparsame Verwendung von Einheiten. D.h. Ich habe in einer Region eine Gruppe von Einheiten mit der gleichen Aufgabe und soll eine festgelegte Menge produzieren (Silber, Handel, Gegenstände, Schiffe und Gebäude).
+By optimizing production I mainly mean the economical use of units. I.e. I have a group of units in a region with the same task and should produce a set amount (silver, trade, items, ships and buildings).
 
-Relativ eindeutig handelt es sich dabei um das sogenannte Rucksackproblem. Dabei gilt es hier eher darum den Rucksack so gering wie möglich zu überladen, d.h. die Einheiten so zuzuordnen, dass sich möglichst wenig Personen nichts tun. Prinzipiell ist es auch denkbar eine minimale Auslastungsgrenze (für die letzte zugeordnete Einheit) festzulegen.
+It is relatively clear that this is the so-called backpack problem. The aim here is to overload the backpack as little as possible, i.e. to assign the units so that as few people as possible do nothing. In principle, it is also conceivable to set a minimum utilization limit (for the last assigned unit).
 
-Beim beladen eines Rucksackes zählt ja möglichst viel Wert auf den begrenzten Raum/Gewicht zu laden. Raum/Gewicht ist in unserem Fall die zu produzierende Menge. Einen Wert haben wir eher nicht, aber wir haben Kosten. Und die sind z.b. umso geringer je besser eine Einheit ausgebildet ist.
+When loading a backpack, it is important to load as much weight as possible into the limited space/weight. In our case, space/weight is the quantity to be produced. We don't have any value, but we do have costs. And they are e.g. the better a unit is, the lower it is.
 
-Das Rucksack-Problem kann man für einzelne sich stark unterscheidende Gegenstände die man in den Rucksack packt, recht gut über Pareto-Optimale Punkte (zwischenzustände) lösen. Leider haben wir bei Eressea oft die Situation mit sehr vielen gleich gut ausgebildeten Einheiten zu hantieren. d.h. die Kosten pro Person sind die gleichen, lediglich die Grösse mag unterschiedlich sein. Dadurch liegen aber ziemlich viele Zustände auf einer Linie, d.h. es lassen sich kaum welche eliminieren.
+The backpack problem can be solved quite well using Pareto optimal points (intermediate states) for individual, very different objects that you pack in the backpack. Unfortunately, at Eressea we often have to deal with a lot of equally well-trained units. i.e. the costs per person are the same, only the size may be different. However, this means that quite a few states are on the same line, i.e. it is hardly possible to eliminate any of them.
 
-Wie geht man also prinzipiell vor:
+So how do you basically proceed:
 
-1. Sortieren der vorhandenen Einheiten nach Kosten pro Person (geringste zuerst) und dann nach Anzahl Personen (meiste zuerst)
-2. Rekursives Erzeugen der Zustände
-    1. Achtung gleiche Einheiten (Kosten und Grösse) nur in definierter Reihenfolge zuordnen (d.h. falls die erste aus der Gruppe nicht dabei ist, die zweite nicht versuchen)
-    2. Dabei entfernen von Zuständen die &gt;= Kosten bei &lt;= Produktionsmenge verursachen (Nicht Pareto-optimale Punkte)
-    3. für die letzte Einheit und/oder ggf. kleinste Einheit die Nebenbedingung minimale Auslastung prüfen
-3. Aus allen Zielzuständen den mit höchster Produktion und ggf. geringsten Kosten wählen
+1. Sort existing units by cost per person (least first) and then by number of people (most first)
+2. Recursive creation of states
+    1. Be careful to only assign the same units (cost and size) in a defined order (i.e. if the first one in the group is not there, do not try the second one)
+    2. Remove states that cause >= costs with <= production quantity (non-Pareto-optimal points)
+    3. Check the additional condition of minimum utilization for the last unit and/or possibly the smallest unit
+3. From all target states, choose the one with the highest production and, if necessary, the lowest costs
 
-Eine Methode die uns das Ergebnis der Optimierung ausrechnet, braucht also lediglich eine Liste der Einheiten, deren Kosten und deren Produktionsmenge. Ggf. werden Methode noch Nebenbedingungen mitgegeben. Solche Einheitenliste lässt sich unabhängig vom eigentlichen Ziel relativ schnell erstellen und mit den notwendigen Attributen versehen. Das Rucksackproblem lässt sich auf die Produktion angewandt also recht leicht verallgemeinert implementieren.
+A method that calculates the result of the optimization only needs a list of the units, their costs and their production quantity. If necessary, additional conditions are given to the method. Such a unit list can be created relatively quickly, regardless of the actual target, and provided with the necessary attributes. When applied to production, the backpack problem can be implemented quite easily in a generalized manner.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Produktion&oldid=2469] -->

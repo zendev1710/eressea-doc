@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: Dreameye
-    text: Dreameye
+alias: dreameye
 ---
 # Dreameye
 

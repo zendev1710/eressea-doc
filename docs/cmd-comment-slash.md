@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: comment-slashes
-    text: COMMENT //
+alias: comment-slashes
 ---
 # COMMENT
 

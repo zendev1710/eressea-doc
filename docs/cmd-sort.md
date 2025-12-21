@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-sort
-    text: SORT
+alias: cmd-sort
 ---
 # SORT
 

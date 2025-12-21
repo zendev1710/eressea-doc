@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-give
-    text: GIVE
+alias: cmd-give
 ---
 # GIVE
 

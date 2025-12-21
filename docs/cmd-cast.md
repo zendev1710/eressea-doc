@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-cast
-    text: CAST
+alias: cmd-cast
 ---
 # CAST
 

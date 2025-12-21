@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-guard
-    text: GUARD
+alias: cmd-guard
 ---
 # GUARD
 

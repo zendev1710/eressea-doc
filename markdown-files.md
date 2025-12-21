@@ -63,7 +63,7 @@
 [misc/credits/contributors.md](/docs/contributors.md)
 [misc/credits/player-pages.md](/docs/player-pages.md)
 [misc/credits/thanks.md](/docs/thanks.md)
-[misc/development/auto-event-response.md](/misc/development/auto-event-response.md)
+[misc/development/auto-event-response.md](/misc/auto-event-response.md)
 [misc/development/auto-learning-chains.md](/docs/auto-learning-chains.md)
 [misc/development/auto-trading.md](/docs/auto-trading.md)
 [misc/development/auto-transport.md](/docs/auto-transport.md)

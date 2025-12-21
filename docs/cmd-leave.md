@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-leave
-    text: LEAVE
+alias: cmd-leave
 ---
 # LEAVE
 

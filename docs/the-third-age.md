@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: the-third-age
-    text: The Third Age
+alias: the-third-age
 ---
 # The Third Age
 

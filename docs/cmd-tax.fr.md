@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-tax-fr
+---
 # TAX
 
 **`TAX`**[<sup>`L`</sup>]`[`*`betrag`*`]`

@@ -7,7 +7,7 @@ alias: chateaux
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et, enfin, offrent à leurs occupants une protection en cas d'attaque.
 Ils réduisent également la probabilité de [[peste]].
 
-Les châteaux sont construits en pierre à l'aide de la commande [[cmd-make|MAKE CASTLE]] et de la compétence [[maconnerie]].
+Les châteaux sont construits en pierre à l'aide de la commande [[cmd-make|MAKE CASTLE]] et de la compétence [maconnerie].
 Un château entre dans une nouvelle catégorie selon sa taille :
 
 | Type                            | Taille |
@@ -87,5 +87,6 @@ Poursuivre la lecture : [[batiments-speciaux]].
 
 [tableau du bas]: ./#apercu
 
-[bonus et malus]: ./war.md#boni-und-mali
+[bonus et malus]: ./war.md#boni-et-mali
 [revenus]: ./silver.md#revenus
+[maconnerie]: ./skills-list.md#maconnerie

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-cast-fr
+---
 # CAST
 
 **`CAST`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`

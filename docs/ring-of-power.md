@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: ring-of-power
-    text: Ring of Power
+alias: ring-of-power
 ---
 # Ring of Power
 

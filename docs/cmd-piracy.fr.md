@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-piracy-fr
+---
 # PIRACY
 
 **`PIRACY`**[<sup>`L`</sup>]`[`*`faction-id`*`[`*`faction-id`*`...]]`

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-name-fr
+---
 # NAME
 
     NAME UNIT "name"

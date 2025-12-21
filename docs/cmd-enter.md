@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-enter
-    text: ENTER
+alias: cmd-enter
 ---
 # ENTER
 

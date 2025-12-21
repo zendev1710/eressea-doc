@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: adamantium-fr
+---
 # Adamantium
 
 Expérience du joueur : l’adamantium est encore plus rare que le laen ! On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.

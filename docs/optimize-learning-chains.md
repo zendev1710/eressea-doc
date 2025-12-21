@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: optimize-learning-chains
-    text: Optimizing learning chains
+alias: optimize-learning-chains
 ---
 # Optimierung Lernketten
 

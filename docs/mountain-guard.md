@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: mountain-guard
-    text: Mountain Guard
+alias: mountain-guard
 ---
 # Mountain Guard
 

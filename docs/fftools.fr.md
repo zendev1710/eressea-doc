@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: fftools2-fr
+---
 # FFTools2
 
 FFTools2 sind ein Plugin für [Magellan] zum automatischen Erstellen von Befehlen für Einheiten.

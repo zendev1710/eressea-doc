@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: terrain-types
-    text: Terrain types
+alias: terrain-types
 ---
 # Terrain types
 

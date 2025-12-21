@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-move
-    text: MOVE
+alias: cmd-move
 ---
 # MOVE
 

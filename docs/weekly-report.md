@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: weekly-report
-    text: Weekly report
+alias: weekly-report
 ---
 # Weekly report
 

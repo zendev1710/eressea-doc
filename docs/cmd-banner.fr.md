@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-banner-fr
+---
 # BANNER
 
 **`BANNER`**`"`*`text`*`"`

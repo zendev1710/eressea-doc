@@ -10,7 +10,7 @@ Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens ein
 
 Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
-- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [[handel]] oder Bauern rekrutieren.
+- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
 - Befinden sie sich auf einem Schiff, so können sie nicht [[bef-arbeite]]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[bef-verlasse]] haben.
 
@@ -48,3 +48,4 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 [KÄMPFE FLIEHE]: ./cmd-combat.md "KÄMPFE"
 [Monster]: ./monsters.md "Monster"
 [ersten Wochen]: ./puppy-protection.md "Welpenschutz"
+[handel]: ./silver.md#handel

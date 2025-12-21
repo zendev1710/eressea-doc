@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: items-pool
-    text: Items pool
+alias: items-pool
 ---
 # Items pool
 

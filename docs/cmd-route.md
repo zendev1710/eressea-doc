@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-route
-    text: ROUTE
+alias: cmd-route
 ---
 # ROUTE
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: sailing
-    text: Sailing
+alias: sailing
 ---
 # Sailing
 
@@ -56,7 +54,7 @@ Dragonship Range.
 
 If a ship does not have a sufficient crew, it cannot set sail. If this happens at sea (for example due to combat or units starving for lack of money), it drifts until it reaches a coastal region. It then suffers [damages] every turn, so that it quickly sinks.
 
-The total weight of all units on a ship, including the weight of horses, carts, persons and of course all goods and silver of the units, must be able to be transported by the ship. If this is not the case, or is no longer the case, the ship cannot sail. At sea, it will not sink immediately, but will drift. Ships capacities are shown in the table above and are always displayed in the report. The weights of items can be found in the section on [items] and those of persons of different races, in the table [Weights and Capacities].
+The total weight of all units on a ship, including the weight of horses, carts, persons and of course all goods and silver of the units, must be able to be transported by the ship. If this is not the case, or is no longer the case, the ship cannot sail. At sea, it will not sink immediately, but will drift. Ships capacities are shown in the table above and are always displayed in the report. The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities].
 
 It is possible to group together several ships in a [convoy]. Details are described in the chapter on [[ships]].
 
@@ -114,8 +112,8 @@ Continue reading: [[production]].
 
 [damages]: #damage-to-ships
 [**Harbour**]: ./buildings-others.md#harbour
-[Piracy]: ./war.md#piraterie
-[items]: ./items.md#getenständen
+[Piracy]: ./war.md#piracy
+<!-- [items]: ./items.md#getenständen TODO: statuses but where ? -->
 [Weights and Capacities]: ./travel.md#travel-by-land-or-by-sea
 [convoy]: ./ships.md#convoi
 [Aquarians]: ./races.md#aquarians

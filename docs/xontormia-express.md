@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: xontormia-express
-    text: Xontormia Express
+alias: xontormia-express
 ---
 # Xontormia Express
 

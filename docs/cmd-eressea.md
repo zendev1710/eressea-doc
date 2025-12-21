@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-eressea
-    text: ERESSEA
+alias: cmd-eressea
 ---
 # ERESSEA
 

@@ -34,7 +34,7 @@ Dans le rapport, les unités qui se trouvent sur le bateau suivent la descriptio
 
 La première unité est le capitaine et a le commandement du bateau.
 Elle détermine quelles autres unités sont autorisées à monter à bord du bateau.
-Elle peut [[cmd-name|renommer]] ou [[cmd-desribe|décrire]] le bateau et elle compte également comme équipage.
+Elle peut [[cmd-name|renommer]] ou [[cmd-describe|décrire]] le bateau et elle compte également comme équipage.
 
 Contrairement aux bâtiments, les bateaux ne peuvent pas être agrandis.
 Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le transformer en caravelle plus tard.

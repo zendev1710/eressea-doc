@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: negative-weight-bag
-    text: Negative Weight Bag
+alias: negative-weight-bag
 ---
 # Negative Weight Bag
 

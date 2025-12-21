@@ -1,9 +1,7 @@
 ---
 # cSpell:locale en
-alias:
-    name: auto-wayfinding
-    text: Automated wayfinding
+alias: auto-way-finding
 ---
-# Automated wayfinding
+# Automated way finding
 
 <!-- TODO add documentation for this file that was initially empty -->

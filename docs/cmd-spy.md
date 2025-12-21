@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-spy
-    text: SPY
+alias: cmd-spy
 ---
 # SPY
 

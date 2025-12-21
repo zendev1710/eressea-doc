@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-claim-fr
+---
 # CLAIM
 
 **`CLAIM`**` `*`anzahl gegenstand`*

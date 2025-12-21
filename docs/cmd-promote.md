@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-promote
-    text: PROMOTE
+alias: cmd-promote
 ---
 # PROMOTE
 

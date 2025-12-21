@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: cr-format
+alias: cr-format-de
 ---
 # CR Format
 

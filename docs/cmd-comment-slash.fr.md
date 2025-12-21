@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-kommentar-fr
+---
 # KOMMENTAR
 
 **`//`**` `*`Kommentar`*

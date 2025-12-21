@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: the-first-round
-    text: The first round
+alias: first-round
 ---
 # The first round
 

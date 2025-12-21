@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: list-of-skills
-    text: List of skills
+alias: skills-list
 ---
 # List of skills
 
@@ -10,7 +8,7 @@ Here is a list of all skills units can learn in Eressea. This is just a short ov
 
 ## Alchemy
 
-Make [potions] from [herbs]. Learning costs 200 silver per person. There can be no more than three alchemists per faction.
+Make [[alchemy|potions]] from [[herbs]]. Learning costs 200 silver per person. There can be no more than three alchemists per faction.
 
 ## Crossbow
 
@@ -24,7 +22,7 @@ Gives more hit points, making a unit more resistant to damage in combat or due t
 
 Extract iron, laen, or adamantium. You can extract one iron per person and per skill level. For laen and adamantium, you need a skill level of 7 or 8, respectively, and a mine.
 
-Note that deposits are limited by level (see [resources]). You can only see the amount of iron in the top layer. For prospecting you can only see layers up to (mining level \* 2). If the layer is deeper, you won't see anything.
+Note that deposits are limited by level (see [[resources]]). You can only see the amount of iron in the top layer. For prospecting you can only see layers up to (mining level \* 2). If the layer is deeper, you won't see anything.
 
 ## Bow
 
@@ -52,18 +50,18 @@ With a catapult and ammunition: fight. Can't be used to collect taxes.
 
 ## Herbalism
 
-Find [[herbs]] to make [potions]. Learning cost is 200 Silver per week. With a high level you can give the orders [`RESEARCH HERBS`], [`MAKE SEEDS`] (see [production]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [[production]]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
 
-## [Magic]
+## [[magic]]
 
-This allows you to cast combat spells and other types spells. Learning magic costs [silver][Magic] depending on the level.
+This allows you to cast combat spells and other types spells. Learning magic [[magic|costs silver]] depending on the level.
 
 ## Taming
 
 This skill is required to get [horses]. It can be used in two ways:
 
-- With [[cmd-make]][`MAKE SEEDS`]`[`*`amount`*`] horse` a unit captures horses present in the region, at a rate of one horse per person and per level of taming skill.
-- With [`GROW HORSES`] you can reproduce horses from existing horses, but you must be in a [stable].
+- With [[cmd-make|`MAKE SEEDS`]]`[`*`amount`*`] horse` a unit captures horses present in the region, at a rate of one horse per person and per level of taming skill.
+- With [[cmd-grow|`GROW HORSES`]] you can reproduce horses from existing horses, but you must be in a [stable].
 
 ## Riding
 
@@ -71,11 +69,11 @@ With a [horse][horses]: Strting from riding 1 faster movement; starting from rid
 
 ## Armoursmithing
 
-Produce iron, laen, and adamantium armour (see [items]).
+Produce iron, laen, and adamantium armour (see [[items]]).
 
 ## Shipcraft
 
-Construct and repair ships with wood (see [ships]).
+Construct and repair ships with wood (see [[ships]]).
 
 ## Sailing
 
@@ -103,14 +101,14 @@ This skill does not increase when used, nor does the corresponding weapon skill.
 
 ## Roadwork
 
-Building [roads] from stones. One stone can be built per person and skill level.
+Building [[roads]] from stones. One stone can be built per person and skill level.
 
-## [Tactics]
+## [[tactics]]
 
 In combat, the side with the best tactician has extra attacks (see [mustering]). Learning costs 200 silver per person.
 
-[Stealth]  
-The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal] or thwart [guarding] units.
+[[camouflage|Stealth]]  
+The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal] or thwart [[cmd-guard|guarding]] units.
 
 ## Entertainment
 
@@ -118,7 +116,7 @@ Entertain the peasants. If the peasants have enough silver, units can earn 20 si
 
 ## Weaponsmithing
 
-Produce weapons from wood and metals (see [items]).
+Produce weapons from wood and metals (see [[items]]).
 
 ## Unarmed combat
 
@@ -130,36 +128,21 @@ Construction of carts and catapults from wood. A cart can be built with 5 wood. 
 
 ## Perception
 
-The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [perception]).
+The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [[camouflage|perception]]).
 
-Continue reading: [Stealth].
+Continue reading: [[camouflage|Stealth]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
 
-[Stealth]: ./camouflage.md
-[potions]: ./alchemy.md
-[herbs]: ./herbs.md
-[table]: ./war-tables.md#ausdauer
 [resources]: ./resources.md
 [castles and other buildings]: ./buildings.md
-[trade]: ./silver.md#trade
-[BUY]: ./cmd-buy.md
-[1]: ./resources.md#deep-in-the-forest
-[`RESEARCH HERBS`]: ./cmd-research.md
-[`MAKE SEEDS`]: ./cmd-make.md
-[production]: ./production.md
-[`PLANT`]: ./cmd-plant.md
-[Magic]: ./magic.md
-[horses]: ./travel.md#pferd-und-wagen
-[`GROW HORSES`]: ./cmd-grow.md
-[stable]: ./buildings-others.md#stable
-[items]: ./items.md
-[ships]: ./ships.md
-[`SPY`]: ./cmd-spy.md
-[2]: ./resources.md#about-mining
-[roads]: ./roads.md
-[Tactics]: ./tactic.md
-[mustering]: ./war.md#die-musterung-der-einheiten
 [steal]: ./camouflage.md
-[guarding]: ./cmd-guard.md
-[perception]: ./camouflage.md
+
+[table]: ./war-tables.md#endurance
+[trade]: ./silver.md#trade
+[horses]: ./travel.md#horse-and-carriage
+[stable]: ./buildings-others.md#stable
+[1]: ./resources.md#deep-in-the-forest
+[2]: ./resources.md#about-mining
+
+[mustering]: ./war.md#to-arms

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-route-fr
+---
 # ROUTE
 
 **`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`

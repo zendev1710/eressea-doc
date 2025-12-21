@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: magellan-fr
+---
 # Magellan
 
 Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte anzeigen, Suchen, Befehle geben, und überhaupt braucht man das Programm fast nur noch zu verlassen, um Mails an die Verbündeten zu schreiben. Fast. Magellan wird sporadisch weiterentwickelt, hauptsächlich, wenn es Änderungen am Server gibt. Zu den Features gehören:

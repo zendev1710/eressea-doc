@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-reserve
-    text: RESERVE
+alias: cmd-reserve
 ---
 # RESERVE
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-work
-    text: WORK
+alias: cmd-work
 ---
 # WORK
 

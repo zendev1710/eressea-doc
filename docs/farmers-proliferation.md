@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: farmers-proliferation
-    text: Farmers proliferation
+alias: farmers-proliferation
 ---
 # Farmers proliferation
 

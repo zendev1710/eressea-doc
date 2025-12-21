@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: introduction
-    text: Introduction
+alias: introduction
 ---
 # Introduction
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-unit-fr
+---
 # UNIT
 
 **`UNIT`**` `*`unit-id`*

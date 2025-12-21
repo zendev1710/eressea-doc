@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: farmers-hike
-    text: Farmers hike
+alias: farmers-hike
 ---
 # Farmers hike
 

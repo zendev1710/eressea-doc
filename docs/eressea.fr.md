@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: eressea-fr
+---
 # Eressea
 
 Eressea ist ein rundenbasiertes Strategiespiel, das per E-Mail gespielt wird und in einer fiktiven Fantasy-Welt stattfindet. Der Name des Spiels leitet sich ab von Tol Eressëa, einer fiktiven Insel aus den Geschichten von J. R. R. Tolkien. Das Spiel hat seit dem 27. August 1996 mit wenigen Ausnahmen wöchentliche Züge gehabt. Es gibt Eressea damit seit über 1200 Runden. Im März 2002 berichtete die Zeitschrift Bravo Screenfun über Eressea. Daraufhin stieg die Spielerzahl sprunghaft an. Den Spielerhöhepunkt hatte Eressea mit über 2000 Parteien, seitdem ist die Tendenz fallend. Im April 2009 hatte das Hauptspiel von Eressea knapp 600 Parteien. Im April 2015 waren es noch gut 220.

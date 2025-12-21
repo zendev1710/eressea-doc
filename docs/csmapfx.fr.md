@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cs-map-fr
+---
 # CSMap
 
 Der **Coast 'n Sea Mapper**, kurz CSMap oder CSMapfx, ist ein Karten- und Reportbetrachter für das eMail-Spiel [Eressea] und läuft unter Windows und Linux.

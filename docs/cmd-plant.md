@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-plant
-    text: PLANT
+alias: cmd-plant
 ---
 # PLANT
 

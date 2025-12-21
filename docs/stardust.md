@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: stardust
-    text: Stardust
+alias: stardust
 ---
 # Stardust
 

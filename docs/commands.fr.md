@@ -57,7 +57,7 @@ Es gibt in Eressea kurze und lange Befehle.
 
 Die langen Befehle sind:
 
-[WORK], [[cmd-attack]], [[cmd-steal]], [[cmd-ride]], [[cmd-follow]], [[cmd-research]], [[cmd-buy]], [[cmd-teach]], [[cmd-learn]], [[cmd-make]] (Ausnahme: MAKE TEMP), [[cmd-move]], [[cmd-plant]], [[cmd-piracy]], [[cmd-route]], [[cmd-spy]], [[cmd-tax]], [[cmd-entertain]], [[cmd-sell]], [[cmd-cast]], [[cmd-destroy]], [[cmd-grow]].
+[[cmd-work]], [[cmd-attack]], [[cmd-steal]], [[cmd-ride]], [[cmd-follow]], [[cmd-research]], [[cmd-buy]], [[cmd-teach]], [[cmd-learn]], [[cmd-make]] (Ausnahme: MAKE TEMP), [[cmd-move]], [[cmd-plant]], [[cmd-piracy]], [[cmd-route]], [[cmd-spy]], [[cmd-tax]], [[cmd-entertain]], [[cmd-sell]], [[cmd-cast]], [[cmd-destroy]], [[cmd-grow]].
 
 Alle anderen Befehle sind kurze Befehle ([Kurzbeschreibung] aller Befehle). Du kannst beliebig viele kurze Befehle pro Einheit eingeben. Eine Einheit kann in der Regel nur einen langen Befehl haben. Es gibt ein paar Ausnahmen, die so genannten pseudolangen Befehle (`ATTACK, FOLLOW, BUY, SELL, CAST`), von denen unter Umständen mehrere gegeben werden können. Näheres in der Beschreibung der einzelnen Befehle.
 
@@ -104,10 +104,9 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 - [Kurzbeschreibung]
 - [[cmd-default]]
 
-Poursuivre la lecture: [[sequence-des-commandes]].
+Poursuivre la lecture: [[sequence-des-ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
 [`OPTION ZUGVORLAGE`]: ./cmd-option.md
-[WORK]: ./cmd-work.md
 [Kurzbeschreibung]: ./commands-list.md

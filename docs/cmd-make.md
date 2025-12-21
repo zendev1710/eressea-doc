@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-make
-    text: MAKE
+alias: cmd-make
 ---
 # MAKE
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: money
-    text: Money
+alias: money
 ---
 # Money
 

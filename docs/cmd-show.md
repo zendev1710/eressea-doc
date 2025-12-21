@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-show
-    text: SHOW
+alias: cmd-show
 ---
 # SHOW
 

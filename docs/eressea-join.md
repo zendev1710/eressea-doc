@@ -1,70 +1,63 @@
 ---
 # cSpell:locale en
-alias:
-    name: join-eressea
-    text: Join Eressea
+alias: join-eressea
 ---
 # Join Eressea
 
 <!-- TODO: rewrite becaus this page describes how to help editing the mediawiki -->
 
-## Anmeldung
+## Registration
 
-Früher konnte einfach jeder hier Änderungen vornehmen. Leider hatten wir ziemlich Probleme mit Spammern. Deshalb muss man sich jetzt anmelden und die Anmeldeseite ist nicht immer aktiv. Schreibe einfach Enno eine Mail und er wird dich freischalten.
+In the past, anyone could make changes here. Unfortunately, we had quite a few problems with spammers. That's why you have to log in now and the login page is not always active. Just write Enno an email and he will activate you.
 
-## Regeln
+## Rules
 
-Die Regelseiten sollten mit größter Sorgfalt bearbeitet werden. Gerade weil der Server Änderungen unterliegt, gehören hier nur offizielle Regeln hin. In der Spielergemeinde kursieren einige Gerüchte über die Welt von Eressea, die zum Teil schlicht falsch, ungenau oder veraltet sind. Informationen, die hier in den Regeln auftauchen, sollten mit der Spielleitung abgestimmt sein oder direkt vom Server stammen. Falls Ihr dennoch Anmerkungen machen wollt, die aus Eurer Erfahrung stammen, legt dafür bitte eine eigene Seite an und / oder kennzeichnet sie klar als solche, und zwar so:
+The rule pages should be edited with the greatest care.Precisely because the server is subject to changes, only official rules apply here. There are some rumors circulating in the gaming community about the world of Eressea, some of which are simply wrong, inaccurate or outdated. Information that appears here in the rules should be agreed with the game management or come directly from the server. If you still want to make comments that come from your experience, please create a separate page for them and /or clearly mark them as such, like this:
 
-Spielererfahrung: Nixus MinimusUntote haben furchtbaren Mundgeruch!
+Playing experience: Nixus Minimus undead have terrible bad breath!
 
-## Das Dritte Zeitalter
+## The Third Age
 
-Im dritten Zeitalter gibt es eine ganze Menge Änderungen. Diese sollen nach und nach auch hier zu den Regeln hinzugefügt werden, wobei natürlich die Regeln für das zweite Zeitalter nicht gelöscht werden. Einstweilen sind die Änderungen aber nicht vollständig. Eine Übersicht über alle Änderung gibt es hier: [Das dritte Zeitalter]
+There are a lot of changes in the Third Age.  
+These will gradually be added to the rules here as well, although of course the rules for the second age will not be deleted.  
+For now, however, the changes are not complete.  
 
-Für das Kennzeichnen von Änderungen auf den eigentlichen Regelseiten gibt es zwei Templates
+An overview of all changes can be found here: [[the-third-age]].
 
-<!-- exclude E3 from documentation -->
-<!--
-|---------|------------------------------------------------------------|
-| **E3A** | Für kurze Hinweise benutze {{E3Akurz\|Für kurze Hinweise}} |
+There are two templates for marking changes on the actual rules pages.
 
-**[E3A — Das Dritte Zeitalter][Das dritte Zeitalter]**
+## Languages
 
-Für ausführlichere Hinweise benutze {{E3A|Für ausführlichere Hinweise mit langen oder mehreren Sätzen.}}.
--->
+We are in the process of rebuilding the English-language wiki and also one in French!
 
-## Sprachen
+## Conventions
 
-Wir sind dabei, das englischsprachige Wiki wieder aufzubauen und auch gleich noch eins auf Französisch!
+The following conventions should at least be adhered to for rules pages:
 
-## Konventionen
+### Orders
 
-Folgende Konventionen sollten zumindest bei Regelseiten eingehalten werden:
-
-### Befehle
-
-Artikel, die Befehle beschreiben, sollten zunächst die Syntax auflisten:
+Articles describing orders should first list the syntax:
 
 **`MAKE`**`[`*`stufen`*`] SCHIFF [`*`ship-id`*`]`  
 
-Dabei sollte der Befehl selbst fett und in Großbuchstaben, Schlüsselwörter in Großbuchstaben, variable Teile kursiv und optionale Teile in eckigen Klammern stehen. Alles sollte in &lt;tt&gt;-Tags eingeschlossen werden. Schlüsselwörter sollten auch im Fließtext in &lt;tt&gt;-Tags eingeschlossen werden.
+The order itself should be in bold and in capital letters, keywords in capital letters, variable parts in italics, and optional parts in square brackets. Everything should be wrapped in <tt> tags. Keywords should also be enclosed in <tt> tags in body text.
 
-### Beispiele
+### Examples
 
-Beispielbefehle und Reportzitate sollten als "präformatierter" Text gesetzt werden:
+Example commands and report quotes should be set as "preformatted" text:
 
-     MAKE TEMP 123
-       RECRUIT 1
-     END
+    ```text
+    MAKE TEMP 123
+        RECRUIT 1
+    END
+    ```
 
-Sonstige Beispiele sollten eher nicht als eigener Abschnitt gesetzt werden, sondern als eigener Absatz, der mit dem fettgedrucktem Wort "Beispiel" beginnt.
+Other examples should not be set as a separate section, but rather as a separate paragraph that begins with the word "example" in bold.
 
-**Beispiel**:
+**Example** :
 
-    '''Beispiel''':
-       BESCHREIBEN UNIT "Auf dem Schild steht 'Betreten verboten!'"
-
+    ```text
+    '''Example''':
+       DESCRIBE UNIT "The sign says 'No Trespassing!'"
+    ```
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea:Mitmachen&oldid=16081] -->
-
-[Das dritte Zeitalter]: ./the-third-age.md

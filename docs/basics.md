@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: basics
-    text: Basics
+alias: basics
 ---
 # Basics
 

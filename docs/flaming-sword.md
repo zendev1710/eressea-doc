@@ -1,11 +1,13 @@
 ---
 # cSpell:locale en
-alias:
-    name: flaming-sword
-    text: Flaming Sword
+alias: flaming-sword
 ---
 # Flaming Sword
 
-Ein Flammenschwert gibt dem Träger, der kein Magier sein muss, zusätzlich zu seinem normalen Angriff (3d6+10) pro Kampfrunde einen kleinen Feuerballangriff, der bei 1-10 Opfern 2d6 magischen Schaden verursacht. Es verleiht ihm ausserdem einen einen zusätzlichen Kampfbonus von +1. Ein Flammenschwert erhöht die Magieresistenz seines Trägers wie ein Laenschwert.
+A flaming sword gives the wielder, who does not need to be a mage, a small fireball attack per combat round in addition to their normal attack (3d6+10), dealing 2d6 magic damage for 1-10 victims.
+
+It also gives him an additional +1 combat bonus.
+
+A flaming sword increases its wielder's magic resistance like a longsword.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Flammenschwert&oldid=17017] -->

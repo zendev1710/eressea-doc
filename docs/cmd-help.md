@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-help
-    text: HELP
+alias: cmd-help
 ---
 # HELP
 

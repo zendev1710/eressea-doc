@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-prefix
-    text: PREFIX
+alias: cmd-prefix
 ---
 # PREFIX
 

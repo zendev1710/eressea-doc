@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-hide
-    text: HIDE
+alias: cmd-hide
 ---
 # HIDE
 

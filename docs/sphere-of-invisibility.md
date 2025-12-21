@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: sphere-of-invisibility
-    text: Sphere of Invisibility
+alias: sphere-of-invisibility
 ---
 # Sphere of Invisibility
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: mistletoe
-    text: Mistletoe
+alias: mistletoe
 ---
 # Mistletoe
 

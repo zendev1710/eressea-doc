@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: belt-of-troll-strength
-    text: Belt of Troll Strength
+alias: belt-of-troll-strength
 ---
 # Belt of Troll Strength
 

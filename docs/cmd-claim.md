@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-claim
-    text: CLAIM
+alias: cmd-claim
 ---
 # CLAIM
 

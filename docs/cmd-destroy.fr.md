@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-destroy-fr
+---
 # DESTROY
 
 **`DESTROY`**[<sup>`L`</sup>]`[`*`stufen`*`]`  

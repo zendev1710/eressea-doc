@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: adamantium
-    text: Adamantium
+alias: adamantium
 ---
 # Adamantium
 

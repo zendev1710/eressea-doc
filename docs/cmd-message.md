@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-message
-    text: MESSAGE
+alias: cmd-message
 ---
 # MESSAGE
 

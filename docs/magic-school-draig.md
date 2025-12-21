@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: draig-spells
-    text: Draig spells
+alias: draig-spells
 ---
 # Draig spells
 

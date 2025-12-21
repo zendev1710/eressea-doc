@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: christmas-tree
-    text: Christmas Tree
+alias: christmas-tree
 ---
 # Christmas Tree
 

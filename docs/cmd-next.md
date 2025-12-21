@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-next
-    text: NEXT
+alias: cmd-next
 ---
 # NEXT
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-describe-fr
+---
 # DESCRIBE
 
 **`DESCRIBE UNIT`**`"`*`text`*`"`  

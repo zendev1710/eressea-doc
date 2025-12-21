@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: puppy-protection
-    text: Puppy protection
+alias: puppy-protection
 ---
 # Puppy protection
 

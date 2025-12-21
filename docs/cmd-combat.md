@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-combat
-    text: COMBAT
+alias: cmd-combat
 ---
 # COMBAT
 

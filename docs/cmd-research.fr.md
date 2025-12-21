@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-research-fr
+---
 # RESEARCH
 
 **`RESEARCH`**[<sup>`L`</sup>]`KRÄUTER`

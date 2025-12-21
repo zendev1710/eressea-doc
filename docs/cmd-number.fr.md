@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-number-fr
+---
 # NUMBER
 
 **`NUMBER UNIT`**`[`*`new idnr`*`]`  

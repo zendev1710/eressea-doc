@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-sell
-    text: SELL
+alias: cmd-sell
 ---
 # SELL
 

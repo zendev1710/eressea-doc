@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: hints
-    text: Hints
+alias: hints
 ---
 # Hints
 

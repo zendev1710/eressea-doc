@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: war-tables
-    text: War tables
+alias: war-tables
 ---
 # War tables
 
@@ -30,7 +28,7 @@ This page lists combat-relevant properties of weapons, armor, and races.
 | Axe                    | 2d6+4         | 11          | 2d6+4         | 11   |  +1 | \-2 |   H   | \-1 |
 | Laen sword             | 3d6+10        | 20.5        | 3d6+10        | 20.5 |  +1 |  +1 |   H   |  +2 |
 | Adamantium axe         | 3d4+15        | 22.5        | 3d4+15        | 22.5 |  +2 | \-2 |   H   |   0 |
-| Flaming sword          | 3d6+10        | 20.5        | 3d6+10        | 20;5 |  +1 |  +1 |   H   |  +2 |
+| [[flaming-sword]]      | 3d6+10        | 20.5        | 3d6+10        | 20;5 |  +1 |  +1 |   H   |  +2 |
 | Rusty halberd          | 2d6           | 7           | 2d6           | 7    | \-2 |  +1 |   S   | \-1 |
 | Rusty sword            | 1d9           | 5           | 1d9           | 5    | \-1 | \-1 |   H   | \-2 |
 | Rusty two-handed sword | 2d8           | 9           | 2d8           | 9    | \-2 | \-3 |   H   | \-5 |
@@ -63,7 +61,7 @@ Remarks:
 - OB and DB represent the offensive and defensive bonuses; thus, an axe is designed more as an offensive weapon, while a halberd is more useful for defense
 - In [[skills|Skill]], K = catapult operation, A = crossbow shooting, B = archery, H = edged weapons, S = polearms
 - All Mallorn weapons increase magic resistance by 15%, all laen weapons and armor by 30% (details on magic resistance follow below)
-- A Flaming Sword also conjures a small fireball per combat round
+- A [[flaming-sword]] also conjures a small fireball per combat round
 
 ## Endurance
 

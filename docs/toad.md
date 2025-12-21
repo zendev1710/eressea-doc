@@ -1,12 +1,9 @@
 ---
 # cSpell:locale en
-alias:
-    name: toad
-    text: Toad
+alias:toad
 ---
 # Toad
 
-<!-- translated -->
 The toad is one of Eressea's rarest breeds.  
 
 It is rumored that it only appears magically.  

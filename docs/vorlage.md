@@ -1,12 +1,10 @@
 ---
 # cSpell:locale en
-alias:
-    name: vorlage
-    text: Vorlage
+alias: vorlage
 ---
 # Vorlage
 
- **Vorlage** is a Win32 or x86 Linux console application that can generate an orders template from a computer report.
+**Vorlage** is a Win32 or x86 Linux console application that can generate an orders template from a computer report.
 
 The template contains expanded information compared to the standard template and eliminates the need for frequent references in the normal report.
 The program also evaluates meta-orders that make it possible to automate processes.

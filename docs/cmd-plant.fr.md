@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-plant-fr
+---
 # PLANT
 
 **`PLANT`**[<sup>`L`</sup>]`[`*`anzahl`*`] KRÄUTER`  

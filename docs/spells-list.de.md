@@ -6,7 +6,7 @@ alias: zauberliste
 
 ## Alle Zauber
 
-**Legende:** **C** [Cerddor], **D** [Draig], **G** [Gwyrrd], **I** [Illaun], **T** [Tybied]
+**Legende:** **C** [[cerddorzauber|Cerddor]], **D** [[draigzauber|Draig]], **G** [[gwyrrdzauber|Gwyrrd]], **I** [[illaunzauber|Illaun]], **T** {[tybiedzauber|Tybied]}
 
 |  C |  D |  G |  I |  T | Name                                            | Kurzbeschreibung                                                                                                                                                                                                       | Art             | Rang | Komponenten                                              | Modifikationen            |
 |---:|---:|---:|---:|---:|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------|----------------------------------------------------------|---------------------------|
@@ -178,7 +178,7 @@ alias: zauberliste
 [Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwoere-schattenmeister
 [Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
 [Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realität
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
 [Blutrausch]: ./spells-descriptions.md#blutrausch
 [Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Chaossog]: ./spells-descriptions.md#chaossog
@@ -195,7 +195,7 @@ alias: zauberliste
 [Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-guertel-der-trollstaerke
 [Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
 [Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kräuterbeutel
+[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kraeuterbeutel
 [Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
 [Feuerball]: ./spells-descriptions.md#feuerball
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel
@@ -237,7 +237,7 @@ alias: zauberliste
 [Lied der Verführung]: ./spells-descriptions.md#lied-der-verfuehrung
 [Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
 [Luftschiff]: ./spells-descriptions.md#luftschiff
-[Machtübertragung]: ./spells-descriptions.mdmachtuebertragung
+[Machtübertragung]: ./spells-descriptions.md#machtuebertragung
 [Magie analysieren]: ./spells-descriptions.md#magie-analysieren
 [Magiefresser]: ./spells-descriptions.md#magiefresser
 [Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
@@ -247,7 +247,7 @@ alias: zauberliste
 [Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
 [Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
 [Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
-[Mächte des Todes]: ./spells-descriptions.md#mächte-des-todes
+[Mächte des Todes]: ./spells-descriptions.md#maechte-des-todes
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Pentagramm]: ./spells-descriptions.md#pentagramm
 [Plappermaul]: ./spells-descriptions.md#plappermaul
@@ -256,14 +256,14 @@ alias: zauberliste
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
 [Rosthauch]: ./spells-descriptions.md#rosthauch
 [Rostregen]: ./spells-descriptions.md#rostregen
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realität
+[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitaet
 [Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
 [Rüstschild]: ./spells-descriptions.md#ruestschild
 [Schaler Wein]: ./spells-descriptions.md#schaler-wein
 [Schattenritter]: ./spells-descriptions.md#schattenritter
 [Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
 [Schlaf]: ./spells-descriptions.md#schlaf
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-träume
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
 [Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
 [Schleieraura]: ./spells-descriptions.md#schleieraura
 [Schockwelle]: ./spells-descriptions.md#schockwelle
@@ -294,7 +294,7 @@ alias: zauberliste
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
 [Untote Helden]: ./spells-descriptions.md#untote-helden
 [Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
-[Verwünschung]: ./spells-descriptions.md#verwünschung
+[Verwünschung]: ./spells-descriptions.md#verwuenschung
 [Viehheilung]: ./spells-descriptions.md#viehheilung
 [Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
 [Wahrsagen]: ./spells-descriptions.md#wahrsagen
@@ -310,14 +310,6 @@ alias: zauberliste
 
 Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
 
-Weiterlesen: [Tränke].
-
-[Tränke]: ./alchemy.md "Tränke"
+Weiterlesen: [[alchhemie|Tränke]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
-
-[Cerddor]: ./magic-school-cerddor.md
-[Draig]: ./magic-school-draig.md
-[Gwyrrd]: ./magic-school-gwyrrd.md
-[Illaun]: ./magic-school-illaun.md
-[Tybied]: ./magic-school-tybied.md

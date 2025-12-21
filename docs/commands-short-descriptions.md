@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: discussion-short-description
-    text: "Discussion: Short description"
+alias: discussion-short-description
 ---
 # Discussion: Short description
 

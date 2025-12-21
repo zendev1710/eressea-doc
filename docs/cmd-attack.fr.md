@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-attack-fr
+---
 # ATTACK
 
 **`ATTACK`**[<sup>`(l)`</sup>]` `*`unit-id`*

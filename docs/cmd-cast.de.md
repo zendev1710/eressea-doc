@@ -15,7 +15,7 @@ Achtung die Modifikatoren REGION und STUFE sind nicht für jeden Zauber zutreffe
 Die Anwendung der Zauber ist zum einen im Kapitel [[magie-de]] genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden.
 Diese erhält man, wenn man den Zauber neu erhält und kann ihn sich mit [[bef-zeige|`ZEIGE ALLE ZAUBER`]] nochmal anzeigen lassen.
 
-Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine Einheit verwenden, muß man den [[bef-kampfzauber]] setzen und dann eine Einheit [[ber-attackiere|attackieren]] oder attackiert werden. Dies kann allerdings zu größeren Schlachten führen!
+Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine Einheit verwenden, muß man den [[bef-kampfzauber]] setzen und dann eine Einheit [[bef-attackiere|attackieren]] oder attackiert werden. Dies kann allerdings zu größeren Schlachten führen!
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
 

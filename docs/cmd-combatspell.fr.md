@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-combatspell-fr
+---
 # COMBATSPELL
 
 **`COMBATSPELL`**` [LEVEL `*`n`*`] "<Zauberspruch>"`  

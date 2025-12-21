@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: sending-orders-from-magellan
-    text: Sending orders from Magellan
+alias: sending-orders-from-magellan
 ---
 # Sending orders from Magellan
 

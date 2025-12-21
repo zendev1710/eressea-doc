@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-commentaire-fr
+---
 # Commentaire (;)
 
 Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.

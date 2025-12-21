@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-teach-fr
+---
 # TEACH
 
 **`TEACH`**[<sup>`L`</sup>]` `*`unit-id`*`[`*`unit-id`*`]...`

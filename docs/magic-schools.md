@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: schools-of-magic
-    text: Schools of Magic
+alias: schools-of-magic
 ---
 # Schools of Magic
 

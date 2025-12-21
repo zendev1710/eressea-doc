@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-locale-fr
+---
 # LOCALE
 
 **`LOCALE`**`en`  

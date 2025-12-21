@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-tax
-    text: TAX
+alias: cmd-tax
 ---
 # TAX
 

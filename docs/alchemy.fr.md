@@ -1,8 +1,6 @@
 ---
 # cSpell:locale fr, en
-alias:
-    name: alchimie
-    text: Alchimie
+alias: alchimie
 ---
 # Potions
 

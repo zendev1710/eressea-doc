@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-research
-    text: RESEARCH
+alias: cmd-research
 ---
 # RESEARCH
 

@@ -1,21 +1,19 @@
 ---
 # cSpell:locale en
-alias:
-    name: castles
-    text: Castles
+alias: castles
 ---
 # Castles
 
 Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.
 They also reduce the likelihood of [[plague]].
 
-Castles are built from stone using the [[cmd-make|MAKE CASTLE]] command and the [[masonry]] skill.
+Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry] skill.
 The size at which a castle enters a new category is shown in the table below:
 
 | Type          | Taille |
 |---------------|-------:|
 | Foundation    |      1 |
-| tradepost     |      2 |
+| Tradepost     |      2 |
 | Fortification |     10 |
 | Tower         |     50 |
 | Stronghold    |    250 |
@@ -85,3 +83,4 @@ Continue reading: [Other Buildings].
 
 [bonuses and penalties]: ./war.md#bonuses-and-mali
 [Income]: ./silver.md#income
+[masonry]: ./skills-list.md#masonry

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: plague
-    text: Plague
+alias: plague
 ---
 # Plague
 

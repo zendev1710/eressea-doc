@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-learn-auto
-    text: LEARN AUTO
+alias: cmd-learn-auto
 ---
 # LEARN AUTO
 

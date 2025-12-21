@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: amulet-of-true-vision
-    text: Amulet of True Vision 
+alias: amulet-of-true-vision
 ---
 # Amulet of True Vision
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-grow-fr
+---
 # GROW
 
 **`GROW`**`Horses`  

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: alliances-fr
+---
 # Alliances
 
 Les alliances constituent l'épine dorsale du monde, que ce soit en temps de guerre, de commerce ou de simple coopération pacifique.

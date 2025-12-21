@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-teach
-    text: TEACH
+alias: cmd-teach
 ---
 # TEACH
 

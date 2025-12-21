@@ -1,68 +1,75 @@
 ---
 # cSpell:locale en
-alias:
-    name: orders
-    text: Orders
+alias: orders
 ---
 # Orders
 
 ## Conventions
 
-In diesen Regeln gelten die folgenden Konventionen:
+The following conventions apply in these rules:
 
-     GIVE unit-id [anzahl|ALLES] [gegenstand]
+    ```text
+    GIVE unit-id [number|ALL] [item]
+    ```
 
-- Schlüsselwörter wie GIVE, MAKE, NOT sind in Großbuchstaben gesetzt. Das ist nicht Pflicht, wir empfehlen es aber.
-- Platzhalter sind in Kleinbuchstaben. Sie sollen nicht wörtlich übernommen werden, sondern müssen durch konkrete Werte ersetzt werden, also zum Beispiel unit-id durch die Nummer der gewünschten Einheit. Manchmal schreiben wir dies auch als &lt;unit-id&gt;, in diesem Fall sind die &lt;- und &gt;-Symbole *nicht* zu übernehmen.
-- Worte in \[\]-Klammern sind optional. Sie können also weggelassen werden, ändern dadurch aber die Bedeutung des Befehls. Alternativen sind dabei durch | getrennt. Obiges Beispiel lässt also `GIVE 123 ALLES` oder auch `GIVE abc 4 Schwert` zu.
+- Keywords like GIVE, MAKE, NOT are in capital letters. This is not mandatory, but we recommend it-Placeholders are in lowercase letters. They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit. Sometimes we also write this as <unit-id>, in which case the < and > symbols are *not*to be included.
+- Words in \[\] brackets are optional. So they can be omitted, but they change the meaning of the order. Alternatives are through | separated. The example above allows `GIVE 123 EVERYTHING` or `GIVE abc 4 sword`
 
 ## Syntax
 
-Bis auf das Passwort und die Parteinummer sind dem Server Groß- und Kleinschreibung egal. `lerNE armBRUSTschiessen` ist völlig legal (wird aber nicht empfohlen, da es für Menschen schwer lesbar ist).
+Except for the password and the faction id, the server is case-insensitive.`lerNE armBRUSTschiessen`is completely legal (but not recommended as it is difficult for humans to read).
 
-Gegenstände sollten immer in der *Einzahl* stehen, also `GIVE xyz 100 Schwert` oder `MAKE 15 Stein`. Im Report tauchen Gegenstände oft in der Mehrzahl auf und in Befehlen wird sie meist verstanden, aber du solltest dir bewusst machen, dass der Server natürliche Sprache nicht versteht, auch wenn die Befehle fast so aussehen.
+Items should always be in the*Singular*stand, so`GIVE xyz 100 Schwert`or`MAKE 15 Stein`. Items often appear in the majority in the report and are mostly understood in commands, but you should be aware that the server does not understand natural language, even if the commands look almost like that.
 
-Viele Befehle lassen sich abkürzen, wobei du es nicht übertreiben solltest, da dies fehlerträchtig ist: VER passt auf FORGET, SELL und LEAVE und wird darum als Fehler angemerkt; hier solltest du also mindestens vier Buchstaben verwenden. Außerdem sind allzu kryptische Verkürzungen nicht sonderlich leserlich, wenn du später deine Züge durchsiehst... Am sichersten ist es immer noch, wenn du deine Befehle nicht abkürzt, zumal es Befehle, Gegenstände und Talente geben kann, die absichtlich nicht in der Anleitung stehen, aber ähnlich anfangen wie bekannte Befehle, Gegenstände und Talente.
+Many commands can be shortened, although you should not overdo it as this is prone to errors: VER matches FORGET, SELL and LEAVE and is therefore noted as an error; So here you should use at least four letters. In addition, overly cryptic abbreviations are not particularly readable when you look through your moves later... It's still safest if you don't abbreviate your orders, especially since there may be orders, items and skills that are intentionally not in the instructions but start out similar to well-known orders, items and skills.
 
-Texte, die Leerzeichen enthalten, müssen in Anführungszeichen (") eingeschlossen werden oder die Leerzeichen durch ~ (Tilde) ersetzt. Ferner dürfen Umlaute durch die entsprechende Umschreibung (Ä=AE usw.) ersetzt werden:
+Texts that contain spaces must be enclosed in quotation marks ("") or the spaces must be replaced by ~ (tilde). Furthermore, umlauts may be replaced by the appropriate paraphrase (Ä=AE, etc.):
 
-     NAME Schiff "Großer Blauer Vogel"
-     GIVE einh 5 Würziger~Wagemut
-     KAEMPFE REAR
+    ```text
+    NAME Ship "Big Blue Bird"
+    GIVE unit 5 Spicy~Daring
+    COMBAT REAR
+    ```
 
 Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.
 
-     MESSAGE REGION 'Sprich "Freund" und tritt ein'
-     NAME BURG xyz "Helm's Deep"
-     DEFAULT 'MAKE 1 "Wasser des Lebens"'
+    ```text
+    MESSAGE REGION 'Sprich "Freund" und tritt ein'
+    NAME BURG xyz "Helm's Deep"
+    DEFAULT 'MAKE 1 "Wasser des Lebens"'
+    ```
 
-Auch so genannte Maskierung (escaping) durch das Zeichen \\ sind möglich, aber nicht unbedingt empfohlen:
+Also called masking (escaping) by the character\are possible, but not necessarily recommended:
 
+    ```text
     MESSAGE REGION "Sprich \"Freund\" und tritt ein"
     NAME BURG xyz 'Helm\'s Deep'
     DEFAULT 'MAKE 1 Wasser\~des\~Lebens'
+    ```
 
-Es ist übrigens nicht nötig, sich auf das lateinische Alphabet zu beschränken. In Namen und Beschreibungen ist der volle Unicode-Zeichensatz möglich:
+By the way, it is not necessary to limit yourself to the Latin alphabet. The full Unicode character set is possible in names and descriptions:
 
+    ```text
     NAME UNIT "Σωκράτης"
     MESSAGE REGION "🨀 شاه مات"
+    ```
 
-Natürlich solltest darauf achten, von anderen auch verstanden zu werden.
+Of course, you should make sure that you are understood by others.
 
 <!-- TODO: rework ZUGVORLAGE notion-->
 ## Move template
 
 The easiest way is to use the move template at the end of the evaluation.
 All units are listed there so that you don't forget anyone.
-If you don't send in any commands, the commands in the move template will still be executed automatically.
-Even if you only send commands for some of your units, the commands in the move template will be executed for the remaining units.
+If you don't send in any orders, the orders in the move template will still be executed automatically.
+Even if you only send orders for some of your units, the orders in the move template will be executed for the remaining units.
 If your evaluation does not contain a move template (with the extension `.txt`), you can reactivate it with the command [[cmd-option|`OPTION MOVE TEMPLATE`]].
 
 ## Short and long orders
 
-Es gibt in Eressea kurze und lange Befehle.
+There are short and long orders in Eressea.
 
-Die langen Befehle sind:
+The long orders are:
 
 [[cmd-work]], [[cmd-attack]], [[cmd-steal]], [[cmd-ride]], [[cmd-follow]], [[cmd-research]], [[cmd-buy]], [[cmd-teach]], [[cmd-learn]], [[cmd-make]] (Ausnahme: MAKE TEMP), [[cmd-move]], [[cmd-plant]], [[cmd-piracy]], [[cmd-route]], [[cmd-spy]], [[cmd-tax]], [[cmd-entertain]], [[cmd-sell]], [[cmd-cast]], [[cmd-destroy]], [[cmd-grow]].
 
@@ -76,41 +83,44 @@ Bitte beachte, dass pro Einheit nur ein Befehl pro Einheit im normalen Report (N
 
 ## Execute short commands permanently
 
-Manchmal ist es sinnvoll, dass ein kurzer Befehl jede Runde ausgeführt wird, so z.B. GIVE, weil die Bergarbeiter das abgebaute Eisen ständig an die Schmiede liefern sollen.
+Sometimes it makes sense to execute a short command every round, such as GIVE, because the miners should constantly deliver the mined iron to the forge.
 
-Hierzu kannst du vor jeden kurzen Befehl ein @ (At-Zeichen, Klammeraffe) setzen. Solche Befehle werden einfach in die Zugvorlage der kommenden Runde kopiert und - so du sie nicht wieder löschst - wieder ausgeführt.
+To do this, you can put an @ (at sign, spider monkey) before each short command. Such orders are simply copied into the move template for the next round and -unless you delete them again -executed again.
 
-**Ein Beispiel**:
+ **An example** :
 
-     UNIT berg;         Bergarbeiter [5,400$,U500]
-       MAKE Eisen
-       @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
-     UNIT schm;         Schmiede [3,1343$,U250]
-       MAKE Schwerter
+    ```text
+    UNIT berg;         Miners [5,400$,U500]
+        MAKE iron
+        @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
+    UNIT schm;         Wrought [3,1343$,U250]
+        MAKE Swords
+    ```
 
-**Hinweis:** Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.
+ **Note:** There is a cap on the number of commands stored for a unit. This is currently 128 commands, which should easily be enough for most purposes.
 
 ## Suppress errors
 
-Es kann vorkommen, dass du Fehler bei der Ausführung eines Befehls bewusst in Kauf nimmst. Durch Voranstellen eines Ausrufezeichens (!) kannst du die Servermeldungen, die diesen Befehl betreffen, unterdrücken.
+It may happen that you consciously accept errors when executing a command. By prefixing it with an exclamation mark (!) you can suppress the server messages concerning this command.
 
-**Ein Beispiel**:
+**An example**:
 
-     UNIT berg;         Bergarbeiter
-       MAKE Eisen
-       !@GIVE tran ALLES Eisen;   Der Transporter ist nicht immer da; wir wollen darüber keine Fehlermeldung
-     UNIT tran;         Transporter
-       ROUTE w PAUSE o PAUSE ;   Wir pendeln zwischen zwei Regionen
-       !@GIVE schm ALLES Eisen;   Im Westen übergeben wir das Eisen an die Schmiede
+    ```text
+    UNIT berg;         Miners
+        MAKE iron
+        !@GIVE tran ALL iron;   The van isn't always there; we don't want an error message about this
+    UNIT tran;        Transporter
+        ROUTE w PAUSE o PAUSE;   We commute between two regions
+        !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths
 
 Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht gerechnet hast.
 
 ## See also
 
-- [[commands-sequence]]
-- [[commands-list]]
+- [[orders-sequence]]
+- [[orders-list]]
 - [[cmd-default]]
 
-Continue reading: [[commands-sequence]].
+Continue reading: [[orders-sequence]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->

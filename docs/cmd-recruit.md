@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-recruit
-    text: RECRUIT
+alias: cmd-recruit
 ---
 # RECRUIT
 

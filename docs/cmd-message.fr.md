@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-message-fr
+---
 # MESSAGE
 
 **`MESSAGE`**` UNIT `*`unit id`*`"`*`text`*`"`  

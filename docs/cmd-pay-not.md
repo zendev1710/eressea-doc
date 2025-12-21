@@ -1,14 +1,12 @@
 ---
 # cSpell:locale en
-alias:
-    name: pay-not
-    text: PAY NOT
+alias: cmd-pay-not
 ---
 # PAY NOT
 
 **`PAY NOT`**  
 **`PAY NOT`**` `*`building-id`*  
 
-`PAY NOT` bewirkt, dass die Einheit diese Runde den Unterhalt für das Gebäude, dessen Besitzer sie ist, nicht bezahlt. Das Gebäude funktioniert in dieser Runde natürlich nicht.
+`PAY NOT`causes the unit to not pay maintenance for the building it owns this turn. Of course the building doesn't work this round.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEZAHLE\_NICHT&oldid=17018] -->

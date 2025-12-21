@@ -303,20 +303,22 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 [CAST]: ./cmd-cast.md
 [Befehlsreihenfolge]: ./commands-sequence.md
 [COMBATSPELL LEVEL n "Zauber"]: ./cmd-combatspell.md
-[COMBAT-Befehle]: ./war.md#kampfreihen
-[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht
-[Aura]: #aura
-[Fernzauber]: ./#magie-a-distance
-[Magieresistenz]: ./#resistance-a-la-magie
 [Ring der Macht]: ./ring-of-power.md
+[Vertraute]: ./familiars.md
+[Zauberbeschreibungen]: ./spells-descriptions.md
+[Rassen]: ./races.md
+[Zauber]: ./spells-list.md
+[Elfen]: ./skills-modifiers.md
+
+[COMBAT-Befehle]: ./war.md#lignes-de-combat
+[Die Seiten in einer Schlacht]: ./war.md#les-camps-dans-une-bataille
 [Andere Gebäude#magierturm]: ./buildings-others.md#tour-de-mage
 [gesegneten Steinkreis]: ./buildings-others.md#cercle-de-pierres
 [Wahrscheinlichkeit für Patzer]: #gaffe
-[Rassen]: ./races.md
-[Zauber]: ./spells-list.md
-[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz
-[Elfen]: ./skills-modifiers.md
-[Chaosfluch]: ./spells-list.md#chaosfluch
-[Vertraute]: ./familiars.md
+[Waffen oder Rüstungen]: ./war-tables.fr.md#resistance-a-la-magie
+[Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Wesen]: ./monsters.md#hirntöter
-[Zauberbeschreibungen]: ./spells-descriptions.md
+
+[Aura]: #aura
+[Fernzauber]: ./#magie-a-distance
+[Magieresistenz]: ./#resistance-a-la-magie

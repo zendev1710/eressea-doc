@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-region
-    text: REGION
+alias: cmd-region
 ---
 # REGION
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: alliances
-    text: Alliances
+alias: alliances
 ---
 # Alliances
 

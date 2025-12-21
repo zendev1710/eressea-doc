@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-ride-fr
+---
 # RIDE
 
 **`RIDE`**[<sup>`L`</sup>]` `*`unit-id`*  

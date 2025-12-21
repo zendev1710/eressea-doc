@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: monsters
-    text: Monsters
+alias: monsters
 ---
 # Monsters
 

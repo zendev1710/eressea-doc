@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-option-fr
+---
 # OPTION
 
 **`OPTION`**` `*`option`*`[NOT]`

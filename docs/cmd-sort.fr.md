@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-sort-fr
+---
 # SORT
 
 **`SORT`**` BEFORE `*`unit-id`*  

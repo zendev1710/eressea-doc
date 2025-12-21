@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-steal
-    text: STEAL
+alias: cmd-steal
 ---
 # STEAL
 

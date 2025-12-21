@@ -1,14 +1,12 @@
 ---
 # cSpell:locale en
-alias:
-    name: other-buildings
-    text: Other Buildings
+alias: other-buildings
 ---
 # Other Buildings
 
 Buildings are built with the [MAKE "building type"] order and can be enlarged with [MAKE "building type" ID-building][MAKE "building type"]. Examples: MAKE [Lighthouse] or MAKE [Harbour] xyz. These buildings require a minimum level in Masonry skill, which is indicated in the table. Some buildings are of a specific size.
 
-Here is a summarised table, more detailed explanations follow below.
+Here is a summarized table, more detailed explanations follow below.
 
 Building; see also table on [building castles]  
 

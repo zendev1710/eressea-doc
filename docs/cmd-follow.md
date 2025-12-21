@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-follow
-    text: FOLLOW
+alias: cmd-follow
 ---
 # FOLLOW
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-destroy
-    text: DESTROY
+alias: cmd-destroy
 ---
 # DESTROY
 

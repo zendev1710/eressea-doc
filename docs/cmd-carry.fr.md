@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-carry-fr
+---
 # CARRY
 
 **`RIDE`**[<sup>`L`</sup>]` `*`unit-id`*  

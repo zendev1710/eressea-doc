@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: races
-    text: Races
+alias: races
 ---
 # Races
 
@@ -143,7 +141,7 @@ Continue reading: [Racial skill modifiers].
 [change their appearance]: ./cmd-hide.md
 [region's maximum]: ./world.md
 [magician]: ./magic.md
-[elven bows]: ./war-tables.md#waffeneigenschaften
+[elven bows]: ./war-tables.md#weapon-properties
 [steal]: ./camouflage.md
 [ships]: ./ships.md
 [flee]: ./war.md#fleeing

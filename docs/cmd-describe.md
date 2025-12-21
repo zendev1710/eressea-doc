@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-describe
-    text: DESCRIBE
+alias: cmd-describe
 ---
 # DESCRIBE
 

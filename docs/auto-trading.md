@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: auto-trading
-    text: Automated trading
+alias: auto-trading
 ---
 # Automatisierung Handel
 

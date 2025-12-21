@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-combat-fr
+---
 # COMBAT
 
 **`COMBAT`**`FRONT`  

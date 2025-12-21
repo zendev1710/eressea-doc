@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: camouflage-fr
+---
 # Camouflage
 
 La [[competences|compétence]] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.

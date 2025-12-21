@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-forget
-    text: FORGET
+alias: cmd-forget
 ---
 # FORGET
 

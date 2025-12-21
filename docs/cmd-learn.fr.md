@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-learn-fr
+---
 # LEARN
 
 **`LEARN`**[<sup>`L`</sup>]` `*`talent`*  

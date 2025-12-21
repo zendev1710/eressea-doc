@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: antimagic-crystal
-    text: Antimagic Crystal
+alias: antimagic-crystal
 ---
 # Antimagic Crystal
 

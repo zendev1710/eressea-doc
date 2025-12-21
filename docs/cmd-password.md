@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-password
-    text: PASSWORD
+alias: cmd-password
 ---
 # PASSWORD
 

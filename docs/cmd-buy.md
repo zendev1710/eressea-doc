@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-buy
-    text: BUY
+alias: cmd-buy
 ---
 # BUY
 

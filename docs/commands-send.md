@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: sending-orders
-    text: Sending orders
+alias: sending-orders
 ---
 # Sending orders
 

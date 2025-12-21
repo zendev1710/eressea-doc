@@ -16,7 +16,7 @@ Ein einfaches Beispiel:
 
 Zu transportieren sind 10 Steine (je 60 GE) und 100 Juwelen (je 1 GE). Es steht jedoch nur 500GE Kapazität zur Verfügung. Ein Stein wird mit einem Wert von 1200 bemessen, ein Juwel mit einem Wert von 50. Da die Juwelen mehr Wert pro GE bieten (50 je GE) laden wir also zuerst alle Juwelen auf:
 
-    Wert   = 100 * 50 = 5000 
+    Wert   = 100 * 50 = 5000
     Ladung = 100 * 1 GE = 100 GE
     frei   = 400 GE
 

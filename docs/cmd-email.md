@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-email
-    text: EMAIL
+alias: cmd-email
 ---
 # EMAIL
 

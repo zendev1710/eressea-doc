@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: extended-commands-fr
+---
 # ExtendedCommands
 
 ExtendedCommands est un plugin pour [Magellan] inclus dans la distribution standard et permettant d'automatiser les ordres.

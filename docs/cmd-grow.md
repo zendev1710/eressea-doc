@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-grow
-    text: GROW
+alias: cmd-grow
 ---
 # GROW
 

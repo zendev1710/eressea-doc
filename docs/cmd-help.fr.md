@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-help-fr
+---
 # HELP
 
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  

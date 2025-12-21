@@ -1,12 +1,10 @@
 ---
 # cSpell:locale en
-alias:
-    name: armed
-    text: armed
+alias: armed
 ---
 # Armed
 
-A unit is considered armed if it possesses a [[list-of-skills|combat skill]] (bladed weapons, polearms, archery, crossbow shooting, catapult operation) and at least one weapon of the corresponding type.
+A unit is considered armed if it possesses a [[skills-list|combat skill]] (bladed weapons, polearms, archery, crossbow shooting, catapult operation) and at least one weapon of the corresponding type.
 
 A unit must be armed in order to be able to [[cmd-guard|guard]] a region.
 

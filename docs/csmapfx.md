@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: csmap
-    text: CSMap
+alias: csmap
 ---
 # CSMap
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-sell-fr
+---
 # SELL
 
 **`SELL`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*  

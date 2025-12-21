@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: xontormia-express-fr
+---
 # Xontormia Express
 
 ## Was ist der Xontormia Express?

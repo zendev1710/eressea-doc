@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: gwyrrd-spells
-    text: Gwyrrd spells
+alias: gwyrrd-spells
 ---
 # Gwyrrd spells
 

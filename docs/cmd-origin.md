@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-origin
-    text: ORIGIN
+alias: cmd-origin
 ---
 # ORIGIN
 

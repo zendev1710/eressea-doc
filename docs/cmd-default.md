@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-default
-    text: DEFAULT
+alias: cmd-default
 ---
 # DEFAULT
 

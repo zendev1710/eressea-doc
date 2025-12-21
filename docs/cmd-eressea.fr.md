@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-eressea-fr
+---
 # ERESSEA
 
 **`ERESSEA`**` `*`faction-id`*`"`*`passwort`*`"`

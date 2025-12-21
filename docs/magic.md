@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: magic
-    text: Magic
+alias: magic
 ---
 # Magic
 

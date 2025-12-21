@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-use
-    text: USE
+alias: cmd-use
 ---
 # USE
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-origin-fr
+---
 # ORIGIN
 
 **`ORIGIN`**` `*`x y`*

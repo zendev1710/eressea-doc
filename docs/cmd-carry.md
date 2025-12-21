@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-carry
-    text: CARRY
+alias: cmd-carry
 ---
 # CARRY
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: tables-potions-and-herbs 
-    text: "Tables: potions and herbs"
+alias: tables-potions-and-herbs 
 ---
 # Tables: Potions and Herbs
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-quit-fr
+---
 # QUIT
 
 **`QUIT`**`"Passwort"`

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: orders-sequence
-    text: Orders sequence
+alias: orders-sequence
 ---
 # Orders sequence
 

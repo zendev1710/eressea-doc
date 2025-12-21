@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: races-fr
+---
 # Races
 
 En plus des humains, il y a beaucoup d'autres races (types de faction) à Eressea. Tu dois en choisir une pour ta faction. Chaque race a des avantages et des inconvénients qui se traduisent par des [Bonus et Malus] dans certaines compétences et parfois des capacités spéciales ; Chaque race a des [coûts de recrutement][Bonus et Malus] différents. En règle générale, une personne pèse 10 unités de poids (kg) et peut porter 5,4 kg. Les trolls, les gobelins et divers monstres constituent des exceptions.

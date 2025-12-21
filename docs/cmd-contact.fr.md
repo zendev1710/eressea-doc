@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-contact-fr
+---
 # CONTACT
 
 **`CONTACT`**` UNIT `*`unit-id`*  

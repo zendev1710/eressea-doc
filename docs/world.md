@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: world
-    text: World
+alias: world
 ---
 # World
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: introduction-fr
+---
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->

@@ -1,29 +1,35 @@
 ---
 # cSpell:locale en
-alias:
-    name: optimize-wayfinding
-    text: Optimizing wayfinding
+alias: optimize-wayfinding
 ---
-# Optimizing wayfinding
+# Optimizing way finding
 
-Die generelle Funktionsweise eine Routenberechnung dürfte vielen bekannt sein. Es werden glücklicherweise nicht alle Wege nach Rom gesucht, sondern nur solche die offenbar in die ungefähre Richtung gehen.
+Many people are probably familiar with the general functionality of route calculation. Fortunately, not all routes to Rome are sought, but only those that obviously go in the general direction.
 
-Die einfachste Möglichkeit (Greedy) wäre vom Startpunkt aus erstmal alle vorhandenen Wege zu gehen und sich die neuen Zwischenpunkte zu merken. Von dort aus werden wieder alle Wege gegangen. Es wird sich immer der kürzeste Weg zu einem Punkt gemerkt (Route und Entfernung). Expandiert man so immer weiter findet man irgendwann den Zielpunkt (sofern er erreichbar ist). Das man dabei dem Ziel nicht nur näher kommt, sondern sogar in die total falsche Richtung läuft bei einigen Wegen ist jedoch bei langen Routen ein extremer Nachteil, sowohl was die Abarbeitungszeit als auch den Speicherbedarf für Zwischenzustände angeht.
+The easiest option (Greedy) would be to first walk all existing paths from the starting point and remember the new intermediate points.
+From there all paths are taken again.
+The shortest route to a point is always remembered (route and distance).
+If you keep expanding like this, you will eventually find the target point (if it can be reached).
+The fact that you not only get closer to the goal, but also actually go in the completely wrong direction on some routes is an extreme disadvantage on long routes, both in terms of processing time and the memory requirement for intermediate states.
 
-Die A\*-Suche hingegen hat zum Ziel, möglichst nur Zwischenpunkte zu expandieren die tatsächlich auf der richtigen Route liegen. Durch einen Kostenfunktion werden für jeden Punkt (inklusive Start und Ziel) die Kosten berechnet die **vermutlich** bis zum Ziel anfallen. Wichtig ist hierbei das vermutlich, denn wir kennen ja die Entfernung zum Ziel nicht, solange wir die Route nicht kennen. D.h. also wir schätzen die Entfernung. Auf der Landkarte ist hierbei die Luftlinie eine gute Schätzung die wir sicher nicht unterbieten werden (ohne Stargates, Wurmlöcher und dergleichen ;-)
+The A*-Search, on the other hand, aims to only expand intermediate points that are actually on the correct route.
+Using a cost function, the costs are calculated for each point (including start and finish). **probably** to the destination.
+This is probably important here, because we don't know the distance to the destination unless we know the route. That means we estimate the distance. The straight line on the map is a good estimate that we certainly won't beat (without stargates, wormholes and the like ;-)
 
-Für Eressea und andere Spiele auf Hex-Karten kann die minimale Entfernung relativ leicht aus den Koordinaten berechnet werden.
+For Eressea and other games on hex maps, the minimum distance can be calculated relatively easily from the coordinates.
 
+    ```text
     hx = start.x - ziel.x
     hy = start.y - ziel.y
     Distanz = max(abs(hx), abs(hy), abs(hx+hy))
+    ```
 
-Diese geschätzte Entfernung zum Ziel wir mit der bereits zurückgelegten addiert. Nach diesem Kriterium werden die noch zu expandierenden Regionen sortiert. Bei wenigen Hindernissen auf der Karte gelangt der Algorithmus so sehr schnell auch über weite Entfernungen zum Ziel.
+This estimated distance to the destination is added to the distance already traveled. The regions that still need to be expanded are sorted according to this criterion. If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.
 
-Jedes Hindernis und jede zusätzliche Bedingung, die in die Kostenfunktion eingebaut werden sollen, lassen die Ausführung hingegen schnell wieder langsamer werden.
+However, every obstacle and every additional condition that is to be built into the cost function quickly causes execution to slow down again.
 
-Magellan hat eine Funktion zur Routenfindung bereits eingebaut. Sie unterstützt neben der Entfernung auch das Entlangsegeln von Schiffen an Küsten.
+Magellan has already built in a route finding function. In addition to distance, it also supports ships sailing along coasts.
 
-Weitere Nebenbedingungen können die Sicherheit von Regionen betreffen (Seeschlangen, Gegner), die Anlanderichtung in der Zielregion oder der bevorzugte Zwischenstopp in Landregionen zum Rundenende. Gerade solche Nebenbedingungen lassen sich jedoch schwer bis gar nicht durch die Schätzfunktion berechnen, so dass das Verhalten des Algorithmus immer mehr "greedy" wird. Den die A\*-Suche mit einer Schätzfunktion die immer 0 zurückgibt entspricht der Greedy-Suche.
+Further secondary conditions can concern the safety of regions (sea snakes, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round. However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behavior of the algorithm becomes more and more “greedy”. The A*-Searching with an estimator that always returns 0 corresponds to the greedy search.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Wegfindung&oldid=2478] -->

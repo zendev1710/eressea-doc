@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-entertain
-    text: ENTERTAIN
+alias: cmd-entertain
 ---
 # ENTERTAIN
 

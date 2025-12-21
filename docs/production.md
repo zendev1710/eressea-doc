@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: production
-    text: Production
+alias: production
 ---
 # Production
 

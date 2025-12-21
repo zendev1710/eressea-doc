@@ -159,7 +159,7 @@ alias: liste-des-sorts
 |    |    | 16 |    |    | [Wurzeln der Magie]                             | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim | Fernzauber                |
 |    |    |    |    | 11 | [Zeitdehnung]                                   | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 Aura \* Stufe                                          | Schiffszauber             |
 
-[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwächezone
+[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwaechezone
 [Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang
 [Astraler Riss]: ./spells-descriptions.md#astraler-riss
 [Astraler Ruf]: ./spells-descriptions.md#astraler-ruf
@@ -172,13 +172,13 @@ alias: liste-des-sorts
 [Aushorchen]: ./spells-descriptions.md#aushorchen
 [Bannlied]: ./spells-descriptions.md#bannlied
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
-[Bergwächter]: ./spells-descriptions.md#bergwächter
+[Bergwächter]: ./spells-descriptions.md#bergwaechter
 [Beschleunigung]: ./spells-descriptions.md#beschleunigung
-[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwöre-schattendämonen
-[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwöre-schattenmeister
+[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwoere-schattendaemonen
+[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwoere-schattenmeister
 [Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
 [Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realität
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
 [Blutrausch]: ./spells-descriptions.md#blutrausch
 [Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Chaossog]: ./spells-descriptions.md#chaossog
@@ -190,12 +190,12 @@ alias: liste-des-sorts
 [Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens
 [Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert
 [Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
-[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphäre-der-unsichtbarkeit
+[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphaere-der-unsichtbarkeit
 [Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gürtel-der-trollstärke
+[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-guertel-der-trollstaerke
 [Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
 [Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kräuterbeutel
+[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kraeuterbeutel
 [Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
 [Feuerball]: ./spells-descriptions.md#feuerball
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel
@@ -227,7 +227,7 @@ alias: liste-des-sorts
 [Heimstein]: ./spells-descriptions.md#heimstein
 [Heldengesang]: ./spells-descriptions.md#heldengesang
 [Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
-[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-überzeugung
+[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-ueberzeugung
 [Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei
 [Kleine Flüche]: ./spells-descriptions.md#kleine-flüche
 [Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer
@@ -237,7 +237,7 @@ alias: liste-des-sorts
 [Lied der Verführung]: ./spells-descriptions.md#lied-der-verführung
 [Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
 [Luftschiff]: ./spells-descriptions.md#luftschiff
-[Machtübertragung]: ./spells-descriptions.md#machtübertragung
+[Machtübertragung]: ./spells-descriptions.md#machtuebertragung
 [Magie analysieren]: ./spells-descriptions.md#magie-analysieren
 [Magiefresser]: ./spells-descriptions.md#magiefresser
 [Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
@@ -247,7 +247,7 @@ alias: liste-des-sorts
 [Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
 [Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
 [Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
-[Mächte des Todes]: ./spells-descriptions.md#mächte-des-todes
+[Mächte des Todes]: ./spells-descriptions.md#maechte-des-todes
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Pentagramm]: ./spells-descriptions.md#pentagramm
 [Plappermaul]: ./spells-descriptions.md#plappermaul
@@ -256,21 +256,21 @@ alias: liste-des-sorts
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
 [Rosthauch]: ./spells-descriptions.md#rosthauch
 [Rostregen]: ./spells-descriptions.md#rostregen
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realität
+[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitaet
 [Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
 [Rüstschild]: ./spells-descriptions.md#rüstschild
 [Schaler Wein]: ./spells-descriptions.md#schaler-wein
 [Schattenritter]: ./spells-descriptions.md#schattenritter
 [Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
 [Schlaf]: ./spells-descriptions.md#schlaf
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-träume
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
 [Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
 [Schleieraura]: ./spells-descriptions.md#schleieraura
 [Schockwelle]: ./spells-descriptions.md#schockwelle
 [Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
 [Schutzzauber]: ./spells-descriptions.md#schutzzauber
 [Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
-[Schöne Träume]: ./spells-descriptions.md#schöne-träume
+[Schöne Träume]: ./spells-descriptions.md#schoene-traeume
 [Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
 [Segen der Erde]: ./spells-descriptions.md#segen-der-erde
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
@@ -294,7 +294,7 @@ alias: liste-des-sorts
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
 [Untote Helden]: ./spells-descriptions.md#untote-helden
 [Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
-[Verwünschung]: ./spells-descriptions.md#verwünschung
+[Verwünschung]: ./spells-descriptions.md#verwuenschung
 [Viehheilung]: ./spells-descriptions.md#viehheilung
 [Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
 [Wahrsagen]: ./spells-descriptions.md#wahrsagen

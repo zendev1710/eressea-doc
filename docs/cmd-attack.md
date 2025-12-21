@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-attack
-    text: ATTACK
+alias: cmd-attack
 ---
 # ATTACK
 

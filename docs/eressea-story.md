@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: history-of-eressea
-    text: History of Eressea
+alias: history-of-eressea
 ---
 # History of Eressea
 

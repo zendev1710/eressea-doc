@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: solar-sail
-    text: Solar Sail
+alias: solar-sail
 ---
 # Solar Sail
 

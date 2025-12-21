@@ -1,196 +1,213 @@
 ---
 # cSpell:locale en
-alias:
-    name: familiars
-    text: Familiars
+alias: familiars
 ---
 # Familiars
 
-Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt. Dennoch sind Vertraute in der Lage Zauber zu wirken. Sie bedienen sich jedoch sowohl bei den Zaubern, als auch bei der Aura und anderen Komponenten stets beim Magier. Die maximale Entfernung für auf solche weise gewirkte Zauber entspricht dem Talent des Magiers. Vertraute unterliegen bei diesen Zaubern jedoch gewissen Einschränkungen. Die Stufe des Zaubers kann nicht größer als das Magietalent des Vertrauten oder das halbe Talent des Magiers sein. Auch verdoppeln sich die Kosten für den Spruch.
+Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.
+However, familiars are able to cast spells. However, they always rely on the magician for both the spells and the aura and other components.
+The maximum distance for spells cast in this manner corresponds to the magician's skill.
+However, familiars have certain limitations when it comes to these spells. The level of the spell cannot be greater than the familiar's magic skill or half the magician's skill.
+The cost of the spell also doubles.
 
-In seltenen Fällen jedoch können es magiebegabte Wesen sein, welche sich als Vertraute binden lassen, und die mit der Zeit eigene Zaubersprüche erlernen welche dann mit der Aura des Vertrauten selbst gewirkt werden. Diese Zauber können sich völlig von denjenigen unterscheiden, die ihr Meister beherrscht. Auch solche Vertraute besitzen jedoch zusätzlich die Fähigkeit, auf die Zauber ihres Magiers zugreifen zu können.
+In rare cases, however, there can be magical beings who allow themselves to be bound as familiars and who, over time, learn their own spells which are then cast using the aura of the familiar itself. These spells may be completely different from those mastered by their master. However, such familiars also have the ability to access their magician's spells.
 
-Außerdem können viele Vertraute bestimmte Talente lernen oder haben besondere Fähigkeiten. Aufgrund ihrer grundlegend anderen Sichtweise, können sie jedoch ihr Wissen nicht durch Lehren weitergeben. Der Vertraute verleiht dem Magier einen Bonus in Höhe des halben Talentwertes auf jedes Talent (ausgenommen Magie), welches der Vertraute beherrscht. Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [[cmd-show]] genau in Erinnerung zu rufen.
+In addition, many familiars can learn certain skills or have special abilities. However, due to their fundamentally different perspective, they cannot pass on their knowledge through teaching. The familiar gives the magician a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered. In any case, a magician is advised to remember these abilities of his familiar in detail using a [[cmd-show]].
 
 ## Familiar breeds
 
-Die Welt und die Magie Eresseas kennt verschiedene Rassen, die sich einem Magier als Vertraute anschließen können
+The world and magic of Eressea knows various races that can join a magician as familiars
 
 ### Eagle
 
-Der Adler ist ein ausgezeichneter Späher, fliegend überquert er sogar kurze Meerengen, doch ist er hoch oben am Himmel auch sehr exponiert, was ihn beim Rasten zu einem leichten Ziel macht.
+The eagle is an excellent scout, flying across even short straits, but it is also very exposed high up in the sky, making it an easy target when resting.
 
-15 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 2. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d3). Magie +0, Spionage +0, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
+15 hit points, magic resistance 0, attack: 6, defense: 2. 2 attacks: one magical attack, one unarmed attack (2d3). Magic +0, Espionage +0, Perception +2, Stamina +0 and Unarmed Combat +0
 
 ### Demon
 
-[Dämonen] sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
+[Demons] are cruel and unpredictable. They eat the farmers in the area and always surprise people with new abilities or their loss.
 
-50 Trefferpunkte, Magieresistenz 15, Angriff: -2, Verteidigung: -2, Rüstung: 2. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5), ein magischer Angriff. Alchemie +2, Armbrustschießen +0, Bergbau +0, Bogenschießen +0, Burgenbau +0, Handeln -3, Holzfällen +1, Katapultbedienung +0, Kräuterkunde -3, Magie +1, Pferdedressur -3, Reiten -1, Rüstungsbau +0, Schiffbau -1, Hiebwaffen +1, Segeln -1, Stangenwaffen +1, Spionage +0, Steinbau +0, Straßenbau +0, Taktik -1, Tarnung +1, Unterhaltung -3, Waffenbau +1, Wagenbau -2, Wahrnehmung +1, Steuereintreiben +1 und Ausdauer +0
+50 hit points, magic resistance 15, attack: -2, defense: -2, armor: 2.
+Can use weapons. 3 attacks: a magical attack, an attack with weapon or unarmed (1d5), a magical attack.
+Alchemy +2, Crossbow Shooting +0, Mining +0, Archery +0, Castle Building +0, Trading -3, Woodcutting +1, Catapult Operation +0, Herbalism -3, Magic +1, Horse Training -3, Riding -1, Armor Building +0, Shipbuilding -1, Slashing Weapons +1, Sailing -1, Polearms +1, Espionage +0, Stone Building +0, Road Building +0, Tactics -1, Stealth +1, Entertainment -3, Weapon Construction +1, Wagon Construction -2, Perception +1, Tax Collection +1 and Stamina +0
 
 ### Dolphin
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-24 Trefferpunkte, Magieresistenz 0, Angriff: 5, Verteidigung: 5. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
+24 hit points, magic resistance 0, attack: 5, defense: 5. 2 attacks: one magical attack, one unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
 
 ### Unicorn
 
-Dieses mystische Wesen lebt bevorzugt in den tiefsten Wäldern und vermag sich hervorragend vor den Augen anderer zu verbergen. Nur selten schließt sich ein Einhorn einem Magier an, jedoch wenn das geschieht ist es ein mächtiger Verbündeter, der auch über eigene Magie verfügt.
+This mystical creature prefers to live in the deepest forests and is excellent at hiding from others' eyes. It is rare for a unicorn to join a magician, but when it does, it is a powerful ally who also has magic of its own.
 
-40 Trefferpunkte, Magieresistenz 90, Angriff: 6, Verteidigung: 4. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (3d12), ein unbewaffneter Angriff (2d4). Magie +2, Spionage +0, Taktik +0, Tarnung +4, Wahrnehmung +5, Ausdauer +0 und Waffenloser Kampf +0
+40 hit points, magic resistance 90, attack: 6, defense: 4. 3 attacks: a magical attack, an unarmed attack (3d12), an unarmed attack (2d4). Magic +2, Espionage +0, Tactics +0, Stealth +4, Perception +5, Stamina +0 and Unarmed Combat +0
 
 ### Owl
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-9 Trefferpunkte, Magieresistenz 0, Angriff: 2, Verteidigung: 4. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d4). Magie +0, Spionage +1, Tarnung +1, Wahrnehmung +5, Ausdauer +0 und Waffenloser Kampf +0
+9 hit points, magic resistance 0, attack: 2, defense: 4. 2 attacks: one magical attack, one unarmed attack (1d4). Magic +0, Espionage +1, Stealth +1, Perception +5, Stamina +0 and Unarmed Combat +0
 
 ### Fairy
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-6 Trefferpunkte, Magieresistenz 80, Angriff: 6, Verteidigung: 14. Kann Waffen benutzen. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3), ein unbewaffneter Angriff (1d3). Magie +1, Reiten -1, Hiebwaffen -1, Stangenwaffen -1, Spionage +2, Tarnung +5, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
+6 hit points, magic resistance 80, attack: 6, defense: 14. Can use weapons. 5 attacks: a magical attack, an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3). Magic +1, Ride -1, Slashing Weapons -1, Polearms -1, Espionage +2, Stealth +5, Perception +2, Stamina +0 and Unarmed Combat +0
 
 ### Ghost
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-30 Trefferpunkte, Magieresistenz 80, Angriff: 5, Verteidigung: 8, Rüstung: 5. Kann Waffen benutzen. 6 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d5), ein unbewaffneter Angriff (1d5), ein Angriff mit der Waffe oder unbewaffnet (2d6), ein magischer Angriff, ein magischer Angriff. Magie +1, Reiten -2, Hiebwaffen +0, Stangenwaffen +0, Spionage +0, Tarnung +0, Wahrnehmung +0, Ausdauer +0 und Waffenloser Kampf +0
+30 hit points, magic resistance 80, attack: 5, defense: 8, armor: 5. Can use weapons. 6 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5), an attack with the weapon or unarmed (2d6), a magical attack, a magical attack. Magic +1, Ride -2, Slashing Weapons +0, Polearms +0, Espionage +0, Stealth +0, Perception +0, Stamina +0 and Unarmed Combat +0
 
 ### Goblin
 
-[Goblins] sind feige und hinterhältig, lieber verstecken sie sich, als dass sie zur Tat schreiten.
+[Goblins] are cowardly and devious, preferring to hide rather than take action.
 
-16 Trefferpunkte, Magieresistenz -5, Angriff: -2, Verteidigung: 0. Kann Waffen benutzen. 2 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5). Alchemie +1, Armbrustschießen +0, Bergbau +1, Bogenschießen +0, Burgenbau +1, Handeln -1, Holzfällen +0, Katapultbedienung +1, Kräuterkunde +0, Magie -1, Pferdedressur +0, Reiten +0, Rüstungsbau +0, Schiffbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +0, Steinbau +0, Straßenbau -2, Taktik -2, Tarnung +1, Unterhaltung -1, Waffenbau +0, Wagenbau -1, Wahrnehmung +0, Steuereintreiben +0 und Ausdauer +0
+16 hit points, magic resistance -5, attack: -2, defense: 0.
+Can use weapons. 2 attacks: a magical attack, a weapon attack or an unarmed attack (1d5).
+Alchemy +1, Crossbow Shooting +0, Mining +1, Archery +0, Castle Building +1, Trading -1, Woodcutting +0, Catapult Operation +1, Herbalism +0, Magic -1, Horse Training +0, Riding +0, Armor Building +0, Shipbuilding -2, Slashing Weapons +0, Sailing -2, Polearms +0, Espionage +0, Stone Building +0, Road Building -2, Tactics -2, Camouflage +1, Entertainment -1, Weapon Construction +0, Wagon Construction -1, Perception +0, Tax Collection +0 and Stamina +0
 
 ### Hellcat
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-40 Trefferpunkte, Magieresistenz 50, Angriff: 6, Verteidigung: 4. Ist durch Stichwaffen, Bögen und Armbrüste schwer zu verwunden. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d6), ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
+40 hit points, magic resistance 50, attack: 6, defense: 4. Is difficult to wound with piercing weapons, bows and crossbows. 4 attacks: a magical attack, an unarmed attack (2d6), an unarmed attack (1d6), an unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
 
 ### Octopus
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-300 Trefferpunkte, Magieresistenz 0, Angriff: 7, Verteidigung: 7. 7 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10), ein unbewaffneter Angriff (1d10). Magie +0, Spionage +0, Taktik +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
+300 hit points, magic resistance 0, attack: 7, defense: 7. 7 attacks: a magical attack, an unarmed attack (2d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10). Magic +0, Espionage +0, Tactics +0, Perception +1, Stamina +0 and Unarmed Combat +0
 
 ### Lynx
 
-Der Luchs ist bekannt für seine Geschicklichkeit im Verbergen und Beobachten. Mit ein wenig Geduld kann er zu einem hervorragenden Späher ausgebildet werden. Im Kampf verteidigt er sich mit seinen scharfen Krallen und weiß seine Gewandheit zu nutzen.
+The lynx is known for its skill at concealment and observation. With a little patience, he can be trained to become an excellent scout. In battle, he defends himself with his sharp claws and knows how to use his agility.
 
-20 Trefferpunkte, Magieresistenz 0, Angriff: 4, Verteidigung: 5. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d3). Kräuterkunde +1, Magie +0, Pferdedressur +1, Spionage +3, Tarnung +3, Wahrnehmung +4, Ausdauer +0 und Waffenloser Kampf +0
+20 hit points, magic resistance 0, attack: 4, defense: 5. 2 attacks: one magical attack, one unarmed attack (2d3). Herbalism +1, Magic +0, Horse Training +1, Espionage +3, Stealth +3, Perception +4, Stamina +0 and Unarmed Combat +0
 
 ### Nymph
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-15 Trefferpunkte, Magieresistenz 90, Angriff: 3, Verteidigung: 1. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d4), ein magischer Angriff. Alchemie +0, Armbrustschießen +0, Bogenschießen +2, Handeln -2, Kräuterkunde +4, Magie +1, Pferdedressur +5, Reiten +5, Rüstungsbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +2, Taktik -2, Tarnung +3, Unterhaltung +10, Waffenbau -2, Wagenbau -2, Wahrnehmung +2, Steuereintreiben -2, Ausdauer -1 und Waffenloser Kampf +0
+15 hit points, magic resistance 90, attack: 3, defense: 1.
+Can use weapons. 3 attacks: a magical attack, an attack with a weapon or unarmed (1d4), a magical attack.
+Alchemy +0, Crossbow +0, Archery +2, Trade -2, Herbalism +4, Magic +1, Horse Training +5, Riding +5, Armor Construction -2, Slashing Weapons +0, Sailing -2, Polearms +0, Espionage +2, Tactics -2, Stealth +3, Entertainment +10, Weapon Construction -2, Wagon Construction -2, Perception +2, Tax Collecting -2, Stamina -1 and Unarmed Combat +0
 
 ### Rat
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-10 Trefferpunkte, Magieresistenz 0, Angriff: 1, Verteidigung: 1. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d4), ein unbewaffneter Angriff (1d4). Magie +0, Spionage +5, Tarnung +4, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
+10 hit points, magic resistance 0, attack: 1, defense: 1. 3 attacks: one magical attack, one unarmed attack (1d4), one unarmed attack (1d4). Magic +0, Espionage +5, Stealth +4, Perception +2, Stamina +0 and Unarmed Combat +0
 
 ### Giant tortoise
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-900 Trefferpunkte, Magieresistenz 0, Angriff: 10, Verteidigung: 5, Rüstung: 7. 2 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d50). Magie +0, Spionage +0, Taktik +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
+900 hit points, magic resistance 0, attack: 10, defense: 5, armor: 7. 2 attacks: one magical attack, one unarmed attack (2d50). Magic +0, Espionage +0, Tactics +0, Perception +1, Stamina +0 and Unarmed Combat +0
 
 ### Singing Dragon
 
-Singdrachen sind von der Größe eines ausgewachsenden Tigers. Ihre Färbung reicht von schillerndem Rot, über dunkles Grün bis hin zu tiefem Schwarz. Alle bekannten Drachen dieser Art weisen eine hohe Intelligenz und ein hohes Maß an magischen Fähigkeiten auf. Wie Ihre großen Verwandten verfügen sie über einen Feuerodem. Sie lieben den Gesang und das üppige Mahl. Von Zeit zu Zeit gehen sie eine engen magisches Bund zu einem Magier ein. Wenn dies geschieht, so steht dem Magier ein äußerst loyaler und lohnender Vertrauter zur Seite.
+Song kites are the size of an adult tiger.
+Their color ranges from iridescent red to dark green to deep black.
+All known dragons of this species exhibit high intelligence and a high level of magical ability. Like their larger relatives, they have a breath of fire. They love the singing and the sumptuous meal. From time to time they enter into a close magical bond with a magician. When this happens, the magician has an extremely loyal and rewarding confidant.
 
-40 Trefferpunkte, Magieresistenz 99, Angriff: 3, Verteidigung: 1, Rüstung: 1. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein magischer Angriff. Magie +1, Spionage +0, Tarnung +0, Wahrnehmung +0, Ausdauer +0 und Waffenloser Kampf +0
+40 hit points, magic resistance 99, attack: 3, defense: 1, armor: 1. 5 attacks: one magical attack, one unarmed attack (2d4), one unarmed attack (2d4), one unarmed attack (2d4), one magical attack. Magic +1, Espionage +0, Stealth +0, Perception +0, Stamina +0 and Unarmed Combat +0
 
 ### Devil
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-10 Trefferpunkte, Magieresistenz 50, Angriff: 5, Verteidigung: 4, Rüstung: 1. Kann Waffen benutzen. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d4), ein unbewaffneter Angriff (1d4), ein Angriff mit der Waffe oder unbewaffnet (1d4), ein magischer Angriff. Magie +1, Reiten -1, Hiebwaffen +0, Stangenwaffen +0, Spionage +1, Tarnung +1, Wahrnehmung +1, Steuereintreiben +1, Ausdauer +0 und Waffenloser Kampf +0
+10 hit points, magic resistance 50, attack: 5, defense: 4, armor: 1. Can use weapons. 5 attacks: a magical attack, an unarmed attack (1d4), an unarmed attack (1d4), an attack with the weapon or unarmed (1d4), a magical attack. Magic +1, Riding -1, Slashing Weapons +0, Polearms +0, Espionage +1, Stealth +1, Perception +1, Tax Collection +1, Stamina +0, and Unarmed Combat +0
 
 ### Tiger
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-30 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 3. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d6), ein unbewaffneter Angriff (1d6). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +1, Ausdauer +0 und Waffenloser Kampf +0
+30 hit points, magic resistance 0, attack: 6, defense: 3. 4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d6), one unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
 
 ### Dreamcat
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-10 Trefferpunkte, Magieresistenz 50, Angriff: 5, Verteidigung: 6. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d5), ein unbewaffneter Angriff (1d5). Magie +1, Hiebwaffen +0, Stangenwaffen +0, Spionage +1, Tarnung +1, Wahrnehmung +1, Steuereintreiben +1, Ausdauer +0 und Waffenloser Kampf +0
+10 hit points, magic resistance 50, attack: 5, defense: 6. 3 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5). Magic +1, Slashing Weapons +0, Polearms +0, Espionage +1, Stealth +1, Perception +1, Tax Collection +1, Stamina +0 and Unarmed Combat +0
 
 ### Tunnel worm
 
-Diese aus den Tiefen Eresseas stammende gigantische Geschöpf ist dem Leben im Untergrund hervorragend angepasst. Blind, taub und nicht besonders intelligent, aber mit seinen gewaltigen Kräften kann es ganze Berge versetzen oder Wälder roden.
+This gigantic creature, which comes from the depths of Eressea, is excellently adapted to life underground. Blind, deaf and not particularly intelligent, but with its enormous strength it can move entire mountains or clear forests.
 
-300 Trefferpunkte, Magieresistenz 80, Angriff: 6, Verteidigung: 1, Rüstung: 6. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (3d20), ein Angriff, der Gebäudeschaden verursacht (1d10). Bergbau +10, Holzfällen +10, Magie +0, Steinbau +10, Ausdauer +2 und Waffenloser Kampf +0
+300 hit points, magic resistance 80, attack: 6, defense: 1, armor: 6. 3 attacks: a magical attack, an unarmed attack (3d20), an attack that causes building damage (1d10). Mining +10, Woodcutting +10, Magic +0, Stonebuilding +10, Stamina +2 and Unarmed Combat +0
 
 ### Wolf
 
-Keine Informationen über diese Rasse verfügbar.
+No information available about this breed.
 
-25 Trefferpunkte, Magieresistenz 0, Angriff: 6, Verteidigung: 3. 4 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d6), ein unbewaffneter Angriff (1d4), ein unbewaffneter Angriff (1d4). Magie +0, Spionage +0, Taktik +0, Tarnung +0, Wahrnehmung +2, Ausdauer +0 und Waffenloser Kampf +0
+25 hit points, magic resistance 0, attack: 6, defense: 3. 4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d4), one unarmed attack (1d4). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +2, Stamina +0 and Unarmed Combat +0
 
 ## Skill modifiers
 
-Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus. Einige sind selbst magiebegabt und verfügen über eigene Aura. Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren. Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben. Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
+Confidants are very different.
+Not all familiars can learn all talents and each race is characterized by special characteristics.
+Some are gifted with magic themselves and have their own aura.
+Others are sea creatures and good swimmers, while others can fly and cross oceans.
+The following table is intended to provide a better overview of the individual familiar races.
+If a field is empty, then the race cannot learn that talent or does not have that ability.
 
-| Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-|-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
-| Trefferpunkte               | 15    | 50    | 24      | 40      | 9    | 6   | 30    | 16     | 40          | 300   | 20    | 15     | 10    | 900               | 40         | 10         | 30    | 10         | 300        | 25   |
-| Gewicht \[kg\]              | 5     | 10    | 5       | 5       | 5    | 2   | 5     | 6      | 5           | 5     | 5     | 10     | 1     | 16                | 10         | 5          | 5     | 5          | 300        | 5    |
-| Kapazität \[kg\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4  | 5,4 | 5,4   | 4,4    | 5,4         | 5,4   | 5,4   | 5,4    | 5,4   | 6                 | 6          | 5,4        | 5,4   | 5,4        | 100        | 5,4  |
-| nat. Rüstung                | 0     | 2     | 0       | 0       | 0    | 0   | 5     | 0      | 0           | 0     | 0     | 0      | 0     | 7                 | 1          | 1          | 0     | 0          | 6          | 0    |
-| Magieresistenz              | 0     | 15    | 0       | 90      | 0    | 80  | 100   | \-5    | 50          | 0     | 0     | 90     | 0     | 0                 | 99         | 50         | 0     | 50         | 80         | 0    |
-| eigene Zauber               |       |       |         | ja      |      | ja  | ja    |        |             |       |       | ja     |       |                   | ja         | ja         |       | ja         |            |      |
-| kann sich über Land bewegen | ja    | ja    |         | ja      | ja   | ja  | ja    | ja     | ja          |       | ja    | ja     | ja    | ja                | ja         | ja         | ja    | ja         | ja         | ja   |
-| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja   | ja  | ja    |        |             | ja    |       |        |       | ja                | ja         | ja         |       | ja         |            |      |
-| Kann Rüstungen benutzen     |       | ja    |         |         |      | ja  | ja    | ja     |             |       |       | ja     |       |                   |            | ja         |       |            |            |      |
-| Talent                      | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-| Alchemie                    |       | +2    |         |         |      |     |       | +1     |             |       |       | 0      |       |                   |            |            |       |            |            |      |
-| Armbrustschießen            |       | 0     |         |         |      |     |       | 0      |             |       |       | 0      |       |                   |            |            |       |            |            |      |
-| Ausdauer                    | 0     | 0     | 0       | 0       | 0    | 0   | 0     | 0      | 0           | 0     | 0     | \-1    | 0     | 0                 | 0          | 0          | 0     | 0          | +2         | 0    |
-| Bergbau                     |       | +0    |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Bogenschießen               |       | 0     |         |         |      |     |       | 0      |             |       |       | +2     |       |                   |            |            |       |            |            |      |
-| Burgenbau                   |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Handeln                     |       | \-3   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
-| Hiebwaffen                  |       | +1    |         |         |      | \-1 | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
-| Holzfällen                  |       | +1    |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Katapultbedienung           |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Kräuterkunde                |       | \-3   |         |         |      |     |       | 0      |             |       | +1    | +4     |       |                   |            |            |       |            |            |      |
-| Magie                       | 0     | +1    | 0       | +2      | 0    | +1  | +1    | \-1    | 0           | 0     | 0     | +1     | 0     | 0                 | +1         | +1         | 0     | +1         | 0          | 0    |
-| Pferdedressur               |       | \-3   |         |         |      |     |       | 0      |             |       | +1    | +5     |       |                   |            |            |       |            |            |      |
-| Reiten                      |       | \-1   |         |         |      | \-1 | \-2   | 0      |             |       |       | +5     |       |                   |            | \-1        |       |            |            |      |
-| Rüstungsbau                 |       | 0     |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
-| Schiffbau                   |       | \-1   |         |         |      |     |       | \-2    |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Segeln                      |       | \-1   |         |         |      |     |       | \-2    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
-| Spionage                    | 0     | 0     | 0       | 0       | +1   | +2  | 0     | 0      | 0           | 0     | 0     | 0      | +5    | 0                 | 0          | +1         | 0     | +1         | 0          | 0    |
-| Stangenwaffen               |       | +1    |         |         |      | \-1 | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
-| Steinbau                    |       | 0     |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Steuereintreiben            |       | +1    |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            | +1         |       | +1         |            |      |
-| Straßenbau                  |       | 0     |         |         |      |     |       | \-2    |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Taktik                      |       | \-1   | 0       | 0       |      |     |       | \-2    | 0           | 0     |       | \-2    |       |                   |            |            | 0     |            |            | 0    |
-| Tarnung                     |       | +1    | 0       | +4      | +1   | +5  | 0     | +1     | 0           |       | +3    | +3     | +4    |                   | 0          | +1         | 0     | +1         |            | 0    |
-| Unterhaltung                |       | \-3   |         |         |      |     |       | \-1    |             |       |       | +10    |       |                   |            |            |       |            |            |      |
-| Waffenbau                   |       | +1    |         |         |      |     |       | 0      |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
-| Waffenloser Kampf           | 0     | \-    | 0       | 0       | 0    | 0   | 0     | \-     | 0           | 0     | 0     | 0      | 0     | 0                 | 0          | 0          | 0     | 0          | 0          | 0    |
-| Wagenbau                    |       | \-2   |         |         |      |     |       | \-1    |             |       |       | \-2    |       |                   |            |            |       |            |            |      |
-| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
+| Property               | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
+|------------------------|-------|-------|---------|---------|-----|-------|--------|--------|---------|---------|------|-------|-----|----------------|----------------|--------------|--------|-----------|-------------|------|
+| Hit Points             | 15    | 50    | 24      | 40      | 9   | 6     | 30     | 16     | 40      | 300     | 20   | 15    | 10  | 900            | 40             | 10           | 30     | 10        | 300         | 25   |
+| Gewicht \[kg\]         | 5     | 10    | 5       | 5       | 5   | 2     | 5      | 6      | 5       | 5       | 5    | 10    | 1   | 16             | 10             | 5            | 5      | 5         | 300         | 5    |
+| Capacity[kg]           | 5.4   | 5.4   | 5.4     | 20      | 5.4 | 5.4   | 5.4    | 4.4    | 5.4     | 5.4     | 5.4  | 5.4   | 5.4 | 6              | 6              | 5.4          | 5.4    | 5.4       | 100         | 5.4  |
+| nat. Armor             | 0     | 2     | 0       | 0       | 0   | 0     | 5      | 0      | 0       | 0       | 0    | 0     | 0   | 7              | 1              | 1            | 0      | 0         | 6           | 0    |
+| Magic resistance       | 0     | 15    | 0       | 90      | 0   | 80    | 100    | \-5    | 50      | 0       | 0    | 90    | 0   | 0              | 99             | 50           | 0      | 50        | 80          | 0    |
+| own magic              |       |       |         | ja      |     | ja    | ja     |        |         |         |      | ja    |     |                | ja             | ja           |        | ja        |             |      |
+| can move over land     | yes   | yes   |         | yes     | yes | yes   | yes    | yes    | yes     |         | yes  | yes   | yes | yes            | yes            | yes          | yes    | yes       | yes         | yes  |
+| can enter ocean fields | yes   |       | yes     |         | yes | yes   | yes    |        |         | yes     |      |       |     | yes            | yes            | yes          |        | yes       |             |      |
+| Can use armor          |       | yes   |         |         |     | yes   | yes    | yes    |         |         |      | yes   |     |                |                | yes          |        |           |             |      |
+| Talent                 | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
+| Alchemy                |       | +2    |         |         |     |       |        | +1     |         |         |      | 0     |     |                |                |              |        |           |             |      |
+| Crossbow shooting      |       | 0     |         |         |     |       |        | 0      |         |         |      | 0     |     |                |                |              |        |           |             |      |
+| Endurance              | 0     | 0     | 0       | 0       | 0   | 0     | 0      | 0      | 0       | 0       | 0    | -1    | 0   | 0              | 0              | 0            | 0      | 0         | +2          | 0    |
+| Mining                 |       | +0    |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           | +10         |      |
+| Archery                |       | 0     |         |         |     |       |        | 0      |         |         |      | +2    |     |                |                |              |        |           |             |      |
+| Castle building        |       | 0     |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           |             |      |
+| Act                    |       | -3    |         |         |     |       |        | -1     |         |         |      | -2    |     |                |                |              |        |           |             |      |
+| Slashing weapons       |       | +1    |         |         |     | -1    | 0      | 0      |         |         |      | 0     |     |                |                | 0            |        | 0         |             |      |
+| woodcutting            |       | +1    |         |         |     |       |        | 0      |         |         |      |       |     |                |                |              |        |           | +10         |      |
+| Catapult operation     |       | 0     |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           |             |      |
+| Herbology              |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +4    |     |                |                |              |        |           |             |      |
+| Magic                  | 0     | +1    | 0       | +2      | 0   | +1    | +1     | -1     | 0       | 0       | 0    | +1    | 0   | 0              | +1             | +1           | 0      | +1        | 0           | 0    |
+| Horse dressage         |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +5    |     |                |                |              |        |           |             |      |
+| Riding                 |       | -1    |         |         |     | -1    | -2     | 0      |         |         |      | +5    |     |                |                | -1           |        |           |             |      |
+| Armament construction  |       | 0     |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                |              |        |           |             |      |
+| Shipbuilding           |       | -1    |         |         |     |       |        | -2     |         |         |      |       |     |                |                |              |        |           |             |      |
+| Sailing                |       | -1    |         |         |     |       |        | -2     |         |         |      | -2    |     |                |                |              |        |           |             |      |
+| Espionage              | 0     | 0     | 0       | 0       | +1  | +2    | 0      | 0      | 0       | 0       | 0    | 0     | +5  | 0              | 0              | +1           | 0      | +1        | 0           | 0    |
+| Polearms               |       | +1    |         |         |     | -1    | 0      | 0      |         |         |      | 0     |     |                |                | 0            |        | 0         |             |      |
+| Stone construction     |       | 0     |         |         |     |       |        | 0      |         |         |      |       |     |                |                |              |        |           | +10         |      |
+| Collecting taxes       |       | +1    |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                | +1           |        | +1        |             |      |
+| Road construction      |       | 0     |         |         |     |       |        | -2     |         |         |      |       |     |                |                |              |        |           |             |      |
+| Tactics                |       | -1    | 0       | 0       |     |       |        | -2     | 0       | 0       |      | -2    |     |                |                |              | 0      |           |             | 0    |
+| camouflage             |       | +1    | 0       | +4      | +1  | +5    | 0      | +1     | 0       |         | +3   | +3    | +4  |                | 0              | +1           | 0      | +1        |             | 0    |
+| Entertainment          |       | -3    |         |         |     |       |        | -1     |         |         |      | +10   |     |                |                |              |        |           |             |      |
+| Weapons construction   |       | +1    |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                |              |        |           |             |      |
+| Unarmed combat         | 0     | -     | 0       | 0       | 0   | 0     | 0      | -      | 0       | 0       | 0    | 0     | 0   | 0              | 0              | 0            | 0      | 0         | 0           | 0    |
+| Carriage construction  |       | \-2   |         |         |     |       |        | \-1    |         |         |      | \-2   |     |                |                |              |        |           |             |      |
+| perception             | +2    | +1    | +1      | +5      | +5  | +2    | 0      | 0      | +1      | +1      | +4   | +2    | +2  | +1             | 0              | +1           | +1     | +1        |             | +2   |
 
 ## Assignment of Familiars
 
-Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig. Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
+Familiars of different races can join a magician at random -although not completely at random. The selection is determined by his magic area, his race and his magic level.
 
-In der folgenden Tabelle findet sich in der ersten Spalte die Rasse des Magiers, der einen Vertrauten versucht an sich zu binden. In der zweiten Spalte findet sich die Standard-Vertrautenrasse (Primärvertrauter), die sich dieser Magierrasse anschließt. In den fünf darauffolgenden Spalten, stehen die Rassen, die sich dem Magier bevorzugt anschließen, wenn er in dem jeweiligen Magiegebiet bewandert ist. Mit 50%-100% (je nach Stufe) wird die Rasse des Magiegebiets gewählt, mit ungefähr Stufe% eine beliebige, sonst die Primärrasse.
+In the following table, the race of the magician who is trying to bind a familiar to himself can be found in the first column.
+The second column contains the standard familiar race (primary familiar) that joins this mage race. In the five following columns are the races that the magician prefers to join if he is knowledgeable in the respective area of ​​magic.
+With 50%-100% (depending on level) the race of the magic area is chosen, with approximately level% any one, otherwise the primary race.
 
-Spielererfahrung:Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen und sollten im Code nochmal gegengecheckt werden!
+Player experience: The information on percentages should be viewed with caution and should be double-checked in the code!
 
-Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiegebiet) oder einen Luchs (Primärvertrauter), aber eben auch eine geringere Chance eine zufällige Rasse aus der Tabelle zu bekommen.
+An elf magician with Tybied has the highest chance of getting an owl (magic area) or a lynx (primary familiar), but also a lower chance of getting a random race from the table.
 
 | Race       | Primary Familiar  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
 |------------|-------------------|------------|-------------------|------------|------------|-------------|
@@ -206,11 +223,11 @@ Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiege
 | Zwerg      | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
 | Ork        | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
 
-Spielererfahrung:Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
+Player Experience: The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.
 
-Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen. Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
+Player Experience: An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean. However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
-[Dämonen]: ./races.md#demons
+[Demons]: ./races.md#demons
 [Goblins]: ./races.md#goblins

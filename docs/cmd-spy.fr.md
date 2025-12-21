@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-spy-fr
+---
 # SPY
 
 **`SPY`**[<sup>`L`</sup>]` `*`unit-id`*

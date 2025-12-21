@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: illaun-spells
-    text: Illaun spells
+alias: illaun-spells
 ---
 # Illaun spells
 

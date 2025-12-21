@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-move-fr
+---
 # MOVE
 
 **`MOVE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`]...`

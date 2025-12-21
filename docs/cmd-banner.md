@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-banner
-    text: BANNER
+alias: cmd-banner
 ---
 # BANNER
 

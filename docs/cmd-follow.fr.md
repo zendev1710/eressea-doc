@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-follow-fr
+---
 # FOLLOW
 
 **`FOLLOW`**` UNIT `*`unit-ID`*  

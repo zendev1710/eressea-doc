@@ -156,7 +156,7 @@ brief description of orders
 - [[ordres]]
 - [[sequence-des-ordres]]
 
-Poursuivre la lecture: [[premier-tour.md]]
+Poursuivre la lecture: [[premier-tour]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung/fr&oldid=13471] -->
 

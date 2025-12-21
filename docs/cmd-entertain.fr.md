@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-entertain-fr
+---
 # ENTERTAIN
 
 **`ENTERTAIN`**`[`*`betrag`*`]`

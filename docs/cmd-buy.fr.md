@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-buy-fr
+---
 # BUY
 
 **`BUY`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*

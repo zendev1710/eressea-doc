@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-ride
-    text: RIDE
+alias: cmd-ride
 ---
 # RIDE
 

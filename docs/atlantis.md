@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: atlantis
-    text: Atlantis
+alias: atlantis
 ---
 # Atlantis
 

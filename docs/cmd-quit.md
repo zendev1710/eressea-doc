@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-quit
-    text: QUIT
+alias: cmd-quit
 ---
 # QUIT
 

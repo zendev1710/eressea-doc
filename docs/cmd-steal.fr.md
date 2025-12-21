@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-steal-fr
+---
 # STEAL
 
 **`STEAL`**[<sup>`L`</sup>]` `*`unit-id`*

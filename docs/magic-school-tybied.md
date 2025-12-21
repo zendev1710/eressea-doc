@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: tybied-spells
-    text: Tybied spells
+alias: tybied-spells
 ---
 # Tybied spells
 

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: faction-pool
-    text: Faction pool
+alias: faction-pool
 ---
 # Faction pool
 

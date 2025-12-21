@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: skill-modifiers
-    text: skill modifiers
+alias: skill-modifiers
 ---
 # Racial skill modifiers
 

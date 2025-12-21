@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-option
-    text: OPTION
+alias: cmd-option
 ---
 # OPTION
 

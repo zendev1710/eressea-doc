@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: tips-and-tricks
-    text: Tips and tricks
+alias: tips-and-tricks
 ---
 # Tips and tricks
 

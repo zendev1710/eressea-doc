@@ -1,27 +1,26 @@
 ---
 # cSpell:locale en
-alias:
-    name: pentagram-and-tirawon
-    text: Pentagram and Tirawon
+alias: pentagram-and-tirawon
 ---
 # Pentagram and Tirawon
 
-Die Bündnisse **"Das Pentagramm"** und **"Ewiges Feuer von Tirawon / Grüne Hand Salassars"** waren zwei der mächtigsten Großbündnisse der 6. Welt und herrschten jeweils über mehrere hundert Regionen. In der Runde 381 (letzte Woche des Monats Sturmmond im Jahre 8 des zweiten Zeitalters) trafen ihre aufeinander ...
+The alliances **"The Pentagram"** and **"Eternal Fire of Tirawon /Green Hand of Salassar"** were two of the most powerful alliances in the 6th world and each ruled over several hundred regions. In round 381 (the last week of the month of Storm moon in Year 8 of the Second Age), theirs met...
 
-Die Schlacht zwischen dem Pentagramm und Tirawon gilt als eine der größten, die jemals in Eressea ausgetragen wurden. In der Astralebene über der 6. Welt trafen insgesamt 182686 Personen\* aufeinander, 82398 vom Pentagramm und 100288 Tirawoner. Das waren knapp 2% der damaligen Gesamtbevölkerung Eresseas. Die Heere bestanden hauptsächlich aus Elfen, Zwergen und Halblingen (zusammen über 80%). Das größte Einzelheer bestehend aus 32554 Elfen stellten die Garan-Elfen die praktisch alle mit Elfenbögen bewaffnet waren, sicherlich ein entscheidender Faktor für den Sieg Tirawons. Erwähnenswert sind auch die fast 6000 Dämonen, die auf der Seite Tirawons kämpften, kein einziger von ihnen fiel im Kampf.
+The battle between the Pentagram and Tirawon is considered one of the greatest ever fought in Eressea. A total of 182,686 people met in the Astral plane above the 6th world, 82,398 from the Pentagram and 100,288 from Tirawon. That was almost 2% of the total population of Eressea at the time. The armies consisted mainly of elves, dwarves and halflings (together over 80%). The largest single army consisting of 32,554 elves were the Garan elves, practically all of whom were armed with elven bows, certainly a decisive factor in Tirawon's victory. Also worth mentioning are the almost 6,000 demons who fought on Tirawon's side, not a single one of them fell in battle.
 
-Einmalig ist wohl die Tatsache, dass sich [Igjarjuk] persönlich -- als [Untoter Wyrm] auferstanden -- herabließ, das Pentagramm zu unterstützen. Die Ströme von Blut, die ihm dafür versprochen wurden, sind geflossen. Vielleicht nicht ganz so, wie sich das Pentagramm das erhofft hatte. Letzten Endes konnte aber selbst Igjarjuk das Blatt nicht wenden. Sein (erneuter) Tod setzte den Schlußpunkt unter diese Schlacht.
+What is perhaps unique is the fact that [Igjarjuk] personally --resurrected as [Undead Wyrm] --deigned to support the pentagram. The rivers of blood that were promised to him in return have flowed. Maybe not quite as the pentagram had hoped. In the end, even Igjarjuk couldn't turn the tide. His death (again) marked the end of this battle.
 
-Die Schlacht endete mit einem triumphalen Sieg Tirawons. Auf Seiten des Pentagramms fielen 76189 Personen, 6209 flohen. Tirawon hatte lediglich 1192 Tote zu beklagen.
+The battle ended in Tirawon's triumphant victory. On the side of the pentagram, 76,189 people fell and 6,209 fled. Tirawon only suffered 1,192 deaths.
 
-Bemerkung: (\*) Um es nicht unnötig kompliziert zu machen, sprechen wir auch dann von Personen, wenn es sich um Vertraute oder Monster handelt.
+Note: (*) In order not to make things unnecessarily complicated, we speak of people even if they are familiars or monsters.
 
-## Beteiligte Parteien
+## Involved factions
 
-Laut Kampfbericht waren die folgenden Parteien beteiligt. Es ist nicht auszuschließen, dass einige Teilnehmer unter [falschem Banner] an dieser Schlacht teilnahmen. Wahrscheinlichster Kandidat ist der Nebelmeermensch Gornt (mwq4), der sich als Tänzer im Sturm ausgab, aber höchstwahrscheinlich ein Aquazone war.
+According to the battle report, the following parties were involved. It cannot be ruled out that some participants took part in this battle under [[cmd-hide|false banner]]. The most likely candidate is the Mist Sea Man Gornt (mwq4), who posed as a dancer in the storm, but was most likely an Aquazone.
 
-Auf Seiten **Tirawons** kämpften 15 Völker:
+On pages **Tirawons** 15 peoples fought:
 
+<!-- cspell:disable -->
 - Heer 0: Der Flammenorden (gLut) -- 5927 Dämonen
 - Heer 3: Garan-Elfen (ii) -- 32554 Elfen
 - Heer 4: Ritter des verlorenen Schwerts (j9) -- 11271 Zwerge
@@ -38,8 +37,10 @@ Auf Seiten **Tirawons** kämpften 15 Völker:
 - Heer 35: Nelvin (neLv) -- 2508 Halblinge
 - Heer 36: Der Feuerschwarm (erob) -- 750 Insekten
 
-Auf Seiten des **Pentagramms** kämpften 20 Völker + Igjarjuk + die Monsterpartei:
+<!-- cspell:enable -->
+On the side of **pentagram** 20 peoples + Igjarjuk + the monster faction fought:
 
+<!-- cspell:disable -->
 - Heer 1: DAS PENTAGRAMM (dpen) -- 9951 Zwerge
 - Heer 2: Vorboten der Verdammnis (f0) -- 19 Dämonen
 - Heer 6: Terranische Hegemonie - Krieger des Pentagramms (the) -- 2428 Trolle
@@ -65,19 +66,19 @@ Auf Seiten des **Pentagramms** kämpften 20 Völker + Igjarjuk + die Monsterpart
 - Heer 39: \*Charriu-Solair Drachenmeister des Pentagramms (chs) -- 1 Elf
 
 <!-- -->
-
+<!-- cspell:disable -->
 - Heer 37: Unbekannte Partei (=Monster) -- 38 Hirntöter
 - Heer 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
+- 
+<!-- cspell:enable -->
+The ones with (*) marked parties appear twice each.
 
-Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
+## External link
 
-## Externer Link
-
-- [Ausführlicher Bericht aus der Sicht Tirawons]
+- [Detailed report from Tirawon's perspective]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
   [Igjarjuk]: ./monsters.md#igjarjuk
-  [Untoter Wyrm]: ./monsters.md#drachen
-  [falschem Banner]: ./cmd-hide.md
-  [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+  [Undead Wyrm]: ./monsters.md#dragons
+  [Detailed report from Tirawon's perspective]: http://members.chello.at/r.lang/eressea/pentagramm/index.html

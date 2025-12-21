@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: magellan
-    text: Magellan
+alias: magellan
 ---
 # Magellan
 

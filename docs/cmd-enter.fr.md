@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-enter-fr
+---
 # ENTER
 
 **`ENTER`**` BURG `*`building-id`*  

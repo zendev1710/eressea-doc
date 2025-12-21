@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-group
-    text: GROUP
+alias: cmd-group
 ---
 # GROUP
 

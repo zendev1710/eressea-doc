@@ -1,3 +1,7 @@
+---
+# cSpell:locale fr, en
+alias: cmd-leave-fr
+---
 # LEAVE
 
 **`LEAVE`**
@@ -14,9 +18,6 @@ Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-a
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
 
-[`ENTER`]: ./cmd-enter.md
-[`MOVE`]: ./cmd-move.md
 [E3A — Das Dritte Zeitalter]: ./the-third-age.md
 [`GIVE unit-id KOMMANDO`]: ./cmd-give.md
-[`GUARD`]: ./cmd-guard.md
 [Anschwimmen]./travel.md#anschwimmen

@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-contact
-    text: CONTACT
+alias: cmd-contact
 ---
 # CONTACT
 

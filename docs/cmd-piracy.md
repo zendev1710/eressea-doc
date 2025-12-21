@@ -1,8 +1,6 @@
 ---
 # cSpell:locale en
-alias:
-    name: cmd-piracy
-    text: PIRACY
+alias: cmd-piracy
 ---
 # PIRACY
 

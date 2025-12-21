@@ -1,154 +1,293 @@
-#!/usr/bin/env python3
-import re
 import sys
-import argparse
+import re
 import difflib
 
-# ============================
-# TOKEN DEFINITIONS
-# ============================
+# ============================================================
+# CONFIGURATION CONSTANTS
+# ============================================================
+
+LIST_NORM_SILENT = "silent"
+LIST_NORM_ANNOTATED = "annotated"
+LIST_NORM_WARNING = "warning"
+
+BLOCKQUOTE_NORM_ON = "on"
+BLOCKQUOTE_NORM_OFF = "off"
+
+
+# ============================================================
+# TOKENS
+# ============================================================
 
 TOKEN_EMPTY = "<EMPTY>"
-TOKEN_TEXT = "<TEXT>"
-TOKEN_H = "<H{level}>"
-TOKEN_UL_ITEM = "<UL_ITEM>"
-TOKEN_OL_ITEM = "<OL_ITEM>"
-TOKEN_CODEBLOCK = "<CODEBLOCK_FENCE>"
-TOKEN_BLOCKQUOTE = "<BLOCKQUOTE>"
-TOKEN_TABLE = "<TABLE_{cols}_COLS>"
-TOKEN_LINK = "<LINK>"
-TOKEN_IMAGE = "<IMAGE>"
-TOKEN_FOOTNOTE_REF = "<FOOTNOTE_REF>"
-TOKEN_FOOTNOTE_DEF = "<FOOTNOTE_DEF>"
-TOKEN_BR = "<BR>"  # forced line break (2+ spaces)
-
-LINK_PATTERN = re.compile(r"
-
-\[[^\]
-
-]*\]
-
-\([^)]+\)")
-IMAGE_PATTERN = re.compile(r"!
-
-\[[^\]
-
-]*\]
-
-\([^)]+\)")
-FOOTNOTE_REF_PATTERN = re.compile(r"
-
-\[\^[^\]
-
-]+\]
-
-")
-FOOTNOTE_DEF_PATTERN = re.compile(r"^\s*
-
-\[\^[^\]
-
-]+\]
-
-:")
+TOKEN_UL_ITEM = "<UL>"
+TOKEN_OL_ITEM = "<OL>"
+TOKEN_BLOCKQUOTE = "<BQ>"
+TOKEN_CODEBLOCK = "<CODE>"
+TOKEN_META = "<META>"
+TOKEN_TEXT = "<TEXT>"      # Paragraphes non-alignants
+TOKEN_BR = "<BR>"
+TOKEN_IGNORED = None       # Commentaires HTML ignorés structurellement
 
 
-# ============================
-# NORMALIZATION
-# ============================
+def load_alignment_flags(tsv_path):
+    """
+    Lit le fichier .aligned.tsv et retourne une liste de flags par ligne EN.
+    Chaque entrée correspond à une ligne EN reconstruite.
+    """
+    flags = []
+    with open(tsv_path, "r", encoding="utf-8") as f:
+        current_flag = None
+        for line in f:
+            if line.startswith("FLAG"):
+                current_flag = line.split("\t", 1)[1].strip()
+            if line.strip() == "":
+                if current_flag is not None:
+                    flags.append(current_flag)
+                current_flag = None
+    return flags
 
-def has_forced_break(line: str) -> bool:
-    stripped = line.rstrip("\n")
-    trailing_spaces = len(stripped) - len(stripped.rstrip(" "))
-    return trailing_spaces >= 2
+def detect_translation_blocks(flags, min_block=2):
+    """
+    Retourne deux sets :
+    - block_starts : indices des lignes où un bloc commence
+    - block_ends   : indices des lignes où un bloc finit
+    """
+    block_starts = set()
+    block_ends = set()
 
+    i = 0
+    while i < len(flags):
+        if flags[i] in ("NOT_TRANSLATED", "TRANSLATED_IN_FR"):
+            start = i
+            while i < len(flags) and flags[i] in ("NOT_TRANSLATED", "TRANSLATED_IN_FR"):
+                i += 1
+            end = i - 1
+
+            if (end - start + 1) >= min_block:
+                block_starts.add(start)
+                block_ends.add(end)
+        else:
+            i += 1
+
+    return block_starts, block_ends
+
+
+
+# ============================================================
+# NORMALISATION DES LISTES (L2)
+# ============================================================
+
+def normalize_lists_L2(lines: List[str], mode: str) -> List[str]:
+    """
+    Normalisation respectueuse (L2) :
+    - garde '-' pour UL
+    - garde '1.' pour OL
+    - corrige les listes cassées
+    - corrige les tirets Unicode
+    - corrige les indentations cassées
+    - corrige les sous-listes mal indentées
+    """
+
+    normalized = []
+    warnings = []
+
+    for idx, line in enumerate(lines):
+        original = line
+
+        # Commentaires HTML → ne pas toucher
+        if line.strip().startswith("<!--") and line.strip().endswith("-->"):
+            normalized.append(line)
+            continue
+
+        # Corrige les tirets Unicode
+        if "–" in line:
+            line = line.replace("–", "-")
+
+        stripped = line.lstrip()
+        indent = line[:len(line) - len(stripped)]
+
+        # Cas : "- - text"
+        if re.match(r"^- -\s+", stripped):
+            if mode == LIST_NORM_WARNING:
+                warnings.append(f"WARNING: malformed list at line {idx+1}: '{original}'")
+                normalized.append(line)
+                continue
+
+            stripped = stripped.replace("- -", "-")
+            if mode == LIST_NORM_ANNOTATED:
+                stripped += "  <!-- normalized: double dash -->"
+
+            normalized.append(indent + stripped)
+            continue
+
+        # Cas : "-- text"
+        if re.match(r"^--\s+", stripped):
+            if mode == LIST_NORM_WARNING:
+                warnings.append(f"WARNING: malformed list at line {idx+1}: '{original}'")
+                normalized.append(line)
+                continue
+
+            stripped = stripped.replace("--", "-")
+            if mode == LIST_NORM_ANNOTATED:
+                stripped += "  <!-- normalized: double dash -->"
+
+            normalized.append(indent + stripped)
+            continue
+
+        # Cas : "-text" → "- text"
+        if re.match(r"^-[A-Za-z0-9]", stripped):
+            if mode == LIST_NORM_WARNING:
+                warnings.append(f"WARNING: malformed list at line {idx+1}: '{original}'")
+                normalized.append(line)
+                continue
+
+            stripped = "- " + stripped[1:]
+            if mode == LIST_NORM_ANNOTATED:
+                stripped += "  <!-- normalized: missing space -->"
+
+            normalized.append(indent + stripped)
+            continue
+
+        # Cas : listes ordonnées "1.text" → "1. text"
+        if re.match(r"^\d+\.[A-Za-z0-9]", stripped):
+            if mode == LIST_NORM_WARNING:
+                warnings.append(f"WARNING: malformed list at line {idx+1}: '{original}'")
+                normalized.append(line)
+                continue
+
+            stripped = re.sub(r"^(\d+)\.", r"\1. ", stripped)
+            if mode == LIST_NORM_ANNOTATED:
+                stripped += "  <!-- normalized: missing space -->"
+
+            normalized.append(indent + stripped)
+            continue
+
+        normalized.append(line)
+
+    for w in warnings:
+        print(w, file=sys.stderr)
+
+    return normalized
+
+
+# ============================================================
+# NORMALISATION DES BLOCKQUOTES
+# ============================================================
+
+def normalize_blockquotes(lines: List[str]) -> List[str]:
+    normalized = []
+    for line in lines:
+        stripped = line.lstrip()
+        indent = line[:len(line) - len(stripped)]
+
+        if stripped.startswith(">") and not stripped.startswith("> "):
+            stripped = "> " + stripped[1:]
+
+        normalized.append(indent + stripped)
+    return normalized
+
+
+# ============================================================
+# CLASSIFICATION DES LIGNES
+# ============================================================
 
 def classify_line_type(line: str) -> str:
-    indent_match = re.match(r"^[ \t]*", line)
-    indent = indent_match.group(0)
-    stripped = line[len(indent):]
+    stripped = line.lstrip()
 
-    if stripped.strip() == "":
-        return indent + TOKEN_EMPTY
+    if stripped.startswith("<!--") and stripped.endswith("-->"):
+        return TOKEN_IGNORED
 
-    if FOOTNOTE_DEF_PATTERN.match(line):
-        return indent + TOKEN_FOOTNOTE_DEF
-
-    if stripped.startswith("#"):
-        level = len(stripped) - len(stripped.lstrip("#"))
-        return indent + TOKEN_H.format(level=level)
-
-    if stripped.startswith(">"):
-        return indent + TOKEN_BLOCKQUOTE
+    if stripped == "":
+        return TOKEN_EMPTY
 
     if stripped.startswith("```"):
-        return indent + TOKEN_CODEBLOCK
+        return TOKEN_CODEBLOCK
+
+    if stripped.startswith("# cSpell:"):
+        return TOKEN_TEXT
+
+    if re.match(r"^#{1,6}\s", stripped):
+        level = len(stripped) - len(stripped.lstrip("#"))
+        return f"<H{level}>"
 
     if re.match(r"^[-*+]\s+", stripped):
-        return indent + TOKEN_UL_ITEM
+        return TOKEN_UL_ITEM
 
     if re.match(r"^\d+\.\s+", stripped):
-        return indent + TOKEN_OL_ITEM
+        return TOKEN_OL_ITEM
 
-    if "|" in stripped:
-        cols = stripped.count("|")
-        return indent + TOKEN_TABLE.format(cols=cols)
+    if stripped.startswith("> "):
+        return TOKEN_BLOCKQUOTE
 
-    if IMAGE_PATTERN.search(stripped):
-        return indent + TOKEN_IMAGE
-
-    if LINK_PATTERN.search(stripped):
-        return indent + TOKEN_LINK
-
-    if FOOTNOTE_REF_PATTERN.search(stripped):
-        return indent + TOKEN_FOOTNOTE_REF
-
-    return indent + TOKEN_TEXT
+    return TOKEN_TEXT
 
 
-def normalize_file(path: str):
-    normalized = []
-    raw_lines = []
+# ============================================================
+# NORMALISATION GLOBALE DU FICHIER
+# ============================================================
 
+def has_forced_break(raw: str) -> bool:
+    return raw.rstrip("\n").endswith("  ")
+
+def normalize_file(path: str, list_mode: str, blockquote_mode: str) -> Tuple[List[str], List[str]]:
     with open(path, "r", encoding="utf-8") as f:
-        for raw in f:
-            raw_lines.append(raw.rstrip("\n"))
-            token = classify_line_type(raw.rstrip("\n"))
-            if has_forced_break(raw):
-                token += TOKEN_BR
-            normalized.append(token)
+        raw_lines = [line.rstrip("\n") for line in f.readlines()]
+
+    raw_lines = normalize_lists_L2(raw_lines, list_mode)
+
+    if blockquote_mode == BLOCKQUOTE_NORM_ON:
+        raw_lines = normalize_blockquotes(raw_lines)
+
+    normalized = []
+    in_front_matter = False
+    front_matter_done = False
+
+    for idx, line in enumerate(raw_lines):
+
+        if idx == 0 and line.strip() == "---":
+            in_front_matter = True
+
+        if in_front_matter and not front_matter_done:
+            normalized.append(TOKEN_META)
+            if idx != 0 and line.strip() == "---":
+                in_front_matter = False
+                front_matter_done = True
+            continue
+
+        token = classify_line_type(line)
+
+        if token is TOKEN_IGNORED:
+            normalized.append(TOKEN_IGNORED)
+            continue
+
+        if has_forced_break(line):
+            token += TOKEN_BR
+
+        normalized.append(token)
 
     return raw_lines, normalized
 
 
-# ============================
-# DIFF
-# ============================
+# ============================================================
+# APPLY STRUCTURE
+# ============================================================
 
-def diff_normalized(n1, n2, file1_name, file2_name, context=3):
-    diff = difflib.unified_diff(
-        n1, n2,
-        fromfile=file1_name + " (structure)",
-        tofile=file2_name + " (structure)",
-        lineterm="",
-        n=context,
-    )
-    has_diff = False
-    for line in diff:
-        has_diff = True
-        print(line)
-    return has_diff
+def apply_structure_to_line(struct_token: str, text_line: str) -> str:
+    if struct_token == TOKEN_META or struct_token is TOKEN_IGNORED:
+        return text_line
 
+    if struct_token.startswith(TOKEN_TEXT):
+        return text_line
 
-# ============================
-# FIX MODE
-# ============================
-
-def apply_structure_to_line(struct_token, text_line):
     indent_match = re.match(r"^[ \t]*", struct_token)
-    indent = indent_match.group(0)
+    indent = indent_match.group(0) if indent_match else ""
     token = struct_token[len(indent):]
 
-    stripped_text = text_line.lstrip(" \t")
+    stripped = text_line.lstrip(" \t")
+    stripped = re.sub(r"^#{1,6}\s+", "", stripped)
+    stripped = re.sub(r"^\d+\.\s+", "", stripped)
+    stripped = re.sub(r"^[-*+]\s+", "", stripped)
+    stripped = re.sub(r"^>\s+", "", stripped)
 
     forced_break = token.endswith(TOKEN_BR)
     if forced_break:
@@ -156,36 +295,45 @@ def apply_structure_to_line(struct_token, text_line):
 
     if token.startswith("<H"):
         level = int(token[2])
-        new_line = indent + "#" * level + " " + stripped_text
+        if stripped.strip() == "":
+            return indent + "#" * level + " TODO"
+        new_line = indent + "#" * level + " " + stripped
+    # if token.startswith("<H"):
+    #     level = int(token[2])
+    #     new_line = indent + "#" * level + " " + stripped
 
     elif token == TOKEN_UL_ITEM:
-        new_line = indent + "- " + stripped_text
+        new_line = indent + "- " + stripped
 
     elif token == TOKEN_OL_ITEM:
-        new_line = indent + "1. " + stripped_text
+        new_line = indent + "1. " + stripped
 
     elif token == TOKEN_BLOCKQUOTE:
-        new_line = indent + "> " + stripped_text
+        new_line = indent + "> " + stripped
 
     elif token == TOKEN_CODEBLOCK:
-        new_line = indent + "```"
-
-    elif token.startswith("<TABLE_"):
-        new_line = indent + stripped_text
+        if stripped.startswith("```"):
+            new_line = indent + stripped
+        else:
+            new_line = indent + "```"
 
     elif token == TOKEN_EMPTY:
         new_line = indent
 
     else:
-        new_line = indent + stripped_text
+        new_line = indent + stripped
 
-    if forced_break:
+    if forced_break and not new_line.endswith("  "):
         new_line += "  "
 
     return new_line
 
 
-def fix_file(source_raw, source_norm, target_raw, target_norm):
+# ============================================================
+# FIX FILE
+# ============================================================
+
+def fix_file(source_raw, source_norm, target_raw, target_norm, aligned_tsv_path):
     sm = difflib.SequenceMatcher(a=source_norm, b=target_norm)
     result = []
 
@@ -193,66 +341,270 @@ def fix_file(source_raw, source_norm, target_raw, target_norm):
 
         if tag == "equal":
             for k in range(i1, i2):
-                result.append(apply_structure_to_line(source_norm[k], target_raw[j1 + (k - i1)]))
+                src_tok = source_norm[k]
+                tgt_tok = target_norm[j1 + (k - i1)]
+
+                if tgt_tok is TOKEN_IGNORED:
+                    result.append(target_raw[j1 + (k - i1)])
+                    continue
+
+                if src_tok.startswith(TOKEN_TEXT):
+                    result.append(target_raw[j1 + (k - i1)])
+                    continue
+
+                result.append(apply_structure_to_line(src_tok, target_raw[j1 + (k - i1)]))
 
         elif tag == "replace":
-            for k in range(i1, i2):
-                if j1 + (k - i1) < j2:
-                    result.append(apply_structure_to_line(source_norm[k], target_raw[j1 + (k - i1)]))
+            len_src = i2 - i1
+            len_tgt = j2 - j1
+            common = min(len_src, len_tgt)
+
+            for offset in range(common):
+                k_src = i1 + offset
+                k_tgt = j1 + offset
+
+                if target_norm[k_tgt] is TOKEN_IGNORED:
+                    result.append(target_raw[k_tgt])
+                    continue
+
+                val = source_norm[k_src]
+                if val is None:
+                    continue
+                if val.startswith(TOKEN_TEXT):
+                    result.append(target_raw[k_tgt])
+                    continue
+
+                result.append(apply_structure_to_line(source_norm[k_src], target_raw[k_tgt]))
+
+            for k_src in range(i1 + common, i2):
+                result.append(f"<!-- TODO: missing {source_norm[k_src]} -->")
+
+            for k_tgt in range(j1 + common, j2):
+                if target_norm[k_tgt] is TOKEN_IGNORED:
+                    result.append(target_raw[k_tgt])
                 else:
-                    result.append(f"<!-- TODO: missing {source_norm[k]} -->")
+                    result.append(target_raw[k_tgt] + " <!-- EXTRA -->")
 
         elif tag == "delete":
             for k in range(i1, i2):
                 result.append(f"<!-- TODO: missing {source_norm[k]} -->")
 
         elif tag == "insert":
-            continue
+            for k in range(j1, j2):
+                if target_norm[k] is TOKEN_IGNORED:
+                    result.append(target_raw[k])
+                else:
+                    result.append(target_raw[k] + " <!-- EXTRA -->")
+
+    # === INSERTION DES TO DO TRANSLATE ===
+    # Charger les flags depuis le .aligned.tsv
+    flags = load_alignment_flags(aligned_tsv_path)
+
+    # Détecter les blocs NOT_TRANSLATED / TRANSLATED_IN_FR
+    block_starts, block_ends = detect_translation_blocks(flags)
+
+    # Ajouter les tags dans le résultat final
+    for idx in range(len(result)):
+        if idx in block_starts:
+            result[idx] += " <!-- TODO: TRANSLATE BEGIN -->"
+        if idx in block_ends:
+            result[idx] += " <!-- TODO: TRANSLATE END -->"
 
     return result
 
 
-# ============================
+# ============================================================
+# VALIDATION DU FICHIER FIXÉ
+# ============================================================
+
+def validate_output(lines: List[str]) -> Tuple[bool, List[str]]:
+    warnings = []
+    ok = True
+
+    # 1. Titres vides
+    for idx, line in enumerate(lines):
+        if re.match(r"^#{1,6}\s*$", line):
+            ok = False
+            warnings.append(f"Invalid empty heading at line {idx+1}: '{line}'")
+
+    # 2. Listes vides
+    for idx, line in enumerate(lines):
+        if re.match(r"^[-*+]\s*$", line):
+            ok = False
+            warnings.append(f"Invalid empty list item at line {idx+1}: '{line}'")
+
+        if re.match(r"^\d+\.\s*$", line):
+            ok = False
+            warnings.append(f"Invalid empty ordered list item at line {idx+1}: '{line}'")
+
+    # 3. EXTRA sur un titre
+    for idx, line in enumerate(lines):
+
+        # Ignore EXTRA on cSpell directives
+        if line.startswith("# cSpell:") and "<!-- EXTRA -->" in line:
+            continue
+
+        if re.match(r"^#{1,6}.*<!-- EXTRA -->", line):
+            warnings.append(f"Heading marked EXTRA at line {idx+1}: '{line}'")
+            continue
+
+    # 4. Codeblocks non fermés
+    codeblock_count = sum(1 for line in lines if line.strip().startswith("```"))
+    if codeblock_count % 2 != 0:
+        ok = False
+        warnings.append("Unclosed codeblock detected")
+
+    # 5. Blockquotes vides
+    for idx, line in enumerate(lines):
+        if re.match(r"^>\s*$", line):
+            ok = False
+            warnings.append(f"Empty blockquote at line {idx+1}: '{line}'")
+
+    return ok, warnings
+
+
+# ============================================================
+# DEBUG
+# ============================================================
+
+def debug_dump(source_path, target_path, source_raw, source_norm, target_raw, target_norm):
+    print("=== DEBUG mdstructdiff ===")
+    print(f"SOURCE: {source_path}")
+    print(f"TARGET: {target_path}")
+
+    print("\n--- SOURCE TOKENS ---")
+    for i, (raw, tok) in enumerate(zip(source_raw, source_norm), 1):
+        print(f"{i:4d}: {str(tok):12s} | {raw}")
+
+    print("\n--- TARGET TOKENS ---")
+    for i, (raw, tok) in enumerate(zip(target_raw, target_norm), 1):
+        print(f"{i:4d}: {str(tok):12s} | {raw}")
+
+    print("\n--- OPCODES ---")
+    sm = difflib.SequenceMatcher(a=source_norm, b=target_norm)
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        print(f"{tag:7s} src[{i1}:{i2}] -> tgt[{j1}:{j2}]")
+        print("  SRC:", source_norm[i1:i2])
+        print("  TGT:", target_norm[j1:j2])
+
+    print("=== END DEBUG ===")
+
+
+# ============================================================
 # MAIN
-# ============================
+# ============================================================
+
+def parse_args(argv):
+    src = None
+    tgt = None
+    fix = False
+    output = None
+    debug = False
+    list_mode = LIST_NORM_SILENT
+    blockquote_mode = BLOCKQUOTE_NORM_ON
+    batch_mode = False
+    aligned_tsv_path = None   # <-- AJOUT : par défaut, rien
+
+    positional = []
+    i = 0
+    while i < len(argv):
+        arg = argv[i]
+
+        if arg == "--fix":
+            fix = True
+            i += 1
+
+        elif arg == "--output":
+            output = argv[i + 1]
+            i += 2
+
+        elif arg == "--debug":
+            debug = True
+            i += 1
+
+        elif arg == "--list-normalization-mode":
+            list_mode = argv[i + 1]
+            i += 2
+
+        elif arg == "--normalize-blockquotes":
+            blockquote_mode = argv[i + 1]
+            i += 2
+
+        elif arg == "--batch":
+            batch_mode = True
+            i += 1
+
+        elif arg == "--aligned":                     # <-- AJOUT
+            aligned_tsv_path = argv[i + 1]           # <-- AJOUT
+            i += 2                                    # <-- AJOUT
+
+        else:
+            positional.append(arg)
+            i += 1
+
+    if len(positional) < 2:
+        raise SystemExit(
+            "Usage: mdstructdiff.py source.md target.md "
+            "[--fix --output file] "
+            "[--aligned file.aligned.tsv] "           # <-- AJOUT
+            "[--debug] "
+            "[--list-normalization-mode silent|annotated|warning] "
+            "[--normalize-blockquotes on|off] "
+            "[--batch]"
+        )
+
+    return (
+        positional[0],
+        positional[1],
+        fix,
+        output,
+        debug,
+        list_mode,
+        blockquote_mode,
+        batch_mode,
+        aligned_tsv_path,                             # <-- AJOUT
+    )
+
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Compare and optionally fix Markdown structure."
-    )
-    parser.add_argument("source", help="Source Markdown file")
-    parser.add_argument("target", help="Target Markdown file")
-    parser.add_argument("--fix", action="store_true", help="Fix target structure")
-    parser.add_argument("--in-place", action="store_true", help="Modify target file directly")
-    parser.add_argument("--output", help="Write fixed file to this path")
-    parser.add_argument("-c", "--context", type=int, default=3, help="Diff context lines")
+    src, tgt, do_fix, out, debug, list_mode, blockquote_mode, batch_mode, aligned_tsv_path = parse_args(sys.argv[1:])
 
-    args = parser.parse_args()
+    source_raw, source_norm = normalize_file(src, list_mode, blockquote_mode)
+    target_raw, target_norm = normalize_file(tgt, list_mode, blockquote_mode)
 
-    source_raw, source_norm = normalize_file(args.source)
-    target_raw, target_norm = normalize_file(args.target)
+    if debug:
+        debug_dump(src, tgt, source_raw, source_norm, target_raw, target_norm)
 
-    if not args.fix:
-        has_diff = diff_normalized(source_norm, target_norm, args.source, args.target, args.context)
-        if not has_diff:
-            print("Files are structurally identical.")
+    if do_fix:
+        fixed = fix_file(source_raw, source_norm, target_raw, target_norm, aligned_tsv_path)
+
+        ok, warnings = validate_output(fixed)
+
+        if not ok:
+            print(f"\n❌ Validation failed for {tgt}:", file=sys.stderr)
+            for w in warnings:
+                print("  - " + w, file=sys.stderr)
+
+            if not batch_mode:
+                sys.exit(1)
+            else:
+                print("⚠️  Skipping file due to validation errors (batch mode).", file=sys.stderr)
+                return
+
+        if out:
+            with open(out, "w", encoding="utf-8") as f:
+                f.write("\n".join(fixed) + "\n")
+        else:
+            with open(tgt, "w", encoding="utf-8") as f:
+                f.write("\n".join(fixed) + "\n")
+
         return
 
-    fixed = fix_file(source_raw, source_norm, target_raw, target_norm)
-
-    if args.in_place:
-        with open(args.target, "w", encoding="utf-8") as f:
-            f.write("\n".join(fixed) + "\n")
-        print(f"Fixed structure written in-place to {args.target}")
-    elif args.output:
-        with open(args.output, "w", encoding="utf-8") as f:
-            f.write("\n".join(fixed) + "\n")
-        print(f"Fixed structure written to {args.output}")
-    else:
-        out = args.target + ".fixed.md"
-        with open(out, "w", encoding="utf-8") as f:
-            f.write("\n".join(fixed) + "\n")
-        print(f"Fixed structure written to {out}")
+    sm = difflib.SequenceMatcher(a=source_norm, b=target_norm)
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        print(f"{tag:7s} src[{i1}:{i2}] -> tgt[{j1}:{j2}]")
+        print("  SRC:", source_norm[i1:i2])
+        print("  TGT:", target_norm[j1:j2])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,40 @@
+name: Markdown Localization Pipeline
+
+on:
+  push:
+    paths:
+      - "**/*.md"
+  workflow_dispatch:
+
+jobs:
+  process-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Run pipeline on all Markdown files
+        run: |
+          for SRC in $(find src/ -name "*.md"); do
+            TRG="${SRC/src/trg}"
+            if [ -f "$TRG" ]; then
+              echo "Processing $SRC → $TRG"
+              ./pipeline.sh "$SRC" "$TRG" || echo "⚠️ Error on $SRC (skipped)"
+            fi
+          done
+
+      - name: Upload aligned results
+        uses: actions/upload-artifact@v4
+        with:
+          name: aligned-results
+          path: "**/*.aligned.tsv"

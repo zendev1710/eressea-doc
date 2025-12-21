@@ -1,66 +1,122 @@
 #!/usr/bin/env python3
+import re
 import sys
 
-def split_line(line):
+def is_heading(line):
+    return line.lstrip().startswith("#")
+
+def is_list_item(line):
+    stripped = line.lstrip()
+    return (
+        stripped.startswith("- ")
+        or stripped.startswith("* ")
+        or stripped.startswith("+ ")
+        or re.match(r"^\s*\d+\.\s+", stripped)
+    )
+
+def is_blockquote(line):
+    return line.lstrip().startswith(">")
+
+def is_table_row(line):
+    return "|" in line and line.strip().startswith("|")
+
+def is_code_fence(line):
+    return line.strip().startswith("```")
+
+def extract_yaml_front_matter(lines):
+    """
+    Extrait le YAML front-matter si présent.
+    Retourne (yaml_lines, content_lines).
+    """
+    if not lines or not lines[0].strip() == "---":
+        return [], lines
+
+    yaml = []
+    content = []
+    in_yaml = True
+
+    for i, line in enumerate(lines):
+        yaml.append(line)
+        if i > 0 and line.strip() == "---":
+            content = lines[i+1:]
+            break
+
+    return yaml, content
+
+SENTENCE_END = re.compile(r"([.!?])\s+")
+
+def split_paragraph_into_sentences(text):
+    """
+    Segmente un paragraphe en phrases.
+    """
+    parts = SENTENCE_END.split(text)
+    sentences = []
+
+    for i in range(0, len(parts), 2):
+        if i+1 < len(parts):
+            sentence = parts[i] + parts[i+1]
+        else:
+            sentence = parts[i]
+
+        sentence = sentence.strip()
+        if sentence:
+            sentences.append(sentence)
+
+    return sentences
+
+def segment_content(lines):
     result = []
-    current = []
-    i = 0
-    n = len(line)
+    in_codeblock = False
 
-    in_inline_code = False
-    in_fenced_code = False
+    for line in lines:
 
-    while i < n:
-        ch = line[i]
-
-        # Detect fenced code blocks ```
-        if line.startswith("```", i):
-            in_fenced_code = not in_fenced_code
-            current.append("```")
-            i += 3
+        # 1) Lignes vides → on les garde telles quelles
+        if line.strip() == "":
+            result.append("")
             continue
 
-        # Detect inline code `
-        if not in_fenced_code and ch == "`":
-            in_inline_code = not in_inline_code
-            current.append(ch)
-            i += 1
+        # 2) Début/fin de codeblock
+        if is_code_fence(line):
+            in_codeblock = not in_codeblock
+            result.append(line)
             continue
 
-        # If inside code (inline or fenced), copy literally
-        if in_inline_code or in_fenced_code:
-            current.append(ch)
-            i += 1
+        # 3) Si on est dans un codeblock → ne rien segmenter
+        if in_codeblock:
+            result.append(line)
             continue
 
-        # Detect ellipsis ...
-        if line.startswith("...", i):
-            current.append("...")
-            i += 3
+        # 4) Lignes structurelles → ne pas segmenter
+        if (
+            is_heading(line)
+            or is_list_item(line)
+            or is_blockquote(line)
+            or is_table_row(line)
+        ):
+            result.append(line)
             continue
 
-        # Sentence-ending punctuation (Option 1)
-        if ch in ".;!":
-            current.append(ch)
-            # End of sentence → flush
-            result.append("".join(current).strip())
-            current = []
-            i += 1
-            continue
-
-        # Normal character
-        current.append(ch)
-        i += 1
-
-    # Flush remaining text
-    if current:
-        result.append("".join(current).strip())
+        # 5) Sinon → segmentation du paragraphe
+        sentences = split_paragraph_into_sentences(line)
+        for s in sentences:
+            result.append(s)
 
     return result
 
+def main():
+    raw_lines = [line.rstrip("\n") for line in sys.stdin]
+
+    # extraire YAML
+    yaml, content = extract_yaml_front_matter(raw_lines)
+
+    # segmenter le contenu
+    segmented = segment_content(content)
+
+    # réinsérer YAML tel quel
+    for line in yaml:
+        print(line)
+    for line in segmented:
+        print(line)
 
 if __name__ == "__main__":
-    for line in sys.stdin:
-        parts = split_line(line.rstrip("\n"))
-        for p in parts:
-            print(p)
+    main()

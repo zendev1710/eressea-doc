@@ -27,3 +27,14 @@ Thumbs.db
 *.log
 
 node_modules/
+
+# Fichiers générés automatiquement
+generated/
+*.tsv
+*.norm.md
+*.sentences.md
+*.fixed.md
+
+# Éventuels fichiers temporaires
+*.tmp
+*.bak

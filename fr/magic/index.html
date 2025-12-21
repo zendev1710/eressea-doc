@@ -3965,7 +3965,7 @@
   <span class="md-ellipsis">
     
   
-    BEZAHLE NOT
+    PAY NOT
   
 
     
@@ -7806,7 +7806,7 @@ Syntax:
 <h3 id="art">Art<a class="headerlink" href="#art" title="Permanent link">&para;</a></h3>
 <p>Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.</p>
 <p>Normale Zauber werden mit dem Befehl <a href="../cmd-cast/">CAST</a> gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe <a href="../commands-sequence/">Befehlsreihenfolge</a>) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.</p>
-<p>Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL LEVEL n "Zauber"</a> gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL "Zauber" NOT</a> oder alle gesetzten Kampfzauber mit <a href="../cmd-combatspell/">COMBATSPELL NOT</a>. Kampfzauber wirken in etwa wie die <a href="../war/#kampfreihen">COMBAT-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
+<p>Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL LEVEL n "Zauber"</a> gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL "Zauber" NOT</a> oder alle gesetzten Kampfzauber mit <a href="../cmd-combatspell/">COMBATSPELL NOT</a>. Kampfzauber wirken in etwa wie die <a href="../war/#lignes-de-combat">COMBAT-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
 <div class="highlight"><pre><span></span><code>                              Gesang der Furcht
 
 Beschreibung:
@@ -7823,7 +7823,7 @@ Modifikationen:
 Syntax:
   COMBATSPELL [LEVEL n] &#39;Gesang der Furcht&#39;
 </code></pre></div>
-<p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt. Entweder indem sie selber ATTACK befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="../war/#die-seiten-in-einer-schlacht">Die Seiten in einer Schlacht</a>). Das kann also auch passieren, wenn sie auf COMBAT NOT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="../cmd-attack/">ATTACK</a> angegriffen wird!</p>
+<p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt. Entweder indem sie selber ATTACK befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="../war/#les-camps-dans-une-bataille">Die Seiten in einer Schlacht</a>). Das kann also auch passieren, wenn sie auf COMBAT NOT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="../cmd-attack/">ATTACK</a> angegriffen wird!</p>
 <p>Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert. Ein normaler Kampfzauber einmal in jeder Kampfrunde. Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter <a href="#aura">Aura</a>) und dass sie noch lebt.</p>
 <h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
 <p>Aura ist die magische Kraft, mit deren Hilfe Zauberer ihre Magie ausüben. Aura wird durch das Zaubern verbraucht und regeneriert sich mit der Zeit wieder. Eine Magiereinheit kann eine bestimmte maximale Menge Aura aufnehmen. Wie viel, wird - ebenso wie die Auraregeneration - durch das Magietalent der Einheit bestimmt. Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird. Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken. Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.</p>
@@ -7974,11 +7974,11 @@ CAST &quot;Aaaa&quot;
 <li>50% + 5% * (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)</li>
 <li>nie unter 2%, nie über 98%</li>
 </ul>
-<p>Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch <a href="../war-tables/#magieresistenz">Waffen oder Rüstungen</a>. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.</p>
+<p>Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch <a href="../war-tables/#resistance-a-la-magie">Waffen oder Rüstungen</a>. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.</p>
 <p>Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.</p>
 <p><strong>Exemples :</strong> Die Basischance ist 0% für Menschen, 10% für <a href="../skills-modifiers/">Elfen</a>, für <a href="../skills-modifiers/">Gobelins</a> ist sie nur -5%.</p>
-<p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a href="../spells-list/#chaosfluch">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Gobelins, sinkt die Chance weiter auf 35%.</p>
-<p>Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit <a href="../war-tables/#magieresistenz">Laenschwert</a> nur (90% * 70%) = 63% davon, also etwa 31 Schaden.</p>
+<p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a href="../spells-descriptions/#chaosfluch">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Gobelins, sinkt die Chance weiter auf 35%.</p>
+<p>Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit <a href="../war-tables/#resistance-a-la-magie">Laenschwert</a> nur (90% * 70%) = 63% davon, also etwa 31 Schaden.</p>
 <h2 id="tour-des-mages">Tour des Mages<a class="headerlink" href="#tour-des-mages" title="Permanent link">&para;</a></h2>
 <p>Ein <a href="../buildings-others/#tour-de-mage">Magierturm</a> erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.</p>
 <h2 id="familiers">Familiers<a class="headerlink" href="#familiers" title="Permanent link">&para;</a></h2>

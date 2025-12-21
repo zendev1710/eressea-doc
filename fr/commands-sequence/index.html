@@ -3805,7 +3805,7 @@
   <span class="md-ellipsis">
     
   
-    BEZAHLE NOT
+    PAY NOT
   
 
     
@@ -7393,7 +7393,7 @@
 <li><a href="../cmd-enter/">ENTER</a>; 3. essai</li>
 <li><a href="../cmd-give/">GIVE CONTROL</a></li>
 <li><a href="../cmd-forget/">FORGET</a></li>
-<li><a href="../cmd-give/">GIVE</a><a href="../cmd-give/">GIVE CONTROL</a></li>
+<li><a href="../cmd-give/">GIVE CONTROL</a></li>
 <li><a href="../cmd-recruit/">RECRUIT</a> *</li>
 <li><a href="../cmd-destroy/">DESTROY</a></li>
 <li><a href="../cmd-follow/">FOLLOW</a> est défini</li>
@@ -7404,7 +7404,7 @@
 <li><a href="../cmd-cast/">CAST</a></li>
 <li><a href="../cmd-teach/">TEACH</a></li>
 <li><a href="../cmd-learn/">LEARN</a></li>
-<li><a href="../cmd-make/">MAKE</a><a href="../cmd-make/">MAKE TEMP</a> *</li>
+<li><a href="../cmd-make/">MAKE TEMP</a> *</li>
 <li><a href="../cmd-research/">RESEARCH</a>, <a href="../cmd-plant/">PLANT</a>, <a href="../cmd-spy/">SPY</a>, <a href="../cmd-grow/">GROW</a></li>
 <li><a href="../cmd-entertain/">ENTERTAIN</a> *</li>
 <li><a href="../cmd-work/">WORK</a> *</li>
@@ -7415,7 +7415,7 @@
 <li>Les bateaux dont l'équipage est insuffisant subissent des dommages</li>
 <li><a href="../cmd-enter/">ENTER</a>; 4. essai</li>
 <li><a href="../cmd-move/">MOVE</a> et <a href="../cmd-route/">ROUTE</a>, incluant <a href="../cmd-ride/">RIDE</a> et <a href="../cmd-carry/">CARRY</a> sont exécutés et les unités ayant reçu l'ordre de FOLLOW d'autres unités le font.</li>
-<li><a href="../cmd-guard/">GUARD</a><a href="../cmd-guard/">GUARD NOT</a> cela n'est possible que si l'unité n'a pas bougé.</li>
+<li><a href="../cmd-guard/">GUARD NOT</a> cela n'est possible que si l'unité n'a pas bougé.</li>
 <li>Les bateaux dérivent en haute mer</li>
 <li><a href="../cmd-default/">DEFAULT</a></li>
 <li>les unités vides sont supprimées</li>
@@ -7435,17 +7435,17 @@ END
 </code></pre></div>
 <p>La nouvelle unité est d'abord créée, ne se bat pas, reçoit 300 Silver, recrute 1 personne et apprend finalement FORESTRY - bien que cela ne corresponde pas à l'ordre dans lequel les ordres ont été saisis.</p>
 <h2 id="notes-explicatives">Notes explicatives<a class="headerlink" href="#notes-explicatives" title="Permanent link">&para;</a></h2>
-<p>Les ordres de rang égal émanant de différentes unités sont normalement traités dans l'ordre dans lequel ils apparaissent dans le rapport. Ainsi, par exemple, d'abord tous les ordres GIVE de la première unité, puis tous les ordres GIVE de la deuxième unité, ensuite tous les ordres <code>RECRUIT</code> de la première unité, puis de la seconde et ainsi de suite. L'<a href="../items-pool/">item pool</a> fonctionne également généralement dans cet ordre : les unités placées en premier dans l'ordre au NR sont d'abord « interrogées » pour savoir si elles peuvent donner un objet. Cependant, la prévalence peut être modifiée par certains ordres. Ceux-ci incluent <code>ENTER, EXIT, TEMP, GIVE COMMAND</code> et <code>GIVE SHIP</code>. Le comportement exact n'est pas garanti ! Par conséquent, en cas de doute, vous devez donner des ordres de telle manière que l'ordre des unités ne joue aucun rôle.</p>
+<p>Les ordres de rang égal émanant de différentes unités sont normalement traités dans l'ordre dans lequel ils apparaissent dans le rapport. Ainsi, par exemple, d'abord tous les ordres GIVE de la première unité, puis tous les ordres GIVE de la deuxième unité, ensuite tous les ordres <code>RECRUIT</code> de la première unité, puis de la seconde et ainsi de suite. La <a href="../items-pool/">Réserve d'objets</a> fonctionne également généralement dans cet ordre : les unités placées en premier dans l'ordre au NR sont d'abord « interrogées » pour savoir si elles peuvent donner un objet. Cependant, la prévalence peut être modifiée par certains ordres. Ceux-ci incluent <code>ENTER, EXIT, TEMP, GIVE COMMAND</code> et <code>GIVE SHIP</code>. Le comportement exact n'est pas garanti ! Par conséquent, en cas de doute, vous devez donner des ordres de telle manière que l'ordre des unités ne joue aucun rôle.</p>
 <p>Pour les ordres dont le résultat a une limite supérieure, par exemple la quantité maximale d'arbres dans la région pour <code>MAKE wood</code>, le nombre maximal de recrues pour <code>recruter</code> ou l'argent de la région pour <code>ENTERTAIN</code> et <code>TAX</code>, il peut arriver que plusieurs unités soient en concurrence. Dans ce cas, on essaie de répartir le bien rare au prorata de la quantité que chaque unité pourrait produire s'il était illimité. Dans ce cas, il peut y avoir des écarts et une unité peut éventuellement se retrouver sans rien. Les ordres <code>SELL</code>, <code>BUY</code> et <code>WORK</code> sont également concernés.</p>
 <p>ENTER - 1er / 2ème / 3ème / 4ème essai<br />
 Cela signifie qu'il est encore possible d'entrer dans un château avant une attaque. Après le combat, on peut réessayer, car les anciens propriétaires peuvent être morts entre-temps ou avoir pris la fuite.</p>
 <p>Cela ne signifie pas que les unités qui quittent un bateau peuvent attaquer dans le même tour, car le serveur se souvient de qui a quitté un bateau et en conséquence l'en empêche.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../commands/">ordres</a></li>
-<li><a href="../commands-list/">brève description</a></li>
+<li><a href="../commands/">Ordres</a></li>
+<li><a href="../commands-list/">Tableau récapitulatif des ordres</a></li>
 </ul>
-<p>Poursuivre la lecture : <a href="../commands-list/">brève description</a>.</p>
+<p>Poursuivre la lecture : <a href="../commands-list/">Tableau récapitulatif des ordres</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
 

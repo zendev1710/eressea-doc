@@ -35,7 +35,7 @@ Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 | Gebirge     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
 | Gletscher   | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Vulkan      | \--                                                                                     | \--                                                                      |
-  
+
 Weiterlesen: [Befehle](./commands.md "Befehle").
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter&oldid=16100] -->

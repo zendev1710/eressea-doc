@@ -380,10 +380,10 @@ A dragon"s eye cast with this spell and consumed at communion allows the user to
 **Modifiers:** Ship spell  
 **Syntax:** `CAST "Create A Flaming Sword"`  
 
-### Create [[iron golem|Iron Golems]]
+### Create [[iron-golem|Iron Golems]]
 
 **Description:**  
-The more power the magician invests, the more golems can be created. Each golem has a 15 percent chance of turning to dust each round. If you give the golems the command MAKE SWORD/BIHANDER or MAKE SHIELD/CHAIN ​​MAIL/PLATE ARMOR, 4 iron bars are installed per golem and the golem dissolves.
+The more power the magician invests, the more golems can be created. Each golem has a 15 percent chance of turning to dust each round. If you give the golems the order MAKE SWORD/BIHANDER or MAKE SHIELD/CHAIN ​​MAIL/PLATE ARMOR, 4 iron bars are installed per golem and the golem dissolves.
 **Type:** Normal spell  
 **Rank:** 4  
 **Components:** 2 Aura \* Level, 1 Eisen \* Level, 1 Wasser des Lebens  
@@ -460,7 +460,7 @@ With the help of this spell, the magician drains a quartz crystal of all its mag
 **Modifiers:** Ship spell  
 **Syntax:** `CAST "Create An Antimagic Crystal"`  
 
-### Create [[stone golem|Stone Golems]]
+### Create [[stone-golem|Stone Golems]]
 
 **Description:**  
 Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock. Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength. The more power the magician invests, the more golems can be created before the aura dissipates. Each golem has a 10 percent chance of turning to dust each round. If you give the golems the commands MAKE CASTLE or MAKE ROAD, 4 stones are placed per golem and the golem dissolves.  

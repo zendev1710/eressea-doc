@@ -22,17 +22,18 @@ TODO: Katapulte.
 
 | Race            | Weight | Capacity |
 |-----------------|-------:|---------:|
-| trolls          |     20 |     10.8 |
-| goblins         |      6 |      4.4 |
-| all other races |     10 |      5.4 |
-| horse           |     50 |     20.0 |
-| cart            |     40 |    100.0 |
-| boat            |   \-/- |     50.0 |
-| longboat        |   \-/- |    500.0 |
-| dragonship      |   \-/- |   1000.0 |
-| caravel         |   \-/- |   3000.0 |
-| trireme         |   \-/- |   2000.0 |
-| galleon         |   \-/- |  20000.0 |
+| Trolls          |     20 |     10.8 |
+| Goblins         |      6 |      4.4 |
+| All other races |     10 |      5.4 |
+| Horse           |     50 |     20.0 |
+| Cart            |     40 |    100.0 |
+| Catapult        |      ? |        ? |
+| Boat            |     -- |     50.0 |
+| Longboat        |     -- |    500.0 |
+| Dragonship      |     -- |   1000.0 |
+| Caravel         |     -- |   3000.0 |
+| Trireme         |     -- |   2000.0 |
+| Galleon         |     -- |  20000.0 |
 
 ## Roads
 

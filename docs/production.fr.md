@@ -4,15 +4,25 @@ alias: production-fr
 ---
 # Production
 
-Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MAKE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MAKE Eisen, MAKE Schwert` oder `MAKE 15 Elfenbogen`.
+Verschiedene Dinge können in Eressea produziert werden.
+Es gibt [Rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]).
+Um Dinge produzieren zu können, braucht man ein entsprechendes Talent.
 
-Je nach Gegenstand wird ein verschieden hoher Talentwert benötigt, damit man überhaupt in der Lage ist, diesen herzustellen. die meisten [Rohstoffe][1] erfordern nur Grundkenntnisse der entsprechenden Talente (Stufe 1), während die meisten [Gegenstände] höhere Talentstufen erfordern. Bei Gegenständen mit hohen Mindesttalentwerten kann man auch nur wenige davon herstellen. In jedem Fall kann man pro Einheit und Runde nur eine Art von Gegenständen oder Rohstoffen herstellen und auch nur an einem Gebäude oder Schiff arbeiten.
+Die meisten Dinge werden mit dem Befehl [`MAKE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MAKE Eisen, MAKE Schwert` oder `MAKE 15 Elfenbogen`.
 
-Bis auf Laen und Adamantium, zwei besonders wertvolle und seltene Metalle, sowie Mallorn, ein magisches Holz, können alle Rohstoffe ab einem Talentwert von 1 produziert werden, ebenso Pferde und Kräuter. Für die Gewinnung von Laen und Adamantium braucht man ein [Bergwerk] und ein Bergbautalent von 7 für Laen bzw. 8 für Adamantium, für Mallorn Holzfällen der Stufe 2.
+Je nach Gegenstand wird ein verschieden hoher Talentwert benötigt, damit man überhaupt in der Lage ist, diesen herzustellen.
+die meisten [Rohstoffe][1] erfordern nur Grundkenntnisse der entsprechenden Talente (Stufe 1), während die meisten [Gegenstände] höhere Talentstufen erfordern.
+Bei Gegenständen mit hohen Mindesttalentwerten kann man auch nur wenige davon herstellen.
+In jedem Fall kann man pro Einheit und Runde nur eine Art von Gegenständen oder Rohstoffen herstellen und auch nur an einem Gebäude oder Schiff arbeiten.
 
-Für Gegenstände ebenso wie für Gebäude und Schiffe werden die Talentstufen aller Personen der Einheit zusammengezählt und durch das Mindestbautalent geteilt. Pro so errechnetem Punkt kann ein Gebäude oder Schiff um einen Größenpunkt gebaut bzw. erweitert werden bzw. ein Gegenstand hergestellt werden.
+Bis auf Laen und Adamantium, zwei besonders wertvolle und seltene Metalle, sowie Mallorn, ein magisches Holz, können alle Rohstoffe ab einem Talentwert von 1 produziert werden, ebenso Pferde und Kräuter.
+Für die Gewinnung von Laen und Adamantium braucht man ein [Bergwerk] und ein Bergbautalent von 7 für Laen bzw. 8 für Adamantium, für Mallorn Holzfällen der Stufe 2.
 
-Ist ein Gebäude oder ein Schiff erst einmal angefangen, kann man mit beliebig vielen Einheiten daran weiterbauen. Es ist jedoch nicht möglich, mit einer Einheit mehrere Gebäude oder Schiffe gleichzeitig zu bauen, auch wenn Talentstufen und Rohstoffe reichen.
+Für Gegenstände ebenso wie für Gebäude und Schiffe werden die Talentstufen aller Personen der Einheit zusammengezählt und durch das Mindestbautalent geteilt.
+Pro so errechnetem Punkt kann ein Gebäude oder Schiff um einen Größenpunkt gebaut bzw. erweitert werden bzw. ein Gegenstand hergestellt werden.
+
+Ist ein Gebäude oder ein Schiff erst einmal angefangen, kann man mit beliebig vielen Einheiten daran weiterbauen.
+Es ist jedoch nicht möglich, mit einer Einheit mehrere Gebäude oder Schiffe gleichzeitig zu bauen, auch wenn Talentstufen und Rohstoffe reichen.
 
 **Beispiele:**
 
@@ -22,7 +32,8 @@ Ist ein Gebäude oder ein Schiff erst einmal angefangen, kann man mit beliebig v
 - Mit einer Schmiede könnten die Personen ihren Eisenverbauch bei Schwertern, Schilden o.ä. halbieren, also 10 Schilde aus 5 Eisen herstellen. Außerdem haben sie dort einen Talentbonus von +1 auf die Talente Waffenbau und Rüstungsbau.
 - **Wichtig:** die Talentstufen zählen nur dann zusammen, wenn die Personen in einer Einheit sind! Die Einheit muss den Mindesttalentwert aber in jedem Fall haben.
 
-Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. für Gebäude lästig sein. Um dies zu vereinfachen, gibt es einen [Materialpool], dessen Funktion im betreffenden Abschnitt erklärt ist.
+Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. für Gebäude lästig sein.
+Um dies zu vereinfachen, gibt es einen [Materialpool], dessen Funktion im betreffenden Abschnitt erklärt ist.
 
 ## Voir aussi
 

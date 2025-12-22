@@ -11,15 +11,15 @@ Es gibt viele verschiedene Monster-Rassen mit unterschiedlichen Eigenschaften un
 Am verbreitetsten sind die verschiedenen [Untoten-Typen] sowie [Drachen] und ihr Gefolge.
 Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter], findet man (fast) nur in bestimmten Gegenden.
 
-Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von [Vertrauten] nichts lernen, nicht lehren und keine Gegenstände bekommen.
+Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von  [[vertraute|Vertrauten]]  nichts lernen, nicht lehren und keine Gegenstände bekommen.
 
 ## Untote
 
 Untote stellen den größten Teil der Monster-Partei.
-Sie entstehen da, wo Bauern sterben (durch [Hungersnöte] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [Kampf] fallen.
-Untote können verschiedene [Talente] lernen und werden dadurch gefährlicher.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
+Untote können verschiedene [[talente]] lernen und werden dadurch gefährlicher.
 Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
-Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [bewaffnet]), können aber auch Waffen tragen.
+Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [[bewaffnet]]), können aber auch Waffen tragen.
 
 Es gibt sieben Arten von Untoten:
 
@@ -44,7 +44,7 @@ Es gibt verschiedene Arten von Drachen:
 - **Drachen** entwickeln sich zu:
 - **Wyrme**
 - Eine Klasse für sich ist (bzw. war) **[Igjarjuk] (igjr)**, der **Große Wyrm**, der nach seinem Tod als  
-  **Untoter Wyrm** in den Kampf zwischen [Pentagramm und Tirawon] eingriff (und dabei ein zweites Mal starb).  
+  **Untoter Wyrm** in den Kampf zwischen [[pentagramm-und-tirawon]] eingriff (und dabei ein zweites Mal starb).  
   Gerüchten zu Folge soll Igjarjuk zuletzt in der 13. Welt gesichtet worden sein -- vielleicht hat er ja auch sieben Leben?
 - Entfernte Verwandte der Drachen sind die **Seeschlangen**, die die Ozeane unsicher machen und vorbeifahrenden Schiffen auflauern. Boote sollen sie jedoch in Frieden ziehen lassen.
 - Der Vollständigkeit halber seinen noch die **Singdrachen** erwähnt. Diese Miniatur-Drachen haben aber nur wenig mit ihren großen Artgenossen gemein und können kaum zu den Monstern gezählt werden.
@@ -79,17 +79,11 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
 
-[Untoten-Typen]: #untote "Untote"
-[Drachen]: #drachen "Drachen"
-[Hirntöter]: ./#hirntoeter "Hirntöter"
-[Igjarjuk]: #igjarjuk "Igjarjuk"
+[Untoten-Typen]: #untote
+[Drachen]: #drachen
+[Hirntöter]: ./#hirntoeter
+[Igjarjuk]: #igjarjuk
 
-[Hungersnöte]: ./silver.md#hunger "Hunger"
-[Draig]: ./magic-schools.md#draig "Draig"
-
-[Vertrauten]: ./familiars.md "Vertrauten"
-[Kampf]: ./war.md "Krieg"
-[Talente]: ./skills.md "Talente"
-[bewaffnet]: ./armed.md "Bewaffnet"
-[Pentagramm und Tirawon]: ./pentagram-and-tirawon.md "Pentagramm und Tirawon"
-[Astralraum]: ./magic.md#der-astralraum "Magie"
+[Hungersnöte]: ./silver.md#hunger
+[Draig]: ./magic-schools.md#draig
+[Astralraum]: ./magic.md#der-astralraum

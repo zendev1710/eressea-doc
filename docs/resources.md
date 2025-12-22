@@ -4,7 +4,7 @@ alias: resources
 ---
 # Resources
 
-Raw materials can be obtained without other ingredients from the region without further ingredients. However, the deposits are limited and regenerate only slowly or not at all. The necessary skill can be looked up in the section about [goods].
+Raw materials can be obtained without other ingredients from the region without further ingredients. However, the deposits are limited and regenerate only slowly or not at all. The necessary skill can be looked up in the section about [[items|goods]].
 
 ## Extraction of Raw Materials
 
@@ -41,4 +41,4 @@ Continue reading: [[items|Goods]].
 
 [herbalism]: ./skills-list.md#herbalism
 [stable]: ./buildings-others.md#stable
-[herbs list]: ./herbs.md#kräuterliste
+[herbs list]: ./herbs.md#herbs-list #kräuterliste

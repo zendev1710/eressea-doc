@@ -3,6 +3,7 @@
 !talent
 !talents
 Antimagic
+Braineaters
 bubblemorel
 Busybeer
 chainmail
@@ -16,6 +17,7 @@ Dreamweaver
 Duncebun
 elven
 elvendear
+Ents
 Eressian
 Eressians
 flatroot
@@ -44,3 +46,4 @@ tradepost
 waterfinder
 woodless
 Wyrm
+Wyrms

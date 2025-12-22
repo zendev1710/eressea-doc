@@ -4,11 +4,11 @@ alias: herbs
 ---
 # Herbs
 
-**Herbs** are gathered with the order [MAKE HERBS]. Depending on the skill level in [Herbalism], you will gather more or less herbs in the region. Each region have only one typ of herb. Herbs grow back like trees; if you are not careful, you can pick all the herbs in a region and then have to plant some again using [GROW HERBS]. If in doubt, you have to try out which herb has ever grown here.
+**Herbs** are gathered with the order [[cmd-make|MAKE HERBS]]. Depending on the skill level in [herbalism], you will gather more or less herbs in the region. Each region have only one typ of herb. Herbs grow back like trees; if you are not careful, you can pick all the herbs in a region and then have to plant some again using [[cmd-grow|GROW HERBS]]. If in doubt, you have to try out which herb has ever grown here.
 
-Herbs are mainly used for [alchemy]. Some [spells] also need herbs as components.
+Herbs are mainly used for [[alchemy|alchemy]]. Some [[magic|spells]] also need herbs as components.
 
-With [RESEARCH HERBS] you can find out approximately how many herbs grow in the region; this requires herbalism level 7 or higher.
+With [[cmd-research|RESEARCH HERBS]] you can find out approximately how many herbs grow in the region; this requires herbalism level 7 or higher.
 
 very few = less than 10
 
@@ -36,13 +36,8 @@ List of herbs and their distribution incl. German names
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
 | Volcano      | \--                                                                                     | \--                                                                      |
 
-Continue reading: [Befehle](./commands.md).
+Continue reading: [[orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->
 
-[MAKE HERBS]: ./cmd-make.md
-[Herbalism]: ./skills-list.md#herbalism
-[GROW HERBS]: ./cmd-grow.md
-[alchemy]: ./alchemy.md
-[spells]: ./magic.md
-[RESEARCH HERBS]: ./cmd-research.md
+[herbalism]: ./skills-list.md#herbalism

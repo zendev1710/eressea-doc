@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/css/.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2906,7 +2906,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT
+    COMMENT (//)
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (;)
+    COMMENT (;)
   
 
     
@@ -6485,14 +6485,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Magical herb bag
+    Magical herb pouch
   
 
     
@@ -7287,490 +7287,492 @@
 
 
 <h1 id="racial-skill-modifiers">Racial skill modifiers<a class="headerlink" href="#racial-skill-modifiers" title="Permanent link">&para;</a></h1>
-<p>The different <a href="../races/">Races</a> have, in addition to their special abilities, different recruitment costs and modifiers on their <a href="../skills/">skills</a>. These are summarised in this table. In the report, these modifiers are already taken into account, which means that the effective level is always displayed.</p>
+<p>The different <a href="../races/">Races</a> have, in addition to their special abilities, different recruitment costs and modifiers on their <a href="../skills/">Skills</a>.
+These are summarised in this table.
+In the report, these modifiers are already taken into account, which means that the effective level is always displayed.</p>
 <table>
 <thead>
 <tr>
 <th>Skill</th>
-<th><a href="../races/#dwarves">dwarves</a></th>
-<th><a href="../races/#orcs">orcs</a></th>
-<th><a href="../races/#elves">elves</a></th>
-<th><a href="../races/#cats">cats</a></th>
-<th><a href="../races/#demons">demons</a></th>
-<th><a href="../races/#halflings">halflings</a></th>
-<th><a href="../races/#humans">humans</a></th>
-<th><a href="../races/#goblins">goblins</a></th>
-<th><a href="../races/#insects">insects</a></th>
-<th><a href="../races/#trolls">trolls</a></th>
-<th><a href="../races/#aquarians">aqua.</a></th>
+<th style="text-align: right;"><a href="../races/#dwarves">dwarves</a></th>
+<th style="text-align: right;"><a href="../races/#orcs">orcs</a></th>
+<th style="text-align: right;"><a href="../races/#elves">elves</a></th>
+<th style="text-align: right;"><a href="../races/#cats">cats</a></th>
+<th style="text-align: right;"><a href="../races/#demons">demons</a></th>
+<th style="text-align: right;"><a href="../races/#halflings">halflings</a></th>
+<th style="text-align: right;"><a href="../races/#humans">humans</a></th>
+<th style="text-align: right;"><a href="../races/#goblins">goblins</a></th>
+<th style="text-align: right;"><a href="../races/#insects">insects</a></th>
+<th style="text-align: right;"><a href="../races/#trolls">trolls</a></th>
+<th style="text-align: right;"><a href="../races/#aquarians">aqua.</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>recruitment</td>
-<td>110</td>
-<td>70</td>
-<td>130</td>
-<td>90</td>
-<td>150</td>
-<td>80</td>
-<td>75</td>
-<td>40</td>
-<td>80</td>
-<td>90</td>
-<td>80</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">80</td>
 </tr>
 <tr>
 <td>hit points</td>
-<td>24</td>
-<td>24</td>
-<td>18</td>
-<td>20</td>
-<td>50</td>
-<td>18</td>
-<td>20</td>
-<td>16</td>
-<td>24</td>
-<td>30</td>
-<td>20</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">20</td>
 </tr>
 <tr>
-<td>nat. armour</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>2</td>
-<td>1</td>
-<td>0</td>
+<td>nat. armor</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>regeneration</td>
-<td>5%</td>
-<td>5%</td>
-<td>5%</td>
-<td>5%</td>
-<td>7.5%</td>
-<td>5%</td>
-<td>5%</td>
-<td>10%</td>
-<td>5%</td>
-<td>7.5%</td>
-<td>5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">7.5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">10%</td>
+<td style="text-align: right;">5%</td>
+<td style="text-align: right;">7.5%</td>
+<td style="text-align: right;">5%</td>
 </tr>
 <tr>
 <td>resist Magic</td>
-<td>5</td>
-<td>-5</td>
-<td>10</td>
-<td>0</td>
-<td>15</td>
-<td>5</td>
-<td>0</td>
-<td>-5</td>
-<td>5</td>
-<td>10</td>
-<td>0</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">-5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>alchemy</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>-1</td>
-<td>+2</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>crossbow</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>endurance</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>mining</td>
-<td>+2</td>
-<td>+1</td>
-<td>-2</td>
-<td>-2</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>+1</td>
-<td>+1</td>
-<td>+2</td>
-<td>-2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-2</td>
 </tr>
 <tr>
 <td>bow</td>
-<td>-1</td>
-<td>0</td>
-<td>+2</td>
-<td>0</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-2</td>
-<td>-2</td>
-<td>0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>masonry</td>
-<td>+2</td>
-<td>+1</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>+1</td>
-<td>+2</td>
-<td>+2</td>
-<td>-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-1</td>
 </tr>
 <tr>
 <td>trade</td>
-<td>+1</td>
-<td>-3</td>
-<td>0</td>
-<td>0</td>
-<td>-3</td>
-<td>+2</td>
-<td>+1</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
 </tr>
 <tr>
 <td>melee</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-1</td>
-<td>+1</td>
-<td>0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>forestry</td>
-<td>-1</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>catapult</td>
-<td>+2</td>
-<td>0</td>
-<td>-2</td>
-<td>-1</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>+2</td>
-<td>0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>herbalism</td>
-<td>-2</td>
-<td>-2</td>
-<td>+2</td>
-<td>+1</td>
-<td>-3</td>
-<td>+2</td>
-<td>-1</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>magic</td>
-<td>-2</td>
-<td>-1</td>
-<td>+1</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>taming</td>
-<td>-2</td>
-<td>-1</td>
-<td>+1</td>
-<td>0</td>
-<td>-3</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-3</td>
-<td>-1</td>
-<td>0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>riding</td>
-<td>-2</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-3</td>
-<td>-2</td>
-<td>0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>armoursmithing</td>
-<td>+2</td>
-<td>+1</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+2</td>
-<td>+2</td>
-<td>-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-1</td>
 </tr>
 <tr>
 <td>shipcraft</td>
-<td>-1</td>
-<td>-1</td>
-<td>-1</td>
-<td>-1</td>
-<td>-1</td>
-<td>-1</td>
-<td>+1</td>
-<td>-2</td>
-<td>0</td>
-<td>-1</td>
-<td>+3</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+3</td>
 </tr>
 <tr>
 <td>sailing</td>
-<td>-2</td>
-<td>-1</td>
-<td>-1</td>
-<td>-2</td>
-<td>-1</td>
-<td>-2</td>
-<td>+1</td>
-<td>-2</td>
-<td>0</td>
-<td>-1</td>
-<td>+3</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+3</td>
 </tr>
 <tr>
 <td>espionage</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>+2</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>-3</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>polearm</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>quarrying</td>
-<td>+2</td>
-<td>+1</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+2</td>
-<td>0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>taxation</td>
-<td>+1</td>
-<td>+1</td>
-<td>0</td>
-<td>+1</td>
-<td>+1</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>roadwork</td>
-<td>+2</td>
-<td>0</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>-2</td>
-<td>-1</td>
-<td>+2</td>
-<td>-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-1</td>
 </tr>
 <tr>
 <td>tactics</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-2</td>
-<td>-1</td>
-<td>-1</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>stealth</td>
-<td>-1</td>
-<td>0</td>
-<td>+1</td>
-<td>+1</td>
-<td>+1</td>
-<td>+1</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>-3</td>
-<td>0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>entertainment</td>
-<td>-1</td>
-<td>-2</td>
-<td>0</td>
-<td>0</td>
-<td>-3</td>
-<td>+1</td>
-<td>0</td>
-<td>-1</td>
-<td>-2</td>
-<td>-1</td>
-<td>0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>weaponsmithing</td>
-<td>+2</td>
-<td>+2</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>cartmaking</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>-2</td>
-<td>+2</td>
-<td>0</td>
-<td>-1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>perception</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>+2</td>
-<td>+1</td>
-<td>+1</td>
-<td>0</td>
-<td>0</td>
-<td>+1</td>
-<td>-1</td>
-<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">0</td>
 </tr>
 </tbody>
 </table>
-<p>Continue reading: <a href="../skills/">Talente</a>.</p>
+<p>Continue reading: <a href="../skills/">Skills</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/en&oldid=14951] -->
 
 
@@ -7792,6 +7794,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7834,7 +7838,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>

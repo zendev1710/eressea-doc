@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6485,7 +6485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7299,13 +7299,13 @@
 <strong><code>MAKE</code></strong><code>[</code><em><code>quantité</code></em><code>]</code><em><code>objet</code></em>  </p>
 <p>La commande <code>MAKE</code> est la commande de production générale. Pour en savoir plus, voir le chapitre <a href="../production/">production</a>.</p>
 <h2 id="objets">Objets<a class="headerlink" href="#objets" title="Permanent link">&para;</a></h2>
-<p><a href="../items/">Gegenstände</a> und <a href="../resources/">Rohstoffe</a> werden mit <code>MAKE [</code><em><code>anzahl</code></em><code>]</code><em><code>gegenstand</code></em><code></code> hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von <em>anzahl</em> wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.</p>
+<p><a href="../items/">Gegenstände</a> und <a href="../resources/">Rohstoffe</a> werden mit <code>MAKE [</code><em><code>number</code></em><code>]</code><em><code>gegenstand</code></em><code></code> hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von <em>anzahl</em> wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.</p>
 <h3 id="tranke">Tränke<a class="headerlink" href="#tranke" title="Permanent link">&para;</a></h3>
 <p>Das Herstellen eines Trankes ist sehr aufwendig und kann nur von besonders talentierten Alchemisten durchgeführt werden. Details dazu findest du im <a href="../skills-list/">Alchemie-Kapitel</a>.</p>
 <h3 id="krauter">Kräuter<a class="headerlink" href="#krauter" title="Permanent link">&para;</a></h3>
 <p>Kräuter werden mit dem Befehl <code>MAKE HERBS</code> von Einheiten mit dem Talent <a href="../herbs/">Kräuterkunde</a> hergestellt. Details dazu im Kapitel über <a href="../herbs/">Kräuter</a>.</p>
 <h2 id="einheiten">Einheiten<a class="headerlink" href="#einheiten" title="Permanent link">&para;</a></h2>
-<p>Wenn du eine neue Einheit erschaffst (<code>MAKE TEMP xy</code>), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel <code>GIVE TEMP xy 100 Silber</code>). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID <em>TEMP xy</em> haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.</p>
+<p>Wenn du eine neue Einheit erschaffst (<code>MAKE TEMP xy</code>), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel <code>GIVE TEMP xy 100 Silver</code>). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID <em>TEMP xy</em> haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.</p>
 <p>Die Alias-Nummer wird als Nummer der Einheit benutzt, wenn diese noch nicht belegt ist. Ebenso kannst du schon hier einen Namen der Einheit angeben. So lassen sich die Befehle</p>
 <p>MAKE TEMP 1</p>
 <div class="highlight"><pre><span></span><code>    NAME UNIT &quot;Clowns&quot;
@@ -7321,9 +7321,9 @@
     NAME UNIT &quot;Drachenreiter&quot;
     LEARN Hiebwaffen
  END
- GIVE TEMP 1 5 PERSONS
+ GIVE TEMP 1 5 MEN
   
- GIVE TEMP 2 100 Silber
+ GIVE TEMP 2 100 Silver
  MAKE TEMP 2
     RECRUIT 1
     NAME UNIT &quot;Späher&quot;
@@ -7332,7 +7332,7 @@
  END
 </code></pre></div>
 <h2 id="gebaude">Gebäude<a class="headerlink" href="#gebaude" title="Permanent link">&para;</a></h2>
-<p>Um ein neues Gebäude zu errichten, verwendest du <em><code>MAKE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em> (siehe <a href="../buildings/">Gebäude</a>). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür <em><code>MAKE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em><code></code><em><code>building-id</code></em>. Der <em>Gebäudetyp</em> kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silber in verschiedenen Mengen.</p>
+<p>Um ein neues Gebäude zu errichten, verwendest du <em><code>MAKE</code></em><code>[</code><em><code>level</code></em><code>]</code><em><code>Gebäudetyp</code></em> (siehe <a href="../buildings/">Gebäude</a>). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür <em><code>MAKE</code></em><code>[</code><em><code>level</code></em><code>]</code><em><code>Gebäudetyp</code></em><code></code><em><code>building-id</code></em>. Der <em>Gebäudetyp</em> kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silver in verschiedenen Mengen.</p>
 <h2 id="schiffe">Schiffe<a class="headerlink" href="#schiffe" title="Permanent link">&para;</a></h2>
 <p>Mit <code>MAKE</code><em><code>schiffstyp</code></em> beginnt eine Einheit, ein neues <a href="../ships/">Schiff</a> zu bauen. Dazu muss sie das Talent Schiffbau und Holz haben. Mit <code>MAKE [</code><em><code>stufe</code></em><code>] SHIP</code><em><code>ship-id</code></em> kann sie daran weiterbauen. Schiffe können nicht wie Burgen erweitert werden, sondern der Typ wird bei Baubeginn festgelegt. An Schiffen kann nur bis zu der durch den Typ festgelegten Größe weiter gebaut werden.</p>
 <p>Sowohl bei Gebäuden als auch bei Schiffen kannst du mit <em>stufen</em> angeben, wie viele Stufen du das Gebäude bzw. Schiff bauen / erweitern willst.</p>
@@ -7343,7 +7343,7 @@
   An Schiff Nr. 76 wird nun weiter gebaut.</li>
 </ul>
 <h2 id="straen">Straßen<a class="headerlink" href="#straen" title="Permanent link">&para;</a></h2>
-<p>Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du <code>MAKE STRASSE</code><em><code>richtung</code></em>. Um <a href="../roads/">Straßen</a> zu bauen, braucht die Einheit das Talent <a href="../skills-list/#roadwork">Straßenbau</a> und <a href="../items/">Steine</a>. In Gletschern benötigt sie dazu vorher einen <a href="../buildings-others/#tunnel">Tunnel</a>, in Wüsten eine <a href="../buildings-others/#caravanserail">Karawanserei</a> und in Sümpfen einen <a href="../buildings-others/#barrage">Damm</a>. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den <a href="../terrains/">Geländearten</a>. Straßen funktionieren nur wenn sie vollständig sind.</p>
+<p>Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du <code>MAKE STREET</code><em><code>direction</code></em>. Um <a href="../roads/">Straßen</a> zu bauen, braucht die Einheit das Talent <a href="../skills-list/#roadwork">Straßenbau</a> und <a href="../items/">Steine</a>. In Gletschern benötigt sie dazu vorher einen <a href="../buildings-others/#tunnel">Tunnel</a>, in Wüsten eine <a href="../buildings-others/#caravanserail">Karawanserei</a> und in Sümpfen einen <a href="../buildings-others/#barrage">Damm</a>. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den <a href="../terrains/">Geländearten</a>. Straßen funktionieren nur wenn sie vollständig sind.</p>
 <p>Expérience de jeu : Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MAKE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.</p>
 <p><code>MAKE gebäudetyp</code> bzw. <code>MAKE SHIP</code> ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet. <strong>Achtung:</strong> Falls sich die Einheit in einem Gebäude befindet, fängt MAKE Leuchtturm <em>kein neues</em> Gebäude an, sondern baut an dem alten weiter.</p>
 <h2 id="beispiele">Beispiele<a class="headerlink" href="#beispiele" title="Permanent link">&para;</a></h2>
@@ -7360,7 +7360,7 @@
  MAKE 5 Trireme ; fängt eine neue Trireme an
  MAKE SHIP abc ; baut an Schiff abc weiter
 
- MAKE STRASSE SO ; baut an der Straße nach Südosten weiter
+ MAKE STREET SO ; baut an der Straße nach Südosten weiter
 
  MAKE Trireme abc ; falsch: fängt neue Trireme an
  MAKE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
@@ -7388,6 +7388,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7430,7 +7432,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

@@ -1,0 +1,94 @@
+/* ---------------------------------------------------------
+   PALETTE FANTASY — MODE CLAIR
+--------------------------------------------------------- */
+[data-md-color-scheme="fantasy-light"] {
+  --fantasy-gold: #c9a86a;
+  --fantasy-blue: #2e4a62;
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #222222;
+  --md-primary-fg-color: var(--fantasy-blue);
+  --md-accent-fg-color: var(--fantasy-gold);
+}
+
+/* ---------------------------------------------------------
+   PALETTE FANTASY — MODE SOMBRE
+--------------------------------------------------------- */
+[data-md-color-scheme="fantasy-dark"] {
+  --fantasy-gold: #d8c28a;
+  --fantasy-blue: #1c2d3a;
+  --md-default-bg-color: #111418;
+  --md-default-fg-color: #e0e0e0;
+  --md-primary-fg-color: var(--fantasy-gold);
+  --md-accent-fg-color: var(--fantasy-gold);
+}
+
+/* ---------------------------------------------------------
+   TITRES AVEC TOUCHE FANTASY
+--------------------------------------------------------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.5px;
+  color: var(--md-primary-fg-color);
+}
+
+/* ---------------------------------------------------------
+   SÉPARATEUR FANTASY DISCRET
+--------------------------------------------------------- */
+hr.fancy-sep {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--fantasy-gold), transparent);
+  margin: 2em 0;
+}
+
+/* ---------------------------------------------------------
+   ENCARTS (admonitions) PLUS ÉLÉGANTS
+--------------------------------------------------------- */
+.md-typeset .admonition {
+  border-left: 4px solid var(--fantasy-gold);
+}
+
+/* ---------------------------------------------------------
+   LIENS DORÉS
+--------------------------------------------------------- */
+.md-typeset a {
+  color: var(--fantasy-gold);
+}
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* ---------------------------------------------------------
+   ICÔNES (pour plus tard)
+   --------------------------------------------------------- */
+
+.md-typeset img {
+  max-width: none !important;
+  height: auto;
+}
+
+.icon {
+  width: 32px !important;
+  height: 32px !important;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.4em;
+  fill: currentColor;
+}
+
+.icon-title img {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+
+/*
+   .icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 0.4em;
+  fill: currentColor;
+}*/

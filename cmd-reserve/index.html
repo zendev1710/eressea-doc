@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/css/.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT
+    COMMENT (//)
   
 
     
@@ -4180,7 +4180,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (;)
+    COMMENT (;)
   
 
     
@@ -6555,14 +6555,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Magical herb bag
+    Magical herb pouch
   
 
     
@@ -7398,18 +7398,18 @@
 
 
 <h1 id="reserve">RESERVE<a class="headerlink" href="#reserve" title="Permanent link">&para;</a></h1>
-<p><strong><code>RESERVE</code></strong><code></code><em><code>anzahl</code></em><code></code><em><code>gegenstand</code></em><br />
+<p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>gegenstand</code></em><br />
 <strong><code>RESERVE</code></strong><code>ALLES</code><em><code>gegenstand</code></em><br />
-<strong><code>RESERVE</code></strong><code>JE</code><em><code>anzahl</code></em><code></code><em><code>gegenstand</code></em></p>
-<p>Hiermit kann sich eine Einheit Gegenstände oder Silber von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber <a href="../items-pool/">Materialpool</a>!).</p>
+<strong><code>RESERVE</code></strong><code>JE</code><em><code>number</code></em><code></code><em><code>gegenstand</code></em></p>
+<p>Hiermit kann sich eine Einheit Gegenstände oder Silver von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber <a href="../items-pool/">Materialpool</a>!).</p>
 <p>Mit <code>RESERVE ALLES</code><em><code>gegenstand</code></em> reserviert eine Einheit von dem angegebenen Gegenstand alles, was sie besitzt.</p>
-<p>Mit <code>RESERVE JE</code> werden <em><code>anzahl</code></em> Gegenstände <em>pro Person</em> reserviert.</p>
-<div class="highlight"><pre><span></span><code>RESERVE JE 100 Silber
+<p>Mit <code>RESERVE JE</code> werden <em><code>number</code></em> Gegenstände <em>pro Person</em> reserviert.</p>
+<div class="highlight"><pre><span></span><code>RESERVE JE 100 Silver
 </code></pre></div>
-<p>reserviert bei einer Einheit mit 10 Personen also 1000 Silber.</p>
+<p>reserviert bei einer Einheit mit 10 Personen also 1000 Silver.</p>
 <h2 id="fehlerquellen">Fehlerquellen<a class="headerlink" href="#fehlerquellen" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>TEMP</code>-Einheiten können nicht reservieren! Silber wie Gegenstände müssen ihnen mit <a href="../cmd-give/">GIVE</a> übergeben werden.</li>
+<li><code>TEMP</code>-Einheiten können nicht reservieren! Silver wie Gegenstände müssen ihnen mit <a href="../cmd-give/">GIVE</a> übergeben werden.</li>
 <li><code>RESERVE</code> kommt vor <a href="../cmd-give/">GIVE</a>[<code>GIVE</code>] und <a href="../cmd-recruit/">RECRUIT</a> in der <a href="../commands-sequence/">Befehlsreihenfolge</a>. Also bezieht sich <code>JE</code> auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.</li>
 <li>Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe <a href="../items-pool/">Materialpool</a>.</li>
 <li>Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.</li>
@@ -7422,11 +7422,11 @@
 </code></pre></div>
 <p>kann eine Einheit, auch nach einem verlustreichen Kampf, pro Person eine Waffe und einen Schild behalten und alles andere (Beute) an eine Depot-Einheit abgeben.</p>
 <p>Mit</p>
-<div class="highlight"><pre><span></span><code> @RESERVE 100 Silber
+<div class="highlight"><pre><span></span><code> @RESERVE 100 Silver
  RESERVE 1 Schwert
- RESERVE 50 Silber
+ RESERVE 50 Silver
 </code></pre></div>
-<p>wird die Einheit ein Schwert und 50 Silber reservieren.</p>
+<p>wird die Einheit ein Schwert und 50 Silver reservieren.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../items-pool/">Materialpool</a></li>
@@ -7453,6 +7453,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7495,7 +7497,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>

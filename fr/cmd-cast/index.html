@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2906,7 +2906,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6485,7 +6485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7287,12 +7287,18 @@
 
 
 <h1 id="cast">CAST<a class="headerlink" href="#cast" title="Permanent link">&para;</a></h1>
-<p><strong><code>CAST</code></strong>[<sup><code>(l)</code></sup>]<code>[REGION</code><em><code>x</code></em><code></code><em><code>y</code></em><code>] [LEVEL</code><em><code>nr</code></em><code>] "</code><em><code>Zauberspruch</code></em><code>" [</code><em><code>parameter</code></em><code>] ...</code></p>
-<p>Mit diesem Befehl wird eine Magiereinheit versuchen, den genannten Zauberspruch zu zaubern.</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] CAST ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus. Man kann aber weitere Zauber sprechen.</p>
-<p>Achtung die Modifikatoren REGION und LEVEL sind nicht für jeden Zauber zutreffend. REGION kann nur bei <a href="../magic/#fernzauber">Fernzaubern</a> verwendet werden und LEVEL macht nur bei Zaubersprüchen mit variablen <a href="../magic/#komponenten">Kosten</a> Sinn. Manche Zauber haben noch weitere Parameter.</p>
-<p>Die Anwendung der Zauber ist zum einen im Kapitel <a href="../magic/">Magie</a> genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden. Diese erhält man, wenn man den Zauber neu erhält und kann ihn sich mit [<code>SHOW ALLE ZAUBER</code>] nochmal anzeigen lassen.</p>
-<p>Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine Einheit verwenden, muß man den <a href="../cmd-combatspell/">COMBATSPELL</a> setzen und dann eine Einheit <a href="../cmd-attack/">attackieren</a> oder attackiert werden. Dies kann allerdings zu größeren Schlachten führen!</p>
+<p><strong><code>CAST</code></strong>[<sup><code>(l)</code></sup>]<code>[REGION</code><em><code>x</code></em><code></code><em><code>y</code></em><code>] [LEVEL</code><em><code>nr</code></em><code>] "</code><em><code>Spell</code></em><code>" [</code><em><code>parameter</code></em><code>] ...</code></p>
+<p>With this order, a mage unit will attempt to cast the named spell.</p>
+<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] Although CAST is not a long order, it excludes other long orders. But you can cast other spells.</p>
+<p>Please note that the REGION and LEVEL modifiers do not apply to every spell.
+REGION can only be used with <a href="../magic/#magie-à-distance">ranged spells</a>, and LEVEL only makes sense with variable <a href="../magic/#composants">cost</a> spells.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Some spells have additional parameters.</p>
+</div>
+<p>The use of the spells is explained in more detail in the <a href="../magic/">Magic</a> chapter, and can also be found in the spell description itself.
+You get this when you get the spell again and can use it with <a href="../cmd-show/"><code>SHOW ALL SPELLS</code></a> display again.</p>
+<p>Combat spells cannot simply be cast. If you want to use this against a unit, you have to set the <a href="../cmd-combatspell/">COMBATSPELL</a> and then <a href="../cmd-attack/">attack</a> a unit or be attacked. However, this can lead to bigger battles!</p>
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
 
@@ -7314,6 +7320,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7356,7 +7364,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

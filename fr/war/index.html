@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -3120,7 +3120,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4324,7 +4324,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6699,7 +6699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7694,7 +7694,7 @@
 <p>Il y a donc différentes raisons pour lesquelles une unité participe au combat. Celles-ci sont classées par ordre de priorité :</p>
 <ol>
 <li>L'unité prête à combattre attaque une autre unité. Dans ce cas, elle participe au combat dans tous les cas.</li>
-<li>L'unité est attaquée par une autre unité. Elle rejoint alors les <a href="#lignes-de-combat" title="Lignes de combat">Lignes de combat</a> en fonction de son statut de combat.</li>
+<li>L'unité est attaquée par une autre unité. Elle rejoint alors les <a href="#lignes-de-combat">Lignes de combat</a> en fonction de son statut de combat.</li>
 <li>Une unité dont la faction est attaquée. L'unité participe alors au combat si elle n'a pas mis <code>COMBAT NOT</code> ou <code>COMBAT FLEE</code>. Dans ce dernier cas, elle n'a pas l'idée de <a href="#la-fuite">fuir</a> puisqu'elle n'est pas directement menacée.</li>
 <li>Une unité d'une faction alliée (donc une faction à laquelle on a mis <code>HELP COMBAT</code>) est attaquée par quelqu'un. L'unité participe alors au combat, à moins qu'elle n'ait mis <code>COMBAT NOT</code> ou <code>COMBAT FLEE</code>. Encore une fois, une unité avec <code>COMBAT FLEE</code> ne s'enfuira pas <a href="#la-fuite">fuir</a>, car elle n'est pas exposée à une menace directe.</li>
 </ol>
@@ -7756,19 +7756,19 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <li>Soustraire les valeurs les unes des autres : Pour chaque point de différence entre l'attaque de l'attaquant et la parade du défenseur, le BT est maintenant augmenté ou diminué de 5%. La probabilité réelle de toucher se calcule donc comme suit : (Attaque(attaquant)-Parade(défenseur)) * 5% + 30%.</li>
 <li>Chance du débutant : si l'attaque échoue, l'attaquant a en plus 10% de chances de transformer son attaque : Il peut frapper une deuxième fois, avec une chance de toucher augmentée de 90 à 99% (hasard). Les combattants fortement désavantagés ont ainsi la possibilité d'obtenir au moins quelques coups aléatoires.</li>
 </ul>
-<p>Chaque personne attaque une fois par tour de combat (sauf les <a href="../#heros" title="Héros">Héros</a> et certains monstres).</p>
-<p>Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts. Les différentes armes infligent des dégâts différents (points de dégâts, voir <a href="../war-tables/#waffeneigenschaften">Caractéristiques des armes</a>). Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence. Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas. Cela vaut aussi bien pour le combat à distance que pour le combat rapproché. En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.</p>
-<p>Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir <a href="../war-tables/#caractéristiques-raciales">Modificateurs de compétences</a> les différents coups portés pendant le combat s'additionnent).</p>
-<p>Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts. Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir <a href="../war-tables/#rüstung">ce</a> tableau). Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).</p>
-<p>Certaines créatures ou armes peuvent également infliger des dégâts magiques. Une armure normale est inefficace contre les dégâts magiques. Seule compte la <a href="../war-tables/#magieresistenz">Résistance à la magie</a>, qui peut être augmentée par certains équipements et sorts.</p>
-<p>Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir <a href="../war-tables/#ausdauer">ce tableau</a>).</p>
+<p>Chaque personne attaque une fois par tour de combat (sauf les <a href="../#heros">Héros</a> et certains monstres).</p>
+<p>Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts. Les différentes armes infligent des dégâts différents (points de dégâts, voir <a href="../war-tables/#armes-et-leurs-proprietes">Caractéristiques des armes</a>). Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence. Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas. Cela vaut aussi bien pour le combat à distance que pour le combat rapproché. En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.</p>
+<p>Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir <a href="../war-tables/#races-et-leurs-caracteristiques">Modificateurs de compétences</a> les différents coups portés pendant le combat s'additionnent).</p>
+<p>Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts. Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir <a href="../war-tables/#armure">ce</a> tableau). Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).</p>
+<p>Certaines créatures ou armes peuvent également infliger des dégâts magiques. Une armure normale est inefficace contre les dégâts magiques. Seule compte la <a href="../war-tables/#resistance-a-la-magie">Résistance à la magie</a>, qui peut être augmentée par certains équipements et sorts.</p>
+<p>Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir <a href="../war-tables/#endurance">ce tableau</a>).</p>
 <h3 id="combat-a-distance">Combat à distance<a class="headerlink" href="#combat-a-distance" title="Permanent link">&para;</a></h3>
 <p>Les armes à distance et les catapultes peuvent être utilisées efficacement en deuxième ligne. Là, elles seront protégées des combattants au corps à corps de l'adversaire par votre première ligne.</p>
 <p>Les combattants à distance peuvent également tirer dans la deuxième ligne adverse. Ils choisissent une cible au hasard parmi tous les ennemis en première ou deuxième ligne.</p>
 <p>Les arbalètes peuvent également transpercer les armures : Contre un tir d'arbalète, l'armure ne fait effet que pour moitié (arrondi inférieur).</p>
 <p>Le tableau ci-dessous montre les différences entre les armes à distance. Il est très difficile d'utiliser un arc (Offensive Bonus -2), mais on peut tirer tous les rounds de combat. Les arbalètes sont beaucoup plus faciles à utiliser (OB 0), mais ne peuvent tirer qu'un round de combat sur trois. Les catapultes tirent toujours au premier tour (cela peut être le tour tactique ou le tour 1) et causent de lourds dégâts.</p>
 <p>Contre les armes à distance, les personnes attaquées ne se défendent qu'avec la moitié de leur niveau de compétence. Cependant les unités en première ligne se défendent avec leur niveau de compétence si le combattant à distance se trouve également en première ligne.</p>
-<p><em>Attention !'</em> Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été <a href="#lignes-de-combat" title="Lignes de combat">débordé</a>), il doit se défendre avec une arme de mêlée. S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend <a href="#boni-et-mali">à mains nues</a> !</p>
+<p><em>Attention !'</em> Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été <a href="#lignes-de-combat">débordé</a>), il doit se défendre avec une arme de mêlée. S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend <a href="#boni-et-mali">à mains nues</a> !</p>
 <p>Les catapultes nécessitent des munitions. Celles-ci peuvent être fabriquées à partir de pierres (Stone) avec l'ordre <a href="../cmd-make/">MAKE ammunition</a> par maçon avec la compétence quarrying niveau 3. Elles pèsent 10 kg. Une unité de munitions correspond à une salve (6 cibles).</p>
 <p>Ranged weapons - bonuses and time</p>
 <table>
@@ -7820,7 +7820,7 @@ Les porteurs de lances et de spears montés reçoivent un bonus additionnel de +
 <p>Bonus de piquiers<br />
 Les porteurs de spears et de hallebardes qui n'utilisent pas de cheval reçoivent un bonus de +1 à la parade contre les troupes montées.</p>
 <p>Modificateurs d'armes<br />
-Les <a href="../war-tables/#waffeneigenschaften">Modificateurs d'armes</a> sont également considérés comme des bonus et des malus.</p>
+Les <a href="../war-tables/#armes-et-leurs-proprietes">Modificateurs d'armes</a> sont également considérés comme des bonus et des malus.</p>
 <p>Une unité de hallebardiers a donc (en plus de tout autre bonus ou malus éventuel) un bonus de +2 à sa parade. Si elle n'est pas montée et qu'elle se bat contre un cavalier, sa valeur de parade est alors augmentée de +1.</p>
 <p><strong>Exemples:</strong></p>
 <ul>
@@ -7919,7 +7919,9 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <p>Les unités blessées au combat restent blessées. Ceci est indiqué dans le rapport. Avec le temps, elles guérissent. Elles régénèrent généralement 5 % (certaines <a href="../skills-modifiers/">races</a> davantage) de leurs points de vie maximum par tour, mais au moins un point par individu. Les unités mortes-vivantes ne se régénèrent pas.</p>
 <p>Si la région où les combats ont eu lieu était <a href="../alliances/">gardée</a> <em>au début du combat</em> par une unité amie ou une unité ayant activé l'ordre [<code>HELP GUARD</code>][<code>HELP COMBAT</code>] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs. Ceci est valable même si des troupes ennemies gardent également la région. Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre <code>ATTACK</code>).</p>
 <p>Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.</p>
-<p>Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [<code>COMBAT FLEE</code>][<code>COMBAT</code>] und Einheiten auf See. Einheiten mit dem Status <code>COMBAT FLEE</code> können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: <a href="../cmd-move/">MOVE</a><code>,</code>[<code>ROUTE</code>]<code>oder</code>[<code>FOLLOW</code>][<code>FOLLOW SHIP</code>]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.</p>
+<p>Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [<code>COMBAT FLEE</code>][<code>COMBAT</code>] und Einheiten auf See.
+Einheiten mit dem Status <code>COMBAT FLEE</code> können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a> oder <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>.
+Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../tactic/">Taktik</a></li>
@@ -7947,6 +7949,8 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7989,7 +7993,7 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

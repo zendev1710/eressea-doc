@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2926,10 +2926,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#combat-defensive" class="md-nav__link">
+  <a href="#combat-defensiv" class="md-nav__link">
     <span class="md-ellipsis">
       
-        COMBAT DEFENSIVE
+        COMBAT DEFENSIV
       
     </span>
   </a>
@@ -3020,7 +3020,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4224,7 +4224,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6599,7 +6599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7374,10 +7374,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#combat-defensive" class="md-nav__link">
+  <a href="#combat-defensiv" class="md-nav__link">
     <span class="md-ellipsis">
       
-        COMBAT DEFENSIVE
+        COMBAT DEFENSIV
       
     </span>
   </a>
@@ -7492,57 +7492,56 @@
 <strong><code>COMBAT</code></strong><code>DEFENSIVE</code><br />
 <strong><code>COMBAT</code></strong><code>NOT</code><br />
 <strong><code>COMBAT</code></strong><code>FLEE</code><br />
-<strong><code>COMBAT</code></strong><code>HELP [NOT]</code></p>
-<p>Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel <a href="../war/">Vom Kriege</a> auch den Abschnitt <a href="../war/#schlacht">Kampfreihen</a>).</p>
+<strong><code>COMBAT</code></strong><code>HELP [NOT]</code>  </p>
+<p>This order determines the reaction of a unit in the event of a battle (see also the section <a href="../war/#lignes-de-combat">Battle lines</a> in the chapter <a href="../war/">War</a>).</p>
 <h2 id="combat-aggressive"><code>COMBAT AGGRESSIVE</code><a class="headerlink" href="#combat-aggressive" title="Permanent link">&para;</a></h2>
-<p>Im Kampf steht die Einheit an der Front und wird nie fliehen, sondern bis zum Tode kämpfen.
-Dies verwendet man mit Vorteil, wenn es wirklich auf das letzte bisschen Offensivkraft ankommt.</p>
+<p>In combat, the unit is at the front and will never flee, but will fight to the death.
+This is used to advantage when the last bit of offensive power really counts.</p>
 <h2 id="combat-front"><code>COMBAT FRONT</code><a class="headerlink" href="#combat-front" title="Permanent link">&para;</a></h2>
-<p>Im Kampf steht die Einheit an der Front.
-Sie wird versuchen zu fliehen, wenn sie weniger oder gleich 20% ihrer Trefferpunkte hat.
-Dies verwendet man mit Vorteil für gute Schwertkämpfer.
-Kann auch mit <code>COMBAT</code> gesetzt werden.</p>
+<p>In battle, the unit is at the front.
+It will attempt to flee when it has less than or equal to 20% of its hit points.
+This is used with advantage for good swordsmen.
+Can also come with <code>COMBAT</code> be set.</p>
 <h2 id="combat-rear"><code>COMBAT REAR</code><a class="headerlink" href="#combat-rear" title="Permanent link">&para;</a></h2>
-<p>Die Einheit kämpft in der zweiten Reihe.
-Ist die Front aufgerieben, werden diese Einheiten trotzdem in den Nahkampf hineingezogen! Dies verwendet man mit Vorteil für Schützen.
-Die Einheit versucht zu fliehen, wenn sie weniger oder gleich 20% ihrer Trefferpunkte hat.</p>
-<h2 id="combat-defensive"><code>COMBAT DEFENSIVE</code><a class="headerlink" href="#combat-defensive" title="Permanent link">&para;</a></h2>
-<p>Wie <code>COMBAT REAR</code>, aber die Einheit wird schon fliehen, wenn sie noch 90% ihrer Trefferpunkte hat.
-Dies verwendet man mit Vorteil für Magier.</p>
+<p>The unit fights in the second row.
+If the front is wiped out, these units will still be drawn into the melee! This is used with advantage for shooters.
+The unit attempts to flee when it has less than or equal to 20% of its hit points.</p>
+<h2 id="combat-defensiv"><code>COMBAT DEFENSIV</code><a class="headerlink" href="#combat-defensiv" title="Permanent link">&para;</a></h2>
+<p>Like <code>COMBAT REAR</code>, but the unit will flee if it still has 90% of its hit points.
+This is used with advantage for magicians.</p>
 <h2 id="combat-not"><code>COMBAT NOT</code><a class="headerlink" href="#combat-not" title="Permanent link">&para;</a></h2>
-<p>Die Einheit kämpft nur noch dann mit, wenn sie selber das Ziel eines feindlichen <a href="../cmd-attack/">ATTACK</a>-Befehls ist.
-Dies setzt man mit Vorteil für Einheiten ein, die sich aus dem Kampf heraushalten, aber nicht fliehen sollen, weil sie z.B.
-ein Gebäude besetzt halten sollen.
-Die Einheit versucht zu fliehen, wenn sie noch 90% ihrer Trefferpunkte hat.</p>
+<p>The unit only takes part in the fight if it is the target of an enemy <a href="../cmd-attack/">ATTACK</a> command.
+This is used to advantage for units that stay out of combat but are not supposed to flee, e.g.
+to occupy a building.
+The unit attempts to flee when it still has 90% of its hit points.</p>
 <h2 id="combat-flee"><code>COMBAT FLEE</code><a class="headerlink" href="#combat-flee" title="Permanent link">&para;</a></h2>
-<p>Wird eine fluchtbereite Einheit in einen Kampf verwickelt, versucht sie vor jeder Kampfrunde zu fliehen.
-Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt <a href="../war/#die-flucht">Flucht</a> im Kapitel Kampf.
-Diesen Kampfstatus setzt man mit Vorteil für fast alle "Zivilisten" ein.
-Flieht aus einer Einheit auch nur eine Person erfolgreich aus einem Kampf, verlässt diese automatisch Gebäude oder an Land liegende Schiffe, in denen sie sich befindet.
-Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.
-Einheiten mit diesem Kampfstatus können auch nicht <a href="../cmd-attack/">ATTACK</a>[<code>ATTACK</code>]N oder <a href="../cmd-guard/">GUARD</a>.
-Setzt eine bewachende Einheit COMBAT FLEE, wird das Bewachen sofort aufgehoben, mit entsprechenden Konsequenzen.
-Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a>, <a href="../cmd-follow/">FOLLOW</a>).</p>
+<p>If a unit that is ready to <a href="../war/#la-fuite">flee</a> is involved in combat, it will attempt to flee before each round of combat.
+For more information about "escape behavior", see the [Escape] section in the Combat chapter.
+This combat status is used to advantage for almost all "civilians".
+If even one person in a unit successfully escapes from a fight, they automatically leave buildings or land-based ships in which they are located.
+It is therefore important to consider whether this status makes sense for building occupants.
+Units with this combat status also cannot <a href="../cmd-attack/">ATTACK</a> or <a href="../cmd-guard/">GUARD</a>.
+If a guarding unit places COMBAT FLEE, the guarding is immediately canceled, with corresponding consequences.
+Units with the combat status can still move after combat (with <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a>, <a href="../cmd-follow/">FOLLOW</a>).</p>
 <div class="admonition warning">
-<p class="admonition-title">Attention</p>
-<p>Einheiten mit COMBAT FLEE oder COMBAT NOT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.
-Das heißt, Magier zaubern auch.
-Prä- und Postkampfzauber werden (derzeit) selbst dann gezaubert, wenn die ersten Reihen nicht überrannt werden.
-Soll dies verhindert werden, kann man die <a href="../cmd-combatspell/">Kampfzauber</a> deaktivieren.</p>
+<p class="admonition-title">Caution</p>
+<p>Units with COMBAT FLEE or COMBAT NOT will fight if they are attacked and the first two rows are overrun.
+That means magicians also do magic.
+Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.
+If you want to prevent this, you can deactivate the <a href="../cmd-combatspell/">combat spells</a>.</p>
 </div>
-<p>Katapulte zu bedienen ist eine Aufgabe, die viel Vorbereitung erfordert, daher werden Einheiten mit dem Kampfstatus COMBAT NOT und COMBAT FLEE keine Munition verschießen, aber zu anderen Waffen greifen, so sie welche dabei haben und beherrschen.</p>
+<p>Operating catapults is a task that requires a lot of preparation, so units with the combat status COMBAT NOT and COMBAT FLEE will not fire ammunition, but will use other weapons if they have them with them and know how to use them.</p>
 <div class="admonition warning">
-<p class="admonition-title">Attention</p>
-<p>Personen mit niedrigen Trefferpunkten, die nicht <code>COMBAT FLEE</code> gesetzt haben, fliehen erst dann, wenn sie im Kampf auch einen Treffer abbekommen haben.
-Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche.
-Personen mit <code>COMBAT FLEE</code> fliehen natürlich schon vorher.</p>
+<p class="admonition-title">Caution</p>
+<p>People with low hit points who have not set <code>COMBAT FLEE</code> will only flee if they have taken a hit in combat.
+Hits whose damage points were completely stopped by the armor and failed hit attempts also count.
+Of course, people with <code>COMBAT FLEE</code> flee beforehand.</p>
 </div>
 <h2 id="combat-help"><code>COMBAT HELP</code><a class="headerlink" href="#combat-help" title="Permanent link">&para;</a></h2>
-<p>Einer Einheit mit <code>COMBAT HELP NOT</code> wird im Kampf nicht geholfen, weder von Einheiten der eigenen Partei noch von Verbündeten.
-Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf gezogen.
-Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.</p>
-<p>Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird.
-Weitere Details unter <a href="../cmd-help/">HELP</a> und in den Kapiteln <a href="../war/">Kampf</a> und <a href="../alliances/">allianz</a>.</p>
+<p>One unit with <code>COMBAT HELP NOT</code> will not be helped in battle, neither by units of your own faction nor by allies.
+If such a unit is attacked, no other units will be brought into battle. Of course, this only applies if other units without such a status are not also attacked.</p>
+<p>Your own faction is always involved when it attacks, or when it or a faction it helps is attacked.
+Further details at <a href="../cmd-help/">HELP</a> and in the chapters [Battle] <a href="../war/">Of War</a> and <a href="../alliances/">Alliance</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
 
@@ -7564,6 +7563,8 @@ Weitere Details unter <a href="../cmd-help/">HELP</a> und in den Kapiteln <a hre
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7606,7 +7607,7 @@ Weitere Details unter <a href="../cmd-help/">HELP</a> und in den Kapiteln <a hre
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

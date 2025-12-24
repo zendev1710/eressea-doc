@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6533,7 +6533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7354,27 +7354,37 @@
 
 
 <h1 id="hide">HIDE<a class="headerlink" href="#hide" title="Permanent link">&para;</a></h1>
-<p><strong><code>HIDE</code></strong><code>[</code><em><code>stufe</code></em><code>]</code><br />
-<strong><code>HIDE</code></strong><code>PARTEI [NOT]</code><br />
-<strong><code>HIDE</code></strong><code>PARTEI NUMBER [</code><em><code>nummer</code></em><code>]</code><br />
-<strong><code>HIDE</code></strong><code></code><em><code>rasse</code></em></p>
-<p>Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht. <code>stufe</code> kann natürlich nicht höher als das <a href="../camouflage/">Talent</a> der Einheit sein. Ohne Parameterangabe wird das Maximum gesetzt.</p>
-<p>Mit <code>HIDE PARTEI</code> kann man seine Parteizugehörigkeit zu verbergen versuchen. Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt. Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit <a href="../skills-list/">Spionage</a> erkennen. Mit <code>HIDE PARTEI NOT</code> wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.</p>
-<p><code>HIDE PARTEI NUMBER nummer</code> tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen. Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen. Um wieder der eigenen Partei zugehörig zu erscheinen, muß für <code>nummer</code> die eigene Parteinummer verwendet werden. Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl. Parteien, die von der Partei oder Gruppe der Einheit <a href="../cmd-help/">HELP xyz PARTEITARNUNG</a> bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.</p>
-<p>Soweit, so einfach. Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:</p>
+<p><strong><code>HIDE</code></strong><code>[</code><em><code>level</code></em><code>]</code><br />
+<strong><code>HIDE</code></strong><code>FACTION [NOT]</code><br />
+<strong><code>HIDE</code></strong><code>FACTION NUMBER [</code><em><code>number</code></em><code>]</code><br />
+<strong><code>HIDE</code></strong><code></code><em><code>race</code></em>  </p>
+<p>With the first variant you can adjust how “intensively” a unit tries to camouflage itself. <code>level</code> obviously cannot be higher than the unit's <a href="../camouflage/">camouflage skill</a>.
+If no parameters are specified, the maximum is set.</p>
+<p>With <code>HIDE FACTION</code> you can try to hide your faction affiliation.
+The faction affiliation is then displayed as <em>anonymous</em> to other players.
+In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can only be recognized using <a href="../skills-list/#espionnage">espionage</a>.
+With <code>HIDE FACTION NOT</code> this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.</p>
+<p><code>HIDE FACTION NUMBER number</code> camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.
+There is no easy way to see through this form of camouflage. In order to appear to belong to your own faction again, you have to <code>number</code> your own faction number can be used.
+The specified faction must be known to the faction issuing the order, i.e. appear in their report, otherwise the order will fail. Parties that receive [[cmd-help|<code>[HELP xyz FACTION CAMO]</code>]] from the unit's faction or group can see the unit's true faction affiliation.</p>
+<p>So far, so simple. However, this camouflage comes with a few special features, which are listed here in no particular order:</p>
 <ul>
-<li>Die (scheinbare) Rasse der Einheit ändert sich dadurch nicht, ein Goblin bleibt ein Goblin, auch wenn er sich als der Partei der Lichtelfen zugehörig ausgibt.</li>
-<li>Die Einheiten ändern ihr Verhalten durch die Tarnung nicht. Sie spenden z.B. kein Silber an die Verbündeten der Partei, als die sie sich tarnen. Wer also die Tarnung perfektionieren will, sollte mit den Einheiten eine Gruppe bilden und für diese Gruppe entsprechende Helfe-Stati setzen.<br />
-  So getarnte Einheiten können auch nicht plötzlich Gebäude oder Schiffe betreten, die sie ansonsten nicht betreten dürfen, oder Steuern eintreiben, wo ihnen das normalerweise untersagt ist.</li>
-<li>Im Kampf bilden derartige Einheiten ein eigenes Heer. Beispiel: Es gibt drei Parteien, die Waldelfen, die Flusselfen und die Eisenzwerge. Alle Parteien habe jeweils eine Einheit: Waldelf, Flusself und Eisenzwerg. Während Waldelf sich als Flusself tarnt, behalten alle anderen Einheiten ihre wahre Identität bei.<br />
-  Nun greift der Eisenzwerg den Flusself an. Dadurch erscheinen im Kampfreport drei Heere: Die Eisenzwerge, und zwei Flusselfen-Heere.</li>
+<li>The (apparent) race of the unit does not change as a result; a goblin remains a goblin, even if he claims to belong to the light elves faction</li>
+<li>The units do not change their behavior due to the camouflage. For example, they do not donate silver to the allies of the faction they disguise themselves as.
+  So if you want to perfect the camouflage, you should form a group with the units and set appropriate help statuses for this group.
+  Units cloaked in this way cannot suddenly enter buildings or ships that they are otherwise not allowed to enter, or collect taxes where they are normally prohibited from doing so</li>
+<li>In battle, such units form their own army.
+  Example: There are three parties, the Wood Elves, the River Elves and the Iron Dwarves. All parties each have a unit: Wood Elf, River Elf and Iron Dwarf.
+  While Wood Elf disguises itself as a River Elf, all other units retain their true identities.
+  Now the iron dwarf attacks the river elf. This means that three armies appear in the battle report: the iron dwarves and two river elf armies.</li>
 </ul>
-<p><a href="../cmd-group/">GROUP</a> hat allerdings auch die Nebenwirkung mit den mehreren Heeren. Auf diese Weise kann man also nicht sehen ob Einheiten sich als eine fremde Partei ausgeben oder ob der Betreffende nur mehrere Gruppen hat.</p>
-<p>Mit <code>HIDE rasse</code> können <a href="../races/#demons">Dämonen</a> sich als andere Rasse tarnen.</p>
+<p>However, <a href="../cmd-group/">GROUP</a> also has the side effect of having multiple armies.
+This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.</p>
+<p>With <code>HIDE race</code> <a href="../races/#demons">demons</a> can disguise themselves as another race.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../camouflage/">Tarnung</a></li>
-<li><a href="../camouflage/">Wahrnehmung</a></li>
+<li><a href="../skills-list/#espionnage">espionage</a></li>
+<li><a href="../camouflage/">Camouflage</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 
@@ -7397,6 +7407,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7439,7 +7451,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

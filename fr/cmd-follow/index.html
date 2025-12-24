@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6533,7 +6533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7355,24 +7355,43 @@
 
 <h1 id="follow">FOLLOW<a class="headerlink" href="#follow" title="Permanent link">&para;</a></h1>
 <p><strong><code>FOLLOW</code></strong><code>UNIT</code><em><code>unit-ID</code></em><br />
-<strong><code>FOLLOW</code></strong><code>SHIP</code><em><code>ship-ID</code></em><code>[</code><em><code>vitesse</code></em><code>]</code></p>
-<p>Peut être utilisé pour suivre une unité ou un bateau</p>
-<p>Avec <code>FOLLOW UNIT</code><em><code>unit-id</code></em>, votre propre unité "surveillera" l'unité spécifiée et la suivra lorsqu'elle se déplacera. Cependant, si l’unité poursuivie est plus rapide que l’unité poursuivante, elle échappe à la poursuite. Les poursuivants suivent l'unité poursuivie aussi loin que possible. Les unités voyageant par bateau ne peuvent pas être suivies avec <code>FOLLOW UNIT</code>. Les capitaines ne peuvent pas non plus l'utiliser pour déplacer leur bateau. Au lieu de cela, ils abandonneraient le bateau et suivraient l'unité à pied si possible.</p>
+<strong><code>FOLLOW</code></strong><code>SHIP</code><em><code>ship-ID</code></em><code>[</code><em><code>vitesse</code></em><code>]</code>  </p>
+<p>Peut être utilisé pour suivre une unité ou un bateau.</p>
+<p>Avec <code>FOLLOW UNIT</code><em><code>unit-id</code></em>, votre propre unité "surveillera" l'unité spécifiée et la suivra lorsqu'elle se déplacera.
+Cependant, si l’unité poursuivie est plus rapide que l’unité poursuivante, elle échappe à la poursuite.
+Les poursuivants suivent l'unité poursuivie aussi loin que possible.
+Les unités voyageant par bateau ne peuvent pas être suivies avec <code>FOLLOW UNIT</code>.
+Les capitaines ne peuvent pas non plus l'utiliser pour déplacer leur bateau.
+Au lieu de cela, ils abandonneraient le bateau et suivraient l'unité à pied si possible.</p>
 <p>Si l'unité poursuivie n'a pas émis d'ordre de mouvement (cela inclut <code>MOVE, ROUTE, RIDE, FOLLOW</code>, mais pas <code>PIRACY</code>), l'unité poursuivante peut exécuter son ordre long.</p>
-<p>Avec <code>FOLLOW SHIP</code><em><code>ship-id</code></em> vous pouvez suivre les bateaux qui ont traversé la région au cours du tour en cours ou précédent. Si le capitaine a donné l'ordre <code>FOLLOW SHIP</code><em><code>ship-id</code></em>, le bateau suivra alors la route du bateau spécifié jusqu'à ce qu'il soit rattrapé - si votre propre bateau est suffisamment rapide. Si le paramètre optionnel « Vitesse » est spécifié, le bateau poursuivant naviguera au maximum dans ce nombre de régions.</p>
-<p>Attention, vous ne pouvez pas suivre les bateaux qui ont comme ordre <code>FOLLOW SHIP</code> ou <code>PIRACY</code>.</p>
+<p>Avec <code>FOLLOW SHIP</code><em><code>ship-id</code></em> vous pouvez suivre les bateaux qui ont traversé la région au cours du tour en cours ou précédent.
+Si le capitaine a donné l'ordre <code>FOLLOW SHIP</code><em><code>ship-id</code></em>, le bateau suivra alors la route du bateau spécifié jusqu'à ce qu'il soit rattrapé - si votre propre bateau est suffisamment rapide.
+Si le paramètre optionnel « Vitesse » est spécifié, le bateau poursuivant naviguera au maximum dans ce nombre de régions.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>Vous ne pouvez pas suivre les bateaux qui ont comme ordre <code>FOLLOW SHIP</code> ou <code>PIRACY</code>.</p>
+</div>
 <p><code>FOLLOW SHIP</code>, comme <code>FOLLOW UNIT</code>, n'est un ordre longu que si la cible a un ordre de déplacement et remplace ensuite toutes les autres ordres longs.</p>
-<p><code>FOLLOW</code> ne dure que pendant le tour au cours duquel la commande est donnée. Si la commande doit durer plus longtemps, elle doit être précédée d'un <code>@</code>.</p>
-<div class="highlight"><pre><span></span><code>UNIT 87b6
-  @FOLLOW UNIT hz7
-  ENTERTAIN
+<p><code>FOLLOW</code> ne dure que pendant le tour au cours duquel la commande est donnée.
+Si la commande doit durer plus longtemps, elle doit être précédée d'un <code>@</code>.</p>
+<div class="highlight"><pre><span></span><code>```
+UNIT 87b6
+    @FOLLOW UNIT hz7
+    ENTERTAIN
+```
 </code></pre></div>
-<p>L'unité 87b6 surveillera l'unité hz7 et la suivra dans ses mouvements. Sinon, elle gagnera de l'argent grâce au divertissement. Avec le <code>@</code> les deux commandes sont conservées.</p>
-<p>Expérience de jeu : SoltharEs ist möglich, mit einer Einheit A einer Einheit B zu folgen, die ihrerseits einer dritten Einheit C folgt. Das hat jedoch zur Folge, dass A keinen langen Befehl mehr ausführt, denn der Server nimmt zu diesem Zeitpunkt an, dass Einheit B sich ebenfalls bewegt, unabhängig davon, ob Einheit C sich ebenfalls bewegt.</p>
-<p>Es ist nicht möglich, sinnvoll mehrere FOLLOW-Befehle zu geben. Es wird immer nur der erste ausgeführt.</p>
+<p>L'unité <em>87b6</em> surveillera l'unité <em>hz7</em> et la suivra dans ses mouvements.
+Si le déplacement échoue, elle gagnera de l'argent grâce au divertissement.
+Avec le <code>@</code> les deux commandes sont conservées pour les tours suivants.</p>
+<p>Expérience de jeu (Solthar):</p>
+<!-- TODO: translate in french -->
+<p>It is possible to use a unit A to follow a unit B, which in turn follows a third unit C.
+However, this means that A no longer executes a long command, because at this point the server assumes that unit B is also moving, regardless of whether unit C is also moving.</p>
+<p>It is not possible to meaningfully issue multiple FOLLOW commands.
+Only the first one is always executed.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../travel/">Voyager</a></li>
+<li><a href="../travel/">Movement</a></li>
 <li><a href="../cmd-move/">MOVE</a></li>
 <li><a href="../cmd-route/">ROUTE</a></li>
 <li><a href="../cmd-ride/">RIDE</a></li>
@@ -7400,6 +7419,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7442,7 +7463,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

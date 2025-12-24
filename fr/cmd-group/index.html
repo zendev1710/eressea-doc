@@ -56,12 +56,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Merriweather";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fira Code"}</style>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/css/.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -156,7 +156,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5M7 15a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    COMMENT (//)
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    Commentaire (;)
+    COMMENTAIRE (;)
   
 
     
@@ -6485,7 +6485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magical-herb-bag/" class="md-nav__link">
+      <a href="../magical-herb-pouch/" class="md-nav__link">
         
   
   
@@ -7287,14 +7287,21 @@
 
 
 <h1 id="group">GROUP<a class="headerlink" href="#group" title="Permanent link">&para;</a></h1>
-<p><strong><code>GROUP</code></strong><code>["</code><em><code>name</code></em><code>"]</code></p>
-<p>Mit dem Befehl <code>GROUP</code> kann man die Partei in Untergruppen zerteilen, die einen andere <a href="../cmd-help/">HELP</a>-Status haben als der Rest der Partei. Dadurch kann man z.B. ein Söldnerheer aufstellen, das auf der Insel des Auftragsgebers ihm hilft, während der Rest der Partei es nicht tut.</p>
-<p>Ebenso kann man für Teilnehmer eines Turnieres alle <code>HELP COMBAT</code> Zuordnungen auflösen, damit man nicht in einen Zweikampf eingreift. Auch Angriffe auf Verbündete, mit einem parteigetarnten Trupp von Einheiten sind möglich, ohne das man sich durch das Lösen von <code>HELP COMBAT</code> auf Parteiebene verrät. Und wer z.B. seine Wälder auch vor Verbündeten schützen will, der stellt eine Truppe von Waldwächtern auf, die niemandem <code>HELP GUARD</code> geben. Für jede Gruppe kann man außerdem ein eigenes <a href="../cmd-prefix/">PREFIX</a> festlegen.</p>
-<p>Eine Einheit gibt zum Beispiel den Befehl <code>GROUP</code> "Freibeuter der Meere", um in eine Gruppe einzutreten. Wenn es eine Gruppe dieses Namens noch nicht gibt, wird eine angelegt, die anfangs immer den gleichen <code>HELP</code>-Status wie die Partei hat, auch wenn die Einheit vorher in einer anderen Gruppe war. Mit <code>GROUP</code> ohne Namen verlässt man eine Gruppe. Verlassen alle Einheiten eine Gruppe, wird diese aufgelöst. Sterben hingegen alle Einheiten einer Gruppe, bleibt die Gruppe bestehen und kann erneut betreten werden.</p>
-<p>Jede Einheit kann nur einer Gruppe angehören. Eine Einheit, die einen <code>HELP</code> Befehl gibt, ändert den Status ihrer Gruppe, wenn sie einer Gruppe zugeteilt ist, oder den Status der Partei, wenn sie keiner Gruppe angehört.</p>
-<p>In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon passiert, wenn Einheiten parteigetarnt sind.</p>
-<p>|---------|----------------------------------------------------------------------------------|
-| <strong>E3A</strong> | Für E3 gilt das nicht! Hier sind alle Einheiten einer Partei in dem selben Heer. |</p>
+<p><strong><code>GROUP</code></strong><code>["</code><em><code>name</code></em><code>"]</code>  </p>
+<p>With the <code>GROUP</code> order you can divide the faction into subgroups that have a different <a href="../cmd-help/"><code>HELP</code></a> status than the rest of the faction.
+This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.</p>
+<p>You can also do all of them for participants in a tournament <code>HELP COMBAT</code> break down assignments so that you don't intervene in a duel.
+Attacks on allies with a faction-camouflaged squad of units are also possible without having to detach <code>HELP COMBAT</code> reveals at faction level.
+And if you want to protect your forests from allies, for example, you can set up a troop of forest guards who won't tell anyone <code>HELP GUARD</code> give.
+You can also set your own <a href="../cmd-prefix/">PREFIX</a> for each group.</p>
+<p>For example, a unit gives the order <code>GROUP</code> "Privateers of the Seas" to join a group.
+If a group with this name does not yet exist, one will be created that initially always has the same name <code>HELP</code> status like the faction has, even if the unit was previously in a different group.
+With <code>GROUP</code> you leave a group without a name.
+If all units leave a group, it is dissolved.
+However, if all units in a group die, the group remains and can be rejoined.</p>
+<p>Each unit can only belong to one group.
+A unit that unites <code>HELP</code> giving orders changes the status of her faction if she is assigned to a group, or the status of the faction if she is not in a group.</p>
+<p>In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->
 
 
@@ -7316,6 +7323,8 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -7358,7 +7367,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tooltips", "header.autohide", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

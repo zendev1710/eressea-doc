@@ -4,7 +4,7 @@ alias: cmd-research-fr
 ---
 # RESEARCH
 
-**`RESEARCH`**[<sup>`L`</sup>]`KRÄUTER`
+**`RESEARCH`**[<sup>`L`</sup>]`HERBS`
 
 Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Region wächst und wie viel davon ungefähr vorhanden ist. Dazu muss die Einheit mindestens [Kräuterkunde] 7 haben.
 

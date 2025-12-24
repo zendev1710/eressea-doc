@@ -3,11 +3,16 @@
 !talent
 !talents
 Antimagic
+armoursmithing
 Braineaters
 bubblemorel
 Busybeer
+cartmaking
+Cartmaking
 chainmail
 Chainmail
+chainmails
+COMBATSPELL
 Countersong
 Dragonblood
 dragonship
@@ -36,6 +41,7 @@ polearm
 polearms
 Shadowdemons
 Shapeshift
+shipcraft
 Shipcraft
 silverbag
 silverchest
@@ -44,6 +50,8 @@ snowcrystal
 sunfire
 tradepost
 waterfinder
+weaponsmithing
+Weaponsmithing
 woodless
 Wyrm
 Wyrms

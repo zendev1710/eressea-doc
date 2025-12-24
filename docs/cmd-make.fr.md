@@ -15,7 +15,7 @@ La commande `MAKE` est la commande de production générale. Pour en savoir plus
 
 ## Objets
 
-[Gegenstände] und [Rohstoffe] werden mit `MAKE [`*`anzahl`*`]`*`gegenstand`*` ` hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von *anzahl* wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.
+[Gegenstände] und [Rohstoffe] werden mit `MAKE [`*`number`*`]`*`gegenstand`*` ` hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von *anzahl* wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.
 
 ### Tränke
 
@@ -27,7 +27,7 @@ Kräuter werden mit dem Befehl `MAKE HERBS` von Einheiten mit dem Talent [Kräut
 
 ## Einheiten
 
-Wenn du eine neue Einheit erschaffst (`MAKE TEMP xy`), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel `GIVE TEMP xy 100 Silber`). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID *TEMP xy* haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.
+Wenn du eine neue Einheit erschaffst (`MAKE TEMP xy`), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel `GIVE TEMP xy 100 Silver`). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID *TEMP xy* haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.
 
 Die Alias-Nummer wird als Nummer der Einheit benutzt, wenn diese noch nicht belegt ist. Ebenso kannst du schon hier einen Namen der Einheit angeben. So lassen sich die Befehle
 
@@ -52,9 +52,9 @@ UNIT 17; Kämpfer \[15,700$\]
         NAME UNIT "Drachenreiter"
         LEARN Hiebwaffen
      END
-     GIVE TEMP 1 5 PERSONS
+     GIVE TEMP 1 5 MEN
       
-     GIVE TEMP 2 100 Silber
+     GIVE TEMP 2 100 Silver
      MAKE TEMP 2
         RECRUIT 1
         NAME UNIT "Späher"
@@ -64,7 +64,7 @@ UNIT 17; Kämpfer \[15,700$\]
 
 ## Gebäude
 
-Um ein neues Gebäude zu errichten, verwendest du *`MAKE`*`[`*`stufen`*`]`*`Gebäudetyp`* (siehe [Gebäude]). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür *`MAKE`*`[`*`stufen`*`]`*`Gebäudetyp`*` `*`building-id`*. Der *Gebäudetyp* kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silber in verschiedenen Mengen.
+Um ein neues Gebäude zu errichten, verwendest du *`MAKE`*`[`*`level`*`]`*`Gebäudetyp`* (siehe [Gebäude]). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür *`MAKE`*`[`*`level`*`]`*`Gebäudetyp`*` `*`building-id`*. Der *Gebäudetyp* kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silver in verschiedenen Mengen.
 
 ## Schiffe
 
@@ -79,7 +79,7 @@ Sowohl bei Gebäuden als auch bei Schiffen kannst du mit *stufen* angeben, wie v
 
 ## Straßen
 
-Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MAKE STRASSE`*`richtung`*. Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau] und [Steine][Gegenstände]. In Gletschern benötigt sie dazu vorher einen [Tunnel], in Wüsten eine [Karawanserei] und in Sümpfen einen [Damm]. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten]. Straßen funktionieren nur wenn sie vollständig sind.
+Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MAKE STREET`*`direction`*. Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau] und [Steine][Gegenstände]. In Gletschern benötigt sie dazu vorher einen [Tunnel], in Wüsten eine [Karawanserei] und in Sümpfen einen [Damm]. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten]. Straßen funktionieren nur wenn sie vollständig sind.
 
 Expérience de jeu : Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MAKE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.
 
@@ -101,7 +101,7 @@ MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
      MAKE 5 Trireme ; fängt eine neue Trireme an
      MAKE SHIP abc ; baut an Schiff abc weiter
      
-     MAKE STRASSE SO ; baut an der Straße nach Südosten weiter
+     MAKE STREET SO ; baut an der Straße nach Südosten weiter
      
      MAKE Trireme abc ; falsch: fängt neue Trireme an
      MAKE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt

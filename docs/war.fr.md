@@ -291,7 +291,9 @@ Si la région où les combats ont eu lieu était [[alliances|gardée]] *au débu
 
 Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 
-Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COMBAT`] und Einheiten auf See. Einheiten mit dem Status `COMBAT FLEE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[cmd-move]]`,`[`ROUTE`]` oder `[`FOLLOW`][`FOLLOW SHIP`]. Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
+Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`COMBAT FLEE`][`COMBAT`] und Einheiten auf See.
+Einheiten mit dem Status `COMBAT FLEE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[cmd-move]], [[cmd-route]] oder [[cmd-follow|`FOLLOW SHIP`]].
+Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Voir aussi
 
@@ -303,31 +305,33 @@ Poursuivre la lecture : [[alliances]].
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
 [`ATTACK`]: ./cmd-attack.md
-[tour de tactique]: #tour-du-tacticien
 [`COMBAT`]: ./cmd-combat.md
 [`HELP COMBAT`]: ./cmd-help.md
-[Lignes de combat]: #lignes-de-combat "Lignes de combat"
-[fuir]: #la-fuite
-[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires
-[la fuite]: ./war.md#la-fuite
-[non armés]: #boni-et-mali
 [Tacticien]: ./tactic.md
-[Héros]: ./#heros "Héros"
-[Caractéristiques des armes]: ./war-tables.md#waffeneigenschaften
-[Modificateurs de compétences]: ./war-tables.md#caractéristiques-raciales
-[ce]: ./war-tables.md#rüstung
-[Résistance à la magie]: ./war-tables.md#magieresistenz
-[ce tableau]: ./war-tables.md#ausdauer
-[débordé]: #lignes-de-combat "Lignes de combat"
-[à mains nues]: #boni-et-mali
 [MAKE ammunition]: ./cmd-make.md
-[tables de combat]: ./war-tables.md#kampfmodifikatoren
 [`GUARD`]: ./cmd-guard.md
 [Schiffe]: ./ships.md
-[Schaden]: ./ships.md#schiffsschaden
 [`FOLLOW SHIP`]: ./cmd-follow.md
 [`PIRACY <parteinummer> ...`]: ./cmd-piracy.md
 [races]: ./skills-modifiers.md
 [`ROUTE`]: ./cmd-route.md
 [Taktik]: ./tactic.md
 [Kriegstabellen]: ./war-tables.md
+
+[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires
+[la fuite]: ./war.md#la-fuite
+[Caractéristiques des armes]: ./war-tables.md#armes-et-leurs-proprietes
+[Modificateurs de compétences]: ./war-tables.md#races-et-leurs-caracteristiques
+[ce]: ./war-tables.md#armure
+[Résistance à la magie]: ./war-tables.md#resistance-a-la-magie
+[ce tableau]: ./war-tables.md#endurance
+[tables de combat]: ./war-tables.md#kampfmodifikatoren
+[Schaden]: ./ships.md#schiffsschaden
+
+[tour de tactique]: #tour-du-tacticien
+[Lignes de combat]: #lignes-de-combat
+[fuir]: #la-fuite
+[non armés]: #boni-et-mali
+[Héros]: ./#heros
+[débordé]: #lignes-de-combat
+[à mains nues]: #boni-et-mali

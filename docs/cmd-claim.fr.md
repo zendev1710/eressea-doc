@@ -4,20 +4,18 @@ alias: cmd-claim-fr
 ---
 # CLAIM
 
-**`CLAIM`**` `*`anzahl gegenstand`*
+**`CLAIM`**` `*`Number Item`*
 
-Beansprucht Gegenstände aus dem [Parteipool].
+Claims items from the [[faction-pool]].
 
-Die Gegenstände im Parteipool können von jeder beliebigen Einheit der Partei beansprucht werden, egal, wo diese sich befindet. Es können allerdings keine Gegenstände zurück in den Parteipool gelegt werden.
+The items in the faction pool can be claimed by any faction unit, regardless of where it is located. However, no items can be placed back into the faction pool.
 
-Der Parteipool wird nur vom Spielleiter benutzt, um dem Spieler spezielle Gegenstände zu geben, ohne dieser einer bestimmten Einheit zu geben. Der Parteipool oder der `CLAIM`-Befehl wird aber nicht oft benötigt werden.
+The faction pool is only used by the game master to give the player special items without giving them to a specific unit.
+The faction pool or the `CLAIM` order will not be needed often.
 
-Der Gegenstande gehen an die Einheit, die den `CLAIM`-Befehl gegeben hat. Die direkte Weitergabe des Gegenstandes ist noch in der selben Runde möglich, [Benutzt] werden kann er aber erst in der Folgewoche.
+The items go to the unit that has them `CLAIM` - gave the order.
+The item can be passed on directly in the same round, but it cannot be [[cmd-use|used]] until the following week.
 
-Achtung! Nicht verwechseln mit dem Materialpool, auf den man mit [[cmd-reserve]] zugreifen muss!
+Caution! Do not confuse this with the items pool, which you have to access with [[cmd-reserve]]!
 
 <!-- From [https://wiki.eressea.de/index.php?title=CLAIM&oldid=3992] -->
-
-[Parteipool]: ./faction-pool.md
-[Benutzt]: ./cmd-use.md
-[RESERVE]: ./cmd-reserve.md

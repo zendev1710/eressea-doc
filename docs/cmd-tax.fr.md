@@ -6,7 +6,7 @@ alias: cmd-tax-fr
 
 **`TAX`**[<sup>`L`</sup>]`[`*`betrag`*`]`
 
-Mit diesem Befehl treiben bewaffnete und trainierte Einheiten Steuern bei den Bauern ein. Dazu benötigen sie eine Waffe und das dazugehörige [Talent] und das Talent [Steuereintreiben][Talent]. Pro [bewaffneter] (und an dieser Waffe ausgebildeter) Person und Talentstufe Steuereintreiben werden bis zu 20 Silber von den Bauern eingetrieben; Katapulte eignen sich nicht zum Steuereintreiben. Gibt man einen Betrag an, so wird höchstens dieser Betrag an Steuern eingetrieben. Hierbei können nur volle 10er Beträge angegeben werden, alles andere wird auf die nächste volle 10er Stelle abgerundet. Dabei geben die Bauern sogar Silber weg, das sie eigentlich zum Überleben bräuchten, was zu [Hunger] führen kann.
+Mit diesem Befehl treiben bewaffnete und trainierte Einheiten Steuern bei den Bauern ein. Dazu benötigen sie eine Waffe und das dazugehörige [Talent] und das Talent [Steuereintreiben][Talent]. Pro [bewaffneter] (und an dieser Waffe ausgebildeter) Person und Talentstufe Steuereintreiben werden bis zu 20 Silver von den Bauern eingetrieben; Katapulte eignen sich nicht zum Steuereintreiben. Gibt man einen Betrag an, so wird höchstens dieser Betrag an Steuern eingetrieben. Hierbei können nur volle 10er Beträge angegeben werden, alles andere wird auf die nächste volle 10er Stelle abgerundet. Dabei geben die Bauern sogar Silver weg, das sie eigentlich zum Überleben bräuchten, was zu [Hunger] führen kann.
 
 Wollen mehrere Parteien Steuern eintreiben, so wird das Geld zwischen den Parteien aufgeteilt. Will man verhindern, daß nicht-alliierte Parteien Steuern eintreiben, kann man dies mit dem Befehl [[cmd-guard]] tun.
 
@@ -21,5 +21,5 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
 [Talent]: ./skills-list.md
 [bewaffneter]: ./armed.md
-[Hunger]: ./silver.md#hunger
+[Hunger]: ./silver.md#famine
 [Geld]: ./silver.md

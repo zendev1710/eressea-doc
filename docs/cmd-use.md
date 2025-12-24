@@ -4,15 +4,19 @@ alias: cmd-use
 ---
 # USE
 
-**`USE`**`[`*`anzahl`*`] "`*`Trank`*`" [`*`unit-id`*`]`  
-**`USE`**`[`*`anzahl`*`] "`*`Gegenstand`*`" [...]`
+**`USE`**`[`*`number`*`] "`*`Potion`*`" [`*`unit-id`*`]`  
+**`USE`**`[`*`number`*`] "`*`Item`*`" [...]`  
 
-Benutzt den angegebenen alchemistischen Trank. Die Einheitennummer darf nur bei Dumpfbackenbrot angegeben werden. Ohne Angabe einer Anzahl wird nur ein Trank benutzt. Man kann einen Trank mehrfach benutzen, um die Wirkung auf mehr als 10 Personen auszudehnen oder die Anzahl an Wochen zu erhöhen, die der Effekt anhält. Bei Dumpfbackenbrot ist die Dauer auf 10 Wochen pro Person begrenzt.
+Use the indicated alchemical potion.
+The unit number may only be specified for Dumpfbacken bread.
+Without specifying a number, only one potion is used.
+You can use a potion multiple times to extend the effects to more than 10 people or to increase the number of weeks the effect lasts.
+For Dumpfbackenbrot, the duration is limited to 10 weeks per person.
 
-Es gibt noch andere Gegenstände außer Tränken, die benutzt werden können. Dazu gehören [Antimagiekristalle] und einige Parteigegenstände ([Weihnachtsgeschenke]). Diese können weitere Parameter haben, die in der Gegenstandsbeschreibung ([SHOW]) angegeben sind.
+There are other items other than potions that can be used.
+These include [Antimagic Crystals] and some faction items ([[christmas]]).
+These can have additional parameters, which are specified in the item description ([[cmd-show]]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
 
-[Antimagiekristalle]: ./spells-descriptions.md#erschaffe-antimagiekristall
-[Weihnachtsgeschenke]: ./christmas.md
-[SHOW]: ./cmd-show.md
+[Antimagic Crystals]: ./spells-descriptions.md#create-an-antimagic-crystalantimagic-crystal

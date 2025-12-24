@@ -8,11 +8,16 @@ theme:
   font:
     # text: Roboto
     # TODO: try some fonts like : Merriweather, Lora, Playfair Display (PT Serif? Crimson Text?)
-    text: Merriweather
-    code: Roboto Mono
+    text: Roboto
+    code: Fira Code
+    ##text: Merriweather
+    ##code: Roboto Mono
   features:
-    - content.tooltips
     - header.autohide
+    - content.code.copy
+    # what is it ?
+    - content.tabs.link
+    - content.tooltips
     - navigation.indexes
     # not compatible with i18n
     # - navigation.instant
@@ -28,23 +33,32 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+
+    # - navigation.expand
+    # - toc.integrate
+
   palette:
-    # Palette toggle for automatic mode
+        # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/link
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: blue grey
       accent: indigo
+      #primary: indigo
+      #accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      # test colors
+      primary: blue grey
+      accent: amber
+      #primary: indigo
+      #accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -67,7 +81,8 @@ theme:
 # language: en
 
 extra_css:
-  - assets/stylesheets/extra.css
+  #- assets/css/extra.css
+  - assets/css/.css
 
 copyright: Copyright &copy; 2025 Cyril Guillon
 
@@ -117,10 +132,10 @@ plugins:
 extra:
   alternate:
     - name: English
-      link: /eressea-doc/ 
+      link: /eressea-doc/
       lang: en
     - name: Français
-      link: /eressea-doc/fr/ 
+      link: /eressea-doc/fr/
       lang: fr
     - name: Deutsch
       link: /eressea-doc/de/
@@ -143,6 +158,7 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.blocks.caption
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
@@ -353,7 +369,7 @@ nav:
         - antimagic-crystal.md
         - belt-of-troll-strength.md
         - flaming-sword.md
-        - magical-herb-bag.md
+        - magical-herb-pouch.md
         - negative-weight-bag.md
         - ring-of-invisibility.md
         - ring-of-power.md

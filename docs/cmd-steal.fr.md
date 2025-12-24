@@ -6,11 +6,11 @@ alias: cmd-steal-fr
 
 **`STEAL`**[<sup>`L`</sup>]` `*`unit-id`*
 
-Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen. Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem. Die Täter klauen pro Person und Talentstufe Unterschied 50 Silber.
+Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen. Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem. Die Täter klauen pro Person und Talentstufe Unterschied 50 Silver.
 
 Sind Wahrnehmung der Opfer und Tarnung der Täter gleich hoch, gelingt der Diebstahl nicht und die Opfer schöpfen Verdacht. Ist die Wahrnehmung der Opfer sogar höher als die Tarnung der Täter, werden die Täter auf frischer Tat ertappt und identifiziert.
 
-**Achtung!** Diebe klauen immer aus dem [Silberpool]. Dadurch kann auch Silber von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
+**Achtung!** Diebe klauen immer aus dem [Silverpool]. Dadurch kann auch Silver von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
 
 In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
@@ -23,7 +23,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
 [Tarnungstalent]: ./skills-list.md
-[Silberpool]: ./items-pool.md#der-silberpool
+[Silverpool]: ./items-pool.md#der-silberpool
 [immun]: ./puppy-protection.md
 [Geld]: ./silver.md
 [Tarnung und Wahrnehmung]: ./camouflage.md

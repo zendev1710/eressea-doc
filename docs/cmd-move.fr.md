@@ -22,7 +22,7 @@ Der Befehl hat ein besonderes Verhalten, was [Defaultbefehle] betrifft, also Bef
 Vorlage:
 
      LEARN Reiten
-     @GIVE x 100 Silber
+     @GIVE x 100 Silver
 
 Eingeschickte Befehle
 

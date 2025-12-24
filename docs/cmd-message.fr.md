@@ -16,7 +16,7 @@ Mit `MESSAGE GEBÄUDE` und `MESSAGE SCHIFF` geht die Botschaft an alle Einheiten
 
 Wie alle anderen Texte auch, kann die Botschaft mit dem \\ (Backslash) umgebrochen werden.
 
-       MESSAGE UNIT z14 "Zahlt sofort je 100 Silber an Jonan \
+       MESSAGE UNIT z14 "Zahlt sofort je 100 Silver an Jonan \
        den Zöllner (9i6), sonst werden unsere Wachen sich \
        um euch kümmern!"
 

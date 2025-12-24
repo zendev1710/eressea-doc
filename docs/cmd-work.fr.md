@@ -6,7 +6,7 @@ alias: cmd-work-fr
 
 **`WORK`**
 
-Die Einheit arbeitet in der Landwirtschaft und verdient zwischen 10 und 15 Silber pro Person und Runde (s.a. [diese Tabelle]).
+Die Einheit arbeitet in der Landwirtschaft und verdient zwischen 10 und 15 Silver pro Person und Runde (s.a. [diese Tabelle]).
 
 | Verdienst Burg | keine | Befestigung | Turm | Burg | Festung | Zitadelle |
 |----------------|-------|-------------|------|------|---------|-----------|

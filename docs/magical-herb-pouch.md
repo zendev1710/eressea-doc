@@ -1,7 +1,7 @@
 ---
 # cSpell:locale en
-alias: magical-herb-bag
+alias: magical-herb-pouch
 ---
-# Magical herb bag
+# Magical herb pouch
 
 <!-- TODO add documentation for this file that was initially empty -->

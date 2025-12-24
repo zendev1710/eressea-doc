@@ -36,11 +36,11 @@ Interessant ist dabei auch folgendes (immer gegen Tarnung 1 der Zieleinheit):
 
 Interessant sind dann die Kostenbetrachtungen:
 
-- 1 Einheit Spionage 10 -> 55 Runden (ohne Lehrer) -> 5500 Silber + sonstige Ausbildung und Rekrutieren  
+- 1 Einheit Spionage 10 -> 55 Runden (ohne Lehrer) -> 5500 Silver + sonstige Ausbildung und Rekrutieren  
 
-- 5 Einheiten Spionage 2 -> 3 Runden \* 5 Personen -> 1500 Silber + ...  
+- 5 Einheiten Spionage 2 -> 3 Runden \* 5 Personen -> 1500 Silver + ...  
 
-- 8 Einheiten Spionage 1 -> 1 Runde \* 8 Personen -> 800 Silber + ...  
+- 8 Einheiten Spionage 1 -> 1 Runde \* 8 Personen -> 800 Silver + ...  
 
 **Fazit:**  
 Hohe Spionagetalente lohnen nur, falls die Einheit(en) auch andere Ausbildung genossen hat/haben oder man aufgrund des Einheitenlimits selbst in den Situationen in denen man die Spionage braucht, die Einheiten nicht aufteilen kann.

@@ -53,12 +53,12 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`GIVE <unit id> herb`]                        | gibt einer Einheit alle Kräuter              | [C]     |
 | [`GIVE <unit id> KOMMANDO`]                    | übergibt Kommando über Schiff/Gebäude        | [C]     |
 | [`GIVE <unit id> UNIT`]                        | übergibt Einheit an fremde Partei            | [C]     |
-| [`GIVE <unit id> [JE] <number> PERSONS`] | übergibt Personen                            | [C]     |
+| [`GIVE <unit id> [JE] <number> MEN`] | übergibt Personen                            | [C]     |
 | [`GIVE <unit id> [JE] <number> SHIP`]    | übergibt SHIP zur Bildung von Konvois        | [C]     |
 | [`GIVE <unit id> [JE] <number> SILVER`]  | übergibt Silber                              | [C]     |
 | [`GIVE <unit id> [JE] <number> <item>`]  | übergibt Gegenstände                         | [C]     |
 | [`GIVE 0 <number> SILVER`]                     | gibt Gegenstände an die Bauern               | [C]     |
-| [`GIVE 0 <number> PERSONS`]                    |                                              | [C]     |
+| [`GIVE 0 <number> MEN`]                    |                                              | [C]     |
 | [`GIVE 0 <number> <item>`]                     |                                              | [C]     |
 | [`GROUP ["<name>"]`]                           | Gruppieren von Einheiten                     | [C]     |
 | [`HELP <faction id> ALLES [NOT]`]              | setzt / löscht einseitige Allianz            | [C]     |
@@ -190,12 +190,12 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`GIVE <unit id> herb`]: ./cmd-give.md
 [`GIVE <unit id> KOMMANDO`]: ./cmd-give.md
 [`GIVE <unit id> UNIT`]: ./cmd-give.md
-[`GIVE <unit id> [JE] <number> PERSONS`]: ./cmd-give.md
+[`GIVE <unit id> [JE] <number> MEN`]: ./cmd-give.md
 [`GIVE <unit id> [JE] <number> SHIP`]: ./cmd-give.md
 [`GIVE <unit id> [JE] <number> SILVER`]: ./cmd-give.md
 [`GIVE <unit id> [JE] <number> <item>`]: ./cmd-give.md
 [`GIVE 0 <number> SILVER`]: ./cmd-give.md
-[`GIVE 0 <number> PERSONS`]: ./cmd-give.md
+[`GIVE 0 <number> MEN`]: ./cmd-give.md
 [`GIVE 0 <number> <item>`]: ./cmd-give.md
 [`GROUP ["<name>"]`]: ./cmd-group.md
 [`HELP <faction id> ALLES [NOT]`]: ./cmd-help.md

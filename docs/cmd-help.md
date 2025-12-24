@@ -6,7 +6,7 @@ alias: cmd-help
 
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  
 **`HELP`**` `*`faction-id`*`COMBAT [NOT]`  
-**`HELP`**` `*`faction-id`*`SILBER [NOT]`  
+**`HELP`**` `*`faction-id`*`SILVER [NOT]`  
 **`HELP`**` `*`faction-id`*`GUARD [NOT]`  
 **`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
 **`HELP`**` `*`faction-id`*`ALLES [NOT]`  

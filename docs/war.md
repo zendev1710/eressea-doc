@@ -13,7 +13,10 @@ The [[cmd-attack]] order launches an attack against the opponent. `ATTACK` order
 
 The attacking side consists of all units that have given `ATTACK` orders against one or more units of the defenders.
 
-The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order `ATTACK`*`unit-id`*, and with all the units of the attacked faction that are ready to fight (therefore those in [[cmd-combat]]`,`[`COMBAT AGGRESSIVE`][`COMBAT`]`,`[`COMBAT REAR`][`COMBAT`] or [`COMBAT DEFENSIVE`][`COMBAT`]). In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put [`HELP COMBAT`] with the faction under attack, help out.
+<!-- TODO: check links in this sentence in wiki -->
+The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order `ATTACK`*`unit-id`*, and with all the units of the attacked faction that are ready to fight.
+Therefore those in [[cmd-combat]], [[cmd-combat|`COMBAT AGGRESSIVE`]], [[cmd-combat|`COMBAT REAR`]] or [[cmd-combat|`COMBAT DEFENSIVE`]].
+In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put [[cmd-help|`HELP COMBAT`]] with the faction under attack, help out.
 
 So there are different reasons why a unit takes part in combat. These are, listed in order of priority:
 
@@ -22,11 +25,14 @@ So there are different reasons why a unit takes part in combat. These are, liste
 3. A unit whose faction is being attacked. The unit then takes part in the combat if it has not set `COMBAT NOT` or `COMBAT FLEE`. In the latter case, it does not [flee] as it is not directly threatened.
 4. A unit from an allied faction (that is, a faction to which `HELP COMBAT` has been set) is attacked by someone. The unit then takes part in the combat, unless it has set `COMBAT NOT` or `COMBAT FLEE`. Again, a unit with `COMBAT FLEE` will not run away, as it is not exposed to a direct threat.
 
-So allies only automatically help defenders and *only if the defenders have not attacked themselves*. Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight. For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an [[cmd-attack]] order are engaged in combat. However, units that have set [`COMBAT NOT`][`COMBAT`] or [`COMBAT FLEE`][`COMBAT`] cannot attack.
+So allies only automatically help defenders and *only if the defenders have not attacked themselves*.
+Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight.
+For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an [[cmd-attack]] order are engaged in combat.
+However, units that have set [[cmd-combat|`COMBAT NOT`]] or [[cmd-combat|`COMBAT FLEE`]] cannot attack.
 
 So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units. To defend together against attackers, all the defending factions do is assist each other (HELP).
 
-Basically anyone to whom [`HELP COMBAT`] has been assigned, and who has not attacked anyone to whom [`HELP COMBAT`] has also been assigned is considered an ally.
+Basically anyone to whom [[cmd-help|`HELP COMBAT`]] has been assigned, and who has not attacked anyone to whom [[cmd-help|`HELP COMBAT`]] has also been assigned is considered an ally.
 
 **Example 1:** A helps B and C. C attacks B, which is why A is involved in the battle: B is an ally. Faction C is not considered an ally because it is attacking an ally.
 
@@ -58,16 +64,18 @@ There are a few tips to help you **avoid the biggest blunders**:
 
 A battle lasts five combat rounds plus a possible tactics round. In each combat round, the combatants strike in a random order.
 
-Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders. The exceptions are [combat at sea] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [`HELP GUARD`][`HELP COMBAT`] towards the combatant's faction. In this case, other long orders are possible.
+Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders.
+The exceptions are [combat at sea] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [[cmd-help|`HELP GUARD`]] towards the combatant's faction.
+In this case, other long orders are possible.
 
 ### Combat rows
 
-In battle, there are four combat rows. These are only made up of units that are actually participating in combat (see above). For more information on combat status, see [[cmd-combat]][`COMBAT`].
+In battle, there are four combat rows. These are only made up of units that are actually participating in combat (see above). For more information on combat status, see [[cmd-combat]].
 
-1. row: This is where you'll find all the units that have set [[cmd-combat]] or [`COMBAT AGGRESSIVE`][`COMBAT`].
-2. row: This is where you'll find all the units that have set [`COMBAT REAR`][`COMBAT`] or [`COMBAT DEFENSIVE`][`COMBAT`]
-3. row: This is where you'll find all the units that have set [`COMBAT NOT`][`COMBAT`].
-4. row: This is where you'll find all the units that are simply trying to escape. So those that have set [`COMBAT FLEE`][`COMBAT`] and those that have lost an appropriate number of hit points (see also [fleeing]).
+1. row: This is where you'll find all the units that have set [[cmd-combat]] or [[cmd-combat|`COMBAT AGGRESSIVE`]].
+2. row: This is where you'll find all the units that have set [[cmd-combat|`COMBAT REAR`]] or [[cmd-combat|`COMBAT DEFENSIVE`]]
+3. row: This is where you'll find all the units that have set [[cmd-combat|`COMBAT NOT`]].
+4. row: This is where you'll find all the units that are simply trying to escape. So those that have set [[cmd-combat|`COMBAT FLEE`]] and those that have lost an appropriate number of hit points (see also [fleeing]).
 
 Only the first two combat rows actively take part in the battle, i.e. they can strike, shoot and be hit. Units that are not combat ready and are directly attacked only really take part in the battle when one of the front rows is overrun. Fleeing units naturally try to escape (see [fleeing]).
 
@@ -81,19 +89,19 @@ If a faction and its allies have more than three times as many persons in the fr
 
 ## To arms
 
-Now, the units arm themselves. Each person in a unit equips themselves with a melee weapon, a ranged weapon and armour, according to their skills. They choose the weapons that give them the highest Attack and Parry scores. Mages who have chosen a combat spell use it to attack. However, for defence, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed].
+Now, the units arm themselves. Each person in a unit equips themselves with a melee weapon, a ranged weapon and armor, according to their skills. They choose the weapons that give them the highest Attack and Parry scores. Mages who have chosen a combat spell use it to attack. However, for defence, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed].
 
-**Beware:** Unused weapons or armour are not automatically redistributed to unarmed or unequipped units.
+**Beware:** Unused weapons or armor are not automatically redistributed to unarmed or unequipped units.
 
 During combat, you no longer change weapons, unless it is possible to take a better weapon from someone in the same unit who has already died (the surviving combatants each use the best weapon sets available).
 
-A ranged combatant who suddenly finds themself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themself [unarmed][1].
+A ranged combatant who suddenly finds himself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themself [unarmed][1].
 
 **example:** A unit of 20 persons has 15 swords, 10 shields and 5 chainmails. So 5 people will fight with a sword, a shield and a chainmail, 5 others with a sword and a shield, 5 with a sword only and the last 5 fighters will remain unarmed. A unit of 10 people with 10 swords and 10 axes will fight with swords, because they have a better bonus, even if they probably inflict less damage!
 
 ## Tactician's round
 
-Before the battle, the best [Tactician] of all participating units is chosen. A tactician fighting in the 1st row receives a +1 bonus to his "tactics" skill. If he is in the 3rd or 4th row, his level is reduced by 1. In order to leave an element of "form of the day" and luck, each tactician also receives a random bonus which starts at 0 and which, in pure theory, can become very significant, the probability being lower and lower as the bonus increases.
+Before the battle, the best [[tactics|Tactician]] of all participating units is chosen. A tactician fighting in the 1st row receives a +1 bonus to his "tactics" skill. If he is in the 3rd or 4th row, his level is reduced by 1. In order to leave an element of "form of the day" and luck, each tactician also receives a random bonus which starts at 0 and which, in pure theory, can become very significant, the probability being lower and lower as the bonus increases.
 
 The side with the best tactician can attack on turn 0 (called the "tactician's turn") without the enemy being able to react. The number of attacks made depends on the difference between the best tactics score of the winning side and that of the losing side: For each point's difference, each person has a 10% chance of attacking on the tactician's turn.
 
@@ -118,15 +126,15 @@ In each battle, armies face each other person by person, regardless of their num
 - Subtract values from each other: For every point difference between the attacker's attack and the defender's parry, the BT is now increased or decreased by 5%. The real chance of hitting is therefore calculated as follows: (Attack(attacker)-Parry(defender)) \* 5% + 30%.
 - Beginner's luck: If the attack fails, the attacker has an additional 10% chance of converting his attack after all: He can strike a second time with a 90 to 99% (chance) increased chance of hitting. This gives severely disadvantaged fighters the opportunity to get at least a few random hits.
 
-Each person attacks once per combat round (except [Heroes] and some monsters).
+Each person attacks once per combat round (except [[cmd-promote|Heroes]] and some monsters).
 
 When a fighter manages to hit his opponent, he inflicts damage. Different weapons inflict different amounts of damage (damage points, see [Weapon characteristics]). It's also worthwhile having high levels of skill in weapon mastery: if you have more skill levels than your opponent, the damage inflicted by a hit increases by one point for every two skill levels difference. Only skill levels are considered, and the bonuses provided by horses, castles, etc. do not count. This applies to both ranged and close combat. In addition, there is a certain chance, depending on the level difference, of receiving a critical hit that can cause up to five times more damage.
 
 If a person has received more damage than he can "take", he dies (see [Racial skill modifiers] the different hits taken during the fight are added together).
 
-When a fighter wears armour, it can absorb some (or all) of the damage points. However, armour makes the fighter less mobile and increases his chances of being hit (see [this] table). Against crossbows, armour is only half effective (rounded down).
+When a fighter wears armor, it can absorb some (or all) of the damage points. However, armor makes the fighter less mobile and increases his chances of being hit (see [this] table). Against crossbows, armour is only half effective (rounded down).
 
-Some creatures or weapons are also able to cause magical damage. Normal armour is ineffective against magical damage. Only the [Magic Resistance] counts, which can be increased by specific items and spells.
+Some creatures or weapons are also able to cause magical damage. Normal armor is ineffective against magical damage. Only the [Magic Resistance] counts, which can be increased by specific items and spells.
 
 There's also the Endurance skill, which allows you to harden your body and take more damage before dying (see [this table]).
 
@@ -136,7 +144,7 @@ Ranged weapons and catapults can be used effectively in the second row. There, t
 
 Ranged fighters can also fire into the opposing second row. They choose a target at random from among all the enemies in the first or second row.
 
-Crossbows can also pierce armour: against a crossbow shot, the armour is only half effective (rounded down).
+Crossbows can also pierce armor: against a crossbow shot, the armor is only half effective (rounded down).
 
 The table below shows the differences between ranged weapons. Bows are very difficult to use (offensive bonus -2), but can be used in every round of combat. Crossbows are much easier to use (OB 0), but can only fire every third round of combat. Catapults always fire in the first round of combat only (either the tactics round or round 1) and inflict heavy damage.
 
@@ -144,7 +152,7 @@ Against ranged weapons, those being attacked only defend with half their skill l
 
 **Attention!** If a ranged fighter gets into the front line (e.g. because it has been [overrun][combat rows]), they must defend themself with a melee weapon. If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themself [unarmed][2]!
 
-Catapults require ammunition. This can be produced from stones using [MAKE ammunition] by a mason with quarrying skill 3 and it weighs 10 weight units. One unit of ammunition corresponds to one volley.
+Catapults require ammunition. This can be produced from stones using [[cmd-make|MAKE ammunition]] by a mason with quarrying skill 3 and it weighs 10 weight units. One unit of ammunition corresponds to one volley.
 
 Ranged weapons - bonuses and time
 
@@ -158,7 +166,9 @@ The time it takes to get the weapon ready to fire again is indicated under reloa
 
 ### Bonuses and mali
 
-Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry). All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters. The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here. See also [combat tables].
+Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry).
+All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters. The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here.
+See also [[war-tables|combat tables]].
 
 Unarmed persons
 
@@ -249,37 +259,43 @@ It follows from this that you can hold a castle relatively well, but that you sh
 
 ## Fleeing
 
-People who have set [`COMBAT FLEE`] and are [attacked][`ATTACK`], try to flee. They do this before each round of combat, so they may have to take (more) hits before they can escape.
+People who have set [[cmd-combat|`COMBAT FLEE`]] and are [[cmd-attack|attacked]], try to flee. They do this before each round of combat, so they may have to take (more) hits before they can escape.
 
-Persons with [[cmd-combat]] or [`COMBAT REAR`][`COMBAT`] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][`COMBAT`] or [`COMBAT NOT`][`COMBAT`] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat. Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count. This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
+Persons with [[cmd-combat]] or [[cmd-combat|`COMBAT REAR`]] with only 20% of their hit points left, and persons with [[cmd-combat|`COMBAT DEFENSIVE`]] or [[cmd-combat|`COMBAT NOT`]] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.
+Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.
+This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
 
 The basic chance of escape is 25% (50% for halflings), plus 10% if you have a horse and 5% per level in stealth skill; the maximum value is 75% (or 90% for halflings).
 
 Fleeing units evade combat, but remain at a safe distance from the fighting in the region. If the unit was in a building or on a ship on land, it leaves this as soon as a person from the unit has fled during the battle.
 
-**Note:** It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle. It should be noted that the command should also be handed back to the correct unit with [`GIVE COMMAND`].
+**Note:** It may therefore be useful to command castle or ship occupants to re-enter their own ship, which they may be able to do after the battle. It should be noted that the command should also be handed back to the correct unit with [[cmd-give|`GIVE COMMAND`]].
 
-Special rules apply to units with the FLEE status. These units can still move after combat, even if they would otherwise not be able to execute a long order. Furthermore, these units cannot guard regions. Any guarding performed is automatically canceled when the unit assumes the FLEE status. This happens at the beginning of the turn, which means that all effects of [[cmd-guard]] are immediately negated.
+Special rules apply to units with the FLEE status.
+These units can still move after combat, even if they would otherwise not be able to execute a long order.
+Furthermore, these units cannot guard regions. Any guarding performed is automatically canceled when the unit assumes the FLEE status.
+This happens at the beginning of the turn, which means that all effects of [[cmd-guard]] are immediately negated.
 
 ## Combat on and with ships
 
-Sea battles are fought like land battles: The [ships] board each other and the units come at each other. After the battle, it is possible for the units to carry out further long orders.
+Sea battles are fought like land battles: The [[ships]] board each other and the units come at each other. After the battle, it is possible for the units to carry out further long orders.
 
-If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round. It therefor does not help to leave the ship before the battle begins. The [tactics round][Tactician] and the first round are not counted, so the maximum possible damage is 20%.
+If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round. It therefor does not help to leave the ship before the battle begins.
+The [[tactics|tactics round]] and the first round are not counted, so the maximum possible damage is 20%.
 
 More damage can occur if sea serpents are involved in the battle. These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.
 
 If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage].
 
-If you want to land in a region [guarded][`GUARD`] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round. This gives your enemies some time to prepare.
+If you want to land in a region [[cmd-guard|guarded]] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round. This gives your enemies some time to prepare.
 
-From land you can attack a ship immediately. Units on ships join the battle rows normally according to their `COMBAT` and [[cmd-help]][`HELP COMBAT`] status if their allies or they themselves are attacked.
+From land you can attack a ship immediately. Units on ships join the battle rows normally according to their `COMBAT` and [[cmd-help|`HELP COMBAT`]] status if their allies or they themselves are attacked.
 
 ## Piracy
 
 Every captain has the chance to win a prize by capturing ships in adjacent regions.
 
-The captain lies in wait for ships that end their movement in a neighboring region. Once there, the crew can act as normal in the next round. With the help of [`FOLLOW SHIP`], for example, you could also just track your victims for the time being.
+The captain lies in wait for ships that end their movement in a neighboring region. Once there, the crew can act as normal in the next round. With the help of [[cmd-follow|`FOLLOW SHIP`]], for example, you could also just track your victims for the time being.
 
 There are a few things to bear in mind with the whole story:
 
@@ -295,57 +311,43 @@ There are a few things to bear in mind with the whole story:
 
 - If there are several potential targets to choose from, the captain will select one at random.
 
-- Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set [`HELP FIGHT`][`HELP COMBAT`]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
+- Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set [[cmd-help|`HELP COMBAT`]]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
 
 ## The End
 
 After the battle, the dead are tallied and all usable material from wiped-out units is collected and distributed among the survivors.
 
-Units that were injured in battle remain injured. This is also displayed in the report. Injured units will recover over time. Units normally regenerate 5% (some [[races]] more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.
+Units that were injured in battle remain injured. This is also displayed in the report. Injured units will recover over time. Units normally regenerate 5% (some [[skills-modifiers|races]] more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.
 
-If the region being fought in was guarded by a friendly unit or by a unit that has set a [`HELP GUARD`][`HELP COMBAT`] to its own party ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order. This works even if enemy troops are also guarding the region. It also works if you have attacked yourself (i.e. you have set the `ATTACK` command yourself).
+If the region being fought in was guarded by a friendly unit or by a unit that has set a [[cmd-help|`HELP GUARD`]] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.
+This works even if enemy troops are also guarding the region. It also works if you have attacked yourself (i.e. you have set the `ATTACK` order yourself).
 
-If you have no own or allied units `GUARD`ing the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.
+If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.
 
-The only exception are units with the combat status [`COMBAT FLEE`][`COMBAT`] and units at sea. Units with the status`COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]]`,`[`ROUTE`]` or `[`FOLLOW`][`FOLLOW SHIP`]. After sea battles on oceans you can always execute long orders.
+The only exception are units with the combat status [[cmd-combat|`COMBAT FLEE`]] and units at sea. Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [[cmd-route]] or [[cmd-follow|`FOLLOW SHIP`]]. After sea battles on oceans you can always execute long orders.
 
 ## See also
 
-- [Tactics][Tactician]
-- [War tables]
+- [[tactics]]
+- [[war-tables]]
 
 Continue reading: [[alliances]].
 
-<!-- [Alliances]: ./alliances.md-->
-
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
-[`ATTACK`]: ./cmd-attack.md
+[Weapon characteristics]: ./war-tables.md#weapon-properties
+[Racial skill modifiers]: ./war-tables.md#races-and-their-characteristics
+[this]: ./war-tables.md#armor
+[Magic Resistance]: ./war-tables.md#magic-resistance
+[this table]: ./war-tables.md#endurance
+<!-- TODO: check this link in wiki #damages -->
+[damage]: ./ships.md
+
 [tactics turn]: #tacticians-round
-[`COMBAT`]: ./cmd-combat.md
-[`HELP COMBAT`]: ./cmd-help.md
 [combat rows]: #combat-rows
 [flee]: #fleeing
-[combat at sea]: #combat-on-and-with-ships "Kampf auf Schiffen"
-[fleeing]: #fleeing "Fleeing"
-[unarmed]: #bonuses-and-mali "Boni and Mali"
+[fleeing]: #fleeing
+[combat at sea]: #combat-on-and-with-ships
+[unarmed]: #bonuses-and-mali
 [1]: #bonuses-and-mali
-[Tactician]: ./tactic.md
-[Heroes]: ./cmd-promote.md
-[Weapon characteristics]: ./war-tables.md#waffeneigenschaften
-[Racial skill modifiers]: ./war-tables.md#rasseneigenschaften
-[this]: ./war-tables.md#rüstung
-[Magic Resistance]: ./war-tables.md#magieresistenz
-[this table]: ./war-tables.md#ausdauer
 [2]: #bonuses-and-mali
-[MAKE ammunition]: ./cmd-make.md
-[combat tables]: ./war-tables.md#kampfmodifikatoren
-[`COMBAT FLEE`]: ./cmd-combat.md
-[`GIVE COMMAND`]: ./cmd-give.md
-[`GUARD`]: ./cmd-guard.md
-[ships]: ./ships.md
-[damage]: ./ships.md#schiffsschaden
-[`FOLLOW SHIP`]: ./cmd-follow.md
-[races]: ./skills-modifiers.md
-[`ROUTE`]: ./cmd-route.md
-[War tables]: ./war-tables.md

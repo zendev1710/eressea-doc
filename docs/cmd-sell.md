@@ -4,7 +4,7 @@ alias: cmd-sell
 ---
 # SELL
 
-**`SELL`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*  
+**`SELL`**[<sup>`(l)`</sup>]` `*`number`*` `*`luxusgut`*  
 **`SELL`**[<sup>`(l)`</sup>]` ALLES `*`luxusgut`*
 
 Die im [Handeln] kundige Einheit kann mit diesem Befehl Luxusgüter, in deren Besitz sie ist, an die Bauern verkaufen. Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer [Burgtyp] befindet, in dessen Nähe der Markt abgehalten werden kann, und wenn zweitens überhaupt eine Nachfrage nach dem Produkt besteht. Um etwas zu verkaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen ...

@@ -4,22 +4,25 @@ alias: cmd-group
 ---
 # GROUP
 
-**`GROUP`**`["`*`name`*`"]`
+**`GROUP`**`["`*`name`*`"]`  
 
-Mit dem Befehl `GROUP` kann man die Partei in Untergruppen zerteilen, die einen andere [[cmd-help]]-Status haben als der Rest der Partei. Dadurch kann man z.B. ein Söldnerheer aufstellen, das auf der Insel des Auftragsgebers ihm hilft, während der Rest der Partei es nicht tut.
+With the `GROUP` order you can divide the faction into subgroups that have a different [[cmd-help|`HELP`]] status than the rest of the faction.
+This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.
 
-Ebenso kann man für Teilnehmer eines Turnieres alle `HELP COMBAT` Zuordnungen auflösen, damit man nicht in einen Zweikampf eingreift. Auch Angriffe auf Verbündete, mit einem parteigetarnten Trupp von Einheiten sind möglich, ohne das man sich durch das Lösen von `HELP COMBAT` auf Parteiebene verrät. Und wer z.B. seine Wälder auch vor Verbündeten schützen will, der stellt eine Truppe von Waldwächtern auf, die niemandem `HELP GUARD` geben. Für jede Gruppe kann man außerdem ein eigenes [[cmd-prefix]] festlegen.
+You can also do all of them for participants in a tournament `HELP COMBAT` break down assignments so that you don't intervene in a duel.
+Attacks on allies with a faction-camouflaged squad of units are also possible without having to detach `HELP COMBAT` reveals at faction level.
+And if you want to protect your forests from allies, for example, you can set up a troop of forest guards who won't tell anyone `HELP GUARD` give.
+You can also set your own [[cmd-prefix]] for each group.
 
-Eine Einheit gibt zum Beispiel den Befehl `GROUP` "Freibeuter der Meere", um in eine Gruppe einzutreten. Wenn es eine Gruppe dieses Namens noch nicht gibt, wird eine angelegt, die anfangs immer den gleichen `HELP`-Status wie die Partei hat, auch wenn die Einheit vorher in einer anderen Gruppe war. Mit `GROUP` ohne Namen verlässt man eine Gruppe. Verlassen alle Einheiten eine Gruppe, wird diese aufgelöst. Sterben hingegen alle Einheiten einer Gruppe, bleibt die Gruppe bestehen und kann erneut betreten werden.
+For example, a unit gives the order `GROUP` "Privateers of the Seas" to join a group.
+If a group with this name does not yet exist, one will be created that initially always has the same name `HELP` status like the faction has, even if the unit was previously in a different group.
+With `GROUP` you leave a group without a name.
+If all units leave a group, it is dissolved.
+However, if all units in a group die, the group remains and can be rejoined.
 
-Jede Einheit kann nur einer Gruppe angehören. Eine Einheit, die einen `HELP` Befehl gibt, ändert den Status ihrer Gruppe, wenn sie einer Gruppe zugeteilt ist, oder den Status der Partei, wenn sie keiner Gruppe angehört.
+Each unit can only belong to one group.
+A unit that unites `HELP` giving orders changes the status of her faction if she is assigned to a group, or the status of the faction if she is not in a group.
 
-In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon passiert, wenn Einheiten parteigetarnt sind.
-
-|---------|----------------------------------------------------------------------------------|
-| **E3A** | Für E3 gilt das nicht! Hier sind alle Einheiten einer Partei in dem selben Heer. |
+In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->
-
-[`HELP`]: ./cmd-help.md
-[PREFIX]: ./cmd-prefix.md

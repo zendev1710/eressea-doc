@@ -2,28 +2,27 @@
 # cSpell:locale en
 alias: comment-slashes
 ---
-# COMMENT
+# COMMENT (//)
 
-**`//`**` `*`Kommentar`*
+**`//`**` `*`Comment`*  
 
-Im Gegensatz zu einem Kommentar hinter einem [;] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
+In contrast to a comment after a [[cmd-comment|;]] (semicolon), this comment is included in the template **for the next round's** evaluation.
 
     ```
-    UNIT 123;     Hundertdreiundzwanzig [20,450$]
-    // Unterhalt Magierturm
-    @GIVE 234 1000 SILBER
-    // Ab und an Stangenwaffen lernen
+    UNIT 123;     One hundred and twenty-three [20,450$]
+    // Upkeep Mage Tower
+    @GIVE 234 1000 SILVER
+    // Learn polearms every now and then
     TAX Steuern ein
     ```
 
-Das `//` muß wie ein Befehl behandelt werden, man darf also nicht
+The `//` has to be treated like an order, so you **can't** do:
 
     ```
-    @GIVE 345 100 SILBER // wegen Sägewerk
+    @GIVE 345 100 SILVER // because of sawmill
     ```
 
-machen. Außerdem muß ein Leerzeichen hinter den `//` sein.
+!!! note
+    There must also be a space after the `//`.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
-
-[;]: ./cmd-comment.md

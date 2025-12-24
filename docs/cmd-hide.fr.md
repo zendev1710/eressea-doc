@@ -4,39 +4,45 @@ alias: cmd-hide-fr
 ---
 # HIDE
 
-**`HIDE`**`[`*`stufe`*`]`  
-**`HIDE`**`PARTEI [NOT]`  
-**`HIDE`**`PARTEI NUMBER [`*`nummer`*`]`  
-**`HIDE`**` `*`rasse`*
+**`HIDE`**`[`*`level`*`]`  
+**`HIDE`**`FACTION [NOT]`  
+**`HIDE`**`FACTION NUMBER [`*`number`*`]`  
+**`HIDE`**` `*`race`*  
 
-Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht. `stufe` kann natürlich nicht höher als das [Talent] der Einheit sein. Ohne Parameterangabe wird das Maximum gesetzt.
+With the first variant you can adjust how “intensively” a unit tries to camouflage itself. `level` obviously cannot be higher than the unit's [[camouflage|camouflage skill]].
+If no parameters are specified, the maximum is set.
 
-Mit `HIDE PARTEI` kann man seine Parteizugehörigkeit zu verbergen versuchen. Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt. Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit [Spionage] erkennen. Mit `HIDE PARTEI NOT` wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.
+With `HIDE FACTION` you can try to hide your faction affiliation.
+The faction affiliation is then displayed as *anonymous* to other players.
+In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can only be recognized using [espionage].
+With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.
 
-`HIDE PARTEI NUMBER nummer` tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen. Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen. Um wieder der eigenen Partei zugehörig zu erscheinen, muß für `nummer` die eigene Parteinummer verwendet werden. Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl. Parteien, die von der Partei oder Gruppe der Einheit [HELP xyz PARTEITARNUNG] bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.
+`HIDE FACTION NUMBER number` camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.
+There is no easy way to see through this form of camouflage. In order to appear to belong to your own faction again, you have to `number` your own faction number can be used.
+The specified faction must be known to the faction issuing the order, i.e. appear in their report, otherwise the order will fail. Parties that receive [[cmd-help|`[HELP xyz FACTION CAMO]`]] from the unit's faction or group can see the unit's true faction affiliation.
 
-Soweit, so einfach. Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:
+So far, so simple. However, this camouflage comes with a few special features, which are listed here in no particular order:
 
-- Die (scheinbare) Rasse der Einheit ändert sich dadurch nicht, ein Goblin bleibt ein Goblin, auch wenn er sich als der Partei der Lichtelfen zugehörig ausgibt.
-- Die Einheiten ändern ihr Verhalten durch die Tarnung nicht. Sie spenden z.B. kein Silber an die Verbündeten der Partei, als die sie sich tarnen. Wer also die Tarnung perfektionieren will, sollte mit den Einheiten eine Gruppe bilden und für diese Gruppe entsprechende Helfe-Stati setzen.  
-  So getarnte Einheiten können auch nicht plötzlich Gebäude oder Schiffe betreten, die sie ansonsten nicht betreten dürfen, oder Steuern eintreiben, wo ihnen das normalerweise untersagt ist.
-- Im Kampf bilden derartige Einheiten ein eigenes Heer. Beispiel: Es gibt drei Parteien, die Waldelfen, die Flusselfen und die Eisenzwerge. Alle Parteien habe jeweils eine Einheit: Waldelf, Flusself und Eisenzwerg. Während Waldelf sich als Flusself tarnt, behalten alle anderen Einheiten ihre wahre Identität bei.  
-  Nun greift der Eisenzwerg den Flusself an. Dadurch erscheinen im Kampfreport drei Heere: Die Eisenzwerge, und zwei Flusselfen-Heere.
+- The (apparent) race of the unit does not change as a result; a goblin remains a goblin, even if he claims to belong to the light elves faction
+- The units do not change their behavior due to the camouflage. For example, they do not donate silver to the allies of the faction they disguise themselves as.
+  So if you want to perfect the camouflage, you should form a group with the units and set appropriate help statuses for this group.
+  Units cloaked in this way cannot suddenly enter buildings or ships that they are otherwise not allowed to enter, or collect taxes where they are normally prohibited from doing so
+- In battle, such units form their own army.
+  Example: There are three parties, the Wood Elves, the River Elves and the Iron Dwarves. All parties each have a unit: Wood Elf, River Elf and Iron Dwarf.
+  While Wood Elf disguises itself as a River Elf, all other units retain their true identities.
+  Now the iron dwarf attacks the river elf. This means that three armies appear in the battle report: the iron dwarves and two river elf armies.
 
-[GROUP] hat allerdings auch die Nebenwirkung mit den mehreren Heeren. Auf diese Weise kann man also nicht sehen ob Einheiten sich als eine fremde Partei ausgeben oder ob der Betreffende nur mehrere Gruppen hat.
+However, [[cmd-group]] also has the side effect of having multiple armies.
+This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
 
-Mit `HIDE rasse` können [Dämonen] sich als andere Rasse tarnen.
+With `HIDE race` [demons] can disguise themselves as another race.
 
 ## Voir aussi
 
-- [Tarnung][Talent]
-- [Wahrnehmung]
+- [espionage]
+- [[camouflage]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 
-[Talent]: ./camouflage.md
-[Spionage]: ./skills-list.md
-[HELP xyz PARTEITARNUNG]: ./cmd-help.md
-[GROUP]: ./cmd-group.md
-[Dämonen]: ./races.md#demons
-[Wahrnehmung]: ./camouflage.md
+[espionage]: ./skills-list.md#espionnage
+[demons]: ./races.md#demons

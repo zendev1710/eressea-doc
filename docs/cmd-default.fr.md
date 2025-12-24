@@ -22,7 +22,7 @@ Eingeschickte Befehle:
      SELL 100 Öl
      // nächste Woche mehr Balsam kaufen
      @GIVE xyz ALLES Balsam ; Transporter
-     GIVE abc 100 Silber
+     GIVE abc 100 Silver
      RECRUIT 1
 
 Defaultbefehle der nächsten Woche
@@ -49,16 +49,16 @@ Eingeschickte Befehle:
      SELL 100 Öl
      // nächste Woche lernen
      @GIVE xyz ALLES Balsam ; Transporter
-     GIVE abc 100 Silber
+     GIVE abc 100 Silver
      RECRUIT 1
-     DEFAULT "GIVE 123 50 Silber; nicht vergessen"
+     DEFAULT "GIVE 123 50 Silver; nicht vergessen"
      DEFAULT "LEARN Handel" ; löscht BUY und SELL
      DEFAULT "XXX" ; kein Befehl, wird nicht übernommen
 
 Defaultbefehle der nächsten Woche
 
      UNIT abc
-     GIVE 123 50 Silber; nicht vergessen
+     GIVE 123 50 Silver; nicht vergessen
      LEARN Handel
      // nächste Woche lernen
      @GIVE xyz ALLES Balsam ; Transporter
@@ -77,7 +77,7 @@ Der MOVE-Befehl spielt eine besondere Rolle: Er wird nicht in die Vorlage übern
 Defaultbefehle
 
      LEARN Reiten
-     @GIVE 0 10 Silber
+     @GIVE 0 10 Silver
      // no comment
 
 Eingeschickte Befehle
@@ -111,22 +111,22 @@ DEFAULT löscht also auch hier die *langen* Defaultbefehle (hier WORK) und setzt
 Es ist möglich, MOVE mit DEFAULT zu setzen. Vorlage:
 
      WORK
-     @GIVE 0 1 Silber
+     @GIVE 0 1 Silver
 
 Eingeschickte Befehle
 
      DEFAULT "MOVE o"
      WORK
-     @GIVE 0 2 Silber
+     @GIVE 0 2 Silver
 
 Defaultbefehle der nächsten Woche
 
      MOVE o
-     @GIVE 0 2 Silber
+     @GIVE 0 2 Silver
 
 Defaultbefehle der übernächsten Woche, wenn sonst keine Befehle für die Einheit eingeschickt werden:
 
-     @GIVE 0 2 Silber
+     @GIVE 0 2 Silver
 
 Auch hier würde die Einheit also dann keinen langen Befehl ausführen.
 

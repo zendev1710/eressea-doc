@@ -1,0 +1,24 @@
+.md-grid {
+  max-width: initial;
+}
+
+/* Style général pour les icônes SVG */
+img.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+  filter: var(--icon-filter);
+}
+
+/* Light mode → icônes noires */
+[data-md-color-scheme="default"] {
+  --icon-filter: invert(0);
+}
+
+/* Dark mode → icônes blanches */
+[data-md-color-scheme="slate"] {
+  --icon-filter: invert(1);
+}
+

@@ -5,15 +5,17 @@ alias: cmd-language
 # LANGUAGE
 
 **`LANGUAGE`**`de`  
-**`LANGUAGE`**`en`
+**`LANGUAGE`**`en`  
 
-So ändert man die Sprache der Partei von Englisch auf Deutsch oder umgekehrt. Der Befehl muss ganz normal von irgendeiner Einheit gegeben werden. Die neue Sprache wird erst mit der folgenden Auswertung aktiv. Die Befehle, in denen man den LANGUAGE-Befehl schickt, sind also noch in der alten Sprache. Die Auswertung und Zugvorlage erhält man dann in der neuen Sprache. Der Server versucht, die [Zugvorlage] schon in die neue Sprache zu übersetzen, es ist aber nicht in allen Fällen garantiert, dass das vollständig klappt.
+This is how you change the language of the faction from English to German or vice versa.
+The order must be given by some unit as normal.
+The new language only becomes active with the following evaluation.
+The orders in which you send the `LANGUAGE` order are still in the old language.
+The evaluation and move template are then received in the new language.
+The server is trying to translate the [[orders]] into the new language, but it is not guaranteed that this will work completely in all cases.
 
 ## See also
 
 - [[cmd-locale]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LANGUAGE&oldid=16697] -->
-
-[Zugvorlage]:./commands.md
-[LOCALE]:./cmd-locale.md

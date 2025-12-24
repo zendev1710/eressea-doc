@@ -1,10 +1,10 @@
 ---
 # cSpell:locale fr, en
-alias: cmd-commentaire-fr
+alias: cmd-comment-fr
 ---
-# Commentaire (;)
+# COMMENTAIRE (;)
 
-Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
+Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silvervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
 
     ```
     ERESSEA abcd "hier_passwort_eintragen"
@@ -22,18 +22,18 @@ Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Komment
 Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
 
     ```
-    REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silber) 
+    REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silver)
     ; ECheck Lohn 15
-    ;  . .  |Bauern:       8534 +9|Silber: 47588297 +48400|Unterhalt: 2379414 +2420|
+    ;  . .  |Bauern:       8534 +9|Silver: 47588297 +48400|Unterhalt: 2379414 +2420|
     ; . E w |Rekruten:      213 +0|Pferde:     2532     -8|Gewinn:      51204   +54|
     ;  . .  |Pl. frei:     1466 -9|                       |                        |
     ;       |Gewürz:        125 +0|Juwel:       175     +0|Myrrhe:        125    +0|
     ;       |Öl:             75 +0|Seide:       150     +0|Weihrauch:     100    +0|
     ; Prod.: Balsam:     -4   +0    max. handelbar: 85
     ; Straße (100%) in Osten
-    ; Regionseinnahmen:  2660 Silber
-    ; Nahrungskosten:    2900 Silber
-    ; Materialpool: 4270 Silber, 1 Speer
+    ; Regionseinnahmen:  2660 Silver
+    ; Nahrungskosten:    2900 Silver
+    ; Materialpool: 4270 Silver, 1 Speer
 
     ; -   -   -   -   -   -   -   -   -   -   -   -
     ; Auf freiem Feld:
@@ -49,7 +49,7 @@ Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen. Da die
 
 Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden. Dies erledigen manche Tools wie \[\[Magellan\] oder VPP.
 
-## Externe Links
+## Liens externes
 
 - [Vorlage und VPP auf Gulrak.de]
 

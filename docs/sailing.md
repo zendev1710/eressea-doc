@@ -115,6 +115,6 @@ Continue reading: [[production]].
 [Piracy]: ./war.md#piracy
 <!-- [items]: ./items.md#getenständen TODO: statuses but where ? -->
 [Weights and Capacities]: ./travel.md#travel-by-land-or-by-sea
-[convoy]: ./ships.md#convoi
+[convoy]: ./ships.md#convoy
 [Aquarians]: ./races.md#aquarians
 [Battle on ship]: ./war.md#combat-on-and-with-ships

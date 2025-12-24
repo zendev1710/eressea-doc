@@ -4,9 +4,9 @@ alias: cmd-recruit-fr
 ---
 # RECRUIT
 
-**`RECRUIT`**` `*`anzahl`*
+**`RECRUIT`**` `*`number`*
 
-Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse] zwischen 40 und 150 Silber an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silber bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silber, holt sie es sich aus dem [Silberpool].
+Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse] zwischen 40 und 150 Silver an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silver bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silver, holt sie es sich aus dem [Silverpool].
 
 Man kann nur Personen der eigenen Parteirasse anwerben. [Migranten]-Einheiten werben also keine weiteren Migranten an. Die Bauern einer Region haben keine Rasse. Sie "entscheiden" sich erst bei der Rekrutierung, welcher Rasse sie angehören.
 
@@ -26,7 +26,7 @@ Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführ
 
 [Rasse]: ./races.md
 [Rekrutierungskosten]: ./skills-modifiers.md
-[Silberpool]: ./items-pool.md#der-silberpool
+[Silverpool]: ./items-pool.md#der-silberpool
 [Migranten]: ./races.md#menschen
 [Mischen von Talenten]: ./skills.md#mischen-von-talenten
 [Geld]: ./silver.md#rekrutieren

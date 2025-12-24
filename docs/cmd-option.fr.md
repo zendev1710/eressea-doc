@@ -28,15 +28,15 @@ Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswe
 
 ## Alte Optionen
 
-Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool als Standard gesetzt. Eine Deaktivierung ist nicht mehr möglich
+Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silverpool als Standard gesetzt. Eine Deaktivierung ist nicht mehr möglich
 
-`SILBERPOOL`: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silber von allen Einheiten der Region gesammelt wird.
+`SILVERPOOL`: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silver von allen Einheiten der Region gesammelt wird.
 
-`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silber mit dem [Silberpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[cmd-reserve]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVE` vergaß.
+`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silver mit dem [Silverpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[cmd-reserve]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVE` vergaß.
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
 [Vorlage für die Befehle der nächsten Runde]: ./commands.md
 [Materialpool]: ./items-pool.md
-[Silberpool]: ./items-pool.md#der-silberpool
+[Silverpool]: ./items-pool.md#der-silberpool
 [`RESERVE`]: ./cmd-reserve.md

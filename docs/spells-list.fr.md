@@ -180,7 +180,7 @@ alias: liste-des-sorts
 [Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
 [Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
 [Blutrausch]: ./spells-descriptions.md#blutrausch
-[Chaosfluch]: ./spells-descriptions.md#chaosfluch
+[Chaosfluch]: ./spells-descriptions.md#chaos-curse
 [Chaossog]: ./spells-descriptions.md#chaossog
 [Drachenruf]: ./spells-descriptions.md#drachenruf
 [Erdelementar]: ./spells-descriptions.md#erdelementar

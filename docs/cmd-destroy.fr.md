@@ -4,18 +4,20 @@ alias: cmd-destroy-fr
 ---
 # DESTROY
 
-**`DESTROY`**[<sup>`L`</sup>]`[`*`stufen`*`]`  
-**`DESTROY`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*
+**`DESTROY`**[<sup>`L`</sup>]`[`*`level`*`]`  
+**`DESTROY`**[<sup>`L`</sup>]`[`*`level`*`] STREET`*`direction`*  
 
-Eine Einheit, die das Kommando über ein [Schiff] oder ein [Gebäude] hat, kann dieses jederzeit mit diesem Befehl verkleinern oder ganz zerstören. Dazu braucht sie kein Talent. Der Parameter *stufen* bezeichnet dabei bei Gebäuden die Größenpunkte, um die das Gebäude verkleinert werden soll, bei Schiffen die Prozentpunkte. Wird kein Parameter angegeben, so wird die Struktur komplett zerstört. Schiffe können allerdings nur in Küstengebieten verkleinert oder versenkt werden, die Besatzung weigert sich, das Schiff auf hoher See zu beschädigen!
+A unit in command of a [[ships|ship]] or [[buildings|building]] can shrink or destroy it at any time using this order.
+She doesn't need any skill for that. For buildings, the *step*parameter denotes the size points by which the building should be reduced in size, and for ships, the percentage points.
+If no parameter is specified, the structure is completely destroyed.
+However, ships can only be reduced in size or sunk in coastal areas; the crew refuses to damage the ship on the high seas!
 
-Mit `DESTROY [`*`stufen`*`] STRASSE`*`richtung`* kann man eine [Straße] abreißen oder beschädigen. Dabei darf keine Partei die Region bewachen, die nicht HELP GUARD zur eigenen Partei gesetzt hat. Um eine Straße zu beschädigen oder zu zerstören, benötigt eine Einheit das Talent Straßenbau. Man kann einen Größenpunkt pro Talentpunkt zerstören.
+With `DESTROY [`*`level`*`] STREET`*`direction`* you can demolish or damage a [[roads|road]].
+No faction is allowed to guard the region that has not set HELP GUARD as its own faction.
+To damage or destroy a road, a unit requires the Road Construction skill. You can destroy one size point per skill point.
 
-Eine Einheit kann jeweils nur eine Struktur (Gebäude, Straße, Schiff) pro Woche zerstören.
+A unit can only destroy one structure (building, road, ship) per week.
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[Schiff]: ./ships.md
-[Gebäude]: ./buildings.md
-[Straße]: ./roads.md

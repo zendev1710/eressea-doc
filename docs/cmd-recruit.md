@@ -4,9 +4,9 @@ alias: cmd-recruit
 ---
 # RECRUIT
 
-**`RECRUIT`**` `*`anzahl`*
+**`RECRUIT`**` `*`number`*
 
-Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [[races|Rasse]] zwischen 40 und 150 Silber an [[skill-modifiers|Rekrutierungskosten]] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silber bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silber, holt sie es sich aus dem [Silberpool].
+Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [[races|Rasse]] zwischen 40 und 150 Silver an [[skills-modifiers|Rekrutierungskosten]] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silver bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silver, holt sie es sich aus dem [Silverpool].
 
 Man kann nur Personen der eigenen Parteirasse anwerben. [Migranten]-Einheiten werben also keine weiteren Migranten an. Die Bauern einer Region haben keine Rasse. Sie "entscheiden" sich erst bei der Rekrutierung, welcher Rasse sie angehören.
 
@@ -24,7 +24,7 @@ Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführ
 
 <!-- From [https://wiki.eressea.de/index.php?title=RECRUIT&oldid=15790] -->
 
-[Silberpool]: ./items-pool.md#the-silver-pool
+[Silverpool]: ./items-pool.md#the-silver-pool
 [Migranten]: ./races.md#humans
 [Mischen von Talenten]: ./skills.md#mixing-skills
 [Geld]: ./silver.md#recruiting

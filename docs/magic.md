@@ -286,7 +286,7 @@ Ein [Magierturm][Andere Gebäude#magierturm] erhöht die Aura-Regeneration um 75
 
 Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über [Vertraute] finden.
 
-## The astral space
+## The Astral Space
 
 **Hinweis:** Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.
 
@@ -357,7 +357,7 @@ Continue reading: [[schools-of-magic]].
 [Zauber]: ./spells-list.md
 [Waffen oder Rüstungen]: ./war-tables.md#magic-resistance
 [Elfen]: ./skills-modifiers.md
-[Chaosfluch]: ./spells-descriptions.md#chaosfluch
+[Chaosfluch]: ./spells-descriptions.md#chaos-curse
 [Vertraute]: ./familiars.md
 [Wesen]: ./monsters.md#braineaters
 s[Zauberbeschreibungen]: ./spells-descriptions.md

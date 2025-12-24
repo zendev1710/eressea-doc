@@ -98,7 +98,7 @@ Avec les unités TEMP, tu peux faire toutes sortes de choses et contourner les r
 Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui va se passer ? C'est très simple.
 
      GIVE TEMP 123 ALL
-     GIVE TEMP 123 ALL PERSONS
+     GIVE TEMP 123 ALL MEN
      MAKE TEMP 123
           ; ... NAME et autres nouveaux ordres de l'unité
      END

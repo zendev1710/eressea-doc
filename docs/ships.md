@@ -49,7 +49,7 @@ Ships - type, range, capacity, needed sailing skill for captain/crew, needed bui
 | Galleon    |     5 |    20000 |      5/250** |              5 | 2000 |
 
 \* Dragonship speed depends on captain sailing skill.  
-\*\* Only units from lelel 2 in sails are taken into account for the overall skill of the galleon.  
+\*\* Only units from level 2 in sails are taken into account for the overall skill of the galleon.  
 
 Dragon ship speed.
 
@@ -57,7 +57,7 @@ Dragon ship speed.
 |---------|---|---|----|----|-----|
 | Range   | 5 | 6 | 7  | 8  | 9   |
 
-## Convoi
+## Convoy
 
 De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple
 
@@ -90,7 +90,7 @@ Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb
 
     ```
     GIVE 123 1 SHIP
-    GIVE 123 ALL PERSONS
+    GIVE 123 ALL MEN
     ```
 
 ## Voir aussi

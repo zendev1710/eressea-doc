@@ -1543,6 +1543,6 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 [Gürtel der Trollstärke]: ./belt-of-troll-strength.md "Gürtel der Trollstärke (to be documented)"
 [Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md "Ring der Unsichtbarkeit"
-[magischen Kräuterbeutel]: ./magical-herb-bag.md "Magischer Kräuterbeutel (to be documented)"
+[magischen Kräuterbeutel]: ./magical-herb-pouch.md "Magischer Kräuterbeutel (to be documented)"
 [Ents]: ./monsters.md#ents "Ent"
 [Zauberliste E2]: ./spells-list.md "Zauberliste E2"

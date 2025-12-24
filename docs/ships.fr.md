@@ -120,7 +120,7 @@ Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb
 
     ```
     GIVE 123 1 SHIP
-    GIVE 123 ALL PERSONS
+    GIVE 123 ALL MEN
     ```
 
 ## Voir aussi

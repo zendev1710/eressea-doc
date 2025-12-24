@@ -152,12 +152,12 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [hier]: ./war-tables.md#rasseneigenschaften
 [tactics]: ./tactic.md
 [groupes]: ./cmd-group.md
-[commercer]: ./silver.fr.md#commerce
+[commercer]: ./silver.md#commerce
 [déplacent]: ./travel.md
 [ordres longs]: ./commands.md
-[nager]: ./sailing.fr.md#nager
+[nager]: ./sailing.md#nager
 [compétences payantes]: ./skills.md
 [Héros]: ./cmd-promote.md
-[ici]: ./buildings-others.fr.md#celcle-de-pierres
-[1]: ./resources.fr.md#ressources-minières
-[2]: ./buildings-others.fr.md#mine
+[ici]: ./buildings-others.md#celcle-de-pierres
+[1]: ./resources.md#ressources-minières
+[2]: ./buildings-others.md#mine

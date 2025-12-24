@@ -310,6 +310,6 @@ alias: zauberliste
 
 Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
 
-Weiterlesen: [[alchhemie|Tränke]].
+Weiterlesen: [[alchemie|Tränke]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->

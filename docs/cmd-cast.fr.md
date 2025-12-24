@@ -4,24 +4,25 @@ alias: cmd-cast-fr
 ---
 # CAST
 
-**`CAST`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`
+**`CAST`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Spell`*`" [`*`parameter`*`] ...`
 
-Mit diesem Befehl wird eine Magiereinheit versuchen, den genannten Zauberspruch zu zaubern.
+With this order, a mage unit will attempt to cast the named spell.
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] CAST ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus. Man kann aber weitere Zauber sprechen.
+[<sup>(l)</sup>][<sup>`(l)`</sup>] Although CAST is not a long order, it excludes other long orders. But you can cast other spells.
 
-Achtung die Modifikatoren REGION und LEVEL sind nicht für jeden Zauber zutreffend. REGION kann nur bei [Fernzaubern] verwendet werden und LEVEL macht nur bei Zaubersprüchen mit variablen [Kosten] Sinn. Manche Zauber haben noch weitere Parameter.
+Please note that the REGION and LEVEL modifiers do not apply to every spell.
+REGION can only be used with [ranged spells], and LEVEL only makes sense with variable [cost] spells.
 
-Die Anwendung der Zauber ist zum einen im Kapitel [Magie] genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden. Diese erhält man, wenn man den Zauber neu erhält und kann ihn sich mit [`SHOW ALLE ZAUBER`] nochmal anzeigen lassen.
+!!! note
+    Some spells have additional parameters.
 
-Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine Einheit verwenden, muß man den [[cmd-combatspell]] setzen und dann eine Einheit [attackieren] oder attackiert werden. Dies kann allerdings zu größeren Schlachten führen!
+The use of the spells is explained in more detail in the [[magic]] chapter, and can also be found in the spell description itself.
+You get this when you get the spell again and can use it with [[cmd-show|`SHOW ALL SPELLS`]] display again.
+
+Combat spells cannot simply be cast. If you want to use this against a unit, you have to set the [[cmd-combatspell]] and then [[cmd-attack|attack]] a unit or be attacked. However, this can lead to bigger battles!
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
 [<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
-[Fernzaubern]: ./magic.md#fernzauber
-[Kosten]: ./magic.md#komponenten
-[Magie]: ./magic.md
-[`SHOW ALLE ZAUBER`]: ./cmd-show.md
-[`COMBATSPELL`]: ./cmd-combatspell.md
-[attackieren]: ./cmd-attack.md
+[ranged spells]: ./magic.md#magie-à-distance
+[cost]: ./magic.md#composants

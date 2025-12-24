@@ -4,14 +4,16 @@ alias: cmd-combatspell
 ---
 # COMBATSPELL
 
-**`COMBATSPELL`**` [LEVEL `*`n`*`] "<Zauberspruch>"`  
-**`COMBATSPELL`**`["<Zauberspruch>"] NOT`
+**`COMBATSPELL`**` [LEVEL `*`n`*`] "<Spell>"`  
+**`COMBATSPELL`**`["<Spell>"] NOT`  
 
-Der genannte Zauberspruch wird - je nach Zauber - als Prä-, Post- oder normaler Kampfzauber gewählt. Optional kann dabei eine Stufe angegeben werden, was nützlich sein kann, um beispielsweise Aura für einen Postkampfzauber aufzusparen. Die gewählten Zauber werden von der Einheit automatisch eingesetzt, sollte sie in Kämpfe verwickelt werden.
+The spell mentioned is chosen -depending on the spell -as a pre-, post-, or normal combat spell.
+Optionally, a level can be specified, which can be useful, for example, to save aura for a post-combat spell.
+The chosen spells are automatically used by the unit should it become involved in combat.
 
-Mit `COMBATSPELL <Zauberspruch> NOT` bzw. `COMBATSPELL NOT` wird das Setzen eines bzw. aller Kampfzauber rückgängig gemacht.
+With `COMBATSPELL <Spell> NOT` or `COMBATSPELL NOT` the setting of one or all combat spells is undone.
 
-Nicht alle Zaubersprüche sind Kampfzauber, dieses kann der Beschreibung der Zauber, welche man im Spiel erhält, entnommen werden. Die Beschreibung eines Zaubers kann man sich mit dem Befehl [[cmd-show]] erneut zeigen lassen.
+Not all spells are combat spells, this can be found in the description of the spells you receive in the game. The description of a spell can be shown again using the [[cmd-show]] order.
 
 ## See also
 

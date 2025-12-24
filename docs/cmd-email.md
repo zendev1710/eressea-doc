@@ -4,8 +4,8 @@ alias: cmd-email
 ---
 # EMAIL
 
-**`EMAIL`**`"`*`adresse@example.com`*`"`
+**`EMAIL`**`"`*`my-email-address@example.com`*`"`
 
-Mit diesem Befehl setzt der Spieler seine eMail-Adresse, an die die Auswertung geschickt wird.
+With this order the player sets his email address to which the evaluation will be sent.
 
 <!-- From [https://wiki.eressea.de/index.php?title=EMAIL&oldid=3998] -->

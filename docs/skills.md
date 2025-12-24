@@ -107,7 +107,7 @@ Continue reading: [skills list].
 [déplacements]: ./travel.md
 [combats]: ./war-tables.md
 
-[espionage]: ./skills-list.md#espionnage
+[espionage]: ./skills-list.md#espionage
 [1]: ./buildings-others.md#academy
 [académie]: ./buildings-others.md#academy
 [nain]: ./races.md#dwarves

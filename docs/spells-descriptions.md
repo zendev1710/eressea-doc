@@ -36,6 +36,16 @@ These magical runes make a boat or longboat fly for a week. This can then also b
 **Modifiers:** Ship spell  
 **Syntax:** `CAST Airship <ship-id>`  
 
+### Analysis
+
+**Description:**  
+Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear. And just as you can tell from a person"s life song whether they are under a spell, this is also possible with castles, ships or regions.
+**Type:** Normal spell  
+**Rank:** 5  
+**Components:** 3 Aura \* Level  
+**Modifiers:** Ship spell  
+**Syntax:** `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
 ### Analyse Dreams
 
 **Description:**  
@@ -55,16 +65,6 @@ This spell allows the magician to attempt to detect the enchantments of a single
 **Components:** 1 Aura \* Level  
 **Modifiers:** Ship spell  
 **Syntax:** `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
-
-### Analysis
-
-**Description:**  
-Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear. And just as you can tell from a person"s life song whether they are under a spell, this is also possible with castles, ships or regions.
-**Type:** Normal spell  
-**Rank:** 5  
-**Components:** 3 Aura \* Level  
-**Modifiers:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Analyze Song of Life
 
@@ -238,6 +238,16 @@ The enchanted unit begins to babble uninhibitedly, telling you what talents it c
 **Modifiers:**  
 **Syntax:** `CAST Blabbermouth <unit-id>`  
 
+### Blessed Harvest
+
+**Description:**  
+This harvest ritual improves the yields of working farmers in the region by one piece of silver. The more power the druid invests, the longer the spell lasts.
+**Type:** Normal spell  
+**Rank:** 5  
+**Components:** 1 Aura \* Level  
+**Modifiers:** Distance  spell, Ship spell  
+**Syntax:** `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
+
 ### Blick in die Realität <!-- TODO -->
 
 **Description:**  
@@ -350,6 +360,16 @@ This shrill chant echoes throughout the battlefield. The special dissonances in 
 **Modifiers:**  
 **Syntax:** `COMBATSPELL [LEVEL n] Countersong`  
 
+### Create a [[negative-weight-bag]] <!-- TODO: check -->
+
+**Description:**  
+This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight. Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag. It is also not possible to transport one magic bag in another. The bag itself weighs 1 kg.
+**Type:** Normal spell  
+**Rank:** 5  
+**Components:** 30 Aura, 1 permanent Aura, 5000 Silver  
+**Modifiers:** Ship spell  
+**Syntax:** `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+
 ### Create a [[belt-of-troll-strength]]
 
 **Description:**  
@@ -360,7 +380,7 @@ This magical artifact grants the wearer the strength of a full-grown cave troll.
 **Modifiers:** Ship spell  
 **Syntax:** `CAST "Create A Belt of Troll Strength"`  
 
-### Create a [[dreameye]]
+### Create a [[dreameye]] <!-- TODO: check -->
 
 **Description:**  
 A dragon"s eye cast with this spell and consumed at communion allows the user to enter and read another person"s dreams. For a long time, such an ability was considered useless until the former Wood Elf master of battle magic, Liarana Sundew from the Thall Academy, presented a special application: Generals often dream restlessly before major battles and reveal their plans in dreams. This can give the user a huge advantage in the upcoming battle. But be careful: interpreting dreams is a difficult matter.  
@@ -380,35 +400,15 @@ A dragon"s eye cast with this spell and consumed at communion allows the user to
 **Modifiers:** Ship spell  
 **Syntax:** `CAST "Create A Flaming Sword"`  
 
-### Create [[iron-golem|Iron Golems]]
-
-**Description:**  
-The more power the magician invests, the more golems can be created. Each golem has a 15 percent chance of turning to dust each round. If you give the golems the order MAKE SWORD/BIHANDER or MAKE SHIELD/CHAIN ​​MAIL/PLATE ARMOR, 4 iron bars are installed per golem and the golem dissolves.
-**Type:** Normal spell  
-**Rank:** 4  
-**Components:** 2 Aura \* Level, 1 Eisen \* Level, 1 Wasser des Lebens  
-**Modifiers:**  
-**Syntax:** `CAST [LEVEL n] "Create Iron Golems"`  
-
-### Create a [[magical-herb-bag]]
+### Create a [[magical-herb-pouch]]
 
 **Description:**  
 The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material. He now uses the leather prepared in this way to make a small bag that can better preserve the herbs stored in it.
 **Type:** Normal spell  
 **Rank:** 5  
-**Components:** 30 Aura, 1 permanent Aura, 1 Wasser des Lebens  
+**Components:** 30 Aura, 1 permanent Aura, 1 water of lifes  
 **Modifiers:** Ship spell  
-**Syntax:** `CAST "Create A magical Herb Bag"`  <!-- TODO: not sure -->
-
-### Create a [[negative-weight-bag]]
-
-**Description:**  
-This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight. Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag. It is also not possible to transport one magic bag in another. The bag itself weighs 1 kg.
-**Type:** Normal spell  
-**Rank:** 5  
-**Components:** 30 Aura, 1 permanent Aura, 5000 Silver  
-**Modifiers:** Ship spell  
-**Syntax:** `CAST "Create A Bag of Negative Weight"`  
+**Syntax:** `CAST "Create A magical Herb Pouch"`
 
 ### Create a [[ring-of-power]]
 
@@ -438,7 +438,7 @@ With this spell the magician can create a sphere of invisibility. The sphere ren
 **Rank:** 5  
 **Components:** 150 Aura, 30000 Silver, 3 permanent Aura  
 **Modifiers:** Ship spell  
-**Syntax:** `CAST "Create A Sphäre of Invisibility"`  
+**Syntax:** `CAST "Create A Sphere of Invisibility"`  
 
 ### Create an [[amulet-of-true-vision|Amulet of True Sight]]
 
@@ -460,13 +460,23 @@ With the help of this spell, the magician drains a quartz crystal of all its mag
 **Modifiers:** Ship spell  
 **Syntax:** `CAST "Create An Antimagic Crystal"`  
 
+### Create [[iron-golem|Iron Golems]]
+
+**Description:**  
+The more power the magician invests, the more golems can be created. Each golem has a 15 percent chance of turning to dust each round. If you give the golems the order MAKE SWORD/BIHANDER or MAKE SHIELD/CHAIN ​​MAIL/PLATE ARMOR, 4 iron bars are installed per golem and the golem dissolves.
+**Type:** Normal spell  
+**Rank:** 4  
+**Components:** 2 Aura \* Level, 1 Eisen \* Level, 1 water of lifes  
+**Modifiers:**  
+**Syntax:** `CAST [LEVEL n] "Create Iron Golems"`  
+
 ### Create [[stone-golem|Stone Golems]]
 
 **Description:**  
 Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock. Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength. The more power the magician invests, the more golems can be created before the aura dissipates. Each golem has a 10 percent chance of turning to dust each round. If you give the golems the commands MAKE CASTLE or MAKE ROAD, 4 stones are placed per golem and the golem dissolves.  
 **Type:** Normal spell  
 **Rank:** 4  
-**Components:** 2 Aura \* Level, 1 Stein \* Level, 1 Wasser des Lebens  
+**Components:** 2 Aura \* Level, 1 Stein \* Level, 1 water of lifes  
 **Modifiers:**  
 **Syntax:** `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -550,7 +560,7 @@ This ancient battle song raises the morale of your troops and also helps them to
 This magical ritual soothes the tormented souls of those who died violently, allowing them to begin their final journey to the Otherlands. Approximately 50 souls will find peace per level of the spell. The spell cannot redeem the living dead who have already been resurrected because their ties to this world are too strong.
 **Type:** Normal spell  
 **Rank:** 5  
-**Components:** 3 Aura \* Level, 1 Wasser des Lebens  
+**Components:** 3 Aura \* Level, 1 water of lifes  
 **Modifiers:**  
 **Syntax:** `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -674,7 +684,7 @@ This magical song, once sung with fervor, will spread throughout the region, jum
 Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 **Type:** Normal spell  
 **Rank:** 5  
-**Components:** 4 Aura \* Level, 1 Holz \* Level, 1 Wasser des Lebens  
+**Components:** 4 Aura \* Level, 1 Holz \* Level, 1 water of lifes  
 **Modifiers:** Distance  spell  
 **Syntax:** `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -783,8 +793,6 @@ Cerddor mages are the leading jugglers among the mages, they love to entertain t
 **Components:** 1 Aura \* Level  
 **Modifiers:** Ship spell  
 **Syntax:** `CAST [LEVEL n] Jugglery`  
-
-## K
 
 ## L
 
@@ -1130,23 +1138,13 @@ This spell allows the Dreamweaver to affect the sleep of all allied units in the
 **Modifiers:** Distance  spell  
 **Syntax:** `CAST [REGION x y] "Schöne Träume"`  
 
-### Segen der Erde  <!-- TODO -->
-
-**Description:**  
-This harvest ritual improves the yields of working farmers in the region by one piece of silver. The more power the druid invests, the longer the spell lasts.
-**Type:** Normal spell  
-**Rank:** 5  
-**Components:** 1 Aura \* Level  
-**Modifiers:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Segen der Erde"`  
-
 ### Segne Mallornstecken  <!-- TODO -->
 
 **Description:**  
 This ritual increases the effect of the magical potion many times over. Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 **Type:** Normal spell  
 **Rank:** 5  
-**Components:** 6 Aura \* Level, 1 Mallorn \* Level, 1 Wasser des Lebens  
+**Components:** 6 Aura \* Level, 1 Mallorn \* Level, 1 water of lifes  
 **Modifiers:** Distance  spell  
 **Syntax:** `CAST [REGION x y] [LEVEL n] "Segne Mallornstecken"`  
 

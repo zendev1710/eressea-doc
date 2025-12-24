@@ -8,7 +8,7 @@ alias: cmd-quit
 
 Dies bewirkt, dass die Partei sich auflöst und nicht mehr mitspielt. Zur Sicherheit muss das Passwort der Partei angeben werden. Auch dieser Befehl muss einer Einheit gegeben werden.
 
-Alle Gegenstände inklusive Silber der sterbenden Partei werden an befreundete Einheiten übergeben, die in derselben Region stehen wie Einheiten der sterbenden Partei. Sind mehrere in der Region, wird nach der Anzahl Personen in der Region aufgeteilt. Als befreundet gilt hier nur, wem ein [HELP SILBER] gesetzt wurde, wo also seitens der ausscheidenden Partei bereits Vertrauen herrschte. Die Empfängerpartei muss HELP GIVE auf die sterbende Partei gesetzt haben. Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region. Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern. Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks], [Dämonen], Monstern).
+Alle Gegenstände inklusive Silver der sterbenden Partei werden an befreundete Einheiten übergeben, die in derselben Region stehen wie Einheiten der sterbenden Partei. Sind mehrere in der Region, wird nach der Anzahl Personen in der Region aufgeteilt. Als befreundet gilt hier nur, wem ein [HELP SILVER] gesetzt wurde, wo also seitens der ausscheidenden Partei bereits Vertrauen herrschte. Die Empfängerpartei muss HELP GIVE auf die sterbende Partei gesetzt haben. Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region. Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern. Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks], [Dämonen], Monstern).
 
 **`QUIT`**` "Passwort" PARTEI `*`Partei-nr`*
 
@@ -37,6 +37,6 @@ Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann 
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 
-[HELP SILBER]: ./cmd-help.md
+[HELP SILVER]: ./cmd-help.md
 [Orks]: ./races.md#orcs
 [Dämonen]: ./races.md#demons

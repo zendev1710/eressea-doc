@@ -8,156 +8,157 @@ alias: list-of-spells
 
 **Legend:** **C** [Cerddor], **D** [Draig], **G** [Gwyrrd], **I** [Illaun], **T** [Tybied]
 
-| C  | D  | G  | I  | T  | Name                                            | Type    | Rank | Components                                          | Modifiers      |
-|----|----|----|----|----|-------------------------------------------------|---------|------|-----------------------------------------------------|----------------|
-|    |    |    |    | 5  | [Antimagic]                                     | Normal  | 2    | 3 Aura x Level                                      | Distance       |
-|    |    |    |    | 4  | [Astral Exit]                                   | Normal  | 7    | 2 Aura x Level                                      |                |
-|    | 9  |    |    |    | [Astral Leak]                                   | Normal  | 3    | 35 Aura, 1 Drachenblut                              |                |
-|    |    |    |    | 6  | [Astral Call]                                   | Normal  | 7    | 2 Aura x Level                                      |                |
-|    |    |    |    | 4  | [Astral Path]                                   | Normal  | 7    | 2 Aura x Level                                      |                |
-|    | 9  |    |    |    | [Astral Chaos]                                  | Pre-c.  | 2    | 6 Aura x Level                                      |                |
-|    |    | 5  |    |    | [Astral Guardian Spirits]                       | Pre-c.  | 2    | 5 Aura x Level                                      |                |
-| 15 |    |    |    |    | [Aufruhr beschwichtigen]                        | Normal  | 5    | 30 Aura                                             | Distance       |
-| 16 |    |    |    |    | [Aufruhr verursachen]                           | Normal  | 5    | 40 Aura                                             | Distance       |
-|    |    |    |    | 5  | [Transfer Aura]                                 | Normal  | 1    | 1 Aura                                              | Ship           |
-| 7  |    |    |    |    | [Sound out]                                     | Normal  | 5    | 4 Aura, 100 Silver                                  |                |
-| 5  |    |    |    |    | [Countersong]                                   | Pre-c.  | 2    | 5 Aura x Level                                      |                |
-|    |    |    |    | 13 | [Belebtes Gestein]                              | Normal  | 5    | 10 Aura x Level, 1 perm. Aura, 5 Laen               |                |
-|    |    | 3  |    |    | [Mountain Guardian]                             | Normal  | 5    | 3 Aura x Level                                      | Distance       |
-|    |    |    |    | 9  | [Beschleunigung]                                | Pre-c.  | 5    | 5 Aura x Level                                      |                |
-|    | 8  |    |    |    | [Summon Shadowdemons]                           | Normal  | 5    | 3 Aura x Level                                      |                |
-|    | 12 |    |    |    | [Beschwöre Schattenmeister]                     | Normal  | 5    | 7 Aura x Level                                      |                |
-|    |    |    |    | 3  | [Save Spoils]                                   | Post-c. | 5    | 1 Aura x Level                                      |                |
-|    |    | 8  |    |    | [Gaze of the Basilisk]                          | Combat  | 5    | 1 Aura x Level                                      |                |
-|    |    |    |    | 10 | [Blick in die Realität]                         | Normal  | 5    | 40 Aura                                             |                |
-|    | 5  |    |    |    | [Blutrausch]                                    | Pre-c.  | 4    | 5 Aura x Level, 1 Bauer                             |                |
-|    | 5  |    |    |    | [Chaosfluch]                                    | Normal  | 4    | 4 Aura x Level                                      |                |
-|    | 14 |    |    |    | [Chaossog]                                      | Normal  | 5    | 150 Aura, 200 Bauern                                |                |
-|    | 11 |    |    |    | [Drachenruf]                                    | Normal  | 5    | 80 Aura, 1 Drachenkopf                              | Distance       |
-|    |    | 6  |    |    | [Erdelementar]                                  | Normal  | 5    | 25 Aura, 2 Laen                                     | Distance       |
-|    |    |    |    | 7  | [Erschaffe Antimagiekristall]                   | Normal  | 5    | 50 Aura, 3000 Silver                                | Ship           |
-|    |    | 2  |    |    | [Erschaffe Eisengolems]                         | Normal  | 4    | 2 Aura x Level, 1 Iron x Level, 1 water of life     |                |
-|    |    | 1  |    |    | [Erschaffe Steingolems]                         | Normal  | 4    | 2 Aura x Level, 1 Stein x Level, 1 water of life    |                |
-| 6  | 6  | 6  | 6  | 6  | [Erschaffe ein Amulett des wahren Sehens]       | Normal  | 5    | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
-|    | 12 |    |    |    | [Erschaffe ein Flammenschwert]                  | Normal  | 5    | 100 Aura, 1 Berserkerblut, 1 Schwert, 1 perm. Aura  | Ship           |
-|    |    |    | 14 |    | [Erschaffe ein Traumauge]                       | Normal  | 5    | 1 Drachenkopf, 5 perm. Aura                         | Ship           |
-|    |    |    | 13 |    | [Erschaffe eine Sphäre der Unsichtbarkeit]      | Normal  | 5    | 150 Aura, 30000 Silver, 3 perm. Aura                | Ship           |
-|    |    |    |    | 10 | [Erschaffe einen Beutel des Negativen Gewichts] | Normal  | 5    | 30 Aura, 1 perm. Aura, 5000 Silver                  | Ship           |
-|    | 9  |    |    |    | [Erschaffe einen Gürtel der Trollstärke]        | Normal  | 5    | 20 Aura, 1 perm. Aura                               | Ship           |
-|    |    |    |    | 9  | [Erschaffe einen Ring der Macht]                | Normal  | 5    | 100 Aura, 1 perm. Aura, 4000 Silver                 | Ship           |
-| 6  | 6  | 6  | 6  | 6  | [Erschaffe einen Ring der Unsichtbarkeit]       | Normal  | 5    | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
-|    |    | 5  |    |    | [Erschaffe einen magischen Kräuterbeutel]       | Normal  | 5    | 30 Aura, 1 perm. Aura, 1 water of life              | Ship           |
-|    |    | 10 |    |    | [Erwecke Ents]                                  | Normal  | 5    | 6 Aura x Level                                      |                |
-|    | 2  |    |    |    | [Feuerball]                                     | Combat  | 5    | 1 Aura x Level                                      |                |
-|    | 10 |    |    |    | [Feuerteufel]                                   | Normal  | 5    | 50 Aura, 1 Öl                                       | Distance       |
-|    | 7  |    |    |    | [Feuerwand]                                     | Normal  | 4    | 6 Aura x Level                                      |                |
-| 3  | 3  | 3  | 3  | 3  | [Firuns Fell]                                   | Normal  | 5    | 2 Aura x Level                                      | Ship           |
-|    |    |    |    | 7  | [Fluch brechen]                                 | Normal  | 3    | 3 Aura x Level                                      | Distance, Ship |
-|    | 7  |    |    |    | [Fluch der Pestilenz]                           | Normal  | 5    | 30 Aura, 50 Bauern                                  | Distance       |
-| 1  |    |    |    |    | [Friedenslied]                                  | Pre-c.  | 5    | 2 Aura                                              |                |
-|    | 3  |    |    |    | [Gabe des Chaos]                                | Normal  | 3    | 6 Aura                                              | Ship           |
-| 1  |    |    |    |    | [Gaukeleien]                                    | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    | 8  |    |    | [Geister bannen]                                | Normal  | 2    | 6 Aura x Level                                      | Distance, Ship |
-| 8  |    |    |    |    | [Gesang der Angst]                              | Pre-c.  | 5    | 5 Aura x Level                                      |                |
-| 12 |    |    |    |    | [Gesang der Friedfertigkeit]                    | Normal  | 5    | 20 Aura x Level                                     |                |
-| 3  |    |    |    |    | [Gesang der Furcht]                             | Combat  | 5    | 1 Aura x Level                                      |                |
-| 11 |    |    |    |    | [Gesang der Melancholie]                        | Normal  | 5    | 40 Aura                                             | Distance       |
-| 13 |    |    |    |    | [Gesang der Versklavung]                        | Normal  | 5    | 40 Aura                                             |                |
-| 4  |    |    |    |    | [Gesang der Verwirrung]                         | Pre-c.  | 5    | 2 Aura x Level                                      |                |
-| 5  |    |    |    |    | [Gesang des Transfer Auras]                     | Normal  | 1    | 2 Aura                                              | Ship           |
-| 5  |    |    |    |    | [Gesang des Lebens analysieren]                 | Normal  | 5    | 10 Aura                                             | Ship           |
-| 4  |    |    |    |    | [Gesang des Werbens]                            | Normal  | 5    | 2 Aura x Level                                      |                |
-| 12 |    |    |    |    | [Gesang des schwachen Geistes]                  | Normal  | 2    | 2 Aura x Level                                      | Distance       |
-| 10 |    |    |    |    | [Gesang des wachen Geistes]                     | Normal  | 2    | 2 Aura x Level                                      | Distance       |
-|    |    |    | 3  |    | [Gestaltwandlung]                               | Normal  | 5    | 1 Aura x Level                                      |                |
-|    |    |    | 2  |    | [Grauen der Schlacht]                           | Pre-c.  | 5    | 1 Aura x Level                                      |                |
-|    |    | 3  |    |    | [Hagel]                                         | Combat  | 5    | 1 Aura x Level                                      |                |
-|    |    | 2  |    |    | [Hainzauber]                                    | Normal  | 5    | 4 Aura x Level, 1 Holz x Level, 1 water of life     | Distance       |
-|    |    | 9  |    |    | [Heiliger Boden]                                | Normal  | 5    | 80 Aura, 3 perm. Aura                               |                |
-|    |    | 5  |    |    | [Heilung]                                       | Post-c. | 5    | 1 Aura x Level                                      |                |
-|    |    | 7  |    |    | [Heimstein]                                     | Normal  | 5    | 50 Aura, 1 perm. Aura                               |                |
-| 5  |    |    |    |    | [Heldengesang]                                  | Pre-c.  | 4    | 2 Aura x Level                                      |                |
-|    |    | 13 |    |    | [Hitzeelementar]                                | Normal  | 5    | 600 Aura                                            | Distance       |
-| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]                    | Normal  | 5    | 20 Aura x Level                                     |                |
-| 2  |    |    |    |    | [Hohes Lied der Gaukelei]                       | Normal  | 5    | 2 Aura x Level                                      | Distance, Ship |
-|    | 1  |    |    |    | [Kleine Flüche]                                 | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    | 4  |    |    |    | [Kleines Blutopfer]                             | Normal  | 1    | 16 Hit Points                                       | Ship           |
-| 7  |    |    |    |    | [Kriegsgesang]                                  | Pre-c.  | 4    | 5 Aura x Level                                      |                |
-| 8  |    |    |    |    | [Lebenslied festigen]                           | Normal  | 2    | 5 Aura x Level                                      | Distance, Ship |
-| 2  |    |    |    |    | [Lied der Heilung]                              | Post-c. | 5    | 1 Aura x Level                                      |                |
-| 6  |    |    |    |    | [Lied der Verführung]                           | Normal  | 5    | 12 Aura                                             |                |
-| 8  |    |    |    |    | [Lied des Ortes analysieren]                    | Normal  | 5    | 3 Aura x Level                                      | Ship           |
-|    |    |    |    | 6  | [Luftschiff]                                    | Normal  | 5    | 10 Aura, 1 Windbeutel, 1 snowcrystal                | Ship           |
-|    | 7  |    |    |    | [Machtübertragung]                              | Normal  | 1    | 2 Aura                                              | Ship           |
-|    |    |    |    | 1  | [Magie analysieren]                             | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    |    |    | 5  | [Magiefresser]                                  | Normal  | 2    | 4 Aura x Level                                      | Distance, Ship |
-|    |    | 4  |    |    | [Magischer Pfad]                                | Normal  | 5    | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
-|    |    | 15 |    |    | [Mahlstrom]                                     | Normal  | 5    | 200 Aura, 1 Seeschlangenkopf                        | Sea, Ship      |
-|    |    |    |    | 7  | [Mauern der Ewigkeit]                           | Normal  | 5    | 50 Aura, 1 perm. Aura                               | Ship           |
-|    |    | 6  |    |    | [Meditation]                                    | Normal  | 1    | 2 Aura                                              | Ship           |
-| 11 |    |    |    |    | [Miriams flinke Finger]                         | Normal  | 5    | 20 Aura, 1000 Silver, 1 perm. Aura                  | Ship           |
-| 10 |    |    |    |    | [Mob aufwiegeln]                                | Normal  | 5    | 4 Aura x Level                                      |                |
-| 6  |    |    |    |    | [Monster friedlich stimmen]                     | Normal  | 5    | 15 Aura                                             | Ship           |
-|    | 6  |    |    |    | [Mächte des Todes]                              | Normal  | 5    | 5 Aura x Level                                      | Distance, Ship |
-|    |    |    |    | 15 | [Opfere Kraft]                                  | Normal  | 1    | 100 Aura                                            |                |
-|    | 10 |    |    |    | [Pentagramm]                                    | Normal  | 2    | 10 Aura x Level                                     | Distance, Ship |
-| 4  |    |    |    |    | [Plappermaul]                                   | Normal  | 5    | 10 Aura                                             |                |
-| 3  |    |    |    |    | [Regentanz]                                     | Normal  | 5    | 1 Aura x Level                                      | Distance, Ship |
-|    |    | 12 |    |    | [Rindenhaut]                                    | Pre-c.  | 2    | 4 Aura x Level                                      |                |
-| 9  |    |    |    |    | [Ritual der Aufnahme]                           | Normal  | 5    | 3 Aura x Level, 1 perm. Aura x Level                |                |
-|    | 6  |    |    |    | [Rosthauch]                                     | Combat  | 5    | 2 Aura x Level                                      |                |
-|    |    | 3  |    |    | [Rostregen]                                     | Normal  | 5    | 2 Aura x Level                                      | Distance       |
-|    |    |    |    | 6  | [Ruf der Realität]                              | Normal  | 7    | 2 Aura x Level                                      |                |
-|    |    |    |    | 8  | [Runen des Schutzes]                            | Normal  | 2    | 20 Aura                                             | Ship           |
-|    |    |    |    | 12 | [Rüstschild]                                    | Pre-c.  | 2    | 4 Aura x Level                                      |                |
-| 7  |    |    |    |    | [Schaler Wein]                                  | Normal  | 5    | 28 Aura, 3 Knotige Saugwurze, 50 Silver             |                |
-|    |    |    | 1  |    | [Schattenritter]                                | Pre-c.  | 4    | 1 Aura x Level                                      |                |
-|    |    |    |    | 8  | [Schild des Fisches]                            | Pre-c.  | 2    | 4 Aura x Level                                      |                |
-|    |    |    | 7  |    | [Schlaf]                                        | Combat  | 5    | 1 Aura x Level                                      |                |
-|    |    |    | 10 |    | [Schlechte Träume]                              | Normal  | 5    | 90 Aura                                             | Distance       |
-|    |    |    | 6  |    | [Schlechter Schlaf]                             | Normal  | 5    | 18 Aura                                             | Distance       |
-|    |    |    |    | 1  | [Schleieraura]                                  | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    |    |    | 5  | [Schockwelle]                                   | Combat  | 5    | 1 Aura x Level                                      |                |
-|    |    |    |    | 2  | [Schutz vor Magie]                              | Pre-c.  | 2    | 3 Aura x Level                                      |                |
-|    |    |    |    | 3  | [Schutzzauber]                                  | Normal  | 2    | 5 Aura x Level                                      | Ship           |
-|    |    |    | 4  |    | [Schwere Glieder]                               | Pre-c.  | 5    | 4 Aura x Level                                      |                |
-|    |    |    | 8  |    | [Schöne Träume]                                 | Normal  | 5    | 80 Aura                                             | Distance       |
-|    |    |    | 2  |    | [Seelenfrieden]                                 | Normal  | 5    | 3 Aura x Level, 1 water of life                     |                |
-|    |    | 1  |    |    | [Segen der Erde]                                | Normal  | 5    | 1 Aura x Level                                      | Distance, Ship |
-|    |    | 4  |    |    | [Segne Mallornstecken]                          | Normal  | 5    | 6 Aura x Level, 1 Mallorn x Level, 1 water of life  | Distance       |
-|    |    | 11 |    |    | [Segne Steinkreis]                              | Normal  | 5    | 350 Aura, 5 perm. Aura                              |                |
-|    |    | 9  |    |    | [Sog des Lebens]                                | Normal  | 7    | 2 Aura x Level                                      |                |
-|    |    | 8  |    |    | [Starkes Tor und feste Mauer]                   | Pre-c.  | 5    | 2 Aura x Level                                      |                |
-|    |    |    |    | 6  | [Stehle Aura]                                   | Normal  | 3    | 2 Aura x Level                                      | Distance       |
-|    |    | 6  |    |    | [Sturmelementar]                                | Normal  | 5    | 6 Aura x Level                                      | Sea, Ship      |
-|    |    |    |    | 14 | [Störe Astrale Integrität]                      | Normal  | 4    | 140 Aura                                            |                |
-|    |    |    | 12 |    | [Süße Träume]                                   | Normal  | 5    | 5 Aura x Level                                      |                |
-|    |    |    | 11 |    | [Tod des Geistes]                               | Pre-c.  | 5    | 2 Aura x Level                                      |                |
-|    | 11 |    |    |    | [Todeswolke]                                    | Normal  | 5    | 40 Aura, 15 Hit Points                              | Distance       |
-|    |    | 17 |    |    | [Tor in die Ebene der Hitze]                    | Normal  | 5    | 800 Aura                                            | Distance       |
-|    |    |    | 3  |    | [Traum der Magie]                               | Normal  | 1    | 2 Aura                                              | Ship           |
-|    |    |    | 5  |    | [Traumbilder analysieren]                       | Normal  | 5    | 25 Aura                                             | Ship           |
-|    |    |    | 8  |    | [Traumbilder entwirren]                         | Normal  | 2    | 6 Aura x Level                                      | Distance, Ship |
-|    |    |    | 7  |    | [Traumdeuten]                                   | Normal  | 5    | 20 Aura                                             |                |
-|    |    |    | 4  |    | [Traumlesen]                                    | Normal  | 5    | 8 Aura                                              | Distance       |
-|    |    |    | 3  |    | [Traumschlößchen]                               | Normal  | 5    | 3 Aura                                              |                |
-|    |    |    | 1  |    | [Traumsenden]                                   | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    | 14 |    |    |    | [Unheilige Kraft]                               | Normal  | 5    | 10 Aura x Level, 5 Bauern x Level                   |                |
-|    | 9  |    |    |    | [Untote Helden]                                 | Post-c. | 5    | 1 Aura x Level                                      |                |
-| 9  | 13 | 10 | 9  | 12 | [Vertrauten rufen]                              | Normal  | 5    | 100 Aura, 5 perm. Aura                              |                |
-|    | 1  |    |    |    | [Verwünschung]                                  | Normal  | 5    | 1 Aura x Level                                      |                |
-|    |    | 1  |    |    | [Viehheilung]                                   | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    | 8  |    |    |    | [Wahnsinn des Krieges]                          | Pre-c.  | 5    | 3 Aura x Level, 10 Bauern                           |                |
-|    |    |    | 1  |    | [Wahrsagen]                                     | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    | 4  |    |    | [Wasserelementar]                               | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    | 9  |    |    | [Weg der Bäume]                                 | Normal  | 7    | 3 Aura x Level                                      |                |
-|    |    |    | 5  |    | [Wiederbelebung]                                | Post-c. | 4    | 1 Aura x Level                                      |                |
-|    |    | 4  |    |    | [Windschild]                                    | Pre-c.  | 5    | 2 Aura x Level                                      |                |
-|    |    | 5  |    |    | [Wirbelwind]                                    | Pre-c.  | 5    | 15 Aura                                             |                |
-|    |    | 7  |    |    | [Wolfsgeheul]                                   | Pre-c.  | 5    | 2 Aura x Level                                      |                |
-|    |    |    |    | 1  | [Wunderdoktor]                                  | Normal  | 5    | 1 Aura x Level                                      | Ship           |
-|    |    | 16 |    |    | [Wurzeln der Magie]                             | Normal  | 5    | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
-|    |    |    |    | 11 | [Zeitdehnung]                                   | Normal  | 5    | 5 Aura x Level                                      | Ship           |
+<!-- TODO : fill missing values -->
+|  C |  D |  G |  I |  T | Name                              | Type    | Rank | Components                                          | Modifiers      |
+|---:|---:|---:|---:|---:|-----------------------------------|:--------|-----:|-----------------------------------------------------|----------------|
+|    |    |    |    |  9 | [Acceleration]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
+|    |    |  4 |    |    | [Air Shield]                      | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |    |  6 | [Airship]                         | --      |    5 | 10 Aura, 1 Windbeutel, 1 snowcrystal                | Ship           |
+|    |    |    |  5 |    | [Analyse Dreams]                  | --      |    5 | 25 Aura                                             | Ship           |
+|  8 |    |    |    |    | [Analysis]                        | --      |    5 | 3 Aura x Level                                      | Ship           |
+|    |    |    |    |  1 | [Analyze Magic]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Analyze Song of Life]            | --      |    5 | 10 Aura                                             | Ship           |
+|    |  6 |    |    |    | [Animate Dead]                    | --      |    5 | 5 Aura x Level                                      | Distance, Ship |
+|    |    |    |    |  5 | [Antimagic]                       | --      |    2 | 3 Aura x Level                                      | Distance       |
+|  1 |    |    |    |    | [Appeasing Song]                  | Pre-c.  |    5 | 2 Aura                                              |                |
+|    |    |    |    |  6 | [Astral Call]                     | --      |    7 | 2 Aura x Level                                      |                |
+|    |  9 |    |    |    | [Astral Chaos]                    | Pre-c.  |    2 | 6 Aura x Level                                      |                |
+|    |    |    |    |  4 | [Astral Exit]                     | --      |    7 | 2 Aura x Level                                      |                |
+|    |    |  5 |    |    | [Astral Guardian Spirits]         | Pre-c.  |    2 | 5 Aura x Level                                      |                |
+|    |  9 |    |    |    | [Astral Leak]                     | --      |    3 | 35 Aura, 1 Drachenblut                              |                |
+|    |    |    |    |  4 | [Astral Path]                     | --      |    7 | 2 Aura x Level                                      |                |
+| 15 |    |    |    |    | [Aufruhr beschwichtigen]          | --      |    5 | 30 Aura                                             | Distance       |
+| 16 |    |    |    |    | [Aufruhr verursachen]             | --      |    5 | 40 Aura                                             | Distance       |
+|    |    | 10 |    |    | [Awakening of the Ents]           | --      |    5 | 6 Aura x Level                                      |                |
+|    |    |  8 |    |    | [Banish Spirits]                  | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 13 | [Belebtes Gestein]                | --      |    5 | 10 Aura x Level, 1 perm. Aura, 5 Laen               |                |
+|    | 12 |    |    |    | [Beschwöre Schattenmeister]       | --      |    5 | 7 Aura x Level                                      |                |
+|  4 |    |    |    |    | [Blabbermouth]                    | --      |    5 | 10 Aura                                             |                |
+|    |    |  1 |    |    | [Blessed Harvest]                 | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 10 | [Blick in die Realität]           | --      |    5 | 40 Aura                                             |                |
+|    |  5 |    |    |    | [Blood Frenzy]                    | Pre-c.  |    4 | 5 Aura x Level, 1 Bauer                             |                |
+|    |    |    |    |  6 | [Call of Reality]                 | --      |    7 | 2 Aura x Level                                      |                |
+|  6 |    |    |    |    | [Calm Monster]                    | --      |    5 | 15 Aura                                             | Ship           |
+|    |    |    |  3 |    | [Castle of Illusion]              | --      |    5 | 3 Aura                                              |                |
+|    |    |  1 |    |    | [Cattle Healing]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  5 |    |    |    | [Chaos Curse]                     | --      |    4 | 4 Aura x Level                                      |                |
+|    |  3 |    |    |    | [Chaos Gift]                      | --      |    3 | 6 Aura                                              | Ship           |
+|    | 14 |    |    |    | [Chaossog]                        | --      |    5 | 150 Aura, 200 Bauern                                |                |
+|    |    |    |    |  1 | [Concealing Aura]                 | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Countersong]                     | Pre-c.  |    2 | 5 Aura x Level                                      |                |
+|    |    |    |    | 10 | [Create A Bag of Negative Weight] | --      |    5 | 30 Aura, 1 perm. Aura, 5000 Silver                  | Ship           |
+|    |  9 |    |    |    | [Create A Belt of Troll Strength] | --      |    5 | 20 Aura, 1 perm. Aura                               | Ship           |
+|    | 12 |    |    |    | [Create a Flaming Sword]          | --      |    5 | 100 Aura, 1 Berserkerblut, 1 Schwert, 1 perm. Aura  | Ship           |
+|    |    |  5 |    |    | [Create A Magical Herb Pouch]     | --      |    5 | 30 Aura, 1 perm. Aura, 1 water of life              | Ship           |
+|  6 |  6 |  6 |  6 |  6 | [Create A Ring of Invisibility]   | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
+|    |    |    |    |  9 | [Create A Ring of Power]          | --      |    5 | 100 Aura, 1 perm. Aura, 4000 Silver                 | Ship           |
+|    |    |    | 13 |    | [Create A Sphere of Invisibility] | --      |    5 | 150 Aura, 30000 Silver, 3 perm. Aura                | Ship           |
+|  ? |  ? |  ? |  ? |  ? | [Create An Amulet of True Sight]  | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
+|    |    |    |    |  7 | [Create An Antimagic Crystal]     | --      |    5 | 50 Aura, 3000 Silver                                | Ship           |
+|    |    |  2 |    |    | [Create Iron Golems]              | --      |    4 | 2 Aura x Level, 1 Iron x Level, 1 water of life     |                |
+|    |    |  1 |    |    | [Create Stone Golems]             | --      |    4 | 2 Aura x Level, 1 Stein x Level, 1 water of life    |                |
+|    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 Aura, 50 Bauern                                  | Distance       |
+|    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 Aura x Level                                      | Distance, Ship |
+|    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 Aura, 1 Drachenkopf                              | Distance       |
+|    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Epic Heroes]                     | Pre-c.  |    4 | 2 Aura x Level                                      |                |
+|    |    |  6 |    |    | [Erdelementar]                    | --      |    5 | 25 Aura, 2 Laen                                     | Distance       |
+|    |    |    | 14 |    | [Erschaffe ein Traumauge]         | --      |    5 | 1 Dragon head, 5 perm. Aura                         | Ship           |
+|    |    |    |  2 |    | [Eternal Rest]                    | --      |    5 | 3 Aura x Level, 1 water of life                     |                |
+|    |    |    |    |  7 | [Eternal Walls]                   | --      |    5 | 50 Aura, 1 perm. Aura                               | Ship           |
+|    | 10 |    |    |    | [Feuerteufel]                     | --      |    5 | 50 Aura, 1 Öl                                       | Distance       |
+|    |  2 |    |    |    | [Fireball]                        | Combat  |    5 | 1 Aura x Level                                      |                |
+|    |  7 |    |    |    | [Firewall]                        | --      |    4 | 6 Aura x Level                                      |                |
+|  3 |  3 |  3 |  3 |  3 | [Firun's Coat]                    | --      |    5 | 2 Aura x Level                                      | Ship           |
+|    |    |  8 |    |    | [Gaze of the Basilisk]            | Combat  |    5 | 1 Aura x Level                                      |                |
+| 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 Aura x Level                                     |                |
+| 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 Aura                                             | Distance       |
+| 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 Aura                                             |                |
+|  4 |    |    |    |    | [Gesang der Verwirrung]           | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+| 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 Aura x Level                                      | Distance       |
+|  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 Aura                                              | Ship           |
+| 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 Aura x Level                                      | Distance       |
+|    |    |  2 |    |    | [Grove of Oak Trees]              | --      |    5 | 4 Aura x Level, 1 Holz x Level, 1 water of life     | Distance       |
+|    |    |  3 |    |    | [Hail]                            | Combat  |    5 | 1 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Hangover]                        | --      |    5 | 28 Aura, 3 Knotige Saugwurze, 50 Silver             |                |
+|    |    |  5 |    |    | [Heal]                            | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    |  1 |    |    |    | [Hex]                             | --      |    5 | 1 Aura x Level                                      |                |
+|    |    | 13 |    |    | [Hitzeelementar]                  | --      |    5 | 600 Aura                                            | Distance       |
+| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]      | --      |    5 | 20 Aura x Level                                     |                |
+|    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 Aura, 1 perm. Aura                               |                |
+|    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 Aura                                             | Distance       |
+|  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  1 |    |    |    | [Kleine Flüche]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 Hit Points                                       | Ship           |
+|  2 |    |    |    |    | [Lied der Heal]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
+|  6 |    |    |    |    | [Lied der Verführung]             | --      |    5 | 12 Aura                                             |                |
+|    |  8 |    |    |    | [Madness of War]                  | Pre-c.  |    5 | 3 Aura x Level, 10 Bauern                           |                |
+|    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
+|    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 Aura, 1 Seeschlangenkopf                        | Sea, Ship      |
+|    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 Aura                                             |                |
+|    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
+| 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 Aura, 1000 Silver, 1 perm. Aura                  | Ship           |
+| 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 Aura x Level                                      |                |
+|    |    |  3 |    |    | [Mountain Guardian]               | --      |    5 | 3 Aura x Level                                      | Distance       |
+|    |    |    |    |  7 | [Negate Curse]                    | --      |    3 | 3 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 Aura                                            |                |
+|    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 Aura x Level                                     | Distance, Ship |
+|    |    |    |    |  2 | [Protection from Magic]           | Pre-c.  |    2 | 3 Aura x Level                                      |                |
+|  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
+|    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 Aura x Level                                      | Ship           |
+|    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 Aura x Level                                      |                |
+|    |    | 12 |    |    | [Rindenhaut]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 Aura x Level, 1 perm. Aura x Level                |                |
+|    |  6 |    |    |    | [Rosthauch]                       | Combat  |    5 | 2 Aura x Level                                      |                |
+|    |    |  3 |    |    | [Rostregen]                       | --      |    5 | 2 Aura x Level                                      | Distance       |
+|    |    |    |    |  8 | [Runen des Schutzes]              | --      |    2 | 20 Aura                                             | Ship           |
+|    |    |    |    | 12 | [Rüstschild]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 Aura, 3 perm. Aura                               |                |
+|    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 Aura                                             | Distance       |
+|    |    |    |    |  5 | [Schockwelle]                     | Combat  |    5 | 1 Aura x Level                                      |                |
+|    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 Aura                                             | Distance       |
+|    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 Aura x Level, 1 Mallorn x Level, 1 water of life  | Distance       |
+|    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 Aura, 5 perm. Aura                              |                |
+|    |    |    |  1 |    | [Shadow Knights]                  | Pre-c.  |    4 | 1 Aura x Level                                      |                |
+|    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 Aura x Level                                      |                |
+|    |    |    |    |  8 | [Shield of the Fish]              | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 Aura x Level                                      | Distance, Ship |
+|    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 Aura x Level                                      |                |
+|  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 Aura x Level                                      |                |
+|  8 |    |    |    |    | [Song of Fear]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
+|  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 Aura x Level                                      | Distance, Ship |
+|  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Song of War]                     | Pre-c.  |    4 | 5 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 Aura, 100 Silver                                  |                |
+|    |    |  8 |    |    | [Starkes Tor und feste Mauer]     | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |    |  6 | [Steal Aura]                      | --      |    3 | 2 Aura x Level                                      | Distance       |
+|    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 Aura                                            |                |
+|  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 Aura, 5 perm. Aura                              |                |
+|    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 Aura x Level                                      |                |
+|    |    |  6 |    |    | [Summon Storm Elemental]          | --      |    5 | 6 Aura x Level                                      | Sea, Ship      |
+|    |    |  4 |    |    | [Summon Water Elemental]          | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |    |    | 12 |    | [Süße Träume]                     | --      |    5 | 5 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Ties of Life]                    | --      |    7 | 2 Aura x Level                                      |                |
+|    |    |  7 |    |    | [Timber Wolves]                   | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |  4 |    | [Tiredness]                       | Pre-c.  |    5 | 4 Aura x Level                                      |                |
+|    |    |    | 11 |    | [Tod des Geistes]                 | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    | 11 |    |    |    | [Todeswolke]                      | --      |    5 | 40 Aura, 15 Hit Points                              | Distance       |
+|    |    | 17 |    |    | [Tor in die Ebene der Hitze]      | --      |    5 | 800 Aura                                            | Distance       |
+|    |    |    |    |  5 | [Transfer Aura]                   | --      |    1 | 1 Aura                                              | Ship           |
+|    |  7 |    |    |    | [Transfer Power]                  | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  8 |    | [Traumbilder entwirren]           | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
+|    |    |    |  4 |    | [Traumlesen]                      | --      |    5 | 8 Aura                                              | Distance       |
+|    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 Aura x Level, 5 Bauern x Level                   |                |
+|    |    |    |  2 |    | [Unspeakable Horrors]             | Pre-c.  |    5 | 1 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Weg der Bäume]                   | --      |    7 | 3 Aura x Level                                      |                |
+|    |    |  5 |    |    | [Wirbelwind]                      | Pre-c.  |    5 | 15 Aura                                             |                |
+|    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
+|    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 Aura x Level                                      | Ship           |
 
 [Antimagic]: ./spells-descriptions.md#antimagic
 [Astral Exit]: ./spells-descriptions.md#astral-exit
@@ -169,143 +170,143 @@ alias: list-of-spells
 
 [Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen
 [Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen
-[Transfer Aura]: ./spells-descriptions.md#Transfer Aura
-[Sound out]: ./spells-descriptions.md#Sound out
-[Countersong]: ./spells-descriptions.md#Countersong
+[Transfer Aura]: ./spells-descriptions.md#transfer-aura
+[Sound out]: ./spells-descriptions.md#sound-out
+[Countersong]: ./spells-descriptions.md#countersong
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
-[Mountain Guardian]: ./spells-descriptions.md#bergwaechter
-[Beschleunigung]: ./spells-descriptions.md#beschleunigung
-[Summon Shadowdemons]: ./spells-descriptions.md#beschwoere-schattendaemonen
+[Mountain Guardian]: ./spells-descriptions.md#mountain-guardmountain-guardian
+[Acceleration]: ./spells-descriptions.md#acceleration
+[Summon Shadowdemons]: ./spells-descriptions.md#summon-shadowdemons
 [Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwoere-schattenmeister
-[Save Spoils]: ./spells-descriptions.md#beute-bewahren
-[Gaze of the Basilisk]: ./spells-descriptions.md#blick-des-basilisken
+[Save Spoils]: ./spells-descriptions.md#save-spoils
+[Gaze of the Basilisk]: ./spells-descriptions.md#gaze-of-the-basilisk
 [Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
-[Blutrausch]: ./spells-descriptions.md#blutrausch
-[Chaosfluch]: ./spells-descriptions.md#chaosfluch
+[Blood Frenzy]: ./spells-descriptions.md#blood-frenzy
+[Chaos Curse]: ./spells-descriptions.md#chaos-curse
 [Chaossog]: ./spells-descriptions.md#chaossog
 [Drachenruf]: ./spells-descriptions.md#drachenruf
 [Erdelementar]: ./spells-descriptions.md#erdelementar
-[Erschaffe Antimagiekristall]: ./spells-descriptions.md#erschaffe-antimagiekristall
-[Erschaffe Eisengolems]: ./spells-descriptions.md#erschaffe-eisengolems
-[Erschaffe Steingolems]: ./spells-descriptions.md#erschaffe-steingolems
-[Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens
-[Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert
+[Create An Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystalantimagic-crystal
+[Create Iron Golems]: ./spells-descriptions.md#create-iron-golemiron-golems
+[Create Stone Golems]: ./spells-descriptions.md#create-stone-golemstone-golems
+[Create An Amulet of True Sight]: ./spells-descriptions.md#create-an-amulet-of-true-visionamulet-of-true-sight
+[Create a Flaming Sword]: ./spells-descriptions.md#create-a-flaming-sword
 [Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
-[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphaere-der-unsichtbarkeit
-[Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-guertel-der-trollstaerke
-[Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
-[Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kraeuterbeutel
-[Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
-[Feuerball]: ./spells-descriptions.md#feuerball
+[Create A Sphere of Invisibility]: ./spells-descriptions.md#create-a-sphere-of-invisibility
+[Create A Bag of Negative Weight]: ./spells-descriptions.md#create-a-negative-weight-bag
+[Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength
+[Create A Ring of Power]: ./spells-descriptions.md#create-a-ring-of-power
+[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility
+[Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch
+[Awakening of the Ents]: ./spells-descriptions.md#awakening-of-the-ents
+[Fireball]: ./spells-descriptions.md#fireball
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel
-[Feuerwand]: ./spells-descriptions.md#feuerwand
-[Firuns Fell]: ./spells-descriptions.md#firuns-fell
-[Fluch brechen]: ./spells-descriptions.md#fluch-brechen
-[Fluch der Pestilenz]: ./spells-descriptions.md#fluch-der-pestilenz
-[Friedenslied]: ./spells-descriptions.md#friedenslied
-[Gabe des Chaos]: ./spells-descriptions.md#gabe-des-chaos
-[Gaukeleien]: ./spells-descriptions.md#gaukeleien
-[Geister bannen]: ./spells-descriptions.md#geister-bannen
-[Gesang der Angst]: ./spells-descriptions.md#gesang-der-angst
+[Firewall]: ./spells-descriptions.md#firewall
+[Firun's Coat]: ./spells-descriptions.md#firuns-coat
+[Negate Curse]: ./spells-descriptions.md#negate-curse
+[Curse of Pestilence]: ./spells-descriptions.md#curse-of-pestilence
+[Appeasing Song]: ./spells-descriptions.md#appeasing-song
+[Chaos Gift]: ./spells-descriptions.md#chaos-gift
+[Jugglery]: ./spells-descriptions.md#jugglery
+[Banish Spirits]: ./spells-descriptions.md#banish-spirits
+[Song of Fear]: ./spells-descriptions.md#song-of-fear
 [Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit
-[Gesang der Furcht]: ./spells-descriptions.md#gesang-der-furcht
+[Song of Terror]: ./spells-descriptions.md#song-of-terror
 [Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie
 [Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung
 [Gesang der Verwirrung]: ./spells-descriptions.md#gesang-der-verwirrung
 [Gesang des Transfer Auras]: ./spells-descriptions.md#gesang-des-Transfer Auras
-[Gesang des Lebens analysieren]: ./spells-descriptions.md#gesang-des-lebens-analysieren
-[Gesang des Werbens]: ./spells-descriptions.md#gesang-des-werbens
+[Analyze Song of Life]: ./spells-descriptions.md#gesang-des-lebens-analysieren
+[Song of Courting]: ./spells-descriptions.md#song-of-courting
 [Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes
 [Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes
-[Gestaltwandlung]: ./spells-descriptions.md#gestaltwandlung
-[Grauen der Schlacht]: ./spells-descriptions.md#grauen-der-schlacht
-[Hagel]: ./spells-descriptions.md#hagel
-[Hainzauber]: ./spells-descriptions.md#hainzauber
-[Heiliger Boden]: ./spells-descriptions.md#heiliger-boden
-[Heilung]: ./spells-descriptions.md#heilung
-[Heimstein]: ./spells-descriptions.md#heimstein
-[Heldengesang]: ./spells-descriptions.md#heldengesang
+[Shapeshift]: ./spells-descriptions.md#shapeshift
+[Unspeakable Horrors]: ./spells-descriptions.md#unspeakable-horrors
+[Hail]: ./spells-descriptions.md#hail
+[Grove of Oak Trees]: ./spells-descriptions.md#grove-of-oak-trees
+[Sacred Ground]: ./spells-descriptions.md#sacred-ground
+[Heal]: ./spells-descriptions.md#heal
+[Homestone]: ./spells-descriptions.md#Homestone
+[Epic Heroes]: ./spells-descriptions.md#epic-heroes
 [Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
 [Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-ueberzeugung
-[Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei
+[Song of Generosity]: ./spells-descriptions.md#song-of-generosity
 [Kleine Flüche]: ./spells-descriptions.md#kleine-flüche
-[Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer
-[Kriegsgesang]: ./spells-descriptions.md#kriegsgesang
-[Lebenslied festigen]: ./spells-descriptions.md#lebenslied-festigen
-[Lied der Heilung]: ./spells-descriptions.md#lied-der-heilung
+[Lesser Sacrifice]: ./spells-descriptions.md#lesser-sacrifice
+[Song of War]: ./spells-descriptions.md#song-of-war
+[Silence Dissonance]: ./spells-descriptions.md#silence-dissonance
+[Lied der Heal]: ./spells-descriptions.md#lied-der-heilung
 [Lied der Verführung]: ./spells-descriptions.md#lied-der-verführung
-[Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
-[Luftschiff]: ./spells-descriptions.md#luftschiff
-[Machtübertragung]: ./spells-descriptions.md#machtuebertragung
-[Magie analysieren]: ./spells-descriptions.md#magie-analysieren
-[Magiefresser]: ./spells-descriptions.md#magiefresser
-[Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
+[Analysis]: ./spells-descriptions.md#analysis
+[Airship]: ./spells-descriptions.md#airship
+[Transfer Power]: ./spells-descriptions.md#transfer-power
+[Analyze Magic]: ./spells-descriptions.md#analyze-magic
+[Destroy Magic]: ./spells-descriptions.md#destroy-magic
+[Magic Path]: ./spells-descriptions.md#magic-path
 [Mahlstrom]: ./spells-descriptions.md#mahlstrom
-[Mauern der Ewigkeit]: ./spells-descriptions.md#mauern-der-ewigkeit
-[Meditation]: ./spells-descriptions.md#meditation
+[Eternal Walls]: ./spells-descriptions.md#eternal-walls
+[Meditate]: ./spells-descriptions.md#meditate
 [Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
 [Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
-[Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
-[Mächte des Todes]: ./spells-descriptions.md#maechte-des-todes
+[Calm Monster]: ./spells-descriptions.md#calm-monster
+[Animate Dead]: ./spells-descriptions.md#animate-dead
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Pentagramm]: ./spells-descriptions.md#pentagramm
-[Plappermaul]: ./spells-descriptions.md#plappermaul
-[Regentanz]: ./spells-descriptions.md#regentanz
+[Blabbermouth]: ./spells-descriptions.md#blabbermouth
+[Rain Dance]: ./spells-descriptions.md#rain-dance
 [Rindenhaut]: ./spells-descriptions.md#rindenhaut
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
 [Rosthauch]: ./spells-descriptions.md#rosthauch
 [Rostregen]: ./spells-descriptions.md#rostregen
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitaet
+[Call of Reality]: ./spells-descriptions.md#call-of-reality
 [Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
 [Rüstschild]: ./spells-descriptions.md#rüstschild
-[Schaler Wein]: ./spells-descriptions.md#schaler-wein
-[Schattenritter]: ./spells-descriptions.md#schattenritter
-[Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
-[Schlaf]: ./spells-descriptions.md#schlaf
+[SHangover]: ./spells-descriptions.md#schaler-wein
+[Shadow Knights]: ./spells-descriptions.md#schattenritter
+[Shield of the Fish]: ./spells-descriptions.md#schild-des-fisches
+[Sleep]: ./spells-descriptions.md#schlaf
 [Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
-[Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
-[Schleieraura]: ./spells-descriptions.md#schleieraura
+[Insomnia]: ./spells-descriptions.md#schlechter-schlaf
+[Concealing Aura]: ./spells-descriptions.md#schleieraura
 [Schockwelle]: ./spells-descriptions.md#schockwelle
-[Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
-[Schutzzauber]: ./spells-descriptions.md#schutzzauber
-[Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
+[Protection from Magic]: ./spells-descriptions.md#schutz-vor-magie
+[Resist Magic]: ./spells-descriptions.md#schutzzauber
+[Tiredness]: ./spells-descriptions.md#schwere-glieder
 [Schöne Träume]: ./spells-descriptions.md#schoene-traeume
-[Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
-[Segen der Erde]: ./spells-descriptions.md#segen-der-erde
+[Eternal Rest]: ./spells-descriptions.md#seelenfrieden
+[Blessed Harvest]: ./spells-descriptions.md#segen-der-erde
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
 [Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
-[Sog des Lebens]: ./spells-descriptions.md#sog-des-lebens
+[Ties of Life]: ./spells-descriptions.md#sog-des-lebens
 [Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer
-[Stehle Aura]: ./spells-descriptions.md#stehle-aura
-[Sturmelementar]: ./spells-descriptions.md#sturmelementar
+[Steal Aura]: ./spells-descriptions.md#stehle-aura
+[Summon Storm Elemental]: ./spells-descriptions.md#sturmelementar
 [Störe Astrale Integrität]: ./spells-descriptions.md#störe-astrale-integrität
 [Süße Träume]: ./spells-descriptions.md#süße-träume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
-[Traum der Magie]: ./spells-descriptions.md#traum-der-magie
-[Traumbilder analysieren]: ./spells-descriptions.md#traumbilder-analysieren
+[Dream of Magic]: ./spells-descriptions.md#traum-der-magie
+[Analyse Dreams]: ./spells-descriptions.md#traumbilder-analysieren
 [Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
-[Traumdeuten]: ./spells-descriptions.md#traumdeuten
+[Mind Probe]: ./spells-descriptions.md#traumdeuten
 [Traumlesen]: ./spells-descriptions.md#traumlesen
-[Traumschlößchen]: ./spells-descriptions.md#traumschlößchen
-[Traumsenden]: ./spells-descriptions.md#traumsenden
+[Castle of Illusion]: ./spells-descriptions.md#traumschlößchen
+[Dream]: ./spells-descriptions.md#Dream
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
-[Untote Helden]: ./spells-descriptions.md#untote-helden
-[Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
-[Verwünschung]: ./spells-descriptions.md#verwuenschung
-[Viehheilung]: ./spells-descriptions.md#viehheilung
-[Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
-[Wahrsagen]: ./spells-descriptions.md#wahrsagen
-[Wasserelementar]: ./spells-descriptions.md#wasserelementar
+[Undead Heroes]: ./spells-descriptions.md#untote-helden
+[Summon Familiar]: ./spells-descriptions.md#vertrauten-rufen
+[Hex]: ./spells-descriptions.md#heal
+[Cattle Healing]: ./spells-descriptions.md#cattle-healing
+[Madness of War]: ./spells-descriptions.md#madness-of-war
+[Divination]: ./spells-descriptions.md#divination
+[Summon Water Elemental]: ./spells-descriptions.md#wasserelementar
 [Weg der Bäume]: ./spells-descriptions.md#weg-der-bäume
-[Wiederbelebung]: ./spells-descriptions.md#wiederbelebung
-[Windschild]: ./spells-descriptions.md#windschild
+[Resurrection]: ./spells-descriptions.md#wiederbelebung
+[Air Shield]: ./spells-descriptions.md#air-shield
 [Wirbelwind]: ./spells-descriptions.md#wirbelwind
-[Wolfsgeheul]: ./spells-descriptions.md#wolfsgeheul
-[Wunderdoktor]: ./spells-descriptions.md#wunderdoktor
+[Timber Wolves]: ./spells-descriptions.md#timber-wolves
+[Miracle Doctor]: ./spells-descriptions.md#miracle-doctor
 [Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
 [Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
 

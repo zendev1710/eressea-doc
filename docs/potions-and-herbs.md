@@ -1,13 +1,10 @@
 ---
 # cSpell:locale en
-alias: tables-potions-and-herbs 
+alias: tables-potions-and-herbs
 ---
 # Tables: Potions and Herbs
 
 ## List of alchemical potions and herbs
-
-
-Liste der alchemistischen Tränke
 
 | Stufe | Name               | Beschreibung                                                                                   |
 |-------|--------------------|------------------------------------------------------------------------------------------------|
@@ -31,9 +28,7 @@ Um einen Trank herstellen zu können, braucht man das Alchemie-Talent in Höhe d
 
 siehe [Alchemie]
 
-------------------------------------------------------------------------
-
-Liste der Kräuter und deren Verbreitung 
+Liste der Kräuter und deren Verbreitung
 
 | Kräuter                                                                                 | Verbreitung |
 |-----------------------------------------------------------------------------------------|-------------|

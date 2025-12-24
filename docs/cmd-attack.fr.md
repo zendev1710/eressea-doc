@@ -6,23 +6,23 @@ alias: cmd-attack-fr
 
 **`ATTACK`**[<sup>`(l)`</sup>]` `*`unit-id`*
 
-Dieser Befehl attackiert die betreffende Einheit in der aktuellen Region. Pro Einheit, die angegriffen werden soll, muß ein Befehl gegeben werden.
+This order attacks the affected unit in the current region. One order must be given for each unit to be attacked.
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] Der `ATTACK`-Befehl ist ein pseudolanger Befehl. Er ist kurz in der Hinsicht, dass man mehrere `ATTACK`-Befehle geben kann. Er ist lang, da er weitere lange Befehle ausschließt, falls es tatsächlich zum "langen" Kampf kommen sollte. Wann ein "langer" Kampf gegeben ist, wird unter [Kampfende] erläutert.
+[<sup>(L)</sup>][<sup>`(l)`</sup>] The `ATTACK` order is a pseudo-long order.
+It is short in the sense that are several `ATTACK` orders can be done.
+It is long because it precludes further long orders if a "long" fight actually occurs.
+When a “long” fight occurs is explained under [end of battle].
 
-Einheiten, die nicht vorne (COMBAT oder COMBAT AGGRESSIV) oder hinten (COMBAT REAR oder COMBAT DEFENSIV) [kämpfen], können auch nicht attackieren.
+Units that are not [[cmd-combat|fighting]] at the front (COMBAT or COMBAT AGGRESSIVE) or rear (COMBAT REAR or COMBAT DEFENSIVE) cannot attack.
 
-In den ersten Wochen ist deine Partei [immun] gegen Angriffe.
+In the first few weeks, your faction is [[puppy-protection|immune]] to attacks.
 
 ## Voir aussi
 
-- [Krieg]
-- [[cmd-combat]][kämpfen]
+- [[guerre]]
+- [[cmd-combat]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
 
 [<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
-[Kampfende]: ./war.md#das-ende
-[kämpfen]: ./cmd-combat.md
-[immun]: ./puppy-protection.md
-[Krieg]: ./war.md
+[end of battle]: ./war.md#fin-du-combat

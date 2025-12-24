@@ -10,7 +10,7 @@ Befördert eine Einheit der eigenen Parteirasse zum Helden.
 
 Helden sind besonders stark im [Kampf]. Sie attackieren in jeder Kampfrunde 5 mal. Darum lohnt sich die Beförderung von Einheiten mit Kampftalenten zum Helden. **Achtung!** Helden greifen weder mit Magie, noch mit Armbrüsten oder Katapulten häufiger an.
 
-Wenn eine Einheit befördert werden soll, benötigt sie pro Person (Gesamt-Personen-Zahl der Partei) Silber. Fehlendes Silber wird wie gewöhnlich aus dem [Silberpool] genommen, wenn genug da ist. Die maximale Anzahl der Helden ist begrenzt, steigt aber mit der Parteigröße. Die Formel dafür ist log10((Parteigröße-500)÷50)×20. Befördert werden können nur Personen der eigenen Rasse, also weder Monster noch Migranten. Die Beförderung findet nach RECRUIT statt. Sowohl für die Zahl der möglichen Helden als auch für die Kosten von Befördere werden die Personenzahlen nach dem Rekrutieren in der aktuellen Wochen herangezogen.
+Wenn eine Einheit befördert werden soll, benötigt sie pro Person (Gesamt-Personen-Zahl der Partei) Silver. Fehlendes Silver wird wie gewöhnlich aus dem [Silverpool] genommen, wenn genug da ist. Die maximale Anzahl der Helden ist begrenzt, steigt aber mit der Parteigröße. Die Formel dafür ist log10((Parteigröße-500)÷50)×20. Befördert werden können nur Personen der eigenen Rasse, also weder Monster noch Migranten. Die Beförderung findet nach RECRUIT statt. Sowohl für die Zahl der möglichen Helden als auch für die Kosten von Befördere werden die Personenzahlen nach dem Rekrutieren in der aktuellen Wochen herangezogen.
 
 Einheiten die befördert wurden, können keine weiteren Personen rekrutieren und können auch nicht mit anderen Nicht-Helden-Einheiten zusammengeführt werden. Es gibt keinen Befehl um Helden zu degradieren.
 
@@ -28,4 +28,4 @@ Für Rechenfaule hier eine Tabelle, bei welcher Personenzahl in der Partei wie v
 <!-- From [https://wiki.eressea.de/index.php?title=PROMOTE&oldid=16056] -->
 
 [Kampf]: ./war.md
-[Silberpool]: ./items-pool.md#der-silberpool
+[Silverpool]: ./items-pool.md#der-silberpool

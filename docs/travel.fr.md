@@ -99,6 +99,6 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 
 Poursuivre la lecture : [[naviguer]].
 
-[riding]: ./skills-list.fr.md#equitation
+[riding]: ./skills-list.md#equitation
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->

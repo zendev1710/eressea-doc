@@ -57,5 +57,5 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 [Aktion]:./commands.md#kurze-und-lange-befehle
 [bewacht]: ./cmd-guard.md
 [attackiert]: ./cmd-attack.md
-[Hungern]: ./silver.md#hunger
+[Hungern]: ./silver.md#famine
 [Materialpool]: ./items-pool.md

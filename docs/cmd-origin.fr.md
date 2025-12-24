@@ -4,12 +4,14 @@ alias: cmd-origin-fr
 ---
 # ORIGIN
 
-**`ORIGIN`**` `*`x y`*
+**`ORIGIN`**` `*`x y`*  
 
-Cette commande permet à une unité de déplacer le système de coordonnées de la faction. Cette opération place l'origine (0,0) du système de coordonnées de la faction dans la région (x,y).
+Cette commande permet à une unité de déplacer le système de coordonnées de la faction.
+Cette opération place l'origine (0,0) du système de coordonnées de la faction dans la région (x,y).
 
-Hinweis: Der Befehl gilt für die Ebene, in der sich die Partei befindet (siehe auch [Astralraum]).
+<!-- TODO: translate in french -->
+Note: The order applies to the plane in which the faction is located (see also [Astral]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=ORIGIN/fr&oldid=14966] -->
 
-[Astralraum]: ./magic.md#der-astralraum
+[Astral]: ./magic.md#lastral

@@ -4,8 +4,10 @@ alias: cmd-forget
 ---
 # FORGET
 
-**`FORGET`**` `*`talent`*
+**`FORGET`**` `*`skill`*  
 
-Mit diesem Befehl kann man eine Einheit anweisen, ein Talent zu vergessen. Die Talentstufen werden damit auf 0 gesetzt - auch solche, die die Einheit sonst "von Geburt an" kann. Dies ist z.B. dann nützlich, wenn man zu einer Einheit viele neue Personen rekrutiert und damit ein Talent, welches die Einheit früher mal gebrauchte, nicht mehr sinnvoll anwenden kann und auch nicht mehr lernen soll.
+This order can be used to instruct a unit to forget a skill.
+The skill levels are thus set to 0 - including those that the unit can otherwise do "from birth".
+This is useful, for example, if you recruit a lot of new people to a unit and therefore a skill that the unit previously used can no longer be used sensibly and should no longer be learned.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FORGET&oldid=5560] -->

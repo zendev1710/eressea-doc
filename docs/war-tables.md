@@ -163,4 +163,4 @@ An elf with a longsword and full longsword armor (shield + chain) therefore does
 [Trolls]: ./races.md#trolls
 [Orcs]: ./races.md#orcs
 [Cats]: ./races.md#cats
-[horse bonus]: ./war.md#boni-und-mali
+[horse bonus]: ./war.md#bonuses-and-mali

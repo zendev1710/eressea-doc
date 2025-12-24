@@ -88,4 +88,4 @@ Ents, powerful tree creatures, are summoned by Gwyrrd druids or sometimes arise 
 
 [famine]: ./silver.md#famine
 [Draig]: ./magic-schools.md#draig
-[Astral Space]: ./magic.fr.md#lespace-astral
+[Astral Space]: ./magic.md#lastral

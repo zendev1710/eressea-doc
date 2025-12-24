@@ -7488,9 +7488,7 @@
 <h1 id="orders">Orders<a class="headerlink" href="#orders" title="Permanent link">&para;</a></h1>
 <h2 id="conventions">Conventions<a class="headerlink" href="#conventions" title="Permanent link">&para;</a></h2>
 <p>The following conventions apply in these rules:</p>
-<div class="highlight"><pre><span></span><code>```text
-GIVE unit-id [number|ALL] [item]
-```
+<div class="highlight"><pre><span></span><code>    GIVE unit-id [number|ALL] [item]
 </code></pre></div>
 <ul>
 <li>Keywords like GIVE, MAKE, NOT are in capital letters. This is not mandatory, but we recommend it-Placeholders are in lowercase letters. They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit. Sometimes we also write this as <unit-id>, in which case the &lt; and &gt; symbols are *not*to be included.</li>
@@ -7501,31 +7499,23 @@ GIVE unit-id [number|ALL] [item]
 <p>Items should always be in the*Singular*stand, so<code>GIVE xyz 100 Schwert</code>or<code>MAKE 15 Stein</code>. Items often appear in the majority in the report and are mostly understood in commands, but you should be aware that the server does not understand natural language, even if the commands look almost like that.</p>
 <p>Many commands can be shortened, although you should not overdo it as this is prone to errors: VER matches FORGET, SELL and LEAVE and is therefore noted as an error; So here you should use at least four letters. In addition, overly cryptic abbreviations are not particularly readable when you look through your moves later... It's still safest if you don't abbreviate your orders, especially since there may be orders, items and skills that are intentionally not in the instructions but start out similar to well-known orders, items and skills.</p>
 <p>Texts that contain spaces must be enclosed in quotation marks ("") or the spaces must be replaced by ~ (tilde). Furthermore, umlauts may be replaced by the appropriate paraphrase (Ä=AE, etc.):</p>
-<div class="highlight"><pre><span></span><code>```text
-NAME Ship &quot;Big Blue Bird&quot;
-GIVE unit 5 Spicy~Daring
-COMBAT REAR
-```
+<div class="highlight"><pre><span></span><code>    NAME Ship &quot;Big Blue Bird&quot;
+    GIVE unit 5 Spicy~Daring
+    COMBAT REAR
 </code></pre></div>
 <p>Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.</p>
-<div class="highlight"><pre><span></span><code>```text
-MESSAGE REGION &#39;Sprich &quot;Freund&quot; und tritt ein&#39;
-NAME BURG xyz &quot;Helm&#39;s Deep&quot;
-DEFAULT &#39;MAKE 1 &quot;Wasser des Lebens&quot;&#39;
-```
+<div class="highlight"><pre><span></span><code>    MESSAGE REGION &#39;Sprich &quot;Freund&quot; und tritt ein&#39;
+    NAME BURG xyz &quot;Helm&#39;s Deep&quot;
+    DEFAULT &#39;MAKE 1 &quot;Wasser des Lebens&quot;&#39;
 </code></pre></div>
 <p>Also called masking (escaping) by the character\are possible, but not necessarily recommended:</p>
-<div class="highlight"><pre><span></span><code>```text
-MESSAGE REGION &quot;Sprich \&quot;Freund\&quot; und tritt ein&quot;
-NAME BURG xyz &#39;Helm\&#39;s Deep&#39;
-DEFAULT &#39;MAKE 1 Wasser\~des\~Lebens&#39;
-```
+<div class="highlight"><pre><span></span><code>    MESSAGE REGION &quot;Sprich \&quot;Freund\&quot; und tritt ein&quot;
+    NAME BURG xyz &#39;Helm\&#39;s Deep&#39;
+    DEFAULT &#39;MAKE 1 Wasser\~des\~Lebens&#39;
 </code></pre></div>
 <p>By the way, it is not necessary to limit yourself to the Latin alphabet. The full Unicode character set is possible in names and descriptions:</p>
-<div class="highlight"><pre><span></span><code>```text
-NAME UNIT &quot;Σωκράτης&quot;
-MESSAGE REGION &quot;🨀 شاه مات&quot;
-```
+<div class="highlight"><pre><span></span><code>    NAME UNIT &quot;Σωκράτης&quot;
+    MESSAGE REGION &quot;🨀 شاه مات&quot;
 </code></pre></div>
 <p>Of course, you should make sure that you are understood by others.</p>
 <!-- TODO: rework ZUGVORLAGE notion-->
@@ -7547,26 +7537,23 @@ If your evaluation does not contain a move template (with the extension <code>.t
 <p>Sometimes it makes sense to execute a short command every round, such as GIVE, because the miners should constantly deliver the mined iron to the forge.</p>
 <p>To do this, you can put an @ (at sign, spider monkey) before each short command. Such orders are simply copied into the move template for the next round and -unless you delete them again -executed again.</p>
 <p><strong>An example</strong> :</p>
-<div class="highlight"><pre><span></span><code>```text
-UNIT berg;         Miners [5,400$,U500]
-    MAKE iron
-    @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
-UNIT schm;         Wrought [3,1343$,U250]
-    MAKE Swords
-```
+<div class="highlight"><pre><span></span><code>    UNIT berg;         Miners [5,400$,U500]
+        MAKE iron
+        @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
+    UNIT schm;         Wrought [3,1343$,U250]
+        MAKE Swords
 </code></pre></div>
 <p><strong>Note:</strong> There is a cap on the number of commands stored for a unit. This is currently 128 commands, which should easily be enough for most purposes.</p>
 <h2 id="suppress-errors">Suppress errors<a class="headerlink" href="#suppress-errors" title="Permanent link">&para;</a></h2>
 <p>It may happen that you consciously accept errors when executing a command. By prefixing it with an exclamation mark (!) you can suppress the server messages concerning this command.</p>
 <p><strong>An example</strong>:</p>
-<div class="highlight"><pre><span></span><code>```text
-UNIT berg;         Miners
-    MAKE iron
-    !@GIVE tran ALL iron;   The van isn&#39;t always there; we don&#39;t want an error message about this
-UNIT tran;        Transporter
-    ROUTE w PAUSE o PAUSE;   We commute between two regions
-    !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths
-</code></pre></div>
+<p>```text
+    UNIT berg;         Miners
+        MAKE iron
+        !@GIVE tran ALL iron;   The van isn't always there; we don't want an error message about this
+    UNIT tran;        Transporter
+        ROUTE w PAUSE o PAUSE;   We commute between two regions
+        !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths</p>
 <p>Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht gerechnet hast.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>

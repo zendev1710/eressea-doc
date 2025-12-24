@@ -7374,11 +7374,9 @@ Si le paramètre optionnel « Vitesse » est spécifié, le bateau poursuivant
 <p><code>FOLLOW SHIP</code>, comme <code>FOLLOW UNIT</code>, n'est un ordre longu que si la cible a un ordre de déplacement et remplace ensuite toutes les autres ordres longs.</p>
 <p><code>FOLLOW</code> ne dure que pendant le tour au cours duquel la commande est donnée.
 Si la commande doit durer plus longtemps, elle doit être précédée d'un <code>@</code>.</p>
-<div class="highlight"><pre><span></span><code>```
-UNIT 87b6
-    @FOLLOW UNIT hz7
-    ENTERTAIN
-```
+<div class="highlight"><pre><span></span><code>    UNIT 87b6
+        @FOLLOW UNIT hz7
+        ENTERTAIN
 </code></pre></div>
 <p>L'unité <em>87b6</em> surveillera l'unité <em>hz7</em> et la suivra dans ses mouvements.
 Si le déplacement échoue, elle gagnera de l'argent grâce au divertissement.

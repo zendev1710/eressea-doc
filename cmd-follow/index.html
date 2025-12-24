@@ -7373,11 +7373,9 @@ If the optional parameter <em>Speed</em> is specified, the pursuing ship will sa
 </div>
 <p><code>FOLLOW SHIP</code>, like <code>FOLLOW UNIT</code>, is only a long order if the target has a move order and then replaces all other long order.</p>
 <p><code>FOLLOW</code> only lasts in the round in which the order is given. If the order is to last longer, it must be preceded by a <code>@</code>.</p>
-<div class="highlight"><pre><span></span><code>```
-UNIT 87b6
-    @FOLLOW UNIT hz7
-    ENTERTAIN
-```
+<div class="highlight"><pre><span></span><code>    UNIT 87b6
+        @FOLLOW UNIT hz7
+        ENTERTAIN
 </code></pre></div>
 <p>Unit <em>87b6</em> will now watch unit <em>hz7</em> and follow it as it moves.
 Otherwise, she will make money from entertainment.

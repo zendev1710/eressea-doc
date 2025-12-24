@@ -7482,35 +7482,36 @@ For example, if the unit xyz has 10 people, with <code>GIVE xyz JE 20 Silver</co
 <p class="admonition-title">Tip</p>
 <p>With <code>@GIVE</code> you can set up automatic transfers.
 For example, a unit with <code>@GIVE abc ALL Iron</code> hand over all the iron to the <em>abc</em> unit every week.</p>
-<div class="highlight"><pre><span></span><code>GIVE k3f 300 Silver
-; Gives the unit k3f 300 Silver.
-
-GIVE 0 5 Stone
-; Discard 5 stones.
-
-GIVE TEMP 3 7 MEN
-; Gives 7 people to the newly created unit TEMP 3.
-</code></pre></div>
 </div>
+<div class="highlight"><pre><span></span><code>    GIVE k3f 300 Silver
+    ; Gives the unit k3f 300 Silver.
+
+    GIVE 0 5 Stone
+    ; Discard 5 stones.
+
+    GIVE TEMP 3 7 MEN
+    ; Gives 7 people to the newly created unit TEMP 3.
+</code></pre></div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>Between <code>MAKE TEMP</code> and <code>END</code> there are orders for the new unit - and it has no money.
 So the following <strong>doesn't work</strong>:</p>
-<div class="highlight"><pre><span></span><code>MAKE TEMP 1
-    GIVE TEMP 1 200 Silver  ;  Pointless!
-    RECRUIT 2
-    MOVE WEST
-END
-</code></pre></div>
-<p>Instead, it needs to be written like this:</p>
-<div class="highlight"><pre><span></span><code>GIVE TEMP 1 200 Silver
-MAKE TEMP 1
-    RECRUIT 2
-    MOVE WEST
-END
-; GIVE TEMP 1 200 Silver  ;  or here!
-</code></pre></div>
 </div>
+<div class="highlight"><pre><span></span><code>    MAKE TEMP 1
+        GIVE TEMP 1 200 Silver  ;  Pointless!
+        RECRUIT 2
+        MOVE WEST
+    END
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Instead, it needs to be written like this:
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    GIVE TEMP 1 200 Silver
+    MAKE TEMP 1
+        RECRUIT 2
+        MOVE WEST
+    END
+    ; GIVE TEMP 1 200 Silver  ;  or here!
+</code></pre></div>
 <h2 id="people-and-units">People and units<a class="headerlink" href="#people-and-units" title="Permanent link">&para;</a></h2>
 <p>If you want to bring people from different units together, this is done with <code>GIVE</code><em><code>unit-id</code></em><code>anzahl MEN</code>.
 <strong>The <a href="../skills/">Skills</a> are then mixed up</strong>, and you <strong>shouldn't forget the items</strong>, as they may go to the farmers if the unit runs out of people.</p>
@@ -7519,14 +7520,12 @@ END
 the receiving unit must CONTACT the transferring unit.
 In addition, if the receiving unit is a <a href="../races/#humains">migrant unit</a>, it must not have any people at the time of transfer.
 Ideally it should be an empty TEMP unit. Example:</p>
-<div class="highlight"><pre><span></span><code>```
-UNIT a; Faction X
-GIVE TEMP x ALL MEN
-UNIT b; Faction Y
-MAKE TEMP x
-CONTACT UNIT a
-END
-```
+<div class="highlight"><pre><span></span><code>    UNIT a; Faction X
+    GIVE TEMP x ALL MEN
+    UNIT b; Faction Y
+    MAKE TEMP x
+    CONTACT UNIT a
+    END
 </code></pre></div>
 <p>With <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!
 The unit does not carry out any further orders during the turn!</p>

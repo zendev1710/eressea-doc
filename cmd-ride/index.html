@@ -7354,33 +7354,35 @@
 
 
 <h1 id="ride">RIDE<a class="headerlink" href="#ride" title="Permanent link">&para;</a></h1>
-<p><strong><code>RIDE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>unit-id</code></em>
-<strong><code>CARRY</code></strong><code></code><em><code>unit-id</code></em></p>
-<p>Mit dem Befehl <code>RIDE</code> schließt sich eine Einheit einer transportierenden Einheit an und kann von dieser, sofern sie den Befehl <code>CARRY</code> für die fahrende Einheit gegeben hat, mitgenommen werden. Durch diesen Befehl ist es möglich, auch ohne das Reiten-Talent auf Pferden oder Wagen zu reisen. Voraussetzung dafür ist natürlich, dass die transportierende Einheit über genügend freie Kapazitäten verfügt, um die fahrenden Einheiten samt Gegenständen aufzuladen.</p>
-<div class="highlight"><pre><span></span><code>   Partei 125:
-      UNIT 311
-        RIDE 456 ; ich will mitfahren
-        CONTACT 456
-      [...]
-  
-   Partei 300:
-      UNIT 777
-        RIDE 456 ; ich will mitfahren
-  
-   Partei 300:
-      UNIT 456
-        CARRY 311 ; Lasse 311 mitfahren
-        CARRY 777 ; und 777 wird auch mitgenommen
-        CONTACT 311
+<p><strong><code>RIDE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>unit-id</code></em><br />
+<strong><code>CARRY</code></strong><code></code><em><code>unit-id</code></em>  </p>
+<p>With the <code>RIDE</code> order a unit joins a transporting unit and can be separated from it if it receives the order <code>CARRY</code> given for the traveling unit.
+With this order it is possible to travel on horses or carts even without the riding skill.
+The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.</p>
+<div class="highlight"><pre><span></span><code>    Partei 125:
+        UNIT 311
+            RIDE 456 ; I want to go with you
+            CONTACT 456
+            [...]
+      
+    Partei 300:
+        UNIT 777
+            RIDE 456 ; I want to go with you
+      
+    Partei 300:
+        UNIT 456
+            CARRY 311 ; Let 311 come along for the ride
+            CARRY 777 ; and 777 is also taken
+            CONTACT 311
 </code></pre></div>
-<p>[<sup>L</sup>][<sup><code>L</code></sup>] <code>RIDE</code> ist ein langer Befehl. <code>CARRY</code> ist kurz, aber ergibt natürlich nur Sinn, wenn die Einheit einen (langen) Bewegungsbefehl ausführt.</p>
+<p>[<sup>L</sup>][<sup><code>L</code></sup>] <code>RIDE</code> is a long order. <code>CARRY</code> is short, but of course only makes sense if the unit executes a (long) movement order.</p>
 <ul>
-<li><a href="../races/#aquarians">Meermenschen</a> können beim <a href="../sailing/#swimming">Anschwimmen</a> keine anderen Rassen transportieren und auch keine Pferde oder Wagen mitnehmen.</li>
-<li><a href="../races/#insects">Insekten</a> können auch mittels <code>CARRY</code> nicht in oder durch einen Gletscher gebracht werden.</li>
+<li><a href="../races/#aquarians">Aquarians</a> cannot transport other races when <a href="../sailing/#swimming">swimming</a>, nor can they take horses or carts with them</li>
+<li><a href="../races/#insects">Insects</a> can also be transported using <code>CARRY</code>, but cannot be brought into or through a glacier</li>
 </ul>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../travel/">Reisen</a></li>
+<li><a href="../travel/">Movement</a></li>
 <li><a href="../cmd-move/">MOVE</a></li>
 <li><a href="../cmd-route/">ROUTE</a></li>
 </ul>

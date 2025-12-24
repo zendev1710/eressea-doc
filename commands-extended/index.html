@@ -7485,323 +7485,313 @@
 </ol>
 <p>If you want to write something yourself, you can find everything you need under Desktop-&gt;Advanced Commands Help. You can also display the page in the browser using the “Browser” button.</p>
 <p>Oh yes, here are the 2 lines for the import:</p>
-<div class="highlight"><pre><span></span><code>```java
-import magellan.library.*;
-import magellan.library.rules.*;
-```
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="kn">import</span><span class="w"> </span><span class="nn">magellan.library.*</span><span class="p">;</span>
+<span class="w">    </span><span class="kn">import</span><span class="w"> </span><span class="nn">magellan.library.rules.*</span><span class="p">;</span>
 </code></pre></div>
 <p>Here are my pre-made scripts:</p>
 <h3 id="meta-castle-building-signs">Meta castle building signs<a class="headerlink" href="#meta-castle-building-signs" title="Permanent link">&para;</a></h3>
 <p>A call from <code>metaBurgenbauSchilder()</code> in all regions you will receive a sign with the following information: Castle size M Morale Silver per castle size /stone for the next castle upgrade Stone efficiency (= Silver per castle size /stone for the next castle upgrade)</p>
-<div class="highlight"><pre><span></span><code>```java
-/*********************************************
-*        Meta&#39;s BurgenbauSchilder            *
-* Version 0.5                                *
-*********************************************/
-metaBurgenbauSchilder() {
-  int moral;
-  int burggroesse;
-  int silberpool;
-  int bauern;
-  int nextBurgUpgrade;
-  int stein2Upgrade;
-  int steinEffizienz;
-  String signtext;
-  for (Region region : world.regions().values()) {
-    bauern = region.getPeasants();
-    region.clearSigns();
-    if (bauern &gt; 0){
-      moral = region.getMorale();
-      burggroesse = 0;
-      for (Building building : region.buildings()){
-        if (building.getSize()&gt;burggroesse){// TODO check whether building = castle
-          burggroesse = building.getSize();
-        }
-      }
-      silberpool = region.getSilver();
-      if (burggroesse&lt;10) nextBurgUpgrade = 10;
-      else if (burggroesse&lt;50) nextBurgUpgrade = 50;
-      else if (burggroesse&lt;250) nextBurgUpgrade = 250;
-      else if (burggroesse&lt;1250) nextBurgUpgrade = 1250;
-      else if (burggroesse&lt;6250) nextBurgUpgrade = 6250;
-      else nextBurgUpgrade = 0; // it will be a while before I need it
-      stein2Upgrade = nextBurgUpgrade - burggroesse;
-      steinEffizienz = silberpool/stein2Upgrade;
-      signtext = &quot;&quot;+burggroesse+&quot; M&quot;+moral;
-      region.addSign(new Sign( signtext ));
-      signtext = &quot;&quot;+silberpool/100+&quot;$/&quot;+stein2Upgrade+&quot;S&quot;;
-      region.addSign(new Sign( signtext ));
-      signtext = &quot;&quot;+steinEffizienz/100+&quot;,&quot;+steinEffizienz%100; //+&quot;=&quot;+steinEffizienz;
-      if (steinEffizienz&gt;10000) signtext = &quot;**&quot; + signtext + &quot;**&quot;;
-      else if (steinEffizienz&gt;1000) signtext = &quot;*&quot; + signtext + &quot;*&quot;;
-      region.addSign(new Sign( signtext ));
-    }
-  }
-}
-```
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="cm">/*********************************************</span>
+<span class="cm">    *        Meta&#39;s BurgenbauSchilder            *</span>
+<span class="cm">    * Version 0.5                                *</span>
+<span class="cm">    *********************************************/</span>
+<span class="w">    </span><span class="n">metaBurgenbauSchilder</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">moral</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">burggroesse</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">silberpool</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">bauern</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">stein2Upgrade</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">steinEffizienz</span><span class="p">;</span>
+<span class="w">      </span><span class="n">String</span><span class="w"> </span><span class="n">signtext</span><span class="p">;</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">regions</span><span class="p">().</span><span class="na">values</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">bauern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">getPeasants</span><span class="p">();</span>
+<span class="w">        </span><span class="n">region</span><span class="p">.</span><span class="na">clearSigns</span><span class="p">();</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">bauern</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">){</span>
+<span class="w">          </span><span class="n">moral</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">getMorale</span><span class="p">();</span>
+<span class="w">          </span><span class="n">burggroesse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">          </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Building</span><span class="w"> </span><span class="n">building</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">buildings</span><span class="p">()){</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">building</span><span class="p">.</span><span class="na">getSize</span><span class="p">()</span><span class="o">&gt;</span><span class="n">burggroesse</span><span class="p">){</span><span class="c1">// TODO check whether building = castle</span>
+<span class="w">              </span><span class="n">burggroesse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">building</span><span class="p">.</span><span class="na">getSize</span><span class="p">();</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">          </span><span class="n">silberpool</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">getSilver</span><span class="p">();</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">burggroesse</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">burggroesse</span><span class="o">&lt;</span><span class="mi">50</span><span class="p">)</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">burggroesse</span><span class="o">&lt;</span><span class="mi">250</span><span class="p">)</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">250</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">burggroesse</span><span class="o">&lt;</span><span class="mi">1250</span><span class="p">)</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1250</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">burggroesse</span><span class="o">&lt;</span><span class="mi">6250</span><span class="p">)</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">6250</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// it will be a while before I need it</span>
+<span class="w">          </span><span class="n">stein2Upgrade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nextBurgUpgrade</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">burggroesse</span><span class="p">;</span>
+<span class="w">          </span><span class="n">steinEffizienz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">silberpool</span><span class="o">/</span><span class="n">stein2Upgrade</span><span class="p">;</span>
+<span class="w">          </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="o">+</span><span class="n">burggroesse</span><span class="o">+</span><span class="s">&quot; M&quot;</span><span class="o">+</span><span class="n">moral</span><span class="p">;</span>
+<span class="w">          </span><span class="n">region</span><span class="p">.</span><span class="na">addSign</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Sign</span><span class="p">(</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="p">));</span>
+<span class="w">          </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="o">+</span><span class="n">silberpool</span><span class="o">/</span><span class="mi">100</span><span class="o">+</span><span class="s">&quot;$/&quot;</span><span class="o">+</span><span class="n">stein2Upgrade</span><span class="o">+</span><span class="s">&quot;S&quot;</span><span class="p">;</span>
+<span class="w">          </span><span class="n">region</span><span class="p">.</span><span class="na">addSign</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Sign</span><span class="p">(</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="p">));</span>
+<span class="w">          </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="o">+</span><span class="n">steinEffizienz</span><span class="o">/</span><span class="mi">100</span><span class="o">+</span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">steinEffizienz</span><span class="o">%</span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="c1">//+&quot;=&quot;+steinEffizienz;</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">steinEffizienz</span><span class="o">&gt;</span><span class="mi">10000</span><span class="p">)</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;**&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;**&quot;</span><span class="p">;</span>
+<span class="w">          </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">steinEffizienz</span><span class="o">&gt;</span><span class="mi">1000</span><span class="p">)</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;*&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;*&quot;</span><span class="p">;</span>
+<span class="w">          </span><span class="n">region</span><span class="p">.</span><span class="na">addSign</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Sign</span><span class="p">(</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="p">));</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 <h3 id="meta-friend-enemy-signs">Meta friend enemy signs<a class="headerlink" href="#meta-friend-enemy-signs" title="Permanent link">&para;</a></h3>
 <p>This is a bit more complicated as it requires some configuration. More detailed documentation will be provided later:</p>
-<div class="highlight"><pre><span></span><code>```java
-/*********************************************
-*        Meta&#39;s Friend enemy signs           *
-* Version 0.6                                *
-*********************************************/
-metaFreundFeindSchilder(String type) {
-  if (type.equals(&quot;people&quot;)){ // just counting people
-    HashMap people;
-    String allianceName;
-    for (Region region : world.regions().values()) {
-      people = new HashMap();
-      for (Unit unit : region.units()) {
-        allianceName = metaGetFriendFoeInfo(unit.getFaction());
-        if (people.containsKey(allianceName)) { 
-    people.put(allianceName, 
-        people.get(allianceName)
-        +unit.getPersons());
-        } else {
-          people.put(allianceName, unit.getPersons());
-        }
-      }
-      region.clearSigns();
-      Iterator iterator = people.keySet().iterator();
-      String signtext = &quot;&quot;;
-      while (iterator.hasNext()) {
-        String allianceStr = iterator.next();
-        int amount = people.get(allianceStr);
-        signtext = allianceStr + &quot;:&quot; + amount;
-        Sign sign = new Sign( signtext );
-        region.addSign(sign);
-      } 
-    }
-  }
-  else if (type.equals(&quot;soldier&quot;)){
-    HashMap people;
-    HashMap soldiers;
-    HashMap heros;
-    String friendFoeInfo;
-    for (Region region : world.regions().values()) { // all regions
-      people = new HashMap();
-      soldiers = new HashMap();
-      heros = new HashMap();
-      for (Unit unit : region.units()) { // Add up
-        friendFoeInfo = metaGetFriendFoeInfo(unit.getFaction());
-        if (!(people.containsKey(friendFoeInfo))) { // if empty init
-          people.put(friendFoeInfo,0);
-        }
-        if (!(soldiers.containsKey(friendFoeInfo))) {//wenn leer init
-          soldiers.put(friendFoeInfo,0);
-        }
-        if (!(heros.containsKey(friendFoeInfo))) { // if empty init
-          heros.put(friendFoeInfo,0);
-        }
-        if (!metaUnitIsSoldier(unit)){ // no soldiers
-          people.put(friendFoeInfo,people.get(friendFoeInfo)+unit.getPersons());
-        } else if (unit.isHero()){ // Heroes
-          heros.put(friendFoeInfo,heros.get(friendFoeInfo)+unit.getPersons());
-        } else { // soldiers
-          soldiers.put(friendFoeInfo,soldiers.get(friendFoeInfo)+unit.getPersons());
-        }
-      }
-      region.clearSigns();
-      Iterator iterator = people.keySet().iterator();
-      String signtext = &quot;&quot;;
-      while (iterator.hasNext()) {
-        String ffi = iterator.next(); // Friend foe info
-        int p = people.get(ffi);
-        int s = soldiers.get(ffi);
-        int h = heros.get(ffi);
-        signtext = ffi + &quot;:&quot;+ p;
-        if (s&gt;0) signtext = signtext+&quot;+&quot;+s;
-        if (h&gt;0) signtext = signtext+&quot;+&quot;+h+&quot;H&quot;;
-        Sign sign = new Sign( signtext );
-        region.addSign(sign);
-      }
-    }
-  }
-}
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="cm">/*********************************************</span>
+<span class="cm">    *        Meta&#39;s Friend enemy signs           *</span>
+<span class="cm">    * Version 0.6                                *</span>
+<span class="cm">    *********************************************/</span>
+<span class="w">    </span><span class="n">metaFreundFeindSchilder</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">type</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">type</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;people&quot;</span><span class="p">)){</span><span class="w"> </span><span class="c1">// just counting people</span>
+<span class="w">        </span><span class="n">HashMap</span><span class="w"> </span><span class="n">people</span><span class="p">;</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">allianceName</span><span class="p">;</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">regions</span><span class="p">().</span><span class="na">values</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="n">people</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span>
+<span class="w">          </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">units</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">allianceName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetFriendFoeInfo</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getFaction</span><span class="p">());</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">people</span><span class="p">.</span><span class="na">containsKey</span><span class="p">(</span><span class="n">allianceName</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">        </span><span class="n">people</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">allianceName</span><span class="p">,</span><span class="w"> </span>
+<span class="w">            </span><span class="n">people</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">allianceName</span><span class="p">)</span>
+<span class="w">            </span><span class="o">+</span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">());</span>
+<span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="n">people</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">allianceName</span><span class="p">,</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">());</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">          </span><span class="n">region</span><span class="p">.</span><span class="na">clearSigns</span><span class="p">();</span>
+<span class="w">          </span><span class="n">Iterator</span><span class="w"> </span><span class="n">iterator</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">people</span><span class="p">.</span><span class="na">keySet</span><span class="p">().</span><span class="na">iterator</span><span class="p">();</span>
+<span class="w">          </span><span class="n">String</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">;</span>
+<span class="w">          </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">iterator</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">String</span><span class="w"> </span><span class="n">allianceStr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">iterator</span><span class="p">.</span><span class="na">next</span><span class="p">();</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">people</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">allianceStr</span><span class="p">);</span>
+<span class="w">            </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">allianceStr</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;:&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">amount</span><span class="p">;</span>
+<span class="w">            </span><span class="n">Sign</span><span class="w"> </span><span class="n">sign</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Sign</span><span class="p">(</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="p">);</span>
+<span class="w">            </span><span class="n">region</span><span class="p">.</span><span class="na">addSign</span><span class="p">(</span><span class="n">sign</span><span class="p">);</span>
+<span class="w">          </span><span class="p">}</span><span class="w"> </span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">type</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;soldier&quot;</span><span class="p">)){</span>
+<span class="w">        </span><span class="n">HashMap</span><span class="w"> </span><span class="n">people</span><span class="p">;</span>
+<span class="w">        </span><span class="n">HashMap</span><span class="w"> </span><span class="n">soldiers</span><span class="p">;</span>
+<span class="w">        </span><span class="n">HashMap</span><span class="w"> </span><span class="n">heros</span><span class="p">;</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">friendFoeInfo</span><span class="p">;</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">regions</span><span class="p">().</span><span class="na">values</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// all regions</span>
+<span class="w">          </span><span class="n">people</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span>
+<span class="w">          </span><span class="n">soldiers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span>
+<span class="w">          </span><span class="n">heros</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span>
+<span class="w">          </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">units</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Add up</span>
+<span class="w">            </span><span class="n">friendFoeInfo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetFriendFoeInfo</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getFaction</span><span class="p">());</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">people</span><span class="p">.</span><span class="na">containsKey</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// if empty init</span>
+<span class="w">              </span><span class="n">people</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">soldiers</span><span class="p">.</span><span class="na">containsKey</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span><span class="c1">//wenn leer init</span>
+<span class="w">              </span><span class="n">soldiers</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">heros</span><span class="p">.</span><span class="na">containsKey</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// if empty init</span>
+<span class="w">              </span><span class="n">heros</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">metaUnitIsSoldier</span><span class="p">(</span><span class="n">unit</span><span class="p">)){</span><span class="w"> </span><span class="c1">// no soldiers</span>
+<span class="w">              </span><span class="n">people</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="n">people</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)</span><span class="o">+</span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">());</span>
+<span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">isHero</span><span class="p">()){</span><span class="w"> </span><span class="c1">// Heroes</span>
+<span class="w">              </span><span class="n">heros</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="n">heros</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)</span><span class="o">+</span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">());</span>
+<span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// soldiers</span>
+<span class="w">              </span><span class="n">soldiers</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">,</span><span class="n">soldiers</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">friendFoeInfo</span><span class="p">)</span><span class="o">+</span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">());</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">          </span><span class="n">region</span><span class="p">.</span><span class="na">clearSigns</span><span class="p">();</span>
+<span class="w">          </span><span class="n">Iterator</span><span class="w"> </span><span class="n">iterator</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">people</span><span class="p">.</span><span class="na">keySet</span><span class="p">().</span><span class="na">iterator</span><span class="p">();</span>
+<span class="w">          </span><span class="n">String</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">;</span>
+<span class="w">          </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">iterator</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">String</span><span class="w"> </span><span class="n">ffi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">iterator</span><span class="p">.</span><span class="na">next</span><span class="p">();</span><span class="w"> </span><span class="c1">// Friend foe info</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">people</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ffi</span><span class="p">);</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">soldiers</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ffi</span><span class="p">);</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">h</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">heros</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ffi</span><span class="p">);</span>
+<span class="w">            </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ffi</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;:&quot;</span><span class="o">+</span><span class="w"> </span><span class="n">p</span><span class="p">;</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">s</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">signtext</span><span class="o">+</span><span class="s">&quot;+&quot;</span><span class="o">+</span><span class="n">s</span><span class="p">;</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">h</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">signtext</span><span class="o">+</span><span class="s">&quot;+&quot;</span><span class="o">+</span><span class="n">h</span><span class="o">+</span><span class="s">&quot;H&quot;</span><span class="p">;</span>
+<span class="w">            </span><span class="n">Sign</span><span class="w"> </span><span class="n">sign</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Sign</span><span class="p">(</span><span class="w"> </span><span class="n">signtext</span><span class="w"> </span><span class="p">);</span>
+<span class="w">            </span><span class="n">region</span><span class="p">.</span><span class="na">addSign</span><span class="p">(</span><span class="n">sign</span><span class="p">);</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 
 
-boolean metaUnitIsSoldier(unit) { // a little shortened from the Helper
-  Collection items = unit.getItems();
-  ItemCategory weapons = world.rules.getItemCategory(StringID.create(&quot;weapons&quot;), false);
-  for (Item item : items) {
-    ItemCategory itemCategory = item.getItemType().getCategory();
-    if (itemCategory == null) {continue;}
-    if (itemCategory.equals(weapons)) {
-      Skill useSkill = item.getItemType().getUseSkill();
-      if (useSkill != null) {
-        for (Skill skill : unit.getSkills()) {
-          if (useSkill.getSkillType().equals(skill.getSkillType())) {
-            return true;
-          }
-        }
-      }
-    }
-  }
-  return false;
-}
+<span class="w">    </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">metaUnitIsSoldier</span><span class="p">(</span><span class="n">unit</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// a little shortened from the Helper</span>
+<span class="w">      </span><span class="n">Collection</span><span class="w"> </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getItems</span><span class="p">();</span>
+<span class="w">      </span><span class="n">ItemCategory</span><span class="w"> </span><span class="n">weapons</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">rules</span><span class="p">.</span><span class="na">getItemCategory</span><span class="p">(</span><span class="n">StringID</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="s">&quot;weapons&quot;</span><span class="p">),</span><span class="w"> </span><span class="kc">false</span><span class="p">);</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Item</span><span class="w"> </span><span class="n">item</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">items</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">ItemCategory</span><span class="w"> </span><span class="n">itemCategory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getItemType</span><span class="p">().</span><span class="na">getCategory</span><span class="p">();</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">itemCategory</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="k">continue</span><span class="p">;}</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">itemCategory</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">weapons</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="n">Skill</span><span class="w"> </span><span class="n">useSkill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getItemType</span><span class="p">().</span><span class="na">getUseSkill</span><span class="p">();</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">useSkill</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Skill</span><span class="w"> </span><span class="n">skill</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getSkills</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">useSkill</span><span class="p">.</span><span class="na">getSkillType</span><span class="p">().</span><span class="na">equals</span><span class="p">(</span><span class="n">skill</span><span class="p">.</span><span class="na">getSkillType</span><span class="p">()))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<span class="w">              </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
 
-String metaGetFriendFoeInfo(Faction faction){
-  String factionId = faction.getID().toString();
-  HashMap tmpCallback = new HashMap();
-  tmpCallback = metaFriendFoeCallback(tmpCallback);
-  if (tmpCallback.containsKey(factionId)){
-    return tmpCallback.get(factionId).toString();
-  } else {
-    return factionId;
-  }
-}
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">metaGetFriendFoeInfo</span><span class="p">(</span><span class="n">Faction</span><span class="w"> </span><span class="n">faction</span><span class="p">){</span>
+<span class="w">      </span><span class="n">String</span><span class="w"> </span><span class="n">factionId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">faction</span><span class="p">.</span><span class="na">getID</span><span class="p">().</span><span class="na">toString</span><span class="p">();</span>
+<span class="w">      </span><span class="n">HashMap</span><span class="w"> </span><span class="n">tmpCallback</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span>
+<span class="w">      </span><span class="n">tmpCallback</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaFriendFoeCallback</span><span class="p">(</span><span class="n">tmpCallback</span><span class="p">);</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">tmpCallback</span><span class="p">.</span><span class="na">containsKey</span><span class="p">(</span><span class="n">factionId</span><span class="p">)){</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">tmpCallback</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">factionId</span><span class="p">).</span><span class="na">toString</span><span class="p">();</span>
+<span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">factionId</span><span class="p">;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 
-metaDiplomatieListe(String chefdiplomat,String outputType){
-  Unit unit = world.getUnit(UnitID.createUnitID(chefdiplomat,36));
-  String factionString;
-  String allianceId;
-  List mitInfoListe = new ArrayList();
-  List ohneInfoListe = new ArrayList();
+<span class="w">    </span><span class="n">metaDiplomatieListe</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">chefdiplomat</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">outputType</span><span class="p">){</span>
+<span class="w">      </span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">getUnit</span><span class="p">(</span><span class="n">UnitID</span><span class="p">.</span><span class="na">createUnitID</span><span class="p">(</span><span class="n">chefdiplomat</span><span class="p">,</span><span class="mi">36</span><span class="p">));</span>
+<span class="w">      </span><span class="n">String</span><span class="w"> </span><span class="n">factionString</span><span class="p">;</span>
+<span class="w">      </span><span class="n">String</span><span class="w"> </span><span class="n">allianceId</span><span class="p">;</span>
+<span class="w">      </span><span class="n">List</span><span class="w"> </span><span class="n">mitInfoListe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="p">();</span>
+<span class="w">      </span><span class="n">List</span><span class="w"> </span><span class="n">ohneInfoListe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="p">();</span>
 
-  //magellan.library.utils.OrderedHashtable col = world.factions();
-  for (Faction faction : world.factions().values()){
-    AllianceGroup alliance = faction.getAlliance();
-    if (alliance==null) allianceId = &quot;?&quot;;
-    else allianceId = alliance.getID().toString();
-    if (outputType.equals(&quot;code&quot;)){
-      factionString = &quot;tmpCallback.put(\&quot;&quot;+faction.getID().toString()+&quot;\&quot;,\&quot;&quot;+metaGetFriendFoeInfo(faction)+&quot;\&quot;);/&quot;+&quot;/&quot;+faction.getName();
-    } else {
-      factionString = &quot;&quot;+faction.getName()+&quot;,&quot;+faction.getID().toString();
-      factionString = factionString + &quot;,&quot;+allianceId+&quot;,&quot;+faction.getRace();
-      factionString = factionString + &quot;,&quot;+faction.getPersons()+&quot;,&quot;+faction.getRace();
-      factionString = factionString + &quot;,&quot;+faction.getSpellSchool()+&quot;,&quot;+faction.getScore();
-    }
-    unit.addOrderAt(0,factionString);
-  }
-  unit.addOrderAt(0,&quot;/&quot;+&quot;/ TODO Factionliste rauskopieren&quot;);
-}
-```
+<span class="w">      </span><span class="c1">//magellan.library.utils.OrderedHashtable col = world.factions();</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Faction</span><span class="w"> </span><span class="n">faction</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">factions</span><span class="p">().</span><span class="na">values</span><span class="p">()){</span>
+<span class="w">        </span><span class="n">AllianceGroup</span><span class="w"> </span><span class="n">alliance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">faction</span><span class="p">.</span><span class="na">getAlliance</span><span class="p">();</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">alliance</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="n">allianceId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;?&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">allianceId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">alliance</span><span class="p">.</span><span class="na">getID</span><span class="p">().</span><span class="na">toString</span><span class="p">();</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">outputType</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;code&quot;</span><span class="p">)){</span>
+<span class="w">          </span><span class="n">factionString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;tmpCallback.put(\&quot;&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getID</span><span class="p">().</span><span class="na">toString</span><span class="p">()</span><span class="o">+</span><span class="s">&quot;\&quot;,\&quot;&quot;</span><span class="o">+</span><span class="n">metaGetFriendFoeInfo</span><span class="p">(</span><span class="n">faction</span><span class="p">)</span><span class="o">+</span><span class="s">&quot;\&quot;);/&quot;</span><span class="o">+</span><span class="s">&quot;/&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getName</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="n">factionString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getName</span><span class="p">()</span><span class="o">+</span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getID</span><span class="p">().</span><span class="na">toString</span><span class="p">();</span>
+<span class="w">          </span><span class="n">factionString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">factionString</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">allianceId</span><span class="o">+</span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getRace</span><span class="p">();</span>
+<span class="w">          </span><span class="n">factionString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">factionString</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getPersons</span><span class="p">()</span><span class="o">+</span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getRace</span><span class="p">();</span>
+<span class="w">          </span><span class="n">factionString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">factionString</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getSpellSchool</span><span class="p">()</span><span class="o">+</span><span class="s">&quot;,&quot;</span><span class="o">+</span><span class="n">faction</span><span class="p">.</span><span class="na">getScore</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">unit</span><span class="p">.</span><span class="na">addOrderAt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">factionString</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="n">unit</span><span class="p">.</span><span class="na">addOrderAt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s">&quot;/&quot;</span><span class="o">+</span><span class="s">&quot;/ TODO Factionliste rauskopieren&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 <p>To configure, you need another function in which each faction number that is to be assigned to a specific alliance has an assignment:</p>
-<div class="highlight"><pre><span></span><code>```java
-metaFriendFoeCallback(HashMap tmpCallback){
-  tmpCallback.put(&quot;ii&quot;,&quot;MOB&quot;); // Monster
-  return tmpCallback;
-}
-```
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="n">metaFriendFoeCallback</span><span class="p">(</span><span class="n">HashMap</span><span class="w"> </span><span class="n">tmpCallback</span><span class="p">){</span>
+<span class="w">      </span><span class="n">tmpCallback</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="s">&quot;ii&quot;</span><span class="p">,</span><span class="s">&quot;MOB&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// Monster</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="n">tmpCallback</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 <h3 id="meta-orders-checker">Meta orders checker<a class="headerlink" href="#meta-orders-checker" title="Permanent link">&para;</a></h3>
 <p>This is also a little more complicated. Is done using <code>metaCommandChecker("party#");</code> called. This means that units get the lines <code>// m/abbauen/stein</code> or have also set the corresponding commands for iron or wood.</p>
-<div class="highlight"><pre><span></span><code>```java
-/*********************************************
-*        Meta&#39;s Command checker              *
-* Version 0.6                                *
-*********************************************/
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="cm">/*********************************************</span>
+<span class="cm">    *        Meta&#39;s Command checker              *</span>
+<span class="cm">    * Version 0.6                                *</span>
+<span class="cm">    *********************************************/</span>
 
-metaBefehlChecker(String factionId){
-  String metaPrefix = &quot;/&quot; + &quot;/ m/&quot;; // Otherwise there will be problems with comment characters
-  List metaBefehlsListe; // Commands with &quot;//m/&quot;
-  List genBefehlsListe; // Commands with &quot; ;m&quot;
-  List tmpBefehlsListe; // Other Commands
-  for (Region region : world.regions().values()) { //all regions
-    for (Unit unit : region.units()) { // all units
-      if (unit.getFaction().getID().toString().equals(factionId)) { //own units
-        metaBefehlsListe = new ArrayList();// init for new unit
-        genBefehlsListe = new ArrayList();// init for new unit
-        tmpBefehlsListe = new ArrayList();// init for new unit
-        for (String befehl : unit.getOrders()){
-          if (befehl.startsWith(metaPrefix)){ // search metacommands
-            metaBefehlsListe.add(befehl);
-          } else if (!(befehl.endsWith(&quot; ;m&quot;))){ // cancel ungenerated commands
-            tmpBefehlsListe.add(befehl);
-          } // generated commands are removed -should be regenerated!
-        }
-        if (metaBefehlsListe.size()&gt;0){ // unity with meta commands
-          for (String befehl : metaBefehlsListe) { // Process meta commands
-            if (befehl.startsWith(&quot;abbauen&quot;,5)){
-              if (befehl.startsWith(&quot;eisen&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Eisen&quot;,&quot;Bergbau&quot;,500);
-              if (befehl.startsWith(&quot;stein&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Steine&quot;,&quot;Steinbau&quot;,250);
-              if (befehl.startsWith(&quot;holz&quot;,13)) metaAbbauenSub (unit,befehl,genBefehlsListe,&quot;Holz&quot;,&quot;Holzfällen&quot;,250);
-            }
-          }
-          unit.clearOrders();
-          unit.addOrders(metaBefehlsListe);
-          unit.addOrders(genBefehlsListe);
-          unit.addOrders(tmpBefehlsListe);
-          unit.setOrdersChanged(true); // but doesn&#39;t seem to work ;o(
-          //unit.setOrdersConfirmed(true); //this will come as soon as the script is out of beta.
-        }
-      }
-    }
-  }
-}
+<span class="w">    </span><span class="n">metaBefehlChecker</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">factionId</span><span class="p">){</span>
+<span class="w">      </span><span class="n">String</span><span class="w"> </span><span class="n">metaPrefix</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;/ m/&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// Otherwise there will be problems with comment characters</span>
+<span class="w">      </span><span class="n">List</span><span class="w"> </span><span class="n">metaBefehlsListe</span><span class="p">;</span><span class="w"> </span><span class="c1">// Commands with &quot;//m/&quot;</span>
+<span class="w">      </span><span class="n">List</span><span class="w"> </span><span class="n">genBefehlsListe</span><span class="p">;</span><span class="w"> </span><span class="c1">// Commands with &quot; ;m&quot;</span>
+<span class="w">      </span><span class="n">List</span><span class="w"> </span><span class="n">tmpBefehlsListe</span><span class="p">;</span><span class="w"> </span><span class="c1">// Other Commands</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="na">regions</span><span class="p">().</span><span class="na">values</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">//all regions</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">units</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// all units</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getFaction</span><span class="p">().</span><span class="na">getID</span><span class="p">().</span><span class="na">toString</span><span class="p">().</span><span class="na">equals</span><span class="p">(</span><span class="n">factionId</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">//own units</span>
+<span class="w">            </span><span class="n">metaBefehlsListe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="p">();</span><span class="c1">// init for new unit</span>
+<span class="w">            </span><span class="n">genBefehlsListe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="p">();</span><span class="c1">// init for new unit</span>
+<span class="w">            </span><span class="n">tmpBefehlsListe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="p">();</span><span class="c1">// init for new unit</span>
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">befehl</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getOrders</span><span class="p">()){</span>
+<span class="w">              </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="n">metaPrefix</span><span class="p">)){</span><span class="w"> </span><span class="c1">// search metacommands</span>
+<span class="w">                </span><span class="n">metaBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">befehl</span><span class="p">);</span>
+<span class="w">              </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">endsWith</span><span class="p">(</span><span class="s">&quot; ;m&quot;</span><span class="p">))){</span><span class="w"> </span><span class="c1">// cancel ungenerated commands</span>
+<span class="w">                </span><span class="n">tmpBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">befehl</span><span class="p">);</span>
+<span class="w">              </span><span class="p">}</span><span class="w"> </span><span class="c1">// generated commands are removed -should be regenerated!</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">metaBefehlsListe</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">){</span><span class="w"> </span><span class="c1">// unity with meta commands</span>
+<span class="w">              </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">befehl</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">metaBefehlsListe</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Process meta commands</span>
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="s">&quot;abbauen&quot;</span><span class="p">,</span><span class="mi">5</span><span class="p">)){</span>
+<span class="w">                  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="s">&quot;eisen&quot;</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span><span class="w"> </span><span class="n">metaAbbauenSub</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">,</span><span class="n">befehl</span><span class="p">,</span><span class="n">genBefehlsListe</span><span class="p">,</span><span class="s">&quot;Eisen&quot;</span><span class="p">,</span><span class="s">&quot;Bergbau&quot;</span><span class="p">,</span><span class="mi">500</span><span class="p">);</span>
+<span class="w">                  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="s">&quot;stein&quot;</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span><span class="w"> </span><span class="n">metaAbbauenSub</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">,</span><span class="n">befehl</span><span class="p">,</span><span class="n">genBefehlsListe</span><span class="p">,</span><span class="s">&quot;Steine&quot;</span><span class="p">,</span><span class="s">&quot;Steinbau&quot;</span><span class="p">,</span><span class="mi">250</span><span class="p">);</span>
+<span class="w">                  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">befehl</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="s">&quot;holz&quot;</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span><span class="w"> </span><span class="n">metaAbbauenSub</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">,</span><span class="n">befehl</span><span class="p">,</span><span class="n">genBefehlsListe</span><span class="p">,</span><span class="s">&quot;Holz&quot;</span><span class="p">,</span><span class="s">&quot;Holzfällen&quot;</span><span class="p">,</span><span class="mi">250</span><span class="p">);</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">              </span><span class="p">}</span>
+<span class="w">              </span><span class="n">unit</span><span class="p">.</span><span class="na">clearOrders</span><span class="p">();</span>
+<span class="w">              </span><span class="n">unit</span><span class="p">.</span><span class="na">addOrders</span><span class="p">(</span><span class="n">metaBefehlsListe</span><span class="p">);</span>
+<span class="w">              </span><span class="n">unit</span><span class="p">.</span><span class="na">addOrders</span><span class="p">(</span><span class="n">genBefehlsListe</span><span class="p">);</span>
+<span class="w">              </span><span class="n">unit</span><span class="p">.</span><span class="na">addOrders</span><span class="p">(</span><span class="n">tmpBefehlsListe</span><span class="p">);</span>
+<span class="w">              </span><span class="n">unit</span><span class="p">.</span><span class="na">setOrdersChanged</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span><span class="w"> </span><span class="c1">// but doesn&#39;t seem to work ;o(</span>
+<span class="w">              </span><span class="c1">//unit.setOrdersConfirmed(true); //this will come as soon as the script is out of beta.</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 
-metaAbbauenSub (Unit unit, String befehl, List genBefehlsListe, String itemName,String skillName,int unterhaltSilber){
-  boolean istAbbauMoeglich=true;
-  int unitLevel = metaGetUnitSkillLevel(unit,skillName);
-  int abbauMenge = (unit.getPersons() * (unitLevel + 1));
-  if (itemName.equals(&quot;Holz&quot;)){//genug Baum+Schössling?
-    int baum = metaGetRegionRessourceAmount(unit.getRegion(),&quot;Bäume&quot;);
-    int schoessling = metaGetRegionRessourceAmount(unit.getRegion(),&quot;Schößlinge&quot;);
-    if (baum+schoessling == 0) istAbbauMoeglich = false;
-  } else { // Tiefencheck
-    int ressLevel = metaGetRegionRessourceLevel(unit.getRegion(),itemName);
-    int ressAmount = metaGetRegionRessourceAmount(unit.getRegion(),itemName);
-    if (ressLevel &gt; unitLevel) istAbbauMoeglich =false;//zu tief
-    if (ressLevel == unitLevel) { // enough level still there?
-      if (ressAmount &lt; (abbauMenge/2)) { // half because of building
-        istAbbauMoeglich = false; // per default wird mal nicht abgebaut
-        genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauen/&quot;+itemName+&quot;/menge ;m&quot;); // There is still something there, but not enough for maximum utilization
-      }
-    }
-  }
-  if (metaGetUnitItem(unit,&quot;Silber&quot;)&lt;unterhaltSilber) {
-    if (istAbbauMoeglich==true){ // If dismantling is not possible anyway, then no silver check either
-      genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauen/&quot;+itemName+&quot;/silber ;m&quot;); // not enough silver for building maintenance
-    }
-    istAbbauMoeglich = false;
-  }
-  if (istAbbauMoeglich==true) {
-    if (abbauMenge % 2 == 1) abbauMenge--; // precisely because of building savings
-    genBefehlsListe.add(&quot;MACHEN &quot;+abbauMenge+&quot; &quot;+itemName+&quot; ;m&quot;);
-  } else {
-    genBefehlsListe.add(&quot;LERNEN &quot;+skillName+&quot; ;m&quot;);
-    genBefehlsListe.add(&quot;BEZAHLEN NOT ;m&quot;);
-  }
-  if (itemName.equals(&quot;Eisen&quot;)){ // if Laen is degradable then Todo
-    int laenLevel = metaGetRegionRessourceLevel(unit.getRegion(),&quot;Laen&quot;);
-    if (laenLevel &lt;= unitLevel){
-        genBefehlsListe.add(&quot;/&quot; + &quot;/ TODO abbauenTODO abbauen/&quot;+itemName+&quot;/laen ;m&quot;);
-    }
-  }
-}
+<span class="w">    </span><span class="n">metaAbbauenSub</span><span class="w"> </span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">befehl</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="w"> </span><span class="n">genBefehlsListe</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">itemName</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">skillName</span><span class="p">,</span><span class="kt">int</span><span class="w"> </span><span class="n">unterhaltSilber</span><span class="p">){</span>
+<span class="w">      </span><span class="kt">boolean</span><span class="w"> </span><span class="n">istAbbauMoeglich</span><span class="o">=</span><span class="kc">true</span><span class="p">;</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">unitLevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetUnitSkillLevel</span><span class="p">(</span><span class="n">unit</span><span class="p">,</span><span class="n">skillName</span><span class="p">);</span>
+<span class="w">      </span><span class="kt">int</span><span class="w"> </span><span class="n">abbauMenge</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getPersons</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">unitLevel</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">));</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">itemName</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;Holz&quot;</span><span class="p">)){</span><span class="c1">//genug Baum+Schössling?</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">baum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetRegionRessourceAmount</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getRegion</span><span class="p">(),</span><span class="s">&quot;Bäume&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">schoessling</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetRegionRessourceAmount</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getRegion</span><span class="p">(),</span><span class="s">&quot;Schößlinge&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">baum</span><span class="o">+</span><span class="n">schoessling</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">istAbbauMoeglich</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Tiefencheck</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">ressLevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetRegionRessourceLevel</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getRegion</span><span class="p">(),</span><span class="n">itemName</span><span class="p">);</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">ressAmount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetRegionRessourceAmount</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getRegion</span><span class="p">(),</span><span class="n">itemName</span><span class="p">);</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ressLevel</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">unitLevel</span><span class="p">)</span><span class="w"> </span><span class="n">istAbbauMoeglich</span><span class="w"> </span><span class="o">=</span><span class="kc">false</span><span class="p">;</span><span class="c1">//zu tief</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ressLevel</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">unitLevel</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// enough level still there?</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ressAmount</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="p">(</span><span class="n">abbauMenge</span><span class="o">/</span><span class="mi">2</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// half because of building</span>
+<span class="w">            </span><span class="n">istAbbauMoeglich</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span><span class="w"> </span><span class="c1">// per default wird mal nicht abgebaut</span>
+<span class="w">            </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;/ TODO abbauen/&quot;</span><span class="o">+</span><span class="n">itemName</span><span class="o">+</span><span class="s">&quot;/menge ;m&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// There is still something there, but not enough for maximum utilization</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">metaGetUnitItem</span><span class="p">(</span><span class="n">unit</span><span class="p">,</span><span class="s">&quot;Silber&quot;</span><span class="p">)</span><span class="o">&lt;</span><span class="n">unterhaltSilber</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">istAbbauMoeglich</span><span class="o">==</span><span class="kc">true</span><span class="p">){</span><span class="w"> </span><span class="c1">// If dismantling is not possible anyway, then no silver check either</span>
+<span class="w">          </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;/ TODO abbauen/&quot;</span><span class="o">+</span><span class="n">itemName</span><span class="o">+</span><span class="s">&quot;/silber ;m&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// not enough silver for building maintenance</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">istAbbauMoeglich</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">istAbbauMoeglich</span><span class="o">==</span><span class="kc">true</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">abbauMenge</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="n">abbauMenge</span><span class="o">--</span><span class="p">;</span><span class="w"> </span><span class="c1">// precisely because of building savings</span>
+<span class="w">        </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;MACHEN &quot;</span><span class="o">+</span><span class="n">abbauMenge</span><span class="o">+</span><span class="s">&quot; &quot;</span><span class="o">+</span><span class="n">itemName</span><span class="o">+</span><span class="s">&quot; ;m&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;LERNEN &quot;</span><span class="o">+</span><span class="n">skillName</span><span class="o">+</span><span class="s">&quot; ;m&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;BEZAHLEN NOT ;m&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">itemName</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="s">&quot;Eisen&quot;</span><span class="p">)){</span><span class="w"> </span><span class="c1">// if Laen is degradable then Todo</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">laenLevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">metaGetRegionRessourceLevel</span><span class="p">(</span><span class="n">unit</span><span class="p">.</span><span class="na">getRegion</span><span class="p">(),</span><span class="s">&quot;Laen&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">laenLevel</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">unitLevel</span><span class="p">){</span>
+<span class="w">            </span><span class="n">genBefehlsListe</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;/ TODO abbauenTODO abbauen/&quot;</span><span class="o">+</span><span class="n">itemName</span><span class="o">+</span><span class="s">&quot;/laen ;m&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 
-int metaGetUnitItem(Unit unit,String itemName){
-  Item items = unit.getModifiedItem(new ItemType(StringID.create(&quot;Silber&quot;)));
-  if (items==null) return 0; // nothing there!
-  else return items.getAmount();
-}
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">metaGetUnitItem</span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">itemName</span><span class="p">){</span>
+<span class="w">      </span><span class="n">Item</span><span class="w"> </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getModifiedItem</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ItemType</span><span class="p">(</span><span class="n">StringID</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="s">&quot;Silber&quot;</span><span class="p">)));</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">items</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// nothing there!</span>
+<span class="w">      </span><span class="k">else</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="na">getAmount</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
 
-int metaGetRegionRessourceLevel(Region region,String itemName){
-  RegionResource regRess = region.getResource(new ItemType(StringID.create(itemName)));
-  if (regRess==null) return 999; // nothing there!
-  else return regRess.getSkillLevel();
-}
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">metaGetRegionRessourceLevel</span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">itemName</span><span class="p">){</span>
+<span class="w">      </span><span class="n">RegionResource</span><span class="w"> </span><span class="n">regRess</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">getResource</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ItemType</span><span class="p">(</span><span class="n">StringID</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="n">itemName</span><span class="p">)));</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">regRess</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">999</span><span class="p">;</span><span class="w"> </span><span class="c1">// nothing there!</span>
+<span class="w">      </span><span class="k">else</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">regRess</span><span class="p">.</span><span class="na">getSkillLevel</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
 
-int metaGetRegionRessourceAmount(Region region,String itemName){
-  RegionResource regRess = region.getResource(new ItemType(StringID.create(itemName)));
-  if (regRess==null) return 0; // nothing there!
-  else return regRess.getAmount();
-}
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">metaGetRegionRessourceAmount</span><span class="p">(</span><span class="n">Region</span><span class="w"> </span><span class="n">region</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">itemName</span><span class="p">){</span>
+<span class="w">      </span><span class="n">RegionResource</span><span class="w"> </span><span class="n">regRess</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">.</span><span class="na">getResource</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">ItemType</span><span class="p">(</span><span class="n">StringID</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="n">itemName</span><span class="p">)));</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">regRess</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// nothing there!</span>
+<span class="w">      </span><span class="k">else</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">regRess</span><span class="p">.</span><span class="na">getAmount</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
 
-int metaGetUnitSkillLevel(Unit unit, String skillName) { // actually copied from Helper
-  Collection skills = unit.getSkills();
-  if (skills != null) {
-    for (Skill skill : skills) {
-      if (skill.getSkillType().getName().equalsIgnoreCase(skillName))
-        return skill.getLevel();
-      }
-    }
-  return 0;
-}
-```
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">metaGetUnitSkillLevel</span><span class="p">(</span><span class="n">Unit</span><span class="w"> </span><span class="n">unit</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">skillName</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// actually copied from Helper</span>
+<span class="w">      </span><span class="n">Collection</span><span class="w"> </span><span class="n">skills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unit</span><span class="p">.</span><span class="na">getSkills</span><span class="p">();</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">skills</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Skill</span><span class="w"> </span><span class="n">skill</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">skills</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">skill</span><span class="p">.</span><span class="na">getSkillType</span><span class="p">().</span><span class="na">getName</span><span class="p">().</span><span class="na">equalsIgnoreCase</span><span class="p">(</span><span class="n">skillName</span><span class="p">))</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">skill</span><span class="p">.</span><span class="na">getLevel</span><span class="p">();</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 

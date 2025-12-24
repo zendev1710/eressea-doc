@@ -7446,46 +7446,44 @@
 </ul>
 <p>There are different warning levels controlled by command line parameters. With<code>-w1</code>only syntax errors are output. The steps<code>w2</code>until`w4 issue additional warnings, for example about silver consumption, teachers or routes. The noxxx parameters can also suppress certain warnings. ECheck normally assumes that you are entering German commands for E2. English commands can be checked, for example, with the -Len parameter.</p>
 <h2 id="aufruf">Aufruf<a class="headerlink" href="#aufruf" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>```console
-Usage: ./echeck [options] &lt;orders file&gt;
+<div class="highlight"><pre><span></span><code><span class="go">    Usage: ./echeck [options] &lt;orders file&gt;</span>
 
-  -Ppfad  Path information for the additional files; the locale de is appended
-  -Rgame  Read additional files from the game subdirectory; Default setting: e2
-  -       Uses stdin instead of an input file.
-  -b      suppresses warnings and errors (letter)
-  -q      does not expect any information on people/silver in [] at UNIT
-  -rnnn   Sets recruitment cost to nnn silver
-  -c      writes the warnings and errors in a compiler-like form
-  -m      writes the warnings and errors for Magellan
-  -e      writes the checked file to stdout, error to stderr
-  -E      writes the checked file to stdout, error to stdout
-  -ofile  writes the checked file to the file &#39;file&#39;
-  -Ofile  writes errors to file &#39;file&#39;
-  -h      shows this little help
-  -hs     shows list of keywords for tokens.txt
-  -hb     shows list of orders for orders.txt
-  -hp     shows list of parameters for parameter.txt
-  -hr     shows list of directions for directions.txt
-  -hm     shows list of messages for messages.txt
-  -hf     shows list of files that ECheck is trying to read
-  -s      uses stderr for warnings, errors etc., not stdout
-  -p      shortens some expenses for piping
-  -l      simuliert Silberpool-Funktion
-  -n      Does not count NameMe comments (;;) as a line
-  -noxxx  No xxx warnings. xxx can be:
-    ship  Unit controls ship and may not have command
-    route no check for cyclic ROUTE
-    lost  Unit loses silver and items
-  -w[n]   Level n warnings (default: 4)
-     1    mainly syntax errors
-     4    almost all warnings
-     5    teacher/student
-  -x      Line countingab PARTEI instead of the beginning of the file
-  -Lloc   Sets locale loc
-  -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version
-  -Q      Quiet
-  -C      Compact edition
-```
+<span class="go">      -Ppfad  Path information for the additional files; the locale de is appended</span>
+<span class="go">      -Rgame  Read additional files from the game subdirectory; Default setting: e2</span>
+<span class="go">      -       Uses stdin instead of an input file.</span>
+<span class="go">      -b      suppresses warnings and errors (letter)</span>
+<span class="go">      -q      does not expect any information on people/silver in [] at UNIT</span>
+<span class="go">      -rnnn   Sets recruitment cost to nnn silver</span>
+<span class="go">      -c      writes the warnings and errors in a compiler-like form</span>
+<span class="go">      -m      writes the warnings and errors for Magellan</span>
+<span class="go">      -e      writes the checked file to stdout, error to stderr</span>
+<span class="go">      -E      writes the checked file to stdout, error to stdout</span>
+<span class="go">      -ofile  writes the checked file to the file &#39;file&#39;</span>
+<span class="go">      -Ofile  writes errors to file &#39;file&#39;</span>
+<span class="go">      -h      shows this little help</span>
+<span class="go">      -hs     shows list of keywords for tokens.txt</span>
+<span class="go">      -hb     shows list of orders for orders.txt</span>
+<span class="go">      -hp     shows list of parameters for parameter.txt</span>
+<span class="go">      -hr     shows list of directions for directions.txt</span>
+<span class="go">      -hm     shows list of messages for messages.txt</span>
+<span class="go">      -hf     shows list of files that ECheck is trying to read</span>
+<span class="go">      -s      uses stderr for warnings, errors etc., not stdout</span>
+<span class="go">      -p      shortens some expenses for piping</span>
+<span class="go">      -l      simuliert Silberpool-Funktion</span>
+<span class="go">      -n      Does not count NameMe comments (;;) as a line</span>
+<span class="go">      -noxxx  No xxx warnings. xxx can be:</span>
+<span class="go">        ship  Unit controls ship and may not have command</span>
+<span class="go">        route no check for cyclic ROUTE</span>
+<span class="go">        lost  Unit loses silver and items</span>
+<span class="go">      -w[n]   Level n warnings (default: 4)</span>
+<span class="go">         1    mainly syntax errors</span>
+<span class="go">         4    almost all warnings</span>
+<span class="go">         5    teacher/student</span>
+<span class="go">      -x      Line countingab PARTEI instead of the beginning of the file</span>
+<span class="go">      -Lloc   Sets locale loc</span>
+<span class="go">      -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version</span>
+<span class="go">      -Q      Quiet</span>
+<span class="go">      -C      Compact edition</span>
 </code></pre></div>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>

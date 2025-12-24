@@ -7336,11 +7336,9 @@ The fact that you not only get closer to the goal, but also actually go in the c
 Using a cost function, the costs are calculated for each point (including start and finish). <strong>probably</strong> to the destination.
 This is probably important here, because we don't know the distance to the destination unless we know the route. That means we estimate the distance. The straight line on the map is a good estimate that we certainly won't beat (without stargates, wormholes and the like ;-)</p>
 <p>For Eressea and other games on hex maps, the minimum distance can be calculated relatively easily from the coordinates.</p>
-<div class="highlight"><pre><span></span><code>```text
-hx = start.x - ziel.x
-hy = start.y - ziel.y
-Distanz = max(abs(hx), abs(hy), abs(hx+hy))
-```
+<div class="highlight"><pre><span></span><code>    hx = start.x - ziel.x
+    hy = start.y - ziel.y
+    Distanz = max(abs(hx), abs(hy), abs(hx+hy))
 </code></pre></div>
 <p>This estimated distance to the destination is added to the distance already traveled. The regions that still need to be expanded are sorted according to this criterion. If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.</p>
 <p>However, every obstacle and every additional condition that is to be built into the cost function quickly causes execution to slow down again.</p>

@@ -7575,33 +7575,31 @@
 <p>Jeder Zug muss mit der Zeile <a href="../cmd-eressea/">ERESSEA xxx "passwort"</a> beginnen. xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei. Jeder Zug muss mit dem Schlüsselwort <a href="../cmd-next/">NEXT</a> beendet werden.</p>
 <p>Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Partei als Ganzes betreffen; irgendjemand muss sie halt ausführen.</p>
 <p>In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:</p>
-<div class="highlight"><pre><span></span><code>```
-ERESSEA 2 &quot;GrofxMoftzg&quot;
+<div class="highlight"><pre><span></span><code>    ERESSEA 2 &quot;GrofxMoftzg&quot;
 
-; ECHECK -z -w4 -r100
+    ; ECHECK -z -w4 -r100
 
-REGION 4,2;     Handan
-; ECHECK LOHN 12
+    REGION 4,2;     Handan
+    ; ECHECK LOHN 12
 
-UNIT 5;            Horde der Trolle [5,100$]
-Lerne Bergbau
-UNIT 36;           Tänzer des Todes [10,630$]
-Unterhalte
+    UNIT 5;            Horde der Trolle [5,100$]
+    Lerne Bergbau
+    UNIT 36;           Tänzer des Todes [10,630$]
+    Unterhalte
 
-REGION 4,3;     Carcavelos
-; ECHECK LOHN 11
+    REGION 4,3;     Carcavelos
+    ; ECHECK LOHN 11
 
-UNIT 35;           Untote Sklaven [10,110$]
-Arbeite
+    UNIT 35;           Untote Sklaven [10,110$]
+    Arbeite
 
-REGION 5,3;     Grandola
-; ECHECK LOHN 11
+    REGION 5,3;     Grandola
+    ; ECHECK LOHN 11
 
-UNIT 32;           Reiter der Verdammnis [5,30$]
-Lerne Unterhaltung
+    UNIT 32;           Reiter der Verdammnis [5,30$]
+    Lerne Unterhaltung
 
-NEXT
-```
+    NEXT
 </code></pre></div>
 <p>Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl <a href="../cmd-unit/">UNIT</a> ausgewertet, ebenso werden dann Einnahmen mit <a href="../cmd-work/">WORK</a> (idR. je 11 Silber pro Person) und <a href="../cmd-tax/">TAX STEUERN EIN</a> und <a href="../cmd-entertain/">ENTERTAIN</a> (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. <a href="../cmd-learn/">LEARN MAGIE</a> und Einheiten, die mit <a href="../cmd-move/">MOVE</a> Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.</p>
 <p>Die Zeile ; ECHECK LOHN 12 ist ebenfalls für ECheck und legt den Lohn für Arbeit in dieser Region auf 12 Silber fest.</p>

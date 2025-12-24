@@ -7387,13 +7387,11 @@ Le tableau indique la quantité de bois nécessaire pour construire un bateau.<b
 Une unité peut utiliser, par tour, le nombre de bois suivant : <code>niveau de compétence X nombre personnes / compétence min</code>.  </p>
 <p>Un bateau rst défini par son identifiant, utilisé dans les ordres.  </p>
 <p>Exemple :</p>
-<div class="highlight"><pre><span></span><code>```
-Fierté des Sept Vents (18), Drakkar, (254/500). Ce magnifique
+<div class="highlight"><pre><span></span><code>    Fierté des Sept Vents (18), Drakkar, (254/500). Ce magnifique
 
-    bateau était le premier que la famille de marchands Plötzbogen
-    a construit. Le capitaine Gorm se tient sur le pont arrière et donne
-    des ordres aux marins. Il a tout sous contrôle.
-```
+        bateau était le premier que la famille de marchands Plötzbogen
+        a construit. Le capitaine Gorm se tient sur le pont arrière et donne
+        des ordres aux marins. Il a tout sous contrôle.
 </code></pre></div>
 <p>Pour tes propres bateaux, la charge et la capacité sont indiquées après le type de bateau (ici 254 unités de poids sur 500 possibles).</p>
 <p>Dans le rapport, les unités qui se trouvent sur le bateau suivent la description du bateau.</p>
@@ -7493,9 +7491,7 @@ Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le tra
 </table>
 <h2 id="convoi">Convoi<a class="headerlink" href="#convoi" title="Permanent link">&para;</a></h2>
 <p>De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux <strong>du même type</strong>, par exemple :</p>
-<div class="highlight"><pre><span></span><code>```
-Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-```
+<div class="highlight"><pre><span></span><code>    Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
 </code></pre></div>
 <p>Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre <code>GIVE``</code><em><code>target-captain</code></em><code>``1 SHIP</code>.
 L'unité cible devient le commandant d'un convoi.
@@ -7510,12 +7506,10 @@ La portée correspond à celle du type de bateau, les dégâts maximums et la ch
 <p>Exemple.</p>
 <p>Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec <em>Sailing</em> T3 et un équipage avec 90 niveaux de compétence au total.
 Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
-<div class="highlight"><pre><span></span><code>```
-Caravel (2seh), 3 Caravels, (9000/9000).
-   * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
-   * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
-   * Horde (770L), 888 Humans.
-```
+<div class="highlight"><pre><span></span><code>    Caravel (2seh), 3 Caravels, (9000/9000).
+       * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
+       * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
+       * Horde (770L), 888 Humans.
 </code></pre></div>
 <p>Comme on peut le voir, il est possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.<br />
 Pour le reste, les convois se comportent comme un bateau normal.<br />
@@ -7534,10 +7528,8 @@ L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le b
 <p>Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les unités qui l'accompagnaient auparavant passent automatiquement sur les bateaux de l'unité de destination.  </p>
 <p>Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.  </p>
 <p>Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:</p>
-<div class="highlight"><pre><span></span><code>```
-GIVE 123 1 SHIP
-GIVE 123 ALL MEN
-```
+<div class="highlight"><pre><span></span><code>    GIVE 123 1 SHIP
+    GIVE 123 ALL MEN
 </code></pre></div>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>

@@ -7631,30 +7631,24 @@
 <p>Blocks are designated by a single capitalized word consisting only of the letters A-Z. Blocks can have an identifier consisting of one or more signed 32-bit integers. The ids are unique, so each can only appear once in a CR per block. The id can be followed by ';' A separate comment will follow, but this should be avoided.</p>
 <p>Blocks without id are always subblocks of the last previous block with id. A block of this type may occur multiple times, but only once per parent block (they are, so to speak, unique with respect to the id of the parent block).</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code>```text
-VERSION 16
-REGION -3 -7
-REGIONSBOTSCHAFTEN
-```
+<div class="highlight"><pre><span></span><code>    VERSION 16
+    REGION -3 -7
+    REGIONSBOTSCHAFTEN
 </code></pre></div>
 <h2 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h2>
 <p>Names and number of attributes are not predefined. An attribute consists of two parts: value and tag. The tag should consist of letters and numbers, but should not contain spaces. The value is either a list of one or more integers, or a string written in quotation marks. Value and day are separated from each other by a semicolon.</p>
 <p>Since version 35, an attribute may only appear once within a block. In CR versions prior to 35, there were some blocks that violated this rule, such as the ADDRESSES block.</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code>```text
-0 0;Bergbau
-&quot;Xandaryl&quot;;Insel
-172;Runde
-```
+<div class="highlight"><pre><span></span><code>    0 0;Bergbau
+    &quot;Xandaryl&quot;;Insel
+    172;Runde
 </code></pre></div>
 <h2 id="list-entries">List entries<a class="headerlink" href="#list-entries" title="Permanent link">&para;</a></h2>
 <p>Attributes without a tag must be treated separately. These are entries in a list of commands, messages, etc. In terms of structure, they are equivalent to string attributes, but do not have a semicolon or tag at the end of the line.</p>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><code>```text
-&quot;MAKE Haus&quot;
-&quot;Thorin; ein Recke&quot;
-&quot;Thorin (thor) konnte kein Silber verdienen&quot;
-```
+<div class="highlight"><pre><span></span><code>    &quot;MAKE Haus&quot;
+    &quot;Thorin; ein Recke&quot;
+    &quot;Thorin (thor) konnte kein Silber verdienen&quot;
 </code></pre></div>
 <h2 id="tips-for-implementation">Tips for implementation<a class="headerlink" href="#tips-for-implementation" title="Permanent link">&para;</a></h2>
 <p>It is best to parse the CR line by line. After reading a line, you first check whether it is a block: blocks are the only ones that begin with a letter. If it is not one but begins with a '-' or a number, then it is an integer attribute. If it begins with a '"', it is a string or list entry.</p>

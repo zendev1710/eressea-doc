@@ -7363,13 +7363,11 @@ BUY orders have priority over sales.
 <code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
 It also means that units without enough talent to execute all <code>BUY</code> and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><code>```text
-UNIT hndl;     Barker [1, $1000]
-    ; Trade 3 [180]
-    SELL 15 jewel
-    SELL 15 Oil
-    BUY 10 Incense
-```
+<div class="highlight"><pre><span></span><code>    UNIT hndl;     Barker [1, $1000]
+        ; Trade 3 [180]
+        SELL 15 jewel
+        SELL 15 Oil
+        BUY 10 Incense
 </code></pre></div>
 <p>This merchant will buy 10 incense and sell a total of 20 jewels and oil.
 So randomly between 5 and 15 per trade item if he has it.</p>

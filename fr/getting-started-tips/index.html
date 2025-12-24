@@ -7394,21 +7394,19 @@ Il est conseillé de regrouper les ordres par région, en prévoyant quelques li
 Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.<br />
 Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  </p>
 <p>Exemple de commentaires :</p>
-<div class="highlight"><pre><span></span><code>```
-REGION 4,4 ; Lochinver
-; Prendre garde à la horde des ténèbres
-; combattre ?
+<div class="highlight"><pre><span></span><code>    REGION 4,4 ; Lochinver
+    ; Prendre garde à la horde des ténèbres
+    ; combattre ?
 
-UNIT zbt;           Fabricant d&#39;arc Jog&#39;nabat et son clan [4;100$]
-    MAKE Swords
-    GIVE sjur 5 Swords; il ne donne probablement que les 4 qu&#39;il
-                      ; avait au dernier tour
+    UNIT zbt;           Fabricant d&#39;arc Jog&#39;nabat et son clan [4;100$]
+        MAKE Swords
+        GIVE sjur 5 Swords; il ne donne probablement que les 4 qu&#39;il
+                          ; avait au dernier tour
 
-UNIT sjur;          Fuhrmann Sjur [2;243$]
-    // Capacité: 420 = 7 pierres; et des pièces d&#39;argent !
-    GIVE 7jht 7 Stones
-    ROUTE SW W PAUSE E NE PAUSE
-```
+    UNIT sjur;          Fuhrmann Sjur [2;243$]
+        // Capacité: 420 = 7 pierres; et des pièces d&#39;argent !
+        GIVE 7jht 7 Stones
+        ROUTE SW W PAUSE E NE PAUSE
 </code></pre></div>
 <p>Le commentaire suivant l'ordre <a href="../cmd-unit/">UNIT</a> est inséré dans le modèle d'évaluation par le programme ;<br />
 après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).  </p>

@@ -8,9 +8,9 @@ alias: orders
 
 The following conventions apply in these rules:
 
-    ```text
+```text
     GIVE unit-id [number|ALL] [item]
-    ```
+```
 
 - Keywords like GIVE, MAKE, NOT are in capital letters. This is not mandatory, but we recommend it-Placeholders are in lowercase letters. They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit. Sometimes we also write this as <unit-id>, in which case the < and > symbols are *not*to be included.
 - Words in \[\] brackets are optional. So they can be omitted, but they change the meaning of the order. Alternatives are through | separated. The example above allows `GIVE 123 EVERYTHING` or `GIVE abc 4 sword`
@@ -25,34 +25,34 @@ Many commands can be shortened, although you should not overdo it as this is pro
 
 Texts that contain spaces must be enclosed in quotation marks ("") or the spaces must be replaced by ~ (tilde). Furthermore, umlauts may be replaced by the appropriate paraphrase (Ä=AE, etc.):
 
-    ```text
+```text
     NAME Ship "Big Blue Bird"
     GIVE unit 5 Spicy~Daring
     COMBAT REAR
-    ```
+```
 
 Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.
 
-    ```text
+```text
     MESSAGE REGION 'Sprich "Freund" und tritt ein'
     NAME BURG xyz "Helm's Deep"
     DEFAULT 'MAKE 1 "Wasser des Lebens"'
-    ```
+```
 
 Also called masking (escaping) by the character\are possible, but not necessarily recommended:
 
-    ```text
+```text
     MESSAGE REGION "Sprich \"Freund\" und tritt ein"
     NAME BURG xyz 'Helm\'s Deep'
     DEFAULT 'MAKE 1 Wasser\~des\~Lebens'
-    ```
+```
 
 By the way, it is not necessary to limit yourself to the Latin alphabet. The full Unicode character set is possible in names and descriptions:
 
-    ```text
+```text
     NAME UNIT "Σωκράτης"
     MESSAGE REGION "🨀 شاه مات"
-    ```
+```
 
 Of course, you should make sure that you are understood by others.
 
@@ -89,13 +89,13 @@ To do this, you can put an @ (at sign, spider monkey) before each short command.
 
  **An example** :
 
-    ```text
+```text
     UNIT berg;         Miners [5,400$,U500]
         MAKE iron
         @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
     UNIT schm;         Wrought [3,1343$,U250]
         MAKE Swords
-    ```
+```
 
  **Note:** There is a cap on the number of commands stored for a unit. This is currently 128 commands, which should easily be enough for most purposes.
 
@@ -105,7 +105,7 @@ It may happen that you consciously accept errors when executing a command. By pr
 
 **An example**:
 
-    ```text
+```text
     UNIT berg;         Miners
         MAKE iron
         !@GIVE tran ALL iron;   The van isn't always there; we don't want an error message about this

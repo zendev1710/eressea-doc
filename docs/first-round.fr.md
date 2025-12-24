@@ -9,7 +9,7 @@ alias: premier-tour
 <!-- TODO : find and copy here an english report extract -->
 Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
 
-    ```
+```text
                     Report für E3, Wednesday, 01. July 2009, 19:56
        Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
                               Zeitalters. Es ist Sommer.
@@ -65,7 +65,7 @@ Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du na
       * Partei 37wj (37wj): drac@example.de; (null)
 
     ------------------------------------------------------------------------------
-    ```
+```text
     
 ## Exemple d'un fichier d'ordres
 
@@ -77,7 +77,7 @@ Ici, l'ordre DESCRIBE avec des commentaires // a été utilisé.
 
 Cependant, si tu utilises [Magellan] pour tes ordres, tu n'as pas à t'en soucier.
 
-    ```
+```text
     ERESSEA 37wj "pwpw42"
     ; du muss natürlich oben dein eigenes Passwort einsetzen
     REGION 0,0 ; Cabyn
@@ -238,7 +238,7 @@ Cependant, si tu utilises [Magellan] pour tes ordres, tu n'as pas à t'en soucie
         ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
         ; plötzlich pleite ist!
     NEXT
-    ```
+```
 
 ## Voir aussi
 

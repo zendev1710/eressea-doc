@@ -4,26 +4,29 @@ alias: cmd-steal-fr
 ---
 # STEAL
 
-**`STEAL`**[<sup>`L`</sup>]` `*`unit-id`*
+**`STEAL`**[<sup>`L`</sup>]` `*`unit-id`*  
 
-Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen. Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem. Die Täter klauen pro Person und Talentstufe Unterschied 50 Silver.
+This order attempts to steal from the specified unit.
+If the perpetrators' [disguise skill] is higher than the victims' [perception] skill (this counts the perception skill of the best unit in the region), the victims only notice that they have been stolen from, not by whom.
+The perpetrators steal 50 silver per person and skill level difference.
 
-Sind Wahrnehmung der Opfer und Tarnung der Täter gleich hoch, gelingt der Diebstahl nicht und die Opfer schöpfen Verdacht. Ist die Wahrnehmung der Opfer sogar höher als die Tarnung der Täter, werden die Täter auf frischer Tat ertappt und identifiziert.
+If the perception of the victims and the concealment of the perpetrators are equally high, the theft will not be successful and the victims will become suspicious.
+If the perception of the victims is even higher than the concealment of the perpetrators, the perpetrators will be caught in the act and identified.
 
-**Achtung!** Diebe klauen immer aus dem [Silverpool]. Dadurch kann auch Silver von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
+!!! warning "Caution"
+    Thieves always steal from [silver pool].
+    This means that Silver can also be stolen from other units that were not directly targeted by the thieves.
+    For the first few weeks, your faction is [[puppy-protection|immune]] to theft.
 
-In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 ## Voir aussi
 
-- [Geld]
-- [Tarnung und Wahrnehmung]
+- [[money]]
+- [[camouflage]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[Tarnungstalent]: ./skills-list.md
-[Silverpool]: ./items-pool.md#der-silberpool
-[immun]: ./puppy-protection.md
-[Geld]: ./silver.md
-[Tarnung und Wahrnehmung]: ./camouflage.md
+[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+
+[perception]: ./skills-list.md#perception
+[silver pool]: ./items-pool.fr.md#reserve-et-give

@@ -29,11 +29,11 @@ If the optional parameter *Speed* is specified, the pursuing ship will sail a ma
 
 `FOLLOW` only lasts in the round in which the order is given. If the order is to last longer, it must be preceded by a `@`.
 
-    ```
+```text
     UNIT 87b6
         @FOLLOW UNIT hz7
         ENTERTAIN
-    ```
+```
 
 Unit *87b6* will now watch unit *hz7* and follow it as it moves.
 Otherwise, she will make money from entertainment.

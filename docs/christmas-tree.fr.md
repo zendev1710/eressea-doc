@@ -4,18 +4,19 @@ alias: sapin-de-noeel
 ---
 # Sapin de Nöel
 
-Der **Weihnachtsbaum** war das Eresseanische Weihnachtsgeschenk des Jahres 2006.
+The **Christmas tree** was the Eressean Christmas present of 2006.
 
-Beschreibung: Weihnachtsbaum (Gewicht: 0 kg): Dieser wunderschoen geschmueckte Baum entfaltet in den Wintermonaten eine magische Wirkung auf den ganzen Wald.
+Description: Christmas tree (weight: 0 kg): this beautifully decorated tree has a magical effect on the entire forest in the winter months.
 
-## Verlautbarung des Vereins zur artgerechten Haltung von Weihnachtsbäumen
+## Announcement from the association on the species-appropriate keeping of Christmas trees
 
-Es ist eine barbarische Unsitte, sich Weihnachtsbäume in die gute Stube, ins Vestibül oder gar ins Kaminzimmer zu stellen. Was erwartet einen Weihnachtsbaum denn dort? Einsamkeit und ein früher Tod!
+It is a barbaric bad habit to put Christmas trees in the living room, in the vestibule or even in the fireplace room.
+What awaits a Christmas tree there? Loneliness and an early death!
 
-Bäume gehören in den Wald! Dort mitten unter seinen Freunden, im Winter festlich geschmückt, dort fühlt sich ein Weihnachtsbaum wohl. Dort und nur dort!
+Trees belong in the forest! There in the middle of his friends, festively decorated in winter, a Christmas tree feels at home there. There and only there!
 
-Bitte, denken Sie nicht nur an sich und ihre Wünsche, denken sie an an die Bäume! Ermöglichen sie ihnen ein Leben in Würde!
+Please don't just think about yourself and your wishes, think about the trees! Give them a life of dignity!
 
-Spenden zur Fortsetzung unserer Arbeit senden sie bitte an: "Gesamt-Eresseanischer Verein zur artgerechten Haltung von Weihnachtsbäumen", Kto.-Nr. 2412 bei allen anerkannten Banken, Geldverleihern und Wucherern.
+Please send donations to continue our work to: "All-Eressean Association for the Species-Appropriate Keeping of Christmas Trees", account no. 2412 at all recognized banks, moneylenders and usurers.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachtsbaum&oldid=5702] -->

@@ -156,10 +156,8 @@ Continue reading: [Racial skill modifiers].
 [move]: ./travel.md
 [long orders]: ./commands.md
 [swimming]: ./sailing.md#swimming
-[`WORK`]: ./cmd-work.md
 [expensive skills]: ./skills.md
 [heroes]: ./cmd-promote.md
 [quarried]: ./resources.md#about-mining
 [quarry]: ./buildings-others.md#quarry
-[RIDE]: ./cmd-ride.md
 [mine]: ./buildings-others.md#mine

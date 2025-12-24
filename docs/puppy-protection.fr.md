@@ -6,7 +6,7 @@ alias: protection-du-chiot
 
 En général, le premier rapport d'une faction contient un message (en anglais ou en allemand) du type : « Votre faction est immunisée contre les attaques pendant les 3 prochaines semaines ».
 
-Le message signifie que ta faction ne peut être ni [attaquée] ni [volée], et que tu ne peux pas encore [garder].
+Le message signifie que ta faction ne peut être ni [[cmd-attack|attaquée]] ni [[cmd-steal|volée]], et que tu ne peux pas encore [[cmd-guard|garder]].
 
 Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes.
 
@@ -20,10 +20,6 @@ Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes
 
     Si ton rapport indique « Votre groupe est immunisé pendant 1 semaine », cela signifie que tu peux déjà être victime de vols et d’attaques pendant la semaine pour laquelle tu soumets actuellement tes ordres !
 
-Poursuivre la lecture : [Envoi des ordres](./commands-send.md)
+Poursuivre la lecture : [[sending-orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
-
-[attaquée]: ./cmd-attack.md
-[volée]: ./cmd-steal.md
-[garder]: ./cmd-guard.md

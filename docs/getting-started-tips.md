@@ -54,7 +54,7 @@ A good starting point for your new orders file is the [Round Template] appended 
 For each unit, you can also note what it produces, for whom it produces it, where it's going, or what kind of trade it's engaged in.
 Here is an example of these comments:
 
-    ```
+```text
     REGION 4,4 ; Lochinver
     ; Beware the dark horde
     ; cut down?
@@ -68,7 +68,7 @@ Here is an example of these comments:
         // Capacity: 420 = 7 stones; Silver!
         GIVE 7jht 7 Stones
         ROUTE SW W PAUSE E NE PAUSE
-    ```
+```
 
 The comment following the [[cmd-unit|UNIT order]] is inserted into the move template by the program;
 following the unit name, in \[ \], is how many people are in the unit and how much money it has (here, 4 people with 100 silver and 2 with 243 silver).

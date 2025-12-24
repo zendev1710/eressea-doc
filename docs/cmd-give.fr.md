@@ -50,7 +50,7 @@ For example, if the unit xyz has 10 people, with `GIVE xyz JE 20 Silver` order, 
     With `@GIVE` you can set up automatic transfers.
     For example, a unit with `@GIVE abc ALL Iron` hand over all the iron to the *abc* unit every week.
 
-    ```
+```text
     GIVE k3f 300 Silver
     ; Gives the unit k3f 300 Silver.
 
@@ -59,30 +59,30 @@ For example, if the unit xyz has 10 people, with `GIVE xyz JE 20 Silver` order, 
 
     GIVE TEMP 3 7 MEN
     ; Gives 7 people to the newly created unit TEMP 3.
-    ```
+```
 
 !!! Caution
     Between `MAKE TEMP` and `END` there are orders for the new unit - and it has no money.
     So the following **doesn't work**:
 
-    ```
+```text
     MAKE TEMP 1
         GIVE TEMP 1 200 Silver  ;  Pointless!
         RECRUIT 2
         MOVE WEST
     END
-    ```
+```
 
     Instead, it needs to be written like this:
 
-    ```
+```text
     GIVE TEMP 1 200 Silver
     MAKE TEMP 1
         RECRUIT 2
         MOVE WEST
     END
     ; GIVE TEMP 1 200 Silver  ;  or here!
-    ```
+```
 
 ## People and units
 
@@ -96,14 +96,14 @@ the receiving unit must CONTACT the transferring unit.
 In addition, if the receiving unit is a [migrant unit], it must not have any people at the time of transfer.
 Ideally it should be an empty TEMP unit. Example:
 
-    ```
+```text
     UNIT a; Faction X
     GIVE TEMP x ALL MEN
     UNIT b; Faction Y
     MAKE TEMP x
     CONTACT UNIT a
     END
-    ```
+```
 
 With `GIVE`*`unit-id`*`UNIT` the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!
 The unit does not carry out any further orders during the turn!

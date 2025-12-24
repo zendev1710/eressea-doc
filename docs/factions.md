@@ -18,7 +18,7 @@ A faction can only have a certain number of units, known as the **unit limit**. 
 
 Here is an example for units:
 
-    ```text
+```text
     * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
         melee 1, taxation 2, has: sword, 20 silver, "TAX";
 
@@ -31,7 +31,7 @@ Here is an example for units:
         and those who want to become one.
 
       + Pebble Noses (kies), Rock Friends (135), 4 trolls, has: 1 cart, 30 gems.
-    ```
+```
 
 Your own units are marked with a '\*'. Units of other factions are marked with '-', or '+' if you [[alliances|help]] that faction.
 

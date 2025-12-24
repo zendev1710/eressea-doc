@@ -4,21 +4,33 @@ alias: rapport-hebdomadaire
 ---
 # Rapport hebdomadaire
 
-Der Wochenbericht ist eine kleine Statistik für Eressea. Er beginnt mit dem Ingame Datum, der Auswertungsnummer und einigen Zahlen zur allgemeinen Spielerentwicklung. Darauf folgt die Auflistung der Parteienzahl nach Rasse sortiert, gefolt von der Personanzahl pro Rasse. Abgeschlossen wird er mit der Anzahl der NMR und der Zahl neuer Spieler. Er wird zusammen mit dem Report als .txt Datei versendet und erscheint damit, wie der Name bereits vermuten lässt, wöchentlich. Früher wurde die Absolute Veränderungszahlen und bei den Personen pro Rasse auch die Prozentuale veränderung mit angegeben. Das ist jedoch seit einigen Jahren nicht mehr so.
+The weekly report is a small statistic for Eressea.  
 
-## Beispiel Wochenbericht \#1000
+It starts with the in-game date, the evaluation number and some numbers about general player development.
+This is followed by a list of the number of factions sorted by race, followed by the number of people per race.
 
-Eressea in der ersten Woche des Monats Sturmmond im Jahre 31 des zweiten Zeitalters.
+It is concluded with the number of NMR and the number of new players.
 
+It is sent together with the report as a .txt file and, as the name suggests, appears weekly.
+
+In the past, the absolute change figures and, for people per race, the percentage change were also given.
+
+However, this has not been the case for several years.
+
+## Example weekly report \#1000
+
+Eressea in the first week of the month of Storm moon in the year 31 of the Second Age.
+
+```text
 Auswertung Nr: 1000
 
-Parteien: 186 (+0)  
-Einheiten: 158928 (+143)  
-Spielerpopulation: 12639338 (+32404)  
+Parteien: 186 (+0)
+Einheiten: 158928 (+143)
+Spielerpopulation: 12639338 (+32404)
 
-    davon bewaffnet:      4307450 (+7505) 
+    davon bewaffnet:      4307450 (+7505)
 
-    Helden:               5719 (+5) 
+    Helden:               5719 (+5)
 
          Zwergenvölker: 26 (+0)
            Elfenvölker: 36 (+0)
@@ -34,7 +46,7 @@ Spielerpopulation: 12639338 (+32404)
 
                  Zwerge: 1810332 (+8019,+0%)
                   Elfen: 1092577 (+1097,+0%)
-                Gobelins: 180811 (-786,0%)
+                Goblins: 180811 (-786,0%)
                Menschen: 6447771 (+13337,+0%)
                  Trolle: 559079 (+843,+0%)
                Dämonen: 23056 (+0,+0%)
@@ -46,19 +58,20 @@ Spielerpopulation: 12639338 (+32404)
               Snotlinge: 1181 (+0,+0%)
                 Kröten: 5 (+1,+25%)
 
-0 NMR: 175  
-1 NMR: 7  
-2 NMR: 2  
-3 NMR: 0  
-4 NMR: 1  
+0 NMR: 175
+1 NMR: 7
+2 NMR: 2
+3 NMR: 0
+4 NMR: 1
 
-+ NMR: 0  
++ NMR: 0
 Neue Spieler: 0
+```
 
-## Archiv des Xontromia Express
+## Archive de Xontormia Express
 
-Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle].
+The archive of past issues can be found [at this location].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Wochenbericht&oldid=7724] -->
 
-[an dieser Stelle]: https://wiki.eressea.de/Kategorie:Wochenbericht "Kategorie:Wochenberich (wiki)"
+[at this location]: https://wiki.eressea.de/Kategorie:Wochenbericht

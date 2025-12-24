@@ -25,10 +25,10 @@ If you want to write something yourself, you can find everything you need under 
 
 Oh yes, here are the 2 lines for the import:
 
-    ```java
+```java
     import magellan.library.*;
     import magellan.library.rules.*;
-    ```
+```
 
 Here are my pre-made scripts:
 
@@ -36,7 +36,7 @@ Here are my pre-made scripts:
 
 A call from `metaBurgenbauSchilder()` in all regions you will receive a sign with the following information: Castle size M Morale Silver per castle size /stone for the next castle upgrade Stone efficiency (= Silver per castle size /stone for the next castle upgrade)
 
-    ```java
+```java
     /*********************************************
     *        Meta's BurgenbauSchilder            *
     * Version 0.5                                *
@@ -81,13 +81,13 @@ A call from `metaBurgenbauSchilder()` in all regions you will receive a sign wit
         }
       }
     }
-    ```
+```
 
 ### Meta friend enemy signs
 
 This is a bit more complicated as it requires some configuration. More detailed documentation will be provided later:
 
-    ```java
+```java
     /*********************************************
     *        Meta's Friend enemy signs           *
     * Version 0.6                                *
@@ -222,22 +222,22 @@ This is a bit more complicated as it requires some configuration. More detailed 
       }
       unit.addOrderAt(0,"/"+"/ TODO Factionliste rauskopieren");
     }
-    ```
+```
 
 To configure, you need another function in which each faction number that is to be assigned to a specific alliance has an assignment:
 
-    ```java
+```java
     metaFriendFoeCallback(HashMap tmpCallback){
       tmpCallback.put("ii","MOB"); // Monster
       return tmpCallback;
     }
-    ```
+```
 
 ### Meta orders checker
 
 This is also a little more complicated. Is done using `metaCommandChecker("party#");` called. This means that units get the lines `// m/abbauen/stein` or have also set the corresponding commands for iron or wood.
 
-    ```java
+```java
     /*********************************************
     *        Meta's Command checker              *
     * Version 0.6                                *
@@ -349,7 +349,7 @@ This is also a little more complicated. Is done using `metaCommandChecker("party
         }
       return 0;
     }
-    ```
+```
 
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 

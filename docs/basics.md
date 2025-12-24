@@ -4,54 +4,70 @@ alias: basics
 ---
 # Basics
 
-Nur weil es in Eressea keinen Gewinner gibt, heißt das nicht, das man nicht verlieren kann. Unter Anfängern sehen wir immer wieder vermeidbare Fehler, die dazu führen, dass eine Partei frühzeitig aus dem Spiel ausscheidet, weil eine Regel nicht vollständig versanden wurde, oder der Spieler unvorbereitet auf Probleme stößt.
+Just because there is no winner in Eressea doesn't mean you can't lose.
+We often see avoidable mistakes among beginners that lead to one faction being eliminated from the game early because a rule was not fully understood, or the player encountering problems unprepared.
 
-Die folgenden grundlegenden Dinge sollte jeder Spieler verstehen.
+The following basic things every player should understand.
 
-## Der Report
+## The report
 
-Es gibt jede Woche zwei Reporte, in denen die selben Daten stehen. Der normale Report (NR) ist eine Textdatei die mit jedem Editor gelesen werden kann. Der Computerreport (CR) ist eine Datei, die von Tools wie [[magellan]] und [[csmap]] verstanden wird.
+There are two reports every week that contain the same data.
+The normal report (NR) is a text file that can be read with any editor.
+The computer report (CR) is a file that is understood by tools such as [[magellan]] and [[csmap]].
 
-Wir empfehlen Anfängern, ihre ersten Züge mit dem Normalreport und einem Texteditor zu machen. Die ersten Befehle sind selten mehr als ein Dutzend Zeilen, und man braucht kein Tool wie Magellan zur Erstellung. Im Gegenteil, weil diese Tools für das Management großer Parteien mit hunderten von Einheiten entwickelt wurden, haben sie eine Menge Features, die am Anfang eher verwirren, und von den wichtigen Informationen ablenken, die im normalen Report einfacher zu sehen sind.
+We recommend that beginners make their first moves with the normal report and a text editor.
+The first few commands are rarely more than a dozen lines, and you don't need a tool like Magellan to create them.
+On the contrary, because these tools are designed for managing large parties with hundreds of entities, they have a lot of features that tend to be confusing at first, distracting from the important information that is easier to see in the normal report.
 
-## Lange und Kurze Befehle
+## Long and short orders
 
-Einheiten können nur eine lange [Aktion] Aktion pro Woche ausführen, aber beliebig viele kurze. ACHTUNG! Kampf kann eine lange Aktion, selbst wenn man nicht selber attackiert hat.
+Units can only perform one long [Action] action per week, but can perform any number of short ones.
 
-## Kampf|
+DANGER! Combat can be a long action, even if you haven't attacked yourself.
 
-Kämpfe in Regionen die man nicht [[cmd-guard|bewacht]] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [[cmd-attack|attackiert]] hat, daran ihren langen Befehl auszuführen. Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der deine Partei angegriffen werden kann, deine Regionen bewachst.
+## Battle
+
+Battle in regions that you don't [[cmd-guard|guard]] are always long, even if your entire faction is attacked by just one scout, he prevents ALL units he [[cmd-attack|attacked]] from carrying out their long order.
+So you should make sure that you are guarding your regions from the first week in which your faction can be attacked at the latest.
 
 ## Hunger
 
-Unbedingt [Hungern] vermeiden. Die Auswirkungen sind katastrophal. Jede Person benötigt pro Woche 10 Silber Unterhalt um nicht zu hungern
+Avoid [starvation] at all costs. The effects are catastrophic.
+Each person needs 10 silver maintenance per week in order not to go hungry
 
-## Finanzen
+## Finance
 
-Unterhaltung und Steuern sind schneller gelernt als Handel, WORK nur im Notfall machen, um Hunger zu vermeiden.
+Entertainment and taxes are learned quicker than trading, only do WORK in an emergency to avoid starvation.
 
-## Magier
+## magician
 
-Jedes Magiegebiet hat auf Stufe 1 einen Zauber der 50 Silber pro Zauberstufe erzeugt. Wenn deine Rasse keine Malus in Magie hat, kann sich das frühe ausbilden von Magiern als alternative Einnahmequelle lohnen. Doch vorsicht - Nicht jeder Zauber geligt auch.
+Each magic area has a spell at level 1 that produces 50 silver per caster level.
+If your race does not have a penalty in magic, training magicians early can be worthwhile as an alternative source of income. But be careful -not every spell works.
 
-## Gegenstände und Silber benutzen
+## Use items and silver
 
-GIVE und RESERVE erklären, und dass GIVE die Gegenstände beim Empfänger reserviert. Wenn etwas benutzt wird, z.B. um einen Gegenstand zu machen oder zu rekrutieren, von wem wird sich bedient, in welcher Reihenfolge?
+GIVE and RESERVE declare and that GIVE reserves the items with the recipient.
+When something is used, for example to make an item or to recruit, who uses it and in what order?
 
-## Traglast
+## Load capacity
 
-Gewichte und Traglast von Personen erklären. Nochmal darauf hinweisen, wo MOVE in der Befehlsreihenfolge steht. ENTERTAIN kommt vorher, man kann sich damit ein Boot oder eine TRANSPORTierende Einheit überladen.
+Explain weights and loads of people.
+Point out again where MOVE is in the command order.
+ENTERTAIN comes first; you can use it to overload a boat or a TRANSPORTING unit.
 
-## Neue Einheiten
+## New units
 
-Einheiten die Silber haben oder welches übergeben bekommen bedienen sich immer zuerst bei diesem Silber, bevor sie auf den [Materialpool] zugreifen. Wenn man eine neue Einheit erstellt, eine Katze rekrutiert (kostet 90 Silber) und diese in die Nachbarregion laufen (10 Silber Unterhalt) lässt um sie dort in der Folgewoche Unterhaltung lernen zu lassen (Weitere 10 Silber Unterhalt) um dann zu unterhalten (ab hier versorgt sie sich selbst) reicht es nicht, ihr 20 Silber für die Reisezeit und die Lernwoche zu übergeben, man muss ihr zusätzlich die 90 Silber für das eigene Rekrutieren übergeben. Ansonsten kommt die Einheit hungernd in der Nachbarregion an.
+Units that have silver or are given silver always use this silver first before accessing the [[items-pool]].
+If you create a new unit, recruit a cat (costs 90 silver) and let it run into the neighboring region (10 silver maintenance) in order to let it learn entertainment there the following week (another 10 silver maintenance) and then entertain it (from here on it takes care of itself) it is not enough to give it 20 silver for the travel time and the learning week, you also have to give it the 90 silver for your own recruiting.
+Otherwise the unit will arrive in the neighboring region starving.
 
-## Kundschafter
+## Scout
 
-Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, wenn man sich das leisten kann. In der Regel reicht es nicht, eine Unterhalter-Einheit in den benachbarten Berg zu stellen, wenn sie ihn nicht bewachen kann.
+Are a strategic investment.
+Secure important neighboring regions, but only if you can afford it.
+As a rule, it is not enough to place an entertainer unit in the neighboring mountain if it cannot guard it.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Aktion]:./commands.md#short-and-long-orders
-[Hungern]: ./silver.md#starvation
-[Materialpool]: ./items-pool.md
+[Action]:./commands.md#short-and-long-orders
+[starvation]: ./silver.md#starvation

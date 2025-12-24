@@ -9,7 +9,7 @@ Einige dieser Kommentare werden "automatisch" eingefügt.
 Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silvervorrat als Kommentar.
 Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
 
-    ```
+```text
     ERESSEA abcd "hier_passwort_eintragen"
 
     ; ECHECK -l -w4 -r90 -v4.01
@@ -20,11 +20,11 @@ Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Inf
     UNIT ub2;    Handwerker [3,30$]
         LERNEN Holzfällen
         // LERNEN Schiffbau AUF T2 oder 3
-    ```
+```
 
 Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
 
-    ```
+```text
     REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silver)
     ; ECheck Lohn 15
     ;  . .  |Bauern:       8534 +9|Silver: 47588297 +48400|Unterhalt: 2379414 +2420|
@@ -46,7 +46,7 @@ Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden
      ; Holzfällen 2
        LERNEN Holzfällen
        // LERNEN Holzfällen AUF T3
-    ```
+```
 
 Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen. Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [//] in der Regel sinnvoller.
 

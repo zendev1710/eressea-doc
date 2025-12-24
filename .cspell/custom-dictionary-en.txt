@@ -1,7 +1,13 @@
 !command
+!commands
+!parties
+!Parties
 !party
+!Party
 !talent
+!Talent
 !talents
+!Talents
 Antimagic
 armoursmithing
 Braineaters
@@ -23,6 +29,7 @@ Duncebun
 elven
 elvendear
 Ents
+Eressean
 Eressian
 Eressians
 flatroot

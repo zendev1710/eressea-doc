@@ -4,16 +4,16 @@ alias: deplacement-des-agriculteurs
 ---
 # Déplacement des agriculteurs
 
-Bauern sind in der Lage von Region zu Region zu wandern. Sie tun das aus unterschiedlichen Gründen, die sich in der Geschichte Eressea immer mal änderten:
+Farmers are able to move from region to region.
+They do this for different reasons, which have changed throughout the history of Eressea:
 
-- Bauern fliehen vor [Monstern]. Tauchen Monster in einer Region auf, so vertreiben diese jede Woche einige Bauern. Die Anzahl der vertriebenen Bauern hängt von Art und Anzahl der Monster ab. Auch von Spielern beschworene Monster können Bauern vertreiben.
-- Bauern wandern aus wegen Überbevölkerung. Gibt es in einer Region mehr Bauern als Arbeitsplätze (siehe [hier]), so wandert ein Teil der Arbeitslosen in die Nachbarregionen aus. Dieses Feature war in der Vergangenheit nicht immer aktiv, scheint es zur Zeit aber zu sein.
-- Bauern wandern aus wegen Armut. Bauern wanderten in der Vergangenheit ab, wenn es in einer Region zu wenig Regionssilber gab, oder wenn zu viele [Steuern eingetrieben] wurden. Dieses Feature ist (vermutlich) zur Zeit nicht aktiv.
+- Peasants flee from [[monsters]]. If monsters appear in a region, they drive away some farmers every week. The number of farmers displaced depends on the type and number of monsters.
+  Monsters summoned by players can also drive away farmers
+- Farmers are emigrating because of overpopulation.
+  If there are more farmers than jobs in a region (see [[cmd-work|here]]), some of the unemployed emigrate to neighboring regions.
+  This feature has not always been active in the past, but appears to be currently.
+- Farmers emigrate because of poverty. In the past, farmers migrated when there was too little regional silver in a region or when too much [[cmd-tax|taxes were collected]]. This feature is (probably) not active at the moment.
 
-Wandernde Bauern arbeiten in der Woche der Wanderung nicht, verbrauchen aber trotzdem Silber (in der Zielregion).
+Migrating farmers do not work during the week of the migration, but still consume silver (in the target region).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
-
-[Monstern]: ./monsters.md
-[hier]: ./cmd-work.md
-[Steuern eingetrieben]: ./cmd-tax.md

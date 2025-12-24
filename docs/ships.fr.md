@@ -20,13 +20,13 @@ Un bateau rst défini par son identifiant, utilisé dans les ordres.
 
 Exemple :
 
-    ```
+```text
     Fierté des Sept Vents (18), Drakkar, (254/500). Ce magnifique
 
         bateau était le premier que la famille de marchands Plötzbogen
         a construit. Le capitaine Gorm se tient sur le pont arrière et donne
         des ordres aux marins. Il a tout sous contrôle.
-    ```
+```
 
 Pour tes propres bateaux, la charge et la capacité sont indiquées après le type de bateau (ici 254 unités de poids sur 500 possibles).
 
@@ -65,9 +65,9 @@ Vitesse du drakkar en fonction du niveau en compétence de voile du capitaine.
 
 De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux **du même type**, par exemple :
 
-    ```
+```text
     Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-    ```
+```
 
 Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre `GIVE`` `*`target-captain`*` ``1 SHIP`.
 L'unité cible devient le commandant d'un convoi.
@@ -86,12 +86,12 @@ Exemple.
 Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec *Sailing* T3 et un équipage avec 90 niveaux de compétence au total.
 Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
-    ```
+```text
     Caravel (2seh), 3 Caravels, (9000/9000).
        * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
        * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
        * Horde (770L), 888 Humans.
-    ```
+```
 
 Comme on peut le voir, il est possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.  
 Pour le reste, les convois se comportent comme un bateau normal.  
@@ -118,10 +118,10 @@ Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent p
 
 Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
 
-    ```
+```text
     GIVE 123 1 SHIP
     GIVE 123 ALL MEN
-    ```
+```
 
 ## Voir aussi
 

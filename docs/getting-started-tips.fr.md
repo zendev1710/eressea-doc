@@ -57,7 +57,7 @@ Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa
 
 Exemple de commentaires :
 
-    ```
+```text
     REGION 4,4 ; Lochinver
     ; Prendre garde à la horde des ténèbres
     ; combattre ?
@@ -71,7 +71,7 @@ Exemple de commentaires :
         // Capacité: 420 = 7 pierres; et des pièces d'argent !
         GIVE 7jht 7 Stones
         ROUTE SW W PAUSE E NE PAUSE
-    ```
+```
 
 Le commentaire suivant l'ordre [[cmd-unit]] est inséré dans le modèle d'évaluation par le programme ;  
 après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).  

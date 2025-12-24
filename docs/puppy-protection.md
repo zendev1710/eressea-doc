@@ -6,7 +6,7 @@ alias: puppy-protection
 
 Generally, a faction's first report contains a message such as: "Your faction is immune to attacks for the next 3 weeks."
 
-This message means that your faction cannot be [attacked] or [stolen], and you cannot yet [guard].
+This message means that your faction cannot be [[cmd-attack|attacked]] or [[cmd-steal|stolen]], and you cannot yet [[cmd-guard|guard]].
 
 This system aims to improve game balance for new factions.
 
@@ -20,10 +20,6 @@ This system aims to improve game balance for new factions.
 
     If your report states: "Your faction is immune for 1 week", this means you can be targeted by stealth and attacks starting in the week for which you submit your orders!
 
-Continue reading: [Send Orders](./commands-send.md)
+Continue reading: [[sending-orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
-
-[attacked]: ./cmd-attack.md
-[stolen]: ./cmd-steal.md
-[guard]: ./cmd-guard.md

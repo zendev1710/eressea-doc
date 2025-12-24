@@ -18,11 +18,11 @@ This is probably important here, because we don't know the distance to the desti
 
 For Eressea and other games on hex maps, the minimum distance can be calculated relatively easily from the coordinates.
 
-    ```text
+```text
     hx = start.x - ziel.x
     hy = start.y - ziel.y
     Distanz = max(abs(hx), abs(hy), abs(hx+hy))
-    ```
+```
 
 This estimated distance to the destination is added to the distance already traveled. The regions that still need to be expanded are sorted according to this criterion. If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.
 

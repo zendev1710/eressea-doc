@@ -6,43 +6,40 @@ alias: tableaux-potions-et-plantes
 
 ## Liste des potions alchimiques et plantes
 
-Liste der alchemistischen Tränke
+| Level | Name             | Description                                                                                 |
+|:-----:|------------------|---------------------------------------------------------------------------------------------|
+|   1   | Seven League Tea | 10 people fast as horses                                                                    |
+|   1   | Goliath water    | 10 people carrying capacity like horses                                                     |
+|   1   | Water of Life    | Makes 10 saplings/Mallorn saplings from 10 wood/Mallorn                                     |
+|   1   | Potion of Truth  | This potion hasn't worked for some time                                                     |
+|   2   | Creativity drink | doubles productivity of 10 people (only at MAKE)                                            |
+|   2   | Wound ointment   | Returns up to 400 hit points                                                                |
+|   2   | Peasant blood    | Up to 100 demons don't need a farmer to eat                                                 |
+|   3   | brain wax        | Increased learning opportunity for 10 people                                                |
+|   3   | Dump-baked bread | with 10 people: no learning or teacher is of no use or forgetting 1 week of the best talent |
+|   3   | Nest warmth      | Insects can also recruit in winter                                                          |
+|   3   | Horse happiness  | 50 horses reproduce up to four times                                                        |
+|   3   | Berserker Blood  | 10 people in combat Attack +1                                                               |
+|   4   | Farmer-loving    | gives up to 1,000 farmers in the region ten times the chance to reproduce                   |
+|   4   | Elixir of Power  | Gives 10 people five times hit points                                                       |
+|   4   | Healing Potion   | Gives a person 200 hit points upon death                                                    |
 
-| Stufe | Name               | Beschreibung                                                                                   |
-|-------|--------------------|------------------------------------------------------------------------------------------------|
-| 1     | Siebenmeilentee    | 10 Leute schnell wie Pferde                                                                    |
-| 1     | Goliathwasser      | 10 Leute Tragkraft wie Pferde                                                                  |
-| 1     | Wasser des Lebens  | Macht aus 10 Holz/Mallorn 10 Schößlinge/Mallornschößlinge                                      |
-| 1     | Trank der Wahrheit | Dieser Trank hat schon seit einiger Zeit keine Funktion mehr                                   |
-| 2     | Schaffenstrunk     | verdoppelt Produktivität von 10 Leuten (nur bei MAKE)                                         |
-| 2     | Wundsalbe          | Bringt bis zu 400 Trefferpunkte zurück                                                         |
-| 2     | Bauernblut         | Bis zu 100 Dämonen brauchen keinen Bauern zum Fraß                                             |
-| 3     | Gehirnschmalz      | Erhöhte Lernchance für 10 Personen                                                             |
-| 3     | Dumpfbackenbrot    | bei 10 Leuten: kein Lernen oder Lehrer bringt nichts oder vergessen 1 Woche des besten Talents |
-| 3     | Nestwärme          | Insekten können auch im Winter rekrutieren                                                     |
-| 3     | Pferdeglück        | 50 Pferde vermehren sich bis zu vier mal                                                       |
-| 3     | Berserkerblut      | 10 Leute im Kampf Angriff +1                                                                   |
-| 4     | Bauernlieb         | gibt bis zu 1000 Bauern in der Region die zehnfache Chance, sich zu vermehren                  |
-| 4     | Elixier der Macht  | Gibt 10 Personen fünffache Trefferpunkte                                                       |
-| 4     | Heiltrank          | Gibt einer Person im Todesfall 200 Trefferpunkte                                               |
+In order to create a potion, you need an alchemy skill equal to twice the potion level.
+Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
 
-Um einen Trank herstellen zu können, braucht man das Alchemie-Talent in Höhe der doppelten Trank-Stufe. Tränke, die auf die Gegenstände einer Einheit wirken, verfallen, wenn sie nicht benutzt werden können, weil die Einheit diese Gegenstände nicht (mehr) hat.
+Voir [[alchimie]].
 
-siehe [Alchemie]
+List of herbs and their distribution.
 
-Liste der Kräuter und deren Verbreitung.
+| Herbs                                                                              | spread       |
+|------------------------------------------------------------------------------------|--------------|
+| Flachwurz, Spicy Daring, Owl's Eye, Green Spinnerich, Blauer Baumringel, Elfenlieb | Forest/plain |
+| Garglewort, Knotty Suckerwort, Bladder Morel                                       | swamp        |
+| Water finder, cactus sweat, sand rot                                               | desert       |
+| Cream puffs, fjord growth, mandrakes                                               | Highlands    |
+| Stonebiter, cleavage wax, cave glow                                                | Mountains    |
+| Ice Flower, White Rager, Snow Crystal                                              | Glacier      |
 
-| Kräuter                                                                                 | Verbreitung |
-|-----------------------------------------------------------------------------------------|-------------|
-| Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | Wald/Ebene  |
-| Gurgelkraut, Knotiger Saugwurz,  Blasenmorchel                                          | Sumpf       |
-| Wasserfinder, Kakteenschwitz, Sandfäule                                                 | Wüste       |
-| Windbeutel, Fjordwuchs, Alraune                                                         | Hochland    |
-| Steinbeißer, Spaltwachs, Höhlenglimm                                                    | Gebirge     |
-| Eisblume, Weißer Wüterich, Schneekristall                                               | Gletscher   |
-
-siehe [Alchemie]
+Voir [[alchimie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->
-
-[Alchemie]: ./alchemy.md

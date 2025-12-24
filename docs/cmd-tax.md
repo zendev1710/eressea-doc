@@ -4,22 +4,24 @@ alias: cmd-tax
 ---
 # TAX
 
-**`TAX`**[<sup>`L`</sup>]`[`*`betrag`*`]`
+**`TAX`**[<sup>`L`</sup>]`[`*`Amount`*`]`  
 
-Mit diesem Befehl treiben bewaffnete und trainierte Einheiten Steuern bei den Bauern ein. Dazu benötigen sie eine Waffe und das dazugehörige [Talent] und das Talent [Steuereintreiben][Talent]. Pro [bewaffneter] (und an dieser Waffe ausgebildeter) Person und Talentstufe Steuereintreiben werden bis zu 20 Silver von den Bauern eingetrieben; Katapulte eignen sich nicht zum Steuereintreiben. Gibt man einen Betrag an, so wird höchstens dieser Betrag an Steuern eingetrieben. Hierbei können nur volle 10er Beträge angegeben werden, alles andere wird auf die nächste volle 10er Stelle abgerundet. Dabei geben die Bauern sogar Silver weg, das sie eigentlich zum Überleben bräuchten, was zu [Hunger] führen kann.
+With this order, armed and trained units collect taxes from the farmers.
+To do this, they need a weapon and the corresponding [[skills-list|skill]] and the [tax collecting].
+Up to 20 Silver are collected from farmers per [[armed]] person (and trained in this weapon) and skill level Tax Collecting;
+Catapults are not suitable for collecting taxes.
+If you specify an amount, a maximum of this amount will be collected in taxes. Only full 10s can be specified; everything else is rounded down to the next full 10s.
+The farmers even give away silver that they actually need to survive, which can lead to [hunger].
+If several factions want to collect taxes, the money is divided between the factions. If you want to prevent non-allied factions from collecting taxes, you can do this with the [[cmd-guard]] order.
 
-Wollen mehrere Parteien Steuern eintreiben, so wird das Geld zwischen den Parteien aufgeteilt. Will man verhindern, daß nicht-alliierte Parteien Steuern eintreiben, kann man dies mit dem Befehl [[cmd-guard]] tun.
-
-Das Steuereintreiben-Talent steigt nicht während der Anwendung.
+Tax collecting skill does not increase during use.
 
 ## See also
 
-- [Geld]
+- [[money]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
 [<sup>`L`</sup>]: ./commands.md#short-and-long-orders
-[Talent]: ./skills-list.md
-[bewaffneter]: ./armed.md
-[Hunger]: ./silver.md#starvation
-[Geld]: ./silver.md
+[hunger]: ./silver.md#starvation
+[tax collecting]: ./skills-list.md#taxation

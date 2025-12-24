@@ -4,10 +4,10 @@ alias: cmd-sort
 ---
 # SORT
 
-**`SORT`**` BEFORE `*`unit-id`*
-**`SORT`**` AFTER `*`unit-id`*
+**`SORT`**` BEFORE `*`unit-id`*  
+**`SORT`**` AFTER `*`unit-id`*  
 
-This order modifies the order of your units **in the report** and the [Zugvorlage].
+This order modifies the order of your units **in the report** and the [[orders|orders evaluation]].
 This allows, for example, the display of *students* (units executing the `LEARN` order) and *teachers* (units executing the `TEACH` order) one below the other.
 
 !!! info
@@ -23,5 +23,4 @@ The following limitations apply:
 Sorting takes place at the very end of the round, after movement.
 Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.
 
-[Zugvorlage]: ./commands.md
 [has an impact]: ./tips-and-tricks.md#escaping-death-by-starvation

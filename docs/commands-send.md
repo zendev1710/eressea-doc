@@ -78,7 +78,7 @@ Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Pa
 
 In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
 
-    ```
+```text
     ERESSEA 2 "GrofxMoftzg"
 
     ; ECHECK -z -w4 -r100
@@ -104,7 +104,7 @@ In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine V
     Lerne Unterhaltung
 
     NEXT
-    ```
+```
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[cmd-unit]] ausgewertet, ebenso werden dann Einnahmen mit [[cmd-work]] (idR. je 11 Silber pro Person) und [TAX STEUERN EIN] und [[cmd-entertain]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LEARN MAGIE] und Einheiten, die mit [[cmd-move]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
 

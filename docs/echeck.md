@@ -16,7 +16,7 @@ There are different warning levels controlled by command line parameters. With`-
 
 ## Aufruf
 
-    ```console
+```console
     Usage: ./echeck [options] <orders file>
 
       -Ppfad  Path information for the additional files; the locale de is appended
@@ -55,7 +55,7 @@ There are different warning levels controlled by command line parameters. With`-
       -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version
       -Q      Quiet
       -C      Compact edition
-    ```
+```
 
 ## See also
 

@@ -9,7 +9,7 @@ alias: first-round
 <!-- TODO : find and copy here an english report extract -->
 Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
 
-    ```
+```text
                     Report für E3, Wednesday, 01. July 2009, 19:56
        Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
                               Zeitalters. Es ist Sommer.
@@ -65,7 +65,7 @@ Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du na
       * Partei 37wj (37wj): drac@example.de; (null)
 
     ------------------------------------------------------------------------------
-    ```
+```text
     
 ## Example of an orders file
 
@@ -76,7 +76,7 @@ Note that orders spanning more than one line.
 here the DESCRIBE order with backslash (//) were used.
 However, if you're using [Magellan] for your orders, you don't need to worry about this.
 
-    ```
+```text
     ERESSEA 37wj "pwpw42"
     ; du muss natürlich oben dein eigenes Passwort einsetzen
     REGION 0,0 ; Cabyn
@@ -237,7 +237,7 @@ However, if you're using [Magellan] for your orders, you don't need to worry abo
         ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
         ; plötzlich pleite ist!
     NEXT
-    ```
+```
 
 ## See also
 

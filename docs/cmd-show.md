@@ -4,16 +4,16 @@ alias: cmd-show
 ---
 # SHOW
 
-**`SHOW`**`"Zauberspruch"`  
-**`SHOW`**`"Gegenstand"`  
-**`SHOW`**`"Trank"`  
-**`SHOW`**`ALLE ZAUBER`  
-**`SHOW`**`ALLE TRÄNKE`  
-**`SHOW`**`"Rasse"`
+**`SHOW`**`"Spell"`  
+**`SHOW`**`"Item"`  
+**`SHOW`**`"Potion"`  
+**`SHOW`**`ALL SPELL`  
+**`SHOW`**`ALL POTION`  
+**`SHOW`**`"race"`  
 
-Zeigt die Beschreibung zu einem Zauberspruch, das Rezept eines alchemistischen Trankes oder die Beschreibung eines Gegenstands an. Die Einheit, die den Befehl gibt, muss den Gegenstand besitzen, bzw. Kenntnis des Zaubers oder des Tranks haben. Befindet sich ein Gegenstand im [Parteipool], kann eine beliebige Einheit der Partei den Zeigebefehl geben. Auch zu Rassen, zum Beispiel für [Vertraute], können bestimmte Eigenschaften angezeigt werden. Dazu muss die Rasse der Einheit mit dem Parameter übereinstimmen.
+Displays the description of a spell, the recipe for an alchemical potion, or the description of an item.
+The unit giving the order must own the item or have knowledge of the spell or potion. If an item is in the [[faction-pool]], any unit in the Party can give the show order.
+Certain characteristics can also be displayed for races, for example for [[familiars]].
+To do this, the unit's race must match the parameter.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SHOW&oldid=14967] -->
-
-[Parteipool]: ./faction-pool.md
-[Vertraute]: ./familiars.md

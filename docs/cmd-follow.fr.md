@@ -30,11 +30,11 @@ Si le paramètre optionnel « Vitesse » est spécifié, le bateau poursuivant
 `FOLLOW` ne dure que pendant le tour au cours duquel la commande est donnée.
 Si la commande doit durer plus longtemps, elle doit être précédée d'un `@`.
 
-    ```
+```text
     UNIT 87b6
         @FOLLOW UNIT hz7
         ENTERTAIN
-    ```
+```
 
 L'unité *87b6* surveillera l'unité *hz7* et la suivra dans ses mouvements.
 Si le déplacement échoue, elle gagnera de l'argent grâce au divertissement.

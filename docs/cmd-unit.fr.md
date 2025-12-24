@@ -4,13 +4,15 @@ alias: cmd-unit-fr
 ---
 # UNIT
 
-**`UNIT`**` `*`unit-id`*
+**`UNIT`**` `*`unit-id`*  
 
-Mit diesem Befehl beginnt man die Befehlseingabe für eine der eigenen Einheiten.
+With this order you start entering orders for one of your units.
 
-      UNIT 45
-        MOVE WESTEN
-      UNIT 46
-        ENTER GEBÄUDE 7
+```text
+    UNIT 45
+        MOVE WEST
+    UNIT 46
+        ENTER BUILDING 7
+```
 
 <!-- From [https://wiki.eressea.de/index.php?title=UNIT&oldid=1548] -->

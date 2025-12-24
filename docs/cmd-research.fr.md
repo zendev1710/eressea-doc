@@ -4,16 +4,16 @@ alias: cmd-research-fr
 ---
 # RESEARCH
 
-**`RESEARCH`**[<sup>`L`</sup>]`HERBS`
+**`RESEARCH`**[<sup>`L`</sup>]`HERBS`  
 
-Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Region wächst und wie viel davon ungefähr vorhanden ist. Dazu muss die Einheit mindestens [Kräuterkunde] 7 haben.
+With this order the unit tries to find out which herb grows in a region and approximately how much of it is present.
+To do this, the unit must have at least [herbalism] to level 7.
 
 ## Voir aussi
 
-- [Kräuter]
+- [[plantes]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESEARCH&oldid=16724] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[Kräuterkunde]: ./skills-list.md
-[Kräuter]: ./herbs.md
+[herbalism]: ./skills-list.fr.md#herboristerie

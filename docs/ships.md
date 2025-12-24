@@ -88,10 +88,10 @@ Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent p
 
 Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
 
-    ```
+```text
     GIVE 123 1 SHIP
     GIVE 123 ALL MEN
-    ```
+```
 
 ## Voir aussi
 

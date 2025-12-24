@@ -35,7 +35,7 @@ The email address to which each player can send articles is [[express@eressea.de
 
 A **Example article** could look like this:
 
-    ```
+```text
     == 13. Welt ==
 
     === Krieg in der 13. Welt ===
@@ -53,7 +53,7 @@ A **Example article** could look like this:
     Inhalt.
 
     Gibli der Schreiber-Goblin
-    ```
+```
 
 ## Xontormia Express Archives
 

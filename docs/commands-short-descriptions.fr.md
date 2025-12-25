@@ -55,10 +55,10 @@ brief description of orders
 | [GIVE unit-id KRÄUTER](./cmd-give.md)                                         | GIVE unit-id herbs                           | give a unit all herbs                             | K           |
 | [GIVE unit-id KOMMANDO](./cmd-give.md)                                        | GIVE unit-id command                         | give a unit ship/ building control                | K           |
 | [GIVE unit-id UNIT](./cmd-give.md)                                            | GIVE unit-id UNIT                            | give unit to a foreign faction                    | K           |
-| [GIVE unit-id \[JE\] anzahl PERSONEN](./cmd-give.md)                          | GIVE unit-id \[each\] amount MEN             | give a unit men                                   | K           |
-| [GIVE unit-id \[JE\] anzahl SCHIFF](./cmd-give.md)                            | GIVE unit-id \[each\] amount SHIP            | give SHIP to form convoys                         | K           |
-| [GIVE unit-id \[JE\] anzahl SILBER](./cmd-give.md)                            | GIVE unit-id \[each\] amount SILVER          | give silver                                       | K           |
-| [GIVE unit-id \[JE\] anzahl gegenstand](./cmd-give.md)                        | GIVE unit-id \[each\] amount item            | give item                                         | K           |
+| [GIVE unit-id \[EACH\] anzahl PERSONEN](./cmd-give.md)                          | GIVE unit-id \[each\] amount MEN             | give a unit men                                   | K           |
+| [GIVE unit-id \[EACH\] anzahl SCHIFF](./cmd-give.md)                            | GIVE unit-id \[each\] amount SHIP            | give SHIP to form convoys                         | K           |
+| [GIVE unit-id \[EACH\] anzahl SILBER](./cmd-give.md)                            | GIVE unit-id \[each\] amount SILVER          | give silver                                       | K           |
+| [GIVE unit-id \[EACH\] anzahl gegenstand](./cmd-give.md)                        | GIVE unit-id \[each\] amount item            | give item                                         | K           |
 | [GIVE 0 anzahl SILBER](./cmd-give.md)                                         | GIVE 0 number SILVER                         | throwing away objects                             | K           |
 | [GIVE 0 anzahl PERSONEN](./cmd-give.md)                                       | GIVE 0 number MEN                            |                                                   | K           |
 | [GIVE 0 anzahl gegenstand](./cmd-give.md)                                     | GIVE 0 number item                           |                                                   | K           |

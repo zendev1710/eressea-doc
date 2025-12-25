@@ -6,6 +6,7 @@ alias: cmd-next
 
 **`NEXT`**  
 
-Dies beendet die Befehle für eine Partei. Mit `NEXT` muß man seine Befehlsdatei abschließen.
+This ends the orders for a faction.
+With `NEXT` you have to complete your orders file.
 
 <!-- From [https://wiki.eressea.de/index.php?title=NEXT&oldid=5962] -->

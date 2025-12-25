@@ -5,19 +5,22 @@ alias: cmd-message
 # MESSAGE
 
 **`MESSAGE`**` UNIT `*`unit id`*`"`*`text`*`"`  
-**`MESSAGE`**` PARTEI `*`faction-id`*`"`*`text`*`"`  
-**`MESSAGE`**` SCHIFF `*`ship-id`*`"`*`text`*`"`  
-**`MESSAGE`**` GEBÄUDE `*`building-id`*`"`*`text`*`"`  
-**`MESSAGE`**`REGION "`*`text`*`"`
+**`MESSAGE`**` FACTION `*`faction-id`*`"`*`text`*`"`  
+**`MESSAGE`**` SHIP `*`ship-id`*`"`*`text`*`"`  
+**`MESSAGE`**` BUILDING `*`building-id`*`"`*`text`*`"`  
+**`MESSAGE`**`REGION "`*`text`*`"`  
 
-Hiermit können Botschaften an andere Einheiten, an andere Parteien, oder an alle Parteien in einer Region geschickt werden. Absender und Empfänger müssen in der selben Region sein. Schickt man eine Botschaft an eine Einheit, dann wird die Botschaft anonymisiert, wenn der Empfänger die absendende Einheit nicht sehen kann.
+This can be used to send messages to other units, to other factions, or to all factions in a region.
+The sender and recipient must be in the same region. If you send a message to a unit, the message is anonymized if the recipient cannot see the sending unit.
 
-Mit `MESSAGE GEBÄUDE` und `MESSAGE SCHIFF` geht die Botschaft an alle Einheiten, die in dem Gebäude bzw. auf dem Schiff sind, allerdings nur eine Einheit pro Partei.
+With `MESSAGE BUILDING` and `MESSAGE SHIP` the message goes to all units in the building or on the ship, but for only one unit per faction.
 
-Wie alle anderen Texte auch, kann die Botschaft mit dem \\ (Backslash) umgebrochen werden.
+Like all other texts, \ (backslash) can be used in the message !
 
-       MESSAGE UNIT z14 "Zahlt sofort je 100 Silver an Jonan \
-       den Zöllner (9i6), sonst werden unsere Wachen sich \
-       um euch kümmern!"
+```text
+MESSAGE UNIT z14 "Immediately pay Johan the tax collector (9i6) 100 Silver each, \
+otherwise our guards will be\
+take care of you!"
+```
 
 <!-- From [https://wiki.eressea.de/index.php?title=MESSAGE&oldid=5960] -->

@@ -6,51 +6,55 @@ alias: cmd-reserve-fr
 
 **`RESERVE`**` `*`number`*` `*`gegenstand`*  
 **`RESERVE`**` ALLES `*`gegenstand`*  
-**`RESERVE`**` JE `*`number`*` `*`gegenstand`*
+**`RESERVE`**` EACH `*`number`*` `*`gegenstand`*
 
-Hiermit kann sich eine Einheit Gegenstände oder Silver von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber [Materialpool]!).
+**`RESERVE`**` `*`number`*` `*`Item`*  
+**`RESERVE`**` ALL `*`Item`*  
+**`RESERVE`**` EACH `*`number`*` `*`Item`*  
 
-Mit `RESERVE ALLES`*`gegenstand`* reserviert eine Einheit von dem angegebenen Gegenstand alles, was sie besitzt.
+This allows a unit to take and “save” items or silver from other units in the region.
+It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (but see [[items-pool]]!).
 
-Mit `RESERVE JE` werden *`number`* Gegenstände *pro Person* reserviert.
+With`RESERVE ALL`` `*`Item`*A unit reserves everything it owns from the specified item.
 
-    RESERVE JE 100 Silver
+With `RESERVE EACH`` `*`number`*` `*`Item`*, *`number`* items **per person** are reserved.
 
-reserviert bei einer Einheit mit 10 Personen also 1000 Silver.
+```text
+RESERVE EACH 100 Silver
+```
 
-## Fehlerquellen
+## Sources d'erreur
 
-- `TEMP`-Einheiten können nicht reservieren! Silver wie Gegenstände müssen ihnen mit [[cmd-give]] übergeben werden.
-- `RESERVE` kommt vor [[cmd-give]][`GIVE`] und [[cmd-recruit]] in der [Befehlsreihenfolge]. Also bezieht sich `JE` auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.
-- Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe [Materialpool].
-- Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.
+- `TEMP` unit cannot reserve! Silver like items must be given to them using [[cmd-give]]
+- `RESERVE` occurs [[cmd-give]] and [[cmd-recruit]] in the [[orders-sequence]]. So relates `EACH` on the number of people before handover and recruitment
+- If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see [[items-pool]]
+- If the same item is reserved by a unit several times, only the last entry is valid
 
-## Beispiele
+## Exemples
 
-Mit
+With:
 
-     RESERVE JE 1 Schwert
-     RESERVE JE 1 Schild
-     GIVE depo ALLES
+```text
+RESERVE EACH 1 Sword
+RESERVE EACH 1 Shield
+GIVE depo ALL
+```
 
-kann eine Einheit, auch nach einem verlustreichen Kampf, pro Person eine Waffe und einen Schild behalten und alles andere (Beute) an eine Depot-Einheit abgeben.
+A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.
 
-Mit
+With:
 
-     @RESERVE 100 Silver
-     RESERVE 1 Schwert
-     RESERVE 50 Silver
+```text
+@RESERVE 100 Silver
+RESERVE 1 Sword
+RESERVE 50 Silver
+```
 
-wird die Einheit ein Schwert und 50 Silver reservieren.
+the unit will reserve a sword and 50 silver.
 
 ## Voir aussi
 
-- [Materialpool]
-- [[cmd-give]][`GIVE`]
+- [[items-pool]]
+- [[cmd-give]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVE&oldid=14809] -->
-
-[Materialpool]: ./items-pool.md
-[`GIVE`]: ./cmd-give.md
-[RECRUIT]: ./cmd-recruit.md
-[Befehlsreihenfolge]: ./commands-sequence.md

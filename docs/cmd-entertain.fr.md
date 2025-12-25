@@ -4,26 +4,32 @@ alias: cmd-entertain-fr
 ---
 # ENTERTAIN
 
-**`ENTERTAIN`**`[`*`betrag`*`]`
+**`ENTERTAIN`**`[`*`Amount`*`]`  
 
-Die Einheit wird die Runde damit verbringen, die Bauern zu unterhalten. Pro Person und Talentstufe im Unterhalten kann man so bis zu 20 Silver verdienen. Die Bauern geben aber nur 5% ihres Geldes für Unterhaltung aus. Versuchen mehr Einheiten, die Bauern zu unterhalten, als diese bezahlen werden, so wird das Geld auf alle unterhaltenden Einheiten aufgeteilt. Gibt man einen Betrag an, so wird die Einheit maximal so viel einnehmen.
+The unit will spend the round entertaining the pawns.
+You can earn up to 20 Silver per person and skill level in entertainment.
+But the farmers only spend 5% of their money on entertainment.
+If more units try to maintain the farmers than they will pay, the money is divided among all the maintaining units.
+If you specify an amount, the unit will earn a maximum of that much.
 
-Die Bauern einer Region haben 1200 Silver. Die Unterhalter können demzufolge maximal 1200÷20=60 Silver verdienen. Betrachten wir nun zwei Einheiten: A hat 1 Person mit Unterhaltung 1, und B 2 Personen mit Unterhaltung 2. A könnte 1×1×20=20 Silver verdienen, B könnte 2×2×20=80 Silver verdienen; zusammen also 100 Silver.
+The farmers in a region have 1200 Silver.
+The entertainers can therefore earn a maximum of 1200÷20=60 Silver.
+Now let's consider two units: A has 1 person with Entertainment 1, and B has 2 people with Entertainment 2.
+A could earn 1×1×20=20 Silver, B could earn 2×2×20=80 Silver; total 100 silver.
 
-Da aber nur 60 Silver zur Verfügung stehen, werden diese 60 Silver ungefähr im Verhältnis 20:80 aufgeteilt. Einheit A bekommt also ca. 1/5 und Einheit B ca. 4/5 des vorhandenen Geldes. Das macht für A ca. 12 Silver und für B ca. 48 Silver.
+Since there are only 60 Silver available, these 60 Silver are divided approximately 20:80.
+So unit A gets about 1/5 and unit B gets about 4/5 of the available money.
+That makes around 12 Silver for A and around 48 Silver for B.
 
-Einheiten an Bord von Schiffen in bewachten Regionen können weder arbeiten noch unterhalten (siehe [[cmd-work]], [[cmd-guard]] und [[cmd-help]]).
+Units aboard ships in guarded regions cannot work or maintain (see [[cmd-work]], [[cmd-guard]] and [[cmd-help]]).
 
-Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silver den Bauern insgesamt (ausgenommen [Handel]) abgenommen werden kann, ohne dass diese abwandern. Es ist so hoch, wie die überschüssigen Einnahmen der Bauern.
+The tax collection limit of a region indicates how much silver can be taken from farmers in total (excluding [trade]) without them leaving.
+It is as high as the farmers' surplus income.
 
 ## Voir aussi
 
-- [Geld]
+- [[argent]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
 
-[`WORK`]: ./cmd-work.md
-[`GUARD`]: ./cmd-guard.md
-[`HELP`]: ./cmd-help.md
-[Handel]: ./silver.md#handel
-[Geld]: ./silver.md
+[trade]: ./silver.md#commerce

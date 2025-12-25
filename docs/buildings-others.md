@@ -4,11 +4,15 @@ alias: other-buildings
 ---
 # Other Buildings
 
-Buildings are built with the [MAKE "building type"] order and can be enlarged with [MAKE "building type" ID-building][MAKE "building type"]. Examples: MAKE [Lighthouse] or MAKE [Harbour] xyz. These buildings require a minimum level in Masonry skill, which is indicated in the table. Some buildings are of a specific size.
+Buildings are built with the [[cmd-make|`MAKE "building type"`]] order and can be enlarged with [[cmd-make|`MAKE "building type" building-id`]].  
+
+Examples:
+
+`MAKE`` `[Lighthouse] or `MAKE`` `[Harbour]` ``xyz`. These buildings require a minimum level in Masonry skill, which is indicated in the table. Some buildings are of a specific size.
 
 Here is a summarized table, more detailed explanations follow below.
 
-Building; see also table on [building castles]  
+Building; see also table on [[castles|building castles]]  
 
 The capacity refers only to the persons who can benefit from the building.  
 \*: also 2 Mallorn and 2 Laen per size point
@@ -101,7 +105,11 @@ The capacity refers only to the persons who can benefit from the building.
 - Only half of the wood/saplings/mallorn produced by units inside a sawmill is subtracted from the supply in the region. This number is rounded up (i.e. if a unit, in a sawmill, makes 11 woods, 6 trees are cut).
 - Units inside a sawmill get a +1 modifier to their forestry skill.
 
-**Example:** With [water of life] you can create wood with a sawmill. With [USE 1 water~of~life] you can create 10 saplings using 10 wood. You can then immediately cut them with a sawmill, producing 20 wood.
+**Example:**
+
+With [[alchemy|water of life]] you can create wood with a sawmill.
+With [[cmd-use|USE 1 "water of life"]] you can create 10 saplings using 10 wood.
+You can then immediately cut them with a sawmill, producing 20 wood.
 
 ## Smithy
 
@@ -113,7 +121,7 @@ The capacity refers only to the persons who can benefit from the building.
 | Maximum size:            | none                                |
 | Capacity:                | 1 person per 1 size                 |
 
-- Units only need half the normal amount of iron to make iron weapons and armour. Laen is not saved.
+- Units only need half the normal amount of iron to make iron weapons and armor. Laen is not saved.
 - Units inside a smithy receive a +1 modifier to their weaponsmithing and armoursmithing skills.
 
 ## Stable
@@ -126,7 +134,7 @@ The capacity refers only to the persons who can benefit from the building.
 | Maximum size:            | none                                |
 | Capacity:                | 1 person per 1 size                 |
 
-- Units inside a stable can reproduce horses by using the order [[cmd-grow]] HORSES. For this the unit needs the skill Taming and at least 2 horses (in its possession).
+- Units inside a stable can reproduce horses by using the order [[cmd-grow|`GROW HORSES`]]. For this the unit needs the skill Taming and at least 2 horses (in its possession).
 - The chance to breed horses corresponds to the unit's skill. In addition, the unit has several attempts according to his skill. If a unit is T5, he has 5 attempts at 5% each to breed a horse.
 - For each breeding attempt, the unit needs one horse. If not enough horses are available, the attempts are forfeited.
 
@@ -143,7 +151,7 @@ The capacity refers only to the persons who can benefit from the building.
 
 - Allows ships larger than a boat to land in regions which are not plains or forests.
 - A region with a harbour can be used as a "canal region", i.e., a ship in the harbour can sail away in any direction with an ocean.
-- In both cases, the prerequisite is that the harbour owner is a member of the same faction or has [HELP GUARD] set to the captain's faction.
+- In both cases, the prerequisite is that the harbour owner is a member of the same faction or has [[cmd-help|`HELP GUARD`]] set to the captain's faction.
 - The owner of the harbour receives 10% of all the silver earned through trade, in addition to the possible income through castles.
 - The owner also receives (2 \* trade)% of all luxury items which are on board of incoming ships. Unless the unit which carries the goods has a hiding level higher than the harbour master's perception level or the ship's captain is allied with the harbour owner.
 - In a region with a harbour, the prices of goods will increase with a probability of 20% instead of the normal 10%.
@@ -270,13 +278,12 @@ The capacity refers only to the persons who can benefit from the building.
 
 ## See also
 
-- [Buildings]
-- [Castles]
-- [Production]
+- [[buildings]]
+- [[castles]]
+- [[production]]
 
-Continue reading: [Faction Pool].
+Continue reading: [[faction-pool]].
 
-[building castles]: ./castles.md
 [Lighthouse]: #lighthouse
 [Mine]: #mine
 [Quarry]: #quarry
@@ -292,15 +299,6 @@ Continue reading: [Faction Pool].
 [Inn]: #inn
 [Monument]: #monument
 [Stonecircle]: #stonecircle
-[water of life]: ./alchemy.md
-[USE 1 water~of~life]: ./cmd-use.md
-[GROW]: ./cmd-grow.md
-[HELP GUARD]: ./cmd-help.md
-[DESTROY]: ./cmd-destroy.md
+
 [castle rules table]: ./castles.md#overview
 [powerful spell]: ./spells-descriptions.md#segne-steinkreis
-[Buildings]: ./buildings.md
-[Castles]: ./castles.md
-[Production]: ./production.md
-[Faction Pool]: ./faction-pool.md
-[MAKE "building type"]: ./cmd-make.md

@@ -4,14 +4,15 @@ alias: cmd-prefix-fr
 ---
 # PREFIX
 
-**`PREFIX`**`[`*`präfix`*`]`
+**`PREFIX`**`[`*`präfix`*`]`  
 
-Mit dem `PREFIX`-Befehl kann den Rassenbezeichnungen der Einheiten seiner Partei im Report ein Präfix geben. Das Präfix hat keine weiteren Auswirkungen. Ohne Parameter löscht der Befehl ein bestehendes Präfix.
+With that `PREFIX` order can prefix the racial designations of his faction's units in the report.
+The prefix has no further effect.
+Without parameters, the order deletes an existing prefix.
 
-Zur Zeit mögliche Präfixe sind *Dunkel, Licht, Klein, Hoch, Hügel, Berg, Wald, Sumpf, Schnee, Sonnen, Mond, See, Tal, Schatten, Höhlen, Blut, Wild, Chaos, Nacht, Nebel, Grau, Frost, Finster, Düster*.
+Currently possible prefixes are *Dark, light, small, high, hill, mountain, forest, swamp, snow, sun, moon, lake, valley, shadow, cave, blood, wild, chaos, night, fog, gray, frost, dark, gloomy*.
 
-Der Befehl kann sowohl im Kontext der gesamten Partei als auch im Gruppenkontext benutzt werden. Es ist also möglich, jeder [Gruppe] in einer Partei ein eigenes Präfix zu geben.
+The order can be used both in the context of the entire faction and in the context of a group.
+So it is possible to give each [[cmd-group|group]] in a faction its own prefix.
 
 <!-- From [https://wiki.eressea.de/index.php?title=PREFIX&oldid=5733] -->
-
-[Gruppe]: ./cmd-group.md

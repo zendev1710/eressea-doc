@@ -2,61 +2,62 @@
 # cSpell:locale fr, en
 alias: cmd-comment-fr
 ---
-# COMMENTAIRE (;)
+# Commentaire (;)
 
-Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silvervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
+The semicolon “;” is used in Eressea orders to mark (temporary) comments.
+Some of these comments are inserted "automatically".
+For example, the standard [[orders|orders template]] always contains the names of regions and units, the number of people and their silver supply as a comment.
+In addition, comments are also used to provide the [[echeck]] program with certain information, such as wages in a region.
 
 ```text
-    ERESSEA abcd "hier_passwort_eintragen"
+    ERESSEA abcd "Enter password here"
 
     ; ECHECK -l -w4 -r90 -v4.01
 
-    REGION 85,-48 ; Dunkelland
-      ; ECheck Lohn 15
+    REGION 85,-48 ; Darkland
+      ; ECheck Salary 15
 
-    UNIT ub2;    Handwerker [3,30$]
-        LERNEN Holzfällen
-        // LERNEN Schiffbau AUF T2 oder 3
+    UNIT ub2;    Handyman [3,30$]
+        LEARN forestry
+        // LEARN Shipbuilding AT T2 or T3
 ```
 
-Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
+If you use the [[vorlage]] program to create an orders template, a variety of information is transmitted to the player via these comments:
 
 ```text
-    REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silver)
-    ; ECheck Lohn 15
-    ;  . .  |Bauern:       8534 +9|Silver: 47588297 +48400|Unterhalt: 2379414 +2420|
-    ; . E w |Rekruten:      213 +0|Pferde:     2532     -8|Gewinn:      51204   +54|
-    ;  . .  |Pl. frei:     1466 -9|                       |                        |
-    ;       |Gewürz:        125 +0|Juwel:       175     +0|Myrrhe:        125    +0|
-    ;       |Öl:             75 +0|Seide:       150     +0|Weihrauch:     100    +0|
-    ; Prod.: Balsam:     -4   +0    max. handelbar: 85
-    ; Straße (100%) in Osten
-    ; Regionseinnahmen:  2660 Silver
-    ; Nahrungskosten:    2900 Silver
-    ; Materialpool: 4270 Silver, 1 Speer
+    REGION 85,-48 ; Darkland (Plain, 290 people, $4270 Silver)
+    ; ECheck Salary 15
+    ;  . .  |Farms: 8534 +9|Silver: 47588297 +48400|Upkeep: 2379414 +2420|
+    ; . E w |Recruits: 213 +0|Horses: 2532 -8|Profit: 51204 +54|
+    ;  . .  |pl. free: 1466 -9|                       |                        |
+    ;       |Spice: 125 +0|Jewel: 175 +0|Myrrh: 125 +0|
+    ;       |Oil: 75 +0|Silk: 150 +0|Incense: 100 +0|
+    ; Prod.: Balm: -4 +0 max. tradeable: 85
+    ; Street (100%) to the east
+    ; Region income: 2660 Silver
+    ; Food costs:    2900 Silver
+    ; Material pool: 4270 Silver, 1 Speer
 
     ; -   -   -   -   -   -   -   -   -   -   -   -
-    ; Auf freiem Feld:
+    ; In an open field:
 
-     UNIT ub2;  Handwerker [3,0$] flieht
-     ; Gew: 60.00GE  Gehen: 32.40GE/32.40GE
-     ; Holzfällen 2
-        LERNEN Holzfällen
-        // LERNEN Holzfällen AUF T3
+     UNIT ub2;  Handyman [3,0$] flieht
+     ; Weight: 60.00GE Walking: 32.40GE/32.40GE
+     ; Forestry 2
+       LEARN Forestry
+       // LEARN Forestry On T3
 ```
 
-Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen. Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [//] in der Regel sinnvoller.
+The player himself can also insert comments after a semicolon.
+However, since these comments are not included in next week's template, permanent comments after [[cmd-comment-slash|//]] usually make more sense.
 
-Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden. Dies erledigen manche Tools wie \[\[Magellan\] oder VPP.
+To save transmission capacity, temporary comments can be removed before sending the orders.
+Some tools do this, like [[magellan]] or VPP.
 
 ## Liens externes
 
-- [Vorlage und VPP auf Gulrak.de]
+- [Vorlage and VPP on Gulrak.de]
 
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
-  [Zugvorlage]: ./commands.md
-  [ECheck]: ./echeck.md
-  [`Vorlage`]: ./vorlage.md
-  [//]: ./cmd-comment-slash.md
-  [Vorlage und VPP auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+[Vorlage and VPP on Gulrak.de]: http://www.gulrak.de/eressea/tools.html

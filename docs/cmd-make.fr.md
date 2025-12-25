@@ -11,121 +11,114 @@
 **`MAKE`**`[`*`quantité`*`] HERBS`  
 **`MAKE`**`[`*`quantité`*`]`*`objet`*  
 
-La commande `MAKE` est la commande de production générale. Pour en savoir plus, voir le chapitre [production].
+L'ordre `MAKE` est l'ordre de production général. Pour en savoir plus, voir le chapitre [[production]].
 
 ## Objets
 
-[Gegenstände] und [Rohstoffe] werden mit `MAKE [`*`number`*`]`*`gegenstand`*` ` hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von *anzahl* wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.
+[[items]] and [[resources|raw materials]] are created with `MAKE [`*`number`*`]`*`item`*` `. Depending on the item, a certain skill and perhaps also certain raw materials are required. Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.
 
-### Tränke
+### Potions
 
-Das Herstellen eines Trankes ist sehr aufwendig und kann nur von besonders talentierten Alchemisten durchgeführt werden. Details dazu findest du im [Alchemie-Kapitel].
+Creating a potion is very complex and can only be done by particularly talented alchemists. Details can be found in the [[alchemy|Alchemy chapter]].
 
-### Kräuter
+### Plantes
 
-Kräuter werden mit dem Befehl `MAKE HERBS` von Einheiten mit dem Talent [Kräuterkunde] hergestellt. Details dazu im Kapitel über [Kräuter].
+Herbs are produced with the `MAKE HERBS` order by units with the [herbalism] skill. For details, see the chapter on [[herbs]].
 
-## Einheiten
+## Unités
 
-Wenn du eine neue Einheit erschaffst (`MAKE TEMP xy`), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel `GIVE TEMP xy 100 Silver`). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID *TEMP xy* haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.
+When you create a new unit (`MAKE TEMP xy`), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example `GIVE TEMP xy 100 silver`). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID *TEMP xy*, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.
 
-Die Alias-Nummer wird als Nummer der Einheit benutzt, wenn diese noch nicht belegt ist. Ebenso kannst du schon hier einen Namen der Einheit angeben. So lassen sich die Befehle
+The alias number will be used as the new number of the unit if it is not taken. You can also assign a name to the new unit. The orders
 
+```text
 MAKE TEMP 1
+    NAME UNIT "Clowns"
+    NUMBER UNIT funy
+```
 
-        NAME UNIT "Clowns"
-        NUMBER UNIT lach
+can be shortened to :
 
-verkürzen auf
+```text
+MAKE TEMP funy "Clowns"
+```
 
-MAKE TEMP lach "Clowns"
+A maximum of 2500 units are allowed per party. If the party has 2500 or more units, no new units can be created with `MAKE TEMP`; other units must first be deleted, e.g. by merging them. As the deletion of empty units comes at the end of the command sequence, new TEMP units can only be created in the following week.
 
-Pro Partei sind maximal 2500 Einheiten erlaubt. Hat die Partei 2500 oder mehr Einheiten, so können mit `MAKE TEMP` keine neuen Einheiten geschaffen werden, es müssen erst andere Einheiten z.B. durch Zusammenfassen gelöscht werden. Da das Auflösen leerer Einheiten in der Befehlsreihenfolge weit hinten kommt, können neue TEMP-Einheiten erst in der folgenden Woche geschaffen werden.
+The orders following the MAKE TEMP order are assigned to the new unit up to the END order.
 
-Nach diesem Befehl werden die Befehle für die neue Einheit angegeben, bis der Befehl END folgt.
+However, the new unit must still have members, otherwise it will be silently deleted at the end of the round! It must therefore recruit or be given people. If the new unit is to recruit new members, it must also receive enough money to do so. If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week. If the unit receives money but does not recruit any members, it is also disbanded and the money falls to [other units of their own faction].
 
-Die neue Einheit muss allerdings noch Mitglieder bekommen, sonst wird sie stillschweigend am Ende der Runde wieder gelöscht! Sie muss also rekrutieren oder Personen übergeben bekommen. Wenn die neue Einheit Mitglieder neu rekrutieren soll, muss sie auch genug Geld dafür erhalten. Erhält sie das nicht, wird die Einheit niemanden rekrutieren können und am Ende der Woche stillschweigend entfernt werden. Bekommt die Einheit Geld, rekrutiert aber keine Mitglieder, löst sie sich ebenfalls auf und das Geld fällt [wieder einer Einheit der eigenen Partei zu].
+```text
+UNIT 17;       Fighters [15,700$]
+MAKE TEMP 1
+   NAME UNIT "dragon riders"
+   LEARN melee
+END
+GIVE TEMP 1 5 MEN
+ 
+GIVE TEMP 2 100 silver
+MAKE TEMP 2
+   RECRUIT 1
+   NAME UNIT "scouts"
+   DEFAULT "LEARN perception"
+   MOVE west
+END
+```
 
-UNIT 17; Kämpfer \[15,700$\]
+## Bâtiments
 
-     MAKE TEMP 1
-        NAME UNIT "Drachenreiter"
-        LEARN Hiebwaffen
-     END
-     GIVE TEMP 1 5 MEN
-      
-     GIVE TEMP 2 100 Silver
-     MAKE TEMP 2
-        RECRUIT 1
-        NAME UNIT "Späher"
-        DEFAULT "LEARN Wahrnehmung"
-        MOVE Westen
-     END
+To erect a new building, use the order `MAKE [`*`levels`*`]`*`building_type`* (see [[buildings]]). To continue building, the order is `MAKE [levels]`*`building_type`*` `*`building_id`*. The *building type* can also be replaced by CASTLE when continuing to build, even if it is a different type of building.
 
-## Gebäude
+Castles and many other buildings can be enlarged as much as you want. In order to build castles, the unit must have the masonry skill and stones; other buildings usually also require wood, iron, and silver in various quantities.
 
-Um ein neues Gebäude zu errichten, verwendest du *`MAKE`*`[`*`level`*`]`*`Gebäudetyp`* (siehe [Gebäude]). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür *`MAKE`*`[`*`level`*`]`*`Gebäudetyp`*` `*`building-id`*. Der *Gebäudetyp* kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silver in verschiedenen Mengen.
+## Bâteaux
 
-## Schiffe
+With `MAKE`*`ship_type`* a unit starts building a new [[ships|ship]]. This requires the shipcraft skill and wood. It can continue building with `MAKE [`*`levels`*`] SHIP`*`ship-nr`*. Ships cannot be expanded like castles; the type is determined at the start of construction. Ships can only be built up to the size specified by their type.
 
-Mit `MAKE`*`schiffstyp`* beginnt eine Einheit, ein neues [Schiff] zu bauen. Dazu muss sie das Talent Schiffbau und Holz haben. Mit `MAKE [`*`stufe`*`] SHIP`*`ship-id`* kann sie daran weiterbauen. Schiffe können nicht wie Burgen erweitert werden, sondern der Typ wird bei Baubeginn festgelegt. An Schiffen kann nur bis zu der durch den Typ festgelegten Größe weiter gebaut werden.
+With buildings as well as ships you can specify with *levels* how many size points you would like to add to the ship.
 
-Sowohl bei Gebäuden als auch bei Schiffen kannst du mit *stufen* angeben, wie viele Stufen du das Gebäude bzw. Schiff bauen / erweitern willst.
+- first week: `MAKE longboat`  
+  A new ship is constructed and gets the number 76 from the server.
+- second week: `MAKE SHIP 76`  
+  Continue building the ship with the number 76.
 
-- erste Woche: `MAKE LANGBOOT`  
-  Ein neues Schiff wird gebaut und bekommt vom Computer die Nummer 76.
-- zweite Woche: `MAKE SHIP 76`  
-  An Schiff Nr. 76 wird nun weiter gebaut.
+## Routes
 
-## Straßen
+To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*. To build [[roads]], the unit needs the skill [roadwork] and [[items|stones]]. In glaciers, it needs a [tunnel] beforehand, in deserts a [caravanserai] and in swamps a [dam]. One stone is used per skill point of road construction. Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]]. Roads only work if they are complete.
 
-Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MAKE STREET`*`direction`*. Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau] und [Steine][Gegenstände]. In Gletschern benötigt sie dazu vorher einen [Tunnel], in Wüsten eine [Karawanserei] und in Sümpfen einen [Damm]. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten]. Straßen funktionieren nur wenn sie vollständig sind.
+Player experience: Solthar Except when erecting a new building you can exchange the type in MAKE type xyz with BURG or any other building type.
 
-Expérience de jeu : Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MAKE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.
+`MAKE type` or `MAKE SHIP` without further parameters is currently continuing construction on the building or ship in which the unit is currently located. **Attention:** If the unit is in a building, MAKE lighthouse does not start a new building, but continues building on the old one.
 
-`MAKE gebäudetyp` bzw. `MAKE SHIP` ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet. **Achtung:** Falls sich die Einheit in einem Gebäude befindet, fängt MAKE Leuchtturm *kein neues* Gebäude an, sondern baut an dem alten weiter.
+## Exemples
 
-## Beispiele
-
-MAKE 5 Schwert ; stellt (maximal) 5 Schwerter her
-
-     MAKE Wasser~des~Lebens ; stellt so viel von dem Trank her, wie Talent und Material zulassen
-     MAKE HERBS
-     
-     LEAVE
-     MAKE Leuchtturm ; fängt einen neuen Leuchtturm an
-     MAKE Leuchtturm xyz ; baut am Leuchtturm xyz weiter
-     
-     LEAVE
-     MAKE BURG xyz ; baut am Gebäude xyz weiter (egal welcher Gebäudetyp xyz ist)
-     MAKE 5 Trireme ; fängt eine neue Trireme an
-     MAKE SHIP abc ; baut an Schiff abc weiter
-     
-     MAKE STREET SO ; baut an der Straße nach Südosten weiter
-     
-     MAKE Trireme abc ; falsch: fängt neue Trireme an
-     MAKE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
+```text
+MAKE 5 sword ; produces 5 swords (at most)
+MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
+MAKE HERBS
+LEAVE
+MAKE lighthouse ; starts building a new lighthouse
+MAKE lighthouse xyz ; expands the lighthouse xyz
+LEAVE
+MAKE CASTLE xyz ; continues building on xyz (of whatever building type)
+MAKE 5 Trireme ; starts a new trireme
+MAKE SHIP abc ; continues building the ship abc
+MAKE ROAD SE ; continues or starts building the road towards the south-east
+MAKE Trireme abc ; wrong: starts a new trireme
+MAKE building xyz ; wrong: only CASTLE or building type is allowed
+```
 
 ## Voir aussi
 
-- [Produktion][production]
-- [Alchemie]
+- [[production]]
+- [[alchimie|Alchimie]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->
 
-[production]: ./production.md
-[Gegenstände]: ./items.md
-[Rohstoffe]: ./resources.md
-[Alchemie-Kapitel]: ./skills-list.md
-[Kräuterkunde]: ./herbs.md
-[Kräuter]: ./herbs.md
-[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten
-[Gebäude]: ./buildings.md
-[Schiff]: ./ships.md
-[Straßen]: ./roads.md
-[Geländearten]: ./terrains.md
-[Alchemie]: ./alchemy.md
-[Straßenbau]: ./skills-list.md#roadwork
-[Tunnel]: ./buildings-others.md#tunnel
-[Karawanserei]: ./buildings-others.md#caravanserail
-[Damm]: ./buildings-others.md#barrage
+[herbalism]: ./skills-list.md#herboristerie
+[other units of their own faction]: ./factions.md#dissolution-des-unites
+[roadwork]: ./skills-list.md#construction-de-routes
+[tunnel]: ./buildings-others.md#tunnel
+[caravanserai]: ./buildings-others.md#caravanserail
+[dam]: ./buildings-others.md#barrage

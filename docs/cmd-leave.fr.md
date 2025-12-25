@@ -4,20 +4,24 @@ alias: cmd-leave-fr
 ---
 # LEAVE
 
-**`LEAVE`**
+**`LEAVE`**  
 
-Die Einheit wird das Schiff oder das Gebäude, in dem sie sich befindet, verlassen. Wenn man die Befehle [[cmd-enter]] oder [[cmd-move]] verwendet, verlassen die Einheiten z.T. automatisch ihre Schiffe und Gebäude. Dies funktioniert allerdings nicht immer: ist die Einheit Kapitän eines Schiffs und verwendet MOVE, wird sie versuchen in diese Richtung zu segeln, auch wenn dort Festland ist. Kapitäne müssen ihr Schiff zuerst `VERLASSEN`, alle anderen Segler können sich aber mit `MOVE` über Land bewegen und verlassen das Schiff dabei automatisch.
+The unit will abandon the ship or the building in which it is located.
+If you use the [[cmd-enter]] or [[cmd-move]] orders, the units will sometimes automatically leave their ships and buildings.
+However, this doesn't always work: if the unit is the captain of a ship and uses MOVE, it will attempt to sail in that direction, even if there is land there.
+Captains must first 'LEAVE' their ship, but all other sailors can use 'MOVE' to move over land and automatically leave the ship.
 
-**[E3A — Das Dritte Zeitalter]**
+If a unit leaves a building or a ship over which it has command, this does not necessarily pass to the following unit in the report.
+Here you should use [[cmd-give|`GIVE unit-id COMMAND`]] let the handover of command take place in a controlled manner.
+The order of the units during the evaluation is not always that of the report.
+If your own units are in the building or on the ship, the order falls to them.
 
-Gebäudebesitzer müssen ebenfalls das Gebäude `VERLASSEN` oder das Kommando abgeben, um sich zu Bewegen oder ein anderes Gebäude oder Schiff zu betreten.
-
-Verläßt eine Einheit ein Gebäude oder ein Schiff, über das sie das Kommando hat, fällt dieses nicht zwangsweise an die folgende Einheit des Reports. Hier sollte man mit [`GIVE unit-id KOMMANDO`] die Kommando-Übergabe kontrolliert vonstatten gehen lassen. Die Reihenfolge der Einheiten ist während der Auswertung nicht immer die dem Report entsprechende. Sind eigene Einheiten in dem Gebäude oder auf dem Schiff, fällt das Kommando aber diesen zu.
-
-Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-alliierten Partei bewacht, muss sie das Schiff erst verlassen, wenn sie bestimmte Aktionen durchführen will. Siehe hierzu Näheres unter [[cmd-guard]]. Auf offener See funktioniert der Verlasse-Befehl nicht. Eine Möglichkeit um Personen trotzdem über Bord springen zu lassen ist "Gib 0 \[Anzahl\] Personen". Eine andere, nur für Meermenschen bereitstehende Lösung, bei der die Personen nicht umkommen, ist das [Anschwimmen].
+If the unit is on a ship and the region is guarded by a non-allied faction, it must first leave the ship if it wants to carry out certain actions.
+For more information, see [[cmd-guard]].
+The leave order does not work on the open sea.
+One way to still let people jump overboard is "Give 0[number]People".
+Another Aquarian-only solution that doesn't kill people is [swimming].
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
 
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md
-[`GIVE unit-id KOMMANDO`]: ./cmd-give.md
-[Anschwimmen]./travel.md#anschwimmen
+[swimming]: ./sailing.md#nager

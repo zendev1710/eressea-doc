@@ -43,8 +43,8 @@ You give the order explicitly `GIVE`*`unit-id`*`ALL MEN`, all people are handed 
     All items and silver that come with `GIVE` have been handed over, are automatically reserved and can no longer be passed on from the material pool!
     Also `GIVE` uses the [[items-pool]], except in the context of GIVE EVERYTHING, where the unit only gives its own, unreserved items.
 
-The variant `GIVE xyz JE` hands over *number* items per person in the target unit.
-For example, if the unit xyz has 10 people, with `GIVE xyz JE 20 Silver` order, it transfers her 200 Silver.
+The variant `GIVE xyz EACH` hands over *number* items per person in the target unit.
+For example, if the unit xyz has 10 people, with `GIVE xyz EACH 20 Silver` order, it transfers her 200 Silver.
 
 !!! tip
     With `@GIVE` you can set up automatic transfers.

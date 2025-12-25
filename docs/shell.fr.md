@@ -4,12 +4,17 @@ alias: coquillage
 ---
 # Coquillage
 
-Muschelplateau wurde als Botschafterregion des "Rat von Podina" im Norden der 10. Welt gegründet. Später, als die "Allianz der Inseln" entstand, legten die Mitglieder fest, dass diese Region auch die Botschafterregion der AdI ist.
+<!-- TODO: translate in french -->
+Shell Plateau was founded as an ambassadorial region of the "Council of Podina" in the north of the 10th world.
+Later, when the "Alliance of the Islands" was formed, the members stipulated that this region would also be the ambassador region of the AdI.
 
-Die Völker der AdI, allen voran die Talinster und Woda'narod, sammelten auf ihren Reisen Botschafter verschiedener Völker ein und brachten diese nach Muschelplateau. Im Verlauf der Zeit erreichten auch unabhängig davon Botschafter vieler Völker die Region. Etwa 60 (oder mehr) Völker hatten zur besten Zeit ihre Vertreter in dieser Region.
+The peoples of the AdI, especially the Talinster and Woda'narod, collected ambassadors from different peoples on their travels and brought them to Shell Plateau.
+Over time, ambassadors from many peoples reached the region independently.
+At the best of times, around 60 (or more) peoples had their representatives in this region.
 
-Die Götter schufen die Muschel (Woche 453, letzte Woche des Monats Sonnenfeuer im Jahre 10 des zweiten Zeitalters, *11. Dezember 2005*), welche jedes Volk bekommt, dass die Botschafterregion Muschelplateau erstmalig betritt.
+The gods created the shell (week 453, last week of the month of Sunfire in the year 10 of the Second Age,*December 11, 2005*), which is given to every nation that enters the Shell Plateau ambassador region for the first time.
 
-Die Muschel wiegt im Material-Bestand einer Person 0 kg. Bei Benutzung wird eine Regionsmeldung erzeugt in welcher der Benutzer den Regionsbewohnern von Muschelplateau berichtet und vor wie vielen Wochen er das erstemal dort gewesen ist.
+The shell weighs 0 kg in a person's material inventory.
+When used, a region report is generated in which the user reports to the region's residents of Muschelplateau and how many weeks ago he was there for the first time.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Muschel&oldid=7360] -->

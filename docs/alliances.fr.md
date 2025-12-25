@@ -28,15 +28,15 @@ Aide la faction alliée en [soutenant] ses unités s'il te reste de l'argent apr
 
 ## `HELP GUARD`
 
-Lève toutes les restrictions de [[cmd-guard]] et étend certaines fonctions utiles à la faction ciblée : normalement, les factions de garde empêchent les autres factions de [lever des impôts], de [recruter] ou de [produire] des ressources limitées, et il arrive que certaines unités soient empêchées de [traverser][`GUARD`] ta région. Si ce statut d'assistance est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.
+Lève toutes les restrictions de [[cmd-guard]] et étend certaines fonctions utiles à la faction ciblée : normalement, les factions de garde empêchent les autres factions de [[argent|lever des impôts]], de [recruter] ou de [[ressources|produire]] des ressources limitées, et il arrive que certaines unités soient empêchées de [[cmd-guard|traverser]] ta région. Si ce statut d'assistance est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.
 
 De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats] si tu défends la région.
 
-Enfin, les unités de la faction alliée peuvent [entrer] dans tes bâtiments et sur tes bateaux.
+Enfin, les unités de la faction alliée peuvent [[cmd-enter|entrer]] dans tes bâtiments et sur tes bateaux.
 
 ## `HELP FACTIONSTEALTH`
 
-Si tu déguises tes unités avec [`HIDE FACTION NUMBER <faction>`] comme appartenant à une autre faction, les factions auxquelles tu as donné ce statut d'aide peuvent voir que ces unités camouflées appartiennent en réalité à ta faction.
+Si tu déguises tes unités avec [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] comme appartenant à une autre faction, les factions auxquelles tu as donné ce statut d'aide peuvent voir que ces unités camouflées appartiennent en réalité à ta faction.
 
 ## `HELP ALL`
 
@@ -48,18 +48,10 @@ Cela englobe dans un seul ordre tous les types d'alliance qui peuvent être nou�
 - [[cmd-guard]]
 - [[cmd-contact]]
 
-Poursuivre la lecture : [magic].
+Poursuivre la lecture : [[magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 
-<!-- -->
-[magic]: ./magic.md
 [soutenant]: ./silver.md#frais-dentretien
-[`GUARD`]: ./cmd-guard.md
-[lever des impôts]: ./silver.md
 [recruter]: ./silver.md#recruiting
-[produire]: ./resources.md
 [après les combats]: ./war.md#fin-du-combat
-[entrer]: ./cmd-enter.md
-[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md
-<!-- -->

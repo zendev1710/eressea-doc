@@ -4,33 +4,36 @@ alias: cmd-password
 ---
 # PASSWORD
 
-**`PASSWORD`**`["neues-passwort"]`
+**`PASSWORD`**`["new-password"]`  
 
-Dies setzt das Passwort neu. Man muß es von der nächsten Befehlsdatei an immer mit dem Befehl [[cmd-eressea]] zusammen verwenden. Erlaubt sind im Passwort nur Buchstaben und Ziffern. Enthält es unzulässige Zeichen, so werden diese durch zufällige erlaubte zeichen ersetzt. `PASSWORD` ohne Parameter setzt ein zufällig erzeugtes Passwort.
+This resets the password.
+You must always use it together with the [[cmd-eressea]] order from the next orders file onwards.
+Only letters and numbers are allowed in the password.
+If it contains illegal characters, these will be replaced by random allowed characters.
+`PASSWORD` without parameters sets a randomly generated password.
 
-Am Anfang wird jeder Partei ein zufälliges Passwort zugeordnet.
+At the beginning, each faction is assigned a random password.
 
-Beispiel:
+Example:
 
-    ; in der zweiten Woche des Monats Herdfeuer
-    ERESSEA 11 "AltesPasswort"
-      PASSWORD "Falsch" ; kein Effekt
-       UNIT 75
-         PASSWORD "MoftZga" ; das gilt ab nächster Runde!
-         [...]
+```text
+; in the second week of the month hearth fire
+ERESSEA 11 "OldPassword"
+PASSWORD "Incorrect" ; no effect
+UNIT 75
+    PASSWORD "MoftZga" ; That applies from the next round!
+    [...]
         
-        
-    ; in der letzten Woche des Monats Herdfeuer
-    ERESSEA 11 "MoftZga"
-      [...]
+; in the last week of the month hearth fire
+ERESSEA 11 "MoftZga"
+[...]
+```
 
-Vorsicht:
+Caution:
 
-- Das Passwort ist die einzige Stelle in der Befehlsdatei, bei der Groß- und Kleinschreibung berücksichtigt wird.
-- Das Passwort muss von einer Einheit gesetzt werden.
-- Für die jeweilige Befehlsdatei gilt immer das Passwort, welches auch im letzten Zug galt, oder dasjenige, welches im letzten Zug neu gesetzt wurde. Das Passwort vom letzten Zug gilt auch dann noch, wenn für den jetzigen Zug mehrere Befehlsdateien eingeschickt wurden, in denen unterschiedliche Passwörter gesetzt wurden.
-- Das Passwort wurde nur dann erfolgreich neu gesetzt, wenn auch die entsprechende Meldung in der Auswertung stand: `Das Passwort wurde auf "blabla" geändert`.
+- The password is the only place in the orders file that is case sensitive
+- The password must be set by a unit
+- The password that was valid in the last turn or the one that was set in the last turn always applies to the respective orders file. The password from the last train is still valid even if several orders files were sent in for the current train in which different passwords were set
+- The password was only successfully reset if the corresponding message was also included in the evaluation: "The password was changed to "blabla"
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->
-
-[`ERESSEA`]: ./cmd-eressea.md

@@ -55,10 +55,10 @@ Short list of orders.
 | [`GIVE <unit id> herb`]                         | Gives a unit all herbs                     | [S]     |
 | [`GIVE <unit id> KOMMANDO`]                     | Hands over command of ship/building        | [S]     |
 | [`GIVE <unit id> UNIT`]                         | Transfers unit to foreign faction          | [S]     |
-| [`GIVE <unit id> [JE] <number> MEN`]        | Hands over people                          | [S]     |
-| [`GIVE <unit id> [JE] <number> SHIP`]           | Passes SHIP to form convoys                | [S]     |
-| [`GIVE <unit id> [JE] <number> SILVER`]         | Hands over silver                          | [S]     |
-| [`GIVE <unit id> [JE] <number> <item>`]         | Hands over items                           | [S]     |
+| [`GIVE <unit id> [EACH] <number> MEN`]        | Hands over people                          | [S]     |
+| [`GIVE <unit id> [EACH] <number> SHIP`]           | Passes SHIP to form convoys                | [S]     |
+| [`GIVE <unit id> [EACH] <number> SILVER`]         | Hands over silver                          | [S]     |
+| [`GIVE <unit id> [EACH] <number> <item>`]         | Hands over items                           | [S]     |
 | [`GIVE 0 <number> SILVER`]                      | Gives items to the farmers                 | [S]     |
 | [`GIVE 0 <number> MEN`]                     |                                            | [S]     |
 | [`GIVE 0 <number> <item>`]                      |                                            | [S]     |
@@ -193,10 +193,10 @@ Short list of orders.
 [`GIVE <unit id> herb`]: ./cmd-give.md
 [`GIVE <unit id> KOMMANDO`]: ./cmd-give.md
 [`GIVE <unit id> UNIT`]: ./cmd-give.md
-[`GIVE <unit id> [JE] <number> MEN`]: ./cmd-give.md
-[`GIVE <unit id> [JE] <number> SHIP`]: ./cmd-give.md
-[`GIVE <unit id> [JE] <number> SILVER`]: ./cmd-give.md
-[`GIVE <unit id> [JE] <number> <item>`]: ./cmd-give.md
+[`GIVE <unit id> [EACH] <number> MEN`]: ./cmd-give.md
+[`GIVE <unit id> [EACH] <number> SHIP`]: ./cmd-give.md
+[`GIVE <unit id> [EACH] <number> SILVER`]: ./cmd-give.md
+[`GIVE <unit id> [EACH] <number> <item>`]: ./cmd-give.md
 [`GIVE 0 <number> SILVER`]: ./cmd-give.md
 [`GIVE 0 <number> MEN`]: ./cmd-give.md
 [`GIVE 0 <number> <item>`]: ./cmd-give.md

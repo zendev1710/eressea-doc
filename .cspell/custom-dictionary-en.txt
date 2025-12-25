@@ -1,5 +1,7 @@
 !command
 !commands
+!herbology
+!Herbology
 !parties
 !Parties
 !party
@@ -54,6 +56,8 @@ silverbag
 silverchest
 snowbane
 snowcrystal
+stonecircle
+Stonecircle
 sunfire
 tradepost
 waterfinder

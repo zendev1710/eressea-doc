@@ -4,25 +4,31 @@ alias: cmd-teach-fr
 ---
 # TEACH
 
-**`TEACH`**[<sup>`L`</sup>]` `*`unit-id`*`[`*`unit-id`*`]...`
+**`TEACH`**[<sup>`L`</sup>]` `*`unit-id`*`[`*`unit-id`*`]...`  
 
-Um die Zeit herabzusetzen, die eine andere Einheit braucht, um ein Talent zu erlernen, kann man sie das Talent lehren. Dazu muss die lehrende Einheit in dem betreffenden Talent mindestens 2 Stufen besser als die lernende Einheit sein, Damit lernt die lernende Einheit doppelt so schnell, als wenn sie versucht, ihr Talent auf eigene Faust zu verbessern.
+To reduce the time it takes for another unit to learn a skill, you can teach them the skill.
+To do this, the teaching unit must be at least 2 levels better than the learning unit in the skill in question.
+This means that the learning unit learns twice as quickly as if it tried to improve its skill on its own.
 
-Mit diesem Befehl lehrt man allen aufgelisteten Einheiten das Talent, das diese gerade lernen. Die Schüler müssen also lernen während der Lehrer lehrt. Es kann mehr als eine Einheit aufgelistet werden. Eine Lehrer-Einheit kann allerdings pro Person und Runde nur 10 Schüler von seinem Wissen profitieren lassen. Es können auch mehrere Lehrer eine große Schüler-Einheit lehren.
+This order teaches all listed units the skill they are currently learning.
+So the students have to learn while the teacher teaches.
+More than one entity can be listed. However, a teacher unit can only allow 10 students per person and round to benefit from their knowledge.
+Several teachers can also teach a large group of students.
 
-Das zu lehrende Talent muss **nicht** angegeben werden - es wird automatisch das Talent gelehrt, welches die lernende Einheit lernt. Dies können auch verschiedene Talente sein, sofern der Lehrer diese Talente ausreichend besser als die Schüler beherrscht.
+The skill to be taught must **not** be specified - the skill that the learning unit learns is automatically taught.
+These can also be different skills, provided the teacher has mastered these skills sufficiently better than the students.
 
-Will man Einheiten fremder Parteien lehren, muss man von dieser Partei den Befehl [[cmd-help]] GUARD erhalten haben oder die zu lehrende Einheit muss mit [[cmd-contact]] den Lehrer kontaktieren.
+If you want to teach units from other factions, you must have received the [[cmd-help|`HELP GUARD`]] order from that faction or the unit to be taught must contact the teacher with [[cmd-contact]].
 
-**Beispiel**:
+**Example**:
 
-     TEACH xxxx yyyy TEMP 2 zzzz
+```text
+TEACH xxxx yyyy TEMP 2 zzzz
+```
 
-Durch den Befehl [LEARN AUTO] versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von `TEACH` und `LEARN AUTO` ist allerdings nicht möglich.
+Through the [[cmd-learn-auto]] order, the server attempts to automate learning and teaching in a region within a faction.
+A mixture of `TEACH` and `LEARN AUTO`, however, is not possible.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[HELP]: ./cmd-help.md
-[CONTACT]: ./cmd-contact.md
-[LEARN AUTO]: ./cmd-learn-auto.md

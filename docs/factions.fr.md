@@ -10,7 +10,12 @@ Tu es éliminé du jeu lorsque ta faction n'a plus aucun membre - c'est-à-dire 
 
 ## Les unités
 
-La faction commence la partie avec une **unité**, composée d'une personne avec 2500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie]. Un conseil : si tu ne sais pas à quoi ça sert, essaye l'ordre [[cmd-show|`SHOW "`*`Item`*`"`]]. Cette première personne n'est en aucun cas spéciale ; il s'agit simplement de la première personne appartenant à ta nouvelle faction. Tu peux [recruiter] de nouvelles personnes, également [[objets|produire des objets]], construire des [[batiments]] ou des [[bateaux]], capturer des [chevaux], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.
+La faction commence la partie avec une **unité**, composée d'une personne avec 2500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie].
+
+!!! Tip
+    Si tu ne sais pas à quoi ça sert, essaye l'ordre [[cmd-show|`SHOW "`*`Item`*`"`]].
+
+Cette première personne n'est en aucun cas spéciale ; il s'agit simplement de la première personne appartenant à ta nouvelle faction. Tu peux [recruiter] de nouvelles personnes, également [[objets|produire des objets]], construire des [[batiments]] ou des [[bateaux]], capturer des [chevaux], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.
 
 Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [[cmd-make|MAKE TEMP]]. Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [[cmd-give|transférer]] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent]. Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.
 
@@ -18,7 +23,8 @@ Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le 
 
 Exemple d'unités :
 
-        * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
+```text
+    * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
         melee 1, taxation 2, has: sword, 20 silver, "TAX";
         Konrad Rabenhelm ist ein typischer Ritter seines Ordens. Der Orden der
         Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden
@@ -29,6 +35,7 @@ Exemple d'unités :
         und solchen, die es werden wollen.
        
       + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
+```
 
 Vos propres unités sont marquées d'un '\*'. Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|aidez]] cette faction.
 
@@ -48,7 +55,7 @@ Enfin, une unité peut être blessée lors d'un [[guerre|combat]] ou d'une [fami
 
 L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'un sac de pièces. Cela signifie qu'elle possède au moins 500 Silver. Si elle avait plus de 5000 Silver, vous verriez un "coffre de Silver". Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [[cmd-hide|masquée]], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient. Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction. La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
-Enfin, des alliés [trolls] transportent des gems (joyaux). En plus des [humains], [nains], et [trolls][1], il y a beaucoup d'autres races en Eressea. Elles sont décrites dans [[races|ce chapitre]].
+Enfin, des alliés [trolls] transportent des gems (joyaux). En plus des [humains], [nains], et [trolls], il y a beaucoup d'autres races en Eressea. Elles sont décrites dans [[races|ce chapitre]].
 
 Vous ne disposez que d'informations limitées sur les unités étrangères. Leur statut au combat, leurs blessures, leurs compétences, leur groupe, leur camouflage de faction ou de race, leur statut de héros et leurs sorts sont cachés. La plupart des objets sont visibles, mais l'argent, les herbes et les objets magiques ne sont pas visibles en détail.
 
@@ -56,7 +63,9 @@ Vous ne disposez que d'informations limitées sur les unités étrangères. Leur
 
 Si une unité se retrouve sans personne à la [[sequence-des-ordres|fin du tour]] (que ce soit à cause de la famine, en donnant des personnes ou en ne les obtenant jamais), elle sera dissoute. Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon. (Elle doit avoir [[cmd-help|`HELP silver`]] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre.) En général, c'est à la première unité dans l'ordre du rapport que tout revient. Si les deux options ne sont pas possibles, l'argent et les chevaux vont à la région et tous les autres objets sont perdus.
 
-Expérience de jeu : SoltharIl est arrivé que des objets magiques spéciaux produisent une énergie impie qui maintenait leurs porteurs dans un état entre la vie et la mort. Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
+Expérience de jeu (Solthar) :
+
+Il est arrivé que des objets magiques spéciaux produisent une énergie impie qui maintenait leurs porteurs dans un état entre la vie et la mort. Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
 
 ## Voir aussi
 
@@ -67,7 +76,7 @@ Poursuivre la lecture : [[races]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
 
-[cadeau de départ spécifique à la race choisie]: ./eressea-story.md  "#start-der-6.-welt" <!-- TODO -->
+[cadeau de départ spécifique à la race choisie]: ./eressea-story.md#debut-du-6eme-monde
 [recruiter]: ./silver.md#recruter
 [chevaux]: ./travel.md#chevaux-et-chariots
 [l'argent]: ./silver.md#depenses
@@ -76,4 +85,3 @@ Poursuivre la lecture : [[races]].
 [trolls]: ./races.md#trolls
 [humains]: ./races.md#humains
 [nains]: ./races.md#nains
-[1]: ./races.md#trolls

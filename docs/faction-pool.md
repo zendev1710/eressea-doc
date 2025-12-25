@@ -4,34 +4,32 @@ alias: faction-pool
 ---
 # Faction pool
 
-Der Parteipool enthält einige besondere Gegenstände, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden. Mit dem Befehle [[cmd-claim]] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen. Ein Zurücklegen ist nicht möglich.
+The faction pool contains some special items that are usually placed there by the game management on special occasions (e.g. Christmas, Eressea anniversaries).
+Using the [[cmd-claim]] command, any unit can claim items from the faction pool.
+It is not possible to put it back.
 
-Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit einen bestimmten Gegenstand verwenden soll. Gegenstände im Parteipool haben in den meisten Fällen besondere magische Kräfte. Mittels [[cmd-show]] erhältst Informationen darüber. Dies funktioniert auch, wenn der Gegenstand noch im Parteipool liegt. Diese Informationen sind jedoch oft nur vage und in der Regel musst du die Wirkung selbst erkunden.
+The point of the faction pool is that you can decide for yourself which unit should use a certain item.
+In most cases, items in the faction pool have special magical powers.
 
-Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
+You can get information about it using [[cmd-show]].
+This also works if the item is still in the faction pool.
+However, this information is often vague and you usually have to explore the effects yourself.
 
-- [Adamantium] (in Runde 574)
-- [Adamantiumrüstung] (in Runde 574)
-- [Geburtstagstorte] (in Runde 487, 20. August 2006, 10 Jahre Eressea)
-- [Sonnensegel] (in Runde 407, Weihnachten 2004)
-- [Sternenstaub] (in Runde 454, Weihnachten 2005)
-- [Weihnachtsbaum] (in Runde 503, Weihnachten 2006)
-- [Muschel] (erhalten Völker, die erstmalig Muschelplateau erreichen, 11. Dezember 2005)
+Some items that have been placed in the faction pool so far:
 
-Nicht zu verwechseln ist der Parteipool mit dem [Materialpool] und dem [Silberpool], die virtuell alle Einheitsgegenstände bzw. Silber einer Partei in einer Region enthalten.
+- [[adamantium]] (on Round 574)
+- [[adamantium-armor]] (on Round 574)
+- [[birthday-cake]] (on Round 487, 20. August 2006, 10 years of Eressea)
+- [[solar-sail]] (on Round 407, Christmas 2004)
+- [[stardust]] (on Round 454, Christmas 2005)
+- [[christmas-tree]] (on Round 503, Christmas 2006)
+- [[shell]] (receive colonies that reach the mussel plateau for the first time, 11. December 2005)
 
-Continue reading: [Geld].
+!!! note
+    The faction pool should not be confused with the [[items-pool]] and the [silver pool], which virtually contain all of the unit items or silver of a faction in a region.
 
-[Geld]: ./silver.md
+Continue reading: [[money]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
-[Adamantium]: ./adamantium.md
-[Adamantiumrüstung]: ./adamantium-armor.md
-[Geburtstagstorte]: ./birthday-cake.md
-[Sonnensegel]: ./sun-sail.md
-[Sternenstaub]: ./stardust.md
-[Weihnachtsbaum]: ./christmas-tree.md
-[Muschel]: ./shell.md
-[Materialpool]: ./items-pool.md
-[Silberpool]: ./items-pool.md#the-silver-pool
+[silver pool]: ./items-pool.md#the-silver-pool

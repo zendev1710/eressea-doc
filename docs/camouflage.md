@@ -4,7 +4,7 @@ alias: camouflage
 ---
 # Camouflage
 
-The **Stealth** [skill] allows you to camouflage yourself from other units. However, if a unit [is guarding] the region, or is on a ship or in a building, it is always visible.
+The **Stealth** [[skills|skill]] allows you to camouflage yourself from other units. However, if a unit [is guarding] the region, or is on a ship or in a building, it is always visible.
 
 ## Countermeasures
 
@@ -38,25 +38,19 @@ Then, regardless of success, a die is rolled to determine whether the espionage 
 
 ## Remarks
 
-Many factions store their goods with a highly camouflaged unit per region ([combat status][]: `COMBAT NOT` or `FLEE`). The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.
+Many factions store their goods with a highly camouflaged unit per region ([[cmd-combat|combat status]][]: `COMBAT NOT` or `FLEE`). The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.
 
 In addition to these passive applications of camouflage, one can of course use well-trained camouflaged individuals to gather information or take advantage of the possibility of theft.
 
 ## See also
 
-- [[cmd-guard]][Bewacht]
+- [[cmd-guard]]
 - [revenue]
 
-Continue reading: [Travel].
-
-[Travel]: ./travel.md
+Continue reading: [[travel]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Skill]: ./skills.md
-[Bewacht]: ./cmd-guard.md
 [combat]: ./war.md#fleeing
-[`STEAL`]: ./cmd-steal.md
 [Espionage]: ./skills-list.md#espionage
-[Combat status]: ./cmd-combat.md
 [revenue]: ./silver.md#stealing-the-dishonest-way

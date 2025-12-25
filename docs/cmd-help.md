@@ -4,6 +4,7 @@ alias: cmd-help
 ---
 # HELP
 
+<!-- TODO: replace PARTEITARNUNG -->
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  
 **`HELP`**` `*`faction-id`*`COMBAT [NOT]`  
 **`HELP`**` `*`faction-id`*`SILVER [NOT]`  
@@ -11,12 +12,20 @@ alias: cmd-help
 **`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
 **`HELP`**` `*`faction-id`*`ALLES [NOT]`  
 
-Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
+This order allows a faction to set different levels of support for another faction.
+The counterparty does not learn about a change in status and does not have to have the same status.
 
-Die einzelnen Modi sind im Abschnitt über [[alliances]] erklärt. Beispiel:
+The individual modes are explained in the section about [[alliances]].
 
-     HELP 7 GIVE NOT
+Example:
 
-Spielererfahrung: SoltharHELFE pnr ohne Parameter macht dasselbe wie HELP pnr ALLES. HELP pnr NOT macht dasselbe wie HELP pnr ALLES NOT.
+```text
+HELP 7 GIVE NOT
+```
+
+Player experience (Solthar):
+
+- `HELP`` `*`faction-id`* without parameters does the same as `HELP`` `*`faction-id`* ` ALL`
+- `HELP`` `*`faction-id`*` ``NOT` does the same thing as `HELP`` `*`faction-id`*` ``ALL NOT`
 
 <!-- From [https://wiki.eressea.de/index.php?title=HELP&oldid=7439] -->

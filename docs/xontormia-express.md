@@ -13,7 +13,7 @@ It was reintroduced in 2015.
 It is sent together with the report and appears weekly as long as articles have been submitted.
 Each issue is stored in the [Archive] after publication.
 
-## Aufbau der Artikel
+## Structure of the articles
 
 The Xontormia Express divides the articles into worlds.
 The world for which the article was written or in which the respective story takes place should always be mentioned first.
@@ -69,5 +69,4 @@ Continue reading: [[thanks]].
 
 [Announcement of the new XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025
 [Archive]: https://wiki.eressea.de/Kategorie:Xontormia_Express
-
 [express@eressea.de]: mailto:express@eressea.de

@@ -1,8 +1,8 @@
 ---
 # cSpell:locale fr, en
-alias: sapin-de-noeel
+alias: sapin-de-noel
 ---
-# Sapin de Nöel
+# Sapin de Noël
 
 The **Christmas tree** was the Eressean Christmas present of 2006.
 

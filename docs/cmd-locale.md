@@ -5,12 +5,14 @@ alias: cmd-locale
 # LOCALE
 
 **`LOCALE`**`en`  
-**`LOCALE`**`de`
+**`LOCALE`**`de`  
 
-Der Befehl hat keine echte Funktion. Er kann im Vorspann, außerhalb von Einheiten benutzt werden, um die Sprache der Befehle anzuzeigen. Er kann von Tools benutzt werden, um die Befehle richtig zu interpretieren. Dem Server ist er jedoch egal, er versucht immer, die Befehle in der aktuell eingestellten Sprache zu interpretieren!
+The order has no real function.
+It can be used in the opening credits, outside of units, to display the language of the orders.
+It can be used by tools to correctly interpret the orders.
+However, the server doesn't care, it always tries to interpret the orders in the currently set language!
 
-Zum andern ist er, wenn er von einer Einheit gegeben wird, ein Synonym von [[cmd-language]]. Vorzugsweise sollte lieber jener Befehl gegeben werden.
+On the other hand, if it is given by a unit, it is a synonym of [[cmd-language]].
+Preferably that order should be given.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LOCALE&oldid=6692] -->
-
-[`LANGUAGE`]: ./cmd-language.md

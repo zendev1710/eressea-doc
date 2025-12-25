@@ -10,7 +10,12 @@ You drop out of the game if your faction has no more members, that is, if all un
 
 ## Units
 
-A faction starts a game with one **unit** consisting of one person with 2500 silver, 10 wood, 4 stones and a [[history-of-eressea|race-specific starting gift]]. A hint: if you do not know what you have there, try the order [`SHOW "`*`Item`*`"`]. This first person is not special in any way; they are just the first person belonging to your new faction. You can [recruit] new persons, and eventually [produce items], and build [[buildings]] and [[ships]], tame [horses], forge [[war-tables|weapons]] and so on.
+A faction starts a game with one **unit** consisting of one person with 2500 silver, 10 wood, 4 stones and a [race-specific starting gift].
+
+!!! Tip
+    if you do not know what you have there, try the order [[cmd-show|`SHOW "`*`Item`*`"`]].
+
+This first person is not special in any way; they are just the first person belonging to your new faction. You can [recruit] new persons, and eventually produce [[items]], and build [[buildings]] and [[ships]], tame [horses], forge [[war-tables|weapons]] and so on.
 
 New units are created by generating them with an existing unit using the [[cmd-make|MAKE TEMP]] order. A new unit has no people, yet: you first have to [[cmd-give|transfer]] them from another unit or recruit them, which requires [money]. Units created by units on ships or buildings will start inside the same ship or building.
 
@@ -49,7 +54,7 @@ At last, a unit may be wounded by a [[war|combat]] or [Hunger]. This will be not
 
 The next unit has the number 2ow, consists of a dwarf and has a horse and a silver bag. This means that it has at least 500 silver. If it had more than 5000 silver, you would see a "silverchest". With less than 500 you wouldn't see anything for a foreign unit. You cannot see which faction the unit belongs to because it is [[cmd-hide|cloaked]], that is, it does not reveal the faction it belongs to. This is probably not a very smart choice for a "Botschafter" (ambassador), because you do not even get the E-Mail address of the faction now. The only thing you can do is sending it a [[cmd-message]].
 
-Finally you have some allied [trolls] carrying gems. In addition to [humans], [dwarves], and [trolls][1], there are a lot of other races in Eressea. They are describe in [[races|this chapter]].
+Finally you have some allied [trolls] carrying gems. In addition to [humans], [dwarves], and [trolls], there are a lot of other races in Eressea. They are describe in [[races|this chapter]].
 
 You only get limited information on foreign units. Their combat status, injuries, skills, faction, faction stealth, racial stealth, hero status, and spells are hidden. Most items are visible, but silver, herbs and magic items are not visible in detail.
 
@@ -57,7 +62,9 @@ You only get limited information on foreign units. Their combat status, injuries
 
 If a unit happens to have no persons at the [[orders-sequence|end of the round]] (be it from hunger, giving away persons or never getting them) it will be disbanded. Her items go to a unit of your faction, if one is there, or to an allied faction otherwise. (It must have [[cmd-help|`HELP silver`]] towards that faction and that faction must have `HELP GIVE` towards us.) Usually the first such unit in the order of the report will be selected for this. If both options are not possible, silver and horses go to the region and all other items are lost.
 
-Player experience: Solthar There have been cases where special magic items produced an unholy energy which kept their bearers in a state between life and death. But they were no longer under the control of their former faction.
+Player experience (Solthar):
+
+There have been cases where special magic items produced an unholy energy which kept their bearers in a state between life and death. But they were no longer under the control of their former faction.
 
 ## See also
 
@@ -68,10 +75,8 @@ Continue reading: [[races]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/en&oldid=16635] -->
 
-[`SHOW "`*`Item`*`"`]: ./cmd-show.md
-[produce items]: ./items.md
-
 <!-- eressea-story.md"#start of the 6th world" <- TODO -->
+[race-specific starting gift]: ./eressea-story.md#start-of-the-6th-world
 [recruit]: ./silver.md#recruiting
 [horses]: ./travel.md#horse-and-carriage
 [money]: ./silver.md#expenses
@@ -80,4 +85,3 @@ Continue reading: [[races]].
 [trolls]: ./races.md#trolls
 [humans]: ./races.md#humans
 [dwarves]: ./races.md#dwarves
-[1]: ./races.md#trolls

@@ -4,39 +4,30 @@ alias: cmd-option-fr
 ---
 # OPTION
 
-**`OPTION`**` `*`option`*`[NOT]`
+**`OPTION`**` `*`option`*`[NOT]`  
 
-Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswertung genau aussieht.
+<!-- TODO: check if the following options stay in german or not for english players -->
 
-- `AUSWERTUNG`: Dies ist die normale Auswertung im Klartext. Falls man nur die Computer Auswertung verwendet, kann auf die normale Auswertung verzichtet werden.
+These options can be turned on and off. You control exactly what the evaluation looks like.
 
-- `COMPUTER`: Diese Auswertung ist für Programme leichter zu lesen. Mit ihr kann jede Art von selber geschriebenen Programmen gespeist werden, z.B. Hilfstools oder Kartenzeichner.
+- `AUSWERTUNG`: This is the normal evaluation in plain text. If you only use the computer evaluation, the normal evaluation can be omitted
+- `COMPUTER`: This evaluation is easier for programs to read. It can be used to power any kind of self-written programs, e.g. auxiliary tools or map drawers
+- `ZIPPED`: The evaluation will be packed with zip before shipping
+- `BZIP2`: The evaluation is packed with bzip2 before shipping
+- `STATISTIK`: With this option, a small statistic is displayed after each region in the normal analysis
+- `PUNKTE`: With this option, from the 13th round at the earliest, a score is issued that allows a small comparison with other factions
+- `ZUGVORLAGE`: A separate file contains a [[orders|Template for the next round's orders]]. This can be turned off and on again. If you don't need this, for example because you use a tool to create a move, you should turn off the move template
+- `TALENTVERSCHIEBUNG`: This allows you to switch on a small display in the NR. After the skill it is listed if the skill has changed in the round in question
+- `ADRESSEN`: This appends the address list of the factions seen in the group to the report
 
-- `ZIPPED`: Die Auswertung wird vor dem Versand mit zip gepackt.
+## Anciennes options
 
-- `BZIP2`: Die Auswertung wird vor dem Versand mit bzip2 gepackt.
+With evaluation number 559, the Material Pool and Silver Pool options were set as default. Deactivation is no longer possible.
 
-- `STATISTIK`: Mit dieser Option wird nach jeder Region in der normalen Auswertung eine kleine Statistik angezeigt.
+`SILVERPOOL`: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.
 
-- `PUNKTE`: Mit dieser Option wird, frühestens ab der 13. Runde, eine Punktzahl ausgegeben, die einen kleinen Vergleich mit anderen Parteien zulässt.
-
-- `ZUGVORLAGE`: Eine separate Datei enthält eine [Vorlage für die Befehle der nächsten Runde]. Diese kann man hiermit aus- und wieder anstellen. Wer diese nicht benötigt, weil er z.B. zur Zugerstellung ein Tool benutzt, sollte die Zugvorlage abstellen.
-
-- `TALENTVERSCHIEBUNG`: Hiermit kann man eine kleine Anzeige im NR einschalten. Hinter dem Talent ist dann aufgeführt, wenn sich das Talent in der betreffenden Runde verändert hat.
-
-- `ADRESSEN`: Hiermit wird die Adressliste der Parteien, die man in der Runde gesehen hat, an den Report angehängt.
-
-## Alte Optionen
-
-Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silverpool als Standard gesetzt. Eine Deaktivierung ist nicht mehr möglich
-
-`SILVERPOOL`: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silver von allen Einheiten der Region gesammelt wird.
-
-`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silver mit dem [Silverpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[cmd-reserve]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVE` vergaß.
+`MATERIALPOOL`: If the [[items-pool|Material Pool]] is switched on, all required items in a unit are collected as needed, similar to Silver with the [Silver Pool]. Units can use the [[cmd-reserve]] command to secure items, preventing other units from taking them and consuming them. This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have one`RESERVE`forgot.
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[Vorlage für die Befehle der nächsten Runde]: ./commands.md
-[Materialpool]: ./items-pool.md
-[Silverpool]: ./items-pool.md#der-silberpool
-[`RESERVE`]: ./cmd-reserve.md
+[Silver Pool]: ./items-pool.fr.md#réserve-dargent

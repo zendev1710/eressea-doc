@@ -4,161 +4,188 @@ alias: reserve-d-objets
 ---
 # Réserve d'objets
 
-Besonders bei größeren Parteien verliert man als Spieler in einigen Regionen die Übersicht, zumal "Geldverteilen" eher eine langweilige Fleißarbeit ist und den Spielspaß wenig fördert.
+Particularly with larger factions, players lose track in some regions, especially since "distributing money" is rather boring, hard work and does not add much to the fun of the game.
 
 ## Réserve d'argent
 
-Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [[cmd-recruit]] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird. Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen. Dies ist nur, um zu vermeiden, dass es vergessen wird.
+The silver pool takes over the distribution of money when playing, so that for example with [[cmd-recruit]] the unit automatically gets enough money (if available in the region) or the learning of expensive talents is provided. Nevertheless, it is stated throughout the instructions that units must have enough money with them.
+This is just to avoid forgetting it.
 
-Ebenso werden [Gebäude] aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist. Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren. Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.
+Likewise, [[buildings]] are supplied from the pool if the silver is present in the region at the start of the round.
+If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.
+At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own party's pool.
 
-TEMP-Einheiten können nicht reservieren. Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [[cmd-give]] übergeben bekommen. Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.
+TEMP units cannot reserve. They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [[cmd-give]].
+Be careful: when TEMP units get silver, they also use it to recruit!
+So if you want them to take silver with you to another region, the recruitment silver must also be handed over.
 
-Für den Unterhalt von Einheiten gelten besondere Regeln: hier wird alles Silber der Region benutzt, ohne Rücksicht auf vorherige Reservierungen. Einheiten geben kein Silber, das sie für ihren eigenen Unterhalt brauchen, an Einheiten weg, um deren Unterhalt zu bezahlen.
+Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.
+Units do not give silver they need for their own upkeep to units to pay for their upkeep.
 
 ## Réserve de matériel
 
-Der Materialpool ist die logische Fortführung des Silberpools: jede Einheit, die etwas benötigt, z.B. Steine und Holz für den Gebäudebau, holt sich dies automatisch von anderen eigenen Einheiten in der Region.
+The material pool is the logical continuation of the silver pool: every unit that needs something, e.g. stones and wood for building buildings, automatically gets this from other units in the region.
 
-Die Pools gelten nur für die eigene Partei. Fremden Einheiten müssen Gegenstände explizit übergeben werden.
+The pools are only valid for your own faction.
+Objects must be explicitly handed over to foreign units.
 
-Achtung, die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[cmd-make]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]], [[cmd-recruit]]. Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren. Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.
+Attention, the pools not only work in production, essentially for the command [[cmd-make]], but basically for everything, especially for the commands [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]], [[cmd-recruit]].
+If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.
+However, if a unit needs weapons for an attack or to collect taxes, these must be explicitly handed over or reserved, as the material pool does not apply here.
 
-Unerfahrene Parteien sollten den Materialpool gründlich planen, da man leicht Einheiten Ressourcen "klaut", mit denen man nicht rechnete, und somit "beklaute" Einheiten nicht oder nicht genug produzieren kann, während die andere Einheit mehr Ressourcen verbrauchte und mehr produzierte, als beabsichtigt.
+Inexperienced parties should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected, and thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.
 
 ### Exemple 1
 
-     UNIT a ; Steinbauer, haben 30 Eisen
-     MAKE 20 Eisen
-     @GIVE c ALLES Eisen
-     ;
-     UNIT b ; Burgenbauer, haben kein Eisen
-     RESERVE 10 Eisen
-     MAKE 10 Schwert
-     ;
-     UNIT c; Depot, hat kein Eisen
-     LEARN Tarnung
+```text
+    UNIT a ; Stone builders, have 30 iron
+    MAKE 20 iron
+    @GIVE c ALL iron
+    ;
+    UNIT b ; Castle builders have no iron
+    RESERVE 10 iron
+    MAKE 10 sword
+    ;
+    UNIT c; Depot, has no iron
+    LEARN Tarnung
+```
 
-**Ergebnis:**
+**Result:**
 
-- Einheit b holt sich zunächst 10 Eisen aus dem Materialpool von a.
-- Einheit a gibt die restlichen 20 Eisen an c.
-- Einheit b macht 10 Schwerter aus 10 Eisen.
-- Einheit a macht 20 Eisen.
-- Einheit b hat also 10 Schwerter
-- Einheit a hat 20 Eisen
-- Einheit c hat 20 Eisen
+- Unit b first gets 10 iron from a's material pool
+- Unit a gives the remaining 20 irons to c
+- Unit b makes 10 swords out of 10 iron
+- Unit a makes 20 iron
+- So unit b has 10 swords
+- Unit a has 20 iron
+- Unit c has 20 iron
 
 ## RESERVE et GIVE
 
-Bei [[cmd-reserve]] und [[cmd-give]], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:
+There are a few special things to note about [[cmd-reserve]] and [[cmd-give]], which come before most other commands in the [[orders-sequence]].
+These apply equally to the silver and material pools:
 
-Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung. Also kann sie nur noch die Einheit, die sie reserviert oder bekommen hat, verbrauchen.
+Firstly, items that have been handed over or reserved are no longer available in the pool.
+So she can only use the unit that she has reserved or received.
 
-Bei RESERVE-Befehlen geht die Einheit wie folgt vor: In einem ersten Durchgang reserviert jede Einheit zunächst ihre eigenen Gegenstände. Alles, was reserviert wurde, steht ab dann nicht mehr für den Pool zur Verfügung. Dann erst versuchen die Einheiten sich die Gegenstände, die sie im ersten Schritt nicht selber hatten, von anderen Einheiten aus dem Pool zu holen. Sowohl das Abarbeiten der RESERVE-Befehle als auch beim Holen von Gegenständen wird dabei in der Reihenfolge vorgegangen, wie die Einheiten im Report stehen - dies ist streng genommen nicht garantiert, aber seit langem die Praxis.
+With RESERVE orders, the unit proceeds as follows: In a first pass, each unit first reserves its own items.
+From then on, everything that has been reserved will no longer be available for the pool.
+Only then do the units try to get the items from the pool that they did not have in the first step from other units.
+Both the processing of the RESERVE commands and the retrieval of items are carried out in the order in which the units appear in the report -strictly speaking this is not guaranteed, but it has been the practice for a long time.
 
-Wenn eine Einheit mehrere RESERVE-Befehle für einen Gegenstand hat, gilt dies nicht additiv. Stattdessen werden alle Befehle der Reihe nach ausgeführt. Dieses Verhalten wird jedoch im Moment ebenfalls nicht garantiert, deswegen sollte eine Einheit besser nur einen RESERVE-Befehl pro Gegenstand haben.
+If a unit has multiple RESERVE orders for an item, this is not additive.
+Instead, all commands are executed in sequence.
+However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one RESERVE command per item.
 
-Bei der anschließenden Ausführung von GIVE werden Gegenstände falls nötig ebenfalls aus dem Pool entnommen. Auch hier geht es nach Reportreihenfolge. Gegenstände, die von irgend einer Einheit (einschließlich der Einheit mit dem GIVE-Befehl) reserviert wurden, werden dabei nicht weitergegeben. Übergebene Gegenstände sind anschließend ebenfalls nicht mehr im Pool. Merke: `GIVE xyz ALLES` übergibt nur nicht reservierte Gegenstände der Einheit selber.
+When GIVE is subsequently executed, items are also removed from the pool if necessary.
+Here too, the report order is followed. Items reserved by any unit (including the unit with the GIVE command) are not passed on.
+Items that have been handed over are no longer in the pool.
 
-Alle anderen Befehle benutzen zunächst die eigenen, reservierten oder an sie übergebenen Gegenstände und erst danach nicht reservierte Gegenstände aus dem Pool.
+Note: `GIVE xyz ALL` only hands over unreserved items to the unit itself.
+
+All other commands first use your own, reserved or transferred items and only then use unreserved items from the pool.
 
 ### Exemple 2
 
-      UNIT a; hat 10 Silber
-      LEARN Hiebwaffen
-      RESERVE 20 Silber
-      ;
-      Einheit b; hat 0 Silber
-      LEARN Hiebwaffen
-      RESERVE 10 Silber
-      ;
-      Einheit c; hat 10 Silber
-      LEARN Hiebwaffen
-      RESERVE 10 Silber
+```text
+UNIT a; hat 10 Silver
+    LEARN Melee
+    RESERVE 20 Silver
+;
+UNIT b; Has 0 Silver
+    LEARN Melee
+    RESERVE 10 Silver
+;
+UNIT c; hat 10 Silver
+    LEARN Melee
+    RESERVE 10 Silver
+```
 
-**Ergebnis:**
+**Result:**
 
-- Einheit a reserviert ihre eigenen 10 Silber
-- Einheit c reserviert ihre eigenen 10 Silber
-- Da insgesamt nur 20 Silber in der Region vorhanden waren verfallen die übrigen RESERVE-Befehle
-- Einheit a verbraucht ihre eigenen 10 Silber Unterhalt.
-- Einheit c verbraucht ihre eigenen 10 Silber Unterhalt.
-- Einheit b hungert weil kein Silber mehr übrig ist.
+- Unit a reserves its own 10 silver
+- Unit c reserves its own 10 silver
+- Since there were only 20 silver in the region, the remaining RESERVE commands expire
+- Unit a consumes its own 10 silver upkeep
+- Unit c consumes its own 10 silver upkeep
+- Unit b is starving because there is no silver left
 
-Hätte irgend eine Einheit zu Anfang 10 Silber mehr gehabt, hätte Einheit b nicht hungern müssen.
+If any unit had 10 more silver to begin with, unit b would not have starved.
 
 ### Exemple 3
 
-      UNIT a; hat 20 Silber
-      RESERVE 20 Silber
-      GIVE c 20 Silber
-      ;
-      Einheit b; hat 20 Silber
-      MOVE o
-      ;
-      Einheit c; hat 0 Silber
-      MOVE w
+```text
+UNIT a; hat 20 Silver
+    RESERVE 20 Silver
+    GIVE c 20 Silver
+;
+UNIT b; has 20 Silver
+    MOVE o
+;
+UNIT c; hat 0 Silver
+    MOVE w
+```
 
-**Ergebnis:**
+**Result:**
 
-- Einheit a reserviert ihre eigenen 20 Silber
-- Einheit a gibt 20 Silber aus dem Materialpool an c. Ihre eigenen 20 Silber sind reserviert, also nimmt sie die 20 Silber von b.
-- Einheit b geht nach Osten und wird hungern, falls dort keine andere Einheit mit Silber ist.
-- Einheit c nimmt die 20 Silber nach Westen mit.
+- Unit a reserves its own 20 silver
+- Unit a gives 20 silver from the material pool to c. Her own 20 silver is reserved, so she takes the 20 silver from b
+- Unit b goes east and will starve if there is no other unit there with silver
+- Unit c takes the 20 silver west
 
 ### Exemple 4
 
-     UNIT a ; hat 10 Silber, 20 Holz, 10 Eisen
-     LEARN Hiebwaffen
-     RESERVE 5 Eisen ; (1)
-     GIVE d ALLES Eisen ; (6)
-     ;
-     UNIT b ; hat 10 Silber, 10 Eisen
-     RESERVE 100 Silber ; (2), (4)
-     RESERVE 10 Holz; (5)
-     GIVE c 100 Silber ; (7)
-     GIVE d 9 Holz ; (8)
-     LEARN Hiebwaffen
-     ;
-     UNIT c ; Waffenbau 10, hat 100 Silber
-     RESERVE 100 Silber ; (3)
-     MAKE 10 Speer ; (9)
-     ;
-     UNIT d ; hat 200 Silber
-     LEARN Holzfällen
+```text
+UNIT a ; hat 10 Silver, 20 Wood, 10 Iron
+    LEARN Melee
+    RESERVE 5 Iron; (1)
+    GIVE d ALL Iron; (6)
+;
+UNIT b ; hat 10 Silver, 10 Iron
+    RESERVE 100 Silver ; (2), (4)
+    RESERVE 10 Wood ; (5)
+    GIVE c 100 Silver ; (7)
+    GIVE d 9 Wood ; (8)
+    LEARN Melee
+;
+UNIT c ; Melee 10, has 100 Silver
+    RESERVE 100 Silver ; (3)
+    MAKE 10 Spear ; (9)
+;
+UNIT d ; hat 200 Silver
+    LEARN Forestry
+```
 
-**Ausführung:**
+ **Version:**
 
-- (1), (2), (3): Die Einheiten a, b, und c reservieren zunächst ihre eigenen 5 Eisen, 10 Silber, bzw. 100 Silber.
-- (4): Dann erst holt sich b die restlichen 90 Silber aus dem Pool, und zwar 10 von Einheit a und 80 von Einheit d, da diese als einzige noch nicht reserviert sind.
-- (5): Einheit b nimmt sich 10 Holz aus dem Pool von Einheit a.
-- (6): Einheit a gibt die restlichen 5 Eisen, die nicht reserviert waren, an Einheit d.
-- (7): Einheit b versucht 100 Silber an c zu übergeben; das einzige Silber, dass noch nicht reserviert ist, hat Einheit d (120), also werden 100 davon an c übergeben.
-- (8): Einheit b gibt 9 Holz von Einheit a an Einheit d.
-- (9): Einheit c nimmt sich zur Produktion aus dem Pool 1 Holz von Einheit a, das noch nicht reserviert ist. Sie kann also nur einen Speer bauen.
-- (10): Alle Einheiten bezahlen Unterhalt (wir nehmen an, 10 Silber pro Person).
+- (1), (2), (3): Units a, b, and c initially reserve their own 5 iron, 10 silver, and 100 silver, respectively
+- (4): Only then does b get the remaining 90 silver from the pool, namely 10 from unit a and 80 from unit d, since these are the only ones that have not yet been reserved
+- (5): Unit b takes 10 wood from unit a's pool
+- (6): Unit a gives the remaining 5 irons that were not reserved to unit d
+- (7): Unit b tries to give 100 silver to c; the only silver that is not yet reserved has unit d (120), so 100 of it is given to c
+- (8): Unit b gives 9 wood from unit a to unit d
+- (9): Unit c takes 1 wood from unit a from the pool that has not yet been reserved for production. So she can only build one spear
+- (10): All units pay maintenance (we assume 10 silver per person)
 
-**Ergebnis:**
+**Result:**
 
-- Einheit a hat 0 Silber, 0 Holz, 5 Eisen.
-- Einheit b hat 10 Holz, 80 Silber (20 verbraucht für Unterhalt von a und b), 10 Eisen.
-- Einheit c hat 190 Silber (10 verbraucht) und einen Speer
-- Einheit d hat 9 Holz und 10 Silber (10 verbraucht), 5 Eisen.
+- Unit a has 0 silver, 0 wood, 5 iron
+- Unit b has 10 wood, 80 silver (20 used for maintenance of a and b), 10 iron
+- Unit c has 190 silver (10 consumed) and 1 spear
+- Unit d has 9 wood and 10 silver (10 consumed), 5 iron
 
 ## Note historique
 
-In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder Spieler an- oder abschalten konnte. Es gab getrennte Einstellungen für Silber und andere Gegenstände. Nun ist der Silber- und der Materialpool für alle Parteien automatisch aktiv und nicht mehr deaktivierbar.
+In older versions, the material pool was an optional setting that each player could turn on or off.
+There were separate settings for silver and other items.
+The silver and material pools are now automatically active for all parties and can no longer be deactivated.
 
 ## Voir aussi
 
 - [[cmd-give]]
 - [[cmd-reserve]]
-- [Befehlsreihenfolge]
+- [[orders-sequence]]
 
 Poursuivre la lecture : la [[guerre]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
-
-[Gebäude]: ./buildings.md
-[Befehlsreihenfolge]: ./commands-sequence.md

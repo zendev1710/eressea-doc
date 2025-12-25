@@ -4,6 +4,7 @@ alias: cmd-help-fr
 ---
 # HELP
 
+<!-- TODO: replace PARTEITARNUNG -->
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  
 **`HELP`**` `*`faction-id`*`COMBAT [NOT]`  
 **`HELP`**` `*`faction-id`*`SILVER [NOT]`  
@@ -11,14 +12,18 @@ alias: cmd-help-fr
 **`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
 **`HELP`**` `*`faction-id`*`ALLES [NOT]`
 
-Cet ordre permet à une faction d'attribuer différents niveaux de soutien à une autre faction. Cette dernière ne sera pas informée de ce changement de statut et n'est pas tenue d'avoir le même statut.
+Cet ordre permet à une faction d'attribuer différents niveaux de soutien à une autre faction.
+Cette dernière ne sera pas informée de ce changement de statut et n'est pas tenue d'avoir le même statut.
 
 Les différents modes sont expliqués dans la section [[alliances]].
+
 Exemple :
 
-     HELP 7 GIVE NOT
+```text
+HELP 7 GIVE NOT
+```
 
-Expérience du joueur Solthar :
+Expérience de jeu (Solthar) :
 
 - `HELP`` `*`faction-id`* sans paramètres a le même effet que `HELP`` `*`faction-id`* ` ALL`
 - `HELP`` `*`faction-id`*` ``NOT` a le même effet que `HELP`` `*`faction-id`*` ``ALL NOT`

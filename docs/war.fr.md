@@ -142,10 +142,10 @@ Les catapultes nécessitent des munitions. Celles-ci peuvent être fabriquées �
 Ranged weapons - bonuses and time
 
 | Weapon                        | Skill    | Offensive bonus | Reloading |
-|-------------------------------|----------|-----------------|-----------|
-| crossbow / mallorn crossbow   | crossbow | 0               | 2         |
-| catapult                      | catapult | \-4             | 5         |
-| bow / mallorn bow / elven bow | bow      | \-2             | 0         |
+|-------------------------------|----------|----------------:|----------:|
+| crossbow / mallorn crossbow   | crossbow |               0 |         2 |
+| catapult                      | catapult |              -4 |         5 |
+| bow / mallorn bow / elven bow | bow      |              -2 |         0 |
 
 La colonne « Reloading » indique le temps nécessaire pour que l'arme soit à nouveau prête à tirer. Une catapulte ne peut donc être utilisée qu'une fois par combat. Une arbalète peut tirer tous les trois rounds, et un arc peut tirer à chaque round.
 

@@ -1,4 +1,5 @@
 adamantium
+Allanon
 Andune
 Ard'Ragorn
 Bärmann
@@ -9,8 +10,11 @@ crtools
 Draig
 echeck
 EHMV
+Empiria
 Eressea
 Eressëa
+fansite
+Fantasya
 Faroul
 Firudin
 Firun's
@@ -24,15 +28,19 @@ Laen
 Mahlstrom
 mallorn
 Mallorn
+Menouthis
 Nixus
 Phygon
 Plötzbogen
+Podina
 Rabenhelm
 Rehling
 Salassar
 Schlittchen
 Screenfun
+Sitanleta
 Solthar
+Talinster
 Tirawon
 Tirawons
 Tybied
@@ -40,6 +48,7 @@ Vinyambar
 Weilersweide
 Whyren
 Wilken
+Woda'narod
 Wythar
 Xolgrim
 Xontormia

@@ -6,27 +6,42 @@ alias: cmd-recruit-fr
 
 **`RECRUIT`**` `*`number`*
 
-Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse] zwischen 40 und 150 Silver an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silver bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silver, holt sie es sich aus dem [Silverpool].
+This involves hiring new people from the region's farmers.
+Depending on the [[races|race]], you have to spend between 40 and 150 silver in [[skills-modifiers|recruitment costs]] per person hired.
+The unit recruiting new members must carry this Silver with them.
+When a new unit is created, you must give the new unit the necessary money so that it can recruit.
+If the unit doesn't have enough Silver, it gets it from the [silver pool].
 
-Man kann nur Personen der eigenen Parteirasse anwerben. [Migranten]-Einheiten werben also keine weiteren Migranten an. Die Bauern einer Region haben keine Rasse. Sie "entscheiden" sich erst bei der Rekrutierung, welcher Rasse sie angehören.
+You can only recruit people from your own faction race.
+So [migrant] units do not recruit any more migrants.
+The farmers of a region have no race.
+They only “decide” what race they belong to when they are recruited.
 
-Pro Runde können insgesamt nur 2,5% der Bauern einer Region angeworben werden. Die genaue Zahl erscheint im Regionsreport. Falls mehrere Parteien rekrutieren, werden die verfügbaren Rekruten "gleichmäßig" auf sie aufgeteilt. Falls mehrere Einheiten einer Partei rekrutieren, werden die ihr zugeteilten Rekruten nach Regionsreihenfolge zugeteilt. Dabei können also Einheiten, die später kommen, leer ausgehen.
+Only 2.5% of the farmers in a region can be recruited per round.
+The exact number appears in the regional report.
+If multiple factions are recruiting, the available recruits will be divided "evenly" between them.
+If multiple units of a faction are recruiting, the recruits assigned to it will be assigned in regional order.
+This means that units that arrive later can be left empty-handed.
 
-**Beispiel:** Partei A hat RECRUIT 10, Partei B hat RECRUIT 1, Partei C hat zwei Einheiten jeweils mit RECRUIT 2. In der Region leben 160 Bauern, also gibt es 4 Rekruten. Pro Partei gibt es 1 1/3 Rekruten. Partei B will nur einen und bekommt ihn auch. Partei A und C streiten sich um die restlichen 3 Rekruten. Eine bekommt nur einen Rekruten, die andere 2 Rekruten. Wie auch immer die Aufteilung ist, bekommt die zweite Einheit von Partei C keinen Rekruten ab, weil die erste schon alle braucht. Du solltest dich also nicht zu sehr auf die genaue Aufteilung verlassen und am besten immer mit anderen Parteien absprechen.
+**Example:** Faction A has RECRUIT 10, Faction B has RECRUIT 1, Faction C has two units each with RECRUIT 2.
+There are 160 farmers in the region, so there are 4 recruits.
+There are 1 1/3 recruits per faction.
+Faction B just wants one and gets it.
+Factions A and C fight over the remaining 3 recruits.
+One gets only one recruit, the other gets 2 recruits.
+Whatever the division, Faction C's second unit doesn't get any recruits because the first one already needs them all.
+So you shouldn't rely too much on the exact division and it's best to always discuss it with other factions.
+If you hire additional members in an existing unit, the skills in the unit are diluted because the new ones have no skill.
+The accumulated skill levels of the old unit are simply distributed among the new number of members (see [Mixing skills]).
 
-Heuert man weitere Mitglieder in einer bestehenden Einheit an, so verwässern sich die Talente in der Einheit, da die Neuen keine Talente haben. Die angesammelten Talentstufen der alten Einheit werden einfach auf die neue Anzahl Mitglieder verteilt (siehe [Mischen von Talenten]).
-
-Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführen.
+After you have recruited people, you can certainly carry out other orders.
 
 ## Voir aussi
 
-- [Geld]
-
+- [recruiting]
 <!-- From [https://wiki.eressea.de/index.php?title=RECRUIT&oldid=15790] -->
 
-[Rasse]: ./races.md
-[Rekrutierungskosten]: ./skills-modifiers.md
-[Silverpool]: ./items-pool.md#der-silberpool
-[Migranten]: ./races.md#menschen
-[Mischen von Talenten]: ./skills.md#mischen-von-talenten
-[Geld]: ./silver.md#rekrutieren
+[silver pool]: ./items-pool.md#reserve-dargent
+[migrant]: ./races.md#humains
+[Mixing skills]: ./skills.md#melanger-les-competences
+[recruiting]: ./silver.md#recruter

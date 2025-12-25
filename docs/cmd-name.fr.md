@@ -4,30 +4,34 @@ alias: cmd-name-fr
 ---
 # NAME
 
-    NAME UNIT "name"
-    NAME FREMDE UNIT unit-id "name"
-    NAME PARTEI "name"
-    NAME FREMDE PARTEI faction-id "name"
-    NAME GEBÄUDE "name"
-    NAME FREMDES GEBÄUDE building-id "name"
-    NAME SCHIFF "name"
-    NAME FREMDES SCHIFF ship-id "name"
-    NAME REGION "name"
-    NAME GROUP "name"
+**`NAME UNIT`**` `*`"name"`*  
+**`NAME STRANGERS UNIT`**` `*`unit-id "name"`*  
+**`NAME FACTION`**` `* `"name"`*  
+**`NAME STRANGERS FACTION`**` `*`faction-id "name"`*  
+**`NAME BUILDIN?G`**` `*`"name"`*  
+**`NAME STRANGERS GEBÄUDE`**` `*`building-id "name"`*  
+**`NAME SHIP`**` `*`"name"`*  
+**`NAME STRANGERS SHIP`**` `*`ship-id "name"`*  
+**`NAME REGION`**` `*`"name"`*  
+**`NAME GROUP`**` `*`"name"`*  
 
-Benenne das aufgeführte Objekt neu. Schiffe und Gebäude können nur umbenannt werden, wenn die Einheit auch das Kommando über das Gebäude oder das Schiff hat - sie muss also die erste Einheit unter dem Gebäude oder dem Schiff in der Auswertung sein. Eine Region kann nur vom Burgherr der mächtigsten Burg einer Region umbenannt werden. Gruppen können nur von Gruppenmitgliedern umbenannt werden und der neue Gruppenname darf nicht bereits vorhanden sein.
+Rename the listed item.
+Ships and buildings can only be renamed if the unit also has command of the building or ship - so it must be the first unit under the building or ship in the evaluation.
+A region can only be renamed by the lord of the most powerful castle in a region.
+Groups can only be renamed by group members and the new group name cannot already exist.
 
-Der neue Name kann bis zu 127 Zeichen lang sein. Längere Beschreibungen fügt man mit dem Befehl [[cmd-describe]] an.
+The new name can be up to 127 characters long. Longer descriptions can be added using the [[cmd-describe]] command.
 
-Durch den Zusatz `FREMDE` (bzw. `FREMDES`) und der Angabe der Nummer kann man Einheiten, Schiffe und sogar Gebäude (nicht nur Burgen) anderer Parteien benennen, sofern diese noch keinen Namen haben (Einheiten also als "Einheit abc" benannt sind). Man kann sogar eine fremde Partei benennen, sofern diese älter als zehn Runden ist.
+Through the addition `STRANGERS` (or `STRANGER`) and specifying the number, you can name units, ships and even buildings (not just castles) of other parties if they do not yet have a name (i.e. units are named as "unit abc").
+You can even name a foreign faction as long as it is older than ten rounds.
 
-Auch das Benennen der Partei muss von einer Einheit ausgeführt werden.
+The naming of the faction must also be carried out by a unit.
 
-    ERESSEA 7 "sieben"
-       NAME PARTEI "Falsch" ; kein Effekt
-       UNIT 89
-          NAME PARTEI "Richtig"
+```text
+ERESSEA 7 "Seven"
+    NAME FACTION "Incorrect" ; no effect
+    UNIT 89
+        NAME FACTION "Correct"
+```
 
 <!-- From [https://wiki.eressea.de/index.php?title=NAME&oldid=16968] -->
-
-[`DESCRIBE`]: ./cmd-describe.md

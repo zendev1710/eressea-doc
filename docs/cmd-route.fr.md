@@ -4,41 +4,49 @@ alias: cmd-route-fr
 ---
 # ROUTE
 
-**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`
+**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
-Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl [[cmd-move]] durch die Welt von Eressea.
+With this order, the unit moves through the world of Eressea in the same way as with the [[cmd-move]] order.
 
-Mit dem `ROUTE`-Befehl kann jedoch eine Bewegungskette erstellen, so dass eine Einheit immer zwischen zwei oder mehr Punkten pendelt oder eine lange Route abarbeitet bis sie am Ziel ist. Alle Bewegungen, die abgearbeitet wurden, werden wieder hinten an den `ROUTE`-Befehl angehängt.
+With that `ROUTE` order can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.
+All movements that have been processed are returned to the back `ROUTE` order attached.
 
-Um eine Bewegung vorzeitig abzubrechen (z.B. bei Schiffen, die nicht so weit segeln sollen, wie sie können), kann man ein `PAUSE` (kann `P` abgekürzt werden) einfügen. Hat eine Einheit ihre Bewegung vollendet und als nächstes kommt ein `PAUSE`, so wird dies mit hinten angehängt, obwohl die Einheit bereits stoppt. Zwei aufeinanderfolgende `PAUSE` Befehle sorgen hingegen dafür, dass die Einheit stoppt und sich ohne Zutun des Spielers nicht mehr weiter bewegt.
+To cancel a movement prematurely (e.g. for ships that are not supposed to sail as far as they can), you can use a `PAUSE` (can be abbreviated with `P`).
+Once a unit has completed its movement, next comes a `PAUSE`, this is added at the end even though the unit is already stopping.
+Two in a row `PAUSE` orders, on the other hand, ensure that the unit stops and no longer moves without the player's intervention.
 
-Ein Reiter kommt mit Straßen drei Regionen weit. Er bekommt folgenden `ROUTE`-Befehl:
+A rider can travel three regions by road. He gets the following `ROUTE` order:
 
-     ROUTE NO Osten Pause Osten Osten SO Westen Westen Pause SW Westen NW
+```text
+ROUTE NE East Pause East East SE West West Pause SW West NW
+```
 
-Nächste Runde sieht der Befehl so aus:
+Next round the command looks like this:
 
-     ROUTE Osten Osten SO Westen Westen Pause SW Westen NW NO Osten Pause
+```text
+ROUTE East East SE West West Pause SW West NW NE East Pause
+```
 
-Und in der Runde darauf:
+And in the round after that:
 
-     ROUTE Westen Westen Pause SW Westen NW NO Osten Pause Osten Osten SO
+```text
+ROUTE West West Pause SW West NW NE East Pause East East SE
+```
 
-Und in der Runde darauf:
+And in the round after that:
 
-     ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+```text
+ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+```
 
-Und schließlich wieder wie am Anfang.
+And finally again like at the beginning.
 
 ## Voir aussi
 
-- [Reisen]
-- [[cmd-move]][`MOVE`]
+- [[travel]]
+- [[cmd-move]]
 - [[cmd-follow]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[`MOVE`]: ./cmd-move.md
-[Reisen]: ./travel.md
-[FOLLOW]: ./cmd-follow.md

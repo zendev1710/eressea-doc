@@ -4,152 +4,198 @@ alias: cmd-default-fr
 ---
 # DEFAULT
 
-**`DEFAULT`**`"`*`befehl`*`"`
+**`DEFAULT`**`"`*`order`*`"`  
 
-`DEFAULT` ändert den [Befehl], den eine Einheit normalerweise *in der nächsten Woche* ausführen würde:
+`DEFAULT`changes the [[orders|command]] that a unit normally issues **in the next week** would execute:
 
-## Zugvorlage und Defaultbefehle
+## Modèle d'ordres et ordres par défaut
 
-Nachdem ich meine Befehle eingeschickt habe und der Server die Auswertung erstellt hat, kommen für jede Einheit bestimmte Befehle zurück. Das sind die Defaultbefehle. Sie werden in der nächsten Woche ausgeführt, falls du *für diese Einheit* keine Befehle einschickst. Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit [[cmd-option]]`ZUGVORLAGE NOT` abgeschaltet hast. Außerdem sind sie im Computerreport (CR) enthalten. Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.
+After I have sent in my orders and the server has created the evaluation, specific orders come for each unit zurück.
+These are the default orders.
+They will be executed next week if you don't send in orders *for this unit*.
+You will receive the default orders with the report as a text file (also called a move template or orders template) if you do not use them with [[cmd-option|`OPTION ZUGVORLAGE NOT`]] switched off.
+They are also included in the computer report (CR).
+The normal report (NR) always only contains the first long default order.
+So you can't see all the default orders there.
 
-In die Defaultbefehle einer Einheit werden normalerweise alle [langen Befehle] übernommen. Ausgenommen davon sind ATTACK, FOLLOW und MOVE. Außerdem werden alle [//]-Kommentare und alle Befehle, die mit @ beginnen übernommen. Die Schreibweise wird dabei möglicherweise standardisiert.
+All [long orders] are normally included in a unit's default orders.
+Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.
+In addition, all [[comment-slashes]] and all orders beginning with `@` are adopted.
+The spelling may be standardized.
 
-Eingeschickte Befehle:
+Orders sent in:
 
-     UNIT abc
-     ; diese Woche nur 10
-     kAufe 10 Bals
-     SELL 100 Öl
-     // nächste Woche mehr Balsam kaufen
-     @GIVE xyz ALLES Balsam ; Transporter
-     GIVE abc 100 Silver
-     RECRUIT 1
+```text
+    UNIT abc
+    ; only 10 this week
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
+```
 
-Defaultbefehle der nächsten Woche
+Default orders for next week:
 
-     UNIT abc
-     BUY 10 Bals
-     SELL 100 Öl
-     // nächste Woche mehr Balsam kaufen
-     @GIVE xyz ALLES Balsam ; Transporter
+```text
+    UNIT abc
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
+```
 
-Was passiert, wenn die Einheit illegalerweise mehrere lange Befehle bekommen hat (zum Beispiel LEARN und WORK), ist übrigens nicht genau definiert. Das Gleiche gilt für sonstige ungültige Befehle.
+By the way, what happens if the unit has illegally received several long orders (for example `LEARN` and `WORK`) is not precisely defined.
+The same applies to other invalid orders.
 
-## Der Befehl DEFAULT
+## L'ordre DEFAULT
 
-Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden. Wenn die Einheit einen DEFAULT-Befehl bekommen hat, werden ihre **langen** Befehle nicht in die Vorlage übernommen. [Lange Kommentare] (mit `//`) und kurze @-Befehle werden dagegen übernommen. Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert. Ungültige Befehle werden also nicht übernommen. Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.
+The `DEFAULT` order changes this behavior by changing the default orders that come back from the server.
+If the unit has received a `DEFAULT` order, its **long** orders not included in the template.
+[long orders] (with `//`) and short `@` orders are accepted.
+The given orders are validated to a certain extent.
+Invalid orders are therefore not accepted.
+However, this test has limitations, it is better not to rely on it.
 
-Man kann auch kurze Befehle mit dem Befehl DEFAULT einfügen.
+You can also insert short orders using the `DEFAULT` order.
 
-Eingeschickte Befehle:
+Orders sent in:
 
-     UNIT abc
-     ; diese Woche nur 10
-     Kaufe 10 Balsam
-     SELL 100 Öl
-     // nächste Woche lernen
-     @GIVE xyz ALLES Balsam ; Transporter
-     GIVE abc 100 Silver
-     RECRUIT 1
-     DEFAULT "GIVE 123 50 Silver; nicht vergessen"
-     DEFAULT "LEARN Handel" ; löscht BUY und SELL
-     DEFAULT "XXX" ; kein Befehl, wird nicht übernommen
+```text
+    UNIT abc
+    ; this week only 10
+    BUY 10 Balm
+    SELL 100 Öl
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
+    DEFAULT "GIVE 123 50 Silver; don't forget"
+    DEFAULT "LEARN Trade" ; Deletes BUY und SELL
+    DEFAULT "XXX" ; no order, will not be accepted
+```
 
-Defaultbefehle der nächsten Woche
+Default orders for next week:
 
-     UNIT abc
-     GIVE 123 50 Silver; nicht vergessen
-     LEARN Handel
-     // nächste Woche lernen
-     @GIVE xyz ALLES Balsam ; Transporter
+```text
+    UNIT abc
+    GIVE 123 50 Silver; don't forget
+    LEARN Trade
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
+```
 
-Falls deine Defaultbefehle Anführungszeichen enthalten müssen, gibt es ein paar Wege, das derzeit zu erreichen:
+If your default orders need to contain quotes, there are currently a few ways to achieve this:
 
-     DEFAULT "CAST 'Erschaffe einen Ring der Unsichtbarkeit'"
-     DEFAULT 'CAST "Erschaffe einen Ring der Unsichtbarkeit"'
-     DEFAULT "NAME UNIT \"Bob's Builders\""
-     DEFAULT "MAKE 1 'Wasser des Lebens'"
+```text
+    DEFAULT "CAST 'Create a Ring of Invisibility'"
+    DEFAULT 'CAST "Create a Ring of Invisibility"'
+    DEFAULT "NAME UNIT \"Bob's Builders\""
+    DEFAULT "MAKE 1 'Water of life'"
+```
+nen
+ 
+## L'ordre MOVE
 
-## Der Befehl MOVE
+The `MOVE` order plays a special role: it is not included in the template.
+Instead, the long orders that the unit had in the template last week are adopted, but only long orders.
 
-Der MOVE-Befehl spielt eine besondere Rolle: Er wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte, allerdings nur lange Befehle.
+Default orders:
 
-Defaultbefehle
-
-     LEARN Reiten
+```text
+     LEARN Ride
      @GIVE 0 10 Silver
      // no comment
+```
 
-Eingeschickte Befehle
+Orders sent in:
 
-     MOVE o
+```text
+    MOVE e
+```
 
-Defaultbefehle der nächsten Woche
+Default commands for next week:
 
-     LEARN Reiten
+```text
+    LEARN Ride
+```
 
-Was passiert, wenn sowohl MOVE als auch DEFAULT im Spiel ist?
+What happens if both `MOVE` and `DEFAULT` are in play?
 
-Vorlage:
+Template:
 
-     WORK
-     // jetzt nach westen
+```text
+    WORK
+    // now to the west
+```
 
-Eingeschickte Befehle
+Orders sent in:
 
-     DEFAULT "LEARN Ausdauer"
-     // nun lernen
-     MOVE w
+```text
+    DEFAULT "LEARN Endurance"
+    // now learn
+    MOVE w
+```
 
-Defaultbefehle der nächsten Woche
+Default orders for next week:
 
-     LEARN Ausdauer
-     // nun lernen
+```text
+    LEARN Endurance
+    // now learn
+```
 
-DEFAULT löscht also auch hier die *langen* Defaultbefehle (hier WORK) und setzt sie neu.
+`DEFAULT` deletes them here too **long** default orders (here `WORK`) and reset them.
 
-Es ist möglich, MOVE mit DEFAULT zu setzen. Vorlage:
+It is possible to set `MOVE` with `DEFAULT`.
 
-     WORK
-     @GIVE 0 1 Silver
+Template:
 
-Eingeschickte Befehle
+```text
+    WORK
+    @GIVE 0 1 Silver
+```
 
-     DEFAULT "MOVE o"
-     WORK
-     @GIVE 0 2 Silver
+Orders sent in:
 
-Defaultbefehle der nächsten Woche
+```text
+    DEFAULT "MOVE o"
+    WORK
+    @GIVE 0 2 Silver
+```
 
-     MOVE o
-     @GIVE 0 2 Silver
+Default orders for next week:
 
-Defaultbefehle der übernächsten Woche, wenn sonst keine Befehle für die Einheit eingeschickt werden:
+```text
+    MOVE o
+    @GIVE 0 2 Silver
+```
 
-     @GIVE 0 2 Silver
+Default orders for the week after next if no other orders are sent in for the unit:
 
-Auch hier würde die Einheit also dann keinen langen Befehl ausführen.
+```text
+    @GIVE 0 2 Silver
+```
 
-**Hinweis:** Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.
+Here too, the unit would not carry out a long command.
 
-Spielererfahrung: Solthar `DEFAULT DEFAULT`???
+!!! note
+    There is a cap on the number of orders stored for a unit.
+    This is currently 128 orders, which should easily be enough for most purposes.
 
-Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen? Nun, so etwas wie `DEFAULT "DEFAULT 'LEARN Ausdauer'"` funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben. Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast. Für solche Vorhaben sind Scriptsprachen wie [Vorlage], [ExtendedCommands] oder [FFTools] besser geeignet.
+Player experience (Solthar):
 
-[Vorlage]: ./vorlage.md
-[ExtendedCommands]: ./commands-extended.md
-[FFTools]: ./fftools.md
+`DEFAULT DEFAULT` ???
+
+Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
+Well, something like `DEFAULT "DEFAULT 'LEARN Endurance'"` apparently works as you would expect, but the game management would rather not make any guarantees about it.
+Please do not submit bug reports if something like this doesn't work as expected. Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftools]] are better suited for such projects.
 
 ## Voir aussi
 
-- [Befehle][Befehl]
-- [Befehle einschicken]
+- [[orders]]
+- [[sending-orders]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 
-[Befehl]: ./commands.md
-[`OPTION`]: ./cmd-option.md
-[langen Befehle]: ./commands.md#kurze-und-lange-befehle
-[//]: ./cmd-comment-slash.md
-[Lange Kommentare]: ./cmd-comment-slash.md
-[Befehle einschicken]: ./commands-send.md
+[long orders]: ./commands.md#ordres-courts-et-longs

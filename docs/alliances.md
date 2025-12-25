@@ -14,7 +14,7 @@ These are the areas of support:
 
 Your units will accept all items and silver from the other faction. It is similar to a permanent [[cmd-contact]] for [[cmd-give]].
 
-Attention! For giving persons or units to another faction with the orders [[cmd-give|`GIVE <their-unit> <number> MEN`]] or [`GIVE <their-unit> UNIT`][`GIVE`], the receiving faction must use the [[cmd-contact]] order! Also for targeted spells `CONTACT` is necessary.
+Attention! For giving persons or units to another faction with the orders [[cmd-give|`GIVE <their-unit> <number> MEN`]] or [[cmd-give|`GIVE <their-unit> UNIT`]], the receiving faction must use the [[cmd-contact]] order! Also for targeted spells `CONTACT` is necessary.
 
 ## `HELP COMBAT`
 
@@ -26,15 +26,15 @@ Help the allied faction [supporting] their units if you have silver left after p
 
 ## `HELP GUARD`
 
-Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [raise taxes], [recruit], or [produce] finite resources and sometimes other units are prevented from [traveling through][`GUARD`] your region. If this help status is set, units of the other factions are allowed to do all that, so they can travel, mine, or recruit freely.
+Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit], or [[resources|produce]] finite resources and sometimes other units are prevented from [[cmd-guard|traveling through]] your region. If this help status is set, units of the other factions are allowed to do all that, so they can travel, mine, or recruit freely.
 
 Additionally, allied factions are allowed long orders [after battles] if you guard the region.
 
-Finally, the other faction's units are allowed to [enter] your buildings and ships.
+Finally, the other faction's units are allowed to [[cmd-enter|enter]] your buildings and ships.
 
 ## `HELP FACTIONSTEALTH`
 
-If you disguise your units with [`HIDE FACTION NUMBER <faction>`] as belonging to another faction, factions you have given this help status can see that they really belong to your faction.
+If you disguise your units with [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] as belonging to another faction, factions you have given this help status can see that they really belong to your faction.
 
 ## `HELP ALL`
 
@@ -46,18 +46,10 @@ this covers all the above areas in one order.
 - [[cmd-guard]]
 - [[cmd-contact]]
 
-Continue reading: [magic].
-
-[magic]: ./magic.md
+Continue reading: [[magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 
-[`GIVE`]: ./cmd-give.md
 [supporting]: ./silver.md#upkeep-costs
-[`GUARD`]: ./cmd-guard.md
-[raise taxes]: ./silver.md
 [recruit]: ./silver.md#recruiting
-[produce]: ./resources.md
 [after battles]: ./war.md#the-end
-[enter]: ./cmd-enter.md
-[`HIDE FACTION NUMBER <faction>`]: ./cmd-hide.md

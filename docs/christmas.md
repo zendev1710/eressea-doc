@@ -4,28 +4,23 @@ alias: christmas
 ---
 # Christmas
 
-## Der Weihnachtsgnom
+## The Christmas Gnome
 
-      'Ho ho ho!' Ein dicker Gnom fliegt auf einem von 8 Jungdrachen gezogenen
-        Schlitten durch die Nacht und vermacht Deiner Partei einen ...
+« Ho ho ho! » A fat gnome flies on a horse pulled by 8 young dragons.
+Sleigh through the night and give your faction a...
 
-Etwa alle zwei Jahre (nach Eresseanischer Zeitrechnung) taucht er auf, der Weihnachtsgnom. Manchmal bringt er sogar Geschenke mit, wobei man dann erst mal grübelt, was man damit anfangen soll.
+The Christmas gnome appears about every two years (according to Eressean time).
+Sometimes he even brings gifts, which leaves you wondering what to do with them.
 
-## Weihnachtsgeschenke
+## Christmas presents
 
-Hier eine kleine Übersicht über die Weihnachtsgeschenke der letzten Jahre
+Here is a small overview of the Christmas presents of the last few years
 
-- 1999 -- Apfel, Keks, Nuß oder Mandelkern
-- 2001(?) -- ein [Mistelzweig]
-- 2002 -- Runde 314 -- ein Schneeball oder ein [Schneemann]
-- 2004 -- Runde 407 -- ein [Sonnensegel]
-- 2005 -- Runde 454 -- eine Phiole mit [Sternenstaub]
-- 2006 -- Runde 504 -- eine wundervoll geschmueckter [Weihnachtsbaum]
+- 1999 -- Apple, biscuit, nut or almond kernel
+- 2001 -- A [[mistletoe]]
+- 2002 -- Round 314 --a snowball or a [[snowman]]
+- 2004 -- Round 407 --a [[solar-sail]]
+- 2005 -- Round 454 --a vial of [[stardust]]
+- 2006 -- Round 504 --a wonderfully decorated [[christmas-tree]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachten&oldid=4853] -->
-
-[Mistelzweig]: ./mistletoe.md
-[Schneemann]: ./snowman.md
-[Sonnensegel]: ./sun-sail.md
-[Sternenstaub]: ./stardust.md
-[Weihnachtsbaum]: ./christmas-tree.md

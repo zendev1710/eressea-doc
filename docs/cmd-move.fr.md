@@ -4,46 +4,47 @@ alias: cmd-move-fr
 ---
 # MOVE
 
-**`MOVE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`]...`
+**`MOVE`**[<sup>`L`</sup>]` `*`direction`*`[`*`direction`*`]...`  
 
-Mit dem Befehl `MOVE` bewegt sich die Einheit durch die Welt von Eressea. Die Himmelsrichtungen sind in Eressea Nordosten, Nordwesten, Osten, Westen, Südosten und Südwesten. Die Koordinaten werden nicht verwendet.
+With the `MOVE` order the unit moves through the world of Eressea.
+The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest. The coordinates are not used.
 
-| Richtung   | Abkürzungen |
-|------------|-------------|
-| Nordosten  | NO, Nordo   |
-| Osten      | O           |
-| Südosten   | SO, Südo    |
-| Nordwesten | NW, Nordw   |
-| Westen     | W           |
-| Südwesten  | SW, Südw    |
+| Direction | Abbreviations |
+|-----------|---------------|
+| Northeast | NE, NorthE    |
+| East      | E             |
+| Southeast | SE, SouthE    |
+| Northwest | NW, NorthW    |
+| West      | W             |
+| Southwest | SW, SouthW    |
 
-Der Befehl hat ein besonderes Verhalten, was [Defaultbefehle] betrifft, also Befehle, die die Einheit in der Folgewoche in der [Zugvorlage] bekommt: Der MOVE-Befehl wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte.
+The order has a special behavior when it comes to [default orders], i.e. orders that the unit receives in the [[orders|move template]] the following week: The MOVE order is not included in the template.
+Instead, the long orders that the unit had in the template last week are adopted.
 
-Vorlage:
+Template:
 
-     LEARN Reiten
-     @GIVE x 100 Silver
+```text
+LEARN Ride
+@GIVE x 100 Silver
 
-Eingeschickte Befehle
+Orders sent in
 
-     MOVE w
+MOVE w
+```
 
-Vorlage nächste Woche:
+Next week's template:
 
-     LEARN Reiten
+```text
+LEARN Ride
+```
 
 ## Voir aussi
 
-- [Reisen]
+- [[travel]]
 - [[cmd-route]]
 - [[cmd-follow]]
-- [[cmd-default]][Defaultbefehle]
+- [[cmd-default]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[Defaultbefehle]: ./cmd-default.md
-[Zugvorlage]: ./commands.md
-[Reisen]: ./travel.md
-[ROUTE]: ./cmd-route.md
-[FOLLOW]: ./cmd-follow.md

@@ -2,7 +2,7 @@
 # cSpell:locale fr, en
 alias: comment-slashes-fr
 ---
-# COMMENT (//)
+# Commentaire //
 
 **`//`**` `*`Comment`*
 

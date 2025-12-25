@@ -35,7 +35,7 @@ En fonction du type de terrain, la région accueillera un nombre différent de p
 La seule différence entre une plaine et une forêt est le nombre d'arbres et de pousses d'arbres dans la région. À partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt. Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou, inversement, de transformer une plaine en forêt en la reboisant.
 
 | Terrain        | max. workers | min. workers (quelque soit le nombre d'arbres) | Pierres pour routes (par direction) | Herbes                                                                    |
-|----------------|--------------|------------------------------------------------|-------------------------------------|---------------------------------------------------------------------------|
+|----------------|-------------:|-----------------------------------------------:|------------------------------------:|---------------------------------------------------------------------------|
 | Mountain       | 1000         | 100                                            | 250                                 | rock weed, gapgrowth , cave lichen                                        |
 | Plain / Forest | 10000        | 200                                            | 50                                  | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | Glacier        | 100          | 10                                             | 250                                 | ice begonia, white hemlock, snowcrystal petal                             |
@@ -159,7 +159,6 @@ Poursuivre la lecture : [Factions].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
-[ORIGIN]: ./cmd-origin.md
 [types de terrain]: ./terrains.md
 [travail]: ./silver.md#travail
 [châteaux]: ./castles.md

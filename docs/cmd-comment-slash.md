@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: comment-slashes
 ---
-# COMMENT (//)
+# // Comment
 
 **`//`**` `*`Comment`*  
 

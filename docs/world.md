@@ -34,14 +34,14 @@ Depending on the type of terrain, different numbers of peasants will find space 
 The only difference between a plain and a forest is the number of trees and saplings in the region. From a total number of 600 trees and/or saplings, a plain is considered a forest. This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.
 
 | Terrain        | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs                                                                     |
-|----------------|--------------|-----------------------------------|---------------------------------|---------------------------------------------------------------------------|
-| Mountain       | 1000         | 100                               | 250                             | rock weed, gapgrowth, cave lichen                                         |
-| Plain / Forest | 10000        | 200                               | 50                              | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier        | 100          | 10                                | 250                             | ice begonia, white hemlock, snowcrystal petal                             |
-| Highland       | 4000         | 200                               | 100                             | windbag, fjord fungus, mandrake                                           |
-| Swamp          | 2000         | 200                               | 75                              | bugleweed, knotroot, bubblemorel                                          |
-| Desert         | 500          | 50                                | 100                             | waterfinder, peyote, sand reeker                                          |
-| Volcano        | 500          | 50                                | 250                             | \-                                                                        |
+|----------------|-------------:|----------------------------------:|--------------------------------:|---------------------------------------------------------------------------|
+| Mountain       |         1000 |                               100 |                             250 | rock weed, gapgrowth, cave lichen                                         |
+| Plain / Forest |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier        |          100 |                                10 |                             250 | ice begonia, white hemlock, snowcrystal petal                             |
+| Highland       |         4000 |                               200 |                             100 | windbag, fjord fungus, mandrake                                           |
+| Swamp          |         2000 |                               200 |                              75 | bugleweed, knotroot, bubblemorel                                          |
+| Desert         |          500 |                                50 |                             100 | waterfinder, peyote, sand reeker                                          |
+| Volcano        |          500 |                                50 |                             250 | \-                                                                        |
 
 If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
 

@@ -4,7 +4,7 @@ alias: cmd-email-fr
 ---
 # EMAIL
 
-**`EMAIL`**`"`*`my-email-address@example.com`*`"`
+**`EMAIL`**`"`*`my-email-address@example.com`*`"`  
 
 With this order the player sets his email address to which the evaluation will be sent.
 

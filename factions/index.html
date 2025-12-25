@@ -2982,7 +2982,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4186,7 +4186,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7413,7 +7413,12 @@
 <p>Players lead so-called <strong>factions</strong> on Eressea. A faction initially consists of one, later sometimes many units. These units consist of one, a few or even thousands of people from the <a href="../races/">race</a> of the faction. Each unit can have any number of items and silver, and can also learn all <a href="../skills/">Skills</a> of Eressea. You can give units <a href="../commands/">Orders</a> every turn, which they will carry out as well as they can.</p>
 <p>You drop out of the game if your faction has no more members, that is, if all units are destroyed or disbanded, or if no orders have been received for five consecutive turns (5 NMR).</p>
 <h2 id="units">Units<a class="headerlink" href="#units" title="Permanent link">&para;</a></h2>
-<p>A faction starts a game with one <strong>unit</strong> consisting of one person with 2500 silver, 10 wood, 4 stones and a <a href="../eressea-story/">race-specific starting gift</a>. A hint: if you do not know what you have there, try the order [<code>SHOW "</code><em><code>Item</code></em><code>"</code>]. This first person is not special in any way; they are just the first person belonging to your new faction. You can <a href="../silver/#recruiting">recruit</a> new persons, and eventually <a href="../items/">produce items</a>, and build <a href="../buildings/">Buildings</a> and <a href="../ships/">Ships</a>, tame <a href="../travel/#horse-and-carriage">horses</a>, forge <a href="../war-tables/">weapons</a> and so on.</p>
+<p>A faction starts a game with one <strong>unit</strong> consisting of one person with 2500 silver, 10 wood, 4 stones and a <a href="../eressea-story/#start-of-the-6th-world">race-specific starting gift</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>if you do not know what you have there, try the order <a href="../cmd-show/"><code>SHOW "</code><em><code>Item</code></em><code>"</code></a>.</p>
+</div>
+<p>This first person is not special in any way; they are just the first person belonging to your new faction. You can <a href="../silver/#recruiting">recruit</a> new persons, and eventually produce <a href="../items/">Items</a>, and build <a href="../buildings/">Buildings</a> and <a href="../ships/">Ships</a>, tame <a href="../travel/#horse-and-carriage">horses</a>, forge <a href="../war-tables/">weapons</a> and so on.</p>
 <p>New units are created by generating them with an existing unit using the <a href="../cmd-make/">MAKE TEMP</a> order. A new unit has no people, yet: you first have to <a href="../cmd-give/">transfer</a> them from another unit or recruit them, which requires <a href="../silver/#expenses">money</a>. Units created by units on ships or buildings will start inside the same ship or building.</p>
 <p>A faction can only have a certain number of units, known as the <strong>unit limit</strong>. It is currently at 2500 units, which is also shown in the report. Da unit limit prevents the creation of new units. It does not matter if units have been disbanded during the turn. Under certain circumstances it may be possible that a faction has more units than the limit allows. The surplus units are not deleted; you merely cannot create new units until the number of units goes below the limit again.</p>
 <p>Here is an example for units:</p>
@@ -7442,7 +7447,8 @@
 <p>You only get limited information on foreign units. Their combat status, injuries, skills, faction, faction stealth, racial stealth, hero status, and spells are hidden. Most items are visible, but silver, herbs and magic items are not visible in detail.</p>
 <h3 id="dissolving-units">Dissolving units<a class="headerlink" href="#dissolving-units" title="Permanent link">&para;</a></h3>
 <p>If a unit happens to have no persons at the <a href="../commands-sequence/">end of the round</a> (be it from hunger, giving away persons or never getting them) it will be disbanded. Her items go to a unit of your faction, if one is there, or to an allied faction otherwise. (It must have <a href="../cmd-help/"><code>HELP silver</code></a> towards that faction and that faction must have <code>HELP GIVE</code> towards us.) Usually the first such unit in the order of the report will be selected for this. If both options are not possible, silver and horses go to the region and all other items are lost.</p>
-<p>Player experience: Solthar There have been cases where special magic items produced an unholy energy which kept their bearers in a state between life and death. But they were no longer under the control of their former faction.</p>
+<p>Player experience (Solthar):</p>
+<p>There have been cases where special magic items produced an unholy energy which kept their bearers in a state between life and death. But they were no longer under the control of their former faction.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../faction-pool/">The faction pool</a></li>

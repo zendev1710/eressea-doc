@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    Commentaire //
   
 
     
@@ -2977,10 +2977,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#unterschiede-zu-help" class="md-nav__link">
+  <a href="#differences-to-help" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Unterschiede zu HELP
+        Differences to HELP
       
     </span>
   </a>
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENTAIRE (;)
+    Commentaire (;)
   
 
     
@@ -5439,7 +5439,7 @@
   <span class="md-ellipsis">
     
   
-    Sapin de Nöel
+    Sapin de Noël
   
 
     
@@ -7275,10 +7275,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#unterschiede-zu-help" class="md-nav__link">
+  <a href="#differences-to-help" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Unterschiede zu HELP
+        Differences to HELP
       
     </span>
   </a>
@@ -7357,29 +7357,35 @@
 <p><strong><code>CONTACT</code></strong><code>UNIT</code><em><code>unit-id</code></em><br />
 <strong><code>CONTACT</code></strong><code>PARTEI</code><em><code>faction-id</code></em><br />
 <strong><code>CONTACT</code></strong><code></code><em><code>unit-id</code></em>  </p>
-<p>Man darf Einheiten fremder Parteien normalerweise nichts geben, ohne dass man mit dieser Partei alliiert ist. Um dies im begrenzten Maße doch zu erlauben, gibt es den <code>CONTACT</code> Befehl. In dieser Runde - und nur in dieser Runde - verhält sich die befehlende Einheit der genannten Einheit gegenüber, als wenn sie mit ihr alliiert wäre (s.a. unter <a href="../cmd-help/">HELP</a>), d.h. sie nimmt Gegenstände, Silver und Personen von ihr an. Auch das Betreten von Burgen und Schiffen, das Rekrutieren von Personen und der Abbau von Ressourcen ist nicht-alliierten Parteien auf diesem Wege möglich.</p>
-<p><code>CONTACT UNIT</code> erlaubt dies einer einzigen Einheit, CONTACT PARTEI hingegen allen Einheiten der betreffenden Partei in einer Region. Der Befehl <code>CONTACT unit-id</code> ist aus historischen Gründen erlaubt, sollte aber durch <code>CONTACT UNIT unit-id</code> ersetzt werden.</p>
-<p><strong>Beispiele:</strong></p>
-<div class="highlight"><pre><span></span><code>PARTEI ff &quot;FooBar&quot;
-  UNIT a
-  GIVE x 1000 Silver ; Tribut!
-  [...]
+<p>You are normally not allowed to give anything to units of foreign factions unless you are allied with that faction.
+To allow this to a limited extent, there is the <code>CONTACT</code> order.
+In this round -and only in this round- the commanding unit behaves towards the named unit as if it were allied with it (see also under <a href="../cmd-help/">HELP</a>), i.e. it accepts items, silver and people from it.
+Non-allied factions can also enter castles and ships, recruit people and extract resources in this way.
+<code>CONTACT UNIT</code> allows this to be done by a single unit, while <code>CONTACT FACTION</code> allows all units of the faction in question in a region.
+The <code>CONTACT unit-id</code> order is allowed for historical reasons, but should be passed <code>CONTACT UNIT unit-id</code> be replaced.</p>
+<p><strong>Examples:</strong></p>
+<div class="highlight"><pre><span></span><code>    PARTEI ff &quot;FooBar&quot;
+        UNIT a
+        GIVE x 1000 Silver ; Tribut!
+        [...]
 
-PARTEI 300 &quot;BarFoo&quot;
-  UNIT x
-  CONTACT UNIT a ; erlaube Zahlung.
+    PARTEI 300 &quot;BarFoo&quot;
+        UNIT x
+        CONTACT UNIT a ; erlaube Zahlung.
 </code></pre></div>
-<p>Einheit a darf Einheit x also die 1000 Silver übergeben. Falls x die einzige bewachende Einheit der Region ist, darf a auch rekrutieren und Steuern eintreiben. Einheit b von Partei ff darf nichts davon. Dafür müsste Einheit x den Befehl <code>CONTACT PARTEI ff</code> geben.</p>
+<p>Unit a can give unit x the 1000 silver.
+If x is the only guarding unit in the region, a is also allowed to recruit and collect taxes.
+Unit b of faction ff is not allowed to do any of this.
+For this, unit x would have to receive the <code>CONTACT FACTION ff</code> order give.</p>
+<p>Unit x and unit y of one faction guard the region.
+In order for unit a to recruit, x and y must both <code>CONTACT UNIT a</code> or <code>CONTACT PARTEI ff</code> orders.</p>
+<h2 id="differences-to-help">Differences to HELP<a class="headerlink" href="#differences-to-help" title="Permanent link">&para;</a></h2>
+<p><code>CONTACT</code> has a similar function to <a href="../cmd-help/"><code>HELP GIVE + HELP GUARD</code></a>, but it's not 100% the same.</p>
 <ul>
-<li>Einheit x und Einheit y einer Partei bewachen die Region. Damit Einheit a rekrutieren kann, müssen x und y beide <code>CONTACT UNIT a</code> oder <code>CONTACT PARTEI ff</code> befehlen.</li>
-</ul>
-<h2 id="unterschiede-zu-help">Unterschiede zu HELP<a class="headerlink" href="#unterschiede-zu-help" title="Permanent link">&para;</a></h2>
-<p><code>CONTACT</code> hat eine ähnliche Funktion wie <a href="../cmd-help/"><code>HELP GIVE + HELP GUARD</code></a>, ist aber nicht 100%ig dasselbe.</p>
-<ul>
-<li><code>CONTACT</code> ist für manche Dinge erforderlich, die <code>HELP GIVE</code> oder <code>HELP GUARD</code> nicht abdeckt, wie zum Beispiel [<code>GIVE PERSONEN</code>] und manche Zauber.</li>
-<li><code>HELP</code> schließt <code>HELP SILVER, HELP COMBAT</code> und <code>HELP PARTEITARNUNG</code> ein.</li>
-<li><code>CONTACT</code> gilt nur für die aktuelle Runde und nur für die befehlsgebende Einheit.</li>
-<li><code>HELP</code> ist dauerhaft und für alle Einheiten meiner Partei oder Gruppe (und alle Einheiten der anderen Partei).</li>
+<li><code>CONTACT</code> is required for some things that <code>HELP GIVE</code> or <code>HELP GUARD</code> does not cover, such as <a href="../cmd-give/"><code>GIVE MEN</code></a> and some spells</li>
+<li><code>HELP</code> closes <code>HELP SILVER, HELP COMBAT</code> and <code>HELP PARTEITARNUNG</code> A</li>
+<li><code>CONTACT</code> applies only to the current round and only to the unit issuing the order</li>
+<li><code>HELP</code>is permanent and applies to all units of my faction or group (and all units of the other faction)</li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->
 

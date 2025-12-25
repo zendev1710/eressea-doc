@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4252,7 +4252,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7549,43 +7549,43 @@
 <strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>]</code><em><code>ship_type</code></em><br />
 <strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>] SHIP [</code><em><code>ship-id</code></em><code>]</code><br />
 <strong><code>MAKE</code></strong><code>[</code><em><code>level</code></em><code>] ROAD</code><em><code>direction</code></em><code></code></p>
-<p>The <code>MAKE</code> order is the general production order. To find out more, see the <a href="../production/">production</a> chapter.</p>
+<p>The <code>MAKE</code> order is the general production order. To find out more, see the <a href="../production/">Production</a> chapter.</p>
 <h2 id="items">Items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h2>
 <p><a href="../items/">Items</a> and <a href="../resources/">raw materials</a> are created with <code>MAKE [</code><em><code>number</code></em><code>]</code><em><code>item</code></em><code></code>. Depending on the item, a certain skill and perhaps also certain raw materials are required. Without specifying <em>number</em>, the unit will produce as many items as people, skill and possibly raw materials allow it to.</p>
 <h3 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h3>
-<p>Creating a potion is very complex and can only be done by particularly talented alchemists. Details can be found in the <a href="../skills-list/">Alchemy chapter</a>.</p>
+<p>Creating a potion is very complex and can only be done by particularly talented alchemists. Details can be found in the <a href="../alchemy/">Alchemy chapter</a>.</p>
 <h3 id="herbs">Herbs<a class="headerlink" href="#herbs" title="Permanent link">&para;</a></h3>
-<p>Herbs are produced with the command <code>MAKE HERBS</code> by units with the skill <a href="../herbs/">herbology</a>. For details, see the chapter on<a href="../herbs/">Herbs</a><a href="../herbs/">herbology</a>.</p>
+<p>Herbs are produced with the <code>MAKE HERBS</code> order by units with the <a href="../skills-list/#herbalism">herbalism</a> skill. For details, see the chapter on <a href="../herbs/">Herbs</a>.</p>
 <h2 id="units">Units<a class="headerlink" href="#units" title="Permanent link">&para;</a></h2>
 <p>When you create a new unit (<code>MAKE TEMP xy</code>), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example <code>GIVE TEMP xy 100 silver</code>). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID <em>TEMP xy</em>, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.</p>
 <p>The alias number will be used as the new number of the unit if it is not taken. You can also assign a name to the new unit. The orders</p>
-<div class="highlight"><pre><span></span><code> MAKE TEMP 1
+<div class="highlight"><pre><span></span><code>MAKE TEMP 1
     NAME UNIT &quot;Clowns&quot;
     NUMBER UNIT funy
 </code></pre></div>
-<p>can be shortened to</p>
-<div class="highlight"><pre><span></span><code> MAKE TEMP funy &quot;Clowns&quot;
+<p>can be shortened to :</p>
+<div class="highlight"><pre><span></span><code>MAKE TEMP funy &quot;Clowns&quot;
 </code></pre></div>
 <p>A maximum of 2500 units are allowed per party. If the party has 2500 or more units, no new units can be created with <code>MAKE TEMP</code>; other units must first be deleted, e.g. by merging them. As the deletion of empty units comes at the end of the command sequence, new TEMP units can only be created in the following week.</p>
 <p>The orders following the MAKE TEMP order are assigned to the new unit up to the END order.</p>
 <p>However, the new unit must still have members, otherwise it will be silently deleted at the end of the round! It must therefore recruit or be given people. If the new unit is to recruit new members, it must also receive enough money to do so. If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week. If the unit receives money but does not recruit any members, it is also disbanded and the money falls to <a href="../factions/#dissolving-units">other units of their own faction</a>.</p>
-<div class="highlight"><pre><span></span><code> UNIT 17;       Fighters [15,700$]
- MAKE TEMP 1
-    NAME UNIT &quot;dragon riders&quot;
-    LEARN melee
- END
- GIVE TEMP 1 5 MEN
-  
- GIVE TEMP 2 100 silver
- MAKE TEMP 2
-    RECRUIT 1
-    NAME UNIT &quot;scouts&quot;
-    DEFAULT &quot;LEARN perception&quot;
-    MOVE west
- END
+<div class="highlight"><pre><span></span><code>UNIT 17;       Fighters [15,700$]
+MAKE TEMP 1
+   NAME UNIT &quot;dragon riders&quot;
+   LEARN melee
+END
+GIVE TEMP 1 5 MEN
+ 
+GIVE TEMP 2 100 silver
+MAKE TEMP 2
+   RECRUIT 1
+   NAME UNIT &quot;scouts&quot;
+   DEFAULT &quot;LEARN perception&quot;
+   MOVE west
+END
 </code></pre></div>
 <h2 id="buildings">Buildings<a class="headerlink" href="#buildings" title="Permanent link">&para;</a></h2>
-<p>To erect a new building, use the order <code>MAKE [</code><em><code>levels</code></em><code>]</code><em><code>building_type</code></em> (see <a href="../buildings/">buildings</a>). To continue building, the order is <code>MAKE [levels]</code><em><code>building_type</code></em><code></code><em><code>building_id</code></em>. The <em>building type</em> can also be replaced by CASTLE when continuing to build, even if it is a different type of building.</p>
+<p>To erect a new building, use the order <code>MAKE [</code><em><code>levels</code></em><code>]</code><em><code>building_type</code></em> (see <a href="../buildings/">Buildings</a>). To continue building, the order is <code>MAKE [levels]</code><em><code>building_type</code></em><code></code><em><code>building_id</code></em>. The <em>building type</em> can also be replaced by CASTLE when continuing to build, even if it is a different type of building.</p>
 <p>Castles and many other buildings can be enlarged as much as you want. In order to build castles, the unit must have the masonry skill and stones; other buildings usually also require wood, iron, and silver in various quantities.</p>
 <h2 id="ships">Ships<a class="headerlink" href="#ships" title="Permanent link">&para;</a></h2>
 <p>With <code>MAKE</code><em><code>ship_type</code></em> a unit starts building a new <a href="../ships/">ship</a>. This requires the shipcraft skill and wood. It can continue building with <code>MAKE [</code><em><code>levels</code></em><code>] SHIP</code><em><code>ship-nr</code></em>. Ships cannot be expanded like castles; the type is determined at the start of construction. Ships can only be built up to the size specified by their type.</p>
@@ -7597,27 +7597,23 @@
   Continue building the ship with the number 76.</li>
 </ul>
 <h2 id="roads">Roads<a class="headerlink" href="#roads" title="Permanent link">&para;</a></h2>
-<p>To make it easier to travel through a region with roads and bridges, use <code>MAKE ROAD</code><em><code>direction</code></em>. To build <a href="../roads/">roads</a>, the unit needs the skill <a href="../skills-list/#roadwork">roadwork</a> and <a href="../items/">stones</a>. In glaciers, it needs a <a href="../buildings-others/#tunnel">tunnel</a> beforehand, in deserts a <a href="../buildings-others/#caravanserai">caravanserai</a> and in swamps a <a href="../buildings-others/#dam">dam</a>. One stone is used per skill point of road construction. Between 50 and 250 stones are required for each desired direction, depending on the <a href="../terrains/">terrain types</a>. Roads only work if they are complete.</p>
+<p>To make it easier to travel through a region with roads and bridges, use <code>MAKE ROAD</code><em><code>direction</code></em>. To build <a href="../roads/">Roads</a>, the unit needs the skill <a href="../skills-list/#roadwork">roadwork</a> and <a href="../items/">stones</a>. In glaciers, it needs a <a href="../buildings-others/#tunnel">tunnel</a> beforehand, in deserts a <a href="../buildings-others/#caravanserai">caravanserai</a> and in swamps a <a href="../buildings-others/#dam">dam</a>. One stone is used per skill point of road construction. Between 50 and 250 stones are required for each desired direction, depending on the <a href="../terrains/">Terrain types</a>. Roads only work if they are complete.</p>
 <p>Player experience: Solthar Except when erecting a new building you can exchange the type in MAKE type xyz with BURG or any other building type.</p>
 <p><code>MAKE type</code> or <code>MAKE SHIP</code> without further parameters is currently continuing construction on the building or ship in which the unit is currently located. <strong>Attention:</strong> If the unit is in a building, MAKE lighthouse does not start a new building, but continues building on the old one.</p>
 <h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code> MAKE 5 sword ; produces 5 swords (at most)
- MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
- MAKE HERBS
-
- LEAVE
- MAKE lighthouse ; starts building a new lighthouse
- MAKE lighthouse xyz ; expands the lighthouse xyz
-
- LEAVE
- MAKE CASTLE xyz ; continues building on xyz (of whatever building type)
- MAKE 5 Trireme ; starts a new trireme
- MAKE SHIP abc ; continues building the ship abc
-
- MAKE ROAD SE ; continues or starts building the road towards the south-east
-
- MAKE Trireme abc ; wrong: starts a new trireme
- MAKE building xyz ; wrong: only CASTLE or building type is allowed
+<div class="highlight"><pre><span></span><code>MAKE 5 sword ; produces 5 swords (at most)
+MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
+MAKE HERBS
+LEAVE
+MAKE lighthouse ; starts building a new lighthouse
+MAKE lighthouse xyz ; expands the lighthouse xyz
+LEAVE
+MAKE CASTLE xyz ; continues building on xyz (of whatever building type)
+MAKE 5 Trireme ; starts a new trireme
+MAKE SHIP abc ; continues building the ship abc
+MAKE ROAD SE ; continues or starts building the road towards the south-east
+MAKE Trireme abc ; wrong: starts a new trireme
+MAKE building xyz ; wrong: only CASTLE or building type is allowed
 </code></pre></div>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>

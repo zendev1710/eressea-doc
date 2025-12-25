@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7354,27 +7354,30 @@
 
 
 <h1 id="route">ROUTE<a class="headerlink" href="#route" title="Permanent link">&para;</a></h1>
-<p><strong><code>ROUTE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>himmelsrichtung</code></em><code>[</code><em><code>himmelsrichtung</code></em><code>...]</code></p>
-<p>Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl <a href="../cmd-move/">MOVE</a> durch die Welt von Eressea.</p>
-<p>Mit dem <code>ROUTE</code>-Befehl kann jedoch eine Bewegungskette erstellen, so dass eine Einheit immer zwischen zwei oder mehr Punkten pendelt oder eine lange Route abarbeitet bis sie am Ziel ist. Alle Bewegungen, die abgearbeitet wurden, werden wieder hinten an den <code>ROUTE</code>-Befehl angehängt.</p>
-<p>Um eine Bewegung vorzeitig abzubrechen (z.B. bei Schiffen, die nicht so weit segeln sollen, wie sie können), kann man ein <code>PAUSE</code> (kann <code>P</code> abgekürzt werden) einfügen. Hat eine Einheit ihre Bewegung vollendet und als nächstes kommt ein <code>PAUSE</code>, so wird dies mit hinten angehängt, obwohl die Einheit bereits stoppt. Zwei aufeinanderfolgende <code>PAUSE</code> Befehle sorgen hingegen dafür, dass die Einheit stoppt und sich ohne Zutun des Spielers nicht mehr weiter bewegt.</p>
-<p>Ein Reiter kommt mit Straßen drei Regionen weit. Er bekommt folgenden <code>ROUTE</code>-Befehl:</p>
-<div class="highlight"><pre><span></span><code> ROUTE NO Osten Pause Osten Osten SO Westen Westen Pause SW Westen NW
+<p><strong><code>ROUTE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>direction</code></em><code>[</code><em><code>direction</code></em><code>...]</code>  </p>
+<p>With this order, the unit moves through the world of Eressea in the same way as with the <a href="../cmd-move/">MOVE</a> order.</p>
+<p>With that <code>ROUTE</code> order can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.
+All movements that have been processed are returned to the back <code>ROUTE</code> order attached.</p>
+<p>To cancel a movement prematurely (e.g. for ships that are not supposed to sail as far as they can), you can use a <code>PAUSE</code> (can be abbreviated with <code>P</code>).
+Once a unit has completed its movement, next comes a <code>PAUSE</code>, this is added at the end even though the unit is already stopping.
+Two in a row <code>PAUSE</code> orders, on the other hand, ensure that the unit stops and no longer moves without the player's intervention.</p>
+<p>A rider can travel three regions by road. He gets the following <code>ROUTE</code> order:</p>
+<div class="highlight"><pre><span></span><code>ROUTE NE East Pause East East SE West West Pause SW West NW
 </code></pre></div>
-<p>Nächste Runde sieht der Befehl so aus:</p>
-<div class="highlight"><pre><span></span><code> ROUTE Osten Osten SO Westen Westen Pause SW Westen NW NO Osten Pause
+<p>Next round the command looks like this:</p>
+<div class="highlight"><pre><span></span><code>ROUTE East East SE West West Pause SW West NW NE East Pause
 </code></pre></div>
-<p>Und in der Runde darauf:</p>
-<div class="highlight"><pre><span></span><code> ROUTE Westen Westen Pause SW Westen NW NO Osten Pause Osten Osten SO
+<p>And in the round after that:</p>
+<div class="highlight"><pre><span></span><code>ROUTE West West Pause SW West NW NE East Pause East East SE
 </code></pre></div>
-<p>Und in der Runde darauf:</p>
-<div class="highlight"><pre><span></span><code> ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+<p>And in the round after that:</p>
+<div class="highlight"><pre><span></span><code>ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
 </code></pre></div>
-<p>Und schließlich wieder wie am Anfang.</p>
+<p>And finally again like at the beginning.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../travel/">Reisen</a></li>
-<li><a href="../cmd-move/">MOVE</a>[<code>MOVE</code>]</li>
+<li><a href="../travel/">Movement</a></li>
+<li><a href="../cmd-move/">MOVE</a></li>
 <li><a href="../cmd-follow/">FOLLOW</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->

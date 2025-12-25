@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    Commentaire //
   
 
     
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENTAIRE (;)
+    Commentaire (;)
   
 
     
@@ -5439,7 +5439,7 @@
   <span class="md-ellipsis">
     
   
-    Sapin de Nöel
+    Sapin de Noël
   
 
     
@@ -7354,59 +7354,62 @@
 
 
 <h1 id="move">MOVE<a class="headerlink" href="#move" title="Permanent link">&para;</a></h1>
-<p><strong><code>MOVE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>himmelsrichtung</code></em><code>[</code><em><code>himmelsrichtung</code></em><code>]...</code></p>
-<p>Mit dem Befehl <code>MOVE</code> bewegt sich die Einheit durch die Welt von Eressea. Die Himmelsrichtungen sind in Eressea Nordosten, Nordwesten, Osten, Westen, Südosten und Südwesten. Die Koordinaten werden nicht verwendet.</p>
+<p><strong><code>MOVE</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>direction</code></em><code>[</code><em><code>direction</code></em><code>]...</code>  </p>
+<p>With the <code>MOVE</code> order the unit moves through the world of Eressea.
+The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest. The coordinates are not used.</p>
 <table>
 <thead>
 <tr>
-<th>Richtung</th>
-<th>Abkürzungen</th>
+<th>Direction</th>
+<th>Abbreviations</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Nordosten</td>
-<td>NO, Nordo</td>
+<td>Northeast</td>
+<td>NE, NorthE</td>
 </tr>
 <tr>
-<td>Osten</td>
-<td>O</td>
+<td>East</td>
+<td>E</td>
 </tr>
 <tr>
-<td>Südosten</td>
-<td>SO, Südo</td>
+<td>Southeast</td>
+<td>SE, SouthE</td>
 </tr>
 <tr>
-<td>Nordwesten</td>
-<td>NW, Nordw</td>
+<td>Northwest</td>
+<td>NW, NorthW</td>
 </tr>
 <tr>
-<td>Westen</td>
+<td>West</td>
 <td>W</td>
 </tr>
 <tr>
-<td>Südwesten</td>
-<td>SW, Südw</td>
+<td>Southwest</td>
+<td>SW, SouthW</td>
 </tr>
 </tbody>
 </table>
-<p>Der Befehl hat ein besonderes Verhalten, was <a href="../cmd-default/">Defaultbefehle</a> betrifft, also Befehle, die die Einheit in der Folgewoche in der <a href="../commands/">Zugvorlage</a> bekommt: Der MOVE-Befehl wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte.</p>
-<p>Vorlage:</p>
-<div class="highlight"><pre><span></span><code> LEARN Reiten
- @GIVE x 100 Silver
+<p>The order has a special behavior when it comes to [default orders], i.e. orders that the unit receives in the <a href="../commands/">move template</a> the following week: The MOVE order is not included in the template.
+Instead, the long orders that the unit had in the template last week are adopted.</p>
+<p>Template:</p>
+<div class="highlight"><pre><span></span><code>LEARN Ride
+@GIVE x 100 Silver
+
+Orders sent in
+
+MOVE w
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> MOVE w
-</code></pre></div>
-<p>Vorlage nächste Woche:</p>
-<div class="highlight"><pre><span></span><code> LEARN Reiten
+<p>Next week's template:</p>
+<div class="highlight"><pre><span></span><code>LEARN Ride
 </code></pre></div>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../travel/">Reisen</a></li>
+<li><a href="../travel/">Movement</a></li>
 <li><a href="../cmd-route/">ROUTE</a></li>
 <li><a href="../cmd-follow/">FOLLOW</a></li>
-<li><a href="../cmd-default/">DEFAULT</a><a href="../cmd-default/">Defaultbefehle</a></li>
+<li><a href="../cmd-default/">DEFAULT</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
 

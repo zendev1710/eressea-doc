@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -3705,10 +3705,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#alte-optionen" class="md-nav__link">
+  <a href="#old-options" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Alte Optionen
+        Old options
       
     </span>
   </a>
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7275,10 +7275,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#alte-optionen" class="md-nav__link">
+  <a href="#old-options" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Alte Optionen
+        Old options
       
     </span>
   </a>
@@ -7354,41 +7354,25 @@
 
 
 <h1 id="option">OPTION<a class="headerlink" href="#option" title="Permanent link">&para;</a></h1>
-<p><strong><code>OPTION</code></strong><code></code><em><code>option</code></em><code>[NOT]</code></p>
-<p>Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswertung genau aussieht.</p>
+<p><strong><code>OPTION</code></strong><code></code><em><code>option</code></em><code>[NOT]</code>  </p>
+<!-- TODO: check if the following options stay in german or not for english players -->
+
+<p>These options can be turned on and off. You control exactly what the evaluation looks like.</p>
 <ul>
-<li>
-<p><code>AUSWERTUNG</code>: Dies ist die normale Auswertung im Klartext. Falls man nur die Computer Auswertung verwendet, kann auf die normale Auswertung verzichtet werden.</p>
-</li>
-<li>
-<p><code>COMPUTER</code>: Diese Auswertung ist für Programme leichter zu lesen. Mit ihr kann jede Art von selber geschriebenen Programmen gespeist werden, z.B. Hilfstools oder Kartenzeichner.</p>
-</li>
-<li>
-<p><code>ZIPPED</code>: Die Auswertung wird vor dem Versand mit zip gepackt.</p>
-</li>
-<li>
-<p><code>BZIP2</code>: Die Auswertung wird vor dem Versand mit bzip2 gepackt.</p>
-</li>
-<li>
-<p><code>STATISTIK</code>: Mit dieser Option wird nach jeder Region in der normalen Auswertung eine kleine Statistik angezeigt.</p>
-</li>
-<li>
-<p><code>PUNKTE</code>: Mit dieser Option wird, frühestens ab der 13. Runde, eine Punktzahl ausgegeben, die einen kleinen Vergleich mit anderen Parteien zulässt.</p>
-</li>
-<li>
-<p><code>ZUGVORLAGE</code>: Eine separate Datei enthält eine <a href="../commands/">Vorlage für die Befehle der nächsten Runde</a>. Diese kann man hiermit aus- und wieder anstellen. Wer diese nicht benötigt, weil er z.B. zur Zugerstellung ein Tool benutzt, sollte die Zugvorlage abstellen.</p>
-</li>
-<li>
-<p><code>TALENTVERSCHIEBUNG</code>: Hiermit kann man eine kleine Anzeige im NR einschalten. Hinter dem Talent ist dann aufgeführt, wenn sich das Talent in der betreffenden Runde verändert hat.</p>
-</li>
-<li>
-<p><code>ADRESSEN</code>: Hiermit wird die Adressliste der Parteien, die man in der Runde gesehen hat, an den Report angehängt.</p>
-</li>
+<li><code>AUSWERTUNG</code>: This is the normal evaluation in plain text. If you only use the computer evaluation, the normal evaluation can be omitted</li>
+<li><code>COMPUTER</code>: This evaluation is easier for programs to read. It can be used to power any kind of self-written programs, e.g. auxiliary tools or map drawers</li>
+<li><code>ZIPPED</code>: The evaluation will be packed with zip before shipping</li>
+<li><code>BZIP2</code>: The evaluation is packed with bzip2 before shipping</li>
+<li><code>STATISTIK</code>: With this option, a small statistic is displayed after each region in the normal analysis</li>
+<li><code>PUNKTE</code>: With this option, from the 13<sup>th</sup> round at the earliest, a score is issued that allows a small comparison with other factions</li>
+<li><code>ZUGVORLAGE</code>: A separate file contains a <a href="../commands/">Template for the next round's orders</a>. This can be turned off and on again. If you don't need this, for example because you use a tool to create a move, you should turn off the move template</li>
+<li><code>TALENTVERSCHIEBUNG</code>: This allows you to switch on a small display in the NR. After the skill it is listed if the skill has changed in the round in question</li>
+<li><code>ADRESSEN</code>: This appends the address list of the factions seen in the group to the report</li>
 </ul>
-<h2 id="alte-optionen">Alte Optionen<a class="headerlink" href="#alte-optionen" title="Permanent link">&para;</a></h2>
-<p>Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silverpool als Standard gesetzt. Eine Deaktivierung ist nicht mehr möglich</p>
-<p><code>SILVERPOOL</code>: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silver von allen Einheiten der Region gesammelt wird.</p>
-<p><code>MATERIALPOOL</code>: ist der <a href="../items-pool/">Materialpool</a> eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silver mit dem <a href="../items-pool/#the-silver-pool">Silverpool</a> bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl <a href="../cmd-reserve/">RESERVE</a> Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein <code>RESERVE</code> vergaß.</p>
+<h2 id="old-options">Old options<a class="headerlink" href="#old-options" title="Permanent link">&para;</a></h2>
+<p>With evaluation number 559, the Material Pool and Silver Pool options were set as default. Deactivation is no longer possible.</p>
+<p><code>SILVERPOOL</code>: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.</p>
+<p><code>MATERIALPOOL</code>: If the <a href="../items-pool/">Material Pool</a> is switched on, all required items in a unit are collected as needed, similar to Silver with the <a href="../items-pool/#the-silver-pool">Silver Pool</a>. Units can use the <a href="../cmd-reserve/">RESERVE</a> command to secure items, preventing other units from taking them and consuming them. This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have one<code>RESERVE</code>forgot.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
 

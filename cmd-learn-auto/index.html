@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7287,25 +7287,35 @@
 
 
 <h1 id="learn-auto">LEARN AUTO<a class="headerlink" href="#learn-auto" title="Permanent link">&para;</a></h1>
-<p><strong><code>LEARN AUTO</code></strong><code></code><em><code>talent</code></em></p>
-<p>Durch den Befehl versucht der Server, das <a href="../cmd-learn/">Lernen</a> und <a href="../cmd-teach/">Lehren</a> in einer Region für alle Einheiten einer Partei mit diesem Befehl für dieses Talent zu automatisieren. Eine Mischung von TEACH und LEARN AUTO ist allerdings nicht möglich.</p>
-<p>Wenn in einer Region mehrere Einheiten den Befehl LEARN AUTO &lt;Talent&gt; geben, z.B. LEARN AUTO Segeln, dann sucht der Server aus diesen Einheiten selber diejenigen heraus, die lehren müssen, damit der Rest die maximale Lernausbeute bekommt. Wie beim einfachen TEACH lernt jede Person, die dadurch einen Lehrer bekommt, doppelt so schnell.</p>
-<p>Es ist nicht notwendig, Einheiten zu zerteilen. Wenn z.B. einen Einheit mit 10 Personen auf T7 und eine mit 10 Personen auf T5 beide LEARN AUTO befohlen haben, dann lehrt eine Person der T7 Einheit die zehn aus der T5 Einheit, die übrigen neun lernen normal. Mit den einfachen Befehlen hätte man dafür die Einheit aufteilen müssen, was sehr lästig werden kann.</p>
-<p>Dieser Effekt greift auch bei weniger als 10 Schülern. Eine Person welche mittels LEARN AUTO 6 Schüler lehrt, erhält hat eine 4/10 Chance eine Woche zu lernen. Können keine Schüler zugewiesen werden, lernt die Einheit normal.</p>
-<p>LEARN AUTO funktioniert nicht bei teuren Talenten und nicht in Kombination mit TEACH: Andere Einheiten, die gewöhnliche LEARN- und TEACH-Befehle benutzen, werden nicht an der automatischen Zuweisung von Lehrern beteiligt. Einheiten, die LEARN AUTO benutzen, können nicht durch TEACH gelehrt werden.</p>
-<p>Es kann trotzdem sinnvoll sein, TEACH und LEARN AUTO parallel für verschiedene Einheiten zu nutzen. Die Vorteile von TEACH./cmd-learn.md sind:</p>
+<p><strong><code>LEARN AUTO</code></strong><code></code><em><code>skill</code></em>  </p>
+<p>Through the order, the server attempts to automate <a href="../cmd-learn/">learning</a> and <a href="../cmd-teach/">teaching</a> in a region for all units in a faction using this order for this skill.
+However, a mixture of TEACH and LEARN AUTO is not possible.</p>
+<p>If several units in a region give the <code>LEARN AUTO &lt;skill&gt;</code> order, e.g. <code>LEARN AUTO sailing</code>, then the server selects those units from these units that have to teach so that the rest get the maximum learning output.
+As with simple <code>TEACH</code>, each person who gets a teacher learns twice as fast.</p>
+<p>There is no need to split units.
+For example, if a unit with 10 people on T7 and a unit with 10 people on T5 both have <code>LEARN AUTO</code> ordered, then one person from the T7 unit teaches the ten from the T5 unit, the remaining nine learn normally.
+With the simple orders you would have had to split up the unit, which can be very annoying.</p>
+<p>This effect also applies to fewer than 10 students.
+A person who teaches 6 students using <code>LEARN AUTO</code> has a 4/10 chance of learning for a week.
+If no students can be assigned, the unit learns normally.</p>
+<p><code>LEARN AUTO</code> does not work on expensive skills and not in combination with <code>TEACH</code>: other units that use ordinary <code>LEARN</code> and <code>TEACH</code> orders are not involved in the automatic assignment of teachers.
+Units that use <code>LEARN AUTO</code> cannot be taught through <code>TEACH</code>.</p>
+<p>It can still make sense to use <code>TEACH</code> and <code>LEARN AUTO</code> in parallel for different units.
+The advantages of TEACH/LEARN are:</p>
 <ul>
-<li>Einheiten mit teuren Talenten können gelehrt werden.</li>
-<li>Eine Einheit kann Einheiten in unterschiedlichen Talenten lehren.</li>
-<li>Lehrende und Lernende müssen nicht zur selben Partei gehören.</li>
-<li>Einheiten, die nicht lehren dürfen (zum Beispiel die meisten Vertrauten), können trotzdem gelehrt werden.</li>
+<li>Units with expensive skills can be taught</li>
+<li>A unit can teach units in different skills</li>
+<li>Teachers and learners do not have to belong to the same faction</li>
+<li>Units that are not allowed to teach (e.g. most familiars) can still be taught</li>
 </ul>
-<p>Die Vorteile von LEARN AUTO sind:</p>
+<p>The advantages of <code>LEARN AUTO</code> are:</p>
 <ul>
-<li>Es ist weniger Kleinarbeit und kann eher auch mal über mehrere Wochen "in Ruhe gelassen werden".</li>
-<li>Einheiten, die nicht voll als Lehrer genutzt werden, nutzen die Restkapazität um selber zu lernen.</li>
+<li>It's less detailed work and can be left alone for several weeks</li>
+<li>Units that are not fully used as teachers use the remaining capacity to learn themselves</li>
 </ul>
-<p>Spielererfahrung: XolgrimEin Block für LEARN AUTO besteht pro Region und Talent aus maximal 128 Einheiten. Setzen mehr Einheiten einer Partei in einer Region den Befehl, wird ein zweiter Block gebildet, der unabhängig vom ersten eine Lehre/Lern-Kette aufbaut.</p>
+<p>Player experience (XolgrimA):</p>
+<p>Block for <code>LEARN AUTO</code> consists of a maximum of 128 units per region and skill.
+If more units of a faction in a region give the order, a second block is formed that sets up a teaching/learning chain independently of the first.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN\_AUTO&oldid=15393] -->
 
 

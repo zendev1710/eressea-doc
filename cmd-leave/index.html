@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7287,15 +7287,21 @@
 
 
 <h1 id="leave">LEAVE<a class="headerlink" href="#leave" title="Permanent link">&para;</a></h1>
-<p><strong><code>LEAVE</code></strong></p>
-<p>Die Einheit wird das Schiff oder das Gebäude, in dem sie sich befindet, verlassen. Wenn man die Befehle <a href="../cmd-enter/">ENTER</a> oder <a href="../cmd-move/">MOVE</a> verwendet, verlassen die Einheiten z.T. automatisch ihre Schiffe und Gebäude. Dies funktioniert allerdings nicht immer: ist die Einheit Kapitän eines Schiffs und verwendet MOVE, wird sie versuchen in diese Richtung zu segeln, auch wenn dort Festland ist. Kapitäne müssen ihr Schiff zuerst <code>VERLASSEN</code>, alle anderen Segler können sich aber mit <code>MOVE</code> über Land bewegen und verlassen das Schiff dabei automatisch.</p>
-<p><strong><a href="../the-third-age/">E3A — Das Dritte Zeitalter</a></strong></p>
-<p>Gebäudebesitzer müssen ebenfalls das Gebäude <code>VERLASSEN</code> oder das Kommando abgeben, um sich zu Bewegen oder ein anderes Gebäude oder Schiff zu betreten.</p>
-<p>Verläßt eine Einheit ein Gebäude oder ein Schiff, über das sie das Kommando hat, fällt dieses nicht zwangsweise an die folgende Einheit des Reports. Hier sollte man mit [<code>GIVE unit-id KOMMANDO</code>] die Kommando-Übergabe kontrolliert vonstatten gehen lassen. Die Reihenfolge der Einheiten ist während der Auswertung nicht immer die dem Report entsprechende. Sind eigene Einheiten in dem Gebäude oder auf dem Schiff, fällt das Kommando aber diesen zu.</p>
-<p>Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-alliierten Partei bewacht, muss sie das Schiff erst verlassen, wenn sie bestimmte Aktionen durchführen will. Siehe hierzu Näheres unter <a href="../cmd-guard/">GUARD</a>. Auf offener See funktioniert der Verlasse-Befehl nicht. Eine Möglichkeit um Personen trotzdem über Bord springen zu lassen ist "Gib 0 [Anzahl] Personen". Eine andere, nur für Meermenschen bereitstehende Lösung, bei der die Personen nicht umkommen, ist das [Anschwimmen].</p>
+<p><strong><code>LEAVE</code></strong>  </p>
+<p>The unit will abandon the ship or the building in which it is located.
+If you use the <a href="../cmd-enter/">ENTER</a> or <a href="../cmd-move/">MOVE</a> orders, the units will sometimes automatically leave their ships and buildings.
+However, this doesn't always work: if the unit is the captain of a ship and uses MOVE, it will attempt to sail in that direction, even if there is land there.
+Captains must first 'LEAVE' their ship, but all other sailors can use 'MOVE' to move over land and automatically leave the ship.</p>
+<p>If a unit leaves a building or a ship over which it has command, this does not necessarily pass to the following unit in the report.
+Here you should use <a href="../cmd-give/"><code>GIVE unit-id COMMAND</code></a> let the handover of command take place in a controlled manner.
+The order of the units during the evaluation is not always that of the report.
+If your own units are in the building or on the ship, the order falls to them.</p>
+<p>If the unit is on a ship and the region is guarded by a non-allied faction, it must first leave the ship if it wants to carry out certain actions.
+For more information, see <a href="../cmd-guard/">GUARD</a>.
+The leave order does not work on the open sea.
+One way to still let people jump overboard is "Give 0[number]People".
+Another Aquarian-only solution that doesn't kill people is <a href="../sailing/#swimming">swimming</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
-
-<p>[Anschwimmen]./travel.md#anschwimmen</p>
 
 
 

@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    Commentaire //
   
 
     
@@ -4100,7 +4100,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENTAIRE (;)
+    Commentaire (;)
   
 
     
@@ -5391,7 +5391,7 @@
   <span class="md-ellipsis">
     
   
-    Sapin de Nöel
+    Sapin de Noël
   
 
     
@@ -7287,15 +7287,22 @@
 
 
 <h1 id="teach">TEACH<a class="headerlink" href="#teach" title="Permanent link">&para;</a></h1>
-<p><strong><code>TEACH</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>unit-id</code></em><code>[</code><em><code>unit-id</code></em><code>]...</code></p>
-<p>Um die Zeit herabzusetzen, die eine andere Einheit braucht, um ein Talent zu erlernen, kann man sie das Talent lehren. Dazu muss die lehrende Einheit in dem betreffenden Talent mindestens 2 Stufen besser als die lernende Einheit sein, Damit lernt die lernende Einheit doppelt so schnell, als wenn sie versucht, ihr Talent auf eigene Faust zu verbessern.</p>
-<p>Mit diesem Befehl lehrt man allen aufgelisteten Einheiten das Talent, das diese gerade lernen. Die Schüler müssen also lernen während der Lehrer lehrt. Es kann mehr als eine Einheit aufgelistet werden. Eine Lehrer-Einheit kann allerdings pro Person und Runde nur 10 Schüler von seinem Wissen profitieren lassen. Es können auch mehrere Lehrer eine große Schüler-Einheit lehren.</p>
-<p>Das zu lehrende Talent muss <strong>nicht</strong> angegeben werden - es wird automatisch das Talent gelehrt, welches die lernende Einheit lernt. Dies können auch verschiedene Talente sein, sofern der Lehrer diese Talente ausreichend besser als die Schüler beherrscht.</p>
-<p>Will man Einheiten fremder Parteien lehren, muss man von dieser Partei den Befehl <a href="../cmd-help/">HELP</a> GUARD erhalten haben oder die zu lehrende Einheit muss mit <a href="../cmd-contact/">CONTACT</a> den Lehrer kontaktieren.</p>
-<p><strong>Beispiel</strong>:</p>
-<div class="highlight"><pre><span></span><code> TEACH xxxx yyyy TEMP 2 zzzz
+<p><strong><code>TEACH</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>unit-id</code></em><code>[</code><em><code>unit-id</code></em><code>]...</code>  </p>
+<p>To reduce the time it takes for another unit to learn a skill, you can teach them the skill.
+To do this, the teaching unit must be at least 2 levels better than the learning unit in the skill in question.
+This means that the learning unit learns twice as quickly as if it tried to improve its skill on its own.</p>
+<p>This order teaches all listed units the skill they are currently learning.
+So the students have to learn while the teacher teaches.
+More than one entity can be listed. However, a teacher unit can only allow 10 students per person and round to benefit from their knowledge.
+Several teachers can also teach a large group of students.</p>
+<p>The skill to be taught must <strong>not</strong> be specified - the skill that the learning unit learns is automatically taught.
+These can also be different skills, provided the teacher has mastered these skills sufficiently better than the students.</p>
+<p>If you want to teach units from other factions, you must have received the <a href="../cmd-help/"><code>HELP GUARD</code></a> order from that faction or the unit to be taught must contact the teacher with <a href="../cmd-contact/">CONTACT</a>.</p>
+<p><strong>Example</strong>:</p>
+<div class="highlight"><pre><span></span><code>TEACH xxxx yyyy TEMP 2 zzzz
 </code></pre></div>
-<p>Durch den Befehl <a href="../cmd-learn-auto/">LEARN AUTO</a> versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von <code>TEACH</code> und <code>LEARN AUTO</code> ist allerdings nicht möglich.</p>
+<p>Through the <a href="../cmd-learn-auto/">LEARN AUTO</a> order, the server attempts to automate learning and teaching in a region within a faction.
+A mixture of <code>TEACH</code> and <code>LEARN AUTO</code>, however, is not possible.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
 

@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7287,17 +7287,24 @@
 
 
 <h1 id="help">HELP<a class="headerlink" href="#help" title="Permanent link">&para;</a></h1>
+<!-- TODO: replace PARTEITARNUNG -->
 <p><strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>GIVE [NOT]</code><br />
 <strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>COMBAT [NOT]</code><br />
 <strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>SILVER [NOT]</code><br />
 <strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>GUARD [NOT]</code><br />
 <strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>PARTEITARNUNG [NOT]</code><br />
 <strong><code>HELP</code></strong><code></code><em><code>faction-id</code></em><code>ALLES [NOT]</code>  </p>
-<p>Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.</p>
-<p>Die einzelnen Modi sind im Abschnitt über <a href="../alliances/">Alliances</a> erklärt. Beispiel:</p>
-<div class="highlight"><pre><span></span><code> HELP 7 GIVE NOT
+<p>This order allows a faction to set different levels of support for another faction.
+The counterparty does not learn about a change in status and does not have to have the same status.</p>
+<p>The individual modes are explained in the section about <a href="../alliances/">Alliances</a>.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>HELP 7 GIVE NOT
 </code></pre></div>
-<p>Spielererfahrung: SoltharHELFE pnr ohne Parameter macht dasselbe wie HELP pnr ALLES. HELP pnr NOT macht dasselbe wie HELP pnr ALLES NOT.</p>
+<p>Player experience (Solthar):</p>
+<ul>
+<li><code>HELP``</code><em><code>faction-id</code></em> without parameters does the same as <code>HELP``</code><em><code>faction-id</code></em> <code>ALL</code></li>
+<li><code>HELP``</code><em><code>faction-id</code></em><code>``NOT</code> does the same thing as <code>HELP``</code><em><code>faction-id</code></em><code>``ALL NOT</code></li>
+</ul>
 <!-- From [https://wiki.eressea.de/index.php?title=HELP&oldid=7439] -->
 
 

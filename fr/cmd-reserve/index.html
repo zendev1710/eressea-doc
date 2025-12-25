@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    Commentaire //
   
 
     
@@ -4041,10 +4041,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fehlerquellen" class="md-nav__link">
+  <a href="#sources-derreur" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fehlerquellen
+        Sources d'erreur
       
     </span>
   </a>
@@ -4052,10 +4052,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#beispiele" class="md-nav__link">
+  <a href="#exemples" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Beispiele
+        Exemples
       
     </span>
   </a>
@@ -4180,7 +4180,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENTAIRE (;)
+    Commentaire (;)
   
 
     
@@ -5461,7 +5461,7 @@
   <span class="md-ellipsis">
     
   
-    Sapin de Nöel
+    Sapin de Noël
   
 
     
@@ -7297,10 +7297,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fehlerquellen" class="md-nav__link">
+  <a href="#sources-derreur" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fehlerquellen
+        Sources d'erreur
       
     </span>
   </a>
@@ -7308,10 +7308,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#beispiele" class="md-nav__link">
+  <a href="#exemples" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Beispiele
+        Exemples
       
     </span>
   </a>
@@ -7400,37 +7400,40 @@
 <h1 id="reserve">RESERVE<a class="headerlink" href="#reserve" title="Permanent link">&para;</a></h1>
 <p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>gegenstand</code></em><br />
 <strong><code>RESERVE</code></strong><code>ALLES</code><em><code>gegenstand</code></em><br />
-<strong><code>RESERVE</code></strong><code>JE</code><em><code>number</code></em><code></code><em><code>gegenstand</code></em></p>
-<p>Hiermit kann sich eine Einheit Gegenstände oder Silver von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber <a href="../items-pool/">Materialpool</a>!).</p>
-<p>Mit <code>RESERVE ALLES</code><em><code>gegenstand</code></em> reserviert eine Einheit von dem angegebenen Gegenstand alles, was sie besitzt.</p>
-<p>Mit <code>RESERVE JE</code> werden <em><code>number</code></em> Gegenstände <em>pro Person</em> reserviert.</p>
-<div class="highlight"><pre><span></span><code>RESERVE JE 100 Silver
+<strong><code>RESERVE</code></strong><code>EACH</code><em><code>number</code></em><code></code><em><code>gegenstand</code></em></p>
+<p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>Item</code></em><br />
+<strong><code>RESERVE</code></strong><code>ALL</code><em><code>Item</code></em><br />
+<strong><code>RESERVE</code></strong><code>EACH</code><em><code>number</code></em><code></code><em><code>Item</code></em>  </p>
+<p>This allows a unit to take and “save” items or silver from other units in the region.
+It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (but see <a href="../items-pool/">Items pool</a>!).</p>
+<p>With<code>RESERVE ALL``</code>*<code>Item</code>*A unit reserves everything it owns from the specified item.</p>
+<p>With <code>RESERVE EACH``</code><em><code>number</code></em><code></code><em><code>Item</code></em>, <em><code>number</code></em> items <strong>per person</strong> are reserved.</p>
+<div class="highlight"><pre><span></span><code>RESERVE EACH 100 Silver
 </code></pre></div>
-<p>reserviert bei einer Einheit mit 10 Personen also 1000 Silver.</p>
-<h2 id="fehlerquellen">Fehlerquellen<a class="headerlink" href="#fehlerquellen" title="Permanent link">&para;</a></h2>
+<h2 id="sources-derreur">Sources d'erreur<a class="headerlink" href="#sources-derreur" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>TEMP</code>-Einheiten können nicht reservieren! Silver wie Gegenstände müssen ihnen mit <a href="../cmd-give/">GIVE</a> übergeben werden.</li>
-<li><code>RESERVE</code> kommt vor <a href="../cmd-give/">GIVE</a>[<code>GIVE</code>] und <a href="../cmd-recruit/">RECRUIT</a> in der <a href="../commands-sequence/">Befehlsreihenfolge</a>. Also bezieht sich <code>JE</code> auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.</li>
-<li>Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe <a href="../items-pool/">Materialpool</a>.</li>
-<li>Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.</li>
+<li><code>TEMP</code> unit cannot reserve! Silver like items must be given to them using <a href="../cmd-give/">GIVE</a></li>
+<li><code>RESERVE</code> occurs <a href="../cmd-give/">GIVE</a> and <a href="../cmd-recruit/">RECRUIT</a> in the <a href="../commands-sequence/">Orders sequence</a>. So relates <code>EACH</code> on the number of people before handover and recruitment</li>
+<li>If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see <a href="../items-pool/">Items pool</a></li>
+<li>If the same item is reserved by a unit several times, only the last entry is valid</li>
 </ul>
-<h2 id="beispiele">Beispiele<a class="headerlink" href="#beispiele" title="Permanent link">&para;</a></h2>
-<p>Mit</p>
-<div class="highlight"><pre><span></span><code> RESERVE JE 1 Schwert
- RESERVE JE 1 Schild
- GIVE depo ALLES
+<h2 id="exemples">Exemples<a class="headerlink" href="#exemples" title="Permanent link">&para;</a></h2>
+<p>With:</p>
+<div class="highlight"><pre><span></span><code>RESERVE EACH 1 Sword
+RESERVE EACH 1 Shield
+GIVE depo ALL
 </code></pre></div>
-<p>kann eine Einheit, auch nach einem verlustreichen Kampf, pro Person eine Waffe und einen Schild behalten und alles andere (Beute) an eine Depot-Einheit abgeben.</p>
-<p>Mit</p>
-<div class="highlight"><pre><span></span><code> @RESERVE 100 Silver
- RESERVE 1 Schwert
- RESERVE 50 Silver
+<p>A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.</p>
+<p>With:</p>
+<div class="highlight"><pre><span></span><code>@RESERVE 100 Silver
+RESERVE 1 Sword
+RESERVE 50 Silver
 </code></pre></div>
-<p>wird die Einheit ein Schwert und 50 Silver reservieren.</p>
+<p>the unit will reserve a sword and 50 silver.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../items-pool/">Materialpool</a></li>
-<li><a href="../cmd-give/">GIVE</a>[<code>GIVE</code>]</li>
+<li><a href="../items-pool/">Items pool</a></li>
+<li><a href="../cmd-give/">GIVE</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVE&oldid=14809] -->
 

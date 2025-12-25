@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4110,7 +4110,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7287,25 +7287,28 @@
 
 
 <h1 id="name">NAME<a class="headerlink" href="#name" title="Permanent link">&para;</a></h1>
-<div class="highlight"><pre><span></span><code>NAME UNIT &quot;name&quot;
-NAME FREMDE UNIT unit-id &quot;name&quot;
-NAME PARTEI &quot;name&quot;
-NAME FREMDE PARTEI faction-id &quot;name&quot;
-NAME GEBÄUDE &quot;name&quot;
-NAME FREMDES GEBÄUDE building-id &quot;name&quot;
-NAME SCHIFF &quot;name&quot;
-NAME FREMDES SCHIFF ship-id &quot;name&quot;
-NAME REGION &quot;name&quot;
-NAME GROUP &quot;name&quot;
-</code></pre></div>
-<p>Benenne das aufgeführte Objekt neu. Schiffe und Gebäude können nur umbenannt werden, wenn die Einheit auch das Kommando über das Gebäude oder das Schiff hat - sie muss also die erste Einheit unter dem Gebäude oder dem Schiff in der Auswertung sein. Eine Region kann nur vom Burgherr der mächtigsten Burg einer Region umbenannt werden. Gruppen können nur von Gruppenmitgliedern umbenannt werden und der neue Gruppenname darf nicht bereits vorhanden sein.</p>
-<p>Der neue Name kann bis zu 127 Zeichen lang sein. Längere Beschreibungen fügt man mit dem Befehl <a href="../cmd-describe/">DESCRIBE</a> an.</p>
-<p>Durch den Zusatz <code>FREMDE</code> (bzw. <code>FREMDES</code>) und der Angabe der Nummer kann man Einheiten, Schiffe und sogar Gebäude (nicht nur Burgen) anderer Parteien benennen, sofern diese noch keinen Namen haben (Einheiten also als "Einheit abc" benannt sind). Man kann sogar eine fremde Partei benennen, sofern diese älter als zehn Runden ist.</p>
-<p>Auch das Benennen der Partei muss von einer Einheit ausgeführt werden.</p>
-<div class="highlight"><pre><span></span><code>ERESSEA 7 &quot;sieben&quot;
-   NAME PARTEI &quot;Falsch&quot; ; kein Effekt
-   UNIT 89
-      NAME PARTEI &quot;Richtig&quot;
+<p><strong><code>NAME UNIT</code></strong><code></code><em><code>"name"</code></em><br />
+<strong><code>NAME STRANGERS UNIT</code></strong><code></code><em><code>unit-id "name"</code></em><br />
+<strong><code>NAME FACTION</code></strong><code></code>* <code>"name"</code><em><br />
+<strong><code>NAME STRANGERS FACTION</code></strong><code></code></em><code>faction-id "name"</code><em><br />
+<strong><code>NAME BUILDIN?G</code></strong><code></code></em><code>"name"</code><em><br />
+<strong><code>NAME STRANGERS GEBÄUDE</code></strong><code></code></em><code>building-id "name"</code><em><br />
+<strong><code>NAME SHIP</code></strong><code></code></em><code>"name"</code><em><br />
+<strong><code>NAME STRANGERS SHIP</code></strong><code></code></em><code>ship-id "name"</code><em><br />
+<strong><code>NAME REGION</code></strong><code></code></em><code>"name"</code><em><br />
+<strong><code>NAME GROUP</code></strong><code></code></em><code>"name"</code>*  </p>
+<p>Rename the listed item.
+Ships and buildings can only be renamed if the unit also has command of the building or ship - so it must be the first unit under the building or ship in the evaluation.
+A region can only be renamed by the lord of the most powerful castle in a region.
+Groups can only be renamed by group members and the new group name cannot already exist.</p>
+<p>The new name can be up to 127 characters long. Longer descriptions can be added using the <a href="../cmd-describe/">DESCRIBE</a> command.</p>
+<p>Through the addition <code>STRANGERS</code> (or <code>STRANGER</code>) and specifying the number, you can name units, ships and even buildings (not just castles) of other parties if they do not yet have a name (i.e. units are named as "unit abc").
+You can even name a foreign faction as long as it is older than ten rounds.</p>
+<p>The naming of the faction must also be carried out by a unit.</p>
+<div class="highlight"><pre><span></span><code>ERESSEA 7 &quot;Seven&quot;
+    NAME FACTION &quot;Incorrect&quot; ; no effect
+    UNIT 89
+        NAME FACTION &quot;Correct&quot;
 </code></pre></div>
 <!-- From [https://wiki.eressea.de/index.php?title=NAME&oldid=16968] -->
 

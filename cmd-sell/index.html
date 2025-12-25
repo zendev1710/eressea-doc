@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -4158,7 +4158,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7354,16 +7354,25 @@
 
 
 <h1 id="sell">SELL<a class="headerlink" href="#sell" title="Permanent link">&para;</a></h1>
-<p><strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>number</code></em><code></code><em><code>luxusgut</code></em><br />
-<strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code>ALLES</code><em><code>luxusgut</code></em></p>
-<p>Die im <a href="../silver/#trade">Handeln</a> kundige Einheit kann mit diesem Befehl Luxusgüter, in deren Besitz sie ist, an die Bauern verkaufen. Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer <a href="../castles/">Burgtyp</a> befindet, in dessen Nähe der Markt abgehalten werden kann, und wenn zweitens überhaupt eine Nachfrage nach dem Produkt besteht. Um etwas zu verkaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen ...</p>
-<p>Mit <code>SELL ALLES</code> wird soviel verkauft, wie die Nachfrage der Region ist. Das klappt auch, wenn in der gleichen Woche das Handelsvolumen (z.B. durch Rekrutierungen) sinkt. Der Befehl sollte aber nicht mehr als einer Einheit pro Region oder gar von mehreren Parteien erteilt werden: Sobald mehrere Einheiten in der Region SELL-Befehle haben, ist nicht mehr garantiert, was bei <code>SELL ALLES</code> passiert.</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>SELL</code> ist wie <a href="../cmd-buy/">BUY</a> ein <a href="../commands/">"pseudolanger" Befehl</a>. Man kann insgesamt Talentstufe(Handeln) * 10 Luxusgüter verkaufen und kaufen, allerdings keine anderen langen Befehle geben. BUY-Order haben Priorität vor Verkäufen. <code>BUY</code>-Befehle werden also generell vor <code>SELL</code> ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen. Auch bedeutet das, dass Einheiten ohne genügend Talent für die Ausführung aller <code>BUY</code>- und <code>SELL</code>-Befehle zuerst so viel wie möglich kaufen und gegebenenfalls keine Talentpunkte fürs Verkaufen übrig sind.</p>
-<p>Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht eine große Liste von Befehlen dort steht. Im Computerreport und der <a href="../commands/">Zugvorlage</a> sind alle <code>BUY</code>- und <code>SELL</code>-Befehle aufgeführt.</p>
+<p><strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>number</code></em><code></code><em><code>Luxury item</code></em><br />
+<strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code>ALL</code><em><code>Luxury item</code></em>  </p>
+<p>The unit skilled in <a href="../silver/#trade">trading</a> can use this order to sell luxury goods that it owns to the farmers.
+This is only possible if, firstly, there is a trading post or larger <a href="../castles/">castle type</a> in the region near which the market can be held, and secondly, if there is any demand for the product at all.
+In order to sell something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...</p>
+<p>With <code>SELL ALL</code> is sold as much as the demand in the region.
+This also works if the trading volume drops in the same week (e.g. due to recruitment).
+However, the order should not be given to more than one unit per region or even by several factions: as soon as several units in the region have SELL orders, it is no longer guaranteed what will happen <code>SELL ALLES</code> happened.</p>
+<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>SELL</code> is, like <a href="../cmd-buy/">BUY</a>, a <a href="../commands/">"pseudo-long" order</a>.</p>
+<p>You can choose a total skill level (acting) x sell and buy 10 luxury goods, but do not give any other long orders.
+BUY orders have priority over sales. <code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
+It also means that units without enough skill to execute all <code>BUY</code> - and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
+<p>Only one order appears in the normal report.
+But this is only so that there is not a large list of orders there.
+In the computer report and the <a href="../commands/">move template</a> are all<code>BUY</code> - and <code>SELL</code> - orders listed.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../silver/#trade">Handel</a></li>
-<li><a href="../cmd-buy/">BUY</a>[<code>BUY</code>]</li>
+<li><a href="../silver/#trade">trading</a></li>
+<li><a href="../cmd-buy/">BUY</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
 

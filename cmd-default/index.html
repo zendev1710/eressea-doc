@@ -2896,7 +2896,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (//)
+    // Comment
   
 
     
@@ -3005,10 +3005,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#zugvorlage-und-defaultbefehle" class="md-nav__link">
+  <a href="#orders-template-and-default-orders" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Zugvorlage und Defaultbefehle
+        Orders template and default orders
       
     </span>
   </a>
@@ -3016,10 +3016,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#der-befehl-default" class="md-nav__link">
+  <a href="#the-default-order" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Der Befehl DEFAULT
+        The DEFAULT order
       
     </span>
   </a>
@@ -3027,10 +3027,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#der-befehl-move" class="md-nav__link">
+  <a href="#the-move-order" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Der Befehl MOVE
+        The MOVE order
       
     </span>
   </a>
@@ -4191,7 +4191,7 @@
   <span class="md-ellipsis">
     
   
-    COMMENT (;)
+    ; COMMENT
   
 
     
@@ -7308,10 +7308,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#zugvorlage-und-defaultbefehle" class="md-nav__link">
+  <a href="#orders-template-and-default-orders" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Zugvorlage und Defaultbefehle
+        Orders template and default orders
       
     </span>
   </a>
@@ -7319,10 +7319,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#der-befehl-default" class="md-nav__link">
+  <a href="#the-default-order" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Der Befehl DEFAULT
+        The DEFAULT order
       
     </span>
   </a>
@@ -7330,10 +7330,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#der-befehl-move" class="md-nav__link">
+  <a href="#the-move-order" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Der Befehl MOVE
+        The MOVE order
       
     </span>
   </a>
@@ -7420,110 +7420,134 @@
 
 
 <h1 id="default">DEFAULT<a class="headerlink" href="#default" title="Permanent link">&para;</a></h1>
-<p><strong><code>DEFAULT</code></strong><code>"</code><em><code>befehl</code></em><code>"</code></p>
-<p><code>DEFAULT</code> ändert den <a href="../commands/">Befehl</a>, den eine Einheit normalerweise <em>in der nächsten Woche</em> ausführen würde:</p>
-<h2 id="zugvorlage-und-defaultbefehle">Zugvorlage und Defaultbefehle<a class="headerlink" href="#zugvorlage-und-defaultbefehle" title="Permanent link">&para;</a></h2>
-<p>Nachdem ich meine Befehle eingeschickt habe und der Server die Auswertung erstellt hat, kommen für jede Einheit bestimmte Befehle zurück. Das sind die Defaultbefehle. Sie werden in der nächsten Woche ausgeführt, falls du <em>für diese Einheit</em> keine Befehle einschickst. Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit <a href="../cmd-option/">OPTION</a><code>ZUGVORLAGE NOT</code> abgeschaltet hast. Außerdem sind sie im Computerreport (CR) enthalten. Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.</p>
-<p>In die Defaultbefehle einer Einheit werden normalerweise alle <a href="../commands/#short-and-long-orders">langen Befehle</a> übernommen. Ausgenommen davon sind ATTACK, FOLLOW und MOVE. Außerdem werden alle <a href="../cmd-comment-slash/">//</a>-Kommentare und alle Befehle, die mit @ beginnen übernommen. Die Schreibweise wird dabei möglicherweise standardisiert.</p>
-<p>Eingeschickte Befehle:</p>
-<div class="highlight"><pre><span></span><code> UNIT abc
- ; diese Woche nur 10
- kAufe 10 Bals
- SELL 100 Öl
- // nächste Woche mehr Balsam kaufen
- @GIVE xyz ALLES Balsam ; Transporter
- GIVE abc 100 Silver
- RECRUIT 1
+<p><strong><code>DEFAULT</code></strong><code>"</code><em><code>order</code></em><code>"</code>  </p>
+<p><code>DEFAULT</code>changes the <a href="../commands/">command</a> that a unit normally issues <strong>in the next week</strong> would execute:</p>
+<h2 id="orders-template-and-default-orders">Orders template and default orders<a class="headerlink" href="#orders-template-and-default-orders" title="Permanent link">&para;</a></h2>
+<p>After I have sent in my orders and the server has created the evaluation, specific orders come for each unit zurück.
+These are the default orders.
+They will be executed next week if you don't send in orders <em>for this unit</em>.
+You will receive the default orders with the report as a text file (also called a move template or orders template) if you do not use them with <a href="../cmd-option/"><code>OPTION ZUGVORLAGE NOT</code></a> switched off.
+They are also included in the computer report (CR).
+The normal report (NR) always only contains the first long default order.
+So you can't see all the default orders there.</p>
+<p>All <a href="../commands/#short-and-long-orders">long orders</a> are normally included in a unit's default orders.
+Exceptions are <code>ATTACK</code>, <code>FOLLOW</code> and <code>MOVE</code>.
+In addition, all <a href="../cmd-comment-slash/">// Comment</a> and all orders beginning with <code>@</code> are adopted.
+The spelling may be standardized.</p>
+<p>Orders sent in:</p>
+<div class="highlight"><pre><span></span><code>    UNIT abc
+    ; only 10 this week
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> UNIT abc
- BUY 10 Bals
- SELL 100 Öl
- // nächste Woche mehr Balsam kaufen
- @GIVE xyz ALLES Balsam ; Transporter
+<p>Default orders for next week:</p>
+<div class="highlight"><pre><span></span><code>    UNIT abc
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
-<p>Was passiert, wenn die Einheit illegalerweise mehrere lange Befehle bekommen hat (zum Beispiel LEARN und WORK), ist übrigens nicht genau definiert. Das Gleiche gilt für sonstige ungültige Befehle.</p>
-<h2 id="der-befehl-default">Der Befehl DEFAULT<a class="headerlink" href="#der-befehl-default" title="Permanent link">&para;</a></h2>
-<p>Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden. Wenn die Einheit einen DEFAULT-Befehl bekommen hat, werden ihre <strong>langen</strong> Befehle nicht in die Vorlage übernommen. <a href="../cmd-comment-slash/">Lange Kommentare</a> (mit <code>//</code>) und kurze @-Befehle werden dagegen übernommen. Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert. Ungültige Befehle werden also nicht übernommen. Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.</p>
-<p>Man kann auch kurze Befehle mit dem Befehl DEFAULT einfügen.</p>
-<p>Eingeschickte Befehle:</p>
-<div class="highlight"><pre><span></span><code> UNIT abc
- ; diese Woche nur 10
- Kaufe 10 Balsam
- SELL 100 Öl
- // nächste Woche lernen
- @GIVE xyz ALLES Balsam ; Transporter
- GIVE abc 100 Silver
- RECRUIT 1
- DEFAULT &quot;GIVE 123 50 Silver; nicht vergessen&quot;
- DEFAULT &quot;LEARN Handel&quot; ; löscht BUY und SELL
- DEFAULT &quot;XXX&quot; ; kein Befehl, wird nicht übernommen
+<p>By the way, what happens if the unit has illegally received several long orders (for example <code>LEARN</code> and <code>WORK</code>) is not precisely defined.
+The same applies to other invalid orders.</p>
+<h2 id="the-default-order">The DEFAULT order<a class="headerlink" href="#the-default-order" title="Permanent link">&para;</a></h2>
+<p>The <code>DEFAULT</code> order changes this behavior by changing the default orders that come back from the server.
+If the unit has received a <code>DEFAULT</code> order, its <strong>long</strong> orders not included in the template.
+<a href="../commands/#short-and-long-orders">long orders</a> (with <code>//</code>) and short <code>@</code> orders are accepted.
+The given orders are validated to a certain extent.
+Invalid orders are therefore not accepted.
+However, this test has limitations, it is better not to rely on it.</p>
+<p>You can also insert short orders using the <code>DEFAULT</code> order.</p>
+<p>Orders sent in:</p>
+<div class="highlight"><pre><span></span><code>    UNIT abc
+    ; this week only 10
+    BUY 10 Balm
+    SELL 100 Öl
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
+    DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
+    DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY und SELL
+    DEFAULT &quot;XXX&quot; ; no order, will not be accepted
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> UNIT abc
- GIVE 123 50 Silver; nicht vergessen
- LEARN Handel
- // nächste Woche lernen
- @GIVE xyz ALLES Balsam ; Transporter
+<p>Default orders for next week:</p>
+<div class="highlight"><pre><span></span><code>    UNIT abc
+    GIVE 123 50 Silver; don&#39;t forget
+    LEARN Trade
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
-<p>Falls deine Defaultbefehle Anführungszeichen enthalten müssen, gibt es ein paar Wege, das derzeit zu erreichen:</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;CAST &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;&quot;
- DEFAULT &#39;CAST &quot;Erschaffe einen Ring der Unsichtbarkeit&quot;&#39;
- DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
- DEFAULT &quot;MAKE 1 &#39;Wasser des Lebens&#39;&quot;
+<p>If your default orders need to contain quotes, there are currently a few ways to achieve this:</p>
+<div class="highlight"><pre><span></span><code>    DEFAULT &quot;CAST &#39;Create a Ring of Invisibility&#39;&quot;
+    DEFAULT &#39;CAST &quot;Create a Ring of Invisibility&quot;&#39;
+    DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
+    DEFAULT &quot;MAKE 1 &#39;Water of life&#39;&quot;
 </code></pre></div>
-<h2 id="der-befehl-move">Der Befehl MOVE<a class="headerlink" href="#der-befehl-move" title="Permanent link">&para;</a></h2>
-<p>Der MOVE-Befehl spielt eine besondere Rolle: Er wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte, allerdings nur lange Befehle.</p>
-<p>Defaultbefehle</p>
-<div class="highlight"><pre><span></span><code> LEARN Reiten
- @GIVE 0 10 Silver
- // no comment
+<h2 id="the-move-order">The MOVE order<a class="headerlink" href="#the-move-order" title="Permanent link">&para;</a></h2>
+<p>The <code>MOVE</code> order plays a special role: it is not included in the template.
+Instead, the long orders that the unit had in the template last week are adopted, but only long orders.</p>
+<p>Default orders:</p>
+<div class="highlight"><pre><span></span><code>     LEARN Ride
+     @GIVE 0 10 Silver
+     // no comment
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> MOVE o
+<p>Orders sent in:</p>
+<div class="highlight"><pre><span></span><code>    MOVE e
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> LEARN Reiten
+<p>Default commands for next week:</p>
+<div class="highlight"><pre><span></span><code>    LEARN Ride
 </code></pre></div>
-<p>Was passiert, wenn sowohl MOVE als auch DEFAULT im Spiel ist?</p>
-<p>Vorlage:</p>
-<div class="highlight"><pre><span></span><code> WORK
- // jetzt nach westen
+<p>What happens if both <code>MOVE</code> and <code>DEFAULT</code> are in play?</p>
+<p>Template:</p>
+<div class="highlight"><pre><span></span><code>    WORK
+    // now to the west
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;LEARN Ausdauer&quot;
- // nun lernen
- MOVE w
+<p>Orders sent in:</p>
+<div class="highlight"><pre><span></span><code>    DEFAULT &quot;LEARN Endurance&quot;
+    // now learn
+    MOVE w
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> LEARN Ausdauer
- // nun lernen
+<p>Default orders for next week:</p>
+<div class="highlight"><pre><span></span><code>    LEARN Endurance
+    // now learn
 </code></pre></div>
-<p>DEFAULT löscht also auch hier die <em>langen</em> Defaultbefehle (hier WORK) und setzt sie neu.</p>
-<p>Es ist möglich, MOVE mit DEFAULT zu setzen. Vorlage:</p>
-<div class="highlight"><pre><span></span><code> WORK
- @GIVE 0 1 Silver
+<p><code>DEFAULT</code> deletes them here too <strong>long</strong> default orders (here <code>WORK</code>) and reset them.</p>
+<p>It is possible to set <code>MOVE</code> with <code>DEFAULT</code>.</p>
+<p>Template:</p>
+<div class="highlight"><pre><span></span><code>    WORK
+    @GIVE 0 1 Silver
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;MOVE o&quot;
- WORK
- @GIVE 0 2 Silver
+<p>Orders sent in:</p>
+<div class="highlight"><pre><span></span><code>    DEFAULT &quot;MOVE o&quot;
+    WORK
+    @GIVE 0 2 Silver
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> MOVE o
- @GIVE 0 2 Silver
+<p>Default orders for next week:</p>
+<div class="highlight"><pre><span></span><code>    MOVE o
+    @GIVE 0 2 Silver
 </code></pre></div>
-<p>Defaultbefehle der übernächsten Woche, wenn sonst keine Befehle für die Einheit eingeschickt werden:</p>
-<div class="highlight"><pre><span></span><code> @GIVE 0 2 Silver
+<p>Default orders for the week after next if no other orders are sent in for the unit:</p>
+<div class="highlight"><pre><span></span><code>    @GIVE 0 2 Silver
 </code></pre></div>
-<p>Auch hier würde die Einheit also dann keinen langen Befehl ausführen.</p>
-<p><strong>Hinweis:</strong> Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.</p>
-<p>Spielererfahrung: Solthar <code>DEFAULT DEFAULT</code>???</p>
-<p>Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen? Nun, so etwas wie <code>DEFAULT "DEFAULT 'LEARN Ausdauer'"</code> funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben. Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast. Für solche Vorhaben sind Scriptsprachen wie <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">ExtendedCommands</a> oder <a href="../fftools/">FFTools</a> besser geeignet.</p>
+<p>Here too, the unit would not carry out a long command.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is a cap on the number of orders stored for a unit.
+This is currently 128 orders, which should easily be enough for most purposes.</p>
+</div>
+<p>Player experience (Solthar):</p>
+<p><code>DEFAULT DEFAULT</code> ???</p>
+<p>Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
+Well, something like <code>DEFAULT "DEFAULT 'LEARN Endurance'"</code> apparently works as you would expect, but the game management would rather not make any guarantees about it.
+Please do not submit bug reports if something like this doesn't work as expected. Scripting languages ​​such as <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">Extended commands</a> or <a href="../fftools/">FFTools</a> are better suited for such projects.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../commands/">Befehl</a></li>
-<li><a href="../commands-send/">Befehle einschicken</a></li>
+<li><a href="../commands/">Orders</a></li>
+<li><a href="../commands-send/">Sending orders</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 

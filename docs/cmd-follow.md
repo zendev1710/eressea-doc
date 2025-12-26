@@ -30,21 +30,21 @@ If the optional parameter *Speed* is specified, the pursuing ship will sail a ma
 `FOLLOW` only lasts in the round in which the order is given. If the order is to last longer, it must be preceded by a `@`.
 
 ```text
-    UNIT 87b6
-        @FOLLOW UNIT hz7
-        ENTERTAIN
+UNIT 87b6
+    @FOLLOW UNIT hz7
+    ENTERTAIN
 ```
 
 Unit *87b6* will now watch unit *hz7* and follow it as it moves.
 Otherwise, she will make money from entertainment.
-With the `@` both commands are retained.
+With the `@` both orders are retained.
 
 Player experience (Solthar):
 
 It is possible to use a unit A to follow a unit B, which in turn follows a third unit C.
 However, this means that A no longer executes a long order, because at this point the server assumes that unit B is also moving, regardless of whether unit C is also moving.
 
-It is not possible to meaningfully issue multiple FOLLOW commands.
+It is not possible to meaningfully issue multiple FOLLOW orders.
 Only the first one is always executed.
 
 ## See also

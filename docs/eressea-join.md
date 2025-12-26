@@ -47,9 +47,9 @@ The order itself should be in bold and in capital letters, keywords in capital l
 Example commands and report quotes should be set as "preformatted" text:
 
 ```text
-    MAKE TEMP 123
-        RECRUIT 1
-    END
+MAKE TEMP 123
+    RECRUIT 1
+END
 ```
 
 Other examples should not be set as a separate section, but rather as a separate paragraph that begins with the word "example" in bold.
@@ -57,7 +57,6 @@ Other examples should not be set as a separate section, but rather as a separate
 **Example** :
 
 ```text
-    '''Example''':
-       DESCRIBE UNIT "The sign says 'No Trespassing!'"
+   DESCRIBE UNIT "The sign says 'No Trespassing!'"
 ```
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea:Mitmachen&oldid=16081] -->

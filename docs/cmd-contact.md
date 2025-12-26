@@ -18,14 +18,13 @@ The `CONTACT unit-id` order is allowed for historical reasons, but should be pas
 **Examples:**
 
 ```text
-    PARTEI ff "FooBar"
-        UNIT a
-        GIVE x 1000 Silver ; Tribut!
-        [...]
-
-    PARTEI 300 "BarFoo"
-        UNIT x
-        CONTACT UNIT a ; erlaube Zahlung.
+PARTEI ff "FooBar"
+    UNIT a
+    GIVE x 1000 Silver ; Tribut!
+    [...]
+PARTEI 300 "BarFoo"
+    UNIT x
+    CONTACT UNIT a ; erlaube Zahlung.
 ```
 
 Unit a can give unit x the 1000 silver.
@@ -46,4 +45,3 @@ In order for unit a to recruit, x and y must both `CONTACT UNIT a` or `CONTACT P
 - `HELP`is permanent and applies to all units of my faction or group (and all units of the other faction)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->
-

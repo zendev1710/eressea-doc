@@ -17,9 +17,9 @@ Blocks without id are always subblocks of the last previous block with id. A blo
 Examples:
 
 ```text
-    VERSION 16
-    REGION -3 -7
-    REGIONSBOTSCHAFTEN
+VERSION 16
+REGION -3 -7
+REGIONSBOTSCHAFTEN
 ```
 
 ## Attributes
@@ -31,9 +31,9 @@ Since version 35, an attribute may only appear once within a block. In CR versio
 Examples:
 
 ```text
-    0 0;Bergbau
-    "Xandaryl";Insel
-    172;Runde
+0 0;Bergbau
+"Xandaryl";Insel
+172;Runde
 ```
 
 ## List entries
@@ -43,9 +43,9 @@ Attributes without a tag must be treated separately. These are entries in a list
 Example:
 
 ```text
-    "MAKE Haus"
-    "Thorin; ein Recke"
-    "Thorin (thor) konnte kein Silber verdienen"
+"MAKE Haus"
+"Thorin; ein Recke"
+"Thorin (thor) konnte kein Silber verdienen"
 ```
 
 ## Tips for implementation

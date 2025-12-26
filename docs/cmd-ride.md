@@ -12,21 +12,21 @@ With this order it is possible to travel on horses or carts even without the rid
 The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.
 
 ```text
-    Partei 125:
-        UNIT 311
-            RIDE 456 ; I want to go with you
-            CONTACT 456
-            [...]
-      
-    Partei 300:
-        UNIT 777
-            RIDE 456 ; I want to go with you
-      
-    Partei 300:
-        UNIT 456
-            CARRY 311 ; Let 311 come along for the ride
-            CARRY 777 ; and 777 is also taken
-            CONTACT 311
+Partei 125:
+    UNIT 311
+        RIDE 456 ; I want to go with you
+        CONTACT 456
+        [...]
+  
+Partei 300:
+    UNIT 777
+        RIDE 456 ; I want to go with you
+  
+Partei 300:
+    UNIT 456
+        CARRY 311 ; Let 311 come along for the ride
+        CARRY 777 ; and 777 is also taken
+        CONTACT 311
 ```
 
 [<sup>L</sup>][<sup>`L`</sup>] `RIDE` is a long order. `CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.

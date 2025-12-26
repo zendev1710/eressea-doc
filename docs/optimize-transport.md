@@ -17,29 +17,29 @@ A simple example:
 You have to transport 10 stones (60 kg each) and 100 jewels (1 kg each). However, only 500GE capacity is available. A stone is valued at 1200, a jewel at a value of 50. Since the jewels offer more value per kg (50 per kg), we load all the jewels first:
 
 ```text
-    Value  = 100 * 50 = 5000
-    Charge = 100 * 1 kg = 100 kg
-    Free   = 400 kg
+Value  = 100 * 50 = 5000
+Charge = 100 * 1 kg = 100 kg
+Free   = 400 kg
 ```
 
 At 400 kg we still manage to load 6 stones, leaving 40 kg free.
 
 ```text
-    Value  = 5000 + 6 * 1200 = 12200
-    Charge = 100 kg + 6 * 60 kg = 460 kg
-    Free   = 40 kg
+Value  = 5000 + 6 * 1200 = 12200
+Charge = 100 kg + 6 * 60 kg = 460 kg
+Free   = 40 kg
 ```
 
 So let's try with the stones first: 8 stones, then there's still room for 20 jewels:
 
 ```text
-    Value  = 20 * 50 + 8 * 1200 = 10600
+Value  = 20 * 50 + 8 * 1200 = 10600
 ```
 
 Apparently that was nothing. But can there be any better way? Yes, 7 stones and 80 jewels seem to make better use of the capacity:
 
 ```text
-    Value  = 80 * 50 + 7 * 1200 = 12400
+Value  = 80 * 50 + 7 * 1200 = 12400
 ```
 
 The way there leads, for example, via greedy search, i.e. searching through all states. In this case, 0 to 8 stones and 0 to 100 jewels (sometimes less) means around 900 conditions that would have to be checked. If you now imagine a 3rd or 4th product, it quickly becomes clear that we won't get the result.
@@ -145,14 +145,14 @@ The basic goods value can e.g. be expressed in silver. A commodity could e.g. Us
 It is therefore clear that the underlying value still needs to be modified. The urgency should be able to have such a strong effect that even items with a low base value become interesting enough. An exponential function or similar on the urgency therefore makes sense.
 
 ```text
-    f(runden bis nötig)=?
-    f(0)=10000%*Basiswert
-    f(1)=1000%*Basiswert
-    f(2)=200%*Basiswert
-    f(3)=50%*Basiswert
-    f(4)=15%*Basiswert
-    f(5)=8%*Basiswert
-    f(irgendwann)=5%*Basiswert
+f(runden bis nötig)=?
+f(0)=10000%*Basiswert
+f(1)=1000%*Basiswert
+f(2)=200%*Basiswert
+f(3)=50%*Basiswert
+f(4)=15%*Basiswert
+f(5)=8%*Basiswert
+f(irgendwann)=5%*Basiswert
 ```
 
 These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modeled by a function.

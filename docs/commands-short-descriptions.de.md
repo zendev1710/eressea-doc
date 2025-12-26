@@ -160,7 +160,7 @@ Weiterlesen: [Der erste Zug](./first-round.md "Der erste Zug").
 
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung&oldid=8099] -->
 
-  [Befehl]: ./commands.md "Befehl"
-  [Kampfende]: ./war.md#kampfende "Kampfende"
-  [Befehle]: ./commands.md "Befehle"
-  [Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Befehl]: ./commands.md "Befehl"
+[Kampfende]: ./war.md#kampfende "Kampfende"
+[Befehle]: ./commands.md "Befehle"
+[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"

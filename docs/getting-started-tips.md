@@ -4,7 +4,7 @@ alias: beginner-tips
 ---
 # Beginner tips
 
-When entering commands, make sure you have used the correct faction number and unit numbers.
+When entering orders, make sure you have used the correct faction number and unit numbers.
 [[cmd-password|Set a password]] and don't forget it.
 
 It's more interesting for everyone if you name your faction and all units in an original way.
@@ -55,19 +55,19 @@ For each unit, you can also note what it produces, for whom it produces it, wher
 Here is an example of these comments:
 
 ```text
-    REGION 4,4 ; Lochinver
-    ; Beware the dark horde
-    ; cut down?
+REGION 4,4 ; Lochinver
+; Beware the dark horde
+; cut down?
 
-    UNIT zbt;           Bow maker Jog'nabat and his clan [4;100$]
-        MAKE Swords
-        GIVE sjur 5 Swords; He probably only gives the 4 that he
-                          ; had last round
+UNIT zbt;         Bow maker Jog'nabat and his clan [4;100$]
+    MAKE Swords
+    GIVE sjur 5 Swords; He probably only gives the 4 that he
+                      ; had last round
 
-    UNIT sjur;          Fuhrmann Sjur [2;243$]
-        // Capacity: 420 = 7 stones; Silver!
-        GIVE 7jht 7 Stones
-        ROUTE SW W PAUSE E NE PAUSE
+UNIT sjur;          Fuhrmann Sjur [2;243$]
+    // Capacity: 420 = 7 stones; Silver!
+    GIVE 7jht 7 Stones
+    ROUTE SW W PAUSE E NE PAUSE
 ```
 
 The comment following the [[cmd-unit|UNIT order]] is inserted into the move template by the program;

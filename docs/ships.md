@@ -18,11 +18,13 @@ A unit can use per round this number of woods : `skill level X people / minimum 
 
 A ship also has an id that is used in orders. Here is an example of a ship:
 
+```text
 Pride of the Seven Winds (18), Longboat, (254/500). This beautiful
 
     ship was the first to be built by the Plötzbogen merchant family
     used. Captain Gorm stands on the quarterdeck and gives orders
     Orders to the sailors. He has everything completely under control.
+```
 
 For your own ships, the ship type indicates the load and capacity (here 254 weight units out of 500 possible).
 
@@ -61,16 +63,20 @@ Dragon ship speed.
 
 De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple
 
-       Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
+```text
+Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
+```
 
 Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre GIVE capt 1 SHIP. L'unité recevante devient le commandant d'un convoi. L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas. L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau. Le talent total de l'équipage doit également être un multiple correspondant au nombre de bateaux. La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.
 
 Exemple : un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec Sailing T3 et un équipage avec 90 niveaux de compétence au total. Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
-     Caravel (2seh), 3 Caravels, (9000/9000).
-       * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
-       * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
-       * Horde (770L), 888 Humans.
+```text
+Caravel (2seh), 3 Caravels, (9000/9000).
+    * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
+    * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
+    * Horde (770L), 888 Humans.
+```
 
 Comme on peut le voir, il est donc possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels. Pour le reste, les convois se comportent comme un bateau normal. Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.
 
@@ -78,7 +84,7 @@ Les "boats" sont exclus de cette règle et les bateaux d'un convoi doivent être
 
 Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi. Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages. Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé. Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).
 
-La même commande permet également de détacher des bateaux d'un convoi. Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan. L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.
+Le même ordre permet également de détacher des bateaux d'un convoi. Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan. L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.
 
 On peut aussi donner des bateaux aux paysans : GIVE 0 2 SHIP crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne. A terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.
 
@@ -89,8 +95,8 @@ Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent p
 Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
 
 ```text
-    GIVE 123 1 SHIP
-    GIVE 123 ALL MEN
+GIVE 123 1 SHIP
+GIVE 123 ALL MEN
 ```
 
 ## Voir aussi

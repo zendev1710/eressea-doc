@@ -100,12 +100,12 @@ Avec les unités TEMP, tu peux faire toutes sortes de choses et contourner les r
 Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui va se passer ? C'est très simple.
 
 ```text
-    GIVE TEMP 123 ALL
-    GIVE TEMP 123 ALL MEN
-    MAKE TEMP 123
-          ; ... NAME et autres nouveaux ordres de l'unité
-    END
-    GIVE neu COMMAND
+GIVE TEMP 123 ALL
+GIVE TEMP 123 ALL MEN
+MAKE TEMP 123
+    ; ... NAME et autres nouveaux ordres de l'unité
+END
+GIVE neu COMMAND
 ```
 
 L'unité vide transmet fidèlement l'ordre à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouvel identifiant).

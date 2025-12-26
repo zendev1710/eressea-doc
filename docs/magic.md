@@ -53,46 +53,46 @@ If you have forgotten the description, you can have it shown again using the [[c
 ```text
 Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
 
-                                     Wunderdoktor
+                                Wunderdoktor
 
-    Beschreibung:
-      Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
-      Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
-      nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
-      untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
-      mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
-      beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
-      Woche verdienen.
-    Art: Normaler Zauber
-    Stufe: 1
-    Rang: 5
-    Komponenten:
+Beschreibung:
+    Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
+    Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
+    nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
+    untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
+    mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
+    beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
+    Woche verdienen.
+Art: Normaler Zauber
+Stufe: 1
+Rang: 5
+Komponenten:
     -   1 Aura  * Stufe
-    Modifikationen: Schiffszauber
-    Syntax:
-      CAST [LEVEL n] Wunderdoktor
+Modifikationen: Schiffszauber
+Syntax:
+    CAST [LEVEL n] Wunderdoktor
 ```
 
 or so
 
 ```text
-                        Erschaffe einen Ring der Unsichtbarkeit
+              Erschaffe einen Ring der Unsichtbarkeit
 
-    Beschreibung:
-      Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
-      erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
-      unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
-      unsichtbaren Einheit muss jede Person einen Ring tragen.
-    Art: Normaler Zauber
-    Stufe: 6
-    Rang: 5
-    Komponenten:
+Beschreibung:
+    Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
+    erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
+    unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
+    unsichtbaren Einheit muss jede Person einen Ring tragen.
+Art: Normaler Zauber
+Stufe: 6
+Rang: 5
+Komponenten:
     - 50 Aura
     - 3000 Silber
     - 1 permanente Aura
-    Modifikationen: Schiffszauber
-    Syntax:
-      CAST 'Erschaffe einen Ring der Unsichtbarkeit'
+Modifikationen: Schiffszauber
+Syntax:
+    CAST 'Erschaffe einen Ring der Unsichtbarkeit'
 ```
 
 ### Spell types
@@ -108,21 +108,21 @@ Combat spells work somewhat like the [`COMBAT` orders], i.e. h. once set, they r
 For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.
 
 ```text
-                                  Song of Fear
+                        Song of Fear
 
-    Description:
-      A very powerful song from the traditions of cats that runs deep within
-      penetrates the hearts of enemies and robs them of courage and hope. Fear will
-      making her tremble and panic take over her thoughts. Become full of fear
-      They try to escape the horrible songs and flee.
-    Art: Combat spells
-    Level: 3
-    Rank: 5
-    Components:
+Description:
+    A very powerful song from the traditions of cats that runs deep within
+    penetrates the hearts of enemies and robs them of courage and hope. Fear will
+    making her tremble and panic take over her thoughts. Become full of fear
+    They try to escape the horrible songs and flee.
+Art: Combat spells
+Level: 3
+Rank: 5
+Components:
     -   1 Aura  * Level
-    Modifiers:
-    Syntax:
-      COMBATSPELL [LEVEL n] 'Song of Fear'
+Modifiers:
+Syntax:
+    COMBATSPELL [LEVEL n] 'Song of Fear'
 ```
 
 If a mage unit has cast combat spells, it automatically casts spells as soon as it takes part in combat.

@@ -18,11 +18,11 @@ It also means that units without enough talent to execute all `BUY` and `SELL` o
 Example:
 
 ```text
-    UNIT hndl;     Barker [1, $1000]
-        ; Trade 3 [180]
-        SELL 15 Jewel
-        SELL 15 Oil
-        BUY 10 Incense
+UNIT hndl;     Barker [1, $1000]
+    ; Trade 3 [180]
+    SELL 15 Jewel
+    SELL 15 Oil
+    BUY 10 Incense
 ```
 
 This merchant will buy 10 incense and sell a total of 20 jewels and oil.

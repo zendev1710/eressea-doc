@@ -9,7 +9,7 @@ alias: orders
 The following conventions apply in these rules:
 
 ```text
-    GIVE unit-id [number|ALL] [item]
+GIVE unit-id [number|ALL] [item]
 ```
 
 - Keywords like GIVE, MAKE, NOT are in capital letters. This is not mandatory, but we recommend it-Placeholders are in lowercase letters. They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit. Sometimes we also write this as <unit-id>, in which case the < and > symbols are *not*to be included.
@@ -21,37 +21,37 @@ Except for the password and the faction id, the server is case-insensitive.`lerN
 
 Items should always be in the*Singular*stand, so`GIVE xyz 100 Schwert`or`MAKE 15 Stein`. Items often appear in the majority in the report and are mostly understood in commands, but you should be aware that the server does not understand natural language, even if the commands look almost like that.
 
-Many commands can be shortened, although you should not overdo it as this is prone to errors: VER matches FORGET, SELL and LEAVE and is therefore noted as an error; So here you should use at least four letters. In addition, overly cryptic abbreviations are not particularly readable when you look through your moves later... It's still safest if you don't abbreviate your orders, especially since there may be orders, items and skills that are intentionally not in the instructions but start out similar to well-known orders, items and skills.
+Many orders can be shortened, although you should not overdo it as this is prone to errors: VER matches FORGET, SELL and LEAVE and is therefore noted as an error; So here you should use at least four letters. In addition, overly cryptic abbreviations are not particularly readable when you look through your moves later... It's still safest if you don't abbreviate your orders, especially since there may be orders, items and skills that are intentionally not in the instructions but start out similar to well-known orders, items and skills.
 
 Texts that contain spaces must be enclosed in quotation marks ("") or the spaces must be replaced by ~ (tilde). Furthermore, umlauts may be replaced by the appropriate paraphrase (Ä=AE, etc.):
 
 ```text
-    NAME Ship "Big Blue Bird"
-    GIVE unit 5 Spicy~Daring
-    COMBAT REAR
+NAME Ship "Big Blue Bird"
+GIVE unit 5 Spicy~Daring
+COMBAT REAR
 ```
 
 Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.
 
 ```text
-    MESSAGE REGION 'Sprich "Freund" und tritt ein'
-    NAME BURG xyz "Helm's Deep"
-    DEFAULT 'MAKE 1 "Wasser des Lebens"'
+MESSAGE REGION 'Sprich "Freund" und tritt ein'
+NAME BURG xyz "Helm's Deep"
+DEFAULT 'MAKE 1 "Wasser des Lebens"'
 ```
 
 Also called masking (escaping) by the character\are possible, but not necessarily recommended:
 
 ```text
-    MESSAGE REGION "Sprich \"Freund\" und tritt ein"
-    NAME BURG xyz 'Helm\'s Deep'
-    DEFAULT 'MAKE 1 Wasser\~des\~Lebens'
+MESSAGE REGION "Sprich \"Freund\" und tritt ein"
+NAME BURG xyz 'Helm\'s Deep'
+DEFAULT 'MAKE 1 Wasser\~des\~Lebens'
 ```
 
 By the way, it is not necessary to limit yourself to the Latin alphabet. The full Unicode character set is possible in names and descriptions:
 
 ```text
-    NAME UNIT "Σωκράτης"
-    MESSAGE REGION "🨀 شاه مات"
+NAME UNIT "Σωκράτης"
+MESSAGE REGION "🨀 شاه مات"
 ```
 
 Of course, you should make sure that you are understood by others.
@@ -90,11 +90,11 @@ To do this, you can put an @ (at sign, spider monkey) before each short command.
  **An example** :
 
 ```text
-    UNIT berg;         Miners [5,400$,U500]
-        MAKE iron
-        @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
-    UNIT schm;         Wrought [3,1343$,U250]
-        MAKE Swords
+UNIT berg;         Miners [5,400$,U500]
+    MAKE iron
+    @GIVE schm ALLES Eisen;   immer an die Schmiede liefern
+UNIT schm;         Wrought [3,1343$,U250]
+    MAKE Swords
 ```
 
  **Note:** There is a cap on the number of commands stored for a unit. This is currently 128 commands, which should easily be enough for most purposes.
@@ -106,14 +106,15 @@ It may happen that you consciously accept errors when executing a command. By pr
 **An example**:
 
 ```text
-    UNIT berg;         Miners
-        MAKE iron
-        !@GIVE tran ALL iron;   The van isn't always there; we don't want an error message about this
-    UNIT tran;        Transporter
-        ROUTE w PAUSE o PAUSE;   We commute between two regions
-        !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths
+UNIT berg;         Miners
+    MAKE iron
+    !@GIVE tran ALL iron;   The van isn't always there; we don't want an error message about this
+UNIT tran;        Transporter
+    ROUTE w PAUSE o PAUSE;   We commute between two regions
+    !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths
+```
 
-Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht gerechnet hast.
+Of course, this carries the risk that you will miss errors that you did not expect.
 
 ## See also
 

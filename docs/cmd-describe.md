@@ -22,10 +22,10 @@ Long descriptions must be with done with the `\` (backslash) "extend order" sepa
 New lines after that `\` must not begin with spaces.
 <!-- TODO: clarify text below -->
 ```text
-    DESCRIBE UNIT "Leaf-cutting ants don't need one\
-    Sleep and its workers are always focused on maximum efficiency\
-    t. Everything they do and think under their black cover refers to\
-    hen it also das Kollektiv des Staates."
+DESCRIBE UNIT "Leaf-cutting ants don't need one\
+Sleep and its workers are always focused on maximum efficiency\
+t. Everything they do and think under their black cover refers to\
+hen it also das Kollektiv des Staates."
 ```
 
 It is currently not possible to insert paragraphs and breaks themselves into descriptions.

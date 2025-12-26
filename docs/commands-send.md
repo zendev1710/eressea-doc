@@ -32,14 +32,16 @@ Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text 
 
 Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden. Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert. Richtig angekommene Züge werden automatisch mit dem Syntax-Checker ECheck geprüft und das Ergebnis der Prüfung wird dem Spieler zugeschickt. Ein Beispiel:
 
-     ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
+```text
+ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
 
-     Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
-     Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
-     Silberpool aktiviert.
+Verarbeite Datei `faroul@beyond.kn-bremen.de,2'.
+Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
+Silberpool aktiviert.
 
-     Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
-     Die Befehle scheinen in Ordnung zu sein.
+Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
+Die Befehle scheinen in Ordnung zu sein.
+```
 
 In der Regel erfolgt diese Bestätigung innerhalb weniger Minuten. Da der Server aus technischen Gründen derzeit leider nur eine Befehlsbestätigung alle 2 Minuten versenden kann, kann es jedoch, gerade kurz vor der Auswertung, zu längeren Wartezeiten kommen. Häufiges Einsenden identischer Befehle, um schneller eine Bestätigung zu erhalten, hilft also niemandem, sondern verschlimmert das Problem nur. Sofern die Befehle korrekt an den Server gesendet wurden, werden sie jedoch in der Regel verarbeitet, auch wenn keine Befehlsbestätigung bis zur Auswertung eingegangen ist. Aus technischen Gründen werden samstags zwischen 20:45 und Mitternacht keine Bestätigungen verschickt, **es empfiehlt sich also, Befehle so früh wie möglich vor dem ZAT um 21:00 Uhr zu senden.** Verzögert sich die Auswertung aufgrund technischer Probleme oder Fehlern im Spiel, entfällt die Auswertung in der Folgewoche, wenn die Auswertung nicht spätestens bis Sonntagmorgen 11:00 Uhr abgesendet wurde.
 
@@ -55,7 +57,9 @@ Manchmal kann es vorkommen, dass durch technische Ausfälle irgendwo die E-Mail 
 
 Dazu schickt man eine eMail mit folgendem Betreff an [eressea-server@kn-bremen.de], da nur dort die Daten vorliegen:
 
-     ERESSEA 2 REPORT parteinummer "passwort"
+```text
+ERESSEA 2 REPORT parteinummer "passwort"
+```
 
 Hiermit werden alle Dateien, die auch nach der regulären Auswertung verschickt wurden, nochmals an die anfordernde Adresse (die verschieden sein kann von der Adresse, an die der Report normalerweise geschickt wird) gesandt, also evtl. auch der Computer-Report usw.
 
@@ -79,31 +83,23 @@ Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Pa
 In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
 
 ```text
-    ERESSEA 2 "GrofxMoftzg"
-
-    ; ECHECK -z -w4 -r100
-
-    REGION 4,2;     Handan
-    ; ECHECK LOHN 12
-
-    UNIT 5;            Horde der Trolle [5,100$]
-    Lerne Bergbau
-    UNIT 36;           Tänzer des Todes [10,630$]
-    Unterhalte
-
-    REGION 4,3;     Carcavelos
-    ; ECHECK LOHN 11
-
-    UNIT 35;           Untote Sklaven [10,110$]
-    Arbeite
-
-    REGION 5,3;     Grandola
-    ; ECHECK LOHN 11
-
-    UNIT 32;           Reiter der Verdammnis [5,30$]
-    Lerne Unterhaltung
-
-    NEXT
+ERESSEA 2 "GrofxMoftzg"
+; ECHECK -z -w4 -r100
+REGION 4,2;     Handan
+; ECHECK LOHN 12
+UNIT 5;            Horde der Trolle [5,100$]
+Lerne Bergbau
+UNIT 36;           Tänzer des Todes [10,630$]
+Unterhalte
+REGION 4,3;     Carcavelos
+; ECHECK LOHN 11
+UNIT 35;           Untote Sklaven [10,110$]
+Arbeite
+REGION 5,3;     Grandola
+; ECHECK LOHN 11
+UNIT 32;           Reiter der Verdammnis [5,30$]
+Lerne Unterhaltung
+NEXT
 ```
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[cmd-unit]] ausgewertet, ebenso werden dann Einnahmen mit [[cmd-work]] (idR. je 11 Silber pro Person) und [TAX STEUERN EIN] und [[cmd-entertain]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LEARN MAGIE] und Einheiten, die mit [[cmd-move]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
@@ -119,14 +115,16 @@ Alle [Befehle] können abgekürzt werden. Der Computer nimmt einfach das erste W
 
 Im Zweifelsfall sollte man also keine Abkürzungen nehmen. Pro Zeile darf nur ein Befehl stehen. Wenn man ein Mailprogramm hat, das lange Textzeilen automatisch umbricht, kann man Befehle über mehrere kurze Zeilen hinweg verteilen; sie müssen dann aber "verlängert" werden, indem man hinter Zeilen einen \\ (Schrägstrich rückwärts, Backslash) setzt, wenn die folgende Zeile dazugehört:
 
-      Beschreibe Einheit "Die alte Krieger hat sich schon lange \
-          zur Ruhe gesetzt. Sein narbenzerfurchtes Gesicht \
-          zeugt von einer langen Dienstzeit an der Front."
+```text
+Beschreibe Einheit "Die alte Krieger hat sich schon lange \
+    zur Ruhe gesetzt. Sein narbenzerfurchtes Gesicht \
+    zeugt von einer langen Dienstzeit an der Front."
 
-      Route Nordwest West West Nordwest Pause \
-          Nordwest Nordost Nordwest Nordost Pause \
-          Südwest Südost Südwest Südost Pause \
-          Südost Ost Ost Südost Südost Pause
+Route Nordwest West West Nordwest Pause \
+    Nordwest Nordost Nordwest Nordost Pause \
+    Südwest Südost Südwest Südost Pause \
+    Südost Ost Ost Südost Südost Pause
+```
 
 Alle Befehle sind unabhängig von Groß- und Kleinschreibung. Die einzige Ausnahme hierzu ist das Passwort, dieses muss **genau** so eingegeben werden, wie es gesetzt wurde.
 

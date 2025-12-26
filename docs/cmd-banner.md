@@ -12,7 +12,7 @@ It can contain the player's name or an alternative email address for fellow play
 **Example** :
 
 ```text
-    BANNER "Henning Peters, Bremen. eMail also faroul@gmx.en"
+BANNER "Henning Peters, Bremen. eMail also faroul@gmx.en"
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=BANNER&oldid=6357] -->

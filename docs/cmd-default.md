@@ -26,24 +26,24 @@ The spelling may be standardized.
 Orders sent in:
 
 ```text
-    UNIT abc
-    ; only 10 this week
-    BUY 10 Balm
-    SELL 100 Oil
-    // buy more balm next week
-    @GIVE xyz ALL Balm ; Transporter
-    GIVE abc 100 Silver
-    RECRUIT 1
+UNIT abc
+; only 10 this week
+BUY 10 Balm
+SELL 100 Oil
+// buy more balm next week
+@GIVE xyz ALL Balm ; Transporter
+GIVE abc 100 Silver
+RECRUIT 1
 ```
 
 Default orders for next week:
 
 ```text
-    UNIT abc
-    BUY 10 Balm
-    SELL 100 Oil
-    // buy more balm next week
-    @GIVE xyz ALL Balm ; Transporter
+UNIT abc
+BUY 10 Balm
+SELL 100 Oil
+// buy more balm next week
+@GIVE xyz ALL Balm ; Transporter
 ```
 
 By the way, what happens if the unit has illegally received several long orders (for example `LEARN` and `WORK`) is not precisely defined.
@@ -63,36 +63,36 @@ You can also insert short orders using the `DEFAULT` order.
 Orders sent in:
 
 ```text
-    UNIT abc
-    ; this week only 10
-    BUY 10 Balm
-    SELL 100 Öl
-    // learn next week
-    @GIVE xyz ALL Balm ; Transporter
-    GIVE abc 100 Silver
-    RECRUIT 1
-    DEFAULT "GIVE 123 50 Silver; don't forget"
-    DEFAULT "LEARN Trade" ; Deletes BUY und SELL
-    DEFAULT "XXX" ; no order, will not be accepted
+UNIT abc
+; this week only 10
+BUY 10 Balm
+SELL 100 Öl
+// learn next week
+@GIVE xyz ALL Balm ; Transporter
+GIVE abc 100 Silver
+RECRUIT 1
+DEFAULT "GIVE 123 50 Silver; don't forget"
+DEFAULT "LEARN Trade" ; Deletes BUY und SELL
+DEFAULT "XXX" ; no order, will not be accepted
 ```
 
 Default orders for next week:
 
 ```text
-    UNIT abc
-    GIVE 123 50 Silver; don't forget
-    LEARN Trade
-    // learn next week
-    @GIVE xyz ALL Balm ; Transporter
+UNIT abc
+GIVE 123 50 Silver; don't forget
+LEARN Trade
+// learn next week
+@GIVE xyz ALL Balm ; Transporter
 ```
 
 If your default orders need to contain quotes, there are currently a few ways to achieve this:
 
 ```text
-    DEFAULT "CAST 'Create a Ring of Invisibility'"
-    DEFAULT 'CAST "Create a Ring of Invisibility"'
-    DEFAULT "NAME UNIT \"Bob's Builders\""
-    DEFAULT "MAKE 1 'Water of life'"
+DEFAULT "CAST 'Create a Ring of Invisibility'"
+DEFAULT 'CAST "Create a Ring of Invisibility"'
+DEFAULT "NAME UNIT \"Bob's Builders\""
+DEFAULT "MAKE 1 'Water of life'"
 ```
 
 ## The MOVE order
@@ -103,21 +103,21 @@ Instead, the long orders that the unit had in the template last week are adopted
 Default orders:
 
 ```text
-     LEARN Ride
-     @GIVE 0 10 Silver
-     // no comment
+LEARN Ride
+@GIVE 0 10 Silver
+// no comment
 ```
 
 Orders sent in:
 
 ```text
-    MOVE e
+MOVE e
 ```
 
 Default commands for next week:
 
 ```text
-    LEARN Ride
+LEARN Ride
 ```
 
 What happens if both `MOVE` and `DEFAULT` are in play?
@@ -125,23 +125,23 @@ What happens if both `MOVE` and `DEFAULT` are in play?
 Template:
 
 ```text
-    WORK
-    // now to the west
+WORK
+// now to the west
 ```
 
 Orders sent in:
 
 ```text
-    DEFAULT "LEARN Endurance"
-    // now learn
-    MOVE w
+DEFAULT "LEARN Endurance"
+// now learn
+MOVE w
 ```
 
 Default orders for next week:
 
 ```text
-    LEARN Endurance
-    // now learn
+LEARN Endurance
+// now learn
 ```
 
 `DEFAULT` deletes them here too **long** default orders (here `WORK`) and reset them.
@@ -151,29 +151,29 @@ It is possible to set `MOVE` with `DEFAULT`.
 Template:
 
 ```text
-    WORK
-    @GIVE 0 1 Silver
+WORK
+@GIVE 0 1 Silver
 ```
 
 Orders sent in:
 
 ```text
-    DEFAULT "MOVE o"
-    WORK
-    @GIVE 0 2 Silver
+DEFAULT "MOVE o"
+WORK
+@GIVE 0 2 Silver
 ```
 
 Default orders for next week:
 
 ```text
-    MOVE o
-    @GIVE 0 2 Silver
+MOVE o
+@GIVE 0 2 Silver
 ```
 
 Default orders for the week after next if no other orders are sent in for the unit:
 
 ```text
-    @GIVE 0 2 Silver
+@GIVE 0 2 Silver
 ```
 
 Here too, the unit would not carry out a long command.

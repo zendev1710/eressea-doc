@@ -36,23 +36,23 @@ The email address to which each player can send articles is [[express@eressea.de
 A **Example article** could look like this:
 
 ```text
-    == 13. Welt ==
+== 13. Welt ==
 
-    === Krieg in der 13. Welt ===
+=== Krieg in der 13. Welt ===
 
-    Skandal! Wilde Trolle überfallen Nifelheim
+Skandal! Wilde Trolle überfallen Nifelheim
 
-    Wir sind entsetzt! Heute haben 30.000 randalierende Trolle
-    von der Nachbarinsel Klumphausen unsere Festung in
-    Nifelheim überfallen. 3000 unserer Bauern wurden dabei
-    auf brutale Art erschlagen. Wir, die Schrumpfbauch-
-    Goblins schwören blutige Rache.
+Wir sind entsetzt! Heute haben 30.000 randalierende Trolle
+von der Nachbarinsel Klumphausen unsere Festung in
+Nifelheim überfallen. 3000 unserer Bauern wurden dabei
+auf brutale Art erschlagen. Wir, die Schrumpfbauch-
+Goblins schwören blutige Rache.
 
-    Und in einem neuen Absatz wird die Geschichte weiter
-    geschrieben, aber im Beispiel gibt es keinen weiteren
-    Inhalt.
+Und in einem neuen Absatz wird die Geschichte weiter
+geschrieben, aber im Beispiel gibt es keinen weiteren
+Inhalt.
 
-    Gibli der Schreiber-Goblin
+Gibli der Schreiber-Goblin
 ```
 
 ## Xontormia Express Archives

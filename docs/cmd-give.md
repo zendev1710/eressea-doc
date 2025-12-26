@@ -50,14 +50,12 @@ For example, if the unit xyz has 10 people, with `GIVE xyz EACH 20 Silver` order
     For example, a unit with `@GIVE abc ALL Iron` hand over all the iron to the *abc* unit every week.
 
 ```text
-    GIVE k3f 300 Silver
-    ; Gives the unit k3f 300 Silver.
-
-    GIVE 0 5 Stone
-    ; Discard 5 stones.
-
-    GIVE TEMP 3 7 MEN
-    ; Gives 7 people to the newly created unit TEMP 3.
+GIVE k3f 300 Silver
+; Gives the unit k3f 300 Silver.
+GIVE 0 5 Stone
+; Discard 5 stones.
+GIVE TEMP 3 7 MEN
+; Gives 7 people to the newly created unit TEMP 3.
 ```
 
 !!! Caution
@@ -65,22 +63,22 @@ For example, if the unit xyz has 10 people, with `GIVE xyz EACH 20 Silver` order
     So the following **doesn't work**:
 
 ```text
-    MAKE TEMP 1
-        GIVE TEMP 1 200 Silver  ;  Pointless!
-        RECRUIT 2
-        MOVE WEST
-    END
+MAKE TEMP 1
+    GIVE TEMP 1 200 Silver  ;  Pointless!
+    RECRUIT 2
+    MOVE WEST
+END
 ```
 
     Instead, it needs to be written like this:
 
 ```text
-    GIVE TEMP 1 200 Silver
-    MAKE TEMP 1
-        RECRUIT 2
-        MOVE WEST
-    END
-    ; GIVE TEMP 1 200 Silver  ;  or here!
+GIVE TEMP 1 200 Silver
+MAKE TEMP 1
+    RECRUIT 2
+    MOVE WEST
+END
+; GIVE TEMP 1 200 Silver  ;  or here!
 ```
 
 ## People and units
@@ -96,12 +94,12 @@ In addition, if the receiving unit is a [migrant unit], it must not have any peo
 Ideally it should be an empty TEMP unit. Example:
 
 ```text
-    UNIT a; Faction X
-    GIVE TEMP x ALL MEN
-    UNIT b; Faction Y
-    MAKE TEMP x
-    CONTACT UNIT a
-    END
+UNIT a; Faction X
+GIVE TEMP x ALL MEN
+UNIT b; Faction Y
+MAKE TEMP x
+CONTACT UNIT a
+END
 ```
 
 With `GIVE`*`unit-id`*`UNIT` the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!

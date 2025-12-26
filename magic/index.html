@@ -2150,10 +2150,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#art" class="md-nav__link">
+  <a href="#spell-types" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Art
+        Spell types
       
     </span>
   </a>
@@ -2194,10 +2194,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#distance-magic" class="md-nav__link">
+  <a href="#ranged-magic" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Distance magic
+        Ranged magic
       
     </span>
   </a>
@@ -7469,10 +7469,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#art" class="md-nav__link">
+  <a href="#spell-types" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Art
+        Spell types
       
     </span>
   </a>
@@ -7513,10 +7513,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#distance-magic" class="md-nav__link">
+  <a href="#ranged-magic" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Distance magic
+        Ranged magic
       
     </span>
   </a>
@@ -7696,70 +7696,47 @@
 
 
 <h1 id="magic">Magic<a class="headerlink" href="#magic" title="Permanent link">&para;</a></h1>
-<p>Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im <a href="../war/">kampf</a> den Feind schwächen oder Verbündete stärken.</p>
+<p>Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in <a href="../war/">War</a>.</p>
 <h2 id="the-study-of-magic">The Study of Magic<a class="headerlink" href="#the-study-of-magic" title="Permanent link">&para;</a></h2>
 <p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a href="../magic-school-illaun/">Illaun</a>, {[tybied-spells|Tybied]}, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> or <a href="../magic-school-draig/">Draig</a>.</p>
-<p>Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls <a href="../cmd-learn/">LEARN MAGIE "Magiegebiet"</a>.
-In Folge heißt der Befehl nur noch <a href="../cmd-learn/">LEARN MAGIE</a> und alle Magier einer <a href="../factions/">Partei</a> erlernen dann automatisch das von der Partei gewählte Magiegebiet.
-Es ist jedoch möglich, mehreren Einheiten <a href="../cmd-learn/">LEARN MAGIE "Magiegebiet"</a> zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden.
-Deshalb will diese Entscheidung wohl überlegt sein!</p>
-<p>Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.</p>
-<p>Das Talent Magie zu erlernen kostet (50 + 25 * (1 + Stufe) * Stufe) Silber pro Person und Runde.</p>
-<p>Lernkosten</p>
+<p>The faction's magic area is determined by the very first unit that learns magic in the faction.
+This is done using the <a href="../cmd-learn/"><code>LEARN MAGIC "magic area"</code></a>.
+As a result, the order is now just called <code>LEARN MAGIC "magic area"</code> and all magicians of a <a href="../factions/">faction</a> then automatically learn the magic area chosen by the faction.
+However, it is possible to order multiple units to <code>LEARN MAGIC "magic area"</code> if you are unsure which unit will come first. Once a magic area has been chosen, it cannot be changed.
+Therefore, this decision needs to be carefully considered!</p>
+<p>There can be a maximum of five magician units per faction; only elven factions are allowed to have six magicians. Mage units may only consist of one person. You cannot hand over people, even to empty TEMP units.</p>
+<p>The skill to learn magic costs (50 + 25*(1 + level)*Level) Silver per person per round.</p>
+<p>Learning costs.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Next level</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>...</th>
+<th>20</th>
+<th>...</th>
+<th>30</th>
+<th>...</th>
+<th>40</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Nächste Stufe</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>15</td>
-<td>...</td>
-<td>20</td>
-<td>...</td>
-<td>30</td>
-<td>...</td>
-<td>40</td>
-</tr>
-<tr>
-<td>Kosten</td>
+<td>Cost</td>
 <td>100</td>
 <td>200</td>
 <td>350</td>
@@ -7784,138 +7761,196 @@ Deshalb will diese Entscheidung wohl überlegt sein!</p>
 </tr>
 </tbody>
 </table>
-<p>Ein ungelernter Magier bezahlt also 100 Silber für seine ersten Lektionen; hat er schon Stufe 5 im Magietalent, so muss er 1100 Silber pro Lernwoche bezahlen.</p>
-<p><strong>Achtung:</strong> Die Lernkosten beziehen sich immer auf die gelernte Stufe vor der Anwendung eventueller Rassenboni oder -mali. Eine Elfe zahlt also für ihren ersten Lernversuch, der sie auf T2 bringt 100 und nicht 200 Silber, ein Goblin mit seinem -1 zahlt für den 2. Lernversuch jedoch bereits 200 Silber obwohl er noch immer auf Stufe 0 ist. (Das System wertet ihn als T1 - 1 = 0).</p>
-<p><strong>Achtung, Zwerge:</strong> Sie haben -2 auf das Magietalent. Eine Einheit, die mit Magie 0 angezeigt wird, kann eigentlich auf T1 oder T2 sein. Die Lernkosten steigen in letzterem Fall jedoch auf 350 Silber! Es gibt keinen Weg herauszufinden, was von beiden zutrifft. Also lieber etwas großzügiger planen.</p>
-<p>Lernen in einer <a href="../buildings-others/">Akademie</a> kostet das Doppelte. Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer. Ein Draig-Magier kann also keinen Illaun-Magier lehren.</p>
-<p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann. Magie kann auch, durch [[Special:MyLanguage/Talente|Anwendung (CAST) gelernt werden. Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht. Natürlich kostet Lernen durch Anwendung kein Silber.</p>
+<p>So an untrained magician pays 100 silver for his first lessons; If he already has level 5 in magic skill, he has to pay 1100 silver per week of learning.</p>
+<p>!!! warning 'Caution"
+    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
+    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2, but a goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).</p>
+<p>!!! warning 'Caution, dwarves"
+    You have -2 to magic skill.
+    A unit that appears as Magic 0 may actually be at T1 or T2.
+    In the latter case, however, the learning costs increase to 350 silver! There is no way to know which of the two is true.
+    So it's better to plan a little more generously.</p>
+<p>Learning in an <a href="../buildings-others/#academy">Academy</a> costs twice as much. Only magicians from the same area of ​​magic as the teacher can be taught. So a Draig Mage cannot teach an Illaun Mage.</p>
+<p>If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week. Magic can also, through [Special:MyLanguage/Talente|Application (CAST)].
+It doesn't matter whether the unit casts one or more spells per round. Of course, learning through application does not cost silver.</p>
 <h2 id="sayings">Sayings<a class="headerlink" href="#sayings" title="Permanent link">&para;</a></h2>
-<p>Mit jeder Stufe, die die Einheit in Magie erreicht, kann sie neue Sprüche bekommen. Es gibt zur Zeit einen Spruch in jeder Stufe, in Ausnahmefällen auch einmal mehrere oder gar keinen. Hat man eine neue Stufe erreicht, so werden die Sprüche in der Auswertung beschrieben. Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl <a href="../cmd-show/">SHOW</a> nochmals zeigen lassen.</p>
-<p>Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:</p>
-<div class="highlight"><pre><span></span><code>                                 Wunderdoktor
+<p>With each level the unit gains in magic, it can gain new spells.
+There is currently one spell in each level, in exceptional cases several or none at all.
+Once you have reached a new level, the sayings are described in the evaluation.
+If you have forgotten the description, you can have it shown again using the <a href="../cmd-show/">SHOW</a> command.</p>
+<div class="highlight"><pre><span></span><code>Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
 
-Beschreibung:
-  Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
-  Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
-  nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
-  untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
-  mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
-  beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
-  Woche verdienen.
-Art: Normaler Zauber
-Stufe: 1
-Rang: 5
-Komponenten:
--   1 Aura  * Stufe
-Modifikationen: Schiffszauber
-Syntax:
-  CAST [LEVEL n] Wunderdoktor
-</code></pre></div>
-<p>oder so</p>
-<div class="highlight"><pre><span></span><code>                    Erschaffe einen Ring der Unsichtbarkeit
+                                     Wunderdoktor
 
-Beschreibung:
-  Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
-  erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
-  unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
-  unsichtbaren Einheit muss jede Person einen Ring tragen.
-Art: Normaler Zauber
-Stufe: 6
-Rang: 5
-Komponenten:
-- 50 Aura
-- 3000 Silber
-- 1 permanente Aura
-Modifikationen: Schiffszauber
-Syntax:
-  CAST &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
+    Beschreibung:
+      Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
+      Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
+      nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
+      untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
+      mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
+      beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
+      Woche verdienen.
+    Art: Normaler Zauber
+    Stufe: 1
+    Rang: 5
+    Komponenten:
+    -   1 Aura  * Stufe
+    Modifikationen: Schiffszauber
+    Syntax:
+      CAST [LEVEL n] Wunderdoktor
 </code></pre></div>
-<h3 id="art">Art<a class="headerlink" href="#art" title="Permanent link">&para;</a></h3>
-<p>Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.</p>
-<p>Normale Zauber werden mit dem Befehl <a href="../cmd-cast/">CAST</a> gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe <a href="../commands-sequence/">Befehlsreihenfolge</a>) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.</p>
-<p>Die drei Arten von Kampfzaubern können niemals mit CAST gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL LEVEL n "Zauber"</a> gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="../cmd-combatspell/">COMBATSPELL "Zauber" NOT</a> oder alle gesetzten Kampfzauber mit <a href="../cmd-combatspell/">COMBATSPELL NOT</a>. Kampfzauber wirken in etwa wie die <a href="../war/#combat-rows">COMBAT-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
-<div class="highlight"><pre><span></span><code>                              Gesang der Furcht
+<p>or so</p>
+<div class="highlight"><pre><span></span><code>                        Erschaffe einen Ring der Unsichtbarkeit
 
-Beschreibung:
-  Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in
-  die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt. Furcht wird
-  sie zittern lassen und Panik ihre Gedanken beherrschen. Voller Angst werden
-  sie versuchen, den gräßlichen Gesängen zu entrinnen und fliehen.
-Art: Kampfzauber
-Stufe: 3
-Rang: 5
-Komponenten:
--   1 Aura  * Stufe
-Modifikationen:
-Syntax:
-  COMBATSPELL [LEVEL n] &#39;Gesang der Furcht&#39;
+    Beschreibung:
+      Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
+      erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
+      unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
+      unsichtbaren Einheit muss jede Person einen Ring tragen.
+    Art: Normaler Zauber
+    Stufe: 6
+    Rang: 5
+    Komponenten:
+    - 50 Aura
+    - 3000 Silber
+    - 1 permanente Aura
+    Modifikationen: Schiffszauber
+    Syntax:
+      CAST &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
 </code></pre></div>
-<p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt. Entweder indem sie selber ATTACK befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="../war/#the-sides-in-a-battle">Die Seiten in einer Schlacht</a>). Das kann also auch passieren, wenn sie auf COMBAT NOT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="../cmd-attack/">ATTACK</a> angegriffen wird!</p>
-<p>Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert. Ein normaler Kampfzauber einmal in jeder Kampfrunde. Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter <a href="#aura">Aura</a>) und dass sie noch lebt.</p>
+<h3 id="spell-types">Spell types<a class="headerlink" href="#spell-types" title="Permanent link">&para;</a></h3>
+<p>There are normal spells, pre-combat spells, combat spells and post-combat spells.</p>
+<p>Normal spells are cast using the <a href="../cmd-cast/">CAST</a> command. Their effect occurs either immediately (see <a href="../commands-sequence/">Orders sequence</a>) or sometimes at a later point in time, for example at the beginning of the following round.</p>
+<p>The three types of combat spells can never be cast using CAST. Instead, they are cast when the unit is actively engaged in combat.
+All three types can be set with the <a href="../cmd-combatspell/"><code>COMBATSPELL LEVEL n "Spell"</code></a> order.
+You can delete a specific combat spell with the <code>COMBATSPELL "Spell" NOT</code> order or all set combat spells with <a href="../cmd-combatspell/"><code>COMBATSPELL NOT</code></a>
+Combat spells work somewhat like the [<code>COMBAT</code> orders], i.e. h. once set, they remain saved. A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
+For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.</p>
+<div class="highlight"><pre><span></span><code>                                  Song of Fear
+
+    Description:
+      A very powerful song from the traditions of cats that runs deep within
+      penetrates the hearts of enemies and robs them of courage and hope. Fear will
+      making her tremble and panic take over her thoughts. Become full of fear
+      They try to escape the horrible songs and flee.
+    Art: Combat spells
+    Level: 3
+    Rank: 5
+    Components:
+    -   1 Aura  * Level
+    Modifiers:
+    Syntax:
+      COMBATSPELL [LEVEL n] &#39;Song of Fear&#39;
+</code></pre></div>
+<p>If a mage unit has cast combat spells, it automatically casts spells as soon as it takes part in combat.
+Either by ordering ATTACK herself or by being drawn into battle by an attack on her side (see <a href="../war/#the-sides-in-a-battle">The Sides in a Battle</a>).
+This can also happen if she is set to COMBAT NOT or FLEE if she is explicitly attacked with the <a href="../cmd-attack/">ATTACK</a> command!</p>
+<p>A pre-combat or post-combat spell is cast once before or after the combat begins.
+A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under <a href="#aura">Aura</a>) and that it is still alive.</p>
 <h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
-<p>Aura ist die magische Kraft, mit deren Hilfe Zauberer ihre Magie ausüben. Aura wird durch das Zaubern verbraucht und regeneriert sich mit der Zeit wieder. Eine Magiereinheit kann eine bestimmte maximale Menge Aura aufnehmen. Wie viel, wird - ebenso wie die Auraregeneration - durch das Magietalent der Einheit bestimmt. Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird. Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken. Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.</p>
-<p>Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit dessen Hilfe eine Einheit Aura auf eine andere transferieren kann. Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann. Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen. Überschüssige Aura geht aber am Ende einer Runde wieder verloren.</p>
-<p>Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit". Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann. In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.</p>
-<p><a href="../cmd-cast/">CAST</a> ist ein pseudolanger Befehl vergleichbar mit <a href="../cmd-attack/">ATTACK</a>. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.</p>
-<p>Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. <a href="#distance-magic">Fernzauber</a> erhöhen ebenfalls die Zauberkosten.</p>
+<p>Aura is the magical power that magicians use to perform their magic.
+Aura is consumed by casting spells and regenerates over time.
+A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical talent.
+Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird.
+But that can vary between almost nothing and talent level.
+Magical races regenerate aura faster, non-magical races significantly slower.</p>
+<p>The maximum aura is not immutable: On the one hand, there is a spell that allows one unit to transfer aura to another.
+This allows the target unit to temporarily receive more aura than it can normally absorb.
+This allows her to cast spells that cost more than her maximum aura. However, excess aura is lost again at the end of a round.</p>
+<p>There are also spells (and possibly other things) that cost mages permanent aura, such as "Create a Ring of Invisibility".
+This means that the unit can now store less maximum aura.
+These are usually very powerful spells or artifact magic that cause permanent effects.</p>
+<p><a href="../cmd-cast/">CAST</a> is a pseudo-long command comparable to <a href="../cmd-attack/">ATTACK</a>.
+A unit can therefore cast spells several times per round, but cannot carry out any other long command.
+But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.
+The second costs twice as much, the third four times as much, the fourth as eight times, etc.</p>
+<p>Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.
+<a href="#ranged-magic">Ranged Spells</a> also increase the casting cost.</p>
 <h3 id="caster-level">Caster level<a class="headerlink" href="#caster-level" title="Permanent link">&para;</a></h3>
-<p>Der Wert, der als "Stufe" angegeben wird, ist zunächst einmal das Mindesttalent, bei dem die Einheit den Zauber bekommt.</p>
-<p>Manche Zauber haben feste Wirkungen und Kosten. Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden. Für Dinge wie <a href="#magic-resistance">Magieresistenz</a> kann sie trotzdem wichtig sein. <em>Ring der Unsichtbarkeit</em> wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.</p>
-<p>Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet sich von der Stufe ab, auf der gezaubert wurde. Die Details hängen vom jeweiligen Zauber ab. Manchmal betrifft es die Wirkungsdauer, manchmal die Anzahl der verzauberten Personen und so weiter.</p>
-<p>Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.</p>
-<p>Durch einen <a href="../ring-of-power/">Ring der Macht</a>, <a href="../buildings-others/#mage-tower">Andere Gebäude#magierturm</a> oder <a href="../buildings-others/#stonecircle">gesegneten Steinkreis</a> kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.</p>
-<p>Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die <a href="#blunder">Wahrscheinlichkeit für Patzer</a> beeinflusst.</p>
-<p>Diese Modifikation funktioniert auch bei Kampfzaubern:</p>
-<div class="highlight"><pre><span></span><code> COMBATSPELL LEVEL 2 &quot;Gesang der Furcht&quot;
+<p>The value specified as "level" is initially the minimum talent at which the unit gets the spell.</p>
+<p>Some spells have fixed effects and costs.
+They are always cast at the spell's level and cannot be changed by parameters.
+It can still be important for things like <a href="#magic-resistance">Magic Resistance</a>.*Ring of invisibility*is always cast at level 6 and produces exactly one ring.</p>
+<p>Many spells have level-dependent effects and costs.
+Its effect is derived from the level at which the spell was cast.
+The details depend on the spell in question. Sometimes it concerns the duration of the effect, sometimes the number of people enchanted, and so on.</p>
+<p>With these variable spells you can specify a level at which the spell should be cast.
+This must be equal to or lower than the unit's magic talent, but it can be higher or lower than the spell's normal level.
+This allows you to cast the spell at a lower level than your own talent.</p>
+<p>Using a <a href="../ring-of-power/">Ring of Power</a>, <a href="../buildings-others/#mage-tower">Mage Tower</a> or <a href="../buildings-others/#stonecircle">Blessed Stone Circle</a>, the strength can be increased by an additional point.
+This bonus is added to the specified level.</p>
+<p>If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's talent value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).
+One reason this isn't always desirable is that the level also affects the <a href="#blunder">probability of blunders</a>.</p>
+<p>This modification also works on combat spells:</p>
+<div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 &quot;Gesang der Furcht&quot;
 </code></pre></div>
-<p>Das ist zum Beispiel sinnvoll, wenn man sich etwas Aura aufsparen will, um für einen Postkampfzauber noch etwas Aura übrig zu haben.</p>
+<p>This is useful, for example, if you want to save some aura so that you have some aura left for a post-combat spell.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre><span></span><code>CAST LEVEL 4 &quot;Wunderdoktor&quot;
+<div class="highlight"><pre><span></span><code>CAST LEVEL 4 &quot;Miracle doctor&quot;
 </code></pre></div>
-<p>Dieser Zauber wird 4 Aura kosten und 200 Silber verdienen. Mit einem Ring der Macht kostet er immer noch 4 Aura, verdient aber 250 Silber.</p>
+<p>This spell will cost 4 aura and earn 200 silver.
+With a Ring of Power it still costs 4 aura but earns 250 silver.</p>
 <h3 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h3>
-<p>Steht dort einfach nur Anzahl Aura, so heißt das, dass die Kosten fix sind: <em>Ring der Unsichtbarkeit</em> kostet immer 50 Aura. Steht dort eine Angabe wie etwa <code>3 Aura * Stufe</code>, dann heißt das, dass für einmal Zaubern 3 Aura multipliziert mit der Stufe, auf welcher der Zauber gesprochen wird, an Aurakosten anfallen. <em>Wunderdoktor</em> kostet 1 Aura, wenn er auf Stufe 1 gezaubert wird und 30 Aura, wenn er auf Stufe 30 gezaubert wird. Erfordert der Spruch permanente Aura, so verringert sich die maximale Aura der Einheit für immer um diesen Wert. Weitere Komponenten können Kräuter, Rohstoffe, Silber, Tränke oder auch seltene Gegenstände und sogar Bauern sein.</p>
-<h3 id="distance-magic">Distance magic<a class="headerlink" href="#distance-magic" title="Permanent link">&para;</a></h3>
-<p>Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber in einer anderen. Bei diesen Zaubern kann man dann die folgende Syntax benutzen:</p>
+<p>If it simply says the number of aura, it means that the costs are fixed:<em>Ring of invisibility*always costs 50 aura.
+Is there any information there such as: <code>3 Aura * Level</code>, then this means that for casting a spell once, the aura cost is 3 aura multiplied by the level at which the spell is cast.
+**Miracle Doctor*</em> costs 1 aura when cast at level 1 and 30 aura when cast at level 30.
+If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.
+Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.</p>
+<h3 id="ranged-magic">Ranged magic<a class="headerlink" href="#ranged-magic" title="Permanent link">&para;</a></h3>
+<p>Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:</p>
 <div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; &quot;Zauber&quot;
 </code></pre></div>
-<p>Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den <a href="../cmd-origin/">ORIGIN</a>. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:</p>
+<p>The spell is then cast in the specified region.
+The X and Y coordinates refer to the <a href="../cmd-origin/">ORIGIN</a>.
+However, this modification increases the cost of all components of the spell exponentially.
+The cost of material components and aura are doubled per region of distance between the unit's location and the target.
+Formula: 2<sup>a</sup>, where a is the distance of the target region to the region of the unit.</p>
+<p>The following tables for illustration:</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Distance regions (a)</th>
+<th style="text-align: right;">0</th>
+<th style="text-align: right;">1</th>
+<th style="text-align: right;">2</th>
+<th style="text-align: right;">3</th>
+<th style="text-align: right;">4</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Entfernung Regionen (a)</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
+<td><strong>Stones</strong> required</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">16</td>
 </tr>
 <tr>
-<td>Anzahl der benötigten Komponenten</td>
-<td>1 Stein  <br>5 Eisen  <br>10 Holz</td>
-<td>2 Steine  <br>10 Eisen  <br>20 Holz</td>
-<td>4 Steine  <br>20 Eisen  <br>40 Holz</td>
-<td>8 Steine  <br>40 Eisen  <br>80 Holz</td>
-<td>16 Steine  <br>80 Eisen  <br>160 Holz</td>
+<td><strong>Irons</strong> required</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">80</td>
+</tr>
+<tr>
+<td><strong>Woods</strong> required</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">160</td>
 </tr>
 </tbody>
 </table>
-<p>Aurakosten werden auch erhöht, wenn eine Einheit mehrere Zauber in einer Runde zaubert (Formel: 2<sup>b-1</sup>, wobei b die Anzahl der Zauber in dieser Runde ist, siehe <a href="#aura">oben</a>). Für andere Komponenten gilt dies nicht, sie werden nur durch Fernzauber erhöht.</p>
-<p>Fernzauber und Mehrfachzauber können also auch in Kombination die Aurakosten erhöhen:</p>
+<p>Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see <a href="#aura">above</a>).
+This does not apply to other components; they are only increased by long-distance spells.</p>
+<p>Distance spells and multiple spells can also increase the aura costs in combination:</p>
 <table>
 <thead>
 <tr>
-<th>Entfernung Regionen (a)</th>
+<th>Distance regions (a)</th>
 <th>0</th>
 <th>1</th>
 <th>2</th>
@@ -7925,151 +7960,153 @@ Syntax:
 </thead>
 <tbody>
 <tr>
-<td>Aurakosten (1. Spruch)</td>
-<td>Aurakosten * 1</td>
-<td>Aurakosten * 2</td>
-<td>Aurakosten * 4</td>
-<td>Aurakosten * 8</td>
-<td>Aurakosten * 16</td>
+<td>Aura cost (1<sup>st</sup> spell)</td>
+<td>Aura cost*1</td>
+<td>Aura cost*2</td>
+<td>Aura cost*4</td>
+<td>Aura cost*8</td>
+<td>Aura cost*16</td>
 </tr>
 <tr>
-<td>Aurakosten (2. Spruch)</td>
-<td>Aurakosten * 2</td>
-<td>Aurakosten * 4</td>
-<td>Aurakosten * 8</td>
-<td>Aurakosten * 16</td>
-<td>Aurakosten * 32</td>
+<td>Aura cost (2<sup>nd</sup> spell)</td>
+<td>Aura cost*2</td>
+<td>Aura cost*4</td>
+<td>Aura cost*8</td>
+<td>Aura cost*16</td>
+<td>Aura cost*32</td>
 </tr>
 <tr>
-<td>Aurakosten (3. Spruch)</td>
-<td>Aurakosten * 4</td>
-<td>Aurakosten * 8</td>
-<td>Aurakosten * 16</td>
-<td>Aurakosten * 32</td>
-<td>Aurakosten * 64</td>
+<td>Aura Cost (3<sup>rd</sup> Spell)</td>
+<td>Aura cost*4</td>
+<td>Aura cost*8</td>
+<td>Aura cost*16</td>
+<td>Aura cost*32</td>
+<td>Aura cost*64</td>
 </tr>
 </tbody>
 </table>
-<p>Die beiden Modifikatoren können auch verknüpft werden:</p>
-<div class="highlight"><pre><span></span><code> CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;nr&gt; &quot;Zauber&quot;
+<p>The two modifiers can also be linked:</p>
+<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;nr&gt; &quot;Zauber&quot;
 </code></pre></div>
-<p>Dabei ist wichtig, dass man erst die Region und dann die Stufe angibt.</p>
+<p>It is important that you first specify the region and then the level.</p>
 <p><strong>Example:</strong></p>
-<p>Eine Einheit in der Region (1,1) zaubert als ersten Zauberspruch der Runde "Segen der Erde" auf Stufe 3 in die östlich gelegene Nachbarregion (a = 1 Feld Entfernung). Das kostet 2 * 3 = 6 Aura. Der Befehl für diesen Spruch lautet <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.</p>
+<p>A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).
+That costs 2*3 = 6 aura. The order for this spell is <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.</p>
 <h3 id="ship-and-sea-magic">Ship and sea magic<a class="headerlink" href="#ship-and-sea-magic" title="Permanent link">&para;</a></h3>
-<p>Neben den Fernzaubern gibt es auch noch zwei andere Klassen von besonderen Sprüchen. Generell können Zauber <strong>nicht von ablegenden Schiffen</strong> aus gezaubert werden. Eine Ausnahme bilden nur die als <strong>Schiffszauber</strong> bezeichneten Sprüche. Sprüche, die als <strong>Seezauber</strong> gekennzeichnet sind, können auch von Nicht-Meermenschen auf dem Ozean gezaubert werden.</p>
+<p>In addition to long-distance spells, there are also two other classes of special spells.
+In general, spells can <strong>not from departing ships</strong> be conjured up.
+The only exceptions are those <strong>Ship magic</strong> designated sayings. Sayings that as <strong>Sea magic</strong> marked can also be cast by non-Aquarians on the ocean.</p>
 <h3 id="magic-with-people-and-objects">Magic with people and objects<a class="headerlink" href="#magic-with-people-and-objects" title="Permanent link">&para;</a></h3>
-<p>Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen.
-Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit <a href="../cmd-contact/">CONTACT</a> den Magier kontaktiert.
-Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit <a href="../cmd-contact/">CONTACT</a> signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.</p>
+<p>Some spells can be used to magically influence people and objects.
+It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with <a href="../cmd-contact/">CONTACT</a>.
+Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with <a href="../cmd-contact/">CONTACT</a> the target signals that they agree to the enchantment.</p>
 <h3 id="rank">Rank<a class="headerlink" href="#rank" title="Permanent link">&para;</a></h3>
-<p>Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers.
-Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt.
-Dabei ist Rang 1 der niedrigste und Rang 9 der höchste.
-Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert.
-Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.</p>
+<p>The order of normal spells is determined by the rank of the spell.
+Within a round, spells with a lower rank are always executed before those with a higher rank.
+Rank 1 is the lowest and rank 9 is the highest.
+Most spells have a standard rank of 5, but antimagic spells almost all have a rank of 2, so they may be cast before normal spells.
+Spells of the same rank are cast in the order specified on the turn.</p>
 <p><strong>Example:</strong></p>
-<p>Es gäbe drei Zauber, genannt "Aaaa", "Beee" und "Ceee".</p>
-<p>"Aaaa" hat Rang 5 und kostet 10 Aura.</p>
-<p>"Beee" hat Rang 2 und kostet 20 Aura.</p>
-<p>"Ceee" hat Rang 5 und kostet 5 Aura.</p>
-<p>Angenommen die Einheit hat die Befehle</p>
-<div class="highlight"><pre><span></span><code>   CAST &quot;Ceee&quot;
-   CAST &quot;Beee&quot;
-   CAST &quot;Aaaa&quot;
+<p>There would be three spells, called "Aaa", "Bee" and "Cee" :</p>
+<ul>
+<li>"Aaaa" is rank 5 and costs 10 aura</li>
+<li>"Beee" is rank 2 and costs 20 aura</li>
+<li>"Ceee" is rank 5 and costs 5 aura</li>
+</ul>
+<p>Assuming the unit has the orders :</p>
+<div class="highlight"><pre><span></span><code>CAST &quot;Ceee&quot;
+CAST &quot;Beee&quot;
+CAST &quot;Aaaa&quot;
 </code></pre></div>
-<p>in dieser Reihenfolge.
-Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2.
-Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura.
-Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa".
-"Ceee" ist der zweite Zauber, er kostet also 5*2^1=10 Aura. Nun kommt noch "Aaaa".
-"Aaaa" ist der dritte Zauber, er kostet also 10*2^2=40 Aura.</p>
+<p>in that order.
+“Beee” is cast first, because the spell has rank 2.
+It's the unit's first spell this week, so it costs 20 aura.
+Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".
+"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.
+"Aaaa" is the third spell, so it costs 10*2^2=40 aura.</p>
 <h2 id="blunder">Blunder<a class="headerlink" href="#blunder" title="Permanent link">&para;</a></h2>
-<p>Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen.
-Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken.
-Zudem kann ein Zauberer einen Spruch auch verpatzen.</p>
-<p>Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht.
-Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl.").
-Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.</p>
-<p>Die Wahrscheinlichkeit für einen Patzer hängt von vielen Faktoren ab, unter anderem von der Stufe, Schwierigkeitsgrad des Spruchs im Verhältnis zur Stufe, auf der der Spruch vom Magier gezaubert wird, dem Magiegebiet, dem Spruch, der Umgebung, dem Ziel usw.</p>
-<p>Patzer können äußerst unangenehme Nebenwirkungen haben! Überlebt die Einheit jedoch einen Patzer, sind diese normalerweise nicht permanent.</p>
-<p>Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance.
-Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):</p>
+<p>There is a lot that is not obvious in the magic system and in the spells.
+In general, many sayings contain direct or indirect risks.
+A magician can also botch a spell.</p>
+<p>A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.
+This is not a bug and also gives a completely normal message in the report ("The spell fails.").
+If components or aura are missing, this will also be mentioned in the message.</p>
+<p>The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.</p>
+<p>Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.</p>
+<p>Player experience (Solthar):</p>
+<p>A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.
+For draigmages it is 10% more. Possible consequences (in descending order of frequency):</p>
 <ul>
-<li>Der Zauber funktioniert, aber nachfolgende Sprüche werden viel teurer</li>
-<li>Alle Aura geht verloren, der Zauber funktioniert oder auch nicht</li>
-<li>Der Zauber funktioniert nicht und du wirst zur <a href="../toad/">Kröte</a> für 2 oder mehr Wochen</li>
-<li>Der Zauber funktioniert nicht und es gibt einen speziellen Effekt.</li>
+<li>The spell works, but subsequent spells become much more expensive</li>
+<li>All aura is lost, the spell works or not</li>
+<li>The spell doesn't work and you become a [[toad]] for 2 or more weeks</li>
+<li>The spell doesn't work and there is a special effect</li>
 </ul>
-<p>Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).</p>
+<p>Special effects mainly affect Gwyrrd (enraged Ents are created) and Draig (pawn mobs or other consequences).</p>
 <h2 id="magic-resistance">Magic resistance<a class="headerlink" href="#magic-resistance" title="Permanent link">&para;</a></h2>
-<p>Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird.
-Die Magieresistenz einer Einheit ist:</p>
+<p>A person/unit's magic resistance is each person's inherent ability to resist a spell cast against them, and how severely a person is affected by magical damage in combat.
+A unit's magic resistance is:</p>
 <ul>
-<li>die natürliche Magieresistenz der <a href="../races/">Rassen</a></li>
-<li>plus 5% pro Magietalent</li>
-<li>plus 10% * Einhörner pro Person</li>
-<li>evtl. Bonus oder Abzug durch <a href="../spells-list/">Zauber</a> auf der Einheit oder der Region</li>
-<li>evtl. Bonus durch <a href="../buildings-others/#stonecircle">Gebäude</a></li>
-<li>Diese Werte werden addiert, das Ergebnis kann aber nie höher als 90% sein.</li>
+<li>the natural magic resistance of the <a href="../races/">Races</a></li>
+<li>plus 5% per magic skill</li>
+<li>plus 10%*Unicorns per person</li>
+<li>Possibly bonus or penalty due to <a href="../spells-list/">spell</a> on the unit or region</li>
+<li>Possibly bonus from <a href="../buildings-others/#stonecircle">building</a></li>
+<li>These values ​​are added together, but the result can never be higher than 90%</li>
 </ul>
-<p>Bei bestimmten direkten Verzauberungen wird sie zusätzlich von der Erfahrung der Einheit beeinflusst:</p>
+<p>For certain direct enchantments, it is additionally influenced by the unit's experience:</p>
 <ul>
-<li>50% + 5% * (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)</li>
-<li>nie unter 2%, nie über 98%</li>
+<li>50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)</li>
+<li>Never below 2%, never above 98%</li>
 </ul>
-<p>Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch <a href="../war-tables/#magic-resistance">Waffen oder Rüstungen</a>. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.</p>
-<p>Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.</p>
-<p><strong>Beispiele:</strong> Die Basischance ist 0% für Menschen, 10% für <a href="../skills-modifiers/">Elfen</a>, für <a href="../skills-modifiers/">Goblins</a> ist sie nur -5%.</p>
-<p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a href="../spells-descriptions/#chaos-curse">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.</p>
-<p>Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit <a href="../war-tables/#magic-resistance">Laenschwert</a> nur (90% * 70%) = 63% davon, also etwa 31 Schaden.</p>
+<p>Instead, additional bonuses from <a href="../war-tables/#magic-resistance">Weapons or Armor</a> work against combat spells such as fireballs and weapons that are considered magical. Otherwise, only magical protection and natural armor work against magical damage.</p>
+<p>Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.</p>
+<p><strong>Examples:</strong> The base chance is 0% for humans, 10% for <a href="../skills-modifiers/">elves</a>, for <a href="../skills-modifiers/">goblins</a> it is only -5%.</p>
+<p>A Mining 10 unit has a 50% chance to resist a spell like <a href="../spells-descriptions/#chaos-curse">Chaos Curse</a> cast by a Magic 10 unit. If the magic talent is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.</p>
+<p>For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with <a href="../war-tables/#magic-resistance">Lensword</a>.*70%) = 63% of that, so about 31 damage.</p>
 <h2 id="mage-tower">Mage Tower<a class="headerlink" href="#mage-tower" title="Permanent link">&para;</a></h2>
-<p>Ein <a href="../buildings-others/#mage-tower">Magierturm</a> erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.</p>
+<p>A <a href="../buildings-others/#mage-tower">Mage Tower</a> increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.
+In addition, the likelihood of a spell failure is significantly reduced.</p>
 <h2 id="familiar">Familiar<a class="headerlink" href="#familiar" title="Permanent link">&para;</a></h2>
-<p>Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über <a href="../familiars/">Vertraute</a> finden.</p>
+<p>Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them. Which genus this creature belongs to depends primarily on the area of ​​magic and race.
+More details about these familiars can be found in the chapter on <a href="../familiars/">Familiars</a>.</p>
 <h2 id="the-astral-space">The Astral Space<a class="headerlink" href="#the-astral-space" title="Permanent link">&para;</a></h2>
-<p><strong>Hinweis:</strong> Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.</p>
-<p>So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die <em>Welt der Geisterwesen</em>, andere wiederum die <em>astrale Welt</em>, am bekanntesten jedoch ist der Begriff <em>Astralraum</em>. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.</p>
-<p>Wer den Astralraum betritt – dies ist nur durch bestimmte <a href="../spells-list/">Zauber</a> möglich –, verschwindet vollständig aus der realen Welt.
-Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt.
-Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt.
-Sie können also Befehle wie <a href="../cmd-move/">MOVE</a> und <a href="../cmd-attack/">ATTACK</a> erhalten und mit anderen Einheiten in der astralen Welt interagieren.
-Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.</p>
-<p>Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen.
-Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft.
-Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild).
-Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen.
-Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet.
-Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.</p>
+<p><strong>Note:</strong> You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.</p>
+<p>There are more than 512 characters with translation, please reduce the translation content.<strong><em>astrale Welt</em></strong></p>
+<p>Anyone who enters the astral space -this is only possible through certain <a href="../spells-list/">spells</a> -disappears completely from the real world.
+Like the real world, the astral space is divided into regions with the known cardinal points.
+Units located at a point in astral space appear in the report and are played like other units.
+So you can receive orders like <a href="../cmd-move/">MOVE</a> and <a href="../cmd-attack/">ATTACK</a> and interact with other entities in the astral world.
+They can only communicate with the normal world through magic.</p>
+<p>The senses of worldly creatures are unable to concretely perceive the surroundings in the astral world.
+The eye sees the surroundings as a mere mist, and all sounds are muffled and muffled.
+From every point in the astral space, up to 19 real-world regions can be seen in outline, which are at most two regions away from a specific real region, which we will call the "reference point" here (green in the picture).
+Some spells can make these patterns appear more precise.
+In the example image, all regions that can be identified from a region are outlined in red.
+Six regions bisected by the red line are even visible from two astral regions each.</p>
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 <p><img alt="Astral space connection" src="../assets/images/astral-space-connection.jpg" title="Astral space connection" /></p>
-<!-- Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
-<figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
--->
-
-<p>Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt.
-Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb).
-Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost.
-Der "Bezugspunkt" ist die südwestliche Ecke davon.
-Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt.
-Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung.
-Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden.
-Je nach benutztem Zauber können noch weitere Einschränkungen gelten.</p>
-<p>Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf.
-Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können.
-Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.</p>
-<p>Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten.
-Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen.
-Einzig <em>Elfenpferde</em> scheinen als magische Reittiere im Astralraum überleben zu können.</p>
-<p>Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen <a href="../monsters/#braineaters">Wesen</a> bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben.
-Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.</p>
+<p>What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.
+Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).
+This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.
+The "reference point" is the southwest corner of it.
+All regions in such an area lead to the same point when entering the astral world.
+This connection is a prerequisite for most spells involving the astral space.
+But it can also be disturbed, for example by blessed stone circles that have recently been visited by a magician.
+Depending on the spell used, additional restrictions may apply.</p>
+<p>That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.
+Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.
+Because every step in the spirit world corresponds to 4 steps in the real world.</p>
+<p>Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.
+Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.
+Only <strong>Elven horses</strong> seem to be able to survive as magical mounts in the astral space.</p>
+<p>In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible <a href="../monsters/#braineaters">beings</a> who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.
+Only those who carry powerful magical weapons or allies with them or are able to hide themselves extremely well from unfriendly eyes will be immune from these horrors of the astral space.</p>
 <h2 id="lists-of-all-spells">Lists of all spells<a class="headerlink" href="#lists-of-all-spells" title="Permanent link">&para;</a></h2>
-<p>Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären.
-Deshalb gibt es nun eine <a href="../spells-list/">Liste aller Zauber</a> und [Zauberbeschreibungen].</p>
+<p>In the early days of Eressea, the exact lists of spells were secret so that "we could have the anticipation of whether and which new spells one would receive when reaching a new level." Eressea has now been running for so long that it would put new players at too great a disadvantage compared to veterans if the spells were not known.
+That's why there is now a <a href="../spells-list/">List of spells</a> and <a href="../spells-descriptions/">Description of spells</a>.</p>
 <p>Continue reading: <a href="../magic-schools/">Schools of Magic</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
-
-<p>s[Zauberbeschreibungen]: ./spells-descriptions.md</p>
 
 
 

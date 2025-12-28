@@ -866,7 +866,7 @@
   <span class="md-ellipsis">
     
   
-    Hinweise
+    Hints
   
 
     
@@ -894,7 +894,7 @@
   <span class="md-ellipsis">
     
   
-    Anfängertipps
+    Beginner tips
   
 
     
@@ -922,7 +922,7 @@
   <span class="md-ellipsis">
     
   
-    Grundlagen
+    Basics
   
 
     
@@ -950,7 +950,7 @@
   <span class="md-ellipsis">
     
   
-    Befehle einschicken
+    Sending orders
   
 
     
@@ -978,7 +978,7 @@
   <span class="md-ellipsis">
     
   
-    Befehle von Magellan verschicken
+    Sending orders from Magellan
   
 
     
@@ -1006,7 +1006,7 @@
   <span class="md-ellipsis">
     
   
-    Welpenschutz
+    Puppy protection
   
 
     
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    Welt
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Parteien
+    Factions and units
   
 
     
@@ -1163,7 +1163,7 @@
   <span class="md-ellipsis">
     
   
-    Rassen
+    Races
   
 
     
@@ -2947,6 +2947,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KOMMENTAR (;)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2954,7 +2982,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    KOMMENTAR (//)
   
 
     
@@ -3179,6 +3207,34 @@
     
   
     UNTERHALTE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3515,6 +3571,34 @@
     
   
     VERLASSE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4151,34 +4235,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    KOMMENTAR (;)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4411,62 +4467,6 @@
     
   
     ARBEITE
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -7355,20 +7355,27 @@
 
 <h1 id="kaufe">KAUFE<a class="headerlink" href="#kaufe" title="Permanent link">&para;</a></h1>
 <p><strong><code>KAUFE</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>anzahl</code></em><code></code><em><code>luxusgut</code></em></p>
-<p>Wenn die Einheit das Talent <a href="../silver/#handel" title="Handel">Handeln</a> hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen. Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer Burgtyp befindet, in dessen Nähe der Markt abgehalten werden kann, und zweitens das Produkt überhaupt in der Region produziert wird. Um etwas zu kaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen ...</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>KAUFE</code> ist wie <a href="../cmd-sell/">VERKAUFE</a> ein <a href="../commands/" title="Befehl">"pseudolanger" Befehl</a>. Man kann insgesamt Talentstufe(Handeln) * 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben. KAUFE-Order haben Priorität vor Verkäufen. <code>KAUFE</code>-Befehle werden also generell vor <code>VERKAUFE</code> ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen. Auch bedeutet das, dass Einheiten ohne genügend Talent für die Ausführung aller <code>KAUFE</code>- und <code>VERKAUFE</code>-Befehle zuerst so viel wie möglich kaufen und gegebenenfalls keine Talentpunkte fürs Verkaufen übrig sind.</p>
+<p>Wenn die Einheit das Talent <a href="../silver/#handel">Handeln</a> hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen.
+Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer Burgtyp befindet, in dessen Nähe der Markt abgehalten werden kann, und zweitens das Produkt überhaupt in der Region produziert wird.
+Um etwas zu kaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen...</p>
+<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>KAUFE</code> ist wie <a href="../cmd-sell/">VERKAUFE</a> ein <a href="../commands/">"pseudolanger" Befehl</a>.
+Man kann insgesamt Talentstufe(Handeln) * 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben. KAUFE-Order haben Priorität vor Verkäufen. <code>KAUFE</code>-Befehle werden also generell vor <code>VERKAUFE</code> ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen.
+Auch bedeutet das, dass Einheiten ohne genügend Talent für die Ausführung aller <code>KAUFE</code>- und <code>VERKAUFE</code>-Befehle zuerst so viel wie möglich kaufen und gegebenenfalls keine Talentpunkte fürs Verkaufen übrig sind.</p>
 <p>Beispiel:</p>
-<div class="highlight"><pre><span></span><code> EINHEIT hndl;     Marktschreier [1, $1000]
-   ; Handel 3 [180]
-   VERKAUFE 15 Juwelen
-   VERKAUFE 15 Öl
-   KAUFE 10 Weihrauch
+<div class="highlight"><pre><span></span><code>EINHEIT hndl;     Marktschreier [1, $1000]
+    ; Handel 3 [180]
+    VERKAUFE 15 Juwelen
+    VERKAUFE 15 Öl
+    KAUFE 10 Weihrauch
 </code></pre></div>
-<p>Dieser Händler wird 10 Weihrauch kaufen und insgesamt 20 Juwelen und Öl verkaufen. Also zufällig zwischen 5 und 15 pro Handelsware, so er sie hat.</p>
-<p>Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht eine große Liste von Befehlen dort steht. Im Computerreport und der <a href="../commands/" title="Befehl">Zugvorlage</a> sind alle <code>KAUFE</code>- und <code>VERKAUFE</code>-Befehle aufgeführt.</p>
+<p>Dieser Händler wird 10 Weihrauch kaufen und insgesamt 20 Juwelen und Öl verkaufen.
+Also zufällig zwischen 5 und 15 pro Handelsware, so er sie hat.</p>
+<p>Im Normalreport taucht immer nur ein Befehl auf.
+Dies ist aber nur, damit nicht eine große Liste von Befehlen dort steht.
+Im Computerreport und der <a href="../commands/">Zugvorlage</a> sind alle <code>KAUFE</code>- und <code>VERKAUFE</code>-Befehle aufgeführt.</p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../silver/#handel" title="Handel">Handel</a></li>
+<li><a href="../silver/#handel">Handel</a></li>
 <li><a href="../cmd-sell/">VERKAUFE</a><a href="../cmd-sell/">VERKAUFE</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->

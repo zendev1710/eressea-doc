@@ -1109,7 +1109,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1137,7 +1137,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2886,6 +2886,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2893,7 +2921,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3118,6 +3146,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3454,6 +3510,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4090,34 +4174,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4350,62 +4406,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4684,7 +4684,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -5072,7 +5072,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7667,20 +7667,20 @@
 <p>It makes sense to use the backpack problem when loading a transport with goods. However, in Eressea you quickly fall into the trap of trying to load too many similar items. Optimizations of the backpack problem can hardly cope with this.</p>
 <p>A simple example:</p>
 <p>You have to transport 10 stones (60 kg each) and 100 jewels (1 kg each). However, only 500GE capacity is available. A stone is valued at 1200, a jewel at a value of 50. Since the jewels offer more value per kg (50 per kg), we load all the jewels first:</p>
-<div class="highlight"><pre><span></span><code>    Value  = 100 * 50 = 5000
-    Charge = 100 * 1 kg = 100 kg
-    Free   = 400 kg
+<div class="highlight"><pre><span></span><code>Value  = 100 * 50 = 5000
+Charge = 100 * 1 kg = 100 kg
+Free   = 400 kg
 </code></pre></div>
 <p>At 400 kg we still manage to load 6 stones, leaving 40 kg free.</p>
-<div class="highlight"><pre><span></span><code>    Value  = 5000 + 6 * 1200 = 12200
-    Charge = 100 kg + 6 * 60 kg = 460 kg
-    Free   = 40 kg
+<div class="highlight"><pre><span></span><code>Value  = 5000 + 6 * 1200 = 12200
+Charge = 100 kg + 6 * 60 kg = 460 kg
+Free   = 40 kg
 </code></pre></div>
 <p>So let's try with the stones first: 8 stones, then there's still room for 20 jewels:</p>
-<div class="highlight"><pre><span></span><code>    Value  = 20 * 50 + 8 * 1200 = 10600
+<div class="highlight"><pre><span></span><code>Value  = 20 * 50 + 8 * 1200 = 10600
 </code></pre></div>
 <p>Apparently that was nothing. But can there be any better way? Yes, 7 stones and 80 jewels seem to make better use of the capacity:</p>
-<div class="highlight"><pre><span></span><code>    Value  = 80 * 50 + 7 * 1200 = 12400
+<div class="highlight"><pre><span></span><code>Value  = 80 * 50 + 7 * 1200 = 12400
 </code></pre></div>
 <p>The way there leads, for example, via greedy search, i.e. searching through all states. In this case, 0 to 8 stones and 0 to 100 jewels (sometimes less) means around 900 conditions that would have to be checked. If you now imagine a 3<sup>rd</sup> or 4<sup>th</sup> product, it quickly becomes clear that we won't get the result.</p>
 <p>Normally the quickest way to reach the goal is through so-called Pareto-optimal intermediate states. What such intermediate states are can be more easily explained the other way round. States that are less valuable than another intermediate state with the same loading are not Pareto optimal. There is no need to pursue this any further, as apparently only non-Pareto-optimal states can always be achieved.</p>
@@ -7756,14 +7756,14 @@ Until then, you can easily optimize the route to the minimum of both routes, i.e
 <p>The basic goods value can e.g. be expressed in silver. A commodity could e.g. Use the average of the purchase price and sales price as the value. It is becoming more difficult to value scarce raw materials in silver. Overvaluation would otherwise possibly lead to silver for maintenance not being delivered because a sword is missing somewhere and the transport therefore takes a different route.</p>
 <h4 id="modification-by-urgency">Modification by urgency<a class="headerlink" href="#modification-by-urgency" title="Permanent link">&para;</a></h4>
 <p>It is therefore clear that the underlying value still needs to be modified. The urgency should be able to have such a strong effect that even items with a low base value become interesting enough. An exponential function or similar on the urgency therefore makes sense.</p>
-<div class="highlight"><pre><span></span><code>    f(runden bis nötig)=?
-    f(0)=10000%*Basiswert
-    f(1)=1000%*Basiswert
-    f(2)=200%*Basiswert
-    f(3)=50%*Basiswert
-    f(4)=15%*Basiswert
-    f(5)=8%*Basiswert
-    f(irgendwann)=5%*Basiswert
+<div class="highlight"><pre><span></span><code>f(runden bis nötig)=?
+f(0)=10000%*Basiswert
+f(1)=1000%*Basiswert
+f(2)=200%*Basiswert
+f(3)=50%*Basiswert
+f(4)=15%*Basiswert
+f(5)=8%*Basiswert
+f(irgendwann)=5%*Basiswert
 </code></pre></div>
 <p>These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modeled by a function.
 The extent of this formula essentially depends on the range of underlying assets used. A flaming sword that is needed at some point may have a base value of 10,000, but the 10 silver that is urgently needed for maintenance in another region must still result in a higher total value.

@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2889,6 +2889,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2896,7 +2924,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3212,6 +3240,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3548,6 +3604,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4184,34 +4268,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4444,62 +4500,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4768,7 +4768,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -4964,7 +4964,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7432,24 +7432,24 @@ The normal report (NR) always only contains the first long default order.
 So you can't see all the default orders there.</p>
 <p>All <a href="../commands/#short-and-long-orders">long orders</a> are normally included in a unit's default orders.
 Exceptions are <code>ATTACK</code>, <code>FOLLOW</code> and <code>MOVE</code>.
-In addition, all <a href="../cmd-comment-slash/">// Comment</a> and all orders beginning with <code>@</code> are adopted.
+In addition, all [[comment-withslashes|<code>//</code>]] and all orders beginning with <code>@</code> are adopted.
 The spelling may be standardized.</p>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>    UNIT abc
-    ; only 10 this week
-    BUY 10 Balm
-    SELL 100 Oil
-    // buy more balm next week
-    @GIVE xyz ALL Balm ; Transporter
-    GIVE abc 100 Silver
-    RECRUIT 1
+<div class="highlight"><pre><span></span><code>UNIT abc
+; only 10 this week
+BUY 10 Balm
+SELL 100 Oil
+// buy more balm next week
+@GIVE xyz ALL Balm ; Transporter
+GIVE abc 100 Silver
+RECRUIT 1
 </code></pre></div>
 <p>Default orders for next week:</p>
-<div class="highlight"><pre><span></span><code>    UNIT abc
-    BUY 10 Balm
-    SELL 100 Oil
-    // buy more balm next week
-    @GIVE xyz ALL Balm ; Transporter
+<div class="highlight"><pre><span></span><code>UNIT abc
+BUY 10 Balm
+SELL 100 Oil
+// buy more balm next week
+@GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
 <p>By the way, what happens if the unit has illegally received several long orders (for example <code>LEARN</code> and <code>WORK</code>) is not precisely defined.
 The same applies to other invalid orders.</p>
@@ -7462,78 +7462,78 @@ Invalid orders are therefore not accepted.
 However, this test has limitations, it is better not to rely on it.</p>
 <p>You can also insert short orders using the <code>DEFAULT</code> order.</p>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>    UNIT abc
-    ; this week only 10
-    BUY 10 Balm
-    SELL 100 Öl
-    // learn next week
-    @GIVE xyz ALL Balm ; Transporter
-    GIVE abc 100 Silver
-    RECRUIT 1
-    DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
-    DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY und SELL
-    DEFAULT &quot;XXX&quot; ; no order, will not be accepted
+<div class="highlight"><pre><span></span><code>UNIT abc
+; this week only 10
+BUY 10 Balm
+SELL 100 Öl
+// learn next week
+@GIVE xyz ALL Balm ; Transporter
+GIVE abc 100 Silver
+RECRUIT 1
+DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
+DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY und SELL
+DEFAULT &quot;XXX&quot; ; no order, will not be accepted
 </code></pre></div>
 <p>Default orders for next week:</p>
-<div class="highlight"><pre><span></span><code>    UNIT abc
-    GIVE 123 50 Silver; don&#39;t forget
-    LEARN Trade
-    // learn next week
-    @GIVE xyz ALL Balm ; Transporter
+<div class="highlight"><pre><span></span><code>UNIT abc
+GIVE 123 50 Silver; don&#39;t forget
+LEARN Trade
+// learn next week
+@GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
 <p>If your default orders need to contain quotes, there are currently a few ways to achieve this:</p>
-<div class="highlight"><pre><span></span><code>    DEFAULT &quot;CAST &#39;Create a Ring of Invisibility&#39;&quot;
-    DEFAULT &#39;CAST &quot;Create a Ring of Invisibility&quot;&#39;
-    DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
-    DEFAULT &quot;MAKE 1 &#39;Water of life&#39;&quot;
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;CAST &#39;Create a Ring of Invisibility&#39;&quot;
+DEFAULT &#39;CAST &quot;Create a Ring of Invisibility&quot;&#39;
+DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
+DEFAULT &quot;MAKE 1 &#39;Water of life&#39;&quot;
 </code></pre></div>
 <h2 id="the-move-order">The MOVE order<a class="headerlink" href="#the-move-order" title="Permanent link">&para;</a></h2>
 <p>The <code>MOVE</code> order plays a special role: it is not included in the template.
 Instead, the long orders that the unit had in the template last week are adopted, but only long orders.</p>
 <p>Default orders:</p>
-<div class="highlight"><pre><span></span><code>     LEARN Ride
-     @GIVE 0 10 Silver
-     // no comment
+<div class="highlight"><pre><span></span><code>LEARN Ride
+@GIVE 0 10 Silver
+// no comment
 </code></pre></div>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>    MOVE e
+<div class="highlight"><pre><span></span><code>MOVE e
 </code></pre></div>
 <p>Default commands for next week:</p>
-<div class="highlight"><pre><span></span><code>    LEARN Ride
+<div class="highlight"><pre><span></span><code>LEARN Ride
 </code></pre></div>
 <p>What happens if both <code>MOVE</code> and <code>DEFAULT</code> are in play?</p>
 <p>Template:</p>
-<div class="highlight"><pre><span></span><code>    WORK
-    // now to the west
+<div class="highlight"><pre><span></span><code>WORK
+// now to the west
 </code></pre></div>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>    DEFAULT &quot;LEARN Endurance&quot;
-    // now learn
-    MOVE w
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;LEARN Endurance&quot;
+// now learn
+MOVE w
 </code></pre></div>
 <p>Default orders for next week:</p>
-<div class="highlight"><pre><span></span><code>    LEARN Endurance
-    // now learn
+<div class="highlight"><pre><span></span><code>LEARN Endurance
+// now learn
 </code></pre></div>
 <p><code>DEFAULT</code> deletes them here too <strong>long</strong> default orders (here <code>WORK</code>) and reset them.</p>
 <p>It is possible to set <code>MOVE</code> with <code>DEFAULT</code>.</p>
 <p>Template:</p>
-<div class="highlight"><pre><span></span><code>    WORK
-    @GIVE 0 1 Silver
+<div class="highlight"><pre><span></span><code>WORK
+@GIVE 0 1 Silver
 </code></pre></div>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>    DEFAULT &quot;MOVE o&quot;
-    WORK
-    @GIVE 0 2 Silver
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;MOVE o&quot;
+WORK
+@GIVE 0 2 Silver
 </code></pre></div>
 <p>Default orders for next week:</p>
-<div class="highlight"><pre><span></span><code>    MOVE o
-    @GIVE 0 2 Silver
+<div class="highlight"><pre><span></span><code>MOVE o
+@GIVE 0 2 Silver
 </code></pre></div>
 <p>Default orders for the week after next if no other orders are sent in for the unit:</p>
-<div class="highlight"><pre><span></span><code>    @GIVE 0 2 Silver
+<div class="highlight"><pre><span></span><code>@GIVE 0 2 Silver
 </code></pre></div>
-<p>Here too, the unit would not carry out a long command.</p>
+<p>Here too, the unit would not carry out a long order.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>There is a cap on the number of orders stored for a unit.
@@ -7543,7 +7543,8 @@ This is currently 128 orders, which should easily be enough for most purposes.</
 <p><code>DEFAULT DEFAULT</code> ???</p>
 <p>Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
 Well, something like <code>DEFAULT "DEFAULT 'LEARN Endurance'"</code> apparently works as you would expect, but the game management would rather not make any guarantees about it.
-Please do not submit bug reports if something like this doesn't work as expected. Scripting languages ​​such as <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">Extended commands</a> or <a href="../fftools/">FFTools</a> are better suited for such projects.</p>
+Please do not submit bug reports if something like this doesn't work as expected.
+Scripting languages ​​such as <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">Extended Commands</a> or <a href="../fftools/">FFTools</a> are better suited for such projects.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands/">Orders</a></li>

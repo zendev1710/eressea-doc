@@ -866,7 +866,7 @@
   <span class="md-ellipsis">
     
   
-    Hinweise
+    Hints
   
 
     
@@ -894,7 +894,7 @@
   <span class="md-ellipsis">
     
   
-    Anfängertipps
+    Beginner tips
   
 
     
@@ -922,7 +922,7 @@
   <span class="md-ellipsis">
     
   
-    Grundlagen
+    Basics
   
 
     
@@ -950,7 +950,7 @@
   <span class="md-ellipsis">
     
   
-    Befehle einschicken
+    Sending orders
   
 
     
@@ -978,7 +978,7 @@
   <span class="md-ellipsis">
     
   
-    Befehle von Magellan verschicken
+    Sending orders from Magellan
   
 
     
@@ -1006,7 +1006,7 @@
   <span class="md-ellipsis">
     
   
-    Welpenschutz
+    Puppy protection
   
 
     
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    Welt
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Parteien
+    Factions and units
   
 
     
@@ -1163,7 +1163,7 @@
   <span class="md-ellipsis">
     
   
-    Rassen
+    Races
   
 
     
@@ -2889,6 +2889,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KOMMENTAR (;)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2896,7 +2924,7 @@
   <span class="md-ellipsis">
     
   
-    KOMMENTAR
+    KOMMENTAR (//)
   
 
     
@@ -3212,6 +3240,34 @@
     
   
     UNTERHALTE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3548,6 +3604,34 @@
     
   
     VERLASSE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4184,34 +4268,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    KOMMENTAR (;)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4444,62 +4500,6 @@
     
   
     ARBEITE
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -7421,109 +7421,133 @@
 
 <h1 id="default">DEFAULT<a class="headerlink" href="#default" title="Permanent link">&para;</a></h1>
 <p><strong><code>DEFAULT</code></strong><code>"</code><em><code>befehl</code></em><code>"</code></p>
-<p><code>DEFAULT</code> ändert den <a href="../commands/" title="Befehl">Befehl</a>, den eine Einheit normalerweise <em>in der nächsten Woche</em> ausführen würde:</p>
+<p><code>DEFAULT</code> ändert den <a href="../commands/">Befehl</a>, den eine Einheit normalerweise <em>in der nächsten Woche</em> ausführen würde:</p>
 <h2 id="zugvorlage-und-defaultbefehle">Zugvorlage und Defaultbefehle<a class="headerlink" href="#zugvorlage-und-defaultbefehle" title="Permanent link">&para;</a></h2>
-<p>Nachdem ich meine Befehle eingeschickt habe und der Server die Auswertung erstellt hat, kommen für jede Einheit bestimmte Befehle zurück. Das sind die Defaultbefehle. Sie werden in der nächsten Woche ausgeführt, falls du <em>für diese Einheit</em> keine Befehle einschickst. Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit <a href="../cmd-option/">OPTION</a><code>ZUGVORLAGE NICHT</code> abgeschaltet hast. Außerdem sind sie im Computerreport (CR) enthalten. Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.</p>
-<p>In die Defaultbefehle einer Einheit werden normalerweise alle <a href="../commands/#kurze-und-lange-befehle" title="Befehl">langen Befehle</a> übernommen. Ausgenommen davon sind ATTACKIERE, FOLGE und NACH. Außerdem werden alle <a href="../cmd-comment-slash/" title="Kommentar (to be documented)">//</a>-Kommentare und alle Befehle, die mit @ beginnen übernommen. Die Schreibweise wird dabei möglicherweise standardisiert.</p>
+<p>Nachdem ich meine Befehle eingeschickt habe und der Server die Auswertung erstellt hat, kommen für jede Einheit bestimmte Befehle zurück.
+Das sind die Defaultbefehle.
+Sie werden in der nächsten Woche ausgeführt, falls du <em>für diese Einheit</em> keine Befehle einschickst.
+Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit <a href="../cmd-option/"><code>ZUGVORLAGE NICHT</code></a> abgeschaltet hast.
+Außerdem sind sie im Computerreport (CR) enthalten.
+Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.</p>
+<p>In die Defaultbefehle einer Einheit werden normalerweise alle <a href="../commands/#kurze-und-lange-befehle">langen Befehle</a> übernommen.
+Ausgenommen davon sind <code>ATTACKIERE</code>, <code>FOLGE</code> und <code>NACH</code>.
+Außerdem werden alle [kommentar-mit-schraegstrichen|<code>//</code>]-Kommentare und alle Befehle, die mit @ beginnen übernommen.
+Die Schreibweise wird dabei möglicherweise standardisiert.</p>
 <p>Eingeschickte Befehle:</p>
-<div class="highlight"><pre><span></span><code> EINHEIT abc
- ; diese Woche nur 10
- kAufe 10 Bals
- VERKAUFE 100 Öl
- // nächste Woche mehr Balsam kaufen
- @GIB xyz ALLES Balsam ; Transporter
- GIB abc 100 Silber
- REKRUTIERE 1
+<div class="highlight"><pre><span></span><code>EINHEIT abc
+; diese Woche nur 10
+kAufe 10 Bals
+VERKAUFE 100 Öl
+// nächste Woche mehr Balsam kaufen
+@GIB xyz ALLES Balsam ; Transporter
+GIB abc 100 Silber
+REKRUTIERE 1
 </code></pre></div>
 <p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> EINHEIT abc
- KAUFE 10 Bals
- VERKAUFE 100 Öl
- // nächste Woche mehr Balsam kaufen
- @GIB xyz ALLES Balsam ; Transporter
+<div class="highlight"><pre><span></span><code>EINHEIT abc
+KAUFE 10 Bals
+VERKAUFE 100 Öl
+// nächste Woche mehr Balsam kaufen
+@GIB xyz ALLES Balsam ; Transporter
 </code></pre></div>
-<p>Was passiert, wenn die Einheit illegalerweise mehrere lange Befehle bekommen hat (zum Beispiel LERNE und ARBEITE), ist übrigens nicht genau definiert. Das Gleiche gilt für sonstige ungültige Befehle.</p>
+<p>Was passiert, wenn die Einheit illegalerweise mehrere lange Befehle bekommen hat (zum Beispiel LERNE und ARBEITE), ist übrigens nicht genau definiert.
+Das Gleiche gilt für sonstige ungültige Befehle.</p>
 <h2 id="der-befehl-default">Der Befehl DEFAULT<a class="headerlink" href="#der-befehl-default" title="Permanent link">&para;</a></h2>
-<p>Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden. Wenn die Einheit einen DEFAULT-Befehl bekommen hat, werden ihre <strong>langen</strong> Befehle nicht in die Vorlage übernommen. <a href="../cmd-comment-slash/" title="KOMMENTAR">Lange Kommentare</a> (mit <code>//</code>) und kurze @-Befehle werden dagegen übernommen. Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert. Ungültige Befehle werden also nicht übernommen. Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.</p>
-<p>Man kann auch kurze Befehle mit dem Befehl DEFAULT einfügen.</p>
+<p>Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden.
+Wenn die Einheit einen <code>DEFAULT</code>-Befehl bekommen hat, werden ihre <strong>langen</strong> Befehle nicht in die Vorlage übernommen.
+<a href="../cmd-comment-slash/">Lange Kommentare</a> (mit <code>//</code>) und kurze <code>@</code>-Befehle werden dagegen übernommen.
+Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert.
+Ungültige Befehle werden also nicht übernommen.
+Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.</p>
+<p>Man kann auch kurze Befehle mit dem Befehl <code>DEFAULT</code> einfügen.</p>
 <p>Eingeschickte Befehle:</p>
-<div class="highlight"><pre><span></span><code> EINHEIT abc
- ; diese Woche nur 10
- Kaufe 10 Balsam
- VERKAUFE 100 Öl
- // nächste Woche lernen
- @GIB xyz ALLES Balsam ; Transporter
- GIB abc 100 Silber
- REKRUTIERE 1
- DEFAULT &quot;GIB 123 50 Silber; nicht vergessen&quot;
- DEFAULT &quot;LERNE Handel&quot; ; löscht KAUFE und VERKAUFE
- DEFAULT &quot;XXX&quot; ; kein Befehl, wird nicht übernommen
+<div class="highlight"><pre><span></span><code>EINHEIT abc
+; diese Woche nur 10
+Kaufe 10 Balsam
+VERKAUFE 100 Öl
+// nächste Woche lernen
+@GIB xyz ALLES Balsam ; Transporter
+GIB abc 100 Silber
+REKRUTIERE 1
+DEFAULT &quot;GIB 123 50 Silber; nicht vergessen&quot;
+DEFAULT &quot;LERNE Handel&quot; ; löscht KAUFE und VERKAUFE
+DEFAULT &quot;XXX&quot; ; kein Befehl, wird nicht übernommen
 </code></pre></div>
 <p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> EINHEIT abc
- GIB 123 50 Silber; nicht vergessen
- LERNE Handel
- // nächste Woche lernen
- @GIB xyz ALLES Balsam ; Transporter
+<div class="highlight"><pre><span></span><code>EINHEIT abc
+GIB 123 50 Silber; nicht vergessen
+LERNE Handel
+// nächste Woche lernen
+@GIB xyz ALLES Balsam ; Transporter
 </code></pre></div>
 <p>Falls deine Defaultbefehle Anführungszeichen enthalten müssen, gibt es ein paar Wege, das derzeit zu erreichen:</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;ZAUBERE &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;&quot;
- DEFAULT &#39;ZAUBERE &quot;Erschaffe einen Ring der Unsichtbarkeit&quot;&#39;
- DEFAULT &quot;BENENNE EINHEIT \&quot;Bob&#39;s Builders\&quot;&quot;
- DEFAULT &quot;MACHE 1 &#39;Wasser des Lebens&#39;&quot;
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;ZAUBERE &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;&quot;
+DEFAULT &#39;ZAUBERE &quot;Erschaffe einen Ring der Unsichtbarkeit&quot;&#39;
+DEFAULT &quot;BENENNE EINHEIT \&quot;Bob&#39;s Builders\&quot;&quot;
+DEFAULT &quot;MACHE 1 &#39;Wasser des Lebens&#39;&quot;
 </code></pre></div>
 <h2 id="der-befehl-nach">Der Befehl NACH<a class="headerlink" href="#der-befehl-nach" title="Permanent link">&para;</a></h2>
-<p>Der NACH-Befehl spielt eine besondere Rolle: Er wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte, allerdings nur lange Befehle.</p>
-<p>Defaultbefehle</p>
-<div class="highlight"><pre><span></span><code> LERNE Reiten
- @GIB 0 10 Silber
- // no comment
+<p>Der NACH-Befehl spielt eine besondere Rolle: Er wird nicht in die Vorlage übernommen.
+Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte, allerdings nur lange Befehle.</p>
+<p>Defaultbefehle:</p>
+<div class="highlight"><pre><span></span><code>LERNE Reiten
+@GIB 0 10 Silber
+// no comment
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> NACH o
+<p>Eingeschickte Befehle:</p>
+<div class="highlight"><pre><span></span><code>NACH o
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> LERNE Reiten
+<p>Defaultbefehle der nächsten Woche:</p>
+<div class="highlight"><pre><span></span><code>LERNE Reiten
 </code></pre></div>
 <p>Was passiert, wenn sowohl NACH als auch DEFAULT im Spiel ist?</p>
 <p>Vorlage:</p>
-<div class="highlight"><pre><span></span><code> ARBEITE
- // jetzt nach westen
+<div class="highlight"><pre><span></span><code>ARBEITE
+// jetzt nach westen
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;LERNE Ausdauer&quot;
- // nun lernen
- NACH w
+<p>Eingeschickte Befehle:</p>
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;LERNE Ausdauer&quot;
+// nun lernen
+NACH w
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> LERNE Ausdauer
- // nun lernen
+<p>Defaultbefehle der nächsten Woche:</p>
+<div class="highlight"><pre><span></span><code>LERNE Ausdauer
+// nun lernen
 </code></pre></div>
-<p>DEFAULT löscht also auch hier die <em>langen</em> Defaultbefehle (hier ARBEITE) und setzt sie neu.</p>
-<p>Es ist möglich, NACH mit DEFAULT zu setzen. Vorlage:</p>
-<div class="highlight"><pre><span></span><code> ARBEITE
- @GIB 0 1 Silber
+<p><code>DEFAULT</code> löscht also auch hier die <em>langen</em> Defaultbefehle (hier <code>ARBEITE</code>) und setzt sie neu.</p>
+<p>Es ist möglich, NACH mit DEFAULT zu setzen.</p>
+<p>Vorlage:</p>
+<div class="highlight"><pre><span></span><code>ARBEITE
+@GIB 0 1 Silber
 </code></pre></div>
-<p>Eingeschickte Befehle</p>
-<div class="highlight"><pre><span></span><code> DEFAULT &quot;NACH o&quot;
- ARBEITE
- @GIB 0 2 Silber
+<p>Eingeschickte Befehle:</p>
+<div class="highlight"><pre><span></span><code>DEFAULT &quot;NACH o&quot;
+ARBEITE
+@GIB 0 2 Silber
 </code></pre></div>
-<p>Defaultbefehle der nächsten Woche</p>
-<div class="highlight"><pre><span></span><code> NACH o
- @GIB 0 2 Silber
+<p>Defaultbefehle der nächsten Woche:</p>
+<div class="highlight"><pre><span></span><code>NACH o
+@GIB 0 2 Silber
 </code></pre></div>
 <p>Defaultbefehle der übernächsten Woche, wenn sonst keine Befehle für die Einheit eingeschickt werden:</p>
-<div class="highlight"><pre><span></span><code> @GIB 0 2 Silber
+<div class="highlight"><pre><span></span><code>@GIB 0 2 Silber
 </code></pre></div>
 <p>Auch hier würde die Einheit also dann keinen langen Befehl ausführen.</p>
-<p><strong>Hinweis:</strong> Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.</p>
-<p>Spielererfahrung: Solthar <code>DEFAULT DEFAULT</code>???</p>
-<p>Ist es möglich, DEFAULT-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen? Nun, so etwas wie <code>DEFAULT "DEFAULT 'LERNE Ausdauer'"</code> funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben. Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast. Für solche Vorhaben sind Scriptsprachen wie <a href="../vorlage/" title="Vorlage">Vorlage</a>, <a href="../commands-extended/" title="ExtendedCommands">ExtendedCommands</a> oder <a href="../fftools/" title="FFTools (to be documented)">FFTools</a> besser geeignet.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden.
+Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.</p>
+</div>
+<p>Spielererfahrung (Solthar):</p>
+<p><code>DEFAULT DEFAULT</code> ???</p>
+<p>Ist es möglich, <code>DEFAULT</code>-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen?
+Nun, so etwas wie <code>DEFAULT "DEFAULT 'LERNE Ausdauer'"</code> funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben.
+Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast.
+Für solche Vorhaben sind Scriptsprachen wie <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">ExtendedCommands</a> oder <a href="../fftools/">FFTools2</a> besser geeignet.</p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../commands/" title="Befehl">Befehle</a></li>
-<li><a href="../commands-send/" title="Befehle einschicken">Befehle einschicken</a></li>
+<li><a href="../commands/">Befehl</a></li>
+<li><a href="../commands-send/">Befehle einschicken</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 

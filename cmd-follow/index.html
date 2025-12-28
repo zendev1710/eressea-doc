@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/cmd-follow/">
       
       
-        <link rel="prev" href="../cmd-entertain/">
+        <link rel="prev" href="../cmd-eressea/">
       
       
         <link rel="next" href="../cmd-forget/">
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2889,6 +2889,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2896,7 +2924,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3121,6 +3149,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3515,6 +3571,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4151,34 +4235,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4411,62 +4467,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4735,7 +4735,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -4931,7 +4931,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7373,17 +7373,17 @@ If the optional parameter <em>Speed</em> is specified, the pursuing ship will sa
 </div>
 <p><code>FOLLOW SHIP</code>, like <code>FOLLOW UNIT</code>, is only a long order if the target has a move order and then replaces all other long order.</p>
 <p><code>FOLLOW</code> only lasts in the round in which the order is given. If the order is to last longer, it must be preceded by a <code>@</code>.</p>
-<div class="highlight"><pre><span></span><code>    UNIT 87b6
-        @FOLLOW UNIT hz7
-        ENTERTAIN
+<div class="highlight"><pre><span></span><code>UNIT 87b6
+    @FOLLOW UNIT hz7
+    ENTERTAIN
 </code></pre></div>
 <p>Unit <em>87b6</em> will now watch unit <em>hz7</em> and follow it as it moves.
 Otherwise, she will make money from entertainment.
-With the <code>@</code> both commands are retained.</p>
+With the <code>@</code> both orders are retained.</p>
 <p>Player experience (Solthar):</p>
 <p>It is possible to use a unit A to follow a unit B, which in turn follows a third unit C.
 However, this means that A no longer executes a long order, because at this point the server assumes that unit B is also moving, regardless of whether unit C is also moving.</p>
-<p>It is not possible to meaningfully issue multiple FOLLOW commands.
+<p>It is not possible to meaningfully issue multiple FOLLOW orders.
 Only the first one is always executed.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>

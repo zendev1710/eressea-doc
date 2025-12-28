@@ -35,7 +35,7 @@
     
     
       
-        <title>Factions - Eressea</title>
+        <title>Factions and units - Eressea</title>
       
     
     
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Factions
+              Factions and units
             
           </span>
         </div>
@@ -1112,7 +1112,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1149,7 +1149,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -1167,7 +1167,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2975,6 +2975,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2982,7 +3010,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3207,6 +3235,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3543,6 +3599,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4179,34 +4263,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4439,62 +4495,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4763,7 +4763,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -4959,7 +4959,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7422,18 +7422,18 @@
 <p>New units are created by generating them with an existing unit using the <a href="../cmd-make/">MAKE TEMP</a> order. A new unit has no people, yet: you first have to <a href="../cmd-give/">transfer</a> them from another unit or recruit them, which requires <a href="../silver/#expenses">money</a>. Units created by units on ships or buildings will start inside the same ship or building.</p>
 <p>A faction can only have a certain number of units, known as the <strong>unit limit</strong>. It is currently at 2500 units, which is also shown in the report. Da unit limit prevents the creation of new units. It does not matter if units have been disbanded during the turn. Under certain circumstances it may be possible that a faction has more units than the limit allows. The surplus units are not deleted; you merely cannot create new units until the number of units goes below the limit again.</p>
 <p>Here is an example for units:</p>
-<div class="highlight"><pre><span></span><code>    * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
-        melee 1, taxation 2, has: sword, 20 silver, &quot;TAX&quot;;
+<div class="highlight"><pre><span></span><code>* Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
+    melee 1, taxation 2, has: sword, 20 silver, &quot;TAX&quot;;
 
-        Konrad Rabenhelm is a typical knight of his order. The Order of the
-        Justice is known for being dark and reserved
-        members. They all seem to be gnawing at a dark experience.
+    Konrad Rabenhelm is a typical knight of his order. The Order of the
+    Justice is known for being dark and reserved
+    members. They all seem to be gnawing at a dark experience.
        
-      - Clan Ambassador (2ow), anonymous, 1 dwarf, has: horse,
-        silverbag; The ambassador is looking for friendly peoples
-        and those who want to become one.
+  - Clan Ambassador (2ow), anonymous, 1 dwarf, has: horse,
+    silverbag; The ambassador is looking for friendly peoples
+    and those who want to become one.
 
-      + Pebble Noses (kies), Rock Friends (135), 4 trolls, has: 1 cart, 30 gems.
+  + Pebble Noses (kies), Rock Friends (135), 4 trolls, has: 1 cart, 30 gems.
 </code></pre></div>
 <p>Your own units are marked with a '*'. Units of other factions are marked with '-', or '+' if you <a href="../alliances/">help</a> that faction.</p>
 <p>Each unit has a unique computer-generated number, which is used as in identifier in all orders, in this example it is tb2. You may find the term "number" strange, but in Eressea units are given "base 36" numbers: along with the digits 0–9, the letters a–z are also valid "digits" here. Every unit also has a name ("Konrad Rabenhelm") and maybe a description (following the comment). The belongings and, if available, the skills are also displayed.</p>

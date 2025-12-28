@@ -1112,7 +1112,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1140,7 +1140,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -3041,6 +3041,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -3048,7 +3076,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3273,6 +3301,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3609,6 +3665,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4245,34 +4329,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4505,62 +4561,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4829,7 +4829,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -5025,7 +5025,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7542,47 +7542,117 @@
 
 
 <h1 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">&para;</a></h1>
-<p>Les compétences sont un élément essentiel qui définit une <a href="../cmd-unit/">unité</a> dans Eressea. Toutes les personnes d'une unité ont les mêmes compétences. Elles doivent d'abord les apprendre. Pour être précis, avec l'ordre <a href="../cmd-learn/">LEARN</a>, une unité peut faire une tentative par tour pour gagner un nouveau niveau.</p>
-<p>Certaines compétences s'améliorent également en les utilisant. Si l'unité utilise la compétence, il y a &#8531; de chances qu'elle gagne de l'expérience (&#8532; de chances qu'elle n'en gagne pas). Donc en exerçant une compétence une unité progresse à environ &#8531; de la vitesse d'apprentissage (de LEARN). Les compétences qui ne s'améliorent <em>pas</em> en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.</p>
-<p>Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser. Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence. Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.</p>
+<p>Les compétences sont un élément essentiel qui définit une <a href="../cmd-unit/">unité</a> dans Eressea.
+Toutes les personnes d'une unité ont les mêmes compétences.
+Elles doivent d'abord les apprendre.
+Pour être précis, avec l'ordre <a href="../cmd-learn/">LEARN</a>, une unité peut faire une tentative par tour pour gagner un nouveau niveau.</p>
+<p>Certaines compétences s'améliorent également en les utilisant.
+Si l'unité utilise la compétence, il y a &#8531; de chances qu'elle gagne de l'expérience (&#8532; de chances qu'elle n'en gagne pas).
+Donc en exerçant une compétence une unité progresse à environ &#8531; de la vitesse d'apprentissage (de LEARN).
+Les compétences qui ne s'améliorent <em>pas</em> en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.</p>
+<p>Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
+Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
+Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.</p>
 <h2 id="learn-skills">Learn skills<a class="headerlink" href="#learn-skills" title="Permanent link">&para;</a></h2>
-<p>Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau. En moyenne, la progression vers un nouveau niveau de compétence avec la commande <a href="../cmd-learn/">LEARN</a> prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la <a href="../races/">race</a> ou le terrain. Le temps d'apprentissage minimal est d'1 semaine. La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1). Les valeurs extrêmes sont moins fréquentes que la valeur moyenne. Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines. Il faut en moyenne deux semaines à un <a href="../races/#dwarves">nain</a> pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).</p>
-<p><strong>Examples:</strong> Das Aufsteigen von Stufe 3 nach Stufe 4 dauert im Schnitt 4 Wochen, jedoch manchmal nur eine Woche und manchmal bis zu 7 Wochen. Eine <a href="../races/#dwarves">Zwergeneinheit</a> mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben. Sie benötigt für den Aufstieg im Talent Bergbau von Stufe 3 nach Stufe 4 im Schnitt zwei Wochen.</p>
-<p>Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut <a href="../cmd-teach/">enseigner</a> la compétence. Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence. L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur. L'unité enseignante, elle, n'en tire aucune expérience. Un apprentissage dans une <a href="../buildings-others/#academy">académie</a> permet d'apprendre en plus rapidement.</p>
-<p>Un enseignant peut avoir jusqu'à 10 élèves. Une unité enseignante peut contenir autant de personnes que souhaité. Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage. Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.</p>
+<p>Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande <a href="../cmd-learn/">LEARN</a> prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la <a href="../races/">race</a> ou le terrain.
+Le temps d'apprentissage minimal est d'1 semaine.
+La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
+Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
+Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
+Il faut en moyenne deux semaines à un <a href="../races/#dwarves">nain</a> pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).</p>
+<p><strong>Examples:</strong></p>
+<p>Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.
+A <a href="../races/#dwarves">dwarven unit</a> with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
+It takes an average of two weeks to advance in the mining talent from level 3 to level 4.</p>
+<p>Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut <a href="../cmd-teach/">enseigner</a> la compétence.
+Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
+L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
+L'unité enseignante, elle, n'en tire aucune expérience.
+Un apprentissage dans une <a href="../buildings-others/#academy">académie</a> permet d'apprendre en plus rapidement.</p>
+<p>Un enseignant peut avoir jusqu'à 10 élèves.
+Une unité enseignante peut contenir autant de personnes que souhaité.
+Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage.
+Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.</p>
 <p><strong>Example:</strong></p>
-<p>Einheit l1; 1 Person, Ausdauer 3</p>
-<div class="highlight"><pre><span></span><code>  TEACH s1
-  Einheit l2; 1 Person, Hiebwaffen 3, Ausdauer 3
-  TEACH s1 s2
-  Einheit s1; 15 Personen, Ausdauer 1
-  LEARN Ausdauer
-  Einheit s2; 10 Personen, Hiebwaffen 1
-  LEARN Hiebwaffen
+<!-- TODO: replace Slashing weapons -->
+<div class="highlight"><pre><span></span><code>Unit l1; 1 Person, Endurance 3
+TEACH s1
+Unit l2; 1 Person, Slashing weapons 3, Endurance 3
+TEACH s1 s2
+Unit s1; 15 Persons, Endurance 1
+LEARN Endurance
+Unit s2; 10 Persons, Slashing weapons 1
+LEARN Slashing weapons
 </code></pre></div>
-<p>Ergebnis: Einheit l1 lehrt 10 Personen von Einheit s1 in Ausdauer. Einheit l2 lehrt die restlichen 5 Personen von s1 in Ausdauer und 5 Personen von Einheit s2 in Hiebwaffen. Einheit s1 wird von l1 und l2 gelehrt und lernt doppelt so schnell wie normal. Einheit s2 wird nur zur Hälfte in Ausdauer gelehrt und lernt deshalb nur 50% schneller.</p>
-<p>Attention! Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur. Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea. Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques. Avec l'ordre <a href="../cmd-learn-auto/">LEARN AUTO</a>, le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région. Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.</p>
-<p><a href="../magic/">magie</a>, <a href="../skills-list/">alchimie</a>, <a href="../skills-list/">herboristerie</a>, <a href="../skills-list/">espionnage</a> et <a href="../tactic/">tactics</a> sont particulièrement difficiles et coûteux à apprendre. Apprendre l'espionnage coûte 100 Silver par personne et par tour. 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique. Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce <a href="../magic/">tableau</a>). L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme. Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût. Si l'unité est dans une <a href="../buildings-others/#academy">académie</a>, le coût d'apprentissage des compétences payantes est doublé.</p>
-<p>Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose; par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.</p>
-<p>Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence. Ceci est possible avec l'ordre <a href="../cmd-forget/">FORGET</a>.</p>
+<p>Result: Unit l1 teaches 10 people from unit s1 in endurance.
+Unit l2 teaches the remaining 5 people from s1 in endurance and 5 people from unit s2 in cutting weapons.
+Unit s1 is taught by l1 and l2 and learns twice as fast as normal.
+Unit s2 is only half taught in endurance and therefore only learns 50% faster.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.
+Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.
+Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.
+Avec l'ordre <a href="../cmd-learn-auto/">LEARN AUTO</a>, le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.
+Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.</p>
+</div>
+<p><a href="../magic/">magie</a>, <a href="../skills-list/">alchimie</a>, <a href="../skills-list/">herboristerie</a>, <a href="../skills-list/">espionnage</a> et <a href="../tactic/">tactics</a> sont particulièrement difficiles et coûteuses.
+Apprendre l'espionnage coûte 100 Silver par personne et par tour.
+200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
+Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce <a href="../magic/">tableau</a>).
+L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
+Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
+Si l'unité est dans une <a href="../buildings-others/#academy">academy</a>, le coût d'apprentissage des compétences payantes est doublé.</p>
+<p>Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;
+par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.</p>
+<p>Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.
+Ceci est possible avec l'ordre <a href="../cmd-forget/">FORGET</a>.</p>
 <h2 id="mixing-skills">Mixing skills<a class="headerlink" href="#mixing-skills" title="Permanent link">&para;</a></h2>
-<p>Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu. Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi. Tu devrais donc éviter autant que possible de fusionner inutilement des unités.</p>
-<p><strong>Exemple :</strong> Une unité de deux personnes avec "melee" 5 recrute un paysan. Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5. Les paysans n'ont pas de compétence, on ajoute donc 0. La nouvelle unité a donc environ 30 semaines d'apprentissage. Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne). La nouvelle unité est donc de niveau 4.</p>
+<p>Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu.
+Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi.
+Tu devrais donc éviter autant que possible de fusionner inutilement des unités.</p>
+<p><strong>Exemple :</strong></p>
+<p>Une unité de deux personnes avec "melee" 5 recrute un paysan.
+Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5.
+Les paysans n'ont pas de compétence, on ajoute donc 0.
+La nouvelle unité a donc environ 30 semaines d'apprentissage.
+Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne).
+La nouvelle unité est donc de niveau 4.</p>
 <p>Pour le calcul des semaines d'apprentissage, tout comme pour l'apprentissage, ce sont les valeurs de compétences "brutes" qui comptent, auxquelles sont d'abord soustraits tous les bonus et malus tels que les bonus raciaux.</p>
-<p>Expérience de jeu : Solthar Tatsächlich ist die Sache komplizierter. Das kannst du jedoch überspringen, wenn du diese Anleitung zum ersten Mal liest. Jedes Mal, wenn eine Einheit eine Stufe aufsteigt, wird gewürfelt, wie viele Wochen sie zum Aufstieg auf die nächste Stufe brauchen wird. Dabei ergibt sich ein Wert zwischen 1 und (2 x neue Stufe − 1). Eine Einheit kann also ein Talent zwischen (6,1) - diese Schreibweise bedeutet hier Stufe 6 und noch eine Woche bis zum Aufstieg - und (6,13) haben. Dieser Wert wird beim Mischen mit eingerechnet. Mischst du zum Example eine Person mit (5,6) und eine Person mit (1,2) - beides entspricht genau dem Durchschnitt - haben sie zusammen 16 Lernwochen. Zwei Personen mit (3,4) entsprechen aber nur 12 Lernwochen. Die Differenz von zwei Wochen pro Person wird der neuen Einheit "gutgeschrieben". Sie hat deshalb (3,2) - ein bisschen besser als durchschnittlich.</p>
-<p>Beim Mischen von (5,1) und (1,1), also Personen, die schon fast den nächsten Aufstieg geschafft haben, käme sogar (4,4) heraus. Beim Mischen von (5,11) und (1,3) ergibt sich hingegen (3,5) als neuer Wert. Es ist also nicht möglich, den Talentwert einer gemischten Einheit genau vorherzusagen. Es kann lediglich ein Minimal- und Maximalwert angegeben werden.</p>
+<p>Expérience de jeu (Solthar):</p>
+<p>In fact, the matter is more complicated.
+However, you can skip this if you are reading this guide for the first time.
+Each time a unit advances a level, a dice is rolled to determine how many weeks it will take to advance to the next level.
+This results in a value between 1 and (2 x new level − 1).
+A unit can therefore have a talent between (6,1) -this notation means level 6 and still a week until promotion -and (6,13).
+This value is taken into account when mixing.
+For example, if you mix a person with (5.6) and a person with (1.2) -both of which correspond exactly to the average -they have a total of 16 weeks of learning.
+However, two people with (3.4) only correspond to 12 weeks of learning.
+The difference of two weeks per person will be “credited” to the new unit.
+It therefore has (3.2) -a little better than average.</p>
+<p>If you mix (5,1) and (1,1), i.e. people who have almost made it to the next climb, you would even get (4,4).
+However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the talent value of a mixed unit.
+Only a minimum and maximum value can be specified.</p>
 <h2 id="use-of-skills">Use of skills<a class="headerlink" href="#use-of-skills" title="Permanent link">&para;</a></h2>
-<p>Les compétences permettent aux unités de faire certaines choses. Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée. Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes * le niveau de compétence.</p>
-<p>Les compétences peuvent être divisées en plusieurs groupes :</p>
+<p>Les compétences permettent aux unités de faire certaines choses.
+Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée.
+Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes * le niveau de compétence.</p>
+<p>Les compétences peuvent être divisées en plusieurs groupes.</p>
 <h3 id="skills-for-production">Skills for production<a class="headerlink" href="#skills-for-production" title="Permanent link">&para;</a></h3>
 <p>alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking</p>
-<p>Il s'agit du plus grand groupe de compétences. Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes. Elles sont expliquées plus en détail dans les chapitres <a href="../production/">production</a> et <a href="../alchemy/">alchimie</a>.</p>
+<p>Il s'agit du plus grand groupe de compétences.
+Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
+Elles sont expliquées plus en détail dans les chapitres <a href="../production/">Production</a> et <a href="alchemy.fr.md">Potions</a>.</p>
 <h3 id="skills-for-making-money">Skills for making money<a class="headerlink" href="#skills-for-making-money" title="Permanent link">&para;</a></h3>
-<p>Trade, taxation et entertainment sont nécessaires pour générer des Silver. Pour en savoir plus, consultez le chapitre sur <a href="../silver/">l'argent</a>.</p>
+<p>Trade, taxation et entertainment sont nécessaires pour générer des Silver.
+Pour en savoir plus, consultez le chapitre sur <a href="../silver/">l'argent</a>.</p>
 <h3 id="concealment-co">Concealment &amp; Co<a class="headerlink" href="#concealment-co" title="Permanent link">&para;</a></h3>
-<p><a href="../skills-list/#espionage">espionage</a>, <a href="../camouflage/">stealth</a> et <a href="../camouflage/">perception</a> sont centrés sur la dissimulation. Elles ont leur propre chapitre.</p>
+<p><a href="../skills-list/#espionage">espionage</a>, <a href="../camouflage/">stealth</a> et <a href="../camouflage/">perception</a> sont centrés sur la dissimulation.
+Elles ont leur propre chapitre.</p>
 <h3 id="for-travel">For travel<a class="headerlink" href="#for-travel" title="Permanent link">&para;</a></h3>
-<p>Sailing et riding sont expliquées dans le chapitre sur les <a href="../travel/">déplacements</a>. riding est également abordé dans le chapitre des <a href="../war-tables/">combats</a>.</p>
+<p>Sailing et riding sont expliquées dans le chapitre sur les <a href="../travel/">déplacements</a>.
+riding est également abordé dans le chapitre des <a href="../war-tables/">combats</a>.</p>
 <h3 id="magic">Magic<a class="headerlink" href="#magic" title="Permanent link">&para;</a></h3>
 <p><a href="../magic/">magic</a> est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.</p>
 <h3 id="combat-skills">Combat skills<a class="headerlink" href="#combat-skills" title="Permanent link">&para;</a></h3>

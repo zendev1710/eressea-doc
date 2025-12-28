@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/cmd-comment-slash/">
       
       
-        <link rel="prev" href="../cmd-combatspell/">
+        <link rel="prev" href="../cmd-comment/">
       
       
         <link rel="next" href="../cmd-contact/">
@@ -35,7 +35,7 @@
     
     
       
-        <title>// Comment - Eressea</title>
+        <title>Comment (//) - Eressea</title>
       
     
     
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              // Comment
+              Comment (//)
             
           </span>
         </div>
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2886,6 +2886,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2905,7 +2933,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3131,6 +3159,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3467,6 +3523,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4103,34 +4187,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4363,62 +4419,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4687,7 +4687,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -4883,7 +4883,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7286,17 +7286,17 @@
   
 
 
-<h1 id="comment">// Comment<a class="headerlink" href="#comment" title="Permanent link">&para;</a></h1>
+<h1 id="comment">Comment (//)<a class="headerlink" href="#comment" title="Permanent link">&para;</a></h1>
 <p><strong><code>//</code></strong><code></code><em><code>Comment</code></em>  </p>
-<p>In contrast to a comment after a <a href="../cmd-comment/">;</a> (semicolon), this comment is included in the template <strong>for the next round's</strong> evaluation.</p>
-<div class="highlight"><pre><span></span><code>    UNIT 123;     One hundred and twenty-three [20,450$]
-    // Upkeep Mage Tower
-    @GIVE 234 1000 SILVER
-    // Learn polearms every now and then
-    TAX Steuern ein
+<p>In contrast to a comment after a <a href="../cmd-comment/"><code>;</code></a> (semicolon), this comment is included in the template <strong>for the next round's</strong> evaluation.</p>
+<div class="highlight"><pre><span></span><code>UNIT 123;     One hundred and twenty-three [20,450$]
+// Upkeep Mage Tower
+@GIVE 234 1000 SILVER
+// Learn polearms every now and then
+TAX Steuern ein
 </code></pre></div>
 <p>The <code>//</code> has to be treated like an order, so you <strong>can't</strong> do:</p>
-<div class="highlight"><pre><span></span><code>    @GIVE 345 100 SILVER // because of sawmill
+<div class="highlight"><pre><span></span><code>@GIVE 345 100 SILVER // because of sawmill
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>

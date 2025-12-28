@@ -754,7 +754,7 @@
   <span class="md-ellipsis">
     
   
-    Rules
+    Règles
   
 
     
@@ -866,7 +866,7 @@
   <span class="md-ellipsis">
     
   
-    Remarques
+    Hints
   
 
     
@@ -894,7 +894,7 @@
   <span class="md-ellipsis">
     
   
-    Conseils pour débutants
+    Beginner tips
   
 
     
@@ -922,7 +922,7 @@
   <span class="md-ellipsis">
     
   
-    Bases
+    Basics
   
 
     
@@ -950,7 +950,7 @@
   <span class="md-ellipsis">
     
   
-    Envoi des ordres
+    Sending orders
   
 
     
@@ -978,7 +978,7 @@
   <span class="md-ellipsis">
     
   
-    Envoi des ordres depuis Magellan
+    Sending orders from Magellan
   
 
     
@@ -1006,7 +1006,7 @@
   <span class="md-ellipsis">
     
   
-    Protection du chiot
+    Puppy protection
   
 
     
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    Le Monde d'Eressea
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2947,6 +2947,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commentaire (;)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -3179,6 +3207,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3515,6 +3571,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4151,34 +4235,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Commentaire (;)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4411,62 +4467,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -7355,25 +7355,26 @@
 
 <h1 id="buy">BUY<a class="headerlink" href="#buy" title="Permanent link">&para;</a></h1>
 <p><strong><code>BUY</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>number</code></em><code></code><em><code>luxury goods</code></em>  </p>
-<p>If the unit has the <a href="../silver/#commerce">trade</a> skill, it will attempt to purchase that number of luxury goods.
-This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
+<p>Si l'unité possède la compétence [Commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.
+Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.
 In order to buy something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...</p>
 <p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>BUY</code> is like <a href="../cmd-sell/">SELL</a> a ["pseudo-long" command]. You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
-BUY orders have priority over sales.
-<code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough talent to execute all <code>BUY</code> and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
+BUY orders have priority over sales.</p>
+<p>Les ordres <code>BUY</code> sont généralement accompagnés d'ordres <code>SELL</code>.
+Cependant, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.
+Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres <code>BUY</code> et <code>SELL</code> achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.</p>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><code>    UNIT hndl;     Barker [1, $1000]
-        ; Trade 3 [180]
-        SELL 15 jewel
-        SELL 15 Oil
-        BUY 10 Incense
+<div class="highlight"><pre><span></span><code>UNIT hndl;     Barker [1, $1000]
+    ; Trade 3 [180]
+    SELL 15 jewel
+    SELL 15 Oil
+    BUY 10 Incense
 </code></pre></div>
-<p>This merchant will buy 10 incense and sell a total of 20 jewels and oil.
-So randomly between 5 and 15 per trade item if he has it.</p>
-<p>Only one order appears in the normal report.
-But this is only so that there is not a large list of orders there.
-In the computer report and the <a href="../commands/">orders template</a> are all <code>BUY</code> and <code>SELL</code> orders listed.</p>
+<p>Ce marchand achètera 10 encens et vendra un total de 20 bijoux et de l'huile.
+Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.</p>
+<p>Une seule commande apparaît dans le rapport standard.
+Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.
+Dans le rapport informatique et le <a href="../commands/">modèle d'ordres</a> tous les ordres <code>BUY</code> et <code>SELL</code> sont répertoriés.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../silver/#commerce">trade</a></li>

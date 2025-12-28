@@ -754,7 +754,7 @@
   <span class="md-ellipsis">
     
   
-    Rules
+    Règles
   
 
     
@@ -866,7 +866,7 @@
   <span class="md-ellipsis">
     
   
-    Remarques
+    Hints
   
 
     
@@ -894,7 +894,7 @@
   <span class="md-ellipsis">
     
   
-    Conseils pour débutants
+    Beginner tips
   
 
     
@@ -922,7 +922,7 @@
   <span class="md-ellipsis">
     
   
-    Bases
+    Basics
   
 
     
@@ -950,7 +950,7 @@
   <span class="md-ellipsis">
     
   
-    Envoi des ordres
+    Sending orders
   
 
     
@@ -978,7 +978,7 @@
   <span class="md-ellipsis">
     
   
-    Envoi des ordres depuis Magellan
+    Sending orders from Magellan
   
 
     
@@ -1006,7 +1006,7 @@
   <span class="md-ellipsis">
     
   
-    Protection du chiot
+    Puppy protection
   
 
     
@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    Le Monde d'Eressea
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2947,6 +2947,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commentaire (;)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -3179,6 +3207,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3515,6 +3571,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4151,34 +4235,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Commentaire (;)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4411,62 +4467,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -7354,14 +7354,15 @@
 
 
 <h1 id="attack">ATTACK<a class="headerlink" href="#attack" title="Permanent link">&para;</a></h1>
-<p><strong><code>ATTACK</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>unit-id</code></em></p>
-<p>This order attacks the affected unit in the current region. One order must be given for each unit to be attacked.</p>
-<p>[<sup>(L)</sup>][<sup><code>(l)</code></sup>] The <code>ATTACK</code> order is a pseudo-long order.
-It is short in the sense that are several <code>ATTACK</code> orders can be done.
-It is long because it precludes further long orders if a "long" fight actually occurs.
-When a “long” fight occurs is explained under <a href="../war/#fin-du-combat">end of battle</a>.</p>
-<p>Units that are not <a href="../cmd-combat/">fighting</a> at the front (COMBAT or COMBAT AGGRESSIVE) or rear (COMBAT REAR or COMBAT DEFENSIVE) cannot attack.</p>
-<p>In the first few weeks, your faction is <a href="../puppy-protection/">immune</a> to attacks.</p>
+<p><strong><code>ATTACK</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>unit-id</code></em>  </p>
+<p>Cet ordre attaque l'unité affectée dans la région actuelle.
+Un ordre doit être donné pour chaque unité à attaquer.</p>
+<p>[<sup>(L)</sup>][<sup><code>(l)</code></sup>] L'ordre <code>ATTACK</code> est un ordre pseudo-long.
+C'est un ordre court dans le sens où plusieurs ordres  <code>ATTACK</code> peuvent être effectués.
+C'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.
+Le moment où un combat « long » se produit est expliqué sous <a href="../war/#fin-du-combat">fin de la bataille</a>.</p>
+<p>Les unités qui ne <a href="../cmd-combat/">combattent</a> ni à l'avant (<code>COMBAT</code> ou <code>COMBAT AGGRESSIVE</code>) ni à l'arrière (<code>COMBAT REAR</code> ou <code>COMBAT DEFENSIVE</code>) ne peuvent pas attaquer.</p>
+<p>Au cours des premières semaines, votre faction est <a href="../puppy-protection/">immunisée</a> contre les attaques.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../war/">Guerre</a></li>

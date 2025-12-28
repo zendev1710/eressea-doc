@@ -1107,7 +1107,7 @@
   <span class="md-ellipsis">
     
   
-    World
+    The World
   
 
     
@@ -1135,7 +1135,7 @@
   <span class="md-ellipsis">
     
   
-    Factions
+    Factions and units
   
 
     
@@ -2947,6 +2947,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../cmd-comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ; COMMENT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cmd-comment-slash/" class="md-nav__link">
         
   
@@ -2954,7 +2982,7 @@
   <span class="md-ellipsis">
     
   
-    // Comment
+    Comment (//)
   
 
     
@@ -3179,6 +3207,34 @@
     
   
     ENTERTAIN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-eressea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERESSEA
   
 
     
@@ -3515,6 +3571,34 @@
     
   
     LEAVE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmd-locale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LOCALE
   
 
     
@@ -4151,34 +4235,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../cmd-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ; COMMENT
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../cmd-show/" class="md-nav__link">
         
   
@@ -4411,62 +4467,6 @@
     
   
     WORK
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-eressea/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ERESSEA
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cmd-locale/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LOCALE
   
 
     
@@ -4735,7 +4735,7 @@
   <span class="md-ellipsis">
     
   
-    Automatisierung Handel
+    Automation trading
   
 
     
@@ -4931,7 +4931,7 @@
   <span class="md-ellipsis">
     
   
-    Extended commands
+    Extended Commands
   
 
     
@@ -7359,15 +7359,15 @@
 This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
 In order to buy something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...</p>
 <p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>BUY</code> is like <a href="../cmd-sell/">SELL</a> a ["pseudo-long" command]. You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
-BUY orders have priority over sales.
-<code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough talent to execute all <code>BUY</code> and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
+BUY orders have priority over sales.</p>
+<p><code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
+It also means that units without enough skill to execute all <code>BUY</code> and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><code>    UNIT hndl;     Barker [1, $1000]
-        ; Trade 3 [180]
-        SELL 15 Jewel
-        SELL 15 Oil
-        BUY 10 Incense
+<div class="highlight"><pre><span></span><code>UNIT hndl;     Barker [1, $1000]
+    ; Trade 3 [180]
+    SELL 15 Jewel
+    SELL 15 Oil
+    BUY 10 Incense
 </code></pre></div>
 <p>This merchant will buy 10 incense and sell a total of 20 jewels and oil.
 So randomly between 5 and 15 per trade item if he has it.</p>

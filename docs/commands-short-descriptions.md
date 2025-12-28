@@ -4,152 +4,156 @@ alias: discussion-short-description
 ---
 # Discussion: Short description
 
-Under "K/L" it is noted whether the [Order] is a short or long order, i.e. whether it is executed immediately (and further orders are possible afterwards) or takes a whole round to execute. K is a short order, L is a long order.
+Under "S/L" it is noted whether the [Order] is a short or long order, i.e. whether it is executed immediately (and further orders are possible afterwards) or takes a whole round to execute. S is a short order, L is a long order.
 
 \(L\) denotes a pseudo-long [Order] that can be given to a unit multiple times. However, no other long order can be executed.
 
-brief description of orders
+Brief description of orders.
 
-| Order (Deutsch)                                                                | Order (English)                              | Beschreibung                                      | K/L         |
-|--------------------------------------------------------------------------------|----------------------------------------------|---------------------------------------------------|-------------|
-| [//](./cmd-comment-slash.md)                                                   | //                                           | permanent comment                                 | K           |
-| [[cmd-work]](./cmd-work.md)                                                    | WORK                                         | earns 10 silver or more                           | L           |
-| [ATTACK unit-id](./cmd-attack.md)                                              | ATTACK unit-ID                               | attacks the unit                                  | (L)\*       |
-| [BANNER "text"](./cmd-banner.md)                                               | BANNER                                       | Sets text for the address list                    | K           |
-| [CLAIM anzahl gegenstand](./cmd-claim.md)                                      | CLAIM                                        | Fetches items from party pool                     | K           |
-| [[cmd-promote]](./cmd-promote.md)                                              | PROMOTE                                      | Promote a unit to heroe                           | K           |
-| [STEAL unit-id](./cmd-steal.md)                                                | STEAL unit-ID                                | steal 50 Silver or more                           | L           |
-| [NAME UNIT "name"](./cmd-name.md)                                              | names the specified object                   | K                                                 |
-| [NAME PARTEI "name"](./cmd-name.md)                                            |                                              | K                                                 |
-| [NAME GEBÄUDE "name"](./cmd-name.md)                                           |                                              | K                                                 |
-| [NAME SCHIFF "name"](./cmd-name.md)                                            |                                              | K                                                 |
-| [NAME REGION "name"](./cmd-name.md)                                            |                                              | K                                                 |
-| [NAME FREMDE UNIT unit-id "name"](./cmd-name.md)                               | names the specified foreign object           | K                                                 |
-| [NAME FREMDES SCHIFF ship-id "name"](./cmd-name.md)                            |                                              | K                                                 |
-| [NAME FREMDES GEBÄUDE building-id "name"](./cmd-name.md)                       |                                              | K                                                 |
-| [NAME FREMDE PARTEI faction-id "name"](./cmd-name.md)                          |                                              | K                                                 |
-| [USE \[anzahl\] trank](./cmd-use.md)                                           | USE \[amount\] potion                        | uses alchemical potion                            | K           |
-| [DESCRIBE UNIT "text"](./cmd-describe.md)                                      | describes object                             | K                                                 |
-| [DESCRIBE PRIVAT "text"](./cmd-describe.md)                                    | unit description for the owner               | K                                                 |
-| [DESCRIBE GEBÄUDE "text"](./cmd-describe.md)                                   |                                              | K                                                 |
-| [DESCRIBE SCHIFF "text"](./cmd-describe.md)                                    |                                              | K                                                 |
-| [DESCRIBE REGION "text"](./cmd-describe.md)                                    |                                              | K                                                 |
-| [ENTER GEBÄUDE building-id](./cmd-enter.md)                                    | ENTER BUILDING building-id                   | Enter a building                                  | K           |
-| [ENTER SCHIFF ship-id](./cmd-enter.md)                                         | ENTER SHIP ship-id                           | Enter a ship                                      | K           |
-| [GUARD \[NOT\]](./cmd-guard.md)                                                | GUARD                                        | guard the region                                  | K           |
-| [BEZAHLE NOT \[building-id\]](./cmd-pay-not.md)                                | PAY \[NOT\]                                  | do not pay a maintenance                          | K           |
-| [MESSAGE REGION "text"](./cmd-message.md)                                      | Send a message                               | K                                                 |
-| [MESSAGE SCHIFF ship-id "text"](./cmd-message.md)                              | Send a message                               | K                                                 |
-| [MESSAGE GEBÄUDE building-id "text"](./cmd-message.md)                         | Send a message                               | K                                                 |
-| [MESSAGE UNIT unit id "text"](./cmd-message.md)                                | Send a message                               | K                                                 |
-| [MESSAGE PARTEI faction-id "text"](./cmd-message.md)                           | Send a message                               | K                                                 |
-| [DEFAULT befehl](./cmd-default.md)                                             | DEFAULT                                      | sets the default order for the next turn          | K           |
-| [UNIT unit-id](./cmd-unit.md)                                                  | UNIT unit-ID                                 | beginning of a unit's orders                      | K           |
-| [EMAIL email@adresse](./cmd-email.md)                                          | EMAIL email@adresse                          | sets the e−mail the report is sent to             | K           |
-| [[cmd-end]](./cmd-end.md)                                                      | END                                          | ends a MAKE TEMP block                            | K           |
-| [ERESSEA faction-id "passwort"](./cmd-eressea.md)                              | beginning of faction's orders                | K                                                 |
-| [RIDE unit-id](./cmd-ride.md)                                                  | RIDE unit-id                                 | be transported by unit−id                         | L           |
-| [FOLLOW UNIT unit-id](./cmd-follow.md)                                         | FOLLOW UNIT unit-id                          | follows a unit                                    | (L)\*\*     |
-| [FOLLOW SCHIFF ship-id](./cmd-follow.md)                                       | FOLLOW SHIP ship-id                          | follows a ship                                    | (L)\*\*     |
-| [RESEARCH KRÄUTER](./cmd-research.md)                                          | RESEARCH herbs                               | search for herbs                                  | L           |
-| [GIVE unit-id KRÄUTER](./cmd-give.md)                                          | GIVE unit-id herbs                           | give a unit all herbs                             | K           |
-| [GIVE unit-id KOMMANDO](./cmd-give.md)                                         | GIVE unit-id command                         | give a unit ship/ building control                | K           |
-| [GIVE unit-id UNIT](./cmd-give.md)                                             | GIVE unit-id UNIT                            | give unit to a foreign faction                    | K           |
-| [GIVE unit-id \[EACH\] anzahl PERSONEN](./cmd-give.md)                         | GIVE unit-id \[each\] amount MEN             | give a unit men                                   | K           |
-| [GIVE unit-id \[EACH\] anzahl SCHIFF](./cmd-give.md)                           | GIVE unit-id \[each\] amount SHIP            | give SHIP to form convoys                         | K           |
-| [GIVE unit-id \[EACH\] anzahl SILBER](./cmd-give.md)                           | GIVE unit-id \[each\] amount SILVER          | give silver                                       | K           |
-| [GIVE unit-id \[EACH\] anzahl gegenstand](./cmd-give.md)                       | GIVE unit-id \[each\] amount item            | give item                                         | K           |
-| [GIVE 0 anzahl SILBER](./cmd-give.md)                                          | GIVE 0 number SILVER                         | throwing away objects                             | K           |
-| [GIVE 0 anzahl PERSONEN](./cmd-give.md)                                        | GIVE 0 number MEN                            |                                                   | K           |
-| [GIVE 0 anzahl gegenstand](./cmd-give.md)                                      | GIVE 0 number item                           |                                                   | K           |
-| [GROUP \["name"\]](./cmd-group.md)                                             | forms groups of units                        | K                                                 |
-| [HELP faction-id ALLES \[NOT\]](./cmd-help.md)                                 | HELP faction-id ALL \[NOT\]                  | set up/revoke an unilateral alliance              | K           |
-| [HELP faction-id GIVE \[NOT\]](./cmd-help.md)                                  | HELP faction-id GIVE \[NOT\]                 |                                                   | K           |
-| [HELP faction-id COMBAT \[NOT\]](./cmd-help.md)                                | HELP faction-id COMBAT \[NOT\]               |                                                   | K           |
-| [HELP faction-id GUARD \[NOT\]](./cmd-help.md)                                 | HELP faction-id GUARD \[NOT\]                |                                                   | K           |
-| [HELP faction-id SILBER \[NOT\]](./cmd-help.md)                                | HELP faction-id SILVER \[NOT\]               |                                                   | K           |
-| [HELP faction-id PARTEITARNUNG \[NOT\]](./cmd-help.md)                         | HELP faction-id FACTIONSTEALTH \[NOT\]       |                                                   | K           |
-| [[cmd-combat]](./cmd-combat.md)                                                | COMBAT                                       | set the combat behaviour                          | K           |
-| [COMBAT AGGRESSIV](./cmd-combat.md)                                            | COMBAT AGGRESSIVE                            |                                                   | K           |
-| [COMBAT DEFENSIV](./cmd-combat.md)                                             | COMBAT DEFENSIVE                             |                                                   | K           |
-| [COMBAT FLIEHE](./cmd-combat.md)                                               | COMBAT FLEE                                  |                                                   | K           |
-| [COMBAT HELP \[NOT\]](./cmd-combat.md)                                         | COMBAT HELP \[NOT\]                          | the unit is \[not\] helped in the fight           | K           |
-| [COMBAT REAR](./cmd-combat.md)                                                 | COMBAT REAR                                  |                                                   | K           |
-| [COMBAT NOT](./cmd-combat.md)                                                  | COMBAT NOT                                   |                                                   | K           |
-| [COMBATSPELL \[LEVEL n\] "zauberspruch" \[NOT\]](./cmd-combatspell.md \[NOT\]) | set spell for combat                         | K                                                 |
-| [BUY anzahl luxusgut](./cmd-buy.md)                                            | BUY amount luxurygood                        | buy luxury item                                   | L\*\*\*     |
-| [CONTACT unit-id](./cmd-contact.md)                                            | CONTACT unit-no                              | contact foreign unit                              | K           |
-| [TEACH unit-id \[unit-id etc.\]](./cmd-teach.md)                               | TEACH unit-no                                | teach units                                       | L           |
-| [LEARN talent](./cmd-learn.md)                                                 | LEARN skill                                  | learn a skill                                     | L           |
-| [LEARN AUTO talent](./cmd-learn-auto.md)                                       | LEARN AUTO                                   | learn or teach a skill                            | L           |
-| [LOCALE en/de](./cmd-locale.md)                                                | LOCALE en/de                                 | no function (only for tools)                      | K           |
-| [MAKE TEMP unit-alias-nr \["name"\]](./cmd-make.md)                            | creates a new unit                           | K                                                 |
-| [MAKE \[stufe\] gebäude-typ \[building-id\]](./cmd-make.md)                    | MAKE \[level\] building-type \[building-ID\] | erect or extend a building                        | L           |
-| [MAKE \[stufe\] SCHIFF \[ship-id\]](./cmd-make.md)                             | MAKE \[level\] SHIP \[ship-ID\]              | extend a ship                                     | L           |
-| [[cmd-make]](./cmd-make.md)                                                    | MAKE ??                                      | baue weiter an Gebäude/Schiff ??                  | L           |
-| [MAKE \[stufe\] BOOT](./cmd-make.md)                                           | MAKE \[level\] boat                          | build a boat                                      | L           |
-| [MAKE \[stufe\] LANGBOOT](./cmd-make.md)                                       | MAKE \[level\] longboat                      | build a longboat                                  | L           |
-| [MAKE \[stufe\] DRACHENSCHIFF](./cmd-make.md)                                  | MAKE \[level\] dragonship                    | build a dragonship                                | L           |
-| [MAKE \[stufe\] KARAVELLE](./cmd-make.md)                                      | MAKE \[level\] caravel                       |                                                   | L           |
-| [MAKE \[stufe\] TRIREME](./cmd-make.md)                                        | MAKE \[level\] trireme                       |                                                   | L           |
-| [MAKE \[stufe\] GALEONE](./cmd-make.md)                                        | MAKE \[level\] galleon                       |                                                   | L           |
-| [MAKE \[stufe\] STRASSE richtung](./cmd-make.md)                               | MAKE \[level\] ROAD direction                | build road                                        | L           |
-| [MAKE \[anzahl\] KRÄUTER](./cmd-make.md)                                       | MAKE \[amount\] HERBS                        | pick herbs in a region                            | L           |
-| [MAKE \[anzahl\] trank](./cmd-make.md)                                         | MAKE \[amount\] POTIONS                      | make a potion                                     | L           |
-| [MAKE \[anzahl\] gegenstand](./cmd-make.md)                                    | MAKE \[amount\] item                         | make an item                                      | L           |
-| [MOVE richtung \[richtung etc.\]](./cmd-move.md)                               | MOVE direction \[direction\]                 | move unit                                         | L           |
-| [[cmd-next]](./cmd-next.md)                                                    | NEXT                                         | ends the orders of a faction                      | K           |
-| [NUMBER UNIT \[neue\_nr\]](./cmd-number.md)                                    | NUMBER UNIT \[newID\]                        | gives a new id                                    | K           |
-| [NUMBER GEBÄUDE \[neue\_nr\]](./cmd-number.md)                                 | NUMBER CASTLE \[newID\]                      |                                                   | K           |
-| [NUMBER PARTEI \[neue\_nr\]](./cmd-number.md)                                  | NUMBER FACTION \[newID\]                     |                                                   | K           |
-| [NUMBER SCHIFF \[neue\_nr\]](./cmd-number.md)                                  | NUMBER SHIP \[newID\]                        |                                                   | K           |
-| [OPTION AUSWERTUNG \[NOT\]](./cmd-option.md)                                   | OPTION                                       | Set / Revoke Options                              | K           |
-| [OPTION COMPUTER \[NOT\]](./cmd-option.md)                                     | OPTION                                       |                                                   | K           |
-| [OPTION ZIPPED \[NOT\]](./cmd-option.md)                                       | OPTION                                       |                                                   | K           |
-| [OPTION BZIP2 \[NOT\]](./cmd-option.md)                                        | OPTION                                       |                                                   | K           |
-| [OPTION SILBERPOOL \[NOT\]](./cmd-option.md)                                   | OPTION                                       |                                                   | K           |
-| [OPTION MATERIALPOOL \[NOT\]](./cmd-option.md)                                 | OPTION                                       |                                                   | K           |
-| [OPTION ADRESSEN \[NOT\]](./cmd-option.md)                                     | OPTION                                       |                                                   | K           |
-| [OPTION ZUGVORLAGE \[NOT\]](./cmd-option.md)                                   | OPTION                                       |                                                   | K           |
-| [OPTION STATISTIK \[NOT\]](./cmd-option.md)                                    | OPTION                                       |                                                   | K           |
-| [OPTION TALENTVERSCHIEBUNG \[NOT\]](./cmd-option.md)                           | OPTION                                       |                                                   | K           |
-| [OPTION PUNKTE \[NOT\]](./cmd-option.md)                                       | OPTION                                       |                                                   | K           |
-| [PASSWORD "neues-passwort"](./cmd-password.md)                                 | set new password                             | K                                                 |
-| [PLANT \[anzahl\] KRÄUTER](./cmd-plant.md)                                     | PLANT \[amount\] HERBS                       | Plant herbs                                       | L           |
-| [PLANT \[anzahl\] BÄUME](./cmd-plant.md)                                       | PLANT \[amount\] TREES                       | Plant seeds                                       | L           |
-| [PLANT \[anzahl\] MALLORNSAMEN](./cmd-plant.md)                                | Plant mallorn seeds                          | L                                                 |
-| [PLANT \[anzahl\] SAMEN](./cmd-plant.md)                                       | PLANT \[amount\] SEEDS                       | Plant seeds                                       | L           |
-| [PIRACY \[partei\_1\] \[partei\_2\] \[...\]](./cmd-piracy.md)                  | PIRACY \[faction\_1\] \[faction\_2\]         | Set Piracy                                        | L           |
-| [PREFIX \[präfix\]](./cmd-prefix.md)                                           | PREFIX                                       | prepend the race name with a prefix               | K           |
-| [REGION x,y](./cmd-region.md)                                                  | REGION x,y                                   | no function (only for tools)                      | K           |
-| [RECRUIT anzahl](./cmd-recruit.md)                                             | RECRUIT amount                               | recruit men (persons of your race)                | K           |
-| [RESERVE anzahl "gegenstand"](./cmd-reserve.md)                                | RESERVE amount item                          | reserve item                                      | K           |
-| [RESERVE anzahl SILBER](./cmd-reserve.md)                                      | RESERVE amount silver                        | reserve silver                                    | K           |
-| [ROUTE richtung \[richtung etc.\]](./cmd-route.md)                             | ROUTE direction \[direction etc.\]           | Travel                                            | L           |
-| [SORT BEFORE unit-id](./cmd-sort.md)                                           | SORT BEFORE unit-id                          | sort unit in report                               | K           |
-| [SORT AFTER unit-id](./cmd-sort.md)                                            | SORT AFTER unit-id                           |                                                   | K           |
-| [SPY unit-id](./cmd-spy.md)                                                    | SPY unit-id                                  | spy a unit                                        | L           |
-| [LANGUAGE en/de](./cmd-language.md)                                            | LANGUAGE en/de                               | Change Language for orders                        | K           |
-| [QUIT "passwort" \[PARTEI faction-id\]](./cmd-quit.md \[FACTION Faction-id\])  | quit the game \[merge with another faction\] | K                                                 |
-| [HIDE \[stufe\]](./cmd-tax.md)                                                 | HIDE \[level\]                               | set hide level                                    | K           |
-| [HIDE rasse](./cmd-tax.md)                                                     | HIDE \[race\]                                | Demon: disguise as another race                   | K           |
-| [HIDE PARTEI \[NOT\]](./cmd-tax.md)                                            | K                                            |
-| [HIDE PARTEI NUMBER nummer](./cmd-tax.md)                                      | HIDE FACTION faction-ID                      | disguised as another faction                      | K           |
-| [CARRY unit-id](./cmd-carry.md)                                                | CARRY unit-id                                | transport another unit                            | K           |
-| [TAX \[betrag\]](./cmd-tax.md)                                                 | TAX \[amount\]                               | tax peasants (max. 20 silver/skill lvl)           | L           |
-| [ENTERTAIN \[betrag\]](./cmd-entertain.md)                                     | ENTERTAIN \[amount\]                         | earn 20 or more silver (max. 20 silver/skill lvl) | L           |
-| [ORIGIN \[x y\]](./cmd-origin.md)                                              | ORIGIN \[x y\]                               | Sets the origin to x,y                            | K           |
-| [FORGET talent](./cmd-forget.md)                                               | FORGET skill                                 | forget a skill                                    | K           |
-| [SELL anzahl luxusgut](./cmd-sell.md)                                          | SELL \[amount\] \[ALL\] good                 | sell luxury goods                                 | (L)\*\*\*\* |
-| [[cmd-leave]](./cmd-leave.md)                                                  | LEAVE                                        | leave ship or building                            | K           |
-| [CAST \[REGION x y\] \[LEVEL n\] "zauberspruch" \[...\]](./cmd-cast.md)        | Cast spells                                  | (L)                                               |
-| [SHOW "zauberspruch"](./cmd-show.md)                                           | SHOW                                         | retrieve spell description                        | K           |
-| [[cmd-destroy]](./cmd-destroy.md)                                              | DESTROY                                      | building, ship, or road                           | L           |
-| [GROW PFERDE](./cmd-grow.md)                                                   | GROW HORSES                                  | breed horses, needs a stable                      | L           |
-| [GROW KRÄUTER](./cmd-grow.md)                                                  | L                                            |
-| [GROW BÄUME](./cmd-grow.md)                                                    | L                                            |
+<!-- [ => &#91; ] &#93; because '[' or ']' inside an overriden alias link value fails. -->
+| Order (Deutsch)                                           | Beschreibung                                      | S/L         |
+|-----------------------------------------------------------|---------------------------------------------------|-------------|
+| [[cmd-guard|`GUARD`&nbsp;&#91;`NOT`&#93;]]                | guard the region                                  | S           |
+| [[comment-with-slashes|`//`]]                             | permanent comment                                 | S           |
+| [[cmd-attack|`ATTACK unit-id`]]                           | attacks the unit                                  | (L)\*       |
+| [[cmd-banner|`BANNER "text"`]]                            | Sets text for the address list                    | S           |
+| [[cmd-buy|`BUY number luxury-item`]]                      | buy luxury number                                 | L\*\*\*     |
+| [[cmd-carry|`CARRY unit-id`]]                             | transport another unit                            | S           |
+| [[cmd-cast|`CAST`&nbsp;&#91;`REGION x y`&#93;&nbsp;&#91;`LEVEL n`&#93;&nbsp;`"spell" ...`]] | Cast spells                                       | (L)         |
+| [[cmd-claim|`CLAIM number item`]]                         | Fetches items from faction pool                   | S           |
+| [[cmd-combat|`COMBAT AGGRESSIVE`]]                        |                                                   | S           |
+| [[cmd-combat|`COMBAT DEFENSIVE`]]                         |                                                   | S           |
+| [[cmd-combat|`COMBAT FLIEHE`]]                            |                                                   | S           |
+| [[cmd-combat|`COMBAT HELP`&nbsp;&#91;`NOT`&#93;]]         | the unit is `[NOT]` helped in the fight           | S           |
+| [[cmd-combat|`COMBAT NOT`]]                               |                                                   | S           |
+| [[cmd-combat|`COMBAT REAR`]]                              |                                                   | S           |
+| [[cmd-combatspell|`COMBATSPELL`&nbsp;&#91;`LEVEL n`&#93;&nbsp;`"spell"`&nbsp;&#91;`NOT`&#93;]] | set spell for combat                              | S           |
+| [[cmd-contact|`CONTACT unit-id`]]                         | contact foreign unit                              | S           |
+| [[cmd-default|`DEFAULT befehl`]]                          | sets the default order for the next turn          | S           |
+| [[cmd-describe|`DESCRIBE BUILDING "text"`]]               |                                                   | S           |
+| [[cmd-describe|`DESCRIBE PRIVATE "text"`]]                | unit description for the owner                    | S           |
+| [[cmd-describe|`DESCRIBE REGION "text"`]]                 |                                                   | S           |
+| [[cmd-describe|`DESCRIBE SHIP "text"`]]                   |                                                   | S           |
+| [[cmd-describe|`DESCRIBE UNIT "text"`]]                   | describes object                                  | S           |
+| [[cmd-email|`EMAIL email@adresse`]]                       | sets the e−mail the report is sent to             | S           |
+| [[cmd-enter|`ENTER BUILDING building-id`]]                | Enter a building                                  | S           |
+| [[cmd-enter|`ENTER SHIP ship-id`]]                        | Enter a ship                                      | S           |
+| [[cmd-entertain|`ENTERTAIN`&nbsp;&#91;*`amount`*&#93;]]   | earn 20 or more silver (max. 20 silver/skill lvl) | L           |
+| [[cmd-eressea|`ERESSEA faction-id "password"`]]           | beginning of faction's orders                     | S           |
+| [[cmd-follow|`FOLLOW SHIP ship-id`]]                      | follows a ship                                    | (L)\*\*     |
+| [[cmd-follow|`FOLLOW UNIT unit-id`]]                      | follows a unit                                    | (L)\*\*     |
+| [[cmd-forget|`FORGET skill`]]                             | forget a skill                                    | S           |
+| [[cmd-give|`GIVE 0 number item`]]                         |                                                   | S           |
+| [[cmd-give|`GIVE 0 number MEN`]]                          |                                                   | S           |
+| [[cmd-give|`GIVE 0 number SILVER`]]                       | throwing away objects                             | S           |
+| [[cmd-give|`GIVE unit-id`&nbsp;&#91;`EACH`&#93;&nbsp;`number item`]]            | give number                                       | S           |
+| [[cmd-give|`GIVE unit-id`&nbsp;&#91;`EACH`&#93;&nbsp;`number MEN`]]             | give a unit men                                   | S           |
+| [[cmd-give|`GIVE unit-id`&nbsp;&#91;`EACH`&#93;&nbsp;`number SHIP`]]            | give SHIP to form convoys                         | S           |
+| [[cmd-give|`GIVE unit-id`&nbsp;&#91;`EACH`&#93;&nbsp;`number SILVER`]]          | give silver                                       | S           |
+| [[cmd-give|`GIVE unit-id COMMAND`]]                       | give a unit ship/ building control                | S           |
+| [[cmd-give|`GIVE unit-id HERB`]]                          | give a unit all herbs                             | S           |
+| [[cmd-give|`GIVE unit-id UNIT`]]                          | give unit to a foreign faction                    | S           |
+| [[cmd-group|`GROUP`&nbsp;&#91;`"name"`&#93;]]                            | forms groups of units                             | S           |
+| [[cmd-grow|`GROW HERB`]]                                  |                                                   | L           |
+| [[cmd-grow|`GROW HORSES`]]                                | breed horses, needs a stable                      | L           |
+| [[cmd-grow|`GROW TREES`]]                                 |                                                   | L           |
+| [[cmd-help|`HELP faction-id ALL`&nbsp;&#91;`NOT`&#93;]]        | set up/revoke an unilateral alliance              | S           |
+| [[cmd-help|`HELP faction-id COMBAT`&nbsp;&#91;`NOT`&#93;]]     |                                                   | S           |
+| [[cmd-help|`HELP faction-id FACTIONSTEAL`&nbsp;&#91;`NOT`&#93;]]|                                                   | S           |
+| [[cmd-help|`HELP faction-id GIVE`&nbsp;&#91;`NOT`&#93;]]       |                                                   | S           |
+| [[cmd-help|`HELP faction-id GUARD`&nbsp;&#91;`NOT`&#93;]]      |                                                   | S           |
+| [[cmd-help|`HELP faction-id SILVER`&nbsp;&#91;`NOT`&#93;]]     |                                                   | S           |
+| [[cmd-tax|`HIDE`&nbsp;&#91;`level`&#93;]]                      | set hide level                                    | S           |
+| [[cmd-tax|`HIDE FACTION`&nbsp;&#91;`NOT`&#93;]]                |                                                   | S           |
+| [[cmd-tax|`HIDE FACTION NUMBER nummer`]]                  | disguised as another faction                      | S           |
+| [[cmd-tax|`HIDE race`]]                                   | Demon: disguise as another race                   | S           |
+| [[cmd-language|`LANGUAGE en/de`]]                         | Change Language for orders                        | S           |
+| [[cmd-learn-auto|`LEARN AUTO skill`]]                     | learn or teach a skill                            | L           |
+| [[cmd-learn|`LEARN skill`]]                               | learn a skill                                     | L           |
+| [[cmd-locale|`LOCALE en/de`]]                             | no function (only for tools)                      | S           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`number`&#93;&nbsp;`HERB`]]                         | pick herbs in a region                            | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`number`&#93;&nbsp;`item`]]                         | make an number                                    | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`number`&#93;&nbsp;`trank`]]                        | make a potion                                     | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`BOAT`]]                          | build a boat                                      | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`building-type`&nbsp;&#91;`building-id`&#93;]] | erect or extend a building                        | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`CARAVEL`]]                       |                                                   | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`DRAGONSHIP`]]                    | build a dragonship                                | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`GALLEON`]]                       |                                                   | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`LONGBOAT`]]                      | build a longboat                                  | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`ROAD direction`]]                | build road                                        | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship-id`&#93;]] | extend a ship                                     | L           |
+| [[cmd-make|`MAKE`&nbsp;&#91;`stufe`&#93;&nbsp;`TRIREME`]]                       |                                                   | L           |
+| [[cmd-make|`MAKE TEMP unit-alias-nr`&nbsp;&#91;`"name"`&#93;]]           | creates a new unit                                | S           |
+| [[cmd-message|`MESSAGE BUILDING building-id "text"`]]     | Send a message                                    | S           |
+| [[cmd-message|`MESSAGE FACTION faction-id "text"`]]       | Send a message                                    | S           |
+| [[cmd-message|`MESSAGE REGION "text"`]]                   | Send a message                                    | S           |
+| [[cmd-message|`MESSAGE SHIP ship-id "text"`]]             | Send a message                                    | S           |
+| [[cmd-message|`MESSAGE UNIT unit id "text"`]]             | Send a message                                    | S           |
+| [[cmd-move|`MOVE direction`&nbsp;&#91;`direction`&#93;`...`]]            | move unit                                         | L           |
+| [[cmd-name|`NAME BUILDING "name"`]]                       |                                                   | S           |
+| [[cmd-name|`NAME FACTION "name"`]]                        |                                                   | S           |
+| [[cmd-name|`NAME FOREIGN BUILDING building-id "name"`]]   |                                                   | S           |
+| [[cmd-name|`NAME FOREIGN FACTION faction-id "name"`]]     |                                                   | S           |
+| [[cmd-name|`NAME FOREIGN SHIP ship-id "name"`]]           |                                                   | S           |
+| [[cmd-name|`NAME FOREIGN UNIT unit-id "name"`]]           | names the specified foreign object                | S           |
+| [[cmd-name|`NAME REGION "name"`]]                         |                                                   | S           |
+| [[cmd-name|`NAME SHIP "name"`]]                           |                                                   | S           |
+| [[cmd-name|`NAME UNIT "name"`]]                           | names the specified object                        | S           |
+| [[cmd-number|`NUMBER BUILDING`&nbsp;&#91;`new-id`&#93;]]  |                                                   | S           |
+| [[cmd-number|`NUMBER FACTION`&nbsp;&#91;`new-id`&#93;]]                  |                                                   | S           |
+| [[cmd-number|`NUMBER SHIP`&nbsp;&#91;`new-id`&#93;]]           |                                                   | S           |
+| [[cmd-number|`NUMBER UNIT`&nbsp;&#91;`new-id`&#93;]]           | gives a new id                                    | S           |
+| [[cmd-option|`OPTION ADRESSES`&nbsp;&#91;`NOT`&#93;]]          |                                                   | S           |
+| [[cmd-option|`OPTION AUSWERTUNG`&nbsp;&#91;`NOT`&#93;]]        | Set / Revoke Options                              | S           |
+| [[cmd-option|`OPTION BZIP2`&nbsp;&#91;`NOT`&#93;]]             |                                                   | S           |
+| [[cmd-option|`OPTION COMPUTER`&nbsp;&#91;`NOT`&#93;]]          |                                                   | S           |
+| [[cmd-option|`OPTION MATERIALPOOL`&nbsp;&#91;`NOT`&#93;]]      |                                                   | S           |
+| [[cmd-option|`OPTION PUNKTE`&nbsp;&#91;`NOT`&#93;]]            |                                                   | S           |
+| [[cmd-option|`OPTION SILBERPOOL`&nbsp;&#91;`NOT`&#93;]]        |                                                   | S           |
+| [[cmd-option|`OPTION STATISTICS`&nbsp;&#91;`NOT`&#93;` ``]]    |                                                   | S           |
+| [[cmd-option|`OPTION TALENTVERSCHIEBUNG`&nbsp;&#91;`NOT`&#93;]]|                                                   | S           |
+| [[cmd-option|`OPTION ZIPPED`&nbsp;&#91;`NOT`&#93;]]            |                                                   | S           |
+| [[cmd-option|`OPTION ZUGVORLAGE`&nbsp;&#91;`NOT`&#93;]]   |                                                   | S           |
+| [[cmd-origin|`ORIGIN`&nbsp;&#91;`x y`&#93;]]                             | Sets the origin to x,y                            | S           |
+| [[cmd-password|`PASSWORD "new-password"`]]                | set new password                                  | S           |
+| [[cmd-pay-not|`PAY NOT`&nbsp;&#91;`building-id`&#93;]]                   | do not pay a maintenance                          | S           |
+| [[cmd-piracy|`PIRACY`&nbsp;&#91;`faction_1`&#93;` [faction_2`&#93;`...`]]     | Set Piracy                                        | L           |
+| [[cmd-plant|`PLANT`&nbsp;&#91;`number`&#93;&nbsp;`HERB`]]                       | Plant herbs                                       | L           |
+| [[cmd-plant|`PLANT`&nbsp;&#91;`number`&#93;&nbsp;`MALLORNSEEDS`]]               | Plant mallorn seeds                               | L           |
+| [[cmd-plant|`PLANT`&nbsp;&#91;`number`&#93;&nbsp;`SEEDS`]]                      | Plant seeds                                       | L           |
+| [[cmd-plant|`PLANT`&nbsp;&#91;`number`&#93;&nbsp;`TREES`]]                      | Plant seeds                                       | L           |
+| [[cmd-prefix|`PREFIX`&nbsp;&#91;`präfix`&#93;]]                          | prepend the race name with a prefix               | S           |
+| [[cmd-quit|`QUIT "password"`&nbsp;&#91;`FACTION faction-id`&#93;`]]       | quit the game [merge with another faction]        | S           |
+| [[cmd-recruit|`RECRUIT number`]]                          | recruit men (persons of your race)                | S           |
+| [[cmd-region|`REGION x,y`]]                               | no function (only for tools)                      | S           |
+| [[cmd-research|`RESEARCH HERB`]]                          | search for herbs                                  | L           |
+| [[cmd-reserve|`RESERVE number "item"`]]                   | reserve number                                    | S           |
+| [[cmd-reserve|`RESERVE number SILVER`]]                   | reserve silver                                    | S           |
+| [[cmd-ride|`RIDE unit-id`]]                               | be transported by unit−id                         | L           |
+| [[cmd-route|`ROUTE direction`&nbsp;&#91;`direction`&#93;`...`]]          | Travel                                            | L           |
+| [[cmd-sell|`SELL number luxury-item`]]                    | sell luxury goods                                 | (L)\*\*\*\* |
+| [[cmd-show|`SHOW "spell"`]]                               | retrieve spell description                        | S           |
+| [[cmd-sort|`SORT AFTER unit-id`]]                         |                                                   | S           |
+| [[cmd-sort|`SORT BEFORE unit-id`]]                        | sort unit in report                               | S           |
+| [[cmd-spy|`SPY unit-id`]]                                 | spy a unit                                        | L           |
+| [[cmd-steal|`STEAL unit-id`]]                             | steal 50 Silver or more                           | L           |
+| [[cmd-tax|`TAX`&nbsp;&#91;*`amount`*&#93;]]                                | tax peasants (max. 20 silver/skill lvl)           | L           |
+| [[cmd-teach|`TEACH unit-id`&nbsp;&#91;`unit-id`&#93;`...`]]              | teach units                                       | L           |
+| [[cmd-unit|`UNIT unit-id`]]                               | beginning of a unit's orders                      | S           |
+| [[cmd-use|`USE`&nbsp;&#91;*`number`*&#93;&nbsp;`trank`]]  | uses alchemical potion                            | S           |
+| [[cmd-make]]                                              | baue weiter an Gebäude/Schiff ??                  | L           |
+| [[cmd-destroy]]                                           | building, ship, or road                           | L           |
+| [[cmd-work]]                                              | earns 10 silver or more                           | L           |
+| [[cmd-end]]                                               | ends a MAKE TEMP block                            | S           |
+| [[cmd-next]]                                              | ends the orders of a faction                      | S           |
+| [[cmd-leave]]                                             | leave ship or building                            | S           |
+| [[cmd-promote]]                                           | Promote a unit to hero                            | S           |
+| [[cmd-combat]]                                            | set the combat behavior                           | S           |
 
-\* voir [The aftermath of battle]; \*\*If the tracked unit does not move, another long order can be executed instead; \*\*\*can be combined with SELL; \*\*\*\*can be combined with BUY
+\* voir [The aftermath of battle]  
+\*\*If the tracked unit does not move, another long order can be executed instead  
+\*\*\*can be combined with SELL  
+\*\*\*\*can be combined with BUY  
 
 ## See also
 

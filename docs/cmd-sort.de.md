@@ -5,7 +5,7 @@ alias: bef-sortiere
 # SORTIERE
 
 **`SORTIERE`**` VOR `*`einheit-nr`*  
-**`SORTIERE`**` HINTER `*`einheit-nr`*
+**`SORTIERE`**` HINTER `*`einheit-nr`*  
 
 Mit diesem Befehl ändert man die Reihenfolge, in der eigene Einheiten im Report und der [Zugvorlage] auftauchen. Dies ist nützlich, um z.B. Schüler und Lehrer direkt untereinander stehen zu haben. Folgende Einschränkungen gibt es:
 

@@ -136,8 +136,9 @@ A normal combat spell once per combat round. Of course, only under the condition
 
 Aura is the magical power that magicians use to perform their magic.
 Aura is consumed by casting spells and regenerates over time.
-A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical talent.
-Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird.
+A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical skill.
+The exact information for each unit is in the report, As a rule of thumb.
+However, the maximum is skill<sup>2</sup> Aura lies and on average around (skill level) aura is regenerated per week.
 But that can vary between almost nothing and talent level.
 Magical races regenerate aura faster, non-magical races significantly slower.
 

@@ -7,7 +7,7 @@ alias: chateaux
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et, enfin, offrent à leurs occupants une protection en cas d'attaque.
 Ils réduisent également la probabilité de [[peste]].
 
-Les châteaux sont construits en pierre à l'aide de la commande [[cmd-make|MAKE CASTLE]] et de la compétence [maconnerie].
+Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] et de la compétence [maconnerie].
 Un château entre dans une nouvelle catégorie selon sa taille :
 
 | Type                            | Taille |
@@ -32,7 +32,8 @@ Un chateau a aussi un identifiant (ID), utilisé pour les ordres.
 Exemple :
 
 ```text
-Grand temple du chat aux yeux d'or (58), taille 58, tour ; Le temple brille d'un blanc éclatant au soleil, encadré par le vert délicat des arbres du parc.
+Grand temple du chat aux yeux d'or (58), taille 58, tour;
+Le temple brille d'un blanc éclatant au soleil, encadré par le vert délicat des arbres du parc.
 La tour élancée, qui s'élève au-dessus de la ville, est visible de loin.
 Au nord du temple, la ville de Xontormia s'étend le long du Whyren, enjambée un gigantesque pont près du port.
 ```
@@ -66,7 +67,7 @@ Construction de châteaux - type, taille minimale, niveau minimum en maçonnerie
 
 | Type              | Niv. | Bonus salaire | Part commerce | Bonus Déf. |
 |-------------------|-----:|--------------:|--------------:|-----------:|
-| Fondation         |    1 |      0 silver |            \- |          0 |
+| Fondation         |    1 |      0 silver |            -- |          0 |
 | Poste de commerce |    1 |      0 silver |            6% |          0 |
 | Fortification     |    2 |      1 silver |           12% |         +1 |
 | Tour              |    3 |     2 silvers |           18% |         +2 |

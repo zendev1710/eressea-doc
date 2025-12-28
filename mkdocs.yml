@@ -106,6 +106,8 @@ plugins:
           nav_translations:
             Home: Accueil
             Getting-started: Premiers pas
+            Rules: Règles
+            Introduction: Introduction
             Gameplay: Jeu
             Exploration: Exploration
             References: Références
@@ -184,18 +186,18 @@ nav:
   - Getting-started:
     - Rules: rules.md
     - Introduction: introduction.md
-    - eressea.md
+    - Eressea: eressea.md
     - Weekly reports: weekly-report.md
-    - hints.md
-    - getting-started-tips.md
-    - basics.md
-    - commands-send.md
-    - commands-send-from-magellan.md
-    - puppy-protection.md
+    - Hints: hints.md
+    - Beginner tips: getting-started-tips.md
+    - Basics: basics.md
+    - Sending orders: commands-send.md
+    - Sending orders from Magellan: commands-send-from-magellan.md
+    - Puppy protection: puppy-protection.md
   - Gameplay:
-    - world.md
-    - factions.md
-    - races.md
+    - The World: world.md
+    - Factions and units: factions.md
+    - Races: races.md
     - skills-modifiers.md
     - skills.md
     - camouflage.md
@@ -247,6 +249,7 @@ nav:
     - cmd-claim.md
     - cmd-combat.md
     - cmd-combatspell.md
+    - cmd-comment.md
     - cmd-comment-slash.md
     - cmd-contact.md
     - cmd-default.md
@@ -256,6 +259,7 @@ nav:
     - cmd-end.md
     - cmd-enter.md
     - cmd-entertain.md
+    - cmd-eressea.md
     - cmd-follow.md
     - cmd-forget.md
     - cmd-give.md
@@ -268,6 +272,7 @@ nav:
     - cmd-learn-auto.md
     - cmd-learn.md
     - cmd-leave.md
+    - cmd-locale.md
     - cmd-make.md
     - cmd-message.md
     - cmd-move.md
@@ -290,7 +295,6 @@ nav:
     - cmd-ride.md
     - cmd-route.md
     - cmd-sell.md
-    - cmd-comment.md
     - cmd-show.md
     - cmd-sort.md
     - cmd-spy.md
@@ -300,8 +304,6 @@ nav:
     - cmd-unit.md
     - cmd-use.md
     - cmd-work.md
-    - cmd-eressea.md
-    - cmd-locale.md
     # - commands-extended.md
     # - commands-list.md
     # - commands-send-from-magellan.md

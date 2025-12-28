@@ -4,7 +4,7 @@ alias: bef-treibe
 ---
 # TREIBE
 
-**`TREIBE`**[<sup>`L`</sup>]`[`*`betrag`*`]`
+**`TREIBE`**[<sup>`L`</sup>]`[`*`betrag`*`]`  
 
 Mit diesem Befehl treiben bewaffnete und trainierte Einheiten Steuern bei den Bauern ein. Dazu benötigen sie eine Waffe und das dazugehörige [Talent] und das Talent [Steuereintreiben][Talent]. Pro [bewaffneter] (und an dieser Waffe ausgebildeter) Person und Talentstufe Steuereintreiben werden bis zu 20 Silber von den Bauern eingetrieben; Katapulte eignen sich nicht zum Steuereintreiben. Gibt man einen Betrag an, so wird höchstens dieser Betrag an Steuern eingetrieben. Hierbei können nur volle 10er Beträge angegeben werden, alles andere wird auf die nächste volle 10er Stelle abgerundet. Dabei geben die Bauern sogar Silber weg, das sie eigentlich zum Überleben bräuchten, was zu [Hunger] führen kann.
 

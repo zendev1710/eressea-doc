@@ -4,7 +4,7 @@ alias: bef-lerne-auto
 ---
 # LERNE AUTO
 
-**`LERNE AUTO`**` `*`talent`*
+**`LERNE AUTO`**` `*`talent`*  
 
 Durch den Befehl versucht der Server, das [Lernen] und [Lehren] in einer Region für alle Einheiten einer Partei mit diesem Befehl für dieses Talent zu automatisieren. Eine Mischung von LEHRE und LERNE AUTO ist allerdings nicht möglich.
 

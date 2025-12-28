@@ -4,7 +4,7 @@ alias: bef-beklaue
 ---
 # BEKLAUE
 
-**`BEKLAUE`**[<sup>`L`</sup>]` `*`einheit-nr`*
+**`BEKLAUE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
 
 Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen. Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem. Die Täter klauen pro Person und Talentstufe Unterschied 50 Silber.
 

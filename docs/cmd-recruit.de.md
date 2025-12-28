@@ -4,7 +4,7 @@ alias: bef-rekrutiere
 ---
 # REKRUTIERE
 
-**`REKRUTIERE`**` `*`anzahl`*
+**`REKRUTIERE`**` `*`anzahl`*  
 
 Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse] zwischen 40 und 150 Silber an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silber bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silber, holt sie es sich aus dem [Silberpool].
 

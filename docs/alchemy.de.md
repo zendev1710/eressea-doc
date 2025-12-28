@@ -6,9 +6,9 @@ alias: alchemie
 
 In der Welt von Eressea sind alchemistische Tränke nicht nur einfache Gebräue – sie sind mächtige Werkzeuge, die das Blatt wenden und das Schicksal eines Volkes stark beeinflussen können, zum Beispiel zur Unterstützung der Produktion, zur Stärkung der Truppen im Kampf oder um ein Volk besser gedeihen zu lassen.
 
-Tränke werden mit Hilfe von [Kräutern] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie]. Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde][Alchemie].
+Tränke werden mit Hilfe von [[kraeuter|Kräutern]] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie]. Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde][Alchemie].
 
-Tränke werden mit dem Befehl [[bef-mache]]`"Trank"` hergestellt. Pro Trank braucht man diverse Zutaten. Welche dies sind, erfährt man aus den Rezepten, die man mit Erlangen einer neuen Stufe im Talent Alchemie automatisch für diese Stufe bekommt. Später kann man sie sich mit dem Befehl [[bef-zeige]] anzeigen lassen. Um einen Trank herstellen zu können, muss die Stufe des Alchemisten doppelt so hoch sein wie die Stufe des Trankes. Ein Alchemist kann jede Runde Talentstufe/(2\*Trankstufe) Tränke herstellen. Ein Alchemist der Stufe 6 kann also maximal einen Trank der Stufe 3, einen der zweiten Stufe oder drei Tränke der ersten Stufe herstellen.
+Tränke werden mit dem Befehl [[bef-mache|`MACHE "Trank"`]] hergestellt. Pro Trank braucht man diverse Zutaten. Welche dies sind, erfährt man aus den Rezepten, die man mit Erlangen einer neuen Stufe im Talent Alchemie automatisch für diese Stufe bekommt. Später kann man sie sich mit dem Befehl [[bef-zeige]] anzeigen lassen. Um einen Trank herstellen zu können, muss die Stufe des Alchemisten doppelt so hoch sein wie die Stufe des Trankes. Ein Alchemist kann jede Runde Talentstufe/(2\*Trankstufe) Tränke herstellen. Ein Alchemist der Stufe 6 kann also maximal einen Trank der Stufe 3, einen der zweiten Stufe oder drei Tränke der ersten Stufe herstellen.
 
 Tränke werden mit dem Befehl [[bef-benutze]]`[anzahl] "Trank" [einheit-nr]` angewendet. Die Einheitennummer ist dabei nur bei Dumpfbackenbrot anzugeben, da dies der einzige Trank ist, der auf andere Einheiten wirkt. Ein Trank lässt sich nicht auf mehrere Einheiten aufteilen - man kann aber nach der Trank-Benutzung eine große Einheit in mehrere kleinere Einheiten aufteilen.
 
@@ -70,13 +70,8 @@ Trankliste
 | Weißer Wüterich   |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
 | Schneekristall    |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
 
-Weiterlesen: [Kräuter].
+Weiterlesen: [[kraeuter]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
 
-[Kräuter]: ./herbs.md "Kräuter"
-[Kräutern]: ./herbs.md "Kräuter"
-[Alchemie]: ./skills-list.md "Liste der Talente"
-[bef-mache]: ./cmd-make.md "MACHE"
-[bef-zeige]: ./cmd-show.md "ZEIGE"
-[bef-benutze]: ./cmd-use.md "BENUTZE"
+[Alchemie]: ./skills-list.de.md#alchemie

@@ -4,16 +4,16 @@ alias: bef-benenne
 ---
 # BENENNE
 
-    BENENNE EINHEIT "name"
-    BENENNE FREMDE EINHEIT einheit-nr "name"
-    BENENNE PARTEI "name"
-    BENENNE FREMDE PARTEI partei-nr "name"
-    BENENNE GEBÄUDE "name"
-    BENENNE FREMDES GEBÄUDE gebäude-nr "name"
-    BENENNE SCHIFF "name"
-    BENENNE FREMDES SCHIFF schiff-nr "name"
-    BENENNE REGION "name"
-    BENENNE GRUPPE "name"
+**`BENENNE`**` ``EINHEIT "`*`name`*`"`  
+**`BENENNE`**` ``FREMDE EINHEIT `*`einheit-nr`*` "name"`  
+**`BENENNE`**` ``PARTEI `*`"name"`  
+**`BENENNE`**` ``FREMDE PARTEI `*` partei-nr`*` "name"`  
+**`BENENNE`**` ``GEBÄUDE "`*`name"`*  
+**`BENENNE`**` ``FREMDES GEBÄUDE `*`gebäude-nr`*` ``"name"`  
+**`BENENNE`**` ``SCHIFF "`*`name`*`"`  
+**`BENENNE`**` ``FREMDES SCHIFF `*`schiff-nr`*` ``"name"`  
+**`BENENNE`**` ``REGION "`*`name`*`"`  
+**`BENENNE`**` ``GRUPPE "`*`name`*`"`  
 
 Benenne das aufgeführte Objekt neu. Schiffe und Gebäude können nur umbenannt werden, wenn die Einheit auch das Kommando über das Gebäude oder das Schiff hat - sie muss also die erste Einheit unter dem Gebäude oder dem Schiff in der Auswertung sein. Eine Region kann nur vom Burgherr der mächtigsten Burg einer Region umbenannt werden. Gruppen können nur von Gruppenmitgliedern umbenannt werden und der neue Gruppenname darf nicht bereits vorhanden sein.
 

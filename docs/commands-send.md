@@ -6,15 +6,20 @@ alias: sending-orders
 
 ## What you need to play Eressea
 
-Neben einem eigenen Email-Zugang braucht man nur wenig, um Eressea spielen zu können.
+In addition to your own email access, you don't need much to play Eressea.
 
-Um die [Befehle] zu bearbeiten, reicht ein einfacher Texteditor. Unter UNIX/Linux z.B. VI oder EMACS, unter Windows tut's auch das Notepad. Wichtig ist: der Editor sollte nur dort einen Zeilenumbruch machen, wo man auch wirklich einen eingibt. Überlange Zeilen dürfen auf keinen Fall selbständig umgebrochen werden, sonst kann es passieren, dass Befehle nicht richtig ausgeführt werden.
+To edit the [commands], a simple text editor is sufficient.
+Under UNIX/Linux e.g. VI or EMACS, under Windows Notepad also works.
+The important thing is: the editor should only make a line break where you actually enter one.
+Under no circumstances should lines that are too long be wrapped independently, otherwise orders may not be executed correctly.
 
-- [Notepad++] ist ein guter Editor für Windows.
+- [Notepad++] is a good editor for Windows.
 
 ### Examples
 
-Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben leichter machen. Hier eine Auflistung der bekanntesten.
+Most new players use the [[magellan]] tool.
+Eressea also has various other tools that make life easier for the player.
+Here is a list of the most famous ones:
 
 - [CSMapFX]
 - [ECheck]
@@ -26,11 +31,21 @@ Die meisten Neuspieler benutzen das Tool [Magellan]. Zu Eressea gibt es außerde
 
 ## How to submit orders, and what you get in return
 
-Man kann in jeder Runde seine Befehle bis zu 20 mal einschicken. Das Einsenden von provisorischen Befehlen ist also möglich und wird empfohlen. Du solltest darauf achten, dass auf Deinem Computer die richtige Zeit eingestellt ist. Der Server nimmt die Sendezeit als Grundlage, um alte Befehle zu überschreiben, nicht die Zeit des Empfanges.
+You can send in your orders up to 20 times in each round.
+Submitting provisional orders is therefore possible and recommended.
+You should make sure that the correct time is set on your computer.
+The server uses the send time as the basis for overwriting old orders, not the received time.
 
-Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text der Mail stehen (Mail-Body). Alternativ können sie in einer .txt Datei im Anhang versendet werden, dann muss die Mail jedoch ansonsten leer sein (kein Text im Mail-Body). Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse [Hilfsmittel], die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern. Vorsicht bei der Benutzung von Weboberflächen wie bei GMX oder GMail! Diese haben sich in der Vergangenheit immer mal wieder als problematisch erwiesen, da Mails falsch formatiert wurden. Benutzer von [Magellan][1] können die [Befehle am bequemsten direkt aus dem Programm verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
+Please note: The trains must appear as normal text (text/plain) in the text of the email (mail body).
+Alternatively, they can be in one `.txt` file can be sent as an attachment, but then the email must otherwise be empty (no text in the email body).
+Otherwise the commands will not be recognized by the game server and will be ignored! There are various [tools] that make entering moves easier, especially for larger parties.
+Be careful when using web interfaces such as GMX or GMail! These have proven to be problematic in the past because emails were formatted incorrectly.
+Users of [Magellan][1] can most conveniently send commands directly from the program, without having to go through email programs or webmailers.
 
-Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden. Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert. Richtig angekommene Züge werden automatisch mit dem Syntax-Checker ECheck geprüft und das Ergebnis der Prüfung wird dem Spieler zugeschickt. Ein Beispiel:
+The commands must always be sent to the address [[eressea-server@kn-bremen.de](mailto:eressea-server@kn-bremen.de)] with the subject **ERESSEA 2 COMMANDS** be sent.
+If these subjects are not used, the emails will not be recognized by the game server and will be ignored.
+Moves that arrive correctly are automatically checked with the ECheck syntax checker and the result of the check is sent to the player.
+An example:
 
 ```text
 ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
@@ -43,44 +58,56 @@ Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
 Die Befehle scheinen in Ordnung zu sein.
 ```
 
-In der Regel erfolgt diese Bestätigung innerhalb weniger Minuten. Da der Server aus technischen Gründen derzeit leider nur eine Befehlsbestätigung alle 2 Minuten versenden kann, kann es jedoch, gerade kurz vor der Auswertung, zu längeren Wartezeiten kommen. Häufiges Einsenden identischer Befehle, um schneller eine Bestätigung zu erhalten, hilft also niemandem, sondern verschlimmert das Problem nur. Sofern die Befehle korrekt an den Server gesendet wurden, werden sie jedoch in der Regel verarbeitet, auch wenn keine Befehlsbestätigung bis zur Auswertung eingegangen ist. Aus technischen Gründen werden samstags zwischen 20:45 und Mitternacht keine Bestätigungen verschickt, **es empfiehlt sich also, Befehle so früh wie möglich vor dem ZAT um 21:00 Uhr zu senden.** Verzögert sich die Auswertung aufgrund technischer Probleme oder Fehlern im Spiel, entfällt die Auswertung in der Folgewoche, wenn die Auswertung nicht spätestens bis Sonntagmorgen 11:00 Uhr abgesendet wurde.
+This confirmation usually occurs within a few minutes.
+Since the server can unfortunately only send one command confirmation every 2 minutes for technical reasons, there may be longer waiting times, especially shortly before the evaluation.
+So sending identical commands frequently to get confirmation faster doesn't help anyone, it just makes the problem worse.
+However, if the commands were sent correctly to the server, they are usually processed, even if no command confirmation has been received before evaluation.
+For technical reasons, no confirmations will be sent on Saturdays between 8:45 p.m. and midnight. **It is therefore advisable to send commands as early as possible before the ZAT at 21:00.** If the evaluation is delayed due to technical problems or errors in the game, the evaluation in the following week will be canceled if the evaluation is not sent by 11:00 a.m. on Sunday morning at the latest.
 
-Treffen über fünf Runden hinweg keine Befehle beim Spielleiter ein (sog. "NMR", No Moves Received), löst sich die Partei automatisch auf!
+If no orders are received by the game leader over five rounds (so-called "NMR", No Moves Received), the party automatically dissolves!
 
-ECheck auf dem Server macht nur grundlegende Syntax-Tests. Man kann sich ECheck auch für zu Hause runterladen und dessen Optionen für etwas weitergehende Test nutzen. Auch Magellan hat weitgehende Tests eingebaut, die ECheck im Grunde überflüssig machen.
+ECheck on the server only does basic syntax testing.
+You can also download ECheck at home and use its options for more advanced testing.
+Magellan has also built in extensive tests that essentially make ECheck unnecessary.
 
 ## Request
 
 ### Request the report
 
-Manchmal kann es vorkommen, dass durch technische Ausfälle irgendwo die E-Mail mit dem Report verloren geht. Hat man Montag Abend noch immer keinen Report erhalten und es gab auch keine Ankündigung in der Liste Eressea-Announce, so kann man die aktuelle Auswertung nochmals anfordern.
+Sometimes it can happen that the email with the report is lost somewhere due to technical failures.
+If you still haven't received a report on Monday evening and there was no announcement in the Eressea Announce list, you can request the current evaluation again.
 
-Dazu schickt man eine eMail mit folgendem Betreff an [eressea-server@kn-bremen.de], da nur dort die Daten vorliegen:
+To do this, send an email with the following subject to [[eressea-server@kn-bremen.de](mailto:eressea-server@kn-bremen.de)], because this is the only place where the data is available:
 
 ```text
 ERESSEA 2 REPORT parteinummer "passwort"
 ```
 
-Hiermit werden alle Dateien, die auch nach der regulären Auswertung verschickt wurden, nochmals an die anfordernde Adresse (die verschieden sein kann von der Adresse, an die der Report normalerweise geschickt wird) gesandt, also evtl. auch der Computer-Report usw.
+This means that all files that were sent after the regular evaluation are sent again to the requesting address (which may be different from the address to which the report is normally sent), i.e. possibly.
+also the computer report etc.
 
-**Achtung:** Parteien mit Sonderzeichen im Passwort können keinen Report nachfordern!
+!!! warning
+    factions with special characters in the password cannot request a report!
 
-Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht zur Hand habt. Derartige Anforderungen verursachen unnötigen Traffic.
+Please don't request the report "quickly" because you don't have it to hand at the moment. 
+uch requests cause unnecessary traffic.
 
 Mails an Eressea
 
-| Betreff                        | Hinweis                              |
-|--------------------------------|--------------------------------------|
-| ERESSEA 2 BEFEHLE              | Enthält Befehle für Eressea im Text  |
-| ERESSEA 2 REPORT nr "passwort" | Fordert den Report für die Partei an |
+| Regarding                      | Notice                              |
+|--------------------------------|-------------------------------------|
+| ERESSEA 2 ORDERS               | Contains orders for Eressea in text |
+| ERESSEA 2 REPORT no "password" | Requests the report for the faction |
 
 ## What you need to consider when entering data
 
-Jeder Zug muss mit der Zeile [ERESSEA xxx "passwort"] beginnen. xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei. Jeder Zug muss mit dem Schlüsselwort [[cmd-next]] beendet werden.
+Each move must begin with the line [ERESSEA xxx "password"]. xxx is your own faction number, and "password" is the faction's password.
+Each turn must be ended with the [[cmd-next]] keyword.
 
-Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Partei als Ganzes betreffen; irgendjemand muss sie halt ausführen.
+All orders are issued per unit, even if they are orders that affect the faction as a whole; someone has to do it.
 
-In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt. Hier ein Beispiel für so einen Zug:
+If the option has been activated, a template for the next command file is always sent in a separate file.
+Here is an example of such a move:
 
 ```text
 ERESSEA 2 "GrofxMoftzg"
@@ -102,18 +129,29 @@ Lerne Unterhaltung
 NEXT
 ```
 
-Die erste Zeile mit dem ECHECK ist für den Syntax-Checker. Er erkennt diese Zeile und benutzt die Parameter der Zeile. Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[cmd-unit]] ausgewertet, ebenso werden dann Einnahmen mit [[cmd-work]] (idR. je 11 Silber pro Person) und [TAX STEUERN EIN] und [[cmd-entertain]] (je 20 Silber pro Person) berücksichtigt. Teure Talente wie z.B. [LEARN MAGIE] und Einheiten, die mit [[cmd-move]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben. Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein. Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
+The first line with the ECHECK is for the syntax checker.
+It recognizes this line and uses the parameters of the line.
+With the -z, the people and their assets from the comment behind the command [[cmd-unit]] are evaluated, and income with [[cmd-work]] (usually 11 silver each per person) and [TAX TAXES ON] and [[cmd-entertain]] (20 silver each per person) are also taken into account.
+Expensive skills such as [LEARN MAGIC] and units that move silver with [[cmd-move]] are then evaluated and warnings are issued if there is too little silver.
+The -w4 is the “warning level”, 4 means being particularly picky.
+And finally, the -r100 says that the recruitment cost of this faction is 100 silver per person.
 
-Die Zeile ; ECHECK LOHN 12 ist ebenfalls für ECheck und legt den Lohn für Arbeit in dieser Region auf 12 Silber fest.
+The line ; ECHECK WAGE 12 is also for ECheck and sets the wage for work in this region at 12 silver.
 
-Man kann erkennen, dass Personen aus Einheit 32 hungern werden: 30 Silber reichen nicht für fünf Personen. Mit dem oben benutzten ECheck-Parameter -z -w4 wird ECheck dies aber bemerken und eine Warnung ausgeben. Die Einheit sollte also entweder Geld verdienen (z.B. mit [[cmd-entertain]], sofern sie das Talent Unterhaltung schon beherrscht, sonst ggf. mit [[cmd-work]]) oder eine andere Einheit mit genug Silber sollte in die Region 5,3 ziehen.
+It can be seen that people from Unit 32 will starve: 30 silver is not enough for five people.
+However, with the ECheck parameter -z -w4 used above, ECheck will notice this and issue a warning.
+The unit should either earn money (e.g. with [[cmd-entertain]] if it already has the entertainment skill, otherwise with [[cmd-work]]) or another unit with enough silver should move to region 5.3.
 
-Alle [Befehle] können abgekürzt werden. Der Computer nimmt einfach das erste Wort, welches dem eingegebenen Befehl entspricht.
+All [[orders]] can be abbreviated.
+The computer simply takes the first word that corresponds to the order entered.
 
 - NA S kann für den Computer entweder MOVE SÜDOSTEN, MOVE SÜDWESTEN oder NEXT S bedeuten, wobei der Computer im letzten Fall alle weiteren Befehle ignoriert!
 - TE 5 bedeutet für den Computer TEMP 5, TE5 hingegen ist für den Computer ein unbekanntes Wort.
 
-Im Zweifelsfall sollte man also keine Abkürzungen nehmen. Pro Zeile darf nur ein Befehl stehen. Wenn man ein Mailprogramm hat, das lange Textzeilen automatisch umbricht, kann man Befehle über mehrere kurze Zeilen hinweg verteilen; sie müssen dann aber "verlängert" werden, indem man hinter Zeilen einen \\ (Schrägstrich rückwärts, Backslash) setzt, wenn die folgende Zeile dazugehört:
+If in doubt, you should not take any shortcuts.
+There can only be one order per line.
+If you have an email program that automatically wraps long lines of text, you can spread orders over several short lines;
+But they then have to be “extended” by adding a `\` (backslash) if the following line belongs to it:
 
 ```text
 Beschreibe Einheit "Die alte Krieger hat sich schon lange \
@@ -126,13 +164,21 @@ Route Nordwest West West Nordwest Pause \
     Südost Ost Ost Südost Südost Pause
 ```
 
-Alle Befehle sind unabhängig von Groß- und Kleinschreibung. Die einzige Ausnahme hierzu ist das Passwort, dieses muss **genau** so eingegeben werden, wie es gesetzt wurde.
+All orders are case-insensitive.
+The only exception to this is the password, which must be **exactly** entered as it was set.
 
-Werden für die Befehle Zeichenketten (z.B. für den Namen) verlangt, muss man sie in Anführungsstrichen einschließen, falls sie Leerzeichen enthalten. Falls nötig, können diese Zeichenketten sich über mehrere Zeilen erstrecken, sofern diese wie oben beschrieben verlängert wird. Zwischen den Anführungsstrichen werden mehrfache Leerzeichen, Zeilenumbrüche und Tabulatoren immer auf jeweils ein Leerzeichen komprimiert.
+If character strings are required for the orders (e.g. for the name), they must be enclosed in quotation marks if they contain spaces.
+If necessary, these character strings can span multiple lines as long as they are extended as described above.
+Between the quotation marks, multiple spaces, line breaks and tabs are always compressed to one space each.
 
-Aller Text, der hinter einem Semikolon ('[;]') steht, wird als [Kommentar][;] angesehen. Kommentare können einem das Verstehen der gemachten Züge beim nächsten Mal sehr erleichtern. Schreibt man Kommentare mit dem [Kommentar-Befehl //], so wird der Kommentar automatisch in die [Zugvorlage][Befehle] der nächsten Runde übernommen.
+Any text that follows a semicolon ('[;]') is considered a [comment][;].
+Comments can make it much easier to understand the moves you made next time.
+If you write comments using the [comment command //], the comment is automatically included in the [move template][commands] of the next round.
 
-Es können mehrere Züge eingeschickt werden. Man kann durchaus Befehle nur für einige Einheiten einschicken und somit sich selbst und dem Server Übertragungsvolumen ersparen. Die Befehle der anderen Einheiten bleiben dann unverändert. Als Reihenfolge wird das Datum der Mail (Date:-Header) benutzt.
+Multiple trains can be sent in.
+You can certainly send in orders for only a few units and thus save yourself and the server transfer volume.
+The orders of the other units then remain unchanged.
+The date of the email (Date: header) is used as the order.
 
 ## See also
 

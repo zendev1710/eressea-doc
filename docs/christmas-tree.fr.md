@@ -4,19 +4,19 @@ alias: sapin-de-noel
 ---
 # Sapin de Noël
 
-The **Christmas tree** was the Eressean Christmas present of 2006.
+**Le Sapin de Noël** était le cadeau de Noël d'Eressean en 2006.
 
-Description: Christmas tree (weight: 0 kg): this beautifully decorated tree has a magical effect on the entire forest in the winter months.
+Description : Sapin de Noël (poids : 0 kg) : cet arbre joliment décoré a un effet magique sur toute la forêt pendant les mois d'hiver.
 
-## Announcement from the association on the species-appropriate keeping of Christmas trees
+## Annonce de l'association sur l'entretien des arbres de Noël adapté aux espèces
 
-It is a barbaric bad habit to put Christmas trees in the living room, in the vestibule or even in the fireplace room.
-What awaits a Christmas tree there? Loneliness and an early death!
+C'est une mauvaise habitude barbare de mettre des arbres de Noël dans le salon, dans le vestibule ou même dans la salle du foyer.
+Qu'est-ce qui attend un sapin de Noël là-bas ? Solitude et mort prématurée !
 
-Trees belong in the forest! There in the middle of his friends, festively decorated in winter, a Christmas tree feels at home there. There and only there!
+Les arbres ont leur place dans la forêt ! Au milieu de ses amis, décoré de façon festive en hiver, un sapin de Noël s'y sent chez lui. Là et seulement là !
 
-Please don't just think about yourself and your wishes, think about the trees! Give them a life of dignity!
+Ne pensez pas seulement à vous et à vos souhaits, pensez aux arbres ! Donnez-leur une vie digne !
 
-Please send donations to continue our work to: "All-Eressean Association for the Species-Appropriate Keeping of Christmas Trees", account no. 2412 at all recognized banks, moneylenders and usurers.
+Veuillez envoyer vos dons pour poursuivre notre travail à : "Association paneuropéenne pour la conservation des arbres de Noël adaptée aux espèces", compte n° 2412 auprès de toutes les banques, prêteurs et usuriers reconnus.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachtsbaum&oldid=5702] -->

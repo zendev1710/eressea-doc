@@ -5,7 +5,7 @@ alias: bef-folge
 # FOLGE
 
 **`FOLGE`**[<sup>`(l)`</sup>]` EINHEIT `*`einheit-nr`*  
-**`FOLGE`**[<sup>`(l)`</sup>]` SCHIFF `*`schiff-nr`*`[`*`Geschwindigkeit`*`]`
+**`FOLGE`**[<sup>`(l)`</sup>]` SCHIFF `*`schiff-nr`*`[`*`Geschwindigkeit`*`]`  
 
 Hiermit kann man Einheiten bzw. Schiffen folgen.
 

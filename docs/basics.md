@@ -46,14 +46,14 @@ If your race does not have a penalty in magic, training magicians early can be w
 
 ## Use items and silver
 
-GIVE and RESERVE declare and that GIVE reserves the items with the recipient.
+`GIVE` and `RESERVE` declare and that `GIVE` reserves the items with the recipient.
 When something is used, for example to make an item or to recruit, who uses it and in what order?
 
 ## Load capacity
 
 Explain weights and loads of people.
-Point out again where MOVE is in the command order.
-ENTERTAIN comes first; you can use it to overload a boat or a TRANSPORTING unit.
+Point out again where `MOVE` is in the order sequence.
+`ENTERTAIN` comes first; you can use it to overload a boat or a `TRANSPORTING` unit.
 
 ## New units
 

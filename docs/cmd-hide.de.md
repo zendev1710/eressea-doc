@@ -4,10 +4,10 @@ alias: bef-tarne
 ---
 # TARNE
 
-**`TARNE`**`[`*`stufe`*`]`
-**`TARNE`**`PARTEI [NICHT]`
-**`TARNE`**`PARTEI NUMMER [`*`nummer`*`]`
-**`TARNE`**` `*`rasse`*
+**`TARNE`**`[`*`stufe`*`]`  
+**`TARNE`**`PARTEI [NICHT]`  
+**`TARNE`**`PARTEI NUMMER [`*`nummer`*`]`  
+**`TARNE`**` `*`rasse`*  
 
 Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht. `stufe` kann natürlich nicht höher als das [Talent] der Einheit sein. Ohne Parameterangabe wird das Maximum gesetzt.
 

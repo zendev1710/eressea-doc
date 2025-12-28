@@ -27,29 +27,30 @@ In this example, a swamp is located at (0,0); in its northeast at (0,1) you can 
 > − Selen opened a big, heavy book beside the map − "...
 > our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."
 
-In the world of Eressea there are various [terrain types] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics. An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys. One example is the "wall of fire", which represents an insurmountable obstacle. As a rule, walls of fire demarcate the worlds in Eressea. This is to prevent factions of very different ages from easily clashing.
+In the world of Eressea there are various [[terrain-types]] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics. An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys. One example is the "wall of fire", which represents an insurmountable obstacle. As a rule, walls of fire demarcate the worlds in Eressea. This is to prevent factions of very different ages from easily clashing.
 
 Depending on the type of terrain, different numbers of peasants will find space in the region to earn their weekly wage in the fields. A plain, for example, provides work for significantly more peasants than a swamp. Furthermore, the number of available jobs is reduced by trees. Each peasant takes away one job, each sapling four jobs and each tree eight jobs. Although an almost infinite number of trees can grow in any type of terrain, in a very forested region there will be virtually no jobs. In a glacier, very few trees are enough to take away almost all the jobs, in a plain there can be a few hundred trees and still a few thousand peasants working in the fields. But even a very densely forested region still yields enough fruit, roots or mushrooms for a few peasants to make a living. This means that a small number of peasants always find a job in the region: 10% of the maximum number of jobs in a region, but no more than 200, are therefore never blocked by trees or saplings. For example, if there are 150 trees in a mountain, 100 peasants will still find a job (10% of the maximum number of jobs), even though there are actually no more jobs available due to the large number of trees (150 trees x 8 occupied jobs = 1200 occupied jobs &gt; 1000 maximum available jobs).
 
 The only difference between a plain and a forest is the number of trees and saplings in the region. From a total number of 600 trees and/or saplings, a plain is considered a forest. This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.
 
-| Terrain        | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs                                                                     |
-|----------------|-------------:|----------------------------------:|--------------------------------:|---------------------------------------------------------------------------|
-| Mountain       |         1000 |                               100 |                             250 | rock weed, gapgrowth, cave lichen                                         |
-| Plain / Forest |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier        |          100 |                                10 |                             250 | ice begonia, white hemlock, snowcrystal petal                             |
-| Highland       |         4000 |                               200 |                             100 | windbag, fjord fungus, mandrake                                           |
-| Swamp          |         2000 |                               200 |                              75 | bugleweed, knotroot, bubblemorel                                          |
-| Desert         |          500 |                                50 |                             100 | waterfinder, peyote, sand reeker                                          |
-| Volcano        |          500 |                                50 |                             250 | \-                                                                        |
+| Terrain  | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs                                                                     |
+|----------|-------------:|----------------------------------:|--------------------------------:|---------------------------------------------------------------------------|
+| Mountain |         1000 |                               100 |                             250 | rock weed, gapgrowth, cave lichen                                         |
+| Plain    |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Forest   |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier  |          100 |                                10 |                             250 | ice begonia, white hemlock, snowcrystal petal                             |
+| Highland |         4000 |                               200 |                             100 | windbag, fjord fungus, mandrake                                           |
+| Swamp    |         2000 |                               200 |                              75 | bugleweed, knotroot, bubblemorel                                          |
+| Desert   |          500 |                                50 |                             100 | waterfinder, peyote, sand reeker                                          |
+| Volcano  |          500 |                                50 |                             250 | --                                                                        |
 
 If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
 
-The terrain type also determines which [[herbs]] can grow in the region. An alchemist will be able to brew helpful [potions] from different ingredients. Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there. However, the herbs that grow there cannot be changed. Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted]. If in doubt, you must try out which herb has originally grown here. Herbs never grow in volcanoes.
+The terrain type also determines which [[herbs]] can grow in the region. An alchemist will be able to brew helpful [[alchemy|potions]] from different ingredients. Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there. However, the herbs that grow there cannot be changed. Even if all herbs have been plucked from the region, only the herb that originally grew there can be [[cmd-plant|replanted]]. If in doubt, you must try out which herb has originally grown here. Herbs never grow in volcanoes.
 
-In each region, [roads] can be built. The costs vary depending on the terrain. In addition, roads can be built in glaciers, swamps and deserts only if there are [special buildings].
+In each region, [[roads]] can be built. The costs vary depending on the terrain. In addition, roads can be built in glaciers, swamps and deserts only if there are [[other-buildings]].
 
-In addition, the type of terrain determines which [resources] can be found in the region and with what chance. For example, in mountains and glaciers where no resources have been mined so far, iron and stone can always be found at mining level 1. However, mountains always have significantly more resources than a glacier. In a volcano, a quarryman has a 50% chance of finding stone at level 1, and a miner only has a 50% chance of finding iron at level 1. A volcano can therefore provide stone and iron in a similar way to a mountain, or only one of the two resources or, with bad luck, none at all. However, mining in a volcano is of course much more dangerous because it can erupt from time to time and then cause considerable damage to the people who are in the region. To summarize, however, you can remember that you will always find stone and / or iron at level 1 in these three region types (mountains, glaciers and volcanoes) - if they exist in the region at all.
+In addition, the type of terrain determines which [[resources]] can be found in the region and with what chance. For example, in mountains and glaciers where no resources have been mined so far, iron and stone can always be found at mining level 1. However, mountains always have significantly more resources than a glacier. In a volcano, a quarryman has a 50% chance of finding stone at level 1, and a miner only has a 50% chance of finding iron at level 1. A volcano can therefore provide stone and iron in a similar way to a mountain, or only one of the two resources or, with bad luck, none at all. However, mining in a volcano is of course much more dangerous because it can erupt from time to time and then cause considerable damage to the people who are in the region. To summarize, however, you can remember that you will always find stone and / or iron at level 1 in these three region types (mountains, glaciers and volcanoes) - if they exist in the region at all.
 
 However, other region types (plain / forest, swamp, desert, highland) can also provide iron and / or stone with a certain probability. In these regions, however, the geologist may need to be a little more experienced, as the deposit does not necessarily have to be at mining level 1. For example, iron may start anywhere from mining level 1 to 7, while stone can be found at mining level 1 to 4 - provided the region has this resource. It is useful to know that a geologist always sees mining layers twice as deep as their skill value. For example, a level 3 miner can see any iron up to a maximum mining depth of layer 6.
 
@@ -96,18 +97,24 @@ The peasants living in the region can be recruited to your faction with the comm
 
 > "Very good, Rahel. And what is written in the lines below?"
 
-`The local market offers incense at a price of 4 silver. Traders can sell balm for 12 silver, spice for 10 silver, gems for 21 silver, myrrh for 15 silver, oil for 12 silver and silk for 30 silver.`  
-  
-`Statistics for Tetos (-1,0):`  
-  
-`entertainment: max. 547 silver`  
-`worker salary: 11 silver`  
-`recruits: 26 peasants`  
-`luxury goods at this price: 10`  
-`people: 20`  
-`horses: 4 wood: 13`  
-`silver: 821`  
-`swords: 2`  
+```text
+The local market offers incense at a price of 4 silver.
+Traders can sell Balm for 12 silver,
+Spice for 10 silver, Gem for 21 silver,
+Myrrh for 15 silver,
+Oil for 12 silver and Silk for 30 silver.
+
+Statistics for Tetos (-1,0):
+
+entertainment: max. 547 silver
+worker salary: 11 silver
+recruits: 26 peasants
+luxury goods at this price: 10
+people: 20
+horses: 4 wood: 13
+silver: 821
+swords: 2
+```
 
 > The young novice beamed proudly at her obviously satisfied teacher.
 > "This, Magistra, is further information that our scouts have discovered. Firstly, they seem to have looked around the market and noted the prices.
@@ -146,18 +153,18 @@ Eressea's year is divided into nine months with three weeks in each:
 | mild winds       | Mond der milden Winde | spring |            0.5% |
 | sunfire          | Sonnenfeuer           | summer |              3% |
 
-Every turn of the game corresponds to one week in Eressea's world. Many things can be done in one week. But there are some actions lasting almost the whole week. You can only do one of these so called long orders per turn (see also the chapter about [orders]).
+Every turn of the game corresponds to one week in Eressea's world. Many things can be done in one week. But there are some actions lasting almost the whole week. You can only do one of these so called long orders per turn (see also the chapter about [[orders]]).
 
 Although the influence of the seasons is generally not particularly pronounced, there are some areas or events that are definitely influenced significantly. Here is a brief overview:
 
 - Peoples of the [insect] race can hardly recruit in winter
-- Storms at [sea] are much more common in autumn
+- Storms at [[travel|sea]] are much more common in autumn
 - The individual phases of [forest growth] are linked to seasonal cycle
 - In winter the growth of the [[herbs]] comes to a standstill
 
 ## See also
 
-- [money]
+- [[money]]
 - [[cmd-recruit]]
 - [[cmd-entertain]]
 
@@ -167,14 +174,7 @@ Continue reading: [Factions].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 
-[terrain types]: ./terrains.md
 [work]: ./silver.md#work
-[castles]: ./castles.md
-[potions]: ./alchemy.md
-[replanted]: ./cmd-plant.md
-[roads]: ./roads.md
-[special buildings]: ./buildings-others.md
-[resources]: ./resources.md
 [mine]: ./buildings-others.md#mine
 [taming]: ./skills-list.md#taming
 [transport]: ./travel.md#horse-and-carriage
@@ -183,8 +183,5 @@ Continue reading: [Factions].
 [income]: ./silver.md#income
 [lighthouse]: ./buildings-others.md#lighthouse
 [trade]: ./silver.md#trade
-[orders]: ./commands.md
 [insect]: ./races.md#insects
-[sea]: ./travel.md
 [forest growth]: ./resources.md#deep-in-the-forest
-[money]: ./silver.md

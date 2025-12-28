@@ -4,7 +4,7 @@ alias: bef-lehre
 ---
 # LEHRE
 
-**`LEHRE`**[<sup>`L`</sup>]` `*`einheit-nr`*`[`*`einheit-nr`*`]...`
+**`LEHRE`**[<sup>`L`</sup>]` `*`einheit-nr`*`[`*`einheit-nr`*`]...`  
 
 Um die Zeit herabzusetzen, die eine andere Einheit braucht, um ein Talent zu erlernen, kann man sie das Talent lehren. Dazu muss die lehrende Einheit in dem betreffenden Talent mindestens 2 Stufen besser als die lernende Einheit sein, Damit lernt die lernende Einheit doppelt so schnell, als wenn sie versucht, ihr Talent auf eigene Faust zu verbessern.
 

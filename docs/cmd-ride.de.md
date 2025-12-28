@@ -5,7 +5,7 @@ alias: bef-fahre
 # FAHRE
 
 **`FAHRE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
-**`TRANSPORTIERE`**` `*`einheit-nr`*
+**`TRANSPORTIERE`**` `*`einheit-nr`*  
 
 Mit dem Befehl `FAHRE` schließt sich eine Einheit einer transportierenden Einheit an und kann von dieser, sofern sie den Befehl `TRANSPORTIERE` für die fahrende Einheit gegeben hat, mitgenommen werden. Durch diesen Befehl ist es möglich, auch ohne das Reiten-Talent auf Pferden oder Wagen zu reisen. Voraussetzung dafür ist natürlich, dass die transportierende Einheit über genügend freie Kapazitäten verfügt, um die fahrenden Einheiten samt Gegenständen aufzuladen.
 

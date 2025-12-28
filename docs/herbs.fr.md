@@ -34,7 +34,7 @@ Liste des plantes et leur localisation incl. noms allemand
 | Highland     | Windbeutel, Fjordwuchs, Alraune                                                         | windbag, fjord fungus, mandrake                                          |
 | Mountain     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
-| Volcano      | \--                                                                                     | \--                                                                      |
+| Volcano      | --                                                                                      | --                                                                       |
 
 Poursuivre la lecture : [Befehle](./commands.md).
 

@@ -14,24 +14,24 @@ Weight, skill and raw material requirements
 
 | Item in german    | Item             | Weight | Skill          | min. | raw material         |
 |-------------------|------------------|--------|----------------|------|----------------------|
-| Silber            | silver           | 0,01   | \-/-           | \-/- | \-/-                 |
-| Juwelen           | gem              | 1      | trade          | 1    | \-/-                 |
-| Weihrauch         | incense          | 2      | trade          | 1    | \-/-                 |
-| Balsam            | balm             | 2      | trade          | 1    | \-/-                 |
-| Gewürz            | spice            | 2      | trade          | 1    | \-/-                 |
-| Myrrhe            | myrrh            | 2      | trade          | 1    | \-/-                 |
-| Öl                | oil              | 3      | trade          | 1    | \-/-                 |
-| Seide             | silk             | 3      | trade          | 1    | \-/-                 |
-| Kräuter           | herbs            | 0      | herbalism      | 1    | \-/-                 |
-| Samen             | seed             | 0,1    | herbalism      | 3    | \-/-                 |
-| Mallornsamen      | mallorn seed     | 0,1    | herbalism      | 4    | \-/-                 |
-| Eisen             | iron             | 5      | mining         | 1    | \-/-                 |
-| Laen\*            | laen\*           | 2      | mining         | 7    | \-/-                 |
-| Adamantium\*      | adamantium\*     | 2      | mining         | 8    | \-/-                 |
-| Holz              | wood             | 5      | forestry       | 1    | \-/-                 |
-| Mallorn           | mallorn          | 5      | forestry       | 2    | \-/-                 |
-| Stein             | stone            | 60     | quarrying      | 1    | \-/-                 |
-| Pferd             | horse            | 50     | taming         | 1    | \-/-                 |
+| Silber            | silver           | 0,01   | --             | --   | --                   |
+| Juwelen           | gem              | 1      | trade          | 1    | --                   |
+| Weihrauch         | incense          | 2      | trade          | 1    | --                   |
+| Balsam            | balm             | 2      | trade          | 1    | --                   |
+| Gewürz            | spice            | 2      | trade          | 1    | --                   |
+| Myrrhe            | myrrh            | 2      | trade          | 1    | --                   |
+| Öl                | oil              | 3      | trade          | 1    | --                   |
+| Seide             | silk             | 3      | trade          | 1    | --                   |
+| Kräuter           | herbs            | 0      | herbalism      | 1    | --                   |
+| Samen             | seed             | 0,1    | herbalism      | 3    | --                   |
+| Mallornsamen      | mallorn seed     | 0,1    | herbalism      | 4    | --                   |
+| Eisen             | iron             | 5      | mining         | 1    | --                   |
+| Laen\*            | laen\*           | 2      | mining         | 7    | --                   |
+| Adamantium\*      | adamantium\*     | 2      | mining         | 8    | --                   |
+| Holz              | wood             | 5      | forestry       | 1    | --                   |
+| Mallorn           | mallorn          | 5      | forestry       | 2    | --                   |
+| Stein             | stone            | 60     | quarrying      | 1    | --                   |
+| Pferd             | horse            | 50     | taming         | 1    | --                   |
 | Wagen             | cart             | 40     | cartmaking     | 1    | 5 wood               |
 | Katapult          | catapult         | 100    | cartmaking     | 5    | 10 wood              |
 | Katapultmunition  | ammunition       | 10     | quarrying      | 3    | 1 stone              |

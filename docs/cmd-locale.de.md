@@ -5,7 +5,7 @@ alias: bef-locale
 # LOCALE
 
 **`LOCALE`**`en`  
-**`LOCALE`**`de`
+**`LOCALE`**`de`  
 
 Der Befehl hat keine echte Funktion. Er kann im Vorspann, außerhalb von Einheiten benutzt werden, um die Sprache der Befehle anzuzeigen. Er kann von Tools benutzt werden, um die Befehle richtig zu interpretieren. Dem Server ist er jedoch egal, er versucht immer, die Befehle in der aktuell eingestellten Sprache zu interpretieren!
 

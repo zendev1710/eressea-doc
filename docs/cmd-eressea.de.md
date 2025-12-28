@@ -4,7 +4,7 @@ alias: bef-eressea
 ---
 # ERESSEA
 
-**`ERESSEA`**` `*`partei-nr`*`"`*`passwort`*`"`
+**`ERESSEA`**` `*`partei-nr`*`"`*`passwort`*`"`  
 
 Mit diesem Befehl beginnt man die Befehlsdatei. Dieser Befehl muß unbedingt verwendet werden.
 

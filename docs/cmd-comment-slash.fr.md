@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr, en
-alias: comment-slashes-fr
+alias: comment-with-slashes-fr
 ---
 # Commentaire //
 

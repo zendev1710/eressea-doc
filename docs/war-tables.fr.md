@@ -8,32 +8,32 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 
 ## Armes et leurs propriétés
 
-| Arme                   | Dommage/à pied | ⌀           | Dommage/à cheval | ⌀    | OB  | DB  | Compétence | Somme OB + DB |
-|------------------------|----------------|-------------|------------------|------|----:|----:|-----------:|--------------:|
-| Catapult¹              | 3d10+5; 6 mal  | 21,5; 6 mal | 3d10+5; 6 mal    | 21.5 | \-4 | 0   | K          | \-4           |
-| Crossbow               | 3d3+5          | 11          | 3d3+5            | 11   | 0   | 0   | A          | 0             |
-| Mallorn crossbow²      | 3d3+6          | 12          | 3d3+6            | 12   | 0   | 0   | A          | 0             |
-| Bow                    | 1d11+1         | 7           | 1d11+1           | 7    | \-2 | 0   | B          | \-2           |
-| Mallorn bow            | 1d11+2         | 8           | 1d11+2           | 8    | \-2 | 0   | B          | \-2           |
-| Elven bow              | 2d6+4          | 11          | 2d6+4            | 11   | \-2 | 0   | B          | \-2           |
-| Spear                  | 1d10           | 5,5         | 1d12+2           | 8,5  | 0   | 0   | S          | 0             |
-| Mallorn spear          | 1d10+1         | 6,5         | 1d12+3           | 9,5  | 0   | 0   | S          | 0             |
-| Halberd                | 2d6+3          | 10          | 2d6+3            | 10   | \-1 | +2  | S          | +1            |
-| Lance                  | 1d5            | 3           | 2d6+5            | 12   | 0   | \-2 | S          | \-2           |
-| Mallorn lance          | 1d5+1          | 4           | 2d6+6            | 13   | 0   | \-2 | S          | \-2           |
-| Sword                  | 1d9+2          | 7           | 1d9+2            | 7    | 0   | 0   | H          | 0             |
-| Claymore               | 2d8+3          | 12          | 2d8+3            | 12   | \-1 | \-2 | H          | \-3           |
-| Axe                    | 2d6+4          | 11          | 2d6+4            | 11   | +1  | \-2 | H          | \-1           |
-| Laen sword             | 3d6+10         | 20,5        | 3d6+10           | 20,5 | +1  | +1  | H          | +2            |
-| Adamantium axe         | 3d4+15         | 22,5        | 3d4+15           | 22,5 | +2  | \-2 | H          | 0             |
-| Flaming sword          | 3d6+10         | 20,5        | 3d6+10           | 20,5 | +1  | +1  | H          | +2            |
-| Rusty hellbard         | 2d6            | 7           | 2d6              | 7    | \-2 | +1  | S          | \-1           |
-| Schartiges sword       | 1d9            | 5           | 1d9              | 5    | \-1 | \-1 | H          | \-2           |
-| Rusty two-handed sword | 2d8            | 9           | 2d8              | 9    | \-2 | \-3 | H          | \-5           |
-| Rusty axe              | 2d6            | 7           | 2d6              | 7    | 0   | \-3 | H          | \-3           |
-| Unarmed³               | 1d5            | 3           | 1d6              | 3,5  | \-2 | \-2 |            | \-4           |
-| " Gobelins              | 1d5            | 3           | 1d6              | 3,5  | \-2 | 0   |            | \-2           |
-| " Trolls               | 1d5+1          | 4           | \-               | \-   | \-2 | \-2 |            | \-4           |
+| Arme                   | Dommage à pied | ⌀           | Dommage à cheval | ⌀    | OB | DB | Compétence | Total |
+|------------------------|----------------|-------------|------------------|------|---:|---:|-----------:|------:|
+| Catapult¹              | 3d10+5; 6 mal  | 21,5; 6 mal | 3d10+5; 6 mal    | 21.5 | -4 |  0 |          K |    -4 |
+| Crossbow               | 3d3+5          | 11          | 3d3+5            | 11   |  0 |  0 |          A |     0 |
+| Mallorn crossbow²      | 3d3+6          | 12          | 3d3+6            | 12   |  0 |  0 |          A |     0 |
+| Bow                    | 1d11+1         | 7           | 1d11+1           | 7    | -2 |  0 |          B |    -2 |
+| Mallorn bow            | 1d11+2         | 8           | 1d11+2           | 8    | -2 |  0 |          B |    -2 |
+| Elven bow              | 2d6+4          | 11          | 2d6+4            | 11   | -2 |  0 |          B |    -2 |
+| Spear                  | 1d10           | 5,5         | 1d12+2           | 8,5  |  0 |  0 |          S |     0 |
+| Mallorn spear          | 1d10+1         | 6,5         | 1d12+3           | 9,5  |  0 |  0 |          S |     0 |
+| Halberd                | 2d6+3          | 10          | 2d6+3            | 10   | -1 | +2 |          S |    +1 |
+| Lance                  | 1d5            | 3           | 2d6+5            | 12   |  0 | -2 |          S |    -2 |
+| Mallorn lance          | 1d5+1          | 4           | 2d6+6            | 13   |  0 | -2 |          S |    -2 |
+| Sword                  | 1d9+2          | 7           | 1d9+2            | 7    |  0 |  0 |          H |     0 |
+| Claymore               | 2d8+3          | 12          | 2d8+3            | 12   | -1 | -2 |          H |    -3 |
+| Axe                    | 2d6+4          | 11          | 2d6+4            | 11   | +1 | -2 |          H |    -1 |
+| Laen sword             | 3d6+10         | 20,5        | 3d6+10           | 20,5 | +1 | +1 |          H |    +2 |
+| Adamantium axe         | 3d4+15         | 22,5        | 3d4+15           | 22,5 | +2 | -2 |          H |     0 |
+| Flaming sword          | 3d6+10         | 20,5        | 3d6+10           | 20,5 | +1 | +1 |          H |    +2 |
+| Rusty hellbard         | 2d6            | 7           | 2d6              | 7    | -2 | +1 |          S |    -1 |
+| Schartiges sword       | 1d9            | 5           | 1d9              | 5    | -1 | -1 |          H |    -2 |
+| Rusty two-handed sword | 2d8            | 9           | 2d8              | 9    | -2 | -3 |          H |    -5 |
+| Rusty axe              | 2d6            | 7           | 2d6              | 7    |  0 | -3 |          H |    -3 |
+| Unarmed³               | 1d5            | 3           | 1d6              | 3,5  | -2 | -2 |            |    -4 |
+| "     " Gobelins       | 1d5            | 3           | 1d6              | 3,5  | -2 |  0 |            |    -2 |
+| "     " Trolls         | 1d5+1          | 4           | -                | -    | -2 | -2 |            |    -4 |
 
 ¹ Les catapultes ne tirent que lors du premier round de la bataille, mais **atteignent 6 cibles**.
 ² Les arbalètes ne tirent qu'aux 1er et 4e tours. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
@@ -93,7 +93,7 @@ Une unité peut être dans l'un des états de santé suivants :
 | Cotte de mailles          |          3 |              115% |
 | Bouclier                  |          1 |               85% |
 | Bouclier en laen          |          2 |               75% |
-| Cotte de mailles en laen  |          6 |                \- |
+| Cotte de mailles en laen  |          6 |                - |
 | Armure en adamantium      |          7 |              110% |
 | Bouclier rouillé          |          1 |              100% |
 | Cotte de mailles rouillée |          2 |              130% |
@@ -126,10 +126,10 @@ Points de vie (PV), résistance magique (R) et armure naturelle (AN).
 | Humains   | 20 |   0 |  0 |
 | Aquariens | 20 |   0 |  0 |
 | Nains     | 24 |   5 |  0 |
-| Orcs      | 24 | \-5 |  0 |
+| Orcs      | 24 | -5 |  0 |
 | Elfes     | 18 |  10 |  0 |
 | Halflinge | 18 |   5 |  0 |
-| Gobelins   | 16 | \-5 |  0 |
+| Gobelins   | 16 | -5 |  0 |
 | Trolls    | 30 |  10 |  1 |
 | Démons    | 50 |  15 |  2 |
 | Insectes  | 24 |   5 |  2 |

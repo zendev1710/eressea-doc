@@ -6,31 +6,33 @@ alias: cmd-buy-fr
 
 **`BUY`**[<sup>`(l)`</sup>]` `*`number`*` `*`luxury goods`*  
 
-If the unit has the [trade] skill, it will attempt to purchase that number of luxury goods.
-This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
+Si l'unité possède la compétence [Commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.
+Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.
 In order to buy something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...
 
 [<sup>(l)</sup>][<sup>`(l)`</sup>] `BUY` is like [[cmd-sell]] a ["pseudo-long" command]. You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
 BUY orders have priority over sales.
-`BUY` orders are generally given `SELL` executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough talent to execute all `BUY` and `SELL` orders first buy as much as possible and if there are no skill points left for selling.
+
+Les ordres `BUY` sont généralement accompagnés d'ordres `SELL`.
+Cependant, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.
+Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres `BUY` et `SELL` achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.
 
 Example:
 
 ```text
-    UNIT hndl;     Barker [1, $1000]
-        ; Trade 3 [180]
-        SELL 15 jewel
-        SELL 15 Oil
-        BUY 10 Incense
+UNIT hndl;     Barker [1, $1000]
+    ; Trade 3 [180]
+    SELL 15 jewel
+    SELL 15 Oil
+    BUY 10 Incense
 ```
 
-This merchant will buy 10 incense and sell a total of 20 jewels and oil.
-So randomly between 5 and 15 per trade item if he has it.
+Ce marchand achètera 10 encens et vendra un total de 20 bijoux et de l'huile.
+Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.
 
-Only one order appears in the normal report.
-But this is only so that there is not a large list of orders there.
-In the computer report and the [[orders|orders template]] are all `BUY` and `SELL` orders listed.
+Une seule commande apparaît dans le rapport standard.
+Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.
+Dans le rapport informatique et le [[ordres|modèle d'ordres]] tous les ordres `BUY` et `SELL` sont répertoriés.
 
 ## Voir aussi
 

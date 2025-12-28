@@ -5,7 +5,7 @@ alias: bef-zerstoere
 # ZERSTÖRE
 
 **`ZERSTÖRE`**[<sup>`L`</sup>]`[`*`stufen`*`]`  
-**`ZERSTÖRE`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*
+**`ZERSTÖRE`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*  
 
 Eine Einheit, die das Kommando über ein [Schiff] oder ein [Gebäude] hat, kann dieses jederzeit mit diesem Befehl verkleinern oder ganz zerstören. Dazu braucht sie kein Talent. Der Parameter *stufen* bezeichnet dabei bei Gebäuden die Größenpunkte, um die das Gebäude verkleinert werden soll, bei Schiffen die Prozentpunkte. Wird kein Parameter angegeben, so wird die Struktur komplett zerstört. Schiffe können allerdings nur in Küstengebieten verkleinert oder versenkt werden, die Besatzung weigert sich, das Schiff auf hoher See zu beschädigen!
 

@@ -4,29 +4,29 @@ alias: you-play-too-much-if
 ---
 # You play too much if
 
-- du eine Mail an deinen Root mit "Seid gegrüßt!" einleitest
-- du die Webseiten über "Creative Anachronism" liest
-- du fließend Quenya sprichst, weil du es zur Benamung deiner Einheiten und Regionen brauchst
-- die Hälfte deiner installierten Fonts Runen sind
-- dein tägliches Backup aus 5 MB Diplomatenmail und 3 MB Reports besteht
-- und dein Partner/Partnerin mit "Einheit 2, Nach West. Betrete Kino" ansprichst
-- du um deinen Kundschafter trauerst
-- du denkst, daß man dich mit deiner diplomatischen Begabung auch als Vermittler in Jugoslawien einsetzen könnte ...
-- ... bis dir einfällt, daß du dort keine 10000 Schwertkämpfer hast
-- du denkst, daß dich der in Eressea erworbene Zynismus zu einer Karriere als Politiker befähigt
-- du denkst, daß jeder Außenminister mindestens einmal einen Krieg in Eressea durchgezogen haben sollte
-- Auch die Fähigkeit, tausende in den Tod zu schicken, ist sicher unschätzbar.
-- ... man kann ja neue rekrutieren
-- du dir während des Lösens der Matheaufgaben ein Gehirnschmalz wünschst
-- du darauf achtest, ob Leute in deiner Umgebung die Population durch Bauernfressen dezimieren
-- du in jedem Tintenfisch einen Meermenschen erkennst
-- du bei allem, was du tun möchtest, versuchst, jemand zu finden, der einen Bonus darauf hat
-- du zählst, ob in deiner Familie schon mehr als 1000 Einheiten sind (Anm. das alte Einheitenlimit)
-- du bei "Käse" an ein allerallerallerletztes Ultimatum denkst
-- du darüber sinnierst, warum Nachbars Katze keinen Plattenpanzer trägt
-- du anfängst, 2-Euro-Stücke zu essen
-- du mit 10 Euro in der Woche auskommen möchtest
+- you send an email to your root with “Greetings!” initiate
+- you read the websites about "Creative Anachronism"
+- you speak Quenya fluently because you use it to name your units and regions
+- half of your installed fonts are runes
+- your daily backup consists of 5 MB diplomatic mail and 3 MB reports
+- and address your partner with “Unit 2, To the West. Enter Cinema”
+- you mourn for your scout
+- you think that with your diplomatic skill you could also be used as a mediator in Yugoslavia...
+- ...until you remember that you don't have 10,000 swordsmen there
+- you think that the cynicism you acquired in Eressea will enable you to pursue a career as a politician
+- you think that every foreign minister should have fought a war in Eressea at least once
+- The ability to send thousands to their deaths is certainly invaluable.
+- ...you can recruit new ones
+- you wish you had some brain power while solving the math problems
+- you pay attention to whether people in your area are decimating the population by eating farmers
+- you recognize a merman in every octopus
+- Whatever you want to do, you try to find someone who has a bonus on it
+- you count whether there are already more than 1000 units in your family (note the old unit limit)
+- When you hear “cheese” you think of a very, very, very last ultimatum
+- you wonder why the neighbor's cat doesn't wear plate armor
+- you start eating 2-euro pieces
+- you want to get by on 10 euros a week
 
-Beiträge von Christian 'Finladir' Schlittchen, Enno 'Tanstaafl' Rehling, Katja 'Katze' Zedel, Micha 'Noldor' Istine und Martin 'Ponnuki' Hershoff.
+Contributions from Christian 'Finladir' Schlittchen, Enno 'Tanstaafl' Rehling, Katja 'Katze' Zedel, Micha 'Noldor' Istine and Martin 'Ponnuki' Hershoff.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Du\_spielst\_zuviel\_Eressea,\_wenn...&oldid=6955] -->

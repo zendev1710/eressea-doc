@@ -23,14 +23,14 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 Construction de routes
 
 | Terrain      | Pierres | bâtiment       |
-|--------------|---------|----------------|
-| Plain/Forest | 50      | \-             |
-| Highland     | 100     | \-             |
-| Mountain     | 250     | \-             |
-| Volcano      | 250     | \-             |
-| Swamp        | 75      | [Dam]          |
-| Desert       | 100     | [Caravanserai] |
-| Glacier      | 250     | [Tunnel]       |
+|--------------|--------:|----------------|
+| Plain/Forest |      50 | --             |
+| Highland     |     100 | --             |
+| Mountain     |     250 | --             |
+| Volcano      |     250 | --             |
+| Swamp        |      75 | [Dam]          |
+| Desert       |     100 | [Caravanserai] |
+| Glacier      |     250 | [Tunnel]       |
 
 [Dam]: ./buildings-others.md#barrage
 [Caravanserai]: ./buildings-others.md#caravanserail

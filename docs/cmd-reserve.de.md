@@ -6,7 +6,7 @@ alias: bef-reserviere
 
 **`RESERVIERE`**` `*`anzahl`*` `*`gegenstand`*  
 **`RESERVIERE`**` ALLES `*`gegenstand`*  
-**`RESERVIERE`**` JE `*`anzahl`*` `*`gegenstand`*
+**`RESERVIERE`**` JE `*`anzahl`*` `*`gegenstand`*  
 
 Hiermit kann sich eine Einheit Gegenstände oder Silber von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber [Materialpool]!).
 

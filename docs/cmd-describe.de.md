@@ -8,7 +8,7 @@ alias: bef-beschreibe
 **`BESCHREIBE GEBÄUDE`**`"`*`text`*`"`  
 **`BESCHREIBE SCHIFF`**`"`*`text`*`"`  
 **`BESCHREIBE REGION`**`"`*`text`*`"`  
-**`BESCHREIBE PRIVAT`**`"`*`text`*`"`
+**`BESCHREIBE PRIVAT`**`"`*`text`*`"`  
 
 Die Beschreibung für das aufgeführte Objekt wird geändert. Diese Beschreibung wird jeweils nach dem Objekt aufgelistet und kann bis zu 8191 Zeichen lang sein. Der Computer vergibt bei der Erschaffung von Objekten keine Beschreibungen.
 

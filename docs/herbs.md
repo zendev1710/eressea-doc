@@ -34,7 +34,7 @@ List of herbs and their distribution incl. German names
 | Highland     | Windbeutel, Fjordwuchs, Alraune                                                         | windbag, fjord fungus, mandrake                                          |
 | Mountain     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
 | Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
-| Volcano      | \--                                                                                     | \--                                                                      |
+| Volcano      | --                                                                                      | --                                                                       |
 
 Continue reading: [[orders]].
 

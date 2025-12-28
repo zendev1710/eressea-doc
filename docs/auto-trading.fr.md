@@ -4,17 +4,25 @@ alias: commerce-automatise
 ---
 # Commerce automatisé
 
-Handel hat ja nur einen Zweck: Maximierung des Silberertrages. Damit ist das Grosse Ziel schonmal sehr einfach definiert.
+Trading has only one purpose: maximizing the silver yield. This means that the big goal is defined very simply.
 
-Das zu optimierende Problem ist also die Maximierung des Gewinns zwischen Einkauf und Verkauf. Nebenbedingung ist der Transport der Waren, wobei diese Nebenbedingung sehr schnell sehr kompliziert werden kann.
+So the problem to be optimized is maximizing the profit between purchasing and selling.
+The secondary condition is the transport of the goods, although this secondary condition can quickly become very complicated.
 
-## Handelsertragmaximierung
+## Trading profit maximization
 
-Meist gilt in der Welt von Eressea, dass die Regionen einer Insel jeweils eine von 2 Handelswaren zum Kauf anbieten. Damit ist inselintern die optimale Kaufmenge der Handelswaren relativ leicht zu bestimmen, da wir wissen, welche Menge wir zu welchem Preis maximal absetzen können. So lange es noch eine Spanne zwischen Ein- und Verkauf gibt, kaufen wir ein. Üblicherweise wird man also für den eigenbedarf der Inseln zum 1-3 fachen des Grundpreises einkaufen, halt in dem Mengenverhältnis in dem die beiden Luxuswaren angeboten werden. Aus Gründen der Einheitenminimierung mag man auch auf Regionen mit einem sehr geringen Handelsvolumen verzichten, diese sind dann also aus der Rechnung auzuschliessen.
+In the world of Eressea, the regions of an island usually offer one of two trade goods for purchase.
+This makes it relatively easy to determine the optimal purchase quantity of merchandise within the island, as we know the maximum quantity we can sell at what price.
+As long as there is still a margin between buying and selling, we will buy.
+Usually you will buy for your own needs on the islands at 1-3 times the basic price, just in the proportion in which the two luxury goods are offered.
+For reasons of unit minimization, regions with a very low trading volume may also be avoided, so these should then be excluded from the calculation.
 
-Der Bedarf an externen Luxuswaren lässt sich oft noch einfacher bestimmen. Er liegt grob bei Bauernzahl der Insel geteilt durch 100. Allerdings wird man diesen Bedarf selten decken, da Schiffe meist wichtigere Dinge zu tun haben.
+The need for external luxury goods is often even easier to determine.
+It is roughly the number of farmers on the island divided by 100.
+However, this need will rarely be met because ships usually have more important things to do.
 
-Die Problemstellung hier ist also eher langweilig, bzw. nicht als Problem zu bezeichnen. Erst beim Transport müssen tatsächlich "Entscheidungen" gefällt werden.
+The problem here is rather boring or cannot be described as a problem.
+Only during transport do “decisions” actually have to be made.
 
 ## Wichtige Nebenbedingung: Transport
 

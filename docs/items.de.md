@@ -14,24 +14,24 @@ Gewicht, Talente und Materialbedarf
 
 | Gegenstand        | Gewicht | Talent        | min. | Rohstoffe            |
 |-------------------|---------|---------------|------|----------------------|
-| Silber            | 0,01    | \-/-          | \-/- | \-/-                 |
-| Juwelen           | 1       | Handeln       | 1    | \-/-                 |
-| Weihrauch         | 2       | Handeln       | 1    | \-/-                 |
-| Balsam            | 2       | Handeln       | 1    | \-/-                 |
-| Gewürz            | 2       | Handeln       | 1    | \-/-                 |
-| Myrrhe            | 2       | Handeln       | 1    | \-/-                 |
-| Öl                | 3       | Handeln       | 1    | \-/-                 |
-| Seide             | 3       | Handeln       | 1    | \-/-                 |
-| Kräuter           | 0       | Kräuterkunde  | 1    | \-/-                 |
-| Samen             | 0,1     | Kräuterkunde  | 3    | \-/-                 |
-| Mallornsamen      | 0,1     | Kräuterkunde  | 4    | \-/-                 |
-| Eisen             | 5       | Bergbau       | 1    | \-/-                 |
-| Laen\*            | 2       | Bergbau       | 7    | \-/-                 |
-| Adamantium\*      | 2       | Bergbau       | 8    | \-/-                 |
-| Holz              | 5       | Holzfällen    | 1    | \-/-                 |
-| Mallorn           | 5       | Holzfällen    | 2    | \-/-                 |
-| Stein             | 60      | Steinbau      | 1    | \-/-                 |
-| Pferd             | 50      | Pferdedressur | 1    | \-/-                 |
+| Silber            | 0,01    | --            | --   | --                   |
+| Juwelen           | 1       | Handeln       | 1    | --                   |
+| Weihrauch         | 2       | Handeln       | 1    | --                   |
+| Balsam            | 2       | Handeln       | 1    | --                   |
+| Gewürz            | 2       | Handeln       | 1    | --                   |
+| Myrrhe            | 2       | Handeln       | 1    | --                   |
+| Öl                | 3       | Handeln       | 1    | --                   |
+| Seide             | 3       | Handeln       | 1    | --                   |
+| Kräuter           | 0       | Kräuterkunde  | 1    | --                   |
+| Samen             | 0,1     | Kräuterkunde  | 3    | --                   |
+| Mallornsamen      | 0,1     | Kräuterkunde  | 4    | --                   |
+| Eisen             | 5       | Bergbau       | 1    | --                   |
+| Laen\*            | 2       | Bergbau       | 7    | --                   |
+| Adamantium\*      | 2       | Bergbau       | 8    | --                   |
+| Holz              | 5       | Holzfällen    | 1    | --                   |
+| Mallorn           | 5       | Holzfällen    | 2    | --                   |
+| Stein             | 60      | Steinbau      | 1    | --                   |
+| Pferd             | 50      | Pferdedressur | 1    | --                   |
 | Wagen             | 40      | Wagenbau      | 1    | 5 Holz               |
 | Katapult          | 100     | Wagenbau      | 5    | 10 Holz              |
 | Katapultmunition  | 10      | Steinbau      | 3    | 1 Stein              |

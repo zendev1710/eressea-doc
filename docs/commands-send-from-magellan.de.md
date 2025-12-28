@@ -39,7 +39,9 @@ Für einige bekannte Mailanbieter folgen hier die benötigten Werte, soweit derz
 
 ## GMX
 
-Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-imap/index.html] und zu den SMTP Einstellungen unter [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html]. Darüber hinaus ist es notwendig die externe Berechtigung zum Senden zu erteilen. Dies wird (inklusive Video) unter [https://hilfe.gmx.net/pop-imap/einschalten.html] erklärt.
+Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-imap/index.html] und zu den SMTP Einstellungen unter [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html].
+Darüber hinaus ist es notwendig die externe Berechtigung zum Senden zu erteilen.
+Dies wird (inklusive Video) unter [https://hilfe.gmx.net/pop-imap/einschalten.html] erklärt.
 
 **Absenderadresse:** Deine E-Mail bei GMX  
 **SMTP-Server:** mail.gmx.net  

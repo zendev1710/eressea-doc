@@ -7,7 +7,7 @@ alias: bef-nummer
 **`NUMMER EINHEIT`**`[`*`neue-nr`*`]`  
 **`NUMMER PARTEI`**`[`*`neue-nr`*`]`  
 **`NUMMER SCHIFF`**`[`*`neue-nr`*`]`  
-**`NUMMER GEBÄUDE`**`[`*`neue-nr`*`]`
+**`NUMMER GEBÄUDE`**`[`*`neue-nr`*`]`  
 
 Hiermit kann man einer Einheit, einem Schiff, einem Gebäude oder gar der eigenen Partei eine neue Nummer zuweisen. Ist die Nummer bereits belegt, so ändert sich die Nummer nicht.
 

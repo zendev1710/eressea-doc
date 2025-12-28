@@ -9,7 +9,7 @@ alias: bef-zeige
 **`ZEIGE`**`"Trank"`  
 **`ZEIGE`**`ALLE ZAUBER`  
 **`ZEIGE`**`ALLE TRÄNKE`  
-**`ZEIGE`**`"Rasse"`
+**`ZEIGE`**`"Rasse"`  
 
 Zeigt die Beschreibung zu einem Zauberspruch, das Rezept eines alchemistischen Trankes oder die Beschreibung eines Gegenstands an. Die Einheit, die den Befehl gibt, muss den Gegenstand besitzen, bzw. Kenntnis des Zaubers oder des Tranks haben. Befindet sich ein Gegenstand im [Parteipool], kann eine beliebige Einheit der Partei den Zeigebefehl geben. Auch zu Rassen, zum Beispiel für [Vertraute], können bestimmte Eigenschaften angezeigt werden. Dazu muss die Rasse der Einheit mit dem Parameter übereinstimmen.
 

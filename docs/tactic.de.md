@@ -17,13 +17,13 @@ Auf das Talent Taktik gibt es auch einige Rassenboni die vom Terrain abhängig s
 | Elf    | Wald            | +2          |
 | Zwerg  | Berg, Gletscher | +1          |
 | Insekt | Sumpf, Wüste    | +1          |
-|        | Berg, Gletscher | \-1         |
+|        | Berg, Gletscher | -1          |
 
 Insekten bekommen zudem einen zusätzlichen Bonus auf das Talent Taktik, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von log10(Anzahl der Kämpfer in seinem Heer)-1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Wichtig: Es zählen wirklich nur die Kämpfer in seinem Heer. Unterschiedliche Gruppen sollte man also vermeiden und die Truppen der Bündnispartner zählen auch nicht.
 
 | Anzahl Kämpfer | 1-9 | 10-99 | 100-999 | 1000-9.999 | 10.000-99.999 | 100.000-999.999 | ... |
 |----------------|-----|-------|---------|------------|---------------|-----------------|-----|
-| Massenbonus    | \-1 | 0     | +1      | +2         | +3            | +4              | ... |
+| Massenbonus    |  -1 | 0     | +1      | +2         | +3            | +4              | ... |
 
 ## Tagesform
 

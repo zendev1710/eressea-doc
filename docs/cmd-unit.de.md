@@ -4,7 +4,7 @@ alias: bef-einheit
 ---
 # EINHEIT
 
-**`EINHEIT`**` `*`einheit-nr`*
+**`EINHEIT`**` `*`einheit-nr`*  
 
 Mit diesem Befehl beginnt man die Befehlseingabe für eine der eigenen Einheiten.
 

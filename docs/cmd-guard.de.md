@@ -4,7 +4,7 @@ alias: bef-bewache
 ---
 # BEWACHE
 
-**`BEWACHE`**`[NICHT]`
+**`BEWACHE`**`[NICHT]`  
 
 Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 

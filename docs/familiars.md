@@ -161,12 +161,12 @@ If a field is empty, then the race cannot learn that talent or does not have tha
 | Gewicht \[kg\]         | 5     | 10    | 5       | 5       | 5   | 2     | 5      | 6      | 5       | 5       | 5    | 10    | 1   | 16             | 10             | 5            | 5      | 5         | 300         | 5    |
 | Capacity[kg]           | 5.4   | 5.4   | 5.4     | 20      | 5.4 | 5.4   | 5.4    | 4.4    | 5.4     | 5.4     | 5.4  | 5.4   | 5.4 | 6              | 6              | 5.4          | 5.4    | 5.4       | 100         | 5.4  |
 | nat. Armor             | 0     | 2     | 0       | 0       | 0   | 0     | 5      | 0      | 0       | 0       | 0    | 0     | 0   | 7              | 1              | 1            | 0      | 0         | 6           | 0    |
-| Magic resistance       | 0     | 15    | 0       | 90      | 0   | 80    | 100    | \-5    | 50      | 0       | 0    | 90    | 0   | 0              | 99             | 50           | 0      | 50        | 80          | 0    |
+| Magic resistance       | 0     | 15    | 0       | 90      | 0   | 80    | 100    | -5     | 50      | 0       | 0    | 90    | 0   | 0              | 99             | 50           | 0      | 50        | 80          | 0    |
 | own magic              |       |       |         | ja      |     | ja    | ja     |        |         |         |      | ja    |     |                | ja             | ja           |        | ja        |             |      |
 | can move over land     | yes   | yes   |         | yes     | yes | yes   | yes    | yes    | yes     |         | yes  | yes   | yes | yes            | yes            | yes          | yes    | yes       | yes         | yes  |
 | can enter ocean fields | yes   |       | yes     |         | yes | yes   | yes    |        |         | yes     |      |       |     | yes            | yes            | yes          |        | yes       |             |      |
 | Can use armor          |       | yes   |         |         |     | yes   | yes    | yes    |         |         |      | yes   |     |                |                | yes          |        |           |             |      |
-| Talent                 | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
+| Skill                  | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
 | Alchemy                |       | +2    |         |         |     |       |        | +1     |         |         |      | 0     |     |                |                |              |        |           |             |      |
 | Crossbow shooting      |       | 0     |         |         |     |       |        | 0      |         |         |      | 0     |     |                |                |              |        |           |             |      |
 | Endurance              | 0     | 0     | 0       | 0       | 0   | 0     | 0      | 0      | 0       | 0       | 0    | -1    | 0   | 0              | 0              | 0            | 0      | 0         | +2          | 0    |
@@ -177,7 +177,7 @@ If a field is empty, then the race cannot learn that talent or does not have tha
 | Slashing weapons       |       | +1    |         |         |     | -1    | 0      | 0      |         |         |      | 0     |     |                |                | 0            |        | 0         |             |      |
 | woodcutting            |       | +1    |         |         |     |       |        | 0      |         |         |      |       |     |                |                |              |        |           | +10         |      |
 | Catapult operation     |       | 0     |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           |             |      |
-| Herbology              |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +4    |     |                |                |              |        |           |             |      |
+| Herbalism              |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +4    |     |                |                |              |        |           |             |      |
 | Magic                  | 0     | +1    | 0       | +2      | 0   | +1    | +1     | -1     | 0       | 0       | 0    | +1    | 0   | 0              | +1             | +1           | 0      | +1        | 0           | 0    |
 | Horse dressage         |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +5    |     |                |                |              |        |           |             |      |
 | Riding                 |       | -1    |         |         |     | -1    | -2     | 0      |         |         |      | +5    |     |                |                | -1           |        |           |             |      |
@@ -194,7 +194,7 @@ If a field is empty, then the race cannot learn that talent or does not have tha
 | Entertainment          |       | -3    |         |         |     |       |        | -1     |         |         |      | +10   |     |                |                |              |        |           |             |      |
 | Weapons construction   |       | +1    |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                |              |        |           |             |      |
 | Unarmed combat         | 0     | -     | 0       | 0       | 0   | 0     | 0      | -      | 0       | 0       | 0    | 0     | 0   | 0              | 0              | 0            | 0      | 0         | 0           | 0    |
-| Carriage construction  |       | \-2   |         |         |     |       |        | \-1    |         |         |      | \-2   |     |                |                |              |        |           |             |      |
+| Carriage construction  |       | -2    |         |         |     |       |        | -1     |         |         |      | -2    |     |                |                |              |        |           |             |      |
 | perception             | +2    | +1    | +1      | +5      | +5  | +2    | 0      | 0      | +1      | +1      | +4   | +2    | +2  | +1             | 0              | +1           | +1     | +1        |             | +2   |
 
 ## Assignment of Familiars
@@ -209,23 +209,28 @@ Player experience: The information on percentages should be viewed with caution 
 
 An elf magician with Tybied has the highest chance of getting an owl (magic area) or a lynx (primary familiar), but also a lower chance of getting a random race from the table.
 
-| Race       | Primary Familiar  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
-|------------|-------------------|------------|-------------------|------------|------------|-------------|
-| Mensch     | Wolf              | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
-| Meermensch | Riesenschildkröte | Delphin    | Riesenschildkröte | Delphin    | Delphin    | Krake       |
-| Katze      | Luchs             | Traumkatze | Luchs             | Singdrache | Tiger      | Höllenkatze |
-| Halbling   | Eule              | Ratte      | Adler             | Singdrache | Adler      | Ratte       |
-| Insekt     | Geist             | Ratte      | Eule              | Ratte      | Tunnelwurm | Teufelchen  |
-| Dämon      | Teufelchen        | Teufelchen | Geist             | Ratte      | Wolf       | Teufelchen  |
-| Troll      | Tunnelwurm        | Ratte      | Ratte             | Adler      | Tunnelwurm | Wolf        |
-| Goblin     | Ratte             | Singdrache | Teufelchen        | Ratte      | Ratte      | Teufelchen  |
-| Elf        | Luchs             | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
-| Zwerg      | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
-| Ork        | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
+| Race      | Primary Familiar  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
+|-----------|-------------------|------------|-------------------|------------|------------|-------------|
+| Humans    | Wolf              | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
+| Aquarians | Riesenschildkröte | Delphin    | Riesenschildkröte | Delphin    | Delphin    | Krake       |
+| Cats      | Luchs             | Traumkatze | Luchs             | Singdrache | Tiger      | Höllenkatze |
+| Halflings | Eule              | Ratte      | Adler             | Singdrache | Adler      | Ratte       |
+| Insects   | Geist             | Ratte      | Eule              | Ratte      | Tunnelwurm | Teufelchen  |
+| Demons    | Teufelchen        | Teufelchen | Geist             | Ratte      | Wolf       | Teufelchen  |
+| Trolls    | Tunnelwurm        | Ratte      | Ratte             | Adler      | Tunnelwurm | Wolf        |
+| Goblins   | Ratte             | Singdrache | Teufelchen        | Ratte      | Ratte      | Teufelchen  |
+| Elves     | Luchs             | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
+| Dwarves   | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
+| Orcs      | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
 
-Player Experience: The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.
+Player Experience:
 
-Player Experience: An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean. However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.
+The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.
+
+Player Experience:
+
+An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean.
+However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 

@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: kräuter
+alias: kraeuter
 ---
 # Kräuter
 
@@ -29,20 +29,21 @@ Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 | Verbreitung | Kräuter                                                                                 | Herbs (english names)                                                    |
 |-------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Wald/Ebene  | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Wald        | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | Sumpf       | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           | bugleweed, knotroot, bubblemorel                                         |
 | Wüste       | Wasserfinder, Kakteenschwitz, Sandfäule                                                 | waterfinder, peyote, sand reeker                                         |
 | Hochland    | Windbeutel, Fjordwuchs, Alraune                                                         | windbag, fjord fungus, mandrake                                          |
 | Gebirge     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
 | Gletscher   | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
-| Vulkan      | \--                                                                                     | \--                                                                      |
+| Vulkan      | --                                                                                      | --                                                                       |
 
-Weiterlesen: [Befehle](./commands.md "Befehle").
+Weiterlesen: [Befehle](./commands.md).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter&oldid=16100] -->
 
-[MACHE KRÄUTER]: ./cmd-make.md "MACHE"
-[Kräuterkunde]: ./skills-list.md "Liste der Talente"
-[ZÜCHTE KRÄUTER]: ./cmd-grow.md "ZÜCHTE"
-[Alchemie]: ./alchemy.md "Alchemie"
-[Zauber]: ./magic.md "Magie"
-[FORSCHE KRÄUTER]: ./cmd-research.md "FORSCHE"
+[MACHE KRÄUTER]: ./cmd-make.md
+[Kräuterkunde]: ./skills-list.md
+[ZÜCHTE KRÄUTER]: ./cmd-grow.md
+[Alchemie]: ./alchemy.md
+[Zauber]: ./magic.md
+[FORSCHE KRÄUTER]: ./cmd-research.md

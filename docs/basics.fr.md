@@ -4,68 +4,68 @@ alias: bases
 ---
 # Bases
 
-Just because there is no winner in Eressea doesn't mean you can't lose.
-We often see avoidable mistakes among beginners that lead to one faction being eliminated from the game early because a rule was not fully understood, or the player encountering problems unprepared.
+Ce n’est pas parce qu’il n’y a pas de gagnant à Eressea que vous ne pouvez pas perdre.
+Nous voyons souvent des erreurs évitables chez les débutants qui conduisent à l'élimination précoce d'une faction du jeu parce qu'une règle n'a pas été entièrement comprise ou que le joueur rencontre des problèmes sans être préparé.
 
-The following basic things every player should understand.
+Les éléments de base suivants que chaque joueur doit comprendre.
 
 ## Rapport
 
-There are two reports every week that contain the same data.
-The normal report (NR) is a text file that can be read with any editor.
-The computer report (CR) is a file that is understood by tools such as [[magellan]] and [[csmap]].
+Il y a deux rapports chaque semaine contenant les mêmes données.
+Le rapport normal (NR) est un fichier texte lisible avec n'importe quel éditeur.
+Le rapport informatique (CR) est un fichier compris par des outils tels que [[magellan]] et [[csmap]].
 
-We recommend that beginners make their first moves with the normal report and a text editor.
-The first few commands are rarely more than a dozen lines, and you don't need a tool like Magellan to create them.
-On the contrary, because these tools are designed for managing large parties with hundreds of entities, they have a lot of features that tend to be confusing at first, distracting from the important information that is easier to see in the normal report.
+Nous recommandons aux débutants de faire leurs premiers pas avec le rapport normal et un éditeur de texte.
+Les premières commandes font rarement plus d'une douzaine de lignes et vous n'avez pas besoin d'un outil comme Magellan pour les créer.
+Au contraire, étant donné que ces outils sont conçus pour gérer de grands partis comptant des centaines d’entités, ils comportent de nombreuses fonctionnalités qui ont tendance à prêter à confusion au début, détournant l’attention des informations importantes qui sont plus faciles à voir dans le rapport normal.
 
 ## Ordres longs et courts
 
-Units can only perform one long [Action] action per week, but can perform any number of short ones.
+Les unités ne peuvent effectuer qu'une seule action [Action] longue par semaine, mais peuvent en effectuer un nombre illimité d'actions courtes.
 
-DANGER! Combat can be a long action, even if you haven't attacked yourself.
+DANGER! Le combat peut être une action longue, même si vous ne vous êtes pas attaqué.
 
 ## Bataille
 
-Battle in regions that you don't [[cmd-guard|guard]] are always long, even if your entire faction is attacked by just one scout, he prevents ALL units he [[cmd-attack|attacked]] from carrying out their long order.
-So you should make sure that you are guarding your regions from the first week in which your faction can be attacked at the latest.
+Les combats dans des régions que vous ne [[cmd-guard|guardez]] sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche TOUTES les unités qu'il [[cmd-attack|attaqué]] d'exécuter leur ordre long.
+Vous devez donc vous assurer que vous gardez vos régions au plus tard dès la première semaine au cours de laquelle votre faction peut être attaquée.
 
 ## Famine
 
-Avoid [starvation] at all costs. The effects are catastrophic.
-Each person needs 10 silver maintenance per week in order not to go hungry
+Évitez [la famine] à tout prix. Les effets sont catastrophiques.
+Chaque personne a besoin de 10 pièces d'argent par semaine pour ne pas avoir faim
 
 ## Finance
 
-Entertainment and taxes are learned quicker than trading, only do WORK in an emergency to avoid starvation.
+Les divertissements et les impôts s'apprennent plus rapidement que le commerce, ne TRAVAILLEZ qu'en cas d'urgence pour éviter la famine.
 
 ## Mage
 
-Each magic area has a spell at level 1 that produces 50 silver per caster level.
-If your race does not have a penalty in magic, training magicians early can be worthwhile as an alternative source of income. But be careful -not every spell works.
+Chaque zone magique possède un sort de niveau 1 qui produit 50 pièces d'argent par niveau de lanceur de sorts.
+Si votre race n'a pas de pénalité en magie, former des magiciens tôt peut être intéressant comme source alternative de revenus. Mais attention, tous les sorts ne fonctionnent pas.
 
 ## Utilisation des objets et de l'argent
 
-GIVE and RESERVE declare and that GIVE reserves the items with the recipient.
-When something is used, for example to make an item or to recruit, who uses it and in what order?
+`GIVE` et `RESERVE` déclare et que `GIVE` réserve les articles auprès du destinataire.
+Quand quelque chose est utilisé, par exemple pour fabriquer un objet ou pour recruter, qui l'utilise et dans quel ordre ?
 
 ## Capacité de chargement
 
-Explain weights and loads of people.
-Point out again where MOVE is in the command order.
-ENTERTAIN comes first; you can use it to overload a boat or a TRANSPORTING unit.
+Expliquez les poids et le nombre de personnes.
+Indiquez à nouveau où se trouve `MOVE` dans la séquence des ordres.
+`ENTERTAIN` vient en premier ; vous pouvez l'utiliser pour surcharger un bateau ou une unité `TRANSPORTING`.
 
 ## Nouvelles unités
 
-Units that have silver or are given silver always use this silver first before accessing the [[items-pool]].
-If you create a new unit, recruit a cat (costs 90 silver) and let it run into the neighboring region (10 silver maintenance) in order to let it learn entertainment there the following week (another 10 silver maintenance) and then entertain it (from here on it takes care of itself) it is not enough to give it 20 silver for the travel time and the learning week, you also have to give it the 90 silver for your own recruiting.
-Otherwise the unit will arrive in the neighboring region starving.
+Les unités qui ont de l'argent ou qui reçoivent de l'argent utilisent toujours cet argent en premier avant d'accéder à la [[items-pool]].
+Si vous créez une nouvelle unité, recrutez un chat (coûte 90 argent) et le laissez courir dans la région voisine (10 argent d'entretien) afin de lui permettre d'y apprendre le divertissement la semaine suivante (encore 10 argent d'entretien) puis de le divertir (à partir de là il prend soin de lui-même) il ne suffit pas de lui donner 20 argent pour le temps de trajet et la semaine d'apprentissage, il faut aussi lui donner les 90 argent pour votre propre recrutement.
+Sinon, l'unité arrivera dans la région voisine affamée.
 
 ## Scout
 
-Are a strategic investment.
-Secure important neighboring regions, but only if you can afford it.
-As a rule, it is not enough to place an entertainer unit in the neighboring mountain if it cannot guard it.
+Sont un investissement stratégique.
+Sécurisez les régions voisines importantes, mais seulement si vous en avez les moyens.
+En règle générale, il ne suffit pas de placer une unité de divertissement dans la montagne voisine si elle ne peut pas la garder.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 

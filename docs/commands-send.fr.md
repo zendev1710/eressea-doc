@@ -162,6 +162,6 @@ Poursuivre la lecture : [Hinweise].
 [TAX STEUERN EIN]: ./cmd-tax.md
 [LEARN MAGIE]: ./cmd-learn.md
 [;]: ./cmd-comment.md
-[Kommentar-Befehl //]: ./cmd-comment-slash.md
+[Kommentar-Befehl //]: ./cmd-comment-slash.de.md
 [Die Welt]: ./world.md
 [Der erste Zug]: ./first-round.md

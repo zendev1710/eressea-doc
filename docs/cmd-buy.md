@@ -12,8 +12,9 @@ In order to buy something, no contact with the lord of the castle is necessary; 
 
 [<sup>(l)</sup>][<sup>`(l)`</sup>] `BUY` is like [[cmd-sell]] a ["pseudo-long" command]. You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
 BUY orders have priority over sales.
+
 `BUY` orders are generally given `SELL` executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough talent to execute all `BUY` and `SELL` orders first buy as much as possible and if there are no skill points left for selling.
+It also means that units without enough skill to execute all `BUY` and `SELL` orders first buy as much as possible and if there are no skill points left for selling.
 
 Example:
 

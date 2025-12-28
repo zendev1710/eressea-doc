@@ -4,7 +4,7 @@ alias: bef-verlasse
 ---
 # VERLASSE
 
-**`VERLASSE`**
+**`VERLASSE`**  
 
 Die Einheit wird das Schiff oder das Gebäude, in dem sie sich befindet, verlassen. Wenn man die Befehle [[bef-betrete]] oder [[bef-nach]] verwendet, verlassen die Einheiten z.T. automatisch ihre Schiffe und Gebäude. Dies funktioniert allerdings nicht immer: ist die Einheit Kapitän eines Schiffs und verwendet NACH, wird sie versuchen in diese Richtung zu segeln, auch wenn dort Festland ist. Kapitäne müssen ihr Schiff zuerst `VERLASSEN`, alle anderen Segler können sich aber mit `NACH` über Land bewegen und verlassen das Schiff dabei automatisch.
 

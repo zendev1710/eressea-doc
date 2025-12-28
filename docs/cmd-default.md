@@ -20,7 +20,7 @@ So you can't see all the default orders there.
 
 All [long orders] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.
-In addition, all [[comment-slashes]] and all orders beginning with `@` are adopted.
+In addition, all [[comment-withslashes|`//`]] and all orders beginning with `@` are adopted.
 The spelling may be standardized.
 
 Orders sent in:
@@ -176,7 +176,7 @@ Default orders for the week after next if no other orders are sent in for the un
 @GIVE 0 2 Silver
 ```
 
-Here too, the unit would not carry out a long command.
+Here too, the unit would not carry out a long order.
 
 !!! note
     There is a cap on the number of orders stored for a unit.
@@ -188,7 +188,8 @@ Player experience (Solthar):
 
 Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
 Well, something like `DEFAULT "DEFAULT 'LEARN Endurance'"` apparently works as you would expect, but the game management would rather not make any guarantees about it.
-Please do not submit bug reports if something like this doesn't work as expected. Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftools]] are better suited for such projects.
+Please do not submit bug reports if something like this doesn't work as expected.
+Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftools]] are better suited for such projects.
 
 ## See also
 

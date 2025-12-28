@@ -4,7 +4,7 @@ alias: bef-praefix
 ---
 # PRÄFIX
 
-**`PRÄFIX`**`[`*`präfix`*`]`
+**`PRÄFIX`**`[`*`präfix`*`]`  
 
 Mit dem `PRÄFIX`-Befehl kann den Rassenbezeichnungen der Einheiten seiner Partei im Report ein Präfix geben. Das Präfix hat keine weiteren Auswirkungen. Ohne Parameter löscht der Befehl ein bestehendes Präfix.
 

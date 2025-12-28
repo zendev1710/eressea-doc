@@ -69,9 +69,9 @@ On the side of **pentagram** 20 peoples + Igjarjuk + the monster faction fought:
 <!-- cspell:disable -->
 - Heer 37: Unbekannte Partei (=Monster) -- 38 Hirntöter
 - Heer 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
-- 
+
 <!-- cspell:enable -->
-The ones with (*) marked parties appear twice each.
+The ones with (*) marked factions appear twice each.
 
 ## External link
 

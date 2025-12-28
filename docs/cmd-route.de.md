@@ -4,7 +4,7 @@ alias: bef-route
 ---
 # ROUTE
 
-**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`
+**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
 Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl [[bef-nach]] durch die Welt von Eressea.
 

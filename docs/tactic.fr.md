@@ -13,30 +13,35 @@ Un tacticien qui [combat] au premier rang reçoit un bonus de +1 à sa compéten
 La compétence Tactics bénéficie également de quelques bonus raciaux qui dépendent du terrain :
 
 | Race   | Terrain           | Bonus/Malus |
-|--------|-------------------|-------------|
+|--------|-------------------|:-----------:|
 | Elf    | Forest            | +2          |
 | Dwarf  | Mountain, Glacier | +1          |
 | Insect | Swamps, Desert    | +1          |
-|        | Mountain, Glacier | \-1         |
+|        | Mountain, Glacier | -1          |
 
-Les insectes reçoivent également un bonus supplémentaire à la compétence Tactics lorsqu'ils apparaissent en masse. Un tacticien insecte reçoit un bonus de log10(nombre de combattants dans son armée)-1 pour la tactique. Cela peut aussi donner un malus si le nombre de combattants est très faible ! Important : seuls les combattants de l'armée comptent réellement. Il faut donc éviter de faire des groupes différents. Les troupes des alliés ne comptent pas.
+Les insectes reçoivent également un bonus supplémentaire à la compétence Tactics lorsqu'ils apparaissent en masse.
+Un tacticien insecte reçoit un bonus de log10(nombre de combattants dans son armée)-1 pour la tactique.
+Cela peut aussi donner un malus si le nombre de combattants est très faible !
 
-|                    |     |       |         |            |               |                 |     |
-|--------------------|-----|-------|---------|------------|---------------|-----------------|-----|
-| Number of fighters | 1-9 | 10-99 | 100-999 | 1000-9.999 | 10.000-99.999 | 100.000-999.999 | ... |
-| bonus              | \-1 | 0     | +1      | +2         | +3            | +4              | ... |
+Important : seuls les combattants de l'armée comptent réellement. Il faut donc éviter de faire des groupes différents. Les troupes des alliés ne comptent pas.
+
+| Nombre de combattants | 1-9 | 10-99 | 100-999 | 1000-9999 | 10000-99999 | 100000-999999 |
+|-----------------------|:---:|:-----:|:-------:|:---------:|:-----------:|:-------------:|
+| Bonus                 | -1  |   0   |   +1    |    +2     |     +3      |      +4       |
+| Bonus                 | -1  |   0   |   +1    |    +2     |     +3      |      +4       |
 
 ## Inspiration
 
-Afin d'introduire un peu "d'inspiration" et de chance, chaque tacticien reçoit un bonus aléatoire qui commence à 0 et peut devenir très important, avec une probabilité de plus en plus faible au fur et à mesure que le bonus augmente. Si une unité de tacticiens est composée de plusieurs personnes, le dé est lancé une fois pour chaque personne.
+Afin d'introduire un peu "d'inspiration" et de chance, chaque tacticien reçoit un bonus aléatoire qui commence à 0 et peut devenir très important, avec une probabilité de plus en plus faible au fur et à mesure que le bonus augmente.
+Si une unité de tacticiens est composée de plusieurs personnes, le dé est lancé une fois pour chaque personne.
 
-| Probability | Bonus | Other      |
-|-------------|-------|------------|
-| 40%         | +0    |            |
-| 30%         | +1    |            |
-| 20%         | +2    |            |
-| 7%          | +3    |            |
-| 3%          | +3    | roll again |
+| Probabilité | Bonus | Autre      |
+|------------:|:-----:|------------|
+|         40% |  +0   |            |
+|         30% |  +1   |            |
+|         20% |  +2   |            |
+|          7% |  +3   |            |
+|          3% |  +3   | roll again |
 
 Il en résulte, selon le nombre de tacticiens, les bonus d'inspiration moyens suivants :
 

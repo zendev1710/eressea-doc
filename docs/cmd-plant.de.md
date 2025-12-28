@@ -7,7 +7,7 @@ alias: bef-pflanze
 **`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] KRÄUTER`  
 **`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] BÄUME`  
 **`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] MALLORNSAMEN`  
-**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] SAMEN`
+**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] SAMEN`  
 
 Um in einer leer gepflückten oder verwüsteten Region wieder frisches Grün sprießen zu lassen oder die natürliche Baumvermehrung zu steuern, kann dieser Befehl verwendet werden.
 

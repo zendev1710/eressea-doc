@@ -143,8 +143,8 @@ Schusswaffen - Proben, Zeitaufwand und Treffer
 | Waffe                             | Talent            | Offensivbonus | Nachladen |
 |-----------------------------------|-------------------|---------------|-----------|
 | Armbrust / Mallornarmbrust        | Armbrustschießen  | 0             | 2         |
-| Katapult                          | Katapultbedienung | \-4           | 5         |
-| Bogen / Mallornbogen / Elfenbogen | Bogenschießen     | \-2           | 0         |
+| Katapult                          | Katapultbedienung | -4            | 5         |
+| Bogen / Mallornbogen / Elfenbogen | Bogenschießen     | -2            | 0         |
 
 Dabei ist unter Nachladen angegeben, wie lange es dauert, die Waffe wieder schussbereit zu machen. Ein Katapult kann also in jedem Kampf nur einmal eingesetzt werden. Eine Armbrust kann demnach jede dritte Runde schießen, Bögen sogar jede Runde.
 
@@ -299,15 +299,15 @@ Weiterlesen: [[allianz]].
 <!-- [Allianz]: ./alliances.md "Allianz"-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
-[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
-[`KÄMPFE`]: ./cmd-combat.md "KÄMPFE"
-[`HELFE KÄMPFE`]: ./cmd-help.md "HELFE"
-[bef-gruppe]: ./cmd-group.md "GRUPPE"
-[Taktiker]: ./tactic.md "Taktik"
-[Helden]: ./cmd-promote.md "BEFÖRDERUNG"
-[MACHE Katapultmunition]: ./cmd-make.md "MACHE"
-[bef-bewache]: ./cmd-guard.md "BEWACHE"
-[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md "PIRATERIE"
+[bef-attackiere]: ./cmd-attack.md
+[`KÄMPFE`]: ./cmd-combat.md
+[`HELFE KÄMPFE`]: ./cmd-help.md
+[bef-gruppe]: ./cmd-group.md
+[Taktiker]: ./tactic.md
+[Helden]: ./cmd-promote.md
+[MACHE Katapultmunition]: ./cmd-make.md
+[bef-bewache]: ./cmd-guard.md
+[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md
 
 [ohne Waffe]: #boni-und-mali
 [Taktikerrunde]: #die-taktikerrunde
@@ -317,8 +317,8 @@ Weiterlesen: [[allianz]].
 [Schaden]: ./ships.md#schiffsschaden
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen
 [Flucht]: ./war.md#die-flucht "Die Flucht"
-[Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
-[Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften "Kriegstabellen"
-[diese]: ./war-tables.md#ruestung "Kriegstabellen"
-[Magieresistenz]: ./war-tables.md#magieresistenz "Kriegstabellen"
-[diese Tabelle]: ./war-tables.md#ausdauer "Kriegstabellen"
+[Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften
+[Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften
+[diese]: ./war-tables.md#ruestung
+[Magieresistenz]: ./war-tables.md#magieresistenz
+[diese Tabelle]: ./war-tables.md#ausdauer

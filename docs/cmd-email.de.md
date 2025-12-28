@@ -4,7 +4,7 @@ alias: bef-email
 ---
 # EMAIL
 
-**`EMAIL`**`"`*`adresse@example.com`*`"`
+**`EMAIL`**`"`*`adresse@example.com`*`"`  
 
 Mit diesem Befehl setzt der Spieler seine eMail-Adresse, an die die Auswertung geschickt wird.
 

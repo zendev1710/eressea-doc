@@ -4,7 +4,7 @@ alias: bef-ursprung
 ---
 # URSPRUNG
 
-**`URSPRUNG`**` `*`x y`*
+**`URSPRUNG`**` `*`x y`*  
 
 Mit diesem Befehl kann eine Einheit das Koordinaten-System der Partei versetzen. Der Ursprung (0,0) wird an die angegebene Position des jetzigen Koordinatensystems gesetzt.
 

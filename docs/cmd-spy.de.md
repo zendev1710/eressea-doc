@@ -4,7 +4,7 @@ alias: bef-spioniere
 ---
 # SPIONIERE
 
-**`SPIONIERE`**[<sup>`L`</sup>]` `*`einheit-nr`*
+**`SPIONIERE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
 
 Mit Spionage kann man Einheiten einer anderen Partei ausspionieren. Dabei wird das Spionagetalent des Spions mit dem [Tarnungstalent] der Zieleinheit verglichen.
 

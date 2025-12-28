@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias:toad
+alias: toad
 ---
 # Toad
 

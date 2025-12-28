@@ -4,8 +4,9 @@ alias: cmd-banner-fr
 ---
 # BANNER
 
-This allows you to set a description that will appear in the address list of [[cmd-option]] `ADDRESS` appears.
-It can contain the player's name or an alternative email address for fellow players. It is also noted here if a [vacation replacement] plays.
+Cela vous permet de définir une description qui apparaîtra dans la liste d'adresses de l'[[cmd-option|`OPTION ADDRESS`]].
+Il peut contenir le nom du joueur ou une adresse e-mail alternative pour les autres joueurs.
+Il est également noté ici si un [remplacement de vacances] joue.
 
 **Example** :
 
@@ -15,4 +16,4 @@ BANNER "Henning Peters, Bremen. eMail also faroul@gmx.fr"
 
 <!-- From [https://wiki.eressea.de/index.php?title=BANNER&oldid=6357] -->
 
-[vacation replacement]: ./hints.md#triche
+[remplacement de vacances]: ./hints.md#triche

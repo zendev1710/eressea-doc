@@ -4,25 +4,25 @@ alias: cmd-comment-fr
 ---
 # Commentaire (;)
 
-The semicolon “;” is used in Eressea orders to mark (temporary) comments.
-Some of these comments are inserted "automatically".
-For example, the standard [[orders|orders template]] always contains the names of regions and units, the number of people and their silver supply as a comment.
-In addition, comments are also used to provide the [[echeck]] program with certain information, such as wages in a region.
+Le point-virgule « ; » est utilisé dans les commandes Eressea pour marquer les commentaires (temporaires).
+Certains de ces commentaires sont insérés « automatiquement ».
+Par exemple, le [[ordres|modèle d'ordres]] standard contient toujours les noms des régions et des unités, le nombre de personnes et leur réserve d'argent en guise de commentaire.
+De plus, les commentaires sont également utilisés pour fournir au programme [[echeck]] certaines informations, comme les salaires dans une région.
 
 ```text
-    ERESSEA abcd "Enter password here"
+    ERESSEA abcd "Entrez le mot de passe ici"
 
     ; ECHECK -l -w4 -r90 -v4.01
 
     REGION 85,-48 ; Darkland
-      ; ECheck Salary 15
+      ; ECheck Salaire 15
 
     UNIT ub2;    Handyman [3,30$]
         LEARN forestry
         // LEARN Shipbuilding AT T2 or T3
 ```
 
-If you use the [[vorlage]] program to create an orders template, a variety of information is transmitted to the player via these comments:
+Si vous utilisez le programme [[vorlage]] pour créer un modèle d'ordres, diverses informations sont transmises au joueur via ces commentaires :
 
 ```text
     REGION 85,-48 ; Darkland (Plain, 290 people, $4270 Silver)
@@ -39,25 +39,25 @@ If you use the [[vorlage]] program to create an orders template, a variety of in
     ; Material pool: 4270 Silver, 1 Speer
 
     ; -   -   -   -   -   -   -   -   -   -   -   -
-    ; In an open field:
+    ; Dans un champ ouvert:
 
-     UNIT ub2;  Handyman [3,0$] flieht
-     ; Weight: 60.00GE Walking: 32.40GE/32.40GE
-     ; Forestry 2
-       LEARN Forestry
-       // LEARN Forestry On T3
+    UNIT ub2;  Handyman [3,0$] flieht
+    ; Weight: 60.00GE Walking: 32.40GE/32.40GE
+    ; Forestry 2
+        LEARN Forestry
+        // LEARN Forestry On T3
 ```
 
-The player himself can also insert comments after a semicolon.
-However, since these comments are not included in next week's template, permanent comments after [[cmd-comment-slash|//]] usually make more sense.
+Le joueur lui-même peut également insérer des commentaires après un point-virgule.
+Cependant, comme ces commentaires ne sont pas inclus dans le modèle de la semaine suivante, les commentaires permanents après [[comment-with-slashes|`//`]] ont généralement plus de sens.
 
-To save transmission capacity, temporary comments can be removed before sending the orders.
-Some tools do this, like [[magellan]] or VPP.
+Pour économiser la capacité de transmission, les commentaires temporaires peuvent être supprimés avant l'envoi des ordres.
+Certains outils font cela, comme [[magellan]] ou VPP.
 
 ## Liens externes
 
-- [Vorlage and VPP on Gulrak.de]
+- [Vorlage et VPP sur Gulrak.de]
 
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
-[Vorlage and VPP on Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+[Vorlage et VPP sur Gulrak.de]: http://www.gulrak.de/eressea/tools.html

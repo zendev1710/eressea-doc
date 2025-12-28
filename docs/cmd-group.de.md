@@ -4,7 +4,7 @@ alias: bef-gruppe
 ---
 # GRUPPE
 
-**`GRUPPE`**`["`*`name`*`"]`
+**`GRUPPE`**`["`*`name`*`"]`  
 
 Mit dem Befehl `GRUPPE` kann man die Partei in Untergruppen zerteilen, die einen andere [[bef-helfe]]-Status haben als der Rest der Partei. Dadurch kann man z.B. ein Söldnerheer aufstellen, das auf der Insel des Auftragsgebers ihm hilft, während der Rest der Partei es nicht tut.
 

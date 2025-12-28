@@ -157,10 +157,10 @@ Catapults require ammunition. This can be produced from stones using [[cmd-make|
 Ranged weapons - bonuses and time
 
 | Weapon                        | Skill    | Offensive bonus | Reloading |
-|-------------------------------|----------|-----------------|-----------|
-| crossbow / mallorn crossbow   | crossbow | 0               | 2         |
-| catapult                      | catapult | \-4             | 5         |
-| bow / mallorn bow / elven bow | bow      | \-2             | 0         |
+|-------------------------------|----------|----------------:|-----------|
+| crossbow / mallorn crossbow   | crossbow |               0 | 2         |
+| catapult                      | catapult |              -4 | 5         |
+| bow / mallorn bow / elven bow | bow      |              -2 | 0         |
 
 The time it takes to get the weapon ready to fire again is indicated under reloading. A catapult can therefore only be used once in each battle. A crossbow can fire every third round, bows even every round.
 
@@ -299,18 +299,12 @@ The captain lies in wait for ships that end their movement in a neighboring regi
 
 There are a few things to bear in mind with the whole story:
 
-- Only parties with which you are not allied with `HELP FIGHT` are recognized as targets.
-
-- If party numbers are specified ([`PIRACY`*`<party number>`*`...`]), only captains of the specified parties are recognized as targets.
-
+- Only factions with which you are not allied with `HELP FIGHT` are recognized as targets.
+- If faction numbers are specified ([`PIRACY`*`<party number>`*`...`]), only captains of the specified factions are recognized as targets.
 - The mechanism also works when the pirate ship is on land. It therefore offers an effective means of coastal protection.
-
 - Pirates also sail into land regions, provided the ship can land there. If it cannot land, it takes damage.
-
 - Pirate captains are thick as thieves. They cannot assess whether a target is possibly superior to them and will happily sail a single ship into an enemy fleet of 100 vessels. Being a pirate has its risks.
-
 - If there are several potential targets to choose from, the captain will select one at random.
-
 - Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set [[cmd-help|`HELP COMBAT`]]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
 
 ## The End

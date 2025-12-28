@@ -12,15 +12,16 @@ The following table states how many stones per direction are needed. Furthermore
 
 Building Roads
 
-| Terrain      | Stones | Building       |
-|--------------|--------|----------------|
-| Plain/Forest | 50     | \-             |
-| Highland     | 100    | \-             |
-| Mountain     | 250    | \-             |
-| Volcano      | 250    | \-             |
-| Swamp        | 75     | [Dam]          |
-| Desert       | 100    | [Caravanserai] |
-| Glacier      | 250    | [Tunnel]       |
+| Terrain  | Stones | Building       |
+|----------|-------:|----------------|
+| Plain    |     50 | --             |
+| Forest   |     50 | --             |
+| Highland |    100 | --             |
+| Mountain |    250 | --             |
+| Volcano  |    250 | --             |
+| Swamp    |     75 | [Dam]          |
+| Desert   |    100 | [Caravanserai] |
+| Glacier  |    250 | [Tunnel]       |
 
 [Dam]: ./buildings-others.md#dam
 [Caravanserai]: ./buildings-others.md#caravanserai

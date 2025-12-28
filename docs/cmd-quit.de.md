@@ -4,7 +4,7 @@ alias: bef-stirb
 ---
 # STIRB
 
-**`STIRB`**`"Passwort"`
+**`STIRB`**`"Passwort"`  
 
 Dies bewirkt, dass die Partei sich auflöst und nicht mehr mitspielt. Zur Sicherheit muss das Passwort der Partei angeben werden. Auch dieser Befehl muss einer Einheit gegeben werden.
 

@@ -16,13 +16,13 @@ Parfois, il apporte même des cadeaux, laissant planer le doute sur ce qu'il con
 ## Cadeaux de Noël
 
 <!-- TODO: translate in french -->
-Here is a small overview of the Christmas presents from the last few years
+Voici un petit aperçu des cadeaux de Noël de ces dernières années
 
-- 1999 -- Apple, biscuit, nut or almond kernel
+- 1999 -- Pomme, biscuit, noix ou noyau d'amande
 - 2001 -- Un [[gui]]
-- 2002 -- Round 314 --a snowball or a [[bonhomme-de-neige]]
-- 2004 -- Round 407 --a [[voile-solaire]]
-- 2005 -- Round 454 --a vial of [[poussiere-d-etoile]]
-- 2006 -- Round 504 --a wonderfully decorated [[sapin-de-noel]]
+- 2002 -- Tour 314 -- une boule de neige ou un [[bonhomme-de-neige]]
+- 2004 -- Tour 407 -- une [[voile-solaire]]
+- 2005 -- Tour 454 -- un flacon de [[poussiere-d-etoile]]
+- 2006 -- Tour 504 -- un [[sapin-de-noel]] merveilleusement décoré
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachten&oldid=4853] -->

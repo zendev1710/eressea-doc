@@ -10,7 +10,7 @@ alias: bef-mache
 **`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`]`*`gebäudetyp`*`[`*`gebäude-nr`*`]`  
 **`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`]`*`schiffstyp`*  
 **`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`] SCHIFF [`*`schiff-nr`*`]`  
-**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*` `
+**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*` `  
 
 Der Befehl `MACHE` ist der allgemeine Produktionsbefehl. Mehr dazu auch im Kapitel [Produktion].
 

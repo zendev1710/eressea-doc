@@ -25,7 +25,7 @@ New lines after that `\` must not begin with spaces.
 DESCRIBE UNIT "Leaf-cutting ants don't need one\
 Sleep and its workers are always focused on maximum efficiency\
 t. Everything they do and think under their black cover refers to\
-hen it also das Kollektiv des Staates."
+It is therefore the collective of the state."
 ```
 
 It is currently not possible to insert paragraphs and breaks themselves into descriptions.

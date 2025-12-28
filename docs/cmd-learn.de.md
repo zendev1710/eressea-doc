@@ -5,7 +5,7 @@ alias: bef-lerne
 # LERNE
 
 **`LERNE`**[<sup>`L`</sup>]` `*`talent`*  
-**`LERNE`**[<sup>`L`</sup>]`Magie "`*`Magiegebiet`*`"`
+**`LERNE`**[<sup>`L`</sup>]`Magie "`*`Magiegebiet`*`"`  
 
 Mit diesem Befehl verbringt die Einheit eine Runde damit, das angegebene [Talent] zu [lernen] (siehe auch: [Liste der Talente]). Im Mittel dauert der Aufstieg in eine neue Talentstufe durch reines Lernen in etwa eine Anzahl von Wochen entsprechend der angepeilten Talentstufe ohne Berücksichtigung von Modifikationen durch Rasse oder Terrain. Um von Stufe 2 auf 3 zu kommen also etwa 3 Wochen. Normalerweise ist ein Talentwert von 2 doppelt so effektiv wie ein Talentwert von 1, ein Talentwert von 3 dreimal so effektiv und so weiter.
 

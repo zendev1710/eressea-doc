@@ -5,7 +5,7 @@ alias: bef-betrete
 # BETRETE
 
 **`BETRETE`**` BURG `*`gebäude-nr`*  
-**`BETRETE`**` SCHIFF `*`schiff-nr`*
+**`BETRETE`**` SCHIFF `*`schiff-nr`*  
 
 Betritt das angegebene [Gebäude] oder [Schiff]. Die Einheit mit dem [Kommando] über das Gebäude oder Schiff muss den Zutritt erlauben. Das tut sie, wenn sie zur eigenen Partei gehört, [[bef-helfe]] BEWACHE für die eigene Partei gesetzt hat oder in dieser Runde den [[bef-kontaktiere]] Befehl für die Einheit gibt. Anderenfalls wird der Zutritt verweigert.
 

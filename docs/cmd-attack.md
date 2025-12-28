@@ -4,9 +4,10 @@ alias: cmd-attack
 ---
 # ATTACK
 
-**`ATTACK`**[<sup>`(l)`</sup>]` `*`unit-id`*
+**`ATTACK`**[<sup>`(l)`</sup>]` `*`unit-id`*  
 
-This order attacks the affected unit in the current region. One order must be given for each unit to be attacked.
+This order attacks the affected unit in the current region.
+One order must be given for each unit to be attacked.
 
 [<sup>(L)</sup>][<sup>`(l)`</sup>] The `ATTACK` order is a pseudo-long order.
 It is short in the sense that are several `ATTACK` orders can be done.

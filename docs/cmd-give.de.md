@@ -16,7 +16,7 @@ alias: bef-gib
 **`GIB`**` `*`einheit-nr anzahl SCHIFF`*  
 **`GIB`**` 0 `*`anzahl gegenstand`*  
 **`GIB`**` 0 `*`anzahl`*`PERSONEN`  
-**`GIB`**` 0 `*`anzahl`*`SCHIFF`
+**`GIB`**` 0 `*`anzahl`*`SCHIFF`  
 
 Die Einheit übergibt Gegenstände, das Kommando über Schiffe oder Gebäude, Personen, Schiffe oder gar sich selbst an andere Einheiten.
 

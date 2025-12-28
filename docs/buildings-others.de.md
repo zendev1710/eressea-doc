@@ -18,21 +18,21 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Gebäude        | Baukosten |      |       |        | Talent | Unterhalt |            | Max.  | Kapazität   |
 |----------------|-----------|------|-------|--------|--------|-----------|------------|-------|-------------|
 |                | Stein     | Holz | Eisen | Silber |        | Silber    | Ressourcen |       |             |
-| [Leuchtturm]   | 2         | 1    | 1     | 100    | 3      | 100       | \-/-       | keins | 4 Einheiten |
-| [Bergwerk]     | 5         | 10   | 1     | 250    | 4      | 500       | \-/-       | keins | Größe       |
-| [Steinbruch]   | 1         | 5    | 1     | 250    | 2      | 250       | \-/-       | keins | Größe       |
-| [Sägewerk]     | 5         | 5    | 3     | 200    | 3      | 250       | \-/-       | keins | Größe       |
+| [Leuchtturm]   | 2         | 1    | 1     | 100    | 3      | 100       | --         | keins | 4 Einheiten |
+| [Bergwerk]     | 5         | 10   | 1     | 250    | 4      | 500       | --         | keins | Größe       |
+| [Steinbruch]   | 1         | 5    | 1     | 250    | 2      | 250       | --         | keins | Größe       |
+| [Sägewerk]     | 5         | 5    | 3     | 200    | 3      | 250       | --         | keins | Größe       |
 | [Schmiede]     | 5         | 5    | 2     | 200    | 3      | 300       | 1 Holz     | keins | Größe       |
-| [Pferdezucht]  | 2         | 4    | 1     | 100    | 2      | 150       | \-/-       | keins | Größe       |
-| [Hafen]        | 5         | 5    | \-/-  | 250    | 3      | 250       | \-/-       | 25    | Größe       |
+| [Pferdezucht]  | 2         | 4    | 1     | 100    | 2      | 150       | --         | keins | Größe       |
+| [Hafen]        | 5         | 5    | --    | 250    | 3      | 250       | --         | 25    | Größe       |
 | [Karawanserei] | 1         | 5    | 1     | 500    | 2      | 3000      | 2 Pferde   | 10    | Größe       |
-| [Akademie]     | 5         | 5    | 1     | 500    | 3      | 1000      | \-/-       | 25    | Größe       |
-| [Magierturm]\* | 5         | 3    | 3     | 500    | 5      | 1000      | \-/-       | 50    | 2 Personen  |
+| [Akademie]     | 5         | 5    | 1     | 500    | 3      | 1000      | --         | 25    | Größe       |
+| [Magierturm]\* | 5         | 3    | 3     | 500    | 5      | 1000      | --         | 50    | 2 Personen  |
 | [Damm]         | 5         | 10   | 1     | 500    | 4      | 1000      | 3 Holz     | 50    | Größe       |
 | [Tunnel]       | 10        | 5    | 1     | 300    | 6      | 100       | 2 Stein    | 100   | Größe       |
-| [Taverne]      | 4         | 3    | 1     | 200    | 2      | 5\*Größe  | \-/-       | keins | Größe       |
-| [Monument]     | 1         | 1    | 1     | 400    | 4      | \-/-      | \-/-       | keins | Größe       |
-| [Steinkreis]   | 5         | 5    | \-/-  | \-/-   | 2      | \-/-      | \-/-       | 100   | 3 Personen  |
+| [Taverne]      | 4         | 3    | 1     | 200    | 2      | 5\*Größe  | --         | keins | Größe       |
+| [Monument]     | 1         | 1    | 1     | 400    | 4      | --        | --         | keins | Größe       |
+| [Steinkreis]   | 5         | 5    | --    | --     | 2      | --        | --         | 100   | 3 Personen  |
 
 ## Leuchtturm
 
@@ -277,11 +277,22 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 Weiterlesen: [Parteipool].
 
-[Burgenbau]: ./castles.md "Burgen"
+[Wasser des Lebens]: ./alchemy.de.md
+[Burgenbau]: ./castles.de.md
+[BENUTZE 1 Wasser des Lebens]: ./cmd-use.de.md
+[ZÜCHTE]: ./cmd-grow.de.md
+[HELFE BEWACHE]: ./cmd-help.de.md
+[ZERSTÖRE]: ./cmd-destroy.de.md
+[Gebäude]: ./buildings.de.md
+[Burgen]: ./castles.de.md
+[Produktion]: ./production.de.md
+[Parteipool]: ./faction-pool.de.md
+[MACHE gebäudetyp]: ./cmd-make.de.md
+
+[Sägewerk]: ./#saegewerk
 [Leuchtturm]: #leuchtturm
 [Bergwerk]: #bergwerk
 [Steinbruch]: #steinbruch
-[Sägewerk]: #sägewerk
 [Schmiede]: #schmiede
 [Pferdezucht]: #pferdezucht
 [Hafen]: #hafen
@@ -293,15 +304,6 @@ Weiterlesen: [Parteipool].
 [Taverne]: #taverne
 [Monument]: #monument
 [Steinkreis]: #steinkreis
-[Wasser des Lebens]: ./alchemy.md "Tränke"
-[BENUTZE 1 Wasser des Lebens]: ./cmd-use.md "BENUTZE"
-[ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
-[HELFE BEWACHE]: ./cmd-help.md "HELFE"
-[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[Tabelle zu Burgen]: ./castles.md#uebersicht "Burgen"
-[gesegnet werden]: ./spells-descriptions.md#segne-steinkreis "Zauberbeschreibungen E2"
-[Gebäude]: ./buildings.md "Gebäude"
-[Burgen]: ./castles.md "Burgen"
-[Produktion]: ./production.md "Produktion"
-[Parteipool]: ./faction-pool.md "Parteipool"
-[MACHE gebäudetyp]: ./cmd-make.md "MACHE"
+
+[Tabelle zu Burgen]: ./castles.md#uebersicht
+[gesegnet werden]: ./spells-descriptions.md#segne-steinkreis

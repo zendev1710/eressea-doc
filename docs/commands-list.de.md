@@ -149,144 +149,144 @@ Kurzliste der Befehle
 | [ZERSTÖRE \[stufen\]] STRASSE richtung                      | Straße einreißen                                       | [L]     |
 | [ZÜCHTE PFERDE]                                             | Pferde züchten - nur in Pferdezucht                    | L       |
 
-[//]: ./cmd-comment-slash.md "KOMMENTAR"
-[K]: ./commands.md#kurzlang "Befehl"
-[bef-arbeite]: ./cmd-work.md "ARBEITE"
-[L]: ./commands.md#kurzlang "Befehl"
-[ATTACKIERE einheit-nr]: ./cmd-attack.md "ATTACKIERE"
-[(l)]: ./commands.md#kurzlang "Befehl"
-[BANNER "text"]: ./cmd-banner.md "BANNER"
-[BEANSPRUCHE anzahl gegenstand]: ./cmd-claim.md "BEANSPRUCHE"
-[BEFÖRDERE]: ./cmd-promote.md "BEFÖRDERE"
-[BEKLAUE einheit-nr]: ./camouflage.md "BEKLAUE"
-[BENENNE EINHEIT "name"]: ./cmd-name.md "BENENNE"
-[BENENNE PARTEI "name"]: ./cmd-name.md "BENENNE"
-[BENENNE GEBÄUDE "name"]: ./cmd-name.md "BENENNE"
-[BENENNE SCHIFF "name"]: ./cmd-name.md "BENENNE"
-[BENENNE REGION "name"]: ./cmd-name.md "BENENNE"
-[BENENNE FREMDE EINHEIT einheit "name"]: ./cmd-name.md "BENENNE"
-[BENENNE FREMDES SCHIFF schiff "name"]: ./cmd-name.md "BENENNE"
-[BENENNE FREMDES GEBÄUDE gebäude "name"]: ./cmd-name.md "BENENNE"
-[BENENNE FREMDE PARTEI partei "name"]: ./cmd-name.md "BENENNE"
-[BENUTZE \[anzahl\] trank]: ./cmd-use.md "BENUTZE"
-[BESCHREIBE EINHEIT "text"]: ./cmd-describe.md "BESCHREIBE"
-[BESCHREIBE PRIVAT "text"]: ./cmd-describe.md "BESCHREIBE"
-[BESCHREIBE GEBÄUDE "text"]: ./cmd-describe.md "BESCHREIBE"
-[BESCHREIBE SCHIFF "text"]: ./cmd-describe.md "BESCHREIBE"
-[BESCHREIBE REGION "text"]: ./cmd-describe.md "BESCHREIBE"
-[BETRETE GEBÄUDE gebäude-nr]: ./cmd-enter.md "BETRETE"
-[BETRETE SCHIFF schiff-nr]: ./cmd-enter.md "BETRETE"
-[BEWACHE \[NICHT\]]: ./cmd-guard.md "BEWACHE"
-[BEZAHLE NICHT \[gebäude-nr\]]: ./cmd-pay-not.md "BEZAHLE"
-[BOTSCHAFT REGION "text"]: ./cmd-message.md "BOTSCHAFT"
-[BOTSCHAFT SCHIFF schiff-nr "text"]: ./cmd-message.md "BOTSCHAFT"
-[BOTSCHAFT GEBÄUDE gebäude-nr "text"]: ./cmd-message.md "BOTSCHAFT"
-[BOTSCHAFT EINHEIT einh-nr "text"]: ./cmd-message.md "BOTSCHAFT"
-[BOTSCHAFT PARTEI partei-nr "text"]: ./cmd-message.md "BOTSCHAFT"
-[DEFAULT "befehl"]: ./cmd-default.md "DEFAULT"
-[EINHEIT einheit-nr]: ./cmd-unit.md "EINHEIT"
-[EMAIL email@adresse]: ./cmd-email.md "EMAIL"
-[bef-ende]: ./cmd-end.md "ENDE"
-[ERESSEA partei-nr "passwort"]: ./cmd-eressea.md "ERESSEA"
-[FAHRE einheit-nr]: ./cmd-ride.md "FAHRE"
-[FOLGE EINHEIT einheit-nr]: ./cmd-follow.md "FOLGE"
-[FOLGE SCHIFF schiff-nr]: ./cmd-follow.md "FOLGE"
-[FORSCHE KRÄUTER]: ./cmd-research.md "FORSCHE"
-[GIB einheit-nr KRÄUTER]: ./cmd-give.md "GIB"
-[GIB einheit-nr KOMMANDO]: ./cmd-give.md "GIB"
-[GIB einheit-nr EINHEIT]: ./cmd-give.md "GIB"
-[GIB einheit-nr \[JE\] anzahl PERSONEN]: ./cmd-give.md "GIB"
-[GIB einheit-nr \[JE\] anzahl SCHIFF]: ./cmd-give.md "GIB"
-[GIB einheit-nr \[JE\] anzahl SILBER]: ./cmd-give.md "GIB"
-[GIB einheit-nr \[JE\] anzahl gegenstand]: ./cmd-give.md "GIB"
-[GIB 0 anzahl SILBER]: ./cmd-give.md "GIB"
-[GIB 0 anzahl PERSONEN]: ./cmd-give.md "GIB"
-[GIB 0 anzahl gegenstand]: ./cmd-give.md "GIB"
-[GRUPPE \["name"\]]: ./cmd-group.md "GRUPPE"
-[HELFE partei-nr ALLES \[NICHT\]]: ./cmd-help.md "HELFE"
-[HELFE partei-nr GIB \[NICHT\]]: ./cmd-help.md "HELFE"
-[HELFE partei-nr KÄMPFE \[NICHT\]]: ./cmd-help.md "HELFE"
-[HELFE partei-nr BEWACHE \[NICHT\]]: ./cmd-help.md "HELFE"
-[HELFE partei-nr SILBER \[NICHT\]]: ./cmd-help.md "HELFE"
-[HELFE partei-nr PARTEITARNUNG \[NICHT\]]: ./cmd-help.md "HELFE"
-[KÄMPFE]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE AGGRESSIV]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE DEFENSIV]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE FLIEHE]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE HELFE \[NICHT\]]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE HINTEN]: ./cmd-combat.md "KÄMPFE"
-[KÄMPFE NICHT]: ./cmd-combat.md "KÄMPFE"
-[KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]]: ./cmd-combatspell.md "KAMPFZAUBER"
-[KAUFE anzahl luxusgut]: ./cmd-buy.md "KAUFE"
-[KONTAKTIERE einheit-nr]: ./cmd-contact.md "KONTAKTIERE"
-[LEHRE einheit-nr \[einheit-nr etc.\]]: ./cmd-teach.md "LEHRE"
-[LERNE talent]: ./cmd-learn.md "LERNE"
-[LERNE AUTO talent]: ./cmd-learn-auto.md "LERNE AUTO"
-[LOCALE en/de]: ./cmd-locale.md "LOCALE"
-[MACHE TEMP unit-alias-nr \["name"\]]: ./cmd-make.md "MACHE"
-[MACHE \[stufe\] gebäude-typ \[gebäude-nr\]]: ./cmd-make.md "MACHE"
-[MACHE \[stufe\] schiffstyp]: ./cmd-make.md "MACHE"
-[MACHE \[stufe\] SCHIFF \[schiff-nr\]]: ./cmd-make.md "MACHE"
-[bef-mache]: ./cmd-make.md "MACHE"
-[MACHE \[stufe\] STRASSE richtung]: ./cmd-make.md "MACHE"
-[MACHE \[anzahl\] KRÄUTER]: ./cmd-make.md "MACHE"
-[MACHE \[anzahl\] trank]: ./cmd-make.md "MACHE"
-[MACHE \[anzahl\] gegenstand]: ./cmd-make.md "MACHE"
-[NACH richtung \[richtung etc.\]]: ./cmd-move.md "NACH"
-[NÄCHSTER]: ./cmd-next.md "NÄCHSTER"
-[NUMMER EINHEIT \[neue\_nr\]]: ./cmd-number.md "NUMMER"
-[NUMMER GEBÄUDE \[neue\_nr\]]: ./cmd-number.md "NUMMER"
-[NUMMER PARTEI \[neue\_nr\]]: ./cmd-number.md "NUMMER"
-[NUMMER SCHIFF \[neue\_nr\]]: ./cmd-number.md "NUMMER"
-[OPTION AUSWERTUNG \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION COMPUTER \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION ZIPPED \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION BZIP2 \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION SILBERPOOL \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION MATERIALPOOL \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION ADRESSEN \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION ZUGVORLAGE \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION STATISTIK \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION TALENTVERSCHIEBUNG \[NICHT\]]: ./cmd-option.md "OPTION"
-[OPTION PUNKTE \[NICHT\]]: ./cmd-option.md "OPTION"
-[PASSWORT "neues-passwort"]: ./cmd-password.md "PASSWORT"
-[PFLANZE \[anzahl\] KRÄUTER]: ./cmd-plant.md "PFLANZE"
-[PFLANZE \[anzahl\] BÄUME]: ./cmd-plant.md "PFLANZE"
-[PFLANZE \[anzahl\] MALLORNSAMEN]: ./cmd-plant.md "PFLANZE"
-[PFLANZE \[anzahl\] SAMEN]: ./cmd-plant.md "PFLANZE"
-[PIRATERIE \[partei\_1\] \[partei\_2\] \[...\]]: ./cmd-piracy.md "PIRATERIE"
-[PRÄFIX \[präfix\]]: ./cmd-prefix.md "PRÄFIX"
-[REGION x,y]: ./cmd-region.md "REGION"
-[REKRUTIERE anzahl]: ./silver.md#recruiting "REKRUTIERE"
-[RESERVIERE anzahl "gegenstand"]: ./cmd-reserve.md "RESERVIERE"
-[RESERVIERE anzahl SILBER]: ./cmd-reserve.md "RESERVIERE"
-[ROUTE richtung \[richtung etc.\]]: ./cmd-route.md "ROUTE"
-[SORTIERE VOR einheit-nr]: ./cmd-sort.md "SORTIERE"
-[SORTIERE HINTER einheit-nr]: ./cmd-sort.md "SORTIERE"
-[SPIONIERE einheit-nr]: ./cmd-spy.md "SPIONIERE"
-[SPRACHE en/de]: ./cmd-language.md "SPRACHE"
-[STIRB "passwort" \[PARTEI partei-nr\]]: ./cmd-quit.md "STIRB"
-[TARNE \[stufe\]]: ./cmd-hide.md "TARNE"
-[TARNE rasse]: ./cmd-hide.md "TARNE"
-[TARNE PARTEI \[NICHT\]]: ./cmd-hide.md "TARNE"
-[TARNE PARTEI NUMMER nummer]: ./cmd-hide.md "TARNE"
-[TRANSPORTIERE einheit-nr]: ./cmd-carry.md "TRANSPORTIERE"
-[TREIBE \[betrag\]]: ./cmd-tax.md "TREIBE"
-[UNTERHALTE \[betrag\]]: ./cmd-entertain.md "UNTERHALTE"
-[URSPRUNG x y]: ./cmd-origin.md "URSPRUNG"
-[VERGISS talent]: ./cmd-forget.md "VERGISS"
-[VERKAUFE anzahl luxusgut]: ./cmd-sell.md "VERKAUFE"
-[VERKAUFE ALLES luxusgut]: ./cmd-sell.md "VERKAUFE"
-[bef-verlasse]: ./cmd-leave.md "VERLASSE"
-[ZAUBERE \[REGION x y\] \[STUFE n\] "zauberspruch" \[...\]]: ./cmd-cast.md "ZAUBERE"
-[ZEIGE ALLE ZAUBER]: ./cmd-show.md "ZEIGE"
-[ZEIGE ALLE TRÄNKE]: ./cmd-show.md "ZEIGE"
-[ZEIGE "Gegenstand"]: ./cmd-show.md "ZEIGE"
-[ZEIGE "Trank"]: ./cmd-show.md "ZEIGE"
-[ZEIGE "Zauberspruch"]: ./cmd-show.md "ZEIGE"
-[ZEIGE "Rasse"]: ./cmd-show.md "ZEIGE"
-[ZERSTÖRE \[stufen\]]: ./cmd-destroy.md "ZERSTÖRE"
-[ZÜCHTE PFERDE]: ./cmd-grow.md "ZÜCHTE"
+[//]: ./cmd-comment-slash.md
+[K]: ./commands.md#kurzlang
+[bef-arbeite]: ./cmd-work.md
+[L]: ./commands.md#kurzlang
+[ATTACKIERE einheit-nr]: ./cmd-attack.md
+[(l)]: ./commands.md#kurzlang
+[BANNER "text"]: ./cmd-banner.md
+[BEANSPRUCHE anzahl gegenstand]: ./cmd-claim.md
+[BEFÖRDERE]: ./cmd-promote.md
+[BEKLAUE einheit-nr]: ./camouflage.md
+[BENENNE EINHEIT "name"]: ./cmd-name.md
+[BENENNE PARTEI "name"]: ./cmd-name.md
+[BENENNE GEBÄUDE "name"]: ./cmd-name.md
+[BENENNE SCHIFF "name"]: ./cmd-name.md
+[BENENNE REGION "name"]: ./cmd-name.md
+[BENENNE FREMDE EINHEIT einheit "name"]: ./cmd-name.md
+[BENENNE FREMDES SCHIFF schiff "name"]: ./cmd-name.md
+[BENENNE FREMDES GEBÄUDE gebäude "name"]: ./cmd-name.md
+[BENENNE FREMDE PARTEI partei "name"]: ./cmd-name.md
+[BENUTZE \[anzahl\] trank]: ./cmd-use.md
+[BESCHREIBE EINHEIT "text"]: ./cmd-describe.md
+[BESCHREIBE PRIVAT "text"]: ./cmd-describe.md
+[BESCHREIBE GEBÄUDE "text"]: ./cmd-describe.md
+[BESCHREIBE SCHIFF "text"]: ./cmd-describe.md
+[BESCHREIBE REGION "text"]: ./cmd-describe.md
+[BETRETE GEBÄUDE gebäude-nr]: ./cmd-enter.md
+[BETRETE SCHIFF schiff-nr]: ./cmd-enter.md
+[BEWACHE \[NICHT\]]: ./cmd-guard.md
+[BEZAHLE NICHT \[gebäude-nr\]]: ./cmd-pay-not.md
+[BOTSCHAFT REGION "text"]: ./cmd-message.md
+[BOTSCHAFT SCHIFF schiff-nr "text"]: ./cmd-message.md
+[BOTSCHAFT GEBÄUDE gebäude-nr "text"]: ./cmd-message.md
+[BOTSCHAFT EINHEIT einh-nr "text"]: ./cmd-message.md
+[BOTSCHAFT PARTEI partei-nr "text"]: ./cmd-message.md
+[DEFAULT "befehl"]: ./cmd-default.md
+[EINHEIT einheit-nr]: ./cmd-unit.md
+[EMAIL email@adresse]: ./cmd-email.md
+[bef-ende]: ./cmd-end.md
+[ERESSEA partei-nr "passwort"]: ./cmd-eressea.md
+[FAHRE einheit-nr]: ./cmd-ride.md
+[FOLGE EINHEIT einheit-nr]: ./cmd-follow.md
+[FOLGE SCHIFF schiff-nr]: ./cmd-follow.md
+[FORSCHE KRÄUTER]: ./cmd-research.md
+[GIB einheit-nr KRÄUTER]: ./cmd-give.md
+[GIB einheit-nr KOMMANDO]: ./cmd-give.md
+[GIB einheit-nr EINHEIT]: ./cmd-give.md
+[GIB einheit-nr \[JE\] anzahl PERSONEN]: ./cmd-give.md
+[GIB einheit-nr \[JE\] anzahl SCHIFF]: ./cmd-give.md
+[GIB einheit-nr \[JE\] anzahl SILBER]: ./cmd-give.md
+[GIB einheit-nr \[JE\] anzahl gegenstand]: ./cmd-give.md
+[GIB 0 anzahl SILBER]: ./cmd-give.md
+[GIB 0 anzahl PERSONEN]: ./cmd-give.md
+[GIB 0 anzahl gegenstand]: ./cmd-give.md
+[GRUPPE \["name"\]]: ./cmd-group.md
+[HELFE partei-nr ALLES \[NICHT\]]: ./cmd-help.md
+[HELFE partei-nr GIB \[NICHT\]]: ./cmd-help.md
+[HELFE partei-nr KÄMPFE \[NICHT\]]: ./cmd-help.md
+[HELFE partei-nr BEWACHE \[NICHT\]]: ./cmd-help.md
+[HELFE partei-nr SILBER \[NICHT\]]: ./cmd-help.md
+[HELFE partei-nr PARTEITARNUNG \[NICHT\]]: ./cmd-help.md
+[KÄMPFE]: ./cmd-combat.md
+[KÄMPFE AGGRESSIV]: ./cmd-combat.md
+[KÄMPFE DEFENSIV]: ./cmd-combat.md
+[KÄMPFE FLIEHE]: ./cmd-combat.md
+[KÄMPFE HELFE \[NICHT\]]: ./cmd-combat.md
+[KÄMPFE HINTEN]: ./cmd-combat.md
+[KÄMPFE NICHT]: ./cmd-combat.md
+[KAMPFZAUBER \[STUFE n\] "zauberspruch" \[NICHT\]]: ./cmd-combatspell.md
+[KAUFE anzahl luxusgut]: ./cmd-buy.md
+[KONTAKTIERE einheit-nr]: ./cmd-contact.md
+[LEHRE einheit-nr \[einheit-nr etc.\]]: ./cmd-teach.md
+[LERNE talent]: ./cmd-learn.md
+[LERNE AUTO talent]: ./cmd-learn-auto.md
+[LOCALE en/de]: ./cmd-locale.md
+[MACHE TEMP unit-alias-nr \["name"\]]: ./cmd-make.md
+[MACHE \[stufe\] gebäude-typ \[gebäude-nr\]]: ./cmd-make.md
+[MACHE \[stufe\] schiffstyp]: ./cmd-make.md
+[MACHE \[stufe\] SCHIFF \[schiff-nr\]]: ./cmd-make.md
+[bef-mache]: ./cmd-make.md
+[MACHE \[stufe\] STRASSE richtung]: ./cmd-make.md
+[MACHE \[anzahl\] KRÄUTER]: ./cmd-make.md
+[MACHE \[anzahl\] trank]: ./cmd-make.md
+[MACHE \[anzahl\] gegenstand]: ./cmd-make.md
+[NACH richtung \[richtung etc.\]]: ./cmd-move.md
+[NÄCHSTER]: ./cmd-next.md
+[NUMMER EINHEIT \[neue\_nr\]]: ./cmd-number.md
+[NUMMER GEBÄUDE \[neue\_nr\]]: ./cmd-number.md
+[NUMMER PARTEI \[neue\_nr\]]: ./cmd-number.md
+[NUMMER SCHIFF \[neue\_nr\]]: ./cmd-number.md
+[OPTION AUSWERTUNG \[NICHT\]]: ./cmd-option.md
+[OPTION COMPUTER \[NICHT\]]: ./cmd-option.md
+[OPTION ZIPPED \[NICHT\]]: ./cmd-option.md
+[OPTION BZIP2 \[NICHT\]]: ./cmd-option.md
+[OPTION SILBERPOOL \[NICHT\]]: ./cmd-option.md
+[OPTION MATERIALPOOL \[NICHT\]]: ./cmd-option.md
+[OPTION ADRESSEN \[NICHT\]]: ./cmd-option.md
+[OPTION ZUGVORLAGE \[NICHT\]]: ./cmd-option.md
+[OPTION STATISTIK \[NICHT\]]: ./cmd-option.md
+[OPTION TALENTVERSCHIEBUNG \[NICHT\]]: ./cmd-option.md
+[OPTION PUNKTE \[NICHT\]]: ./cmd-option.md
+[PASSWORT "neues-passwort"]: ./cmd-password.md
+[PFLANZE \[anzahl\] KRÄUTER]: ./cmd-plant.md
+[PFLANZE \[anzahl\] BÄUME]: ./cmd-plant.md
+[PFLANZE \[anzahl\] MALLORNSAMEN]: ./cmd-plant.md
+[PFLANZE \[anzahl\] SAMEN]: ./cmd-plant.md
+[PIRATERIE \[partei\_1\] \[partei\_2\] \[...\]]: ./cmd-piracy.md
+[PRÄFIX \[präfix\]]: ./cmd-prefix.md
+[REGION x,y]: ./cmd-region.md
+[REKRUTIERE anzahl]: ./silver.md#recruiting
+[RESERVIERE anzahl "gegenstand"]: ./cmd-reserve.md
+[RESERVIERE anzahl SILBER]: ./cmd-reserve.md
+[ROUTE richtung \[richtung etc.\]]: ./cmd-route.md
+[SORTIERE VOR einheit-nr]: ./cmd-sort.md
+[SORTIERE HINTER einheit-nr]: ./cmd-sort.md
+[SPIONIERE einheit-nr]: ./cmd-spy.md
+[SPRACHE en/de]: ./cmd-language.md
+[STIRB "passwort" \[PARTEI partei-nr\]]: ./cmd-quit.md
+[TARNE \[stufe\]]: ./cmd-hide.md
+[TARNE rasse]: ./cmd-hide.md
+[TARNE PARTEI \[NICHT\]]: ./cmd-hide.md
+[TARNE PARTEI NUMMER nummer]: ./cmd-hide.md
+[TRANSPORTIERE einheit-nr]: ./cmd-carry.md
+[TREIBE \[betrag\]]: ./cmd-tax.md
+[UNTERHALTE \[betrag\]]: ./cmd-entertain.md
+[URSPRUNG x y]: ./cmd-origin.md
+[VERGISS talent]: ./cmd-forget.md
+[VERKAUFE anzahl luxusgut]: ./cmd-sell.md
+[VERKAUFE ALLES luxusgut]: ./cmd-sell.md
+[bef-verlasse]: ./cmd-leave.md
+[ZAUBERE \[REGION x y\] \[STUFE n\] "zauberspruch" \[...\]]: ./cmd-cast.md
+[ZEIGE ALLE ZAUBER]: ./cmd-show.md
+[ZEIGE ALLE TRÄNKE]: ./cmd-show.md
+[ZEIGE "Gegenstand"]: ./cmd-show.md
+[ZEIGE "Trank"]: ./cmd-show.md
+[ZEIGE "Zauberspruch"]: ./cmd-show.md
+[ZEIGE "Rasse"]: ./cmd-show.md
+[ZERSTÖRE \[stufen\]]: ./cmd-destroy.md
+[ZÜCHTE PFERDE]: ./cmd-grow.md
 
 <sup>1</sup> der Befehl ist nicht immer lang, siehe [Kampfende]  
 <sup>2</sup> bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  
@@ -304,8 +304,8 @@ Weiterlesen: [Der erste Zug].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
-[Befehl]: ./commands.md "Befehl"
-[<sup>(l)</sup>]: ./commands.md#kurzlang "Befehl"
-[Kampfende]: ./war.md#kampfende "Kampfende"
-[Befehle]: ./commands.md "Befehle"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Befehl]: ./commands.md
+[<sup>(l)</sup>]: ./commands.md#kurzlang
+[Kampfende]: ./war.md#kampfende
+[Befehle]: ./commands.md
+[Befehlsreihenfolge]: ./commands-sequence.md

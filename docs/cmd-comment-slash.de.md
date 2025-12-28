@@ -1,8 +1,8 @@
 ---
 # cSpell:locale de
-alias: bef-kommentar-slash
+alias: kommentar-mit-schraegstrichen
 ---
-# KOMMENTAR
+# KOMMENTAR (//)
 
 **`//`**` `*`Kommentar`*
 

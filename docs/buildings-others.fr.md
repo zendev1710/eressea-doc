@@ -24,23 +24,23 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
-| Bâtiment            | Pierres | Bois | Fers | Pièces | Niv. | Pièces     | Ressource | Taille Max.     | Capacité    |
-|---------------------|---------|------|------|--------|------|------------|-----------|-----------------|-------------|
-| [Phare]             | 2       | 1    | 1    | 100    | 3    | 100        | \-\-      | *pas de limite* | 4 personnes |
-| [Mine]              | 5       | 10   | 1    | 250    | 4    | 500        | \-\-      | *pas de limite* | taille      |
-| [Carrière]          | 1       | 5    | 1    | 250    | 2    | 250        | \-\-      | *pas de limite* | taille      |
-| [Scierie]           | 5       | 5    | 3    | 200    | 3    | 250        | \-\-      | *pas de limite* | taille      |
-| [Forge]             | 5       | 5    | 2    | 200    | 3    | 300        | 1 bois    | *pas de limite* | taille      |
-| [Haras]             | 2       | 4    | 1    | 100    | 2    | 150        | \-\-      | *pas de limite* | taille      |
-| [Port]              | 5       | 5    | \-\- | 250    | 3    | 250        | \-\-      | 25              | taille      |
-| [Caravanserail]     | 1       | 5    | 1    | 500    | 2    | 3000       | 2 chevaux | 10              | taille      |
-| [Académie]          | 5       | 5    | 1    | 500    | 3    | 1000       | \-\-      | 25              | taille      |
-| [Tour de mage]\*    | 5       | 3    | 3    | 500    | 5    | 1000       | \-\-      | 50              | 2 personnes |
-| [Barrage]           | 5       | 10   | 1    | 500    | 4    | 1000       | 3 bois    | 50              | taille      |
-| [Tunnel]            | 10      | 5    | 1    | 300    | 6    | 100        | 2 pierres | 100             | taille      |
-| [Auberge]           | 4       | 3    | 1    | 200    | 2    | 5 X taille | \-\-      | *pas de limite* | taille      |
-| [Monument]          | 1       | 1    | 1    | 400    | 4    | \-\-       | \-\-      | *pas de limite* | taille      |
-| [Cercle de Pierres] | 5       | 5    | \-\- | \-\-   | 2    | \-\-       | \-\-      | 100             | 3 personnes |
+| Bâtiment            | Pierres | Bois | Fers | Pièces | Niv. |     Pièces | Ressource |     Taille Max. |    Capacité |
+|---------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|----------------:|------------:|
+| [Phare]             |       2 |    1 |    1 |    100 |    3 |        100 | --        | *pas de limite* | 4 personnes |
+| [Mine]              |       5 |   10 |    1 |    250 |    4 |        500 | --        | *pas de limite* |      taille |
+| [Carrière]          |       1 |    5 |    1 |    250 |    2 |        250 | --        | *pas de limite* |      taille |
+| [Scierie]           |       5 |    5 |    3 |    200 |    3 |        250 | --        | *pas de limite* |      taille |
+| [Forge]             |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    | *pas de limite* |      taille |
+| [Haras]             |       2 |    4 |    1 |    100 |    2 |        150 | --        | *pas de limite* |      taille |
+| [Port]              |       5 |    5 |   -- |    250 |    3 |        250 | --        |              25 |      taille |
+| [Caravanserail]     |       1 |    5 |    1 |    500 |    2 |       3000 | 2 chevaux |              10 |      taille |
+| [Académie]          |       5 |    5 |    1 |    500 |    3 |       1000 | --        |              25 |      taille |
+| [Tour de mage]\*    |       5 |    3 |    3 |    500 |    5 |       1000 | --        |              50 | 2 personnes |
+| [Barrage]           |       5 |   10 |    1 |    500 |    4 |       1000 | 3 bois    |              50 |      taille |
+| [Tunnel]            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |             100 |      taille |
+| [Auberge]           |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        | *pas de limite* |      taille |
+| [Monument]          |       1 |    1 |    1 |    400 |    4 |         -- | --        | *pas de limite* |      taille |
+| [Cercle de Pierres] |       5 |    5 |   -- |     -- |    2 |         -- | --        |             100 | 3 personnes |
 
 \*: également 2 mallorns et 2 laens par point de taille
 
@@ -299,7 +299,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 |---------------------------|-------------------------------------|
 | Coûts par point de taille | 1 pierre, 1 bois, 1 fer, 400 pièces |
 | Niveau requis             | 4                                   |
-| Maintenance par tour      | \-\-                                |
+| Maintenance par tour      | --                                |
 | Taille maximale           | *pas de limite*                     |
 | Capacité                  | 1 person per 1 taille               |
 
@@ -315,7 +315,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 | Coûts par point de taille | 5 pierres, 5 bois     |
 | Coût total                | 500 pierres, 500 bois |
 | Niveau requis             | 2                     |
-| Maintenance par tour      | \-\-                  |
+| Maintenance par tour      | --                  |
 | Taille maximale           | 100                   |
 | Capacité                  | 3 personnes           |
 

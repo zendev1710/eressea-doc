@@ -4,7 +4,7 @@ alias: bef-kommentar
 ---
 # KOMMENTAR (;)
 
-Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [ECheck] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
+Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[[befehl|Zugvorlage]] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [[echeck]] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
 
     ```
     ERESSEA abcd "hier_passwort_eintragen"
@@ -19,7 +19,7 @@ Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Komment
     // LERNEN Schiffbau AUF T2 oder 3
     ```
 
-Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
+Verwendet man das Programm [[vorlage]] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
 
     ```
     REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silber)
@@ -45,9 +45,9 @@ Verwendet man das Programm [`Vorlage`] zur Erzeugung einer Zugvorlage, so werden
         // LERNEN Holzfällen AUF T3
     ```
 
-Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen. Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [//] in der Regel sinnvoller.
+Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen. Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [[comment-with-slashes|`//`]] in der Regel sinnvoller.
 
-Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden. Dies erledigen manche Tools wie \[\[Magellan\] oder VPP.
+Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden. Dies erledigen manche Tools wie [[magellan]] oder VPP.
 
 ## Externe Links
 
@@ -55,8 +55,4 @@ Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Vers
 
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
-  [Zugvorlage]: ./commands.md "Befehl"
-  [ECheck]: ./echeck.md "ECheck"
-  [`Vorlage`]: ./vorlage.md "Vorlage"
-  [//]: ./cmd-comment-slash.md "KOMMENTAR"
-  [Vorlage und VPP auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+[Vorlage und VPP auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html

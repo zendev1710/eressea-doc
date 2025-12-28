@@ -8,7 +8,7 @@ alias: bef-botschaft
 **`BOTSCHAFT`**` PARTEI `*`partei-nr`*`"`*`text`*`"`  
 **`BOTSCHAFT`**` SCHIFF `*`schiff-nr`*`"`*`text`*`"`  
 **`BOTSCHAFT`**` GEBÄUDE `*`gebäude-nr`*`"`*`text`*`"`  
-**`BOTSCHAFT`**`REGION "`*`text`*`"`
+**`BOTSCHAFT`**`REGION "`*`text`*`"`  
 
 Hiermit können Botschaften an andere Einheiten, an andere Parteien, oder an alle Parteien in einer Region geschickt werden. Absender und Empfänger müssen in der selben Region sein. Schickt man eine Botschaft an eine Einheit, dann wird die Botschaft anonymisiert, wenn der Empfänger die absendende Einheit nicht sehen kann.
 

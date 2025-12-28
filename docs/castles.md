@@ -58,7 +58,7 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 
 | Type          | Lvl | Wage bonus | Trade share | Def. bonus |
 |---------------|----:|-----------:|------------:|-----------:|
-| Foundation    |   1 |   0 silver |          \- |          0 |
+| Foundation    |   1 |   0 silver |          -- |          0 |
 | Tradepost     |   1 |   0 silver |          6% |          0 |
 | Fortification |   2 |   1 silver |         12% |         +1 |
 | Tower         |   3 |  2 silvers |         18% |         +2 |

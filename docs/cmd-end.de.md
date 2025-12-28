@@ -4,7 +4,7 @@ alias: bef-ende
 ---
 # ENDE
 
-**`ENDE`**
+**`ENDE`**  
 
 Dieser Befehl beendet die Eingabe der Befehle für eine temporäre Einheit, die mit [`MACHE TEMP`] erschaffen wurde.
 

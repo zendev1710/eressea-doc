@@ -4,7 +4,7 @@ alias: bef-züchte
 ---
 # ZÜCHTE
 
-**`ZÜCHTE`**[<sup>`L`</sup>]`PFERDE`
+**`ZÜCHTE`**[<sup>`L`</sup>]`PFERDE`  
 
 **`ZÜCHTE`** ist ein langer Befehl, mit dem Einheiten in einer [Pferdezucht] Pferde züchten oder versuchen, in einer Region neue Kräuter zu pflanzen.
 

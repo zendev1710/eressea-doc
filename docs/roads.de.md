@@ -12,15 +12,16 @@ Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Au
 
 Straßenbau
 
-| Gelände      | Steine | Gebäude        |
-|--------------|--------|----------------|
-| Ebene / Wald | 50     | \-             |
-| Hochland     | 100    | \-             |
-| Gebirge      | 250    | \-             |
-| Vulkan       | 250    |                |
-| Sumpf        | 75     | [Damm]         |
-| Wüste        | 100    | [Karawanserei] |
-| Gletscher    | 250    | [Tunnel]       |
+| Gelände   | Steine | Gebäude        |
+|-----------|--------|----------------|
+| Ebene     | 50     | --             |
+| Wald      | 50     | --             |
+| Hochland  | 100    | --             |
+| Gebirge   | 250    | --             |
+| Vulkan    | 250    |                |
+| Sumpf     | 75     | [Damm]         |
+| Wüste     | 100    | [Karawanserei] |
+| Gletscher | 250    | [Tunnel]       |
 
 [Damm]: ./buildings-others.md#damm "Andere Gebäude"
 [Karawanserei]: ./buildings-others.md#karawanserei "Andere Gebäude"
@@ -38,8 +39,8 @@ Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (
 
 Weiterlesen: [Schiff].
 
-[Schiff]: ./ships.md "Schiff"
+[Schiff]: ./ships.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße&oldid=15933] -->
 
-[Gebäude]: ./buildings-others.md "Andere Gebäude"
+[Gebäude]: ./buildings-others.md

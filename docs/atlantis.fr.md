@@ -4,49 +4,49 @@ alias: atlantis-fr
 ---
 # Atlantis
 
- **Atlantis** is the forefather of Eressea.
+Atlantide **est l'ancêtre d'Eressea.**
 
-## Projects
+## Projets
 
-- [Atlantis 4 and 5]
-- [Atlantis 1 to 3]
+- [Atlantis 4 et 5]
+- [Atlantis 1 à 3]
 
-## Active Atlantis games
+## Jeux Atlantis actifs
 
-- [Arnos Atlantis] - Atlantis 4.0.10k, since April 2004
+- [Arnos Atlantis] -Atlantis 4.0.10k, depuis avril 2004
 - [Fantasya]
-- [Enno's Atlantis, codename Atlas]
+- [Atlantide d'Enno, nom de code Atlas]
 
-## Former games
+## Jeux anciens
 
-- [Vinyambar (KDM)] -Variant based on Eressea
-- [German Atlantis (GA)]
+- [Vinyambar (KDM)] -Variante basée sur Eressea
+- [Atlantis allemand (GA)]
 - [Rorqual]
-- [Empiria] - Variant based on Eressea
+- [Empiria] - Variante basée sur Eressea
 - [Sitanleta]
-- [Allanon] - based on GA
-- [Menouthis] - New development in Java, from the makers of Allanon. Start May 2008
+- [Allanon] - basé sur GA
+- [Menouthis] -Nouveau développement en Java, par les créateurs d'Allanon. Début mai 2008
 
-## External links
+## Liens externes
 
 - [Wikipedia]
-- [Atlantis Developer Mailing List]
-- [An Atlantis fansite]
+- [Liste de diffusion des développeurs Atlantis]
+- [Un fansite d'Atlantis]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Atlantis&oldid=8200] -->
 
-[Atlantis 4 and 5]: http://www.atlantis-pbem.org/
-[Atlantis 1 to 3]: http://www.prankster.com/project/
+[Atlantis 4 et 5]: http://www.atlantis-pbem.org/
+[Atlantis 1 à 3]: http://www.prankster.com/project/
 [Arnos Atlantis]: http://arno-saxena.de/atlantis/atl_home.php
 [Fantasya]: http://www.fantasya-pbem.de/
-[Enno's Atlantis, Codename Atlas]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=3743
+[Atlantide d'Enno, nom de code Atlas]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=3743
 [Vinyambar (KDM)]: https://web.archive.org/web/20070209192651/http://vinyambar.de/rules.shtml#kdm
-[German Atlantis (GA)]: https://web.archive.org/web/20181117203743/http://www.german-atlantis.de/page.php
+[Atlantis allemand (GA)]: https://web.archive.org/web/20181117203743/http://www.german-atlantis.de/page.php
 [Rorqual]: https://web.archive.org/web/20080117202437/http://www.rorqual.de:80/
 [Empiria]: https://web.archive.org/web/20070515194011/http://www.ciao.de/Empiria_PBeM__412684
 [Sitanleta]: https://www.sitanleta.de/
 [Allanon]: https://web.archive.org/web/20101227183824/http://www.allanon-pbem.de:80/
 [Menouthis]: https://web.archive.org/web/20090512163943/http://www.menouthis.net:80/
 [Wikipedia]: http://en.wikipedia.org/wiki/Atlantis_PbeM
-[Atlantis Developer Mailing list]: http://groups.yahoo.com/group/atlantisdev/
-[An Atlantis fansite]: https://web.archive.org/web/20160304124244/http://home.arcor.de/sinn/links.html
+[Liste de diffusion des développeurs Atlantis]: http://groups.yahoo.com/group/atlantisdev/
+[Un fansite d'Atlantis]: https://web.archive.org/web/20160304124244/http://home.arcor.de/sinn/links.html

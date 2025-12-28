@@ -5,16 +5,16 @@ alias: coquillage
 # Coquillage
 
 <!-- TODO: translate in french -->
-Shell Plateau was founded as an ambassadorial region of the "Council of Podina" in the north of the 10th world.
-Later, when the "Alliance of the Islands" was formed, the members stipulated that this region would also be the ambassador region of the AdI.
+Le plateau des Coquillages a été fondé en tant que région ambassadrice du « Conseil de Podina » au nord du 10ème Monde.
+Plus tard, lors de la constitution de "l'Alliance des Îles", les membres ont stipulé que cette région serait également la région ambassadrice de l'AdI.
 
-The peoples of the AdI, especially the Talinster and Woda'narod, collected ambassadors from different peoples on their travels and brought them to Shell Plateau.
-Over time, ambassadors from many peoples reached the region independently.
-At the best of times, around 60 (or more) peoples had their representatives in this region.
+Les peuples de l'AdI, en particulier les Talinster et les Woda'narod, rassemblaient des ambassadeurs de différents peuples au cours de leurs voyages et les amenaient sur le plateau des Coquillages.
+Au fil du temps, des ambassadeurs de nombreux peuples sont arrivés dans la région de manière indépendante.
+Dans le meilleur des cas, environ 60 peuples (ou plus) avaient leurs représentants dans cette région.
 
-The gods created the shell (week 453, last week of the month of Sunfire in the year 10 of the Second Age,*December 11, 2005*), which is given to every nation that enters the Shell Plateau ambassador region for the first time.
+Les dieux créèrent le Coquillage (semaine 453, dernière semaine du mois du Feu Solaire en l'an 10 du Deuxième Âge,*11 décembre 2005*), qui est décerné à chaque nation qui entre pour la première fois dans la région des ambassadeurs du Plateau Des Coquillages.
 
-The shell weighs 0 kg in a person's material inventory.
-When used, a region report is generated in which the user reports to the region's residents of Muschelplateau and how many weeks ago he was there for the first time.
+La coque pèse 0 kg dans l'inventaire matériel d'une personne.
+Lorsqu'il est utilisé, un rapport régional est généré dans lequel l'utilisateur rend compte des habitants de la région du plateau des Coquillages et du nombre de semaines écoulées depuis qu'il s'y trouvait pour la première fois.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Muschel&oldid=7360] -->

@@ -4,7 +4,7 @@ alias: bef-option
 ---
 # OPTION
 
-**`OPTION`**` `*`option`*`[NICHT]`
+**`OPTION`**` `*`option`*`[NICHT]`  
 
 Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswertung genau aussieht.
 

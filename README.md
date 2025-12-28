@@ -211,7 +211,6 @@ Legend:
 
 ## Useful links
 
-- 
 [;]: https://wiki.eressea.de/; ";"
 [ARBEITE]: https://wiki.eressea.de/ARBEITE "ARBEITE"
 [ATTACKIERE]: https://wiki.eressea.de/ATTACKIERE "ATTACKIERE"

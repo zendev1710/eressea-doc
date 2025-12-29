@@ -35,7 +35,7 @@ Such questions are independent of the tool used. Of course, links to (tool-speci
 
 ### Script collections
 
-- [Script collection] for [[template]] on the template homepage
+- [Script collection] for [[vorlage]] on the Vorlage homepage
 
 ### Recurring questions
 

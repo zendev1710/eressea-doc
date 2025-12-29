@@ -159,6 +159,10 @@ alias: zauberliste
 |    |    | 16 |    |    | [Wurzeln der Magie]                             | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim | Fernzauber                |
 |    |    |    |    | 11 | [Zeitdehnung]                                   | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 Aura \* Stufe                                          | Schiffszauber             |
 
+Weiterlesen: [[alchemie|Tränke]].
+
+<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
+
 [Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwaechezone
 [Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang
 [Astraler Riss]: ./spells-descriptions.md#astraler-riss
@@ -307,9 +311,3 @@ alias: zauberliste
 [Wunderdoktor]: ./spells-descriptions.md#wunderdoktor
 [Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
 [Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
-
-Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
-
-Weiterlesen: [[alchemie|Tränke]].
-
-<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->

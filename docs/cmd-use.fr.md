@@ -14,9 +14,9 @@ You can use a potion multiple times to extend the effects to more than 10 people
 For Dumpfbackenbrot, the duration is limited to 10 weeks per person.
 
 There are other items other than potions that can be used.
-These include [Antimagic Crystals] and some faction items ([[christmas]]).
+These include [Antimagic Crystal] and some faction items ([[christmas]]).
 These can have additional parameters, which are specified in the item description ([[cmd-show]]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
 
-[Antimagic Crystals]: ./spells-descriptions.md#create-an-antimagic-crystalantimagic-crystal
+[Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystal

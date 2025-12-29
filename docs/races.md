@@ -149,7 +149,7 @@ Continue reading: [Racial skill modifiers].
 [dragons]: ./monsters.md#dragons
 [alchemists]: ./skills-list.md
 [potion]: ./alchemy.md
-[combat table]: ./war-tables.md#rasseneigenschaften
+[combat table]: ./war-tables.md#races-and-their-characteristics
 [tactics]: ./tactic.md
 [groups]: ./cmd-group.md
 [trade]: ./silver.md#trade

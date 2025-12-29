@@ -70,7 +70,7 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.
 
-[[magic]], [alchimie], [herboristerie][alchimie], [espionnage][alchimie] et [[tactics]] sont particulièrement difficiles et coûteuses.
+[[magic]], [alchemy], [herbalism], [espionage] et [[tactics]] sont particulièrement difficiles et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [[magic|ce tableau]]).
@@ -132,7 +132,7 @@ alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft
 
 Il s'agit du plus grand groupe de compétences.
 Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [[production]] et [[alchimie]].
+Elles sont expliquées plus en détail dans les chapitres [[production]] et [[alchemy|alchemy]].
 
 ### Skills for making money
 
@@ -157,12 +157,13 @@ riding est également abordé dans le chapitre des [[war-tables|combats]].
 
 Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
 
-Continue reading: [[skills list]].
+Continue reading: [[skills-list]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
-[alchimie]: ./skills-list.md#alchemy
+[alchemy]: ./skills-list.md#alchemy
 [espionage]: ./skills-list.md#espionage
+[herbalism]: ./skills-list.md#herbalism
 [academy]: ./buildings-others.md#academy
 [académie]: ./buildings-others.md#academy
 [nain]: ./races.md#dwarves

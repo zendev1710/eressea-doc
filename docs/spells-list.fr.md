@@ -6,318 +6,308 @@ alias: liste-des-sorts
 
 ## Tous les sorts
 
-**Légende :** **C** [Cerddor], **D** [Draig], **G** [Gwyrrd], **I** [Illaun], **T** [Tybied]
+**Légende:** **C** [[sorts-cerddor|Cerddor]], **D** [[sorts-draig|Draig]], **G** [[sorts-gwyrrd|Gwyrrd]], **I** [[sorts-illaun|Illaun]], **T** [[sorts-tybied|Tybied]]  
 
-| C  | D  | G  | I  | T  | Name                                            | Kurzbeschreibung                                                                                                                                                                                                       | Art             | Rang | Komponenten                                              | Modifikationen            |
-|----|----|----|----|----|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------|----------------------------------------------------------|---------------------------|
-|    |    |    |    | 5  | [Astrale Schwächezone]                          | Mit diesem Zauber kann der Magier eine Zone der astralen Schwächung erzeugen, ein lokales Ungleichgewicht im Astralen Feld.                                                                                            | Normaler Zauber | 2    | 3 Aura \* Stufe                                          | Fernzauber                |
-|    |    |    |    | 4  | [Astraler Ausgang]                              | Der Magier konzentriert sich auf die Struktur der Realität und kann so die astrale Ebene verlassen.                                                                                                                    | Normaler Zauber | 7    | 2 Aura \* Stufe                                          |                           |
-|    | 9  |    |    |    | [Astraler Riss]                                 | Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der Magie bewirken, der alle magische Kraft aus der Region reißen wird.                                                                      | Normaler Zauber | 3    | 35 Aura, 1 Drachenblut                                   |                           |
-|    |    |    |    | 6  | [Astraler Ruf]                                  | Ein Magier, der sich in der astralen Ebene befindet, kann mit Hilfe dieses Zaubers andere Einheiten zu sich holen.                                                                                                     | Normaler Zauber | 7    | 2 Aura \* Stufe                                          |                           |
-|    |    |    |    | 4  | [Astraler Weg]                                  | Alte arkane Formeln ermöglichen es dem Magier, sich und andere in die astrale Ebene zu schicken.                                                                                                                       | Normaler Zauber | 7    | 2 Aura \* Stufe                                          |                           |
-|    | 9  |    |    |    | [Astrales Chaos]                                | Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken.                                                | Präkampfzauber  | 2    | 6 Aura \* Stufe                                          |                           |
-|    |    | 5  |    |    | [Astralschutzgeister]                           | Dieses Ritual beschwört einige Elementargeister der Magie und schickt sie in die Reihen der feindlichen Magier.                                                                                                        | Präkampfzauber  | 2    | 5 Aura \* Stufe                                          |                           |
-| 15 |    |    |    |    | [Aufruhr beschwichtigen]                        | Mit Hilfe dieses magischen Gesangs kann der Magier eine Region in Aufruhr wieder beruhigen.                                                                                                                            | Normaler Zauber | 5    | 30 Aura                                                  | Fernzauber                |
-| 16 |    |    |    |    | [Aufruhr verursachen]                           | Mit Hilfe dieses magischen Gesangs versetzt der Magier eine ganze Region in Aufruhr.                                                                                                                                   | Normaler Zauber | 5    | 40 Aura                                                  | Fernzauber                |
-|    |    |    |    | 5  | [Auratransfer]                                  | Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen.             | Normaler Zauber | 1    | 1 Aura                                                   | Schiffszauber             |
-| 7  |    |    |    |    | [Aushorchen]                                    | Erliegt die Einheit dem Zauber, so wird sie dem Magier alles erzählen, was sie über die gefragte Region weiß.                                                                                                          | Normaler Zauber | 5    | 4 Aura, 100 Silber                                       |                           |
-| 5  |    |    |    |    | [Bannlied]                                      | Dieser schrille Gesang hallt über das ganze Schlachtfeld.                                                                                                                                                              | Präkampfzauber  | 2    | 5 Aura \* Stufe                                          |                           |
-|    |    |    |    | 13 | [Belebtes Gestein]                              | Dieses kräftezehrende Ritual beschwört mit Hilfe einer Kugel aus konzentriertem Laen einen gewaltigen Erdelementar und bannt ihn in ein Gebäude.                                                                       | Normaler Zauber | 5    | 10 Aura \* Stufe, 1 permanente Aura, 5 Laen              |                           |
-|    |    | 3  |    |    | [Bergwächter]                                   | Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELP GUARD) verhindert, solange er die Region bewacht.                                               | Normaler Zauber | 5    | 3 Aura \* Stufe                                          | Fernzauber                |
-|    |    |    |    | 9  | [Beschleunigung]                                | Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können.                                                                | Präkampfzauber  | 5    | 5 Aura \* Stufe                                          |                           |
-|    | 8  |    |    |    | [Beschwöre Schattendämonen]                     | Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der Schatten.                                                                                                                                  | Normaler Zauber | 5    | 3 Aura \* Stufe                                          |                           |
-|    | 12 |    |    |    | [Beschwöre Schattenmeister]                     | Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der Schatten.                                                                                                                                  | Normaler Zauber | 5    | 7 Aura \* Stufe                                          |                           |
-|    |    |    |    | 3  | [Beute Bewahren]                                | Dieser Zauber verhindert, dass ein Teil der sonst im Kampf zerstörten Gegenstände beschädigt wird.                                                                                                                     | Postkampfzauber | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    | 8  |    |    | [Blick des Basilisken]                          | Dieser schwierige, aber effektive Kampfzauber benutzt die Elementargeister des Steins, um eine Reihe von Gegnern für die Dauer des Kampfes in Stein zu verwandeln.                                                     | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    |    |    | 10 | [Blick in die Realität]                         | Der Magier kann mit Hilfe dieses Zaubers aus der Astral- in die materielle Ebene blicken und die Regionen und Einheiten genau erkennen.                                                                                | Normaler Zauber | 5    | 40 Aura                                                  |                           |
-|    | 5  |    |    |    | [Blutrausch]                                    | In diesem blutigen Ritual opfert der Magier vor der Schlacht ein Neugeborenes vor den Augen seiner Armee.                                                                                                              | Präkampfzauber  | 4    | 5 Aura \* Stufe, 1 Bauer                                 |                           |
-|    | 5  |    |    |    | [Chaosfluch]                                    | Dieser heimtückische Fluch beeinträchtigt die magischen Fähigkeiten des Opfers erheblich.                                                                                                                              | Normaler Zauber | 4    | 4 Aura \* Stufe                                          |                           |
-|    | 14 |    |    |    | [Chaossog]                                      | Durch das Opfern von 200 Bauern kann der Chaosmagier ein Tor zur astralen Welt öffnen.                                                                                                                                 | Normaler Zauber | 5    | 150 Aura, 200 Bauern                                     |                           |
-|    | 11 |    |    |    | [Drachenruf]                                    | Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für Drachen einfach unwiderstehlich riecht.                                                                                                              | Normaler Zauber | 5    | 80 Aura, 1 Drachenkopf                                   | Fernzauber                |
-|    |    | 6  |    |    | [Erdelementar]                                  | Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.                                                                                                  | Normaler Zauber | 5    | 25 Aura, 2 Laen                                          | Fernzauber                |
-|    |    |    |    | 7  | [Erschaffe Antimagiekristall]                   | Mit Hilfe dieses Zauber entzieht der Magier einem Quarzkristall all seine magischen Energien.                                                                                                                          | Normaler Zauber | 5    | 50 Aura, 3000 Silber                                     | Schiffszauber             |
-|    |    | 2  |    |    | [Erschaffe Eisengolems]                         | Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden.                                                                                                                                       | Normaler Zauber | 4    | 2 Aura \* Stufe, 1 Eisen \* Stufe, 1 Wasser des Lebens   |                           |
-|    |    | 1  |    |    | [Erschaffe Steingolems]                         | Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde.                                                             | Normaler Zauber | 4    | 2 Aura \* Stufe, 1 Stein \* Stufe, 1 Wasser des Lebens   |                           |
-| 6  | 6  | 6  | 6  | 6  | [Erschaffe ein Amulett des wahren Sehens]       | Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.                                                                                                                                    | Normaler Zauber | 5    | 50 Aura, 3000 Silber, 1 permanente Aura                  | Schiffszauber             |
-|    | 12 |    |    |    | [Erschaffe ein Flammenschwert]                  | 'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.                                                                                                   | Normaler Zauber | 5    | 100 Aura, 1 Berserkerblut, 1 Schwert, 1 permanente Aura  | Schiffszauber             |
-|    |    |    | 14 |    | [Erschaffe ein Traumauge]                       | Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen.                                         | Normaler Zauber | 5    | 1 Drachenkopf, 5 permanente Aura                         | Schiffszauber             |
-|    |    |    | 13 |    | [Erschaffe eine Sphäre der Unsichtbarkeit]      | Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.                                                                                                                                         | Normaler Zauber | 5    | 150 Aura, 30000 Silber, 3 permanente Aura                | Schiffszauber             |
-|    |    |    |    | 10 | [Erschaffe einen Beutel des Negativen Gewichts] | Dieser Beutel umschließt eine kleine Dimensionsfalte, in der bis zu 200 Gewichtseinheiten transportiert werden können, ohne dass sie auf das Traggewicht angerechnet werden.                                           | Normaler Zauber | 5    | 30 Aura, 1 permanente Aura, 5000 Silber                  | Schiffszauber             |
-|    | 9  |    |    |    | [Erschaffe einen Gürtel der Trollstärke]        | Dieses magische Artefakt verleiht dem Träger die Stärke eines ausgewachsenen Höhlentrolls.                                                                                                                             | Normaler Zauber | 5    | 20 Aura, 1 permanente Aura                               | Schiffszauber             |
-|    |    |    |    | 9  | [Erschaffe einen Ring der Macht]                | Dieses mächtige Ritual erschafft einen Ring der Macht.                                                                                                                                                                 | Normaler Zauber | 5    | 100 Aura, 1 permanente Aura, 4000 Silber                 | Schiffszauber             |
-| 6  | 6  | 6  | 6  | 6  | [Erschaffe einen Ring der Unsichtbarkeit]       | Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen.                                                                                                                                          | Normaler Zauber | 5    | 50 Aura, 3000 Silber, 1 permanente Aura                  | Schiffszauber             |
-|    |    | 5  |    |    | [Erschaffe einen magischen Kräuterbeutel]       | Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.         | Normaler Zauber | 5    | 30 Aura, 1 permanente Aura, 1 Wasser des Lebens          | Schiffszauber             |
-|    |    | 10 |    |    | [Erwecke Ents]                                  | Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf.                                                                                                | Normaler Zauber | 5    | 6 Aura \* Stufe                                          |                           |
-|    | 2  |    |    |    | [Feuerball]                                     | Der Zauberer schleudert fokussiertes Chaos in die Reihen der Gegner.                                                                                                                                                   | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-|    | 10 |    |    |    | [Feuerteufel]                                   | Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen.                                                                                                    | Normaler Zauber | 5    | 50 Aura, 1 Öl                                            | Fernzauber                |
-|    | 7  |    |    |    | [Feuerwand]                                     | Der Zauberer erschafft eine Wand aus Feuer in der angegebenen Richtung.                                                                                                                                                | Normaler Zauber | 4    | 6 Aura \* Stufe                                          |                           |
-| 3  | 3  | 3  | 3  | 3  | [Firuns Fell]                                   | Dieser Zauber ermöglicht es dem Magier Insekten auf magische Weise vor der lähmenden Kälte der Gletscher zu bewahren.                                                                                                  | Normaler Zauber | 5    | 2 Aura \* Stufe                                          | Schiffszauber             |
-|    |    |    |    | 7  | [Fluch brechen]                                 | Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.                                                                      | Normaler Zauber | 3    | 3 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    | 7  |    |    |    | [Fluch der Pestilenz]                           | In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region.                                                                         | Normaler Zauber | 5    | 30 Aura, 50 Bauern                                       | Fernzauber                |
-| 1  |    |    |    |    | [Friedenslied]                                  | Dieses Lied zähmt selbst den wildesten Ork und macht ihn friedfertig und sanftmütig.                                                                                                                                   | Präkampfzauber  | 5    | 2 Aura                                                   |                           |
-|    | 3  |    |    |    | [Gabe des Chaos]                                | Der Magier öffnet seinen Geist den Sphären des Chaos und wird so für einige Zeit über mehr magische Kraft verfügen.                                                                                                    | Normaler Zauber | 3    | 6 Aura                                                   | Schiffszauber             |
-| 1  |    |    |    |    | [Gaukeleien]                                    | Cerddormagier sind die führenden Gaukler unter den Magiern, sie lieben es das Volk zu unterhalten und im Mittelpunkt zu stehen.                                                                                        | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    | 8  |    |    | [Geister bannen]                                | Wie die alten Lehren der Druiden berichten, besteht das, was die normalen Wesen Magie nennen, aus Elementargeistern.                                                                                                   | Normaler Zauber | 2    | 6 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-| 8  |    |    |    |    | [Gesang der Angst]                              | Dieser Kriegsgesang sät Panik in der Front der Gegner und schwächt so ihre Kampfkraft erheblich.                                                                                                                       | Präkampfzauber  | 5    | 5 Aura \* Stufe                                          |                           |
-| 12 |    |    |    |    | [Gesang der Friedfertigkeit]                    | Dieser mächtige Bann verhindert jegliche Attacken.                                                                                                                                                                     | Normaler Zauber | 5    | 20 Aura \* Stufe                                         |                           |
-| 3  |    |    |    |    | [Gesang der Furcht]                             | Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt.                                                                              | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-| 11 |    |    |    |    | [Gesang der Melancholie]                        | Mit diesem Gesang verbreitet der Barde eine melancholische, traurige Stimmung unter den Bauern.                                                                                                                        | Normaler Zauber | 5    | 40 Aura                                                  | Fernzauber                |
-| 13 |    |    |    |    | [Gesang der Versklavung]                        | Dieser mächtige Bann raubt dem Opfer seinen freien Willen und unterwirft es den Befehlen des Barden.                                                                                                                   | Normaler Zauber | 5    | 40 Aura                                                  |                           |
-| 4  |    |    |    |    | [Gesang der Verwirrung]                         | Aus den uralten Gesängen der Katzen entstammt dieses magisches Lied, welches vor einem Kampfe eingesetzt, einem entscheidende strategische Vorteile bringen kann.                                                      | Präkampfzauber  | 5    | 2 Aura \* Stufe                                          |                           |
-| 5  |    |    |    |    | [Gesang des Auratransfers]                      | Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.                                                                                 | Normaler Zauber | 1    | 2 Aura                                                   | Schiffszauber             |
-| 5  |    |    |    |    | [Gesang des Lebens analysieren]                 | Alle lebenden Wesen haben ein eigenes individuelles Lebenslied.                                                                                                                                                        | Normaler Zauber | 5    | 10 Aura                                                  | Schiffszauber             |
-| 4  |    |    |    |    | [Gesang des Werbens]                            | Aus 'Die Gesänge der Alten' von Firudin dem Weisen: 'Diese verführerische kleine Melodie und einige einschmeichelnde Worte überwinden das Misstrauen der Bauern im Nu.                                                 | Normaler Zauber | 5    | 2 Aura \* Stufe                                          |                           |
-| 12 |    |    |    |    | [Gesang des schwachen Geistes]                  | Dieses Lied, das in die magische Essenz der Region gewoben wird, schwächt die natürliche Widerstandskraft gegen eine Verzauberung einmalig um 15%.                                                                     | Normaler Zauber | 2    | 2 Aura \* Stufe                                          | Fernzauber                |
-| 10 |    |    |    |    | [Gesang des wachen Geistes]                     | Dieses magische Lied wird, einmal mit Inbrunst gesungen, sich in der Region fortpflanzen, von Mund zu Mund springen und eine Zeitlang überall zu vernehmen sein.                                                       | Normaler Zauber | 2    | 2 Aura \* Stufe                                          | Fernzauber                |
-|    |    |    | 3  |    | [Gestaltwandlung]                               | Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern.                                                                                                                 | Normaler Zauber | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    |    | 2  |    | [Grauen der Schlacht]                           | Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die viele Gegner in Panik versetzen.                                                                                                         | Präkampfzauber  | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    | 3  |    |    | [Hagel]                                         | Im Kampf ruft der Magier die Elementargeister der Kälte an und bindet sie an sich.                                                                                                                                     | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    | 2  |    |    | [Hainzauber]                                    | Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.                                                                                                                              | Normaler Zauber | 5    | 4 Aura \* Stufe, 1 Holz \* Stufe, 1 Wasser des Lebens    | Fernzauber                |
-|    |    | 9  |    |    | [Heiliger Boden]                                | Dieses Ritual beschwört verschiedene Naturgeister in den Boden der Region, welche diese fortan bewachen.                                                                                                               | Normaler Zauber | 5    | 80 Aura, 3 permanente Aura                               |                           |
-|    |    | 5  |    |    | [Heilung]                                       | Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen.                                                                                                                                                    | Postkampfzauber | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    | 7  |    |    | [Heimstein]                                     | Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern der Burg, in der er sich gerade befindet.                                                                                               | Normaler Zauber | 5    | 50 Aura, 1 permanente Aura                               |                           |
-| 5  |    |    |    |    | [Heldengesang]                                  | Dieser alte Schlachtengesang hebt die Moral der eigenen Truppen und und hilft ihnen auch der angsteinflößenden Aura dämonischer und untoter Wesen zu widerstehen.                                                      | Präkampfzauber  | 4    | 2 Aura \* Stufe                                          |                           |
-|    |    | 13 |    |    | [Hitzeelementar]                                | Dieses Ritual beschwört wütende Elementargeister der Hitze.                                                                                                                                                            | Normaler Zauber | 5    | 600 Aura                                                 | Fernzauber                |
-| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]                    | Aus 'Wanderungen' von Firudin dem Weisen: 'In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist.                                                                                | Normaler Zauber | 5    | 20 Aura \* Stufe                                         |                           |
-| 2  |    |    |    |    | [Hohes Lied der Gaukelei]                       | Dieser fröhliche Gesang wird sich wie ein Gerücht in der Region ausbreiten und alle Welt in Feierlaune versetzen.                                                                                                      | Normaler Zauber | 5    | 2 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    | 1  |    |    |    | [Kleine Flüche]                                 | In den dunkleren Gassen gibt es sie, die Flüche und Verhexungen auf Bestellung.                                                                                                                                        | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    | 4  |    |    |    | [Kleines Blutopfer]                             | Mit diesem Ritual kann der Magier einen Teil seiner Lebensenergie opfern, um dafür an magischer Kraft zu gewinnen.                                                                                                     | Normaler Zauber | 1    | 16 Trefferpunkte                                         | Schiffszauber             |
-| 7  |    |    |    |    | [Kriegsgesang]                                  | Wie viele magischen Gesänge, so entstammt auch dieser den altem Wissen der Katzen, die schon immer um die machtvolle Wirkung der Stimme wussten.                                                                       | Präkampfzauber  | 4    | 5 Aura \* Stufe                                          |                           |
-| 8  |    |    |    |    | [Lebenslied festigen]                           | Jede Verzauberung beeinflußt das Lebenslied, schwächt und verzerrt es.                                                                                                                                                 | Normaler Zauber | 2    | 5 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-| 2  |    |    |    |    | [Lied der Heilung]                              | Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen.                                                                                                                                                    | Postkampfzauber | 5    | 1 Aura \* Stufe                                          |                           |
-| 6  |    |    |    |    | [Lied der Verführung]                           | Mit diesem Lied kann eine Einheit derartig betört werden, so dass sie dem Barden den größten Teil ihres Bargelds und ihres Besitzes schenkt.                                                                           | Normaler Zauber | 5    | 12 Aura                                                  |                           |
-| 8  |    |    |    |    | [Lied des Ortes analysieren]                    | Wie Lebewesen, so haben auch Schiffe und Gebäude und sogar Regionen ihr eigenes Lied, wenn auch viel schwächer und schwerer zu hören.                                                                                  | Normaler Zauber | 5    | 3 Aura \* Stufe                                          | Schiffszauber             |
-|    |    |    |    | 6  | [Luftschiff]                                    | Diese magischen Runen bringen ein Boot oder ein Langboot für eine Woche zum Fliegen.                                                                                                                                   | Normaler Zauber | 5    | 10 Aura, 1 Windbeutel, 1 Schneekristall                  | Schiffszauber             |
-|    | 7  |    |    |    | [Machtübertragung]                              | Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.                                                                                 | Normaler Zauber | 1    | 2 Aura                                                   | Schiffszauber             |
-|    |    |    |    | 1  | [Magie analysieren]                             | Mit diesem Spruch kann der Magier versuchen, die Verzauberungen eines einzelnen angegebenen Objekts zu erkennen.                                                                                                       | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    |    |    | 5  | [Magiefresser]                                  | Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.                                                                                           | Normaler Zauber | 2    | 4 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    |    | 4  |    |    | [Magischer Pfad]                                | Durch Ausführung dieser Rituale ist der Magier in der Lage einen mächtigen Erdelementar zu beschwören.                                                                                                                 | Normaler Zauber | 5    | 1 Aura \* Stufe, 1 Stein, 1 Holz                         | Fernzauber, Schiffszauber |
-|    |    | 15 |    |    | [Mahlstrom]                                     | Dieses Ritual beschört einen großen Wasserelementar aus den Tiefen des Ozeans.                                                                                                                                         | Normaler Zauber | 5    | 200 Aura, 1 Seeschlangenkopf                             | Seezauber, Schiffszauber  |
-|    |    |    |    | 7  | [Mauern der Ewigkeit]                           | Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern des Gebäudes.                                                                                                                           | Normaler Zauber | 5    | 50 Aura, 1 permanente Aura                               | Schiffszauber             |
-|    |    | 6  |    |    | [Meditation]                                    | Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.                                                                                 | Normaler Zauber | 1    | 2 Aura                                                   | Schiffszauber             |
-| 11 |    |    |    |    | [Miriams flinke Finger]                         | Die berühmte Bardin Miriam bhean'Meddaf war bekannt für ihr außergewöhnliches Geschick mit der Harfe.                                                                                                                  | Normaler Zauber | 5    | 20 Aura, 1000 Silber, 1 permanente Aura                  | Schiffszauber             |
-| 10 |    |    |    |    | [Mob aufwiegeln]                                | Mit Hilfe dieses magischen Gesangs überzeugt der Magier die Bauern der Region, sich ihm anzuschließen.                                                                                                                 | Normaler Zauber | 5    | 4 Aura \* Stufe                                          |                           |
-| 6  |    |    |    |    | [Monster friedlich stimmen]                     | Dieser einschmeichelnde Gesang kann fast jedes intelligente Monster zähmen.                                                                                                                                            | Normaler Zauber | 5    | 15 Aura                                                  | Schiffszauber             |
-|    | 6  |    |    |    | [Mächte des Todes]                              | Nächtelang muss der Schwarzmagier durch die Friedhöfe und Gräberfelder der Region ziehen um dann die ausgegrabenen Leichen beleben zu können.                                                                          | Normaler Zauber | 5    | 5 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    |    |    |    | 15 | [Opfere Kraft]                                  | Mit Hilfe dieses Zaubers kann der Magier einen Teil seiner magischen Kraft permanent auf einen anderen Magier übertragen.                                                                                              | Normaler Zauber | 1    | 100 Aura                                                 |                           |
-|    | 10 |    |    |    | [Pentagramm]                                    | Genau um Mitternacht, wenn die Kräfte der Finsternis am größten sind, kann auch ein Schwarzmagier seine Kräfte nutzen um Verzauberungen aufzuheben.                                                                    | Normaler Zauber | 2    | 10 Aura \* Stufe                                         | Fernzauber, Schiffszauber |
-| 4  |    |    |    |    | [Plappermaul]                                   | Die verzauberte Einheit beginnt hemmungslos zu plappern und erzählt welche Talente sie kann, was für Gegenstände sie mit sich führt und sollte sie magisch begabt sein, sogar welche Zauber sie beherrscht.            | Normaler Zauber | 5    | 10 Aura                                                  |                           |
-| 3  |    |    |    |    | [Regentanz]                                     | Dieses uralte Tanzritual ruft die Kräfte des Lebens und der Fruchtbarkeit.                                                                                                                                             | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    |    | 12 |    |    | [Rindenhaut]                                    | Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung.                                                                                                           | Präkampfzauber  | 2    | 4 Aura \* Stufe                                          |                           |
-| 9  |    |    |    |    | [Ritual der Aufnahme]                           | Dieses Ritual ermöglicht es, eine Einheit, egal welcher Art, in die eigene Partei aufzunehmen.                                                                                                                         | Normaler Zauber | 5    | 3 Aura \* Stufe, 1 permanente Aura \* Stufe              |                           |
-|    | 6  |    |    |    | [Rosthauch]                                     | Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt.                                                                                                       | Kampfzauber     | 5    | 2 Aura \* Stufe                                          |                           |
-|    |    | 3  |    |    | [Rostregen]                                     | Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt.                                                                                                       | Normaler Zauber | 5    | 2 Aura \* Stufe                                          | Fernzauber                |
-|    |    |    |    | 6  | [Ruf der Realität]                              | Ein Magier, welcher sich in der materiellen Welt befindet, kann er mit Hilfe dieses Zaubers Einheiten aus der angrenzenden Astralwelt herbeiholen.                                                                     | Normaler Zauber | 7    | 2 Aura \* Stufe                                          |                           |
-|    |    |    |    | 8  | [Runen des Schutzes]                            | Zeichnet man diese Runen auf die Wände eines Gebäudes oder auf die Planken eines Schiffes, so wird es schwerer durch Zauber zu beeinflussen sein.                                                                      | Normaler Zauber | 2    | 20 Aura                                                  | Schiffszauber             |
-|    |    |    |    | 12 | [Rüstschild]                                    | Diese vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung.                                                                                                            | Präkampfzauber  | 2    | 4 Aura \* Stufe                                          |                           |
-| 7  |    |    |    |    | [Schaler Wein]                                  | Aufzeichung des Vortrags von Selen Ard'Ragorn in Bar'Glingal: 'Es heisst, dieser Spruch wäre wohl in den Spelunken der Westgassen entstanden, doch es kann genausogut in jedem andern verrufenen Viertel gewesen sein. | Normaler Zauber | 5    | 28 Aura, 3 Knotige Saugwurze, 50 Silber                  |                           |
-|    |    |    | 1  |    | [Schattenritter]                                | Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln.                                                                                                                     | Präkampfzauber  | 4    | 1 Aura \* Stufe                                          |                           |
-|    |    |    |    | 8  | [Schild des Fisches]                            | Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln, so wie der Fisch im Wasser auch nicht dort ist wo er zu sein scheint.                                               | Präkampfzauber  | 2    | 4 Aura \* Stufe                                          |                           |
-|    |    |    | 7  |    | [Schlaf]                                        | Dieser Zauber läßt einige feindliche Kämpfer einschlafen.                                                                                                                                                              | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    |    | 10 |    | [Schlechte Träume]                              | Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELP GUARD) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.                    | Normaler Zauber | 5    | 90 Aura                                                  | Fernzauber                |
-|    |    |    | 6  |    | [Schlechter Schlaf]                             | Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe.                                                                                                                         | Normaler Zauber | 5    | 18 Aura                                                  | Fernzauber                |
-|    |    |    |    | 1  | [Schleieraura]                                  | Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern.                                                                                                        | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    |    |    | 5  | [Schockwelle]                                   | Dieser Zauber läßt eine Welle aus purer Kraft über die gegnerischen Reihen hinwegfegen.                                                                                                                                | Kampfzauber     | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    |    |    | 2  | [Schutz vor Magie]                              | Dieser Zauber legt ein antimagisches Feld um die Magier der Feinde und behindert ihre Zauber erheblich.                                                                                                                | Präkampfzauber  | 2    | 3 Aura \* Stufe                                          |                           |
-|    |    |    |    | 3  | [Schutzzauber]                                  | Dieser Zauber verstärkt die natürliche Widerstandskraft gegen Magie.                                                                                                                                                   | Normaler Zauber | 2    | 5 Aura \* Stufe                                          | Schiffszauber             |
-|    |    |    | 4  |    | [Schwere Glieder]                               | Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden.                                                                                                                            | Präkampfzauber  | 5    | 4 Aura \* Stufe                                          |                           |
-|    |    |    | 8  |    | [Schöne Träume]                                 | Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.                                    | Normaler Zauber | 5    | 80 Aura                                                  | Fernzauber                |
-|    |    |    | 2  |    | [Seelenfrieden]                                 | Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode gekommenen und ermöglicht es ihnen so, ihre letzte Reise in die Anderlande zu beginnen.                                                     | Normaler Zauber | 5    | 3 Aura \* Stufe, 1 Wasser des Lebens                     |                           |
-|    |    | 1  |    |    | [Segen der Erde]                                | Dieses Ernteritual verbessert die Erträge der arbeitenden Bauern in der Region um ein Silberstück.                                                                                                                     | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    |    | 4  |    |    | [Segne Mallornstecken]                          | Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.                                                                                                                                            | Normaler Zauber | 5    | 6 Aura \* Stufe, 1 Mallorn \* Stufe, 1 Wasser des Lebens | Fernzauber                |
-|    |    | 11 |    |    | [Segne Steinkreis]                              | Dieses Ritual segnet einen Steinkreis, der zuvor aus Steinen und etwas Holz gebaut werden muss.                                                                                                                        | Normaler Zauber | 5    | 350 Aura, 5 permanente Aura                              |                           |
-|    |    | 9  |    |    | [Sog des Lebens]                                | Ein Druide, den es in die Welt der Geister verschlagen hat, kann mit Hilfe dieses Zaubers Stufe\*5 Gewichtseinheiten in einen Wald auf der materiellen Welt zurückschicken.                                            | Normaler Zauber | 7    | 2 Aura \* Stufe                                          |                           |
-|    |    | 8  |    |    | [Starkes Tor und feste Mauer]                   | Mit dieser Formel bindet der Magier zu Beginn eines Kampfes einige Elementargeister des Fels in die Mauern des Gebäudes, in dem er sich gerade befindet.                                                               | Präkampfzauber  | 5    | 2 Aura \* Stufe                                          |                           |
-|    |    |    |    | 6  | [Stehle Aura]                                   | Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen dessen Willen entziehen und sich selber zuführen.                                                                                       | Normaler Zauber | 3    | 2 Aura \* Stufe                                          | Fernzauber                |
-|    |    | 6  |    |    | [Sturmelementar]                                | Die Beschwörung von Elementargeistern der Stürme ist ein uraltes Ritual.                                                                                                                                               | Normaler Zauber | 5    | 6 Aura \* Stufe                                          | Seezauber, Schiffszauber  |
-|    |    |    |    | 14 | [Störe Astrale Integrität]                      | Dieser Zauber bewirkt eine schwere Störung des Astralraums.                                                                                                                                                            | Normaler Zauber | 4    | 140 Aura                                                 |                           |
-|    |    |    | 12 |    | [Süße Träume]                                   | Dieser Zauber - dessen Anwendung in den meisten Kulturen streng verboten ist - löst im Opfer ein unkontrollierbares Verlangen nach körperlicher Liebe aus.                                                             | Normaler Zauber | 5    | 5 Aura \* Stufe                                          |                           |
-|    |    |    | 11 |    | [Tod des Geistes]                               | Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an.                                                                                                                                                 | Präkampfzauber  | 5    | 2 Aura \* Stufe                                          |                           |
-|    | 11 |    |    |    | [Todeswolke]                                    | Mit einem düsteren Ritual und unter Opferung seines eigenen Blutes beschwört der Schwarzmagier einen großen Geist von der Elementarebene der Gifte.                                                                    | Normaler Zauber | 5    | 40 Aura, 15 Trefferpunkte                                | Fernzauber                |
-|    |    | 17 |    |    | [Tor in die Ebene der Hitze]                    | Dieses mächtige Ritual öffnet ein Tor in die Elementarebene der Hitze.                                                                                                                                                 | Normaler Zauber | 5    | 800 Aura                                                 | Fernzauber                |
-|    |    |    | 3  |    | [Traum der Magie]                               | Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.                                                                                                    | Normaler Zauber | 1    | 2 Aura                                                   | Schiffszauber             |
-|    |    |    | 5  |    | [Traumbilder analysieren]                       | Mit diesem Spruch kann der Traumweber versuchen, die Verzauberungen einer einzelnen Einheit zu erkennen.                                                                                                               | Normaler Zauber | 5    | 25 Aura                                                  | Schiffszauber             |
-|    |    |    | 8  |    | [Traumbilder entwirren]                         | Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.                            | Normaler Zauber | 2    | 6 Aura \* Stufe                                          | Fernzauber, Schiffszauber |
-|    |    |    | 7  |    | [Traumdeuten]                                   | Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opfers ein und kann so seine intimsten Geheimnisse ausspähen.                                                                             | Normaler Zauber | 5    | 20 Aura                                                  |                           |
-|    |    |    | 4  |    | [Traumlesen]                                    | Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.                                                                               | Normaler Zauber | 5    | 8 Aura                                                   | Fernzauber                |
-|    |    |    | 3  |    | [Traumschlößchen]                               | Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebäudes erzeugen.                                                                                                                          | Normaler Zauber | 5    | 3 Aura                                                   |                           |
-|    |    |    | 1  |    | [Traumsenden]                                   | Der Zauberer sendet dem Ziel des Spruches einen Traum.                                                                                                                                                                 | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    | 14 |    |    |    | [Unheilige Kraft]                               | Nur geflüstert wird dieses Ritual an den dunklen Akademien an die Adepten weitergegeben, gehört es doch zu den finstersten, die je niedergeschrieben wurden.                                                           | Normaler Zauber | 5    | 10 Aura \* Stufe, 5 Bauern \* Stufe                      |                           |
-|    | 9  |    |    |    | [Untote Helden]                                 | Dieses Ritual bindet die bereits entfliehenden Seelen einiger Kampfopfer an ihren toten Körper, wodurch sie zu untoten Leben wiedererweckt werden.                                                                     | Postkampfzauber | 5    | 1 Aura \* Stufe                                          |                           |
-| 9  | 13 | 10 | 9  | 12 | [Vertrauten rufen]                              | Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.                                                           | Normaler Zauber | 5    | 100 Aura, 5 permanente Aura                              |                           |
-|    | 1  |    |    |    | [Verwünschung]                                  | Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht.                                                                                                                                              | Normaler Zauber | 5    | 1 Aura \* Stufe                                          |                           |
-|    |    | 1  |    |    | [Viehheilung]                                   | Die Fähigkeiten der Gwyrrd-Magier in der Viehzucht und Heilung sind bei den Bauern sehr begehrt.                                                                                                                       | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    | 8  |    |    |    | [Wahnsinn des Krieges]                          | Vor den Augen der feindlichen Soldaten opfert der Schwarzmagier die zehn Bauern in einem blutigen, grausamen Ritual und beschwört auf diese Weise Geister des Wahnsinns über die feindlichen Truppen.                  | Präkampfzauber  | 5    | 3 Aura \* Stufe, 10 Bauern                               |                           |
-|    |    |    | 1  |    | [Wahrsagen]                                     | Niemand kann so gut die Träume deuten wie ein Magier des Illaun.                                                                                                                                                       | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    | 4  |    |    | [Wasserelementar]                               | Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen Dienst und bringt sie dazu, das angegebene Schiff schneller durch das Wasser zu tragen.                                                 | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    | 9  |    |    | [Weg der Bäume]                                 | Große Macht liegt in Orten, an denen das Leben pulsiert.                                                                                                                                                               | Normaler Zauber | 7    | 3 Aura \* Stufe                                          |                           |
-|    |    |    | 5  |    | [Wiederbelebung]                                | Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen.                                                                                                                          | Postkampfzauber | 4    | 1 Aura \* Stufe                                          |                           |
-|    |    | 4  |    |    | [Windschild]                                    | Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden.                                                    | Präkampfzauber  | 5    | 2 Aura \* Stufe                                          |                           |
-|    |    | 5  |    |    | [Wirbelwind]                                    | Diese Beschwörung öffnet ein Tor in die Ebene der Elementargeister des Windes.                                                                                                                                         | Präkampfzauber  | 5    | 15 Aura                                                  |                           |
-|    |    | 7  |    |    | [Wolfsgeheul]                                   | Nicht wenige Druiden freunden sich im Laufe ihres Lebens in der Natur mit den ältesten Freunden der großen Völker an.                                                                                                  | Präkampfzauber  | 5    | 2 Aura \* Stufe                                          |                           |
-|    |    |    |    | 1  | [Wunderdoktor]                                  | Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten Tybiedmagier.                                                                                                                              | Normaler Zauber | 5    | 1 Aura \* Stufe                                          | Schiffszauber             |
-|    |    | 16 |    |    | [Wurzeln der Magie]                             | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim | Fernzauber                |
-|    |    |    |    | 11 | [Zeitdehnung]                                   | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 Aura \* Stufe                                          | Schiffszauber             |
+|  C |  D |  G |  I |  T | Name                              | Type    | Rank | Components                                          | Modifiers      |
+|---:|---:|---:|---:|---:|-----------------------------------|:--------|-----:|-----------------------------------------------------|----------------|
+|    |    |    |    |  9 | [Acceleration]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
+|    |    |  4 |    |    | [Air Shield]                      | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |    |  6 | [Airship]                         | --      |    5 | 10 Aura, 1 Windbeutel, 1 snowcrystal                | Ship           |
+|    |    |    |  5 |    | [Analyse Dreams]                  | --      |    5 | 25 Aura                                             | Ship           |
+|  8 |    |    |    |    | [Analysis]                        | --      |    5 | 3 Aura x Level                                      | Ship           |
+|    |    |    |    |  1 | [Analyze Magic]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Analyze Song of Life]            | --      |    5 | 10 Aura                                             | Ship           |
+|    |  6 |    |    |    | [Animate Dead]                    | --      |    5 | 5 Aura x Level                                      | Distance, Ship |
+|    |    |    |    |  5 | [Antimagic]                       | --      |    2 | 3 Aura x Level                                      | Distance       |
+|  1 |    |    |    |    | [Appeasing Song]                  | Pre-c.  |    5 | 2 Aura                                              |                |
+|    |    |    |    |  6 | [Astral Call]                     | --      |    7 | 2 Aura x Level                                      |                |
+|    |  9 |    |    |    | [Astral Chaos]                    | Pre-c.  |    2 | 6 Aura x Level                                      |                |
+|    |    |    |    |  4 | [Astral Exit]                     | --      |    7 | 2 Aura x Level                                      |                |
+|    |    |  5 |    |    | [Astral Guardian Spirits]         | Pre-c.  |    2 | 5 Aura x Level                                      |                |
+|    |  9 |    |    |    | [Astral Leak]                     | --      |    3 | 35 Aura, 1 Drachenblut                              |                |
+|    |    |    |    |  4 | [Astral Path]                     | --      |    7 | 2 Aura x Level                                      |                |
+| 15 |    |    |    |    | [Aufruhr beschwichtigen]          | --      |    5 | 30 Aura                                             | Distance       |
+| 16 |    |    |    |    | [Aufruhr verursachen]             | --      |    5 | 40 Aura                                             | Distance       |
+|    |    | 10 |    |    | [Awakening of the Ents]           | --      |    5 | 6 Aura x Level                                      |                |
+|    |    |  8 |    |    | [Banish Spirits]                  | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 13 | [Belebtes Gestein]                | --      |    5 | 10 Aura x Level, 1 perm. Aura, 5 Laen               |                |
+|    | 12 |    |    |    | [Beschwöre Schattenmeister]       | --      |    5 | 7 Aura x Level                                      |                |
+|  4 |    |    |    |    | [Blabbermouth]                    | --      |    5 | 10 Aura                                             |                |
+|    |    |  1 |    |    | [Blessed Harvest]                 | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 10 | [Blick in die Realität]           | --      |    5 | 40 Aura                                             |                |
+|    |  5 |    |    |    | [Blood Frenzy]                    | Pre-c.  |    4 | 5 Aura x Level, 1 Bauer                             |                |
+|    |    |    |    |  6 | [Call of Reality]                 | --      |    7 | 2 Aura x Level                                      |                |
+|  6 |    |    |    |    | [Calm Monster]                    | --      |    5 | 15 Aura                                             | Ship           |
+|    |    |    |  3 |    | [Castle of Illusion]              | --      |    5 | 3 Aura                                              |                |
+|    |    |  1 |    |    | [Cattle Healing]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  5 |    |    |    | [Chaos Curse]                     | --      |    4 | 4 Aura x Level                                      |                |
+|    |  3 |    |    |    | [Chaos Gift]                      | --      |    3 | 6 Aura                                              | Ship           |
+|    | 14 |    |    |    | [Chaossog]                        | --      |    5 | 150 Aura, 200 Bauern                                |                |
+|    |    |    |    |  1 | [Concealing Aura]                 | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Countersong]                     | Pre-c.  |    2 | 5 Aura x Level                                      |                |
+|    |    |    |    | 10 | [Create A Bag of Negative Weight] | --      |    5 | 30 Aura, 1 perm. Aura, 5000 Silver                  | Ship           |
+|    |  9 |    |    |    | [Create A Belt of Troll Strength] | --      |    5 | 20 Aura, 1 perm. Aura                               | Ship           |
+|    |    |    | 14 |    | [Create a DreamEye]               | --      |    5 | 1 Dragon head, 5 perm. Aura                         | Ship           |
+|    | 12 |    |    |    | [Create a Flaming Sword]          | --      |    5 | 100 Aura, 1 Berserkerblut, 1 Schwert, 1 perm. Aura  | Ship           |
+|    |    |  5 |    |    | [Create A Magical Herb Pouch]     | --      |    5 | 30 Aura, 1 perm. Aura, 1 water of life              | Ship           |
+|  6 |  6 |  6 |  6 |  6 | [Create A Ring of Invisibility]   | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
+|    |    |    |    |  9 | [Create A Ring of Power]          | --      |    5 | 100 Aura, 1 perm. Aura, 4000 Silver                 | Ship           |
+|    |    |    | 13 |    | [Create A Sphere of Invisibility] | --      |    5 | 150 Aura, 30000 Silver, 3 perm. Aura                | Ship           |
+|  ? |  ? |  ? |  ? |  ? | [Create An Amulet of True Sight]  | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
+|    |    |    |    |  7 | [Create An Antimagic Crystal]     | --      |    5 | 50 Aura, 3000 Silver                                | Ship           |
+|    |    |  2 |    |    | [Create Iron Golems]              | --      |    4 | 2 Aura x Level, 1 Iron x Level, 1 water of life     |                |
+|    |    |  1 |    |    | [Create Stone Golems]             | --      |    4 | 2 Aura x Level, 1 Stein x Level, 1 water of life    |                |
+|    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 Aura, 50 Bauern                                  | Distance       |
+|    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 Aura x Level                                      | Distance, Ship |
+|    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 Aura, 1 Drachenkopf                              | Distance       |
+|    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 Aura x Level                                      | Ship           |
+|  5 |    |    |    |    | [Epic Heroes]                     | Pre-c.  |    4 | 2 Aura x Level                                      |                |
+|    |    |    |  2 |    | [Eternal Rest]                    | --      |    5 | 3 Aura x Level, 1 water of life                     |                |
+|    |    |    |    |  7 | [Eternal Walls]                   | --      |    5 | 50 Aura, 1 perm. Aura                               | Ship           |
+|    | 10 |    |    |    | [Feuerteufel]                     | --      |    5 | 50 Aura, 1 Öl                                       | Distance       |
+|    |  2 |    |    |    | [Fireball]                        | Combat  |    5 | 1 Aura x Level                                      |                |
+|    |  7 |    |    |    | [Firewall]                        | --      |    4 | 6 Aura x Level                                      |                |
+|  3 |  3 |  3 |  3 |  3 | [Firun's Coat]                    | --      |    5 | 2 Aura x Level                                      | Ship           |
+|    |    |  8 |    |    | [Gaze of the Basilisk]            | Combat  |    5 | 1 Aura x Level                                      |                |
+| 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 Aura x Level                                     |                |
+| 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 Aura                                             | Distance       |
+| 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 Aura                                             |                |
+|  4 |    |    |    |    | [Song of Confusion]           | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+| 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 Aura x Level                                      | Distance       |
+|  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 Aura                                              | Ship           |
+| 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 Aura x Level                                      | Distance       |
+|    |    |  2 |    |    | [Grove of Oak Trees]              | --      |    5 | 4 Aura x Level, 1 Holz x Level, 1 water of life     | Distance       |
+|    |    |  3 |    |    | [Hail]                            | Combat  |    5 | 1 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Hangover]                        | --      |    5 | 28 Aura, 3 Knotige Saugwurze, 50 Silver             |                |
+|    |    |  5 |    |    | [Heal]                            | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    |  1 |    |    |    | [Hex]                             | --      |    5 | 1 Aura x Level                                      |                |
+|    |    | 13 |    |    | [Hitzeelementar]                  | --      |    5 | 600 Aura                                            | Distance       |
+| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]      | --      |    5 | 20 Aura x Level                                     |                |
+|    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 Aura, 1 perm. Aura                               |                |
+|    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 Aura                                             | Distance       |
+|  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  1 |    |    |    | [Kleine Flüche]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 Hit Points                                       | Ship           |
+|  2 |    |    |    |    | [Song of Healing]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
+|  6 |    |    |    |    | [Lied der Verführung]             | --      |    5 | 12 Aura                                             |                |
+|    |  8 |    |    |    | [Madness of War]                  | Pre-c.  |    5 | 3 Aura x Level, 10 Bauern                           |                |
+|    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
+|    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 Aura, 1 Seeschlangenkopf                        | Sea, Ship      |
+|    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 Aura                                             |                |
+|    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
+| 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 Aura, 1000 Silver, 1 perm. Aura                  | Ship           |
+| 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 Aura x Level                                      |                |
+|    |    |  3 |    |    | [Mountain Guardian]               | --      |    5 | 3 Aura x Level                                      | Distance       |
+|    |    |    |    |  7 | [Negate Curse]                    | --      |    3 | 3 Aura x Level                                      | Distance, Ship |
+|    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 Aura                                            |                |
+|    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 Aura x Level                                     | Distance, Ship |
+|    |    |    |    |  2 | [Protection from Magic]           | Pre-c.  |    2 | 3 Aura x Level                                      |                |
+|  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
+|    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 Aura x Level                                      | Ship           |
+|    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 Aura x Level                                      |                |
+|    |    | 12 |    |    | [Rindenhaut]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 Aura x Level, 1 perm. Aura x Level                |                |
+|    |  6 |    |    |    | [Rosthauch]                       | Combat  |    5 | 2 Aura x Level                                      |                |
+|    |    |  3 |    |    | [Rostregen]                       | --      |    5 | 2 Aura x Level                                      | Distance       |
+|    |    |    |    |  8 | [Runen des Schutzes]              | --      |    2 | 20 Aura                                             | Ship           |
+|    |    |    |    | 12 | [Rüstschild]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 Aura, 3 perm. Aura                               |                |
+|    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 Aura                                             | Distance       |
+|    |    |    |    |  5 | [Schockwelle]                     | Combat  |    5 | 1 Aura x Level                                      |                |
+|    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 Aura                                             | Distance       |
+|    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 Aura x Level, 1 Mallorn x Level, 1 water of life  | Distance       |
+|    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 Aura, 5 perm. Aura                              |                |
+|    |    |    |  1 |    | [Shadow Knights]                  | Pre-c.  |    4 | 1 Aura x Level                                      |                |
+|    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 Aura x Level                                      |                |
+|    |    |    |    |  8 | [Shield of the Fish]              | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 Aura x Level                                      | Distance, Ship |
+|    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 Aura x Level                                      |                |
+|  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 Aura x Level                                      |                |
+|  8 |    |    |    |    | [Song of Fear]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
+|  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 Aura x Level                                      | Distance, Ship |
+|  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Song of War]                     | Pre-c.  |    4 | 5 Aura x Level                                      |                |
+|  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 Aura, 100 Silver                                  |                |
+|    |    |  8 |    |    | [Starkes Tor und feste Mauer]     | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |    |  6 | [Steal Aura]                      | --      |    3 | 2 Aura x Level                                      | Distance       |
+|    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 Aura                                            |                |
+|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |    5 | 25 Aura, 2 Laen                                     | Distance       |
+|  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 Aura, 5 perm. Aura                              |                |
+|    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 Aura x Level                                      |                |
+|    |    |  6 |    |    | [Summon Storm Elemental]          | --      |    5 | 6 Aura x Level                                      | Sea, Ship      |
+|    |    |  4 |    |    | [Summon Water Elemental]          | --      |    5 | 1 Aura x Level                                      | Ship           |
+|    |    |    | 12 |    | [Süße Träume]                     | --      |    5 | 5 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Ties of Life]                    | --      |    7 | 2 Aura x Level                                      |                |
+|    |    |  7 |    |    | [Timber Wolves]                   | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    |    |    |  4 |    | [Tiredness]                       | Pre-c.  |    5 | 4 Aura x Level                                      |                |
+|    |    |    | 11 |    | [Tod des Geistes]                 | Pre-c.  |    5 | 2 Aura x Level                                      |                |
+|    | 11 |    |    |    | [Todeswolke]                      | --      |    5 | 40 Aura, 15 Hit Points                              | Distance       |
+|    |    | 17 |    |    | [Tor in die Ebene der Hitze]      | --      |    5 | 800 Aura                                            | Distance       |
+|    |    |    |    |  5 | [Transfer Aura]                   | --      |    1 | 1 Aura                                              | Ship           |
+|    |  7 |    |    |    | [Transfer Power]                  | --      |    1 | 2 Aura                                              | Ship           |
+|    |    |    |  8 |    | [Traumbilder entwirren]           | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
+|    |    |    |  4 |    | [Traumlesen]                      | --      |    5 | 8 Aura                                              | Distance       |
+|    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
+|    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 Aura x Level, 5 Bauern x Level                   |                |
+|    |    |    |  2 |    | [Unspeakable Horrors]             | Pre-c.  |    5 | 1 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Weg der Bäume]                   | --      |    7 | 3 Aura x Level                                      |                |
+|    |    |  5 |    |    | [Wirbelwind]                      | Pre-c.  |    5 | 15 Aura                                             |                |
+|    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
+|    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 Aura x Level                                      | Ship           |
 
-[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwaechezone
-[Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang
-[Astraler Riss]: ./spells-descriptions.md#astraler-riss
-[Astraler Ruf]: ./spells-descriptions.md#astraler-ruf
-[Astraler Weg]: ./spells-descriptions.md#astraler-weg
-[Astrales Chaos]: ./spells-descriptions.md#astrales-chaos
-[Astralschutzgeister]: ./spells-descriptions.md#astralschutzgeister
+Poursuivre la lecture : [[alchimie|potions]].
+
+<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
+
+[Antimagic]: ./spells-descriptions.md#antimagic
+[Astral Exit]: ./spells-descriptions.md#astral-exit
+[Astral Leak]: ./spells-descriptions.md#astral-leak
+[Astral Call]: ./spells-descriptions.md#astral-call
+[Astral Path]: ./spells-descriptions.md#astral-path
+[Astral Chaos]: ./spells-descriptions.md#astral-chaos
+[Astral Guardian Spirits]: ./spells-descriptions.md#astral-guardian-spirits
 [Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen
 [Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen
-[Auratransfer]: ./spells-descriptions.md#auratransfer
-[Aushorchen]: ./spells-descriptions.md#aushorchen
-[Bannlied]: ./spells-descriptions.md#bannlied
+[Transfer Aura]: ./spells-descriptions.md#transfer-aura
+[Sound out]: ./spells-descriptions.md#sound-out
+[Countersong]: ./spells-descriptions.md#countersong
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
-[Bergwächter]: ./spells-descriptions.md#bergwaechter
-[Beschleunigung]: ./spells-descriptions.md#beschleunigung
-[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwoere-schattendaemonen
-[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwoere-schattenmeister
-[Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
-[Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
-[Blutrausch]: ./spells-descriptions.md#blutrausch
-[Chaosfluch]: ./spells-descriptions.md#chaos-curse
+[Mountain Guardian]: ./spells-descriptions.md#mountain-guardian
+[Acceleration]: ./spells-descriptions.md#acceleration
+[Summon Shadowdemons]: ./spells-descriptions.md#summon-shadowdemons
+[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister
+[Save Spoils]: ./spells-descriptions.md#save-spoils
+[Gaze of the Basilisk]: ./spells-descriptions.md#gaze-of-the-basilisk
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitat
+[Blood Frenzy]: ./spells-descriptions.md#blood-frenzy
+[Chaos Curse]: ./spells-descriptions.md#chaos-curse
 [Chaossog]: ./spells-descriptions.md#chaossog
 [Drachenruf]: ./spells-descriptions.md#drachenruf
-[Erdelementar]: ./spells-descriptions.md#erdelementar
-[Erschaffe Antimagiekristall]: ./spells-descriptions.md#erschaffe-antimagiekristall
-[Erschaffe Eisengolems]: ./spells-descriptions.md#erschaffe-eisengolems
-[Erschaffe Steingolems]: ./spells-descriptions.md#erschaffe-steingolems
-[Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens
-[Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert
-[Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
-[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphaere-der-unsichtbarkeit
-[Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-guertel-der-trollstaerke
-[Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
-[Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kraeuterbeutel
-[Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
-[Feuerball]: ./spells-descriptions.md#feuerball
+[Summon Earth Elemental]: ./spells-descriptions.md#summon-earth-elemental
+[Create An Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystal
+[Create Iron Golems]: ./spells-descriptions.md#create-iron-golems
+[Create Stone Golems]: ./spells-descriptions.md#create-stone-golems
+[Create An Amulet of True Sight]: ./spells-descriptions.md#create-an-amulet-of-true-sight
+[Create a Flaming Sword]: ./spells-descriptions.md#create-a-flaming-sword
+[Create a DreamEye]: ./spells-descriptions.md#create-a-dreameye
+[Create A Sphere of Invisibility]: ./spells-descriptions.md#create-a-sphere-of-invisibility
+[Create A Bag of Negative Weight]: ./spells-descriptions.md#create-a-negative-weight-bag
+[Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength
+[Create A Ring of Power]: ./spells-descriptions.md#create-a-ring-of-power
+[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility
+[Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch
+[Awakening of the Ents]: ./spells-descriptions.md#awakening-of-the-ents
+[Fireball]: ./spells-descriptions.md#fireball
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel
-[Feuerwand]: ./spells-descriptions.md#feuerwand
-[Firuns Fell]: ./spells-descriptions.md#firuns-fell
-[Fluch brechen]: ./spells-descriptions.md#fluch-brechen
-[Fluch der Pestilenz]: ./spells-descriptions.md#fluch-der-pestilenz
-[Friedenslied]: ./spells-descriptions.md#friedenslied
-[Gabe des Chaos]: ./spells-descriptions.md#gabe-des-chaos
-[Gaukeleien]: ./spells-descriptions.md#gaukeleien
-[Geister bannen]: ./spells-descriptions.md#geister-bannen
-[Gesang der Angst]: ./spells-descriptions.md#gesang-der-angst
+[Firewall]: ./spells-descriptions.md#firewall
+[Firun's Coat]: ./spells-descriptions.md#firuns-coat
+[Negate Curse]: ./spells-descriptions.md#negate-curse
+[Curse of Pestilence]: ./spells-descriptions.md#curse-of-pestilence
+[Appeasing Song]: ./spells-descriptions.md#appeasing-song
+[Chaos Gift]: ./spells-descriptions.md#chaos-gift
+[Jugglery]: ./spells-descriptions.md#jugglery
+[Banish Spirits]: ./spells-descriptions.md#banish-spirits
+[Song of Fear]: ./spells-descriptions.md#song-of-fear
 [Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit
-[Gesang der Furcht]: ./spells-descriptions.md#gesang-der-furcht
+[Song of Terror]: ./spells-descriptions.md#song-of-terror
 [Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie
 [Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung
-[Gesang der Verwirrung]: ./spells-descriptions.md#gesang-der-verwirrung
-[Gesang des Auratransfers]: ./spells-descriptions.md#gesang-des-auratransfers
-[Gesang des Lebens analysieren]: ./spells-descriptions.md#gesang-des-lebens-analysieren
-[Gesang des Werbens]: ./spells-descriptions.md#gesang-des-werbens
+[Song of Confusion]: ./spells-descriptions.md#song-of-confusion
+[Gesang des Transfer Auras]: ./spells-descriptions.md#gesang-des-Transfer Auras
+[Analyze Song of Life]: ./spells-descriptions.md#analyze-song-of-life
+[Song of Courting]: ./spells-descriptions.md#song-of-courting
 [Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes
 [Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes
-[Gestaltwandlung]: ./spells-descriptions.md#gestaltwandlung
-[Grauen der Schlacht]: ./spells-descriptions.md#grauen-der-schlacht
-[Hagel]: ./spells-descriptions.md#hagel
-[Hainzauber]: ./spells-descriptions.md#hainzauber
-[Heiliger Boden]: ./spells-descriptions.md#heiliger-boden
-[Heilung]: ./spells-descriptions.md#heilung
-[Heimstein]: ./spells-descriptions.md#heimstein
-[Heldengesang]: ./spells-descriptions.md#heldengesang
+[Shapeshift]: ./spells-descriptions.md#shapeshift
+[Unspeakable Horrors]: ./spells-descriptions.md#unspeakable-horrors
+[Hail]: ./spells-descriptions.md#hail
+[Grove of Oak Trees]: ./spells-descriptions.md#grove-of-oak-trees
+[Sacred Ground]: ./spells-descriptions.md#sacred-ground
+[Heal]: ./spells-descriptions.md#heal
+[Homestone]: ./spells-descriptions.md#homestone
+[Epic Heroes]: ./spells-descriptions.md#epic-heroes
 [Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
-[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-ueberzeugung
-[Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei
-[Kleine Flüche]: ./spells-descriptions.md#kleine-flüche
-[Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer
-[Kriegsgesang]: ./spells-descriptions.md#kriegsgesang
-[Lebenslied festigen]: ./spells-descriptions.md#lebenslied-festigen
-[Lied der Heilung]: ./spells-descriptions.md#lied-der-heilung
-[Lied der Verführung]: ./spells-descriptions.md#lied-der-verführung
-[Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
-[Luftschiff]: ./spells-descriptions.md#luftschiff
-[Machtübertragung]: ./spells-descriptions.md#machtuebertragung
-[Magie analysieren]: ./spells-descriptions.md#magie-analysieren
-[Magiefresser]: ./spells-descriptions.md#magiefresser
-[Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
+[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung
+[Song of Generosity]: ./spells-descriptions.md#song-of-generosity
+[Kleine Flüche]: ./spells-descriptions.md#kleine-fluche
+[Lesser Sacrifice]: ./spells-descriptions.md#lesser-sacrifice
+[Song of War]: ./spells-descriptions.md#song-of-war
+[Silence Dissonance]: ./spells-descriptions.md#silence-dissonance
+[Song of Healing]: ./spells-descriptions.md#song-of-healing
+[Lied der Verführung]: ./spells-descriptions.md#lied-der-verfuhrung
+[Analysis]: ./spells-descriptions.md#analysis
+[Airship]: ./spells-descriptions.md#airship
+[Transfer Power]: ./spells-descriptions.md#transfer-power
+[Analyze Magic]: ./spells-descriptions.md#analyze-magic
+[Destroy Magic]: ./spells-descriptions.md#destroy-magic
+[Magic Path]: ./spells-descriptions.md#magic-path
 [Mahlstrom]: ./spells-descriptions.md#mahlstrom
-[Mauern der Ewigkeit]: ./spells-descriptions.md#mauern-der-ewigkeit
-[Meditation]: ./spells-descriptions.md#meditation
+[Eternal Walls]: ./spells-descriptions.md#eternal-walls
+[Meditate]: ./spells-descriptions.md#meditate
 [Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
 [Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
-[Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
-[Mächte des Todes]: ./spells-descriptions.md#maechte-des-todes
+[Calm Monster]: ./spells-descriptions.md#calm-monster
+[Animate Dead]: ./spells-descriptions.md#animate-dead
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Pentagramm]: ./spells-descriptions.md#pentagramm
-[Plappermaul]: ./spells-descriptions.md#plappermaul
-[Regentanz]: ./spells-descriptions.md#regentanz
+[Blabbermouth]: ./spells-descriptions.md#blabbermouth
+[Rain Dance]: ./spells-descriptions.md#rain-dance
 [Rindenhaut]: ./spells-descriptions.md#rindenhaut
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
 [Rosthauch]: ./spells-descriptions.md#rosthauch
 [Rostregen]: ./spells-descriptions.md#rostregen
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitaet
+[Call of Reality]: ./spells-descriptions.md#call-of-reality
 [Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
 [Rüstschild]: ./spells-descriptions.md#rüstschild
-[Schaler Wein]: ./spells-descriptions.md#schaler-wein
-[Schattenritter]: ./spells-descriptions.md#schattenritter
-[Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
-[Schlaf]: ./spells-descriptions.md#schlaf
+[SHangover]: ./spells-descriptions.md#schaler-wein
+[Shadow Knights]: ./spells-descriptions.md#schattenritter
+[Shield of the Fish]: ./spells-descriptions.md#schild-des-fisches
+[Sleep]: ./spells-descriptions.md#schlaf
 [Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
-[Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
-[Schleieraura]: ./spells-descriptions.md#schleieraura
+[Insomnia]: ./spells-descriptions.md#insomnia
+[Concealing Aura]: ./spells-descriptions.md#concealing-aura
 [Schockwelle]: ./spells-descriptions.md#schockwelle
-[Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
-[Schutzzauber]: ./spells-descriptions.md#schutzzauber
-[Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
+[Protection from Magic]: ./spells-descriptions.md#protection-from-magic
+[Resist Magic]: ./spells-descriptions.md#resist-magic
+[Tiredness]: ./spells-descriptions.md#schwere-glieder
 [Schöne Träume]: ./spells-descriptions.md#schoene-traeume
-[Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
-[Segen der Erde]: ./spells-descriptions.md#segen-der-erde
+[Eternal Rest]: ./spells-descriptions.md#eternal-rest
+[Blessed Harvest]: ./spells-descriptions.md#blessed-harvest
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
 [Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
-[Sog des Lebens]: ./spells-descriptions.md#sog-des-lebens
+[Ties of Life]: ./spells-descriptions.md#sog-des-lebens
 [Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer
-[Stehle Aura]: ./spells-descriptions.md#stehle-aura
-[Sturmelementar]: ./spells-descriptions.md#sturmelementar
+[Steal Aura]: ./spells-descriptions.md#stehle-aura
+[Summon Storm Elemental]: ./spells-descriptions.md#sturmelementar
 [Störe Astrale Integrität]: ./spells-descriptions.md#störe-astrale-integrität
 [Süße Träume]: ./spells-descriptions.md#süße-träume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
-[Traum der Magie]: ./spells-descriptions.md#traum-der-magie
-[Traumbilder analysieren]: ./spells-descriptions.md#traumbilder-analysieren
+[Dream of Magic]: ./spells-descriptions.md#dream-of-magic
+[Analyse Dreams]: ./spells-descriptions.md#analyse-dreams
 [Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
-[Traumdeuten]: ./spells-descriptions.md#traumdeuten
+[Mind Probe]: ./spells-descriptions.md#mind-probe
 [Traumlesen]: ./spells-descriptions.md#traumlesen
-[Traumschlößchen]: ./spells-descriptions.md#traumschlößchen
-[Traumsenden]: ./spells-descriptions.md#traumsenden
+[Castle of Illusion]: ./spells-descriptions.md#castle-of-illusion
+[Dream]: ./spells-descriptions.md#dream
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
-[Untote Helden]: ./spells-descriptions.md#untote-helden
-[Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
-[Verwünschung]: ./spells-descriptions.md#verwuenschung
-[Viehheilung]: ./spells-descriptions.md#viehheilung
-[Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
-[Wahrsagen]: ./spells-descriptions.md#wahrsagen
-[Wasserelementar]: ./spells-descriptions.md#wasserelementar
+[Undead Heroes]: ./spells-descriptions.md#untote-helden
+[Summon Familiar]: ./spells-descriptions.md#vertrauten-rufen
+[Hex]: ./spells-descriptions.md#heal
+[Cattle Healing]: ./spells-descriptions.md#cattle-healing
+[Madness of War]: ./spells-descriptions.md#madness-of-war
+[Divination]: ./spells-descriptions.md#divination
+[Summon Water Elemental]: ./spells-descriptions.md#wasserelementar
 [Weg der Bäume]: ./spells-descriptions.md#weg-der-bäume
-[Wiederbelebung]: ./spells-descriptions.md#wiederbelebung
-[Windschild]: ./spells-descriptions.md#windschild
+[Resurrection]: ./spells-descriptions.md#resurrection
+[Air Shield]: ./spells-descriptions.md#air-shield
 [Wirbelwind]: ./spells-descriptions.md#wirbelwind
-[Wolfsgeheul]: ./spells-descriptions.md#wolfsgeheul
-[Wunderdoktor]: ./spells-descriptions.md#wunderdoktor
+[Timber Wolves]: ./spells-descriptions.md#timber-wolves
+[Miracle Doctor]: ./spells-descriptions.md#miracle-doctor
 [Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
 [Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
-
-Anmerkung für Autoren: Diese Tabelle wurde automatisch erzeugt. Manuelle Änderungen können daher bei zukünftigen Updates verloren gehen.
-
-Poursuivre la lecture : [Tränke].
-
-[Tränke]: ./alchemy.md
-
-<!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
-
-[Cerddor]: ./magic-school-cerddor.md
-[Draig]: ./magic-school-draig.md
-[Gwyrrd]: ./magic-school-gwyrrd.md
-[Illaun]: ./magic-school-illaun.md
-[Tybied]: ./magic-school-tybied.md

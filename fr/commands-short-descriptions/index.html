@@ -7354,844 +7354,711 @@
 
 
 <h1 id="discussion-rapide-description">Discussion : rapide description<a class="headerlink" href="#discussion-rapide-description" title="Permanent link">&para;</a></h1>
-<p>Sous "K/L", il est indiqué si il s'agit d'un [Ordre] court ou long, c'est-à-dire s'il est exécuté immédiatement (et d'autres ordres sont possibles par la suite) ou s'il prend un tour entier pour être exécuté. K est un ordre court, L est un ordre long.</p>
-<p><span class="arithmatex">\(L\)</span> indique un [Ordre] pseudo-long qui peut être donné à une unité plusieurs fois. Cependant, aucun autre ordre long ne peut être exécuté ensuite.</p>
+<p>Sous "C/L", il est indiqué s'il s'agit d'un <a href="../commands/">ordre</a> court ou long, c'est-à-dire s'il est exécuté immédiatement (et d'autres ordres sont possibles par la suite) ou s'il prend un tour entier pour être exécuté.
+C est un ordre court, L est un ordre long.</p>
+<p><span class="arithmatex">\(L\)</span> indique un <a href="../commands/">ordre</a> pseudo-long qui peut être donné à une unité plusieurs fois.
+Cependant, aucun autre ordre long ne peut être exécuté ensuite.</p>
 <p>brief description of orders</p>
 <table>
 <thead>
 <tr>
-<th>Ordre (Deutsch)</th>
-<th>Ordre (English)</th>
-<th>Beschreibung</th>
-<th>K/L</th>
+<th>Ordre</th>
+<th>Description</th>
+<th>C/L</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="../cmd-comment-slash/">//</a></td>
-<td>//</td>
 <td>permanent comment</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-work/">WORK</a>(./cmd-work.md)</td>
-<td>WORK</td>
+<td><a href="../cmd-work/">WORK</a></td>
 <td>earns 10 silver or more</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-attack/">ATTACK unit-id</a></td>
-<td>ATTACK unit-ID</td>
 <td>attacks the unit</td>
 <td>(L)*</td>
 </tr>
 <tr>
 <td><a href="../cmd-banner/">BANNER "text"</a></td>
-<td>BANNER</td>
 <td>Sets text for the address list</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-claim/">CLAIM anzahl gegenstand</a></td>
-<td>CLAIM</td>
+<td><a href="../cmd-claim/">CLAIM amount item</a></td>
 <td>Fetches items from party pool</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-promote/">PROMOTE</a>(./cmd-promote.md)</td>
-<td>PROMOTE</td>
+<td><a href="../cmd-promote/">PROMOTE</a></td>
 <td>Promote a unit to heroe</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-steal/">STEAL unit-id</a></td>
-<td>STEAL unit-ID</td>
 <td>steal 50 Silver or more</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">NAME UNIT "name"</a></td>
 <td>names the specified object</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME PARTEI "name"</a></td>
+<td><a href="../cmd-name/">NAME FACTION "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME GEBÄUDE "name"</a></td>
+<td><a href="../cmd-name/">NAME BUILDING "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME SCHIFF "name"</a></td>
+<td><a href="../cmd-name/">NAME SHIP "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">NAME REGION "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME FREMDE UNIT unit-id "name"</a></td>
+<td><a href="../cmd-name/">NAME STRANGERS UNIT unit-id "name"</a></td>
 <td>names the specified foreign object</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME FREMDES SCHIFF ship-id "name"</a></td>
+<td><a href="../cmd-name/">NAME STRANGER SHIP ship-id "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME FREMDES GEBÄUDE building-id "name"</a></td>
+<td><a href="../cmd-name/">NAME STRANGER BUILDING building-id "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-name/">NAME FREMDE PARTEI faction-id "name"</a></td>
+<td><a href="../cmd-name/">NAME STRANGERS FACTION faction-id "name"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-use/">USE [anzahl] trank</a></td>
-<td>USE [amount] potion</td>
+<td><a href="../cmd-use/">USE [amount] trank</a></td>
 <td>uses alchemical potion</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">DESCRIBE UNIT "text"</a></td>
 <td>describes object</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-describe/">DESCRIBE PRIVAT "text"</a></td>
+<td><a href="../cmd-describe/">DESCRIBE PRIVATE "text"</a></td>
 <td>unit description for the owner</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-describe/">DESCRIBE GEBÄUDE "text"</a></td>
+<td><a href="../cmd-describe/">DESCRIBE BUILDING "text"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-describe/">DESCRIBE SCHIFF "text"</a></td>
+<td><a href="../cmd-describe/">DESCRIBE SHIP "text"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">DESCRIBE REGION "text"</a></td>
 <td></td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-enter/">ENTER GEBÄUDE building-id</a></td>
-<td>ENTER BUILDING building-id</td>
+<td><a href="../cmd-enter/">ENTER BUILDING building-id</a></td>
 <td>Enter a building</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-enter/">ENTER SCHIFF ship-id</a></td>
-<td>ENTER SHIP ship-id</td>
+<td><a href="../cmd-enter/">ENTER SHIP ship-id</a></td>
 <td>Enter a ship</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-guard/">GUARD [NOT]</a></td>
-<td>GUARD</td>
 <td>guard the region</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-pay-not/">BEZAHLE NOT [building-id]</a></td>
-<td>PAY [NOT]</td>
 <td>do not pay a maintenance</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">MESSAGE REGION "text"</a></td>
 <td>Send a message</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-message/">MESSAGE SCHIFF ship-id "text"</a></td>
+<td><a href="../cmd-message/">MESSAGE SHIP ship-id "text"</a></td>
 <td>Send a message</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-message/">MESSAGE GEBÄUDE building-id "text"</a></td>
+<td><a href="../cmd-message/">MESSAGE BUILDING building-id "text"</a></td>
 <td>Send a message</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">MESSAGE UNIT unit id "text"</a></td>
 <td>Send a message</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-message/">MESSAGE PARTEI faction-id "text"</a></td>
+<td><a href="../cmd-message/">MESSAGE FACTION faction-id "text"</a></td>
 <td>Send a message</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-default/">DEFAULT befehl</a></td>
-<td>DEFAULT</td>
+<td><a href="../cmd-default/">DEFAULT order</a></td>
 <td>sets the default order for the next turn</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-unit/">UNIT unit-id</a></td>
-<td>UNIT unit-ID</td>
 <td>beginning of a unit's orders</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-email/">EMAIL email@adresse</a></td>
-<td>EMAIL email@adresse</td>
 <td>sets the e−mail the report is sent to</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-end/">END</a>(./cmd-end.md)</td>
-<td>END</td>
+<td><a href="../cmd-end/">END</a></td>
 <td>ends a MAKE TEMP block</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-eressea/">ERESSEA faction-id "passwort"</a></td>
 <td>beginning of faction's orders</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-ride/">RIDE unit-id</a></td>
-<td>RIDE unit-id</td>
 <td>be transported by unit−id</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-follow/">FOLLOW UNIT unit-id</a></td>
-<td>FOLLOW UNIT unit-id</td>
 <td>follows a unit</td>
 <td>(L)**</td>
 </tr>
 <tr>
-<td><a href="../cmd-follow/">FOLLOW SCHIFF ship-id</a></td>
-<td>FOLLOW SHIP ship-id</td>
+<td><a href="../cmd-follow/">FOLLOW SHIP ship-id</a></td>
 <td>follows a ship</td>
 <td>(L)**</td>
 </tr>
 <tr>
-<td><a href="../cmd-research/">RESEARCH KRÄUTER</a></td>
-<td>RESEARCH herbs</td>
+<td><a href="../cmd-research/">RESEARCH HERB</a></td>
 <td>search for herbs</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id KRÄUTER</a></td>
-<td>GIVE unit-id herbs</td>
+<td><a href="../cmd-give/">GIVE unit-id HERB</a></td>
 <td>give a unit all herbs</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id KOMMANDO</a></td>
-<td>GIVE unit-id command</td>
+<td><a href="../cmd-give/">GIVE unit-id COMMAND</a></td>
 <td>give a unit ship/ building control</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIVE unit-id UNIT</a></td>
-<td>GIVE unit-id UNIT</td>
 <td>give unit to a foreign faction</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id [EACH] anzahl PERSONEN</a></td>
-<td>GIVE unit-id [each] amount MEN</td>
+<td><a href="../cmd-give/">GIVE unit-id [EACH] amount MEN</a></td>
 <td>give a unit men</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id [EACH] anzahl SCHIFF</a></td>
-<td>GIVE unit-id [each] amount SHIP</td>
+<td><a href="../cmd-give/">GIVE unit-id [EACH] amount SHIP</a></td>
 <td>give SHIP to form convoys</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id [EACH] anzahl SILBER</a></td>
-<td>GIVE unit-id [each] amount SILVER</td>
+<td><a href="../cmd-give/">GIVE unit-id [EACH] amount SILBER</a></td>
 <td>give silver</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE unit-id [EACH] anzahl gegenstand</a></td>
-<td>GIVE unit-id [each] amount item</td>
+<td><a href="../cmd-give/">GIVE unit-id [EACH] amount gegenstand</a></td>
 <td>give item</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE 0 anzahl SILBER</a></td>
-<td>GIVE 0 number SILVER</td>
+<td><a href="../cmd-give/">GIVE 0 amount SILBER</a></td>
 <td>throwing away objects</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE 0 anzahl PERSONEN</a></td>
-<td>GIVE 0 number MEN</td>
+<td><a href="../cmd-give/">GIVE 0 amount MEN</a></td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-give/">GIVE 0 anzahl gegenstand</a></td>
-<td>GIVE 0 number item</td>
+<td><a href="../cmd-give/">GIVE 0 amount gegenstand</a></td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-group/">GROUP ["name"]</a></td>
 <td>forms groups of units</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id ALLES [NOT]</a></td>
-<td>HELP faction-id ALL [NOT]</td>
 <td>set up/revoke an unilateral alliance</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id GIVE [NOT]</a></td>
-<td>HELP faction-id GIVE [NOT]</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id COMBAT [NOT]</a></td>
-<td>HELP faction-id COMBAT [NOT]</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id GUARD [NOT]</a></td>
-<td>HELP faction-id GUARD [NOT]</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id SILBER [NOT]</a></td>
-<td>HELP faction-id SILVER [NOT]</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-help/">HELP faction-id PARTEITARNUNG [NOT]</a></td>
-<td>HELP faction-id FACTIONSTEALTH [NOT]</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-combat/">COMBAT</a>(./cmd-combat.md)</td>
-<td>COMBAT</td>
+<td><a href="../cmd-combat/">COMBAT</a></td>
 <td>set the combat behaviour</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT AGGRESSIV</a></td>
-<td>COMBAT AGGRESSIVE</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT DEFENSIV</a></td>
-<td>COMBAT DEFENSIVE</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT FLIEHE</a></td>
-<td>COMBAT FLEE</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT HELP [NOT]</a></td>
-<td>COMBAT HELP [NOT]</td>
 <td>the unit is [not] helped in the fight</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT REAR</a></td>
-<td>COMBAT REAR</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">COMBAT NOT</a></td>
-<td>COMBAT NOT</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="./cmd-combatspell.md [NOT]">COMBATSPELL [LEVEL n] "zauberspruch" [NOT]</a></td>
+<td><a href="../cmd-combatspell/">COMBATSPELL [LEVEL n] "spell" [NOT]</a></td>
 <td>set spell for combat</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-buy/">BUY anzahl luxusgut</a></td>
-<td>BUY amount luxurygood</td>
+<td><a href="../cmd-buy/">BUY amount luxusgut</a></td>
 <td>buy luxury item</td>
 <td>L***</td>
 </tr>
 <tr>
 <td><a href="../cmd-contact/">CONTACT unit-id</a></td>
-<td>CONTACT unit-no</td>
 <td>contact foreign unit</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-teach/">TEACH unit-id [unit-id etc.]</a></td>
-<td>TEACH unit-no</td>
 <td>teach units</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-learn/">LEARN talent</a></td>
-<td>LEARN skill</td>
 <td>learn a skill</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-learn-auto/">LEARN AUTO talent</a></td>
-<td>LEARN AUTO</td>
 <td>learn or teach a skill</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-locale/">LOCALE en/de</a></td>
-<td>LOCALE en/de</td>
 <td>no function (only for tools)</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="./cmd-make.md]">MAKE TEMP unit-alias-nr ["name"]</a></td>
+<td><a href="../cmd-make/">MAKE TEMP unit-alias-nr ["name"]</a></td>
 <td>creates a new unit</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] gebäude-typ [building-id]</a></td>
-<td>MAKE [level] building-type [building-ID]</td>
+<td><a href="../cmd-make/">MAKE [level] gebäude-typ [building-id]</a></td>
 <td>erect or extend a building</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] SCHIFF [ship-id]</a></td>
-<td>MAKE [level] SHIP [ship-ID]</td>
+<td><a href="../cmd-make/">MAKE [level] SHIP [ship-id]</a></td>
 <td>extend a ship</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE</a>(./cmd-make.md)</td>
-<td>MAKE ??</td>
+<td><a href="../cmd-make/">MAKE</a></td>
 <td>baue weiter an Gebäude/Schiff ??</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] BOOT</a></td>
-<td>MAKE [level] boat</td>
+<td><a href="../cmd-make/">MAKE [level] BOOT</a></td>
 <td>build a boat</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] LANGBOOT</a></td>
-<td>MAKE [level] longboat</td>
+<td><a href="../cmd-make/">MAKE [level] LANGBOOT</a></td>
 <td>build a longboat</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] DRACHENSCHIFF</a></td>
-<td>MAKE [level] dragonship</td>
+<td><a href="../cmd-make/">MAKE [level] DRACHENSCHIFF</a></td>
 <td>build a dragonship</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] KARAVELLE</a></td>
-<td>MAKE [level] caravel</td>
+<td><a href="../cmd-make/">MAKE [level] KARAVELLE</a></td>
 <td></td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] TRIREME</a></td>
-<td>MAKE [level] trireme</td>
+<td><a href="../cmd-make/">MAKE [level] TRIREME</a></td>
 <td></td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] GALEONE</a></td>
-<td>MAKE [level] galleon</td>
+<td><a href="../cmd-make/">MAKE [level] GALEONE</a></td>
 <td></td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [stufe] STRASSE richtung</a></td>
-<td>MAKE [level] ROAD direction</td>
+<td><a href="../cmd-make/">MAKE [level] STRASSE richtung</a></td>
 <td>build road</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [anzahl] KRÄUTER</a></td>
-<td>MAKE [amount] HERBS</td>
+<td><a href="../cmd-make/">MAKE [amount] HERB</a></td>
 <td>pick herbs in a region</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [anzahl] trank</a></td>
-<td>MAKE [amount] POTIONS</td>
+<td><a href="../cmd-make/">MAKE [amount] trank</a></td>
 <td>make a potion</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-make/">MAKE [anzahl] gegenstand</a></td>
-<td>MAKE [amount] item</td>
+<td><a href="../cmd-make/">MAKE [amount] gegenstand</a></td>
 <td>make an item</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-move/">MOVE richtung [richtung etc.]</a></td>
-<td>MOVE direction [direction]</td>
 <td>move unit</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-next/">NEXT</a>(./cmd-next.md)</td>
-<td>NEXT</td>
+<td><a href="../cmd-next/">NEXT</a></td>
 <td>ends the orders of a faction</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-number/">NUMBER UNIT [neue_nr]</a></td>
-<td>NUMBER UNIT [newID]</td>
 <td>gives a new id</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-number/">NUMBER GEBÄUDE [neue_nr]</a></td>
-<td>NUMBER CASTLE [newID]</td>
+<td><a href="../cmd-number/">NUMBER BUILDING [neue_nr]</a></td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-number/">NUMBER PARTEI [neue_nr]</a></td>
-<td>NUMBER FACTION [newID]</td>
+<td><a href="../cmd-number/">NUMBER FACTION [neue_nr]</a></td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-number/">NUMBER SCHIFF [neue_nr]</a></td>
-<td>NUMBER SHIP [newID]</td>
+<td><a href="../cmd-number/">NUMBER SHIP [neue_nr]</a></td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION AUSWERTUNG [NOT]</a></td>
-<td>OPTION</td>
 <td>Set / Revoke Options</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION COMPUTER [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION ZIPPED [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION BZIP2 [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION SILBERPOOL [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION MATERIALPOOL [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION ADRESSEN [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION ZUGVORLAGE [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION STATISTIK [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION TALENTVERSCHIEBUNG [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-option/">OPTION PUNKTE [NOT]</a></td>
-<td>OPTION</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-password/">PASSWORD "neues-passwort"</a></td>
 <td>set new password</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-plant/">PLANT [anzahl] KRÄUTER</a></td>
-<td>PLANT [amount] HERBS</td>
+<td><a href="../cmd-plant/">PLANT [amount] HERB</a></td>
 <td>Plant herbs</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-plant/">PLANT [anzahl] BÄUME</a></td>
-<td>PLANT [amount] TREES</td>
+<td><a href="../cmd-plant/">PLANT [amount] BÄUME</a></td>
 <td>Plant seeds</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-plant/">PLANT [anzahl] MALLORNSAMEN</a></td>
+<td><a href="../cmd-plant/">PLANT [amount] MALLORNSAMEN</a></td>
 <td>Plant mallorn seeds</td>
 <td>L</td>
-<td></td>
 </tr>
 <tr>
-<td><a href="../cmd-plant/">PLANT [anzahl] SAMEN</a></td>
-<td>PLANT [amount] SEEDS</td>
+<td><a href="../cmd-plant/">PLANT [amount] SAMEN</a></td>
 <td>Plant seeds</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-piracy/">PIRACY [partei_1] [partei_2] [...]</a></td>
-<td>PIRACY [faction_1] [faction_2]</td>
 <td>Set Piracy</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-prefix/">PREFIX [präfix]</a></td>
-<td>PREFIX</td>
 <td>prepend the race name with a prefix</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-region/">REGION x,y</a></td>
-<td>REGION x,y</td>
 <td>no function (only for tools)</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-recruit/">RECRUIT anzahl</a></td>
-<td>RECRUIT amount</td>
+<td><a href="../cmd-recruit/">RECRUIT amount</a></td>
 <td>recruit men (persons of your race)</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-reserve/">RESERVE anzahl "gegenstand"</a></td>
-<td>RESERVE amount item</td>
+<td><a href="../cmd-reserve/">RESERVE amount "gegenstand"</a></td>
 <td>reserve item</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-reserve/">RESERVE anzahl SILBER</a></td>
-<td>RESERVE amount silver</td>
+<td><a href="../cmd-reserve/">RESERVE amount SILBER</a></td>
 <td>reserve silver</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-route/">ROUTE richtung [richtung etc.]</a></td>
-<td>ROUTE direction [direction etc.]</td>
 <td>Travel</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-sort/">SORT BEFORE unit-id</a></td>
-<td>SORT BEFORE unit-id</td>
 <td>sort unit in report</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-sort/">SORT AFTER unit-id</a></td>
-<td>SORT AFTER unit-id</td>
 <td></td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-spy/">SPY unit-id</a></td>
-<td>SPY unit-id</td>
 <td>spy a unit</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-language/">LANGUAGE en/de</a></td>
-<td>LANGUAGE en/de</td>
 <td>Change Language for orders</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="./cmd-quit.md [FACTION Faction-id]">QUIT "passwort" [PARTEI faction-id]</a></td>
+<td><a href="../cmd-quit/">QUIT "passwort" [FACTION faction-id]</a></td>
 <td>quit the game [merge with another faction]</td>
-<td>K</td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-tax/">HIDE [stufe]</a></td>
-<td>HIDE [level]</td>
+<td><a href="../cmd-tax/">HIDE [level]</a></td>
 <td>set hide level</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-tax/">HIDE rasse</a></td>
-<td>HIDE [race]</td>
 <td>Demon: disguise as another race</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-tax/">HIDE PARTEI [NOT]</a></td>
-<td>K</td>
+<td><a href="../cmd-tax/">HIDE FACTION [NOT]</a></td>
 <td></td>
-<td></td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-tax/">HIDE PARTEI NUMBER nummer</a></td>
-<td>HIDE FACTION faction-ID</td>
+<td><a href="../cmd-tax/">HIDE FACTION NUMBER nummer</a></td>
 <td>disguised as another faction</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-carry/">CARRY unit-id</a></td>
-<td>CARRY unit-id</td>
 <td>transport another unit</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-tax/">TAX [betrag]</a></td>
-<td>TAX [amount]</td>
 <td>tax peasants (max. 20 silver/skill lvl)</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-entertain/">ENTERTAIN [betrag]</a></td>
-<td>ENTERTAIN [amount]</td>
 <td>earn 20 or more silver (max. 20 silver/skill lvl)</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-origin/">ORIGIN [x y]</a></td>
-<td>ORIGIN [x y]</td>
 <td>Sets the origin to x,y</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-forget/">FORGET talent</a></td>
-<td>FORGET skill</td>
 <td>forget a skill</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-sell/">SELL anzahl luxusgut</a></td>
-<td>SELL [amount] [ALL] good</td>
+<td><a href="../cmd-sell/">SELL amount luxusgut</a></td>
 <td>sell luxury goods</td>
 <td>(L)****</td>
 </tr>
 <tr>
-<td><a href="../cmd-leave/">LEAVE</a>(./cmd-leave.md)</td>
-<td>LEAVE</td>
+<td><a href="../cmd-leave/">LEAVE</a></td>
 <td>leave ship or building</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
 <td><a href="../cmd-cast/">CAST [REGION x y] [LEVEL n] "zauberspruch" [...]</a></td>
 <td>Cast spells</td>
 <td>(L)</td>
-<td></td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">SHOW "zauberspruch"</a></td>
-<td>SHOW</td>
 <td>retrieve spell description</td>
-<td>K</td>
+<td>C</td>
 </tr>
 <tr>
-<td><a href="../cmd-destroy/">DESTROY</a>(./cmd-destroy.md)</td>
-<td>DESTROY</td>
+<td><a href="../cmd-destroy/">DESTROY</a></td>
 <td>building, ship, or road</td>
 <td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-grow/">GROW PFERDE</a></td>
-<td>GROW HORSES</td>
 <td>breed horses, needs a stable</td>
 <td>L</td>
 </tr>
 <tr>
-<td><a href="../cmd-grow/">GROW KRÄUTER</a></td>
+<td><a href="../cmd-grow/">GROW HERB</a></td>
+<td></td>
 <td>L</td>
-<td></td>
-<td></td>
 </tr>
 <tr>
 <td><a href="../cmd-grow/">GROW BÄUME</a></td>
+<td></td>
 <td>L</td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
-<p>* voir <a href="../war/#fin-du-combat">The aftermath of battle</a>; **If the tracked unit does not move, another long order can be executed instead; ***can be combined with SELL; ****can be combined with BUY</p>
+<p>* Voir <a href="../war/#fin-du-combat">The aftermath of battle</a>;<br />
+**If the tracked unit does not move, another long order can be executed instead;<br />
+***can be combined with SELL; ****can be combined with BUY  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands/">Ordres</a></li>
 <li><a href="../commands-sequence/">Séquence des ordres</a></li>
 </ul>
-<p>Poursuivre la lecture: <a href="../first-round/">Premier tour</a></p>
+<p>Poursuivre la lecture: <a href="../first-round/">Premier tour</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung/fr&oldid=13471] -->
 
 

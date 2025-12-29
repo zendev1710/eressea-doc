@@ -7376,7 +7376,7 @@
 
 
 <h1 id="schiff">Schiff<a class="headerlink" href="#schiff" title="Permanent link">&para;</a></h1>
-<p>Schiffe werden dem Befehl <a href="../cmd-make/" title="MACHE"><strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Schiffstyp</code></em></a> gebaut. Existierende, unfertige oder beschädigte Schiffe werden mit <strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>] SCHIFF [</code><em><code>schiff-nr</code></em><code>]</code> weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen. Eine Einheit kann pro Runde (Talentstufe * Personen / Mindesttalent) Holz verbauen.</p>
+<p>Schiffe werden dem Befehl <a href="../cmd-make/"><strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Schiffstyp</code></em></a> gebaut. Existierende, unfertige oder beschädigte Schiffe werden mit <strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>] SCHIFF [</code><em><code>schiff-nr</code></em><code>]</code> weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen. Eine Einheit kann pro Runde (Talentstufe * Personen / Mindesttalent) Holz verbauen.</p>
 <p>Auch Schiffe haben Nummern, die in Befehlen gebraucht werden. Hier ein Beispiel für ein Schiff:</p>
 <div class="highlight"><pre><span></span><code>   Stolz der Sieben Winde (18), Langboot, (254/500). Dieses schöne
    Schiff war das erste, welches die Händlerfamilie Plötzbogen
@@ -7384,7 +7384,7 @@
    Befehle an die Matrosen. Er hat alles voll im Griff.
 </code></pre></div>
 <p>Bei eigenen Schiffen steht hinter dem Schiffstyp die Beladung und die Kapazität (hier 254 Gewichtseinheiten von 500 möglichen).</p>
-<p>Unter einem Schiff sind die Einheiten eingerückt, die sich auf dem Schiff befinden. Die erste Einheit ist Kapitänin und hat das Kommando über das Schiff. Sie bestimmt, welche anderen Einheiten das Schiff betreten dürfen. Sie darf das Schiff <a href="../cmd-name/" title="BENENNE">umbenennen</a> oder <a href="../cmd-describe/" title="BESCHREIBE">beschreiben</a> und sie zählt auch als Besatzung.</p>
+<p>Unter einem Schiff sind die Einheiten eingerückt, die sich auf dem Schiff befinden. Die erste Einheit ist Kapitänin und hat das Kommando über das Schiff. Sie bestimmt, welche anderen Einheiten das Schiff betreten dürfen. Sie darf das Schiff <a href="../cmd-name/">umbenennen</a> oder <a href="../cmd-describe/">beschreiben</a> und sie zählt auch als Besatzung.</p>
 <p>Im Gegensatz zu Gebäuden können Schiffe nicht erweitert werden. Wer also einmal begonnen hat, ein Langboot zu bauen, kann dies später nicht zu einer Karavelle umbauen.</p>
 <p>Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachbarte Ozeanregion ablegen.</p>
 <p>Schiffe - Reichweite, Kapazität, Talente</p>
@@ -7487,7 +7487,7 @@
 <p>Analog dazu, wie man mehrere Personen in einer Einheit haben kann, bestehen Konvois aus mehreren Schiffen des gleichen Typs, zum Beispiel</p>
 <div class="highlight"><pre><span></span><code>   Karavelle (2seh), 73 Karavellen, (12776/85410), 61% beschädigt.
 </code></pre></div>
-<p>Dafür <a href="../cmd-give/" title="GIB">übergibt</a> man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl <code>GIB capt 1 SCHIFF</code>. Die empfangende Einheit wird Kommandant eines Konvois. Die übergebende und empfangende Einheit müssen derselben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht. Die Besitzereinheit eines Konvois kommandiert alle ihre Schiffe gemeinsam und muss dafür das Mindesttalent für den Schiffstyp haben und eine Person pro Schiff. Das Gesamttalent der Besatzung muss ebenfalls ein Vielfaches entsprechend der Anzahl Schiffe sein. Die Reichweite entspricht der des Schiffstyps, maximaler Schaden und Traglast vergrößern sich entsprechend der Anzahl Schiffe.</p>
+<p>Dafür <a href="../cmd-give/">übergibt</a> man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl <code>GIB capt 1 SCHIFF</code>. Die empfangende Einheit wird Kommandant eines Konvois. Die übergebende und empfangende Einheit müssen derselben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht. Die Besitzereinheit eines Konvois kommandiert alle ihre Schiffe gemeinsam und muss dafür das Mindesttalent für den Schiffstyp haben und eine Person pro Schiff. Das Gesamttalent der Besatzung muss ebenfalls ein Vielfaches entsprechend der Anzahl Schiffe sein. Die Reichweite entspricht der des Schiffstyps, maximaler Schaden und Traglast vergrößern sich entsprechend der Anzahl Schiffe.</p>
 <p>Beispiel: Ein Konvoi aus 3 Karavellen benötigt einen Kapitän mit mindestens 3 Personen mit Segeln T3 und Besatzung mit 90 Stufen Gesamttalent. Sie haben wie zuvor eine Reichweite von 5 Feldern, aber eine Kapazität von 9000 GE. Es ist also z.B. folgende Konstellation erlaubt und seetüchtig:</p>
 <div class="highlight"><pre><span></span><code> Karavelle (2seh), 3 Karavellen, (9000/9000).
    * Kapitänsteam (k29), 3 Menschen, Talente: Segeln 3.
@@ -7509,10 +7509,10 @@
 </code></pre></div>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../travel/" title="Schiffsreise">Schiffsreise</a></li>
-<li><a href="../cmd-give/">GIB</a><a href="../cmd-give/" title="GIB">übergibt</a></li>
+<li><a href="../travel/">Schiffsreise</a></li>
+<li><a href="../cmd-give/">GIB</a><a href="../cmd-give/">übergibt</a></li>
 </ul>
-<p>Weiterlesen: <a href="../buildings/" title="Gebäude">Gebäude</a>.</p>
+<p>Weiterlesen: <a href="../buildings/">Gebäude</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
 

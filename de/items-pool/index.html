@@ -7557,7 +7557,7 @@
 <p>Besonders bei größeren Parteien verliert man als Spieler in einigen Regionen die Übersicht, zumal "Geldverteilen" eher eine langweilige Fleißarbeit ist und den Spielspaß wenig fördert.</p>
 <h2 id="der-silberpool">Der Silberpool<a class="headerlink" href="#der-silberpool" title="Permanent link">&para;</a></h2>
 <p>Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei <a href="../cmd-recruit/">REKRUTIERE</a> die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird. Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen. Dies ist nur, um zu vermeiden, dass es vergessen wird.</p>
-<p>Ebenso werden <a href="../buildings/" title="Gebäude">Gebäude</a> aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist. Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren. Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.</p>
+<p>Ebenso werden <a href="../buildings/">Gebäude</a> aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist. Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren. Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.</p>
 <p>TEMP-Einheiten können nicht reservieren. Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit <a href="../cmd-give/">GIB</a> übergeben bekommen. Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.</p>
 <p>Für den Unterhalt von Einheiten gelten besondere Regeln: hier wird alles Silber der Region benutzt, ohne Rücksicht auf vorherige Reservierungen. Einheiten geben kein Silber, das sie für ihren eigenen Unterhalt brauchen, an Einheiten weg, um deren Unterhalt zu bezahlen.</p>
 <h2 id="der-materialpool">Der Materialpool<a class="headerlink" href="#der-materialpool" title="Permanent link">&para;</a></h2>
@@ -7588,7 +7588,7 @@
 <li>Einheit c hat 20 Eisen</li>
 </ul>
 <h2 id="reserviere-und-gib">RESERVIERE und GIB<a class="headerlink" href="#reserviere-und-gib" title="Permanent link">&para;</a></h2>
-<p>Bei <a href="../cmd-reserve/">RESERVIERE</a> und <a href="../cmd-give/">GIB</a>, die vor den meisten anderen Befehlen in der <a href="../commands-sequence/" title="Befehlsreihenfolge">Befehlsreihenfolge</a> kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:</p>
+<p>Bei <a href="../cmd-reserve/">RESERVIERE</a> und <a href="../cmd-give/">GIB</a>, die vor den meisten anderen Befehlen in der <a href="../commands-sequence/">Befehlsreihenfolge</a> kommen, gilt es ein paar besondere Dinge zu beachten. Diese gelten für den Silber- und den Materialpool gleichermaßen:</p>
 <p>Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung. Also kann sie nur noch die Einheit, die sie reserviert oder bekommen hat, verbrauchen.</p>
 <p>Bei RESERVIERE-Befehlen geht die Einheit wie folgt vor: In einem ersten Durchgang reserviert jede Einheit zunächst ihre eigenen Gegenstände. Alles, was reserviert wurde, steht ab dann nicht mehr für den Pool zur Verfügung. Dann erst versuchen die Einheiten sich die Gegenstände, die sie im ersten Schritt nicht selber hatten, von anderen Einheiten aus dem Pool zu holen. Sowohl das Abarbeiten der RESERVIERE-Befehle als auch beim Holen von Gegenständen wird dabei in der Reihenfolge vorgegangen, wie die Einheiten im Report stehen - dies ist streng genommen nicht garantiert, aber seit langem die Praxis.</p>
 <p>Wenn eine Einheit mehrere RESERVIERE-Befehle für einen Gegenstand hat, gilt dies nicht additiv. Stattdessen werden alle Befehle der Reihe nach ausgeführt. Dieses Verhalten wird jedoch im Moment ebenfalls nicht garantiert, deswegen sollte eine Einheit besser nur einen RESERVIERE-Befehl pro Gegenstand haben.</p>
@@ -7679,9 +7679,9 @@
 <ul>
 <li><a href="../cmd-give/">GIB</a></li>
 <li><a href="../cmd-reserve/">RESERVIERE</a></li>
-<li><a href="../commands-sequence/" title="Befehlsreihenfolge">Befehlsreihenfolge</a></li>
+<li><a href="../commands-sequence/">Befehlsreihenfolge</a></li>
 </ul>
-<p>Weiterlesen: <a href="../war/" title="Krieg">Krieg</a>.</p>
+<p>Weiterlesen: <a href="../war/">Krieg</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
 

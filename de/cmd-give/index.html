@@ -7460,7 +7460,7 @@
 <p>Mit <code>GIB</code> können Einheiten alle Waren, die sie haben, an andere Einheiten geben. Bedingung ist, dass die angegebene Einheit Sachen annimmt. Dies tut sie nur, wenn sie zur eigenen oder einer alliierten Partei gehört (<code>HELFE GIB</code>), oder wenn sie diese Runde den Befehl <a href="../cmd-contact/">KONTAKTIERE</a> für die Gebereinheit gegeben hat. Einheiten der Monsterpartei und manche Spielereinheiten mit Monsterrassen nehmen ebenfalls nichts an. Wer Gegenstände einfach nur los werden will, kann diese auch an die Bauern übergeben oder im Ozean versenken (<code>GIB 0</code><em><code>anzahl gegenstand</code></em>). Personen, Silber und Pferde vergrößern den Bauern-, Silber- bzw. Pferdevorrat einer Landregion. Alle anderen Gegenstände verschwinden einfach.</p>
 <p>Geber- wie Empfängereinheit müssen sich natürlich in der selben Region aufhalten. Die Übergabe klappt auch auf hoher See, zwischen Schiffen und von Schiffen an Land und umgekehrt.</p>
 <p>Statt einer Anzahl kann man auch den Parameter <code>ALLES</code> (oder <code>ALLE</code>) benutzen. <code>GIB</code><em><code>einheit-nr</code></em><code>ALLE Schwerter</code> übergibt zum Beispiel alle Schwerter, die die Einheit zu dem Zeitpunkt hat. <code>GIB</code><em><code>einheit-nr</code></em><code>ALLES</code> übergibt sämtliche Gegenstände, Kräuter, Tränke und Silber, nicht aber die Personen der Einheit. Mit <code>GIB</code><em><code>einheit-nr</code></em><code>KRÄUTER</code> werden sämtliche Kräuter übergeben, welche die Einheit besitzt. Gibt man explizit den Befehl <code>GIB</code><em><code>einheit-nr</code></em><code>ALLE PERSONEN</code>, so werden alle Personen übergeben und die Einheit aufgelöst.</p>
-<p><strong>Achtung:</strong> Alle Gegenstände und Silber, die mit <code>GIB</code> übergeben wurden, sind automatisch reserviert und können auch vom Materialpool nicht mehr weiter gegeben werden! Auch <code>GIB</code> benutzt den <a href="../items-pool/" title="Materialpool">Materialpool</a>, ausgenommen im Kontext von GIB ALLES, wo die Einheit nur eigene, nicht reservierte Gegenstände gibt.</p>
+<p><strong>Achtung:</strong> Alle Gegenstände und Silber, die mit <code>GIB</code> übergeben wurden, sind automatisch reserviert und können auch vom Materialpool nicht mehr weiter gegeben werden! Auch <code>GIB</code> benutzt den <a href="../items-pool/">Materialpool</a>, ausgenommen im Kontext von GIB ALLES, wo die Einheit nur eigene, nicht reservierte Gegenstände gibt.</p>
 <p>Die Variante <code>GIB xyz JE</code> übergibt <em>anzahl</em> Gegenstände pro Person der Zieleinheit. Hat die Einheit xyz also zum Beispiel 10 Personen, so übergibt <code>GIB xyz JE 20 Silber</code> ihr 200 Silber.</p>
 <p><strong>Tip:</strong> Mit <code>@GIB</code> kann man automatische Übergaben einrichten. Zum Beispiel wird eine Einheit mit <code>@GIB abc ALLES Eisen</code> der Einheit abc jede Woche alles Eisen übergeben.</p>
 <div class="highlight"><pre><span></span><code>       GIB k3f 300 Silber
@@ -7488,7 +7488,7 @@
      ; GIB TEMP 1 200 Silber  ;  oder hier!
 </code></pre></div>
 <h2 id="personen-und-einheiten">Personen und Einheiten<a class="headerlink" href="#personen-und-einheiten" title="Permanent link">&para;</a></h2>
-<p>Will man Personen verschiedener Einheiten zusammenführen, so geschieht dies mit <code>GIB</code><em><code>einheit-nr</code></em><code>anzahl PERSONEN</code>. Dabei werden dann auch die <a href="../skills/" title="Talente">Talente</a> vermischt, und man sollte die Gegenstände nicht vergessen, da sie evtl. den Bauern zufallen, wenn die Einheit keine Personen mehr hat.</p>
+<p>Will man Personen verschiedener Einheiten zusammenführen, so geschieht dies mit <code>GIB</code><em><code>einheit-nr</code></em><code>anzahl PERSONEN</code>. Dabei werden dann auch die <a href="../skills/">Talente</a> vermischt, und man sollte die Gegenstände nicht vergessen, da sie evtl. den Bauern zufallen, wenn die Einheit keine Personen mehr hat.</p>
 <p>Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches HELFE GIB nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN. Falls die Empfängereinheit eine <a href="../races/#menschen" title="Rassen">Migranteneinheit</a> ist, darf sie außerdem zum Zeitpunkt der Übergabe keine Personen haben. Am besten sollte sie also eine leere TEMP-Einheit sein. Beispiel:</p>
 <div class="highlight"><pre><span></span><code> EINHEIT a; Partei X
  GIB TEMP x ALLES PERSONEN
@@ -7506,9 +7506,9 @@
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-reserve/">RESERVIERE</a></li>
-<li><a href="../items-pool/" title="Materialpool">Materialpool</a></li>
-<li><a href="../ships/" title="Schiff">Schiff</a></li>
-<li><a href="../buildings/" title="Gebäude">Gebäude</a></li>
+<li><a href="../items-pool/">Materialpool</a></li>
+<li><a href="../ships/">Schiff</a></li>
+<li><a href="../buildings/">Gebäude</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 

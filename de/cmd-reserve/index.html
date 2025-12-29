@@ -7401,7 +7401,7 @@
 <p><strong><code>RESERVIERE</code></strong><code></code><em><code>anzahl</code></em><code></code><em><code>gegenstand</code></em><br />
 <strong><code>RESERVIERE</code></strong><code>ALLES</code><em><code>gegenstand</code></em><br />
 <strong><code>RESERVIERE</code></strong><code>JE</code><em><code>anzahl</code></em><code></code><em><code>gegenstand</code></em>  </p>
-<p>Hiermit kann sich eine Einheit Gegenstände oder Silber von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber <a href="../items-pool/" title="Materialpool">Materialpool</a>!).</p>
+<p>Hiermit kann sich eine Einheit Gegenstände oder Silber von anderen Einheiten der Region nehmen und "sichern". Dabei ist zu beachten, dass die Einheit sich ihre Waren von irgendeiner Einheit nimmt (in der Regel von oben nach unten entsprechend der Reihenfolge im NR), es sei denn, diese Einheit hat ihrerseits diesen Gegenstand reserviert (siehe dazu aber <a href="../items-pool/">Materialpool</a>!).</p>
 <p>Mit <code>RESERVIERE ALLES</code><em><code>gegenstand</code></em> reserviert eine Einheit von dem angegebenen Gegenstand alles, was sie besitzt.</p>
 <p>Mit <code>RESERVIERE JE</code> werden <em><code>anzahl</code></em> Gegenstände <em>pro Person</em> reserviert.</p>
 <div class="highlight"><pre><span></span><code>RESERVIERE JE 100 Silber
@@ -7410,8 +7410,8 @@
 <h2 id="fehlerquellen">Fehlerquellen<a class="headerlink" href="#fehlerquellen" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>TEMP</code>-Einheiten können nicht reservieren! Silber wie Gegenstände müssen ihnen mit <a href="../cmd-give/">GIB</a> übergeben werden.</li>
-<li><code>RESERVIERE</code> kommt vor <a href="../cmd-give/">GIB</a><a href="../cmd-give/">GIB</a> und <a href="../cmd-recruit/">REKRUTIERE</a> in der <a href="../commands-sequence/" title="Befehlsreihenfolge">Befehlsreihenfolge</a>. Also bezieht sich <code>JE</code> auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.</li>
-<li>Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe <a href="../items-pool/" title="Materialpool">Materialpool</a>.</li>
+<li><code>RESERVIERE</code> kommt vor <a href="../cmd-give/">GIB</a><a href="../cmd-give/">GIB</a> und <a href="../cmd-recruit/">REKRUTIERE</a> in der <a href="../commands-sequence/">Befehlsreihenfolge</a>. Also bezieht sich <code>JE</code> auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.</li>
+<li>Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe <a href="../items-pool/">Materialpool</a>.</li>
 <li>Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.</li>
 </ul>
 <h2 id="beispiele">Beispiele<a class="headerlink" href="#beispiele" title="Permanent link">&para;</a></h2>
@@ -7429,7 +7429,7 @@
 <p>wird die Einheit ein Schwert und 50 Silber reservieren.</p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../items-pool/" title="Materialpool">Materialpool</a></li>
+<li><a href="../items-pool/">Materialpool</a></li>
 <li><a href="../cmd-give/">GIB</a><a href="../cmd-give/">GIB</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVIERE&oldid=14809] -->

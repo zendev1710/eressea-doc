@@ -2194,10 +2194,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ranged-magic" class="md-nav__link">
+  <a href="#ranged-spells" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ranged magic
+        Ranged spells
       
     </span>
   </a>
@@ -7513,10 +7513,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ranged-magic" class="md-nav__link">
+  <a href="#ranged-spells" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ranged magic
+        Ranged spells
       
     </span>
   </a>
@@ -7698,7 +7698,7 @@
 <h1 id="magic">Magic<a class="headerlink" href="#magic" title="Permanent link">&para;</a></h1>
 <p>Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in <a href="../war/">War</a>.</p>
 <h2 id="the-study-of-magic">The Study of Magic<a class="headerlink" href="#the-study-of-magic" title="Permanent link">&para;</a></h2>
-<p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a href="../magic-school-illaun/">Illaun</a>, {[tybied-spells|Tybied]}, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> or <a href="../magic-school-draig/">Draig</a>.</p>
+<p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a href="../magic-school-illaun/">Illaun</a>, <a href="../magic-school-tybied/">Tybied</a>, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> or <a href="../magic-school-draig/">Draig</a>.</p>
 <p>The faction's magic area is determined by the very first unit that learns magic in the faction.
 This is done using the <a href="../cmd-learn/"><code>LEARN MAGIC "magic area"</code></a>.
 As a result, the order is now just called <code>LEARN MAGIC "magic area"</code> and all magicians of a <a href="../factions/">faction</a> then automatically learn the magic area chosen by the faction.
@@ -7866,7 +7866,7 @@ A unit can therefore cast spells several times per round, but cannot carry out a
 But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.
 The second costs twice as much, the third four times as much, the fourth as eight times, etc.</p>
 <p>Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.
-<a href="#ranged-magic">Ranged Spells</a> also increase the casting cost.</p>
+<a href="#ranged-spells">Ranged Spells</a> also increase the casting cost.</p>
 <h3 id="caster-level">Caster level<a class="headerlink" href="#caster-level" title="Permanent link">&para;</a></h3>
 <p>The value specified as "level" is initially the minimum talent at which the unit gets the spell.</p>
 <p>Some spells have fixed effects and costs.
@@ -7897,7 +7897,7 @@ Is there any information there such as: <code>3 Aura * Level</code>, then this m
 **Miracle Doctor*</em> costs 1 aura when cast at level 1 and 30 aura when cast at level 30.
 If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.
 Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.</p>
-<h3 id="ranged-magic">Ranged magic<a class="headerlink" href="#ranged-magic" title="Permanent link">&para;</a></h3>
+<h3 id="ranged-spells">Ranged spells<a class="headerlink" href="#ranged-spells" title="Permanent link">&para;</a></h3>
 <p>Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:</p>
 <div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; &quot;Zauber&quot;
 </code></pre></div>
@@ -7920,7 +7920,7 @@ Formula: 2<sup>a</sup>, where a is the distance of the target region to the regi
 </thead>
 <tbody>
 <tr>
-<td><strong>Stones</strong> required</td>
+<td><strong>Stone</strong> required</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">4</td>
@@ -7928,7 +7928,7 @@ Formula: 2<sup>a</sup>, where a is the distance of the target region to the regi
 <td style="text-align: right;">16</td>
 </tr>
 <tr>
-<td><strong>Irons</strong> required</td>
+<td><strong>Iron</strong> required</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">20</td>
@@ -7936,7 +7936,7 @@ Formula: 2<sup>a</sup>, where a is the distance of the target region to the regi
 <td style="text-align: right;">80</td>
 </tr>
 <tr>
-<td><strong>Woods</strong> required</td>
+<td><strong>Wood</strong> required</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">20</td>
 <td style="text-align: right;">40</td>

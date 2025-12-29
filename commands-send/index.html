@@ -7524,12 +7524,12 @@ Under no circumstances should lines that are too long be wrapped independently, 
 Eressea also has various other tools that make life easier for the player.
 Here is a list of the most famous ones:</p>
 <ul>
-<li><a href="../csmapfx/">CSMapFX</a></li>
+<li><a href="../csmapfx/">CSMap</a></li>
 <li><a href="../echeck/">ECheck</a></li>
 <li><a href="../ehmv/">EHMV</a></li>
 <li><a href="../magellan/">Magellan</a></li>
-<li><a href="../commands-extended/">ExtendedCommands</a></li>
-<li><a href="../fftools/">FFTools2</a></li>
+<li><a href="../commands-extended/">Extended Commands</a></li>
+<li><a href="../fftools/">FFTools</a></li>
 <li><a href="../vorlage/">Vorlage</a></li>
 </ul>
 <h2 id="how-to-submit-orders-and-what-you-get-in-return">How to submit orders, and what you get in return<a class="headerlink" href="#how-to-submit-orders-and-what-you-get-in-return" title="Permanent link">&para;</a></h2>
@@ -7539,21 +7539,21 @@ You should make sure that the correct time is set on your computer.
 The server uses the send time as the basis for overwriting old orders, not the received time.</p>
 <p>Please note: The trains must appear as normal text (text/plain) in the text of the email (mail body).
 Alternatively, they can be in one <code>.txt</code> file can be sent as an attachment, but then the email must otherwise be empty (no text in the email body).
-Otherwise the commands will not be recognized by the game server and will be ignored! There are various [tools] that make entering moves easier, especially for larger parties.
+Otherwise the commands will not be recognized by the game server and will be ignored! There are various <a href="#how-to-submit-orders-and-what-you-get-in-return">tools</a> that make entering moves easier, especially for larger factions.
 Be careful when using web interfaces such as GMX or GMail! These have proven to be problematic in the past because emails were formatted incorrectly.
-Users of <a href="../magellan/">Magellan</a> can most conveniently send commands directly from the program, without having to go through email programs or webmailers.</p>
+Users of <a href="../magellan/">Magellan</a> can most conveniently <a href="../commands-send-from-magellan/">send orders directly from the program</a>, without having to go through email programs or webmailers.</p>
 <p>The commands must always be sent to the address [<a href="mailto:eressea-server@kn-bremen.de">eressea-server@kn-bremen.de</a>] with the subject <strong>ERESSEA 2 COMMANDS</strong> be sent.
 If these subjects are not used, the emails will not be recognized by the game server and will be ignored.
 Moves that arrive correctly are automatically checked with the ECheck syntax checker and the result of the check is sent to the player.
 An example:</p>
 <div class="highlight"><pre><span></span><code>ECHECK (Version 3.4.2, Jun 12 2000), Zug-Checker für Eressea - Freeware!
 
-Verarbeite Datei `faroul@beyond.kn-bremen.de,2&#39;.
-Rekrutierungskosten auf 75 Silber gesetzt, Warning Level 0.
-Silberpool aktiviert.
+Process file `[faroul@beyond.kn-bremen.de](mailto:faroul@beyond.kn-bremen.de)&#39;2&#39;.
+Recruitment cost set to 75 Silver, Warning Level 0.
+Silver pool activated.
 
-Es wurden Befehle für 1 Partei und 100 Einheiten gelesen.
-Die Befehle scheinen in Ordnung zu sein.
+Orders were read for 1 faction and 100 units.
+The orders seem fine.
 </code></pre></div>
 <p>This confirmation usually occurs within a few minutes.
 Since the server can unfortunately only send one command confirmation every 2 minutes for technical reasons, there may be longer waiting times, especially shortly before the evaluation.
@@ -7577,8 +7577,8 @@ also the computer report etc.</p>
 <p class="admonition-title">Warning</p>
 <p>factions with special characters in the password cannot request a report!</p>
 </div>
-<p>Please don't request the report "quickly" because you don't have it to hand at the moment. 
-uch requests cause unnecessary traffic.</p>
+<p>Please don't request the report "quickly" because you don't have it to hand at the moment.<br />
+Such requests cause unnecessary traffic.</p>
 <p>Mails an Eressea</p>
 <table>
 <thead>
@@ -7599,7 +7599,7 @@ uch requests cause unnecessary traffic.</p>
 </tbody>
 </table>
 <h2 id="what-you-need-to-consider-when-entering-data">What you need to consider when entering data<a class="headerlink" href="#what-you-need-to-consider-when-entering-data" title="Permanent link">&para;</a></h2>
-<p>Each move must begin with the line [ERESSEA xxx "password"]. xxx is your own faction number, and "password" is the faction's password.
+<p>Each move must begin with the line <a href="../cmd-eressea/">ERESSEA xxx "password"</a>. xxx is your own faction number, and "password" is the faction's password.
 Each turn must be ended with the <a href="../cmd-next/">NEXT</a> keyword.</p>
 <p>All orders are issued per unit, even if they are orders that affect the faction as a whole; someone has to do it.</p>
 <p>If the option has been activated, a template for the next command file is always sent in a separate file.
@@ -7624,8 +7624,8 @@ NEXT
 </code></pre></div>
 <p>The first line with the ECHECK is for the syntax checker.
 It recognizes this line and uses the parameters of the line.
-With the -z, the people and their assets from the comment behind the command <a href="../cmd-unit/">UNIT</a> are evaluated, and income with <a href="../cmd-work/">WORK</a> (usually 11 silver each per person) and [TAX TAXES ON] and <a href="../cmd-entertain/">ENTERTAIN</a> (20 silver each per person) are also taken into account.
-Expensive skills such as [LEARN MAGIC] and units that move silver with <a href="../cmd-move/">MOVE</a> are then evaluated and warnings are issued if there is too little silver.
+With the -z, the people and their assets from the comment behind the command <a href="../cmd-unit/">UNIT</a> are evaluated, and income with <a href="../cmd-work/">WORK</a> (usually 11 silver each per person) and <a href="../cmd-tax/">TAX TAXES ON</a> and <a href="../cmd-entertain/">ENTERTAIN</a> (20 silver each per person) are also taken into account.
+Expensive skills such as <a href="../cmd-learn/"><code>LEARN MAGIC</code></a> and units that move silver with <a href="../cmd-move/">MOVE</a> are then evaluated and warnings are issued if there is too little silver.
 The -w4 is the “warning level”, 4 means being particularly picky.
 And finally, the -r100 says that the recruitment cost of this faction is 100 silver per person.</p>
 <p>The line ; ECHECK WAGE 12 is also for ECheck and sets the wage for work in this region at 12 silver.</p>
@@ -7635,41 +7635,41 @@ The unit should either earn money (e.g. with <a href="../cmd-entertain/">ENTERTA
 <p>All <a href="../commands/">Orders</a> can be abbreviated.
 The computer simply takes the first word that corresponds to the order entered.</p>
 <ul>
-<li>NA S kann für den Computer entweder MOVE SÜDOSTEN, MOVE SÜDWESTEN oder NEXT S bedeuten, wobei der Computer im letzten Fall alle weiteren Befehle ignoriert!</li>
-<li>TE 5 bedeutet für den Computer TEMP 5, TE5 hingegen ist für den Computer ein unbekanntes Wort.</li>
+<li>MO S can mean either MOVE SOUTHEAST or MOVE SOUTHWEST to the computer, in which case the computer ignores all further orders!</li>
+<li>TE 5 means TEMP 5 to the computer, but TE5 is an unknown word to the computer</li>
 </ul>
 <p>If in doubt, you should not take any shortcuts.
 There can only be one order per line.
 If you have an email program that automatically wraps long lines of text, you can spread orders over several short lines;
 But they then have to be “extended” by adding a <code>\</code> (backslash) if the following line belongs to it:</p>
-<div class="highlight"><pre><span></span><code>Beschreibe Einheit &quot;Die alte Krieger hat sich schon lange \
-    zur Ruhe gesetzt. Sein narbenzerfurchtes Gesicht \
-    zeugt von einer langen Dienstzeit an der Front.&quot;
+<div class="highlight"><pre><span></span><code>Describe unit &quot;The ancient warrior has been around for a long time \
+    put to rest. His scarred face \
+    testifies to a long period of service at the front.&quot;
 
-Route Nordwest West West Nordwest Pause \
-    Nordwest Nordost Nordwest Nordost Pause \
-    Südwest Südost Südwest Südost Pause \
-    Südost Ost Ost Südost Südost Pause
+Route Northwest West West Northwest Pause \
+    Northwest Northeast Northwest Northeast Pause \
+    Southwest Southeast Southwest Southeast Pause \
+    Southeast East East Southeast Southeast Pause
 </code></pre></div>
 <p>All orders are case-insensitive.
 The only exception to this is the password, which must be <strong>exactly</strong> entered as it was set.</p>
 <p>If character strings are required for the orders (e.g. for the name), they must be enclosed in quotation marks if they contain spaces.
 If necessary, these character strings can span multiple lines as long as they are extended as described above.
 Between the quotation marks, multiple spaces, line breaks and tabs are always compressed to one space each.</p>
-<p>Any text that follows a semicolon ('<a href="../cmd-comment/">;</a>') is considered a <a href="../cmd-comment/">comment</a>.
+<p>Any text that follows a semicolon (<code>;</code>) is considered a <a href="../cmd-comment/">comment</a>.
 Comments can make it much easier to understand the moves you made next time.
-If you write comments using the [comment command //], the comment is automatically included in the [move template][commands] of the next round.</p>
+If you write comments using the <a href="../cmd-comment-slash/">comment order <code>//</code></a>, the comment is automatically included in the <a href="../commands/">move template</a> of the next round.</p>
 <p>Multiple trains can be sent in.
 You can certainly send in orders for only a few units and thus save yourself and the server transfer volume.
 The orders of the other units then remain unchanged.
 The date of the email (Date: header) is used as the order.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../world/">Die Welt</a></li>
-<li><a href="../first-round/">Der erste Zug</a></li>
-<li><a href="../commands/">Befehle</a></li>
+<li><a href="../world/">The World</a></li>
+<li><a href="../first-round/">The first round</a></li>
+<li><a href="../commands/">Orders</a></li>
 </ul>
-<p>Continue reading: <a href="../hints/">Hinweise</a>.</p>
+<p>Continue reading: <a href="../hints/">Hints</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
 

@@ -92,7 +92,10 @@ Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les u
 
 Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.
 
-Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
+Expérience de jeu (Solthar):
+
+An empty unit cannot hand over anything.
+This is why the order of the following orders is important:
 
 ```text
 GIVE 123 1 SHIP

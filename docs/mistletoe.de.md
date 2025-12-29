@@ -6,8 +6,10 @@ alias: mistelzweig
 
 Ein Elf und ein Zwerg unterhalten sich:
 
-Elf: "Die weißbeerige Mistel aus der Familie der Sandelholzgewächse wird als Heilmittel verwendet und gilt als Geschenk des Himmels und Zeichen des immerwährenden Lebens."
+Elf:
+> "Die weißbeerige Mistel aus der Familie der Sandelholzgewächse wird als Heilmittel verwendet und gilt als Geschenk des Himmels und Zeichen des immerwährenden Lebens."
 
-Zwerg: "So, so. Immerwährendes Leben. Schützt so ein Mistelzweig auch vor dem Hieb einer Zwergenaxt? Müsste man direkt mal ausprobieren."
+Zwerg:
+> "So, so. Immerwährendes Leben. Schützt so ein Mistelzweig auch vor dem Hieb einer Zwergenaxt? Müsste man direkt mal ausprobieren."
 
 <!-- From [https://wiki.eressea.de/index.php?title=Mistelzweig&oldid=2434] -->

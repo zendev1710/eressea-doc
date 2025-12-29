@@ -8,7 +8,7 @@ Magic is a mystical and powerful way to change and create things and can weaken 
 
 ## The Study of Magic
 
-Each faction must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], {[tybied-spells|Tybied]}, [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].
+Each faction must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], [[tybied-spells|Tybied]], [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].
 
 The faction's magic area is determined by the very first unit that learns magic in the faction.
 This is done using the [[cmd-learn|`LEARN MAGIC "magic area"`]].
@@ -205,7 +205,7 @@ Is there any information there such as: `3 Aura * Level`, then this means that f
 If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.
 Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.
 
-### Ranged magic
+### Ranged spells
 
 Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:
 
@@ -223,9 +223,9 @@ The following tables for illustration:
 
 | Distance regions (a) |  0 |  1 |  2 |  3 |   4 |
 |----------------------|---:|---:|---:|---:|----:|
-| **Stones** required  |  1 |  2 |  4 |  8 |  16 |
-| **Irons** required   |  5 | 10 | 20 | 40 |  80 |
-| **Woods** required   | 10 | 20 | 40 | 80 | 160 |
+| **Stone** required   |  1 |  2 |  4 |  8 |  16 |
+| **Iron** required    |  5 | 10 | 20 | 40 |  80 |
+| **Wood** required    | 10 | 20 | 40 | 80 | 160 |
 
 Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see [above][Aura]).
 This does not apply to other components; they are only increased by long-distance spells.
@@ -409,7 +409,7 @@ Continue reading: [[schools-of-magic]].
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
 [Aura]: #aura
-[Ranged Spells]: #ranged-magic
+[Ranged Spells]: #ranged-spells
 [Magic Resistance]: #magic-resistance
 [probability of blunders]: #blunder
 

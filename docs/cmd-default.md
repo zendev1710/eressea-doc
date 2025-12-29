@@ -20,7 +20,7 @@ So you can't see all the default orders there.
 
 All [long orders] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.
-In addition, all [[comment-with6slashes|`//`]] and all orders beginning with `@` are adopted.
+In addition, all [[comment-with-slashes|`//`]] and all orders beginning with `@` are adopted.
 The spelling may be standardized.
 
 Orders sent in:

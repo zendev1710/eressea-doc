@@ -4,6 +4,9 @@ alias: ring-of-invisibility
 ---
 # Ring of Invisibility
 
-Dieses magische Artefakt wurde seit Urzeiten von den Elfen benutzt, auf der Jagd oder um sich vor Feinden zu verbergen. Doch auch andere Rassen haben nach der Begegnung mit den Elfenvölkern den Wert des Rings schnell schätzen gelernt - schließlich macht er den Träger für jedes noch so scharfe Auge unsichtbar - nur mit magischen Mitteln ist der Verborgene noch zu entdecken.
+This magical artifact has been used by elves since ancient times, when hunting or to hide from enemies.
+
+But other races also quickly learned to appreciate the value of the ring after meeting the elven peoples: after all, it makes the wearer invisible to even the most keen eye.
+The hidden one can only be discovered with magical means.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Ring\_der\_Unsichtbarkeit&oldid=15823] -->

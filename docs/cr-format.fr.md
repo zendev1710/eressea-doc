@@ -57,9 +57,9 @@ In terms of structure, they are equivalent to string attributes, but do not have
 Example:
 
 ```text
-"MAKE Haus"
-"Thorin; ein Recke"
-"Thorin (thor) konnte kein Silber verdienen"
+"MAKE House"
+"Thorin; a warrior"
+"Thorin (thor) couldn't earn silver"
 ```
 
 ## Astuces d'implémentation

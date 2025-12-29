@@ -24,5 +24,5 @@ Combat spells cannot simply be cast. If you want to use this against a unit, you
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
 [<sup>`(l)`</sup>]: ./commands.md#short-and-long-orders
-[ranged spells]: ./magic.md#distance-magic
+[ranged spells]: ./magic.md#ranged-spells
 [cost]: ./magic.md#components

@@ -4,35 +4,36 @@ alias: players
 ---
 # Players
 
-Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene hast, oder eine kennst, die hier noch fehlt, füge sie doch bitte einfach dazu.
+Players have been making their own Eressea sites since time immemorial.
+If you have your own or know one that is still missing here, please just add it.
 
-## Allgemeines
+## General
 
-- [Flickr Pool] für Eressea-Bilder.
+- [Flickr Pool] for Eressea images
 
-## Treffen
+## Meet
 
 - [Berlin 2009]
 
-## Partei- und Bündnisseiten
+## Factions and alliance pages
 
-### Aktive Spieler
+### Active players
 
-- [Interdimensionale Tee- und Handelsgesellschaft GmbH] 1. Welt
-- [Zwerge von Brogars Clan] 4. Welt
+- [Inter-dimensional Tea and Trading Company GmbH] 1st World
+- [Dwarves of Brogar's Clan] 4th World
 
 ### Ehemalige Spieler und Bündnisse
 
-- [Imperium Romanum] Westliche 6. Welt.
+- [Imperium Romanum] Western 6th World
 - [KBC]
-- [Transozeanische Liga] Südliche 8. Welt. vernichtet.
+- [Transoceanic League] Southern 8th World. destroyed.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Spielerseiten&oldid=17009] -->
 
 [Flickr Pool]: http://www.flickr.com/groups/eressea/
 [Berlin 2009]: http://www.mogulat.de/treffen/2009
-[Interdimensionale Tee- und Handelsgesellschaft GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
-[Zwerge von Brogars Clan]: http://www.cedrik.net/eressea/index.html
+[Inter-dimensional Tea and Trading Company GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
+[Dwarves of Brogar's Clan]: http://www.cedrik.net/eressea/index.html
 [Imperium Romanum]: http://roma.ste-net.de/nuntius.php4
 [KBC]: http://www.vorlon.ruhr.de/kbc.html
-[Transozeanische Liga]: http://www.fietefietz.de/eressea/TOL/
+[Transoceanic League]: http://www.fietefietz.de/eressea/TOL/

@@ -21,7 +21,7 @@ Mais parfois, la valeur de compétence "brute" sans bonus est également nécess
 ## Learn skills
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race] ou le terrain.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [[races|race]] ou le terrain.
 Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
@@ -32,9 +32,9 @@ Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 
 
 Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.
 A [dwarven unit][nain] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
-It takes an average of two weeks to advance in the mining talent from level 3 to level 4.
+It takes an average of two weeks to advance in the mining skill from level 3 to level 4.
 
-Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [enseigner] la compétence.
+Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.
@@ -70,10 +70,10 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.
 
-[magie], [alchimie], [herboristerie][alchimie], [espionnage][alchimie] et [tactics] sont particulièrement difficiles et coûteuses.
+[[magic]], [alchimie], [herboristerie][alchimie], [espionnage][alchimie] et [[tactics]] sont particulièrement difficiles et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
-Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [tableau][magie]).
+Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [[magic|ce tableau]]).
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
 Si l'unité est dans une [academy], le coût d'apprentissage des compétences payantes est doublé.
@@ -137,44 +137,31 @@ Elles sont expliquées plus en détail dans les chapitres [[production]] et [[al
 ### Skills for making money
 
 Trade, taxation et entertainment sont nécessaires pour générer des Silver.
-Pour en savoir plus, consultez le chapitre sur [l'argent].
+Pour en savoir plus, consultez le chapitre sur [[money|l'argent]].
 
 ### Concealment & Co
 
-[espionage], [stealth] et [perception] sont centrés sur la dissimulation.
+[espionage], [[camouflage|stealth]] et [[camouflage|perception]] sont centrés sur la dissimulation.
 Elles ont leur propre chapitre.
 
 ### For travel
 
-Sailing et riding sont expliquées dans le chapitre sur les [déplacements].
-riding est également abordé dans le chapitre des [combats].
+Sailing et riding sont expliquées dans le chapitre sur les [[travel|déplacements]].
+riding est également abordé dans le chapitre des [[war-tables|combats]].
 
 ### Magic
 
-[magic][magie] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
+[[magic]] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
 
 ### Combat skills
 
 Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
 
-Continue reading: [skills list].
-
-[skills list]: ./skills-list.md
+Continue reading: [[skills list]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
-[race]: ./races.md
-[enseigner]: ./cmd-teach.md
-[magie]: ./magic.md
-[alchimie]: ./skills-list.md
-[tactics]: ./tactic.md
-[production]: ./production.md
-[l'argent]: ./silver.md
-[stealth]: ./camouflage.md
-[perception]: ./camouflage.md
-[déplacements]: ./travel.md
-[combats]: ./war-tables.md
-
+[alchimie]: ./skills-list.md#alchemy
 [espionage]: ./skills-list.md#espionage
 [academy]: ./buildings-others.md#academy
 [académie]: ./buildings-others.md#academy

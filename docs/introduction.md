@@ -7,7 +7,7 @@ alias: introduction
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Eressea map view")
 
-In Eressea, each player takes charge of a [faction] of people of a certain [race] that they can choose at [sign up]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
+In Eressea, each player takes charge of a [[factions|faction]] of people of a certain [[races|race]] that they can choose at [sign up]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
@@ -38,18 +38,17 @@ Continue reading: [World].
 
 <!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
-[faction]: ./factions.md
-[race]: ./races.md
+[magic]: ./magic.md
+[monsters]: ./monsters.md
+[orders]: ./commands.md
+[move template]: ./move-template.md
+[weekly abstract]: ./weekly-report.md
+
 [sign up]: ./hints.md#registration
 [elves]: ./races.md#elves
 [dwarves]: ./races.md#dwarves
-[magic]: ./magic.md
 [dragons]: ./monsters.md#dragons
-[monsters]: ./monsters.md
-[orders]: ./commands.md
 [NR]: ./reports.md#nr
 [CR]: ./reports.md#cr
-[automatic tools]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
-[move template]: ./move-template.md
-[weekly abstract]: ./weekly-report.md
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+[automatic tools]: ./commands-send.md#what-you-need-to-consider-when-entering-data
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express

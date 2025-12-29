@@ -4,19 +4,33 @@ alias: pentagram-and-tirawon
 ---
 # Pentagram and Tirawon
 
-The alliances **"The Pentagram"** and **"Eternal Fire of Tirawon /Green Hand of Salassar"** were two of the most powerful alliances in the 6th world and each ruled over several hundred regions. In round 381 (the last week of the month of Storm moon in Year 8 of the Second Age), theirs met...
+The alliances **"The Pentagram"** and **"Eternal Fire of Tirawon /Green Hand of Salassar"** were two of the most powerful alliances in the 6th world and each ruled over several hundred regions.
+In round 381 (the last week of the month of Storm moon in Year 8 of the Second Age), theirs met...
 
-The battle between the Pentagram and Tirawon is considered one of the greatest ever fought in Eressea. A total of 182,686 people met in the Astral plane above the 6th world, 82,398 from the Pentagram and 100,288 from Tirawon. That was almost 2% of the total population of Eressea at the time. The armies consisted mainly of elves, dwarves and halflings (together over 80%). The largest single army consisting of 32,554 elves were the Garan elves, practically all of whom were armed with elven bows, certainly a decisive factor in Tirawon's victory. Also worth mentioning are the almost 6,000 demons who fought on Tirawon's side, not a single one of them fell in battle.
+The battle between the Pentagram and Tirawon is considered one of the greatest ever fought in Eressea.
+A total of 182,686 people met in the Astral plane above the 6th world, 82,398 from the Pentagram and 100,288 from Tirawon.
+That was almost 2% of the total population of Eressea at the time.
+The armies consisted mainly of elves, dwarves and halflings (together over 80%).
+The largest single army consisting of 32,554 elves were the Garan elves, practically all of whom were armed with elven bows, certainly a decisive factor in Tirawon's victory.
+Also worth mentioning are the almost 6,000 demons who fought on Tirawon's side, not a single one of them fell in battle.
 
-What is perhaps unique is the fact that [Igjarjuk] personally --resurrected as [Undead Wyrm] --deigned to support the pentagram. The rivers of blood that were promised to him in return have flowed. Maybe not quite as the pentagram had hoped. In the end, even Igjarjuk couldn't turn the tide. His death (again) marked the end of this battle.
+What is perhaps unique is the fact that [Igjarjuk] personally --resurrected as [Undead Wyrm] --deigned to support the pentagram.
+The rivers of blood that were promised to him in return have flowed.
+Maybe not quite as the pentagram had hoped.
+In the end, even Igjarjuk couldn't turn the tide.
+His death (again) marked the end of this battle.
 
-The battle ended in Tirawon's triumphant victory. On the side of the pentagram, 76,189 people fell and 6,209 fled. Tirawon only suffered 1,192 deaths.
+The battle ended in Tirawon's triumphant victory.
+On the side of the pentagram, 76,189 people fell and 6,209 fled.
+Tirawon only suffered 1,192 deaths.
 
 Note: (*) In order not to make things unnecessarily complicated, we speak of people even if they are familiars or monsters.
 
 ## Involved factions
 
-According to the battle report, the following parties were involved. It cannot be ruled out that some participants took part in this battle under [[cmd-hide|false banner]]. The most likely candidate is the Mist Sea Man Gornt (mwq4), who posed as a dancer in the storm, but was most likely an Aquazone.
+According to the battle report, the following factions were involved.
+It cannot be ruled out that some participants took part in this battle under [[cmd-hide|false banner]].
+The most likely candidate is the Mist Sea Man Gornt (mwq4), who posed as a dancer in the storm, but was most likely an Aquazone.
 
 On pages **Tirawons** 15 peoples fought:
 

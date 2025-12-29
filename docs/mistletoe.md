@@ -4,10 +4,12 @@ alias: mistletoe
 ---
 # Mistletoe
 
-Ein Elf und ein Zwerg unterhalten sich:
+An elf and a dwarf are talking:
 
-Elf: "Die weißbeerige Mistel aus der Familie der Sandelholzgewächse wird als Heilmittel verwendet und gilt als Geschenk des Himmels und Zeichen des immerwährenden Lebens."
+Eleven:
+> "The white-berry mistletoe from the sandalwood family is used as a medicine and is considered a gift from heaven and a sign of eternal life."
 
-Zwerg: "So, so. Immerwährendes Leben. Schützt so ein Mistelzweig auch vor dem Hieb einer Zwergenaxt? Müsste man direkt mal ausprobieren."
+Dwarf:
+> "So, so. Everlasting life. Does such a mistletoe also protect against the blow of a dwarf axe? You should try it out."
 
 <!-- From [https://wiki.eressea.de/index.php?title=Mistelzweig&oldid=2434] -->

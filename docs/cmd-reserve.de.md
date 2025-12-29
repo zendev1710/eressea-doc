@@ -50,7 +50,7 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVIERE&oldid=14809] -->
 
-[Materialpool]: ./items-pool.md "Materialpool"
-[bef-gib]: ./cmd-give.md "GIB"
-[bef-rekrutiere]: ./cmd-recruit.md "REKRUTIERE"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Materialpool]: ./items-pool.md
+[bef-gib]: ./cmd-give.md
+[bef-rekrutiere]: ./cmd-recruit.md
+[Befehlsreihenfolge]: ./commands-sequence.md

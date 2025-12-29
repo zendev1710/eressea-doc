@@ -72,17 +72,17 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 
 Weiterlesen: [Parteien].
 
-[Parteien]: ./factions.md "Parteien"
+[Parteien]: ./factions.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[bef-ursprung]: ./cmd-origin.md "URSPRUNG"
-[Geländearten]: ./terrains.md "Geländearten"
-[Kräuter]: ./herbs.md "Kräuter"
+[bef-ursprung]: ./cmd-origin.md
+[Geländearten]: ./terrains.md
+[Kräuter]: ./herbs.md
 [bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
-[Befehle]: ./commands.md "Befehle"
+[Befehle]: ./commands.md
 [Insekt]: ./races.md#insekten "Insekt"
-[See]: ./travel.md "Reisen"
+[See]: ./travel.md
 [Waldwachstums]: ./resources.md#tief-im-wald "Rohstoffe"
-[Geld]: ./silver.md "Geld"
-[bef-unterhalte]: ./cmd-entertain.md "UNTERHALTE"
+[Geld]: ./silver.md
+[bef-unterhalte]: ./cmd-entertain.md

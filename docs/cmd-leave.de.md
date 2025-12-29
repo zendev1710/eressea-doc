@@ -19,7 +19,7 @@ Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-a
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERLASSE&oldid=15184] -->
 
-[Anschwimmen]./travel.md#anschwimmen "Schiffsreise"
+[Anschwimmen]./sailing.md#anschwimmen
 <!-- TODO: exclude E3 from documentation -->
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[`GIB einheit-nr KOMMANDO`]: ./cmd-give.md "GIB"
+[E3A — Das Dritte Zeitalter]: ./the-third-age.md
+[`GIB einheit-nr KOMMANDO`]: ./cmd-give.md

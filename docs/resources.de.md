@@ -26,7 +26,7 @@ Die in einer Region wild lebenden Pferde können von Einheiten mit dem Talent [P
 
 Spielererfahrung: SoltharDie maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10. In einer relativ leeren Region vermehren sie sich mit ca. 4%. Je näher sie dem Limit kommen, desto langsamer das Wachstum. Am schnellsten geht es bei ungefähr halben Besatz. In einer Ebene gibt es bei 25 Pferden jede Runde ein neues. Bei 500 Pferden kommen 10 pro Runde hinzu. Ab 1000 Pferden tut sich nichts mehr.
 
-[Arbeitsplätze]: ./world.md "Welt"
+[Arbeitsplätze]: ./world.md
 
 Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe die [Kräuterliste].
 
@@ -39,18 +39,18 @@ Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe 
 
 Weiterlesen: [Waren].
 
-[Waren]: ./items.md "Waren"
+[Waren]: ./items.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe&oldid=16865] -->
 
-[Region]: ./world.md "Welt"
-[kontaktiert]: ./cmd-contact.md "KONTAKTIERE"
-[getarnt]: ./camouflage.md "Tarnung"
-[bef-mache]: ./cmd-make.md "MACHE"
-[Kräuterkundlern]: ./skills-list.md "Liste der Talente"
-[bef-pflanze]: ./cmd-plant.md "PFLANZE"
+[Region]: ./world.md
+[kontaktiert]: ./cmd-contact.md
+[getarnt]: ./camouflage.md
+[bef-mache]: ./cmd-make.md
+[Kräuterkundlern]: ./skills-list.md
+[bef-pflanze]: ./cmd-plant.md
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
-[`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
+[`ZÜCHTE PFERDE`]: ./cmd-grow.md
 [Kräuterliste]: ./herbs.md#kraeuterliste "Kräuter"
 [Produktion]: ./production.md
 [Straßen]: ./roads.md

@@ -18,6 +18,6 @@ Achtung! Nicht verwechseln mit dem Materialpool, auf den man mit [[bef-reservier
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEANSPRUCHE&oldid=3992] -->
 
-[Parteipool]: ./faction-pool.md "Parteipool"
-[Benutzt]: ./cmd-use.md "BENUTZE"
-[bef-reserviere]: ./cmd-reserve.md "RESERVIERE"
+[Parteipool]: ./faction-pool.md
+[Benutzt]: ./cmd-use.md
+[bef-reserviere]: ./cmd-reserve.md

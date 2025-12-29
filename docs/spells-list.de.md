@@ -163,7 +163,7 @@ Weiterlesen: [[alchemie|Tränke]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
 
-[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwaechezone
+[Astrale Schwächezone]: ./spells-descriptions.md#astrale-schwachezone
 [Astraler Ausgang]: ./spells-descriptions.md#astraler-ausgang
 [Astraler Riss]: ./spells-descriptions.md#astraler-riss
 [Astraler Ruf]: ./spells-descriptions.md#astraler-ruf
@@ -176,13 +176,13 @@ Weiterlesen: [[alchemie|Tränke]].
 [Aushorchen]: ./spells-descriptions.md#aushorchen
 [Bannlied]: ./spells-descriptions.md#bannlied
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
-[Bergwächter]: ./spells-descriptions.md#bergwaechter
+[Bergwächter]: ./spells-descriptions.md#bergwachter
 [Beschleunigung]: ./spells-descriptions.md#beschleunigung
-[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwoere-schattendaemonen
-[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwoere-schattenmeister
+[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwore-schattendaemonen
+[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister
 [Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
 [Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitaet
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitat
 [Blutrausch]: ./spells-descriptions.md#blutrausch
 [Chaosfluch]: ./spells-descriptions.md#chaosfluch
 [Chaossog]: ./spells-descriptions.md#chaossog
@@ -194,12 +194,12 @@ Weiterlesen: [[alchemie|Tränke]].
 [Erschaffe ein Amulett des wahren Sehens]: ./spells-descriptions.md#erschaffe-ein-amulett-des-wahren-sehens
 [Erschaffe ein Flammenschwert]: ./spells-descriptions.md#erschaffe-ein-flammenschwert
 [Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
-[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphaere-der-unsichtbarkeit
+[Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphare-der-unsichtbarkeit
 [Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-guertel-der-trollstaerke
+[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gurtel-der-trollstaerke
 [Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
 [Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
-[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-kraeuterbeutel
+[Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-krauterbeutel
 [Erwecke Ents]: ./spells-descriptions.md#erwecke-ents
 [Feuerball]: ./spells-descriptions.md#feuerball
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel
@@ -231,17 +231,17 @@ Weiterlesen: [[alchemie|Tränke]].
 [Heimstein]: ./spells-descriptions.md#heimstein
 [Heldengesang]: ./spells-descriptions.md#heldengesang
 [Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
-[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-ueberzeugung
+[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung
 [Hohes Lied der Gaukelei]: ./spells-descriptions.md#hohes-lied-der-gaukelei
-[Kleine Flüche]: ./spells-descriptions.md#kleine-flueche
+[Kleine Flüche]: ./spells-descriptions.md#kleine-fluche
 [Kleines Blutopfer]: ./spells-descriptions.md#kleines-blutopfer
 [Kriegsgesang]: ./spells-descriptions.md#kriegsgesang
 [Lebenslied festigen]: ./spells-descriptions.md#lebenslied-festigen
 [Lied der Heilung]: ./spells-descriptions.md#lied-der-heilung
-[Lied der Verführung]: ./spells-descriptions.md#lied-der-verfuehrung
+[Lied der Verführung]: ./spells-descriptions.md#lied-der-verfuhrung
 [Lied des Ortes analysieren]: ./spells-descriptions.md#lied-des-ortes-analysieren
 [Luftschiff]: ./spells-descriptions.md#luftschiff
-[Machtübertragung]: ./spells-descriptions.md#machtuebertragung
+[Machtübertragung]: ./spells-descriptions.md#machtubertragung
 [Magie analysieren]: ./spells-descriptions.md#magie-analysieren
 [Magiefresser]: ./spells-descriptions.md#magiefresser
 [Magischer Pfad]: ./spells-descriptions.md#magischer-pfad
@@ -251,7 +251,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
 [Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
 [Monster friedlich stimmen]: ./spells-descriptions.md#monster-friedlich-stimmen
-[Mächte des Todes]: ./spells-descriptions.md#maechte-des-todes
+[Mächte des Todes]: ./spells-descriptions.md#machte-des-todes
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Pentagramm]: ./spells-descriptions.md#pentagramm
 [Plappermaul]: ./spells-descriptions.md#plappermaul
@@ -260,21 +260,21 @@ Weiterlesen: [[alchemie|Tränke]].
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
 [Rosthauch]: ./spells-descriptions.md#rosthauch
 [Rostregen]: ./spells-descriptions.md#rostregen
-[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitaet
+[Ruf der Realität]: ./spells-descriptions.md#ruf-der-realitat
 [Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
-[Rüstschild]: ./spells-descriptions.md#ruestschild
+[Rüstschild]: ./spells-descriptions.md#rustschild
 [Schaler Wein]: ./spells-descriptions.md#schaler-wein
 [Schattenritter]: ./spells-descriptions.md#schattenritter
 [Schild des Fisches]: ./spells-descriptions.md#schild-des-fisches
 [Schlaf]: ./spells-descriptions.md#schlaf
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-traume
 [Schlechter Schlaf]: ./spells-descriptions.md#schlechter-schlaf
 [Schleieraura]: ./spells-descriptions.md#schleieraura
 [Schockwelle]: ./spells-descriptions.md#schockwelle
 [Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
 [Schutzzauber]: ./spells-descriptions.md#schutzzauber
 [Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
-[Schöne Träume]: ./spells-descriptions.md#schoene-traeume
+[Schöne Träume]: ./spells-descriptions.md#schoene-traume
 [Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
 [Segen der Erde]: ./spells-descriptions.md#segen-der-erde
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
@@ -283,8 +283,8 @@ Weiterlesen: [[alchemie|Tränke]].
 [Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer
 [Stehle Aura]: ./spells-descriptions.md#stehle-aura
 [Sturmelementar]: ./spells-descriptions.md#sturmelementar
-[Störe Astrale Integrität]: ./spells-descriptions.md#stoere-astrale-integritaet
-[Süße Träume]: ./spells-descriptions.md#suesse-traeume
+[Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
+[Süße Träume]: ./spells-descriptions.md#suesse-traume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
@@ -293,17 +293,17 @@ Weiterlesen: [[alchemie|Tränke]].
 [Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
 [Traumdeuten]: ./spells-descriptions.md#traumdeuten
 [Traumlesen]: ./spells-descriptions.md#traumlesen
-[Traumschlößchen]: ./spells-descriptions.md#traumschloesschen
+[Traumschlößchen]: ./spells-descriptions.md#traumschlesschen
 [Traumsenden]: ./spells-descriptions.md#traumsenden
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
 [Untote Helden]: ./spells-descriptions.md#untote-helden
 [Vertrauten rufen]: ./spells-descriptions.md#vertrauten-rufen
-[Verwünschung]: ./spells-descriptions.md#verwuenschung
+[Verwünschung]: ./spells-descriptions.md#verwunschung
 [Viehheilung]: ./spells-descriptions.md#viehheilung
 [Wahnsinn des Krieges]: ./spells-descriptions.md#wahnsinn-des-krieges
 [Wahrsagen]: ./spells-descriptions.md#wahrsagen
 [Wasserelementar]: ./spells-descriptions.md#wasserelementar
-[Weg der Bäume]: ./spells-descriptions.md#weg-der-baeume
+[Weg der Bäume]: ./spells-descriptions.md#weg-der-baume
 [Wiederbelebung]: ./spells-descriptions.md#wiederbelebung
 [Windschild]: ./spells-descriptions.md#windschild
 [Wirbelwind]: ./spells-descriptions.md#wirbelwind

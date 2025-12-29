@@ -89,7 +89,7 @@ Seid nett zueinander. Auch euer ärgster Feind im Spiel ist sicherlich ein nette
 
 Weiterlesen: [Anfängertipps].
 
-[Anfängertipps]: ./getting-started-tips.md "Anfängertipps"
+[Anfängertipps]: ./getting-started-tips.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366] -->
 

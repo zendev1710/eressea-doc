@@ -33,4 +33,4 @@ Vorsicht:
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORT&oldid=6276] -->
 
-[bef-eressea]: ./cmd-eressea.md "ERESSEA"
+[bef-eressea]: ./cmd-eressea.md

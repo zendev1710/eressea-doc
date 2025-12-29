@@ -54,7 +54,7 @@ Weiterlesen: [Danksagung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Xontormia\_Express&oldid=16988] -->
 
-[Danksagung]: ./thanks.md "Danksagung"
+[Danksagung]: ./thanks.md
 [Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [express@eressea.de]: mailto:express@eressea.de
 [Ankündigung des neuen XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025

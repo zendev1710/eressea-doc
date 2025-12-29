@@ -6,9 +6,14 @@ alias: objets
 
 ## Production d'objets
 
-Les produits finis peuvent être fabriqués en n'importe quelle quantité. Les seules limites sont, d'une part, la matière première disponible et, d'autre part, le nombre et le niveau de compétence des personnes qui fabriquent les produits.
+Les produits finis peuvent être fabriqués en n'importe quelle quantité.
+Les seules limites sont, d'une part, la matière première disponible et, d'autre part, le nombre et le niveau de compétence des personnes qui fabriquent les produits.
 
-Le tableau suivant montre les objets disponibles sur Eressea. Ils ne peuvent être fabriqués que si l'unité concernée a également la compétence correspondante à un niveau suffisamment élevé. Le total des niveaux de compétence est toujours divisé par le niveau de compétence requis pour la production de ces objets (voir [ces exemples]). Cela vaut également pour les matières premières ! Un mineur avec mining 4 dans une région avec "20 fer/4" peut extraire 4 fer par tour (et pas seulement 1 fer).
+Le tableau suivant montre les objets disponibles sur Eressea.
+Ils ne peuvent être fabriqués que si l'unité concernée a également la compétence correspondante à un niveau suffisamment élevé.
+Le total des niveaux de compétence est toujours divisé par le niveau de compétence requis pour la production de ces objets (voir [ces exemples]).
+Cela vaut également pour les matières premières !
+Un mineur avec mining 4 dans une région avec "20 fer/4" peut extraire 4 fer par tour (et pas seulement 1 fer).
 
 Poids, compétence et ressources nécessaires.
 
@@ -58,9 +63,8 @@ Poids, compétence et ressources nécessaires.
 | Laenschild        | Laen shield          |     0 | Armoursmithing |    7 | 1 Laen               |
 | Tränke            | Potions              |     0 | Alchemy        |    2 | Herbs                |
 
-\* L'extraction du Laen et adamantium nécessitent une mine.
-
-\*\* Les Elven bows peuvent uniquement être fait par des elfes.
+\* L'extraction du Laen et adamantium nécessitent une mine.  
+\*\* Les Elven bows peuvent uniquement être fait par des elfes.  
 
 ## Voir aussi
 

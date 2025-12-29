@@ -30,4 +30,4 @@ With evaluation number 559, the Material Pool and Silver Pool options were set a
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[Silver Pool]: ./items-pool.fr.md#réserve-dargent
+[Silver Pool]: ./items-pool.md#reserve-dargent

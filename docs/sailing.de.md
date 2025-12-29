@@ -94,28 +94,28 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 
 Weiterlesen: [Produktion].
 
-[Produktion]: ./production.md "Produktion"
+[Produktion]: ./production.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
-[Schiffen]: ./ships.md "Schiff"
+[Schiffen]: ./ships.md
 [**Hafen**]: ./buildings-others.md#hafen "Andere Gebäude"
 [Schaden]: #schiffsschaden
-[bef-helfe]: ./cmd-help.md "HELFE"
-[bef-folge]: ./cmd-follow.md "FOLGE"
+[bef-helfe]: ./cmd-help.md
+[bef-folge]: ./cmd-follow.md
 [Piraterie]: ./war.md#piraterie "Krieg"
 [Waren]: ./items.md#gegenstaende "Waren"
 [Reisen]: ./travel.md#rassengewichte "Reisen"
 [Konvoi]: ./ships.md#konvoi "Schiffe"
-[Schiffe]: ./ships.md "Schiffe"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
-[bef-arbeite]: ./cmd-work.md "ARBEITE"
-[Geld verdienen]: ./silver.md "Geld"
-[bef-verlasse]: ./cmd-leave.md "VERLASSE"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
-[bef-transportiere]: ./cmd-carry.md "TRANSPORTIERE"
+[Schiffe]: ./ships.md
+[bef-nach]: ./cmd-move.md
+[bef-route]: ./cmd-route.md
+[bef-arbeite]: ./cmd-work.md
+[Geld verdienen]: ./silver.md
+[bef-verlasse]: ./cmd-leave.md
+[bef-fahre]: ./cmd-ride.md
+[bef-transportiere]: ./cmd-carry.md
 [Meermenschen]: ./races.md#meermenschen "Meermenschen"
 [Kampf auf Schiffen]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
-[1]: ./cmd-make.md "MACHE"
-[2]: ./travel.md "Reisen"
+[1]: ./cmd-make.md
+[2]: ./travel.md

@@ -15,5 +15,5 @@ So ändert man die Sprache der Partei von Englisch auf Deutsch oder umgekehrt. D
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPRACHE&oldid=16697] -->
 
-[Zugvorlage]:./commands.md "Befehl"
-[bef-locale]:./cmd-locale.md "LOCALE"
+[Zugvorlage]:./commands.md
+[bef-locale]:./cmd-locale.md

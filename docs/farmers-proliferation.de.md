@@ -10,4 +10,4 @@ Mittels [Bauernlieb] kann die Vermehrungsrate deutlich angehoben werden. Bis zu 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernvermehrung&oldid=7120] -->
 
-[Bauernlieb]: ./alchemy.md "Tränke"
+[Bauernlieb]: ./alchemy.md

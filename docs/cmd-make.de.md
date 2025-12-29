@@ -113,19 +113,19 @@ Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit b
 <!-- From [https://wiki.eressea.de/index.php?title=MACHE&oldid=16728] -->
 
 [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-[Produktion]: ./production.md "Produktion"
-[Gegenstände]: ./items.md "Waren"
-[Rohstoffe]: ./resources.md "Rohstoffe"
-[Alchemie-Kapitel]: ./skills-list.md "Liste der Talente"
-[Kräuterkunde]: ./skills-list.md "Kräuterkunde"
-[Kräuter]: ./herbs.md "Kräuter"
+[Produktion]: ./production.md
+[Gegenstände]: ./items.md
+[Rohstoffe]: ./resources.md
+[Alchemie-Kapitel]: ./skills-list.md
+[Kräuterkunde]: ./skills-list.md
+[Kräuter]: ./herbs.md
 [wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten "Parteien"
-[Gebäude]: ./buildings.md "Gebäude"
-[Schiff]: ./ships.md "Schiffe"
-[Straßen]: ./roads.md "Straßen"
-[Straßenbau]: ./skills-list.md#straßenbau "Straßenbau"
-[Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
-[Karawanserei]: ./buildings-others.md#karawanserei "Andere Gebäude"
-[Damm]: ./buildings-others.md#damm "Andere Gebäude"
-[Geländearten]: ./terrains.md "Geländearten"
-[Alchemie]: ./alchemy.md "Alchemie"
+[Gebäude]: ./buildings.md
+[Schiff]: ./ships.md
+[Straßen]: ./roads.md
+[Straßenbau]: ./skills-list.md#straßenbau
+[Tunnel]: ./buildings-others.md#tunnel
+[Karawanserei]: ./buildings-others.md#karawanserei
+[Damm]: ./buildings-others.md#damm
+[Geländearten]: ./terrains.md
+[Alchemie]: ./alchemy.md

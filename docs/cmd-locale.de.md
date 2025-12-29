@@ -13,4 +13,4 @@ Zum andern ist er, wenn er von einer Einheit gegeben wird, ein Synonym von [[bef
 
 <!-- From [https://wiki.eressea.de/index.php?title=LOCALE&oldid=6692] -->
 
-[bef-sprache]: ./cmd-language.md "SPRACHE"
+[bef-sprache]: ./cmd-language.md

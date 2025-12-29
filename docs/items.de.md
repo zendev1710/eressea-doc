@@ -72,12 +72,12 @@ Gewicht, Talente und Materialbedarf
 
 Weiterlesen: [Straße].
 
-[Straße]: ./roads.md "Straße"
+[Straße]: ./roads.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
 
-[diese Beispiele]: ./production.md "Produktion"
-[Rohstoffe]: ./resources.md "Rohstoffe"
-[Straßen]: ./roads.md "Straßen"
-[Gebäude]: ./buildings.md "Gebäude"
-[Kriegstabellen]: ./war-tables.md "Kriegstabellen"
+[diese Beispiele]: ./production.md
+[Rohstoffe]: ./resources.md
+[Straßen]: ./roads.md
+[Gebäude]: ./buildings.md
+[Kriegstabellen]: ./war-tables.md

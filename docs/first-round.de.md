@@ -237,6 +237,6 @@ Weiterlesen: [Welpenschutz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Welpenschutz]: ./puppy-protection.md "Welpenschutz"
-[Magellan]: ./magellan.md "Magellan"
+[Welpenschutz]: ./puppy-protection.md
+[Magellan]: ./magellan.md
 [Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/

@@ -158,15 +158,15 @@ In älteren Versionen war der Materialpool eine optionale Einstellung, die jeder
 
 Weiterlesen: [Krieg].
 
-[Krieg]: ./war.md "Krieg"
+[Krieg]: ./war.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
 [bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
-[Gebäude]: ./buildings.md "Gebäude"
-[bef-gib]: ./cmd-give.md "GIB"
-[bef-mache]: ./cmd-make.md "MACHE"
-[bef-reserviere]: ./cmd-reserve.md "RESERVIERE"
-[bef-benutze]: ./cmd-use.md "BENUTZE"
-[bef-zaubere]: ./cmd-cast.md "ZAUBERE"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Gebäude]: ./buildings.md
+[bef-gib]: ./cmd-give.md
+[bef-mache]: ./cmd-make.md
+[bef-reserviere]: ./cmd-reserve.md
+[bef-benutze]: ./cmd-use.md
+[bef-zaubere]: ./cmd-cast.md
+[Befehlsreihenfolge]: ./commands-sequence.md

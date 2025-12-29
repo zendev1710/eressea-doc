@@ -167,36 +167,36 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 
 Weiterlesen: [Materialpool].
 
-[Materialpool]: ./items-pool.md "Materialpool"
+[Materialpool]: ./items-pool.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld&oldid=16840] -->
 
-[Arbeiten]: ./cmd-work.md "ARBEITE"
-[Unterhalten]: ./cmd-entertain.md "UNTERHALTE"
-[Steuern eintreiben]: ./cmd-tax.md "TREIBE"
+[Arbeiten]: ./cmd-work.md
+[Unterhalten]: ./cmd-entertain.md
+[Steuern eintreiben]: ./cmd-tax.md
 [Handel]: ./silver.md#handel "Geld"
-[Rassen]: ./races.md "Rassen"
-[rekrutieren]: ./cmd-recruit.md "REKRUTIERE"
-[Tabelle der Rasseneigenschaften]: ./skills-modifiers.md "Talentmodifikatoren"
-[HELFE SILBER]: ./cmd-help.md "HELFE"
-[hier]: ./alliances.md "Allianz"
-[reserviert]: ./cmd-reserve.md "RESERVIERE"
-[Gebäude]: ./buildings.md "Gebäude"
+[Rassen]: ./races.md
+[rekrutieren]: ./cmd-recruit.md
+[Tabelle der Rasseneigenschaften]: ./skills-modifiers.md
+[HELFE SILBER]: ./cmd-help.md
+[hier]: ./alliances.md
+[reserviert]: ./cmd-reserve.md
+[Gebäude]: ./buildings.md
 [Meermenschen]: ./races.md#meermenschen "Meermensch"
-[Schaden]: ./ships.md "Schiff"
+[Schaden]: ./ships.md
 [Kampfende]: ./war.md#kampfende "Kampfende"
-[Ausdauertalent]: ./war-tables.md "Kriegstabellen"
+[Ausdauertalent]: ./war-tables.md
 [Untote]: ./monsters.md#untote "Untote"
 [Burgen-Tabelle]: ./castles.md#uebersicht "Burg"
-[bef-beklaue]: ./camouflage.md "BEKLAUE"
-[Tarnungstalent]: ./camouflage.md "Tarnung"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Tarnung]: ./camouflage.md "Tarnung"
-[kaufen]: ./cmd-buy.md "KAUFE"
-[verkaufen]: ./cmd-sell.md "VERKAUFE"
-[Burgen]: ./castles.md "Burgen"
-[Hafen]: ./buildings-others.md "Andere Gebäude"
-[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
-[bef-gib]: ./cmd-give.md "GIB"
+[bef-beklaue]: ./camouflage.md
+[Tarnungstalent]: ./camouflage.md
+[Wahrnehmung]: ./camouflage.md
+[Tarnung]: ./camouflage.md
+[kaufen]: ./cmd-buy.md
+[verkaufen]: ./cmd-sell.md
+[Burgen]: ./castles.md
+[Hafen]: ./buildings-others.md
+[bef-kontaktiere]: ./cmd-contact.md
+[bef-gib]: ./cmd-give.md
 [bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
-[bef-bewache]: ./cmd-guard.md "BEWACHE"
+[bef-bewache]: ./cmd-guard.md

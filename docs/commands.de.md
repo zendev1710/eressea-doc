@@ -106,31 +106,31 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 
 Weiterlesen: [Befehlsreihenfolge].
 
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Befehlsreihenfolge]: ./commands-sequence.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
-[`OPTION ZUGVORLAGE`]: ./cmd-option.md "OPTION"
-[bef-arbeite]: ./cmd-work.md "ARBEITE"
-[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
-[bef-beklaue]: ./camouflage.md "BEKLAUE"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
-[bef-folge]: ./cmd-follow.md "FOLGE"
-[bef-forsche]: ./cmd-research.md "FORSCHE"
-[bef-kaufe]: ./cmd-buy.md "KAUFE"
-[bef-lehre]: ./cmd-teach.md "LEHRE"
-[bef-lerne]: ./cmd-learn.md "LERNE"
-[bef-mache]: ./cmd-make.md "MACHE"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-pflanze]: ./cmd-plant.md "PFLANZE"
-[bef-piraterie]: ./cmd-piracy.md "PIRATERIE"
-[bef-route]: ./cmd-route.md "ROUTE"
-[bef-spioniere]: ./cmd-spy.md "SPIONIERE"
-[bef-treibe]: ./cmd-tax.md "TREIBE"
-[bef-unterhalte]: ./cmd-entertain.md "UNTERHALTE"
-[bef-verkaufe]: ./cmd-sell.md "VERKAUFE"
-[bef-zaubere]: ./cmd-cast.md "ZAUBERE"
-[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
-[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
-[bef-default]: ./cmd-default.md "DEFAULT"
+[`OPTION ZUGVORLAGE`]: ./cmd-option.md
+[bef-arbeite]: ./cmd-work.md
+[bef-attackiere]: ./cmd-attack.md
+[bef-beklaue]: ./camouflage.md
+[bef-fahre]: ./cmd-ride.md
+[bef-folge]: ./cmd-follow.md
+[bef-forsche]: ./cmd-research.md
+[bef-kaufe]: ./cmd-buy.md
+[bef-lehre]: ./cmd-teach.md
+[bef-lerne]: ./cmd-learn.md
+[bef-mache]: ./cmd-make.md
+[bef-nach]: ./cmd-move.md
+[bef-pflanze]: ./cmd-plant.md
+[bef-piraterie]: ./cmd-piracy.md
+[bef-route]: ./cmd-route.md
+[bef-spioniere]: ./cmd-spy.md
+[bef-treibe]: ./cmd-tax.md
+[bef-unterhalte]: ./cmd-entertain.md
+[bef-verkaufe]: ./cmd-sell.md
+[bef-zaubere]: ./cmd-cast.md
+[ZERSTÖRE]: ./cmd-destroy.md
+[ZÜCHTE]: ./cmd-grow.md
+[Kurzbeschreibung]: ./commands-list.md
+[bef-default]: ./cmd-default.md

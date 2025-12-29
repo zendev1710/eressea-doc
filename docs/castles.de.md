@@ -57,11 +57,11 @@ Weiterlesen: [Andere Gebäude].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
 
-[Andere Gebäude]: ./buildings-others.md "Andere Gebäude"
-[Pest]: ./plague.md "Pest (to be documented)"
-[MACHE BURG]: ./cmd-make.md "MACHE"
-[Krieg]: ./war.md "Krieg"
+[Andere Gebäude]: ./buildings-others.md
+[Pest]: ./plague.md
+[MACHE BURG]: ./cmd-make.md
+[Krieg]: ./war.md
 [Boni und Mali]: ./war.md#boni-und-mali "Boni und Mali"
 [Übersichtstabelle]: #übersicht
-[Gebäude]: ./buildings.md "Gebäude"
+[Gebäude]: ./buildings.md
 [Einnahmen]: ./silver.md#einnahmen "Einnahmen"

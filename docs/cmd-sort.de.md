@@ -18,7 +18,7 @@ Die Sortierung erfolgt ganz am Ende der Runde, nach der Bewegung. Man kann also 
 
 <!-- From [https://wiki.eressea.de/index.php?title=SORTIERE&oldid=16704] -->
 
-[Zugvorlage]: ./commands.md "Befehl"
-[GIB einheit-nr KOMMANDO]: ./cmd-give.md "GIB"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
+[Zugvorlage]: ./commands.md
+[GIB einheit-nr KOMMANDO]: ./cmd-give.md
+[bef-nach]: ./cmd-move.md
+[bef-fahre]: ./cmd-ride.md

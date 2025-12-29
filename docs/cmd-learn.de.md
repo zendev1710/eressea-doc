@@ -24,10 +24,10 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE&oldid=16727] -->
 
 [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-[Talent]: ./skills.md "Talente"
+[Talent]: ./skills.md
 [lernen]: ./skills.md#talente-erlernen "Talente"
-[Liste der Talente]: ./skills-list.md "Liste der Talente"
-[Magiegebiet]: ./magic.md "Magie"
-[ECheck]: ./echeck.md "ECheck"
-[Lehrern]: ./cmd-teach.md "LEHRE"
-[LERNE AUTO]: ./cmd-learn-auto.md "LERNE AUTO"
+[Liste der Talente]: ./skills-list.md
+[Magiegebiet]: ./magic.md
+[ECheck]: ./echeck.md
+[Lehrern]: ./cmd-teach.md
+[LERNE AUTO]: ./cmd-learn-auto.md

@@ -41,11 +41,11 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
 [Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
-[bewaffnet]: ./armed.md "Bewaffnet"
-[alliiert]: ./alliances.md "Allianz"
-[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
+[bewaffnet]: ./armed.md
+[alliiert]: ./alliances.md
+[bef-kontaktiere]: ./cmd-contact.md
 [Kampfende]: ./war.md#das-ende "Kampfende"
-[KÄMPFE FLIEHE]: ./cmd-combat.md "KÄMPFE"
-[Monster]: ./monsters.md "Monster"
-[ersten Wochen]: ./puppy-protection.md "Welpenschutz"
+[KÄMPFE FLIEHE]: ./cmd-combat.md
+[Monster]: ./monsters.md
+[ersten Wochen]: ./puppy-protection.md
 [handel]: ./silver.md#handel

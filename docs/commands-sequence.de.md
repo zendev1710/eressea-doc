@@ -83,16 +83,16 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 
 Weiterlesen: [Kurzbeschreibung].
 
-[Kurzbeschreibung]: ./commands-list.md "Kurzbeschreibung"
+[Kurzbeschreibung]: ./commands-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
 
-[BEWACHE NICHT]: ./cmd-guard.md "BEWACHE"
-[KÄMPFE]: ./cmd-combat.md "KÄMPFE"
-[GIB KOMMANDO]: ./cmd-give.md "GIB"
-[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[BEZAHLE NICHT]: ./cmd-pay-not.md "BEZAHLE"
-[ZÜCHTE]: ./cmd-grow.md "ZÜCHTE"
+[BEWACHE NICHT]: ./cmd-guard.md
+[KÄMPFE]: ./cmd-combat.md
+[GIB KOMMANDO]: ./cmd-give.md
+[ZERSTÖRE]: ./cmd-destroy.md
+[BEZAHLE NICHT]: ./cmd-pay-not.md
+[ZÜCHTE]: ./cmd-grow.md
 [Erläuterungen]: #erläuterungen
-[Materialpool]: ./items-pool.md "Materialpool"
-[Befehle]: ./commands.md "Befehle"
+[Materialpool]: ./items-pool.md
+[Befehle]: ./commands.md

@@ -88,9 +88,9 @@ Weiterlesen: [Gebäude].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
-[Gebäude]: ./buildings.md "Gebäude"
-[1]: ./cmd-make.md "MACHE"
-[umbenennen]: ./cmd-name.md "BENENNE"
-[beschreiben]: ./cmd-describe.md "BESCHREIBE"
-[übergibt]: ./cmd-give.md "GIB"
-[Schiffsreise]: ./travel.md "Schiffsreise"
+[Gebäude]: ./buildings.md
+[1]: ./cmd-make.md
+[umbenennen]: ./cmd-name.md
+[beschreiben]: ./cmd-describe.md
+[übergibt]: ./cmd-give.md
+[Schiffsreise]: ./travel.md

@@ -52,10 +52,10 @@ Sind eine strategische Investition. Wichtige Nachbarregionen sichern, aber nur, 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Magellan]: ./magellan.md "Magellan"
-[CSMap]: ./csmapfx.md "CSMap"
+[Magellan]: ./magellan.md
+[CSMap]: ./csmapfx.md
 [Aktion]:./commands.md#kurze-und-lange-befehle "Befehl"
-[bewacht]: ./cmd-guard.md "BEWACHE"
-[attackiert]: ./cmd-attack.md "ATTACKIERE"
+[bewacht]: ./cmd-guard.md
+[attackiert]: ./cmd-attack.md
 [Hungern]: ./silver.md#hunger "Geld"
-[Materialpool]: ./items-pool.md "Materialpool"
+[Materialpool]: ./items-pool.md

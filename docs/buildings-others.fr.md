@@ -336,16 +336,16 @@ Poursuivre la lecture : [pool de factions].
 [water of life]: ./alchemy.md
 [USE 1 water~of~life]: ./cmd-use.md
 [HELP GUARD]: ./cmd-help.md
-[tableau des chateaux]: ./castles.md#übersicht
+[tableau des chateaux]: ./castles.md#apercu
 [puissant sort]: ./spells-descriptions.md#segne-steinkreis
 [Bâtiments]: ./buildings.md
 [Châteaux]: ./castles.md
 [Production]: ./production.md
 [pool de factions]: ./faction-pool.md
-[Construction d'un château]: ./castles.md#aperçu
+[Construction d'un château]: ./castles.md#apercu
 [Phare]: #phare
 [Mine]: #mine
-[Carrière]: #carrière
+[Carrière]: ./#carriere
 [Scierie]: #scierie
 [Forge]: #forge
 [Haras]: #haras

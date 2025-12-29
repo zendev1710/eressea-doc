@@ -16,4 +16,4 @@ Dieser Befehl beendet die Eingabe der Befehle für eine temporäre Einheit, die 
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENDE&oldid=3999] -->
 
-[`MACHE TEMP`]: ./cmd-make.md "MACHE"
+[`MACHE TEMP`]: ./cmd-make.md

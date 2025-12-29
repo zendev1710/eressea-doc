@@ -23,4 +23,4 @@ In Gletschern, Sümpfen und Wüsten ist Straßenbau nur möglich, wenn dort spez
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten&oldid=9079] -->
 
-[Gebäude]: ./buildings-others.md "Andere Gebäude"
+[Gebäude]: ./buildings-others.md

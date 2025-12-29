@@ -38,10 +38,10 @@ Mit dem Befehl `FAHRE` schließt sich eine Einheit einer transportierenden Einhe
 
 <!-- From [https://wiki.eressea.de/index.php?title=FAHRE&oldid=16721] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
-[Meermenschen]: ./races.md#meermenschen "Meermenschen"
-[Anschwimmen]: ./travel.md#anschwimmen "Schiffsreisen"
-[Insekten]: ./races.md#insekten "Insekt"
-[Reisen]: ./travel.md "Reisen"
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
+[<sup>`L`</sup>]: ./commands.md#kurzlang
+[Meermenschen]: ./races.md#meermenschen
+[Anschwimmen]: ./sailing.md#anschwimmen
+[Insekten]: ./races.md#insekten
+[Reisen]: ./travel.md
+[bef-nach]: ./cmd-move.md
+[bef-route]: ./cmd-route.md

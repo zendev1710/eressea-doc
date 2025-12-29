@@ -32,5 +32,5 @@ Spielererfahrung: XolgrimEin Block für LERNE AUTO besteht pro Region und Talent
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE\_AUTO&oldid=15393] -->
 
-[Lernen]: ./cmd-learn.md "LERNE"
-[Lehren]: ./cmd-teach.md "LEHRE"
+[Lernen]: ./cmd-learn.md
+[Lehren]: ./cmd-teach.md

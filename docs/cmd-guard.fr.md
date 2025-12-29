@@ -53,6 +53,6 @@ In the [[puppy-protection|first few weeks]] your faction cannot guard yet.
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
-[arme]: ./war-tables.md#armes-et-leurs-propriétés
+[arme]: ./war-tables.md#armes-et-leurs-proprietes
 [trade]: ./silver.md#commerce
 [End of battle]: ./war.md#fin-du-combat

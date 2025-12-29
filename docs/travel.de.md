@@ -77,16 +77,16 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 
 Weiterlesen: [Schiffsreise].
 
-[Schiffsreise]: ./sailing.md "Schiffsreise"
+[Schiffsreise]: ./sailing.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133] -->
 
-[bef-nach]: ./cmd-move.md "NACH"
-[bef-route]: ./cmd-route.md "ROUTE"
-[bef-transportiere]: ./cmd-carry.md "TRANSPORTIERE"
-[bef-fahre]: ./cmd-ride.md "FAHRE"
-[bef-folge]: ./cmd-follow.md "FOLGE"
-[bef-bewache]: ./cmd-guard.md "BEWACHE"
-[diese Tabelle]: ./items.md "Waren"
-[Straßen]: ./roads.md "Straße"
-[Schiffe]: ./ships.md "Schiff"
+[bef-nach]: ./cmd-move.md
+[bef-route]: ./cmd-route.md
+[bef-transportiere]: ./cmd-carry.md
+[bef-fahre]: ./cmd-ride.md
+[bef-folge]: ./cmd-follow.md
+[bef-bewache]: ./cmd-guard.md
+[diese Tabelle]: ./items.md
+[Straßen]: ./roads.md
+[Schiffe]: ./ships.md

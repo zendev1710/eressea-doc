@@ -130,7 +130,7 @@ Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten
 
 Weiterlesen: [Talentmodifikatoren].
 
-[Talentmodifikatoren]: ./skills-modifiers.md "Talentmodifikatoren"
+[Talentmodifikatoren]: ./skills-modifiers.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
@@ -139,20 +139,20 @@ Weiterlesen: [Talentmodifikatoren].
 [Rekrutierte]: ./silver.md#rekrutieren
 [Regionskapazität]: ./world.md
 [Elfenbögen]: ./war-tables.md#waffeneigenschaften
-[klauen]: ./cmd-steal.md "BEKLAUE"
+[klauen]: ./cmd-steal.md
 [Schiffe]: ./ships.md
-[fliehen]: ./war.md#die-flucht "Krieg"
+[fliehen]: ./war.md#die-flucht
 [Drachen]: ./monsters.md#drachen
 [Alchemie]: ./skills-list.md
 [Trank]: ./alchemy.md
 [hier]: ./war-tables.md#rasseneigenschaften
-[Taktik]: ./tactic.md "Taktik"
+[Taktik]: ./tactic.md
 [handeln]: ./silver.md#handel
 [bewegen]: ./travel.md
 [lange Befehle]: ./commands.md
-[Anschwimmen]: ./travel.md#anschwimmen
+[Anschwimmen]: ./sailing.md#anschwimmen
 [teuren Talenten]: ./skills.md
-[Helden]: ./cmd-promote.md "BEFÖRDERE"
+[Helden]: ./cmd-promote.md
 [abgebaute Steine]: ./resources.md#vom-bergbau
 [Steinbruch]: ./buildings-others.md#steinbruch
 [11]: ./buildings-others.md#bergwerk

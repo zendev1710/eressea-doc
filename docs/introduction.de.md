@@ -36,19 +36,19 @@ Weiterlesen: [Welt].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805] -->
 
-[Welt]: ./world.md "Welt"
-[Partei]: ./factions.md "Partei"
-[Rasse]: ./races.md "Rassen"
+[Welt]: ./world.md
+[Partei]: ./factions.md
+[Rasse]: ./races.md
 [Anmeldung]: ./hints.md#anmeldung "Anmelden wie?"
 [Elfen]: ./races.md#elfen "Elf"
 [Zwerge]: ./races.md#zwerge "Zwerg"
 [Drachen]: ./monsters.md#drachen "Drachen"
-[Monster]: ./monsters.md "Monster"
-[Krieg]: ./war.md "Krieg"
-[Befehlen]: ./commands.md "Befehle"
+[Monster]: ./monsters.md
+[Krieg]: ./war.md
+[Befehlen]: ./commands.md
 [nr]: ./reports.md#nr "NR (to be documented)"
 [cr]: ./reports.md#cr "CR (to be documented)"
 [Hilfsprogramme]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
-[Zugvorlage]: ./commands.md "Befehl"
-[Wochenbericht]: ./weekly-report.md "Wochenbericht"
+[Zugvorlage]: ./commands.md
+[Wochenbericht]: ./weekly-report.md
 [Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"

@@ -229,7 +229,7 @@ Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezau
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: ./toad.md "Kröte"
+[Kröte]: ./toad.md
 
 ## Magieresistenz
 
@@ -299,37 +299,37 @@ Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Kampf]: ./war.md "Krieg"
-[Illaun]: ./magic-school-illaun.md "Illaunzauber"
-[Tybied]: ./magic-school-tybied.md "Tybiedzauber"
-[Gwyrrd]: ./magic-school-gwyrrd.md "Gwyrrdzauber"
-[Cerddor]: ./magic-school-cerddor.md "Cerddorzauber"
-[Draig]: ./magic-school-draig.md "Draigzauber"
-[LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md "LERNE"
-[Partei]: ./factions.md "Partei"
-[Akademie]: ./buildings-others.md "Andere Gebäude"
-[bef-zeige]: ./cmd-show.md "ZEIGE"
-[bef-zaubere]: ./cmd-cast.md "ZAUBERE"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-[KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md "KAMPFZAUBER"
+[Kampf]: ./war.md
+[Illaun]: ./magic-school-illaun.md
+[Tybied]: ./magic-school-tybied.md
+[Gwyrrd]: ./magic-school-gwyrrd.md
+[Cerddor]: ./magic-school-cerddor.md
+[Draig]: ./magic-school-draig.md
+[LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md
+[Partei]: ./factions.md
+[Akademie]: ./buildings-others.md
+[bef-zeige]: ./cmd-show.md
+[bef-zaubere]: ./cmd-cast.md
+[Befehlsreihenfolge]: ./commands-sequence.md
+[KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md
 [KÄMPFE-Befehle]: ./war.md#kampfreihen "Krieg"
 [Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
-[bef-attackiere]: ./cmd-attack.md "ATTACKIERE"
+[bef-attackiere]: ./cmd-attack.md
 [Aura]: #aura
 [Fernzauber]: #fernzauber
 [Magieresistenz]: #magieresistenz
-[Ring der Macht]: ./ring-of-power.md "Ring der Macht (to be documented)"
+[Ring der Macht]: ./ring-of-power.md
 [Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
 [gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
 [Wahrscheinlichkeit für Patzer]: #patzer
-[bef-ursprung]: ./cmd-origin.md "URSPRUNG"
-[bef-kontaktiere]: ./cmd-contact.md "KONTAKTIERE"
-[Rassen]: ./races.md "Rasse (to be documented)"
-[Zauber]: ./spells-list.md "Zauberliste E2"
+[bef-ursprung]: ./cmd-origin.md
+[bef-kontaktiere]: ./cmd-contact.md
+[Rassen]: ./races.md
+[Zauber]: ./spells-list.md
 [Waffen oder Rüstungen]: ./war-tables.md#magieresistenz "Kriegstabellen"
-[Elfen]: ./skills-modifiers.md "Talentmodifikatoren"
+[Elfen]: ./skills-modifiers.md
 [Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
-[Vertraute]: ./familiars.md "Vertraute"
-[bef-nach]: ./cmd-move.md "NACH"
+[Vertraute]: ./familiars.md
+[bef-nach]: ./cmd-move.md
 [Wesen]: ./monsters.md#hirntoeter "Monster"
-[Zauberbeschreibungen]: ./spells-descriptions.md "Zauberbeschreibungen E2"
+[Zauberbeschreibungen]: ./spells-descriptions.md

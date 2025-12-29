@@ -135,29 +135,29 @@ Weiterlesen: [Tarnung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
-[Tarnung]: ./camouflage.md "Tarnung"
-[Alchemie]: ./alchemy.md "Alchemie"
-[Tränken]: ./alchemy.md "Tränke"
-[Kräutern]: ./herbs.md "Kräuter"
+[Tarnung]: ./camouflage.md
+[Alchemie]: ./alchemy.md
+[Tränken]: ./alchemy.md
+[Kräutern]: ./herbs.md
 [Tabelle]: ./war.md#ausdauer "Kampftabellen"
-[Rohstoffe]: ./resources.md "Rohstoffe"
-[Gebäude und Burgen]: ./buildings.md "Gebäude"
+[Rohstoffe]: ./resources.md
+[Gebäude und Burgen]: ./buildings.md
 [Handel]: ./silver.md#handel "Handel"
-[bef-kaufe]: ./cmd-buy.md "KAUFE"
+[bef-kaufe]: ./cmd-buy.md
 [1]: ./resources.md#tief-im-wald "Rohstoffe"
-[`FORSCHE KRÄUTER`]: ./cmd-research.md "FORSCHE"
-[`MACHE SAMEN`]: ./cmd-make.md "MACHE"
-[Produktion]: ./production.md "Produktion"
-[bef-pflanze]: ./cmd-plant.md "PFLANZE"
+[`FORSCHE KRÄUTER`]: ./cmd-research.md
+[`MACHE SAMEN`]: ./cmd-make.md
+[Produktion]: ./production.md
+[bef-pflanze]: ./cmd-plant.md
 [Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
-[`ZÜCHTE PFERDE`]: ./cmd-grow.md "ZÜCHTE"
+[`ZÜCHTE PFERDE`]: ./cmd-grow.md
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
-[Waren]: ./items.md "Waren"
-[Schiffe]: ./ships.md "Schiffe"
-[bef-spioniere]: ./cmd-spy.md "SPIONIERE"
+[Waren]: ./items.md
+[Schiffe]: ./ships.md
+[bef-spioniere]: ./cmd-spy.md
 [2]: ./resources.md#vom-bergbau "Rohstoffe"
-[Straßen]: ./roads.md "Straßen"
+[Straßen]: ./roads.md
 [Musterung]: ./war.md#die-musterung-der-einheiten "Musterung"
-[beklauen]: ./camouflage.md "BEKLAUE"
-[Bewachungen]: ./cmd-guard.md "BEWACHE"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
+[beklauen]: ./camouflage.md
+[Bewachungen]: ./cmd-guard.md
+[Wahrnehmung]: ./camouflage.md

@@ -132,24 +132,24 @@ Weiterlesen: [Xontormia-Express].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Xontormia-Express]: ./xontormia-express.md "Xontormia-Express"
-[Passwort]: ./cmd-password.md "PASSWORT"
+[Xontormia-Express]: ./xontormia-express.md
+[Passwort]: ./cmd-password.md
 [1]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
-[Magellan]: ./magellan.md "Magellan"
-[ECheck]: ./echeck.md "ECheck"
-[Zugvorlage]: ./commands.md "Befehl"
-[Unterhaltung]: ./cmd-entertain.md "UNTERHALTE"
-[Steuereintreiber]: ./cmd-tax.md "TREIBE"
-[Wahrnehmung]: ./camouflage.md "Wahrnehmung"
-[Burgen]: ./castles.md "Burg"
-[Burgenbau]: ./buildings.md "Gebäude"
-[Taktiker]: ./tactic.md "Taktik"
-[Alchemisten]: ./skills-list.md "Liste der Talente"
-[Tipps und Tricks]: ./tips-and-tricks.md "Tipps und Tricks"
-[Hinweise]: ./hints.md "Hinweise"
-[Der erste Zug]: ./first-round.md "Der erste Zug"
-[Grundlagen]: ./basics.md "Grundlagen"
+[Magellan]: ./magellan.md
+[ECheck]: ./echeck.md
+[Zugvorlage]: ./commands.md
+[Unterhaltung]: ./cmd-entertain.md
+[Steuereintreiber]: ./cmd-tax.md
+[Wahrnehmung]: ./camouflage.md
+[Burgen]: ./castles.md
+[Burgenbau]: ./buildings.md
+[Taktiker]: ./tactic.md
+[Alchemisten]: ./skills-list.md
+[Tipps und Tricks]: ./tips-and-tricks.md
+[Hinweise]: ./hints.md
+[Der erste Zug]: ./first-round.md
+[Grundlagen]: ./basics.md
 
 [Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
 [Holzfällen]: ./resources.md#tief-im-wald "Rohstoffe"

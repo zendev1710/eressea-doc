@@ -22,5 +22,5 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 [<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
 [Pferdezucht]: ./buildings-others.md#pferdezucht "Andere Gebäude"
-[Pferdedressur]: ./skills-list.md "Liste der Talente"
-[bef-pflanze]: ./cmd-plant.md "PFLANZE"
+[Pferdedressur]: ./skills-list.md
+[bef-pflanze]: ./cmd-plant.md

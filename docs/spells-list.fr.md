@@ -74,7 +74,6 @@ alias: liste-des-sorts
 | 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 Aura x Level                                     |                |
 | 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 Aura                                             | Distance       |
 | 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 Aura                                             |                |
-|  4 |    |    |    |    | [Song of Confusion]           | Pre-c.  |    5 | 2 Aura x Level                                      |                |
 | 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 Aura x Level                                      | Distance       |
 |  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 Aura                                              | Ship           |
 | 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 Aura x Level                                      | Distance       |
@@ -90,7 +89,6 @@ alias: liste-des-sorts
 |  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 Aura x Level                                      | Ship           |
 |    |  1 |    |    |    | [Kleine Flüche]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
 |    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 Hit Points                                       | Ship           |
-|  2 |    |    |    |    | [Song of Healing]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
 |  6 |    |    |    |    | [Lied der Verführung]             | --      |    5 | 12 Aura                                             |                |
 |    |  8 |    |    |    | [Madness of War]                  | Pre-c.  |    5 | 3 Aura x Level, 10 Bauern                           |                |
 |    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
@@ -105,36 +103,37 @@ alias: liste-des-sorts
 |    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 Aura                                            |                |
 |    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 Aura x Level                                     | Distance, Ship |
 |    |    |    |    |  2 | [Protection from Magic]           | Pre-c.  |    2 | 3 Aura x Level                                      |                |
+|    |    |    |    |  8 | [Protective Runes]              | --      |    2 | 20 Aura                                             | Ship           |
 |  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
+|    |    |  3 |    |    | [Rain of Rust]                       | --      |    5 | 2 Aura x Level                                      | Distance       |
 |    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 Aura x Level                                      | Ship           |
 |    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 Aura x Level                                      |                |
 |    |    | 12 |    |    | [Rindenhaut]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
 |  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 Aura x Level, 1 perm. Aura x Level                |                |
-|    |  6 |    |    |    | [Rosthauch]                       | Combat  |    5 | 2 Aura x Level                                      |                |
-|    |    |  3 |    |    | [Rostregen]                       | --      |    5 | 2 Aura x Level                                      | Distance       |
-|    |    |    |    |  8 | [Runen des Schutzes]              | --      |    2 | 20 Aura                                             | Ship           |
 |    |    |    |    | 12 | [Rüstschild]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
 |    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 Aura, 3 perm. Aura                               |                |
 |    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 Aura x Level                                      |                |
 |    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 Aura                                             | Distance       |
-|    |    |    |    |  5 | [Schockwelle]                     | Combat  |    5 | 1 Aura x Level                                      |                |
 |    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 Aura                                             | Distance       |
 |    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 Aura x Level, 1 Mallorn x Level, 1 water of life  | Distance       |
 |    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 Aura, 5 perm. Aura                              |                |
 |    |    |    |  1 |    | [Shadow Knights]                  | Pre-c.  |    4 | 1 Aura x Level                                      |                |
 |    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 Aura x Level                                      |                |
 |    |    |    |    |  8 | [Shield of the Fish]              | Pre-c.  |    2 | 4 Aura x Level                                      |                |
+|    |    |    |    |  5 | [Shockwave]                     | Combat  |    5 | 1 Aura x Level                                      |                |
 |  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 Aura x Level                                      | Distance, Ship |
 |    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 Aura x Level                                      |                |
+|  4 |    |    |    |    | [Song of Confusion]           | Pre-c.  |    5 | 2 Aura x Level                                      |                |
 |  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 Aura x Level                                      |                |
 |  8 |    |    |    |    | [Song of Fear]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
 |  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 Aura x Level                                      | Distance, Ship |
+|  2 |    |    |    |    | [Song of Healing]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
 |  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 Aura x Level                                      |                |
 |  7 |    |    |    |    | [Song of War]                     | Pre-c.  |    4 | 5 Aura x Level                                      |                |
 |  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 Aura, 100 Silver                                  |                |
-|    |    |  8 |    |    | [Starkes Tor und feste Mauer]     | Pre-c.  |    5 | 2 Aura x Level                                      |                |
 |    |    |    |    |  6 | [Steal Aura]                      | --      |    3 | 2 Aura x Level                                      | Distance       |
 |    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 Aura                                            |                |
+|    |    |  8 |    |    | [Strong Wall And Sturdy Gate]     | Pre-c.  |    5 | 2 Aura x Level                                      |                |
 |    |    |  6 |    |    | [Summon Earth Elemental]          | --      |    5 | 25 Aura, 2 Laen                                     | Distance       |
 |  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 Aura, 5 perm. Aura                              |                |
 |    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 Aura x Level                                      |                |
@@ -155,7 +154,8 @@ alias: liste-des-sorts
 |    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 Aura x Level, 5 Bauern x Level                   |                |
 |    |    |    |  2 |    | [Unspeakable Horrors]             | Pre-c.  |    5 | 1 Aura x Level                                      |                |
 |    |    |  9 |    |    | [Weg der Bäume]                   | --      |    7 | 3 Aura x Level                                      |                |
-|    |    |  5 |    |    | [Wirbelwind]                      | Pre-c.  |    5 | 15 Aura                                             |                |
+|    |    |  5 |    |    | [Whirlwind]                      | Pre-c.  |    5 | 15 Aura                                             |                |
+|    |  6 |    |    |    | [Winds of Rust]                       | Combat  |    5 | 2 Aura x Level                                      |                |
 |    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
 |    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 Aura x Level                                      | Ship           |
 
@@ -258,33 +258,33 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Rain Dance]: ./spells-descriptions.md#rain-dance
 [Rindenhaut]: ./spells-descriptions.md#rindenhaut
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
-[Rosthauch]: ./spells-descriptions.md#rosthauch
-[Rostregen]: ./spells-descriptions.md#rostregen
+[Winds of Rust]: ./spells-descriptions.md#winds-of-rust
+[Rain of Rust]: ./spells-descriptions.md#rain-of-rust
 [Call of Reality]: ./spells-descriptions.md#call-of-reality
-[Runen des Schutzes]: ./spells-descriptions.md#runen-des-schutzes
-[Rüstschild]: ./spells-descriptions.md#rüstschild
+[Protective Runes]: ./spells-descriptions.md#protective-runes
+[Rüstschild]: ./spells-descriptions.md#rustschild
 [SHangover]: ./spells-descriptions.md#schaler-wein
-[Shadow Knights]: ./spells-descriptions.md#schattenritter
-[Shield of the Fish]: ./spells-descriptions.md#schild-des-fisches
-[Sleep]: ./spells-descriptions.md#schlaf
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-traeume
+[Shadow Knights]: ./spells-descriptions.md#shadow-knights
+[Shield of the Fish]: ./spells-descriptions.md#shield-of-the-fish
+[Sleep]: ./spells-descriptions.md#sleep
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-traume
 [Insomnia]: ./spells-descriptions.md#insomnia
 [Concealing Aura]: ./spells-descriptions.md#concealing-aura
-[Schockwelle]: ./spells-descriptions.md#schockwelle
+[Shockwave]: ./spells-descriptions.md#shockwave
 [Protection from Magic]: ./spells-descriptions.md#protection-from-magic
 [Resist Magic]: ./spells-descriptions.md#resist-magic
-[Tiredness]: ./spells-descriptions.md#schwere-glieder
-[Schöne Träume]: ./spells-descriptions.md#schoene-traeume
+[Tiredness]: ./spells-descriptions.md#tiredness
+[Schöne Träume]: ./spells-descriptions.md#schone-traume
 [Eternal Rest]: ./spells-descriptions.md#eternal-rest
 [Blessed Harvest]: ./spells-descriptions.md#blessed-harvest
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
 [Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
 [Ties of Life]: ./spells-descriptions.md#sog-des-lebens
-[Starkes Tor und feste Mauer]: ./spells-descriptions.md#starkes-tor-und-feste-mauer
-[Steal Aura]: ./spells-descriptions.md#stehle-aura
-[Summon Storm Elemental]: ./spells-descriptions.md#sturmelementar
-[Störe Astrale Integrität]: ./spells-descriptions.md#störe-astrale-integrität
-[Süße Träume]: ./spells-descriptions.md#süße-träume
+[Strong Wall And Sturdy Gate]: ./spells-descriptions.md#strong-wall-and-sturdy-gate
+[Steal Aura]: ./spells-descriptions.md#steal-aura
+[Summon Storm Elemental]: ./spells-descriptions.md#summon-storm-elemental
+[Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
+[Süße Träume]: ./spells-descriptions.md#suße-traume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
@@ -292,21 +292,21 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Analyse Dreams]: ./spells-descriptions.md#analyse-dreams
 [Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
 [Mind Probe]: ./spells-descriptions.md#mind-probe
-[Traumlesen]: ./spells-descriptions.md#traumlesen
+[Read Dreams]: ./spells-descriptions.md#read-dreams
 [Castle of Illusion]: ./spells-descriptions.md#castle-of-illusion
 [Dream]: ./spells-descriptions.md#dream
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
-[Undead Heroes]: ./spells-descriptions.md#untote-helden
-[Summon Familiar]: ./spells-descriptions.md#vertrauten-rufen
+[Undead Heroes]: ./spells-descriptions.md#undead-heroes
+[Summon Familiar]: ./spells-descriptions.md#summon-familiar
 [Hex]: ./spells-descriptions.md#heal
 [Cattle Healing]: ./spells-descriptions.md#cattle-healing
 [Madness of War]: ./spells-descriptions.md#madness-of-war
 [Divination]: ./spells-descriptions.md#divination
-[Summon Water Elemental]: ./spells-descriptions.md#wasserelementar
-[Weg der Bäume]: ./spells-descriptions.md#weg-der-bäume
+[Summon Water Elemental]: ./spells-descriptions.md#summon-water-elemental
+[Weg der Bäume]: ./spells-descriptions.md#weg-der-baume
 [Resurrection]: ./spells-descriptions.md#resurrection
 [Air Shield]: ./spells-descriptions.md#air-shield
-[Wirbelwind]: ./spells-descriptions.md#wirbelwind
+[Whirlwind]: ./spells-descriptions.md#whirlwind
 [Timber Wolves]: ./spells-descriptions.md#timber-wolves
 [Miracle Doctor]: ./spells-descriptions.md#miracle-doctor
 [Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie

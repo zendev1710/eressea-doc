@@ -74,15 +74,15 @@ Weiterlesen: [[regeln]].
 
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
-[Das dritte Zeitalter]: ./the-third-age.md "Das dritte Zeitalter"
-[Spielerseiten]: ./player-pages.md "Spielerseiten"
-[Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md "Du spielst zuviel Eressea, wenn..."
-[Taktik]: ./tactic.md "Taktik"
-[Vertraute]: ./familiars.md "Vertraute"
-[Entwicklung]: ./development.md "Entwicklung"
-[Anfängertipps]: ./getting-started-tips.md "Anfängertipps"
-[Geschichte von Eressea]: ./eressea-story.md "Geschichte von Eressea"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
+[Das dritte Zeitalter]: ./the-third-age.md
+[Spielerseiten]: ./player-pages.md
+[Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md
+[Taktik]: ./tactic.md
+[Vertraute]: ./familiars.md
+[Entwicklung]: ./development.md
+[Anfängertipps]: ./getting-started-tips.md
+[Geschichte von Eressea]: ./eressea-story.md
+[Befehlsreihenfolge]: ./commands-sequence.md
 
 [Anmeldung zum Spiel]: ./hints.md#anmeldung "Hinweise"
 [Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"

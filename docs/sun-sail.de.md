@@ -12,6 +12,6 @@ Dies geschah gegen den ausdrücklichen Wunsch des [Weihnachtsgnoms][Weihnachtsge
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sonnensegel&oldid=5701] -->
 
-[Weihnachtsgeschenk]: ./christmas.md "Weihnachten"
-[bef-zeige]: ./cmd-show..md "ZEIGE"
-[bef-beanspruche]: ./cmd-claim.md "BEANSPRUCHE"
+[Weihnachtsgeschenk]: ./christmas.md
+[bef-zeige]: ./cmd-show..md
+[bef-beanspruche]: ./cmd-claim.md

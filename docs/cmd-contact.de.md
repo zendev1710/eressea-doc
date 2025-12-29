@@ -38,5 +38,5 @@ Einheit a darf Einheit x also die 1000 Silber übergeben. Falls x die einzige be
 
 <!-- From [https://wiki.eressea.de/index.php?title=KONTAKTIERE&oldid=13303] -->
 
-[bef-helfe]: ./cmd-help.md "HELFE"
-[`GIB PERSONEN`]: ./cmd-give.md "GIB"
+[bef-helfe]: ./cmd-help.md
+[`GIB PERSONEN`]: ./cmd-give.md

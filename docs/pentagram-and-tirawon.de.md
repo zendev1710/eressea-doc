@@ -77,5 +77,5 @@ Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
 
   [Igjarjuk]: ./monsters.md#igjarjuk "Igjarjuk"
   [Untoter Wyrm]: ./monsters.md#drachen "Drachen"
-  [falschem Banner]: ./cmd-hide.md "TARNE"
+  [falschem Banner]: ./cmd-hide.md
   [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html

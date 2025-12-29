@@ -36,17 +36,17 @@ Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und er
 
 Weiterlesen: [Burgen].
 
-[Burgen]: ./castles.md "Burg"
+[Burgen]: ./castles.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude&oldid=16113] -->
 
-[bef-gib]: ./cmd-give.md "GIB"
-[Befehlsreihenfolge]: ./commands-sequence.md "Befehlsreihenfolge"
-[`MACHE `*`Gebäude`*]: ./cmd-make.md "MACHE"
+[bef-gib]: ./cmd-give.md
+[Befehlsreihenfolge]: ./commands-sequence.md
+[`MACHE `*`Gebäude`*]: ./cmd-make.md
 [`BEZAHLE NICHT`]: ./cmd-pay-not.md_NICHT "BEZAHLE NICHT"
-[bef-sortiere]: ./cmd-sort.md "SORTIERE"
-[ZERSTÖRE]: ./cmd-destroy.md "ZERSTÖRE"
-[Andere Gebäude]: ./buildings-others.md "Andere Gebäude"
-[Produktion]: ./production.md "Produktion"
+[bef-sortiere]: ./cmd-sort.md
+[ZERSTÖRE]: ./cmd-destroy.md
+[Andere Gebäude]: ./buildings-others.md
+[Produktion]: ./production.md
 [Ausgaben]: ./silver.md#ausgaben "Ausgaben"
-[4]: ./cmd-destroy.md "ZERSTÖRE"
+[4]: ./cmd-destroy.md

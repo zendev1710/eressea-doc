@@ -22,16 +22,16 @@ Nicht zu verwechseln ist der Parteipool mit dem [Materialpool] und dem [Silberpo
 
 Weiterlesen: [Geld].
 
-[Geld]: ./silver.md "Geld"
+[Geld]: ./silver.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
-[Adamantium]: ./adamantium.md "Adamantium"
-[Adamantiumrüstung]: ./adamantium-armor.md "Adamantiumrüstung"
-[Geburtstagstorte]: ./birthday-cake.md "Geburtstagstorte (to be documented)"
-[Sonnensegel]: ./sun-sail.md "Sonnensegel"
-[Sternenstaub]: ./stardust.md "Sternenstaub"
-[Weihnachtsbaum]: ./christmas-tree.md "Weihnachtsbaum"
-[Muschel]: ./shell.md "Muschel"
-[Materialpool]: ./items-pool.md "Materialpool"
+[Adamantium]: ./adamantium.md
+[Adamantiumrüstung]: ./adamantium-armor.md
+[Geburtstagstorte]: ./birthday-cake.md
+[Sonnensegel]: ./sun-sail.md
+[Sternenstaub]: ./stardust.md
+[Weihnachtsbaum]: ./christmas-tree.md
+[Muschel]: ./shell.md
+[Materialpool]: ./items-pool.md
 [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"

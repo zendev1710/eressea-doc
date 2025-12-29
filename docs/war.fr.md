@@ -151,7 +151,10 @@ La colonne « Reloading » indique le temps nécessaire pour que l'arme soit �
 
 ### Boni et Mali
 
-Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry). All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters. The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here. See also [tables de combat].
+Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry).
+All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters.
+The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here.
+See also [tables de combat].
 
 Combat à mains nues (unarmed combat)  
 Les personnes ne possédant pas de compétence correspondant à leur arme sont également considérées comme désarmées.
@@ -326,7 +329,7 @@ Poursuivre la lecture : [[alliances]].
 [Résistance à la magie]: ./war-tables.md#resistance-a-la-magie
 [ce tableau]: ./war-tables.md#endurance
 [tables de combat]: ./war-tables.md#kampfmodifikatoren
-[Schaden]: ./ships.md#schiffsschaden
+[Schaden]: ./ships.md  <!--TODO: #schiffsschaden/dommage-->
 
 [tour de tactique]: #tour-du-tacticien
 [Lignes de combat]: #lignes-de-combat

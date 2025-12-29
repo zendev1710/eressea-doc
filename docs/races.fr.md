@@ -135,29 +135,30 @@ Poursuivre la lecture : [Modificateurs de compétences].
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 
 [Bonus et Malus]: ./skills-modifiers.md
-[famine]: ./silver.md#famine
-[recrutés]: ./silver.md#recruter
 [`GIVE 0`]: ./cmd-give.md
 [camoufler]: ./cmd-hide.md
 [max. workers]: ./world.md
 [mages]: ./magic.md
-[elven bows]: ./war-tables.md#armes-et-leurs-proprietes
 [volent]: ./cmd-steal.md
 [bateaux]: ./ships.md
-[fuir]: ./war.md#la-fuite
 [`COMBAT FLEE`]: ./cmd-combat.md
-[dragons]: ./monsters.md#dragons
 [alchemy]: ./skills-list.md
 [potion]: ./alchemy.md
-[hier]: ./war-tables.md#rasseneigenschaften
 [tactics]: ./tactic.md
 [groupes]: ./cmd-group.md
-[commercer]: ./silver.md#commerce
 [déplacent]: ./travel.md
 [ordres longs]: ./commands.md
-[nager]: ./sailing.md#nager
 [compétences payantes]: ./skills.md
 [Héros]: ./cmd-promote.md
-[ici]: ./buildings-others.md#celcle-de-pierres
-[1]: ./resources.md#ressources-minières
+
+[famine]: ./silver.md#famine
+[recrutés]: ./silver.md#recruter
+[elven bows]: ./war-tables.md#armes-et-leurs-proprietes
+[fuir]: ./war.md#la-fuite
+[dragons]: ./monsters.md#dragons
+[hier]: ./war-tables.fr.md#races-et-leurs-caracteristiques
+[commercer]: ./silver.md#commerce
+[nager]: ./sailing.md#nager
+[ici]: ./buildings-others.md#cercle-de-pierres
+[1]: ./resources.md#ressources-minieres
 [2]: ./buildings-others.md#mine

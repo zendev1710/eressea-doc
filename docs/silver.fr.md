@@ -218,7 +218,7 @@ Poursuivre la lecture : [Material Pool].
 
 [endurance]: ./war-tables.md#endurance
 [aquariens]: ./races.md#aquariens
-[Fin de bataille]: ./war.md#fin-de-la-bataille
+[Fin de bataille]: ./war.md#fin-du-combat
 [morts-vivants]: ./monsters.md#morts-vivants
 [ce tableau]: ./castles.fr.md#apercu
 

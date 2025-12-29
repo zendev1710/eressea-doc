@@ -18,6 +18,6 @@ Weiterlesen: [Einleitung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln&oldid=14085] -->
 
-[Einleitung]: ./introduction.md "Einleitung"
-[Atlantis]: ./atlantis.md "Atlantis"
-[Hinweise zum Editieren der Regeln]: ./eressea-join.md "Eressea:Mitmachen"
+[Einleitung]: ./introduction.md
+[Atlantis]: ./atlantis.md
+[Hinweise zum Editieren der Regeln]: ./eressea-join.md

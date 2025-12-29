@@ -39,16 +39,17 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [Le monde d'Eressea]: ./world.md
 [faction]: ./factions.md
 [race]: ./races.md
-[Inscription]: ./hints.md#anmeldung
-[Elfes]: ./races.md#elfes
-[Nains]: ./races.md#nains
 [magie]: ./magic.md
-[dragons]: ./monsters.md#drachen
 [monstres]: ./monsters.md
 [ordres]: ./commands.md
+[modèle de train]: ./move-template.md
+[point hebdomadaire]: ./weekly-report.md
+
+[Inscription]: ./hints.md#inscription
+[Elfes]: ./races.md#elfes
+[Nains]: ./races.md#nains
+[dragons]: ./monsters.md#dragons
 [NR]: ./reports.md#nr
 [CR]: ./reports.md#cr
 [programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
-[modèle de train]: ./move-template.md
-[point hebdomadaire]: ./weekly-report.md
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express

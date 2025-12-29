@@ -121,19 +121,19 @@ Le résultat final est toujours arrondi à l'inférieur, ce qui signifie que la 
 
 Points de vie (PV), résistance magique (R) et armure naturelle (AN).
 
-| Race      | PV |  R. | AN |
-|-----------|---:|----:|---:|
-| Humains   | 20 |   0 |  0 |
-| Aquariens | 20 |   0 |  0 |
-| Nains     | 24 |   5 |  0 |
+| Race      | PV | R. | AN |
+|-----------|---:|---:|---:|
+| Humains   | 20 |  0 |  0 |
+| Aquariens | 20 |  0 |  0 |
+| Nains     | 24 |  5 |  0 |
 | Orcs      | 24 | -5 |  0 |
-| Elfes     | 18 |  10 |  0 |
-| Halflinge | 18 |   5 |  0 |
-| Gobelins   | 16 | -5 |  0 |
-| Trolls    | 30 |  10 |  1 |
-| Démons    | 50 |  15 |  2 |
-| Insectes  | 24 |   5 |  2 |
-| Chats     | 20 |   0 |  0 |
+| Elfes     | 18 | 10 |  0 |
+| Halflinge | 18 |  5 |  0 |
+| Gobelins  | 16 | -5 |  0 |
+| Trolls    | 30 | 10 |  1 |
+| Démons    | 50 | 15 |  2 |
+| Insectes  | 24 |  5 |  2 |
+| Chats     | 20 |  0 |  0 |
 
 L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment.
 L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.
@@ -162,5 +162,4 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 [gobelins]: ./races.md#gobelins
 [trolls]: ./races.md#trolls
 [orcs]: ./races.md#orcs
-[chats]: ./races.md#cats
-[familiers]: ./familiars.md
+[chats]: ./races.md#chats

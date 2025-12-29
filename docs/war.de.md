@@ -296,7 +296,7 @@ Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`
 
 Weiterlesen: [[allianz]].
 
-<!-- [Allianz]: ./alliances.md "Allianz"-->
+<!-- [Allianz]: ./alliances.md-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
 [bef-attackiere]: ./cmd-attack.md

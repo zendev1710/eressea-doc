@@ -44,7 +44,7 @@ Weiterlesen: [[magie-de]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->
 
-[Steuern eintreiben]: ./silver.md "Geld"
+[Steuern eintreiben]: ./silver.md
 [rekrutieren]: ./silver.md#rekrutieren "REKRUTIERE"
-[Rohstoffe]: ./resources.md "Rohstoffe"
+[Rohstoffe]: ./resources.md
 [Kampfende]: ./war.md#das-ende "Kampfende"

@@ -48,16 +48,16 @@ Weiterlesen: [Talente].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857] -->
 
-[Talente]: ./skills.md "Talente"
-[Zwerge]: ./races.md#swerge "Zwerge"
-[Orks]: ./races.md#orks "Orks"
-[Elfen]: ./races.md#elfen "Elfen"
-[Katzen]: ./races.md#katzen "Katzen"
-[Dämonen]: ./races.md#daemonen "Rassen"
-[Halblinge]: ./races.md#halblinge "Halblinge"
-[Menschen]: ./races.md#menschenen "Menschen"
-[Goblins]: ./races.md#goblins "Goblins"
-[Insekten]: ./races.md#insekten "Insekten"
-[Trolle]: ./races.md#trolle "Trolle"
-[Meerm.]: ./races.md#meermenschen "Meermenschen"
-[Rassen]: ./races.md "Rassen"
+[Talente]: ./skills.md
+[Zwerge]: ./races.md#swerge
+[Orks]: ./races.md#orks
+[Elfen]: ./races.md#elfen
+[Katzen]: ./races.md#katzen
+[Dämonen]: ./races.md#damonen
+[Halblinge]: ./races.md#halblinge
+[Menschen]: ./races.md#menschenen
+[Goblins]: ./races.md#goblins
+[Insekten]: ./races.md#insekten
+[Trolle]: ./races.md#trolle
+[Meerm.]: ./races.md#meermenschen
+[Rassen]: ./races.md

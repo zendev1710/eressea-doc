@@ -300,7 +300,7 @@ Kurzliste der Befehle
 
 Weiterlesen: [Der erste Zug].
 
-[Der erste Zug]: ./first-round.md "Der erste Zug"
+[Der erste Zug]: ./first-round.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 

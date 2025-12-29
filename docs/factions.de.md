@@ -64,35 +64,35 @@ Weiterlesen: [Rassen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien&oldid=16699] -->
 
-[Rassen]: ./races.md "Rassen"
-[Rasse]: ./races.md "Rassen"
-[Talente]: ./skills.md "Talente"
-[Befehle]: ./commands.md "Befehl"
+[Rassen]: ./races.md
+[Rasse]: ./races.md
+[Talente]: ./skills.md
+[Befehle]: ./commands.md
 [rassenspezifischen Startgeschenk]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
-[`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md "ZEIGE"
+[`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md
 [rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
-[Gegenstände produzieren]: ./items.md "Gegenstände"
-[Gebäude]: ./buildings.md "Gebäude"
-[Schiffe]: ./ships.md "Schiffe"
+[Gegenstände produzieren]: ./items.md
+[Gebäude]: ./buildings.md
+[Schiffe]: ./ships.md
 [Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
-[Waffen]: ./war-tables.md "Kriegstabellen"
-[`MACHE TEMP`]: ./cmd-make.md "MACHE"
-[transferiert]: ./cmd-give.md "GIB"
+[Waffen]: ./war-tables.md
+[`MACHE TEMP`]: ./cmd-make.md
+[transferiert]: ./cmd-give.md
 [Geld]: ./silver.md#ausgaben "Ausgaben"
-[hilft]: ./alliances.md "Allianz"
-[Steuereintreiben]: ./cmd-tax.md "TREIBE"
-[Defaultbefehl]: ./cmd-default.md "DEFAULT"
-[Krieg]: ./war.md "Krieg"
+[hilft]: ./alliances.md
+[Steuereintreiben]: ./cmd-tax.md
+[Defaultbefehl]: ./cmd-default.md
+[Krieg]: ./war.md
 [Kampfreihen]: ./war.md#die-schlacht "Schlacht"
-[KÄMPFE]: ./cmd-combat.md "KÄMPFE"
-[bef-bewache]: ./cmd-guard.md "BEWACHE"
+[KÄMPFE]: ./cmd-combat.md
+[bef-bewache]: ./cmd-guard.md
 [Hunger]: ./silver.md#hunger "Hunger"
 [Zwergen]: ./races.md#zwerge "Zwerg"
-[parteigetarnt]: ./cmd-hide.md "TARNE"
-[bef-botschaft]: ./cmd-message.md "BOTSCHAFT"
+[parteigetarnt]: ./cmd-hide.md
+[bef-botschaft]: ./cmd-message.md
 [Trolle]: ./races.md#trolle "Trolle"
 [Menschen]: ./races.md#menschen "Mensch"
 [Trollen]: ./races.md#trolle "Troll"
-[Ende der Runde]: ./commands-sequence.md "Befehlsreihenfolge"
-[`HELFE Silber`]: ./cmd-help.md "HELFE"
-[Der Parteipool]: ./faction-pool.md "Parteipool"
+[Ende der Runde]: ./commands-sequence.md
+[`HELFE Silber`]: ./cmd-help.md
+[Der Parteipool]: ./faction-pool.md

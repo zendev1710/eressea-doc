@@ -14,6 +14,6 @@ Wandernde Bauern arbeiten in der Woche der Wanderung nicht, verbrauchen aber tro
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
 
-[Monstern]: ./monsters.md "Monster"
-[hier]: ./cmd-work.md "ARBEITE"
-[Steuern eingetrieben]: ./cmd-tax.md "TREIBE"
+[Monstern]: ./monsters.md
+[hier]: ./cmd-work.md
+[Steuern eingetrieben]: ./cmd-tax.md

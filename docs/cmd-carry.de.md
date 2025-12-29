@@ -48,5 +48,5 @@ Partei 300:
 
 [<sup>`L`</sup>]: ./commands.md#kurzlang
 [Meermenschen]: ./races.md#meermenschen
-[Anschwimmen]: ./travel.md#anschwimmen
+[Anschwimmen]: ./sailing.md#anschwimmen
 [Insekten]: ./races.md#insekten

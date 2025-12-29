@@ -53,5 +53,5 @@ Poursuivre la lecture : [[magie]].
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 
 [soutenant]: ./silver.md#frais-dentretien
-[recruter]: ./silver.md#recruiting
+[recruter]: ./silver.md#recruter
 [après les combats]: ./war.md#fin-du-combat

@@ -49,14 +49,14 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 
 Weiterlesen: [Reisen].
 
-[Reisen]: ./travel.md "Reisen"
+[Reisen]: ./travel.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Talent]: ./skills.md "Talente"
-[Bewacht]: ./cmd-guard.md "BEWACHE"
+[Talent]: ./skills.md
+[Bewacht]: ./cmd-guard.md
 [Kampf]: ./war.md#die-flucht "Krieg"
-[bef-beklaue]: ./cmd-steal.md "BEKLAUE"
+[bef-beklaue]: ./cmd-steal.md
 [Spionage]: ./skills-list.md#spionage "Spionage"
-[Kampfstatus]: ./cmd-combat.md "KÄMPFE"
+[Kampfstatus]: ./cmd-combat.md
 [Einnahmen]: ./silver.md#diebstahl-der-unehrliche-weg "Einnahmen"

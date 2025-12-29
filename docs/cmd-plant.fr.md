@@ -40,5 +40,5 @@ You can grow seeds and plant horses. But it is not recommended.
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
-[Herbalism]: ./skills-list.md#herbalism
+[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[Herbalism]: ./skills-list.md#herboristerie

@@ -149,7 +149,7 @@ Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienu
 
 Weiterlesen: [Liste der Talente].
 
-[Liste der Talente]: ./skills-list.md "Liste der Talente"
+[Liste der Talente]: ./skills-list.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente&oldid=16985] -->
 

@@ -40,8 +40,7 @@ This is used with advantage for magicians.
 ## `COMBAT NOT`
 
 The unit only takes part in the fight if it is the target of an enemy [[cmd-attack]] command.
-This is used to advantage for units that stay out of combat but are not supposed to flee, e.g.
-to occupy a building.
+This is used to advantage for units that stay out of combat but are not supposed to flee, e.g. to occupy a building.
 The unit attempts to flee when it still has 90% of its hit points.
 
 ## `COMBAT FLEE`
@@ -71,7 +70,8 @@ Operating catapults is a task that requires a lot of preparation, so units with 
 ## `COMBAT HELP`
 
 One unit with `COMBAT HELP NOT` will not be helped in battle, neither by units of your own faction nor by allies.
-If such a unit is attacked, no other units will be brought into battle. Of course, this only applies if other units without such a status are not also attacked.
+If such a unit is attacked, no other units will be brought into battle.
+Of course, this only applies if other units without such a status are not also attacked.
 
 Your own faction is always involved when it attacks, or when it or a faction it helps is attacked.
 Further details at [[cmd-help]] and in the chapters [Battle] [[war|Of War]] and [[alliances|Alliance]].

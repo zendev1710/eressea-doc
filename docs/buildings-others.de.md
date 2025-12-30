@@ -289,7 +289,7 @@ Weiterlesen: [Parteipool].
 [Parteipool]: ./faction-pool.md
 [MACHE gebäudetyp]: ./cmd-make.md
 
-[Sägewerk]: ./#sagewerk
+[Sägewerk]: ./buildings-others.md/#sagewerk
 [Leuchtturm]: #leuchtturm
 [Bergwerk]: #bergwerk
 [Steinbruch]: #steinbruch

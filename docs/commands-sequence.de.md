@@ -93,6 +93,7 @@ Weiterlesen: [Kurzbeschreibung].
 [ZERSTÖRE]: ./cmd-destroy.md
 [BEZAHLE NICHT]: ./cmd-pay-not.md
 [ZÜCHTE]: ./cmd-grow.md
-[Erläuterungen]: ./#erlauterungen
 [Materialpool]: ./items-pool.md
 [Befehle]: ./commands.md
+
+[Erläuterungen]: ./commands-sequence.md/#erlauterungen

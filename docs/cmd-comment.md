@@ -11,9 +11,12 @@ In addition, comments are also used to provide the [[echeck]] program with certa
 
 ```text
 ERESSEA abcd "Enter password here"
+
 ; ECHECK -l -w4 -r90 -v4.01
+
 REGION 85,-48 ; Darkland
-  ; ECheck Salary 15
+; ECheck Salary 15
+
 UNIT ub2;    Handyman [3,30$]
     LEARN forestry
     // LEARN Shipbuilding AT T2 or T3

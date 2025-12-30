@@ -81,7 +81,7 @@ Ents, powerful tree creatures, are summoned by Gwyrrd druids or sometimes arise 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-[types de Morts-Vivants]: ./#morts-vivants
+[types de Morts-Vivants]: ./monsters.md/#morts-vivants
 [dragons]: #dragons
 [Braineaters]: #mangeurs-de-cerveau
 [Igjarjuk]: #igjarjuk

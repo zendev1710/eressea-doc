@@ -86,7 +86,7 @@ Poursuivre la lecture : [[batiments-speciaux]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
 
-[tableau du bas]: ./#apercu
+[tableau du bas]: ./castles.md/#apercu
 
 [bonus et malus]: ./war.md#boni-et-mali
 [revenus]: ./silver.md#revenus

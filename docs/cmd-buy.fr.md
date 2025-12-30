@@ -10,7 +10,8 @@ Si l'unité possède la compétence [Commerce], elle tentera d'acheter le nombre
 Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.
 In order to buy something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] `BUY` is like [[cmd-sell]] a ["pseudo-long" command]. You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
+[<sup>(l)</sup>][<sup>`(l)`</sup>] `BUY` is like [[cmd-sell]] a ["pseudo-long" command].
+You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
 BUY orders have priority over sales.
 
 Les ordres `BUY` sont généralement accompagnés d'ordres `SELL`.

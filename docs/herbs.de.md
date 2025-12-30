@@ -4,9 +4,14 @@ alias: kraeuter
 ---
 # Kräuter
 
-**Kräuter** werden mit dem Befehl [MACHE KRÄUTER] gemacht. Je nach Talentwert in [Kräuterkunde] findet man mehr oder weniger Kräuter der Region, in der man sich befindet, wobei jede Region nur ein Kraut hat. Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man durchaus alle Kräuter einer Region pflücken und muss dann mittels [ZÜCHTE KRÄUTER] zuerst wieder welche anpflanzen. Selbst dann kann nur das ursprünglich dort wachsende Kraut wieder angepflanzt werden. Im Zweifelsfall muss man ausprobieren, welches Kraut jemals hier gewachsen ist.
+**Kräuter** werden mit dem Befehl [MACHE KRÄUTER] gemacht.
+Je nach Talentwert in [Kräuterkunde] findet man mehr oder weniger Kräuter der Region, in der man sich befindet, wobei jede Region nur ein Kraut hat.
+Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man durchaus alle Kräuter einer Region pflücken und muss dann mittels [ZÜCHTE KRÄUTER] zuerst wieder welche anpflanzen.
+Selbst dann kann nur das ursprünglich dort wachsende Kraut wieder angepflanzt werden.
+Im Zweifelsfall muss man ausprobieren, welches Kraut jemals hier gewachsen ist.
 
-Kräuter werden vor allem für [Alchemie] gebraucht. Auch manche [Zauber] brauchen Kräuter als Komponenten.
+Kräuter werden vor allem für [Alchemie] gebraucht.
+Auch manche [Zauber] brauchen Kräuter als Komponenten.
 
 Mit [FORSCHE KRÄUTER] kann man ungefähr feststellen, wie viele Kräuter in der Region wachsen; dazu benötigt man Kräuterkunde der Stufe 7 oder höher.
 
@@ -20,7 +25,9 @@ viele = Weniger als 90
 
 sehr viele = Ab 90
 
-Achtung, gepflückte Kräuter halten nicht ewig. Sie verrotten im Laufe der Zeit.
+!!! warning "Achtung"
+    gepflückte Kräuter halten nicht ewig.
+    Sie verrotten im Laufe der Zeit.
 
 ## Kräuterliste
 

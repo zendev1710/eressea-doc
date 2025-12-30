@@ -334,7 +334,7 @@ Poursuivre la lecture : [[alliances]].
 [tour de tactique]: #tour-du-tacticien
 [Lignes de combat]: #lignes-de-combat
 [fuir]: #la-fuite
-[Héros]: ./#heros
+[Héros]: ./war.md/#heros
 [débordé]: #lignes-de-combat
 [non armés]: #boni-et-mali
 [à mains nues]: #boni-et-mali

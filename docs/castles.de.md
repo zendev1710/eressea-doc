@@ -64,5 +64,5 @@ Weiterlesen: [Andere Gebäude].
 [Gebäude]: ./buildings.md
 
 [Boni und Mali]: ./war.md#boni-und-mali
-[Übersichtstabelle]: ./#ubersicht
+[Übersichtstabelle]: ./castles.md/#ubersicht
 [Einnahmen]: ./silver.md#einnahmen

@@ -19,7 +19,7 @@ Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.
 
 Pour chaque tranche de 20 kg de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.
-Comme mentionné [ici](./#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.
+Comme mentionné [ici](./tips-and-tricks.md/#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.
 On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 kg, soit sa capacité de charge maximale.
 
 > Si l'adversaire inflige des dégâts très élevés par coup, il peut être préférable de remplacer l'armure de plates par une cotte de mailles, voire de l'omettre complètement, car sinon la probabilité de coup plus élevée n'est pas compensée par la protection de l'armure.

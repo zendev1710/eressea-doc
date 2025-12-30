@@ -4,14 +4,17 @@ alias: bef-kaufe
 ---
 # KAUFE
 
-**`KAUFE`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*
+**`KAUFE`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*  
 
 Wenn die Einheit das Talent [Handeln] hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen.
 Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer Burgtyp befindet, in dessen Nähe der Markt abgehalten werden kann, und zweitens das Produkt überhaupt in der Region produziert wird.
 Um etwas zu kaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen...
 
 [<sup>(l)</sup>][<sup>`(l)`</sup>] `KAUFE` ist wie [[bef-verkaufe]] ein ["pseudolanger" Befehl].
-Man kann insgesamt Talentstufe(Handeln) \* 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben. KAUFE-Order haben Priorität vor Verkäufen. `KAUFE`-Befehle werden also generell vor `VERKAUFE` ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen.
+Man kann insgesamt Talentstufe(Handeln) \* 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben.
+KAUFE-Order haben Priorität vor Verkäufen.
+
+`KAUFE`-Befehle werden also generell vor `VERKAUFE` ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen.
 Auch bedeutet das, dass Einheiten ohne genügend Talent für die Ausführung aller `KAUFE`- und `VERKAUFE`-Befehle zuerst so viel wie möglich kaufen und gegebenenfalls keine Talentpunkte fürs Verkaufen übrig sind.
 
 Beispiel:

@@ -345,13 +345,13 @@ Poursuivre la lecture : [pool de factions].
 [Construction d'un château]: ./castles.md#apercu
 [Phare]: #phare
 [Mine]: #mine
-[Carrière]: ./#carriere
+[Carrière]: ./buildings-others.md/#carriere
 [Scierie]: #scierie
 [Forge]: #forge
 [Haras]: #haras
 [Port]: #port
 [Caravanserail]: #caravanserail
-[Académie]: ./#academie
+[Académie]: ./buildings-others.md/#academie
 [Tour de mage]: #tour-de-mage
 [Barrage]: #barrage
 [Tunnel]: #tunnel

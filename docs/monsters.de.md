@@ -85,5 +85,5 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 [Untoten-Typen]: #untote
 [Drachen]: #drachen
-[Hirntöter]: ./#hirntoter
+[Hirntöter]: ./monsters.md/#hirntoter
 [Igjarjuk]: #igjarjuk

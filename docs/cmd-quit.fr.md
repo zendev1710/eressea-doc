@@ -45,11 +45,12 @@ Heroes are demoted by surrender.
 
 The unit limit can be exceeded through faction merger.
 But then the target faction cannot create new units until it is below the limit again.
-New Temp units cannot be created even if the unit limit would be below the limit at the end of the round! It is therefore better to ensure in advance that the merged faction complies with the current limit.
+New Temp units cannot be created even if the unit limit would be below the limit at the end of the round!
+It is therefore better to ensure in advance that the merged faction complies with the current limit.
 
- **ACHTUNG**
- If the order is given incorrectly, a death without surrender can occur.
- If your password is *secret* and you want to merge with the faction (enno), the order is:
+!!! warning "Attention"
+    If the order is given incorrectly, a death without surrender can occur.
+    If your password is *secret* and you want to merge with the faction (enno), the order is:
 
 ```text
 QUIT "secret" PARTEI enno

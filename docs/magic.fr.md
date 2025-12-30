@@ -26,11 +26,11 @@ Coûts d'apprentissage.
 
 So an untrained magician pays 100 silver for his first lessons; If he already has level 5 in magic skill, he has to pay 1100 silver per week of learning.
 
-!!! warning 'Caution"
+!!! warning "Caution"
     The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
     So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2, but a goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).
 
-!!! warning 'Caution, dwarves"
+!!! warning "Caution, dwarves"
     You have -2 to magic skill.
     A unit that appears as Magic 0 may actually be at T1 or T2.
     In the latter case, however, the learning costs increase to 350 silver! There is no way to know which of the two is true.
@@ -406,8 +406,8 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
 [Aura]: #aura
-[Ranged Spells]: ./#magie-a-distance
-[Magic Resistance]: ./#resistance-a-la-magie
+[Ranged Spells]: ./magic.md/#magie-a-distance
+[Magic Resistance]: ./magic.md/#resistance-a-la-magie
 [probability of blunders]: #gaffe
 
 [Academy]: ./buildings-others.md#academie

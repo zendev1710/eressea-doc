@@ -4,17 +4,24 @@ alias: rassen
 ---
 # Rassen
 
-Neben den Menschen gibt es in Eressea noch viele andere Rassen (Parteitypen), unter denen du wählen kannst. Jede Rasse hat gewisse Vor- und Nachteile, die sich durch [Boni bzw. Mali] in einigen Talenten äußern und manchmal gewisse andere spezielle Fähigkeiten; außerdem hat jede Rasse verschiedene [Rekrutierungskosten][Boni bzw. Mali]. Eine Person wiegt in der Regel 10 Gewichtseinheit (GE) und kann 5,4 GE tragen. Ausnahmen sind Trolle, Goblins und verschiedene Monster.
+Neben den Menschen gibt es in Eressea noch viele andere Rassen (Parteitypen), unter denen du wählen kannst.
+Jede Rasse hat gewisse Vor- und Nachteile, die sich durch [Boni bzw. Mali] in einigen Talenten äußern und manchmal gewisse andere spezielle Fähigkeiten; außerdem hat jede Rasse verschiedene [Rekrutierungskosten][Boni bzw. Mali].
+Eine Person wiegt in der Regel 10 Gewichtseinheit (GE) und kann 5,4 GE tragen.
+Ausnahmen sind Trolle, Goblins und verschiedene Monster.
 
-Zu Anfang des Spiels musst du dir eine Rasse aussuchen, die du fortan spielen willst. Diese Rasse wird bei der Anmeldung angegeben und kann danach nicht mehr geändert werden. Die Auswahl sollte also gut überdacht werden.
+Zu Anfang des Spiels musst du dir eine Rasse aussuchen, die du fortan spielen willst.
+Diese Rasse wird bei der Anmeldung angegeben und kann danach nicht mehr geändert werden.
+Die Auswahl sollte also gut überdacht werden.
 
 Einen schnellen Überblick gibt es in der [Tabelle rassenspezifischer Vor- und Nachteile][Boni bzw. Mali].
 
 ## Dämonen
 
-Dämonen sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
+Dämonen sind grausam und unberechenbar.
+Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
 
-**Achtung!** Dämonen sind denkbar ungeeignet für unerfahrene Eressea-Spieler!
+!!! warning "Achtung"
+    Dämonen sind denkbar ungeeignet für unerfahrene Eressea-Spieler!
 
 - Alle Talente, in denen sie mindestens Talentstufe 1 haben (vor Rassenmalus), verschieben sich mit einer Wahrscheinlichkeit von 25% um bis zu 3 Lernwochen nach oben (mit 60% Chance) oder unten (mit 40% Chance; das Talent steigt oder sinkt also, nicht beides). Die Verschiebung erfolgt nach den langen Befehlen und der Bewegung. Negative Talentwerte entstehen dabei nicht; ein Talent kann nicht unter 0 fallen.
 - Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel].
@@ -37,7 +44,8 @@ Elfen sind ein geradezu magisches Volk. Schwere Arbeiten sind nicht unbedingt ih
 
 ## Goblins
 
-Goblins sind alleine klein und schwach; sie verlassen sich lieber auf List oder Überzahl. Bei ihnen gilt: "Masse statt Klasse."
+Goblins sind alleine klein und schwach; sie verlassen sich lieber auf List oder Überzahl.
+Bei ihnen gilt: "Masse statt Klasse."
 
 - Wenn sie mit mindestens zehnfacher Übermacht angreifen, erhalten sie Angriffsbonus von +1 auf ihre Attacken.
 - Goblins sind mit 6 GE leichter als andere Rassen, dafür ist aber auch ihre Tragekapazität von 4,4 GE geringer.
@@ -47,7 +55,10 @@ Goblins sind alleine klein und schwach; sie verlassen sich lieber auf List oder 
 
 ## Halblinge
 
-Halblinge sind kleine Gesellen mit haarigen Füßen. Sie sind gute Händler und verstehen es, die Bauern zu unterhalten. Sie sind gute Baumeister, Pferde und [Schiffe] überlassen sie aber lieber anderen. Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
+Halblinge sind kleine Gesellen mit haarigen Füßen.
+Sie sind gute Händler und verstehen es, die Bauern zu unterhalten.
+Sie sind gute Baumeister, Pferde und [Schiffe] überlassen sie aber lieber anderen.
+Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
 
 - Halblinge, die in einem Kampf versuchen zu [fliehen], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [[bef-kaempfe|`KÄMPFE FLIEHE`]]).
 - Halblinge haben einen Angriffs- und Schadens-Bonus von je +5 im Kampf gegen [Drachen].
@@ -88,7 +99,10 @@ Menschen können alles ein bisschen, nichts so richtig schlecht aber auch nichts
 
 - Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [[bef-gib|geben lassen]]. Es gibt keine Migranten mit [teuren Talenten], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
 
-Die Anzahl der *Migranten* errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50). Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen. Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden]. Die folgende Tabelle enthält einige Beispiele:
+Die Anzahl der *Migranten* errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50).
+Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen.
+Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden].
+Die folgende Tabelle enthält einige Beispiele:
 
 Migranten
 
@@ -122,7 +136,9 @@ Trolle stapfen wandelnden Felsbrocken gleich unübersehbar durch die Lande. Mit 
 
 ## Zwerge
 
-Zwerge leben in den Bergen. Ihre Schmiedekünste sind viel gerühmt, ihre Bauten weltbekannt. Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist nicht gerade ihr Element.
+Zwerge leben in den Bergen.
+Ihre Schmiedekünste sind viel gerühmt, ihre Bauten weltbekannt.
+Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist nicht gerade ihr Element.
 
 - Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][11] und [hier][abgebaute Steine]).
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].

@@ -11,11 +11,17 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
 -->
 
-[Magellan] bietet die Möglichkeit des [E-Mail-Versands] der Befehle direkt aus dem Programm. Vorteil davon ist, dass es keine Fehler durch Kopieren in das E-Mail-Programm oder Webmailer gibt und diese keine automatischen Formatierung vornehmen, die der Eressea Server nicht versteht, zum Beispiel HTML-Formatierung, komische Zeilenumbrüche, automatische Banner oder eine seltsame Buchstabencodierung, insbesondere bei Umlauten. Um eine Kopie der gesendeten E-Mail zu haben, kann man sich die Befehle als Kopie an die eigene Adresse senden. Hierzu muss man in Magellan die entsprechenden Einstellungen vornehmen inklusive der korrekten Daten des SMTP-Servers des Mailanbieters. Die Daten erhält man üblicherweise aus der Hilfe des Anbieters, für einige sind die Daten unten angegeben. Darüber hinaus kann es sein das man beim Anbieter explizit Berechtigung für externe Programme geben muss.
+[Magellan] bietet die Möglichkeit des [E-Mail-Versands] der Befehle direkt aus dem Programm.
+Vorteil davon ist, dass es keine Fehler durch Kopieren in das E-Mail-Programm oder Webmailer gibt und diese keine automatischen Formatierung vornehmen, die der Eressea Server nicht versteht, zum Beispiel HTML-Formatierung, komische Zeilenumbrüche, automatische Banner oder eine seltsame Buchstabencodierung, insbesondere bei Umlauten.
+Um eine Kopie der gesendeten E-Mail zu haben, kann man sich die Befehle als Kopie an die eigene Adresse senden.
+Hierzu muss man in Magellan die entsprechenden Einstellungen vornehmen inklusive der korrekten Daten des SMTP-Servers des Mailanbieters.
+Die Daten erhält man üblicherweise aus der Hilfe des Anbieters, für einige sind die Daten unten angegeben.
+Darüber hinaus kann es sein das man beim Anbieter explizit Berechtigung für externe Programme geben muss.
 
 ## In Magellan
 
-Die Einstellung finden sich unter `Datei => Befehle Speichern...` im zweiten Reiter `E-Mail`. Wenn die Einstellungen einmal vorgenommen wurden, kann man auch direkt über `Datei => Befehle per E-Mail senden` verschicken.
+Die Einstellung finden sich unter `Datei => Befehle Speichern...` im zweiten Reiter `E-Mail`.
+Wenn die Einstellungen einmal vorgenommen wurden, kann man auch direkt über `Datei => Befehle per E-Mail senden` verschicken.
 
 **Absenderadresse:** Deine E-Mail  
 **SMTP-Server:** Vom Mailanbieter (siehe unten)  
@@ -72,7 +78,11 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 **Verwende TLS:** Egal, geht beides  
 **Authentifizierung verwenden:** Ja
 
-*Achtung!* Spätestens ab 30. Mai 2022 funktioniert dies nicht mehr einfach mit dem Gmail-Passwort ([https://support.google.com/accounts/answer/6010255]). Stattdessen muss man ein so genanntes App-Passwort verwenden einrichten. Genaueres verrät die Gmail-Dokumentation: [https://support.google.com/accounts/answer/185833]. Anstelle des Gmail-Passworts gibt man in Magellan dann einfach das App-Passwort an.
+!!! warning "Achtung"
+    Spätestens ab 30. Mai 2022 funktioniert dies nicht mehr einfach mit dem Gmail-Passwort ([https://support.google.com/accounts/answer/6010255]).
+    Stattdessen muss man ein so genanntes App-Passwort verwenden einrichten.
+    Genaueres verrät die Gmail-Dokumentation: [https://support.google.com/accounts/answer/185833].
+    Anstelle des Gmail-Passworts gibt man in Magellan dann einfach das App-Passwort an.
 
 ## Freenet
 

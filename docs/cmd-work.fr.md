@@ -34,4 +34,4 @@ Units on board ships in foreign-guarded regions cannot work or maintain themselv
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[this table]: ./silver.fr.md#exemples-de-possibilites-de-remuneration
+[this table]: ./silver.md#exemples-de-possibilites-de-remuneration

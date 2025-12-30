@@ -4,7 +4,7 @@ alias: bef-zaubere
 ---
 # ZAUBERE
 
-**`ZAUBERE`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [STUFE`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`
+**`ZAUBERE`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [STUFE`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`  
 
 Mit diesem Befehl wird eine Magiereinheit versuchen, den genannten Zauberspruch zu zaubern.
 
@@ -19,6 +19,6 @@ Kampfzauber können nicht einfach so gezaubert werden. Will man diese gegen eine
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#kurzlang "Befehl"
-[Fernzaubern]: ./magic.md#fernzauber "Magie"
-[Kosten]: ./magic.md#komponenten "Magie"
+[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
+[Fernzaubern]: ./magic.md#fernzauber
+[Kosten]: ./magic.md#komponenten

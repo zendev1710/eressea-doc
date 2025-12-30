@@ -46,7 +46,7 @@ Partei 300:
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Meermenschen]: ./races.md#meermenschen
 [Anschwimmen]: ./sailing.md#anschwimmen
 [Insekten]: ./races.md#insekten

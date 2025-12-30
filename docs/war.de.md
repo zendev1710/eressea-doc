@@ -141,10 +141,10 @@ Katapulte benötigen Munition. Diese kann mittels [MACHE Katapultmunition] durch
 Schusswaffen - Proben, Zeitaufwand und Treffer
 
 | Waffe                             | Talent            | Offensivbonus | Nachladen |
-|-----------------------------------|-------------------|---------------|-----------|
-| Armbrust / Mallornarmbrust        | Armbrustschießen  | 0             | 2         |
-| Katapult                          | Katapultbedienung | -4            | 5         |
-| Bogen / Mallornbogen / Elfenbogen | Bogenschießen     | -2            | 0         |
+|-----------------------------------|-------------------|--------------:|----------:|
+| Armbrust / Mallornarmbrust        | Armbrustschießen  |             0 |         2 |
+| Katapult                          | Katapultbedienung |            -4 |         5 |
+| Bogen / Mallornbogen / Elfenbogen | Bogenschießen     |            -2 |         0 |
 
 Dabei ist unter Nachladen angegeben, wie lange es dauert, die Waffe wieder schussbereit zu machen. Ein Katapult kann also in jedem Kampf nur einmal eingesetzt werden. Eine Armbrust kann demnach jede dritte Runde schießen, Bögen sogar jede Runde.
 
@@ -314,11 +314,11 @@ Weiterlesen: [[allianz]].
 [Kampfreihen]: #die-schlacht
 [flüchten]: #die-flucht
 
-[Schaden]: ./ships.md#schiffsschaden
+[Schaden]: ./sailing.md#schiffsschaden
 [Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen
 [Flucht]: ./war.md#die-flucht "Die Flucht"
 [Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften
 [Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften
-[diese]: ./war-tables.md#ruestung
+[diese]: ./war-tables.md#rustung
 [Magieresistenz]: ./war-tables.md#magieresistenz
 [diese Tabelle]: ./war-tables.md#ausdauer

@@ -39,19 +39,19 @@ Weiterhin gibt es in jeder Region maximal eine Kräuterart. Zur Zuordnung siehe 
 
 Weiterlesen: [Waren].
 
-[Waren]: ./items.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe&oldid=16865] -->
 
+[Waren]: ./items.md
 [Region]: ./world.md
 [kontaktiert]: ./cmd-contact.md
 [getarnt]: ./camouflage.md
 [bef-mache]: ./cmd-make.md
 [Kräuterkundlern]: ./skills-list.md
 [bef-pflanze]: ./cmd-plant.md
-[Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
-[Kräuterliste]: ./herbs.md#kraeuterliste "Kräuter"
 [Produktion]: ./production.md
 [Straßen]: ./roads.md
 [Gebäude]: ./buildings.md
+
+[Pferdezucht]: ./buildings-others.md#pferdezucht
+[Kräuterliste]: ./herbs.md#krauterliste

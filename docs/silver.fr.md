@@ -220,6 +220,6 @@ Poursuivre la lecture : [Material Pool].
 [aquariens]: ./races.md#aquariens
 [Fin de bataille]: ./war.md#fin-du-combat
 [morts-vivants]: ./monsters.md#morts-vivants
-[ce tableau]: ./castles.fr.md#apercu
+[ce tableau]: ./castles.md#apercu
 
 [commercer]: #commerce

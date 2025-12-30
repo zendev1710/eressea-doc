@@ -23,7 +23,7 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE&oldid=16727] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Talent]: ./skills.md
 [lernen]: ./skills.md#talente-erlernen "Talente"
 [Liste der Talente]: ./skills-list.md

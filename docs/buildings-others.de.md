@@ -277,19 +277,19 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 Weiterlesen: [Parteipool].
 
-[Wasser des Lebens]: ./alchemy.de.md
-[Burgenbau]: ./castles.de.md
-[BENUTZE 1 Wasser des Lebens]: ./cmd-use.de.md
-[ZÜCHTE]: ./cmd-grow.de.md
-[HELFE BEWACHE]: ./cmd-help.de.md
-[ZERSTÖRE]: ./cmd-destroy.de.md
-[Gebäude]: ./buildings.de.md
-[Burgen]: ./castles.de.md
-[Produktion]: ./production.de.md
-[Parteipool]: ./faction-pool.de.md
-[MACHE gebäudetyp]: ./cmd-make.de.md
+[Wasser des Lebens]: ./alchemy.md
+[Burgenbau]: ./castles.md
+[BENUTZE 1 Wasser des Lebens]: ./cmd-use.md
+[ZÜCHTE]: ./cmd-grow.md
+[HELFE BEWACHE]: ./cmd-help.md
+[ZERSTÖRE]: ./cmd-destroy.md
+[Gebäude]: ./buildings.md
+[Burgen]: ./castles.md
+[Produktion]: ./production.md
+[Parteipool]: ./faction-pool.md
+[MACHE gebäudetyp]: ./cmd-make.md
 
-[Sägewerk]: ./#saegewerk
+[Sägewerk]: ./#sagewerk
 [Leuchtturm]: #leuchtturm
 [Bergwerk]: #bergwerk
 [Steinbruch]: #steinbruch
@@ -305,5 +305,5 @@ Weiterlesen: [Parteipool].
 [Monument]: #monument
 [Steinkreis]: #steinkreis
 
-[Tabelle zu Burgen]: ./castles.md#uebersicht
+[Tabelle zu Burgen]: ./castles.md#ubersicht
 [gesegnet werden]: ./spells-descriptions.md#segne-steinkreis

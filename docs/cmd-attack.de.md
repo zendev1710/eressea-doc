@@ -25,5 +25,5 @@ In den ersten Wochen ist deine Partei [[welpenschutz|immun]] gegen Angriffe.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACKIERE&oldid=16719] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#kurzlang
+[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Kampfende]: ./war.md#das-ende

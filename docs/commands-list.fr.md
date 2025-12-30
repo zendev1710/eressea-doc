@@ -8,144 +8,144 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 
 [<sup>(l)</sup>] bezeichnet einen [pseudolangen Befehl][Befehl], der einer Einheit mehrfach gegeben werden kann. Allerdings kann kein weiterer anderer langer Befehl ausgeführt werden. Näheres dazu ist auf der Seite des jeweiligen Befehls nachzulesen.
 
-| Ordre                                          | Description                                  | C/L     |
-|------------------------------------------------|----------------------------------------------|---------|
-| [//]                                           | bleibender Kommentar                         | [C]     |
-| [[cmd-work]]                                   | verdient 10 Silber oder mehr                 | [L]     |
-| [`ATTACK <unit id>`]                           | greift die Einheit an                        | [(l)] 1 |
-| [`BANNER "<text>"`]                            | setzt Text für Adressliste                   | [C]     |
-| [`CLAIM <number> <item>`]                      | holt Gegenstände aus Parteipool              | [C]     |
-| [[cmd-promote]]                                | macht Einheit zu Helden                      | [C]     |
-| [`STEAL <unit id>`]                            | klaut 50 Silber oder mehr                    | [L]     |
-| [`NAME UNIT "<name>"`]                         | benennt Objekte                              | [C]     |
-| [`NAME FACTION "<name>"`]                      |                                              | [C]     |
-| [`NAME BUILDING "<name>"`]                     |                                              | [C]     |
-| [`NAME SHIP "<name>"`]                         |                                              | [C]     |
-| [`NAME REGION "<name>"`]                       |                                              | [C]     |
-| [`NAME FREMDE UNIT einheit "<name>"`]          | benennt fremde und unbenannte Objekte        | [C]     |
-| [`NAME FREMDES SHIP schiff "<name>"`]          |                                              | [C]     |
-| [`NAME FREMDES BUILDING gebäude "<name>"`]     |                                              | [C]     |
-| [`NAME FREMDE FACTION partei "<name>"`]        |                                              | [C]     |
-| [`USE [<number>] trank`]                       | benutzt alchemistischen Trank                | [C]     |
-| [`DESCRIBE UNIT "<text>"`]                     | beschreibt Objekte                           | [C]     |
-| [`DESCRIBE PRIVAT "<text>"`]                   |                                              | [C]     |
-| [`DESCRIBE BUILDING "<text>"`]                 |                                              | [C]     |
-| [`DESCRIBE SHIP "<text>"`]                     |                                              | [C]     |
-| [`DESCRIBE REGION "<text>"`]                   |                                              | [C]     |
-| [`ENTER BUILDING <building id>`]               | betritt Gebäude                              | [C]     |
-| [`ENTER SHIP <ship id>`]                       | betritt Schiffe                              | [C]     |
-| [`GUARD [NOT]`]                                | bewacht die Region                           | [C]     |
-| [`PAY NOT [<building id>]`]                    | bezahlt den Unterhalt für ein Gebäude nicht  | [C]     |
-| [`MESSAGE REGION "<text>"`]                    | versendet Botschaften                        | [C]     |
-| [`MESSAGE SHIP <ship id> "<text>"`]            | versendet Botschaften                        | [C]     |
-| [`MESSAGE BUILDING <building id> "<text>"`]    | versendet Botschaften                        | [C]     |
-| [`MESSAGE UNIT <unit id> "<text>"`]            |                                              | [C]     |
-| [`MESSAGE FACTION <faction id> "<text>"`]      |                                              | [C]     |
-| [`DEFAULT "Ordres"`]                           | setzt Default-Befehl für die nächste Runde.  | [C]     |
-| [`UNIT <unit id>`]                             | beginnt Befehle für eine Einheit             | [C]     |
-| [`EMAIL email@adresse`]                        | setzt die E-Mail-Adresse                     | [C]     |
-| [[cmd-end]]                                    | beendet MAKE TEMP                            | [C]     |
-| [`ERESSEA <faction id> "passwort"`]            | beginnt Befehle für Partei                   | [C]     |
-| [`RIDE <unit id>`]                             | sich transportieren lassen                   | [L]     |
-| [`FOLLOW UNIT <unit id>`]                      | folgt einer Einheit                          | [(l)] 2 |
-| [`FOLLOW SHIP <ship id>`]                      | folgt einem Schiff                           | [(l)] 2 |
-| [`RESEARCH HERBS`]                             | sucht Kräuter                                | [L]     |
-| [`GIVE <unit id> herb`]                        | gibt einer Einheit alle Kräuter              | [C]     |
-| [`GIVE <unit id> KOMMANDO`]                    | übergibt Kommando über Schiff/Gebäude        | [C]     |
-| [`GIVE <unit id> UNIT`]                        | übergibt Einheit an fremde Partei            | [C]     |
-| [`GIVE <unit id> [EACH] <number> MEN`] | übergibt Personen                            | [C]     |
-| [`GIVE <unit id> [EACH] <number> SHIP`]    | übergibt SHIP zur Bildung von Konvois        | [C]     |
-| [`GIVE <unit id> [EACH] <number> SILVER`]  | übergibt Silber                              | [C]     |
-| [`GIVE <unit id> [EACH] <number> <item>`]  | übergibt Gegenstände                         | [C]     |
-| [`GIVE 0 <number> SILVER`]                     | gibt Gegenstände an die Bauern               | [C]     |
-| [`GIVE 0 <number> MEN`]                    |                                              | [C]     |
-| [`GIVE 0 <number> <item>`]                     |                                              | [C]     |
-| [`GROUP ["<name>"]`]                           | Gruppieren von Einheiten                     | [C]     |
-| [`HELP <faction id> ALLES [NOT]`]              | setzt / löscht einseitige Allianz            | [C]     |
-| [`HELP <faction id> GIVE [NOT]`]               |                                              | [C]     |
-| [`HELP <faction id> COMBAT [NOT]`]             |                                              | [C]     |
-| [`HELP <faction id> GUARD [NOT]`]              |                                              | [C]     |
-| [`HELP <faction id> SILVER [NOT]`]             |                                              | [C]     |
-| [`HELP <faction id> PARTEITARNUNG [NOT]`]      |                                              | [C]     |
-| [[cmd-combat]]                                 | setzt Verhalten im Kampf                     | K       |
-| [`COMBAT AGGRESSIVE`]                          |                                              | [C]     |
-| [`COMBAT DEFENSIVE`]                           |                                              | [C]     |
-| [`COMBAT FLEE`]                                |                                              | [C]     |
-| [`COMBAT HELP [NOT]`]                          | der Einheit wird im Kampf nicht geholfen     | [C]     |
-| [`COMBAT REAR`]                                |                                              | [C]     |
-| [`COMBAT NOT`]                                 |                                              | [C]     |
-| [`COMBATSPELL [LEVEL n] "zauberspruch" [NOT]`] | setzt Zauber für Kämpfe                      | [C]     |
-| [`BUY <number> luxusgut`]                      | kaufe Luxusgüter                             | [(l)] 3 |
-| [`CONTACT <unit id>`]                          | kontaktiere fremde Einheiten                 | [C]     |
-| [`TEACH <unit id> [<unit id> etc.]`]           | lehre Einheiten                              | [L]     |
-| [`LEARN <skill>`]                              | Talent lernen                                | [L]     |
-| [`LEARN AUTO <skill>`]                         | Talent lernen oder lehren                    | [L]     |
-| [`LOCALE en/de`]                               | zeigt die Sprache der Befehle an             | [C]     |
-| [`MAKE TEMP unit-alias-nr ["<name>"]`]         | erschaffe neue Einheit                       | [C]     |
-| [`MAKE [stufe] gebäude-typ [<building id>]`]   | erweitere oder baue neues Gebäude            | [L]     |
-| [`MAKE [stufe] schiffstyp`]                    | baue neue Schiffe                            | [L]     |
-| [`MAKE [stufe] SHIP [<ship id>]`]              | baue weiter am Schiff                        | [L]     |
-| [[cmd-make]]                                   | baue weiter an Gebäude/Schiff                | [L]     |
-| [`MAKE [stufe] STRASSE richtung`]              | baue Straßen                                 | [L]     |
-| [`MAKE [<number>] herb`]                       | suche Kräuter der Region                     | [L]     |
-| [`MAKE [<number>] trank`]                      | MAKE einen alchemistischen Trank             | [L]     |
-| [`MAKE [<number>] <item>`]                     | MAKE einen Gegenstand oder baue Rohstoffe ab | [L]     |
-| [`MOVE richtung [richtung etc.]`]              | reisen                                       | [L]     |
-| [`NEXT] | beendet Befehle | [C] |
-| [`NUMBER UNIT [neue\_nr]`] | vergibt neue Nummer | [C] |
-| [`NUMBER BUILDING [neue\_nr]`] |     | [C] |
-| [`NUMBER FACTION [neue\_nr]`] |     | [C] |
-| [`NUMBER SHIP [neue\_nr]`] |     | [C] |
-| [`OPTION AUSWERTUNG [NOT]`] | verschiedene Einstellungen | [C] |
-| [`OPTION COMPUTER [NOT]`] |     | [C] |
-| [`OPTION ZIPPED [NOT]`] |     | [C] |
-| [`OPTION BZIP2 [NOT]`] |     | [C] |
-| [`OPTION SILBERPOOL [NOT]`] |     | [C] |
-| [`OPTION MATERIALPOOL [NOT]`] |     | [C] |
-| [`OPTION ADRESSEN [NOT]`] |     | [C] |
-| [`OPTION ZUGVORLAGE [NOT]`] |     | [C] |
-| [`OPTION STATISTIK [NOT]`] |     | [C] |
-| [`OPTION TALENTVERSCHIEBUNG [NOT]`] |     | [C] |
-| [`OPTION PUNKTE [NOT]`] |     | [C] |
-| [`PASSWORD "neues-passwort"`] | setzt neues Passwort | [C] |
-| [`PLANT [<number>] herb`] | pflanzt Kräuter | [L] |
-| [`PLANT [<number>] BÄUME`] | pflanzt Samen | [L] |
-| [`PLANT [<number>] MALLORNSAMEN`] | pflanzt Samen | [L] |
-| [`PLANT [<number>] SAMEN`] | pflanzt Samen | [L] |
-| [`PIRACY [partei\_1] [partei\_2] [...]`] | Piraterie setzen | [L] |
-| [`PREFIX [präfix]`] | gibt der Rassenbezeichnung ein Präfix | [C] |
-| [`REGION x,y`] | keine Funktion (nur für Tools) | [C] |
-| [`RECRUIT <number>`] | rekrutiert weitere Personen | [C] |
-| [`RESERVE <number> "<item>"`] | Gegenstände reservieren | [C] |
-| [`RESERVE <number> SILVER`] | Silber reservieren | [C] |
-| [`ROUTE richtung [richtung etc.]`] | reisen | [L] |
-| [`SORT BEFORE <unit id>`] | Einheit in Report sortieren | [C] |
-| [`SORT AFTER <unit id>`] |     | [C] |
-| [`SPY <unit id>`] | Einheit ausspionieren | [L] |
-| [`LANGUAGE en/de`] | ändert die Sprache der Partei | [C] |
-| [`QUIT "passwort" [FACTION <faction id>]`] | aus dem Spiel ausscheiden | [C] |
-| [`HIDE [stufe]`] | Tarnstufe setzen | [C] |
-| [`HIDE rasse`] | Dämonen: als andere Rasse tarnen | [C] |
-| [`HIDE FACTION [NOT]`] | Parteizugehörigkeit verbergen (als "anonym" getarnt) | [C] |
-| [`HIDE FACTION NUMBER nummer`] | Parteizugehörigkeit tarnen (als andere Partei getarnt) | [C] |
-| [`CARRY <unit id>`] | andere Einheiten mitnehmen | [C] |
-| [`TAX [betrag]`] | Steuern eintreiben | [L] |
-| [`ENTERTAIN [betrag]`] | verdient 20 oder mehr Silber | [L] |
-| [`ORIGIN x y`] | setzt den Koordinaten-Ursprung | [C] |
-| [`FORGET <skill>`] | vergisst das Talent | [C] |
-| [`SELL anzah`l luxusgut] | verkauft Luxusgüter | [(l)] 3 |
-| [`SELL ALLES luxusgut`] |     |     |
-| [`LEAVE] | Schiff oder Gebäude verlassen | [C] |
-| [`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`] | Zaubern | [(l)] 4 |
-| [`SHOW ALLE ZAUBER`] | zeigt Beschreibung aller bekannten Zauber | [C] |
-| [`SHOW ALLE TRÄNKE`] | zeigt Beschreibung aller bekannten Tränke | [C] |
-| [`SHOW "Gegenstand"`] | zeigt Beschreibung eines Gegenstands | [C] |
-| [`SHOW "Trank"`] | zeigt Beschreibung des Tranks | [C] |
-| [`SHOW "Zauberspruch"`] | zeigt Beschreibung des Zaubers | [C] |
-| [`SHOW "Rasse"`] | zeigt Beschreibung der Rasse der Einheit | [C] |
-| [`DESTROY [stufen]`] | Gebäude oder Schiff verkleinern | [L] |
-| [`DESTROY [stufen]`] STRASSE richtung | Straße einreißen | [L] |
-| [`GROW PFERDE`] | Pferde züchten - nur in Pferdezucht | L   |
+| Ordre                                                | Description                                            | C/L     |
+|------------------------------------------------------|--------------------------------------------------------|---------|
+| [//]                                                 | bleibender Kommentar                                   | [C]     |
+| [[cmd-work]]                                         | verdient 10 Silber oder mehr                           | [L]     |
+| [`ATTACK <unit id>`]                                 | greift die Einheit an                                  | [(l)] 1 |
+| [`BANNER "<text>"`]                                  | setzt Text für Adressliste                             | [C]     |
+| [`CLAIM <number> <item>`]                            | holt Gegenstände aus Parteipool                        | [C]     |
+| [[cmd-promote]]                                      | macht Einheit zu Helden                                | [C]     |
+| [`STEAL <unit id>`]                                  | klaut 50 Silber oder mehr                              | [L]     |
+| [`NAME UNIT "<name>"`]                               | benennt Objekte                                        | [C]     |
+| [`NAME FACTION "<name>"`]                            |                                                        | [C]     |
+| [`NAME BUILDING "<name>"`]                           |                                                        | [C]     |
+| [`NAME SHIP "<name>"`]                               |                                                        | [C]     |
+| [`NAME REGION "<name>"`]                             |                                                        | [C]     |
+| [`NAME FREMDE UNIT einheit "<name>"`]                | benennt fremde und unbenannte Objekte                  | [C]     |
+| [`NAME FREMDES SHIP schiff "<name>"`]                |                                                        | [C]     |
+| [`NAME FREMDES BUILDING gebäude "<name>"`]           |                                                        | [C]     |
+| [`NAME FREMDE FACTION partei "<name>"`]              |                                                        | [C]     |
+| [`USE [<number>] trank`]                             | benutzt alchemistischen Trank                          | [C]     |
+| [`DESCRIBE UNIT "<text>"`]                           | beschreibt Objekte                                     | [C]     |
+| [`DESCRIBE PRIVAT "<text>"`]                         |                                                        | [C]     |
+| [`DESCRIBE BUILDING "<text>"`]                       |                                                        | [C]     |
+| [`DESCRIBE SHIP "<text>"`]                           |                                                        | [C]     |
+| [`DESCRIBE REGION "<text>"`]                         |                                                        | [C]     |
+| [`ENTER BUILDING <building id>`]                     | betritt Gebäude                                        | [C]     |
+| [`ENTER SHIP <ship id>`]                             | betritt Schiffe                                        | [C]     |
+| [`GUARD [NOT]`]                                      | bewacht die Region                                     | [C]     |
+| [`PAY NOT [<building id>]`]                          | bezahlt den Unterhalt für ein Gebäude nicht            | [C]     |
+| [`MESSAGE REGION "<text>"`]                          | versendet Botschaften                                  | [C]     |
+| [`MESSAGE SHIP <ship id> "<text>"`]                  | versendet Botschaften                                  | [C]     |
+| [`MESSAGE BUILDING <building id> "<text>"`]          | versendet Botschaften                                  | [C]     |
+| [`MESSAGE UNIT <unit id> "<text>"`]                  |                                                        | [C]     |
+| [`MESSAGE FACTION <faction id> "<text>"`]            |                                                        | [C]     |
+| [`DEFAULT "Ordres"`]                                 | setzt Default-Befehl für die nächste Runde.            | [C]     |
+| [`UNIT <unit id>`]                                   | beginnt Befehle für eine Einheit                       | [C]     |
+| [`EMAIL email@adresse`]                              | setzt die E-Mail-Adresse                               | [C]     |
+| [[cmd-end]]                                          | beendet MAKE TEMP                                      | [C]     |
+| [`ERESSEA <faction id> "passwort"`]                  | beginnt Befehle für Partei                             | [C]     |
+| [`RIDE <unit id>`]                                   | sich transportieren lassen                             | [L]     |
+| [`FOLLOW UNIT <unit id>`]                            | folgt einer Einheit                                    | [(l)] 2 |
+| [`FOLLOW SHIP <ship id>`]                            | folgt einem Schiff                                     | [(l)] 2 |
+| [`RESEARCH HERBS`]                                   | sucht Kräuter                                          | [L]     |
+| [`GIVE <unit id> herb`]                              | gibt einer Einheit alle Kräuter                        | [C]     |
+| [`GIVE <unit id> KOMMANDO`]                          | übergibt Kommando über Schiff/Gebäude                  | [C]     |
+| [`GIVE <unit id> UNIT`]                              | übergibt Einheit an fremde Partei                      | [C]     |
+| [`GIVE <unit id> [EACH] <number> MEN`]               | übergibt Personen                                      | [C]     |
+| [`GIVE <unit id> [EACH] <number> SHIP`]              | übergibt SHIP zur Bildung von Konvois                  | [C]     |
+| [`GIVE <unit id> [EACH] <number> SILVER`]            | übergibt Silber                                        | [C]     |
+| [`GIVE <unit id> [EACH] <number> <item>`]            | übergibt Gegenstände                                   | [C]     |
+| [`GIVE 0 <number> SILVER`]                           | gibt Gegenstände an die Bauern                         | [C]     |
+| [`GIVE 0 <number> MEN`]                              |                                                        | [C]     |
+| [`GIVE 0 <number> <item>`]                           |                                                        | [C]     |
+| [`GROUP ["<name>"]`]                                 | Gruppieren von Einheiten                               | [C]     |
+| [`HELP <faction id> ALLES [NOT]`]                    | setzt / löscht einseitige Allianz                      | [C]     |
+| [`HELP <faction id> GIVE [NOT]`]                     |                                                        | [C]     |
+| [`HELP <faction id> COMBAT [NOT]`]                   |                                                        | [C]     |
+| [`HELP <faction id> GUARD [NOT]`]                    |                                                        | [C]     |
+| [`HELP <faction id> SILVER [NOT]`]                   |                                                        | [C]     |
+| [`HELP <faction id> PARTEITARNUNG [NOT]`]            |                                                        | [C]     |
+| [[cmd-combat]]                                       | setzt Verhalten im Kampf                               | K       |
+| [`COMBAT AGGRESSIVE`]                                |                                                        | [C]     |
+| [`COMBAT DEFENSIVE`]                                 |                                                        | [C]     |
+| [`COMBAT FLEE`]                                      |                                                        | [C]     |
+| [`COMBAT HELP [NOT]`]                                | der Einheit wird im Kampf nicht geholfen               | [C]     |
+| [`COMBAT REAR`]                                      |                                                        | [C]     |
+| [`COMBAT NOT`]                                       |                                                        | [C]     |
+| [`COMBATSPELL [LEVEL n] "zauberspruch" [NOT]`]       | setzt Zauber für Kämpfe                                | [C]     |
+| [`BUY <number> luxusgut`]                            | kaufe Luxusgüter                                       | [(l)] 3 |
+| [`CONTACT <unit id>`]                                | kontaktiere fremde Einheiten                           | [C]     |
+| [`TEACH <unit id> [<unit id> etc.]`]                 | lehre Einheiten                                        | [L]     |
+| [`LEARN <skill>`]                                    | Talent lernen                                          | [L]     |
+| [`LEARN AUTO <skill>`]                               | Talent lernen oder lehren                              | [L]     |
+| [`LOCALE en/de`]                                     | zeigt die Sprache der Befehle an                       | [C]     |
+| [`MAKE TEMP unit-alias-nr ["<name>"]`]               | erschaffe neue Einheit                                 | [C]     |
+| [`MAKE [stufe] gebäude-typ [<building id>]`]         | erweitere oder baue neues Gebäude                      | [L]     |
+| [`MAKE [stufe] schiffstyp`]                          | baue neue Schiffe                                      | [L]     |
+| [`MAKE [stufe] SHIP [<ship id>]`]                    | baue weiter am Schiff                                  | [L]     |
+| [[cmd-make]]                                         | baue weiter an Gebäude/Schiff                          | [L]     |
+| [`MAKE [stufe] STRASSE richtung`]                    | baue Straßen                                           | [L]     |
+| [`MAKE [<number>] herb`]                             | suche Kräuter der Region                               | [L]     |
+| [`MAKE [<number>] trank`]                            | MAKE einen alchemistischen Trank                       | [L]     |
+| [`MAKE [<number>] <item>`]                           | MAKE einen Gegenstand oder baue Rohstoffe ab           | [L]     |
+| [`MOVE richtung [richtung etc.]`]                    | reisen                                                 | [L]     |
+| [`NEXT`]                                             | beendet Befehle                                        | [C]     |
+| [`NUMBER UNIT [neue\_nr]`]                           | vergibt neue Nummer                                    | [C]     |
+| [`NUMBER BUILDING [neue\_nr]`]                       |                                                        | [C]     |
+| [`NUMBER FACTION [neue\_nr]`]                        |                                                        | [C]     |
+| [`NUMBER SHIP [neue\_nr]`]                           |                                                        | [C]     |
+| [`OPTION AUSWERTUNG [NOT]`]                          | verschiedene Einstellungen                             | [C]     |
+| [`OPTION COMPUTER [NOT]`]                            |                                                        | [C]     |
+| [`OPTION ZIPPED [NOT]`]                              |                                                        | [C]     |
+| [`OPTION BZIP2 [NOT]`]                               |                                                        | [C]     |
+| [`OPTION SILBERPOOL [NOT]`]                          |                                                        | [C]     |
+| [`OPTION MATERIALPOOL [NOT]`]                        |                                                        | [C]     |
+| [`OPTION ADRESSEN [NOT]`]                            |                                                        | [C]     |
+| [`OPTION ZUGVORLAGE [NOT]`]                          |                                                        | [C]     |
+| [`OPTION STATISTIK [NOT]`]                           |                                                        | [C]     |
+| [`OPTION TALENTVERSCHIEBUNG [NOT]`]                  |                                                        | [C]     |
+| [`OPTION PUNKTE [NOT]`]                              |                                                        | [C]     |
+| [`PASSWORD "neues-passwort"`]                        | setzt neues Passwort                                   | [C]     |
+| [`PLANT [<number>] herb`]                            | pflanzt Kräuter                                        | [L]     |
+| [`PLANT [<number>] BÄUME`]                           | pflanzt Samen                                          | [L]     |
+| [`PLANT [<number>] MALLORNSAMEN`]                    | pflanzt Samen                                          | [L]     |
+| [`PLANT [<number>] SAMEN`]                           | pflanzt Samen                                          | [L]     |
+| [`PIRACY [partei\_1] [partei\_2] [...]`]             | Piraterie setzen                                       | [L]     |
+| [`PREFIX [präfix]`]                                  | gibt der Rassenbezeichnung ein Präfix                  | [C]     |
+| [`REGION x,y`]                                       | keine Funktion (nur für Tools)                         | [C]     |
+| [`RECRUIT <number>`]                                 | rekrutiert weitere Personen                            | [C]     |
+| [`RESERVE <number> "<item>"`]                        | Gegenstände reservieren                                | [C]     |
+| [`RESERVE <number> SILVER`]                          | Silber reservieren                                     | [C]     |
+| [`ROUTE richtung [richtung etc.]`]                   | reisen                                                 | [L]     |
+| [`SORT BEFORE <unit id>`]                            | Einheit in Report sortieren                            | [C]     |
+| [`SORT AFTER <unit id>`]                             |                                                        | [C]     |
+| [`SPY <unit id>`]                                    | Einheit ausspionieren                                  | [L]     |
+| [`LANGUAGE en/de`]                                   | ändert die Sprache der Partei                          | [C]     |
+| [`QUIT "passwort" [FACTION <faction id>]`]           | aus dem Spiel ausscheiden                              | [C]     |
+| [`HIDE [stufe]`]                                     | Tarnstufe setzen                                       | [C]     |
+| [`HIDE rasse`]                                       | Dämonen: als andere Rasse tarnen                       | [C]     |
+| [`HIDE FACTION [NOT]`]                               | Parteizugehörigkeit verbergen (als "anonym" getarnt)   | [C]     |
+| [`HIDE FACTION NUMBER nummer`]                       | Parteizugehörigkeit tarnen (als andere Partei getarnt) | [C]     |
+| [`CARRY <unit id>`]                                  | andere Einheiten mitnehmen                             | [C]     |
+| [`TAX [betrag]`]                                     | Steuern eintreiben                                     | [L]     |
+| [`ENTERTAIN [betrag]`]                               | verdient 20 oder mehr Silber                           | [L]     |
+| [`ORIGIN x y`]                                       | setzt den Koordinaten-Ursprung                         | [C]     |
+| [`FORGET <skill>`]                                   | vergisst das Talent                                    | [C]     |
+| [`SELL anzah`l luxusgut]                             | verkauft Luxusgüter                                    | [(l)] 3 |
+| [`SELL ALLES luxusgut`]                              |                                                        |         |
+| [`LEAVE]                                             | Schiff oder Gebäude verlassen                          | [C]     |
+| [`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`] | Zaubern                                                | [(l)] 4 |
+| [`SHOW ALLE ZAUBER`]                                 | zeigt Beschreibung aller bekannten Zauber              | [C]     |
+| [`SHOW ALLE TRÄNKE`]                                 | zeigt Beschreibung aller bekannten Tränke              | [C]     |
+| [`SHOW "Gegenstand"`]                                | zeigt Beschreibung eines Gegenstands                   | [C]     |
+| [`SHOW "Trank"`]                                     | zeigt Beschreibung des Tranks                          | [C]     |
+| [`SHOW "Zauberspruch"`]                              | zeigt Beschreibung des Zaubers                         | [C]     |
+| [`SHOW "Rasse"`]                                     | zeigt Beschreibung der Rasse der Einheit               | [C]     |
+| [`DESTROY [stufen]`]                                 | Gebäude oder Schiff verkleinern                        | [L]     |
+| [`DESTROY [stufen]`] STRASSE richtung                | Straße einreißen                                       | [L]     |
+| [`GROW PFERDE`]                                      | Pferde züchten - nur in Pferdezucht                    | L       |
 
 <!-- [//]: ./cmd-comment-slash.md-->
 [L]: ./commands.md#ordres-courts-et-longs
@@ -300,7 +300,8 @@ Poursuivre la lecture : [Der erste Zug].
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [Befehl]: ./commands.md
-[<sup>(l)</sup>]: ./commands.md#ordres-courts-et-longs
-[Kampfende]: ./war.md#fin-de-la-bataille"Fin de la bataille"
 [Befehle]: ./commands.md
 [Befehlsreihenfolge]: ./commands-sequence.md
+
+[<sup>(l)</sup>]: ./commands.md#ordres-courts-et-longs
+[Kampfende]: ./war.md#fin-du-combat

@@ -167,14 +167,12 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 
 Weiterlesen: [Materialpool].
 
-[Materialpool]: ./items-pool.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Geld&oldid=16840] -->
 
+[Materialpool]: ./items-pool.md
 [Arbeiten]: ./cmd-work.md
 [Unterhalten]: ./cmd-entertain.md
 [Steuern eintreiben]: ./cmd-tax.md
-[Handel]: ./silver.md#handel "Geld"
 [Rassen]: ./races.md
 [rekrutieren]: ./cmd-recruit.md
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md
@@ -182,12 +180,8 @@ Weiterlesen: [Materialpool].
 [hier]: ./alliances.md
 [reserviert]: ./cmd-reserve.md
 [Gebäude]: ./buildings.md
-[Meermenschen]: ./races.md#meermenschen "Meermensch"
 [Schaden]: ./ships.md
-[Kampfende]: ./war.md#kampfende "Kampfende"
 [Ausdauertalent]: ./war-tables.md
-[Untote]: ./monsters.md#untote "Untote"
-[Burgen-Tabelle]: ./castles.md#uebersicht "Burg"
 [bef-beklaue]: ./camouflage.md
 [Tarnungstalent]: ./camouflage.md
 [Wahrnehmung]: ./camouflage.md
@@ -198,5 +192,11 @@ Weiterlesen: [Materialpool].
 [Hafen]: ./buildings-others.md
 [bef-kontaktiere]: ./cmd-contact.md
 [bef-gib]: ./cmd-give.md
-[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
 [bef-bewache]: ./cmd-guard.md
+
+[Handel]: ./silver.md#handel
+[Meermenschen]: ./races.md#meermenschen
+[Kampfende]: ./war.md#das-ende
+[Untote]: ./monsters.md#untote
+[Burgen-Tabelle]: ./castles.md#ubersicht
+[bef-rekrutiere]: ./silver.md#rekrutieren

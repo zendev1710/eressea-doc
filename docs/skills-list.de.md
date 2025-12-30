@@ -139,25 +139,26 @@ Weiterlesen: [Tarnung].
 [Alchemie]: ./alchemy.md
 [Tränken]: ./alchemy.md
 [Kräutern]: ./herbs.md
-[Tabelle]: ./war.md#ausdauer "Kampftabellen"
 [Rohstoffe]: ./resources.md
 [Gebäude und Burgen]: ./buildings.md
-[Handel]: ./silver.md#handel "Handel"
 [bef-kaufe]: ./cmd-buy.md
-[1]: ./resources.md#tief-im-wald "Rohstoffe"
 [`FORSCHE KRÄUTER`]: ./cmd-research.md
 [`MACHE SAMEN`]: ./cmd-make.md
 [Produktion]: ./production.md
 [bef-pflanze]: ./cmd-plant.md
-[Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
-[Pferdezucht]: ./buildings-others.md#pferdezucht "Pferdezucht"
 [Waren]: ./items.md
 [Schiffe]: ./ships.md
 [bef-spioniere]: ./cmd-spy.md
-[2]: ./resources.md#vom-bergbau "Rohstoffe"
 [Straßen]: ./roads.md
-[Musterung]: ./war.md#die-musterung-der-einheiten "Musterung"
 [beklauen]: ./camouflage.md
 [Bewachungen]: ./cmd-guard.md
 [Wahrnehmung]: ./camouflage.md
+
+[Tabelle]: ./war-tables.md#ausdauer
+[Handel]: ./silver.md#handel
+[1]: ./resources.md#tief-im-wald
+[Pferde]: ./travel.md#pferd-und-wagen
+[Pferdezucht]: ./buildings-others.md#pferdezucht
+[2]: ./resources.md#vom-bergbau
+[Musterung]: ./war.md#die-musterung-der-einheiten

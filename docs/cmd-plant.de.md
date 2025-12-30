@@ -26,7 +26,7 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=PFLANZE&oldid=16730] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Kräuterkunde]: ./skills-list.md
 [Wasser des Lebens]: ./potions-and-herbs.md
 [ZÜCHTE]: ./cmd-grow.md

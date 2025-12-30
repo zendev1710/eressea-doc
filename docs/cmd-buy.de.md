@@ -41,5 +41,5 @@ Im Computerreport und der [Zugvorlage]["pseudolanger" Befehl] sind alle `KAUFE`-
 [bef-verkaufe]: ./cmd-sell.md
 ["pseudolanger" Befehl]: ./commands.md
 
-[<sup>`(l)`</sup>]: ./commands.md#kurzlang
+[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Handeln]: ./silver.md#handel

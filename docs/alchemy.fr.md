@@ -71,4 +71,4 @@ Poursuivre la lecture : [[herbs|plantes]].
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
 
 [Alchemy]: ./skills-list.md#alchimie
-[Herbalism]: ./skills-list.md#herbalism
+[Herbalism]: ./skills-list.md#herboristerie

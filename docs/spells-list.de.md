@@ -178,7 +178,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
 [Bergwächter]: ./spells-descriptions.md#bergwachter
 [Beschleunigung]: ./spells-descriptions.md#beschleunigung
-[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwore-schattendaemonen
+[Beschwöre Schattendämonen]: ./spells-descriptions.md#beschwore-schattendamonen
 [Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister
 [Beute Bewahren]: ./spells-descriptions.md#beute-bewahren
 [Blick des Basilisken]: ./spells-descriptions.md#blick-des-basilisken
@@ -196,7 +196,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Erschaffe ein Traumauge]: ./spells-descriptions.md#erschaffe-ein-traumauge
 [Erschaffe eine Sphäre der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-eine-sphare-der-unsichtbarkeit
 [Erschaffe einen Beutel des Negativen Gewichts]: ./spells-descriptions.md#erschaffe-einen-beutel-des-negativen-gewichts
-[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gurtel-der-trollstaerke
+[Erschaffe einen Gürtel der Trollstärke]: ./spells-descriptions.md#erschaffe-einen-gurtel-der-trollstarke
 [Erschaffe einen Ring der Macht]: ./spells-descriptions.md#erschaffe-einen-ring-der-macht
 [Erschaffe einen Ring der Unsichtbarkeit]: ./spells-descriptions.md#erschaffe-einen-ring-der-unsichtbarkeit
 [Erschaffe einen magischen Kräuterbeutel]: ./spells-descriptions.md#erschaffe-einen-magischen-krauterbeutel
@@ -274,7 +274,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Schutz vor Magie]: ./spells-descriptions.md#schutz-vor-magie
 [Schutzzauber]: ./spells-descriptions.md#schutzzauber
 [Schwere Glieder]: ./spells-descriptions.md#schwere-glieder
-[Schöne Träume]: ./spells-descriptions.md#schoene-traume
+[Schöne Träume]: ./spells-descriptions.md#schone-traume
 [Seelenfrieden]: ./spells-descriptions.md#seelenfrieden
 [Segen der Erde]: ./spells-descriptions.md#segen-der-erde
 [Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
@@ -284,7 +284,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Stehle Aura]: ./spells-descriptions.md#stehle-aura
 [Sturmelementar]: ./spells-descriptions.md#sturmelementar
 [Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
-[Süße Träume]: ./spells-descriptions.md#suesse-traume
+[Süße Träume]: ./spells-descriptions.md#sue-traume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
@@ -293,7 +293,7 @@ Weiterlesen: [[alchemie|Tränke]].
 [Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
 [Traumdeuten]: ./spells-descriptions.md#traumdeuten
 [Traumlesen]: ./spells-descriptions.md#traumlesen
-[Traumschlößchen]: ./spells-descriptions.md#traumschlesschen
+[Traumschlößchen]: ./spells-descriptions.md#traumschlochen
 [Traumsenden]: ./spells-descriptions.md#traumsenden
 [Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
 [Untote Helden]: ./spells-descriptions.md#untote-helden

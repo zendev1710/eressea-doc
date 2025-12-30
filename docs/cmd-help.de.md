@@ -13,20 +13,16 @@ alias: bef-helfe
 
 Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
 
-Die einzelnen Modi sind im Abschnitt über [Allianzen] erklärt. Beispiel:
+Die einzelnen Modi sind im Abschnitt über [[allianz|Allianzen]] erklärt.
 
-     HELFE 7 GIB NICHT
+Beispiel:
 
-<!-- TODO: exclude E3 from documentation -->
-**[E3A — Das Dritte Zeitalter]**
+```text
+HELFE 7 GIB NICHT
+```
 
-HELFE KÄMPFE hat in E3A keine Funktion mehr, da dies über den neuen [Allianzen][1] geregelt wird. Da Parteitarnung abgeschafft wurde hat auch HELFE PARTEITARNUNG keine Funktion mehr.
+Spielererfahrung (Solthar):
 
-Spielererfahrung: SoltharHELFE pnr ohne Parameter macht dasselbe wie HELFE pnr ALLES. HELFE pnr NICHT macht dasselbe wie HELFE pnr ALLES NICHT.
+HELFE pnr ohne Parameter macht dasselbe wie HELFE pnr ALLES. HELFE pnr NICHT macht dasselbe wie HELFE pnr ALLES NICHT.
 
 <!-- From [https://wiki.eressea.de/index.php?title=HELFE&oldid=7439] -->
-
-[Allianzen]: ./alliances.md
-<!-- TODO: exclude E3 from documentation -->
-[E3A — Das Dritte Zeitalter]: ./the-third-age.md
-[1]: ./the-third-age.md#allianzen "Das dritte Zeitalter"

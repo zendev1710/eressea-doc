@@ -32,10 +32,11 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 
 [Gebäude]: ./buildings.md
 [Schiff]: ./ships.md
-[Kommando]: ./buildings.md#einheiten-und-gebaäude
 [bef-helfe]: ./cmd-help.md
 [bef-kontaktiere]: ./cmd-contact.md
 [bef-verlasse]: ./cmd-leave.md
 [bef-gib]: ./cmd-give.md
 <!-- TODO: exclude E3 from documentation -->
 [E3A — Das Dritte Zeitalter]: ./the-third-age.md
+
+[Kommando]: ./buildings.md#einheiten-und-gebaude

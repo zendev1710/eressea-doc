@@ -163,4 +163,4 @@ Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nic
 [Trolle]: ./races.md#trolle
 [Orks]: ./races.md#orks
 [Katzen]: ./races.md#katzen
-[Pferdebonus]: ./war.md#boni-und-mali "Boni und Mali"
+[Pferdebonus]: ./war.md#boni-und-mali

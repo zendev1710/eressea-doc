@@ -151,11 +151,11 @@ Weiterlesen: [Xontormia-Express].
 [Der erste Zug]: ./first-round.md
 [Grundlagen]: ./basics.md
 
-[Bergbau]: ./resources.md#vom-bergbau "Rohstoffe"
-[Holzfällen]: ./resources.md#tief-im-wald "Rohstoffe"
-[Steuereintreiben]: ./skills.md#steuereintreiben
-[Waffentalente]: ./skills.md#waffentalente-und-ausdauer "Talente"
-[Diebstahl]: ./silver.md#diebstahl:-der-unehrliche-weg "Geld"
+[Bergbau]: ./resources.md#vom-bergbau
+[Holzfällen]: ./resources.md#tief-im-wald
+[Steuereintreiben]: ./skills.md <!-- TODO: #steuereintreiben -->
+[Waffentalente]: ./skills.md  <!-- TODO: #waffentalente-und-ausdauer "Talente" -->
+[Diebstahl]: ./silver.md#diebstahl-der-unehrliche-weg
 [Handel]: ./silver.md#handel "Geld"
 [Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
 [2]: ./silver.md#handel "Handel"

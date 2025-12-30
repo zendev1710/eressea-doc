@@ -54,7 +54,7 @@ Poursuivre la lecture : [[competences]].
 [orcs]: ./races.md#orcs
 [elves]: ./races.md#elfes
 [cats]: ./races.md#chats
-[demons]: ./races.md#démons
+[demons]: ./races.md#demons
 [halflings]: ./races.md#halflings
 [humans]: ./races.md#humains
 [gobelins]: ./races.md#gobelins

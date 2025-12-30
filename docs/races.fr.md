@@ -156,7 +156,7 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [elven bows]: ./war-tables.md#armes-et-leurs-proprietes
 [fuir]: ./war.md#la-fuite
 [dragons]: ./monsters.md#dragons
-[hier]: ./war-tables.fr.md#races-et-leurs-caracteristiques
+[hier]: ./war-tables.md#races-et-leurs-caracteristiques
 [commercer]: ./silver.md#commerce
 [nager]: ./sailing.md#nager
 [ici]: ./buildings-others.md#cercle-de-pierres

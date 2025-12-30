@@ -14,6 +14,6 @@ Mit diesem Befehl versucht die Einheit herauszufinden, welches Kraut in einer Re
 
 <!-- From [https://wiki.eressea.de/index.php?title=FORSCHE&oldid=16724] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Kräuterkunde]: ./skills-list.md
 [Kräuter]: ./herbs.md

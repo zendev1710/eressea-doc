@@ -79,10 +79,11 @@ Weiterlesen: [Parteien].
 [bef-ursprung]: ./cmd-origin.md
 [Geländearten]: ./terrains.md
 [Kräuter]: ./herbs.md
-[bef-rekrutiere]: ./silver.md#recruiting "REKRUTIERE"
 [Befehle]: ./commands.md
-[Insekt]: ./races.md#insekten "Insekt"
 [See]: ./travel.md
-[Waldwachstums]: ./resources.md#tief-im-wald "Rohstoffe"
 [Geld]: ./silver.md
 [bef-unterhalte]: ./cmd-entertain.md
+
+[bef-rekrutiere]: ./silver.md#rekrutieren
+[Insekt]: ./races.md#insekten
+[Waldwachstums]: ./resources.md#tief-im-wald

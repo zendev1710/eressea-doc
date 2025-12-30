@@ -38,7 +38,7 @@ Und schließlich wieder wie am Anfang.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [bef-nach]: ./cmd-move.md
 [Reisen]: ./travel.md
 [bef-folge]: ./cmd-follow.md

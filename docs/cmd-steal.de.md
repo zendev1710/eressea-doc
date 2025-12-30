@@ -21,7 +21,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Tarnungstalent]: ./skills-list.md
 [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
 [immun]: ./puppy-protection.md

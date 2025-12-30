@@ -29,4 +29,4 @@ If the perception of the victims is even higher than the concealment of the perp
 [<sup>`L`</sup>]: ./commands.md#short-and-long-orders
 
 [perception]: ./skills-list.md#perception
-[silver pool]: ./items-pool.fr.md#reserve-et-give
+[silver pool]: ./items-pool.md#reserve-et-give

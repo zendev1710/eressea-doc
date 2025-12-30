@@ -4,11 +4,22 @@ alias: vertraute
 ---
 # Vertraute
 
-Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt. Dennoch sind Vertraute in der Lage Zauber zu wirken. Sie bedienen sich jedoch sowohl bei den Zaubern, als auch bei der Aura und anderen Komponenten stets beim Magier. Die maximale Entfernung für auf solche weise gewirkte Zauber entspricht dem Talent des Magiers. Vertraute unterliegen bei diesen Zaubern jedoch gewissen Einschränkungen. Die Stufe des Zaubers kann nicht größer als das Magietalent des Vertrauten oder das halbe Talent des Magiers sein. Auch verdoppeln sich die Kosten für den Spruch.
+Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt.
+Dennoch sind Vertraute in der Lage Zauber zu wirken.
+Sie bedienen sich jedoch sowohl bei den Zaubern, als auch bei der Aura und anderen Komponenten stets beim Magier.
+Die maximale Entfernung für auf solche weise gewirkte Zauber entspricht dem Talent des Magiers.
+Vertraute unterliegen bei diesen Zaubern jedoch gewissen Einschränkungen.
+Die Stufe des Zaubers kann nicht größer als das Magietalent des Vertrauten oder das halbe Talent des Magiers sein.
+Auch verdoppeln sich die Kosten für den Spruch.
 
-In seltenen Fällen jedoch können es magiebegabte Wesen sein, welche sich als Vertraute binden lassen, und die mit der Zeit eigene Zaubersprüche erlernen welche dann mit der Aura des Vertrauten selbst gewirkt werden. Diese Zauber können sich völlig von denjenigen unterscheiden, die ihr Meister beherrscht. Auch solche Vertraute besitzen jedoch zusätzlich die Fähigkeit, auf die Zauber ihres Magiers zugreifen zu können.
+In seltenen Fällen jedoch können es magiebegabte Wesen sein, welche sich als Vertraute binden lassen, und die mit der Zeit eigene Zaubersprüche erlernen welche dann mit der Aura des Vertrauten selbst gewirkt werden.
+Diese Zauber können sich völlig von denjenigen unterscheiden, die ihr Meister beherrscht.
+Auch solche Vertraute besitzen jedoch zusätzlich die Fähigkeit, auf die Zauber ihres Magiers zugreifen zu können.
 
-Außerdem können viele Vertraute bestimmte Talente lernen oder haben besondere Fähigkeiten. Aufgrund ihrer grundlegend anderen Sichtweise, können sie jedoch ihr Wissen nicht durch Lehren weitergeben. Der Vertraute verleiht dem Magier einen Bonus in Höhe des halben Talentwertes auf jedes Talent (ausgenommen Magie), welches der Vertraute beherrscht. Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [[bef-zeige]] genau in Erinnerung zu rufen.
+Außerdem können viele Vertraute bestimmte Talente lernen oder haben besondere Fähigkeiten.
+Aufgrund ihrer grundlegend anderen Sichtweise, können sie jedoch ihr Wissen nicht durch Lehren weitergeben.
+Der Vertraute verleiht dem Magier einen Bonus in Höhe des halben Talentwertes auf jedes Talent (ausgenommen Magie), welches der Vertraute beherrscht.
+Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [[bef-zeige]] genau in Erinnerung zu rufen.
 
 ## Vertrautenrassen
 
@@ -136,7 +147,12 @@ Keine Informationen über diese Rasse verfügbar.
 
 ## Talentmodifikation
 
-Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus. Einige sind selbst magiebegabt und verfügen über eigene Aura. Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren. Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben. Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
+Vertraute sind sehr verschieden.
+Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus.
+Einige sind selbst magiebegabt und verfügen über eigene Aura.
+Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren.
+Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben.
+Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
 
 | Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
 |-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
@@ -182,9 +198,13 @@ Vertraute sind sehr verschieden. Nicht alle Vertraute können alle Talente lerne
 
 ## Zuteilung von Vertrauten
 
-Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig. Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
+Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig.
+Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
 
-In der folgenden Tabelle findet sich in der ersten Spalte die Rasse des Magiers, der einen Vertrauten versucht an sich zu binden. In der zweiten Spalte findet sich die Standard-Vertrautenrasse (Primärvertrauter), die sich dieser Magierrasse anschließt. In den fünf darauffolgenden Spalten, stehen die Rassen, die sich dem Magier bevorzugt anschließen, wenn er in dem jeweiligen Magiegebiet bewandert ist. Mit 50%-100% (je nach Stufe) wird die Rasse des Magiegebiets gewählt, mit ungefähr Stufe% eine beliebige, sonst die Primärrasse.
+In der folgenden Tabelle findet sich in der ersten Spalte die Rasse des Magiers, der einen Vertrauten versucht an sich zu binden.
+In der zweiten Spalte findet sich die Standard-Vertrautenrasse (Primärvertrauter), die sich dieser Magierrasse anschließt.
+In den fünf darauffolgenden Spalten, stehen die Rassen, die sich dem Magier bevorzugt anschließen, wenn er in dem jeweiligen Magiegebiet bewandert ist.
+Mit 50%-100% (je nach Stufe) wird die Rasse des Magiegebiets gewählt, mit ungefähr Stufe% eine beliebige, sonst die Primärrasse.
 
 Spielererfahrung:Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen und sollten im Code nochmal gegengecheckt werden!
 
@@ -206,10 +226,12 @@ Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiege
 
 Spielererfahrung:Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
 
-Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen. Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
+Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen.
+Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
 [bef-zeige]: ./cmd-show.md
-[Dämonen]: ./races.md#d.c3.a4monen "Rassen"
-[Goblins]: ./races.md#goblins "Rassen"
+
+[Dämonen]: ./races.md#damonen
+[Goblins]: ./races.md#goblins

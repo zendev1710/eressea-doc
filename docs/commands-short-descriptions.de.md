@@ -161,6 +161,7 @@ Weiterlesen: [Der erste Zug](./first-round.md).
 <!-- From [https://wiki.eressea.de/index.php?title=Diskussion:Kurzbeschreibung&oldid=8099] -->
 
 [Befehl]: ./commands.md
-[Kampfende]: ./war.md#kampfende "Kampfende"
 [Befehle]: ./commands.md
 [Befehlsreihenfolge]: ./commands-sequence.md
+
+[Kampfende]: ./war.md#das-ende

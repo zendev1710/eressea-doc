@@ -16,4 +16,4 @@ To do this, the unit must have at least [herbalism] to level 7.
 <!-- From [https://wiki.eressea.de/index.php?title=RESEARCH&oldid=16724] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[herbalism]: ./skills-list.fr.md#herboristerie
+[herbalism]: ./skills-list.md#herboristerie

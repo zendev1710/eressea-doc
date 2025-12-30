@@ -88,14 +88,13 @@ alias: list-of-spells
 |    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 Aura, 1 perm. Aura                               |                |
 |    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 Aura                                             | Distance       |
 |  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    |  1 |    |    |    | [Kleine Flüche]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
 |    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 Hit Points                                       | Ship           |
-|  6 |    |    |    |    | [Lied der Verführung]             | --      |    5 | 12 Aura                                             |                |
 |    |  8 |    |    |    | [Madness of War]                  | Pre-c.  |    5 | 3 Aura x Level, 10 Bauern                           |                |
 |    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
 |    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 Aura, 1 Seeschlangenkopf                        | Sea, Ship      |
 |    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 Aura                                              | Ship           |
 |    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 Aura                                             |                |
+|    |  1 |    |    |    | [Minor Curses]                    | --      |    5 | 1 Aura x Level                                      | Ship           |
 |    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
 | 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 Aura, 1000 Silver, 1 perm. Aura                  | Ship           |
 | 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 Aura x Level                                      |                |
@@ -104,10 +103,10 @@ alias: list-of-spells
 |    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 Aura                                            |                |
 |    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 Aura x Level                                     | Distance, Ship |
 |    |    |    |    |  2 | [Protection from Magic]           | Pre-c.  |    2 | 3 Aura x Level                                      |                |
-|    |    |    |    |  8 | [Protective Runes]              | --      |    2 | 20 Aura                                             | Ship           |
+|    |    |    |    |  8 | [Protective Runes]                | --      |    2 | 20 Aura                                             | Ship           |
 |  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
-|    |    |  3 |    |    | [Rain of Rust]                       | --      |    5 | 2 Aura x Level                                      | Distance       |
-|    |    |    |  4 |    | [Read Dreams]                      | --      |    5 | 8 Aura                                              | Distance       |
+|    |    |  3 |    |    | [Rain of Rust]                    | --      |    5 | 2 Aura x Level                                      | Distance       |
+|    |    |    |  4 |    | [Read Dreams]                     | --      |    5 | 8 Aura                                              | Distance       |
 |    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 Aura x Level                                      | Ship           |
 |    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 Aura x Level                                      |                |
 |    |    | 12 |    |    | [Rindenhaut]                      | Pre-c.  |    2 | 4 Aura x Level                                      |                |
@@ -122,14 +121,15 @@ alias: list-of-spells
 |    |    |    |  1 |    | [Shadow Knights]                  | Pre-c.  |    4 | 1 Aura x Level                                      |                |
 |    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 Aura x Level                                      |                |
 |    |    |    |    |  8 | [Shield of the Fish]              | Pre-c.  |    2 | 4 Aura x Level                                      |                |
-|    |    |    |    |  5 | [Shockwave]                     | Combat  |    5 | 1 Aura x Level                                      |                |
+|    |    |    |    |  5 | [Shockwave]                       | Combat  |    5 | 1 Aura x Level                                      |                |
 |  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 Aura x Level                                      | Distance, Ship |
 |    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 Aura x Level                                      |                |
 |  4 |    |    |    |    | [Song of Confusion]               | Pre-c.  |    5 | 2 Aura x Level                                      |                |
 |  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 Aura x Level                                      |                |
 |  8 |    |    |    |    | [Song of Fear]                    | Pre-c.  |    5 | 5 Aura x Level                                      |                |
 |  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 Aura x Level                                      | Distance, Ship |
-|  2 |    |    |    |    | [Song of Healing]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
+|  2 |    |    |    |    | [Song of Healing]                 | Post-c. |    5 | 1 Aura x Level                                      |                |
+|  6 |    |    |    |    | [Song of Seduction]               | --      |    5 | 12 Aura                                             |                |
 |  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 Aura x Level                                      |                |
 |  7 |    |    |    |    | [Song of War]                     | Pre-c.  |    4 | 5 Aura x Level                                      |                |
 |  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 Aura, 100 Silver                                  |                |
@@ -154,9 +154,9 @@ alias: list-of-spells
 |    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
 |    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 Aura x Level, 5 Bauern x Level                   |                |
 |    |    |    |  2 |    | [Unspeakable Horrors]             | Pre-c.  |    5 | 1 Aura x Level                                      |                |
-|    |    |  9 |    |    | [Weg der Bäume]                   | --      |    7 | 3 Aura x Level                                      |                |
-|    |    |  5 |    |    | [Whirlwind]                      | Pre-c.  |    5 | 15 Aura                                             |                |
-|    |  6 |    |    |    | [Winds of Rust]                       | Combat  |    5 | 2 Aura x Level                                      |                |
+|    |    |  9 |    |    | [Path of Trees]                   | --      |    7 | 3 Aura x Level                                      |                |
+|    |    |  5 |    |    | [Whirlwind]                       | Pre-c.  |    5 | 15 Aura                                             |                |
+|    |  6 |    |    |    | [Winds of Rust]                   | Combat  |    5 | 2 Aura x Level                                      |                |
 |    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
 |    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 Aura x Level                                      | Ship           |
 
@@ -234,12 +234,12 @@ Continue reading: [[alchemy|Potions]].
 [Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
 [Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung
 [Song of Generosity]: ./spells-descriptions.md#song-of-generosity
-[Kleine Flüche]: ./spells-descriptions.md#kleine-fluche
+[Minor Curses]: ./spells-descriptions.md#minor-curses
 [Lesser Sacrifice]: ./spells-descriptions.md#lesser-sacrifice
 [Song of War]: ./spells-descriptions.md#song-of-war
 [Silence Dissonance]: ./spells-descriptions.md#silence-dissonance
 [Song of Healing]: ./spells-descriptions.md#song-of-healing
-[Lied der Verführung]: ./spells-descriptions.md#lied-der-verfuhrung
+[Song of Seduction]: ./spells-descriptions.md#song-of-seduction
 [Analysis]: ./spells-descriptions.md#analysis
 [Airship]: ./spells-descriptions.md#airship
 [Transfer Power]: ./spells-descriptions.md#transfer-power
@@ -285,7 +285,7 @@ Continue reading: [[alchemy|Potions]].
 [Steal Aura]: ./spells-descriptions.md#steal-aura
 [Summon Storm Elemental]: ./spells-descriptions.md#summon-storm-elemental
 [Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
-[Süße Träume]: ./spells-descriptions.md#suße-traume
+[Süße Träume]: ./spells-descriptions.md#sue-traume
 [Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
 [Todeswolke]: ./spells-descriptions.md#todeswolke
 [Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
@@ -304,7 +304,7 @@ Continue reading: [[alchemy|Potions]].
 [Madness of War]: ./spells-descriptions.md#madness-of-war
 [Divination]: ./spells-descriptions.md#divination
 [Summon Water Elemental]: ./spells-descriptions.md#summon-water-elemental
-[Weg der Bäume]: ./spells-descriptions.md#weg-der-baume
+[Path of Trees]: ./spells-descriptions.md#path-of-trees
 [Resurrection]: ./spells-descriptions.md#resurrection
 [Air Shield]: ./spells-descriptions.md#air-shield
 [Whirlwind]: ./spells-descriptions.md#whirlwind

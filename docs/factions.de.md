@@ -68,31 +68,32 @@ Weiterlesen: [Rassen].
 [Rasse]: ./races.md
 [Talente]: ./skills.md
 [Befehle]: ./commands.md
-[rassenspezifischen Startgeschenk]: ./eressea-story.md#start-der-6.-welt "Geschichte von Eressea"
-[`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md
-[rekrutieren]: ./silver.md#recruiting "REKRUTIERE"
 [Gegenstände produzieren]: ./items.md
 [Gebäude]: ./buildings.md
 [Schiffe]: ./ships.md
-[Pferde]: ./travel.md#pferd-und-wagen "Pferd und Wagen"
+[`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md
 [Waffen]: ./war-tables.md
 [`MACHE TEMP`]: ./cmd-make.md
 [transferiert]: ./cmd-give.md
-[Geld]: ./silver.md#ausgaben "Ausgaben"
 [hilft]: ./alliances.md
 [Steuereintreiben]: ./cmd-tax.md
 [Defaultbefehl]: ./cmd-default.md
 [Krieg]: ./war.md
-[Kampfreihen]: ./war.md#die-schlacht "Schlacht"
 [KÄMPFE]: ./cmd-combat.md
 [bef-bewache]: ./cmd-guard.md
-[Hunger]: ./silver.md#hunger "Hunger"
-[Zwergen]: ./races.md#zwerge "Zwerg"
 [parteigetarnt]: ./cmd-hide.md
 [bef-botschaft]: ./cmd-message.md
-[Trolle]: ./races.md#trolle "Trolle"
-[Menschen]: ./races.md#menschen "Mensch"
-[Trollen]: ./races.md#trolle "Troll"
 [Ende der Runde]: ./commands-sequence.md
 [`HELFE Silber`]: ./cmd-help.md
 [Der Parteipool]: ./faction-pool.md
+
+[rassenspezifischen Startgeschenk]: ./eressea-story.md#start-der-6-welt
+[rekrutieren]: ./silver.md#rekrutieren
+[Pferde]: ./travel.md#pferd-und-wagen
+[Geld]: ./silver.md#ausgaben
+[Kampfreihen]: ./war.md#die-schlacht
+[Hunger]: ./silver.md#hunger
+[Zwergen]: ./races.md#zwerge
+[Trolle]: ./races.md#trolle
+[Menschen]: ./races.md#menschen
+[Trollen]: ./races.md#trolle

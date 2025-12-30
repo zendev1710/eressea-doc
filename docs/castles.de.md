@@ -61,7 +61,8 @@ Weiterlesen: [Andere Gebäude].
 [Pest]: ./plague.md
 [MACHE BURG]: ./cmd-make.md
 [Krieg]: ./war.md
-[Boni und Mali]: ./war.md#boni-und-mali "Boni und Mali"
-[Übersichtstabelle]: #übersicht
 [Gebäude]: ./buildings.md
-[Einnahmen]: ./silver.md#einnahmen "Einnahmen"
+
+[Boni und Mali]: ./war.md#boni-und-mali
+[Übersichtstabelle]: ./#ubersicht
+[Einnahmen]: ./silver.md#einnahmen

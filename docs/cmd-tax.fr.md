@@ -23,5 +23,5 @@ Tax collecting skill does not increase during use.
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
 [<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[hunger]: ./silver.fr.md#famine
+[hunger]: ./silver.md#famine
 [tax collecting]: ./skills-list.md#taxation

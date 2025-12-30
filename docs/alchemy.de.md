@@ -74,4 +74,4 @@ Weiterlesen: [[kraeuter]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
 
-[Alchemie]: ./skills-list.de.md#alchemie
+[Alchemie]: ./skills-list.md#alchemie

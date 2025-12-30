@@ -150,11 +150,11 @@ Kurzliste der Befehle
 | [ZÜCHTE PFERDE]                                             | Pferde züchten - nur in Pferdezucht                    | L       |
 
 [//]: ./cmd-comment-slash.md
-[K]: ./commands.md#kurzlang
+[K]: ./commands.md#kurze-und-lange-befehle
 [bef-arbeite]: ./cmd-work.md
-[L]: ./commands.md#kurzlang
+[L]: ./commands.md#kurze-und-lange-befehle
 [ATTACKIERE einheit-nr]: ./cmd-attack.md
-[(l)]: ./commands.md#kurzlang
+[(l)]: ./commands.md#kurze-und-lange-befehle
 [BANNER "text"]: ./cmd-banner.md
 [BEANSPRUCHE anzahl gegenstand]: ./cmd-claim.md
 [BEFÖRDERE]: ./cmd-promote.md
@@ -257,7 +257,7 @@ Kurzliste der Befehle
 [PIRATERIE \[partei\_1\] \[partei\_2\] \[...\]]: ./cmd-piracy.md
 [PRÄFIX \[präfix\]]: ./cmd-prefix.md
 [REGION x,y]: ./cmd-region.md
-[REKRUTIERE anzahl]: ./silver.md#recruiting
+[REKRUTIERE anzahl]: ./silver.md#rekrutieren
 [RESERVIERE anzahl "gegenstand"]: ./cmd-reserve.md
 [RESERVIERE anzahl SILBER]: ./cmd-reserve.md
 [ROUTE richtung \[richtung etc.\]]: ./cmd-route.md
@@ -305,7 +305,7 @@ Weiterlesen: [Der erste Zug].
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [Befehl]: ./commands.md
-[<sup>(l)</sup>]: ./commands.md#kurzlang
-[Kampfende]: ./war.md#kampfende
+[<sup>(l)</sup>]: ./commands.md#kurze-und-lange-befehle
+[Kampfende]: ./war.md#das-ende
 [Befehle]: ./commands.md
 [Befehlsreihenfolge]: ./commands-sequence.md

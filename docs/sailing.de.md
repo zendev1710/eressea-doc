@@ -99,14 +99,9 @@ Weiterlesen: [Produktion].
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
 [Schiffen]: ./ships.md
-[**Hafen**]: ./buildings-others.md#hafen "Andere Gebäude"
 [Schaden]: #schiffsschaden
 [bef-helfe]: ./cmd-help.md
 [bef-folge]: ./cmd-follow.md
-[Piraterie]: ./war.md#piraterie "Krieg"
-[Waren]: ./items.md#gegenstaende "Waren"
-[Reisen]: ./travel.md#rassengewichte "Reisen"
-[Konvoi]: ./ships.md#konvoi "Schiffe"
 [Schiffe]: ./ships.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
@@ -115,7 +110,13 @@ Weiterlesen: [Produktion].
 [bef-verlasse]: ./cmd-leave.md
 [bef-fahre]: ./cmd-ride.md
 [bef-transportiere]: ./cmd-carry.md
-[Meermenschen]: ./races.md#meermenschen "Meermenschen"
-[Kampf auf Schiffen]: ./war.md#kampf-auf-und-von-schiffen "Kampf auf Schiffen"
 [1]: ./cmd-make.md
 [2]: ./travel.md
+[Waren]: ./items.md
+
+[**Hafen**]: ./buildings-others.md#hafen
+[Piraterie]: ./war.md#piraterie
+[Reisen]: ./travel.md#reisen
+[Konvoi]: ./ships.md#konvoi
+[Meermenschen]: ./races.md#meermenschen
+[Kampf auf Schiffen]: ./war.md#kampf-auf-und-von-schiffen

@@ -163,13 +163,17 @@ Poursuivre la lecture : [Factions].
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
 [types de terrain]: ./terrains.md
-[travail]: ./silver.md#travail
 [châteaux]: ./castles.md
 [herbes]: ./herbs.md
 [potions]: ./alchemy.md
 [routes]: ./roads.md
 [bâtiments spéciaux]: ./buildings-others.md
 [ressources]: ./resources.md
+[Ordres]: ./commands.md
+[mer]: ./travel.md
+[L'argent]: ./silver.md
+
+[travail]: ./silver.md#travail
 [mine]: ./buildings-others.md#mine
 [Taming]: ./skills-list.md#taming
 [transport]: ./travel.md#chevaux-et-chariots
@@ -178,9 +182,6 @@ Poursuivre la lecture : [Factions].
 [revenus]: ./silver.md#revenus
 [phare]: ./buildings-others.md#phare
 [Commerce]: ./silver.md#commerce
-[Ordres]: ./commands.md
 [Insectes]: ./races.md#insectes
-[mer]: ./travel.md
-[croissance des forêts]: ./resources.md#ressources-forestières
-[L'argent]: ./silver.md
+[croissance des forêts]: ./resources.md#ressources-forestieres
 [1]: ./silver.md#recruter

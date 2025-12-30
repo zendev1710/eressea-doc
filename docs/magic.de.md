@@ -312,24 +312,26 @@ Weiterlesen: [[magiegebiete]].
 [bef-zaubere]: ./cmd-cast.md
 [Befehlsreihenfolge]: ./commands-sequence.md
 [KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md
-[KÄMPFE-Befehle]: ./war.md#kampfreihen "Krieg"
-[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht "Krieg"
 [bef-attackiere]: ./cmd-attack.md
-[Aura]: #aura
-[Fernzauber]: #fernzauber
-[Magieresistenz]: #magieresistenz
 [Ring der Macht]: ./ring-of-power.md
-[Andere Gebäude#magierturm]: ./buildings-others.md#magierturm "Andere Gebäude"
-[gesegneten Steinkreis]: ./buildings-others.md#steinkreis "Andere Gebäude"
-[Wahrscheinlichkeit für Patzer]: #patzer
 [bef-ursprung]: ./cmd-origin.md
 [bef-kontaktiere]: ./cmd-contact.md
 [Rassen]: ./races.md
 [Zauber]: ./spells-list.md
-[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz "Kriegstabellen"
 [Elfen]: ./skills-modifiers.md
-[Chaosfluch]: ./spells-list.md#chaosfluch "Zauberliste E2"
 [Vertraute]: ./familiars.md
 [bef-nach]: ./cmd-move.md
-[Wesen]: ./monsters.md#hirntoeter "Monster"
 [Zauberbeschreibungen]: ./spells-descriptions.md
+
+[KÄMPFE-Befehle]: ./war.md#kampfreihen
+[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht
+[Andere Gebäude#magierturm]: ./buildings-others.md#magierturm
+[gesegneten Steinkreis]: ./buildings-others.md#steinkreis
+[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz
+[Chaosfluch]: ./spells-descriptions.md#chaosfluch
+[Wesen]: ./monsters.md#hirntoter
+
+[Aura]: #aura
+[Fernzauber]: #fernzauber
+[Magieresistenz]: #magieresistenz
+[Wahrscheinlichkeit für Patzer]: #patzer

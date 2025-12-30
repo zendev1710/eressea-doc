@@ -79,11 +79,11 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
 
-[Untoten-Typen]: #untote
-[Drachen]: #drachen
-[Hirntöter]: ./#hirntoeter
-[Igjarjuk]: #igjarjuk
-
 [Hungersnöte]: ./silver.md#hunger
 [Draig]: ./magic-schools.md#draig
 [Astralraum]: ./magic.md#der-astralraum
+
+[Untoten-Typen]: #untote
+[Drachen]: #drachen
+[Hirntöter]: ./#hirntoter
+[Igjarjuk]: #igjarjuk

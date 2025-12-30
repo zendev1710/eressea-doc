@@ -112,20 +112,21 @@ Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit b
 
 <!-- From [https://wiki.eressea.de/index.php?title=MACHE&oldid=16728] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurzlang "Befehl"
 [Produktion]: ./production.md
 [Gegenstände]: ./items.md
 [Rohstoffe]: ./resources.md
 [Alchemie-Kapitel]: ./skills-list.md
 [Kräuterkunde]: ./skills-list.md
 [Kräuter]: ./herbs.md
-[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflösung-von-einheiten "Parteien"
 [Gebäude]: ./buildings.md
 [Schiff]: ./ships.md
 [Straßen]: ./roads.md
-[Straßenbau]: ./skills-list.md#straßenbau
+[Geländearten]: ./terrains.md
+[Alchemie]: ./alchemy.md
+
+[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
+[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflosung-von-einheiten
+[Straßenbau]: ./skills-list.md#straenbau
 [Tunnel]: ./buildings-others.md#tunnel
 [Karawanserei]: ./buildings-others.md#karawanserei
 [Damm]: ./buildings-others.md#damm
-[Geländearten]: ./terrains.md
-[Alchemie]: ./alchemy.md

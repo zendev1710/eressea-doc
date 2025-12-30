@@ -7758,7 +7758,7 @@ Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, 
 <p>Jede Person attackiert einmal pro Kampfrunde (außer <a href="../cmd-promote/">Helden</a> und einigen Monstern).</p>
 <p>Gelingt einem Kämpfer ein Treffer, so fügt er dem Gegner Schaden zu. Dabei verursachen verschiedene Waffen auch verschieden starken Schaden (Schadenspunkte, siehe <a href="../war-tables/#waffeneigenschaften">Waffeneigenschaften</a>). Außerdem lohnt es sich, hohe Waffentalente zu haben: hat man mehr Talentstufen als der Gegner, so erhöht sich der Schaden bei einem Schlag um einen Punkt pro zwei Talentstufen Unterschied. Dabei werden reine Talentwerte gerechnet, Boni durch Pferde, Burgen usw. zählen nicht. Dies gilt für Fern- und Nahkampf gleichermaßen. Daneben gibt es noch eine gewisse vom Talentunterschied abhängige Chance, dass man einen kritischen Treffer landet, der bis zum fünffachen Waffenschaden verursachen kann.</p>
 <p>Hat eine Person mehr Schadenspunkte hinnehmen müssen, als sie "einstecken kann" (siehe <a href="../war-tables/#rasseneigenschaften">Rasseneigenschaften</a>; dabei addieren sich die verschiedenen Treffer im Kampf), so stirbt sie.</p>
-<p>Trägt ein Kämpfer eine Rüstung, so kann diese einen Teil (oder gar alle) der Schadenspunkte auffangen. Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug erhöht sich die Chance, überhaupt getroffen zu werden (siehe <a href="../war-tables/#ruestung">diese</a> Tabelle). Gegen Armbrüste wirkt eine Rüstung nur zur Hälfte (abgerundet).</p>
+<p>Trägt ein Kämpfer eine Rüstung, so kann diese einen Teil (oder gar alle) der Schadenspunkte auffangen. Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug erhöht sich die Chance, überhaupt getroffen zu werden (siehe <a href="../war-tables/#rustung">diese</a> Tabelle). Gegen Armbrüste wirkt eine Rüstung nur zur Hälfte (abgerundet).</p>
 <p>Manche Wesen oder Waffen sind auch in der Lage magischen Schaden zu verursachen. Gegen magischen Schaden ist eine normale Rüstung wirkungslos. Es zählt nur die <a href="../war-tables/#magieresistenz">Magieresistenz</a> welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.</p>
 <p>Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe <a href="../war-tables/#ausdauer">diese Tabelle</a>).</p>
 <h3 id="fernkampf">Fernkampf<a class="headerlink" href="#fernkampf" title="Permanent link">&para;</a></h3>
@@ -7775,28 +7775,28 @@ Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, 
 <tr>
 <th>Waffe</th>
 <th>Talent</th>
-<th>Offensivbonus</th>
-<th>Nachladen</th>
+<th style="text-align: right;">Offensivbonus</th>
+<th style="text-align: right;">Nachladen</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Armbrust / Mallornarmbrust</td>
 <td>Armbrustschießen</td>
-<td>0</td>
-<td>2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td>Katapult</td>
 <td>Katapultbedienung</td>
-<td>-4</td>
-<td>5</td>
+<td style="text-align: right;">-4</td>
+<td style="text-align: right;">5</td>
 </tr>
 <tr>
 <td>Bogen / Mallornbogen / Elfenbogen</td>
 <td>Bogenschießen</td>
-<td>-2</td>
-<td>0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
 </tr>
 </tbody>
 </table>
@@ -7897,7 +7897,7 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <p>Seeschlachten werden wie Schlachten zu Land ausgefochten: Die <a href="../ships/">Schiffe</a> entern sich gegenseitig und die Einheiten fallen übereinander her. Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.</p>
 <p>Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war. Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen. Die <a href="../tactic/">Taktikrunde</a> und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.</p>
 <p>Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind. Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.</p>
-<p>Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren <a href="../ships/#schiffsschaden">Schaden</a>.</p>
+<p>Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren <a href="../sailing/#schiffsschaden">Schaden</a>.</p>
 <p>Will man mit einem Schiff Truppen in einer feindlich [bewachten]<a href="../cmd-guard/">BEWACHE</a> Region anlanden, so müssen diese erst das Schiff <a href="../cmd-leave/">VERLASSE</a> und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.</p>
 <p>Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und <a href="../cmd-help/">HELFE</a>[<code>HELFE KÄMPFE</code>]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.</p>
 <h2 id="piraterie">Piraterie<a class="headerlink" href="#piraterie" title="Permanent link">&para;</a></h2>

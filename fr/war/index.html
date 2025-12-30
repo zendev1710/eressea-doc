@@ -7690,7 +7690,8 @@
 <h2 id="les-camps-dans-une-bataille">Les camps dans une bataille<a class="headerlink" href="#les-camps-dans-une-bataille" title="Permanent link">&para;</a></h2>
 <p>L'ordre <a href="../cmd-attack/">ATTACK</a> permet de lancer l'attaque contre l'adversaire. Les ordres <code>ATTACK</code> sont exécutés dans un ordre aléatoire. Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne). Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le <a href="#tour-du-tacticien">tour de tactique</a>.</p>
 <p>Le camp attaquant est constitué de toutes les unités qui ont donné des ordres <code>ATTACK</code> contre une ou plusieurs unités des défenseurs.</p>
-<p>Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre <code>ATTACK</code><em><code>unité-id</code></em>, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en <a href="../cmd-combat/">COMBAT</a><code>,</code>[<code>COMBAT AGGRESSIVE</code>][<code>COMBAT</code>]<code>,</code>[<code>COMBAT REAR</code>][<code>COMBAT</code>] ou [<code>COMBAT DEFENSIVE</code>][<code>COMBAT</code>]). De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [<code>HELP COMBAT</code>] avec la faction attaquée, apportent leur aide.</p>
+<p>Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre <code>ATTACK</code><em><code>unité-id</code></em>, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en <a href="../cmd-combat/">COMBAT</a><code>,</code><a href="../cmd-combat/"><code>COMBAT AGGRESSIVE</code></a><code>,</code><a href="../cmd-combat/"><code>COMBAT REAR</code></a> ou <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a>).
+De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis <a href="../cmd-help/"><code>HELP COMBAT</code></a> avec la faction attaquée, apportent leur aide.</p>
 <p>Il y a donc différentes raisons pour lesquelles une unité participe au combat. Celles-ci sont classées par ordre de priorité :</p>
 <ol>
 <li>L'unité prête à combattre attaque une autre unité. Dans ce cas, elle participe au combat dans tous les cas.</li>
@@ -7698,9 +7699,12 @@
 <li>Une unité dont la faction est attaquée. L'unité participe alors au combat si elle n'a pas mis <code>COMBAT NOT</code> ou <code>COMBAT FLEE</code>. Dans ce dernier cas, elle n'a pas l'idée de <a href="#la-fuite">fuir</a> puisqu'elle n'est pas directement menacée.</li>
 <li>Une unité d'une faction alliée (donc une faction à laquelle on a mis <code>HELP COMBAT</code>) est attaquée par quelqu'un. L'unité participe alors au combat, à moins qu'elle n'ait mis <code>COMBAT NOT</code> ou <code>COMBAT FLEE</code>. Encore une fois, une unité avec <code>COMBAT FLEE</code> ne s'enfuira pas <a href="#la-fuite">fuir</a>, car elle n'est pas exposée à une menace directe.</li>
 </ol>
-<p>Les alliés n'aident donc automatiquement que les défenseurs et <em>seulement si le défenseur n'a pas lui-même attaqué</em>. Les attaqués se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat. Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre <a href="../cmd-attack/">ATTACK</a> sont engagées dans le combat. Cependant, les unités qui ont mis [<code>COMBAT NOT</code>][<code>COMBAT</code>] ou [<code>COMBAT FLEE</code>][<code>COMBAT</code>] ne peuvent pas attaquer.</p>
+<p>Les alliés n'aident donc automatiquement que les défenseurs et <em>seulement si le défenseur n'a pas lui-même attaqué</em>.
+Les attaqués se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat.
+Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre <a href="../cmd-attack/">ATTACK</a> sont engagées dans le combat.
+Cependant, les unités qui ont mis <a href="../cmd-combat/"><code>COMBAT NOT</code></a> ou <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> ne peuvent pas attaquer.</p>
 <p>Ainsi, pour attaquer conjointement un ennemi, chaque faction attaquante doit attaquer au moins une unité de l'ennemi. Pour se défendre ensemble contre des assaillants, il suffit que les factions qui se défendent s'entraident (HELP).</p>
-<p>En théorie, toute personne à laquelle [<code>HELP COMBAT</code>] a été attribuée est considérée comme alliée, et qui n'a attaqué personne à qui [<code>HELP COMBAT</code>] a été également attribuée.</p>
+<p>En théorie, toute personne à laquelle [<code>HELP COMBAT</code>] a été attribuée est considérée comme alliée, et qui n'a attaqué personne à qui <a href="../cmd-help/"><code>HELP COMBAT</code></a> a été également attribuée.</p>
 <p><strong>Exemple 1:</strong> A aide B et C. C attaque B, c'est pourquoi A intervient dans la bataille : B est allié. La faction C n'est pas considérée comme alliée parce qu'elle attaque un allié.<br />
 Qui se bat contre qui maintenant ?<br />
 Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, que j'attaque, ou qui attaquent un allié (selon la définition que je viens de donner).</p>
@@ -7722,10 +7726,10 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <h3 id="lignes-de-combat">Lignes de combat<a class="headerlink" href="#lignes-de-combat" title="Permanent link">&para;</a></h3>
 <p>Durant la bataille, il y a quatre lignes de combat. Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus). Pour plus d'informations sur les statuts de combat, voir <a href="../cmd-combat/">COMBAT</a>[<code>COMBAT</code>].</p>
 <ol>
-<li>ligne: Ici se trouvent toutes les unités qui ont mis <a href="../cmd-combat/">COMBAT</a> ou [<code>COMBAT AGGRESSIVE</code>][<code>COMBAT</code>].</li>
-<li>ligne : Ici se trouvent toutes les unités qui ont mis [<code>COMBAT REAR</code>][<code>COMBAT</code>] ou [<code>COMBAT DEFENSIVE</code>][<code>COMBAT</code>].</li>
-<li>ligne : Ici se trouvent toutes les unités qui ont mis [<code>COMBAT NOT</code>][<code>COMBAT</code>].</li>
-<li>ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper. Donc celles qui ont mis [<code>COMBAT FLEE</code>][<code>COMBAT</code>] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi <a href="./#la-fuite">la fuite</a>).</li>
+<li>ligne: Ici se trouvent toutes les unités qui ont mis <a href="../cmd-combat/">COMBAT</a> ou <a href="../cmd-combat/"><code>COMBAT AGGRESSIVE</code></a>.</li>
+<li>ligne : Ici se trouvent toutes les unités qui ont mis <a href="../cmd-combat/"><code>COMBAT REAR</code></a> ou <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a>.</li>
+<li>ligne : Ici se trouvent toutes les unités qui ont mis <a href="../cmd-combat/"><code>COMBAT NOT</code></a>.</li>
+<li>ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper. Donc celles qui ont mis <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi <a href="./#la-fuite">la fuite</a>).</li>
 </ol>
 <p>Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées. Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée. Les unités en fuite tentent naturellement de s'échapper (voir <a href="./#la-fuite">ici</a>).</p>
 <p>Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous). Contre les attaques à distance adverses, elles se défendent avec leur meilleure compétence de combat.</p>
@@ -7806,7 +7810,7 @@ Je me bats contre mes ennemis. Mes ennemis sont des factions qui m'attaquent, qu
 <p>Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry).
 All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters.
 The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here.
-See also <a href="../war-tables/#kampfmodifikatoren">tables de combat</a>.</p>
+See also <a href="#boni-et-mali">tables de combat</a>.</p>
 <p>Combat à mains nues (unarmed combat)<br />
 Les personnes ne possédant pas de compétence correspondant à leur arme sont également considérées comme désarmées.</p>
 <p>Les personnes désarmées combattent avec un score de -2.</p>
@@ -7891,8 +7895,8 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <p>Der Angreifer hat damit eine Trefferchance von 35%.</p>
 <p>Hieraus folgt, dass man eine Burg relativ gut halten kann, dass man aber aus einer Burg heraus möglichst keine Angriffe starten sollte, denn damit verliert man seinen Bonus bei der Verteidigung. Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppen sind als Schwertträger.</p>
 <h2 id="la-fuite">La fuite<a class="headerlink" href="#la-fuite" title="Permanent link">&para;</a></h2>
-<p>Personen, die [COMBAT FLEE][<code>COMBAT</code>] gesetzt haben und [attackiert][<code>ATTACK</code>] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.</p>
-<p>Personen mit <a href="../cmd-combat/">COMBAT</a>[<code>COMBAT</code>] oder [<code>COMBAT REAR</code>][<code>COMBAT</code>], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [<code>COMBAT DEFENSIVE</code>][<code>COMBAT</code>] oder [<code>COMBAT NOT</code>][<code>COMBAT</code>], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.</p>
+<p>Personen, die <a href="../cmd-combat/">COMBAT FLEE</a> gesetzt haben und [attackiert][<code>ATTACK</code>] werden, versuchen zu fliehen. Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.</p>
+<p>Personen mit <a href="../cmd-combat/">COMBAT</a> oder <a href="../cmd-combat/"><code>COMBAT REAR</code></a>, die nur noch 20% ihrer Trefferpunkte haben und Personen mit <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a> oder <a href="../cmd-combat/"><code>COMBAT NOT</code></a>, die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben. Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche. Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.</p>
 <p>Die Grundchance für die Flucht beträgt 25% (50% für Halblinge), dazu kommen 10%, wenn man ein Pferd hat und je 5% pro Stufe im Talent Tarnung; der Maximalwert ist aber 75% (bzw. 90% für Halblinge).</p>
 <p>Fliehende Einheiten entziehen sich dem Kampf, verbleiben aber in sicherer Entfernung zum Kampfgeschehen in der Region. Befand sich die Einheit in einem Gebäude oder auf einem Schiff an Land, verlässt sie dieses, sobald eine Person aus der Einheit während des Kampfes geflohen ist.</p>
 <p><strong>Hinweis:</strong> Es kann deshalb sinnvoll sein, Burgen- oder Schiffsinsassen zu befehlen, ihr eigenes Schiff wieder zu betreten, was sie nach dem Kampf evtl. tun können. Zu beachten ist, dass auch das Kommando wieder an die richtige Einheit übergeben werden sollte.</p>
@@ -7901,7 +7905,7 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <p>Seeschlachten werden wie Schlachten zu Land ausgefochten: Die <a href="../ships/">Schiffe</a> entern sich gegenseitig und die Einheiten fallen übereinander her. Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.</p>
 <p>Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war. Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen. Die <a href="../tactic/">Taktikrunde</a> und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.</p>
 <p>Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind. Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.</p>
-<p>Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].</p>
+<p>Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren <a href="../sailing/#schiffsschaden">Schaden</a>.</p>
 <p>Will man mit einem Schiff Truppen in einer feindlich [bewachten][<code>GUARD</code>] Region anlanden, so müssen diese erst das Schiff <a href="../cmd-leave/">LEAVE</a> und können erst in der folgenden Runde den Angriff starten oder sich bewegen. Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.</p>
 <p>Von Land aus kann man Schiffe an der Küste sofort angreifen. Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und <a href="../cmd-help/">HELP</a>[<code>HELP COMBAT</code>]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.</p>
 <h2 id="piraterie">Piraterie<a class="headerlink" href="#piraterie" title="Permanent link">&para;</a></h2>
@@ -7914,15 +7918,15 @@ Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%</p>
 <li>Piraten segeln auch in Landregionen, sofern das Schiff dort landen kann. Falls es nicht landen kann, nimmt es Schaden.</li>
 <li>Piratenkapitäne sind dumm wie Brot. Sie können nicht einschätzen, ob ein Ziel ihnen möglicherweise überlegen ist, und werden fröhlich auch mit einem einzigen Schiff in einer feindliche Flotte von 100 Schiffen hineinfahren. Das Piratendasein hat eben seine Risiken.</li>
 <li>Stehen mehrere potentielle Ziele zur Auswahl, wird der Kapitän eines nach dem Zufallsprinzip aussuchen.</li>
-<li>Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [<code>HELP COMBAT</code>][<code>HELP COMBAT</code>] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.</li>
+<li>Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän <a href="../cmd-help/"><code>HELP COMBAT</code></a> gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.</li>
 </ul>
 <!-- GERMAN SECTION TRANSLATED -->
 <h2 id="fin-du-combat">Fin du combat<a class="headerlink" href="#fin-du-combat" title="Permanent link">&para;</a></h2>
 <p>Après la bataille, on compte les morts, et tout le matériel utilisable des unités anéanties est récupéré et distribué aux survivants.</p>
 <p>Les unités blessées au combat restent blessées. Ceci est indiqué dans le rapport. Avec le temps, elles guérissent. Elles régénèrent généralement 5 % (certaines <a href="../skills-modifiers/">races</a> davantage) de leurs points de vie maximum par tour, mais au moins un point par individu. Les unités mortes-vivantes ne se régénèrent pas.</p>
-<p>Si la région où les combats ont eu lieu était <a href="../alliances/">gardée</a> <em>au début du combat</em> par une unité amie ou une unité ayant activé l'ordre [<code>HELP GUARD</code>][<code>HELP COMBAT</code>] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs. Ceci est valable même si des troupes ennemies gardent également la région. Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre <code>ATTACK</code>).</p>
+<p>Si la région où les combats ont eu lieu était <a href="../alliances/">gardée</a> <em>au début du combat</em> par une unité amie ou une unité ayant activé l'ordre <a href="../cmd-help/"><code>HELP GUARD</code></a> pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs. Ceci est valable même si des troupes ennemies gardent également la région. Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre <code>ATTACK</code>).</p>
 <p>Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.</p>
-<p>Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [<code>COMBAT FLEE</code>][<code>COMBAT</code>] und Einheiten auf See.
+<p>Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> und Einheiten auf See.
 Einheiten mit dem Status <code>COMBAT FLEE</code> können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a> oder <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>.
 Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
@@ -7932,8 +7936,6 @@ Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.</p>
 </ul>
 <p>Poursuivre la lecture : <a href="../alliances/">Alliances</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
-
-<p>[Schaden]: ./ships.md  <!--TODO: #schiffsschaden/dommage--></p>
 
 
 

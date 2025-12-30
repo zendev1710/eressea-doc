@@ -7298,7 +7298,7 @@ The receiving faction must have put HELP GIVE on the dying faction.
 The items go to the faction's first unit in the region.
 If there is no friendly unit in a region, all items go to the farmers.
 The faction's people are always handed over to the farmers (exceptions apply to <a href="../races/#orcs">Orcs</a>, <a href="../races/#demons">Demons</a>, Monsters).</p>
-<p><strong><code>QUIT</code></strong><code>"Passwort" PARTEI</code><em><code>Partei-nr</code></em></p>
+<p><strong><code>QUIT</code></strong><code>"Passwort" PARTEI</code><em><code>Partei-nr</code></em>  </p>
 <p>It is also possible to merge two factions of the same race using the QUIT order.
 The second variant is used for this purpose<code>QUIT "Passwort" PARTEI</code><em><code>Partei-nr</code></em>, where the faction number of the other faction must be specified.</p>
 <p>Requirements for the merger are:</p>
@@ -7319,10 +7319,13 @@ Familiars are deleted because they do not belong to the faction race.
 Heroes are demoted by surrender.</p>
 <p>The unit limit can be exceeded through faction merger.
 But then the target faction cannot create new units until it is below the limit again.
-New Temp units cannot be created even if the unit limit would be below the limit at the end of the round! It is therefore better to ensure in advance that the merged faction complies with the current limit.</p>
-<p><strong>ACHTUNG</strong>
- If the order is given incorrectly, a death without surrender can occur.
- If your password is <em>secret</em> and you want to merge with the faction (enno), the order is:</p>
+New Temp units cannot be created even if the unit limit would be below the limit at the end of the round!
+It is therefore better to ensure in advance that the merged faction complies with the current limit.</p>
+<div class="admonition warning">
+<p class="admonition-title">Caution</p>
+<p>If the order is given incorrectly, a death without surrender can occur.
+If your password is <em>secret</em> and you want to merge with the faction (enno), the order is:</p>
+</div>
 <div class="highlight"><pre><span></span><code>QUIT &quot;secret&quot; PARTEI enno
 </code></pre></div>
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->

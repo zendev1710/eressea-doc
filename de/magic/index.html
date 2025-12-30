@@ -7698,8 +7698,16 @@
 <h1 id="magie">Magie<a class="headerlink" href="#magie" title="Permanent link">&para;</a></h1>
 <p>Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im <a href="../war/">Kampf</a> den Feind schwächen oder Verbündete stärken.</p>
 <h2 id="das-studium-der-magie">Das Studium der Magie<a class="headerlink" href="#das-studium-der-magie" title="Permanent link">&para;</a></h2>
-<p>Jede Partei muss sich für eines der fünf <a href="../magic-schools/">Magiegebiete</a> entscheiden: <a href="../magic-school-illaun/">Illaun</a>, <a href="../magic-school-tybied/">Tybied</a>, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> oder <a href="../magic-school-draig/">Draig</a>. Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt. Dies geschieht mit Hilfe des Befehls <a href="../cmd-learn/">LERNE MAGIE "Magiegebiet"</a>. In Folge heißt der Befehl nur noch <a href="../cmd-learn/">LERNE MAGIE</a> und alle Magier einer <a href="../factions/">Partei</a> erlernen dann automatisch das von der Partei gewählte Magiegebiet. Es ist jedoch möglich, mehreren Einheiten <a href="../cmd-learn/">LERNE MAGIE "Magiegebiet"</a> zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt. Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden. Deshalb will diese Entscheidung wohl überlegt sein!</p>
-<p>Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen. Magiereinheiten dürfen immer nur aus einer Person bestehen. Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.</p>
+<p>Jede Partei muss sich für eines der fünf <a href="../magic-schools/">Magiegebiete</a> entscheiden: <a href="../magic-school-illaun/">Illaun</a>, <a href="../magic-school-tybied/">Tybied</a>, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> oder <a href="../magic-school-draig/">Draig</a>.
+Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt.
+Dies geschieht mit Hilfe des Befehls <a href="../cmd-learn/">LERNE MAGIE "Magiegebiet"</a>.
+In Folge heißt der Befehl nur noch <a href="../cmd-learn/">LERNE MAGIE</a> und alle Magier einer <a href="../factions/">Partei</a> erlernen dann automatisch das von der Partei gewählte Magiegebiet.
+Es ist jedoch möglich, mehreren Einheiten <a href="../cmd-learn/">LERNE MAGIE "Magiegebiet"</a> zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt.
+Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden.
+Deshalb will diese Entscheidung wohl überlegt sein!</p>
+<p>Es darf maximal fünf Magiereinheiten pro Partei geben, lediglich Elfenparteien dürfen sechs Magier besitzen.
+Magiereinheiten dürfen immer nur aus einer Person bestehen.
+Sie können keine Personen übergeben, auch nicht an leere TEMP-Einheiten.</p>
 <p>Das Talent Magie zu erlernen kostet (50 + 25 * (1 + Stufe) * Stufe) Silber pro Person und Runde.</p>
 <p>Lernkosten</p>
 <table>
@@ -7781,76 +7789,110 @@
 </tbody>
 </table>
 <p>Ein ungelernter Magier bezahlt also 100 Silber für seine ersten Lektionen; hat er schon Stufe 5 im Magietalent, so muss er 1100 Silber pro Lernwoche bezahlen.</p>
-<p><strong>Achtung:</strong> Die Lernkosten beziehen sich immer auf die gelernte Stufe vor der Anwendung eventueller Rassenboni oder -mali. Eine Elfe zahlt also für ihren ersten Lernversuch, der sie auf T2 bringt 100 und nicht 200 Silber, ein Goblin mit seinem -1 zahlt für den 2. Lernversuch jedoch bereits 200 Silber obwohl er noch immer auf Stufe 0 ist. (Das System wertet ihn als T1 - 1 = 0).</p>
-<p><strong>Achtung, Zwerge:</strong> Sie haben -2 auf das Magietalent. Eine Einheit, die mit Magie 0 angezeigt wird, kann eigentlich auf T1 oder T2 sein. Die Lernkosten steigen in letzterem Fall jedoch auf 350 Silber! Es gibt keinen Weg herauszufinden, was von beiden zutrifft. Also lieber etwas großzügiger planen.</p>
-<p>Lernen in einer <a href="../buildings-others/">Akademie</a> kostet das Doppelte. Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer. Ein Draig-Magier kann also keinen Illaun-Magier lehren.</p>
-<p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann. Magie kann auch, durch [[Special:MyLanguage/Talente|Anwendung (ZAUBERE) gelernt werden. Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht. Natürlich kostet Lernen durch Anwendung kein Silber.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Die Lernkosten beziehen sich immer auf die gelernte Stufe vor der Anwendung eventueller Rassenboni oder -mali.
+Eine Elfe zahlt also für ihren ersten Lernversuch, der sie auf T2 bringt 100 und nicht 200 Silber, ein Goblin mit seinem -1 zahlt für den 2.
+Lernversuch jedoch bereits 200 Silber obwohl er noch immer auf Stufe 0 ist (Das System wertet ihn als T1 - 1 = 0).</p>
+</div>
+<p><strong>Achtung, Zwerge:</strong> Sie haben -2 auf das Magietalent.
+Eine Einheit, die mit Magie 0 angezeigt wird, kann eigentlich auf T1 oder T2 sein.
+Die Lernkosten steigen in letzterem Fall jedoch auf 350 Silber! Es gibt keinen Weg herauszufinden, was von beiden zutrifft.
+Also lieber etwas großzügiger planen.</p>
+<p>Lernen in einer <a href="../buildings-others/">Akademie</a> kostet das Doppelte.
+Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer.
+Ein Draig-Magier kann also keinen Illaun-Magier lehren.</p>
+<p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann.
+Magie kann auch, durch [[Special:MyLanguage/Talente|Anwendung (ZAUBERE) gelernt werden.
+Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht.
+Natürlich kostet Lernen durch Anwendung kein Silber.</p>
 <h2 id="spruche">Sprüche<a class="headerlink" href="#spruche" title="Permanent link">&para;</a></h2>
-<p>Mit jeder Stufe, die die Einheit in Magie erreicht, kann sie neue Sprüche bekommen. Es gibt zur Zeit einen Spruch in jeder Stufe, in Ausnahmefällen auch einmal mehrere oder gar keinen. Hat man eine neue Stufe erreicht, so werden die Sprüche in der Auswertung beschrieben. Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl <a href="../cmd-show/">ZEIGE</a> nochmals zeigen lassen.</p>
+<p>Mit jeder Stufe, die die Einheit in Magie erreicht, kann sie neue Sprüche bekommen.
+Es gibt zur Zeit einen Spruch in jeder Stufe, in Ausnahmefällen auch einmal mehrere oder gar keinen.
+Hat man eine neue Stufe erreicht, so werden die Sprüche in der Auswertung beschrieben.
+Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl <a href="../cmd-show/">ZEIGE</a> nochmals zeigen lassen.</p>
 <p>Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:</p>
-<div class="highlight"><pre><span></span><code>                                 Wunderdoktor
+<div class="highlight"><pre><span></span><code>                    Wunderdoktor
 
 Beschreibung:
-  Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
-  Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
-  nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
-  untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
-  mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
-  beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
-  Woche verdienen.
+    Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten
+    Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst
+    nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des
+    untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht
+    mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall...
+    beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer
+    Woche verdienen.
 Art: Normaler Zauber
 Stufe: 1
 Rang: 5
 Komponenten:
--   1 Aura  * Stufe
+    - 1 Aura  * Stufe
 Modifikationen: Schiffszauber
 Syntax:
-  ZAUBERE [STUFE n] Wunderdoktor
+    ZAUBERE [STUFE n] Wunderdoktor
 </code></pre></div>
 <p>oder so</p>
-<div class="highlight"><pre><span></span><code>                    Erschaffe einen Ring der Unsichtbarkeit
+<div class="highlight"><pre><span></span><code>            Erschaffe einen Ring der Unsichtbarkeit
 
 Beschreibung:
-  Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
-  erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
-  unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
-  unsichtbaren Einheit muss jede Person einen Ring tragen.
+    Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit
+    erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien
+    unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer
+    unsichtbaren Einheit muss jede Person einen Ring tragen.
 Art: Normaler Zauber
 Stufe: 6
 Rang: 5
 Komponenten:
-- 50 Aura
-- 3000 Silber
-- 1 permanente Aura
+    - 50 Aura
+    - 3000 Silber
+    - 1 permanente Aura
 Modifikationen: Schiffszauber
 Syntax:
-  ZAUBERE &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
+    ZAUBERE &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
 </code></pre></div>
 <h3 id="art">Art<a class="headerlink" href="#art" title="Permanent link">&para;</a></h3>
 <p>Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.</p>
-<p>Normale Zauber werden mit dem Befehl <a href="../cmd-cast/">ZAUBERE</a> gezaubert. Ihre Wirkung entfaltet sich entweder sofort (siehe <a href="../commands-sequence/">Befehlsreihenfolge</a>) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.</p>
-<p>Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden. Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird. Alle drei Arten können mit dem Befehl <a href="../cmd-combatspell/">KAMPFZAUBER STUFE n "Zauber"</a> gesetzt werden. Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="../cmd-combatspell/">KAMPFZAUBER "Zauber" NICHT</a> oder alle gesetzten Kampfzauber mit <a href="../cmd-combatspell/">KAMPFZAUBER NICHT</a>. Kampfzauber wirken in etwa wie die <a href="../war/#kampfreihen">KÄMPFE-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert. Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben. Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
-<div class="highlight"><pre><span></span><code>                              Gesang der Furcht
+<p>Normale Zauber werden mit dem Befehl <a href="../cmd-cast/">ZAUBERE</a> gezaubert.
+Ihre Wirkung entfaltet sich entweder sofort (siehe <a href="../commands-sequence/">Befehlsreihenfolge</a>) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.</p>
+<p>Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden.
+Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird.
+Alle drei Arten können mit dem Befehl <a href="../cmd-combatspell/">KAMPFZAUBER STUFE n "Zauber"</a> gesetzt werden.
+Löschen kann man einen bestimmten Kampfzauber mit dem Befehl <a href="../cmd-combatspell/">KAMPFZAUBER "Zauber" NICHT</a> oder alle gesetzten Kampfzauber mit <a href="../cmd-combatspell/">KAMPFZAUBER NICHT</a>.
+Kampfzauber wirken in etwa wie die <a href="../war/#kampfreihen">KÄMPFE-Befehle</a>, d. h. einmal gesetzt, bleiben sie gespeichert.
+Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben.
+Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.</p>
+<div class="highlight"><pre><span></span><code>                    Gesang der Furcht
 
 Beschreibung:
-  Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in
-  die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt. Furcht wird
-  sie zittern lassen und Panik ihre Gedanken beherrschen. Voller Angst werden
-  sie versuchen, den gräßlichen Gesängen zu entrinnen und fliehen.
+    Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in
+    die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt. Furcht wird
+    sie zittern lassen und Panik ihre Gedanken beherrschen. Voller Angst werden
+    sie versuchen, den gräßlichen Gesängen zu entrinnen und fliehen.
 Art: Kampfzauber
 Stufe: 3
 Rang: 5
 Komponenten:
--   1 Aura  * Stufe
+    - 1 Aura  * Stufe
 Modifikationen:
 Syntax:
-  KAMPFZAUBER [STUFE n] &#39;Gesang der Furcht&#39;
+    KAMPFZAUBER [STUFE n] &#39;Gesang der Furcht&#39;
 </code></pre></div>
-<p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt. Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="../war/#die-seiten-in-einer-schlacht">Die Seiten in einer Schlacht</a>). Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="../cmd-attack/">ATTACKIERE</a> angegriffen wird!</p>
-<p>Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert. Ein normaler Kampfzauber einmal in jeder Kampfrunde. Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter <a href="#aura">Aura</a>) und dass sie noch lebt.</p>
+<p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt.
+Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a href="../war/#die-seiten-in-einer-schlacht">Die Seiten in einer Schlacht</a>).
+Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, falls sie explizit mit dem Befehl <a href="../cmd-attack/">ATTACKIERE</a> angegriffen wird!</p>
+<p>Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert.
+Ein normaler Kampfzauber einmal in jeder Kampfrunde.
+Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter <a href="#aura">Aura</a>) und dass sie noch lebt.</p>
 <h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
-<p>Aura ist die magische Kraft, mit deren Hilfe Zauberer ihre Magie ausüben. Aura wird durch das Zaubern verbraucht und regeneriert sich mit der Zeit wieder. Eine Magiereinheit kann eine bestimmte maximale Menge Aura aufnehmen. Wie viel, wird - ebenso wie die Auraregeneration - durch das Magietalent der Einheit bestimmt. Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird. Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken. Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.</p>
-<p>Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit dessen Hilfe eine Einheit Aura auf eine andere transferieren kann. Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann. Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen. Überschüssige Aura geht aber am Ende einer Runde wieder verloren.</p>
+<p>Aura ist die magische Kraft, mit deren Hilfe Zauberer ihre Magie ausüben.
+Aura wird durch das Zaubern verbraucht und regeneriert sich mit der Zeit wieder.
+Eine Magiereinheit kann eine bestimmte maximale Menge Aura aufnehmen.
+Wie viel, wird - ebenso wie die Auraregeneration - durch das Magietalent der Einheit bestimmt.
+Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird.
+Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken.
+Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.</p>
+<p>Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit dessen Hilfe eine Einheit Aura auf eine andere transferieren kann.
+Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann. Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen. Überschüssige Aura geht aber am Ende einer Runde wieder verloren.</p>
 <p>Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit". Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann. In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.</p>
 <p><a href="../cmd-cast/">ZAUBERE</a> ist ein pseudolanger Befehl vergleichbar mit <a href="../cmd-attack/">ATTACKIERE</a>. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.</p>
 <p>Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. <a href="#fernzauber">Fernzauber</a> erhöhen ebenfalls die Zauberkosten.</p>

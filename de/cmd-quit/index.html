@@ -7288,13 +7288,19 @@
 
 <h1 id="stirb">STIRB<a class="headerlink" href="#stirb" title="Permanent link">&para;</a></h1>
 <p><strong><code>STIRB</code></strong><code>"Passwort"</code>  </p>
-<p>Dies bewirkt, dass die Partei sich auflöst und nicht mehr mitspielt. Zur Sicherheit muss das Passwort der Partei angeben werden. Auch dieser Befehl muss einer Einheit gegeben werden.</p>
+<p>Dies bewirkt, dass die Partei sich auflöst und nicht mehr mitspielt.
+Zur Sicherheit muss das Passwort der Partei angeben werden.
+Auch dieser Befehl muss einer Einheit gegeben werden.</p>
 <p>Alle Gegenstände inklusive Silber der sterbenden Partei werden an befreundete Einheiten übergeben, die in derselben Region stehen wie Einheiten der sterbenden Partei.
 Sind mehrere in der Region, wird nach der Anzahl Personen in der Region aufgeteilt.
 Als befreundet gilt hier nur, wem ein <a href="../cmd-help/">HELFE SILBER</a> gesetzt wurde, wo also seitens der ausscheidenden Partei bereits Vertrauen herrschte.
-Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben. Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region. Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern. Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei <a href="../races/#orks">Orks</a>, <a href="../races/#damonen">Dämonen</a>, Monstern).</p>
-<p><strong><code>STIRB</code></strong><code>"Passwort" PARTEI</code><em><code>Partei-nr</code></em></p>
-<p>Es besteht auch die Möglichkeit mit dem STIRB Befehl zwei Parteien der gleichen Rasse zu fusionieren. Dazu dient die zweite Variante <code>STIRB "Passwort" PARTEI</code><em><code>Partei-nr</code></em>, wobei die Parteinummer der anderen Partei angegeben werden muss.</p>
+Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben.
+Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region.
+Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern.
+Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei <a href="../races/#orks">Orks</a>, <a href="../races/#damonen">Dämonen</a>, Monstern).</p>
+<p><strong><code>STIRB</code></strong><code>"Passwort" PARTEI</code><em><code>Partei-nr</code></em>  </p>
+<p>Es besteht auch die Möglichkeit mit dem STIRB Befehl zwei Parteien der gleichen Rasse zu fusionieren.
+Dazu dient die zweite Variante <code>STIRB "Passwort" PARTEI</code><em><code>Partei-nr</code></em>, wobei die Parteinummer der anderen Partei angegeben werden muss.</p>
 <p>Voraussetzungen für die Fusion sind:</p>
 <ol>
 <li>Auflösende Partei und Zielpartei müssen derselben Rasse angehören.</li>
@@ -7303,12 +7309,23 @@ Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben. Die 
 <li>Beide Parteien müssen mindestens 50 Runden alt sein.</li>
 </ol>
 <p>Ist eine der Voraussetzungen nicht erfüllt, wird der STIRB-Befehl nicht ausgeführt und es erscheint eine Fehlermeldung.</p>
-<p>Durch die Fusion werden sämtliche Einheiten, welche die Rasse der Partei haben, an die angegebene Partei übergeben und die Partei anschließend gelöscht. Einheiten, welche nicht der Parteirasse angehören, wie beispielsweise Migranten, magische Kreaturen oder Vertraute, werden gelöscht.</p>
-<p>Hat die Zielpartei weniger als die maximal zulässige Anzahl an Einheiten mit mengenbegrenzten Talenten (wie Alchemie und Magie), so werden diese zufällig übergeben. Einheiten mit mengenbegrenzten Talenten, die nicht mehr übergeben werden können, werden gelöscht. Wer dies genau steuern will, sollte die nicht erwünschten Einheiten spätestens in der STIRB-Woche das entsprechende Talent vergessen lassen.</p>
-<p>Magier werden nur dann übergeben, wenn beide Parteien das gleiche Magiegebiet haben. Vertraute werden gelöscht, da sie nicht der Parteirasse angehören. Helden werden durch die Übergabe degradiert.</p>
-<p>Das Einheitenlimit kann durch die Parteifusion überschritten werden. Dann kann die Zielpartei aber keine neuen Einheiten erzeugen, bis sie wieder unter dem Limit liegt. Es können auch dann keine neuen Temp-Einheiten erzeugt werden, wenn am Ende der Runde das Einheitenlimit unter der Grenze liegen würde! Es ist also besser, im Vorfeld dafür Sorge zu tragen, dass die fusionierte Partei den aktuellen Grenzwert einhält.</p>
-<p><strong>ACHTUNG</strong> Wird der Befehl falsch gegeben, kann es zu einem Stirb ohne Übergabe kommen. Wenn dein Passwort <em>geheim</em> lautet und du mit der Partei (enno) fusionieren möchtest, lautet der Befehl dazu:</p>
-<div class="highlight"><pre><span></span><code> STIRB &quot;geheim&quot; PARTEI enno
+<p>Durch die Fusion werden sämtliche Einheiten, welche die Rasse der Partei haben, an die angegebene Partei übergeben und die Partei anschließend gelöscht.
+Einheiten, welche nicht der Parteirasse angehören, wie beispielsweise Migranten, magische Kreaturen oder Vertraute, werden gelöscht.</p>
+<p>Hat die Zielpartei weniger als die maximal zulässige Anzahl an Einheiten mit mengenbegrenzten Talenten (wie Alchemie und Magie), so werden diese zufällig übergeben.
+Einheiten mit mengenbegrenzten Talenten, die nicht mehr übergeben werden können, werden gelöscht.
+Wer dies genau steuern will, sollte die nicht erwünschten Einheiten spätestens in der STIRB-Woche das entsprechende Talent vergessen lassen.</p>
+<p>Magier werden nur dann übergeben, wenn beide Parteien das gleiche Magiegebiet haben.
+Vertraute werden gelöscht, da sie nicht der Parteirasse angehören.
+Helden werden durch die Übergabe degradiert.</p>
+<p>Das Einheitenlimit kann durch die Parteifusion überschritten werden.
+Dann kann die Zielpartei aber keine neuen Einheiten erzeugen, bis sie wieder unter dem Limit liegt.
+Es können auch dann keine neuen Temp-Einheiten erzeugt werden, wenn am Ende der Runde das Einheitenlimit unter der Grenze liegen würde! Es ist also besser, im Vorfeld dafür Sorge zu tragen, dass die fusionierte Partei den aktuellen Grenzwert einhält.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Wird der Befehl falsch gegeben, kann es zu einem Stirb ohne Übergabe kommen.
+Wenn dein Passwort <em>geheim</em> lautet und du mit der Partei (enno) fusionieren möchtest, lautet der Befehl dazu:</p>
+</div>
+<div class="highlight"><pre><span></span><code>STIRB &quot;geheim&quot; PARTEI enno
 </code></pre></div>
 <!-- From [https://wiki.eressea.de/index.php?title=STIRB&oldid=16825] -->
 

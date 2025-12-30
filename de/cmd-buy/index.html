@@ -7354,12 +7354,14 @@
 
 
 <h1 id="kaufe">KAUFE<a class="headerlink" href="#kaufe" title="Permanent link">&para;</a></h1>
-<p><strong><code>KAUFE</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>anzahl</code></em><code></code><em><code>luxusgut</code></em></p>
+<p><strong><code>KAUFE</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>anzahl</code></em><code></code><em><code>luxusgut</code></em>  </p>
 <p>Wenn die Einheit das Talent <a href="../silver/#handel">Handeln</a> hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen.
 Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer Burgtyp befindet, in dessen Nähe der Markt abgehalten werden kann, und zweitens das Produkt überhaupt in der Region produziert wird.
 Um etwas zu kaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen...</p>
 <p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>KAUFE</code> ist wie <a href="../cmd-sell/">VERKAUFE</a> ein <a href="../commands/">"pseudolanger" Befehl</a>.
-Man kann insgesamt Talentstufe(Handeln) * 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben. KAUFE-Order haben Priorität vor Verkäufen. <code>KAUFE</code>-Befehle werden also generell vor <code>VERKAUFE</code> ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen.
+Man kann insgesamt Talentstufe(Handeln) * 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben.
+KAUFE-Order haben Priorität vor Verkäufen.</p>
+<p><code>KAUFE</code>-Befehle werden also generell vor <code>VERKAUFE</code> ausgeführt, man kann also nicht den Verdienst aus Verkäufen direkt in der selben Runde für neue Einkäufe benutzen.
 Auch bedeutet das, dass Einheiten ohne genügend Talent für die Ausführung aller <code>KAUFE</code>- und <code>VERKAUFE</code>-Befehle zuerst so viel wie möglich kaufen und gegebenenfalls keine Talentpunkte fürs Verkaufen übrig sind.</p>
 <p>Beispiel:</p>
 <div class="highlight"><pre><span></span><code>EINHEIT hndl;     Marktschreier [1, $1000]

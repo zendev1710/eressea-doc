@@ -7289,181 +7289,124 @@
 <h1 id="befordere">BEFÖRDERE<a class="headerlink" href="#befordere" title="Permanent link">&para;</a></h1>
 <p><strong><code>BEFÖRDERE</code></strong></p>
 <p>Befördert eine Einheit der eigenen Parteirasse zum Helden.</p>
-<p>Helden sind besonders stark im <a href="../war/">Kampf</a>. Sie attackieren in jeder Kampfrunde 5 mal. Darum lohnt sich die Beförderung von Einheiten mit Kampftalenten zum Helden. <strong>Achtung!</strong> Helden greifen weder mit Magie, noch mit Armbrüsten oder Katapulten häufiger an.</p>
-<p>Wenn eine Einheit befördert werden soll, benötigt sie pro Person (Gesamt-Personen-Zahl der Partei) Silber. Fehlendes Silber wird wie gewöhnlich aus dem <a href="../items-pool/#der-silberpool" title="Silberpool">Silberpool</a> genommen, wenn genug da ist. Die maximale Anzahl der Helden ist begrenzt, steigt aber mit der Parteigröße. Die Formel dafür ist log10((Parteigröße-500)÷50)×20. Befördert werden können nur Personen der eigenen Rasse, also weder Monster noch Migranten. Die Beförderung findet nach REKRUTIERE statt. Sowohl für die Zahl der möglichen Helden als auch für die Kosten von Befördere werden die Personenzahlen nach dem Rekrutieren in der aktuellen Wochen herangezogen.</p>
-<p>Einheiten die befördert wurden, können keine weiteren Personen rekrutieren und können auch nicht mit anderen Nicht-Helden-Einheiten zusammengeführt werden. Es gibt keinen Befehl um Helden zu degradieren.</p>
+<p>Helden sind besonders stark im <a href="../war/">Kampf</a>.
+Sie attackieren in jeder Kampfrunde 5 mal.
+Darum lohnt sich die Beförderung von Einheiten mit Kampftalenten zum Helden.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Helden greifen weder mit Magie, noch mit Armbrüsten oder Katapulten häufiger an.</p>
+</div>
+<p>Wenn eine Einheit befördert werden soll, benötigt sie pro Person (Gesamt-Personen-Zahl der Partei) Silber.
+Fehlendes Silber wird wie gewöhnlich aus dem <a href="../items-pool/#der-silberpool" title="Silberpool">Silberpool</a> genommen, wenn genug da ist.
+Die maximale Anzahl der Helden ist begrenzt, steigt aber mit der Parteigröße.
+Die Formel dafür ist log10((Parteigröße-500)÷50)×20.
+Befördert werden können nur Personen der eigenen Rasse, also weder Monster noch Migranten.
+Die Beförderung findet nach REKRUTIERE statt.
+Sowohl für die Zahl der möglichen Helden als auch für die Kosten von Befördere werden die Personenzahlen nach dem Rekrutieren in der aktuellen Wochen herangezogen.</p>
+<p>Einheiten die befördert wurden, können keine weiteren Personen rekrutieren und können auch nicht mit anderen Nicht-Helden-Einheiten zusammengeführt werden.
+Es gibt keinen Befehl um Helden zu degradieren.</p>
 <p>Für Rechenfaule hier eine Tabelle, bei welcher Personenzahl in der Partei wie viele Helden verfügbar sind.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Personen</th>
+<th style="text-align: right;">557</th>
+<th style="text-align: right;">563</th>
+<th style="text-align: right;">571</th>
+<th style="text-align: right;">580</th>
+<th style="text-align: right;">589</th>
+<th style="text-align: right;">600</th>
+<th style="text-align: right;">612</th>
+<th style="text-align: right;">626</th>
+<th style="text-align: right;">641</th>
+<th style="text-align: right;">659</th>
+<th style="text-align: right;">678</th>
+<th style="text-align: right;">700</th>
+<th style="text-align: right;">724</th>
+<th style="text-align: right;">751</th>
+<th style="text-align: right;">782</th>
+<th style="text-align: right;">816</th>
+<th style="text-align: right;">854</th>
+<th style="text-align: right;">898</th>
+<th style="text-align: right;">946</th>
+<th style="text-align: right;">1000</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Personen</td>
-<td>557</td>
-<td>563</td>
-<td>571</td>
-<td>580</td>
-<td>589</td>
-<td>600</td>
-<td>612</td>
-<td>626</td>
-<td>641</td>
-<td>659</td>
-<td>678</td>
-<td>700</td>
-<td>724</td>
-<td>751</td>
-<td>782</td>
-<td>816</td>
-<td>854</td>
-<td>898</td>
-<td>946</td>
-<td>1000</td>
-<td></td>
+<td>Helden</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">20</td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Personen</th>
+<th style="text-align: right;">1062</th>
+<th style="text-align: right;">1130</th>
+<th style="text-align: right;">1207</th>
+<th style="text-align: right;">1293</th>
+<th style="text-align: right;">1390</th>
+<th style="text-align: right;">1498</th>
+<th style="text-align: right;">1620</th>
+<th style="text-align: right;">1756</th>
+<th style="text-align: right;">1910</th>
+<th style="text-align: right;">2082</th>
+<th style="text-align: right;">3312</th>
+<th style="text-align: right;">5500</th>
+<th style="text-align: right;">9392</th>
+<th style="text-align: right;">16312</th>
+<th style="text-align: right;">28618</th>
+<th style="text-align: right;">50500</th>
+<th style="text-align: right;">89414</th>
+<th style="text-align: right;">158614</th>
+<th style="text-align: right;">281671</th>
+<th style="text-align: right;">500500</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Helden</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Personen</td>
-<td>1062</td>
-<td>1130</td>
-<td>1207</td>
-<td>1293</td>
-<td>1390</td>
-<td>1498</td>
-<td>1620</td>
-<td>1756</td>
-<td>1910</td>
-<td>2082</td>
-<td>3312</td>
-<td>5500</td>
-<td>9392</td>
-<td>16312</td>
-<td>28618</td>
-<td>50500</td>
-<td>89414</td>
-<td>158614</td>
-<td>281671</td>
-<td>500500</td>
-<td>....</td>
-</tr>
-<tr>
-<td>Helden</td>
-<td>21</td>
-<td>22</td>
-<td>23</td>
-<td>24</td>
-<td>25</td>
-<td>26</td>
-<td>27</td>
-<td>28</td>
-<td>29</td>
-<td>30</td>
-<td>35</td>
-<td>40</td>
-<td>45</td>
-<td>50</td>
-<td>55</td>
-<td>60</td>
-<td>65</td>
-<td>70</td>
-<td>75</td>
-<td>80</td>
-<td>....</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">80</td>
 </tr>
 </tbody>
 </table>

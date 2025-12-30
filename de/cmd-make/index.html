@@ -7549,45 +7549,70 @@
 <strong><code>MACHE</code></strong>[<sup><code>L</code></sup>]<code>[</code><em><code>stufen</code></em><code>]</code><em><code>schiffstyp</code></em><br />
 <strong><code>MACHE</code></strong>[<sup><code>L</code></sup>]<code>[</code><em><code>stufen</code></em><code>] SCHIFF [</code><em><code>schiff-nr</code></em><code>]</code><br />
 <strong><code>MACHE</code></strong>[<sup><code>L</code></sup>]<code>[</code><em><code>stufen</code></em><code>] STRASSE</code><em><code>richtung</code></em><code></code>  </p>
-<p>Der Befehl <code>MACHE</code> ist der allgemeine Produktionsbefehl. Mehr dazu auch im Kapitel <a href="../production/">Produktion</a>.</p>
+<p>Der Befehl <code>MACHE</code> ist der allgemeine Produktionsbefehl.
+Mehr dazu auch im Kapitel <a href="../production/">Produktion</a>.</p>
 <h2 id="gegenstande">Gegenstände<a class="headerlink" href="#gegenstande" title="Permanent link">&para;</a></h2>
-<p><a href="../items/">Gegenstände</a> und <a href="../resources/">Rohstoffe</a> werden mit <code>MACHE [</code><em><code>anzahl</code></em><code>]</code><em><code>gegenstand</code></em><code></code> hergestellt. Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt. Ohne Angabe von <em>anzahl</em> wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl. Rohstoffe es ihr ermöglichen.</p>
+<p><a href="../items/">Gegenstände</a> und <a href="../resources/">Rohstoffe</a> werden mit <code>MACHE [</code><em><code>anzahl</code></em><code>]</code><em><code>gegenstand</code></em><code></code> hergestellt.
+Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt.
+Ohne Angabe von <em>anzahl</em> wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl.
+Rohstoffe es ihr ermöglichen.</p>
 <h3 id="tranke">Tränke<a class="headerlink" href="#tranke" title="Permanent link">&para;</a></h3>
-<p>Das Herstellen eines Trankes ist sehr aufwendig und kann nur von besonders talentierten Alchemisten durchgeführt werden. Details dazu findest du im <a href="../skills-list/">Alchemie-Kapitel</a>.</p>
+<p>Das Herstellen eines Trankes ist sehr aufwendig und kann nur von besonders talentierten Alchemisten durchgeführt werden.
+Details dazu findest du im <a href="../skills-list/">Alchemie-Kapitel</a>.</p>
 <h3 id="krauter">Kräuter<a class="headerlink" href="#krauter" title="Permanent link">&para;</a></h3>
-<p>Kräuter werden mit dem Befehl <code>MACHE KRÄUTER</code> von Einheiten mit dem Talent <a href="../skills-list/">Kräuterkunde</a> hergestellt. Details dazu im Kapitel über <a href="../herbs/">Kräuter</a>.</p>
+<p>Kräuter werden mit dem Befehl <code>MACHE KRÄUTER</code> von Einheiten mit dem Talent <a href="../skills-list/">Kräuterkunde</a> hergestellt.
+Details dazu im Kapitel über <a href="../herbs/">Kräuter</a>.</p>
 <h2 id="einheiten">Einheiten<a class="headerlink" href="#einheiten" title="Permanent link">&para;</a></h2>
-<p>Wenn du eine neue Einheit erschaffst (<code>MACHE TEMP xy</code>), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird. Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel <code>GIB TEMP xy 100 Silber</code>). Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien. Wenn also du und eine andere Partei eine Einheit mit der ID <em>TEMP xy</em> haben, wird deine eigene Einheit gewählt. Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.</p>
-<p>Die Alias-Nummer wird als Nummer der Einheit benutzt, wenn diese noch nicht belegt ist. Ebenso kannst du schon hier einen Namen der Einheit angeben. So lassen sich die Befehle</p>
-<div class="highlight"><pre><span></span><code> MACHE TEMP 1
+<p>Wenn du eine neue Einheit erschaffst (<code>MACHE TEMP xy</code>), gibst du der Einheit eine Alias-Nummer, denn du weißt ja zu diesem Zeitpunkt noch nicht, welche Nummer für die Einheit schlussendlich noch frei sein wird.
+Für alle anderen Befehle kannst du nun diesen Alias verwenden (mit dem Wort TEMP davor, zum Beispiel <code>GIB TEMP xy 100 Silber</code>).
+Bei der Suche nach einer TEMP-Einheit wird erst in der eigenen Partei gesucht, dann in fremden Parteien.
+Wenn also du und eine andere Partei eine Einheit mit der ID <em>TEMP xy</em> haben, wird deine eigene Einheit gewählt.
+Mit ein wenig Absprache können also auch TEMP-Einheiten fremder Parteien angesprochen werden.</p>
+<p>Die Alias-Nummer wird als Nummer der Einheit benutzt, wenn diese noch nicht belegt ist.
+Ebenso kannst du schon hier einen Namen der Einheit angeben.
+So lassen sich die Befehle</p>
+<div class="highlight"><pre><span></span><code>MACHE TEMP 1
     BENENNE EINHEIT &quot;Clowns&quot;
     NUMMER EINHEIT lach
 </code></pre></div>
 <p>verkürzen auf</p>
-<div class="highlight"><pre><span></span><code> MACHE TEMP lach &quot;Clowns&quot;
+<div class="highlight"><pre><span></span><code>MACHE TEMP lach &quot;Clowns&quot;
 </code></pre></div>
-<p>Pro Partei sind maximal 2500 Einheiten erlaubt. Hat die Partei 2500 oder mehr Einheiten, so können mit <code>MACHE TEMP</code> keine neuen Einheiten geschaffen werden, es müssen erst andere Einheiten z.B. durch Zusammenfassen gelöscht werden. Da das Auflösen leerer Einheiten in der Befehlsreihenfolge weit hinten kommt, können neue TEMP-Einheiten erst in der folgenden Woche geschaffen werden.</p>
+<p>Pro Partei sind maximal 2500 Einheiten erlaubt.
+Hat die Partei 2500 oder mehr Einheiten, so können mit <code>MACHE TEMP</code> keine neuen Einheiten geschaffen werden, es müssen erst andere Einheiten z.B. durch Zusammenfassen gelöscht werden.
+Da das Auflösen leerer Einheiten in der Befehlsreihenfolge weit hinten kommt, können neue TEMP-Einheiten erst in der folgenden Woche geschaffen werden.</p>
 <p>Nach diesem Befehl werden die Befehle für die neue Einheit angegeben, bis der Befehl ENDE folgt.</p>
-<p>Die neue Einheit muss allerdings noch Mitglieder bekommen, sonst wird sie stillschweigend am Ende der Runde wieder gelöscht! Sie muss also rekrutieren oder Personen übergeben bekommen. Wenn die neue Einheit Mitglieder neu rekrutieren soll, muss sie auch genug Geld dafür erhalten. Erhält sie das nicht, wird die Einheit niemanden rekrutieren können und am Ende der Woche stillschweigend entfernt werden. Bekommt die Einheit Geld, rekrutiert aber keine Mitglieder, löst sie sich ebenfalls auf und das Geld fällt <a href="../factions/#auflosung-von-einheiten">wieder einer Einheit der eigenen Partei zu</a>.</p>
-<div class="highlight"><pre><span></span><code> EINHEIT 17;       Kämpfer [15,700$]
- MACHE TEMP 1
-    BENENNE EINHEIT &quot;Drachenreiter&quot;
-    LERNE Hiebwaffen
- ENDE
- GIB TEMP 1 5 PERSONEN
-  
- GIB TEMP 2 100 Silber
- MACHE TEMP 2
-    REKRUTIERE 1
-    BENENNE EINHEIT &quot;Späher&quot;
-    DEFAULT &quot;LERNE Wahrnehmung&quot;
-    NACH Westen
- ENDE
+<p>Die neue Einheit muss allerdings noch Mitglieder bekommen, sonst wird sie stillschweigend am Ende der Runde wieder gelöscht! Sie muss also rekrutieren oder Personen übergeben bekommen.
+Wenn die neue Einheit Mitglieder neu rekrutieren soll, muss sie auch genug Geld dafür erhalten.
+Erhält sie das nicht, wird die Einheit niemanden rekrutieren können und am Ende der Woche stillschweigend entfernt werden.
+Bekommt die Einheit Geld, rekrutiert aber keine Mitglieder, löst sie sich ebenfalls auf und das Geld fällt <a href="../factions/#auflosung-von-einheiten">wieder einer Einheit der eigenen Partei zu</a>.</p>
+<div class="highlight"><pre><span></span><code>EINHEIT 17;       Kämpfer [15,700$]
+    MACHE TEMP 1
+        BENENNE EINHEIT &quot;Drachenreiter&quot;
+        LERNE Hiebwaffen
+    ENDE
+    GIB TEMP 1 5 PERSONEN
+      
+    GIB TEMP 2 100 Silber
+    MACHE TEMP 2
+        REKRUTIERE 1
+        BENENNE EINHEIT &quot;Späher&quot;
+        DEFAULT &quot;LERNE Wahrnehmung&quot;
+        NACH Westen
+    ENDE
 </code></pre></div>
 <h2 id="gebaude">Gebäude<a class="headerlink" href="#gebaude" title="Permanent link">&para;</a></h2>
-<p>Um ein neues Gebäude zu errichten, verwendest du <em><code>MACHE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em> (siehe <a href="../buildings/">Gebäude</a>). Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür <em><code>MACHE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em><code></code><em><code>gebäude-nr</code></em>. Der <em>Gebäudetyp</em> kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt. Burgen und viele andere Gebäude können beliebig ausgebaut werden. Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silber in verschiedenen Mengen.</p>
+<p>Um ein neues Gebäude zu errichten, verwendest du <em><code>MACHE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em> (siehe <a href="../buildings/">Gebäude</a>).
+Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür <em><code>MACHE</code></em><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Gebäudetyp</code></em><code></code><em><code>gebäude-nr</code></em>.
+Der <em>Gebäudetyp</em> kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt.
+Burgen und viele andere Gebäude können beliebig ausgebaut werden.
+Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, andere Gebäude erfordern i.d.R. weiterhin Holz, Eisen und Silber in verschiedenen Mengen.</p>
 <h2 id="schiffe">Schiffe<a class="headerlink" href="#schiffe" title="Permanent link">&para;</a></h2>
-<p>Mit <code>MACHE</code><em><code>schiffstyp</code></em> beginnt eine Einheit, ein neues <a href="../ships/">Schiff</a> zu bauen. Dazu muss sie das Talent Schiffbau und Holz haben. Mit <code>MACHE [</code><em><code>stufe</code></em><code>] SCHIFF</code><em><code>schiff-nr</code></em> kann sie daran weiterbauen. Schiffe können nicht wie Burgen erweitert werden, sondern der Typ wird bei Baubeginn festgelegt. An Schiffen kann nur bis zu der durch den Typ festgelegten Größe weiter gebaut werden.</p>
+<p>Mit <code>MACHE</code><em><code>schiffstyp</code></em> beginnt eine Einheit, ein neues <a href="../ships/">Schiff</a> zu bauen.
+Dazu muss sie das Talent Schiffbau und Holz haben.
+Mit <code>MACHE [</code><em><code>stufe</code></em><code>] SCHIFF</code><em><code>schiff-nr</code></em> kann sie daran weiterbauen.
+Schiffe können nicht wie Burgen erweitert werden, sondern der Typ wird bei Baubeginn festgelegt.
+An Schiffen kann nur bis zu der durch den Typ festgelegten Größe weiter gebaut werden.</p>
 <p>Sowohl bei Gebäuden als auch bei Schiffen kannst du mit <em>stufen</em> angeben, wie viele Stufen du das Gebäude bzw. Schiff bauen / erweitern willst.</p>
 <ul>
 <li>erste Woche: <code>MACHE LANGBOOT</code><br />
@@ -7596,27 +7621,36 @@
   An Schiff Nr. 76 wird nun weiter gebaut.</li>
 </ul>
 <h2 id="straen">Straßen<a class="headerlink" href="#straen" title="Permanent link">&para;</a></h2>
-<p>Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du <code>MACHE STRASSE</code><em><code>richtung</code></em>. Um <a href="../roads/">Straßen</a> zu bauen, braucht die Einheit das Talent <a href="../skills-list/#straenbau">Straßenbau</a> und <a href="../items/">Steine</a>. In Gletschern benötigt sie dazu vorher einen <a href="../buildings-others/#tunnel">Tunnel</a>, in Wüsten eine <a href="../buildings-others/#karawanserei">Karawanserei</a> und in Sümpfen einen <a href="../buildings-others/#damm">Damm</a>. Pro Talentpunkt Straßenbau wird ein Stein verbaut. Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den <a href="../terrains/">Geländearten</a>. Straßen funktionieren nur wenn sie vollständig sind.</p>
+<p>Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du <code>MACHE STRASSE</code><em><code>richtung</code></em>.
+Um <a href="../roads/">Straßen</a> zu bauen, braucht die Einheit das Talent <a href="../skills-list/#straenbau">Straßenbau</a> und <a href="../items/">Steine</a>.
+In Gletschern benötigt sie dazu vorher einen <a href="../buildings-others/#tunnel">Tunnel</a>, in Wüsten eine <a href="../buildings-others/#karawanserei">Karawanserei</a> und in Sümpfen einen <a href="../buildings-others/#damm">Damm</a>.
+Pro Talentpunkt Straßenbau wird ein Stein verbaut.
+Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den <a href="../terrains/">Geländearten</a>.
+Straßen funktionieren nur wenn sie vollständig sind.</p>
 <p>Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MACHE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.</p>
-<p><code>MACHE gebäudetyp</code> bzw. <code>MACHE SCHIFF</code> ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet. <strong>Achtung:</strong> Falls sich die Einheit in einem Gebäude befindet, fängt MACHE Leuchtturm <em>kein neues</em> Gebäude an, sondern baut an dem alten weiter.</p>
+<p><code>MACHE gebäudetyp</code> bzw. <code>MACHE SCHIFF</code> ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Falls sich die Einheit in einem Gebäude befindet, fängt MACHE Leuchtturm <em>kein neues</em> Gebäude an, sondern baut an dem alten weiter.</p>
+</div>
 <h2 id="beispiele">Beispiele<a class="headerlink" href="#beispiele" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code> MACHE 5 Schwert ; stellt (maximal) 5 Schwerter her
- MACHE Wasser~des~Lebens ; stellt so viel von dem Trank her, wie Talent und Material zulassen
- MACHE KRÄUTER
+<div class="highlight"><pre><span></span><code>MACHE 5 Schwert ; stellt (maximal) 5 Schwerter her
+MACHE Wasser~des~Lebens ; stellt so viel von dem Trank her, wie Talent und Material zulassen
+MACHE KRÄUTER
 
- VERLASSE
- MACHE Leuchtturm ; fängt einen neuen Leuchtturm an
- MACHE Leuchtturm xyz ; baut am Leuchtturm xyz weiter
+VERLASSE
+MACHE Leuchtturm ; fängt einen neuen Leuchtturm an
+MACHE Leuchtturm xyz ; baut am Leuchtturm xyz weiter
 
- VERLASSE
- MACHE BURG xyz ; baut am Gebäude xyz weiter (egal welcher Gebäudetyp xyz ist)
- MACHE 5 Trireme ; fängt eine neue Trireme an
- MACHE SCHIFF abc ; baut an Schiff abc weiter
+VERLASSE
+MACHE BURG xyz ; baut am Gebäude xyz weiter (egal welcher Gebäudetyp xyz ist)
+MACHE 5 Trireme ; fängt eine neue Trireme an
+MACHE SCHIFF abc ; baut an Schiff abc weiter
 
- MACHE STRASSE SO ; baut an der Straße nach Südosten weiter
+MACHE STRASSE SO ; baut an der Straße nach Südosten weiter
 
- MACHE Trireme abc ; falsch: fängt neue Trireme an
- MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
+MACHE Trireme abc ; falsch: fängt neue Trireme an
+MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
 </code></pre></div>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>

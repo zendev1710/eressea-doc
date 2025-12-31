@@ -2332,10 +2332,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#potions-list" class="md-nav__link">
+  <a href="#list-of-potions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Potions list
+        List of potions
       
     </span>
   </a>
@@ -2346,7 +2346,7 @@
   <a href="#herbs-table" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Herbs Table
+        Herbs table
       
     </span>
   </a>
@@ -7286,10 +7286,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#potions-list" class="md-nav__link">
+  <a href="#list-of-potions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Potions list
+        List of potions
       
     </span>
   </a>
@@ -7300,7 +7300,7 @@
   <a href="#herbs-table" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Herbs Table
+        Herbs table
       
     </span>
   </a>
@@ -7376,13 +7376,28 @@
 
 
 <h1 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h1>
-<p>Alchemical <em>potions</em> are prepared using <a href="../herbs/">Herbs</a> and other ingredients, and can then be used by any unit. To make a potion, you need units with the skill <a href="../skills-list/#alchemy">Alchemy</a>, and to find the required herbs, you need units with the skill <a href="../skills-list/#herbalism">Herbalism</a>.</p>
-<p>Potions are make with the order <a href="../cmd-make/">MAKE</a><code>"potion_name"</code>. Each potion requires several ingredients. Recipes are given each time you reach the level required to concoct them. Later, you can find them using the <a href="../cmd-show/">SHOW</a> command. To be able to make a potion, the alchemist's level must be twice as high as the potion's level. Each turn, an alchemist can make (skill level)/(potion level*2) potions. A level 6 alchemist can therefore make a maximum of one level 3 potion, one level 2 potion or three level 1 potions.</p>
-<p>If you want to use a potion, you do so with order <a href="../cmd-use/">USE</a><code>[amount] "potion_name" [unit ID]</code>. Unit ID is required only for Duncebun potion. A potion cannot be divided between several units. However, a large unit can be divided into several smaller units after the potion has been used, retaining its effects.</p>
-<p>Most potions give their benefits to the unit giving the order. Exceptions are potions which affect a region -then the region where the unit was at the beginning of turn is affected- or those that affect other units (Duncebun potion).</p>
-<p>Usually a potion affects 10 people or 10 goods during the turn it is used, as mentioned in its recipe. Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items. Many potions work in such a way that too many people in the unit make no difference, i.e. with 12 people and a potion (works for 10) the effect only affects 10 of the 12 people. This is not possible with "berserks blood" potion, as the persons do not act as a unit in battle. Here it is necessary that all persons in the unit have the effect of the potion before the fight, otherwise it will not work!</p>
+<p>Alchemical <strong>potions</strong> are prepared using <a href="../herbs/">Herbs</a> and other ingredients, and can then be used by any unit.
+To make a potion, you need units with the skill <a href="../skills-list/#alchemy">Alchemy</a>, and to find the required herbs, you need units with the skill <a href="../skills-list/#herbalism">Herbalism</a>.</p>
+<p>Potions are make with the order <a href="../cmd-make/"><code>MAKE "&lt;potion name&gt;"</code></a>.
+Each potion requires several ingredients.
+Recipes are given each time you reach the level required to concoct them.
+Later, you can find them using the <a href="../cmd-show/">SHOW</a> order.
+To be able to make a potion, the alchemist's level must be twice as high as the potion's level.
+Each turn, an alchemist can make (skill level)/(potion level*2) potions.
+A level 6 alchemist can therefore make a maximum of one level 3 potion, one level 2 potion or three level 1 potions.</p>
+<p>If you want to use a potion, you do so with order [[cmd-use|<code>[amount] "&lt;potion name&gt;" [unit ID]</code>]].
+Unit ID is required only for Duncebun potion.
+A potion cannot be divided between several units.
+However, a large unit can be divided into several smaller units after the potion has been used, retaining its effects.</p>
+<p>Most potions give their benefits to the unit giving the order.
+Exceptions are potions which affect a region -then the region where the unit was at the beginning of turn is affected- or those that affect other units (Duncebun potion).</p>
+<p>Usually a potion affects 10 people or 10 goods during the turn it is used, as mentioned in its recipe.
+Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
+Many potions work in such a way that too many people in the unit make no difference, i.e. with 12 people and a potion (works for 10) the effect only affects 10 of the 12 people.
+This is not possible with "berserks blood" potion, as the persons do not act as a unit in battle.
+Here it is necessary that all persons in the unit have the effect of the potion before the fight, otherwise it will not work!</p>
 <p>The "residual effect" of potions does not expire with all potions, so that, for example, a person can benefit from the effect of a “Brain wax” or “busybeers” for ten weeks after using it.</p>
-<h2 id="potions-list">Potions list<a class="headerlink" href="#potions-list" title="Permanent link">&para;</a></h2>
+<h2 id="list-of-potions">List of potions<a class="headerlink" href="#list-of-potions" title="Permanent link">&para;</a></h2>
 <p>Potions list</p>
 <table>
 <thead>
@@ -7526,9 +7541,12 @@
 </tr>
 </tbody>
 </table>
-<p>* Acts on the unit, but all the faction's demons in the region use it if there are any left. So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.</p>
-<p>** You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;. The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2. In this case, you get an error message and the Dumpfbackenbrot is not used up (thus it remains to the unit).</p>
-<h2 id="herbs-table">Herbs Table<a class="headerlink" href="#herbs-table" title="Permanent link">&para;</a></h2>
+<p>* Acts on the unit, but all the faction's demons in the region use it if there are any left.
+So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  </p>
+<p>** You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.
+The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
+In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).</p>
+<h2 id="herbs-table">Herbs table<a class="headerlink" href="#herbs-table" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>

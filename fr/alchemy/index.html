@@ -2346,7 +2346,7 @@
   <a href="#tableau-des-plantes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tableau des Plantes
+        Tableau des plantes
       
     </span>
   </a>
@@ -7300,7 +7300,7 @@
   <a href="#tableau-des-plantes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tableau des Plantes
+        Tableau des plantes
       
     </span>
   </a>
@@ -7376,18 +7376,33 @@
 
 
 <h1 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h1>
-<p>Les <strong>potions</strong> alchimiques sont préparées à l'aide de <a href="../herbs/">plantes</a> et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle unité. Pour fabriquer une potion, il faut des unités avec la compétence <a href="../skills-list/#alchimie">Alchemy</a>, et pour trouver les plantes nécessaires, il faut des unités avec la compétence <a href="../skills-list/#herboristerie">Herbalism</a>.</p>
-<p>Les potions sont créées avec l'ordre <a href="../cmd-make/">MAKE</a><code>"nom_de_la_Potion"</code>. Chaque potion nécessite plusieurs ingrédients. Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter. Plus tard, on pourra les retrouver avec la commande <a href="../cmd-show/">SHOW</a>. Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion. Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion*2) potions. Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.</p>
-<p>Si vous souhaitez utiliser une potion, vous le faites avec l'ordre <a href="../cmd-use/">USE</a><code>[quantité] "nom_de_la_potion" [ID d'unité]</code>. Les identifiants d'unité (ID) ne doivent être spécifiés que pour la potion Duncebun. Une potion ne peut pas être divisée entre plusieurs unités. On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.</p>
-<p>La plupart des potions profitent à l'unité qui les utilise. Les exceptions sont les potions qui se rapportent à une région - dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités (potion Duncebun).</p>
-<p>En général, une potion affecte 10 personnes ou 10 biens pendant le tour où elle est utilisée, comme indiqué dans sa recette. Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets. De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes. Cela n'est pas possible avec la potion "berserks blood", car les personnes n'agissent pas comme une unité au combat. Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la potion avant le combat, sinon cela ne fonctionnera pas !</p>
+<p>Les <strong>potions</strong> alchimiques sont préparées à l'aide de <a href="../herbs/">plantes</a> et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle unité.
+Pour fabriquer une potion, il faut des unités avec la compétence <a href="../skills-list/#alchimie">Alchemy</a>, et pour trouver les plantes nécessaires, il faut des unités avec la compétence <a href="../skills-list/#herboristerie">Herbalism</a>.</p>
+<p>Les potions sont créées avec l'ordre <a href="../cmd-make/"><code>MAKE "&lt;nom de la potion&gt;"</code></a>.
+Chaque potion nécessite plusieurs ingrédients.
+Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter.
+Plus tard, on pourra les retrouver avec la commande <a href="../cmd-show/">SHOW</a>.
+Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion.
+Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion*2) potions.
+Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.</p>
+<p>Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use|<code>USE [quantité] "&lt;nom de la potion&gt;" [ID d'unité]</code>]].
+Les identifiants d'unité (ID) ne doivent être spécifiés que pour la potion Duncebun.
+Une potion ne peut pas être divisée entre plusieurs unités.
+On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.</p>
+<p>La plupart des potions profitent à l'unité qui les utilise.
+Les exceptions sont les potions qui se rapportent à une région - dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités (potion Duncebun).</p>
+<p>En général, une potion affecte 10 personnes ou 10 biens pendant le tour où elle est utilisée, comme indiqué dans sa recette.
+Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.
+De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes.
+Cela n'est pas possible avec la potion "berserks blood", car les personnes n'agissent pas comme une unité au combat.
+Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la potion avant le combat, sinon cela ne fonctionnera pas !</p>
 <p>L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exemple, une personne peut bénéficier de l'effet de "Brain wax" ou de "busybeers" pendant dix semaines après l'avoir utilisé.</p>
 <h2 id="liste-des-potions">Liste des potions<a class="headerlink" href="#liste-des-potions" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Niveau</th>
-<th>Abbr</th>
+<th>Abr</th>
 <th>Nom</th>
 <th>Ingrédients</th>
 <th>Description</th>
@@ -7432,7 +7447,7 @@
 <td>St</td>
 <td>Busybeer</td>
 <td>mandrake, gapgrowth, tangy temerity</td>
-<td>Double la productivité de 10 hommes utilisant l'ordre <code>MAKE</code>.</td>
+<td>Double la productivité de 10 hommes utilisant l'ordre <code>MAKE</code></td>
 <td>Unité</td>
 </tr>
 <tr>
@@ -7517,13 +7532,16 @@
 </tr>
 </tbody>
 </table>
-<p>* Agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste. Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de "peasant blood" pour tous les démons.</p>
-<p>** La potion s'applique à une autre unité avec l'ordre <code>USE "Duncebun" &lt;unit−id&gt;</code>. A cet égard, il convient de noter que : Si la compétence stealth de l'utilisateur est inférieure ou égale à la perception + 2 de la victime, la tentative échoue. Si la tentative échoue, le Duncebun reste chez l'utilisateur et il reçoit un message d'erreur.</p>
-<h2 id="tableau-des-plantes">Tableau des Plantes<a class="headerlink" href="#tableau-des-plantes" title="Permanent link">&para;</a></h2>
+<p>* Agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.
+Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de "peasant blood" pour tous les démons.  </p>
+<p>** La potion s'applique à une autre unité avec l'ordre <code>USE "Duncebun" &lt;unit−id&gt;</code>.
+À cet égard, il convient de noter que si la compétence stealth de l'utilisateur est inférieure ou égale à la perception + 2 de la victime, la tentative échoue.
+Si la tentative échoue, le Duncebun reste chez l'utilisateur et il reçoit un message d'erreur.</p>
+<h2 id="tableau-des-plantes">Tableau des plantes<a class="headerlink" href="#tableau-des-plantes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Herb</th>
+<th>Plante</th>
 <th>TW</th>
 <th>Sm</th>
 <th>Gw</th>

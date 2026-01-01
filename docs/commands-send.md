@@ -8,7 +8,7 @@ alias: sending-orders
 
 In addition to your own email access, you don't need much to play Eressea.
 
-To edit the [commands], a simple text editor is sufficient.
+To edit the [[orders]], a simple text editor is sufficient.
 Under UNIX/Linux e.g. VI or EMACS, under Windows Notepad also works.
 The important thing is: the editor should only make a line break where you actually enter one.
 Under no circumstances should lines that are too long be wrapped independently, otherwise orders may not be executed correctly.
@@ -42,7 +42,7 @@ Otherwise the commands will not be recognized by the game server and will be ign
 Be careful when using web interfaces such as GMX or GMail! These have proven to be problematic in the past because emails were formatted incorrectly.
 Users of [[magellan]] can most conveniently [[sending-orders-from-magellan|send orders directly from the program]], without having to go through email programs or webmailers.
 
-The commands must always be sent to the address [[eressea-server@kn-bremen.de](mailto:eressea-server@kn-bremen.de)] with the subject **ERESSEA 2 COMMANDS** be sent.
+The orders must always be sent to [eressea-server@kn-bremen.de] with the subject **ERESSEA 2 COMMANDS** be sent.
 If these subjects are not used, the emails will not be recognized by the game server and will be ignored.
 Moves that arrive correctly are automatically checked with the ECheck syntax checker and the result of the check is sent to the player.
 An example:
@@ -77,7 +77,7 @@ Magellan has also built in extensive tests that essentially make ECheck unnecess
 Sometimes it can happen that the email with the report is lost somewhere due to technical failures.
 If you still haven't received a report on Monday evening and there was no announcement in the Eressea Announce list, you can request the current evaluation again.
 
-To do this, send an email with the following subject to [[eressea-server@kn-bremen.de](mailto:eressea-server@kn-bremen.de)], because this is the only place where the data is available:
+To do this, send an email with the following subject to [eressea-server@kn-bremen.de], because this is the only place where the data is available:
 
 ```text
 ERESSEA 2 REPORT parteinummer "passwort"
@@ -182,7 +182,7 @@ The date of the email (Date: header) is used as the order.
 
 ## See also
 
-- [[world|The World]]
+- [[world|The World of Eressea]]
 - [[first-round]]
 - [[orders]]
 

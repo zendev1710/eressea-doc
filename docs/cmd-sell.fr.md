@@ -13,7 +13,7 @@ In order to sell something, no contact with the lord of the castle is necessary;
 
 With `SELL ALL` is sold as much as the demand in the region.
 This also works if the trading volume drops in the same week (e.g. due to recruitment).
-However, the order should not be given to more than one unit per region or even by several factions: as soon as several units in the region have SELL orders, it is no longer guaranteed what will happen `SELL ALLES` happened.
+However, the order should not be given to more than one unit per region or even by several factions: as soon as several units in the region have SELL orders, it is no longer guaranteed what will happen `SELL ALL` happened.
 
 [<sup>(l)</sup>][<sup>`(l)`</sup>] `SELL` is, like [[cmd-buy]], a [[orders|"pseudo-long" order]].
 

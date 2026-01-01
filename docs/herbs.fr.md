@@ -4,45 +4,45 @@ alias: plantes
 ---
 # Plantes
 
-**Les plantes** se ramassent avec l'ordre [MAKE HERBS]. Selon le niveau dans la compétence [Herbalism], on ramasse plus ou moins de plantes dans une région. Chaque région n'a qu'un seul type de plantes. Les plantes repoussent comme les arbres ; si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter alors grâce à [GROW HERBS]. Dans ce cas, seule la plante qui y poussait à l'origine peut être replantée. En cas de doute, il faut essayer de savoir quelle plante a déjà poussé ici.
+**Les plantes** se ramassent avec l'ordre [[cmd-make|`MAKE HERBS`]].
+Selon le niveau dans la compétence [Herboristerie], on ramasse plus ou moins de plantes dans une région. Chaque région n'a qu'un seul type de plantes. Les plantes repoussent comme les arbres;
+si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter alors grâce à [[cmd-grow|`GROW HERBS`]].
+Dans ce cas, seule la plante qui y poussait à l'origine peut être replantée. En cas de doute, il faut essayer de savoir quelle plante a déjà poussé ici.
 
-Les plantes sont surtout utilisées en [alchimie]. Certains [sorts] ont également besoin de plantes comme composants.
+Les plantes sont surtout utilisées en [[alchimie|alchimie]].
+Certains [[magie|sorts]] ont également besoin de plantes comme composants.
 
-Avec [RESEARCH HERBS] vous pouvez savoir approximativement combien de plantes poussent dans la région ; cela nécessite un niveau d'herboristerie de 7 ou plus.
+Avec [[cmd-research|`RESEARCH HERBS`]] vous pouvez savoir approximativement combien de plantes poussent dans la région;
+cela nécessite un niveau d'herboristerie de 7 ou plus.
 
-very few = moins de 10
+Le résultat de l'ordre sera :
 
-few = moins de 30
+- very few : moins de 10
+- few : moins de 30
+- rather many : moins de 60
+- many : moins de 90
+- a great many : plus de 90
 
-rather many = moins de 60
+Attention, les plantes ne durent pas éternellement.
+Elles se décomposent au fil du temps.
 
-many = moins de 90
+## Liste des plantes
 
-a great many = plus de 90
+Liste des plantes et leur localisation.
 
-Attention, les plantes ne durent pas éternellement. Elles se décomposent au fil du temps.
+| Région    | Plantes                                                                  |
+|-----------|--------------------------------------------------------------------------|
+| Désert    | waterfinder, peyote, sand reeker                                         |
+| Plaine    | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier   | ice begonia, white hemlock, snowcrystal petal                            |
+| Highlands | windbag, fjord fungus, mandrake                                          |
+| Marais    | bugleweed, knotroot, bubblemorel                                         |
+| Montagne  | rock weed, gapgrowth, cave lichen                                        |
+| Plaine    | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Volcan    | --                                                                       |
 
-## Liste des Plantes
-
-Liste des plantes et leur localisation incl. noms allemand
-
-| localisation | Kräuter (noms allemand)                                                                 | Plantes (english names)                                                  |
-|--------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| Plain/Forest | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Swamp        | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           | bugleweed, knotroot, bubblemorel                                         |
-| Desert       | Wasserfinder, Kakteenschwitz, Sandfäule                                                 | waterfinder, peyote, sand reeker                                         |
-| Highland     | Windbeutel, Fjordwuchs, Alraune                                                         | windbag, fjord fungus, mandrake                                          |
-| Mountain     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
-| Glacier      | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
-| Volcano      | --                                                                                      | --                                                                       |
-
-Poursuivre la lecture : [Befehle](./commands.md).
+Poursuivre la lecture : [[ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
 
-[MAKE HERBS]: ./cmd-make.md
-[Herbalism]: ./skills-list.md
-[GROW HERBS]: ./cmd-grow.md
-[alchimie]: ./alchemy.md
-[sorts]: ./magic.md
-[RESEARCH HERBS]: ./cmd-research.md
+[herboristerie]: ./skills-list.md#herboristerie

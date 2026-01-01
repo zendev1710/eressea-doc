@@ -4,7 +4,9 @@ alias: ressources
 ---
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient. Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout. La compétence requise est indiquée dans le tableau de la section [objets].
+Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient.
+Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout.
+La compétence requise est indiquée dans le tableau de la section [objets].
 
 ## Exploitation des ressources
 
@@ -22,13 +24,24 @@ Dans ton rapport tu peux le savoir suivant le nombre après le "/".
 Par exemple, si le rapport indique « 20 iron/4 », cela signifie que 20 fers avec un niveau de compétence 4 peuvent encore être extraits.
 Une fois ceux-ci extraits, les mineurs auront besoin d'être niveau 5 pour extraire du fer de la couche suivante (5).
 En général, les quantités pouvant être extraites augmentent à chaque nouvelle couche.
-L'extraction nécessite les compétences Mining ou Quarrying selon la ressource.
 
-### Ressources Forestières
+Compétences : l'extraction nécessite les compétences Mining ou Quarrying selon la ressource.
 
-Le développement de la végétation d'Eressea est déterminé par les saisons. Dès que les premiers rayons du soleil frappent le sol au printemps, les graines cachées dans le sol germent et les pousses d'arbres de l'année dernière se transforment en arbres adultes. S'il n'y a pas assez de soleil (pas d'espace de travail libre), les graines restent dormantes dans le sol. Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [[cmd-make]]`seed ou mallorn seed` et la compétence [Herbalism] de niveau minimun 3 ou 4 puis replanté ailleurs avec l'ordre [[cmd-plant]]`seed ou mallorn seed` (niveau minimum de 6 ou 7).
+### Ressources forestières
 
-Si du bois ou du mallorn est abattu, la forêt se rétrécit et ne se reconstitue que très lentement. Tant qu'il y a suffisamment de bois, il peut être abattu en n'importe quelle quantité. Il en va de même pour le mallorn, un bois "magique" que l'on ne trouve que dans quelques régions. Le mallorn se reproduit certes comme le bois, mais les graines de mallorn ne poussent que dans les régions qui s'y prêtent. Dans les régions à Mallorn, la commande "MAKE wood" permet également d'abattre du bois à la place du Mallorn. Le nombre d'arbres de Mallorn est alors réduit d'autant que si l'on avait abattu des Mallorns. Compétences : forestry, herbalism
+Le développement de la végétation d'Eressea est déterminé par les saisons.
+Dès que les premiers rayons du soleil frappent le sol au printemps, les graines cachées dans le sol germent et les pousses d'arbres de l'année dernière se transforment en arbres adultes.
+S'il n'y a pas assez de soleil (pas d'espace de travail libre), les graines restent dormantes dans le sol.
+Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [[cmd-make]]`seed ou mallorn seed` et la compétence [Herbalism] de niveau minimun 3 ou 4 puis replanté ailleurs avec l'ordre [[cmd-plant]]`seed ou mallorn seed` (niveau minimum de 6 ou 7).
+
+Si du bois ou du mallorn est abattu, la forêt se rétrécit et ne se reconstitue que très lentement.
+Tant qu'il y a suffisamment de bois, il peut être abattu en n'importe quelle quantité.
+Il en va de même pour le mallorn, un bois "magique" que l'on ne trouve que dans quelques régions.
+Le mallorn se reproduit certes comme le bois, mais les graines de mallorn ne poussent que dans les régions qui s'y prêtent.
+Dans les régions à Mallorn, la commande "MAKE wood" permet également d'abattre du bois à la place du Mallorn.
+Le nombre d'arbres de Mallorn est alors réduit d'autant que si l'on avait abattu des Mallorns.  
+
+Compétences : forestry, herbalism
 
 ### Autres ressources
 
@@ -36,13 +49,21 @@ Les chevaux peuvent également être capturés à volonté avec l'ordre [[cmd-ma
 Sans aide, seuls les chevaux sauvages se reproduisent.
 Il est toutefois possible de faire naître d'autres chevaux dans une [Stable].
 Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'entre eux migrent vers les régions voisines lorsque les chevaux y sont moins nombreux.
-Compétence : taming
 
-Expérience de jeu : SoltharDie maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10. In einer relativ leeren Region vermehren sie sich mit ca. 4%. Je näher sie dem Limit kommen, desto langsamer das Wachstum. Am schnellsten geht es bei ungefähr halben Besatz. In einer Ebene gibt es bei 25 Pferden jede Runde ein neues. Bei 500 Pferden kommen 10 pro Runde hinzu. Ab 1000 Pferden tut sich nichts mehr.
+Expérience de jeu (Solthar):
 
-[Arbeitsplätze]: ./world.md
+The maximal amount of horses in a region equals the number of [[world|jobs]] / 10.
 
-On peut également récolter des plantes pour concocter des potions. Il y a au maximum une espèce de plante dans chaque région. Voir la [Liste des Plantes]. Compétences : Herbalism, Alchemy
+In a relatively empty plain they grow at a rate of 4%.
+As they approach the upper limit, growth slows down.
+The most new horses are born at about half the maximal population.
+In a plain with 25 horses, there is 1 birth per week.
+With 500 horses there are 10 new horses per round.
+At 1000 horses there is no more growth.
+
+On peut également récolter des plantes pour concocter des potions.
+Il y a au maximum une espèce de plante dans chaque région.
+Voir la [liste des plantes].
 
 ## Voir aussi
 
@@ -57,4 +78,4 @@ Poursuivre la lecture : [[objets]].
 
 [Herbalism]: ./skills-list.md#herboristerie
 [Stable]: ./buildings-others.md#haras
-[Liste des Plantes]: ./herbs.md#liste-des-plantes
+[liste des plantes]: ./herbs.md#liste-des-plantes

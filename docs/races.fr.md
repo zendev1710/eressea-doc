@@ -19,7 +19,7 @@ Les démons (demons) sont cruels et imprévisibles. Ils dévorent les paysans de
 - Volatilité : Toutes les compétences ayant au moins un point de compétence (avant malus racial) ont 25 % de chances de changer de niveau. La compétence peut perdre jusqu'à 3 semaines d'apprentissage (40%) ou augmenter jusqu'à 3 semaines d'apprentissage (60%). Il n'en résulte pas de valeurs négatives; aucune compétence ne peut descendre en dessous du niveau 0.
 - Les démons mangent des paysans à chaque tour. Un paysan nourrit dix démons.Les démons qui ne reçoivent pas de nourriture (pas assez de paysans) perdent des points de vie et sont soumis à la réduction de compétences selon la règle de normale de la [famine]. Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le rapport (voir rapport nr).
 - Les démons [recrutés] ne sont pas déduits de la réserve de paysans. Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
-- Si on rend des démons aux paysansavec l'ordre [`GIVE 0`], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
+- Si on rend des démons aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
 - Les démons peuvent se [camoufler] en une autre race .
 - Au corps à corps, chaque coup porté par un démon à un adversaire provoque une "panique sur 1 personne" : la personne touchée a -1 à ses compétences de combat (pas l'unité).
 - Les démons blessés se régénèrent à hauteur de 7,5% de leurs points de vie.
@@ -49,7 +49,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`]).
+- Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
 - Les halflings ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons].
 - Les halflings sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
@@ -86,7 +86,7 @@ Les aquariens (Aquarians) sont chez eux dans l’eau, mais sont plutôt mal à l
 
 Les humains (humans) peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
 
-- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent se les [faire donner][`GIVE 0`] par d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
+- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [[cmd-give|récupérer]] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
 
 Le nombre d'immigrants se calcule comme suit : 20 × log<sub>10</sub> (taille de la faction ÷ 50). Si l'on a soudainement trop d'immigrants à cause d'une catastrophe ou d'un combat, ceux-ci ne sont pas supprimés, on ne peut juste plus en accueillir de nouveaux. Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros]. Le tableau suivant contient quelques exemples :
 
@@ -104,7 +104,7 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 - Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 dans les compétences Melee and Polearm.
 - Paresse : les orcs gagnent moins de silver que les autres races avec l'ordre [[cmd-work]].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
-- De même : si vous donnez des orcs aux paysans avec l'ordre [`GIVE 0`], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
+- De même : si vous donnez des orcs aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
 - Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres races, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
 - Les orcs ont le cerveau lent et apprennent généralement toutes les compétences un peu plus lentement que les autres races, hors celles de combat (cad celles pour maîtriser une arme).
 

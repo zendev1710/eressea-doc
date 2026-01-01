@@ -76,7 +76,7 @@ There are 36 wild horses living in the region. Horses have no influence on the n
 
 There are also stones in Vîpot, which does not apply to every desert, but it does occur from time to time. There are currently 22 stones at quarrying level 3. To discover this stone deposit, a quarryman with at least quarrying level 2 is required (note: with quarrying level 2, you can see stone deposits up to a maximum of quarrying level 4). However, to actually extract stones, the unit must have quarrying level 3.
 
-In principle, you can build [Roads] in any land region to increase your traveling speed over land. For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW). In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection. However, since Vîpot is a desert, you also need a fully developed [caravanserai]. A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.
+In principle, you can build [[roads]] in any land region to increase your traveling speed over land. For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW). In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection. However, since Vîpot is a desert, you also need a fully developed [caravanserai]. A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.
 
 The line also contains the current level of regional silver. This amount is important to be able to estimate how the peasants are being supplied and how much silver player units can earn here through entertainment or tax collection [income].
 
@@ -168,9 +168,7 @@ Although the influence of the seasons is generally not particularly pronounced, 
 - [[cmd-recruit]]
 - [[cmd-entertain]]
 
-Continue reading: [Factions].
-
-[Factions]: ./factions.md
+Continue reading: [[factions]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 

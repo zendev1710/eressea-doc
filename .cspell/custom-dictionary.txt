@@ -15,6 +15,7 @@ crtools
 Darllenydd
 Deathhawk
 Deveron
+Drachensgrab
 Draig
 Draiochean
 Dunfanaghy
@@ -58,6 +59,7 @@ ng'Darllen
 Niolamel
 Nixus
 Noldor
+Patreons
 Phygon
 Plötzbogen
 Podina

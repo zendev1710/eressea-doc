@@ -51,5 +51,5 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [dragons]: ./monsters.md#dragons
 [NR]: ./reports.md#nr
 [CR]: ./reports.md#cr
-[programmes]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[programmes]: ./commands-send.md#what-you-need-to-consider-when-entering-data
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express

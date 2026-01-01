@@ -5,7 +5,7 @@ alias: cmd-reserve-fr
 # RESERVE
 
 **`RESERVE`**` `*`number`*` `*`gegenstand`*  
-**`RESERVE`**` ALLES `*`gegenstand`*  
+**`RESERVE`**` ALL `*`gegenstand`*  
 **`RESERVE`**` EACH `*`number`*` `*`gegenstand`*
 
 **`RESERVE`**` `*`number`*` `*`Item`*  

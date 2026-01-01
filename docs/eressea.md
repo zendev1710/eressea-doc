@@ -37,13 +37,13 @@ A short time later, registration for new factions that would be launched in new 
 
 ## See also
 
-- [http://www.eressea.de]
+- [Eressea web site]
 - [[history-of-eressea]]
-- [http://de.wikipedia.org/wiki/Regionen\_und\_Orte\_in\_Tolkiens\_Welt]
+- [Regions and places in Tolkien's world]
 - [Bravo Screenfun, March 2002]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea&oldid=7463] -->
 
-[http://www.eressea.de]: http://www.eressea.de
-[http://de.wikipedia.org/wiki/Regionen\_und\_Orte\_in\_Tolkiens\_Welt]: http://de.wikipedia.org/wiki/Regionen_und_Orte_in_Tolkiens_Welt
+[Eressea web site]: https://www.eressea.de/?lang=en
+[Regions and places in Tolkien's world]: https://en.wikipedia.org/wiki/Middle-earth
 [Bravo Screenfun, March 2002]: http://www.bravo.de/online/render.php?render=572

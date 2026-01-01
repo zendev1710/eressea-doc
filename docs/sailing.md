@@ -91,9 +91,9 @@ The following events will damage a ship :
 - The ship does not have any owner, 5% damage per round
 - The ship is hit by a storm and drifts off course, 2% damage
 
-You can repair a ship with [[cmd-make|`MAKE [`*`level`*`] SHIP [`*`ship-ID`*`]`]], just as if the ship wasn't finished yet.
+You can repair a ship with [[cmd-make|`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;]], just as if the ship wasn't finished yet.
 
-Player experience: Ship drifted in a storm; what happened?
+Player experience: Ship drifted in a storm; what happened?  
 
 Ships travel over coasts (ocean hexes with at least one adjacent land hex) or over open sea (ocean with only adjacent water hexes).
 

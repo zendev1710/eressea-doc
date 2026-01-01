@@ -114,10 +114,10 @@ Lors des événements suivants, un bateau subit des dommages :
 - si le bateau est sans propriétaire, il subit 5% de dommages
 - Si le bateau dérive (comme suite à une tempête), il subit 2% de dommages.
 
-On peut réparer un bateau avec [[cmd-make|`MAKE [`*`niveau`*`] SHIP [`*`ship-ID`*`]`]], exactement comme si le bateau n'était pas encore terminé.
+Un bateau peut être réparé avec l'ordre [[cmd-make|`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;]], exactement comme si le bateau n'était pas encore terminé.
 
-Expérience de jeu : Ship drifted in a storm; what happened?
-  
+Expérience de jeu : Ship drifted in a storm; what happened?  
+
 Ships travel over coasts (ocean hexes with at least one adjacent land hex) or over open sea (ocean with only adjacent water hexes).
 
 - As long as a ship only travels in coastal regions it will never get caught in a storm and it will never drift away.

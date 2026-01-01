@@ -26,7 +26,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`NAME FREMDES SHIP schiff "<name>"`]                |                                                        | [C]     |
 | [`NAME FREMDES BUILDING gebäude "<name>"`]           |                                                        | [C]     |
 | [`NAME FREMDE FACTION partei "<name>"`]              |                                                        | [C]     |
-| [`USE [<number>] trank`]                             | benutzt alchemistischen Trank                          | [C]     |
+| [`USE [<number>] potion`]                            | benutzt alchemistischen Trank                          | [C]     |
 | [`DESCRIBE UNIT "<text>"`]                           | beschreibt Objekte                                     | [C]     |
 | [`DESCRIBE PRIVAT "<text>"`]                         |                                                        | [C]     |
 | [`DESCRIBE BUILDING "<text>"`]                       |                                                        | [C]     |
@@ -61,7 +61,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`GIVE 0 <number> MEN`]                              |                                                        | [C]     |
 | [`GIVE 0 <number> <item>`]                           |                                                        | [C]     |
 | [`GROUP ["<name>"]`]                                 | Gruppieren von Einheiten                               | [C]     |
-| [`HELP <faction id> ALLES [NOT]`]                    | setzt / löscht einseitige Allianz                      | [C]     |
+| [`HELP <faction id> ALL [NOT]`]                      | setzt / löscht einseitige Allianz                      | [C]     |
 | [`HELP <faction id> GIVE [NOT]`]                     |                                                        | [C]     |
 | [`HELP <faction id> COMBAT [NOT]`]                   |                                                        | [C]     |
 | [`HELP <faction id> GUARD [NOT]`]                    |                                                        | [C]     |
@@ -134,11 +134,11 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`ORIGIN x y`]                                       | setzt den Koordinaten-Ursprung                         | [C]     |
 | [`FORGET <skill>`]                                   | vergisst das Talent                                    | [C]     |
 | [`SELL anzah`l luxusgut]                             | verkauft Luxusgüter                                    | [(l)] 3 |
-| [`SELL ALLES luxusgut`]                              |                                                        |         |
+| [`SELL ALL luxusgut`]                                |                                                        |         |
 | [`LEAVE]                                             | Schiff oder Gebäude verlassen                          | [C]     |
 | [`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`] | Zaubern                                                | [(l)] 4 |
-| [`SHOW ALLE ZAUBER`]                                 | zeigt Beschreibung aller bekannten Zauber              | [C]     |
-| [`SHOW ALLE TRÄNKE`]                                 | zeigt Beschreibung aller bekannten Tränke              | [C]     |
+| [`SHOW ALL ZAUBER`]                                  | zeigt Beschreibung aller bekannten Zauber              | [C]     |
+| [`SHOW ALL TRÄNKE`]                                  | zeigt Beschreibung aller bekannten Tränke              | [C]     |
 | [`SHOW "Gegenstand"`]                                | zeigt Beschreibung eines Gegenstands                   | [C]     |
 | [`SHOW "Trank"`]                                     | zeigt Beschreibung des Tranks                          | [C]     |
 | [`SHOW "Zauberspruch"`]                              | zeigt Beschreibung des Zaubers                         | [C]     |
@@ -148,6 +148,23 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 | [`GROW PFERDE`]                                      | Pferde züchten - nur in Pferdezucht                    | L       |
 
 <!-- [//]: ./cmd-comment-slash.md-->
+
+<sup>1</sup> der Befehl ist nicht immer lang, siehe [Kampfende]  
+<sup>2</sup> bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  
+<sup>3</sup> ein BUY- und mehrere SELL-Befehle können kombiniert werden  
+<sup>4</sup> eine Einheit kann mehrere Zauber ausführen
+
+## Voir aussi
+
+- [Befehle]
+- [Befehlsreihenfolge]
+
+Poursuivre la lecture : [Der erste Zug].
+
+[Der erste Zug]: ./first-round.md
+
+<!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
+
 [L]: ./commands.md#ordres-courts-et-longs
 [`ATTACK <unit id>`]: ./cmd-attack.md
 [(l)]: ./commands.md#ordres-courts-et-longs
@@ -198,7 +215,7 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`GIVE 0 <number> MEN`]: ./cmd-give.md
 [`GIVE 0 <number> <item>`]: ./cmd-give.md
 [`GROUP ["<name>"]`]: ./cmd-group.md
-[`HELP <faction id> ALLES [NOT]`]: ./cmd-help.md
+[`HELP <faction id> ALL [NOT]`]: ./cmd-help.md
 [`HELP <faction id> GIVE [NOT]`]: ./cmd-help.md
 [`HELP <faction id> COMBAT [NOT]`]: ./cmd-help.md
 [`HELP <faction id> GUARD [NOT]`]: ./cmd-help.md
@@ -271,33 +288,17 @@ Unter "K/L" ist vermerkt, ob der [Befehl] ein kurzer oder langer Befehl ist. Ein
 [`ORIGIN x y`]: ./cmd-origin.md
 [`FORGET <skill>`]: ./cmd-forget.md
 [`SELL <number> luxusgut`]: ./cmd-sell.md
-[`SELL ALLES luxusgut`]: ./cmd-sell.md
+[`SELL ALL luxusgut`]: ./cmd-sell.md
 [`LEAVE`]: ./Leave.md
 [`CAST [REGION x y] [LEVEL n] "zauberspruch" [...]`]: ./cmd-cast.md
-[`SHOW ALLE ZAUBER`]: ./cmd-show.md
-[`SHOW ALLE TRÄNKE`]: ./cmd-show.md
+[`SHOW ALL ZAUBER`]: ./cmd-show.md
+[`SHOW ALL TRÄNKE`]: ./cmd-show.md
 [`SHOW "Gegenstand"`]: ./cmd-show.md
 [`SHOW "Trank"`]: ./cmd-show.md
 [`SHOW "Zauberspruch"`]: ./cmd-show.md
 [`SHOW "Rasse"`]: ./cmd-show.md
 [`DESTROY [stufen]`]: ./cmd-destroy.md
 [`GROW PFERDE`]: ./cmd-grow.md
-
-<sup>1</sup> der Befehl ist nicht immer lang, siehe [Kampfende]  
-<sup>2</sup> bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  
-<sup>3</sup> ein BUY- und mehrere SELL-Befehle können kombiniert werden  
-<sup>4</sup> eine Einheit kann mehrere Zauber ausführen
-
-## Voir aussi
-
-- [Befehle]
-- [Befehlsreihenfolge]
-
-Poursuivre la lecture : [Der erste Zug].
-
-[Der erste Zug]: ./first-round.md
-
-<!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [Befehl]: ./commands.md
 [Befehle]: ./commands.md

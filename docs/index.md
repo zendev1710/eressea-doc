@@ -6,9 +6,10 @@ alias: home
 
 Welcome to [[eressea]]!
 
-In this documentation, we collect information for Eressea players.
+!!! note "important"
+    The **official rules** of the game are available in this [wiki].
 
-This documentation is **under construction**! If you'd like to help, please join our [Discord] server.
+This site reproduces the rules of the game described in the wiki, **fully translated into English**.
 
 ## What is here?
 
@@ -21,7 +22,7 @@ This documentation is **under construction**! If you'd like to help, please join
 - Eressea originates from [Atlantis]
 - [Frequently asked questions] to the game master.
 
-## Noteworthy Pages
+## Noteworthy pages
 
 - [Orders sequence] - the most important rules page
 - [Tactics] - How many tacticians for which bonus
@@ -34,23 +35,29 @@ This documentation is **under construction**! If you'd like to help, please join
 
 ## List of games
 
-### E2
+### Eressea
 
-This is the main game that has been running since 1996. Since there were some rules changes in 2000, it is known as "The Second Age", or E2 for short.
+This is the main game that has been running since 1996.
+Since there were some rules changes in 2000, it is known as "The Second Age", or **E2** for short.
 
-### E3
+### E3 (discontinued)
 
-On June 24th, 2009 the Third Age of Eressea started. [The Third Age] is a new world with a lot of rules changes. Less micro management and a clearer profile for races where the main design goals. The game ended on August 11, 2019 after 517 turns.
+On June 24th, 2009 the Third Age of Eressea started.
+[The Third Age] is a new world with a lot of rules changes.
+Less micro management and a clearer profile for races where the main design goals.
+The game ended on August 11, 2019 after 517 turns.
 
 - [An overview about race changes (in German)]
 - [List of rules changes compared to E2 (in German)]
 - [Announcments from the e3-announce mailing list]
 
-#### Deveron
+#### Deveron (discontinued)
 
-On April 19, 2014 a new game called **Deveron** for Enno's [Patreons]. The world started with E3 rules, but was supposed to be subject to further changes. It ended with turn 243 on March 2, 2019.
+On April 19, 2014 a new game called **Deveron** for Enno's [Patreons].
+The world started with E3 rules, but was supposed to be subject to further changes.
+It ended with turn 243 on March 2, 2019.
 
-#### Drachensgrab
+#### Drachensgrab (discontinued)
 
 A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3 turns per week.
 
@@ -74,6 +81,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 
 Continue reading: [rules].
 
+[wiki]: https://wiki.eressea.de/Hauptseite/en
 [rules]: ./rules.md
 [Eressea]: ./cmd-eressea.md
 [Discord]: https://discord.gg/KT5Fffh

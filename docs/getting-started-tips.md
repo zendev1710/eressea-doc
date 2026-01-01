@@ -22,7 +22,7 @@ Then there's [[echeck]], a program that lets you check your moves for correctnes
 ECheck is automatically run by the server on incoming moves and the result is sent back.
 Use ECheck at home with the -e option to check if your commands are being interpreted as expected.
 ECheck only checks the spelling of the commands and the order of the parameters.
-ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [move template] is used.
+ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [[orders|orders template]] is used.
 
 Set yourself several goals you want to achieve.
 One of your first goals should be exploring the surrounding area.
@@ -32,16 +32,19 @@ Note: the silver required for recruitment must be factored in!
 
 Create more units and learn some skills that you expect to need in the next three to four rounds.
 
-[[cmd-entertain|Entertainment]] is essential for earning money. Without sufficient silver, your faction won't be able to grow.
-[Tax collectors] are also a good source of income; for this, you need, for example, metals ([mining]) or wood ([logging]) to craft weapons like swords or spears; and of course, tax collectors need the appropriate weapon skill ([tax collection], [weapon skills]).
+[[cmd-entertain|Entertainment]] is essential for earning money.
+Without sufficient silver, your faction won't be able to grow.
+[[cmd-tax|Tax collectors]] are also a good source of income;
+for this, you need, for example, metals ([mining]) or wood ([logging]) to craft weapons like swords or spears;
+and of course, tax collectors need the appropriate weapon skill ([tax collection], [weapon skills]).
 
-[Perception] is a very important skill that is often underestimated by beginners.
-Only Perceivers are able to see camouflaged units and prevent them from [stealing]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
-It's also advisable to build [castles] early, at least at level 2, and "trading posts" (required skills: [Stone Construction] and [Mining] for the stone and [Castle Construction] for building the castle) so that [trade] can be conducted.
+[[camouflage|Perception]] is a very important skill that is often underestimated by beginners.
+Only tax collectors are able to see camouflaged units and prevent them from [stealing]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
+It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry] and [mining] for the stone and [[buildings|castles building]]) so that [trade] can be conducted.
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
-Units with expensive skills like [Tactician], [Alchemist], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
+Units with expensive skills like [[tactics|Tacticians]], [[skills-list|Alchemists]], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
 Training [[magic|Mages]] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
 And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
@@ -50,7 +53,7 @@ In other words, a plan for how to protect your faction from attacks once the ini
 
 Write plenty of comments in your orders files so you know what each action was for in the following rounds.
 It's a good idea to group orders by region so you have a few lines of comments for each region.
-A good starting point for your new orders file is the [Round Template] appended to the evaluation for the next round.
+A good starting point for your new orders file is the [[orders|Round Template]] appended to the evaluation for the next round.
 For each unit, you can also note what it produces, for whom it produces it, where it's going, or what kind of trade it's engaged in.
 Here is an example of these comments:
 
@@ -111,7 +114,7 @@ Buy a wagon and two horses from the lord of the castle or build one yourself.
 You don't need to be allied with trading partners.
 Use the [[cmd-contact]] command to exchange goods and silver with other factions without being allied.
 
-One of the most important tables in this guide is the [commands sequence], which shows the order in which orders are processed by the server.
+One of the most important tables in this guide is the [[orders-sequence]], which shows the order in which orders are processed by the server.
 It illustrates, for example, that you can certainly give raw materials to a weaponsmith in the same week before he starts production ([[cmd-give]] is at position 14, [[cmd-make]] is at position 22), but you cannot give him potions and then use them immediately ([[cmd-use]] is at position 7).
 
 There are no winners in this game.
@@ -140,6 +143,7 @@ Continue reading: [[xontormia-express]].
 [trade]: ./silver.md#trade
 [trading]: ./silver.md#trade
 [horses and wagons]: ./travel.md#horse-and-carriage
+[masonry]: ./skills-list.md#masonry
 
 [Eressea's Discord channel]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm Games forum]: http://www.pbem-spiele.de/

@@ -6,11 +6,12 @@ alias: accueil
 
 Bienvenue dans [[eressea]] !
 
-Dans cette documentation, nous rassemblons les informations pour les joueurs d'Eressea.
+!!! note "important"
+    Les **règles officielles** du jeu sont disponibles dans ce [wiki].
 
-Cette documentation est **en construction** ! Si vous souhaitez y contribuer, n'hésitez pas à nous rejoindre sur le serveur [Discord] d'Eressea.
+Ce site reprend les règles du jeu décrites dans le wiki, **entièrement traduites en français**.
 
-## Ce qu'on y trouve
+## Pour débuter
 
 - Les [[regles]]
 - [L'inscription au jeu]
@@ -33,30 +34,32 @@ Cette documentation est **en construction** ! Si vous souhaitez y contribuer, n'
 
 ## Les jeux
 
-### Eressea, le jeu : « le Deuxième Âge » (E2)
+### Eressea
 
 Le jeu se déroule sans interruption depuis 1996.
 
-Depuis quelques changements de règles en 2000, il est nommé « Le Deuxième Âge » (en abrégé E2).
+Depuis quelques changements de règles en 2000, il est nommé « Le Deuxième Âge » (en abrégé **E2**).
 
-### E3
+### E3 (abandonné)
 
-Le 24 juin 2009 a marqué le début du Troisième Âge d'Eressea. Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur plusieurs aspects.
+Le 24 juin 2009 a marqué le début du Troisième Âge d'Eressea.
+Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur plusieurs aspects.
 La simplification de la gestion et une séparation plus nette des races constituaient les deux principaux objectifs de conception d'E3.
 
-La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation. Sur E3, tu peux consulter la documentation suivante :
+La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation.*
+Sur E3, tu peux consulter la documentation suivante :
 
 - [Aperçu de nos réflexions concernant les races]
 - [Ensemble des modifications des règles par rapport au jeu Eressea original][Le Troisième Âge]
 - [Annonces de la liste de diffusion e3-announce]
 
-#### Deveron
+#### Deveron (abandonné)
 
 Le 19 avril 2014, un nouveau jeu intitulé **Deveron** a été lancé pour les contributeurs [Patreon-Förderer].
 Le jeu était basé sur les règles d'E3, mais a subi des modifications plus importantes que sur les jeux précédents.
 Il s'est terminé avec le tour d'évaluation 243 le 2 mars 2019.
 
-#### Drachensgrab (« La tombe du Dragon »)
+#### Drachensgrab (abandonné)
 
 Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par semaine et quelques modifications mineures.
 
@@ -81,8 +84,8 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 Poursuivre la lecture : [[regles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
-
-[Les outils indispensables pour jouer]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
+[wiki]: https://wiki.eressea.de/Hauptseite/fr
+[Les outils indispensables pour jouer]: ./commands-send.md#what-you-need-to-consider-when-entering-data
 [Conseils pour les nouveaux joueurs]: ./getting-started-tips.md
 [L'histoire d'Eressea]: ./eressea-story.md
 [Questions fréquentes (FAQ)]: ./faq.md

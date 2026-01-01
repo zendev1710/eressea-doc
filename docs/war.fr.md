@@ -329,7 +329,7 @@ Poursuivre la lecture : [[alliances]].
 [ce]: ./war-tables.md#armure
 [Résistance à la magie]: ./war-tables.md#resistance-a-la-magie
 [ce tableau]: ./war-tables.md#endurance
-[Schaden]: ./sailing.md#schiffsschaden
+[Schaden]: ./sailing.md#dommages-aux-bateaux
 
 [tour de tactique]: #tour-du-tacticien
 [Lignes de combat]: #lignes-de-combat

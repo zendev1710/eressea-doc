@@ -19,7 +19,7 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 - Volatility: All skills with at least one skill level (before racial malus) have a 25% chance of shifting. The skill can lose up to 3 weeks of learning (40%), or rise up to 3 weeks of learning (60%). No skill can ever fall below level 0.
 - Infernal Hunger: Demons eat peasants every turn. Demons that do not receive food (not enough peasants) lose hit points and are subject to skill reduction according to the normal [starvation rule].
 - Ethereal Creature: Demons are not [recruited] from the peasant population (they aren't deducted from the peasant pool). However, the normal recruitment limits still apply for balance reasons.
-- Ethereal Creature: When a demon unit gives away men with [`GIVE 0`], these people are not added to the peasant population in the region.
+- Ethereal Creature: When a demon unit gives away men with [[cmd-give|`GIVE 0`]], these people are not added to the peasant population in the region.
 - Intrinsic Disguise: Demons can [change their appearance] to become that of any other player race.
 - Panic: In close combat, taking a hit from a demon causes panic in the victim. The person receives a modifier of −1 to all combat skills (not the unit).
 - Regeneration: Wounded demons regenerate 7,5% of their hit points per turn.
@@ -49,7 +49,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 
 Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and [ships] to others. Weaponry is not one of their strengths.
 
-- Halflings who try to [flee] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [`COMBAT FLEE`]).
+- Halflings who try to [flee] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [[cmd-combat|`COMBAT FLEE`]]).
 - Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against [dragons].
 - Always Hungry : Halflings suffer more damage from starvation than other races (between 8 and 17 hit points (1d10+7)).
 
@@ -86,7 +86,7 @@ Aquarians are at home in the water, but they feel uncomfortable in the mountains
 
 Humans can do a bit of everything. They don't have any really bad skills, but they don't really excel at anything either. They can therefore make up for the weaknesses of their allies, even though they have no specialization.
 
-- Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [get them][`GIVE 0`] from other factions. There are no migrants with [expensive skills] like magic, alchemy, herbalism, espionage, or tactics.
+- Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [[cmd-give|get them]] from other factions. There are no migrants with [expensive skills] like magic, alchemy, herbalism, espionage, or tactics.
 
 The number of *migrants* is calculated as 20 × log<sub>10</sub> (persons in the faction ÷ 50). If you have to many migrants, for example after a battle, they are not removed, but you cannot add any more either. The maximum number of migrants is shown in your report. It is almost identical to the number of [heroes] for large factions. The following table has some examples.
 
@@ -104,7 +104,7 @@ Orcs start their life as fighters, and usually end it as fighters. They intuitiv
 - Born Fighters: All newly recruited orcs start out with a level in the melee and polearm skills.
 - Laziness: Orcs earn less silver than other races with the [[cmd-work]] order.
 - Easy Recruits: For two recruited orcs only one peasant is subtracted from the peasant pool of the region. Thus you can recruit twice the recruitment limit of a region. Fractions are rounded up.
-- Likewise, for every two orcs given to the peasants (see the [`GIVE 0`] order) only one peasant is added to the peasant pool of the region (rounded down this time).
+- Likewise, for every two orcs given to the peasants (see the [[cmd-give|`GIVE 0`]] order) only one peasant is added to the peasant pool of the region (rounded down this time).
 - Dangerous: Unarmed orcs do not fight with a -2 penalty in close combat like other races, but with (best close combat skill - 3). They still need weapons to collect taxes.
 - Orcs are slow thinkers and generally learn all non-weapon skills somewhat slower than other races.
 

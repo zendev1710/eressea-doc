@@ -44,6 +44,7 @@ Homestone
 icewind
 knotroot
 longsword
+MALLORNSEEDS
 owlsgaze
 platemail
 Platemail

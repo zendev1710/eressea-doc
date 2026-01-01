@@ -22,7 +22,7 @@ Il y a ensuite [[echeck]], un programme qui te permet de vérifier la validité 
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  
 Utilise ECheck chez toi avec l'option -e pour vérifier si tes ordres sont interprétés comme prévu.  
 ECheck vérifie uniquement la syntaxe des ordres.  
-ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'évaluation]] du serveur est utilisé.  
+ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'ordres]] du serveur est utilisé.  
 
 Fixe-toi plusieurs objectifs.  
 L'un de tes premiers objectifs devrait être d'explorer les environs.  
@@ -32,18 +32,19 @@ Remarque : n'oublie pas de prendre en compte l'argent nécessaire au recrutemen
 
 Crée davantage d'unités et apprends certaines compétences dont tu penses avoir besoin lors des trois ou quatre prochains tours.  
 
-Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent. Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
+Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent.
+Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
 Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus;  
 pour cela, il te faut, par exemple, des métaux ([exploitation minière]) ou du bois ([exploitation forestière]) pour fabriquer des armes comme des épées ou des lances;  
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts], [compétences d'armes]).  
 
 La [[camouflage|perception]] est une compétence essentielle, souvent sous-estimée par les débutants.  
-Seuls les percepteurs peuvent repérer les unités camouflées et les empêcher de [piller] ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
-Il est également conseillé de construire des [[chateaux|châteaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].  
+Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller] ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
+Il est également conseillé de construire des [[chateaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].  
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].  
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 
-Les unités aux compétences coûteuses, comme [[tactique]], [[liste-des-competences|alchimiste]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).  
+Les unités aux compétences coûteuses, comme [[tactique|les Tacticiens]], [[liste-des-competences|les Alchimistes]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).  
 Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
 De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  
 
@@ -52,7 +53,7 @@ En d'autres termes, un plan pour protéger ta faction contre les attaques une fo
 
 Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
 Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.  
-Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.  
+Un bon point de départ pour ton nouveau fichier de commandes est le [[ordres|modèle d'évaluation]] ajouté à l'évaluation du tour suivant.  
 Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  
 
 Exemple de commentaires :
@@ -143,6 +144,7 @@ Poursuivre la lecture : [[xontormia-express]].
 [commerce]: ./silver.md#commerce
 [commercer]: ./silver.md#commerce
 [de chevaux et de chariots]: ./travel.md#chevaux-et-chariots
+[maconnerie]: ./skills-list.md#maconnerie
 
 [serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
 [forum des Jeux PbEm]: http://www.pbem-spiele.de/

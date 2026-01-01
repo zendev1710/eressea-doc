@@ -4,9 +4,12 @@ alias: hauptseite
 ---
 # Hauptseite
 
-Willkommen auf [eressea]!
+Willkommen auf [[eressea]]!
 
-In diesem Wiki sammeln wir Informationen für Spieler von Eressea.
+!!! note "wichtig"
+    Die **offiziellen Spielregeln** sind in diesem [Wiki] verfügbar.
+
+Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 
 ## Was es hier gibt
 
@@ -32,13 +35,16 @@ In diesem Wiki sammeln wir Informationen für Spieler von Eressea.
 
 ## Partien
 
-### E2 (aktuell)
+### Eressea
 
-Die Partie läuft als Endlosspiel seit 1996. Seit einigen Regeländerungen im Jahre 2000 läuft es als "Das Zweite Zeitalter", kurz E2.
+Die Partie läuft als Endlosspiel seit 1996.
+Seit einigen Regeländerungen im Jahre 2000 läuft es als "Das Zweite Zeitalter", kurz **E2**.
 
 ### E3 (eingestellt)
 
-Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat. Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele. Das Spiel endete am 11. August 2019 nach 517 Auswertungen.
+Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat.
+Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele.
+Das Spiel endete am 11. August 2019 nach 517 Auswertungen.
 
 - [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]
 - [Eine Liste aller Regeländerungen gegenüber dem alten Eressea-Spiel][Das dritte Zeitalter]
@@ -46,7 +52,9 @@ Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter]
 
 #### Deveron (eingestellt)
 
-Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-Förderer]. Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien. Sie endete mit Auswertung 243 am 2. März 2019.
+Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-Förderer].
+Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien.
+Sie endete mit Auswertung 243 am 2. März 2019.
 
 #### Drachensgrab (eingestellt)
 
@@ -74,6 +82,7 @@ Weiterlesen: [[regeln]].
 
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
+[wiki]: https://wiki.eressea.de/Hauptseite/de
 [Das dritte Zeitalter]: ./the-third-age.md
 [Spielerseiten]: ./player-pages.md
 [Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md
@@ -84,8 +93,8 @@ Weiterlesen: [[regeln]].
 [Geschichte von Eressea]: ./eressea-story.md
 [Befehlsreihenfolge]: ./commands-sequence.md
 
-[Anmeldung zum Spiel]: ./hints.md#anmeldung "Hinweise"
-[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
+[Anmeldung zum Spiel]: ./hints.md#anmeldung
+[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
 
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"

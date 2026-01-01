@@ -30,7 +30,7 @@ brief description of orders
 | [NAME STRANGER SHIP ship-id "name"](./cmd-name.md)                      |                                                   | C           |
 | [NAME STRANGER BUILDING building-id "name"](./cmd-name.md)              |                                                   | C           |
 | [NAME STRANGERS FACTION faction-id "name"](./cmd-name.md)               |                                                   | C           |
-| [USE \[amount\] trank](./cmd-use.md)                                    | uses alchemical potion                            | C           |
+| [USE \[amount\] potion](./cmd-use.md)                                   | uses alchemical potion                            | C           |
 | [DESCRIBE UNIT "text"](./cmd-describe.md)                               | describes object                                  | C           |
 | [DESCRIBE PRIVATE "text"](./cmd-describe.md)                            | unit description for the owner                    | C           |
 | [DESCRIBE BUILDING "text"](./cmd-describe.md)                           |                                                   | C           |
@@ -65,7 +65,7 @@ brief description of orders
 | [GIVE 0 amount MEN](./cmd-give.md)                                      |                                                   | C           |
 | [GIVE 0 amount gegenstand](./cmd-give.md)                               |                                                   | C           |
 | [GROUP \["name"\]](./cmd-group.md)                                      | forms groups of units                             | C           |
-| [HELP faction-id ALLES \[NOT\]](./cmd-help.md)                          | set up/revoke an unilateral alliance              | C           |
+| [HELP faction-id ALL \[NOT\]](./cmd-help.md)                            | set up/revoke an unilateral alliance              | C           |
 | [HELP faction-id GIVE \[NOT\]](./cmd-help.md)                           |                                                   | C           |
 | [HELP faction-id COMBAT \[NOT\]](./cmd-help.md)                         |                                                   | C           |
 | [HELP faction-id GUARD \[NOT\]](./cmd-help.md)                          |                                                   | C           |

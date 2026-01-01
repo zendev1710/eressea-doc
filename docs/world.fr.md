@@ -28,7 +28,7 @@ Dans cet exemple, à (0,0) il y a un marais, au nord-est à (0,1) il y a une mon
 > "Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
 > "Ces cartes servent surtout à la navigation de nos bateaux. Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations. C'est pourquoi..." - et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte, - "... c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées. Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
 
-Dans le monde d'Eressea, il existe plusieurs [types de terrain] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.
+Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.
 
 En fonction du type de terrain, la région accueillera un nombre différent de paysans pour gagner leur salaire hebdomadaire dans les champs. Ainsi, une plaine offre un emploi à beaucoup plus de paysans qu'un marais par exemple. De plus, les arbres réduisent le nombre d'emplois disponibles. Chaque paysan prend un emploi, chaque pousse d'arbre en prend quatre et chaque arbre en prend huit. Bien que les arbres puissent pousser à l'infini sur n'importe quel type de terrain, dans une région très boisée, il n'y aura quasiment plus d'emplois. Dans un glacier, très peu d'arbres suffisent à occuper presque tous les emplois, dans une plaine, il peut y avoir quelques centaines d'arbres et quelques milliers de paysans travaillant dans les champs. Mais même une région très densément boisée produit encore suffisamment de fruits, de racines ou de champignons pour que quelques paysans puissent en vivre. Ainsi, une petite partie des paysans trouve toujours un emploi dans la région : 10% du nombre maximal d'emplois dans une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses d'arbres. Par exemple, dans une montagne où il y a 150 arbres, 100 paysans trouvent encore un emploi (10% du nombre maximal d'emplois), bien qu'il n'y ait plus d'emplois disponibles en raison des nombreux arbres (150 arbres x 8 emplois occupés = 1200 emplois occupés &gt; 1000 emplois disponibles au maximum).
 
@@ -47,13 +47,13 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 | Desert   |          500 |                                             50 |                                 100 | waterfinder, peyote, sand reeker                                          |
 | Volcano  |          500 |                                             50 |                                 250 | --                                                                        |
 
-Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire - les paysans ont également besoin de 10 silvers chaque tour pour survivre, qu'ils gagnent grâce au [travail]. Les plus grands [châteaux] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible. De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.
+Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire - les paysans ont également besoin de 10 silvers chaque tour pour survivre, qu'ils gagnent grâce au [travail]. Les plus grands [[chateaux]] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible. De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.
 
-Le type de terrain détermine également quelles [herbes] peuvent pousser dans la région. Un alchimiste pourra concocter des [potions] utiles à partir de différents ingrédients. Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là. Les herbes qui y poussent ne peuvent toutefois pas être modifiées. Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]]. En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici. En général, les herbes ne poussent pas dans les volcans.
+Le type de terrain détermine également quelles [[plantes]] peuvent pousser dans la région. Un alchimiste pourra concocter des [potions] utiles à partir de différents ingrédients. Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là. Les herbes qui y poussent ne peuvent toutefois pas être modifiées. Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]]. En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici. En général, les herbes ne poussent pas dans les volcans.
 
-Dans chaque région, il est possible de construire des [routes]. Les coûts varient en fonction du terrain. De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [bâtiments spéciaux] s'y trouvent.
+Dans chaque région, il est possible de construire des [[routes]]. Les coûts varient en fonction du terrain. De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [[batiments-speciaux]] s'y trouvent.
 
-De plus, le type de terrain détermine quelles [ressources] peuvent être trouvées dans la région et avec quelle chance. Ainsi, dans les montagnes et les glaciers où aucune ressource n'a encore été extraite, on trouve toujours du fer et des pierres dès le niveau d'extraction 1. Les montagnes ont cependant toujours nettement plus de ressources qu'un glacier. Dans un volcan, un tailleur de pierres a 50% de chances de trouver des pierres au niveau d'extraction 1, de même qu'un mineur n'aura que 50% de chances d'y trouver du fer au niveau 1. Un volcan peut donc fournir des pierres et du fer de la même manière qu'une montagne, ou seulement l'une des deux ressources, voire par malchance aucune. L'exploitation d'un volcan est bien sûr beaucoup plus dangereuse, car celui-ci peut entrer en éruption de temps en temps et causer des dommages considérables aux personnes qui se trouvent dans la région. En résumé, on peut retenir que dans ces trois types de régions (montagnes, glaciers et volcans), on trouvera toujours des pierres et/ou du fer au niveau 1 - si tant est qu'il y en ait dans la région.
+De plus, le type de terrain détermine quelles [[ressources]] peuvent être trouvées dans la région et avec quelle chance. Ainsi, dans les montagnes et les glaciers où aucune ressource n'a encore été extraite, on trouve toujours du fer et des pierres dès le niveau d'extraction 1. Les montagnes ont cependant toujours nettement plus de ressources qu'un glacier. Dans un volcan, un tailleur de pierres a 50% de chances de trouver des pierres au niveau d'extraction 1, de même qu'un mineur n'aura que 50% de chances d'y trouver du fer au niveau 1. Un volcan peut donc fournir des pierres et du fer de la même manière qu'une montagne, ou seulement l'une des deux ressources, voire par malchance aucune. L'exploitation d'un volcan est bien sûr beaucoup plus dangereuse, car celui-ci peut entrer en éruption de temps en temps et causer des dommages considérables aux personnes qui se trouvent dans la région. En résumé, on peut retenir que dans ces trois types de régions (montagnes, glaciers et volcans), on trouvera toujours des pierres et/ou du fer au niveau 1 - si tant est qu'il y en ait dans la région.
 
 Mais d'autres types de régions (plaines/forêts, marais, déserts, hautes terres) peuvent aussi offrir du fer et/ou des pierres avec une certaine probabilité. Dans ces régions, le géologue peut toutefois avoir besoin d'un peu plus d'expérience, car le gisement n'est pas nécessairement présent au niveau d'extraction 1. Ainsi, il se peut que le fer commence quelque part entre les niveaux d'extraction 1 et 7, et que l'on trouve des pierres entre les niveaux d'extraction 1 et 4 - à condition que la région possède cette ressource. Il est utile de savoir qu'un géologue voit toujours des couches d'extraction deux fois plus profondes que son niveau de compétence. Par exemple, un mineur de niveau 3 voit le fer éventuellement présent jusqu'à une profondeur d'extraction maximale de la couche 6.
 
@@ -73,7 +73,7 @@ La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis les
 
 De plus, il y a des pierres à Vîpot, ce qui n'est pas le cas de tous les déserts, mais cela arrive de temps en temps. Actuellement, il y a 22 pierres au niveau d'extraction 3 (couche 3). Pour découvrir ce gisement de pierres, il faut un tailleur de pierre avec au moins quarrying niveau 2 (remarque : avec quarrying 2, on peut voir des gisements de pierres jusqu'à la couche 4 maximum). Cependant, pour pouvoir effectivement extraire des pierres, l'unité doit maîtriser quarrying au niveau 3.
 
-On peut en principe construire des [routes] dans chaque région non maritime pour augmenter la vitesse de déplacement par voie terrestre. Pour le désert de Vîpot, il faut 100 pierres pour construire une route sur l'un des 6 points cardinaux (W, NW, NE, E, SW, SW). De plus, la région voisine doit également avoir une route aménagée en direction de Vîpot, afin qu'il y ait une liaison routière. Mais comme Vîpot est un désert, il faut en plus un [caravanserail] entièrement construit. Un désert n'est donc pas forcément le premier choix pour construire un réseau routier, mais peut être un investissement rentable selon la géographie de l'île.
+On peut en principe construire des [[routes]] dans chaque région non maritime pour augmenter la vitesse de déplacement par voie terrestre. Pour le désert de Vîpot, il faut 100 pierres pour construire une route sur l'un des 6 points cardinaux (W, NW, NE, E, SW, SW). De plus, la région voisine doit également avoir une route aménagée en direction de Vîpot, afin qu'il y ait une liaison routière. Mais comme Vîpot est un désert, il faut en plus un [caravanserail] entièrement construit. Un désert n'est donc pas forcément le premier choix pour construire un réseau routier, mais peut être un investissement rentable selon la géographie de l'île.
 
 La ligne contient également le montant actuel de silvers dans la région (la réserve). Ce montant est important pour estimer l'état de l'approvisionnement des paysans et combien les unités de joueurs peuvent avoir de [revenus] en divertissant ou en collectant des impôts.
 
@@ -141,18 +141,18 @@ Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines ch
 | Mild Winds       | Mond der milden Winde | Spring | 0.5%                   |
 | Sunfire          | Sonnenfeuer           | Summer | 3%                     |
 
-Chaque tour du jeu correspond à une semaine dans le monde. Pendant ce temps, on peut faire beaucoup de choses. Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir le chapitre [Ordres]).
+Chaque tour du jeu correspond à une semaine dans le monde. Pendant ce temps, on peut faire beaucoup de choses. Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir le chapitre [[ordres]]).
 
 Même si l'influence des saisons n'est généralement pas très marquée, certains domaines ou événements sont tout de même influencés de manière significative. En voici un bref aperçu :
 
 - Les peuples d'[Insectes] recrutent difficilement en hiver
-- Les tempêtes en [mer] sont plus fréquentes en automne
+- Les tempêtes en [[deplacements|mer]] sont plus fréquentes en automne
 - Les différentes phases de [croissance des forêts] sont liées à des saisons particulières
-- En hiver, la croissance des [plantes][herbes] s'arrête
+- En hiver, la croissance des [[plantes]] s'arrête
 
 ## Voir aussi
 
-- [L'argent]
+- [[argent|L'argent]]
 - [[cmd-recruit]][1]
 - [[cmd-entertain]]
 
@@ -162,17 +162,7 @@ Poursuivre la lecture : [Factions].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
-[types de terrain]: ./terrains.md
-[châteaux]: ./castles.md
-[herbes]: ./herbs.md
-[potions]: ./alchemy.md
-[routes]: ./roads.md
-[bâtiments spéciaux]: ./buildings-others.md
-[ressources]: ./resources.md
-[Ordres]: ./commands.md
-[mer]: ./travel.md
-[L'argent]: ./silver.md
-
+[potions]: ./alchemy.fr.md#potions
 [travail]: ./silver.md#travail
 [mine]: ./buildings-others.md#mine
 [Taming]: ./skills-list.md#taming

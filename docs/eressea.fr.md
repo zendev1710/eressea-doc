@@ -37,13 +37,13 @@ A short time later, registration for new factions that would be launched in new 
 
 ## Voir aussi
 
-- [http://www.eressea.de]
-- [Geschichte von Eressea]
-- [http://de.wikipedia.org/wiki/Regionen\_und\_Orte\_in\_Tolkiens\_Welt]
+- [Site web d'Eressea]
+- [[history-of-eressea]]
+- [Régions et lieux du monde de Tolkien]
 - [Bravo Screenfun, März 2002]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Eressea&oldid=7463] -->
 
-[http://www.eressea.de]: http://www.eressea.de
-[http://de.wikipedia.org/wiki/Regionen\_und\_Orte\_in\_Tolkiens\_Welt]: http://de.wikipedia.org/wiki/Regionen_und_Orte_in_Tolkiens_Welt
+[Site web d'Eressea]: https://www.eressea.de/?lang=en
+[Régions et lieux du monde de Tolkien]: https://fr.wikipedia.org/wiki/Terre_du_Milieu
 [Bravo Screenfun, März 2002]: http://www.bravo.de/online/render.php?render=572

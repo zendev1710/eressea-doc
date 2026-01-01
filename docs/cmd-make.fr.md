@@ -1,5 +1,6 @@
 ---
 # cSpell:locale fr, en
+alias: cmd-make-fr
 ---
 # MAKE
 

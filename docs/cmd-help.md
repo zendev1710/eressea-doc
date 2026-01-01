@@ -10,7 +10,7 @@ alias: cmd-help
 **`HELP`**` `*`faction-id`*`SILVER [NOT]`  
 **`HELP`**` `*`faction-id`*`GUARD [NOT]`  
 **`HELP`**` `*`faction-id`*`PARTEITARNUNG [NOT]`  
-**`HELP`**` `*`faction-id`*`ALLES [NOT]`  
+**`HELP`**` `*`faction-id`*`ALL [NOT]`  
 
 This order allows a faction to set different levels of support for another faction.
 The counterparty does not learn about a change in status and does not have to have the same status.

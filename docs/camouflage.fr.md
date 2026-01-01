@@ -30,7 +30,7 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 
 ## Espionnage
 
-Si une unité dotée de la compétence [espionnage] donne l'ordre [`SPY`*`ID_unité`*], sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible. La chance de base de réussir une tentative d'espionnage est de 10%. Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%. Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles. Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs. Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.
+Si une unité dotée de la compétence [Espionnage] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible. La chance de base de réussir une tentative d'espionnage est de 10%. Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%. Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles. Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs. Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.
 
 Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité et les compétences. L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux au stealth de l'unité. Un stealth élevé est donc utile pour réussir à se dissimuler en une autre faction.
 
@@ -38,7 +38,7 @@ Ensuite, on détermine si la tentative d'espionnage a été remarquée, indépen
 
 ## Remarques
 
-De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([[cmd-combat|position de combat]]: `COMBAT NOT` ou `FLEE`).
+De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([[cmd-combat|position de combat]]: `COMBAT NOT` ou `COMBAT FLEE`).
 Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.
 
 Outre ces utilisations passives de la dissimulation, il est bien sûr possible de partir à la recherche d'informations avec des unités furtives bien entraînées ou d'utiliser la capacité de voler.
@@ -53,5 +53,5 @@ Poursuivre la lecture : [[deplacements]].
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 
 [combat]: ./war.md#la-fuite
-[espionnage]: ./skills-list.md#espionnage
+[Espionnage]: ./skills-list.md#espionnage
 [revenus]: ./silver.md#le-vol-la-methode-malhonnete

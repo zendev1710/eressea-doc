@@ -11,7 +11,7 @@ Use the indicated alchemical potion.
 The unit number may only be specified for Dumpfbacken bread.
 Without specifying a number, only one potion is used.
 You can use a potion multiple times to extend the effects to more than 10 people or to increase the number of weeks the effect lasts.
-For Dumpfbackenbrot, the duration is limited to 10 weeks per person.
+For Duncebun, the duration is limited to 10 weeks per person.
 
 There are other items other than potions that can be used.
 These include [Antimagic Crystal] and some faction items ([[christmas]]).

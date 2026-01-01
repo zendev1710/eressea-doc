@@ -6,8 +6,8 @@ alias: bateaux
 
 <!-- translated from german to french -->
 
-Les bateaux sont construits avec l'ordre [[cmd-make|**`MAKE`**`[`*`niveaux`*`]`*`type de bateau`*]].  
-Les bateaux existants, inachevés ou endommagés sont construits avec **`MAKE`**`[`*`niveaux`*`] SHIP [`*`id-bateau`*`]`.  
+Les bateaux sont construits avec l'ordre [[cmd-make|**`MAKE`**&#91;*`niveaux`*&#93;*`type de bateau`*]].  
+Les bateaux existants, inachevés ou endommagés sont construits avec **`MAKE`**&#91;*`niveaux`*&#91;&nbsp;`SHIP`&nbsp;&#91;`*`id-bateau`*&#93;.  
 
 Pour cela, il te faut du bois. Plus le bateau est complexe, plus il est difficile à construire et à commander.
 Ceci est résumé dans le tableau ci-dessous.  
@@ -44,22 +44,22 @@ Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent 
 Bateaux - Type, portée, capacité, compétence de voile nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
 
 | Type      | Portée | Capacité | Capitaine/Équipage | Niv. construction | Bois |
-|-----------|-------:|---------:|-------------------:|------------------:|-----:|
+|-----------|:------:|---------:|-------------------:|------------------:|-----:|
 | Bateau    |      2 |       50 |                1/2 |                 1 |    5 |
 | Chaloupe  |      3 |      500 |               1/10 |                 1 |   50 |
-| Drakkar   |    5\* |     1000 |               2/50 |                 2 |  100 |
+| Drakkar   |  5[^1] |     1000 |               2/50 |                 2 |  100 |
 | Caravelle |      5 |     3000 |               3/30 |                 3 |  250 |
 | Trirème   |      7 |     2000 |              4/120 |                 4 |  200 |
-| Galion    |      5 |    20000 |          5/250\*\* |                 5 | 2000 |
+| Galion    |      5 |    20000 |          5/250[^2] |                 5 | 2000 |
 
-\* La vitesse du drakkar dépend de la compétence en voile du capitaine.  
-\*\* Pour un galion, le calcul de la compétence totale en voile ne prend en compte que les unités de niveau 2 ou plus.  
+[^1]: la vitesse du drakkar dépend de la compétence en voile du capitaine.  
+[^2]: pour un galion, le calcul de la compétence totale en voile ne prend en compte que les unités de niveau 2 ou plus.  
 
 Vitesse du drakkar en fonction du niveau en compétence de voile du capitaine.
 
 | Capitaine | 2 | 6 | 18 | 54 | 162 |
-|-----------|---|---|----|----|-----|
-| Portée    | 5 | 6 | 7  | 8  | 9   |
+|-----------|---|---|----|----|:---:|
+| Portée    | 5 | 6 | 7  | 8  |  9  |
 
 ## Convoi
 
@@ -116,7 +116,10 @@ Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les u
 
 Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.  
 
-Expérience de jeu : Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:
+Expérience de jeu (Solthar) :
+
+An empty unit cannot hand over anything.
+This is why the order of the following orders is important:
 
 ```text
 GIVE 123 1 SHIP

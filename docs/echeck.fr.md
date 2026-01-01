@@ -4,70 +4,87 @@ alias: e-check-fr
 ---
 # ECheck
 
-**ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut. ECheck ist nicht perfekt und nicht vollständig. Es kann sowohl falsch negative, als auch falsch positive Meldungen geben. Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind. Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind. Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid. ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.
+**ECheck** is the orders checker that also works on the Eressea server.
+ECheck is not perfect and not complete.
+There can be both false negative and false positive reports.
+So if ECheck doesn't report any errors, it doesn't necessarily mean that the orders are correct.
+If ECheck reports errors, it does not necessarily mean that the orders are invalid.
+Especially when there are rule changes or rare items, ECheck doesn't always know immediately.
+ECheck is intended more as an aid to check the orders again if necessary.
 
-ECheck kann auf verschieden Arten aufgerufen werden:
+ECheck can be accessed in different ways:
 
-- Beim Einschicken von Befehlen wird ECheck automatisch aufgerufen und die Antwortmail vom Server enthält das Ergebnis. Hier wird nur auf Warnstufe 1 (siehe unten) geprüft.
-- In Magellan. Hier kann man die Optionen beliebig einstellen. Magellan kann außerdem die "Meta-Befehle" automatisch hinzufügen. Das sind Kommentare, die ECheck helfen, zum Beispiel den Silberverbrauch zu prüfen. Es gibt aber eigentlich keinen Grund mehr, ECheck von Magellan aufzurufen, da Magellans eigene Mechanismen (Syntaxcheck und "Offene Probleme") zuverlässiger sind und mehr können.
-- Auf der Kommandozeile (unter Windows Eingabeaufforderung ("cmd"), unter Linux in jedem Terminal). Dann muss man die unten aufgeführten Parameter mit angeben.
+- When sending orders, ECheck is automatically called and the response email from the server contains the result.
+  Here we only check for warning level 1 (see below)
+- In Magellan. Here you can set the options as desired.
+  Magellan can also add the "meta commands" automatically.
+  These are comments that help ECheck, for example, to check silver consumption.
+  However, there is actually no reason to use Magellan's ECheck anymore, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more
+- On the command line (command prompt “cmd” on Windows, in any terminal on Linux).
+  Then you have to specify the parameters listed below.
 
-Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden. Mit \`-w1\` werden nur Syntaxfehler ausgegeben. Die Stufen \`w2\` bis \`w4 geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus. Die noxxx-Parameter können außerdem bestimmte Warnungen unterdrücken. ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt. Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.
+There are different warning levels controlled by command line parameters.
+With`-w1` only syntax errors are output.
+The steps `w2` until `w4` issue additional warnings, for example about silver consumption, teachers or routes.
+The `noxxx` parameters can also suppress certain warnings.
+ECheck normally assumes that you are entering German orders for E2.
+English orders can be checked, for example, with the -Len parameter.
 
-## Aufruf
+## Utilisation
 
-     Benutzung: ./echeck [Optionen] Befehlsdatei
-     
-     -Ppfad  Pfadangabe für die Zusatzdateien; das Locale de wird angehängt
-     -Rgame  Zusatzdateien aus Unterverzeichnis game einlesen; Standardeinstellung: e2
-     -       Verwendet stdin anstelle einer Eingabedatei.
-     -b      unterdrückt Warnungen und Fehler (brief)
-     -q      erwartet keine Angaben zu Personen/Silber in [] bei UNIT
-     -rnnn   Legt Rekrutierungskosten auf nnn Silber fest
-     -c      schreibt die Warnungen und Fehler in einer Compiler-ähnlichen Form
-     -m      schreibt die Warnungen und Fehler für Magellan
-     -e      schreibt die geprüfte Datei auf stdout, Fehler nach stderr
-     -E      schreibt die geprüfte Datei auf stdout, Fehler nach stdout
-     -ofile  schreibt die geprüfte Datei in die Datei 'file'
-     -Ofile  schreibt Fehler in die Datei 'file'
-     -h      zeigt diese kleine Hilfe an
-     -hs     zeigt Liste der Schlüsselworte für tokens.txt
-     -hb     zeigt Liste der Befehle für befehle.txt
-     -hp     zeigt Liste der Parameter für parameter.txt
-     -hr     zeigt Liste der Richtungen für richtungen.txt
-     -hm     zeigt Liste der Meldungen für meldungen.txt
-     -hf     zeigt Liste der Dateien, die ECheck versucht, einzulesen
-     -s      verwendet stderr für Warnungen, Fehler etc., nicht stdout
-     -p      verkürzt einige Ausgaben für piping
-     -l      simuliert Silberpool-Funktion
-     -n      zählt NameMe-Kommentare (;;) nicht als Zeile
-     -noxxx  Keine xxx-Warnungen. xxx kann sein:
-        ship   Einheit steuert Schiff und hat evtl. kein Kommando
-        route  kein Check auf zyklisches ROUTE
-        lost   Einheit verliert Silber und Gegenstände
-     -w[n]   Warnungen der Stufe n (default: 4)
-          1  hauptsächlich Syntaxfehler
-          4  fast alle Warnungen
-          5  Lehrer/Schüler
-     -x      Zeilenzählung ab PARTEI statt Dateianfang
-     -Lloc   Stellt Locale loc ein
-     -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version
-     -Q      Leise
-     -C      Kompakte Ausgabe
+```console
+Usage: ./echeck [options] <orders file>
+
+  -Ppfad  Path information for the additional files; the locale de is appended
+  -Rgame  Read additional files from the game subdirectory; Default setting: e2
+  -       Uses stdin instead of an input file.
+  -b      suppresses warnings and errors (letter)
+  -q      does not expect any information on people/silver in [] at UNIT
+  -rnnn   Sets recruitment cost to nnn silver
+  -c      writes the warnings and errors in a compiler-like form
+  -m      writes the warnings and errors for Magellan
+  -e      writes the checked file to stdout, error to stderr
+  -E      writes the checked file to stdout, error to stdout
+  -ofile  writes the checked file to the file 'file'
+  -Ofile  writes errors to file 'file'
+  -h      shows this little help
+  -hs     shows list of keywords for tokens.txt
+  -hb     shows list of orders for orders.txt
+  -hp     shows list of parameters for parameter.txt
+  -hr     shows list of directions for directions.txt
+  -hm     shows list of messages for messages.txt
+  -hf     shows list of files that ECheck is trying to read
+  -s      uses stderr for warnings, errors etc., not stdout
+  -p      shortens some expenses for piping
+  -l      simuliert Silberpool-Funktion
+  -n      Does not count NameMe comments (;;) as a line
+  -noxxx  No xxx warnings. xxx can be:
+    ship  Unit controls ship and may not have command
+    route no check for cyclic ROUTE
+    lost  Unit loses silver and items
+  -w[n]   Level n warnings (default: 4)
+     1    mainly syntax errors
+     4    almost all warnings
+     5    teacher/student
+  -x      Line countingab PARTEI instead of the beginning of the file
+  -Lloc   Sets locale loc
+  -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version
+  -Q      Quiet
+  -C      Compact edition
+```
 
 ## Voir aussi
 
 - [Befehle einschicken]
 
-## Externe Links und Downloads
+## Liens externes et téléchargements
 
-- [Aktuelle Downloads für Windows (echeck.exe) und Linux (echeck)]
+- [Current downloads for Windows (echeck.exe) and Linux (echeck)]
 - [ECheck Sourcecode]
-- [Eine veraltete ECheck-Version für Windows]
+- [An outdated version of ECheck for Windows]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ECheck&oldid=7268] -->
 
-[Befehle einschicken]: ./commands-send.md
-[Aktuelle Downloads für Windows (echeck.exe) und Linux (echeck)]: https://www.eressea.kn-bremen.de/downloads
+[Current downloads for Windows (echeck.exe) and Linux (echeck)]: https://www.eressea.kn-bremen.de/downloads
 [ECheck Sourcecode]: https://github.com/eressea/echeck
-[Eine veraltete ECheck-Version für Windows]: https://www.eressea.de/files/echeck.zip
+[An outdated version of ECheck for Windows]: https://www.eressea.de/files/echeck.zip

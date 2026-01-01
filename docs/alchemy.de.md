@@ -46,29 +46,29 @@ Trankliste
 
 ## Kräutermatrix
 
-| Kraut             | TW | Sm | Gw | WL | Ba | St | Ws | Be | Db | Gs | Pg | Nw | Bl | EM | Ht |
-|-------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-| Flachwurz         | X  |    |    |    |    |    |    | X  |    |    |    |    |    |    |    |
-| Würziger Wagemut  |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |    |
-| Eulenauge         |    |    |    |    |    |    |    |    | X  |    |    |    |    |    |    |
-| Grüner Spinnerich |    |    |    |    |    |    |    |    | X  |    |    | X  |    | X  |    |
-| Blauer Baumringel |    | X  |    |    | X  |    | X  |    |    |    | X  |    |    |    |    |
-| Elfenlieb         |    |    |    | X  |    |    |    |    |    |    |    |    | X  | X  | X  |
-| Gurgelkraut       |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    | X  |
-| Knotiger Saugwurz |    |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    |
-| Blasenmorchel     |    |    |    |    |    |    |    |    |    |    |    |    | X  | X  |    |
-| Wasserfinder      |    |    |    |    |    |    |    |    |    | X  |    |    |    | X  |    |
-| Kakteenschwitz    |    |    |    |    |    |    |    |    |    |    | X  | X  |    |    |    |
-| Sandfäule         |    |    |    |    |    |    |    | X  |    |    | X  |    |    |    |    |
-| Windbeutel        |    | X  |    |    |    |    |    |    |    | X  |    |    |    | X  | X  |
-| Fjordwuchs        | X  |    | X  |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| Alraune           |    |    |    |    |    | X  |    | X  |    |    |    |    | X  |    |    |
-| Steinbeißer       |    |    |    |    |    |    |    |    |    | X  |    |    | X  |    |    |
-| Spaltwachs        |    |    |    |    |    | X  |    |    |    |    |    | X  |    |    | X  |
-| Höhlenglimm       |    |    |    |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| Eisblume          |    |    |    |    |    |    |    |    |    |    |    | X  |    |    | X  |
-| Weißer Wüterich   |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
-| Schneekristall    |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
+| Kraut             | TW               | Sm               | Gw               | WL               | Ba               | St               | Ws               | Be               | Db               | Gs               | Pg               | Nw               | Bl               | EM               | Ht               |
+|-------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+| Flachwurz         | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| Würziger Wagemut  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
+| Eulenauge         |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| Grüner Spinnerich |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
+| Blauer Baumringel |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| Elfenlieb         |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: | :material-check: |
+| Gurgelkraut       |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  | :material-check: |
+| Knotiger Saugwurz |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| Blasenmorchel     |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
+| Wasserfinder      |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
+| Kakteenschwitz    |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |
+| Sandfäule         |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |                  |                  |
+| Windbeutel        |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
+| Fjordwuchs        | :material-check: |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| Alraune           |                  |                  |                  |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  |                  | :material-check: |                  |                  |
+| Steinbeißer       |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |
+| Spaltwachs        |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| Höhlenglimm       |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| Eisblume          |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| Weißer Wüterich   |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| Schneekristall    |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |
 
 Weiterlesen: [[kraeuter]].
 

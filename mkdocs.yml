@@ -32,6 +32,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - tables
     - toc.follow
 
     # - navigation.expand

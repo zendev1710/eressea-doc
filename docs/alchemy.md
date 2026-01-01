@@ -2,7 +2,9 @@
 # cSpell:locale en
 alias: alchemy
 ---
-# Potions
+# Alchemy
+
+## Potions
 
 Alchemical **potions** are prepared using [[herbs]] and other ingredients, and can then be used by any unit.
 To make a potion, you need units with the skill [Alchemy], and to find the required herbs, you need units with the skill [Herbalism].
@@ -15,8 +17,9 @@ To be able to make a potion, the alchemist's level must be twice as high as the 
 Each turn, an alchemist can make (skill level)/(potion level\*2) potions.
 A level 6 alchemist can therefore make a maximum of one level 3 potion, one level 2 potion or three level 1 potions.
 
-If you want to use a potion, you do so with order [[cmd-use|`[amount] "<potion name>" [unit ID]`]].
-Unit ID is required only for Duncebun potion.
+If you want to use a potion, you do so with [[cmd-use|&#91;amount&#93; "&lt;potion name&gt;" &#91;unit ID&#93;]] order.
+*Unit ID* is required only for Duncebun potion.
+
 A potion cannot be divided between several units.
 However, a large unit can be divided into several smaller units after the potion has been used, retaining its effects.
 
@@ -31,61 +34,274 @@ Here it is necessary that all persons in the unit have the effect of the potion 
 
 The "residual effect" of potions does not expire with all potions, so that, for example, a person can benefit from the effect of a “Brain wax” or “busybeers” for ten weeks after using it.
 
-## List of potions
+### Berserkers blood
 
-Potions list
+:   10 men receive a **+1 attack** modifier in combat.
 
-|       |      |                       |                                                                        |                                                                                         |                    |
-|-------|------|-----------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------|
-| Level | Abbr | Name                  | Ingredients                                                            | Description                                                                             | Target             |
-| 1     | Sm   | Seven mile tea        | cobalt fungus, windbag                                                 | 10 men on foot can travel as fast as if mounted                                         | Unit               |
-| 1     | Gw   | Goliath water         | bugleweed, fjord fungus                                                | 10 men can carry as much as 10 horses                                                   | Unit               |
-| 1     | WL   | Water of life         | elvendear, knotroot                                                    | Transforms 10 pieces of wood or Mallorn into 10 mallorn/saplings                        | Region             |
-| 1     | TW   | Potion of truth       | flatroot, fjord fungus                                                 | This potion hasn't had a function for a long time                                       | Region             |
-| 2     | St   | Busybeer              | mandrake, gapgrowth, tangy temerity                                    | Doubles the productivity of 10 men when using `MAKE` order                              | Unit               |
-| 2     | Ws   | Ointment              | cobalt fungus, white hemlock, tangy temerity                           | Heals up to 400 hit points                                                              | Unit               |
-| 2     | Ba   | Peasant blood         | cave lichen, fjord fungus, cobalt fungus, Peasant                      | Up to 100 demons can do without killing peasants                                        | Unit\*             |
-| 3     | Gs   | Brain wax             | waterfinder, rock weed, windbag, bugleweed                             | Increases the chances for up to 10 men of learning a skill                              | Unit               |
-| 3     | Db   | Duncebun              | owlsgaze, spider ivy, cave lichen, fjord fungus                        | for 10 people: no learning or teacher brings nothing or forget 1 week of the best skill | (foreign) Unit\*\* |
-| 3     | Nw   | Potion of nest warmth | ice begonia, spider ivy, gapgrowth, peyote                             | Allows insects to recruit men even in winter                                            | Region             |
-| 3     | Pg   | Horsepower potion     | cobalt fungus, sand reeker, peyote, knotroot                           | 50 horses give birth to up to 4 foals                                                   | Region             |
-| 3     | Be   | Berserkers blood      | white hemlock, mandrake, flatroot, sand reeker                         | 10 men receive a +1 attack modifier in combat                                           | Unit               |
-| 4     | Bl   | Peasant love potion   | mandrake, snowcrystal petal, rock weed, bubblemorel, elvendear         | 1000 peasants grow twice as fast as usual                                               | Region             |
-| 4     | EM   | Elixir of power       | elvendear, waterfinder, windbag, spider ivy, bubblemorel, Dragon blood | 10 men get 5 times their normal hit points                                              | Unit               |
-| 4     | Ht   | Healing potion        | bugleweed, windbag, ice begonia, elvendear, gapgrowth                  | one person survives otherwise fatal damage; only possible once per person per week      | Unit               |
+**Level**: 3.  
+**Target**: unit.  
 
-\* Acts on the unit, but all the faction's demons in the region use it if there are any left.
+To be made, this potion requires the following herbs:
+
+- 1 flatroot
+- 1 mandrake
+- 1 sand reeker
+- 1 white hemlock
+
+### Brain wax
+
+:   Increases the chances for up to **10 men** of **learning a skill**.
+
+**Level**: 3.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 bugleweed
+- 1 rock weed
+- 1 waterfinder
+- 1 windbag
+
+### Busybeer
+
+:   **Doubles the productivity of 10 men** when using **`MAKE`** order.
+
+**Level**: 2.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 gapgrowth
+- 1 mandrake
+- 1 tangy temerity
+
+### Duncebun
+
+:   for 10 people: no learning or teacher brings nothing or forget 1 week of the best skill.
+
+**Level**: 3.  
+**Target**: \[foreign\] unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 cave lichen
+- 1 fjord fungus
+- 1 owlsgaze
+- 1 spider ivy
+
+!!! note
+    You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.  
+    The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
+    In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
+
+### Elixir of power
+
+:   10 men get **5 times their normal hit points**.
+
+**Level**: 4.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 Dragon blood
+- 1 bubblemorel
+- 1 elvendear
+- 1 spider ivy
+- 1 waterfinder
+- 1 windbag
+
+### Goliath water
+
+:   10 men can carry as much as 10 horses.
+
+**Level**: 1.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 bugleweed
+- 1 fjord fungus
+
+### Healing potion
+
+:   one person survives otherwise fatal damage; only possible once per person per week.
+
+**Level**: 4.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 bugleweed
+- 1 elvendear
+- 1 gapgrowth
+- 1 ice begonia
+- 1 windbag
+
+### Horsepower potion
+
+:   50 horses give birth to up to **4 foals**.
+
+**Level**: 3.  
+**Target**: region.  
+
+To be made, this potion requires the following herbs:
+
+- 1 cobalt fungus
+- 1 knotroot
+- 1 peyote,
+- 1 sand reeker
+
+### Ointment
+
+:   Heals up to 400 hit points.
+
+**Level**: 2.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 cobalt fungus
+- 1 tangy temerity
+- 1 white hemlock
+
+### Peasant blood
+
+:   Up to 100 demons can do without killing peasants.
+
+**Level**: 2.  
+**Target**: unit.  
+
+To be made, this potion requires the following **ingredients**:
+
+- 1 cave lichen,
+- 1 cobalt fungus
+- 1 fjord fungus
+- 1 **peasant**
+
+!!! note
+    A peasant blood acts on the unit, but all the faction's demons in the region use it if there are any left.  
+    So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
+
+### Peasant love potion
+
+:   1000 peasants grow twice as fast as usual.
+
+**Level**: 4.  
+**Target**: region.  
+
+To be made, this potion requires the following herbs:
+
+- 1 bubblemorel
+- 1 elvendear
+- 1 mandrake
+- 1 rock weed
+- 1 snowcrystal petal
+
+### Potion of nest warmth
+
+:   Allows insects to recruit men even in winter.
+
+**Level**: 3.  
+**Target**: region.  
+
+To be made, this potion requires the following herbs:
+
+- 1 gapgrowth
+- 1 ice begonia
+- 1 peyote
+- 1 spider ivy
+
+### Potion of truth
+
+:   *This potion hasn't had a function for a long time*.
+
+**Level**: 1.  
+**Target**: region.  
+
+To be made, this potion requires the following herbs:
+
+- 1 fjord fungus
+- 1 flatroot
+
+### Seven mile tea
+
+:   10 men on foot can travel as fast as if mounted.
+
+**Level**: 1.  
+**Target**: unit.  
+
+To be made, this potion requires the following herbs:
+
+- 1 cobalt fungus
+- 1 windbag
+
+### Water of life
+
+:   Transforms 10 pieces of wood or Mallorn into 10 mallorn/saplings.
+
+**Level**: 1.  
+**Target**: region.  
+
+To be made, this potion requires the following herbs:
+
+- 1 elvendear
+- 1 knotroot
+
+## Summary table
+
+Potions list.
+
+| Name                  | Abbr | Level | Target               |
+|-----------------------|:----:|:-----:|----------------------|
+| Elixir of power       |  EP  |   4   | Unit                 |
+| Healing potion        |  HL  |   4   | Unit                 |
+| Peasant love potion   |  PL  |   4   | Region               |
+| Berserkers blood      |  BK  |   3   | Unit                 |
+| Brain wax             |  BW  |   3   | Unit                 |
+| Duncebun              |  DB  |   3   | \[Foreign\] unit[^2] |
+| Horsepower potion     |  HP  |   3   | Region               |
+| Potion of nest warmth |  NW  |   3   | Region               |
+| Busybeer              |  BZ  |   2   | Unit                 |
+| Ointment              |  OM  |   2   | Unit                 |
+| Peasant blood         |  PB  |   2   | Unit[^1]             |
+| Goliath water         |  GW  |   1   | Unit                 |
+| Potion of truth       |  PT  |   1   | Region               |
+| Seven mile tea        |  SM  |   1   | Unit                 |
+| Water of life         |  WL  |   1   | Region               |
+
+[^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
 
-\*\* You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.
+[^2]: You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.  
 The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
 In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
 
 ## Herbs table
 
-| Herb              | TW | Sm | Gw | WL | Ba | St | Ws | Be | Db | Gs | Pg | Nw | Bl | EM | Ht |
-|-------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-| flatroot          | X  |    |    |    |    |    |    | X  |    |    |    |    |    |    |    |
-| tangy temerity    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |    |
-| owlsgaze          |    |    |    |    |    |    |    |    | X  |    |    |    |    |    |    |
-| spider ivy        |    |    |    |    |    |    |    |    | X  |    |    | X  |    | X  |    |
-| cobalt fungus     |    | X  |    |    | X  |    | X  |    |    |    | X  |    |    |    |    |
-| elvendear         |    |    |    | X  |    |    |    |    |    |    |    |    | X  | X  | X  |
-| bugleweed         |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    | X  |
-| knotroot          |    |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    |
-| bubblemorel       |    |    |    |    |    |    |    |    |    |    |    |    | X  | X  |    |
-| waterfinder       |    |    |    |    |    |    |    |    |    | X  |    |    |    | X  |    |
-| peyote            |    |    |    |    |    |    |    |    |    |    | X  | X  |    |    |    |
-| sand reeker       |    |    |    |    |    |    |    | X  |    |    | X  |    |    |    |    |
-| windbag           |    | X  |    |    |    |    |    |    |    | X  |    |    |    | X  | X  |
-| fjord fungus      | X  |    | X  |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| mandrake          |    |    |    |    |    | X  |    | X  |    |    |    |    | X  |    |    |
-| rock weed         |    |    |    |    |    |    |    |    |    | X  |    |    | X  |    |    |
-| gapgrowth         |    |    |    |    |    | X  |    |    |    |    |    | X  |    |    | X  |
-| cave lichen       |    |    |    |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| ice begonia       |    |    |    |    |    |    |    |    |    |    |    | X  |    |    | X  |
-| white hemlock     |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
-| snowcrystal petal |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
+<!-- TODO: not possible to disp^lay this table without horizontal scrooll bar !? min column width is too high -->
+| Herb              |        PT        |        SM        |        GW        |        WL        |        PB        |        BZ        |        OM        |        BK        |        DB        |        BW        |        HP        |        NW        |        PL        |        EP        |        HL        |
+|-------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
+| bubblemorel       |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
+| bugleweed         |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  | :material-check: |
+| cave lichen       |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| cobalt fungus     |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| elvendear         |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: | :material-check: |
+| fjord fungus      | :material-check: |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| flatroot          | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| gapgrowth         |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| ice begonia       |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| knotroot          |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| mandrake          |                  |                  |                  |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  |                  | :material-check: |                  |                  |
+| owlsgaze          |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| peyote            |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |
+| rock weed         |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |
+| sand reeker       |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |                  |                  |
+| snowcrystal petal |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |
+| spider ivy        |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
+| tangy temerity    |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
+| waterfinder       |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
+| white hemlock     |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| windbag           |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
 
 Continue reading: [[herbs]].
 

@@ -7437,53 +7437,69 @@
 
 
 <h1 id="echeck">ECheck<a class="headerlink" href="#echeck" title="Permanent link">&para;</a></h1>
-<p><strong>ECheck</strong> ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut. ECheck ist nicht perfekt und nicht vollständig. Es kann sowohl falsch negative, als auch falsch positive Meldungen geben. Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind. Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind. Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid. ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.</p>
+<p><strong>ECheck</strong> ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut.
+ECheck ist nicht perfekt und nicht vollständig.
+Es kann sowohl falsch negative, als auch falsch positive Meldungen geben.
+Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind.
+Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind.
+Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid.
+ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.</p>
 <p>ECheck kann auf verschieden Arten aufgerufen werden:</p>
 <ul>
-<li>Beim Einschicken von Befehlen wird ECheck automatisch aufgerufen und die Antwortmail vom Server enthält das Ergebnis. Hier wird nur auf Warnstufe 1 (siehe unten) geprüft.</li>
-<li>In Magellan. Hier kann man die Optionen beliebig einstellen. Magellan kann außerdem die "Meta-Befehle" automatisch hinzufügen. Das sind Kommentare, die ECheck helfen, zum Beispiel den Silberverbrauch zu prüfen. Es gibt aber eigentlich keinen Grund mehr, ECheck von Magellan aufzurufen, da Magellans eigene Mechanismen (Syntaxcheck und "Offene Probleme") zuverlässiger sind und mehr können.</li>
-<li>Auf der Kommandozeile (unter Windows Eingabeaufforderung ("cmd"), unter Linux in jedem Terminal). Dann muss man die unten aufgeführten Parameter mit angeben.</li>
+<li>Beim Einschicken von Befehlen wird ECheck automatisch aufgerufen und die Antwortmail vom Server enthält das Ergebnis.
+  Hier wird nur auf Warnstufe 1 (siehe unten) geprüft.</li>
+<li>In Magellan. Hier kann man die Optionen beliebig einstellen.
+  Magellan kann außerdem die "Meta-Befehle" automatisch hinzufügen.
+  Das sind Kommentare, die ECheck helfen, zum Beispiel den Silberverbrauch zu prüfen.
+  Es gibt aber eigentlich keinen Grund mehr, ECheck von Magellan aufzurufen, da Magellans eigene Mechanismen (Syntaxcheck und "Offene Probleme") zuverlässiger sind und mehr können.</li>
+<li>Auf der Kommandozeile (unter Windows Eingabeaufforderung ("cmd"), unter Linux in jedem Terminal).
+  Dann muss man die unten aufgeführten Parameter mit angeben.</li>
 </ul>
-<p>Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden. Mit `-w1` werden nur Syntaxfehler ausgegeben. Die Stufen `w2` bis `w4 geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus. Die noxxx-Parameter können außerdem bestimmte Warnungen unterdrücken. ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt. Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.</p>
+<p>Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden.
+Mit <code>-w1</code> werden nur Syntaxfehler ausgegeben.
+Die Stufen <code>w2</code> bis <code>w4</code> geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus.
+Die <code>noxxx</code>-Parameter können außerdem bestimmte Warnungen unterdrücken.
+ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt.
+Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.</p>
 <h2 id="aufruf">Aufruf<a class="headerlink" href="#aufruf" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code> Benutzung: ./echeck [Optionen] Befehlsdatei
+<div class="highlight"><pre><span></span><code><span class="go">Benutzung: ./echeck [Optionen] Befehlsdatei</span>
 
- -Ppfad  Pfadangabe für die Zusatzdateien; das Locale de wird angehängt
- -Rgame  Zusatzdateien aus Unterverzeichnis game einlesen; Standardeinstellung: e2
- -       Verwendet stdin anstelle einer Eingabedatei.
- -b      unterdrückt Warnungen und Fehler (brief)
- -q      erwartet keine Angaben zu Personen/Silber in [] bei EINHEIT
- -rnnn   Legt Rekrutierungskosten auf nnn Silber fest
- -c      schreibt die Warnungen und Fehler in einer Compiler-ähnlichen Form
- -m      schreibt die Warnungen und Fehler für Magellan
- -e      schreibt die geprüfte Datei auf stdout, Fehler nach stderr
- -E      schreibt die geprüfte Datei auf stdout, Fehler nach stdout
- -ofile  schreibt die geprüfte Datei in die Datei &#39;file&#39;
- -Ofile  schreibt Fehler in die Datei &#39;file&#39;
- -h      zeigt diese kleine Hilfe an
- -hs     zeigt Liste der Schlüsselworte für tokens.txt
- -hb     zeigt Liste der Befehle für befehle.txt
- -hp     zeigt Liste der Parameter für parameter.txt
- -hr     zeigt Liste der Richtungen für richtungen.txt
- -hm     zeigt Liste der Meldungen für meldungen.txt
- -hf     zeigt Liste der Dateien, die ECheck versucht, einzulesen
- -s      verwendet stderr für Warnungen, Fehler etc., nicht stdout
- -p      verkürzt einige Ausgaben für piping
- -l      simuliert Silberpool-Funktion
- -n      zählt NameMe-Kommentare (;;) nicht als Zeile
- -noxxx  Keine xxx-Warnungen. xxx kann sein:
-    ship   Einheit steuert Schiff und hat evtl. kein Kommando
-    route  kein Check auf zyklisches ROUTE
-    lost   Einheit verliert Silber und Gegenstände
- -w[n]   Warnungen der Stufe n (default: 4)
-      1  hauptsächlich Syntaxfehler
-      4  fast alle Warnungen
-      5  Lehrer/Schüler
- -x      Zeilenzählung ab PARTEI statt Dateianfang
- -Lloc   Stellt Locale loc ein
- -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version
- -Q      Leise
- -C      Kompakte Ausgabe
+<span class="go">  -Ppfad  Pfadangabe für die Zusatzdateien; das Locale de wird angehängt</span>
+<span class="go">  -Rgame  Zusatzdateien aus Unterverzeichnis game einlesen; Standardeinstellung: e2</span>
+<span class="go">  -       Verwendet stdin anstelle einer Eingabedatei.</span>
+<span class="go">  -b      unterdrückt Warnungen und Fehler (brief)</span>
+<span class="go">  -q      erwartet keine Angaben zu Personen/Silber in [] bei EINHEIT</span>
+<span class="go">  -rnnn   Legt Rekrutierungskosten auf nnn Silber fest</span>
+<span class="go">  -c      schreibt die Warnungen und Fehler in einer Compiler-ähnlichen Form</span>
+<span class="go">  -m      schreibt die Warnungen und Fehler für Magellan</span>
+<span class="go">  -e      schreibt die geprüfte Datei auf stdout, Fehler nach stderr</span>
+<span class="go">  -E      schreibt die geprüfte Datei auf stdout, Fehler nach stdout</span>
+<span class="go">  -ofile  schreibt die geprüfte Datei in die Datei &#39;file&#39;</span>
+<span class="go">  -Ofile  schreibt Fehler in die Datei &#39;file&#39;</span>
+<span class="go">  -h      zeigt diese kleine Hilfe an</span>
+<span class="go">  -hs     zeigt Liste der Schlüsselworte für tokens.txt</span>
+<span class="go">  -hb     zeigt Liste der Befehle für befehle.txt</span>
+<span class="go">  -hp     zeigt Liste der Parameter für parameter.txt</span>
+<span class="go">  -hr     zeigt Liste der Richtungen für richtungen.txt</span>
+<span class="go">  -hm     zeigt Liste der Meldungen für meldungen.txt</span>
+<span class="go">  -hf     zeigt Liste der Dateien, die ECheck versucht, einzulesen</span>
+<span class="go">  -s      verwendet stderr für Warnungen, Fehler etc., nicht stdout</span>
+<span class="go">  -p      verkürzt einige Ausgaben für piping</span>
+<span class="go">  -l      simuliert Silberpool-Funktion</span>
+<span class="go">  -n      zählt NameMe-Kommentare (;;) nicht als Zeile</span>
+<span class="go">  -noxxx  Keine xxx-Warnungen. xxx kann sein:</span>
+<span class="go">    ship  Einheit steuert Schiff und hat evtl. kein Kommando</span>
+<span class="go">    route kein Check auf zyklisches ROUTE</span>
+<span class="go">    lost  Einheit verliert Silber und Gegenstände</span>
+<span class="go">  -w[n]   Warnungen der Stufe n (default: 4)</span>
+<span class="go">       1  hauptsächlich Syntaxfehler</span>
+<span class="go">       4  fast alle Warnungen</span>
+<span class="go">       5  Lehrer/Schüler</span>
+<span class="go">  -x      Zeilenzählung ab PARTEI statt Dateianfang</span>
+<span class="go">  -Lloc   Stellt Locale loc ein</span>
+<span class="go">  -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version</span>
+<span class="go">  -Q      Leise</span>
+<span class="go">  -C      Kompakte Ausgabe</span>
 </code></pre></div>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7557,7 +7573,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

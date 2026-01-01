@@ -7376,136 +7376,150 @@
 
 
 <h1 id="schiff">Schiff<a class="headerlink" href="#schiff" title="Permanent link">&para;</a></h1>
-<p>Schiffe werden dem Befehl <a href="../cmd-make/"><strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>]</code><em><code>Schiffstyp</code></em></a> gebaut. Existierende, unfertige oder beschädigte Schiffe werden mit <strong><code>MACHE</code></strong><code>[</code><em><code>stufen</code></em><code>] SCHIFF [</code><em><code>schiff-nr</code></em><code>]</code> weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen. Eine Einheit kann pro Runde (Talentstufe * Personen / Mindesttalent) Holz verbauen.</p>
-<p>Auch Schiffe haben Nummern, die in Befehlen gebraucht werden. Hier ein Beispiel für ein Schiff:</p>
-<div class="highlight"><pre><span></span><code>   Stolz der Sieben Winde (18), Langboot, (254/500). Dieses schöne
-   Schiff war das erste, welches die Händlerfamilie Plötzbogen
-   einsetzte.  Kapitän Gorm steht auf dem Achterdeck und erteilt
-   Befehle an die Matrosen. Er hat alles voll im Griff.
+<p>Schiffe werden dem Befehl <a href="../cmd-make/"><strong><code>MACHE</code></strong>&#91;<em><code>stufen</code></em>&#93;<em><code>Schiffstyp</code></em></a> gebaut.<br />
+Existierende, unfertige oder beschädigte Schiffe werden mit <strong><code>MACHE</code></strong>&#91;<em><code>stufen</code></em>&#93;&nbsp;<code>SCHIFF</code>&nbsp;&#91;<em><code>schiff-nr</code></em>&#93; weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen.
+Eine Einheit kann pro Runde (Talentstufe * Personen / Mindesttalent) Holz verbauen.</p>
+<p>Auch Schiffe haben Nummern, die in Befehlen gebraucht werden.
+Hier ein Beispiel für ein Schiff:</p>
+<div class="highlight"><pre><span></span><code>Stolz der Sieben Winde (18), Langboot, (254/500). Dieses schöne
+
+    Schiff war das erste, welches die Händlerfamilie Plötzbogen
+    einsetzte.  Kapitän Gorm steht auf dem Achterdeck und erteilt
+    Befehle an die Matrosen. Er hat alles voll im Griff.
 </code></pre></div>
 <p>Bei eigenen Schiffen steht hinter dem Schiffstyp die Beladung und die Kapazität (hier 254 Gewichtseinheiten von 500 möglichen).</p>
-<p>Unter einem Schiff sind die Einheiten eingerückt, die sich auf dem Schiff befinden. Die erste Einheit ist Kapitänin und hat das Kommando über das Schiff. Sie bestimmt, welche anderen Einheiten das Schiff betreten dürfen. Sie darf das Schiff <a href="../cmd-name/">umbenennen</a> oder <a href="../cmd-describe/">beschreiben</a> und sie zählt auch als Besatzung.</p>
-<p>Im Gegensatz zu Gebäuden können Schiffe nicht erweitert werden. Wer also einmal begonnen hat, ein Langboot zu bauen, kann dies später nicht zu einer Karavelle umbauen.</p>
+<p>Unter einem Schiff sind die Einheiten eingerückt, die sich auf dem Schiff befinden.
+Die erste Einheit ist Kapitänin und hat das Kommando über das Schiff.
+Sie bestimmt, welche anderen Einheiten das Schiff betreten dürfen.
+Sie darf das Schiff <a href="../cmd-name/">umbenennen</a> oder <a href="../cmd-describe/">beschreiben</a> und sie zählt auch als Besatzung.</p>
+<p>Im Gegensatz zu Gebäuden können Schiffe nicht erweitert werden.
+Wer also einmal begonnen hat, ein Langboot zu bauen, kann dies später nicht zu einer Karavelle umbauen.</p>
 <p>Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachbarte Ozeanregion ablegen.</p>
 <p>Schiffe - Reichweite, Kapazität, Talente</p>
 <table>
 <thead>
 <tr>
 <th>Typ</th>
-<th>Reichweite</th>
-<th>Kapazität</th>
-<th>Kapitän/Besatzung</th>
-<th>Bautalent</th>
-<th>Bauholz</th>
+<th style="text-align: center;">Reichweite</th>
+<th style="text-align: right;">Kapazität</th>
+<th style="text-align: right;">Kapitän/Besatzung</th>
+<th style="text-align: right;">Bautalent</th>
+<th style="text-align: right;">Bauholz</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Boot</td>
-<td>2</td>
-<td>50</td>
-<td>&frac12;</td>
-<td>1</td>
-<td>5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">&frac12;</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
 </tr>
 <tr>
 <td>Langboot</td>
-<td>3</td>
-<td>500</td>
-<td>1/10</td>
-<td>1</td>
-<td>50</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">1/10</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">50</td>
 </tr>
 <tr>
 <td>Drachenschiff</td>
-<td>5*</td>
-<td>1000</td>
-<td>2/50</td>
-<td>2</td>
-<td>100</td>
+<td style="text-align: center;">5<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">2/50</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">100</td>
 </tr>
 <tr>
 <td>Karavelle</td>
-<td>5</td>
-<td>3000</td>
-<td>3/30</td>
-<td>3</td>
-<td>250</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: right;">3000</td>
+<td style="text-align: right;">3/30</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">250</td>
 </tr>
 <tr>
 <td>Trireme</td>
-<td>7</td>
-<td>2000</td>
-<td>4/120</td>
-<td>4</td>
-<td>200</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">4/120</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">200</td>
 </tr>
 <tr>
 <td>Galeone</td>
-<td>5</td>
-<td>20000</td>
-<td>5/250**</td>
-<td>5</td>
-<td>2000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: right;">20000</td>
+<td style="text-align: right;">5/250<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2000</td>
 </tr>
 </tbody>
 </table>
-<p>* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.</p>
-<p>** Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.</p>
 <p>Drachenschiffgeschwindigkeit</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Kapitän</th>
+<th>2</th>
+<th>6</th>
+<th>18</th>
+<th>54</th>
+<th style="text-align: center;">162</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Kapitän</td>
-<td>2</td>
-<td>6</td>
-<td>18</td>
-<td>54</td>
-<td>162</td>
-</tr>
 <tr>
 <td>Reichweite</td>
 <td>5</td>
 <td>6</td>
 <td>7</td>
 <td>8</td>
-<td>9</td>
+<td style="text-align: center;">9</td>
 </tr>
 </tbody>
 </table>
 <h2 id="konvoi">Konvoi<a class="headerlink" href="#konvoi" title="Permanent link">&para;</a></h2>
 <p>Analog dazu, wie man mehrere Personen in einer Einheit haben kann, bestehen Konvois aus mehreren Schiffen des gleichen Typs, zum Beispiel</p>
-<div class="highlight"><pre><span></span><code>   Karavelle (2seh), 73 Karavellen, (12776/85410), 61% beschädigt.
+<div class="highlight"><pre><span></span><code>Karavelle (2seh), 73 Karavellen, (12776/85410), 61% beschädigt.
 </code></pre></div>
-<p>Dafür <a href="../cmd-give/">übergibt</a> man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl <code>GIB capt 1 SCHIFF</code>. Die empfangende Einheit wird Kommandant eines Konvois. Die übergebende und empfangende Einheit müssen derselben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht. Die Besitzereinheit eines Konvois kommandiert alle ihre Schiffe gemeinsam und muss dafür das Mindesttalent für den Schiffstyp haben und eine Person pro Schiff. Das Gesamttalent der Besatzung muss ebenfalls ein Vielfaches entsprechend der Anzahl Schiffe sein. Die Reichweite entspricht der des Schiffstyps, maximaler Schaden und Traglast vergrößern sich entsprechend der Anzahl Schiffe.</p>
-<p>Beispiel: Ein Konvoi aus 3 Karavellen benötigt einen Kapitän mit mindestens 3 Personen mit Segeln T3 und Besatzung mit 90 Stufen Gesamttalent. Sie haben wie zuvor eine Reichweite von 5 Feldern, aber eine Kapazität von 9000 GE. Es ist also z.B. folgende Konstellation erlaubt und seetüchtig:</p>
-<div class="highlight"><pre><span></span><code> Karavelle (2seh), 3 Karavellen, (9000/9000).
-   * Kapitänsteam (k29), 3 Menschen, Talente: Segeln 3.
-   * Besatzung (2ztf), 9 Menschen, Talente: Segeln 9.
-   * Horde (770L), 888 Menschen.
+<p>Dafür <a href="../cmd-give/">übergibt</a> man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl <code>GIB capt 1 SCHIFF</code>.
+Die empfangende Einheit wird Kommandant eines Konvois.
+Die übergebende und empfangende Einheit müssen derselben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht.
+Die Besitzereinheit eines Konvois kommandiert alle ihre Schiffe gemeinsam und muss dafür das Mindesttalent für den Schiffstyp haben und eine Person pro Schiff.
+Das Gesamttalent der Besatzung muss ebenfalls ein Vielfaches entsprechend der Anzahl Schiffe sein.
+Die Reichweite entspricht der des Schiffstyps, maximaler Schaden und Traglast vergrößern sich entsprechend der Anzahl Schiffe.</p>
+<p>Beispiel:</p>
+<p>Ein Konvoi aus 3 Karavellen benötigt einen Kapitän mit mindestens 3 Personen mit Segeln T3 und Besatzung mit 90 Stufen Gesamttalent.
+Sie haben wie zuvor eine Reichweite von 5 Feldern, aber eine Kapazität von 9000 GE.
+Es ist also z.B. folgende Konstellation erlaubt und seetüchtig:</p>
+<div class="highlight"><pre><span></span><code>Karavelle (2seh), 3 Karavellen, (9000/9000).
+    * Kapitänsteam (k29), 3 Menschen, Talente: Segeln 3.
+    * Besatzung (2ztf), 9 Menschen, Talente: Segeln 9.
+    * Horde (770L), 888 Menschen.
 </code></pre></div>
-<p>Wie man sieht, kann man also in einem Konvoi große Einheiten bewegen, ohne sie auf einzelne Schiffe zu verteilen. Konvois verhalten sich ansonsten wie ein normales Schiff. Der ganze Konvoi treibt beispielsweise gemeinsam ab, nimmt als Ganzes Schaden und das Kommando kann übergeben werden.</p>
+<p>Wie man sieht, kann man also in einem Konvoi große Einheiten bewegen, ohne sie auf einzelne Schiffe zu verteilen.
+Konvois verhalten sich ansonsten wie ein normales Schiff.
+Der ganze Konvoi treibt beispielsweise gemeinsam ab, nimmt als Ganzes Schaden und das Kommando kann übergeben werden.</p>
 <p>Boote sind von dieser Regel ausgeschlossen und die Schiffe eines Konvois müssen vom gleichen Typ sein, es sind also beispielsweise keine Mischungen aus Triremen und Karavellen erlaubt.</p>
-<p>Beschädigte oder unvollständige Schiffe können ebenfalls übergeben werden, der Zustand wirkt sich dann anteilig auf den Konvoi aus. Wird ein Schiff mit 8% Schaden an einen Konvoi aus 3 Schiffen übergeben, besteht der Konvoi danach aus 4 Schiffen mit 2% Schaden. Wird auch nur ein im Bau befindliches Schiff übergeben, befindet sich der ganze Konvoi danach im Bau und kann erst nach Fertigstellung segeln. Ein 50% fertiges Schiff (im Bau) und ein fertiges gibt zwei 75% fertige Schiffe (im Bau).</p>
-<p>Mit demselben Befehl kann man auch Schiffe aus einem Konvoi wieder heraus lösen. Die Schiffe oder Konvois der Geber- und Empfängereinheit müssen an der gleichen Küste liegen oder sich auf dem Ozean befinden. Die empfangende Einheit muss entweder Kapitänin eines Schiffes sein — dann wird das Schiff zu deren Konvoi hinzugefügt — oder auf dem gleichen Schiff wie die gebende Einheit sein oder nicht in einem Schiff oder in einem Gebäude sein.</p>
-<p>Man kann auch Schiffe an die Bauern übergeben: GIB 0 2 SCHIFF erzeugt einen neuen Konvoi mit 2 Schiffen, auf dem keine Personen sind. Ein Konvoikommandeur kann an Land auch nicht alle seine Schiffe an die Bauern übergeben, er muss immer mindestens eines behalten.</p>
+<p>Beschädigte oder unvollständige Schiffe können ebenfalls übergeben werden, der Zustand wirkt sich dann anteilig auf den Konvoi aus.
+Wird ein Schiff mit 8% Schaden an einen Konvoi aus 3 Schiffen übergeben, besteht der Konvoi danach aus 4 Schiffen mit 2% Schaden.
+Wird auch nur ein im Bau befindliches Schiff übergeben, befindet sich der ganze Konvoi danach im Bau und kann erst nach Fertigstellung segeln.
+Ein 50% fertiges Schiff (im Bau) und ein fertiges gibt zwei 75% fertige Schiffe (im Bau).</p>
+<p>Mit demselben Befehl kann man auch Schiffe aus einem Konvoi wieder heraus lösen.
+Die Schiffe oder Konvois der Geber- und Empfängereinheit müssen an der gleichen Küste liegen oder sich auf dem Ozean befinden.
+Die empfangende Einheit muss entweder Kapitänin eines Schiffes sein — dann wird das Schiff zu deren Konvoi hinzugefügt — oder auf dem gleichen Schiff wie die gebende Einheit sein oder nicht in einem Schiff oder in einem Gebäude sein.</p>
+<p>Man kann auch Schiffe an die Bauern übergeben: GIB 0 2 SCHIFF erzeugt einen neuen Konvoi mit 2 Schiffen, auf dem keine Personen sind.
+Ein Konvoikommandeur kann an Land auch nicht alle seine Schiffe an die Bauern übergeben, er muss immer mindestens eines behalten.</p>
 <p>Wenn nach der Übergabe die übergebende Einheit selber keine Schiffe mehr hat, steigen automatisch alle Einheiten, die vorher mit ihr gefahren sind, auf die Schiffe der Zieleinheit um.</p>
 <p>Konvois können nicht verzaubert werden, verzauberte Schiffe können nicht übergeben werden und an Besitzer bezauberter Schiffe können keine weiteren Schiffe übergeben werden.</p>
-<p>Spielererfahrung: Solthar Eine leere Einheit kann nichts übergeben. Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:</p>
-<div class="highlight"><pre><span></span><code>   ```
-   GIB 123 1 SCHIFF
-   GIB 123 ALLES PERSONEN
-   ```
+<p>Spielererfahrung (Solthar):</p>
+<p>Eine leere Einheit kann nichts übergeben.
+Deshalb ist bei folgenden Befehlen die Reihenfolge wichtig:</p>
+<div class="highlight"><pre><span></span><code>GIB 123 1 SCHIFF
+GIB 123 ALLES PERSONEN
 </code></pre></div>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7514,6 +7528,18 @@
 </ul>
 <p>Weiterlesen: <a href="../buildings/">Gebäude</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -7578,7 +7604,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

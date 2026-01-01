@@ -2348,7 +2348,7 @@
   <span class="md-ellipsis">
     
   
-    Potions
+    Alchemy
   
 
     
@@ -7378,14 +7378,15 @@
 <h1 id="ships">Ships<a class="headerlink" href="#ships" title="Permanent link">&para;</a></h1>
 <!-- translated from german to english -->
 
-<p>Ships are built using the command [[cmd-make|<strong><code>MAKE</code></strong><code>[</code><em><code>levels</code></em><code>]</code><em><code>ship type</code></em>]].<br />
-Existing, unfinished, or damaged ships can be further built using <strong><code>MAKE</code></strong><code>[</code><em><code>levels</code></em><code>] SHIP [</code><em><code>ship-id</code></em><code>]</code>.  </p>
+<p>Ships are built using the <a href="../cmd-make/"><strong><code>MAKE</code></strong>&#91;<em><code>levels</code></em>&#93;<em><code>ship type</code></em></a> order.<br />
+Existing, unfinished, or damaged ships can be further built using <strong><code>MAKE</code></strong>&#91;<em><code>levels</code></em>&#93;&nbsp;<code>SHIP</code>&nbsp;&#93;<em><code>ship-id</code></em>&#93;.  </p>
 <p>Wood is needed for this. The more complex the ship, the harder it is to build and command.
 This is summarized in the table below.  </p>
 <p>To start building a ship or to continue building or repairing one, the unit needs at least the specified shipbuilding skill.<br />
 The table shows how much wood is required to build a ship.<br />
 A unit can use per round this number of woods : <code>skill level X people / minimum skill</code>.</p>
-<p>A ship also has an id that is used in orders. Here is an example of a ship:</p>
+<p>A ship also has an id that is used in orders.</p>
+<p>Example:</p>
 <div class="highlight"><pre><span></span><code>Pride of the Seven Winds (18), Longboat, (254/500). This beautiful
 
     ship was the first to be built by the Plötzbogen merchant family
@@ -7405,7 +7406,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 <thead>
 <tr>
 <th>Type</th>
-<th style="text-align: right;">Range</th>
+<th style="text-align: center;">Range</th>
 <th style="text-align: right;">Capacity</th>
 <th style="text-align: right;">Captain/Crew</th>
 <th style="text-align: right;">Building skill</th>
@@ -7415,7 +7416,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 <tbody>
 <tr>
 <td>Boot</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: center;">2</td>
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">&frac12;</td>
 <td style="text-align: right;">1</td>
@@ -7423,7 +7424,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </tr>
 <tr>
 <td>Longboat</td>
-<td style="text-align: right;">3</td>
+<td style="text-align: center;">3</td>
 <td style="text-align: right;">500</td>
 <td style="text-align: right;">1/10</td>
 <td style="text-align: right;">1</td>
@@ -7431,7 +7432,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </tr>
 <tr>
 <td>Dragonship</td>
-<td style="text-align: right;">5*</td>
+<td style="text-align: center;">5<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 <td style="text-align: right;">1000</td>
 <td style="text-align: right;">2/50</td>
 <td style="text-align: right;">2</td>
@@ -7439,7 +7440,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </tr>
 <tr>
 <td>Caravel</td>
-<td style="text-align: right;">5</td>
+<td style="text-align: center;">5</td>
 <td style="text-align: right;">3000</td>
 <td style="text-align: right;">3/30</td>
 <td style="text-align: right;">3</td>
@@ -7447,7 +7448,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </tr>
 <tr>
 <td>Trireme</td>
-<td style="text-align: right;">7</td>
+<td style="text-align: center;">7</td>
 <td style="text-align: right;">2000</td>
 <td style="text-align: right;">4/120</td>
 <td style="text-align: right;">4</td>
@@ -7455,16 +7456,14 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </tr>
 <tr>
 <td>Galleon</td>
-<td style="text-align: right;">5</td>
+<td style="text-align: center;">5</td>
 <td style="text-align: right;">20000</td>
-<td style="text-align: right;">5/250**</td>
+<td style="text-align: right;">5/250<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">2000</td>
 </tr>
 </tbody>
 </table>
-<p>* Dragonship speed depends on captain sailing skill.<br />
-** Only units from level 2 in sails are taken into account for the overall skill of the galleon.  </p>
 <p>Dragon ship speed.</p>
 <table>
 <thead>
@@ -7474,7 +7473,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 <th>6</th>
 <th>18</th>
 <th>54</th>
-<th>162</th>
+<th style="text-align: center;">162</th>
 </tr>
 </thead>
 <tbody>
@@ -7484,7 +7483,7 @@ So once you start building a longboat, you won't be able to convert it into a ca
 <td>6</td>
 <td>7</td>
 <td>8</td>
-<td>9</td>
+<td style="text-align: center;">9</td>
 </tr>
 </tbody>
 </table>
@@ -7492,18 +7491,34 @@ So once you start building a longboat, you won't be able to convert it into a ca
 <p>De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple</p>
 <div class="highlight"><pre><span></span><code>Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
 </code></pre></div>
-<p>Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre GIVE capt 1 SHIP. L'unité recevante devient le commandant d'un convoi. L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas. L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau. Le talent total de l'équipage doit également être un multiple correspondant au nombre de bateaux. La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.</p>
-<p>Exemple : un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec Sailing T3 et un équipage avec 90 niveaux de compétence au total. Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
+<p>Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre GIVE capt 1 SHIP.
+L'unité cible devient le commandant d'un convoi.
+L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas.
+L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau.
+Le talent total de l'équipage doit également être un multiple correspondant au nombre de bateaux.
+La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.</p>
+<p>Exemple :</p>
+<p>un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec Sailing T3 et un équipage avec 90 niveaux de compétence au total.
+Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg.
+La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
 <div class="highlight"><pre><span></span><code>Caravel (2seh), 3 Caravels, (9000/9000).
     * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
     * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
     * Horde (770L), 888 Humans.
 </code></pre></div>
-<p>Comme on peut le voir, il est donc possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels. Pour le reste, les convois se comportent comme un bateau normal. Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.</p>
+<p>Comme on peut le voir, il est donc possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.
+Pour le reste, les convois se comportent comme un bateau normal.
+Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.</p>
 <p>Les "boats" sont exclus de cette règle et les bateaux d'un convoi doivent être du même type, il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.</p>
-<p>Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi. Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages. Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé. Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).</p>
-<p>Le même ordre permet également de détacher des bateaux d'un convoi. Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan. L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.</p>
-<p>On peut aussi donner des bateaux aux paysans : GIVE 0 2 SHIP crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne. A terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.</p>
+<p>Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
+Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages.
+Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.
+Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).</p>
+<p>Le même ordre permet également de détacher des bateaux d'un convoi.
+Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan.
+L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.</p>
+<p>On peut aussi donner des bateaux aux paysans : GIVE 0 2 SHIP crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne.
+À terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.</p>
 <p>Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les unités qui l'accompagnaient auparavant passent automatiquement sur les bateaux de l'unité de destination.</p>
 <p>Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.</p>
 <p>Expérience de jeu (Solthar):</p>
@@ -7519,6 +7534,18 @@ GIVE 123 ALL MEN
 </ul>
 <p>Continue reading: <a href="../buildings/">Buildings</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Dragonship speed depends on captain sailing skill.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Only units from level 2 in sails are taken into account for the overall skill of the galleon.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -7583,7 +7610,7 @@ GIVE 123 ALL MEN
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>

@@ -2276,7 +2276,7 @@
   <span class="md-ellipsis">
     
   
-    Potions
+    Alchemy
   
 
     
@@ -5180,10 +5180,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#aufruf" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Aufruf
+        Usage
       
     </span>
   </a>
@@ -5202,10 +5202,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#externe-links-und-downloads" class="md-nav__link">
+  <a href="#external-links-and-downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Externe Links und Downloads
+        External links and downloads
       
     </span>
   </a>
@@ -7310,10 +7310,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#aufruf" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Aufruf
+        Usage
       
     </span>
   </a>
@@ -7332,10 +7332,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#externe-links-und-downloads" class="md-nav__link">
+  <a href="#external-links-and-downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Externe Links und Downloads
+        External links and downloads
       
     </span>
   </a>
@@ -7437,59 +7437,75 @@
 
 
 <h1 id="echeck">ECheck<a class="headerlink" href="#echeck" title="Permanent link">&para;</a></h1>
-<p><strong>ECheck</strong> is the orders checker that also works on the Eressea server. ECheck is not perfect and not complete. There can be both false negative and false positive reports. So if ECheck doesn't report any errors, it doesn't necessarily mean that the commands are correct. If ECheck reports errors, it does not necessarily mean that the commands are invalid. Especially when there are rule changes or rare items, ECheck doesn't always know immediately. ECheck is intended more as an aid to check the commands again if necessary.</p>
+<p><strong>ECheck</strong> is the orders checker that also works on the Eressea server.
+ECheck is not perfect and not complete.
+There can be both false negative and false positive reports.
+So if ECheck doesn't report any errors, it doesn't necessarily mean that the orders are correct.
+If ECheck reports errors, it does not necessarily mean that the orders are invalid.
+Especially when there are rule changes or rare items, ECheck doesn't always know immediately.
+ECheck is intended more as an aid to check the orders again if necessary.</p>
 <p>ECheck can be accessed in different ways:</p>
 <ul>
-<li>When sending orders, ECheck is automatically called and the response email from the server contains the result. Here we only check for warning level 1 (see below)</li>
-<li>In Magellan. Here you can set the options as desired. Magellan can also add the "meta commands" automatically. These are comments that help ECheck, for example, to check silver consumption. However, there is actually no reason to use Magellan's ECheck anymore, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more</li>
-<li>On the command line (command prompt (“cmd”) on Windows, in any terminal on Linux). Then you have to specify the parameters listed below. </li>
+<li>When sending orders, ECheck is automatically called and the response email from the server contains the result.
+  Here we only check for warning level 1 (see below)</li>
+<li>In Magellan. Here you can set the options as desired.
+  Magellan can also add the "meta commands" automatically.
+  These are comments that help ECheck, for example, to check silver consumption.
+  However, there is actually no reason to use Magellan's ECheck anymore, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more</li>
+<li>On the command line (command prompt “cmd” on Windows, in any terminal on Linux).
+  Then you have to specify the parameters listed below.</li>
 </ul>
-<p>There are different warning levels controlled by command line parameters. With<code>-w1</code>only syntax errors are output. The steps<code>w2</code>until`w4 issue additional warnings, for example about silver consumption, teachers or routes. The noxxx parameters can also suppress certain warnings. ECheck normally assumes that you are entering German commands for E2. English commands can be checked, for example, with the -Len parameter.</p>
-<h2 id="aufruf">Aufruf<a class="headerlink" href="#aufruf" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="go">    Usage: ./echeck [options] &lt;orders file&gt;</span>
+<p>There are different warning levels controlled by command line parameters.
+With<code>-w1</code> only syntax errors are output.
+The steps <code>w2</code> until <code>w4</code> issue additional warnings, for example about silver consumption, teachers or routes.
+The <code>noxxx</code> parameters can also suppress certain warnings.
+ECheck normally assumes that you are entering German orders for E2.
+English orders can be checked, for example, with the -Len parameter.</p>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="go">Usage: ./echeck [options] &lt;orders file&gt;</span>
 
-<span class="go">      -Ppfad  Path information for the additional files; the locale de is appended</span>
-<span class="go">      -Rgame  Read additional files from the game subdirectory; Default setting: e2</span>
-<span class="go">      -       Uses stdin instead of an input file.</span>
-<span class="go">      -b      suppresses warnings and errors (letter)</span>
-<span class="go">      -q      does not expect any information on people/silver in [] at UNIT</span>
-<span class="go">      -rnnn   Sets recruitment cost to nnn silver</span>
-<span class="go">      -c      writes the warnings and errors in a compiler-like form</span>
-<span class="go">      -m      writes the warnings and errors for Magellan</span>
-<span class="go">      -e      writes the checked file to stdout, error to stderr</span>
-<span class="go">      -E      writes the checked file to stdout, error to stdout</span>
-<span class="go">      -ofile  writes the checked file to the file &#39;file&#39;</span>
-<span class="go">      -Ofile  writes errors to file &#39;file&#39;</span>
-<span class="go">      -h      shows this little help</span>
-<span class="go">      -hs     shows list of keywords for tokens.txt</span>
-<span class="go">      -hb     shows list of orders for orders.txt</span>
-<span class="go">      -hp     shows list of parameters for parameter.txt</span>
-<span class="go">      -hr     shows list of directions for directions.txt</span>
-<span class="go">      -hm     shows list of messages for messages.txt</span>
-<span class="go">      -hf     shows list of files that ECheck is trying to read</span>
-<span class="go">      -s      uses stderr for warnings, errors etc., not stdout</span>
-<span class="go">      -p      shortens some expenses for piping</span>
-<span class="go">      -l      simuliert Silberpool-Funktion</span>
-<span class="go">      -n      Does not count NameMe comments (;;) as a line</span>
-<span class="go">      -noxxx  No xxx warnings. xxx can be:</span>
-<span class="go">        ship  Unit controls ship and may not have command</span>
-<span class="go">        route no check for cyclic ROUTE</span>
-<span class="go">        lost  Unit loses silver and items</span>
-<span class="go">      -w[n]   Level n warnings (default: 4)</span>
-<span class="go">         1    mainly syntax errors</span>
-<span class="go">         4    almost all warnings</span>
-<span class="go">         5    teacher/student</span>
-<span class="go">      -x      Line countingab PARTEI instead of the beginning of the file</span>
-<span class="go">      -Lloc   Sets locale loc</span>
-<span class="go">      -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version</span>
-<span class="go">      -Q      Quiet</span>
-<span class="go">      -C      Compact edition</span>
+<span class="go">  -Ppfad  Path information for the additional files; the locale de is appended</span>
+<span class="go">  -Rgame  Read additional files from the game subdirectory; Default setting: e2</span>
+<span class="go">  -       Uses stdin instead of an input file.</span>
+<span class="go">  -b      suppresses warnings and errors (letter)</span>
+<span class="go">  -q      does not expect any information on people/silver in [] at UNIT</span>
+<span class="go">  -rnnn   Sets recruitment cost to nnn silver</span>
+<span class="go">  -c      writes the warnings and errors in a compiler-like form</span>
+<span class="go">  -m      writes the warnings and errors for Magellan</span>
+<span class="go">  -e      writes the checked file to stdout, error to stderr</span>
+<span class="go">  -E      writes the checked file to stdout, error to stdout</span>
+<span class="go">  -ofile  writes the checked file to the file &#39;file&#39;</span>
+<span class="go">  -Ofile  writes errors to file &#39;file&#39;</span>
+<span class="go">  -h      shows this little help</span>
+<span class="go">  -hs     shows list of keywords for tokens.txt</span>
+<span class="go">  -hb     shows list of orders for orders.txt</span>
+<span class="go">  -hp     shows list of parameters for parameter.txt</span>
+<span class="go">  -hr     shows list of directions for directions.txt</span>
+<span class="go">  -hm     shows list of messages for messages.txt</span>
+<span class="go">  -hf     shows list of files that ECheck is trying to read</span>
+<span class="go">  -s      uses stderr for warnings, errors etc., not stdout</span>
+<span class="go">  -p      shortens some expenses for piping</span>
+<span class="go">  -l      simuliert Silberpool-Funktion</span>
+<span class="go">  -n      Does not count NameMe comments (;;) as a line</span>
+<span class="go">  -noxxx  No xxx warnings. xxx can be:</span>
+<span class="go">    ship  Unit controls ship and may not have command</span>
+<span class="go">    route no check for cyclic ROUTE</span>
+<span class="go">    lost  Unit loses silver and items</span>
+<span class="go">  -w[n]   Level n warnings (default: 4)</span>
+<span class="go">     1    mainly syntax errors</span>
+<span class="go">     4    almost all warnings</span>
+<span class="go">     5    teacher/student</span>
+<span class="go">  -x      Line countingab PARTEI instead of the beginning of the file</span>
+<span class="go">  -Lloc   Sets locale loc</span>
+<span class="go">  -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version</span>
+<span class="go">  -Q      Quiet</span>
+<span class="go">  -C      Compact edition</span>
 </code></pre></div>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands-send/">Send in orders</a></li>
 </ul>
-<h2 id="externe-links-und-downloads">Externe Links und Downloads<a class="headerlink" href="#externe-links-und-downloads" title="Permanent link">&para;</a></h2>
+<h2 id="external-links-and-downloads">External links and downloads<a class="headerlink" href="#external-links-and-downloads" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.eressea.kn-bremen.de/downloads">Current downloads for Windows (echeck.exe) and Linux (echeck)</a></li>
 <li><a href="https://github.com/eressea/echeck">ECheck Sourcecode</a></li>
@@ -7560,7 +7576,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>

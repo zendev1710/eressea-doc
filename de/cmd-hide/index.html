@@ -7358,18 +7358,35 @@
 <strong><code>TARNE</code></strong><code>PARTEI [NICHT]</code><br />
 <strong><code>TARNE</code></strong><code>PARTEI NUMMER [</code><em><code>nummer</code></em><code>]</code><br />
 <strong><code>TARNE</code></strong><code></code><em><code>rasse</code></em>  </p>
-<p>Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht. <code>stufe</code> kann natürlich nicht höher als das <a href="../camouflage/">Talent</a> der Einheit sein. Ohne Parameterangabe wird das Maximum gesetzt.</p>
-<p>Mit <code>TARNE PARTEI</code> kann man seine Parteizugehörigkeit zu verbergen versuchen. Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt. Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit <a href="../skills-list/">Spionage</a> erkennen. Mit <code>TARNE PARTEI NICHT</code> wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.</p>
-<p><code>TARNE PARTEI NUMMER nummer</code> tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen. Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen. Um wieder der eigenen Partei zugehörig zu erscheinen, muß für <code>nummer</code> die eigene Parteinummer verwendet werden. Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl. Parteien, die von der Partei oder Gruppe der Einheit <a href="../cmd-help/">HELFE xyz PARTEITARNUNG</a> bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.</p>
-<p>Soweit, so einfach. Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:</p>
+<p>Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht.
+<code>stufe</code> kann natürlich nicht höher als das <a href="../camouflage/">Talent</a> der Einheit sein.
+Ohne Parameterangabe wird das Maximum gesetzt.</p>
+<p>Mit <code>TARNE PARTEI</code> kann man seine Parteizugehörigkeit zu verbergen versuchen.
+Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt.
+Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit <a href="../skills-list/">Spionage</a> erkennen.
+Mit <code>TARNE PARTEI NICHT</code> wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.</p>
+<p><code>TARNE PARTEI NUMMER nummer</code> tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen.
+Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen.
+Um wieder der eigenen Partei zugehörig zu erscheinen, muß für <code>nummer</code> die eigene Parteinummer verwendet werden.
+Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl.
+Parteien, die von der Partei oder Gruppe der Einheit <a href="../cmd-help/">HELFE xyz PARTEITARNUNG</a> bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.</p>
+<p>Soweit, so einfach.
+Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:</p>
 <ul>
 <li>Die (scheinbare) Rasse der Einheit ändert sich dadurch nicht, ein Goblin bleibt ein Goblin, auch wenn er sich als der Partei der Lichtelfen zugehörig ausgibt.</li>
-<li>Die Einheiten ändern ihr Verhalten durch die Tarnung nicht. Sie spenden z.B. kein Silber an die Verbündeten der Partei, als die sie sich tarnen. Wer also die Tarnung perfektionieren will, sollte mit den Einheiten eine Gruppe bilden und für diese Gruppe entsprechende Helfe-Stati setzen.<br />
+<li>Die Einheiten ändern ihr Verhalten durch die Tarnung nicht.
+  Sie spenden z.B. kein Silber an die Verbündeten der Partei, als die sie sich tarnen.
+  Wer also die Tarnung perfektionieren will, sollte mit den Einheiten eine Gruppe bilden und für diese Gruppe entsprechende Helfe-Stati setzen.<br />
   So getarnte Einheiten können auch nicht plötzlich Gebäude oder Schiffe betreten, die sie ansonsten nicht betreten dürfen, oder Steuern eintreiben, wo ihnen das normalerweise untersagt ist.</li>
-<li>Im Kampf bilden derartige Einheiten ein eigenes Heer. Beispiel: Es gibt drei Parteien, die Waldelfen, die Flusselfen und die Eisenzwerge. Alle Parteien habe jeweils eine Einheit: Waldelf, Flusself und Eisenzwerg. Während Waldelf sich als Flusself tarnt, behalten alle anderen Einheiten ihre wahre Identität bei.<br />
-  Nun greift der Eisenzwerg den Flusself an. Dadurch erscheinen im Kampfreport drei Heere: Die Eisenzwerge, und zwei Flusselfen-Heere.</li>
+<li>Im Kampf bilden derartige Einheiten ein eigenes Heer.
+  Beispiel: Es gibt drei Parteien, die Waldelfen, die Flusselfen und die Eisenzwerge.
+  Alle Parteien habe jeweils eine Einheit: Waldelf, Flusself und Eisenzwerg.
+  Während Waldelf sich als Flusself tarnt, behalten alle anderen Einheiten ihre wahre Identität bei.<br />
+  Nun greift der Eisenzwerg den Flusself an.
+  Dadurch erscheinen im Kampfreport drei Heere: Die Eisenzwerge, und zwei Flusselfen-Heere.</li>
 </ul>
-<p><a href="../cmd-group/">GRUPPE</a> hat allerdings auch die Nebenwirkung mit den mehreren Heeren. Auf diese Weise kann man also nicht sehen ob Einheiten sich als eine fremde Partei ausgeben oder ob der Betreffende nur mehrere Gruppen hat.</p>
+<p><a href="../cmd-group/">GRUPPE</a> hat allerdings auch die Nebenwirkung mit den mehreren Heeren.
+Auf diese Weise kann man also nicht sehen ob Einheiten sich als eine fremde Partei ausgeben oder ob der Betreffende nur mehrere Gruppen hat.</p>
 <p>Mit <code>TARNE rasse</code> können <a href="../races/#damonen">Dämonen</a> sich als andere Rasse tarnen.</p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7441,7 +7458,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>

@@ -3626,7 +3626,7 @@
   <span class="md-ellipsis">
     
   
-    Cmd make
+    MAKE
   
 
     
@@ -7368,30 +7368,31 @@ Eressea y possède son propre sous-forum.  </p>
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.<br />
 Utilise ECheck chez toi avec l'option -e pour vérifier si tes ordres sont interprétés comme prévu.<br />
 ECheck vérifie uniquement la syntaxe des ordres.<br />
-ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le <a href="../commands/">modèle d'évaluation</a> du serveur est utilisé.  </p>
+ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le <a href="../commands/">modèle d'ordres</a> du serveur est utilisé.  </p>
 <p>Fixe-toi plusieurs objectifs.<br />
 L'un de tes premiers objectifs devrait être d'explorer les environs.<br />
 C'est le seul moyen de découvrir les régions montagneuses et forestières importantes où tu pourras extraire du minerai et récolter du bois.<br />
 Envoie donc quelques unités composées d'un seul soldat et donne-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.<br />
 Remarque : n'oublie pas de prendre en compte l'argent nécessaire au recrutement !  </p>
 <p>Crée davantage d'unités et apprends certaines compétences dont tu penses avoir besoin lors des trois ou quatre prochains tours.  </p>
-<p>Le <a href="../cmd-entertain/">divertissement</a> est essentiel pour gagner de l'argent. Sans suffisamment d'argent, ta faction ne pourra pas se développer.<br />
+<p>Le <a href="../cmd-entertain/">divertissement</a> est essentiel pour gagner de l'argent.
+Sans suffisamment d'argent, ta faction ne pourra pas se développer.<br />
 Les <a href="../cmd-tax/">collecteurs d'impôts</a> constituent également une bonne source de revenus;<br />
 pour cela, il te faut, par exemple, des métaux (<a href="../resources/#ressources-minieres">exploitation minière</a>) ou du bois (<a href="../resources/#ressources-forestieres">exploitation forestière</a>) pour fabriquer des armes comme des épées ou des lances;<br />
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées (<a href="../silver/#collecter-les-impots">collecte d'impôts</a>, <a href="../skills/#competences-de-combat">compétences d'armes</a>).  </p>
 <p>La <a href="../camouflage/">perception</a> est une compétence essentielle, souvent sous-estimée par les débutants.<br />
-Seuls les percepteurs peuvent repérer les unités camouflées et les empêcher de <a href="../silver/#le-vol-la-methode-malhonnete">piller</a> ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.<br />
-Il est également conseillé de construire des <a href="../castles/">châteaux</a> rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et <a href="../buildings/">la construction des châteaux</a>) afin de pouvoir <a href="../silver/#commerce">commercer</a>.<br />
+Seuls les <a href="../cmd-tax/">percepteurs</a> peuvent repérer les unités camouflées et les empêcher de <a href="../silver/#le-vol-la-methode-malhonnete">piller</a> ! Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.<br />
+Il est également conseillé de construire des <a href="../castles/">Châteaux</a> rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : <a href="../skills-list/#maconnerie">maconnerie</a> et [extraction minière] pour la pierre et <a href="../buildings/">la construction des châteaux</a>) afin de pouvoir <a href="../silver/#commerce">commercer</a>.<br />
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper <a href="../travel/#chevaux-et-chariots">de chevaux et de chariots</a>.<br />
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  </p>
-<p>Les unités aux compétences coûteuses, comme <a href="../tactic/">Tactique</a>, <a href="../skills-list/">alchimiste</a>, etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).<br />
+<p>Les unités aux compétences coûteuses, comme <a href="../tactic/">les Tacticiens</a>, <a href="../skills-list/">les Alchimistes</a>, etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).<br />
 Entraîner des <a href="../magic/">Mages</a> coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.<br />
 De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  </p>
 <p>Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.<br />
 En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.  </p>
 <p>Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.<br />
 Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.<br />
-Un bon point de départ pour ton nouveau fichier de commandes est le [modèle d'évaluation] ajouté à l'évaluation du tour suivant.<br />
+Un bon point de départ pour ton nouveau fichier de commandes est le <a href="../commands/">modèle d'évaluation</a> ajouté à l'évaluation du tour suivant.<br />
 Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  </p>
 <p>Exemple de commentaires :</p>
 <div class="highlight"><pre><span></span><code>    REGION 4,4 ; Lochinver

@@ -3692,7 +3692,7 @@
   <span class="md-ellipsis">
     
   
-    Cmd make
+    MAKE
   
 
     
@@ -7499,11 +7499,11 @@
 <p>Si l'on s'attend à être volé avec succès, la seule solution est d'apporter de l'argent dans la région concernée, car même les revenus provenant des divertissements, de la collecte des impôts, du travail et du commerce peuvent être volés (tous mes types de revenus).</p>
 <p>Le vol constitue de temps en temps un moyen efficace de faire tomber des espions qui sont eux-mêmes bien camouflés, car ils ont de grandes chances de s'échapper en cas d'attaque grâce à leur stealth élevé.</p>
 <h2 id="espionnage">Espionnage<a class="headerlink" href="#espionnage" title="Permanent link">&para;</a></h2>
-<p>Si une unité dotée de la compétence <a href="../skills-list/#espionnage">espionnage</a> donne l'ordre [<code>SPY</code><em><code>ID_unité</code></em>], sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible. La chance de base de réussir une tentative d'espionnage est de 10%. Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%. Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles. Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs. Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.</p>
+<p>Si une unité dotée de la compétence <a href="../skills-list/#espionnage">Espionnage</a> donne l'ordre <a href="../cmd-spy/"><code>SPY</code><em><code>ID unité</code></em></a>, sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible. La chance de base de réussir une tentative d'espionnage est de 10%. Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%. Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles. Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs. Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.</p>
 <p>Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité et les compétences. L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux au stealth de l'unité. Un stealth élevé est donc utile pour réussir à se dissimuler en une autre faction.</p>
 <p>Ensuite, on détermine si la tentative d'espionnage a été remarquée, indépendamment du succès. La probabilité est de (100 − Espionage_espion * 5 + PerceptionVictime * 2)%.</p>
 <h2 id="remarques">Remarques<a class="headerlink" href="#remarques" title="Permanent link">&para;</a></h2>
-<p>De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région (<a href="../cmd-combat/">position de combat</a>: <code>COMBAT NOT</code> ou <code>FLEE</code>).
+<p>De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région (<a href="../cmd-combat/">position de combat</a>: <code>COMBAT NOT</code> ou <code>COMBAT FLEE</code>).
 Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.</p>
 <p>Outre ces utilisations passives de la dissimulation, il est bien sûr possible de partir à la recherche d'informations avec des unités furtives bien entraînées ou d'utiliser la capacité de voler.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>

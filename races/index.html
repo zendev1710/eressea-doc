@@ -7584,7 +7584,7 @@
 <li>Volatility: All skills with at least one skill level (before racial malus) have a 25% chance of shifting. The skill can lose up to 3 weeks of learning (40%), or rise up to 3 weeks of learning (60%). No skill can ever fall below level 0.</li>
 <li>Infernal Hunger: Demons eat peasants every turn. Demons that do not receive food (not enough peasants) lose hit points and are subject to skill reduction according to the normal <a href="../silver/#starvation">starvation rule</a>.</li>
 <li>Ethereal Creature: Demons are not <a href="../silver/#recruiting">recruited</a> from the peasant population (they aren't deducted from the peasant pool). However, the normal recruitment limits still apply for balance reasons.</li>
-<li>Ethereal Creature: When a demon unit gives away men with [<code>GIVE 0</code>], these people are not added to the peasant population in the region.</li>
+<li>Ethereal Creature: When a demon unit gives away men with <a href="../cmd-give/"><code>GIVE 0</code></a>, these people are not added to the peasant population in the region.</li>
 <li>Intrinsic Disguise: Demons can <a href="../cmd-hide/">change their appearance</a> to become that of any other player race.</li>
 <li>Panic: In close combat, taking a hit from a demon causes panic in the victim. The person receives a modifier of −1 to all combat skills (not the unit).</li>
 <li>Regeneration: Wounded demons regenerate 7,5% of their hit points per turn.</li>
@@ -7611,7 +7611,7 @@
 <h2 id="halflings">Halflings<a class="headerlink" href="#halflings" title="Permanent link">&para;</a></h2>
 <p>Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and <a href="../ships/">ships</a> to others. Weaponry is not one of their strengths.</p>
 <ul>
-<li>Halflings who try to <a href="../war/#fleeing">flee</a> in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [<code>COMBAT FLEE</code>]).</li>
+<li>Halflings who try to <a href="../war/#fleeing">flee</a> in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see <a href="../cmd-combat/"><code>COMBAT FLEE</code></a>).</li>
 <li>Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against <a href="../monsters/#dragons">dragons</a>.</li>
 <li>Always Hungry : Halflings suffer more damage from starvation than other races (between 8 and 17 hit points (1d10+7)).</li>
 </ul>
@@ -7643,7 +7643,7 @@
 <h2 id="humans">Humans<a class="headerlink" href="#humans" title="Permanent link">&para;</a></h2>
 <p>Humans can do a bit of everything. They don't have any really bad skills, but they don't really excel at anything either. They can therefore make up for the weaknesses of their allies, even though they have no specialization.</p>
 <ul>
-<li>Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [get them][<code>GIVE 0</code>] from other factions. There are no migrants with <a href="../skills/">expensive skills</a> like magic, alchemy, herbalism, espionage, or tactics.</li>
+<li>Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must <a href="../cmd-give/">get them</a> from other factions. There are no migrants with <a href="../skills/">expensive skills</a> like magic, alchemy, herbalism, espionage, or tactics.</li>
 </ul>
 <p>The number of <em>migrants</em> is calculated as 20 × log<sub>10</sub> (persons in the faction ÷ 50). If you have to many migrants, for example after a battle, they are not removed, but you cannot add any more either. The maximum number of migrants is shown in your report. It is almost identical to the number of <a href="../cmd-promote/">heroes</a> for large factions. The following table has some examples.</p>
 <p>Migrants</p>
@@ -7710,7 +7710,7 @@
 <li>Born Fighters: All newly recruited orcs start out with a level in the melee and polearm skills.</li>
 <li>Laziness: Orcs earn less silver than other races with the <a href="../cmd-work/">WORK</a> order.</li>
 <li>Easy Recruits: For two recruited orcs only one peasant is subtracted from the peasant pool of the region. Thus you can recruit twice the recruitment limit of a region. Fractions are rounded up.</li>
-<li>Likewise, for every two orcs given to the peasants (see the [<code>GIVE 0</code>] order) only one peasant is added to the peasant pool of the region (rounded down this time).</li>
+<li>Likewise, for every two orcs given to the peasants (see the <a href="../cmd-give/"><code>GIVE 0</code></a> order) only one peasant is added to the peasant pool of the region (rounded down this time).</li>
 <li>Dangerous: Unarmed orcs do not fight with a -2 penalty in close combat like other races, but with (best close combat skill - 3). They still need weapons to collect taxes.</li>
 <li>Orcs are slow thinkers and generally learn all non-weapon skills somewhat slower than other races.</li>
 </ul>

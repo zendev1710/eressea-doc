@@ -7354,9 +7354,15 @@
 
 
 <h1 id="kurzbeschreibung">Kurzbeschreibung<a class="headerlink" href="#kurzbeschreibung" title="Permanent link">&para;</a></h1>
-<p>Unter "K/L" ist vermerkt, ob der <a href="../commands/">Befehl</a> ein kurzer oder langer Befehl ist. Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.</p>
-<p><a href="../commands/#kurze-und-lange-befehle"><sup>(l)</sup></a> bezeichnet einen <a href="../commands/">pseudolangen Befehl</a>, der einer Einheit mehrfach gegeben werden kann. Allerdings kann kein weiterer anderer langer Befehl ausgeführt werden. Näheres dazu ist auf der Seite des jeweiligen Befehls nachzulesen.</p>
-<p>Kurzliste der Befehle</p>
+<p>Unter <code>K</code>/<code>L</code> ist vermerkt, ob der <a href="../commands/">Befehl</a> ein <a href="../commands/#kurze-und-lange-befehle">kurzer</a> oder <a href="../commands/#kurze-und-lange-befehle">langer</a> Befehl ist.
+Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.</p>
+<p><code>PL</code> bezeichnet einen <a href="../commands/">pseudolangen Befehl</a>, der einer Einheit mehrfach gegeben werden kann.
+Allerdings kann kein weiterer anderer langer Befehl ausgeführt werden.
+Näheres dazu ist auf der Seite des jeweiligen Befehls nachzulesen.</p>
+<p>Kurzliste der Befehle.</p>
+<!-- A link containing brackets (e.g. [BEWACHE \[NICHT\]) cannot be used as a reference link -->
+<!-- instead, replace by HTML escape codes (e.g. [BEWACHE &#91;[NICHT&#93;) or use inline link [...](<link>) -->
+
 <table>
 <thead>
 <tr>
@@ -7369,287 +7375,287 @@
 <tr>
 <td><a href="../cmd-comment-slash/">//</a></td>
 <td>bleibender Kommentar</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-work/">ARBEITE</a></td>
 <td>verdient 10 Silber oder mehr</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-attack/">ATTACKIERE einheit-nr</a></td>
 <td>greift die Einheit an</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 1</td>
+<td>PL<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-banner/">BANNER "text"</a></td>
 <td>setzt Text für Adressliste</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-claim/">BEANSPRUCHE anzahl gegenstand</a></td>
 <td>holt Gegenstände aus Parteipool</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-promote/">BEFÖRDERE</a></td>
 <td>macht Einheit zu Helden</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../camouflage/">BEKLAUE einheit-nr</a></td>
 <td>klaut 50 Silber oder mehr</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE EINHEIT "name"</a></td>
 <td>benennt Objekte</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE PARTEI "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE GEBÄUDE "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE SCHIFF "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE REGION "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE FREMDE EINHEIT einheit "name"</a></td>
 <td>benennt fremde und unbenannte Objekte</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE FREMDES SCHIFF schiff "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE FREMDES GEBÄUDE gebäude "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-name/">BENENNE FREMDE PARTEI partei "name"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[BENUTZE [anzahl] trank]</td>
+<td><a href="../cmd-use/">BENUTZE &#91;anzahl&#93; trank</a></td>
 <td>benutzt alchemistischen Trank</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">BESCHREIBE EINHEIT "text"</a></td>
 <td>beschreibt Objekte</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">BESCHREIBE PRIVAT "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">BESCHREIBE GEBÄUDE "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">BESCHREIBE SCHIFF "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-describe/">BESCHREIBE REGION "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-enter/">BETRETE GEBÄUDE gebäude-nr</a></td>
 <td>betritt Gebäude</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-enter/">BETRETE SCHIFF schiff-nr</a></td>
 <td>betritt Schiffe</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[BEWACHE [NICHT]]</td>
+<td><a href="../cmd-guard/">BEWACHE [NICHT]</a></td>
 <td>bewacht die Region</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[BEZAHLE NICHT [gebäude-nr]]</td>
+<td><a href="../cmd-pay-not/">BEZAHLE NICHT [gebäude-nr]</a></td>
 <td>bezahlt den Unterhalt für ein Gebäude nicht</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">BOTSCHAFT REGION "text"</a></td>
 <td>versendet Botschaften</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">BOTSCHAFT SCHIFF schiff-nr "text"</a></td>
 <td>versendet Botschaften</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">BOTSCHAFT GEBÄUDE gebäude-nr "text"</a></td>
 <td>versendet Botschaften</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">BOTSCHAFT EINHEIT einh-nr "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-message/">BOTSCHAFT PARTEI partei-nr "text"</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-default/">DEFAULT "befehl"</a></td>
 <td>setzt Default-Befehl für die nächste Runde.</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-unit/">EINHEIT einheit-nr</a></td>
 <td>beginnt Befehle für eine Einheit</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-email/">EMAIL email@adresse</a></td>
 <td>setzt die E-Mail-Adresse</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-end/">ENDE</a></td>
 <td>beendet MACHE TEMP</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-eressea/">ERESSEA partei-nr "passwort"</a></td>
 <td>beginnt Befehle für Partei</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-ride/">FAHRE einheit-nr</a></td>
 <td>sich transportieren lassen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-follow/">FOLGE EINHEIT einheit-nr</a></td>
 <td>folgt einer Einheit</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 2</td>
+<td>PL<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-follow/">FOLGE SCHIFF schiff-nr</a></td>
 <td>folgt einem Schiff</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 2</td>
+<td>PL<sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-research/">FORSCHE KRÄUTER</a></td>
 <td>sucht Kräuter</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB einheit-nr KRÄUTER</a></td>
 <td>gibt einer Einheit alle Kräuter</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB einheit-nr KOMMANDO</a></td>
 <td>übergibt Kommando über Schiff/Gebäude</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB einheit-nr EINHEIT</a></td>
 <td>übergibt Einheit an fremde Partei</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[GIB einheit-nr [JE] anzahl PERSONEN]</td>
+<td><a href="../cmd-give/">GIB einheit-nr [JE] anzahl PERSONEN</a></td>
 <td>übergibt Personen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[GIB einheit-nr [JE] anzahl SCHIFF]</td>
+<td><a href="../cmd-give/">GIB einheit-nr [JE] anzahl SCHIFF</a></td>
 <td>übergibt SCHIFF zur Bildung von Konvois</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[GIB einheit-nr [JE] anzahl SILBER]</td>
+<td><a href="../cmd-give/">GIB einheit-nr [JE] anzahl SILBER</a></td>
 <td>übergibt Silber</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[GIB einheit-nr [JE] anzahl gegenstand]</td>
+<td><a href="../cmd-give/">GIB einheit-nr [JE] anzahl gegenstand</a></td>
 <td>übergibt Gegenstände</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB 0 anzahl SILBER</a></td>
 <td>gibt Gegenstände an die Bauern</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB 0 anzahl PERSONEN</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-give/">GIB 0 anzahl gegenstand</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[GRUPPE ["name"]]</td>
+<td><a href="../cmd-group/">GRUPPE ["name"]</a></td>
 <td>Gruppieren von Einheiten</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr ALLES [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr ALLES [NICHT]</a></td>
 <td>setzt / löscht einseitige Allianz</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr GIB [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr GIB [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr KÄMPFE [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr KÄMPFE [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr BEWACHE [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr BEWACHE [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr SILBER [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr SILBER [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[HELFE partei-nr PARTEITARNUNG [NICHT]]</td>
+<td><a href="../cmd-help/">HELFE partei-nr PARTEITARNUNG [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE</a></td>
@@ -7659,332 +7665,332 @@
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE AGGRESSIV</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE DEFENSIV</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE FLIEHE</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[KÄMPFE HELFE [NICHT]]</td>
+<td><a href="../cmd-combat/">KÄMPFE HELFE [NICHT]</a></td>
 <td>der Einheit wird im Kampf [nicht] geholfen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE HINTEN</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-combat/">KÄMPFE NICHT</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[KAMPFZAUBER [STUFE n] "zauberspruch" [NICHT]]</td>
+<td><a href="../cmd-combatspell/">KAMPFZAUBER [STUFE n] "zauberspruch" [NICHT]</a></td>
 <td>setzt Zauber für Kämpfe</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-buy/">KAUFE anzahl luxusgut</a></td>
 <td>kaufe Luxusgüter</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 3</td>
+<td>PL<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-contact/">KONTAKTIERE einheit-nr</a></td>
 <td>kontaktiere fremde Einheiten</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[LEHRE einheit-nr [einheit-nr etc.]]</td>
+<td><a href="../cmd-teach/">LEHRE einheit-nr [einheit-nr etc.]</a></td>
 <td>lehre Einheiten</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-learn/">LERNE talent</a></td>
 <td>Talent lernen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-learn-auto/">LERNE AUTO talent</a></td>
 <td>Talent lernen oder lehren</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-locale/">LOCALE en/de</a></td>
 <td>zeigt die Sprache der Befehle an</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[MACHE TEMP unit-alias-nr ["name"]]</td>
+<td><a href="../cmd-make/">MACHE TEMP unit-alias-nr ["name"]</a></td>
 <td>erschaffe neue Einheit</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[MACHE [stufe] gebäude-typ [gebäude-nr]]</td>
+<td><a href="../cmd-make/">MACHE [stufe] gebäude-typ [gebäude-nr]</a></td>
 <td>erweitere oder baue neues Gebäude</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [stufe] schiffstyp]</td>
+<td><a href="../cmd-make/">MACHE [stufe] schiffstyp</a></td>
 <td>baue neue Schiffe</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [stufe] SCHIFF [schiff-nr]]</td>
+<td><a href="../cmd-make/">MACHE [stufe] SCHIFF [schiff-nr]</a></td>
 <td>baue weiter am Schiff</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-make/">MACHE</a></td>
 <td>baue weiter an Gebäude/Schiff</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [stufe] STRASSE richtung]</td>
+<td><a href="../cmd-make/">MACHE [stufe] STRASSE richtung</a></td>
 <td>baue Straßen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [anzahl] KRÄUTER]</td>
+<td><a href="../cmd-make/">MACHE [anzahl] KRÄUTER</a></td>
 <td>suche Kräuter der Region</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [anzahl] trank]</td>
+<td><a href="../cmd-make/">MACHE [anzahl] trank</a></td>
 <td>mache einen alchemistischen Trank</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[MACHE [anzahl] gegenstand]</td>
+<td><a href="../cmd-make/">MACHE [anzahl] gegenstand</a></td>
 <td>mache einen Gegenstand oder baue Rohstoffe ab</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[NACH richtung [richtung etc.]]</td>
+<td><a href="../cmd-make/">NACH richtung [richtung etc.]</a></td>
 <td>reisen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-next/">NÄCHSTER</a></td>
 <td>beendet Befehle</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[NUMMER EINHEIT [neue_nr]]</td>
+<td><a href="../cmd-number/">NUMMER EINHEIT [neue_nr]</a></td>
 <td>vergibt neue Nummer</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[NUMMER GEBÄUDE [neue_nr]]</td>
+<td><a href="../cmd-number/">NUMMER GEBÄUDE [neue_nr]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[NUMMER PARTEI [neue_nr]]</td>
+<td><a href="../cmd-number/">NUMMER PARTEI [neue_nr]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[NUMMER SCHIFF [neue_nr]]</td>
+<td><a href="../cmd-number/">NUMMER SCHIFF [neue_nr]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION AUSWERTUNG [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION AUSWERTUNG [NICHT]</a></td>
 <td>verschiedene Einstellungen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION COMPUTER [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION COMPUTER [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION ZIPPED [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION ZIPPED [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION BZIP2 [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION BZIP2 [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION SILBERPOOL [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION SILBERPOOL [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION MATERIALPOOL [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION MATERIALPOOL [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION ADRESSEN [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION ADRESSEN [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION ZUGVORLAGE [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION ZUGVORLAGE [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION STATISTIK [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION STATISTIK [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION TALENTVERSCHIEBUNG [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION TALENTVERSCHIEBUNG [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[OPTION PUNKTE [NICHT]]</td>
+<td><a href="../cmd-option/">OPTION PUNKTE [NICHT]</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-password/">PASSWORT "neues-passwort"</a></td>
 <td>setzt neues Passwort</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[PFLANZE [anzahl] KRÄUTER]</td>
+<td><a href="../cmd-plant/">PFLANZE [anzahl] KRÄUTER</a></td>
 <td>pflanzt Kräuter</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[PFLANZE [anzahl] BÄUME]</td>
+<td><a href="../cmd-plant/">PFLANZE [anzahl] BÄUME</a></td>
 <td>pflanzt Samen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[PFLANZE [anzahl] MALLORNSAMEN]</td>
+<td><a href="../cmd-plant/">PFLANZE [anzahl] MALLORNSAMEN</a></td>
 <td>pflanzt Samen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[PFLANZE [anzahl] SAMEN]</td>
+<td><a href="../cmd-plant/">PFLANZE [anzahl] SAMEN</a></td>
 <td>pflanzt Samen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[PIRATERIE [partei_1] [partei_2] [...]]</td>
+<td><a href="../cmd-piracy/">PIRATERIE [partei_1] [partei_2] [...]</a></td>
 <td>Piraterie setzen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[PRÄFIX [präfix]]</td>
+<td><a href="../cmd-prefix/">PRÄFIX [präfix]</a></td>
 <td>gibt der Rassenbezeichnung ein Präfix</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-region/">REGION x,y</a></td>
 <td>keine Funktion (nur für Tools)</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../silver/#rekrutieren">REKRUTIERE anzahl</a></td>
 <td>rekrutiert weitere Personen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-reserve/">RESERVIERE anzahl "gegenstand"</a></td>
 <td>Gegenstände reservieren</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-reserve/">RESERVIERE anzahl SILBER</a></td>
 <td>Silber reservieren</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[ROUTE richtung [richtung etc.]]</td>
+<td><a href="../cmd-route/">ROUTE richtung [richtung etc.]</a></td>
 <td>reisen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-sort/">SORTIERE VOR einheit-nr</a></td>
 <td>Einheit in Report sortieren</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-sort/">SORTIERE HINTER einheit-nr</a></td>
 <td></td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-spy/">SPIONIERE einheit-nr</a></td>
 <td>Einheit ausspionieren</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-language/">SPRACHE en/de</a></td>
 <td>ändert die Sprache der Partei</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[STIRB "passwort" [PARTEI partei-nr]]</td>
+<td><a href="../cmd-quit/">STIRB "passwort" [PARTEI partei-nr]</a></td>
 <td>aus dem Spiel ausscheiden</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[TARNE [stufe]]</td>
+<td><a href="../cmd-hide/">TARNE [stufe]</a></td>
 <td>Tarnstufe setzen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-hide/">TARNE rasse</a></td>
 <td>Dämonen: als andere Rasse tarnen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[TARNE PARTEI [NICHT]]</td>
+<td><a href="../cmd-hide/">TARNE PARTEI [NICHT]</a></td>
 <td>Parteizugehörigkeit verbergen (als "anonym" getarnt)</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-hide/">TARNE PARTEI NUMMER nummer</a></td>
 <td>Parteizugehörigkeit tarnen (als andere Partei getarnt)</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-carry/">TRANSPORTIERE einheit-nr</a></td>
 <td>andere Einheiten mitnehmen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[TREIBE [betrag]]</td>
+<td><a href="../cmd-tax/">TREIBE [betrag]</a></td>
 <td>Steuern eintreiben</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[UNTERHALTE [betrag]]</td>
+<td><a href="../cmd-origin/">UNTERHALTE [betrag]</a></td>
 <td>verdient 20 oder mehr Silber</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-origin/">URSPRUNG x y</a></td>
 <td>setzt den Koordinaten-Ursprung</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-forget/">VERGISS talent</a></td>
 <td>vergisst das Talent</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-sell/">VERKAUFE anzahl luxusgut</a></td>
 <td>verkauft Luxusgüter</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 3</td>
+<td>PL<sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-sell/">VERKAUFE ALLES luxusgut</a></td>
@@ -7994,52 +8000,52 @@
 <tr>
 <td><a href="../cmd-leave/">VERLASSE</a></td>
 <td>Schiff oder Gebäude verlassen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[ZAUBERE [REGION x y] [STUFE n] "zauberspruch" [...]]</td>
+<td><a href="../cmd-cast/">ZAUBERE [REGION x y] [STUFE n] "zauberspruch" [...]</a></td>
 <td>Zaubern</td>
-<td><a href="../commands/#kurze-und-lange-befehle">(l)</a> 4</td>
+<td>PL<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE ALLE ZAUBER</a></td>
 <td>zeigt Beschreibung aller bekannten Zauber</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE ALLE TRÄNKE</a></td>
 <td>zeigt Beschreibung aller bekannten Tränke</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE "Gegenstand"</a></td>
 <td>zeigt Beschreibung eines Gegenstands</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE "Trank"</a></td>
 <td>zeigt Beschreibung des Tranks</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE "Zauberspruch"</a></td>
 <td>zeigt Beschreibung des Zaubers</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
 <td><a href="../cmd-show/">ZEIGE "Rasse"</a></td>
 <td>zeigt Beschreibung der Rasse der Einheit</td>
-<td><a href="../commands/#kurze-und-lange-befehle">K</a></td>
+<td>K</td>
 </tr>
 <tr>
-<td>[ZERSTÖRE [stufen]]</td>
+<td><a href="../cmd-destroy/">ZERSTÖRE [stufen]</a></td>
 <td>Gebäude oder Schiff verkleinern</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
-<td>[ZERSTÖRE [stufen]] STRASSE richtung</td>
+<td><a href="../cmd-destroy/">ZERSTÖRE [stufen] STRASSE richtung</a></td>
 <td>Straße einreißen</td>
-<td><a href="../commands/#kurze-und-lange-befehle">L</a></td>
+<td>L</td>
 </tr>
 <tr>
 <td><a href="../cmd-grow/">ZÜCHTE PFERDE</a></td>
@@ -8048,65 +8054,6 @@
 </tr>
 </tbody>
 </table>
-<p>[BENUTZE [anzahl] trank]: ./cmd-use.md</p>
-<p>[BEWACHE [NICHT]]: ./cmd-guard.md
-[BEZAHLE NICHT [gebäude-nr]]: ./cmd-pay-not.md</p>
-<p>[GIB einheit-nr [JE] anzahl PERSONEN]: ./cmd-give.md
-[GIB einheit-nr [JE] anzahl SCHIFF]: ./cmd-give.md
-[GIB einheit-nr [JE] anzahl SILBER]: ./cmd-give.md
-[GIB einheit-nr [JE] anzahl gegenstand]: ./cmd-give.md</p>
-<p>[GRUPPE ["name"]]: ./cmd-group.md
-[HELFE partei-nr ALLES [NICHT]]: ./cmd-help.md
-[HELFE partei-nr GIB [NICHT]]: ./cmd-help.md
-[HELFE partei-nr KÄMPFE [NICHT]]: ./cmd-help.md
-[HELFE partei-nr BEWACHE [NICHT]]: ./cmd-help.md
-[HELFE partei-nr SILBER [NICHT]]: ./cmd-help.md
-[HELFE partei-nr PARTEITARNUNG [NICHT]]: ./cmd-help.md</p>
-<p>[KÄMPFE HELFE [NICHT]]: ./cmd-combat.md</p>
-<p>[KAMPFZAUBER [STUFE n] "zauberspruch" [NICHT]]: ./cmd-combatspell.md</p>
-<p>[LEHRE einheit-nr [einheit-nr etc.]]: ./cmd-teach.md</p>
-<p>[MACHE TEMP unit-alias-nr ["name"]]: ./cmd-make.md
-[MACHE [stufe] gebäude-typ [gebäude-nr]]: ./cmd-make.md
-[MACHE [stufe] schiffstyp]: ./cmd-make.md
-[MACHE [stufe] SCHIFF [schiff-nr]]: ./cmd-make.md</p>
-<p>[MACHE [stufe] STRASSE richtung]: ./cmd-make.md
-[MACHE [anzahl] KRÄUTER]: ./cmd-make.md
-[MACHE [anzahl] trank]: ./cmd-make.md
-[MACHE [anzahl] gegenstand]: ./cmd-make.md
-[NACH richtung [richtung etc.]]: ./cmd-move.md</p>
-<p>[NUMMER EINHEIT [neue_nr]]: ./cmd-number.md
-[NUMMER GEBÄUDE [neue_nr]]: ./cmd-number.md
-[NUMMER PARTEI [neue_nr]]: ./cmd-number.md
-[NUMMER SCHIFF [neue_nr]]: ./cmd-number.md
-[OPTION AUSWERTUNG [NICHT]]: ./cmd-option.md
-[OPTION COMPUTER [NICHT]]: ./cmd-option.md
-[OPTION ZIPPED [NICHT]]: ./cmd-option.md
-[OPTION BZIP2 [NICHT]]: ./cmd-option.md
-[OPTION SILBERPOOL [NICHT]]: ./cmd-option.md
-[OPTION MATERIALPOOL [NICHT]]: ./cmd-option.md
-[OPTION ADRESSEN [NICHT]]: ./cmd-option.md
-[OPTION ZUGVORLAGE [NICHT]]: ./cmd-option.md
-[OPTION STATISTIK [NICHT]]: ./cmd-option.md
-[OPTION TALENTVERSCHIEBUNG [NICHT]]: ./cmd-option.md
-[OPTION PUNKTE [NICHT]]: ./cmd-option.md</p>
-<p>[PFLANZE [anzahl] KRÄUTER]: ./cmd-plant.md
-[PFLANZE [anzahl] BÄUME]: ./cmd-plant.md
-[PFLANZE [anzahl] MALLORNSAMEN]: ./cmd-plant.md
-[PFLANZE [anzahl] SAMEN]: ./cmd-plant.md
-[PIRATERIE [partei_1] [partei_2] [...]]: ./cmd-piracy.md
-[PRÄFIX [präfix]]: ./cmd-prefix.md</p>
-<p>[ROUTE richtung [richtung etc.]]: ./cmd-route.md</p>
-<p>[STIRB "passwort" [PARTEI partei-nr]]: ./cmd-quit.md
-[TARNE [stufe]]: ./cmd-hide.md</p>
-<p>[TARNE PARTEI [NICHT]]: ./cmd-hide.md</p>
-<p>[TREIBE [betrag]]: ./cmd-tax.md
-[UNTERHALTE [betrag]]: ./cmd-entertain.md</p>
-<p>[ZAUBERE [REGION x y] [STUFE n] "zauberspruch" [...]]: ./cmd-cast.md</p>
-<p>[ZERSTÖRE [stufen]]: ./cmd-destroy.md</p>
-<p><sup>1</sup> der Befehl ist nicht immer lang, siehe <a href="../war/#das-ende">Kampfende</a><br />
-<sup>2</sup> bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden<br />
-<sup>3</sup> ein KAUFE- und mehrere VERKAUFE-Befehle können kombiniert werden<br />
-<sup>4</sup> eine Einheit kann mehrere Zauber ausführen</p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands/">Befehle</a></li>
@@ -8114,6 +8061,26 @@
 </ul>
 <p>Weiterlesen: <a href="../first-round/">Der erste Zug</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
+
+<!--[BENUTZE \[anzahl\] trank]: ./cmd-use.md -->
+<!--[BEWACHE \[NICHT\]]: ./cmd-guard.md-->
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>der Befehl ist nicht immer lang, siehe <a href="../war/#das-ende">Kampfende</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>ein KAUFE- und mehrere VERKAUFE-Befehle können kombiniert werden&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>eine Einheit kann mehrere Zauber ausführen&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

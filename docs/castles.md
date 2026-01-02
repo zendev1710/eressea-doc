@@ -10,15 +10,20 @@ They also reduce the likelihood of [[plague]].
 Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry] skill.
 The size at which a castle enters a new category is shown in the table below:
 
-| Type          | Taille |
-|---------------|-------:|
-| Foundation    |      1 |
-| Tradepost     |      2 |
-| Fortification |     10 |
-| Tower         |     50 |
-| Stronghold    |    250 |
-| Fortress      |   1250 |
-| Citadel       |   6250 |
+<!-- TODO: choose best table format -->
+| Size |     1      |     2     |      10       |  50   |    250     |   1250   |  6250+  |
+|------|:----------:|:---------:|:-------------:|:-----:|:----------:|:--------:|:-------:|
+| Type | Foundation | Tradepost | Fortification | Tower | Stronghold | Fortress | Citadel |
+
+| Type          | Size |
+|---------------|-----:|
+| Foundation    |    1 |
+| Tradepost     |    2 |
+| Fortification |   10 |
+| Tower         |   50 |
+| Stronghold    |  250 |
+| Fortress      | 1250 |
+| Citadel       | 6250 |
 
 The larger the castle, the more difficult it is to expand it further. To continue building a castle, you need the masonry skill at the required level.
 Each week, the unit will extend the building by (total skill) / (skill level required) using the same amount of stones.

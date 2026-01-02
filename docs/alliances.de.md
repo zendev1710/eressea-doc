@@ -13,22 +13,27 @@ Dass diese Rechte nicht automatisch gewährt werden, hat seinen Grund: wäre die
 
 Zu den einzelnen Bereichen der Unterstützung:
 
-HELFE GIB  
+## `HELFE GIB`
+
 Die eigenen Einheiten werden alles annehmen, was alliierte Einheiten ihnen geben (Silber, Gegenstände usw.).
 Dies ist quasi ein ständiges [[bef-kontaktiere]] für [[bef-gib]].
 
 !!! warning "Achtung"
-    Für die Übergabe einzelner Personen oder Einheiten an Einheiten einer anderen Partei mit dem Befehl [[bef-gib|GIB fremder-einheit anzahl PERSONEN]] muss weiterhin der [[bef-kontaktiere]]-Befehl explizit von der Empfänger-Partei benutzt werden! Ebenso kann für einige Zauber ein [[bef-kontaktiere]] notwendig sein.
+    Für die Übergabe einzelner Personen oder Einheiten an Einheiten einer anderen Partei mit dem Befehl [[bef-gib|GIB fremder-einheit anzahl PERSONEN]] muss weiterhin der [[bef-kontaktiere]]-Befehl explizit von der Empfänger-Partei benutzt werden!
+    Ebenso kann für einige Zauber ein [[bef-kontaktiere]] notwendig sein.
 
-HELFE KÄMPFE  
+## `HELFE KÄMPFE`
+
 Eigene kampfbereite Einheiten (solche mit Kampfstatus vorne und hinten) werden mit in einen [[krieg|kampf]] eingreifen, wenn die alliierte Partei angegriffen wird.
 
-HELFE SILBER  
+## `HELFE SILBER`
+
 Hiermit unterstützen die eigenen Einheiten die alliierte Partei im Unterhalt, sofern sie nach dem Unterhalt für die eigenen Einheiten noch Silber übrig haben.
 Reicht das Silber der alliierten Einheiten nicht zur Ernährung, werden die eigenen Einheiten mit Silber aushelfen.
 Für das reine Bereitstellen von Unterhalt über HELFE SILBER ist kein HELFE GIB der Empfängerpartei notwendig.
 
-HELFE BEWACHE  
+## `HELFE BEWACHE`
+
 Hebt die behindernden Funktionen von [[bef-bewache]] auf und dehnt die nützlichen Funktionen auf die Zielpartei aus: Normalerweise lassen bewachende Einheiten keine andere Partei [Steuern eintreiben], [rekrutieren] oder endliche [Rohstoffe] abbauen und manchmal werden fremde Einheiten bei der [Durchreise aufgehalten][[bef-bewache]].
 Ist diese Hilfe gesetzt, wird den Einheiten der anderen Partei dieses gestattet und sie können ungehindert durchreisen, abbauen und rekrutieren.
 
@@ -36,10 +41,12 @@ Außerdem dürfen alliierte Parteien eventuell nach langen Kämpfen noch lange B
 
 Schließlich wird hiermit alliierten Parteien erlaubt, eigene Burgen und Schiffe zu [[bef-betrete|betreten]].
 
-HELFE PARTEITARNUNG  
+## `HELFE PARTEITARNUNG`
+
 Wenn man eigene Einheiten mit [bef-tarne|TARNE PARTEI NUMMER xx] mit einer anderen Parteikennung versieht, können Parteien, denen man diesen Helfe-Status gibt, die echte Partei trotzdem erkennen.
 
-HELFE ALLES  
+## `HELFE ALLES`
+
 ist die Zusammenfassung aller einzelnen Bereiche.
 
 ## siehe auch

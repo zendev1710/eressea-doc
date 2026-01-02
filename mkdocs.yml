@@ -83,7 +83,7 @@ theme:
 
 extra_css:
   #- assets/css/extra.css
-  - assets/css/.css
+  - assets/css/fantasy.css
 
 copyright: Copyright &copy; 2025 Cyril Guillon
 

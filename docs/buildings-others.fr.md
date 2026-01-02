@@ -8,10 +8,9 @@ Les bâtiments construits dans une région **procurent des avantages** important
 
 Ils sont construits avec l'ordre [MAKE "type de bâtiment"] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][MAKE "type de bâtiment"].
 
-Exemple : `MAKE`[`Lighthouse`] (création) ou `MAKE`[`Harbour`]`xyz` (agrandissement).
+Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 
 !!! info
-
     La construction d'un bâtiment nécessite un niveau de compétence minimal en [maçonnerie].
 
 > Note : certains bâtiments sont d'une taille maximale déterminée, d'autres non.
@@ -35,14 +34,14 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 | [Port]              |       5 |    5 |   -- |    250 |    3 |        250 | --        |              25 |      taille |
 | [Caravanserail]     |       1 |    5 |    1 |    500 |    2 |       3000 | 2 chevaux |              10 |      taille |
 | [Académie]          |       5 |    5 |    1 |    500 |    3 |       1000 | --        |              25 |      taille |
-| [Tour de mage]\*    |       5 |    3 |    3 |    500 |    5 |       1000 | --        |              50 | 2 personnes |
+| [Tour de mage][^1]  |       5 |    3 |    3 |    500 |    5 |       1000 | --        |              50 | 2 personnes |
 | [Barrage]           |       5 |   10 |    1 |    500 |    4 |       1000 | 3 bois    |              50 |      taille |
 | [Tunnel]            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |             100 |      taille |
 | [Auberge]           |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        | *pas de limite* |      taille |
 | [Monument]          |       1 |    1 |    1 |    400 |    4 |         -- | --        | *pas de limite* |      taille |
 | [Cercle de Pierres] |       5 |    5 |   -- |     -- |    2 |         -- | --        |             100 | 3 personnes |
 
-\*: également 2 mallorns et 2 laens par point de taille
+[^1]: nécessite également 2 mallorns et 2 laens par point de taille.
 
 !!! warning "Attention"
 
@@ -62,20 +61,21 @@ Voir aussi : [Construction d'un château].
 | Coûts par point de taille | 2 pierres, 1 bois, 1 fers, 100 pièces |
 | Niveau requis             | 3                                     |
 | Maintenance par tour      | 100 pièces                            |
-| Taille maximale           | *pas de limite*                       |
-| Capacité                  | 4 units                               |
+| Taille maximale           | --                                    |
+| Capacité                  | 4 unités                              |
 
 | Taille | Perception | Visibilité |
-|--------|------------|------------|
-| 10     | 3          | 1          |
-| 10     | 6          | 2          |
-| 100    | 9          | 3          |
-| 1000   | 12         | 4          |
-| etc    |            |            |
+|-------:|-----------:|:----------:|
+|     10 |          3 |     1      |
+|     10 |          6 |     2      |
+|    100 |          9 |     3      |
+|   1000 |         12 |     4      |
+|    ... |            |            |
 
 Les avantages d'un phare :
 
-- Débutant à la taille 10, Le phare réduit la possibilité qu'un bateau dérive suite à une tempête. Cet effet s'étend à log10 (taille du phare) + 1 régions autour du bâtiment.
+- Débutant à la taille 10, Le phare réduit la possibilité qu'un bateau dérive suite à une tempête.
+  Cet effet s'étend à log10 (taille du phare) + 1 régions autour du bâtiment.
 - Le phare donne aux occupants (jusqu'à 4 unités seulement) des informations sur les bateaux visibles dans un rayon de log10 (taille du phare) + 1 régions. L'unité doit avoir une perception d'au moins distance×3. Un rapport provenant d'une région océanique située à trois hexs de distance ne peut être obtenu que si le phare est d'au moins une taille de 100 et que l'unité a au moins une perception de 9.
 
 ## Mine

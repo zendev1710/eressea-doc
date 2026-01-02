@@ -1,6 +1,14 @@
 /* ---------------------------------------------------------
+   Full width for content area
+--------------------------------------------------------- */
+.md-grid {
+  max-width: initial;
+}
+
+/* ---------------------------------------------------------
    PALETTE FANTASY — MODE CLAIR
 --------------------------------------------------------- */
+/*
 [data-md-color-scheme="fantasy-light"] {
   --fantasy-gold: #c9a86a;
   --fantasy-blue: #2e4a62;
@@ -9,10 +17,11 @@
   --md-primary-fg-color: var(--fantasy-blue);
   --md-accent-fg-color: var(--fantasy-gold);
 }
-
+*/
 /* ---------------------------------------------------------
    PALETTE FANTASY — MODE SOMBRE
 --------------------------------------------------------- */
+/*
 [data-md-color-scheme="fantasy-dark"] {
   --fantasy-gold: #d8c28a;
   --fantasy-blue: #1c2d3a;
@@ -21,7 +30,7 @@
   --md-primary-fg-color: var(--fantasy-gold);
   --md-accent-fg-color: var(--fantasy-gold);
 }
-
+*/
 /* ---------------------------------------------------------
    TITRES AVEC TOUCHE FANTASY
 --------------------------------------------------------- */
@@ -45,20 +54,24 @@ hr.fancy-sep {
 /* ---------------------------------------------------------
    ENCARTS (admonitions) PLUS ÉLÉGANTS
 --------------------------------------------------------- */
+/* left border disapeears ! */
+/*
 .md-typeset .admonition {
   border-left: 4px solid var(--fantasy-gold);
 }
+*/
 
 /* ---------------------------------------------------------
    LIENS DORÉS
 --------------------------------------------------------- */
+/*
 .md-typeset a {
   color: var(--fantasy-gold);
 }
 .md-typeset a:hover {
   color: var(--md-primary-fg-color);
 }
-
+*/
 /* ---------------------------------------------------------
    ICÔNES (pour plus tard)
    --------------------------------------------------------- */
@@ -83,7 +96,6 @@ hr.fancy-sep {
   vertical-align: middle;
 }
 
-
 /*
    .icon {
   width: 28px;
@@ -91,4 +103,12 @@ hr.fancy-sep {
   vertical-align: middle;
   margin-right: 0.4em;
   fill: currentColor;
+}*/
+
+/* --------------------------
+  TABLEAUX PLUS SERRÉS padding: 4px 8px;
+  ---------------------- */
+/*.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+    padding: 8px 4px;
 }*/

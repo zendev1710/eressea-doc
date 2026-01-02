@@ -136,7 +136,7 @@ Pour en savoir plus, consulte le chapitre sur [[argent|l'argent]].
 
 ### Dissimulation & Co
 
-[espionage], [stealth] et [[camouflage|perception]] sont centrés sur la dissimulation.
+[espionnage], [stealth] et [[camouflage|perception]] sont centrés sur la dissimulation.
 Elles ont leur propre chapitre.
 
 ### Pour les déplacements
@@ -160,5 +160,5 @@ Poursuivre la lecture : [[liste-des-competences]].
 [académie]: ./buildings-others.md#academie
 [alchimie]: ./skills-list.md#alchimie
 [herboristerie]: ./skills-list.md#herboristerie
-[espionage]: ./skills-list.md#espionnage
+[espionnage]: ./skills-list.md#espionnage
 [stealth]: ./camouflage.md#vols-de-silver

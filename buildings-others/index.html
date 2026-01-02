@@ -61,7 +61,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/css/.css">
+      <link rel="stylesheet" href="../assets/css/fantasy.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -7686,11 +7686,11 @@
 <h1 id="other-buildings">Other Buildings<a class="headerlink" href="#other-buildings" title="Permanent link">&para;</a></h1>
 <p>Buildings are built with the <a href="../cmd-make/"><code>MAKE "building type"</code></a> order and can be enlarged with <a href="../cmd-make/"><code>MAKE "building type" building-id</code></a>.  </p>
 <p>Examples:</p>
-<p><code>MAKE``</code><a href="#lighthouse">Lighthouse</a> or <code>MAKE``</code><a href="#harbour">Harbour</a><code>``xyz</code>. These buildings require a minimum level in Masonry skill, which is indicated in the table. Some buildings are of a specific size.</p>
+<p><code>MAKE</code>&nbsp;<a href="#lighthouse">Lighthouse</a> or <code>MAKE</code>&nbsp;<a href="#harbour">Harbour</a>&nbsp;<code>xyz</code>.
+These buildings require a minimum level in Masonry skill, which is indicated in the table. Some buildings are of a specific size.</p>
 <p>Here is a summarized table, more detailed explanations follow below.</p>
 <p>Building; see also table on <a href="../castles/">building castles</a>  </p>
-<p>The capacity refers only to the persons who can benefit from the building.<br />
-*: also 2 Mallorn and 2 Laen per size point</p>
+<p>The capacity refers only to the persons who can benefit from the building.  </p>
 <table>
 <thead>
 <tr>
@@ -7828,7 +7828,7 @@
 <td>size</td>
 </tr>
 <tr>
-<td><a href="#mage-tower">Mage Tower</a>*</td>
+<td><a href="#mage-tower">Mage Tower</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 <td>5</td>
 <td>3</td>
 <td>3</td>
@@ -7969,7 +7969,8 @@
 </tbody>
 </table>
 <ul>
-<li>Beginning from size 10, a lighthouse reduces the possibility that a ship drifts off. This effect extends 1+ log10(size of the lighthouse) regions around the building.</li>
+<li>Beginning from size 10, a lighthouse reduces the possibility that a ship drifts off.
+  This effect extends 1+ log10(size of the lighthouse) regions around the building.</li>
 <li>The lighthouse gives the occupants (only up to 4 units) information about ship sightings in all ocean regions within a radius of 1 + log10(lighthouse size) regions. The unit must have a perception of at least distance * 3. A report from an ocean region three hexes away can only be obtained if the lighthouse is at least size 100 and the unit has at least perception 9.</li>
 </ul>
 <h2 id="mine">Mine<a class="headerlink" href="#mine" title="Permanent link">&para;</a></h2>
@@ -8523,6 +8524,14 @@ You can then immediately cut them with a sawmill, producing 20 wood.</p>
 <li><a href="../production/">Production</a></li>
 </ul>
 <p>Continue reading: <a href="../faction-pool/">Faction pool</a>.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>also needs 2 Mallorn and 2 Laen per size point.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

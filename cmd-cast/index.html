@@ -7317,19 +7317,30 @@
 
 
 <h1 id="cast">CAST<a class="headerlink" href="#cast" title="Permanent link">&para;</a></h1>
-<p><strong><code>CAST</code></strong>[<sup><code>(l)</code></sup>]<code>[REGION</code><em><code>x</code></em><code></code><em><code>y</code></em><code>] [LEVEL</code><em><code>nr</code></em><code>] "</code><em><code>Spell</code></em><code>" [</code><em><code>parameter</code></em><code>] ...</code></p>
-<p>With this order, a mage unit will attempt to cast the named spell.</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] Although CAST is not a long order, it excludes other long orders. But you can cast other spells.</p>
+<p><em><a href="../commands/#short-and-long-orders">Short</a> order <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</em>  </p>
+<p><strong><code>CAST</code></strong><code>[REGION</code><em><code>x</code></em><code></code><em><code>y</code></em><code>] [LEVEL</code><em><code>nr</code></em><code>] "</code><em><code>Spell</code></em><code>" [</code><em><code>parameter</code></em><code>] ...</code></p>
+<p>With this order, a mage unit will attempt to cast the named spell.  </p>
 <p>Please note that the REGION and LEVEL modifiers do not apply to every spell.
 REGION can only be used with <a href="../magic/#ranged-spells">ranged spells</a>, and LEVEL only makes sense with variable <a href="../magic/#components">cost</a> spells.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Some spells have additional parameters.</p>
 </div>
-<p>The use of the spells is explained in more detail in the <a href="../magic/">Magic</a> chapter, and can also be found in the spell description itself.
-You get this when you get the spell again and can use it with <a href="../cmd-show/"><code>SHOW ALL SPELLS</code></a> display again.</p>
-<p>Combat spells cannot simply be cast. If you want to use this against a unit, you have to set the <a href="../cmd-combatspell/">COMBATSPELL</a> and then <a href="../cmd-attack/">attack</a> a unit or be attacked. However, this can lead to bigger battles!</p>
+<p>The use of the spells is explained in more detail in the <a href="../magic/">Magic</a> chapter, and can also be found in the spell description itself.<br />
+You get this when you get the spell again and can use it with <a href="../cmd-show/"><code>SHOW ALL SPELLS</code></a> display again.  </p>
+<p>Combat spells cannot simply be cast.<br />
+If you want to use this against a unit, you have to set the <a href="../cmd-combatspell/">COMBATSPELL</a> and then <a href="../cmd-attack/">attack</a> a unit (or be attacked).<br />
+However, this can lead to bigger battles!  </p>
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>although <code>CAST</code> is not a long order, it excludes other long orders. But you can cast other spells.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

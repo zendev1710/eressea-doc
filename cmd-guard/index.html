@@ -7386,35 +7386,50 @@
 <h1 id="guard">GUARD<a class="headerlink" href="#guard" title="Permanent link">&para;</a></h1>
 <p><strong><code>GUARD</code></strong><code>[NOT]</code></p>
 <p>Units can guard their region.
-To do so, the unit must be <a href="../armed/">Armed</a> with at least one <a href="../war-tables/#weapon-properties">weapon</a> and possess the appropriate weapon skill.
-Ocean regions cannot be guarded.</p>
-<p>When a faction is guarding a region, units that are not allied with it are subject to <a href="../alliances/">alliances</a> (<a href="../cmd-help/"><code>HELP GUARD</code></a> or <a href="../cmd-contact/">CONTACT</a>), the following restrictions:</p>
-<ul>
-<li>You can no longer collect taxes, mine raw materials, <a href="../silver/#trade">trade</a> or recruit farmers in this region</li>
-<li>You can no longer collect taxes, mine resources, <a href="../silver/#trade">trade</a> or recruit farmers in this region</li>
-<li>There is a certain probability that you will be stopped in transit</li>
-<li>If you are on a ship, you cannot <a href="../cmd-work/">WORK</a>, <a href="../cmd-entertain/">ENTERTAIN</a>, <a href="../cmd-attack/">ATTACK</a> or move overland immediately.
-  In order to be able to carry out the actions the following week, you must first have the ship <a href="../cmd-leave/">LEAVE</a></li>
-</ul>
-<p>If the unit is not seen, for example because it has a higher Stealth Talent than the guarding party's best Perception Talent in the region, the first two restrictions do not apply.</p>
-<p>However, it is very possible to have conversations on land in a guarded region, even if the guard has not set HELP GUARD.
-However, this is not possible if the entertainer unit is on board a ship.</p>
-<p>If several parties give the GUARD command at the same time or one after the other, they all guard the region.
-Only for parties with*everyone*guarding parties are allied, the above restrictions do not apply.</p>
-<p>Parties with*at least one*Allied guards can continue to carry out orders (possibly with the exceptions above) for a long time despite fighting (see <a href="../war/#the-end">End of battle</a>).</p>
-<p>In the round in which the<code>GUARD</code>-Order has been given, all of these restrictions do not apply yet, because the guarding unit first has to find out where foreign units could collect silver, etc.
-The guarding unit immediately becomes visible to all other units in the region, regardless of how high its stealth talent is.</p>
-<p>With<code>GUARD NOT</code>The guard status of a unit is dissolved.
-This also happens when the unit is moving.
-Units with the combat status <a href="../cmd-combat/">COMBAT FLEE</a> cannot guard, and units from which all survivors flee during combat also stop guarding.</p>
-<p>When a unit travels through a region guarded by at least one non-allied faction, the chance of being stopped depends on several factors: it is increased by the number of enemy guards, the region type (it becomes more difficult in swamps, glaciers, mountains and volcanoes), the perception talent of the enemy guards, Amulets of True Seeing, and the size of the region owner's castle if they are not allied.
-It is reduced by the number of allied guards and the unit's stealth skill, as well as rings of invisibility.</p>
+To do so, the unit must be <a href="../armed/">Armed</a> with at least one <a href="../war-tables/#weapon-properties">weapon</a> and possess the appropriate weapon skill.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><a href="../monsters/">Monster</a> faction (ii) units are generally considered armed due to their claws, teeth, claws and other extremities, even if they do not carry a visible weapon.
+<p>Ocean regions cannot be guarded.</p>
+</div>
+<p>When a faction is guarding a region, units that are not allied with it are subject to <a href="../alliances/">alliances</a> (<a href="../cmd-help/"><code>HELP GUARD</code></a> or <a href="../cmd-contact/">CONTACT</a>), with the following restrictions:</p>
+<ol>
+<li>You can no longer collect taxes, mine raw materials, <a href="../silver/#trade">trade</a> or recruit farmers in this region</li>
+<li>There is a certain probability that you will be stopped in transit</li>
+<li>If you are on a ship, you cannot <a href="../cmd-work/">WORK</a>, <a href="../cmd-entertain/">ENTERTAIN</a>, <a href="../cmd-attack/">ATTACK</a> or move overland immediately.
+   In order to be able to carry out the actions the following week, you must first <a href="../cmd-leave/">LEAVE</a> the ship</li>
+</ol>
+<p>If the unit is not seen, for example because it has a higher Stealth skill than the guarding faction's best Perception skill in the region, the first two restrictions do not apply.</p>
+<p>However, it is very possible to <a href="../skills-list/#entertainment">entertain</a> on land in a guarded region, even if the guard has not set <code>HELP GUARD</code>.<br />
+This is not possible if the entertainer unit is on board a ship.  </p>
+<p>If several factions give the <code>GUARD</code> order at the same time or one after the other, they all guard the region.<br />
+For factions with <strong>everyone</strong> guarding, factions are allied, and the above restrictions do not apply.  </p>
+<p>Factions with <strong>at least one</strong> allied guard can continue to carry out orders (possibly with the exceptions above) for a long time despite fighting (see <a href="../war/#the-end">End of battle</a>).</p>
+<p>In the round in which the <code>GUARD</code> order has been given, all of these restrictions do not apply yet, because the guarding unit first has to find out where foreign units could collect silver, etc.<br />
+The guarding unit immediately becomes visible to all other units in the region, regardless of how high its stealth skill is.</p>
+<p>With <code>GUARD NOT</code> the guard status of a unit is dissolved.<br />
+This also happens when the unit is moving.<br />
+Units with the combat status <a href="../cmd-combat/">COMBAT FLEE</a> cannot guard, and units from which all survivors flee during combat also stop guarding.  </p>
+<p>When a unit travels through a region guarded by at least one non-allied faction, the chance of being stopped depends on several factors.</p>
+<p>It is increased by :</p>
+<ul>
+<li>the number of enemy guards</li>
+<li>the region type (it becomes more difficult in swamps, glaciers, mountains and volcanoes)</li>
+<li>the perception skill of the enemy guards</li>
+<li>the use of an Amulets of True Seeing</li>
+<li>the size of the region owner's castle if he is not an ally</li>
+</ul>
+<p>It is reduced by :</p>
+<ul>
+<li>the number of allied guards</li>
+<li>the moving unit's stealth skill</li>
+<li>the use of a Ring of invisibility</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a href="../monsters/">Monster</a> faction (ii) units are generally considered armed due to their claws, teeth and other extremities, even if they do not carry a visible weapon.<br />
 This also applies to monsters magically summoned by players.</p>
 </div>
-<p>In the <a href="../puppy-protection/">first few weeks</a> your faction cannot guard yet.</p>
+<p>In the <a href="../puppy-protection/">first few weeks</a> a faction cannot guard yet.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-help/"><code>HELP GUARD</code></a></li>

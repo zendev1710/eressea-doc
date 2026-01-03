@@ -7384,31 +7384,33 @@
 
 
 <h1 id="carry">CARRY<a class="headerlink" href="#carry" title="Permanent link">&para;</a></h1>
-<p><em><code>RIDE</code> is a <a href="../commands/#short-and-long-orders">long</a> order. <code>CARRY</code> is short, but of course only makes sense if the unit executes a (long) movement order.</em></p>
+<p><em><code>RIDE</code> is a <a href="../commands/#short-and-long-orders">long</a> order.</em><br />
+<em><code>CARRY</code> is short, but of course only makes sense if the unit executes a (long) movement order.</em>  </p>
 <p><strong><code>RIDE</code></strong><code></code><em><code>unit-id</code></em><br />
 <strong><code>CARRY</code></strong><code></code><em><code>unit-id</code></em>  </p>
 <p>With the order <code>RIDE</code> a unit joins a transporting unit and can be separated from it if it receives the order <code>CARRY</code> given for the traveling unit.
 With this order it is possible to travel on horses or carts even without the riding skill.
 The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.</p>
-<div class="highlight"><pre><span></span><code>Partei 125:
+<div class="highlight"><pre><span></span><code>PARTEI 125:
     UNIT 311
         RIDE 456 ; ich will mitfahren
         CONTACT 456
     [...]
   
-Partei 300:
+PARTEI 300:
     UNIT 777
         RIDE 456 ; ich will mitfahren
   
-Partei 300:
+PARTEI 300:
     UNIT 456
         CARRY 311 ; Lasse 311 mitfahren
         CARRY 777 ; und 777 wird auch mitgenommen
         CONTACT 311
 </code></pre></div>
+<p>Restrictive rules:</p>
 <ul>
 <li><a href="../races/#aquarians">Aquarians</a> cannot transport other races when <a href="../sailing/#swimming">swimming</a>, nor can they take horses or chariots with them</li>
-<li><a href="../races/#insects">Insects</a> can also be found by means of <code>CARRY</code> not be brought into or through a glacier</li>
+<li><a href="../races/#insects">Insects</a> can also be transported by means of <code>CARRY</code>, but cannot be brought into or through a glacier</li>
 </ul>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>

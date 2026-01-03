@@ -1970,7 +1970,7 @@
   <span class="md-ellipsis">
     
   
-    Armé
+    Armé et prêt au combat
   
 
     
@@ -6542,7 +6542,7 @@
   <span class="md-ellipsis">
     
   
-    Épée flamboyante
+    Épée de Flammes
   
 
     
@@ -7384,34 +7384,43 @@
 
 
 <h1 id="buy">BUY<a class="headerlink" href="#buy" title="Permanent link">&para;</a></h1>
-<p><strong><code>BUY</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>number</code></em><code></code><em><code>luxury goods</code></em>  </p>
-<p>Si l'unité possède la compétence [Commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.
-Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.
-In order to buy something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>BUY</code> is like <a href="../cmd-sell/">SELL</a> a ["pseudo-long" command].
-You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.
-BUY orders have priority over sales.</p>
-<p>Les ordres <code>BUY</code> sont généralement accompagnés d'ordres <code>SELL</code>.
-Cependant, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.
-Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres <code>BUY</code> et <code>SELL</code> achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.</p>
-<p>Example:</p>
+<p><em><code>BUY</code> est, comme <a href="../cmd-sell/">SELL</a>, un ordre <a href="../commands/#ordres-courts-et-longs">pseudo-long</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</em>  </p>
+<p><strong><code>BUY</code></strong><code></code><em><code>nombre</code></em><code></code><em><code>produits de luxe</code></em>  </p>
+<p>Si l'unité possède la compétence <a href="../silver/#commerce">Commerce</a>, elle tentera d'acheter le nombre de produits de luxe renseigné.<br />
+Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.<br />
+Pour acheter quelque chose, aucun contact avec le seigneur du château n'est nécessaire;<br />
+Néanmoins, il est bien sûr plus diplomatique de demander au préalable...</p>
+<p>Les ordres <code>BUY</code> sont généralement accompagnés d'ordres <code>SELL</code>.<br />
+Cependant, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.<br />
+Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres <code>BUY</code> et <code>SELL</code> achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.  </p>
+<p>Exemple :</p>
 <div class="highlight"><pre><span></span><code>UNIT hndl;     Barker [1, $1000]
     ; Trade 3 [180]
     SELL 15 jewel
     SELL 15 Oil
     BUY 10 Incense
 </code></pre></div>
-<p>Ce marchand achètera 10 encens et vendra un total de 20 bijoux et de l'huile.
-Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.</p>
-<p>Une seule commande apparaît dans le rapport standard.
-Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.
-Dans le rapport informatique et le <a href="../commands/">modèle d'ordres</a> tous les ordres <code>BUY</code> et <code>SELL</code> sont répertoriés.</p>
+<p>Ce marchand achètera 10 encens et vendra un total de 20 bijoux et de l'huile.<br />
+Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.  </p>
+<p>Une seule commande apparaît dans le rapport standard.<br />
+Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.<br />
+Dans le rapport informatique et le <a href="../commands/">modèle d'ordres</a> tous les ordres <code>BUY</code> et <code>SELL</code> sont répertoriés.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../silver/#commerce">trade</a></li>
+<li>[trade]</li>
 <li><a href="../cmd-sell/">SELL</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Vous pouvez mettre en œuvre un total de niveau de compétence (commerce) x 10 produits de luxe, mais vous ne pouvez pas passer d'autres ordres longs.<br />
+Les ordres <code>BUY</code> sont prioritaires sur les ventes.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

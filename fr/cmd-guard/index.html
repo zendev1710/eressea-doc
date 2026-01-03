@@ -1970,7 +1970,7 @@
   <span class="md-ellipsis">
     
   
-    Armé
+    Armé et prêt au combat
   
 
     
@@ -3395,6 +3395,61 @@
       Table des matières
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#garde-dune-region-par-une-faction-non-alliee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garde d'une région par une faction non alliée
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gardes-multiples-dans-une-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gardes multiples dans une région
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dissolution-de-la-garde" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dissolution de la garde
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garde-et-mouvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garde et mouvement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#particularites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Particularités
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
@@ -6542,7 +6597,7 @@
   <span class="md-ellipsis">
     
   
-    Épée flamboyante
+    Épée de Flammes
   
 
     
@@ -7305,6 +7360,61 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#garde-dune-region-par-une-faction-non-alliee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garde d'une région par une faction non alliée
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gardes-multiples-dans-une-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gardes multiples dans une région
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dissolution-de-la-garde" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dissolution de la garde
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garde-et-mouvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garde et mouvement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#particularites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Particularités
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7385,37 +7495,57 @@
 
 <h1 id="guard">GUARD<a class="headerlink" href="#guard" title="Permanent link">&para;</a></h1>
 <p><strong><code>GUARD</code></strong><code>[NOT]</code></p>
-<p>Les unités peuvent garder leur région.
-Pour ce faire, elles doivent être <a href="../armed/">prêtes au combat</a>, équipées d'au moins une <a href="../war-tables/#armes-et-leurs-proprietes">arme</a> et posséder la compétence d'armement appropriée.
-Les régions océaniques ne peuvent être gardées.</p>
-<!-- TODO: translate in french -->
-<p>When a faction is guarding a region, units that are not allied with it are subject to <a href="../alliances/">alliances</a> (<a href="../cmd-help/"><code>HELP GUARD</code></a> or <a href="../cmd-contact/">CONTACT</a>), the following restrictions:</p>
-<ul>
-<li>You can no longer collect taxes, mine raw materials, <a href="../silver/#commerce">trade</a> or recruit farmers in this region</li>
-<li>You can no longer collect taxes, mine resources, <a href="../silver/#commerce">trade</a> or recruit farmers in this region</li>
-<li>There is a certain probability that you will be stopped in transit</li>
-<li>If you are on a ship, you cannot <a href="../cmd-work/">WORK</a>, <a href="../cmd-entertain/">ENTERTAIN</a>, <a href="../cmd-attack/">ATTACK</a> or move overland immediately.
-  In order to be able to carry out the actions the following week, you must first have the ship <a href="../cmd-leave/">LEAVE</a></li>
-</ul>
-<p>If the unit is not seen, for example because it has a higher Stealth Talent than the guarding party's best Perception Talent in the region, the first two restrictions do not apply.</p>
-<p>However, it is very possible to have conversations on land in a guarded region, even if the guard has not set HELP GUARD.
-However, this is not possible if the entertainer unit is on board a ship.</p>
-<p>If several parties give the GUARD command at the same time or one after the other, they all guard the region.
-Only for parties with*everyone*guarding parties are allied, the above restrictions do not apply.</p>
-<p>Parties with*at least one*Allied guards can continue to carry out orders (possibly with the exceptions above) for a long time despite fighting (see <a href="../war/#fin-du-combat">End of battle</a>).</p>
-<p>In the round in which the<code>GUARD</code>-Order has been given, all of these restrictions do not apply yet, because the guarding unit first has to find out where foreign units could collect silver, etc.
-The guarding unit immediately becomes visible to all other units in the region, regardless of how high its stealth talent is.</p>
-<p>With<code>GUARD NOT</code>The guard status of a unit is dissolved.
-This also happens when the unit is moving.
-Units with the combat status <a href="../cmd-combat/">COMBAT FLEE</a> cannot guard, and units from which all survivors flee during combat also stop guarding.</p>
-<p>When a unit travels through a region guarded by at least one non-allied faction, the chance of being stopped depends on several factors: it is increased by the number of enemy guards, the region type (it becomes more difficult in swamps, glaciers, mountains and volcanoes), the perception talent of the enemy guards, Amulets of True Seeing, and the size of the region owner's castle if they are not allied.
-It is reduced by the number of allied guards and the unit's stealth skill, as well as rings of invisibility.</p>
+<p>Les unités peuvent garder leur région.<br />
+Pour cela, elles doivent être <a href="../armed/">armées et prêtes au combat</a>, c'est à dire équipées d'au moins une <a href="../war-tables/#armes-et-leurs-proprietes">arme</a> et posséder la compétence de maniement de l'arme appropriée.  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><a href="../monsters/">Monster</a> faction (ii) units are generally considered armed due to their claws, teeth, claws and other extremities, even if they do not carry a visible weapon.
-This also applies to monsters magically summoned by players.</p>
+<p>Les régions océaniques ne peuvent être gardées.  </p>
 </div>
-<p>In the <a href="../puppy-protection/">first few weeks</a> your faction cannot guard yet.</p>
+<h2 id="garde-dune-region-par-une-faction-non-alliee">Garde d'une région par une faction non alliée<a class="headerlink" href="#garde-dune-region-par-une-faction-non-alliee" title="Permanent link">&para;</a></h2>
+<p>Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux <a href="../alliances/">alliances</a> (<a href="../cmd-help/"><code>HELP GUARD</code></a> ou <a href="../cmd-contact/">CONTACT</a>).<br />
+Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions suivantes s'appliquent :</p>
+<ol>
+<li>Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de <a href="../silver/#commerce">faire du commerce</a> ou de recruter des agriculteurs dans cette région</li>
+<li>Il y a une certaine probabilité que tes unités en mouvement soient stoppées</li>
+<li>Si ton unité est sur un navire, elle ne pourra pas <a href="../cmd-work/">travailler</a>, <a href="../cmd-entertain/">divertir</a>, ou <a href="../cmd-attack/">attaquer</a>, ni se déplacer immédiatement par voie terrestre.
+  Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord <a href="../cmd-leave/">quitter</a> le bateau</li>
+</ol>
+<p>Si l'unité n'est pas visible, parce qu'elle possède une compétence de camouflage de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.</p>
+<p>Dans tous les cas, il est tout à fait possible de <a href="../skills-list/#divertissement">divertir</a> à terre dans une région gardée, même si le gardien n'a pas activé l'ordre <code>HELP GUARD</code>.<br />
+Cela n'est pas possible si l'unité de divertissement se trouve à bord d'un navire.  </p>
+<p>Dans le tour au cours duquel l'ordre  <code>GUARD</code> a été donné, toutes ces restrictions ne s'appliquent pas encore, car l'unité de garde doit d'abord découvrir où les unités étrangères pourraient collecter de l'argent, etc.<br />
+L'unité de garde devient immédiatement visible par toutes les autres unités de la région, quel que soit son niveau de furtivité.</p>
+<h2 id="gardes-multiples-dans-une-region">Gardes multiples dans une région<a class="headerlink" href="#gardes-multiples-dans-une-region" title="Permanent link">&para;</a></h2>
+<p>Si plusieurs factions donnent l'ordre <code>GUARD</code> en même temps ou les uns après les autres, ils gardent tous la région.
+Pour les factions où <strong>tout le monde</strong> garde, les factions sont alliées, et les restrictions ci-dessus ne s'appliquent pas.</p>
+<p>Les factions avec <strong>au moins un</strong> garde allié peuvent continuer à exécuter les ordres (éventuellement avec les exceptions ci-dessus) pendant une longue période malgré les combats (voir <a href="../war/#fin-du-combat">Fin de bataille</a>).</p>
+<h2 id="dissolution-de-la-garde">Dissolution de la garde<a class="headerlink" href="#dissolution-de-la-garde" title="Permanent link">&para;</a></h2>
+<p>Avec <code>GUARD NOT</code>, le statut de garde d'une unité est dissous.<br />
+Cela se produit également lorsque l'unité est en mouvement.<br />
+Les unités avec le statut de combat <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> ne peuvent pas garder, et les unités dont tous les survivants fuient pendant le combat cessent également de garder.  </p>
+<h2 id="garde-et-mouvement">Garde et mouvement<a class="headerlink" href="#garde-et-mouvement" title="Permanent link">&para;</a></h2>
+<p>Lorsqu'une unité traverse une région gardée par au moins une faction non alliée, la probabilité d'être stoppée dans son mouvement dépend de plusieurs facteurs.  </p>
+<p>La probabilité d'être stoppée augmente avec :</p>
+<ul>
+<li>le nombre de gardes ennemis</li>
+<li>le type de région (la probabilité est moindre dans les marais, les glaciers, les montagnes et les volcans)</li>
+<li>la compétence de perception des gardes ennemis</li>
+<li>l'utilisation d'une Amulette de Vision Décuplée</li>
+<li>la taille du château du propriétaire de la région s'ils n'est pas un allié</li>
+</ul>
+<p>La probabilité d'être stoppée décroit avec :</p>
+<ul>
+<li>le nombre de gardes alliés</li>
+<li>la compétence de furtivité de l'unité en mouvement</li>
+<li>l'utilisation d'un anneau d'invisibilité</li>
+</ul>
+<h2 id="particularites">Particularités<a class="headerlink" href="#particularites" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les <a href="../monsters/">Monstre</a> (ii) sont généralement considérés comme armés en raison de leurs griffes, dents et autres extrémités, même si elles ne portent pas d'arme visible.<br />
+Cela s'applique également aux monstres invoqués par magie par les joueurs</p>
+</div>
+<p>Au cours des <a href="../puppy-protection/">premières semaines</a>, une faction ne peut pas encore assurer la garde.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-help/"><code>HELP GUARD</code></a></li>

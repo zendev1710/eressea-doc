@@ -35,7 +35,7 @@
     
     
       
-        <title>Alchemy - Eressea</title>
+        <title>Alchimie - Eressea</title>
       
     
     
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#alchemy" class="md-skip">
+        <a href="#alchimie" class="md-skip">
           Aller au contenu
         </a>
       
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Alchemy
+              Alchimie
             
           </span>
         </div>
@@ -2288,7 +2288,7 @@
   <span class="md-ellipsis">
     
   
-    Alchemy
+    Alchimie
   
 
     
@@ -2306,7 +2306,7 @@
   <span class="md-ellipsis">
     
   
-    Alchemy
+    Alchimie
   
 
     
@@ -2525,10 +2525,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tableau-des-plantes" class="md-nav__link">
+  <a href="#plantes-et-leur-utilisation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tableau des plantes
+        Plantes et leur utilisation
       
     </span>
   </a>
@@ -6506,6 +6506,8 @@
       
         
       
+        
+      
     
     
     
@@ -6594,6 +6596,34 @@
     
   
     Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../laen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laen
   
 
     
@@ -7661,10 +7691,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tableau-des-plantes" class="md-nav__link">
+  <a href="#plantes-et-leur-utilisation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tableau des plantes
+        Plantes et leur utilisation
       
     </span>
   </a>
@@ -7739,19 +7769,19 @@
   
 
 
-<h1 id="alchemy">Alchemy<a class="headerlink" href="#alchemy" title="Permanent link">&para;</a></h1>
+<h1 id="alchimie">Alchimie<a class="headerlink" href="#alchimie" title="Permanent link">&para;</a></h1>
 <h2 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h2>
-<p>Les <strong>potions</strong> alchimiques sont préparées à l'aide de <a href="../herbs/">plantes</a> et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle unité.
+<p>Les <strong>potions</strong> alchimiques sont préparées à l'aide de <a href="../herbs/">plantes</a> et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle <strong>unité</strong>.
 Pour fabriquer une potion, il faut des unités avec la compétence <a href="../skills-list/#alchimie">Alchemy</a>, et pour trouver les plantes nécessaires, il faut des unités avec la compétence <a href="../skills-list/#herboristerie">Herbalism</a>.</p>
-<p>Les potions sont créées avec l'ordre <a href="../cmd-make/"><code>MAKE "&lt;nom de la potion&gt;"</code></a>.
-Chaque potion nécessite plusieurs ingrédients.
+<p>Les potions sont produites avec l'ordre <a href="../cmd-make/"><code>MAKE "&lt;nom de la potion&gt;"</code></a>.
+Une potion nécessite plusieurs ingrédients.
 Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter.
 Plus tard, on pourra les retrouver avec la commande <a href="../cmd-show/">SHOW</a>.
 Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion.
 Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion*2) potions.
 Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.</p>
-<p>Si vous souhaitez utiliser une potion, vous le faites avec l'ordre <a href="../cmd-use/">USE &#91;quantité&#93; "&lt;nom de la potion&gt;" &#91;ID d'unité&#93;</a>.
-<em>L'identifiants d'unité (ID)</em> ne doit être spécifié que pour la potion Duncebun.</p>
+<p>Si vous souhaitez utiliser une potion, vous le faites avec l'ordre <a href="../cmd-use/">USE &#91;quantité&#93; "&lt;nom de la potion&gt;" &#91;ID d'unité&#93;</a>.<br />
+<em>L'identifiant d'unité (ID)</em> ne doit être spécifié <strong>uniquement</strong> pour la potion <strong><a href="#duncebun">Duncebun</a></strong>.</p>
 <p>Une potion ne peut pas être divisée entre plusieurs unités.
 On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.</p>
 <p>La plupart des potions profitent à l'unité qui les utilise.
@@ -7761,14 +7791,16 @@ Les potions qui affectent les objets d'une unité expirent si elles ne peuvent p
 De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes.
 Cela n'est pas possible avec la potion "berserks blood", car les personnes n'agissent pas comme une unité au combat.
 Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la potion avant le combat, sinon cela ne fonctionnera pas !</p>
-<p>L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exemple, une personne peut bénéficier de l'effet de "Brain wax" ou de "busybeers" pendant dix semaines après l'avoir utilisé.</p>
+<p>L'"effet résiduel" des potions n'expire pas pour toutes les potions;
+par exemple, une personne peut bénéficier de l'effet de "Brain wax" ou de "busybeer" pendant dix semaines après l'avoir utilisé.</p>
 <h3 id="berserkers-blood">Berserkers blood<a class="headerlink" href="#berserkers-blood" title="Permanent link">&para;</a></h3>
 <dl>
 <dd>10 personnes reçoivent un modificateur d'attaque <strong>de +1</strong> au combat.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 3.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> renforcer l'attaque.<br />
+<em>Niveau requis :</em> <strong>3</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 flatroot</li>
 <li>1 mandrake</li>
@@ -7779,9 +7811,10 @@ Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la
 <dl>
 <dd>jusqu'à 10 personnes : augmente les chances <strong>d'apprentissage d'une compétence</strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 3.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> accélérer l'apprentisssage.<br />
+<em>Niveau requis :</em> <strong>3</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 bugleweed</li>
 <li>1 rock weed</li>
@@ -7792,9 +7825,10 @@ Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la
 <dl>
 <dd><strong>Double la productivité</strong> de 10 hommes utilisant l'ordre <strong><code>MAKE</code></strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 2.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> accélérer la production.<br />
+<em>Niveau requis :</em> <strong>2</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 gapgrowth</li>
 <li>1 mandrake</li>
@@ -7804,9 +7838,10 @@ Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la
 <dl>
 <dd>pour 10 personnes : pas d'apprentissage où l'enseignant n'apporte rien ou oublie 1 semaine de la meilleure compétence.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 3.<br />
-<strong>Cible</strong>: unité [étrangère].  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> ralentir l'apprentidssage d'une unité (adverse).<br />
+<em>Niveau requis :</em> <strong>3</strong>.<br />
+<em>Cible :</em> unité [étrangère].  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 cave lichen</li>
 <li>1 fjord fungus</li>
@@ -7815,17 +7850,18 @@ Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You can apply it to a unité with the order USE "Duncebun" &lt;unit−id&gt;.<br />
-The application of the potion fails if the STEALTH skill of the acting unité is less or equal to the victim's PERCEPTION+2.
-In this case, you get an error message and the Duncebun is not used up (thus it remains to the unité).</p>
+<p>Vous pouvez l'appliquer à une unité avec la commande <code>USE "Duncebun" &lt;ID unité cible&gt;</code>.
+L'application de la potion échoue si la compétence <code>Stealth</code> de l'unité agissante est inférieure ou égale au niveau de <code>Perception</code> <strong>+ 2</strong> de la victime.
+Dans ce cas, vous obtenez un message d'erreur et le Duncebun n'est pas consommé (il reste à l'unité).</p>
 </div>
 <h3 id="elixir-of-power">Elixir of power<a class="headerlink" href="#elixir-of-power" title="Permanent link">&para;</a></h3>
 <dl>
 <dd>10 personnes ont leurs <strong>points de vie multipliés par 5</strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 4.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter les points de vie d'une unité.<br />
+<em>Niveau requis :</em> <strong>4</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 Dragon blood</li>
 <li>1 bubblemorel</li>
@@ -7838,9 +7874,10 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 <dl>
 <dd>10 hommes peuvent porter autant que 10 chevaux.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 1.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter la capacité à transporter.<br />
+<em>Niveau requis :</em> <strong>1</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 bugleweed</li>
 <li>1 fjord fungus</li>
@@ -7849,9 +7886,10 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 <dl>
 <dd>une personne survit à des dommages mortels; possible une seule fois par personne et par semaine.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 4.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter les chances de survie au combat.<br />
+<em>Niveau requis :</em> <strong>4</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 bugleweed</li>
 <li>1 elvendear</li>
@@ -7863,9 +7901,10 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 <dl>
 <dd>50 chevaux mettent au monde jusqu'à <strong>4 poulains</strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 3.<br />
-<strong>Cible</strong>: region.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter les ressources d'une région (chevaux).<br />
+<em>Niveau requis :</em> <strong>3</strong>.<br />
+<em>Cible :</em> <strong>région</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 cobalt fungus</li>
 <li>1 knotroot</li>
@@ -7876,9 +7915,10 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 <dl>
 <dd>Soigne jusqu'à 400 points de vie.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 2.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> soigner une unité.<br />
+<em>Niveau requis :</em> <strong>2</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 cobalt fungus</li>
 <li>1 tangy temerity</li>
@@ -7888,9 +7928,10 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 <dl>
 <dd>Jusqu'à 100 démons peuvent se passer de tuer des paysans.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 2.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following <strong>ingredients</strong>:</p>
+<p><em>Objectif :</em> augmenter les ressources d'une région (paysans) où des démons sont présents.<br />
+<em>Niveau requis :</em> <strong>2</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Éléments nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 cave lichen,</li>
 <li>1 cobalt fungus</li>
@@ -7899,16 +7940,17 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>A peasant blood acts on the unité, but all the faction's demons in the region use it if there are any left.<br />
-So you only need to equip one unité (per region), as long as it drinks enough peasant blood for all the demons.  </p>
+<p>Une <em>Peasant blood</em> agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.
+Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de <em>Peasant blood</em> pour tous les démons.</p>
 </div>
 <h3 id="peasant-love-potion">Peasant love potion<a class="headerlink" href="#peasant-love-potion" title="Permanent link">&para;</a></h3>
 <dl>
 <dd>1000 paysans croissent deux fois plus vite que la normale.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 4.<br />
-<strong>Cible</strong>: region.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter les ressources d'une région (paysans).<br />
+<em>Niveau requis</em>: <strong>4</strong>.<br />
+<em>Cible</em>: <strong>région</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 bubblemorel</li>
 <li>1 elvendear</li>
@@ -7918,11 +7960,12 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 </ul>
 <h3 id="potion-of-nest-warmth">Potion of nest warmth<a class="headerlink" href="#potion-of-nest-warmth" title="Permanent link">&para;</a></h3>
 <dl>
-<dd>Permet aux Insectes de recruter même en hiver.</dd>
+<dd>Permet aux <strong><a href="../races/#insectes">Insectes</a></strong> de recruter <strong>même en hiver</strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 3.<br />
-<strong>Cible</strong>: region.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> permettre le recrutement d'Insectes en hiver.<br />
+<em>Niveau requis :</em> <strong>3</strong>.<br />
+<em>Cible :</em> <strong>région</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 gapgrowth</li>
 <li>1 ice begonia</li>
@@ -7931,11 +7974,11 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 </ul>
 <h3 id="potion-of-truth">Potion of truth<a class="headerlink" href="#potion-of-truth" title="Permanent link">&para;</a></h3>
 <dl>
-<dd><em>Cette potion n'a plus aucune fonction</em>.</dd>
+<dd><strong><em>Cette potion n'a plus aucune fonction</em></strong>.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 1.<br />
-<strong>Cible</strong>: region.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Niveau requis :</em> 1.<br />
+<em>Cible :</em> région.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 fjord fungus</li>
 <li>1 flatroot</li>
@@ -7944,9 +7987,10 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 <dl>
 <dd>10 hommes à pied peuvent se déplacer aussi vite que s'ils montaient à cheval.</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 1.<br />
-<strong>Cible</strong>: unité.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter la vitesse de déplacement.<br />
+<em>Niveau requis :</em> <strong>1</strong>.<br />
+<em>Cible :</em> <strong>unité</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 cobalt fungus</li>
 <li>1 windbag</li>
@@ -7955,19 +7999,19 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 <dl>
 <dd>Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns).</dd>
 </dl>
-<p><strong>Niveau requis</strong>: 1.<br />
-<strong>Cible</strong>: region.  </p>
-<p>To be made, this potion requires the following herbs:</p>
+<p><em>Objectif :</em> augmenter les ressources d'une région (arbres et mallorns).<br />
+<em>Niveau requis :</em> <strong>1</strong>.<br />
+<em>Cible :</em> <strong>région</strong>.  </p>
+<p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li>1 elvendear</li>
 <li>1 knotroot</li>
 </ul>
 <h2 id="tableau-recapitulatif">Tableau récapitulatif<a class="headerlink" href="#tableau-recapitulatif" title="Permanent link">&para;</a></h2>
-<p>Liste des potions.</p>
 <table>
 <thead>
 <tr>
-<th>Nom</th>
+<th>Potion</th>
 <th style="text-align: center;">Abr.</th>
 <th style="text-align: center;">Niv.</th>
 <th>Cible</th>
@@ -8066,7 +8110,7 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 </tr>
 </tbody>
 </table>
-<h2 id="tableau-des-plantes">Tableau des plantes<a class="headerlink" href="#tableau-des-plantes" title="Permanent link">&para;</a></h2>
+<h2 id="plantes-et-leur-utilisation">Plantes et leur utilisation<a class="headerlink" href="#plantes-et-leur-utilisation" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -8480,8 +8524,8 @@ So you only need to equip one unité (per region), as long as it drinks enough p
 Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de "peasant blood" pour tous les démons.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>la potion s'applique à une autre unité avec l'ordre <code>USE "Duncebun" &lt;unit−id&gt;</code>.
-À cet égard, il convient de noter que si la compétence stealth de l'utilisateur est inférieure ou égale à la perception + 2 de la victime, la tentative échoue.
+<p>la potion s'applique à une autre unité avec l'ordre <code>USE "Duncebun" &lt;ID unité cible&gt;</code>.
+À cet égard, il convient de noter que si la compétence <code>Stealth</code> de l'utilisateur est inférieure ou égale à la <code>Perception</code> <strong>+ 2</strong> de la victime, la tentative échoue.
 Si la tentative échoue, le Duncebun reste chez l'utilisateur et il reçoit un message d'erreur.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 </ol>

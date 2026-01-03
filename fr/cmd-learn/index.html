@@ -2274,7 +2274,7 @@
   <span class="md-ellipsis">
     
   
-    Alchemy
+    Alchimie
   
 
     
@@ -3535,6 +3535,39 @@
       Table des matières
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apprentissage-accelere" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apprentissage accéléré
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apprentissage-automatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apprentissage automatique
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecole-de-magie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        École de Magie
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
@@ -6313,6 +6346,8 @@
       
         
       
+        
+      
     
     
     
@@ -6401,6 +6436,34 @@
     
   
     Adamantium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../laen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laen
   
 
     
@@ -7275,6 +7338,39 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#apprentissage-accelere" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apprentissage accéléré
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apprentissage-automatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apprentissage automatique
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecole-de-magie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        École de Magie
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7354,19 +7450,31 @@
 
 
 <h1 id="learn">LEARN<a class="headerlink" href="#learn" title="Permanent link">&para;</a></h1>
-<p><strong><code>LEARN</code></strong>[<sup><code>L</code></sup>]<code></code><em><code>skill</code></em><br />
-<strong><code>LEARN</code></strong>[<sup><code>L</code></sup>]<code>Magie "</code><em><code>Magic School</code></em><code>"</code>  </p>
-<p>With this order, the unit spends one turn <a href="../skills/#apprendre-des-competences">learning</a> the specified <a href="../skills/">skill</a> (see also: <a href="../skills-list/">List of skills</a>).
-On average, advancing to a new skill level through pure learning takes approximately a number of weeks corresponding to the targeted skill level, without taking modifications due to race or terrain into account.
-To go from level 2 to 3 takes about 3 weeks. Typically, a skill rating of 2 is twice as effective as a skill rating of 1, a skill rating of 3 is three times as effective, and so on.</p>
-<p>The order <code>LEARN Magic "Magic School"</code> determines the <a href="../magic/">magic school</a> for a faction that does not already have one.</p>
-<p>With <code>LEARN</code><em><code>Taktik</code></em><code>200</code> you can tell tools like <a href="../echeck/">ECheck</a> how high the <a href="../skills/">learning costs</a> are (here 200 silver).
-However, this is not evaluated by the server.</p>
+<p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a></em>.</p>
+<p><strong><code>LEARN</code></strong><code></code><em><code>&lt;compétence&gt;</code></em><br />
+<strong><code>LEARN</code></strong><code>Magic "</code><em><code>&lt;École de Magie&gt;</code></em><code>"</code>  </p>
+<p>Avec cet ordre, l'unité passe un tour à <a href="../skills/#apprendre-des-competences">apprendre</a> une <a href="../skills/">compétence</a> donnée (voir aussi : <a href="../skills-list/">Liste des compétences</a>).  </p>
+<p>En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues à la race ou au terrain.  </p>
+<p>Par exemple, passer du niveau 2 au niveau 3 prend environ 3 semaines.  </p>
+<p>Généralement, un niveau de compétence de 2 est deux fois plus efficace qu'un niveau de compétence de 1;<br />
+un niveau de compétence de 3 est trois fois plus efficace, et ainsi de suite.  </p>
+<p>Avec un ordre de la forme <code>LEARN</code><em><code>&lt;Compétence&gt;</code></em><code>200</code>, tu peux indiquer à des outils tiers (comme <a href="../echeck/">ECheck</a>) les <a href="../skills/">coûts d'apprentissage</a> de la compétence (ici 200 silver).<br />
+Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'évaluation (d'exécution des ordres).</p>
+<h2 id="apprentissage-accelere">Apprentissage accéléré<a class="headerlink" href="#apprentissage-accelere" title="Permanent link">&para;</a></h2>
+<p>Une unité peut bénéficier de <a href="../cmd-teach/">l'enseignement d'un Maître</a> pour <strong>réduire de moitié</strong> les temps d'apprentissage habituellement nécessaires.</p>
+<h2 id="apprentissage-automatique">Apprentissage automatique<a class="headerlink" href="#apprentissage-automatique" title="Permanent link">&para;</a></h2>
+<p>Avec l'ordre <a href="../cmd-learn-auto/">LEARN AUTO</a>, le serveur <strong>tentera d'automatiser</strong> l'apprentissage et l'enseignement dans une région au sein d'une faction.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>L'utilisation simultanée d'ordres <code>TEACH</code> et <code>LEARN AUTO</code> par les unités d'une même faction dans une région n'est pas possible.</p>
+</div>
+<h2 id="ecole-de-magie">École de Magie<a class="headerlink" href="#ecole-de-magie" title="Permanent link">&para;</a></h2>
+<p>L'ordre <code>LEARN Magic "&lt;Magic School&gt;"</code> détermine <a href="../magic/">l'École de Magie</a> pour une faction qui n'en a pas déjà une.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../skills/#apprendre-des-competences">Learning</a></li>
-<li>By using <a href="../cmd-teach/">teachers</a> you can halve the required learning times</li>
-<li>Through the <a href="../cmd-learn-auto/">LEARN AUTO</a> order, the server attempts to automate learning and teaching in a region within a faction. A mixture of <code>TEACH</code> and <code>LEARN AUTO</code> however, is not possible</li>
+<li><a href="../skills/#apprendre-des-competences">apprendre</a></li>
+<li><a href="../cmd-teach/">enseigner</a></li>
+<li><a href="../cmd-learn-auto/">apprentissage automatisé</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
 

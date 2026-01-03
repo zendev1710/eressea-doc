@@ -1,3 +1,7 @@
+---
+# cSpell:locale de
+alias: atlantis-de
+---
 # Atlantis
 
 **Atlantis** ist der Urvater von Eressea.

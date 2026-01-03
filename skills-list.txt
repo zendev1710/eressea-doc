@@ -28,3 +28,35 @@ Weaponsmithing
 Unarmed combat
 Cartmaking
 Perception
+
+===============
+
+Alchimie
+Apprivoisement
+Camouflage
+Combat à l'arme d'hast
+Combat à mains nues
+Commerce
+Construction de routes
+Construction navale
+Divertissement
+Endurance
+Équitation
+Espionnage
+Extraction de pierres
+Extraction minière
+Fabrication d'armes
+Fabrication d'armures
+Fabrication de chariots
+Herboristerie
+Magie
+Maçonnerie
+Mêlée
+Perception
+Sylviculture
+Tactique
+Taxation
+Tir à l'arbalète
+Tir à l'arc
+Tir à la catapulte
+Voile

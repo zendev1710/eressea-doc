@@ -4,8 +4,10 @@ alias: cmd-destroy
 ---
 # DESTROY
 
-**`DESTROY`**[<sup>`L`</sup>]`[`*`level`*`]`  
-**`DESTROY`**[<sup>`L`</sup>]`[`*`level`*`] STREET`*`direction`*  
+*[long] order.*
+
+**`DESTROY`**`[`*`level`*`]`  
+**`DESTROY`**`[`*`level`*`] STREET`*`direction`*  
 
 A unit in command of a [[ships|ship]] or [[buildings|building]] can shrink or destroy it at any time using this order.
 She doesn't need any skill for that. For buildings, the *step*parameter denotes the size points by which the building should be reduced in size, and for ships, the percentage points.
@@ -20,4 +22,4 @@ A unit can only destroy one structure (building, road, ship) per week.
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders

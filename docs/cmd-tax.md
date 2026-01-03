@@ -4,7 +4,9 @@ alias: cmd-tax
 ---
 # TAX
 
-**`TAX`**[<sup>`L`</sup>]`[`*`Amount`*`]`  
+*[long] order.*
+
+**`TAX`**`[`*`Amount`*`]`  
 
 With this order, armed and trained units collect taxes from the farmers.
 To do this, they need a weapon and the corresponding [[skills-list|skill]] and the [tax collecting].
@@ -22,6 +24,6 @@ Tax collecting skill does not increase during use.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders
 [hunger]: ./silver.md#starvation
 [tax collecting]: ./skills-list.md#taxation

@@ -4,7 +4,9 @@ alias: cmd-teach
 ---
 # TEACH
 
-**`TEACH`**[<sup>`L`</sup>]` `*`unit-id`*`[`*`unit-id`*`]...`  
+*[long] order.*
+
+**`TEACH`**` `*`unit-id`*`[`*`unit-id`*`]...`  
 
 To reduce the time it takes for another unit to learn a skill, you can teach them the skill.
 To do this, the teaching unit must be at least 2 levels better than the learning unit in the skill in question.
@@ -31,4 +33,4 @@ A mixture of `TEACH` and `LEARN AUTO`, however, is not possible.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders

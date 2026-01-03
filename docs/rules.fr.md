@@ -28,8 +28,11 @@ Néanmoins, de nombreux joueurs attendent chaque semaine avec impatience le proc
 
 Eressea est un jeu vivant !
 
-Il a connu des améliorations continues au cours des dernières années et nous continuons à travailler pour l'améliorer.
-Cela signifie que **les règles peuvent changer**, bien que ce soit peu fréquent.
+Il a connu des améliorations continues au cours des dernières années, et nous continuons à travailler pour l'améliorer.
+Cela signifie que **les règles peuvent changer**.
+
+<!-- TODO: translate in french -->
+<!-- Though such changes have sometimes unfortunately led to extensive disputes between the game masters and a few dissatisfied players in the past, we hereby expressly point out that we reserve the right to change all rules at any time, under special circumstances even without prior notice. -->
 
 Certains changements ont pu donner lieu à de longues discussions entre l'équipe de direction et quelques joueurs mécontents.
 

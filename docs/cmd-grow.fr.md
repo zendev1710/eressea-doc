@@ -27,5 +27,5 @@ Il n'est pas possible de changer les types d'herbes d'une région, l'unité essa
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/fr&oldid=14489] -->
 
-[Taming]: ./skills-list.md#taming
+[Taming]: ./skills-list.md#equitation
 [haras]: ./buildings-others.md#haras

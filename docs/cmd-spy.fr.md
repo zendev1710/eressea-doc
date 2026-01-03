@@ -4,7 +4,9 @@ alias: cmd-spy-fr
 ---
 # SPY
 
-**`SPY`**[<sup>`L`</sup>]` `*`unit-id`*
+*Ordre [long]*.
+
+**`SPY`**` `*`unit-id`*
 
 Espionage allows you to spy on units of another faction.
 The spy's espionage skill is compared with the target unit's [[camouflage|stealth skill]].
@@ -59,4 +61,4 @@ It is clear that espionage attempts with many bad units will be noticed with alm
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[long]: ./commands.md#ordres-courts-et-longs

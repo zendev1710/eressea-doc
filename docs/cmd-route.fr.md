@@ -4,7 +4,9 @@ alias: cmd-route-fr
 ---
 # ROUTE
 
-**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
+*Ordre [long]*.
+
+**`ROUTE`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
 With this order, the unit moves through the world of Eressea in the same way as with the [[cmd-move]] order.
 
@@ -49,4 +51,4 @@ And finally again like at the beginning.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[long]: ./commands.md#ordres-courts-et-longs

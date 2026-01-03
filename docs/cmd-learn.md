@@ -4,8 +4,10 @@ alias: cmd-learn
 ---
 # LEARN
 
-**`LEARN`**[<sup>`L`</sup>]` `*`skill`*  
-**`LEARN`**[<sup>`L`</sup>]`Magie "`*`Magic School`*`"`  
+*[long] order.*
+
+**`LEARN`**` `*`skill`*  
+**`LEARN`**`Magie "`*`Magic School`*`"`  
 
 With this order, the unit spends one turn [learning][Learning] the specified [[skills|skill]] (see also: [[skills-list]]).
 On average, advancing to a new skill level through pure learning takes approximately a number of weeks corresponding to the targeted skill level, without taking modifications due to race or terrain into account.
@@ -24,5 +26,5 @@ However, this is not evaluated by the server.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders
 [Learning]: ./skills.md#learn-skills

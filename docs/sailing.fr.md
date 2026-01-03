@@ -37,23 +37,23 @@ Les bateaux pilotés par une unité d'aquariens d'une faction d'aquariens (les a
 
 Bateau - Portée, Capacité, Compétence
 
-| Type      | Portée | Capacité | Capitaine/Équipage | Niveau en Shipcraft | Quantité de bois |
-|-----------|--------|----------|--------------------|---------------------|------------------|
-| Barque    | 2      | 50       | 1/2                | 1                   | 5                |
-| Chaloupe  | 3      | 500      | 1/10               | 1                   | 50               |
-| Drakkar   | 5\*    | 1000     | 2/50               | 2                   | 100              |
-| Caravelle | 5      | 3000     | 3/30               | 3                   | 250              |
-| Trirème   | 7      | 2000     | 4/120              | 4                   | 200              |
-| Galion    | 5      | 20000    | 5/250\*\*          | 5                   | 2000             |
+| Type      | Portée | Capacité | Capitaine/Équipage | Niveau en Shipcraft | Qté de bois |
+|-----------|:------:|---------:|-------------------:|:-------------------:|------------:|
+| Barque    |   2    |       50 |            1 /   2 |          1          |           5 |
+| Chaloupe  |   3    |      500 |            1 /  10 |          1          |          50 |
+| Drakkar   | 5[^1]  |     1000 |            2 /  50 |          2          |         100 |
+| Caravelle |   5    |     3000 |            3 /  30 |          3          |         250 |
+| Trirème   |   7    |     2000 |            4 / 120 |          4          |         200 |
+| Galion    |   5    |    20000 |        5 / 250[^2] |          5          |        2000 |
 
-\* La portée d'un Drakkar dépend du niveau du capitaine.  
-\*\* Lorsque l'on calcule le niveau total de l'équipage d'un Galioon, seuls les marins min. T2 comptent.  
+[^1]: la portée d'un Drakkar dépend du niveau du capitaine.
+[^2]: lorsque l'on calcule le niveau total de l'équipage d'un Galioon, seuls les marins min. T2 comptent.
 
 Portée d'un drakkar.
 
 | Capitaine | 2 | 6 | 18 | 54 | 162 |
-|-----------|---|---|----|----|-----|
-| Portée    | 5 | 6 | 7  | 8  | 9   |
+|-----------|:-:|:-:|:--:|:--:|:---:|
+| Portée    | 5 | 6 | 7  | 8  |  9  |
 
 Si un bateau n'est pas doté d'un équipage suffisant, il ne peut pas appareiller.
 Si cela se produit en mer (par exemple à cause d'un combat ou d'unités affamées par manque d'argent), il dérive jusqu'à ce qu'il touche une région côtière.
@@ -118,6 +118,7 @@ Un bateau peut être réparé avec l'ordre [[cmd-make|`MAKE`&nbsp;&#91;`level`&#
 
 Expérience de jeu : Ship drifted in a storm; what happened?  
 
+<!-- TODO: translate in french -->
 Ships travel over coasts (ocean hexes with at least one adjacent land hex) or over open sea (ocean with only adjacent water hexes).
 
 - As long as a ship only travels in coastal regions it will never get caught in a storm and it will never drift away.

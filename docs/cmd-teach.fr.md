@@ -4,7 +4,9 @@ alias: cmd-teach-fr
 ---
 # TEACH
 
-**`TEACH`**[<sup>`L`</sup>]` `*`unit-id`*`[`*`unit-id`*`]...`  
+*Ordre [long]*.
+
+**`TEACH`**` `*`unit-id`*`[`*`unit-id`*`]...`  
 
 To reduce the time it takes for another unit to learn a skill, you can teach them the skill.
 To do this, the teaching unit must be at least 2 levels better than the learning unit in the skill in question.
@@ -20,7 +22,7 @@ These can also be different skills, provided the teacher has mastered these skil
 
 If you want to teach units from other factions, you must have received the [[cmd-help|`HELP GUARD`]] order from that faction or the unit to be taught must contact the teacher with [[cmd-contact]].
 
-**Example**:
+**Exemple** :
 
 ```text
 TEACH xxxx yyyy TEMP 2 zzzz
@@ -31,4 +33,4 @@ A mixture of `TEACH` and `LEARN AUTO`, however, is not possible.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[long]: ./commands.md#ordres-courts-et-longs

@@ -27,7 +27,7 @@ L'unité propriétaire du plus grand château d'une région peut même renommer 
 
 **[[le-troisieme-age|E3A — Le Troisième Âge]]**
 
-<!-- TODO translate in french-->
+<!-- TODO translate in french -->
 The building owner can only leave the building if he explicitly uses the [[cmd-give|`GIVE`]] order or the [[cmd-leave]] order is used.
 
 L'effet des bâtiments (y compris les châteaux) est comptabilisé unité par unité.

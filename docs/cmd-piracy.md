@@ -4,7 +4,9 @@ alias: cmd-piracy
 ---
 # PIRACY
 
-**`PIRACY`**[<sup>`L`</sup>]`[`*`faction-id`*`[`*`faction-id`*`...]]`  
+*[long] order.*
+
+**`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`  
 
 With this order, the captain of a ship automatically lies in wait for ships that are in a neighboring region after their movement.
 He will then automatically go there.
@@ -17,5 +19,5 @@ If no faction number is provided, it responds to all ships from factions to whic
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRACY&oldid=16789] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders
 [Piracy]: ./war.md#piracy

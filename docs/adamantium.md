@@ -4,7 +4,10 @@ alias: adamantium
 ---
 # Adamantium
 
-Player experience: Adamantium is even rarer than Laen! There's barely one Adamantium per round, assuming there is any Adamantium in the region at all.
+Player experience:
+
+Adamantium is even rarer than Laen!  
+There's barely one Adamantium per round, assuming there is any Adamantium in the region at all.
 
 ## Externe links
 

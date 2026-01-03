@@ -4,7 +4,9 @@ alias: cmd-move
 ---
 # MOVE
 
-**`MOVE`**[<sup>`L`</sup>]` `*`direction`*`[`*`direction`*`]...`  
+*[long] order.*
+
+**`MOVE`**` `*`direction`*`[`*`direction`*`]...`  
 
 With the `MOVE` order the unit moves through the world of Eressea.
 The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest. The coordinates are not used.
@@ -47,4 +49,4 @@ LEARN Ride
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders

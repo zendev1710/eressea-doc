@@ -28,40 +28,40 @@ Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
 Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
 Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
 
-**Examples:**
+**Exemples :**
 
-Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.
-A [dwarven unit][nain] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
-It takes an average of two weeks to advance in the mining talent from level 3 to level 4.
+Passer du niveau 3 au niveau 4 prend en moyenne 4 semaines, mais parfois aussi peu qu'une semaine et parfois jusqu'à 7 semaines.
+Une [unité de nainsnaine][nain] avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.
+Il faut en moyenne deux semaines pour progresser dans la compétence d'extraction minière du niveau 3 au niveau 4.
 
 Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.
-Un apprentissage dans une [académie] permet d'apprendre en plus rapidement.
+Un apprentissage dans une [académie] permet d'apprendre plus rapidement.
 
 Un enseignant peut avoir jusqu'à 10 élèves.
 Une unité enseignante peut contenir autant de personnes que souhaité.
 Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage.
 Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.
 
-**Exemple:**
-<!-- TODO: replace Slashing weapons -->
+**Exemple :**
+
 ```text
 Unit l1; 1 Person, Endurance 3
 TEACH s1
-Unit l2; 1 Person, Slashing weapons 3, Endurance 3
+Unit l2; 1 Person, Melee 3, Endurance 3
 TEACH s1 s2
 Unit s1; 15 Persons, Endurance 1
 LEARN Endurance
-Unit s2; 10 Persons, Slashing weapons 1
-LEARN Slashing weapons
+Unit s2; 10 Persons, Melee 1
+LEARN Melee
 ```
 
-Result: Unit l1 teaches 10 people from unit s1 in endurance.
-Unit l2 teaches the remaining 5 people from s1 in endurance and 5 people from unit s2 in cutting weapons.
-Unit s1 is taught by l1 and l2 and learns twice as fast as normal.
-Unit s2 is only half taught in endurance and therefore only learns 50% faster.
+Résultat : l'unité l1 forme 10 personnes de l'unité s1 en endurance.
+L'unité l2 enseigne aux 5 personnes restantes de s1 l'endurance et aux 5 personnes de l'unité s2 les armes coupantes.
+L'unité s1 est enseignée par l1 et l2 et apprend deux fois plus vite que la normale.
+L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50 % plus vite.
 
 !!! warning "Attention"
     Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.
@@ -98,16 +98,16 @@ Pour le calcul des semaines d'apprentissage, tout comme pour l'apprentissage, ce
 
 Expérience de jeu (Solthar):
 
-In fact, the matter is more complicated.
-However, you can skip this if you are reading this guide for the first time.
-Each time a unit advances a level, a dice is rolled to determine how many weeks it will take to advance to the next level.
-This results in a value between 1 and (2 x new level − 1).
-A unit can therefore have a talent between (6,1) -this notation means level 6 and still a week until promotion -and (6,13).
-This value is taken into account when mixing.
-For example, if you mix a person with (5.6) and a person with (1.2) -both of which correspond exactly to the average -they have a total of 16 weeks of learning.
-However, two people with (3.4) only correspond to 12 weeks of learning.
-The difference of two weeks per person will be “credited” to the new unit.
-It therefore has (3.2) -a little better than average.
+En fait, la question est plus compliquée.
+Cependant, vous pouvez ignorer cette étape si vous lisez ce guide pour la première fois.
+Chaque fois qu'une unité avance d'un niveau, un dé est lancé pour déterminer combien de semaines il lui faudra pour passer au niveau suivant.
+Cela donne une valeur comprise entre 1 et (2 x nouveau niveau − 1).
+Une unité peut donc avoir un talent compris entre (6,1) -cette notation signifie niveau 6 et encore une semaine avant la promotion -et (6,13).
+Cette valeur est prise en compte lors du mélange.
+Par exemple, si vous mélangez une personne avec (5,6) et une personne avec (1,2) – qui correspondent toutes deux exactement à la moyenne – elles auront un total de 16 semaines d’apprentissage.
+Cependant, deux personnes avec (3,4) ne correspondent qu’à 12 semaines d’apprentissage.
+La différence de deux semaines par personne sera « créditée » à la nouvelle unité.
+Il a donc (3,2) - un peu mieux que la moyenne.
 
 If you mix (5,1) and (1,1), i.e. people who have almost made it to the next climb, you would even get (4,4).
 However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the talent value of a mixed unit.
@@ -115,42 +115,75 @@ Only a minimum and maximum value can be specified.
 
 ## Utilisation des compétences
 
-Les compétences permettent aux unités de faire certaines choses.
-Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée.
-Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes \* le niveau de compétence.
+Les compétences permettent aux unités de faire certaines choses.  
+
+Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée.  
+Parfois, le niveau de compétence total (nombre de personnes x niveau de compétence) de l'unité joue également un rôle.  
 
 Les compétences peuvent être divisées en plusieurs groupes.
 
-### Compétences pour la production
+### Compétences de production
 
-alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking.
+Il s'agit du plus grand groupe de compétences.  
+Ces compétences permettent de fabriquer des objets, des bâtiments, des bateaux ou des routes.  
+Les compétences de production sont les suivantes :
 
-Il s'agit du plus grand groupe de compétences.
-Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [[production]] et [[alchimie]].
+- [alchimie] (fabrication de potions)
+- [extraction minière] (production de fer, de laen ou d'adamantium)
+- [maçonnerie] (construction de bâtiments et chateaux)
+- [sylviculture] (production de bois)
+- [herboristerie] (récolte de plantes)
+- [apprivoisement] (obtention de chevaux)
+- [fabrication d'armures]
+- [construction navale]
+- [extraction de pierres]
+- [construction de routes]
+- [fabrication d'armes]
+- [fabrication de chariots et de catapultes]
 
-### Compétences pour gagner de l'argent
+Pour plus d'information, consulter les chapitres :
 
-Le commerce, la taxation, et le divertissement sont nécessaires pour générer des silvers.
-Pour en savoir plus, consulte le chapitre sur [[argent|l'argent]].
+- [[production]]
+- [[alchimie]]
 
-### Dissimulation & Co
+### Compétences de gain d'argent
+
+Le [commerce], la [taxation], et le [divertissement] permettent de gagner de l'argent (des silvers).
+
+Plus d'information : [[argent|l'argent]].
+
+### Dissimulation
 
 [espionnage], [stealth] et [[camouflage|perception]] sont centrés sur la dissimulation.
-Elles ont leur propre chapitre.
 
-### Pour les déplacements
+### Compétences de déplacements
 
-La Voile (*Sailing*) et l'Équitation (*Riding*, aptitude à monter à cheval) sont des compétences expliquées dans le chapitre sur les [[deplacements]].
-L'Équitation est également abordé dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
+[La voile] et [l'équitation] sont des compétences expliquées dans le chapitre sur les [[deplacements]].  
+
+L'équitation est également abordée dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
 
 ### La magie
 
-[[magie]] est une compétence aux pouvoirs particulièrement puissants.
+La [[magie]] est une compétence aux pouvoirs particulièrement puissants.
 
 ### Compétences de combat
 
-Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des monstres.
+Les compétences de maniement des armes sont les suivantes :
+
+- [mêlée]
+- [combat à l'arme d'hast]
+- [tir à l'arc]
+- [tir à l'arbalète]
+- [tir à la catapulte]
+- [combat à mains nues]
+
+Les autres compétences essentielles au combat sont :
+
+- [endurance]
+- [équitation]
+- [tactique]
+
+Toutes ces compétences sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des [[monstres]].
 
 Poursuivre la lecture : [[liste-des-competences]].
 
@@ -162,3 +195,27 @@ Poursuivre la lecture : [[liste-des-competences]].
 [herboristerie]: ./skills-list.md#herboristerie
 [espionnage]: ./skills-list.md#espionnage
 [stealth]: ./camouflage.md#vols-de-silver
+[extraction minière]: ./skills-list.md#extraction-miniere
+[maçonnerie]: ./skills-list.md#maconnerie
+[sylviculture]: ./skills-list.md#sylviculture
+[apprivoisement]: ./skills-list.md#apprivoisement
+[fabrication d'armures]: ./skills-list.md#fabrication-darmures
+[construction navale]: ./skills-list.md#construction-navale
+[extraction de pierres]: ./skills-list.md#extraction-de-pierres
+[construction de routes]: ./skills-list.md#construction-de-routes
+[fabrication d'armes]: ./skills-list.md#fabrication-darmes
+[fabrication de chariots et de catapultes]: ./skills-list.md#fabrication-de-chariots
+[commerce]: ./skills-list.md#commerce
+[taxation]: ./skills-list.md#taxation
+[divertissement]: ./skills-list.md#divertissement
+[La voile]: ./skills-list.md#voile
+[l'équitation]: ./skills-list.md#equitation
+[mêlée]: ./skills-list.md#melee
+[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast
+[tir à l'arc]: ./skills-list.md#tir-a-larc
+[tir à l'arbalète]: ./skills-list.md#tir-a-larbalete
+[tir à la catapulte]: ./skills-list.md#tir-a-la-catapulte
+[combat à mains nues]: ./skills-list.md#combat-a-mains-nues
+[endurance]: ./skills-list.md#endurance
+[équitation]: ./skills-list.md#equitation
+[tactique]: ./skills-list.md#tactique

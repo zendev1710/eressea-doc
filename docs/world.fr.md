@@ -165,7 +165,7 @@ Poursuivre la lecture : [Factions].
 [potions]: ./alchemy.fr.md#potions
 [travail]: ./silver.md#travail
 [mine]: ./buildings-others.md#mine
-[Taming]: ./skills-list.md#taming
+[Taming]: ./skills-list.md#equitation
 [transport]: ./travel.md#chevaux-et-chariots
 [bonus de cavalerie]: ./war.md#boni-et-mali
 [caravanserail]: ./buildings-others.md#caravanserail

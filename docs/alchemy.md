@@ -17,8 +17,8 @@ To be able to make a potion, the alchemist's level must be twice as high as the 
 Each turn, an alchemist can make (skill level)/(potion level\*2) potions.
 A level 6 alchemist can therefore make a maximum of one level 3 potion, one level 2 potion or three level 1 potions.
 
-If you want to use a potion, you do so with [[cmd-use|&#91;amount&#93; "&lt;potion name&gt;" &#91;unit ID&#93;]] order.
-*Unit ID* is required only for Duncebun potion.
+If you want to use a potion, you do so with [[cmd-use|&#91;amount&#93; "&lt;potion name&gt;" &#91;unit ID&#93;]] order.  
+*Unit ID* is required **only** for **[Duncebun]** potion.
 
 A potion cannot be divided between several units.
 However, a large unit can be divided into several smaller units after the potion has been used, retaining its effects.
@@ -90,8 +90,8 @@ To be made, this potion requires the following herbs:
 - 1 spider ivy
 
 !!! note
-    You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.  
-    The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
+    You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
+    The application of the potion fails if the `Stealth` skill of the acting unit is less or equal to the victim's `Perception` level **+ 2**.
     In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
 
 ### Elixir of power
@@ -199,7 +199,7 @@ To be made, this potion requires the following herbs:
 
 ### Potion of nest warmth
 
-:   Allows insects to recruit men even in winter.
+:   Allows **[Insects]** to recruit men **even in winter**.
 
 **Level**: 3.  
 **Target**: region.  
@@ -272,7 +272,7 @@ Potions list.
 [^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
 
-[^2]: You can apply it to a unit with the order USE "Duncebun" &lt;unit−id&gt;.  
+[^2]: You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
 The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
 In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
 
@@ -309,3 +309,6 @@ Continue reading: [[herbs]].
 
 [Alchemy]: ./skills-list.md#alchemy
 [Herbalism]: ./skills-list.md#herbalism
+[Insects]: ./races.md#insects
+
+[Duncebun]: #duncebun

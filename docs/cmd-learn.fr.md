@@ -4,25 +4,45 @@ alias: cmd-learn-fr
 ---
 # LEARN
 
-**`LEARN`**[<sup>`L`</sup>]` `*`skill`*  
-**`LEARN`**[<sup>`L`</sup>]`Magie "`*`Magic School`*`"`  
+*Ordre [long]*.
 
-With this order, the unit spends one turn [learning][Learning] the specified [[skills|skill]] (see also: [[skills-list]]).
-On average, advancing to a new skill level through pure learning takes approximately a number of weeks corresponding to the targeted skill level, without taking modifications due to race or terrain into account.
-To go from level 2 to 3 takes about 3 weeks. Typically, a skill rating of 2 is twice as effective as a skill rating of 1, a skill rating of 3 is three times as effective, and so on.
+**`LEARN`**` `*`<compétence>`*  
+**`LEARN`**`Magic "`*`<École de Magie>`*`"`  
 
-The order `LEARN Magic "Magic School"` determines the [[magic|magic school]] for a faction that does not already have one.
+Avec cet ordre, l'unité passe un tour à [apprendre] une [[competences|compétence]] donnée (voir aussi : [[liste-des-competences]]).  
 
-With `LEARN`*`Taktik`*`200` you can tell tools like [[echeck]] how high the [[skills|learning costs]] are (here 200 silver).
-However, this is not evaluated by the server.
+En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues à la race ou au terrain.  
+
+Par exemple, passer du niveau 2 au niveau 3 prend environ 3 semaines.  
+
+Généralement, un niveau de compétence de 2 est deux fois plus efficace qu'un niveau de compétence de 1;  
+un niveau de compétence de 3 est trois fois plus efficace, et ainsi de suite.  
+
+Avec un ordre de la forme `LEARN`*`<Compétence>`*`200`, tu peux indiquer à des outils tiers (comme [[echeck]]) les [[competences|coûts d'apprentissage]] de la compétence (ici 200 silver).  
+Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'évaluation (d'exécution des ordres).
+
+## Apprentissage accéléré
+
+Une unité peut bénéficier de [[cmd-teach|l'enseignement d'un Maître]] pour **réduire de moitié** les temps d'apprentissage habituellement nécessaires.
+
+## Apprentissage automatique
+
+Avec l'ordre [[cmd-learn-auto]], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
+
+!!! warning "Attention"
+    L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas possible.
+
+## École de Magie
+
+L'ordre `LEARN Magic "<Magic School>"` détermine [[magie|l'École de Magie]] pour une faction qui n'en a pas déjà une.
 
 ## Voir aussi
 
-- [Learning]
-- By using [[cmd-teach|teachers]] you can halve the required learning times
-- Through the [[cmd-learn-auto]] order, the server attempts to automate learning and teaching in a region within a faction. A mixture of `TEACH` and `LEARN AUTO` however, is not possible
+- [apprendre]
+- [[cmd-teach|enseigner]]
+- [[cmd-learn-auto|apprentissage automatisé]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
-[Learning]: ./skills.md#apprendre-des-competences
+[long]: ./commands.md#ordres-courts-et-longs
+[apprendre]: ./skills.md#apprendre-des-competences

@@ -2,23 +2,23 @@
 # cSpell:locale fr, en
 alias: alchimie
 ---
-# Alchemy
+# Alchimie
 
 ## Potions
 
-Les **potions** alchimiques sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle unité.
+Les **potions** alchimiques sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle **unité**.
 Pour fabriquer une potion, il faut des unités avec la compétence [Alchemy], et pour trouver les plantes nécessaires, il faut des unités avec la compétence [Herbalism].
 
-Les potions sont créées avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].
-Chaque potion nécessite plusieurs ingrédients.
+Les potions sont produites avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].
+Une potion nécessite plusieurs ingrédients.
 Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter.
 Plus tard, on pourra les retrouver avec la commande [[cmd-show]].
 Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion.
 Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion\*2) potions.
 Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.
 
-Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use|USE &#91;quantité&#93; "&lt;nom de la potion&gt;" &#91;ID d'unité&#93;]].
-*L'identifiants d'unité (ID)* ne doit être spécifié que pour la potion Duncebun.
+Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use|USE &#91;quantité&#93; "&lt;nom de la potion&gt;" &#91;ID d'unité&#93;]].  
+*L'identifiant d'unité (ID)* ne doit être spécifié **uniquement** pour la potion **[Duncebun]**.
 
 Une potion ne peut pas être divisée entre plusieurs unités.
 On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.
@@ -32,16 +32,18 @@ De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de per
 Cela n'est pas possible avec la potion "berserks blood", car les personnes n'agissent pas comme une unité au combat.
 Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la potion avant le combat, sinon cela ne fonctionnera pas !
 
-L'"effet résiduel" des potions n'expire pas pour toutes les potions, par exemple, une personne peut bénéficier de l'effet de "Brain wax" ou de "busybeers" pendant dix semaines après l'avoir utilisé.
+L'"effet résiduel" des potions n'expire pas pour toutes les potions;
+par exemple, une personne peut bénéficier de l'effet de "Brain wax" ou de "busybeer" pendant dix semaines après l'avoir utilisé.
 
 ### Berserkers blood
 
 :   10 personnes reçoivent un modificateur d'attaque **de +1** au combat.
 
-**Niveau requis**: 3.  
-**Cible**: unité.  
+*Objectif :* renforcer l'attaque.  
+*Niveau requis :* **3**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 flatroot
 - 1 mandrake
@@ -52,10 +54,11 @@ To be made, this potion requires the following herbs:
 
 :   jusqu'à 10 personnes : augmente les chances **d'apprentissage d'une compétence**.
 
-**Niveau requis**: 3.  
-**Cible**: unité.  
+*Objectif :* accélérer l'apprentisssage.  
+*Niveau requis :* **3**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 bugleweed
 - 1 rock weed
@@ -66,10 +69,11 @@ To be made, this potion requires the following herbs:
 
 :   **Double la productivité** de 10 hommes utilisant l'ordre **`MAKE`**.
 
-**Niveau requis**: 2.  
-**Cible**: unité.  
+*Objectif :* accélérer la production.  
+*Niveau requis :* **2**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 gapgrowth
 - 1 mandrake
@@ -79,10 +83,11 @@ To be made, this potion requires the following herbs:
 
 :   pour 10 personnes : pas d'apprentissage où l'enseignant n'apporte rien ou oublie 1 semaine de la meilleure compétence.
 
-**Niveau requis**: 3.  
-**Cible**: unité \[étrangère\].  
+*Objectif :* ralentir l'apprentidssage d'une unité (adverse).  
+*Niveau requis :* **3**.  
+*Cible :* unité \[étrangère\].  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 cave lichen
 - 1 fjord fungus
@@ -90,18 +95,19 @@ To be made, this potion requires the following herbs:
 - 1 spider ivy
 
 !!! note
-    You can apply it to a unité with the order USE "Duncebun" &lt;unit−id&gt;.  
-    The application of the potion fails if the STEALTH skill of the acting unité is less or equal to the victim's PERCEPTION+2.
-    In this case, you get an error message and the Duncebun is not used up (thus it remains to the unité).
+    Vous pouvez l'appliquer à une unité avec la commande `USE "Duncebun" <ID unité cible>`.
+    L'application de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.
+    Dans ce cas, vous obtenez un message d'erreur et le Duncebun n'est pas consommé (il reste à l'unité).
 
 ### Elixir of power
 
 :   10 personnes ont leurs **points de vie multipliés par 5**.
 
-**Niveau requis**: 4.  
-**Cible**: unité.  
+*Objectif :* augmenter les points de vie d'une unité.  
+*Niveau requis :* **4**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 Dragon blood
 - 1 bubblemorel
@@ -114,10 +120,11 @@ To be made, this potion requires the following herbs:
 
 :   10 hommes peuvent porter autant que 10 chevaux.
 
-**Niveau requis**: 1.  
-**Cible**: unité.  
+*Objectif :* augmenter la capacité à transporter.  
+*Niveau requis :* **1**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 bugleweed
 - 1 fjord fungus
@@ -126,10 +133,11 @@ To be made, this potion requires the following herbs:
 
 :   une personne survit à des dommages mortels; possible une seule fois par personne et par semaine.
 
-**Niveau requis**: 4.  
-**Cible**: unité.  
+*Objectif :* augmenter les chances de survie au combat.  
+*Niveau requis :* **4**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 bugleweed
 - 1 elvendear
@@ -141,10 +149,11 @@ To be made, this potion requires the following herbs:
 
 :   50 chevaux mettent au monde jusqu'à **4 poulains**.
 
-**Niveau requis**: 3.  
-**Cible**: region.  
+*Objectif :* augmenter les ressources d'une région (chevaux).  
+*Niveau requis :* **3**.  
+*Cible :* **région**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 cobalt fungus
 - 1 knotroot
@@ -155,10 +164,11 @@ To be made, this potion requires the following herbs:
 
 :   Soigne jusqu'à 400 points de vie.
 
-**Niveau requis**: 2.  
-**Cible**: unité.  
+*Objectif :* soigner une unité.  
+*Niveau requis :* **2**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 cobalt fungus
 - 1 tangy temerity
@@ -168,10 +178,11 @@ To be made, this potion requires the following herbs:
 
 :   Jusqu'à 100 démons peuvent se passer de tuer des paysans.
 
-**Niveau requis**: 2.  
-**Cible**: unité.  
+*Objectif :* augmenter les ressources d'une région (paysans) où des démons sont présents.  
+*Niveau requis :* **2**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following **ingredients**:
+Éléments nécessaires pour concocter cette potion :
 
 - 1 cave lichen,
 - 1 cobalt fungus
@@ -179,17 +190,18 @@ To be made, this potion requires the following **ingredients**:
 - 1 **peasant**
 
 !!! note
-    A peasant blood acts on the unité, but all the faction's demons in the region use it if there are any left.  
-    So you only need to equip one unité (per region), as long as it drinks enough peasant blood for all the demons.  
+    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.
+    Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de *Peasant blood* pour tous les démons.
 
 ### Peasant love potion
 
 :   1000 paysans croissent deux fois plus vite que la normale.
 
-**Niveau requis**: 4.  
-**Cible**: region.  
+*Objectif :* augmenter les ressources d'une région (paysans).  
+*Niveau requis*: **4**.  
+*Cible*: **région**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 bubblemorel
 - 1 elvendear
@@ -199,12 +211,13 @@ To be made, this potion requires the following herbs:
 
 ### Potion of nest warmth
 
-:   Permet aux Insectes de recruter même en hiver.
+:   Permet aux **[Insectes]** de recruter **même en hiver**.
 
-**Niveau requis**: 3.  
-**Cible**: region.  
+*Objectif :* permettre le recrutement d'Insectes en hiver.  
+*Niveau requis :* **3**.  
+*Cible :* **région**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 gapgrowth
 - 1 ice begonia
@@ -213,12 +226,12 @@ To be made, this potion requires the following herbs:
 
 ### Potion of truth
 
-:   *Cette potion n'a plus aucune fonction*.
+:   ***Cette potion n'a plus aucune fonction***.
 
-**Niveau requis**: 1.  
-**Cible**: region.  
+*Niveau requis :* 1.  
+*Cible :* région.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 fjord fungus
 - 1 flatroot
@@ -227,10 +240,11 @@ To be made, this potion requires the following herbs:
 
 :   10 hommes à pied peuvent se déplacer aussi vite que s'ils montaient à cheval.
 
-**Niveau requis**: 1.  
-**Cible**: unité.  
+*Objectif :* augmenter la vitesse de déplacement.  
+*Niveau requis :* **1**.  
+*Cible :* **unité**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 cobalt fungus
 - 1 windbag
@@ -239,19 +253,18 @@ To be made, this potion requires the following herbs:
 
 :   Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns).
 
-**Niveau requis**: 1.  
-**Cible**: region.  
+*Objectif :* augmenter les ressources d'une région (arbres et mallorns).  
+*Niveau requis :* **1**.  
+*Cible :* **région**.  
 
-To be made, this potion requires the following herbs:
+Plantes nécessaires pour concocter cette potion :
 
 - 1 elvendear
 - 1 knotroot
 
 ## Tableau récapitulatif
 
-Liste des potions.
-
-| Nom                   | Abr. | Niv. | Cible                   |
+| Potion                | Abr. | Niv. | Cible                   |
 |-----------------------|:----:|:----:|-------------------------|
 | Goliath water         |  GW  |  1   | Unité                   |
 | Potion of truth       |  PT  |  1   | Région                  |
@@ -272,11 +285,11 @@ Liste des potions.
 [^1]: agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.
 Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de "peasant blood" pour tous les démons.  
 
-[^2]: la potion s'applique à une autre unité avec l'ordre `USE "Duncebun" <unit−id>`.
-À cet égard, il convient de noter que si la compétence stealth de l'utilisateur est inférieure ou égale à la perception + 2 de la victime, la tentative échoue.
+[^2]: la potion s'applique à une autre unité avec l'ordre `USE "Duncebun" <ID unité cible>`.
+À cet égard, il convient de noter que si la compétence `Stealth` de l'utilisateur est inférieure ou égale à la `Perception` **+ 2** de la victime, la tentative échoue.
 Si la tentative échoue, le Duncebun reste chez l'utilisateur et il reçoit un message d'erreur.
 
-## Tableau des plantes
+## Plantes et leur utilisation
 
 | Plante            | PT | SM | GW | WL | PB | BZ | OM | BK | DB | BW | HP | NW | PL | EP | HL |
 |-------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -308,3 +321,6 @@ Poursuivre la lecture : [[herbs|plantes]].
 
 [Alchemy]: ./skills-list.md#alchimie
 [Herbalism]: ./skills-list.md#herboristerie
+[Insectes]: ./races.md#insectes
+
+[Duncebun]: #duncebun

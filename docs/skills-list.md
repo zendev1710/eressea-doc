@@ -4,7 +4,9 @@ alias: skills-list
 ---
 # List of skills
 
-Here is a list of all skills units can learn in Eressea. This is just a short overview, all details are given in the respective chapters.
+Here is a list of all skills units can learn in Eressea.  
+
+This is just a short overview, all details are given in the respective chapters.
 
 ## Alchemy
 
@@ -20,9 +22,17 @@ Gives more hit points, making a unit more resistant to damage in combat or due t
 
 ## Mining
 
-Extract iron, laen, or adamantium. You can extract one iron per person and per skill level. For laen and adamantium, you need a skill level of 7 or 8, respectively, and a mine.
+Extract iron, laen, or adamantium.  
+You can extract **one iron per person and per skill level**.  
 
-Note that deposits are limited by level (see [[resources]]). You can only see the amount of iron in the top layer. For prospecting you can only see layers up to (mining level \* 2). If the layer is deeper, you won't see anything.
+Note that deposits are limited by level (see [[resources]]).
+You can only see the amount of iron in the top layer.
+For prospecting you can only see layers up to (mining level X 2).
+If the layer is deeper, you won't see anything.
+
+!!! note
+    [[laen]] mining needs a [mine] and a skill level of **7**.
+    [[adamantium]] mining needs a [mine] and a skill level of **8**.
 
 ## Bow
 
@@ -120,7 +130,9 @@ Produce weapons from wood and metals (see [[items]]).
 
 ## Unarmed combat
 
-Player races cannot learn this skill. It is only available for monsters and other special races where it works like a close combat skill without a weapon.
+Player races cannot learn this skill.  
+
+It is only available for monsters and other special races where it works like a close combat skill without a weapon.
 
 ## Cartmaking
 
@@ -141,6 +153,7 @@ Continue reading: [[camouflage|Stealth]].
 [table]: ./war-tables.md#endurance
 [trade]: ./silver.md#trade
 [horses]: ./travel.md#horse-and-carriage
+[mine]: ./buildings-others.md#mine
 [stable]: ./buildings-others.md#stable
 [1]: ./resources.md#deep-in-the-forest
 [2]: ./resources.md#about-mining

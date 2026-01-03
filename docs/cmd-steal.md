@@ -4,7 +4,9 @@ alias: cmd-steal
 ---
 # STEAL
 
-**`STEAL`**[<sup>`L`</sup>]` `*`unit-id`*  
+*[long] order.*
+
+**`STEAL`**` `*`unit-id`*  
 
 This order attempts to steal from the specified unit.
 If the perpetrators' [disguise skill] is higher than the victims' [perception] skill (this counts the perception skill of the best unit in the region), the victims only notice that they have been stolen from, not by whom.
@@ -25,7 +27,7 @@ If the perception of the victims is even higher than the concealment of the perp
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders
 
 [perception]: ./skills-list.md#perception
 [silver pool]: ./items-pool.md#the-silver-pool

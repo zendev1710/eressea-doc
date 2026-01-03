@@ -4,10 +4,12 @@ alias: cmd-plant-fr
 ---
 # PLANT
 
-**`PLANT`**[<sup>`L`</sup>]`[`*`number`*`] HERBS`  
-**`PLANT`**[<sup>`L`</sup>]`[`*`number`*`] TREES`  
-**`PLANT`**[<sup>`L`</sup>]`[`*`number`*`] MALLORNSEEDS`  
-**`PLANT`**[<sup>`L`</sup>]`[`*`number`*`] SEEDS`
+*Ordre [long]*.
+
+**`PLANT`**`[`*`number`*`] HERBS`  
+**`PLANT`**`[`*`number`*`] TREES`  
+**`PLANT`**`[`*`number`*`] MALLORNSEEDS`  
+**`PLANT`**`[`*`number`*`] SEEDS`  
 
 This order can be used to restore fresh greenery to a emptied or devastated region or to control natural tree reproduction.
 
@@ -40,5 +42,5 @@ You can grow seeds and plant horses. But it is not recommended.
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
 
-[<sup>`L`</sup>]: ./commands.md#ordres-courts-et-longs
+[long]: ./commands.md#ordres-courts-et-longs
 [Herbalism]: ./skills-list.md#herboristerie

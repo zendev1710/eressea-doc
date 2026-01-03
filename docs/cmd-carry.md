@@ -4,7 +4,9 @@ alias: cmd-carry
 ---
 # CARRY
 
-**`RIDE`**[<sup>`L`</sup>]` `*`unit-id`*  
+*`RIDE` is a [long] order. `CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.*
+
+**`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
 
 With the order `RIDE` a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.
@@ -29,8 +31,6 @@ Partei 300:
         CONTACT 311
 ```
 
-[<sup>L</sup>][<sup>`L`</sup>] `RIDE` is a long order. `CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.
-
 - [Aquarians] cannot transport other races when [swimming], nor can they take horses or chariots with them
 - [Insects] can also be found by means of `CARRY` not be brought into or through a glacier
 
@@ -42,7 +42,7 @@ Partei 300:
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
 
-[<sup>`L`</sup>]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#short-and-long-orders
 [Aquarians]: ./races.md#aquarians
 [swimming]: ./sailing.md#swimming
 [Insects]: ./races.md#insects

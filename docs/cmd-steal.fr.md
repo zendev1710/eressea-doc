@@ -27,7 +27,7 @@ If the perception of the victims is even higher than the concealment of the perp
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->
 
-[long]: ./commands.md#short-and-long-orders
+[long]: ./commands.md#ordres-courts-et-longs
 
 [perception]: ./skills-list.md#perception
 [silver pool]: ./items-pool.md#reserve-et-give

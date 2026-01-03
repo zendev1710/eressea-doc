@@ -4,36 +4,41 @@ alias: eressea-fr
 ---
 # Eressea
 
-Eressea is a turn-based strategy game played via email and takes place in a fictional fantasy world.
-The name of the game is derived from Tol Eressëa, a fictional island from the stories of J. R. R. Tolkien.
-The game has had weekly moves since August 27, 1996, with a few exceptions.
-Eressea has been around for over 1200 rounds. In March 2002, Bravo Screenfun magazine reported on Eressea.
-The number of players then skyrocketed. Eressea had its peak in terms of players with over 2000 factions, but since then the trend has been falling.
-In April 2009, the main Eressea game had almost 600 factions.
-In April 2015 there were still a good 220.
+Eressea est un jeu de stratégie au tour par tour joué par courrier électronique et se déroulant dans un monde fantastique fictif.  
 
-The game is designed for any number of players.
-The game world consists of many islands and is populated by the player factions and a global monster faction.
-As a player, you control a faction that belongs to one of several races from the typical fantasy repertoire and whose units can learn various skills, mine resources and build buildings, transport and weapons.
-What makes the game interesting is the interaction with other factions and therefore other players.
+Le nom du jeu est dérivé de Tol Eressëa, une île fictive tirée des histoires de J. R. R. Tolkien.
 
-In the main game Eressea there is no official game goal or end to the game.
-However, there were several direct offshoots under the name Vinyambar.
-The Vinyambar games had some more, some less big rule differences compared to the original game, and some even had a specific and fixed game goal.
-All Vinyambar variants also had to be paid for.
-There were also several games of "High Speed ​​Eressea" (HSE) in which evaluations took place in an independent instance over a weekend at a time interval of around 15 minutes.
-In July 2009, a new game world with changed rules was launched, known as Eressea 3 or E3 for short.
-This should serve as a test for newer versions of Eressea.
-In addition, from April 2014 there was a game for Patreon supporters under the name Deveron.
-The games ended in August and March 2019 because, after several major conflicts had been resolved, the vast majority of the still active factions were no longer interested in continuing.
-There were also always smaller instances that were started privately by dedicated players.
+Le jeu propose des tours d'ordres hebdomadaires depuis le 27 août 1996, à quelques exceptions près.  
+Eressea existe depuis plus de 1 200 tours. En mars 2002, le magazine Bravo Screenfun a fait un reportage sur Eressea.  
+Le nombre de joueurs a alors explosé. Eressea a connu son apogée en termes de joueurs avec plus de 2000 factions, mais depuis lors, la tendance est à la baisse.  
+En avril 2009, le jeu principal Eressea comptait près de 600 factions.  
+En avril 2015, il y en avait encore 220.  
 
-The game was originally a spin-off of German Atlantis, a German-language version of the English Atlantis 1.0.
-You can now also play it with English texts.
-Since December 2008, normal registrations were no longer possible, but the game continued to run.
-At the beginning of 2015, the first test players were settled back in Eressea.
-This was a test intended to show whether it is possible to launch new factions in old regions and what these factions need to get started in order to complete the task.
-A short time later, registration for new factions that would be launched in new worlds was possible again.
+Le jeu est conçu pour un nombre illimité de joueurs.  
+
+Le monde du jeu se compose de nombreuses îles et est peuplé de factions de joueurs et d'une faction globale de monstres.  
+En tant que joueur, vous contrôlez une faction qui appartient à l'une des nombreuses races du répertoire fantastique typique et dont les unités peuvent acquérir diverses compétences, exploiter des ressources et construire des bâtiments, des transports et des armes.
+Ce qui rend le jeu intéressant, c'est l'interaction avec les autres factions et donc les autres joueurs.  
+
+Dans le jeu principal Eressea, il n’y a pas d’objectif de jeu officiel ni de fin de partie.  
+Cependant, il y eut plusieurs ramifications directes sous le nom de Vinyambar.  
+Les jeux Vinyambar présentaient des différences de règles plus ou moins importantes par rapport au jeu original, et certains avaient même un objectif de jeu spécifique et fixe.  
+Toutes les variantes de Vinyambar étaient payantess.  
+
+Il y a eu également plusieurs jeux de "High Speed ​​​​Eressea" (HSE) dans lesquels des tours ont eu lieu en instance indépendante pendant un week-end à un intervalle de temps d'environ 15 minutes.  
+En juillet 2009, un nouveau monde de jeu avec des règles modifiées a été lancé, connu sous le nom d'Eressea 3 ou E3 en abrégé.  
+
+Cela devrait servir de test pour les versions plus récentes d'Eressea.  
+De plus, à partir d'avril 2014, un jeu a été organisé pour les supporters de Patreon sous le nom de Deveron.  
+Les jeux se sont terminés en août et mars 2019 car, après la résolution de plusieurs conflits majeurs, la grande majorité des factions encore actives n’étaient plus intéressées pour poursuivre.  
+Il y avait aussi toujours des instances plus petites qui étaient lancées en privé par des joueurs passionnés.  
+
+Le jeu était à l'origine un spin-off d'une version allemande d'Atlantis 1.0.  
+Vous pouvez désormais également jouer à Eressea avec des textes en anglais.  
+À partir de décembre 2008, les inscriptions normales n'étaient plus possibles, mais le jeu a continué à fonctionner.  
+Début 2015, les premiers joueurs tests ont été réinstallés dans Eressea.  
+Il s'agissait d'un test destiné à montrer s'il était possible de lancer de nouvelles factions dans d'anciennes régions, et ce dont ces factions avaient besoin pour démarrer afin de mener à bien leur tâche.  
+Peu de temps après, l'enregistrement de nouvelles factions qui seraient lancées dans de nouveaux mondes était à nouveau possible.  
 
 ## Voir aussi
 

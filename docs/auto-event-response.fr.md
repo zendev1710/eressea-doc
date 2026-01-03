@@ -29,7 +29,9 @@ Malgré cette hiérarchisation, réagir à plusieurs événements est complexe, 
 
 <!-- TODO: replace outdaed example, the current remains here until a suitable alternative example is created -->
 ***exemple obsolète***: la famine n’empêche plus l’exécution de commandes longues.
-Exemple : une unité est affamée et des morts-vivants apparaissent.
+Exemple :
+
+une unité est affamée et des morts-vivants apparaissent.
 La famine devrait être prioritaire, car elle force l’exécution de la commande longue WORK.
 Cela limite naturellement les réactions possibles à l’apparition des morts-vivants.
 Il n’est plus possible de se déplacer vers la région adjacente.

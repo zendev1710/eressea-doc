@@ -4,18 +4,22 @@ alias: cmd-claim-fr
 ---
 # CLAIM
 
-**`CLAIM`**` `*`Number Item`*
+**`CLAIM`**` `*`Qté <objet>`*
 
-Claims items from the [[faction-pool]].
+Réclame des objets de la [[reserve-de-faction]].  
 
-The items in the faction pool can be claimed by any faction unit, regardless of where it is located. However, no items can be placed back into the faction pool.
+Les objets de la réserve de faction peuvent être réclamés par n'importe quelle unité de faction, quel que soit l'endroit où elle se trouve.  
 
-The faction pool is only used by the game master to give the player special items without giving them to a specific unit.
-The faction pool or the `CLAIM` order will not be needed often.
+!!! note
+    Un objet réclamé et récupéré ne peut plus être replacé dans la réserve de faction.  
 
-The items go to the unit that has them `CLAIM` - gave the order.
-The item can be passed on directly in the same round, but it cannot be [[cmd-use|used]] until the following week.
+La réserve de faction est gérée par le Maître de Jeu, pour donner au(x) joueur(s) des objets spéciaux (sans les donner à une unité spécifique).  
+L'ordre `CLAIM` est un ordre utilisé peu fréquemment.  
 
-Caution! Do not confuse this with the items pool, which you have to access with [[cmd-reserve]]!
+Les objets réclamés vont à l'unité qui a passé l'odre `CLAIM`.  
+L'objet peut être transmis directement au cours du même tour, mais il ne peut être [[cmd-use|utilisé]] que la semaine suivante.  
+
+!!! warning "Attention"
+    Ne pas confondre réserve de faction et [[reserve-d-objets]], à laquelle vous pouvez accéder avec l'ordre [[cmd-reserve]] !
 
 <!-- From [https://wiki.eressea.de/index.php?title=CLAIM&oldid=3992] -->

@@ -6,7 +6,7 @@ alias: alchimie
 
 ## Potions
 
-Les **potions** alchimiques sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle **unité**.
+Les **potions** sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle **unité**.
 Pour fabriquer une potion, il faut des unités avec la compétence [Alchemy], et pour trouver les plantes nécessaires, il faut des unités avec la compétence [Herbalism].
 
 Les potions sont produites avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].

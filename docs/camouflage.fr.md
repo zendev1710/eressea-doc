@@ -4,25 +4,41 @@ alias: camouflage-fr
 ---
 # Camouflage
 
-La [[competences|compétence]] **Stealth** permet de se camoufler aux yeux des autres unités. Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.
+La [[competences|compétence]] **Stealth** permet de se camoufler aux yeux des autres unités.
+Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.
 
 ## Contre-mesures
 
-Les unités camouflées peuvent être découvertes grâce à la compétence **Perception**. Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en stealth d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible. Si le niveau de perception et le niveau de stealth sont égaux, l'unité camouflée apparaît dans le rapport. C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités ont Stealth et Perception au niveau 0.
+Les unités camouflées peuvent être découvertes grâce à la compétence **Perception**.
+Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en stealth d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible.
+Si le niveau de perception et le niveau de stealth sont égaux, l'unité camouflée apparaît dans le rapport.
+C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités ont Stealth et Perception au niveau 0.
 
 ## Contrecarrer la garde
 
-Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard]]. Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.
+Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard]].
+Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.
 
 ## Augmenter les chances de fuite
 
-La chance de fuite standard d'une unité en [combat] est de 25% (50% pour les halflings). A chaque niveau de stealth, les chances de fuite de l'unité augmentent de 5%. Un cheval augmente les chances de fuite d'une personne de 10% une seule fois (5 chevaux n'apportent donc PAS +50% à une personne mais seulement +10), que l'unité sache ou non monter à cheval. Les chances de fuite maximales sont de 75% (90% pour les halflings).
+La chance de fuite standard d'une unité en [combat] est de 25% (50% pour les halflings).
+À chaque niveau de stealth, les chances de fuite de l'unité augmentent de 5%.
+Un cheval augmente les chances de fuite d'une personne de 10% une seule fois (5 chevaux n'apportent donc **PAS** +50% à une personne mais seulement +10), que l'unité sache ou non monter à cheval.
+Les chances de fuite maximales sont de 75% (90% pour les halflings).
 
 ## Vols de Silver
 
-Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal]]. Ici aussi, la perception la plus élevée de la faction volée dans la région compte. Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver. Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région. La faction volée reçoit un message indiquant qu'elle a été volée, mais pas par qui. Si le niveau de stealth est seulement égal au niveau de perception, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative. Si le niveau de stealth est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.
+Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal]].
+Ici aussi, la perception la plus élevée de la faction volée dans la région compte.
+Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver.
+Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région.
+La faction volée reçoit un message indiquant qu'elle a été volée, mais pas par qui.
+Si le niveau de stealth est seulement égal au niveau de perception, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative.
+Si le niveau de stealth est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.
 
-Les gobelins, s'ils ont appris stealth jusqu'au niveau 4 au moins, volent toujours au moins 50 Silver, même si leur niveau de stealth est inférieur à celui de perception. Un tel vol se remarque bien sûr et n'a donc de sens que dans certaines circonstances. On entend dire que les armées gobelines ont déjà porté un coup décisif à leurs adversaires en les privant de nourriture.
+Les gobelins, s'ils ont appris stealth jusqu'au niveau 4 au moins, volent toujours au moins 50 Silver, même si leur niveau de stealth est inférieur à celui de perception.
+Un tel vol se remarque bien sûr et n'a donc de sens que dans certaines circonstances.
+On entend dire que les armées gobelines ont déjà porté un coup décisif à leurs adversaires en les privant de nourriture.
 
 Si l'on s'attend à être volé avec succès, la seule solution est d'apporter de l'argent dans la région concernée, car même les revenus provenant des divertissements, de la collecte des impôts, du travail et du commerce peuvent être volés (tous mes types de revenus).
 
@@ -30,11 +46,19 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 
 ## Espionnage
 
-Si une unité dotée de la compétence [Espionnage] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible. La chance de base de réussir une tentative d'espionnage est de 10%. Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%. Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles. Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs. Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.
+Si une unité dotée de la compétence [Espionnage] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence "espionage" est comparée à la compétence "stealth" de l'unité cible.
+La chance de base de réussir une tentative d'espionnage est de 10%.
+Pour chaque niveau de compétence espionage dépassant le niveau de compétence stealth de la victime, ce dernier augmente de 5%.
+Un niveau élevé en stealth permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.
+Pour atteindre une chance de succès de 50%, l'espion doit être de 8 niveaux supérieurs.
+Si l'on apprend au moins stealth 2, l'espion a besoin de plus de temps en moyenne pour atteindre les 8 niveaux de différence.
 
-Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité et les compétences. L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux au stealth de l'unité. Un stealth élevé est donc utile pour réussir à se dissimuler en une autre faction.
+Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité et les compétences.
+L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux au stealth de l'unité.
+Un stealth élevé est donc utile pour réussir à se dissimuler en une autre faction.
 
-Ensuite, on détermine si la tentative d'espionnage a été remarquée, indépendamment du succès. La probabilité est de (100 − Espionage\_espion \* 5 + PerceptionVictime \* 2)%.
+Ensuite, on détermine si la tentative d'espionnage a été remarquée, indépendamment du succès.
+La probabilité est de (100 − Espionage\_espion \* 5 + PerceptionVictime \* 2)%.
 
 ## Remarques
 

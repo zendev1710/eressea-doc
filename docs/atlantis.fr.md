@@ -4,7 +4,7 @@ alias: atlantis-fr
 ---
 # Atlantis
 
-Atlantide **est l'ancêtre d'Eressea.**
+Atlantis **est l'ancêtre d'Eressea.**
 
 ## Projets
 
@@ -13,19 +13,19 @@ Atlantide **est l'ancêtre d'Eressea.**
 
 ## Jeux Atlantis actifs
 
-- [Arnos Atlantis] -Atlantis 4.0.10k, depuis avril 2004
+- [Arnos Atlantis] - Atlantis 4.0.10k, depuis avril 2004
 - [Fantasya]
 - [Atlantide d'Enno, nom de code Atlas]
 
 ## Jeux anciens
 
-- [Vinyambar (KDM)] -Variante basée sur Eressea
+- [Vinyambar (KDM)] - Variante basée sur Eressea
 - [Atlantis allemand (GA)]
 - [Rorqual]
 - [Empiria] - Variante basée sur Eressea
 - [Sitanleta]
 - [Allanon] - basé sur GA
-- [Menouthis] -Nouveau développement en Java, par les créateurs d'Allanon. Début mai 2008
+- [Menouthis] - Nouveau développement en Java, par les créateurs d'Allanon. Début mai 2008
 
 ## Liens externes
 

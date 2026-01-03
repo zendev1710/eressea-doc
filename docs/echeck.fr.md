@@ -4,31 +4,33 @@ alias: e-check-fr
 ---
 # ECheck
 
-**ECheck** is the orders checker that also works on the Eressea server.
-ECheck is not perfect and not complete.
-There can be both false negative and false positive reports.
-So if ECheck doesn't report any errors, it doesn't necessarily mean that the orders are correct.
-If ECheck reports errors, it does not necessarily mean that the orders are invalid.
-Especially when there are rule changes or rare items, ECheck doesn't always know immediately.
-ECheck is intended more as an aid to check the orders again if necessary.
+ **EVérifiez** est le vérificateur d'ordres, qui fonctionne également sur le serveur d'Eressea.  
 
-ECheck can be accessed in different ways:
+ECheck n’est ni parfait ni complet.  
+Ses résultats peuvent contenir des faux-négatifs et des faux-positifs.  
+Ainsi, si ECheck ne signale aucune erreur, cela ne signifie pas nécessairement que les ordres sont tous corrects.  
+Si ECheck signale des erreurs, cela ne signifie pas non plus nécessairement que les ordres ne sont pas valides.  
 
-- When sending orders, ECheck is automatically called and the response email from the server contains the result.
-  Here we only check for warning level 1 (see below)
-- In Magellan. Here you can set the options as desired.
-  Magellan can also add the "meta commands" automatically.
-  These are comments that help ECheck, for example, to check silver consumption.
-  However, there is actually no reason to use Magellan's ECheck anymore, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more
-- On the command line (command prompt “cmd” on Windows, in any terminal on Linux).
-  Then you have to specify the parameters listed below.
+Surtout lorsqu'il y a des changements de règles ou des objets rares, ECheck ne le sait pas toujours immédiatement.  
+ECheck est davantage destiné à aider à vérifier à nouveau les ordres si nécessaire.  
 
-There are different warning levels controlled by command line parameters.
-With`-w1` only syntax errors are output.
-The steps `w2` until `w4` issue additional warnings, for example about silver consumption, teachers or routes.
-The `noxxx` parameters can also suppress certain warnings.
-ECheck normally assumes that you are entering German orders for E2.
-English orders can be checked, for example, with the -Len parameter.
+ECheck est accessible de différentes manières :
+
+- Lors de l'envoi des ordres, ECheck est automatiquement appelé et l'email de réponse du serveur contient le résultat.
+  Dans ce contexte, nous vérifions uniquement avec un niveau d'avertissement à 1 (voir ci-dessous)
+- Dans Magellan : ici, vous pouvez définir les options comme vous le souhaitez.
+  Magellan peut également ajouter automatiquement les "méta-ordres".
+  Ce sont des commentaires qui aident ECheck, par exemple, à vérifier la consommation d'argent.
+  Cependant, il n'y a en réalité aucune raison d'utiliser ECheck de Magellan, puisque les mécanismes propres de Magellan (vérification de syntaxe et "problèmes ouverts") sont plus fiables et peuvent faire plus.
+- Sur la ligne de commande (invite de commande « cmd » sous Windows, dans n'importe quel terminal sous Linux).
+  Là, vous devez spécifier les paramètres répertoriés ci-dessous.
+
+Il existe différents niveaux d'avertissement contrôlés par les paramètres de ligne de commande.  
+Avec `-w1`, seules les erreurs de syntaxe sont affichées.  
+Les niveaux d'avertissement `w2` à `w4` émettent des avertissements supplémentaires, concernant par exemple la consommation d'argent, les enseignants ou les itinéraires.  
+Le paramètre `noxxx` peut également supprimer certains avertissements.  
+ECheck suppose normalement que vous renseignez des ordres en allemand pour Eressea.  
+Les ordres en anglais peuvent être vérifiés avec le paramètre `-Len`.  
 
 ## Utilisation
 
@@ -75,16 +77,16 @@ Usage: ./echeck [options] <orders file>
 
 ## Voir aussi
 
-- [Befehle einschicken]
+- [[envoi-des-ordres]]
 
 ## Liens externes et téléchargements
 
-- [Current downloads for Windows (echeck.exe) and Linux (echeck)]
-- [ECheck Sourcecode]
-- [An outdated version of ECheck for Windows]
+- [Téléchargement pour Windows (echeck.exe) et Linux (echeck)]
+- [Code source d'ECheck]
+- [Une version obsolète d'ECheck pour Windows]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ECheck&oldid=7268] -->
 
-[Current downloads for Windows (echeck.exe) and Linux (echeck)]: https://www.eressea.kn-bremen.de/downloads
-[ECheck Sourcecode]: https://github.com/eressea/echeck
-[An outdated version of ECheck for Windows]: https://www.eressea.de/files/echeck.zip
+[Téléchargement pour Windows (echeck.exe) et Linux (echeck)]: https://www.eressea.kn-bremen.de/downloads
+[Code source d'ECheck]: https://github.com/eressea/echeck
+[Une version obsolète d'ECheck pour Windows]: https://www.eressea.de/files/echeck.zip

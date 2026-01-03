@@ -4,16 +4,26 @@ alias: deplacement-des-agriculteurs
 ---
 # Déplacement des agriculteurs
 
-Farmers are able to move from region to region.
-They do this for different reasons, which have changed throughout the history of Eressea:
+Les agriculteurs peuvent se déplacer d'une région à l'autre.  
+Les agriculteurs migrants ne travaillent pas pendant la semaine de migration, mais consomment quand même de l'argent, dans la région cible.  
 
-- Peasants flee from [[monsters]]. If monsters appear in a region, they drive away some farmers every week. The number of farmers displaced depends on the type and number of monsters.
-  Monsters summoned by players can also drive away farmers
-- Farmers are emigrating because of overpopulation.
-  If there are more farmers than jobs in a region (see [[cmd-work|here]]), some of the unemployed emigrate to neighboring regions.
-  This feature has not always been active in the past, but appears to be currently.
-- Farmers emigrate because of poverty. In the past, farmers migrated when there was too little regional silver in a region or when too much [[cmd-tax|taxes were collected]]. This feature is (probably) not active at the moment.
+Les agriculteurs migrent pour différentes raisons.
 
-Migrating farmers do not work during the week of the migration, but still consume silver (in the target region).
+## Fuite des monstres
+
+Les paysans fuient les [[monstres]].  
+
+Si des monstres apparaissent dans une région, ils chassent chaque semaine certains agriculteurs.  
+Le nombre d'agriculteurs déplacés dépend du type et du nombre de monstres.  
+Les monstres invoqués par les joueurs peuvent également chasser les agriculteurs.  
+
+## Surpopulation
+
+Les agriculteurs émigrent à cause de la surpopulation.  
+S'il y a plus d'agriculteurs que d'emplois dans une région (voir [[cmd-work|ici]]), une partie des chômeurs émigre vers les régions voisines.
+
+## Pauvreté
+
+Les agriculteurs émigrent également à cause de la pauvreté.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->

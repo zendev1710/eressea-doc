@@ -4,19 +4,26 @@ alias: familiars
 ---
 # Familiars
 
-Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.
-However, familiars are able to cast spells. However, they always rely on the magician for both the spells and the aura and other components.
-The maximum distance for spells cast in this manner corresponds to the magician's skill.
-However, familiars have certain limitations when it comes to these spells. The level of the spell cannot be greater than the familiar's magic skill or half the magician's skill.
-The cost of the spell also doubles.
+Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.  
+However, familiars are able to cast spells.  
+However, they always rely on the magician for both the spells and the aura and other components.  
+The maximum distance for spells cast in this manner corresponds to the magician's skill.  
+However, familiars have certain limitations when it comes to these spells.  
+The level of the spell cannot be greater than the familiar's magic skill or half the magician's skill.  
+The cost of the spell also doubles.  
 
-In rare cases, however, there can be magical beings who allow themselves to be bound as familiars and who, over time, learn their own spells which are then cast using the aura of the familiar itself. These spells may be completely different from those mastered by their master. However, such familiars also have the ability to access their magician's spells.
+In rare cases, however, there can be magical beings who allow themselves to be bound as familiars and who, over time, learn their own spells which are then cast using the aura of the familiar itself.  
+These spells may be completely different from those mastered by their master.  
+However, such familiars also have the ability to access their magician's spells.  
 
-In addition, many familiars can learn certain skills or have special abilities. However, due to their fundamentally different perspective, they cannot pass on their knowledge through teaching. The familiar gives the magician a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered. In any case, a magician is advised to remember these abilities of his familiar in detail using a [[cmd-show]].
+In addition, many familiars can learn certain skills or have special abilities.  
+However, due to their fundamentally different perspective, they cannot pass on their knowledge through teaching.  
+The familiar gives the magician a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered.  
+In any case, a magician is advised to remember these abilities of his familiar in detail using a [[cmd-show]].  
 
 ## Familiar breeds
 
-The world and magic of Eressea knows various races that can join a magician as familiars
+The world and magic of Eressea knows various races that can join a magician as familiars.
 
 ### Eagle
 
@@ -155,82 +162,85 @@ Others are sea creatures and good swimmers, while others can fly and cross ocean
 The following table is intended to provide a better overview of the individual familiar races.
 If a field is empty, then the race cannot learn that talent or does not have that ability.
 
-| Property               | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
-|------------------------|-------|-------|---------|---------|-----|-------|--------|--------|---------|---------|------|-------|-----|----------------|----------------|--------------|--------|-----------|-------------|------|
-| Hit Points             | 15    | 50    | 24      | 40      | 9   | 6     | 30     | 16     | 40      | 300     | 20   | 15    | 10  | 900            | 40             | 10           | 30     | 10        | 300         | 25   |
-| Gewicht \[kg\]         | 5     | 10    | 5       | 5       | 5   | 2     | 5      | 6      | 5       | 5       | 5    | 10    | 1   | 16             | 10             | 5            | 5      | 5         | 300         | 5    |
-| Capacity[kg]           | 5.4   | 5.4   | 5.4     | 20      | 5.4 | 5.4   | 5.4    | 4.4    | 5.4     | 5.4     | 5.4  | 5.4   | 5.4 | 6              | 6              | 5.4          | 5.4    | 5.4       | 100         | 5.4  |
-| nat. Armor             | 0     | 2     | 0       | 0       | 0   | 0     | 5      | 0      | 0       | 0       | 0    | 0     | 0   | 7              | 1              | 1            | 0      | 0         | 6           | 0    |
-| Magic resistance       | 0     | 15    | 0       | 90      | 0   | 80    | 100    | -5     | 50      | 0       | 0    | 90    | 0   | 0              | 99             | 50           | 0      | 50        | 80          | 0    |
-| own magic              |       |       |         | ja      |     | ja    | ja     |        |         |         |      | ja    |     |                | ja             | ja           |        | ja        |             |      |
-| can move over land     | yes   | yes   |         | yes     | yes | yes   | yes    | yes    | yes     |         | yes  | yes   | yes | yes            | yes            | yes          | yes    | yes       | yes         | yes  |
-| can enter ocean fields | yes   |       | yes     |         | yes | yes   | yes    |        |         | yes     |      |       |     | yes            | yes            | yes          |        | yes       |             |      |
-| Can use armor          |       | yes   |         |         |     | yes   | yes    | yes    |         |         |      | yes   |     |                |                | yes          |        |           |             |      |
-| Skill                  | Eagle | Demon | dolphin | Unicorn | owl | fairy | Spirit | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | little devil | Tigers | dream cat | tunnel worm | Wolf |
-| Alchemy                |       | +2    |         |         |     |       |        | +1     |         |         |      | 0     |     |                |                |              |        |           |             |      |
-| Crossbow shooting      |       | 0     |         |         |     |       |        | 0      |         |         |      | 0     |     |                |                |              |        |           |             |      |
-| Endurance              | 0     | 0     | 0       | 0       | 0   | 0     | 0      | 0      | 0       | 0       | 0    | -1    | 0   | 0              | 0              | 0            | 0      | 0         | +2          | 0    |
-| Mining                 |       | +0    |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           | +10         |      |
-| Archery                |       | 0     |         |         |     |       |        | 0      |         |         |      | +2    |     |                |                |              |        |           |             |      |
-| Castle building        |       | 0     |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           |             |      |
-| Act                    |       | -3    |         |         |     |       |        | -1     |         |         |      | -2    |     |                |                |              |        |           |             |      |
-| Slashing weapons       |       | +1    |         |         |     | -1    | 0      | 0      |         |         |      | 0     |     |                |                | 0            |        | 0         |             |      |
-| woodcutting            |       | +1    |         |         |     |       |        | 0      |         |         |      |       |     |                |                |              |        |           | +10         |      |
-| Catapult operation     |       | 0     |         |         |     |       |        | +1     |         |         |      |       |     |                |                |              |        |           |             |      |
-| Herbalism              |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +4    |     |                |                |              |        |           |             |      |
-| Magic                  | 0     | +1    | 0       | +2      | 0   | +1    | +1     | -1     | 0       | 0       | 0    | +1    | 0   | 0              | +1             | +1           | 0      | +1        | 0           | 0    |
-| Horse dressage         |       | -3    |         |         |     |       |        | 0      |         |         | +1   | +5    |     |                |                |              |        |           |             |      |
-| Riding                 |       | -1    |         |         |     | -1    | -2     | 0      |         |         |      | +5    |     |                |                | -1           |        |           |             |      |
-| Armament construction  |       | 0     |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                |              |        |           |             |      |
-| Shipbuilding           |       | -1    |         |         |     |       |        | -2     |         |         |      |       |     |                |                |              |        |           |             |      |
-| Sailing                |       | -1    |         |         |     |       |        | -2     |         |         |      | -2    |     |                |                |              |        |           |             |      |
-| Espionage              | 0     | 0     | 0       | 0       | +1  | +2    | 0      | 0      | 0       | 0       | 0    | 0     | +5  | 0              | 0              | +1           | 0      | +1        | 0           | 0    |
-| Polearms               |       | +1    |         |         |     | -1    | 0      | 0      |         |         |      | 0     |     |                |                | 0            |        | 0         |             |      |
-| Stone construction     |       | 0     |         |         |     |       |        | 0      |         |         |      |       |     |                |                |              |        |           | +10         |      |
-| Collecting taxes       |       | +1    |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                | +1           |        | +1        |             |      |
-| Road construction      |       | 0     |         |         |     |       |        | -2     |         |         |      |       |     |                |                |              |        |           |             |      |
-| Tactics                |       | -1    | 0       | 0       |     |       |        | -2     | 0       | 0       |      | -2    |     |                |                |              | 0      |           |             | 0    |
-| camouflage             |       | +1    | 0       | +4      | +1  | +5    | 0      | +1     | 0       |         | +3   | +3    | +4  |                | 0              | +1           | 0      | +1        |             | 0    |
-| Entertainment          |       | -3    |         |         |     |       |        | -1     |         |         |      | +10   |     |                |                |              |        |           |             |      |
-| Weapons construction   |       | +1    |         |         |     |       |        | 0      |         |         |      | -2    |     |                |                |              |        |           |             |      |
-| Unarmed combat         | 0     | -     | 0       | 0       | 0   | 0     | 0      | -      | 0       | 0       | 0    | 0     | 0   | 0              | 0              | 0            | 0      | 0         | 0           | 0    |
-| Carriage construction  |       | -2    |         |         |     |       |        | -1     |         |         |      | -2    |     |                |                |              |        |           |             |      |
-| perception             | +2    | +1    | +1      | +5      | +5  | +2    | 0      | 0      | +1      | +1      | +4   | +2    | +2  | +1             | 0              | +1           | +1     | +1        |             | +2   |
+| Property               | Eagle | Demon | Delphin | Unicorn | owl | fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Tunnel worm  | Wolf |
+|------------------------|-------|-------|---------|---------|-----|-------|-------|--------|---------|---------|------|-------|-----|----------------|----------------|--------------|-------|----------|--------------|------|
+| Hit Points             | 15    | 50    | 24      | 40      | 9   | 6     | 30    | 16     | 40      | 300     | 20   | 15    | 10  | 900            | 40             | 10           | 30    | 10       | 300          | 25   |
+| Gewicht \[kg\]         | 5     | 10    | 5       | 5       | 5   | 2     | 5     | 6      | 5       | 5       | 5    | 10    | 1   | 16             | 10             | 5            | 5     | 5        | 300          | 5    |
+| Capacity[kg]           | 5.4   | 5.4   | 5.4     | 20      | 5.4 | 5.4   | 5.4   | 4.4    | 5.4     | 5.4     | 5.4  | 5.4   | 5.4 | 6              | 6              | 5.4          | 5.4   | 5.4      | 100          | 5.4  |
+| nat. Armor             | 0     | 2     | 0       | 0       | 0   | 0     | 5     | 0      | 0       | 0       | 0    | 0     | 0   | 7              | 1              | 1            | 0     | 0        | 6            | 0    |
+| Magic resistance       | 0     | 15    | 0       | 90      | 0   | 80    | 100   | -5     | 50      | 0       | 0    | 90    | 0   | 0              | 99             | 50           | 0     | 50       | 80           | 0    |
+| own magic              |       |       |         | ja      |     | ja    | ja    |        |         |         |      | ja    |     |                | ja             | ja           |       | ja       |              |      |
+| can move over land     | yes   | yes   |         | yes     | yes | yes   | yes   | yes    | yes     |         | yes  | yes   | yes | yes            | yes            | yes          | yes   | yes      | yes          | yes  |
+| can enter ocean fields | yes   |       | yes     |         | yes | yes   | yes   |        |         | yes     |      |       |     | yes            | yes            | yes          |       | yes      |              |      |
+| Can use armor          |       | yes   |         |         |     | yes   | yes   | yes    |         |         |      | yes   |     |                |                | yes          |       |          |              |      |
+| Skill                  | Eagle | Demon | Delphin | Unicorn | Owl | Fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | Nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Ttunnel worm | Wolf |
+| Alchemy                |       | +2    |         |         |     |       |       | +1     |         |         |      | 0     |     |                |                |              |       |          |              |      |
+| Crossbow               |       | 0     |         |         |     |       |       | 0      |         |         |      | 0     |     |                |                |              |       |          |              |      |
+| Endurance              | 0     | 0     | 0       | 0       | 0   | 0     | 0     | 0      | 0       | 0       | 0    | -1    | 0   | 0              | 0              | 0            | 0     | 0        | +2           | 0    |
+| Mining                 |       | +0    |         |         |     |       |       | +1     |         |         |      |       |     |                |                |              |       |          | +10          |      |
+| Archery                |       | 0     |         |         |     |       |       | 0      |         |         |      | +2    |     |                |                |              |       |          |              |      |
+| Castle building        |       | 0     |         |         |     |       |       | +1     |         |         |      |       |     |                |                |              |       |          |              |      |
+| Act                    |       | -3    |         |         |     |       |       | -1     |         |         |      | -2    |     |                |                |              |       |          |              |      |
+| Slashing weapons       |       | +1    |         |         |     | -1    | 0     | 0      |         |         |      | 0     |     |                |                | 0            |       | 0        |              |      |
+| woodcutting            |       | +1    |         |         |     |       |       | 0      |         |         |      |       |     |                |                |              |       |          | +10          |      |
+| Catapult operation     |       | 0     |         |         |     |       |       | +1     |         |         |      |       |     |                |                |              |       |          |              |      |
+| Herbalism              |       | -3    |         |         |     |       |       | 0      |         |         | +1   | +4    |     |                |                |              |       |          |              |      |
+| Magic                  | 0     | +1    | 0       | +2      | 0   | +1    | +1    | -1     | 0       | 0       | 0    | +1    | 0   | 0              | +1             | +1           | 0     | +1       | 0            | 0    |
+| Taming                 |       | -3    |         |         |     |       |       | 0      |         |         | +1   | +5    |     |                |                |              |       |          |              |      |
+| Riding                 |       | -1    |         |         |     | -1    | -2    | 0      |         |         |      | +5    |     |                |                | -1           |       |          |              |      |
+| Armament construction  |       | 0     |         |         |     |       |       | 0      |         |         |      | -2    |     |                |                |              |       |          |              |      |
+| Shipbuilding           |       | -1    |         |         |     |       |       | -2     |         |         |      |       |     |                |                |              |       |          |              |      |
+| Sailing                |       | -1    |         |         |     |       |       | -2     |         |         |      | -2    |     |                |                |              |       |          |              |      |
+| Espionage              | 0     | 0     | 0       | 0       | +1  | +2    | 0     | 0      | 0       | 0       | 0    | 0     | +5  | 0              | 0              | +1           | 0     | +1       | 0            | 0    |
+| Polearm                |       | +1    |         |         |     | -1    | 0     | 0      |         |         |      | 0     |     |                |                | 0            |       | 0        |              |      |
+| Stone construction     |       | 0     |         |         |     |       |       | 0      |         |         |      |       |     |                |                |              |       |          | +10          |      |
+| Collecting taxes       |       | +1    |         |         |     |       |       | 0      |         |         |      | -2    |     |                |                | +1           |       | +1       |              |      |
+| Roadwork               |       | 0     |         |         |     |       |       | -2     |         |         |      |       |     |                |                |              |       |          |              |      |
+| Tactics                |       | -1    | 0       | 0       |     |       |       | -2     | 0       | 0       |      | -2    |     |                |                |              | 0     |          |              | 0    |
+| Camouflage             |       | +1    | 0       | +4      | +1  | +5    | 0     | +1     | 0       |         | +3   | +3    | +4  |                | 0              | +1           | 0     | +1       |              | 0    |
+| Entertainment          |       | -3    |         |         |     |       |       | -1     |         |         |      | +10   |     |                |                |              |       |          |              |      |
+| Weapons construction   |       | +1    |         |         |     |       |       | 0      |         |         |      | -2    |     |                |                |              |       |          |              |      |
+| Unarmed combat         | 0     | -     | 0       | 0       | 0   | 0     | 0     | -      | 0       | 0       | 0    | 0     | 0   | 0              | 0              | 0            | 0     | 0        | 0            | 0    |
+| Carrtmaking            |       | -2    |         |         |     |       |       | -1     |         |         |      | -2    |     |                |                |              |       |          |              |      |
+| perception             | +2    | +1    | +1      | +5      | +5  | +2    | 0     | 0      | +1      | +1      | +4   | +2    | +2  | +1             | 0              | +1           | +1    | +1       |              | +2   |
 
 ## Assignment of Familiars
 
-Familiars of different races can join a magician at random -although not completely at random. The selection is determined by his magic area, his race and his magic level.
+Familiars of different races can join a magician at random -although not completely at random.  
+The selection is determined by his magic area, his race and his magic level.  
 
-In the following table, the race of the magician who is trying to bind a familiar to himself can be found in the first column.
-The second column contains the standard familiar race (primary familiar) that joins this mage race. In the five following columns are the races that the magician prefers to join if he is knowledgeable in the respective area of ​​magic.
-With 50%-100% (depending on level) the race of the magic area is chosen, with approximately level% any one, otherwise the primary race.
+<!-- TODO: clarify this translation !? -->
+In the following table, the race of the magician who is trying to bind a familiar to himself can be found in the first column.  
+The second column contains the standard familiar race (primary familiar) that joins this mage race.  
+In the five following columns are the races that the magician prefers to join if he is knowledgeable in the respective School of M​magic.  
+With 50%-100% (depending on level) the race of the magic area is chosen, with approximately level% any one, otherwise the primary race.  
 
 Player experience: The information on percentages should be viewed with caution and should be double-checked in the code!
 
-An elf magician with Tybied has the highest chance of getting an owl (magic area) or a lynx (primary familiar), but also a lower chance of getting a random race from the table.
+An elf magician with Tybied has the highest chance of getting an owl (magic area) or a lynx (primary familiar), but also a lower chance of getting a random race from the table.  
 
-| Race      | Primary Familiar  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
-|-----------|-------------------|------------|-------------------|------------|------------|-------------|
-| Humans    | Wolf              | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
-| Aquarians | Riesenschildkröte | Delphin    | Riesenschildkröte | Delphin    | Delphin    | Krake       |
-| Cats      | Luchs             | Traumkatze | Luchs             | Singdrache | Tiger      | Höllenkatze |
-| Halflings | Eule              | Ratte      | Adler             | Singdrache | Adler      | Ratte       |
-| Insects   | Geist             | Ratte      | Eule              | Ratte      | Tunnelwurm | Teufelchen  |
-| Demons    | Teufelchen        | Teufelchen | Geist             | Ratte      | Wolf       | Teufelchen  |
-| Trolls    | Tunnelwurm        | Ratte      | Ratte             | Adler      | Tunnelwurm | Wolf        |
-| Goblins   | Ratte             | Singdrache | Teufelchen        | Ratte      | Ratte      | Teufelchen  |
-| Elves     | Luchs             | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
-| Dwarves   | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
-| Orcs      | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
-
-Player Experience:
-
-The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.
+| Race      | Primary Familiar | Illaun         | Tybied         | Cerddor        | Gwyrrd      | Draig        |
+|-----------|------------------|----------------|----------------|----------------|-------------|--------------|
+| Humans    | Wolf             | Dream cat      | Owl            | Owl            | Eagle       | Little devil |
+| Aquarians | Giant tortoise   | Delphin        | Giant tortoise | Delphin        | Delphin     | Krake        |
+| Cats      | Lynx             | Dreamcat       | Lynx           | Singing dragon | Tiger       | Höllenkatze  |
+| Halflings | Owl              | Rat            | Eagle          | Singing dragon | Eagle       | Rat          |
+| Insects   | Ghost            | Rat            | Owl            | Rat            | Tunnel worm | Little devil |
+| Demons    | Little devil     | Little devil   | Ghost          | Rat            | Wolf        | Little devil |
+| Trolls    | Tunnel worm      | Rat            | Rat            | Eagle          | Tunnel worm | Wolf         |
+| Goblins   | Rat              | Singing dragon | Little devil   | Rat            | Rat         | Little devil |
+| Elves     | Lynx             | Fairy          | Owl            | Nymph          | Unicorn     | Little devil |
+| Dwarves   | Tunnel worm      | Eagle          | Owl            | Lynx           | Wolf        | Rat          |
+| Orcs      | Goblin           | Ghost          | Little devil   | Rat            | Wolf        | Demon        |
 
 Player Experience:
 
-An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean.
-However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.
+The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.  
+
+Player Experience:
+
+An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean.  
+However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 

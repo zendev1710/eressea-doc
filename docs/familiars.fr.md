@@ -4,11 +4,22 @@ alias: familiers
 ---
 # Familiers
 
-Les familiers sont toujours des représentants particulièrement intelligents de leur espèce, mais ils sont très rarement doués eux-même de magie. Les familiers sont néanmoins capables de lancer des sorts. Cependant, ils se servent toujours du mage pour les sorts, l'aura et les autres composants. La distance maximale pour lancer un sort correspond au niveau de compétence du mage. Les familiers sont toutefois soumis à certaines restrictions pour les sorts. Le niveau du sort ne peut pas être supérieur au niveau de magie du familier ou à la moitié du niveau de magie du mage. Par ailleurs, le coût du sort est doublé.
+Les familiers sont toujours des représentants particulièrement intelligents de leur espèce, mais ils sont très rarement doués eux-même de magie.  
+Les familiers sont néanmoins capables de lancer des sorts.  
+Cependant, ils se servent toujours du mage pour les sorts, l'aura et les autres composants.  
+La distance maximale pour lancer un sort correspond au niveau de compétence du mage.  
+Les familiers sont toutefois soumis à certaines restrictions pour les sorts.  
+Le niveau du sort ne peut pas être supérieur au niveau de magie du familier ou à la moitié du niveau de magie du mage.  
+Par ailleurs, le coût du sort est doublé.  
 
-Dans de rares cas, cependant, il peut s'agir d'êtres doués de magie qui se laissent lier comme familiers et qui, avec le temps, apprennent leurs propres sorts qui sont ensuite lancés avec l'aura du familier lui-même. Ces sorts peuvent être totalement différents de ceux que leur maître maîtrise. Cependant, ces familiers ont également la capacité d'accéder aux sorts de leur mage.
+Dans de rares cas, cependant, il peut s'agir d'êtres doués de magie qui se laissent lier comme familiers et qui, avec le temps, apprennent leurs propres sorts qui sont ensuite lancés avec l'aura du familier lui-même.  
+Ces sorts peuvent être totalement différents de ceux que leur maître maîtrise.  
+Cependant, ces familiers ont également la capacité d'accéder aux sorts de leur mage.  
 
-De plus, de nombreux familiers peuvent apprendre certains talents ou ont des compétences particulières. Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant. Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise. Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show]].
+De plus, de nombreux familiers peuvent apprendre certains talents ou ont des compétences particulières.  
+Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant.  
+Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise.  
+Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show]].  
 
 ## Races de Familiers
 
@@ -16,27 +27,97 @@ Le monde et la magie d'Eressea connaissent différentes races qui peuvent se lie
 
 ### Aigle
 
-L'aigle est un excellent éclaireur, il peut même traverser de courts détroits en volant, mais il est aussi très visible dans le ciel, ce qui en fait une cible facile lorsqu'il se repose.
+L'aigle est un excellent éclaireur, il peut même traverser de courts détroits en volant, mais il est aussi très visible dans le ciel, ce qui en fait une cible facile lorsqu'il se repose.  
 
-15 points de vie, résistance à la magie 0, attaque : 6, défense : 2. 2 attaques : une attaque magique, une attaque sans arme (2d3). Magie +0, Espionnage +0, Perception +2, Endurance +0 et Combat sans arme +0
+Caractérisitques :
+
+- 15 points de vie
+- Résistance à la magie : 0
+- Attaque : 6
+- Défense : 2
+- 2 attaques : une attaque magique, une attaque sans arme (2d3)
+- Magie : +0
+- Espionnage : +0
+- Perception : +2
+- Endurance : +0
+- Combat à mains nues : +0
 
 ### Démon
 
-Les [Démons] sont cruels et imprévisibles. Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.
+Les [Démons] sont cruels et imprévisibles.  
+Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.  
 
-50 Trefferpunkte, Magieresistenz 15, Angriff: -2, Verteidigung: -2, Rüstung: 2. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5), ein magischer Angriff. Alchemie +2, Armbrustschießen +0, Bergbau +0, Bogenschießen +0, Burgenbau +0, Handeln -3, Holzfällen +1, Katapultbedienung +0, Kräuterkunde -3, Magie +1, Pferdedressur -3, Reiten -1, Rüstungsbau +0, Schiffbau -1, Hiebwaffen +1, Segeln -1, Stangenwaffen +1, Spionage +0, Steinbau +0, Straßenbau +0, Taktik -1, Tarnung +1, Unterhaltung -3, Waffenbau +1, Wagenbau -2, Wahrnehmung +1, Steuereintreiben +1 und Ausdauer +0
+50 Trefferpunkte
+Magieresistenz 15
+Angriff: -2,
+Verteidigung: -2
+Rüstung: 2.
+Kann Waffen benutzen. 3
+Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5)
+ein magischer Angriff.
+Alchemie +2
+Armbrustschießen +0
+Bergbau +0,
+Bogenschießen +0,
+Burgenbau +0,
+Handeln -3,
+Holzfällen +1,
+Katapultbedienung +0,
+Kräuterkunde -3,
+Magie +1,
+Pferdedressur -3,
+Reiten -1,
+Rüstungsbau +0,
+Schiffbau -1,
+Hiebwaffen +1,
+Segeln -1,
+Stangenwaffen +1,
+Spionage +0,
+Steinbau +0,
+Straßenbau +0,
+Taktik -1,
+Tarnung +1,
+Unterhaltung -3,
+Waffenbau +1,
+Wagenbau -2,
+Wahrnehmung +1,
+Steuereintreiben +1
+Ausdauer +0
 
 ### Dauphin
 
-Rien de spécial, il nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.
+Rien de spécial, il nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.  
 
-24 points de vie, résistance à la magie 0, attaque : 5, défense : 5. 2 attaques : une attaque magique, une attaque sans arme (1d6). Magie +0, Espionnage +0, Tactique +0, Stealth +0, Perception +1, Endurance +0 et Combat sans arme +0
+24 points de vie
+résistance à la magie 0
+attaque : 5,
+défense : 5.
+2 attaques : une attaque magique, une attaque sans arme (1d6).
+Magie +0,
+Espionnage +0,
+Tactique +0,
+Stealth +0,
+Perception +1,
+Endurance +0
+Combat sans arme +0
 
 ### Licorne
 
-Cette créature mythique vit de préférence dans les forêts les plus profondes et sait parfaitement se dissimuler aux yeux des autres. Il est rare qu'une licorne se joigne à un mage, mais lorsque c'est le cas, elle devient un allié puissant qui dispose également de sa propre magie.
+Cette créature mythique vit de préférence dans les forêts les plus profondes et sait parfaitement se dissimuler aux yeux des autres.  
+Il est rare qu'une licorne se joigne à un mage, mais lorsque c'est le cas, elle devient un allié puissant qui dispose également de sa propre magie.  
 
-40 points de vie, résistance à la magie 90, attaque : 6, défense : 4. 3 attaques : une attaque magique, une attaque non armée (3d12), une attaque non armée (2d4). Magie +2, Espionnage +0, Tactique +0, Stealth +4, Perception +5, Endurance +0 et Combat sans arme +0
+40 points de vie
+résistance à la magie 90,
+attaque : 6,
+défense : 4.
+3 attaques : une attaque magique, une attaque non armée (3d12), une attaque non armée (2d4).
+Magie +2,
+Espionnage +0,
+Tactique +0,
+Stealth +4,
+Perception +5,
+Endurance +0
+Combat sans arme +0
 
 ### Hibou
 
@@ -98,7 +179,7 @@ Rien de spécial, il nage et peut aller à l'intérieur des terres.
 
 900 points de vie, résistance à la magie 0, attaque : 10, défense : 5, armure : 7. 2 attaques : une attaque magique, une attaque sans arme (2d50). Magie +0, Espionnage +0, Tactique +0, Perception +1, Endurance +0 et Combat sans arme +0
 
-### Dragon Chanteur
+### Dragon chanteur
 
 Les dragons chanteurs sont de la taille d'un tigre adulte. Leur couleur varie du rouge chatoyant au noir profond en passant par le vert foncé. Tous les dragons connus de cette espèce font preuve d'une grande intelligence et d'une grande capacité magique. Comme leurs grands cousins, ils possèdent un souffle de feu. Ils aiment les chants et les repas copieux. De temps en temps, ils forment une alliance magique étroite avec un mage. Lorsque cela se produit, le magicien dispose d'un familier extrêmement loyal et précieux.
 
@@ -138,75 +219,85 @@ Rien de spécial.
 
 Les familiers sont très différents les uns des autres. Tous les familiers ne peuvent pas apprendre toutes les compétences et chaque race se distingue par des caractéristiques spécifiques. Certains sont eux-mêmes doués de magie et disposent de leur propre aura. D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent voler et ainsi également traverser les océans. Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes races de familiers. Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.
 
-| Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-|-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
-| Trefferpunkte               | 15    | 50    | 24      | 40      | 9    | 6   | 30    | 16     | 40          | 300   | 20    | 15     | 10    | 900               | 40         | 10         | 30    | 10         | 300        | 25   |
-| Gewicht \[kg\]              | 5     | 10    | 5       | 5       | 5    | 2   | 5     | 6      | 5           | 5     | 5     | 10     | 1     | 16                | 10         | 5          | 5     | 5          | 300        | 5    |
-| Kapazität \[kg\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4  | 5,4 | 5,4   | 4,4    | 5,4         | 5,4   | 5,4   | 5,4    | 5,4   | 6                 | 6          | 5,4        | 5,4   | 5,4        | 100        | 5,4  |
-| nat. Rüstung                | 0     | 2     | 0       | 0       | 0    | 0   | 5     | 0      | 0           | 0     | 0     | 0      | 0     | 7                 | 1          | 1          | 0     | 0          | 6          | 0    |
-| Magieresistenz              | 0     | 15    | 0       | 90      | 0    | 80  | 100   | -5     | 50          | 0     | 0     | 90     | 0     | 0                 | 99         | 50         | 0     | 50         | 80         | 0    |
-| eigene Zauber               |       |       |         | ja      |      | ja  | ja    |        |             |       |       | ja     |       |                   | ja         | ja         |       | ja         |            |      |
-| kann sich über Land bewegen | ja    | ja    |         | ja      | ja   | ja  | ja    | ja     | ja          |       | ja    | ja     | ja    | ja                | ja         | ja         | ja    | ja         | ja         | ja   |
-| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja   | ja  | ja    |        |             | ja    |       |        |       | ja                | ja         | ja         |       | ja         |            |      |
-| Kann Rüstungen benutzen     |       | ja    |         |         |      | ja  | ja    | ja     |             |       |       | ja     |       |                   |            | ja         |       |            |            |      |
-| Talent                      | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
-| Alchemie                    |       | +2    |         |         |      |     |       | +1     |             |       |       | 0      |       |                   |            |            |       |            |            |      |
-| Armbrustschießen            |       | 0     |         |         |      |     |       | 0      |             |       |       | 0      |       |                   |            |            |       |            |            |      |
-| Ausdauer                    | 0     | 0     | 0       | 0       | 0    | 0   | 0     | 0      | 0           | 0     | 0     | -1     | 0     | 0                 | 0          | 0          | 0     | 0          | +2         | 0    |
-| Bergbau                     |       | +0    |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Bogenschießen               |       | 0     |         |         |      |     |       | 0      |             |       |       | +2     |       |                   |            |            |       |            |            |      |
-| Burgenbau                   |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Handeln                     |       | -3    |         |         |      |     |       | -1     |             |       |       | -2     |       |                   |            |            |       |            |            |      |
-| Hiebwaffen                  |       | +1    |         |         |      | -1  | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
-| Holzfällen                  |       | +1    |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Katapultbedienung           |       | 0     |         |         |      |     |       | +1     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Kräuterkunde                |       | -3    |         |         |      |     |       | 0      |             |       | +1    | +4     |       |                   |            |            |       |            |            |      |
-| Magie                       | 0     | +1    | 0       | +2      | 0    | +1  | +1    | -1     | 0           | 0     | 0     | +1     | 0     | 0                 | +1         | +1         | 0     | +1         | 0          | 0    |
-| Pferdedressur               |       | -3    |         |         |      |     |       | 0      |             |       | +1    | +5     |       |                   |            |            |       |            |            |      |
-| Reiten                      |       | -1    |         |         |      | -1  | -2    | 0      |             |       |       | +5     |       |                   |            | -1         |       |            |            |      |
-| Rüstungsbau                 |       | 0     |         |         |      |     |       | 0      |             |       |       | -2     |       |                   |            |            |       |            |            |      |
-| Schiffbau                   |       | -1    |         |         |      |     |       | -2     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Segeln                      |       | -1    |         |         |      |     |       | -2     |             |       |       | -2     |       |                   |            |            |       |            |            |      |
-| Spionage                    | 0     | 0     | 0       | 0       | +1   | +2  | 0     | 0      | 0           | 0     | 0     | 0      | +5    | 0                 | 0          | +1         | 0     | +1         | 0          | 0    |
-| Stangenwaffen               |       | +1    |         |         |      | -1  | 0     | 0      |             |       |       | 0      |       |                   |            | 0          |       | 0          |            |      |
-| Steinbau                    |       | 0     |         |         |      |     |       | 0      |             |       |       |        |       |                   |            |            |       |            | +10        |      |
-| Steuereintreiben            |       | +1    |         |         |      |     |       | 0      |             |       |       | -2     |       |                   |            | +1         |       | +1         |            |      |
-| Straßenbau                  |       | 0     |         |         |      |     |       | -2     |             |       |       |        |       |                   |            |            |       |            |            |      |
-| Taktik                      |       | -1    | 0       | 0       |      |     |       | -2     | 0           | 0     |       | -2     |       |                   |            |            | 0     |            |            | 0    |
-| Tarnung                     |       | +1    | 0       | +4      | +1   | +5  | 0     | +1     | 0           |       | +3    | +3     | +4    |                   | 0          | +1         | 0     | +1         |            | 0    |
-| Unterhaltung                |       | -3    |         |         |      |     |       | -1     |             |       |       | +10    |       |                   |            |            |       |            |            |      |
-| Waffenbau                   |       | +1    |         |         |      |     |       | 0      |             |       |       | -2     |       |                   |            |            |       |            |            |      |
-| Waffenloser Kampf           | 0     | -     | 0       | 0       | 0    | 0   | 0     | -      | 0           | 0     | 0     | 0      | 0     | 0                 | 0          | 0          | 0     | 0          | 0          | 0    |
-| Wagenbau                    |       | -2    |         |         |      |     |       | -1     |             |       |       | -2     |       |                   |            |            |       |            |            |      |
-| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
+| Eigenschaft                 | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Höllenkatze | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
+|-----------------------------|-------|-------|---------|---------|-------|-----|---------|--------|-------------|-------|------|--------|-----|---------------|-----------------|-----------|-------|----------|-----------------|------|
+| Points de Vie               | 15    | 50    | 24      | 40      | 9     | 6   | 30      | 16     | 40          | 300   | 20   | 15     | 10  | 900           | 40              | 10        | 30    | 10       | 300             | 25   |
+| Gewicht \[kg\]              | 5     | 10    | 5       | 5       | 5     | 2   | 5       | 6      | 5           | 5     | 5    | 10     | 1   | 16            | 10              | 5         | 5     | 5        | 300             | 5    |
+| Kapazität \[kg\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4   | 5,4 | 5,4     | 4,4    | 5,4         | 5,4   | 5,4  | 5,4    | 5,4 | 6             | 6               | 5,4       | 5,4   | 5,4      | 100             | 5,4  |
+| nat. Rüstung                | 0     | 2     | 0       | 0       | 0     | 0   | 5       | 0      | 0           | 0     | 0    | 0      | 0   | 7             | 1               | 1         | 0     | 0        | 6               | 0    |
+| Magieresistenz              | 0     | 15    | 0       | 90      | 0     | 80  | 100     | -5     | 50          | 0     | 0    | 90     | 0   | 0             | 99              | 50        | 0     | 50       | 80              | 0    |
+| eigene Zauber               |       |       |         | ja      |       | ja  | ja      |        |             |       |      | ja     |     |               | ja              | ja        |       | ja       |                 |      |
+| kann sich über Land bewegen | ja    | ja    |         | ja      | ja    | ja  | ja      | ja     | ja          |       | ja   | ja     | ja  | ja            | ja              | ja        | ja    | ja       | ja              | ja   |
+| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja    | ja  | ja      |        |             | ja    |      |        |     | ja            | ja              | ja        |       | ja       |                 |      |
+| Kann Rüstungen benutzen     |       | ja    |         |         |       | ja  | ja      | ja     |             |       |      | ja     |     |               |                 | ja        |       |          |                 |      |
+| Compétence                  | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Höllenkatze | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
+| Alchemie                    |       | +2    |         |         |       |     |         | +1     |             |       |      | 0      |     |               |                 |           |       |          |                 |      |
+| Armbrustschießen            |       | 0     |         |         |       |     |         | 0      |             |       |      | 0      |     |               |                 |           |       |          |                 |      |
+| Ausdauer                    | 0     | 0     | 0       | 0       | 0     | 0   | 0       | 0      | 0           | 0     | 0    | -1     | 0   | 0             | 0               | 0         | 0     | 0        | +2              | 0    |
+| Bergbau                     |       | +0    |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          | +10             |      |
+| Bogenschießen               |       | 0     |         |         |       |     |         | 0      |             |       |      | +2     |     |               |                 |           |       |          |                 |      |
+| Burgenbau                   |       | 0     |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          |                 |      |
+| Handeln                     |       | -3    |         |         |       |     |         | -1     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
+| Hiebwaffen                  |       | +1    |         |         |       | -1  | 0       | 0      |             |       |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
+| Holzfällen                  |       | +1    |         |         |       |     |         | 0      |             |       |      |        |     |               |                 |           |       |          | +10             |      |
+| Katapultbedienung           |       | 0     |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          |                 |      |
+| Kräuterkunde                |       | -3    |         |         |       |     |         | 0      |             |       | +1   | +4     |     |               |                 |           |       |          |                 |      |
+| Magie                       | 0     | +1    | 0       | +2      | 0     | +1  | +1      | -1     | 0           | 0     | 0    | +1     | 0   | 0             | +1              | +1        | 0     | +1       | 0               | 0    |
+| Pferdedressur               |       | -3    |         |         |       |     |         | 0      |             |       | +1   | +5     |     |               |                 |           |       |          |                 |      |
+| Reiten                      |       | -1    |         |         |       | -1  | -2      | 0      |             |       |      | +5     |     |               |                 | -1        |       |          |                 |      |
+| Rüstungsbau                 |       | 0     |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
+| Schiffbau                   |       | -1    |         |         |       |     |         | -2     |             |       |      |        |     |               |                 |           |       |          |                 |      |
+| Segeln                      |       | -1    |         |         |       |     |         | -2     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
+| Spionage                    | 0     | 0     | 0       | 0       | +1    | +2  | 0       | 0      | 0           | 0     | 0    | 0      | +5  | 0             | 0               | +1        | 0     | +1       | 0               | 0    |
+| Stangenwaffen               |       | +1    |         |         |       | -1  | 0       | 0      |             |       |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
+| Steinbau                    |       | 0     |         |         |       |     |         | 0      |             |       |      |        |     |               |                 |           |       |          | +10             |      |
+| Steuereintreiben            |       | +1    |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 | +1        |       | +1       |                 |      |
+| Straßenbau                  |       | 0     |         |         |       |     |         | -2     |             |       |      |        |     |               |                 |           |       |          |                 |      |
+| Taktik                      |       | -1    | 0       | 0       |       |     |         | -2     | 0           | 0     |      | -2     |     |               |                 |           | 0     |          |                 | 0    |
+| Tarnung                     |       | +1    | 0       | +4      | +1    | +5  | 0       | +1     | 0           |       | +3   | +3     | +4  |               | 0               | +1        | 0     | +1       |                 | 0    |
+| Unterhaltung                |       | -3    |         |         |       |     |         | -1     |             |       |      | +10    |     |               |                 |           |       |          |                 |      |
+| Waffenbau                   |       | +1    |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
+| Waffenloser Kampf           | 0     | -     | 0       | 0       | 0     | 0   | 0       | -      | 0           | 0     | 0    | 0      | 0   | 0             | 0               | 0         | 0     | 0        | 0               | 0    |
+| Wagenbau                    |       | -2    |         |         |       |     |         | -1     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
+| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5    | +2  | 0       | 0      | +1          | +1    | +4   | +2     | +2  | +1            | 0               | +1        | +1    | +1       |                 | +2   |
 
-## Attribution de familiers
+## Affectation des familiers
 
-Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig. Die Auswahl wird von seinem Magiegebiet seine Rasse und seiner Magiestufe bestimmt.
+Les familiers de différentes races peuvent rejoindre un magicien au hasard, mais pas complètement au hasard.  
+La sélection est déterminée par son École de Magie, sa race et son niveau de magie.  
 
-In der folgenden Tabelle findet sich in der ersten Spalte die Rasse des Magiers, der einen Vertrauten versucht an sich zu binden. In der zweiten Spalte findet sich die Standard-Vertrautenrasse (Primärvertrauter), die sich dieser Magierrasse anschließt. In den fünf darauffolgenden Spalten, stehen die Rassen, die sich dem Magier bevorzugt anschließen, wenn er in dem jeweiligen Magiegebiet bewandert ist. Mit 50%-100% (je nach Stufe) wird die Rasse des Magiegebiets gewählt, mit ungefähr Stufe% eine beliebige, sonst die Primärrasse.
+<!-- TODO: clarify this translation !? -->
+Dans le tableau suivant, la race du magicien qui tente de lier un familier à lui-même se trouve dans la première colonne.  
+La deuxième colonne contient la race de familier standard (familier principal) qui rejoint cette race de mage.  
+Dans les cinq colonnes suivantes se trouvent les races de familier attachées au mage en fonction de l'École de Magie qu'il a rejoint.  
+Avec 50%-100% (selon le niveau) la race de l'École de Magie est choisie, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que la race principale.  
 
-Expérience de jeu : Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen und sollten im Code nochmal gegengecheckt werden!
+Expériences de jeu :
 
-Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiegebiet) oder einen Luchs (Primärvertrauter), aber eben auch eine geringere Chance eine zufällige Rasse aus der Tabelle zu bekommen.
+Les informations sur les pourcentages doivent être considérées avec prudence et doivent être revérifiées dans le code !
 
-| Race      | Familier principal | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
-|-----------|--------------------|------------|-------------------|------------|------------|-------------|
-| Humains   | Loup               | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
-| Aquariens | Riesenschildkröte  | Delphin    | Riesenschildkröte | Delphin    | Delphin    | Krake       |
-| Chat      | Luchs              | Traumkatze | Luchs             | Singdrache | Tiger      | Höllenkatze |
-| Halfling  | Eule               | Ratte      | Adler             | Singdrache | Adler      | Ratte       |
-| Insecte   | Geist              | Ratte      | Eule              | Ratte      | Tunnelwurm | Teufelchen  |
-| Démon     | Teufelchen         | Teufelchen | Geist             | Ratte      | Wolf       | Teufelchen  |
-| Troll     | Tunnelwurm         | Ratte      | Ratte             | Adler      | Tunnelwurm | Wolf        |
-| Gobelin   | Ratte              | Singdrache | Teufelchen        | Ratte      | Ratte      | Teufelchen  |
-| Elfe      | Luchs              | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
-| Nain      | Tunnelwurm         | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
-| Orc       | Goblin             | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
+Un magicien elfe avec Tybied a la plus grande chance d'obtenir un hibou (École de Magie) ou un lynx (familier principal), mais aussi une chance plus faible d'obtenir une race aléatoire du tableau.  
 
-Expérience de jeu : Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
+| Race      | Familier principal | Illaun          | Tybied        | Cerddor         | Gwyrrd          | Draig       |
+|-----------|--------------------|-----------------|---------------|-----------------|-----------------|-------------|
+| Humains   | Loup               | Dreamcat        | Hibou         | Hibou           | Aigle           | Diablotin   |
+| Aquariens | Tortue géante      | Dauphin         | Tortue géante | Dauphin         | Dauphin         | Pieuvre     |
+| Chats     | Lynx               | Dreamcat        | Lynx          | Dragon chanteur | Tigre           | Höllenkatze |
+| Halflings | Hibou              | Rat             | Aigle         | Dragon chanteur | Aigle           | Rat         |
+| Insectes  | Fantôme            | Rat             | Hibou         | Rat             | Ver des tunnels | Diablotin   |
+| Démons    | Diablotin          | Diablotin       | Fantôme       | Rat             | Loup            | Diablotin   |
+| Trolls    | Ver des tunnels    | Rat             | Rat           | Aigle           | Ver des tunnels | Loup        |
+| Gobelins  | Rat                | Dragon chanteur | Diablotin     | Rat             | Rat             | Diablotin   |
+| Elfes     | Lynx               | Fée             | Hibou         | Nymphe          | Licorne         | Diablotin   |
+| Nains     | Ver des tunnels    | Aigle           | Hibou         | Lynx            | Loup            | Rat         |
+| Orcs      | Goblin             | Fantôme         | Diablotin     | Rat             | Loup            | Démon       |
 
-Expérience de jeu : Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen. Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
+Expériences de jeu :
+
+Le terrain sur lequel le familier est invoqué ne semble avoir aucune influence sur la race du familier.  
+
+Un Aquarien ne devrait pas nécessairement se tenir à côté d'un lac intérieur, sinon le familier nageur le plus susceptible pourrait se retrouver coincé dans le petit lac sans aucune chance de voyager vers l'océan.  
+Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'invoquer un familier flottant dans une région sans accès à une tuile océan (lac ou mer), ni comment cela change les chances d'obtenir une autre race de familier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
 

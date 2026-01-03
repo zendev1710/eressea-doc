@@ -23,29 +23,29 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
-| Bâtiment            | Pierres | Bois | Fers | Pièces | Niv. |     Pièces | Ressource |     Taille Max. |    Capacité |
-|---------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|----------------:|------------:|
-| [Phare]             |       2 |    1 |    1 |    100 |    3 |        100 | --        | *pas de limite* | 4 personnes |
-| [Mine]              |       5 |   10 |    1 |    250 |    4 |        500 | --        | *pas de limite* |      taille |
-| [Carrière]          |       1 |    5 |    1 |    250 |    2 |        250 | --        | *pas de limite* |      taille |
-| [Scierie]           |       5 |    5 |    3 |    200 |    3 |        250 | --        | *pas de limite* |      taille |
-| [Forge]             |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    | *pas de limite* |      taille |
-| [Haras]             |       2 |    4 |    1 |    100 |    2 |        150 | --        | *pas de limite* |      taille |
-| [Port]              |       5 |    5 |   -- |    250 |    3 |        250 | --        |              25 |      taille |
-| [Caravanserail]     |       1 |    5 |    1 |    500 |    2 |       3000 | 2 chevaux |              10 |      taille |
-| [Académie]          |       5 |    5 |    1 |    500 |    3 |       1000 | --        |              25 |      taille |
-| [Tour de mage][^1]  |       5 |    3 |    3 |    500 |    5 |       1000 | --        |              50 | 2 personnes |
-| [Barrage]           |       5 |   10 |    1 |    500 |    4 |       1000 | 3 bois    |              50 |      taille |
-| [Tunnel]            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |             100 |      taille |
-| [Auberge]           |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        | *pas de limite* |      taille |
-| [Monument]          |       1 |    1 |    1 |    400 |    4 |         -- | --        | *pas de limite* |      taille |
-| [Cercle de Pierres] |       5 |    5 |   -- |     -- |    2 |         -- | --        |             100 | 3 personnes |
+| Bâtiment            | Pierres | Bois | Fers | Pièces | Niv. |     Pièces | Ressource | Taille Max. |    Capacité |
+|---------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
+| [Phare]             |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
+| [Mine]              |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
+| [Carrière]          |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
+| [Scierie]           |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
+| [Forge]             |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
+| [Haras]             |       2 |    4 |    1 |    100 |    2 |        150 | --        |          -- |      taille |
+| [Port]              |       5 |    5 |   -- |    250 |    3 |        250 | --        |          25 |      taille |
+| [Caravanserail]     |       1 |    5 |    1 |    500 |    2 |       3000 | 2 chevaux |          10 |      taille |
+| [Académie]          |       5 |    5 |    1 |    500 |    3 |       1000 | --        |          25 |      taille |
+| [Tour de mage][^1]  |       5 |    3 |    3 |    500 |    5 |       1000 | --        |          50 | 2 personnes |
+| [Barrage]           |       5 |   10 |    1 |    500 |    4 |       1000 | 3 bois    |          50 |      taille |
+| [Tunnel]            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
+| [Auberge]           |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
+| [Monument]          |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
+| [Cercle de Pierres] |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
 
 [^1]: nécessite également 2 mallorns et 2 laens par point de taille.
 
 !!! warning "Attention"
 
-    **Un bâtiment n'est actif que** si :
+    **Un bâtiment est actif uniquement** si :
 
     - Ses [frais d'entretien] ont été **payés** en début de tour
     - Le nombre de personnes qui l'occupent est **inférieur ou égal** à sa taille (cette règle ne s'applique pas à certains bâtiments, comme le [phare])
@@ -87,7 +87,7 @@ Les avantages d'un phare :
 | Coûts par point de taille | 5 pierres, 10 bois, 1 fers, 250 pièces |
 | Niveau requis             | 4                                      |
 | Maintenance par tour      | 500 pièces                             |
-| Taille maximale           | *pas de limite*                        |
+| Taille maximale           | --                                     |
 | Capacité                  | 1 person per 1 taille                  |
 
 - Seule la moitié du fers extrait par les unités situées à l'intérieur de la mine est déduite des ressources de la région. Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
@@ -109,7 +109,7 @@ Les avantages d'un phare :
 | Coûts par point de taille | 1 pierres, 5 bois, 1 fers, 250 pièces |
 | Niveau requis             | 2                                     |
 | Maintenance par tour      | 250 pièces                            |
-| Taille maximale           | *pas de limite*                       |
+| Taille maximale           | --                                    |
 | Capacité                  | 1 person per 1 taille                 |
 
 - Seule la moitié de la pierre extraite par les unités situées à l'intérieur de la quarry est déduite des ressources de la région. Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
@@ -117,7 +117,8 @@ Les avantages d'un phare :
 
 **Exemple:**
 
-- 10 trolls produisent 40 pierres dans une région. En raison des capacités spéciales des trolls, la réserve de la région n'est réduite que de 30 pierres.
+10 trolls produisent 40 pierres dans une région.
+En raison des capacités spéciales des trolls, la réserve de la région n'est réduite que de 30 pierres.
 
 Si les trolls sont à l'intérieur d'une carrière, la réserve sera réduite de 15 Pierres.
 
@@ -127,11 +128,13 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 
 *Sawmill (EN), Sägewerk (DE)*.
 
+| Propriété                 | Valeur                                |
+|---------------------------|---------------------------------------|
 | Coûts par point de taille | 5 pierres, 5 bois, 3 fers, 200 pièces |
-| Niveau requis          | 3                                   |
-| Maintenance par tour    | 250 pièces                          |
-| Taille maximale            |  *pas de limite*                                |
-| Capacité                | 1 person per 1 taille                 |
+| Niveau requis             | 3                                     |
+| Maintenance par tour      | 250 pièces                            |
+| Taille maximale           | --                                    |
+| Capacité                  | 1 person per 1 taille                 |
 
 - Seule la moitié du bois/saplings/mallorns produit par les unités dans une scierie est déduite des ressources de la région. Ce nombre est arrondi au supérieur (c'est-à-dire que si une unité, dans une scierie, produit 11 bois, 6 arbres seront coupés).
 - Les unités à l'intérieur d'une scierie bénéficient d'un bonus de +1 à leur compétence forestry.
@@ -147,7 +150,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 | Coûts par point de taille | 5 pierres, 5 bois, 2 fers, 200 pièces |
 | Niveau requis             | 3                                     |
 | Maintenance par tour      | 300 pièces, 1 bois                    |
-| Taille maximale           | *pas de limite*                       |
+| Taille maximale           | --                                    |
 | Capacité                  | 1 person per 1 taille                 |
 
 - Les unités à l'intérieur n’ont besoin que de la moitié de la quantité normale de fers pour fabriquer des armes et des armures en fers. Le Laen n'est pas économisé.
@@ -162,7 +165,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 | Coûts par point de taille | 2 pierres, 4 bois, 1 fers, 100 pièces |
 | Niveau requis             | 2                                     |
 | Maintenance par tour      | 150 pièces                            |
-| Taille maximale           | *pas de limite*                       |
+| Taille maximale           | --                                    |
 | Capacité                  | 1 person per 1 taille                 |
 
 - Les unités à l'intérieur d'une écurie peuvent reproduire des chevaux en utilisant l'ordre [[cmd-grow]] HORSES. Pour cela l'unité a besoin de la compétence Taming et d'au moins 2 chevaux (en sa possession).
@@ -285,7 +288,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 | Coûts par point de taille | 4 pierres, 3 bois, 1 fer, 200 pièces |
 | Niveau requis             | 2                                    |
 | Maintenance par tour      | 5 pièces per 1 taille                |
-| Taille maximale           | *pas de limite*                      |
+| Taille maximale           | --                                   |
 | Capacité                  | 1 person per 1 taille                |
 
 - Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.
@@ -299,8 +302,8 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 |---------------------------|-------------------------------------|
 | Coûts par point de taille | 1 pierre, 1 bois, 1 fer, 400 pièces |
 | Niveau requis             | 4                                   |
-| Maintenance par tour      | --                                |
-| Taille maximale           | *pas de limite*                     |
+| Maintenance par tour      | --                                  |
+| Taille maximale           | --                                  |
 | Capacité                  | 1 person per 1 taille               |
 
 - Le nom et la description du monument ne peuvent être renseignés qu'une seule fois. Cela ne pourra plus jamais être modifié.
@@ -315,7 +318,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 | Coûts par point de taille | 5 pierres, 5 bois     |
 | Coût total                | 500 pierres, 500 bois |
 | Niveau requis             | 2                     |
-| Maintenance par tour      | --                  |
+| Maintenance par tour      | --                    |
 | Taille maximale           | 100                   |
 | Capacité                  | 3 personnes           |
 

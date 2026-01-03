@@ -4,13 +4,14 @@ alias: echeck
 ---
 # ECheck
 
-**ECheck** is the orders checker that also works on the Eressea server.
-ECheck is not perfect and not complete.
-There can be both false negative and false positive reports.
-So if ECheck doesn't report any errors, it doesn't necessarily mean that the orders are correct.
-If ECheck reports errors, it does not necessarily mean that the orders are invalid.
-Especially when there are rule changes or rare items, ECheck doesn't always know immediately.
-ECheck is intended more as an aid to check the orders again if necessary.
+**ECheck** is the orders checker that also works on the Eressea server.  
+
+ECheck is not perfect and not complete.  
+There can be both false negative and false positive reports.  
+So if ECheck doesn't report any errors, it doesn't necessarily mean that the orders are correct.  
+If ECheck reports errors, it does not necessarily mean that the orders are invalid.  
+Especially when there are rule changes or rare items, ECheck doesn't always know immediately.  
+ECheck is intended more as an aid to check the orders again if necessary.  
 
 ECheck can be accessed in different ways:
 
@@ -23,12 +24,12 @@ ECheck can be accessed in different ways:
 - On the command line (command prompt “cmd” on Windows, in any terminal on Linux).
   Then you have to specify the parameters listed below.
 
-There are different warning levels controlled by command line parameters.
-With`-w1` only syntax errors are output.
-The steps `w2` until `w4` issue additional warnings, for example about silver consumption, teachers or routes.
-The `noxxx` parameters can also suppress certain warnings.
-ECheck normally assumes that you are entering German orders for E2.
-English orders can be checked, for example, with the -Len parameter.
+There are different warning levels controlled by command line parameters.  
+With`-w1` only syntax errors are output.  
+The steps `w2` until `w4` issue additional warnings, for example about silver consumption, teachers or routes.  
+The `noxxx` parameters can also suppress certain warnings.  
+ECheck normally assumes that you are entering German orders for E2.  
+English orders can be checked, for example, with the `-Len` parameter.  
 
 ## Usage
 

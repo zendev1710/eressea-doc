@@ -8,40 +8,38 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ## Weapon properties
 
-<!-- TODO: adequately translate Schartiges - Rusty  ?) -->
+| Weapon                 | Dam./foot |    ⌀ | Dam./horse | ⌀    | OB | DB | Skill | Sum |
+|------------------------|----------:|-----:|-----------:|------|---:|---:|:-----:|----:|
+| Adamantium axe         |    3d4+15 | 22.5 |     3d4+15 | 22.5 | +2 | -2 |  [M]  |   0 |
+| Axe                    |     2d6+4 |   11 |      2d6+4 | 11   | +1 | -2 |  [M]  |  -1 |
+| Bow                    |    1d11+1 |    7 |     1d11+1 | 7    | -2 |  0 |  [B]  |  -2 |
+| Catapult[^1]           |    3d10+5 | 21.5 |     3d10+5 | 21.5 | -4 |  0 |  [K]  |  -4 |
+| Claymore               |     2d8+3 |   12 |      2d8+3 | 12   | -1 | -2 |  [M]  |  -3 |
+| Crossbow[^2]           |     3d3+5 |   11 |      3d3+5 | 11   |  0 |  0 |  [A]  |   0 |
+| Elven bow              |     2d6+4 |   11 |      2d6+4 | 11   | -2 |  0 |  [B]  |  -2 |
+| [[flaming-sword]]      |    3d6+10 | 20.5 |     3d6+10 | 20;5 | +1 | +1 |  [M]  |  +2 |
+| Halberd                |     2d6+3 |   10 |      2d6+3 | 10   | -1 | +2 |  [H]  |  +1 |
+| Laen sword             |    3d6+10 | 20.5 |     3d6+10 | 20.5 | +1 | +1 |  [M]  |  +2 |
+| Lance                  |       1d5 |    3 |      2d6+5 | 12   |  0 | -2 |  [H]  |  -2 |
+| Mallorn bow            |    1d11+2 |    8 |     1d11+2 | 8    | -2 |  0 |  [B]  |  -2 |
+| Mallorn crossbow[^2]   |     3d3+6 |   12 |      3d3+6 | 12   |  0 |  0 |  [A]  |   0 |
+| Mallorn lance          |     1d5+1 |    4 |      2d6+6 | 13   |  0 | -2 |  [H]  |  -2 |
+| Mallorn spear          |    1d10+1 |  6.5 |     1d12+3 | 9.5  |  0 |  0 |  [H]  |   0 |
+| Rusty axe              |       2d6 |    7 |        2d6 | 7    |  0 | -3 |  [M]  |  -3 |
+| Rusty halberd          |       2d6 |    7 |        2d6 | 7    | -2 | +1 |  [H]  |  -1 |
+| Rusty sword            |       1d9 |    5 |        1d9 | 5    | -1 | -1 |  [M]  |  -2 |
+| Rusty two-handed sword |       2d8 |    9 |        2d8 | 9    | -2 | -3 |  [M]  |  -5 |
+| Spear                  |      1d10 |  5.5 |     1d12+2 | 8.5  |  0 |  0 |  [H]  |   0 |
+| Sword                  |     1d9+2 |    7 |      1d9+2 | 7    |  0 |  0 |  [M]  |   0 |
+| Unarmed[^3]            |       1d5 |    3 |        1d6 | 3.5  | -2 | -2 |       |  -4 |
+| Unarmed Goblins        |       1d5 |    3 |        1d6 | 3.5  | -2 |  0 |       |  -2 |
+| Unarmed Trolls         |     1d5+1 |    4 |          - | -    | -2 | -2 |       |  -4 |
 
-| Weapon                 | Damage/foot   | ⌀           | Damage/horse  | ⌀    | OB | DB | Skill | Sum |
-|------------------------|---------------|-------------|---------------|------|---:|---:|:-----:|----:|
-| Catapult¹              | 3d10+5; 6 mal | 21.5; 6 mal | 3d10+5; 6 mal | 21.5 | -4 |  0 |   K   |  -4 |
-| Crossbow²              | 3d3+5         | 11          | 3d3+5         | 11   |  0 |  0 |   A   |   0 |
-| Mallorn crossbow²      | 3d3+6         | 12          | 3d3+6         | 12   |  0 |  0 |   A   |   0 |
-| Bow                    | 1d11+1        | 7           | 1d11+1        | 7    | -2 |  0 |   B   |  -2 |
-| Mallorn bow            | 1d11+2        | 8           | 1d11+2        | 8    | -2 |  0 |   B   |  -2 |
-| Elven bow              | 2d6+4         | 11          | 2d6+4         | 11   | -2 |  0 |   B   |  -2 |
-| Spear                  | 1d10          | 5.5         | 1d12+2        | 8.5  |  0 |  0 |   S   |   0 |
-| Mallorn spear          | 1d10+1        | 6.5         | 1d12+3        | 9.5  |  0 |  0 |   S   |   0 |
-| Halberd                | 2d6+3         | 10          | 2d6+3         | 10   | -1 | +2 |   S   |  +1 |
-| Lance                  | 1d5           | 3           | 2d6+5         | 12   |  0 | -2 |   S   |  -2 |
-| Mallorn lance          | 1d5+1         | 4           | 2d6+6         | 13   |  0 | -2 |   S   |  -2 |
-| Sword                  | 1d9+2         | 7           | 1d9+2         | 7    |  0 |  0 |   H   |   0 |
-| Claymore               | 2d8+3         | 12          | 2d8+3         | 12   | -1 | -2 |   H   |  -3 |
-| Axe                    | 2d6+4         | 11          | 2d6+4         | 11   | +1 | -2 |   H   |  -1 |
-| Laen sword             | 3d6+10        | 20.5        | 3d6+10        | 20.5 | +1 | +1 |   H   |  +2 |
-| Adamantium axe         | 3d4+15        | 22.5        | 3d4+15        | 22.5 | +2 | -2 |   H   |   0 |
-| [[flaming-sword]]      | 3d6+10        | 20.5        | 3d6+10        | 20;5 | +1 | +1 |   H   |  +2 |
-| Rusty halberd          | 2d6           | 7           | 2d6           | 7    | -2 | +1 |   S   |  -1 |
-| Rusty sword            | 1d9           | 5           | 1d9           | 5    | -1 | -1 |   H   |  -2 |
-| Rusty two-handed sword | 2d8           | 9           | 2d8           | 9    | -2 | -3 |   H   |  -5 |
-| Rusty axe              | 2d6           | 7           | 2d6           | 7    |  0 | -3 |   H   |  -3 |
-| Unarmed³               | 1d5           | 3           | 1d6           | 3.5  | -2 | -2 |       |  -4 |
-| " Goblins              | 1d5           | 3           | 1d6           | 3.5  | -2 |  0 |       |  -2 |
-| " Trolls               | 1d5+1         | 4           | -             | -    | -2 | -2 |       |  -4 |
+[^1]: catapults only fire in the first round of the battle, but **hit 6 targets** there.
+[^2]: crossbows only fire in the 1st and 4th rounds. A crossbow hit halves the opponent's armor protection.
+[^3]: specific features depending on the race:
 
-¹ Catapults only fire in the first round of the battle, but **hit 6 targets** there.
-² Crossbows only fire in the 1st and 4th rounds. A crossbow hit halves the opponent's armor protection.
-³ Specific features depending on the race:
-
-- [Goblins] do not have the -2 penalty to Defense when unarmed
+- [Goblins] do not have the -2 penalty to defense when unarmed
 - [Trolls] deal more damage unarmed but cannot fight on horseback
 - [Orcs] fight with their best Melee skill at -3
 - [Cats] receive their usual bonus, so they have -1 to Defense when unarmed
@@ -59,7 +57,6 @@ Remarks:
 
 - Damage incurred while on horseback only applies in conjunction with the [horse bonus]
 - OB and DB represent the offensive and defensive bonuses; thus, an axe is designed more as an offensive weapon, while a halberd is more useful for defense
-- In [[skills|Skill]], K = catapult operation, A = crossbow shooting, B = archery, H = edged weapons, S = polearms
 - All Mallorn weapons increase magic resistance by 15%, all laen weapons and armor by 30% (details on magic resistance follow below)
 - A [[flaming-sword]] also conjures a small fireball per combat round
 
@@ -91,17 +88,18 @@ A unit can be in one of the following health status:
 
 | Armor            | Protection | Chance to hit |
 |------------------|:----------:|--------------:|
-| Platemail        |     5      |          130% |
-| Chainmail        |     3      |          115% |
 | Shield           |     1      |           85% |
+| Rusty shield     |     1      |          100% |
 | Laen shield      |     2      |           75% |
+| Rusty Chainmail  |     2      |          130% |
+| Chainmail        |     3      |          115% |
+| Rusty platemail  |     3      |          145% |
+| Platemail        |     5      |          130% |
 | Laen chainmail   |     6      |            -- |
 | Adamantium armor |     7      |          110% |
-| Rusty shield     |     1      |          100% |
-| Rusty Chainmail  |     2      |          130% |
-| Rusty platemail  |     3      |          145% |
 
-Only one suit of armor can be used at a time; multiple suits of armor do not provide multiple levels of protection.
+Only one suit of armor can be used at a time.
+Multiple suits of armor do not provide multiple levels of protection.
 
 Not all [[familiars]] or summoned monsters can use armor.
 
@@ -123,17 +121,17 @@ Hit points (HP), magic resistance (R.), and natural armor (NA).
 
 | Race      | HP | R. | NA |
 |-----------|---:|---:|---:|
-| Humans    | 20 |  0 |  0 |
 | Aquarians | 20 |  0 |  0 |
-| Dwarves   | 24 |  5 |  0 |
-| Orcs      | 24 | -5 |  0 |
-| Elves     | 18 | 10 |  0 |
-| Halflings | 18 |  5 |  0 |
-| Goblins   | 16 | -5 |  0 |
-| Trolls    | 30 | 10 |  1 |
-| Demons    | 50 | 15 |  2 |
-| Insects   | 24 |  5 |  2 |
 | Cats      | 20 |  0 |  0 |
+| Demons    | 50 | 15 |  2 |
+| Dwarves   | 24 |  5 |  0 |
+| Elves     | 18 | 10 |  0 |
+| Goblins   | 16 | -5 |  0 |
+| Halflings | 18 |  5 |  0 |
+| Humans    | 20 |  0 |  0 |
+| Insects   | 24 |  5 |  2 |
+| Orcs      | 24 | -5 |  0 |
+| Trolls    | 30 | 10 |  1 |
 
 Natural armor reduces damage from hits, just like the protection provided by armor or shields described above.
 Natural armor of certain races is semi-cumulative, meaning half of the natural armor value (rounded down) is added to the damage.
@@ -149,13 +147,17 @@ Such a well-armored unit is difficult to wound with simple weapons like swords o
 
 ## Magic resistance
 
-Magic resistance is a special attribute that can be influenced by race and equipment, as well as by certain spells.
+Magic resistance is a special attribute that can be influenced by race and equipment, as well as by certain spells.  
 It indicates what percentage of magical damage is reduced by combat spells.
 
-All Mallorn weapons increase magic resistance by 15%, all Laen weapons and armor by 30%.
+!!! note
+    All **Mallorn weapons** increase magic resistance by **15%**.  
+    All **Laen weapons and armors** increase magic resistance by **30%**.
 The combination of natural magic resistance, weapon, armor, and shield is not simply added together, but multiplied like the hit chance modification.
 
-An elf with a longsword and full longsword armor (shield + chain) therefore does *not* have 10 + 30 +30 + 30 = 100% resistance but 90% x 70% x 70% x 70% = 31% -> 69% magic resistance.
+An elf with a longsword and full longsword armor (shield + chain) therefore does **not** have 10 + 30 +30 + 30 = 100% resistance but:
+
+90% x 70% x 70% x 70% = 31% -> 69% magic resistance.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
@@ -164,3 +166,8 @@ An elf with a longsword and full longsword armor (shield + chain) therefore does
 [Orcs]: ./races.md#orcs
 [Cats]: ./races.md#cats
 [horse bonus]: ./war.md#bonuses-and-mali
+[K]: ./skills-list.md#catapult
+[A]: ./skills-list.md#crossbow
+[B]: ./skills-list.md#bow
+[M]: ./skills-list.md#melee
+[H]: ./skills-list.md#polearm

@@ -4,12 +4,11 @@ alias: proliferation-des-agriculteurs
 ---
 # Prolifération des agriculteurs
 
-Farmers reproduce at a rate of 1 per thousand per week.
-It is rounded up, i.e. in a week one is added for every 1000 farmers.
+Les agriculteurs se reproduisent au rythme de 1 pour mille par semaine.  
+C'est arrondi, c'est-à-dire qu'en une semaine, un est ajouté pour 1000 agriculteurs.  
 
-Using [[alchemy|peasant love potion]] the reproduction rate can be increased significantly.
-This gives up to 1,000 farmers an average of ten times the chance of reproducing for a week.
-However, this effect is subject to significant fluctuations.
-Bauern vermehren sich mit einer Rate von 1 Promille pro Woche. Es wird aufgerundet, d.h. in einer Woche kommen pro angefangene 1000 Bauern einer dazu.
+En utilisant une [[alchimie|peasant love potion]], le taux de reproduction peut être considérablement augmenté.  
+Cela donne à 1 000 agriculteurs en moyenne dix fois plus de chances de se reproduire pendant une semaine.  
+Cet effet est cependant sujet à des fluctuations importantes.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernvermehrung&oldid=7120] -->

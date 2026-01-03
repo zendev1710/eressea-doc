@@ -4,11 +4,13 @@ alias: cs-map-fr
 ---
 # CSMap
 
-The **Coast 'n Sea Mapper** , CSMap or CSMapFx for short, is a map and report viewer for the email game [Eressea] and runs on Windows and Linux.
+Le **Coast 'n Sea Mapper** , CSMap (appelé aussi CSMapFx), est une visionneuse de cartes et de rapports pour le PBEM [Eressea], qui fonctionne sous Windows et Linux.
 
-The program is designed to quickly load and display large map CRs.
-However, region information, units, ships and buildings can now also be displayed.
-CSMap should be gradually expanded to also be able to carry out orders and simple unit automation.
+Le programme est conçu pour charger et afficher rapidement de grandes cartes CR.  
+
+Cependant, les informations sur la région, les unités, les navires et les bâtiments peuvent désormais également être affichés.  
+
+CSMap devrait être progressivement étendu pour pouvoir également exécuter des commandes et des automatisations simples d'unités.  
 
 ## Téléchargement
 

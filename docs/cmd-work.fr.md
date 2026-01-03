@@ -6,32 +6,38 @@ alias: cmd-work-fr
 
 **`WORK`**  
 
-The unit works in agriculture and earns between 10 and 15 Silver per person per round (see also [this table]).
+Avec cet ordre, une unité travaille dans l'agriculture et gagne entre 10 et 15 Silvers par personne et par tour (voir aussi [ce tableau]).  
 
-| Merit Castle | none | Fastening | Tower | Castle | fortress | Citadel |
-|--------------|:----:|:---------:|:-----:|:------:|:--------:|:-------:|
-| wage         |  10  |    11     |  12   |   13   |    14    |   15    |
-| Orc wages    |  10  |    11     |  11   |   12   |    12    |   13    |
+Salaire en fonction du type de château.
 
-Different regions have different numbers of jobs available.
-Every farmer takes away one job, every sapling takes away four jobs and every tree takes away eight jobs.
-Under "max. trees" it is stated how many trees would take up the total space for "field workers".
-But even the densest forest produces enough fruit, roots or mushrooms for a few to survive. 10% of the jobs in a region, but not more than 200, are therefore never blocked by trees or saplings.
-If the number of available jobs is exceeded, player units can no longer work in this region. There is no maximum for the number of trees that can be in a region.
+|              | aucun | Fortification | Tour | Bastion | Forteresse | Citadelle |
+|--------------|:-----:|:-------------:|:----:|:-------:|:----------:|:---------:|
+| Salaire      |  10   |      11       |  12  |   13    |     14     |    15     |
+| Salaire orcs |  10   |      11       |  11  |   12    |     12     |    13     |
 
-| Terrain   | max. work farmers | max. trees | min. work farmers |
-|-----------|------------------:|-----------:|------------------:|
-| Mountains |              1000 |        125 |               100 |
-| level     |             10000 |       1250 |               200 |
-| Glacier   |               100 |         13 |                10 |
-| Highlands |              4000 |        500 |               200 |
-| swamp     |              2000 |        250 |               200 |
-| desert    |               500 |         63 |                50 |
-| forest    |             10000 |       1250 |               200 |
-| volcano   |               500 |         63 |                50 |
+Différentes régions ont un nombre différent d'emplois disponibles.  
+Chaque **agriculteur** supprime **un** emploi, chaque **pousse** en supprime **4** et chaque **arbre** en supprime **8**.  
 
-Units on board ships in foreign-guarded regions cannot work or maintain themselves (see [[cmd-guard]], [[cmd-help]] and [[cmd-entertain]]).
+Sous « nombre maximum d'arbres », il est indiqué combien d'arbres occuperaient l'espace total pour les « travailleurs de terrain ».  
+Mais même la forêt la plus dense produit suffisamment de fruits, de racines ou de champignons pour que quelques-uns puissent survivre.  
+10 % des emplois d'une région (mais pas plus de 200) ne sont donc jamais bloqués par des arbres ou pousses.  
+
+Si le nombre d'emplois disponibles est dépassé, les unités des joueurs ne peuvent plus travailler dans la région concernée.  
+Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.  
+
+| Terrain   | max. jobs d'agriculteurs | max. arbres | min. jobs d'agriculteurs |
+|-----------|-------------------------:|------------:|-------------------------:|
+| Désert    |                      500 |          63 |                       50 |
+| Forêt     |                    10000 |        1250 |                      200 |
+| Glacier   |                      100 |          13 |                       10 |
+| Highlands |                     4000 |         500 |                      200 |
+| Marais    |                     2000 |         250 |                      200 |
+| Montagnes |                     1000 |         125 |                      100 |
+| Plaines   |                    10000 |        1250 |                      200 |
+| Volcan    |                      500 |          63 |                       50 |
+
+Les unités à bord des navires dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [[cmd-guard]], [[cmd-help]] et [[cmd-entertain]]).  
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
-[this table]: ./silver.md#exemples-de-possibilites-de-remuneration
+[ce tableau]: ./silver.md#exemples-de-possibilites-de-remuneration

@@ -32,17 +32,19 @@ So you should make sure that you are guarding your regions from the first week i
 
 ## Hunger
 
-Avoid [starvation] at all costs. The effects are catastrophic.
+Avoid [starvation] at all costs.
+The effects are catastrophic.
 Each person needs 10 silver maintenance per week in order not to go hungry
 
 ## Finance
 
 Entertainment and taxes are learned quicker than trading, only do WORK in an emergency to avoid starvation.
 
-## magician
+## Magician
 
 Each magic area has a spell at level 1 that produces 50 silver per caster level.
-If your race does not have a penalty in magic, training magicians early can be worthwhile as an alternative source of income. But be careful -not every spell works.
+If your race does not have a penalty in magic, training magicians early can be worthwhile as an alternative source of income.
+But be careful - not every spell works.
 
 ## Use items and silver
 

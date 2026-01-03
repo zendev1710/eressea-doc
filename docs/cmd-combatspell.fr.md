@@ -4,17 +4,18 @@ alias: cmd-combatspell-fr
 ---
 # COMBATSPELL
 
-**`COMBATSPELL`**` [LEVEL `*`n`*`] "<Spell>"`  
-**`COMBATSPELL`**`["<Spell>"] NOT`  
+**`COMBATSPELL`**` [LEVEL `*`n`*`] "<sort>"`  
+**`COMBATSPELL`**`["<sort>"] NOT`  
 
-The spell mentioned is chosen -depending on the spell -as a pre-, post-, or normal combat spell.
-Optionally, a level can be specified, which can be useful, for example, to save aura for a post-combat spell.
-The chosen spells are automatically used by the unit should it become involved in combat.
+Le sort mentionné est choisi et activé - en fonction du sort - comme sort de pré-combat, sort de post-combat ou sort de combat standard.  
 
-With `COMBATSPELL <Spell> NOT` or `COMBATSPELL NOT` the setting of one or all combat spells is undone.
+En option, un niveau peut être spécifié, ce qui peut être utile, par exemple pour conserver l'aura pour un sort d'après-combat.  
+Les sorts choisis sont automatiquement utilisés par l'unité si elle entre en combat.
 
-Not all spells are combat spells, this can be found in the description of the spells you receive in the game.
-The description of a spell can be shown again using the [[cmd-show]] order.
+Avec `COMBATSPELL <sort> NOT` ou `COMBATSPELL NOT`, le réglage d'un ou de tous les sorts de combat est désactivé.  
+
+Tous les sorts ne sont pas des sorts de combat : consultez la description des sorts que vous recevez dans le jeu.  
+La description d'un sort peut être à nouveau affichée en utilisant l'ordre [[cmd-show]].  
 
 ## Voir aussi
 

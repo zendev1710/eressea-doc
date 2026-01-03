@@ -79,7 +79,7 @@ With a [horse][horses]: Strting from riding 1 faster movement; starting from rid
 
 ## Armoursmithing
 
-Produce iron, laen, and adamantium armour (see [[items]]).
+Produce iron, laen, and adamantium armor (see [[items]]).
 
 ## Shipcraft
 

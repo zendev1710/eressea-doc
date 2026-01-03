@@ -6,44 +6,68 @@ alias: cmd-guard-fr
 
 **`GUARD`**`[NOT]`
 
-Les unités peuvent garder leur région.
-Pour ce faire, elles doivent être [[arme|prêtes au combat]], équipées d'au moins une [arme] et posséder la compétence d'armement appropriée.
-Les régions océaniques ne peuvent être gardées.
-
-<!-- TODO: translate in french -->
-When a faction is guarding a region, units that are not allied with it are subject to [[alliances|alliances]] ([[cmd-help|`HELP GUARD`]] or [[cmd-contact]]), the following restrictions:
-
-- You can no longer collect taxes, mine raw materials, [trade] or recruit farmers in this region
-- You can no longer collect taxes, mine resources, [trade] or recruit farmers in this region
-- There is a certain probability that you will be stopped in transit
-- If you are on a ship, you cannot [[cmd-work]], [[cmd-entertain]], [[cmd-attack]] or move overland immediately.
-  In order to be able to carry out the actions the following week, you must first have the ship [[cmd-leave]]
-
-If the unit is not seen, for example because it has a higher Stealth Talent than the guarding party's best Perception Talent in the region, the first two restrictions do not apply.
-
-However, it is very possible to have conversations on land in a guarded region, even if the guard has not set HELP GUARD.
-However, this is not possible if the entertainer unit is on board a ship.
-
-If several parties give the GUARD command at the same time or one after the other, they all guard the region.
-Only for parties with*everyone*guarding parties are allied, the above restrictions do not apply.
-
-Parties with*at least one*Allied guards can continue to carry out orders (possibly with the exceptions above) for a long time despite fighting (see [End of battle]).
-
-In the round in which the`GUARD`-Order has been given, all of these restrictions do not apply yet, because the guarding unit first has to find out where foreign units could collect silver, etc.
-The guarding unit immediately becomes visible to all other units in the region, regardless of how high its stealth talent is.
-
-With`GUARD NOT`The guard status of a unit is dissolved.
-This also happens when the unit is moving.
-Units with the combat status [[cmd-combat|COMBAT FLEE]] cannot guard, and units from which all survivors flee during combat also stop guarding.
-
-When a unit travels through a region guarded by at least one non-allied faction, the chance of being stopped depends on several factors: it is increased by the number of enemy guards, the region type (it becomes more difficult in swamps, glaciers, mountains and volcanoes), the perception talent of the enemy guards, Amulets of True Seeing, and the size of the region owner's castle if they are not allied.
-It is reduced by the number of allied guards and the unit's stealth skill, as well as rings of invisibility.
+Les unités peuvent garder leur région.  
+Pour cela, elles doivent être [[arme-et-pret-au-combat|armées et prêtes au combat]], c'est à dire équipées d'au moins une [arme] et posséder la compétence de maniement de l'arme appropriée.  
 
 !!! note
-    [[monsters|Monster]] faction (ii) units are generally considered armed due to their claws, teeth, claws and other extremities, even if they do not carry a visible weapon.
-    This also applies to monsters magically summoned by players.
+    Les régions océaniques ne peuvent être gardées.  
 
-In the [[puppy-protection|first few weeks]] your faction cannot guard yet.
+## Garde d'une région par une faction non alliée
+
+Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [[alliances|alliances]] ([[cmd-help|`HELP GUARD`]] ou [[cmd-contact]]).  
+Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions suivantes s'appliquent :
+
+1. Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de [faire du commerce] ou de recruter des agriculteurs dans cette région
+2. Il y a une certaine probabilité que tes unités en mouvement soient stoppées
+3. Si ton unité est sur un navire, elle ne pourra pas [[cmd-work|travailler]], [[cmd-entertain|divertir]], ou [[cmd-attack|attaquer]], ni se déplacer immédiatement par voie terrestre.
+  Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord [[cmd-leave|quitter]] le bateau
+
+Si l'unité n'est pas visible, parce qu'elle possède une compétence de camouflage de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.
+
+Dans tous les cas, il est tout à fait possible de [divertir] à terre dans une région gardée, même si le gardien n'a pas activé l'ordre `HELP GUARD`.  
+Cela n'est pas possible si l'unité de divertissement se trouve à bord d'un navire.  
+
+Dans le tour au cours duquel l'ordre  `GUARD` a été donné, toutes ces restrictions ne s'appliquent pas encore, car l'unité de garde doit d'abord découvrir où les unités étrangères pourraient collecter de l'argent, etc.  
+L'unité de garde devient immédiatement visible par toutes les autres unités de la région, quel que soit son niveau de furtivité.
+
+## Gardes multiples dans une région
+
+Si plusieurs factions donnent l'ordre `GUARD` en même temps ou les uns après les autres, ils gardent tous la région.
+Pour les factions où **tout le monde** garde, les factions sont alliées, et les restrictions ci-dessus ne s'appliquent pas.
+
+Les factions avec **au moins un** garde allié peuvent continuer à exécuter les ordres (éventuellement avec les exceptions ci-dessus) pendant une longue période malgré les combats (voir [Fin de bataille]).
+
+## Dissolution de la garde
+
+Avec `GUARD NOT`, le statut de garde d'une unité est dissous.  
+Cela se produit également lorsque l'unité est en mouvement.  
+Les unités avec le statut de combat [[cmd-combat|`COMBAT FLEE`]] ne peuvent pas garder, et les unités dont tous les survivants fuient pendant le combat cessent également de garder.  
+
+## Garde et mouvement
+
+Lorsqu'une unité traverse une région gardée par au moins une faction non alliée, la probabilité d'être stoppée dans son mouvement dépend de plusieurs facteurs.  
+
+La probabilité d'être stoppée augmente avec :
+
+- le nombre de gardes ennemis
+- le type de région (la probabilité est moindre dans les marais, les glaciers, les montagnes et les volcans)
+- la compétence de perception des gardes ennemis
+- l'utilisation d'une Amulette de Vision Décuplée
+- la taille du château du propriétaire de la région s'ils n'est pas un allié
+
+La probabilité d'être stoppée décroit avec :
+
+- le nombre de gardes alliés
+- la compétence de furtivité de l'unité en mouvement
+- l'utilisation d'un anneau d'invisibilité
+
+## Particularités
+
+!!! note
+    Les [[monstres|Monstre]] (ii) sont généralement considérés comme armés en raison de leurs griffes, dents et autres extrémités, même si elles ne portent pas d'arme visible.  
+    Cela s'applique également aux monstres invoqués par magie par les joueurs
+
+Au cours des [[puppy-protection|premières semaines]], une faction ne peut pas encore assurer la garde.
 
 ## Voir aussi
 
@@ -54,5 +78,6 @@ In the [[puppy-protection|first few weeks]] your faction cannot guard yet.
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
 [arme]: ./war-tables.md#armes-et-leurs-proprietes
-[trade]: ./silver.md#commerce
-[End of battle]: ./war.md#fin-du-combat
+[faire du commerce]: ./silver.md#commerce
+[Fin de bataille]: ./war.md#fin-du-combat
+[divertir]: ./skills-list.md#divertissement

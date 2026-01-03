@@ -4,19 +4,19 @@ alias: cmd-attack-fr
 ---
 # ATTACK
 
-**`ATTACK`**[<sup>`(l)`</sup>]` `*`unit-id`*  
+*ordre [pseudo-long].*  
+*C'est un ordre court dans le sens où plusieurs ordres  `ATTACK` peuvent être effectués.*  
+*C'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.*  
+*Le moment où un combat « long » se produit est expliqué dans la section [fin de la bataille].*
 
-Cet ordre attaque l'unité affectée dans la région actuelle.
-Un ordre doit être donné pour chaque unité à attaquer.
+**`ATTACK`**` `*`unit-id`*  
 
-[<sup>(L)</sup>][<sup>`(l)`</sup>] L'ordre `ATTACK` est un ordre pseudo-long.
-C'est un ordre court dans le sens où plusieurs ordres  `ATTACK` peuvent être effectués.
-C'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.
-Le moment où un combat « long » se produit est expliqué sous [fin de la bataille].
+Cet ordre déclenche l'attaque l'unité affectée dans la région actuelle.  
+Un ordre doit être donné pour chaque unité à attaquer.  
 
 Les unités qui ne [[cmd-combat|combattent]] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.
 
-Au cours des premières semaines, votre faction est [[puppy-protection|immunisée]] contre les attaques.
+Au cours des premières semaines, une faction est [[puppy-protection|immunisée]] contre les attaques.
 
 ## Voir aussi
 
@@ -25,5 +25,5 @@ Au cours des premières semaines, votre faction est [[puppy-protection|immunisé
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
+[pseudo-long]: ./commands.md#ordres-courts-et-longs
 [fin de la bataille]: ./war.md#fin-du-combat

@@ -43,7 +43,7 @@ Enfin, les unités de la faction alliée peuvent [[cmd-enter|entrer]] dans tes b
 
 ## `HELP FACTIONSTEALTH`
 
-Si tu déguises tes unités avec [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] comme appartenant à une autre faction, les factions auxquelles tu as donné ce statut d'aide peuvent voir que ces unités camouflées appartiennent en réalité à ta faction.
+Si tu déguises tes unités avec [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] en temps qu'autre faction, les factions auxquelles tu as donné ce statut d'aide pourront voir que ces unités camouflées appartiennent en réalité à ta faction.
 
 ## `HELP ALL`
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr
+# cSpell:locale en
 alias: adamantium-armor
 ---
 # Adamantium Armor

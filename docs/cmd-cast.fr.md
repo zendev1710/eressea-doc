@@ -4,25 +4,30 @@ alias: cmd-cast-fr
 ---
 # CAST
 
-**`CAST`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Spell`*`" [`*`parameter`*`] ...`
+*Ordre [court][^1].*
 
-With this order, a mage unit will attempt to cast the named spell.
+**`CAST`**` [REGION `*`<x>`*` `*`<y>`*`] [LEVEL`` `*`niveau`*`] "`*`<sort>`*`" [`*`parameter`*`] ...`
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] Although CAST is not a long order, it excludes other long orders. But you can cast other spells.
+Avec cet ordre, une unité de mage tentera de lancer le sort spécifié.  
 
-Please note that the REGION and LEVEL modifiers do not apply to every spell.
-REGION can only be used with [ranged spells], and LEVEL only makes sense with variable [cost] spells.
+Veuillez noter que les modificateurs `REGION` et `LEVEL` ne s'appliquent pas à tous les sorts.  
+
+`REGION` ne peut être utilisé qu'avec des [sorts à distance], et `LEVEL` n'a de sens qu'avec des sorts à [coût] variable.
 
 !!! note
-    Some spells have additional parameters.
+    Certains sorts ont des paramètres supplémentaires.
 
-The use of the spells is explained in more detail in the [[magic]] chapter, and can also be found in the spell description itself.
-You get this when you get the spell again and can use it with [[cmd-show|`SHOW ALL SPELLS`]] display again.
+L'utilisation des sorts est expliquée plus en détail dans le chapitre [[magie]], et peut également être trouvée dans la description du sort elle-même.  
+Vous obtenez leur description lorsque vous récupérez le sort, et vous pouvez utiliser l'ordre [[cmd-show|`SHOW ALL SPELLS`]] pour l'afficher à nouveau.  
 
-Combat spells cannot simply be cast. If you want to use this against a unit, you have to set the [[cmd-combatspell]] and then [[cmd-attack|attack]] a unit or be attacked. However, this can lead to bigger battles!
+Les **sorts de combat** ne peuvent pas simplement être lancés.  
+Si vous souhaitez en utiliser un contre une unité, vous devez définir le statut [[cmd-combatspell]] puis [[cmd-attack|attaquer]] une unité (ou être attaqué).  
+Cependant, cela peut déclencher de plus grandes batailles !  
+
+[^1]: bien que `CAST` ne soit pas un ordre long, il exclut les autres ordres longs. Mais vous pouvez lancer d'autres sorts.
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
-[ranged spells]: ./magic.md#magie-a-distance
-[cost]: ./magic.md#composants
+[court]: ./commands.md#ordres-courts-et-longs
+[sorts à distance]: ./magic.md#magie-a-distance
+[coût]: ./magic.md#composants

@@ -4,7 +4,8 @@ alias: cmd-carry
 ---
 # CARRY
 
-*`RIDE` is a [long] order. `CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.*
+*`RIDE` is a [long] order.*  
+*`CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.*  
 
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
@@ -14,25 +15,27 @@ With this order it is possible to travel on horses or carts even without the rid
 The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.
 
 ```text
-Partei 125:
+PARTEI 125:
     UNIT 311
         RIDE 456 ; ich will mitfahren
         CONTACT 456
     [...]
   
-Partei 300:
+PARTEI 300:
     UNIT 777
         RIDE 456 ; ich will mitfahren
   
-Partei 300:
+PARTEI 300:
     UNIT 456
         CARRY 311 ; Lasse 311 mitfahren
         CARRY 777 ; und 777 wird auch mitgenommen
         CONTACT 311
 ```
 
+Restrictive rules:
+
 - [Aquarians] cannot transport other races when [swimming], nor can they take horses or chariots with them
-- [Insects] can also be found by means of `CARRY` not be brought into or through a glacier
+- [Insects] can also be transported by means of `CARRY`, but cannot be brought into or through a glacier
 
 ## See also
 

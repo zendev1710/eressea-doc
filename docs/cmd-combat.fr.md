@@ -12,72 +12,77 @@ alias: cmd-combat-fr
 **`COMBAT`**`FLEE`  
 **`COMBAT`**`HELP [NOT]`  
 
-This order determines the reaction of a unit in the event of a battle (see also the section [Battle lines] in the chapter [[war]]).
+Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section [Lignes de combat] dans le chapitre [[guerre]]).  
 
 ## `COMBAT AGGRESSIVE`
 
-In combat, the unit is at the front and will never flee, but will fight to the death.
-This is used to advantage when the last bit of offensive power really counts.
+Au combat, l'unité est au front et ne fuira jamais, mais se battra jusqu'à la mort.  
+Ceci est utilisé à son avantage lorsque la dernière puissance offensive compte vraiment.  
 
 ## `COMBAT FRONT`
 
-In battle, the unit is at the front.
-It will attempt to flee when it has less than or equal to 20% of its hit points.
-This is used with advantage for good swordsmen.
-Can also come with `COMBAT` be set.
+Avec cet ordre, au combat, l'unité est au front.  
+
+L'unité tentera de fuir lorsqu'elle aura perdu au moins 20% de ses points de vie.  
+Ceci est utilisé avec avantage pour les bons épéistes.  
+Peut également accompagné de l'ordre `COMBAT`.  
 
 ## `COMBAT REAR`
 
-The unit fights in the second row.
-If the front is wiped out, these units will still be drawn into the melee! This is used with advantage for shooters.
-The unit attempts to flee when it has less than or equal to 20% of its hit points.
+Avec cet ordre, l'unité combat en deuxième ligne.  
+
+Si le front est anéanti, ces unités seront toujours entraînées dans la mêlée (en première ligne) !  
+Ceci est utilisé avec avantage pour les tireurs.  
+L'unité tentera de fuir lorsqu'elle aura perdu au moins 20% de ses points de vie.  
 
 ## `COMBAT DEFENSIV`
 
-Like `COMBAT REAR`, but the unit will flee if it still has 90% of its hit points.
-This is used with advantage for magicians.
+Comme `COMBAT REAR`, mais l'unité fuira dès qu'elle aura perdu 10% de ses points de vie.  
+Ceci est utilisé avec avantage pour les magiciens.  
 
 ## `COMBAT NOT`
 
-The unit only takes part in the fight if it is the target of an enemy [[cmd-attack]] command.
-This is used to advantage for units that stay out of combat but are not supposed to flee, e.g.
-to occupy a building.
-The unit attempts to flee when it still has 90% of its hit points.
+L'unité ne participe pas au combat, à moins qu'elle soit la cible d'un ordre [[cmd-attack|d'attaque]] ennemi.  
+Ceci est utilisé avantageusement pour les unités qui restent hors du combat mais ne sont pas censées fuir, par exemple pour occuper un bâtiment.  
+L'unité tentera de fuir dès qu'elle aura perdu 10% de ses points de vie.  
 
 ## `COMBAT FLEE`
 
-If a unit that is ready to [flee] is involved in combat, it will attempt to flee before each round of combat.
-For more information about "escape behavior", see the [Escape] section in the Combat chapter.
-This combat status is used to advantage for almost all "civilians".
-If even one person in a unit successfully escapes from a fight, they automatically leave buildings or land-based ships in which they are located.
-It is therefore important to consider whether this status makes sense for building occupants.
-Units with this combat status also cannot [[cmd-attack]] or [[cmd-guard]].
-If a guarding unit places COMBAT FLEE, the guarding is immediately canceled, with corresponding consequences.
-Units with the combat status can still move after combat (with [[cmd-move]], [[cmd-route]], [[cmd-follow]]).
+Si une unité prête à [fuir] est impliquée dans un combat, elle tentera de fuir avant chaque round de combat.  
+<!-- TODO: find escape section and combat chapter -->
+Pour plus d'informations sur le comportement de fuite, consultez la section [Échappement] du chapitre Combat.  
 
-!!! warning "Caution"
-    Units with COMBAT FLEE or COMBAT NOT will fight if they are attacked and the first two rows are overrun.
-    That means magicians also do magic.
-    Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.
-    If you want to prevent this, you can deactivate the [[cmd-combatspell|combat spells]].
+Ce statut de combat est mis à profit par presque tous les « civils ».  
+Si même une personne d'une unité réussit à s'échapper d'un combat, elle quitte automatiquement les bâtiments ou les navires terrestres dans lesquels elle se trouve.  
+Il est donc important de se demander si ce statut a du sens pour les occupants d'un bâtiment ou d'un bateau.  
 
-Operating catapults is a task that requires a lot of preparation, so units with the combat status COMBAT NOT and COMBAT FLEE will not fire ammunition, but will use other weapons if they have them with them and know how to use them.
+Les unités avec ce statut de combat ne peuvent pas non plus [[cmd-attack|attaquer]] ni [[cmd-guard|garder]].  
+Si une unité de garde se place en `COMBAT FLEE`, la garde est immédiatement annulée, avec les conséquences correspondantes.  
+Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
 
-!!! warning "Caution"
-    People with low hit points who have not set `COMBAT FLEE` will only flee if they have taken a hit in combat.
-    Hits whose damage points were completely stopped by the armor and failed hit attempts also count.
-    Of course, people with `COMBAT FLEE` flee beforehand.
+!!! warning "Attention"
+    Les unités avec `COMBAT FLEE`ou`COMBAT NOT` se battront s'ils sont attaqués et que les deux premières lignes sont débordées.
+    Cela signifie que les magiciens font aussi de la magie.
+    Les sorts pré et post-combat sont (actuellement) lancés même si les lignes de front ne sont pas débordées.
+    Si vous souhaitez éviter cela, vous pouvez désactiver le [[cmd-combatspell|statut des sorts de combat]].
+
+Faire fonctionner des catapultes est une tâche qui demande beaucoup de préparation, donc une unité ayant le statut de combat `COMBAT NOT` ou `COMBAT FLEE` ne tirera pas de munitions, mais utilisera toute autre arme si elle en possède une et sait s'en servir.
+
+!!! warning "Attention"
+    Les personnes avec **peu de points de vie** qui ne sont pas en `COMBAT FLEE` fuiront dès qu’ils auront été touchés au combat.
+    Les coups dont les points de dégâts ont été complètement stoppés par l'armure et les tentatives de coup ratées comptent également.
+    Bien entendu, les personnes ayant `COMBAT FLEE` fuient avant.
 
 ## `COMBAT HELP`
 
-One unit with `COMBAT HELP NOT` will not be helped in battle, neither by units of your own faction nor by allies.
-If such a unit is attacked, no other units will be brought into battle.
-Of course, this only applies if other units without such a status are not also attacked.
+Une unité avec `COMBAT HELP NOT` ne sera pas aidée au combat, ni par les unités de votre propre faction ni par les alliés.  
+Si une telle unité est spécifiquement attaquée, aucune autre unité ne sera engagée dans la bataille.  
+Bien entendu, cela ne s'applique que si d'autres unités ne possédant pas ce statut ne sont pas également attaquées.  
 
-Your own faction is always involved when it attacks, or when it or a faction it helps is attacked.
-Further details at [[cmd-help]] and in the chapters [Battle] [[war|Of War]] and [[alliances|Alliance]].
+Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle-même ou une faction qu'elle aide est attaquée.  
+Tu trouveras plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [[alliances|Alliance]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
-[Battle lines]: ./war.md#lignes-de-combat
-[flee]: ./war.md#la-fuite
+[Lignes de combat]: ./war.md#lignes-de-combat
+[fuir]: ./war.md#la-fuite

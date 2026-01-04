@@ -7385,15 +7385,26 @@
 
 <h1 id="tax">TAX<a class="headerlink" href="#tax" title="Permanent link">&para;</a></h1>
 <p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a></em>.</p>
-<p><strong><code>TAX</code></strong><code>[</code><em><code>Amount</code></em><code>]</code>  </p>
-<p>With this order, armed and trained units collect taxes from the farmers.
-To do this, they need a weapon and the corresponding <a href="../skills-list/">skill</a> and the <a href="../skills-list/#taxation">tax collecting</a>.
-Up to 20 Silver are collected from farmers per <a href="../armed/">Armed</a> person (and trained in this weapon) and skill level Tax Collecting;
-Catapults are not suitable for collecting taxes.
-If you specify an amount, a maximum of this amount will be collected in taxes. Only full 10s can be specified; everything else is rounded down to the next full 10s.
-The farmers even give away silver that they actually need to survive, which can lead to <a href="../silver/#famine">hunger</a>.
-If several factions want to collect taxes, the money is divided between the factions. If you want to prevent non-allied factions from collecting taxes, you can do this with the <a href="../cmd-guard/">GUARD</a> order.</p>
-<p>Tax collecting skill does not increase during use.</p>
+<p><strong><code>TAX</code></strong><code>[</code><em><code>montant</code></em><code>]</code>  </p>
+<p>Avec cet ordre, une unité armée et entraînée collecte les impôts auprès des agriculteurs.<br />
+Pour ce faire, elle a besoin d'une arme et de maîtrser la <a href="../skills-list/">compétence</a> correspondante, ainsi que de la compétence de <a href="../skills-list/#taxation">collecte des impôts</a>.<br />
+Jusqu'à <strong>20 Silver</strong> sont collectées auprès des agriculteurs par personne <a href="../armed/">armée et formée à l'arme portée</a> et par niveau de compétence en matière de collecte des impôts.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les catapultes ne conviennent pas en tant qu'arme pour collecter des impôts.  </p>
+</div>
+<p>Si tu précises un montant, un maximum de ce montant sera collecté en taxes.<br />
+Seules des dizaines peuvent être spécifiées; dans le cas contraire, le montant est arrondi à la dizaine suivante.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>Les agriculteurs donnent même l’argent dont ils ont réellement besoin pour survivre, <strong>ce qui peut conduire à la <a href="../silver/#famine">famine</a></strong>.  </p>
+</div>
+<p>Si plusieurs factions passent l'ordre de collecte des impôts, l’argent résultant de la collecte sera réparti entre les différentes factions.<br />
+Si tu souhaites empêcher les factions non alliées de collecter l'impôt, tu devras passer l'ordre <a href="../cmd-guard/">GUARD</a>.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La compétence de collecte des impôts n’augmente pas avec son utilisation.</p>
+</div>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../silver/">Money</a></li>

@@ -7317,47 +7317,47 @@
 
 
 <h1 id="quit">QUIT<a class="headerlink" href="#quit" title="Permanent link">&para;</a></h1>
-<p><strong><code>QUIT</code></strong><code>"Password"</code>  </p>
-<p>This causes the faction to disband and no longer play.
-For security purposes, the faction's password must be provided.
-This order must also be given to a unit.</p>
-<p>All items, including Silver, from the dying faction are given to friendly units that are in the same region as units of the dying faction.
-If there are several people in the region, it will be divided according to the number of people in the region.
-Only those who have been given a <a href="../cmd-help/">HELP SILVER</a> are considered friends here, i.e. where there was already trust on the part of the departing faction.
-The receiving faction must have put HELP GIVE on the dying faction.
-The items go to the faction's first unit in the region.
-If there is no friendly unit in a region, all items go to the farmers.
-The faction's people are always handed over to the farmers (exceptions apply to <a href="../races/#orcs">Orcs</a>, <a href="../races/#demons">Demons</a>, Monsters).</p>
-<p><strong><code>QUIT</code></strong><code>"Passwort" PARTEI</code><em><code>Partei-nr</code></em>  </p>
-<p>It is also possible to merge two factions of the same race using the QUIT order.
-The second variant is used for this purpose<code>QUIT "Passwort" PARTEI</code><em><code>Partei-nr</code></em>, where the faction number of the other faction must be specified.</p>
+<p><strong><code>QUIT</code></strong><code>"&lt;password&gt;"</code>  </p>
+<p>This causes the faction to disband and no longer play.<br />
+For security purposes, the faction's password must be provided. 
+This order must also be given to a unit.  </p>
+<p>All items, including Silver, from the dying faction are given to friendly units that are in the same region as units of the dying faction.<br />
+If there are several people in the region, it will be divided according to the number of people in the region.<br />
+Only those who have been given a <a href="../cmd-help/">HELP SILVER</a> are considered friends here, i.e. where there was already trust on the part of the departing faction.<br />
+The receiving faction must have put HELP GIVE on the dying faction.<br />
+The items go to the faction's first unit in the region.<br />
+If there is no friendly unit in a region, all items go to the farmers.<br />
+The faction's people are always handed over to the farmers (exceptions apply to <a href="../races/#orcs">Orcs</a>, <a href="../races/#demons">Demons</a> and [Monsters]).  </p>
+<p><strong><code>QUIT</code></strong><code>"&lt;password&gt;" FACTION</code><em><code>faction-id</code></em>  </p>
+<p>It is also possible to merge two factions of the same race using the <code>QUIT</code> order.<br />
+The second variant is used for this purpose <code>QUIT "&lt;password&gt;" FACTION``</code><em><code>faction-id</code></em>, where the faction number of the other faction must be specified.  </p>
 <p>Requirements for the merger are:</p>
 <ol>
 <li>Dissolving faction and target faction must be of the same race</li>
-<li>The receiving faction must contact the entity issuing the QUIT order</li>
-<li>The receiving faction must of course be in the same region as the unit issuing the QUIT order</li>
+<li>The receiving faction must contact the entity issuing the <code>QUIT</code> order</li>
+<li>The receiving faction must of course be in the same region as the unit issuing the <code>QUIT</code> order</li>
 <li>Both factions must be at least 50 rounds old</li>
 </ol>
-<p>If one of the requirements is not met, the QUIT order is not executed and an error message appears.</p>
-<p>Through the merger, all units that have the faction's race are transferred to the specified faction and the faction is then deleted.
-Units that do not belong to the faction race, such as migrants, magical creatures or familiars, are deleted.</p>
-<p>If the target faction has fewer than the maximum permitted number of units with limited skills (such as alchemy and magic), these are handed over at random.
-Units with limited skills that can no longer be transferred will be deleted.
-If you want to control this precisely, you should let the unwanted units forget about the corresponding skill in the QUIT week at the latest.</p>
-<p>Magicians are only handed over if both factions have the same magic area.
-Familiars are deleted because they do not belong to the faction race.
-Heroes are demoted by surrender.</p>
-<p>The unit limit can be exceeded through faction merger.
-But then the target faction cannot create new units until it is below the limit again.
-New Temp units cannot be created even if the unit limit would be below the limit at the end of the round!
-It is therefore better to ensure in advance that the merged faction complies with the current limit.</p>
+<p>If one of the requirements is not met, the QUIT order is not executed and an error message appears.  </p>
+<p>Through the merger, all units that have the faction's race are transferred to the specified faction and the faction is then deleted.<br />
+Units that do not belong to the faction race, such as migrants, magical creatures or familiars, are deleted.  </p>
+<p>If the target faction has fewer than the maximum permitted number of units with limited skills (such as alchemy and magic), these are handed over at random.<br />
+Units with limited skills that can no longer be transferred will be deleted.<br />
+If you want to control this precisely, you should let the unwanted units forget about the corresponding skill in the QUIT week at the latest.  </p>
+<p>Magicians are only handed over if both factions have the same Magic School.<br />
+Familiars are deleted because they do not belong to the faction race.<br />
+Heroes are demoted by surrender.  </p>
+<p>The unit limit can be exceeded through faction merger.<br />
+But then the target faction cannot create new units until it is below the limit again.<br />
+New Temp units cannot be created even if the unit limit would be below the limit at the end of the round!<br />
+It is therefore better to ensure in advance that the merged faction complies with the current limit.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
 <p>If the order is given incorrectly, a death without surrender can occur.
 If your password is <em>secret</em> and you want to merge with the faction (enno), the order is:</p>
-</div>
-<div class="highlight"><pre><span></span><code>QUIT &quot;secret&quot; PARTEI enno
+<div class="highlight"><pre><span></span><code>QUIT &quot;secret&quot; FACTION enno
 </code></pre></div>
+</div>
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 
 

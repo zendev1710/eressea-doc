@@ -7384,27 +7384,39 @@
 
 
 <h1 id="sell">SELL<a class="headerlink" href="#sell" title="Permanent link">&para;</a></h1>
-<p><strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code></code><em><code>number</code></em><code></code><em><code>Luxury item</code></em><br />
-<strong><code>SELL</code></strong>[<sup><code>(l)</code></sup>]<code>ALL</code><em><code>Luxury item</code></em>  </p>
-<p>The unit skilled in <a href="../silver/#commerce">trading</a> can use this order to sell luxury goods that it owns to the farmers.
-This is only possible if, firstly, there is a trading post or larger <a href="../castles/">castle type</a> in the region near which the market can be held, and secondly, if there is any demand for the product at all.
-In order to sell something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...</p>
-<p>With <code>SELL ALL</code> is sold as much as the demand in the region.
-This also works if the trading volume drops in the same week (e.g. due to recruitment).
-However, the order should not be given to more than one unit per region or even by several factions: as soon as several units in the region have SELL orders, it is no longer guaranteed what will happen <code>SELL ALL</code> happened.</p>
-<p>[<sup>(l)</sup>][<sup><code>(l)</code></sup>] <code>SELL</code> is, like <a href="../cmd-buy/">BUY</a>, a <a href="../commands/">"pseudo-long" order</a>.</p>
-<p>You can choose a total skill level (acting) x sell and buy 10 luxury goods, but do not give any other long orders.
-BUY orders have priority over sales. <code>BUY</code> orders are generally given <code>SELL</code> executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough skill to execute all <code>BUY</code> - and <code>SELL</code> orders first buy as much as possible and if there are no skill points left for selling.</p>
-<p>Only one order appears in the normal report.
-But this is only so that there is not a large list of orders there.
-In the computer report and the <a href="../commands/">move template</a> are all<code>BUY</code> - and <code>SELL</code> - orders listed.</p>
+<p><em><code>SELL</code> est, comme <a href="../cmd-buy/">BUY</a>, un ordre <a href="../commands/#ordres-courts-et-longs">pseudo-long</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</em>  </p>
+<p><strong><code>SELL</code></strong><code></code><em><code>nombre</code></em><code></code><em><code>produit de luxe</code></em><br />
+<strong><code>SELL</code></strong><code>ALL</code><em><code>produit de luxe</code></em>  </p>
+<p>L'unité compétente en <a href="../silver/#commerce">commerce</a> peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.<br />
+Cela n'est possible que si, premièrement, il y a un poste de commerce ou un <a href="../castles/">château de plus grande taille</a> dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.<br />
+Pour vendre quelque chose, aucun contact avec le seigneur du château n'est nécessaire;<br />
+Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  </p>
+<p>Avec l'ordre <code>SELL ALL</code>, la quantité maximale du produit de luxe spécifié est vendue, <strong>en fonction de la demande</strong> dans la région.<br />
+Cela fonctionne également si le volume des transactions diminue au cours de la même semaine (par exemple en raison d'un recrutement).<br />
+Cependant, l'ordre ne doit pas être donné à plus d'une unité par région ni même par plusieurs factions;<br />
+dès que plusieurs unités de la région passent des ordres <code>SELL</code>, le résultat de l'ordre <code>SELL ALL</code> n'est plus garanti.  </p>
+<p>Les ordres <code>BUY</code> sont généralement accompagnés d'ordres <code>SELL</code>.<br />
+Les achats priment sur les ventes.<br />
+Ainsi, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.<br />
+Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres <code>BUY</code> et <code>SELL</code> achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.  </p>
+<p>Un seul ordre apparaît dans le rapport standard (NR).<br />
+Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.<br />
+Dans le rapport informatique (CR) et le <a href="../commands/">modèle d'ordres</a> tous les ordres <code>BUY</code> et <code>SELL</code> sont répertoriés.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../silver/#commerce">trading</a></li>
+<li><a href="../silver/#commerce">Commerce</a></li>
 <li><a href="../cmd-buy/">BUY</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Vous pouvez choisir un niveau de compétence total (acteur) x vente et acheter 10 produits de luxe, mais vous ne pouvez plus donner d'autres ordres longs.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

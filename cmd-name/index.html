@@ -7327,14 +7327,15 @@
 <strong><code>NAME STRANGERS SHIP</code></strong><code></code></em><code>ship-id "name"</code><em><br />
 <strong><code>NAME REGION</code></strong><code></code></em><code>"name"</code><em><br />
 <strong><code>NAME GROUP</code></strong><code></code></em><code>"name"</code>*  </p>
-<p>Rename the listed item.
-Ships and buildings can only be renamed if the unit also has command of the building or ship - so it must be the first unit under the building or ship in the evaluation.
-A region can only be renamed by the lord of the most powerful castle in a region.
-Groups can only be renamed by group members and the new group name cannot already exist.</p>
-<p>The new name can be up to 127 characters long. Longer descriptions can be added using the <a href="../cmd-describe/">DESCRIBE</a> command.</p>
-<p>Through the addition <code>STRANGERS</code> (or <code>STRANGER</code>) and specifying the number, you can name units, ships and even buildings (not just castles) of other parties if they do not yet have a name (i.e. units are named as "unit abc").
-You can even name a foreign faction as long as it is older than ten rounds.</p>
-<p>The naming of the faction must also be carried out by a unit.</p>
+<p>Rename the listed item.  </p>
+<p>Ships and buildings can only be renamed if the unit also has command of the building or ship - so it must be the first unit under the building or ship in the evaluation.<br />
+A region can only be renamed by the lord of the most powerful castle in a region.<br />
+Groups can only be renamed by group members and the new group name cannot already exist.  </p>
+<p>The new name can be up to 127 characters long.<br />
+Longer descriptions can be added using the <a href="../cmd-describe/">DESCRIBE</a> order.  </p>
+<p>Through the additional <code>STRANGERS</code> (or <code>STRANGER</code>) and specifying the number, you can name units, ships and even buildings (not just castles) of other factions if they do not yet have a name (i.e. units are named as "unit abc").<br />
+You can even name a foreign faction as long as it is older than ten rounds.  </p>
+<p>The naming of the faction must also be carried out by a unit:</p>
 <div class="highlight"><pre><span></span><code>ERESSEA 7 &quot;Seven&quot;
     NAME FACTION &quot;Incorrect&quot; ; no effect
     UNIT 89

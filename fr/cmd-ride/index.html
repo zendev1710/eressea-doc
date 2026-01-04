@@ -7384,31 +7384,33 @@
 
 
 <h1 id="ride">RIDE<a class="headerlink" href="#ride" title="Permanent link">&para;</a></h1>
-<p><em><code>RIDE</code> is a <a href="../commands/#ordres-courts-et-longs">long</a> order. <code>CARRY</code> is a short one, but of course only makes sense if the unit executes a (long) movement order.</em></p>
+<p><em><code>RIDE</code> est un ordre <a href="../commands/#ordres-courts-et-longs">long</a>.</em><br />
+<em><code>CARRY</code> est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.</em>  </p>
 <p><strong><code>RIDE</code></strong><code></code><em><code>unit-id</code></em><br />
 <strong><code>CARRY</code></strong><code></code><em><code>unit-id</code></em>  </p>
-<p>With the <code>RIDE</code> order a unit joins a transporting unit and can be separated from it if it receives the order <code>CARRY</code> given for the traveling unit.
-With this order it is possible to travel on horses or carts even without the riding skill.
-The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.</p>
-<div class="highlight"><pre><span></span><code>    Partei 125:
-        UNIT 311
-            RIDE 456 ; I want to go with you
-            CONTACT 456
-            [...]
-      
-    Partei 300:
-        UNIT 777
-            RIDE 456 ; I want to go with you
-      
-    Partei 300:
-        UNIT 456
-            CARRY 311 ; Let 311 come along for the ride
-            CARRY 777 ; and 777 is also taken
-            CONTACT 311
+<p>Avec l'ordre <code>RIDE</code>, une unité rejoint une unité de transport et peut en être séparée si elle reçoit l'ordre <code>CARRY</code> donné pour l’unité itinérante.<br />
+Avec cet ordre, il est possible de voyager à cheval ou en charrette même sans compétence d'équitation.<br />
+La condition préalable à cela est bien entendu que l'unité de transport dispose de suffisamment de capacité libre pour charger les unités mobiles et leurs objets.  </p>
+<div class="highlight"><pre><span></span><code>Partei 125:
+    UNIT 311
+        RIDE 456 ; je veux aller avec toi
+        CONTACT 456
+        [...]
+  
+Partei 300:
+    UNIT 777
+        RIDE 456 ; je veux aller avec toi
+  
+Partei 300:
+    UNIT 456
+        CARRY 311 ; je laisse l&#39;unité 311 m&#39;accompagner
+        CARRY 777 ; et l&#39;unité 777 est également prise
+        CONTACT 311
 </code></pre></div>
+<p>Règles restrictives :</p>
 <ul>
-<li><a href="../races/#aquariens">Aquarians</a> cannot transport other races when <a href="../sailing/#nager">swimming</a>, nor can they take horses or carts with them</li>
-<li><a href="../races/#insectes">Insects</a> can also be transported using <code>CARRY</code>, but cannot be brought into or through a glacier</li>
+<li><strong>lorsqu'ils <a href="../sailing/#nager">nagent</a></strong>, les <a href="../races/#aquariens">Aquariens</a> ne peuvent pas transporter d'autres races, ni emmener de chevaux ni des chars avec eux</li>
+<li>les <a href="../races/#insectes">Insectes</a> peuvent être transportés grâce à l'ordre <code>CARRY</code>, mais ne peuvent pas être emmenés dans ou à travers un glacier</li>
 </ul>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>

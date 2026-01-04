@@ -7385,7 +7385,7 @@
 
 <h1 id="carry">CARRY<a class="headerlink" href="#carry" title="Permanent link">&para;</a></h1>
 <p><em><code>RIDE</code> est un ordre <a href="../commands/#ordres-courts-et-longs">long</a>.</em><br />
-<em><code>CARRY</code> est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.</em></p>
+<em><code>CARRY</code> est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.</em>  </p>
 <p><strong><code>RIDE</code></strong><code></code><em><code>unit-id</code></em><br />
 <strong><code>CARRY</code></strong><code></code><em><code>unit-id</code></em>  </p>
 <p>Avec l'ordre <code>RIDE</code>, une unité rejoint une unité de transport et peut en être séparée si elle reçoit l'ordre <code>CARRY</code> donné pour l’unité itinérante.<br />
@@ -7393,18 +7393,18 @@ Avec cet ordre, il est possible de voyager à cheval ou en charrette même sans 
 La condition préalable à cela est bien entendu que l'unité de transport dispose de suffisamment de capacité libre pour charger les unités mobiles et leurs objets.  </p>
 <div class="highlight"><pre><span></span><code>PARTEI 125:
     UNIT 311
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; je veux aller avec toi
         CONTACT 456
     [...]
       
 PARTEI 300:
     UNIT 777
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; je veux aller avec toi
       
 PARTEI 300:
     UNIT 456
-        CARRY 311 ; Lasse 311 mitfahren
-        CARRY 777 ; und 777 wird auch mitgenommen
+        CARRY 311 ; je laisse l&#39;unité 311 m&#39;accompagner
+        CARRY 777 ; et l&#39;unité 777 est également prise
         CONTACT 311
 </code></pre></div>
 <p>Règles restrictives :</p>

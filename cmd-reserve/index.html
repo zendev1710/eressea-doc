@@ -7431,17 +7431,17 @@
 <p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>Item</code></em><br />
 <strong><code>RESERVE</code></strong><code>ALL</code><em><code>Item</code></em><br />
 <strong><code>RESERVE</code></strong><code>EACH</code><em><code>number</code></em><code></code><em><code>Item</code></em>  </p>
-<p>This allows a unit to take and “save” items or silver from other units in the region.
-It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (but see <a href="../items-pool/">Items pool</a>!).</p>
-<p>With<code>RESERVE ALL``</code>*<code>Item</code>*A unit reserves everything it owns from the specified item.</p>
-<p>With <code>RESERVE EACH``</code><em><code>number</code></em><code></code><em><code>Item</code></em>, <em><code>number</code></em> items <strong>per person</strong> are reserved.</p>
+<p>This allows a unit to take and “save” items or silver from other units in the region.<br />
+It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (see <a href="../items-pool/">Items pool</a>!).  </p>
+<p>With <code>RESERVE ALL``</code><em><code>Item</code></em>, a unit reserves everything it owns from the specified item.  </p>
+<p>With <code>RESERVE EACH``</code><em><code>number</code></em><code></code><em><code>Item</code></em>, <em><code>number</code></em> items <strong>per person</strong> are reserved.  </p>
 <div class="highlight"><pre><span></span><code>RESERVE EACH 100 Silver
 </code></pre></div>
-<p>reserved for a unit with 10 people i.e. 1000 Silver.</p>
+<p>reserved for a unit with 10 people i.e. 1000 Silver.  </p>
 <h2 id="sources-of-error">Sources of error<a class="headerlink" href="#sources-of-error" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>TEMP</code> unit cannot reserve! Silver like items must be given to them using <a href="../cmd-give/">GIVE</a></li>
-<li><code>RESERVE</code> occurs <a href="../cmd-give/">GIVE</a> and <a href="../cmd-recruit/">RECRUIT</a> in the <a href="../commands-sequence/">Orders sequence</a>. So relates <code>EACH</code> on the number of people before handover and recruitment</li>
+<li><code>RESERVE</code> occurs before <a href="../cmd-give/">GIVE</a> and <a href="../cmd-recruit/">RECRUIT</a> in the <a href="../commands-sequence/">Orders sequence</a>. So related <code>EACH</code> apply on the number of people <strong>before</strong> handover and recruitment</li>
 <li>If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see <a href="../items-pool/">Items pool</a></li>
 <li>If the same item is reserved by a unit several times, only the last entry is valid</li>
 </ul>
@@ -7451,13 +7451,13 @@ It should be noted that the unit takes its goods from any unit (usually from top
 RESERVE EACH 1 Shield
 GIVE depo ALL
 </code></pre></div>
-<p>A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.</p>
+<p>A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.  </p>
 <p>With:</p>
 <div class="highlight"><pre><span></span><code>@RESERVE 100 Silver
 RESERVE 1 Sword
 RESERVE 50 Silver
 </code></pre></div>
-<p>the unit will reserve a sword and 50 silver.</p>
+<p>The unit will reserve a sword and 50 silver.  </p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../items-pool/">Items pool</a></li>

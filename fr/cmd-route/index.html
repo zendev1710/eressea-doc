@@ -7384,27 +7384,27 @@
 
 
 <h1 id="route">ROUTE<a class="headerlink" href="#route" title="Permanent link">&para;</a></h1>
-<p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a></em>.</p>
+<p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a>.</em>  </p>
 <p><strong><code>ROUTE</code></strong><code></code><em><code>himmelsrichtung</code></em><code>[</code><em><code>himmelsrichtung</code></em><code>...]</code>  </p>
-<p>With this order, the unit moves through the world of Eressea in the same way as with the <a href="../cmd-move/">MOVE</a> order.</p>
-<p>With that <code>ROUTE</code> order can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.
-All movements that have been processed are returned to the back <code>ROUTE</code> order attached.</p>
-<p>To cancel a movement prematurely (e.g. for ships that are not supposed to sail as far as they can), you can use a <code>PAUSE</code> (can be abbreviated with <code>P</code>).
-Once a unit has completed its movement, next comes a <code>PAUSE</code>, this is added at the end even though the unit is already stopping.
-Two in a row <code>PAUSE</code> orders, on the other hand, ensure that the unit stops and no longer moves without the player's intervention.</p>
-<p>A rider can travel three regions by road. He gets the following <code>ROUTE</code> order:</p>
+<p>Avec cet ordre, l'unité se déplace dans le monde d'Eressea de la même manière qu'avec l'ordre <a href="../cmd-move/">MOVE</a>.  </p>
+<p>Cependant, avec l'odre <code>ROUTE</code>, il est possible de planifier une séquence de déplacements, de sorte qu'une unité se déplace toujours de la même façon entre deux points (ou plus), ou effectue un long trajet jusqu'à ce qu'elle atteigne sa destination.<br />
+Tous les déplacements traités sont renvoyés en fin d'ordre <code>ROUTE</code>.  </p>
+<p>Pour annuler prématurément un déplacement (par exemple pour des navires qui ne sont pas censés naviguer aussi loin qu'ils le pourraient), vous pouvez utiliser une instruction <code>PAUSE</code> (abrégé : <code>P</code>).<br />
+Une fois qu'une unité a terminé son déplacement, vient ensuite un <code>PAUSE</code>, qui est ajouté à la fin de l'ordre, même si l'unité est déjà à l'arrêt.<br />
+Deux instructions <code>PAUSE</code> consécutives, quant à elles, garantissent que l'unité s'arrête et ne bouge plus sans l'intervention du joueur.  </p>
+<p>Un cavalier peut parcourir trois régions par la route. Il passe l'ordre <code>ROUTE</code> suivant :</p>
 <div class="highlight"><pre><span></span><code>ROUTE NE East Pause East East SE West West Pause SW West NW
 </code></pre></div>
-<p>Next round the command looks like this:</p>
+<p>Au prochain tour, l'ordre ressemble à ceci :</p>
 <div class="highlight"><pre><span></span><code>ROUTE East East SE West West Pause SW West NW NE East Pause
 </code></pre></div>
-<p>And in the round after that:</p>
+<p>Et au tour suivant :</p>
 <div class="highlight"><pre><span></span><code>ROUTE West West Pause SW West NW NE East Pause East East SE
 </code></pre></div>
-<p>And in the round after that:</p>
-<div class="highlight"><pre><span></span><code>ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+<p>Et encore au tour suivant :</p>
+<div class="highlight"><pre><span></span><code>ROUTE SW West NW NE East Pause East East SE West West Pause
 </code></pre></div>
-<p>And finally again like at the beginning.</p>
+<p>Et finalement, l'ordre devient identique à l'ordre initial.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../travel/">Movement</a></li>

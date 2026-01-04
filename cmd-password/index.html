@@ -7318,12 +7318,12 @@
 
 <h1 id="password">PASSWORD<a class="headerlink" href="#password" title="Permanent link">&para;</a></h1>
 <p><strong><code>PASSWORD</code></strong><code>["new-password"]</code>  </p>
-<p>This resets the password.
-You must always use it together with the <a href="../cmd-eressea/">ERESSEA</a> order from the next orders file onwards.
-Only letters and numbers are allowed in the password.
-If it contains illegal characters, these will be replaced by random allowed characters.
-<code>PASSWORD</code> without parameters sets a randomly generated password.</p>
-<p>At the beginning, each faction is assigned a random password.</p>
+<p>This resets the password.<br />
+You must always use it together with the <a href="../cmd-eressea/">ERESSEA</a> order from the next orders file onwards.<br />
+Only letters and numbers are allowed in the password.<br />
+If it contains illegal characters, these will be replaced by random allowed characters.<br />
+<code>PASSWORD</code> without parameters sets a randomly generated password.  </p>
+<p>At the beginning, each faction is assigned a random password.  </p>
 <p>Example:</p>
 <div class="highlight"><pre><span></span><code>; in the second week of the month hearth fire
 ERESSEA 11 &quot;OldPassword&quot;
@@ -7340,7 +7340,8 @@ ERESSEA 11 &quot;MoftZga&quot;
 <ul>
 <li>The password is the only place in the orders file that is case sensitive</li>
 <li>The password must be set by a unit</li>
-<li>The password that was valid in the last turn or the one that was set in the last turn always applies to the respective orders file. The password from the last train is still valid even if several orders files were sent in for the current train in which different passwords were set</li>
+<li>The password that was valid in the last turn or the one that was set in the last turn always applies to the respective orders file.
+  The password from the last train is still valid even if several orders files were sent in for the current train in which different passwords were set</li>
 <li>The password was only successfully reset if the corresponding message was also included in the evaluation: "The password was changed to "blabla"</li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->

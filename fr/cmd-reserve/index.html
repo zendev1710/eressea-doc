@@ -7428,38 +7428,36 @@
 
 
 <h1 id="reserve">RESERVE<a class="headerlink" href="#reserve" title="Permanent link">&para;</a></h1>
-<p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>gegenstand</code></em><br />
-<strong><code>RESERVE</code></strong><code>ALL</code><em><code>gegenstand</code></em><br />
-<strong><code>RESERVE</code></strong><code>EACH</code><em><code>number</code></em><code></code><em><code>gegenstand</code></em></p>
 <p><strong><code>RESERVE</code></strong><code></code><em><code>number</code></em><code></code><em><code>Item</code></em><br />
 <strong><code>RESERVE</code></strong><code>ALL</code><em><code>Item</code></em><br />
 <strong><code>RESERVE</code></strong><code>EACH</code><em><code>number</code></em><code></code><em><code>Item</code></em>  </p>
-<p>This allows a unit to take and “save” items or silver from other units in the region.
-It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (but see <a href="../items-pool/">Items pool</a>!).</p>
-<p>With<code>RESERVE ALL``</code>*<code>Item</code>*A unit reserves everything it owns from the specified item.</p>
-<p>With <code>RESERVE EACH``</code><em><code>number</code></em><code></code><em><code>Item</code></em>, <em><code>number</code></em> items <strong>per person</strong> are reserved.</p>
+<p>Cela permet à une unité de prendre et de « sauvegarder » des objets ou de l’argent provenant d’autres unités de la région.<br />
+Il est à noter que l'unité prend ses marchandises dans n'importe quelle unité (généralement de haut en bas selon l'ordre dans le NR), à moins que cette unité n'ait réservé cet objet (voir <a href="../items-pool/">Items pool</a> !).  </p>
+<p>Avec l'ordre <code>RESERVE ALL``</code><em><code>Item</code></em>, une unité réserve tout ce qu'elle possède de l'élément spécifié.  </p>
+<p>Avec l'ordre <code>RESERVE EACH``</code><em><code>number</code></em><code></code><em><code>Item</code></em>, le nombre d'items spécifié est réservé <strong>par personne</strong>.  </p>
 <div class="highlight"><pre><span></span><code>RESERVE EACH 100 Silver
 </code></pre></div>
+<p>Pour une unité de 10 personnes, 100 Silver sont réservés pour chaque personne, soit 1000 Silver réservés au total pour l'unité.  </p>
 <h2 id="sources-derreur">Sources d'erreur<a class="headerlink" href="#sources-derreur" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>TEMP</code> unit cannot reserve! Silver like items must be given to them using <a href="../cmd-give/">GIVE</a></li>
-<li><code>RESERVE</code> occurs <a href="../cmd-give/">GIVE</a> and <a href="../cmd-recruit/">RECRUIT</a> in the <a href="../commands-sequence/">Orders sequence</a>. So relates <code>EACH</code> on the number of people before handover and recruitment</li>
-<li>If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see <a href="../items-pool/">Items pool</a></li>
-<li>If the same item is reserved by a unit several times, only the last entry is valid</li>
+<li>une unité <code>TEMP</code> ne peut pas réserver ! Les objets tout comme l'argent doivent leur être donnés en utilisant l'ordre <a href="../cmd-give/">GIVE</a></li>
+<li>L'ordre <code>RESERVE</code> s'exéute avanr les ordres <a href="../cmd-give/">GIVE</a> et <a href="../cmd-recruit/">RECRUIT</a> dans la <a href="../commands-sequence/">Orders sequence</a>. Donc l'instruction <code>EACH</code> s'applique sur le nombre de personnes <strong>avant</strong> passation et recrutement</li>
+<li>Si les unités d'une faction réservent plus d'un objet donné que ce qui est disponible dans la région (dans la réserve d'objets) dans son ensemble, le résultat est difficile à prédire. Pour plus de détails, voir <a href="../items-pool/">Items pool</a></li>
+<li>Si le même article est réservé plusieurs fois par une même unité, seule le dernier ordre est valable et pris en compte</li>
 </ul>
 <h2 id="exemples">Exemples<a class="headerlink" href="#exemples" title="Permanent link">&para;</a></h2>
-<p>With:</p>
+<p>Avec :</p>
 <div class="highlight"><pre><span></span><code>RESERVE EACH 1 Sword
 RESERVE EACH 1 Shield
 GIVE depo ALL
 </code></pre></div>
-<p>A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.</p>
-<p>With:</p>
+<p>Une unité peut conserver une arme et un bouclier par personne, même après une bataille perdue, et donner tout le reste (butin) à une unité de dépôt.  </p>
+<p>Avec :</p>
 <div class="highlight"><pre><span></span><code>@RESERVE 100 Silver
 RESERVE 1 Sword
 RESERVE 50 Silver
 </code></pre></div>
-<p>the unit will reserve a sword and 50 silver.</p>
+<p>L'unité réservera une épée et 50 Silver.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../items-pool/">Items pool</a></li>

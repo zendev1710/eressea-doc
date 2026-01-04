@@ -4,7 +4,11 @@ alias: epee-de-flammes
 ---
 # Épée de Flammes
 
+<<<<<<< HEAD
 Une Épée de Flammes confère à son porteur **une petite attaque de boule de feu**, en plus de son attaque normale (3d6+10) par round de combat, infligeant **2d6 dégâts magiques à 1 à 10 victimes**.  
+=======
+Une Épée de Flammes confère à son porteur **une petite attaque de boule de feu**, en plus de son attaque normale (3d6+10) par round de combat, infligeant **2d6 dégâts magiques à 1 à 10 victimes**.
+>>>>>>> 002b1ee93240dcde44dcf269f285d7add0cec212
 
 Elle lui confère également un **bonus de combat de +1**.  
 

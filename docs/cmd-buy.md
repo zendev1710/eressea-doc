@@ -8,7 +8,12 @@ alias: cmd-buy
 
 **`BUY`**` `*`number`*` `*`luxury goods`*  
 
+<<<<<<< HEAD
 
+=======
+[^1]: You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.  
+`BUY` orders have priority over sales.  
+>>>>>>> 002b1ee93240dcde44dcf269f285d7add0cec212
 
 If the unit has the [trade] skill, it will attempt to purchase that number of luxury goods.
 This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
@@ -16,7 +21,10 @@ In order to buy something, no contact with the lord of the castle is necessary;
 Nevertheless, it is of course more diplomatic to ask beforehand...
 
 `BUY` orders are generally given `SELL` executed.  
+<<<<<<< HEAD
 `BUY` orders have priority over sales.  
+=======
+>>>>>>> 002b1ee93240dcde44dcf269f285d7add0cec212
 So you cannot use the earnings from sales directly in the same round for new purchases.  
 It also means that units without enough skill to execute all `BUY` and `SELL` orders first buy as much as possible and if there are no skill points left for selling.  
 
@@ -36,8 +44,11 @@ So randomly between 5 and 15 per trade item if he has it.
 Only one order appears in the normal report.  
 But this is only so that there is not a large list of orders there.  
 In the computer report and the [[orders|orders template]] are all `BUY` and `SELL` orders listed.  
+<<<<<<< HEAD
 
 [^1]: You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.  
+=======
+>>>>>>> 002b1ee93240dcde44dcf269f285d7add0cec212
 
 ## See also
 

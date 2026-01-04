@@ -4,9 +4,9 @@ alias: cmd-unit-fr
 ---
 # UNIT
 
-**`UNIT`**` `*`unit-id`*  
+**`UNIT`**` `*`<unit-id>`*  
 
-With this order you start entering orders for one of your units.
+Avec cet ordre, tu commences à renseigner les ordre pour l'une de tes unités.  
 
 ```text
 UNIT 45

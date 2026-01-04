@@ -10,25 +10,25 @@ alias: cmd-carry
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
 
-With the order `RIDE` a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.
-With this order it is possible to travel on horses or carts even without the riding skill.
-The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.
+With the order `RIDE` a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.  
+With this order it is possible to travel on horses or carts even without the riding skill.  
+The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.  
 
 ```text
 PARTEI 125:
     UNIT 311
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; I want to go with you
         CONTACT 456
     [...]
   
 PARTEI 300:
     UNIT 777
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; I want to go with you
   
 PARTEI 300:
     UNIT 456
-        CARRY 311 ; Lasse 311 mitfahren
-        CARRY 777 ; und 777 wird auch mitgenommen
+        CARRY 311 ; Let 311 come along for the ride
+        CARRY 777 ; and 777 is also taken
         CONTACT 311
 ```
 

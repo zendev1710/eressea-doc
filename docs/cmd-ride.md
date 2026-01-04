@@ -4,14 +4,15 @@ alias: cmd-ride
 ---
 # RIDE
 
-*`RIDE` is a [long] order. `CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*
+*`RIDE` is a [long] order.  
+*`CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*  
 
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
 
-With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.
-With this order it is possible to travel on horses or carts even without the riding skill.
-The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.
+With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.  
+With this order it is possible to travel on horses or carts even without the riding skill.  
+The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.  
 
 ```text
 Partei 125:

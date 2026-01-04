@@ -22,6 +22,7 @@ Dunfanaghy
 echeck
 EHMV
 Empiria
+enno
 Eressea
 Eressëa
 Eryn'yn'Falathvorn

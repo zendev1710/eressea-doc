@@ -4,33 +4,38 @@ alias: cmd-sell-fr
 ---
 # SELL
 
-**`SELL`**[<sup>`(l)`</sup>]` `*`number`*` `*`Luxury item`*  
-**`SELL`**[<sup>`(l)`</sup>]` ALL `*`Luxury item`*  
+*`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][^1].*  
 
-The unit skilled in [trading] can use this order to sell luxury goods that it owns to the farmers.
-This is only possible if, firstly, there is a trading post or larger [[castles|castle type]] in the region near which the market can be held, and secondly, if there is any demand for the product at all.
-In order to sell something, no contact with the lord of the castle is necessary; Nevertheless, it is of course more diplomatic to ask beforehand...
+**`SELL`**` `*`nombre`*` `*`produit de luxe`*  
+**`SELL`**` ALL `*`produit de luxe`*  
 
-With `SELL ALL` is sold as much as the demand in the region.
-This also works if the trading volume drops in the same week (e.g. due to recruitment).
-However, the order should not be given to more than one unit per region or even by several factions: as soon as several units in the region have SELL orders, it is no longer guaranteed what will happen `SELL ALL` happened.
+L'unité compétente en [commerce] peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
+Cela n'est possible que si, premièrement, il y a un poste de commerce ou un [[chateaux|château de plus grande taille]] dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.  
+Pour vendre quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
+Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] `SELL` is, like [[cmd-buy]], a [[orders|"pseudo-long" order]].
+Avec l'ordre `SELL ALL`, la quantité maximale du produit de luxe spécifié est vendue, **en fonction de la demande** dans la région.  
+Cela fonctionne également si le volume des transactions diminue au cours de la même semaine (par exemple en raison d'un recrutement).  
+Cependant, l'ordre ne doit pas être donné à plus d'une unité par région ni même par plusieurs factions;  
+dès que plusieurs unités de la région passent des ordres `SELL`, le résultat de l'ordre `SELL ALL` n'est plus garanti.  
 
-You can choose a total skill level (acting) x sell and buy 10 luxury goods, but do not give any other long orders.
-BUY orders have priority over sales. `BUY` orders are generally given `SELL` executed, so you cannot use the earnings from sales directly in the same round for new purchases.
-It also means that units without enough skill to execute all `BUY` - and `SELL` orders first buy as much as possible and if there are no skill points left for selling.
+Les ordres `BUY` sont généralement accompagnés d'ordres `SELL`.  
+Les achats priment sur les ventes.  
+Ainsi, vous ne pouvez pas utiliser directement les revenus des ventes au cours du même tour pour de nouveaux achats.  
+Cela signifie également que les unités qui n'ont pas suffisamment de compétences pour exécuter tous les ordres `BUY` et `SELL` achètent d'abord autant que possible, et s'il reste des points de compétence, vendent.  
 
-Only one order appears in the normal report.
-But this is only so that there is not a large list of orders there.
-In the computer report and the [[orders|move template]] are all`BUY` - and `SELL` - orders listed.
+Un seul ordre apparaît dans le rapport standard (NR).  
+Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.  
+Dans le rapport informatique (CR) et le [[ordres|modèle d'ordres]] tous les ordres `BUY` et `SELL` sont répertoriés.  
+
+[^1]: Vous pouvez choisir un niveau de compétence total (acteur) x vente et acheter 10 produits de luxe, mais vous ne pouvez plus donner d'autres ordres longs.
 
 ## Voir aussi
 
-- [trading]
+- [Commerce]
 - [[cmd-buy]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#ordres-courts-et-longs
-[trading]: ./silver.md#commerce
+[pseudo-long]: ./commands.md#ordres-courts-et-longs
+[commerce]: ./silver.md#commerce

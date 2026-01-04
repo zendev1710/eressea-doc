@@ -8,56 +8,58 @@ alias: cmd-spy-fr
 
 **`SPY`**` `*`unit-id`*
 
-Espionage allows you to spy on units of another faction.
-The spy's espionage skill is compared with the target unit's [[camouflage|stealth skill]].
+L'espionnage vous permet d'espionner les unités d'une autre faction.  
+La compétence d'espionnage de l'espion est comparée à la [[camouflage|compétence de vol]] de l'unité cible.  
 
-The basic chance of a successful espionage attempt is 10%. For each skill level that the espionage skill exceeds the victim's stealth skill, this increases by 5%.
+La probabilité de base d'une tentative d'espionnage réussie est de 10 %.  
+Pour chaque niveau de compétence où la compétence d'espionnage dépasse la compétence de furtivité de la victime, cela augmente de 5 %.  
 
-If the espionage attempt is successful, the spy learns the combat status, the items in the unit's possession, the skills and also the true faction affiliation.
+Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité, les compétences ainsi que la véritable affiliation à une faction.  
 
-Faction affiliation can only be determined if the espionage skill is at least 6 skill levels above the unit's stealth skill.
-All other information can be determined with a simple success.
+L'affiliation à une faction ne peut être déterminée que si la compétence d'espionnage est supérieure d'au moins 6 niveaux à la compétence de furtivité de l'unité ciblée.  
+Toutes les autres informations peuvent être déterminées avec un simple succès.  
 
-Then - regardless of success - a dice is rolled to see whether the espionage attempt was noticed.
-The probability of this is :
+Ensuite, quel que soit le succès, un dé est lancé pour voir si la tentative d'espionnage a été remarquée.  
+La probabilité que cela se produise est calculée ainsi :
 
 `(100 - SpySpy x 5 + (Perception Sacrifice x 2)%`
 
-Player experience (Ralf D.):
+## Expérience de jeu (Ralf D.)
 
-Spies are always 1-person units, since apparently one espionage attempt is NOT carried out per person in the spy unit, but only once for the entire unit.
-Like all activities that depend on probabilities, you can also increase the success of espionage by spying on the same target unit with many 1-person units.
+Les espions sont toujours des unités composées d'une seule personne, car apparemment, une tentative d'espionnage n'est **PAS** effectuée par personne dans l'unité d'espionnage, mais une seule fois pour l'ensemble de l'unité.  
+Comme toutes les activités qui dépendent des probabilités, vous pouvez également augmenter le succès de l'espionnage en espionnant la même unité cible avec de nombreuses unités individuelles.  
 
-**Example:**
+### Exemple
 
-Spies with Espionage 10 spy on a combat unit with Stealth 1.
+Les espions avec Espionnage à 10 espionnent une unité de combat avec Furtivité 1.  
 
-- 1 unit has a chance of 10% + (10 -1)*5% = 55% to spy on the target unit
-- 5 units therefore have a chance of 100% -(100% -55%)^5 = 98.2%
+- 1 unité a une chance de 10% + (10 -1)*5% = 55% d'espionner l'unité cible
+- 5 unités ont donc une chance de 100% - (100% -55%)^5 = 98,2%
 
-The following is also interesting (always against camouflage 1 of the target unit):
+Ce qui suit est également intéressant (toujours contre le camouflage 1 de l'unité cible) :
 
-- 5 units with Espionage 2 also have a 55% chance of success
-- 8 units with Espionage 1 have a 57% chance of success
-- 22 units with Espionage 1 have a 90% chance of success
+- 5 unités avec Espionnage 2 ont également 55 % de chances de succès
+- 8 unités avec Espionnage 1 ont 57% de chances de succès
+- 22 unités avec Espionnage 1 ont 90 % de chances de succès
 
-The cost considerations are then interesting:
+Les considérations de coût sont alors intéressantes :
 
-- 1 unit of espionage 10 -> 55 rounds (without teacher) -> 5500 Silver + other training and recruiting
-- 5 units of espionage 2 -> 3 rounds*5 people -> 1500 Silver + ...
-- 8 units of espionage 1 -> 1 round*8 people -> 800 Silver + ...
+- 1 unité d'espionnage 10 -> 55 tours (sans professeur) -> 5500 Silver + autres formations et recrutement
+- 5 unités d'espionnage 2 -> 3 tours*5 personnes -> 1500 Silver + ...
+- 8 unités d'espionnage 1 -> 1 round*8 personnes -> 800 Silver + ...
 
- **Conclusion:**
+### Conclusion
 
-High espionage skills are only worthwhile if the unit(s) have also received other training or if you cannot split up the units due to the unit limit even in the situations in which you need espionage.
+Des compétences élevées en espionnage ne valent la peine que si la ou les unités ont également reçu une autre formation, ou si vous ne pouvez pas diviser les unités en raison du nombre limité d'unités, même dans les situations dans lesquelles vous avez besoin d'espionnage.  
 
-As a countermeasure, basic training in camouflage helps against many bad spies. However, more effort must always be put into camouflage than the spies have to put into espionage.
+En guise de contre-mesure, une formation de base en camouflage aide à lutter contre de nombreux mauvais espions.  
+Cependant, il faut toujours déployer plus d’efforts pour le camouflage que les espions pour l’espionnage.  
 
-It is clear that espionage attempts with many bad units will be noticed with almost 100% certainty.
+Il est clair que les tentatives d'espionnage impliquant de nombreuses unités malveillantes seront détectées avec une certitude de presque 100 %.  
 
-!!! warning "Caution"
-    If the game mechanics are changed so that the target unit only calculates a random limit once per round, then the same result applies to all equally good spies, which makes this consideration incorrect.
-    At the moment there are different results for the same spies.
+!!! warning "Attention"
+    Si les mécanismes de jeu sont modifiés de manière à ce que l'unité cible ne calcule une limite aléatoire qu'une fois par tour, alors le même résultat s'applique à tous les espions de même qualité, ce qui rend cette considération incorrecte.
+    Actuellement, les résultats sont différents pour des espions de même nature.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->
 

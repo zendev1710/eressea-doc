@@ -4,36 +4,42 @@ alias: cmd-plant-fr
 ---
 # PLANT
 
-*Ordre [long]*.
+*Ordre [long].*  
 
-**`PLANT`**`[`*`number`*`] HERBS`  
-**`PLANT`**`[`*`number`*`] TREES`  
-**`PLANT`**`[`*`number`*`] MALLORNSEEDS`  
-**`PLANT`**`[`*`number`*`] SEEDS`  
+**`PLANT`**`[`*`quantité`*`] HERBS`  
+**`PLANT`**`[`*`quantité`*`] TREES`  
+**`PLANT`**`[`*`quantité`*`] MALLORNSEEDS`  
+**`PLANT`**`[`*`quantité`*`] SEEDS`  
 
-This order can be used to restore fresh greenery to a emptied or devastated region or to control natural tree reproduction.
+Cet ordre peut être utilisé pour redonner de la verdure à une région vidée ou dévastée, ou pour contrôler la reproduction naturelle des arbres.  
 
-For `PLANT HERBS` requires at least [Herbalism] 6.
-The unit attempts to plant the specified number of herbs, up to a maximum of one herb per skill level;
-To do this, she needs the appropriate number of herbs of the corresponding type and a vial of [[tables-potions-and-herbs|Water of Life]] (for no matter how many herbs).
-This means that no herb types can be changed; we always try to plant the herb that is native to the region.
+L'ordre `PLANT HERBS` nécessite au moins un **niveau 6** en [Herboristerie].  
+L'unité tente de planter le nombre spécifié de plantes, jusqu'à un maximum d'une plante par niveau de compétence;  
+Pour ce faire, elle a besoin du nombre approprié de plantes du type correspondant et d'une et une seule fiole de la potion [[tableaux-potions-et-plantes|Water of life]].  
+Il n'est possible de replanter que la plante originaire de la région.
 
-In the region, newly planted herbs multiply very quickly (except in winter) if they are left alone for a few weeks.
-If you have low skill, herbs can also be broken when planting.
-It should only be reasonably safe from level 10 onwards.
-Growing herbs is more intended to reactivate regions where someone has completely harvested all the herbs and nothing can reproduce on their own.
+Dans la région, les plantes nouvellement plantées se multiplient très rapidement (sauf en hiver) dès lors qu'elles ne sont pas cueillies pendant quelques semaines.
 
-With`PLANT [`*`number`*`] TREES` or `PLANT [`*`number`*`] SEEDS` the unit attempts to plant the specified number of seeds, up to a maximum of one seed per skill level.
-Only mallorn seeds can be planted in Mallorn regions.
-To do this, she needs at least Herbalism 7.
-To plant normal seeds, she needs at least Herbalism 6.
-In spring, a unit with at least Herbalism 12 will directly plant a sapling for every 10 seeds.
-You should carefully consider whether this is desirable or not.
+Si votre niveau de compétence est faible, les plantes peuvent être cassées lors de la plantation.  
+À partir du niveau 10, cela ne devrait plus se produire.  
 
-Player experience (Solthar):
+La culture des plantes vise surtout à réactiver des régions dont toutes les plantes ont été récoltées et où plus rien ne pousse.  
 
-`PLANT` and `GROW` are synonymous orders.
-You can grow seeds and plant horses. But it is not recommended.
+With `PLANT [`*`quantité`*`] TREES` ou `PLANT [`*`quantité`*`] SEEDS`, l'unité tente de planter le nombre spécifié de graines, jusqu'à un maximum d'une graine par niveau de compétence.  
+Seules les graines de Mallorn peuvent être plantées dans les régions de Mallorn.  
+Pour cela, il faut être au moins de **niveau 7** en Herboristerie.  
+
+Pour planter des graines normales, il faut être au moins de **niveau 6** en Herboristerie.  
+
+**Au printemps**, une unité d'au moins **niveau 12** en Herboristerie pourra directement planter une pousse (jeune arbre) toutes les 10 graines.  
+Vous devez soigneusement réfléchir si cela est souhaitable ou non.  
+
+Expérience de jeu (Solthar):
+
+Les ordres `PLANT` et `GROW` sont des ordres interchangeables (synonymes).  
+
+Vous pouvez faire pousser des graines et "planter" des chevaux.  
+Mais ce n’est pas recommandé.  
 
 ## Voir aussi
 
@@ -43,4 +49,4 @@ You can grow seeds and plant horses. But it is not recommended.
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
 
 [long]: ./commands.md#ordres-courts-et-longs
-[Herbalism]: ./skills-list.md#herboristerie
+[Herboristerie]: ./skills-list.md#herboristerie

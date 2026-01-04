@@ -7,7 +7,7 @@ alias: cmd-pay-not-fr
 **`PAY NOT`**  
 **`PAY NOT`**` `*`building-id`*  
 
-`PAY NOT` causes the unit to not pay maintenance for the building it owns this turn.
-Of course the building doesn't work this round.
+L'unité qui donne un ordre `PAY NOT` ne paie plus les frais d'entretien du bâtiment qu'elle possède.  
+Bien sûr, le bâtiment ne fonctionne pas pendant le tour.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEZAHLE\_NICHT&oldid=17018] -->

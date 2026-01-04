@@ -117,7 +117,8 @@ Building [[roads]] from stones. One stone can be built per person and skill leve
 
 In combat, the side with the best tactician has extra attacks (see [mustering]). Learning costs 200 silver per person.
 
-[[camouflage|Stealth]]  
+## [[camouflage|Stealth]]
+
 The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal] or thwart [[cmd-guard|guarding]] units.
 
 ## Entertainment

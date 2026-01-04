@@ -11,9 +11,12 @@ alias: cmd-show-fr
 **`SHOW`**`ALL POTION`  
 **`SHOW`**`"race"`  
 
-Displays the description of a spell, the recipe for an alchemical potion, or the description of an item.
-The unit giving the order must own the item or have knowledge of the spell or potion. If an item is in the [[faction-pool]], any unit in the Party can give the show order.
-Certain characteristics can also be displayed for races, for example for [[familiars]].
-To do this, the unit's race must match the parameter.
+Affiche la description d'un sort, la recette d'une potion ou la description d'un objet.  
+
+L'unité qui donne l'ordre doit posséder l'objet ou avoir connaissance du sort ou de la potion.  
+Si un objet se trouve dans la [[reserve-de-faction]], n'importe quelle unité de la faction peut donner l'ordre `SHOW`.
+
+Certaines caractéristiques relatives aux races peuvent également être affichées, par exemple pour les [[familiers]].  
+Pour cela, la race de l'unité doit correspondre au paramètre spécifié.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=SHOW&oldid=14967] -->

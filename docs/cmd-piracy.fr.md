@@ -4,14 +4,15 @@ alias: cmd-piracy-fr
 ---
 # PIRACY
 
-*Ordre [long]*.
+*Ordre [long].*  
 
-**`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`
+**`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`  
 
-With this order, the captain of a ship automatically lies in wait for ships that are in a neighboring region after their movement.
-He will then automatically go there.
-If faction numbers are provided, he will only respond to ships from the specified factions.
-If no faction number is provided, it responds to all ships from factions to which the captain's faction does not have a [[cmd-help|`HELP COMBAT`]] has set.
+Avec cet ordre, le **capitaine d'un bateau** attend automatiquement les bateaux qui se trouvent dans une région voisine après leur déplacement.  
+Il s'y rendra alors automatiquement.
+
+Si des identifiants de faction sont renseignés, il ne répondra qu'aux bateaux des factions spécifiées.  
+Si aucun identifiant de faction n'est renseigné, il répond à tous les navires des factions pour lesquelles la faction du capitaine n'a pas de [[cmd-help|`HELP COMBAT`]] défini.  
 
 ## Voir aussi
 

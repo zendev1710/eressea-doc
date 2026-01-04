@@ -5,7 +5,7 @@ alias: cmd-carry-fr
 # CARRY
 
 *`RIDE` est un ordre [long].*  
-*`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*
+*`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*  
 
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
@@ -17,18 +17,18 @@ La condition préalable à cela est bien entendu que l'unité de transport dispo
 ```text
 PARTEI 125:
     UNIT 311
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; je veux aller avec toi
         CONTACT 456
     [...]
       
 PARTEI 300:
     UNIT 777
-        RIDE 456 ; ich will mitfahren
+        RIDE 456 ; je veux aller avec toi
       
 PARTEI 300:
     UNIT 456
-        CARRY 311 ; Lasse 311 mitfahren
-        CARRY 777 ; und 777 wird auch mitgenommen
+        CARRY 311 ; je laisse l'unité 311 m'accompagner
+        CARRY 777 ; et l'unité 777 est également prise
         CONTACT 311
 ```
 

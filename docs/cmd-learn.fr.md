@@ -30,7 +30,7 @@ Une unité peut bénéficier de [[cmd-teach|l'enseignement d'un Maître]] pour *
 Avec l'ordre [[cmd-learn-auto]], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
 
 !!! warning "Attention"
-    L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas possible.
+    L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.
 
 ## École de Magie
 

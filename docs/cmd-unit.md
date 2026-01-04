@@ -6,7 +6,7 @@ alias: cmd-unit
 
 **`UNIT`**` `*`unit-id`*  
 
-With this order you start entering orders for one of your units.
+With this order you start entering orders for one of your units.  
 
 ```text
 UNIT 45

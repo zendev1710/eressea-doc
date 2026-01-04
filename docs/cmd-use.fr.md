@@ -4,19 +4,20 @@ alias: cmd-use-fr
 ---
 # USE
 
-**`USE`**`[`*`number`*`] "`*`Potion`*`" [`*`unit-id`*`]`  
-**`USE`**`[`*`number`*`] "`*`Item`*`" [...]`  
+**`USE`**`[`*`<quantité>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  
+**`USE`**`[`*`<quantité>`*`] "`*`<Item>`*`" [...]`  
 
-Use the indicated alchemical potion.
-The unit number may only be specified for Dumpfbacken bread.
-Without specifying a number, only one potion is used.
-You can use a potion multiple times to extend the effects to more than 10 people or to increase the number of weeks the effect lasts.
-For Duncebun, the duration is limited to 10 weeks per person.
+Utilise la potion alchimique indiquée.  
+L'identifiant d’unité ne peut être spécifié que pour la potion [duncebun].  
+Sans préciser de quantité, une seule potion est utilisée.  
+Vous pouvez utiliser une potion plusieurs fois pour étendre les effets à plus de 10 personnes ou pour augmenter le nombre de semaines pendant lesquelles l'effet dure.  
+Pour la potion **duncebun**, la **durée** est limitée à **10 semaines** par personne.  
 
-There are other items other than potions that can be used.
-These include [Antimagic Crystal] and some faction items ([[christmas]]).
-These can have additional parameters, which are specified in the item description ([[cmd-show]]).
+Il existe d'autres objets que les potions qui peuvent être utilisés.  
+Ceux-ci incluent le [Cristal d'antimagie] et certains objets de faction ([[noel]]).  
+Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dans la [[cmd-show|description]] de l'item à utiliser.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
 
-[Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystal
+[Cristal d'antimagie]: ./spells-descriptions.md#create-an-antimagic-crystal
+[duncebun]: ./alchemy.md#duncebun

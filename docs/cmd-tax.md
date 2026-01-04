@@ -8,15 +8,23 @@ alias: cmd-tax
 
 **`TAX`**`[`*`Amount`*`]`  
 
-With this order, armed and trained units collect taxes from the farmers.
-To do this, they need a weapon and the corresponding [[skills-list|skill]] and the [tax collecting].
-Up to 20 Silver are collected from farmers per [[armed]] person (and trained in this weapon) and skill level Tax Collecting;
-Catapults are not suitable for collecting taxes.
-If you specify an amount, a maximum of this amount will be collected in taxes. Only full 10s can be specified; everything else is rounded down to the next full 10s.
-The farmers even give away silver that they actually need to survive, which can lead to [hunger].
-If several factions want to collect taxes, the money is divided between the factions. If you want to prevent non-allied factions from collecting taxes, you can do this with the [[cmd-guard]] order.
+With this order, armed and trained units collect taxes from the farmers.  
+To do this, they need a weapon and the corresponding [[skills-list|skill]], and also the [taxation skill].  
+Up to **20 Silver** are collected from farmers per [[armed]] person (and trained in this weapon) and per taxation skill level.  
 
-Tax collecting skill does not increase during use.
+!!! note
+    A catapult is not suitable as a weapon for collecting taxes.
+
+If you specify an amount, a maximum of this amount will be collected in taxes.  
+Only full 10s can be specified; everything else is rounded down to the next full 10s.  
+
+The farmers even give away silver that they actually need to survive, which can lead to [hunger].  
+
+If several factions want to collect taxes, the money is divided between the factions.  
+If you want to prevent non-allied factions from collecting taxes, you can do this with the [[cmd-guard]] order.  
+
+!!! note
+    Taxation skill does not increase during use.
 
 ## See also
 
@@ -26,4 +34,4 @@ Tax collecting skill does not increase during use.
 
 [long]: ./commands.md#short-and-long-orders
 [hunger]: ./silver.md#starvation
-[tax collecting]: ./skills-list.md#taxation
+[taxation skill]: ./skills-list.md#taxation

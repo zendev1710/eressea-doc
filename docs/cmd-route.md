@@ -4,18 +4,18 @@ alias: cmd-route
 ---
 # ROUTE
 
-*[long] order.*
+*[long] order.*  
 
 **`ROUTE`**` `*`direction`*`[`*`direction`*`...]`  
 
-With this order, the unit moves through the world of Eressea in the same way as with the [[cmd-move]] order.
+With this order, the unit moves through the world of Eressea in the same way as with the [[cmd-move]] order.  
 
-With that `ROUTE` order can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.
-All movements that have been processed are returned to the back `ROUTE` order attached.
+With that `ROUTE` order you can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.  
+All movements that have been processed are returned to the back `ROUTE` order attached.  
 
-To cancel a movement prematurely (e.g. for ships that are not supposed to sail as far as they can), you can use a `PAUSE` (can be abbreviated with `P`).
-Once a unit has completed its movement, next comes a `PAUSE`, this is added at the end even though the unit is already stopping.
-Two in a row `PAUSE` orders, on the other hand, ensure that the unit stops and no longer moves without the player's intervention.
+To cancel a movement prematurely (e.g. for ships that are not supposed to sail as far as they can), you can use a `PAUSE` (can be abbreviated with `P`).  
+Once a unit has completed its movement, next comes a `PAUSE`, this is added at the end even though the unit is already stopping.  
+Two in a row `PAUSE` orders, on the other hand, ensure that the unit stops and no longer moves without the player's intervention.  
 
 A rider can travel three regions by road. He gets the following `ROUTE` order:
 
@@ -38,7 +38,7 @@ ROUTE West West Pause SW West NW NE East Pause East East SE
 And in the round after that:
 
 ```text
-ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+ROUTE SW West NW NE East Pause East East SE West West Pause
 ```
 
 And finally again like at the beginning.

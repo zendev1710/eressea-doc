@@ -7,8 +7,8 @@ alias: cmd-sort
 **`SORT`**` BEFORE `*`unit-id`*  
 **`SORT`**` AFTER `*`unit-id`*  
 
-This order modifies the order of your units **in the report** and the [[orders|orders evaluation]].
-This allows, for example, the display of *students* (units executing the `LEARN` order) and *teachers* (units executing the `TEACH` order) one below the other.
+This order modifies the order of your units **in the report** and the [[orders|orders evaluation]].  
+This allows, for example, the display of *students* (units executing the `LEARN` order) and *teachers* (units executing the `TEACH` order) one below the other.  
 
 !!! info
     The sorting order of units [has an impact] in case of famine
@@ -20,7 +20,7 @@ The following limitations apply:
 - It is not possible to place a unit in front of a building owner or ship captain. Use the [`GIVE`*`unit-id`*`COMMAND`] order for this purpose
 - A building owner or ship captain cannot use this order
 
-Sorting takes place at the very end of the round, after movement.
-Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.
+Sorting takes place at the very end of the round, after movement.  
+Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.  
 
 [has an impact]: ./tips-and-tricks.md#escaping-death-by-starvation

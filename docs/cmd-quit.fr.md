@@ -4,57 +4,57 @@ alias: cmd-quit-fr
 ---
 # QUIT
 
-**`QUIT`**`"Password"`  
+**`QUIT`**` ``"<mot de passe>"`  
 
-This causes the faction to disband and no longer play.
-For security purposes, the faction's password must be provided.
-This order must also be given to a unit.
+Cela provoque la dissolution de la faction, avec arrêt du jeu.  
+Pour des raisons de sécurité, le mot de passe de la faction doit être fourni.  
+Cet ordre doit également être donné à une unité.  
 
-All items, including Silver, from the dying faction are given to friendly units that are in the same region as units of the dying faction.
-If there are several people in the region, it will be divided according to the number of people in the region.
-Only those who have been given a [[cmd-help|HELP SILVER]] are considered friends here, i.e. where there was already trust on the part of the departing faction.
-The receiving faction must have put HELP GIVE on the dying faction.
-The items go to the faction's first unit in the region.
-If there is no friendly unit in a region, all items go to the farmers.
-The faction's people are always handed over to the farmers (exceptions apply to [Orcs], [Demons], Monsters).
+Tous les objets, y compris l'argent, de la faction mourante sont donnés aux unités amies qui se trouvent dans la même région.  
+La répartition sera effectuée en fonction du nombre de personnes dans la région.  
+Seuls ceux qui ont reçu un [[cmd-help|`HELP SILVER`]] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
+La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
+Les objets vont à la première unité de la faction dans la région.  
+S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  
+Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs], [Démons] et [Monstres]).  
 
-**`QUIT`**` "Passwort" PARTEI `*`Partei-nr`*
+**`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 
-It is also possible to merge two factions of the same race using the QUIT order.
-The second variant is used for this purpose`QUIT "Passwort" PARTEI`*`Partei-nr`*, where the faction number of the other faction must be specified.
+Il est également possible de fusionner deux factions d'une même race en utilisant l'ordre `QUIT`.  
+La deuxième variante est utilisée à cet effet : `QUIT "<mot de passe>" FACTION`` `*`faction-id`*, où le numéro de faction de l'autre faction doit être précisé.  
 
-Requirements for the merger are:
+Les conditions requises pour la fusion des factions sont les suivantes :
 
-1. Dissolving faction and target faction must be of the same race
-2. The receiving faction must contact the entity issuing the QUIT order
-3. The receiving faction must of course be in the same region as the unit issuing the QUIT order
-4. Both factions must be at least 50 rounds old
+1. La faction dissoute et la faction cible doivent être de la même race
+2. La faction réceptrice doit contacter l'entité émettant l'ordre `QUIT`
+3. La faction réceptrice doit bien sûr être dans la même région que l'unité émettant l'ordre `QUIT`
+4. Les deux factions doivent exister depuis au moins 50 tours
 
-If one of the requirements is not met, the QUIT order is not executed and an error message appears.
+Si l'une des conditions n'est pas remplie, l'ordre `QUIT` échoue et un message d'erreur apparaît.  
 
-Through the merger, all units that have the faction's race are transferred to the specified faction and the faction is then deleted.
-Units that do not belong to the faction race, such as migrants, magical creatures or familiars, are deleted.
+Grâce à la fusion, toutes les unités possédant la race de la faction sont transférées vers la faction spécifiée, et la faction est ensuite supprimée.  
+Les unités n'appartenant pas à la race de faction, comme les migrants, les créatures magiques ou les familiers, sont supprimées.  
 
-If the target faction has fewer than the maximum permitted number of units with limited skills (such as alchemy and magic), these are handed over at random.
-Units with limited skills that can no longer be transferred will be deleted.
-If you want to control this precisely, you should let the unwanted units forget about the corresponding skill in the QUIT week at the latest.
+Si la faction cible possède moins que le nombre maximum autorisé d'unités dotées de compétences limitées (telles que l'alchimie et la magie), celles-ci sont distribuées au hasard.  
+Les unités aux compétences limitées qui ne peuvent plus être transférées seront supprimées.  
+Si vous souhaitez contrôler cela avec précision, vous devez laisser les unités indésirables oublier la compétence correspondante, au plus tard au cours de la semaine d'abandon du jeu.
 
-Magicians are only handed over if both factions have the same magic area.
-Familiars are deleted because they do not belong to the faction race.
-Heroes are demoted by surrender.
+Les magiciens ne sont remis que si les deux factions possèdent la même École de Magie.  
+Les familiers sont perdus car ils n'appartiennent pas à la race de faction.  
+Les héros sont rétrogradés par capitulation.  
 
-The unit limit can be exceeded through faction merger.
-But then the target faction cannot create new units until it is below the limit again.
-New Temp units cannot be created even if the unit limit would be below the limit at the end of the round!
-It is therefore better to ensure in advance that the merged faction complies with the current limit.
+La limite d'unités peut être dépassée lors de la fusion de factions.  
+Mais la faction ciblée ne peut alors pas créer de nouvelles unités tant qu'elle n'est pas à nouveau en dessous de la limite.  
+De nouvelles unités temporaires ne peuvent pas être créées même si la limite d'unités est inférieure à la limite à la fin du tour !  
+Il est donc préférable de s'assurer à l'avance que la faction fusionnée respecte la limite courante.  
 
 !!! warning "Attention"
-    If the order is given incorrectly, a death without surrender can occur.
-    If your password is *secret* and you want to merge with the faction (enno), the order is:
+    Si l'ordre est mal donné, une mort sans reddition peut survenir.
+    Si votre mot de passe est **secret** et que vous souhaitez fusionner avec la faction (enno), l'ordre est :
 
-```text
-QUIT "secret" PARTEI enno
-```
+    ```text
+    QUIT "secret" FACTION enno
+    ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 

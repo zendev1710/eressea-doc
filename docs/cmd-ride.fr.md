@@ -4,35 +4,38 @@ alias: cmd-ride-fr
 ---
 # RIDE
 
-*`RIDE` is a [long] order. `CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*
+*`RIDE` est un ordre [long].*  
+*`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*  
 
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
 
-With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.
-With this order it is possible to travel on horses or carts even without the riding skill.
-The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.
+Avec l'ordre `RIDE`, une unité rejoint une unité de transport et peut en être séparée si elle reçoit l'ordre `CARRY` donné pour l’unité itinérante.  
+Avec cet ordre, il est possible de voyager à cheval ou en charrette même sans compétence d'équitation.  
+La condition préalable à cela est bien entendu que l'unité de transport dispose de suffisamment de capacité libre pour charger les unités mobiles et leurs objets.  
 
 ```text
-    Partei 125:
-        UNIT 311
-            RIDE 456 ; I want to go with you
-            CONTACT 456
-            [...]
-      
-    Partei 300:
-        UNIT 777
-            RIDE 456 ; I want to go with you
-      
-    Partei 300:
-        UNIT 456
-            CARRY 311 ; Let 311 come along for the ride
-            CARRY 777 ; and 777 is also taken
-            CONTACT 311
+Partei 125:
+    UNIT 311
+        RIDE 456 ; je veux aller avec toi
+        CONTACT 456
+        [...]
+  
+Partei 300:
+    UNIT 777
+        RIDE 456 ; je veux aller avec toi
+  
+Partei 300:
+    UNIT 456
+        CARRY 311 ; je laisse l'unité 311 m'accompagner
+        CARRY 777 ; et l'unité 777 est également prise
+        CONTACT 311
 ```
 
-- [Aquarians] cannot transport other races when [swimming], nor can they take horses or carts with them
-- [Insects] can also be transported using `CARRY`, but cannot be brought into or through a glacier
+Règles restrictives :
+
+- **lorsqu'ils [nagent]**, les [Aquariens] ne peuvent pas transporter d'autres races, ni emmener de chevaux ni des chars avec eux
+- les [Insectes] peuvent être transportés grâce à l'ordre `CARRY`, mais ne peuvent pas être emmenés dans ou à travers un glacier
 
 ## Voir aussi
 
@@ -43,6 +46,6 @@ The prerequisite for this is, of course, that the transporting unit has enough f
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
 
 [long]: ./commands.md#ordres-courts-et-longs
-[Aquarians]: ./races.md#aquariens
-[swimming]: ./sailing.md#nager
-[Insects]: ./races.md#insectes
+[Aquariens]: ./races.md#aquariens
+[nagent]: ./sailing.md#nager
+[Insectes]: ./races.md#insectes

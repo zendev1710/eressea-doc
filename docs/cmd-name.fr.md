@@ -15,21 +15,23 @@ alias: cmd-name-fr
 **`NAME REGION`**` `*`"name"`*  
 **`NAME GROUP`**` `*`"name"`*  
 
-Rename the listed item.
-Ships and buildings can only be renamed if the unit also has command of the building or ship - so it must be the first unit under the building or ship in the evaluation.
-A region can only be renamed by the lord of the most powerful castle in a region.
-Groups can only be renamed by group members and the new group name cannot already exist.
+Renomme l'élément spécifié.  
 
-The new name can be up to 127 characters long. Longer descriptions can be added using the [[cmd-describe]] command.
+Un bateau ou un bâtiment ne peut être renommé que si l'unité le contrôle - elle doit donc être la première unité sous le bâtiment ou le navire dans l'évaluation.  
+Une région ne peut être renommée que par le seigneur du château le plus puissant d'une région.  
+Les groupes ne peuvent être renommés que par les membres du groupe et le nouveau nom de groupe ne peut pas déjà exister.  
 
-Through the addition `STRANGERS` (or `STRANGER`) and specifying the number, you can name units, ships and even buildings (not just castles) of other parties if they do not yet have a name (i.e. units are named as "unit abc").
-You can even name a foreign faction as long as it is older than ten rounds.
+Le nouveau nom peut contenir jusqu’à 127 caractères.  
+Des descriptions plus longues peuvent être ajoutées à l'aide de l'ordre [[cmd-describe]].  
 
-The naming of the faction must also be carried out by a unit.
+Grâce à l'ajout `STRANGERS` (ou `STRANGER`) et en spécifiant l'identifiant, vous pouvez nommer des unités, des bateaux ou même des bâtiments (pas seulement des châteaux) d'autres factions s'ils n'ont pas encore de nom (càd de libellé « unit abc »).
+Vous pouvez même nommer une faction étrangère à condition qu'elle date de plus de dix tours.  
+
+Le nommage de la faction doit également être effectuée par une unité :
 
 ```text
 ERESSEA 7 "Seven"
-    NAME FACTION "Incorrect" ; no effect
+    NAME FACTION "Incorrect" ; aucun effet
     UNIT 89
         NAME FACTION "Correct"
 ```

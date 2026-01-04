@@ -4,15 +4,23 @@ alias: cmd-prefix-fr
 ---
 # PREFIX
 
-**`PREFIX`**`[`*`präfix`*`]`  
+**`PREFIX`**`[`*`préfixe`*`]`  
 
-With that `PREFIX` order can prefix the racial designations of his faction's units in the report.
-The prefix has no further effect.
-Without parameters, the order deletes an existing prefix.
+Avec l'ordre `PREFIX`, tu peux préfixer les désignations de races des unités de ta faction (ou de tes groupes) dans le rapport.  
+Le préfixe n'a aucun autre effet.  
 
-Currently possible prefixes are *Dark, light, small, high, hill, mountain, forest, swamp, snow, sun, moon, lake, valley, shadow, cave, blood, wild, chaos, night, fog, gray, frost, dark, gloomy*.
+Sans paramètres, l'ordre supprime un préfixe existant.  
 
-The order can be used both in the context of the entire faction and in the context of a group.
-So it is possible to give each [[cmd-group|group]] in a faction its own prefix.
+Les préfixes actuellement pris en charge sont :
+
+- dark, light, shadow, gray, dark, gloomy
+- small, high
+- hill, mountain, forest, swamp
+- snow, sun, moon, fog, frost
+- lake, valley, cave
+- blood, wild, chaos, night
+
+L'ordre peut être utilisé aussi bien dans le contexte de l'ensemble de la faction que dans le contexte d'un groupe.  
+Il est donc possible de donner à chaque [[cmd-group|group]] d'une faction son propre préfixe.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=PREFIX&oldid=5733] -->

@@ -6,17 +6,26 @@ alias: cmd-tax-fr
 
 *Ordre [long]*.
 
-**`TAX`**`[`*`Amount`*`]`  
+**`TAX`**`[`*`montant`*`]`  
 
-With this order, armed and trained units collect taxes from the farmers.
-To do this, they need a weapon and the corresponding [[skills-list|skill]] and the [tax collecting].
-Up to 20 Silver are collected from farmers per [[armed]] person (and trained in this weapon) and skill level Tax Collecting;
-Catapults are not suitable for collecting taxes.
-If you specify an amount, a maximum of this amount will be collected in taxes. Only full 10s can be specified; everything else is rounded down to the next full 10s.
-The farmers even give away silver that they actually need to survive, which can lead to [hunger].
-If several factions want to collect taxes, the money is divided between the factions. If you want to prevent non-allied factions from collecting taxes, you can do this with the [[cmd-guard]] order.
+Avec cet ordre, une unité armée et entraînée collecte les impôts auprès des agriculteurs.  
+Pour ce faire, elle a besoin d'une arme et de maîtrser la [[liste-des-competences|compétence]] correspondante, ainsi que de la compétence de [collecte des impôts].  
+Jusqu'à **20 Silver** sont collectées auprès des agriculteurs par personne [[arme-et-pret-au-combat|armée et formée à l'arme portée]] et par niveau de compétence en matière de collecte des impôts.  
 
-Tax collecting skill does not increase during use.
+!!! note
+    Les catapultes ne conviennent pas en tant qu'arme pour collecter des impôts.  
+
+Si tu précises un montant, un maximum de ce montant sera collecté en taxes.  
+Seules des dizaines peuvent être spécifiées; dans le cas contraire, le montant est arrondi à la dizaine suivante.  
+
+!!! warning "Attention"
+    Les agriculteurs donnent même l’argent dont ils ont réellement besoin pour survivre, **ce qui peut conduire à la [famine]**.  
+
+Si plusieurs factions passent l'ordre de collecte des impôts, l’argent résultant de la collecte sera réparti entre les différentes factions.  
+Si tu souhaites empêcher les factions non alliées de collecter l'impôt, tu devras passer l'ordre [[cmd-guard]].  
+
+!!! note
+    La compétence de collecte des impôts n’augmente pas avec son utilisation.
 
 ## Voir aussi
 
@@ -25,5 +34,5 @@ Tax collecting skill does not increase during use.
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
 
 [long]: ./commands.md#ordres-courts-et-longs
-[hunger]: ./silver.md#famine
-[tax collecting]: ./skills-list.md#taxation
+[famine]: ./silver.md#famine
+[collecte des impôts]: ./skills-list.md#taxation

@@ -4,10 +4,9 @@ alias: cmd-region-fr
 ---
 # REGION
 
-`REGION x,y; Name of the region`
+`REGION x,y; <Nom de la région>`  
 
-The `REGION` order has no function for Eressea.
-It is simply inserted into the [[orders]] to make it easier for other programs (e.g. [[echeck]]) to recognize individual regions.
+L'ordre `REGION`l n'a aucune fonction pour Eressea.  
+Cet ordre est simplement inséré dans les [[ordres]] pour permettre à d'autres programmes (par exemple [[echeck]]) de reconnaître plus facilement les régions individuelles.
 
 <!-- From [https://wiki.eressea.de/index.php?title=REGION&oldid=16696] -->
-

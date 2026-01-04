@@ -6,34 +6,39 @@ alias: cmd-promote-fr
 
 **`PROMOTE`**  
 
-Promotes a unit of your own faction race to hero status.
+Promeut une unité de votre propre race de faction au statut de **Héros**.  
 
-Heroes are particularly strong in [[war|combat]].
-They attack 5 times in each combat round. That's why it's worth promoting units with combat skills to hero status.
+Les héros sont particulièrement forts en [[guerre|combat]].  
+**Ils attaquent 5 fois à chaque round de combat**.  
+C'est pourquoi il vaut la peine de promouvoir les unités dotées de compétences de combat au statut de héros.  
 
 !!! note
-    Heroes **do not attack more often** with magic, crossbows or catapults.
+    Un Héros **n'attaque pas plus souvent** avec de la magie, des arbalètes ou des catapultes.
 
-If a unit is to be promoted, it requires Silver per person (the faction's total number of people).
-As usual, missing Silver is taken from the [silver pool] when there is enough.
-The maximum number of heroes is limited, but increases with faction size. The formula for this is log10((faction size-500)÷50)×20.
-Only people of your own race can be promoted, i.e. neither monsters nor migrants.
-Transport takes place according to RECRUIT. The number of people after recruiting in the current week is used for both the number of possible heroes and the costs of promotions.
+<!-- TODO: which cost exactly ? -->
+Le côut de la promotion en tant que Héros d'une unité dépend du nombre total de personnes de la faction.  
+Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent] lorsqu'il y en a suffisamment.  
 
-Units that have been promoted cannot recruit additional people and cannot be merged with other non-hero units. There is no order to demote heroes.
+Le nombre maximum de héros est limité, mais augmente avec la taille de la faction.  
+La formule pour cela est : log10((taille de la faction-500)÷50)×20.  
 
-For those who are lazy about math, here is a table showing how many heroes are available in the faction.
+Seules les personnes de votre propre race peuvent être promues (donc ni les monstres ni les migrants).  
+Le transport s'effectue selon `RECRUIT`.  
+Le nombre de personnes après recrutement dans la semaine en cours est utilisé à la fois pour déterminer le nombre de héros possibles et les coûts de promotions.  
 
-|        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |      |  |
-|--------|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|-----:|--|
-| People | 557 | 563 | 571 | 580 | 589 | 600 | 612 | 626 | 641 | 659 | 678 | 700 | 724 | 751 | 782 | 816 | 854 | 898 | 946 | 1000 |  |
-| Heroes |   1 |   2 |   3 |   4 |   5 |   6 |   7 |   8 |   9 |  10 |  11 |  12 |  13 |  14 |  15 |  16 |  17 |  18 |  19 |   20 |  |
+Les unités qui ont été promues ne peuvent pas recruter de personnes supplémentaires et ne peuvent pas être fusionnées avec d'autres unités non-héros.  
+Il n’y a aucun ordre pour rétrograder un Héros.  
 
-|        |      |      |      |      |      |      |      |      |      |      |      |      |      |       |       |       |       |        |        |        |     |
-|--------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|-------:|-------:|-------:|-----|
-| Heroes |   21 |   22 |   23 |   24 |   25 |   26 |   27 |   28 |   29 |   30 |   35 |   40 |   45 |    50 |    55 |    60 |    65 |     70 |     75 |     80 | ... |
-| People | 1062 | 1130 | 1207 | 1293 | 1390 | 1498 | 1620 | 1756 | 1910 | 2082 | 3312 | 5500 | 9392 | 16312 | 28618 | 50500 | 89414 | 158614 | 281671 | 500500 | ... |
+Pour ceux qui sont paresseux en maths, voici un tableau indiquant combien de Héros sont disponibles dans la faction.  
+
+| Personnes | 557 | 563 | 571 | 580 | 589 | 600 | 612 | 626 | 641 | 659 | 678 | 700 | 724 | 751 | 782 | 816 | 854 | 898 | 946 | 1000 |
+|-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:----:|
+| Héros     |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  |  20  |
+
+| Personnes | 1062 | 1130 | 1207 | 1293 | 1390 | 1498 | 1620 | 1756 | 1910 | 2082 | 3312 | 5500 | 9392 | 16312 | 28618 | 50500 | 89414 | 158614 | 281671 | 500500 | ... |
+|-----------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:---:|
+| Héros     |  21  |  22  |  23  |  24  |  25  |  26  |  27  |  28  |  29  |  30  |  35  |  40  |  45  |  50   |  55   |  60   |  65   |   70   |   75   |   80   | ... |
 
 <!-- From [https://wiki.eressea.de/index.php?title=PROMOTE&oldid=16056] -->
 
-[silver pool]: ./items-pool.md#reserve-dargent
+[réserve d'argent]: ./items-pool.md#reserve-dargent

@@ -4,35 +4,33 @@ alias: cmd-reserve-fr
 ---
 # RESERVE
 
-**`RESERVE`**` `*`number`*` `*`gegenstand`*  
-**`RESERVE`**` ALL `*`gegenstand`*  
-**`RESERVE`**` EACH `*`number`*` `*`gegenstand`*
-
 **`RESERVE`**` `*`number`*` `*`Item`*  
 **`RESERVE`**` ALL `*`Item`*  
 **`RESERVE`**` EACH `*`number`*` `*`Item`*  
 
-This allows a unit to take and “save” items or silver from other units in the region.
-It should be noted that the unit takes its goods from any unit (usually from top to bottom according to the order in the NR), unless this unit has reserved this item (but see [[items-pool]]!).
+Cela permet à une unité de prendre et de « sauvegarder » des objets ou de l’argent provenant d’autres unités de la région.  
+Il est à noter que l'unité prend ses marchandises dans n'importe quelle unité (généralement de haut en bas selon l'ordre dans le NR), à moins que cette unité n'ait réservé cet objet (voir [[items-pool]] !).  
 
-With`RESERVE ALL`` `*`Item`*A unit reserves everything it owns from the specified item.
+Avec l'ordre `RESERVE ALL`` `*`Item`*, une unité réserve tout ce qu'elle possède de l'élément spécifié.  
 
-With `RESERVE EACH`` `*`number`*` `*`Item`*, *`number`* items **per person** are reserved.
+Avec l'ordre `RESERVE EACH`` `*`number`*` `*`Item`*, le nombre d'items spécifié est réservé **par personne**.  
 
 ```text
 RESERVE EACH 100 Silver
 ```
 
+Pour une unité de 10 personnes, 100 Silver sont réservés pour chaque personne, soit 1000 Silver réservés au total pour l'unité.  
+
 ## Sources d'erreur
 
-- `TEMP` unit cannot reserve! Silver like items must be given to them using [[cmd-give]]
-- `RESERVE` occurs [[cmd-give]] and [[cmd-recruit]] in the [[orders-sequence]]. So relates `EACH` on the number of people before handover and recruitment
-- If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see [[items-pool]]
-- If the same item is reserved by a unit several times, only the last entry is valid
+- une unité `TEMP` ne peut pas réserver ! Les objets tout comme l'argent doivent leur être donnés en utilisant l'ordre [[cmd-give]]
+- L'ordre `RESERVE` s'exéute avanr les ordres [[cmd-give]] et [[cmd-recruit]] dans la [[orders-sequence]]. Donc l'instruction `EACH` s'applique sur le nombre de personnes **avant** passation et recrutement
+- Si les unités d'une faction réservent plus d'un objet donné que ce qui est disponible dans la région (dans la réserve d'objets) dans son ensemble, le résultat est difficile à prédire. Pour plus de détails, voir [[items-pool]]
+- Si le même article est réservé plusieurs fois par une même unité, seule le dernier ordre est valable et pris en compte
 
 ## Exemples
 
-With:
+Avec :
 
 ```text
 RESERVE EACH 1 Sword
@@ -40,9 +38,9 @@ RESERVE EACH 1 Shield
 GIVE depo ALL
 ```
 
-A unit can keep one weapon and one shield per person, even after a losing battle, and give everything else (loot) to a depot unit.
+Une unité peut conserver une arme et un bouclier par personne, même après une bataille perdue, et donner tout le reste (butin) à une unité de dépôt.  
 
-With:
+Avec :
 
 ```text
 @RESERVE 100 Silver
@@ -50,7 +48,7 @@ RESERVE 1 Sword
 RESERVE 50 Silver
 ```
 
-the unit will reserve a sword and 50 silver.
+L'unité réservera une épée et 50 Silver.  
 
 ## Voir aussi
 

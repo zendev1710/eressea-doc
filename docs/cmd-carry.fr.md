@@ -5,11 +5,7 @@ alias: cmd-carry-fr
 # CARRY
 
 *`RIDE` est un ordre [long].*  
-<<<<<<< HEAD
 *`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*  
-=======
-*`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*
->>>>>>> 002b1ee93240dcde44dcf269f285d7add0cec212
 
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  

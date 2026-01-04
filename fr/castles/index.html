@@ -1735,10 +1735,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exemple" class="md-nav__link">
+  <a href="#exemples" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Exemple
+        Exemples
       
     </span>
   </a>
@@ -7327,10 +7327,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exemple" class="md-nav__link">
+  <a href="#exemples" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Exemple
+        Exemples
       
     </span>
   </a>
@@ -7432,6 +7432,33 @@
 Ils réduisent également la probabilité de <a href="../plague/">Peste</a>.</p>
 <p>Les châteaux sont construits en pierre à l'aide de l'ordre <a href="../cmd-make/"><code>MAKE CASTLE</code></a> et de la compétence <a href="../skills-list/#maconnerie">maconnerie</a>.
 Un château entre dans une nouvelle catégorie selon sa taille :</p>
+<!-- TODO: choose best table format -->
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">10</th>
+<th style="text-align: center;">50</th>
+<th style="text-align: center;">250</th>
+<th style="text-align: center;">1250</th>
+<th style="text-align: center;">6250+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td style="text-align: center;">Fondations</td>
+<td style="text-align: center;">Poste de commerce</td>
+<td style="text-align: center;">Fortification</td>
+<td style="text-align: center;">Tower</td>
+<td style="text-align: center;">Bastion</td>
+<td style="text-align: center;">Forteresse</td>
+<td style="text-align: center;">Citadelle</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
@@ -7441,11 +7468,11 @@ Un château entre dans une nouvelle catégorie selon sa taille :</p>
 </thead>
 <tbody>
 <tr>
-<td>Fondation (<em>foundation</em>)</td>
+<td>Fondations</td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
-<td>Poste de commerce (<em>tradepost</em>)</td>
+<td>Poste de commerce</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
@@ -7453,54 +7480,54 @@ Un château entre dans une nouvelle catégorie selon sa taille :</p>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td>Tour (<em>tower</em>)</td>
+<td>Tour</td>
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td>Bastion (<em>stronghold</em>)</td>
+<td>Bastion</td>
 <td style="text-align: right;">250</td>
 </tr>
 <tr>
-<td>Forteresse (<em>fortress</em>)</td>
+<td>Forteresse</td>
 <td style="text-align: right;">1250</td>
 </tr>
 <tr>
-<td>Citadelle (<em>citadel</em>)</td>
+<td>Citadelle</td>
 <td style="text-align: right;">6250</td>
 </tr>
 </tbody>
 </table>
-<p>Plus le château est grand, plus il est difficile de l'agrandir.
-Pour continuer à construire un château, vous devez avoir au moins la compétence Maçonnerie au niveau requis.
-Chaque unité dispose de points de production (PP) à chaque tour : (niveau de compétence) x (nombre de personnes).
-Chaque semaine, l'unité agrandit le bâtiment de PP/(niveau de compétence requis) pierres.
-Les pierres nécessaires doivent également être disponibles.
-Vous pouvez facilement construire une tour en une semaine avec une unité suffisamment grande et compétente et suffisamment de pierres.</p>
+<p>Plus le château est grand, plus il est difficile de l'agrandir.<br />
+Pour continuer à construire un château, vous devez avoir au moins la compétence Maçonnerie au niveau requis.<br />
+Chaque unité dispose de points de production (PP) à chaque tour : (niveau de compétence) x (nombre de personnes).<br />
+Chaque semaine, l'unité agrandit le bâtiment de PP/(niveau de compétence requis) pierres.<br />
+Les pierres nécessaires doivent également être disponibles.<br />
+Vous pouvez facilement construire une tour en une semaine avec une unité suffisamment grande et compétente et suffisamment de pierres.  </p>
 <p>Un chateau a aussi un identifiant (ID), utilisé pour les ordres.  </p>
-<p>Exemple :</p>
+<p>Premier exemple de château :</p>
 <div class="highlight"><pre><span></span><code>Grand temple du chat aux yeux d&#39;or (58), taille 58, tour;
 Le temple brille d&#39;un blanc éclatant au soleil, encadré par le vert délicat des arbres du parc.
 La tour élancée, qui s&#39;élève au-dessus de la ville, est visible de loin.
 Au nord du temple, la ville de Xontormia s&#39;étend le long du Whyren, enjambée un gigantesque pont près du port.
 </code></pre></div>
-<p>Les unités dans un château sont protégées, à savoir qu'une personne est protégée par unité de taille du château.
-Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre <a href="../war/">Guerre</a>, en particulier la liste des <a href="../war/#boni-et-mali">bonus et malus</a>).
-Chaque unité de taille du château nécessite une pierre.</p>
-<p>Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi <a href="./#apercu">tableau du bas</a>), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.</p>
-<h2 id="exemple">Exemple<a class="headerlink" href="#exemple" title="Permanent link">&para;</a></h2>
-<p>L'unité "Thors Baumeister" est composée de 20 personnes de niveau 1 en Maçonnerie, disposant de 100 pierres.
-En raison de son niveau de compétence et du nombre de personnes de l'unité, elle dispose de 20 points de production (PP).
-Cela lui permet de construire <code>PP / &lt;niveau requis&gt;</code> unités de taille du chateau chaque semaine.</p>
-<p>Lorsque cette unité commence à construire un nouveau château, elle peut construire 10 unités de taille au premier tour : pour les fondations et le tradepost, le niveau minimal en masonry est de 1;
-pour construire une unité de taille, il faut un point de production, donc l'unité construit d'abord le tradepost jusqu'à la taille 10, ce qui fait de ce bâtiment une fortification.
-Il reste alors 10 points de production, mais ils sont perdus parce que le niveau minimum requis en masonry pour les fortifications est de 2.</p>
-<p>Si l'unité a un niveau 2 en masonry, elle commence avec 40 points de production, dont 10 sont nécessaires pour une fortification.
-Elle peut ensuite utiliser les 30 points de production restants pour améliorer la fortification dans le même tour.
-Cependant, un talent minimum de 2 signifie également que 2 points de production doivent être dépensés par pierre.
-Ainsi, la fortification augmente de 15 pierres et une fortification de taille 25 est construite à la fin de la semaine.</p>
-<p>Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours supplémentaires, agrandir la fortification jusqu'à la taille 50, créant ainsi une tour (Tower) qu'ils ne pourront pas agrandir en raison du niveau minimal de 3 requis.</p>
+<p>Les unités dans un château sont protégées, à savoir qu'une personne est protégée par unité de taille du château.<br />
+Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre <a href="../war/">Guerre</a>, en particulier la liste des <a href="../war/#boni-et-mali">bonus et malus</a>).<br />
+Chaque unité de taille du château nécessite une pierre.  </p>
+<p>Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi <a href="./#apercu">tableau du bas</a>), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.  </p>
+<h2 id="exemples">Exemples<a class="headerlink" href="#exemples" title="Permanent link">&para;</a></h2>
+<p>L'unité "Thors Baumeister" est composée de 20 personnes de niveau 1 en Maçonnerie, disposant de 100 pierres.<br />
+En raison de son niveau de compétence et du nombre de personnes de l'unité, elle dispose de 20 points de production (PP).<br />
+Cela lui permet de construire <code>PP / &lt;niveau requis&gt;</code> unités de taille du chateau chaque semaine.  </p>
+<p>Lorsque cette unité commence à construire un nouveau château, elle peut construire 10 unités de taille au premier tour : pour les fondations et le poste de commerce, le niveau minimal en maçonnerie est de 1;<br />
+pour construire une unité de taille, il faut un point de production, donc l'unité construit d'abord le poste de commerce jusqu'à la taille 10, ce qui fait de ce bâtiment une fortification.<br />
+Il reste alors 10 points de production, mais ils sont perdus parce que le niveau minimum requis en maçonnerie pour les fortifications est de 2.  </p>
+<p>Si l'unité a un niveau 2 en maçonnerie, elle commence avec 40 points de production, dont 10 sont nécessaires pour une fortification.<br />
+Elle peut ensuite utiliser les 30 points de production restants pour améliorer la fortification dans le même tour.<br />
+Cependant, un talent minimum de 2 signifie également que 2 points de production doivent être dépensés par pierre.<br />
+Ainsi, la fortification augmente de 15 pierres et une fortification de taille 25 est construite à la fin de la semaine.  </p>
+<p>Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours supplémentaires, agrandir la fortification jusqu'à la taille 50, créant ainsi une tour (Tower) qu'ils ne pourront pas agrandir en raison du niveau minimal de 3 requis.  </p>
 <h2 id="apercu">Aperçu<a class="headerlink" href="#apercu" title="Permanent link">&para;</a></h2>
-<p>Construction de châteaux - type, taille minimale, niveau minimum en maçonnerie, bonus salaire (en silvers), part du commerce et bonus de défense.</p>
+<p>Construction de châteaux : type, niveau minimum de compétence en maçonnerie, bonus salaire (en silvers), part du commerce et bonus de défense.  </p>
 <table>
 <thead>
 <tr>
@@ -7513,16 +7540,16 @@ Ainsi, la fortification augmente de 15 pierres et une fortification de taille 25
 </thead>
 <tbody>
 <tr>
-<td>Fondation</td>
+<td>Fondations</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0 silver</td>
+<td style="text-align: right;">--</td>
 <td style="text-align: right;">--</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>Poste de commerce</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0 silver</td>
+<td style="text-align: right;">--</td>
 <td style="text-align: right;">6%</td>
 <td style="text-align: right;">0</td>
 </tr>

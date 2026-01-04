@@ -2585,10 +2585,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conventions" class="md-nav__link">
+  <a href="#conventions-decriture" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conventions
+        Conventions d'écriture
       
     </span>
   </a>
@@ -2607,10 +2607,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#modeles-de-deplacement" class="md-nav__link">
+  <a href="#modele-dordres" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Modèles de déplacement
+        Modèle d'ordres
       
     </span>
   </a>
@@ -2640,10 +2640,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#supprimer-les-erreurs" class="md-nav__link">
+  <a href="#supprimer-les-messages-derreur" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supprimer les erreurs
+        Supprimer les messages d'erreur
       
     </span>
   </a>
@@ -7371,10 +7371,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conventions" class="md-nav__link">
+  <a href="#conventions-decriture" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conventions
+        Conventions d'écriture
       
     </span>
   </a>
@@ -7393,10 +7393,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#modeles-de-deplacement" class="md-nav__link">
+  <a href="#modele-dordres" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Modèles de déplacement
+        Modèle d'ordres
       
     </span>
   </a>
@@ -7426,10 +7426,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#supprimer-les-erreurs" class="md-nav__link">
+  <a href="#supprimer-les-messages-derreur" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supprimer les erreurs
+        Supprimer les messages d'erreur
       
     </span>
   </a>
@@ -7516,60 +7516,61 @@
 
 
 <h1 id="ordres">Ordres<a class="headerlink" href="#ordres" title="Permanent link">&para;</a></h1>
-<h2 id="conventions">Conventions<a class="headerlink" href="#conventions" title="Permanent link">&para;</a></h2>
-<p>The following conventions apply in these rules:</p>
+<h2 id="conventions-decriture">Conventions d'écriture<a class="headerlink" href="#conventions-decriture" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>GIVE unit-id [number|ALL] [item]
 </code></pre></div>
+<p>Les conventions suivantes s'appliquent dans les règles de cette documentation :</p>
 <ul>
-<li>Keywords like GIVE, MAKE, NOT are in capital letters.
-  This is not mandatory, but we recommend it-Placeholders are in lowercase letters.
-  They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit.
-  Sometimes we also write this as <unit-id>, in which case the &lt; and &gt; symbols are <em>not</em> to be included.</li>
-<li>Words in [] brackets are optional.
-  So they can be omitted, but they change the meaning of the order.
-  Alternatives are through | separated.
-  The example above allows <code>GIVE 123 EVERYTHING</code> or <code>GIVE abc 4 sword</code></li>
+<li>Des mots-clés comme <code>GIVE</code>, <code>MAKE</code>, <code>NOT</code> sont en majuscules.
+  Ce n'est pas obligatoire, mais nous le recommandons. Le reste est en lettres minuscules.
+  Les éléments en minuscules ne doivent pas être adoptés littéralement, mais doivent être remplacés par des valeurs concrètes, par exemple unit-id par le numéro de l'unité souhaitée.
+  Parfois, nous écrirons également ceci sous la forme &lt;unit-id&gt;, auquel cas les symboles <code>&lt;</code> et <code>&gt;</code> ne sont **PAS* à inclure.</li>
+<li>Les éléments entre crochets sont facultatifs
+  Ils peuvent donc être omis, mais ils changent le sens de l'ordre.
+  Les alternatives sont définis avec le caractère <code>|</code>.</li>
 </ul>
+<p>L'exemple ci-dessus permet <code>GIVE 123 ALL</code> ou <code>GIVE abc 4 sword</code>.  </p>
 <h2 id="syntaxe">Syntaxe<a class="headerlink" href="#syntaxe" title="Permanent link">&para;</a></h2>
-<p>Except for the password and the faction id, the server is case-insensitive.
-<code>learN croSSBow</code> is completely legal (but not recommended as it is difficult for humans to read).</p>
-<p>Items should always be in the <em>Singular</em> stand, so <code>GIVE xyz 100 Sword</code> or <code>MAKE 15 Stone</code>
-Items often appear in the majority in the report and are mostly understood in orders, but you should be aware that the server does not understand natural language, even if the orders look almost like that.</p>
-<p>Many orders can be shortened, although you should not overdo it as this is prone to errors: VER matches <code>FORGET</code>, <code>SELL</code> and <code>LEAVE</code> and is therefore noted as an error; So here you should use at least four letters.
-In addition, overly cryptic abbreviations are not particularly readable when you look through your moves later...
-It's still safest if you don't abbreviate your orders, especially since there may be orders, items and skills that are intentionally not in the instructions but start out similar to well-known orders, items and skills.</p>
-<p>Texts that contain spaces must be enclosed in quotation marks ("") or the spaces must be replaced by ~ (tilde).
-Furthermore, umlauts may be replaced by the appropriate paraphrase (Ä=AE, etc.):</p>
+<p>À l'exception du mot de passe et des identifiants, l'évaluation par le serveur n'est pas sensible à la casse.<br />
+<code>learN croSSBow</code> est tout à fait correct (mais déconseillé car difficile à lire).  </p>
+<p>Les items doivent toujours être renseignés <strong>au singulier</strong>, ainsi il faut écrire <code>GIVE xyz 100 Sword</code> ou <code>MAKE 15 Stone</code>.<br />
+Les items apparaissent souvent en majorité dans le rapport et sont pour la plupart compris dans les ordres, mais sachez que le serveur ne comprend pas le langage naturel, même si les ordres s'en approchent.  </p>
+<p>De nombreux ordres peuvent être raccourcis, mais il ne faut pas en faire un usage conséquent car cela est sujet aux erreurs.<br />
+Par exemple le raccourci <code>LEA</code> est ambigü car il peut correspondre à  <code>LEARN</code> ou <code>LEAVE</code>, ce qui produit une erreur à l'évaluation.<br />
+Ici, vous devrez donc utiliser au moins 4 lettres.  </p>
+<p>De plus, les abréviations trop énigmatiques ne sont pas particulièrement lisibles lorsque vous parcourez vos ordres plus tard...<br />
+Il est toujours plus sûr de ne pas abréger vos ordres, d'autant plus qu'il peut y avoir des ordres, des objets ou des compétences qui ne figurent pas intentionnellement dans les instructions, mais qui commencent comme d'autres ordres, objets et compétences bien connus.  </p>
+<p>Les textes contenant des espaces doivent être mis entre guillemets (""), ou les espaces doivent être remplacés par le caractère <code>~</code> (tilde):</p>
 <div class="highlight"><pre><span></span><code>NAME Ship &quot;Big Blue Bird&quot;
-GIVE unit 5 Spicy~Daring
+GIVE unit 5 Water~of~life
 COMBAT REAR
 </code></pre></div>
-<p>It is possible to use and combine single quotes (').
-It's better to try out what exactly comes out, because the exact behavior can always change.</p>
+<p>Il est possible d'utiliser et de combiner des guillemets simples (<code>'</code>).<br />
+Il est préférable d'essayer ce qui ressort exactement, car le comportement exact peut toujours évoluer.  </p>
 <div class="highlight"><pre><span></span><code>MESSAGE REGION &#39;Say &quot;Friend&quot; and enter&#39;
 NAME CASTLE xyz &quot;Helm&#39;s Deep&quot;
 DEFAULT &#39;MAKE 1 &quot;Water of Life&quot;&#39;
 </code></pre></div>
-<p>Also called masking (escaping) by the character\are possible, but not necessarily recommended:</p>
+<p>L'<em>escaping</em> au moyen du caractère d'échappement <code>\</code> est aussi possible, mais pas forcément recommandé :</p>
 <div class="highlight"><pre><span></span><code>MESSAGE REGION &quot;Say \&quot;Friend\&quot; and enter&quot;
 NAME CASTLE xyz &#39;Helm\&#39;s Deep&#39;
 DEFAULT &#39;MAKE 1 Water\~of\~Life&#39;
 </code></pre></div>
-<p>By the way, it is not necessary to limit yourself to the Latin alphabet.
-The full Unicode character set is possible in names and descriptions:</p>
+<p>D'ailleurs, il n'est pas nécessaire de se limiter à l'alphabet latin.<br />
+Le jeu de caractères Unicode complet est utilisable dans les noms et les descriptions :</p>
 <div class="highlight"><pre><span></span><code>NAME UNIT &quot;Σωκράτης&quot;
 MESSAGE REGION &quot;🨀 شاه مات&quot;
 </code></pre></div>
-<p>Of course, you should make sure that you are understood by others.</p>
-<h2 id="modeles-de-deplacement">Modèles de déplacement<a class="headerlink" href="#modeles-de-deplacement" title="Permanent link">&para;</a></h2>
-<p>The easiest way is to use the move template at the end of the evaluation.
-All units are listed there so that you don't forget anyone.
-If you don't send in any orders, the orders in the move template will still be executed automatically.
-Even if you only send orders for some of your units, the orders in the move template will be executed for the remaining units.
-If your evaluation does not contain a move template (with the extension <code>.txt</code>), you can reactivate it with the order <a href="../cmd-option/"><code>OPTION ZUGVORLAGE</code></a>.</p>
+<p>Bien entendu, vous devez vous assurer que vous êtes compris des autres.  </p>
+<h2 id="modele-dordres">Modèle d'ordres<a class="headerlink" href="#modele-dordres" title="Permanent link">&para;</a></h2>
+<p>Le plus simple est d’utiliser le modèle de commandes à la fin de l’évaluation.<br />
+Toutes les unités y sont répertoriées pour que vous n'oubliiez personne.<br />
+Si vous n'envoyez aucun ordre, les ordres du modèle d'ordres seront quand même exécutés automatiquement.<br />
+Même si vous n'envoyez des ordres que pour certaines de vos unités, les ordres du modèle d'ordres seront exécutés pour les unités restantes.<br />
+Si votre évaluation ne contient pas de modèle d'ordres (d'extension <code>.txt</code>), vous pouvez le réactiver avec l'ordre <a href="../cmd-option/"><code>OPTION ZUGVORLAGE</code></a>.</p>
 <h2 id="ordres-courts-et-longs">Ordres courts et longs<a class="headerlink" href="#ordres-courts-et-longs" title="Permanent link">&para;</a></h2>
-<p>There are short and long orders in Eressea.</p>
-<p>The long orders are:</p>
+<p>Il existe des ordres courts et des ordres longs dans Eressea.  </p>
+<p>Les ordres <strong>longs</strong> sont les suivants :</p>
 <ul>
 <li><a href="../cmd-work/">WORK</a>,</li>
 <li><a href="../cmd-attack/">ATTACK</a>,</li>
@@ -7593,47 +7594,48 @@ If your evaluation does not contain a move template (with the extension <code>.t
 <li><a href="../cmd-destroy/">DESTROY</a>,</li>
 <li><a href="../cmd-grow/">GROW</a>.</li>
 </ul>
-<p>All other orders are short orders ([short description] of all orders).
-You can enter as many short orders as you want per unit.
-A unit can usually only have one long order.</p>
-<p>There are a few exceptions, called pseudo-long orders (<code>ATTACK, FOLLOW, BUY, SELL, CAST</code>), of which several may be given under certain circumstances.
-Further information can be found in the description of the individual orders.</p>
-<p>If a unit is given a long order, it will adopt it as the default order, replacing the previous default order.
-The default order is always in the [move template][3 The move template] as a suggestion for a long order.
-So you only need to give a horse trainer the order MAKE horse once and this order will appear in the move template until she receives another long order (e.g. LEARN horse dressage).
-It makes sense that not all long orders are adopted as default orders. This applies, for example, to <code>MOVE</code>, <code>ATTACK</code> and <code>FOLLOW</code>.
-For more information about default orders, see the <a href="../cmd-default/">DEFAULT</a> order page.</p>
-<p>A unit that worked one turn, moved north the next turn, and then received no more orders will settle down and work again the following turn (unless, of course, it receives another long order that turn).</p>
-<p>Please note that only one command per unit will be displayed in the Normal Report (NR).
-The remaining default orders are displayed in the train template and in the Computer Report (CR).</p>
+<p>Tous les autres ordres sont des ordres courts ([brève description] de tous les ordres).  </p>
+<p>Vous pouvez passer <strong>autant d'ordres courts que vous le souhaitez par unité</strong>.<br />
+Une unité ne peut généralement avoir <strong>qu’un seul ordre long</strong>.  </p>
+<p>Il existe quelques exceptions, appelées ordres pseudo-longs (<code>ATTACK</code>, <code>FOLLOW</code>, <code>BUY</code>, <code>SELL</code>, <code>CAST</code>), dont plusieurs peuvent être donnés dans certaines circonstances.<br />
+De plus amples informations peuvent être trouvées dans la description des différents ordres.  </p>
+<p>Si une unité reçoit un ordre long, elle l'adoptera comme ordre par défaut, remplaçant l'ordre par défaut précédent.<br />
+L'ordre par défaut est toujours dans le [modèle d'ordres] comme suggestion pour un ordre long.<br />
+Il vous suffit donc de donner à un éleveur de chevaux l'ordre <code>MAKE Horse</code> une seule fois, et cet ordre apparaîtra dans le modèle d'ordres jusqu'à ce qu'il reçoive un autre ordre long (par exemple <code>LEARN Tazming</code>).<br />
+Il est logique que tous les ordres longs ne soient pas adoptés comme ordres par défaut.<br />
+Par exemple, les ordres longs <code>MOVE</code>, <code>ATTACK</code> et <code>FOLLOW</code> ne sont pas exécutés comme ordres par défaut.<br />
+Pour plus d'informations sur les ordres par défaut : <a href="../cmd-default/">DEFAULT</a>.  </p>
+<p>Une unité qui a travaillé un tour, s'est déplacée vers le nord le tour suivant, et qui n'a ensuite plus reçu d'ordres, se stabilisera et travaillera à nouveau le tour suivant (à moins, bien sûr, qu'elle reçoive un autre ordre long ce tour-là).  </p>
+<p>Veuillez noter qu'un seul ordre par unité sera affiché dans le rapport normal (NR).<br />
+Les ordres par défaut restants sont affichés dans le modèle d'ordres (NR) et dans le rapport informatique (CR).  </p>
 <h2 id="executer-des-ordres-courts-de-maniere-permanente">Exécuter des ordres courts de manière permanente<a class="headerlink" href="#executer-des-ordres-courts-de-maniere-permanente" title="Permanent link">&para;</a></h2>
-<p>Sometimes it makes sense to execute a short order every round, such as <code>GIVE</code>, because the miners should constantly deliver the mined iron to the forge.</p>
-<p>To do this, you can put an @ (at sign, spider monkey) before each short order.
-Such orders are simply copied into the move template for the next round and -unless you delete them again -executed again.</p>
-<p><strong>An example</strong> :</p>
-<div class="highlight"><pre><span></span><code>UNIT berg;         Miners [5,400$,U500]
+<p>Parfois, il est judicieux d'exécuter un ordre court à chaque tour, comme l'ordre <code>GIVE</code>.<br />
+Par exemple, les mineurs doivent constamment livrer le fer extrait à un forgeron pour la fabrication d'armes.  </p>
+<p>Pour ce faire, vous pouvez préfixer chaque ordre court avec un <code>@</code> (arobase).<br />
+Ces ordres sont simplement copiés dans le modèle d'ordres pour le tour suivant et - à moins que vous ne les supprimiez à nouveau - exécutés à nouveau.  </p>
+<p><strong>Exemple</strong> :</p>
+<div class="highlight"><pre><span></span><code>UNIT berg;               mineurs [5,400$,U500]
     MAKE iron
-    @GIVE schm ALL Iron;   always deliver to the blacksmith
-UNIT schm;         Wrought [3,1343$,U250]
+    @GIVE schm ALL Iron; livraison permanente au forgeron
+UNIT schm;               forgeron [3,1343$,U250]
     MAKE Sword
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>There is a cap on the number of orders stored for a unit.
-This is currently 128 orders, which should easily be enough for most purposes.</p>
+<p>Le <strong>nombre maximal d'ordres</strong> autorisés pour une unité est de <strong>128</strong>, ce qui devrait suffire dans la plupart des cas.</p>
 </div>
-<h2 id="supprimer-les-erreurs">Supprimer les erreurs<a class="headerlink" href="#supprimer-les-erreurs" title="Permanent link">&para;</a></h2>
-<p>It may happen that you consciously accept errors when executing a order.
-By prefixing it with an exclamation mark (!) you can suppress the server messages concerning this order.</p>
-<p><strong>An example</strong>:</p>
+<h2 id="supprimer-les-messages-derreur">Supprimer les messages d'erreur<a class="headerlink" href="#supprimer-les-messages-derreur" title="Permanent link">&para;</a></h2>
+<p>Il peut arriver que vous acceptiez consciemment des erreurs lors de l'exécution d'un ordre.<br />
+En le préfixant d'un point d'exclamation (<code>!</code>), vous pouvez forcer la suppression des messages d'erreur normalement produits par le serveur identifiant un problème sur l'ordre concerné.  </p>
+<p><strong>Un exemple</strong> :</p>
 <div class="highlight"><pre><span></span><code>UNIT berg;         Miners
     MAKE iron
-    !@GIVE tran ALL iron;   The van isn&#39;t always there; we don&#39;t want an error message about this
-UNIT tran;        Transporter
-    ROUTE w PAUSE e PAUSE;   We commute between two regions
-    !@GIVE schm ALL iron;   In the west we hand the iron over to the blacksmiths
+    !@GIVE tran ALL iron;  le transporteur n&#39;est pas là; on veut éviter tout message d&#39;erreur à ce sujet
+UNIT tran;   Transporteur
+    ROUTE w PAUSE e PAUSE; nous faisons la navette entre deux régions
+    !@GIVE schm ALL iron;  à l&#39;ouest on remet le fer aux forgerons
 </code></pre></div>
-<p>Of course, this carries the risk that you will miss errors that you did not expect.</p>
+<p>Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles vous ne vous attendiez pas.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands-sequence/">Séquence des ordres</a></li>

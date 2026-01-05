@@ -129,17 +129,17 @@ Ces compétences permettent de fabriquer des objets, des bâtiments, des bateaux
 Les compétences de production sont les suivantes :
 
 - [alchimie] (fabrication de potions)
-- [extraction minière] (production de fer, de laen ou d'adamantium)
-- [maçonnerie] (construction de bâtiments et chateaux)
-- [sylviculture] (production de bois)
-- [herboristerie] (récolte de plantes)
-- [apprivoisement] (obtention de chevaux)
-- [fabrication d'armures]
-- [construction navale]
-- [extraction de pierres]
-- [construction de routes]
-- [fabrication d'armes]
-- [fabrication de chariots et de catapultes]
+- [apprivoisement] (***« taming »***; obtention de chevaux)
+- [construction navale] (***« shipcraft »***)
+- [construction de routes] (***« roadwork »***)
+- [extraction de pierres] (***« quarrying »***)
+- [extraction minière] (***« mining »***; production de fer, de laen ou d'adamantium)
+- [fabrication d'armes]  (***« weaponsmithing »***)
+- [fabrication d'armures]  (***« armoursmithing »***)
+- [fabrication de chariots et de catapultes] (***« cartmakind »***)
+- [herboristerie] (***« herbalism »***; récolte de plantes)
+- [maçonnerie] (***« herbalism »***; construction de bâtiments et chateaux)
+- [sylviculture] (***« forestry »***; production de bois)
 
 Pour plus d'information, consulter les chapitres :
 
@@ -154,11 +154,11 @@ Plus d'information : [[argent|l'argent]].
 
 ### Dissimulation
 
-[espionnage], [stealth] et [[camouflage|perception]] sont centrés sur la dissimulation.
+[espionnage], [vol] (***« stealth »***; utile au [[camouflage]]) et [perception] sont centrés sur la dissimulation.
 
 ### Compétences de déplacements
 
-[La voile] et [l'équitation] sont des compétences expliquées dans le chapitre sur les [[deplacements]].  
+[La voile] (***« sailing »***) et [l'équitation] (***« riding »***) sont des compétences expliquées dans le chapitre sur les [[deplacements]].  
 
 L'équitation est également abordée dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
 
@@ -170,17 +170,17 @@ La [[magie]] est une compétence aux pouvoirs particulièrement puissants.
 
 Les compétences de maniement des armes sont les suivantes :
 
+- [combat à l'arme d'hast] (***« polearm »***)
+- [combat à mains nues] (***« unarmed »***)
 - [mêlée]
-- [combat à l'arme d'hast]
-- [tir à l'arc]
-- [tir à l'arbalète]
+- [tir à l'arc] (***« bow »***)
+- [tir à l'arbalète] (***« crossbow »***)
 - [tir à la catapulte]
-- [combat à mains nues]
 
 Les autres compétences essentielles au combat sont :
 
 - [endurance]
-- [équitation]
+- [équitation]  (***« riding »***)
 - [tactique]
 
 Toutes ces compétences sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des [[monstres]].
@@ -194,7 +194,7 @@ Poursuivre la lecture : [[liste-des-competences]].
 [alchimie]: ./skills-list.md#alchimie
 [herboristerie]: ./skills-list.md#herboristerie
 [espionnage]: ./skills-list.md#espionnage
-[stealth]: ./camouflage.md#vols-de-silver
+[vol]: ./skills-list.md#vol
 [extraction minière]: ./skills-list.md#extraction-miniere
 [maçonnerie]: ./skills-list.md#maconnerie
 [sylviculture]: ./skills-list.md#sylviculture

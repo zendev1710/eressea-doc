@@ -32,15 +32,15 @@ On peut l'utiliser de deux façons :
   Bien sûr, au maximum autant de chevaux que présents dans la région.
 - Avec [[cmd-grow|`GROW HORSES`]] il est possible de reproduire des chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans un [haras].
 
-## [[camouflage]]
+## Vol
 
 *Stealth (EN), Tarnung (DE)*.
 
-Une unité camouflée est visible uniquement pour les unités ayant un niveau de compétence en [perception] supérieur ou égal.  
+Une unité [[camouflage|camouflée]] est visible uniquement pour les unités ayant un niveau de compétence en [perception] supérieur ou égal.  
 
 Elle n'est pas visible des autres unités.  
 
-Une unité camouflée avec succès (dissimulée) peut [[camouflage|voler]] ou déjouer la [[cmd-guard|vigilance]] d'autres unités.
+Une unité camouflée avec succès (dissimulée) peut [voler] ou déjouer la [[cmd-guard|vigilance]] d'autres unités.
 
 ## Combat à l'arme d'hast
 
@@ -270,5 +270,6 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 [haras]: ./buildings-others.md#haras
 [ressources minières]: ./resources.md#ressources-minieres
 [rassemblement]: ./war.md#aux-armes-eresseens
+[voler]: ./camouflage.md#vols-de-silver
 
 [perception]: #perception

@@ -173,6 +173,6 @@ Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles v
 - [[orders-list]]
 - [[cmd-default]]
 
-Poursuivre la lecture: [[sequence-des-ordres]].
+Poursuivre la lecture : [[sequence-des-ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->

@@ -27,197 +27,455 @@ Le monde et la magie d'Eressea connaissent différentes races qui peuvent se lie
 
 ### Aigle
 
-L'aigle est un excellent éclaireur, il peut même traverser de courts détroits en volant, mais il est aussi très visible dans le ciel, ce qui en fait une cible facile lorsqu'il se repose.  
+L'aigle est un excellent éclaireur, il peut même traverser de courts détroits en volant.  
+Mais il est aussi très visible dans le ciel, ce qui en fait une cible facile lorsqu'il se repose.  
 
-Caractérisitques :
+Caractéristiques d'un Aigle.  
 
-- 15 points de vie
-- Résistance à la magie : 0
-- Attaque : 6
-- Défense : 2
-- 2 attaques : une attaque magique, une attaque sans arme (2d3)
-- Magie : +0
-- Espionnage : +0
-- Perception : +2
-- Endurance : +0
-- Combat à mains nues : +0
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     15 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      2 |
+| Armure                |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attaques : une attaque magique, une attaque sans arme (2d3).
 
 ### Démon
 
 Les [Démons] sont cruels et imprévisibles.  
 Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.  
 
-50 Trefferpunkte
-Magieresistenz 15
-Angriff: -2,
-Verteidigung: -2
-Rüstung: 2.
-Kann Waffen benutzen. 3
-Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5)
-ein magischer Angriff.
-Alchemie +2
-Armbrustschießen +0
-Bergbau +0,
-Bogenschießen +0,
-Burgenbau +0,
-Handeln -3,
-Holzfällen +1,
-Katapultbedienung +0,
-Kräuterkunde -3,
-Magie +1,
-Pferdedressur -3,
-Reiten -1,
-Rüstungsbau +0,
-Schiffbau -1,
-Hiebwaffen +1,
-Segeln -1,
-Stangenwaffen +1,
-Spionage +0,
-Steinbau +0,
-Straßenbau +0,
-Taktik -1,
-Tarnung +1,
-Unterhaltung -3,
-Waffenbau +1,
-Wagenbau -2,
-Wahrnehmung +1,
-Steuereintreiben +1
-Ausdauer +0
+Caractéristiques d'un Démon : voir [Modificateurs de compétences].
 
 ### Dauphin
 
-Rien de spécial, il nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.  
+Un Dauphin nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.  
 
-24 points de vie
-résistance à la magie 0
-attaque : 5,
-défense : 5.
+Caractéristiques d'un Dauphin.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     24 |
+| Résistance à la magie |      0 |
+| Attaque               |      5 |
+| Défense               |      5 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
 2 attaques : une attaque magique, une attaque sans arme (1d6).
-Magie +0,
-Espionnage +0,
-Tactique +0,
-Stealth +0,
-Perception +1,
-Endurance +0
-Combat sans arme +0
 
 ### Licorne
 
 Cette créature mythique vit de préférence dans les forêts les plus profondes et sait parfaitement se dissimuler aux yeux des autres.  
 Il est rare qu'une licorne se joigne à un mage, mais lorsque c'est le cas, elle devient un allié puissant qui dispose également de sa propre magie.  
 
-40 points de vie
-résistance à la magie 90,
-attaque : 6,
-défense : 4.
+Caractéristiques d'une Licorne.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     90 |
+| Attaque               |      6 |
+| Défense               |      4 |
+| Magie                 |     +2 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +4 |
+| Perception            |     +5 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
 3 attaques : une attaque magique, une attaque non armée (3d12), une attaque non armée (2d4).
-Magie +2,
-Espionnage +0,
-Tactique +0,
-Stealth +4,
-Perception +5,
-Endurance +0
-Combat sans arme +0
 
 ### Hibou
 
-Rien de spécial, il vole.
+Un hibou vole.  
 
-9 points de vie, résistance à la magie 0, attaque : 2, défense : 4. 2 attaques : une attaque magique, une attaque sans arme (1d4). Magie +0, Espionnage +1, Stealth +1, Perception +5, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Hibou.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |      9 |
+| Résistance à la magie |      0 |
+| Attaque               |      2 |
+| Défense               |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +5 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attaques : une attaque magique, une attaque sans arme (1d4).
 
 ### Fée
 
-Elle vole et dispose de sa propre magie
+Une Fée vole et dispose de sa propre magie.  
+Elle peut utiliser des armes.  
 
-6 points de vie, résistance à la magie 80, attaque : 6, défense : 14. Peut utiliser des armes. 5 attaques : une attaque magique, une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3). Magie +1, Riding -1, Melee -1, Polearm -1, Espionnage +2, Stealth +5, Perception +2, Endurance +0 et Combat sans arme +0
+Caractéristiques d'une Fée.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |      6 |
+| Résistance à la magie |      6 |
+| Attaque               |      6 |
+| Défense               |     14 |
+| Magie                 |     +1 |
+| Riding                |     -1 |
+| Mêlée                 |     -1 |
+| Polearm               |     -1 |
+| Espionnage            |     +2 |
+| Stealth               |     +5 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+5 attaques : une attaque magique, une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3).
 
 ### Fantôme
 
-Il vole et dispose de sa propre magie
+Le Fantôme vole et dispose de sa propre magie.  
+Peut utiliser des armes.  
 
-30 points de vie, résistance à la magie 100, attaque : 5, défense : 8, armure : 5. Peut utiliser des armes. 6 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5), une attaque avec arme ou non armée (2d6), une attaque magique, une attaque magique. Magie +1, Équitation -2, Melee +0, Polearm +0, Espionnage +0, Stealth +0, Perception +0, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Fantôme.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     30 |
+| Résistance à la magie |    100 |
+| Attaque               |      5 |
+| Défense               |      8 |
+| Armure                |      5 |
+| Magie                 |     +1 |
+| Équitation            |     -2 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +0 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+6 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5), une attaque avec arme ou non armée (2d6), une attaque magique, une attaque magique.
 
 ### Goblin
 
-Les [Gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.
+Les [Gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.  
 
-16 Trefferpunkte, Magieresistenz -5, Angriff: -2, Verteidigung: 0. Kann Waffen benutzen. 2 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5). Alchemie +1, Armbrustschießen +0, Bergbau +1, Bogenschießen +0, Burgenbau +1, Handeln -1, Holzfällen +0, Katapultbedienung +1, Kräuterkunde +0, Magie -1, Pferdedressur +0, Reiten +0, Rüstungsbau +0, Schiffbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +0, Steinbau +0, Straßenbau -2, Taktik -2, Tarnung +1, Unterhaltung -1, Waffenbau +0, Wagenbau -1, Wahrnehmung +0, Steuereintreiben +0 und Ausdauer +0
+Caractéristiques d'un Gobelin : voir [Modificateurs de compétences].
 
 ### Chat de l'Enfer
 
-Il dispose de sa propre magie
+Un Chat de l'Enfer dispose de sa propre magie.  
+Il est difficile à blesser par des armes blanches, des arcs et des arbalètes.  
 
-40 points de vie, résistance à la magie 50, attaque : 6, défense : 4. Est difficile à blesser par des armes blanches, des arcs et des arbalètes. 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6). Magie +0, Espionnage +0, Tactique +0, Stealth +0, Perception +1, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Chat de l'Enfer.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     50 |
+| Attaque               |      6 |
+| Défense               |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6).
 
 ### Pieuvre
 
-Rien de spécial, il nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.
+Une Pieuvre nage et ne peut aller à l'intérieur des terres ni entrer dans un bâtiment.  
 
-300 points de vie, résistance à la magie 0, attaque : 7, défense : 7. 7 attaques : une attaque magique, une attaque non armée (2d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10). Magie +0, Espionnage +0, Tactique +0, Perception +1, Endurance +0 et Combat sans arme +0
+Caractéristiques d'une Pieuvre.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    300 |
+| Résistance à la magie |      0 |
+| Attaque               |      7 |
+| Défense               |      7 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+7 attaques : une attaque magique, une attaque non armée (2d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10).
 
 ### Lynx
 
-Le lynx est connu pour son habileté à dissimuler et à observer. Avec un peu de patience, il peut être formé pour devenir un excellent éclaireur. Au combat, il se défend avec ses griffes acérées et sait utiliser son agilité.
+Le lynx est connu pour son habileté à dissimuler et à observer.  
+Avec un peu de patience, il peut être formé pour devenir un excellent éclaireur.  
+Au combat, il se défend avec ses griffes acérées et sait utiliser son agilité.  
 
-20 points de vie, résistance à la magie 0, attaque : 4, défense : 5. 2 attaques : une attaque magique, une attaque sans arme (2d3). Herboristerie +1, Magie +0, Taming +1, Espionnage +3, Stealth +3, Perception +4, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Lynx.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     20 |
+| Résistance à la magie |      0 |
+| Attaque               |      4 |
+| Défense               |      5 |
+| Herboristerie         |     +1 |
+| Magie                 |     +0 |
+| Apprivoisement        |     +1 |
+| Espionnage            |     +3 |
+| Stealth               |     +3 |
+| Perception            |     +4 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attaques : une attaque magique, une attaque sans arme (2d3).
 
 ### Nymphe
 
-Elle dispose de sa propre magie
+La Nymphe dispose de sa propre magie.  
 
-15 Trefferpunkte, Magieresistenz 90, Angriff: 3, Verteidigung: 1. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d4), ein magischer Angriff. Alchemie +0, Armbrustschießen +0, Bogenschießen +2, Handeln -2, Kräuterkunde +4, Magie +1, Pferdedressur +5, Reiten +5, Rüstungsbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +2, Taktik -2, Tarnung +3, Unterhaltung +10, Waffenbau -2, Wagenbau -2, Wahrnehmung +2, Steuereintreiben -2, Ausdauer -1 und Waffenloser Kampf +0
+Caractéristiques d'une Nymphe.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |   15   |
+| Résistance à la magie |  90   |
+| Attaque               | 3      |
+| Défense               |  1     |
+| Armure                |       |
+| Magie                 |      |
+| Équitation            |      |
+| Mêlée                 |      |
+| Polearm               |        |
+| Espionnage            |        |
+| Stealth               |        |
+| Perception            |        |
+| Endurance             |        |
+| Combat à mains nues   |        |
+
+<!-- TODO -->
+<!--
+Kann Waffen benutzen.
+
+3 attaques : une attaque magique, ein Angriff mit der Waffe oder unbewaffnet (1d4), une attaque magique.
+
+Alchemie +0, Armbrustschießen +0, Bogenschießen +2, Handeln -2, Kräuterkunde +4, Magie +1, Pferdedressur +5, Reiten +5, Rüstungsbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +2, Taktik -2, Tarnung +3, Unterhaltung +10, Waffenbau -2, Wagenbau -2, Wahrnehmung +2, Steuereintreiben -2, Ausdauer -1 und Waffenloser Kampf +0
+-->
 
 ### Rat
 
-Rien de spécial.
+Rien de spécial.  
 
-10 points de vie, résistance à la magie 0, attaque : 1, défense : 1. 3 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4). Magie +0, Espionnage +5, Stealth +4, Perception +2, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Rat.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |      0 |
+| Attaque               |      1 |
+| Défense               |      1 |
+| Magie                 |     +0 |
+| Espionnage            |     +5 |
+| Stealth               |     +4 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+3 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4).
 
 ### Tortue géante
 
-Rien de spécial, il nage et peut aller à l'intérieur des terres.
+Une Tortue Géante nage et peut aller à l'intérieur des terres.  
 
-900 points de vie, résistance à la magie 0, attaque : 10, défense : 5, armure : 7. 2 attaques : une attaque magique, une attaque sans arme (2d50). Magie +0, Espionnage +0, Tactique +0, Perception +1, Endurance +0 et Combat sans arme +0
+Caractéristiques d'une Tortue Géante.  
 
-### Dragon chanteur
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    900 |
+| Résistance à la magie |      0 |
+| Attaque               |     10 |
+| Défense               |      5 |
+| Armure                |      7 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
 
-Les dragons chanteurs sont de la taille d'un tigre adulte. Leur couleur varie du rouge chatoyant au noir profond en passant par le vert foncé. Tous les dragons connus de cette espèce font preuve d'une grande intelligence et d'une grande capacité magique. Comme leurs grands cousins, ils possèdent un souffle de feu. Ils aiment les chants et les repas copieux. De temps en temps, ils forment une alliance magique étroite avec un mage. Lorsque cela se produit, le magicien dispose d'un familier extrêmement loyal et précieux.
+2 attaques : une attaque magique, une attaque sans arme (2d50).
 
-40 points de vie, résistance à la magie 99, attaque : 3, défense : 1, armure : 1. 5 attaques : une attaque magique, une attaque non armée (2d4), une attaque non armée (2d4), une attaque non armée (2d4), une attaque magique. Magie +1, Espionnage +0, Stealth +0, Perception +0, Endurance +0 et Combat sans arme +0
+### Dragon Chanteur
+
+Les dragons chanteurs sont de la taille d'un tigre adulte.  
+Leur couleur varie du rouge chatoyant au noir profond en passant par le vert foncé.  
+Tous les dragons connus de cette espèce font preuve d'une grande intelligence et d'une grande capacité magique.  
+Comme leurs grands cousins, ils possèdent un souffle de feu.  
+Ils aiment les chants et les repas copieux.  
+De temps en temps, ils forment une alliance magique étroite avec un mage.  
+Lorsque cela se produit, le mage dispose d'un familier extrêmement loyal et précieux.  
+
+Caractéristiques d'un Dragon Chanteur.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     99 |
+| Attaque               |      3 |
+| Défense               |      1 |
+| Armure                |      1 |
+| Magie                 |     +1 |
+| Espionnage            |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +0 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+5 attaques : une attaque magique, une attaque non armée (2d4), une attaque non armée (2d4), une attaque non armée (2d4), une attaque magique.
 
 ### Diablotin
 
-Il dispose de sa propre magie
+Le Diablotin dispose de sa propre magie.  
+Il peut utiliser des armes.  
 
-10 points de vie, résistance à la magie 50, attaque : 5, défense : 4, armure : 1. Peut utiliser des armes. 5 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4), une attaque avec l'arme ou non armée (1d4), une attaque magique. Magie +1, Riding -1, Melee +0, Polearn +0, Espionnage +1, Stealth +1, Perception +1, Taxation +1, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Diablotin.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |     50 |
+| Attaque               |      5 |
+| Défense               |      4 |
+| Armure                |      1 |
+| Magie                 |     +1 |
+| Équitation            |     -1 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +1 |
+| Taxation              |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+5 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4), une attaque avec l'arme ou non armée (1d4), une attaque magique.
 
 ### Tigre
 
-Rien de spécial.
+Rien de spécial.  
 
-30 points de vie, résistance à la magie 0, attaque : 6, défense : 3. 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6). Magie +0, Espionnage +0, Tactique +0, Stealth +0, Perception +1, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Tigre.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     30 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      3 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6).
 
 ### Dreamcat
 
-Il dispose de sa propre magie
+Le Dreamcat dispose de sa propre magie.  
 
-10 points de vie, résistance à la magie 50, attaque : 5, défense : 6. 3 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5). Magie +1, Melee +0, Polearm +0, espionnage +1, Stealth +1, perception +1, Taxation +1, endurance +0 et combat sans arme +0
+Caractéristiques d'un Dreamcat.  
 
-### Ver des tunnels
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |     50 |
+| Attaque               |      5 |
+| Défense               |      6 |
+| Magie                 |     +1 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +1 |
+| Taxation              |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
 
-Cette créature géante, originaire des profondeurs d'Eressea, est parfaitement adaptée à la vie souterraine. Aveugle, sourde et pas très intelligente, elle est capable de déplacer des montagnes entières ou de défricher des forêts grâce à sa force colossale.
+3 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5).
 
-300 points de vie, résistance à la magie 80, attaque : 6, défense : 1, armure : 6. 3 attaques : une attaque magique, une attaque sans arme (3d20), une attaque infligeant des dégâts aux bâtiments (1d10). Mining +10, Forestry +10, Magie +0, Quarrying +10, Endurance +2 et Combat sans arme +0
+### Ver des Tunnels
+
+Cette créature géante, originaire des profondeurs d'Eressea, est parfaitement adaptée à la vie souterraine.  
+Aveugle, sourde et pas très intelligente, elle est capable de déplacer des montagnes entières ou de défricher des forêts grâce à sa force colossale.  
+
+Caractéristiques d'un Ver des Tunnels.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    300 |
+| Résistance à la magie |     80 |
+| Attaque               |      6 |
+| Défense               |      1 |
+| Armure                |      6 |
+| Mining                |    +10 |
+| Forestry              |    +10 |
+| Quarrying             |    +10 |
+| Magie                 |     +0 |
+| Endurance             |     +2 |
+| Combat à mains nues   |     +0 |
+
+3 attaques : une attaque magique, une attaque sans arme (3d20), une attaque infligeant des dégâts aux bâtiments (1d10).
 
 ### Loup
 
-Rien de spécial.
+Rien de spécial.  
 
-25 points de vie, résistance à la magie 0, attaque : 6, défense : 3. 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d4), une attaque non armée (1d4). Magie +0, Espionnage +0, Tactique +0, Stealth +0, Perception +2, Endurance +0 et Combat sans arme +0
+Caractéristiques d'un Loup.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     25 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      5 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d4), une attaque non armée (1d4).
 
 ## Modificateurs de compétences
 
-Les familiers sont très différents les uns des autres. Tous les familiers ne peuvent pas apprendre toutes les compétences et chaque race se distingue par des caractéristiques spécifiques. Certains sont eux-mêmes doués de magie et disposent de leur propre aura. D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent voler et ainsi également traverser les océans. Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes races de familiers. Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.
+Les familiers sont très différents les uns des autres.  
+Tous les familiers ne peuvent pas apprendre toutes les compétences et chaque race se distingue par des caractéristiques spécifiques.  
+Certains sont eux-mêmes doués de magie et disposent de leur propre aura.  
+D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent voler et ainsi également traverser les océans.  
+Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes races de familiers.  
+Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
 
 | Eigenschaft                 | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Höllenkatze | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
 |-----------------------------|-------|-------|---------|---------|-------|-----|---------|--------|-------------|-------|------|--------|-----|---------------|-----------------|-----------|-------|----------|-----------------|------|
@@ -303,3 +561,4 @@ Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'i
 
 [Démons]: ./races.md#demons
 [Gobelins]: ./races.md#gobelins
+[Modificateurs de compétences]: ./skills-modifiers.fr.md#modificateurs-de-competences

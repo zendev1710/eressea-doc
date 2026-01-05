@@ -44,7 +44,7 @@ To simplify this, there is an [[items-pool]], the function of which is explained
 - [[buildings]]
 - [[faction-pool]]
 
-Poursuivre la lecture: [[resources]].
+Poursuivre la lecture : [[resources]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
 

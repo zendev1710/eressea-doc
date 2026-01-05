@@ -16,6 +16,7 @@ Darllenydd
 Deathhawk
 Deveron
 Drachensgrab
+dracoids
 Draig
 Draiochean
 Dunfanaghy
@@ -45,6 +46,7 @@ Gwyrrd
 Hershoff
 Igjarjuk
 Igjarjuks
+igjr
 Illaun
 Istine
 laen
@@ -87,6 +89,7 @@ Weilersweide
 Whyren
 Wilken
 Woda'narod
+wyrms
 Wythar
 Xolgrim
 Xontormia

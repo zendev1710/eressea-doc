@@ -4,88 +4,128 @@ alias: monstres
 ---
 # Monstres
 
-La Faction des Monstres est actuellement la seule faction de PNJ à Eressea.
-Elle avait l'ID 0, mais a l'ID (ii) depuis le tour 572. Pourquoi (ii) ? Si l'on convertit ii de la base 36 au système décimal, on obtient 666.
+La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.  
 
-Il existe de nombreuses races de monstres avec des caractéristiques et des capacités différentes.
-Les plus répandues sont les différents [types de Morts-Vivants] ainsi que les [dragons] et leur cortège.
-Certains types de monstres sont plutôt rares, voire uniques. D'autres, tels que les [Braineaters], ne se trouvent (presque) que dans certaines régions.
+Elle avait l'ID 0, mais a l'ID (ii) depuis le tour 572.
+Pourquoi (ii) ? Si l'on convertit ii de la base 36 au système décimal, on obtient 666.  
 
-Les joueurs peuvent également, dans certaines circonstances, posséder des unités de monstres (par exemple des squelettes).
+Il existe de nombreuses races de monstres avec des caractéristiques et des capacités différentes.  
+Les plus répandues sont les différents [types de Morts-Vivants] ainsi que les [dragons] et leur cortège.  
+Certains types de monstres sont plutôt rares, voire uniques.
+D'autres, tels que les [Braineaters], ne se trouvent (presque) uniquement dans certaines régions.  
 
-## Morts-vivants <!-- TODO: translate from English -->
+Dans certaines circonstances, les joueurs peuvent également posséder des unités de monstres (par exemple des squelettes).
 
-Undead make up the largest part of the monsters.
-They spawn where peasants die (from [famine] and disease, or as victims of [dragons]) or where warriors fall in [[war|battle]].
-Undead can learn various [[skills]], making them more dangerous.
-They can also mutate, which makes them significantly stronger.
-Undead (like all monsters) can attack faction units.
-In combat, they possess various special attacks and immunities.
-They can attack with their bare hands (and are still considered [[armed]]), but they can also carry weapons.
+## Morts-vivants
 
-There are seven types of undead:
+Les Morts-Vivants constituent la plus grande partie des monstres.  
+Ils apparaissent là où les paysans meurent (de [famine] et de maladie, ou victimes de [dragons]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
+Les Morts-Vivants peuvent acquérir diverses [[competences]], ce qui les rend plus dangereux.  
+Ils peuvent également muter, ce qui les rend nettement plus forts.  
+Les Morts-Vivants (comme tous les monstres) peuvent attaquer les unités de faction.  
+Au combat, ils possèdent diverses attaques et immunités spéciales.  
+Ils peuvent attaquer à mains nues (et sont toujours considérés comme [[arme-et-pret-au-combat|armés]]), mais ils peuvent également porter des armes.  
 
-- **Undead** -- obsolete, only exist in the old worlds, if at all
-- **Skeletons**, mutate into **Skeleton Lords**
-- **Ghouls**, mutate into **Ghosts**
-- **Zombies**, mutate into **Juju Zombies**
+Il existe sept types de Morts-Vivants :
 
-Some [[magic|magicians]] are able to control the undead.
+- ***Les Undead*** - obsolètes, n'existent que dans les anciens mondes, ou peut-être plus du tout
+- **Les Squelettes**, qui peuvent muter en **Seigneurs Squelettes**
+- **Les Goules**, qui peuvent muter en **Fantômes**
+- **Les Zombies**, qui peuvent muter en **Juju Zombies**
+
+Certains [[magie|magiciens]] sont capables de contrôler les Morts-Vivants.  
 
 ## Dragons
 
-Dragons are among the strongest monster units. They hatch from eggs as young dragons, later develop into dragons and further into Wyrms. There are rumors that dragons can also reach Eressea from the Sphere of Chaos.
+Les dragons font partie des unités de monstres les plus puissantes.  
+Ils éclosent d'œufs en tant que jeunes dragons, se transforment plus tard en dragons et plus tard en Wyrms.  
+Des rumeurs courent selon lesquelles les dragons peuvent également atteindre Eressea depuis la Sphère du Chaos.  
 
-Dragons are particularly unpleasant because they drive away and eat farmers. Often the farmers killed in this way later return as [types de Morts-Vivantss].
+Les dragons sont particulièrement désagréables car ils chassent et mangent les agriculteurs.  
+Souvent, les agriculteurs ainsi tués reviennent plus tard sous forme de [Morts-Vivants].  
 
-Dragons can learn different skills and thus become more dangerous. They can (like all monsters) attack player units. In combat, they have dragon breath attacks, but also attack with teeth and claws. They are difficult to wound and can therefore take a lot of hits.
+Les dragons peuvent acquérir différentes compétences et devenir ainsi encore plus dangereux.  
+Ils peuvent (comme tous les monstres) attaquer les unités du joueur.  
+Au combat, ils ont des attaques de souffle de dragon, mais aussi des attaques avec dents et griffes.  
+Ils peuvent encaisser de nombreux coups et sont donc difficiles à blesser.  
 
-There are different types of dragons:
+Il existe différents types de dragons :
 
-- **Young dragons** develop into:
-- **Dragons** develop into:
-- **Wyrms**
-- A class of its own is (or was) **[Igjarjuk] (igjr)** , the **Great Wyrm** , who after his death as
-  **Untoter Wyrm** in den Kampf zwischen [[pentagram-and-tirawon]] eingriff (und dabei ein zweites Mal starb).
-  According to rumors, Igjarjuk was last seen in the 13th world -perhaps he has seven lives?
-- The dragons are distant relatives **Sea snakes** that make the oceans unsafe and ambush passing ships. However, boats should let them go in peace
-- For the sake of completeness, these are: **Singing kite** mentioned. However, these miniature dragons have little in common with their larger counterparts and can hardly be counted as monsters
+- Les **Jeunes Dragons** qui évoluent en dragons
+- Les **Dragons**, qui évoluent en Wyrms
+- Les **Wyrms**
+- Une classe à part de dragons est (ou était) l'**[Igjarjuk] (igjr)**
+- Les dragons sont des parents éloignés des **Serpents de mer**, qui rendent les océans périlleux et tendent des embuscades aux bateaux de passage.
+  Cependant, les bateaux devraient les laisser partir en toute tranquillité.
+- Par souci d’exhaustivité, il faut également mentionner le **Cerf-volant chantant**.
+  Cependant, ces dragons miniatures ont peu de points communs avec leurs homologues plus grands et peuvent difficilement être considérés comme des monstres
 
-It is said that some magicians can influence dragons. However, it is doubtful that a fully grown dragon will really submit to the will of a magician, no matter how powerful.
+On dit que certains mages peuvent influencer les dragons.  
+Il parait cependant peu probable qu’un dragon adulte se soumette réellement à la volonté d’un mage, aussi puissant soit-il.  
 
-Over time, dragons and wyrms begin to gather a retinue around themselves, called dracoids. Low, scaled, humanoid creatures who can fight with swords, spears or bows.
+Au fil du temps, les dragons et les wyrms commencent à rassembler autour d'eux une suite, appelée dracoïdes.  
+Ce sont des créatures humanoïdes basses, à écailles, capables de se battre avec des épées, des javelots ou des arcs.  
 
 ## Igjarjuk
 
-Dragon ds Glaces.
+Igjarjuk est un Dragon des Glaces, aussi appelé le **Grand Wyrm**.  
+Après sa mort, celui-ci a évolué en Wyrm Mort-Vivant, monstre qui est intervenu dans la bataille entre [[pentagram-and-tirawon]], pendant laquelle il est mort une seconde fois.  
+Selon la rumeur, Igjarjuk a été vu pour la dernière fois dans le Treizième monde.
+Peut-être a-t-il sept vies ?
 
-## Démons de l'Ombre et maîtres de l'Ombre
+## Démons et Maîtres de l'Ombre
 
-Shadow Demons and Shadow Masters can be summoned by [Draig] Mages. They have magic resistance. Successful attacks cause panic in enemies, which reduces their attack or defense value by 1. With Shadow Master, their victims can even get the equivalent of a week's worth of learning one of their talents per hit.
+Les Démons de l'Ombre et les Maîtres de l'Ombre peuvent être invoqués par les mages [Draig].  
+Ils possèdent une résistance à la magie.  
+Les attaques réussies provoquent la **panique** chez les ennemis, ce qui **réduit** la valeur d'attaque ou de défense de ces derniers **de 1**.  
+<!-- TODO: clarify: bonus for victims !? -->
+Les victimes d'un Shadow Master peuvent même obtenir l'équivalent d'une semaine d'apprentissage d'une de leurs compétences par coup.  
 
-Shadow Demon: 50 hit points, Attack: 8, Defense: 11, Armor: 3. 3 attacks: one magical attack, one unarmed attack (2d3), one magical attack.
+Caractéristiques du Démon de l'Ombre.
 
-Shadow Master: 150 hit points, Attack: 11, Defense: 13, Armor: 4. 4 attacks: one magical attack, one unarmed attack (2d4), one magical attack, one magical attack.
+| Propriété     | Valeur |
+|---------------|-------:|
+| Points de Vie |     50 |
+| Attaque       |      8 |
+| Défense       |     11 |
+| Armure        |      3 |
+
+En combat, un Démon de l'Ombre déclenche **3** attaques : une attaque magique, une attaque à mains nues (2d3), une attaque magique.
+
+Caractéristiques du Maître de l'Ombre.
+
+| Propriété     | Valeur |
+|---------------|-------:|
+| Points de Vie |    150 |
+| Attaque       |     11 |
+| Défense       |     13 |
+| Armure        |      4 |
+
+En combat, un Maître de l'Ombre déclenche **4** attaques : une attaque magique, une attaque à mains nues (2d4), deux autres attaques magiques.
 
 ## Mangeurs de cerveau
 
-Braineaters populate the [Astral Space]. They attack hidden from the mists and their attacks can make units forget some of the talents they have learned. In the normal world they are only encountered when they have been thrown from their spheres by powerful spells.
-
-## Voir aussi
+Les mangeurs de cerveau peuplent l'[Astral].  
+Ils attaquent à l'abri des brumes et leurs attaques peuvent faire oublier aux unités certaines des compétences qu'elles ont acquises.  
+Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de leur sphère par de puissants sorts.  
 
 ## Ents
 
-Ents, powerful tree creatures, are summoned by Gwyrrd druids or sometimes arise when their spells go wrong. Sometimes it's good to just avoid them because they often calm down after a while.
+Les Ents, de puissantes créatures à l'apparence d'arbres, sont invoqués par les druides [Gwyrrd], ou surgissent parfois lorsque leurs sorts tournent mal.  
+Il peut être parfois bon de les éviter, car généralement ils s'apaisent au bout d'un certain temps.  
+
+## Voir aussi
 
 - [[familiers]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-[types de Morts-Vivants]: ./monsters.md/#morts-vivants
 [dragons]: #dragons
+[Morts-Vivants]: #morts-vivants
 [Braineaters]: #mangeurs-de-cerveau
 [Igjarjuk]: #igjarjuk
 
 [famine]: ./silver.md#famine
 [Draig]: ./magic-schools.md#draig
-[Astral Space]: ./magic.md#lastral
+[Gwyrrd]: ./magic-schools.md#gwyrrd
+[Astral]: ./magic.md#lastral

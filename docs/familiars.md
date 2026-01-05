@@ -27,13 +27,32 @@ The world and magic of Eressea knows various races that can join a magician as f
 
 ### Eagle
 
-The eagle is an excellent scout, flying across even short straits, but it is also very exposed high up in the sky, making it an easy target when resting.
+The eagle is an excellent scout, flying across even short straits.  
+But it is also very exposed high up in the sky, making it an easy target when resting.  
 
-15 hit points, magic resistance 0, attack: 6, defense: 2. 2 attacks: one magical attack, one unarmed attack (2d3). Magic +0, Espionage +0, Perception +2, Stamina +0 and Unarmed Combat +0
+Features of an Eagle.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     15 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      2 |
+| Armure                |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attacks: one magical attack, one unarmed attack (2d3).
 
 ### Demon
 
-[Demons] are cruel and unpredictable. They eat the farmers in the area and always surprise people with new abilities or their loss.
+[Demons] are cruel and unpredictable.  
+They eat the farmers in the area and always surprise people with new abilities or their loss.  
+
+Features of a Demon.  
 
 50 hit points, magic resistance 15, attack: -2, defense: -2, armor: 2.
 Can use weapons. 3 attacks: a magical attack, an attack with weapon or unarmed (1d5), a magical attack.
@@ -41,126 +60,413 @@ Alchemy +2, Crossbow Shooting +0, Mining +0, Archery +0, Castle Building +0, Tra
 
 ### Dolphin
 
-No information available about this breed.
+A Dolphin swims and cannot go inland or enter a building.  
 
-24 hit points, magic resistance 0, attack: 5, defense: 5. 2 attacks: one magical attack, one unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
+Features of a Dolphin.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     24 |
+| Résistance à la magie |      0 |
+| Attaque               |      5 |
+| Défense               |      5 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attacks: one magical attack, one unarmed attack (1d6).
 
 ### Unicorn
 
-This mystical creature prefers to live in the deepest forests and is excellent at hiding from others' eyes. It is rare for a unicorn to join a magician, but when it does, it is a powerful ally who also has magic of its own.
+This mystical creature prefers to live in the deepest forests and is excellent at hiding from others' eyes.  
+It is rare for a unicorn to join a magician, but when it does, it is a powerful ally who also has magic of its own.  
 
-40 hit points, magic resistance 90, attack: 6, defense: 4. 3 attacks: a magical attack, an unarmed attack (3d12), an unarmed attack (2d4). Magic +2, Espionage +0, Tactics +0, Stealth +4, Perception +5, Stamina +0 and Unarmed Combat +0
+Features of an Unicorn.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     90 |
+| Attaque               |      6 |
+| Défense               |      4 |
+| Magie                 |     +2 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +4 |
+| Perception            |     +5 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+3 attacks: a magical attack, an unarmed attack (3d12), an unarmed attack (2d4).
 
 ### Owl
 
-No information available about this breed.
+An Owl flies.  
 
-9 hit points, magic resistance 0, attack: 2, defense: 4. 2 attacks: one magical attack, one unarmed attack (1d4). Magic +0, Espionage +1, Stealth +1, Perception +5, Stamina +0 and Unarmed Combat +0
+Features of an Owl.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |      9 |
+| Résistance à la magie |      0 |
+| Attaque               |      2 |
+| Défense               |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +5 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attacks: one magical attack, one unarmed attack (1d4).
 
 ### Fairy
 
-No information available about this breed.
+A Fairy flies and has her own magic.  
+Can use weapons.  
 
-6 hit points, magic resistance 80, attack: 6, defense: 14. Can use weapons. 5 attacks: a magical attack, an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3). Magic +1, Ride -1, Slashing Weapons -1, Polearms -1, Espionage +2, Stealth +5, Perception +2, Stamina +0 and Unarmed Combat +0
+Features of a Fairy.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |      6 |
+| Résistance à la magie |      6 |
+| Attaque               |      6 |
+| Défense               |     14 |
+| Magie                 |     +1 |
+| Riding                |     -1 |
+| Mêlée                 |     -1 |
+| Polearm               |     -1 |
+| Espionnage            |     +2 |
+| Stealth               |     +5 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+5 attacks: a magical attack, an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3), an unarmed attack (1d3).
 
 ### Ghost
 
-No information available about this breed.
+A Hellcat has its own magic.  
+Can use weapons.  
 
-30 hit points, magic resistance 80, attack: 5, defense: 8, armor: 5. Can use weapons. 6 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5), an attack with the weapon or unarmed (2d6), a magical attack, a magical attack. Magic +1, Ride -2, Slashing Weapons +0, Polearms +0, Espionage +0, Stealth +0, Perception +0, Stamina +0 and Unarmed Combat +0
+Features of a Ghost.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     30 |
+| Résistance à la magie |    100 |
+| Attaque               |      5 |
+| Défense               |      8 |
+| Armure                |      5 |
+| Magie                 |     +1 |
+| Équitation            |     -2 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +0 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+6 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5), an attack with the weapon or unarmed (2d6), a magical attack, a magical attack.
 
 ### Goblin
 
-[Goblins] are cowardly and devious, preferring to hide rather than take action.
+[Goblins] are cowardly and devious, preferring to hide rather than take action.  
+
+Features of a Goblin.
 
 16 hit points, magic resistance -5, attack: -2, defense: 0.
-Can use weapons. 2 attacks: a magical attack, a weapon attack or an unarmed attack (1d5).
+Can use weapons.
+
+2 attacks: a magical attack, a weapon attack or an unarmed attack (1d5).
+
 Alchemy +1, Crossbow Shooting +0, Mining +1, Archery +0, Castle Building +1, Trading -1, Woodcutting +0, Catapult Operation +1, Herbalism +0, Magic -1, Horse Training +0, Riding +0, Armor Building +0, Shipbuilding -2, Slashing Weapons +0, Sailing -2, Polearms +0, Espionage +0, Stone Building +0, Road Building -2, Tactics -2, Camouflage +1, Entertainment -1, Weapon Construction +0, Wagon Construction -1, Perception +0, Tax Collection +0 and Stamina +0
 
 ### Hellcat
 
-No information available about this breed.
+A Hellcat has its own magic.  
+It is difficult to harm with bladed weapons, bows, and crossbows.  
 
-40 hit points, magic resistance 50, attack: 6, defense: 4. Is difficult to wound with piercing weapons, bows and crossbows. 4 attacks: a magical attack, an unarmed attack (2d6), an unarmed attack (1d6), an unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
+Features of a Hellcat.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     50 |
+| Attaque               |      6 |
+| Défense               |      4 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attacks: a magical attack, an unarmed attack (2d6), an unarmed attack (1d6), an unarmed attack (1d6).
 
 ### Octopus
 
-No information available about this breed.
+An octopus swims and cannot go inland or enter a building.  
 
-300 hit points, magic resistance 0, attack: 7, defense: 7. 7 attacks: a magical attack, an unarmed attack (2d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10). Magic +0, Espionage +0, Tactics +0, Perception +1, Stamina +0 and Unarmed Combat +0
+Features of an Octopus.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    300 |
+| Résistance à la magie |      0 |
+| Attaque               |      7 |
+| Défense               |      7 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+7 attacks: a magical attack, an unarmed attack (2d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10), an unarmed attack (1d10).
 
 ### Lynx
 
-The lynx is known for its skill at concealment and observation. With a little patience, he can be trained to become an excellent scout. In battle, he defends himself with his sharp claws and knows how to use his agility.
+The lynx is known for its skill at concealment and observation.  
+With a little patience, he can be trained to become an excellent scout.  
+In battle, he defends himself with his sharp claws and knows how to use his agility.  
 
-20 hit points, magic resistance 0, attack: 4, defense: 5. 2 attacks: one magical attack, one unarmed attack (2d3). Herbalism +1, Magic +0, Horse Training +1, Espionage +3, Stealth +3, Perception +4, Stamina +0 and Unarmed Combat +0
+Features of a Lynx.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     20 |
+| Résistance à la magie |      0 |
+| Attaque               |      4 |
+| Défense               |      5 |
+| Herboristerie         |     +1 |
+| Magie                 |     +0 |
+| Apprivoisement        |     +1 |
+| Espionnage            |     +3 |
+| Stealth               |     +3 |
+| Perception            |     +4 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attacks: one magical attack, one unarmed attack (2d3).
 
 ### Nymph
 
-No information available about this breed.
+No information available about this breed.  
+
+Features of a Nymph.  
 
 15 hit points, magic resistance 90, attack: 3, defense: 1.
-Can use weapons. 3 attacks: a magical attack, an attack with a weapon or unarmed (1d4), a magical attack.
+Can use weapons.
+
+3 attacks: a magical attack, an attack with a weapon or unarmed (1d4), a magical attack.
+
 Alchemy +0, Crossbow +0, Archery +2, Trade -2, Herbalism +4, Magic +1, Horse Training +5, Riding +5, Armor Construction -2, Slashing Weapons +0, Sailing -2, Polearms +0, Espionage +2, Tactics -2, Stealth +3, Entertainment +10, Weapon Construction -2, Wagon Construction -2, Perception +2, Tax Collecting -2, Stamina -1 and Unarmed Combat +0
 
 ### Rat
 
-No information available about this breed.
+No information available about this breed.  
 
-10 hit points, magic resistance 0, attack: 1, defense: 1. 3 attacks: one magical attack, one unarmed attack (1d4), one unarmed attack (1d4). Magic +0, Espionage +5, Stealth +4, Perception +2, Stamina +0 and Unarmed Combat +0
+Features of a Rat.  
 
-### Giant tortoise
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |      0 |
+| Attaque               |      1 |
+| Défense               |      1 |
+| Magie                 |     +0 |
+| Espionnage            |     +5 |
+| Stealth               |     +4 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
 
-No information available about this breed.
+3 attacks: one magical attack, one unarmed attack (1d4), one unarmed attack (1d4).
 
-900 hit points, magic resistance 0, attack: 10, defense: 5, armor: 7. 2 attacks: one magical attack, one unarmed attack (2d50). Magic +0, Espionage +0, Tactics +0, Perception +1, Stamina +0 and Unarmed Combat +0
+### Giant Tortoise
+
+A Giant Turtle can swim and can go inland.  
+
+Features of a Giant Tortoise.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    900 |
+| Résistance à la magie |      0 |
+| Attaque               |     10 |
+| Défense               |      5 |
+| Armure                |      7 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+2 attacks: one magical attack, one unarmed attack (2d50).
 
 ### Singing Dragon
 
-Song kites are the size of an adult tiger.
-Their color ranges from iridescent red to dark green to deep black.
-All known dragons of this species exhibit high intelligence and a high level of magical ability. Like their larger relatives, they have a breath of fire. They love the singing and the sumptuous meal. From time to time they enter into a close magical bond with a magician. When this happens, the magician has an extremely loyal and rewarding confidant.
+Song kites are the size of an adult tiger.  
+Their color ranges from iridescent red to dark green to deep black.  
+All known dragons of this species exhibit high intelligence and a high level of magical ability.  
+Like their larger relatives, they have a breath of fire.  
+They love the singing and the sumptuous meal.  
+From time to time they enter into a close magical bond with a magician.  
+When this happens, the magician has an extremely loyal and rewarding confidant.  
 
-40 hit points, magic resistance 99, attack: 3, defense: 1, armor: 1. 5 attacks: one magical attack, one unarmed attack (2d4), one unarmed attack (2d4), one unarmed attack (2d4), one magical attack. Magic +1, Espionage +0, Stealth +0, Perception +0, Stamina +0 and Unarmed Combat +0
+Features of a Singing Dragon.  
 
-### Devil
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     40 |
+| Résistance à la magie |     99 |
+| Attaque               |      3 |
+| Défense               |      1 |
+| Armure                |      1 |
+| Magie                 |     +1 |
+| Espionnage            |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +0 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
 
-No information available about this breed.
+5 attacks: one magical attack, one unarmed attack (2d4), one unarmed attack (2d4), one unarmed attack (2d4), one magical attack.
 
-10 hit points, magic resistance 50, attack: 5, defense: 4, armor: 1. Can use weapons. 5 attacks: a magical attack, an unarmed attack (1d4), an unarmed attack (1d4), an attack with the weapon or unarmed (1d4), a magical attack. Magic +1, Riding -1, Slashing Weapons +0, Polearms +0, Espionage +1, Stealth +1, Perception +1, Tax Collection +1, Stamina +0, and Unarmed Combat +0
+### Little Devil
+
+No information available about this breed.  
+
+Features of a Little Devil.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |     50 |
+| Attaque               |      5 |
+| Défense               |      4 |
+| Armure                |      1 |
+| Magie                 |     +1 |
+| Équitation            |     -1 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +1 |
+| Taxation              |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+5 attacks: a magical attack, an unarmed attack (1d4), an unarmed attack (1d4), an attack with the weapon or unarmed (1d4), a magical attack.
 
 ### Tiger
 
-No information available about this breed.
+No information available about this breed.  
 
-30 hit points, magic resistance 0, attack: 6, defense: 3. 4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d6), one unarmed attack (1d6). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +1, Stamina +0 and Unarmed Combat +0
+Features of a Tiger.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     30 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      3 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d6), one unarmed attack (1d6).
 
 ### Dreamcat
 
-No information available about this breed.
+The Dreamcat has its own magic.  
 
-10 hit points, magic resistance 50, attack: 5, defense: 6. 3 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5). Magic +1, Slashing Weapons +0, Polearms +0, Espionage +1, Stealth +1, Perception +1, Tax Collection +1, Stamina +0 and Unarmed Combat +0
+Features of a Dreamcat.  
 
-### Tunnel worm
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     10 |
+| Résistance à la magie |     50 |
+| Attaque               |      5 |
+| Défense               |      6 |
+| Magie                 |     +1 |
+| Mêlée                 |     +0 |
+| Polearm               |     +0 |
+| Espionnage            |     +1 |
+| Stealth               |     +1 |
+| Perception            |     +1 |
+| Taxation              |     +1 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
 
-This gigantic creature, which comes from the depths of Eressea, is excellently adapted to life underground. Blind, deaf and not particularly intelligent, but with its enormous strength it can move entire mountains or clear forests.
+3 attacks: a magical attack, an unarmed attack (1d5), an unarmed attack (1d5).
 
-300 hit points, magic resistance 80, attack: 6, defense: 1, armor: 6. 3 attacks: a magical attack, an unarmed attack (3d20), an attack that causes building damage (1d10). Mining +10, Woodcutting +10, Magic +0, Stonebuilding +10, Stamina +2 and Unarmed Combat +0
+### Tunnel Worm
+
+This gigantic creature, which comes from the depths of Eressea, is excellently adapted to life underground.  
+Blind, deaf and not particularly intelligent, but with its enormous strength it can move entire mountains or clear forests.  
+
+Features of a Tunnel Worm.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |    300 |
+| Résistance à la magie |     80 |
+| Attaque               |      6 |
+| Défense               |      1 |
+| Armure                |      6 |
+| Mining                |    +10 |
+| Forestry              |    +10 |
+| Quarrying             |    +10 |
+| Magie                 |     +0 |
+| Endurance             |     +2 |
+| Combat à mains nues   |     +0 |
+
+3 attacks: a magical attack, an unarmed attack (3d20), an attack that causes building damage (1d10).
 
 ### Wolf
 
-No information available about this breed.
+No information available about this breed.  
 
-25 hit points, magic resistance 0, attack: 6, defense: 3. 4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d4), one unarmed attack (1d4). Magic +0, Espionage +0, Tactics +0, Stealth +0, Perception +2, Stamina +0 and Unarmed Combat +0
+Features of a Wolf.  
+
+| Propriété             | Valeur |
+|-----------------------|-------:|
+| Points de Vie         |     25 |
+| Résistance à la magie |      0 |
+| Attaque               |      6 |
+| Défense               |      5 |
+| Magie                 |     +0 |
+| Espionnage            |     +0 |
+| Tactique              |     +0 |
+| Stealth               |     +0 |
+| Perception            |     +2 |
+| Endurance             |     +0 |
+| Combat à mains nues   |     +0 |
+
+4 attacks: one magical attack, one unarmed attack (2d6), one unarmed attack (1d4), one unarmed attack (1d4).
 
 ## Skill modifiers
 
-Confidants are very different.
-Not all familiars can learn all talents and each race is characterized by special characteristics.
-Some are gifted with magic themselves and have their own aura.
-Others are sea creatures and good swimmers, while others can fly and cross oceans.
-The following table is intended to provide a better overview of the individual familiar races.
-If a field is empty, then the race cannot learn that talent or does not have that ability.
+Confidants are very different.  
+Not all familiars can learn all skills and each race is characterized by special characteristics.  
+Some are gifted with magic themselves and have their own aura.  
+Others are sea creatures and good swimmers, while others can fly and cross oceans.  
+The following table is intended to provide a better overview of the individual familiar races.  
+If a field is empty, then the race cannot learn that skill or does not have that ability.  
 
 | Property               | Eagle | Demon | Delphin | Unicorn | owl | fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Tunnel worm  | Wolf |
 |------------------------|-------|-------|---------|---------|-----|-------|-------|--------|---------|---------|------|-------|-----|----------------|----------------|--------------|-------|----------|--------------|------|
@@ -215,23 +521,23 @@ The second column contains the standard familiar race (primary familiar) that jo
 In the five following columns are the races that the magician prefers to join if he is knowledgeable in the respective School of M​magic.  
 With 50%-100% (depending on level) the race of the magic area is chosen, with approximately level% any one, otherwise the primary race.  
 
-Player experience: The information on percentages should be viewed with caution and should be double-checked in the code!
+Player experience: The information on percentages should be viewed with caution and should be double-checked in the code!  
 
 An elf magician with Tybied has the highest chance of getting an owl (magic area) or a lynx (primary familiar), but also a lower chance of getting a random race from the table.  
 
 | Race      | Primary Familiar | Illaun         | Tybied         | Cerddor        | Gwyrrd      | Draig        |
 |-----------|------------------|----------------|----------------|----------------|-------------|--------------|
-| Humans    | Wolf             | Dream cat      | Owl            | Owl            | Eagle       | Little devil |
-| Aquarians | Giant tortoise   | Delphin        | Giant tortoise | Delphin        | Delphin     | Krake        |
-| Cats      | Lynx             | Dreamcat       | Lynx           | Singing dragon | Tiger       | Höllenkatze  |
-| Halflings | Owl              | Rat            | Eagle          | Singing dragon | Eagle       | Rat          |
 | Insects   | Ghost            | Rat            | Owl            | Rat            | Tunnel worm | Little devil |
-| Demons    | Little devil     | Little devil   | Ghost          | Rat            | Wolf        | Little devil |
-| Trolls    | Tunnel worm      | Rat            | Rat            | Eagle          | Tunnel worm | Wolf         |
-| Goblins   | Rat              | Singing dragon | Little devil   | Rat            | Rat         | Little devil |
-| Elves     | Lynx             | Fairy          | Owl            | Nymph          | Unicorn     | Little devil |
-| Dwarves   | Tunnel worm      | Eagle          | Owl            | Lynx           | Wolf        | Rat          |
+| Aquarians | Giant tortoise   | Delphin        | Giant tortoise | Delphin        | Delphin     | Krake        |
 | Orcs      | Goblin           | Ghost          | Little devil   | Rat            | Wolf        | Demon        |
+| Demons    | Little devil     | Little devil   | Ghost          | Rat            | Wolf        | Little devil |
+| Cats      | Lynx             | Dreamcat       | Lynx           | Singing dragon | Tiger       | Höllenkatze  |
+| Elves     | Lynx             | Fairy          | Owl            | Nymph          | Unicorn     | Little devil |
+| Halflings | Owl              | Rat            | Eagle          | Singing dragon | Eagle       | Rat          |
+| Goblins   | Rat              | Singing dragon | Little devil   | Rat            | Rat         | Little devil |
+| Trolls    | Tunnel worm      | Rat            | Rat            | Eagle          | Tunnel worm | Wolf         |
+| Dwarves   | Tunnel worm      | Eagle          | Owl            | Lynx           | Wolf        | Rat          |
+| Humans    | Wolf             | Dream cat      | Owl            | Owl            | Eagle       | Little devil |
 
 Player Experience:
 

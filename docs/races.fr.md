@@ -135,13 +135,11 @@ Poursuivre la lecture : [Modificateurs de compétences].
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 
 [Bonus et Malus]: ./skills-modifiers.md
-[`GIVE 0`]: ./cmd-give.md
 [camoufler]: ./cmd-hide.md
 [max. workers]: ./world.md
 [mages]: ./magic.md
 [volent]: ./cmd-steal.md
 [bateaux]: ./ships.md
-[`COMBAT FLEE`]: ./cmd-combat.md
 [alchemy]: ./skills-list.md
 [potion]: ./alchemy.md
 [tactics]: ./tactic.md

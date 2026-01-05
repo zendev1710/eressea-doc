@@ -59,7 +59,7 @@ A **Example article** could look like this:
 
 The archive of past issues can be found [at this location][Archive].
 
-Poursuivre la lecture: [[remerciements]].
+Poursuivre la lecture : [[remerciements]].
 
 ## Références
 

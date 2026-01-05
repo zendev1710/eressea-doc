@@ -32,20 +32,15 @@ Mais il est aussi très visible dans le ciel, ce qui en fait une cible facile lo
 
 Caractéristiques d'un Aigle.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     15 |
-| Résistance à la magie |      0 |
-| Attaque               |      6 |
-| Défense               |      2 |
-| Armure                |      4 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Perception            |     +2 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nzaturelle |
+|:--:|:------------------:|:-------:|:-------:|:-----------------:|
+| 20 |         0          |    0    |    2    |         4         |
 
-2 attaques : une attaque magique, une attaque sans arme (2d3).
+2 attaques : une attaque magique, une attaque sans arme (2d3).  
+
+| Magie | Espionnage | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |     +2     |    +0     |         +0          |
 
 ### Démon
 
@@ -60,21 +55,15 @@ Un Dauphin nage et ne peut aller à l'intérieur des terres ni entrer dans un b�
 
 Caractéristiques d'un Dauphin.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     24 |
-| Résistance à la magie |      0 |
-| Attaque               |      5 |
-| Défense               |      5 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 24 |         0          |    5    |    5    |      -      |
 
 2 attaques : une attaque magique, une attaque sans arme (1d6).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |   +0    |     +1     |    +0     |         +0          |
 
 ### Licorne
 
@@ -83,21 +72,16 @@ Il est rare qu'une licorne se joigne à un mage, mais lorsque c'est le cas, elle
 
 Caractéristiques d'une Licorne.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     40 |
-| Résistance à la magie |     90 |
-| Attaque               |      6 |
-| Défense               |      4 |
-| Magie                 |     +2 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +4 |
-| Perception            |     +5 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 40 |         90         |    6    |    4    |      -      |
+|    |                    |         |         |             |
 
 3 attaques : une attaque magique, une attaque non armée (3d12), une attaque non armée (2d4).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +2   |     +0     |    +0    |   +4    |     +5     |    +0     |         +0          |
 
 ### Hibou
 
@@ -105,20 +89,15 @@ Un hibou vole.
 
 Caractéristiques d'un Hibou.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |      9 |
-| Résistance à la magie |      0 |
-| Attaque               |      2 |
-| Défense               |      4 |
-| Magie                 |     +0 |
-| Espionnage            |     +1 |
-| Stealth               |     +1 |
-| Perception            |     +5 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 9  |         0          |    2    |    4    |      -      |
 
 2 attaques : une attaque magique, une attaque sans arme (1d4).
+
+| Magie | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:------|:----------:|:-------:|:----------:|:---------:|:-------------------:|
+| +0    |     +1     |   +1    |     +5     |    +0     |         +0          |
 
 ### Fée
 
@@ -127,23 +106,15 @@ Elle peut utiliser des armes.
 
 Caractéristiques d'une Fée.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |      6 |
-| Résistance à la magie |      6 |
-| Attaque               |      6 |
-| Défense               |     14 |
-| Magie                 |     +1 |
-| Riding                |     -1 |
-| Mêlée                 |     -1 |
-| Polearm               |     -1 |
-| Espionnage            |     +2 |
-| Stealth               |     +5 |
-| Perception            |     +2 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 6  |         6          |    6    |   14    |      -      |
 
 5 attaques : une attaque magique, une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3).
+
+| Magie | Équitation | Mêlée | Polearm | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:-------:|:----------:|---------|:----------:|:---------:|:-------------------:|
+|  +1   |     -1     |  -1   |   -1    |     +2     | +5      |     +2     |    +0     |         +0          |
 
 ### Fantôme
 
@@ -152,24 +123,15 @@ Peut utiliser des armes.
 
 Caractéristiques d'un Fantôme.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     30 |
-| Résistance à la magie |    100 |
-| Attaque               |      5 |
-| Défense               |      8 |
-| Armure                |      5 |
-| Magie                 |     +1 |
-| Équitation            |     -2 |
-| Mêlée                 |     +0 |
-| Polearm               |     +0 |
-| Espionnage            |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +0 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 30 |        100         |    5    |    8    |      5      |
 
 6 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5), une attaque avec arme ou non armée (2d6), une attaque magique, une attaque magique.
+
+| Magie | Équitation | Mêlée | Polearm | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:-------:|:----------:|---------|:----------:|:---------:|:-------------------:|
+|  +1   |     -2     |  +0   |   +0    |     +0     | +0      |     +0     |    +0     |         +0          |
 
 ### Goblin
 
@@ -184,21 +146,15 @@ Il est difficile à blesser par des armes blanches, des arcs et des arbalètes.
 
 Caractéristiques d'un Chat de l'Enfer.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     40 |
-| Résistance à la magie |     50 |
-| Attaque               |      6 |
-| Défense               |      4 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 40 |         50         |    6    |    4    |      -      |
 
 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |   +0    |     +1     |    +0     |         +0          |
 
 ### Pieuvre
 
@@ -206,21 +162,15 @@ Une Pieuvre nage et ne peut aller à l'intérieur des terres ni entrer dans un b
 
 Caractéristiques d'une Pieuvre.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |    300 |
-| Résistance à la magie |      0 |
-| Attaque               |      7 |
-| Défense               |      7 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV  | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:---:|:------------------:|:-------:|:-------:|:-----------:|
+| 300 |         0          |    7    |    7    |      -      |
 
 7 attaques : une attaque magique, une attaque non armée (2d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10), une attaque non armée (1d10).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |   +0    |     +1     |    +0     |         +0          |
 
 ### Lynx
 
@@ -230,53 +180,38 @@ Au combat, il se défend avec ses griffes acérées et sait utiliser son agilit�
 
 Caractéristiques d'un Lynx.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     20 |
-| Résistance à la magie |      0 |
-| Attaque               |      4 |
-| Défense               |      5 |
-| Herboristerie         |     +1 |
-| Magie                 |     +0 |
-| Apprivoisement        |     +1 |
-| Espionnage            |     +3 |
-| Stealth               |     +3 |
-| Perception            |     +4 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 20 |         0          |    4    |    5    |      -      |
 
 2 attaques : une attaque magique, une attaque sans arme (2d3).
+
+| Herboristerie | Magie | Apprivoisement | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:-------------:|:-----:|:--------------:|:----------:|:-------:|:----------:|:---------:|:-------------------:|
+|      +1       |  +0   |       +1       |     +3     |   +4    |     +4     |    +0     |         +0          |
 
 ### Nymphe
 
 La Nymphe dispose de sa propre magie.  
+Elle peut utiliser des armes.  
 
 Caractéristiques d'une Nymphe.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |   15   |
-| Résistance à la magie |  90   |
-| Attaque               | 3      |
-| Défense               |  1     |
-| Armure                |       |
-| Magie                 |      |
-| Équitation            |      |
-| Mêlée                 |      |
-| Polearm               |        |
-| Espionnage            |        |
-| Stealth               |        |
-| Perception            |        |
-| Endurance             |        |
-| Combat à mains nues   |        |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 15 |         90         |    3    |    1    |      -      |
+
+3 attaques : une attaque magique, ein Angriff mit der Waffe oder unbewaffnet (1d4), une attaque magique.
+
+| Alchimie | Tir à l'arbalète | Tir à l'arc | Handeln | Herboristerie | Magie | Apprivoisement | Équitation | Fabrication d'armes | Hiebwaffen | Sailing | Polearm | Espionnage | Tactique | Vol | Divertissement | Cartmaking | Perception | Taxation | Endurance | Combat à mains nues |
+|:--------:|:----------------:|:-----------:|:-------:|:-------------:|:-----:|:--------------:|:----------:|:-------------------:|:----------:|:-------:|:-------:|:----------:|:---------|:----|:--------------:|:----------:|:----------:|:--------:|:---------:|:-------------------:|
+|    +0    |        +0        |     +2      |   -2    |      +4       |  +1   |       +5       |     +5     |         -2          |     +0     |   -2    |   +0    |     +2     | -2       | +3  |      +10       |     -2     |     +2     |    -2    |    -1     |         +0          |
+|          |                  |             |         |               |       |                |            |                     |            |         |         |            |          |     |                |            |            |          |           |                     |
 
 <!-- TODO -->
 <!--
 Kann Waffen benutzen.
-
-3 attaques : une attaque magique, ein Angriff mit der Waffe oder unbewaffnet (1d4), une attaque magique.
-
-Alchemie +0, Armbrustschießen +0, Bogenschießen +2, Handeln -2, Kräuterkunde +4, Magie +1, Pferdedressur +5, Reiten +5, Rüstungsbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +2, Taktik -2, Tarnung +3, Unterhaltung +10, Waffenbau -2, Wagenbau -2, Wahrnehmung +2, Steuereintreiben -2, Ausdauer -1 und Waffenloser Kampf +0
+Waffenbau -2 ?? 2 Fois ?
 -->
 
 ### Rat
@@ -285,20 +220,15 @@ Rien de spécial.
 
 Caractéristiques d'un Rat.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     10 |
-| Résistance à la magie |      0 |
-| Attaque               |      1 |
-| Défense               |      1 |
-| Magie                 |     +0 |
-| Espionnage            |     +5 |
-| Stealth               |     +4 |
-| Perception            |     +2 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 10 |         0          |    1    |    1    |      -      |
 
 3 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4).
+
+| Magie | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +5     |   +4    |     +2     |    +0     |         +0          |
 
 ### Tortue géante
 
@@ -306,21 +236,15 @@ Une Tortue Géante nage et peut aller à l'intérieur des terres.
 
 Caractéristiques d'une Tortue Géante.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |    900 |
-| Résistance à la magie |      0 |
-| Attaque               |     10 |
-| Défense               |      5 |
-| Armure                |      7 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Perception            |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV  | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:---:|:------------------:|:-------:|:-------:|:-----------:|
+| 900 |         0          |   10    |    5    |      7      |
 
 2 attaques : une attaque magique, une attaque sans arme (2d50).
+
+| Magie | Espionnage | Tactique | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +1     |    +0     |         +0          |
 
 ### Dragon Chanteur
 
@@ -334,21 +258,15 @@ Lorsque cela se produit, le mage dispose d'un familier extrêmement loyal et pr�
 
 Caractéristiques d'un Dragon Chanteur.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     40 |
-| Résistance à la magie |     99 |
-| Attaque               |      3 |
-| Défense               |      1 |
-| Armure                |      1 |
-| Magie                 |     +1 |
-| Espionnage            |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +0 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV  | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:---:|:------------------:|:-------:|:-------:|:-----------:|
+| 400 |         99         |    3    |    1    |      1      |
 
 5 attaques : une attaque magique, une attaque non armée (2d4), une attaque non armée (2d4), une attaque non armée (2d4), une attaque magique.
+
+| Magie | Espionnage | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +1   |     +0     |   +0    |     +0     |    +0     |         +0          |
 
 ### Diablotin
 
@@ -357,25 +275,15 @@ Il peut utiliser des armes.
 
 Caractéristiques d'un Diablotin.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     10 |
-| Résistance à la magie |     50 |
-| Attaque               |      5 |
-| Défense               |      4 |
-| Armure                |      1 |
-| Magie                 |     +1 |
-| Équitation            |     -1 |
-| Mêlée                 |     +0 |
-| Polearm               |     +0 |
-| Espionnage            |     +1 |
-| Stealth               |     +1 |
-| Perception            |     +1 |
-| Taxation              |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 10 |         50         |    5    |    4    |      1      |
 
 5 attaques : une attaque magique, une attaque non armée (1d4), une attaque non armée (1d4), une attaque avec l'arme ou non armée (1d4), une attaque magique.
+
+| Magie | Équitation | Mêlée | Polearm | Espionnage | Stealth | Perception | Taxation | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:-------:|:----------:|---------|:----------:|---------:|:---------:|:-------------------:|
+|  +1   |     -1     |  +0   |   +0    |     +1     | +1      |     +1     |       +1 |    +0     |         +0          |
 
 ### Tigre
 
@@ -383,21 +291,15 @@ Rien de spécial.
 
 Caractéristiques d'un Tigre.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     30 |
-| Résistance à la magie |      0 |
-| Attaque               |      6 |
-| Défense               |      3 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 30 |         0          |    6    |    3    |      -      |
 
 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d6), une attaque non armée (1d6).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |   +0    |     +1     |    +0     |         +0          |
 
 ### Dreamcat
 
@@ -405,23 +307,15 @@ Le Dreamcat dispose de sa propre magie.
 
 Caractéristiques d'un Dreamcat.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     10 |
-| Résistance à la magie |     50 |
-| Attaque               |      5 |
-| Défense               |      6 |
-| Magie                 |     +1 |
-| Mêlée                 |     +0 |
-| Polearm               |     +0 |
-| Espionnage            |     +1 |
-| Stealth               |     +1 |
-| Perception            |     +1 |
-| Taxation              |     +1 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 10 |         50         |    5    |    6    |      -      |
 
 3 attaques : une attaque magique, une attaque non armée (1d5), une attaque non armée (1d5).
+
+| Magie | Mêlée | Polearm | Espionnage | Stealth | Perception | Taxation | Endurance | Combat à mains nues |
+|:-----:|:-----:|:-------:|:----------:|---------|:----------:|---------:|:---------:|:-------------------:|
+|  +1   |  +0   |   +0    |     +1     | +1      |     +1     |       +1 |    +0     |         +0          |
 
 ### Ver des Tunnels
 
@@ -430,21 +324,15 @@ Aveugle, sourde et pas très intelligente, elle est capable de déplacer des mon
 
 Caractéristiques d'un Ver des Tunnels.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |    300 |
-| Résistance à la magie |     80 |
-| Attaque               |      6 |
-| Défense               |      1 |
-| Armure                |      6 |
-| Mining                |    +10 |
-| Forestry              |    +10 |
-| Quarrying             |    +10 |
-| Magie                 |     +0 |
-| Endurance             |     +2 |
-| Combat à mains nues   |     +0 |
+| PV  | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:---:|:------------------:|:-------:|:-------:|:-----------:|
+| 300 |         80         |    6    |    1    |      6      |
 
 3 attaques : une attaque magique, une attaque sans arme (3d20), une attaque infligeant des dégâts aux bâtiments (1d10).
+
+| Mining | Forestry | Quarrying | Magie | Endurance | Combat à mains nues |
+|:------:|:--------:|:---------:|:-----:|:---------:|:-------------------:|
+|  +10   |   +10    |    +10    |  +0   |    +2     |         +0          |
 
 ### Loup
 
@@ -452,21 +340,15 @@ Rien de spécial.
 
 Caractéristiques d'un Loup.  
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Points de Vie         |     25 |
-| Résistance à la magie |      0 |
-| Attaque               |      6 |
-| Défense               |      5 |
-| Magie                 |     +0 |
-| Espionnage            |     +0 |
-| Tactique              |     +0 |
-| Stealth               |     +0 |
-| Perception            |     +2 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| PV | Résist. à la magie | Attaque | Défense | Armure nat. |
+|:--:|:------------------:|:-------:|:-------:|:-----------:|
+| 25 |         0          |    6    |    5    |      -      |
 
 4 attaques : une attaque magique, une attaque non armée (2d6), une attaque non armée (1d4), une attaque non armée (1d4).
+
+| Magie | Espionnage | Tactique | Stealth | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:-------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |   +0    |     +2     |    +0     |         +0          |
 
 ## Modificateurs de compétences
 
@@ -478,46 +360,46 @@ Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes 
 Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
 
 | Eigenschaft                 | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Höllenkatze | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
-|-----------------------------|-------|-------|---------|---------|-------|-----|---------|--------|-------------|-------|------|--------|-----|---------------|-----------------|-----------|-------|----------|-----------------|------|
-| Points de Vie               | 15    | 50    | 24      | 40      | 9     | 6   | 30      | 16     | 40          | 300   | 20   | 15     | 10  | 900           | 40              | 10        | 30    | 10       | 300             | 25   |
-| Gewicht \[kg\]              | 5     | 10    | 5       | 5       | 5     | 2   | 5       | 6      | 5           | 5     | 5    | 10     | 1   | 16            | 10              | 5         | 5     | 5        | 300             | 5    |
-| Kapazität \[kg\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4   | 5,4 | 5,4     | 4,4    | 5,4         | 5,4   | 5,4  | 5,4    | 5,4 | 6             | 6               | 5,4       | 5,4   | 5,4      | 100             | 5,4  |
-| nat. Rüstung                | 0     | 2     | 0       | 0       | 0     | 0   | 5       | 0      | 0           | 0     | 0    | 0      | 0   | 7             | 1               | 1         | 0     | 0        | 6               | 0    |
-| Magieresistenz              | 0     | 15    | 0       | 90      | 0     | 80  | 100     | -5     | 50          | 0     | 0    | 90     | 0   | 0             | 99              | 50        | 0     | 50       | 80              | 0    |
-| eigene Zauber               |       |       |         | ja      |       | ja  | ja      |        |             |       |      | ja     |     |               | ja              | ja        |       | ja       |                 |      |
-| kann sich über Land bewegen | ja    | ja    |         | ja      | ja    | ja  | ja      | ja     | ja          |       | ja   | ja     | ja  | ja            | ja              | ja        | ja    | ja       | ja              | ja   |
-| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja    | ja  | ja      |        |             | ja    |      |        |     | ja            | ja              | ja        |       | ja       |                 |      |
-| Kann Rüstungen benutzen     |       | ja    |         |         |       | ja  | ja      | ja     |             |       |      | ja     |     |               |                 | ja        |       |          |                 |      |
+|-----------------------------|-------|-------|---------|---------|-------|-----|---------|--------|-------------|---------|------|--------|-----|---------------|-----------------|-----------|-------|----------|-----------------|------|
+| Points de Vie               | 15    | 50    | 24      | 40      | 9     | 6   | 30      | 16     | 40          | 300     | 20   | 15     | 10  | 900           | 40              | 10        | 30    | 10       | 300             | 25   |
+| Gewicht \[kg\]              | 5     | 10    | 5       | 5       | 5     | 2   | 5       | 6      | 5           | 5       | 5    | 10     | 1   | 16            | 10              | 5         | 5     | 5        | 300             | 5    |
+| Kapazität \[kg\]            | 5,4   | 5,4   | 5,4     | 20      | 5,4   | 5,4 | 5,4     | 4,4    | 5,4         | 5,4     | 5,4  | 5,4    | 5,4 | 6             | 6               | 5,4       | 5,4   | 5,4      | 100             | 5,4  |
+| nat. Rüstung                | 0     | 2     | 0       | 0       | 0     | 0   | 5       | 0      | 0           | 0       | 0    | 0      | 0   | 7             | 1               | 1         | 0     | 0        | 6               | 0    |
+| Magieresistenz              | 0     | 15    | 0       | 90      | 0     | 80  | 100     | -5     | 50          | 0       | 0    | 90     | 0   | 0             | 99              | 50        | 0     | 50       | 80              | 0    |
+| eigene Zauber               |       |       |         | ja      |       | ja  | ja      |        |             |         |      | ja     |     |               | ja              | ja        |       | ja       |                 |      |
+| kann sich über Land bewegen | ja    | ja    |         | ja      | ja    | ja  | ja      | ja     | ja          |         | ja   | ja     | ja  | ja            | ja              | ja        | ja    | ja       | ja              | ja   |
+| kann Ozeanfelder betreten   | ja    |       | ja      |         | ja    | ja  | ja      |        |             | ja      |      |        |     | ja            | ja              | ja        |       | ja       |                 |      |
+| Kann Rüstungen benutzen     |       | ja    |         |         |       | ja  | ja      | ja     |             |         |      | ja     |     |               |                 | ja        |       |          |                 |      |
 | Compétence                  | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Höllenkatze | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
-| Alchemie                    |       | +2    |         |         |       |     |         | +1     |             |       |      | 0      |     |               |                 |           |       |          |                 |      |
-| Armbrustschießen            |       | 0     |         |         |       |     |         | 0      |             |       |      | 0      |     |               |                 |           |       |          |                 |      |
-| Ausdauer                    | 0     | 0     | 0       | 0       | 0     | 0   | 0       | 0      | 0           | 0     | 0    | -1     | 0   | 0             | 0               | 0         | 0     | 0        | +2              | 0    |
-| Bergbau                     |       | +0    |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          | +10             |      |
-| Bogenschießen               |       | 0     |         |         |       |     |         | 0      |             |       |      | +2     |     |               |                 |           |       |          |                 |      |
-| Burgenbau                   |       | 0     |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          |                 |      |
-| Handeln                     |       | -3    |         |         |       |     |         | -1     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
-| Hiebwaffen                  |       | +1    |         |         |       | -1  | 0       | 0      |             |       |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
-| Holzfällen                  |       | +1    |         |         |       |     |         | 0      |             |       |      |        |     |               |                 |           |       |          | +10             |      |
-| Katapultbedienung           |       | 0     |         |         |       |     |         | +1     |             |       |      |        |     |               |                 |           |       |          |                 |      |
-| Kräuterkunde                |       | -3    |         |         |       |     |         | 0      |             |       | +1   | +4     |     |               |                 |           |       |          |                 |      |
-| Magie                       | 0     | +1    | 0       | +2      | 0     | +1  | +1      | -1     | 0           | 0     | 0    | +1     | 0   | 0             | +1              | +1        | 0     | +1       | 0               | 0    |
-| Pferdedressur               |       | -3    |         |         |       |     |         | 0      |             |       | +1   | +5     |     |               |                 |           |       |          |                 |      |
-| Reiten                      |       | -1    |         |         |       | -1  | -2      | 0      |             |       |      | +5     |     |               |                 | -1        |       |          |                 |      |
-| Rüstungsbau                 |       | 0     |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
-| Schiffbau                   |       | -1    |         |         |       |     |         | -2     |             |       |      |        |     |               |                 |           |       |          |                 |      |
-| Segeln                      |       | -1    |         |         |       |     |         | -2     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
-| Spionage                    | 0     | 0     | 0       | 0       | +1    | +2  | 0       | 0      | 0           | 0     | 0    | 0      | +5  | 0             | 0               | +1        | 0     | +1       | 0               | 0    |
-| Stangenwaffen               |       | +1    |         |         |       | -1  | 0       | 0      |             |       |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
-| Steinbau                    |       | 0     |         |         |       |     |         | 0      |             |       |      |        |     |               |                 |           |       |          | +10             |      |
-| Steuereintreiben            |       | +1    |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 | +1        |       | +1       |                 |      |
-| Straßenbau                  |       | 0     |         |         |       |     |         | -2     |             |       |      |        |     |               |                 |           |       |          |                 |      |
-| Taktik                      |       | -1    | 0       | 0       |       |     |         | -2     | 0           | 0     |      | -2     |     |               |                 |           | 0     |          |                 | 0    |
-| Tarnung                     |       | +1    | 0       | +4      | +1    | +5  | 0       | +1     | 0           |       | +3   | +3     | +4  |               | 0               | +1        | 0     | +1       |                 | 0    |
-| Unterhaltung                |       | -3    |         |         |       |     |         | -1     |             |       |      | +10    |     |               |                 |           |       |          |                 |      |
-| Waffenbau                   |       | +1    |         |         |       |     |         | 0      |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
-| Waffenloser Kampf           | 0     | -     | 0       | 0       | 0     | 0   | 0       | -      | 0           | 0     | 0    | 0      | 0   | 0             | 0               | 0         | 0     | 0        | 0               | 0    |
-| Wagenbau                    |       | -2    |         |         |       |     |         | -1     |             |       |      | -2     |     |               |                 |           |       |          |                 |      |
-| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5    | +2  | 0       | 0      | +1          | +1    | +4   | +2     | +2  | +1            | 0               | +1        | +1    | +1       |                 | +2   |
+| Alchemie                    |       | +2    |         |         |       |     |         | +1     |             |         |      | 0      |     |               |                 |           |       |          |                 |      |
+| Armbrustschießen            |       | 0     |         |         |       |     |         | 0      |             |         |      | 0      |     |               |                 |           |       |          |                 |      |
+| Ausdauer                    | 0     | 0     | 0       | 0       | 0     | 0   | 0       | 0      | 0           | 0       | 0    | -1     | 0   | 0             | 0               | 0         | 0     | 0        | +2              | 0    |
+| Bergbau                     |       | +0    |         |         |       |     |         | +1     |             |         |      |        |     |               |                 |           |       |          | +10             |      |
+| Bogenschießen               |       | 0     |         |         |       |     |         | 0      |             |         |      | +2     |     |               |                 |           |       |          |                 |      |
+| Burgenbau                   |       | 0     |         |         |       |     |         | +1     |             |         |      |        |     |               |                 |           |       |          |                 |      |
+| Handeln                     |       | -3    |         |         |       |     |         | -1     |             |         |      | -2     |     |               |                 |           |       |          |                 |      |
+| Hiebwaffen                  |       | +1    |         |         |       | -1  | 0       | 0      |             |         |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
+| Holzfällen                  |       | +1    |         |         |       |     |         | 0      |             |         |      |        |     |               |                 |           |       |          | +10             |      |
+| Katapultbedienung           |       | 0     |         |         |       |     |         | +1     |             |         |      |        |     |               |                 |           |       |          |                 |      |
+| Kräuterkunde                |       | -3    |         |         |       |     |         | 0      |             |         | +1   | +4     |     |               |                 |           |       |          |                 |      |
+| Magie                       | 0     | +1    | 0       | +2      | 0     | +1  | +1      | -1     | 0           | 0       | 0    | +1     | 0   | 0             | +1              | +1        | 0     | +1       | 0               | 0    |
+| Pferdedressur               |       | -3    |         |         |       |     |         | 0      |             |         | +1   | +5     |     |               |                 |           |       |          |                 |      |
+| Reiten                      |       | -1    |         |         |       | -1  | -2      | 0      |             |         |      | +5     |     |               |                 | -1        |       |          |                 |      |
+| Rüstungsbau                 |       | 0     |         |         |       |     |         | 0      |             |         |      | -2     |     |               |                 |           |       |          |                 |      |
+| Schiffbau                   |       | -1    |         |         |       |     |         | -2     |             |         |      |        |     |               |                 |           |       |          |                 |      |
+| Segeln                      |       | -1    |         |         |       |     |         | -2     |             |         |      | -2     |     |               |                 |           |       |          |                 |      |
+| Spionage                    | 0     | 0     | 0       | 0       | +1    | +2  | 0       | 0      | 0           | 0       | 0    | 0      | +5  | 0             | 0               | +1        | 0     | +1       | 0               | 0    |
+| Stangenwaffen               |       | +1    |         |         |       | -1  | 0       | 0      |             |         |      | 0      |     |               |                 | 0         |       | 0        |                 |      |
+| Steinbau                    |       | 0     |         |         |       |     |         | 0      |             |         |      |        |     |               |                 |           |       |          | +10             |      |
+| Steuereintreiben            |       | +1    |         |         |       |     |         | 0      |             |         |      | -2     |     |               |                 | +1        |       | +1       |                 |      |
+| Straßenbau                  |       | 0     |         |         |       |     |         | -2     |             |         |      |        |     |               |                 |           |       |          |                 |      |
+| Taktik                      |       | -1    | 0       | 0       |       |     |         | -2     | 0           | 0       |      | -2     |     |               |                 |           | 0     |          |                 | 0    |
+| Tarnung                     |       | +1    | 0       | +4      | +1    | +5  | 0       | +1     | 0           |         | +3   | +3     | +4  |               | 0               | +1        | 0     | +1       |                 | 0    |
+| Unterhaltung                |       | -3    |         |         |       |     |         | -1     |             |         |      | +10    |     |               |                 |           |       |          |                 |      |
+| Waffenbau                   |       | +1    |         |         |       |     |         | 0      |             |         |      | -2     |     |               |                 |           |       |          |                 |      |
+| Waffenloser Kampf           | 0     | -     | 0       | 0       | 0     | 0   | 0       | -      | 0           | 0       | 0    | 0      | 0   | 0             | 0               | 0         | 0     | 0        | 0               | 0    |
+| Wagenbau                    |       | -2    |         |         |       |     |         | -1     |             |         |      | -2     |     |               |                 |           |       |          |                 |      |
+| Wahrnehmung                 | +2    | +1    | +1      | +5      | +5    | +2  | 0       | 0      | +1          | +1      | +4   | +2     | +2  | +1            | 0               | +1        | +1    | +1       |                 | +2   |
 
 ## Affectation des familiers
 

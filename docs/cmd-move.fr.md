@@ -4,37 +4,44 @@ alias: cmd-move-fr
 ---
 # MOVE
 
-*Ordre [long]*.
+*Ordre [long].*  
 
 **`MOVE`**` `*`direction`*`[`*`direction`*`]...`  
 
-With the `MOVE` order the unit moves through the world of Eressea.
-The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest. The coordinates are not used.
+Avec l'ordre `MOVE` l'unité se déplace dans le monde d'Eressea.  
 
-| Direction | Abbreviations |
-|-----------|---------------|
-| Northeast | NE, NorthE    |
-| East      | E             |
-| Southeast | SE, SouthE    |
-| Northwest | NW, NorthW    |
-| West      | W             |
-| Southwest | SW, SouthW    |
+Les directions cardinales dans Eressea sont : le nord-est, le nord-ouest, l'est, l'ouest, le sud-est et le sud-ouest.  
 
-The order has a special behavior when it comes to [default orders], i.e. orders that the unit receives in the [[orders|move template]] the following week: The MOVE order is not included in the template.
-Instead, the long orders that the unit had in the template last week are adopted.
+| Direction | Abréviation |
+|-----------|-------------|
+| Northeast | NE, NorthE  |
+| East      | E           |
+| Southeast | SE, SouthE  |
+| Northwest | NW, NorthW  |
+| West      | W           |
+| Southwest | SW, SouthW  |
 
-Template:
+!!! note
+    Les coordonnées (abscisse X et ordonnée Y) ne sont pas utilisées pour cet ordre.
+
+L'ordre a un comportement particulier en ce qui concerne les [ordres par défaut], c'est-à-dire les ordres que l'unité reçoit dans le [[ordres|modèle d'ordres]] la semaine suivante.  
+L'ordre `MOVE` n'est pas inclus dans le modèle d'ordres.
+Au lieu de cela, les ordres longs que l'unité avait dans le modèle la semaine précédente sont adoptés.  
+
+Modèle :
 
 ```text
 LEARN Ride
 @GIVE x 100 Silver
+```
 
-Orders sent in
+Ordres envoyés :
 
+```text
 MOVE w
 ```
 
-Next week's template:
+Modèle pour la semaine suivante :
 
 ```text
 LEARN Ride

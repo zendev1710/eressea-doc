@@ -10,17 +10,19 @@ alias: cmd-message-fr
 **`MESSAGE`**` BUILDING `*`building-id`*`"`*`text`*`"`  
 **`MESSAGE`**`REGION "`*`text`*`"`  
 
-This can be used to send messages to other units, to other factions, or to all factions in a region.
-The sender and recipient must be in the same region. If you send a message to a unit, the message is anonymized if the recipient cannot see the sending unit.
+Cela peut être utilisé pour envoyer des messages à d'autres unités, à d'autres factions ou à toutes les factions d'une région.  
 
-With `MESSAGE BUILDING` and `MESSAGE SHIP` the message goes to all units in the building or on the ship, but for only one unit per faction.
+L'expéditeur et le destinataire doivent être dans la même région.  
+Si vous envoyez un message à une unité, le message est anonymisé si le destinataire ne peut pas voir l'unité émettrice.  
 
-Like all other texts, \ (backslash) can be used in the message !
+Avec `MESSAGE BUILDING` et `MESSAGE SHIP`, le message est envoyé à toutes les unités du bâtiment ou du bateau, mais pour une seule unité par faction.  
+
+Comme tous les autres textes, le caractère `\` (barre oblique inversée) peut être utilisé dans le message !  
 
 ```text
-MESSAGE UNIT z14 "Immediately pay Johan the tax collector (9i6) 100 Silver each, \
-otherwise our guards will be\
-take care of you!"
+MESSAGE UNIT z14 "Payez immédiatement Johan le collecteur d'impôts (9i6) 100 Silver chacun, \
+sinon nos gardes \
+prendront soin de vous !"
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=MESSAGE&oldid=5960] -->

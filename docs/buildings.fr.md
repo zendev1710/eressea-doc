@@ -25,11 +25,6 @@ La première unité en a le commandement du bâtiment, elle est le propriétaire
 Elle détermine quelles autres unités peuvent y entrer, et elle peut renommer et décrire le bâtiment.
 L'unité propriétaire du plus grand château d'une région peut même renommer et décrire la région sur laquelle elle règne.
 
-**[[le-troisieme-age|E3A — Le Troisième Âge]]**
-
-<!-- TODO translate in french -->
-The building owner can only leave the building if he explicitly uses the [[cmd-give|`GIVE`]] order or the [[cmd-leave]] order is used.
-
 L'effet des bâtiments (y compris les châteaux) est comptabilisé unité par unité.
 Les unités qui ne rentrent plus - même partiellement - dans la capacité encore disponible ne reçoivent donc pas de bonus grâce au bâtiment - même si elles sont la seule unité !
 

@@ -6,7 +6,7 @@ alias: cmd-tax-fr
 
 *Ordre [long]*.
 
-**`TAX`**`[`*`montant`*`]`  
+**`TAX`**` ``[`*`montant`*`]`  
 
 Avec cet ordre, une unité armée et entraînée collecte les impôts auprès des agriculteurs.  
 Pour ce faire, elle a besoin d'une arme et de maîtrser la [[liste-des-competences|compétence]] correspondante, ainsi que de la compétence de [collecte des impôts].  

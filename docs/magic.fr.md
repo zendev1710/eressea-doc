@@ -4,19 +4,27 @@ alias: magie
 ---
 # Magie
 
-Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in [[guerre]].
+La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].
 
 ## L'étude de la magie
 
-Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].
+Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].  
 
-The faction's magic area is determined by the very first unit that learns magic in the faction.
-This is done using the [[cmd-learn|`LEARN MAGIC "magic area"`]].
-As a result, the order is now just called `LEARN MAGIC "magic area"` and all magicians of a [[factions|faction]] then automatically learn the magic area chosen by the faction.
-However, it is possible to order multiple units to `LEARN MAGIC "magic area"` if you are unsure which unit will come first. Once a magic area has been chosen, it cannot be changed.
-Therefore, this decision needs to be carefully considered!
+L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
+Cela se fait à l'aide de l'ordre [[cmd-learn|`LEARN MAGIC "<école de magie>"`]].  
+En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [[factions|faction]] apprennent alors automatiquement l'École de Magie choisie par la faction.  
+Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
-There can be a maximum of five magician units per faction; only elven factions are allowed to have six magicians. Mage units may only consist of one person. You cannot hand over people, even to empty TEMP units.
+!!! note
+    Une fois qu’une École de Magie a été choisie, **elle ne peut plus être modifiée**.
+    Cette décision doit donc être mûrement réfléchie !
+
+Il peut y avoir un **maximum de 5 unités de mages par faction**;
+Seules les factions **elfes** sont autorisées à avoir **6 mages**.  
+Les unités de mages ne peuvent être composées que d’une seule personne.
+Vous ne pouvez pas remettre des personnes, même à des unités `TEMP` vides.  
+
+L'apprentissage de la magie coûte `50 + 25 * (1 + Niveau) * Niveau` Silver par personne et par tour.  
 
 Coûts d'apprentissage.
 
@@ -24,22 +32,30 @@ Coûts d'apprentissage.
 |----------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
 | Coût           | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
 
-So an untrained magician pays 100 silver for his first lessons; If he already has level 5 in magic skill, he has to pay 1100 silver per week of learning.
+Ainsi, un mage non formé paie 100 Silver pour ses premiers apprentissages;
+S’il est déjà au niveau 5 en magie, il doit payer 1 100 Silver par semaine d’apprentissage.  
 
-!!! warning "Caution"
-    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
-    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2, but a goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).
+!!! warning "Attention"
+    Le coût d'apprentissage fait toujours référence au niveau appris avant que les bonus ou pénalités raciales ne soient appliqués.
+    Ainsi un elfe paie 100 et non 200 Silver pour sa première tentative d'apprentissage qui l'amène à T2.
+    Un gobelin avec son -1 paie 200 Silver pour la deuxième tentative d'apprentissage même s'il est encore au niveau 0 (le système l'évalue comme T1 -1 = 0).
 
-!!! warning "Caution, dwarves"
-    You have -2 to magic skill.
-    A unit that appears as Magic 0 may actually be at T1 or T2.
-    In the latter case, however, the learning costs increase to 350 silver! There is no way to know which of the two is true.
-    So it's better to plan a little more generously.
+!!! info "message à destination des mains"
+    Vous avez -2 en compétence magique.
+    Une unité qui apparaît avec Magie à 0 peut en réalité être en T1 ou T2.
+    Dans ce dernier cas, cependant, les coûts d’apprentissage s’élèvent à 350 Silver!
+    Il n’y a aucun moyen de savoir lequel des deux est vrai. Il vaut donc mieux planifier un peu plus généreusement.
 
-Learning in an [Academy] costs twice as much. Only magicians from the same area of ​​magic as the teacher can be taught. So a Draig Mage cannot teach an Illaun Mage.
+Apprendre dans une **[académie]** coûte **deux fois plus cher**.
 
-If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week. Magic can also, through [Special:MyLanguage/Talente|Application (CAST)].
-It doesn't matter whether the unit casts one or more spells per round. Of course, learning through application does not cost silver.
+Seuls les mages de la même école de magie que le professeur peuvent être formés.
+Un mage Draig ne peut donc pas enseigner à un mage Illaun.  
+
+Si une unité de mage n'a pas assez d'argent pour apprendre, elle n'apprendra que proportionnellement à la quantité d'argent qu'elle peut payer chaque semaine.
+<!-- TODO: clarify this not understable sentences -->
+Magic peut également, via [Special:MyLanguage/Talente|Application (CAST)].
+Peu importe que l'unité lance un ou plusieurs sorts par tour.
+Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 
 ## Dictons
 
@@ -133,8 +149,9 @@ A normal combat spell once per combat round. Of course, only under the condition
 ### Aura
 
 Aura is the magical power that magicians use to perform their magic.
-Aura is consumed by casting spells and regenerates over time.
-A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical talent.
+Aura is consumed by casting spells and regenerates over time.  
+A mage unit can absorb a certain maximum amount of aura.
+How much is determined -just like aura regeneration -by the unit's magical talent.  
 Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird.
 But that can vary between almost nothing and talent level.
 Magical races regenerate aura faster, non-magical races significantly slower.
@@ -410,7 +427,7 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 [Magic Resistance]: ./magic.md/#resistance-a-la-magie
 [probability of blunders]: #gaffe
 
-[Academy]: ./buildings-others.md#academie
+[Académie]: ./buildings-others.md#academie
 [`COMBAT` orders]: ./war.md#lignes-de-combat
 [The Sides in a Battle]: ./war.md#les-camps-dans-une-bataille
 [Mage Tower]: ./buildings-others.md#tour-de-mage

@@ -7,11 +7,13 @@ alias: cmd-language
 **`LANGUAGE`**`de`  
 **`LANGUAGE`**`en`  
 
-This is how you change the language of the faction from English to German or vice versa.
+This is how you change the language of the faction from English to German or vice versa.  
+
 The order must be given by some unit as normal.
-The new language only becomes active with the following evaluation.
+The new language only becomes active with the following evaluation.  
 The orders in which you send the `LANGUAGE` order are still in the old language.
-The evaluation and move template are then received in the new language.
+The evaluation and orders template are then received in the new language.  
+
 The server is trying to translate the [[orders]] into the new language, but it is not guaranteed that this will work completely in all cases.
 
 ## See also

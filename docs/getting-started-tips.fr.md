@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: conseils-pour-debutants
 ---
 # Conseils pour débutants

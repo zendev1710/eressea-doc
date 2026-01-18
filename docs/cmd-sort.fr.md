@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-sort-fr
 ---
-# SORT
+# `SORT`
 
 **`SORT`**` BEFORE `*`unit-id`*  
 **`SORT`**` AFTER `*`unit-id`*  

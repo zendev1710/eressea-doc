@@ -1,39 +1,69 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: production-fr
 ---
 # Production
 
-Various things can be produced in Eressea.
-There are [[resources]] (e.g. iron, stones, wood, horses) and [[items|finished products]] (various weapons and armor, [[ships]] and chariots, [[buildings]] and [[roads]] and alchemical [[alchemy|potions]]).
-In order to be able to produce things, you need the appropriate skill.
+Diverses choses peuvent être produites à Eressea.  
 
-Most things are done with the order [[cmd-make|`MAKE`*`<number>`*` `*`item`*]] produced, for example `MAKE Iron, MAKE Sword` or `MAKE 15 Elvenbow`.
+Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [[objets|produits finis]] : diverses armes et armures, des [[bateaux]], des chariots, des [[batiments]], des [[routes]] et des [[alchimie|potions]].  
+Pour pouvoir produire, il faut posséder les compétences appropriées.  
 
-Depending on the item, a different level of skill is required in order to be able to produce it.
-Most [[resources]] only require basic knowledge of the corresponding skills (Level 1), while most [[items]] require higher skill levels.
-For items with high minimum skill values, you can only craft a few of them.
-In any case, you can only produce one type of item or resource and work on one building or ship per unit per round.
+La plupart des productions s"effectuent avec l'ordre [[cmd-make|`MAKE`*`<number>`*` `*`item`*]], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
 
-With the exception of laen and adamantium, two particularly valuable and rare metals, and mallorn, a magical wood, all raw materials can be produced with a skill value of 1, as can horses and herbs.
-To obtain Laen and Adamantium you need a [mine] and a mining skill of 7 for Laen and 8 for Adamantium, respectively, for Mallorn Lumbering level 2.
+Selon l'objet, un niveau de compétence différent est requis pour pouvoir le produire.  
+La majorité des [[ressources]] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [[objets]] nécessitent des niveaux de compétence plus élevés.  
+Pour les objets avec des valeurs de compétence minimales élevées, vous ne pouvez en fabriquer que quelques-uns.
+Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’un seul type d’objet ou de ressource et travailler sur un seul bâtiment ou bateau.  
 
-For items as well as buildings and ships, the skill levels of all people in the unit are added together and divided by the minimum construction skill.
-For each point calculated in this way, a building or ship can be built or expanded by one point in size or an object can be produced.
+À l'exception du [[laen]] et de l'[[adamantium]], deux métaux particulièrement précieux et rares, et du [[mallorn]] (un bois magique), toutes les matières premières peuvent être produites avec une valeur de compétence de 1, tout comme les chevaux et les plantes.  
+Pour obtenir du laen et de l'adamantium, vous avez besoin d'une [mine] et d'une compétence d'[extraction minière] de **7 pour le laen**, de **8 pour l'adamantium**, et d'une compétence de niveau 2 en [sylviculture] pour le mallorn.
 
-Once a building or ship has been started, you can continue to build on it with as many units as you want.
-However, it is not possible to build multiple buildings or ships at the same time with one unit, even if skill levels and resources are sufficient.
+Pour les objets ainsi que pour les bâtiments et les bateaux, les niveaux de compétence de toutes les personnes de l'unité sont additionnés et divisés par la compétence minimale requise en construction.  
+Pour chaque point ainsi calculé, un bâtiment ou un beateau peut être construit ou agrandi d'un point, ou un objet peut être produit.
 
- **Examples:**
+Une fois que la construction d'un bâtiment ou un bateau a débuté, vous pouvez continuer à le construire avec autant d'unités que vous le souhaitez.  
+Cependant, il n'est pas possible de construire plusieurs bâtiments ou bateaux en même temps avec une seule unité, même si les niveaux de compétences et les ressources le permettent théoriquement.
 
-- `MAKE 10 Shield` lets the unit produce 10 shields -assuming it has 10 irons, at least Armor Construction 2 and a total of 20 skill levels (10 shields x minimum skill 2 = 20)
-- `MAKE 3 Boat` does not allow the unit to build three separate boats, but only the appropriate amount of wood for the ship mentioned (here 3 out of 5 for one boat)
-- A unit with 4 people and weapon construction 5 has a total of 20 skill levels. For example, she can use it to create 6 swords (minimum weapon construction skill 3), 4 elven bows (if they are elves; requires weapon construction 5) or 10 spears (weapon construction 2) without any tools.
-- With a forge, people could halve their iron consumption for swords, shields, etc., i.e. produce 10 shields from 5 iron. They also have a +1 skill bonus on the Weapon Construction and Armor Construction skills
-- **Important:** The skill levels only count together if the people are in a unit! However, the unit must always have the minimum skill value
+## Exemple 1
 
-Especially for larger factions, “collecting” all the items, e.g. for buildings, can be annoying.
-To simplify this, there is an [[items-pool]], the function of which is explained in the relevant section.
+`MAKE 10 Shield`  
+
+Permet à une unité de produire 10 boucliers, en supposant qu'elle :
+
+- possède 10 fer
+- soit au moins T2 en [fabrication d'armures]
+- posssède un total de 20 niveaux de compétence (10 boucliers x compétence minimale 2 = 20)
+
+## Exemple 2
+
+`MAKE 3 Boat`  
+
+Cet ordre ne permet pas à l'unité de construire trois bateaux séparés.  
+Il définit la quantité de bois voulue pour construire le bateau du type mentionné (ici 3 sur 5 pour un bateau).
+
+## Exemple 3
+
+Une unité composée de 4 personnes et **T5 en [fabrication d'armes]** possède un total de 20 niveaux de compétence.  
+Elle peut utiliser ses compétences pour créer au choix (et sans aucun outil) par exemple :
+
+- 6 épées (compétence requise T3), ou
+- 4 arcs elfiques (s'il s'agit d'elfes; nécessite une compétence requise T5), ou
+- 10 lances (compétence requise T2)
+
+## Exemple 4
+
+Avec une **[forge]**, la consommation de fer pour les épées et les boucliers (et autres objets produits dans une forge) est **réduite de moitié**.  
+Il est par exemple possible de produire 10 boucliers à partir de 5 fers.  
+
+Les forgerons bénéficient également d'un **bonus de compétence de +1** en [fabrication d'armes] et [fabrication d'armures].  
+
+!!! note "important"
+    Les niveaux de compétence ne comptent ensemble que si les personnes sont dans une unité !
+    Cependant, l'unité doit toujours avoir la valeur de compétence minimale
+
+En particulier pour les grandes factions, « collecter » tous les objets nécessaires à la production (par exemple de bâtiments) peut s'avérer fastidieux.  
+Pour faciliter la collecte, il existe une [[reserve-d-objets]].
 
 ## Voir aussi
 
@@ -49,3 +79,8 @@ Poursuivre la lecture : [[resources]].
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
 
 [mine]: ./buildings-others.md#mine
+[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
+[sylviculture]: ./skills-list.md#sylviculture "Forestry"
+[fabrication d'armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
+[fabrication d'armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
+[forge]: ./buildings-others.md#forge "Smithy"

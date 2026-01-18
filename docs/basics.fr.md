@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: bases
 ---
 # Bases
@@ -21,20 +21,20 @@ Au contraire, étant donné que ces outils sont conçus pour gérer de grands pa
 
 ## Ordres longs et courts
 
-Les unités ne peuvent effectuer qu'une seule action [Action] longue par semaine, mais peuvent en effectuer un nombre illimité d'actions courtes.
+Chaque unité ne peut effectuer qu'un seul [ordre] long par semaine, mais peut effectuer un nombre illimité d'ordres courts.
 
 DANGER! Le combat peut être une action longue, même si vous ne vous êtes pas attaqué.
 
 ## Bataille
 
-Les combats dans des régions que vous ne [[cmd-guard|guardez]] sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche TOUTES les unités qu'il [[cmd-attack|attaqué]] d'exécuter leur ordre long.
-Vous devez donc vous assurer que vous gardez vos régions au plus tard dès la première semaine au cours de laquelle votre faction peut être attaquée.
+Les combats dans des régions que vous ne [[cmd-guard|gardez pas]] sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [[cmd-attack|attaque]] d'exécuter leur ordre long.  
+Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que votre faction est susceptible d'être attaquée.
 
 ## Famine
 
 Évitez la [famine] à tout prix.
 Les effets sont catastrophiques.
-Chaque personne a besoin de 10 pièces d'argent par semaine pour ne pas avoir faim.
+Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
 ## Finance
 
@@ -42,8 +42,8 @@ Les divertissements et les impôts s'apprennent plus rapidement que le commerce,
 
 ## Mage
 
-Chaque zone magique possède un sort de niveau 1 qui produit 50 pièces d'argent par niveau de lanceur de sorts.
-Si votre race n'a pas de pénalité en magie, former des magiciens tôt peut être intéressant comme source alternative de revenus.
+Chaque école de Magie possède un sort de niveau 1 qui produit 50 silver par niveau de lanceur de sorts.
+Si votre race n'a pas de pénalité en magie, former des mages tôt peut être intéressant comme source alternative de revenus.
 Mais attention, tous les sorts ne fonctionnent pas.
 
 ## Utilisation des objets et de l'argent
@@ -71,5 +71,5 @@ En règle générale, il ne suffit pas de placer une unité de divertissement da
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Action]: ./commands.md#ordres-courts-et-longs
+[ordre]: ./commands.md#ordres-courts-et-longs
 [famine]: ./silver.md#famine

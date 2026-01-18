@@ -4,9 +4,29 @@ alias: resources
 ---
 # Resources
 
-Raw materials can be obtained without other ingredients from the region without further ingredients.
+Raw materials can be obtained without other ingredients from the region without further ingredients.  
 However, the deposits are limited and regenerate only slowly or not at all.
 The necessary skill can be looked up in the section about [[items|goods]].
+
+## Raw materials
+
+### Adamantium
+
+### Ammunition
+
+### Cart
+
+### Horse
+
+### Iron
+
+### Laen
+
+### Mallorn
+
+### Stone
+
+### Wood
 
 ## Extraction of Raw Materials
 
@@ -15,10 +35,10 @@ This does not apply if the guarding faction does not see the producer, for examp
 
 ### About Mining
 
-Iron, stone, laen, and, in particularly ancient regions, sometimes even adamantium, can be mined or quarried from mountains, glaciers, and sometimes other types of regions.
+Iron, stone, laen, and, in particularly ancient regions, sometimes even adamantium, can be mined or quarried from mountains, glaciers, and sometimes other types of regions.  
 Laen and adamantium require a mine and particularly high mining skill.
 These resources can be difficult to extract.
-In your report you can find out by the number after the "/".
+In your report you can find out by the number after the "/".  
 For example, if the report says "20 iron/4", this means that 20 iron can still be mined at skill level 4.
 Once these have been extracted, miners will need to be level 5 to extract iron from the next layer (5).
 In general, the quantities that can be extracted increase with each new layer.
@@ -39,6 +59,18 @@ The number of mallorn trees is then reduced by the same amount as if mallorn had
 
 Skills: forestry, herbalism
 
+#### Trees
+
+#### Saplings
+
+#### Mallorn trees
+
+#### Mallorn Saplings
+
+#### Seeds
+
+#### Mallornseeds
+
 ### And Elsewhere
 
 You may capture wild horses as you like with [[cmd-make|`MAKE horse`]] by a unit with the [taming skill][herbalism].
@@ -48,18 +80,19 @@ However, it is possible to breed captured horses in a [stable] with the taming s
 
 Player experience (Solthar):
 
-The maximal amount of horses in a region equals the number of [[world|jobs]] / 10.
+The maximal amount of horses in a region equals the **number of [[world|jobs]] / 10**.
 
 In a relatively empty plain they grow at a rate of 4%.
-As they approach the upper limit, growth slows down.
+As they approach the upper limit, growth slows down.  
 The most new horses are born at about half the maximal population.
-In a plain with 25 horses, there is 1 birth per week.
-With 500 horses there are 10 new horses per round.
-At 1000 horses there is no more growth.
 
-Herbs can also be harvested to make potions.
-There is a maximum of one herb species in each region.
-See the [list of herbs].
+In a plain with 25 horses, there is 1 birth per week.  
+With 500 horses there are 10 new horses per round.  
+At 1000 horses there is no more growth.  
+
+Herbs can also be harvested to make potions.  
+There is a maximum of one herb species in each region.  
+See the [list of herbs].  
 
 ## See also
 

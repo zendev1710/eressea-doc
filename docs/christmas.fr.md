@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: noel
 ---
 # Noël
@@ -10,7 +10,7 @@ alias: noel
 
 Et lègue à ta faction...
 
-Environ tous les deux ans (selon le calendrier Éréséen), le lutin de Noël apparaît.
+Environ tous les deux ans (selon le calendrier Éresséen), le lutin de Noël apparaît.
 Parfois, il apporte même des cadeaux, laissant planer le doute sur ce qu'il convient d'en faire.
 
 ## Cadeaux de Noël

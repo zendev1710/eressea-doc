@@ -1,11 +1,11 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: alliances-fr
 ---
 # Alliances
 
 Les alliances constituent l'épine dorsale du monde, que ce soit en temps de guerre, de commerce ou de simple coopération pacifique.
-Tu peux nouer des alliances avec d'autes factions non seulement « en esprit », mais aussi les formaliser grâce à l'ordre [[cmd-help]].
+Tu peux nouer des alliances avec d'autres factions non seulement « en esprit », mais aussi les formaliser grâce à l'ordre [[cmd-help]].
 
 Lorsqu'une faction en aide une autre, cela ne signifie pas automatiquement que l'entraide est réciproque.
 Seule l'expérience permet de le savoir.

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cristal-d-antimagie
 ---
 # Cristal d'Antimagie

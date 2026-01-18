@@ -2,11 +2,31 @@
 # cSpell:locale de
 alias: rohstoffe
 ---
-# Rohstoffe
+# Natürliche Ressourcen
 
 Rohstoffe können ohne weitere Zutaten gewonnen direkt aus den Vorräten der [Region] gewonnen werden.
 Die Vorkommen sind jedoch begrenzt und regenerieren sich nur langsam oder gar nicht.
 Das benötigte Talent geht aus der Tabelle im Abschnitt [Waren] hervor.
+
+## Rohstoffe
+
+### Adamantium
+
+### Eisen
+
+### Holz
+
+### Laen
+
+### Mallorn
+
+### Katapultmunition
+
+### Pferd
+
+### Stein
+
+### Wagen
 
 ## Abbau von Rohstoffen
 

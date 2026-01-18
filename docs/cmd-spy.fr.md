@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-spy-fr
 ---
-# SPY
+# `SPY`
 
 *Ordre [long]*.
 

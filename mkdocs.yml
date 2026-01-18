@@ -82,8 +82,16 @@ theme:
 # language: en
 
 extra_css:
-  #- assets/css/extra.css
+  - assets/css/extra.css
   - assets/css/fantasy.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+extra_javascript:
+  - javascripts/katex-init.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  # our own scripts
+  - javascripts/formulas-try.js
 
 copyright: Copyright &copy; 2025 Cyril Guillon
 
@@ -157,8 +165,12 @@ markdown_extensions:
   - toc:
       permalink: true
   # Python Markdown Extensions
+  # pymdownx.arithmatex is for Mathjax
+  # but we use katex via js
   - pymdownx.arithmatex:
+      # TODO: check if generic is needed
       generic: true
+      #inline_syntax: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.blocks.caption
@@ -236,7 +248,6 @@ nav:
   - Orders:
     - commands.md
     - commands-sequence.md
-    - commands-short-descriptions.md
     - commands-list.md
     - first-round.md
     # - puppy-protection.md
@@ -369,6 +380,7 @@ nav:
         - adamantium-armor.md
         - adamantium.md
         - laen.md
+        - mallorn.md
         - amulet-of-true-vision.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md

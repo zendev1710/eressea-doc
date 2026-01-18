@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: introduction-fr
 ---
 # Introduction
@@ -51,5 +51,5 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [dragons]: ./monsters.md#dragons
 [NR]: ./reports.md#nr
 [CR]: ./reports.md#cr
-[programmes]: ./commands-send.md#what-you-need-to-consider-when-entering-data
+[programmes]: ./commands-send.md#ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express

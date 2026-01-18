@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-move-fr
 ---
-# MOVE
+# `MOVE`
 
 *Ordre [long].*  
 
@@ -12,14 +12,14 @@ Avec l'ordre `MOVE` l'unité se déplace dans le monde d'Eressea.
 
 Les directions cardinales dans Eressea sont : le nord-est, le nord-ouest, l'est, l'ouest, le sud-est et le sud-ouest.  
 
-| Direction | Abréviation |
-|-----------|-------------|
-| Northeast | NE, NorthE  |
-| East      | E           |
-| Southeast | SE, SouthE  |
-| Northwest | NW, NorthW  |
-| West      | W           |
-| Southwest | SW, SouthW  |
+| Direction   | Abréviations   |
+|-------------|----------------|
+| `East`      | `E`            |
+| `Northeast` | `NE`, `NorthE` |
+| `Northwest` | `NW`, `NorthW` |
+| `Southeast` | `SE`, `SouthE` |
+| `Southwest` | `SW`, `SouthW` |
+| `West`      | `W`            |
 
 !!! note
     Les coordonnées (abscisse X et ordonnée Y) ne sont pas utilisées pour cet ordre.

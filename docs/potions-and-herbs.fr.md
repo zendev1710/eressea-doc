@@ -1,44 +1,46 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: tableaux-potions-et-plantes
 ---
 # Tableaux : potions et plantes
 
 ## Liste des potions alchimiques et plantes
 
-| Level | Name             | Description                                                                                 |
-|:-----:|------------------|---------------------------------------------------------------------------------------------|
-|   1   | Seven League Tea | 10 people fast as horses                                                                    |
-|   1   | Goliath water    | 10 people carrying capacity like horses                                                     |
-|   1   | Water of Life    | Makes 10 saplings/Mallorn saplings from 10 wood/Mallorn                                     |
-|   1   | Potion of Truth  | This potion hasn't worked for some time                                                     |
-|   2   | Creativity drink | doubles productivity of 10 people (only at MAKE)                                            |
-|   2   | Wound ointment   | Returns up to 400 hit points                                                                |
-|   2   | Peasant blood    | Up to 100 demons don't need a farmer to eat                                                 |
-|   3   | brain wax        | Increased learning opportunity for 10 people                                                |
-|   3   | Dump-baked bread | with 10 people: no learning or teacher is of no use or forgetting 1 week of the best talent |
-|   3   | Nest warmth      | Insects can also recruit in winter                                                          |
-|   3   | Horse happiness  | 50 horses reproduce up to four times                                                        |
-|   3   | Berserker Blood  | 10 people in combat Attack +1                                                               |
-|   4   | Farmer-loving    | gives up to 1,000 farmers in the region ten times the chance to reproduce                   |
-|   4   | Elixir of Power  | Gives 10 people five times hit points                                                       |
-|   4   | Healing Potion   | Gives a person 200 hit points upon death                                                    |
+| Level | Name                    | Description                                                                          |
+|:-----:|-------------------------|--------------------------------------------------------------------------------------|
+|   1   | [thé des sept lieues]   | 10 hommes à pied peuvent se déplacer **aussi vite qu'à cheval**                      |
+|   1   | [eau de Goliath]        | 10 hommes peuvent porter autant que 10 chevaux.                                      |
+|   1   | [eau de vie]            | Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns)               |
+|   1   | [potion de vérité]      | *Cette potion n'a plus aucune fonction*                                              |
+|   2   | [breuvage de labeur]    | **Double la productivité** de 10 hommes utilisant l'ordre **`MAKE`**                 |
+|   2   | [onguent de soin]       | Soigne jusqu'à 400 points de vie                                                     |
+|   2   | [sang de paysan]        | Jusqu'à 100 démons peuvent se passer de tuer des paysans                             |
+|   3   | [huile de cervelle]     | Augmente les chances **d'apprentissage pour 10 personnes                             |
+|   3   | [pain d'andouille]      | Freine l'apprentissage de 10 personnes                                               |
+|   3   | [chaleur du nid]        | Permet aux **[Insectes]** de recruter **même en hiver**                              |
+|   3   | [bien-être des chevaux] | **50 chevaux** mettent au monde jusqu'à **4 poulains**                               |
+|   3   | [sang de berserker]     | 10 personnes reçoivent un modificateur d'attaque de **+1** au combat.                |
+|   4   | [amour des paysans]     | 1 000 paysans **croissent deux fois plus vite** que la normale                       |
+|   4   | [élixir de pouvoir]     | 10 personnes ont leurs **points de vie multipliés par 5**                            |
+|   4   | [potion de guérison]    | une personne survit à des dommages mortels (une seule fois par personne et par tour) |
 
-In order to create a potion, you need an alchemy skill equal to twice the potion level.
-Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
+Pour créer une potion, vous avez besoin d'une compétence en alchimie égale à 2 fois le niveau de la potion.  
+Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.  
 
-Voir [[alchimie]].
+<!-- TODO: remove one of the duplicate information with herbs.md -->
 
-List of herbs and their distribution.
+*Plantes et leur localisation.*  
 
-| Herbs                                                                              | spread       |
-|------------------------------------------------------------------------------------|--------------|
-| Flachwurz, Spicy Daring, Owl's Eye, Green Spinnerich, Blauer Baumringel, Elfenlieb | Forest/plain |
-| Garglewort, Knotty Suckerwort, Bladder Morel                                       | swamp        |
-| Water finder, cactus sweat, sand rot                                               | desert       |
-| Cream puffs, fjord growth, mandrakes                                               | Highlands    |
-| Stonebiter, cleavage wax, cave glow                                                | Mountains    |
-| Ice Flower, White Rager, Snow Crystal                                              | Glacier      |
+| Région    | Plantes                                                                                               |
+|-----------|-------------------------------------------------------------------------------------------------------|
+| Désert    | tamaris, peyote, pourriture de sable                                                                  |
+| Forêt     | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| Glacier   | bégonia des glaces, pétale de cristal de neige tsugas blancs                                          |
+| Highlands | champignon des fjords, mandragore, gousse                                                             |
+| Marais    | herbe de clairon, morille, racine de nœud                                                             |
+| Montagne  | cire fissurée, herbe de roche, lichen des cavernes                                                    |
+| Plaine    | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| Volcan    | --                                                                                                    |
 
 Voir [[alchimie]].
 

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-cast-fr
 ---
-# CAST
+# `CAST`
 
 *Ordre [court][^1].*
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: proliferation-des-agriculteurs
 ---
 # Prolifération des agriculteurs

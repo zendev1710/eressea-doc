@@ -58,22 +58,41 @@ Bemerkungen:
 - Der Schaden zu Pferd gilt nur in Verbindung mit dem [Pferdebonus]
 - OB und DB sind der Offensiv- und Defensiv-Bonus; so ist eine Kriegsaxt eher als Angriffswaffe ausgelegt, derweil eine Hellebarde eher der Verteidigung dienlich ist
 - Bei [[talente]] bedeutet K = Katapultbedienung, A = Armbrustschießen, B = Bogenschießen, H = Hiebwaffen, S = Stangenwaffen
-- Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und -rüstungen um 30%. Details zur Magieresistenz folgen unten
+- Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und rüstungen um 30%. Details zur Magieresistenz folgen unten
 - Ein Flammenschwert zaubert pro Kampfrunde zusätzlich einen kleinen Feuerball
 
 ## Ausdauer
 
-Erhöhte Trefferpunkte durch Ausdauer. Die Formel dazu ist (Talent/2)^(1,5)\*20%.
+Erhöhte Trefferpunkte durch Ausdauer. Die Formel dazu ist:
 
-| Talent                 |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 | ... |    15 | ... |    20 | ... |    25 | ... |     30 | ... |     35 | ... |     40 |
-|------------------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|----:|------:|----:|------:|----:|------:|----:|-------:|----:|-------:|----:|-------:|
-| Trefferpunkte          | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | ... | +410% | ... | +632% | ... | +883% | ... | +1161% | ... | +%1464 | ... | +1788% |
-| Goblins                |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 | ... |    81 | ... |   117 | ... |   157 | ... |    201 | ... |    250 | ... |    302 |
-| Elfen/Halblinge        |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 | ... |    91 | ... |   131 | ... |   177 | ... |    227 | ... |    281 | ... |    339 |
-| Katzen/(Meer-)Menschen |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 | ... |   102 | ... |   146 | ... |   196 | ... |    252 | ... |    312 | ... |    377 |
-| Zwerge/Orks/Insekten   |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 | ... |   122 | ... |   175 | ... |   236 | ... |    302 | ... |    375 | ... |    453 |
-| Trolle                 |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 | ... |   153 | ... |   219 | ... |   295 | ... |    378 | ... |    469 | ... |    566 |
-| Dämonen                |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 | ... |   255 | ... |   366 | ... |   491 | ... |    630 | ... |    782 | ... |    944 |
+<!-- cspell:disable -->
+:   $$
+    \text{bonus HP (in \%)} = \left(\frac{\text{talent}}{2}\right)^{1.5} \times 0.20
+    $$
+<!-- cspell:enable -->
+
+| Talent        |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 |    15 |    20 |    25 |     30 |     35 |     40 |
+|---------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|------:|------:|------:|-------:|-------:|-------:|
+| Trefferpunkte | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | +410% | +632% | +883% | +1161% | +1464% | +1788% |
+| Dämonen       |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 |   255 |   366 |   491 |    630 |    782 |    944 |
+| Elfen         |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 |    91 |   131 |   177 |    227 |    281 |    339 |
+| Goblins       |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 |    81 |   117 |   157 |    201 |    250 |    302 |
+| Halblinge     |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 |    91 |   131 |   177 |    227 |    281 |    339 |
+| Insekten      |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| Katzen        |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Meermenschen  |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Menschen      |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Orks          |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| Trolle        |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 |   153 |   219 |   295 |    378 |    469 |    566 |
+| Zwerge/       |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+
+??? tip "Bonusberechnung basiert auf Ausdauer"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="war-tables-compute-endurance-input" class="md-input-label">Talent:</label>
+        <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+        <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Berechnen</button>
+        <p style="margin-top: 1em;">Bonus: <strong id="war-tables-compute-endurance-result">---</strong></p>
+    </div>
 
 ## Verwundungsstatus
 

@@ -1,27 +1,42 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: orientation-optimisee
 ---
 # Orientation optimisée
 
-Die generelle Funktionsweise eine Routenberechnung dürfte vielen bekannt sein. Es werden glücklicherweise nicht alle Wege nach Rom gesucht, sondern nur solche die offenbar in die ungefähre Richtung gehen.
+De nombreuses personnes connaissent probablement la fonctionnalité générale du calcul d’itinéraire.  
+Heureusement, tous les chemins vers Rome ne sont pas recherchés, mais seulement ceux qui vont évidemment dans la direction générale.  
 
-Die einfachste Möglichkeit (Greedy) wäre vom Startpunkt aus erstmal alle vorhandenen Wege zu gehen und sich die neuen Zwischenpunkte zu merken. Von dort aus werden wieder alle Wege gegangen. Es wird sich immer der kürzeste Weg zu einem Punkt gemerkt (Route und Entfernung). Expandiert man so immer weiter findet man irgendwann den Zielpunkt (sofern er erreichbar ist). Das man dabei dem Ziel nicht nur näher kommt, sondern sogar in die total falsche Richtung läuft bei einigen Wegen ist jedoch bei langen Routen ein extremer Nachteil, sowohl was die Abarbeitungszeit als auch den Speicherbedarf für Zwischenzustände angeht.
+L'option la plus simple serait de parcourir d'abord tous les chemins existants à partir du point de départ et de mémoriser les nouveaux points intermédiaires.  
+De là, tous les chemins sont repris.  
+L'itinéraire le plus court vers un point est toujours mémorisé (itinéraire et distance).  
+Si vous poursuivez de cette façon, vous finirez par trouver le point cible (s'il peut être atteint).  
+Le fait que non seulement vous vous rapprochez de l'objectif, mais que vous prenez également une direction complètement fausse sur certains itinéraires est un inconvénient majeur sur les itinéraires longs, à la fois en termes de temps de traitement et de mémoire requise pour les états intermédiaires.  
 
-Die A\*-Suche hingegen hat zum Ziel, möglichst nur Zwischenpunkte zu expandieren die tatsächlich auf der richtigen Route liegen. Durch einen Kostenfunktion werden für jeden Punkt (inklusive Start und Ziel) die Kosten berechnet die **vermutlich** bis zum Ziel anfallen. Wichtig ist hierbei das vermutlich, denn wir kennen ja die Entfernung zum Ziel nicht, solange wir die Route nicht kennen. D.h. also wir schätzen die Entfernung. Auf der Landkarte ist hierbei die Luftlinie eine gute Schätzung die wir sicher nicht unterbieten werden (ohne Stargates, Wurmlöcher und dergleichen ;-)
+L'algorithme de recherche A*, quant à lui, vise à élargir uniquement les points intermédiaires qui se trouvent réellement sur le bon itinéraire.  
+À l'aide d'une fonction de coût, les coûts sont calculés pour chaque point (y compris le début et la fin), **probablement** jusqu'à la destination.  
+Ceci est probablement important ici, car nous ne connaissons pas la distance jusqu'à la destination à moins de connaître l'itinéraire. Cela signifie que nous estimons la distance.  
+La ligne droite sur la carte est une bonne estimation que nous ne parviendrons certainement pas à battre (sans portes des étoiles, trous de ver et autres ;-)  
 
-Für Eressea und andere Spiele auf Hex-Karten kann die minimale Entfernung relativ leicht aus den Koordinaten berechnet werden.
+Pour Eressea et d'autres jeux avec cartes hexagonales, la distance minimale peut être calculée relativement facilement à partir des coordonnées.  
 
-    hx = start.x - ziel.x
-    hy = start.y - ziel.y
-    Distanz = max(abs(hx), abs(hy), abs(hx+hy))
+```text
+hx = start.x - target.x
+hy = start.y - target.y
+Distanz = max(abs(hx), abs(hy), abs(hx+hy))
+```
 
-Diese geschätzte Entfernung zum Ziel wir mit der bereits zurückgelegten addiert. Nach diesem Kriterium werden die noch zu expandierenden Regionen sortiert. Bei wenigen Hindernissen auf der Karte gelangt der Algorithmus so sehr schnell auch über weite Entfernungen zum Ziel.
+Cette distance estimée jusqu'à la destination s'ajoute à la distance déjà parcourue.  
+Les régions qui doivent encore être développées sont triées selon ce critère.  
+S’il y a peu d’obstacles sur la carte, l’algorithme peut atteindre son objectif très rapidement, même sur de longues distances.  
 
-Jedes Hindernis und jede zusätzliche Bedingung, die in die Kostenfunktion eingebaut werden sollen, lassen die Ausführung hingegen schnell wieder langsamer werden.
+Cependant, chaque obstacle et chaque condition supplémentaire à intégrer dans la fonction de coût entraîne rapidement un nouveau ralentissement de l'exécution.  
 
-Magellan hat eine Funktion zur Routenfindung bereits eingebaut. Sie unterstützt neben der Entfernung auch das Entlangsegeln von Schiffen an Küsten.
+Magellan a déjà intégré une fonction de recherche d'itinéraire.  
+En plus de la distance, il supporte également les bateaux naviguant le long des côtes.  
 
-Weitere Nebenbedingungen können die Sicherheit von Regionen betreffen (Seeschlangen, Gegner), die Anlanderichtung in der Zielregion oder der bevorzugte Zwischenstopp in Landregionen zum Rundenende. Gerade solche Nebenbedingungen lassen sich jedoch schwer bis gar nicht durch die Schätzfunktion berechnen, so dass das Verhalten des Algorithmus immer mehr "greedy" wird. Den die A\*-Suche mit einer Schätzfunktion die immer 0 zurückgibt entspricht der Greedy-Suche.
+D'autres conditions secondaires peuvent concerner la sécurité des régions (serpents de mer, adversaires), la direction d'atterrissage dans la région cible ou encore l'escale privilégiée dans les régions terrestres en fin de tour.  
+Or, ce sont précisément ces conditions secondaires qui sont difficiles voire impossibles à calculer à l'aide de la fonction d'estimation, de sorte que le comportement de l'algorithme devient de plus en plus « gourmand ».
+Une recherche A* avec un estimateur qui renvoie toujours 0 correspond à une recherche gloutonne.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Wegfindung&oldid=2478] -->

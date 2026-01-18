@@ -1,163 +1,166 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: liste-des-sorts
 ---
 # Liste des sorts
+
+<!-- cspell:disable -->
+<!-- TODO: enable cSpell after spell names translation -->
 
 ## Tous les sorts
 
 **Légende:** **C** [[sorts-cerddor|Cerddor]], **D** [[sorts-draig|Draig]], **G** [[sorts-gwyrrd|Gwyrrd]], **I** [[sorts-illaun|Illaun]], **T** [[sorts-tybied|Tybied]]  
 
-|  C |  D |  G |  I |  T | Name                              | Type    | Rank | Components                                          | Modifiers      |
-|---:|---:|---:|---:|---:|-----------------------------------|:--------|-----:|-----------------------------------------------------|----------------|
-|    |    |    |    |  9 | [Acceleration]                    | Pré-c.  |    5 | 5 Aura x Level                                      |                |
-|    |    |  4 |    |    | [Air Shield]                      | Pré-c.  |    5 | 2 Aura x Level                                      |                |
-|    |    |    |    |  6 | [Airship]                         | --      |    5 | 10 Aura, 1 Windbeutel, 1 snowcrystal                | Ship           |
-|    |    |    |  5 |    | [Analyse Dreams]                  | --      |    5 | 25 Aura                                             | Ship           |
-|  8 |    |    |    |    | [Analysis]                        | --      |    5 | 3 Aura x Level                                      | Ship           |
-|    |    |    |    |  1 | [Analyze Magic]                   | --      |    5 | 1 Aura x Level                                      | Ship           |
-|  5 |    |    |    |    | [Analyze Song of Life]            | --      |    5 | 10 Aura                                             | Ship           |
-|    |  6 |    |    |    | [Animate Dead]                    | --      |    5 | 5 Aura x Level                                      | Distance, Ship |
-|    |    |    |    |  5 | [Antimagic]                       | --      |    2 | 3 Aura x Level                                      | Distance       |
-|  1 |    |    |    |    | [Appeasing Song]                  | Pré-c.  |    5 | 2 Aura                                              |                |
-|    |    |    |    |  6 | [Astral Call]                     | --      |    7 | 2 Aura x Level                                      |                |
-|    |  9 |    |    |    | [Astral Chaos]                    | Pré-c.  |    2 | 6 Aura x Level                                      |                |
-|    |    |    |    |  4 | [Astral Exit]                     | --      |    7 | 2 Aura x Level                                      |                |
-|    |    |  5 |    |    | [Astral Guardian Spirits]         | Pré-c.  |    2 | 5 Aura x Level                                      |                |
-|    |  9 |    |    |    | [Astral Leak]                     | --      |    3 | 35 Aura, 1 Drachenblut                              |                |
-|    |    |    |    |  4 | [Astral Path]                     | --      |    7 | 2 Aura x Level                                      |                |
-| 15 |    |    |    |    | [Aufruhr beschwichtigen]          | --      |    5 | 30 Aura                                             | Distance       |
-| 16 |    |    |    |    | [Aufruhr verursachen]             | --      |    5 | 40 Aura                                             | Distance       |
-|    |    | 10 |    |    | [Awakening of the Ents]           | --      |    5 | 6 Aura x Level                                      |                |
-|    |    |  8 |    |    | [Banish Spirits]                  | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
-|    |    |    |    | 13 | [Belebtes Gestein]                | --      |    5 | 10 Aura x Level, 1 perm. Aura, 5 Laen               |                |
-|    | 12 |    |    |    | [Beschwöre Schattenmeister]       | --      |    5 | 7 Aura x Level                                      |                |
-|  4 |    |    |    |    | [Blabbermouth]                    | --      |    5 | 10 Aura                                             |                |
-|    |    |  1 |    |    | [Blessed Harvest]                 | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
-|    |    |    |    | 10 | [Blick in die Realität]           | --      |    5 | 40 Aura                                             |                |
-|    |  5 |    |    |    | [Blood Frenzy]                    | Pré-c.  |    4 | 5 Aura x Level, 1 Bauer                             |                |
-|    |    |    |    |  6 | [Call of Reality]                 | --      |    7 | 2 Aura x Level                                      |                |
-|  6 |    |    |    |    | [Calm Monster]                    | --      |    5 | 15 Aura                                             | Ship           |
-|    |    |    |  3 |    | [Castle of Illusion]              | --      |    5 | 3 Aura                                              |                |
-|    |    |  1 |    |    | [Cattle Healing]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    |  5 |    |    |    | [Chaos Curse]                     | --      |    4 | 4 Aura x Level                                      |                |
-|    |  3 |    |    |    | [Chaos Gift]                      | --      |    3 | 6 Aura                                              | Ship           |
-|    | 14 |    |    |    | [Chaossog]                        | --      |    5 | 150 Aura, 200 Bauern                                |                |
-|    |    |    |    |  1 | [Concealing Aura]                 | --      |    5 | 1 Aura x Level                                      | Ship           |
-|  5 |    |    |    |    | [Countersong]                     | Pré-c.  |    2 | 5 Aura x Level                                      |                |
-|    |    |    |    | 10 | [Create A Bag of Negative Weight] | --      |    5 | 30 Aura, 1 perm. Aura, 5000 Silver                  | Ship           |
-|    |  9 |    |    |    | [Create A Belt of Troll Strength] | --      |    5 | 20 Aura, 1 perm. Aura                               | Ship           |
-|    |    |    | 14 |    | [Create a DreamEye]               | --      |    5 | 1 Dragon head, 5 perm. Aura                         | Ship           |
-|    | 12 |    |    |    | [Create a Flaming Sword]          | --      |    5 | 100 Aura, 1 Berserkerblut, 1 Schwert, 1 perm. Aura  | Ship           |
-|    |    |  5 |    |    | [Create A Magical Herb Pouch]     | --      |    5 | 30 Aura, 1 perm. Aura, 1 water of life              | Ship           |
-|  6 |  6 |  6 |  6 |  6 | [Create A Ring of Invisibility]   | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
-|    |    |    |    |  9 | [Create A Ring of Power]          | --      |    5 | 100 Aura, 1 perm. Aura, 4000 Silver                 | Ship           |
-|    |    |    | 13 |    | [Create A Sphere of Invisibility] | --      |    5 | 150 Aura, 30000 Silver, 3 perm. Aura                | Ship           |
-|  ? |  ? |  ? |  ? |  ? | [Create An Amulet of True Sight]  | --      |    5 | 50 Aura, 3000 Silver, 1 perm. Aura                  | Ship           |
-|    |    |    |    |  7 | [Create An Antimagic Crystal]     | --      |    5 | 50 Aura, 3000 Silver                                | Ship           |
-|    |    |  2 |    |    | [Create Iron Golems]              | --      |    4 | 2 Aura x Level, 1 Iron x Level, 1 water of life     |                |
-|    |    |  1 |    |    | [Create Stone Golems]             | --      |    4 | 2 Aura x Level, 1 Stein x Level, 1 water of life    |                |
-|    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 Aura, 50 Bauern                                  | Distance       |
-|    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 Aura x Level                                      | Distance, Ship |
-|    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 Aura, 1 Drachenkopf                              | Distance       |
-|    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 Aura                                              | Ship           |
-|    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 Aura x Level                                      | Ship           |
-|  5 |    |    |    |    | [Epic Heroes]                     | Pré-c.  |    4 | 2 Aura x Level                                      |                |
-|    |    |    |  2 |    | [Eternal Rest]                    | --      |    5 | 3 Aura x Level, 1 water of life                     |                |
-|    |    |    |    |  7 | [Eternal Walls]                   | --      |    5 | 50 Aura, 1 perm. Aura                               | Ship           |
-|    | 10 |    |    |    | [Feuerteufel]                     | --      |    5 | 50 Aura, 1 Öl                                       | Distance       |
-|    |  2 |    |    |    | [Fireball]                        | Combat  |    5 | 1 Aura x Level                                      |                |
-|    |  7 |    |    |    | [Firewall]                        | --      |    4 | 6 Aura x Level                                      |                |
-|  3 |  3 |  3 |  3 |  3 | [Firun's Coat]                    | --      |    5 | 2 Aura x Level                                      | Ship           |
-|    |    |  8 |    |    | [Gaze of the Basilisk]            | Combat  |    5 | 1 Aura x Level                                      |                |
-| 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 Aura x Level                                     |                |
-| 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 Aura                                             | Distance       |
-| 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 Aura                                             |                |
-| 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 Aura x Level                                      | Distance       |
-|  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 Aura                                              | Ship           |
-| 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 Aura x Level                                      | Distance       |
-|    |    |  2 |    |    | [Grove of Oak Trees]              | --      |    5 | 4 Aura x Level, 1 Holz x Level, 1 water of life     | Distance       |
-|    |    |  3 |    |    | [Hail]                            | Combat  |    5 | 1 Aura x Level                                      |                |
-|  7 |    |    |    |    | [Hangover]                        | --      |    5 | 28 Aura, 3 Knotige Saugwurze, 50 Silver             |                |
-|    |    |  5 |    |    | [Heal]                            | Post-c. |    5 | 1 Aura x Level                                      |                |
-|    |  1 |    |    |    | [Hex]                             | --      |    5 | 1 Aura x Level                                      |                |
-|    |    | 13 |    |    | [Hitzeelementar]                  | --      |    5 | 600 Aura                                            | Distance       |
-| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]      | --      |    5 | 20 Aura x Level                                     |                |
-|    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 Aura, 1 perm. Aura                               |                |
-|    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 Aura                                             | Distance       |
-|  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 Hit Points                                       | Ship           |
-|    |  8 |    |    |    | [Madness of War]                  | Pré-c.  |    5 | 3 Aura x Level, 10 Bauern                           |                |
-|    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 Aura x Level, 1 Stein, 1 Holz                     | Distance, Ship |
-|    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 Aura, 1 Seeschlangenkopf                        | Sea, Ship      |
-|    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 Aura                                              | Ship           |
-|    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 Aura                                             |                |
-|    |  1 |    |    |    | [Minor Curses]                    | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 Aura x Level                                      | Ship           |
-| 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 Aura, 1000 Silver, 1 perm. Aura                  | Ship           |
-| 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 Aura x Level                                      |                |
-|    |    |  3 |    |    | [Mountain Guardian]               | --      |    5 | 3 Aura x Level                                      | Distance       |
-|    |    |    |    |  7 | [Negate Curse]                    | --      |    3 | 3 Aura x Level                                      | Distance, Ship |
-|    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 Aura                                            |                |
-|    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 Aura x Level                                     | Distance, Ship |
-|    |    |    |    |  2 | [Protection from Magic]           | Pré-c.  |    2 | 3 Aura x Level                                      |                |
-|    |    |    |    |  8 | [Protective Runes]                | --      |    2 | 20 Aura                                             | Ship           |
-|  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 Aura x Level                                      | Distance, Ship |
-|    |    |  3 |    |    | [Rain of Rust]                    | --      |    5 | 2 Aura x Level                                      | Distance       |
-|    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 Aura x Level                                      | Ship           |
-|    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 Aura x Level                                      |                |
-|    |    | 12 |    |    | [Rindenhaut]                      | Pré-c.  |    2 | 4 Aura x Level                                      |                |
-|  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 Aura x Level, 1 perm. Aura x Level                |                |
-|    |    |    |    | 12 | [Rüstschild]                      | Pré-c.  |    2 | 4 Aura x Level                                      |                |
-|    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 Aura, 3 perm. Aura                               |                |
-|    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 Aura x Level                                      |                |
-|    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 Aura                                             | Distance       |
-|    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 Aura                                             | Distance       |
-|    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 Aura x Level, 1 Mallorn x Level, 1 water of life  | Distance       |
-|    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 Aura, 5 perm. Aura                              |                |
-|    |    |    |  1 |    | [Shadow Knights]                  | Pré-c.  |    4 | 1 Aura x Level                                      |                |
-|    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 Aura x Level                                      |                |
-|    |    |    |    |  8 | [Shield of the Fish]              | Pré-c.  |    2 | 4 Aura x Level                                      |                |
-|    |    |    |    |  5 | [Shockwave]                       | Combat  |    5 | 1 Aura x Level                                      |                |
-|  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 Aura x Level                                      | Distance, Ship |
-|    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 Aura x Level                                      |                |
-|  4 |    |    |    |    | [Song of Confusion]               | Pré-c.  |    5 | 2 Aura x Level                                      |                |
-|  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 Aura x Level                                      |                |
-|  8 |    |    |    |    | [Song of Fear]                    | Pré-c.  |    5 | 5 Aura x Level                                      |                |
-|  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 Aura x Level                                      | Distance, Ship |
-|  2 |    |    |    |    | [Song of Healing]                 | Post-c. |    5 | 1 Aura x Level                                      |                |
-|  6 |    |    |    |    | [Song of Seduction]               | --      |    5 | 12 Aura                                             |                |
-|  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 Aura x Level                                      |                |
-|  7 |    |    |    |    | [Song of War]                     | Pré-c.  |    4 | 5 Aura x Level                                      |                |
-|  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 Aura, 100 Silver                                  |                |
-|    |    |    |    |  6 | [Steal Aura]                      | --      |    3 | 2 Aura x Level                                      | Distance       |
-|    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 Aura                                            |                |
-|    |    |  8 |    |    | [Strong Wall And Sturdy Gate]     | Pré-c.  |    5 | 2 Aura x Level                                      |                |
-|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |    5 | 25 Aura, 2 Laen                                     | Distance       |
-|  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 Aura, 5 perm. Aura                              |                |
-|    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 Aura x Level                                      |                |
-|    |    |  6 |    |    | [Summon Storm Elemental]          | --      |    5 | 6 Aura x Level                                      | Sea, Ship      |
-|    |    |  4 |    |    | [Summon Water Elemental]          | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    |    |    | 12 |    | [Süße Träume]                     | --      |    5 | 5 Aura x Level                                      |                |
-|    |    |  9 |    |    | [Ties of Life]                    | --      |    7 | 2 Aura x Level                                      |                |
-|    |    |  7 |    |    | [Timber Wolves]                   | Pré-c.  |    5 | 2 Aura x Level                                      |                |
-|    |    |    |  4 |    | [Tiredness]                       | Pré-c.  |    5 | 4 Aura x Level                                      |                |
-|    |    |    | 11 |    | [Tod des Geistes]                 | Pré-c.  |    5 | 2 Aura x Level                                      |                |
-|    | 11 |    |    |    | [Todeswolke]                      | --      |    5 | 40 Aura, 15 Hit Points                              | Distance       |
-|    |    | 17 |    |    | [Tor in die Ebene der Hitze]      | --      |    5 | 800 Aura                                            | Distance       |
-|    |    |    |    |  5 | [Transfer Aura]                   | --      |    1 | 1 Aura                                              | Ship           |
-|    |  7 |    |    |    | [Transfer Power]                  | --      |    1 | 2 Aura                                              | Ship           |
-|    |    |    |  8 |    | [Traumbilder entwirren]           | --      |    2 | 6 Aura x Level                                      | Distance, Ship |
-|    |    |    |  4 |    | [Traumlesen]                      | --      |    5 | 8 Aura                                              | Distance       |
-|    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 Aura x Level                                      |                |
-|    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 Aura x Level, 5 Bauern x Level                   |                |
-|    |    |    |  2 |    | [Unspeakable Horrors]             | Pré-c.  |    5 | 1 Aura x Level                                      |                |
-|    |    |  9 |    |    | [Path of Trees]                   | --      |    7 | 3 Aura x Level                                      |                |
-|    |    |  5 |    |    | [Whirlwind]                       | Pré-c.  |    5 | 15 Aura                                             |                |
-|    |  6 |    |    |    | [Winds of Rust]                   | Combat  |    5 | 2 Aura x Level                                      |                |
-|    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 Aura, 10 perm. Aura, 1 Tiegel mit Krötenschleim | Distance       |
-|    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 Aura x Level                                      | Ship           |
+|  C |  D |  G |  I |  T | Nom                               | Type    | Rank | Composants                                            | Modificateurs    |
+|---:|---:|---:|---:|---:|-----------------------------------|:--------|-----:|-------------------------------------------------------|------------------|
+|    |    |    |    |  9 | [Acceleration]                    | Pré-c.  |    5 | 5 aura x niveau                                       |                  |
+|    |    |  4 |    |    | [Air Shield]                      | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
+|    |    |    |    |  6 | [Airship]                         | --      |    5 | 10 aura, 1 [gousse], 1 [pétale de cristal de neige]   | Bateau           |
+|    |    |    |  5 |    | [Analyse Dreams]                  | --      |    5 | 25 aura                                               | Bateau           |
+|  8 |    |    |    |    | [Analysis]                        | --      |    5 | 3 aura x niveau                                       | Bateau           |
+|    |    |    |    |  1 | [Analyze Magic]                   | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|  5 |    |    |    |    | [Analyze Song of Life]            | --      |    5 | 10 aura                                               | Bateau           |
+|    |  6 |    |    |    | [Animate Dead]                    | --      |    5 | 5 aura x niveau                                       | Distance, Bateau |
+|    |    |    |    |  5 | [Antimagic]                       | --      |    2 | 3 aura x niveau                                       | Distance         |
+|  1 |    |    |    |    | [Appeasing Song]                  | Pré-c.  |    5 | 2 aura                                                |                  |
+|    |    |    |    |  6 | [Astral Call]                     | --      |    7 | 2 aura x niveau                                       |                  |
+|    |  9 |    |    |    | [Astral Chaos]                    | Pré-c.  |    2 | 6 aura x niveau                                       |                  |
+|    |    |    |    |  4 | [Astral Exit]                     | --      |    7 | 2 aura x niveau                                       |                  |
+|    |    |  5 |    |    | [Astral Guardian Spirits]         | Pré-c.  |    2 | 5 aura x niveau                                       |                  |
+|    |  9 |    |    |    | [Astral Leak]                     | --      |    3 | 35 aura, 1 [[sang-de-dragon]]                         |                  |
+|    |    |    |    |  4 | [Astral Path]                     | --      |    7 | 2 aura x niveau                                       |                  |
+| 15 |    |    |    |    | [Aufruhr beschwichtigen]          | --      |    5 | 30 aura                                               | Distance         |
+| 16 |    |    |    |    | [Aufruhr verursachen]             | --      |    5 | 40 aura                                               | Distance         |
+|    |    | 10 |    |    | [Awakening of the Ents]           | --      |    5 | 6 aura x niveau                                       |                  |
+|    |    |  8 |    |    | [Banish Spirits]                  | --      |    2 | 6 aura x niveau                                       | Distance, Bateau |
+|    |    |    |    | 13 | [Belebtes Gestein]                | --      |    5 | 10 aura x niveau, 1 aura permanent, 5 Laen            |                  |
+|    | 12 |    |    |    | [Beschwöre Schattenmeister]       | --      |    5 | 7 aura x niveau                                       |                  |
+|  4 |    |    |    |    | [Blabbermouth]                    | --      |    5 | 10 aura                                               |                  |
+|    |    |  1 |    |    | [Blessed Harvest]                 | --      |    5 | 1 aura x niveau                                       | Distance, Bateau |
+|    |    |    |    | 10 | [Blick in die Realität]           | --      |    5 | 40 aura                                               |                  |
+|    |  5 |    |    |    | [Blood Frenzy]                    | Pré-c.  |    4 | 5 aura x niveau, 1 Bauer                              |                  |
+|    |    |    |    |  6 | [Call of Reality]                 | --      |    7 | 2 aura x niveau                                       |                  |
+|  6 |    |    |    |    | [Calm Monster]                    | --      |    5 | 15 aura                                               | Bateau           |
+|    |    |    |  3 |    | [Castle of Illusion]              | --      |    5 | 3 aura                                                |                  |
+|    |    |  1 |    |    | [Cattle Healing]                  | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|    |  5 |    |    |    | [Chaos Curse]                     | --      |    4 | 4 aura x niveau                                       |                  |
+|    |  3 |    |    |    | [Chaos Gift]                      | --      |    3 | 6 aura                                                | Bateau           |
+|    | 14 |    |    |    | [Chaossog]                        | --      |    5 | 150 aura, 200 Bauern                                  |                  |
+|    |    |    |    |  1 | [Concealing aura]                 | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|  5 |    |    |    |    | [Countersong]                     | Pré-c.  |    2 | 5 aura x niveau                                       |                  |
+|    |    |    |    | 10 | [Create A Bag of Negative Weight] | --      |    5 | 30 aura, 1 aura permanent, 5000 silver                | Bateau           |
+|    |  9 |    |    |    | [Create A Belt of Troll Strength] | --      |    5 | 20 aura, 1 aura permanent                             | Bateau           |
+|    |    |    | 14 |    | [Create a DreamEye]               | --      |    5 | 1 Dragon head, 5 aura permanent                       | Bateau           |
+|    | 12 |    |    |    | [Create a Flaming Sword]          | --      |    5 | 100 aura, 1 Berserkerblut, 1 épée, 1 aura permanent   | Bateau           |
+|    |    |  5 |    |    | [Create A Magical Herb Pouch]     | --      |    5 | 30 aura, 1 aura permanent, 1 water of life            | Bateau           |
+|  6 |  6 |  6 |  6 |  6 | [Create A Ring of Invisibility]   | --      |    5 | 50 aura, 3000 silver, 1 aura permanent                | Bateau           |
+|    |    |    |    |  9 | [Create A Ring of Power]          | --      |    5 | 100 aura, 1 aura permanent, 4000 silver               | Bateau           |
+|    |    |    | 13 |    | [Create A Sphere of Invisibility] | --      |    5 | 150 aura, 30000 silver, 3 aura permanent              | Bateau           |
+|  ? |  ? |  ? |  ? |  ? | [Create An Amulet of True Sight]  | --      |    5 | 50 aura, 3000 silver, 1 aura permanent                | Bateau           |
+|    |    |    |    |  7 | [Create An Antimagic Crystal]     | --      |    5 | 50 aura, 3000 silver                                  | Bateau           |
+|    |    |  2 |    |    | [Create Iron Golems]              | --      |    4 | 2 aura x niveau, 1 Iron x niveau, 1 water of life     |                  |
+|    |    |  1 |    |    | [Create Stone Golems]             | --      |    4 | 2 aura x niveau, 1 pierre x niveau, 1 water of life   |                  |
+|    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 aura, 50 Bauern                                    | Distance         |
+|    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 aura x niveau                                       | Distance, Bateau |
+|    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 aura, 1 Drachenkopf                                | Distance         |
+|    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 aura                                                | Bateau           |
+|    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|  5 |    |    |    |    | [Epic Heroes]                     | Pré-c.  |    4 | 2 aura x niveau                                       |                  |
+|    |    |    |  2 |    | [Eternal Rest]                    | --      |    5 | 3 aura x niveau, 1 water of life                      |                  |
+|    |    |    |    |  7 | [Eternal Walls]                   | --      |    5 | 50 aura, 1 aura permanent                             | Bateau           |
+|    | 10 |    |    |    | [Feuerteufel]                     | --      |    5 | 50 aura, 1 Öl                                         | Distance         |
+|    |  2 |    |    |    | [Fireball]                        | Combat  |    5 | 1 aura x niveau                                       |                  |
+|    |  7 |    |    |    | [Firewall]                        | --      |    4 | 6 aura x niveau                                       |                  |
+|  3 |  3 |  3 |  3 |  3 | [Firun's Coat]                    | --      |    5 | 2 aura x niveau                                       | Bateau           |
+|    |    |  8 |    |    | [Gaze of the Basilisk]            | Combat  |    5 | 1 aura x niveau                                       |                  |
+| 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 aura x niveau                                      |                  |
+| 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 aura                                               | Distance         |
+| 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 aura                                               |                  |
+| 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 aura x niveau                                       | Distance         |
+|  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 aura                                                | Bateau           |
+| 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 aura x niveau                                       | Distance         |
+|    |    |  2 |    |    | [Grove of Oak Trees]              | --      |    5 | 4 aura x niveau, 1 bois x niveau, 1 eau de vie        | Distance         |
+|    |    |  3 |    |    | [Hail]                            | Combat  |    5 | 1 aura x niveau                                       |                  |
+|  7 |    |    |    |    | [Hangover]                        | --      |    5 | 28 aura, 3 Knotige Saugwurze, 50 silver               |                  |
+|    |    |  5 |    |    | [Heal]                            | Post-c. |    5 | 1 aura x niveau                                       |                  |
+|    |  1 |    |    |    | [Hex]                             | --      |    5 | 1 aura x niveau                                       |                  |
+|    |    | 13 |    |    | [Hitzeelementar]                  | --      |    5 | 600 aura                                              | Distance         |
+| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]      | --      |    5 | 20 aura x niveau                                      |                  |
+|    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 aura, 1 aura permanent                             |                  |
+|    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 aura                                               | Distance         |
+|  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 PV                                                 | Bateau           |
+|    |  8 |    |    |    | [Madness of War]                  | Pré-c.  |    5 | 3 aura x niveau, 10 Bauern                            |                  |
+|    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 aura x niveau, 1 pierre, 1 bois                     | Distance, Bateau |
+|    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 aura, 1 tête de serpent de mer                    | Sea, Bateau      |
+|    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 aura                                                | Bateau           |
+|    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 aura                                               |                  |
+|    |  1 |    |    |    | [Minor Curses]                    | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 aura x niveau                                       | Bateau           |
+| 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 aura, 1000 silver, 1 aura permanent                | Bateau           |
+| 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 aura x niveau                                       |                  |
+|    |    |  3 |    |    | [Mountain Guardian]               | --      |    5 | 3 aura x niveau                                       | Distance         |
+|    |    |    |    |  7 | [Negate Curse]                    | --      |    3 | 3 aura x niveau                                       | Distance, Bateau |
+|    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 aura                                              |                  |
+|    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 aura x niveau                                      | Distance, Bateau |
+|    |    |    |    |  2 | [Protection from Magic]           | Pré-c.  |    2 | 3 aura x niveau                                       |                  |
+|    |    |    |    |  8 | [Protective Runes]                | --      |    2 | 20 aura                                               | Bateau           |
+|  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 aura x niveau                                       | Distance, Bateau |
+|    |    |  3 |    |    | [Rain of Rust]                    | --      |    5 | 2 aura x niveau                                       | Distance         |
+|    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 aura x niveau                                       | Bateau           |
+|    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 aura x niveau                                       |                  |
+|    |    | 12 |    |    | [Rindenhaut]                      | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
+|  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 aura x niveau, 1 aura permanent x niveau            |                  |
+|    |    |    |    | 12 | [Rüstschild]                      | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
+|    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 aura, 3 aura permanent                             |                  |
+|    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 aura x niveau                                       |                  |
+|    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 aura                                               | Distance         |
+|    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 aura                                               | Distance         |
+|    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 aura x niveau, 1 mallorn x niveau, 1 water of life  | Distance         |
+|    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 aura, 5 aura permanent                            |                  |
+|    |    |    |  1 |    | [Shadow Knights]                  | Pré-c.  |    4 | 1 aura x niveau                                       |                  |
+|    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 aura x niveau                                       |                  |
+|    |    |    |    |  8 | [Shield of the Fish]              | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
+|    |    |    |    |  5 | [Shockwave]                       | Combat  |    5 | 1 aura x niveau                                       |                  |
+|  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 aura x niveau                                       | Distance, Bateau |
+|    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 aura x niveau                                       |                  |
+|  4 |    |    |    |    | [Song of Confusion]               | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
+|  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 aura x niveau                                       |                  |
+|  8 |    |    |    |    | [Song of Fear]                    | Pré-c.  |    5 | 5 aura x niveau                                       |                  |
+|  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 aura x niveau                                       | Distance, Bateau |
+|  2 |    |    |    |    | [Song of Healing]                 | Post-c. |    5 | 1 aura x niveau                                       |                  |
+|  6 |    |    |    |    | [Song of Seduction]               | --      |    5 | 12 aura                                               |                  |
+|  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 aura x niveau                                       |                  |
+|  7 |    |    |    |    | [Song of War]                     | Pré-c.  |    4 | 5 aura x niveau                                       |                  |
+|  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 aura, 100 silver                                    |                  |
+|    |    |    |    |  6 | [Steal aura]                      | --      |    3 | 2 aura x niveau                                       | Distance         |
+|    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 aura                                              |                  |
+|    |    |  8 |    |    | [Strong Wall And Sturdy Gate]     | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
+|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |    5 | 25 aura, 2 Laen                                       | Distance         |
+|  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 aura, 5 aura permanent                            |                  |
+|    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 aura x niveau                                       |                  |
+|    |    |  6 |    |    | [Summon Storm Elemental]          | --      |    5 | 6 aura x niveau                                       | Sea, Bateau      |
+|    |    |  4 |    |    | [Summon Water Elemental]          | --      |    5 | 1 aura x niveau                                       | Bateau           |
+|    |    |    | 12 |    | [Süße Träume]                     | --      |    5 | 5 aura x niveau                                       |                  |
+|    |    |  9 |    |    | [Ties of Life]                    | --      |    7 | 2 aura x niveau                                       |                  |
+|    |    |  7 |    |    | [Timber Wolves]                   | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
+|    |    |    |  4 |    | [Tiredness]                       | Pré-c.  |    5 | 4 aura x niveau                                       |                  |
+|    |    |    | 11 |    | [Tod des Geistes]                 | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
+|    | 11 |    |    |    | [Todeswolke]                      | --      |    5 | 40 aura, 15 PV                                        | Distance         |
+|    |    | 17 |    |    | [Tor in die Ebene der Hitze]      | --      |    5 | 800 aura                                              | Distance         |
+|    |    |    |    |  5 | [Transfer aura]                   | --      |    1 | 1 aura                                                | Bateau           |
+|    |  7 |    |    |    | [Transfer Power]                  | --      |    1 | 2 aura                                                | Bateau           |
+|    |    |    |  8 |    | [Traumbilder entwirren]           | --      |    2 | 6 aura x niveau                                       | Distance, Bateau |
+|    |    |    |  4 |    | [Traumlesen]                      | --      |    5 | 8 aura                                                | Distance         |
+|    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 aura x niveau                                       |                  |
+|    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 aura x niveau, 5 Bauern x niveau                   |                  |
+|    |    |    |  2 |    | [Unspeakable Horrors]             | Pré-c.  |    5 | 1 aura x niveau                                       |                  |
+|    |    |  9 |    |    | [Path of Trees]                   | --      |    7 | 3 aura x niveau                                       |                  |
+|    |    |  5 |    |    | [Whirlwind]                       | Pré-c.  |    5 | 15 aura                                               |                  |
+|    |  6 |    |    |    | [Winds of Rust]                   | Combat  |    5 | 2 aura x niveau                                       |                  |
+|    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 aura, 10 aura permanent, 1 pot de bave de crapaud | Distance         |
+|    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 aura x niveau                                       | Bateau           |
 
 Poursuivre la lecture : [[alchimie|potions]].
 
@@ -172,7 +175,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Astral Guardian Spirits]: ./spells-descriptions.md#astral-guardian-spirits
 [Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen
 [Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen
-[Transfer Aura]: ./spells-descriptions.md#transfer-aura
+[Transfer aura]: ./spells-descriptions.md#transfer-aura
 [Sound out]: ./spells-descriptions.md#sound-out
 [Countersong]: ./spells-descriptions.md#countersong
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
@@ -269,7 +272,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Sleep]: ./spells-descriptions.md#sleep
 [Schlechte Träume]: ./spells-descriptions.md#schlechte-traume
 [Insomnia]: ./spells-descriptions.md#insomnia
-[Concealing Aura]: ./spells-descriptions.md#concealing-aura
+[Concealing aura]: ./spells-descriptions.md#concealing-aura
 [Shockwave]: ./spells-descriptions.md#shockwave
 [Protection from Magic]: ./spells-descriptions.md#protection-from-magic
 [Resist Magic]: ./spells-descriptions.md#resist-magic
@@ -281,7 +284,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
 [Ties of Life]: ./spells-descriptions.md#sog-des-lebens
 [Strong Wall And Sturdy Gate]: ./spells-descriptions.md#strong-wall-and-sturdy-gate
-[Steal Aura]: ./spells-descriptions.md#steal-aura
+[Steal aura]: ./spells-descriptions.md#steal-aura
 [Summon Storm Elemental]: ./spells-descriptions.md#summon-storm-elemental
 [Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
 [Süße Träume]: ./spells-descriptions.md#sue-traume
@@ -311,3 +314,6 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Miracle Doctor]: ./spells-descriptions.md#miracle-doctor
 [Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
 [Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
+
+[gousse]: ./herbs.md#gousse
+[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige

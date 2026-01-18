@@ -6,7 +6,51 @@ alias: war-tables
 
 This page lists combat-relevant properties of weapons, armor, and races.
 
-## Weapon properties
+## Weapons
+
+### Adamantium axe
+
+### Axe
+
+### Bow
+
+### Catapult
+
+### Claymore
+
+### Crossbow
+
+### Elven bow
+
+### [[flaming-sword]]
+
+### Halberd
+
+### Laen sword
+
+### Lance
+
+### Mallorn bow
+
+### Mallorn crossbow
+
+### Mallorn lance
+
+### Mallorn spear
+
+### Rusty axe
+
+### Rusty halberd
+
+### Rusty sword
+
+### Rusty two-handed sword
+
+### Spear
+
+### Sword
+
+## Weapons - Summary table
 
 | Weapon                 | Dam./foot |    ⌀ | Dam./horse | ⌀    | OB | DB | Skill | Sum |
 |------------------------|----------:|-----:|-----------:|------|---:|---:|:-----:|----:|
@@ -57,22 +101,41 @@ Remarks:
 
 - Damage incurred while on horseback only applies in conjunction with the [horse bonus]
 - OB and DB represent the offensive and defensive bonuses; thus, an axe is designed more as an offensive weapon, while a halberd is more useful for defense
-- All Mallorn weapons increase magic resistance by 15%, all laen weapons and armor by 30% (details on magic resistance follow below)
+- All Mallorn weapons increase magic resistance by 15%, all laen weapons and armors by 30% (see [below])
 - A [[flaming-sword]] also conjures a small fireball per combat round
 
 ## Endurance
 
-Increased hit points through endurance. Formula: (lvl/2)^(1.5) x 20%.
+Increased hit points (HP) through [endurance], with the folloxwwing formula:
 
-| Endurance level       |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 | ... |    15 | ... |    20 | ... |    25 | ... |     30 | ... |     35 | ... |     40 |
-|-----------------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|----:|------:|----:|------:|----:|------:|----:|-------:|----:|-------:|----:|-------:|
-| Hit points            | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | ... | +410% | ... | +632% | ... | +883% | ... | +1161% | ... | +%1464 | ... | +1788% |
-| Goblins               |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 | ... |    81 | ... |   117 | ... |   157 | ... |    201 | ... |    250 | ... |    302 |
-| Elves/Halflings       |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 | ... |    91 | ... |   131 | ... |   177 | ... |    227 | ... |    281 | ... |    339 |
-| Cats/Aquarians/Humans |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 | ... |   102 | ... |   146 | ... |   196 | ... |    252 | ... |    312 | ... |    377 |
-| Dwarves/Orcs/Insects  |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 | ... |   122 | ... |   175 | ... |   236 | ... |    302 | ... |    375 | ... |    453 |
-| Trolls                |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 | ... |   153 | ... |   219 | ... |   295 | ... |    378 | ... |    469 | ... |    566 |
-| Demons                |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 | ... |   255 | ... |   366 | ... |   491 | ... |    630 | ... |    782 | ... |    944 |
+<!-- cspell:disable -->
+:   $$
+    \text{HP bonus (in \%)} = \left(\frac{\text{level}}{2}\right)^{1.5} \times 0.20
+    $$
+<!-- cspell:enable -->
+
+| Level      |   0 |   1 |    2 |    3 |    4 |    5 |     6 |     7 |     8 |     9 |    10 |    15 |    20 |    25 |     30 |     35 |     40 |
+|------------|----:|----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|------:|------:|------:|-------:|-------:|-------:|
+| Hit points | +0% | +7% | +20% | +37% | +57% | +79% | +104% | +131% | +160% | +191% | +224% | +410% | +632% | +883% | +1161% | +1464% | +1788% |
+| Aquarians  |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Cats       |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Demons     |  50 |  53 |   60 |   68 |   78 |   89 |   101 |   115 |   130 |   145 |   161 |   255 |   366 |   491 |    630 |    782 |    944 |
+| Dwarves    |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| Elves      |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 |    91 |   131 |   177 |    227 |    281 |    339 |
+| Goblins    |  16 |  17 |   19 |   21 |   25 |   28 |    32 |    36 |    41 |    46 |    51 |    81 |   117 |   157 |    201 |    250 |    302 |
+| Halflings  |  18 |  19 |   21 |   24 |   28 |   32 |    36 |    41 |    46 |    52 |    58 |    91 |   131 |   177 |    227 |    281 |    339 |
+| Humans     |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
+| Insects    |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| Orcs       |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| Trolls     |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 |   153 |   219 |   295 |    378 |    469 |    566 |
+
+??? tip "Bonus calculation based on endurance"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="war-tables-compute-endurance-input" class="md-input-label">Level:</label>
+        <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+        <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Compute</button>
+        <p style="margin-top: 1em;">Bonus: <strong id="war-tables-compute-endurance-result">---</strong></p>
+    </div>
 
 ## Health status
 
@@ -84,7 +147,29 @@ A unit can be in one of the following health status:
 - Strong: > 150% HP
 - Very strong: > 200% HP
 
-## Armor
+## Armors
+
+### Adamantium armor
+
+<!-- TODO: check: or adamantium platemail ? -->
+
+### Chainmail
+
+### Laen chainmail
+
+### Laen shield
+
+### Platemail
+
+### Rusty Chainmail
+
+### Rusty platemail
+
+### Rusty shield
+
+### Shield
+
+## Armors - Summary
 
 | Armor            | Protection | Chance to hit |
 |------------------|:----------:|--------------:|
@@ -171,3 +256,5 @@ An elf with a longsword and full longsword armor (shield + chain) therefore does
 [B]: ./skills-list.md#bow
 [M]: ./skills-list.md#melee
 [H]: ./skills-list.md#polearm
+[endurance]: ./skills-list.md#endurance
+[below]: #magic-resistance

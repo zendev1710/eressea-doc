@@ -165,7 +165,6 @@
 [orders/commands-send-from-magellan.md](./orders/commands-send-from-magellan.md)
 [orders/commands-send.md](./orders/commands-send.md)
 [orders/commands-sequence.md](./orders/commands-sequence.md)
-[orders/commands-short-descriptions.md](./orders/commands-short-descriptions.md)
 [orders/commands.md](./orders/commands.md)
 [orders/first-round.md](./orders/first-round.md)
 [orders/puppy-protection.md](./orders/puppy-protection.md)

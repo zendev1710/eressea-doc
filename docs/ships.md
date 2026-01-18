@@ -41,16 +41,32 @@ So once you start building a longboat, you won't be able to convert it into a ca
 
 Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.
 
+## Ship types
+
+### Boat
+
+### Longboat
+
+### Dragonship
+
+### Caravel
+
+### Trireme
+
+### Galleon
+
+### Ships - Summary table
+
 Ships - type, range, capacity, needed sailing skill for captain/crew, needed building skill, needed wood.
 
-| Type       | Range | Capacity | Captain/Crew | Building skill | Wood |
-|------------|:-----:|---------:|-------------:|---------------:|-----:|
-| Boot       |     2 |       50 |          1/2 |              1 |    5 |
-| Longboat   |     3 |      500 |         1/10 |              1 |   50 |
-| Dragonship | 5[^1] |     1000 |         2/50 |              2 |  100 |
-| Caravel    |     5 |     3000 |         3/30 |              3 |  250 |
-| Trireme    |     7 |     2000 |        4/120 |              4 |  200 |
-| Galleon    |     5 |    20000 |    5/250[^2] |              5 | 2000 |
+| Type       | Range | Capacity | Captain/Crew | Building skill |  Wood |
+|------------|:-----:|---------:|-------------:|---------------:|------:|
+| Boat       |   2   |       50 |          1/2 |              1 |     5 |
+| Longboat   |   3   |      500 |         1/10 |              1 |    50 |
+| Dragonship | 5[^1] |    1 000 |         2/50 |              2 |   100 |
+| Caravel    |   5   |    3 000 |         3/30 |              3 |   250 |
+| Trireme    |   7   |    2 000 |        4/120 |              4 |   200 |
+| Galleon    |   5   |   20 000 |    5/250[^2] |              5 | 2 000 |
 
 [^1]: Dragonship speed depends on captain sailing skill.
 [^2]: Only units from level 2 in sails are taken into account for the overall skill of the galleon.
@@ -63,6 +79,7 @@ Dragon ship speed.
 
 ## Convoy
 
+<!-- TODO: translate from french -->
 De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple
 
 ```text

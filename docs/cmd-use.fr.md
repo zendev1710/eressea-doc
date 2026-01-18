@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-use-fr
 ---
-# USE
+# `USE`
 
 **`USE`**`[`*`<quantité>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  
 **`USE`**`[`*`<quantité>`*`] "`*`<Item>`*`" [...]`  

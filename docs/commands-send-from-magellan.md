@@ -7,17 +7,18 @@ alias: sending-orders-from-magellan
 <!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
 ![Sending commands with Magellan using Gmail as an example](./assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
 
-[[magellan]] offers the possibility of [[sending-orders|emailing]] the orders directly from the program.
-The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer and they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.
-To have a copy of the email sent, you can send a copy of the orders to your own address.
-To do this, you have to make the appropriate settings in Magellan, including the correct data from the mail provider's SMTP server.
-The data is usually obtained from the provider's help, for some the data is given below.
-In addition, the provider may have to explicitly grant permission for external programs.
+[[magellan]] offers the possibility of [[sending-orders|emailing]] the orders directly from the program.  
+The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer.
+More, they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.  
+To have a copy of the email sent, you can send a copy of the orders to your own address.  
+To do this, you have to make the appropriate settings in Magellan, including the correct data from the mail provider's SMTP server.  
+The data is usually obtained from the provider's help, for some the data is given below.  
+In addition, the provider may have to explicitly grant permission for external programs.  
 
 ## In Magellan
 
-The setting can be found at `File => Save Orders...` in the second tab `E-Mail`.
-Once the settings have been made, you can also do so directly via `File => Send orders by E-Mail` send.
+The setting can be found at `File => Save Orders...`, in the second tab `E-Mail`.  
+Once the settings have been made, you can also directly send your e-mail via `File => Send orders by E-Mail`.  
 
 **Return address:** Your email  
 **SMTP server:** From the mail provider (see below)  
@@ -31,8 +32,7 @@ Once the settings have been made, you can also do so directly via `File => Send 
 **Copy to sender:** Also sends the orders to the sender address  
 **Use SSL/TLS:** email encryption; Should be selected if possible if supported by the mail provider (if in doubt, just try it out)  
 
-Use authentication  
-usually necessary  
+**Use authentication:** usually necessary  
 
 **always ask:** Requests the mail provider password every time you send it, so it doesn't have to be saved in Magellan  
 **Use values from CR:** Automatically fills the recipient address and subject if the data is in the CR  
@@ -41,9 +41,9 @@ For some well-known mail providers, here are the required values, as far as is c
 
 ## GMX
 
-GMX's help for the SMTP server can be found at [GMX Support - SMTP], and to the SMTP settings under [GMX Support - SMTP server].
-In addition, it is necessary to grant external authorization to send.
-This will be explained (including video) at [this other GMX Support link].
+GMX's help for the SMTP server can be found at [GMX Support - SMTP], and to the SMTP settings under [GMX Support - SMTP server].  
+In addition, it is necessary to grant external authorization to send.  
+This will be explained (including video) at [this other GMX Support link].  
 
 **Return address:** Your email at GMX  
 **SMTP server:** mail.gmx.net  
@@ -70,9 +70,10 @@ This will be explained (including video) at [this other GMX Support link].
 **Use TLS:** Regardless, both work  
 **Use authentication:** Yes  
 
-!!! warning "Achtung"
+!!! warning "Caution"
     From May 30, 2022 at the latest, this will no longer work simply with the Gmail password ([unsecured applications and Gmail]).
-    Instead, you have to set up a so-called use app password. The Gmail documentation reveals more details: [application password and Gmail].
+    Instead, you have to set up a so-called use app password.
+    The Gmail documentation reveals more details: [application password and Gmail].
     Instead of the Gmail password, you simply enter the app password in Magellan.
 
 ## Freenet

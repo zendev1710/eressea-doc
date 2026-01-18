@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-password-fr
 ---
-# PASSWORD
+# `PASSWORD`
 
 **`PASSWORD`**`["new-password"]`  
 
@@ -36,6 +36,6 @@ Quelques précisions :
 - Le mot de passe doit être défini par une unité
 - Le mot de passe qui était valide lors du dernier tour ou celui qui a été défini lors du dernier tour s'applique toujours au fichier d'ordres respectif.
   Le mot de passe des envois d'ordre précédents reste valable même si plusieurs fichiers d'ordre ont été envoyés pour le train d'ordres actuel dans lequel des mots de passe différents ont été définis
-- Le mot de passe n'a été réinitialisé avec succès que si le message "The password was changed to ..." a été inclus dans l'évaluation
+- Le mot de passe n'a été réinitialisé avec succès que si le message `The password was changed to ...` a été inclus dans l'évaluation
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->

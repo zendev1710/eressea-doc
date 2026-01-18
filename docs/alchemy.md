@@ -43,10 +43,10 @@ The "residual effect" of potions does not expire with all potions, so that, for 
 
 To be made, this potion requires the following herbs:
 
-- 1 flatroot
-- 1 mandrake
-- 1 sand reeker
-- 1 white hemlock
+- 1 [flatroot]
+- 1 [mandrake]
+- 1 [sand reeker]
+- 1 [white hemlocks]
 
 ### Brain wax
 
@@ -57,10 +57,10 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 bugleweed
-- 1 rock weed
-- 1 waterfinder
-- 1 windbag
+- 1 [bugleweed]
+- 1 [rock weed]
+- 1 [waterfinder]
+- 1 [windbag]
 
 ### Busybeer
 
@@ -71,9 +71,9 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 gapgrowth
-- 1 mandrake
-- 1 tangy temerity
+- 1 [gapgrowth]
+- 1 [mandrake]
+- 1 [tangy temerity]
 
 ### Duncebun
 
@@ -84,10 +84,10 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 cave lichen
-- 1 fjord fungus
-- 1 owlsgaze
-- 1 spider ivy
+- 1 [cave lichen]
+- 1 [fjord fungus]
+- 1 [owlsgaze]
+- 1 [spider ivy]
 
 !!! note
     You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
@@ -103,12 +103,12 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 Dragon blood
-- 1 bubblemorel
-- 1 elvendear
-- 1 spider ivy
-- 1 waterfinder
-- 1 windbag
+- 1 [[dragonblood]]
+- 1 [bubblemorel]
+- 1 [elvendear]
+- 1 [spider ivy]
+- 1 [waterfinder]
+- 1 [windbag]
 
 ### Goliath water
 
@@ -119,8 +119,8 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 bugleweed
-- 1 fjord fungus
+- 1 [bugleweed]
+- 1 [fjord fungus]
 
 ### Healing potion
 
@@ -131,11 +131,11 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 bugleweed
-- 1 elvendear
-- 1 gapgrowth
-- 1 ice begonia
-- 1 windbag
+- 1 [bugleweed]
+- 1 [elvendear]
+- 1 [gapgrowth]
+- 1 [ice begonia]
+- 1 [windbag]
 
 ### Horsepower potion
 
@@ -146,10 +146,10 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 cobalt fungus
-- 1 knotroot
-- 1 peyote,
-- 1 sand reeker
+- 1 [cobalt fungus]
+- 1 [knotroot]
+- 1 [peyote],
+- 1 [sand reeker]
 
 ### Ointment
 
@@ -160,9 +160,9 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 cobalt fungus
-- 1 tangy temerity
-- 1 white hemlock
+- 1 [cobalt fungus]
+- 1 [tangy temerity]
+- 1 [white hemlocks]
 
 ### Peasant blood
 
@@ -173,9 +173,9 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following **ingredients**:
 
-- 1 cave lichen,
-- 1 cobalt fungus
-- 1 fjord fungus
+- 1 [cave lichen]
+- 1 [cobalt fungus]
+- 1 [fjord fungus]
 - 1 **peasant**
 
 !!! note
@@ -191,11 +191,11 @@ To be made, this potion requires the following **ingredients**:
 
 To be made, this potion requires the following herbs:
 
-- 1 bubblemorel
-- 1 elvendear
-- 1 mandrake
-- 1 rock weed
-- 1 snowcrystal petal
+- 1 [bubblemorel]
+- 1 [elvendear]
+- 1 [mandrake]
+- 1 [rock weed]
+- 1 [snowcrystal petal]
 
 ### Potion of nest warmth
 
@@ -206,10 +206,10 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 gapgrowth
-- 1 ice begonia
-- 1 peyote
-- 1 spider ivy
+- 1 [gapgrowth]
+- 1 [ice begonia]
+- 1 [peyote]
+- 1 [spider ivy]
 
 ### Potion of truth
 
@@ -220,8 +220,8 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 fjord fungus
-- 1 flatroot
+- 1 [fjord fungus]
+- 1 [flatroot]
 
 ### Seven mile tea
 
@@ -232,8 +232,8 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 cobalt fungus
-- 1 windbag
+- 1 [cobalt fungus]
+- 1 [windbag]
 
 ### Water of life
 
@@ -244,8 +244,8 @@ To be made, this potion requires the following herbs:
 
 To be made, this potion requires the following herbs:
 
-- 1 elvendear
-- 1 knotroot
+- 1 [elvendear]
+- 1 [knotroot]
 
 ## Summary table
 
@@ -300,7 +300,7 @@ In this case, you get an error message and the Duncebun is not used up (thus it 
 | spider ivy        |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
 | tangy temerity    |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
 | waterfinder       |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
-| white hemlock     |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| white hemlocks    |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
 | windbag           |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
 
 Continue reading: [[herbs]].
@@ -312,3 +312,24 @@ Continue reading: [[herbs]].
 [Insects]: ./races.md#insects
 
 [Duncebun]: #duncebun
+
+[bubblemorel]: ./herbs.md#bubblemorel
+[bugleweed]: ./herbs.md#bugleweed
+[cave lichen]: ./herbs.md#cave-lichen
+[cobalt fungus]: ./herbs.md#cobalt-fungus
+[elvendear]: ./herbs.md#elvendear
+[fjord fungus]: ./herbs.md#fjord-fungus
+[flatroot]: ./herbs.md#flatroot
+[gapgrowth]: ./herbs.md#gapgrowth
+[ice begonia]: ./herbs.md#ice-begonia
+[knotroot]: ./herbs.md#knotroot
+[mandrake]: ./herbs.md#mandrake
+[owlsgaze]: ./herbs.md#owlsgaze
+[rock weed]: ./herbs.md#rock-weed
+[sand reeker]: ./herbs.md#sand-reeker
+[snowcrystal petal]: ./herbs.md#snowcrystal-petal
+[spider ivy]: ./herbs.md#spider-ivy
+[tangy temerity]: ./herbs.md#tangy-temerity
+[waterfinder]: ./herbs.md#waterfinder
+[white hemlocks]: ./herbs.md#white-hemlocks
+[windbag]: ./herbs.md#windbag

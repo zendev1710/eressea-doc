@@ -397,7 +397,6 @@ Legend:
 [commands-send]: ./commands-send.md "commands-send"
 [commands-sequence-e3]: ./commands-sequence-e3.md "commands-sequence-e3"
 [commands-sequence]: ./commands-sequence.md "commands-sequence"
-[commands-short-desc]: ./commands-short-descriptions.md "commands-short-descriptions"
 [commands]: ./commands.md "commands"
 [cr-format]: ./cr-format.md "cr-format"
 [csmapfx]: ./csmapfx.md "csmapfx"

@@ -313,7 +313,8 @@ Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exe
 
 ## Der Astralraum
 
-**Hinweis:** Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.
+!!! note "Hinweis"
+    Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.
 
 So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die *Welt der Geisterwesen*, andere wiederum die *astrale Welt*, am bekanntesten jedoch ist der Begriff *Astralraum*. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.
 

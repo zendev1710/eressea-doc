@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-region-fr
 ---
-# REGION
+# `REGION`
 
 `REGION x,y; <Nom de la région>`  
 

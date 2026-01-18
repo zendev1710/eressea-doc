@@ -20,37 +20,68 @@ The world of Eressea consists of many islands and continents with entirely diffe
 
 *The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified. Rahel recognized forests and mountains, many swamps and some woodless plains.*
 
-In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain. Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.
+In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain.  
+Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.
 
 > "Well done my child," Selen assured the much younger cat.
 > "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..."
 > − Selen opened a big, heavy book beside the map − "...
 > our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."
 
-In the world of Eressea there are various [[terrain-types]] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics. An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys. One example is the "wall of fire", which represents an insurmountable obstacle. As a rule, walls of fire demarcate the worlds in Eressea. This is to prevent factions of very different ages from easily clashing.
+In the world of Eressea there are various [[terrain-types]] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics.
+An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys.
+One example is the "wall of fire", which represents an insurmountable obstacle.
+As a rule, walls of fire demarcate the worlds in Eressea.
+This is to prevent factions of very different ages from easily clashing.
 
-Depending on the type of terrain, different numbers of peasants will find space in the region to earn their weekly wage in the fields. A plain, for example, provides work for significantly more peasants than a swamp. Furthermore, the number of available jobs is reduced by trees. Each peasant takes away one job, each sapling four jobs and each tree eight jobs. Although an almost infinite number of trees can grow in any type of terrain, in a very forested region there will be virtually no jobs. In a glacier, very few trees are enough to take away almost all the jobs, in a plain there can be a few hundred trees and still a few thousand peasants working in the fields. But even a very densely forested region still yields enough fruit, roots or mushrooms for a few peasants to make a living. This means that a small number of peasants always find a job in the region: 10% of the maximum number of jobs in a region, but no more than 200, are therefore never blocked by trees or saplings. For example, if there are 150 trees in a mountain, 100 peasants will still find a job (10% of the maximum number of jobs), even though there are actually no more jobs available due to the large number of trees (150 trees x 8 occupied jobs = 1200 occupied jobs &gt; 1000 maximum available jobs).
+Depending on the type of terrain, different numbers of peasants will find space in the region to earn their weekly wage in the fields.
+A plain, for example, provides work for significantly more peasants than a swamp.
+Furthermore, the number of available jobs is reduced by trees.
+Each peasant takes away one job, each sapling four jobs and each tree eight jobs.
+Although an almost infinite number of trees can grow in any type of terrain, in a very forested region there will be virtually no jobs.
+In a glacier, very few trees are enough to take away almost all the jobs, in a plain there can be a few hundred trees and still a few thousand peasants working in the fields.
+But even a very densely forested region still yields enough fruit, roots or mushrooms for a few peasants to make a living.
+This means that a small number of peasants always find a job in the region: 10% of the maximum number of jobs in a region, but no more than 200, are therefore never blocked by trees or saplings.
+For example, if there are 150 trees in a mountain, 100 peasants will still find a job (10% of the maximum number of jobs), even though there are actually no more jobs available due to the large number of trees (150 trees x 8 occupied jobs = 1200 occupied jobs &gt; 1000 maximum available jobs).
 
-The only difference between a plain and a forest is the number of trees and saplings in the region. From a total number of 600 trees and/or saplings, a plain is considered a forest. This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.
+The only difference between a plain and a forest is the number of trees and saplings in the region.
+From a total number of 600 trees and/or saplings, a plain is considered a forest.
+This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.
 
-| Terrain  | max. workers | min. workers (despite many trees) | Stones for road (per direction) | Herbs                                                                     |
-|----------|-------------:|----------------------------------:|--------------------------------:|---------------------------------------------------------------------------|
-| Mountain |         1000 |                               100 |                             250 | rock weed, gapgrowth, cave lichen                                         |
-| Plain    |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Forest   |        10000 |                               200 |                              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier  |          100 |                                10 |                             250 | ice begonia, white hemlock, snowcrystal petal                             |
-| Highland |         4000 |                               200 |                             100 | windbag, fjord fungus, mandrake                                           |
-| Swamp    |         2000 |                               200 |                              75 | bugleweed, knotroot, bubblemorel                                          |
-| Desert   |          500 |                                50 |                             100 | waterfinder, peyote, sand reeker                                          |
-| Volcano  |          500 |                                50 |                             250 | --                                                                        |
+| Terrain  | max. workers | min. workers [^1] | Stones for road | Herbs                                                                     |
+|----------|-------------:|------------------:|----------------:|---------------------------------------------------------------------------|
+| Desert   |          500 |                50 |             100 | waterfinder, peyote, sand reeker                                          |
+| Forest   |       10 000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Glacier  |          100 |                10 |             250 | ice begonia, white hemlock, snowcrystal petal                             |
+| Highland |        4 000 |               200 |             100 | windbag, fjord fungus, mandrake                                           |
+| Mountain |        1 000 |               100 |             250 | rock weed, gapgrowth, cave lichen                                         |
+| Plain    |       10 000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Swamp    |        2 000 |               200 |              75 | bugleweed, knotroot, bubblemorel                                          |
+| Volcano  |          500 |                50 |             250 | --                                                                        |
 
-If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work]. Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small. Furthermore, no more player units can work in this region if all workplaces are occupied.
+If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work].
+Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.
+Furthermore, no more player units can work in this region if all workplaces are occupied.
 
-The terrain type also determines which [[herbs]] can grow in the region. An alchemist will be able to brew helpful [[alchemy|potions]] from different ingredients. Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there. However, the herbs that grow there cannot be changed. Even if all herbs have been plucked from the region, only the herb that originally grew there can be [[cmd-plant|replanted]]. If in doubt, you must try out which herb has originally grown here. Herbs never grow in volcanoes.
+The terrain type also determines which [[herbs]] can grow in the region.
+An alchemist will be able to brew helpful [[alchemy|potions]] from different ingredients.
+Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there.
+However, the herbs that grow there cannot be changed.
+Even if all herbs have been plucked from the region, only the herb that originally grew there can be [[cmd-plant|replanted]].
+If in doubt, you must try out which herb has originally grown here.
+Herbs never grow in volcanoes.
 
-In each region, [[roads]] can be built. The costs vary depending on the terrain. In addition, roads can be built in glaciers, swamps and deserts only if there are [[other-buildings]].
+In each region, [[roads]] can be built.
+The costs vary depending on the terrain.
+In addition, roads can be built in glaciers, swamps and deserts only if there are [[other-buildings]].
 
-In addition, the type of terrain determines which [[resources]] can be found in the region and with what chance. For example, in mountains and glaciers where no resources have been mined so far, iron and stone can always be found at mining level 1. However, mountains always have significantly more resources than a glacier. In a volcano, a quarryman has a 50% chance of finding stone at level 1, and a miner only has a 50% chance of finding iron at level 1. A volcano can therefore provide stone and iron in a similar way to a mountain, or only one of the two resources or, with bad luck, none at all. However, mining in a volcano is of course much more dangerous because it can erupt from time to time and then cause considerable damage to the people who are in the region. To summarize, however, you can remember that you will always find stone and / or iron at level 1 in these three region types (mountains, glaciers and volcanoes) - if they exist in the region at all.
+In addition, the type of terrain determines which [[resources]] can be found in the region and with what chance.
+For example, in mountains and glaciers where no resources have been mined so far, iron and stone can always be found at mining level 1.
+However, mountains always have significantly more resources than a glacier.
+In a volcano, a quarryman has a 50% chance of finding stone at level 1, and a miner only has a 50% chance of finding iron at level 1.
+A volcano can therefore provide stone and iron in a similar way to a mountain, or only one of the two resources or, with bad luck, none at all.
+However, mining in a volcano is of course much more dangerous because it can erupt from time to time and then cause considerable damage to the people who are in the region.
+To summarize, however, you can remember that you will always find stone and / or iron at level 1 in these three region types (mountains, glaciers and volcanoes) - if they exist in the region at all.
 
 However, other region types (plain / forest, swamp, desert, highland) can also provide iron and / or stone with a certain probability. In these regions, however, the geologist may need to be a little more experienced, as the deposit does not necessarily have to be at mining level 1. For example, iron may start anywhere from mining level 1 to 7, while stone can be found at mining level 1 to 4 - provided the region has this resource. It is useful to know that a geologist always sees mining layers twice as deep as their skill value. For example, a level 3 miner can see any iron up to a maximum mining depth of layer 6.
 
@@ -70,15 +101,33 @@ The information for the following region is explained in detail:
 
 `Vîpot (3,-4), desert, 0/1 trees, 22 stones/3, 190 peasants, 5765 silver, 36 horses.`
 
-The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [[cmd-origin]] of the faction. Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates. The region type is desert. There is a maximum of 500 free jobs in a desert. There are currently 190 peasants living in Vîpot. Each peasant takes up one job. In addition, a sapling grows here and there are currently no trees. The sapling currently takes up 4 jobs. This means that there are currently 306 vacant jobs in the region.
+The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [[cmd-origin]] of the faction.
+Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates.
+The region type is desert.
+There is a maximum of 500 free jobs in a desert.
+There are currently 190 peasants living in Vîpot.
+Each peasant takes up one job.
+In addition, a sapling grows here and there are currently no trees.
+The sapling currently takes up 4 jobs.
+This means that there are currently 306 vacant jobs in the region.
 
-There are 36 wild horses living in the region. Horses have no influence on the number of jobs available. With the skill [taming] you can capture the horses and use them for [transport] of goods, for example, or equip fighters with them, who can then receive the [horse bonus] in battle if they have at least riding 2.
+There are 36 wild horses living in the region.
+Horses have no influence on the number of jobs available.
+With the skill [taming] you can capture the horses and use them for [transport] of goods, for example, or equip fighters with them, who can then receive the [horse bonus] in battle if they have at least riding 2.
 
-There are also stones in Vîpot, which does not apply to every desert, but it does occur from time to time. There are currently 22 stones at quarrying level 3. To discover this stone deposit, a quarryman with at least quarrying level 2 is required (note: with quarrying level 2, you can see stone deposits up to a maximum of quarrying level 4). However, to actually extract stones, the unit must have quarrying level 3.
+There are also stones in Vîpot, which does not apply to every desert, but it does occur from time to time.
+There are currently 22 stones at quarrying level 3.
+To discover this stone deposit, a quarryman with at least quarrying level 2 is required (note: with quarrying level 2, you can see stone deposits up to a maximum of quarrying level 4).
+However, to actually extract stones, the unit must have quarrying level 3.
 
-In principle, you can build [[roads]] in any land region to increase your traveling speed over land. For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW). In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection. However, since Vîpot is a desert, you also need a fully developed [caravanserai]. A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.
+In principle, you can build [[roads]] in any land region to increase your traveling speed over land.
+For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW).
+In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection.
+However, since Vîpot is a desert, you also need a fully developed [caravanserai].
+A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.
 
-The line also contains the current level of regional silver. This amount is important to be able to estimate how the peasants are being supplied and how much silver player units can earn here through entertainment or tax collection [income].
+The line also contains the current level of regional silver.
+This amount is important to be able to estimate how the peasants are being supplied and how much silver player units can earn here through entertainment or tax collection [income].
 
 ## The Regions of Eressea
 
@@ -121,7 +170,8 @@ swords: 2
 > The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
 > The last lines then state how many of our people are there and what they are carrying."
 
-Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade]). Trading more goods may change the price permanently! For further information, read the section on[trade].
+Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade]).
+Trading more goods may change the price permanently! For further information, read the section on[trade].
 
 > "Excellent, my child. This is a complete report.
 > Sometimes we only get less extensive ones, especially when our scout only passed through a region on their horse. We only get detailed reports like this when members of our people stay there."
@@ -136,7 +186,11 @@ Under luxuries you can see the amount of goods bought or sold by the peasants fo
 ## The Eressean Calendar
 
 > Selen Ard'Ragorn rose from her chair. Rahel also stood up and admired how supple the old abbess still moved. She already knew what would follow. At the end of every instruction, they were taking a walk through the spacious garden of the temple during which she would receive more lessons.
-> Together they walked through a little grove, when Selen said: "Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us. Very hard on the insects, who can't breed in winter." - "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again." - "You are right, Rahel. So there is something positive to be found in everything."
+> Together they walked through a little grove, when Selen said:
+> "Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us.
+> Very hard on the insects, who can't breed in winter."
+> "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again."
+> "You are right, Rahel. So there is something positive to be found in everything."
 > Until late in the evenening, the guardians of the temple could see the two cats strolling through the garden, illuminated by magic...
 
 Eressea's year is divided into nine months with three weeks in each:
@@ -153,9 +207,13 @@ Eressea's year is divided into nine months with three weeks in each:
 | mild winds       | Mond der milden Winde | spring |            0.5% |
 | sunfire          | Sonnenfeuer           | summer |              3% |
 
-Every turn of the game corresponds to one week in Eressea's world. Many things can be done in one week. But there are some actions lasting almost the whole week. You can only do one of these so called long orders per turn (see also the chapter about [[orders]]).
+Every turn of the game corresponds to one week in Eressea's world.
+Many things can be done in one week.
+But there are some actions lasting almost the whole week.
+You can only do one of these so called long orders per turn (see also the chapter about [[orders]]).
 
-Although the influence of the seasons is generally not particularly pronounced, there are some areas or events that are definitely influenced significantly. Here is a brief overview:
+Although the influence of the seasons is generally not particularly pronounced, there are some areas or events that are definitely influenced significantly.  
+Here is a brief overview:
 
 - Peoples of the [insect] race can hardly recruit in winter
 - Storms at [[travel|sea]] are much more common in autumn
@@ -169,6 +227,8 @@ Although the influence of the seasons is generally not particularly pronounced, 
 - [[cmd-entertain]]
 
 Continue reading: [[factions]].
+
+[^1]: despite many trees
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 

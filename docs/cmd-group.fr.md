@@ -1,28 +1,28 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-group-fr
 ---
-# GROUP
+# `GROUP`
 
 **`GROUP`**`["`*`name`*`"]`  
 
-With the `GROUP` order you can divide the faction into subgroups that have a different [[cmd-help|`HELP`]] status than the rest of the faction.
-This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.
+Avec l4ORDRE `GROUP`, vous pouvez diviser la faction en sous-groupes qui ont un statut [[cmd-help|`HELP`]] différent du reste de la faction.  
+Cela vous permet par exemple de mettre en place une armée de mercenaires qui vous aideront sur une île en cours de prospection alors que le reste de la faction ne le fera pas.  
 
-You can also do all of them for participants in a tournament `HELP COMBAT` break down assignments so that you don't intervene in a duel.
-Attacks on allies with a faction-camouflaged squad of units are also possible without having to detach `HELP COMBAT` reveals at faction level.
-And if you want to protect your forests from allies, for example, you can set up a troop of forest guards who won't tell anyone `HELP GUARD` give.
-You can also set your own [[cmd-prefix]] for each group.
+De même, vous pouvez supprimer tous les statuts `HELP COMBAT` des participants à un tournoi pour éviter d'interférer dans un duel.  
+Les attaques contre les alliés avec une escouade d'unités camouflées par une faction sont également possibles? sans avoir à détacher le statut `HELP COMBAT` au niveau de la faction.  
+Et si vous souhaitez protéger vos forêts des alliés, par exemple, vous pouvez constituer une troupe de gardes forestiers qui n'en parleront à personne. et passer l'ordre `HELP GUARD`.
+Vous pouvez également définir votre propre [[cmd-prefix|préfixe]] pour chaque groupe.
 
-For example, a unit gives the order `GROUP` "Privateers of the Seas" to join a group.
-If a group with this name does not yet exist, one will be created that initially always has the same name `HELP` status like the faction has, even if the unit was previously in a different group.
-With `GROUP` you leave a group without a name.
-If all units leave a group, it is dissolved.
-However, if all units in a group die, the group remains and can be rejoined.
+Par exemple, une unité donne l'ordre `GROUP "Corsaires des Mers"` pour rejoindre un groupe.  
+S'il n'existe pas encore de groupe portant ce nom, il en sera créé un qui portera initialement toujours le même nom. avec statut `HELP` identique à celui de la faction, même si l'unité était auparavant dans un groupe différent.  
+Avec le simple ordre `GROUP` sans nom, vous quittez le groupe auquel vous appartenez.  
+Si toutes les unités quittent un groupe, celui-ci est dissous.  
+Cependant, si toutes les unités d'un groupe meurent, le groupe reste et peut être rejoint.  
 
-Each unit can only belong to one group.
-A unit that unites `HELP` giving orders changes the status of her faction if she is assigned to a group, or the status of the faction if she is not in a group.
+Chaque unité ne peut appartenir qu'à un seul groupe.  
+Une unité qui émet un ordre `HELP` change le statut de son groupe s'il est affecté à un groupe, ou le statut de sa faction s'il n'appartient pas à un groupe.  
 
-In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.
+Dans une bataille, chaque groupe devient une armée distincte, comme cela se produit lorsque les unités sont camouflées par une faction.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->

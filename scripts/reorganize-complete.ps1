@@ -3,7 +3,7 @@ $langs = @('en', 'fr', 'de')
 $mapping = @{
     'commands' = @(
         'commands-list', 'commands-send', 'commands-sequence', 'commands-extended',
-        'commands-send-from-magellan', 'commands-short-descriptions', 'commands'
+        'commands-send-from-magellan', 'commands'
     )
     'magic' = @(
         'magic-school-cerddor', 'magic-school-draig', 'magic-school-gwyrrd', 'magic-school-illaun',

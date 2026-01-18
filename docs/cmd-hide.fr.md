@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-hide-fr
 ---
-# HIDE
+# `HIDE`
 
 **`HIDE`**`[`*`niveau`*`]`  
 **`HIDE`**`FACTION [NOT]`  
@@ -35,12 +35,12 @@ Cependant, ce camouflage présente quelques fonctionnalités spéciales, qui son
 - Les unités ne changent pas de comportement à cause du camouflage.
   Par exemple, ils ne donnent pas d’argent aux alliés de la faction sous laquelle ils se déguisent.
   Donc si vous souhaitez perfectionner le camouflage, vous devez former un groupe avec les unités et définir des statuts d'aide appropriés pour ce groupe.
-Les unités masquées de cette manière ne peuvent pas entrer soudainement dans des bâtiments ou des navires dans lesquels elles ne sont pas autorisées à entrer, ni collecter des taxes là où il leur est normalement interdit de le faire.
+  Les unités masquées de cette manière ne peuvent pas entrer soudainement dans des bâtiments ou des bateaux dans lesquels elles ne sont pas autorisées à entrer, ni collecter des taxes là où il leur est normalement interdit de le faire.
 - Au combat, ces unités forment leur propre armée.
   Exemple : soit 3 groupes, les Elfes des Bois, les Elfes des Rivières et les Nains de Fer.
-  Toutes les factions ont chacune une unité : Wood Elf, River Elf et Iron Dwarf.
-  Tandis que Wood Elf se déguise en Elfe des Rivières, toutes les autres unités conservent leur véritable identité.
-  Maintenant, Iron Dwarf attaque River Elf.
+  Toutes les factions ont chacune une unité : *Elfe des Bois*, *Elfe des Rivières* et *Nain de Fer*.
+  Tandis que *Elfe des Bois* se déguise en *Elfe des Rivières*, toutes les autres unités conservent leur véritable identité.
+  Maintenant, *Nain de Fer* attaque *Elfe des Rivières*.
   Cela signifie que trois armées apparaissent dans le rapport de bataille : une armée de Nains de Fer et deux armées d'Elfes des Rivières.
 
 Cependant, [[cmd-group]] a également pour effet secondaire d'avoir plusieurs armées.  

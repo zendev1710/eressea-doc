@@ -99,17 +99,31 @@ Menschen können alles ein bisschen, nichts so richtig schlecht aber auch nichts
 
 - Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [[bef-gib|geben lassen]]. Es gibt keine Migranten mit [teuren Talenten], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
 
-Die Anzahl der *Migranten* errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50).
+Die Anzahl der Migranten errechnet sich als:
+
+<!-- cspell:disable -->
+:   $$
+    \text{Die Anzahl der Migranten} = 20 \times \log_{10}\!\left(\frac{\text{Parteigröße}}{50}\right)
+    $$
+<!-- cspell:enable -->
+
 Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen.
 Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden].
 Die folgende Tabelle enthält einige Beispiele:
 
-Migranten
+*Anzahl der Migranten nach Parteigröße.*
 
-|                        |   |    |    |    |    |    |    |     |     |      |      |       |        |         |
-|------------------------|---|----|----|----|----|----|----|-----|-----|------|------|-------|--------|---------|
-| Personen in der Partei | 1 | 56 | 57 | 63 | 71 | 80 | 89 | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
-| Migranten              | 0 | 0  | 1  | 2  | 3  | 4  | 5  | 10  | 20  | 26   | 40   | 60    | 80     | 100     |
+| Parteigröße | 1 | 60 | 80 | 160 | 500 | 1 000 | 5 000 | 50 000 | 500 000 | 5 000 000 |
+|-------------|:-:|:--:|:--:|:---:|:---:|:-----:|:-----:|:------:|:-------:|:---------:|
+| Migranten   | 0 | 1  | 4  | 10  | 20  |  26   |  40   |   60   |   80    |    100    |
+
+??? tip "Berechnung der Anzahl der Migranten"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="races-compute-migrants-input" class="md-input-label">Parteigröße:</label>
+        <input id="races-compute-migrants-input" type="number" class="md-input" placeholder="nombre de personnnes">
+        <button id="races-compute-migrants-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Berechnen</button>
+        <p style="margin-top: 1em;">Anzahl der Migranten: <strong id="races-compute-migrants-result">---</strong></p>
+    </div>
 
 ## Orks
 

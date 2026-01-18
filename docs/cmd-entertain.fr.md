@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-entertain-fr
 ---
-# ENTERTAIN
+# `ENTERTAIN`
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  
 
@@ -23,9 +23,9 @@ Puisque seulement 60 Silver sont disponibles, ceux-ci seront divisés en proport
 Ainsi, l’unité A reçoit environ 1/5 et l’unité B environ 4/5 de l’argent disponible.  
 Cela fait environ 12 Silver pour A et 48 Silver pour B.  
 
-Les unités à bord des navires dans les régions gardées ne peuvent pas travailler ou entretenir (voir [[cmd-work]], [[cmd-guard]] et [[cmd-help]]).
+Les unités à bord d'un bateau présent dans une région gardée ne peuvent ni [[cmd-work|travailler]] ni divertir (voir [[cmd-guard]] et [[cmd-help]]).
 
-La limite de perception des impôts d'une région indique la quantité totale d'argent qui peut être retirée aux agriculteurs (hors [commerce]) sans qu'ils partent.  
+La limite de collecte des impôts d'une région indique la quantité totale d'argent qui peut être retirée aux agriculteurs (hors [commerce]) sans qu'ils partent.  
 Il est aussi élevé que le surplus de revenu des agriculteurs.
 
 ## Voir aussi

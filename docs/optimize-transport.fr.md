@@ -1,159 +1,235 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: transport-optimise
 ---
 # Transport optimisé
 
-## Handelsreisender
+## Représentant de commerce
 
-Da wir bei Eressea nicht mit wenigen sondern mit sehr vielen Einheiten hantieren, stellt sich die Problematik des Handelsreisenden weniger, da Transporte oft nicht mehrere Regionen im Kreis anfahren, sondern Bedarfe eher mit vielen einzelnen Transporten parallel bearbeitet werden.
+Comme dans Eressea nous ne traitons pas seulement quelques unités mais un grand nombre d'entre elles, le problème des vendeurs ambulants se pose moins, car les transports ne vont souvent pas dans plusieurs régions en cercle, mais les demandes sont plutôt traitées en parallèle avec de nombreux transports individuels.  
 
-## Optimale Beladung
+## Chargement optimal
 
-Für die Beladung eines Transportes mit Waren liegt es nahe das Rucksackproblem anzuwenden. Allerdings läuft man in Eressea dabei schnell in die Falle zu viele gleichartige Gegenstände verladen zu wollen. Optimierungen des Rucksackproblems kommen damit kaum klar.
+Il est logique d'utiliser le problème du sac à dos lors du chargement d'un transport de marchandises.  
+Cependant, dans Eressea, vous tombez rapidement dans le piège d’essayer de charger trop d’éléments similaires.  
+Les optimisations du problème du sac à dos peuvent difficilement résoudre ce problème.
 
-Ein einfaches Beispiel:
+Un exemple simple :
 
-Zu transportieren sind 10 Steine (je 60 kg) und 100 Juwelen (je 1 kg). Es steht jedoch nur 500GE Kapazität zur Verfügung. Ein Stein wird mit einem Wert von 1200 bemessen, ein Juwel mit einem Wert von 50. Da die Juwelen mehr Wert pro kg bieten (50 je kg) laden wir also zuerst alle Juwelen auf:
+Vous devez transporter 10 pierres (60 kg chacune) et 100 bijoux (1 kg chacun).  
+Cependant, seule une capacité de 500 kg est disponible.  
+Une pierre vaut 1 200, un bijou une valeur de 50.  
+Comme les bijoux offrent plus de valeur au kg (50 par kg), nous chargeons d'abord tous les bijoux :
 
-    Wert   = 100 * 50 = 5000 
-    Ladung = 100 * 1 kg = 100 kg
-    frei   = 400 kg
+```text
+Value  = 100 * 50 = 5000
+Charge = 100 * 1 kg = 100 kg
+Free   = 400 kg
+```
 
-Bei 400 kg gelingt es uns also noch 6 Steine aufzuladen, 40 kg bleiben frei.
+À 400 kg on arrive quand même à charger 6 pierres, laissant 40 kg libres.
 
-    Wert   = 5000 + 6 * 1200 = 12200
-    Ladung = 100 kg + 6 * 60 kg = 460 kg
-    frei   = 40 kg
+```text
+Value  = 5000 + 6 * 1200 = 12200
+Charge = 100 kg + 6 * 60 kg = 460 kg
+Free   = 40 kg
+```
 
-Versuchen wir es also mit den Steinen zuerst: 8 Steine, dann bleibt noch Platz für 20 Juwelen:
+Alors essayons d'abord avec les pierres : 8 pierres, puis il reste encore de la place pour 20 bijoux :
 
-    Wert   = 20 * 50 + 8 * 1200 = 10600
+```text
+Value  = 20 * 50 + 8 * 1200 = 10600
+```
 
-Das war offenbar nichts. Aber geht es doch noch irgendwie besser? Ja, 7 Steine und 80 Juwelen scheinen offenbar die Kapazität besser auszunutzen:
+Apparemment, ce n'était rien.
+Mais peut-il y avoir une meilleure solution ? Oui, 7 pierres et 80 rubis semblent mieux utiliser la capacité :
 
-    Wert   = 80 * 50 + 7 * 1200 = 12400
+```text
+Value  = 80 * 50 + 7 * 1200 = 12400
+```
 
-Der Weg dahin führt z.b. über greedy suche, also das durchsuchen sämtlicher Zustände. In dem Fall also 0 bis 8 Steine und 0 bis 100 Juwelen (manchmal weniger) macht also rund 900 Zustände die zu prüfen wären. Wenn man sich jetzt noch eine 3. oder 4. Ware vorstellt wird schnell klar, so kommen wir nicht zum Ergebnis.
+La voie à suivre passe par exemple par la recherche gloutonne, c'est-à-dire la recherche dans tous les états.  
+Dans ce cas, 0 à 8 pierres et 0 à 100 rubis (parfois moins) signifient environ 900 conditions à vérifier.  
+Si l’on imagine maintenant un 3ème ou un 4ème produit, il devient vite évident que nous n’obtiendrons pas le résultat.  
 
-Normalerweise führt hier der schnelle Weg zum Ziel über sogenannte Pareto-optimale Zwischenzustände. Was solche Zwischenzustände sind lässt sich leichter anders rum erklären. Zustände die bei gleicher Beladung weniger Wert sind als ein anderer Zwischenzustand sind nicht Pareto-optimal. Diese braucht man nicht weiter zu verfolgen, da offenbar immer wieder nur nicht Pareto-optimale Zustände erreicht werden können.
+Normalement, le moyen le plus rapide d’atteindre l’objectif consiste à passer par les états intermédiaires dits Pareto-optimaux.  
+Ce que sont ces états intermédiaires peut être plus facilement expliqué dans l’autre sens.  
+Les états qui ont moins de valeur qu’un autre état intermédiaire avec le même chargement ne sont pas Pareto optimaux.  
+Il n’est pas nécessaire d’aller plus loin, car apparemment, seuls des états non Pareto-optimaux peuvent toujours être atteints.  
 
-Vergleicht man also beispielsweise den Zustand "60 Juwelen" mit "1 Stein" so zeigt sich, das 60 Juwelen offenbar bei gleicher Beladung weit mehr Wert sind. Es lohnt also nicht "1 Stein" weiter zu expandieren. Genau genommen kommt man zu dieser Feststellung bereits wenn man 24 Juwelen expandiert hat.
+Par exemple, si vous comparez la condition « 60 rubis » avec « 1 pierre », vous constaterez que 60 rubis valent évidemment beaucoup plus avec la même charge.  
+Cela ne vaut donc pas la peine d'étendre davantage "1 pierre".  
+À proprement parler, vous arrivez à cette conclusion une fois que vous avez développé 24 joyaux.  
 
-Problematisch ist diese Art der Optimumsberechnung nun, da offenbar jede Anzahl von Juwelen zwischen 0 und 100 pareto-optimal ist. Schlimmer noch auch jede Kombination aus 1-6 Steinen mit 77 bis 100 Juwelen und 7 Steinen mit 77 bis 80 Juwelen ist pareto-optimal. D.h. trotz Optimierung müssen wir 100 + 6 \* 24 + 4 = 248 Zustände von ca. 900 Zuständen expandieren, bis wir uns der gefundenen Lösung sicher sein können - kein schönes Ergebnis.
+Ce type de calcul optimal est problématique car apparemment, tout nombre de rubis compris entre 0 et 100 est Pareto optimal.  
+Pire encore, toute combinaison de 1 à 6 pierres de 77 à 100 rubis et de 7 pierres de 77 à 80 rubis est Pareto optimale.  
+Malgré l'optimisation, nous devons étendre 100 + 6*24 + 4 = 248 états sur environ 900 états jusqu'à ce que nous puissions être sûrs de la solution que nous avons trouvée - ce qui n'est pas un bon résultat.  
 
-Allerdings bietet sich eine andere Optimierung an. Wir können die verwendeten Transportmengen einschränken. Da sich Juwelen so lange lohnen wie sie zusammen eine ganz Anzahl Steine ergeben, liegt die Juwelenzahl zwischen 60 und 100. Die Juwelen können jedoch nie die komplette Kapazität belegen, weshalb mindestens 6 Steine und maximal 8 mitgenommen werden können. Damit reduziert sich die Suche auf 41\*3 oder mit Pareto-optimalen Zwischenzuständen auf 41 + 24 + 4 = 69 Zustände.
+Cependant, une autre optimisation est possible.  
+Nous pouvons limiter les quantités de transport utilisées.  
+Puisque les bijoux valent la peine tant qu'ils totalisent un nombre entier de pierres, le nombre de bijoux est compris entre 60 et 100.
+Cependant, les bijoux ne peuvent jamais occuper la totalité de la capacité, c'est pourquoi un minimum de 6 pierres et un maximum de 8 peuvent être pris.
+Cela réduit la recherche à 41*3 ou avec les états intermédiaires Pareto-optimaux à 41 + 24 + 4 = 69 états.
 
-*Achtung: Priorisiert man die Waren, statt sie zu bewerten, dann lässt sich diese Art der Packung eher nicht anwenden. Dann gilt: Höchste Priorität zuerst ...*
+!!! warning "Attention"
+    Si vous priorisez les marchandises au lieu de les évaluer, il est peu probable que ce type de paquet soit utilisé.
+    Alors ce qui suit s'applique : la priorité la plus élevée en premier...
 
-### Pakete
+### Paquets
 
-Oftmals lohnt der Transport von Rohstoffen erst, wenn alle benötigten Rohstoffe das Ziel erreichen. Die Idee ist nun diese Rohstoffe zu paketieren. Das kann heissen diese entweder alle oder gar nicht zu verschicken, oder aber bei Erreichen der Paketgrösse einen Bonus aufzuschlagen. Da in Eressea die einzelnen Rohstoffe auf aus unterschiedlichen Regionen kommen, würde erstere Variante wohl dazu führen, dass gar nichts geliefert wird. Die zweite Variante wäre wünschenswert, torpediert aber leider die Optimierung mit Pareto-optimalen Zwischenzuständen. Was bleibt ist die erste Variante eingeschränkt auf einen Typ Gegenstand. Ob der Aufwand lohnt bleibt fraglich.
+Souvent, le transport des matières premières ne devient rentable que lorsque toutes les matières premières nécessaires arrivent à destination.  
+L’idée est désormais d'empaqueter ces matières premières.  
+Cela peut impliquer soit de les envoyer tous ou pas du tout, soit d'ajouter un bonus lorsque la taille du colis est atteinte.  
+Étant donné que les matières premières d'Eressea proviennent de différentes régions, la première option entraînerait probablement une livraison nulle.  
+La deuxième variante serait souhaitable, mais malheureusement elle torpille l’optimisation avec des états intermédiaires Pareto-optimaux.  
+Reste la première variante limitée à un seul type d'objet.  
+La question de savoir si l’effort en vaut la peine reste discutable.  
 
-Unabhängig davon ist es natürlich möglich und sinnvoll Gegenstände die zur Vollendung eines Ziels fehlen ein wenig höher zu bewerten.
+Indépendamment de cela, il est bien sûr possible et utile de noter un peu plus haut les éléments manquants pour atteindre un objectif.  
 
-Es macht ggf. sinn zwei bzw. drei Arten von Paketen zu unterscheiden:
+Il peut être judicieux de différencier deux ou trois types de paquets:
 
-1. Gruppen von Gegenständen die nur in Summe überhaupt verwendet werden können, also z.b. einzelne Stufen eines Gebäudes, mehrere Komponenten für Tränke oder Waffen. Einzeln können diese Gegenstände am Ziel nicht verarbeitet werden, d.h. es muss gewartet werden, bis die letzte Komponente eingetroffen ist.
-2. Gruppen von Gegenständen oder Untergruppen der oberen Kategorie zur vollen Auslastung in der wöchentlichen Produktion nötig sind. Es kann jedoch auch ohne voll Auslastung produziert werden. Das reduziert nur die Zeit in der ggf. etwas anderes getan werden kann.
-3. Gruppen von Gegenständen oder Untergruppen der oberen Kategorien, die zur vollen Erfüllung eines Auftrags notwendig sind, d.h. Vollendung eines Schiffes oder Gebäudes, oder volle Ausstattung einer Einheit mit ihrer Ausrüstung. Es kann produziert werden, möglicherweise sogar voll ausgelastet. Es ist nur noch nicht sichergestellt, dass alle Komponenten zur Fertigstellung demnächst eintreffen.
+1. Groupes d'objets qui ne peuvent être utilisés que dans leur ensemble, par ex. niveaux individuels d'un bâtiment, plusieurs composants pour des potions ou des armes.
+   Ces objets ne peuvent pas être traités individuellement à destination, c'est-à-dire que vous devez attendre que le dernier composant soit arrivé
+2. Des groupes d'objets ou des sous-groupes de la catégorie supérieure sont nécessaires pour une utilisation complète dans la production hebdomadaire.
+   Cependant, la production peut également être réalisée sans pleine capacité.
+   Cela réduit simplement le temps pendant lequel autre chose peut être fait si nécessaire.
+3. Groupes d'objets ou sous-groupes des catégories supérieures nécessaires à l'accomplissement complet d'une mission, c'est-à-dire terminer un bateau ou un bâtiment, ou équiper entièrement une unité de son équipement.
+   Il peut être produit, peut-être même à pleine capacité.
+   Il n’est tout simplement pas certain que tous les composants arriveront bientôt et seront terminés.
 
-Die letzten beiden Gruppen können in der Praxis wohl zusammengefasst und höchstwahrscheinlich ignoriert werden. Für die erste Gruppe ist ein Erfüllungsbonus jedoch denkbar und liesse sich auch planen.
+Les deux derniers groupes peuvent probablement être regroupés dans la pratique et très probablement ignorés.  
+Pour le premier groupe, cependant, une prime d’accomplissement est envisageable et pourrait également être prévue.  
 
-## Multiwegfindung
+## Recherche multi-chemins
 
-Bei der Transportplanung kann es aber durchaus vorkommen, dass ein Transport bereits etwas Ladung und dementsprechend eine Zielregion hat. Es steht aber auf dem Transport noch Kapazität bereit, die durch andere Waren belegt werden könnten. Einfache Möglichkeiten liegen nun darin nur Waren mitzugeben, die in den Zwischenpunkten der Route gebraucht werden. Fortgeschrittene Techniken laden Waren auf, die dadurch dem Ziel ein Stück näher kommen.
+Lors de la planification du transport, il peut arriver qu'un transport ait déjà une certaine cargaison et donc une région cible.
+Cependant, il existe encore de la capacité disponible pendant le transport qui pourrait être occupée par d'autres marchandises.
+Des options simples consistent désormais à distribuer uniquement les marchandises nécessaires aux points intermédiaires de l'itinéraire.
+Des techniques avancées chargent les marchandises, ce qui les rapproche un peu plus de leur objectif.
 
-Möglich scheint mir aber auch eine Anpassung der Route, dahingehend, dass bei gleicher Dauer zum ersten Ziel eine Route gesucht wird, die gleichzeitig möglichst nah oder sogar über die Region des 2. Zieles führt. Ebenso denkbar ist die Optimierung der Route, das diese über "Umschlagplätze" läuft, um sicherzustellen, dass die Waren für das 2. Ziel dann auch einen Transport in der Gabelregion finden.
+Cependant, il me semble également possible d'adapter l'itinéraire de manière à ce qu'un itinéraire soit recherché avec la même durée vers la première destination, qui mène en même temps le plus près possible, voire sur la région de la deuxième destination.  
+Il est également envisageable d'optimiser l'itinéraire en le faisant passer par des « points de transbordement » afin que les marchandises destinées à la deuxième destination puissent ensuite également trouver un transport dans la région de la fourche.
 
-Wie also könnte eine solche Multiwegfindung laufen? Die Runden bis zur Ankunft bei Ziel 1 sind bekannt. Es kommen also nur Routen in Frage, die nicht länger dauern. Das erfährt man jedoch erst wenn eine Route gefunden wurde. Die minimale Entfernung zum Ziel 2 ist also zweites Kriterium bei der Routenbewertung und lässt die Routenberechnung ein wenig mehr "greedy" werden, da nun alle Regionen die im Kriterium 1 den gleichen Wert ergeben auf den 2. Wert getestet werden müssen. Glücklicherweise liefert auch hier die Schätzfunktion gute Dienste.
+Alors, comment une telle recherche multi-chemins pourrait-elle fonctionner ?  
+Les tours jusqu'à l'arrivée à la destination 1 sont connus.  
+Ainsi, seuls les itinéraires qui ne prennent pas plus de temps sont pris en compte.  
+Cependant, vous ne le savez que lorsqu'un itinéraire a été trouvé.  
+La distance minimale jusqu'à la destination 2 est le deuxième critère d'évaluation de l'itinéraire et rend le calcul de l'itinéraire un peu plus « gourmand », puisque toutes les régions qui donnent la même valeur au critère 1 sont désormais déplacées vers 2.  
+La valeur doit être testée. Heureusement, la fonction d'estimation fournit également un bon service ici.  
 
-### gleichwertige Ziele
+### Objectifs équivalents
 
-Sind mehrere Ziele gleichwertig, konkurrieren diese natürlich ab einem bestimmten Punkt um die weitere Route. Bis dahin kann man die Route prima auf das Minimum aus beiden Routen optimieren, d.h. man fährt zur näheren Region, und lädt die Waren für die andere Region ab, wenn man möglichst nah dran ist.
+Si plusieurs destinations sont équivalentes, elles entreront bien entendu en compétition pour le prochain itinéraire à partir d'un certain point.  
+En attendant, vous pouvez facilement optimiser l'itinéraire au minimum des deux itinéraires, c'est-à-dire que vous conduisez vers la région la plus proche et déchargez les marchandises pour l'autre région lorsque vous êtes le plus proche possible.  
 
-Fügt man jedoch mehr und mehr Ziele hinzu, so wird aus dem Transport tatsächlich ein lokaler "Handelsreisender". Ob und wann es sich lohnt hier tatsächlich eine kleine Rundreise zu machen, habe ich noch nicht näher betrachtet. Sicher gibt es aber solche Grenze.
+Cependant, à mesure que de plus en plus de destinations s'ajoutent, le transport devient en réalité un « voyageur de commerce » local.  
+Je n'ai pas encore examiné de plus près si et quand cela vaut réellement la peine de faire un petit tour ici.  
+Mais bien sûr, il existe une telle limite.  
 
-### Umschlagplätze
+### Points de transbordement
 
-Die Multiwegfindung kann man sich aber auch wesentlich vereinfachen. Definiert man ausreichend Umschlagplätze, so kann man die Transporte anweisen bei Routen über einer Woche als Zwischenpunkte **immer** Umschlagplätze anzulaufen, oder dies zumindest dann zu tun, wenn eine Kapazitätsgrenze unterschritten ist, oder der Umschlagplatz keinen Umweg bedeutet.
+Cependant, la recherche de chemins multiples peut également être beaucoup plus facile.  
+Si vous définissez suffisamment de points de transbordement, vous pouvez attribuer les transports comme points intermédiaires pour les itinéraires de plus d'une semaine **toujours** se rendre aux points de transbordement, ou du moins le faire lorsqu'une limite de capacité est dépassée ou que le point de transbordement ne nécessite pas de détour.  
 
-Das Transportsystem der ehemaligen EWG hatte sich diesem Umstand implizit zueigen gemacht, indem es hierarchisch organisiert war. Umschlagplätze sind dort Regionen die untergeordnete Regionen haben. Die Hierarchie bedeutet allerdings oft Umwege. Ob solch ein System gut funktioniert, hängt dann auch von der Topologie der Insel ab. Vor allem Inseln die Ringe bilden, eignen sich wenig für ein streng hierarchisches Transportsystem.
+Le système de transport de l'ancienne CEE reconnaissait implicitement ce fait en étant organisé hiérarchiquement.  
+Les points de transbordement sont des régions qui ont des régions subordonnées.  
+Cependant, la hiérarchie implique souvent des détours.
+Le bon fonctionnement d’un tel système dépend également de la topologie de l’île.
+Les îles formant des anneaux sont particulièrement inadaptées à un système de transport strictement hiérarchique.
 
-## Bewertungsfunktion
+## Evaluation function
 
-Verschiedene Optimierungsalgorithmen benötigen zur Bewertung von möglichen Zwischen- und Zielzuständen eine Bewertungsfunktion.
+Divers algorithmes d'optimisation nécessitent une fonction d'évaluation pour évaluer les états intermédiaires et cibles possibles.  
 
-Eine solche Funktion für "Logistische Zustände" zu finden, ist auf den ersten Blick nicht einfach.
+Trouver une telle fonction pour les « états logistiques » n’est pas facile à première vue.  
 
-Was und wie bewertet man nun am besten?
+Quoi et comment l’évaluer au mieux ?
 
-- Befriedigung möglichst vieler Nachfragen?
-- Ausnutzung der vorhandenen Transportkapazität?
-- Einfluss von Prioritäten und Wertigkeiten?
+- Satisfaire un maximum de demandes ?
+- Utilisation de la capacité de transport existante ?
+- Influence des priorités et des valeurs ?
 
-Am besten stellt man wie auch beim Lernen verschiedene sehr simple Auswahlmöglichkeiten nebeneinander und grenzt sie voneinander ab. Wicht dabei: Alle nicht erwähnten Eigenschaften sind gleich.
+Comme pour l’apprentissage, il est préférable de placer les uns à côté des autres différents choix très simples et de les différencier les uns des autres.  
+Important : toutes les propriétés non mentionnées sont les mêmes.  
 
-Einfache Bewertungsregeln:
+Règles de notation simples :
 
-- Es ist besser ein nahes Angebot zu verwenden als eine fernes Angebot.
-- Es ist besser eine Nachfrage hoher Priorität zu bedienen als eins mit niedriger Priorität.
-- Es ist besser eine Nachfrage von einer nahen Quelle zu beliefern, als von einer fernen Quelle.
+- Il est préférable d'utiliser une offre proche plutôt qu'une offre lointaine
+- Il est préférable de répondre à une demande hautement prioritaire plutôt qu'à une demande peu prioritaire
+- Il est préférable de répondre à une demande à partir d'une source proche plutôt que d'une source distante
 
-kompliziertere Bewertungsregeln:
+Règles d'évaluation plus compliquées :
 
-- Es ist besser einen Transport gut auszulasten als diesen mit viel Leerraum fahren zu lassen. Die Abgrenzung von "Gut" und "viel" ist hier die komplizierte Angelegenheit. Gegenstände gleicher Wertigkeit aber unterschiedlichen Gewichts rufen je nach Umgebung andere Herangehensweisen hervor. Kann der Transport mit dem leichten Gegenstand nicht ausgelastet werden und sind keine anderen Güter zu transportieren, dann ist der schwerere Gegenstand vorzuziehen.
-- Gruppierte Bedarfe (Pakete) sollen möglichst zur gleichen Zeit (oder zeitnah) am Ziel eintreffen.
-- Es ist besser etwas in ein Umschlagzentrum zu bringen als es liegen zu lassen, aber nur wenn das Umschlagzentrum nicht weiter entfernt ist und in einer Woche erreicht werden kann.
-- Priorität kann man auch zweidimensional als Dringlichkeit und Wichtigkeit auffassen. Es bedarf aber einer Vergleichsmöglichkeit zweier solcher zweidimensionaler Punkte.
-- Es ist besser einen Transport leer in eine Region mit dringend benötigten Angeboten fahren zu lassen, als in eine Umschlagsregion. Letzteres ist aber immer noch besser als nur zu lernen oder nichts zu tun.
-- Gibt es in einer nahen Quelle keinen Transport, in einer ferneren Quelle schon, und führt die Route über die nahe Quelle, so soll der Transport genau dann unterbleiben, wenn die ferne Quelle nach Beladung dann weniger von der Ware hätte als die Nahe Quelle nach Beladung.
-  - Beipiel:
-    - A hat 100 Steine Bedarf.
-    - In B, eine Runde von A entfernt, liegen 1000 Steine. Es gibt keinen verfügbaren Transport in B.
-    - In C, zwei Runden von A und eine von B entfernt, liegen 500 Steine. Transport verfügbar.
-    - -&gt; Transport sollte ggf. leer von C nach B fahren.
-    - Liegen in C 2000 Steine, werden die Steine mitgenommen.
-    - Liegen in C 1050 Steine, so werden 75 Steine mitgenommen. Beide Quellen haben nach aufladen auf den Transport dann noch 975 Steine.
+- Il vaut mieux utiliser pleinement un moyen de transport que de le faire voyager avec beaucoup d'espace vide.
+  La distinction entre « bon » et « beaucoup » est ici la question la plus complexe.
+  Des objets de même valeur mais de poids différent supposent des approches différentes selon l'environnement.
+  Si le transport ne peut pas être utilisé à pleine capacité avec l'objet léger et qu'il n'y a pas d'autres marchandises à transporter, l'objet le plus lourd est préférable.
+- Les demandes groupées (colis) doivent arriver à destination en même temps (ou le plus tôt possible)
+- Il est préférable d'apporter quelque chose dans un centre de transbordement plutôt que de le laisser traîner, mais seulement si le centre de transbordement n'est pas plus éloigné et peut être atteint en une semaine. 
+- La priorité peut également être comprise selon deux dimensions : urgence et importance.
+  Il faut cependant pouvoir comparer deux de ces points bidimensionnels.
+- Il est préférable de laisser un transport se diriger à vide vers une région ayant un besoin urgent de ravitaillement plutôt que vers une région de transbordement.
+  Mais cette dernière solution est toujours meilleure que simplement apprendre ou ne rien faire.
+- S'il n'y a pas de transport dans une source proche, qu'il y en a dans une source plus éloignée et que l'itinéraire passe par la source proche, le transport doit alors être arrêté si la source éloignée après le chargement aurait moins de marchandises que la source proche après le chargement.
+  - Exemple :
+    - A a besoin de 100 pierres
+    - En B, à un tour de A, il y a 1000 pierres. Il n'y a pas de transport disponible en B.
+    - En C, à deux tours de A et un de B, il y a 500 pierres. Transport disponible --> Le transport doit voyager à vide de C à B si nécessaire
+    - S'il y a 2000 pierres en C, les pierres sont enlevées
+    - S'il y a 1050 pierres en C, 75 pierres sont prises. Après avoir chargé pour le transport, les deux sources disposent encore de 975 pierres
 
-### Bewertungsbasis Warenwert
+### Base d'évaluation de la valeur des marchandises
 
-Grundlage ist hier ein Basis-Warenwert, der für jeden Gegenstand vom Nutzer vorgegeben wird. Ebenso denkbar sind Berechnungen die Global Angebot und Nachfrage berücksichtigen.
+La base ici est une valeur de base des marchandises spécifiée par l'utilisateur pour chaque article.  
+Des calculs prenant en compte l’offre et la demande mondiales sont également envisageables.  
 
-Der Warenwert enthält also ein die globale Wichtigkeit des Gegenstandes.
+La valeur des marchandises contient donc l’importance globale de l'objet.
 
-Der Basis-Warenwert kann z.b. in Silber ausgedrückt werden. Eine Handelsware könnte z.b. als Wert den Mittelwert von Einkaufspreis und Verkaufspreis verwenden. Schwerer wird es knappe Rohstoffe in Silber zu bewerten. Eine Überbewertung würde sonst möglicherweise dazu führen, dass Silber für Unterhalt nicht geliefert wird, weil irgendwo ein Laenschwert fehlt und der Transport deshalb eine andere Route einschlägt.
+La valeur des biens de base peut par exemple être exprimé en argent.  
+Une marchandise pourrait par exemple utiliser la moyenne du prix d’achat et du prix de vente comme valeur.  
+Il devient de plus en plus difficile d’évaluer des matières premières rares comme l’argent.  
+Une surévaluation pourrait autrement conduire à ce que l'argent destiné à l'entretien ne soit pas livré parce qu'il manque une épée quelque part et que le transport emprunte donc un itinéraire différent.
 
-#### Modifizierung durch Dringlichkeit
+#### Modification par urgence
 
-Es ist daher klar, dass der Basiswert noch modifiziert werden muss. Dabei sollte die Dringlichkeit sich so stark auswirken können, dass selbst Gegenstände mit niedrigem Basiswert interessant genug werden. Eine exponentielle Funktion o.ä. auf die Dringlichkeit ist somit sinnvoll.
+Il est donc clair que la valeur sous-jacente doit encore être modifiée.  
+L’urgence devrait pouvoir avoir un effet si fort que même les objets ayant une faible valeur de base deviennent suffisamment intéressants.  
+Une fonction exponentielle ou similaire sur l'urgence a donc du sens.  
 
-    f(runden bis nötig)=?
-    f(0)=10000%*Basiswert
-    f(1)=1000%*Basiswert
-    f(2)=200%*Basiswert
-    f(3)=50%*Basiswert
-    f(4)=15%*Basiswert
-    f(5)=8%*Basiswert
-    f(irgendwann)=5%*Basiswert
+```text
+f(arrondir jusqu'à nécessaire) = ?
+f(0)=10000 % * Valeur sous-jacente
+f(1)=1000 % * Valeur sous-jacente
+f(2)=200 % * Valeur sous-jacente
+f(3)=50 % * Valeur sous-jacente
+f(4)=15 % * Valeur sous-jacente
+f(5)=8 % * Valeur sous-jacente
+f(un jour)=5 % * Valeur sous-jacente
+```
 
-Dies wären Werte die mir im Moment vorschweben und die entweder in einer Lookup Tabelle abgelegt werden, oder durch eine Funktion modelliert werden. Die Ausdehnung dieser Formel hängt im wesentlichen von der Bandbreite der verwendeten Basiswerte ab. Ein Flammenschwert, dass irgendwann benötig wird, mag einen Basiswert von 10000 haben, die 10 Silber die in einer anderen Region aber für Unterhalt dringend gebraucht werden, müssen dennoch zu einem Höheren Gesamtwert führen. Mit obiger Formel wäre das Flammenschwert 500 und die 10 Silber 100 wert - zu wenig also um geliefert zu werden. Daher sollten die Parameter der Dringlichkeitsfunktion anhand der min und max werte der Basiswerte berechnet werden.
+Ce seraient des valeurs que j'ai en tête en ce moment et qui sont soit stockées dans une table de recherche, soit modélisées par une fonction.  
+L'étendue de cette formule dépend essentiellement de la gamme d'actifs sous-jacents utilisée.  
+Une épée flamboyante nécessaire à un moment donné peut avoir une valeur de base de 10 000, mais les 10 silver nécessaires de toute urgence pour l'entretien dans une autre région doivent toujours donner lieu à une valeur totale plus élevée.  
+Avec la formule ci-dessus, l’épée flamboyante vaudrait 500 et les 10 silver en vaudraient 100 – trop peu pour être livrés.  
+Par conséquent, les paramètres de la fonction d'urgence doivent être calculés sur la base des valeurs min et max des valeurs de base.  
 
-Ebenso kann natürlich die Wichtigkeit eines Gegenstandes lokal verschieden sein, da die Umgebungsbedingungen andere sind.
+Bien entendu, l’importance d’un objet peut aussi varier localement car les conditions environnementales sont différentes.  
 
-#### Modifizierung durch Entfernung
+#### Modification par suppression
 
-Oft wird es vorkommen, dass eine Ware nicht vom Anbieter direkt zur Nachfrage geschafft werden kann, da beide Regionen zu weit auseinander sind. Damit jedoch eine Belieferung von einer möglichst nahegelegenen Quelle erfolgt, bietet es sich an die Teilausführung einer Nachfrage auf den unterschiedlichen Teilstücken auch unterschiedlich stark zu bewerten.
+Il arrive souvent qu'un produit ne puisse pas être livré directement à la demande par le fournisseur parce que les deux régions sont trop éloignées l'une de l'autre.  
+Toutefois, afin d'assurer une livraison à partir d'une source la plus proche possible, il convient d'évaluer l'exécution partielle d'une demande à différents niveaux sur les différents tronçons.  
 
-#### Bewertung von Leerfahrten
+#### Évaluation des parcours à vide
 
-Leerfahrten sind unter Umständen nötig, um nicht in Regionen hängen zu bleiben die lediglich als Senken funktionieren.
+Des voyages à vide peuvent être nécessaires pour ne pas se retrouver coincés dans des régions qui ne fonctionnent que comme des puits.  
 
-Für Leerfahrten kann es 2 verschieden motivierte Ziele geben:
+Il peut y avoir deux objectifs motivés différents pour les voyages à vide :
 
-1. Ansteuern von Regionen mit dringend benötigten Gütern.
-2. Ansteuern von Umschlagsregionen - hier ist immer viel zu transportieren.
+1. En route vers les régions où il y a un besoin urgent des biens
+2. En route vers les régions de transbordement – ​​il y a toujours beaucoup à transporter ici
 
-Es kann ggf. sogar sinnvoll sein, dass eine leerfahrt
+Il peut même être judicieux de voyager à vide.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Transport&oldid=2585] -->

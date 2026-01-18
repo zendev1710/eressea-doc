@@ -26,7 +26,7 @@ Examples:
 ```text
 VERSION 16
 REGION -3 -7
-REGIONSBOTSCHAFTEN
+REGIONSMESSAGES
 ```
 
 ## Attributes
@@ -35,17 +35,17 @@ Names and number of attributes are not predefined.
 An attribute consists of two parts: value and tag.  
 The tag should consist of letters and numbers, but should not contain spaces.  
 The value is either a list of one or more integers, or a string written in quotation marks.  
-Value and day are separated from each other by a semicolon.  
+Value and tag are separated from each other by a semicolon.  
 
 Since version 35, an attribute may only appear once within a block.  
-In CR versions prior to 35, there were some blocks that violated this rule, such as the ADDRESSES block.  
+In CR versions prior to 35, there were some blocks that violated this rule, such as the `ADDRESSES` block.  
 
 Examples:
 
 ```text
 0 0;Bergbau
 "Xandaryl";Insel
-172;Runde
+172;Turn
 ```
 
 ## List entries
@@ -76,7 +76,7 @@ Pay attention to any comments (for Eressea CRs before version 36)!
 
 ### Integer attributes
 
-Identify the number by searching until the `;` reads.  
+Identify the number by searching until encountering `;`.  
 Then read the name of the tag until the end of the line.  
 Please note that there may still be spaces at the end of the line or around the `;` could stand around.  
 
@@ -88,30 +88,41 @@ If the `"` is no longer followed by a semicolon, it is a list element, otherwise
 
 ### String attributes
 
-The string has already been read so the `;` skip, and find the name of the tag.  
+The string has already been read so skip the `;`, and find the name of the tag.  
 Again, watch out for spaces around the semicolon or at the end of the line.  
 
 ### Pitfalls
 
-- An integer attribute can consist of several numbers, such as skills. The number of integers is not necessarily the same for attributes with the same name, and it may not always be 2 (currently it is, but this is left open for future expansion)
-- Blank lines: there shouldn't actually be any blank lines in the CR. But a good parser should be able to handle it
-- Invalid lines: CRs are often garbled because a mail tool or editor has wrapped the lines. In this case, a warning should definitely be issued and the attribute should be ignored
-- CR/LF: Mac, Unix and Windows each store the end of a line differently. The parser should be able to recognize all formats
-- Capitalization: the spelling of the tags should be unique, i.e. not mixed and not converted. A good parser will still recognize two tags as the same if they differ in capitalization
-- Umlauts: both strings and tags can contain umlauts. A good parser recognizes the common transliteration of German umlauts and sets, for example, trees = trees, desert = desert
+- An integer attribute can consist of several numbers, such as skills.
+  The number of integers is not necessarily the same for attributes with the same name, and it may not always be 2 (currently it is, but this is left open for future expansion)
+- Blank lines: there shouldn't actually be any blank lines in the CR.
+  But a good parser should be able to handle it
+- Invalid lines: CRs are often garbled because a mail tool or editor has wrapped the lines.
+  In this case, a warning should definitely be issued and the attribute should be ignored
+- CR/LF: Mac, Unix and Windows each store the end of a line differently.
+  The parser should be able to recognize all formats
+- Capitalization: the spelling of the tags should be unique, i.e. not mixed and not converted.
+  A good parser will still recognize two tags as the same if they differ in capitalization
+- Umlauts: both strings and tags can contain umlauts.
+  A good parser recognizes the common transliteration of German umlauts and sets
 - End of file: it can happen that there is no line break after the last line of the CR
 
 ## Reserved blocks and tags
 
-- `VERSION` is the block that describes the file. It is the first block in the CR. A good parser should process multiple VERSIONs blocks in its input, and treat this case as if a second report had been read in (example: cat 1.cr 2.cr 3.cr | parser)
-- Round is a tag containing the age of the block. Blocks within a CR can be dated differently, if, for example, a report was compiled from information collected over several rounds.
-  The round attribute should indicate the date of the most recent information about the block.
-  It is inherited across sub-blocks, so if these blocks represent newer or older versions, they should get their own round attribute. CRs without turn information are best treated as being from turn 0
-- Configuration is a tag in the version block. It can be used to describe the content of the CR, z.b. with the name of the tool that created it or a description. For example, “mercator-map”, “EMap-export”. The value "Standard" is reserved for the Eressea server
+- `VERSION` is the first block in the CR.
+  A good parser should process multiple `VERSION` blocks in its input, and treat this case as if a second report had been read in (example: cat 1.cr 2.cr 3.cr | parser)
+- `Turn` is a tag containing the age (in the game) of the block.
+- Blocks within a CR can be dated differently, if, for example, a report was compiled from information collected over several turns.
+  The `Turn` attribute should indicate the date of the most recent information about the block.
+  It is inherited across sub-blocks, so if these blocks represent newer or older versions, they should get their own `Turn` attribute.
+  CRs without turn information are best treated as being from turn 0.
+- Configuration is a tag in the version block.
+  It can be used to describe the content of the CR, z.b. with the name of the tool that created it or a description. For example, “mercator-map”, “EMap-export”.
+  The value "Standard" is reserved for the Eressea server
 
 ## See also
 
-- [CR-Format Details] collected and prepared by tww
+- [CR-Format Details] (german web site), collected and prepared by *The White Wolf* (tww)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CR\_Format&oldid=5847] -->
 

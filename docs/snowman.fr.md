@@ -1,19 +1,21 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: bonhomme-de-neige
 ---
 # Bonhomme de neige
 
-Ein Bauer fährt mit seiner Ernte in Richtung Stadt. Die Sonne brennt auf die ausgedörrte Erde herab. Unerklärlicherweise steht am Wegesrand ein Schneemann und schmilzt vor sich hin. Der Bauer hat eine Idee. Er hält mit seinem Fuhrwerk neben dem Schneemann und spricht ihn an:
-
-"Hallo Kumpel! Ziemlich heiß heute, was? Soll ich dich vielleicht irgendwo mit hinnehmen?"
-
-"Ein Gletscher. Ich suche einen Gletscher."
-
-"Ich fahre bis zur Stadt. Von da aus ist es nur noch 'n Goblinwurf bis zum nächsten Gletscher. Steig hinten auf, ich fahr' Dich. Vielleicht setzt Du Dich auf die Kiste mit Salat, ist bestimmt bequemer als auf'm Boden."
-
-Eine Minute später rollt der Wagen weiter. Der Bauer auf dem Kutschbock lächelt still vor sich hin. So frischen Salat wie heute haben die Städter wahrscheinlich noch nie bekommen. Dafür kann er bestimmt den doppelten Preis verlangen.
-
-Auch der Schneemann macht einen zufriedenen Eindruck.
+> Un agriculteur se dirige vers la ville avec sa récolte. Le soleil tape sur la terre desséchée.
+> Inexplicablement, un bonhomme de neige se tient au bord du chemin et fond.
+> L'agriculteur a une idée. Il arrête sa charrette à côté du bonhomme de neige et lui dit :
+> "Bonjour mon pote ! Il fait assez chaud aujourd'hui, hein ? Voudrais-tu que je t'emmène quelque part ?"
+> "Un glacier. Je cherche un glacier."
+> "Je vais en ville. De là, il n'y a qu'un jet de gobelin jusqu'au prochain glacier."
+> "Monte à l'arrière, je te conduis."
+> "Peut-être que vous pouvez vous asseoir sur la boîte de laitue, c'est nettement plus confortable que de s'asseoir par terre."
+> Une minute plus tard, la voiture repart.
+> Le fermier assis sur le siège du cocher sourit doucement.
+> Les citadins n’ont probablement jamais eu de salade aussi fraîche qu’aujourd’hui.
+> Il peut certainement facturer le double du prix pour cela.
+> Le bonhomme de neige fait également bonne impression.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schneemann&oldid=2435] -->

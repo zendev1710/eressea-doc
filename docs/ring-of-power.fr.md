@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: anneau-de-pouvoir
 ---
 # Anneau de Pouvoir

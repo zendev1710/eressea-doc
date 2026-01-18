@@ -4,1529 +4,2124 @@ alias: description-des-sorts
 ---
 # Description des sorts
 
+<!-- cspell:disable -->
+<!-- TODO: enable cSpell after descriptions translation -->
+
 ## A
 
-### Acceleration
+### Accélération
 
-**Description:**  
+<!-- cspell:disable -->
+*Acceleration (EN), Beschleunigung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell speeds up some fighters on your side so that they can attack twice in one combat round throughout the entire combat.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Acceleration`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Acceleration`  
 
-### Air Shield
+### Bouclier aérien
 
-**Description:**  
+<!-- cspell:disable -->
+*Air Shield (EN), Windschild (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Invoking the Elemental Spirits of Wind conjures up sudden gusts of wind, small gusts of wind, and vents that will hinder opposing archers.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Air Shield"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Air Shield"`  
 
-### Airship
+### Dirigeable
 
-**Description:**  
+<!-- cspell:disable -->
+*Airship (EN), Luftschiff (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 These magical runes make a boat or longboat fly for a week. This can then also be used to cross land. For the color of the runes, a special ink must be mixed from a cream puff and a snow crystal.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 10 Aura, 1 Windbeutel, 1 snow crystal  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST Airship <ship-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 10 Aura, 1 Windbeutel, 1 snow crystal  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST Airship <ship-id>`  
 
-### Analysis
+### Analyses
 
-**Description:**  
+<!-- cspell:disable -->
+*Analysis (EN), Lied des Ortes analysieren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear. And just as you can tell from a person"s life song whether they are under a spell, this is also possible with castles, ships or regions.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-### Analyse Dreams
+### Analyse des rêves
 
-**Description:**  
+<!-- cspell:disable -->
+*Analyse Dreams (EN), Traumbilder analysieren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell, the dream weaver can attempt to detect the enchantments of a single unit. He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities. With stronger spells he needs a little luck for a successful analysis.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 25 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Analyse Dreams" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 25 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Analyse Dreams" <unit-id>`  
 
 ### Analyze Magic
 
-**Description:**  
+<!-- cspell:disable -->
+*Analyze Magic (EN), Magie analysieren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the magician to attempt to detect the enchantments of a single specified object. He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities. With stronger spells he needs a little luck for a successful analysis.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-### Analyze Song of Life
+### Analyse du chant de la Vie
 
-**Description:**  
+<!-- cspell:disable -->
+*Analyze Song of Life (EN), Gesang des Lebens analysieren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 All living beings have their own individual life song. No two songs are alike, even if all songs of the same type are similar. Each spell changes this song in one way or another and thus reveals itself. This chant helps to hear those changes in a person"s life song that are magical in nature. You will be able to decipher and unmask all enchantments that are not more masked than your ability.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 10 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Analyze Song of Life" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 10 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Analyze Song of Life" <unit-id>`  
 
-### Animate Dead
+### Pouvoirs des morts
 
-**Description:**  
+<!-- cspell:disable -->
+*Animate Dead (EN), Mächte des Todes (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The black magician has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses. The undead will be at his service, but the uninformed be warned that summoning the forces of death can be a double-edged sword.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
-### Antimagic
+### Antimagie
 
-**Description:**  
+<!-- cspell:disable -->
+*Antimagic (EN), Astrale Schwächezone (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell the magician can create a zone of astral weakening, a local imbalance in the astral field. This zone will strive to return to equilibrium. To do this, it will remove part of the strength of every spell cast in this region and even completely absorb the weaker ones.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Antimagic"`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
-### Appeasing Song <!-- Friedenslied -->
+### Chant apaisant
 
-**Description:**  
+<!-- cspell:disable -->
+*Appeasing Song (EN), Friedenslied (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This song tames even the wildest orc and makes him peaceful and gentle. Any thought of harming the singer will disappear. The magician can move to a neighboring region unmolested.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Appeasing Song"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
-### Astral Call
+### Invocation de l'Astral
 
-**Description:**  
+<!-- cspell:disable -->
+*Astral Call (EN), ;Astraler Ruf (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 A magician who is in the astral plane can use this spell to bring other units to him. The magician can (level 3)*Send 15 kg through the briefly created gate. If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Astral Chaos
+### Chaos de l'Astral
 
-**Description:**  
-This ritual, performed before battle, swirls the astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Astral Chaos"`  
+<!-- cspell:disable -->
+*Astral Chaos (EN), Astrales Chaos (DE)*.
+<!-- cspell:enable -->
 
-### Astral Exit
+**Description** :  
+This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
-**Description:**  
+### Sortie de l'Astral
+
+<!-- cspell:disable -->
+*Astral Exit (EN), Astraler Ausgang (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The magician concentrates on the structure of reality and can thus leave the astral plane. He can overall (Niveau-3)*Send 15 kg through the briefly created gate. If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Astral Guardian Spirits
+### Esprits du Gardien de l'Astral
 
-**Description:**  
+<!-- cspell:disable -->
+*Astral Guardian Spirits (EN), Astralschutzgeister (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual summons some elemental spirits of magic and sends them into the ranks of the enemy mages. These will find it much more difficult to cast spells for the duration of the fight.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
-### Astral Leak
+### Fuite de l'Astral
 
-**Description:**  
+<!-- cspell:disable -->
+*Astral Leak (EN), Astraler Riss (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region. All magically gifted people in the region will lose much of their aura.
-**Type:** Normal spell  
-**Rang:** 3  
-**Composants:** 35 Aura, 1 Dragonblood  
-**Modificateurs:**  
-**Syntax:** `CAST "Astral Leak"`  
+**Type** : sort normal  
+**Rang** : 3  
+**Composants** : 35 Aura, 1 Dragonblood  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Astral Leak"`  
 
-### Astral Path
+### Voie de l'Astral
 
-**Description:**  
+<!-- cspell:disable -->
+*Astral Path (EN), Astraler Weg (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Ancient arcane formulas allow the magician to send himself and others into the astral plane. The magician can (level 3)*Send 15 kg through the briefly created gate. If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
 ### Aufruhr beschwichtigen <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this magical chant, the magician can calm a region in turmoil. The hordes of farmers will get lost and return to their fields.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 30 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Aufruhr beschwichtigen"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 30 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
 ### Aufruhr verursachen <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this magical song, the magician puts an entire region in turmoil. Rebellious hordes of farmers make any taxation impossible, hardly anyone will donate money to scams anymore and no new people can be recruited. After a few weeks the mob calms down again.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 40 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Aufruhr verursachen"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 40 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Aufruhr verursachen"`  
 
-### Awakening of the [Ents]
+### Éveil des [Ents]
 
-**Description:**  
+<!-- cspell:disable -->
+*Awakening of the Ents (EN), Erwecke Ents (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep. The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Awakening of the Ents"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Awakening of the Ents"`  
 
 ## B
 
-### Banish Spirits
+### Bannissement des Esprits
 
-**Description:**  
+<!-- cspell:disable -->
+*Banish Spirits (EN), Geister bannen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 According to the ancient teachings of the Druids, what ordinary beings call magic consists of elemental spirits. The magician conjures and banishes these into a form to achieve the desired effect. This ritual is able to drive away elemental spirits that have been summoned into this world in order to free an object from magic.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Belebtes Gestein <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Belebtes Gestein (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This energy-sapping ritual uses a ball of concentrated Laen to summon a massive earth elemental and banish it to a building. The elemental can then be ordered to carry the building and all its inhabitants to a neighboring region. The strength of the summoned elemental depends on the talent of the magician: the elemental can do maximum[Niveau-12]*Move 250 size units buildings. The building will not survive this procedure unscathed.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 10 Aura \* Niveau, 1 permanent Aura, 5 Laen  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 10 Aura x Niveau, 1 aura permanent, 5 Laen  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
 
 ### Beschwöre Schattenmeister <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Beschwöre Schattenmeister (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Using dark rituals, the magician summons demons from the sphere of shadows. These feared creatures can move almost invisibly among the living, but their dark aura can be felt by everyone. In battle, shadow masters are feared opponents. They are difficult to hit and drain their opponent"s strength and life.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 7 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 7 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
-### Blabbermouth
+### Moulin à paroles
 
-**Description:**  
+<!-- cspell:disable -->
+*Blabbermouth (EN), Plappermaul (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The enchanted unit begins to babble uninhibitedly, telling you what talents it can do, what kind of objects it carries with it, and if it is magically gifted, even what spells it can use. Unfortunately, this spell does not affect memory, and so in retrospect she will be aware that she has told too much.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 10 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST Blabbermouth <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 10 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST Blabbermouth <unit-id>`  
 
-### Blessed Harvest
+### Bénédiction de la terre
 
-**Description:**  
+<!-- cspell:disable -->
+*Blessed Harvest (EN), Segen der Erde (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This harvest ritual improves the yields of working farmers in the region by one piece of silver. The more power the druid invests, the longer the spell lasts.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
 ### Blick in die Realität <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Blick in die Realität (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can look from the astral plane into the material plane and recognize the regions and units precisely.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 40 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Blick in die Realität"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 40 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Blick in die Realität"`  
 
-### Blood Frenzy
+### Soif de sang
 
-**Description:**  
+<!-- cspell:disable -->
+*Blood Frenzy (EN), Blutrausch (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 In this bloody ritual, the magician sacrifices a newborn baby in front of his army before battle. The blood spirits summoned in this way will take possession of the soldiers and send them into a bloodlust.
-**Type:** Pre-combat spell  
-**Rang:** 4  
-**Composants:** 5 Aura \* Niveau, 1 Bauer  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
+**Type** : sort de pré-combat  
+**Rang** : 4  
+**Composants** : 5 Aura x Niveau, 1 Bauer  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
 ## C
 
-### Call of Reality
+### Invocation de la Réalité
 
-**Description:**  
+<!-- cspell:disable -->
+*Call of Reality (EN), Ruf der Realität (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 A magician who is in the material world can use this spell to summon units from the adjacent astral world. If the magician is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
-### Calm Monster
+### Monstres paisibles
 
-**Description:**  
+<!-- cspell:disable -->
+*Calm Monster (EN), Monster friedlich stimmen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This mellifluous song can tame almost any intelligent monster. It will refrain from attacking the magician and will not touch its companions. But make no mistake, it will still remain an unpredictable creature.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 15 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Calm Monster" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 15 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Calm Monster" <unit-id>`  
 
-### Castle of Illusion
+### Château d'Illusion
 
-**Description:**  
+<!-- cspell:disable -->
+*Castle of Illusion (EN), Traumschlößchen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the dream weaver can create the illusion of any building. The illusion can be entered, but is otherwise non-functional and requires no maintenance. It will last for a few weeks.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Castle of Illusion" <Gebäudetyp>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Castle of Illusion" <Gebäudetyp>`  
 
-### Cattle Healing
+### Guérison du bétail
 
-**Description:**  
+<!-- cspell:disable -->
+*Cattle Healing (EN), Viehheilung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The Gwyrrd mages" livestock and healing skills are highly sought after by farmers. Their services are often in high demand, especially in markets. Some people may also use their talent to sell an animal for a better price. The magician can earn 50 silver per level.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Cattle Healing"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Cattle Healing"`  
 
-### Chaos Curse
+### Malédiction du Chaos
 
-**Description:**  
+<!-- cspell:disable -->
+*Chaos Curse (EN), Chaosfluch (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This insidious curse significantly impairs the victim"s magical abilities. A chaos magic zone around the victim reduces his ability to concentrate and makes it very difficult for him to cast spells.
-**Type:** Normal spell  
-**Rang:** 4  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 4  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
 ### Chaos Gift
 
-**Description:**  
+<!-- cspell:disable -->
+*Don du Chaos (EN), Gabe des Chaos (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The magician opens his mind to the spheres of chaos and will thus have more magical power for some time. But the help of the Lords of the Spheres comes at a price, and so the phase of power is replaced by a phase of weakness.
-**Type:** Normal spell  
-**Rang:** 3  
-**Composants:** 6 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Chaos Gift"`  
+**Type** : sort normal  
+**Rang** : 3  
+**Composants** : 6 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Chaos Gift"`  
 
 ### Chaossog <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Chaossog (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 By sacrificing 200 pawns, the chaos magician can open a gate to the astral world. The gate can be used the following week, it dissolves at the end of the following week.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 150 Aura, 200 Bauern  
-**Modificateurs:**  
-**Syntax:** `CAST Chaossog`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 150 Aura, 200 Bauern  
+**Modificateurs** :  
+**Syntaxe** : `CAST Chaossog`  
 
-### Concealing Aura
+### Dissimulation d'aura
 
-**Description:**  
+<!-- cspell:disable -->
+*Concealing Aura (EN), Schleieraura (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell will obscure all of the target unit"s equipment from view for a period of time.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
-### Countersong
+### Chant de contre
 
-**Description:**  
+<!-- cspell:disable -->
+*Countersong (EN), Bannlied (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This shrill chant echoes throughout the battlefield. The special dissonances in the melodies make it almost impossible for magicians to concentrate on their spells.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Countersong`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Countersong`  
 
-### Create a [[negative-weight-bag]] <!-- TODO: check -->
+### Créer un [[negative-weight-bag]] <!-- TODO: check -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight. Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag. It is also not possible to transport one magic bag in another. The bag itself weighs 1 kg.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 30 Aura, 1 permanent Aura, 5000 Silver  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 30 Aura, 1 aura permanent, 5000 silver  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
-### Create a [[belt-of-troll-strength]]
+### Créer une [[belt-of-troll-strength]]
 
-**Description:**  
+<!-- cspell:disable -->
+*Create A Belt of Troll Strength (EN), Erschaffe einen Gürtel der Trollstärke (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This magical artifact grants the wearer the strength of a full-grown cave troll. Its carrying capacity increases 50 times and the increased strength and troll-tough skin will also have a positive effect in combat.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 20 Aura, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Belt of Troll Strength"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 20 Aura, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Belt of Troll Strength"`  
 
-### Create a [[dreameye]] <!-- TODO: check -->
+### Créer un [[dreameye]] <!-- TODO: check -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 A dragon"s eye cast with this spell and consumed at communion allows the user to enter and read another person"s dreams. For a long time, such an ability was considered useless until the former Wood Elf master of battle magic, Liarana Sundew from the Thall Academy, presented a special application: Generals often dream restlessly before major battles and reveal their plans in dreams. This can give the user a huge advantage in the upcoming battle. But be careful: interpreting dreams is a difficult matter.  
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Drachenkopf, 5 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A DreamEye"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Drachenkopf, 5 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A DreamEye"`  
 
-### Create a [[flaming-sword]]
+### Crére une [[flaming-sword]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos. And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 100 Aura, 1 Berserkerblut, 1 Schwert, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Flaming Sword"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 100 Aura, 1 Berserkerblut, 1 Schwert, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Flaming Sword"`  
 
-### Create a [[magical-herb-pouch]]
+### Créer un [[magical-herb-pouch]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material. He now uses the leather prepared in this way to make a small bag that can better preserve the herbs stored in it.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 30 Aura, 1 permanent Aura, 1 water of lifes  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A magical Herb Pouch"`
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 30 Aura, 1 aura permanent, 1 water of lifes  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A magical Herb Pouch"`
 
-### Create a [[ring-of-power]]
+### Créer un [[ring-of-power]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This powerful ritual creates a ring of power. A ring of power increases the power of any spell its wearer casts, as if the mage were one level better.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 100 Aura, 1 permanent Aura, 4000 Silver  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Ring of Power"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 100 Aura, 1 aura permanent, 4000 silver  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Ring of Power"`  
 
-### Create a [[ring-of-invisibility]]
+### Créer un [[ring-of-invisibility]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell the wizard can create a ring of invisibility. The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be. In an invisible unit, each person must wear a ring.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 3000 Silver, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Ring of Invisibility"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 3000 silver, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Ring of Invisibility"`  
 
-### Create a [[sphere-of-invisibility]]
+### Créer une [[sphere-of-invisibility]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell the magician can create a sphere of invisibility. The sphere renders its wielder and ninety-nine other people in the same unit invisible.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 150 Aura, 30000 Silver, 3 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create A Sphere of Invisibility"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 150 Aura, 30000 silver, 3 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create A Sphere of Invisibility"`  
 
-### Create an [[amulet-of-true-vision|Amulet of True Sight]]
+### Créer une [[amulet-of-true-vision|Amulet of True Sight]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The spell allows a magician to create an Amulet of True Sight. The amulet allows the wearer to see all units protected by a ring of invisibility. However, units that use their camouflage talent to hide still remain undetected.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 3000 Silver, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create An Amulet of True Sight"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 3000 silver, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create An Amulet of True Sight"`  
 
-### Create an [[antimagic-crystal|Antimagic Crystal]]
+### Créer un [[antimagic-crystal|Antimagic Crystal]]
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN),  (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician drains a quartz crystal of all its magical energies. The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 3000 Silver  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Create An Antimagic Crystal"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 3000 silver  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Create An Antimagic Crystal"`  
 
-### Create [[iron-golem|Iron Golems]]
+### Créer des [[iron-golem|Iron Golems]]
 
-**Description:**  
+<!-- cspell:disable -->
+*Create Iron Golems (EN), Erschaffe Eisenolems (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The more power the magician invests, the more golems can be created. Each golem has a 15 percent chance of turning to dust each round. If you give the golems the order MAKE SWORD/BIHANDER or MAKE SHIELD/CHAIN ​​MAIL/PLATE ARMOR, 4 iron bars are installed per golem and the golem dissolves.
-**Type:** Normal spell  
-**Rang:** 4  
-**Composants:** 2 Aura \* Niveau, 1 Eisen \* Niveau, 1 water of lifes  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Create Iron Golems"`  
+**Type** : sort normal  
+**Rang** : 4  
+**Composants** : 2 x N Aura, N [fers], 1 [eau de vie]  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Create Iron Golems"`  
 
-### Create [[stone-golem|Stone Golems]]
+### Créer des [[stone-golem|Stone Golems]]
 
-**Description:**  
+<!-- cspell:disable -->
+*Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock. Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength. The more power the magician invests, the more golems can be created before the aura dissipates. Each golem has a 10 percent chance of turning to dust each round. If you give the golems the commands MAKE CASTLE or MAKE ROAD, 4 stones are placed per golem and the golem dissolves.  
-**Type:** Normal spell  
-**Rang:** 4  
-**Composants:** 2 Aura \* Niveau, 1 Stein \* Niveau, 1 water of lifes  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Create Stone Golems"`  
+**Type** : sort normal  
+**Rang** : 4  
+**Composants** : 2 x N Aura, N [pierres], 1 [eau de vie]  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Create Stone Golems"`  
 
-### Curse of Pestilence
+### Malédiction de la peste
 
-**Description:**  
+<!-- cspell:disable -->
+*Curse of Pestilence (EN), Fluch der Pestilenz (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 In an elaborate ritual, the black magician sacrifices some peasants and then magically distributes the corpses into the region"s wells.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 30 Aura, 50 Bauern  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Curse of Pestilence"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 30 Aura, 50 Bauern  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Curse of Pestilence"`  
 
 ## D
 
-### Destroy Magic
+### Dévoreur de magie
 
-**Description:**  
+<!-- cspell:disable -->
+*Destroy Magic (EN), Magiefresser (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Divination
 
-**Description:**  
+<!-- cspell:disable -->
+*Divination (EN), Weissagung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 No one can interpret dreams as well as an Illaun magician. He is also familiar with the art of fortune telling, card reading and palm reading. In return, the farmers pay him 50 silver per level.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Divination`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Divination`  
 
 ### Drachenruf <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Drachenruf (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this dark ritual, the magician creates a lure that smells irresistible to [Dragons]. It has not yet been possible to research whether the dragons come from the surrounding area or from the sphere of chaos. Both are said to have already happened. The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 80 Aura, 1 Drachenkopf  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] Drachenruf`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 80 Aura, 1 Drachenkopf  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] Drachenruf`  
 
-### Dream of Magic
+### Rêve de magie
 
-**Description:**  
+<!-- cspell:disable -->
+*Dream of Magic (EN), Traum der Magie (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the dream weaver can transfer his own aura to another dream weaver at a ratio of 2:1.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 2 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Dream of Magic" <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 2 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Dream of Magic" <unit-id> <Aura>`  
 
-### Dream
+### Rêve
 
-**Description:**  
+<!-- cspell:disable -->
+*Dream (EN), Traum (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The magician sends the target of the spell a dream.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Dream <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Dream <unit-id>`  
 
 ## E
 
-### Epic Heroes
+### Chant des héros
 
-**Description:**  
+<!-- cspell:disable -->
+*Epic Heroes (EN), Heldengesang (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings. Such a solid warrior will not flee even in difficult situations and his considered behavior will give him many an advantage in defense.
-**Type:** Pre-combat spell  
-**Rang:** 4  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Epic Heroes"`  
+**Type** : sort de pré-combat  
+**Rang** : 4  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
-### Eternal Rest
+### Repos éternel
 
-**Description:**  
+<!-- cspell:disable -->
+*Eternal Rest (EN), Seelenfrieden (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This magical ritual soothes the tormented souls of those who died violently, allowing them to begin their final journey to the Otherlands. Approximately 50 souls will find peace per level of the spell. The spell cannot redeem the living dead who have already been resurrected because their ties to this world are too strong.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau, 1 water of lifes  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Eternal Rest"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau, 1 water of lifes  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Eternal Rest"`  
 
-### Eternal Walls
+### Murs d'éternité
 
-**Description:**  
+<!-- cspell:disable -->
+*Eternal Walls (EN), Mauern der Ewigkeit (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this formula, the magician binds the forces of the earth into the walls of the building forever. A building enchanted in this way is protected against the ravages of time and no longer requires any maintenance.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Eternal Walls" <building-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
 ## F
 
 ### Feuerteufel <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Feuerteufel (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This elemental invocation summons a fire devil, a creature from the deepest reaches of the flaming hells. The fire devil will eagerly pounce on the region"s forests and set them ablaze.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 1 Öl  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] Feuerteufel`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 1 Öl  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] Feuerteufel`  
 
-### Fireball
+### Boule de feu
 
-**Description:**  
+<!-- cspell:disable -->
+*Fireball (EN), Feuerball (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The sorcerer hurls focused chaos into the enemy"s ranks. The ball-shaped chaos will wound anyone it hits.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Fireball`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Fireball`  
 
-### Firewall
+### Mur de feu
 
-**Description:**  
+<!-- cspell:disable -->
+*Firewall (EN), Feuerwand (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The wizard creates a wall of fire in the specified direction. It hurts everyone who walks through it.
-**Type:** Normal spell  
-**Rang:** 4  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] Firewall <directoin>`  
+**Type** : sort normal  
+**Rang** : 4  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] Firewall <directoin>`  
 
-### Firun's Coat
+### Le manteau de Firun
 
-**Description:**  
+<!-- cspell:disable -->
+*Firun's Coat (EN), Firuns Fell (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the magician to magically protect insects from the crippling cold of the glaciers. You can enter glaciers and act normally there. The saying works on a level*10 insects. A Ring of Power increases the number of enchantable insects by an additional 10.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
 ## G
 
-### Gaze of the Basilisk
+### Regard du Basilic
 
-**Description:**  
+<!-- cspell:disable -->
+*Gaze of the Basilisk (EN), Blick des Basilisken (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This difficult but effective combat spell uses the elemental spirits of stone to turn a number of enemies to stone for the duration of the battle. The affected people will no longer fight, but they cannot be wounded either.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
 ### Gesang der Friedfertigkeit <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Gesang der Friedfertigkeit (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This powerful spell prevents any attacks. No one in the entire region is capable of taking up arms against anyone. The effects can last for several weeks.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 20 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 20 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
 ### Gesang der Melancholie  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Gesang der Melancholie (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this song the bard spreads a melancholic, sad mood among the farmers. For a few weeks they will retreat to their huts and leave no silver in the theaters and taverns.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 40 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Gesang der Melancholie"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 40 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Gesang der Melancholie"`  
 
 ### Gesang der Versklavung  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Gesang der Versklavung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This powerful spell robs the victim of their free will and subjects them to the Bard"s commands. For a time, the victim will turn completely away from his own people and feel that he belongs to the bard"s party.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 40 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Gesang der Versklavung" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 40 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Gesang der Versklavung" <unit-id>`  
 
 ### Gesang des schwachen Geistes  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Gesang des schwachen Geistes (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Woven into the magical essence of the region, this song weakens one"s natural resistance to an enchantment by 15% once. Only the bard"s allies (HELP GUARD) are immune to the effect of the song.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
 ### Gesang des wachen Geistes  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Gesang des wachen Geistes (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This magical song, once sung with fervor, will spread throughout the region, jump from mouth to mouth and be heard everywhere for a while. How many weeks the song disappears from the memory of the region depends on the skill of the bard. Until the song has completely faded away, his magic will grant all of the bard"s allies (HELP GUARD), and of course his own people, a one-time bonus of 15% to the natural resistance to an enchantment.  
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
-### Grove of Oak Trees
+### Magie du bosquet de chêne
 
-**Description:**  
+<!-- cspell:disable -->
+*Grove of Oak Trees (EN), Hainzauber (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Where previously only a tree could sprout from a stick, every branch now sprouts roots.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 4 Aura \* Niveau, 1 Holz \* Niveau, 1 water of lifes  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 4 Aura x Niveau, 1 Holz \* Niveau, 1 water of lifes  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
 ## H
 
-### Hail
+### Grêle
 
-**Description:**  
+<!-- cspell:disable -->
+*Hail (EN), Hagel (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 In battle, the magician calls upon the elemental spirits of cold and binds them to himself. He can then order them to attack the enemy with hailstones and chunks of ice.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Hail`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Hail`  
 
-### Hangover
+### Gueule de bois
 
-**Description:**  
+<!-- cspell:disable -->
+*Hangover (EN), Schaler Wein (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 There are more than 512 characters with translation, please reduce the translation content.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 28 Aura, 3 Knotige Saugwurze, 50 Silver  
-**Modificateurs:**  
-**Syntax:** `CAST Hangover <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 28 Aura, 3 trématode à nœuds, 50 silver  
+**Modificateurs** :  
+**Syntaxe** : `CAST Hangover <unit-id>`  
 
-### Heal
+### Guérison
 
-**Description:**  
+<!-- cspell:disable -->
+*Heal (EN), Heilung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 It"s not just the medic who can help the wounded in battle. Druids are able to close wounds, set broken bones and regenerate even severed limbs by summoning the elemental spirits of life.
-**Type:** Postkampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Heal`  
+**Type** : sort de post-combat  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Heal`  
 
-### Hex
+### Imprécation
 
-**Description:**  
+<!-- cspell:disable -->
+*Hex (EN), Verwünschung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 The magician"s target is afflicted by a harmless curse.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] Hex <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] Hex <unit-id>`  
 
 ### Hitzeelementar  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Hitzeelementar (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual summons angry heat elementals. A drought is plaguing the country. Trees wither, animals die, and the harvest fails. There is hardly any work to be found in agriculture for day laborers.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 600 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] Hitzeelementar`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 600 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] Hitzeelementar`  
 
 ### Hohe Kunst der Überzeugung  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Hohe Kunst der Überzeugung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 From "Wanderings" by Firudin the Wise: "In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited. It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf. After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished. He was only hesitantly willing to teach me the secret of his persuasiveness."
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 20 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 20 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
-### Homestone
+### Pierre de maison
 
-**Description:**  
+<!-- cspell:disable -->
+*Homestone (EN), Heimstein (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this formula, the magician binds the forces of the earth forever into the walls of the castle in which he currently finds himself. Walls that have been strengthened in this way cannot be destroyed either by magic or with heavy artillery, and age also affects them less. The building also offers better protection against attacks with swords and magic.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 50 Aura, 1 permanent Aura  
-**Modificateurs:**  
-**Syntax:** `CAST Homestone`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 50 Aura, 1 aura permanent  
+**Modificateurs** :  
+**Syntaxe** : `CAST Homestone`  
 
-### Hymn of Aura Sharing
+### Chant du partage d'aura
 
-**Description:**  
+<!-- cspell:disable -->
+*Hymn of Aura Sharing (EN), Gesang des Auratransfers (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 2 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 2 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
 ## I
 
-### Insomnia
+### Insomnie
 
-**Description:**  
+<!-- cspell:disable -->
+*Insomnia (EN), Schlechter Schlaf (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell causes insomnia and restlessness in the affected area for a few weeks. Those affected find it much more difficult to learn.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 18 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] Insomnia`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 18 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] Insomnia`  
 
 ## J
 
-### Jugglery
+### Jonglerie
 
-**Description:**  
+<!-- cspell:disable -->
+*Jugglery (EN), Gaukeleien (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Cerddor mages are the leading jugglers among the mages, they love to entertain the people and be the center of attention. Even beginners learn the little tricks and magical tricks that can be used to lure and seduce people into opening their wallets very wide, and at the end of the week the juggler will have earned 50 silver per level.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Jugglery`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Jugglery`  
 
 ## L
 
-### Lesser Sacrifice
+### Petit sacrifice de sang
 
-**Description:**  
+<!-- cspell:disable -->
+*Lesser Sacrifice (EN), Kleines Blutopfer (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this ritual the magician can sacrifice part of his life energy in order to gain magical power. Experienced ritual magicians report that the ritual, once initiated, is difficult to control and the amount of power gained varies greatly. So it is written in the "Book of Blood": "So let He establish the sign of the four elements in the circle of creation and decay and consecrate each one with a drop of blood. Then let He go into the midst of the Eternal Four and let life pass away so that strength can be born."  
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 16 Hit points  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Lesser Sacrifice"`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 16 Hit points  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Lesser Sacrifice"`  
 
 ## M
 
-### Madness of War
+### Folie de la guerre
 
-**Description:**  
+<!-- cspell:disable -->
+*Madness of War (EN), Wahnsinn des Krieges (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 In front of the enemy soldiers, the black magician sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops. They will react confusedly in battle and be unable to follow the orders of their officers.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau, 10 Bauern  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Madness of War"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau, 10 Bauern  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Madness of War"`  
 
-### Magic Path
+### Voie magique
 
-**Description:**  
+<!-- cspell:disable -->
+*Magic Path (EN), Magischer Pfad (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 By performing these rituals, the magician is able to summon a powerful earth elemental. As long as this is banished into the ground, no rain will soften the paths and no river will be able to destroy bridges. This means that all travelers receive the same advantages that would otherwise only be offered by a developed paved road network. Even swamps and glaciers can be enchanted this way. The more power the magician puts into the spell, the longer the road lasts.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau, 1 Stein, 1 Holz  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Magic Path"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau, 1 Stein, 1 Holz  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
 ### Mahlstrom  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Mahlstrom (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual summons a great water elemental from the depths of the ocean. The elemental creates a massive whirlpool, a maelstrom, which can severely damage any ships that pass through it.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 200 Aura, 1 Seeschlangenkopf  
-**Modificateurs:** Seezauber, Ship spell  
-**Syntax:** `CAST Mahlstrom`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 200 Aura, 1 Seeschlangenkopf  
+**Modificateurs** : Seezauber, sort sur bateau  
+**Syntaxe** : `CAST Mahlstrom`  
 
-### Meditate
+### Méditation
 
-**Description:**  
+<!-- cspell:disable -->
+*Meditate (EN), Meditation (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 2 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST Meditate <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 2 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST Meditate <unit-id> <Aura>`  
 
-### Mind Probe
+### Intrusion mentale
 
-**Description:**  
+<!-- cspell:disable -->
+*Mind Probe (EN), Traumdeuten (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell, the dream weaver penetrates the thoughts and dream world of his victim and can thus spy on his most intimate secrets. His abilities, possessions and party affiliation will no longer be uncertain.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 20 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Mind Probe" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 20 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Mind Probe" <unit-id>`  
 
-### Minor Curses
+### Petites malédictions
 
-**Description:**  
+<!-- cspell:disable -->
+*Minor Curses (EN), Kleine Flüche (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 In the darker alleys they exist, the curses and hexes made to order. But of course the disciple of Draig also offers counterspells. Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures. For this service, the magician earns 50 silver per level.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Minor Curses"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Minor Curses"`  
 
-### Miracle Doctor
+### Docteur Miracle
 
-**Description:**  
+<!-- cspell:disable -->
+*Miracle Doctor (EN), Wunderdoktor (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 If the alchemist cannot help you, you go to the learned Tybied magician. His potions and tinctures help against everything you can"t get otherwise. Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who doesn"t know how to read will never know. It definitely helps the magician... fill his wallet. You can earn 50 silver per level in a week.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] "Miracle Doctor"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Miracle Doctor"`  
 
 ### Miriams flinke Finger  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Miriams flinke Finger (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 There are more than 512 characters with translation, please reduce the translation content.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 20 Aura, 1000 Silver, 1 permanent Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Miriams flinke Finger"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 20 Aura, 1000 silver, 1 aura permanent  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Miriams flinke Finger"`  
 
 ### Mob aufwiegeln  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Mob aufwiegeln (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this magical song, the magician convinces the farmers of the region to join him. However, the farmers will not leave their homeland and will not give away any of their possessions. Each week some of the farmers will also cast off the spell and return to their fields. How many farmers join the magician depends on the power of his song.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Mob aufwiegeln"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Mob aufwiegeln"`  
 
-### [[mountain-guard|Mountain Guardian]]
+### [[mountain-guard|Gardien de la Montagne]]
 
-**Description:**  
+<!-- cspell:disable -->
+*Mountain Guardian (EN), Bergwächter (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Creates a guardian spirit that prevents iron and metal mining in glaciers and mountains by non-allied parties (HELP GUARD) as long as it guards the region. The mountain guardian is bound to the location of the summoning.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
 
 ## N
 
-### Negate Curse
+### Brise‑malédiction
 
-**Description:**  
+<!-- cspell:disable -->
+*Negate Curse (EN), Fluch brechen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
-**Type:** Normal spell  
-**Rang:** 3  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
+**Type** : sort normal  
+**Rang** : 3  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
 ## O
 
 ### Opfere Kraft  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Opfere Kraft (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can permanently transfer part of his magical power to another magician. He can transfer half of the power used to a magician of the same magic area, and a third to other magicians.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 100 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Opfere Kraft" <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 100 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Opfere Kraft" <unit-id> <Aura>`  
 
 ## P
 
-### Path of Trees
+### Voie des Arbres
 
-**Description:**  
+<!-- cspell:disable -->
+*Path of Trees (EN), Weg der Bäume (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Great power lies in places where life pulsates. The druid can collect this power and create a gateway into the world of spiritual beings. The druid can then level*Send 5 units of weight through the gate.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
 ### Pentagramm  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Pentagramm (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments. To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness. The gentlemen will help him, but whether he succeeds in solving the spell depends solely on his own strength.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 10 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 10 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-### Protection from Magic
+### Protection contre la magie
 
-**Description:**  
+<!-- cspell:disable -->
+*Protection from Magic (EN), Schutz vor Magie (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell places an antimagic field around enemy mages, significantly hindering their spellcasting. Only a few will have the strength to penetrate the field and aid their troops in battle.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Protection from Magic"`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
-### Protective Runes
+### Runes de protection
 
-**Description:**  
+<!-- cspell:disable -->
+*Protective Runes (EN), Runen des Schutzes (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 If you draw these runes on the walls of a building or on the planks of a ship, it will be more difficult to influence by magic. Each ritual increases the building or ship"s resistance to enchantment by 20%. If several protective spells are placed on top of each other, their effects are added together, but 100% protection cannot be achieved this way. The spell lasts at least three weeks, but depending on the magician"s talent it can last much longer.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 20 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 20 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
 
 ## R
 
-### Rain Dance
+### Danse de la pluie
 
-**Description:**  
+<!-- cspell:disable -->
+*Rain Dance (EN), Regentanz (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Dieses uralte Tanzritual ruft die Kräfte des Lebens und der Fruchtbarkeit. Die Erträge der Bauern werden für einige Wochen deutlich besser ausfallen.  
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] Rain Dance`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
-### Rain of Rust
+### Pluie de rouille
 
-**Description:**  
+<!-- cspell:disable -->
+*Rain of Rust (EN), Rostregen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual conjures up a dark storm front that towers ominously over the region. The magical rain will cause all ore to rust. Iron weapons and armor become chipped and rusty. The destructive power of the rain depends on the power invested by the magician. Up to 10 iron weapons can be affected for each level. A ring of power increases the effect like an additional level.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
-### Read Dreams
+### Lecture des rêves
 
-**Description:**  
+<!-- cspell:disable -->
+*Read Dreams (EN), Traumlesen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the Dreamweaver to enter a unit"s dreams to obtain a report on the surrounding area.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 8 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Read Dreams" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 8 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
-### Resist Magic
+### Résistance à la magie
 
-**Description:**  
+<!-- cspell:disable -->
+*Resist Magic (EN), Schutzzauber (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell increases your natural resistance to magic. A unit protected in this way is also less vulnerable to combat magic. Per level, the magician"s power is enough to protect 5 people.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
-### Resurrection
+### Résurrection
 
-**Description:**  
+<!-- cspell:disable -->
+*Resurrection (EN), Wiederbelebung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 If a warrior dies in battle, his soul begins the long journey to the stars. With the help of a ritual, a dream weaver can attempt to capture the soul and return it to the body of the deceased. Although the spell does not heal physical injuries, the person treated will survive the fight.
-**Type:** Postkampfzauber  
-**Rang:** 4  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Resurrection`  
+**Type** : sort de post-combat  
+**Rang** : 4  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Resurrection`  
 
 ### Rindenhaut  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Rindenhaut (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung. Jeder Treffer reduziert die Kraft des Zaubers, so dass der Schild sich irgendwann im Kampf auflösen wird.  
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Rindenhaut`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Rindenhaut`  
 
 ### Ritual der Aufnahme  <!-- TODO -->
 
-**Description:**  
-Dieses Ritual ermöglicht es, eine Einheit, egal welcher Art, in die eigene Partei aufzunehmen. Der um Aufnahme Bittende muss dazu willig und bereit sein, seiner alten Partei abzuschwören. Dies bezeugt er durch KONTAKTIEREn des Magiers. Auch wird er die Woche über ausschliesslich mit Vorbereitungen auf das Ritual beschäftigt sein. Das Ritual wird fehlschlagen, wenn er zu stark an seine alte Partei gebunden ist, dieser etwa Dienst für seine teuere Ausbildung schuldet. Der das Ritual leitende Magier muss für die permanent Bindung des Aufnahmewilligen an seine Partei naturgemäß auch permanent Aura aufwenden. Pro Niveau und pro 1 permanent Aura kann er eine Person aufnehmen.  
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau, 1 permanent Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
+<!-- cspell:disable -->
+* (EN), Ritual der Aufnahme (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
+Dieses Ritual ermöglicht es, eine Einheit, egal welcher Art, in die eigene Partei aufzunehmen. Der um Aufnahme Bittende muss dazu willig und bereit sein, seiner alten Partei abzuschwören. Dies bezeugt er durch KONTAKTIEREn des Magiers. Auch wird er die Woche über ausschliesslich mit Vorbereitungen auf das Ritual beschäftigt sein. Das Ritual wird fehlschlagen, wenn er zu stark an seine alte Partei gebunden ist, dieser etwa Dienst für seine teuere Ausbildung schuldet. Der das Ritual leitende Magier muss für die permanent Bindung des Aufnahmewilligen an seine Partei naturgemäß auch aura permanent aufwenden. Pro Niveau und pro 1 aura permanent kann er eine Person aufnehmen.  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau, 1 aura permanent \* Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
 ### Rüstschild  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Rüstschild (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual, which can be cast before battle, gives your troops an additional bonus to their armor. Each hit reduces the spell"s power, so the shield will dissipate at some point in the fight.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Rüstschild`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Rüstschild`  
 
 ## S
 
-### Sacred Ground
+### Terre Sacrée
 
-**Description:**  
+<!-- cspell:disable -->
+*Sacred Ground (EN), Heiliger Boden (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual summons various natural spirits into the soil of the region, which guard it from then on. In such a blessed region, the dead will never again leave their graves, and undead that have arisen elsewhere will avoid them whenever possible.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 80 Aura, 3 permanent Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Sacred Ground"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 80 Aura, 3 aura permanent  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Sacred Ground"`  
 
-### Save Spoils
+### Préservation du butin
 
-**Description:**  
+<!-- cspell:disable -->
+*Save Spoils (EN), Beschleunigung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell prevents some of the objects that would otherwise be destroyed in battle from being damaged. Losses are reduced by 5% per level of the spell, up to a minimum of 25%.
-**Type:** Postkampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Save Spoils"`  
+**Type** : sort de post-combat  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
 ### Schlechte Träume  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Schlechte Träume (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the Dreamer to disrupt the sleep of all non-allied units (HELP GUARD) in the region to such an extent that they temporarily lose some of their memories.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 90 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Schlechte Träume"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 90 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Schlechte Träume"`  
 
-### Shadow Knights
+### Chevaliers de l'Ombre
 
-**Description:**  
+<!-- cspell:disable -->
+*Shadow Knights (EN), Schattenritteren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell can give the enemy a slightly different image of their own troops. The Shadow Knights have no effective attack and being wounded in battle will destroy them instantly.
-**Type:** Pre-combat spell  
-**Rang:** 4  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Shadow Knights"`  
+**Type** : sort de pré-combat  
+**Rang** : 4  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-### Shield of the Fish
+### Bouclier du poisson
 
-**Description:**  
+<!-- cspell:disable -->
+*Shield of the Fish (EN), Schild des Fisches (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell can give the enemy a slightly different image of their own troops, just like the fish in the water is not where it seems to be. In this way, half of the damage from each hit can be rendered harmless. But the shield can only withstand a few hundred sword blows, after which it will disintegrate. The stronger the magician, the more damage the shield can withstand.
-**Type:** Pre-combat spell  
-**Rang:** 2  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
+**Type** : sort de pré-combat  
+**Rang** : 2  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
-### Sleep
+### Endormissement
 
-**Description:**  
+<!-- cspell:disable -->
+*Sleep (EN), Schlaf (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell causes some enemy combatants to fall asleep. Sleeping fighters do not attack and have poorer defenses, but they wake up as soon as they are hit in combat.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Sleep`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Sleep`  
 
-### Shockwave
+### Onde de choc
 
-**Description:**  
+<!-- cspell:disable -->
+*Shockwave (EN), Schockwelle (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell causes a wave of pure power to sweep across the enemy ranks. The shock will leave many fighters so dazed that they will be unable to attack for a brief moment.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Shockwave`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Shockwave`  
 
 ### Schöne Träume  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Schöne Träume (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all talents for a period of time.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 80 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Schöne Träume"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 80 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Schöne Träume"`  
 
 ### Segne Mallornstecken  <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Segne Mallornstecken (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual increases the effect of the magical potion many times over. Where previously only a tree could sprout from a stick, every branch now sprouts roots.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 6 Aura \* Niveau, 1 Mallorn \* Niveau, 1 water of lifes  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Segne Mallornstecken"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 6 Aura x Niveau, 1 Mallorn \* Niveau, 1 water of lifes  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Segne Mallornstecken"`  
 
 ### Segne Steinkreis <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Segne Steinkreis (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual blesses a stone circle that must first be built from stones and some wood. The Druid"s Blessing turns the circle into a powerful site of magical activity, providing protection from magic and increased aura regeneration. It is said that virgins encountered strange creatures around stone circles.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 350 Aura, 5 permanent Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Segne Steinkreis" <building-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 350 Aura, 5 aura permanent  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Segne Steinkreis" <building-id>`  
 
-### Shapeshift
+### Changement de forme
 
-**Description:**  
+<!-- cspell:disable -->
+*Shapeshift (EN), Gestaltwandlung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this arcane ritual, the dream weaver is able to disguise the true form of a group. To inexperienced observers, she then appears to belong to a different race.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
-### Silence Dissonance
+### Dissonance du silence
 
-**Description:**  
+<!-- cspell:disable -->
+*Silence Dissonance (EN), Lebenslied festigen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Each enchantment affects the Life Song, weakening and distorting it. The skilled bard can attempt to capture and amplify the song of life and erase the changes from the song.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Sog des Lebens <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Sog des Lebens (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 A druid who has fallen into the world of spirits can use this spell to level up*Send 5 units of weight back to a forest on the material world.
-**Type:** Normal spell  
-**Rang:** 7  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 7  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Song of Confusion
+### Chant de confusion
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Confusion (EN), Gesang der Verwirrung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This magical song comes from the ancient songs of cats and, when used before a fight, can bring decisive strategic advantages. Anyone who comes under the influence of this song will not pay attention to the melody of their surroundings, their mind will become confused and give in erratically to sudden inspirations. Well-ordered armies are said to have suddenly found their archers far in front and their cavalry playing cards with the camp guards (or their leader sleeping in the long-abandoned camp, as is actually said to have happened in the Great Wars of the Old World)..  
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Song of Confusion"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
-### Song of Courting
+### Chant de cour
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Courting (EN), Gesang des Werbens (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 From "The Songs of the Ancients" by Firudin the Wise: "This seductive little melody and a few insinuating words overcome the distrust of the peasants in an instant. They will enthusiastically join you and leave their house and yard in ruins themselves."
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Song of Courting"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Song of Courting"`  
 
-### Song of Fear
+### Chant d'effroi
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Fear (EN), Gesang der Angst (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength. Fear will weaken their sword arm and fear will paralyze their shield arm.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Song of Fear"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
-### Song of Generosity
+### Chant de générosité
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Generosity (EN), Hohes Lied der Gaukelei (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood. Taverns and theaters everywhere will be full and even the beggars will be fed.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
-### Song of Healing
+### Chant de guérison
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Healing (EN), Lied der Heilung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 It"s not just the medic who can help the wounded in battle. The bards know various songs that support the body"s self-healing powers. This song can close wounds, set broken bones and regenerate even severed limbs.
-**Type:** Postkampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Song of Healing"`  
+**Type** : sort de post-combat  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
-### Song of Seduction
+### Chant de séduction
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Seduction (EN), Lied der Verführung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This song can be used to charm a unit into giving most of their cash and possessions to the bard. However, she always keeps what she needs to survive.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 12 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Song of Seduction" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 12 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Song of Seduction" <unit-id>`  
 
-### Song of Terror
+### Chant de terreur
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of Terror (EN), Gesang der Furcht (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 A very powerful song from the traditions of cats that penetrates deep into the hearts of enemies and robs them of courage and hope. Fear will make them tremble and panic will dominate their thoughts. Full of fear, they will try to escape the horrible songs and flee.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Song of Terror"`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
-### Song of War
+### Chant de guerre
 
-**Description:**  
+<!-- cspell:disable -->
+*Song of War (EN), Kriegsgesang (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Like many magical songs, this one also comes from the ancient knowledge of cats, who have always known about the powerful effects of the voice. This song whips up the mood of the warriors, even driving them into wild frenzy and bloodlust. Regardless of their own pain, they will fight to the death and never flee. While their attack is intensified, they pay little attention to themselves.
-**Type:** Pre-combat spell  
-**Rang:** 4  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Song of War"`  
+**Type** : sort de pré-combat  
+**Rang** : 4  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Song of War"`  
 
-### Sound out
+### Écoute clandestine
 
-**Description:**  
+<!-- cspell:disable -->
+*Sound out (EN), Aushorchen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 If the unit succumbs to the spell, it will tell the magician everything it knows about the region in question. If there is no one from her party in the region, she has nothing to report. She can also only tell what she could see herself.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 4 Aura, 100 Silver  
-**Modificateurs:**  
-**Syntax:** `CAST "Sound out" <unit-id> <x> <y>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 4 Aura, 100 silver  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Sound out" <unit-id> <x> <y>`  
 
-### Steal Aura
+### Vol d'aura
 
-**Description:**  
+<!-- cspell:disable -->
+*Steal Aura (EN), Stehle Aura (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
-**Type:** Normal spell  
-**Rang:** 3  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
+**Type** : sort normal  
+**Rang** : 3  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
-### Strong Wall And Sturdy Gate
+### Portail puissant et Mur robuste
 
-**Description:**  
+<!-- cspell:disable -->
+*Strong Wall And Sturdy Gate (EN), Starkes Tor und feste Mauer (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this formula, at the beginning of a fight, the magician binds some elemental spirits of the rock into the walls of the building in which he is currently located. The building then offers better protection against attacks with the sword and magic.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
 ### Störe Astrale Integrität <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Störe Astrale Integrität (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell causes severe disruption to the astral space. Within an astral radius of level/5 regions, all astral beings who cannot resist the spell are thrown out of the astral plane. Astral contact with all affected regions is disrupted for level/3 weeks.
-**Type:** Normal spell  
-**Rang:** 4  
-**Composants:** 140 Aura  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Störe Astrale Integrität"`  
+**Type** : sort normal  
+**Rang** : 4  
+**Composants** : 140 Aura  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
-### Summon Earth Elemental
+### Invocation de la Terre
 
-**Description:**  
+<!-- cspell:disable -->
+*Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this ritual, the druid summons an elemental spirit of the earth and causes it to cause the earth to tremble. This earthquake will damage all buildings in the region.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 25 Aura, 2 Laen  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Summon Earth Elemental"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 25 Aura, 2 Laen  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Summon Earth Elemental"`  
 
-### Summon Familiar
+### Invocation du Familier
 
-**Description:**  
+<!-- cspell:disable -->
+*Summon Familiar (EN), Vertrauten rufen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 100 Aura, 5 permanent Aura  
-**Modificateurs:**  
-**Syntax:** `CAST "Summon Familiar"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 100 Aura, 5 aura permanent  
+**Modificateurs** :  
+**Syntaxe** : `CAST "Summon Familiar"`  
 
-### Summon Shadowdemons
+### Invocation des Démons de l'Ombre
 
-**Description:**  
+<!-- cspell:disable -->
+*Summon Shadowdemons (EN), Beschwöre Schattendämonen (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Using dark rituals, the magician summons demons from the sphere of shadows. These feared creatures can move almost invisibly among the living, but their dark aura can be felt by everyone. Shadow demons are feared opponents in battle. They are difficult to hit and drain their opponent"s power.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 3 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Summon Shadowdemons"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 3 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Summon Shadowdemons"`  
 
-### Summon Storm Elemental
+### Invocation de la Tempête
 
-**Description:**  
+<!-- cspell:disable -->
+*Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Summoning elemental spirits of storms is an ancient ritual. The druid banishes the elementals into the sails of the ships, where they help carry the ship over the waves at high speed. The more power the druid invests in the spell, the greater the number of elemental spirits that can be banished. An elemental spirit is required for each ship.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:** Seezauber, Ship spell  
-**Syntax:** `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** : Seezauber, sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
-### Summon Water Elemental
+### Invocation de l'Eau
 
-**Description:**  
+<!-- cspell:disable -->
+*Summon Water Elemental (EN), Beschwörung eines Wasserelementares (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this ritual, the magician forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly. In addition, the ship is not affected by unfavorable winds or currents.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
 
 ### Süße Träume <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Süße Träume (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell -the use of which is strictly forbidden in most cultures -triggers an uncontrollable desire for physical love in the victim. The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else. Most of the time they regret it a few weeks later...
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
 ## T
 
-### Timber Wolves
+### Hurlement des Loups
 
-**Description:**  
+<!-- cspell:disable -->
+*Timber Wolves (EN), Wolfsgeheul (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Over the course of their lives in nature, quite a few Druids become friends with the oldest friends of the great peoples. They learn to summon many of their friends to aid them in battle with a single howling call.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Timber Wolves"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
-### Tiredness
+### Affaiblissement
 
-**Description:**  
+<!-- cspell:disable -->
+*Tiredness (EN), Schwere Glieder (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This combat spell causes some enemies to suffer severe fatigue during combat. The soldiers sometimes oversleep their attack and defend themselves poorly.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 4 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Tiredness`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 4 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Tiredness`  
 
 ### Tod des Geistes <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Tod des Geistes (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With this spell the magician attacks the minds of his opponents directly. A blast of astral and electrical energy hits the opponents; if magic resistance is broken, a victim permanently loses part of their memories. If it falls victim to this spell too often, it can die.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
 ### Todeswolke <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Todeswolke (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With a dark ritual and sacrificing his own blood, the black magician summons a great spirit from the elemental plane of poisons. The spirit manifests itself as a bright green cloud over the region and will harm all who come into contact with it.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 40 Aura, 15 Trefferpunkte  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] Todeswolke`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 40 Aura, 15 Trefferpunkte  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] Todeswolke`  
 
 ### Tor in die Ebene der Hitze <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Tor in die Ebene der Hitze (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This powerful ritual opens a gateway into the elemental plane of heat. A great drought is coming to the country. Farmers, animals and plants in the region are fighting for survival, but only half of all living things can survive such a drought. The region can be affected by the consequences of such a drought for years to come.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 800 Aura  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 800 Aura  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
-### Transfer Aura
+### Transfert d'aura
 
-**Description:**  
+<!-- cspell:disable -->
+*Transfer Aura (EN), Auratransfer (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 1 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Transfer aura" <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 1 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Transfer aura" <unit-id> <Aura>`  
 
-### Transfer Power
+### Transfert de pouvoir
 
-**Description:**  
+<!-- cspell:disable -->
+*Transfer Power (EN), Machtübertragung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
-**Type:** Normal spell  
-**Rang:** 1  
-**Composants:** 2 Aura  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST "Transfer Power" <unit-id> <Aura>`  
+**Type** : sort normal  
+**Rang** : 1  
+**Composants** : 2 Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST "Transfer Power" <unit-id> <Aura>`  
 
 ### Traumbilder entwirren
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Traumbilder entwirren (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
-**Type:** Normal spell  
-**Rang:** 2  
-**Composants:** 6 Aura \* Niveau  
-**Modificateurs:** Distance  spell, Ship spell  
-**Syntax:** `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+**Type** : sort normal  
+**Rang** : 2  
+**Composants** : 6 Aura x Niveau  
+**Modificateurs** : sort à distance, sort sur bateau  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ## U
 
-### Undead Heroes
+### Héros morts‑vivants
 
-**Description:**  
+<!-- cspell:disable -->
+*Undead Heroes (EN), Untote Helden (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual binds the already escaping souls of some battle victims to their dead bodies, resurrecting them to undead life. Whether they previously fought on the enemy"s side or their own is irrelevant to the ritual.
-**Type:** Postkampfzauber  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Undead Heroes"`  
+**Type** : sort de post-combat  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
 ### Unheilige Kraft <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Unheilige Kraft (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual is only passed on to the adepts in the dark academies in whispers, as it is one of the darkest ever written down. By invoking unholy demons, the power of the living dead is amplified and they transform into undead monsters of great power.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 10 Aura \* Niveau, 5 Bauern \* Niveau  
-**Modificateurs:**  
-**Syntax:** `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 10 Aura x Niveau, 5 Bauern \* Niveau  
+**Modificateurs** :  
+**Syntaxe** : `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
-### Unspeakable Horrors
+### Horreurs indicibles
 
-**Description:**  
+<!-- cspell:disable -->
+*Unspeakable Horrors (EN), Grauen der Schlacht (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 Before battle, the dream weaver conjures up terrifying illusions that cause many opponents to panic. Those affected will try to escape from the mirages.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 1 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 1 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
 ## V
 
 ## W
 
-### Whirlwind
+### Tourbillon
 
-**Description:**  
+<!-- cspell:disable -->
+*Whirlwind (EN), Wirbelwind (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This incantation opens a gate into the plane of the elemental spirits of the wind. Strong winds or even storms immediately arise in the area around the gate and hinder all archers in a battle.
-**Type:** Pre-combat spell  
-**Rang:** 5  
-**Composants:** 15 Aura  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] Whirlwind`  
+**Type** : sort de pré-combat  
+**Rang** : 5  
+**Composants** : 15 Aura  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Whirlwind`  
 
-### Winds of Rust
+### Vents de rouille
 
-**Description:**  
+<!-- cspell:disable -->
+*Winds of Rust (EN), Rosthauch (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This ritual conjures up a dark storm front that towers ominously over the region. The magical rain will cause all ore to rust, destroying many of the enemy's weapons.
-**Type:** Kampfzauber  
-**Rang:** 5  
-**Composants:** 2 Aura \* Niveau  
-**Modificateurs:**  
-**Syntax:** `COMBATSPELL [LEVEL n] "Winds of Rust"`  
+**Type** : Kampfzauber  
+**Rang** : 5  
+**Composants** : 2 Aura x Niveau  
+**Modificateurs** :  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
 ### Wurzeln der Magie <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Wurzeln der Magie (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region. This will change the balance of nature in the region forever, and in the future only the demanding but strong mallornas will thrive in the region.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 250 Aura, 10 permanent Aura, 1 Tiegel mit Krötenschleim  
-**Modificateurs:** Distance  spell  
-**Syntax:** `CAST [REGION x y] "Wurzeln der Magie"`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 250 Aura, 10 aura permanent, 1 pot de bave de crapaud  
+**Modificateurs** : sort à distance  
+**Syntaxe** : `CAST [REGION x y] "Wurzeln der Magie"`  
 
 ## Z
 
 ### Zeitdehnung <!-- TODO -->
 
-**Description:**  
+<!-- cspell:disable -->
+* (EN), Zeitdehnung (DE)*.
+<!-- cspell:enable -->
+
+**Description** :  
 This practical application of theoretical knowledge of space and time makes it possible to change the flow of time for some people. People modified in this way get twice as many movement points and twice as many attacks per round for a few weeks.
-**Type:** Normal spell  
-**Rang:** 5  
-**Composants:** 5 Aura \* Niveau  
-**Modificateurs:** Ship spell  
-**Syntax:** `CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
+**Type** : sort normal  
+**Rang** : 5  
+**Composants** : 5 Aura x Niveau  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
 
 ## Voir aussi
 

@@ -6,10 +6,12 @@ Aquazone
 Ard'Ragorn
 Bärmann
 Benni
+berserker
 bhean'Gwynewa
 Birnkern
 Brogar's
 Büthe
+Casandra
 Cerddor
 crtools
 Darllenydd
@@ -24,6 +26,7 @@ echeck
 EHMV
 Empiria
 enno
+eressea
 Eressea
 Eressëa
 Eryn'yn'Falathvorn
@@ -33,7 +36,10 @@ Faroul
 Feoral
 Finladir
 Firudin
+Firun
 Firun's
+Flickr
+freenet
 Freenet
 Garan
 Gmail
@@ -49,6 +55,7 @@ Igjarjuks
 igjr
 Illaun
 Istine
+Juju
 laen
 Laen
 Llyfr
@@ -56,6 +63,7 @@ Llyfr'yn
 Mahlstrom
 mallorn
 Mallorn
+Mantis
 Melvaunt
 Menouthis
 ng'Darllen
@@ -68,6 +76,7 @@ Phygon
 Plötzbogen
 Podina
 Ponnuki
+posteo
 Posteo
 Quenya
 Rabenhelm
@@ -85,6 +94,7 @@ Tirawon
 Tirawons
 Tybied
 Vinyambar
+Vîpot
 Weilersweide
 Whyren
 Wilken

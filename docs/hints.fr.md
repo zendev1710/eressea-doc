@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: remarques
 ---
 # Remarques
@@ -64,12 +64,12 @@ C'est pourquoi le "jeu multiple" est en principe interdit.
 Jouer plusieurs factions annule les restrictions telles que la limite d'unités, la limite supérieure pour les mages et les alchimistes, ainsi que les compétences raciales.
 
 Le passé a montré qu'une telle interdiction ne suffit pas à elle seule et que, pour diverses raisons, il y a quand même du "Jeu multiple".
-Quelle qu'en soit la raison, sans accord prélable du maître de jeu, cela sera un motif d'exclusion.
+Quelle qu'en soit la raison, sans accord préalable du maître de jeu, cela sera un motif d'exclusion.
 
 Une autre raison est souvent que la disparition d'une faction entraînerait un changement important dans l'équilibre des forces.
 Une alliance qui perd un membre important reprend la faction du joueur et la gère comme une seconde faction.
 Cela n'est pas non plus acceptable, sauf si cela a été convenu avec le meneur de jeu (il existe plusieurs anciennes factions pour lesquelles cela a été autorisé).
-Pour atténuer ce phénomène, nous avons la commande [[cmd-quit]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
+Pour atténuer ce phénomène, nous avons l'ordre [[cmd-quit]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
 
 Plusieurs joueurs partageant un compte de messagerie ne peuvent pas être admis à Eressea.
 Le risque de tricherie est trop important.

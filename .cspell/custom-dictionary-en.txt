@@ -10,6 +10,7 @@
 !Talent
 !talents
 !Talents
+anonymization
 Antimagic
 armoursmithing
 Braineaters

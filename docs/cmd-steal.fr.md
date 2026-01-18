@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-steal-fr
 ---
-# STEAL
+# `STEAL`
 
 *Ordre [long].*
 
@@ -32,6 +32,6 @@ Si la perception des victimes est plus élevée que la dissimulation des auteurs
 
 [long]: ./commands.md#ordres-courts-et-longs
 
-[camouflage]: ./skills-list.md#camouflage
+[camouflage]: ./skills-list.md#vol
 [perception]: ./skills-list.md#perception
 [réserve d'argent]: ./items-pool.md#reserve-et-give

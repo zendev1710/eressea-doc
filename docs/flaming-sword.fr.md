@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: epee-de-flammes
 ---
 # Épée de Flammes

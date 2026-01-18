@@ -12,14 +12,14 @@ With the `MOVE` order the unit moves through the world of Eressea.
 
 The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest.
 
-| Direction | Abbreviations |
-|-----------|---------------|
-| Northeast | NE, NorthE    |
-| East      | E             |
-| Southeast | SE, SouthE    |
-| Northwest | NW, NorthW    |
-| West      | W             |
-| Southwest | SW, SouthW    |
+| Direction   | Abbreviations  |
+|-------------|----------------|
+| `East`      | `E`            |
+| `Northeast` | `NE`, `NorthE` |
+| `Northwest` | `NW`, `NorthW` |
+| `Southeast` | `SE`, `SouthE` |
+| `Southwest` | `SW`, `SouthW` |
+| `West`      | `W`            |
 
 !!! note
     The coordinates (X, Y) are not used for this order.

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-combat-fr
 ---
-# COMBAT
+# `COMBAT`
 
 **`COMBAT`**`FRONT`  
 **`COMBAT`**`AGGRESSIVE`  
@@ -53,7 +53,7 @@ Si une unité prête à [fuir] est impliquée dans un combat, elle tentera de fu
 Pour plus d'informations sur le comportement de fuite, consultez la section [Échappement] du chapitre Combat.  
 
 Ce statut de combat est mis à profit par presque tous les « civils ».  
-Si même une personne d'une unité réussit à s'échapper d'un combat, elle quitte automatiquement les bâtiments ou les navires terrestres dans lesquels elle se trouve.  
+Si même une personne d'une unité réussit à s'échapper d'un combat, elle quitte automatiquement les bâtiments ou les bateaux terrestres dans lesquels elle se trouve.  
 Il est donc important de se demander si ce statut a du sens pour les occupants d'un bâtiment ou d'un bateau.  
 
 Les unités avec ce statut de combat ne peuvent pas non plus [[cmd-attack|attaquer]] ni [[cmd-guard|garder]].  

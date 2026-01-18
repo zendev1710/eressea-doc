@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: chaines-d-apprentissage-optimisees
 ---
 # Chaînes d'apprentissage optimisées

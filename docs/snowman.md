@@ -4,16 +4,18 @@ alias: snowman
 ---
 # Snowman
 
-Ein Bauer fährt mit seiner Ernte in Richtung Stadt. Die Sonne brennt auf die ausgedörrte Erde herab. Unerklärlicherweise steht am Wegesrand ein Schneemann und schmilzt vor sich hin. Der Bauer hat eine Idee. Er hält mit seinem Fuhrwerk neben dem Schneemann und spricht ihn an:
-
-"Hallo Kumpel! Ziemlich heiß heute, was? Soll ich dich vielleicht irgendwo mit hinnehmen?"
-
-"Ein Gletscher. Ich suche einen Gletscher."
-
-"Ich fahre bis zur Stadt. Von da aus ist es nur noch 'n Goblinwurf bis zum nächsten Gletscher. Steig hinten auf, ich fahr' Dich. Vielleicht setzt Du Dich auf die Kiste mit Salat, ist bestimmt bequemer als auf'm Boden."
-
-Eine Minute später rollt der Wagen weiter. Der Bauer auf dem Kutschbock lächelt still vor sich hin. So frischen Salat wie heute haben die Städter wahrscheinlich noch nie bekommen. Dafür kann er bestimmt den doppelten Preis verlangen.
-
-Auch der Schneemann macht einen zufriedenen Eindruck.
+> A farmer drives towards the city with his harvest. The sun beats down on the parched earth.
+> Inexplicably, a snowman stands by the side of the path and melts away.
+> The farmer has an idea. He stops his cart next to the snowman and speaks to him:
+> "Hello buddy! Pretty hot today, huh? Would you like me to take you somewhere?"
+> "A glacier. I'm looking for a glacier."
+> "I'm going to the city. From there it's just a goblin's throw to the next glacier."
+> Get in the back, I'll drive you."
+> "Maybe you can sit on the box of lettuce, it's definitely more comfortable than sitting on the floor."
+> A minute later the car moves on.
+> The farmer on the coach seat smiles quietly to himself.
+> The townspeople have probably never had salad as fresh as it is today.
+> He can definitely charge double the price for that.
+> The snowman also makes a happy impression.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schneemann&oldid=2435] -->

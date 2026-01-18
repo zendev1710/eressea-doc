@@ -89,7 +89,7 @@ Each person can earn up to 20 silver per round and talent level in entertainment
 
 ### Examples of potential income
 
-Income and upkeep
+*Income and upkeep.*
 
 | Region | Trees | Peasants | Max. workers | Wage | Income | Upkeep | Surplus | Entertain |
 |--------|------:|---------:|-------------:|-----:|-------:|-------:|--------:|----------:|
@@ -140,17 +140,17 @@ Trade is prevented by guarding only for trading units on ships.
 
 Every type of trade good has a certain base price (see table below). The number of luxury goods that can be bought without raising this price is 1% of the number of peasants in the region. Every time this amount is bought (the total bought by all factions), the price is increased by the base price. A region with 2,000 peasants means that 20 luxury items can be bought without raising the price. The price drops to normal the next turn.
 
-Base prices of luxury goods:
+*Base prices of luxury goods.*
 
 | Luxury good | Base price | Weight UW/kg |
 |-------------|------------|--------------|
-| Balm        | 4          | 2            |
-| Oil         | 3          | 3            |
-| Spice       | 5          | 2            |
-| Silk        | 6          | 3            |
-| Gem         | 7          | 1            |
-| Incense     | 4          | 2            |
-| Myrrh       | 5          | 2            |
+| balm        | 4          | 2            |
+| oil         | 3          | 3            |
+| spice       | 5          | 2            |
+| silk        | 6          | 3            |
+| gem         | 7          | 1            |
+| incense     | 4          | 2            |
+| myrrh       | 5          | 2            |
 
 The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a [harbour], this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.
 
@@ -167,6 +167,22 @@ Examples:
 The silver spent by peasants to buy the luxury goods benefits the selling traders. Nevertheless, the region does not lose any silver, because the peasants own luxury goods with which they can pay the taxes. The money is not created out of nothing - it is the value of goods produced in another region. The silver spent by BUY, on the other hand, goes into the region's supply. Clever rulers can take it back from them through entertainment and taxes.
 
 It's worth equipping a ship and setting sail. Although it is possible to trade with the two products usually produced on an island, the profits remain relatively low. On the other hand, if you return from a foreign island with a cargo of rare goods, you can make astronomical profits, whatever the distance between the islands. Remember that a tradepost is a prerequisite for any trade, so if you equip an expedition to a new world, make sure to account for that.
+
+### Luxury goods
+
+#### Balm
+
+#### Gem
+
+#### Incense
+
+#### Oil
+
+#### Myrrh
+
+#### Silk
+
+#### Spice
 
 ## Competition between different factions
 

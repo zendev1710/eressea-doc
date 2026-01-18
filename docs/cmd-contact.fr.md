@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-contact-fr
 ---
-# CONTACT
+# `CONTACT`
 
 **`CONTACT`**` UNIT `*`unit-id`*  
 **`CONTACT`**` PARTEI `*`faction-id`*  
@@ -17,7 +17,7 @@ Les factions non alliées peuvent également pénétrer dans les châteaux et le
 `CONTACT UNIT`donne les droits à une seule unité, tandis que `CONTACT FACTION` autorise toutes les unités de la faction en question dans une région.  
 L' ordre `CONTACT <unit-id>` est autorisé pour des raisons historiques, mais devrait être remplacé par `CONTACT UNIT <unit-id>`.
 
-**Exemples:**
+**Exemples :**
 
 ```text
 PARTEI ff "FooBar"
@@ -30,19 +30,19 @@ PARTEI 300 "BarFoo"
         CONTACT UNIT a ; autoriser le paiement
 ```
 
-L'unité a peut donner à l'unité x les 1000 Silver.
-Si x est la seule unité de garde dans la région, a est également autorisé à recruter et à collecter des impôts.  
+L'unité *a* peut donner à l'unité *x* les 1000 Silver.  
+Si *x*est la seule unité de garde dans la région, *a* est également autorisé à recruter et à collecter des impôts.  
 
-Une unité b de la faction ff n'est pas autorisée à faire quoi que ce soit de tout cela.
-Pour que cela soit possible, l'unité x doit donner l'ordre `CONTACT FACTION ff`.  
+L'unité *b* de la faction *ff* n'est pas autorisée à faire quoi que ce soit de tout cela.  
+Pour que cela soit possible, l'unité *x* doit donner l'ordre `CONTACT FACTION ff`.  
 
-Unit x and unit y of one faction guard the region.
-In order for unit a to recruit, x and y must both `CONTACT UNIT a` or `CONTACT PARTEI ff` orders.  
+L'unité *x* et l'unité *y* d'une faction gardent la région.  
+Pour que l'unité *a* recrute, *x* et *y* doivent tous deux passer un ordre `CONTACT` (`CONTACT UNIT a` ou `CONTACT FACTION ff`).
 
 ## Differences avec `HELP`
 
-`CONTACT` a une fonction similaire à [[cmd-help|`HELP GIVE + HELP GUARD`]], mais ce n'est pas à 100% identique :
-<!-- TODO: compare the second item in enumeration with the original wiki documentation -->
+`CONTACT` a une fonction similaire à [[cmd-help|`HELP GIVE + HELP GUARD`]], mais n'est pas tout à fait identique :
+<!-- TODO: compare second item in enumeration with original wiki documentation -->
 - `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [[cmd-give|`GIVE MEN`]] et certains sorts
 - `HELP` ferme `HELP SILVER, HELP COMBAT` et `HELP PARTEITARNUNG`
 - `CONTACT` s'applique uniquement au tour en cours et uniquement à l'unité émettant l'ordre

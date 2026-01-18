@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: bateaux
 ---
 # Bateaux
@@ -41,16 +41,56 @@ Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le tra
 
 Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent donc partir vers n'importe quelle région océanique voisine.
 
-Bateaux - Type, portée, capacité, compétence de voile nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
+## Types de bateau
 
-| Type      | Portée | Capacité | Capitaine/Équipage | Niv. construction | Bois |
-|-----------|:------:|---------:|-------------------:|------------------:|-----:|
-| Bateau    |      2 |       50 |                1/2 |                 1 |    5 |
-| Chaloupe  |      3 |      500 |               1/10 |                 1 |   50 |
-| Drakkar   |  5[^1] |     1000 |               2/50 |                 2 |  100 |
-| Caravelle |      5 |     3000 |               3/30 |                 3 |  250 |
-| Trirème   |      7 |     2000 |              4/120 |                 4 |  200 |
-| Galion    |      5 |    20000 |          5/250[^2] |                 5 | 2000 |
+### Barque
+
+<!-- cspell:disable -->
+*Boat (EN), Boot (DE).*
+<!-- cspell:enable -->
+
+### Chaloupe
+
+<!-- cspell:disable -->
+*Longboat (EN), Langboot (DE).*
+<!-- cspell:enable -->
+
+### Drakkar
+
+<!-- cspell:disable -->
+*Dragonship (EN), Drachenschiff (DE).*
+<!-- cspell:enable -->
+
+### Caravelle
+
+<!-- cspell:disable -->
+*Caravel (EN), Karavelle (DE).*
+<!-- cspell:enable -->
+
+### Trirème
+
+<!-- cspell:disable -->
+*Trireme (EN), Trireme (DE).*
+<!-- cspell:enable -->
+
+### Galion
+
+<!-- cspell:disable -->
+*Galleon (EN), Galeone (DE).*
+<!-- cspell:enable -->
+
+### Bateaux - Tableau de synthèse
+
+Bateaux - Type, portée, capacité, compétence de [voile] nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
+
+| Type      | Portée | Capacité | Capitaine/Équipage | Niv. construction |  Bois |
+|-----------|:------:|---------:|-------------------:|:-----------------:|------:|
+| Barque    |   2    |       50 |                1/2 |         1         |     5 |
+| Chaloupe  |   3    |      500 |               1/10 |         1         |    50 |
+| Drakkar   | 5[^1]  |    1 000 |               2/50 |         2         |   100 |
+| Caravelle |   5    |    3 000 |               3/30 |         3         |   250 |
+| Trirème   |   7    |    2 000 |              4/120 |         4         |   200 |
+| Galion    |   5    |   20 000 |          5/250[^2] |         5         | 2 000 |
 
 [^1]: la vitesse du drakkar dépend de la compétence en voile du capitaine.  
 [^2]: pour un galion, le calcul de la compétence totale en voile ne prend en compte que les unités de niveau 2 ou plus.  
@@ -75,7 +115,7 @@ Les unité sources et cibles **doivent appartenir à la même faction**, les ord
 
 L'unité propriétaire d'un convoi dirige tous ses bateaux ensemble et doit pour cela :
 
-- Avoir le niveau de compétence requis en voile pour le type de bateau
+- Avoir le niveau de compétence requis en [voile] pour le type de bateau
 - Avoir une personne par bateau
 
 Le compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.  
@@ -83,7 +123,7 @@ La portée correspond à celle du type de bateau, les dégâts maximums et la ch
 
 Exemple.
 
-Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec *Sailing* T3 et un équipage avec 90 niveaux de compétence au total.
+Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec [voile] T3 et un équipage avec 90 niveaux de compétence au total.
 Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
 ```text
@@ -97,7 +137,7 @@ Comme on peut le voir, il est possible de déplacer de grandes unités dans un c
 Pour le reste, les convois se comportent comme un bateau normal.  
 Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.  
 
-Les barques (*boats*) sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.  
+Les [barques] sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.  
 Il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.  
 
 Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
@@ -118,8 +158,8 @@ Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent p
 
 Expérience de jeu (Solthar) :
 
-An empty unit cannot hand over anything.
-This is why the order of the following orders is important:
+Une unité vide ne peut rien céder.  
+C'est pourquoi l'ordre dans la séquence d'écriture des ordres suivants est importante :
 
 ```text
 GIVE 123 1 SHIP
@@ -134,3 +174,5 @@ GIVE 123 ALL MEN
 Poursuivre la lecture : [[batiments]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
+[barques]: #barque
+[voile]: ./skills-list.fr.md#voile "Sailing"

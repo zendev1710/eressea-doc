@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: accueil
 ---
 # Accueil
@@ -85,7 +85,7 @@ Poursuivre la lecture : [[regles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 [wiki]: https://wiki.eressea.de/Hauptseite/fr
-[Les outils indispensables pour jouer]: ./commands-send.md#what-you-need-to-consider-when-entering-data
+[Les outils indispensables pour jouer]: ./commands-send.md#ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres
 [Conseils pour les nouveaux joueurs]: ./getting-started-tips.md
 [L'histoire d'Eressea]: ./eressea-story.md
 [Questions fréquentes (FAQ)]: ./faq.md

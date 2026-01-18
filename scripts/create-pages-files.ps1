@@ -2,7 +2,7 @@
 $langs = @('en', 'fr', 'de')
 
 $categories = @{
-    'commands' = @('commands', 'commands-list', 'commands-send', 'commands-sequence', 'commands-extended', 'commands-send-from-magellan', 'commands-short-descriptions')
+    'commands' = @('commands', 'commands-list', 'commands-send', 'commands-sequence', 'commands-extended', 'commands-send-from-magellan')
     'magic' = @('magic', 'magic-schools', 'magic-school-cerddor', 'magic-school-draig', 'magic-school-gwyrrd', 'magic-school-illaun', 'magic-school-tybied', 'spells-list', 'spells-descriptions')
     'gameplay' = @('alliances', 'armed', 'buildings', 'buildings-others', 'camouflage', 'castles', 'combat', 'familiars', 'factions', 'races', 'sailing', 'ships', 'skills', 'skills-list', 'skills-modifiers', 'tactic')
     'items' = @('adamantium', 'adamantium-armor', 'alchemy', 'herbs', 'potions-and-herbs', 'amulet-of-true-vision', 'antimagic-crystal', 'belt-of-troll-strength', 'dream-eye', 'flaming-sword', 'iron-golem', 'magical-herb-bag', 'mountain-guard', 'negative-weight-bag', 'ring-of-invisibility', 'ring-of-power', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail')

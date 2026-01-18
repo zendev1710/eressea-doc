@@ -8,52 +8,57 @@ Particularly with larger factions, players lose track in some regions, especiall
 
 ## The silver pool
 
-The silver pool takes over the distribution of money when playing, so that for example with [[cmd-recruit]] the unit automatically gets enough money (if available in the region) or the learning of expensive talents is provided. Nevertheless, it is stated throughout the instructions that units must have enough money with them.
+The silver pool takes over the distribution of money when playing, so that for example with [[cmd-recruit]] the unit automatically gets enough money (if available in the region) or the learning of expensive skills is provided.  
+Nevertheless, it is stated throughout the instructions that units must have enough money with them.  
 This is just to avoid forgetting it.
 
-Likewise, [[buildings]] are supplied from the pool if the silver is present in the region at the start of the round.
-If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.
-At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own party's pool.
+Likewise, [[buildings]] are supplied from the pool if the silver is present in the region at the start of the round.  
+If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.  
+At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own faction's pool.  
 
-TEMP units cannot reserve. They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [[cmd-give]].
-Be careful: when TEMP units get silver, they also use it to recruit!
-So if you want them to take silver with you to another region, the recruitment silver must also be handed over.
+**`TEMP` units cannot reserve**.  
+They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [[cmd-give]].
 
-Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.
-Units do not give silver they need for their own upkeep to units to pay for their upkeep.
+!!! warning "Attention"
+    when `TEMP` units get silver, they also use it to recruit!
+    So if you want them to take silver with themselves to another region, the recruitment silver must also be handed over.
+
+Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.  
+Units do not give silver they need for their own upkeep to units (to pay for their upkeep).
 
 ## The material pool
 
-The material pool is the logical continuation of the silver pool: every unit that needs something, e.g. stones and wood for building buildings, automatically gets this from other units in the region.
+The material pool is the logical continuation of the silver pool: every unit that needs something, e.g. stones and wood for building buildings, automatically gets this from other units in the region.  
 
-The pools are only valid for your own faction.
-Objects must be explicitly handed over to foreign units.
+The pools are only valid for your own faction.  
+Objects must be explicitly handed over to foreign units.  
 
-Attention, the pools not only work in production, essentially for the command [[cmd-make]], but basically for everything, especially for the commands [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]], [[cmd-recruit]].
-If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.
+The pools not only work in production (essentially for the [[cmd-make]] order), but basically for everything, and especially for [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]] and [[cmd-recruit]] orders.  
+If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.  
 However, if a unit needs weapons for an attack or to collect taxes, these must be explicitly handed over or reserved, as the material pool does not apply here.
 
-Inexperienced parties should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected, and thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.
+Inexperienced factions should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected;  
+thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.  
 
 ### Example 1
 
 ```text
-UNIT a ; Stone builders, have 30 iron
+UNIT a ; miner, has 30 iron
     MAKE 20 iron
     @GIVE c ALL iron
 ;
-UNIT b ; Castle builders have no iron
+UNIT b ; weaponsmither, has no iron
     RESERVE 10 iron
     MAKE 10 sword
 ;
-UNIT c ; Depot, has no iron
-    LEARN Tarnung
+UNIT c ; for storage, has no iron
+    LEARN Stealth
 ```
 
 **Result:**
 
 - Unit b first gets 10 iron from a's material pool
-- Unit a gives the remaining 20 irons to c
+- Unit a gives the remaining 20 iron to c
 - Unit b makes 10 swords out of 10 iron
 - Unit a makes 20 iron
 - So unit b has 10 swords
@@ -62,41 +67,44 @@ UNIT c ; Depot, has no iron
 
 ## RESERVE and GIVE
 
-There are a few special things to note about [[cmd-reserve]] and [[cmd-give]], which come before most other commands in the [[orders-sequence]].
+There are a few special things to note about [[cmd-reserve]] and [[cmd-give]], which come before most other orders in the [[orders-sequence]].
 These apply equally to the silver and material pools:
 
-Firstly, items that have been handed over or reserved are no longer available in the pool.
-So she can only use the unit that she has reserved or received.
+Firstly, items that have been handed over or reserved are no longer available in the pool.  
+<!-- TODO: clarify -->
+So she can only use the unit that she has reserved or received.  
 
-With RESERVE orders, the unit proceeds as follows: In a first pass, each unit first reserves its own items.
-From then on, everything that has been reserved will no longer be available for the pool.
-Only then do the units try to get the items from the pool that they did not have in the first step from other units.
-Both the processing of the RESERVE commands and the retrieval of items are carried out in the order in which the units appear in the report -strictly speaking this is not guaranteed, but it has been the practice for a long time.
+With `RESERVE` orders, the unit proceeds as follows: In a first pass, each unit first reserves its own items.  
+From then on, everything that has been reserved will no longer be available for the pool.  
+Only then do the units try to get the items from the pool that they did not have in the first step from other units.  
+Both the processing of the `RESERVE` orders and the retrieval of items are carried out in the order in which the units appear in the report -strictly speaking this is not guaranteed, but it has been the practice for a long time.  
 
-If a unit has multiple RESERVE orders for an item, this is not additive.
-Instead, all commands are executed in sequence.
-However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one RESERVE command per item.
+If a unit has multiple `RESERVE` orders for an item, this is not additive.
+Instead, all orders are executed in sequence.  
+However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one `RESERVE` order per item.  
 
-When GIVE is subsequently executed, items are also removed from the pool if necessary.
-Here too, the report order is followed. Items reserved by any unit (including the unit with the GIVE command) are not passed on.
-Items that have been handed over are no longer in the pool.
+When `GIVE` is subsequently executed, items are also removed from the pool if necessary.
+Here too, the report order is followed.  
+Items reserved by any unit (including the unit with the `GIVE` order) are not passed on.
+Items that have been handed over are no longer in the pool.  
 
-Note: `GIVE xyz ALL` only hands over unreserved items to the unit itself.
+!!! note
+    `GIVE xyz ALL` order only hands over unreserved items to the unit itself.
 
-All other commands first use your own, reserved or transferred items and only then use unreserved items from the pool.
+All other orders first use your own, reserved or transferred items and only then use unreserved items from the pool.  
 
 ### Example 2
 
 ```text
-UNIT a ; hat 10 Silver
+UNIT a ; has 10 Silver
     LEARN Melee
     RESERVE 20 Silver
 ;
-UNIT b ; Has 0 Silver
+UNIT b ; has 0 Silver
     LEARN Melee
     RESERVE 10 Silver
 ;
-UNIT c ; hat 10 Silver
+UNIT c ; has 10 Silver
     LEARN Melee
     RESERVE 10 Silver
 ```
@@ -105,7 +113,7 @@ UNIT c ; hat 10 Silver
 
 - Unit a reserves its own 10 silver
 - Unit c reserves its own 10 silver
-- Since there were only 20 silver in the region, the remaining RESERVE commands expire
+- Since there were only 20 silver in the region, the remaining `RESERVE` orders expire
 - Unit a consumes its own 10 silver upkeep
 - Unit c consumes its own 10 silver upkeep
 - Unit b is starving because there is no silver left
@@ -129,19 +137,20 @@ UNIT c ; has 0 Silver
 **Result:**
 
 - Unit a reserves its own 20 silver
-- Unit a gives 20 silver from the material pool to c. Her own 20 silver is reserved, so she takes the 20 silver from b
+- Unit a gives 20 silver from the material pool to c.
+  Her own 20 silver is reserved, so she takes the 20 silver from b
 - Unit b goes east and will starve if there is no other unit there with silver
 - Unit c takes the 20 silver west
 
 ### Example 4
 
 ```text
-UNIT a ; hat 10 Silver, 20 Wood, 10 Iron
+UNIT a ; has 10 Silver, 20 Wood, 10 Iron
     LEARN Melee
     RESERVE 5 Iron; (1)
     GIVE d ALL Iron; (6)
 ;
-UNIT b ; hat 10 Silver, 10 Iron
+UNIT b ; has 10 Silver, 10 Iron
     RESERVE 100 Silver ; (2), (4)
     RESERVE 10 Wood ; (5)
     GIVE c 100 Silver ; (7)
@@ -152,7 +161,7 @@ UNIT c ; Melee 10, has 100 Silver
     RESERVE 100 Silver ; (3)
     MAKE 10 Spear ; (9)
 ;
-UNIT d ; hat 200 Silver
+UNIT d ; has 200 Silver
     LEARN Forestry
 ```
 
@@ -164,7 +173,8 @@ UNIT d ; hat 200 Silver
 - (6): Unit a gives the remaining 5 irons that were not reserved to unit d
 - (7): Unit b tries to give 100 silver to c; the only silver that is not yet reserved has unit d (120), so 100 of it is given to c
 - (8): Unit b gives 9 wood from unit a to unit d
-- (9): Unit c takes 1 wood from unit a from the pool that has not yet been reserved for production. So she can only build one spear
+- (9): Unit c takes 1 wood from unit a from the pool that has not yet been reserved for production.
+  So she can only build one spear
 - (10): All units pay maintenance (we assume 10 silver per person)
 
 **Result:**
@@ -178,7 +188,7 @@ UNIT d ; hat 200 Silver
 
 In older versions, the material pool was an optional setting that each player could turn on or off.
 There were separate settings for silver and other items.
-The silver and material pools are now automatically active for all parties and can no longer be deactivated.
+The silver and material pools are now automatically active for all factions and can no longer be deactivated.
 
 ## See also
 

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-default-fr
 ---
-# DEFAULT
+# `DEFAULT`
 
 **`DEFAULT`**`"`*`order`*`"`  
 
@@ -22,7 +22,7 @@ Vous ne pouvez donc pas y voir tous les ordres par défaut.
 Tous les [ordres longs] sont normalement inclus dans les ordres par défaut d'une unité.
 Les exceptions sont `ATTACK`, `FOLLOW` et `MOVE`.  
 
-De plus, tous les [[comment-with-slashs|`//`]] et tous les ordres commençant par `@` sont adoptés.
+De plus, tous les [[comment-with-slashes|`//`]] et tous les ordres commençant par `@` sont adoptés.
 L'orthographe peut être standardisée.  
 
 Ordres envoyés :
@@ -97,7 +97,7 @@ DEFAULT "NAME UNIT \"Bob's Builders\""
 DEFAULT "MAKE 1 'Water of life'"
 ```
 
-## L'ordre MOVE
+## L'ordre `MOVE`
 
 L'ordre `MOVE` joue un rôle particulier : il n'est pas inclus dans le modèle.  
 Au lieu de cela, les ordres longs que l'unité avait dans le modèle la semaine précédente sont adoptés (mais uniquement les ordres longs).

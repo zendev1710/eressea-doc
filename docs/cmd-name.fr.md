@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-name-fr
 ---
-# NAME
+# `NAME`
 
 **`NAME UNIT`**` `*`"name"`*  
 **`NAME STRANGERS UNIT`**` `*`unit-id "name"`*  
@@ -17,7 +17,7 @@ alias: cmd-name-fr
 
 Renomme l'élément spécifié.  
 
-Un bateau ou un bâtiment ne peut être renommé que si l'unité le contrôle - elle doit donc être la première unité sous le bâtiment ou le navire dans l'évaluation.  
+Un bateau ou un bâtiment ne peut être renommé que si l'unité le contrôle - elle doit donc être la première unité sous le bâtiment ou le bateau dans l'évaluation.  
 Une région ne peut être renommée que par le seigneur du château le plus puissant d'une région.  
 Les groupes ne peuvent être renommés que par les membres du groupe et le nouveau nom de groupe ne peut pas déjà exister.  
 

@@ -1,44 +1,46 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-learn-auto-fr
 ---
-# LEARN AUTO
+# `LEARN AUTO`
 
-**`LEARN AUTO`**` `*`skill`*  
+**`LEARN AUTO`**` `*`compétence`*  
 
-Through the order, the server attempts to automate [[cmd-learn|learning]] and [[cmd-teach|teaching]] in a region for all units in a faction using this order for this skill.
-However, a mixture of TEACH and LEARN AUTO is not possible.
+Grâce à l'ordre, le serveur tente d'automatiser [[cmd-learn|l'apprentissage]] et [[cmd-teach|l'enseignement]] dans une région pour toutes les unités d'une faction utilisant cet ordre pour la compétence spécifiée.  
+Cependant, l'utilisation simultanée sur une même compétence de `TEACH` et `LEARN AUTO` n'est pas autorisée.  
 
-If several units in a region give the `LEARN AUTO <skill>` order, e.g. `LEARN AUTO sailing`, then the server selects those units from these units that have to teach so that the rest get the maximum learning output.
-As with simple `TEACH`, each person who gets a teacher learns twice as fast.
+Si plusieurs unités dans une région donnent l'ordre `LEARN AUTO <compétence>`, par exemple `LEARN AUTO sailing`, le serveur sélectionne les unités parmi les unités qui doivent enseigner afin que les autres obtiennent le maximum de résultats d'apprentissage.  
+Comme avec un simple `TEACH`, chaque personne qui a un professeur apprend deux fois plus vite.  
 
-There is no need to split units.
-For example, if a unit with 10 people on T7 and a unit with 10 people on T5 both have `LEARN AUTO` ordered, then one person from the T7 unit teaches the ten from the T5 unit, the remaining nine learn normally.
-With the simple orders you would have had to split up the unit, which can be very annoying.
+Il n'est pas nécessaire de diviser les unités.  
+Par exemple, si une unité de 10 personnes T7 et une unité de 10 personnes T5 ont toutes deux donné l'ordre `LEARN AUTO`, alors une personne de l'unité T7 enseignera aux 10 membres de l'unité T5, les 9 autres apprendront normalement.  
+Avec de simples ordres `LEARN`, il aurait fallu diviser l'unité, ce qui peut être fastidieux.  
 
-This effect also applies to fewer than 10 students.
-A person who teaches 6 students using `LEARN AUTO` has a 4/10 chance of learning for a week.
-If no students can be assigned, the unit learns normally.
+Cet effet s'applique également à moins de 10 apprenants.  
+Une personne qui enseigne à 6 apprenants ayant donné l'ordre `LEARN AUTO` a 4 chances sur 10 d’apprendre pendant une semaine.  
 
-`LEARN AUTO` does not work on expensive skills and not in combination with `TEACH`: other units that use ordinary `LEARN` and `TEACH` orders are not involved in the automatic assignment of teachers.
-Units that use `LEARN AUTO` cannot be taught through `TEACH`.
+Si aucun élève ne peut être automatiquement affecté, l’unité apprend normalement.  
 
-It can still make sense to use `TEACH` and `LEARN AUTO` in parallel for different units.
-The advantages of TEACH/LEARN are:
+`LEARN AUTO` ne fonctionne pas avec des compétences coûteuses, ni en combinaison avec l'ordre `TEACH` : les autres unités qui passent des ordres `LEARN` ou `TEACH` n’interviennent pas dans l’affectation automatique des enseignants.  
+Une unité qui utilise l'ordre `LEARN AUTO` ne peut pas bénéficier de l'enseignement d'un maître ayant donné l'ordre `TEACH` le visant.  
 
-- Units with expensive skills can be taught
-- A unit can teach units in different skills
-- Teachers and learners do not have to belong to the same faction
-- Units that are not allowed to teach (e.g. most familiars) can still be taught
+Il peut toujours être judicieux d'utiliser `TEACH` et `LEARN AUTO` en parallèle pour différentes unités.  
 
-The advantages of `LEARN AUTO` are:
+Les avantages de l'association `TEACH` et `LEARN` sont les suivants :
 
-- It's less detailed work and can be left alone for several weeks
-- Units that are not fully used as teachers use the remaining capacity to learn themselves
+- Les unités avec des compétences coûteuses peuvent bénéficier de l'enseignement
+- Une unité peut enseigner des unités dans différentes compétences
+- Les enseignants et les apprenants ne doivent pas nécessairement appartenir à la même faction
+- Les unités qui ne sont pas autorisées à enseigner (par exemple la plupart des familiers) peuvent toujours bénéficier d'un enseignement
 
-Player experience (XolgrimA):
+Les avantages de `LEARN AUTO` sont les suivants :
 
-Block for `LEARN AUTO` consists of a maximum of 128 units per region and skill.
-If more units of a faction in a region give the order, a second block is formed that sets up a teaching/learning chain independently of the first.
+- C'est un travail moins détaillé et l'ordre peut être laissé tel quel pendant plusieurs semaines
+- Les unités qui ne sont pas pleinement utilisées comme enseignants utilisent la capacité restante pour apprendre eux-mêmes
+
+Expérience de jeu  (XolgrimA) :
+
+Un ordre `LEARN AUTO` s'applique à un ensemble de 128 unités au maximum par région et compétence.  
+Si plusieurs unités d'une faction dans une région donnent l'ordre, un deuxième ensemble est formé qui met en place une chaîne d'enseignement/apprentissage indépendamment du premier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN\_AUTO&oldid=15393] -->

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-reserve-fr
 ---
-# RESERVE
+# `RESERVE`
 
 **`RESERVE`**` `*`number`*` `*`Item`*  
 **`RESERVE`**` ALL `*`Item`*  

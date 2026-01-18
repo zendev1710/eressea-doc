@@ -1,10 +1,10 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: sorts-cerddor
 ---
 # Sorts Cerddor
 
-Les sorts de l'École de magie **Cerdorr** sont décrits ci-dessous par ordre de niveau croissant.
+Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.
 
 ## Friedenslied
 

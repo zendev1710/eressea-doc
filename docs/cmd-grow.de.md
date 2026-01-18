@@ -8,7 +8,8 @@ alias: bef-züchte
 
 **`ZÜCHTE`** ist ein langer Befehl, mit dem Einheiten in einer [Pferdezucht] Pferde züchten oder versuchen, in einer Region neue Kräuter zu pflanzen.
 
-Mit `ZÜCHTE PFERDE` kann pro Person und Talentstufe [Pferdedressur] ein Pferd mit einer Wahrscheinlichkeit von \[Pferdedressur\]% entstehen. 3 Personen mit Pferdedressur 5 hätten also 3 \* 5 = 15 Versuche zu je 5%, ein Pferd dazuzubekommen.
+Mit `ZÜCHTE PFERDE` kann pro Person und Talentstufe [Pferdedressur] ein Pferd mit einer Wahrscheinlichkeit von \[Pferdedressur\]% entstehen.
+3 Personen mit Pferdedressur 5 hätten also 3 x 5 = 15 Versuche zu je 5%, ein Pferd dazuzubekommen.
 
 Man braucht mindestens zwei Pferde in der Pferdezucht, um Pferde züchten zu können. Außerdem muss pro "Zuchtchance" jeweils ein Pferd vorhanden sein (in obigem Beispiel also 15 Pferde). Diese Pferde muss die Einheit selber haben, der Materialpool wird hier nicht genutzt.
 

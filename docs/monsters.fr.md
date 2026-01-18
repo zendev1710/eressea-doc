@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: monstres
 ---
 # Monstres
@@ -28,12 +28,12 @@ Ils peuvent attaquer à mains nues (et sont toujours considérés comme [[arme-e
 
 Il existe sept types de Morts-Vivants :
 
-- ***Les Undead*** - obsolètes, n'existent que dans les anciens mondes, ou peut-être plus du tout
+- ***Les Morts-Vivants*** - obsolètes, n'existent que dans les anciens mondes, ou peut-être plus du tout
 - **Les Squelettes**, qui peuvent muter en **Seigneurs Squelettes**
 - **Les Goules**, qui peuvent muter en **Fantômes**
 - **Les Zombies**, qui peuvent muter en **Juju Zombies**
 
-Certains [[magie|magiciens]] sont capables de contrôler les Morts-Vivants.  
+Certains [[magie|mages]] sont capables de contrôler les Morts-Vivants.  
 
 ## Dragons
 

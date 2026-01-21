@@ -30,5 +30,3 @@ Da solche Änderungen in der Vergangenheit leider zu ausgedehnten Streitereien z
 Weiterlesen: [[einleitung]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln&oldid=14085] -->
-
-<!--[Hinweise zum Editieren der Regeln]: ./eressea-join.md -->

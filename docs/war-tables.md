@@ -44,7 +44,7 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Rusty sword
 
-### Rusty two-handed sword
+### Rusty claymore
 
 ### Spear
 
@@ -72,7 +72,7 @@ This page lists combat-relevant properties of weapons, armor, and races.
 | Rusty axe              |       2d6 |    7 |        2d6 | 7    |  0 | -3 |  [M]  |  -3 |
 | Rusty halberd          |       2d6 |    7 |        2d6 | 7    | -2 | +1 |  [H]  |  -1 |
 | Rusty sword            |       1d9 |    5 |        1d9 | 5    | -1 | -1 |  [M]  |  -2 |
-| Rusty two-handed sword |       2d8 |    9 |        2d8 | 9    | -2 | -3 |  [M]  |  -5 |
+| Rusty claymore         |       2d8 |    9 |        2d8 | 9    | -2 | -3 |  [M]  |  -5 |
 | Spear                  |      1d10 |  5.5 |     1d12+2 | 8.5  |  0 |  0 |  [H]  |   0 |
 | Sword                  |     1d9+2 |    7 |      1d9+2 | 7    |  0 |  0 |  [M]  |   0 |
 | Unarmed[^3]            |       1d5 |    3 |        1d6 | 3.5  | -2 | -2 |       |  -4 |

@@ -8,7 +8,7 @@ Cette page est destinée à rassembler les développeurs de différents outils o
 
 ## Groupes de discussion et listes de diffusion
 
-La liste [E-Client List] et la liste Magellan Development List constituent un bon point de départ pour les discussions.
+Les listes de diffusion [E-Client] et Développement Magellan constituent un bon point de départ pour les discussions.
 
 ## Outils
 
@@ -19,7 +19,7 @@ La liste [E-Client List] et la liste Magellan Development List constituent un bo
 
 ### Plugins de développement intéressants
 
-- [ExtendedCommands Plugin] pour Magellan
+- [Plugin ExtendedCommands] pour Magellan
 - [FFTools 2] pour Magellan
 
 ## Format
@@ -62,12 +62,12 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->
 
-[E-Client List]: http://groups.google.com/group/eressea-client
+[E-Client]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
 [CSMapFX]: https://github.com/ennorehling/csmapfx
 [Vorlage]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
-[ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
+[Plugin ExtendedCommands]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
 [collection de scripts]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [problème du sac à dos]: https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_sac_%C3%A0_dos

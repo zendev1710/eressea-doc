@@ -280,7 +280,7 @@ Il est important de préciser d’abord la région, puis le niveau.
 Une unité de la région (1,1) lance "Bénédiction de la Terre" au niveau 3 dans la région voisine à l'est comme premier sort du tour (a = 1 distance de champ).  
 Cela coûte 2 x 3 = 6 aura.  
 
-L'ordre à donner pour ce sort est `CAST REGION 2 1 LEVEL 3 "Segen der Erde"`.  
+L'ordre à donner pour ce sort est `CAST REGION 2 1 LEVEL 3 "Blessed Harvest"`.  
 
 ### Magie en bateau et sur mer
 

@@ -1535,7 +1535,7 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 [Antimagiekristall]: ./antimagic-crystal.md
 [Eisengolems]: ./iron-golem.md
 [Steingolems]: ./stone-golem.md
-[Amulett des wahren Sehens]: ./amulet-of-true-vision.md
+[Amulett des wahren Sehens]: ./amulet-of-true-sight.md
 [Flammenschwert]: ./flaming-sword.md
 [Traumauge]: ./dream-eye.md
 [Sphäre der Unsichtbarkeit]: ./sphere-of-invisibility.md

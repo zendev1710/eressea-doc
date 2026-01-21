@@ -69,7 +69,7 @@ Ce sont des créatures humanoïdes basses, à écailles, capables de se battre a
 ## Igjarjuk
 
 Igjarjuk est un Dragon des Glaces, aussi appelé le **Grand Wyrm**.  
-Après sa mort, celui-ci a évolué en Wyrm Mort-Vivant, monstre qui est intervenu dans la bataille entre [[pentagram-and-tirawon]], pendant laquelle il est mort une seconde fois.  
+Après sa mort, celui-ci a évolué en **Wyrm Mort-Vivant**, monstre qui est intervenu dans la bataille entre [[pentagram-and-tirawon]], pendant laquelle il est mort une seconde fois.  
 Selon la rumeur, Igjarjuk a été vu pour la dernière fois dans le Treizième monde.
 Peut-être a-t-il sept vies ?
 

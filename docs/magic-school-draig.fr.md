@@ -13,7 +13,7 @@ In den dunkleren Gassen gibt es sie, die Flüche und Verhexungen auf Bestellung.
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST [LEVEL n] "Kleine Flüche"`  
 
@@ -24,31 +24,40 @@ Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht.
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST [LEVEL n] "Verwünschung" <unit-id>`  
 
-## Feuerball
+### Boule de feu
 
-**Description** :  
-Der Zauberer schleudert fokussiertes Chaos in die Reihen der Gegner. Das ballförmige Chaos wird jeden verwunden, den es trifft.  
+<!-- cspell:disable -->
+*Fireball (EN), Feuerball (DE)*.
+<!-- cspell:enable -->
+
+:   Le sorcier lance un chaos ciblé dans les rangs ennemis. Le chaos en forme de boule blessera tous ceux qu'il touchera.
+
 **Type** : sort de combat  
 **Niveau** : 2  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura
 **Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL [LEVEL n] "Feuerball"`  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Fireball"`  
 
-## Gabe des Chaos
+## Don du Chaos
 
-**Description** :  
-Der Magier öffnet seinen Geist den Sphären des Chaos und wird so für einige Zeit über mehr magische Kraft verfügen. Doch die Hilfe der Herren der Sphären hat seinen Preis, und so wird die Phase der Macht abgelöst von einer Phase der Schwäche.  
+<!-- cspell:disable -->
+*Chaos Gift (EN), Gabe des Chaos (DE)*.
+<!-- cspell:enable -->
+
+:   Le mage ouvre son esprit aux sphères du Chaos et disposera ainsi de plus de pouvoir magique pendant un certain temps.
+    Mais l’aide des Seigneurs des Sphères a un prix, et la phase de pouvoir est donc remplacée par une phase de faiblesse.
+
 **Type** : sort normal  
 **Niveau** : 3  
 **Rang** : 3  
 **Composants** : 6 Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST "Gabe des Chaos"`  
+**Syntaxe** : `CAST "Chaos Gift"`  
 
 ## Kleines Blutopfer
 
@@ -61,27 +70,37 @@ Mit diesem Ritual kann der Magier einen Teil seiner Lebensenergie opfern, um daf
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Kleines Blutopfer"`  
 
-## Blutrausch
+## Soif de sang
 
-**Description** :  
-In diesem blutigen Ritual opfert der Magier vor der Schlacht ein Neugeborenes vor den Augen seiner Armee. Die so gerufenen Blutgeister werden von den Soldaten Besitz ergreifen und sie in einen Blutrausch versetzen.  
+<!-- cspell:disable -->
+*Blood Frenzy (EN), Blutrausch (DE)*.
+<!-- cspell:enable -->
+
+:   Dans ce rituel sanglant, le mage sacrifie un nouveau-né devant son armée avant le combat.
+    Les esprits du sang ainsi invoqués prendront possession des soldats et les plongeront dans une soif de sang.
+
 **Type** : sort de pré-combat  
 **Niveau** : 5  
 **Rang** : 4  
-**Composants** : 5 Aura \* niveau, 1 Bauer  
+**Composants** : 5 x N Aura, 1 paysan  
 **Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL [LEVEL n] "Blutrausch"`  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
-## Chaosfluch
+## Malédiction du Chaos
 
-**Description** :  
-Dieser heimtückische Fluch beeinträchtigt die magischen Fähigkeiten des Opfers erheblich. Eine chaosmagische Zone um das Opfer vermindert seine Konzentrationsfähigkeit und macht es ihm sehr schwer Zauber zu wirken.  
+<!-- cspell:disable -->
+*Chaos Curse (EN), Chaosfluch (DE)*.
+<!-- cspell:enable -->
+
+:   Cette malédiction insidieuse altère considérablement les capacités magiques de la victime.
+    Une zone magique de chaos autour de la victime réduit sa capacité de concentration et rend très difficile le lancement de sorts.
+
 **Type** : sort normal  
 **Niveau** : 5  
 **Rang** : 4  
-**Composants** : 4 Aura X niveau
+**Composants** : 4 x N Aura
 **Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Chaosfluch" <unit-id>`  
+**Syntaxe** : `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
 ## Erschaffe ein Amulett des wahren Sehens
 
@@ -105,14 +124,19 @@ Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. De
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen Ring der Unsichtbarkeit"`  
 
-## Mächte des Todes
+## Pouvoirs des morts
 
-**Description** :  
-Nächtelang muss der Schwarzmagier durch die Friedhöfe und Gräberfelder der Region ziehen um dann die ausgegrabenen Leichen beleben zu können. Die Untoten werden ihm zu Diensten sein, doch sei der Unkundige gewarnt, dass die Beschwörung der Mächte des Todes ein zweischneidiges Schwert sein kann.  
+<!-- cspell:disable -->
+*Animate Dead (EN), Mächte des Todes (DE)*.
+<!-- cspell:enable -->
+
+:   Le mage noir doit passer des nuits à errer dans les cimetières et cimetières de la région afin de pouvoir faire revivre les cadavres déterrés.
+    Les morts-vivants seront à son service, mais les non-informés doivent savoir qu'invoquer les forces de la mort peut être une arme à double tranchant.
+
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 5 Aura X niveau
+**Composants** : 5 x N Aura
 **Modificateurs** : sort à distance, sort de bateau  
 **Syntaxe** : `CAST [REGION x y] [LEVEL n] "Mächte des Todes"`  
 
@@ -123,31 +147,40 @@ Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverk
 **Type** : sort de combat  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
+**Composants** : 2 x N Aura
 **Modificateurs** : *aucun*
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Rosthauch"`  
 
-## Feuerwand
+### Mur de feu
 
-**Description** :  
-Der Zauberer erschafft eine Wand aus Feuer in der angegebenen Richtung. Sie verletzt jeden, der sie durchschreitet.  
+<!-- cspell:disable -->
+*Firewall (EN), Feuerwand (DE)*.
+<!-- cspell:enable -->
+
+:   L'assistant crée un mur de feu dans la direction spécifiée.
+    Cela fait mal à tous ceux qui le traversent.
+
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 4  
-**Composants** : 6 Aura X niveau
+**Composants** : 6 x N Aura
 **Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Feuerwand" <Richtung>`  
+**Syntaxe** : `CAST [LEVEL n] "Firewall" <direction>`  
 
-## Fluch der Pestilenz
+## Malédiction de la peste
 
-**Description** :  
-In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region.  
+<!-- cspell:disable -->
+*Curse of Pestilence (EN), Fluch der Pestilenz (DE)*.
+<!-- cspell:enable -->
+
+:   Dans un rituel élaboré, le mage noir sacrifie quelques paysans puis distribue comme par magie les cadavres dans les puits de la région.
+
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 5  
-**Composants** : 30 Aura, 50 Bauern  
+**Composants** : 30 Aura, 50 paysans  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST [REGION x y] "Fluch der Pestilenz"`  
+**Syntaxe** : `CAST [REGION x y] "Curse of Pestilence"`  
 
 ## Machtübertragung
 
@@ -167,7 +200,7 @@ Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der S
 **Type** : sort normal  
 **Niveau** : 8  
 **Rang** : 5  
-**Composants** : 3 Aura X niveau
+**Composants** : 3 x N Aura
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST [LEVEL n] "Beschwöre Schattendämonen"`  
 
@@ -178,42 +211,56 @@ Vor den Augen der feindlichen Soldaten opfert der Schwarzmagier die zehn Bauern 
 **Type** : sort de pré-combat  
 **Niveau** : 8  
 **Rang** : 5  
-**Composants** : 3 Aura \* niveau, 10 Bauern  
+**Composants** : 3 x N Aura, 10 paysans  
 **Modificateurs** : *aucun*
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Wahnsinn des Krieges"`  
 
-## Astraler Riss
+## Fuite de l'Astral
 
-**Description** :  
-Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der Magie bewirken, der alle magische Kraft aus der Region reißen wird. Alle magisch begabten in der Region werden einen Großteil ihrer Aura verlieren.  
+<!-- cspell:disable -->
+*Astral Leak (EN), Astraler Riss (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sombre rituel, le mage noir peut provoquer une rupture dans le tissu magique, qui arrachera tout pouvoir magique de la région.
+    Toutes les personnes douées pour la magie dans la région perdront une grande partie de leur aura.
+
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 3  
 **Composants** : 35 Aura, 1 Drachenblut  
 **Modificateurs** : *aucun*
-**Syntaxe** : `CAST "Astraler Riss"`  
+**Syntaxe** : `CAST "Astral Leak"`  
 
-## Astrales Chaos
+## Chaos de l'Astral
 
-**Description** :  
-Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken.  
+<!-- cspell:disable -->
+*Astral Chaos (EN), Astrales Chaos (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel, effectué avant la bataille, fait tourbillonner les énergies astrales sur le champ de bataille, rendant plus difficile le lancement de leurs sorts par les mages ennemis.
+
 **Type** : sort de pré-combat  
 **Niveau** : 9  
 **Rang** : 2  
-**Composants** : 6 Aura X niveau
+**Composants** : 6 x N Aura
 **Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL [LEVEL n] "Astrales Chaos"`  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
-## Erschaffe einen Gürtel der Trollstärke
+## Créer une [[belt-of-troll-strength]]
 
-**Description** :  
-Dieses magische Artefakt verleiht dem Träger die Stärke eines ausgewachsenen Höhlentrolls. Seine Tragkraft erhöht sich auf das 50fache und auch im Kampf werden sich die erhöhte Kraft und die trollisch zähe Haut positiv auswirken.  
+<!-- cspell:disable -->
+*Create A Belt of Troll Strength (EN), Erschaffe einen Gürtel der Trollstärke (DE)*.
+<!-- cspell:enable -->
+
+:   Cet artefact magique confère à son porteur la force d'un Troll des Cavernes adulte.
+    Sa capacité de charge est multipliée par 50 et sa force accrue et sa peau résistante aux trolls auront également un effet positif au combat.
+
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 5  
 **Composants** : 20 Aura, 1 permanente Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST "Erschaffe einen Gürtel der Trollstärke"`  
+**Syntaxe** : `CAST "Create A Belt of Troll Strength"`  
 
 ## Untote Helden
 
@@ -222,7 +269,7 @@ Dieses Ritual bindet die bereits entfliehenden Seelen einiger Kampfopfer an ihre
 **Type** : sort de post-combat  
 **Niveau** : 9  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura
 **Modificateurs** : *aucun*
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Untote Helden"`  
 
@@ -244,7 +291,7 @@ Genau um Mitternacht, wenn die Kräfte der Finsternis am größten sind, kann au
 **Type** : sort normal  
 **Niveau** : 10  
 **Rang** : 2  
-**Composants** : 10 Aura X niveau
+**Composants** : 10 x N Aura
 **Modificateurs** : sort à distance, sort de bateau  
 **Syntaxe** : `CAST [REGION x y] [LEVEL n] "Pentagramm" ( REGION | UNIT <unit-id> [<unit-id> ...] | SCHIFF <Schiff-id> | BURG <Gebäude-id> )`  
 
@@ -277,20 +324,25 @@ Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der S
 **Type** : sort normal  
 **Niveau** : 12  
 **Rang** : 5  
-**Composants** : 7 Aura X niveau
+**Composants** : 7 x N Aura
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
-## Erschaffe ein Flammenschwert
+## Créer une [[flaming-sword]]
 
-**Description** :  
-'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos. Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
+<!-- cspell:disable -->
+*Create A Flaming Sword (EN), Erschaffe ein Flammenschwert (DE)*.
+<!-- cspell:enable -->
+
+:   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.
+    Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
+
 **Type** : sort normal  
 **Niveau** : 12  
 **Rang** : 5  
-**Composants** : 100 Aura, 1 Berserkerblut, 1 Schwert, 1 permanente Aura  
+**Composants** : 100 Aura, 1 [sang de berserker], 1 [épée], 1 permanente Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST "Erschaffe ein Flammenschwert"`  
+**Syntaxe** : `CAST "Create A Flaming Sword"`  
 
 ## Vertrauten rufen
 
@@ -321,8 +373,11 @@ Nur geflüstert wird dieses Ritual an den dunklen Akademien an die Adepten weite
 **Type** : sort normal  
 **Niveau** : 14  
 **Rang** : 5  
-**Composants** : 10 Aura \* niveau, 5 Bauern X niveau
+**Composants** : 10 x N Aura, 5 x N paysans
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
+
+[sang de berserker]: ./alchemy.fr.md#sang-de-berserker "Berserkers blood"
+[épée]: ./war-tables.md#epee "Sword"

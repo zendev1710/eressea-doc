@@ -20,10 +20,10 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 *Sword (EN), Schwert (DE)*.
 <!-- cspell:enable -->
 
-### Épée à 2 mains rouillée
-<!-- TODO: check if it really exists -->
+### Claymore rouillée
+
 <!-- cspell:disable -->
-*Rusty two-handed sword (EN),  (DE)*.
+*Rusty claymore (EN),  (DE)*.
 <!-- cspell:enable -->
 
 ### Épée en laen
@@ -168,7 +168,7 @@ Elles atteignent **6** cibles.
 | Hache de guerre          |           2d6+4 |   11 |             2d6+4 | 11   | +1 | -2 |    [M]     |    -1 |
 | Lance[^3]                |             1d5 |    3 |             2d6+5 | 12   |  0 | -2 |    [H]     |    -2 |
 | Lance en mallorn[^3]     |           1d5+1 |    4 |             2d6+6 | 13   |  0 | -2 |    [H]     |    -2 |
-| Épée à 2 mains rouillée  |             2d8 |    9 |               2d8 | 9    | -2 | -3 |    [M]     |    -5 |
+| Claymore rouillée        |             2d8 |    9 |               2d8 | 9    | -2 | -3 |    [M]     |    -5 |
 | Claymore                 |           2d8+3 |   12 |             2d8+3 | 12   | -1 | -2 |    [M]     |    -3 |
 | Catapulte[^2]            |          3d10+5 | 21,5 |            3d10+5 | 21.5 | -4 |  0 |    [K]     |    -4 |
 | Arbalète[^1]             |           3d3+5 |   11 |             3d3+5 | 11   |  0 |  0 |    [A]     |     0 |

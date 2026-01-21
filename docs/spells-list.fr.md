@@ -9,311 +9,325 @@ alias: liste-des-sorts
 
 ## Tous les sorts
 
-**Légende:** **C** [[sorts-cerddor|Cerddor]], **D** [[sorts-draig|Draig]], **G** [[sorts-gwyrrd|Gwyrrd]], **I** [[sorts-illaun|Illaun]], **T** [[sorts-tybied|Tybied]]  
+**Légende.**
 
-|  C |  D |  G |  I |  T | Nom                               | Type    | Rank | Composants                                            | Modificateurs    |
-|---:|---:|---:|---:|---:|-----------------------------------|:--------|-----:|-------------------------------------------------------|------------------|
-|    |    |    |    |  9 | [Acceleration]                    | Pré-c.  |    5 | 5 aura x niveau                                       |                  |
-|    |    |  4 |    |    | [Air Shield]                      | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
-|    |    |    |    |  6 | [Airship]                         | --      |    5 | 10 aura, 1 [gousse], 1 [pétale de cristal de neige]   | Bateau           |
-|    |    |    |  5 |    | [Analyse Dreams]                  | --      |    5 | 25 aura                                               | Bateau           |
-|  8 |    |    |    |    | [Analysis]                        | --      |    5 | 3 aura x niveau                                       | Bateau           |
-|    |    |    |    |  1 | [Analyze Magic]                   | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|  5 |    |    |    |    | [Analyze Song of Life]            | --      |    5 | 10 aura                                               | Bateau           |
-|    |  6 |    |    |    | [Animate Dead]                    | --      |    5 | 5 aura x niveau                                       | Distance, Bateau |
-|    |    |    |    |  5 | [Antimagic]                       | --      |    2 | 3 aura x niveau                                       | Distance         |
-|  1 |    |    |    |    | [Appeasing Song]                  | Pré-c.  |    5 | 2 aura                                                |                  |
-|    |    |    |    |  6 | [Astral Call]                     | --      |    7 | 2 aura x niveau                                       |                  |
-|    |  9 |    |    |    | [Astral Chaos]                    | Pré-c.  |    2 | 6 aura x niveau                                       |                  |
-|    |    |    |    |  4 | [Astral Exit]                     | --      |    7 | 2 aura x niveau                                       |                  |
-|    |    |  5 |    |    | [Astral Guardian Spirits]         | Pré-c.  |    2 | 5 aura x niveau                                       |                  |
-|    |  9 |    |    |    | [Astral Leak]                     | --      |    3 | 35 aura, 1 [[sang-de-dragon]]                         |                  |
-|    |    |    |    |  4 | [Astral Path]                     | --      |    7 | 2 aura x niveau                                       |                  |
-| 15 |    |    |    |    | [Aufruhr beschwichtigen]          | --      |    5 | 30 aura                                               | Distance         |
-| 16 |    |    |    |    | [Aufruhr verursachen]             | --      |    5 | 40 aura                                               | Distance         |
-|    |    | 10 |    |    | [Awakening of the Ents]           | --      |    5 | 6 aura x niveau                                       |                  |
-|    |    |  8 |    |    | [Banish Spirits]                  | --      |    2 | 6 aura x niveau                                       | Distance, Bateau |
-|    |    |    |    | 13 | [Belebtes Gestein]                | --      |    5 | 10 aura x niveau, 1 aura permanent, 5 Laen            |                  |
-|    | 12 |    |    |    | [Beschwöre Schattenmeister]       | --      |    5 | 7 aura x niveau                                       |                  |
-|  4 |    |    |    |    | [Blabbermouth]                    | --      |    5 | 10 aura                                               |                  |
-|    |    |  1 |    |    | [Blessed Harvest]                 | --      |    5 | 1 aura x niveau                                       | Distance, Bateau |
-|    |    |    |    | 10 | [Blick in die Realität]           | --      |    5 | 40 aura                                               |                  |
-|    |  5 |    |    |    | [Blood Frenzy]                    | Pré-c.  |    4 | 5 aura x niveau, 1 Bauer                              |                  |
-|    |    |    |    |  6 | [Call of Reality]                 | --      |    7 | 2 aura x niveau                                       |                  |
-|  6 |    |    |    |    | [Calm Monster]                    | --      |    5 | 15 aura                                               | Bateau           |
-|    |    |    |  3 |    | [Castle of Illusion]              | --      |    5 | 3 aura                                                |                  |
-|    |    |  1 |    |    | [Cattle Healing]                  | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|    |  5 |    |    |    | [Chaos Curse]                     | --      |    4 | 4 aura x niveau                                       |                  |
-|    |  3 |    |    |    | [Chaos Gift]                      | --      |    3 | 6 aura                                                | Bateau           |
-|    | 14 |    |    |    | [Chaossog]                        | --      |    5 | 150 aura, 200 Bauern                                  |                  |
-|    |    |    |    |  1 | [Concealing aura]                 | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|  5 |    |    |    |    | [Countersong]                     | Pré-c.  |    2 | 5 aura x niveau                                       |                  |
-|    |    |    |    | 10 | [Create A Bag of Negative Weight] | --      |    5 | 30 aura, 1 aura permanent, 5000 silver                | Bateau           |
-|    |  9 |    |    |    | [Create A Belt of Troll Strength] | --      |    5 | 20 aura, 1 aura permanent                             | Bateau           |
-|    |    |    | 14 |    | [Create a DreamEye]               | --      |    5 | 1 Dragon head, 5 aura permanent                       | Bateau           |
-|    | 12 |    |    |    | [Create a Flaming Sword]          | --      |    5 | 100 aura, 1 Berserkerblut, 1 épée, 1 aura permanent   | Bateau           |
-|    |    |  5 |    |    | [Create A Magical Herb Pouch]     | --      |    5 | 30 aura, 1 aura permanent, 1 water of life            | Bateau           |
-|  6 |  6 |  6 |  6 |  6 | [Create A Ring of Invisibility]   | --      |    5 | 50 aura, 3000 silver, 1 aura permanent                | Bateau           |
-|    |    |    |    |  9 | [Create A Ring of Power]          | --      |    5 | 100 aura, 1 aura permanent, 4000 silver               | Bateau           |
-|    |    |    | 13 |    | [Create A Sphere of Invisibility] | --      |    5 | 150 aura, 30000 silver, 3 aura permanent              | Bateau           |
-|  ? |  ? |  ? |  ? |  ? | [Create An Amulet of True Sight]  | --      |    5 | 50 aura, 3000 silver, 1 aura permanent                | Bateau           |
-|    |    |    |    |  7 | [Create An Antimagic Crystal]     | --      |    5 | 50 aura, 3000 silver                                  | Bateau           |
-|    |    |  2 |    |    | [Create Iron Golems]              | --      |    4 | 2 aura x niveau, 1 Iron x niveau, 1 water of life     |                  |
-|    |    |  1 |    |    | [Create Stone Golems]             | --      |    4 | 2 aura x niveau, 1 pierre x niveau, 1 water of life   |                  |
-|    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 aura, 50 Bauern                                    | Distance         |
-|    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 aura x niveau                                       | Distance, Bateau |
-|    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 aura, 1 Drachenkopf                                | Distance         |
-|    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 aura                                                | Bateau           |
-|    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|  5 |    |    |    |    | [Epic Heroes]                     | Pré-c.  |    4 | 2 aura x niveau                                       |                  |
-|    |    |    |  2 |    | [Eternal Rest]                    | --      |    5 | 3 aura x niveau, 1 water of life                      |                  |
-|    |    |    |    |  7 | [Eternal Walls]                   | --      |    5 | 50 aura, 1 aura permanent                             | Bateau           |
-|    | 10 |    |    |    | [Feuerteufel]                     | --      |    5 | 50 aura, 1 Öl                                         | Distance         |
-|    |  2 |    |    |    | [Fireball]                        | Combat  |    5 | 1 aura x niveau                                       |                  |
-|    |  7 |    |    |    | [Firewall]                        | --      |    4 | 6 aura x niveau                                       |                  |
-|  3 |  3 |  3 |  3 |  3 | [Firun's Coat]                    | --      |    5 | 2 aura x niveau                                       | Bateau           |
-|    |    |  8 |    |    | [Gaze of the Basilisk]            | Combat  |    5 | 1 aura x niveau                                       |                  |
-| 12 |    |    |    |    | [Gesang der Friedfertigkeit]      | --      |    5 | 20 aura x niveau                                      |                  |
-| 11 |    |    |    |    | [Gesang der Melancholie]          | --      |    5 | 40 aura                                               | Distance         |
-| 13 |    |    |    |    | [Gesang der Versklavung]          | --      |    5 | 40 aura                                               |                  |
-| 12 |    |    |    |    | [Gesang des schwachen Geistes]    | --      |    2 | 2 aura x niveau                                       | Distance         |
-|  5 |    |    |    |    | [Gesang des Transfer Auras]       | --      |    1 | 2 aura                                                | Bateau           |
-| 10 |    |    |    |    | [Gesang des wachen Geistes]       | --      |    2 | 2 aura x niveau                                       | Distance         |
-|    |    |  2 |    |    | [Grove of Oak Trees]              | --      |    5 | 4 aura x niveau, 1 bois x niveau, 1 eau de vie        | Distance         |
-|    |    |  3 |    |    | [Hail]                            | Combat  |    5 | 1 aura x niveau                                       |                  |
-|  7 |    |    |    |    | [Hangover]                        | --      |    5 | 28 aura, 3 Knotige Saugwurze, 50 silver               |                  |
-|    |    |  5 |    |    | [Heal]                            | Post-c. |    5 | 1 aura x niveau                                       |                  |
-|    |  1 |    |    |    | [Hex]                             | --      |    5 | 1 aura x niveau                                       |                  |
-|    |    | 13 |    |    | [Hitzeelementar]                  | --      |    5 | 600 aura                                              | Distance         |
-| 14 |    |    |    |    | [Hohe Kunst der Überzeugung]      | --      |    5 | 20 aura x niveau                                      |                  |
-|    |    |  7 |    |    | [Homestone]                       | --      |    5 | 50 aura, 1 aura permanent                             |                  |
-|    |    |    |  6 |    | [Insomnia]                        | --      |    5 | 18 aura                                               | Distance         |
-|  1 |    |    |    |    | [Jugglery]                        | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|    |  4 |    |    |    | [Lesser Sacrifice]                | --      |    1 | 16 PV                                                 | Bateau           |
-|    |  8 |    |    |    | [Madness of War]                  | Pré-c.  |    5 | 3 aura x niveau, 10 Bauern                            |                  |
-|    |    |  4 |    |    | [Magic Path]                      | --      |    5 | 1 aura x niveau, 1 pierre, 1 bois                     | Distance, Bateau |
-|    |    | 15 |    |    | [Mahlstrom]                       | --      |    5 | 200 aura, 1 tête de serpent de mer                    | Sea, Bateau      |
-|    |    |  6 |    |    | [Meditate]                        | --      |    1 | 2 aura                                                | Bateau           |
-|    |    |    |  7 |    | [Mind Probe]                      | --      |    5 | 20 aura                                               |                  |
-|    |  1 |    |    |    | [Minor Curses]                    | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|    |    |    |    |  1 | [Miracle Doctor]                  | --      |    5 | 1 aura x niveau                                       | Bateau           |
-| 11 |    |    |    |    | [Miriams flinke Finger]           | --      |    5 | 20 aura, 1000 silver, 1 aura permanent                | Bateau           |
-| 10 |    |    |    |    | [Mob aufwiegeln]                  | --      |    5 | 4 aura x niveau                                       |                  |
-|    |    |  3 |    |    | [Mountain Guardian]               | --      |    5 | 3 aura x niveau                                       | Distance         |
-|    |    |    |    |  7 | [Negate Curse]                    | --      |    3 | 3 aura x niveau                                       | Distance, Bateau |
-|    |    |    |    | 15 | [Opfere Kraft]                    | --      |    1 | 100 aura                                              |                  |
-|    | 10 |    |    |    | [Pentagramm]                      | --      |    2 | 10 aura x niveau                                      | Distance, Bateau |
-|    |    |    |    |  2 | [Protection from Magic]           | Pré-c.  |    2 | 3 aura x niveau                                       |                  |
-|    |    |    |    |  8 | [Protective Runes]                | --      |    2 | 20 aura                                               | Bateau           |
-|  3 |    |    |    |    | [Rain Dance]                      | --      |    5 | 1 aura x niveau                                       | Distance, Bateau |
-|    |    |  3 |    |    | [Rain of Rust]                    | --      |    5 | 2 aura x niveau                                       | Distance         |
-|    |    |    |    |  3 | [Resist Magic]                    | --      |    2 | 5 aura x niveau                                       | Bateau           |
-|    |    |    |  5 |    | [Resurrection]                    | Post-c. |    4 | 1 aura x niveau                                       |                  |
-|    |    | 12 |    |    | [Rindenhaut]                      | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
-|  9 |    |    |    |    | [Ritual der Aufnahme]             | --      |    5 | 3 aura x niveau, 1 aura permanent x niveau            |                  |
-|    |    |    |    | 12 | [Rüstschild]                      | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
-|    |    |  9 |    |    | [Sacred Ground]                   | --      |    5 | 80 aura, 3 aura permanent                             |                  |
-|    |    |    |    |  3 | [Save Spoils]                     | Post-c. |    5 | 1 aura x niveau                                       |                  |
-|    |    |    | 10 |    | [Schlechte Träume]                | --      |    5 | 90 aura                                               | Distance         |
-|    |    |    |  8 |    | [Schöne Träume]                   | --      |    5 | 80 aura                                               | Distance         |
-|    |    |  4 |    |    | [Segne Mallornstecken]            | --      |    5 | 6 aura x niveau, 1 mallorn x niveau, 1 water of life  | Distance         |
-|    |    | 11 |    |    | [Segne Steinkreis]                | --      |    5 | 350 aura, 5 aura permanent                            |                  |
-|    |    |    |  1 |    | [Shadow Knights]                  | Pré-c.  |    4 | 1 aura x niveau                                       |                  |
-|    |    |    |  3 |    | [Shapeshift]                      | --      |    5 | 1 aura x niveau                                       |                  |
-|    |    |    |    |  8 | [Shield of the Fish]              | Pré-c.  |    2 | 4 aura x niveau                                       |                  |
-|    |    |    |    |  5 | [Shockwave]                       | Combat  |    5 | 1 aura x niveau                                       |                  |
-|  8 |    |    |    |    | [Silence Dissonance]              | --      |    2 | 5 aura x niveau                                       | Distance, Bateau |
-|    |    |    |  7 |    | [Sleep]                           | Combat  |    5 | 1 aura x niveau                                       |                  |
-|  4 |    |    |    |    | [Song of Confusion]               | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
-|  4 |    |    |    |    | [Song of Courting]                | --      |    5 | 2 aura x niveau                                       |                  |
-|  8 |    |    |    |    | [Song of Fear]                    | Pré-c.  |    5 | 5 aura x niveau                                       |                  |
-|  2 |    |    |    |    | [Song of Generosity]              | --      |    5 | 2 aura x niveau                                       | Distance, Bateau |
-|  2 |    |    |    |    | [Song of Healing]                 | Post-c. |    5 | 1 aura x niveau                                       |                  |
-|  6 |    |    |    |    | [Song of Seduction]               | --      |    5 | 12 aura                                               |                  |
-|  3 |    |    |    |    | [Song of Terror]                  | Combat  |    5 | 1 aura x niveau                                       |                  |
-|  7 |    |    |    |    | [Song of War]                     | Pré-c.  |    4 | 5 aura x niveau                                       |                  |
-|  7 |    |    |    |    | [Sound out]                       | --      |    5 | 4 aura, 100 silver                                    |                  |
-|    |    |    |    |  6 | [Steal aura]                      | --      |    3 | 2 aura x niveau                                       | Distance         |
-|    |    |    |    | 14 | [Störe Astrale Integrität]        | --      |    4 | 140 aura                                              |                  |
-|    |    |  8 |    |    | [Strong Wall And Sturdy Gate]     | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
-|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |    5 | 25 aura, 2 Laen                                       | Distance         |
-|  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |    5 | 100 aura, 5 aura permanent                            |                  |
-|    |  8 |    |    |    | [Summon Shadowdemons]             | --      |    5 | 3 aura x niveau                                       |                  |
-|    |    |  6 |    |    | [Summon Storm Elemental]          | --      |    5 | 6 aura x niveau                                       | Sea, Bateau      |
-|    |    |  4 |    |    | [Summon Water Elemental]          | --      |    5 | 1 aura x niveau                                       | Bateau           |
-|    |    |    | 12 |    | [Süße Träume]                     | --      |    5 | 5 aura x niveau                                       |                  |
-|    |    |  9 |    |    | [Ties of Life]                    | --      |    7 | 2 aura x niveau                                       |                  |
-|    |    |  7 |    |    | [Timber Wolves]                   | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
-|    |    |    |  4 |    | [Tiredness]                       | Pré-c.  |    5 | 4 aura x niveau                                       |                  |
-|    |    |    | 11 |    | [Tod des Geistes]                 | Pré-c.  |    5 | 2 aura x niveau                                       |                  |
-|    | 11 |    |    |    | [Todeswolke]                      | --      |    5 | 40 aura, 15 PV                                        | Distance         |
-|    |    | 17 |    |    | [Tor in die Ebene der Hitze]      | --      |    5 | 800 aura                                              | Distance         |
-|    |    |    |    |  5 | [Transfer aura]                   | --      |    1 | 1 aura                                                | Bateau           |
-|    |  7 |    |    |    | [Transfer Power]                  | --      |    1 | 2 aura                                                | Bateau           |
-|    |    |    |  8 |    | [Traumbilder entwirren]           | --      |    2 | 6 aura x niveau                                       | Distance, Bateau |
-|    |    |    |  4 |    | [Traumlesen]                      | --      |    5 | 8 aura                                                | Distance         |
-|    |  9 |    |    |    | [Undead Heroes]                   | Post-c. |    5 | 1 aura x niveau                                       |                  |
-|    | 14 |    |    |    | [Unheilige Kraft]                 | --      |    5 | 10 aura x niveau, 5 Bauern x niveau                   |                  |
-|    |    |    |  2 |    | [Unspeakable Horrors]             | Pré-c.  |    5 | 1 aura x niveau                                       |                  |
-|    |    |  9 |    |    | [Path of Trees]                   | --      |    7 | 3 aura x niveau                                       |                  |
-|    |    |  5 |    |    | [Whirlwind]                       | Pré-c.  |    5 | 15 aura                                               |                  |
-|    |  6 |    |    |    | [Winds of Rust]                   | Combat  |    5 | 2 aura x niveau                                       |                  |
-|    |    | 16 |    |    | [Wurzeln der Magie]               | --      |    5 | 250 aura, 10 aura permanent, 1 pot de bave de crapaud | Distance         |
-|    |    |    |    | 11 | [Zeitdehnung]                     | --      |    5 | 5 aura x niveau                                       | Bateau           |
+**C** : [[sorts-cerddor|Cerddor]], **D** : [[sorts-draig|Draig]], **G** : [[sorts-gwyrrd|Gwyrrd]], **I** : [[sorts-illaun|Illaun]], **T** : [[sorts-tybied|Tybied]]  
+<!-- TODO: Lecture des rêves is not found -->
+| Nom                                | École  | Composants                                                   | Niv. |    Type | Rang | B                      | D                  |
+|------------------------------------|:------:|--------------------------------------------------------------|-----:|--------:|:----:|:-----------------------|:-------------------|
+| [Accélération]                     |   T    | 5 x N auras                                                  |    9 |  Pré-c. |  5   |                        |                    |
+| [Affaiblissement]                  |   I    | 4 x N auras                                                  |    4 |  Pré-c. |  5   |                        |                    |
+| [Analyse de la Magie]              |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Analyse des rêves]                |   I    | 25 auras                                                     |    5 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Analyse du chant de la Vie]       |   C    | 10 auras                                                     |    5 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Analyses]                         |   C    | 3 x N auras                                                  |    8 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Antimagie]                        |   T    | 3 x N auras                                                  |    5 |      -- |  2   |                        | :heavy_check_mark: |
+| [Aufruhr beschwichtigen]           |   C    | 30 auras                                                     |   15 |      -- |  5   |                        | :heavy_check_mark: |
+| [Aufruhr verursachen]              |   C    | 40 auras                                                     |   16 |      -- |  5   |                        | :heavy_check_mark: |
+| [Bannissement des Esprits]         |   G    | 6 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Belebtes Gestein]                 |   T    | 10 x N auras, 1 aura permanent, 5 [laen]                     |   13 |      -- |  5   |                        |                    |
+| [Bénédiction de la terre]          |   G    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Beschwöre Schattenmeister]        |   D    | 7 x N auras                                                  |   12 |      -- |  5   |                        |                    |
+| [Blick in die Realität]            |   T    | 40 auras                                                     |   10 |      -- |  5   |                        |                    |
+| [Bouclier aérien]                  |   G    | 2 x N auras                                                  |    4 |  Pré-c. |  5   | :heavy_check_mark:     |                    |
+| [Bouclier du poisson]              |   T    | 4 x N auras                                                  |    8 |  Pré-c. |  2   |                        |                    |
+| [Boule de feu]                     |   D    | N auras                                                      |    2 |  Combat |  5   |                        |                    |
+| [Brise‑malédiction]                |   T    | 3 x N auras                                                  |    7 |      -- |  3   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Changement de forme]              |   I    | N auras                                                      |    3 |      -- |  5   |                        |                    |
+| [Chant apaisant]                   |   C    | 2 auras                                                      |    1 |  Pré-c. |  5   |                        |                    |
+| [Chant d'effroi]                   |   C    | 5 x N auras                                                  |    8 |  Pré-c. |  5   |                        |                    |
+| [Chant de confusion]               |   C    | 2 x N auras                                                  |    4 |  Pré-c. |  5   |                        |                    |
+| [Chant de contre]                  |   C    | 5 x N auras                                                  |    5 |  Pré-c. |  2   |                        |                    |
+| [Chant de cour]                    |   C    | 2 x N auras                                                  |    4 |      -- |  5   |                        |                    |
+| [Chant de générosité]              |   C    | 2 x N auras                                                  |    2 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Chant de guérison]                |   C    | N auras                                                      |    2 | Post-c. |  5   |                        |                    |
+| [Chant de guerre]                  |   C    | 5 x N auras                                                  |    7 |  Pré-c. |  4   |                        |                    |
+| [Chant de séduction]               |   C    | 12 auras                                                     |    6 |      -- |  5   |                        |                    |
+| [Chant de terreur]                 |   C    | N auras                                                      |    3 |  Combat |  5   |                        |                    |
+| [Chant des héros]                  |   C    | 2 x N auras                                                  |    5 |  Pré-c. |  4   |                        |                    |
+| [Chaos de l'Astral]                |   D    | 6 x N auras                                                  |    9 |  Pré-c. |  2   |                        |                    |
+| [Chaossog]                         |   D    | 150 auras, 200 paysans                                       |   14 |      -- |  5   |                        |                    |
+| [Château d'Illusion]               |   I    | 3 auras                                                      |    3 |      -- |  5   |                        |                    |
+| [Chevaliers de l'Ombre]            |   I    | N auras                                                      |    1 |  Pré-c. |  4   |                        |                    |
+| [Create A Bag of Negative Weight]  |   T    | 30 auras, 1 aura permanent, 5 000 silver                     |   10 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create A Belt of Troll Strength]  |   D    | 20 auras, 1 aura permanent                                   |    9 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create a DreamEye]                |   I    | 1 [tête de dragon], 5 auras permanents                       |   14 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create a Flaming Sword]           |   D    | 100 auras, 1 [sang de berserker], 1 [épée], 1 aura permanent |   12 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create A Magical Herb Pouch]      |   G    | 30 auras, 1 aura permanent, 1 [eau de vie]                   |    5 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create A Ring of Invisibility]    | \*[^1] | 50 auras, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create A Ring of Power]           |   T    | 100 auras, 1 aura permanent, 4000 silver                     |    9 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create A Sphere of Invisibility]  |   13   | 150 auras, 30 000 silver, 3 auras permanents                 |      |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create An Amulet of True Sight]   |   C    | 50 auras, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create An Antimagic Crystal]      |   T    | 50 auras, 3 000 silver                                       |    7 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Create Iron Golems]               |   G    | 2 x N auras, N [fers], 1 [eau de vie]                        |    2 |      -- |  4   |                        |                    |
+| [Create Stone Golems]              |   G    | 2 x N auras, N [pierres][pierre], 1 [eau de vie]             |    1 |      -- |  4   |                        |                    |
+| [Danse de la pluie]                |   C    | N auras                                                      |    3 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Dévoreur de magie]                |   T    | 4 x N auras                                                  |    5 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Dirigeable]                       |   T    | 10 auras, 1 [gousse], 1 [pétale de cristal de neige]         |    6 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Dissimulation d'aura]             |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Dissonance du silence]            |   C    | 5 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Divination]                       |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Docteur Miracle]                  |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Don du Chaos]                     |   D    | 6 auras                                                      |    3 |      -- |  3   | :heavy_check_mark:     |                    |
+| [Drachenruf]                       |   D    | 80 auras, 1 [Drachenkopf]                                    |   11 |      -- |  5   |                        | :heavy_check_mark: |
+| [Écoute clandestine]               |   C    | 4 auras, 100 silver                                          |    7 |      -- |  5   |                        |                    |
+| [Endormissement]                   |   I    | N auras                                                      |    7 |  Combat |  5   |                        |                    |
+| [Esprits du Gardien de l'Astral]   |   G    | 5 x N auras                                                  |    5 |  Pré-c. |  2   |                        |                    |
+| [Éveil des Ents]                   |   G    | 6 x N auras                                                  |   10 |      -- |  5   |                        |                    |
+| [Feuerteufel]                      |   D    | 50 auras, 1 [huile]                                          |   10 |      -- |  5   |                        | :heavy_check_mark: |
+| [Folie de la guerre]               |   D    | 3 x N auras, 10 Bauern                                       |    8 |  Pré-c. |  5   |                        |                    |
+| [Fuite de l'Astral]                |   D    | 35 auras, 1 [[sang-de-dragon]]                               |    9 |      -- |  3   |                        |                    |
+| [Gardien de la Montagne]           |   G    | 3 x N auras                                                  |    3 |      -- |  5   |                        | :heavy_check_mark: |
+| [Gesang der Friedfertigkeit]       |   C    | 20 x N auras                                                 |   12 |      -- |  5   |                        |                    |
+| [Gesang der Melancholie]           |   C    | 40 auras                                                     |   11 |      -- |  5   |                        | :heavy_check_mark: |
+| [Gesang der Versklavung]           |   C    | 40 auras                                                     |   13 |      -- |  5   |                        |                    |
+| [Gesang des schwachen Geistes]     |   C    | 2 x N auras                                                  |   12 |      -- |  2   |                        | :heavy_check_mark: |
+| [Gesang des wachen Geistes]        |   C    | 2 x N auras                                                  |   10 |      -- |  2   |                        | :heavy_check_mark: |
+| [Grêle]                            |   G    | N auras                                                      |    3 |  Combat |  5   |                        |                    |
+| [Guérison du bétail]               |   G    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Guérison]                         |   G    | N auras                                                      |    5 | Post-c. |  5   |                        |                    |
+| [Gueule de bois]                   |   C    | 28 auras, 3 [Knotige Saugwurze], 50 silver                   |    7 |      -- |  5   |                        |                    |
+| [Héros morts‑vivants]              |   D    | N auras                                                      |    9 | Post-c. |  5   |                        |                    |
+| [Hitzeelementar]                   |   G    | 600 auras                                                    |   13 |      -- |  5   |                        | :heavy_check_mark: |
+| [Hohe Kunst der Überzeugung]       |   C    | 20 x N auras                                                 |   14 |      -- |  5   |                        |                    |
+| [Horreurs indicibles]              |   I    | N auras                                                      |    2 |  Pré-c. |  5   |                        |                    |
+| [Hurlement des Loups]              |   G    | 2 x N auras                                                  |    7 |  Pré-c. |  5   |                        |                    |
+| [Hymne du partage d'aura]          |   C    | 2 auras                                                      |    5 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Imprécation]                      |   D    | N auras                                                      |    1 |      -- |  5   |                        |                    |
+| [Insomnie]                         |   I    | 18 auras                                                     |    6 |      -- |  5   |                        | :heavy_check_mark: |
+| [Intrusion mentale]                |   I    | 20 auras                                                     |    7 |      -- |  5   |                        |                    |
+| [Invocation de l'Astral]           |   T    | 2 x N auras                                                  |    6 |      -- |  7   |                        |                    |
+| [Invocation de l'Eau]              |   G    | N auras                                                      |    4 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Invocation de la Réalité]         |   T    | 2 x N auras                                                  |    6 |      -- |  7   |                        |                    |
+| [Invocation de la Tempête]         |   G    | 6 x N auras                                                  |    6 |      -- |  5   | :heavy_check_mark:[^3] |                    |
+| [Invocation de la Terre]           |   G    | 25 auras, 2 [laen]                                           |    7 |      -- |  5   |                        | :heavy_check_mark: |
+| [Invocation des Démons de l'Ombre] |   D    | 3 x N auras                                                  |    8 |      -- |  5   |                        |                    |
+| [Invocation du Familier]           | \*[^1] | 100 auras, 5 auras permanents                                | [^2] |      -- |  5   |                        |                    |
+| [Jonglerie]                        |   C    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Le manteau de Firun]              | \*[^1] | 2 x N auras                                                  |    3 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Lecture des rêves]                |   I    | 8 auras                                                      |    4 |      -- |  5   |                        | :heavy_check_mark: |
+| [Liens de Vie]                     |   G    | 2 x N auras                                                  |    9 |      -- |  7   |                        |                    |
+| [Magie du bosquet de chêne]        |   G    | 4 x N auras, N [bois], 1 [eau de vie]                        |    2 |      -- |  5   |                        | :heavy_check_mark: |
+| [Mahlstrom]                        |   G    | 200 auras, 1 tête de serpent de mer                          |   15 |      -- |  5   | :heavy_check_mark:[^3] |                    |
+| [Malédiction de la peste]          |   D    | 30 auras, 50 paysans                                         |    7 |      -- |  5   |                        | :heavy_check_mark: |
+| [Malédiction du Chaos]             |   D    | 4 x N auras                                                  |    5 |      -- |  4   |                        |                    |
+| [Méditation]                       |   G    | 2 auras                                                      |    6 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Miriams flinke Finger]            |   C    | 20 auras, 1000 silver, 1 aura permanent                      |   11 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Mob aufwiegeln]                   |   C    | 4 x N auras                                                  |   10 |      -- |  5   |                        |                    |
+| [Monstres paisibles]               |   C    | 15 auras                                                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Moulin à paroles]                 |   C    | 10 auras                                                     |    4 |      -- |  5   |                        |                    |
+| [Mur de feu]                       |   D    | 6 x N auras                                                  |    7 |      -- |  4   |                        |                    |
+| [Murs d'éternité]                  |   T    | 50 auras, 1 aura permanent                                   |    7 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Onde de choc]                     |   T    | N auras                                                      |    5 |  Combat |  5   |                        |                    |
+| [Opfere Kraft]                     |   T    | 100 auras                                                    |   15 |      -- |  1   |                        |                    |
+| [Pentagramme]                      |   D    | 10 x N auras                                                 |   10 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Petit sacrifice de sang]          |   D    | 16 PV                                                        |    4 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Petites malédictions]             |   D    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Pierre de maison]                 |   G    | 50 auras, 1 aura permanent                                   |    7 |      -- |  5   |                        |                    |
+| [Pluie de rouille]                 |   G    | 2 x N auras                                                  |    3 |      -- |  5   |                        | :heavy_check_mark: |
+| [Portail puissant et Mur robuste]  |   G    | 2 x N auras                                                  |    8 |  Pré-c. |  5   |                        |                    |
+| [Pouvoirs des morts]               |   D    | 5 x N auras                                                  |    6 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Préservation du butin]            |   T    | N auras                                                      |    3 | Post-c. |  5   |                        |                    |
+| [Protection contre la magie]       |   T    | 3 x N auras                                                  |    2 |  Pré-c. |  2   |                        |                    |
+| [Regard du Basilic]                |   G    | N auras                                                      |    8 |  Combat |  5   |                        |                    |
+| [Repos éternel]                    |   I    | 3 x N auras, 1 [eau de vie]                                  |    2 |      -- |  5   |                        |                    |
+| [Résistance à la magie]            |   T    | 5 x N auras                                                  |    3 |      -- |  2   | :heavy_check_mark:     |                    |
+| [Résurrection]                     |   I    | N auras                                                      |    5 | Post-c. |  4   |                        |                    |
+| [Rêve de magie]                    |   I    | 2 auras                                                      |    3 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Rêve]                             |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
+| [Rindenhaut]                       |   G    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
+| [Ritual der Aufnahme]              |   C    | 3 x N auras, N auras permanents                              |    9 |      -- |  5   |                        |                    |
+| [Runes de protection]              |   T    | 20 auras                                                     |    8 |      -- |  2   | :heavy_check_mark:     |                    |
+| [Rüstschild]                       |   T    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
+| [Schlechte Träume]                 |   I    | 90 auras                                                     |   10 |      -- |  5   |                        | :heavy_check_mark: |
+| [Schöne Träume]                    |   I    | 80 auras                                                     |    8 |      -- |  5   |                        | :heavy_check_mark: |
+| [Segne Mallornstecken]             |   G    | 6 x N auras, N [mallorns], 1 [eau de vie]                    |    4 |      -- |  5   |                        | :heavy_check_mark: |
+| [Segne Steinkreis]                 |   G    | 350 auras, 5 auras permanents                                |   11 |      -- |  5   |                        |                    |
+| [Soif de sang]                     |   D    | 5 x N auras, 1 paysan                                        |    5 |  Pré-c. |  4   |                        |                    |
+| [Sortie de l'Astral]               |   T    | 2 x N auras                                                  |    4 |      -- |  7   |                        |                    |
+| [Störe Astrale Integrität]         |   T    | 140 auras                                                    |   14 |      -- |  4   |                        |                    |
+| [Süße Träume]                      |   I    | 5 x N auras                                                  |   12 |      -- |  5   |                        |                    |
+| [Terre Sacrée]                     |   G    | 80 auras, 3 auras permanents                                 |    9 |      -- |  5   |                        |                    |
+| [Tod des Geistes]                  |   I    | 2 x N auras                                                  |   11 |  Pré-c. |  5   |                        |                    |
+| [Todeswolke]                       |   D    | 40 auras, 15 PV                                              |   11 |      -- |  5   |                        | :heavy_check_mark: |
+| [Tor in die Ebene der Hitze]       |   F    | 800 auras                                                    |   17 |      -- |  5   |                        | :heavy_check_mark: |
+| [Tourbillon]                       |   G    | 15 auras                                                     |    5 |  Pré-c. |  5   |                        |                    |
+| [Transfert d'aura]                 |   T    | 1 aura                                                       |    5 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Transfert de pouvoir]             |   D    | 2 auras                                                      |    7 |      -- |  1   | :heavy_check_mark:     |                    |
+| [Traumbilder entwirren]            |   I    | 6 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Unheilige Kraft]                  |   D    | 10 x N auras, 5 x N paysans                                  |   14 |      -- |  5   |                        |                    |
+| [Vents de rouille]                 |   D    | 2 x N auras                                                  |    6 |  Combat |  5   |                        |                    |
+| [Voie de l'Astral]                 |   T    | 2 x N auras                                                  |    4 |      -- |  7   |                        |                    |
+| [Voie des Arbres]                  |   G    | 3 x N auras                                                  |    9 |      -- |  7   |                        |                    |
+| [Voie magique]                     |   G    | N auras, 1 [pierre], 1 bois                                  |    4 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
+| [Vol d'aura]                       |   T    | 2 x N auras                                                  |    6 |      -- |  3   |                        | :heavy_check_mark: |
+| [Wurzeln der Magie]                |   G    | 250 auras, 10 auras permanents, 1 pot de bave de crapaud     |   16 |      -- |  5   |                        | :heavy_check_mark: |
+| [Zeitdehnung]                      |   T    | 5 x N auras                                                  |   11 |      -- |  5   | :heavy_check_mark:     |                    |
 
 Poursuivre la lecture : [[alchimie|potions]].
 
+[^1]: toutes les Écoles de Magie permettent de lancer le sort
+[^2]: le niveau du sort varie selon l'École de Magie. C : 9, D : 13, G : 10, I : 10, T : 12
+[^3]: le sort peut être lancé **en mer**.
+
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
 
-[Antimagic]: ./spells-descriptions.md#antimagic
-[Astral Exit]: ./spells-descriptions.md#astral-exit
-[Astral Leak]: ./spells-descriptions.md#astral-leak
-[Astral Call]: ./spells-descriptions.md#astral-call
-[Astral Path]: ./spells-descriptions.md#astral-path
-[Astral Chaos]: ./spells-descriptions.md#astral-chaos
-[Astral Guardian Spirits]: ./spells-descriptions.md#astral-guardian-spirits
-[Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen
-[Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen
-[Transfer aura]: ./spells-descriptions.md#transfer-aura
-[Sound out]: ./spells-descriptions.md#sound-out
-[Countersong]: ./spells-descriptions.md#countersong
-[Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein
-[Mountain Guardian]: ./spells-descriptions.md#mountain-guardian
-[Acceleration]: ./spells-descriptions.md#acceleration
-[Summon Shadowdemons]: ./spells-descriptions.md#summon-shadowdemons
-[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister
-[Save Spoils]: ./spells-descriptions.md#save-spoils
-[Gaze of the Basilisk]: ./spells-descriptions.md#gaze-of-the-basilisk
-[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitat
-[Blood Frenzy]: ./spells-descriptions.md#blood-frenzy
-[Chaos Curse]: ./spells-descriptions.md#chaos-curse
-[Chaossog]: ./spells-descriptions.md#chaossog
-[Drachenruf]: ./spells-descriptions.md#drachenruf
-[Summon Earth Elemental]: ./spells-descriptions.md#summon-earth-elemental
-[Create An Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystal
-[Create Iron Golems]: ./spells-descriptions.md#create-iron-golems
-[Create Stone Golems]: ./spells-descriptions.md#create-stone-golems
-[Create An Amulet of True Sight]: ./spells-descriptions.md#create-an-amulet-of-true-sight
-[Create a Flaming Sword]: ./spells-descriptions.md#create-a-flaming-sword
-[Create a DreamEye]: ./spells-descriptions.md#create-a-dreameye
-[Create A Sphere of Invisibility]: ./spells-descriptions.md#create-a-sphere-of-invisibility
-[Create A Bag of Negative Weight]: ./spells-descriptions.md#create-a-negative-weight-bag
-[Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength
-[Create A Ring of Power]: ./spells-descriptions.md#create-a-ring-of-power
-[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility
-[Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch
-[Awakening of the Ents]: ./spells-descriptions.md#awakening-of-the-ents
-[Fireball]: ./spells-descriptions.md#fireball
-[Feuerteufel]: ./spells-descriptions.md#feuerteufel
-[Firewall]: ./spells-descriptions.md#firewall
-[Firun's Coat]: ./spells-descriptions.md#firuns-coat
-[Negate Curse]: ./spells-descriptions.md#negate-curse
-[Curse of Pestilence]: ./spells-descriptions.md#curse-of-pestilence
-[Appeasing Song]: ./spells-descriptions.md#appeasing-song
-[Chaos Gift]: ./spells-descriptions.md#chaos-gift
-[Jugglery]: ./spells-descriptions.md#jugglery
-[Banish Spirits]: ./spells-descriptions.md#banish-spirits
-[Song of Fear]: ./spells-descriptions.md#song-of-fear
-[Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit
-[Song of Terror]: ./spells-descriptions.md#song-of-terror
-[Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie
-[Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung
-[Song of Confusion]: ./spells-descriptions.md#song-of-confusion
-[Gesang des Transfer Auras]: ./spells-descriptions.md#gesang-des-Transfer Auras
-[Analyze Song of Life]: ./spells-descriptions.md#analyze-song-of-life
-[Song of Courting]: ./spells-descriptions.md#song-of-courting
-[Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes
-[Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes
-[Shapeshift]: ./spells-descriptions.md#shapeshift
-[Unspeakable Horrors]: ./spells-descriptions.md#unspeakable-horrors
-[Hail]: ./spells-descriptions.md#hail
-[Grove of Oak Trees]: ./spells-descriptions.md#grove-of-oak-trees
-[Sacred Ground]: ./spells-descriptions.md#sacred-ground
-[Heal]: ./spells-descriptions.md#heal
-[Homestone]: ./spells-descriptions.md#homestone
-[Epic Heroes]: ./spells-descriptions.md#epic-heroes
-[Hitzeelementar]: ./spells-descriptions.md#hitzeelementar
-[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung
-[Song of Generosity]: ./spells-descriptions.md#song-of-generosity
-[Minor Curses]: ./spells-descriptions.md#minor-curses
-[Lesser Sacrifice]: ./spells-descriptions.md#lesser-sacrifice
-[Song of War]: ./spells-descriptions.md#song-of-war
-[Silence Dissonance]: ./spells-descriptions.md#silence-dissonance
-[Song of Healing]: ./spells-descriptions.md#song-of-healing
-[Song of Seduction]: ./spells-descriptions.md#song-of-seduction
-[Analysis]: ./spells-descriptions.md#analysis
-[Airship]: ./spells-descriptions.md#airship
-[Transfer Power]: ./spells-descriptions.md#transfer-power
-[Analyze Magic]: ./spells-descriptions.md#analyze-magic
-[Destroy Magic]: ./spells-descriptions.md#destroy-magic
-[Magic Path]: ./spells-descriptions.md#magic-path
-[Mahlstrom]: ./spells-descriptions.md#mahlstrom
-[Eternal Walls]: ./spells-descriptions.md#eternal-walls
-[Meditate]: ./spells-descriptions.md#meditate
-[Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger
-[Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln
-[Calm Monster]: ./spells-descriptions.md#calm-monster
-[Animate Dead]: ./spells-descriptions.md#animate-dead
-[Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
-[Pentagramm]: ./spells-descriptions.md#pentagramm
-[Blabbermouth]: ./spells-descriptions.md#blabbermouth
-[Rain Dance]: ./spells-descriptions.md#rain-dance
-[Rindenhaut]: ./spells-descriptions.md#rindenhaut
-[Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme
-[Winds of Rust]: ./spells-descriptions.md#winds-of-rust
-[Rain of Rust]: ./spells-descriptions.md#rain-of-rust
-[Call of Reality]: ./spells-descriptions.md#call-of-reality
-[Protective Runes]: ./spells-descriptions.md#protective-runes
-[Rüstschild]: ./spells-descriptions.md#rustschild
-[SHangover]: ./spells-descriptions.md#schaler-wein
-[Shadow Knights]: ./spells-descriptions.md#shadow-knights
-[Shield of the Fish]: ./spells-descriptions.md#shield-of-the-fish
-[Sleep]: ./spells-descriptions.md#sleep
-[Schlechte Träume]: ./spells-descriptions.md#schlechte-traume
-[Insomnia]: ./spells-descriptions.md#insomnia
-[Concealing aura]: ./spells-descriptions.md#concealing-aura
-[Shockwave]: ./spells-descriptions.md#shockwave
-[Protection from Magic]: ./spells-descriptions.md#protection-from-magic
-[Resist Magic]: ./spells-descriptions.md#resist-magic
-[Tiredness]: ./spells-descriptions.md#tiredness
-[Schöne Träume]: ./spells-descriptions.md#schone-traume
-[Eternal Rest]: ./spells-descriptions.md#eternal-rest
-[Blessed Harvest]: ./spells-descriptions.md#blessed-harvest
-[Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken
-[Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis
-[Ties of Life]: ./spells-descriptions.md#sog-des-lebens
-[Strong Wall And Sturdy Gate]: ./spells-descriptions.md#strong-wall-and-sturdy-gate
-[Steal aura]: ./spells-descriptions.md#steal-aura
-[Summon Storm Elemental]: ./spells-descriptions.md#summon-storm-elemental
-[Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat
-[Süße Träume]: ./spells-descriptions.md#sue-traume
-[Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes
-[Todeswolke]: ./spells-descriptions.md#todeswolke
-[Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze
-[Dream of Magic]: ./spells-descriptions.md#dream-of-magic
-[Analyse Dreams]: ./spells-descriptions.md#analyse-dreams
-[Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren
-[Mind Probe]: ./spells-descriptions.md#mind-probe
-[Read Dreams]: ./spells-descriptions.md#read-dreams
-[Castle of Illusion]: ./spells-descriptions.md#castle-of-illusion
-[Dream]: ./spells-descriptions.md#dream
-[Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft
-[Undead Heroes]: ./spells-descriptions.md#undead-heroes
-[Summon Familiar]: ./spells-descriptions.md#summon-familiar
-[Hex]: ./spells-descriptions.md#heal
-[Cattle Healing]: ./spells-descriptions.md#cattle-healing
-[Madness of War]: ./spells-descriptions.md#madness-of-war
-[Divination]: ./spells-descriptions.md#divination
-[Summon Water Elemental]: ./spells-descriptions.md#summon-water-elemental
-[Path of Trees]: ./spells-descriptions.md#path-of-trees
-[Resurrection]: ./spells-descriptions.md#resurrection
-[Air Shield]: ./spells-descriptions.md#air-shield
-[Whirlwind]: ./spells-descriptions.md#whirlwind
-[Timber Wolves]: ./spells-descriptions.md#timber-wolves
-[Miracle Doctor]: ./spells-descriptions.md#miracle-doctor
-[Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie
-[Zeitdehnung]: ./spells-descriptions.md#zeitdehnung
+[Accélération]: ./spells-descriptions.md#acceleration "Acceleration"
+[Affaiblissement]: ./spells-descriptions.md#tiredness "Tiredness"
+[Analyse de la Magie]: ./spells-descriptions.md#analyze-magic "Analyze Magic"
+[Analyse des rêves]: ./spells-descriptions.md#analyse-dreams "Analyse Dreams"
+[Analyse du chant de la Vie]: ./spells-descriptions.md#analyze-song-of-life "Analyze Song of Life"
+[Analyses]: ./spells-descriptions.md#analysis "Analysis"
+[Antimagie]: ./spells-descriptions.md#antimagic "Antimagic"
+[Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen "Aufruhr beschwichtigen"
+[Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen "Aufruhr verursachen"
+[Bannissement des Esprits]: ./spells-descriptions.md#banish-spirits "Banish Spirits"
+[Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein "Belebtes Gestein"
+[Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister "Beschwöre Schattenmeister"
+[Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitat "Blick in die Realität"
+[Bouclier aérien]: ./spells-descriptions.md#air-shield "Air Shield"
+[Bouclier du poisson]: ./spells-descriptions.md#shield-of-the-fish "Shield of the Fish"
+[Boule de feu]: ./spells-descriptions.md#fireball "Fireball"
+[Brise‑malédiction]: ./spells-descriptions.md#negate-curse "Negate Curse"
+[Bénédiction de la terre]: ./spells-descriptions.md#blessed-harvest "Blessed Harvest"
+[Changement de forme]: ./spells-descriptions.md#shapeshift "Shapeshift"
+[Chant apaisant]: ./spells-descriptions.md#appeasing-song "Appeasing Song"
+[Chant d'effroi]: ./spells-descriptions.md#song-of-fear "Song of Fear"
+[Chant de confusion]: ./spells-descriptions.md#song-of-confusion "Song of Confusion"
+[Chant de contre]: ./spells-descriptions.md#countersong "Countersong"
+[Chant de cour]: ./spells-descriptions.md#song-of-courting "Song of Courting"
+[Chant de guerre]: ./spells-descriptions.md#song-of-war "Song of War"
+[Chant de guérison]: ./spells-descriptions.md#song-of-healing "Song of Healing"
+[Chant de générosité]: ./spells-descriptions.md#song-of-generosity "Song of Generosity"
+[Chant de séduction]: ./spells-descriptions.md#song-of-seduction "Song of Seduction"
+[Chant de terreur]: ./spells-descriptions.md#song-of-terror "Song of Terror"
+[Chant des héros]: ./spells-descriptions.md#epic-heroes "Epic Heroes"
+[Chaos de l'Astral]: ./spells-descriptions.md#astral-chaos "Astral Chaos"
+[Chaossog]: ./spells-descriptions.md#chaossog "Chaossog"
+[Chevaliers de l'Ombre]: ./spells-descriptions.md#shadow-knights "Shadow Knights"
+[Château d'Illusion]: ./spells-descriptions.md#castle-of-illusion "Castle of Illusion"
+[Create A Bag of Negative Weight]: ./spells-descriptions.md#create-a-negative-weight-bag "Create A Bag of Negative Weight"
+[Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength "Create A Belt of Troll Strength"
+[Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch "Create A Magical Herb Pouch"
+[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility "Create A Ring of Invisibility"
+[Create A Ring of Power]: ./spells-descriptions.md#create-a-ring-of-power "Create A Ring of Power"
+[Create A Sphere of Invisibility]: ./spells-descriptions.md#create-a-sphere-of-invisibility "Create A Sphere of Invisibility"
+[Create An Amulet of True Sight]: ./spells-descriptions.md#create-an-amulet-of-true-sight "Create An Amulet of True Sight"
+[Create An Antimagic Crystal]: ./spells-descriptions.md#create-an-antimagic-crystal "Create An Antimagic Crystal"
+[Create Iron Golems]: ./spells-descriptions.md#create-iron-golems "Create Iron Golems"
+[Create Stone Golems]: ./spells-descriptions.md#create-stone-golems "Create Stone Golems"
+[Create a DreamEye]: ./spells-descriptions.md#create-a-dreameye "Create a DreamEye"
+[Create a Flaming Sword]: ./spells-descriptions.md#create-a-flaming-sword "Create a Flaming Sword"
+[Danse de la pluie]: ./spells-descriptions.md#rain-dance "Rain Dance"
+[Dévoreur de magie]: ./spells-descriptions.md#destroy-magic "Destroy Magic"
+[Dirigeable]: ./spells-descriptions.md#airship "Airship"
+[Dissimulation d'aura]: ./spells-descriptions.md#concealing-aura "Concealing aura"
+[Dissonance du silence]: ./spells-descriptions.md#silence-dissonance "Silence Dissonance"
+[Divination]: ./spells-descriptions.md#divination "Divination"
+[Docteur Miracle]: ./spells-descriptions.md#miracle-doctor "Miracle Doctor"
+[Don du Chaos]: ./spells-descriptions.md#chaos-gift "Chaos Gift"
+[Drachenruf]: ./spells-descriptions.md#drachenruf "Drachenruf"
+[Endormissement]: ./spells-descriptions.md#sleep "Sleep"
+[Esprits du Gardien de l'Astral]: ./spells-descriptions.md#astral-guardian-spirits "Astral Guardian Spirits"
+[Feuerteufel]: ./spells-descriptions.md#feuerteufel "Feuerteufel"
+[Folie de la guerre]: ./spells-descriptions.md#madness-of-war "Madness of War"
+[Fuite de l'Astral]: ./spells-descriptions.md#astral-leak "Astral Leak"
+[Gardien de la Montagne]: ./spells-descriptions.md#mountain-guardian "Mountain Guardian"
+[Gesang der Friedfertigkeit]: ./spells-descriptions.md#gesang-der-friedfertigkeit "Gesang der Friedfertigkeit"
+[Gesang der Melancholie]: ./spells-descriptions.md#gesang-der-melancholie "Gesang der Melancholie"
+[Gesang der Versklavung]: ./spells-descriptions.md#gesang-der-versklavung "Gesang der Versklavung"
+[Gesang des schwachen Geistes]: ./spells-descriptions.md#gesang-des-schwachen-geistes "Gesang des schwachen Geistes"
+[Gesang des wachen Geistes]: ./spells-descriptions.md#gesang-des-wachen-geistes "Gesang des wachen Geistes"
+[Grêle]: ./spells-descriptions.md#hail "Hail"
+[Gueule de bois]: ./spells-descriptions.md#schaler-wein "Hangover"
+[Guérison du bétail]: ./spells-descriptions.md#cattle-healing "Cattle Healing"
+[Guérison]: ./spells-descriptions.md#heal "Heal"
+[Hitzeelementar]: ./spells-descriptions.md#hitzeelementar "Hitzeelementar"
+[Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung "Hohe Kunst der Überzeugung"
+[Horreurs indicibles]: ./spells-descriptions.md#unspeakable-horrors "Unspeakable Horrors"
+[Hurlement des Loups]: ./spells-descriptions.md#timber-wolves "Timber Wolves"
+[Hymne du partage d'aura]: ./spells-descriptions.md#gesang-des-Transfer Auras Hymn of Aura Sharing"
+[Héros morts‑vivants]: ./spells-descriptions.md#undead-heroes "Undead Heroes"
+[Imprécation]: ./spells-descriptions.md#heal "Hex"
+[Insomnie]: ./spells-descriptions.md#insomnia "Insomnia"
+[Intrusion mentale]: ./spells-descriptions.md#mind-probe "Mind Probe"
+[Invocation de l'Astral]: ./spells-descriptions.md#astral-call "Astral Call"
+[Invocation de l'Eau]: ./spells-descriptions.md#summon-water-elemental "Summon Water Elemental"
+[Invocation de la Réalité]: ./spells-descriptions.md#call-of-reality "Call of Reality"
+[Invocation de la Tempête]: ./spells-descriptions.md#summon-storm-elemental "Summon Storm Elemental"
+[Invocation de la Terre]: ./spells-descriptions.md#summon-earth-elemental "Summon Earth Elemental"
+[Invocation des Démons de l'Ombre]: ./spells-descriptions.md#summon-shadowdemons "Summon Shadowdemons"
+[Invocation du Familier]: ./spells-descriptions.md#summon-familiar "Summon Familiar"
+[Jonglerie]: ./spells-descriptions.md#jugglery "Jugglery"
+[Le manteau de Firun]: ./spells-descriptions.md#firuns-coat "Firun's Coat"
+[Lecture des rêves]: ./spells-descriptions.md#read-dreams "Read Dreams"
+[Liens de Vie]: ./spells-descriptions.md#sog-des-lebens "Ties of Life"
+[Magie du bosquet de chêne]: ./spells-descriptions.md#grove-of-oak-trees "Grove of Oak Trees"
+[Mahlstrom]: ./spells-descriptions.md#mahlstrom "Mahlstrom"
+[Malédiction de la peste]: ./spells-descriptions.md#curse-of-pestilence "Curse of Pestilence"
+[Malédiction du Chaos]: ./spells-descriptions.md#chaos-curse "Chaos Curse"
+[Miriams flinke Finger]: ./spells-descriptions.md#miriams-flinke-finger "Miriams flinke Finger"
+[Mob aufwiegeln]: ./spells-descriptions.md#mob-aufwiegeln "Mob aufwiegeln"
+[Monstres paisibles]: ./spells-descriptions.md#calm-monster "Calm Monster"
+[Moulin à paroles]: ./spells-descriptions.md#blabbermouth "Blabbermouth"
+[Mur de feu]: ./spells-descriptions.md#firewall "Firewall"
+[Murs d'éternité]: ./spells-descriptions.md#eternal-walls "Eternal Walls"
+[Méditation]: ./spells-descriptions.md#meditate "Meditate"
+[Onde de choc]: ./spells-descriptions.md#shockwave "Shockwave"
+[Opfere Kraft]: ./spells-descriptions.md#opfere-kraft "Opfere Kraft"
+[Pentagramme]: ./spells-descriptions.md#pentagramm "Pentagram"
+[Petit sacrifice de sang]: ./spells-descriptions.md#lesser-sacrifice "Lesser Sacrifice"
+[Petites malédictions]: ./spells-descriptions.md#minor-curses "Minor Curses"
+[Pierre de maison]: ./spells-descriptions.md#homestone "Homestone"
+[Pluie de rouille]: ./spells-descriptions.md#rain-of-rust "Rain of Rust"
+[Portail puissant et Mur robuste]: ./spells-descriptions.md#strong-wall-and-sturdy-gate "Strong Wall And Sturdy Gate"
+[Pouvoirs des morts]: ./spells-descriptions.md#animate-dead "Animate Dead"
+[Protection contre la magie]: ./spells-descriptions.md#protection-from-magic "Protection from Magic"
+[Préservation du butin]: ./spells-descriptions.md#save-spoils "Save Spoils"
+[Regard du Basilic]: ./spells-descriptions.md#gaze-of-the-basilisk "Gaze of the Basilisk"
+[Repos éternel]: ./spells-descriptions.md#eternal-rest "Eternal Rest"
+[Rindenhaut]: ./spells-descriptions.md#rindenhaut "Rindenhaut"
+[Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme "Ritual der Aufnahme"
+[Runes de protection]: ./spells-descriptions.md#protective-runes "Protective Runes"
+[Résistance à la magie]: ./spells-descriptions.md#resist-magic "Resist Magic"
+[Résurrection]: ./spells-descriptions.md#resurrection "Resurrection"
+[Rêve de magie]: ./spells-descriptions.md#dream-of-magic "Dream of Magic"
+[Rêve]: ./spells-descriptions.md#dream "Dream"
+[Rüstschild]: ./spells-descriptions.md#rustschild "Rüstschild"
+[Schlechte Träume]: ./spells-descriptions.md#schlechte-traume "Schlechte Träume"
+[Schöne Träume]: ./spells-descriptions.md#schone-traume "Schöne Träume"
+[Segne Mallornstecken]: ./spells-descriptions.md#segne-mallornstecken "Segne Mallornstecken"
+[Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis "Segne Steinkreis"
+[Soif de sang]: ./spells-descriptions.md#blood-frenzy "Blood Frenzy"
+[Sortie de l'Astral]: ./spells-descriptions.md#astral-exit "Astral Exit"
+[Störe Astrale Integrität]: ./spells-descriptions.md#store-astrale-integritat "Störe Astrale Integrität"
+[Süße Träume]: ./spells-descriptions.md#sue-traume "Süße Träume"
+[Terre Sacrée]: ./spells-descriptions.md#sacred-ground "Sacred Ground"
+[Tod des Geistes]: ./spells-descriptions.md#tod-des-geistes "Tod des Geistes"
+[Todeswolke]: ./spells-descriptions.md#todeswolke "Todeswolke"
+[Tor in die Ebene der Hitze]: ./spells-descriptions.md#tor-in-die-ebene-der-hitze "Tor in die Ebene der Hitze"
+[Tourbillon]: ./spells-descriptions.md#whirlwind "Whirlwind"
+[Transfert d'aura]: ./spells-descriptions.md#transfer-aura "Transfer aura"
+[Transfert de pouvoir]: ./spells-descriptions.md#transfer-power "Transfer Power"
+[Traumbilder entwirren]: ./spells-descriptions.md#traumbilder-entwirren "Traumbilder entwirren"
+[Unheilige Kraft]: ./spells-descriptions.md#unheilige-kraft "Unheilige Kraft"
+[Vents de rouille]: ./spells-descriptions.md#winds-of-rust "Winds of Rust"
+[Voie de l'Astral]: ./spells-descriptions.md#astral-path "Astral Path"
+[Voie des Arbres]: ./spells-descriptions.md#path-of-trees "Path of Trees"
+[Voie magique]: ./spells-descriptions.md#magic-path "Magic Path"
+[Vol d'aura]: ./spells-descriptions.md#steal-aura "Steal aura"
+[Wurzeln der Magie]: ./spells-descriptions.md#wurzeln-der-magie "Wurzeln der Magie"
+[Zeitdehnung]: ./spells-descriptions.md#zeitdehnung "Zeitdehnung"
+[Écoute clandestine]: ./spells-descriptions.md#sound-out "Sound out"
+[Éveil des Ents]: ./spells-descriptions.md#awakening-of-the-ents "Awakening of the Ents"
 
 [gousse]: ./herbs.md#gousse
 [pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige
+
+[sang de berserker]: ./alchemy.fr.md#sang-de-berserker "Berserkers blood"
+[épée]: ./war-tables.md#epee "Sword"
+[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
+[bois]: ./resources.md#bois "Wood"
+[fers]: ./resources.md#fer "Iron"
+[pierre]: ./resources.md#pierre "Stone"
+[Knotige Saugwurze]: ./pipo.md

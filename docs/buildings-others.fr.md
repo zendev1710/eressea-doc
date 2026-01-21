@@ -17,13 +17,13 @@ Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xy
 
 Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de bâtiment :
 
-- Les coûts de construction : nombre de pierres, bois, fers et pièces d'argent
+- Les coûts de construction : nombre de pierres, bois, fers et silver
 - Le niveau requis en maçonnerie pour la construction
-- Les frais **d'entretien** : nombre de ressources (pierres, bois ou chevaux) et de pièces d'argent
+- Les frais **d'entretien** : nombre de ressources (pierres, bois ou chevaux) et de silver
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
-| Bâtiment            | Pierres | Bois | Fers | Pièces | Niv. |     Pièces | Ressource | Taille Max. |    Capacité |
+| Bâtiment            | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
 |---------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
 | [Phare]             |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
 | [Mine]              |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
@@ -59,7 +59,6 @@ Voir aussi : [Construction d'un château].
 | Coûts par point de taille            | Niveau requis | Maintenance par tour | Taille max. | Capacité     |
 |--------------------------------------|:-------------:|:--------------------:|:-----------:|--------------|
 | 2 pierres, 1 bois, 1 fer, 100 silver |       3       |      100 silver      |     --      | 4 **unités** |
-|                                      |               |                      |             |              |
 
 | Taille | Perception | Visibilité |
 |-------:|-----------:|:----------:|
@@ -73,7 +72,9 @@ Les avantages d'un phare :
 
 - Débutant à la taille 10, Le phare réduit la possibilité qu'un bateau dérive suite à une tempête.
   Cet effet s'étend à log10 (taille du phare) + 1 régions autour du bâtiment.
-- Le phare donne aux occupants (jusqu'à 4 unités seulement) des informations sur les bateaux visibles dans un rayon de log10 (taille du phare) + 1 régions. L'unité doit avoir une perception d'au moins distance×3. Un rapport provenant d'une région océanique située à trois hexs de distance ne peut être obtenu que si le phare est d'au moins une taille de 100 et que l'unité a au moins une perception de 9.
+- Le phare donne aux occupants (jusqu'à 4 unités seulement) des informations sur les bateaux visibles dans un rayon de log10 (taille du phare) + 1 régions.
+  L'unité doit avoir une perception d'au moins distance × 3.
+  Un rapport provenant d'une région océanique située à trois hexagones de distance ne peut être obtenu que si le phare est d'au moins une taille de 100 et que l'unité a au moins une perception de 9.
 
 ## Mine
 
@@ -92,9 +93,14 @@ Les avantages d'un phare :
 
 **Exemple:**
 
-- Dans une mine, un humain T2 en [extraction minière] peut extraire 3 fers à la couche 1 ou 2. Cependant, en raison de l'arrondi, 2 fers sont déduits de la réserve de la région.
-- 1 unité d'humain de 2 personnes niveau 4. Elle produit 8 fers et prélève 8 fers des ressources de la région. Dans une mine la même unité produit 10 fers (4+1\*2) et prélève seulement 5 fers (10/2).
-- 1 unité de 2 nains niveau 4. Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60%). Dans une mine la même unité de nains produit 10 fers (4+1\*2) et prélève seulement 3 fers (10\*60%/2).
+- Dans une mine, un humain T2 en [extraction minière] peut extraire 3 fers à la couche 1 ou 2.
+  Cependant, en raison de l'arrondi, 2 fers sont déduits de la réserve de la région.
+- 1 unité d'humain de 2 personnes niveau 4.
+  Elle produit 8 fers et prélève 8 fers des ressources de la région.
+  Dans une mine la même unité produit 10 fers (4+1x2) et prélève seulement 5 fers (10/2).
+- 1 unité de 2 nains niveau 4.
+  Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60%).
+  Dans une mine la même unité de nains produit 10 fers (4+1x2) et prélève seulement 3 fers (10\*60%/2).
 
 ## Carrière
 
@@ -106,7 +112,8 @@ Les avantages d'un phare :
 |-------------------------------------|:-------------:|:--------------------:|:-----------:|--------------------------|
 | 1 pierre, 5 bois, 1 fer, 250 silver |       2       |      250 silver      |     --      | *taille du bâtiment*     |
 
-- Seule la moitié de la pierre extraite par les unités situées à l'intérieur de la carrière est déduite des ressources de la région. Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
+- Seule la moitié de la pierre extraite par les unités situées à l'intérieur de la carrière est déduite des ressources de la région.
+  Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
 - Les unités à l'intérieur de la carrière ont **un bonus de +1** en [extraction de pierres], mais ceci ne s'applique pas au niveau requis pour atteindre une couche plus profonde.
 
 **Exemple:**
@@ -148,7 +155,8 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 |---------------------------------------|:-------------:|:--------------------:|:-----------:|--------------------------|
 | 5 pierres, 5 bois, 2 fers, 200 silver |       3       |  300 silver, 1 bois  |     --      | *taille du bâtiment*     |
 
-- Les unités à l'intérieur n’ont besoin que de la moitié de la quantité normale de fers pour fabriquer des armes et des armures en fers. Le Laen n'est pas économisé.
+- Les unités à l'intérieur n’ont besoin que de la moitié de la quantité normale de fers pour fabriquer des armes et des armures en fers.
+  Le Laen n'est pas économisé.
 - Les unités à l'intérieur d'une forge bénéficient d'un bonus de +1 à leur compétence weaponsmithing et armoursmithing.
 
 ## Haras
@@ -161,9 +169,14 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 |--------------------------------------|:-------------:|:--------------------:|:-----------:|--------------------------|
 | 2 pierres, 4 bois, 1 fer, 100 silver |       2       |      150 silver      |     --      | *taille du bâtiment*     |
 
-- Les unités à l'intérieur d'une écurie peuvent reproduire des chevaux en utilisant l'ordre [[cmd-grow]] HORSES. Pour cela l'unité a besoin de la compétence Taming et d'au moins 2 chevaux (en sa possession).
-- La chance d'élever des chevaux correspond à la compétence de l'unité. De plus, l'unité dispose d'un nombre de tentatives égal à son niveau. Si une unité est T5, il dispose de 5 tentatives à 5% chacune pour élever un cheval.
-- Pour chaque tentative l'unité a besoin d'un cheval. Si le nombre de chevaux disponibles est insuffisant, les tentatives sont annulées. 5 chevaux sont nécessaires dans l'exemple précédent.
+- Les unités à l'intérieur d'un haras peuvent reproduire des chevaux en utilisant l'ordre [[cmd-grow|`GROW HORSES`]].
+  Pour cela l'unité doit maîtriser l'[apprivoisement] et d'au moins 2 chevaux (en sa possession).
+- La chance d'élever des chevaux correspond à la compétence de l'unité.
+  De plus, l'unité dispose d'un nombre de tentatives égal à son niveau.
+  Si une unité est T5, il dispose de 5 tentatives à 5% chacune pour élever un cheval.
+- Pour chaque tentative l'unité a besoin d'un cheval.
+  Si le nombre de chevaux disponibles est insuffisant, les tentatives sont annulées.
+  5 chevaux sont nécessaires dans l'exemple précédent.
 
 ## Port
 
@@ -181,9 +194,12 @@ Le coût **total** d'un port (de taille 25) est de : 125 pierres, 125 bois, 6250
 - Une région avec un port peut être utilisée comme une « région canal », c'est-à-dire qu'un bateau dans le port peut naviguer dans n'importe quelle autre direction maritime.
 - Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre [[cmd-help|`HELP GUARD`]] avec la faction du Capitaine.
 - Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.
-- Le propriétaire reçoit également (2\*Trade)% de tous les biens de luxe qui se trouvent à bord des bateaux entrants. Sauf si l'unité qui transporte les marchandises a un niveau de dissimulation supérieur au niveau de perception du propriétaire du port, ou si le capitaine du bateau est allié avec le propriétaire du port.
+- Le propriétaire reçoit également (2 x Trade)% de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
+  Sauf si l'unité qui transporte les marchandises a un niveau de dissimulation supérieur au niveau de perception du propriétaire du port, ou si le capitaine du bateau est allié avec le propriétaire du port.
 - Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.
-- Un port ne fonctionnera que s’il est entièrement construit. Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire. Un port à moitié terminé peut être détruit avec l'ordre [[cmd-destroy]].
+- Un port ne fonctionnera que s’il est entièrement construit.
+  Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire.
+  Un port à moitié terminé peut être détruit avec l'ordre [[cmd-destroy]].
 
 Le nombre de bateaux dans un port est illimité.  
 
@@ -200,8 +216,9 @@ Le nombre de bateaux dans un port est illimité.
 Le coût **total** d'una académie (de taille 25) est de : 125 pierres, 125 bois, 12500 silvers.  
 
 - Les unités qui apprennent dans une académie ont 1/3 de chance d'apprendre une fois de plus cette semaine, et si elles ont un professeur, elles ont 2/3 de chance.
-- Apprendre dans une académie coûte 50 pièces d'argent par personne pour les compétences qui peuvent normalement être apprises sans aucun frais et le double de la somme d'argent pour les compétences qui coûtent quelque chose pour les apprendre.
-- Les enseignants qui enseignent aux élèves d'une académie ont également une chance d'apprendre, qui peut aller jusqu'à 1/3 en fonction du nombre de leurs élèves. Ils n’ont pas besoin d’être eux-mêmes dans une académie pour cela.
+- Apprendre dans une académie coûte 50 silver par personne pour les compétences qui peuvent normalement être apprises sans aucun frais et le double de la somme d'argent pour les compétences qui coûtent quelque chose pour les apprendre.
+- Les enseignants qui enseignent aux élèves d'une académie ont également une chance d'apprendre, qui peut aller jusqu'à 1/3 en fonction du nombre de leurs élèves.
+  Ils n’ont pas besoin d’être eux-mêmes dans une académie pour cela.
 - Une académie ne fonctionnera que si elle est entièrement construite !
 
 ## Tour de mage
@@ -234,8 +251,11 @@ Le coût **total** d'una académie (de taille 25) est de : 250 pierres, 150 bois
 
 Le coût **total** d'un caravansérail (de taille 10) est de : 10 pierres, 50 bois, 10 fers, 5000 silver.  
 
-- Un caravansérail permet de construire des routes dans les déserts. Si le caravansérail est détruit, la moitié des routes seront également détruites. Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
-- Dans les déserts, double le volume du commerce possible. Le propriétaire reçoit une part des recettes des ventes comme dans les règles des châteaux ([tableau des châteaux]).
+- Un caravansérail permet de construire des routes dans les déserts.
+  Si le caravansérail est détruit, la moitié des routes seront également détruites.
+  Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
+- Dans les déserts, double le volume du commerce possible.
+  Le propriétaire reçoit une part des recettes des ventes comme dans les règles des châteaux ([tableau des châteaux]).
 - Un caravansérail ne fonctionnera que s’il est entièrement construit !
 
 ## Barrage
@@ -250,7 +270,9 @@ Le coût **total** d'un caravansérail (de taille 10) est de : 10 pierres, 50 bo
 
 Le coût **total** d'un barrage (de taille 50) est de : 250 pierres, 500 bois, 50 fers, 25000 silver.  
 
-- Un barrage vous permet de construire des routes dans les marécages. Si le barrage est détruit, la moitié des routes seront également détruites. Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
+- Un barrage vous permet de construire des routes dans les marécages.
+  Si le barrage est détruit, la moitié des routes seront également détruites.
+  Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Le barrage ne fonctionnera que s’il est entièrement construit !
 
 ## Tunnel
@@ -265,7 +287,9 @@ Le coût **total** d'un barrage (de taille 50) est de : 250 pierres, 500 bois, 5
 
 Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 100 fers, 30000 silver.  
 
-- Un tunnel permet de construire des routes sur des glaciers. Si le tunnel est détruit, la moitié des routes seront également détruites. Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
+- Un tunnel permet de construire des routes sur des glaciers.
+  Si le tunnel est détruit, la moitié des routes seront également détruites.
+  Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Un tunnel ne fonctionnera que s’il est entièrement construit !
 
 ## Auberge
@@ -276,7 +300,7 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 
 | Coûts par point de taille            | Niveau requis |     Maintenance par tour     | Taille max. | Capacité (nb. personnes) |
 |--------------------------------------|:-------------:|:----------------------------:|:-----------:|--------------------------|
-| 4 pierres, 3 bois, 1 fer, 200 pièces |       2       | 5 silver par point de taille |     --      | *taille du bâtiment*     |
+| 4 pierres, 3 bois, 1 fer, 200 silver |       2       | 5 silver par point de taille |     --      | *taille du bâtiment*     |
 
 - Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.
 - Toutes les personnes à l'intérieur d'une auberge ont besoin de 14 silver par semaine pour vivre au lieu des 10 normales.
@@ -306,7 +330,10 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 
 Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 500 bois.  
 
-- Un cercle de pierres peut être béni grâce à un [puissant sort]. Cela développe alors des effets étranges. Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares. De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.
+- Un cercle de pierres peut être béni grâce à un [puissant sort].
+  Cela développe alors des effets étranges.
+  Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
+  De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.
 - Dans un cercle de pierres béni, un mage régénère 50 % d’aura en plus.
 - La puissance de tout sort lancé dans un cercle de pierres béni augmente comme si le sort avait été lancé avec un niveau supplémentaire.
 - Les occupants ont 30% de résistance à la magie supplémentaire.
@@ -352,3 +379,4 @@ Poursuivre la lecture : [pool de factions].
 [extraction minière]: ./skills-list.md#extraction-miniere "Mining"
 [extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
 [pousses]: ./resources.fr.md#jeunes-arbres-ou-pousses "Saplings"
+[apprivoisement]: ./skills-list.md#apprivoisement

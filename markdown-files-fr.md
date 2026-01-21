@@ -23,7 +23,7 @@
 [appendices/war-tables.fr.md](/docs/war-tables.fr.md)
 [appendices/items/adamantium-armor.fr.md](/docs/adamantium-armor.fr.md)
 [appendices/items/adamantium.fr.md](/docs/adamantium.fr.md)
-[appendices/items/amulet-of-true-vision.fr.md](/docs/amulet-of-true-vision.fr.md)
+[appendices/items/amulet-of-true-sight.fr.md](/docs/amulet-of-true-sight.fr.md)
 [appendices/items/antimagic-crystal.fr.md](/docs/antimagic-crystal.fr.md)
 [appendices/items/belt-of-troll-strength.fr.md](/docs/belt-of-troll-strength.fr.md)
 [appendices/items/dream-eye.fr.md](/docs/dream-eye.fr.md)

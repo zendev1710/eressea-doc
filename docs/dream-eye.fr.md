@@ -2,8 +2,11 @@
 # cSpell:locale fr
 alias: dream-eye
 ---
-# Dream Eye
+<!-- cspell:disable -->
+# Dream eye
 
-*Dream Eye (EN), Traumauge (DE)*.
+<!-- cspell:disable -->
+*Dream eye (EN), Traumauge (DE)*.
+<!-- cspell:enable -->
 
 <!-- TODO add documentation for this file that was initially empty -->

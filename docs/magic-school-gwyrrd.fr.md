@@ -6,60 +6,91 @@ alias: sorts-gwyrrd
 
 Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Steingolems
+## Créer des [[stone-golem]]
 
-**Description** :  
-Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde. Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und forme der ungebundenen Kraft ein Gehäuse. Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden, bevor die Aura sich verflüchtigt. Jeder Golem hat jede Runde eine Chance von 10 Prozent zu Staub zu zerfallen. Gibt man den Golems die Befehle MAKE BURG oder MAKE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
+<!-- cspell:disable -->
+*Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
+<!-- cspell:enable -->
+
+:   "Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.
+    Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."
+    Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.
+    Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.
+    Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
+
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 4  
-**Composants** : 2 Aura \* niveau, 1 Stein \* niveau, 1 Wasser des Lebens  
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST \[LEVEL n\] "Erschaffe Steingolems"`  
+**Composants** : 2 x N Aura, N [pierre], 1 [eau de vie]  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Create Stone Golems"`  
 
-## Segen der Erde
+## Bénédiction de la terre
 
-**Description** :  
-Dieses Ernteritual verbessert die Erträge der arbeitenden Bauern in der Region um ein Silberstück. Je mehr Kraft der Druide investiert, desto länger wirkt der Zauber.  
+<!-- cspell:disable -->
+*Blessed Harvest (EN), Segen der Erde (DE)*.
+<!-- cspell:enable -->
+
+<!-- TODO: check description -->
+:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.
+    Plus le druide investit de puissance, plus le sort dure longtemps.
+
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort à distance, sort de bateau  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Segen der Erde"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
-## Viehheilung
+## Guérison du bétail
 
-**Description** :  
-Die Fähigkeiten der Gwyrrd-Magier in der Viehzucht und Heilung sind bei den Bauern sehr begehrt. Gerade auf Märkten sind ihre Dienste häufig sehr gefragt. Manch einer mag auch sein Talent dazu nutzen, ein Tier für einen besseren Preis zu verkaufen. Pro Stufe kann der Magier so 50 Silber verdienen.  
+<!-- cspell:disable -->
+*Cattle Healing (EN), Viehheilung (DE)*.
+<!-- cspell:enable -->
+
+:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.
+    Leurs services sont souvent très demandés, notamment sur les marchés.
+    Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.
+    Le mage peut gagner 50 silver par niveau.
+
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST \[LEVEL n\] "Viehheilung"`  
+**Syntaxe** : `CAST [LEVEL n] "Cattle Healing"`  
 
 ## Eisengolems
 
-**Description** :  
-Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden. Jeder Golem hat jede Runde eine Chance von 15 Prozent zu Staub zu zerfallen. Gibt man den Golems den Befehl MAKE SCHWERT/BIHÄNDER oder MAKE SCHILD/KETTENHEMD/PLATTENPANZER, so werden pro Golem 4 Eisenbarren verbaut und der Golem löst sich auf.  
+<!-- cspell:disable -->
+*Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
+<!-- cspell:enable -->
+
+:   Plus le mage investit de puissance, plus de golems peuvent être créés.
+    Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.
+    Si vous donnez aux golems l'ordre `MAKE Sword/BIHANDER` ou `MAKE Shield/CHAIN ​​​​MAIL/PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
+
 **Type** : sort normal  
 **Niveau** : 2  
 **Rang** : 4  
-**Composants** : 2 Aura \* niveau, 1 Eisen \* niveau, 1 Wasser des Lebens  
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST \[LEVEL n\] "Erschaffe Eisengolems"`  
+**Composants** : 2 x N Aura, N [fer], 1 [eau de vie]  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Create Iron Golems"`  
 
-## Hainzauber
+## Magie du bosquet de chêne
 
-**Description** :  
-Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
+<!-- cspell:disable -->
+*Grove of Oak Trees (EN), Hainzauber (DE)*.
+<!-- cspell:enable -->
+
+:   Alors qu'auparavant seul un arbre pouvait germer à partir d'un bâton, chaque branche produit désormais des racines.
+
 **Type** : sort normal  
 **Niveau** : 2  
 **Rang** : 5  
-**Composants** : 4 Aura \* niveau, 1 Holz \* niveau, 1 Wasser des Lebens  
+**Composants** : 4 x N Aura, N [bois], 1 [eau de vie]  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Hainzauber"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
 ## Bergwächter
 
@@ -68,31 +99,42 @@ Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau
 **Type** : sort normal  
 **Niveau** : 3  
 **Rang** : 5  
-**Composants** : 3 Aura X niveau
+**Composants** : 3 x N Aura  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Bergwächter"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Bergwächter"`  
 
-## Firuns Fell
+## Le manteau de Firun
 
-**Description** :  
-Dieser Zauber ermöglicht es dem Magier Insekten auf magische Weise vor der lähmenden Kälte der Gletscher zu bewahren. Sie können Gletscher betreten und dort normal agieren. Der Spruch wirkt auf Stufe\*10 Insekten. Ein Ring der Macht erhöht die Menge der verzauberbaren Insekten zusätzlich um 10.  
+<!-- cspell:disable -->
+*Firun's Coat (EN), Firuns Fell (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.
+    Vous pouvez entrer dans les glaciers et y agir normalement. Le dicton fonctionne au niveau*10 insectes.
+    Un anneau de pouvoir augmente le nombre d'insectes enchantables de 10 supplémentaires.
+
 **Type** : sort normal  
 **Niveau** : 3  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST \[LEVEL n\] "Firuns Fell" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : sort sur bateau  
+**Syntaxe** : `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
-## Hagel
+## Grêle
 
-**Description** :  
-Im Kampf ruft der Magier die Elementargeister der Kälte an und bindet sie an sich. Sodann kann er ihnen befehlen, den Gegner mit Hagelkörnern und Eisbrocken zuzusetzen.  
+<!-- cspell:disable -->
+*Hail (EN), Hagel (DE)*.
+<!-- cspell:enable -->
+
+:   Au combat, le mage fait appel aux esprits élémentaires du froid et les lie à lui-même.
+    Il peut alors leur ordonner d'attaquer l'ennemi avec des grêlons et des morceaux de glace.
+
 **Type** : sort de combat  
 **Niveau** : 3  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Hagel"`  
+**Composants** : N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] Hail`  
 
 ## Rostregen
 
@@ -101,9 +143,9 @@ Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverk
 **Type** : sort normal  
 **Niveau** : 3  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
+**Composants** : 2 x N Aura  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Rostregen" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Rostregen" <Einheit-id> [<Einheit-id> ...]`  
 
 ## Magischer Pfad
 
@@ -112,9 +154,9 @@ Durch Ausführung dieser Rituale ist der Magier in der Lage einen mächtigen Erd
 **Type** : sort normal  
 **Niveau** : 4  
 **Rang** : 5  
-**Composants** : 1 Aura \* niveau, 1 Stein, 1 Holz  
+**Composants** : N Aura, 1 [pierre], 1 [bois]  
 **Modificateurs** : sort à distance, sort de bateau  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Magischer Pfad"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Magischer Pfad"`  
 
 ## Segne Mallornstecken
 
@@ -123,9 +165,9 @@ Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches. Wo 
 **Type** : sort normal  
 **Niveau** : 4  
 **Rang** : 5  
-**Composants** : 6 Aura \* niveau, 1 Mallorn \* niveau, 1 Wasser des Lebens  
+**Composants** : 6 x N Aura, N Mallorn, 1 [eau de vie]  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Segne Mallornstecken"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Segne Mallornstecken"`  
 
 ## Wasserelementar
 
@@ -134,31 +176,41 @@ Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen D
 **Type** : sort normal  
 **Niveau** : 4  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST \[LEVEL n\] "Beschwörung eines Wasserelementares" &lt;Schiff-Nr&gt;`  
+**Syntaxe** : `CAST [LEVEL n] "Beschwörung eines Wasserelementares" <Schiff-id>`  
 
-## Windschild
+## Bouclier aérien
 
-**Description** :  
-Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden.  
+<!-- cspell:disable -->
+*Air Shield (EN), Windschild (DE)*.
+<!-- cspell:enable -->
+
+:   Invoque les esprits élémentaires du vent.
+    Invoque des rafales de vent soudaines, de petites rafales de vent et des évents qui gêneront les archers adverses.
+
 **Type** : sort de pré-combat  
 **Niveau** : 4  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Windschild"`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Windschild"`  
 
-## Astralschutzgeister
+## Esprits du Gardien de l'Astral
 
-**Description** :  
-Dieses Ritual beschwört einige Elementargeister der Magie und schickt sie in die Reihen der feindlichen Magier. Diesen wird das Zaubern für die Dauer des Kampfes deutlich schwerer fallen.  
+<!-- cspell:disable -->
+*Astral Guardian Spirits (EN), Astralschutzgeister (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque des esprits élémentaires de magie et les envoie dans les rangs des mages ennemis.
+    Ces derniers auront bien plus de mal à lancer des sorts pendant toute la durée du combat.
+
 **Type** : sort de pré-combat  
 **Niveau** : 5  
 **Rang** : 2  
-**Composants** : 5 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Astralschutzgeister"`  
+**Composants** : 5 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
 ## Erschaffe einen magischen Kräuterbeutel
 
@@ -167,7 +219,7 @@ Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual d
 **Type** : sort normal  
 **Niveau** : 5  
 **Rang** : 5  
-**Composants** : 30 Aura, 1 permanente Aura, 1 Wasser des Lebens  
+**Composants** : 30 Aura, 1 Aura permanent, 1 [eau de vie]  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen magischen Kräuterbeutel"`  
 
@@ -178,9 +230,9 @@ Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen. Druiden verm
 **Type** : sort de post-combat  
 **Niveau** : 5  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Heilung"`  
+**Composants** : N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Heilung"`  
 
 ## Wirbelwind
 
@@ -190,8 +242,8 @@ Diese Beschwörung öffnet ein Tor in die Ebene der Elementargeister des Windes.
 **Niveau** : 5  
 **Rang** : 5  
 **Composants** : 15 Aura  
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Wirbelwind"`  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Wirbelwind"`  
 
 ## Erdelementar
 
@@ -202,7 +254,7 @@ Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt
 **Rang** : 5  
 **Composants** : 25 Aura, 2 Laen  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] "Beschwöre einen Erdelementar"`  
+**Syntaxe** : `CAST [REGION x y] "Beschwöre einen Erdelementar"`  
 
 ## Erschaffe ein Amulett des wahren Sehens
 
@@ -211,7 +263,7 @@ Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaf
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
+**Composants** : 50 Aura, 3 000 silver, 1 Aura permanent  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe ein Amulett des wahren Sehens"`  
 
@@ -222,7 +274,7 @@ Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. De
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
+**Composants** : 50 Aura, 3 000 silver, 1 Aura permanent  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen Ring der Unsichtbarkeit"`  
 
@@ -235,7 +287,7 @@ Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf eine
 **Rang** : 1  
 **Composants** : 2 Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST "Meditation" &lt;Einheit-Nr&gt; &lt;Aura&gt;`  
+**Syntaxe** : `CAST "Meditation" <Einheit-id> <Aura>`  
 
 ## Sturmelementar
 
@@ -244,9 +296,9 @@ Die Beschwörung von Elementargeistern der Stürme ist ein uraltes Ritual. Der D
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 6 Aura X niveau
+**Composants** : 6 x N Aura
 **Modificateurs** : Seezauber, sort de bateau  
-**Syntaxe** : `CAST \[LEVEL n\] "Beschwöre einen Sturmelementar" &lt;Schiff-Nr&gt; \[&lt;Schiff-Nr&gt; ...\]`  
+**Syntaxe** : `CAST [LEVEL n] "Beschwöre einen Sturmelementar" <Schiff-id> [<Schiff-id> ...]`  
 
 ## Heimstein
 
@@ -255,7 +307,7 @@ Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern 
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 5  
-**Composants** : 50 Aura, 1 permanente Aura  
+**Composants** : 50 Aura, 1 Aura permanent  
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST "Heimstein"`  
 
@@ -266,31 +318,41 @@ Nicht wenige Druiden freunden sich im Laufe ihres Lebens in der Natur mit den ä
 **Type** : sort de pré-combat  
 **Niveau** : 7  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
+**Composants** : 2 x N Aura
 **Modificateurs** : *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Wolfsgeheul"`  
+**Syntaxe** : COMBATSPELL [LEVEL n] "Wolfsgeheul"`  
 
-## Blick des Basilisken
+### Regard du Basilic
 
-**Description** :  
-Dieser schwierige, aber effektive sort de combat benutzt die Elementargeister des Steins, um eine Reihe von Gegnern für die Dauer des Kampfes in Stein zu verwandeln. Die betroffenen Personen werden nicht mehr kämpfen, können jedoch auch nicht verwundet werden.  
-**Type** : sort de combat  
+<!-- cspell:disable -->
+*Gaze of the Basilisk (EN), Blick des Basilisken (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort de combat difficile mais efficace utilise les esprits élémentaires de pierre pour transformer un certain nombre d'ennemis en pierre pendant toute la durée de la bataille.
+    Les personnes touchées ne combattront plus, mais elles ne pourront pas non plus être blessées.
+
+**Type** : Kampfzauber  
 **Niveau** : 8  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Blick des Basilisken"`  
+**Composants** : N Aura  
+**Modificateurs** :*aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
-## Geister bannen
+## Bannissement des Esprits
 
-**Description** :  
-Wie die alten Lehren der Druiden berichten, besteht das, was die normalen Wesen Magie nennen, aus Elementargeistern. Der Magier beschwört und bannt diese in eine Form, um den gewünschten Effekt zu erzielen. Dieses Ritual nun vermag es, in diese Welt gerufene Elementargeister zu vertreiben, um so ein Objekt von Magie zu befreien.  
+<!-- cspell:disable -->
+*Banish Spirits (EN), Geister bannen (DE)*.
+<!-- cspell:enable -->
+
+:   Selon les anciens enseignements des druides, ce que les êtres ordinaires appellent magie est constitué d'esprits élémentaires.
+    Le mage les évoque et les bannit sous une forme permettant d'obtenir l'effet souhaité. Ce rituel est capable de chasser les esprits élémentaires invoqués dans ce monde afin de libérer un objet de la magie.
+
 **Type** : sort normal  
 **Niveau** : 8  
 **Rang** : 2  
-**Composants** : 6 Aura X niveau
+**Composants** : 6 x N Aura  
 **Modificateurs** : sort à distance, sort de bateau  
-**Syntaxe** : `CAST \[REGION x y\] \[LEVEL n\] "Geister bannen" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Banish Spirits" (REGION | UNIT <unit-id>; [<unit-id>]... | SHIP <ship-id> | CASTLE <building-id>)`  
 
 ## Starkes Tor und feste Mauer
 
@@ -299,9 +361,9 @@ Mit dieser Formel bindet der Magier zu Beginn eines Kampfes einige Elementargeis
 **Type** : sort de pré-combat  
 **Niveau** : 8  
 **Rang** : 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Starkes Tor und feste Mauer"`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Starkes Tor und feste Mauer"`  
 
 ## Heiliger Boden
 
@@ -310,42 +372,47 @@ Dieses Ritual beschwört verschiedene Naturgeister in den Boden der Region, welc
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 5  
-**Composants** : 80 Aura, 3 permanente Aura  
-**Modificateurs** : *aucun*
+**Composants** : 80 Aura, 3 Aura permanent  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST "Heiliger Boden"`  
 
 ## Sog des Lebens
 
 **Description** :  
-Ein Druide, den es in die Welt der Geister verschlagen hat, kann mit Hilfe dieses Zaubers Stufe\*5 Gewichtseinheiten in einen Wald auf der materiellen Welt zurückschicken.  
+Ein Druide, den es in die Welt der Geister verschlagen hat, kann mit Hilfe dieses Zaubers Stufe * 5 Gewichtseinheiten in einen Wald auf der materiellen Welt zurückschicken.  
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST \[LEVEL n\] "Sog des Lebens" &lt;x&gt; &lt;y&gt; &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Sog des Lebens" <x> <y> <Einheit-id> [<Einheit-id> ...]`  
 
 ## Weg der Bäume
 
 **Description** :  
-Große Macht liegt in Orten, an denen das Leben pulsiert. Der Druide kann diese Kraft sammeln und so ein Tor in die Welt der Geistwesen erschaffen. Der Druide kann dann Stufe\*5 Gewichtseinheiten durch das Tor entsenden.  
+Große Macht liegt in Orten, an denen das Leben pulsiert. Der Druide kann diese Kraft sammeln und so ein Tor in die Welt der Geistwesen erschaffen. Der Druide kann dann Stufe * 5 Gewichtseinheiten durch das Tor entsenden.  
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 7  
-**Composants** : 3 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST \[LEVEL n\] "Weg der Bäume" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
+**Composants** : 3 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Weg der Bäume" <Einheit-id> [<Einheit-id> ...]`  
 
-## Erwecke Ents
+## Éveil des [Ents]
 
-**Description** :  
-Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf. Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  
+<!-- cspell:disable -->
+*Awakening of the Ents (EN), Erwecke Ents (DE)*.
+<!-- cspell:enable -->
+
+:   Avec l'aide de ce sort, le druide réveille les Ents endormis dans les forêts de la région de leur sommeil éternel.
+    Les créatures sauvages des arbres le rejoindront et l’assisteront, mais après un certain temps, elles retomberont dans le sommeil.
+
 **Type** : sort normal  
 **Niveau** : 10  
 **Rang** : 5  
-**Composants** : 6 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST \[LEVEL n\] "Erwecke Ents"`  
+**Composants** : 6 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Awakening of the Ents"`  
 
 ## Vertrauten rufen
 
@@ -354,7 +421,7 @@ Einem erfahrenen Druidem wird irgendwann auf seinen Wanderungen ein ungewöhnlic
 **Type** : sort normal  
 **Niveau** : 10  
 **Rang** : 5  
-**Composants** : 100 Aura, 5 permanente Aura  
+**Composants** : 100 Aura, 5 Aura permanent  
 **Modificateurs** : *aucun*
 **Syntaxe** : `CAST "Vertrauten rufen"`  
 
@@ -365,9 +432,9 @@ Dieses Ritual segnet einen Steinkreis, der zuvor aus Steinen und etwas Holz geba
 **Type** : sort normal  
 **Niveau** : 11  
 **Rang** : 5  
-**Composants** : 350 Aura, 5 permanente Aura  
+**Composants** : 350 Aura, 5 Aura permanent  
 **Modificateurs** : *aucun*
-**Syntaxe** : `CAST "Segne Steinkreis" &lt;Gebäude-Nr&gt;`  
+**Syntaxe** : `CAST "Segne Steinkreis" <Gebäude-id>`  
 
 ## Rindenhaut
 
@@ -376,9 +443,9 @@ Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzl
 **Type** : sort de pré-combat  
 **Niveau** : 12  
 **Rang** : 2  
-**Composants** : 4 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `COMBATSPELL \[LEVEL n\] "Rindenhaut"`  
+**Composants** : 4 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `COMBATSPELL [LEVEL n] "Rindenhaut"`  
 
 ## Hitzeelementar
 
@@ -389,7 +456,7 @@ Dieses Ritual beschwört wütende Elementargeister der Hitze. Eine Dürre sucht 
 **Rang** : 5  
 **Composants** : 600 Aura  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] "Beschwörung eines Hitzeelementar"`  
+**Syntaxe** : `CAST [REGION x y] "Beschwörung eines Hitzeelementar"`  
 
 ## Mahlstrom
 
@@ -409,9 +476,9 @@ Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft 
 **Type** : sort normal  
 **Niveau** : 16  
 **Rang** : 5  
-**Composants** : 250 Aura, 10 permanente Aura, 1 pot de bave de crapaud  
+**Composants** : 250 Aura, 10 Aura permanent, 1 pot de bave de crapaud  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] "Wurzeln der Magie"`  
+**Syntaxe** : `CAST [REGION x y] "Wurzeln der Magie"`  
 
 ## Tor in die Ebene der Hitze
 
@@ -422,6 +489,12 @@ Dieses mächtige Ritual öffnet ein Tor in die Elementarebene der Hitze. Eine gr
 **Rang** : 5  
 **Composants** : 800 Aura  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST \[REGION x y\] "Tor in die Ebene der Hitze"`  
+**Syntaxe** : `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
+
+[Ents]: ./monsters.md#ents "Ents"
+[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
+[bois]: ./resources.md#bois "Wood"
+[fer]: ./resources.md#fer "Iron"
+[pierre]: ./resources.md#pierre "Stone"

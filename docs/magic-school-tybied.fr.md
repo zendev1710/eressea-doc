@@ -6,27 +6,37 @@ alias: sorts-tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Magie analysieren
+## Analyze de la Magie
 
-**Description** :  
-Mit diesem Spruch kann der Magier versuchen, die Verzauberungen eines einzelnen angegebenen Objekts zu erkennen. Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können. Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
+<!-- cspell:disable -->
+*Analyze Magic (EN), Magie analysieren (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au mage de tenter de détecter les enchantements d'un seul objet spécifié.
+    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.
+    Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
+
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST [LEVEL n] "Magie analysieren" ( REGION | UNIT <Unit-id> [<Unit-id> ...] | SCHIFF <Schiff-id> | BURG <building-id> )`  
 
-## Schleieraura
+## Dissimulation d'aura
 
-**Description** :  
-Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern. Der Zauber schützt nicht vor Dieben und Spionen.  
+<!-- cspell:disable -->
+*Concealing Aura (EN), Schleieraura (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort masquera tout l'équipement de l'unité cible pendant un certain temps.
+
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST [LEVEL n] "Schleieraura" <Unit-id>`  
+**Syntaxe** : `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
 ## Wunderdoktor
 
@@ -35,7 +45,7 @@ Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten Tybi
 **Type** : sort normal  
 **Niveau** : 1  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
+**Composants** : N Aura  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST [LEVEL n] "Wunderdoktor"`  
 
@@ -46,8 +56,8 @@ Dieser Zauber legt ein antimagisches Feld um die Magier der Feinde und behindert
 **Type** : sort de pré-combat  
 **Niveau** : 2  
 **Rang** : 2  
-**Composants** : 3 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : 3 x N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Schutz vor Magie"`  
 
 ## Beute Bewahren
@@ -57,8 +67,8 @@ Dieser Zauber verhindert, dass ein Teil der sonst im Kampf zerstörten Gegenstä
 **Type** : sort de post-combat  
 **Niveau** : 3  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Beute Bewahren"`  
 
 ## Schutzzauber
@@ -68,42 +78,60 @@ Dieser Zauber verstärkt die natürliche Widerstandskraft gegen Magie. Eine so g
 **Type** : sort normal  
 **Niveau** : 3  
 **Rang** : 2  
-**Composants** : 5 Aura X niveau
+**Composants** : 5 x N Aura  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST [LEVEL n] "Schutzzauber" <Unit-id> [<Unit-id> ...]`  
 
-## Astraler Ausgang
+## Sortie de l'Astral
 
-**Description** :  
-Der Magier konzentriert sich auf die Struktur der Realität und kann so die astrale Ebene verlassen. Er kann insgesamt (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
+<!-- cspell:disable -->
+*Astral Exit (EN), Astraler Ausgang (DE)*.
+<!-- cspell:enable -->
+
+:   Le mage se concentre sur la structure de la réalité et peut ainsi quitter le plan Astral.
+    Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.
+    Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
+
 **Type** : sort normal  
 **Niveau** : 4  
 **Rang** : 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Astraler Ausgang" <x> <y> <Unit-id> [<Unit-id> ...]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
-## Astraler Weg
+## Voie de l'Astral
 
-**Description** :  
-Alte arkane Formeln ermöglichen es dem Magier, sich und andere in die astrale Ebene zu schicken. Der Magier kann (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
+<!-- cspell:disable -->
+*Astral Path (EN), Astraler Weg (DE)*.
+<!-- cspell:enable -->
+
+:   D'anciennes formules arcaniques permettent au mage de s'envoyer lui-même et les autres dans le plan Astral.
+    Le mage peut envoyer 15 kg par la porte brièvement créée.
+    Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
+
 **Type** : sort normal  
 **Niveau** : 4  
 **Rang** : 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Astraler Weg" <Unit-id> [<Unit-id> ...]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
-## Astrale Schwächezone
+## Antimagie
 
-**Description** :  
-Mit diesem Zauber kann der Magier eine Zone der astralen Schwächung erzeugen, ein lokales Ungleichgewicht im Astralen Feld. Dieses Zone wird bestrebt sein, wieder in den Gleichgewichtszustand zu gelangen. Dazu wird sie jedem in dieser Region gesprochenen Zauber einen Teil seiner Stärke entziehen, die schwächeren gar ganz absorbieren.  
+<!-- cspell:disable -->
+*Antimagic (EN), Astrale Schwächezone (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort le mage peut créer une zone d'affaiblissement Astral, un déséquilibre local dans le champ Astral.
+    Cette zone s'efforcera de revenir à l'équilibre.
+    Pour ce faire, il supprimera une partie de la force de chaque sort lancé dans cette région et même absorbera complètement les plus faibles.
+
 **Type** : sort normal  
 **Niveau** : 5  
 **Rang** : 2  
-**Composants** : 3 Aura X niveau
+**Composants** : 3 x N Aura  
 **Modificateurs** : sort à distance  
-**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Astrale Schwächezone"`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
 ## Auratransfer
 
@@ -116,16 +144,20 @@ Mit Hilfe dieses Zauber kann der Magier eigene Aura im Verhältnis 2:1 auf einen
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Auratransfer" <Unit-id> <Aura>`  
 
-## Magiefresser
+## Dévoreur de magie
 
-**Description** :  
-Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Unit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
+<!-- cspell:disable -->
+*Destroy Magic (EN), Magiefresser (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au mage de dissiper les enchantements sur une unité, un bateau, un bâtiment ou même une région.
+
 **Type** : sort normal  
 **Niveau** : 5  
 **Rang** : 2  
-**Composants** : 4 Aura X niveau
+**Composants** : 4 x N Aura  
 **Modificateurs** : sort à distance, sort de bateau  
-**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Magiefresser" ( REGION | UNIT <Unit-id> [<Unit-id> ...] | SCHIFF <Schiff-id> | BURG <building-id> )`  
+**Syntaxe** : `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> | CASTLE <building-id> )`  
 
 ## Schockwelle
 
@@ -134,20 +166,26 @@ Dieser Zauber läßt eine Welle aus purer Kraft über die gegnerischen Reihen hi
 **Type** : sort de combat  
 **Niveau** : 5  
 **Rang** : 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Schockwelle"`  
 
-## Astraler Ruf
+## Invocation de l'Astral
 
-**Description** :  
-Ein Magier, der sich in der astralen Ebene befindet, kann mit Hilfe dieses Zaubers andere Einheiten zu sich holen. Der Magier kann (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 13 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
+<!-- cspell:disable -->
+*Astral Call (EN), Astraler Ruf (DE)*.
+<!-- cspell:enable -->
+
+:   Un mage qui se trouve dans le plan Astral peut utiliser ce sort pour lui amener d'autres unités.
+    Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.
+    Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 13 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
+
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Astraler Ruf" <x> <y> <Unit-id> [<Unit-id> ...]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
 ## Erschaffe ein Amulett des wahren Sehens
 
@@ -156,7 +194,7 @@ Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaf
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
+**Composants** : 50 Aura, 3 000 silver, 1 Aura permanent  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe ein Amulett des wahren Sehens"`  
 
@@ -167,31 +205,42 @@ Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. De
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
+**Composants** : 50 Aura, 3 000 silver, 1 Aura permanent  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen Ring der Unsichtbarkeit"`  
 
-## Luftschiff
+## Dirigeable
 
-**Description** :  
-Diese magischen Runen bringen ein Boot oder Langboot für eine Woche zum Fliegen. Damit kann dann auch Land überquert werden. Für die Farbe der Runen muss eine spezielle Tinte aus einem Windbeutel und einem Schneekristall angerührt werden.  
+<!-- cspell:disable -->
+*Airship (EN), Luftschiff (DE)*.
+<!-- cspell:enable -->
+
+:   Ces runes magiques font voler un bateau ou une chaloupe pendant une semaine.
+    Cela peut alors également être utilisé pour traverser des terres.
+    Pour la couleur des runes, une encre spéciale doit être mélangée à partir d'un chou à la crème et d'un cristal de neige.
+
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 5  
-**Composants** : 10 Aura, 1 gousse, 1 Schneekristall  
+**Composants** : 10 Aura, 1 [gousse], 1 [pétale de cristal de neige]  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Luftschiff" <Schiff-id>`  
 
-## Ruf der Realität
+## Invocation de la Réalité
 
-**Description** :  
-Ein Magier, welcher sich in der materiellen Welt befindet, kann er mit Hilfe dieses Zaubers Einheiten aus der angrenzenden Astralwelt herbeiholen. Ist der Magier erfahren genug, den Zauber auf Stufen von 13 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen in die materielle Welt zwingen.  
+<!-- cspell:disable -->
+*Call of Reality (EN), Ruf der Realität (DE)*.
+<!-- cspell:enable -->
+
+:   Un mage qui se trouve dans le monde matériel peut utiliser ce sort pour invoquer des unités du monde Astral adjacent.
+    Si le mage est suffisamment expérimenté pour lancer le sort à des niveaux de 13 ou plus, il peut forcer d'autres unités à entrer dans le monde matériel contre leur gré.
+
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs** : *aucun*
-**Syntaxe** : `CAST [LEVEL n] "Ruf der Realität" <Unit-id> [<Unit-id> ...]`  
+**Composants** : 2 x N Aura  
+**Modificateurs** : *aucun*  
+**Syntaxe** : `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
 ## Stehle Aura
 
@@ -200,20 +249,25 @@ Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen d
 **Type** : sort normal  
 **Niveau** : 6  
 **Rang** : 3  
-**Composants** : 2 Aura X niveau
+**Composants** : 2 x N Aura  
 **Modificateurs** : sort à distance  
 **Syntaxe** : `CAST [REGION x y] [LEVEL n] "Stehle Aura" <Unit-id>`  
 
-## Erschaffe Antimagiekristall
+## Créer un [[antimagic-crystal|Antimagic Crystal]]
 
-**Description** :  
-Mit Hilfe dieses Zauber entzieht der Magier einem Quarzkristall all seine magischen Energien. Der Kristall wird dann, wenn er zu feinem Staub zermahlen und verteilt wird, die beim Zaubern freigesetzten magischen Energien aufsaugen und die Kraft aller Zauber reduzieren, welche in der betreffenden Woche in der Region gezaubert werden.  
+<!-- cspell:disable -->
+*Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
+<!-- cspell:enable -->
+
+:   À l'aide de ce sort, le mage draine un cristal de quartz de toutes ses énergies magiques.
+    Le cristal, une fois broyé en une fine poussière et dispersé, absorbera les énergies magiques libérées lors du lancement et réduira la puissance de tous les sorts lancés dans la région cette semaine-là.
+
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 5  
-**Composants** : 50 Aura, 3000 Silber  
+**Composants** : 50 Aura, 3 000 silver  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST "Erschaffe Antimagiekristall"`  
+**Syntaxe** : `CAST "Create An Antimagic Crystal"`  
 
 ## Fluch brechen
 
@@ -222,20 +276,25 @@ Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer 
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 3  
-**Composants** : 3 Aura X niveau
+**Composants** : 3 x N Aura  
 **Modificateurs** : sort à distance, sort de bateau  
 **Syntaxe** : `CAST [REGION x y] [LEVEL n] "Fluch brechen" ( REGION | UNIT <Unit-id> | SCHIFF <Schiff-id> | BURG <building-id> ) <Zauber-ID>`  
 
-## Mauern der Ewigkeit
+## Murs d'éternité
 
-**Description** :  
-Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern des Gebäudes. Ein solchermaßen verzaubertes building ist gegen den Zahn der Zeit geschützt und benötigt keinen Unterhalt mehr.  
+<!-- cspell:disable -->
+*Eternal Walls (EN), Mauern der Ewigkeit (DE)*.
+<!-- cspell:enable -->
+
+:   Avec cette formule, le mage lie pour toujours les forces de la terre dans les murs du bâtiment.
+    Un bâtiment ainsi enchanté est protégé contre les agressions du temps et ne nécessite plus aucun entretien.
+
 **Type** : sort normal  
 **Niveau** : 7  
 **Rang** : 5  
-**Composants** : 50 Aura, 1 permanente Aura  
+**Composants** : 50 Aura, 1 Aura permanent  
 **Modificateurs** : sort de bateau  
-**Syntaxe** : `CAST [LEVEL n] "Mauern der Ewigkeit" <building-id>`  
+**Syntaxe** : `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
 ## Runen des Schutzes
 
@@ -245,7 +304,7 @@ Zeichnet man diese Runen auf die Wände eines Gebäudes oder auf die Planken ein
 **Niveau** : 8  
 **Rang** : 2  
 **Composants** : 20 Aura  
-**Modificateurs** : *aucun*
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST "Runen des Schutzes" ( SCHIFF <Schiff-id> | BURG <building-id> )`  
 
 ## Schild des Fisches
@@ -255,19 +314,23 @@ Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Tru
 **Type** : sort de pré-combat  
 **Niveau** : 8  
 **Rang** : 2  
-**Composants** : 4 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : 4 x N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Schild des Fisches"`  
 
-## Beschleunigung
+## Accélération
 
-**Description** :  
-Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können.  
+<!-- cspell:disable -->
+*Acceleration (EN), Beschleunigung (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort accélère certains combattants de votre côté afin qu'ils puissent attaquer deux fois en un seul round de combat, tout au long du combat.  
+
 **Type** : sort de pré-combat  
 **Niveau** : 9  
 **Rang** : 5  
-**Composants** : 5 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : 5 x N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Beschleunigung"`  
 
 ## Erschaffe einen Ring der Macht
@@ -277,7 +340,7 @@ Dieses mächtige Ritual erschafft einen Ring der Macht. Ein Ring der Macht erhö
 **Type** : sort normal  
 **Niveau** : 9  
 **Rang** : 5  
-**Composants** : 100 Aura, 1 permanente Aura, 4000 Silber  
+**Composants** : 100 Aura, 1 Aura permanent, 4 000 silver  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen Ring der Macht"`  
 
@@ -289,7 +352,7 @@ Der Magier kann mit Hilfe dieses Zaubers aus der Astral- in die materielle Ebene
 **Niveau** : 10  
 **Rang** : 5  
 **Composants** : 40 Aura  
-**Modificateurs** : *aucun*
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST "Blick in die Realität"`  
 
 ## Erschaffe einen Beutel des Negativen Gewichts
@@ -299,7 +362,7 @@ Dieser Beutel umschließt eine kleine Dimensionsfalte, in der bis zu 200 Gewicht
 **Type** : sort normal  
 **Niveau** : 10  
 **Rang** : 5  
-**Composants** : 30 Aura, 1 permanente Aura, 5000 Silber  
+**Composants** : 30 Aura, 1 Aura permanent, 5 000 silber  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST "Erschaffe einen Beutel des Negativen Gewichts"`  
 
@@ -310,7 +373,7 @@ Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglich
 **Type** : sort normal  
 **Niveau** : 11  
 **Rang** : 5  
-**Composants** : 5 Aura X niveau
+**Composants** : 5 x N Aura  
 **Modificateurs** : sort de bateau  
 **Syntaxe** : `CAST [LEVEL n] "Zeitdehnung" <Unit-id> [<Unit-id> ...]`  
 
@@ -321,8 +384,8 @@ Diese vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzli
 **Type** : sort de pré-combat  
 **Niveau** : 12  
 **Rang** : 2  
-**Composants** : 4 Aura X niveau
-**Modificateurs** : *aucun*
+**Composants** : 4 x N Aura  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `COMBATSPELL [LEVEL n] "Rüstschild"`  
 
 ## Vertrauten rufen
@@ -332,8 +395,8 @@ Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnlich
 **Type** : sort normal  
 **Niveau** : 12  
 **Rang** : 5  
-**Composants** : 100 Aura, 5 permanente Aura  
-**Modificateurs** : *aucun*
+**Composants** : 100 Aura, 5 Aura permanent  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST "Vertrauten rufen"`  
 
 ## Belebtes Gestein
@@ -343,8 +406,8 @@ Dieses kräftezehrende Ritual beschwört mit Hilfe einer Kugel aus konzentrierte
 **Type** : sort normal  
 **Niveau** : 13  
 **Rang** : 5  
-**Composants** : 10 Aura \* Stufe, 1 permanente Aura, 5 Laen  
-**Modificateurs** : *aucun*
+**Composants** : 10 x N Aura, 1 Aura permanent, 5 [laen]  
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
 ## Störe Astrale Integrität
@@ -355,7 +418,7 @@ Dieser Zauber bewirkt eine schwere Störung des Astralraums. Innerhalb eines ast
 **Niveau** : 14  
 **Rang** : 4  
 **Composants** : 140 Aura  
-**Modificateurs** : *aucun*
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
 ## Opfere Kraft
@@ -366,7 +429,11 @@ Mit Hilfe dieses Zaubers kann der Magier einen Teil seiner magischen Kraft perma
 **Niveau** : 15  
 **Rang** : 1  
 **Composants** : 100 Aura  
-**Modificateurs** : *aucun*
+**Modificateurs** : *aucun*  
 **Syntaxe** : `CAST "Opfere Kraft" <Unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->
+
+[gousse]: ./herbs.fr.md#gousse "Windbag"
+[pétale de cristal de neige]: ./herbs.fr.md#petale-de-cristal-de-neige "Snowcrystal petal"
+[laen]: ./resources.md#laen "Laen"

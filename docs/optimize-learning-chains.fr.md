@@ -4,149 +4,280 @@ alias: chaines-d-apprentissage-optimisees
 ---
 # Chaînes d'apprentissage optimisées
 
-## Vorüberlegungen
+## Considérations préliminaires
 
-Als allererstes sollte man sich bei der Optimierung von Lernketten im klaren sein, welche Zuordnungen von Lehrern zu Schülern man bevorzugt. Erst dann kann man entweder ein Regelwerk erstellen (sogenanntes Expertenwissen) oder einen Optimierungsalgorithmus schreiben, der den besten oder zumindest einen möglichst guten Zustand (Zuordnungen von Lehrern und Schülern) erzeugt.
+La première chose que vous devez faire lors de l’optimisation des chaînes d’apprentissage est d’être clair sur les tâches que vous préférez des enseignants aux étudiants.
+Ce n'est qu'alors que vous pourrez soit créer un ensemble de règles (appelées connaissances d'experts), soit écrire un algorithme d'optimisation qui produit le meilleur ou au moins le meilleur état possible (devoirs des enseignants et des étudiants).
 
-Alle anderen Ansätze die ich bisher gesehen habe, gehören eher in die Kategorie Expertenwissen. Zu nennen seien hier das Techer-Plugin von Magellan oder auch die FF-Tools (2). Die Einheiten werden nach einem Kriterium sortiert und anschliessend abgearbeitet. Dabei werden Sukzessive die Zuordnungen erstellt. Eine Bewertung bzw. Vergleich verschiedener Möglichkeiten findet wenn dann nur auf unterster Ebene statt.
+Toutes les autres approches que j’ai vues jusqu’à présent appartiennent davantage à la catégorie des connaissances expertes.
+Le plugin `Teacher` de Magellan ou les outils FF (2) doivent être mentionnés ici.
+Les unités sont triées selon un critère puis traitées.
+Les affectations sont créées successivement.
+Une évaluation ou une comparaison des différentes options n'a lieu qu'au niveau le plus bas.
 
-Diese Vorgehensweise ist keineswegs schlecht, da sie gute Ergebnisse in einer super Zeit liefert. Ausserdem ist das Regelwerk klar und verständlich und niemand wird sich wundern, warum eine Zuordnung zustande gekommen ist.
+Cette approche n’est en aucun cas mauvaise car elle donne de bons résultats en un temps record.
+De plus, les règles sont claires et compréhensibles et personne ne sera surpris de la raison pour laquelle une mission a été confiée.
 
-Eine andere Möglichkeit möchte ich hier aber auch aufzeigen: Jeder Teilzustand lässt sich ähnlich wie bei der Wegfindung mit einer Kosten- bzw. Gewinn und einer Schätzfunktion bewerten. Somit lässt ein meist nicht erreichbares Optimum definieren, auf welches man versucht die Zuordnungen hin zu trimmen. Das Wichtigste dabei ist also als erstes die Kosten- bzw. Gewinnfunktion und daraus abgeleitet später die Schätzfunktion.
+Mais je voudrais également souligner ici une autre possibilité : chaque état partiel peut être évalué avec un coût ou un profit et une fonction d'estimation, similaire à la recherche d'itinéraire.
+Cela signifie qu'un optimum généralement inaccessible peut être défini auquel on essaie de réduire les affectations.
+La chose la plus importante est la fonction de coût ou de profit, puis la fonction d'estimation qui en dérive.
 
-## Kosten- Gewinnfunktion
+## Fonction Coût - Bénéfice
 
-Lernen verursacht Kosten, soweit ist das denke ich jedem klar. In Eressea ist es das Silber für den Unterhalt oder auch das für die teuren Talente. Wird man gelehrt, bleiben die Kosten zwar absolut gleich, aber der Lerneffekt ist grösser. Also kann man sagen die Kosten pro Lernwoche sinken auf die Hälfte - Richtig, nicht ganz, denn der Lehrer will ja auch bezahlt sein.
+L’apprentissage a un coût, je pense que c’est clair pour tout le monde.
+Dans Eressea c'est l'argent pour l'entretien ou pour les compétences coûteuses.
+Si l'on vous instruit, les coûts restent absolument les mêmes, mais l'effet d'apprentissage est plus grand.
+On peut donc dire que les coûts par semaine d'apprentissage sont réduits de moitié, mais pas complètement, car l'enseignant veut aussi être payé.
 
-Man kann auch anders rum herangehen und den Lerngewinn maximieren und davon ausgehen die Kosten sind konstant (was ja meist stimmt). Dieser Fall kommt uns entgegen, da lehren dann nicht mehr unendliche Kosten bedeutet (da wir ja nichts lernen).
+Vous pouvez également aborder les choses dans l'autre sens et maximiser le gain d'apprentissage et supposer que les coûts sont constants (ce qui est généralement vrai).
+Ce cas nous convient car enseigner ne signifie plus des coûts infinis (puisqu'on n'apprend rien).
 
-Eine einfache Gewinnfunktion könnte also folgende Werte pro Person zurückgeben (Beispiel 1):
+Ainsi, une simple fonction de profit pourrait renvoyer les valeurs suivantes par personne (exemple 1) :
 
-    Lehrer            = 0
-    Lernt ohne Lehrer = 1
-    Lernt mit Lehrer  = 2
+    Professeur            = 0
+    Apprendre sans professeur = 1
+    Apprendre avec le professeur  = 2
 
-Soviel kann ich bestätigen, diese Funktion tut was man erwartet - Sie sorgt dafür das möglichst viele Schüler einen Lehrer bekommen. Leider bewertet sie nicht die Talente von Lehrern oder Schülern und sorgt damit dafür, dass über kurz oder lang alle Einheiten innerhalb eines Bereiches von 2-3 Talentstufen sind. Es wird ebenfalls passieren, dass ein Lehrer eine 2 Personen Einheit lehrt.
+Je peux le confirmer, cette fonction fait ce à quoi vous vous attendez : elle garantit que le plus grand nombre d'étudiants possible ait un enseignant.
+Malheureusement, il n'évalue pas les compétences des enseignants ou des étudiants et garantit ainsi que, tôt ou tard, toutes les unités se situent dans une fourchette de 2 à 3 niveaux de compétence.
+Il arrive aussi qu'un professeur enseigne à une unité de 2 personnes.
 
-Es ist also wie anfangs erwähnt wichtig, sich über einige Grenzen im klaren zu werden. Dann müssen diese Grenze, die sich leider oft auch gegenteilig auswirken, in die Kostenfunktion integriert werden.
+Ainsi, comme mentionné au début, il est important d’être clair sur certaines limites.
+Ensuite, ces limites, qui ont malheureusement souvent l'effet inverse, doivent être intégrées dans la fonction de coût.
 
-### Grenzfälle für die Kostenfunktion
+### Cas limites pour la fonction de coût
 
-Als erstes sollte man festlegen wie viele Schüler ein Lehrer mindestens haben soll, selbst wenn der Talentunterschied lediglich 2 Stufen ist. Desweiteren sollte man klären bis zu welcher Stufe Rekruten gelehrt werden dürfen, d.h. ob T20er auch T0er lehren dürfen. Allgemeiner spezifiziert man, bis zu welcher Talentdifferenz in Abhängigkeit vom Talent des Lehrers wie viele Schüler mindestens gelehrt werden müssen, damit diese Zuordnung günstiger ist, als Lehrer und Schüler lernen zu lassen. Am besten erstellt man sich hier ein kleines Diagramm mit der gewünschten Linie/Kurve und entwickelt dann eine Funktion die diese möglichst gut abdeckt.
+La première chose à faire est de déterminer combien d’élèves un enseignant devrait avoir au moins, même si la différence de compétence n’est que de 2 niveaux.
+En outre, il convient de préciser jusqu'à quel niveau les recrues peuvent être formées, c'est-à-dire si les T20 peuvent également enseigner les T0.
+Plus généralement, on précise jusqu'à quelle différence de compétence, en fonction de la compétence de l'enseignant, combien d'élèves doivent être scolarisés au minimum pour que cette répartition soit plus favorable que de laisser apprendre enseignant et élève.
+La meilleure chose à faire ici est de créer un petit diagramme avec la ligne/courbe souhaitée puis de développer une fonction qui la couvre au mieux.
 
-Ich habe für mich folgende Funktion entwickelt:
+J'ai développé moi-même la fonction suivante :
 
     A = 1.2
     B = 15
     C = 0.34
-    Lehrer            = 0
-    Lernt ohne Lehrer = (A^Stufe + B) * (3^C)
-    Lernt mit Lehrer  = (A^Stufe + B) * (6^C)
+    Professeur            = 0
+    Apprendre sans professeur = (A^Level + B) * (3^C)
+    Apprendre avec le professeur  = (A^Level + B) * (6^C)
 
-Die Parameter A, B und C sind nach langen Tests und teils durch gleichsetzen diverser Formeln entstanden. Die Formel lässt sich problemlos auch fürGehirnschmalz und Akademienutzung verwenden, indem die 3, bzw. 6 durch die Anzahl der Lernversuche \* 3 ersetzt wird. Lernen mit Gehirnschmalz ergibt also (1 + 1/3) \* 3 = 4.
+Les paramètres A, B et C ont été créés après de longs tests et en partie en assimilant diverses formules.
+La formule peut également être facilement utilisée pour [l'huile de cervelle] et [l'académie] en remplaçant le 3 ou le 6 pour le nombre de tentatives d'apprentissage*3 est remplacé.
+Ainsi, apprendre avec la matière grise donne (1 + 1/3)*3 = 4.
 
-Wir man sich ausrechnen kann, ist lernen mit Lehrer durch Faktor C nicht doppelt so gewinnbringend wie ohne Lehrer, sondern nur ca. 27% mehr wert. Und dadurch, dass die Stufe als Potenz in die Formel eingeht, gewinnt man weit mehr wenn man 8 hochstufe Leute lehrt statt 10 Neulinge.
+Comme vous pouvez le calculer, apprendre avec un professeur grâce au facteur C n'est pas deux fois plus rentable que sans professeur, mais ne vaut qu'environ 27 % de plus.
+Et comme le niveau est inclus dans la formule comme une puissance, vous gagnez beaucoup plus si vous enseignez à 8 personnes de haut niveau au lieu de 10 débutants.
 
-## Schätzfunktion
+## Fonction d'estimateur
 
-Wie erwähnt sollte diese den Gewinn möglichst gut vorhersagen. Wichtig dabei ist, das Optimum nicht zu unterschätzen. Wo aber liegt unser Optimum? Offenbar können nicht alle Leute gelehrt werden, ohne dass es einen Lehrer gibt. D.h. wir können zwar für jede Einheit annehmen sie wird komplett gelehrt, müssen dann aber gleichzeitig das Minimum dessen abziehen, das ein Lehrer als Gewinn hätte erreichen können. Eine sehr gute Näherung dafür ergibt sich also aus:
+Comme mentionné, cela devrait prédire le mieux possible le profit.
+Il est important de ne pas sous-estimer l’optimum.
+Mais où est notre optimal ? Apparemment, tout le monde ne peut pas apprendre sans qu’il y ait un enseignant.
+Cela signifie que nous pouvons supposer que chaque unité est enseignée dans son intégralité, mais en même temps nous devons en déduire le minimum qu'un enseignant aurait pu réaliser comme profit.
+Une très bonne approximation de cela résulte de :
 
-    Geschätzter Gewinn = Lernt_mit_Lehrer(Stufe) - 0.1 * Lernt_mit_Lehrer(Stufe+2) + 0.01 * Lernt_mit_Lehrer(Stufe+4)
+`Bénéfice estimé = Learn_with_Teacher (Niveau) -0,1 *Learn_with_Teacher (Niveau + 2) + 0,01 *Learn_with_Teacher (Niveau + 4)`
 
-Damit liegen wir definitiv leicht über dem möglichen Optimum.
+Cela signifie que nous sommes définitivement légèrement au-dessus de l’optimum possible.
 
-## A\*-Suche
+## A* Recherche
 
-Die A\*-Suche ist sicher dem einen oder anderen aus der Wegfindung bekannt. Kurz gesagt gibt es einen oder mehrere Zielzustände viele Zwischenzustände und natürlich irgendwo auch einen Startzustand. Diese Zustände sind durch Kanten verbunden. Geht man eine Kante entlang verursacht man Kosten (oder erwirtschaftet Gewinn - je nach Betrachtung). Es wird also ein Pfad im Zustandsgraphen gesucht, der minimale Kosten verursacht oder maximalen Gewinn.
+Le A*-Search est probablement familier à certaines personnes en matière d'orientation.
+En bref, il y a un ou plusieurs états cibles, de nombreux états intermédiaires et bien sûr un état de départ quelque part.
+Ces états sont reliés par des arêtes.
+Si vous longez une bordure, vous encourez des coûts (ou générez des bénéfices, selon la façon dont vous le regardez).
+Un chemin est recherché dans le graphique d'état qui entraîne des coûts minimaux ou un profit maximum.
 
-Die A\*Suche optimiert die Suche im Graphen dadurch, das sie nicht alle möglichen Pfade durchsucht, sondern zielgerichtet solche Pfade beschreitet, die geringe geschätze Kosten / hohen geschätzten Gewinn zum Ziel haben.
+A*Search optimise la recherche dans le graphique en ne recherchant pas tous les chemins possibles, mais en recherchant spécifiquement les chemins qui ont des coûts estimés faibles/des bénéfices estimés élevés.
 
-Wie gut die A\*-Suche funktioniert, hängt daher stark von der Genauigkeit der Schätzfunktion ab. Genauigkeit mein, wie nah der Schätzwert am tatsächlich optimalen Wert liegt.
+La qualité du fonctionnement de A*-Search dépend donc fortement de la précision de l'estimateur.
+La précision signifie à quel point la valeur estimée est proche de la valeur optimale réelle.
 
-### Lernzustände
+### États d’apprentissage
 
-Schwierig ist es nun für dieses Fall der Lernsystemoptimierung die Zustände zu spezifizieren. Es gilt zu unterscheiden, ob eine Einheit Lernt oder Lehrt, wie viele Schüler sie hat, oder wie viele eigene Personen gelehrt werden. Schwieriger wird schon die Frage, ob es interessiert welche Schüler ein Lehrer hat. Haben die Lehrer die selbe Stufe ist es generell ja egal wer davon welchen Schüler lehrt. Praktisch ist das leider nicht so, da jeder Lehrer nur einen Schüler haben kann der von mehreren Lehrern gelehrt wird (der letzte nämlich), es sei denn man gibt bei jedem Lehrer alle Schüler an, aber das wollen wir ja auch nicht (doch es würde auf Serverseite wohl funktionieren).
+Il est désormais difficile de préciser les états pour ce cas d’optimisation du système d’apprentissage.
+Il est important de distinguer si une unité apprend ou enseigne, combien d'étudiants elle compte ou combien de ses propres personnes reçoivent l'enseignement.
+La question de savoir si vous vous souciez des élèves d'un enseignant devient plus difficile.
+Si les enseignants sont au même niveau, peu importe qui enseigne à quel élève.
+Malheureusement, ce n'est pas pratique, car chaque enseignant ne peut avoir qu'un seul élève qui est enseigné par plusieurs enseignants (à savoir le dernier), à moins que vous ne spécifiiez tous les élèves pour chaque enseignant, mais nous ne le voulons pas non plus (mais cela fonctionnerait probablement côté serveur).
 
-Bei der Konstruktion der Zustände muss man also aufpassen, dass man nicht zwei vergleichbare Zustände produziert, da damit der Suchraum viel grösser werden kann. Das kommt aber leider sehr oft vor, da nicht selten mehrere gleich gute und gleich grosse Lehrereinheiten existieren. Hier hilft es solche Lehrer nur in einer definierten Reihenfolge zuzulassen. Lehren sollte man solche Einheiten natürlich genau in der umgekehrten Reihenfolge wenn möglich.
+Lors de la construction des états, vous devez faire attention à ne pas produire deux états comparables, car cela pourrait élargir considérablement l’espace de recherche.
+Malheureusement, cela arrive très souvent, car il n'est pas rare qu'il y ait plusieurs unités d'enseignement de qualité égale et de taille égale.
+Il est utile ici de n'autoriser ces enseignants que dans un ordre défini.
+Bien entendu, ces unités devraient si possible être enseignées exactement dans l’ordre inverse.
 
-Was man recht schnell feststellt ist das die Zahl der Zustände (also Kombinationsmöglichkeiten) exponentiell wächst. Ohne A\*-Suche wäre ein Ergebnis gar nicht denkbar. Leider ist aber auch die A\*-Suche bei mehr als 10 Einheiten immer noch recht lange beschäftigt lässt man sie den allerbesten Zielzustand suchen.
+Ce que l’on remarque rapidement, c’est que le nombre d’états (c’est-à-dire les combinaisons possibles) augmente de façon exponentielle.
+Sans A*-Search, un résultat serait impensable.
+Malheureusement, la recherche A*de plus de 10 unités prend encore beaucoup de temps, vous les laissez rechercher le meilleur état cible.
 
-Erst durch "Scheuklappen" ist es mir gelungen den Algorithmus in annehmbarer Zeit zu einem sehr guten Ergebnis zu führen. Oft entspricht dieses Ergebnis dem Optimum. In einigen Fällen übersieht der Algorithmus aber Möglichkeiten. Das hängt mit dem Konstruktionsmechanismus der Zustände zusammen. Ich erzeuge für einen Lehrer nicht alle möglichen Kombinationen Schüler zu lehren, sondern nur solche in denen Top-Down die nächsten freien Einheiten gesucht werden. Das funktioniert i.A. recht gut, in Ausnahemfällen wird dadurch + die Scheuklappen aber ein besserer Zustand "übersehen".
+Ce n'est qu'avec des "oeillères" que j'ai réussi à obtenir un très bon résultat avec l'algorithme dans un laps de temps raisonnable.
+Ce résultat correspond souvent à l'optimum.
+Toutefois, dans certains cas, l’algorithme rate des opportunités.
+Cela tient au mécanisme de construction des États.
+Je ne crée pas toutes les combinaisons possibles pour qu'un enseignant enseigne aux élèves, mais uniquement celles dans lesquelles les prochaines unités libres sont recherchées de haut en bas.
+Cela fonctionne généralement assez bien, mais dans des cas exceptionnels, un meilleur état est « négligé ».
 
-## Statische Lernketten
+## Chaînes d'apprentissage statiques
 
-Bisher wurde besprochen, wie man vorhandene Einheiten als Lehrer/Schüler einplant. Nun soll es darum gehen, welche Einheiten-Struktur man bilden sollte, damit Lehren und Lernen möglichst gut aufeinander abgestimmt werden können. Im folgenden werden einige typische Lehrer-Schüler-Ketten vorgestellt und besprochen:
+Jusqu'à présent, nous avons discuté de la manière de planifier les unités existantes en tant qu'enseignants/étudiants.
+Il s'agit maintenant de savoir quelle structure d'unités vous devez créer afin que l'enseignement et l'apprentissage puissent être coordonnés au mieux.
+Certaines chaînes typiques enseignant-élève sont présentées et discutées ci-dessous :
 
-### Typische Lernketten
+### Chaînes d'apprentissage typiques
 
-- **Einfache Lehrer-Schüler-Kette** -- bestehend aus einer Lehrer-Einheit (L) und einer Schüler-Einheit (S) mit 10\*|L|=|S|. Die Lehrer lernen bis sie zwei Talentstufen Vorsprung haben, dann lehren sie die Schüler. Wenn die Schüler nicht lernen, gehen sie anderen Tätigkeiten nach.  
-  Nachteil: Geringes Lerntempo, Vorteile: es werden nur zwei Einheiten benötigt, leicht zu automatisieren. Sinnvoll bei Einheiten bei denen das Lernen nicht im Vordergrund steht, z.B. bei Bergleuten, die hauptsächlich nur lernen um tiefere Erzschichten zu erreichen, oder bei Steuereintreibern, die nach und nach ihre Kampffähigkeiten erhöhen, um kleinere Monstergruppen selbständig bekämpfen zu können.
-- **Pyramide** -- Weiterentwicklung der einfachen Lehrer-Schüler-Kette, bestehend aus einer Lehrer-Einheit (L) und mehreren Schichten Schüler-Einheiten (S1,S2,...) mit 10\*|L|=|S1|, 10\*|S1|=|S2| ...  
-  Geht es darum beim Lernen [teurer Talente] die Kosten zu minimieren, dann lernt der Lehrer und lehrt anschließend die erste Schüler-Einheit (S1). Diese lehren anschließend S2 usw. Schüler lernen dabei nur, wenn sie gelehrt werden. Das minimiert zwar die Kosten, schneller geht es aber, wenn die Schüler der Zwischen-Schichten auch dann lernen, wenn sie keinen Lehrer haben.  
-  Nicht sinnvoll hingegen ist es, wenn auch die *unterste* Schülerschicht ohne Lehrer lernt. Dies führt mittelfristig dazu, das so gut wie gar nicht mehr gelehrt wird, weil es keiner Schicht gelingt einen Talentvorsprung vor der nächst tieferen zu erreichen. Wenn man das will, kann man sich die ganze Pyramidenstruktur sparen und einfach eine Einheit ohne Lehrer lernen lassen.  
-  Je mehr Schichten eine Pyramide hat, desto schneller lernt sie. Da mit jeder Schicht die Anzahl der benötigten Personen um den Faktor 10 zunimmt, sind der Höhe der Pyramide allerdings Grenzen gesetzt.
-- **Pyramide mit Doppelspitze** -- Die Lehrer-Einheit an der Spitze einer Pyramide lernt mindestens zwei Drittel der Zeit und kann höchstens ein Drittel der Zeit lehren. Ideal wäre es hingegen, wenn die erste Schüler-Einheit die Hälfte der Zeit lernt (und in der anderen Hälfte ihr Wissen weitergibt). Das führt zu der Idee an der Spitze nicht nur eine Lehrer-Einheit sondern zwei zu verwenden.  
-  Die Hoffnung zwei Lehrer könnten dann abwechselnd zwei Drittel der Zeit lehren, erweißt sich als trügerisch. Aber eine Erhöhung der Lerngeschwindigkeit erreicht man damit schon. Genauere Analysen zeigen, dass eine Pyramide mit Doppelspitze das selbe Lerntempo erreicht, wie eine normale Pyramide, die eine Schicht mehr hat. Die Pyramide mit Doppelspitze ist dabei zwar etwas weniger effizient (d.h. die Personen haben relativ gesehen weniger Zeit etwas anderes außer Lernen zu machen), funktioniert dafür aber mit weniger Personen.
-- **5er-Pyramide** -- Die 5er Pyramide funktioniert wie der Name schon sagt mit einem Faktor 5 bei den Einheitengrössen. Dafür lehrt ein Lehrer immer 2 Einheiten und kommt so auf seine 10-fache Schülerzahl. Dieses System lässt sich über beliebig viele Ebenen staffeln. Die oberste Ebene erhält idealerweise 6 Einheiten gleicher Grösse. Die zweite Ebene 3 Einheiten mit 5-facher Grösse, die dritte Ebene 3 Einheiten 25-facher Grösse. Von den Zwischenebenen lehrt jeweils eine Einheit und 2 werden gelehrt. In der oberste Ebene Lehrt einer und die anderen 5 Einheiten lernen ohne Lehrer, dafür mit Gehirnschmalz und/oder Akademie.
-- **Lernen von zwei Talenten** -- Kampfeinheiten (S) lernen in der Regel zwei Talente, ihr [Waffentalent und Ausdauer]. Es erweist sich als sinnvoll dafür auch verschiedene Lehrer (L\_K,L\_A) zu verwenden.  
-  Prinzipiell hat man zwei Möglichkeiten: Die Lehrer sind Spezialisten und lernen nur ein Talent. Das ist zwar von der Lerngeschwindigkeit her günstiger, dafür sind solche Spezialisten im Kampffall sehr anfällig (bzw. nicht zu gebrauchen). Alternativ wählt man |S|=9\*|L\_K|=9\*|L\_A|. L\_K lernt das Kampftalent und lehrt dann S und L\_A. L\_A lernt Ausdauer und lehrt dann S und L\_K.
-- Pyramiden mit zwei Talenten -- Hier gibt es zahllose Kombinationsmöglichkeiten. Die größten Lerngeschwindigkeiten erzielt man, wenn außer der untersten Schicht alle doppelt besetzt sind, also z.B. L\_K,L\_A,S1\_K,S1\_A,S2\_K,S2\_A,S3. Dafür benötigt man natürlich auch viele Einheiten.
+- **Chaîne simple enseignant-élève** -- constitué d'une unité enseignant (L) et d'une unité étudiant (S) avec 10*|L|=|S|.
+  Les enseignants apprennent jusqu'à ce qu'ils aient deux niveaux d'avance, puis ils enseignent aux étudiants.
+  Lorsque les étudiants n'étudient pas, ils font d'autres activités.
+  Inconvénient : rythme d'apprentissage lent, avantages : seulement deux unités sont nécessaires, facile à automatiser.
+  Utile pour les unités où l'apprentissage n'est pas une priorité, par ex. pour les mineurs qui apprennent principalement à atteindre des couches de minerai plus profondes, ou pour les collecteurs d'impôts qui augmentent progressivement leurs compétences de combat afin de pouvoir combattre de manière indépendante de plus petits groupes de monstres.
+- **Pyramide** --Poursuite du développement de la chaîne simple enseignant-élève, composée d'une unité enseignant (L) et de plusieurs couches d'unités élèves (S1, S2,...) avec 10*|L|=|S1|, 10*|S1|=|S2|... 
+  Si l'objectif est de minimiser les coûts d'apprentissage des [compétences coûteuses], alors l'enseignant apprend puis enseigne à la première unité d'élèves (S1).
+  Ceux-ci enseignent ensuite S2, etc. Les étudiants n'apprennent que lorsqu'on leur enseigne.
+  Même si cela minimise les coûts, cela est plus rapide si les élèves des classes intermédiaires apprennent même s'ils n'ont pas d'enseignant.
+  Cependant, cela n'a aucun sens si cela aussi*le plus bas*Les étudiants apprennent sans professeur.
+  À moyen terme, cela signifie qu'il n'y aura pratiquement aucun enseignement, car aucun niveau ne pourra obtenir un avantage en termes de compétence par rapport au niveau immédiatement inférieur.
+  Si vous le souhaitez, vous pouvez ignorer toute la structure pyramidale et simplement faire apprendre une unité sans enseignant.
+  Plus une pyramide comporte de couches, plus elle apprend vite.
+  Étant donné que le nombre de personnes nécessaires augmente d’un facteur 10 à chaque quart de travail, il existe des limites à la hauteur de la pyramide.
+- **Pyramide à double sommet** --L'unité enseignante située au sommet d'une pyramide apprend au moins les deux tiers du temps et peut enseigner au maximum un tiers du temps. 
+  Cependant, l'idéal serait que la première unité d'étudiants apprenne la moitié du temps (et transmette ses connaissances dans l'autre moitié).
+  Cela conduit à l’idée d’utiliser non pas une seule unité enseignant au sommet mais deux.
+  L’espoir que deux enseignants puissent ensuite enseigner à tour de rôle les deux tiers du temps s’avère trompeur.
+  Mais vous pouvez augmenter la vitesse d’apprentissage.
+  Des analyses plus détaillées montrent qu'une pyramide à double sommet atteint la même vitesse d'apprentissage qu'une pyramide normale comportant une couche supplémentaire.
+  La pyramide à double sommet est un peu moins efficace (c’est-à-dire que les gens ont relativement moins de temps pour faire autre chose que étudier), mais elle fonctionne avec moins de personnes.
+- **Pyramide de 5** --La pyramide à 5 fonctionne comme son nom l'indique avec un facteur 5 en tailles d'unités.
+En contrepartie, un enseignant enseigne toujours 2 unités et dispose ainsi de 10 fois plus d'élèves.
+  Ce système peut être échelonné sur plusieurs niveaux.
+  Le niveau supérieur comporte idéalement 6 logements de même taille.
+  Le deuxième niveau comporte 3 unités de 5 fois la taille, le troisième niveau comporte 3 unités de 25 fois la taille.
+  Une unité enseigne chacun des niveaux intermédiaires et deux sont enseignées.
+  Au niveau supérieur, une personne enseigne et les 5 autres unités apprennent sans professeur, mais avec la puissance cérébrale et/ou une académie.
+- **Apprendre de deux compétences** --Les unités de combat (S) apprennent généralement deux compétences, leur [compétences d'arme et leur Endurance].
+  Il s'avère également utile à divers enseignants (L_K, L_A).
+  En principe, vous avez deux options : Les professeurs sont des spécialistes et n'apprennent qu'une seule compétence.
+  Bien que cela soit meilleur en termes de vitesse d'apprentissage, ces spécialistes sont très vulnérables (voire inutilisables) en cas de combat.
+  Vous pouvez également choisir |S|=9*|L_K|=9*|L_A|.
+  L_K apprend la compétences de combat puis enseigne S et L_A
+  L_A apprend l'endurance puis enseigne S et L_K
+- Pyramides à deux compétences --Il existe ici d'innombrables combinaisons possibles.
+  Les vitesses d'apprentissage les plus élevées sont atteintes lorsque toutes les couches sauf la plus basse sont doublées, par ex. L_K,L_A,S1_K,S1_A,S2_K,S2_A,S3.
+  Bien entendu, cela nécessite également de nombreuses unités.
 
 ### Lernketten-Analyse
 
-Bei der Beurteilung einer Lernkette spielen vier Faktoren eine Rolle: Mit welcher *Geschwindigkeit* lernt sie (gemessen in Lernversuche/Woche)? Wie *effektiv* ist sie, d.h. wie viel Zeit haben die Personen um etwas anderes zu machen, außer zu lernen? Wie viele *Einheiten* benötigt man? Wie viele *Personen* benötigt man?  
-Junge Parteien etwa können keine 5-stufigen Pyramiden aufbauen, weil sie gar nicht so viele Leute haben. Ältere Parteien müssen wegen des Einheiten-Limit ihre Ketten vereinfachen. Produktions-Einheiten wollen viel Zeit zum Arbeiten haben und nur dann lernen, wenn es sich wirklich lohnt usw.  
-Mit ein paar Vereinfachungen und etwas Mathematik, kann man Lernketten bezüglich dieser vier Faktoren gut analysieren.
+Quatre facteurs jouent un rôle lors de l’évaluation d’une chaîne d’apprentissage : Lequel*Vitesse*est-ce qu'elle apprend (mesurée en tentatives d'apprentissage/semaine) ? Comme*efficace*est-ce vrai, c'est-à-dire de combien de temps les gens disposent-ils pour faire autre chose que étudier ? Combien*Unités*as-tu besoin ? Combien*les gens*as-tu besoin ?
+Les jeunes partis, par exemple, ne peuvent pas construire de pyramides à cinq niveaux parce qu'ils n'ont pas beaucoup de monde.
+Les partis plus âgés doivent simplifier leurs chaînes en raison de la limite d'unités.
+Les unités de production veulent avoir beaucoup de temps pour travailler et n'apprendre que lorsque cela en vaut vraiment la peine, etc. Avec quelques simplifications et un peu de mathématiques, vous pouvez facilement analyser les chaînes d'apprentissage concernant ces quatre facteurs.
 
-**Vereinfachungen:** 1) Alle Einheiten brauchen gleich lang, um die nächste Stufe zu erreichen. Tatsächlich gibt es zufällige Schwankungen in der Lerndauer bis zur nächsten Stufe und Lehrer müssen etwas mehr lernen als Schüler, weil sie sich auf einer höheren Talent-Stufe befinden.  
-2) Die Zeit lässt sich beliebig fein unterteilen. Tatsächlich kann man nur Wochenweise lehren./cmd-learn.md. Praktisch ist diese Unterteilung auch fein genug.  
-3) "Lehren" und "gelehrt werden" behindern sich nicht gegenseitig. Denkbar sind Situationen wie: S2 könnte bei S1 lernen, aber auch S3 lehren; S1 kann nicht bei L lernen und S3 kann nicht S4 lehren. Da S2 nicht beides gleichzeitig machen kann, muss entweder S1 oder S3 ohne Lehrer lernen, wobei Zeit verschwendet wird. Tatsächlich können solche Situationen aber (fast) nur in der Startphase auftreten. Damit solch eine Konstellation "von alleine" entsteht, müsste S1 in einer Woche zwei Talentstufen nach oben geklettert sein, was ja doch eher unwahrscheinlich ist.
+ **Simplifications :**
 
-**Beispielrechnung** für eine Pyramide mit drei Stufen (L,S1,S2): Für jede Einheit ist angegeben, welchen Anteil ihrer Zeit sie damit verbringt gelehrt zu werden / ohne Lehrer zu lernen / zu lehren / etwas anderes zu tun.
+1. Toutes les unités mettent le même temps pour atteindre le niveau suivant.
+  En fait, il y a des fluctuations aléatoires dans le temps d'apprentissage jusqu'au niveau suivant et les enseignants doivent apprendre un peu plus que les étudiants car ils ont un niveau de compétence plus élevé.
+2. Le temps peut être divisé en petits détails.
+  En fait, vous ne pouvez enseigner que chaque semaine.
+  En pratique, cette division est également assez fine.
+3. « Enseigner » et « être enseigné » n’interfèrent pas l’un avec l’autre. 
+  Des situations telles que : S2 pourrait apprendre de S1, mais aussi enseigner à S3 ; S1 ne peut pas apprendre de L et S3 ne peut pas enseigner S4.
+  Puisque S2 ne peut pas faire les deux en même temps, S1 ou S3 doivent apprendre sans professeur, ce qui leur fait perdre du temps.
+  En fait, de telles situations ne peuvent (presque) se produire que dans la phase de démarrage.
+  Pour qu'une telle constellation naisse "d'elle-même", il faudrait que S1 ait gravi deux niveaux de compétence en une semaine, ce qui est plutôt improbable.
 
-- L kann nicht gelehrt werden. Der Anteil der Zeit in der L lernt sei x. Er lehrt also 1-x. Ergibt: \[0 / x / 1-x / 0\].
-- S1 wird 1-x von L gelehrt und lernt y ohne Lehrer. Um genauso schnell wie L zu lernen muss 2\*(1-x)+y=x sein. Also ist y=3\*x-2. Die restliche Zeit \[1-(1-x)-(3x-2)=2-2x\] lehrt S1. Ergibt \[1-x / 3x-2 / 2-2x / 0\].
-- S2 wird 2-2x von S1 gelehrt die restliche Zeit (1-(2-2x)=2x-1) macht er irgendwas anderes. Ergibt \[2-2x / 0 / 0 / 2x-1\].
-- Damit alle gleich schnell lernen, muss x = 2\*(2-2x) sein, also x=4/5. Die Lerngeschwindigkeit ist also 4/5. Die Zeit, die nicht fürs Lernen gebraucht wird (gewichtet mit der Einheitengröße) ist (100\*3/5+10\*0+1\*0)/111=0.540540... Benötigt werden drei Einheiten und 111 Personen. Im folgenden geben wir das als 4-Tupel (0.8000, 0.5405, 3, 111) an.
+**Exemple de calcul**  
+pour une pyramide à trois niveaux (L,S1,S2) : pour chaque unité, il est indiqué quelle proportion de son temps elle passe à enseigner/apprendre sans professeur/enseigner/faire autre chose.
 
-Im Vergleich dazu die selbe Rechnung unter der Annahme, dass jede Schicht 10% weniger lernen muss, als die nächst-höhere.
+- L ne peut pas être enseigné 
+  Soit x la proportion de temps pendant laquelle L apprend.
+  Alors il enseigne 1-x.
+  Résultat : [0/x/1-x/0].
+- S1 est enseigné 1-x par L et apprend y sans professeur. 
+  Pour apprendre aussi vite que L, vous devez faire 2*(1-x)+y=x.
+  Donc y=3*x-2.
+  Le reste du temps[1-(1-x)-(3x-2)=2-2x]enseigne S1.
+  Rendements[1-x /3x-2 /2-2x /0].
+- S2 apprend 2-2x par S1, le reste du temps (1-(2-2x)=2x-1) il fait autre chose. 
+  Rendements[2-2x /0 /0 /2x-1].
+- Pour que tout le monde apprenne à la même vitesse, x = 2*(2-2x), donc x=4/5. 
+- La vitesse d'apprentissage est donc de 4/5 
+- Le temps non utilisé pour l'apprentissage (pondéré par la taille de l'unité) est de (100*3/5+10*0+1*0)/111=0,540540... 
+  Trois unités et 111 personnes sont nécessaires
+  Ci-dessous, nous spécifions cela sous la forme d'un 4-tuple (0,8000, 0,5405, 3, 111).
 
-- L kann nicht gelehrt werden. Der Anteil der Zeit in der L lernt sei x. Er lehrt also 1-x. Ergibt: \[0 / x / 1-x / 0\].
-- S1 wird 1-x von L gelehrt und lernt y ohne Lehrer. Da S1 10% weniger lernen muss als L, gilt: 2\*(1-x)+y= 0.9x . Also ist y=2.9x-2. Die restliche Zeit \[1-(1-x)-(2.9x-2)=2-1.9x\] lehrt S1. Ergibt \[1-x / 2.9x-2 / 2-1.9x / 0\].
-- S2 wird 2-1.9x von S1 gelehrt die restliche Zeit (1-(2-1.9x)=1.9x-1) macht er irgendwas anderes. Ergibt \[2-1.9x / 0 / 0 / 1.9x-1\].
-- Damit S2 0.9\*0.9=0.81 mal so schnell wie L lernt, muss 0.81x = 2\*(2-1.9x) sein, also x=0.8677. Die Lerngeschwindigkeit von L ist also 0.8677, die von S1 ist 0.7809 und die von S2 ist 0.7028. Im Durchschnitt macht das 0.7113. Die Zeit, die nicht fürs Lernen gebraucht wird (gewichtet mit der Einheitengröße) ist (100\*0.6486+10\*0+1\*0)/111=0.5843.
+En comparaison, le même calcul suppose que chaque niveau doit apprendre 10 % de moins que le niveau supérieur suivant.
 
-Man sieht einen deutlichen Unterschied in der errechneten Lerngeschwindigkeit (0.7113 zu 0.8000). Die absolute Größe der im Folgenden angegeben Werte sollte man also nicht auf die Goldwage legen. Interessanter ist der Vergleich untereinander (A ist schneller als B)
+- L ne peut pas être enseigné.
+  Soit x la proportion de temps pendant laquelle L apprend.
+  Alors il enseigne 1-x.
+  Résultat : [0/x/1-x/0].
+- S1 est enseigné 1-x par L et apprend y sans professeur. 
+  Puisque S1 doit apprendre 10 % de moins que L, ce qui suit s'applique : 2*(1-x)+y= 0.9x .
+  Donc y=2,9x-2.
+  Le reste du temps[1-(1-x)-(2.9x-2)=2-1.9x]enseigne S1.
+  Rendements[1-x /2,9x-2 /2-1,9x /0].
+- S2 apprend 2-1,9x par S1 le reste du temps (1-(2-1,9x)=1,9x-1), il fait autre chose. 
+  Rendements[2-1,9x /0 /0 /1,9x-1].
+- Pour que S2 0.9*0,9 = 0,81 fois plus vite que L apprend, doit être 0,81x = 2*(2-1,9x), donc x=0,8677. 
+  Ainsi la vitesse d’apprentissage de L est de 0,8677, celle de S1 est de 0,7809 et celle de S2 est de 0,7028.
+  En moyenne, cela fait 0,7113.
+  Le temps non utilisé pour l'apprentissage (pondéré par la taille de l'unité) est de (100*0,6486+10*0+1*0)/111=0,5843.
 
-Hier nun eine **Übersicht der Lernketten-Analyse** für die oben genannten Beispiele.
+Vous pouvez voir une nette différence dans la vitesse d'apprentissage calculée (0,7113 à 0,8000).
+La taille absolue des valeurs indiquées ci-dessous ne doit pas être prise à la légère.
+La comparaison entre eux est plus intéressante (A est plus rapide que B)
 
-- L-S-Kette (Pyramide mit 2 Schichten): (0.6667, 0.6061, 2, 11)
-- Pyramide mit 3 Schichten, die Zwischenschicht lernt nicht ohne Lehrer: (0.6667, 0.6306, 3, 111). Mit jeder weiteren Schicht nähert sich der Anteil der nicht mit Lernen verbrachten Zeit der Marke 0.6333. Die Lerngeschwindigkeit bleibt gleich.
-- Pyramide mit 3 Schichten, die Zwischenschicht lernt auch ohne Lehrer: (0.8000, 0.5405, 3, 111).
-- Pyramide mit 4 Schichten, die Zwischenschichten lernen auch ohne Lehrer: (0.8571, 0.5143, 4, 1111).
-- Pyramide mit 5 Schichten, die Zwischenschichten lernen auch ohne Lehrer: (0.8889, 0.5000, 5, 11111).
-- Pyramide mit 2 Schichten und Doppelspitze: (0.8000, 0.5000, 3, 12). Zusätzliche Spitzen wirken so ähnlich wie zusätzliche Schichten in einer Pyramide. Die Effizienz ist etwas geringer, dafür werden weniger Personen benötigt.
-- Zwei Lehrer (für verschiedene Talente) die jeweils den anderen und eine Schüler-Einheit lehren: (1.0000, 0.4091, 3, 11).
-- Zwei Lehrer (für verschiedene Talente) die jeweils nur die Schüler-Einheit lehren: (1.2222, 0.2778, 3, 12). Die Schüler lernen dabei mit Geschwindigkeit 4/3, die Lehrer nur mit 2/3.
-- Lehren drei Lehrer drei Verschiedene Talente, dann können die Schüler (fast) immer mit Lehrer lernen. Leider gibt es nur wenige Fälle, in denen man drei Talente dauerhaft lernen will.
+Maintenant en voici un **Aperçu de l’analyse de la chaîne d’apprentissage** pour les exemples ci-dessus.
 
-### Weitere Einflüsse auf die Geschwindigkeit
+- Chaîne L-S (pyramide à 2 couches) : (0,6667, 0,6061, 2, 11) 
+- Pyramide à 3 couches, la couche intermédiaire n'apprend pas sans professeur : (0,6667, 0,6306, 3, 111). 
+  À chaque quart de travail supplémentaire, la proportion de temps non consacré aux études approche 0,6333.
+  La vitesse d'apprentissage reste la même.
+- Pyramide à 3 couches, la couche intermédiaire apprend même sans professeur : (0,8000, 0,5405, 3, 111). 
+- Pyramide à 4 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8571, 0,5143, 4, 1111). 
+- Pyramide à 5 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8889, 0,5000, 5, 11111). 
+- Pyramide à 2 couches et double pointe : (0,8000, 0,5000, 3, 12). 
+  Les pics supplémentaires agissent de la même manière que les couches supplémentaires d’une pyramide.
+  L'efficacité est légèrement inférieure, moins de personnes sont nécessaires.
+- Deux enseignants (pour des compétences différentes) enseignant chacun l'un à l'autre et une unité d'étudiants : (1,0000, 0,4091, 3, 11). 
+- Deux professeurs (pour des compétences différentes) qui enseignent chacun uniquement à l'unité étudiante : (1,2222, 0,2778, 3, 12). 
+  Les élèves apprennent à une vitesse de 4/3, les professeurs seulement à 2/3.
+- Si trois professeurs enseignent trois compétences différentes, les élèves peuvent (presque) toujours apprendre avec le professeur. 
+  Malheureusement, il n'y a que quelques cas dans lesquels vous souhaitez apprendre trois compétences de manière permanente.
 
-Die obigen Anaylsen zeigen wie man aus 100% Zeit mehr Zeit rausholen kann, indem man die lehren nutzt und dabei meist eine Reduzierung der Lerngeschwindigkeit in Kauf nimmt. Für bestimmte Talente ist es aber von enormer Wichtigkeit diese möglichst gut zu beherrschen und trotzdem noch ausreichend Schüler lehren zu können. Ziel ist daher die Lerngeschwindigkeit über 100% (= Immer lernen ohne Lehrer) zu heben.
+### Autres influences sur la vitesse
 
-Bekannt sind die Steigerung durch Akademie und Gehirnschmalz. Sie wirken sich beim Lernen ohne Lehrer jeweils zu 1/3 aus, d.h. beide zusammen ergeben eine Lerngeschwindigkeit von 166%.
+Les analyses ci-dessus montrent comment gagner plus de temps sur 100% en utilisant les leçons et en acceptant généralement une réduction de la vitesse d'apprentissage.
+Cependant, pour certaines compétences, il est extrêmement important de les maîtriser au mieux tout en étant capable d'enseigner à suffisamment d'élèves.
+L'objectif est donc d'augmenter la vitesse d'apprentissage au-dessus de 100 % (= toujours apprendre sans professeur).
 
-Weitere Einflussfaktoren die die maximale Lerngeschwindigkeit steigern sind Rassen, Terrain und Vertraute. Hierbei wird sich zu nutzen gemacht, dass je nach "Zustand" das Talent schwankt und damit durch ändern des Zustands eine Einheit vom Lehrer zum Schüler werden kann. Bestes Beispiel dafür sind Insekten, die so in Kombination mit anderen Rassen jedes Talent pushen können.
+L'augmentation grâce à l'académie et à la cire cérébrale est connue.
+Ils ont chacun un effet d'un tiers lors de l'apprentissage sans professeur, c'est-à-dire que les deux aboutissent ensemble à une vitesse d'apprentissage de 166 %.
 
-Ohne zu sehr ins Detail zu gehen, halten wir fest die maximale Lerngeschwindigkeit der besten Einheiten kann über 100% liegen. Damit müssen obige Betrachtungen noch erweitert werden.
+D'autres facteurs d'influence qui augmentent la vitesse d'apprentissage maximale sont les courses, le terrain et les familiers.
+Cela profite du fait que la compétence fluctue en fonction de la « condition » et qu'en changeant la condition, une unité peut passer d'un enseignant à un élève.
+Le meilleur exemple en est les insectes, qui peuvent développer toutes les compétences en combinaison avec d'autres races.
 
-#### 5er Pyramide
+Sans trop entrer dans les détails, notons que la vitesse d’apprentissage maximale des meilleures unités peut dépasser 100 %.
+Les considérations ci-dessus doivent donc être développées.
 
-Gehen wir von einer Akademie und Gehirnschmalz für die 6 Lehrer-Einheiten aus. So erhalten wir 5/3=166%. Beim lehren gibt es keinen Lernfortschritt (Schüler nicht in Akademie) daher 0/3 = 0% in dem Fall. Ein Lehrer lehrt, 5 Lernen -&gt; 1/6 \* 0/3 + 5/6 \* 5/3= 0 + 25/18 = 139%. Die nächste Ebene mit 3 Lehrereinheiten teilt sich in 2 lernende und 1 lehrende auf: 2/3 \* 6/3 + 1/3 \* 0% = 4/3 = 133% Das ist leicht langsamer, aber am Ende doch schneller, da jede Ebene etwa 10% weniger lernen muss, wie oben schon erwähnt. 1-2 weitere solche Zwischenebenen sind möglich und verfünffachen so jeweils die Zahl der möglichen Schüler.
+#### 5 pyramide
 
-Beginnt man mit 2er Einheiten an der Spitze so füllen diese eine Akademie zur Hälfte - brauchen aber auch viel Gehirnschmalz. Die erste Zwischenebene hat dann 3 Einheiten á 10 Personen, die zweite 3 Einheiten mit je 50 Personen. Die dritte und wohl meist letzte Zwischenebene hat 250 Personen pro Einheit und kann so 2500 Personen auf einmal ausbilden - mit 200%, d.h. die Schüler holen auf. Sonst wären es 3750 die mit 133% hochgelehrt werden können. d.h. nach Abzug einiger Prozente für die Stufenunterschiede sollten 4000 Schüler möglich sein.
+Supposons une académie et des ressources intellectuelles pour les 6 unités d'enseignants.
+On obtient donc 5/3=166%.
+Lors de l'enseignement il n'y a pas de progrès dans l'apprentissage (élèves non scolarisés) donc 0/3 = 0% dans ce cas.
+Un professeur enseigne, 5 apprentissage -> 1/6*0/3 + 5/6*5/3 = 0 + 25/18 = 139 %.
+Le niveau suivant comportant 3 unités d'enseignement est divisé en 2 apprentissages et 1 enseignement : 2/3*6/3 + 1/3*0% = 4/3 = 133% C'est légèrement plus lent, mais finalement plus rapide car chaque niveau a environ 10 % de moins à apprendre, comme mentionné ci-dessus.
+Un à deux niveaux intermédiaires supplémentaires sont possibles, chacun multipliant par cinq le nombre d'étudiants possibles.
+
+Si vous commencez avec deux unités au sommet, elles rempliront la moitié d’une académie – mais elles nécessitent également beaucoup de puissance cérébrale.
+Le premier niveau intermédiaire comprend alors 3 unités de 10 personnes chacune, le deuxième comporte 3 unités de 50 personnes chacune.
+Le troisième et sans doute dernier niveau intermédiaire compte 250 personnes par unité et peut donc former 2500 personnes d'un coup -à 200%, c'est à dire que les étudiants rattrapent leur retard.
+Sinon, il y en aurait 3750 qui pourraient être enseignés jusqu'à 133 %.
+c'est-à-dire qu'après avoir déduit quelques pourcentages pour les différences de niveaux, 4000 étudiants devraient être possibles.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
 
-[teurer Talente]: ./skills.md
-[Waffentalent und Ausdauer]: ./skills-list.md
+[compétences coûteuses]: ./skills.md
+[compétences d'arme et leur Endurance]: ./skills-list.md
+[l'huile de cervelle]: ./alchemy.md#huile-de-cervelle "Brain wax"
+[l'académie]: ./buildings-others.md#academie "Academy"

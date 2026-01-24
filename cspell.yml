@@ -96,8 +96,8 @@ ignorePaths:
   - ./node_modules
   - ./mkdocs.yml
   - ./Taskfile.yml
-  #- ./docs/*.fr.md
-  #- ./docs/*.de.md
+  - ./docs/*.fr.md
+  - ./docs/*.de.md
 
 files:
-  - ./docs/*.fr.md
+  - ./docs/*.md

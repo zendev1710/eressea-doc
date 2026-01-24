@@ -38,18 +38,18 @@ Quoi qu'il en soit, cela aura un impact sur le monde que tu peux décrire et don
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
 ![Eressea orders](assets/images/orders-example.jpg "Eressea orders")
 
-Dans Eressea, tu envoies un *train d'ordres* à intervalles réguliers.  
-Un train est composé d'[ordres] que les unités de ta faction dans ce monde vont exécuter du mieux qu'elles peuvent.  
-Un train ressemble à un programme informatique, afin que le *serveur*, le programme informatique qui connaît l'état du monde, puisse l'évaluer ainsi que les trains de tous les autres joueurs et calculer le nouvel état du monde.  
-Le rythme des trains est d'un par semaine, la date limite de remise des trains, Due Date (ZAT pour les joueurs allemands) est le samedi soir à 21h00 (CET).  
-En réponse à ton *train d'ordres*, tu reçois un *rapport* qui contient l'état du monde connu de ta faction.  
-Le rapport se compose de plusieurs parties : un *[NR]* (rapport normal), qui présente le rapport sous une forme facile à lire pour les humains.  
+Dans Eressea, tu envoies un lot d'ordres à intervalles réguliers.  
+Un lot est composé d'[ordres] que les unités de ta faction dans ce monde vont exécuter du mieux qu'elles peuvent.  
+Un lot ressemble à un programme informatique, afin que le serveur, le programme informatique qui connaît l'état du monde, puisse l'évaluer ainsi que les lots d'ordres de tous les autres joueurs et calculer le nouvel état du monde.  
+Le rythme des lots est d'un par semaine, la date limite de remise des lots d'ordres, Due Date (ZAT pour les joueurs allemands) est le samedi soir à 21h00 (CET).  
+En réponse à ton **lot d'ordres**, tu reçois un **rapport** qui contient l'état du monde connu de ta faction.  
+Le rapport se compose de plusieurs éléments : un *[NR]* (rapport normal), qui présente le rapport sous une forme facile à lire pour les humains.  
 Un *[CR]* (rapport informatique/computer report), qui présente les mêmes informations, mais sous une forme lisible par ordinateur, avec des [programmes] adaptés.  
-Et un *[modèle de train]*(txt) qui peut servir de modèle (template) pour ton prochain tour.  
+Et un [lot d'ordres] (fichier `txt`) qui peut servir de modèle pour ton prochain tour.  
 Il peut aussi y avoir le [point hebdomadaire] (Wochenbericht), qui contient quelques statistiques sur l'état général du monde.  
 Et parfois le [Xontormia Express], la gazette alimentée par les écrits des joueurs.
 
-Si aucun train d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle un NMR (No Move Received).  
+Si aucun lot d'ordres n'est parvenu au meneur de jeu, il y a ce qu'on appelle un *NMR* (`No Move Received`).  
 En cas de 4 NMR consécutifs, la faction est automatiquement retirée du jeu, donc au 5ème NMR, la faction est supprimée.
 
 Poursuivre la lecture : [Le monde d'Eressea].
@@ -62,7 +62,7 @@ Poursuivre la lecture : [Le monde d'Eressea].
 [magie]: ./magic.md
 [monstres]: ./monsters.md
 [ordres]: ./commands.md
-[modèle de train]: ./move-template.md
+[lot d'ordres]: ./move-template.md
 [point hebdomadaire]: ./weekly-report.md
 
 [Inscription]: ./hints.md#inscription

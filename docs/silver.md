@@ -186,7 +186,7 @@ It's worth equipping a ship and setting sail. Although it is possible to trade w
 
 ## Competition between different factions
 
-If several factions work, maintain, collect taxes or trade in a region, the possible income is divided as evenly as possible between the units. It is best to consult with your neighbours, provided that they are friendly.
+If several factions work, maintain, collect taxes or trade in a region, the possible income is divided as evenly as possible between the units. It is best to consult with your neighbors, provided that they are friendly.
 
 If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit. Work, entertainment and trade are possible, however, unless your own unit is on a ship.
 

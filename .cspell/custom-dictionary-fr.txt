@@ -1,17 +1,17 @@
 !astral
-!commande
-!commandes
+# !commande
+# !commandes
+!domaine
 !magicien
 !magiciens
 !navire
 !navires
-!numéro
-!pièce
-!pièces
-!talent
-!talents
-!zone
-!domaine
+#!numéro
+#!pièce
+#!pièces
+#!talent
+#!talents
+#!zone
 Aquarien
 aquariens
 Aquariens
@@ -22,6 +22,7 @@ dracoïdes
 highlands
 mallorns
 morphique
+oeillères
 peyote
 silvers
 tsugas

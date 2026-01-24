@@ -6,7 +6,7 @@ Der Xontormia Express ist die Zeitung für Eressea, deren Artikel von Spielern g
 
 ## Aufbau der Artikel
 
-Der Xontromia Express unterteilt die Artikel in Welten. Es sollte also immer als erstes die Welt genannt werden für die der Artikel geschrieben wurde, oder in welcher die jeweilige Geschichte spielt. Geschrieben werden darf über alles was in der Welt Eressea geschieht, solange die offensichtlichen Regeln eingehalten werden.
+Der Xontormia Express unterteilt die Artikel in Welten. Es sollte also immer als erstes die Welt genannt werden für die der Artikel geschrieben wurde, oder in welcher die jeweilige Geschichte spielt. Geschrieben werden darf über alles was in der Welt Eressea geschieht, solange die offensichtlichen Regeln eingehalten werden.
 
 Falls sich der Artikel auf eine bereits geschriebene Geschichte bezieht, so fügt gerne einen vollständigen Link hinzu, damit die Leser einen Bezug herstellen können.
 

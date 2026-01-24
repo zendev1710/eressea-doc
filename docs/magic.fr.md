@@ -53,7 +53,7 @@ Un mage Draig ne peut donc pas enseigner à un mage Illaun.
 
 Si une unité de mage n'a pas assez d'argent pour apprendre, elle n'apprendra que proportionnellement à la quantité d'argent qu'elle peut payer chaque semaine.
 <!-- TODO: clarify this not understable sentences -->
-La magie peut également, via [Special:MyLanguage/Talente|Application (CAST)].
+La magie peut également, via [`Special:MyLanguage/Talente|Application (CAST)`].
 Peu importe que l'unité lance un ou plusieurs sorts par tour.
 Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 
@@ -83,7 +83,6 @@ Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à
     Modifikationen: Schiffszauber
     Syntax:
       CAST [LEVEL n] Wunderdoktor
-
 ```
 
 ou alors

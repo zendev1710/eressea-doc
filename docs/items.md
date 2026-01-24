@@ -19,7 +19,7 @@ Weight, skill and raw material requirements.
 
 | Item               | Weight | Skill            | min. |         raw material |
 |--------------------|-------:|------------------|-----:|---------------------:|
-| [[silver]]         |   0,01 | --               |   -- |                   -- |
+| [silver]           |   0,01 | --               |   -- |                   -- |
 | [gem]              |      1 | [trade]          |    1 |                   -- |
 | [incense]          |      2 | [trade]          |    1 |                   -- |
 | [balm]             |      2 | [trade]          |    1 |                   -- |
@@ -140,3 +140,5 @@ Continue reading: [Roads].
 [laenmail]: ./war-tables.md#laen-chainmail
 [adamantium plate]: ./war-tables.md#adamantium-armor
 [potions]: ./alchemy.md#potions
+
+[silver]: ./silver.md

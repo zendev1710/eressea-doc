@@ -4,6 +4,10 @@ alias: epee-de-flammes
 ---
 # Épée de Flammes
 
+<!-- cspell:disable -->
+*Flaming Sword (EN), Flammenschwert (DE)*.
+<!-- cspell:enable -->
+
 Une Épée de Flammes confère à son porteur **une petite attaque de boule de feu**, en plus de son attaque normale (3d6+10) par round de combat, infligeant **2d6 dégâts magiques à 1 à 10 victimes**.  
 
 Elle lui confère également un **bonus de combat de +1**.  

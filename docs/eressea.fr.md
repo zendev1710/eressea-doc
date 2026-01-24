@@ -23,7 +23,7 @@ Ce qui rend le jeu intéressant, c'est l'interaction avec les autres factions et
 Dans le jeu principal Eressea, il n’y a pas d’objectif de jeu officiel ni de fin de partie.  
 Cependant, il y eut plusieurs ramifications directes sous le nom de Vinyambar.  
 Les jeux Vinyambar présentaient des différences de règles plus ou moins importantes par rapport au jeu original, et certains avaient même un objectif de jeu spécifique et fixe.  
-Toutes les variantes de Vinyambar étaient payantess.  
+Toutes les variantes de Vinyambar étaient payantes.  
 
 Il y a eu également plusieurs jeux de "High Speed ​​​​Eressea" (HSE) dans lesquels des tours ont eu lieu en instance indépendante pendant un week-end à un intervalle de temps d'environ 15 minutes.  
 En juillet 2009, un nouveau monde de jeu avec des règles modifiées a été lancé, connu sous le nom d'Eressea 3 ou E3 en abrégé.  

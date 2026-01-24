@@ -66,7 +66,7 @@ In the [[puppy-protection|first few weeks]] a faction cannot guard yet.
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
-[weapon]: ./war-tables.md#weapon-properties
+[weapon]: ./war-tables.md#weapons-summary-table
 [trade]: ./silver.md#trade
 [End of battle]: ./war.md#the-end
 [entertain]: ./skills-list.md#entertainment

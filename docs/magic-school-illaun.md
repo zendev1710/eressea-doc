@@ -4,7 +4,9 @@ alias: illaun-spells
 ---
 # Illaun spells
 
-## Schattenritter
+## Level 1 spells
+
+### Schattenritter
 
 **Beschreibung**:  
 Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln. Die Schattenritter haben keinen effektiven Angriff und Verwundungen im Kampf zerstören sie sofort.  
@@ -15,7 +17,7 @@ Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Tru
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Schattenritter"  
 
-## Traumsenden
+### Traumsenden
 
 **Beschreibung**:  
 Der Zauberer sendet dem Ziel des Spruches einen Traum.  
@@ -26,7 +28,7 @@ Der Zauberer sendet dem Ziel des Spruches einen Traum.
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST \[LEVEL n\] "Traumsenden" &lt;Einheit-Nr&gt;  
 
-## Wahrsagen
+### Wahrsagen
 
 **Beschreibung**:  
 Niemand kann so gut die Träume deuten wie ein Magier des Illaun. Auch die Kunst der Wahrsagerei, des Kartenlegens und des Handlesens sind ihm geläufig. Dafür zahlen ihm die Bauern 50 Silber pro Stufe.  
@@ -37,7 +39,9 @@ Niemand kann so gut die Träume deuten wie ein Magier des Illaun. Auch die Kunst
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST \[LEVEL n\] "Wahrsagen"  
 
-## Grauen der Schlacht
+## Level 2 spells
+
+### Grauen der Schlacht
 
 **Beschreibung**:  
 Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die viele Gegner in Panik versetzen. Die Betroffenen werden versuchen, vor den Trugbildern zu fliehen.  
@@ -48,7 +52,7 @@ Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die v
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Grauen der Schlacht"  
 
-## Seelenfrieden
+### Seelenfrieden
 
 **Beschreibung**:  
 Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode gekommenen und ermöglicht es ihnen so, ihre letzte Reise in die Anderlande zu beginnen. Je Stufe des Zaubers werden ungefähr 50 Seelen ihre Ruhe finden. Der Zauber vermag nicht, bereits wieder auferstandene lebende Tote zu erlösen, da deren Bindung an diese Welt zu stark ist.  
@@ -59,7 +63,9 @@ Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode geko
 **Modifikationen**:  
 **Syntax**: CAST \[LEVEL n\] "Seelenfrieden"  
 
-## Gestaltwandlung
+## Level 3 spells
+
+### Gestaltwandlung
 
 **Beschreibung**:  
 Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern. Unbedarften Beobachtern erscheint sie dann als einer anderen Rasse zugehörig.  
@@ -70,7 +76,7 @@ Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer G
 **Modifikationen**:  
 **Syntax**: CAST \[LEVEL n\] "Gestaltwandlung" &lt;Einheit-Nr&gt; &lt;Rasse&gt;  
 
-## Traum der Magie
+### Traum der Magie
 
 **Beschreibung**:  
 Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.  
@@ -81,7 +87,7 @@ Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf 
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST "Traum der Magie" &lt;Einheit-Nr&gt; &lt;Aura&gt;  
 
-## Traumschlößchen
+### Traumschlößchen
 
 **Beschreibung**:  
 Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebäudes erzeugen. Die Illusion kann betreten werden, ist aber ansonsten funktionslos und benötigt auch keinen Unterhalt. Sie wird einige Wochen bestehen bleiben.  
@@ -92,7 +98,9 @@ Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebä
 **Modifikationen**:  
 **Syntax**: CAST "Traumschlößchen" &lt;Gebäudetyp&gt;  
 
-## Schwere Glieder
+## Level 4 spells
+
+### Schwere Glieder
 
 **Beschreibung**:  
 Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden. Die Soldaten verschlafen manchmal ihren Angriff und verteidigen sich schlechter.  
@@ -103,7 +111,7 @@ Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdi
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Schwere Glieder"  
 
-## Traumlesen
+### Traumlesen
 
 **Beschreibung**:  
 Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.  
@@ -114,7 +122,9 @@ Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzud
 **Modifikationen**: Fernzauber  
 **Syntax**: CAST \[REGION x y\] "Traumlesen" &lt;Einheit-Nr&gt;  
 
-## Traumbilder analysieren
+## Level 5 spells
+
+### Traumbilder analysieren
 
 **Beschreibung**:  
 Mit diesem Spruch kann der Traumweber versuchen, die Verzauberungen einer einzelnen Einheit zu erkennen. Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können. Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
@@ -125,7 +135,7 @@ Mit diesem Spruch kann der Traumweber versuchen, die Verzauberungen einer einzel
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST "Traumbilder analysieren" &lt;Einheit-Nr&gt;  
 
-## Wiederbelebung
+### Wiederbelebung
 
 **Beschreibung**:  
 Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen. Mit Hilfe eines Rituals kann ein Traumweber versuchen, die Seele wieder einzufangen und in den Körper des Verstorbenen zurückzubringen. Zwar heilt der Zauber keine körperlichen Verwundungen, doch ein Behandelter wird den Kampf überleben.  
@@ -136,7 +146,9 @@ Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Wiederbelebung"  
 
-## Erschaffe ein Amulett des wahren Sehens
+## Level 6 spells
+
+### Erschaffe ein Amulett des wahren Sehens
 
 **Beschreibung**:  
 Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen. Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
@@ -147,7 +159,7 @@ Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaf
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST "Erschaffe ein Amulett des wahren Sehens"  
 
-## Erschaffe einen Ring der Unsichtbarkeit
+### Erschaffe einen Ring der Unsichtbarkeit
 
 **Beschreibung**:  
 Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
@@ -158,7 +170,7 @@ Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. De
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST "Erschaffe einen Ring der Unsichtbarkeit"  
 
-## Schlechter Schlaf
+### Schlechter Schlaf
 
 **Beschreibung**:  
 Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe. Den Betroffenen fällt das Lernen deutlich schwerer.  
@@ -169,7 +181,9 @@ Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosig
 **Modifikationen**: Fernzauber  
 **Syntax**: CAST \[REGION x y\] "Schlechter Schlaf"  
 
-## Schlaf
+## Level 7 spells
+
+### Schlaf
 
 **Beschreibung**:  
 Dieser Zauber läßt einige feindliche Kämpfer einschlafen. Schlafende Kämpfer greifen nicht an und verteidigen sich schlechter, sie wachen jedoch auf, sobald sie im Kampf getroffen werden.  
@@ -180,7 +194,7 @@ Dieser Zauber läßt einige feindliche Kämpfer einschlafen. Schlafende Kämpfer
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Schlaf"  
 
-## Traumdeuten
+### Traumdeuten
 
 **Beschreibung**:  
 Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opfers ein und kann so seine intimsten Geheimnisse ausspähen. Seine Fähigkeiten, seinen Besitz und seine Parteizugehörigkeit wird nicht länger ungewiss sein.  
@@ -191,7 +205,9 @@ Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opf
 **Modifikationen**:  
 **Syntax**: CAST "Traumdeuten" &lt;Einheit-Nr&gt;  
 
-## Schöne Träume
+## Level 8 spells
+
+### Schöne Träume
 
 **Beschreibung**:  
 Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.  
@@ -202,7 +218,7 @@ Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheite
 **Modifikationen**: Fernzauber  
 **Syntax**: CAST \[REGION x y\] "Schöne Träume"  
 
-## Traumbilder entwirren
+### Traumbilder entwirren
 
 **Beschreibung**:  
 Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.  
@@ -213,7 +229,9 @@ Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen 
 **Modifikationen**: Fernzauber, Schiffszauber  
 **Syntax**: CAST \[REGION x y\] \[LEVEL n\] "Traumbilder entwirren" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )  
 
-## Vertrauten rufen
+## Level 9 spell
+
+### Vertrauten rufen
 
 **Beschreibung**:  
 Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
@@ -224,7 +242,9 @@ Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnlich
 **Modifikationen**:  
 **Syntax**: CAST "Vertrauten rufen"  
 
-## Schlechte Träume
+## Level 10 spell
+
+### Schlechte Träume
 
 **Beschreibung**:  
 Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELP GUARD) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.  
@@ -235,7 +255,9 @@ Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einhe
 **Modifikationen**: Fernzauber  
 **Syntax**: CAST \[REGION x y\] "Schlechte Träume"  
 
-## Tod des Geistes
+## Level 11 spell
+
+### Tod des Geistes
 
 **Beschreibung**:  
 Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an. Ein Schlag aus astraler und elektrischer Energie trifft die Gegner, wird die Magieresistenz durchbrochen, verliert ein Opfer permanent einen Teil seiner Erinnerungen. Wird es zu oft ein Opfer dieses Zaubers kann es daran sterben.  
@@ -246,7 +268,9 @@ Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an. Ein Schla
 **Modifikationen**:  
 **Syntax**: COMBATSPELL \[LEVEL n\] "Tod des Geistes"  
 
-## Süße Träume
+## Level 12 spell
+
+### Süße Träume
 
 **Beschreibung**:  
 Dieser Zauber - dessen Anwendung in den meisten Kulturen streng verboten ist - löst im Opfer ein unkontrollierbares Verlangen nach körperlicher Liebe aus. Die betroffenen Personen werden sich Hals über Kopf in ein Liebesabenteuer stürzen, zu blind vor Verlangen, um an etwas anderes zu denken. Meistens bereuen sie es einige Wochen später...  
@@ -257,7 +281,9 @@ Dieser Zauber - dessen Anwendung in den meisten Kulturen streng verboten ist - l
 **Modifikationen**:  
 **Syntax**: CAST \[LEVEL n\] "Süße Träume" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
 
-## Erschaffe eine Sphäre der Unsichtbarkeit
+## Level 13 spell
+
+### Erschaffe eine Sphäre der Unsichtbarkeit
 
 **Beschreibung**:  
 Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen. Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
@@ -268,7 +294,9 @@ Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen. 
 **Modifikationen**: Schiffszauber  
 **Syntax**: CAST "Erschaffe eine Sphäre der Unsichtbarkeit"  
 
-## Erschaffe ein Traumauge
+## Level 14 spell
+
+### Erschaffe ein Traumauge
 
 **Beschreibung**:  
 Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen. Lange Zeit wurde eine solche Fähigkeit für nutzlos erachtet, bis die ehemalige waldelfische Magistra für Kampfmagie, Liarana Sonnentau von der Akademie Thall, eine besondere Anwendung vorstellte: Feldherren träumen vor großen Kämpfen oft unruhig und verraten im Traum ihre Pläne. Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben. Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  

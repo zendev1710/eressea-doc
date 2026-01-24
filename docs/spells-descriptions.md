@@ -184,9 +184,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.
     All magically gifted people in the region will lose much of their aura.
 
-| Sc. | Components                     | Lvl |   Type | Rank | S | D |
-|:---:|--------------------------------|----:|-------:|:----:|:--|:--|
-|  D  | 35 auras, 1 [[sang-de-dragon]] |   9 | Normal |  3   |   |   |
+| Sc. | Components                  | Lvl |   Type | Rank | S | D |
+|:---:|-----------------------------|----:|-------:|:----:|:--|:--|
+|  D  | 35 auras, 1 [[dragonblood]] |   9 | Normal |  3   |   |   |
 
 `CAST "Astral Leak"`  
 

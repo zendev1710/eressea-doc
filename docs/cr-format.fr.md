@@ -22,7 +22,7 @@ L'identifiant peut être suivi de ';' Un commentaire distinct suivra, mais cela 
 Les blocs sans identifiant sont toujours des sous-blocs du dernier bloc précédent avec identifiant.  
 Un bloc de ce type peut apparaître plusieurs fois, mais une seule fois par bloc parent (ils sont, pour ainsi dire, uniques par rapport à l'identifiant du bloc parent).  
 
-Exzmples :
+Exemples :
 
 ```text
 VERSION 16

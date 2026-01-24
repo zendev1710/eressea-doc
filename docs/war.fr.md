@@ -4,23 +4,23 @@ alias: guerre
 ---
 # Guerre
 
-Les conflits sont inévitables dans Eressea.
-Il y aura des disputes pour l'argent, pour les régions, pour les droits de taxes, pour les routes commerciales et ainsi de suite.
-C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis vont et viennent, les ennemis se multiplient".
+Les conflits sont inévitables dans Eressea.  
+Il y aura des disputes pour l'argent, pour les régions, pour les droits de taxes, pour les routes commerciales et ainsi de suite.  
+C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis vont et viennent, les ennemis se multiplient".  
 
 ## Les camps dans une bataille
 
-L'ordre [[cmd-attack]] permet de lancer l'attaque contre l'adversaire.
-Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.
-Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).
-Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique].
+L'ordre [[cmd-attack]] permet de lancer l'attaque contre l'adversaire.  
+Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.  
+Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).  
+Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique].  
 
-Le camp attaquant est constitué de toutes les unités qui ont donné des ordres `ATTACK` contre une ou plusieurs unités des défenseurs.
+Le camp attaquant est constitué de toutes les unités qui ont donné des ordres `ATTACK` contre une ou plusieurs unités des défenseurs.  
 
-Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [[cmd-combat]]`,`[[cmd-combat|`COMBAT AGGRESSIVE`]]`,`[[cmd-combat|`COMBAT REAR`]] ou [[cmd-combat|`COMBAT DEFENSIVE`]]).
+Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [[cmd-combat]]`,`[[cmd-combat|`COMBAT AGGRESSIVE`]]`,`[[cmd-combat|`COMBAT REAR`]] ou [[cmd-combat|`COMBAT DEFENSIVE`]]).  
 De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [[cmd-help|`HELP COMBAT`]] avec la faction attaquée, apportent leur aide.
 
-Il y a donc différentes raisons pour lesquelles une unité participe au combat.
+Il y a donc différentes raisons pour lesquelles une unité participe au combat.  
 Celles-ci sont classées par ordre de priorité :
 
 1. L'unité prête à combattre attaque une autre unité. Dans ce cas, elle participe au combat dans tous les cas.
@@ -33,7 +33,7 @@ Celles-ci sont classées par ordre de priorité :
 
 Les alliés n'aident donc automatiquement que les défenseurs et ***seulement si le défenseur n'a pas lui-même attaqué**.  
 Les unités attaquées se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat.  
-Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [[cmd-attack]] sont engagées dans le combat.
+Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [[cmd-attack]] sont engagées dans le combat.  
 Cependant, les unités qui ont mis [[cmd-combat|`COMBAT NOT`]] ou [[cmd-combat|`COMBAT FLEE`]] ne peuvent pas attaquer.
 
 Ainsi, pour attaquer conjointement un ennemi, chaque faction attaquante doit attaquer au moins une unité de l'ennemi.  
@@ -74,8 +74,8 @@ Expérience de jeu :
 En fait, c'est encore un peu plus compliqué.  
 
 **Attention :**
-Des statuts d'aide ou des ordres `ATTACK` mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue.
-Des alliés sont restés sans rien faire ou se sont même battus entre eux.
+Des statuts d'aide ou des ordres `ATTACK` mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue.  
+Des alliés sont restés sans rien faire ou se sont même battus entre eux.  
 Quelques astuces permettent d'éviter les plus grosses bourdes :
 
 - Tu devrais régulièrement vérifier les statuts d'aide pour tous tes alliés.
@@ -92,17 +92,17 @@ Quelques astuces permettent d'éviter les plus grosses bourdes :
 
 ## Le combat
 
-Une bataille dure cinq tours de combat, plus un éventuel tour de tactique.
-À chaque tour de combat, les combattants frappent dans un ordre aléatoire.
+Une bataille dure cinq tours de combat, plus un éventuel tour de tactique.  
+À chaque tour de combat, les combattants frappent dans un ordre aléatoire.  
 
-Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs.
-Les exceptions sont [combat en mer] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.
+Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs.  
+Les exceptions sont [combat en mer] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
 Dans ce cas, d'autres ordres longs sont possibles.
 
 ### Lignes de combat
 
-Durant la bataille, il y a quatre lignes de combat.
-Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus).
+Durant la bataille, il y a quatre lignes de combat.  
+Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus).  
 Pour plus d'informations sur les statuts de combat, voir [[cmd-combat]][`COMBAT`].
 
 1. ligne: Ici se trouvent toutes les unités qui ont mis [[cmd-combat]] ou [[cmd-combat|`COMBAT AGGRESSIVE`]].
@@ -111,30 +111,30 @@ Pour plus d'informations sur les statuts de combat, voir [[cmd-combat]][`COMBAT`
 4. ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper.
    Donc celles qui ont mis [[cmd-combat|`COMBAT FLEE`]] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite]).
 
-Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées.
-Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée.
-Les unités en fuite tentent naturellement de s'échapper (voir [ici][la fuite]).
+Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées.  
+Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée.  
+Les unités en fuite tentent naturellement de s'échapper (voir [ici][la fuite]).  
 
-Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous).
+Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous).  
 Contre les attaques à distance adverses, elles se défendent avec leur meilleure compétence de combat.
 
 Les sorts de combat des mages peuvent être lancés de l'arrière et de la ligne de front ; cela mis à part, ils s'armeront et se battront comme tout le monde.
 
 ### Débordement
 
-Si une faction et ses alliés ont plus de trois fois plus de personnes en première ligne que leurs adversaires, la 1ère rangée est débordée.
-Toutes les unités adverses de 2e ligne sont obligées de monter en première ligne.
-La 3e ligne remonte alors en 2e ligne et participe au combat.
-S'il n'y a toujours pas assez de personnes en 1ère ligne, les lignes suivantes remontent jusqu'à ce qu'il y ait suffisamment de personnes en 1ère ligne.
+Si une faction et ses alliés ont plus de trois fois plus de personnes en première ligne que leurs adversaires, la 1ère rangée est débordée.  
+Toutes les unités adverses de 2e ligne sont obligées de monter en première ligne.  
+La 3e ligne remonte alors en 2e ligne et participe au combat.  
+S'il n'y a toujours pas assez de personnes en 1ère ligne, les lignes suivantes remontent jusqu'à ce qu'il y ait suffisamment de personnes en 1ère ligne.  
 Cette répartition est vérifiée avant chaque tour de combat.
 
-## Aux armes (Éresséen)
+## Aux armes (Éresséens)
 
-Maintenant, les unités s'arment.
-Chaque personne d'une unité s'équipe en fonction de ses compétences d'une arme de corps à corps, d'une arme à distance et d'une armure.
-Elle privilégie les armes qui lui permettent d'obtenir le plus haut score en Attaque et Parade.
-Les mages qui ont choisi un sort de combat l'utilisent pour attaquer.
-Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence de combat appropriée), sinon ils seront considérés comme [non armés].
+Maintenant, les unités s'arment.  
+Chaque personne d'une unité s'équipe en fonction de ses compétences d'une arme de corps à corps, d'une arme à distance et d'une armure.  
+Elle privilégie les armes qui lui permettent d'obtenir le plus haut score en Attaque et Parade.  
+Les mages qui ont choisi un sort de combat l'utilisent pour attaquer.  
+Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence de combat appropriée), sinon ils seront considérés comme [non armés].  
 
 **Attention:** les armes ou armures non utilisées ne sont pas automatiquement redistribuées aux unités non armées ou non équipées.
 
@@ -142,35 +142,39 @@ Pendant le combat, on ne change plus d'arme, sauf s'il est possible de prendre u
 
 Un combattant à distance qui soudain se retrouve en première ligne doit s'il est attaqué se saisir d'une arme de corps à corps (s'il en possède une et s'il a la compétence correspondante au moins au niveau 1), sinon il se défend [sans arme][non armés].
 
-**Exemple :** Une unité de 20 personnes dispose de 15 épées, 10 boucliers et 5 cottes de mailles.
-Alors 5 personnes se battront avec une épée, un bouclier et une cotte de mailles, 5 autres avec une épée et un bouclier, 5 avec une épée seulement et les 5 derniers combattants resteront sans armes.
+**Exemple :**
+
+Une unité de 20 personnes dispose de 15 épées, 10 boucliers et 5 cottes de mailles.  
+Alors 5 personnes se battront avec une épée, un bouclier et une cotte de mailles, 5 autres avec une épée et un bouclier, 5 avec une épée seulement et les 5 derniers combattants resteront sans armes.  
 Une unité de 10 personnes avec 10 épées et 10 haches de guerre se battra avec des épées, car elles ont un meilleur bonus, même si elles infligent probablement moins de dégâts !
 
 ## Tour du tacticien
 
-Avant la bataille, le meilleur [[tactique|Tacticien]] de toutes les unités participantes est désigné.
-Un tacticien qui se bat en première ligne reçoit un bonus de +1 à son niveau de compétence [Tactique].
-S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1.
-Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.
+Avant la bataille, le meilleur [[tactique|Tacticien]] de toutes les unités participantes est désigné.  
+Un tacticien qui se bat en première ligne reçoit un bonus de +1 à son niveau de compétence [Tactique].  
+S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1.  
+Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.  
 
-Le camp avec la meilleure valeur de tactique peut attaquer au tour 0 (appelé "tour du tacticien") sans que l'ennemi ne puisse attaquer.
-Le nombre de coups portés dépend de la différence entre la meilleure valeur de tactique du camp gagnant et celle du camp perdant : Pour chaque point de différence, chaque personne a 10 % de chances d'attaquer lors du tour du tacticien.
+Le camp avec la meilleure valeur de tactique peut attaquer au tour 0 (appelé "tour du tacticien") sans que l'ennemi ne puisse attaquer.  
+Le nombre de coups portés dépend de la différence entre la meilleure valeur de tactique du camp gagnant et celle du camp perdant : pour chaque point de différence, chaque personne a 10 % de chances d'attaquer lors du tour du tacticien.
 
-**Exemple:** Le camp A a une personne avec Tactique 4 en première ligne.
-Le camp B a 10 personnes avec Tactique 4 en troisième ligne.
-Donc, le camp A a effectivement 5 et le camp B 3.
-Sans le bonus aléatoire, chaque personne du camp A aurait 20% de chances d'attaquer lors du tour du tacticien.
-Si la personne du camp A obtient un 0 en bonus, il faut qu'au moins une personne du camp B obtienne un 2.
-Sinon, le camp A a le tour du tacticien.
-Supposons que le meilleur résultat obtenu au jet par le camp B soit un 5 (c'est peu probable, mais tout à fait possible).
-La différence pour le camp B est donc de (3 + 5) - (5 + 0) = 3.
-Chaque personne du camp B a alors 30% de chances de frapper au tour 0.
-Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est d'environ 3 attaques.
+**Exemple :**
+
+Le camp A a une personne avec Tactique 4 en première ligne.  
+Le camp B a 10 personnes avec Tactique 4 en troisième ligne.  
+Donc, le camp A a effectivement 5 et le camp B 3.  
+Sans le bonus aléatoire, chaque personne du camp A aurait 20% de chances d'attaquer lors du tour du tacticien.  
+Si la personne du camp A obtient un 0 en bonus, il faut qu'au moins une personne du camp B obtienne un 2.  
+Sinon, le camp A a le tour du tacticien.  
+Supposons que le meilleur résultat obtenu au jet par le camp B soit un 5 (c'est peu probable, mais tout à fait possible).  
+La différence pour le camp B est donc de (3 + 5) - (5 + 0) = 3.  
+Chaque personne du camp B a alors 30% de chances de frapper au tour 0.  
+Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est d'environ 3 attaques.  
 
 ## Héros
 
-Les héros sont des combattants particulièrement puissants.
-Ils doivent avoir été préalablement promus avec l'ordre [[cmd-promote]].
+Les héros sont des combattants particulièrement puissants.  
+Ils doivent avoir été préalablement promus avec l'ordre [[cmd-promote]].  
 **Les héros peuvent attaquer 5 fois à chaque tour de combat**.
 
 !!! warning "Attention"
@@ -193,52 +197,52 @@ Dans chaque bataille, les armées s'affrontent personne par personne, quel que s
 
 Chaque personne attaque une fois par tour de combat (sauf les [Héros] et certains monstres).
 
-Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts.
-Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes]).
-Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence.
-Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas.
-Cela vaut aussi bien pour le combat à distance que pour le combat rapproché.
+Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts.  
+Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes]).  
+Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence.  
+Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas.  
+Cela vaut aussi bien pour le combat à distance que pour le combat rapproché.  
 En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.
 
 Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences] les différents coups portés pendant le combat s'additionnent).
 
-Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts.
-Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [ce] tableau).
+Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts.  
+Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [le tableau des armures]).  
 Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).
 
-Certaines créatures ou armes peuvent également infliger des dégâts magiques.
-Une armure normale est inefficace contre les dégâts magiques.
-Seule compte la [Résistance à la magie], qui peut être augmentée par certains équipements et sorts.
+Certaines créatures ou armes peuvent également infliger des dégâts magiques.  
+Une armure normale est inefficace contre les dégâts magiques.  
+Seule compte la [Résistance à la magie], qui peut être augmentée par certains équipements et sorts.  
 
 Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau]).
 
 ### Combat à distance
 
-Les armes à distance et les catapultes peuvent être utilisées efficacement en deuxième ligne.
+Les armes à distance et les catapultes peuvent être utilisées efficacement en deuxième ligne.  
 Là, elles seront protégées des combattants au corps à corps de l'adversaire par votre première ligne.
 
-Les combattants à distance peuvent également tirer dans la deuxième ligne adverse.
+Les combattants à distance peuvent également tirer dans la deuxième ligne adverse.  
 Ils choisissent une cible au hasard parmi tous les ennemis en première ou deuxième ligne.
 
 Les arbalètes peuvent également transpercer les armures : Contre un tir d'arbalète, l'armure ne fait effet que pour moitié (arrondi inférieur).
 
-Le tableau ci-dessous montre les différences entre les armes à distance.
-Il est très difficile d'utiliser un arc (Offensive Bonus -2), mais on peut tirer tous les rounds de combat.
-Les arbalètes sont beaucoup plus faciles à utiliser (OB 0), mais ne peuvent tirer qu'un round de combat sur trois.
+Le tableau ci-dessous montre les différences entre les armes à distance.  
+Il est très difficile d'utiliser un arc (Offensive Bonus -2), mais on peut tirer tous les rounds de combat.  
+Les arbalètes sont beaucoup plus faciles à utiliser (OB 0), mais ne peuvent tirer qu'un round de combat sur trois.  
 Les catapultes tirent toujours au premier tour (cela peut être le tour tactique ou le tour 1) et causent de lourds dégâts.
 
-Contre les armes à distance, les personnes attaquées ne se défendent qu'avec la moitié de leur niveau de compétence.
+Contre les armes à distance, les personnes attaquées ne se défendent qu'avec la moitié de leur niveau de compétence.  
 Cependant les unités en première ligne se défendent avec leur niveau de compétence si le combattant à distance se trouve également en première ligne.
 
-*Attention !'* Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été [débordé]), il doit se défendre avec une arme de mêlée.
+*Attention !'* Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été [débordé]), il doit se défendre avec une arme de mêlée.  
 S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend [à mains nues] !
 
 Les catapultes nécessitent des munitions.  
-Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres].
-Elles pèsent 10 kg.
+Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres].  
+Elles pèsent 10 kg.  
 Une unité de munitions correspond à une salve (6 cibles).
 
-Armes de tir à distance - bonus et temps de rechargement.
+*Armes de tir à distance - bonus et temps de rechargement.*
 
 | Arme                               | Compétence         | Bonus d'attaque | Rechargement |
 |------------------------------------|--------------------|:---------------:|:------------:|
@@ -252,9 +256,9 @@ Une arbalète peut tirer tous les trois rounds, et un arc peut tirer à chaque r
 
 ### Bonus et malus
 
-Divers facteurs peuvent modifier les chances de toucher quelqu'un (attaquer) ou de dévier un coup (parer).
-Tous les bonus et malus ont un effet direct sur la compétence et sont pris en compte avant toute réduction de moitié par les combattants à distance.
-Les points de dégâts qu'une personne inflige ne sont pas modifiés par les bonus et les pénalités;
+Divers facteurs peuvent modifier les chances de toucher quelqu'un (attaquer) ou de dévier un coup (parer).  
+Tous les bonus et malus ont un effet direct sur la compétence et sont pris en compte avant toute réduction de moitié par les combattants à distance.  
+Les points de dégâts qu'une personne inflige ne sont pas modifiés par les bonus et les pénalités;  
 les valeurs de compétence non modifiées comptent ici.
 
 Voir aussi : [tables de combat].
@@ -304,7 +308,7 @@ Voici quelques exemples de situation de combat.
 <!-- TODO: clarify the whole paragraph -->
 **Exemple 1 :**
 
-Chance de base de l'attaquant -> BC = 30 %.
+Chance de base de l'attaquant -> BC = 30 %.  
 Attaquant avec compétence 3, compétence défenseur 4 -> chance de toucher = 25 %.  
 Défenseur dans une citadelle -> parade +5 -> chance de toucher = 0 %.  
 
@@ -317,7 +321,7 @@ Après tout, l'attaquant se trouve dans une très mauvaise situation car le déf
 
 Supposons cette fois-ci que le défenseur n'est pas dans la citadelle.  
 
-Chance de base de l'attaquant -> BC = 30%.
+Chance de base de l'attaquant -> BC = 30%.  
 Compétence de l'attaquant 3, compétence du défenseur 4 -> chance de toucher = 25 %.  
 Attaquant avec bonus de cheval -> attaque +2 -> chance de toucher = 35 %.  
 
@@ -392,7 +396,7 @@ Les unités **touchées au combat** tentent également de fuir si :
 Les coups dont les points de dégâts ont été entièrement absorbés par l'armure et les tentatives de coup ratées comptent également.  
 Ceci a pour but d'empêcher les unités déjà endommagées avant la bataille de fuir même si elles n'étaient pas réellement en danger.  
 
-La chance de base de s'échapper est de 25 % (50 % pour les halflings), plus 10 % si vous possédez un cheval et 5 % par niveau de compétence furtive;
+La chance de base de s'échapper est de 25 % (50 % pour les halflings), plus 10 % si vous possédez un cheval et 5 % par niveau de compétence furtive;  
 la valeur maximale est de 75 % (ou 90 % pour les Halflings).
 
 Les unités en fuite échappent au combat, mais restent à une distance sûre des combats dans la région.  
@@ -436,8 +440,8 @@ Lorsque les unités à bord d'un bateau (ou ses alliés) sont attaqués, elles r
 
 Chaque capitaine a la chance de gagner un prix en capturant des bateaux dans les régions adjacentes.
 
-Le capitaine guette les bateaux qui terminent leur déplacement dans une région voisine.
-Une fois sur place, l’équipage peut agir normalement lors du tour suivant.
+Le capitaine guette les bateaux qui terminent leur déplacement dans une région voisine.  
+Une fois sur place, l’équipage peut agir normalement lors du tour suivant.  
 Avec l'aide de [[cmd-follow|`FOLLOW SHIP`]], par exemple, vous pouvez également simplement suivre vos victimes pour le moment.
 
 Il y a quelques points à garder à l’esprit dans toute l’histoire :
@@ -460,7 +464,7 @@ Il y a quelques points à garder à l’esprit dans toute l’histoire :
 
 Après la bataille, on compte les morts, et tout le matériel utilisable des unités anéanties est récupéré et distribué aux survivants.  
 
-Les unités blessées au combat restent blessées.
+Les unités blessées au combat restent blessées.  
 Ceci est indiqué dans le rapport.  
 Avec le temps, elles guérissent.  
 Elles régénèrent généralement 5 % (certaines races [[modificateurs-de-competences|davantage]]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
@@ -485,9 +489,9 @@ Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
-[Caractéristiques des armes]: ./war-tables.md#armes-et-leurs-proprietes
+[Caractéristiques des armes]: ./war-tables.md#armes-tableau-de-synthese
 [Modificateurs de compétences]: ./war-tables.md#races-et-leurs-caracteristiques
-[ce]: ./war-tables.md#armure
+[le tableau des armures]: ./war-tables.fr.md#armures-synthese
 [Résistance à la magie]: ./war-tables.md#resistance-a-la-magie
 [ce tableau]: ./war-tables.md#endurance
 [dommages]: ./sailing.md#dommages-aux-bateaux

@@ -77,7 +77,7 @@ Au cours des [[puppy-protection|premières semaines]], une faction ne peut pas e
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
-[arme]: ./war-tables.md#armes-et-leurs-proprietes
+[arme]: ./war-tables.md#armes-tableau-de-synthese
 [faire du commerce]: ./silver.md#commerce
 [Fin de bataille]: ./war.md#fin-du-combat
 [divertir]: ./skills-list.md#divertissement

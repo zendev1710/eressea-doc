@@ -110,6 +110,8 @@ Plantes nécessaires pour concocter cette potion :
 - 1 [œil de chouette]
 - 1 [lierre d'araignée]
 
+[[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
+
 !!! note
     Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.
     L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.
@@ -179,7 +181,7 @@ Plantes nécessaires pour concocter cette potion :
 *Horsepower potion (EN), Pferdeglück (DE)*.
 <!-- cspell:enable -->
 
-:   Potion qui procure un état de grâce aux chevaux qui, incidemment, favorise les naissances.
+:   Potion qui procure un état de grâce aux chevaux qui, incidemment, favorise les naissances.  
     **50 chevaux** mettent au monde jusqu'à **4 poulains**.
 
 *Objectif :* augmenter les ressources d'une région (chevaux).  
@@ -309,7 +311,7 @@ Plantes nécessaires pour concocter cette potion :
 ### Eau de vie
 
 <!-- cspell:disable -->
-*Water of life (EN), (DE)*.
+*Water of life (EN), Wasser des Lebens (DE)*.
 <!-- cspell:enable -->
 
 :   Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns).
@@ -343,12 +345,11 @@ Plantes nécessaires pour concocter cette potion :
 | [potion de guérison]    |  HL  |  4   | Unité                   |
 | [amour des paysans]     |  PL  |  4   | Région                  |
 
-[^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.
-Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.  
-
-[^2]: la potion agit à une unité ciblée avec l'ordre `USE "Duncebun" <ID unité cible>`.
-À cet égard, il convient de noter que si la compétence `Stealth` de l'utilisateur est inférieure ou égale à la `Perception` **+ 2** de la victime, la tentative échoue.
-Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
+[^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
+    Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
+[^2]: la potion agit à une unité ciblée avec l'ordre `USE "Duncebun" <ID unité cible>`.  
+    À cet égard, il convient de noter que si la compétence `Stealth` de l'utilisateur est inférieure ou égale à la `Perception` **+ 2** de la victime, la tentative échoue.  
+    Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
 
 ## Plantes et leur utilisation
 
@@ -391,16 +392,16 @@ Poursuivre la lecture : [[herbs|plantes]].
 [champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
 [racine plate]: ./herbs.md#racine-plate "Flatroot"
 [cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
-[bégonia des glaces]: ./herbs.md#ice-begonia "Ice begonia"
-[racine de nœud]: ./herbs.md#racine-de-nœud "Knotroot"
+[bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
+[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
 [mandragore]: ./herbs.md#mandragore "Mandrake"
-[œil de chouette]: ./herbs.md#oeil-de-chouette "Owlsgaze"
+[œil de chouette]: ./herbs.fr.md#il-de-chouette "Owlsgaze"
 [herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
 [pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
 [pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
 [lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
 [témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[waterfinder]: ./herbs.md#chercheuse-deau "Waterfinder"
+[waterfinder]: ./herbs.md#tamaris "Waterfinder"
 [tsugas blancs]: ./herbs.md#tsugas-blancs "White hemlocks"
 [gousse]: ./herbs.md#gousse "Windbag
 
@@ -414,7 +415,7 @@ Poursuivre la lecture : [[herbs|plantes]].
 [pain d'andouille]: #pain-dandouille "Duncebun"
 [chaleur du nid]: #chaleur-du-nid "Potion of nest warmth"
 [amour des paysans]: #amour-des-paysans "Peasant love potion"
-[potion de vérité]: ./alchemy.md##potion-de-verite "Potion of truth"
+[potion de vérité]: ./alchemy.md#potion-de-verite "Potion of truth"
 [thé des sept lieues]: ./alchemy.md#the-des-sept-lieues "Seven mile tea"
 [bien-être des chevaux]: ./alchemy.md#bien-etre-des-chevaux "Horsepower potion"
 [élixir de pouvoir]: ./alchemy.md#elixir-de-pouvoir "Elixir of power"

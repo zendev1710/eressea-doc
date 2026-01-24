@@ -4,7 +4,7 @@ alias: conseils-pour-debutants
 ---
 # Conseils pour débutants
 
-Lors de la saisie des commandes, assure-toi d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
+Lorsque tu renseignes les ordres, assure-toi d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
 [[cmd-password|Définis un mot de passe]] et n'oublie pas de le mémoriser.  
 
 C'est plus intéressant pour tout le monde si tu donnes des noms originaux à ta faction et à toutes tes unités.  
@@ -16,7 +16,7 @@ On t'y donnera sans aucun doute des conseils pour tes premiers pas et tu auras l
 Tu peux également poser tes questions sur le [forum des Jeux PbEm].  
 Eressea y possède son propre sous-forum.  
 
-La plupart des joueurs utilisent[ [magellan]], un programme qui lit le CR (Computer Report), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
+La plupart des joueurs utilisent [[magellan]], un programme qui lit le CR (Computer Report), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
 
 Il y a ensuite [[echeck]], un programme qui te permet de vérifier la validité de tes ordres.  
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  
@@ -44,7 +44,7 @@ Il est également conseillé de construire des [[chateaux]] rapidement, au moins
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].  
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 
-Les unités aux compétences coûteuses, comme [[tactique|les Tacticiens]], [[liste-des-competences|les Alchimistes]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 pièces d'argent par tour).  
+Les unités aux compétences coûteuses, comme [[tactique|les Tacticiens]], [[liste-des-competences|les Alchimistes]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 silver par tour).  
 Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
 De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  
 
@@ -53,7 +53,7 @@ En d'autres termes, un plan pour protéger ta faction contre les attaques une fo
 
 Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
 Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.  
-Un bon point de départ pour ton nouveau fichier de commandes est le [[ordres|modèle d'évaluation]] ajouté à l'évaluation du tour suivant.  
+Un bon point de départ pour ton nouveau fichier d'ordres est le [[ordres|modèle d'évaluation]] ajouté à l'évaluation du tour suivant.  
 Pour chaque unité, tu peux également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  
 
 Exemple de commentaires :

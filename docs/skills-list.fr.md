@@ -328,7 +328,7 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 [haras]: ./buildings-others.md#haras
 [ressources minières]: ./resources.md#ressources-minieres
 [rassemblement]: ./war.md#aux-armes-eresseens
-[voler]: ./camouflage.md#vols-de-silver
+[voler]: ./camouflage.md#vol-de-silver
 
 [perception]: #perception
 [arme d'hast]: ./war-tables.md#armes-dhast

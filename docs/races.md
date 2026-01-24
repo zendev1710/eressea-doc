@@ -155,7 +155,7 @@ Continue reading: [Racial skill modifiers].
 [change their appearance]: ./cmd-hide.md
 [region's maximum]: ./world.md
 [magician]: ./magic.md
-[elven bows]: ./war-tables.md#weapon-properties
+[elven bows]: ./war-tables.md#weapons-summary-table
 [steal]: ./camouflage.md
 [ships]: ./ships.md
 [flee]: ./war.md#fleeing

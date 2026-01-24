@@ -26,7 +26,7 @@ alias: description-des-sorts
 *Tiredness (EN), Schwere Glieder (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort de combat provoque une fatigue intense chez certains ennemis pendant le combat.
+:   Ce sort de combat provoque une fatigue intense chez certains ennemis pendant le combat.  
     Les soldats tardent parfois à attaquer et se défendent mal.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -41,8 +41,8 @@ alias: description-des-sorts
 *Analyze Magic (EN), Magie analysieren (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort permet au mage de tenter de détecter les enchantements d'un seul objet spécifié.
-    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.
+:   Ce sort permet au mage de tenter de détecter les enchantements d'un seul objet spécifié.  
+    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
     Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -57,8 +57,8 @@ alias: description-des-sorts
 *Analyse Dreams (EN), Traumbilder analysieren (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le tisserand de rêves peut tenter de détecter les enchantements d'une seule unité.
-    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.
+:   Avec ce sort, le tisserand de rêves peut tenter de détecter les enchantements d'une seule unité.  
+    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
     Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -73,10 +73,10 @@ alias: description-des-sorts
 *Analyze Song of Life (EN), Gesang des Lebens analysieren (DE)*.
 <!-- cspell:enable -->
 
-:   Tous les êtres vivants ont leur propre chant de vie.
-    Il n’y a pas deux chansons identiques, même si toutes les chansons du même type sont similaires.
-    Chaque sort modifie ce chant d'une manière ou d'une autre et se révèle ainsi.
-    Ce chant aide à entendre les changements dans le chant de la vie d'une personne qui sont de nature magique.
+:   Tous les êtres vivants ont leur propre chant de vie.  
+    Il n’y a pas deux chansons identiques, même si toutes les chansons du même type sont similaires.  
+    Chaque sort modifie ce chant d'une manière ou d'une autre et se révèle ainsi.  
+    Ce chant aide à entendre les changements dans le chant de la vie d'une personne qui sont de nature magique.  
     Vous pourrez déchiffrer et démasquer tous les enchantements qui ne sont pas plus masqués que vos capacités.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -91,8 +91,8 @@ alias: description-des-sorts
 *Analysis (EN), Lied des Ortes analysieren (DE)*.
 <!-- cspell:enable -->
 
-:   Comme les êtres vivants, les bateaux, les bâtiments et même les régions ont leur propre chant, bien que beaucoup plus faible et plus difficile à entendre.
-    Et tout comme le chant de la vie d'une personne permet de savoir si elle est sous le charme, cela est également possible pour les châteaux, les bateaux ou les régions.
+:   Comme les êtres vivants, les bateaux, les bâtiments et même les régions ont leur propre chant, bien que beaucoup plus faible et plus difficile à entendre.  
+    Et tout comme le chant de la vie d'une personne permet de savoir si elle est sous le charme, cela est également possible pour les châteaux, les bateaux ou les régions.  
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D |
 |:---:|-------------|-----:|-------:|:----:|:-------------------|:--|
@@ -106,8 +106,8 @@ alias: description-des-sorts
 *Antimagic (EN), Astrale Schwächezone (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort le mage peut créer une zone d'affaiblissement Astral, un déséquilibre local dans le champ Astral.
-    Cette zone s'efforcera de revenir à l'équilibre.
+:   Avec ce sort le mage peut créer une zone d'affaiblissement Astral, un déséquilibre local dans le champ Astral.  
+    Cette zone s'efforcera de revenir à l'équilibre.  
     Pour ce faire, il supprimera une partie de la force de chaque sort lancé dans cette région et même absorbera complètement les plus faibles.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D                  |
@@ -122,7 +122,7 @@ alias: description-des-sorts
 *(EN), Aufruhr beschwichtigen (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.
+:   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
     Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
@@ -137,8 +137,8 @@ alias: description-des-sorts
 *(EN),  (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de ce chant magique, le mage met toute une région en ébullition.
-    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.
+:   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
+    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
     Après quelques semaines, la foule se calme à nouveau.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
@@ -155,8 +155,8 @@ alias: description-des-sorts
 *Banish Spirits (EN), Geister bannen (DE)*.
 <!-- cspell:enable -->
 
-:   Selon les anciens enseignements des druides, ce que les êtres ordinaires appellent magie est constitué d'esprits élémentaires.
-    Le mage les évoque et les bannit sous une forme permettant d'obtenir l'effet souhaité. Ce rituel est capable de chasser les esprits élémentaires invoqués dans ce monde afin de libérer un objet de la magie.
+:   Selon les anciens enseignements des druides, ce que les êtres ordinaires appellent magie est constitué d'esprits élémentaires.  
+    Le mage les évoque et les bannit sous une forme permettant d'obtenir l'effet souhaité. Ce rituel est capable de chasser les esprits élémentaires invoqués dans ce monde afin de libérer un objet de la magie.  
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D                  |
 |:---:|-------------|-----:|-------:|:----:|:-------------------|:-------------------|
@@ -165,12 +165,13 @@ alias: description-des-sorts
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Bâton de Mallorn  
+
 <!-- TODO: check if it's really mallorn quarterstaff -->
 <!-- cspell:disable -->
 *Mallorn quarterstaff (EN), Segne Mallornstecken (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel augmente plusieurs fois l'effet de la potion magique.
+:   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
 | Éc. | Composants                                | Niv. |   Type | Rang | B | D                  |
@@ -185,16 +186,16 @@ alias: description-des-sorts
 *(EN), Belebtes Gestein (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel énergivore utilise une boule de laen concentré pour invoquer un énorme élémentaire de terre et le bannir dans un bâtiment.
-    L'élémentaire peut alors recevoir l'ordre de transporter le bâtiment et tous ses habitants vers une région voisine.
-    La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum [Niveau - 12] X Déplacer des bâtiments de taille 250.
+:   Ce rituel énergivore utilise une boule de laen concentré pour invoquer un énorme élémentaire de terre et le bannir dans un bâtiment.  
+    L'élémentaire peut alors recevoir l'ordre de transporter le bâtiment et tous ses habitants vers une région voisine.  
+    La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
 | Éc. | Composants                               | Niv. |   Type | Rang | B | D |
 |:---:|------------------------------------------|-----:|-------:|:----:|:--|:--|
 |  T  | 10 x N auras, 1 aura permanent, 5 [laen] |   13 | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
+`CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
 ### Bénédiction de la terre
 
@@ -203,7 +204,7 @@ alias: description-des-sorts
 <!-- cspell:enable -->
 
 <!-- TODO: check description -->
-:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.
+:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D                  |
@@ -218,9 +219,9 @@ alias: description-des-sorts
 *(EN), Beschwöre Schattenmeister (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.
-    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.
-    Au combat, les maîtres de l’ombre sont des adversaires redoutés.
+:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.  
+    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.  
+    Au combat, les maîtres de l’ombre sont des adversaires redoutés.  
     Ils sont difficiles à frapper et drainent la force et la vie de leur adversaire.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -249,7 +250,7 @@ alias: description-des-sorts
 *Air Shield (EN), Windschild (DE)*.
 <!-- cspell:enable -->
 
-:   Invoque les esprits élémentaires du vent.
+:   Invoque les esprits élémentaires du vent.  
     Invoque des rafales de vent soudaines, de petites rafales de vent et des évents qui gêneront les archers adverses.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D |
@@ -265,7 +266,7 @@ alias: description-des-sorts
 *Armor Shield (EN), Rüstschild (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.
+:   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.  
     Chaque coup réduit la puissance du sort, le bouclier se dissipera donc à un moment donné du combat.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -280,9 +281,9 @@ alias: description-des-sorts
 *Shield of the Fish (EN), Schild des Fisches (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes, tout comme le poisson dans l'eau n'est pas là où il semble être.
-    De cette façon, la moitié des dégâts de chaque coup peuvent être rendus inoffensifs.
-    Mais le bouclier ne peut résister que quelques centaines de coups d’épée, après quoi il se désintègre.
+:   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes, tout comme le poisson dans l'eau n'est pas là où il semble être.  
+    De cette façon, la moitié des dégâts de chaque coup peuvent être rendus inoffensifs.  
+    Mais le bouclier ne peut résister que quelques centaines de coups d’épée, après quoi il se désintègre.  
     Plus le mage est fort, plus le bouclier peut résister aux dégâts.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -327,7 +328,7 @@ alias: description-des-sorts
 *Shapeshift (EN), Gestaltwandlung (DE)*.
 <!-- cspell:enable -->
 
-:   Avec l’aide de ce rituel mystérieux, le tisserand de rêves est capable de dissimuler la véritable forme d’un groupe.
+:   Avec l’aide de ce rituel mystérieux, le tisserand de rêves est capable de dissimuler la véritable forme d’un groupe.  
     Pour les observateurs inexpérimentés, elle semble alors appartenir à une race différente.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -342,8 +343,8 @@ alias: description-des-sorts
 *Appeasing Song (EN), Friedenslied (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson apprivoise même l'orque le plus sauvage et le rend paisible et doux.
-    Toute idée de nuire au chanteur disparaîtra.
+:   Cette chanson apprivoise même l'orque le plus sauvage et le rend paisible et doux.  
+    Toute idée de nuire au chanteur disparaîtra.  
     Le mage peut se déplacer sans encombre dans une région voisine.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -358,7 +359,7 @@ alias: description-des-sorts
 *Song of Fear (EN), Gesang der Angst (DE)*.
 <!-- cspell:enable -->
 
-:   Ce chant de guerre sème la panique sur les lignes de front ennemies et affaiblit ainsi considérablement leur force de combat.
+:   Ce chant de guerre sème la panique sur les lignes de front ennemies et affaiblit ainsi considérablement leur force de combat.  
     La peur affaiblira leur bras d’épée et la peur paralysera leur bras de bouclier.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -373,8 +374,8 @@ alias: description-des-sorts
 *Song of Confusion (EN), Gesang der Verwirrung (DE)*.
 <!-- cspell:enable -->
 
-:   Ce chant magique est issu des anciens chants des chats et, utilisé avant un combat, peut apporter des avantages stratégiques décisifs.
-    Quiconque est sous l'influence de cette chanson ne prêtera pas attention à la mélodie de son environnement, son esprit deviendra confus et cédera de manière erratique à des inspirations soudaines.
+:   Ce chant magique est issu des anciens chants des chats et, utilisé avant un combat, peut apporter des avantages stratégiques décisifs.  
+    Quiconque est sous l'influence de cette chanson ne prêtera pas attention à la mélodie de son environnement, son esprit deviendra confus et cédera de manière erratique à des inspirations soudaines.  
     On dit que des armées bien ordonnées ont soudainement trouvé leurs archers loin devant et leur cavalerie jouant aux cartes avec les gardes du camp (ou leur chef dormant dans le camp abandonné depuis longtemps, comme cela se serait effectivement produit lors des grandes guerres de l'Ancien Monde).
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -389,7 +390,7 @@ alias: description-des-sorts
 *Countersong (EN), Bannlied (DE)*.
 <!-- cspell:enable -->
 
-:   Ce chant strident résonne sur tout le champ de bataille.
+:   Ce chant strident résonne sur tout le champ de bataille.  
     Les dissonances particulières des mélodies rendent presque impossible aux mages de se concentrer sur leurs sorts.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -404,8 +405,8 @@ alias: description-des-sorts
 *Song of Courting (EN), Gesang des Werbens (DE)*.
 <!-- cspell:enable -->
 
-:   Extrait « Des Chants des Anciens » de Firudin le Sage :
-    « Cette petite mélodie séduisante et quelques mots insinuants vainquent en un instant la méfiance des paysans.
+:   Extrait « Des Chants des Anciens » de Firudin le Sage :  
+    « Cette petite mélodie séduisante et quelques mots insinuants vainquent en un instant la méfiance des paysans.  
     Ils vous rejoindront avec enthousiasme et laisseront eux-mêmes leur maison et leur cour en ruines. »
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -420,7 +421,7 @@ alias: description-des-sorts
 *Song of Generosity (EN), Hohes Lied der Gaukelei (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson joyeuse se répandra comme une rumeur dans toute la région et mettra le monde entier dans une ambiance de fête.
+:   Cette chanson joyeuse se répandra comme une rumeur dans toute la région et mettra le monde entier dans une ambiance de fête.  
     Les tavernes et les théâtres seront partout pleins et même les mendiants seront nourris.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D                  |
@@ -435,8 +436,8 @@ alias: description-des-sorts
 *Song of Healing (EN), Lied der Heilung (DE)*.
 <!-- cspell:enable -->
 
-:   Il n'y a pas que le médecin qui peut aider les blessés au combat.
-    Les bardes connaissent diverses chansons qui soutiennent les pouvoirs d'auto-guérison du corps.
+:   Il n'y a pas que le médecin qui peut aider les blessés au combat.  
+    Les bardes connaissent diverses chansons qui soutiennent les pouvoirs d'auto-guérison du corps.  
     Ce chant peut refermer des blessures, réparer des os brisés et régénérer même des membres sectionnés.
 
 | Éc. | Composants | Niv. |    Type | Rang | B | D |
@@ -451,9 +452,9 @@ alias: description-des-sorts
 *Song of War (EN), Kriegsgesang (DE)*.
 <!-- cspell:enable -->
 
-:   Comme beaucoup de chansons magiques, celle-ci vient également de la connaissance ancienne des chats, qui connaissent depuis toujours les puissants effets de la voix.
-    Cette chanson attise l'humeur des guerriers, les plongeant même dans une frénésie sauvage et une soif de sang.
-    Indépendamment de leur propre souffrance, ils se battront jusqu’à la mort et ne fuiront jamais.
+:   Comme beaucoup de chansons magiques, celle-ci vient également de la connaissance ancienne des chats, qui connaissent depuis toujours les puissants effets de la voix.  
+    Cette chanson attise l'humeur des guerriers, les plongeant même dans une frénésie sauvage et une soif de sang.  
+    Indépendamment de leur propre souffrance, ils se battront jusqu’à la mort et ne fuiront jamais.  
     Alors que leur attaque s’intensifie, ils ne prêtent que peu d’attention à eux-mêmes.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -468,7 +469,7 @@ alias: description-des-sorts
 *Song of Seduction (EN), Lied der Verführung (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson peut être utilisée pour charmer une unité afin qu'elle donne la plupart de son argent et de ses biens au barde.
+:   Cette chanson peut être utilisée pour charmer une unité afin qu'elle donne la plupart de son argent et de ses biens au barde.  
     Cependant, elle garde toujours ce dont elle a besoin pour survivre.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -483,8 +484,8 @@ alias: description-des-sorts
 *Song of Terror (EN), Gesang der Furcht (DE)*.
 <!-- cspell:enable -->
 
-:   Une chanson très puissante issue des traditions des chats qui pénètre profondément dans le cœur des ennemis et leur prive de courage et d'espoir.
-    La peur les fera trembler et la panique dominera leurs pensées.
+:   Une chanson très puissante issue des traditions des chats qui pénètre profondément dans le cœur des ennemis et leur prive de courage et d'espoir.  
+    La peur les fera trembler et la panique dominera leurs pensées.  
     Pleins de peur, ils tenteront d’échapper aux chants horribles et de s’enfuir.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -499,7 +500,7 @@ alias: description-des-sorts
 *Epic Heroes (EN), Heldengesang (DE)*.
 <!-- cspell:enable -->
 
-:   Cet ancien chant de bataille remonte le moral de vos troupes et les aide également à résister à l'aura effrayante des êtres démoniaques et morts-vivants.
+:   Cet ancien chant de bataille remonte le moral de vos troupes et les aide également à résister à l'aura effrayante des êtres démoniaques et morts-vivants.  
 Un guerrier aussi solide ne fuira pas même dans des situations difficiles et son comportement réfléchi lui donnera de nombreux avantages en défense.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -522,13 +523,13 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
-### chatsog <!-- TODO -->
+### Chaossog <!-- TODO -->
 
 <!-- cspell:disable -->
 *(EN), Chaossog (DE)*.
 <!-- cspell:enable -->
 
-:   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.
+:   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
     Le portail peut être utilisé la semaine suivante, il se dissout à la fin de la semaine suivante.
 
 | Éc. | Composants             | Niv. |   Type | Rang | B | D |
@@ -543,7 +544,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Castle of Illusion (EN), Traumschlößchen (DE)*.
 <!-- cspell:enable -->
 
-:   Avec l'aide de ce sort, le tisserand de rêves peut créer l'illusion de n'importe quel bâtiment.
+:   Avec l'aide de ce sort, le tisserand de rêves peut créer l'illusion de n'importe quel bâtiment.  
     L'illusion peut être saisie, mais elle est par ailleurs non fonctionnelle et ne nécessite aucun entretien.
     Cela durera quelques semaines.
 
@@ -551,15 +552,16 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |:---:|------------|-----:|-------:|:----:|:--|:--|
 |  I  | 3 auras    |    3 | Normal |  5   |   |   |
 
-`CAST "Castle of Illusion" <Gebäudetyp>`  
+`CAST "Castle of Illusion" <building-type>`  
 
 ### Chevaliers de l'Ombre
 
+<!-- TODO: checkif it is Schattenritter or Schattenritteren for German CAST -->
 <!-- cspell:disable -->
 *Shadow Knights (EN), Schattenritteren (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes.
+:   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes.  
     Les Chevaliers de l'Ombre n'ont aucune attaque efficace et être blessés au combat les détruira instantanément.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -568,14 +570,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-### Créer des [[iron-golem]]
+### Créer des [[golem-de-fer]]
 
 <!-- cspell:disable -->
 *Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
 <!-- cspell:enable -->
 <!-- TODO: fix MAKE orders -->
-:   Plus le mage investit de puissance, plus de golems peuvent être créés.
-    Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.
+:   Plus le mage investit de puissance, plus de golems peuvent être créés.  
+    Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
 
 | Éc. | Composants                            | Niv. |   Type | Rang | B | D |
@@ -584,16 +586,16 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
-### Créer des [[stone-golem]]
+### Créer des [[golem-de-pierre]]
 
 <!-- cspell:disable -->
 *Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
 <!-- cspell:enable -->
 
-:   "Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.
-    Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."
-    Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.
-    Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.
+:   "Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.  
+    Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."  
+    Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.  
+    Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
 
 | Éc. | Composants                                       | Niv. |   Type | Rang | B | D |
@@ -602,14 +604,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
-### Créer un [[ring-of-invisibility]]
+### Créer un [anneau d'Invisibilité]
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un anneau d'invisibilité.
-    Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+    Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
 |  Éc.   | Composants                               | Niv. |   Type | Rang | B                  | D |
@@ -618,27 +620,28 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create A Ring of Invisibility"`  
 
-### Créer un [[ring-of-power]]
+### Créer un [[anneau-de-pouvoir]]
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Ring of Power (EN), Erschaffe einen Ring der Macht (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel puissant crée un anneau de pouvoir. Un anneau de pouvoir augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
+:   Ce rituel puissant crée un [[anneau-de-pouvoir]].  
+    Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
 
-| Éc. | Composants                               | Niv. |   Type | Rang | B                  | D |
-|:---:|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-|  T  | 100 auras, 1 aura permanent, 4000 silver |    9 | Normal |  5   | :heavy_check_mark: |   |
+| Éc. | Composants                                | Niv. |   Type | Rang | B                  | D |
+|:---:|-------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+|  T  | 100 auras, 1 aura permanent, 4 000 silver |    9 | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A Ring of Power"`  
 
-### Créer un [[antimagic-crystal]]
+### Créer un [Cristal d'Antimagie]
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce sort, le mage draine un cristal de quartz de toutes ses énergies magiques.
+:   À l'aide de ce sort, le mage draine un cristal de quartz de toutes ses énergies magiques.  
     Le cristal, une fois broyé en une fine poussière et dispersé, absorbera les énergies magiques libérées lors du lancement et réduira la puissance de tous les sorts lancés dans la région cette semaine-là.
 
 | Éc. | Composants             | Niv. |   Type | Rang | B                  | D |
@@ -647,31 +650,31 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create An Antimagic Crystal"`  
 
-### Créer un [[dreameye]]
+### Créer un [DreamEye]
 
 <!-- cspell:disable -->
 *Create A DreamEye (EN), Erschaffe ein Traumauge (DE)*.
 <!-- cspell:enable -->
 
-:   Un œil de dragon lancé avec ce sort est consommé lors de la communion, ce qui permet à l'utilisateur d'entrer et de lire les rêves d'une autre personne.
-    Pendant longtemps, une telle capacité a été considérée comme inutile jusqu'à ce que l'ancien maître de la magie de combat des Elfes des bois, Liarana Sundew de l'Académie Thall, présente une application spéciale :
-    les généraux rêvent souvent sans relâche avant les batailles majeures et révèlent leurs plans dans leurs rêves.
-    Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.
+:   Un œil de dragon lancé avec ce sort est consommé lors de la communion, ce qui permet à l'utilisateur d'entrer et de lire les rêves d'une autre personne.  
+    Pendant longtemps, une telle capacité a été considérée comme inutile jusqu'à ce que l'ancien maître de la magie de combat des Elfes des bois, Liarana Sundew de l'Académie Thall, présente une application spéciale :  
+    les généraux rêvent souvent sans relâche avant les batailles majeures et révèlent leurs plans dans leurs rêves.  
+    Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.  
     Mais attention : interpréter les rêves est une affaire difficile.
 
-| Éc. | Composants                             | Niv. |   Type | Rang | B                  | D |
-|:---:|----------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-|  I  | 1 [tête de dragon], 5 auras permanents |   14 | Normal |  5   | :heavy_check_mark: |   |
+| Éc. | Composants                               | Niv. |   Type | Rang | B                  | D |
+|:---:|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+|  I  | 1 [[tete-de-dragon]], 5 auras permanents |   14 | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A DreamEye"`  
 
-### Créer un [[magical-herb-pouch]]
+### Créer un [[sac-a-herbes-magique]]
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Create A magical Herb Pouch (EN), Erschaffe einen magischen Kräuterbeutel (DE)*.
 <!-- cspell:enable -->
 
-:   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.
+:   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.  
     Il utilise désormais le cuir ainsi préparé pour fabriquer un petit sac qui permet de mieux conserver les herbes qui y sont stockées.
 
 | Éc. | Composants                                 | Niv. |   Type | Rang | B                  | D |
@@ -680,14 +683,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create A magical Herb Pouch"`
 
-### Créer un [[negative-weight-bag]] <!-- TODO: check -->
+### Créer un [[sac-a-poids-negatif]] <!-- TODO: check -->
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Create A Bag of Negative Weight (EN), Erschaffe einen Beutel des Negativen Gewichts (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sac renferme un petit pli dimensionnel dans lequel jusqu'à 200 unités de poids peuvent être transportées sans être comptées dans le poids transporté.
-    Les chevaux et autres êtres vivants ainsi que les objets particulièrement volumineux (chars et catapultes) ne peuvent pas être transportés dans le sac.
+:   Ce sac renferme un petit pli dimensionnel dans lequel jusqu'à 200 unités de poids peuvent être transportées sans être comptées dans le poids transporté.  
+    Les chevaux et autres êtres vivants ainsi que les objets particulièrement volumineux (chars et catapultes) ne peuvent pas être transportés dans le sac.  
     Il n'est pas non plus possible de transporter un sac magique dans un autre. Le sac lui-même pèse 1 kg.
 
 | Éc. | Composants                               | Niv. |   Type | Rang | B                  | D |
@@ -696,29 +699,30 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
-### Créer une [[amulet-of-true-sight]]
+### Créer une [[amulette-de-vision-decuplee]]
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].
-    L'amulette permet au porteur de voir toutes les unités protégées par un anneau d'invisibilité.
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
     Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
 
-| Éc. | Composants                               | Niv. |   Type | Rang | B                  | D |
-|:---:|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-|  C  | 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+<!-- TODO: check if it's only Cerdorr or not -->
+|  Éc.   | Composants                               | Niv. |   Type | Rang | B                  | D |
+|:------:|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| \*[^1] | 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Créer une [[belt-of-troll-strength]]
+### Créer une [[ceinture-de-force-de-troll]]
 
 <!-- cspell:disable -->
 *Create A Belt of Troll Strength (EN), Erschaffe einen Gürtel der Trollstärke (DE)*.
 <!-- cspell:enable -->
 
-:   Cet artefact magique confère à son porteur la force d'un Troll des Cavernes adulte.
+:   Cet artefact magique confère à son porteur la force d'un Troll des Cavernes adulte.  
     Sa capacité de charge est multipliée par 50 et sa force accrue et sa peau résistante aux trolls auront également un effet positif au combat.
 
 | Éc. | Composants                 | Niv. |   Type | Rang | B                  | D |
@@ -727,13 +731,13 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create A Belt of Troll Strength"`  
 
-### Créer une [[flaming-sword]]
+### Créer une [[epee-de-flammes]]
 
 <!-- cspell:disable -->
 *Create A Flaming Sword (EN), Erschaffe ein Flammenschwert (DE)*.
 <!-- cspell:enable -->
 
-:   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.
+:   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.  
     Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
 
 | Éc. | Composants                                                   | Niv. |   Type | Rang | B                  | D |
@@ -742,17 +746,18 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Create A Flaming Sword"`  
 
-### Créer une [[sphere-of-invisibility]]
+### Créer une [Sphère d'Invisibilité]
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer une sphère d'invisibilité. La sphère rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité].  
+    Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
 | Éc. | Composants                                   | Niv. |   Type | Rang | B                  | D |
 |:---:|----------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 13  | 150 auras, 30 000 silver, 3 auras permanents |      | Normal |  5   | :heavy_check_mark: |   |
+|  I  | 150 auras, 30 000 silver, 3 auras permanents |   13 | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -764,7 +769,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Rain Dance (EN), Regentanz (DE)*.
 <!-- cspell:enable -->
 
-:   Cet ancien rituel de danse invoque les forces de vie et de fertilité.
+:   Cet ancien rituel de danse invoque les forces de vie et de fertilité.  
     Les rendements des agriculteurs seront nettement meilleurs pendant plusieurs semaines.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D                  |
@@ -793,8 +798,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Airship (EN), Luftschiff (DE)*.
 <!-- cspell:enable -->
 
-:   Ces runes magiques font voler un bateau ou une chaloupe pendant une semaine.
-    Cela peut alors également être utilisé pour traverser des terres.
+:   Ces runes magiques font voler un bateau ou une chaloupe pendant une semaine.  
+    Cela peut alors également être utilisé pour traverser des terres.  
     Pour la couleur des runes, une encre spéciale doit être mélangée à partir d'un chou à la crème et d'un cristal de neige.
 
 | Éc. | Composants                                           | Niv. |   Type | Rang | B                  | D |
@@ -823,7 +828,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Silence Dissonance (EN), Lebenslied festigen (DE)*.
 <!-- cspell:enable -->
 
-:   Chaque enchantement affecte le Chant de Vie, l'affaiblissant et le déformant.
+:   Chaque enchantement affecte le Chant de Vie, l'affaiblissant et le déformant.  
     Le barde expérimenté peut tenter de capturer et d’amplifier le chant de la vie et d’effacer les changements du chant.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D                  |
@@ -834,14 +839,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 ### Divination
 
-<!-- TODO: understand why it's not in any magic school -->
+<!-- TODO: check if it is Wahrsagen or Weissagung in CAST german order -->
 <!-- cspell:disable -->
 *Divination (EN), Weissagung (DE)*.
 <!-- cspell:enable -->
 
-:   Personne ne peut interpréter les rêves aussi bien qu’un magicien Illaun.
-    Il connaît également l'art de la divination, la lecture de cartes et la lecture de la paume.
-    En échange, les agriculteurs lui paient 50 pièces d'argent par niveau.
+:   Nul ne sait interpréter les rêves aussi bien qu'un mage Illaun.  
+    Il maîtrise également l'art de la divination, de la cartomancie et de la chiromancie.  
+    Pour cela, les paysans lui versent 50 silver par niveau.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
 |:---:|------------|-----:|-------:|:----:|:-------------------|:--|
@@ -855,9 +860,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Miracle Doctor (EN), Wunderdoktor (DE)*.
 <!-- cspell:enable -->
 
-:   Si l'alchimiste ne peut pas vous aider, vous vous adressez au savant mage Tybied.
-    Ses potions et teintures aident contre tout ce que vous ne pouvez pas obtenir autrement.
-    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.
+:   Si l'alchimiste ne peut pas vous aider, vous vous adressez au savant mage Tybied.  
+    Ses potions et teintures aident contre tout ce que vous ne pouvez pas obtenir autrement.  
+    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.  
     Cela aide certainement le mage... à remplir son portefeuille. Vous pouvez gagner 50 silver par niveau en une semaine.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -872,7 +877,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Chaos Gift (EN), Gabe des Chaos (DE)*.
 <!-- cspell:enable -->
 
-:   Le mage ouvre son esprit aux sphères du Chaos et disposera ainsi de plus de pouvoir magique pendant un certain temps.
+:   Le mage ouvre son esprit aux sphères du Chaos et disposera ainsi de plus de pouvoir magique pendant un certain temps.  
     Mais l’aide des Seigneurs des Sphères a un prix, et la phase de pouvoir est donc remplacée par une phase de faiblesse.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -880,23 +885,6 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |  D  | 6 auras    |    3 | Normal |  3   | :heavy_check_mark: |   |
 
 `CAST "Chaos Gift"`  
-
-### Drachenruf <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Drachenruf (DE)*.
-<!-- cspell:enable -->
-
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons].
-    Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.
-    On dit que les deux se sont déjà produits.
-    L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
-
-| Éc. | Composants                | Niv. |   Type | Rang | B | D                  |
-|:---:|---------------------------|-----:|-------:|:----:|:--|:-------------------|
-|  D  | 80 auras, 1 [Drachenkopf] |   11 | Normal |  5   |   | :heavy_check_mark: |
-
-`CAST [REGION x y] Drachenruf`  
 
 ## E
 
@@ -906,8 +894,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Sound out (EN), Aushorchen (DE)*.
 <!-- cspell:enable -->
 
-:   Si l'unité succombe au sort, elle dira au mage tout ce qu'elle sait sur la région en question.
-    S’il n’y a personne de son parti dans la région, elle n’a rien à signaler.
+:   Si l'unité succombe au sort, elle dira au mage tout ce qu'elle sait sur la région en question.  
+    S’il n’y a personne de son parti dans la région, elle n’a rien à signaler.  
     Elle ne peut également dire que ce qu'elle a pu voir elle-même.
 
 | Éc. | Composants          | Niv. |   Type | Rang | B | D |
@@ -922,7 +910,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Sleep (EN), Schlaf (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort endort certains combattants ennemis.
+:   Ce sort endort certains combattants ennemis.  
     Les combattants endormis n'attaquent pas et ont des défenses plus faibles, mais ils se réveillent dès qu'ils sont touchés au combat.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -937,7 +925,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Astral Guardian Spirits (EN), Astralschutzgeister (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel invoque des esprits élémentaires de magie et les envoie dans les rangs des mages ennemis.
+:   Ce rituel invoque des esprits élémentaires de magie et les envoie dans les rangs des mages ennemis.  
     Ces derniers auront bien plus de mal à lancer des sorts pendant toute la durée du combat.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -952,7 +940,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Awakening of the Ents (EN), Erwecke Ents (DE)*.
 <!-- cspell:enable -->
 
-:   Avec l'aide de ce sort, le druide réveille les Ents endormis dans les forêts de la région de leur sommeil éternel.
+:   Avec l'aide de ce sort, le druide réveille les Ents endormis dans les forêts de la région de leur sommeil éternel.  
     Les créatures sauvages des arbres le rejoindront et l’assisteront, mais après un certain temps, elles retomberont dans le sommeil.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -969,7 +957,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Feuerteufel (DE)*.
 <!-- cspell:enable -->
 
-:   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.
+:   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
     Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
 | Éc. | Composants          | Niv. |   Type | Rang | B | D                  |
@@ -984,7 +972,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Madness of War (EN), Wahnsinn des Krieges (DE)*.
 <!-- cspell:enable -->
 
-:   Devant les soldats ennemis, le mage noir sacrifie les dix pions dans un rituel sanglant et cruel et invoque ainsi les esprits de la folie sur les troupes ennemies.
+:   Devant les soldats ennemis, le mage noir sacrifie les dix pions dans un rituel sanglant et cruel et invoque ainsi les esprits de la folie sur les troupes ennemies.  
     Ils réagiront confusément au combat et seront incapables de suivre les ordres de leurs officiers.
 
 | Éc. | Composants             | Niv. |   Type | Rang | B | D |
@@ -999,7 +987,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Astral Leak (EN), Astraler Riss (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage noir peut provoquer une rupture dans le tissu magique, qui arrachera tout pouvoir magique de la région.
+:   Avec ce sombre rituel, le mage noir peut provoquer une rupture dans le tissu magique, qui arrachera tout pouvoir magique de la région.  
     Toutes les personnes douées pour la magie dans la région perdront une grande partie de leur aura.
 
 | Éc. | Composants                     | Niv. |   Type | Rang | B | D |
@@ -1010,14 +998,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 ## G
 
-### [[mountain-guard|Gardien de la Montagne]]
+### Gardien de la Montagne
 
 <!-- cspell:disable -->
 *Mountain Guardian (EN), Bergwächter (DE)*.
 <!-- cspell:enable -->
 
-:   Crée un esprit gardien qui empêche l'exploitation du fer et des métaux dans les glaciers et les montagnes par des factions non alliées (`HELP GUARD`) tant qu'il garde la région.
-    Le gardien de la montagne est lié au lieu de l'invocation.
+:   Crée un esprit gardien qui empêche l'exploitation du fer et des métaux dans les glaciers et les montagnes par des factions non alliées (`HELP GUARD`) tant qu'il garde la région.  
+    Le [Gardien de la Montagne] est lié au lieu de l'invocation.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D                  |
 |:---:|-------------|-----:|-------:|:----:|:--|:-------------------|
@@ -1031,7 +1019,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Gesang der Friedfertigkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort puissant empêche toute attaque. Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.
+:   Ce sort puissant empêche toute attaque.  
+    Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
     Les effets peuvent durer plusieurs semaines.
 
 | Éc. | Composants   | Niv. |   Type | Rang | B | D |
@@ -1046,7 +1035,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Gesang der Melancholie (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.
+:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
     Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
@@ -1061,7 +1050,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Gesang der Versklavung (DE)*.
 <!-- cspell:enable -->
 
-:   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.
+:   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
     Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir au groupe du barde.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1076,7 +1065,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Gesang des schwachen Geistes (DE)*.
 <!-- cspell:enable -->
 
-:   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.
+:   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
     Seuls les alliés du barde (`HELP GUARD`) sont immunisés contre l'effet de la chanson.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D                  |
@@ -1091,8 +1080,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Gesang des wachen Geistes (DE)*.
 <!-- cspell:enable -->
 
-:   Ce chant magique, autrefois chanté avec ferveur, va se répandre dans toute la région, sauter de bouche en bouche et se faire entendre partout pendant un moment.
-    Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.
+:   Ce chant magique, autrefois chanté avec ferveur, va se répandre dans toute la région, sauter de bouche en bouche et se faire entendre partout pendant un moment.  
+    Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.  
     Jusqu'à ce que la chanson disparaisse complètement, sa magie accordera à tous les alliés du barde (`HELP GUARD`), et bien sûr à son propre peuple, un bonus unique de 15 % à la résistance naturelle à un enchantement.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D                  |
@@ -1107,7 +1096,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Hail (EN), Hagel (DE)*.
 <!-- cspell:enable -->
 
-:   Au combat, le mage fait appel aux esprits élémentaires du froid et les lie à lui-même.
+:   Au combat, le mage fait appel aux esprits élémentaires du froid et les lie à lui-même.  
     Il peut alors leur ordonner d'attaquer l'ennemi avec des grêlons et des morceaux de glace.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1122,9 +1111,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Cattle Healing (EN), Viehheilung (DE)*.
 <!-- cspell:enable -->
 
-:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.
-    Leurs services sont souvent très demandés, notamment sur les marchés.
-    Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.
+:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.  
+    Leurs services sont souvent très demandés, notamment sur les marchés.  
+    Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.  
     Le mage peut gagner 50 silver par niveau.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -1139,7 +1128,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Heal (EN), Heilung (DE)*.
 <!-- cspell:enable -->
 
-:   Il n'y a pas que le médecin qui peut aider les blessés au combat.
+:   Il n'y a pas que le médecin qui peut aider les blessés au combat.  
     Les druides sont capables de refermer les blessures, de réparer les os brisés et de régénérer même les membres sectionnés en invoquant les esprits élémentaires de la vie.
 
 | Éc. | Composants | Niv. |    Type | Rang | B | D |
@@ -1155,22 +1144,22 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 <!-- cspell:enable -->
 
 <!-- TODO: trématode à nœuds ??? c'est quoi ? -->
-:   Enregistrement de la conférence de Selen Ard'Ragorn à Bar'Glingal :
-    « On dit que ce dicton trouve son origine dans les tavernes des rues de l'Ouest, mais il pourrait tout aussi bien provenir de n'importe quel autre quartier peu recommandable.
-    Son ingrédient le plus important est un tonneau du pire vin; plus l'essence est bon marché et malsaine, plus elle est puissante.
-    L'art de distiller ce vin jusqu'à son essence pure, bien plus exigeant qu'un simple mélange de recettes d'alchimiste,
-    et de le lier et de le conserver de telle manière qu'il ne s'évapore pas immédiatement comme c'est sa nature, oui, c'est quelque chose que seul un maître du Cerddor peut accomplir.
-    Vous possédez désormais une fiole contenant un reflet rouge rubis – enfin, pas liquide, mais pas vraiment de brume non plus – appelons-le simplement un élixir.
-    Mais ce n’est pas là le véritable défi; comme son effet se dissipe rapidement, il faut le glisser discrètement dans la boisson de la victime au bout de quelques jours.
-    Vous, maîtres de la tromperie et de la séduction, voici votre chance de véritablement démontrer votre art.
-    Mais attention, ne goûtez pas vous-même l'élixir de manière imprudente, car celui qui l'a goûté ne pourra jamais renoncer au vin et en boira sûrement pendant une semaine entière.
-    Cependant, le véritable danger inhérent à l’élixir n’est pas la tentation de boire, mais plutôt le fait que l’ivresse soit suivie aussi sûrement que le jour après la nuit d’un mal de tête vraiment terrible.
-    Et il aura presque certainement oublié certaines de ses meilleures capacités pendant quelques jours, voire deux semaines d'études.
+:   Enregistrement de la conférence de Selen Ard'Ragorn à Bar'Glingal :  
+    « On dit que ce dicton trouve son origine dans les tavernes des rues de l'Ouest, mais il pourrait tout aussi bien provenir de n'importe quel autre quartier peu recommandable.  
+    Son ingrédient le plus important est un tonneau du pire vin; plus l'essence est bon marché et malsaine, plus elle est puissante.  
+    L'art de distiller ce vin jusqu'à son essence pure, bien plus exigeant qu'un simple mélange de recettes d'alchimiste,  
+    et de le lier et de le conserver de telle manière qu'il ne s'évapore pas immédiatement comme c'est sa nature, oui, c'est quelque chose que seul un maître du Cerddor peut accomplir.  
+    Vous possédez désormais une fiole contenant un reflet rouge rubis – enfin, pas liquide, mais pas vraiment de brume non plus – appelons-le simplement un élixir.  
+    Mais ce n’est pas là le véritable défi; comme son effet se dissipe rapidement, il faut le glisser discrètement dans la boisson de la victime au bout de quelques jours.  
+    Vous, maîtres de la tromperie et de la séduction, voici votre chance de véritablement démontrer votre art.  
+    Mais attention, ne goûtez pas vous-même l'élixir de manière imprudente, car celui qui l'a goûté ne pourra jamais renoncer au vin et en boira sûrement pendant une semaine entière.  
+    Cependant, le véritable danger inhérent à l’élixir n’est pas la tentation de boire, mais plutôt le fait que l’ivresse soit suivie aussi sûrement que le jour après la nuit d’un mal de tête vraiment terrible.  
+    Et il aura presque certainement oublié certaines de ses meilleures capacités pendant quelques jours, voire deux semaines d'études.  
     Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhaitez lancer d'autres sorts dans la même semaine, ils seront plus difficiles pour vous. »
 
-| Éc. | Composants                                 | Niv. |   Type | Rang | B | D |
-|:---:|--------------------------------------------|-----:|-------:|:----:|:--|:--|
-|  C  | 28 auras, 3 [Knotige Saugwurze], 50 silver |    7 | Normal |  5   |   |   |
+| Éc. | Composants                               | Niv. |   Type | Rang | B | D |
+|:---:|------------------------------------------|-----:|-------:|:----:|:--|:--|
+|  C  | 28 auras, 3 [racines de nœud], 50 silver |    7 | Normal |  5   |   |   |
 
 `CAST Hangover <unit-id>`  
 
@@ -1182,8 +1171,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Undead Heroes (EN), Untote Helden (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel lie les âmes déjà en fuite de certaines victimes de la bataille à leurs cadavres, les ressuscitant à la vie des morts-vivants.
-    Qu’ils aient déjà combattu du côté de l’ennemi ou du leur n’a aucune importance pour le rituel.
+:   Ce rituel lie les âmes déjà en fuite de certaines victimes de la bataille à leurs cadavres, les ressuscitant à la vie des morts-vivants.  
+    Qu’ils aient déjà combattu du côté de l’ennemi ou du leur n’a aucune importance pour le rituel.  
 
 | Éc. | Composants | Niv. |    Type | Rang | B | D |
 |:---:|------------|-----:|--------:|:----:|:--|:--|
@@ -1197,8 +1186,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Hitzeelementar (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel invoque des élémentaires de chaleur en colère.
-    Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.
+:   Ce rituel invoque des élémentaires de chaleur en colère.  
+    Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.  
     Il n’y a pratiquement pas de travail dans l’agriculture pour les journaliers.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
@@ -1214,7 +1203,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 <!-- cspell:enable -->
 
 :   Extrait de « Errants » de Firudin le Sage :
-    « À Weilersweide, près du port de Wythar, il y a une petite auberge rarement visitée.
+    « À Weilersweide, près du port de Wythar, il y a une petite auberge rarement visitée.  
     Personne ne sait que jusqu'à il y a quelques années cette ferme était la maison du prédicateur itinérant banni Grauwolf. force de persuasion. »
 
 | Éc. | Composants   | Niv. |   Type | Rang | B | D |
@@ -1229,7 +1218,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Unspeakable Horrors (EN), Grauen der Schlacht (DE)*.
 <!-- cspell:enable -->
 
-:   Avant le combat, le tisserand de rêves évoque des illusions terrifiantes qui font paniquer de nombreux adversaires.
+:   Avant le combat, le tisserand de rêves évoque des illusions terrifiantes qui font paniquer de nombreux adversaires.  
     Les personnes touchées tenteront d’échapper aux mirages.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1244,7 +1233,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Timber Wolves (EN), Wolfsgeheul (DE)*.
 <!-- cspell:enable -->
 
-:   Au cours de leur vie dans la nature, de nombreux druides se lient d'amitié avec les plus anciens amis des grands peuples.
+:   Au cours de leur vie dans la nature, de nombreux druides se lient d'amitié avec les plus anciens amis des grands peuples.  
     Ils apprennent à invoquer plusieurs de leurs amis pour les aider au combat avec un seul appel hurlant.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1260,6 +1249,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 <!-- cspell:enable -->
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
+
 <!-- TODO: check values below -->
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
 |:---:|------------|-----:|-------:|:----:|:-------------------|:--|
@@ -1289,7 +1279,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Insomnia (EN), Schlechter Schlaf (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort provoque de l'insomnie et de l'agitation dans la zone touchée pendant quelques semaines.
+:   Ce sort provoque de l'insomnie et de l'agitation dans la zone touchée pendant quelques semaines.  
     Les personnes concernées ont beaucoup plus de mal à apprendre.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
@@ -1304,7 +1294,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Mind Probe (EN), Traumdeuten (DE)*.
 <!-- cspell:enable -->
 
-:   Grâce à ce sort, le tisserand de rêves pénètre dans les pensées et le monde onirique de sa victime et peut ainsi espionner ses secrets les plus intimes.
+:   Grâce à ce sort, le tisserand de rêves pénètre dans les pensées et le monde onirique de sa victime et peut ainsi espionner ses secrets les plus intimes.  
     Ses capacités, ses possessions et son affiliation à un parti ne seront plus incertaines.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1319,8 +1309,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Astral Call (EN), Astraler Ruf (DE)*.
 <!-- cspell:enable -->
 
-:   Un mage qui se trouve dans le plan Astral peut utiliser ce sort pour lui amener d'autres unités.
-    Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.
+:   Un mage qui se trouve dans le plan Astral peut utiliser ce sort pour lui amener d'autres unités.  
+    Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 13 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1335,14 +1325,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Summon Water Elemental (EN), Beschwörung eines Wasserelementares (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce rituel, le mage force les esprits élémentaires de l'eau à son service et les amène à transporter plus rapidement le bateau spécifié sur l'eau.
+:   Avec ce rituel, le mage force les esprits élémentaires de l'eau à son service et les amène à transporter plus rapidement le bateau spécifié sur l'eau.  
     De plus, le bateau n’est pas affecté par des vents ou des courants défavorables.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
 |:---:|------------|-----:|-------:|:----:|:-------------------|:--|
 |  G  | N auras    |    4 | Normal |  5   | :heavy_check_mark: |   |
 
-`CAST [LEVEL n] Summon Water Elemental <ship-id>`  
+`CAST [LEVEL n] "Summon Water Elemental" <ship-id>`  
 
 ### Invocation de la Réalité
 
@@ -1350,7 +1340,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Call of Reality (EN), Ruf der Realität (DE)*.
 <!-- cspell:enable -->
 
-:   Un mage qui se trouve dans le monde matériel peut utiliser ce sort pour invoquer des unités du monde Astral adjacent.
+:   Un mage qui se trouve dans le monde matériel peut utiliser ce sort pour invoquer des unités du monde Astral adjacent.  
     Si le mage est suffisamment expérimenté pour lancer le sort à des niveaux de 13 ou plus, il peut forcer d'autres unités à entrer dans le monde matériel contre leur gré.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1365,9 +1355,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
 <!-- cspell:enable -->
 
-:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.
-    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.
-    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.
+:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.  
+    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
+    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
     Un esprit élémentaire est requis pour chaque vaisseau.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                      | D |
@@ -1382,7 +1372,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.
+:   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
     Ce tremblement de terre endommagera tous les bâtiments de la région.
 
 | Éc. | Composants         | Niv. |   Type | Rang | B | D                  |
@@ -1397,9 +1387,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Summon Shadowdemons (EN), Beschwöre Schattendämonen (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.
-    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.
-    Les démons de l’ombre sont des adversaires redoutés au combat.
+:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.  
+    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.  
+    Les démons de l’ombre sont des adversaires redoutés au combat.  
     Ils sont difficiles à toucher et drainent la puissance de leur adversaire.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1407,6 +1397,23 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |  D  | 3 x N auras |    8 | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
+
+### Invocation du Dragon
+
+<!-- cspell:disable -->
+*Dragon Call (EN), Drachenruf (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons].  
+    Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.  
+    On dit que les deux se sont déjà produits.  
+    L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
+
+| Éc. | Composants                     | Niv. |   Type | Rang | B | D                  |
+|:---:|--------------------------------|-----:|-------:|:----:|:--|:-------------------|
+|  D  | 80 auras, 1 [[tete-de-dragon]] |   11 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Dragon Call"`  
 
 ### Invocation du Familier
 
@@ -1430,8 +1437,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Jugglery (EN), Gaukeleien (DE)*.
 <!-- cspell:enable -->
 
-:   Les mages Cerddor sont les principaux jongleurs parmi les mages, ils aiment divertir les gens et être le centre d'attention.
-    Même les débutants apprennent les petits trucs et tours de magie qui peuvent être utilisés pour attirer et séduire les gens et leur faire ouvrir très grand leur portefeuille,
+:   Les mages Cerddor sont les principaux jongleurs parmi les mages, ils aiment divertir les gens et être le centre d'attention.  
+    Même les débutants apprennent les petits trucs et tours de magie qui peuvent être utilisés pour attirer et séduire les gens et leur faire ouvrir très grand leur portefeuille,  
     et à la fin de la semaine, le jongleur aura gagné 50 silver par niveau.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -1448,9 +1455,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Firun's Coat (EN), Firuns Fell (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.
-    Vous pouvez entrer dans les glaciers et y agir normalement. Le dicton fonctionne au niveau*10 insectes.
-    Un anneau de pouvoir augmente le nombre d'insectes enchantables de 10 supplémentaires.
+:   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
+    Vous pouvez entrer dans les glaciers et y agir normalement. Le dicton fonctionne au niveau*10 insectes.  
+    Un [Anneau de Pouvoir] augmente le nombre d'insectes enchantables de 10 supplémentaires.
 
 |  Éc.   | Composants  | Niv. |   Type | Rang | B                  | D |
 |:------:|-------------|-----:|-------:|:----:|:-------------------|:--|
@@ -1484,7 +1491,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |:---:|-------------|-----:|-------:|:----:|:--|:--|
 |  G  | 2 x N auras |    9 | Normal |  7   |   |   |
 
-`CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Ties of Life" <x> <y> <unit-id> [<unit-id> ...]`  
 
 ## M
 
@@ -1508,7 +1515,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Mahlstrom (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.
+:   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
     L'élémentaire crée un énorme tourbillon, un maelström, qui peut gravement endommager tous les bateaux qui le traversent.
 
 | Éc. | Composants                          | Niv. |   Type | Rang | B                      | D |
@@ -1537,7 +1544,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Chaos Curse (EN), Chaosfluch (DE)*.
 <!-- cspell:enable -->
 
-:   Cette malédiction insidieuse altère considérablement les capacités magiques de la victime.
+:   Cette malédiction insidieuse altère considérablement les capacités magiques de la victime.  
     Une zone magique de chaos autour de la victime réduit sa capacité de concentration et rend très difficile le lancement de sorts.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1566,15 +1573,15 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Miriams flinke Finger (DE)*.
 <!-- cspell:enable -->
 
-:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.
-    On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.
-    Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.
-    On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.
+:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
+    On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
+    Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
+    On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.  
     Les artisans peuvent ainsi produire dix fois plus, ce qui pourrait également être utile dans d'autres activités.
 
-| Éc. | Composants                              | Niv. |   Type | Rang | B                  | D |
-|:---:|-----------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-|  C  | 20 auras, 1000 silver, 1 aura permanent |   11 | Normal |  5   | :heavy_check_mark: |   |
+| Éc. | Composants                               | Niv. |   Type | Rang | B                  | D |
+|:---:|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+|  C  | 20 auras, 1 000 silver, 1 aura permanent |   11 | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Miriams flinke Finger"`  
 
@@ -1584,9 +1591,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Mob aufwiegeln (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.
-    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.
-    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.
+:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
+    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
+    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
     Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1601,8 +1608,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Calm Monster (EN), Monster friedlich stimmen (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson mélodieuse peut apprivoiser presque n'importe quel monstre intelligent.
-    Il s'abstiendra d'attaquer le mage et ne touchera pas ses compagnons.
+:   Cette chanson mélodieuse peut apprivoiser presque n'importe quel monstre intelligent.  
+    Il s'abstiendra d'attaquer le mage et ne touchera pas ses compagnons.  
     Mais ne vous y trompez pas, il restera toujours une créature imprévisible.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -1617,7 +1624,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Blabbermouth (EN), Plappermaul (DE)*.
 <!-- cspell:enable -->
 
-:   L'unité enchantée commence à babiller sans complexe, vous indiquant quelles compétences elle peut exercer, quel type d'objets elle transporte avec elle et si elle est douée en magie, même quels sorts elle peut utiliser.
+:   L'unité enchantée commence à babiller sans complexe, vous indiquant quelles compétences elle peut exercer, quel type d'objets elle transporte avec elle et si elle est douée en magie, même quels sorts elle peut utiliser.  
     Malheureusement, ce sort n'affecte pas la mémoire et, rétrospectivement, elle se rendra compte qu'elle en a trop dit.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1632,7 +1639,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Firewall (EN), Feuerwand (DE)*.
 <!-- cspell:enable -->
 
-:   L'assistant crée un mur de feu dans la direction spécifiée.
+:   L'assistant crée un mur de feu dans la direction spécifiée.  
     Cela fait mal à tous ceux qui le traversent.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1647,7 +1654,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Eternal Walls (EN), Mauern der Ewigkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette formule, le mage lie pour toujours les forces de la terre dans les murs du bâtiment.
+:   Avec cette formule, le mage lie pour toujours les forces de la terre dans les murs du bâtiment.  
     Un bâtiment ainsi enchanté est protégé contre les agressions du temps et ne nécessite plus aucun entretien.
 
 | Éc. | Composants                 | Niv. |   Type | Rang | B                  | D |
@@ -1664,7 +1671,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Shockwave (EN), Schockwelle (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort provoque une vague de puissance pure qui déferle sur les rangs ennemis.
+:   Ce sort provoque une vague de puissance pure qui déferle sur les rangs ennemis.  
     Le choc laissera de nombreux combattants tellement hébétés qu’ils seront incapables d’attaquer pendant un bref instant.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1679,7 +1686,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Opfere Kraft (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.
+:   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.  
     Il peut transférer la moitié de la puissance utilisée à un mage de la même École de Magie, et un tiers à d'autres mages.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1690,14 +1697,29 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 ## P
 
+### Peau d'écorce  <!-- TODO -->
+
+<!-- cspell:disable -->
+*(EN), Rindenhaut (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.  
+    Chaque coup réduit la puissance du sort, le bouclier finira donc par se dissiper au cours du combat.
+
+| Éc. | Composants  | Niv. |   Type | Rang | B | D |
+|:---:|-------------|-----:|-------:|:----:|:--|:--|
+|  G  | 4 x N auras |   12 | Pré-c. |  2   |   |   |
+
+`COMBATSPELL [LEVEL n] Rindenhaut`  
+
 ### Pentagramme
 
 <!-- cspell:disable -->
 *Pentagram (EN), Pentagramm (DE)*.
 <!-- cspell:enable -->
 
-:   Exactement à minuit, lorsque les pouvoirs des ténèbres sont à leur maximum, un mage noir peut également utiliser ses pouvoirs pour supprimer les enchantements.
-Pour ce faire, il dessine un pentagramme sur l'objet enchanté et commence par une invocation aux seigneurs des ténèbres.
+:   Exactement à minuit, lorsque les pouvoirs des ténèbres sont à leur maximum, un mage noir peut également utiliser ses pouvoirs pour supprimer les enchantements.  
+Pour ce faire, il dessine un pentagramme sur l'objet enchanté et commence par une invocation aux seigneurs des ténèbres.  
 Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquement de sa propre force.
 
 | Éc. | Composants   | Niv. |   Type | Rang | B                  | D                  |
@@ -1712,9 +1734,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Lesser Sacrifice (EN), Kleines Blutopfer (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce rituel, le mage peut sacrifier une partie de son énergie vitale afin d'acquérir un pouvoir magique.
-    Les mages rituels expérimentés rapportent que le rituel, une fois lancé, est difficile à contrôler et que la quantité de pouvoir gagnée varie considérablement.
-    Ainsi est-il écrit dans le « Livre du Sang » : « Qu'Il établisse donc le signe des quatre éléments dans le cercle de la création et de la décomposition et consacre chacun d'entre eux avec une goutte de sang.
+:   Avec ce rituel, le mage peut sacrifier une partie de son énergie vitale afin d'acquérir un pouvoir magique.  
+    Les mages rituels expérimentés rapportent que le rituel, une fois lancé, est difficile à contrôler et que la quantité de pouvoir gagnée varie considérablement.  
+    Ainsi est-il écrit dans le « Livre du Sang » : « Qu'Il établisse donc le signe des quatre éléments dans le cercle de la création et de la décomposition et consacre chacun d'entre eux avec une goutte de sang.  
     Alors laissez-le aller au milieu des Quatre Éternels et laissez la vie passer pour que la force puisse naître. »
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -1729,9 +1751,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Minor Curses (EN), Kleine Flüche (DE)*.
 <!-- cspell:enable -->
 
-:   Dans les ruelles les plus sombres, ils existent, les malédictions et les sortilèges sont faits sur commande.
-    Mais bien entendu le disciple de Draig propose aussi des contre-sorts.
-    Que le fils du voisin soit entraîné dans un sortilège d'amour ou que le rival ait des boutons et des verrues, personne n'aime admettre qu'il a eu recours à de telles mesures.
+:   Dans les ruelles les plus sombres, ils existent, les malédictions et les sortilèges sont faits sur commande.  
+    Mais bien entendu le disciple de Draig propose aussi des contre-sorts.  
+    Que le fils du voisin soit entraîné dans un sortilège d'amour ou que le rival ait des boutons et des verrues, personne n'aime admettre qu'il a eu recours à de telles mesures.  
     Pour ce service, le mage gagne 50 silver par niveau.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -1746,8 +1768,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Homestone (EN), Heimstein (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette formule, le mage lie à jamais les forces de la terre dans les murs du château dans lequel il se trouve actuellement.
-    Les murs ainsi renforcés ne peuvent être détruits ni par magie ni par l'artillerie lourde, et l'âge les affecte également moins.
+:   Avec cette formule, le mage lie à jamais les forces de la terre dans les murs du château dans lequel il se trouve actuellement.  
+    Les murs ainsi renforcés ne peuvent être détruits ni par magie ni par l'artillerie lourde, et l'âge les affecte également moins.  
     Le bâtiment offre également une meilleure protection contre les attaques à l’épée et à la magie.
 
 | Éc. | Composants                 | Niv. |   Type | Rang | B | D |
@@ -1762,11 +1784,11 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Rain of Rust (EN), Rostregen (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.
-    La pluie magique fera rouiller tout le minerai.
-    Les armes et armures en fer deviennent ébréchées et rouillées.
-    Le pouvoir destructeur de la pluie dépend de la puissance investie par le mage.
-    Jusqu'à 10 armes de fer peuvent être affectées pour chaque niveau.
+:   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.  
+    La pluie magique fera rouiller tout le minerai.  
+    Les armes et armures en fer deviennent ébréchées et rouillées.  
+    Le pouvoir destructeur de la pluie dépend de la puissance investie par le mage.  
+    Jusqu'à 10 armes de fer peuvent être affectées pour chaque niveau.  
     Un anneau de pouvoir augmente l'effet comme un niveau supplémentaire.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D                  |
@@ -1781,7 +1803,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Strong Wall And Sturdy Gate (EN), Starkes Tor und feste Mauer (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette formule, au début d'un combat, le mage lie des esprits élémentaires du rocher dans les murs du bâtiment dans lequel il se trouve actuellement.
+:   Avec cette formule, au début d'un combat, le mage lie des esprits élémentaires du rocher dans les murs du bâtiment dans lequel il se trouve actuellement.  
     Le bâtiment offre alors une meilleure protection contre les attaques à l'épée et à la magie.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1796,7 +1818,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Animate Dead (EN), Mächte des Todes (DE)*.
 <!-- cspell:enable -->
 
-:   Le mage noir doit passer des nuits à errer dans les cimetières et cimetières de la région afin de pouvoir faire revivre les cadavres déterrés.
+:   Le mage noir doit passer des nuits à errer dans les cimetières et cimetières de la région afin de pouvoir faire revivre les cadavres déterrés.  
     Les morts-vivants seront à son service, mais les non-informés doivent savoir qu'invoquer les forces de la mort peut être une arme à double tranchant.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D                  |
@@ -1808,10 +1830,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 ### Préservation du butin
 
 <!-- cspell:disable -->
-*Save Spoils (EN), Beschleunigung (DE)*.
+*Save Spoils (EN), Beute Bewahren (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort empêche certains objets qui autrement seraient détruits au combat d'être endommagés.
+:   Ce sort empêche certains objets qui seraient normalement détruits au combat de subir des dommages.  
     Les pertes sont réduites de 5 % par niveau du sort, jusqu'à un minimum de 25 %.
 
 | Éc. | Composants | Niv. |    Type | Rang | B | D |
@@ -1826,7 +1848,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Protection from Magic (EN), Schutz vor Magie (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort place un champ d'antimagie autour des mages ennemis, gênant considérablement leur lancement de sorts.
+:   Ce sort place un champ d'antimagie autour des mages ennemis, gênant considérablement leur lancement de sorts.  
     Seuls quelques-uns auront la force de pénétrer sur le terrain et d’aider leurs troupes au combat.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -1843,7 +1865,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Gaze of the Basilisk (EN), Blick des Basilisken (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort de combat difficile mais efficace utilise les esprits élémentaires de pierre pour transformer un certain nombre d'ennemis en pierre pendant toute la durée de la bataille.
+:   Ce sort de combat difficile mais efficace utilise les esprits élémentaires de pierre pour transformer un certain nombre d'ennemis en pierre pendant toute la durée de la bataille.  
     Les personnes touchées ne combattront plus, mais elles ne pourront pas non plus être blessées.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -1858,8 +1880,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Eternal Rest (EN), Seelenfrieden (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel magique apaise les âmes tourmentées de ceux qui sont morts violemment, leur permettant d'entamer leur dernier voyage vers les Autres Terres.
-    Environ 50 âmes trouveront la paix par niveau de sort.
+:   Ce rituel magique apaise les âmes tourmentées de ceux qui sont morts violemment, leur permettant d'entamer leur dernier voyage vers les Autres Terres.  
+    Environ 50 âmes trouveront la paix par niveau de sort.  
     Le sort ne peut pas racheter les morts-vivants déjà ressuscités car leurs liens avec ce monde sont trop forts.
 
 | Éc. | Composants                  | Niv. |   Type | Rang | B | D |
@@ -1874,8 +1896,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Resist Magic (EN), Schutzzauber (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort augmente votre résistance naturelle à la magie.
-    Une unité ainsi protégée est également moins vulnérable à la magie de combat.
+:   Ce sort augmente votre résistance naturelle à la magie.  
+    Une unité ainsi protégée est également moins vulnérable à la magie de combat.  
     Par niveau, le pouvoir du mage est suffisant pour protéger 5 personnes.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D |
@@ -1890,8 +1912,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Resurrection (EN), Wiederbelebung (DE)*.
 <!-- cspell:enable -->
 
-:   Si un guerrier meurt au combat, son âme commence le long voyage vers les étoiles.
-    À l'aide d'un rituel, un tisserand de rêves peut tenter de capturer l'âme et de la restituer dans le corps du défunt.
+:   Si un guerrier meurt au combat, son âme commence le long voyage vers les étoiles.  
+    À l'aide d'un rituel, un tisserand de rêves peut tenter de capturer l'âme et de la restituer dans le corps du défunt.  
     Bien que le sort ne soigne pas les blessures physiques, la personne soignée survivra au combat.
 
 | Éc. | Composants | Niv. |    Type | Rang | B | D |
@@ -1928,32 +1950,17 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
-### Rindenhaut  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Rindenhaut (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.
-    Chaque coup réduit la puissance du sort, le bouclier finira donc par se dissiper au cours du combat.
-
-| Éc. | Composants  | Niv. |   Type | Rang | B | D |
-|:---:|-------------|-----:|-------:|:----:|:--|:--|
-|  G  | 4 x N auras |   12 | Pré-c. |  2   |   |   |
-
-`COMBATSPELL [LEVEL n] Rindenhaut`  
-
 ### Ritual der Aufnahme  <!-- TODO -->
 
 <!-- cspell:disable -->
 *(EN), Ritual der Aufnahme (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.
-    Il le prouve en [[cmd-contact|**`CONTACTANT`**]] le mage.
-    Il sera également exclusivement occupé aux préparatifs du rituel tout au long de la semaine.
-    Le rituel échouera s’il est trop fortement lié à son ancienne faction, par exemple s’il leur doit des services en échange de son éducation coûteuse.
-    Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à son groupe.
+:   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
+    Il le prouve en [[cmd-contact|**`CONTACTANT`**]] le mage.  
+    Il sera également exclusivement occupé aux préparatifs du rituel tout au long de la semaine.  
+    Le rituel échouera s’il est trop fortement lié à son ancienne faction, par exemple s’il leur doit des services en échange de son éducation coûteuse.  
+    Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à son groupe.  
     Il peut accueillir une personne par niveau et par aura permanente.
 
 | Éc. | Composants                      | Niv. |   Type | Rang | B | D |
@@ -1968,9 +1975,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Protective Runes (EN), Runen des Schutzes (DE)*.
 <!-- cspell:enable -->
 
-:   Si vous dessinez ces runes sur les murs d’un bâtiment ou sur les planches d’un bateau, il sera plus difficile de les influencer par magie.
-    Chaque rituel augmente la résistance du bâtiment ou du bateau à l'enchantement de 20 %.
-    Si plusieurs sorts de protection sont superposés, leurs effets s'additionnent, mais une protection à 100 % ne peut pas être obtenue de cette façon.
+:   Si vous dessinez ces runes sur les murs d’un bâtiment ou sur les planches d’un bateau, il sera plus difficile de les influencer par magie.  
+    Chaque rituel augmente la résistance du bâtiment ou du bateau à l'enchantement de 20 %.  
+    Si plusieurs sorts de protection sont superposés, leurs effets s'additionnent, mais une protection à 100 % ne peut pas être obtenue de cette façon.  
     Le sort dure au moins trois semaines, mais selon la compétence du mage, il peut durer beaucoup plus longtemps.
 
 | Éc. | Composants | Niv. |   Type | Rang | B                  | D |
@@ -2015,8 +2022,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Segne Steinkreis (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.
-    La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.
+:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
+    La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
     On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
 
 | Éc. | Composants                    | Niv. |   Type | Rang | B | D |
@@ -2031,7 +2038,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Blood Frenzy (EN), Blutrausch (DE)*.
 <!-- cspell:enable -->
 
-:   Dans ce rituel sanglant, le mage sacrifie un nouveau-né devant son armée avant le combat.
+:   Dans ce rituel sanglant, le mage sacrifie un nouveau-né devant son armée avant le combat.  
     Les esprits du sang ainsi invoqués prendront possession des soldats et les plongeront dans une soif de sang.
 
 | Éc. | Composants            | Niv. |   Type | Rang | B | D |
@@ -2046,8 +2053,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Astral Exit (EN), Astraler Ausgang (DE)*.
 <!-- cspell:enable -->
 
-:   Le mage se concentre sur la structure de la réalité et peut ainsi quitter le plan Astral.
-    Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.
+:   Le mage se concentre sur la structure de la réalité et peut ainsi quitter le plan Astral.  
+    Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2062,8 +2069,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Störe Astrale Integrität (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort provoque de graves perturbations dans l'Astral.
-    Dans un rayon Astral de régions de niveau 5, tous les êtres astraux qui ne peuvent pas résister au sort sont expulsés du plan Astral.
+:   Ce sort provoque de graves perturbations dans l'Astral.  
+    Dans un rayon Astral de régions de niveau 5, tous les êtres astraux qui ne peuvent pas résister au sort sont expulsés du plan Astral.  
     Le contact Astral avec toutes les régions affectées est perturbé pendant le niveau/3 semaines.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -2078,8 +2085,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Süße Träume (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.
-    Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.
+:   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.  
+    Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.  
     La plupart du temps, ils le regrettent quelques semaines plus tard...
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2096,7 +2103,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Sacred Ground (EN), Heiliger Boden (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel convoque divers esprits de la nature dans le sol de la région, qui le gardent désormais.
+:   Ce rituel convoque divers esprits de la nature dans le sol de la région, qui le gardent désormais.  
     Dans une région aussi bénie, les morts ne quitteront plus jamais leurs tombes, et les morts-vivants apparus ailleurs les éviteront autant que possible.
 
 | Éc. | Composants                   | Niv. |   Type | Rang | B | D |
@@ -2111,9 +2118,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Tod des Geistes (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.
-    Une explosion d'énergie astrale et électrique frappe les adversaires;
-    si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.
+:   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.  
+    Une explosion d'énergie astrale et électrique frappe les adversaires;  
+    si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.  
     S'il est trop souvent victime de ce sort, il peut mourir.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2128,7 +2135,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Todeswolke (DE)*.
 <!-- cspell:enable -->
 
-:   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.
+:   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
     L'esprit se manifeste sous la forme d'un nuage vert vif au-dessus de la région et nuira à tous ceux qui entreront en contact avec lui.
 
 | Éc. | Composants      | Niv. |   Type | Rang | B | D                  |
@@ -2142,15 +2149,15 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 <!-- cspell:disable -->
 *(EN), Tor in die Ebene der Hitze (DE)*.
 <!-- cspell:enable -->
-
-:   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.
-    Une grande sécheresse s'annonce dans le pays.
-    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.
+<!-- TODO: confirm it's a gwyrrd only -->
+:   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
+    Une grande sécheresse s'annonce dans le pays.  
+    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
     La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D                  |
 |:---:|------------|-----:|-------:|:----:|:--|:-------------------|
-|  F  | 800 auras  |   17 | Normal |  5   |   | :heavy_check_mark: |
+|  G  | 800 auras  |   17 | Normal |  5   |   | :heavy_check_mark: |
 
 `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
@@ -2160,7 +2167,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Whirlwind (EN), Wirbelwind (DE)*.
 <!-- cspell:enable -->
 
-:   Cette incantation ouvre une porte vers le plan des esprits élémentaires du vent.
+:   Cette incantation ouvre une porte vers le plan des esprits élémentaires du vent.  
     Des vents violents, voire des tempêtes, se lèvent immédiatement dans la zone autour de la porte et gênent tous les archers dans la bataille.
 
 | Éc. | Composants | Niv. |   Type | Rang | B | D |
@@ -2219,7 +2226,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Unheilige Kraft (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.
+:   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
     En invoquant des démons impies, le pouvoir des morts-vivants est amplifié et ils se transforment en monstres morts-vivants d'une grande puissance.
 
 | Éc. | Composants                  | Niv. |   Type | Rang | B | D |
@@ -2236,7 +2243,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Winds of Rust (EN), Rosthauch (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.
+:   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.  
     La pluie magique fera rouiller tout le minerai, détruisant de nombreuses armes ennemies.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2251,8 +2258,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Astral Path (EN), Astraler Weg (DE)*.
 <!-- cspell:enable -->
 
-:   D'anciennes formules arcaniques permettent au mage de s'envoyer lui-même et les autres dans le plan Astral.
-    Le mage peut envoyer 15 kg par la porte brièvement créée.
+:   D'anciennes formules arcaniques permettent au mage de s'envoyer lui-même et les autres dans le plan Astral.  
+    Le mage peut envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2267,8 +2274,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Path of Trees (EN), Weg der Bäume (DE)*.
 <!-- cspell:enable -->
 
-:   Un grand pouvoir réside dans les endroits où la vie palpite.
-    Le druide peut collecter ce pouvoir et créer une passerelle vers le monde des êtres spirituels.
+:   Un grand pouvoir réside dans les endroits où la vie palpite.  
+    Le druide peut collecter ce pouvoir et créer une passerelle vers le monde des êtres spirituels.  
     Le druide peut alors niveau*Envoyer 5 unités de poids à travers la porte.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B | D |
@@ -2283,9 +2290,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Magic Path (EN), Magischer Pfad (DE)*.
 <!-- cspell:enable -->
 
-:   En accomplissant ces rituels, le mage est capable d'invoquer un puissant élémentaire de terre.
-    Tant que celle-ci sera bannie dans le sol, aucune pluie ne adoucira les sentiers et aucune rivière ne pourra détruire les ponts.
-    Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.
+:   En accomplissant ces rituels, le mage est capable d'invoquer un puissant élémentaire de terre.  
+    Tant que celle-ci sera bannie dans le sol, aucune pluie ne adoucira les sentiers et aucune rivière ne pourra détruire les ponts.  
+    Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.  
     Même les marécages et les glaciers peuvent être enchantés de cette façon. Plus le mage met de puissance dans le sort, plus le chemin dure longtemps.
 
 | Éc. | Composants                  | Niv. |   Type | Rang | B                  | D                  |
@@ -2316,7 +2323,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Wurzeln der Magie (DE)*.
 <!-- cspell:enable -->
 <!-- TODO: check 1 pot de bave de crapaud -->
-:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.
+:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
     Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
 
 | Éc. | Composants                                               | Niv. |   Type | Rang | B | D                  |
@@ -2333,7 +2340,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *(EN), Zeitdehnung (DE)*.
 <!-- cspell:enable -->
 
-:   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.
+:   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
     Les personnes ainsi modifiées obtiennent deux fois plus de points de mouvement et deux fois plus d'attaques par round pendant quelques semaines.
 
 | Éc. | Composants  | Niv. |   Type | Rang | B                  | D |
@@ -2355,6 +2362,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 [Dragons]: ./monsters.md#dragons
 [Ents]: ./monsters.md#ents
 [amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Vision"
+[anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
 [camouflage]: ./camouflage.md
 
 [sang de berserker]: ./alchemy.md#sang-de-berserker "Berserkers blood"
@@ -2363,3 +2371,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 [bois]: ./resources.md#bois "Wood"
 [fers]: ./resources.md#fer "Iron"
 [pierre]: ./resources.md#pierre "Stone"
+[huile]: ./silver.md#huile "Oil"
+[Gardien de la Montagne]: ./mountain-guard.md "Mountain Guard"
+[Cristal d'Antimagie]: ./antimagic-crystal.md "Antimagic Crystal"
+[Sphère d'Invisibilité]: ./sphere-of-invisibility.md "Sphere of Invisibility"
+[DreamEye]: ./dream-eye.md "DreamEye"
+[Anneau de Pouvoir]: ./ring-of-power.md "Ring of Power"

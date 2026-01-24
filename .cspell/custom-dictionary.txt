@@ -6,6 +6,7 @@ Aquazone
 Ard'Ragorn
 Bar'Glingal
 Bärmann
+Barney
 Benni
 berserker
 bhean'Gwynewa
@@ -24,6 +25,7 @@ Drachensgrab
 dracoids
 Draig
 Draiochean
+Dream
 Dunfanaghy
 echeck
 EHMV

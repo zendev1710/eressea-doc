@@ -19,7 +19,7 @@ Un mineur T4 en [extraction de pierres] dans une région avec "20 fer/4" peut ex
 
 | Objet                      | Poids | compétence                | min. |           ressources |
 |----------------------------|------:|---------------------------|-----:|---------------------:|
-| [[silver]]                 |  0,01 | --                        |   -- |                   -- |
+| [silver]                   |  0,01 | --                        |   -- |                   -- |
 | [baume]                    |     2 | [commerce]                |    1 |                   -- |
 | [encens]                   |     2 | [commerce]                |    1 |                   -- |
 | [gemme]                    |     1 | [commerce]                |    1 |                   -- |
@@ -137,3 +137,4 @@ Un mineur T4 en [extraction de pierres] dans une région avec "20 fer/4" peut ex
 [armure en adamantium]: ./war-tables.md#armure-en-adamantium "Adamantium armor"
 [mine]: ./buildings-others.md#mine "Mine"
 [elfes]: ./races.md#elfes "Elves"
+[silver]: ./silver.md

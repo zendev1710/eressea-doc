@@ -1,9 +1,9 @@
 ---
 # cSpell:locale fr
-alias: dream-eye
+alias: dream-eye-fr
 ---
 <!-- cspell:disable -->
-# Dream eye
+# Dream Eye
 
 <!-- cspell:disable -->
 *Dream eye (EN), Traumauge (DE)*.

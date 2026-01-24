@@ -14,8 +14,8 @@ Les conventions suivantes s'appliquent dans les règles de cette documentation 
 
 - Des mots-clés comme `GIVE`, `MAKE`, `NOT` sont en majuscules.
   Ce n'est pas obligatoire, mais nous le recommandons. Le reste est en lettres minuscules.
-  Les éléments en minuscules ne doivent pas être adoptés littéralement, mais doivent être remplacés par des valeurs concrètes, par exemple unit-id par le numéro de l'unité souhaitée.
-  Parfois, nous écrirons également ceci sous la forme &lt;unit-id&gt;, auquel cas les symboles `<` et `>` ne sont **PAS* à inclure.
+  Les éléments en minuscules ne doivent pas être adoptés littéralement, mais doivent être remplacés par des valeurs concrètes, par exemple *unit-id* par l'identifiant de l'unité souhaitée.
+  Parfois, nous écrirons également ceci sous la forme `<unit-id>`, auquel cas les symboles `<` et `>` ne sont **PAS** à inclure.
 - Les éléments entre crochets sont facultatifs
   Ils peuvent donc être omis, mais ils changent le sens de l'ordre.
   Les alternatives sont définis avec le caractère `|`.
@@ -54,7 +54,7 @@ NAME CASTLE xyz "Helm's Deep"
 DEFAULT 'MAKE 1 "Water of Life"'
 ```
 
-L'*escaping* au moyen du caractère d'échappement `\` est aussi possible, mais pas forcément recommandé :
+L'échappement au moyen du caractère `\` est aussi possible, mais pas forcément recommandé :
 
 ```text
 MESSAGE REGION "Say \"Friend\" and enter"
@@ -74,7 +74,7 @@ Bien entendu, vous devez vous assurer que vous êtes compris des autres.
 
 ## Modèle d'ordres
 
-Le plus simple est d’utiliser le modèle de commandes à la fin de l’évaluation.  
+Le plus simple est d’utiliser le modèle d'ordres à la fin de l’évaluation.  
 Toutes les unités y sont répertoriées pour que vous n'oubliiez personne.  
 Si vous n'envoyez aucun ordre, les ordres du modèle d'ordres seront quand même exécutés automatiquement.  
 Même si vous n'envoyez des ordres que pour certaines de vos unités, les ordres du modèle d'ordres seront exécutés pour les unités restantes.  

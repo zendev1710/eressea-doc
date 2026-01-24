@@ -19,8 +19,10 @@ Les listes de diffusion [E-Client] et Développement Magellan constituent un bon
 
 ### Plugins de développement intéressants
 
+<!-- cspell:disable -->
 - [Plugin ExtendedCommands] pour Magellan
 - [FFTools 2] pour Magellan
+<!-- cspell:enable -->
 
 ## Format
 

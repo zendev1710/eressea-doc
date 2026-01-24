@@ -213,7 +213,7 @@ In addition, there is a certain chance, depending on the level difference, of re
 If a person has received more damage than he can "take", he dies (see [Racial skill modifiers] the different hits taken during the fight are added together).
 
 When a fighter wears armor, it can absorb some (or all) of the damage points.
-However, armor makes the fighter less mobile and increases his chances of being hit (see [this] table).
+However, armor makes the fighter less mobile and increases his chances of being hit (see [this armors table]).
 Against crossbows, armor is only half effective (rounded down).
 
 Some creatures or weapons are also able to cause magical damage.
@@ -463,9 +463,9 @@ Continue reading: [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 
-[Weapon characteristics]: ./war-tables.md#weapon-properties
+[Weapon characteristics]: ./war-tables.md#weapons-summary-table
 [Racial skill modifiers]: ./war-tables.md#races-and-their-characteristics
-[this]: ./war-tables.md#armor
+[this  armors table]: ./war-tables.md#armors-summary
 [Magic Resistance]: ./war-tables.md#magic-resistance
 [this table]: ./war-tables.md#endurance
 [damage]: ./sailing.md#damage-to-ships

@@ -391,7 +391,7 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 [trolls]: ./races.md#trolls "Trolls"
 [orcs]: ./races.md#orcs "Orcs"
 [chats]: ./races.md#chats "Cats"
-[elfes]: ./races.md#elves "Elves"
+[elfes]: ./races.md#elfes "Elves"
 [K]: ./skills-list.md#tir-a-la-catapulte "Catapult"
 [A]: ./skills-list.md#tir-a-larbalete "Crossbow"
 [B]: ./skills-list.md#tir-a-larc "Bow"
@@ -409,6 +409,6 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 [cotte de mailles]: #cotte-de-mailles "Chainmail"
 
 [plus bas]: ./war-tables.md/#resistance-a-la-magie
-[bouclier rouillé]: ./war-tables.mdbouclier-rouille "Rusty shield"
+[bouclier rouillé]: ./war-tables.md#bouclier-rouille "Rusty shield"
 [armure de plaque rouillée]: ./war-tables.md#armure-de-plaque-rouillee "Rusty platemail"
 [cotte de mailles rouillée]: ./war-tables.md#cotte-de-mailles-rouillee "Rusty Chainmail"

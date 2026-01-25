@@ -36,7 +36,7 @@ On peut l'utiliser de deux façons :
   Bien sûr, au maximum autant de chevaux que présents dans la région.
 - Avec [[cmd-grow|`GROW HORSES`]] il est possible de reproduire des chevaux à partir de chevaux existants, mais il faut pour cela se trouver dans un [haras].
 
-## Vol
+## Discrétion
 
 <!-- cspell:disable -->
 *Stealth (EN), Tarnung (DE)*.

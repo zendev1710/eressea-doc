@@ -6,7 +6,7 @@ alias: sorts-gwyrrd
 
 Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Sorts de niveau 1
+## Niveau 1
 
 ### Créer des [[stone-golem]]
 
@@ -59,7 +59,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
-## Sorts de niveau 2
+## Niveau 2
 
 ### Créer des [[golem-de-fer]]
 
@@ -91,7 +91,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
-## Sorts de niveau 3
+## Niveau 3
 
 ### Gardien de la Montagne
 
@@ -158,7 +158,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
-## Sorts de niveau 4
+## Niveau 4
 
 ### Voie magique
 
@@ -223,7 +223,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Windschild"`  
 
-## Sorts de niveau 5
+## Niveau 5
 
 ### Esprits du Gardien de l'Astral
 
@@ -285,7 +285,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] Whirlwind`  
 
-## Sort de niveau 6
+## Niveau 6
 
 ### Créer une [[amulette-de-vision-decuplee]]
 
@@ -351,7 +351,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
-## Sorts de niveau 7
+## Niveau 7
 
 ### Invocation de la Terre
 
@@ -399,7 +399,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
-## Sorts de niveau 8
+## Niveau 8
 
 ### Regard du Basilic
 
@@ -446,7 +446,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
-## Sorts de niveau 9
+## Niveau 9
 
 ### Terre Sacrée
 
@@ -493,7 +493,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
-## Sorts de niveau 10
+## Niveau 10
 
 ### Éveil des [Ents]
 
@@ -524,7 +524,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST "Summon Familiar"`  
 
-## Sort de niveau 11
+## Niveau 11
 
 ### Segne Steinkreis <!-- TODO -->
 
@@ -542,7 +542,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST "Segne Steinkreis" <building-id>`  
 
-## Sort de niveau 12
+## Niveau 12
 
 ### Peau d'écorce
 
@@ -559,7 +559,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Rindenhaut"`  
 
-## Sort de niveau 13
+## Niveau 13
 
 ### Hitzeelementar
 
@@ -578,7 +578,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 <!-- TODO: chec if it's `CAST [REGION x y] "Beschwörung eines Hitzeelementar"`  -->
 `CAST [REGION x y] Hitzeelementar`  
 
-## Sort de niveau 15
+## Niveau 15
 
 ### Mahlstrom
 
@@ -595,7 +595,7 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 
 `CAST Mahlstrom`  
 
-## Sort de niveau 16
+## Niveau 16
 
 ### Wurzeln der Magie
 
@@ -606,13 +606,13 @@ Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de 
 :   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
     Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
 
-| Composants                                               | Niv. |   Type | Rang | B | D                  |
-|----------------------------------------------------------|-----:|-------:|:----:|:--|:-------------------|
-| 250 auras, 10 auras permanents, 1 pot de bave de crapaud |   16 | Normal |  5   |   | :heavy_check_mark: |
+| Composants                                          | Niv. |   Type | Rang | B | D                  |
+|-----------------------------------------------------|-----:|-------:|:----:|:--|:-------------------|
+| 250 auras, 10 auras permanents, 1 [[cream-puff-fr]] |   16 | Normal |  5   |   | :heavy_check_mark: |
 
 `CAST [REGION x y] "Wurzeln der Magie"`  
 
-## Sort de niveau 17
+## Niveau 17
 
 ### Tor in die Ebene der Hitze
 

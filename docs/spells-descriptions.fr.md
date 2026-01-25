@@ -2322,13 +2322,13 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 <!-- cspell:disable -->
 *(EN), Wurzeln der Magie (DE)*.
 <!-- cspell:enable -->
-<!-- TODO: check 1 pot de bave de crapaud -->
+
 :   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
     Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
 
-| Éc. | Composants                                               | Niv. |   Type | Rang | Bateau | D                  |
-|:---:|----------------------------------------------------------|-----:|-------:|:----:|:-------|:-------------------|
-|  G  | 250 auras, 10 auras permanents, 1 pot de bave de crapaud |   16 | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants                                           | Niv. |   Type | Rang | Bateau | D                  |
+|:---:|------------------------------------------------------|-----:|-------:|:----:|:-------|:-------------------|
+|  G  | 250 auras, 10 auras permanents, 1  [[cream-puff-fr]] |   16 | Normal |  5   |        | :heavy_check_mark: |
 
 `CAST [REGION x y] "Wurzeln der Magie"`  
 

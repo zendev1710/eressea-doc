@@ -1508,7 +1508,7 @@ Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten Tybi
 Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen. Dadurch wird das Gleichgewicht der Natur in der Region für immer verändert, und in Zukunft werden nur noch die anspruchsvollen, aber kräftigen Mallorngewächse in der Region gedeihen.  
 **Art:** Normaler Zauber  
 **Rang:** 5  
-**Komponenten:** 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim  
+**Komponenten:** 250 Aura, 10 permanente Aura, 1  [[cream-puff-de]]  
 **Modifikationen:** Fernzauber  
 **Syntax:** `ZAUBERE [REGION x y] 'Wurzeln der Magie'`  
 

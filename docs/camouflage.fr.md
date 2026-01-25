@@ -2,9 +2,9 @@
 # cSpell:locale fr
 alias: camouflage-fr
 ---
-# Camouflage
+# Discrétion
 
-La compétence de [Vol] permet de se camoufler aux yeux des autres unités.  
+La compétence de [Discrétion] permet de se camoufler aux yeux des autres unités.  
 Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.  
 
 ## Contre-mesures
@@ -83,5 +83,5 @@ Poursuivre la lecture : [[deplacements]].
 [combat]: ./war.md#la-fuite
 [Espionnage]: ./skills-list.md#espionnage
 [revenus]: ./silver.md#le-vol-la-methode-malhonnete
-[Vol]: ./skills-list.md#vol "Stealth"
+[Discrétion]: ./skills-list.fr.md#discretion "Stealth"
 [Perception]: ./skills-list.md#perception

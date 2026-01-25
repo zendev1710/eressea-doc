@@ -12,7 +12,7 @@ alias: description-of-spells
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 5 x L auras |   9 | Pre-c. |  5   |      |       |
+|  T  | 5 x T auras |   9 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
@@ -22,7 +22,7 @@ alias: description-of-spells
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | 2 x L auras |   4 | Pre-c. |  5   | :heavy_check_mark: |       |
+|  G  | 2 x T auras |   4 | Pre-c. |  5   | :heavy_check_mark: |       |
 
 `COMBATSPELL [LEVEL n] "Air Shield"`  
 
@@ -45,7 +45,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 3 x L auras |   8 | Normal |  5   | :heavy_check_mark: |       |
+|  C  | 3 x T auras |   8 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -69,7 +69,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -94,7 +94,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  D  | 5 x L auras |   6 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|  D  | 5 x T auras |   6 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
@@ -106,7 +106,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  T  | 3 x L auras |   5 | Normal |  2   |      | :heavy_check_mark: |
+|  T  | 3 x T auras |   5 | Normal |  2   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
@@ -130,7 +130,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 4 x L auras |  12 | Pre-c. |  2   |      |       |
+|  T  | 4 x T auras |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Armor Shield"`  
 
@@ -142,7 +142,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x L auras |   6 | Normal |  7   |      |       |
+|  T  | 2 x T auras |   6 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -152,7 +152,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 6 x L auras |   9 | Pre-c. |  2   |      |       |
+|  D  | 6 x T auras |   9 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
@@ -164,7 +164,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x L auras |   4 | Normal |  7   |      |       |
+|  T  | 2 x T auras |   4 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -175,7 +175,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 5 x L auras |   5 | Pre-c. |  2   |      |       |
+|  G  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
@@ -198,7 +198,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x L auras |   4 | Normal |  7   |      |       |
+|  T  | 2 x T auras |   4 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
@@ -232,7 +232,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 6 x L auras |  10 | Normal |  5   |      |       |
+|  G  | 6 x T auras |  10 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Awakening of the Ents"`  
 
@@ -246,7 +246,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | 6 x L auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+|  G  | 6 x T auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -259,7 +259,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  T  | 10 x L auras, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
+|  T  | 10 x T auras, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
 
@@ -272,7 +272,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 7 x L auras |  12 | Normal |  5   |      |       |
+|  D  | 7 x T auras |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
@@ -294,7 +294,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | L auras    |   1 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|  G  | T auras    |   1 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
@@ -315,7 +315,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-----------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 5 x L auras, 1 paysan |   5 | Pre-c. |  4   |      |       |
+|  D  | 5 x T auras, 1 paysan |   5 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
@@ -328,7 +328,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x L auras |   6 | Normal |  7   |      |       |
+|  T  | 2 x T auras |   6 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
@@ -365,7 +365,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  G  | L auras    |   5 | Post-c. |  5   |      |       |
+|  G  | T auras    |   5 | Post-c. |  5   |      |       |
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
@@ -376,7 +376,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 4 x L auras |   5 | Normal |  4   |      |       |
+|  D  | 4 x T auras |   5 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
@@ -408,7 +408,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
@@ -419,7 +419,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x L auras |   5 | Pre-c. |  2   |      |       |
+|  C  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
 
@@ -547,7 +547,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                                | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x L auras, N [irons], 1 [water of life] |   2 | Normal |  4   |      |       |
+|  G  | 2 x T auras, T [irons], 1 [water of life] |   2 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -561,7 +561,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                                        | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|---------------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x L auras, N [stones][stone], 1 [water of life] |   1 | Normal |  4   |      |       |
+|  G  | 2 x T auras, T [stones][stone], 1 [water of life] |   1 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -571,7 +571,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 4 x L auras |   5 | Normal |  4   |      |       |
+|  D  | 4 x T auras |   5 | Normal |  4   |      |       |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
@@ -583,7 +583,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  T  | 4 x L auras |   5 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+|  T  | 4 x T auras |   5 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -595,7 +595,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Divination`  
 
@@ -606,8 +606,8 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
 
-| Sc. | Components                | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|---------------------------|----:|-------:|:----:|:-----|:-------------------|
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist.              |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:-------------------|
 |  D  | 80 auras, 1 [[dragonhead]] |  11 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] *Dragon Call`  
@@ -628,7 +628,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
@@ -641,7 +641,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x L auras |   5 | Pre-c. |  4   |      |       |
+|  C  | 2 x T auras |   5 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
@@ -653,7 +653,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x L auras |   3 | Normal |  2   | :heavy_check_mark: |       |
+|  T  | 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -688,7 +688,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  D  | L auras    |   2 | Combat |  5   |      |       |
+|  D  | T auras    |   2 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Fireball`  
 
@@ -699,7 +699,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 6 x L auras |   7 | Normal |  4   |      |       |
+|  D  | 6 x T auras |   7 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
 
@@ -712,7 +712,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 |  Sc.   | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:------:|-------------|----:|-------:|:----:|:-------------------|:------|
-| \*[^1] | 2 x L auras |   3 | Normal |  5   | :heavy_check_mark: |       |
+| \*[^1] | 2 x T auras |   3 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
@@ -725,7 +725,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | L auras    |   8 | Combat |  5   |      |       |
+|  G  | T auras    |   8 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
@@ -737,7 +737,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components   | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|--------------|----:|-------:|:----:|:-----|:------|
-|  C  | 20 x L auras |  12 | Normal |  5   |      |       |
+|  C  | 20 x T auras |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
@@ -770,7 +770,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 2 x L auras |  12 | Normal |  2   |      | :heavy_check_mark: |
+|  C  | 2 x T auras |  12 | Normal |  2   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
@@ -782,7 +782,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 2 x L auras |  10 | Normal |  2   |      | :heavy_check_mark: |
+|  C  | 2 x T auras |  10 | Normal |  2   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
@@ -792,7 +792,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 4 x L auras, N [wood], 1 [water of life] |   2 | Normal |  5   |      | :heavy_check_mark: |
+|  G  | 4 x T auras, T [wood], 1 [water of life] |   2 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -805,7 +805,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | L auras    |   3 | Combat |  5   |      |       |
+|  G  | T auras    |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Hail`  
 
@@ -835,7 +835,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  G  | L auras    |   5 | Post-c. |  5   |      |       |
+|  G  | T auras    |   5 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Heal`  
 
@@ -845,7 +845,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  D  | L auras    |   1 | Normal |  5   |      |       |
+|  D  | T auras    |   1 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
@@ -872,7 +872,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components   | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|--------------|----:|-------:|:----:|:-----|:------|
-|  C  | 20 x L auras |  14 | Normal |  5   |      |       |
+|  C  | 20 x T auras |  14 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
@@ -921,7 +921,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  C  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Jugglery`  
 
@@ -949,7 +949,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components             | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 3 x L auras, 10 Bauern |   8 | Pre-c. |  5   |      |       |
+|  D  | 3 x T auras, 10 Bauern |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
@@ -963,7 +963,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                 | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|----------------------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | L auras, 1 [stone], 1 bois |   4 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|  G  | T auras, 1 [stone], 1 bois |   4 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
@@ -984,9 +984,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual increases the effect of the magical potion many times over.  
     Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 
-| Sc. | Components                                   | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|----------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 6 x L auras, N [mallorns], 1 [water of life] |   4 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist.              |
+|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
+|  G  | 6 x T auras, T [[mallorn]], 1 [water of life] |   4 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Mallorn quarterstaff"`  
 
@@ -1020,7 +1020,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  D  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Minor Curses"`  
 
@@ -1034,7 +1034,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
@@ -1060,7 +1060,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 4 x L auras |  10 | Normal |  5   |      |       |
+|  C  | 4 x T auras |  10 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
@@ -1071,7 +1071,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 3 x L auras |   3 | Normal |  5   |      | :heavy_check_mark: |
+|  G  | 3 x T auras |   3 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
 
@@ -1083,7 +1083,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  T  | 3 x L auras |   7 | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+|  T  | 3 x T auras |   7 | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
@@ -1110,11 +1110,11 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 3 x L auras |   9 | Normal |  7   |      |       |
+|  G  | 3 x T auras |   9 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
-### Pentagram  <!-- TODO -->
+### Pentagram
 
 :   Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments.  
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  
@@ -1122,7 +1122,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components   | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|--------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  D  | 10 x L auras |  10 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+|  D  | 10 x T auras |  10 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1133,7 +1133,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 3 x L auras |   2 | Pre-c. |  2   |      |       |
+|  T  | 3 x T auras |   2 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
@@ -1159,7 +1159,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  C  | L auras    |   3 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|  C  | T auras    |   3 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
@@ -1174,7 +1174,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 2 x L auras |   3 | Normal |  5   |      | :heavy_check_mark: |
+|  G  | 2 x T auras |   3 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
@@ -1196,7 +1196,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x L auras |   3 | Normal |  2   | :heavy_check_mark: |       |
+|  T  | 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
@@ -1219,7 +1219,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 4 x L auras |  12 | Pre-c. |  2   |      |       |
+|  G  | 4 x T auras |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Rindenhaut`  
 
@@ -1234,7 +1234,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                     | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|--------------------------------|----:|-------:|:----:|:-----|:------|
-|  C  | 3 x L auras, L permanent auras |   9 | Normal |  5   |      |       |
+|  C  | 3 x T auras, T permanent auras |   9 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
@@ -1258,7 +1258,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  T  | L auras    |   3 | Post-c. |  5   |      |       |
+|  T  | T auras    |   3 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
@@ -1279,7 +1279,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | L auras    |   1 | Pre-c. |  4   |      |       |
+|  I  | T auras    |   1 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
@@ -1292,7 +1292,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 4 x L auras |   8 | Pre-c. |  2   |      |       |
+|  T  | 4 x T auras |   8 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
@@ -1303,7 +1303,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | L auras    |   7 | Combat |  5   |      |       |
+|  I  | T auras    |   7 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Sleep`  
 
@@ -1314,7 +1314,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | L auras    |   5 | Combat |  5   |      |       |
+|  T  | T auras    |   5 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
@@ -1347,7 +1347,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | L auras    |   3 | Normal |  5   |      |       |
+|  I  | T auras    |   3 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
@@ -1358,7 +1358,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x L auras |   5 | Pre-c. |  2   |      |       |
+|  C  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1369,7 +1369,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x L auras |   4 | Pre-c. |  5   |      |       |
+|  C  | 2 x T auras |   4 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
@@ -1381,7 +1381,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x L auras |   4 | Normal |  5   |      |       |
+|  C  | 2 x T auras |   4 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Song of Courting"`  
 
@@ -1392,7 +1392,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x L auras |   8 | Pre-c. |  5   |      |       |
+|  C  | 5 x T auras |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
@@ -1403,7 +1403,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  C  | 2 x L auras |   2 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|  C  | 2 x T auras |   2 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
@@ -1415,7 +1415,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  C  | L auras    |   2 | Post-c. |  5   |      |       |
+|  C  | T auras    |   2 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
@@ -1438,7 +1438,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | L auras    |   3 | Combat |  5   |      |       |
+|  C  | T auras    |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
@@ -1451,7 +1451,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x L auras |   7 | Pre-c. |  4   |      |       |
+|  C  | 5 x T auras |   7 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
@@ -1473,7 +1473,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  T  | 2 x L auras |   6 | Normal |  3   |      | :heavy_check_mark: |
+|  T  | 2 x T auras |   6 | Normal |  3   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
@@ -1484,7 +1484,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x L auras |   8 | Pre-c. |  5   |      |       |
+|  G  | 2 x T auras |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
@@ -1530,7 +1530,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 3 x L auras |   8 | Normal |  5   |      |       |
+|  D  | 3 x T auras |   8 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
@@ -1542,7 +1542,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship                   | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----------------------|:------|
-|  G  | 6 x L auras |   6 | Normal |  5   | :heavy_check_mark:[^3] |       |
+|  G  | 6 x T auras |   6 | Normal |  5   | :heavy_check_mark:[^3] |       |
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
@@ -1553,7 +1553,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | L auras    |   4 | Normal |  5   | :heavy_check_mark: |       |
+|  G  | T auras    |   4 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
 
@@ -1565,7 +1565,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 5 x L auras |  12 | Normal |  5   |      |       |
+|  I  | 5 x T auras |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
@@ -1578,17 +1578,17 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x L auras |   7 | Pre-c. |  5   |      |       |
+|  G  | 2 x T auras |   7 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
-### Ties of Life <!-- TODO -->
+### Ties of Life
 
 :   A druid who has fallen into the world of spirits can use this spell to level up*Send 5 units of weight back to a forest on the material world.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x L auras |   9 | Normal |  7   |      |       |
+|  G  | 2 x T auras |   9 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -1599,7 +1599,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 4 x L auras |   4 | Pre-c. |  5   |      |       |
+|  I  | 4 x T auras |   4 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
@@ -1612,7 +1612,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 2 x L auras |  11 | Pre-c. |  5   |      |       |
+|  I  | 2 x T auras |  11 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
@@ -1636,7 +1636,7 @@ This earthquake will damage all buildings in the region.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  F  | 800 auras  |  17 | Normal |  5   |      | :heavy_check_mark: |
+|  G  | 800 auras  |  17 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
@@ -1666,7 +1666,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  I  | 6 x L auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+|  I  | 6 x T auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1679,7 +1679,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  D  | L auras    |   9 | Post-c. |  5   |      |       |
+|  D  | T auras    |   9 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
@@ -1690,7 +1690,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components                  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-----------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 10 x L auras, 5 x N paysans |  14 | Normal |  5   |      |       |
+|  D  | 10 x T auras, 5 x T paysans |  14 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
@@ -1701,7 +1701,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | L auras    |   2 | Pre-c. |  5   |      |       |
+|  I  | T auras    |   2 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
@@ -1725,18 +1725,18 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 2 x L auras |   6 | Combat |  5   |      |       |
+|  D  | 2 x T auras |   6 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
 ### Wurzeln der Magie <!-- TODO -->
-<!-- TODO: pot de bave de crapaud ?? -->
+
 :   With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region.  
     This will change the balance of nature in the region forever, and in the future only the demanding but strong mallornas will thrive in the region.
 
-| Sc. | Components                                              | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|---------------------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 250 auras, 10 permanent auras, 1 pot de bave de crapaud |  16 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                                      | Lvl |   Type | Rank | Ship | Dist.              |
+|:---:|-------------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
+|  G  | 250 auras, 10 permanent auras, 1 [[cream-puff]] |  16 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] "Wurzeln der Magie"`  
 
@@ -1749,7 +1749,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x L auras |  11 | Normal |  5   | :heavy_check_mark: |       |
+|  T  | 5 x T auras |  11 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
 

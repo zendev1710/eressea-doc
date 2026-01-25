@@ -10,7 +10,7 @@ alias: cmd-steal-fr
 
 Cet ordre tente de voler l'unité spécifiée.  
 
-Si la compétence de [camouflage] des auteurs de vol est supérieure à la compétence de [perception] des victimes (cela prend en compte la compétence de perception de la meilleure unité de la région), les victimes remarquent seulement qu'elles ont été volées, mais non par qui.  
+Si la compétence de [Discrétion] des auteurs de [vol] est supérieure à la compétence de [Perception] des victimes (cela prend en compte la compétence de perception de la meilleure unité de la région), les victimes remarquent seulement qu'elles ont été volées, mais non par qui.  
 Les auteurs volent **50 Silver** par personne et par différence de niveau de compétence (entre les deux compétences vol et perception).  
 
 Si la perception des victimes et la dissimulation des auteurs sont de même niveau, le vol ne réussira pas et les victimes deviendront méfiantes.  
@@ -32,6 +32,7 @@ Si la perception des victimes est plus élevée que la dissimulation des auteurs
 
 [long]: ./commands.md#ordres-courts-et-longs
 
-[camouflage]: ./skills-list.md#vol
-[perception]: ./skills-list.md#perception
+[Discrétion]: ./skills-list.md#discretion "Stealth"
+[Perception]: ./skills-list.md#perception
 [réserve d'argent]: ./items-pool.md#reserve-et-give
+[vol]: ./camouflage.md#vol-de-silver

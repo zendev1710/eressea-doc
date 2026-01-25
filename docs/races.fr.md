@@ -72,7 +72,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
 - Les gobelins ne pèsent que 6 kg, mais leur capacité de transport (4,4 kg) est également moindre.
-- Un gobelin au moins T4 en [vol] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
+- Un gobelin au moins T4 en [Discrétion] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 
@@ -235,10 +235,9 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [mages]: ./magic.md
 [dérobera]: ./cmd-steal.md
 [bateaux]: ./ships.md
-[alchemy]: ./skills-list.md
 [Mêlée]: ./skills-list.md#melee "Melee"
 [combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[vol]: ./skills-list.fr.md#vol "Stealth"
+[Discrétion]: ./skills-list.fr.md#discretion "Stealth"
 [potion]: ./alchemy.md
 [groupes]: ./cmd-group.md
 [déplacent]: ./travel.md

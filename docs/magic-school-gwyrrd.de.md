@@ -407,7 +407,7 @@ Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft 
 **Art**: Normaler Zauber  
 **Stufe**: 16  
 **Rang**: 5  
-**Komponenten**: 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim  
+**Komponenten**: 250 Aura, 10 permanente Aura, 1 [[cream-puff-de]]  
 **Modifikationen**: Fernzauber  
 **Syntax**: ZAUBERE \[REGION x y\] "Wurzeln der Magie"  
 

@@ -154,7 +154,7 @@ Plus d'information : [[argent|l'argent]].
 
 ### Dissimulation
 
-[espionnage], [vol] (***« stealth »***; utile au [[camouflage]]) et [perception] sont centrés sur la dissimulation.
+[espionnage], [discrétion] et [perception] sont centrés sur la dissimulation.
 
 ### Compétences de déplacements
 
@@ -194,7 +194,7 @@ Poursuivre la lecture : [[liste-des-competences]].
 [alchimie]: ./skills-list.md#alchimie
 [herboristerie]: ./skills-list.md#herboristerie
 [espionnage]: ./skills-list.md#espionnage
-[vol]: ./skills-list.md#vol
+[discrétion]: ./skills-list.md#discretion "Stealth"
 [extraction minière]: ./skills-list.md#extraction-miniere
 [maçonnerie]: ./skills-list.md#maconnerie
 [sylviculture]: ./skills-list.md#sylviculture

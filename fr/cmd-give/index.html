@@ -7538,14 +7538,14 @@ Avec <code>GIVE</code><em><code>unit-id</code></em><code>herb</code>, toutes les
 <p>En donnant explicitement l'ordre <code>GIVE</code><em><code>unit-id</code></em><code>ALL MEN</code>, toutes les personnes sont remises et l'unité est dissoute.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Attention</p>
-<p>Tous les objets et l'argent remis avec l'ordre <code>GIVE</code> sont automatiquement réservés et ne peuvent plus être transférés depuis la réserve de matériel !
+<p>Tous les objets et l'argent remis avec l'ordre <code>GIVE</code> sont automatiquement réservés et ne peuvent plus être transférés depuis la réserve de matériel !<br />
 En outre, <code>GIVE</code> utilise la <a href="../items-pool/">réserve d'objets</a>, sauf dans le contexte d'un ordre <code>GIVE ALL</code>, où l'unité ne donne que ses propres objets, sans réserve.</p>
 </div>
 <p>La variante <code>GIVE xyz EACH</code> remet la quantité spécifiée d'objets <strong>par personne</strong> de l’unité cible.<br />
 Par exemple, si l'unité <em>xyz</em> compte 10 personnes, avec l'ordre <code>GIVE xyz EACH 20 Silver</code>, il lui transfère au global 200 silver.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Avec<code>@GIVE</code>, vous pouvez mettre en place des transferts automatiques.
+<p>Avec<code>@GIVE</code>, vous pouvez mettre en place des transferts automatiques.<br />
 Par exemple, une unité donnant l'ordre <code>@GIVE abc ALL Iron</code> remet chaque semaine tout le fer à l'unité <em>abc</em>.</p>
 </div>
 <div class="highlight"><pre><span></span><code>GIVE k3f 300 Silver
@@ -7559,7 +7559,7 @@ GIVE TEMP 3 7 MEN
 </code></pre></div>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>Entre <code>MAKE TEMP</code> et <code>END</code> sont spécifiés les ordres pour une unité nouvellement unité,
+<p>Entre <code>MAKE TEMP</code> et <code>END</code> sont spécifiés les ordres pour une unité nouvellement unité,<br />
 mais celle-ci <strong>n'a pas d'argent</strong>.</p>
 </div>
 <p>Par exemple, ce qui suit <strong>ne marche pas</strong> :</p>

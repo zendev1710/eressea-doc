@@ -7537,14 +7537,14 @@ With<code>GIVE</code><em><code>unit-id</code></em><code>herb</code> all herbs th
 <p>When you explicitly give the <code>GIVE</code><em><code>unit-id</code></em><code>ALL MEN</code> order, all people are handed over and the unit is dissolved.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
-<p>All items and silver that come with <code>GIVE</code> have been handed over, are automatically reserved and can no longer be passed on from the material pool!
+<p>All items and silver that come with <code>GIVE</code> have been handed over, are automatically reserved and can no longer be passed on from the material pool!<br />
 Also <code>GIVE</code> uses the <a href="../items-pool/">Items pool</a>, except in the context of <code>GIVE ALL</code>, where the unit only gives its own, unreserved items.</p>
 </div>
 <p>The variant <code>GIVE xyz EACH</code> hands over <em>number</em> items per person in the target unit.
 For example, if the unit xyz has 10 people, with <code>GIVE xyz EACH 20 Silver</code> order, it transfers her 200 Silver.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>With <code>@GIVE</code> you can set up automatic transfers.
+<p>With <code>@GIVE</code> you can set up automatic transfers.<br />
 For example, a unit with <code>@GIVE abc ALL Iron</code> hand over all the iron to the <em>abc</em> unit every week.</p>
 </div>
 <div class="highlight"><pre><span></span><code>GIVE k3f 300 Silver
@@ -7556,7 +7556,7 @@ GIVE 0 5 Stone
 GIVE TEMP 3 7 MEN
 ; Gives 7 people to the newly created unit TEMP 3.
 </code></pre></div>
-<div class="admonition caution">
+<div class="admonition warning">
 <p class="admonition-title">Caution</p>
 <p>Between <code>MAKE TEMP</code> and <code>END</code> there are orders for the new unit - and it has no money.</p>
 </div>

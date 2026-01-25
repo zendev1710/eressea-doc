@@ -149,7 +149,7 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol.  
 Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal]].  
 
-Si la compétence de [[camouflage|Vol]] du voleur est supérieure à la [[camouflage|perception]] de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
+Si la compétence de [[camouflage]] du voleur est supérieure à la [perception] de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
 Plus d'information : [[camouflage|le camouflage et le vol]].  
 
@@ -321,3 +321,4 @@ Poursuivre la lecture : [Material Pool].
 [myrrhe]: #myrrhe "Myrrh"
 [soie]: #soie "Silk"
 [épice]: ./silver.md#epice "Spice"
+[perception]: ./skills-list.md#perception

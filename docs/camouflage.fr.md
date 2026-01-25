@@ -10,9 +10,9 @@ Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se 
 ## Contre-mesures
 
 Les unités camouflées peuvent être découvertes grâce à la compétence **[Perception]**.  
-Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en Vol d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible.  
-Si le niveau de perception et le niveau de Vol sont égaux, l'unité camouflée apparaît dans le rapport.  
-C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités sont T0 en Vol et Perception.  
+Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en Discrétion d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible.  
+Si le niveau de perception et le niveau de Discrétion sont égaux, l'unité camouflée apparaît dans le rapport.  
+C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités sont T0 en Discrétion et Perception.  
 
 ## Contrecarrer la garde
 
@@ -47,17 +47,17 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 
 ## Espionnage
 
-Si une unité dotée de la compétence [Espionnage] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence d'espionnage est comparée à la compétence de Vol de l'unité cible.  
+Si une unité dotée de la compétence [Espionnage] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
 La chance de base de réussir une tentative d'espionnage est de 10%.  
-Pour chaque niveau d'Espionnage dépassant le niveau de Vol de la victime, le vol augmente de 5 %.  
-Un niveau élevé en Vol permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.  
+Pour chaque niveau d'Espionnage dépassant le niveau de Discrétion de la victime, le vol augmente de 5 %.  
+Un niveau élevé en Discrétion permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.  
 Pour atteindre une chance de succès de 50 %, un espion doit être de 8 niveaux supérieurs.
 
-Si un espion est au moins T2 en Vol, atteindre les 8 niveaux de différence prendra nettement plus de temps en moyenne.  
+Si un espion est au moins T2 en Discrétion, atteindre les 8 niveaux de différence prendra nettement plus de temps en moyenne.  
 
 Si la tentative d'espionnage réussit, l'espion apprend le statut de combat, les objets en possession de l'unité et ses compétences.  
-L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux au niveau de Vol de l'unité.  
-Un niveau de Vol élevé est donc utile pour réussir à se dissimuler en une autre faction.  
+L'appartenance à une faction peut en outre être découverte si le niveau d'espionnage est supérieur d'au moins 6 niveaux à celui de la Discrétion de l'unité.  
+Un niveau de Discrétion élevé est donc utile pour réussir à se dissimuler en une autre faction.  
 
 Ensuite, que la tentative d'espionnage ait réussi ou non, on détermine la probabilité que l'espion ait été **remarqué**.  
 *E* étant le niveau d'espionnage de l'espion et *P* le niveau de perception de l'unité espionnée :

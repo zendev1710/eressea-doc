@@ -6,27 +6,26 @@ alias: illaun-spells
 
 ## Level 1 spells
 
-### Schattenritter
+### Shadow Knights
 
-**Beschreibung**:  
-Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln. Die Schattenritter haben keinen effektiven Angriff und Verwundungen im Kampf zerstören sie sofort.  
-**Art**: Präkampfzauber  
-**Level**: 1  
-**Rank**: 4  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Schattenritter"  
+:   This spell can give the enemy a slightly different image of their own troops.  
+    The Shadow Knights have no effective attack and being wounded in battle will destroy them instantly.
 
-### Traumsenden
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  I  | T auras    |   1 | Pre-c. |  4   |      |       |
 
-**Beschreibung**:  
-Der Zauberer sendet dem Ziel des Spruches einen Traum.  
-**Art**: Normaler Zauber  
-**Level**: 1  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST \[LEVEL n\] "Traumsenden" &lt;Einheit-Nr&gt;  
+`COMBATSPELL [LEVEL n] "Shadow Knights"`  
+
+### Dream
+
+:   The magician sends the target of the spell a dream.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
+|:---:|------------|----:|-------:|:----:|:-------------------|:------|
+|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] Dream <unit-id>`  
 
 ### Wahrsagen
 

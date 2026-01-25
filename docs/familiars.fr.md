@@ -61,9 +61,9 @@ Caractéristiques d'un Dauphin.
 
 2 attaques : une attaque magique, une attaque sans arme (1d6).  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +0     |    +0    | +0  |     +1     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +0     |     +1     |    +0     |         +0          |
 
 ### Licorne
 
@@ -78,9 +78,9 @@ Caractéristiques d'une Licorne.
 
 3 attaques : une attaque magique, une attaque non armée (3d12), une attaque non armée (2d4).  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +2   |     +0     |    +0    | +4  |     +5     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +2   |     +0     |    +0    |     +4     |     +5     |    +0     |         +0          |
 
 ### Hibou
 
@@ -94,9 +94,9 @@ Caractéristiques d'un Hibou.
 
 2 attaques : une attaque magique, une attaque sans arme (1d4).  
 
-| Magie | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:------|:----------:|:---:|:----------:|:---------:|:-------------------:|
-| +0    |     +1     | +1  |     +5     |    +0     |         +0          |
+| Magie | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:------|:----------:|:----------:|:----------:|:---------:|:-------------------:|
+| +0    |     +1     |     +1     |     +5     |    +0     |         +0          |
 
 ### Fée
 
@@ -111,9 +111,9 @@ Caractéristiques d'une Fée.
 
 5 attaques : une attaque magique, une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3), une attaque non armée (1d3).  
 
-| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:-----:|:----------------------:|:----------:|-----|:----------:|:---------:|:-------------------:|
-|  +1   |     -1     |  -1   |           -1           |     +2     | +5  |     +2     |    +0     |         +0          |
+| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:----------------------:|:----------:|------------|:----------:|:---------:|:-------------------:|
+|  +1   |     -1     |  -1   |           -1           |     +2     | +5         |     +2     |    +0     |         +0          |
 
 ### Fantôme
 
@@ -128,9 +128,9 @@ Caractéristiques d'un Fantôme.
 
 6 attaques : **1** attaque magique, **2** attaques non armées **1d5**, **1** attaque avec arme ou non armée **2d6**, une attaque magique, **2** attaque magiques.  
 
-| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:-----:|:----------------------:|:----------:|-----|:----------:|:---------:|:-------------------:|
-|  +1   |     -2     |  +0   |           +0           |     +0     | +0  |     +0     |    +0     |         +0          |
+| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:----------------------:|:----------:|------------|:----------:|:---------:|:-------------------:|
+|  +1   |     -2     |  +0   |           +0           |     +0     | +0         |     +0     |    +0     |         +0          |
 
 ### Gobelin
 
@@ -151,9 +151,9 @@ Caractéristiques d'un Chat de l'Enfer.
 
 4 attaques : **1** attaque magique, **1** attaque non armée **2d6**, **2** attaques non armée **1d6**.  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +0     |    +0    | +0  |     +1     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +0     |     +1     |    +0     |         +0          |
 
 ### Pieuvre
 
@@ -167,9 +167,9 @@ Caractéristiques d'une Pieuvre.
 
 7 attaques : **1** attaque magique, **1** attaque non armée **2d10**, **5** attaques non armées **1d10**.  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +0     |    +0    | +0  |     +1     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +0     |     +1     |    +0     |         +0          |
 
 ### Lynx
 
@@ -186,9 +186,9 @@ Caractéristiques d'un Lynx.
 
 2 attaques : **1** attaque magique, **1** attaque sans arme **2d3**.
 
-| Herboristerie | Magie | Apprivoisement | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:-------------:|:-----:|:--------------:|:----------:|:---:|:----------:|:---------:|:-------------------:|
-|      +1       |  +0   |       +1       |     +3     | +4  |     +4     |    +0     |         +0          |
+| Herboristerie | Magie | Apprivoisement | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-------------:|:-----:|:--------------:|:----------:|:----------:|:----------:|:---------:|:-------------------:|
+|      +1       |  +0   |       +1       |     +3     |     +4     |     +4     |    +0     |         +0          |
 
 ### Nymphe
 
@@ -218,9 +218,9 @@ Compétences de combat.
 
 Autres compétences.
 
-| Magie | Équitation | Voile | Commerce | Divertissement | Taxation | Espionnage | Vol | Perception |
-|:-----:|:----------:|:-----:|:--------:|:--------------:|:--------:|:----------:|:----|:----------:|
-|  +1   |     +5     |  -2   |    -2    |      +10       |    -2    |     +2     | +3  |     +2     |
+| Magie | Équitation | Voile | Commerce | Divertissement | Taxation | Espionnage | Discrétion | Perception |
+|:-----:|:----------:|:-----:|:--------:|:--------------:|:--------:|:----------:|:-----------|:----------:|
+|  +1   |     +5     |  -2   |    -2    |      +10       |    -2    |     +2     | +3         |     +2     |
 
 ### Rat
 
@@ -232,9 +232,9 @@ Caractéristiques d'un Rat.
 
 3 attaques : **1** attaque magique, **2** attaques non armées **1d4**.  
 
-| Magie | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +5     | +4  |     +2     |    +0     |         +0          |
+| Magie | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +5     |     +4     |     +2     |    +0     |         +0          |
 
 ### Tortue géante
 
@@ -272,9 +272,9 @@ Caractéristiques d'un Dragon Chanteur.
 
 5 attaques : **1** attaque magique, **3** attaques non armées **2d4**, une attaque magique.  
 
-| Magie | Espionnage | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:---:|:----------:|:---------:|:-------------------:|
-|  +1   |     +0     | +0  |     +0     |    +0     |         +0          |
+| Magie | Espionnage | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +1   |     +0     |     +0     |     +0     |    +0     |         +0          |
 
 ### Diablotin
 
@@ -289,9 +289,9 @@ Caractéristiques d'un Diablotin.
 
 5 attaques :  **1** attaque magique,  **2** attaques non armées **1d4**,  **1** attaque avec ou sans arme **1d4**,  **1** attaque magique.  
 
-| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Vol | Perception | Taxation | Endurance | Combat à mains nues |
-|:-----:|:----------:|:-----:|:----------------------:|:----------:|-----|:----------:|---------:|:---------:|:-------------------:|
-|  +1   |     -1     |  +0   |           +0           |     +1     | +1  |     +1     |       +1 |    +0     |         +0          |
+| Magie | Équitation | Mêlée | Combat à l'arme d'hast | Espionnage | Discrétion | Perception | Taxation | Endurance | Combat à mains nues |
+|:-----:|:----------:|:-----:|:----------------------:|:----------:|------------|:----------:|---------:|:---------:|:-------------------:|
+|  +1   |     -1     |  +0   |           +0           |     +1     | +1         |     +1     |       +1 |    +0     |         +0          |
 
 ### Tigre
 
@@ -303,9 +303,9 @@ Caractéristiques d'un Tigre.
 
 4 attaques : **1** attaque magique, **1** attaque non armée **2d6**, **2** attaques non armées **1d6**.  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +0     |    +0    | +0  |     +1     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +0     |     +1     |    +0     |         +0          |
 
 ### Dreamcat
 
@@ -319,9 +319,9 @@ Caractéristiques d'un Dreamcat.
 
 3 attaques : **1** attaque magique, **2** attaques non armées **1d5**.  
 
-| Magie | Mêlée | Combat à l'arme d'hast | Espionnage | Vol | Perception | Taxation | Endurance | Combat à mains nues |
-|:-----:|:-----:|:----------------------:|:----------:|-----|:----------:|---------:|:---------:|:-------------------:|
-|  +1   |  +0   |           +0           |     +1     | +1  |     +1     |       +1 |    +0     |         +0          |
+| Magie | Mêlée | Combat à l'arme d'hast | Espionnage | Discrétion | Perception | Taxation | Endurance | Combat à mains nues |
+|:-----:|:-----:|:----------------------:|:----------:|------------|:----------:|---------:|:---------:|:-------------------:|
+|  +1   |  +0   |           +0           |     +1     | +1         |     +1     |       +1 |    +0     |         +0          |
 
 ### Ver des Tunnels
 
@@ -350,9 +350,9 @@ Caractéristiques d'un Loup.
 
 4 attaques : **1** attaque magique, **1** attaque non armée **2d6**, **2** attaques non armée **1d4**.  
 
-| Magie | Espionnage | Tactique | Vol | Perception | Endurance | Combat à mains nues |
-|:-----:|:----------:|:--------:|:---:|:----------:|:---------:|:-------------------:|
-|  +0   |     +0     |    +0    | +0  |     +2     |    +0     |         +0          |
+| Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
+|:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
+|  +0   |     +0     |    +0    |     +0     |     +2     |    +0     |         +0          |
 
 ## Modificateurs de compétences
 
@@ -402,7 +402,7 @@ Si une case est vide, cela signifie que la race ne peut pas apprendre cette comp
 | Taxation                 |       |  +1   |         |         |       |     |         |   +0    |                 |         |      |   -2   |     |               |                 |    +1     |       |    +1    |                 |      |
 | Construction de routes   |       |  +0   |         |         |       |     |         |   -2    |                 |         |      |        |     |               |                 |           |       |          |                 |      |
 | Tactique                 |       |  -1   |   +0    |   +0    |       |     |         |   -2    |       +0        |   +0    |      |   -2   |     |               |                 |           |  +0   |          |                 |  +0  |
-| Vol/Camouflage           |       |  +1   |   +0    |   +4    |  +1   | +5  |   +0    |   +1    |       +0        |         |  +3  |   +3   | +4  |               |       +0        |    +1     |  +0   |    +1    |                 |  +0  |
+| Discrétion               |       |  +1   |   +0    |   +4    |  +1   | +5  |   +0    |   +1    |       +0        |         |  +3  |   +3   | +4  |               |       +0        |    +1     |  +0   |    +1    |                 |  +0  |
 | Divertissement           |       |  -3   |         |         |       |     |         |   -1    |                 |         |      |  +10   |     |               |                 |           |       |          |                 |      |
 | Fabrication d'armes      |       |  +1   |         |         |       |     |         |   +0    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
 | Combat à mains nues      |  +0   |   -   |   +0    |   +0    |  +0   | +0  |   +0    |    -    |       +0        |   +0    |  +0  |   +0   | +0  |      +0       |       +0        |    +0     |  +0   |    +0    |       +0        |  +0  |

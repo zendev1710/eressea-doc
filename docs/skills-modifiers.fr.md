@@ -16,7 +16,7 @@ Les caractéristiques et modificateurs de compétences sont répertoriés dans l
 | **Résistance à la magie** |       5 |     -5 |      10 |       0 |       15 |           5 |         0 |         -5 |          5 |       10 |           0 |
 | Alchimie                  |       0 |     +1 |      -1 |      -1 |       +2 |           0 |         0 |         +1 |          0 |        0 |           0 |
 | Apprivoisement            |      -2 |     -1 |      +1 |       0 |       -3 |          -1 |         0 |          0 |         -3 |       -1 |           0 |
-| Camouflage/Vol            |      -1 |      0 |      +1 |      +1 |       +1 |          +1 |         0 |         +1 |         -1 |       -3 |           0 |
+| Discrétion                |      -1 |      0 |      +1 |      +1 |       +1 |          +1 |         0 |         +1 |         -1 |       -3 |           0 |
 | Combat à l'arme d'hast    |       0 |      0 |       0 |       0 |       +1 |          -1 |         0 |          0 |         +1 |        0 |           0 |
 | Commerce                  |      +1 |     -3 |       0 |       0 |       -3 |          +2 |        +1 |         -1 |         -1 |        0 |          +2 |
 | Construction de routes    |      +2 |      0 |      -1 |      -1 |        0 |          +1 |         0 |         -2 |         -1 |       +2 |          -1 |

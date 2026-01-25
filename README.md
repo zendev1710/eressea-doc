@@ -10,7 +10,7 @@
 
 MkDocs project for Eressea documentation.
 
-This project is based on [Material for MkDocs](ahttps://squidfunk.github.io/mkdocs-material/getting-started/).
+This project is based on [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
 [Weblate](https://hosted.weblate.org) is used for translations (see [**Eressea Documentation** Weblate project](https://hosted.weblate.org/projects/eressea-doc/)).
 
@@ -19,6 +19,8 @@ Currently the web site handles the following languages:
 - English (default)
 - German
 - French
+
+The project is deployed as the following GitHub Pages static site: [eressea-doc](https://zendev1710.github.io/eressea-doc/).
 
 ## Pages
 

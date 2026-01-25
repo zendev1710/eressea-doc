@@ -10,7 +10,7 @@ C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis 
 
 ## Les camps dans une bataille
 
-L'ordre [[cmd-attack]] permet de lancer l'attaque contre l'adversaire.  
+L'ordre [[cmd-attack]]{title="ATTAQUER"}  permet de lancer l'attaque contre l'adversaire.  
 Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.  
 Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).  
 Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique].  

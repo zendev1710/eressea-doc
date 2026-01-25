@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: factions-fr
 ---
-# Factions
+# Les factions
 
 Les joueurs dirigent ce que l'on appelle des *factions* sur Eressea.  
 Une faction est au départ composée d'une seule unité d'une personne, puis progressivement d'un grand nombre d'unités.  
@@ -128,4 +128,4 @@ Poursuivre la lecture : [[races]].
 [nains]: ./races.md#nains
 [mêlée]: ./skills-list.md#melee "Melee"
 [`exhausted`]: ./war-tables.fr.md#etat-de-sante
-[bourse d'argent]: ./silverbagmd "Silverbag"
+[bourse d'argent]: ./silverbag.md "Silverbag"

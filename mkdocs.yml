@@ -98,6 +98,8 @@ copyright: Copyright &copy; 2025 Cyril Guillon
 plugins:
   # - categories
   - alias
+      # use_anchor_titles: true
+      # use_page_icon: true
   # - awesome-nav
   - redirects
   - search
@@ -119,8 +121,22 @@ plugins:
             Introduction: Introduction
             Gameplay: Jeu
             Exploration: Exploration
+            War: Guerre
+            Magic: Magie
+            Alchemy: Alchimie
+            Orders: Ordres
+            Misc: Divers
             References: Références
             Help: Aide
+            Weekly reports: Rapport hebdomadaire
+            Hints: Remarques
+            Beginner tips: Conseils pour débutants
+            Basics: Bases
+            Sending orders: Envoi des ordres
+            Sending orders from Magellan: Envoi des ordres depuis Magellan
+            Puppy protection: Protection du chiot
+            The World: Le Monde d'Eressea
+            Factions and units: Factions et unités
         - locale: de
           name: Deutsch
           build: true
@@ -219,7 +235,6 @@ nav:
     - sailing.md
   - Production:
     - production.md
-    - resources.md
     - resources.md
     - items.md
     - roads.md

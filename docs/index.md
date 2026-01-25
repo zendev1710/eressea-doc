@@ -6,8 +6,9 @@ alias: home
 
 Welcome to [[eressea]]!
 
-!!! note "important"
-    The **official rules** of the game are available in this [wiki].
+!!! warning "important"
+    The rules described on this site **are not authoritative**.
+    The **official rules** of the game are available in **[this wiki]**.
 
 This site reproduces the rules of the game described in the wiki, **fully translated into English**.
 
@@ -81,7 +82,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 
 Continue reading: [rules].
 
-[wiki]: https://wiki.eressea.de/Hauptseite/en
+[this wiki]: https://wiki.eressea.de/Hauptseite/en
 [rules]: ./rules.md
 [Eressea]: ./cmd-eressea.md
 [Discord]: https://discord.gg/KT5Fffh

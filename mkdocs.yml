@@ -101,6 +101,7 @@ plugins:
       # use_anchor_titles: true
       # use_page_icon: true
   # - awesome-nav
+  - privacy
   - redirects
   - search
   # - autorefs
@@ -148,7 +149,7 @@ plugins:
             Production: Produktion
             War: Krieg
             Magic: Magie
-            Alchemy: Alchimie
+            Alchemy: Alchemie
             Orders: Befehle
             References: Referenzen
             Help: helfen
@@ -407,6 +408,7 @@ nav:
         - ring-of-invisibility.md
         - ring-of-power.md
         - shell.md
+        - silverbag.md
         - sphere-of-invisibility.md
         - stardust.md
         - sun-sail.md

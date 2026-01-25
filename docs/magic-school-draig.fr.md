@@ -6,7 +6,7 @@ alias: sorts-draig
 
 Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Sorts de niveau 1
+## Niveau 1
 
 ### Petites malédictions
 
@@ -91,7 +91,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Lesser Sacrifice"`  
 
-## Sorts de niveau 5
+## Niveau 5
 
 ### Soif de sang
 
@@ -123,7 +123,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
-## Sorts de niveau 6
+## Niveau 6
 
 ### Créer une [[amulette-de-vision-decuplee]]
 
@@ -188,7 +188,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
-## Sorts de niveau 7
+## Niveau 7
 
 ### Mur de feu
 
@@ -233,7 +233,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
-## Sorts de niveau 8
+## Niveau 8
 
 ### Invocation des Démons de l'Ombre
 
@@ -267,7 +267,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
-## Sorts de niveau 9
+## Niveau 9
 
 ### Fuite de l'Astral
 
@@ -328,7 +328,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
-## Sorts de niveau 10
+## Niveau 10
 
 ### Feuerteufel
 
@@ -361,7 +361,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] [LEVEL n] Pentagram ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-## Sorts de niveau 11
+## Niveau 11
 
 ### Invocation du Dragon
 
@@ -395,7 +395,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] "Todeswolke"`  
 
-## Sorts de niveau 12
+## Niveau 12
 
 ### Beschwöre Schattenmeister
 
@@ -445,7 +445,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST "Summon Familiar"`  
 
-## Sorts de niveau 14
+## Niveau 14
 
 ### Chaossog
 

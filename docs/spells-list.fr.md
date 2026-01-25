@@ -71,7 +71,6 @@ alias: liste-des-sorts
 | [Divination]                            |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
 | [Docteur Miracle]                       |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
 | [Don du Chaos]                          |   D    | 6 auras                                                      |    3 |      -- |  3   | :heavy_check_mark:     |                    |
-| [Drachenruf]                            |   D    | 80 auras, 1 [Drachenkopf]                                    |   11 |      -- |  5   |                        | :heavy_check_mark: |
 | [Écoute clandestine]                    |   C    | 4 auras, 100 silver                                          |    7 |      -- |  5   |                        |                    |
 | [Endormissement]                        |   I    | N auras                                                      |    7 |  Combat |  5   |                        |                    |
 | [Esprits du Gardien de l'Astral]        |   G    | 5 x N auras                                                  |    5 |  Pré-c. |  2   |                        |                    |
@@ -104,6 +103,7 @@ alias: liste-des-sorts
 | [Invocation de la Tempête]              |   G    | 6 x N auras                                                  |    6 |      -- |  5   | :heavy_check_mark:[^3] |                    |
 | [Invocation de la Terre]                |   G    | 25 auras, 2 [laen]                                           |    7 |      -- |  5   |                        | :heavy_check_mark: |
 | [Invocation des Démons de l'Ombre]      |   D    | 3 x N auras                                                  |    8 |      -- |  5   |                        |                    |
+| [Invocation du Dragon]                  |   D    | 80 auras, 1 [tete-de-dragon]                                 |   11 |      -- |  5   |                        | :heavy_check_mark: |
 | [Invocation du Familier]                | \*[^1] | 100 auras, 5 auras permanents                                | [^2] |      -- |  5   |                        |                    |
 | [Jonglerie]                             |   C    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
 | [Le manteau de Firun]                   | \*[^1] | 2 x N auras                                                  |    3 |      -- |  5   | :heavy_check_mark:     |                    |
@@ -122,6 +122,7 @@ alias: liste-des-sorts
 | [Murs d'éternité]                       |   T    | 50 auras, 1 aura permanent                                   |    7 |      -- |  5   | :heavy_check_mark:     |                    |
 | [Onde de choc]                          |   T    | N auras                                                      |    5 |  Combat |  5   |                        |                    |
 | [Opfere Kraft]                          |   T    | 100 auras                                                    |   15 |      -- |  1   |                        |                    |
+| [Peau d'écorce]                         |   G    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
 | [Pentagramme]                           |   D    | 10 x N auras                                                 |   10 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
 | [Petit sacrifice de sang]               |   D    | 16 PV                                                        |    4 |      -- |  1   | :heavy_check_mark:     |                    |
 | [Petites malédictions]                  |   D    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
@@ -137,7 +138,6 @@ alias: liste-des-sorts
 | [Résurrection]                          |   I    | N auras                                                      |    5 | Post-c. |  4   |                        |                    |
 | [Rêve de magie]                         |   I    | 2 auras                                                      |    3 |      -- |  1   | :heavy_check_mark:     |                    |
 | [Rêve]                                  |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Rindenhaut]                            |   G    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
 | [Ritual der Aufnahme]                   |   C    | 3 x N auras, N auras permanents                              |    9 |      -- |  5   |                        |                    |
 | [Runes de protection]                   |   T    | 20 auras                                                     |    8 |      -- |  2   | :heavy_check_mark:     |                    |
 | [Schlechte Träume]                      |   I    | 90 auras                                                     |   10 |      -- |  5   |                        | :heavy_check_mark: |
@@ -228,7 +228,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Divination]: ./spells-descriptions.md#divination "Divination"
 [Docteur Miracle]: ./spells-descriptions.md#docteur-miracle "Miracle Doctor"
 [Don du Chaos]: ./spells-descriptions.md#don-du-chaos "Chaos Gift"
-[Drachenruf]: ./spells-descriptions.md#drachenruf "Drachenruf"
+[Invocation du Dragon]: ./spells-descriptions.fr.md#invocation-du-dragon "Dragon Call"
 [Endormissement]: ./spells-descriptions.md#endormissement "Sleep"
 [Esprits du Gardien de l'Astral]: ./spells-descriptions.md#esprits-du-gardien-de-lastral "Astral Guardian Spirits"
 [Feuerteufel]: ./spells-descriptions.md#feuerteufel "Feuerteufel"
@@ -288,7 +288,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Préservation du butin]: ./spells-descriptions.md#preservation-du-butin "Save Spoils"
 [Regard du Basilic]: ./spells-descriptions.md#regard-du-basilic "Gaze of the Basilisk"
 [Repos éternel]: ./spells-descriptions.md#repos-eternel "Eternal Rest"
-[Rindenhaut]: ./spells-descriptions.md#rindenhaut "Rindenhaut"
+[Peau d'écorce]: ./spells-descriptions.fr.md#peau-decorce "Rindenhaut"
 [Ritual der Aufnahme]: ./spells-descriptions.md#ritual-der-aufnahme "Ritual der Aufnahme"
 [Runes de protection]: ./spells-descriptions.md#runes-de-protection "Protective Runes"
 [Résistance à la magie]: ./spells-descriptions.md#resistance-a-la-magie "Resist Magic"
@@ -334,3 +334,4 @@ Poursuivre la lecture : [[alchimie|potions]].
 [fers]: ./resources.md#fer "Iron"
 [pierre]: ./resources.md#pierre "Stone"
 [racines de nœud]: ./herbs.md#racine-de-nud "Knotroot"
+[tete-de-dragon]: ./dragonhead.md "Dragonhead"

@@ -6,7 +6,7 @@ alias: sorts-cerddor
 
 Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Sorts de niveau 1
+## Niveau 1
 
 ### Chant apaisant
 
@@ -40,7 +40,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 `CAST [LEVEL n] Jugglery`  
 
-## Sorts de niveau 2
+## Niveau 2
 
 ### Chant de générosité
 
@@ -73,7 +73,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
-## Sorts de niveau 3
+## Niveau 3
 
 ### Chant de terreur
 
@@ -106,7 +106,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
-## Sorts de niveau 4
+## Niveau 4
 
 ### Chant de confusion
 
@@ -155,7 +155,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 `CAST "Blabbermouth" <unit-id>`  
 
-## Sorts de niveau 5
+## Niveau 5
 
 ### Chant de contre
 
@@ -219,7 +219,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
-## Sorts de niveau 6
+## Niveau 6
 
 ### Créer une [[amulette-de-vision-decuplee]]
 
@@ -284,7 +284,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Calm Monster" <unit-id>`  
 
-## Sorts de niveau 7
+## Niveau 7
 
 ### Écoute clandestine
 
@@ -345,7 +345,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST "Hangover" <unit-id>`  
 
-## Sorts de niveau 8
+## Niveau 8
 
 ### Chant d'effroi
 
@@ -392,7 +392,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-## Sorts de niveau 9
+## Niveau 9
 
 ### Ritual der Aufnahme
 
@@ -427,7 +427,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST "Summon Familiar"`  
 
-## Sorts de niveau 10
+## Niveau 10
 
 ### Gesang des wachen Geistes
 
@@ -462,7 +462,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
-## Sorts de niveau 11
+## Niveau 11
 
 ### Gesang der Melancholie
 
@@ -497,7 +497,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST "Miriams flinke Finger"`  
 
-## Sorts de niveau 12
+## Niveau 12
 
 ### Gesang der Friedfertigkeit
 
@@ -535,7 +535,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 <!-- cspell:enable -->
 
 :   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
-    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir au groupe du barde.
+    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir à la faction du barde.
 
 | Composants | Niv. |   Type | Rang | B | D |
 |------------|-----:|-------:|:----:|:--|:--|

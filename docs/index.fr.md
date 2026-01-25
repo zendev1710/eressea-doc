@@ -6,8 +6,9 @@ alias: accueil
 
 Bienvenue dans [[eressea]] !
 
-!!! note "important"
-    Les **règles officielles** du jeu sont disponibles dans ce [wiki].
+!!! warning "important"
+    Les règles décrites sur ce site **ne font pas autorité**.
+    Les **règles officielles** et de référence du jeu sont disponibles dans **[ce wiki]**.
 
 Ce site reprend les règles du jeu décrites dans le wiki, **entièrement traduites en français**.
 
@@ -84,7 +85,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 Poursuivre la lecture : [[regles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
-[wiki]: https://wiki.eressea.de/Hauptseite/fr
+[ce wiki]: https://wiki.eressea.de/Hauptseite/fr
 [Les outils indispensables pour jouer]: ./commands-send.md#ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres
 [Conseils pour les nouveaux joueurs]: ./getting-started-tips.md
 [L'histoire d'Eressea]: ./eressea-story.md

@@ -62,7 +62,7 @@ alias: list-of-spells
 |    |  7 |    |    |    | [Curse of Pestilence]             | --      |    5 | 30 Aura, 50 Bauern                                  | Distance       |
 |    |    |    |    |  5 | [Destroy Magic]                   | --      |    2 | 4 Aura x Level                                      | Distance, Ship |
 |    |    |    |  1 |    | [Divination]                      | --      |    5 | 1 Aura x Level                                      | Ship           |
-|    | 11 |    |    |    | [Drachenruf]                      | --      |    5 | 80 Aura, 1 Drachenkopf                              | Distance       |
+|    | 11 |    |    |    | [Dragon Call]                     | --      |    5 | 80 Aura, 1 [[dragonhead]]                           | Distance       |
 |    |    |    |  3 |    | [Dream of Magic]                  | --      |    1 | 2 Aura                                              | Ship           |
 |    |    |    |  1 |    | [Dream]                           | --      |    5 | 1 Aura x Level                                      | Ship           |
 |  5 |    |    |    |    | [Epic Heroes]                     | Pre-c.  |    4 | 2 Aura x Level                                      |                |
@@ -214,7 +214,7 @@ Continue reading: [[alchemy|Potions]].
 [Curse of Pestilence]: ./spells-descriptions.md#curse-of-pestilence
 [Destroy Magic]: ./spells-descriptions.md#destroy-magic
 [Divination]: ./spells-descriptions.md#divination
-[Drachenruf]: ./spells-descriptions.md#drachenruf
+[Dragon Call]: ./spells-descriptions.md#dragon-call
 [Dream of Magic]: ./spells-descriptions.md#dream-of-magic
 [Dream]: ./spells-descriptions.md#dream
 [Epic Heroes]: ./spells-descriptions.md#epic-heroes

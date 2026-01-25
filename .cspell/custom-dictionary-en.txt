@@ -13,6 +13,7 @@
 anonymization
 Antimagic
 armoursmithing
+bloodlust
 Braineaters
 bubblemorel
 Busybeer

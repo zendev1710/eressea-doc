@@ -6,8 +6,9 @@ alias: hauptseite
 
 Willkommen auf [[eressea]]!
 
-!!! note "wichtig"
-    Die **offiziellen Spielregeln** sind in diesem [Wiki] verfügbar.
+!!! warning "wichtig"
+    Die auf dieser Seite beschriebenen Regeln **sind nicht verbindlich**.
+    Die **offiziellen Spielregeln** sind in **[diesem Wiki]** verfügbar.
 
 Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 
@@ -82,7 +83,7 @@ Weiterlesen: [[regeln]].
 
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
-[wiki]: https://wiki.eressea.de/Hauptseite/de
+[diesem wiki]: https://wiki.eressea.de/Hauptseite/de
 [Das dritte Zeitalter]: ./the-third-age.md
 [Spielerseiten]: ./player-pages.md
 [Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md

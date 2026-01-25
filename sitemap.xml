@@ -753,6 +753,14 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/cr-format/"/>
     </url>
     <url>
+        <loc>https://zendev1710.github.io/eressea-doc/cream-puff/</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/cream-puff/"/>
+    </url>
+    <url>
         <loc>https://zendev1710.github.io/eressea-doc/csmapfx/</loc>
         <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
@@ -2217,6 +2225,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/cr-format/"/>
     </url>
     <url>
+        <loc>https://zendev1710.github.io/eressea-doc/fr/cream-puff/</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/cream-puff/"/>
+    </url>
+    <url>
         <loc>https://zendev1710.github.io/eressea-doc/fr/csmapfx/</loc>
         <lastmod>2026-01-25</lastmod>
         <changefreq>daily</changefreq>
@@ -3679,6 +3695,14 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/cr-format/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/cr-format/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/cr-format/"/>
+    </url>
+    <url>
+        <loc>https://zendev1710.github.io/eressea-doc/de/cream-puff/</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zendev1710.github.io/eressea-doc/de/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zendev1710.github.io/eressea-doc/cream-puff/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://zendev1710.github.io/eressea-doc/fr/cream-puff/"/>
     </url>
     <url>
         <loc>https://zendev1710.github.io/eressea-doc/de/csmapfx/</loc>

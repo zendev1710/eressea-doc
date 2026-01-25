@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1422,8 +1426,6 @@
       
         
       
-        
-      
     
     
     
@@ -1484,34 +1486,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2558,34 +2530,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2921,7 +2865,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4768,7 +4712,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6280,6 +6224,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6416,14 +6366,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6480,6 +6458,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7013,8 +7047,6 @@
       
         
       
-        
-      
     
     
     
@@ -7131,34 +7163,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7356,10 +7360,17 @@
 
 
 <h1 id="optimizing-production">Optimizing production<a class="headerlink" href="#optimizing-production" title="Permanent link">&para;</a></h1>
-<p>By optimizing production I mainly mean the economical use of units. I.e. I have a group of units in a region with the same task and should produce a set amount (silver, trade, items, ships and buildings).</p>
-<p>It is relatively clear that this is the so-called backpack problem. The aim here is to overload the backpack as little as possible, i.e. to assign the units so that as few people as possible do nothing. In principle, it is also conceivable to set a minimum utilization limit (for the last assigned unit).</p>
-<p>When loading a backpack, it is important to load as much weight as possible into the limited space/weight. In our case, space/weight is the quantity to be produced. We don't have any value, but we do have costs. And they are e.g. the better a unit is, the lower it is.</p>
-<p>The backpack problem can be solved quite well using Pareto optimal points (intermediate states) for individual, very different objects that you pack in the backpack. Unfortunately, at Eressea we often have to deal with a lot of equally well-trained units. i.e. the costs per person are the same, only the size may be different. However, this means that quite a few states are on the same line, i.e. it is hardly possible to eliminate any of them.</p>
+<p>By optimizing production I mainly mean the economical use of units.<br />
+I.e. I have a group of units in a region with the same task and should produce a set amount (silver, trade, items, ships and buildings).</p>
+<p>It is relatively clear that this is the so-called backpack problem.<br />
+The aim here is to overload the backpack as little as possible, i.e. to assign the units so that as few people as possible do nothing.<br />
+In principle, it is also conceivable to set a minimum utilization limit (for the last assigned unit).</p>
+<p>When loading a backpack, it is important to load as much weight as possible into the limited space/weight.<br />
+In our case, space/weight is the quantity to be produced.<br />
+We don't have any value, but we do have costs, and they are e.g. the better a unit is, the lower it is.</p>
+<p>The backpack problem can be solved quite well using Pareto optimal points (intermediate states) for individual, very different objects that you pack in the backpack.<br />
+Unfortunately, at Eressea we often have to deal with a lot of equally well-trained units, i.e. the costs per person are the same, only the size may be different.<br />
+However, this means that quite a few states are on the same line, i.e. it is hardly possible to eliminate any of them.</p>
 <p>So how do you basically proceed:</p>
 <ol>
 <li>Sort existing units by cost per person (least first) and then by number of people (most first)</li>
@@ -7371,7 +7382,10 @@
 </li>
 <li>From all target states, choose the one with the highest production and, if necessary, the lowest costs</li>
 </ol>
-<p>A method that calculates the result of the optimization only needs a list of the units, their costs and their production quantity. If necessary, additional conditions are given to the method. Such a unit list can be created relatively quickly, regardless of the actual target, and provided with the necessary attributes. When applied to production, the backpack problem can be implemented quite easily in a generalized manner.</p>
+<p>A method that calculates the result of the optimization only needs a list of the units, their costs and their production quantity.<br />
+If necessary, additional conditions are given to the method.<br />
+Such a unit list can be created relatively quickly, regardless of the actual target, and provided with the necessary attributes.<br />
+When applied to production, the backpack problem can be implemented quite easily in a generalized manner.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Produktion&oldid=2469] -->
 
 
@@ -7441,6 +7455,14 @@
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

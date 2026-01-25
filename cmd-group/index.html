@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4771,7 +4715,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6267,6 +6211,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6403,14 +6353,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6467,6 +6445,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7000,8 +7034,6 @@
       
         
       
-        
-      
     
     
     
@@ -7118,34 +7150,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7318,20 +7322,20 @@
 
 <h1 id="group">GROUP<a class="headerlink" href="#group" title="Permanent link">&para;</a></h1>
 <p><strong><code>GROUP</code></strong><code>["</code><em><code>name</code></em><code>"]</code>  </p>
-<p>With the <code>GROUP</code> order you can divide the faction into subgroups that have a different <a href="../cmd-help/"><code>HELP</code></a> status than the rest of the faction.
-This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.</p>
-<p>You can also do all of them for participants in a tournament <code>HELP COMBAT</code> break down assignments so that you don't intervene in a duel.
-Attacks on allies with a faction-camouflaged squad of units are also possible without having to detach <code>HELP COMBAT</code> reveals at faction level.
-And if you want to protect your forests from allies, for example, you can set up a troop of forest guards who won't tell anyone <code>HELP GUARD</code> give.
-You can also set your own <a href="../cmd-prefix/">PREFIX</a> for each group.</p>
-<p>For example, a unit gives the order <code>GROUP</code> "Privateers of the Seas" to join a group.
-If a group with this name does not yet exist, one will be created that initially always has the same name <code>HELP</code> status like the faction has, even if the unit was previously in a different group.
-With <code>GROUP</code> you leave a group without a name.
-If all units leave a group, it is dissolved.
-However, if all units in a group die, the group remains and can be rejoined.</p>
-<p>Each unit can only belong to one group.
-A unit that unites <code>HELP</code> giving orders changes the status of her faction if she is assigned to a group, or the status of the faction if she is not in a group.</p>
-<p>In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.</p>
+<p>With the <code>GROUP</code> order you can divide the faction into subgroups that have a different <a href="../cmd-help/"><code>HELP</code></a> status than the rest of the faction.<br />
+This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.  </p>
+<p>Similarly, you can remove all <code>HELP COMBAT</code> assignments for participants in a tournament to avoid interfering in a duel.<br />
+Attacks on allies with a faction-camouflaged squad of units are also possible without having to detach <code>HELP COMBAT</code> at faction level.<br />
+And if you want to protect your forests from allies, for example, you can set up a troop of forest guards who won't tell anyone, and give <code>HELP GUARD</code> order.<br />
+You can also set your own <a href="../cmd-prefix/">PREFIX</a> for each group.  </p>
+<p>For example, a unit gives the order <code>GROUP "Privateers of the Seas"</code> to join a group.<br />
+If a group with this name does not yet exist, one will be created that initially always has the same name, with the <code>HELP</code> status like the faction has, even if the unit was previously in a different group.<br />
+With <code>GROUP</code> without a name, you leave a group.<br />
+If all units leave a group, it is dissolved.<br />
+However, if all units in a group die, the group remains and can be rejoined.  </p>
+<p>Each unit can only belong to one group.<br />
+A unit that issues a <code>HELP</code> order changes the status of its group if it is assigned to a group, or the status of its faction if it does not belong to a group.  </p>
+<p>In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.  </p>
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->
 
 
@@ -7401,6 +7405,14 @@ A unit that unites <code>HELP</code> giving orders changes the status of her fac
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

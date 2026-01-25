@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4819,7 +4763,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6315,6 +6259,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6451,14 +6401,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6515,6 +6493,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7048,8 +7082,6 @@
       
         
       
-        
-      
     
     
     
@@ -7166,34 +7198,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7386,35 +7390,36 @@
 <h1 id="follow">FOLLOW<a class="headerlink" href="#follow" title="Permanent link">&para;</a></h1>
 <p><strong><code>FOLLOW</code></strong><code>UNIT</code><em><code>unit-ID</code></em><br />
 <strong><code>FOLLOW</code></strong><code>SHIP</code><em><code>ship-ID</code></em><code>[</code><em><code>speed</code></em><code>]</code>  </p>
-<p>This can be used to follow units or ships.</p>
-<p>With <code>FOLLOW UNIT</code><em><code>unit-ID</code></em> your own unit will "watch" the specified unit and follow it when it moves.
-However, if the pursued unit is faster than the following unit, it escapes pursuit.
-The pursuers follow the pursued unit as far as possible.
-Units traveling by ship cannot be tracked with <code>FOLLOW UNIT</code>.
-Nor can captains use this to move their ship.
-Instead, they would abandon ship and follow the unit on foot if possible.</p>
-<p>If the pursued unit has not issued a movement order (this includes <code>MOVE, ROUTE, RIDE, FOLLOW</code>, but not <code>PIRACY</code>), the pursuing unit can execute its long order.</p>
-<p>With <code>FOLLOW SHIP</code><em><code>ship-id</code></em> you can follow ships that have crossed the region in the current or previous round.
-If the captain has given the order <code>FOLLOW SHIP</code><em><code>ship-id</code></em>, the ship will then follow the course of the specified ship until it is overtaken - if your own ship is fast enough.
-If the optional parameter <em>Speed</em> is specified, the pursuing ship will sail a maximum of this many regions.</p>
+<p>This can be used to follow units or ships.  </p>
+<p>With <code>FOLLOW UNIT</code><em><code>unit-ID</code></em> your own unit will "watch" the specified unit and follow it when it moves.<br />
+However, if the pursued unit is faster than the following unit, it escapes pursuit.<br />
+The pursuers follow the pursued unit as far as possible.<br />
+Units traveling by ship cannot be tracked with <code>FOLLOW UNIT</code>.<br />
+Nor can captains use this to move their ship.<br />
+Instead, they would abandon ship and follow the unit on foot if possible.  </p>
+<p>If the pursued unit has not issued a movement order (this includes <code>MOVE, ROUTE, RIDE, FOLLOW</code>, but not <code>PIRACY</code>), the pursuing unit can execute its long order.  </p>
+<p>With <code>FOLLOW SHIP</code><em><code>ship-id</code></em> you can follow ships that have crossed the region in the current or previous round.<br />
+If the captain has given the order <code>FOLLOW SHIP</code><em><code>ship-id</code></em>, the ship will then follow the course of the specified ship until it is overtaken - if your own ship is fast enough.<br />
+If the optional parameter <em>Speed</em> is specified, the pursuing ship will sail a maximum of this many regions.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Attention</p>
 <p>You cannot follow ships that have <code>FOLLOW SHIP</code> or <code>PIRACY</code> as their order.</p>
 </div>
-<p><code>FOLLOW SHIP</code>, like <code>FOLLOW UNIT</code>, is only a long order if the target has a move order and then replaces all other long order.</p>
-<p><code>FOLLOW</code> only lasts in the round in which the order is given. If the order is to last longer, it must be preceded by a <code>@</code>.</p>
+<p><code>FOLLOW SHIP</code>, like <code>FOLLOW UNIT</code>, is only a long order if the target has a move order and then replaces all other long order.  </p>
+<p><code>FOLLOW</code> only lasts in the round in which the order is given.<br />
+If the order is to last longer, it must be preceded by a <code>@</code>.  </p>
 <div class="highlight"><pre><span></span><code>UNIT 87b6
     @FOLLOW UNIT hz7
     ENTERTAIN
 </code></pre></div>
-<p>Unit <em>87b6</em> will now watch unit <em>hz7</em> and follow it as it moves.
-Otherwise, she will make money from entertainment.
-With the <code>@</code> both orders are retained.</p>
-<p>Player experience (Solthar):</p>
-<p>It is possible to use a unit A to follow a unit B, which in turn follows a third unit C.
-However, this means that A no longer executes a long order, because at this point the server assumes that unit B is also moving, regardless of whether unit C is also moving.</p>
-<p>It is not possible to meaningfully issue multiple FOLLOW orders.
-Only the first one is always executed.</p>
+<p>Unit <em>87b6</em> will now watch unit <em>hz7</em> and follow it as it moves.<br />
+Otherwise, she will make money from entertainment.<br />
+With the <code>@</code> both orders are retained.  </p>
+<p>Player experience (Solthar):  </p>
+<p>It is possible to use a unit A to follow a unit B, which in turn follows a third unit C.<br />
+However, this means that A no longer executes a long order, because at this point the server assumes that unit B is also moving, regardless of whether unit C is also moving.  </p>
+<p>It is not possible to meaningfully issue multiple FOLLOW orders.<br />
+Only the first one is always executed.  </p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../travel/">Movement</a></li>
@@ -7493,6 +7498,14 @@ Only the first one is always executed.</p>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

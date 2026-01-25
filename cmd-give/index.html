@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4863,7 +4807,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6359,6 +6303,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6495,14 +6445,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6559,6 +6537,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7092,8 +7126,6 @@
       
         
       
-        
-      
     
     
     
@@ -7210,34 +7242,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7488,22 +7492,23 @@
 <p>The unit transfers items, command of ships or buildings, persons, ships or even itself to other units.</p>
 <h2 id="items">Items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h2>
 <p>With <code>GIVE</code> units can give all the goods they own to other units.
-The condition is that the indicated unit accepts things.
-This is the case if it belongs to the same faction or an allied faction (<code>HELP GIVE</code>), or if it has given this turn the <a href="../cmd-contact/">CONTACT</a> order for the giving unit.
-Monster units and certain player units with monster races also accept nothing.
-Those who simply want to throw away objects can also give them to peasants or throw them into the ocean (<code>GIVE 0 "amount" "item"'</code>).
-Persons, Silver and horses respectively increase the supply of peasants, Silver and horses in a (land) region. All other items disappear.</p>
+The condition is that the indicated unit accepts things.<br />
+This is the case if it belongs to the same faction or an allied faction (<code>HELP GIVE</code>), or if it has given this turn the <a href="../cmd-contact/">CONTACT</a> order for the giving unit.<br />
+Monster units and certain player units with monster races also accept nothing.<br />
+Those who simply want to throw away objects can also give them to peasants or throw them into the ocean (<code>GIVE 0 "amount" "item"'</code>).<br />
+Persons, Silver and horses respectively increase the supply of peasants, Silver and horses in a (land) region.<br />
+All other items disappear.  </p>
 <p>The sending and receiving units must, of course, be in the same region.
-The transfer also works on the high seas, between ships and from ships to shore and vice versa.</p>
-<p>Instead of a number you can also use the parameter <code>ALL</code>.
-<code>GIVE</code><em><code>unit-id</code></em><code>ALL Swords</code>, for example, hand over all the swords that the unit has at the time.
-<code>GIVE</code><em><code>unit-id</code></em><code>ALL</code> hands over all items, herbs, potions and silver, but not the people in the unit.
-With<code>GIVE</code><em><code>unit-id</code></em><code>herb</code> all herbs that the unit has are handed over.
-You give the order explicitly <code>GIVE</code><em><code>unit-id</code></em><code>ALL MEN</code>, all people are handed over and the unit is dissolved.</p>
+The transfer also works on the high seas, between ships and from ships to shore and vice versa.  </p>
+<p>Instead of a number you can also use the parameter <code>ALL</code>.<br />
+<code>GIVE</code><em><code>unit-id</code></em><code>ALL Swords</code>, for example, hand over all the swords that the unit has at the time.<br />
+<code>GIVE</code><em><code>unit-id</code></em><code>ALL</code> hands over all items, herbs, potions and silver, but not the people in the unit.<br />
+With<code>GIVE</code><em><code>unit-id</code></em><code>herb</code> all herbs that the unit has are handed over.  </p>
+<p>When you explicitly give the <code>GIVE</code><em><code>unit-id</code></em><code>ALL MEN</code> order, all people are handed over and the unit is dissolved.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
 <p>All items and silver that come with <code>GIVE</code> have been handed over, are automatically reserved and can no longer be passed on from the material pool!
-Also <code>GIVE</code> uses the <a href="../items-pool/">Items pool</a>, except in the context of GIVE EVERYTHING, where the unit only gives its own, unreserved items.</p>
+Also <code>GIVE</code> uses the <a href="../items-pool/">Items pool</a>, except in the context of <code>GIVE ALL</code>, where the unit only gives its own, unreserved items.</p>
 </div>
 <p>The variant <code>GIVE xyz EACH</code> hands over <em>number</em> items per person in the target unit.
 For example, if the unit xyz has 10 people, with <code>GIVE xyz EACH 20 Silver</code> order, it transfers her 200 Silver.</p>
@@ -7514,24 +7519,25 @@ For example, a unit with <code>@GIVE abc ALL Iron</code> hand over all the iron 
 </div>
 <div class="highlight"><pre><span></span><code>GIVE k3f 300 Silver
 ; Gives the unit k3f 300 Silver.
+
 GIVE 0 5 Stone
 ; Discard 5 stones.
+
 GIVE TEMP 3 7 MEN
 ; Gives 7 people to the newly created unit TEMP 3.
 </code></pre></div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Between <code>MAKE TEMP</code> and <code>END</code> there are orders for the new unit - and it has no money.
-So the following <strong>doesn't work</strong>:</p>
+<p>Between <code>MAKE TEMP</code> and <code>END</code> there are orders for the new unit - and it has no money.</p>
 </div>
+<p>So the following <strong>doesn't work</strong>:</p>
 <div class="highlight"><pre><span></span><code>MAKE TEMP 1
     GIVE TEMP 1 200 Silver  ;  Pointless!
     RECRUIT 2
     MOVE WEST
 END
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Instead, it needs to be written like this:
-</code></pre></div>
+<p>Instead, it needs to be written like this:</p>
 <div class="highlight"><pre><span></span><code>GIVE TEMP 1 200 Silver
 MAKE TEMP 1
     RECRUIT 2
@@ -7540,35 +7546,37 @@ END
 ; GIVE TEMP 1 200 Silver  ;  or here!
 </code></pre></div>
 <h2 id="people-and-units">People and units<a class="headerlink" href="#people-and-units" title="Permanent link">&para;</a></h2>
-<p>If you want to bring people from different units together, this is done with <code>GIVE</code><em><code>unit-id</code></em><code>anzahl MEN</code>.
+<p>If you want to bring people from different units together, this is done with <code>GIVE</code><em><code>unit-id</code></em><code>anzahl MEN</code>.<br />
 <strong>The <a href="../skills/">Skills</a> are then mixed up</strong>, and you <strong>shouldn't forget the items</strong>, as they may go to the farmers if the unit runs out of people.</p>
 <p>Player experience (Solthar):</p>
-<p>If you want to hand over people to a unit of another faction, a simple HELP GIVE is not enough;
-the receiving unit must CONTACT the transferring unit.
+<p>If you want to hand over people to a unit of another faction, a simple <a href="../cmd-help/"><code>HELP GIVE</code></a> is not enough!<br />
+The receiving unit must <a href="../cmd-contact/">CONTACT</a> the transferring unit.<br />
 In addition, if the receiving unit is a <a href="../races/#humans">migrant unit</a>, it must not have any people at the time of transfer.
-Ideally it should be an empty TEMP unit. Example:</p>
+Ideally it should be an empty TEMP unit.
+Example:</p>
 <div class="highlight"><pre><span></span><code>UNIT a; Faction X
-GIVE TEMP x ALL MEN
+    GIVE TEMP x ALL MEN
 UNIT b; Faction Y
-MAKE TEMP x
-CONTACT UNIT a
-END
+    MAKE TEMP x
+        CONTACT UNIT a
+    END
 </code></pre></div>
-<p>With <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!
-The unit does not carry out any further orders during the turn!</p>
+<!-- TODO clarify -->
+<p>With <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!<br />
+The unit does not carry out any further orders during the turn!  </p>
 <h2 id="command">Command<a class="headerlink" href="#command" title="Permanent link">&para;</a></h2>
-<p>If the unit also has a ship or building under its command - i.e. if it is the first listed unit in the ship or building - it can also pass command to another unit.
-The unit in command determines which other units are allowed to enter the ship or building.</p>
-<p><code>GIVE unit COMMAND</code> should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.
-The order of the units during the evaluation is not always that of the report.
-New owners of a building are placed in the first position in the building at the end of the round and may therefore only benefit from the building in the following round (e.g. mining bonus).
-The command cannot be given to units without people (e.g. after a battle or "empty" TEMP units).</p>
+<p>If the unit also has a ship or building under its command - i.e. if it is the first listed unit in the ship or building - it can also pass command to another unit.<br />
+The unit in command determines which other units are allowed to enter the ship or building.  </p>
+<p><code>GIVE unit COMMAND</code> should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.<br />
+The order of the units during the evaluation is not always that of the report.<br />
+New owners of a building are placed in the first position in the building at the end of the round and may therefore only benefit from the building in the following round (e.g. mining bonus).<br />
+The command cannot be given to units without people (e.g. after a battle, or to "empty" <code>TEMP</code> units).</p>
 <h2 id="convoy">Convoy<a class="headerlink" href="#convoy" title="Permanent link">&para;</a></h2>
-<p>With <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> the owner of a ship or convoy hands over the number of ships.
-The transferring and receiving units must belong to the same faction; HELP ALL or CONTACT is not sufficient.
-If the other unit also owns a ship, a <a href="../ships/#convoy">convoy</a> is formed.
-Convoys always consist of ships of the same type.
-Boats cannot form convoys and the ships must be on the same coast.</p>
+<p>With <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> the owner of a ship or <a href="../ships/#convoy">convoy</a> hands over the number of ships.<br />
+The transferring and receiving units must belong to the same faction; <code>HELP ALL</code> or <code>CONTACT</code> is not sufficient.<br />
+If the other unit also owns a ship, a <a href="../ships/#convoy">convoy</a> is formed.<br />
+Convoys always consist of ships of the same type.<br />
+Boats cannot form convoys and the ships must be on the same coast.  </p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-reserve/">RESERVE</a></li>
@@ -7645,6 +7653,14 @@ Boats cannot form convoys and the ships must be on the same coast.</p>
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1422,8 +1426,6 @@
       
         
       
-        
-      
     
     
     
@@ -1484,34 +1486,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2558,34 +2530,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2921,7 +2865,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4768,7 +4712,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6444,6 +6388,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6580,14 +6530,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6644,6 +6622,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7177,8 +7211,6 @@
       
         
       
-        
-      
     
     
     
@@ -7295,34 +7327,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7670,20 +7674,20 @@ A block of this type may occur multiple times, but only once per parent block (t
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>VERSION 16
 REGION -3 -7
-REGIONSBOTSCHAFTEN
+REGIONSMESSAGES
 </code></pre></div>
 <h2 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h2>
 <p>Names and number of attributes are not predefined.<br />
 An attribute consists of two parts: value and tag.<br />
 The tag should consist of letters and numbers, but should not contain spaces.<br />
 The value is either a list of one or more integers, or a string written in quotation marks.<br />
-Value and day are separated from each other by a semicolon.  </p>
+Value and tag are separated from each other by a semicolon.  </p>
 <p>Since version 35, an attribute may only appear once within a block.<br />
-In CR versions prior to 35, there were some blocks that violated this rule, such as the ADDRESSES block.  </p>
+In CR versions prior to 35, there were some blocks that violated this rule, such as the <code>ADDRESSES</code> block.  </p>
 <p>Examples:</p>
 <div class="highlight"><pre><span></span><code>0 0;Bergbau
 &quot;Xandaryl&quot;;Insel
-172;Runde
+172;Turn
 </code></pre></div>
 <h2 id="list-entries">List entries<a class="headerlink" href="#list-entries" title="Permanent link">&para;</a></h2>
 <p>Attributes without a tag must be treated separately.<br />
@@ -7703,7 +7707,7 @@ If it begins with a <code>"</code>, it is a string or list entry.  </p>
 <p>You parse blocks by reading the name of the block (up to the first space) and then the ids separated by spaces.<br />
 Pay attention to any comments (for Eressea CRs before version 36)!  </p>
 <h3 id="integer-attributes">Integer attributes<a class="headerlink" href="#integer-attributes" title="Permanent link">&para;</a></h3>
-<p>Identify the number by searching until the <code>;</code> reads.<br />
+<p>Identify the number by searching until encountering <code>;</code>.<br />
 Then read the name of the tag until the end of the line.<br />
 Please note that there may still be spaces at the end of the line or around the <code>;</code> could stand around.  </p>
 <h3 id="about-list-entries">About list entries<a class="headerlink" href="#about-list-entries" title="Permanent link">&para;</a></h3>
@@ -7711,29 +7715,40 @@ Please note that there may still be spaces at the end of the line or around the 
 Be careful, there can certainly be semicolons in the string.<br />
 If the <code>"</code> is no longer followed by a semicolon, it is a list element, otherwise it is a string attribute.  </p>
 <h3 id="string-attributes">String attributes<a class="headerlink" href="#string-attributes" title="Permanent link">&para;</a></h3>
-<p>The string has already been read so the <code>;</code> skip, and find the name of the tag.<br />
+<p>The string has already been read so skip the <code>;</code>, and find the name of the tag.<br />
 Again, watch out for spaces around the semicolon or at the end of the line.  </p>
 <h3 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Permanent link">&para;</a></h3>
 <ul>
-<li>An integer attribute can consist of several numbers, such as skills. The number of integers is not necessarily the same for attributes with the same name, and it may not always be 2 (currently it is, but this is left open for future expansion)</li>
-<li>Blank lines: there shouldn't actually be any blank lines in the CR. But a good parser should be able to handle it</li>
-<li>Invalid lines: CRs are often garbled because a mail tool or editor has wrapped the lines. In this case, a warning should definitely be issued and the attribute should be ignored</li>
-<li>CR/LF: Mac, Unix and Windows each store the end of a line differently. The parser should be able to recognize all formats</li>
-<li>Capitalization: the spelling of the tags should be unique, i.e. not mixed and not converted. A good parser will still recognize two tags as the same if they differ in capitalization</li>
-<li>Umlauts: both strings and tags can contain umlauts. A good parser recognizes the common transliteration of German umlauts and sets, for example, trees = trees, desert = desert</li>
+<li>An integer attribute can consist of several numbers, such as skills.
+  The number of integers is not necessarily the same for attributes with the same name, and it may not always be 2 (currently it is, but this is left open for future expansion)</li>
+<li>Blank lines: there shouldn't actually be any blank lines in the CR.
+  But a good parser should be able to handle it</li>
+<li>Invalid lines: CRs are often garbled because a mail tool or editor has wrapped the lines.
+  In this case, a warning should definitely be issued and the attribute should be ignored</li>
+<li>CR/LF: Mac, Unix and Windows each store the end of a line differently.
+  The parser should be able to recognize all formats</li>
+<li>Capitalization: the spelling of the tags should be unique, i.e. not mixed and not converted.
+  A good parser will still recognize two tags as the same if they differ in capitalization</li>
+<li>Umlauts: both strings and tags can contain umlauts.
+  A good parser recognizes the common transliteration of German umlauts and sets</li>
 <li>End of file: it can happen that there is no line break after the last line of the CR</li>
 </ul>
 <h2 id="reserved-blocks-and-tags">Reserved blocks and tags<a class="headerlink" href="#reserved-blocks-and-tags" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>VERSION</code> is the block that describes the file. It is the first block in the CR. A good parser should process multiple VERSIONs blocks in its input, and treat this case as if a second report had been read in (example: cat 1.cr 2.cr 3.cr | parser)</li>
-<li>Round is a tag containing the age of the block. Blocks within a CR can be dated differently, if, for example, a report was compiled from information collected over several rounds.
-  The round attribute should indicate the date of the most recent information about the block.
-  It is inherited across sub-blocks, so if these blocks represent newer or older versions, they should get their own round attribute. CRs without turn information are best treated as being from turn 0</li>
-<li>Configuration is a tag in the version block. It can be used to describe the content of the CR, z.b. with the name of the tool that created it or a description. For example, “mercator-map”, “EMap-export”. The value "Standard" is reserved for the Eressea server</li>
+<li><code>VERSION</code> is the first block in the CR.
+  A good parser should process multiple <code>VERSION</code> blocks in its input, and treat this case as if a second report had been read in (example: cat 1.cr 2.cr 3.cr | parser)</li>
+<li><code>Turn</code> is a tag containing the age (in the game) of the block.</li>
+<li>Blocks within a CR can be dated differently, if, for example, a report was compiled from information collected over several turns.
+  The <code>Turn</code> attribute should indicate the date of the most recent information about the block.
+  It is inherited across sub-blocks, so if these blocks represent newer or older versions, they should get their own <code>Turn</code> attribute.
+  CRs without turn information are best treated as being from turn 0.</li>
+<li>Configuration is a tag in the version block.
+  It can be used to describe the content of the CR, z.b. with the name of the tool that created it or a description. For example, “mercator-map”, “EMap-export”.
+  The value "Standard" is reserved for the Eressea server</li>
 </ul>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="http://dose.0wnz.at/thewhitewolf/cr-format">CR-Format Details</a> collected and prepared by tww</li>
+<li><a href="http://dose.0wnz.at/thewhitewolf/cr-format">CR-Format Details</a> (german web site), collected and prepared by <em>The White Wolf</em> (tww)</li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=CR\_Format&oldid=5847] -->
 
@@ -7804,6 +7819,14 @@ Again, watch out for spaces around the semicolon or at the end of the line.  </p
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1494,8 +1498,6 @@
       
         
       
-        
-      
     
     
     
@@ -1556,34 +1558,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2540,8 +2514,6 @@
       
         
       
-        
-      
     
     
     
@@ -2630,34 +2602,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2993,7 +2937,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4830,7 +4774,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6326,6 +6270,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6462,14 +6412,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6526,6 +6504,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7059,8 +7093,6 @@
       
         
       
-        
-      
     
     
     
@@ -7177,34 +7209,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7407,14 +7411,12 @@
 
 <h1 id="weekly-report">Weekly report<a class="headerlink" href="#weekly-report" title="Permanent link">&para;</a></h1>
 <p>The weekly report is a small statistic for Eressea.  </p>
-<p>It starts with the in-game date, the evaluation number and some numbers about general player development.
+<p>It starts with the in-game date, the evaluation number and some numbers about general player development.<br />
 This is followed by a list of the number of factions sorted by race, followed by the number of people per race.</p>
 <p>It is concluded with the number of NMR and the number of new players.</p>
 <p>It is sent together with the report as a .txt file and, as the name suggests, appears weekly.</p>
-<p>In the past, the absolute change figures and, for people per race, the percentage change were also given.</p>
-<p>However, this has not been the case for several years.</p>
 <h2 id="example-weekly-report-1000">Example weekly report #1000<a class="headerlink" href="#example-weekly-report-1000" title="Permanent link">&para;</a></h2>
-<p>Eressea in the first week of the month of Storm moon in the year 31 of the Second Age.</p>
+<p>Eressea in the first week of the month of Storm Moon in the year 31 of the Second Age.</p>
 <div class="highlight"><pre><span></span><code>Auswertung Nr: 1000
 
 Parteien: 186 (+0)
@@ -7531,6 +7533,14 @@ Neue Spieler: 0
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

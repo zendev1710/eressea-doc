@@ -1,3 +1,7 @@
+body {
+  outline: 3px solid magenta !important;
+}
+
 .md-grid {
   max-width: initial;
 }
@@ -22,3 +26,23 @@ img.icon {
   --icon-filter: invert(1);
 }
 
+/* KaTeX formulas in left display without margins */
+.md-typeset .katex-display > .katex
+{
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.result-pop {
+  animation: pop 0.25s ease-out;
+}
+
+@keyframes pop {
+  0%   { transform: scale(0.8); opacity: 0.2; }
+  60%  { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+/* to enable animation */
+#war-tables-compute-endurance-result { display: inline-block; }

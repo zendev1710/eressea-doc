@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1422,8 +1426,6 @@
       
         
       
-        
-      
     
     
     
@@ -1487,34 +1489,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2629,8 +2603,6 @@
       
         
       
-        
-      
     
     
     
@@ -2719,34 +2691,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -3082,7 +3026,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4919,7 +4863,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6415,6 +6359,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6551,14 +6501,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6615,6 +6593,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7148,8 +7182,6 @@
       
         
       
-        
-      
     
     
     
@@ -7266,34 +7298,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7586,40 +7590,46 @@
 <h1 id="items-pool">Items pool<a class="headerlink" href="#items-pool" title="Permanent link">&para;</a></h1>
 <p>Particularly with larger factions, players lose track in some regions, especially since "distributing money" is rather boring, hard work and does not add much to the fun of the game.</p>
 <h2 id="the-silver-pool">The silver pool<a class="headerlink" href="#the-silver-pool" title="Permanent link">&para;</a></h2>
-<p>The silver pool takes over the distribution of money when playing, so that for example with <a href="../cmd-recruit/">RECRUIT</a> the unit automatically gets enough money (if available in the region) or the learning of expensive talents is provided. Nevertheless, it is stated throughout the instructions that units must have enough money with them.
+<p>The silver pool takes over the distribution of money when playing, so that for example with <a href="../cmd-recruit/">RECRUIT</a> the unit automatically gets enough money (if available in the region) or the learning of expensive skills is provided.<br />
+Nevertheless, it is stated throughout the instructions that units must have enough money with them.<br />
 This is just to avoid forgetting it.</p>
-<p>Likewise, <a href="../buildings/">Buildings</a> are supplied from the pool if the silver is present in the region at the start of the round.
-If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.
-At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own party's pool.</p>
-<p>TEMP units cannot reserve. They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with <a href="../cmd-give/">GIVE</a>.
-Be careful: when TEMP units get silver, they also use it to recruit!
-So if you want them to take silver with you to another region, the recruitment silver must also be handed over.</p>
-<p>Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.
-Units do not give silver they need for their own upkeep to units to pay for their upkeep.</p>
+<p>Likewise, <a href="../buildings/">Buildings</a> are supplied from the pool if the silver is present in the region at the start of the round.<br />
+If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.<br />
+At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own faction's pool.  </p>
+<p><strong><code>TEMP</code> units cannot reserve</strong>.<br />
+They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with <a href="../cmd-give/">GIVE</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>when <code>TEMP</code> units get silver, they also use it to recruit!
+So if you want them to take silver with themselves to another region, the recruitment silver must also be handed over.</p>
+</div>
+<p>Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.<br />
+Units do not give silver they need for their own upkeep to units (to pay for their upkeep).</p>
 <h2 id="the-material-pool">The material pool<a class="headerlink" href="#the-material-pool" title="Permanent link">&para;</a></h2>
-<p>The material pool is the logical continuation of the silver pool: every unit that needs something, e.g. stones and wood for building buildings, automatically gets this from other units in the region.</p>
-<p>The pools are only valid for your own faction.
-Objects must be explicitly handed over to foreign units.</p>
-<p>Attention, the pools not only work in production, essentially for the command <a href="../cmd-make/">MAKE</a>, but basically for everything, especially for the commands <a href="../cmd-reserve/">RESERVE</a>, <a href="../cmd-give/">GIVE</a>, <a href="../cmd-use/">USE</a>, <a href="../cmd-cast/">CAST</a>, <a href="../cmd-recruit/">RECRUIT</a>.
-If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.
+<p>The material pool is the logical continuation of the silver pool: every unit that needs something, e.g. stones and wood for building buildings, automatically gets this from other units in the region.  </p>
+<p>The pools are only valid for your own faction.<br />
+Objects must be explicitly handed over to foreign units.  </p>
+<p>The pools not only work in production (essentially for the <a href="../cmd-make/">MAKE</a> order), but basically for everything, and especially for <a href="../cmd-reserve/">RESERVE</a>, <a href="../cmd-give/">GIVE</a>, <a href="../cmd-use/">USE</a>, <a href="../cmd-cast/">CAST</a> and <a href="../cmd-recruit/">RECRUIT</a> orders.<br />
+If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.<br />
 However, if a unit needs weapons for an attack or to collect taxes, these must be explicitly handed over or reserved, as the material pool does not apply here.</p>
-<p>Inexperienced parties should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected, and thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.</p>
+<p>Inexperienced factions should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected;<br />
+thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.  </p>
 <h3 id="example-1">Example 1<a class="headerlink" href="#example-1" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>UNIT a ; Stone builders, have 30 iron
+<div class="highlight"><pre><span></span><code>UNIT a ; miner, has 30 iron
     MAKE 20 iron
     @GIVE c ALL iron
 ;
-UNIT b ; Castle builders have no iron
+UNIT b ; weaponsmither, has no iron
     RESERVE 10 iron
     MAKE 10 sword
 ;
-UNIT c ; Depot, has no iron
-    LEARN Tarnung
+UNIT c ; for storage, has no iron
+    LEARN Stealth
 </code></pre></div>
 <p><strong>Result:</strong></p>
 <ul>
 <li>Unit b first gets 10 iron from a's material pool</li>
-<li>Unit a gives the remaining 20 irons to c</li>
+<li>Unit a gives the remaining 20 iron to c</li>
 <li>Unit b makes 10 swords out of 10 iron</li>
 <li>Unit a makes 20 iron</li>
 <li>So unit b has 10 swords</li>
@@ -7627,32 +7637,37 @@ UNIT c ; Depot, has no iron
 <li>Unit c has 20 iron</li>
 </ul>
 <h2 id="reserve-and-give">RESERVE and GIVE<a class="headerlink" href="#reserve-and-give" title="Permanent link">&para;</a></h2>
-<p>There are a few special things to note about <a href="../cmd-reserve/">RESERVE</a> and <a href="../cmd-give/">GIVE</a>, which come before most other commands in the <a href="../commands-sequence/">Orders sequence</a>.
+<p>There are a few special things to note about <a href="../cmd-reserve/">RESERVE</a> and <a href="../cmd-give/">GIVE</a>, which come before most other orders in the <a href="../commands-sequence/">Orders sequence</a>.
 These apply equally to the silver and material pools:</p>
-<p>Firstly, items that have been handed over or reserved are no longer available in the pool.
-So she can only use the unit that she has reserved or received.</p>
-<p>With RESERVE orders, the unit proceeds as follows: In a first pass, each unit first reserves its own items.
-From then on, everything that has been reserved will no longer be available for the pool.
-Only then do the units try to get the items from the pool that they did not have in the first step from other units.
-Both the processing of the RESERVE commands and the retrieval of items are carried out in the order in which the units appear in the report -strictly speaking this is not guaranteed, but it has been the practice for a long time.</p>
-<p>If a unit has multiple RESERVE orders for an item, this is not additive.
-Instead, all commands are executed in sequence.
-However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one RESERVE command per item.</p>
-<p>When GIVE is subsequently executed, items are also removed from the pool if necessary.
-Here too, the report order is followed. Items reserved by any unit (including the unit with the GIVE command) are not passed on.
-Items that have been handed over are no longer in the pool.</p>
-<p>Note: <code>GIVE xyz ALL</code> only hands over unreserved items to the unit itself.</p>
-<p>All other commands first use your own, reserved or transferred items and only then use unreserved items from the pool.</p>
+<p>Firstly, items that have been handed over or reserved are no longer available in the pool.  </p>
+<!-- TODO: clarify -->
+<p>So she can only use the unit that she has reserved or received.  </p>
+<p>With <code>RESERVE</code> orders, the unit proceeds as follows: In a first pass, each unit first reserves its own items.<br />
+From then on, everything that has been reserved will no longer be available for the pool.<br />
+Only then do the units try to get the items from the pool that they did not have in the first step from other units.<br />
+Both the processing of the <code>RESERVE</code> orders and the retrieval of items are carried out in the order in which the units appear in the report -strictly speaking this is not guaranteed, but it has been the practice for a long time.  </p>
+<p>If a unit has multiple <code>RESERVE</code> orders for an item, this is not additive.
+Instead, all orders are executed in sequence.<br />
+However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one <code>RESERVE</code> order per item.  </p>
+<p>When <code>GIVE</code> is subsequently executed, items are also removed from the pool if necessary.
+Here too, the report order is followed.<br />
+Items reserved by any unit (including the unit with the <code>GIVE</code> order) are not passed on.
+Items that have been handed over are no longer in the pool.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>GIVE xyz ALL</code> order only hands over unreserved items to the unit itself.</p>
+</div>
+<p>All other orders first use your own, reserved or transferred items and only then use unreserved items from the pool.  </p>
 <h3 id="example-2">Example 2<a class="headerlink" href="#example-2" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>UNIT a ; hat 10 Silver
+<div class="highlight"><pre><span></span><code>UNIT a ; has 10 Silver
     LEARN Melee
     RESERVE 20 Silver
 ;
-UNIT b ; Has 0 Silver
+UNIT b ; has 0 Silver
     LEARN Melee
     RESERVE 10 Silver
 ;
-UNIT c ; hat 10 Silver
+UNIT c ; has 10 Silver
     LEARN Melee
     RESERVE 10 Silver
 </code></pre></div>
@@ -7660,7 +7675,7 @@ UNIT c ; hat 10 Silver
 <ul>
 <li>Unit a reserves its own 10 silver</li>
 <li>Unit c reserves its own 10 silver</li>
-<li>Since there were only 20 silver in the region, the remaining RESERVE commands expire</li>
+<li>Since there were only 20 silver in the region, the remaining <code>RESERVE</code> orders expire</li>
 <li>Unit a consumes its own 10 silver upkeep</li>
 <li>Unit c consumes its own 10 silver upkeep</li>
 <li>Unit b is starving because there is no silver left</li>
@@ -7680,17 +7695,18 @@ UNIT c ; has 0 Silver
 <p><strong>Result:</strong></p>
 <ul>
 <li>Unit a reserves its own 20 silver</li>
-<li>Unit a gives 20 silver from the material pool to c. Her own 20 silver is reserved, so she takes the 20 silver from b</li>
+<li>Unit a gives 20 silver from the material pool to c.
+  Her own 20 silver is reserved, so she takes the 20 silver from b</li>
 <li>Unit b goes east and will starve if there is no other unit there with silver</li>
 <li>Unit c takes the 20 silver west</li>
 </ul>
 <h3 id="example-4">Example 4<a class="headerlink" href="#example-4" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>UNIT a ; hat 10 Silver, 20 Wood, 10 Iron
+<div class="highlight"><pre><span></span><code>UNIT a ; has 10 Silver, 20 Wood, 10 Iron
     LEARN Melee
     RESERVE 5 Iron; (1)
     GIVE d ALL Iron; (6)
 ;
-UNIT b ; hat 10 Silver, 10 Iron
+UNIT b ; has 10 Silver, 10 Iron
     RESERVE 100 Silver ; (2), (4)
     RESERVE 10 Wood ; (5)
     GIVE c 100 Silver ; (7)
@@ -7701,7 +7717,7 @@ UNIT c ; Melee 10, has 100 Silver
     RESERVE 100 Silver ; (3)
     MAKE 10 Spear ; (9)
 ;
-UNIT d ; hat 200 Silver
+UNIT d ; has 200 Silver
     LEARN Forestry
 </code></pre></div>
 <p><strong>Version:</strong></p>
@@ -7712,7 +7728,8 @@ UNIT d ; hat 200 Silver
 <li>(6): Unit a gives the remaining 5 irons that were not reserved to unit d</li>
 <li>(7): Unit b tries to give 100 silver to c; the only silver that is not yet reserved has unit d (120), so 100 of it is given to c</li>
 <li>(8): Unit b gives 9 wood from unit a to unit d</li>
-<li>(9): Unit c takes 1 wood from unit a from the pool that has not yet been reserved for production. So she can only build one spear</li>
+<li>(9): Unit c takes 1 wood from unit a from the pool that has not yet been reserved for production.
+  So she can only build one spear</li>
 <li>(10): All units pay maintenance (we assume 10 silver per person)</li>
 </ul>
 <p><strong>Result:</strong></p>
@@ -7725,7 +7742,7 @@ UNIT d ; hat 200 Silver
 <h2 id="historical-note">Historical note<a class="headerlink" href="#historical-note" title="Permanent link">&para;</a></h2>
 <p>In older versions, the material pool was an optional setting that each player could turn on or off.
 There were separate settings for silver and other items.
-The silver and material pools are now automatically active for all parties and can no longer be deactivated.</p>
+The silver and material pools are now automatically active for all factions and can no longer be deactivated.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-give/">GIVE</a></li>
@@ -7802,6 +7819,14 @@ The silver and material pools are now automatically active for all parties and c
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1422,8 +1426,6 @@
       
         
       
-        
-      
     
     
     
@@ -1484,34 +1486,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2558,34 +2530,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2921,7 +2865,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4766,7 +4710,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6280,6 +6224,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6416,14 +6366,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6480,6 +6458,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7013,8 +7047,6 @@
       
         
       
-        
-      
     
     
     
@@ -7131,34 +7163,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7357,17 +7361,19 @@
 
 <h1 id="fftools">FFTools<a class="headerlink" href="#fftools" title="Permanent link">&para;</a></h1>
 <p>FFTools2 are a plugin for <a href="http://magellan-client.sf.net">Magellan</a> for automatically creating orders for units.</p>
-<p>On the <a href="http://fftools2.fietefietz.de/">official site</a> there is an introduction, installation instructions and complete help for the individual orders.
-Examples of usage are also available on the orders detail pages.</p>
-<p>The tool is aimed at players who have little or no experience with programming languages ​​and want to automate everyday tasks.
-It is not suitable for getting to know Eressea as a newcomer. Furthermore, issuing orders manually is fundamentally “more intelligent” than a decision made by the script.</p>
-<p>The script is not AI. But it can quickly create usable orders for a large number of units, making it useful for large factions whose rulers view their available time as a critical resource.
-If you automate training, trade, construction, brewing and logistics, you have time for diplomacy (again).</p>
-<p>The script orders include complete professions (//script Transport mode=auto), targeted orders over several rounds (//script SailTo X,Y) or very specific material flow instructions (//script Request 100 Stein 200).
-As comments in the unit orders, they are sent to the Eressea server and sent back from it and are available for the next script run.
-If necessary, the script orders can be revised and another script run can be started until the desired result is achieved.
+<p>On the <a href="http://fftools2.fietefietz.de/">official site</a> there is an introduction, installation instructions and complete help for the individual orders.<br />
+Examples of usage are also available on the orders detail pages.  </p>
+<p>The tool is aimed at players who have little or no experience with programming languages ​​and want to automate everyday tasks.<br />
+It is not suitable for getting to know Eressea as a newcomer.
+Furthermore, issuing orders manually is fundamentally “more intelligent” than a decision made by the script.  </p>
+<p>The script is not AI.
+But it can quickly create usable orders for a large number of units, making it useful for large factions whose rulers view their available time as a critical resource.<br />
+If you automate training, trade, construction, brewing and logistics, you have time for diplomacy (again).  </p>
+<p>The script orders include complete professions (//script Transport mode=auto), targeted orders over several rounds (//script SailTo X,Y) or very specific material flow instructions (//script Request 100 Stein 200).<br />
+As comments in the unit orders, they are sent to the Eressea server and sent back from it and are available for the next script run.<br />
+If necessary, the script orders can be revised and another script run can be started until the desired result is achieved.<br />
 “Normal” Eressea orders can also be used in addition.</p>
-<p>FFTools2 creates its own menu structure in Magellan and also integrates into the context menu (right-click menu).
+<p>FFTools2 creates its own menu structure in Magellan and also integrates into the context menu (right-click menu).<br />
 In addition to the help pages, there is an extra FFTools channel on the Eressea Discord server.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=FFTools2&oldid=16883] -->
 
@@ -7438,6 +7444,14 @@ In addition to the help pages, there is an extra FFTools channel on the Eressea 
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

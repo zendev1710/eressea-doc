@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4852,7 +4796,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6348,6 +6292,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6484,14 +6434,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6548,6 +6526,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7081,8 +7115,6 @@
       
         
       
-        
-      
     
     
     
@@ -7199,34 +7231,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7451,65 +7455,66 @@
 
 <h1 id="default">DEFAULT<a class="headerlink" href="#default" title="Permanent link">&para;</a></h1>
 <p><strong><code>DEFAULT</code></strong><code>"</code><em><code>order</code></em><code>"</code>  </p>
-<p><code>DEFAULT</code>changes the <a href="../commands/">command</a> that a unit normally issues <strong>in the next week</strong> would execute:</p>
+<p><code>DEFAULT</code> changes the <a href="../commands/">order</a> that a unit normally issues <strong>in the next week</strong>.  </p>
 <h2 id="orders-template-and-default-orders">Orders template and default orders<a class="headerlink" href="#orders-template-and-default-orders" title="Permanent link">&para;</a></h2>
 <p>After I have sent in my orders and the server has created the evaluation, specific orders come for each unit zurück.
 These are the default orders.
-They will be executed next week if you don't send in orders <em>for this unit</em>.
-You will receive the default orders with the report as a text file (also called a move template or orders template) if you do not use them with <a href="../cmd-option/"><code>OPTION ZUGVORLAGE NOT</code></a> switched off.
+They will be executed next week if you don't send in orders <strong>for this unit</strong>.</p>
+<!-- TODO: clarify (bad from german translation) -->
+<p>You will receive the default orders with the report as a text file (also called an orders template) if you do not use them with <a href="../cmd-option/"><code>OPTION ZUGVORLAGE NOT</code></a> switched off.
 They are also included in the computer report (CR).
-The normal report (NR) always only contains the first long default order.
+The normal report (NR) always only contains the first long default order.<br />
 So you can't see all the default orders there.</p>
 <p>All <a href="../commands/#short-and-long-orders">long orders</a> are normally included in a unit's default orders.
-Exceptions are <code>ATTACK</code>, <code>FOLLOW</code> and <code>MOVE</code>.
-In addition, all <a href="../cmd-comment-slash/"><code>//</code></a> and all orders beginning with <code>@</code> are adopted.
-The spelling may be standardized.</p>
+Exceptions are <code>ATTACK</code>, <code>FOLLOW</code> and <code>MOVE</code>.  </p>
+<p>In addition, all <a href="../cmd-comment-slash/"><code>//</code></a> and all orders beginning with <code>@</code> are adopted.
+The spelling may be standardized.  </p>
 <p>Orders sent in:</p>
 <div class="highlight"><pre><span></span><code>UNIT abc
-; only 10 this week
-BUY 10 Balm
-SELL 100 Oil
-// buy more balm next week
-@GIVE xyz ALL Balm ; Transporter
-GIVE abc 100 Silver
-RECRUIT 1
+    ; only 10 this week
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
 </code></pre></div>
 <p>Default orders for next week:</p>
 <div class="highlight"><pre><span></span><code>UNIT abc
-BUY 10 Balm
-SELL 100 Oil
-// buy more balm next week
-@GIVE xyz ALL Balm ; Transporter
+    BUY 10 Balm
+    SELL 100 Oil
+    // buy more balm next week
+    @GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
 <p>By the way, what happens if the unit has illegally received several long orders (for example <code>LEARN</code> and <code>WORK</code>) is not precisely defined.
 The same applies to other invalid orders.</p>
 <h2 id="the-default-order">The DEFAULT order<a class="headerlink" href="#the-default-order" title="Permanent link">&para;</a></h2>
-<p>The <code>DEFAULT</code> order changes this behavior by changing the default orders that come back from the server.
-If the unit has received a <code>DEFAULT</code> order, its <strong>long</strong> orders not included in the template.
-<a href="../commands/#short-and-long-orders">long orders</a> (with <code>//</code>) and short <code>@</code> orders are accepted.
+<p>The <code>DEFAULT</code> order changes this behavior by changing the default orders that come back from the server.<br />
+If the unit has received a <code>DEFAULT</code> order, its <strong>long</strong> orders will not be included in the template.<br />
+<a href="../commands/#short-and-long-orders">long orders</a> with <code>//</code> and short <code>@</code> orders are accepted.
 The given orders are validated to a certain extent.
-Invalid orders are therefore not accepted.
+Invalid orders are therefore not accepted.<br />
 However, this test has limitations, it is better not to rely on it.</p>
 <p>You can also insert short orders using the <code>DEFAULT</code> order.</p>
 <p>Orders sent in:</p>
 <div class="highlight"><pre><span></span><code>UNIT abc
-; this week only 10
-BUY 10 Balm
-SELL 100 Öl
-// learn next week
-@GIVE xyz ALL Balm ; Transporter
-GIVE abc 100 Silver
-RECRUIT 1
-DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
-DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY und SELL
-DEFAULT &quot;XXX&quot; ; no order, will not be accepted
+    ; this week only 10
+    BUY 10 Balm
+    SELL 100 Öl
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
+    GIVE abc 100 Silver
+    RECRUIT 1
+    DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
+    DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY and SELL
+    DEFAULT &quot;XXX&quot; ; no order, will not be accepted
 </code></pre></div>
 <p>Default orders for next week:</p>
 <div class="highlight"><pre><span></span><code>UNIT abc
-GIVE 123 50 Silver; don&#39;t forget
-LEARN Trade
-// learn next week
-@GIVE xyz ALL Balm ; Transporter
+    GIVE 123 50 Silver; don&#39;t forget
+    LEARN Trade
+    // learn next week
+    @GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
 <p>If your default orders need to contain quotes, there are currently a few ways to achieve this:</p>
 <div class="highlight"><pre><span></span><code>DEFAULT &quot;CAST &#39;Create a Ring of Invisibility&#39;&quot;
@@ -7518,8 +7523,8 @@ DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
 DEFAULT &quot;MAKE 1 &#39;Water of life&#39;&quot;
 </code></pre></div>
 <h2 id="the-move-order">The MOVE order<a class="headerlink" href="#the-move-order" title="Permanent link">&para;</a></h2>
-<p>The <code>MOVE</code> order plays a special role: it is not included in the template.
-Instead, the long orders that the unit had in the template last week are adopted, but only long orders.</p>
+<p>The <code>MOVE</code> order plays a special role: it is not included in the template.<br />
+Instead, the long orders that the unit had in the template last week are adopted (but only long orders).</p>
 <p>Default orders:</p>
 <div class="highlight"><pre><span></span><code>LEARN Ride
 @GIVE 0 10 Silver
@@ -7528,7 +7533,7 @@ Instead, the long orders that the unit had in the template last week are adopted
 <p>Orders sent in:</p>
 <div class="highlight"><pre><span></span><code>MOVE e
 </code></pre></div>
-<p>Default commands for next week:</p>
+<p>Default orders for next week:</p>
 <div class="highlight"><pre><span></span><code>LEARN Ride
 </code></pre></div>
 <p>What happens if both <code>MOVE</code> and <code>DEFAULT</code> are in play?</p>
@@ -7557,7 +7562,7 @@ WORK
 @GIVE 0 2 Silver
 </code></pre></div>
 <p>Default orders for next week:</p>
-<div class="highlight"><pre><span></span><code>MOVE o
+<div class="highlight"><pre><span></span><code>MOVE e
 @GIVE 0 2 Silver
 </code></pre></div>
 <p>Default orders for the week after next if no other orders are sent in for the unit:</p>
@@ -7571,8 +7576,8 @@ This is currently 128 orders, which should easily be enough for most purposes.</
 </div>
 <p>Player experience (Solthar):</p>
 <p><code>DEFAULT DEFAULT</code> ???</p>
-<p>Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
-Well, something like <code>DEFAULT "DEFAULT 'LEARN Endurance'"</code> apparently works as you would expect, but the game management would rather not make any guarantees about it.
+<p>Is it possible to nest <code>DEFAULT</code> orders to make orders for several weeks in advance?</p>
+<p>Well, something like <code>DEFAULT "DEFAULT 'LEARN Endurance'"</code> apparently works as you would expect, but the game management would rather not make any guarantees about it.<br />
 Please do not submit bug reports if something like this doesn't work as expected.
 Scripting languages ​​such as <a href="../vorlage/">Vorlage</a>, <a href="../commands-extended/">Extended Commands</a> or <a href="../fftools/">FFTools</a> are better suited for such projects.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
@@ -7649,6 +7654,14 @@ Scripting languages ​​such as <a href="../vorlage/">Vorlage</a>, <a href="..
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

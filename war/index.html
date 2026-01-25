@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2695,8 +2669,6 @@
       
         
       
-        
-      
     
     
     
@@ -2785,34 +2757,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -3148,7 +3092,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4985,7 +4929,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6481,6 +6425,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6617,14 +6567,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6681,6 +6659,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7214,8 +7248,6 @@
       
         
       
-        
-      
     
     
     
@@ -7332,34 +7364,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7716,33 +7720,59 @@
 
 
 <h1 id="war">War<a class="headerlink" href="#war" title="Permanent link">&para;</a></h1>
-<p>Conflict is bound to arise in Eressea. There will be quarrels over money, over regions, over taxes, over trade routes and so on. That's why you should always look for friends and allies, because "friends come and go, enemies multiply".</p>
+<p>Conflict is bound to arise in Eressea.<br />
+There will be quarrels over money, over regions, over taxes, over trade routes and so on.<br />
+That's why you should always look for friends and allies, because "friends come and go, enemies multiply".  </p>
 <h2 id="the-sides-in-a-battle">The sides in a battle<a class="headerlink" href="#the-sides-in-a-battle" title="Permanent link">&para;</a></h2>
-<p>The <a href="../cmd-attack/">ATTACK</a> order launches an attack against the opponent. <code>ATTACK</code> orders are executed in random order. During an attack, units from all sides gather in the area and fight each other individually (person by person). A battle lasts a maximum of six turns: five regular combat turns and possibly also turn 0 (zero), the <a href="#tacticians-round">tactics turn</a>.</p>
+<p>The <a href="../cmd-attack/">ATTACK</a> order launches an attack against the opponent.<br />
+<code>ATTACK</code> orders are executed in random order.<br />
+During an attack, units from all sides gather in the area and fight each other individually (person by person).<br />
+A battle lasts a maximum of six turns: five regular combat turns and possibly also turn 0 (zero), the <a href="#tacticians-round">tactics turn</a>.</p>
 <p>The attacking side consists of all units that have given <code>ATTACK</code> orders against one or more units of the defenders.</p>
 <!-- TODO: check links in this sentence in wiki -->
-<p>The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order <code>ATTACK</code><em><code>unit-id</code></em>, and with all the units of the attacked faction that are ready to fight.
-Therefore those in <a href="../cmd-combat/">COMBAT</a>, <a href="../cmd-combat/"><code>COMBAT AGGRESSIVE</code></a>, <a href="../cmd-combat/"><code>COMBAT REAR</code></a> or <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a>.
+<p>The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order <code>ATTACK</code><em><code>unit-id</code></em>, and with all the units of the attacked faction that are ready to fight.<br />
+Therefore those in <a href="../cmd-combat/">COMBAT</a>, <a href="../cmd-combat/"><code>COMBAT AGGRESSIVE</code></a>, <a href="../cmd-combat/"><code>COMBAT REAR</code></a> or <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a>.<br />
 In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put <a href="../cmd-help/"><code>HELP COMBAT</code></a> with the faction under attack, help out.</p>
-<p>So there are different reasons why a unit takes part in combat. These are, listed in order of priority:</p>
+<p>So there are different reasons why a unit takes part in combat.<br />
+These are, listed in order of priority:</p>
 <ol>
-<li>The unit ready to fight attacks another unit. In this case, it takes part in the combat in any case.</li>
-<li>The unit is attacked by another unit. Then it joins the <a href="#combat-rows">combat rows</a> according to its combat status.</li>
-<li>A unit whose faction is being attacked. The unit then takes part in the combat if it has not set <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>. In the latter case, it does not <a href="#fleeing">flee</a> as it is not directly threatened.</li>
-<li>A unit from an allied faction (that is, a faction to which <code>HELP COMBAT</code> has been set) is attacked by someone. The unit then takes part in the combat, unless it has set <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>. Again, a unit with <code>COMBAT FLEE</code> will not run away, as it is not exposed to a direct threat.</li>
+<li>The unit ready to fight attacks another unit.
+   In this case, it takes part in the combat in any case.</li>
+<li>The unit is attacked by another unit.
+   Then it joins the <a href="#combat-rows">combat rows</a> according to its combat status.</li>
+<li>A unit whose faction is being attacked.
+   The unit then takes part in the combat if it has not set <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>.
+   In the latter case, it does not <a href="#fleeing">flee</a> as it is not directly threatened.</li>
+<li>A unit from an allied faction (that is, a faction to which <code>HELP COMBAT</code> has been set) is attacked by someone.
+   The unit then takes part in the combat, unless it has set <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>.
+   Again, a unit with <code>COMBAT FLEE</code> will not run away, as it is not exposed to a direct threat.</li>
 </ol>
-<p>So allies only automatically help defenders and <em>only if the defenders have not attacked themselves</em>.
-Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight.
-For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an <a href="../cmd-attack/">ATTACK</a> order are engaged in combat.
+<p>So allies only automatically help defenders and <em>only if the defenders have not attacked themselves</em>.<br />
+Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight.<br />
+For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an <a href="../cmd-attack/">ATTACK</a> order are engaged in combat.<br />
 However, units that have set <a href="../cmd-combat/"><code>COMBAT NOT</code></a> or <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> cannot attack.</p>
-<p>So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units. To defend together against attackers, all the defending factions do is assist each other (HELP).</p>
+<p>So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units.<br />
+To defend together against attackers, all the defending factions do is assist each other (HELP).</p>
 <p>Basically anyone to whom <a href="../cmd-help/"><code>HELP COMBAT</code></a> has been assigned, and who has not attacked anyone to whom <a href="../cmd-help/"><code>HELP COMBAT</code></a> has also been assigned is considered an ally.</p>
-<p><strong>Example 1:</strong> A helps B and C. C attacks B, which is why A is involved in the battle: B is an ally. Faction C is not considered an ally because it is attacking an ally.</p>
+<p><strong>Example 1:</strong></p>
+<p>A helps B and C.<br />
+C attacks B, which is why A is involved in the battle: B is an ally.<br />
+Faction C is not considered an ally because it is attacking an ally.</p>
 <p>Who's fighting who now?</p>
-<p>I fight my enemies. My enemies are factions that attack me, that I attack, or that attack an ally (according to the definition just given).</p>
-<p><strong>Example 2:</strong> A helps B and C. B and C attack each other. In this situation, A helps neither B nor C, because neither of them is considered an ally and neither is an enemy of A.</p>
-<p><strong>Example 3:</strong> A attacks B and C. If B and C are not allies, they still help each other against A, because A is a common enemy. So, if B still has front-line troops and C only has archers, B's troops move in front of C to protect them. Exception: If B and C are enemies, e.g. because B is fighting against an additional ally D of C, then they do not help each other, not even against A.</p>
-<p><strong>Example 4:</strong> A and B attack C. In this case they help each other against C (even if they are not allied), since they have a common enemy.</p>
+<p>I fight my enemies.<br />
+My enemies are factions that attack me, that I attack, or that attack an ally (according to the definition just given).</p>
+<p><strong>Example 2:</strong></p>
+<p>A helps B and C.<br />
+B and C attack each other.<br />
+In this situation, A helps neither B nor C, because neither of them is considered an ally and neither is an enemy of A.</p>
+<p><strong>Example 3:</strong></p>
+<p>A attacks B and C.<br />
+If B and C are not allies, they still help each other against A, because A is a common enemy.<br />
+So, if B still has front-line troops and C only has archers, B's troops move in front of C to protect them.<br />
+Exception: If B and C are enemies, e.g. because B is fighting against an additional ally D of C, then they do not help each other, not even against A.</p>
+<p><strong>Example 4:</strong></p>
+<p>A and B attack C.<br />
+In this case they help each other against C (even if they are not allied), since they have a common enemy.</p>
 <p>Player experience:In fact, it's even more complicated.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -7751,69 +7781,136 @@ Allies have stood by and done nothing or have even fought amongst themselves.</p
 </div>
 <p>There are a few tips to help you <strong>avoid the biggest blunders</strong>:</p>
 <ul>
-<li>You should regularly check the help statuses for all your allies. HELP ALL is preferable for anyone you <em>might</em> fight. Mistrust often does damage here.</li>
+<li>You should regularly check the help statuses for all your allies.
+  <code>HELP ALL</code> is preferable for anyone you <strong>might</strong> fight.
+  Mistrust often does damage here.</li>
 <li>If possible, there should only be one <a href="../cmd-group/">GROUP</a>.</li>
-<li>In your faction, either all the combat units should have the ATTACK order, or none at all. If only some of your units attack, the rest may not take part in the combat if an ally is attacked.</li>
-<li>It is recommended that you attack all enemy units. You should attack <em>at least</em> one unit from each enemy faction.</li>
-<li>Note also that faction stealth doesn't always make it clear who really belongs to which faction. Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' HELP statuses create some confusion. We won't judge here whether this approach is honorable.</li>
+<li>In your faction, either all the combat units should have the ATTACK order, or none at all.
+  If only some of your units attack, the rest may not take part in the combat if an ally is attacked.</li>
+<li>It is recommended that you attack all enemy units.
+  You should attack <em>at least</em> one unit from each enemy faction.</li>
+<li>Note also that faction stealth doesn't always make it clear who really belongs to which faction.
+  Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' HELP statuses create some confusion.
+  We won't judge here whether this approach is honorable.</li>
 </ul>
 <h2 id="the-battle">The battle<a class="headerlink" href="#the-battle" title="Permanent link">&para;</a></h2>
-<p>A battle lasts five combat rounds plus a possible tactics round. In each combat round, the combatants strike in a random order.</p>
-<p>Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders.
-The exceptions are <a href="#combat-on-and-with-ships">combat at sea</a> and combat in regions which, <em>at the start of combat</em>, are guarded by at least one unit of its own faction or a unit which has <a href="../cmd-help/"><code>HELP GUARD</code></a> towards the combatant's faction.
+<p>A battle lasts five combat rounds plus a possible tactics round.<br />
+In each combat round, the combatants strike in a random order.</p>
+<p>Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders.<br />
+The exceptions are <a href="#combat-on-and-with-ships">combat at sea</a> and combat in regions which, <em>at the start of combat</em>, are guarded by at least one unit of its own faction or a unit which has <a href="../cmd-help/"><code>HELP GUARD</code></a> towards the combatant's faction.<br />
 In this case, other long orders are possible.</p>
 <h3 id="combat-rows">Combat rows<a class="headerlink" href="#combat-rows" title="Permanent link">&para;</a></h3>
-<p>In battle, there are four combat rows. These are only made up of units that are actually participating in combat (see above). For more information on combat status, see <a href="../cmd-combat/">COMBAT</a>.</p>
+<p>In battle, there are four combat rows.<br />
+These are only made up of units that are actually participating in combat (see above).<br />
+For more information on combat status, see <a href="../cmd-combat/">COMBAT</a>.</p>
 <ol>
 <li>row: This is where you'll find all the units that have set <a href="../cmd-combat/">COMBAT</a> or <a href="../cmd-combat/"><code>COMBAT AGGRESSIVE</code></a>.</li>
 <li>row: This is where you'll find all the units that have set <a href="../cmd-combat/"><code>COMBAT REAR</code></a> or <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a></li>
 <li>row: This is where you'll find all the units that have set <a href="../cmd-combat/"><code>COMBAT NOT</code></a>.</li>
-<li>row: This is where you'll find all the units that are simply trying to escape. So those that have set <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and those that have lost an appropriate number of hit points (see also <a href="#fleeing">fleeing</a>).</li>
+<li>row: This is where you'll find all the units that are simply trying to escape.
+   So those that have set <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and those that have lost an appropriate number of hit points (see also <a href="#fleeing">fleeing</a>).</li>
 </ol>
-<p>Only the first two combat rows actively take part in the battle, i.e. they can strike, shoot and be hit. Units that are not combat ready and are directly attacked only really take part in the battle when one of the front rows is overrun. Fleeing units naturally try to escape (see <a href="#fleeing">fleeing</a>).</p>
-<p>Units fighting in the 2<sup>nd</sup> row can only be attacked directly in close combat when they reach the 1<sup>st</sup> row (this can happen, for example, when the 1<sup>st</sup> row is overrun, see below). Against opposing ranged attacks, they defend with their best combat skill.</p>
+<p>Only the first two combat rows actively take part in the battle, i.e. they can strike, shoot and be hit.<br />
+Units that are not combat ready and are directly attacked only really take part in the battle when one of the front rows is overrun.<br />
+Fleeing units naturally try to escape (see <a href="#fleeing">fleeing</a>).</p>
+<p>Units fighting in the 2<sup>nd</sup> row can only be attacked directly in close combat when they reach the 1<sup>st</sup> row (this can happen, for example, when the 1<sup>st</sup> row is overrun, see below).<br />
+Against opposing ranged attacks, they defend with their best combat skill.</p>
 <p>Magicians' combat spells can be cast from behind and from the front line; apart from that, they will arm themselves and fight like everyone else.</p>
 <h3 id="overrun">Overrun<a class="headerlink" href="#overrun" title="Permanent link">&para;</a></h3>
-<p>If a faction and its allies have more than three times as many persons in the front row as their opponents, the 1<sup>st</sup> row is overrun. All opposing 2<sup>nd</sup> row units must move up to the first row. The 3<sup>rd</sup> row then moves up to the 2<sup>nd</sup> row and takes part in the fight. If there are still not enough people in the 1<sup>st</sup> row, the following rows move up until there are enough people in the 1<sup>st</sup> row. This distribution is checked before each combat round.</p>
+<p>If a faction and its allies have more than three times as many persons in the front row as their opponents, the 1<sup>st</sup> row is overrun.<br />
+All opposing 2<sup>nd</sup> row units must move up to the first row.<br />
+The 3<sup>rd</sup> row then moves up to the 2<sup>nd</sup> row and takes part in the fight.<br />
+If there are still not enough people in the 1<sup>st</sup> row, the following rows move up until there are enough people in the 1<sup>st</sup> row.<br />
+This distribution is checked before each combat round.</p>
 <h2 id="to-arms">To arms<a class="headerlink" href="#to-arms" title="Permanent link">&para;</a></h2>
-<p>Now, the units arm themselves. Each person in a unit equips themselves with a melee weapon, a ranged weapon and armor, according to their skills. They choose the weapons that give them the highest Attack and Parry scores. Mages who have chosen a combat spell use it to attack. However, for defence, they will need a weapon (and an appropriate combat skill), otherwise they will be considered <a href="#bonuses-and-mali">unarmed</a>.</p>
-<p><strong>Beware:</strong> Unused weapons or armor are not automatically redistributed to unarmed or unequipped units.</p>
+<p>Now, the units arm themselves.<br />
+Each person in a unit equips themselves with a melee weapon, a ranged weapon and armor, according to their skills.<br />
+They choose the weapons that give them the highest Attack and Parry scores.<br />
+Mages who have chosen a combat spell use it to attack.<br />
+However, for defense, they will need a weapon (and an appropriate combat skill), otherwise they will be considered <a href="#bonuses-and-mali">unarmed</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Beware</p>
+<p>Unused weapons or armor are not automatically redistributed to unarmed or unequipped units.</p>
+</div>
 <p>During combat, you no longer change weapons, unless it is possible to take a better weapon from someone in the same unit who has already died (the surviving combatants each use the best weapon sets available).</p>
-<p>A ranged combatant who suddenly finds himself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themself <a href="#bonuses-and-mali">unarmed</a>.</p>
-<p><strong>example:</strong> A unit of 20 persons has 15 swords, 10 shields and 5 chainmails. So 5 people will fight with a sword, a shield and a chainmail, 5 others with a sword and a shield, 5 with a sword only and the last 5 fighters will remain unarmed. A unit of 10 people with 10 swords and 10 axes will fight with swords, because they have a better bonus, even if they probably inflict less damage!</p>
+<p>A ranged combatant who suddenly finds himself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themselves <a href="#bonuses-and-mali">unarmed</a>.</p>
+<p><strong>Example:</strong></p>
+<p>A unit of 20 persons has 15 swords, 10 shields and 5 chainmails.<br />
+So 5 people will fight with a sword, a shield and a chainmail, 5 others with a sword and a shield, 5 with a sword only and the last 5 fighters will remain unarmed.<br />
+A unit of 10 people with 10 swords and 10 axes will fight with swords, because they have a better bonus, even if they probably inflict less damage!</p>
 <h2 id="tacticians-round">Tactician's round<a class="headerlink" href="#tacticians-round" title="Permanent link">&para;</a></h2>
-<p>Before the battle, the best <a href="../tactic/">Tactician</a> of all participating units is chosen. A tactician fighting in the 1<sup>st</sup> row receives a +1 bonus to his "tactics" skill. If he is in the 3<sup>rd</sup> or 4<sup>th</sup> row, his level is reduced by 1. In order to leave an element of "form of the day" and luck, each tactician also receives a random bonus which starts at 0 and which, in pure theory, can become very significant, the probability being lower and lower as the bonus increases.</p>
-<p>The side with the best tactician can attack on turn 0 (called the "tactician's turn") without the enemy being able to react. The number of attacks made depends on the difference between the best tactics score of the winning side and that of the losing side: For each point's difference, each person has a 10% chance of attacking on the tactician's turn.</p>
-<p><strong>Example:</strong> Camp A has one person with tactics 4 in the first row. Camp B has 10 people with tactics 4 in the third row. Therefore, side A effectively has 5 and side B 3. Without the random bonus, each person on side A would have a 20% chance of attacking during the tactician's turn. If the person on side A rolls a bonus 0, at least one person on side B must roll a 2. Otherwise, side A has the tactician's turn. Let's suppose that the best result obtained on the roll by camp B is a 5 (this is unlikely, but quite possible). The difference for side B is therefore (3 + 5) - (5 + 0) = 3. Each person on side B then has a 30% chance of attacking on turn 0. For a group of 10, this can range from 0 to 10 people, but the average is around 3 attacks.</p>
+<p>Before the battle, the best <a href="../tactic/">Tactician</a> of all participating units is chosen.<br />
+A tactician fighting in the 1<sup>st</sup> row receives a +1 bonus to his "tactics" skill.<br />
+If he is in the 3<sup>rd</sup> or 4<sup>th</sup> row, his level is reduced by 1.<br />
+In order to leave an element of "form of the day" and luck, each tactician also receives a random bonus which starts at 0 and which, in pure theory, can become very significant, the probability being lower and lower as the bonus increases.</p>
+<p>The side with the best tactician can attack on turn 0 (called the "tactician's turn") without the enemy being able to react.<br />
+The number of attacks made depends on the difference between the best tactics score of the winning side and that of the losing side: For each point's difference, each person has a 10% chance of attacking on the tactician's turn.</p>
+<p><strong>Example:</strong></p>
+<p>Camp A has one person with tactics 4 in the first row.<br />
+Camp B has 10 people with tactics 4 in the third row.<br />
+Therefore, side A effectively has 5 and side B 3.<br />
+Without the random bonus, each person on side A would have a 20% chance of attacking during the tactician's turn.<br />
+If the person on side A rolls a bonus 0, at least one person on side B must roll a 2.<br />
+Otherwise, side A has the tactician's turn.<br />
+Let's suppose that the best result obtained on the roll by camp B is a 5 (this is unlikely, but quite possible).<br />
+The difference for side B is therefore (3 + 5) - (5 + 0) = 3.<br />
+Each person on side B then has a 30% chance of attacking on turn 0.<br />
+For a group of 10, this can range from 0 to 10 people, but the average is around 3 attacks.</p>
 <h2 id="heroes">Heroes<a class="headerlink" href="#heroes" title="Permanent link">&para;</a></h2>
-<p>Heroes are particularly powerful fighters. They must have been previously designated with the order <a href="../cmd-promote/">PROMOTE</a>. Heroes can attack 5 times per combat round.</p>
+<p>Heroes are particularly powerful fighters.<br />
+They must have been previously designated with the order <a href="../cmd-promote/">PROMOTE</a>.<br />
+Heroes can attack 5 times per combat round.</p>
 <p>Warning! This does not apply to magic attacks or to crossbows and catapults.</p>
 <p>For more information, see <a href="../cmd-promote/">PROMOTE</a>.</p>
 <h2 id="the-fight-between-two-persons">The fight between two persons<a class="headerlink" href="#the-fight-between-two-persons" title="Permanent link">&para;</a></h2>
-<p>In each battle, armies face each other person by person, regardless of their number. The procedure is as follows:</p>
+<p>In each battle, armies face each other person by person, regardless of their number.<br />
+The procedure is as follows:</p>
 <ul>
 <li>The attacker's attack and the defender's parry are (initially) as high as their weapon skill level.</li>
 <li>Add bonuses and penalties: Add any <a href="#bonuses-and-mali">bonuses and penalties</a> to the attacker's attack and the defender's parry.</li>
 <li>If the attacker is a ranged fighter, the opponent's modified parry value is halved.</li>
 <li>The basic hit probability (BT) of an attacker is 30%.</li>
-<li>Subtract values from each other: For every point difference between the attacker's attack and the defender's parry, the BT is now increased or decreased by 5%. The real chance of hitting is therefore calculated as follows: (Attack(attacker)-Parry(defender)) * 5% + 30%.</li>
-<li>Beginner's luck: If the attack fails, the attacker has an additional 10% chance of converting his attack after all: He can strike a second time with a 90 to 99% (chance) increased chance of hitting. This gives severely disadvantaged fighters the opportunity to get at least a few random hits.</li>
+<li>Subtract values from each other: For every point difference between the attacker's attack and the defender's parry, the BT is now increased or decreased by 5%.
+  The real chance of hitting is therefore calculated as follows: (Attack(attacker)-Parry(defender)) * 5% + 30%.</li>
+<li>Beginner's luck: If the attack fails, the attacker has an additional 10% chance of converting his attack after all: He can strike a second time with a 90 to 99% (chance) increased chance of hitting.
+  This gives severely disadvantaged fighters the opportunity to get at least a few random hits.</li>
 </ul>
 <p>Each person attacks once per combat round (except <a href="../cmd-promote/">Heroes</a> and some monsters).</p>
-<p>When a fighter manages to hit his opponent, he inflicts damage. Different weapons inflict different amounts of damage (damage points, see <a href="../war-tables/#weapon-properties">Weapon characteristics</a>). It's also worthwhile having high levels of skill in weapon mastery: if you have more skill levels than your opponent, the damage inflicted by a hit increases by one point for every two skill levels difference. Only skill levels are considered, and the bonuses provided by horses, castles, etc. do not count. This applies to both ranged and close combat. In addition, there is a certain chance, depending on the level difference, of receiving a critical hit that can cause up to five times more damage.</p>
+<p>When a fighter manages to hit his opponent, he inflicts damage.<br />
+Different weapons inflict different amounts of damage (damage points, see <a href="../war-tables/#weapons-summary-table">Weapon characteristics</a>).<br />
+It's also worthwhile having high levels of skill in weapon mastery: if you have more skill levels than your opponent, the damage inflicted by a hit increases by one point for every two skill levels difference.<br />
+Only skill levels are considered, and the bonuses provided by horses, castles, etc. do not count.<br />
+This applies to both ranged and close combat.<br />
+In addition, there is a certain chance, depending on the level difference, of receiving a critical hit that can cause up to five times more damage.</p>
 <p>If a person has received more damage than he can "take", he dies (see <a href="../war-tables/#races-and-their-characteristics">Racial skill modifiers</a> the different hits taken during the fight are added together).</p>
-<p>When a fighter wears armor, it can absorb some (or all) of the damage points. However, armor makes the fighter less mobile and increases his chances of being hit (see <a href="../war-tables/#armor">this</a> table). Against crossbows, armour is only half effective (rounded down).</p>
-<p>Some creatures or weapons are also able to cause magical damage. Normal armor is ineffective against magical damage. Only the <a href="../war-tables/#magic-resistance">Magic Resistance</a> counts, which can be increased by specific items and spells.</p>
+<p>When a fighter wears armor, it can absorb some (or all) of the damage points.<br />
+However, armor makes the fighter less mobile and increases his chances of being hit (see [this armors table]).<br />
+Against crossbows, armor is only half effective (rounded down).</p>
+<p>Some creatures or weapons are also able to cause magical damage.<br />
+Normal armor is ineffective against magical damage.<br />
+Only the <a href="../war-tables/#magic-resistance">Magic Resistance</a> counts, which can be increased by specific items and spells.</p>
 <p>There's also the Endurance skill, which allows you to harden your body and take more damage before dying (see <a href="../war-tables/#endurance">this table</a>).</p>
 <h3 id="ranged-combat">Ranged combat<a class="headerlink" href="#ranged-combat" title="Permanent link">&para;</a></h3>
-<p>Ranged weapons and catapults can be used effectively in the second row. There, they will be protected from your opponent's hand-to-hand combatants by your front row.</p>
-<p>Ranged fighters can also fire into the opposing second row. They choose a target at random from among all the enemies in the first or second row.</p>
+<p>Ranged weapons and catapults can be used effectively in the second row.<br />
+There, they will be protected from your opponent's hand-to-hand combatants by your front row.</p>
+<p>Ranged fighters can also fire into the opposing second row.<br />
+They choose a target at random from among all the enemies in the first or second row.</p>
 <p>Crossbows can also pierce armor: against a crossbow shot, the armor is only half effective (rounded down).</p>
-<p>The table below shows the differences between ranged weapons. Bows are very difficult to use (offensive bonus -2), but can be used in every round of combat. Crossbows are much easier to use (OB 0), but can only fire every third round of combat. Catapults always fire in the first round of combat only (either the tactics round or round 1) and inflict heavy damage.</p>
-<p>Against ranged weapons, those being attacked only defend with half their skill level. Units in the front row defend with their full skill level if the ranged combatant is also in the front row.</p>
-<p><strong>Attention!</strong> If a ranged fighter gets into the front line (e.g. because it has been <a href="#combat-rows">overrun</a>), they must defend themself with a melee weapon. If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themself <a href="#bonuses-and-mali">unarmed</a>!</p>
-<p>Catapults require ammunition. This can be produced from stones using <a href="../cmd-make/">MAKE ammunition</a> by a mason with quarrying skill 3 and it weighs 10 weight units. One unit of ammunition corresponds to one volley.</p>
-<p>Ranged weapons - bonuses and time</p>
+<p>The table below shows the differences between ranged weapons.<br />
+Bows are very difficult to use (offensive bonus -2), but can be used in every round of combat.<br />
+Crossbows are much easier to use (OB 0), but can only fire every third round of combat.<br />
+Catapults always fire in the first round of combat only (either the tactics round or round 1) and inflict heavy damage.</p>
+<p>Against ranged weapons, those being attacked only defend with half their skill level.<br />
+Units in the front row defend with their full skill level if the ranged combatant is also in the front row.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>If a ranged fighter gets into the front line (e.g. because it has been <a href="#combat-rows">overrun</a>), they must defend themselves with a melee weapon.
+If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves <a href="#bonuses-and-mali">unarmed</a>!</p>
+</div>
+<p>Catapults require ammunition.<br />
+This can be produced from stones using <a href="../cmd-make/">MAKE ammunition</a> by a mason with quarrying skill 3 and it weighs 10 weight units.<br />
+One unit of ammunition corresponds to one volley.</p>
+<p><em>Ranged weapons - bonuses and time.</em></p>
 <table>
 <thead>
 <tr>
@@ -7844,36 +7941,65 @@ In this case, other long orders are possible.</p>
 </tr>
 </tbody>
 </table>
-<p>The time it takes to get the weapon ready to fire again is indicated under reloading. A catapult can therefore only be used once in each battle. A crossbow can fire every third round, bows even every round.</p>
+<p>The time it takes to get the weapon ready to fire again is indicated under reloading.<br />
+A catapult can therefore only be used once in each battle.<br />
+A crossbow can fire every third round, bows even every round.</p>
 <h3 id="bonuses-and-mali">Bonuses and mali<a class="headerlink" href="#bonuses-and-mali" title="Permanent link">&para;</a></h3>
-<p>Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry).
-All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters. The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here.
+<p>Various factors can modify the chance of hitting someone (attack) or deflecting a hit (parry).<br />
+All bonuses and penalties have a direct effect on the skill and are taken into account before any skill halving by ranged fighters.<br />
+The damage points that a person deals are not changed by the bonuses and penalties; the unmodified skill values count here.<br />
 See also <a href="../war-tables/">combat tables</a>.</p>
-<p>Unarmed persons</p>
-<p>People who do not have a weapon skill that matches their weapon are also considered unarmed.</p>
-<p>Unarmed persons fight with a skill of -2.</p>
-<p>Ranged combatants who get into close combat and do not have access to a melee weapon (and a corresponding skill) defend themselves with a skill of -2. However, they can still attack with their ranged weapon.</p>
-<p>Unarmed goblins defend themselves with &plusmn;0.</p>
-<p>The skill with which orcs enter unarmed combat is determined by the level of their best melee skill -3.</p>
-<p>Some races (generally only familiars) can learn the unarmed combat skill and then have no penalty when fighting without a weapon.</p>
-<p>Castle bonus<br />
-People in castles are additionally protected. Castle occupants receive a parry bonus depending on the size of the castle if they belong to the defending side and the castle is large enough to accommodate them. A fortification gives +1, a tower +2 etc. up to the citadel, which gives +5. If the castle occupants attack themselves, they no longer receive the castle bonus for parrying. The castle bonus also applies against ranged fighters!</p>
-<p>Horse bonus<br />
-In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground. To ride a horse into battle, you need a riding skill of at least 2. Riders get a +2 bonus to attack and parry because they are faster and more agile. People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus. Trolls cannot use horses in combat!</p>
-<p>lance bonus<br />
-Mounted spear and lance users get an additional bonus of +1 to attacks.</p>
-<p>Pike bonus</p>
+<dl>
+<dt>Unarmed persons</dt>
+<dd>
+<p>People who do not have a weapon skill that matches their weapon are also considered unarmed.<br />
+Unarmed persons fight with a skill of -2.<br />
+Ranged combatants who get into close combat and do not have access to a melee weapon (and a corresponding skill) defend themselves with a skill of -2.<br />
+However, they can still attack with their ranged weapon.<br />
+Unarmed goblins defend themselves with &plusmn;0.<br />
+The skill with which orcs enter unarmed combat is determined by the level of their best melee skill -3.<br />
+Some races (generally only familiars) can learn the unarmed combat skill and then have no penalty when fighting without a weapon.  </p>
+</dd>
+<dt>Castle bonus</dt>
+<dd>
+<p>People in castles are additionally protected.<br />
+Castle occupants receive a parry bonus depending on the size of the castle if they belong to the defending side and the castle is large enough to accommodate them.<br />
+A fortification gives +1, a tower +2 ... up to the citadel, which gives +5.<br />
+If the castle occupants attack themselves, they no longer receive the castle bonus for parrying.<br />
+The castle bonus also applies against ranged fighters!  </p>
+</dd>
+<dt>Horse bonus</dt>
+<dd>
+<p>In plains, deserts, and highlands, melee fighters can use a horse in the front row on open ground.<br />
+To ride a horse into battle, you need a riding skill of at least 2.<br />
+Riders get a +2 bonus to attack and parry because they are faster and more agile.<br />
+People who are inside a castle, benefit from the castle bonus, and are attacked do not receive a horse bonus.<br />
+Trolls cannot use horses in combat!  </p>
+</dd>
+<dt>Lance bonus</dt>
+<dd>
+<p>Mounted spear and lance users get an additional bonus of +1 to attacks.</p>
+</dd>
+<dt>Pike bonus</dt>
+<dd>
 <p>spear and halberd users not using a horse get a +1 parry bonus against troops on horses.</p>
-<p>Weapon modifiers<br />
-For this purpose, <a href="../war-tables/#weapon-properties">weapon modifiers</a> also count as bonuses and penalties.</p>
-<p>A halberd unit thus has +2 to its parry (in addition to any other bonuses or penalties). If it is not riding and fights against a rider, its parry value is increased by +1 at this moment.</p>
+</dd>
+<dt>Weapon modifiers</dt>
+<dd>
+<p>For this purpose, <a href="../war-tables/#weapons-summary-table">weapon modifiers</a> also count as bonuses and penalties.<br />
+A halberd unit thus has +2 to its parry (in addition to any other bonuses or penalties).<br />
+If it is not riding and fights against a rider, its parry value is increased by +1 at this moment.  </p>
+</dd>
+</dl>
 <p><strong>Examples:</strong></p>
 <ul>
-<li>Base chance of the attacker -&gt; BC = 30%</li>
+<li>Base chance of the attacker -&gt; BC = 30%.</li>
 </ul>
 <p>Attacker with skill 3, defender skill 4 -&gt; hit chance = 25%<br />
 Defender in a citadel -&gt; parry +5 -&gt; hit chance = 0%<br />
-So the attacker has just a chance of 10% ("beginners luck"), to get a second try at all, then a 90% to 99% chance to actually score a hit. All in all, there is 9% to 9.9% chance to hit the defender. He is, after all, in a really bad spot caused by the citadel.</p>
+So the attacker has just a chance of 10% ("beginners luck"), to get a second try at all, then a 90% to 99% chance to actually score a hit.<br />
+All in all, there is 9% to 9.9% chance to hit the defender.<br />
+The attacker is, after all, in a really bad spot caused by the citadel.</p>
 <ul>
 <li>This time the defender is not in the citadel:  </li>
 </ul>
@@ -7885,7 +8011,8 @@ Attacker with horse bonus -&gt; attack +2 -&gt; hit chance = 35%</p>
 </ul>
 <p>The attacker has a hit chance of 35%.</p>
 <ul>
-<li>A bowman with skill 9 attacks from the 2<sup>nd</sup> row against a lance rider with riding 3 and polearms 9. He attacks with 7 (a -2 penalty from the bow) against a parry of 5 (skill halved and rounded down: skill 9, +2 horse bonus -&gt; (9+2) / 2 = 5).  </li>
+<li>A bowman with skill 9 attacks from the 2<sup>nd</sup> row against a lance rider with riding 3 and polearms 9.
+  He attacks with 7 (a -2 penalty from the bow) against a parry of 5 (skill halved and rounded down: skill 9, +2 horse bonus -&gt; (9+2) / 2 = 5).  </li>
 </ul>
 <p>The attacker has a resulting hit chance of (7 - 5) * 5% + 30% = 40%</p>
 <ul>
@@ -7894,24 +8021,17 @@ Attacker with horse bonus -&gt; attack +2 -&gt; hit chance = 35%</p>
 </ul>
 <p>The attacker has a hit chance of 100%, so she will always hit. Ouch ...</p>
 <ul>
-<li>
-<ul>
 <li>She parries with her full parry value (weapon skill + horse bonus = 11), because they are in direct contact, against a ranged weapon (penalty 2 because of the bow).  </li>
 </ul>
-</li>
-</ul>
-<p>The shooter effectively attacks with a 7 against the rider with 11. The resulting hit chance is (7 - 11) * 5% + 30% = 10%.</p>
+<p>The shooter effectively attacks with a 7 against the rider with 11.<br />
+The resulting hit chance is (7 - 11) * 5% + 30% = 10%.  </p>
 <ul>
 <li>A spear fighter with polearms 3 in a castle attacks a rider with riding 2 and polearms 3.</li>
 <li>She attacks with 3 (skill 3, no pike bonus while attacking, no castle bonus either) against 5 (skill 3, +2 horse bonus, no lance bonus while parrying)..  </li>
 </ul>
 <p>The attacker has a hit chance of (3 - 5) * 5% + 30% = 20%.</p>
 <ul>
-<li>
-<ul>
 <li>She will parry with 4 (skill 3, no castle bonus because she attacked, +1 pike bonus) against 6 (+2 horse bonus and +1 lance bonus).</li>
-</ul>
-</li>
 </ul>
 <p>The rider has a hit chance of (6 - 4) * 5% + 30% = 40%.</p>
 <ul>
@@ -7920,58 +8040,82 @@ Attacker with horse bonus -&gt; attack +2 -&gt; hit chance = 35%</p>
 </ul>
 <p>The attacker has a hit chance of 30%.</p>
 <ul>
-<li>
-<ul>
 <li>The spear fighter fights back with 3 against 4 (the pike bonus does not apply while attacking).</li>
-</ul>
-</li>
 </ul>
 <p>The spear bearer has a hit chance of 25%.</p>
 <ul>
-<li>A lance rider with riding 2, polearms 3 attacks an equal combatant. They fight with 6 (skill 3, +2 for riding, +1 lance bonus) against 5 (skill 3, +2 riding)  </li>
+<li>A lance rider with riding 2, polearms 3 attacks an equal combatant.
+  They fight with 6 (skill 3, +2 for riding, +1 lance bonus) against 5 (skill 3, +2 riding)  </li>
 </ul>
 <p>So the attacker has a hit chance of 35%.</p>
-<p>It follows from this that you can hold a castle relatively well, but that you should not launch attacks from a castle if possible, as you will lose your defense bonus. It also follows that spear fighters are slightly more effective against mounted troops than sword fighters.</p>
+<p>It follows from this that you can hold a castle relatively well, but that you should not launch attacks from a castle if possible, as you will lose your defense bonus.<br />
+It also follows that spear fighters are slightly more effective against mounted troops than sword fighters.</p>
 <h2 id="fleeing">Fleeing<a class="headerlink" href="#fleeing" title="Permanent link">&para;</a></h2>
-<p>People who have set <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and are <a href="../cmd-attack/">attacked</a>, try to flee. They do this before each round of combat, so they may have to take (more) hits before they can escape.</p>
-<p>Persons with <a href="../cmd-combat/">COMBAT</a> or <a href="../cmd-combat/"><code>COMBAT REAR</code></a> with only 20% of their hit points left, and persons with <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a> or <a href="../cmd-combat/"><code>COMBAT NOT</code></a> with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.
-Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.
+<p>People who have set <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and are <a href="../cmd-attack/">attacked</a> try to flee.<br />
+They do this before each round of combat, so they may have to take (more) hits before they can escape.  </p>
+<p>Persons with <a href="../cmd-combat/">COMBAT</a> or <a href="../cmd-combat/"><code>COMBAT REAR</code></a> with only 20% of their hit points left, and persons with <a href="../cmd-combat/"><code>COMBAT DEFENSIVE</code></a> or <a href="../cmd-combat/"><code>COMBAT NOT</code></a> with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.<br />
+Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.<br />
 This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.</p>
 <p>The basic chance of escape is 25% (50% for halflings), plus 10% if you have a horse and 5% per level in stealth skill; the maximum value is 75% (or 90% for halflings).</p>
-<p>Fleeing units evade combat, but remain at a safe distance from the fighting in the region. If the unit was in a building or on a ship on land, it leaves this as soon as a person from the unit has fled during the battle.</p>
-<p><strong>Note:</strong> It may therefore be useful to command castle or ship occupants to re-enter their own ship, which they may be able to do after the battle. It should be noted that the command should also be handed back to the correct unit with <a href="../cmd-give/"><code>GIVE COMMAND</code></a>.</p>
-<p>Special rules apply to units with the FLEE status.
-These units can still move after combat, even if they would otherwise not be able to execute a long order.
-Furthermore, these units cannot guard regions. Any guarding performed is automatically canceled when the unit assumes the FLEE status.
+<p>Fleeing units evade combat, but remain at a safe distance from the fighting in the region.<br />
+If the unit was in a building or on a ship on land, it leaves this as soon as a person from the unit has fled during the battle.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.
+It should be noted that the command should also be handed back to the correct unit with <a href="../cmd-give/"><code>GIVE COMMAND</code></a>.</p>
+</div>
+<p>Special rules apply to units with the FLEE status.<br />
+These units can still move after combat, even if they would otherwise not be able to execute a long order.<br />
+Furthermore, these units cannot guard regions.<br />
+Any guarding performed is automatically canceled when the unit assumes the <code>FLEE</code> status.<br />
 This happens at the beginning of the turn, which means that all effects of <a href="../cmd-guard/">GUARD</a> are immediately negated.</p>
 <h2 id="combat-on-and-with-ships">Combat on and with ships<a class="headerlink" href="#combat-on-and-with-ships" title="Permanent link">&para;</a></h2>
-<p>Sea battles are fought like land battles: The <a href="../ships/">Ships</a> board each other and the units come at each other. After the battle, it is possible for the units to carry out further long orders.</p>
-<p>If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round. It therefor does not help to leave the ship before the battle begins.
-The <a href="../tactic/">tactics round</a> and the first round are not counted, so the maximum possible damage is 20%.</p>
-<p>More damage can occur if sea serpents are involved in the battle. These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.</p>
-<p>If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further <a href="../ships/">damage</a>.</p>
-<p>If you want to land in a region <a href="../cmd-guard/">guarded</a> by another faction, you must first <a href="../cmd-leave/">LEAVE</a> the ship and can attack or move only in the following round. This gives your enemies some time to prepare.</p>
-<p>From land you can attack a ship immediately. Units on ships join the battle rows normally according to their <code>COMBAT</code> and <a href="../cmd-help/"><code>HELP COMBAT</code></a> status if their allies or they themselves are attacked.</p>
+<p>Sea battles are fought like land battles: The <a href="../ships/">Ships</a> board each other and the units come at each other.<br />
+After the battle, it is possible for the units to carry out further long orders.</p>
+<p>If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round.<br />
+It therefor does not help to leave the ship before the battle begins.<br />
+The <a href="../tactic/">tactics round</a> and the first round are not counted, so the maximum possible damage is 20%.  </p>
+<p>More damage can occur if sea serpents are involved in the battle.<br />
+These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.  </p>
+<p>If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further <a href="../sailing/#damage-to-ships">damage</a>.</p>
+<p>If you want to land in a region <a href="../cmd-guard/">guarded</a> by another faction, you must first <a href="../cmd-leave/">LEAVE</a> the ship and can attack or move only in the following round.<br />
+This gives your enemies some time to prepare.</p>
+<p>From land you can attack a ship immediately.<br />
+Units on ships join the battle rows normally according to their <code>COMBAT</code> and <a href="../cmd-help/"><code>HELP COMBAT</code></a> status if their allies or they themselves are attacked.</p>
 <h2 id="piracy">Piracy<a class="headerlink" href="#piracy" title="Permanent link">&para;</a></h2>
 <p>Every captain has the chance to win a prize by capturing ships in adjacent regions.</p>
-<p>The captain lies in wait for ships that end their movement in a neighboring region. Once there, the crew can act as normal in the next round. With the help of <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>, for example, you could also just track your victims for the time being.</p>
+<p>The captain lies in wait for ships that end their movement in a neighboring region.<br />
+Once there, the crew can act as normal in the next round.<br />
+With the help of <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>, for example, you could also just track your victims for the time being.</p>
 <p>There are a few things to bear in mind with the whole story:</p>
 <ul>
 <li>Only factions with which you are not allied with <code>HELP FIGHT</code> are recognized as targets.</li>
-<li>If faction numbers are specified ([<code>PIRACY</code><em><code>&lt;party number&gt;</code></em><code>...</code>]), only captains of the specified factions are recognized as targets.</li>
-<li>The mechanism also works when the pirate ship is on land. It therefore offers an effective means of coastal protection.</li>
-<li>Pirates also sail into land regions, provided the ship can land there. If it cannot land, it takes damage.</li>
-<li>Pirate captains are thick as thieves. They cannot assess whether a target is possibly superior to them and will happily sail a single ship into an enemy fleet of 100 vessels. Being a pirate has its risks.</li>
+<li>If faction numbers are specified (<a href="../cmd-piracy/"><code>PIRACY</code><em><code>&lt;faction-id&gt;</code></em><code>...</code></a>), only captains of the specified factions are recognized as targets.</li>
+<li>The mechanism also works when the pirate ship is on land.
+  It therefore offers an effective means of coastal protection.</li>
+<li>Pirates also sail into land regions, provided the ship can land there.
+  If it cannot land, it takes damage.</li>
+<li>Pirate captains are thick as thieves.
+  They cannot assess whether a target is possibly superior to them and will happily sail a single ship into an enemy fleet of 100 vessels.
+  Being a pirate has its risks.</li>
 <li>If there are several potential targets to choose from, the captain will select one at random.</li>
-<li>Pirate fleets stay together. To be more precise: If an allied ship (to which the captain has set <a href="../cmd-help/"><code>HELP COMBAT</code></a>) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.</li>
+<li>Pirate fleets stay together.
+  If an allied ship (to which the captain has set <a href="../cmd-help/"><code>HELP COMBAT</code></a>) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.</li>
 </ul>
 <h2 id="the-end">The End<a class="headerlink" href="#the-end" title="Permanent link">&para;</a></h2>
 <p>After the battle, the dead are tallied and all usable material from wiped-out units is collected and distributed among the survivors.</p>
-<p>Units that were injured in battle remain injured. This is also displayed in the report. Injured units will recover over time. Units normally regenerate 5% (some <a href="../skills-modifiers/">races</a> more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.</p>
-<p>If the region being fought in was guarded by a friendly unit or by a unit that has set a <a href="../cmd-help/"><code>HELP GUARD</code></a> to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.
-This works even if enemy troops are also guarding the region. It also works if you have attacked yourself (i.e. you have set the <code>ATTACK</code> order yourself).</p>
+<p>Units that were injured in battle remain injured.<br />
+This is also displayed in the report.<br />
+Injured units will recover over time.<br />
+Units normally regenerate 5% (some <a href="../skills-modifiers/">races</a> more) of their maximum hit points per round, but at least one point per person in the unit.<br />
+Undead units do not regenerate.</p>
+<p>If the region being fought in was <a href="../alliances/">guarded</a> <strong>at the beginning of the battle</strong> by a friendly unit or by a unit that has set a <a href="../cmd-help/"><code>HELP GUARD</code></a> to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.<br />
+This works even if enemy troops are also guarding the region.<br />
+It also works if you have attacked yourself (i.e. you have set the <code>ATTACK</code> order yourself).</p>
 <p>If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.</p>
-<p>The only exception are units with the combat status <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and units at sea. Units with the status <code>COMBAT FLEE</code> can move after a battle if the have set one of the following orders: <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a> or <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>. After sea battles on oceans you can always execute long orders.</p>
+<p>The only exception are units with the combat status <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and units at sea.<br />
+Units with the status <code>COMBAT FLEE</code> can move after a battle if the have set one of the following orders: <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/">ROUTE</a> or <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>.<br />
+After sea battles on oceans you can always execute long orders.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../tactic/">Tactics</a></li>
@@ -7979,8 +8123,6 @@ This works even if enemy troops are also guarding the region. It also works if y
 </ul>
 <p>Continue reading: <a href="../alliances/">Alliances</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
-
-<!-- TODO: check this link in wiki #damages -->
 
 
 
@@ -8049,6 +8191,14 @@ This works even if enemy troops are also guarding the region. It also works if y
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

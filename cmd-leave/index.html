@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4771,7 +4715,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6267,6 +6211,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6403,14 +6353,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6467,6 +6445,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7000,8 +7034,6 @@
       
         
       
-        
-      
     
     
     
@@ -7118,34 +7150,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7318,19 +7322,19 @@
 
 <h1 id="leave">LEAVE<a class="headerlink" href="#leave" title="Permanent link">&para;</a></h1>
 <p><strong><code>LEAVE</code></strong>  </p>
-<p>The unit will abandon the ship or the building in which it is located.
-If you use the <a href="../cmd-enter/">ENTER</a> or <a href="../cmd-move/">MOVE</a> orders, the units will sometimes automatically leave their ships and buildings.
+<p>The unit will abandon the ship or the building in which it is located.  </p>
+<p>If you use the <a href="../cmd-enter/">ENTER</a> or <a href="../cmd-move/">MOVE</a> orders, the units will sometimes automatically leave their ships and buildings.
 However, this doesn't always work: if the unit is the captain of a ship and uses MOVE, it will attempt to sail in that direction, even if there is land there.
-Captains must first 'LEAVE' their ship, but all other sailors can use 'MOVE' to move over land and automatically leave the ship.</p>
+Captains must first <code>LEAVE</code> their ship, but all other sailors can use <code>MOVE</code> to move over land and automatically leave the ship.</p>
 <p>If a unit leaves a building or a ship over which it has command, this does not necessarily pass to the following unit in the report.
 Here you should use <a href="../cmd-give/"><code>GIVE unit-id COMMAND</code></a> let the handover of command take place in a controlled manner.
 The order of the units during the evaluation is not always that of the report.
 If your own units are in the building or on the ship, the order falls to them.</p>
-<p>If the unit is on a ship and the region is guarded by a non-allied faction, it must first leave the ship if it wants to carry out certain actions.
-For more information, see <a href="../cmd-guard/">GUARD</a>.
-The leave order does not work on the open sea.
-One way to still let people jump overboard is "Give 0[number]People".
-Another Aquarian-only solution that doesn't kill people is <a href="../sailing/#swimming">swimming</a>.</p>
+<p>If the unit is on a ship and the region is guarded by a non-allied faction, it must first leave the ship if it wants to carry out certain actions.<br />
+For more information, see <a href="../cmd-guard/">GUARD</a>.  </p>
+<p>The <code>LEAVE</code> order does not work on the open sea.
+One way to still let people jump overboard is <code>GIVE 0 [number] MEN</code>.<br />
+Another <strong>Aquarian-only</strong> solution that doesn't kill people is <a href="../sailing/#swimming">swimming</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
 
 
@@ -7400,6 +7404,14 @@ Another Aquarian-only solution that doesn't kill people is <a href="../sailing/#
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

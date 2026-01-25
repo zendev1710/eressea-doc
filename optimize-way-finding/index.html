@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1422,8 +1426,6 @@
       
         
       
-        
-      
     
     
     
@@ -1484,34 +1486,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2558,34 +2530,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2921,7 +2865,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4768,7 +4712,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6280,6 +6224,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6416,14 +6366,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6480,6 +6458,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7013,8 +7047,6 @@
       
         
       
-        
-      
     
     
     
@@ -7131,34 +7163,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7356,24 +7360,31 @@
 
 
 <h1 id="optimizing-way-finding">Optimizing way finding<a class="headerlink" href="#optimizing-way-finding" title="Permanent link">&para;</a></h1>
-<p>Many people are probably familiar with the general functionality of route calculation. Fortunately, not all routes to Rome are sought, but only those that obviously go in the general direction.</p>
-<p>The easiest option (Greedy) would be to first walk all existing paths from the starting point and remember the new intermediate points.
-From there all paths are taken again.
-The shortest route to a point is always remembered (route and distance).
-If you keep expanding like this, you will eventually find the target point (if it can be reached).
-The fact that you not only get closer to the goal, but also actually go in the completely wrong direction on some routes is an extreme disadvantage on long routes, both in terms of processing time and the memory requirement for intermediate states.</p>
-<p>The A*-Search, on the other hand, aims to only expand intermediate points that are actually on the correct route.
-Using a cost function, the costs are calculated for each point (including start and finish). <strong>probably</strong> to the destination.
-This is probably important here, because we don't know the distance to the destination unless we know the route. That means we estimate the distance. The straight line on the map is a good estimate that we certainly won't beat (without stargates, wormholes and the like ;-)</p>
-<p>For Eressea and other games on hex maps, the minimum distance can be calculated relatively easily from the coordinates.</p>
-<div class="highlight"><pre><span></span><code>hx = start.x - ziel.x
-hy = start.y - ziel.y
-Distanz = max(abs(hx), abs(hy), abs(hx+hy))
+<p>Many people are probably familiar with the general functionality of route calculation.<br />
+Fortunately, not all routes to Rome are sought, but only those that obviously go in the general direction.  </p>
+<p>The easiest option (Greedy) would be to first walk all existing paths from the starting point and remember the new intermediate points.<br />
+From there all paths are taken again.<br />
+The shortest route to a point is always remembered (route and distance).<br />
+If you keep expanding like this, you will eventually find the target point (if it can be reached).<br />
+The fact that you not only get closer to the goal, but also actually go in the completely wrong direction on some routes is an extreme disadvantage on long routes, both in terms of processing time and the memory requirement for intermediate states.  </p>
+<p>The A*-Search, on the other hand, aims to only expand intermediate points that are actually on the correct route.<br />
+Using a cost function, the costs are calculated for each point (including start and finish), <strong>probably</strong> to the destination.<br />
+This is probably important here, because we don't know the distance to the destination unless we know the route. That means we estimate the distance.<br />
+The straight line on the map is a good estimate that we certainly won't beat (without stargates, wormholes and the like ;-)  </p>
+<p>For Eressea and other games on hex maps, the minimum distance can be calculated relatively easily from the coordinates.  </p>
+<div class="highlight"><pre><span></span><code>hx = start.x - target.x
+hy = start.y - target.y
+Distance = max(abs(hx), abs(hy), abs(hx+hy))
 </code></pre></div>
-<p>This estimated distance to the destination is added to the distance already traveled. The regions that still need to be expanded are sorted according to this criterion. If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.</p>
-<p>However, every obstacle and every additional condition that is to be built into the cost function quickly causes execution to slow down again.</p>
-<p>Magellan has already built in a route finding function. In addition to distance, it also supports ships sailing along coasts.</p>
-<p>Further secondary conditions can concern the safety of regions (sea snakes, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round. However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behavior of the algorithm becomes more and more “greedy”. The A*-Searching with an estimator that always returns 0 corresponds to the greedy search.</p>
+<p>This estimated distance to the destination is added to the distance already traveled.<br />
+The regions that still need to be expanded are sorted according to this criterion.<br />
+If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.  </p>
+<p>However, every obstacle and every additional condition that is to be built into the cost function quickly causes execution to slow down again.  </p>
+<p>Magellan has already built in a route finding function.
+In addition to distance, it also supports ships sailing along coasts.  </p>
+<p>Further secondary conditions can concern the safety of regions (sea snakes, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round.<br />
+However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behavior of the algorithm becomes more and more “greedy”.<br />
+The A*-Searching with an estimator that always returns 0 corresponds to the greedy search.  </p>
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Wegfindung&oldid=2478] -->
 
 
@@ -7443,6 +7454,14 @@ Distanz = max(abs(hx), abs(hy), abs(hx+hy))
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

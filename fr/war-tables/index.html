@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -395,7 +399,7 @@
   
     
   
-  War
+  Guerre
 
         </a>
       </li>
@@ -417,7 +421,7 @@
   
     
   
-  Magic
+  Magie
 
         </a>
       </li>
@@ -439,7 +443,7 @@
   
     
   
-  Alchemy
+  Alchimie
 
         </a>
       </li>
@@ -461,7 +465,7 @@
   
     
   
-  Orders
+  Ordres
 
         </a>
       </li>
@@ -490,7 +494,7 @@
   
     
   
-  Misc
+  Divers
 
         </a>
       </li>
@@ -838,7 +842,7 @@
   <span class="md-ellipsis">
     
   
-    Weekly reports
+    Rapport hebdomadaire
   
 
     
@@ -866,7 +870,7 @@
   <span class="md-ellipsis">
     
   
-    Hints
+    Remarques
   
 
     
@@ -894,7 +898,7 @@
   <span class="md-ellipsis">
     
   
-    Beginner tips
+    Conseils pour débutants
   
 
     
@@ -922,7 +926,7 @@
   <span class="md-ellipsis">
     
   
-    Basics
+    Bases
   
 
     
@@ -950,7 +954,7 @@
   <span class="md-ellipsis">
     
   
-    Sending orders
+    Envoi des ordres
   
 
     
@@ -978,7 +982,7 @@
   <span class="md-ellipsis">
     
   
-    Sending orders from Magellan
+    Envoi des ordres depuis Magellan
   
 
     
@@ -1006,7 +1010,7 @@
   <span class="md-ellipsis">
     
   
-    Puppy protection
+    Protection du chiot
   
 
     
@@ -1107,7 +1111,7 @@
   <span class="md-ellipsis">
     
   
-    The World
+    Le Monde d'Eressea
   
 
     
@@ -1135,7 +1139,7 @@
   <span class="md-ellipsis">
     
   
-    Factions and units
+    Factions et unités
   
 
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Ressources
   
 
     
@@ -1850,7 +1824,7 @@
   <span class="md-ellipsis">
     
   
-    War
+    Guerre
   
 
     
@@ -1866,7 +1840,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    War
+    Guerre
   
 
           </label>
@@ -2033,7 +2007,7 @@
   <span class="md-ellipsis">
     
   
-    Magic
+    Magie
   
 
     
@@ -2049,7 +2023,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Magic
+    Magie
   
 
           </label>
@@ -2238,7 +2212,7 @@
   <span class="md-ellipsis">
     
   
-    Alchemy
+    Alchimie
   
 
     
@@ -2254,7 +2228,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Alchemy
+    Alchimie
   
 
           </label>
@@ -2466,8 +2440,6 @@
       
         
       
-        
-      
     
     
     
@@ -2491,7 +2463,7 @@
   <span class="md-ellipsis">
     
   
-    Orders
+    Ordres
   
 
     
@@ -2507,7 +2479,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Orders
+    Ordres
   
 
           </label>
@@ -2556,34 +2528,6 @@
     
   
     Séquence des ordres
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion : rapide description
   
 
     
@@ -4470,7 +4414,7 @@
   <span class="md-ellipsis">
     
   
-    Misc
+    Divers
   
 
     
@@ -4486,7 +4430,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Misc
+    Divers
   
 
           </label>
@@ -4868,7 +4812,7 @@
   <span class="md-ellipsis">
     
   
-    ExtendedCommands
+    Extended Commands
   
 
     
@@ -5713,10 +5657,292 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#armes-et-leurs-proprietes" class="md-nav__link">
+  <a href="#armes-de-combat-en-corps-a-corps" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Armes et leurs propriétés
+        Armes de combat en corps à corps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes de combat en corps à corps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#claymore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claymore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claymore-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claymore rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-de-flammes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée de Flammes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-de-guerre-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache de guerre rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-de-guerre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache de guerre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-en-adamantium" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache en adamantium
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-dhast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes d'hast
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes d&#39;hast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hallebarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hallebarde
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hallebarde-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hallebarde rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javelot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Javelot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javelot-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Javelot en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lance-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lance en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-a-distance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes à distance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes à distance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbalete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbalète
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbalete-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbalète en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc-elfique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc elfique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catapulte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catapulte
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-tableau-de-synthese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes - tableau de synthèse
       
     </span>
   </a>
@@ -5735,10 +5961,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#etat-de-sante-pour-le-combat" class="md-nav__link">
+  <a href="#etat-de-sante" class="md-nav__link">
     <span class="md-ellipsis">
       
-        État de santé pour le combat
+        État de santé
       
     </span>
   </a>
@@ -5746,10 +5972,126 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#armure" class="md-nav__link">
+  <a href="#armures" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Armure
+        Armures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#armure-de-plaque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure de plaque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armure-de-plaque-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure de plaque rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armure-en-adamantium" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure en adamantium
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier-rouille" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier rouillé
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armures-synthese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armures - Synthèse
       
     </span>
   </a>
@@ -5860,7 +6202,7 @@
   <span class="md-ellipsis">
     
   
-    Magic
+    Magie
   
 
     
@@ -5876,7 +6218,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Magic
+    Magie
   
 
           </label>
@@ -6145,7 +6487,7 @@
   <span class="md-ellipsis">
     
   
-    Dream Eye
+    Dream eye
   
 
     
@@ -6376,6 +6718,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6515,7 +6863,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
         
   
   
@@ -6579,6 +6955,62 @@
     
   
     Ceinture de force de troll
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sang de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tête de Dragon
   
 
     
@@ -6690,7 +7122,7 @@
   <span class="md-ellipsis">
     
   
-    Anneau d'invisibilité
+    Anneau d'Invisibilité
   
 
     
@@ -6858,7 +7290,7 @@
   <span class="md-ellipsis">
     
   
-    Pentagramme et Tirawon
+    Pentagramm et Tirawon
   
 
     
@@ -7112,8 +7544,6 @@
       
         
       
-        
-      
     
     
     
@@ -7250,34 +7680,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Contribuer à Eressea
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../eressea-story/" class="md-nav__link">
         
   
@@ -7369,10 +7771,292 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#armes-et-leurs-proprietes" class="md-nav__link">
+  <a href="#armes-de-combat-en-corps-a-corps" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Armes et leurs propriétés
+        Armes de combat en corps à corps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes de combat en corps à corps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#claymore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claymore
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claymore-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claymore rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epee-de-flammes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épée de Flammes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-de-guerre-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache de guerre rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-de-guerre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache de guerre
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hache-en-adamantium" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hache en adamantium
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-dhast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes d'hast
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes d&#39;hast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hallebarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hallebarde
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hallebarde-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hallebarde rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javelot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Javelot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javelot-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Javelot en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lance-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lance en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-a-distance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes à distance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armes à distance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbalete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbalète
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbalete-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbalète en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc-elfique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc elfique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arc-en-mallorn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc en mallorn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catapulte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catapulte
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armes-tableau-de-synthese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armes - tableau de synthèse
       
     </span>
   </a>
@@ -7391,10 +8075,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#etat-de-sante-pour-le-combat" class="md-nav__link">
+  <a href="#etat-de-sante" class="md-nav__link">
     <span class="md-ellipsis">
       
-        État de santé pour le combat
+        État de santé
       
     </span>
   </a>
@@ -7402,10 +8086,126 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#armure" class="md-nav__link">
+  <a href="#armures" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Armure
+        Armures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#armure-de-plaque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure de plaque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armure-de-plaque-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure de plaque rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armure-en-adamantium" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armure en adamantium
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bouclier-rouille" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bouclier rouillé
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles-en-laen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles en laen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cotte-de-mailles-rouillee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cotte de mailles rouillée
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armures-synthese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armures - Synthèse
       
     </span>
   </a>
@@ -7504,43 +8304,145 @@
 
 <h1 id="tableaux-relatifs-a-la-guerre">Tableaux relatifs à la guerre<a class="headerlink" href="#tableaux-relatifs-a-la-guerre" title="Permanent link">&para;</a></h1>
 <p>Cette page répertorie les propriétés des armes, des armures et des races pour le combat.</p>
-<h2 id="armes-et-leurs-proprietes">Armes et leurs propriétés<a class="headerlink" href="#armes-et-leurs-proprietes" title="Permanent link">&para;</a></h2>
+<h2 id="armes-de-combat-en-corps-a-corps">Armes de combat en corps à corps<a class="headerlink" href="#armes-de-combat-en-corps-a-corps" title="Permanent link">&para;</a></h2>
+<h3 id="claymore">Claymore<a class="headerlink" href="#claymore" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Claymore (EN), Bihänder (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="epee">Épée<a class="headerlink" href="#epee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Sword (EN), Schwert (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="claymore-rouillee">Claymore rouillée<a class="headerlink" href="#claymore-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty claymore (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="epee-en-laen">Épée en laen<a class="headerlink" href="#epee-en-laen" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Laen sword (EN), Laenschwert (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="epee-rouillee">Épée rouillée<a class="headerlink" href="#epee-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty sword (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="epee-de-flammes"><a href="../flaming-sword/">Épée de Flammes</a><a class="headerlink" href="#epee-de-flammes" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Flaming sword (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="hache-de-guerre-rouillee">Hache de guerre rouillée<a class="headerlink" href="#hache-de-guerre-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty axe (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="hache-de-guerre">Hache de guerre<a class="headerlink" href="#hache-de-guerre" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Axe (EN), Kriegsaxt (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="hache-en-adamantium">Hache en adamantium<a class="headerlink" href="#hache-en-adamantium" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Adamantium axe (EN), Adamantiumaxt (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h2 id="armes-dhast">Armes d'hast<a class="headerlink" href="#armes-dhast" title="Permanent link">&para;</a></h2>
+<h3 id="hallebarde">Hallebarde<a class="headerlink" href="#hallebarde" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Halberd (EN), Hellebarde (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="hallebarde-rouillee">Hallebarde rouillée<a class="headerlink" href="#hallebarde-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty halberd (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="javelot">Javelot<a class="headerlink" href="#javelot" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Spear (EN), Speer (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="javelot-en-mallorn">Javelot en mallorn<a class="headerlink" href="#javelot-en-mallorn" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Mallorn spear (EN), Mallornspeer (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="lance">Lance<a class="headerlink" href="#lance" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Lance (EN), Lanze (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="lance-en-mallorn">Lance en mallorn<a class="headerlink" href="#lance-en-mallorn" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Mallorn lance (EN), Mallornlanze (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h2 id="armes-a-distance">Armes à distance<a class="headerlink" href="#armes-a-distance" title="Permanent link">&para;</a></h2>
+<h3 id="arbalete">Arbalète<a class="headerlink" href="#arbalete" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Crossbow (EN), Armbrust (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<p>Les arbalètes ne tirent qu'aux 1er et 4ème tours de combat.  </p>
+<p>Un tir d'arbalète <strong>réduit de moitié la protection de l'armure</strong> de l'adversaire.  </p>
+<h3 id="arbalete-en-mallorn">Arbalète en mallorn<a class="headerlink" href="#arbalete-en-mallorn" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Mallorn crossbow (EN), Mallornarmbrust (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="arc">Arc<a class="headerlink" href="#arc" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Bow (EN), Bogen (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="arc-elfique">Arc elfique<a class="headerlink" href="#arc-elfique" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Elven bow (EN), Elfenbogen (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<p>Ce type d'arc ne peut être fabriqué que par les <a href="../races/#elfes" title="Elves">elfes</a>.</p>
+<h3 id="arc-en-mallorn">Arc en mallorn<a class="headerlink" href="#arc-en-mallorn" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Mallorn bow (EN), Mallornbogen (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="catapulte">Catapulte<a class="headerlink" href="#catapulte" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Catapult (EN), Katapult (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<p>Les catapultes ne tirent que <strong>lors du premier tour</strong> de combat.  </p>
+<p>Elles atteignent <strong>6</strong> cibles.  </p>
+<h2 id="armes-tableau-de-synthese">Armes - tableau de synthèse<a class="headerlink" href="#armes-tableau-de-synthese" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Arme</th>
-<th style="text-align: right;">Domm. à pied</th>
+<th style="text-align: right;">Dommages à pied</th>
 <th style="text-align: right;">⌀</th>
-<th style="text-align: right;">Domm. à cheval</th>
+<th style="text-align: right;">Dommages à cheval</th>
 <th>⌀</th>
 <th style="text-align: right;">OB</th>
 <th style="text-align: right;">DB</th>
-<th style="text-align: center;">Compét.</th>
+<th style="text-align: center;">Compétence</th>
 <th style="text-align: right;">Total</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Arbalète<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
-<td style="text-align: right;">3d3+5</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">3d3+5</td>
-<td>11</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-larbalete">A</a></td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr>
-<td>Arbalète en mallorn<sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
-<td style="text-align: right;">3d3+6</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">3d3+6</td>
-<td>12</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-larbalete">A</a></td>
-<td style="text-align: right;">0</td>
+<td>Non armé : Troll</td>
+<td style="text-align: right;">1d5+1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">-</td>
+<td>-</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">-4</td>
 </tr>
 <tr>
 <td>Arc</td>
@@ -7550,18 +8452,7 @@
 <td>7</td>
 <td style="text-align: right;">-2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-larc">B</a></td>
-<td style="text-align: right;">-2</td>
-</tr>
-<tr>
-<td>Arc d'Elfe</td>
-<td style="text-align: right;">2d6+4</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">2d6+4</td>
-<td>11</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-larc">B</a></td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-larc" title="Bow">B</a></td>
 <td style="text-align: right;">-2</td>
 </tr>
 <tr>
@@ -7572,187 +8463,33 @@
 <td>8</td>
 <td style="text-align: right;">-2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-larc">B</a></td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-larc" title="Bow">B</a></td>
 <td style="text-align: right;">-2</td>
 </tr>
 <tr>
-<td>Catapulte<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>:</td>
-<td style="text-align: right;">3d10+5</td>
-<td style="text-align: right;">21,5</td>
-<td style="text-align: right;">3d10+5</td>
-<td>21.5</td>
-<td style="text-align: right;">-4</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#tir-a-la-catapulte">K</a></td>
-<td style="text-align: right;">-4</td>
-</tr>
-<tr>
-<td>Claymore</td>
-<td style="text-align: right;">2d8+3</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">2d8+3</td>
-<td>12</td>
-<td style="text-align: right;">-1</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">-3</td>
-</tr>
-<tr>
-<td>Épée</td>
-<td style="text-align: right;">1d9+2</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">1d9+2</td>
-<td>7</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr>
-<td>Épée à 2 mains rouillée</td>
-<td style="text-align: right;">2d8</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">2d8</td>
-<td>9</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: right;">-3</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">-5</td>
-</tr>
-<tr>
-<td>Épée en laen</td>
-<td style="text-align: right;">3d6+10</td>
-<td style="text-align: right;">20,5</td>
-<td style="text-align: right;">3d6+10</td>
-<td>20,5</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">+2</td>
-</tr>
-<tr>
-<td>Épée rouillée</td>
-<td style="text-align: right;">1d9</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">1d9</td>
-<td>5</td>
-<td style="text-align: right;">-1</td>
-<td style="text-align: right;">-1</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">-2</td>
-</tr>
-<tr>
-<td><a href="../flaming-sword/">Épée de Flammes</a></td>
-<td style="text-align: right;">3d6+10</td>
-<td style="text-align: right;">20,5</td>
-<td style="text-align: right;">3d6+10</td>
-<td>20,5</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">+2</td>
-</tr>
-<tr>
-<td>Hache de guerre rouillée</td>
-<td style="text-align: right;">2d6</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">2d6</td>
-<td>7</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-3</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">-3</td>
-</tr>
-<tr>
-<td>Hache de guerrre</td>
-<td style="text-align: right;">2d6+4</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">2d6+4</td>
-<td>11</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">-1</td>
-</tr>
-<tr>
-<td>Hache en adamantium</td>
-<td style="text-align: right;">3d4+15</td>
-<td style="text-align: right;">22,5</td>
-<td style="text-align: right;">3d4+15</td>
-<td>22,5</td>
-<td style="text-align: right;">+2</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: center;"><a href="../skills-list/#melee">M</a></td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr>
-<td>Hallebarde</td>
-<td style="text-align: right;">2d6+3</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">2d6+3</td>
-<td>10</td>
-<td style="text-align: right;">-1</td>
-<td style="text-align: right;">+2</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
-<td style="text-align: right;">+1</td>
-</tr>
-<tr>
-<td>Hallebarde rouillée</td>
-<td style="text-align: right;">2d6</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">2d6</td>
-<td>7</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
-<td style="text-align: right;">-1</td>
-</tr>
-<tr>
-<td>Javelot</td>
+<td>Javelot<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
 <td style="text-align: right;">1d10</td>
 <td style="text-align: right;">5,5</td>
 <td style="text-align: right;">1d12+2</td>
 <td>8,5</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>Javelot en mallorn</td>
+<td>Javelot en mallorn<sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
 <td style="text-align: right;">1d10+1</td>
 <td style="text-align: right;">6,5</td>
 <td style="text-align: right;">1d12+3</td>
 <td>9,5</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>Lance</td>
-<td style="text-align: right;">1d5</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">2d6+5</td>
-<td>12</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
-<td style="text-align: right;">-2</td>
-</tr>
-<tr>
-<td>Lance en mallorn</td>
-<td style="text-align: right;">1d5+1</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">2d6+6</td>
-<td>13</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">-2</td>
-<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast">H</a></td>
-<td style="text-align: right;">-2</td>
-</tr>
-<tr>
-<td>Non armé<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
+<td>Non armé<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></td>
 <td style="text-align: right;">1d5</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">1d6</td>
@@ -7774,23 +8511,199 @@
 <td style="text-align: right;">-2</td>
 </tr>
 <tr>
-<td>Non armé : Troll</td>
+<td>Épée rouillée</td>
+<td style="text-align: right;">1d9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1d9</td>
+<td>5</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">-2</td>
+</tr>
+<tr>
+<td>Épée</td>
+<td style="text-align: right;">1d9+2</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1d9+2</td>
+<td>7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Hache de guerre rouillée</td>
+<td style="text-align: right;">2d6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2d6</td>
+<td>7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">-3</td>
+</tr>
+<tr>
+<td>Hallebarde rouillée<sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
+<td style="text-align: right;">2d6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2d6</td>
+<td>7</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr>
+<td>Hallebarde<sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
+<td style="text-align: right;">2d6+3</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">2d6+3</td>
+<td>10</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>Arc d'Elfe</td>
+<td style="text-align: right;">2d6+4</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">2d6+4</td>
+<td>11</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-larc" title="Bow">B</a></td>
+<td style="text-align: right;">-2</td>
+</tr>
+<tr>
+<td>Hache de guerre</td>
+<td style="text-align: right;">2d6+4</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">2d6+4</td>
+<td>11</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr>
+<td>Lance<sup id="fnref5:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
+<td style="text-align: right;">1d5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2d6+5</td>
+<td>12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
+<td style="text-align: right;">-2</td>
+</tr>
+<tr>
+<td>Lance en mallorn<sup id="fnref6:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
 <td style="text-align: right;">1d5+1</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">-</td>
-<td>-</td>
+<td style="text-align: right;">2d6+6</td>
+<td>13</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">-2</td>
+<td style="text-align: center;"><a href="../skills-list/#combat-a-larme-dhast" title="Unarmed combat">H</a></td>
 <td style="text-align: right;">-2</td>
-<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Claymore rouillée</td>
+<td style="text-align: right;">2d8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2d8</td>
+<td>9</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-3</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">-5</td>
+</tr>
+<tr>
+<td>Claymore</td>
+<td style="text-align: right;">2d8+3</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2d8+3</td>
+<td>12</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">-3</td>
+</tr>
+<tr>
+<td>Catapulte<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
+<td style="text-align: right;">3d10+5</td>
+<td style="text-align: right;">21,5</td>
+<td style="text-align: right;">3d10+5</td>
+<td>21.5</td>
 <td style="text-align: right;">-4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-la-catapulte" title="Catapult">K</a></td>
+<td style="text-align: right;">-4</td>
+</tr>
+<tr>
+<td>Arbalète<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+<td style="text-align: right;">3d3+5</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">3d3+5</td>
+<td>11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-larbalete" title="Crossbow">A</a></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Arbalète en mallorn<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+<td style="text-align: right;">3d3+6</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3d3+6</td>
+<td>12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: center;"><a href="../skills-list/#tir-a-larbalete" title="Crossbow">A</a></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Hache en adamantium</td>
+<td style="text-align: right;">3d4+15</td>
+<td style="text-align: right;">22,5</td>
+<td style="text-align: right;">3d4+15</td>
+<td>22,5</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Épée en laen</td>
+<td style="text-align: right;">3d6+10</td>
+<td style="text-align: right;">20,5</td>
+<td style="text-align: right;">3d6+10</td>
+<td>20,5</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">+2</td>
+</tr>
+<tr>
+<td><a href="../flaming-sword/">Épée de Flammes</a></td>
+<td style="text-align: right;">3d6+10</td>
+<td style="text-align: right;">20,5</td>
+<td style="text-align: right;">3d6+10</td>
+<td>20,5</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: center;"><a href="../skills-list/#melee" title="Melee">M</a></td>
+<td style="text-align: right;">+2</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>Les <a href="../races/#gobelins">gobelins</a> ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;</li>
-<li>Les <a href="../races/#trolls">trolls</a> infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;</li>
-<li>Les <a href="../races/#orcs">orcs</a> combattent avec leur meilleure compétence de mêlée à -3;</li>
-<li>Les <a href="../races/#chats">chats</a> bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues</li>
+<li>Les <a href="../races/#gobelins" title="Goblins">gobelins</a> ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;</li>
+<li>Les <a href="../races/#trolls" title="Trolls">trolls</a> infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;</li>
+<li>Les <a href="../races/#orcs" title="Orcs">orcs</a> combattent avec leur meilleure compétence de mêlée à -3;</li>
+<li>Les <a href="../races/#chats" title="Cats">chats</a> bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues</li>
 <li>Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence <em>Combat à mains nues</em> et ne subissent alors aucun malus lorsqu'elles combattent sans arme</li>
 </ul>
 <div class="admonition info">
@@ -7803,68 +8716,147 @@ Enfin, une valeur fixe est ajoutée.</p>
 </div>
 <p>Remarques :</p>
 <ul>
-<li>Les dégâts subis à cheval ne s'appliquent qu'en conjonction avec le <a href="../war/#boni-et-mali">bonus de monture</a></li>
+<li>Les dégâts subis à cheval ne s'appliquent qu'en conjonction avec le <a href="../war/#bonus-et-malus">bonus de monture</a></li>
 <li>OB et DB représentent les bonus offensifs et défensifs; ainsi, une hache de guerre est conçue davantage comme une arme offensive, tandis qu'une hallebarde est plus utile pour la défense</li>
-<li>Toutes les armes en Mallorn ont une résistance magique de 15%, toutes les armes en laen et -stungen de 30% (les détails de résistance à la magie suivent plus loin)</li>
+<li>Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir <a href="./#resistance-a-la-magie">plus bas</a>)</li>
 <li>Une Épée de Flammes invoque également une petite boule de feu à chaque round de combat</li>
 </ul>
 <h2 id="endurance">Endurance<a class="headerlink" href="#endurance" title="Permanent link">&para;</a></h2>
-<p>Augmentation des points de vie grâce à l'endurance. Formula: (niv/2)^(1.5) x 20%.</p>
+<p>Le bonus de points de vie (PV) en pourcentages, selon le niveau d'<a href="../skills-list/#endurance" title="Endurance">endurance</a>, est calculé ainsi :</p>
+<dl>
+<dt><!-- cspell:disable --></dt>
+<dd>
+<div class="arithmatex">\[
+\text{bonus PV (en \%)} = \left(\frac{\text{niveau}}{2}\right)^{1.5} \times 0.20
+\]</div>
+</dd>
+</dl>
+<!-- cspell:enable -->
+
+<p><em>Augmentation des points de vie grâce à l'endurance.</em></p>
 <table>
 <thead>
 <tr>
-<th>Niveau d'endurance</th>
-<th style="text-align: right;">0</th>
-<th style="text-align: right;">1</th>
-<th style="text-align: right;">2</th>
-<th style="text-align: right;">3</th>
-<th style="text-align: right;">4</th>
-<th style="text-align: right;">5</th>
-<th style="text-align: right;">6</th>
-<th style="text-align: right;">7</th>
-<th style="text-align: right;">8</th>
-<th style="text-align: right;">9</th>
-<th style="text-align: right;">10</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">15</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">20</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">25</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">30</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">35</th>
-<th style="text-align: right;">...</th>
-<th style="text-align: right;">40</th>
+<th>Niveau</th>
+<th style="text-align: right;">T0</th>
+<th style="text-align: right;">T1</th>
+<th style="text-align: right;">T2</th>
+<th style="text-align: right;">T3</th>
+<th style="text-align: right;">T4</th>
+<th style="text-align: right;">T5</th>
+<th style="text-align: right;">T6</th>
+<th style="text-align: right;">T7</th>
+<th style="text-align: right;">T8</th>
+<th style="text-align: right;">T9</th>
+<th style="text-align: right;">T10</th>
+<th style="text-align: right;">T15</th>
+<th style="text-align: right;">T20</th>
+<th style="text-align: right;">T25</th>
+<th style="text-align: right;">T30</th>
+<th style="text-align: right;">T35</th>
+<th style="text-align: right;">T40</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Points de vie</td>
-<td style="text-align: right;">+0%</td>
-<td style="text-align: right;">+7%</td>
-<td style="text-align: right;">+20%</td>
-<td style="text-align: right;">+37%</td>
-<td style="text-align: right;">+57%</td>
-<td style="text-align: right;">+79%</td>
-<td style="text-align: right;">+104%</td>
-<td style="text-align: right;">+131%</td>
-<td style="text-align: right;">+160%</td>
-<td style="text-align: right;">+191%</td>
-<td style="text-align: right;">+224%</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+410%</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+632%</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+883%</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+1161%</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+ 64</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">+1788%</td>
+<td>Bonus PV</td>
+<td style="text-align: right;">+ 0 %</td>
+<td style="text-align: right;">+ 7 %</td>
+<td style="text-align: right;">+ 20 %</td>
+<td style="text-align: right;">+ 37 %</td>
+<td style="text-align: right;">+ 57 %</td>
+<td style="text-align: right;">+ 79 %</td>
+<td style="text-align: right;">+ 104 %</td>
+<td style="text-align: right;">+ 131 %</td>
+<td style="text-align: right;">+ 160 %</td>
+<td style="text-align: right;">+ 191 %</td>
+<td style="text-align: right;">+ 224 %</td>
+<td style="text-align: right;">+ 410 %</td>
+<td style="text-align: right;">+ 632 %</td>
+<td style="text-align: right;">+ 883 %</td>
+<td style="text-align: right;">+ 1 161 %</td>
+<td style="text-align: right;">+ 1464 %</td>
+<td style="text-align: right;">+ 1 788 %</td>
+</tr>
+<tr>
+<td>Aquariens</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">252</td>
+<td style="text-align: right;">312</td>
+<td style="text-align: right;">377</td>
+</tr>
+<tr>
+<td>Chats</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">252</td>
+<td style="text-align: right;">312</td>
+<td style="text-align: right;">377</td>
+</tr>
+<tr>
+<td>Démons</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">161</td>
+<td style="text-align: right;">255</td>
+<td style="text-align: right;">366</td>
+<td style="text-align: right;">491</td>
+<td style="text-align: right;">630</td>
+<td style="text-align: right;">782</td>
+<td style="text-align: right;">944</td>
+</tr>
+<tr>
+<td>Elfes</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">131</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">227</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">339</td>
 </tr>
 <tr>
 <td>Gobelins</td>
@@ -7879,21 +8871,15 @@ Enfin, une valeur fixe est ajoutée.</p>
 <td style="text-align: right;">41</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: right;">51</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">81</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">117</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">157</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">201</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">250</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">302</td>
 </tr>
 <tr>
-<td>Elfes/Halflinge</td>
+<td>Halflings</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: right;">19</td>
 <td style="text-align: right;">21</td>
@@ -7905,21 +8891,15 @@ Enfin, une valeur fixe est ajoutée.</p>
 <td style="text-align: right;">46</td>
 <td style="text-align: right;">52</td>
 <td style="text-align: right;">58</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">91</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">131</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">177</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">227</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">281</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">339</td>
 </tr>
 <tr>
-<td>Chats/Aquariens/Humains</td>
+<td>Humains</td>
 <td style="text-align: right;">20</td>
 <td style="text-align: right;">21</td>
 <td style="text-align: right;">24</td>
@@ -7931,21 +8911,15 @@ Enfin, une valeur fixe est ajoutée.</p>
 <td style="text-align: right;">52</td>
 <td style="text-align: right;">58</td>
 <td style="text-align: right;">64</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">102</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">146</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">196</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">252</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">312</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">377</td>
 </tr>
 <tr>
-<td>Nains/Orcs/Insecten</td>
+<td>Insectes</td>
 <td style="text-align: right;">24</td>
 <td style="text-align: right;">25</td>
 <td style="text-align: right;">28</td>
@@ -7957,17 +8931,51 @@ Enfin, une valeur fixe est ajoutée.</p>
 <td style="text-align: right;">62</td>
 <td style="text-align: right;">69</td>
 <td style="text-align: right;">77</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">122</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">175</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">236</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">302</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">375</td>
-<td style="text-align: right;">...</td>
+<td style="text-align: right;">453</td>
+</tr>
+<tr>
+<td>Nains</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">236</td>
+<td style="text-align: right;">302</td>
+<td style="text-align: right;">375</td>
+<td style="text-align: right;">453</td>
+</tr>
+<tr>
+<td>Orcs</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">236</td>
+<td style="text-align: right;">302</td>
+<td style="text-align: right;">375</td>
 <td style="text-align: right;">453</td>
 </tr>
 <tr>
@@ -7983,118 +8991,38 @@ Enfin, une valeur fixe est ajoutée.</p>
 <td style="text-align: right;">78</td>
 <td style="text-align: right;">87</td>
 <td style="text-align: right;">97</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">153</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">219</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">295</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">378</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">469</td>
-<td style="text-align: right;">...</td>
 <td style="text-align: right;">566</td>
 </tr>
-<tr>
-<td>Démons</td>
-<td style="text-align: right;">50</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;">68</td>
-<td style="text-align: right;">78</td>
-<td style="text-align: right;">89</td>
-<td style="text-align: right;">101</td>
-<td style="text-align: right;">115</td>
-<td style="text-align: right;">130</td>
-<td style="text-align: right;">145</td>
-<td style="text-align: right;">161</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">255</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">366</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">491</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">630</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">782</td>
-<td style="text-align: right;">...</td>
-<td style="text-align: right;">944</td>
-</tr>
 </tbody>
 </table>
-<h2 id="etat-de-sante-pour-le-combat">État de santé pour le combat<a class="headerlink" href="#etat-de-sante-pour-le-combat" title="Permanent link">&para;</a></h2>
+<details class="tip">
+<summary>Calcul du bonus selon l'endurance</summary>
+<p><div class="md-typeset" style="margin-top: 1em;">
+    <label for="war-tables-compute-endurance-input" class="md-input-label">Niveau :</label>
+    <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+    <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Calculer</button>
+    <p style="margin-top: 1em;">Bonus : <strong id="war-tables-compute-endurance-result">---</strong></p>
+</div></p>
+</details>
+<h2 id="etat-de-sante">État de santé<a class="headerlink" href="#etat-de-sante" title="Permanent link">&para;</a></h2>
 <p>L'état de santé d'une unité peut être à l'une des valeurs suivantes :</p>
 <ul>
-<li>Épuisé (<em>exhausted</em>) : &lt; 99% PV</li>
-<li>Wounded (<em>wounded</em>) : &lt; 75% PV</li>
-<li>Gravement blessé (<em>badly wounded</em>) : &lt; 50% PV</li>
-<li>Fort (<em>strong</em>) : &gt; 150% PV</li>
-<li>Très fort (<em>very strong</em>) : &gt; 200% PV</li>
+<li>Épuisé (<em><code>exhausted</code></em>) : &lt; 99 % PV</li>
+<li>Blessé (<em><code>wounded</code></em>) : &lt; 75 % PV</li>
+<li>Gravement blessé (<em><code>badly wounded</code></em>) : &lt; 50 % PV</li>
+<li>Fort (<em><code>strong</code></em>) : &gt; 150 % PV</li>
+<li>Très fort (<em><code>very strong</code></em>) : &gt; 200 % PV</li>
 </ul>
-<h2 id="armure">Armure<a class="headerlink" href="#armure" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Armure</th>
-<th style="text-align: center;">Protection</th>
-<th style="text-align: right;">Chance de frapper</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bouclier</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: right;">85%</td>
-</tr>
-<tr>
-<td>Bouclier rouillé</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: right;">100%</td>
-</tr>
-<tr>
-<td>Bouclier en laen</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: right;">75%</td>
-</tr>
-<tr>
-<td>Cotte de mailles rouillée</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: right;">130%</td>
-</tr>
-<tr>
-<td>Cotte de mailles</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: right;">115%</td>
-</tr>
-<tr>
-<td>Armure de plaque rouillée</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: right;">145%</td>
-</tr>
-<tr>
-<td>Armure de plaque</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: right;">130%</td>
-</tr>
-<tr>
-<td>Cotte de mailles en laen</td>
-<td style="text-align: center;">6</td>
-<td style="text-align: right;">-</td>
-</tr>
-<tr>
-<td>Armure en adamantium</td>
-<td style="text-align: center;">7</td>
-<td style="text-align: right;">110%</td>
-</tr>
-</tbody>
-</table>
+<h2 id="armures">Armures<a class="headerlink" href="#armures" title="Permanent link">&para;</a></h2>
 <p>On ne peut utiliser qu'une seule armure à la fois.<br />
 Être équipé de plusieurs armures n'offre pas plusieurs niveaux de protection.  </p>
 <p>Aucun monstre invoqué ni <a href="../familiars/">Familier</a> ne peut utiliser d'armure.  </p>
-<p>Bien que les boucliers soient considérés comme des armures, ils peuvent être utilisés en complément d'une armure et avoir alors un effet additif sur celle-ci.
-ais un seul bouclier par personne.</p>
+<p>Bien que les boucliers soient considérés comme des armures, ils peuvent être utilisés en complément d'une armure et avoir alors un effet additif sur celle-ci, mais pour un seul bouclier par personne.  </p>
 <p><strong>Exemple :</strong></p>
 <p>Un combattant attaque un adversaire sans armure et a 60 % de chances de le toucher.<br />
 Cependant, si le défenseur porte une cotte de mailles, cette probabilité passe à 115 % × 60 % = 69 %.<br />
@@ -8106,14 +9034,117 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 <p class="admonition-title">Note</p>
 <p>Le résultat final est toujours arrondi à l'inférieur, ce qui signifie que la valeur de défense est arrondie à l'inférieur.</p>
 </div>
+<h3 id="armure-de-plaque">Armure de plaque<a class="headerlink" href="#armure-de-plaque" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Platemail (EN), Plattenpanzer (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="armure-de-plaque-rouillee">Armure de plaque rouillée<a class="headerlink" href="#armure-de-plaque-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty platemail (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="armure-en-adamantium">Armure en adamantium<a class="headerlink" href="#armure-en-adamantium" title="Permanent link">&para;</a></h3>
+<!-- TODO: check: or adamantium platemail ? -->
+<!-- cspell:disable -->
+<p><em>Adamantium armor (EN), Adamantiumrüstung (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="bouclier">Bouclier<a class="headerlink" href="#bouclier" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Shield (EN), Schild (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="bouclier-en-laen">Bouclier en laen<a class="headerlink" href="#bouclier-en-laen" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Laen shield (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="bouclier-rouille">Bouclier rouillé<a class="headerlink" href="#bouclier-rouille" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty shield (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="cotte-de-mailles">Cotte de mailles<a class="headerlink" href="#cotte-de-mailles" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Chainmail (EN), Kettenhemd (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="cotte-de-mailles-en-laen">Cotte de mailles en laen<a class="headerlink" href="#cotte-de-mailles-en-laen" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Laen chainmail (EN), Laenkettenhemd (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h3 id="cotte-de-mailles-rouillee">Cotte de mailles rouillée<a class="headerlink" href="#cotte-de-mailles-rouillee" title="Permanent link">&para;</a></h3>
+<!-- cspell:disable -->
+<p><em>Rusty Chainmail (EN),  (DE)</em>.</p>
+<!-- cspell:enable -->
+
+<h2 id="armures-synthese">Armures - Synthèse<a class="headerlink" href="#armures-synthese" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Armure</th>
+<th style="text-align: center;">Protection</th>
+<th style="text-align: right;">Chance de frapper</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#bouclier" title="Shield">bouclier</a></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">85 %</td>
+</tr>
+<tr>
+<td><a href="./#bouclier-rouille" title="Rusty shield">bouclier rouillé</a></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">100 %</td>
+</tr>
+<tr>
+<td><a href="#bouclier-en-laen" title="Laen shield">bouclier en laen</a></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;">75 %</td>
+</tr>
+<tr>
+<td><a href="./#cotte-de-mailles-rouillee" title="Rusty Chainmail">cotte de mailles rouillée</a></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;">130 %</td>
+</tr>
+<tr>
+<td><a href="#cotte-de-mailles" title="Chainmail">cotte de mailles</a></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;">115 %</td>
+</tr>
+<tr>
+<td><a href="./#armure-de-plaque-rouillee" title="Rusty platemail">armure de plaque rouillée</a></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;">145 %</td>
+</tr>
+<tr>
+<td><a href="#armure-de-plaque" title="Platemail">armure de plaque</a></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: right;">130 %</td>
+</tr>
+<tr>
+<td><a href="#cotte-de-mailles-en-laen" title="Laen chainmail">cotte de mailles en laen</a></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td><a href="#armure-en-adamantium" title="Adamantium armor">armure en adamantium</a></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: right;">110 %</td>
+</tr>
+</tbody>
+</table>
 <h2 id="races-et-leurs-caracteristiques">Races et leurs caractéristiques<a class="headerlink" href="#races-et-leurs-caracteristiques" title="Permanent link">&para;</a></h2>
-<p>Points de vie (PV), résistance magique (R.) et armure naturelle (AN).</p>
+<p>Points de vie (PV), résistance à la magie (RM) et armure naturelle (AN).</p>
 <table>
 <thead>
 <tr>
 <th>Race</th>
 <th style="text-align: right;">PV</th>
-<th style="text-align: right;">R.</th>
+<th style="text-align: right;">RM</th>
 <th style="text-align: right;">AN</th>
 </tr>
 </thead>
@@ -8131,10 +9162,10 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td><strong>Démons</strong></td>
-<td style="text-align: right;"><strong>50</strong></td>
-<td style="text-align: right;"><strong>15</strong></td>
-<td style="text-align: right;"><strong>2</strong></td>
+<td>Démons</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td>Elfes</td>
@@ -8149,7 +9180,7 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>Halflinge</td>
+<td>Halflings</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">0</td>
@@ -8186,15 +9217,17 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 </tr>
 </tbody>
 </table>
-<p>L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment.
-L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.</p>
-<p>Les trolls ont une armure naturelle de 1.
-Cela signifie que sans autre armure, un troll possède cette valeur d'armure de 1 et les dégâts qu'il subit sont réduits de 1. L'armure naturelle n'augmente pas la protection globale d'un troll. Si un troll porte une armure ou un bouclier, on ajoute seulement un zéro (la moitié de sa valeur d'armure naturelle, arrondie à l'inférieur).
-Si un troll porte une cotte de mailles, sa valeur d'armure est de 3.</p>
-<p>Un insecte ou un démon portant une cotte de mailles, en revanche, possède une protection de 4.
-Le maximum atteignable avec un équipement conventionnel est une protection de 7 avec une armure de plaques et un bouclier.
-Avec une armure de Laen, une protection de 9 est même possible, et avec de l'adamantium, une protection de 10.
-Une unité aussi bien protégée est difficile à blesser avec des armes simples comme des épées ou des arcs, car l'armure absorbe une grande partie des dégâts.</p>
+<p>L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment.<br />
+L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.  </p>
+<p>Les trolls ont une armure naturelle de 1.<br />
+Cela signifie que sans autre armure, un troll possède cette valeur d'armure de 1 et les dégâts qu'il subit sont réduits de 1.<br />
+L'armure naturelle n'augmente pas la protection globale d'un troll.<br />
+Si un troll porte une armure ou un bouclier, on ajoute seulement un zéro (la moitié de sa valeur d'armure naturelle, arrondie à l'inférieur).<br />
+Si un troll porte une cotte de mailles, sa valeur d'armure est de 3.  </p>
+<p>Un insecte ou un démon portant une cotte de mailles, en revanche, possède une protection de 4.<br />
+Le maximum atteignable avec un équipement conventionnel est une protection de 7 avec une armure de plaques et un bouclier.<br />
+Avec une armure de Laen, une protection de 9 est même possible, et avec de l'adamantium, une protection de 10.<br />
+Une unité aussi bien protégée est difficile à blesser avec des armes simples comme des épées ou des arcs, car l'armure absorbe une grande partie des dégâts.  </p>
 <h2 id="resistance-a-la-magie">Résistance à la magie<a class="headerlink" href="#resistance-a-la-magie" title="Permanent link">&para;</a></h2>
 <p>La résistance à la magie est un attribut spécial dépendant de la race, de l'équipement et de certains sorts.<br />
 Elle indique le pourcentage de dégâts magiques réduits par les sorts de combat.</p>
@@ -8212,13 +9245,16 @@ Toutes les <strong>armes et armures en laen</strong> augmentent la résistance m
 <hr />
 <ol>
 <li id="fn:1">
-<p>Les catapultes ne tirent que lors du premier round de bataille, mais <strong>atteignent 6 cibles</strong>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>les arbalètes ne tirent qu'aux 1er et 4e tours de combat. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Les arbalètes ne tirent qu'aux 1er et 4e tours. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>les catapultes ne tirent que lors du premier tour de combat, mais <strong>atteignent 6 cibles</strong>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Particularités selon la race :&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="#armes-dhast">arme d'hast</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>particularités selon la race :&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -8290,6 +9326,14 @@ Toutes les <strong>armes et armures en laen</strong> augmentent la résistance m
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../../javascripts/formulas-try.js"></script>
       
     
   </body>

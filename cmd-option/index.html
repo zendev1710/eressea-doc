@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2468,8 +2442,6 @@
       
         
       
-        
-      
     
     
     
@@ -2561,34 +2533,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -2924,7 +2868,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4819,7 +4763,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6315,6 +6259,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6451,14 +6401,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6515,6 +6493,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7048,8 +7082,6 @@
       
         
       
-        
-      
     
     
     
@@ -7166,34 +7198,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7387,22 +7391,29 @@
 <p><strong><code>OPTION</code></strong><code></code><em><code>option</code></em><code>[NOT]</code>  </p>
 <!-- TODO: check if the following options stay in german or not for english players -->
 
-<p>These options can be turned on and off. You control exactly what the evaluation looks like.</p>
+<p>These options can be turned on and off.
+You control exactly what the evaluation looks like.  </p>
 <ul>
-<li><code>AUSWERTUNG</code>: This is the normal evaluation in plain text. If you only use the computer evaluation, the normal evaluation can be omitted</li>
+<li><code>AUSWERTUNG</code>: This is the normal evaluation in plain text.
+  If you only use the computer evaluation, the normal evaluation can be omitted</li>
 <li><code>COMPUTER</code>: This evaluation is easier for programs to read. It can be used to power any kind of self-written programs, e.g. auxiliary tools or map drawers</li>
 <li><code>ZIPPED</code>: The evaluation will be packed with zip before shipping</li>
 <li><code>BZIP2</code>: The evaluation is packed with bzip2 before shipping</li>
 <li><code>STATISTIK</code>: With this option, a small statistic is displayed after each region in the normal analysis</li>
 <li><code>PUNKTE</code>: With this option, from the 13<sup>th</sup> round at the earliest, a score is issued that allows a small comparison with other factions</li>
-<li><code>ZUGVORLAGE</code>: A separate file contains a <a href="../commands/">Template for the next round's orders</a>. This can be turned off and on again. If you don't need this, for example because you use a tool to create a move, you should turn off the move template</li>
+<li><code>ZUGVORLAGE</code>: A separate file contains a <a href="../commands/">Template for the next round's orders</a>.
+  This can be turned off and on again. If you don't need this, for example because you use a tool to create a move, you should turn off the move template</li>
 <li><code>TALENTVERSCHIEBUNG</code>: This allows you to switch on a small display in the NR. After the skill it is listed if the skill has changed in the round in question</li>
 <li><code>ADRESSEN</code>: This appends the address list of the factions seen in the group to the report</li>
 </ul>
 <h2 id="old-options">Old options<a class="headerlink" href="#old-options" title="Permanent link">&para;</a></h2>
 <p>With evaluation number 559, the Material Pool and Silver Pool options were set as default. Deactivation is no longer possible.</p>
-<p><code>SILVERPOOL</code>: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.</p>
-<p><code>MATERIALPOOL</code>: If the <a href="../items-pool/">Material Pool</a> is switched on, all required items in a unit are collected as needed, similar to Silver with the <a href="../items-pool/#the-silver-pool">Silver Pool</a>. Units can use the <a href="../cmd-reserve/">RESERVE</a> command to secure items, preventing other units from taking them and consuming them. This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have one<code>RESERVE</code>forgot.</p>
+<ul>
+<li><code>SILVERPOOL</code>: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.</li>
+<li><code>MATERIALPOOL</code>: If the <a href="../items-pool/">Material Pool</a> is switched on, all required items in a unit are collected as needed, similar to Silver with the <a href="../items-pool/#the-silver-pool">Silver Pool</a>.
+  Units can use the <a href="../cmd-reserve/">RESERVE</a> order to secure items, preventing other units from taking them and consuming them.
+  This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have forgot one <code>RESERVE</code>.</li>
+</ul>
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
 
@@ -7472,6 +7483,14 @@
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

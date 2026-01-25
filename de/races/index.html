@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1593,8 +1597,6 @@
       
         
       
-        
-      
     
     
     
@@ -1682,35 +1684,7 @@
   <span class="md-ellipsis">
     
   
-    Rohstoffe
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rohstoffe
+    Natürliche Ressourcen
   
 
     
@@ -1850,7 +1824,7 @@
   <span class="md-ellipsis">
     
   
-    Burg
+    Burgen
   
 
     
@@ -2447,7 +2421,7 @@
   <span class="md-ellipsis">
     
   
-    Tränke
+    Alchemie
   
 
     
@@ -2504,8 +2478,6 @@
   
     
     
-      
-        
       
         
       
@@ -2729,34 +2701,6 @@
     
   
     Befehlsreihenfolge
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Diskussion:Kurzbeschreibung
   
 
     
@@ -6425,6 +6369,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6561,7 +6511,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
         
   
   
@@ -6625,6 +6603,62 @@
     
   
     Gürtel der Trollstärke
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblut
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drachenkopf
   
 
     
@@ -7158,8 +7192,6 @@
       
         
       
-        
-      
     
     
     
@@ -7276,34 +7308,6 @@
     
   
     Spielerseiten
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Eressea:Mitmachen
   
 
     
@@ -7688,68 +7692,62 @@ Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.</p>
 <ul>
 <li>Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte <em>Migranten</em>. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen <a href="../cmd-give/">geben lassen</a>. Es gibt keine Migranten mit <a href="../skills/">teuren Talenten</a>, also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.</li>
 </ul>
-<p>Die Anzahl der <em>Migranten</em> errechnet sich als 20 × log<sub>10</sub> (Parteigröße ÷ 50).
-Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen.
+<p>Die Anzahl der Migranten errechnet sich als:</p>
+<dl>
+<dt><!-- cspell:disable --></dt>
+<dd>
+<div class="arithmatex">\[
+\text{Die Anzahl der Migranten} = 20 \times \log_{10}\!\left(\frac{\text{Parteigröße}}{50}\right)
+\]</div>
+</dd>
+</dl>
+<!-- cspell:enable -->
+
+<p>Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen.
 Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der <a href="../cmd-promote/">Helden</a>.
 Die folgende Tabelle enthält einige Beispiele:</p>
-<p>Migranten</p>
+<p><em>Anzahl der Migranten nach Parteigröße.</em></p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Parteigröße</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">60</th>
+<th style="text-align: center;">80</th>
+<th style="text-align: center;">160</th>
+<th style="text-align: center;">500</th>
+<th style="text-align: center;">1 000</th>
+<th style="text-align: center;">5 000</th>
+<th style="text-align: center;">50 000</th>
+<th style="text-align: center;">500 000</th>
+<th style="text-align: center;">5 000 000</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Personen in der Partei</td>
-<td>1</td>
-<td>56</td>
-<td>57</td>
-<td>63</td>
-<td>71</td>
-<td>80</td>
-<td>89</td>
-<td>159</td>
-<td>500</td>
-<td>1000</td>
-<td>5000</td>
-<td>50000</td>
-<td>500000</td>
-<td>5000000</td>
-</tr>
-<tr>
 <td>Migranten</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>10</td>
-<td>20</td>
-<td>26</td>
-<td>40</td>
-<td>60</td>
-<td>80</td>
-<td>100</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">100</td>
 </tr>
 </tbody>
 </table>
+<details class="tip">
+<summary>Berechnung der Anzahl der Migranten</summary>
+<p><div class="md-typeset" style="margin-top: 1em;">
+    <label for="races-compute-migrants-input" class="md-input-label">Parteigröße:</label>
+    <input id="races-compute-migrants-input" type="number" class="md-input" placeholder="nombre de personnnes">
+    <button id="races-compute-migrants-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Berechnen</button>
+    <p style="margin-top: 1em;">Anzahl der Migranten: <strong id="races-compute-migrants-result">---</strong></p>
+</div></p>
+</details>
 <h2 id="orks">Orks<a class="headerlink" href="#orks" title="Permanent link">&para;</a></h2>
 <p>Orks sind ein recht kämpferisches Volk; schon in der Kindergrube wissen sie mit einer Waffe umzugehen. Kontakte zu anderen Völkern haben sie am liebsten mit dreifacher Übermacht.</p>
 <ul>
@@ -7850,6 +7848,14 @@ Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist n
     
     
       <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../../javascripts/formulas-try.js"></script>
       
     
   </body>

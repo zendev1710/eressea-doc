@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1549,8 +1553,6 @@
       
         
       
-        
-      
     
     
     
@@ -1611,34 +1613,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2595,8 +2569,6 @@
       
         
       
-        
-      
     
     
     
@@ -2685,34 +2657,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -3048,7 +2992,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4885,7 +4829,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6381,6 +6325,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6517,14 +6467,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6581,6 +6559,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7114,8 +7148,6 @@
       
         
       
-        
-      
     
     
     
@@ -7232,34 +7264,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7516,50 +7520,50 @@
 
 
 <h1 id="camouflage">Camouflage<a class="headerlink" href="#camouflage" title="Permanent link">&para;</a></h1>
-<p>The <strong>Stealth</strong> <a href="../skills/">skill</a> allows you to camouflage yourself from other units.
-However, if a unit <a href="../cmd-guard/">is guarding</a> the region, or is on a ship or in a building, it is always visible.</p>
+<p>The <strong>Stealth</strong> <a href="../skills/">skill</a> allows you to camouflage yourself from other units.<br />
+However, if a unit <a href="../cmd-guard/">is guarding</a> the region, or is on a ship or in a building, it is always visible.  </p>
 <h2 id="countermeasures">Countermeasures<a class="headerlink" href="#countermeasures" title="Permanent link">&para;</a></h2>
-<p>Camouflaged units can be detected using the <strong>Perception</strong> skill.
-If your faction's highest Perception skill in the region is lower than the Camouflage skill of an opposing unit, the camouflaged unit will not appear in the report — it will be invisible.
-If the Perception and Camouflage skills are equal, the camouflaged unit will appear in the report.
-This is the starting situation when you begin the game, as all new units have Stealth and Perception at level 0.</p>
+<p>Camouflaged units can be detected using the <strong>Perception</strong> skill.<br />
+If your faction's highest Perception skill in the region is lower than the Camouflage skill of an opposing unit, the camouflaged unit will not appear in the report — it will be invisible.<br />
+If the Perception and Camouflage skills are equal, the camouflaged unit will appear in the report.<br />
+This is the starting situation when you begin the game, as all new units have Stealth and Perception at level 0.  </p>
 <h2 id="counter-the-guard">Counter the guard<a class="headerlink" href="#counter-the-guard" title="Permanent link">&para;</a></h2>
-<p>For successfully disguised units, the restrictions of <a href="../cmd-guard/">GUARD</a> do not apply.
-They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.</p>
+<p>For successfully disguised units, the restrictions of <a href="../cmd-guard/">GUARD</a> do not apply.<br />
+They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.  </p>
 <h2 id="increase-chance-of-escape">Increase chance of escape<a class="headerlink" href="#increase-chance-of-escape" title="Permanent link">&para;</a></h2>
-<p>The standard escape chance of a unit in <a href="../war/#fleeing">combat</a> is 25% (halflings 50%).
-Each level of camouflage increases the unit's escape chance by 5%.
-A horse increases a person's escape chance by 10% once (so 5 horses do NOT give a person +50%, but only +10%), regardless of whether the unit can ride.
-The maximum escape chance is 75% (halflings 90%).</p>
+<p>The standard escape chance of a unit in <a href="../war/#fleeing">combat</a> is 25% (halflings 50%).<br />
+Each level of camouflage increases the unit's escape chance by 5%.<br />
+A horse increases a person's escape chance by 10% once (so 5 horses do NOT give a person +50%, but only +10%), regardless of whether the unit can ride.<br />
+The maximum escape chance is 75% (halflings 90%).  </p>
 <h2 id="theft-of-silver">Theft of Silver<a class="headerlink" href="#theft-of-silver" title="Permanent link">&para;</a></h2>
-<p>Successful stealers can steal silver from other units using the <a href="../cmd-steal/">STEAL</a> command.
-The highest Perception skill of the targeted party in the region determines the amount stolen.
-For each skill level difference, each thief steals 50 silver.
-The silver is <strong>always</strong> stolen from the entire silver pool of the targeted party in the region.
-The targeted party receives a notification that they have been robbed, but not by whom.
-If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt.
-If the stealth is too poor, the targeted party receives a notification with the names of the thieves.</p>
-<p>Goblins, provided they have learned at least level 4 of stealth, always steal at least 50 silver, even if their stealth skill is lower than their Perception skill.
-Such theft is, of course, noticeable and therefore only makes sense under certain circumstances.
-It is said that goblin armies have even dealt the enemy a decisive blow by depriving them of food.</p>
-<p>If you expect to be successfully robbed, the only solution is to bring silver into the affected region, as even income from entertainment, tax collection, work and trade can be stolen by the thieves.</p>
-<p>Theft occasionally presents an effective way to bring down spies who are themselves well disguised, as their high level of camouflage gives them a high chance of escape during attacks.</p>
+<p>Successful stealers can steal silver from other units using the <a href="../cmd-steal/">STEAL</a> command.<br />
+The highest Perception skill of the targeted party in the region determines the amount stolen.<br />
+For each skill level difference, each thief steals 50 silver.<br />
+The silver is <strong>always</strong> stolen from the entire silver pool of the targeted party in the region.<br />
+The targeted party receives a notification that they have been robbed, but not by whom.<br />
+If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt.<br />
+If the stealth is too poor, the targeted party receives a notification with the names of the thieves.  </p>
+<p>Goblins, provided they have learned at least level 4 of stealth, always steal at least 50 silver, even if their stealth skill is lower than their Perception skill.<br />
+Such theft is, of course, noticeable and therefore only makes sense under certain circumstances.<br />
+It is said that goblin armies have even dealt the enemy a decisive blow by depriving them of food.  </p>
+<p>If you expect to be successfully robbed, the only solution is to bring silver into the affected region, as even income from entertainment, tax collection, work and trade can be stolen by the thieves.  </p>
+<p>Theft occasionally presents an effective way to bring down spies who are themselves well disguised, as their high level of camouflage gives them a high chance of escape during attacks.  </p>
 <h2 id="espionage">Espionage<a class="headerlink" href="#espionage" title="Permanent link">&para;</a></h2>
-<p>If a unit with the <a href="../skills-list/#espionage">Espionage</a> skill issues the <a href="../cmd-spy/"><code>SPY</code><em><code>unit id</code></em></a> order, its espionage skill is compared to the target unit's camouflage value.
-The base chance for a successful espionage attempt is 10%.
-For each skill level by which the espionage skill exceeds the target's camouflage skill, the latter increases by 5%.
-A high camouflage skill thus helps the unit to make a successful espionage attempt more difficult.
-To achieve a 50% success rate, the spy must be 8 levels higher.
-If the spy learns at least camouflage level 2, it takes disproportionately longer to reach those 8 levels.</p>
-<p>If the espionage attempt is successful, the spy learns the unit's combat status, the items it possesses, and its skills.
-Faction affiliation can also be determined if the spy's espionage skill is at least six levels higher than the unit's stealth skill.
-Therefore, a high stealth skill is advantageous for successful faction concealment.</p>
-<p>Then, regardless of success, a die is rolled to determine whether the espionage attempt was detected.
-The probability of this is (100 − Espionage * Spy 5 + Perception Victim 2)%.</p>
+<p>If a unit with the <a href="../skills-list/#espionage">Espionage</a> skill issues the <a href="../cmd-spy/"><code>SPY</code><em><code>unit id</code></em></a> order, its espionage skill is compared to the target unit's camouflage value.<br />
+The base chance for a successful espionage attempt is 10%.<br />
+For each skill level by which the espionage skill exceeds the target's camouflage skill, the latter increases by 5%.<br />
+A high camouflage skill thus helps the unit to make a successful espionage attempt more difficult.<br />
+To achieve a 50% success rate, the spy must be 8 levels higher.  </p>
+<p>If the spy learns at least camouflage level 2, it takes disproportionately longer to reach those 8 levels.  </p>
+<p>If the espionage attempt is successful, the spy learns the unit's combat status, the items it possesses, and its skills.<br />
+Faction affiliation can also be determined if the spy's espionage skill is at least six levels higher than the unit's stealth skill.<br />
+Therefore, a high stealth skill is advantageous for successful faction concealment.  </p>
+<p>Then, regardless of success, a die is rolled to determine whether the espionage attempt was detected.<br />
+The probability of this is (100 − Espionage * Spy 5 + Perception Victim 2)%.  </p>
 <h2 id="remarks">Remarks<a class="headerlink" href="#remarks" title="Permanent link">&para;</a></h2>
-<p>Many factions store their goods with a highly camouflaged unit per region (<a href="../cmd-combat/">combat status</a>: <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>).
-The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.</p>
-<p>In addition to these passive applications of camouflage, one can of course use well-trained camouflaged individuals to gather information or take advantage of the possibility of theft.</p>
+<p>Many factions store their goods with a highly camouflaged unit per region (<a href="../cmd-combat/">combat status</a>: <code>COMBAT NOT</code> or <code>COMBAT FLEE</code>).<br />
+The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.  </p>
+<p>In addition to these passive applications of camouflage, one can of course use well-trained camouflaged individuals to gather information or take advantage of the possibility of theft.  </p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-guard/">GUARD</a></li>
@@ -7635,6 +7639,14 @@ The goods are thus protected from a multitude of dangers, as long as no enemy ob
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

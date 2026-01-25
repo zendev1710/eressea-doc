@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1527,8 +1531,6 @@
       
         
       
-        
-      
     
     
     
@@ -1589,34 +1591,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2573,8 +2547,6 @@
       
         
       
-        
-      
     
     
     
@@ -2663,34 +2635,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -3026,7 +2970,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4863,7 +4807,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6359,6 +6303,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6495,14 +6445,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6559,6 +6537,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7092,8 +7126,6 @@
       
         
       
-        
-      
     
     
     
@@ -7210,34 +7242,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7474,15 +7478,16 @@
 <h1 id="sending-orders-from-magellan">Sending orders from Magellan<a class="headerlink" href="#sending-orders-from-magellan" title="Permanent link">&para;</a></h1>
 <!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
 <p><img alt="Sending commands with Magellan using Gmail as an example" src="../assets/images/orders-sending-gmail.png" title="Sending commands with Magellan using Gmail as an example" /></p>
-<p><a href="../magellan/">Magellan</a> offers the possibility of <a href="../commands-send/">emailing</a> the orders directly from the program.
-The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer and they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.
-To have a copy of the email sent, you can send a copy of the orders to your own address.
-To do this, you have to make the appropriate settings in Magellan, including the correct data from the mail provider's SMTP server.
-The data is usually obtained from the provider's help, for some the data is given below.
-In addition, the provider may have to explicitly grant permission for external programs.</p>
+<p><a href="../magellan/">Magellan</a> offers the possibility of <a href="../commands-send/">emailing</a> the orders directly from the program.<br />
+The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer.
+More, they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.<br />
+To have a copy of the email sent, you can send a copy of the orders to your own address.<br />
+To do this, you have to make the appropriate settings in Magellan, including the correct data from the mail provider's SMTP server.<br />
+The data is usually obtained from the provider's help, for some the data is given below.<br />
+In addition, the provider may have to explicitly grant permission for external programs.  </p>
 <h2 id="in-magellan">In Magellan<a class="headerlink" href="#in-magellan" title="Permanent link">&para;</a></h2>
-<p>The setting can be found at <code>File =&gt; Save Orders...</code> in the second tab <code>E-Mail</code>.
-Once the settings have been made, you can also do so directly via <code>File =&gt; Send orders by E-Mail</code> send.</p>
+<p>The setting can be found at <code>File =&gt; Save Orders...</code>, in the second tab <code>E-Mail</code>.<br />
+Once the settings have been made, you can also directly send your e-mail via <code>File =&gt; Send orders by E-Mail</code>.  </p>
 <p><strong>Return address:</strong> Your email<br />
 <strong>SMTP server:</strong> From the mail provider (see below)<br />
 <strong>Port:</strong> From the mail provider<br />
@@ -7493,15 +7498,14 @@ Once the settings have been made, you can also do so directly via <code>File =&g
 <strong>CC:</strong> Optional, for example your own address  </p>
 <p><strong>Copy to sender:</strong> Also sends the orders to the sender address<br />
 <strong>Use SSL/TLS:</strong> email encryption; Should be selected if possible if supported by the mail provider (if in doubt, just try it out)  </p>
-<p>Use authentication<br />
-usually necessary  </p>
+<p><strong>Use authentication:</strong> usually necessary  </p>
 <p><strong>always ask:</strong> Requests the mail provider password every time you send it, so it doesn't have to be saved in Magellan<br />
 <strong>Use values from CR:</strong> Automatically fills the recipient address and subject if the data is in the CR  </p>
 <p>For some well-known mail providers, here are the required values, as far as is currently known.</p>
 <h2 id="gmx">GMX<a class="headerlink" href="#gmx" title="Permanent link">&para;</a></h2>
-<p>GMX's help for the SMTP server can be found at <a href="https://support.gmx.com/pop-imap/index.html">GMX Support - SMTP</a>, and to the SMTP settings under <a href="https://support.gmx.com/pop-imap/pop3/serverdata.html">GMX Support - SMTP server</a>.
-In addition, it is necessary to grant external authorization to send.
-This will be explained (including video) at <a href="https://support.gmx.com/pop-imap/toggle.html">this other GMX Support link</a>.</p>
+<p>GMX's help for the SMTP server can be found at <a href="https://support.gmx.com/pop-imap/index.html">GMX Support - SMTP</a>, and to the SMTP settings under <a href="https://support.gmx.com/pop-imap/pop3/serverdata.html">GMX Support - SMTP server</a>.<br />
+In addition, it is necessary to grant external authorization to send.<br />
+This will be explained (including video) at <a href="https://support.gmx.com/pop-imap/toggle.html">this other GMX Support link</a>.  </p>
 <p><strong>Return address:</strong> Your email at GMX<br />
 <strong>SMTP server:</strong> mail.gmx.net<br />
 <strong>Port:</strong> 587 (with TLS) or 465 (with SSL)<br />
@@ -7522,9 +7526,10 @@ This will be explained (including video) at <a href="https://support.gmx.com/pop
 <strong>Use TLS:</strong> Regardless, both work<br />
 <strong>Use authentication:</strong> Yes  </p>
 <div class="admonition warning">
-<p class="admonition-title">Achtung</p>
+<p class="admonition-title">Caution</p>
 <p>From May 30, 2022 at the latest, this will no longer work simply with the Gmail password (<a href="https://support.google.com/accounts/answer/6010255">unsecured applications and Gmail</a>).
-Instead, you have to set up a so-called use app password. The Gmail documentation reveals more details: <a href="https://support.google.com/accounts/answer/185833">application password and Gmail</a>.
+Instead, you have to set up a so-called use app password.
+The Gmail documentation reveals more details: <a href="https://support.google.com/accounts/answer/185833">application password and Gmail</a>.
 Instead of the Gmail password, you simply enter the app password in Magellan.</p>
 </div>
 <h2 id="freenet">Freenet<a class="headerlink" href="#freenet" title="Permanent link">&para;</a></h2>
@@ -7616,6 +7621,14 @@ Instead of the Gmail password, you simply enter the app password in Magellan.</p
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

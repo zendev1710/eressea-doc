@@ -61,7 +61,11 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
       <link rel="stylesheet" href="../assets/css/fantasy.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1420,8 +1424,6 @@
       
         
       
-        
-      
     
     
     
@@ -1482,34 +1484,6 @@
     
   
     Production
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Resources
   
 
     
@@ -2700,8 +2674,6 @@
       
         
       
-        
-      
     
     
     
@@ -2790,34 +2762,6 @@
     
   
     Orders sequence
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commands-short-descriptions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Discussion: Short description
   
 
     
@@ -3153,7 +3097,7 @@
   <span class="md-ellipsis">
     
   
-    Comment (//)
+    // Comment
   
 
     
@@ -4990,7 +4934,7 @@
   <span class="md-ellipsis">
     
   
-    Optimierung Lernketten
+    Optimization of learning chains
   
 
     
@@ -6486,6 +6430,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -6622,14 +6572,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../amulet-of-true-vision/" class="md-nav__link">
+      <a href="../mallorn/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Amulet of True Vision
+    Mallorn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../amulet-of-true-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amulet of True Sight
   
 
     
@@ -6686,6 +6664,62 @@
     
   
     Belt of Troll Strength
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonblood/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonblood
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dragonhead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dragonhead
   
 
     
@@ -7219,8 +7253,6 @@
       
         
       
-        
-      
     
     
     
@@ -7337,34 +7369,6 @@
     
   
     Players
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../eressea-join/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Join Eressea
   
 
     
@@ -7728,14 +7732,21 @@
 <h1 id="magic">Magic<a class="headerlink" href="#magic" title="Permanent link">&para;</a></h1>
 <p>Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in <a href="../war/">War</a>.</p>
 <h2 id="the-study-of-magic">The Study of Magic<a class="headerlink" href="#the-study-of-magic" title="Permanent link">&para;</a></h2>
-<p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a href="../magic-school-illaun/">Illaun</a>, <a href="../magic-school-tybied/">Tybied</a>, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> or <a href="../magic-school-draig/">Draig</a>.</p>
+<p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a href="../magic-school-illaun/">Illaun</a>, <a href="../magic-school-tybied/">Tybied</a>, <a href="../magic-school-gwyrrd/">Gwyrrd</a>, <a href="../magic-school-cerddor/">Cerddor</a> or <a href="../magic-school-draig/">Draig</a>.  </p>
 <p>The faction's magic area is determined by the very first unit that learns magic in the faction.
-This is done using the <a href="../cmd-learn/"><code>LEARN MAGIC "magic area"</code></a>.
-As a result, the order is now just called <code>LEARN MAGIC "magic area"</code> and all magicians of a <a href="../factions/">faction</a> then automatically learn the magic area chosen by the faction.
-However, it is possible to order multiple units to <code>LEARN MAGIC "magic area"</code> if you are unsure which unit will come first. Once a magic area has been chosen, it cannot be changed.
+This is done using the <a href="../cmd-learn/"><code>LEARN MAGIC "&lt;magic school&gt;"</code></a>.<br />
+As a result, the order is now just called <code>LEARN MAGIC "&lt;magic school&gt;"</code> and all magicians of a <a href="../factions/">faction</a> then automatically learn the magic school chosen by the faction.<br />
+However, it is possible to order multiple units to <code>LEARN MAGIC "&lt;magic school&gt;"</code> if you are unsure which unit will come first.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Once a magic school has been chosen, <strong>it cannot be changed</strong>.
 Therefore, this decision needs to be carefully considered!</p>
-<p>There can be a maximum of five magician units per faction; only elven factions are allowed to have six magicians. Mage units may only consist of one person. You cannot hand over people, even to empty TEMP units.</p>
-<p>The skill to learn magic costs (50 + 25*(1 + level)*Level) Silver per person per round.</p>
+</div>
+<p>There can be a <strong>maximum of five magician units per faction</strong>;
+only <strong>elven factions</strong> are allowed to have <strong>6 magicians</strong>.<br />
+Mage units may only consist of one person.
+You cannot hand over people, even to empty <code>TEMP</code> units.  </p>
+<p>The skill to learn magic costs <code>50 + 25 * (1 + Level) * Level</code> Silver per person per round.</p>
 <p>Learning costs.</p>
 <table>
 <thead>
@@ -7791,18 +7802,29 @@ Therefore, this decision needs to be carefully considered!</p>
 </tr>
 </tbody>
 </table>
-<p>So an untrained magician pays 100 silver for his first lessons; If he already has level 5 in magic skill, he has to pay 1100 silver per week of learning.</p>
-<p>!!! warning 'Caution"
-    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
-    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2, but a goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).</p>
-<p>!!! warning 'Caution, dwarves"
-    You have -2 to magic skill.
-    A unit that appears as Magic 0 may actually be at T1 or T2.
-    In the latter case, however, the learning costs increase to 350 silver! There is no way to know which of the two is true.
-    So it's better to plan a little more generously.</p>
-<p>Learning in an <a href="../buildings-others/#academy">Academy</a> costs twice as much. Only magicians from the same area of ​​magic as the teacher can be taught. So a Draig Mage cannot teach an Illaun Mage.</p>
-<p>If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week. Magic can also, through [Special:MyLanguage/Talente|Application (CAST)].
-It doesn't matter whether the unit casts one or more spells per round. Of course, learning through application does not cost silver.</p>
+<p>So an untrained magician pays 100 Silver for his first lessons;
+If he already has level 5 in magic skill, he has to pay 1100 Silver per week of learning.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Caution</p>
+<p>The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
+So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2.
+A goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Caution, dwarves</p>
+<p>You have -2 to magic skill.
+A unit that appears as Magic 0 may actually be at T1 or T2.
+In the latter case, however, the learning costs increase to 350 silver!
+There is no way to know which of the two is true. So it's better to plan a little more generously.</p>
+</div>
+<p>Learning in an <a href="../buildings-others/#academy">Academy</a> costs twice as much.
+Only magicians from the same area of ​​magic as the teacher can be taught.
+So a Draig Mage cannot teach an Illaun Mage.  </p>
+<p>If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week.</p>
+<!-- TODO: clarify this not understable sentences -->
+<p>Magic can also, through [Special:MyLanguage/Talente|Application (CAST)].
+It doesn't matter whether the unit casts one or more spells per round.
+Of course, learning through application does not cost silver.  </p>
 <h2 id="sayings">Sayings<a class="headerlink" href="#sayings" title="Permanent link">&para;</a></h2>
 <p>With each level the unit gains in magic, it can gain new spells.
 There is currently one spell in each level, in exceptional cases several or none at all.
@@ -7850,11 +7872,14 @@ Syntax:
 </code></pre></div>
 <h3 id="spell-types">Spell types<a class="headerlink" href="#spell-types" title="Permanent link">&para;</a></h3>
 <p>There are normal spells, pre-combat spells, combat spells and post-combat spells.</p>
-<p>Normal spells are cast using the <a href="../cmd-cast/">CAST</a> command. Their effect occurs either immediately (see <a href="../commands-sequence/">Orders sequence</a>) or sometimes at a later point in time, for example at the beginning of the following round.</p>
-<p>The three types of combat spells can never be cast using CAST. Instead, they are cast when the unit is actively engaged in combat.
-All three types can be set with the <a href="../cmd-combatspell/"><code>COMBATSPELL LEVEL n "Spell"</code></a> order.
+<p>Normal spells are cast using the <a href="../cmd-cast/">CAST</a> order.
+Their effect occurs either immediately (see <a href="../commands-sequence/">Orders sequence</a>) or sometimes at a later point in time, for example at the beginning of the following round.  </p>
+<p>The three types of combat spells can never be cast using <code>CAST</code>.
+Instead, they are cast when the unit is actively engaged in combat.<br />
+All three types can be set with the <a href="../cmd-combatspell/"><code>COMBATSPELL LEVEL n "Spell"</code></a> order.<br />
 You can delete a specific combat spell with the <code>COMBATSPELL "Spell" NOT</code> order or all set combat spells with <a href="../cmd-combatspell/"><code>COMBATSPELL NOT</code></a>
-Combat spells work somewhat like the [<code>COMBAT</code> orders], i.e. h. once set, they remain saved. A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
+Combat spells work somewhat like the [<code>COMBAT</code>] orders, i.e. once set, they remain saved.
+A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
 For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.</p>
 <div class="highlight"><pre><span></span><code>                        Song of Fear
 
@@ -7872,71 +7897,74 @@ Modifiers:
 Syntax:
     COMBATSPELL [LEVEL n] &#39;Song of Fear&#39;
 </code></pre></div>
-<p>If a mage unit has cast combat spells, it automatically casts spells as soon as it takes part in combat.
-Either by ordering ATTACK herself or by being drawn into battle by an attack on her side (see <a href="../war/#the-sides-in-a-battle">The Sides in a Battle</a>).
-This can also happen if she is set to COMBAT NOT or FLEE if she is explicitly attacked with the <a href="../cmd-attack/">ATTACK</a> command!</p>
+<!-- TODO check if below is what german text meant -->
+<p>If a mage has cast combat spells, it automatically casts spells as soon as it takes part in combat, either by ordering <code>ATTACK</code> himself or by being drawn into battle by an attack on his side (see <a href="../war/#the-sides-in-a-battle">The Sides in a Battle</a>).<br />
+This can also happen even if he is set to <code>COMBAT NOT</code> or <code>FLEE</code>, when he is explicitly attacked with the <a href="../cmd-attack/">ATTACK</a> order!</p>
 <p>A pre-combat or post-combat spell is cast once before or after the combat begins.
 A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under <a href="#aura">Aura</a>) and that it is still alive.</p>
 <h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
-<p>Aura is the magical power that magicians use to perform their magic.
-Aura is consumed by casting spells and regenerates over time.
-A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical skill.
-The exact information for each unit is in the report, As a rule of thumb.
-However, the maximum is skill<sup>2</sup> Aura lies and on average around (skill level) aura is regenerated per week.
-But that can vary between almost nothing and talent level.
-Magical races regenerate aura faster, non-magical races significantly slower.</p>
-<p>The maximum aura is not immutable: On the one hand, there is a spell that allows one unit to transfer aura to another.
-This allows the target unit to temporarily receive more aura than it can normally absorb.
-This allows her to cast spells that cost more than her maximum aura. However, excess aura is lost again at the end of a round.</p>
-<p>There are also spells (and possibly other things) that cost mages permanent aura, such as "Create a Ring of Invisibility".
-This means that the unit can now store less maximum aura.
-These are usually very powerful spells or artifact magic that cause permanent effects.</p>
-<p><a href="../cmd-cast/">CAST</a> is a pseudo-long command comparable to <a href="../cmd-attack/">ATTACK</a>.
-A unit can therefore cast spells several times per round, but cannot carry out any other long command.
-But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.
-The second costs twice as much, the third four times as much, the fourth as eight times, etc.</p>
-<p>Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.
-<a href="#ranged-spells">Ranged Spells</a> also increase the casting cost.</p>
+<p>Aura is the magical power that magicians use to perform their magic.<br />
+Aura is consumed by casting spells and regenerates over time.<br />
+A mage unit can absorb a certain maximum amount of aura.<br />
+How much is determined -just like aura regeneration -by the unit's magical skill.<br />
+The exact information for each unit is in the report, As a rule of thumb.<br />
+However, the maximum is skill<sup>2</sup> Aura lies and on average around (skill level) aura is regenerated per week.<br />
+But that can vary between almost nothing and talent level.<br />
+Magical races regenerate aura faster, non-magical races significantly slower.  </p>
+<p>The maximum aura is not immutable: on the one hand, there is a spell that allows one unit to transfer aura to another.<br />
+This allows the target unit to temporarily receive more aura than it can normally absorb.<br />
+This allows her to cast spells that cost more than her maximum aura. However, excess aura is lost again at the end of a round.  </p>
+<p>There are also spells (and possibly other things) that cost mages permanent aura, such as "Create a Ring of Invisibility".<br />
+This means that the unit can now store less maximum aura.<br />
+These are usually very powerful spells or artifact magic that cause permanent effects.  </p>
+<p><a href="../cmd-cast/">CAST</a> is a pseudo-long command comparable to <a href="../cmd-attack/">ATTACK</a>.<br />
+A unit can therefore cast spells several times per round, but cannot carry out any other long command.<br />
+But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.<br />
+The second costs twice as much, the third four times as much, the fourth as eight times, etc.  </p>
+<p>Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.<br />
+<a href="#ranged-spells">Ranged Spells</a> also increase the casting cost.  </p>
 <h3 id="caster-level">Caster level<a class="headerlink" href="#caster-level" title="Permanent link">&para;</a></h3>
-<p>The value specified as "level" is initially the minimum talent at which the unit gets the spell.</p>
-<p>Some spells have fixed effects and costs.
-They are always cast at the spell's level and cannot be changed by parameters.
-It can still be important for things like <a href="#magic-resistance">Magic Resistance</a>.*Ring of invisibility*is always cast at level 6 and produces exactly one ring.</p>
-<p>Many spells have level-dependent effects and costs.
-Its effect is derived from the level at which the spell was cast.
-The details depend on the spell in question. Sometimes it concerns the duration of the effect, sometimes the number of people enchanted, and so on.</p>
-<p>With these variable spells you can specify a level at which the spell should be cast.
-This must be equal to or lower than the unit's magic talent, but it can be higher or lower than the spell's normal level.
-This allows you to cast the spell at a lower level than your own talent.</p>
-<p>Using a <a href="../ring-of-power/">Ring of Power</a>, <a href="../buildings-others/#mage-tower">Mage Tower</a> or <a href="../buildings-others/#stonecircle">Blessed Stone Circle</a>, the strength can be increased by an additional point.
+<p>The value specified as "level" is initially the minimum skill at which the unit gets the spell.  </p>
+<p>Some spells have fixed effects and costs.<br />
+They are always cast at the spell's level and cannot be changed by parameters.<br />
+It can still be important for things like <a href="#magic-resistance">Magic Resistance</a>.<br />
+<strong>Create A Ring of Invisibility</strong> is always cast at level 6 and produces exactly one ring.  </p>
+<p>Many spells have level-dependent effects and costs.<br />
+Its effect is derived from the level at which the spell was cast.<br />
+The details depend on the spell in question.
+Sometimes it concerns the duration of the effect, sometimes the number of people enchanted, and so on.  </p>
+<p>With these variable spells you can specify a level at which the spell should be cast.<br />
+This must be equal to or lower than the unit's magic skill, but it can be higher or lower than the spell's normal level.<br />
+This allows you to cast the spell at a lower level than your own skill.</p>
+<p>Using a <a href="../ring-of-power/">Ring of Power</a>, <a href="../buildings-others/#mage-tower">Mage Tower</a> or <a href="../buildings-others/#stonecircle">Blessed Stone Circle</a>, the strength can be increased by an additional point.<br />
 This bonus is added to the specified level.</p>
-<p>If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's talent value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).
-One reason this isn't always desirable is that the level also affects the <a href="#blunder">probability of blunders</a>.</p>
+<p>If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's skill value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).<br />
+One reason this isn't always desirable is that the level also affects the <a href="#blunder">probability of blunders</a>.  </p>
 <p>This modification also works on combat spells:</p>
-<div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 &quot;Gesang der Furcht&quot;
+<div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 &quot;Song of Fear&quot;
 </code></pre></div>
 <p>This is useful, for example, if you want to save some aura so that you have some aura left for a post-combat spell.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre><span></span><code>CAST LEVEL 4 &quot;Miracle doctor&quot;
 </code></pre></div>
-<p>This spell will cost 4 aura and earn 200 silver.
-With a Ring of Power it still costs 4 aura but earns 250 silver.</p>
+<p>This spell will cost 4 aura and earn 200 silver.<br />
+With a Ring of Power it still costs 4 aura but earns 250 silver.  </p>
 <h3 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h3>
-<p>If it simply says the number of aura, it means that the costs are fixed:<em>Ring of invisibility*always costs 50 aura.
-Is there any information there such as: <code>3 Aura * Level</code>, then this means that for casting a spell once, the aura cost is 3 aura multiplied by the level at which the spell is cast.
-**Miracle Doctor*</em> costs 1 aura when cast at level 1 and 30 aura when cast at level 30.
-If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.
-Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.</p>
+<p>If it simply says the number of aura, it means that the costs are fixed:<em>Ring of invisibility*always costs 50 aura.<br />
+Is there any information there such as: <code>3 Aura * Level</code>, then this means that for casting a spell once, the aura cost is 3 aura multiplied by the level at which the spell is cast.<br />
+**Miracle Doctor*</em> costs 1 aura when cast at level 1 and 30 aura when cast at level 30.<br />
+If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.<br />
+Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.  </p>
 <h3 id="ranged-spells">Ranged spells<a class="headerlink" href="#ranged-spells" title="Permanent link">&para;</a></h3>
-<p>Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:</p>
-<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; &quot;Zauber&quot;
+<p>Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:  </p>
+<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; &quot;&lt;Spell&gt;&gt;&quot;
 </code></pre></div>
-<p>The spell is then cast in the specified region.
-The X and Y coordinates refer to the <a href="../cmd-origin/">ORIGIN</a>.
-However, this modification increases the cost of all components of the spell exponentially.
-The cost of material components and aura are doubled per region of distance between the unit's location and the target.
-Formula: 2<sup>a</sup>, where a is the distance of the target region to the region of the unit.</p>
-<p>The following tables for illustration:</p>
+<p>The spell is then cast in the specified region.<br />
+The X and Y coordinates refer to the <a href="../cmd-origin/">ORIGIN</a>.<br />
+However, this modification increases the cost of all components of the spell exponentially.<br />
+The cost of material components and aura are doubled per region of distance between the unit's location and the target.<br />
+Formula: 2<sup>a</sup>, where a is the distance of the target region to the region of the unit.  </p>
+<p>For illustration:</p>
 <table>
 <thead>
 <tr>
@@ -7975,9 +8003,9 @@ Formula: 2<sup>a</sup>, where a is the distance of the target region to the regi
 </tr>
 </tbody>
 </table>
-<p>Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see <a href="#aura">above</a>).
-This does not apply to other components; they are only increased by long-distance spells.</p>
-<p>Distance spells and multiple spells can also increase the aura costs in combination:</p>
+<p>Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see <a href="#aura">above</a>).<br />
+This does not apply to other components; they are only increased by long-distance spells.  </p>
+<p>Distance spells and multiple spells can also increase the aura costs in combination:  </p>
 <table>
 <thead>
 <tr>
@@ -8017,26 +8045,27 @@ This does not apply to other components; they are only increased by long-distanc
 </tbody>
 </table>
 <p>The two modifiers can also be linked:</p>
-<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;nr&gt; &quot;Zauber&quot;
+<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;number&gt; &quot;&lt;spell&gt;&quot;
 </code></pre></div>
 <p>It is important that you first specify the region and then the level.</p>
 <p><strong>Example:</strong></p>
-<p>A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).
-That costs 2*3 = 6 aura. The order for this spell is <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.</p>
+<p>A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).<br />
+That costs 2*3 = 6 aura. The order for this spell is <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.  </p>
 <h3 id="ship-and-sea-magic">Ship and sea magic<a class="headerlink" href="#ship-and-sea-magic" title="Permanent link">&para;</a></h3>
-<p>In addition to long-distance spells, there are also two other classes of special spells.
-In general, spells can <strong>not from departing ships</strong> be conjured up.
-The only exceptions are those <strong>Ship magic</strong> designated sayings. Sayings that as <strong>Sea magic</strong> marked can also be cast by non-Aquarians on the ocean.</p>
+<p>In addition to long-distance spells, there are also two other classes of special spells.  </p>
+<p>In general, spells can <strong>not from departing ships</strong> be conjured up.<br />
+The only exceptions are those <strong>Ship magic</strong> designated sayings.  </p>
+<p>Sayings that as <strong>Sea magic</strong> marked can also be cast by non-Aquarians on the ocean.  </p>
 <h3 id="magic-with-people-and-objects">Magic with people and objects<a class="headerlink" href="#magic-with-people-and-objects" title="Permanent link">&para;</a></h3>
-<p>Some spells can be used to magically influence people and objects.
-It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with <a href="../cmd-contact/">CONTACT</a>.
-Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with <a href="../cmd-contact/">CONTACT</a> the target signals that they agree to the enchantment.</p>
+<p>Some spells can be used to magically influence people and objects.<br />
+It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with <a href="../cmd-contact/">CONTACT</a>.<br />
+Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with <a href="../cmd-contact/">CONTACT</a> the target signals that they agree to the enchantment.  </p>
 <h3 id="rank">Rank<a class="headerlink" href="#rank" title="Permanent link">&para;</a></h3>
-<p>The order of normal spells is determined by the rank of the spell.
-Within a round, spells with a lower rank are always executed before those with a higher rank.
-Rank 1 is the lowest and rank 9 is the highest.
-Most spells have a standard rank of 5, but antimagic spells almost all have a rank of 2, so they may be cast before normal spells.
-Spells of the same rank are cast in the order specified on the turn.</p>
+<p>The order of normal spells is determined by the rank of the spell.<br />
+Within a round, spells with a lower rank are always executed before those with a higher rank.<br />
+Rank 1 is the lowest and rank 9 is the highest.<br />
+Most spells have a standard rank of 5, but antimagic spells almost all have a rank of 2, so they may be cast before normal spells.<br />
+Spells of the same rank are cast in the order specified on the turn.  </p>
 <p><strong>Example:</strong></p>
 <p>There would be three spells, called "Aaa", "Bee" and "Cee" :</p>
 <ul>
@@ -8049,23 +8078,23 @@ Spells of the same rank are cast in the order specified on the turn.</p>
 CAST &quot;Beee&quot;
 CAST &quot;Aaaa&quot;
 </code></pre></div>
-<p>in that order.
-“Beee” is cast first, because the spell has rank 2.
-It's the unit's first spell this week, so it costs 20 aura.
-Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".
-"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.
-"Aaaa" is the third spell, so it costs 10*2^2=40 aura.</p>
+<p>in that order.<br />
+“Beee” is cast first, because the spell has rank 2.<br />
+It's the unit's first spell this week, so it costs 20 aura.<br />
+Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".<br />
+"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.<br />
+"Aaaa" is the third spell, so it costs 10*2^2=40 aura.  </p>
 <h2 id="blunder">Blunder<a class="headerlink" href="#blunder" title="Permanent link">&para;</a></h2>
-<p>There is a lot that is not obvious in the magic system and in the spells.
-In general, many sayings contain direct or indirect risks.
-A magician can also botch a spell.</p>
-<p>A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.
-This is not a bug and also gives a completely normal message in the report ("The spell fails.").
-If components or aura are missing, this will also be mentioned in the message.</p>
-<p>The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.</p>
-<p>Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.</p>
+<p>There is a lot that is not obvious in the magic system and in the spells.<br />
+In general, many sayings contain direct or indirect risks.<br />
+A magician can also botch a spell.  </p>
+<p>A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.<br />
+This is not a bug and also gives a completely normal message in the report ("The spell fails.").<br />
+If components or aura are missing, this will also be mentioned in the message.  </p>
+<p>The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.  </p>
+<p>Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.  </p>
 <p>Player experience (Solthar):</p>
-<p>A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.
+<p>A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.<br />
 For draigmages it is 10% more. Possible consequences (in descending order of frequency):</p>
 <ul>
 <li>The spell works, but subsequent spells become much more expensive</li>
@@ -8073,9 +8102,9 @@ For draigmages it is 10% more. Possible consequences (in descending order of fre
 <li>The spell doesn't work and you become a <a href="../toad/">Toad</a> for 2 or more weeks</li>
 <li>The spell doesn't work and there is a special effect</li>
 </ul>
-<p>Special effects mainly affect Gwyrrd (enraged Ents are created) and Draig (pawn mobs or other consequences).</p>
+<p>Special effects mainly affect Gwyrrd (enraged Ents are created) and Draig (pawn mobs or other consequences).  </p>
 <h2 id="magic-resistance">Magic resistance<a class="headerlink" href="#magic-resistance" title="Permanent link">&para;</a></h2>
-<p>A person/unit's magic resistance is each person's inherent ability to resist a spell cast against them, and how severely a person is affected by magical damage in combat.
+<p>A person/unit's magic resistance is each person's inherent ability to resist a spell cast against them, and how severely a person is affected by magical damage in combat.<br />
 A unit's magic resistance is:</p>
 <ul>
 <li>the natural magic resistance of the <a href="../races/">Races</a></li>
@@ -8090,51 +8119,61 @@ A unit's magic resistance is:</p>
 <li>50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)</li>
 <li>Never below 2%, never above 98%</li>
 </ul>
-<p>Instead, additional bonuses from <a href="../war-tables/#magic-resistance">Weapons or Armor</a> work against combat spells such as fireballs and weapons that are considered magical. Otherwise, only magical protection and natural armor work against magical damage.</p>
-<p>Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.</p>
-<p><strong>Examples:</strong> The base chance is 0% for humans, 10% for <a href="../skills-modifiers/">elves</a>, for <a href="../skills-modifiers/">goblins</a> it is only -5%.</p>
-<p>A Mining 10 unit has a 50% chance to resist a spell like <a href="../spells-descriptions/#chaos-curse">Chaos Curse</a> cast by a Magic 10 unit. If the magic talent is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.</p>
+<p>Instead, additional bonuses from <a href="../war-tables/#magic-resistance">Weapons or Armor</a> work against combat spells such as fireballs and weapons that are considered magical.<br />
+Otherwise, only magical protection and natural armor work against magical damage.  </p>
+<p>Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.  </p>
+<p><strong>Examples:</strong></p>
+<p>The base chance is 0% for humans, 10% for <a href="../skills-modifiers/">elves</a>, for <a href="../skills-modifiers/">goblins</a> it is only -5%.<br />
+A Mining 10 unit has a 50% chance to resist a spell like <a href="../spells-descriptions/#chaos-curse">Chaos Curse</a> cast by a Magic 10 unit.<br />
+If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  </p>
 <p>For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with <a href="../war-tables/#magic-resistance">Lensword</a>.*70%) = 63% of that, so about 31 damage.</p>
 <h2 id="mage-tower">Mage Tower<a class="headerlink" href="#mage-tower" title="Permanent link">&para;</a></h2>
-<p>A <a href="../buildings-others/#mage-tower">Mage Tower</a> increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.
+<p>A <a href="../buildings-others/#mage-tower">Mage Tower</a> increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.<br />
 In addition, the likelihood of a spell failure is significantly reduced.</p>
 <h2 id="familiar">Familiar<a class="headerlink" href="#familiar" title="Permanent link">&para;</a></h2>
-<p>Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them. Which genus this creature belongs to depends primarily on the area of ​​magic and race.
-More details about these familiars can be found in the chapter on <a href="../familiars/">Familiars</a>.</p>
+<p>Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them.<br />
+Which genus this creature belongs to depends primarily on the area of ​​magic and race.  </p>
+<p>More information about these creatures: <a href="../familiars/">Familiars</a>.</p>
 <h2 id="the-astral-space">The Astral Space<a class="headerlink" href="#the-astral-space" title="Permanent link">&para;</a></h2>
-<p><strong>Note:</strong> You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.</p>
-<p>There are more than 512 characters with translation, please reduce the translation content.<strong><em>astrale Welt</em></strong></p>
-<p>Anyone who enters the astral space -this is only possible through certain <a href="../spells-list/">spells</a> -disappears completely from the real world.
-Like the real world, the astral space is divided into regions with the known cardinal points.
-Units located at a point in astral space appear in the report and are played like other units.
-So you can receive orders like <a href="../cmd-move/">MOVE</a> and <a href="../cmd-attack/">ATTACK</a> and interact with other entities in the astral world.
-They can only communicate with the normal world through magic.</p>
-<p>The senses of worldly creatures are unable to concretely perceive the surroundings in the astral world.
-The eye sees the surroundings as a mere mist, and all sounds are muffled and muffled.
-From every point in the astral space, up to 19 real-world regions can be seen in outline, which are at most two regions away from a specific real region, which we will call the "reference point" here (green in the picture).
-Some spells can make these patterns appear more precise.
-In the example image, all regions that can be identified from a region are outlined in red.
-Six regions bisected by the red line are even visible from two astral regions each.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.</p>
+</div>
+<p>Opinions on what this second plane of existence actually is vary as widely as the names given to it: some call it the <strong>world of spirits</strong>, others the <strong>Astral world</strong>, but the most well-known term is <strong>Astral plane</strong>.<br />
+Completely different laws of nature prevail in this other world.<br />
+This fact may be the only reason why the Astral plane has remained a practical application of magic at all: those who manage to blur the boundary between the Astral plane and reality at the right moment using their magical powers can gain great advantages – be it through perceiving things on the other side without being seen themselves, or through rapid travel over great distances.  </p>
+<p>Anyone who enters the Astral space -this is only possible through certain <a href="../spells-list/">spells</a> -disappears completely from the real world.<br />
+Like the real world, the Astral space is divided into regions with the known cardinal points.<br />
+Units located at a point in Astral space appear in the report and are played like other units.<br />
+So you can receive orders like <a href="../cmd-move/">MOVE</a> and <a href="../cmd-attack/">ATTACK</a> and interact with other entities in the astral world.<br />
+They can only communicate with the normal world through magic.  </p>
+<p>The senses of worldly creatures are unable to concretely perceive the surroundings in the astral world.<br />
+The eye sees the surroundings as a mere mist, and all sounds are muffled.<br />
+From every point in the astral space, up to 19 real-world regions can be seen in outline, which are at most two regions away from a specific real region, which we will call the "reference point" here (green in the picture).<br />
+Some spells can make these patterns appear more precise.<br />
+In the example image, all regions that can be identified from a region are outlined in red.<br />
+6 regions bisected by the red line are even visible from two astral regions each.  </p>
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 <p><img alt="Astral space connection" src="../assets/images/astral-space-connection.jpg" title="Astral space connection" /></p>
-<p>What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.
-Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).
-This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.
-The "reference point" is the southwest corner of it.
-All regions in such an area lead to the same point when entering the astral world.
-This connection is a prerequisite for most spells involving the astral space.
-But it can also be disturbed, for example by blessed stone circles that have recently been visited by a magician.
-Depending on the spell used, additional restrictions may apply.</p>
-<p>That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.
-Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.
-Because every step in the spirit world corresponds to 4 steps in the real world.</p>
-<p>Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.
-Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.
-Only <strong>Elven horses</strong> seem to be able to survive as magical mounts in the astral space.</p>
-<p>In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible <a href="../monsters/#braineaters">beings</a> who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.
-Only those who carry powerful magical weapons or allies with them or are able to hide themselves extremely well from unfriendly eyes will be immune from these horrors of the astral space.</p>
+<p>What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.<br />
+Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).<br />
+This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.<br />
+The "reference point" is the southwest corner of it.<br />
+All regions in such an area lead to the same point when entering the astral world.<br />
+This connection is a prerequisite for most spells involving the astral space.<br />
+But it can also be disturbed, for example by blessed stone circles that have recently been visited by a magician.<br />
+Depending on the spell used, additional restrictions may apply.  </p>
+<p>That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.<br />
+Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.<br />
+Because every step in the spirit world corresponds to 4 steps in the real world.  </p>
+<p>Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.<br />
+Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.<br />
+Only <strong>Elven horses</strong> seem to be able to survive as magical mounts in the astral space.  </p>
+<p>In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible <a href="../monsters/#braineaters">beings</a> who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.<br />
+Only those who carry powerful magical weapons or are able to hide themselves extremely well from unfriendly eyes will be immune from these horrors of the astral space.<br />
+The others will have to rely on their allies!  </p>
 <h2 id="lists-of-all-spells">Lists of all spells<a class="headerlink" href="#lists-of-all-spells" title="Permanent link">&para;</a></h2>
-<p>In the early days of Eressea, the exact lists of spells were secret so that "we could have the anticipation of whether and which new spells one would receive when reaching a new level." Eressea has now been running for so long that it would put new players at too great a disadvantage compared to veterans if the spells were not known.
+<p>In the early days of Eressea, the exact lists of spells were secret so that "we could have the anticipation of whether and which new spells one would receive when reaching a new level." Eressea has now been running for so long that it would put new players at too great a disadvantage compared to veterans if the spells were not known.<br />
 That's why there is now a <a href="../spells-list/">List of spells</a> and <a href="../spells-descriptions/">Description of spells</a>.</p>
 <p>Continue reading: <a href="../magic-schools/">Schools of Magic</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
@@ -8206,6 +8245,14 @@ That's why there is now a <a href="../spells-list/">List of spells</a> and <a hr
     
     
       <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../javascripts/katex-init.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../javascripts/formulas-try.js"></script>
       
     
   </body>

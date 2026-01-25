@@ -1,28 +1,28 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: comment-with-slashes-fr
 ---
 # Commentaire //
 
-**`//`**` `*`Comment`*
+**`//`**` `*`Comment`*  
 
-In contrast to a comment after a [[cmd-comment|;]] (semicolon), this comment is included in the template **for the next round's** evaluation.
+Contrairement à un commentaire qui suit un [[cmd-comment|;]] (point-virgule), ce commentaire est inclus dans le modèle **d'évaluation du prochain tour**.  
 
 ```text
-UNIT 123;     One hundred and twenty-three [20,450$]
-// Upkeep Mage Tower
+UNIT 123; Cent vingt-trois [20,450$]
+// Entretien de la Tour des mages
 @GIVE 234 1000 SILVER
-// Learn polearms every now and then
-TAX Steuern ein
+// Apprendre de temps en temps le combat à l'arme d'hast
+TAX
 ```
 
-The `//` has to be treated like an order, so you **can't** do:
+`//` doit être traité comme un ordre, donc vous ne pouvez **pas** faire :
 
 ```text
-@GIVE 345 100 SILVER // because of sawmill
+@GIVE 345 100 SILVER // à cause de la scierie
 ```
 
 !!! note
-    There must also be a space after the `//`.
+    Il doit également y avoir un espace après `//`.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->

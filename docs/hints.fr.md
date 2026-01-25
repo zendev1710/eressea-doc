@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: remarques
 ---
 # Remarques
@@ -11,27 +11,35 @@ Vous pouvez vous enregistrer en suivant [ce lien].
 <!-- TODO: move this section at the adequate location (other file) -->
 ## Erreur dans le jeu
 
-Un programme aussi complexe qu'Eressea contient inévitablement des erreurs.
-L'équipe de conception s'efforce de trouver et de corriger ces erreurs le plus rapidement possible, mais des bugs apparaîtront malgré tout.
+Un programme aussi complexe qu'Eressea contient inévitablement des erreurs.  
+L'équipe de conception s'efforce de trouver et de corriger ces erreurs le plus rapidement possible, mais des bugs apparaîtront malgré tout.  
 
 **Ceux qui ne peuvent pas vivre avec cela ne devraient pas jouer à Eressea !**
 
-Il n'est pas possible de relancer un tour pour un seul joueur. Une relance n'est effectuée que si l'erreur a gravement affecté de nombreuses factions.
+Il n'est pas possible de relancer un tour pour un seul joueur.  
+Une relance n'est effectuée que si l'erreur a gravement affecté de nombreuses factions.
 
 De même, il n'est pas toujours possible de compenser ou de remplacer les pertes subies en raison d'erreurs, notamment lorsque des personnes ou des objets tels que des bateaux ou des bâtiments ont été perdus.
 
-C'est à la seule discrétion du meneur de jeu de donner aux joueurs concernés des compensations, par exemple sous forme de silvers. Les petites erreurs concernent souvent de nombreuses parties, de sorte que dans l'ensemble, cela s'équilibre tout seul.
+C'est à la seule discrétion du meneur de jeu de donner aux joueurs concernés des compensations, par exemple sous forme de silvers.  
+Les petites erreurs concernent souvent de nombreuses parties, de sorte que dans l'ensemble, cela s'équilibre tout seul.
 
-Tous les joueurs sont tenus de signaler les bugs à l'administrateur du jeu, même et surtout s'ils en tirent un avantage. Pour cela, il est préférable de publier un [rapport de bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
+Tous les joueurs sont tenus de signaler les bugs à l'administrateur du jeu, même et surtout s'ils en tirent un avantage.  
+Pour cela, il est préférable de publier un [rapport de bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
 
 <!-- TODO: move this section at the adequate location (other file) -->
 ## Rapport de bug
 
-Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoir trouvé une erreur, il faut procéder comme suit :
+Eressea n'est pas exempt de défauts, mais il en a très peu.  
+Si l'on pense avoir trouvé une erreur, il faut procéder comme suit :
 
-1. Vérifie encore une fois avec précision si l'erreur se trouve dans le programme. Parfois, on a simplement oublié un petit détail.
-2. Lis les mails dans la liste "E-Announce", les rapports de bug dans Mantis ou le canal \#general dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
-3. Réfléchis à la manière dont l'erreur s'est produite. Rassemble tous les éléments nécessaires. Ouvre un nouveau rapport de bug dans [Mantis]. Il devrait contenir les éléments suivants :
+1. Vérifie encore une fois avec précision si l'erreur se trouve dans le programme.
+   Parfois, on a simplement oublié un petit détail.
+2. Lis les mails dans la liste "`E-Announce`", les rapports de bug dans Mantis ou le canal `#general` dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
+3. Réfléchis à la manière dont l'erreur s'est produite.
+   Rassemble tous les éléments nécessaires, ouvre un nouveau rapport de bug dans [Mantis].
+   Il devrait contenir les éléments suivants :
+
     1. Ton ID de Faction
     2. Identifiants des unités, bateaux ou autres objets concernés
     3. Messages du rapport qui sont pertinents pour l'événement
@@ -46,9 +54,13 @@ Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoi
     12. S'il te plaît, ne joins pas ton rapport en entier si on ne te le demande pas ! Les rapports de bugs sont généralement publics.
     13. Si tu dois envoyer ton rapport ou des informations que tes coéquipiers ne devraient pas avoir, ajoute une note au rapport et marque-la comme "privée".
 
-Ne t'impatiente pas si tu ne reçois pas de réponse immédiatement. Si tu as besoin d'une réponse rapide, pose une question sur [Discord].
+Ne t'impatiente pas si tu ne reçois pas de réponse immédiatement.  
+Si tu as besoin d'une réponse rapide, pose une question sur [Discord].
 
-En règle générale, les bugs corrigés ne sont pas directement intégrés dans la version actuelle du serveur, à moins qu'il ne s'agisse d'erreurs graves. Le nouveau code est d'abord testé, puis déployé une fois par trimestre après annonce préalable. Cela permet d'assurer la stabilité des tours. Ainsi, si un bug a été marqué comme "corrigé" dans Mantis, cela ne signifie *pas* automatiquement que l'erreur ne sera plus présente au prochain tour.
+En règle générale, les bugs corrigés ne sont pas directement intégrés dans la version actuelle du serveur, à moins qu'il ne s'agisse d'erreurs graves.  
+Le nouveau code est d'abord testé, puis déployé une fois par trimestre après annonce préalable.  
+Cela permet d'assurer la stabilité des tours.  
+Ainsi, si un bug a été marqué comme "corrigé" dans Mantis, cela ne signifie *pas* automatiquement que l'erreur ne sera plus présente au prochain tour.
 
 ## Triche
 
@@ -64,12 +76,12 @@ C'est pourquoi le "jeu multiple" est en principe interdit.
 Jouer plusieurs factions annule les restrictions telles que la limite d'unités, la limite supérieure pour les mages et les alchimistes, ainsi que les compétences raciales.
 
 Le passé a montré qu'une telle interdiction ne suffit pas à elle seule et que, pour diverses raisons, il y a quand même du "Jeu multiple".
-Quelle qu'en soit la raison, sans accord prélable du maître de jeu, cela sera un motif d'exclusion.
+Quelle qu'en soit la raison, sans accord préalable du maître de jeu, cela sera un motif d'exclusion.
 
 Une autre raison est souvent que la disparition d'une faction entraînerait un changement important dans l'équilibre des forces.
 Une alliance qui perd un membre important reprend la faction du joueur et la gère comme une seconde faction.
 Cela n'est pas non plus acceptable, sauf si cela a été convenu avec le meneur de jeu (il existe plusieurs anciennes factions pour lesquelles cela a été autorisé).
-Pour atténuer ce phénomène, nous avons la commande [[cmd-quit]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
+Pour atténuer ce phénomène, nous avons l'ordre [[cmd-quit]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
 
 Plusieurs joueurs partageant un compte de messagerie ne peuvent pas être admis à Eressea.
 Le risque de tricherie est trop important.

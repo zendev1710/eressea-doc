@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-ride-fr
 ---
-# RIDE
+# `RIDE`
 
 *`RIDE` est un ordre [long].*  
 *`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*  

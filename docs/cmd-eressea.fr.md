@@ -1,12 +1,14 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-eressea-fr
 ---
-# ERESSEA
+# `ERESSEA`
 
-**`ERESSEA`**` `*`faction-id`*`"`*`passwort`*`"`  
+**`ERESSEA`**` `*`faction-id`*`"`*`<mot de passe>`*`"`  
 
-This order starts the orders file.
-This order must be used without fail.
+Cette instruction démarre le fichier d'ordres.
+
+!!! note "important"
+    Cette instruction doit être utilisée sans faute.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ERESSEA&oldid=4000] -->

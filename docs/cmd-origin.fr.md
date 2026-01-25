@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-origin-fr
 ---
-# ORIGIN
+# `ORIGIN`
 
 **`ORIGIN`**` `*`x y`*  
 

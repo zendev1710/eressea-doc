@@ -1,11 +1,11 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-email-fr
 ---
-# EMAIL
+# `EMAIL`
 
-**`EMAIL`**`"`*`my-email-address@example.com`*`"`  
+**`EMAIL`**`"`*`mon-adresse-email@example.com`*`"`  
 
-With this order the player sets his email address to which the evaluation will be sent.
+Avec cet ordre, le joueur définit son adresse e-mail, à laquelle l'évaluation sera envoyée.
 
 <!-- From [https://wiki.eressea.de/index.php?title=EMAIL&oldid=3998] -->

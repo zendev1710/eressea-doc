@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-describe-fr
 ---
-# DESCRIBE
+# `DESCRIBE`
 
 **`DESCRIBE UNIT`**`"`*`text`*`"`  
 **`DESCRIBE BUILDING`**`"`*`text`*`"`  
@@ -10,24 +10,28 @@ alias: cmd-describe-fr
 **`DESCRIBE REGION`**`"`*`text`*`"`  
 **`DESCRIBE PRIVATE`**`"`*`text`*`"`  
 
-The description for the listed object is changed. This description is listed by object and can be up to 8191 characters long.
-The computer does not assign descriptions when creating objects.
+La description de l'objet spécifiée est modifiée.
+Cette description est spécifiée par objet et peut contenir jusqu'à **8 191** caractères.  
 
-The same restrictions apply to ships, buildings and regions as when naming objects: buildings and ships can only be described if the unit also has command of the building or ship (i.e. it must be the first unit under the building or ship in the evaluation).
-A region can only be described by the lord of the most powerful castle in a region.
+L'ordinateur n'attribue pas de descriptions lors de la création d'objets.  
 
-With `DESCRIBE PRIVATE` You can give the commanding unit a "private" description that only the owner of the unit can see.
+Les mêmes restrictions s'appliquent aux bateaux, aux bâtiments et aux régions que lors du nommage des objets.
+Un bâtiment ou un bateau ne peut être décrit que si l'unité a le commandement du bâtiment ou du bateau (c'est-à-dire qu'elle doit être la première unité sous le bâtiment ou le bateau dans l'évaluation).  
+Une région ne peut être décrite que par le seigneur du château le plus puissant qui y est présent.
 
-Long descriptions must be with done with the `\` (backslash) "extend order" separator.
-New lines after that `\` must not begin with spaces.
+Avec `DESCRIBE PRIVATE` vous pouvez donner à l'unité passant l'ordre une description "privée" que seul le propriétaire de l'unité peut voir.  
+
+Les descriptions longues doivent être écrites avec le séparateur `\` (barre oblique inverse).
+La nouvelle ligne après un `\` ne doit pas commencer par des espaces.
+
 <!-- TODO: clarify text below -->
 ```text
-    DESCRIBE UNIT "Leaf-cutting ants don't need one\
-    Sleep and its workers are always focused on maximum efficiency\
-    t. Everything they do and think under their black cover refers to\
-    hen it also das Kollektiv des Staates."
+DESCRIBE UNIT "Leaf-cutting ants don't need one\
+Sleep and its workers are always focused on maximum efficiency\
+Everything they do and think under their black cover refers to\
+then it also das Kollektiv des Staates."
 ```
 
-It is currently not possible to insert paragraphs and breaks themselves into descriptions.
+Il n'est actuellement pas possible d'insérer des paragraphes et des césures dans une description.
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESCRIBE&oldid=7442] -->

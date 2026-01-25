@@ -4,42 +4,37 @@ alias: geschichte-von-eressea
 ---
 # Geschichte von Eressea
 
-Laut [Wikipedia] startete Eressea am 27. August 1996. Es wurde als Ableger von [Atlantis] entwickelt. Die Popularität war relativ starken Schwankungen unterlegen. Der Rekord lag bei über 2000 Parteien Anfang des Jahres 2002. Ende 2005 waren es erstmals unter 1000 Parteien. Ende 2008 wurde die Neuanmeldung zeitweilig geschlossen. Zu diesem Zeitpunkt gab es unter 700 Parteien. Das Spiel geht aber immer noch weiter.
+Laut [Wikipedia] startete Eressea am 27. August 1996.
+Es wurde als Ableger von [Atlantis] entwickelt.
+Die Popularität war relativ starken Schwankungen unterlegen.
+Der Rekord lag bei über 2000 Parteien Anfang des Jahres 2002.
+Ende 2005 waren es erstmals unter 1000 Parteien.
+Ende 2008 wurde die Neuanmeldung zeitweilig geschlossen.
+Zu diesem Zeitpunkt gab es unter 700 Parteien.
+Das Spiel geht aber immer noch weiter.
 
 ## Entwickler
 
 - Russel Wallace
-
-Entwickler von Atlantis 1.0
-
+  Entwickler von Atlantis 1.0
 - Alex Schröder
-
-Entwickler von German Atlantis.  
-Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
-
+  Entwickler von German Atlantis.
+  Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
 - Christian Schlittchen ([Corwin])
-
-entwickelte Eressa und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
-
+  entwickelte Eressa und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
 - Katja Zedel ([Katze (Designerin)])
-
-war zusammen mit Corwin Entwicklerin und Spielleiterin von Eressea. Katjas grösstes Projekt war die Entwicklung der neuen Magie.
-
+  war zusammen mit Corwin Entwicklerin und Spielleiterin von Eressea. Katjas grösstes Projekt war die Entwicklung der neuen Magie.
 - [Enno Rehling]
-
-ist seit Runde 39 dabei und übernahm Entwicklung und Spielleitung nach dem Ausstieg der anderen beiden Spielleiter.
-
+  ist seit Runde 39 dabei und übernahm Entwicklung und Spielleitung nach dem Ausstieg der anderen beiden Spielleiter.
 - Henning Peters ([Faroul])
-
-Entwickler, u.a. des Zugüberprüfers [ECheck]
-
+  Entwickler, u.a. des Zugüberprüfers [ECheck]
 - Benjamin Bärmann, Ingo Wilken
-
-Co-Entwickler in den ersten Jahren, u.a. der Alchemie
+  Co-Entwickler in den ersten Jahren, u.a. der Alchemie
 
 ## Regeländerungen
 
-Im Laufe der Zeit hat es viele kleinere und größere Regeländerungen gegeben, in der Regel um die Spielbalance zu verbesseren. Hier eine Liste, die bei weitem nicht komplett ist.
+Im Laufe der Zeit hat es viele kleinere und größere Regeländerungen gegeben, in der Regel um die Spielbalance zu verbesseren.
+Hier eine Liste, die bei weitem nicht komplett ist.
 
 ## Erstes Zeitalter
 
@@ -212,61 +207,104 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
 
 ### "Rohstoffreform" Datum und Runde unbekannt
 
-Die Rohstoffreform, sicher die grösste Sammlung von weitreichenden Änderungen nach der Magiereform, erfolgte nach dem öffentlich angekündigten Entwicklungsstopp von Eressea. Angekündigt als allerletzte (Wer nun an Käse denkt kennt sich mit der Geschichte von Eressea wirklich aus ;) Regeländerung. Viele weitere grössere und kleinere Änderungen danach bewiesen jedoch das Gegenteil.
+Die Rohstoffreform, sicher die grösste Sammlung von weitreichenden Änderungen nach der Magiereform, erfolgte nach dem öffentlich angekündigten Entwicklungsstopp von Eressea.  
+Angekündigt als allerletzte (Wer nun an Käse denkt kennt sich mit der Geschichte von Eressea wirklich aus 😃) Regeländerung.  
+Viele weitere grössere und kleinere Änderungen danach bewiesen jedoch das Gegenteil.  
 
-- Die Bauernglättung ist ein Versuch den wichtigen Rohstoff Bauern gerechter zu verteilen. Regionen mit vielen Bauern wurden selbige weg genommen und Regionen die wenig Bauern hatten wurden aufgefüllt. Die Bauernmenge Eresseas blieb dabei gleich. Für die Verteilung waren nicht nur die Bauern sondern auch die Spielerpersonen in der Region wichtig. Leute die also 10.000 Soldaten in einer Zentralregion gesammelt hatten, hatten nach der Glättung eben so eine Bauernleere Region wie Bündnisse auf deren Insel gerade ein Invasionsheer gelandet war. Hatte man hingegen gerade sein Heer auf dem Ozean war man fein raus. Die Bauernglättung wurde kurzfristig angekündigt, die genaue Formel jedoch nicht. Auch diese Änderung sorgt für viel Tumult unter der Spielerschaft, da sich viele (alle die Bauern verloren) ungerecht behandelt fühlen.
-- Einhergehend mit der Bauernglättung verloren Orks ihre Vermehrungsrate von 5%. Alle vorhandenen Ork Einheiten wurden in Snootlinge umgewandelt, diese können Kampfrelevante Talente nur noch bis t7 lernen. Orks werden seit der Änderung nur noch 1 zu 2 von den Bauern abgezogen beim Rekrutieren und 2 zu 1 an die Bauern übergeben, Snootlinge bringen keine Bauern bei der Übergabe an 0 (stimmt das so?). Die übergabe der alten Orks an die Bauern erfolgte in der Befehlsreihenfolge VOR der Bauernglättung um zu verhindern, dass sich Orks einen Vorteil erschummeln.  
-  Viele Spieler überlasen diese Ankündigung natürlich und auch hier gab es viel Streit. Die andauernden Beschwerden der Spielerschaft bei Regeländerungen gelten allgemein als Grund für den Ausstieg von Corwin aus Eressea und für die Ankündigung des, nie eingehaltenen, Entwicklungststopp.  
-  Um die Talentverwässerung, die bei der Orkvermehrung der Fall war, in geringem Maße beizubehalten, lernen Orks ab diesem Zeitpunkt mit einer 5% Wahrscheinlichkeit ein Nicht-Kampftalent einfach nicht. Der Taktikbonus von +1 für Orks bleibt trotz der fehlenden Verwässerung erhalten (Meiner Meinung nach ein grosses Versäumniss der Spielleitung, aber mich hat damals ja noch keiner gefragt [Xolgrim] ;)
+- Die Bauernglättung ist ein Versuch den wichtigen Rohstoff Bauern gerechter zu verteilen.
+  Regionen mit vielen Bauern wurden selbige weg genommen und Regionen die wenig Bauern hatten wurden aufgefüllt.
+  Die Bauernmenge Eresseas blieb dabei gleich. Für die Verteilung waren nicht nur die Bauern sondern auch die Spielerpersonen in der Region wichtig.
+  Leute die also 10.000 Soldaten in einer Zentralregion gesammelt hatten, hatten nach der Glättung eben so eine Bauernleere Region wie Bündnisse auf deren Insel gerade ein Invasionsheer gelandet war.
+  Hatte man hingegen gerade sein Heer auf dem Ozean war man fein raus.
+  Die Bauernglättung wurde kurzfristig angekündigt, die genaue Formel jedoch nicht.
+  Auch diese Änderung sorgt für viel Tumult unter der Spielerschaft, da sich viele (alle die Bauern verloren) ungerecht behandelt fühlen.
+- Einhergehend mit der Bauernglättung verloren Orks ihre Vermehrungsrate von 5%.
+  Alle vorhandenen Ork Einheiten wurden in Snootlinge umgewandelt, diese können Kampfrelevante Talente nur noch bis t7 lernen.
+  Orks werden seit der Änderung nur noch 1 zu 2 von den Bauern abgezogen beim Rekrutieren und 2 zu 1 an die Bauern übergeben, Snootlinge bringen keine Bauern bei der Übergabe an 0 (stimmt das so?).
+  Die übergabe der alten Orks an die Bauern erfolgte in der Befehlsreihenfolge VOR der Bauernglättung um zu verhindern, dass sich Orks einen Vorteil erschummeln.
+  Viele Spieler überlasen diese Ankündigung natürlich und auch hier gab es viel Streit.
+  Die andauernden Beschwerden der Spielerschaft bei Regeländerungen gelten allgemein als Grund für den Ausstieg von Corwin aus Eressea und für die Ankündigung des, nie eingehaltenen, Entwicklungststopp.
+  Um die Talentverwässerung, die bei der Orkvermehrung der Fall war, in geringem Maße beizubehalten, lernen Orks ab diesem Zeitpunkt mit einer 5% Wahrscheinlichkeit ein Nicht-Kampftalent einfach nicht.
+  Der Taktikbonus von +1 für Orks bleibt trotz der fehlenden Verwässerung erhalten (Meiner Meinung nach ein grosses Versäumniss der Spielleitung, aber mich hat damals ja noch keiner gefragt [Xolgrim] ;)
 - Lerntage werden durch Lernwahrscheinlichkeiten ersetzt, Verwässern von Talenten hat nun drastisch schlechtere Auswirkungen auf die Talente der Einheiten (Der Teil hier muss wesentlich ausführlicher geschrieben werden, hab ich aber gerade keine Zeit für [Xolgrim])
-- Das Holzwachstum wird zur Gänze umgeworfen und drastisch reduziert. Anstelle einer wöchentlichen Baumvermehrung um 5% (das waren in einem 600er Wald immerhin 30 Holz, mit Sägewerk 60 Holz Pro Woche die man das ganze Jahr hindurch abbauen konnte) Werden Bäume in Samen, Schösslinge und Bäume aufgeteilt. Bäume werfen im Frühjahr und Sommer Samen, diese wachsen, im Frühjahr das nächsten Jahres, zu Schösslingen heran und werden dann, im folgenden Frühjahr, zu Bäumen.
+- Das Holzwachstum wird zur Gänze umgeworfen und drastisch reduziert.
+  Anstelle einer wöchentlichen Baumvermehrung um 5% (das waren in einem 600er Wald immerhin 30 Holz, mit Sägewerk 60 Holz Pro Woche die man das ganze Jahr hindurch abbauen konnte) Werden Bäume in Samen, Schösslinge und Bäume aufgeteilt.
+  Bäume werfen im Frühjahr und Sommer Samen, diese wachsen, im Frühjahr das nächsten Jahres, zu Schösslingen heran und werden dann, im folgenden Frühjahr, zu Bäumen.
 - Steine, Eisen und Laen können nun in allen Regionstypen vorkommen, nicht mehr nur in Bergen und Gletschern.
-- Steine müssen auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen und Gletschern immer bei Stufe 1, in anderen Regionen kann diese höher liegen. Steine sammelte sich früher nicht an, man konnte in einem Berg 100 (mit Steinbruch 200, Trolle mehr) pro Stufe abbauen, tat man dies nicht waren die Steine verloren. Es war also lohnenswerter ohne Steinbruch zu produzieren als abzuwarten bis man einen gebaut hat.
-- Eisen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen immer bei Stufe 1, in anderen Regionen kann diese höher liegen. Eisen sammelte sich früher nicht an, man konnte in einem Berg 50 (mit Bergwerk 100, Zwerge mehr) pro Stufe abbauen, tat man dies nicht lagerte sich das Eisen im Berg an und man konnte es später abbauen.
-- Laen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen immer bei Stufe 7, in anderen Regionen kann diese höher liegen. Laen sammelte sich früher nicht an, man konnte eine geringe Menge, die starken schwankungen unterlag, in Bergen abbauen, tat man dies nicht lagerte sich das Laen an und man konnte es später abbauen.
+- Steine müssen auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit.
+  Die erste Schicht beginnt in Bergen und Gletschern immer bei Stufe 1, in anderen Regionen kann diese höher liegen.
+  Steine sammelte sich früher nicht an, man konnte in einem Berg 100 (mit Steinbruch 200, Trolle mehr) pro Stufe abbauen, tat man dies nicht waren die Steine verloren.
+  Es war also lohnenswerter ohne Steinbruch zu produzieren als abzuwarten bis man einen gebaut hat.
+- Eisen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit.
+  Die erste Schicht beginnt in Bergen immer bei Stufe 1, in anderen Regionen kann diese höher liegen.
+  Eisen sammelte sich früher nicht an, man konnte in einem Berg 50 (mit Bergwerk 100, Zwerge mehr) pro Stufe abbauen, tat man dies nicht lagerte sich das Eisen im Berg an und man konnte es später abbauen.
+- Laen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit.
+  Die erste Schicht beginnt in Bergen immer bei Stufe 7, in anderen Regionen kann diese höher liegen.
+  Laen sammelte sich früher nicht an, man konnte eine geringe Menge, die starken schwankungen unterlag, in Bergen abbauen, tat man dies nicht lagerte sich das Laen an und man konnte es später abbauen.
 - BEWACHE verhindert den Abbau aller Rohstoffe durch sichtbare Einheiten.
 
 ### Andere Änderungen
 
 März 2002 -- BRAVO Screenfun
 
-Die BRAVO Screenfun bringt einen zweiseitigen Artikel, was zeitweilig einen Ansturm von sehr jungen Spielern verursachte. In der ersten und dritten Woche nach der Veröffentlichung melden sich je 100 zusätzliche Spieler an, in der zweiten Woche 200. Dadurch wird die Spielerzahl auf ihren Rekordwert von über 2000 gehoben. Die meisten der, von den erfahrenen Spielern abfällig als BRAVO-Kiddies genannten, neuen Spieler bleiben der 10. Welt jedoch nur wenige Wochen erhalten.
+Die BRAVO Screenfun bringt einen zweiseitigen Artikel, was zeitweilig einen Ansturm von sehr jungen Spielern verursachte.
+In der ersten und dritten Woche nach der Veröffentlichung melden sich je 100 zusätzliche Spieler an, in der zweiten Woche 200.
+Dadurch wird die Spielerzahl auf ihren Rekordwert von über 2000 gehoben.
+Die meisten der, von den erfahrenen Spielern abfällig als BRAVO-Kiddies genannten, neuen Spieler bleiben der 10.
+Welt jedoch nur wenige Wochen erhalten.
 
 05.05.2002
 
-- Bewachende Einheiten verhindern Rekrutierungen und den Abbau aller begrenzten Resourcen aus der Region. In diesem Kontext gibt es eine kleine zusätzliche Änderung: In Zukunft wirkt BEWACHE nicht mehr, wenn der Bewachende den 'Produzenten' nicht sieht. Als besonderer Fall gilt bei einer leeren TEMP-Einheit die erschaffende Einheit als Sichtbarkeitsreferenz. Anders ausgedrückt: Entscheidend ist in diesem Fall, ob die Einheit gesehen wird, welche die TEMP-Einheit erschaffen hat.
+- Bewachende Einheiten verhindern Rekrutierungen und den Abbau aller begrenzten Resourcen aus der Region.
+  In diesem Kontext gibt es eine kleine zusätzliche Änderung: In Zukunft wirkt BEWACHE nicht mehr, wenn der Bewachende den 'Produzenten' nicht sieht.
+  Als besonderer Fall gilt bei einer leeren TEMP-Einheit die erschaffende Einheit als Sichtbarkeitsreferenz.
+  Anders ausgedrückt: Entscheidend ist in diesem Fall, ob die Einheit gesehen wird, welche die TEMP-Einheit erschaffen hat.
 
 <!-- -->
 
-- Die verfügbare Resourcenmenge wird zunächst halbiert. Dies ist eine Anpassung an die geringeren Bauernzahlen und die infolgedessen zu erwartenden erheblich kleineren Parteigrößen. Bei den nachwachsenden Resourcen wurde einfach die Wachstumrate gesenkt, bei den nichtnachwachsenden wie Eisen kommen bei Erreichen einer neuen 'Abbaustufe' jetzt weniger neue Resoucen hinzu.
+- Die verfügbare Resourcenmenge wird zunächst halbiert.
+  Dies ist eine Anpassung an die geringeren Bauernzahlen und die infolgedessen zu erwartenden erheblich kleineren Parteigrößen.
+  Bei den nachwachsenden Resourcen wurde einfach die Wachstumrate gesenkt, bei den nichtnachwachsenden wie Eisen kommen bei Erreichen einer neuen 'Abbaustufe' jetzt weniger neue Resoucen hinzu.
 
 <!-- -->
 
-- Der Anteil an den Bauern, der pro Runde rekrutiert werden kann, wird von 20% auf 5% der Bauernbevölkerung gesenkt. Damit wird die Treiberameisenstrategie weniger attraktiv.
+- Der Anteil an den Bauern, der pro Runde rekrutiert werden kann, wird von 20% auf 5% der Bauernbevölkerung gesenkt.
+  Damit wird die Treiberameisenstrategie weniger attraktiv.
 
 <!-- -->
 
-- Katapulte haben ab sofort nur noch sechs statt bisher 10 Angriffen. Außerdem beträgt ihr Talentmalus ab sofort 4 statt 1. Ihr Gewicht wird von 120 auf 100 GE verringert.
+- Katapulte haben ab sofort nur noch sechs statt bisher 10 Angriffen.
+  Außerdem beträgt ihr Talentmalus ab sofort 4 statt 1.
+  Ihr Gewicht wird von 120 auf 100 GE verringert.
 
 <!-- -->
 
-- Katapultmunition kann produziert werden (die Änderung am 02.06.2002) Bis zur Auswertung am 2. Juni schießen alle Katapulte noch ohne Munition, mit der Auswertung zum 2. Juni müssen Katapulte mit Munition versorgt werden!
+- Katapultmunition kann produziert werden (die Änderung am 02.06.2002) Bis zur Auswertung am 2.
+  Juni schießen alle Katapulte noch ohne Munition, mit der Auswertung zum 2.
+  Juni müssen Katapulte mit Munition versorgt werden!
 
 <!-- -->
 
-- Armbrüste und Bögen sind bisher wenig differenziert, ihre Wirkung ist rechnerisch fast identisch. Aus diesem Grund gibt es eine Veränderung bei den Armbrüsten: Das Nachladen dauert in Zukunft zwei Runden, aber der Rüstungsschutz des Gegners wird bei einem Armbrusttreffer halbiert und abgerundet. Ausgenommen davon ist nur magischer Rüstungsschutz.
+- Armbrüste und Bögen sind bisher wenig differenziert, ihre Wirkung ist rechnerisch fast identisch.
+  Aus diesem Grund gibt es eine Veränderung bei den Armbrüsten: Das Nachladen dauert in Zukunft zwei Runden, aber der Rüstungsschutz des Gegners wird bei einem Armbrusttreffer halbiert und abgerundet.
+  Ausgenommen davon ist nur magischer Rüstungsschutz.
 
 02.06.2002
 
-- Katapultmunition wird eingeführt. Diese kann mittels MACHE KATAPULTMUNITION durch einen Steinbauer mit Talent 3 aus Steinen produziert werden und wiegt 10 Gewichtseinheiten. Eine Munitionseinheit entspricht dabei einer Salve von sechs Schüssen.
+- Katapultmunition wird eingeführt.
+  Diese kann mittels MACHE KATAPULTMUNITION durch einen Steinbauer mit Talent 3 aus Steinen produziert werden und wiegt 10 Gewichtseinheiten.
+  Eine Munitionseinheit entspricht dabei einer Salve von sechs Schüssen.
 - Einheiten in der Astralebene kosten normalen Unterhalt (Vorher entfiel der Unterhalt im Astralraum).
 
 Zeitpunkt unbekannt
 
-- Die Koordinaten sind nicht mehr absolut sondern relativ zur Startregion des Spielers. Jeder Spieler startet nun auf den Koordinaten (0,0).
+- Die Koordinaten sind nicht mehr absolut sondern relativ zur Startregion des Spielers.
+  Jeder Spieler startet nun auf den Koordinaten (0,0).
 - Kämpfe dauern nicht mehr 10, sondern nur noch 5 Runden bzw. 6 mit der Taktikerrunde.
-- Migranten können keine teuren Talente mehr lernen. Einheiten mit vorhandenen teuren Talenten können nicht übergeben werden.
-- Untote wandeln sich nach einiger Zeit 10 zu 1 in Superuntote. Etwas später wird das Wandelverhältniss auf 2 zu 1 gesetzt.
+- Migranten können keine teuren Talente mehr lernen.
+  Einheiten mit vorhandenen teuren Talenten können nicht übergeben werden.
+- Untote wandeln sich nach einiger Zeit 10 zu 1 in Superuntote.
+  Etwas später wird das Wandelverhältniss auf 2 zu 1 gesetzt.
 - Taktiker bekommen nun einen vom Zufall abhängigen Bonus auf ihr Talent.
 - Die Rekrutierungskosten von Zwergen werden von 90 auf 110 angehoben.
 - Vulkane werden als neue Regionstypen eingeführt.
@@ -361,17 +399,30 @@ Dezember 2008 -- Anmeldung (endgültig) geschlossen
 
 ## Eressea das Dritte Zeitalter
 
-Eressea 2 ist seit Jahren geplant, mittlerweile ist sich Enno sicher, dass diese Version von Eressea ein Webgame werden soll. Dafür sind allerdings grundlegende Änderungen des Codes und des Spielprinzips nötig welche vorher in Eressea 1.5 getestet werden sollten.
+Eressea 2 ist seit Jahren geplant, mittlerweile ist sich Enno sicher, dass diese Version von Eressea ein Webgame werden soll.
+Dafür sind allerdings grundlegende Änderungen des Codes und des Spielprinzips nötig welche vorher in Eressea 1.5 getestet werden sollten.
 
-Um endlich wieder etwas neues für die Spielerschaft auf den Weg zu bringen und erste Erfahrungen mit einer vereinfachten Version von Eressea zu erlangen startet am 10.05.2009 die Entwicklung von Eressea 1.1 Arbeitstitel E2K9. Versionsnummer 1.5 wird nicht gewählt da E1.1 vorallem durch streichen etlicher Befehle und ändern vorhandener Parameter auskommen soll ohne grossen Programmieraufwand. Ursprünglich ist es als kleinerer Zwischenschritt zu E1.5 gedacht.
+Um endlich wieder etwas neues für die Spielerschaft auf den Weg zu bringen und erste Erfahrungen mit einer vereinfachten Version von Eressea zu erlangen startet am 10.05.2009 die Entwicklung von Eressea 1.1 Arbeitstitel E2K9.
+Versionsnummer 1.5 wird nicht gewählt da E1.1 vorallem durch streichen etlicher Befehle und ändern vorhandener Parameter auskommen soll ohne grossen Programmieraufwand.
+Ursprünglich ist es als kleinerer Zwischenschritt zu E1.5 gedacht.
 
-Auf Grund der massiven Regeländerungen wird E1.1 in einer neuen Welt gestartet. Um den Problemen des Endlosspieles entgegen zu wirken und den Arbeitsaufwand für das laufende Spiel so gering wie möglich zu halten wird ein späterer Einstieg in das Spiel nicht möglich sein.
+Auf Grund der massiven Regeländerungen wird E1.1 in einer neuen Welt gestartet.
+Um den Problemen des Endlosspieles entgegen zu wirken und den Arbeitsaufwand für das laufende Spiel so gering wie möglich zu halten wird ein späterer Einstieg in das Spiel nicht möglich sein.
 
-Programmierer für dieses Projekt ist [Enno][Enno Rehling] das Design Team besteht zu diesem Zeitpunkt nur aus Xolgrim. Bereits wenige Tage später wird es mit Eon, der Enno über ein Mailingliste aufgefallen war, und Phygon, welcher wie Xolgrim schon an diversen nicht zu Ende gebrachten Eressea Projekten mitgearbeitet hatte, auf aktuelle Größe erweitert.
+Programmierer für dieses Projekt ist [Enno][Enno Rehling] das Design Team besteht zu diesem Zeitpunkt nur aus Xolgrim.
+Bereits wenige Tage später wird es mit Eon, der Enno über ein Mailingliste aufgefallen war, und Phygon, welcher wie Xolgrim schon an diversen nicht zu Ende gebrachten Eressea Projekten mitgearbeitet hatte, auf aktuelle Größe erweitert.
 
-Der Arbeitstitel welcher als Kürzel für "Eressea 2009" steht verdeutlicht das kleine Zeitfenster welches für Entwicklung, Design, Programmierung und Tests bleibt. Der 24. Juni 2009 ist der erste geplante Starttermin, dieser kann aus mehreren Gründen jedoch nicht eingehalten werden. Vor allen anderen, meist privaten, Gründen ist die Zahl der Neuanmeldungen entscheidend. Erhofft waren mehr als 50 Spieler erträumt um die 100. Drei Tage vor Anmeldeschluss waren jedoch schon fast 400 Spieler angemeldet. Pünktlich zum 24. Juni wurde wenigstens der Aussetzalgorithmus in seinen Grundzügen fertig gestellt. Das Erstellen der Welt kann beginnen.
+Der Arbeitstitel welcher als Kürzel für "Eressea 2009" steht verdeutlicht das kleine Zeitfenster welches für Entwicklung, Design, Programmierung und Tests bleibt.
+Der 24. Juni 2009 ist der erste geplante Starttermin, dieser kann aus mehreren Gründen jedoch nicht eingehalten werden.
+Vor allen anderen, meist privaten, Gründen ist die Zahl der Neuanmeldungen entscheidend.
+Erhofft waren mehr als 50 Spieler erträumt um die 100. Drei Tage vor Anmeldeschluss waren jedoch schon fast 400 Spieler angemeldet.
+Pünktlich zum 24. Juni wurde wenigstens der Aussetzalgorithmus in seinen Grundzügen fertig gestellt.
+Das Erstellen der Welt kann beginnen.
 
-Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt, daran glaubt inzwischen keiner mehr. Die Liste der kleinen und grossen Änderungen ist lang, die ToDo-Liste der Dinge die nach dem Start dringend erledigt werden müssen noch länger. Beispielsweise sind viele Zauber, teilweise schon Stufe 2er, noch nicht abschliessend überarbeitet. Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können bleibt für diese und andere Kleinigkeiten ja noch jede Menge Zeit...
+Das Eressea das dritte Zeitalter, kurz E3, ohne viel Neuprogrammierung auskommt, daran glaubt inzwischen keiner mehr.
+Die Liste der kleinen und grossen Änderungen ist lang, die ToDo-Liste der Dinge die nach dem Start dringend erledigt werden müssen noch länger.
+Beispielsweise sind viele Zauber, teilweise schon Stufe 2er, noch nicht abschliessend überarbeitet.
+Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können bleibt für diese und andere Kleinigkeiten ja noch jede Menge Zeit...
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 

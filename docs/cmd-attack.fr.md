@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-attack-fr
 ---
-# ATTACK
+# `ATTACK`
 
 *ordre [pseudo-long].*  
 *C'est un ordre court dans le sens où plusieurs ordres  `ATTACK` peuvent être effectués.*  

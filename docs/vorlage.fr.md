@@ -1,24 +1,27 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: vorlage-fr
 ---
 # Vorlage
 
-**Vorlage** ist eine Win32- oder x86-Linux-Konsolen-Anwendung, die aus einem Computer-Report eine Befehlsvorlage erzeugen kann. Die Vorlage enthält erweiterte Informationen gegenüber der Standardvorlage und macht häufiges nachschlagen im normalen Report überflüssig. Des weiteren wertet das Programm Metabefehle aus, die es ermöglichen, Vorgänge zu automatisieren.
+ **Vorlage** est une application console Win32 ou Linux x86 capable de générer un modèle d'ordres à partir d'un rapport informatique.  
 
-Vorlage-Tutorials:
+Le modèle contient des informations étendues par rapport au modèle standard et élimine le besoin de références fréquentes dans le rapport standard.  
+Le programme évalue également les méta-ordres qui permettent d'automatiser les processus.
 
-- [Juttas Vorlage-Tutorial für Anfänger]
-- [Ennos kleine Makro-Sammlung und Batchdatei]
+Tutoriels sur les modèles :
 
-## Externe Links
+- [Tutoriel de modèle de Jutta pour les débutants]
+- [Petite collection de macros et fichier batch d'Enno]
 
-- [Vorlage auf Gulrak.de]
-- [Anleitung]
+## Liens externes
+
+- [Vorlage sur Gulrak.de]
+- [Instructions]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vorlage&oldid=5874] -->
 
-[Juttas Vorlage-Tutorial für Anfänger]: https://wiki.eressea.de/Jutta%27s_Vorlage_Tutorial_f%C3%BCr_Anf%C3%A4nger "Jutta's Vorlage Tutorial für Anfänger (wiki)"
-[Ennos kleine Makro-Sammlung und Batchdatei]: https://wiki.eressea.de/Ennos_Vorlageskript "Ennos Vorlageskript (wiki)"
-[Vorlage auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html
-[Anleitung]: http://www.gulrak.de/vorlage/doku/
+[Tutoriel de modèle de Jutta pour les débutants]: https://wiki.eressea.de/Jutta%27s_Vorlage_Tutorial_f%C3%BCr_Anf%C3%A4nger
+[Petite collection de macros et fichier batch d'Enno]: https://wiki.eressea.de/Ennos_Vorlageskript
+[Vorlage sur Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+[Instructions]: http://www.gulrak.de/vorlage/doku/

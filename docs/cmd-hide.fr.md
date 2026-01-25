@@ -1,55 +1,59 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-hide-fr
 ---
-# HIDE
+# `HIDE`
 
-**`HIDE`**`[`*`level`*`]`  
+**`HIDE`**`[`*`niveau`*`]`  
 **`HIDE`**`FACTION [NOT]`  
 **`HIDE`**`FACTION NUMBER [`*`number`*`]`  
 **`HIDE`**` `*`race`*  
 
-With the first variant you can adjust how “intensively” a unit tries to camouflage itself.
-`level` obviously cannot be higher than the unit's [[camouflage|camouflage skill]].
-If no parameters are specified, the maximum is set.
+Avec la première variante, vous pouvez ajuster l'intensité avec laquelle une unité essaie de se camoufler.
+Le `niveau` spécifié ne peut évidemment pas être supérieur au niveau de l'unité en [[camouflage]].  
 
-With `HIDE FACTION` you can try to hide your faction affiliation.
-The faction affiliation is then displayed as *anonymous* to other players.
-In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can only be recognized using [espionage].
-With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.
+Si aucun paramètre n'est spécifié, le maximum est défini.  
 
-`HIDE FACTION NUMBER number` camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.
-There is no easy way to see through this form of camouflage.
-In order to appear to belong to your own faction again, you have to `number` your own faction number can be used.
-The specified faction must be known to the faction issuing the order, i.e. appear in their report, otherwise the order will fail.
-Parties that receive [[cmd-help|`HELP xyz FACTION DISGUISE`]] from the unit's faction or group can see the unit's true faction affiliation.
+Avec l'ordre `HIDE FACTION`, vous pouvez essayer de cacher votre affiliation à une faction.
+L'affiliation à la faction est alors affichée en tant qu'affiliation **anonyme** aux autres joueurs.  
+Contrairement au mécanisme standard de détection en fonction des niveaux de furtivité versus perception, l'affiliation à une faction d'une telle unité ne peut être identifiée **qu'en utilisant l'[espionnage]**.  
 
-So far, so simple.
-However, this camouflage comes with a few special features, which are listed here in no particular order:
+Avec `HIDE FACTION NOT` cette anonymisation sera à nouveau annulée et les autres joueurs verront l'affiliation correcte de la faction - s'ils sont suffisamment "conscients" (en termes de perception) et voient l'unité dans leur rapport.  
 
-- The (apparent) race of the unit does not change as a result; a goblin remains a goblin, even if he claims to belong to the light elves faction
-- The units do not change their behavior due to the camouflage.
-  For example, they do not donate silver to the allies of the faction they disguise themselves as.
-  So if you want to perfect the camouflage, you should form a group with the units and set appropriate help statuses for this group.
-  Units cloaked in this way cannot suddenly enter buildings or ships that they are otherwise not allowed to enter, or collect taxes where they are normally prohibited from doing so
-- In battle, such units form their own army.
-  Example: There are three parties, the Wood Elves, the River Elves and the Iron Dwarves.
-  All parties each have a unit: Wood Elf, River Elf and Iron Dwarf.
-  While Wood Elf disguises itself as a River Elf, all other units retain their true identities.
-  Now the iron dwarf attacks the river elf.
-  This means that three armies appear in the battle report: the iron dwarves and two river elf armies.
+`HIDE FACTION NUMBER number` camoufle l'unité avec l'identifiant de faction spécifié, afin qu'elle puisse se déguiser par appartenance factice à n'importe quelle autre faction.  
+Il n’existe pas de moyen simple de voir à travers cette forme de camouflage.  
+Pour paraître à nouveau comme appartenant à votre propre faction, vous devez passer le même ordre avec en spécifiant le paramètre `number` à la valeur de votre propre identifiant de faction.  
+La faction spécifiée doit être connue de la faction qui donne l'ordre, c'est-à-dire apparaître dans son rapport, sinon l'ordre échouera.  
 
-However, [[cmd-group]] also has the side effect of having multiple armies.
-This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
+Les factions qui reçoivent un ordre [[cmd-help|`HELP xyz FACTION DISGUISE`]] de la faction de l'unité (ou du groupe) peut voir la véritable affiliation de la faction de l'unité qui aura donné l'ordre.  
 
-With `HIDE race` [demons] can disguise themselves as another race.
+Jusqu’ici, c’est relativement simple.  
+
+Cependant, ce camouflage présente quelques fonctionnalités spéciales, qui sont répertoriées ici sans ordre particulier :
+
+- La race (apparente) de l’unité ne change pas réellement; un gobelin reste un gobelin, même s'il prétend appartenir à la faction des elfes de lumière
+- Les unités ne changent pas de comportement à cause du camouflage.
+  Par exemple, ils ne donnent pas d’argent aux alliés de la faction sous laquelle ils se déguisent.
+  Donc si vous souhaitez perfectionner le camouflage, vous devez former un groupe avec les unités et définir des statuts d'aide appropriés pour ce groupe.
+  Les unités masquées de cette manière ne peuvent pas entrer soudainement dans des bâtiments ou des bateaux dans lesquels elles ne sont pas autorisées à entrer, ni collecter des taxes là où il leur est normalement interdit de le faire.
+- Au combat, ces unités forment leur propre armée.
+  Exemple : soit 3 groupes, les Elfes des Bois, les Elfes des Rivières et les Nains de Fer.
+  Toutes les factions ont chacune une unité : *Elfe des Bois*, *Elfe des Rivières* et *Nain de Fer*.
+  Tandis que *Elfe des Bois* se déguise en *Elfe des Rivières*, toutes les autres unités conservent leur véritable identité.
+  Maintenant, *Nain de Fer* attaque *Elfe des Rivières*.
+  Cela signifie que trois armées apparaissent dans le rapport de bataille : une armée de Nains de Fer et deux armées d'Elfes des Rivières.
+
+Cependant, [[cmd-group]] a également pour effet secondaire d'avoir plusieurs armées.  
+De cette façon, vous ne pouvez pas voir si les unités se font passer pour une faction étrangère ou si la personne en question possède simplement plusieurs groupes.
+
+Avec `HIDE <race>` les [démons] peuvent se déguiser en une autre race.
 
 ## Voir aussi
 
-- [espionage]
+- [espionnage]
 - [[camouflage]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 
-[espionage]: ./skills-list.md#espionnage
-[demons]: ./races.md#demons
+[espionnage]: ./skills-list.md#espionnage
+[démons]: ./races.md#demons

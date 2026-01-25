@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: protection-du-chiot
 ---
 # Protection du chiot
@@ -12,7 +12,7 @@ Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes
 
 !!! info
 
-    La durée exacte de la protectin peut varier selon le moment où elle est accordée.
+    La durée exacte de la protection peut varier selon le moment où elle est accordée.
 
 > Note : auparavant, le message indiquait : « Votre faction est immunisée contre les attaques pendant X semaines ».
 

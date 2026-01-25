@@ -187,7 +187,7 @@ Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der M
 **Art**: Normaler Zauber  
 **Level**: 9  
 **Rank**: 3  
-**Components**: 35 Aura, 1 Drachenblut  
+**Components**: 35 Aura, 1 [[dragonblood]]  
 **Modifikationen**:  
 **Syntax**: CAST "Astraler Riss"  
 

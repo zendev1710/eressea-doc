@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: modificateurs-de-competences
 ---
 # Modificateurs de compétences
@@ -54,7 +54,7 @@ Poursuivre la lecture : [[competences]].
 [orcs]: ./races.md#orcs
 [elfes]: ./races.md#elfes
 [chats]: ./races.md#chats
-[démons]: ./races.md#démons
+[démons]: ./races.md#demons
 [halflings]: ./races.md#halflings
 [humains]: ./races.md#humains
 [gobelins]: ./races.md#gobelins

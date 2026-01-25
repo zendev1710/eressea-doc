@@ -1,15 +1,15 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-tax-fr
 ---
-# TAX
+# `TAX`
 
 *Ordre [long]*.
 
-**`TAX`**`[`*`montant`*`]`  
+**`TAX`**` ``[`*`montant`*`]`  
 
 Avec cet ordre, une unité armée et entraînée collecte les impôts auprès des agriculteurs.  
-Pour ce faire, elle a besoin d'une arme et de maîtrser la [[liste-des-competences|compétence]] correspondante, ainsi que de la compétence de [collecte des impôts].  
+Pour ce faire, elle a besoin d'une arme et de maîtriser la [[liste-des-competences|compétence]] correspondante, ainsi que de la compétence de [collecte des impôts].  
 Jusqu'à **20 Silver** sont collectées auprès des agriculteurs par personne [[arme-et-pret-au-combat|armée et formée à l'arme portée]] et par niveau de compétence en matière de collecte des impôts.  
 
 !!! note

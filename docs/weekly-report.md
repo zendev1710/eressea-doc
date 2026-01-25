@@ -6,20 +6,16 @@ alias: weekly-report
 
 The weekly report is a small statistic for Eressea.  
 
-It starts with the in-game date, the evaluation number and some numbers about general player development.
+It starts with the in-game date, the evaluation number and some numbers about general player development.  
 This is followed by a list of the number of factions sorted by race, followed by the number of people per race.
 
 It is concluded with the number of NMR and the number of new players.
 
 It is sent together with the report as a .txt file and, as the name suggests, appears weekly.
 
-In the past, the absolute change figures and, for people per race, the percentage change were also given.
-
-However, this has not been the case for several years.
-
 ## Example weekly report \#1000
 
-Eressea in the first week of the month of Storm moon in the year 31 of the Second Age.
+Eressea in the first week of the month of Storm Moon in the year 31 of the Second Age.
 
 ```text
 Auswertung Nr: 1000

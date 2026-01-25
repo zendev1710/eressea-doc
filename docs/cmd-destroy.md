@@ -9,17 +9,26 @@ alias: cmd-destroy
 **`DESTROY`**`[`*`level`*`]`  
 **`DESTROY`**`[`*`level`*`] STREET`*`direction`*  
 
-A unit in command of a [[ships|ship]] or [[buildings|building]] can shrink or destroy it at any time using this order.
-She doesn't need any skill for that. For buildings, the *step*parameter denotes the size points by which the building should be reduced in size, and for ships, the percentage points.
-If no parameter is specified, the structure is completely destroyed.
-However, ships can only be reduced in size or sunk in coastal areas; the crew refuses to damage the ship on the high seas!
+A unit in command of a [[ships|ship]] or [[buildings|building]] can shrink or destroy it at any time using this order.  
+She doesn't need any skill for that.  
 
-With `DESTROY [`*`level`*`] STREET`*`direction`* you can demolish or damage a [[roads|road]].
-No faction is allowed to guard the region that has not set HELP GUARD as its own faction.
-To damage or destroy a road, a unit requires the Road Construction skill. You can destroy one size point per skill point.
+For **buildings**, the *level* parameter denotes the **size points** by which the building should be reduced in size.  
+For **ships**, it denotes the **percentage** points.  
 
-A unit can only destroy one structure (building, road, ship) per week.
+If no parameter is specified, the structure is completely destroyed.  
+
+However, ships can only be reduced in size or sunk in coastal areas.  
+The crew refuses to damage the ship on the high seas!
+
+With `DESTROY [`*`level`*`] STREET`*`direction`* you can demolish or damage a [[roads|road]].  
+<!-- TODO: check if the sentence below is related to DESTROY -->
+No faction is allowed to guard the region that has not set `HELP GUARD` as its own faction.  
+To damage or destroy a road, a unit requires the [Roadwork] skill.
+You can destroy one size point per skill point.  
+
+A unit can only destroy one structure (building, ship or road) per week.
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
 
 [long]: ./commands.md#short-and-long-orders
+[Roadwork]: ./skills-list.md#roadwork

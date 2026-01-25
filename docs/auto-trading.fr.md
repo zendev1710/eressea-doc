@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: commerce-automatise
 ---
 # Commerce automatisé
@@ -20,7 +20,7 @@ Pour des raisons de minimisation des unités, les régions avec un volume d'éch
 
 Le besoin de produits de luxe externes est souvent encore plus facile à déterminer.
 C'est à peu près le nombre d'agriculteurs de l'île divisé par 100.
-Cependant, ce besoin sera rarement satisfait car les navires ont généralement des choses plus importantes à faire.
+Cependant, ce besoin sera rarement satisfait car les bateaux ont généralement des choses plus importantes à faire.
 
 Le problème ici est plutôt ennuyeux ou ne peut pas être décrit comme un problème.
 Ce n'est que pendant le transport que des « décisions » doivent être réellement prises.

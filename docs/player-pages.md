@@ -22,7 +22,7 @@ If you have your own or know one that is still missing here, please just add it.
 - [Inter-dimensional Tea and Trading Company GmbH] 1st World
 - [Dwarves of Brogar's Clan] 4th World
 
-### Ehemalige Spieler und Bündnisse
+### Former players and alliances
 
 - [Imperium Romanum] Western 6th World
 - [KBC]

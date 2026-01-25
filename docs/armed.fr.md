@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: arme-et-pret-au-combat
 ---
 # Armé et prêt au combat

@@ -1,10 +1,10 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-comment-fr
 ---
 # Commentaire (;)
 
-Le point-virgule « ; » est utilisé dans les commandes Eressea pour marquer les commentaires (temporaires).
+Le point-virgule « ; » est utilisé dans les ordres Eressea pour marquer les commentaires (temporaires).
 Certains de ces commentaires sont insérés « automatiquement ».
 Par exemple, le [[ordres|modèle d'ordres]] standard contient toujours les noms des régions et des unités, le nombre de personnes et leur réserve d'argent en guise de commentaire.
 De plus, les commentaires sont également utilisés pour fournir au programme [[echeck]] certaines informations, comme les salaires dans une région.
@@ -39,7 +39,7 @@ REGION 85,-48 ; Darkland (Plain, 290 people, $4270 Silver)
 ; Material pool: 4270 Silver, 1 Speer
 
 ; -   -   -   -   -   -   -   -   -   -   -   -
-; Dans un champ ouvert:
+; Dans un champ ouvert :
 
 UNIT ub2;  Handyman [3,0$] flieht
 ; Weight: 60.00GE Walking: 32.40GE/32.40GE

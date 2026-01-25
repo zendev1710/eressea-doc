@@ -6,26 +6,32 @@ alias: xontormia-express
 
 ## What is the Xontormia Express?
 
-The Xontormia Express is the newspaper for Eressea, whose articles are written by players.
-It is the place for propaganda and fantasies of all kinds.
-It appeared intermittently in various media and was temporarily discontinued in 2008 due to insufficient participation.
+The Xontormia Express is the newspaper for Eressea, whose articles are written by players.  
+It is the place for propaganda and fantasies of all kinds.  
+It appeared intermittently in various media and was temporarily discontinued in 2008 due to insufficient participation.  
 It was reintroduced in 2015.
-It is sent together with the report and appears weekly as long as articles have been submitted.
+
+It is sent together with the report and appears weekly as long as articles have been submitted.  
 Each issue is stored in the [Archive] after publication.
 
 ## Structure of the articles
 
-The Xontormia Express divides the articles into worlds.
-The world for which the article was written or in which the respective story takes place should always be mentioned first.
+The Xontormia Express divides the articles into worlds.  
+The world for which the article was written or in which the respective story takes place should always be mentioned first.  
 You can write about anything that happens in the world of Eressea, as long as the obvious rules are followed.
 
 If the article refers to a story that has already been written, please include a full link so readers can make the connection.
 
 After specifying the world, please write the title of your article two lines below.
 
-After another free line you can write your article, which can be as long as you want, it can have paragraphs and empty lines, just not an absurd number of them. Each line should wrap at approximately 80 characters. "=" can already be placed around the headings. Two "=" around the world information, 3 "=" around the title of the article (this makes it easier to transfer to the online archive :-) ).
+After another free line you can write your article, which can be as long as you want.  
+It can have paragraphs and empty lines, just not an absurd number of them.
+Each line should wrap at approximately 80 characters.  
+"=" can already be placed around the headings.
+Two "=" around the world information, 3 "=" around the title of the article (this makes it easier to transfer to the online archive :-).
 
-Please pay attention **paragraphs** insert where it seems sensible for the flow of the text. This will help insert the text into the archive.
+Please pay attention **paragraphs** insert where it seems sensible for the flow of the text.  
+This will help insert the text into the archive.
 
 An article should end with the name of the author.
 

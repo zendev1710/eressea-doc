@@ -1,27 +1,31 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-leave-fr
 ---
-# LEAVE
+# `LEAVE`
 
 **`LEAVE`**  
 
-The unit will abandon the ship or the building in which it is located.
-If you use the [[cmd-enter]] or [[cmd-move]] orders, the units will sometimes automatically leave their ships and buildings.
-However, this doesn't always work: if the unit is the captain of a ship and uses MOVE, it will attempt to sail in that direction, even if there is land there.
-Captains must first 'LEAVE' their ship, but all other sailors can use 'MOVE' to move over land and automatically leave the ship.
+Avec cet ordre, L'unité abandonne le bateau ou le bâtiment dans lequel elle se trouve.  
 
-If a unit leaves a building or a ship over which it has command, this does not necessarily pass to the following unit in the report.
-Here you should use [[cmd-give|`GIVE unit-id COMMAND`]] let the handover of command take place in a controlled manner.
-The order of the units during the evaluation is not always that of the report.
-If your own units are in the building or on the ship, the order falls to them.
+En utilisant l'ordre [[cmd-enter]] ou [[cmd-move]], les unités quitteront parfois automatiquement leurs bateaux ou leurs bâtiments.
+Cependant, cela ne fonctionne pas toujours : si l'unité est le capitaine d'un bateau et utilise l'ordre `MOVE`, elle tentera de naviguer dans la direction voulue, même s'il y a une terre à cet endroit.  
 
-If the unit is on a ship and the region is guarded by a non-allied faction, it must first leave the ship if it wants to carry out certain actions.
-For more information, see [[cmd-guard]].
-The leave order does not work on the open sea.
-One way to still let people jump overboard is "Give 0[number]People".
-Another Aquarian-only solution that doesn't kill people is [swimming].
+Un capitaine doit d'abord quitter son bateau, avec l'ordre `LEAVE`;
+Les autres marins peuvent utiliser l'ordre `MOVE` pour se déplacer sur terre et quitter automatiquement le bateau.
+
+Si une unité quitte un bâtiment ou un bateau dont elle a le commandement, cela ne passe pas nécessairement à l'unité suivante dans le rapport.  
+Dans cette situation, il est préférable d'utiliser [[cmd-give|`GIVE unit-id COMMAND`]], pour contrôler la passation du commandement.  
+L'ordre des unités lors de l'évaluation n'est pas toujours celui du rapport.
+Si vos propres unités se trouvent dans le bâtiment ou sur le bateau, le commandement leur reviendra.
+
+Si l'unité est sur un bateau et que la région est gardée par une faction non alliée, elle doit d'abord quitter le bateau si elle souhaite effectuer certaines actions.  
+Pour plus d'informations, consultez [[cmd-guard]].  
+
+L’ordre `LEAVE` ne fonctionne pas en haute mer.
+Une façon de laisser les gens sauter par-dessus bord est de donner l'ordre `GIVE 0 [number] MEN`.  
+Une autre solution **réservée aux Aquariens** et qui ne tue pas de membres de l'unité est de [nager].
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
 
-[swimming]: ./sailing.md#nager
+[nager]: ./sailing.md#nager

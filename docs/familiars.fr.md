@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: familiers
 ---
 # Familiers
@@ -16,7 +16,7 @@ Dans de rares cas, cependant, il peut s'agir d'êtres doués de magie qui se lai
 Ces sorts peuvent être totalement différents de ceux que leur maître maîtrise.  
 Cependant, ces familiers ont également la capacité d'accéder aux sorts de leur mage.  
 
-De plus, de nombreux familiers peuvent apprendre certains talents ou ont des compétences particulières.  
+De plus, de nombreux familiers peuvent apprendre certaines compétences ou ont des compétences particulières.  
 Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant.  
 Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise.  
 Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show]].  
@@ -34,7 +34,7 @@ Caractéristiques d'un Aigle.
 
 | PV | Résistance à la magie | Attaque | Défense | Armure naturelle |
 |:--:|:---------------------:|:-------:|:-------:|:----------------:|
-| 15 |           0           |    6    |    2    |         4        |
+| 15 |           0           |    6    |    2    |        4         |
 
 2 attaques : **1** attaque magique, **1** attaque sans arme **2d3**.  
 
@@ -132,7 +132,7 @@ Caractéristiques d'un Fantôme.
 |:-----:|:----------:|:-----:|:----------------------:|:----------:|-----|:----------:|:---------:|:-------------------:|
 |  +1   |     -2     |  +0   |           +0           |     +0     | +0  |     +0     |    +0     |         +0          |
 
-### Goblin
+### Gobelin
 
 Les [Gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.  
 
@@ -365,57 +365,57 @@ D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent
 Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes races de familiers.  
 Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
 
-| Eigenschaft                | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Hellcat | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
-|----------------------------|------:|------:|--------:|--------:|------:|----:|--------:|-------:|--------:|--------:|-----:|-------:|----:|--------------:|----------------:|----------:|------:|---------:|----------------:|-----:|
-| Points de Vie              |    15 |    50 |      24 |      40 |     9 |   6 |      30 |     16 |      40 |     300 |   20 |     15 |  10 |           900 |              40 |        10 |    30 |       10 |             300 |   25 |
-| Poids \[kg\]               |     5 |    10 |       5 |       5 |     5 |   2 |       5 |      6 |       5 |       5 |    5 |     10 |   1 |            16 |              10 |         5 |     5 |        5 |             300 |    5 |
-| Capacité \[kg\]            |   5,4 |   5,4 |     5,4 |      20 |   5,4 | 5,4 |     5,4 |    4,4 |     5,4 |     5,4 |  5,4 |    5,4 | 5,4 |             6 |               6 |       5,4 |   5,4 |      5,4 |             100 |  5,4 |
-| Armure naturelle           |     0 |     2 |       0 |       0 |     0 |   0 |       5 |      0 |       0 |       0 |    0 |      0 |   0 |             7 |               1 |         1 |     0 |        0 |               6 |    0 |
-| Résistance à la magie      |     0 |    15 |       0 |      90 |     0 |  80 |     100 |     -5 |      50 |       0 |    0 |     90 |   0 |             0 |              99 |        50 |     0 |       50 |              80 |    0 |
-| Propre magie               |       |       |         |     oui |       | oui |     oui |        |         |         |      |    oui |     |               |             oui |       oui |       |      oui |                 |      |
-| Peut aller dans les terres |   oui |   oui |         |     oui |   oui | oui |     oui |    oui |     oui |         |  oui |    oui | oui |           oui |             oui |       oui |   oui |      oui |             oui |  oui |
-| Peut nager                 |   oui |       |     oui |         |   oui | oui |     oui |        |         |     oui |      |        |     |           oui |             oui |       oui |       |      oui |                 |      |
-| Peut utiliser une armure   |       |   oui |         |         |       | oui |     oui |    oui |         |         |      |    oui |     |               |                 |       oui |       |          |                 |      |
+| Eigenschaft                | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Gobelin | Chat de l'Enfer | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
+|----------------------------|------:|------:|--------:|--------:|------:|----:|--------:|--------:|----------------:|--------:|-----:|-------:|----:|--------------:|----------------:|----------:|------:|---------:|----------------:|-----:|
+| Points de Vie              |    15 |    50 |      24 |      40 |     9 |   6 |      30 |      16 |              40 |     300 |   20 |     15 |  10 |           900 |              40 |        10 |    30 |       10 |             300 |   25 |
+| Poids \[kg\]               |     5 |    10 |       5 |       5 |     5 |   2 |       5 |       6 |               5 |       5 |    5 |     10 |   1 |            16 |              10 |         5 |     5 |        5 |             300 |    5 |
+| Capacité \[kg\]            |   5,4 |   5,4 |     5,4 |      20 |   5,4 | 5,4 |     5,4 |     4,4 |             5,4 |     5,4 |  5,4 |    5,4 | 5,4 |             6 |               6 |       5,4 |   5,4 |      5,4 |             100 |  5,4 |
+| Armure naturelle           |     0 |     2 |       0 |       0 |     0 |   0 |       5 |       0 |               0 |       0 |    0 |      0 |   0 |             7 |               1 |         1 |     0 |        0 |               6 |    0 |
+| Résistance à la magie      |     0 |    15 |       0 |      90 |     0 |  80 |     100 |      -5 |              50 |       0 |    0 |     90 |   0 |             0 |              99 |        50 |     0 |       50 |              80 |    0 |
+| Propre magie               |       |       |         |     oui |       | oui |     oui |         |                 |         |      |    oui |     |               |             oui |       oui |       |      oui |                 |      |
+| Peut aller dans les terres |   oui |   oui |         |     oui |   oui | oui |     oui |     oui |             oui |         |  oui |    oui | oui |           oui |             oui |       oui |   oui |      oui |             oui |  oui |
+| Peut nager                 |   oui |       |     oui |         |   oui | oui |     oui |         |                 |     oui |      |        |     |           oui |             oui |       oui |       |      oui |                 |      |
+| Peut utiliser une armure   |       |   oui |         |         |       | oui |     oui |     oui |                 |         |      |    oui |     |               |                 |       oui |       |          |                 |      |
 
-| Compétence               | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Goblin | Hellcat | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
-|--------------------------|:-----:|:-----:|:-------:|:-------:|:-----:|:---:|:-------:|:------:|:-------:|:-------:|:----:|:------:|:---:|:-------------:|:---------------:|:---------:|:-----:|:--------:|:---------------:|:----:|
-| Alchimie                 |       |  +2   |         |         |       |     |         |   +1   |         |         |      |   +0   |     |               |                 |           |       |          |                 |      |
-| Tir à l'arbalète         |       |  +0   |         |         |       |     |         |   +0   |         |         |      |   +0   |     |               |                 |           |       |          |                 |      |
-| Endurance                |  +0   |  +0   |   +0    |   +0    |  +0   | +0  |   +0    |   +0   |   +0    |   +0    |  +0  |   -1   | +0  |      +0       |       +0        |    +0     |  +0   |    +0    |       +2        |  +0  |
-| Extraction minière       |       |  ++0  |         |         |       |     |         |   +1   |         |         |      |        |     |               |                 |           |       |          |       +10       |      |
-| Tir à l'arc              |       |  +0   |         |         |       |     |         |   +0   |         |         |      |   +2   |     |               |                 |           |       |          |                 |      |
-| Maçonnerie               |       |  +0   |         |         |       |     |         |   +1   |         |         |      |        |     |               |                 |           |       |          |                 |      |
-| Commerce                 |       |  -3   |         |         |       |     |         |   -1   |         |         |      |   -2   |     |               |                 |           |       |          |                 |      |
-| Mêlée                    |       |  +1   |         |         |       | -1  |   +0    |   +0   |         |         |      |   +0   |     |               |                 |    +0     |       |    +0    |                 |      |
-| Sylviculture             |       |  +1   |         |         |       |     |         |   +0   |         |         |      |        |     |               |                 |           |       |          |       +10       |      |
-| Tir à la catapulte       |       |  +0   |         |         |       |     |         |   +1   |         |         |      |        |     |               |                 |           |       |          |                 |      |
-| Herboristerie            |       |  -3   |         |         |       |     |         |   +0   |         |         |  +1  |   +4   |     |               |                 |           |       |          |                 |      |
-| Magie                    |  +0   |  +1   |   +0    |   +2    |  +0   | +1  |   +1    |   -1   |   +0    |   +0    |  +0  |   +1   | +0  |      +0       |       +1        |    +1     |  +0   |    +1    |       +0        |  +0  |
-| Apprivoisement           |       |  -3   |         |         |       |     |         |   +0   |         |         |  +1  |   +5   |     |               |                 |           |       |          |                 |      |
-| Équitation               |       |  -1   |         |         |       | -1  |   -2    |   +0   |         |         |      |   +5   |     |               |                 |    -1     |       |          |                 |      |
-| Fabrication d'armures    |       |  +0   |         |         |       |     |         |   +0   |         |         |      |   -2   |     |               |                 |           |       |          |                 |      |
-| Construction navale      |       |  -1   |         |         |       |     |         |   -2   |         |         |      |        |     |               |                 |           |       |          |                 |      |
-| Voile                    |       |  -1   |         |         |       |     |         |   -2   |         |         |      |   -2   |     |               |                 |           |       |          |                 |      |
-| ESpionnage               |  +0   |  +0   |   +0    |   +0    |  +1   | +2  |   +0    |   +0   |   +0    |   +0    |  +0  |   +0   | +5  |      +0       |       +0        |    +1     |  +0   |    +1    |       +0        |  +0  |
-| Combat à l'arme d'hast   |       |  +1   |         |         |       | -1  |   +0    |   +0   |         |         |      |   +0   |     |               |                 |    +0     |       |    +0    |                 |      |
-| Extraction de pierres    |       |  +0   |         |         |       |     |         |   +0   |         |         |      |        |     |               |                 |           |       |          |       +10       |      |
-| Taxation                 |       |  +1   |         |         |       |     |         |   +0   |         |         |      |   -2   |     |               |                 |    +1     |       |    +1    |                 |      |
-| Construction de routes   |       |  +0   |         |         |       |     |         |   -2   |         |         |      |        |     |               |                 |           |       |          |                 |      |
-| Tactique                 |       |  -1   |   +0    |   +0    |       |     |         |   -2   |   +0    |   +0    |      |   -2   |     |               |                 |           |  +0   |          |                 |  +0  |
-| Vol/Camouflage           |       |  +1   |   +0    |   +4    |  +1   | +5  |   +0    |   +1   |   +0    |         |  +3  |   +3   | +4  |               |       +0        |    +1     |  +0   |    +1    |                 |  +0  |
-| Divertissement           |       |  -3   |         |         |       |     |         |   -1   |         |         |      |  +10   |     |               |                 |           |       |          |                 |      |
-| Fabrication d'armes      |       |  +1   |         |         |       |     |         |   +0   |         |         |      |   -2   |     |               |                 |           |       |          |                 |      |
-| Combat à mains nues      |  +0   |   -   |   +0    |   +0    |  +0   | +0  |   +0    |   -    |   +0    |   +0    |  +0  |   +0   | +0  |      +0       |       +0        |    +0     |  +0   |    +0    |       +0        |  +0  |
-| Construction de chariots |       |  -2   |         |         |       |     |         |   -1   |         |         |      |   -2   |     |               |                 |           |       |          |                 |      |
-| Perception               |  +2   |  +1   |   +1    |   +5    |  +5   | +2  |   +0    |   +0   |   +1    |   +1    |  +4  |   +2   | +2  |      +1       |       +0        |    +1     |  +1   |    +1    |                 |  +2  |
+| Compétence               | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Gobelin | Chat de l'Enfer | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
+|--------------------------|:-----:|:-----:|:-------:|:-------:|:-----:|:---:|:-------:|:-------:|:---------------:|:-------:|:----:|:------:|:---:|:-------------:|:---------------:|:---------:|:-----:|:--------:|:---------------:|:----:|
+| Alchimie                 |       |  +2   |         |         |       |     |         |   +1    |                 |         |      |   +0   |     |               |                 |           |       |          |                 |      |
+| Tir à l'arbalète         |       |  +0   |         |         |       |     |         |   +0    |                 |         |      |   +0   |     |               |                 |           |       |          |                 |      |
+| Endurance                |  +0   |  +0   |   +0    |   +0    |  +0   | +0  |   +0    |   +0    |       +0        |   +0    |  +0  |   -1   | +0  |      +0       |       +0        |    +0     |  +0   |    +0    |       +2        |  +0  |
+| Extraction minière       |       |  ++0  |         |         |       |     |         |   +1    |                 |         |      |        |     |               |                 |           |       |          |       +10       |      |
+| Tir à l'arc              |       |  +0   |         |         |       |     |         |   +0    |                 |         |      |   +2   |     |               |                 |           |       |          |                 |      |
+| Maçonnerie               |       |  +0   |         |         |       |     |         |   +1    |                 |         |      |        |     |               |                 |           |       |          |                 |      |
+| Commerce                 |       |  -3   |         |         |       |     |         |   -1    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
+| Mêlée                    |       |  +1   |         |         |       | -1  |   +0    |   +0    |                 |         |      |   +0   |     |               |                 |    +0     |       |    +0    |                 |      |
+| Sylviculture             |       |  +1   |         |         |       |     |         |   +0    |                 |         |      |        |     |               |                 |           |       |          |       +10       |      |
+| Tir à la catapulte       |       |  +0   |         |         |       |     |         |   +1    |                 |         |      |        |     |               |                 |           |       |          |                 |      |
+| Herboristerie            |       |  -3   |         |         |       |     |         |   +0    |                 |         |  +1  |   +4   |     |               |                 |           |       |          |                 |      |
+| Magie                    |  +0   |  +1   |   +0    |   +2    |  +0   | +1  |   +1    |   -1    |       +0        |   +0    |  +0  |   +1   | +0  |      +0       |       +1        |    +1     |  +0   |    +1    |       +0        |  +0  |
+| Apprivoisement           |       |  -3   |         |         |       |     |         |   +0    |                 |         |  +1  |   +5   |     |               |                 |           |       |          |                 |      |
+| Équitation               |       |  -1   |         |         |       | -1  |   -2    |   +0    |                 |         |      |   +5   |     |               |                 |    -1     |       |          |                 |      |
+| Fabrication d'armures    |       |  +0   |         |         |       |     |         |   +0    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
+| Construction navale      |       |  -1   |         |         |       |     |         |   -2    |                 |         |      |        |     |               |                 |           |       |          |                 |      |
+| Voile                    |       |  -1   |         |         |       |     |         |   -2    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
+| ESpionnage               |  +0   |  +0   |   +0    |   +0    |  +1   | +2  |   +0    |   +0    |       +0        |   +0    |  +0  |   +0   | +5  |      +0       |       +0        |    +1     |  +0   |    +1    |       +0        |  +0  |
+| Combat à l'arme d'hast   |       |  +1   |         |         |       | -1  |   +0    |   +0    |                 |         |      |   +0   |     |               |                 |    +0     |       |    +0    |                 |      |
+| Extraction de pierres    |       |  +0   |         |         |       |     |         |   +0    |                 |         |      |        |     |               |                 |           |       |          |       +10       |      |
+| Taxation                 |       |  +1   |         |         |       |     |         |   +0    |                 |         |      |   -2   |     |               |                 |    +1     |       |    +1    |                 |      |
+| Construction de routes   |       |  +0   |         |         |       |     |         |   -2    |                 |         |      |        |     |               |                 |           |       |          |                 |      |
+| Tactique                 |       |  -1   |   +0    |   +0    |       |     |         |   -2    |       +0        |   +0    |      |   -2   |     |               |                 |           |  +0   |          |                 |  +0  |
+| Vol/Camouflage           |       |  +1   |   +0    |   +4    |  +1   | +5  |   +0    |   +1    |       +0        |         |  +3  |   +3   | +4  |               |       +0        |    +1     |  +0   |    +1    |                 |  +0  |
+| Divertissement           |       |  -3   |         |         |       |     |         |   -1    |                 |         |      |  +10   |     |               |                 |           |       |          |                 |      |
+| Fabrication d'armes      |       |  +1   |         |         |       |     |         |   +0    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
+| Combat à mains nues      |  +0   |   -   |   +0    |   +0    |  +0   | +0  |   +0    |    -    |       +0        |   +0    |  +0  |   +0   | +0  |      +0       |       +0        |    +0     |  +0   |    +0    |       +0        |  +0  |
+| Construction de chariots |       |  -2   |         |         |       |     |         |   -1    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
+| Perception               |  +2   |  +1   |   +1    |   +5    |  +5   | +2  |   +0    |   +0    |       +1        |   +1    |  +4  |   +2   | +2  |      +1       |       +0        |    +1     |  +1   |    +1    |                 |  +2  |
 
 ## Affectation des familiers
 
-Les familiers de différentes races peuvent rejoindre un magicien au hasard, mais pas complètement au hasard.  
+Les familiers de différentes races peuvent rejoindre un mage au hasard... mais pas complètement au hasard.  
 La sélection est déterminée par son École de Magie, sa race et son niveau de magie.  
 
 <!-- TODO: clarify this translation !? -->
-Dans le tableau suivant, la race du magicien qui tente de lier un familier à lui-même se trouve dans la première colonne.  
+Dans le tableau suivant, la race du mage qui tente de lier un familier à lui-même se trouve dans la première colonne.  
 La deuxième colonne contient la race de familier standard (familier principal) qui rejoint cette race de mage.  
 Dans les cinq colonnes suivantes se trouvent les races de familier attachées au mage en fonction de l'École de Magie qu'il a rejoint.  
 Avec 50%-100% (selon le niveau) la race de l'École de Magie est choisie, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que la race principale.  
@@ -437,7 +437,7 @@ Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de M
 | Humains   | Loup               | Dreamcat        | Hibou         | Hibou           | Aigle           | Diablotin   |
 | Insectes  | Fantôme            | Rat             | Hibou         | Rat             | Ver des tunnels | Diablotin   |
 | Nains     | Ver des tunnels    | Aigle           | Hibou         | Lynx            | Loup            | Rat         |
-| Orcs      | Goblin             | Fantôme         | Diablotin     | Rat             | Loup            | Démon       |
+| Orcs      | Gobelin            | Fantôme         | Diablotin     | Rat             | Loup            | Démon       |
 | Trolls    | Ver des tunnels    | Rat             | Rat           | Aigle           | Ver des tunnels | Loup        |
 
 Expériences de jeu :

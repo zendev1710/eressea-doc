@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-show-fr
 ---
-# SHOW
+# `SHOW`
 
 **`SHOW`**`"Spell"`  
 **`SHOW`**`"Item"`  

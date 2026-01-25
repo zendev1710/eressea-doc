@@ -2,7 +2,9 @@
 # cSpell:locale de
 alias: alchemie
 ---
-# Tränke
+# Alchemie
+
+## Tränke
 
 In der Welt von Eressea sind alchemistische Tränke nicht nur einfache Gebräue – sie sind mächtige Werkzeuge, die das Blatt wenden und das Schicksal eines Volkes stark beeinflussen können, zum Beispiel zur Unterstützung der Produktion, zur Stärkung der Truppen im Kampf oder um ein Volk besser gedeihen zu lassen.
 
@@ -17,6 +19,36 @@ Tränke können der Einheit nutzen, die sie anwendet, auf andere Einheiten wirke
 Ein Trank wirkt normalerweise für 10 Personen bzw. Gegenstände (dies ist in den Rezepten auch angegeben), und zwar in der Runde, in der er benutzt wurde. Tränke, die auf die Gegenstände einer Einheit wirken, verfallen, wenn sie nicht benutzt werden können, weil die Einheit diese Gegenstände nicht (mehr) hat. Viele Tränke wirken so, dass zu viele Personen in der Einheit nichts ausmachen, d.h. bei 12 Personen und einem Trank (wirkt für 10) betrifft die Wirkung eben nur 10 der 12 Leute. Beim "Berserkerblut" ist dies nicht möglich, da im Kampf die Beteiligten nicht als Einheit auftreten. Hier ist es notwendig, dass vor dem Kampf alle Personen der Einheit die Wirkung des Trankes haben, da er sonst nicht wirkt!
 
 Die "Restwirkung" von Tränken verfällt nicht bei allen Tränken, so dass z.B. eine Person nach Anwendung von einem Gehirnschmalz oder Schaffenstrunk zehn Wochen von der Wirkung profitieren kann.
+
+### Berserkerblut
+
+### Gehirnschmalz
+
+### Schaffenstrunk
+
+### Dumpfbackenbrot
+
+### Elixier der Macht
+
+### Goliathwasser
+
+### Heiltrank
+
+### Pferdeglück
+
+### Wundsalbe
+
+### Bauernblut
+
+### Bauernlieb
+
+### Nestwärme
+
+### Trank der Wahrheit
+
+### Siebenmeilentee
+
+### Wasser des Lebens
 
 ## Trankliste
 

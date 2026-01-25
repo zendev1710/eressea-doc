@@ -1,18 +1,19 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-locale-fr
 ---
-# LOCALE
+# `LOCALE`
 
 **`LOCALE`**`en`  
 **`LOCALE`**`de`  
 
-The order has no real function.
-It can be used in the opening credits, outside of units, to display the language of the orders.
-It can be used by tools to correctly interpret the orders.
-However, the server doesn't care, it always tries to interpret the orders in the currently set language!
+L'ordre n'a pas de véritable fonction.
+Il peut être utilisé en début du fichier d'ordres, en dehors des unités, pour afficher la langue dans laquelle les ordres sont donnés.  
 
-On the other hand, if it is given by a unit, it is a synonym of [[cmd-language]].
-Preferably that order should be given.
+Il peut être utilisé par des outils pour interpréter correctement les ordres.  
+Cependant, le serveur ignore cet ordre, il essaie toujours d'interpréter les ordres dans la langue configurée !
+
+En revanche, s'il est donné **par une unité**, c'est un synonyme de [[cmd-language]].  
+Il est préférable que cet ordre soit passé.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LOCALE&oldid=6692] -->

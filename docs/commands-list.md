@@ -4,19 +4,18 @@ alias: orders-list
 ---
 # List of orders
 
-Under `S`/`L` it is noted whether the [[orders|order]] is a short or long order.
-A unit can only execute one long order per round, but can execute any number of short ones.
+Under `S`/`L` it is noted whether the [[orders|order]] is a Short or Long order.  
+A unit can only execute one long order per round, but can execute any number of short ones.  
 
-`PL` denotes one [[orders|pseudo-long order]], which can be given multiple times to a unit.
-However, no other long order can be executed.
-Further information can be found on the respective orders page.
+`PL` denotes one [[orders|Pseudo-Long order]], which can be given multiple times to a unit.  
+However, no other long order can be executed.  
 
-Short list of orders.
+More information: [[orders]].  
 
 <!-- A link containing brackets (e.g. [BEWACHE  &#91;NICHT&#93;) cannot be used as a reference link -->
 <!-- instead, replace by HTML escape codes (e.g. [BEWACHE &#91;[NICHT&#93;) or use inline link [...](<link>) -->
 
-| Order                                                                      | Description                                | K/L    |
+| Order                                                                      | Description                                | S/L    |
 |----------------------------------------------------------------------------|--------------------------------------------|--------|
 | [//]                                                                       | Lasting comment                            | S      |
 | [ATTACK &lt;unit id&gt;]                                                   | Attacks the unit                           | PL[^1] |
@@ -36,7 +35,7 @@ Short list of orders.
 | [CONTACT &lt;unit id&gt;]                                                  | Contact foreign units                      | S      |
 | [DEFAULT "Orders"]                                                         | Sets default order for the next round      | S      |
 | [DESCRIBE BUILDING "&lt;text&gt;"]                                         |                                            | S      |
-| [DESCRIBE PRIVAT "&lt;text&gt;"]                                           |                                            | S      |
+| [DESCRIBE PRIVATE "&lt;text&gt;"]                                          |                                            | S      |
 | [DESCRIBE REGION "&lt;text&gt;"]                                           |                                            | S      |
 | [DESCRIBE SHIP "&lt;text&gt;"]                                             |                                            | S      |
 | [DESCRIBE UNIT "&lt;text&gt;"]                                             | Describes objects                          | S      |
@@ -62,7 +61,7 @@ Short list of orders.
 | [GIVE 0 &lt;number&gt; MEN]                                                |                                            | S      |
 | [GIVE 0 &lt;number&gt; SILVER]                                             | Gives items to the farmers                 | S      |
 | [GROUP &#91;"&lt;name&gt;"&#93;]                                           | Grouping units                             | S      |
-| [GROW PFERDE]                                                              | Breed horses - only in horse breeding      | L      |
+| [GROW HORSES]                                                              | Breed horses - only in horse breeding      | L      |
 | [GUARD &#91;NOT&#93;]                                                      | Guards the region                          | S      |
 | [HELP &lt;faction id&gt; ALL &#91;NOT&#93;]                                | Sets/deletes one-sided alliance            | S      |
 | [HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]                             |                                            | S      |
@@ -81,13 +80,13 @@ Short list of orders.
 | [LOCALE en/de]                                                             | displays the language of the orders        | S      |
 | [[cmd-make]]                                                               | Continue to build buildings/ships          | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]                               | MAKE an item or mine resources             | L      |
-| [MAKE &#91;&lt;amount&gt;&#93; &lt;herb&gt;]                               | Look for local herbs                       | L      |
-| [MAKE &#91;&lt;amount&gt;&#93; trank]                                      | MAKE an alchemical potion                  | L      |
+| [MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]                              | Look for local herbs                       | L      |
+| [MAKE &#91;&lt;amount&gt;&#93; potion]                                     | MAKE an alchemical potion                  | L      |
 | [MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;] | Expand or build new building               | L      |
 | [MAKE &#91;level&#93; &lt;ship-type&gt;]                                   | Build new ships                            | L      |
 | [MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]                      | Continue building the ship                 | L      |
 | [MAKE &#91;level&#93; STREET direction]                                    | Build roads                                | L      |
-| [MAKE TEMP unit-alias-nr &#91;"&lt;name&gt;"&#93;]                         | Create new unity                           | S      |
+| [MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]                         | Create new unity                           | S      |
 | [MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]                      | Sends messages                             | S      |
 | [MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]                        |                                            | S      |
 | [MESSAGE REGION "&lt;text&gt;"]                                            | Sends messages                             | S      |
@@ -155,10 +154,10 @@ Short list of orders.
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Uses alchemical potion                     | S      |
 | [[cmd-work]]                                                               | Earns 10 silver or more                    | L      |
 
-[^1]: the order is not always long, see [The end of the battle]  
-[^2]: if the tracked unit does not move, another long order can be executed instead  
-[^3]: a BUY and several SELL commands can be combined  
-[^4]: a unit can cast multiple spells  
+[^1]: the order is not always long, see [The end of the battle]
+[^2]: if the tracked unit does not move, another long order can be executed instead
+[^3]: a `BUY` and several `SELL` orders can be combined
+[^4]: a unit can cast multiple spells
 
 ## See also
 
@@ -187,7 +186,7 @@ Continue reading: [[first-round]].
 [CONTACT &lt;unit id&gt;]: ./cmd-contact.md
 [DEFAULT "Orders"]: ./cmd-default.md
 [DESCRIBE BUILDING "&lt;text&gt;"]: ./cmd-describe.md
-[DESCRIBE PRIVAT "&lt;text&gt;"]: ./cmd-describe.md
+[DESCRIBE PRIVATE "&lt;text&gt;"]: ./cmd-describe.md
 [DESCRIBE REGION "&lt;text&gt;"]: ./cmd-describe.md
 [DESCRIBE SHIP "&lt;text&gt;"]: ./cmd-describe.md
 [DESCRIBE UNIT "&lt;text&gt;"]: ./cmd-describe.md
@@ -212,7 +211,7 @@ Continue reading: [[first-round]].
 [GIVE 0 &lt;number&gt; MEN]: ./cmd-give.md
 [GIVE 0 &lt;number&gt; SILVER]: ./cmd-give.md
 [GROUP &#91;"&lt;name&gt;"&#93;]: ./cmd-group.md
-[GROW PFERDE]: ./cmd-grow.md
+[GROW HORSES]: ./cmd-grow.md
 [GUARD &#91;NOT&#93;]: ./cmd-guard.md
 [HELP &lt;faction id&gt; ALL &#91;NOT&#93;]: ./cmd-help.md
 [HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]: ./cmd-help.md
@@ -228,14 +227,14 @@ Continue reading: [[first-round]].
 [LEARN &lt;skill&gt;]: ./cmd-learn.md
 [LEARN AUTO &lt;skill&gt;]: ./cmd-learn-auto.md
 [LOCALE en/de]: ./cmd-locale.md
-[MAKE &#91;&lt;amount&gt;&#93; &lt;herb&gt;]: ./cmd-make.md
+[MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]: ./cmd-make.md
 [MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]: ./cmd-make.md
-[MAKE &#91;&lt;amount&gt;&#93; trank]: ./cmd-make.md
+[MAKE &#91;&lt;amount&gt;&#93; Potion]: ./cmd-make.md
 [MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;]: ./cmd-make.md
 [MAKE &#91;level&#93; &lt;ship-type&gt;]: ./cmd-make.md
 [MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]: ./cmd-make.md
 [MAKE &#91;level&#93; STREET direction]: ./cmd-make.md
-[MAKE TEMP unit-alias-nr &#91;"&lt;name&gt;"&#93;]: ./cmd-make.md
+[MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]: ./cmd-make.md
 [MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]: ./cmd-message.md
 [MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]: ./cmd-message.md
 [MESSAGE REGION "&lt;text&gt;"]: ./cmd-message.md

@@ -1,29 +1,18 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: chateaux
 ---
 # Châteaux
 
-Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et, enfin, offrent à leurs occupants une protection en cas d'attaque.
+Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et, enfin, offrent à leurs occupants une protection en cas d'attaque.  
 Ils réduisent également la probabilité de [[peste]].
 
-Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] et de la compétence [maconnerie].
+Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie].  
 Un château entre dans une nouvelle catégorie selon sa taille :
 
-<!-- TODO: choose best table format -->
-| Size |      1     |         2         |      10       |  50   |   250   |    1250    |   6250+   |
-|------|:----------:|:-----------------:|:-------------:|:-----:|:-------:|:----------:|:---------:|
-| Type | Fondations | Poste de commerce | Fortification | Tower | Bastion | Forteresse | Citadelle |
-
-| Type              | Taille |
-|-------------------|-------:|
-| Fondations        |      1 |
-| Poste de commerce |      2 |
-| Fortification     |     10 |
-| Tour              |     50 |
-| Bastion           |    250 |
-| Forteresse        |   1250 |
-| Citadelle         |   6250 |
+| Taille |     1      |         2         |      10       |  50   |   250   |   1 250    |  6 250+   |
+|:------:|:----------:|:-----------------:|:-------------:|:-----:|:-------:|:----------:|:---------:|
+|  Type  | Fondation | Poste de commerce | Fortification | Tower | Bastion | Forteresse | Citadelle |
 
 Plus le château est grand, plus il est difficile de l'agrandir.  
 Pour continuer à construire un château, vous devez avoir au moins la compétence Maçonnerie au niveau requis.  
@@ -32,7 +21,7 @@ Chaque semaine, l'unité agrandit le bâtiment de PP/(niveau de compétence requ
 Les pierres nécessaires doivent également être disponibles.  
 Vous pouvez facilement construire une tour en une semaine avec une unité suffisamment grande et compétente et suffisamment de pierres.  
 
-Un chateau a aussi un identifiant (ID), utilisé pour les ordres.  
+Un château a aussi un identifiant (ID), utilisé pour les ordres.  
 
 Premier exemple de château :
 
@@ -48,6 +37,48 @@ Seules les personnes protégées bénéficient du bonus qu'un château donne à 
 Chaque unité de taille du château nécessite une pierre.  
 
 Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi [tableau du bas]), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.  
+
+## Fondation
+
+<!-- cspell:disable -->
+*Foundation (EN), Grundmauern (DE)*.
+<!-- cspell:enable -->
+
+## Poste de commerce
+
+<!-- cspell:disable -->
+*Tradepost (EN), Handelsposten (DE)*.
+<!-- cspell:enable -->
+
+## Fortification
+
+<!-- cspell:disable -->
+*Fortification (EN), Befestigung (DE)*.
+<!-- cspell:enable -->
+
+## Tour
+
+<!-- cspell:disable -->
+*Tower (EN), Turm (DE)*.
+<!-- cspell:enable -->
+
+## Bastion
+
+<!-- cspell:disable -->
+*Stronghold (EN), Burg (DE)*.
+<!-- cspell:enable -->
+
+## Forteresse
+
+<!-- cspell:disable -->
+*Fortress (EN), Festung (DE)*.
+<!-- cspell:enable -->
+
+## Citadelle
+
+<!-- cspell:disable -->
+*Citadel (EN), Zitadelle (DE)*.
+<!-- cspell:enable -->
 
 ## Exemples
 
@@ -70,15 +101,15 @@ Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours su
 
 Construction de châteaux : type, niveau minimum de compétence en maçonnerie, bonus salaire (en silvers), part du commerce et bonus de défense.  
 
-| Type              | Niv. | Bonus salaire | Part commerce | Bonus Déf. |
-|-------------------|-----:|--------------:|--------------:|-----------:|
-| Fondations        |    1 |            -- |            -- |          0 |
-| Poste de commerce |    1 |            -- |            6% |          0 |
-| Fortification     |    2 |      1 silver |           12% |         +1 |
-| Tour              |    3 |     2 silvers |           18% |         +2 |
-| Bastion           |    4 |     3 silvers |           24% |         +3 |
-| Forteresse        |    5 |     4 silvers |           30% |         +4 |
-| Citadelle         |    6 |     5 silvers |           36% |         +5 |
+| Type              | Niv. | Bonus salaire | Part commerce | Bonus Défense |
+|-------------------|-----:|--------------:|--------------:|--------------:|
+| Fondation         |    1 |            -- |            -- |             0 |
+| Poste de commerce |    1 |            -- |            6% |             0 |
+| Fortification     |    2 |      1 silver |           12% |            +1 |
+| Tour              |    3 |      2 silver |           18% |            +2 |
+| Bastion           |    4 |      3 silver |           24% |            +3 |
+| Forteresse        |    5 |      4 silver |           30% |            +4 |
+| Citadelle         |    6 |      5 silver |           36% |            +5 |
 
 ## Voir aussi
 
@@ -91,8 +122,8 @@ Poursuivre la lecture : [[batiments-speciaux]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
 
-[tableau du bas]: ./castles.md/#apercu
+[tableau du bas]: ./castles.md#apercu
 
-[bonus et malus]: ./war.md#boni-et-mali
+[bonus et malus]: ./war.md#bonus-et-malus
 [revenus]: ./silver.md#revenus
-[maconnerie]: ./skills-list.md#maconnerie
+[maçonnerie]: ./skills-list.md#maconnerie "Masonry"

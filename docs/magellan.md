@@ -4,14 +4,17 @@ alias: magellan
 ---
 # Magellan
 
-Magellan is a full client for Eressea.
-You can use it to display your map, search, give orders, and all you have to do is leave the program to write emails to your allies.
-Almost. Magellan undergoes sporadic development, mainly when there are changes to the server. Features include:
+[Magellan] is a full client for Eressea.  
+You can use it to display your map, search, give orders, and all you have to do is leave the program to write emails to your allies.  
+Almost. Magellan undergoes sporadic development, mainly when there are changes to the server.  
 
 <!-- TODO: magellan screenshot 400X309 - should be where in the page ? -->
 ![Magellan 2 Screenshot](./assets/images/magellan-screenshot.png "Magellan 2 Screenshot")
 
-- Display map, units, region details, and all other report properties. The arrangement of the different windows can be freely adjusted
+Features include :
+
+- Display map, units, region details, and all other report properties.
+  The arrangement of the different windows can be freely adjusted
 - Comprehensive orders editor with autocompletion and syntax check
 - Extensive prediction functions, for example for the handover of items and routes
 - Extensive checking of orders and display of "open issues". Eliminates the need for additional tools such as [[echeck]]
@@ -27,23 +30,26 @@ Almost. Magellan undergoes sporadic development, mainly when there are changes t
 
 Please report bug reports and feature requests for Magellan on our [bug tracker].
 
-Magellan offers the option of sending orders directly from the program.
+Magellan offers the option of sending orders directly from the program.  
 What needs to be done, depending on the provider, is explained in [[sending-orders-from-magellan]].
 
-An older version of Magellan ("Magellan 1") is no longer being developed further.
-Although it has reached a stable state, newer developments of the server are not taken into account there.
-The latest available version is on Sourceforge.
+An older version of Magellan ([Magellan 1]) is no longer being developed further.  
+Although it has reached a stable state, newer developments of the Eressea server are not taken into account there.  
+
+The latest version of Magellan is available on this [download page].
 
 ## External links
 
-- [Magellan 2]
+- [Magellan]
+- [Magellan download page][download page]
 - [Bug tracker for Magellan][bug tracker]
 - [Magellan source code (for developers)]
-- [Magellan on Sourceforge (deprecated)]
+- [Magellan on Sourceforge (**deprecated**)][Magellan 1]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magellan&oldid=7285] -->
 
 [bug tracker]: https://magellan2.github.io/bugs/
-[Magellan 2]: https://magellan2.github.io
+[download page]: https://magellan2.github.io/en/download/
+[Magellan]: https://magellan2.github.io/en
 [Magellan source code (for developers)]: https://github.com/magellan2
-[Magellan on Sourceforge (deprecated)]: http://sourceforge.net/projects/magellan-client
+[Magellan 1]: http://sourceforge.net/projects/magellan-client

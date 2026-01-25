@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-help-fr
 ---
-# HELP
+# `HELP`
 
 <!-- TODO: replace PARTEITARNUNG -->
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  

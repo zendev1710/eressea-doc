@@ -29,6 +29,46 @@ Result will be something like :
 Be careful, fresh herbs don't last forever.  
 Herbs will rot with time.  
 
+## Bubblemorel
+
+## Bugleweed
+
+## Cave lichen
+
+## Cobalt fungus
+
+## Elvendear
+
+## Fjord fungus
+
+## Flatroot
+
+## Gapgrowth
+
+## Ice begonia
+
+## Knotroot
+
+## Mandrake
+
+## Owlsgaze
+
+## Rock weed
+
+## Sand reeker
+
+## Snowcrystal petal
+
+## Spider ivy
+
+## Tangy temerity
+
+## Waterfinder
+
+## White hemlocks
+
+## Windbag
+
 ## List of herbs
 
 List of herbs and their distribution.

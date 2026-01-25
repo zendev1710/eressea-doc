@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-quit-fr
 ---
-# QUIT
+# `QUIT`
 
 **`QUIT`**` ``"<mot de passe>"`  
 
@@ -21,7 +21,7 @@ Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s
 **`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 
 Il est également possible de fusionner deux factions d'une même race en utilisant l'ordre `QUIT`.  
-La deuxième variante est utilisée à cet effet : `QUIT "<mot de passe>" FACTION`` `*`faction-id`*, où le numéro de faction de l'autre faction doit être précisé.  
+La deuxième variante est utilisée à cet effet : `QUIT "<mot de passe>" FACTION`` `*`faction-id`*, où l'identifiant de faction de l'autre faction doit être précisé.  
 
 Les conditions requises pour la fusion des factions sont les suivantes :
 
@@ -39,7 +39,7 @@ Si la faction cible possède moins que le nombre maximum autorisé d'unités dot
 Les unités aux compétences limitées qui ne peuvent plus être transférées seront supprimées.  
 Si vous souhaitez contrôler cela avec précision, vous devez laisser les unités indésirables oublier la compétence correspondante, au plus tard au cours de la semaine d'abandon du jeu.
 
-Les magiciens ne sont remis que si les deux factions possèdent la même École de Magie.  
+Les mages ne sont remis que si les deux factions possèdent la même École de Magie.  
 Les familiers sont perdus car ils n'appartiennent pas à la race de faction.  
 Les héros sont rétrogradés par capitulation.  
 

@@ -30,11 +30,19 @@ Diebstahl stellt hin und wieder eine effektive Möglichkeit dar, Spione zur Stre
 
 ## Spionage
 
-Gibt eine Einheit mit dem Talent [Spionage] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen. Die Grundchance für einen erfolgreichen Spionageversuch ist 10%. Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%. Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren. Um eine Erfolgschance von 50% zu erreichen muss der Spion 8 Stufen besser sein. Lernt man nun wenigstens Tarnung 2 braucht der Spion überproportional länger um die 8 Stufen zu erreichen.
+Gibt eine Einheit mit dem Talent [Spionage] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen.  
+Die Grundchance für einen erfolgreichen Spionageversuch ist 10%.  
+Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%.  
+Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren.  
+Um eine Erfolgschance von 50% zu erreichen muss der Spion 8 Stufen besser sein.  
+Lernt man nun wenigstens Tarnung 2 braucht der Spion überproportional länger um die 8 Stufen zu erreichen.  
 
-Ist der Spionageversuch erfolgreich, erfährt der Spion den Kampfstatus, die Gegenstände im Besitz der Einheit und die Talente. Die Parteizugehörigkeit kann zusätzlich ermittelt werden, wenn das Spionagetalent mindestens 6 Talentstufen über dem Tarnungstalent der Einheit liegt. Eine hohe Tarnung ist also sinnvoll für eine gelungene Parteitarnung.
+Ist der Spionageversuch erfolgreich, erfährt der Spion den Kampfstatus, die Gegenstände im Besitz der Einheit und die Talente.  
+Die Parteizugehörigkeit kann zusätzlich ermittelt werden, wenn das Spionagetalent mindestens 6 Talentstufen über dem Tarnungstalent der Einheit liegt.  
+Eine hohe Tarnung ist also sinnvoll für eine gelungene Parteitarnung.  
 
-Anschließend wird - unabhängig vom Erfolg - gewürfelt, ob der Spionageversuch bemerkt wurde. Die Wahrscheinlichkeit dafür ist (100 − SpionageSpion \* 5 + WahrnehmungOpfer \* 2)%.
+Anschließend wird - unabhängig vom Erfolg - gewürfelt, ob der Spionageversuch bemerkt wurde.
+Die Wahrscheinlichkeit dafür ist (100 − SpionageSpion x 5 + WahrnehmungOpfer x 2) %.
 
 ## Einschätzung
 

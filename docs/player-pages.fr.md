@@ -1,38 +1,43 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: joueurs
 ---
 # Joueurs
 
-Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene hast, oder eine kennst, die hier noch fehlt, füge sie doch bitte einfach dazu.
+Les joueurs créent leurs propres sites Eressea depuis des temps immémoriaux.  
+Si vous avez le vôtre ou si vous en connaissez un qui manque encore ici, veuillez simplement l'ajouter.
 
-## Allgemeines
+## General
 
-- [Flickr Pool] für Eressea-Bilder.
+- [Flickr Pool] pour les images d'Eressea
 
-## Treffen
+## Rencontre
 
 - [Berlin 2009]
 
-## Partei- und Bündnisseiten
+## Pages de factions et d'alliances
 
-### Aktive Spieler
+### Joueurs actifs
 
-- [Interdimensionale Tee- und Handelsgesellschaft GmbH] 1. Welt
-- [Zwerge von Brogars Clan] 4. Welt
+<!-- cspell:disable -->
+- [Inter-dimensional Tea and Trading Company GmbH] 1er Monde
+- [Dwarves of Brogar's Clan] 4ème Monde
+<!-- cspell:enable -->
 
-### Ehemalige Spieler und Bündnisse
+### Anciens joueurs et alliances
 
-- [Imperium Romanum] Westliche 6. Welt.
+<!-- cspell:disable -->
+- [Imperium Romanum] 6ème Monde de l'Ouest
 - [KBC]
-- [Transozeanische Liga] Südliche 8. Welt. vernichtet.
+- [Transoceanic League] 8ème Monde du Sud. Détruit.
+<!-- cspell:enable -->
 
 <!-- From [https://wiki.eressea.de/index.php?title=Spielerseiten&oldid=17009] -->
 
 [Flickr Pool]: http://www.flickr.com/groups/eressea/
 [Berlin 2009]: http://www.mogulat.de/treffen/2009
-[Interdimensionale Tee- und Handelsgesellschaft GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
-[Zwerge von Brogars Clan]: http://www.cedrik.net/eressea/index.html
+[Inter-dimensional Tea and Trading Company GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
+[Dwarves of Brogar's Clan]: http://www.cedrik.net/eressea/index.html
 [Imperium Romanum]: http://roma.ste-net.de/nuntius.php4
 [KBC]: http://www.vorlon.ruhr.de/kbc.html
-[Transozeanische Liga]: http://www.fietefietz.de/eressea/TOL/
+[Transoceanic League]: http://www.fietefietz.de/eressea/TOL/

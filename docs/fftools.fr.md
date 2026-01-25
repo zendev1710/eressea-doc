@@ -1,26 +1,31 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: fftools2-fr
 ---
 # FFTools2
 
-FFTools2 are a plugin for [Magellan] for automatically creating orders for units.
+FFTools2 est un plugin pour [Magellan] permettant de créer automatiquement des ordres d'unités.  
 
-On the [official site] there is an introduction, installation instructions and complete help for the individual orders.
-Examples of usage are also available on the orders detail pages.
+Sur le [site officiel], vous trouverez une introduction, des instructions d'installation et une aide complète pour les ordres individuels.  
+Des exemples d'utilisation sont également disponibles sur les pages de détail des ordres.  
 
-The tool is aimed at players who have little or no experience with programming languages ​​and want to automate everyday tasks.
-It is not suitable for getting to know Eressea as a newcomer. Furthermore, issuing orders manually is fundamentally “more intelligent” than a decision made by the script.
+L'outil s'adresse aux joueurs qui ont peu ou pas d'expérience avec les langages de programmation et souhaitent automatiser les tâches quotidiennes.  
+Ce n'est pas adapté pour faire connaissance avec Eressea en tant que nouveau venu.
+De plus, émettre des ordres manuellement est fondamentalement « plus intelligent » qu’une décision prise par script.  
 
-The script is not AI. But it can quickly create usable orders for a large number of units, making it useful for large factions whose rulers view their available time as a critical resource.
-If you automate training, trade, construction, brewing and logistics, you have time for diplomacy (again).
+Le script n'est pas de l'IA.
+Mais il peut rapidement créer des ordres utilisables pour un grand nombre d'unités, ce qui le rend utile pour les grandes factions dont les dirigeants considèrent leur temps disponible comme une ressource critique.  
+Si vous automatisez la formation, le commerce, la construction, le brassage et la logistique, vous avez (encore) du temps pour la diplomatie.  
 
-The script orders include complete professions (//script Transport mode=auto), targeted orders over several rounds (//script SailTo X,Y) or very specific material flow instructions (//script Request 100 Stein 200).
-As comments in the unit orders, they are sent to the Eressea server and sent back from it and are available for the next script run.
-If necessary, the script orders can be revised and another script run can be started until the desired result is achieved.
-“Normal” Eressea orders can also be used in addition.
+Les scripts d'ordre incluent des ordres complets (script `Transport mode=auto`), des ordres ciblés sur plusieurs tours (script `SailTo X,Y`) ou des instructions de flux de matière très spécifiques (script `Request 100 Stein 200`).  
+En tant que commentaires dans les ordres d'unités, ils sont envoyés au serveur Eressea et renvoyés depuis celui-ci, et sont disponibles pour la prochaine exécution du script.  
+Si nécessaire, les ordres des scripts peuvent être révisés et une autre exécution de script peut être lancée jusqu'à ce que le résultat souhaité soit atteint.  
+Les ordres Eressea « normaux » peuvent également être utilisés en complément.
+
+FFTools2 crée sa propre structure de menu dans Magellan et s'intègre également dans le menu contextuel (accessible par clic droit de la souris).  
+En plus des pages d'aide, il existe une chaîne FFTools supplémentaire sur le serveur Eressea Discord.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FFTools2&oldid=16883] -->
 
 [Magellan]: http://magellan-client.sf.net
-[official site]: http://fftools2.fietefietz.de/
+[site officiel]: http://fftools2.fietefietz.de/

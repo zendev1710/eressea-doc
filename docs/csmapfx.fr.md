@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cs-map-fr
 ---
 # CSMap
@@ -8,9 +8,9 @@ Le **Coast 'n Sea Mapper** , CSMap (appelé aussi CSMapFx), est une visionneuse 
 
 Le programme est conçu pour charger et afficher rapidement de grandes cartes CR.  
 
-Cependant, les informations sur la région, les unités, les navires et les bâtiments peuvent désormais également être affichés.  
+Cependant, les informations sur la région, les unités, les bateaux et les bâtiments peuvent désormais également être affichés.  
 
-CSMap devrait être progressivement étendu pour pouvoir également exécuter des commandes et des automatisations simples d'unités.  
+CSMap devrait être progressivement étendu pour pouvoir également exécuter des ordres et des automatisations simples d'unités.  
 
 ## Téléchargement
 

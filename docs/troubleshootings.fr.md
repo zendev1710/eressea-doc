@@ -1,29 +1,33 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: depannage
 ---
 # Dépannage
 
 ## Erreur dans le jeu
 
-Un programme aussi complexe qu'Eressea contient inévitablement des erreurs. L'équipe de conception s'efforce de trouver et de corriger ces erreurs le plus rapidement possible, mais des bugs apparaîtront malgré tout.
+Un programme aussi complexe qu'Eressea contient inévitablement des erreurs.  
+L'équipe de conception s'efforce de trouver et de corriger ces erreurs le plus rapidement possible, mais des bugs apparaîtront malgré tout.
 
 **Ceux qui ne peuvent pas vivre avec cela ne devraient pas jouer à Eressea !**
 
-Il n'est pas possible de relancer un tour pour un seul joueur. Une relance n'est effectuée que si l'erreur a gravement affecté de nombreuses factions.
+Il n'est pas possible de relancer un tour pour un seul joueur.
+Une relance n'est effectuée que si l'erreur a gravement affecté de nombreuses factions.
 
 De même, il n'est pas toujours possible de compenser ou de remplacer les pertes subies en raison d'erreurs, notamment lorsque des personnes ou des objets tels que des bateaux ou des bâtiments ont été perdus.
 
-C'est à la seule discrétion du meneur de jeu de donner aux joueurs concernés des compensations, par exemple sous forme de silvers. Les petites erreurs concernent souvent de nombreuses parties, de sorte que dans l'ensemble, cela s'équilibre tout seul.
+C'est à la seule discrétion du meneur de jeu de donner aux joueurs concernés des compensations, par exemple sous forme de silver.
+Les petites erreurs concernent souvent de nombreuses factions, de sorte que dans l'ensemble, cela s'équilibre tout seul.
 
-Tous les joueurs sont tenus de signaler les bugs à l'administrateur du jeu, même et surtout s'ils en tirent un avantage. Pour cela, il est préférable de publier un [rapport de bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
+Tous les joueurs sont tenus de signaler les bugs à l'administrateur du jeu, même et surtout s'ils en tirent un avantage.
+Pour cela, il est préférable de publier un [rapport de bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
 
 ## Rapport de bug
 
 Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoir trouvé une erreur, il faut procéder comme suit :
 
 1. Vérifie encore une fois avec précision si l'erreur se trouve dans le programme. Parfois, on a simplement oublié un petit détail.
-2. Lis les mails dans la liste "E-Announce", les rapports de bug dans Mantis ou le canal \#general dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
+2. Lis les mails dans la liste `E-Announce`, les rapports de bug dans Mantis ou le canal `#general` dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
 3. Réfléchis à la manière dont l'erreur s'est produite. Rassemble tous les éléments nécessaires. Ouvre un nouveau rapport de bug dans [Mantis]. Il devrait contenir les éléments suivants :
     1. Ton ID de Faction
     2. Identifiants des unités, bateaux ou autres objets concernés
@@ -41,7 +45,10 @@ Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoi
 
 Ne t'impatiente pas si tu ne reçois pas de réponse immédiatement. Si tu as besoin d'une réponse rapide, pose une question sur [Discord].
 
-En règle générale, les bugs corrigés ne sont pas directement intégrés dans la version actuelle du serveur, à moins qu'il ne s'agisse d'erreurs graves. Le nouveau code est d'abord testé, puis déployé une fois par trimestre après annonce préalable. Cela permet d'assurer la stabilité des tours. Ainsi, si un bug a été marqué comme "corrigé" dans Mantis, cela ne signifie *pas* automatiquement que l'erreur ne sera plus présente au prochain tour.
+En règle générale, les bugs corrigés ne sont pas directement intégrés dans la version actuelle du serveur, à moins qu'il ne s'agisse d'erreurs graves.
+Le nouveau code est d'abord testé, puis déployé une fois par trimestre après annonce préalable.
+Cela permet d'assurer la stabilité des tours.
+Ainsi, si un bug a été marqué comme "corrigé" dans Mantis, cela ne signifie **pas** automatiquement que l'erreur ne sera plus présente au prochain tour.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 

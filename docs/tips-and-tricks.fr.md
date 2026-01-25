@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: trucs-et-astuces
 ---
 # Trucs et astuces
@@ -19,7 +19,7 @@ Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.
 
 Pour chaque tranche de 20 kg de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.
-Comme mentionné [ici](./tips-and-tricks.md/#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.
+Comme mentionné [ici](./tips-and-tricks.md#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.
 On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 kg, soit sa capacité de charge maximale.
 
 > Si l'adversaire inflige des dégâts très élevés par coup, il peut être préférable de remplacer l'armure de plates par une cotte de mailles, voire de l'omettre complètement, car sinon la probabilité de coup plus élevée n'est pas compensée par la protection de l'armure.
@@ -31,7 +31,7 @@ Selon la race, il arrive un moment où il est plus avantageux d'apprendre l'endu
 Finalement, chaque nouveau niveau de maîtrise des armes coûte autant de temps d'apprentissage que plusieurs niveaux d'endurance.
 Tu peux calculer quand ce point est atteint, ou te baser sur la maîtrise des armes de tes ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.
 
-L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est plus facile d'avoir toujours des *instructeurs* (*teachers*) disponibles, pour enseigner l'une ou l'autre compétence.
+L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est plus facile d'avoir toujours des instructeurs disponibles, pour enseigner l'une ou l'autre compétence.
 
 ## De quoi ai-je absolument besoin au premier tour ?
 
@@ -43,11 +43,13 @@ Bien que l'achat excessif augmente temporairement le prix d'une marchandise, il 
 En général, une marchandise peut être vendue dans bien plus de régions que tu ne peux l'acheter, et les marchands peuvent vendre plusieurs marchandises différentes par tour.
 Il existe même des situations où il est judicieux d'acheter des marchandises à un prix supérieur au prix de vente maximal, mais c'est probablement aller trop loin.
 
-Le commerce te permet de gagner d'importantes sommes d'argent créées « à partir de rien », c'est-à-dire sans puiser dans les ressources régionales des agriculteurs ; c'est une opportunité à ne surtout pas manquer.
+Le commerce te permet de gagner d'importantes sommes d'argent créées « à partir de rien », c'est-à-dire sans puiser dans les ressources régionales des agriculteurs; c'est une opportunité à ne surtout pas manquer.
 
 ## Nombre maximal d'unités dans une faction
 
-**Une faction peut compter au plus 2 500 unités** (250 dans E3). Pour en créer de nouvelles lorsque la limite est atteinte, il faut d’abord dissoudre certaines unités en fusionnant plusieurs unités (les laisser mourir de faim, perdre des batailles ou utiliser l'ordre `GIVE 0` sont également possibles). Cependant, comme les unités vides ne sont dissoutes que peu de temps avant la fin de la séquence de commandes, il est impossible de créer de nouvelles unités de cette manière avant la semaine suivante.
+**Une faction peut compter au plus 2 500 unités**.
+Pour en créer de nouvelles lorsque la limite est atteinte, il faut d’abord dissoudre certaines unités en fusionnant plusieurs unités (les laisser mourir de faim, perdre des batailles ou utiliser l'ordre `GIVE 0` sont également possibles).
+Cependant, comme les unités vides ne sont dissoutes que peu de temps avant la fin de la séquence d'ordres, il est impossible de créer de nouvelles unités de cette manière avant la semaine suivante.
 
 Parfois, avec une petite astuce, on peut faire les deux en un seul tour : l’unité A transfère tout son personnel à l’unité B. L’unité A, désormais vide, peut recruter immédiatement (après l’ordre `GIVE`). La condition préalable est bien sûr de disposer de deux unités dans la région où l’on souhaite recruter et de pouvoir les combiner.
 
@@ -84,7 +86,7 @@ Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [
 
 ## Routes maritimes sûres
 
-Avec de grandes factions, il est facile de perdre le fil dans la gestin de sa flotte.
+Avec de grandes factions, il est facile de perdre le fil dans la gestion de sa flotte.
 Un oubli d'ordre ROUTE (ou NMR) peut facilement entraîner la poursuite du trajet d'un bateau déjà arrivé à destination, et qui finira par s'écraser contre une montagne au tour suivant. Pour éviter cela, termine les ordres ROUTE par une double PAUSE, par exemple :
 
 ROUTE NE NE NE NE E E E E E E NW NW NW SE PAUSE PAUSE
@@ -92,19 +94,21 @@ ROUTE NE NE NE NE E E E E E E NW NW NW SE PAUSE PAUSE
 Cela a pour effet de définir l'ordre par défaut pour le tour suivant sur ROUTE PAUSE NE NE NE NE E E E E E E NW NW NW SE PAUSE lorsque le dernier ordre PAUSE est atteint.
 Un message d'erreur s'affiche alors, mais le vaisseau ne bouge plus.
 
-## Unités TEMP
+## Unités `TEMP`
 
-Avec les unités TEMP, tu peux faire toutes sortes de choses et contourner les restrictions que le jeu impose par excès de prudence.
+Avec les unités `TEMP`, tu peux faire toutes sortes de choses et contourner les restrictions que le jeu impose par excès de prudence.
 Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui va se passer ? C'est très simple.
 
-     GIVE TEMP 123 ALL
-     GIVE TEMP 123 ALL MEN
-     MAKE TEMP 123
-          ; ... NAME et autres nouveaux ordres de l'unité
-     END
-     GIVE neu COMMAND
+```text
+GIVE TEMP 123 ALL
+GIVE TEMP 123 ALL MEN
+MAKE TEMP 123
+    ; ... NAME et autres nouveaux ordres de l'unité
+END
+GIVE neu COMMAND
+```
 
-L'unité vide transmet fidèlement la commande à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouvel identifiant).
+L'unité vide transmet fidèlement le commandement à l'unité appropriée et la nouvelle unité `TEMP` prend le relais de l'ancienne (avec un nouvel identifiant).
 
 ## Mon bateau échoue à prendre la mer alors qu'il n'est pas surchargé
 

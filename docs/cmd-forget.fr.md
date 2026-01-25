@@ -1,13 +1,15 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-forget-fr
 ---
-# FORGET
+# `FORGET`
 
 **`FORGET`**` `*`skill`*
 
-This order can be used to instruct a unit to forget a skill.
-The skill levels are thus set to 0 - including those that the unit can otherwise do "from birth".
-This is useful, for example, if you recruit a lot of new people to a unit and therefore a skill that the unit previously used can no longer be used sensibly and should no longer be learned.
+Cet ordre peut être utilisé pour demander à une unité d'oublier une compétence.  
+
+Les niveaux de compétence sont ainsi mis à 0 - y compris ceux que l'unité peut acquérir "dès la naissance".  
+
+Ceci est utile, par exemple, si vous recrutez beaucoup de nouvelles personnes dans une unité et qu'une compétence que l'unité utilisait auparavant ne peut plus être utilisée de manière judicieuse et ne devrait plus être apprise.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FORGET&oldid=5560] -->

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-plant-fr
 ---
-# PLANT
+# `PLANT`
 
 *Ordre [long].*  
 

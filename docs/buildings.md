@@ -25,11 +25,6 @@ The first unit has command of the building; it is the owner.
 It determines which other units can enter the building, and it can rename and describe the building.
 The unit that owns the largest castle in a region can even rename and describe the region it rules.
 
-<!-- TODO: exclude E3 from documentation -->
-**[[the-third-age|E3A — The Third Age]]**
-
-The building owner can only leave the building if he explicitly uses the [[cmd-give|`GIVE`]] order or the [[cmd-leave]] order is used.
-
 The effect of buildings (including castles) is counted on a unit-by-unit basis.
 Units that no longer fit - even partially - into the free capacity do not receive a bonus from the building - even if they are the only unit!
 

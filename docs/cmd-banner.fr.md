@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-banner-fr
 ---
-# BANNER
+# `BANNER`
 
 Cela vous permet de définir une description qui apparaîtra dans la liste d'adresses de l'[[cmd-option|`OPTION ADDRESS`]].  
 Il peut contenir le nom du joueur ou une adresse e-mail alternative pour les autres joueurs.  

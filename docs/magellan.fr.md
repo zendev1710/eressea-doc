@@ -1,49 +1,57 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: magellan-fr
 ---
 # Magellan
 
-Magellan is a full client for Eressea.
-You can use it to display your map, search, give orders, and all you have to do is leave the program to write emails to your allies.
-Almost. Magellan undergoes sporadic development, mainly when there are changes to the server. Features include:
+[Magellan] est un client à part entière d'Eressea.  
+Vous pouvez l'utiliser pour afficher votre carte, rechercher, donner des ordres, et tout ce qu'il vous reste à faire est de quitter le programme pour écrire des emails à vos alliés...Presque  
+
+Magellan est en mode de développement modéré, et évolue principalement lors de modifications du serveur.  
 
 <!-- TODO: magellan screenshot 400X309 - should be where in the page ? -->
-![Magellan 2 Screenshot](./assets/images/magellan-screenshot.png "Magellan 2 Screenshot")
+![Capture d'écran Magellan 2](./assets/images/magellan-screenshot.png "Capture d'écran Magellan 2")
 
-- Display map, units, region details, and all other report properties. The arrangement of the different windows can be freely adjusted
-- Comprehensive orders editor with autocompletion and syntax check
-- Extensive prediction functions, for example for the handover of items and routes
-- Extensive checking of orders and display of "open issues". Eliminates the need for additional tools such as [[echeck]]
-- Sending orders via email directly from the program
-- Import and export of (partial) reports and maps for exchange with other players
-- Fast navigation using keyboard shortcuts, search for units, bookmarks...
-- Faction statistics with display of all items, skills, income etc
-- Alchemy planner for an overview of herbs and potions
-- Extensive setting options to adapt Magellan to your own preferences
-- Ability to color and label maps according to freely defined criteria, for example to get an overview of trade goods distribution, farmer growth, raw material distribution or other factions
-- Extended Commands programming interface to automate the orders as desired
-- Plugins that can expand the possibilities even more
+Les fonctionnalités incluent :
 
-Please report bug reports and feature requests for Magellan on our [Bug tracker].
+- Affichage de la carte, des unités, des détails de la région et toutes les autres propriétés du rapport.
+  La disposition des différentes fenêtres peut être ajustée librement
+- Éditeur d'ordres complet avec saisie semi-automatique et vérification de la syntaxe
+- Fonctions de prédiction étendues, par exemple pour la remise d'objets et les itinéraires
+- Vérification approfondie des ordres et affichage des "problèmes en cours".
+  Élimine le besoin d'outils supplémentaires tels que [[echeck]]
+- Envoi des ordres par e-mail directement depuis le programme
+- Importation et exportation de rapports (partiels) et de cartes pour échange avec d'autres joueurs
+- Navigation rapide grâce aux raccourcis clavier, recherche d'unités, signets...
+- Statistiques de faction avec affichage de tous les objets, compétences, revenus, etc.
+- Planificateur d'alchimie pour un aperçu des plantes et des potions
+- Options de réglage étendues pour adapter Magellan à vos propres préférences
+- Possibilité de colorer et d'étiqueter les cartes selon des critères librement définis, par exemple pour obtenir un aperçu de la répartition des marchandises commerciales, de la croissance des agriculteurs, de la répartition des matières premières ou d'autres factions
+- Interface de programmation de commandes étendues pour automatiser les ordres comme vous le souhaitez
+- Des plugins qui peuvent étendre encore plus les possibilités
 
-Magellan offers the option of sending orders directly from the program.
-What needs to be done, depending on the provider, is explained in [[sending-orders-from-magellan]].
+Veuillez signaler les rapports de bugs et les demandes de fonctionnalités pour Magellan sur notre [bug tracker].
 
-An older version of Magellan ("Magellan 1") is no longer being developed further.
-Although it has reached a stable state, newer developments of the server are not taken into account there.
-The latest available version is on Sourceforge.
+Magellan offre la possibilité d'envoyer des ordres directement depuis le programme.  
+Ce qui doit être fait, en fonction du fournisseur, est expliqué dans l'[[sending-orders-from-magellan|envoi des ordres depuis Magellan]].  
+
+Une ancienne version de Magellan ([Magellan 1]) n'est plus maintenue.  
+Bien qu'elle ait atteint un état stable, les développements plus récents du serveur Eressea n'y sont pas pris en compte.  
+
+La dernière version de Magellan est disponible sur cette [page de téléchargement].
 
 ## Liens externes
 
-- [Magellan 2]
-- [Bug tracker for Magellan][Bug tracker]
-- [Magellan source code (for developers)]
-- [Magellan on Sourceforge (deprecated)]
+- [Magellan]
+- [Page de téléchargement de Magellan][page de téléchargement]
+- [Bug tracker pour Magellan][bug tracker]
+- [Code source de Magellan (pour les développeurs)]
+- [Magellan dans SourceForge (**obsolète**)][Magellan 1]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magellan&oldid=7285] -->
 
-[Bug tracker]: https://magellan2.github.io/bugs/
-[Magellan 2]: https://magellan2.github.io
-[Magellan source code (for developers)]: https://github.com/magellan2
-[Magellan on Sourceforge (deprecated)]: http://sourceforge.net/projects/magellan-client
+[bug tracker]: https://magellan2.github.io/bugs/
+[page de téléchargement]: https://magellan2.github.io/en/download/
+[Magellan]: https://magellan2.github.io/en
+[Code source de Magellan (pour les développeurs)]: https://github.com/magellan2
+[Magellan 1]: http://sourceforge.net/projects/magellan-client

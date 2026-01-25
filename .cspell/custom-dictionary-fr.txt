@@ -1,6 +1,29 @@
-!commande
+!astral
+# !commande
+# !commandes
+!domaine
+!magicien
+!magiciens
 !navire
-!numéro
-!talent
-!talents
+!navires
+#!numéro
+#!pièce
+#!pièces
+#!talent
+#!talents
+#!zone
+Aquarien
+aquariens
 Aquariens
+dracoïdes
+épicuticulaire
+Éresséen
+Éresséens
+highlands
+mallorns
+morphique
+oeillères
+peyote
+silvers
+tsugas
+Tsugas

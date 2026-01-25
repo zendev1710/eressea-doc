@@ -9,7 +9,7 @@ alias: ships
 Ships are built using the [[cmd-make|**`MAKE`**&#91;*`levels`*&#93;*`ship type`*]] order.  
 Existing, unfinished, or damaged ships can be further built using **`MAKE`**&#91;*`levels`*&#93;&nbsp;`SHIP`&nbsp;&#93;*`ship-id`*&#93;.  
 
-Wood is needed for this. The more complex the ship, the harder it is to build and command.
+Wood is needed for this. The more complex the ship, the harder it is to build and command.  
 This is summarized in the table below.  
 
 To start building a ship or to continue building or repairing one, the unit needs at least the specified shipbuilding skill.  
@@ -32,25 +32,41 @@ For your own ships, the ship type indicates the load and capacity (here 254 weig
 
 In the report, the units that are on the ship are indented under the ship.
 
-The first unit is a captain and has command of the ship.
-The captain determines which other units are allowed to board the ship.
+The first unit is a captain and has command of the ship.  
+The captain determines which other units are allowed to board the ship.  
 He may [[cmd-name|rename]] or [[cmd-describe|describe]] the ship, and also counts as crew.
 
-Unlike buildings, ships cannot be expanded.
+Unlike buildings, ships cannot be expanded.  
 So once you start building a longboat, you won't be able to convert it into a caravel later.
 
 Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.
 
+## Ship types
+
+### Boat
+
+### Longboat
+
+### Dragonship
+
+### Caravel
+
+### Trireme
+
+### Galleon
+
+### Ships - Summary table
+
 Ships - type, range, capacity, needed sailing skill for captain/crew, needed building skill, needed wood.
 
-| Type       | Range | Capacity | Captain/Crew | Building skill | Wood |
-|------------|:-----:|---------:|-------------:|---------------:|-----:|
-| Boot       |     2 |       50 |          1/2 |              1 |    5 |
-| Longboat   |     3 |      500 |         1/10 |              1 |   50 |
-| Dragonship | 5[^1] |     1000 |         2/50 |              2 |  100 |
-| Caravel    |     5 |     3000 |         3/30 |              3 |  250 |
-| Trireme    |     7 |     2000 |        4/120 |              4 |  200 |
-| Galleon    |     5 |    20000 |    5/250[^2] |              5 | 2000 |
+| Type       | Range | Capacity | Captain/Crew | Building skill |  Wood |
+|------------|:-----:|---------:|-------------:|---------------:|------:|
+| Boat       |   2   |       50 |          1/2 |              1 |     5 |
+| Longboat   |   3   |      500 |         1/10 |              1 |    50 |
+| Dragonship | 5[^1] |    1 000 |         2/50 |              2 |   100 |
+| Caravel    |   5   |    3 000 |         3/30 |              3 |   250 |
+| Trireme    |   7   |    2 000 |        4/120 |              4 |   200 |
+| Galleon    |   5   |   20 000 |    5/250[^2] |              5 | 2 000 |
 
 [^1]: Dragonship speed depends on captain sailing skill.
 [^2]: Only units from level 2 in sails are taken into account for the overall skill of the galleon.
@@ -63,6 +79,7 @@ Dragon ship speed.
 
 ## Convoy
 
+<!-- TODO: translate from french -->
 De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple
 
 ```text

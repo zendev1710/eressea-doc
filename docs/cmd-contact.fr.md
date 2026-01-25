@@ -1,48 +1,51 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-contact-fr
 ---
-# CONTACT
+# `CONTACT`
 
 **`CONTACT`**` UNIT `*`unit-id`*  
 **`CONTACT`**` PARTEI `*`faction-id`*  
 **`CONTACT`**` `*`unit-id`*  
 
-You are normally not allowed to give anything to units of foreign factions unless you are allied with that faction.
-To allow this to a limited extent, there is the `CONTACT` order.
-In this round -and only in this round- the commanding unit behaves towards the named unit as if it were allied with it (see also under [[cmd-help]]), i.e. it accepts items, silver and people from it.
-Non-allied factions can also enter castles and ships, recruit people and extract resources in this way.
-`CONTACT UNIT` allows this to be done by a single unit, while `CONTACT FACTION` allows all units of the faction in question in a region.
-The `CONTACT unit-id` order is allowed for historical reasons, but should be passed `CONTACT UNIT unit-id` be replaced.
+Vous n'êtes normalement pas autorisé à donner quoi que ce soit aux unités de factions étrangères, à moins que vous ne soyez un allié de cette faction.  
 
-**Examples:**
+Pour permettre cela ponctuellement, il existe l'ordre `CONTACT`.  
+Dans ce tour -et seulement dans ce tour- l'unité donnant l'ordre se comporte envers l'unité spécifiée comme si elle était alliée avec elle (voir aussi sous [[cmd-help]]), c'est-à-dire qu'elle accepte des objets, de l'argent et des personnes.  
+Les factions non alliées peuvent également pénétrer dans les châteaux et les navires, recruter des personnes et extraire des ressources de cette manière.  
+
+`CONTACT UNIT`donne les droits à une seule unité, tandis que `CONTACT FACTION` autorise toutes les unités de la faction en question dans une région.  
+L' ordre `CONTACT <unit-id>` est autorisé pour des raisons historiques, mais devrait être remplacé par `CONTACT UNIT <unit-id>`.
+
+**Exemples :**
 
 ```text
-    PARTEI ff "FooBar"
-        UNIT a
+PARTEI ff "FooBar"
+    UNIT a
         GIVE x 1000 Silver ; Tribut!
         [...]
 
-    PARTEI 300 "BarFoo"
-        UNIT x
-        CONTACT UNIT a ; erlaube Zahlung.
+PARTEI 300 "BarFoo"
+    UNIT x
+        CONTACT UNIT a ; autoriser le paiement
 ```
 
-Unit a can give unit x the 1000 silver.
-If x is the only guarding unit in the region, a is also allowed to recruit and collect taxes.
-Unit b of faction ff is not allowed to do any of this.
-For this, unit x would have to receive the `CONTACT FACTION ff` order give.
+L'unité *a* peut donner à l'unité *x* les 1000 Silver.  
+Si *x*est la seule unité de garde dans la région, *a* est également autorisé à recruter et à collecter des impôts.  
 
-Unit x and unit y of one faction guard the region.
-In order for unit a to recruit, x and y must both `CONTACT UNIT a` or `CONTACT PARTEI ff` orders.
+L'unité *b* de la faction *ff* n'est pas autorisée à faire quoi que ce soit de tout cela.  
+Pour que cela soit possible, l'unité *x* doit donner l'ordre `CONTACT FACTION ff`.  
 
-## Differences to HELP
+L'unité *x* et l'unité *y* d'une faction gardent la région.  
+Pour que l'unité *a* recrute, *x* et *y* doivent tous deux passer un ordre `CONTACT` (`CONTACT UNIT a` ou `CONTACT FACTION ff`).
 
-`CONTACT` has a similar function to [[cmd-help|`HELP GIVE + HELP GUARD`]], but it's not 100% the same.
+## Differences avec `HELP`
 
-- `CONTACT` is required for some things that `HELP GIVE` or `HELP GUARD` does not cover, such as [[cmd-give|`GIVE MEN`]] and some spells
-- `HELP` closes `HELP SILVER, HELP COMBAT` and `HELP PARTEITARNUNG` A
-- `CONTACT` applies only to the current round and only to the unit issuing the order
-- `HELP`is permanent and applies to all units of my faction or group (and all units of the other faction)
+`CONTACT` a une fonction similaire à [[cmd-help|`HELP GIVE + HELP GUARD`]], mais n'est pas tout à fait identique :
+<!-- TODO: compare second item in enumeration with original wiki documentation -->
+- `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [[cmd-give|`GIVE MEN`]] et certains sorts
+- `HELP` ferme `HELP SILVER, HELP COMBAT` et `HELP PARTEITARNUNG`
+- `CONTACT` s'applique uniquement au tour en cours et uniquement à l'unité émettant l'ordre
+- `HELP` est permanent et s'applique à toutes les unités de la faction ou du groupe (et à toutes les unités de la faction ciblée par l'ordre)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->

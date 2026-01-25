@@ -31,6 +31,22 @@ Wer also einmal begonnen hat, ein Langboot zu bauen, kann dies später nicht zu 
 
 Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachbarte Ozeanregion ablegen.
 
+## Schiffstypen
+
+### Boot
+
+### Langboot
+
+### Drachenschiff
+
+### Karavelle
+
+### Trireme
+
+### Galeone
+
+### Schiffe - Übersichtstabelle
+
 Schiffe - Reichweite, Kapazität, Talente
 
 | Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |

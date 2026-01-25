@@ -4,26 +4,15 @@ alias: castles
 ---
 # Castles
 
-Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.
+Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.  
 They also reduce the likelihood of [[plague]].
 
-Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry] skill.
+Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry] skill.  
 The size at which a castle enters a new category is shown in the table below:
 
-<!-- TODO: choose best table format -->
-| Size |     1       |     2     |      10       |  50   |    250     |   1250   |  6250+  |
-|------|:-----------:|:---------:|:-------------:|:-----:|:----------:|:--------:|:-------:|
-| Type | Foundations | Tradepost | Fortification | Tower | Stronghold | Fortress | Citadel |
-
-| Type          | Size |
-|---------------|-----:|
-| Foundation    |    1 |
-| Tradepost     |    2 |
-| Fortification |   10 |
-| Tower         |   50 |
-| Stronghold    |  250 |
-| Fortress      | 1250 |
-| Citadel       | 6250 |
+| Size |     1      |     2     |      10       |  50   |    250     |   1250   |  6250+  |
+|:----:|:----------:|:---------:|:-------------:|:-----:|:----------:|:--------:|:-------:|
+| Type | Foundation | Tradepost | Fortification | Tower | Stronghold | Fortress | Citadel |
 
 The larger the castle, the more difficult it is to expand it further.  
 To continue building a castle, you need the masonry skill at the required level.  
@@ -46,6 +35,20 @@ Only the protected persons benefit from the bonus that a castle gives its occupa
 Each size unit of the castle requires a stone.  
 
 A larger castle improves the population's income: all workers and peasants receive a bonus when they work, which depends on the size of the largest castle in a region (see also the [summary table]), and the owner of the largest castle receives a share of the profit when other players sell trade goods.  
+
+## Foundation
+
+## Tradepost
+
+## Fortification
+
+## Tower
+
+## Stronghold
+
+## Fortress
+
+## Citadel
 
 ## Examples
 
@@ -74,10 +77,10 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 | Foundation    |   1 |         -- |          -- |          0 |
 | Tradepost     |   1 |         -- |          6% |          0 |
 | Fortification |   2 |   1 silver |         12% |         +1 |
-| Tower         |   3 |  2 silvers |         18% |         +2 |
-| Stronghold    |   4 |  3 silvers |         24% |         +3 |
-| Fortress      |   5 |  4 silvers |         30% |         +4 |
-| Citadel       |   6 |  5 silvers |         36% |         +5 |
+| Tower         |   3 |   2 silver |         18% |         +2 |
+| Stronghold    |   4 |   3 silver |         24% |         +3 |
+| Fortress      |   5 |   4 silver |         30% |         +4 |
+| Citadel       |   6 |   5 silver |         36% |         +5 |
 
 ## See also
 

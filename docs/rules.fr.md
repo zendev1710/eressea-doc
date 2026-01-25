@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: regles
 ---
 # Règles
@@ -41,5 +41,3 @@ Certains changements ont pu donner lieu à de longues discussions entre l'équip
 Poursuivre la lecture : [[introduction]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->
-
-<!-- [Conseils pour l'édition des règles]: ./eressea-join.md-->

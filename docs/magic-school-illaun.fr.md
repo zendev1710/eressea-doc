@@ -1,284 +1,424 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: sorts-illaun
 ---
 # Sorts Illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Schattenritter
+## Sorts de niveau 1
 
-**Beschreibung**:  
-Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln. Die Schattenritter haben keinen effektiven Angriff und Verwundungen im Kampf zerstören sie sofort.  
-**Art**: sort de pré-combat  
-**Niveau** : 1  
-**Rang**: 4  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Schattenritter"  
+### Chevaliers de l'Ombre
 
-## Traumsenden
+<!-- TODO: checkif it is Schattenritter or Schattenritteren for German CAST -->
+<!-- cspell:disable -->
+*Shadow Knights (EN), Schattenritteren (DE)*.
+<!-- cspell:enable -->
 
-**Beschreibung**:  
-Der Zauberer sendet dem Ziel des Spruches einen Traum.  
-**Art**: sort normal  
-**Niveau** : 1  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Traumsenden" &lt;Einheit-Nr&gt;  
+:   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes.  
+    Les Chevaliers de l'Ombre n'ont aucune attaque efficace et être blessés au combat les détruira instantanément.
 
-## Wahrsagen
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    1 | Pré-c. |  4   |   |   |
 
-**Beschreibung**:  
-Niemand kann so gut die Träume deuten wie ein Magier des Illaun. Auch die Kunst der Wahrsagerei, des Kartenlegens und des Handlesens sind ihm geläufig. Dafür zahlen ihm die Bauern 50 Silber pro Stufe.  
-**Art**: sort normal  
-**Niveau** : 1  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Wahrsagen"  
+`COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-## Grauen der Schlacht
+### Rêve
 
-**Beschreibung**:  
-Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die viele Gegner in Panik versetzen. Die Betroffenen werden versuchen, vor den Trugbildern zu fliehen.  
-**Art**: sort de pré-combat  
-**Niveau** : 2  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Grauen der Schlacht"  
+<!-- cspell:disable -->
+*Dream (EN), Traum (DE)*.
+<!-- cspell:enable -->
 
-## Seelenfrieden
+:   Le mage envoie un rêve à la cible du sort.
 
-**Beschreibung**:  
-Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode gekommenen und ermöglicht es ihnen so, ihre letzte Reise in die Anderlande zu beginnen. Je Stufe des Zaubers werden ungefähr 50 Seelen ihre Ruhe finden. Der Zauber vermag nicht, bereits wieder auferstandene lebende Tote zu erlösen, da deren Bindung an diese Welt zu stark ist.  
-**Art**: sort normal  
-**Niveau** : 2  
-**Rang**: 5  
-**Composants** : 3 Aura \* Stufe, 1 Wasser des Lebens  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Seelenfrieden"  
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
 
-## Gestaltwandlung
+<!-- TODO: check if it is  Traum (rêve) or Traumsenden (envoi de rêve) in cAST order -->
+`CAST [LEVEL n] Dream <unit-id>`  
 
-**Beschreibung**:  
-Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern. Unbedarften Beobachtern erscheint sie dann als einer anderen Rasse zugehörig.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Gestaltwandlung" &lt;Einheit-Nr&gt; &lt;Rasse&gt;  
+### Divination
 
-## Traum der Magie
+<!-- TODO: check if it is Wahrsagen or Weissagung in CAST german order -->
+<!-- cspell:disable -->
+*Divination (EN), Weissagung (DE)*.
+<!-- cspell:enable -->
 
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 1  
-**Composants** : 2 Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Traum der Magie" &lt;Einheit-Nr&gt; &lt;Aura&gt;  
+:   Nul ne sait interpréter les rêves aussi bien qu'un mage Illaun.  
+    Il maîtrise également l'art de la divination, de la cartomancie et de la chiromancie.  
+    Pour cela, les paysans lui versent 50 silver par niveau.
 
-## Traumschlößchen
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
 
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebäudes erzeugen. Die Illusion kann betreten werden, ist aber ansonsten funktionslos und benötigt auch keinen Unterhalt. Sie wird einige Wochen bestehen bleiben.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 3 Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Traumschlößchen" &lt;Gebäudetyp&gt;  
+`CAST [LEVEL n] Divination`  
 
-## Schwere Glieder
+## Sorts de niveau 2
 
-**Beschreibung**:  
-Dieser sort de combat führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden. Die Soldaten verschlafen manchmal ihren Angriff und verteidigen sich schlechter.  
-**Art**: sort de pré-combat  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 4 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Schwere Glieder"  
+### Horreurs indicibles
 
-## Traumlesen
+<!-- cspell:disable -->
+*Unspeakable Horrors (EN), Grauen der Schlacht (DE)*.
+<!-- cspell:enable -->
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.  
-**Art**: sort normal  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 8 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Traumlesen" &lt;Einheit-Nr&gt;  
+:   Avant le combat, le tisserand de rêves évoque des illusions terrifiantes qui font paniquer de nombreux adversaires.  
+    Les personnes touchées tenteront d’échapper aux mirages.
 
-## Traumbilder analysieren
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    2 | Pré-c. |  5   |   |   |
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Traumweber versuchen, die Verzauberungen einer einzelnen Einheit zu erkennen. Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können. Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
-**Art**: sort normal  
-**Niveau** : 5  
-**Rang**: 5  
-**Composants** : 25 Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Traumbilder analysieren" &lt;Einheit-Nr&gt;  
+`COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
-## Wiederbelebung
+### Repos éternel
 
-**Beschreibung**:  
-Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen. Mit Hilfe eines Rituals kann ein Traumweber versuchen, die Seele wieder einzufangen und in den Körper des Verstorbenen zurückzubringen. Zwar heilt der Zauber keine körperlichen Verwundungen, doch ein Behandelter wird den Kampf überleben.  
-**Art**: sort de post-combat  
-**Niveau** : 5  
-**Rang**: 4  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Wiederbelebung"  
+<!-- cspell:disable -->
+*Eternal Rest (EN), Seelenfrieden (DE)*.
+<!-- cspell:enable -->
 
-## Erschaffe ein Amulett des wahren Sehens
+:   Ce rituel magique apaise les âmes tourmentées de ceux qui sont morts violemment, leur permettant d'entamer leur dernier voyage vers les Autres Terres.  
+    Environ 50 âmes trouveront la paix par niveau de sort.  
+    Le sort ne peut pas racheter les morts-vivants déjà ressuscités car leurs liens avec ce monde sont trop forts.
 
-**Beschreibung**:  
-Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen. Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe ein Amulett des wahren Sehens"  
+| Composants                  | Niv. |   Type | Rang | B | D |
+|-----------------------------|-----:|-------:|:----:|:--|:--|
+| 3 x N auras, 1 [eau de vie] |    2 | Normal |  5   |   |   |
 
-## Erschaffe einen Ring der Unsichtbarkeit
+`CAST [LEVEL n] "Eternal Rest"`  
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe einen Ring der Unsichtbarkeit"  
+## Sorts de niveau 3
 
-## Schlechter Schlaf
+### Changement de forme
 
-**Beschreibung**:  
-Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe. Den Betroffenen fällt das Lernen deutlich schwerer.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 18 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Schlechter Schlaf"  
+<!-- cspell:disable -->
+*Shapeshift (EN), Gestaltwandlung (DE)*.
+<!-- cspell:enable -->
 
-## Schlaf
+:   Avec l’aide de ce rituel mystérieux, le tisserand de rêves est capable de dissimuler la véritable forme d’un groupe.  
+    Pour les observateurs inexpérimentés, elle semble alors appartenir à une race différente.
 
-**Beschreibung**:  
-Dieser Zauber läßt einige feindliche Kämpfer einschlafen. Schlafende Kämpfer greifen nicht an und verteidigen sich schlechter, sie wachen jedoch auf, sobald sie im Kampf getroffen werden.  
-**Art**: sort de combat  
-**Niveau** : 7  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Schlaf"  
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    3 | Normal |  5   |   |   |
 
-## Traumdeuten
+`CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
-**Beschreibung**:  
-Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opfers ein und kann so seine intimsten Geheimnisse ausspähen. Seine Fähigkeiten, seinen Besitz und seine Parteizugehörigkeit wird nicht länger ungewiss sein.  
-**Art**: sort normal  
-**Niveau** : 7  
-**Rang**: 5  
-**Composants** : 20 Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Traumdeuten" &lt;Einheit-Nr&gt;  
+### Rêve de magie
 
-## Schöne Träume
+<!-- cspell:disable -->
+*Dream of Magic (EN), Traum der Magie (DE)*.
+<!-- cspell:enable -->
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.  
-**Art**: sort normal  
-**Niveau** : 8  
-**Rang**: 5  
-**Composants** : 80 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Schöne Träume"  
+:   Avec l'aide de ce sort, le tisserand de rêves peut transférer sa propre aura à un autre tisserand de rêves dans un rapport de 2:1.
 
-## Traumbilder entwirren
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| 2 auras    |    3 | Normal |  1   | :heavy_check_mark: |   |
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.  
-**Art**: sort normal  
-**Niveau** : 8  
-**Rang**: 2  
-**Composants** : 6 Aura X niveau
-**Modificateurs**: sort à distance, sort de bateau  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Traumbilder entwirren" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )  
+`CAST "Dream of Magic" <unit-id> <Aura>`  
 
-## Vertrauten rufen
+### Château d'Illusion
 
-**Beschreibung**:  
-Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
-**Art**: sort normal  
-**Niveau** : 9  
-**Rang**: 5  
-**Composants** : 100 Aura, 5 permanente Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Vertrauten rufen"  
+<!-- cspell:disable -->
+*Castle of Illusion (EN), Traumschlößchen (DE)*.
+<!-- cspell:enable -->
 
-## Schlechte Träume
+:   Avec l'aide de ce sort, le tisserand de rêves peut créer l'illusion de n'importe quel bâtiment.  
+    L'illusion peut être saisie, mais elle est par ailleurs non fonctionnelle et ne nécessite aucun entretien.
+    Cela durera quelques semaines.
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELP GUARD) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.  
-**Art**: sort normal  
-**Niveau** : 10  
-**Rang**: 5  
-**Composants** : 90 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Schlechte Träume"  
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| 3 auras    |    3 | Normal |  5   |   |   |
 
-## Tod des Geistes
+`CAST "Castle of Illusion" <building-type>`  
 
-**Beschreibung**:  
-Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an. Ein Schlag aus astraler und elektrischer Energie trifft die Gegner, wird die Magieresistenz durchbrochen, verliert ein Opfer permanent einen Teil seiner Erinnerungen. Wird es zu oft ein Opfer dieses Zaubers kann es daran sterben.  
-**Art**: sort de pré-combat  
-**Niveau** : 11  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Tod des Geistes"  
+## Sorts de niveau 4
 
-## Süße Träume
+### Affaiblissement
 
-**Beschreibung**:  
-Dieser Zauber - dessen Anwendung in den meisten Kulturen streng verboten ist - löst im Opfer ein unkontrollierbares Verlangen nach körperlicher Liebe aus. Die betroffenen Personen werden sich Hals über Kopf in ein Liebesabenteuer stürzen, zu blind vor Verlangen, um an etwas anderes zu denken. Meistens bereuen sie es einige Wochen später...  
-**Art**: sort normal  
-**Niveau** : 12  
-**Rang**: 5  
-**Composants** : 5 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Süße Träume" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
+<!-- cspell:disable -->
+*Tiredness (EN), Schwere Glieder (DE)*.
+<!-- cspell:enable -->
 
-## Erschaffe eine Sphäre der Unsichtbarkeit
+:   Ce sort de combat provoque une fatigue intense chez certains ennemis pendant le combat.  
+    Les soldats tardent parfois à attaquer et se défendent mal.
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen. Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
-**Art**: sort normal  
-**Niveau** : 13  
-**Rang**: 5  
-**Composants** : 150 Aura, 30000 Silber, 3 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe eine Sphäre der Unsichtbarkeit"  
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 4 x N auras |    4 | Pré-c. |  5   |   |   |
 
-## Erschaffe ein Traumauge
+`COMBATSPELL [LEVEL n] Tiredness`  
 
-**Beschreibung**:  
-Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen. Lange Zeit wurde eine solche Fähigkeit für nutzlos erachtet, bis die ehemalige waldelfische Magistra für Kampfmagie, Liarana Sonnentau von der Akademie Thall, eine besondere Anwendung vorstellte: Feldherren träumen vor großen Kämpfen oft unruhig und verraten im Traum ihre Pläne. Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben. Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
-**Art**: sort normal  
-**Niveau** : 14  
-**Rang**: 5  
-**Composants** : 1 Drachenkopf, 5 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe ein Traumauge"  
+### Lecture des rêves
+
+<!-- cspell:disable -->
+*Read Dreams (EN), Traumlesen (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au Dreamweaver d'entrer dans les rêves d'une unité pour obtenir un rapport sur les environs.  
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 8 auras    |    4 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Read Dreams" <unit-id>`  
+
+## Sorts de niveau 5
+
+### Analyse des rêves
+
+<!-- cspell:disable -->
+*Analyse Dreams (EN), Traumbilder analysieren (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le tisserand de rêves peut tenter de détecter les enchantements d'une seule unité.  
+    Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
+    Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
+
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| 25 auras   |    5 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Analyse Dreams" <unit-id>`  
+
+### Résurrection
+
+<!-- cspell:disable -->
+*Resurrection (EN), Wiederbelebung (DE)*.
+<!-- cspell:enable -->
+
+:   Si un guerrier meurt au combat, son âme commence le long voyage vers les étoiles.  
+    À l'aide d'un rituel, un tisserand de rêves peut tenter de capturer l'âme et de la restituer dans le corps du défunt.  
+    Bien que le sort ne soigne pas les blessures physiques, la personne soignée survivra au combat.
+
+| Composants | Niv. |    Type | Rang | B | D |
+|------------|-----:|--------:|:----:|:--|:--|
+| N auras    |    5 | Post-c. |  4   |   |   |
+
+`COMBATSPELL [LEVEL n] Resurrection`  
+
+## Sorts de niveau 6
+
+### Créer une [[amulette-de-vision-decuplee]]
+
+<!-- cspell:disable -->
+*Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
+<!-- cspell:enable -->
+
+:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
+    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+
+<!-- TODO: check if it's only Cerdorr or not -->
+| Composants                               | Niv. |   Type | Rang | B                  | D |
+|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create An Amulet of True Sight"`  
+
+### Créer un [anneau d'Invisibilité]
+
+<!-- cspell:disable -->
+*Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+    Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
+    Dans une unité invisible, chaque personne doit porter une bague.
+
+| Composants                               | Niv. |   Type | Rang | B                  | D |
+|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create A Ring of Invisibility"`  
+
+### Insomnie
+
+<!-- cspell:disable -->
+*Insomnia (EN), Schlechter Schlaf (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort provoque de l'insomnie et de l'agitation dans la zone touchée pendant quelques semaines.  
+    Les personnes concernées ont beaucoup plus de mal à apprendre.
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 18 auras   |    6 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] Insomnia`  
+
+## Sorts de niveau 7
+
+### Endormissement
+
+<!-- cspell:disable -->
+*Sleep (EN), Schlaf (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort endort certains combattants ennemis.  
+    Les combattants endormis n'attaquent pas et ont des défenses plus faibles, mais ils se réveillent dès qu'ils sont touchés au combat.  
+
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    7 | Combat |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] Sleep`  
+
+### Intrusion mentale
+
+<!-- cspell:disable -->
+*Mind Probe (EN), Traumdeuten (DE)*.
+<!-- cspell:enable -->
+
+:   Grâce à ce sort, le tisserand de rêves pénètre dans les pensées et le monde onirique de sa victime et peut ainsi espionner ses secrets les plus intimes.  
+    Ses capacités, ses possessions et son affiliation à un parti ne seront plus incertaines.
+
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| 20 auras   |    7 | Normal |  5   |   |   |
+
+`CAST "Mind Probe" <unit-id>`  
+
+## Sorts de niveau 8
+
+### Schöne Träume
+
+<!-- cspell:disable -->
+*(EN), Schöne Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au Dreamweaver d'affecter le sommeil de toutes les unités alliées de la région, leur donnant un bonus dans toutes les compétences pendant un certain temps.
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 80 auras   |    8 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Schöne Träume"`  
+
+### Traumbilder entwirren
+
+<!-- cspell:disable -->
+*(EN), Traumbilder entwirren (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au tisserand de rêves de distinguer et de démêler les images oniriques naturelles et forcées d'une personne, d'un bâtiment, d'un bateau ou d'une région.
+
+| Composants  | Niv. |   Type | Rang | B                  | D                  |
+|-------------|-----:|-------:|:----:|:-------------------|:-------------------|
+| 6 x N auras |    8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+## Sort de niveau 9
+
+### Invocation du Familier
+
+<!-- cspell:disable -->
+*Summon Familiar (EN), Vertrauten rufen (DE)*.
+<!-- cspell:enable -->
+
+:   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
+
+| Composants                    | Niv. |   Type | Rang | B | D |
+|-------------------------------|-----:|-------:|:----:|:--|:--|
+| 100 auras, 5 auras permanents |    9 | Normal |  5   |   |   |
+
+`CAST "Summon Familiar"`  
+
+## Sort de niveau 10
+
+### Schlechte Träume
+
+<!-- cspell:disable -->
+*(EN), Schlechte Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au Rêveur de perturber le sommeil de toutes les unités non alliées (`HELP GUARD`) de la région à tel point qu'elles perdent temporairement une partie de leurs souvenirs.
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 90 auras   |   10 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Schlechte Träume"`  
+
+## Sort de niveau 11
+
+### Tod des Geistes
+
+<!-- cspell:disable -->
+*(EN), Tod des Geistes (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.  
+    Une explosion d'énergie astrale et électrique frappe les adversaires;  
+    si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.  
+    S'il est trop souvent victime de ce sort, il peut mourir.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras |   11 | Pré-c. |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
+
+## Sorts de niveau 12
+
+### Süße Träume
+
+<!-- cspell:disable -->
+*(EN), Süße Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.  
+    Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.  
+    La plupart du temps, ils le regrettent quelques semaines plus tard...
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 5 x N auras |   12 | Normal |  5   |   |   |
+
+`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+
+## Sort de niveau 13
+
+### Créer une [Sphère d'Invisibilité]
+
+<!-- cspell:disable -->
+*Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité].  
+    Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
+
+| Composants                                   | Niv. |   Type | Rang | B                  | D |
+|----------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 150 auras, 30 000 silver, 3 auras permanents |  13  | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create A Sphere of Invisibility"`  
+
+## Sort de niveau 14
+
+### Créer un [[dreameye]]
+
+<!-- cspell:disable -->
+*Create A DreamEye (EN), Erschaffe ein Traumauge (DE)*.
+<!-- cspell:enable -->
+
+:   Un œil de dragon lancé avec ce sort est consommé lors de la communion, ce qui permet à l'utilisateur d'entrer et de lire les rêves d'une autre personne.  
+    Pendant longtemps, une telle capacité a été considérée comme inutile jusqu'à ce que l'ancien maître de la magie de combat des Elfes des bois, Liarana Sundew de l'Académie Thall, présente une application spéciale :  
+    les généraux rêvent souvent sans relâche avant les batailles majeures et révèlent leurs plans dans leurs rêves.  
+    Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.  
+    Mais attention : interpréter les rêves est une affaire difficile.
+
+| Composants                               | Niv. |   Type | Rang | B                  | D |
+|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 1 [[tete-de-dragon]], 5 auras permanents |   14 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create A DreamEye"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->
+
+[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"

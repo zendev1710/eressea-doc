@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-make-fr
 ---
-# MAKE
+# `MAKE`
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
 **`MAKE`**`[`*`niveau`*`]`*`type_batiment`*`[`*`id_batiment`*`]`  
@@ -12,25 +12,38 @@ alias: cmd-make-fr
 **`MAKE`**`[`*`quantité`*`] HERBS`  
 **`MAKE`**`[`*`quantité`*`]`*`objet`*  
 
-L'ordre `MAKE` est l'ordre de production général. Pour en savoir plus, voir le chapitre [[production]].
+L'ordre `MAKE` est l'ordre de production général.  
+
+Pour en savoir plus, voir le chapitre [[production]].
 
 ## Objets
 
-[[items]] and [[resources|raw materials]] are created with `MAKE [`*`number`*`]`*`item`*` `. Depending on the item, a certain skill and perhaps also certain raw materials are required. Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.
+Les [[objets]] et les [[ressources|matières premières]] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
+Selon l'objet, une certaine compétence et peut-être aussi certaines matières premières sont nécessaires.  
+Sans préciser la *quantité*, l'unité produira autant d'items que de personnes dans l'unité, de niveaux de compétence et éventuellement de matières premières le permettent.  
 
 ### Potions
 
-Creating a potion is very complex and can only be done by particularly talented alchemists. Details can be found in the [[alchemy|Alchemy chapter]].
+Concocter une potion est très complexe et ne peut être réalisé que par des alchimistes particulièrement talentueux.  
+Les détails peuvent être trouvés dans le chapitre sur [[alchimie|l'alchimie]].
 
 ### Plantes
 
-Herbs are produced with the `MAKE HERBS` order by units with the [herbalism] skill. For details, see the chapter on [[herbs]].
+Les plantes sont produites avec l'ordre `MAKE HERBS` par des unités maîtrisant l'[herboristerie].
+Pour plus de détails, voir le chapitre sur les [[plantes]].
 
 ## Unités
 
-When you create a new unit (`MAKE TEMP xy`), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example `GIVE TEMP xy 100 silver`). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID *TEMP xy*, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.
+Lorsque vous créez une nouvelle unité (`MAKE TEMP xyz`), vous lui attribuez un alias d'identifiant (son identifiant réel n'est pas encore connu).  
+Pour tout autre ordre, vous pouvez référencer l'unité par cet alias (en incluant le mot `TEMP`, par exemple `GIVE TEMP xyz 100 silver`).
+Lorsque vous recherchez une unité `TEMP`, votre propre faction est recherchée en premier, puis les autres factions.
+Donc, si vous et une autre faction avez tous les deux une unité `TEMP` avec l'ID **`xyz`**, votre propre unité sera toujours choisie.
+Ainsi, avec un peu de coordination, les unités `TEMP` d'autres factions peuvent également être contactées.
 
-The alias number will be used as the new number of the unit if it is not taken. You can also assign a name to the new unit. The orders
+L'alias d'identifiant sera utilisé comme nouvel identifiant de l'unité s'il n'est pas déjà pris.
+Vous pouvez également attribuer un nom à la nouvelle unité.  
+
+Les ordres :
 
 ```text
 MAKE TEMP 1
@@ -38,76 +51,99 @@ MAKE TEMP 1
     NUMBER UNIT funy
 ```
 
-can be shortened to :
+peut être raccourci à :
 
 ```text
 MAKE TEMP funy "Clowns"
 ```
 
-A maximum of 2500 units are allowed per party. If the party has 2500 or more units, no new units can be created with `MAKE TEMP`; other units must first be deleted, e.g. by merging them. As the deletion of empty units comes at the end of the command sequence, new TEMP units can only be created in the following week.
+Un maximum de 2 500 unités est autorisé par faction.
+Si le groupe compte 2 500 unités ou plus, aucune nouvelle unité ne peut plus être créée avec l'ordre `MAKE TEMP`;  
+d'autres unités doivent d'abord être supprimées, par exemple en les fusionnant.  
+La suppression des unités vides intervenant en fin de séquence des ordres, de nouvelles unités `TEMP` ne pourront être créées que la semaine suivante.  
 
-The orders following the MAKE TEMP order are assigned to the new unit up to the END order.
+Les ordres qui suivent l'ordre `MAKE TEMP` sont affectés à la nouvelle unité jusqu'à la prochaine instruction `END` rencontrée.  
 
-However, the new unit must still have members, otherwise it will be silently deleted at the end of the round! It must therefore recruit or be given people. If the new unit is to recruit new members, it must also receive enough money to do so. If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week. If the unit receives money but does not recruit any members, it is also disbanded and the money falls to [other units of their own faction].
+Cependant, la nouvelle unité doit toujours avoir des membres, sinon elle sera silencieusement supprimée à la fin du tour !
+Il faut donc qu'elle recrute ou qu'on lui donne une personne au moins.  
+Si la nouvelle unité veut recruter de nouveaux membres, elle doit également recevoir suffisamment d’argent pour le faire.  
+Si elle ne reçoit pas cette information, l'unité ne pourra recruter personne et sera silencieusement retirée à la fin de la semaine.  
+Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux [autres unités de leur propre faction].  
 
 ```text
-UNIT 17;       Fighters [15,700$]
-MAKE TEMP 1
-   NAME UNIT "dragon riders"
-   LEARN melee
-END
-GIVE TEMP 1 5 MEN
- 
-GIVE TEMP 2 100 silver
-MAKE TEMP 2
-   RECRUIT 1
-   NAME UNIT "scouts"
-   DEFAULT "LEARN perception"
-   MOVE west
-END
+UNIT 17;   Combattants [15,700$]
+    MAKE TEMP 1
+        NAME UNIT "dragon riders"
+        LEARN melee
+    END
+    GIVE TEMP 1 5 MEN
+     
+    GIVE TEMP 2 100 silver
+    MAKE TEMP 2
+        RECRUIT 1
+        NAME UNIT "scouts"
+        DEFAULT "LEARN perception"
+        MOVE west
+    END
 ```
 
 ## Bâtiments
 
-To erect a new building, use the order `MAKE [`*`levels`*`]`*`building_type`* (see [[buildings]]). To continue building, the order is `MAKE [levels]`*`building_type`*` `*`building_id`*. The *building type* can also be replaced by CASTLE when continuing to build, even if it is a different type of building.
+Pour ériger un nouveau bâtiment, utilisez l'ordre `MAKE [`*`niveau`*`]`*`<type bâtiment>`* (voir [[batiments]]).  
+Pour continuer à construire (agrandir un batiment), l'ordre est `MAKE [levels]`*`<type bâtiment>`*` `*`building_id`*.  
+Le type de bâtiment peut être remplacé par `CASTLE` lors de la poursuite de la construction, même s'il s'agit d'un type de bâtiment différent.  
 
-Castles and many other buildings can be enlarged as much as you want. In order to build castles, the unit must have the masonry skill and stones; other buildings usually also require wood, iron, and silver in various quantities.
+Les châteaux et bien d’autres bâtiments peuvent être agrandis autant que vous le souhaitez.  
+Afin de construire des châteaux, l'unité doit avoir des compétences en maçonnerie et en pierres;
+d'autres bâtiments nécessitent généralement également du bois, du fer et de l'argent en diverses quantités.
 
 ## Bâteaux
 
-With `MAKE`*`ship_type`* a unit starts building a new [[ships|ship]]. This requires the shipcraft skill and wood. It can continue building with `MAKE [`*`levels`*`] SHIP`*`ship-nr`*. Ships cannot be expanded like castles; the type is determined at the start of construction. Ships can only be built up to the size specified by their type.
+Avec `MAKE`*`type bateau`* une unité commence à construire un nouveau [[bateaux|bateau]].  
+Cela nécessite une compétence en matière de construction navale, et du bois.
+On peut continuer à construire avec `MAKE [`*`niveau`*`] SHIP`*`ID bateau`*.
+Les bateaux ne peuvent pas être agrandis comme les châteaux : le type est déterminé au début de la construction.  
+Les bateaux ne peuvent être construits qu'à la taille définie selon leur type.
 
-With buildings as well as ships you can specify with *levels* how many size points you would like to add to the ship.
+Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* combien de points de taille vous souhaitez ajouter.  
 
-- first week: `MAKE longboat`  
-  A new ship is constructed and gets the number 76 from the server.
-- second week: `MAKE SHIP 76`  
-  Continue building the ship with the number 76.
+- première semaine : `MAKE longboat`. Un nouveau bateau est construit et reçoit l'identifiant 76 de la part du serveur.
+- deuxième semaine : `MAKE SHIP 76`. Poursuit la construction d'une [chaloupe] d'identifiant 76.
 
 ## Routes
 
-To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*. To build [[roads]], the unit needs the skill [roadwork] and [[items|stones]]. In glaciers, it needs a [tunnel] beforehand, in deserts a [caravanserai] and in swamps a [dam]. One stone is used per skill point of road construction. Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]]. Roads only work if they are complete.
+Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
+Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes] et des [[objets|pierres]].  
+Dans les glaciers, il lui faut au préalable un [tunnel], dans les déserts un [caravansérail] et dans les marécages un [barrage].  
+Une pierre est utilisée par point de compétence en construction de route.
+Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  
+Les routes ne fonctionnent que si elles sont complètes.
 
-Player experience: Solthar Except when erecting a new building you can exchange the type in MAKE type xyz with BURG or any other building type.
+Expérience de jeu (Solthar) :
 
-`MAKE type` or `MAKE SHIP` without further parameters is currently continuing construction on the building or ship in which the unit is currently located. **Attention:** If the unit is in a building, MAKE lighthouse does not start a new building, but continues building on the old one.
+Sauf lors de la construction d'un nouveau bâtiment, vous pouvez échanger le type en `MAKE type xyz` avec `CASTLE` ou tout autre type de bâtiment.  
+
+`MAKE <type>` ou `MAKE SHIP` sans autres paramètres, la construction du bâtiment ou du bateau dans lequel se trouve actuellement l'unité se poursuit.
+
+!!! warning "Attention"
+    Si l'unité se trouve dans un bâtiment, `MAKE lighthouse` ne démarre pas un nouveau bâtiment, mais continue de construire l'ancien.
 
 ## Exemples
 
 ```text
-MAKE 5 sword ; produces 5 swords (at most)
-MAKE water~of~life ; produces as much of the potion as raw materials and skill allow
+MAKE 5 sword ; produit 5 épées (au plus)
+MAKE water~of~life ; produit autant de potions *water of life* que les matières premières et la compétence le permettent
 MAKE HERBS
 LEAVE
-MAKE lighthouse ; starts building a new lighthouse
-MAKE lighthouse xyz ; expands the lighthouse xyz
+MAKE lighthouse ; commence à construire un nouveau phare
+MAKE lighthouse xyz ; agrandit le phare xyz
 LEAVE
-MAKE CASTLE xyz ; continues building on xyz (of whatever building type)
-MAKE 5 Trireme ; starts a new trireme
-MAKE SHIP abc ; continues building the ship abc
-MAKE ROAD SE ; continues or starts building the road towards the south-east
-MAKE Trireme abc ; wrong: starts a new trireme
-MAKE building xyz ; wrong: only CASTLE or building type is allowed
+MAKE CASTLE xyz ; continue de construire xyz (quel que soit le type de bâtiment)
+MAKE 5 Trireme ; commence à construire une nouvelle trirème
+MAKE SHIP abc ; continue de construire le bateau abc (la trirème)
+MAKE ROAD SE ; continue ou commence à construire une route en direction du sud-est
+MAKE Trireme abc ; incorrect : démarre une nouvelle trirème (ce qui n'était pas voulu)
+MAKE building xyz ; incorrect : only CASTLE or building type is allowed
 ```
 
 ## Voir aussi
@@ -117,9 +153,11 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->
 
-[herbalism]: ./skills-list.md#herboristerie
-[other units of their own faction]: ./factions.md#dissolution-des-unites
-[roadwork]: ./skills-list.md#construction-de-routes
+[herboristerie]: ./skills-list.md#herboristerie
+[autres unités de leur propre faction]: ./factions.md#dissolution-des-unites
+[construction de routes]: ./skills-list.md#construction-de-routes
 [tunnel]: ./buildings-others.md#tunnel
-[caravanserai]: ./buildings-others.md#caravanserail
-[dam]: ./buildings-others.md#barrage
+[caravansérail]: ./buildings-others.md#caravanserail
+[barrage]: ./buildings-others.md#barrage
+
+[chaloupe]: ./ships.md#chaloupe "Longboat"

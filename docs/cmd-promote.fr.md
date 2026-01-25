@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-promote-fr
 ---
-# PROMOTE
+# `PROMOTE`
 
 **`PROMOTE`**  
 
@@ -16,7 +16,7 @@ C'est pourquoi il vaut la peine de promouvoir les unités dotées de compétence
     Un Héros **n'attaque pas plus souvent** avec de la magie, des arbalètes ou des catapultes.
 
 <!-- TODO: which cost exactly ? -->
-Le côut de la promotion en tant que Héros d'une unité dépend du nombre total de personnes de la faction.  
+Le coût de la promotion en tant que Héros d'une unité dépend du nombre total de personnes de la faction.  
 Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent] lorsqu'il y en a suffisamment.  
 
 Le nombre maximum de héros est limité, mais augmente avec la taille de la faction.  

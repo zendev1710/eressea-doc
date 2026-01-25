@@ -4,10 +4,10 @@ alias: cmd-attack
 ---
 # ATTACK
 
-*The `ATTACK` order is a [pseudo-long] order.*  
+*The `ATTACK` order is a [pseudo-long][short-and-long-orders] order.*  
 *It is short in the sense that are several `ATTACK` orders can be done.*  
 *It is long because it precludes further long orders if a "long" fight actually occurs.*  
-*When a “long” fight occurs is explained under [end of battle].*  
+*When a “long” fight occurs is explained under [end of battle][the-end].*  
 
 **`ATTACK`**` `*`unit-id`*  
 
@@ -25,5 +25,6 @@ In the first few weeks, a faction is [[puppy-protection|immune]] to attacks.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
 
-[pseudo-long]: ./commands.md#short-and-long-orders
+<!--[pseudo-long]: ./commands.md#short-and-long-orders
 [end of battle]: ./war.md#the-end
+-->

@@ -1,402 +1,444 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: histoire-d-eressea
 ---
 # Histoire d'Eressea
 
-According to [Wikipedia], Eressea launched on August 27, 1996.
-It was developed as a spin-off of [[atlantis]].
-The popularity was subject to relatively strong fluctuations.
-The record was over 2,000 factions at the beginning of 2002.
-At the end of 2005, there were fewer than 1,000 factions for the first time.
-At the end of 2008, new registration was temporarily closed.
-At this point there were under 700 factions.
-But the game still goes on.
+Selon [Wikipedia], Eressea a été lancé le 27 août 1996.
+Il a été développé en tant que spin-off d'[[atlantis]].
+La popularité était sujette à des fluctuations relativement fortes.
+Le record était de plus de 2 000 factions début 2002.
+Fin 2005, il y avait pour la première fois moins de 1 000 factions.
+Fin 2008, les nouvelles inscriptions ont été temporairement fermées.
+À cette époque, il y avait moins de 700 factions.
+Mais le jeu continue.
 
 ## Développeurs
 
 - Russel Wallace
-  Developer of Atlantis 1.0
+  Développeur d'Atlantis 1.0
 - Alex Schröder
-  Developer of German Atlantis.  
-  The Atlantis 1.0 and German Atlantis code is freely available, in contrast to the Eressea code based on it.
+  Développeur de l'Atlantide version allemande.
+  Le code Atlantis 1.0 et celui de la version allemande sont disponibles gratuitement, contrairement au code Eressea basé sur celui-ci.
 - Christian Schlittchen ([Corwin])
-    Developed Eressea and ran the game for a long time (until round 289, around mid-2002).
+  a développé Eressea et fait tourner le jeu pendant longtemps (jusqu'au tour 289, vers mi-2002).
 - Katja Zedel ([Katze (Designerin)])
-  was the developer and game director of Eressea together with Corwin. Katja's biggest project was the development of new magic.
+  était la développeuse et directrice du jeu d'Eressea avec Corwin.
+  Le plus grand projet de Katja a été le développement d'une nouvelle magie.
 - [Enno Rehling]
-  has been there since round 39 and took over development and game management after the other two game managers left.
+  est là depuis le tour 39 et a pris en charge le développement et la gestion du jeu après le départ des deux autres directeurs du jeu.
 - Henning Peters ([Faroul])
-  Developer, among others, of the train checker [[echeck]].
+  Développeur, entre autres, du vérificateur d'ordres [[echeck]].
 - Benjamin Bärmann, Ingo Wilken
-  Co-developer in the first years, including alchemy
+  Co-développeur dans les premières années, notamment sur l'alchimie
 
 ## Évolution des règles
 
-There have been many minor and major rule changes over time, usually to improve game balance. Here is a list that is far from complete.
+De nombreux changements mineurs et majeurs ont été apportés aux règles au fil du temps, généralement pour améliorer l'équilibre du jeu.  
+En voici une liste, loin d'être complète.
 
 ## Premier Âge
 
-Sometime
+Un jour
 
-- The breeds are introduced
-- Only humans can now receive migrants, migrants of other races are converted into the owner's race, while retaining their skill level (and thereby gaining Lentage if necessary)
+- Les races sont introduites dans le jeu
+- Seuls les humains peuvent désormais recevoir des migrants, les migrants des autres races sont convertis dans la race du propriétaire, tout en conservant leur niveau de compétence
 - Elves lose their +1 bonuses in entertainment and lumbering
 
 27.08.1996
 
-- The first evaluation
+- La première évaluation
 
 04.12.1998
 
-- The order **FIND** falls away (What did he do?)
-- The option **ADDRESSES** is introduced
+- L'ordre `FIND` disparaît (que faisait-il ?)
+- L'option `ADDRESSES` est introduite dans le jeu
 
 05.12.1998
 
-- Submitting partial orders is now possible without deleting previously received orders for other units
+- La soumission d'ordres partiels est désormais possible sans supprimer les ordres précédemment reçus pour d'autres unités
 
 13.12.1998
 
-- Ships adrift at sea without sufficient crew have a 33% chance of sinking
-- Unmanned monuments are slowly crumbling
+- Les bateaux à la dérive en mer sans équipage suffisant ont 33 % de chances de couler
+- Les monuments sans dirigeant s’effondrent lentement
 
 18.12.1998
 
-- Kämpfer bekommen zusätzlich zu den Lerntagen im jeweiligen Waffentalent auch 10 Lerntage Ausdauer und sofern sie beritten sind 10 Lerntage Reiten, wenn sie in einem Kampf verwickelt sind.
+- Les combattants reçoivent 10 jours d'apprentissage en Endurance en plus des jours d'apprentissage de leur compétence d'arme respective, et 10 jours d'équitation s'ils sont montés et impliqués dans le combat
 
 08.01.1999
 
-- The **SHIP BUILDING** skill is renamed to **SHIP BUILDING**
+- La compétence `SCHIFFSBAU` est renommée en `SCHIFFBAU` (en langue allemande)
 
 14.01.1999
 
-- The format of the **COMPUTER REPORT** s is changed
+- Le format du rapport informatique (CR) évolue
 
 23.02.1999
 
-- UNITS can now be contacted directly, even if they are disguised as a faction and therefore the address cannot be seen
+- Les unités peuvent désormais être contactées directement, même si elles sont déguisées en faction et que leur adresse ne peut donc pas être vue.
 
 28.02.1999
 
-- The **ADDRESS** order will be abolished. He will follow the **EMAIL** and BANNER orders **replaced**
+- L'ordre `ADDRESS` est aboli et sera ensuite remplacé par les ordres `EMAIL`et`BANNER`
 
 08.04.1999
 
-- The **OPINION** order is introduced to be able to enter surveys and opinions directly as an order
+- L'ordre `OPINION` est introduit pour pouvoir saisir des enquêtes et des opinions directement sous forme d'ordre
 
 27.04.1999
 
-- Enno creates the basis for much despair 9 years later.  
-  Faction disguised units that get involved in battles are now displayed as a separate army.  
-  When troubleshooting large battles, including those involving groups (that don't yet exist at the time of the change), this change makes it almost impossible to understand.
+- Enno crée la base d'un grand désespoir 9 ans plus tard.
+  Les unités déguisées en faction qui participent aux batailles sont désormais affichées comme une armée distincte.
+  Lors du dépannage de grandes batailles, y compris celles impliquant des groupes (qui n'existent pas encore au moment du changement), ce changement rend la compréhension presque impossible.
 
 09.04.1999
 
-- If a unit has a higher skill value than its opponent, the damage it deals with a hit increases by the skill difference
+- Si une unité a une valeur de compétence supérieure à celle de son adversaire, les dégâts qu'elle inflige en cas de coup augmentent de la différence de compétence
 
 30.04.1999
 
-- A unit limit is introduced; starting at 2000, it will be reduced by 200 every month until it reaches 1000. At the time of launch, 9 factions are over the limit
+- Une limite unitaire est introduite; à partir de 2000, il sera réduit de 200 chaque mois jusqu'à atteindre 1 000.
+- Au moment de l'activation de la fonctionnalité, 9 factions dépassent la limite
 
 09.05.1999
 
-- Entering buildings required **HELP GUARD** or **CONTACT** no more **HELP GIVE**
+- L'entrée dans les bâtiments nécessite l'ordre `HELP GUARD` ou `CONTACT`, mais désormais pas `HELP GIVE`
 
 17.05.1999
 
-- Creativity Potion doubles the capacity of alchemists
+- La potion de créativité double la capacité des alchimistes
 
 31.05.1999
 
-- **LIEFERE** and **GIVE** can now use the parameter **EVERYTHING** be used
+- `DELIVER` et `GIVE` peuvent maintenant utiliser le paramètre `EVERYTHING`
 
 06.06.1999
 
-- The previously existing square fields are being replaced by hex fields, although in a survey among players the majority were against it.  
-  This change is causing a lot of anger among the players. Today, however, hardly anyone doubts the correctness of this change, which meant that each region has 6 neighboring regions instead of 4.  
-  The paths also become shorter because you can now walk diagonally.  
-  This means that a lot is happening in terms of range.  
-- Horses no longer double movement, but instead give a +1 to range.
-  This means that a rider on roads no longer travels 4 regions, but only 3 regions.
-- All ships lose one point of range
-- The Aquarian bonus to ship speed is halved to +1
-- Ships can only leave in the direction from which they came and the two neighboring directions, unless there is an allied port in the region
-- Ships can now take damage and will no longer simply sink if they are undermanned
-- Damaged ships lose capacity and possibly speed
-- The wages for non-orcs are reduced to the current level ("current today" is so imprecise, I would write farmer's wage -1 if I were sure about it)
+- Les champs carrés existants sont remplacés par des champs hexadécimaux, même si, lors d'une enquête auprès des joueurs, la majorité s'y opposait
+  Ce changement suscite beaucoup de colère parmi les joueurs.
+  Aujourd’hui, cependant, presque personne ne doute de la justesse de ce changement, qui signifie que chaque région a 6 régions voisines au lieu de 4.
+  Les sentiers deviennent également plus courts car on peut désormais marcher en diagonale.
+  Cela signifie qu’il se passe beaucoup de choses en termes de portée.
+- Les chevaux ne doublent plus leur déplaement, mais donnent à la place un +1 à la portée.
+  Cela signifie qu'un passager sur route ne parcourt plus 4 régions, mais seulement 3 régions.
+- Tous les bateaux perdent un point de portée
+- Le bonus des Aquariens sur la vitesse du bateau est réduit de moitié à +1
+- Les bateaux ne peuvent partir que dans la direction d'où ils viennent et dans les deux directions voisines, sauf s'il existe un port allié dans la région
+- Les bateaux peuvent désormais subir des dégâts et ne couleront plus simplement s'ils manquent d'équipage
+- Les bateaux endommagés perdent de leur capacité et éventuellement de leur vitesse
+- Les salaires des non-orques sont réduits au niveau actuel (salaire du fermier -1 ?)
 
 06.06.1999
 
-- The **ROUTE** order is modified and the parameter **BREAK** enriched
+- L'ordre `ROUTE` est modifié et le paramètre `BREAK` enrichi
 
 12.09.1999
 
-- The unit numbers are converted to four-digit Base36 numbers
-- The  **NUMBER[Wish ID]** order is introduced
-- The parameter **PEASANTS** is eliminated and passed **0** replaced because GIVE BAUERN could be confused with the Base36 number baue
+- Les identifiants d'unité sont convertis en identifiants Base36 à quatre chiffres
+- L'ordre `NUMBER [wish ID]` est introduit dans le jeu
+- Le paramètre `PEASANTS` est éliminé et remplacé par `0` parce que `GIB BAUERN` pouvait être confondu avec l'identifiant en Base36 `baue`
 
 19.12.1999
 
-- Santa Claus gives out presents for the first time
+- Le Père Noël distribue des cadeaux pour la première fois
 
 16.01.2000
 
-- All human migrants with expensive skills become humans, this change is actually just a bug fix
+- Tous les migrants humains dotés de compétences coûteuses deviennent des humains, ce changement n'est en fait qu'une correction de bug
 
 13.01.2000
 
-- The **OPTION BZIP2** is introduced to make the reports sent smaller
+- `OPTION BZIP2` est introduit pour réduire la taille des rapports envoyés
 
 01.02.2000
 
-- The Merian map (an ASCII map representation of the known world as part of the report) is omitted because it is rarely used
+- La carte Merian (une représentation cartographique ASCII du monde connu faisant partie du rapport) est supprimée car elle est rarement utilisée
 
-20.2.2000
+20.02.2000
 
-- **FOLLOW** is only a long order if the unit actually moves
+- `FOLLOW` n'est un ordre long que si l'unité bouge réellement
 
 28.02.2000
 
-- You no longer gain experience in combat. This change is the result of massive abuse
+- Vous ne gagnez plus d'expérience au combat. Ce changement est le résultat d'abus massifs
 
-12.3.2000
+12.03.2000
 
-- **GUARD** Only armed units that can handle the weapon can do so
+- Seules les unités armées capables de manier l'arme peuvent garder
 
 ## Deuxième Âge
 
-“We write The First Week of the Month of Field Blessings, in the First Year of the Second Age.” (lap 184)
+« Nous écrivons la première semaine du mois des bénédictions des champs, dans la première année du Deuxième Âge. » (tour 184)  
 
-With these words begins on April 8th. 2000 the second age.
-This is accompanied by a large number of revolutionary rule changes, which are summarized under the umbrella term magic reform.
-However, these are not just changes that affect magic.
-The vast majority includes races and combat rules.
+Avec ces mots commence le 8 avril. 2000 le Deuxième Âge.  
+Cela s’accompagne d’un grand nombre de changements de règles révolutionnaires, résumés sous le terme générique de réforme magique.  
+Cependant, ce ne sont pas seulement des changements qui affectent la magie.  
+La grande majorité de ces changements concerne les races et les règles de combat.  
 
 ### Début du 6ème Monde
 
-- The starting unit of each race now receives a starting gift
-  - Elves get fairy boots
-  - Dwarves receive an axe, chain mail, and 30 days of learning cutting weapons
-  - Orcs get T4 in all weapon skills
-  - Cats get an RdU
-  - Goblins get a starting unit that is 10 and not just one person, as well as an RdU
-  - Insects receive nine nest warming potions, enough to recruit for a winter
-  - Aquarians get a boat and 30 days of learning how to sail
-  - Humans get a fortification (at that time it only consisted of 2 stones)
-  - Halflings get a chariot, two horses, five luxury goods of each type and T1 riding
-  - Trolls get 10 stones and Perception T3
-  - Demons get T15 stamina
-- Firewalls are introduced as new region types
+<!--- TODO: clarify RdU -->
+- L'unité de départ de chaque course reçoit désormais un cadeau de départ
+  - Les Elfes reçoivent des bottes de fée
+  - Les Nains reçoivent une hache, une cotte de mailles et 30 jours d'apprentissage des armes coupantes
+  - Les Orcs obtiennent T4 dans toutes les compétences d'armes
+  - Les Chats reçoivent un RdU
+  - Les Gobelins reçoivent une unité de départ de 10 personnes et pas seulement une, ainsi qu'un RdU
+  - Les Insectes reçoivent neuf potions de nest warming, suffisamment pour recruter pour un hiver
+  - Les Aquariens reçoivent un bateau et 30 jours d'apprentissage de la voile
+  - Les Humains obtiennent une fortification (à cette époque elle n'était composée que de 2 pierres)
+  - Les halfelins reçoivent 1 chariot, 2 chevaux, 5 objets de luxe de chaque type et un cheval T1
+  - Les trolls reçoivent 10 pierres et Perception T3
+  - Les démons obtiennent une endurance T15
+- Les Murs de Feu (*Firewall*) sont introduits en tant que nouveau type de région
 
-### The "Magician Reform" 08.04.2000 (Round 184)
+### La "Réforme Magique" 08.04.2000 (Tour 184)
 
-- The hitherto universal magic area Lirpa (The name originally comes from an April Fool's joke announcement, but after the introduction of the new magic areas it quickly became a common name for 'the old magic') is replaced by Draig, Illaun, Tybied, Gwyrrd and Cerddor.  
-  The reform means a drastic weakening of magic, especially by eliminating the spell Sunfire, whose effect cannot be compared to any combat spell known today.
-- **RESEARCH** according to sayings is omitted. A magician can cast all spells in his magic area with a level less than or equal to his magic talent
-- Learning magic becomes significantly more expensive (50+50*(1+level)*Level/2), especially at high levels. Previously it always cost 200 silver
-- Instead of one spell per round, Aura is introduced. This means that it is now possible to cast several spells in a week, with a significant increase in aura costs
-- Only magicians of the same magic area can teach each other
-- When learning magic for the first time you have to choose an area with LEARN MAGIE "Magic area"
-- The hit points of all units are doubled
-- The weapon damage of normal weapons is increased by approximately 25%. Multi-component weapons and those made from rare raw materials increase their damage more
-- Armor effects are also increased by approximately 25%
-- Ranged fighters have a 33% probability of finding a target from the first and second rows, and a 67% probability of only finding a target from the first row. In the past, only the first row was attacked
-- Monsters can have multiple attacks per round, i.e. they can cast spells several times or attack conventionally several times
-- In addition to spells, monsters can also have other special attacks
-- Dragon Breath can no longer be stopped by antimagic spells, as dragons otherwise pose little threat
-- Recruitment costs for elves, demons and insects are increased to 130, 150 and 80
-- Starving units no longer die with a 2/3 chance but instead take starvation damage; The same applies to demons who don't get to eat farmers
-- Only one herb grows per region, which has to grow back and is no longer available indefinitely
-- The command **GROW HERBS** is introduced, alternatively the command also works **GROW FLOWERS**
-- The university is renamed the academy
+- L'école de magie jusqu'ici universelle Lirpa (le nom vient à l'origine d'un poisson d'avril, mais après l'introduction des nouvelles Écoles de Mahie, il est rapidement devenu un nom commun pour « l'ancienne magie ») est remplacée par Draig, Illaun, Tybied, Gwyrrd et Cerddor.
+  La Réforme implique un affaiblissement drastique de la magie, notamment en supprimant le sort Feu du Solzil, dont l'effet ne peut être comparé à aucun sort de combat connu aujourd'hui.
+- `RESEARCH` selon la rumeur est supprimé. Un mage peut lancer tous les sorts de son école de magie d'un niveau inférieur ou égal à son niveau en magie.
+- L'apprentissage de la magie devient nettement plus coûteux (50 + 50 * (1 + niveau) * Niveau / 2), surtout à des niveaux élevés. Auparavant, cela coûtait toujours 200 silver
+- Au lieu d'un sort par tour, l'aura est introduit. Cela signifie qu'il est désormais possible de lancer plusieurs sorts en une semaine, avec une augmentation significative des coûts d'aura
+- Seuls les mages du même domaine magique peuvent s'enseigner entre eux
+- Lorsque vous apprenez la magie pour la première fois, vous devez choisir une école de magie avec `LEARN MAGIC "<Magic School>"`
+- Les points de vie de toutes les unités sont doublés
+- Les dégâts des armes normales sont augmentés d'environ 25 %.
+  Les armes à plusieurs composants et celles fabriquées à partir de matières premières rares augmentent davantage les dégâts
+- Les effets d'armure sont également augmentés d'environ 25 %
+- Les combattants à distance ont une probabilité de 33 % de trouver une cible dans les première et deuxième lignes, et une probabilité de 67 % de trouver uniquement une cible dans la première rangée. Autrefois, seul la première ligne était attaquée
+- Les monstres peuvent avoir plusieurs attaques par tour de combat, c'est-à-dire qu'ils peuvent lancer des sorts plusieurs fois ou attaquer de manière conventionnelle plusieurs fois
+- En plus des sorts, les monstres peuvent également avoir d'autres attaques spéciales
+- Le souffle du dragon ne peut plus être arrêté par des sorts d'antimagie, car les dragons ne représentent autrement que peu de menace
+- Les coûts de recrutement des Elfes, des Démons et des Insectes sont augmentés à 130, 150 et 80
+- Les unités affamées ne meurent plus avec 2/3 de chances mais subissent à la place des dégâts de famine; La même chose s'applique aux Démons qui ne peuvent pas manger d'agriculteurs
+- Une seule herbe pousse par région, qui doit repousser et n'est plus disponible indéfiniment
+- L'ordre `GROW HERBS` est introduit, alternativement l'ordre `GROW FLOWERS` fonctionne également
+- L'université est rebaptisée Académie
 - Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
-- The orders **LIEFERE** , **RESERVE** and **//** are now carried out until contrary orders are received for a unit. For example, if the player has an NMR, these commands will still be executed
-- Farmer's Blood affects 100 demons in a region, no longer just one unit
-- Familiars and the astral space are introduced
+- Les ordres `DELIVER`, `RESERVE` et `//` sont désormais exécutés jusqu'à ce que des ordres contraires soient reçus pour une unité. Par exemple, si le joueur provoque un NMR, ces ordres seront toujours exécutés
+- Le sang de paysans affecte 100 démons dans une région, et non plus une seule unité
+- Les Familiers et l'Astral sont introduits dans le jeu
 
-### "Raw material reform" Date and round unknown
+### "Réforme des matières premières" - Date et tour inconnus
 
-The raw material reform, certainly the largest collection of far-reaching changes after the magic reform, came after the publicly announced development stop of Eressea.
-Announced as the very last (If you're thinking about cheese, you really know the history of Eressea ;) Rule change.
-However, many other larger and smaller changes afterwards proved the opposite.
+La Réforme des matières premières, certainement le plus grand ensemble de changements de grande envergure après la Réforme Magique, est intervenu après l'arrêt du développement d'Eressea annoncé publiquement.  
+Annoncé comme le tout dernier changement de règle (si vous pensez au fromage maintenant, c’est que vosu faites partie des vrais anciens d’Eressea 😃).  
+Cependant, de nombreux autres changements, plus ou moins importants, ont prouvé par la suite le contraire.  
 
-- Farmer smoothing is an attempt to distribute the important raw material farmers more fairly.  
-  Regions with many farmers were taken away and regions that had few farmers were filled up.  
-  The number of farmers in Eressea remained the same. Not only the farmers but also the players in the region were important for the distribution.  
-  So people who had collected 10,000 soldiers in a central region had, after smoothing, a region empty of farmers, as well as alliances on whose island an invading army had just landed.  
-  On the other hand, if you had your army on the ocean you were fine.  
-  The pawn smoothing was announced at short notice, but the exact formula was not.  
-  This change also causes a lot of turmoil among the players, as many (all the pawns lost) feel treated unfairly.
-- Along with the pawn smoothing, orcs lost their reproduction rate of 5%. 
-  All existing Orc units have been converted into Snootlings; they can only learn combat-relevant talents up to t7.  
-  Since the change, orcs are only subtracted 1 to 2 from the farmers when recruiting and handed over to the farmers 2 to 1, Snootlings do not bring any pawns when handed over to 0 (is that right?).  
-  The handover of the old orcs to the farmers took place in the order of command BEFORE the pawn smoothing in order to prevent orcs from cheating their way into an advantage.
-  Of course, many players overlooked this announcement and there was a lot of controversy here too.  
-  The players' ongoing complaints about rule changes are generally considered to be the reason for Corwin's exit from Eressea and for the announcement of the development freeze, which was never adhered to.  
-  In order to maintain a small degree of the skill dilution that was the case with the orc increase, from this point onwards orcs simply do not learn a non-combat talent with a 5% probability.  
-  The tactics bonus of +1 for orcs remains despite the lack of dilution (In my opinion, a major oversight on the part of the game management, but no one asked me back then [Xolgrim]�;)
-- Lerntage werden durch Lernwahrscheinlichkeiten ersetzt, Verwässern von Talenten hat nun drastisch schlechtere Auswirkungen auf die Talente der Einheiten (Der Teil hier muss wesentlich ausführlicher geschrieben werden, hab ich aber gerade keine Zeit für [Xolgrim])
-- Das Holzwachstum wird zur Gänze umgeworfen und drastisch reduziert. Anstelle einer wöchentlichen Baumvermehrung um 5% (das waren in einem 600er Wald immerhin 30 Holz, mit Sägewerk 60 Holz Pro Woche die man das ganze Jahr hindurch abbauen konnte) Werden Bäume in Samen, Schösslinge und Bäume aufgeteilt. Bäume werfen im Frühjahr und Sommer Samen, diese wachsen, im Frühjahr das nächsten Jahres, zu Schösslingen heran und werden dann, im folgenden Frühjahr, zu Bäumen.
-- Steine, Eisen und Laen können nun in allen Regionstypen vorkommen, nicht mehr nur in Bergen und Gletschern.
-- Steine müssen auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen und Gletschern immer bei Stufe 1, in anderen Regionen kann diese höher liegen. Steine sammelte sich früher nicht an, man konnte in einem Berg 100 (mit Steinbruch 200, Trolle mehr) pro Stufe abbauen, tat man dies nicht waren die Steine verloren. Es war also lohnenswerter ohne Steinbruch zu produzieren als abzuwarten bis man einen gebaut hat.
-- Eisen muss auf 'Schichten' abgebaut werden, die Höhe der Schicht die man abbauen kann entspricht dem Talent der abbauenden Einheit. Die erste Schicht beginnt in Bergen immer bei Stufe 1, in anderen Regionen kann diese höher liegen. Eisen sammelte sich früher nicht an, man konnte in einem Berg 50 (mit Bergwerk 100, Zwerge mehr) pro Stufe abbauen, tat man dies nicht lagerte sich das Eisen im Berg an und man konnte es später abbauen.
-- Laen must be mined in 'layers', the level of the layer that can be mined corresponds to the talent of the mining unit.  
-  The first layer always starts at level 7 in Bergen, but in other regions it can be higher.  
-  Laen did not accumulate in the past, a small amount that was subject to strong fluctuations could be mined in mountains.  
-  If this was not done, the laen accumulated and could be mined later.
-- GUARD prevents the mining of all raw materials by visible units
+- Le lissage des agriculteurs est une tentative de répartir plus équitablement les matières premières importantes entre les agriculteurs.
+  Les régions comptant de nombreux agriculteurs ont été supprimées et les régions qui en comptaient peu ont été comblées.
+  Le nombre d'agriculteurs dans Eressea est resté le même. Non seulement les agriculteurs mais aussi les acteurs de la région ont joué un rôle important dans la distribution.
+  Ainsi les gens qui avaient rassemblé 10 000 soldats dans une région centrale se retrouvaient, après lissage, dans une région vide d'agriculteurs, tout comme quand une armée d'invasion venait de débarquer sur une île.
+  D’un autre côté, si vous aviez votre armée sur l’océan, tout allait bien.
+  Le lissage des paysans a été annoncé dans un bref délai, mais la formule exacte ne l’a pas été.
+  Ce changement provoque également beaucoup d'émoi parmi les joueurs, car beaucoup se sentent traités injustement (à cause de tous les paysans perdus)
+- Parallèlement au lissage des paysans, les Orcs ont perdu leur taux de reproduction de 5 %
+  Toutes les unités Orc existantes ont été converties en Snootlings; ils ne peuvent apprendre que des compétences pertinentes pour le combat jusqu'au niveau T7.
+  Depuis le changement, les Orcs ne sont soustraits aux agriculteurs que 1 contre 2 lors du recrutement et remis aux agriculteurs 2 contre 1, les Snootlings n'apportent aucun paysan lorsqu'ils sont remis à 0 (est-ce vrai ?).
+  La remise des anciens Orcs aux agriculteurs a eu lieu dans la séquence des ordres AVANT le lissage des paysans afin d'empêcher les Orcs de tricher pour obtenir un avantage.
+  Bien sûr, de nombreux joueurs ont ignoré cette annonce et il y a eu ici aussi beaucoup de controverses.
+  Les plaintes persistantes des joueurs concernant ces changements de règles sont généralement considérées comme la raison du départ de Corwin d'Eressea et de l'annonce du gel du développement, qui n'a jamais été respecté.
+  Afin de maintenir un petit degré de dilution des compétences, ce qui était le cas avec l'augmentation des Orcs, à partir de ce moment, les Orcs n'apprennent tout simplement plus de compétence non liée au combat avec une probabilité de 5 %.
+  Le bonus tactique de +1 pour les Orcs demeure malgré l'absence de dilution (à mon avis, un oubli majeur de la part de la direction du jeu, mais personne ne me l'a demandé à l'époque [Xolgrim])
+- Les jours d'apprentissage sont remplacés par des probabilités d'apprentissage, l'édulcoration des compétences a désormais un effet nettement pire sur les compétences des unités (cette partie doit être écrite beaucoup plus en détail, mais je n'ai pas le temps pour [Xolgrim] pour le moment)
+- La croissance du bois est complètement renversée et considérablement réduite.
+  Au lieu d'une augmentation hebdomadaire des arbres de 5 % (soit au moins 30 bois dans une forêt de 600 mètres, avec une scierie 60 bois par semaine pouvant être abattus toute l'année), les arbres sont divisés en graines, jeunes arbres (pousses) et arbres.
+  Les arbres jettent des graines au printemps et en été, celles-ci se transforment en jeunes arbres au printemps de l'année suivante, puis en arbres au printemps suivant.
+- La pierre, le fer et le laen peuvent désormais apparaître dans tous les types de région, et non plus seulement dans les montagnes et les glaciers
+- Les pierres doivent être extraites en couches; le niveau de la couche pouvant être extraite correspond au niveau de compétence en extraction de pierre de l'unité exploitant la carrière
+  La première couche commence toujours au niveau 1 dans les montagnes et les glaciers, mais dans d'autres régions, elle peut être plus élevée.
+  Avant, les pierres ne s'accumulaient pas, vous pouviez en extraire 100 par niveau dans une montagne (avec une carrière 200, les trolls, plus) par niveau, si vous ne le faisiez pas, les pierres étaient perdues.
+  Il était donc plus intéressant de produire sans carrière que d'attendre qu'une soit construite.
+- Le fer doit être extrait en couches; le niveau de la couche exploitable correspond à la compétence de l'unité mineur.
+  En montagne, la première couche commence toujours au niveau 1, dans d'autres régions, cela peut être plus élevé.
+  Le fer ne s'accumulait pas dans le passé, on pouvait en extraire 50 par niveau dans une montagne (avec des mines 100, les nains, plus).
+  Si vous ne le faisiez pas, le fer s'accumulait dans la montagne et vous pouviez l'exploiter plus tard.
+- Le laen doit être exploité par « couches », le niveau de la couche pouvant être exploitée correspond au niveau de compétence de l'unité minière.
+  Le premier niveau commence toujours au niveau 7 en montagne, mais dans d'autres régions, il peut être plus élevé.
+  Le laen ne s'accumulait pas dans le passé, une petite quantité soumise à de fortes fluctuations pouvait être extraite dans les montagnes.
+  Si cela n’avait pas été fait, les laen se seraient accumulé et pourraient être exploités plus tard.
+- `GUARD` empêche l'extraction de toutes les matières premières par des unités visibles
 
 ### Autres évolutions
 
-März 2002 -- BRAVO Screenfun
+Mars 2002 - BRAVO Screenfun
 
-The BRAVO Screenfun has a two-page article, which temporarily caused a rush of very young players.
-In the first and third weeks after the release, 100 additional players register, and 200 in the second week.
-This brings the number of players to its record high of over 2,000. However, most of the new players, disparagingly referred to as BRAVO kiddies by the experienced players, only stay in the 10th world for a few weeks.
+Le BRAVO Screenfun comporte un article de deux pages, qui a momentanément provoqué une ruée de très jeunes joueurs.  
+Dans les première et troisième semaines suivant la sortie, 100 joueurs supplémentaires s'inscrivent, et 200 la deuxième semaine.  
+Cela porte le nombre de joueurs à un niveau record de plus de 2 000.  
+Cependant, la plupart des nouveaux joueurs, qualifiés de manière désobligeante de "BRAVO les enfants" par les joueurs expérimentés, ne restent dans le 10ème monde que quelques semaines.  
 
 05.05.2002
 
-- Bewachende Einheiten verhindern Rekrutierungen und den Abbau aller begrenzten Resourcen aus der Region. In diesem Kontext gibt es eine kleine zusätzliche Änderung: In Zukunft wirkt GUARD nicht mehr, wenn der Bewachende den 'Produzenten' nicht sieht. Als besonderer Fall gilt bei einer leeren TEMP-Einheit die erschaffende Einheit als Sichtbarkeitsreferenz. Anders ausgedrückt: Entscheidend ist in diesem Fall, ob die Einheit gesehen wird, welche die TEMP-Einheit erschaffen hat.
-- Die verfügbare Resourcenmenge wird zunächst halbiert. Dies ist eine Anpassung an die geringeren Bauernzahlen und die infolgedessen zu erwartenden erheblich kleineren Parteigrößen. Bei den nachwachsenden Resourcen wurde einfach die Wachstumrate gesenkt, bei den nichtnachwachsenden wie Eisen kommen bei Erreichen einer neuen 'Abbaustufe' jetzt weniger neue Resoucen hinzu.
-- Der Anteil an den Bauern, der pro Runde rekrutiert werden kann, wird von 20% auf 5% der Bauernbevölkerung gesenkt. Damit wird die Treiberameisenstrategie weniger attraktiv.
-- Katapulte haben ab sofort nur noch sechs statt bisher 10 Angriffen. Außerdem beträgt ihr Talentmalus ab sofort 4 statt 1. Ihr Gewicht wird von 120 auf 100 kg verringert.
-- Katapultmunition kann produziert werden (die Änderung am 02.06.2002) Bis zur Auswertung am 2. Juni schießen alle Katapulte noch ohne Munition, mit der Auswertung zum 2. Juni müssen Katapulte mit Munition versorgt werden!
-
-- Crossbows and bows have so far been little differentiated; their effect is mathematically almost identical.  
-  For this reason, there is a change in crossbows: reloading will now take two rounds, but the opponent's armor protection will be halved and rounded down when a crossbow hit. The only exception to this is magical armor protection.
+<!-- TODO translated from english -->
+- Guarding units prevent recruitment and the extraction of all limited resources from the region.
+  In this context there is a small additional change: In the future, `GUARD` will no longer work if the person guarding does not see the producer.
+  As a special case, for an empty `TEMP` unit, the creating unit is used as the visibility reference.
+  In other words: What is crucial in this case is whether the unit that created the `TEMP` unit is seen.
+- The available amount of resources is initially halved.
+  This is an adjustment to the lower number of farmers and the expected significantly smaller faction sizes.
+  For renewable resources, the growth rate has simply been reduced;
+  for non-renewable resources, such as iron, fewer new resources are now added when a new 'mining stage' is reached.
+- The proportion of farmers that can be recruited per turn is reduced from 20% to 5% of the farmer population.
+  This makes the driver ant strategy less attractive.
+- Catapults now only have 6 attacks instead of the previous 10.
+  In addition, her skill penalty is now 4 instead of 1.
+  Its weight is reduced from 120 to 100 kg.
+- Catapult ammunition can be produced (the change on June 2nd, 2002).
+  Until the evaluation on June 2nd, all catapults still fire without ammunition, with the evaluation on June 2nd, catapults must be supplied with ammunition!
 
 02.06.2002
 
-- Catapult ammunition is introduced. This can be produced from stones using MAKE CATAPULT AMMUNITION by a stone builder with talent 3 and weighs 10 weight units. One ammunition unit corresponds to a volley of six shots
-- Units in the astral plane cost normal maintenance (previously there was no maintenance in the astral space)
+- Les munitions pour catapulte sont introduites.
+- Ceci peut être produit à partir de pierres en utilisant `MAKE CATAPULT AMMUNITION` par un constructeur de pierre de niveau 3 et pèse 10 unités de poids.
+  Une unité de munition correspond à une volée de 6 coups.
+- Les unités dans l'Astral coûtent une maintenance normale (auparavant, il n'y avait pas de maintenance dans l'Astral)
 
-Zeitpunkt unbekannt
+Date unknown.
 
-- Die Koordinaten sind nicht mehr absolut sondern relativ zur Startregion des Spielers. Jeder Spieler startet nun auf den Koordinaten (0,0).
-- Kämpfe dauern nicht mehr 10, sondern nur noch 5 Runden bzw. 6 mit der Taktikerrunde.
-- Migranten können keine teuren Talente mehr lernen. Einheiten mit vorhandenen teuren Talenten können nicht übergeben werden.
-- Untote wandeln sich nach einiger Zeit 10 zu 1 in Superuntote. Etwas später wird das Wandelverhältniss auf 2 zu 1 gesetzt.
-- Taktiker bekommen nun einen vom Zufall abhängigen Bonus auf ihr Talent.
-- Die Rekrutierungskosten von Zwergen werden von 90 auf 110 angehoben.
-- Vulkane werden als neue Regionstypen eingeführt.
-- Die maximale Talentstufe wird von 32 auf 64 erhöht, da erstmals Einheiten aus der alten Welt diese Marke durchbrechen. Die Programmierer hatten nicht damt gerechnet, dass je eine Einheit solch eine hohe Stufe erreichen würde.
-- Die Gletscherbarrieren der alten Welten (erst 1-3 dann 4+5) fangen an zu schmelzen. Eisberge lösen sich aus den Gletscherbarrieren und treiben umher bis sie schmelzen.
-- Die Menge der auferstehenden Untoten wird an das Regionsalter angepasst.
-- Einheiten die sich im Astralraum befinden verbrauchen wieder 10 Silber/Woche zum Unterhalt.
+- Les coordonnées ne sont plus absolues mais relatives à la région de départ du joueur.
+  Chaque joueur commence désormais aux coordonnées (0,0)
+- Les combats ne durent plus 10 rounds, mais seulement 5 rounds ou 6 avec le round du tacticien
+- Les migrants ne peuvent plus acquérir de compétences coûteuses.
+  Les unités existantes avec des compétences coûteuses ne peuvent pas être transférées
+- Au bout d'un moment, les morts-vivants se transforment en super morts-vivants au taux de 10 pour 1.
+  Un peu plus tard, le taux de conversion est fixé à 2 pour 1.
+- Les tacticiens reçoivent désormais un bonus aléatoire à leur compétence
+- Les coûts de recrutement des Nains ont augmenté de 90 à 110
+- Les volcans sont introduits comme de nouveaux types de régions
+- Le niveau maximum de compétence passera de 32 à 64 à mesure que les unités du vieux monde franchiront ce seuil pour la première fois.
+  Les programmeurs ne s'attendaient pas à ce qu'une unité atteigne un jour un niveau aussi élevé.
+- Les barrières glaciaires des anciens mondes (d’abord 1 à 3 puis 4 et 5) commencent à fondre.
+  Les icebergs se libèrent des barrières glaciaires et flottent jusqu'à ce qu'ils fondent.
+- Le nombre de morts-vivants sera ajusté en fonction de l'âge de la région
+- Les unités qui se trouvent dans l'Astral consomment à nouveau 10 silver par semaine pour la maintenance
 
-Oktober 2003 -- Registration closed
+Octobre 2003 - Inscription clôturée
 
-- New registration for Eressea is initially no longer possible for German-speaking players.  
-  Enno's reason for this is that he has less fun with the community and more and more work with new players. A short time later, registration will be possible again in return for a donation (for a good cause).
+- Dans un premier temps, les nouvelles inscriptions à Eressea ne sont plus possibles pour les joueurs germanophones.
+La raison pour laquelle Enno fait cela est qu'il s'amuse moins avec la communauté et travaille de plus en plus avec de nouveaux joueurs.
+Peu de temps après, les inscriptions seront à nouveau possibles contre un don (pour une bonne cause).
 
-11.7.2004 -- Combat rule reform (from around round 390)
+11.7.2004 - Réforme des règles de combat (à partir du tour 390 environ)
 
-- The effects of skill differences are halved (hit chance +-5% instead of +-10%, +1 damage point instead of +2)
-- The cost of some powerful weapons will be increased. Elven bows now cost 2 mallorn instead of 1, halberds 2 wood and 1 iron instead of 1 wood and 1 iron
-- Demons now starve like other races (talent reduction and life points)
-- The 1st row becomes easier to overrun in combat. This now happens at a ratio of 3:1 (instead of the previous 10:1)
-- The regeneration of life points is slowed down
-- Swimming Aquarians can no longer transport other races
-- Heroes are introduced. A unit can use the command **TRANSPORTATION** be made into a hero unit.  
-  Heroes deal ten times more blows in combat, but otherwise behave normally and are indistinguishable from normal units to the enemy.  
-  The number of heroes a party can have is severely limited and follows the same formula as migrants (log10(party size÷50)×20).
+- Les effets des différences de compétences sont divisés par deux (chance de toucher +-5 % au lieu de +-10 %, +1 point de dégâts au lieu de +2)
+- Le coût de certaines armes puissantes sera augmenté.
+  Les arcs elfiques coûtent désormais 2 mallorn au lieu de 1, les hallebardes 2 bois et 1 fer au lieu de 1 bois et 1 fer
+- Les démons meurent désormais de faim comme les autres races (réduction des compétences et points de vie)
+- La première ligne devient plus facile à déborder en combat.
+  Cela se produit désormais selon un rapport de 3/1 (au lieu de 10/1 auparavant).
+- La régénération des points de vie est ralentie
+- Les Aquariens nageurs ne peuvent plus transporter d'autres races
+- Les héros sont introduits dans le jeu.
+  Une unité peut utiliser l'ordre `TRANSPORTATION` pour devenir une unité de héros.
+  Les Héros infligent 10 fois plus de coups au combat, mais se comportent autrement normalement et ne se distinguent pas des unités normales du point de vue de l'ennemi.
+  Le nombre de Héros qu'un groupe peut avoir est sévèrement limité et suit la même formule que les migrants (log10 (taille du groupe ÷ 50) × 20).
 
-17.4.2005 -- RESTART, weights, etc.
+17.04.2005 - RESTART, poids, etc.
 
-4.5.2005 -- The [[xontormia-express]] appears again after a break under a new editor
+04.05.2005 -Le [[xontormia-express]] réapparaît après une pause sous un nouvel éditeur
 
-5.6.2005 -- Astral space reform (from round 430) etc.
+05.06.2005 - Réforme de l'Astral (à partir du tour 430) etc.
 
-- Units passing through a chaos vortex lose 3/4 of their health
-- Stones, horses, chariots and catapults crumble to dust in the Astral Space
-- Monsters become more aggressive (actually more of a bug fix)
-- Ships can be overloaded again
+- Les unités traversant un vortex du chaos perdent les 3/4 de leur santé
+- Pierres, chevaux, chars et catapultes s'effondrent en poussière dans l'Astral
+- Les monstres deviennent plus agressifs (en fait, il s'agit plutôt d'une correction de bug)
+- Les bateaux peuvent à nouveau être surchargés
 
-27.7.2005 -- Movement after fight
+27.07.2005 - Mouvements après combat
 
-- Units can only execute a long order after combat if*each*Unity in their army is allowed to do that
+- Les unités ne peuvent exécuter un ordre long après le combat que si chaque unité dans leur armée est autorisée à le faire
 
-10.9.2005 -- Double play, handover of the faction
+10.09.2005 - Double jeu, passation de faction
 
-- Players from factions that are at least 150 rounds old are allowed to start a second faction
-- Faction handovers are prohibited. This is a reaction to the fact that after faction surrenders there was often trouble (due to multiple play or the enemy taking over parties in an alliance), which meant work and frustration for the game management
-- Dying factions hand over their items to friendly factions (Help EVERYTHING)
+- Les joueurs des factions datant d'au moins 150 tours sont autorisés à créer une deuxième faction
+- Les transferts de faction sont interdits.
+  Il s'agit d'une réaction au fait qu'après la capitulation d'une faction, il y avait souvent des problèmes (en raison du jeu multiple ou de la prise de contrôle des factions dans une alliance par l'ennemi), ce qui impliquait du travail et de la frustration pour la direction du jeu.
+- Les factions mourantes remettent leurs objets à des factions amies (`HELP ALL`)
 
-13.9.2005 -- Movement after fight
+13.09.2005 - Mouvements après combat
 
-- Long orders possible after short fights; **MOVE**, **ROUTE**etc. only if none of the units from the *party*had a long fight.
+- Ordres longs possibles après de courts combats; `MOVE`, `ROUTE` etc. seulement si aucune des unités de la faction n'a un long combat
 
-31.1.2007/14.2.2007 -- Combat Rules (Round 513)
+31.01.2007 -> 14.02.2007 - Règles de combat (tour 513)
 
-- Battles on oceans are always short
-- Battles in other regions are short if a friendly unit is guarding the region
-- Ships receive damage from the 2nd round of combat if at least one person on the ship takes damage
-- Fleeing units remain in the region and do not lose any items
-- Units with **COMBAT FLEE** can still move
-- Before, the rule was: a fight was long if it lasted more than one round. Fleeing units threw away almost all items and fled to a random neighboring region
+- Les batailles sur les océans sont toujours courtes
+- Les batailles dans d'autres régions sont courtes si une unité amie garde la région
+- Les bateaux subissent des dégâts dès le 2ème tour de combat si au moins une personne à bord subit des dégâts
+- Les unités en fuite restent dans la région et ne perdent aucun objet
+- Les ynités avec `COMBAT FLEE` peuvent encore bouger
+- Avant, les règles étaient : un combat était long s’il durait plus d’un tour (de combat).
+  Les unités en fuite jetaient presque tous leurs objets et fuyaient vers une région voisine au hasard.
 
-15.11.2007 -- Unicode
+15.11.2007 - Unicode
 
-- Reports are converted to UTF-8 encoding (previously ISO-8895-15)
+- Les rapports sont convertis en encodage UTF-8 (anciennement ISO-8895-15)
 
-11.2.2008 -- Material und Silberpool
+11.02.2008 - Réserves dobjet et d'argent
 
-- Material and silver pool are active for all parties (previously they were optional)
+- Les réserves dobjet et d'argent sont actives pour toutes les factions (auparavant, elles étaient facultatives)
 
-2.3.2008 -- After articles have only been published very irregularly in recent months, the last issue of [[xontormia-express]] is being published.
+02.03.2008 - Xontormia Express
 
-28.4.2008 -- Regions receive IDs
+- Après que les articles n'aient été publiés que de manière très irrégulière ces derniers mois, le dernier numéro de [[xontormia-express]] est en cours de publication.
 
-15.5.2008 -- Magic and monsters
+28.04.2008 - Un identifiant est associé à chaque région
 
-- The spells “Veil of Confusion” and “Fog of Confusion” will be removed without replacement
-- The monster faction gets number (ii)
+15.05.2008 - Magie et monstres
 
-3.6.2008 -- World portals, adamantium, astral space
+- Les sorts « Voile de confusion » et « Brouillard de confusion » seront supprimés sans remplacement
+- La faction des monstres a pour identifiant (ii)
 
-- Islands with world portals suddenly appear
-- Adamantium is introduced
-- Movement rate in Astral Space is now only 1 (actually a bug fix)
+03.06.2008 - Portails du monde, adamantium, Astral
 
-Dezember 2008 -- Registration (finally) closed
+- Des îles avec des portails apparaissent soudainement dans le monde d'Eressea
+- L'adamantium est introduit dans le jeu
+- La vitesse de déplacement dans l'Astral n'est plus que de 1 (en fait, une correction de bug)
 
-- Due to some serious server issues, registration will be closed for everyone
+Décembre 2008 - Inscriptions (enfin) clôturées
+
+- En raison de sérieux problèmes de serveur, les inscriptions seront fermées pour tout le monde
 
 10.05.2009
 
-- The development of Eressea 1.5 is postponed. In its place comes the E3A project.
-  The aim is to quickly develop a playable version that includes major changes that can be implemented with as little coding as possible
+- Le développement d'Eressea 1.5 est reporté.  À sa place vient le projet E3A.
+  L'objectif est de développer rapidement une version jouable incluant des changements majeurs pouvant être implémentés avec le moins de codage possible.
 
-02.12.2017 - Waiting list is being processed again for the first time
+02.12.2017 - La liste d'attente est à nouveau traitée pour la première fois
 
-- New players will be suspended starting December 24, 2017 (last week of the month of Storm moon in Year 33 of the Second Age -1056)
-- The 18th world emerges
+- L'inscription de nouveaux joueurs est suspendue à partir du 24 décembre 2017 (dernière semaine du mois de Tempête lune en An 33 du Deuxième Âge - 1056)
+- Le 18ème monde émerge
 
 ## Eressea Le Troisième Àge
 
-Eressea 2 has been planned for years, but Enno is now sure that this version of Eressea will be a web game.
-However, this requires fundamental changes to the code and gameplay, which should be tested in Eressea 1.5 beforehand.
+Eressea 2 est prévu depuis des années, mais Enno est désormais sûr que cette version d'Eressea sera un jeu web.  
+Cependant, cela nécessite des changements fondamentaux dans le code et la jouabilité, qui doivent être testés au préalable dans Eressea 1.5.  
 
-In order to finally bring something new to the table for the players and to gain initial experience with a simplified version of Eressea, the development of Eressea 1.1 working title E2K9 will start on May 10, 2009.
-Version number 1.5 is not chosen because E1.1 is supposed to get by without a lot of programming effort by deleting a number of orders and changing existing parameters.
-It was originally intended as a smaller intermediate step to E1.5.
+Afin d'apporter enfin quelque chose de nouveau aux joueurs et d'acquérir une première expérience avec une version simplifiée d'Eressea, le développement du titre provisoire Eressea 1.1 E2K9 débutera le 10 mai 2009.  
+La version 1.5 n'a pas été choisie car la E1.1 est censée se passer de beaucoup d'efforts de programmation en supprimant un certain nombre d'ordres et en modifiant les paramètres existants.  
+Il s’agissait à l’origine d’une étape intermédiaire plus petite vers E1.5.
 
-Due to the massive rule changes, E1.1 will start in a new world.
-In order to counteract the problems of the endless game and to keep the workload for the current game as low as possible, it will not be possible to start the game later.
+En raison des changements massifs de règles, l'E1.1 démarrera dans un nouveau monde.  
+Afin de contrecarrer les problèmes du jeu sans fin et de maintenir la charge de travail du jeu en cours aussi faible que possible, il ne sera pas possible de démarrer le jeu plus tard.  
 
-The programmer for this project is [Enno][Enno Rehling] the design team at this point only consists of Xolgrim.
-Just a few days later, it was expanded to its current size with Eon, who had noticed Enno via a mailing list, and Phygon, who, like Xolgrim, had already worked on various unfinished Eressea projects.
+Le programmeur de ce projet est [Enno][Enno Rehling], l'équipe de conception à ce stade n'est composée que de Xolgrim.  
+Quelques jours plus tard, elle a été agrandie à sa taille actuelle avec Eon, qui avait remarqué Enno via une liste de diffusion, et Phygon, qui, comme Xolgrim, avait déjà travaillé sur divers projets inachevés d'Eressea.  
 
-The working title, which stands as an abbreviation for "Eressea 2009", illustrates the small time window that remains for development, design, programming and testing.
-June 24, 2009 is the first planned start date, but this cannot be met for several reasons.
-Above all other, mostly private, reasons, the number of new registrations is crucial. The hope was for more than 50 players, the dream was around 100.
-However, three days before the registration deadline, almost 400 players had already registered. At least the basic features of the suspension algorithm were completed in time for June 24th. World building can begin.
+Le titre provisoire, qui est l'abréviation de « Eressea 2009 », illustre le peu de temps qui reste pour le développement, la conception, la programmation et les tests.
+Le 24 juin 2009 est la première date de début prévue, mais celle-ci ne put être respectée pour plusieurs raisons.  
+Avant toute autre raison, essentiellement privée, le nombre de nouvelles inscriptions est crucial.  
+L’espoir était de plus de 50 joueurs, le rêve était d’environ 100.  
+Pourtant, trois jours avant la date limite d'inscription, près de 400 joueurs s'étaient déjà inscrits.
+Au moins les fonctionnalités de base de l’algorithme de suspension ont été achevées à temps pour le 24 juin.
+La construction du monde a pu alors commencer.
 
-No one believes that Eressea The Third Age, E3 for short, can do without a lot of reprogramming.
-The list of small and large changes is long, and the to-do list of things that urgently need to be done after the launch is even longer.
-For example, many spells, some of which are already level 2, have not yet been completely revised.
-Since these can only be conjured up in the second round of the game at the earliest, there is still plenty of time for these and other little things...
+Personne ne croit qu'Eressea Le Troisième Âge, E3 en abrégé, puisse se passer de beaucoup de reprogrammation.  
+La liste des petits et grands changements est longue, et la liste des choses à faire de toute urgence après le lancement est encore plus longue.  
+Par exemple, de nombreux sorts, dont certains sont déjà de niveau 2, n’ont pas encore été entièrement revus.  
+Comme ceux-ci ne peuvent être évoqués qu'au plus tôt au deuxième tour du jeu, il reste encore beaucoup de temps pour ces petites choses et d'autres...  
+
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM

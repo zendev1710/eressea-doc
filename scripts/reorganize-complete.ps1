@@ -3,7 +3,7 @@ $langs = @('en', 'fr', 'de')
 $mapping = @{
     'commands' = @(
         'commands-list', 'commands-send', 'commands-sequence', 'commands-extended',
-        'commands-send-from-magellan', 'commands-short-descriptions', 'commands'
+        'commands-send-from-magellan', 'commands'
     )
     'magic' = @(
         'magic-school-cerddor', 'magic-school-draig', 'magic-school-gwyrrd', 'magic-school-illaun',
@@ -15,7 +15,7 @@ $mapping = @{
         'alliances', 'armed', 'camouflage'
     )
     'items' = @(
-        'potions-and-herbs', 'herbs', 'amulet-of-true-vision', 'antimagic-crystal',
+        'potions-and-herbs', 'herbs', 'amulet-of-true-sight', 'antimagic-crystal',
         'belt-of-troll-strength', 'dream-eye', 'flaming-sword', 'iron-golem',
         'magical-herb-bag', 'mountain-guard', 'negative-weight-bag', 'ring-of-invisibility',
         'ring-of-power', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail', 

@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-recruit-fr
 ---
-# RECRUIT
+# `RECRUIT`
 
 **`RECRUIT`**` `*`number`*
 
@@ -26,7 +26,8 @@ Cela signifie que les unités qui arrivent plus tard peuvent repartir les mains 
 
 **Exemple** :
 
-Faction A has RECRUIT 10, Faction B has RECRUIT 1, Faction C has two units each with RECRUIT 2.  
+Si l'une des conditions n'est pas remplie, l'ordre `QUIT` échoue et un message d'erreur apparaît.  
+La faction A passe l'ordre `RECRUIT 10`, la faction B passe l'ordre `RECRUIT 1`, la faction C compte deux unités chacune passant l'ordre `RECRUIT 2`.
 
 Il y a 160 agriculteurs dans la région, donc 4 recrues.  
 Il y a 1 1/3 de recrues par faction.  

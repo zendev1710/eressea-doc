@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-sell-fr
 ---
-# SELL
+# `SELL`
 
 *`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][^1].*  
 

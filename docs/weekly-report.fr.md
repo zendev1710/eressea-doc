@@ -1,25 +1,21 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: rapport-hebdomadaire
 ---
 # Rapport hebdomadaire
 
-The weekly report is a small statistic for Eressea.  
+Le rapport hebdomadaire est une synthèse statistique pour Eressea.
 
-It starts with the in-game date, the evaluation number and some numbers about general player development.
-This is followed by a list of the number of factions sorted by race, followed by the number of people per race.
+Cela commence par la date du jeu, le tour d'évaluation et quelques chiffres sur le développement général du joueur.  
+Ceci est suivi d'une liste du nombre de factions triées par race, suivie du nombre de personnes par race.
 
-It is concluded with the number of NMR and the number of new players.
+Il se conclut par le nombre de factions et le nombre de nouveaux joueurs.
 
-It is sent together with the report as a .txt file and, as the name suggests, appears weekly.
+Il est envoyé avec le rapport sous forme de fichier `.txt` et, comme son nom l'indique, apparaît chaque semaine.
 
-In the past, the absolute change figures and, for people per race, the percentage change were also given.
+## Exemple de rapport hebdomadaire#1000
 
-However, this has not been the case for several years.
-
-## Example weekly report \#1000
-
-Eressea in the first week of the month of Storm moon in the year 31 of the Second Age.
+Eressea dans la première semaine du mois de la Tempête de Lune en l'an 31 du Deuxième Âge.
 
 ```text
 Auswertung Nr: 1000
@@ -70,8 +66,8 @@ Neue Spieler: 0
 
 ## Archive de Xontormia Express
 
-The archive of past issues can be found [at this location].
+Les archives des numéros passés peuvent être trouvées [à cet endroit].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Wochenbericht&oldid=7724] -->
 
-[at this location]: https://wiki.eressea.de/Kategorie:Wochenbericht
+[à cet endroit]: https://wiki.eressea.de/Kategorie:Wochenbericht

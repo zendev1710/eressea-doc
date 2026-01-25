@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: deplacement-des-agriculteurs
 ---
 # Déplacement des agriculteurs

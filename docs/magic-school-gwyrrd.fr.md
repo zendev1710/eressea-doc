@@ -1,427 +1,640 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: sorts-gwyrrd
 ---
 # Sorts Gwyrrd
 
 Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Steingolems
-
-**Beschreibung**:  
-Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde. Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und forme der ungebundenen Kraft ein Gehäuse. Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden, bevor die Aura sich verflüchtigt. Jeder Golem hat jede Runde eine Chance von 10 Prozent zu Staub zu zerfallen. Gibt man den Golems die Befehle MAKE BURG oder MAKE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
-**Art**: sort normal  
-**Niveau** : 1  
-**Rang**: 4  
-**Composants** : 2 Aura \* Stufe, 1 Stein \* Stufe, 1 Wasser des Lebens  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Erschaffe Steingolems"  
-
-## Segen der Erde
-
-**Beschreibung**:  
-Dieses Ernteritual verbessert die Erträge der arbeitenden Bauern in der Region um ein Silberstück. Je mehr Kraft der Druide investiert, desto länger wirkt der Zauber.  
-**Art**: sort normal  
-**Niveau** : 1  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: sort à distance, sort de bateau  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Segen der Erde"  
-
-## Viehheilung
-
-**Beschreibung**:  
-Die Fähigkeiten der Gwyrrd-Magier in der Viehzucht und Heilung sind bei den Bauern sehr begehrt. Gerade auf Märkten sind ihre Dienste häufig sehr gefragt. Manch einer mag auch sein Talent dazu nutzen, ein Tier für einen besseren Preis zu verkaufen. Pro Stufe kann der Magier so 50 Silber verdienen.  
-**Art**: sort normal  
-**Niveau** : 1  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Viehheilung"  
-
-## Eisengolems
-
-**Beschreibung**:  
-Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden. Jeder Golem hat jede Runde eine Chance von 15 Prozent zu Staub zu zerfallen. Gibt man den Golems den Befehl MAKE SCHWERT/BIHÄNDER oder MAKE SCHILD/KETTENHEMD/PLATTENPANZER, so werden pro Golem 4 Eisenbarren verbaut und der Golem löst sich auf.  
-**Art**: sort normal  
-**Niveau** : 2  
-**Rang**: 4  
-**Composants** : 2 Aura \* Stufe, 1 Eisen \* Stufe, 1 Wasser des Lebens  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Erschaffe Eisengolems"  
-
-## Hainzauber
-
-**Beschreibung**:  
-Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
-**Art**: sort normal  
-**Niveau** : 2  
-**Rang**: 5  
-**Composants** : 4 Aura \* Stufe, 1 Holz \* Stufe, 1 Wasser des Lebens  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Hainzauber"  
-
-## Bergwächter
-
-**Beschreibung**:  
-Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELP GUARD) verhindert, solange er die Region bewacht. Der Bergwächter ist an den Ort der Beschwörung gebunden.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 3 Aura X niveau
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Bergwächter"  
-
-## Firuns Fell
-
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Magier Insekten auf magische Weise vor der lähmenden Kälte der Gletscher zu bewahren. Sie können Gletscher betreten und dort normal agieren. Der Spruch wirkt auf Stufe\*10 Insekten. Ein Ring der Macht erhöht die Menge der verzauberbaren Insekten zusätzlich um 10.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Firuns Fell" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
-
-## Hagel
-
-**Beschreibung**:  
-Im Kampf ruft der Magier die Elementargeister der Kälte an und bindet sie an sich. Sodann kann er ihnen befehlen, den Gegner mit Hagelkörnern und Eisbrocken zuzusetzen.  
-**Art**: sort de combat  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Hagel"  
-
-## Rostregen
-
-**Beschreibung**:  
-Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt. Der magische Regen wird alles Eisenerz rosten lassen. Eisenwaffen und Rüstungen werden schartig und rostig. Die Zerstörungskraft des Regens ist von der investierten Kraft des Magiers abhängig. Für jede Stufe können bis zu 10 Gegenstände betroffen werden. Ein Ring der Macht verstärkt die Wirkung wie eine zusätzliche Stufe.  
-**Art**: sort normal  
-**Niveau** : 3  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Rostregen" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
-
-## Magischer Pfad
-
-**Beschreibung**:  
-Durch Ausführung dieser Rituale ist der Magier in der Lage einen mächtigen Erdelementar zu beschwören. Solange dieser in den Boden gebannt ist, wird kein Regen die Wege aufweichen und kein Fluß Brücken zerstören können. Alle Reisende erhalten damit die gleichen Vorteile, die sonst nur ein ausgebautes gepflastertes Straßennetz bietet. Selbst Sümpfe und Gletscher können so verzaubert werden. Je mehr Kraft der Magier in den Bann legt, desto länger bleibt die Straße bestehen.  
-**Art**: sort normal  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 1 Aura \* Stufe, 1 Stein, 1 Holz  
-**Modificateurs**: sort à distance, sort de bateau  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Magischer Pfad"  
-
-## Segne Mallornstecken
-
-**Beschreibung**:  
-Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches. Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
-**Art**: sort normal  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 6 Aura \* Stufe, 1 Mallorn \* Stufe, 1 Wasser des Lebens  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Segne Mallornstecken"  
-
-## Wasserelementar
-
-**Beschreibung**:  
-Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen Dienst und bringt sie dazu, das angegebene Schiff schneller durch das Wasser zu tragen. Zudem wird das Schiff nicht durch ungünstige Winde oder Strömungen beeinträchtigt.  
-**Art**: sort normal  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Beschwörung eines Wasserelementares" &lt;Schiff-Nr&gt;  
-
-## Windschild
-
-**Beschreibung**:  
-Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden.  
-**Art**: sort de pré-combat  
-**Niveau** : 4  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Windschild"  
-
-## Astralschutzgeister
-
-**Beschreibung**:  
-Dieses Ritual beschwört einige Elementargeister der Magie und schickt sie in die Reihen der feindlichen Magier. Diesen wird das Zaubern für die Dauer des Kampfes deutlich schwerer fallen.  
-**Art**: sort de pré-combat  
-**Niveau** : 5  
-**Rang**: 2  
-**Composants** : 5 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Astralschutzgeister"  
-
-## Erschaffe einen magischen Kräuterbeutel
-
-**Beschreibung**:  
-Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material. Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
-**Art**: sort normal  
-**Niveau** : 5  
-**Rang**: 5  
-**Composants** : 30 Aura, 1 permanente Aura, 1 Wasser des Lebens  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe einen magischen Kräuterbeutel"  
-
-## Heilung
-
-**Beschreibung**:  
-Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen. Druiden vermögen mittels einer Beschwörung der Elementargeister des Lebens Wunden zu schließen, gebrochene Knochen zu richten und selbst abgetrennte Glieder wieder zu regenerieren.  
-**Art**: sort de post-combat  
-**Niveau** : 5  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Heilung"  
-
-## Wirbelwind
-
-**Beschreibung**:  
-Diese Beschwörung öffnet ein Tor in die Ebene der Elementargeister des Windes. Sofort erheben sich in der Umgebung des Tors starke Winde oder gar Stürme und behindern alle Schützen einer Schlacht.  
-**Art**: sort de pré-combat  
-**Niveau** : 5  
-**Rang**: 5  
-**Composants** : 15 Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Wirbelwind"  
-
-## Erdelementar
-
-**Beschreibung**:  
-Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen. Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 25 Aura, 2 Laen  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Beschwöre einen Erdelementar"  
-
-## Erschaffe ein Amulett des wahren Sehens
-
-**Beschreibung**:  
-Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen. Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe ein Amulett des wahren Sehens"  
-
-## Erschaffe einen Ring der Unsichtbarkeit
-
-**Beschreibung**:  
-Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Erschaffe einen Ring der Unsichtbarkeit"  
-
-## Meditation
-
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 1  
-**Composants** : 2 Aura  
-**Modificateurs**: sort de bateau  
-**Syntaxe** : CAST "Meditation" &lt;Einheit-Nr&gt; &lt;Aura&gt;  
-
-## Sturmelementar
-
-**Beschreibung**:  
-Die Beschwörung von Elementargeistern der Stürme ist ein uraltes Ritual. Der Druide bannt die Elementare in die Segel der Schiffe, wo sie helfen, das Schiff mit hoher Geschwindigkeit über die Wellen zu tragen. Je mehr Kraft der Druide in den Zauber investiert, desto größer ist die Zahl der Elementargeister, die sich bannen lassen. Für jedes Schiff wird ein Elementargeist benötigt.  
-**Art**: sort normal  
-**Niveau** : 6  
-**Rang**: 5  
-**Composants** : 6 Aura X niveau
-**Modificateurs**: Seezauber, sort de bateau  
-**Syntaxe** : CAST \[LEVEL n\] "Beschwöre einen Sturmelementar" &lt;Schiff-Nr&gt; \[&lt;Schiff-Nr&gt; ...\]  
-
-## Heimstein
-
-**Beschreibung**:  
-Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern der Burg, in der er sich gerade befindet. Weder magisch noch mit schwerem Geschütz können derartig gestärkte Mauern zerstört werden, und auch das Alter setzt ihnen weniger zu. Das Gebäude bietet sodann auch einen besseren Schutz gegen Angriffe mit dem Schwert wie mit Magie.  
-**Art**: sort normal  
-**Niveau** : 7  
-**Rang**: 5  
-**Composants** : 50 Aura, 1 permanente Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Heimstein"  
-
-## Wolfsgeheul
-
-**Beschreibung**:  
-Nicht wenige Druiden freunden sich im Laufe ihres Lebens in der Natur mit den ältesten Freunden der großen Völker an. Sie erlernen, mit einem einzigen heulenden Ruf viele ihrer Freunde herbeizurufen, um ihnen im Kampf beizustehen.  
-**Art**: sort de pré-combat  
-**Niveau** : 7  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Wolfsgeheul"  
-
-## Blick des Basilisken
-
-**Beschreibung**:  
-Dieser schwierige, aber effektive sort de combat benutzt die Elementargeister des Steins, um eine Reihe von Gegnern für die Dauer des Kampfes in Stein zu verwandeln. Die betroffenen Personen werden nicht mehr kämpfen, können jedoch auch nicht verwundet werden.  
-**Art**: sort de combat  
-**Niveau** : 8  
-**Rang**: 5  
-**Composants** : 1 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Blick des Basilisken"  
-
-## Geister bannen
-
-**Beschreibung**:  
-Wie die alten Lehren der Druiden berichten, besteht das, was die normalen Wesen Magie nennen, aus Elementargeistern. Der Magier beschwört und bannt diese in eine Form, um den gewünschten Effekt zu erzielen. Dieses Ritual nun vermag es, in diese Welt gerufene Elementargeister zu vertreiben, um so ein Objekt von Magie zu befreien.  
-**Art**: sort normal  
-**Niveau** : 8  
-**Rang**: 2  
-**Composants** : 6 Aura X niveau
-**Modificateurs**: sort à distance, sort de bateau  
-**Syntaxe** : CAST \[REGION x y\] \[LEVEL n\] "Geister bannen" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )  
-
-## Starkes Tor und feste Mauer
-
-**Beschreibung**:  
-Mit dieser Formel bindet der Magier zu Beginn eines Kampfes einige Elementargeister des Fels in die Mauern des Gebäudes, in dem er sich gerade befindet. Das Gebäude bietet sodann einen besseren Schutz gegen Angriffe mit dem Schwert wie mit Magie.  
-**Art**: sort de pré-combat  
-**Niveau** : 8  
-**Rang**: 5  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Starkes Tor und feste Mauer"  
-
-## Heiliger Boden
-
-**Beschreibung**:  
-Dieses Ritual beschwört verschiedene Naturgeister in den Boden der Region, welche diese fortan bewachen. In einer so gesegneten Region werden niemals wieder die Toten ihre Gräber verlassen, und anderswo entstandene Untote werden sie wann immer möglich meiden.  
-**Art**: sort normal  
-**Niveau** : 9  
-**Rang**: 5  
-**Composants** : 80 Aura, 3 permanente Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Heiliger Boden"  
-
-## Sog des Lebens
-
-**Beschreibung**:  
-Ein Druide, den es in die Welt der Geister verschlagen hat, kann mit Hilfe dieses Zaubers Stufe\*5 Gewichtseinheiten in einen Wald auf der materiellen Welt zurückschicken.  
-**Art**: sort normal  
-**Niveau** : 9  
-**Rang**: 7  
-**Composants** : 2 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Sog des Lebens" &lt;x&gt; &lt;y&gt; &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
-
-## Weg der Bäume
-
-**Beschreibung**:  
-Große Macht liegt in Orten, an denen das Leben pulsiert. Der Druide kann diese Kraft sammeln und so ein Tor in die Welt der Geistwesen erschaffen. Der Druide kann dann Stufe\*5 Gewichtseinheiten durch das Tor entsenden.  
-**Art**: sort normal  
-**Niveau** : 9  
-**Rang**: 7  
-**Composants** : 3 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Weg der Bäume" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
-
-## Erwecke Ents
-
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf. Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  
-**Art**: sort normal  
-**Niveau** : 10  
-**Rang**: 5  
-**Composants** : 6 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST \[LEVEL n\] "Erwecke Ents"  
-
-## Vertrauten rufen
-
-**Beschreibung**:  
-Einem erfahrenen Druidem wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Druiden anschließen wird.  
-**Art**: sort normal  
-**Niveau** : 10  
-**Rang**: 5  
-**Composants** : 100 Aura, 5 permanente Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Vertrauten rufen"  
-
-## Segne Steinkreis
-
-**Beschreibung**:  
-Dieses Ritual segnet einen Steinkreis, der zuvor aus Steinen und etwas Holz gebaut werden muss. Die Segnung des Druiden macht aus dem Kreis eine mächtige Stätte magischen Wirkens, die Schutz vor Magie und erhöhte Aura- Regeneration bewirkt. Man sagt, Jungfrauen seien in der Umgebung von Steinkreisen seltsame Wesen begegnet.  
-**Art**: sort normal  
-**Niveau** : 11  
-**Rang**: 5  
-**Composants** : 350 Aura, 5 permanente Aura  
-**Modificateurs**: *aucun*
-**Syntaxe** : CAST "Segne Steinkreis" &lt;Gebäude-Nr&gt;  
-
-## Rindenhaut
-
-**Beschreibung**:  
-Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung. Jeder Treffer reduziert die Kraft des Zaubers, so dass der Schild sich irgendwann im Kampf auflösen wird.  
-**Art**: sort de pré-combat  
-**Niveau** : 12  
-**Rang**: 2  
-**Composants** : 4 Aura X niveau
-**Modificateurs**: *aucun*
-**Syntaxe** : COMBATSPELL \[LEVEL n\] "Rindenhaut"  
-
-## Hitzeelementar
-
-**Beschreibung**:  
-Dieses Ritual beschwört wütende Elementargeister der Hitze. Eine Dürre sucht das Land heim. Bäume verdorren, Tiere verenden, und die Ernte fällt aus. Für Tagelöhner gibt es kaum noch Arbeit in der Landwirtschaft zu finden.  
-**Art**: sort normal  
-**Niveau** : 13  
-**Rang**: 5  
-**Composants** : 600 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Beschwörung eines Hitzeelementar"  
-
-## Mahlstrom
-
-**Beschreibung**:  
-Dieses Ritual beschwört einen großen Wasserelementar aus den Tiefen des Ozeans. Der Elementar erzeugt einen gewaltigen Strudel, einen Mahlstrom, welcher alle Schiffe, die ihn passieren, schwer beschädigen kann.  
-**Art**: sort normal  
-**Niveau** : 15  
-**Rang**: 5  
-**Composants** : 200 Aura, 1 Seeschlangenkopf  
-**Modificateurs**: Seezauber, sort de bateau  
-**Syntaxe** : CAST "Mahlstrom"  
-
-## Wurzeln der Magie
-
-**Beschreibung**:  
-Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen. Dadurch wird das Gleichgewicht der Natur in der Region für immer verändert, und in Zukunft werden nur noch die anspruchsvollen, aber kräftigen Mallorngewächse in der Region gedeihen.  
-**Art**: sort normal  
-**Niveau** : 16  
-**Rang**: 5  
-**Composants** : 250 Aura, 10 permanente Aura, 1 Tiegel mit Krötenschleim  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Wurzeln der Magie"  
-
-## Tor in die Ebene der Hitze
-
-**Beschreibung**:  
-Dieses mächtige Ritual öffnet ein Tor in die Elementarebene der Hitze. Eine grosse Dürre kommt über das Land. Bauern, Tiere und Pflanzen der Region kämpfen um das nackte Überleben, aber eine solche Dürre überlebt wohl nur die Hälfte aller Lebewesen. Der Landstrich kann über Jahre hinaus von den Folgen einer solchen Dürre betroffen sein.  
-**Art**: sort normal  
-**Niveau** : 17  
-**Rang**: 5  
-**Composants** : 800 Aura  
-**Modificateurs**: sort à distance  
-**Syntaxe** : CAST \[REGION x y\] "Tor in die Ebene der Hitze"  
+## Sorts de niveau 1
+
+### Créer des [[stone-golem]]
+
+<!-- cspell:disable -->
+*Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
+<!-- cspell:enable -->
+
+:   "Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.  
+    Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."  
+    Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.  
+    Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.  
+    Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
+
+| Composants                                       | Niv. |   Type | Rang | B | D |
+|--------------------------------------------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras, N [pierres][pierre], 1 [eau de vie] |    1 | Normal |  4   |   |   |
+
+`CAST [LEVEL n] "Create Stone Golems"`  
+
+### Bénédiction de la terre
+
+<!-- cspell:disable -->
+*Blessed Harvest (EN), Segen der Erde (DE)*.
+<!-- cspell:enable -->
+
+<!-- TODO: check description -->
+:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
+    Plus le druide investit de puissance, plus le sort dure longtemps.
+
+| Composants | Niv. |   Type | Rang | B                  | D                  |
+|------------|-----:|-------:|:----:|:-------------------|:-------------------|
+| N auras    |    1 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
+
+### Guérison du bétail
+
+<!-- cspell:disable -->
+*Cattle Healing (EN), Viehheilung (DE)*.
+<!-- cspell:enable -->
+
+:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.  
+    Leurs services sont souvent très demandés, notamment sur les marchés.  
+    Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.  
+    Le mage peut gagner 50 silver par niveau.
+
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST [LEVEL n] "Cattle Healing"`  
+
+## Sorts de niveau 2
+
+### Créer des [[golem-de-fer]]
+
+<!-- cspell:disable -->
+*Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
+<!-- cspell:enable -->
+<!-- TODO: fix MAKE orders -->
+:   Plus le mage investit de puissance, plus de golems peuvent être créés.  
+    Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
+    Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
+
+| Composants                            | Niv. |   Type | Rang | B | D |
+|---------------------------------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras, N [fers], 1 [eau de vie] |    2 | Normal |  4   |   |   |
+
+`CAST [LEVEL n] "Create Iron Golems"`  
+
+### Magie du bosquet de chêne
+
+<!-- cspell:disable -->
+*Grove of Oak Trees (EN), Hainzauber (DE)*.
+<!-- cspell:enable -->
+
+:   Alors qu'auparavant seul un arbre pouvait germer à partir d'un bâton, chaque branche produit désormais des racines.
+
+| Composants                            | Niv. |   Type | Rang | B | D                  |
+|---------------------------------------|-----:|-------:|:----:|:--|:-------------------|
+| 4 x N auras, N [bois], 1 [eau de vie] |    2 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
+
+## Sorts de niveau 3
+
+### Gardien de la Montagne
+
+<!-- cspell:disable -->
+*Mountain Guardian (EN), Bergwächter (DE)*.
+<!-- cspell:enable -->
+
+:   Crée un esprit gardien qui empêche l'exploitation du fer et des métaux dans les glaciers et les montagnes par des factions non alliées (`HELP GUARD`) tant qu'il garde la région.  
+    Le [Gardien de la Montagne] est lié au lieu de l'invocation.
+
+| Composants  | Niv. |   Type | Rang | B | D                  |
+|-------------|-----:|-------:|:----:|:--|:-------------------|
+| 3 x N auras |    3 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] Mountain Guardian`  
+
+### Le manteau de Firun
+
+<!-- cspell:disable -->
+*Firun's Coat (EN), Firuns Fell (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
+    Vous pouvez entrer dans les glaciers et y agir normalement. Le dicton fonctionne au niveau*10 insectes.  
+    Un anneau de pouvoir augmente le nombre d'insectes enchantables de 10 supplémentaires.
+
+| Composants  | Niv. |   Type | Rang | B                  | D |
+|-------------|-----:|-------:|:----:|:-------------------|:--|
+| 2 x N auras |    3 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
+
+### Grêle
+
+<!-- cspell:disable -->
+*Hail (EN), Hagel (DE)*.
+<!-- cspell:enable -->
+
+:   Au combat, le mage fait appel aux esprits élémentaires du froid et les lie à lui-même.  
+    Il peut alors leur ordonner d'attaquer l'ennemi avec des grêlons et des morceaux de glace.
+
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    3 | Combat |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] Hail`  
+
+### Pluie de rouille
+
+<!-- cspell:disable -->
+*Rain of Rust (EN), Rostregen (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.  
+    La pluie magique fera rouiller tout le minerai.  
+    Les armes et armures en fer deviennent ébréchées et rouillées.  
+    Le pouvoir destructeur de la pluie dépend de la puissance investie par le mage.  
+    Jusqu'à 10 armes de fer peuvent être affectées pour chaque niveau.  
+    Un anneau de pouvoir augmente l'effet comme un niveau supplémentaire.
+
+| Composants  | Niv. |   Type | Rang | B | D                  |
+|-------------|-----:|-------:|:----:|:--|:-------------------|
+| 2 x N auras |    3 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
+
+## Sorts de niveau 4
+
+### Voie magique
+
+<!-- cspell:disable -->
+*Magic Path (EN), Magischer Pfad (DE)*.
+<!-- cspell:enable -->
+
+:   En accomplissant ces rituels, le mage est capable d'invoquer un puissant élémentaire de terre.  
+    Tant que celle-ci sera bannie dans le sol, aucune pluie ne adoucira les sentiers et aucune rivière ne pourra détruire les ponts.  
+    Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.  
+    Même les marécages et les glaciers peuvent être enchantés de cette façon. Plus le mage met de puissance dans le sort, plus le chemin dure longtemps.
+
+| Composants                  | Niv. |   Type | Rang | B                  | D                  |
+|-----------------------------|-----:|-------:|:----:|:-------------------|:-------------------|
+| N auras, 1 [pierre], 1 bois |    4 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Magic Path"`  
+
+### Bâton de Mallorn
+
+<!-- TODO: check if it's really mallorn quarterstaff -->
+<!-- cspell:disable -->
+*Mallorn quarterstaff (EN), Segne Mallornstecken (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
+    Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
+
+| Composants                                | Niv. |   Type | Rang | B | D                  |
+|-------------------------------------------|-----:|-------:|:----:|:--|:-------------------|
+| 6 x N auras, N [mallorns], 1 [eau de vie] |    4 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
+
+### Invocation de l'Eau
+
+<!-- cspell:disable -->
+*Summon Water Elemental (EN), Beschwörung eines Wasserelementares (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce rituel, le mage force les esprits élémentaires de l'eau à son service et les amène à transporter plus rapidement le bateau spécifié sur l'eau.  
+    De plus, le bateau n’est pas affecté par des vents ou des courants défavorables.
+
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| N auras    |    4 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST [LEVEL n] "Summon Water Elemental" <ship-id>`  
+
+### Bouclier aérien
+
+<!-- cspell:disable -->
+*Air Shield (EN), Windschild (DE)*.
+<!-- cspell:enable -->
+
+:   Invoque les esprits élémentaires du vent.  
+    Invoque des rafales de vent soudaines, de petites rafales de vent et des évents qui gêneront les archers adverses.
+
+| Composants  | Niv. |   Type | Rang | B                  | D |
+|-------------|-----:|-------:|:----:|:-------------------|:--|
+| 2 x N auras |    4 | Pré-c. |  5   | :heavy_check_mark: |   |
+
+`COMBATSPELL [LEVEL n] "Windschild"`  
+
+## Sorts de niveau 5
+
+### Esprits du Gardien de l'Astral
+
+<!-- cspell:disable -->
+*Astral Guardian Spirits (EN), Astralschutzgeister (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque des esprits élémentaires de magie et les envoie dans les rangs des mages ennemis.  
+    Ces derniers auront bien plus de mal à lancer des sorts pendant toute la durée du combat.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 5 x N auras |    5 | Pré-c. |  2   |   |   |
+
+`COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
+
+### Créer un [[sac-a-herbes-magique]]
+
+<!-- cspell:disable -->
+*Create A magical Herb Pouch (EN), Erschaffe einen magischen Kräuterbeutel (DE)*.
+<!-- cspell:enable -->
+
+:   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.  
+    Il utilise désormais le cuir ainsi préparé pour fabriquer un petit sac qui permet de mieux conserver les herbes qui y sont stockées.
+
+| Composants                                 | Niv. |   Type | Rang | B                  | D |
+|--------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 30 auras, 1 aura permanent, 1 [eau de vie] |    5 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create A magical Herb Pouch"`
+
+### Guérison
+
+<!-- cspell:disable -->
+*Heal (EN), Heilung (DE)*.
+<!-- cspell:enable -->
+
+:   Il n'y a pas que le médecin qui peut aider les blessés au combat.  
+    Les druides sont capables de refermer les blessures, de réparer les os brisés et de régénérer même les membres sectionnés en invoquant les esprits élémentaires de la vie.
+
+| Composants | Niv. |    Type | Rang | B | D |
+|------------|-----:|--------:|:----:|:--|:--|
+| N auras    |    5 | Post-c. |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] Heal`  
+
+### Tourbillon
+
+<!-- cspell:disable -->
+*Whirlwind (EN), Wirbelwind (DE)*.
+<!-- cspell:enable -->
+
+:   Cette incantation ouvre une porte vers le plan des esprits élémentaires du vent.  
+    Des vents violents, voire des tempêtes, se lèvent immédiatement dans la zone autour de la porte et gênent tous les archers dans la bataille.
+
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| 15 auras   |    5 | Pré-c. |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] Whirlwind`  
+
+## Sort de niveau 6
+
+### Créer une [[amulette-de-vision-decuplee]]
+
+<!-- cspell:disable -->
+*Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
+<!-- cspell:enable -->
+
+:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
+    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+
+<!-- TODO: check if it's only Cerdorr or not -->
+| Composants                               | Niv. |   Type | Rang | B                  | D |
+|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create An Amulet of True Sight"`  
+
+### Créer un [anneau d'Invisibilité]
+
+<!-- cspell:disable -->
+*Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+    Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
+    Dans une unité invisible, chaque personne doit porter une bague.
+
+| Composants                               | Niv. |   Type | Rang | B                  | D |
+|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
+| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+
+`CAST "Create A Ring of Invisibility"`  
+
+### Méditation
+
+<!-- cspell:disable -->
+*Meditate (EN), Meditation (DE)*.
+<!-- cspell:enable -->
+
+:   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
+
+| Composants | Niv. |   Type | Rang | B                  | D |
+|------------|-----:|-------:|:----:|:-------------------|:--|
+| 2 auras    |    6 | Normal |  1   | :heavy_check_mark: |   |
+
+`CAST Meditate <unit-id> <Aura>`  
+
+### Invocation de la Tempête
+
+<!-- cspell:disable -->
+*Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
+<!-- cspell:enable -->
+
+:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.  
+    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
+    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
+    Un esprit élémentaire est requis pour chaque vaisseau.
+
+| Composants  | Niv. |   Type | Rang | B                      | D |
+|-------------|-----:|-------:|:----:|:-----------------------|:--|
+| 6 x N auras |    6 | Normal |  5   | :heavy_check_mark:[^3] |   |
+
+`CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
+
+## Sorts de niveau 7
+
+### Invocation de la Terre
+
+<!-- cspell:disable -->
+*Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
+    Ce tremblement de terre endommagera tous les bâtiments de la région.
+
+| Composants         | Niv. |   Type | Rang | B | D                  |
+|--------------------|-----:|-------:|:----:|:--|:-------------------|
+| 25 auras, 2 [laen] |    7 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Summon Earth Elemental"`  
+
+### Pierre de maison
+
+<!-- cspell:disable -->
+*Homestone (EN), Heimstein (DE)*.
+<!-- cspell:enable -->
+
+:   Avec cette formule, le mage lie à jamais les forces de la terre dans les murs du château dans lequel il se trouve actuellement.  
+    Les murs ainsi renforcés ne peuvent être détruits ni par magie ni par l'artillerie lourde, et l'âge les affecte également moins.  
+    Le bâtiment offre également une meilleure protection contre les attaques à l’épée et à la magie.
+
+| Composants                 | Niv. |   Type | Rang | B | D |
+|----------------------------|-----:|-------:|:----:|:--|:--|
+| 50 auras, 1 aura permanent |    7 | Normal |  5   |   |   |
+
+`CAST Homestone`  
+
+### Hurlement des Loups
+
+<!-- cspell:disable -->
+*Timber Wolves (EN), Wolfsgeheul (DE)*.
+<!-- cspell:enable -->
+
+:   Au cours de leur vie dans la nature, de nombreux druides se lient d'amitié avec les plus anciens amis des grands peuples.  
+    Ils apprennent à invoquer plusieurs de leurs amis pour les aider au combat avec un seul appel hurlant.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras |    7 | Pré-c. |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] "Timber Wolves"`  
+
+## Sorts de niveau 8
+
+### Regard du Basilic
+
+<!-- cspell:disable -->
+*Gaze of the Basilisk (EN), Blick des Basilisken (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort de combat difficile mais efficace utilise les esprits élémentaires de pierre pour transformer un certain nombre d'ennemis en pierre pendant toute la durée de la bataille.  
+    Les personnes touchées ne combattront plus, mais elles ne pourront pas non plus être blessées.
+
+| Composants | Niv. |   Type | Rang | B | D |
+|------------|-----:|-------:|:----:|:--|:--|
+| N auras    |    8 | Combat |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
+
+### Bannissement des Esprits
+
+<!-- cspell:disable -->
+*Banish Spirits (EN), Geister bannen (DE)*.
+<!-- cspell:enable -->
+
+:   Selon les anciens enseignements des druides, ce que les êtres ordinaires appellent magie est constitué d'esprits élémentaires.  
+    Le mage les évoque et les bannit sous une forme permettant d'obtenir l'effet souhaité. Ce rituel est capable de chasser les esprits élémentaires invoqués dans ce monde afin de libérer un objet de la magie.
+
+| Composants  | Niv. |   Type | Rang | B                  | D                  |
+|-------------|-----:|-------:|:----:|:-------------------|:-------------------|
+| 6 x N auras |    8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Banish Spirits" (REGION | UNIT <unit-id>; [<unit-id>]... | SHIP <ship-id> | CASTLE <building-id>)`  
+
+### Portail puissant et Mur robuste
+
+<!-- cspell:disable -->
+*Strong Wall And Sturdy Gate (EN), Starkes Tor und feste Mauer (DE)*.
+<!-- cspell:enable -->
+
+:   Avec cette formule, au début d'un combat, le mage lie des esprits élémentaires du rocher dans les murs du bâtiment dans lequel il se trouve actuellement.  
+    Le bâtiment offre alors une meilleure protection contre les attaques à l'épée et à la magie.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras |    8 | Pré-c. |  5   |   |   |
+
+`COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
+
+## Sorts de niveau 9
+
+### Terre Sacrée
+
+<!-- cspell:disable -->
+*Sacred Ground (EN), Heiliger Boden (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel convoque divers esprits de la nature dans le sol de la région, qui le gardent désormais.  
+    Dans une région aussi bénie, les morts ne quitteront plus jamais leurs tombes, et les morts-vivants apparus ailleurs les éviteront autant que possible.
+
+| Composants                   | Niv. |   Type | Rang | B | D |
+|------------------------------|-----:|-------:|:----:|:--|:--|
+| 80 auras, 3 auras permanents |    9 | Normal |  5   |   |   |
+
+`CAST "Sacred Ground"`  
+
+### Liens de Vie
+
+<!-- cspell:disable -->
+*Ties of Life (EN), Sog des Lebens (DE)*.
+<!-- cspell:enable -->
+
+:   Un druide tombé dans le monde des esprits peut utiliser ce sort pour passer au niveau supérieur x Renvoyer 5 unités de poids dans une forêt du monde matériel.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 2 x N auras |    9 | Normal |  7   |   |   |
+
+`CAST [LEVEL n] "Ties of Life" <x> <y> <unit-id> [<unit-id> ...]`  
+
+### Voie des Arbres
+
+<!-- cspell:disable -->
+*Path of Trees (EN), Weg der Bäume (DE)*.
+<!-- cspell:enable -->
+
+:   Un grand pouvoir réside dans les endroits où la vie palpite.  
+    Le druide peut collecter ce pouvoir et créer une passerelle vers le monde des êtres spirituels.  
+    Le druide peut alors niveau*Envoyer 5 unités de poids à travers la porte.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 3 x N auras |    9 | Normal |  7   |   |   |
+
+`CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
+
+## Sorts de niveau 10
+
+### Éveil des [Ents]
+
+<!-- cspell:disable -->
+*Awakening of the Ents (EN), Erwecke Ents (DE)*.
+<!-- cspell:enable -->
+
+:   Avec l'aide de ce sort, le druide réveille les Ents endormis dans les forêts de la région de leur sommeil éternel.  
+    Les créatures sauvages des arbres le rejoindront et l’assisteront, mais après un certain temps, elles retomberont dans le sommeil.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 6 x N auras |   10 | Normal |  5   |   |   |
+
+`CAST [LEVEL n] "Awakening of the Ents"`  
+
+### Invocation du Familier
+
+<!-- cspell:disable -->
+*Summon Familiar (EN), Vertrauten rufen (DE)*.
+<!-- cspell:enable -->
+
+:   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
+
+| Composants                    | Niv. |   Type | Rang | B | D |
+|-------------------------------|-----:|-------:|:----:|:--|:--|
+| 100 auras, 5 auras permanents |   10 | Normal |  5   |   |   |
+
+`CAST "Summon Familiar"`  
+
+## Sort de niveau 11
+
+### Segne Steinkreis <!-- TODO -->
+
+<!-- cspell:disable -->
+*(EN), Segne Steinkreis (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
+    La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
+    On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
+
+| Composants                    | Niv. |   Type | Rang | B | D |
+|-------------------------------|-----:|-------:|:----:|:--|:--|
+| 350 auras, 5 auras permanents |   11 | Normal |  5   |   |   |
+
+`CAST "Segne Steinkreis" <building-id>`  
+
+## Sort de niveau 12
+
+### Peau d'écorce
+
+<!-- cspell:disable -->
+*(EN), Rindenhaut (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.  
+    Chaque coup réduit la puissance du sort, le bouclier finira donc par se dissiper au cours du combat.
+
+| Composants  | Niv. |   Type | Rang | B | D |
+|-------------|-----:|-------:|:----:|:--|:--|
+| 4 x N auras |   12 | Pré-c. |  2   |   |   |
+
+`COMBATSPELL [LEVEL n] "Rindenhaut"`  
+
+## Sort de niveau 13
+
+### Hitzeelementar
+
+<!-- cspell:disable -->
+*(EN), Hitzeelementar (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque des élémentaires de chaleur en colère.  
+    Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.  
+    Il n’y a pratiquement pas de travail dans l’agriculture pour les journaliers.
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 600 auras  |   13 | Normal |  5   |   | :heavy_check_mark: |
+
+<!-- TODO: chec if it's `CAST [REGION x y] "Beschwörung eines Hitzeelementar"`  -->
+`CAST [REGION x y] Hitzeelementar`  
+
+## Sort de niveau 15
+
+### Mahlstrom
+
+<!-- cspell:disable -->
+*(EN), Mahlstrom (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
+    L'élémentaire crée un énorme tourbillon, un maelström, qui peut gravement endommager tous les bateaux qui le traversent.
+
+| Composants                          | Niv. |   Type | Rang | B                      | D |
+|-------------------------------------|-----:|-------:|:----:|:-----------------------|:--|
+| 200 auras, 1 tête de serpent de mer |   15 | Normal |  5   | :heavy_check_mark:[^3] |   |
+
+`CAST Mahlstrom`  
+
+## Sort de niveau 16
+
+### Wurzeln der Magie
+
+<!-- cspell:disable -->
+*(EN), Wurzeln der Magie (DE)*.
+<!-- cspell:enable -->
+<!-- TODO: check 1 pot de bave de crapaud -->
+:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
+    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
+
+| Composants                                               | Niv. |   Type | Rang | B | D                  |
+|----------------------------------------------------------|-----:|-------:|:----:|:--|:-------------------|
+| 250 auras, 10 auras permanents, 1 pot de bave de crapaud |   16 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Wurzeln der Magie"`  
+
+## Sort de niveau 17
+
+### Tor in die Ebene der Hitze
+
+<!-- cspell:disable -->
+*(EN), Tor in die Ebene der Hitze (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
+    Une grande sécheresse s'annonce dans le pays.  
+    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
+    La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
+
+| Composants | Niv. |   Type | Rang | B | D                  |
+|------------|-----:|-------:|:----:|:--|:-------------------|
+| 800 auras  |   17 | Normal |  5   |   | :heavy_check_mark: |
+
+`CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
+
+[Ents]: ./monsters.md#ents "Ents"
+[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
+[bois]: ./resources.md#bois "Wood"
+[fers]: ./resources.md#fer "Iron"
+[pierre]: ./resources.md#pierre "Stone"

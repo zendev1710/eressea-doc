@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-learn-fr
 ---
-# LEARN
+# `LEARN`
 
 *Ordre [long]*.
 

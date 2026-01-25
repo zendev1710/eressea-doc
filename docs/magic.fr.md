@@ -1,22 +1,30 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: magie
 ---
 # Magie
 
-Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in [[guerre]].
+La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].
 
 ## L'étude de la magie
 
-Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].
+Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].  
 
-The faction's magic area is determined by the very first unit that learns magic in the faction.
-This is done using the [[cmd-learn|`LEARN MAGIC "magic area"`]].
-As a result, the order is now just called `LEARN MAGIC "magic area"` and all magicians of a [[factions|faction]] then automatically learn the magic area chosen by the faction.
-However, it is possible to order multiple units to `LEARN MAGIC "magic area"` if you are unsure which unit will come first. Once a magic area has been chosen, it cannot be changed.
-Therefore, this decision needs to be carefully considered!
+L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
+Cela se fait à l'aide de l'ordre [[cmd-learn|`LEARN MAGIC "<école de magie>"`]].  
+En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [[factions|faction]] apprennent alors automatiquement l'École de Magie choisie par la faction.  
+Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
-There can be a maximum of five magician units per faction; only elven factions are allowed to have six magicians. Mage units may only consist of one person. You cannot hand over people, even to empty TEMP units.
+!!! note
+    Une fois qu’une École de Magie a été choisie, **elle ne peut plus être modifiée**.
+    Cette décision doit donc être mûrement réfléchie !
+
+Il peut y avoir un **maximum de 5 unités de mages par faction**;
+Seules les factions **elfes** sont autorisées à avoir **6 mages**.  
+Les unités de mages ne peuvent être composées que d’une seule personne.
+Vous ne pouvez pas remettre des personnes, même à des unités `TEMP` vides.  
+
+L'apprentissage de la magie coûte `50 + 25 * (1 + Niveau) * Niveau` Silver par personne et par tour.  
 
 Coûts d'apprentissage.
 
@@ -24,29 +32,37 @@ Coûts d'apprentissage.
 |----------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
 | Coût           | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
 
-So an untrained magician pays 100 silver for his first lessons; If he already has level 5 in magic skill, he has to pay 1100 silver per week of learning.
+Ainsi, un mage non formé paie 100 Silver pour ses premiers apprentissages;
+S’il est déjà au niveau 5 en magie, il doit payer 1 100 Silver par semaine d’apprentissage.  
 
-!!! warning "Caution"
-    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
-    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2, but a goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).
+!!! warning "Attention"
+    Le coût d'apprentissage fait toujours référence au niveau appris avant que les bonus ou pénalités raciales ne soient appliqués.
+    Ainsi un elfe paie 100 et non 200 Silver pour sa première tentative d'apprentissage qui l'amène à T2.
+    Un gobelin avec son -1 paie 200 Silver pour la deuxième tentative d'apprentissage même s'il est encore au niveau 0 (le système l'évalue comme T1 -1 = 0).
 
-!!! warning "Caution, dwarves"
-    You have -2 to magic skill.
-    A unit that appears as Magic 0 may actually be at T1 or T2.
-    In the latter case, however, the learning costs increase to 350 silver! There is no way to know which of the two is true.
-    So it's better to plan a little more generously.
+!!! info "message à destination des mains"
+    Vous avez -2 en compétence magique.
+    Une unité qui apparaît avec Magie à 0 peut en réalité être en T1 ou T2.
+    Dans ce dernier cas, cependant, les coûts d’apprentissage s’élèvent à 350 Silver!
+    Il n’y a aucun moyen de savoir lequel des deux est vrai. Il vaut donc mieux planifier un peu plus généreusement.
 
-Learning in an [Academy] costs twice as much. Only magicians from the same area of ​​magic as the teacher can be taught. So a Draig Mage cannot teach an Illaun Mage.
+Apprendre dans une **[académie]** coûte **deux fois plus cher**.
 
-If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week. Magic can also, through [Special:MyLanguage/Talente|Application (CAST)].
-It doesn't matter whether the unit casts one or more spells per round. Of course, learning through application does not cost silver.
+Seuls les mages de la même école de magie que le professeur peuvent être formés.
+Un mage Draig ne peut donc pas enseigner à un mage Illaun.  
+
+Si une unité de mage n'a pas assez d'argent pour apprendre, elle n'apprendra que proportionnellement à la quantité d'argent qu'elle peut payer chaque semaine.
+<!-- TODO: clarify this not understable sentences -->
+La magie peut également, via [`Special:MyLanguage/Talente|Application (CAST)`].
+Peu importe que l'unité lance un ou plusieurs sorts par tour.
+Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 
 ## Dictons
 
-With each level the unit gains in magic, it can gain new spells.
-There is currently one spell in each level, in exceptional cases several or none at all.
-Once you have reached a new level, the sayings are described in the evaluation.
-If you have forgotten the description, you can have it shown again using the [[cmd-show]] command.
+À chaque niveau que l'unité gagne en magie, elle peut acquérir de nouveaux sorts.  
+Il y a actuellement un sort dans chaque niveau, dans des cas exceptionnels plusieurs voire aucun.  
+Une fois que vous avez atteint un nouveau niveau, les paroles sont décrites dans l'évaluation.  
+Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [[cmd-show]].
 
 ```text
                                      Wunderdoktor
@@ -67,10 +83,9 @@ If you have forgotten the description, you can have it shown again using the [[c
     Modifikationen: Schiffszauber
     Syntax:
       CAST [LEVEL n] Wunderdoktor
-
 ```
 
-or so
+ou alors
 
 ```text
 
@@ -95,95 +110,104 @@ or so
 
 ### Types de sort
 
-There are normal spells, pre-combat spells, combat spells and post-combat spells.
+Il existe des sorts normaux, des sorts de pré-combat, des sorts de combat et des sorts d'après-combat.
 
-Normal spells are cast using the [[cmd-cast]] command. Their effect occurs either immediately (see [[orders-sequence]]) or sometimes at a later point in time, for example at the beginning of the following round.
+Les sorts normaux sont lancés à l'aide de la commande [[cmd-cast]].  
+Leur effet se produit soit immédiatement (voir [[sequence-des-ordres]]) soit parfois plus tard, par exemple au début du tour suivant.  
 
-The three types of combat spells can never be cast using CAST. Instead, they are cast when the unit is actively engaged in combat.
-All three types can be set with the [[cmd-combatspell|`COMBATSPELL LEVEL n "Spell"`]] order.
-You can delete a specific combat spell with the `COMBATSPELL "Spell" NOT` order or all set combat spells with [[cmd-combatspell|`COMBATSPELL NOT`]]
-Combat spells work somewhat like the [`COMBAT` orders], i.e. h. once set, they remain saved. A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
-For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.
+Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant `CAST`.  
+Au lieu de cela, ils sont lancés lorsque l’unité est activement engagée dans un combat.  
+Les trois types peuvent être définis avec l'ordre [[cmd-combatspell|`COMBATSPELL LEVEL n "<sort>"`]].  
+Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [[cmd-combatspell|`COMBATSPELL NOT`]].  
+Les sorts de combat fonctionnent un peu comme les ordres [`COMBAT`], c'est-à-dire qu'une fois définis, ils restent enregistrés.  
+Une unité peut avoir au maximum un sort de pré-combat, un sort de combat et un sort de post-combat.  
+Par exemple, si l'unité possède déjà un sort de pré-combat et qu'elle lance un nouveau sort de pré-combat, l'ancien est remplacé par le nouveau.
 
 ```text
-                                  Gesang der Furcht
+                        Song of Fear
 
-    Beschreibung:
-      Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in
-      die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt. Furcht wird
-      sie zittern lassen und Panik ihre Gedanken beherrschen. Voller Angst werden
-      sie versuchen, den gräßlichen Gesängen zu entrinnen und fliehen.
-    Art: Kampfzauber
-    Stufe: 3
-    Rang: 5
-    Komponenten:
-    -   1 Aura  * Stufe
-    Modifikationen:
-    Syntax:
-      COMBATSPELL [LEVEL n] 'Gesang der Furcht'
+Description:
+    A very powerful song from the traditions of cats that runs deep within
+    penetrates the hearts of enemies and robs them of courage and hope. Fear will
+    making her tremble and panic take over her thoughts. Become full of fear
+    They try to escape the horrible songs and flee.
+Art: Combat spells
+Level: 3
+Rank: 5
+Components:
+    -   1 Aura  * Level
+Modifiers:
+Syntax:
+    COMBATSPELL [LEVEL n] 'Song of Fear'
 ```
+<!-- TODO check if below is what german text meant -->
+Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre `ATTACK` lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir [Les camps dans une bataille]).  
+Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack]] !
 
-If a mage unit has cast combat spells, it automatically casts spells as soon as it takes part in combat.
-Either by ordering ATTACK herself or by being drawn into battle by an attack on her side (see [The Sides in a Battle]).
-This can also happen if she is set to COMBAT NOT or FLEE if she is explicitly attacked with the [[cmd-attack]] command!
-
-A pre-combat or post-combat spell is cast once before or after the combat begins.
-A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under [Aura]) and that it is still alive.
+Un sort de pré-combat ou de post-combat est lancé une fois avant ou après le début du combat.  
+Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura]) et qu'elle soit encore en vie.
 
 ### Aura
 
-Aura is the magical power that magicians use to perform their magic.
-Aura is consumed by casting spells and regenerates over time.
-A mage unit can absorb a certain maximum amount of aura. How much is determined -just like aura regeneration -by the unit's magical talent.
-Die genauen Angaben für jede Einheit stehen im Report, als Faustregel gilt aber, dass das Maximum etwa bei Talent<sup>2</sup> Aura liegt und pro Woche im Durchschnitt etwa (Talent - Stufe) Aura regeneriert wird.
-But that can vary between almost nothing and talent level.
-Magical races regenerate aura faster, non-magical races significantly slower.
+L'aura est le pouvoir magique que les mages utilisent pour accomplir leur magie.  
+L'aura est consommée en lançant des sorts et se régénère au fil du temps.  
+Un mage peut absorber une quantité maximale d’aura, déterminée par son niveau de compétence en magie.  
 
-The maximum aura is not immutable: On the one hand, there is a spell that allows one unit to transfer aura to another.
-This allows the target unit to temporarily receive more aura than it can normally absorb.
-This allows her to cast spells that cost more than her maximum aura. However, excess aura is lost again at the end of a round.
+Les déttails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum *niveau magie* puissance 2, et en moyenne environ *niveau de magie* de l'aura est régénérée par semaine.  
+Mais cela peut varier entre presque rien et le niveau en magie.  
+Les races magiques régénèrent l'aura plus rapidement, les races non magiques beaucoup plus lentement.  
 
-There are also spells (and possibly other things) that cost mages permanent aura, such as "Create a Ring of Invisibility".
-This means that the unit can now store less maximum aura.
-These are usually very powerful spells or artifact magic that cause permanent effects.
+L'aura maximale n'est pas immuable.
 
-[[cmd-cast]] is a pseudo-long command comparable to [[cmd-attack]].
-A unit can therefore cast spells several times per round, but cannot carry out any other long command.
-But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.
-The second costs twice as much, the third four times as much, the fourth as eight times, etc.
+D'une part, il existe un sort qui permet à une unité de transférer de l'aura à une autre.  
+Cela permet à l'unité cible de recevoir temporairement plus d'aura qu'elle ne peut normalement en absorber.  
+Cela lui permet de lancer des sorts qui coûtent plus que son aura maximale.  
+Cependant, l’aura excédentaire est à nouveau perdue à la fin d’un tour.  
 
-Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.
-[Ranged Spells] also increase the casting cost.
+D'autre part, il existe des sorts (et éventuellement d'autres choses) qui coûtent une aura permanente aux mages, comme "Créer un anneau d'invisibilité".  
+Cela signifie que l'unité peut alors stocker moins d'aura maximale.  
+Il s’agit généralement de sorts ou d’artefacts magiques très puissants qui provoquent des effets permanents.
+
+[[cmd-cast]] est un ordre pseudo-long comparable à [[cmd-attack]].  
+Une unité peut donc lancer des sorts plusieurs fois par tour, mais ne peut exécuter aucun autre ordre long.  
+Mais il y a un hic : les coûts d’aura des sorts augmentent.  
+Le premier sort lancé par l'unité au cours d'un round coûte l'aura normale spécifiée dans le sort.  
+Le deuxième coûte deux fois plus cher, le troisième quatre fois plus, le quatrième huit fois, etc.
+
+Les sorts de combat sont traités séparément; ils n'augmentent pas le coût des sorts normaux ou d'autres sorts de combat et ne coûtent toujours que l'aura spécifiée.  
+Les [sorts à distance] augmentent également le coût de lancement.  
 
 ### Niveau de lanceur de sorts
 
-The value specified as "level" is initially the minimum talent at which the unit gets the spell.
+La valeur spécifiée comme "niveau" est initialement le niveau minimum auquel l'unité obtient le sort.  
 
-Some spells have fixed effects and costs.
-They are always cast at the spell's level and cannot be changed by parameters.
-It can still be important for things like [Magic Resistance].*Ring of invisibility*is always cast at level 6 and produces exactly one ring.
+Certains sorts ont des effets et des coûts fixes.  
+Ils sont toujours lancés au niveau du sort et ne peuvent pas être modifiés par des paramètres.  
+Cela peut toujours être important pour des choses comme la [résistance à la magie].  
+Le sort **Create A Ring of Invisibility** est toujours lancé au niveau 6 et produit exactement un anneau.  
 
-Many spells have level-dependent effects and costs.
-Its effect is derived from the level at which the spell was cast.
-The details depend on the spell in question. Sometimes it concerns the duration of the effect, sometimes the number of people enchanted, and so on.
+De nombreux sorts ont des effets et des coûts qui dépendent du niveau.  
+Leur effet dépend du niveau auquel le sort a été lancé.  
+Les détails dépendent du sort en question.
+Parfois cela concerne la durée de l’effet, parfois le nombre de personnes enchantées, etc.  
 
-With these variable spells you can specify a level at which the spell should be cast.
-This must be equal to or lower than the unit's magic talent, but it can be higher or lower than the spell's normal level.
-This allows you to cast the spell at a lower level than your own talent.
+Avec ces sorts variables, vous pouvez spécifier un niveau auquel le sort doit être lancé.  
+Celui-ci doit être égal ou inférieur au niveau en magie de l'unité, mais il peut être supérieur ou inférieur au niveau normal du sort.  
+Cela vous permet de lancer le sort à un niveau inférieur à votre propre compétence.
 
-Using a [[ring-of-power]], [Mage Tower] or [Blessed Stone Circle], the strength can be increased by an additional point.
-This bonus is added to the specified level.
+En utilisant un [[anneau-de-pouvoir]], une [Tour des mages] ou un [Cercle de pierres bénies], la force peut être augmentée d'un point supplémentaire.  
+Ce bonus est ajouté au niveau spécifié.
 
-If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's talent value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).
-One reason this isn't always desirable is that the level also affects the [probability of blunders].
+Si le niveau n'est pas précisé, le sort est lancé au niveau maximum possible, c'est à dire le niveau de compétence de l'unité (les modifications comme les bonus raciaux ou les bonus spéciaux comme ceux des Insectes dans les déserts sont pris en compte).  
+Une raison pour laquelle cela n'est pas toujours souhaitable est que le niveau auquel le sort est lancé affecte également la [probabilité d'erreurs].
 
-This modification also works on combat spells:
+Spécifier un niveau fonctionne également pour les sorts de combat :
 
 ```text
-COMBATSPELL LEVEL 2 "Gesang der Furcht"
+COMBATSPELL LEVEL 2 "Song of Fear"
 ```
 
-This is useful, for example, if you want to save some aura so that you have some aura left for a post-combat spell.
+Ceci peut être utile, par exemple, lorsque vous souhaitez conserver de l'aura pour un sort d'après-combat.
 
 **Example:**
 
@@ -191,92 +215,104 @@ This is useful, for example, if you want to save some aura so that you have some
 CAST LEVEL 4 "Miracle doctor"
 ```
 
-This spell will cost 4 aura and earn 200 silver.
-With a Ring of Power it still costs 4 aura but earns 250 silver.
+Ce sort coûtera 4 auras et rapportera 200 silver.  
+Avec un Anneau de Pouvoir, cela coûte toujours 4 auras mais rapporte 250 silver.
 
 ### Composants
 
-If it simply says the number of aura, it means that the costs are fixed:*Ring of invisibility*always costs 50 aura.
-Is there any information there such as: `3 Aura * Level`, then this means that for casting a spell once, the aura cost is 3 aura multiplied by the level at which the spell is cast.
-**Miracle Doctor** costs 1 aura when cast at level 1 and 30 aura when cast at level 30.
-If the spell requires permanent aura, the unit's maximum aura is permanently reduced by that value.
-Other components can include herbs, raw materials, silver, potions or even rare items and even farmers.
+S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : **Créer un Anneau d'invisibilité** coûte toujours 50 auras.  
+Si les composants d'in sort indiquent par exemple `3 Aura * Level`, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 auras multiplié par le niveau auquel le sort est lancé.  
+Ainsi, **Miracle Doctor** coûte 1 aura lorsqu'il est lancé au niveau 1, et 30 auras lorsqu'il est lancé au niveau 30.  
+
+Si le sort nécessite une aura permanente, l'aura maximale de l'unité est définitivement réduite de cette valeur.  
+D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des agriculteurs.  
 
 ### Magie à distance
 
-Ranged spells are cast in the mage unit's region, but work in a different one. You can then use the following syntax for these spells:
+Les sorts à distance sont lancés dans la région de l'unité de mage, mais s'appliquent dans une région différente.  
+Vous pouvez alors utiliser la syntaxe suivante pour ces sorts :
 
 ```text
-CAST REGION <x> <y> "Zauber"
+CAST REGION <x> <y> "<Sort>"
 ```
 
-The spell is then cast in the specified region.
-The X and Y coordinates refer to the [[cmd-origin]].
-However, this modification increases the cost of all components of the spell exponentially.
-The cost of material components and aura are doubled per region of distance between the unit's location and the target.
-Formula: 2<sup>a</sup>, where a is the distance of the target region to the region of the unit.
+Le sort est ensuite lancé dans la région spécifiée.  
+Les coordonnées X et Y font référence au [[cmd-origin]].  
+Cependant, cette modification augmente le coût de tous les composants du sort de façon exponentielle.  
+Le **coût** des composants matériels et de l'aura **est doublé par région de distance** entre l'emplacement de l'unité et la cible.  
 
-The following tables for illustration:
+Formule : 2 puissance a, où *a* est la distance entre la région cible et la région de l'unité.
 
-| Distance regions (a) |  0 |  1 |  2 |  3 |   4 |
-|----------------------|---:|---:|---:|---:|----:|
-| **Stones** required  |  1 |  2 |  4 |  8 |  16 |
-| **Irons** required   |  5 | 10 | 20 | 40 |  80 |
-| **Woods** required   | 10 | 20 | 40 | 80 | 160 |
+À titre d’illustration :
 
-Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see [above][Aura]).
-This does not apply to other components; they are only increased by long-distance spells.
+| Distance entre régions (a) |  0 |  1 |  2 |  3 |   4 |
+|----------------------------|---:|---:|---:|---:|----:|
+| **Pierres** requises       |  1 |  2 |  4 |  8 |  16 |
+| **Fer** requis             |  5 | 10 | 20 | 40 |  80 |
+| **Bois** requis            | 10 | 20 | 40 | 80 | 160 |
 
-Distance spells and multiple spells can also increase the aura costs in combination:
+Le coût de l'aura est également augmenté si une unité lance plusieurs sorts en un tour.  
+La formule déterminant le coût de l'aura en fonction du nombre de sorts lancés est la suivante :
 
-| Distance regions (a)  | 0           | 1           | 2            | 3            | 4            |
-|-----------------------|-------------|-------------|--------------|--------------|--------------|
-| Aura cost (1st spell) | Aura cost*1 | Aura cost*2 | Aura cost*4  | Aura cost*8  | Aura cost*16 |
-| Aura cost (2nd spell) | Aura cost*2 | Aura cost*4 | Aura cost*8  | Aura cost*16 | Aura cost*32 |
-| Aura Cost (3rd Spell) | Aura cost*4 | Aura cost*8 | Aura cost*16 | Aura cost*32 | Aura cost*64 |
+2 puissance (b-1), où b est le nombre de sorts dans ce tour, voir [ci-dessus][aura]).  
 
-The two modifiers can also be linked:
+Cela ne s'applique pas aux autres composants, qui ne sont augmentés que par les sorts à distance.
+
+Les sorts à distance et les sorts multiples combinés peuvent également augmenter les coûts en aura (CA) :
+
+| Distance région (a) |   0    |   1    |    2    |    3    |    4    |
+|---------------------|--------|--------|--------:|--------:|---------|
+| 1er sort            | CA x 1 | CA x 2 |  CA x 4 |  CA x 8 | CA x 16 |
+| 2ème sort           | CA x 2 | CA x 4 |  CA x 8 | CA x 16 | CA x 32 |
+| 3ème sort           | CA x 4 | CA x 8 | CA x 16 | CA x 32 | CA x 64 |
+
+Les deux modificateurs peuvent également être liés :
 
 ```text
-CAST REGION <x> <y> LEVEL <nr> "Zauber"
+CAST REGION <x> <y> LEVEL <niveau> "<Sort>"
 ```
 
-It is important that you first specify the region and then the level.
+Il est important de préciser d’abord la région, puis le niveau.
 
-**Example:**
+**Exemple :**
 
-A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).
-That costs 2*3 = 6 aura. The order for this spell is `CAST REGION 2 1 LEVEL 3 "Segen der Erde"`.
+Une unité de la région (1,1) lance "Bénédiction de la Terre" au niveau 3 dans la région voisine à l'est comme premier sort du tour (a = 1 distance de champ).  
+Cela coûte 2 x 3 = 6 aura.  
 
-### Magie en bateau et sur la mer
+L'ordre à donner pour ce sort est `CAST REGION 2 1 LEVEL 3 "Blessed Harvest"`.  
 
-In addition to long-distance spells, there are also two other classes of special spells.
-In general, spells can **not from departing ships** be conjured up.
-The only exceptions are those **Ship magic** designated sayings. Sayings that as **Sea magic** marked can also be cast by non-Aquarians on the ocean.
+### Magie en bateau et sur mer
+
+En plus des sorts à distance, il existe également deux autres classes de sorts spéciaux.
+
+En général, les sorts ne peuvent pas être invoqués depuis un bateau.  
+Les seules exceptions sont les sorts désignés spécifiquement comme sorts de **Magie en bateau**.  
+
+D'autres sorts, désignés spécifiquement comme sorts de **Magie en mer** marqué peuvent également lancés sur l’océan par des non-Aquariens.  
 
 ### Magie sur les gens et les objets
 
-Some spells can be used to magically influence people and objects.
-It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with [[cmd-contact]].
-Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with [[cmd-contact]] the target signals that they agree to the enchantment.
+Certains sorts peuvent être utilisés pour influencer avec la magie des personnes et des objets.  
+Il est à noter que la grande majorité des sorts à lancer sur des unités amies nécessitent que l'unité cible contacte le mage avec [[cmd-contact]].  
+Les téléportations et autres enchantements peuvent être bien intentionnés, mais peuvent souvent être utilisés pour des méfaits, et avec [[cmd-contact]], la cible signale qu'elle accepte l'enchantement.  
 
 ### Rang
 
-The order of normal spells is determined by the rank of the spell.
-Within a round, spells with a lower rank are always executed before those with a higher rank.
-Rank 1 is the lowest and rank 9 is the highest.
-Most spells have a standard rank of 5, but antimagic spells almost all have a rank of 2, so they may be cast before normal spells.
-Spells of the same rank are cast in the order specified on the turn.
+L'ordre des sorts normaux est déterminé par le rang du sort.  
+Au cours d'un round, les sorts de rang inférieur sont toujours exécutés avant ceux de rang supérieur.  
+Le rang 1 est le plus bas et le rang 9 est le plus élevé.  
+La plupart des sorts ont un rang standard de 5, mais les sorts antimagiques ont presque tous un rang de 2, ils peuvent donc être lancés avant les sorts normaux.  
+Les sorts de même rang sont lancés dans l'ordre spécifié lors du tour.
 
-**Example:**
+**Exemple :**
 
-There would be three spells, called "Aaa", "Bee" and "Cee" :
+Soit trois sorts, appelés "Aaa", "Bee" et "Cee" :
 
-- "Aaaa" is rank 5 and costs 10 aura
-- "Beee" is rank 2 and costs 20 aura
-- "Ceee" is rank 5 and costs 5 aura
+- "Aaaa" est de rang 5 et coûte 10 auras
+- "Beee" est de rang 2 et coûte 20 auras
+- "Ceee" est de rang 5 et coûte 5 auras
 
-Assuming the unit has the orders :
+En supposant que l'unité passe les ordres :
 
 ```text
 CAST "Ceee"
@@ -284,137 +320,155 @@ CAST "Beee"
 CAST "Aaaa"
 ```
 
-in that order.
-“Beee” is cast first, because the spell has rank 2.
-It's the unit's first spell this week, so it costs 20 aura.
-Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".
-"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.
-"Aaaa" is the third spell, so it costs 10*2^2=40 aura.
+dans cet ordre.
+
+« Beee » est lancé en premier, car le sort est de rang 2.
+C'est le premier sort de l'unité cette semaine, il coûte donc 20 auras.
+Ensuite, "Ceee" est lancé, car "Aaaa" et "Ceee" ont le même rang et "Ceee" vient avant "Aaaa".
+"Ceee" est le deuxième sort, il coûte donc 5*2^1=10 aura. Vient maintenant « Aaaa ».
+"Aaaa" est le troisième sort, il coûte donc 10*2^2=40 aura.
 
 ## Gaffe
 
-There is a lot that is not obvious in the magic system and in the spells.
-In general, many sayings contain direct or indirect risks.
-A magician can also botch a spell.
+Il y a beaucoup de choses qui ne sont pas évidentes dans le système de magie et dans les sorts.  
+En général, de nombreuses paroles contiennent des risques directs ou indirects.  
+Un mage peut aussi rater un sort.
 
-A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.
-This is not a bug and also gives a completely normal message in the report ("The spell fails.").
-If components or aura are missing, this will also be mentioned in the message.
+Ainsi, un sort peut tout simplement échouer, même si tous les composants sont réellement là et que l’aura d’unité est suffisante.  
+Ce n'est pas un bug, un message tout à fait normal est présent dans le rapport ("The spell fails.").  
+Si des composants ou une aura manquent, cela sera également mentionné dans le message.
 
-The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.
+La probabilité d'une erreur dépend de nombreux facteurs, parmi lesquels le niveau, la difficulté du sort par rapport au niveau auquel le sort est lancé par le mage, l' École de Magie, le sort, l'environnement, la cible, etc.  
 
-Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.
+Les erreurs peuvent avoir des effets secondaires extrêmement désagréables !  
+Cependant, si l’unité survit à une erreur, celle-ci n’est généralement pas permanente.
 
-Player experience (Solthar):
+Experience de jeu (Solthar) :
 
-A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.
-For draigmages it is 10% more. Possible consequences (in descending order of frequency):
+Un sort lancé au niveau maximum possible a environ 20 % de chances d'échec; à mi-niveau, il y a 0 % de chance.  
+Pour les mages Draig, c'est 10 % de plus.
+Conséquences possibles (par ordre décroissant de fréquence) :
 
-- The spell works, but subsequent spells become much more expensive
-- All aura is lost, the spell works or not
-- The spell doesn't work and you become a [[crapaud]] for 2 or more weeks
-- The spell doesn't work and there is a special effect
+- Le sort fonctionne, mais les sorts suivants deviennent beaucoup plus chers
+- Toute aura est perdue, le sort fonctionne ou non
+- Le sort ne fonctionne pas et vous devenez un [[crapaud]] pendant 2 semaines ou plus
+- Le sort ne fonctionne pas et il y a un effet spécial
 
-Special effects mainly affect Gwyrrd (enraged Ents are created) and Draig (pawn mobs or other consequences).
+Les effets spéciaux affectent principalement Gwyrrd (des Ents enragés sont créés) et Draig (des foules de paysans ou d'autres conséquences).
 
 ## Résistance à la magie
 
-A person/unit's magic resistance is each person's inherent ability to resist a spell cast against them, and how severely a person is affected by magical damage in combat.
-A unit's magic resistance is:
+La résistance à la magie d'une unité est la capacité inhérente de chaque personne à résister à un sort lancé contre elle et la gravité avec laquelle une personne est affectée par les dégâts de magie au combat.  
+La résistance à la magie d'une unité s'obtient par l'addition de :
 
-- the natural magic resistance of the [[races]]
-- plus 5% per magic skill
-- plus 10%*Unicorns per person
-- Possibly bonus or penalty due to [[list-of-spells|spell]] on the unit or region
-- Possibly bonus from [building][Blessed Stone Circle]
-- These values ​​are added together, but the result can never be higher than 90%
+- la résistance naturelle à la magie des [[races]]
+- +5 % par niveau de compétence en magie
+- *+10 % x Nombre de licornes* par personne
+- Éventuellement un bonus ou un malus dû au [[liste-des-sorts|sort]] sur l'unité ou la région
+- Éventuellement un bonus de [bâtiment][Cercle de pierres bénies]
 
-For certain direct enchantments, it is additionally influenced by the unit's experience:
+Le résultat ne peut jamais être supérieur à 90 %.  
 
-- 50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)
-- Never below 2%, never above 98%
+Pour certains enchantements directs, il est en outre influencé par l'expérience de l'unité.  
 
-Instead, additional bonuses from [Weapons or Armor] work against combat spells such as fireballs and weapons that are considered magical. Otherwise, only magical protection and natural armor work against magical damage.
+- 50 % + 5 % * (valeur de compétence la plus élevée de l'unité enchantée - compétence magique de l'unité qui lance)
+- Jamais en dessous de 2 %, jamais au-dessus de 98 %
 
-Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.
+<!-- TODO: clarify translation -->
+Au lieu de cela, les bonus supplémentaires des [armes ou armures] fonctionnent contre les sorts de combat tels que les boules de feu et les armes considérées comme magiques.  
+Sinon, seules la protection magique et l’armure naturelle fonctionnent contre les dégâts de magie.  
 
- **Examples:** The base chance is 0% for humans, 10% for [[skills-modifiers|elves]], for [[skills-modifiers|goblins]] it is only -5%.
+Même la « matière inanimée » (c'est-à-dire les régions, les bateaux, les bâtiments...), a parfois une résistance magique.  
+Il peut également être renforcé par certains sorts.  
 
-A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse] cast by a Magic 10 unit. If the magic talent is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.
+**Exemples:**
 
-For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with [Lensword][Weapons or Armor].*70%) = 63% of that, so about 31 damage.
+La chance de base est de 0 % pour les humains, de 10 % pour les [[skills-modifiers|elfes]], et de -5 % pour les [[skills-modifiers|gobelins]].  
+
+Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos] lancé par une unité de T10 en magie.  
+Si le niveau en magie est T12, les chances tombent à 40 %.  
+Si l'unité cible est composée de gobelins, les chances diminuent encore à 35 %.  
+
+Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une [épée en laen][armes ou armures] * 70 %) = 63 % de cela, soit environ 31 dégâts.  
 
 ## Tour des Mages
 
-A [Mage Tower] increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.
-In addition, the likelihood of a spell failure is significantly reduced.
+Une [Tour de Mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [[anneau-de-pouvoir]] sans augmenter le coût.  
+De plus, la probabilité d’un échec du sort est considérablement réduite.  
 
 ## Familiers
 
-Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them. Which genus this creature belongs to depends primarily on the area of ​​magic and race.
-More details about these familiars can be found in the chapter on [[familiars]].
+Les mages expérimentés rencontreront à un moment donné au cours de leurs pérégrinations un spécimen inhabituel d’une espèce qui les rejoindra.  
+Le genre auquel appartient cette créature dépend principalement de l' École de Magie et de la race.  
+
+Plus d'information sur ces créatures : les [[familiers]].  
 
 ## L'Astral
 
- **Note:** You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.
+!!! note
+    Vous pouvez également ignorer cette section si vous lisez les instructions pour la première fois - car il faut plusieurs semaines avant qu'un groupe puisse voyager dans l'Astral - ou si vous préférez comprendre vous-même les règles compliquées de l'Astral.
 
-There are more than 512 characters with translation, please reduce the translation content.***astrale Welt***
+Les opinions sur ce qu'est réellement ce deuxième plan d'existence varient aussi largement que les noms qui lui sont donnés : certains l'appellent le **monde des Esprits** , d'autres le **Monde astral**, mais le terme le plus connu est **plan de l'Astral**.  
+Des lois de la nature complètement différentes prévalent dans cet autre monde.  
+Ce fait est peut-être la seule raison pour laquelle l'Astral est resté une application pratique de la magie : celui qui parvient à brouiller la frontière entre l'Astral et la réalité au bon moment en utilisant ses pouvoirs magiques peut obtenir de grands avantages – que ce soit en percevant les choses de l'autre côté sans être vu lui-même, ou en voyageant rapidement sur de grandes distances.
 
-Anyone who enters the astral space -this is only possible through certain [[list-of-spells|spells]] -disappears completely from the real world.
-Like the real world, the astral space is divided into regions with the known cardinal points.
-Units located at a point in astral space appear in the report and are played like other units.
-So you can receive orders like [[cmd-move]] and [[cmd-attack]] and interact with other entities in the astral world.
-They can only communicate with the normal world through magic.
+Quiconque pénètre dans l'Astral - cela n'est possible que grâce à certains [[liste-des-sorts|sorts]] - disparaît complètement du monde réel.  
+Comme le monde réel, l’Astral est divisé en régions dont les points cardinaux sont connus.  
+Les unités situées en un point de l'Astral apparaissent dans le rapport et sont jouées comme les autres unités.  
+Vous pouvez ainsi recevoir des ordres comme [[cmd-move]] et [[cmd-attack]] et interagir avec d'autres entités de l'Astral.  
+Ils ne peuvent communiquer avec le monde normal que par magie.  
 
-The senses of worldly creatures are unable to concretely perceive the surroundings in the astral world.
-The eye sees the surroundings as a mere mist, and all sounds are muffled and muffled.
-From every point in the astral space, up to 19 real-world regions can be seen in outline, which are at most two regions away from a specific real region, which we will call the "reference point" here (green in the picture).
-Some spells can make these patterns appear more precise.
-In the example image, all regions that can be identified from a region are outlined in red.
-Six regions bisected by the red line are even visible from two astral regions each.
+Les sens des créatures du monde sont incapables de percevoir concrètement l'environnement de l'Astral.  
+L'œil voit l'environnement comme une simple brume et tous les sons sont étouffés.  
+De chaque point de l'Astral, jusqu'à 19 régions du monde réel peuvent être vues schématiquement, qui sont éloignées d'au plus deux régions d'une région réelle spécifique, que nous appellerons ici le « point de référence » (vert sur l'image).  
+Certains sorts peuvent rendre ces schémas plus précis.  
+Dans l’image d’exemple, toutes les régions pouvant être identifiées à partir d’une région sont encadrées en rouge.  
+6 régions coupées en deux par la ligne rouge sont même visibles depuis deux régions astrales chacune.  
 
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
-![Astral space connection](assets/images/astral-space-connection.jpg "Astral space connection")
+![Connexion de l'Astral](assets/images/astral-space-connection.jpg "onnexion de l'Astral")
 
-What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.
-Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).
-This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.
-The "reference point" is the southwest corner of it.
-All regions in such an area lead to the same point when entering the astral world.
-This connection is a prerequisite for most spells involving the astral space.
-But it can also be disturbed, for example by blessed stone circles that have recently been visited by a magician.
-Depending on the spell used, additional restrictions may apply.
+Ce qui rend l'espace astral particulièrement déroutant, c'est que ces schémas ne sont pas identiques aux régions qui sont reliées à la région de l'Astral, à partir desquelles on peut accéder à la région de l'Astral et vice versa.  
+Au lieu de cela, chaque point de l'Astral est connecté à une zone du monde normal, chacune comprenant 16 régions (en jaune sur l'image).  
+Cette zone a la forme d'un parallélogramme avec 4 régions s'étendant chacune dans les directions est-ouest et sud-ouest-nord-est.  
+Le « point de référence » en est le coin sud-ouest.  
+Toutes les régions d’une telle zone mènent au même point en entrant dans l'Astral.  
+Cette connexion est une condition préalable à la plupart des sorts impliquant l'Astral.  
+Mais il peut aussi être perturbé, par exemple par des Cercles de pierres bénies récemment visités par un mage.  
+Selon le sort utilisé, des restrictions supplémentaires peuvent s'appliquer.  
 
-That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.
-Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.
-Because every step in the spirit world corresponds to 4 steps in the real world.
+C'est pourquoi la prudence est de mise - car d'une part vous pouvez voir les schémas de régions réelles qui ne sont pas connectées à ce point dans l'Astral, mais d'autre part toutes les régions du monde réel avec lesquelles il existe une telle connexion n'apparaissent pas comme des schémas.  
+Ce n'est que lorsque les voyageurs s'orienteront malgré ces différences qu'ils se rendront compte qu'ils peuvent progresser plusieurs fois plus rapidement dans l'Astral.  
+Parce que chaque étape dans le monde spirituel correspond à 4 étapes dans le monde réel.
 
-Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.
-Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.
-Only **Elven horses** seem to be able to survive as magical mounts in the astral space.
+Ce n'est que grâce à la magie que la réalité peut être modifiée de telle manière que les êtres vivants entrent dans le monde des êtres spirituels.  
+De plus, vous ne pouvez pas emmener de pierres, de chevaux, de chars ou de catapultes dans le monde des Esprits.  
+Seulement les **Chevaux elfiques** semblent être capables de survivre en tant que montures magiques dans l'Astral.  
 
-In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible [beings] who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.
-Only those who carry powerful magical weapons or allies with them or are able to hide themselves extremely well from unfriendly eyes will be immune from these horrors of the astral space.
+En général, tout le monde devrait être mis en garde contre une traversée imprudente dans l'Astral, car celui-ci est habité par des [créatures monstrueuses] qui ne peuvent être vaincus par des armes ordinaires et qui privent impitoyablement leurs victimes de leur volonté et de leur mémoire.  
+Seuls ceux qui portent avec eux des armes magiques puissantes  ou sont capables de se cacher extrêmement bien des regards hostiles seront immunisés contre ces horreurs de l'Astral.  
+Les autres devront compter sur leurs alliés !  
 
 ## Listes de tous les sorts
 
-In the early days of Eressea, the exact lists of spells were secret so that "we could have the anticipation of whether and which new spells one would receive when reaching a new level." Eressea has now been running for so long that it would put new players at too great a disadvantage compared to veterans if the spells were not known.
-That's why there is now a [[list-of-spells]] and [[description-of-spells]].
+Dans les premiers jours d'Eressea, les listes exactes de sorts étaient secrètes afin que "nous puissions anticiper si et quels nouveaux sorts on recevrait en atteignant un nouveau niveau".
+Eressea existe maintenant depuis si longtemps que les nouveaux joueurs seraient trop désavantagés par rapport aux joueurs confirmés si les sorts n'étaient pas connus.  
+C'est pourquoi il existe désormais une [[liste-des-sorts]] et une [[description-des-sorts]].
 
 Poursuivre la lecture : [[ecoles-de-magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Aura]: #aura
-[Ranged Spells]: ./magic.md/#magie-a-distance
-[Magic Resistance]: ./magic.md/#resistance-a-la-magie
-[probability of blunders]: #gaffe
+[aura]: #aura
+[sorts à distance]: ./magic.md#magie-a-distance
+[résistance à la magie]: ./magic.md#resistance-a-la-magie
+[probabilité d'erreurs]: #gaffe
 
-[Academy]: ./buildings-others.md#academie
-[`COMBAT` orders]: ./war.md#lignes-de-combat
-[The Sides in a Battle]: ./war.md#les-camps-dans-une-bataille
-[Mage Tower]: ./buildings-others.md#tour-de-mage
-[Blessed Stone Circle]: ./buildings-others.md#cercle-de-pierres
-[Weapons or Armor]: ./war-tables.md#resistance-a-la-magie
-[Chaos Curse]: ./spells-descriptions.md#chaos-curse
-[beings]: ./monsters.md#morts-vivants
+[Académie]: ./buildings-others.md#academie
+[`COMBAT`]: ./war.md#lignes-de-combat
+[Les camps dans une bataille]: ./war.md#les-camps-dans-une-bataille
+[Tour de Mage]: ./buildings-others.md#tour-de-mage
+[Cercle de pierres bénies]: ./buildings-others.md#cercle-de-pierres
+[armes ou armures]: ./war-tables.md#resistance-a-la-magie
+[Malédiction du Chaos]: ./spells-descriptions.fr.md#malediction-du-chaos
+[créatures monstrueuses]: ./monsters.md#morts-vivants

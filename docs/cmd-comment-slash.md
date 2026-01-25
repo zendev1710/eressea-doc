@@ -2,18 +2,18 @@
 # cSpell:locale en
 alias: comment-with-slashes
 ---
-# Comment (//)
+# // Comment
 
 **`//`**` `*`Comment`*  
 
-In contrast to a comment after a [[cmd-comment|`;`]] (semicolon), this comment is included in the template **for the next round's** evaluation.
+In contrast to a comment after a [[cmd-comment|`;`]] (semicolon), this comment is included in the template **for the next round's** evaluation.  
 
 ```text
-UNIT 123;     One hundred and twenty-three [20,450$]
+UNIT 123; One hundred and twenty-three [20,450$]
 // Upkeep Mage Tower
 @GIVE 234 1000 SILVER
 // Learn polearms every now and then
-TAX Steuern ein
+TAX
 ```
 
 The `//` has to be treated like an order, so you **can't** do:

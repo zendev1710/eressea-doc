@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-guard-fr
 ---
-# GUARD
+# `GUARD`
 
 **`GUARD`**`[NOT]`
 
@@ -25,7 +25,7 @@ Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions
 Si l'unité n'est pas visible, parce qu'elle possède une compétence de camouflage de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.
 
 Dans tous les cas, il est tout à fait possible de [divertir] à terre dans une région gardée, même si le gardien n'a pas activé l'ordre `HELP GUARD`.  
-Cela n'est pas possible si l'unité de divertissement se trouve à bord d'un navire.  
+Cela n'est pas possible si l'unité de divertissement se trouve à bord d'un bateau.  
 
 Dans le tour au cours duquel l'ordre  `GUARD` a été donné, toutes ces restrictions ne s'appliquent pas encore, car l'unité de garde doit d'abord découvrir où les unités étrangères pourraient collecter de l'argent, etc.  
 L'unité de garde devient immédiatement visible par toutes les autres unités de la région, quel que soit son niveau de furtivité.
@@ -55,7 +55,7 @@ La probabilité d'être stoppée augmente avec :
 - l'utilisation d'une Amulette de Vision Décuplée
 - la taille du château du propriétaire de la région s'ils n'est pas un allié
 
-La probabilité d'être stoppée décroit avec :
+La probabilité d'être stoppée décroît avec :
 
 - le nombre de gardes alliés
 - la compétence de furtivité de l'unité en mouvement
@@ -77,7 +77,7 @@ Au cours des [[puppy-protection|premières semaines]], une faction ne peut pas e
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
-[arme]: ./war-tables.md#armes-et-leurs-proprietes
+[arme]: ./war-tables.md#armes-tableau-de-synthese
 [faire du commerce]: ./silver.md#commerce
 [Fin de bataille]: ./war.md#fin-du-combat
 [divertir]: ./skills-list.md#divertissement

@@ -148,6 +148,22 @@ Das Geld, das die Bauern ausgegeben haben, kommt den verkaufenden Händlern zugu
 
 Es lohnt sich, ein Schiff auszurüsten und in See zu stechen. Obwohl man mit den zwei Produkten, die in der Regel auf einer Insel produziert werden, Handel treiben kann, bleiben die Gewinne relativ gering. Kehrt man aber von einer fremden Insel mit einer Ladung seltener Güter heim, kann man astronomische Gewinne erzielen, wobei die Entfernung der Inseln aber keine Rolle spielt. Solche Expeditionen sollten dafür ausgerüstet sein, in der neuen Welt eine Niederlassung zu gründen - denn man kann ja nur in der Nähe von Befestigungen Handel treiben.
 
+### Luxusgütern
+
+#### Balsam
+
+#### Gewürz
+
+#### Weihrauch
+
+#### Juwelen
+
+#### Öl
+
+#### Myrrhe
+
+#### Seide
+
 ## Konkurrenz verschiedener Parteien
 
 Wenn mehrere Parteien in einer Region arbeiten, unterhalten, Steuern eintreiben oder handeln, werden die möglichen Verdienste möglichst gleichmäßig zwischen den Einheiten aufgeteilt. Am besten solltest du dich mit deinen Mitbewohnern gut absprechen, falls sie freundlich gesonnen sind.

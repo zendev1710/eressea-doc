@@ -1,5 +1,5 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: modele-pour-deplacements
 ---
 # Modèle pour déplacements

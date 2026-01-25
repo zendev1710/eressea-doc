@@ -88,14 +88,29 @@ Humans can do a bit of everything. They don't have any really bad skills, but th
 
 - Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [[cmd-give|get them]] from other factions. There are no migrants with [expensive skills] like magic, alchemy, herbalism, espionage, or tactics.
 
-The number of *migrants* is calculated as 20 × log<sub>10</sub> (persons in the faction ÷ 50). If you have to many migrants, for example after a battle, they are not removed, but you cannot add any more either. The maximum number of migrants is shown in your report. It is almost identical to the number of [heroes] for large factions. The following table has some examples.
+The number of migrants is calculated as the following:
 
-Migrants
+<!-- cspell:disable -->
+:   $$
+    \text{migrants number} = 20 \times \log_{10}\!\left(\frac{\text{faction size}}{50}\right)
+    $$
+<!-- cspell:enable -->
 
-|                       |   |    |    |    |    |    |    |     |     |      |      |       |        |         |
-|-----------------------|---|----|----|----|----|----|----|-----|-----|------|------|-------|--------|---------|
-| people in the faction | 1 | 56 | 57 | 63 | 71 | 80 | 89 | 159 | 500 | 1000 | 5000 | 50000 | 500000 | 5000000 |
-| migrants              | 0 | 0  | 1  | 2  | 3  | 4  | 5  | 10  | 20  | 26   | 40   | 60    | 80     | 100     |
+If you have to many migrants, for example after a battle, they are not removed, but you cannot add any more either. The maximum number of migrants is shown in your report. It is almost identical to the number of [heroes] for large factions. The following table has some examples.
+
+*Number of immigrants according to faction size.*
+
+| People in the faction | 1 | 60 | 80 | 160 | 500 | 1 000 | 5 000 | 50 000 | 500 000 | 5 000 000 |
+|-----------------------|:-:|:--:|:--:|:---:|:---:|:-----:|:-----:|:------:|:-------:|:---------:|
+| Migrants number       | 0 | 1  | 4  | 10  | 20  |  26   |  40   |   60   |   80    |    100    |
+
+??? tip "Calculating the number of migrants"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="races-compute-migrants-input" class="md-input-label">Faction size:</label>
+        <input id="races-compute-migrants-input" type="number" class="md-input" placeholder="nombre de personnnes">
+        <button id="races-compute-migrants-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Compute</button>
+        <p style="margin-top: 1em;">Number of migrants: <strong id="races-compute-migrants-result">---</strong></p>
+    </div>
 
 ## Orcs
 
@@ -137,15 +152,13 @@ Continue reading: [Racial skill modifiers].
 [bonuses and penalties]: ./skills-modifiers.md
 [starvation rule]: ./silver.md#starvation
 [recruited]: ./silver.md#recruiting
-[`GIVE 0`]: ./cmd-give.md
 [change their appearance]: ./cmd-hide.md
 [region's maximum]: ./world.md
 [magician]: ./magic.md
-[elven bows]: ./war-tables.md#weapon-properties
+[elven bows]: ./war-tables.md#weapons-summary-table
 [steal]: ./camouflage.md
 [ships]: ./ships.md
 [flee]: ./war.md#fleeing
-[`COMBAT FLEE`]: ./cmd-combat.md
 [dragons]: ./monsters.md#dragons
 [alchemists]: ./skills-list.md
 [potion]: ./alchemy.md

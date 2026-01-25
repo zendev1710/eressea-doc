@@ -1,21 +1,21 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: extended-commands-fr
 ---
-# ExtendedCommands
+# `Extended Commands`
 
-ExtendedCommands est un plugin pour [[magellan]] inclus dans la distribution standard et permettant d'automatiser les ordres.
+`Extended Commands` est un plugin pour [[magellan]] inclus dans la distribution standard et permettant d'automatiser les ordres.  
 
-Une introduction et quelques exemples de scripts sont disponibles sur le [site web officiel].
+Une introduction et quelques exemples de scripts sont disponibles sur le [site web officiel].  
 
-La bibliothèque de scripts est accessible via le menu Magellan *`Plugins > Extended Commands > Edit Library...`*.
-Une nouvelle fenêtre s’ouvre sur le côté, offrant une large zone de texte pour la saisie du code, ainsi que des boutons d’exécution et d’enregistrement.
+La bibliothèque de scripts est accessible via le menu Magellan *`Plugins > Extended Commands > Edit Library...`*.  
+Une nouvelle fenêtre s’ouvre sur le côté, proposant un champ de saisie pour renseigner le code, ainsi que des boutons d’exécution et d’enregistrement.  
 
-Tu trouveras ci-dessous les exemples de méta-scripts.
+Tu trouveras ci-dessous des exemples de méta-scripts.  
 
-## Méta scripts
+## Méta-scripts
 
-En général, tu peux copier les scripts les uns après les autres, mais il est aussi possible de les diviser en quatre parties :
+En général, tu peux copier les scripts les uns après les autres, mais il est aussi possible de les diviser en quatre :
 
 1. Importations : copie simplement deux lignes
 2. Bibliothèque de fonctions : copie-colle
@@ -34,10 +34,14 @@ import magellan.library.rules.*;
 
 Ci-dessous tu trouveras mes scripts.
 
-### Meta castle building signs
+### Méta-script de construction de château
 
-<!-- TODO: translate in french -->
-A call from `metaBurgenbauSchilder()` in all regions you will receive a sign with the following information: Castle size M Morale Silver per castle size /stone for the next castle upgrade Stone efficiency (= Silver per castle size /stone for the next castle upgrade)
+En appelant `metaBurgenbauSchilder()` dans toutes les régions, vous recevrez un `Sign` avec les informations suivantes : 
+
+- Taille du château M Moral
+- Argent par taille de château
+- Pierres pour la prochaine amélioration du château
+- Efficacité de la pierre (argent par taille de château / pierre pour la prochaine amélioration du château)
 
 ```java
 /*********************************************
@@ -86,9 +90,10 @@ metaBurgenbauSchilder() {
 }
 ```
 
-### Meta friend enemy signs
+### Méta-script d'identification des armées
 
-This is a bit more complicated as it requires some configuration. More detailed documentation will be provided later:
+C'est un peu plus compliqué car cela nécessite une certaine configuration.  
+Une documentation plus détaillée sera fournie ultérieurement :
 
 ```java
 /*********************************************
@@ -103,8 +108,8 @@ metaFreundFeindSchilder(String type) {
       people = new HashMap();
       for (Unit unit : region.units()) {
         allianceName = metaGetFriendFoeInfo(unit.getFaction());
-        if (people.containsKey(allianceName)) { 
-    people.put(allianceName, 
+        if (people.containsKey(allianceName)) {
+    people.put(allianceName,
         people.get(allianceName)
         +unit.getPersons());
         } else {
@@ -120,7 +125,7 @@ metaFreundFeindSchilder(String type) {
         signtext = allianceStr + ":" + amount;
         Sign sign = new Sign( signtext );
         region.addSign(sign);
-      } 
+      }
     }
   }
   else if (type.equals("soldier")){
@@ -231,7 +236,8 @@ metaDiplomatieListe(String chefdiplomat,String outputType){
 C'est un peu plus compliqué. Cela s'appelle `metaCommandChecker("faction#");`.
 Cela garantit que les unités qui ont les lignes `// m/mine/stone` ou `// iron or wood` reçoivent les commandes correspondantes.
 
-This is a bit more complicated as it requires some configuration. More detailed documentation will be provided later:
+C'est un peu plus compliqué car cela nécessite une certaine configuration.
+Une documentation plus détaillée sera fournie ultérieurement :
 
 ```java
 /*********************************************
@@ -370,7 +376,7 @@ metaDiplomatieListe(String chefdiplomat,String outputType){
 }
 ```
 
-To configure, you need another function in which each faction number that is to be assigned to a specific alliance has an assignment:
+Pour configurer, vous avez besoin d'une autre fonction dans laquelle chaque identifiant e faction qui doit être attribué à une alliance spécifique a une affectation :
 
 ```java
 metaFriendFoeCallback(HashMap tmpCallback){
@@ -379,9 +385,11 @@ metaFriendFoeCallback(HashMap tmpCallback){
 }
 ```
 
-### Meta orders checker
+### Méta-script de vérification des ordres
 
-This is also a little more complicated. Is done using `metaCommandChecker("party#");` called. This means that units get the lines `// m/abbauen/stein` or have also set the corresponding commands for iron or wood.
+C'est aussi un peu plus compliqué.  
+Se fait en appelant `metaCommandChecker("party#");`.  
+Cela signifie que les unités obtiennent les lignes `// m/abbauen/stein` ou avoir également défini les ordres correspondants pour le fer ou le bois.  
 
 ```java
 /*********************************************

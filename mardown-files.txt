@@ -21,7 +21,7 @@ appendices/terrains.md
 appendices/war-tables.md
 appendices/items/adamantium-armor.md
 appendices/items/adamantium.md
-appendices/items/amulet-of-true-vision.md
+appendices/items/amulet-of-true-sight.md
 appendices/items/antimagic-crystal.md
 appendices/items/belt-of-troll-strength.md
 appendices/items/dream-eye.md
@@ -163,7 +163,6 @@ orders/commands-list.md
 orders/commands-send-from-magellan.md
 orders/commands-send.md
 orders/commands-sequence.md
-orders/commands-short-descriptions.md
 orders/commands.md
 orders/first-round.md
 orders/puppy-protection.md

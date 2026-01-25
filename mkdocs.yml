@@ -82,14 +82,24 @@ theme:
 # language: en
 
 extra_css:
-  #- assets/css/extra.css
+  - assets/css/extra.css
   - assets/css/fantasy.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+extra_javascript:
+  - javascripts/katex-init.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  # our own scripts
+  - javascripts/formulas-try.js
 
 copyright: Copyright &copy; 2025 Cyril Guillon
 
 plugins:
   # - categories
   - alias
+      # use_anchor_titles: true
+      # use_page_icon: true
   # - awesome-nav
   - redirects
   - search
@@ -111,8 +121,22 @@ plugins:
             Introduction: Introduction
             Gameplay: Jeu
             Exploration: Exploration
+            War: Guerre
+            Magic: Magie
+            Alchemy: Alchimie
+            Orders: Ordres
+            Misc: Divers
             References: Références
             Help: Aide
+            Weekly reports: Rapport hebdomadaire
+            Hints: Remarques
+            Beginner tips: Conseils pour débutants
+            Basics: Bases
+            Sending orders: Envoi des ordres
+            Sending orders from Magellan: Envoi des ordres depuis Magellan
+            Puppy protection: Protection du chiot
+            The World: Le Monde d'Eressea
+            Factions and units: Factions et unités
         - locale: de
           name: Deutsch
           build: true
@@ -157,8 +181,12 @@ markdown_extensions:
   - toc:
       permalink: true
   # Python Markdown Extensions
+  # pymdownx.arithmatex is for Mathjax
+  # but we use katex via js
   - pymdownx.arithmatex:
+      # TODO: check if generic is needed
       generic: true
+      #inline_syntax: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.blocks.caption
@@ -208,7 +236,6 @@ nav:
   - Production:
     - production.md
     - resources.md
-    - resources.md
     - items.md
     - roads.md
     - ships.md
@@ -236,7 +263,6 @@ nav:
   - Orders:
     - commands.md
     - commands-sequence.md
-    - commands-short-descriptions.md
     - commands-list.md
     - first-round.md
     # - puppy-protection.md
@@ -369,9 +395,12 @@ nav:
         - adamantium-armor.md
         - adamantium.md
         - laen.md
-        - amulet-of-true-vision.md
+        - mallorn.md
+        - amulet-of-true-sight.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md
+        - dragonblood.md
+        - dragonhead.md
         - flaming-sword.md
         - magical-herb-pouch.md
         - negative-weight-bag.md
@@ -392,6 +421,5 @@ nav:
       - thanks.md
       - contributors.md
       - player-pages.md
-      - eressea-join.md
       - eressea-story.md
       - the-third-age.md

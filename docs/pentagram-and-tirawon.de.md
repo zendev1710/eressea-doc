@@ -62,8 +62,6 @@ Auf Seiten des **Pentagramms** kämpften 20 Völker + Igjarjuk + die Monsterpart
 - Heer 27: \*Tänzer im Sturm (jL) -- 1 Meermenschen
 - Heer 39: \*Charriu-Solair Drachenmeister des Pentagramms (chs) -- 1 Elf
 
-<!-- -->
-
 - Heer 37: Unbekannte Partei (=Monster) -- 38 Hirntöter
 - Heer 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
 

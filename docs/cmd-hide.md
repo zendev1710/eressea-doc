@@ -10,21 +10,24 @@ alias: cmd-hide
 **`HIDE`**` `*`race`*  
 
 With the first variant you can adjust how “intensively” a unit tries to camouflage itself.
-`level` obviously cannot be higher than the unit's [[camouflage|camouflage skill]].
-If no parameters are specified, the maximum is set.
+`level` obviously cannot be higher than the unit's [[camouflage|camouflage skill]].  
+
+If no parameters are specified, the maximum is set.  
 
 With `HIDE FACTION` you can try to hide your faction affiliation.
-The faction affiliation is then displayed as *anonymous* to other players.
-In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can only be recognized using [espionage].
-With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.
+The faction affiliation is then displayed as **anonymous** to other players.  
+In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage]**.  
 
-`HIDE FACTION NUMBER number` camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.
-There is no easy way to see through this form of camouflage.
-In order to appear to belong to your own faction again, you have to `number` your own faction number can be used.
+With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.  
+
+`HIDE FACTION NUMBER number` camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.  
+There is no easy way to see through this form of camouflage.  
+In order to appear to belong to your own faction again, you have to `number` your own faction number can be used.  
 The specified faction must be known to the faction issuing the order, i.e. appear in their report, otherwise the order will fail.
 Factions that receive [[cmd-help|`HELP xyz FACTION DISGUISE`]] from the unit's faction or group can see the unit's true faction affiliation.
 
-So far, so simple.
+So far, so simple.  
+
 However, this camouflage comes with a few special features, which are listed here in no particular order:
 
 - The (apparent) race of the unit does not change as a result; a goblin remains a goblin, even if he claims to belong to the light elves faction
@@ -39,7 +42,7 @@ However, this camouflage comes with a few special features, which are listed her
   Now the iron dwarf attacks the river elf.
   This means that three armies appear in the battle report: the iron dwarves and two river elf armies.
 
-However, [[cmd-group]] also has the side effect of having multiple armies.
+However, [[cmd-group]] also has the side effect of having multiple armies.  
 This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
 
 With `HIDE race` [demons] can disguise themselves as another race.

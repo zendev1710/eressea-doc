@@ -1,195 +1,197 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: cmd-default-fr
 ---
-# DEFAULT
+# `DEFAULT`
 
 **`DEFAULT`**`"`*`order`*`"`  
 
-`DEFAULT`changes the [[orders|command]] that a unit normally issues **in the next week** would execute:
+L'ordre `DEFAULT` définit [[ordres|l'ordre]] par défaut qu'une unité exécutera **la semaine suivante**.  
 
 ## Modèle d'ordres et ordres par défaut
 
-After I have sent in my orders and the server has created the evaluation, specific orders come for each unit zurück.
-These are the default orders.
-They will be executed next week if you don't send in orders *for this unit*.
-You will receive the default orders with the report as a text file (also called a move template or orders template) if you do not use them with [[cmd-option|`OPTION ZUGVORLAGE NOT`]] switched off.
-They are also included in the computer report (CR).
-The normal report (NR) always only contains the first long default order.
-So you can't see all the default orders there.
+Une fois que vous avez envoyé vos ordres et que le serveur a créé l'évaluation, des ordres spécifiques sont définis pour chaque unité.  
+Ce sont les ordres par défaut.
+Ils seront exécutés la semaine suivantes si vous n'envoyez pas d'ordre **pour une unité donnée**.  
+<!-- TODO: clarify (bad from german translation) -->
+Vous recevrez les ordres par défaut avec le rapport sous forme de fichier texte (également appelé modèle d'ordres), si vous ne les utilisez pas avec l'ordre [[cmd-option|`OPTION ZUGVORLAGE NOT`]] désactivé.  
+Ils sont également inclus dans le rapport informatique (CR).
+Le rapport normal (NR) ne contient toujours que le premier ordre long par défaut.  
+Vous ne pouvez donc pas y voir tous les ordres par défaut.
 
-All [long orders] are normally included in a unit's default orders.
-Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.
-In addition, all [[comment-with-slashes|`//`]] and all orders beginning with `@` are adopted.
-The spelling may be standardized.
+Tous les [ordres longs] sont normalement inclus dans les ordres par défaut d'une unité.
+Les exceptions sont `ATTACK`, `FOLLOW` et `MOVE`.  
 
-Orders sent in:
+De plus, tous les [[comment-with-slashes|`//`]] et tous les ordres commençant par `@` sont adoptés.
+L'orthographe peut être standardisée.  
+
+Ordres envoyés :
 
 ```text
-    UNIT abc
-    ; only 10 this week
+UNIT abc
+    ; seulement 10 cette semaine
     BUY 10 Balm
     SELL 100 Oil
-    // buy more balm next week
-    @GIVE xyz ALL Balm ; Transporter
+    // acheter plus de baume la semaine prochaine
+    @GIVE xyz ALL Balm ; transporteur
     GIVE abc 100 Silver
     RECRUIT 1
 ```
 
-Default orders for next week:
+Ordres par défaut pour la semaine suivante :
 
 ```text
-    UNIT abc
+UNIT abc
     BUY 10 Balm
     SELL 100 Oil
-    // buy more balm next week
+    // acheter plus de baume la semaine prochaine
     @GIVE xyz ALL Balm ; Transporter
 ```
 
-By the way, what happens if the unit has illegally received several long orders (for example `LEARN` and `WORK`) is not precisely defined.
-The same applies to other invalid orders.
+D'ailleurs, si l'unité passe à tort plusieurs ordres longs (par exemple `LEARN` et `WORK`), il est difficile de prévoir ce qui en résultera.  
+Il en va de même pour les autres ordres invalides.
 
 ## L'ordre DEFAULT
 
-The `DEFAULT` order changes this behavior by changing the default orders that come back from the server.
-If the unit has received a `DEFAULT` order, its **long** orders not included in the template.
-[long orders] (with `//`) and short `@` orders are accepted.
-The given orders are validated to a certain extent.
-Invalid orders are therefore not accepted.
-However, this test has limitations, it is better not to rely on it.
+L'ordre `DEFAULT` change ce comportement en modifiant les ordres par défaut transmis par le serveur.  
+Si l'unité a reçu un ordre `DEFAULT`, ses ordres **longs** ne seront pas inclus dans le modèle d'ordres.  
+Les [ordres longs] avec `//` et ordres court avec `@` sont acceptés.
+Les ordres donnés sont validés dans une certaine mesure.
+Les ordres invalides ne sont donc pas acceptés.  
+Cependant, ce test a des limites, il vaut mieux ne pas s’y fier.
 
-You can also insert short orders using the `DEFAULT` order.
+Vous pouvez également insérer des ordres courts en utilisant l'ordre `DEFAULT`.
 
-Orders sent in:
+Ordres envoyés :
 
 ```text
-    UNIT abc
-    ; this week only 10
+UNIT abc
+    ; cette semaine seulement 10
     BUY 10 Balm
     SELL 100 Öl
-    // learn next week
+    // apprendre la semaine prochaine
     @GIVE xyz ALL Balm ; Transporter
     GIVE abc 100 Silver
     RECRUIT 1
-    DEFAULT "GIVE 123 50 Silver; don't forget"
-    DEFAULT "LEARN Trade" ; Deletes BUY und SELL
-    DEFAULT "XXX" ; no order, will not be accepted
+    DEFAULT "GIVE 123 50 Silver; ne pas oublier"
+    DEFAULT "LEARN Trade" ; Supprime BUY et SELL
+    DEFAULT "XXX" ; aucun ordre, ce ne sera pas accepté
 ```
 
-Default orders for next week:
+Ordres par défaut pour la semaine suivante :
 
 ```text
-    UNIT abc
+UNIT abc
     GIVE 123 50 Silver; don't forget
     LEARN Trade
-    // learn next week
+    // apprendre la semaine prochaine
     @GIVE xyz ALL Balm ; Transporter
 ```
 
-If your default orders need to contain quotes, there are currently a few ways to achieve this:
+Si vos ordres par défaut doivent contenir des guillemets, il existe actuellement plusieurs façons d'y parvenir :
 
 ```text
-    DEFAULT "CAST 'Create a Ring of Invisibility'"
-    DEFAULT 'CAST "Create a Ring of Invisibility"'
-    DEFAULT "NAME UNIT \"Bob's Builders\""
-    DEFAULT "MAKE 1 'Water of life'"
+DEFAULT "CAST 'Create a Ring of Invisibility'"
+DEFAULT 'CAST "Create a Ring of Invisibility"'
+DEFAULT "NAME UNIT \"Bob's Builders\""
+DEFAULT "MAKE 1 'Water of life'"
 ```
-nen
- 
-## L'ordre MOVE
 
-The `MOVE` order plays a special role: it is not included in the template.
-Instead, the long orders that the unit had in the template last week are adopted, but only long orders.
+## L'ordre `MOVE`
 
-Default orders:
+L'ordre `MOVE` joue un rôle particulier : il n'est pas inclus dans le modèle.  
+Au lieu de cela, les ordres longs que l'unité avait dans le modèle la semaine précédente sont adoptés (mais uniquement les ordres longs).
+
+Ordres par défaut :
 
 ```text
-     LEARN Ride
-     @GIVE 0 10 Silver
-     // no comment
+LEARN Ride
+@GIVE 0 10 Silver
+// pas de commentaire
 ```
 
-Orders sent in:
+Ordres envoyés :
 
 ```text
-    MOVE e
+MOVE e
 ```
 
-Default commands for next week:
+Ordres par défaut pour la semaine suivante :
 
 ```text
-    LEARN Ride
+LEARN Ride
 ```
 
-What happens if both `MOVE` and `DEFAULT` are in play?
+Que se passe-t-il si les deux ordres `MOVE` et `DEFAULT` sont en jeu ?
 
-Template:
+Modèle :
 
 ```text
-    WORK
-    // now to the west
+WORK
+// maintenant à l'ouest
 ```
 
-Orders sent in:
+Ordres envoyés :
 
 ```text
-    DEFAULT "LEARN Endurance"
-    // now learn
-    MOVE w
+DEFAULT "LEARN Endurance"
+// maintenant, apprendre
+MOVE w
 ```
 
-Default orders for next week:
+Ordres par défaut pour la semaine suivante :
 
 ```text
-    LEARN Endurance
-    // now learn
+LEARN Endurance
+// now learn
 ```
 
-`DEFAULT` deletes them here too **long** default orders (here `WORK`) and reset them.
+`DEFAULT` supprime aussi les ordres **longs** par défaut (ici `WORK`) et les réinitialise.
 
-It is possible to set `MOVE` with `DEFAULT`.
+Il est possible de définir `MOVE` avec `DEFAULT`.
 
-Template:
+Modèle :
 
 ```text
-    WORK
-    @GIVE 0 1 Silver
+WORK
+@GIVE 0 1 Silver
 ```
 
-Orders sent in:
+Orders envoyés :
 
 ```text
-    DEFAULT "MOVE o"
-    WORK
-    @GIVE 0 2 Silver
+DEFAULT "MOVE o"
+WORK
+@GIVE 0 2 Silver
 ```
 
-Default orders for next week:
+Ordres par défaut pour la semaine suivante :
 
 ```text
-    MOVE o
-    @GIVE 0 2 Silver
+MOVE e
+@GIVE 0 2 Silver
 ```
 
-Default orders for the week after next if no other orders are sent in for the unit:
+Les ordres par défaut pour la semaine encore d'après, si aucun autre ordre n'est envoyé pour l'unité :
 
 ```text
-    @GIVE 0 2 Silver
+@GIVE 0 2 Silver
 ```
 
-Here too, the unit would not carry out a long command.
+Ici aussi, l'unité n'effectuerait pas d'ordre long.
 
 !!! note
-    There is a cap on the number of orders stored for a unit.
-    This is currently 128 orders, which should easily be enough for most purposes.
+    Le nombre maximal d'ordres autorisé pour une unité est de 128, ce qui devrait suffire dans la plupart des cas.
 
-Player experience (Solthar):
+Expérience de jeu (Solthar) :
 
 `DEFAULT DEFAULT` ???
 
-Is it possible to nest DEFAULT orders to make commands for several weeks in advance?
-Well, something like `DEFAULT "DEFAULT 'LEARN Endurance'"` apparently works as you would expect, but the game management would rather not make any guarantees about it.
-Please do not submit bug reports if something like this doesn't work as expected. Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftools]] are better suited for such projects.
+Est-il possible d'imbriquer des ordres `DEFAULT` pour passer des ordres plusieurs semaines à l'avance ?
+
+Eh bien, quelque chose comme `DEFAULT "DEFAULT 'LEARN Endurance'"` fonctionne apparemment comme prévu, mais la Direction du Jeu préfère ne donner aucune garantie à ce sujet.  
+Veuillez ne pas soumettre de rapports de bogues si quelque chose comme ceci ne fonctionne pas comme prévu.
+Les langages de script tels que [[vorlage]], [[extended-commands]] ou [[fftools]] sont plus adaptés à de tels projets.
 
 ## Voir aussi
 
@@ -198,4 +200,4 @@ Please do not submit bug reports if something like this doesn't work as expected
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
 
-[long orders]: ./commands.md#ordres-courts-et-longs
+[ordres longs]: ./commands.md#ordres-courts-et-longs

@@ -36,7 +36,12 @@ Here are my pre-made scripts:
 
 ### Meta castle building signs
 
-A call from `metaBurgenbauSchilder()` in all regions you will receive a sign with the following information: Castle size M Morale Silver per castle size /stone for the next castle upgrade Stone efficiency (= Silver per castle size /stone for the next castle upgrade)
+By calling `metaBurgenbauSchilder()` in all regions, you will receive a `Sign` with the following information:
+
+- Castle size M Morale
+- Silver per castle size
+- Stones for the next castle upgrade
+- Stone efficiency (Silver per castle size / stone for the next castle upgrade)
 
 ```java
 /*********************************************

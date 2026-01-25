@@ -1,82 +1,102 @@
 ---
-# cSpell:locale fr, en
+# cSpell:locale fr
 alias: pentagramme-et-tirawon
 ---
-# Pentagramme et Tirawon
+# Pentagramm et Tirawon
 
-Die Bündnisse **"Das Pentagramm"** und **"Ewiges Feuer von Tirawon / Grüne Hand Salassars"** waren zwei der mächtigsten Großbündnisse der 6. Welt und herrschten jeweils über mehrere hundert Regionen. In der Runde 381 (letzte Woche des Monats Sturmmond im Jahre 8 des zweiten Zeitalters) trafen ihre aufeinander ...
+Les alliances **`Pentagramm`** et **`Eternal Fire of Tirawon` / `Green Hand of Salassar`** étaient deux des alliances les plus puissantes du 6ème Monde et régnaient chacune sur plusieurs centaines de régions.  
+Au cours du tour 381 (la dernière semaine du mois de la Lune des Tempêtes de l'An 8 du Deuxième Âge), elles se sont rencontrées...
 
-Die Schlacht zwischen dem Pentagramm und Tirawon gilt als eine der größten, die jemals in Eressea ausgetragen wurden. In der Astralebene über der 6. Welt trafen insgesamt 182686 Personen\* aufeinander, 82398 vom Pentagramm und 100288 Tirawoner. Das waren knapp 2% der damaligen Gesamtbevölkerung Eresseas. Die Heere bestanden hauptsächlich aus Elfen, Zwergen und Halblingen (zusammen über 80%). Das größte Einzelheer bestehend aus 32554 Elfen stellten die Garan-Elfen die praktisch alle mit Elfenbögen bewaffnet waren, sicherlich ein entscheidender Faktor für den Sieg Tirawons. Erwähnenswert sind auch die fast 6000 Dämonen, die auf der Seite Tirawons kämpften, kein einziger von ihnen fiel im Kampf.
+La bataille entre Pentagramm et Tirawon est considérée comme l'une des plus grandes jamais livrées dans Eressea.  
+Au total, 182 686 personnes se sont rencontrées dans le plan Astral au-dessus du 6ème Monde, 82 398 de Pentagramm et 100 288 de Tirawon.  
+Cela représentait à l’époque près de 2 % de la population totale d’Eressea.  
 
-Einmalig ist wohl die Tatsache, dass sich [Igjarjuk] persönlich -- als [Untoter Wyrm] auferstanden -- herabließ, das Pentagramm zu unterstützen. Die Ströme von Blut, die ihm dafür versprochen wurden, sind geflossen. Vielleicht nicht ganz so, wie sich das Pentagramm das erhofft hatte. Letzten Endes konnte aber selbst Igjarjuk das Blatt nicht wenden. Sein (erneuter) Tod setzte den Schlußpunkt unter diese Schlacht.
+Les armées étaient principalement composées d'elfes, de nains et de halflings (ensemble plus de 80 %).  
+La plus grande armée composée de 32 554 elfes était celle des elfes Garan, qui étaient pratiquement tous armés d'[arcs elfiques], certainement un facteur décisif dans la victoire de Tirawon.  
+Il convient également de mentionner les près de 6 000 démons qui ont combattu aux côtés de Tirawon, et aucun d'entre eux n'est tombé au combat.  
 
-Die Schlacht endete mit einem triumphalen Sieg Tirawons. Auf Seiten des Pentagramms fielen 76189 Personen, 6209 flohen. Tirawon hatte lediglich 1192 Tote zu beklagen.
+Ce qui est peut-être unique, c'est le fait que [Igjarjuk] personnellement – ​​ressuscité sous le nom de [Wyrm Mort-Vivant] – a daigné soutenir Pentagramm.
+Les rivières de sang qui lui étaient promises en retour ont coulé.  
+Peut-être pas tout à fait comme Pentagramm l’avait espéré.  
 
-Bemerkung: (\*) Um es nicht unnötig kompliziert zu machen, sprechen wir auch dann von Personen, wenn es sich um Vertraute oder Monster handelt.
+En fin de compte, même Igjarjuk n’a pas pu inverser la tendance.  
+Sa mort (encore) marque la fin de cette bataille.  
 
-## Beteiligte Parteien
+La bataille s'est terminée par la victoire triomphale de Tirawon.  
+Du côté de Pentagramm, 76 189 personnes sont tombées et 6 209 ont pris la fuite.  
+Tirawon n’a enregistré que 1 192 morts.  
 
-Laut Kampfbericht waren die folgenden Parteien beteiligt. Es ist nicht auszuschließen, dass einige Teilnehmer unter [falschem Banner] an dieser Schlacht teilnahmen. Wahrscheinlichster Kandidat ist der Nebelmeermensch Gornt (mwq4), der sich als Tänzer im Sturm ausgab, aber höchstwahrscheinlich ein Aquazone war.
+Note : afin de ne pas compliquer inutilement les choses, on parle de personnes même s'il s'agit de familiers ou de monstres.
 
-Auf Seiten **Tirawons** kämpften 15 Völker:
+## Factions impliquées
 
-- Heer 0: Der Flammenorden (gLut) -- 5927 Dämonen
-- Heer 3: Garan-Elfen (ii) -- 32554 Elfen
-- Heer 4: Ritter des verlorenen Schwerts (j9) -- 11271 Zwerge
-- Heer 5: Söhne von Armathorn (sva) -- 7543 Menschen
-- Heer 25: Die Kurzen aus der Steppe (i2) -- 1863 Halblinge
-- Heer 26: Träumende Steine (trst) -- 1400 Trolle
-- Heer 28: Die kleinen Hobbits (i7) -- 6592 Halblinge
-- Heer 29: Naugrim (naug) -- 5052 Zwerge
-- Heer 30: Tänzer im Sturm (jL) -- 1596 Meermenschen
-- Heer 31: Rollo's gehorsame Kinder (roLo) -- 1671 Zwerge
-- Heer 32: Skarsniks Clan der Blauschaedel (hs) -- 4154 Gobelins
-- Heer 33: Elfen des verschwiegenen Waldes (fb) -- 9000 Elfen
-- Heer 34: Die wahren Diener der heiligen Nuß (nuss) -- 8407 Zwerge
-- Heer 35: Nelvin (neLv) -- 2508 Halblinge
-- Heer 36: Der Feuerschwarm (erob) -- 750 Insekten
+Selon le rapport de bataille, les factions suivantes étaient impliquées.  
+Il ne peut être exclu que certains participants aient pris part à cette bataille sous [[cmd-hide|fausse bannière]].  
+Le candidat le plus probable est le Mist Sea Man Gornt (mwq4), qui se faisait passer pour un danseur dans la tempête, mais qui était très probablement un Aquazone.  
 
-Auf Seiten des **Pentagramms** kämpften 20 Völker + Igjarjuk + die Monsterpartei:
+Du côté de **Tirawon**, 15 peuples se sont battus :
 
-- Heer 1: DAS PENTAGRAMM (dpen) -- 9951 Zwerge
-- Heer 2: Vorboten der Verdammnis (f0) -- 19 Dämonen
-- Heer 6: Terranische Hegemonie - Krieger des Pentagramms (the) -- 2428 Trolle
-- Heer 7: Das Pentagramm (pent) -- 21431 Halblinge
-- Heer 8: Valcashri - Auserwählte des Pentagramms (vaL) -- 7247 Katzen
-- Heer 9: Charriu-Solair Drachenmeister des Pentagramms (chs) -- 3036 Elfen
-- Heer 10: Alamostrolle (589) -- 829 Trolle
-- Heer 11: Kinder Quillians (6i) -- 14793 Elfen
-- Heer 12: Aquazonen (aqua) -- 8 Meermenschen, 36 Untote
-- Heer 13: Die Hüter des Einhornwaldes (fari) -- 2826 Elfen
-- Heer 14: \*Die Hüter des Einhornwaldes (fari) -- 1 Elf
-- Heer 15: Meister der Inseln (mdi) -- 822 Elfen
-- Heer 16: die Tavirin (b1) -- 1070 Halblinge
-- Heer 17: Idolum D. (idod) -- 3123 Insekten
-- Heer 18: Die Völker des Propheten (eike) -- 100 Menschen
-- Heer 19: Die Zwerge von Kosch (kosh) -- 290 Zwerge
-- Heer 20: Flammenkrieger - Vollstrecker des Pentagramms (dq) -- 5767 Zwerge
-- Heer 21: Tuks (tukz) -- 4 Halblinge
-- Heer 22: Grafschaft von Kaltenstein (kaLt) -- 7500 Zwerge
-- Heer 23: Pharaonische Komtur Sued-Mandalay (dh) -- 711 Katzen
-- Heer 24: Sidhe von Zemur (gz) -- 365 Elfen
-- Heer 27: \*Tänzer im Sturm (jL) -- 1 Meermenschen
-- Heer 39: \*Charriu-Solair Drachenmeister des Pentagramms (chs) -- 1 Elf
+<!-- cspell:disable -->
+- Armée 0: Der Flammenorden (gLut) -- 5927 Démons
+- Armée 3: Garan-Elfen (ii) -- 32554 Elfes
+- Armée 4: Ritter des verlorenen Schwerts (j9) -- 11271 Nains
+- Armée 5: Söhne von Armathorn (sva) -- 7543 Humains
+- Armée 25: Die Kurzen aus der Steppe (i2) -- 1863 Halflings
+- Armée 26: Träumende Steine (trst) -- 1400 Trolls
+- Armée 28: Die kleinen Hobbits (i7) -- 6592 Halflings
+- Armée 29: Naugrim (naug) -- 5052 Nains
+- Armée 30: Tänzer im Sturm (jL) -- 1596 Aquariens
+- Armée 31: Rollo's gehorsame Kinder (roLo) -- 1671 Nains
+- Armée 32: Skarsniks Clan der Blauschaedel (hs) -- 4154 Gobelins
+- Armée 33: Elfen des verschwiegenen Waldes (fb) -- 9000 Elfes
+- Armée 34: Die wahren Diener der heiligen Nuß (nuss) -- 8407 Nains
+- Armée 35: Nelvin (neLv) -- 2508 Halflings
+- Armée 36: Der Feuerschwarm (erob) -- 750 Insecten
 
-<!-- -->
+<!-- cspell:enable -->
+Du côté de **Pentagramm** 20 peuples, [Igjarjuk] et la faction des monstres se sont battus :
 
-- Heer 37: Unbekannte Partei (=Monster) -- 38 Hirntöter
-- Heer 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
+<!-- cspell:disable -->
+- Armée 1: DAS PENTAGRAMM (dpen) -- 9951 Nains
+- Armée 2: Vorboten der Verdammnis (f0) -- 19 Démons
+- Armée 6: Terranische Hegemonie - Krieger des Pentagramms (the) -- 2428 Trolls
+- Armée 7: Das Pentagramm (pent) -- 21431 Halflings
+- Armée 8: Valcashri - Auserwählte des Pentagramms (vaL) -- 7247 Chats
+- Armée 9: Charriu-Solair Drachenmeister des Pentagramms (chs) -- 3036 Elfes
+- Armée 10: Alamostrolle (589) -- 829 Trolls
+- Armée 11: Kinder Quillians (6i) -- 14793 Elfes
+- Armée 12: Aquazonen (aqua) -- 8 Aquariens, 36 Morts-Vivants
+- Armée 13: Die Hüter des Einhornwaldes (fari) -- 2826 Elfes
+- Armée 14: Die Hüter des Einhornwaldes (fari) -- 1 Elfe [^1]
+- Armée 15: Meister der Inseln (mdi) -- 822 Elfen
+- Armée 16: die Tavirin (b1) -- 1070 Halflings
+- Armée 17: Idolum D. (idod) -- 3123 Insectes
+- Armée 18: Die Völker des Propheten (eike) -- 100 Humains
+- Armée 19: Die Nains von Kosch (kosh) -- 290 Nains
+- Armée 20: Flammenkrieger - Vollstrecker des Pentagramms (dq) -- 5767 Nains
+- Armée 21: Tuks (tukz) -- 4 Halflings
+- Armée 22: Grafschaft von Kaltenstein (kaLt) -- 7500 Nains
+- Armée 23: Pharaonische Komtur Sued-Mandalay (dh) -- 711 Chats
+- Armée 24: Sidhe von Zemur (gz) -- 365 Elfes
+- Armée 27: Tänzer im Sturm (jL) -- 1 Aquarien [^1]
+- Armée 39: Charriu-Solair Drachenmeister des Pentagramms (chs) -- 1 Elfe [^1]
 
-Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
+Et :
 
-## Externer Link
+- Armée 37: Faction inconnue (Monstre) -- 38 [Mangeurs de cerveau]
+- Armée 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
+<!-- cspell:enable -->
 
-- [Ausführlicher Bericht aus der Sicht Tirawons]
+## Lien Externes
+
+- [Rapport détaillé du point de vue de Tirawon]
+
+[^1]: factions appearing twice each
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[falschem Banner]: ./cmd-hide.md
-
 [Igjarjuk]: ./monsters.md#igjarjuk
-[Untoter Wyrm]: ./monsters.md#dragons
-[Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[Wyrm Mort-Vivant]: ./monsters.md#igjarjuk
+[Rapport détaillé du point de vue de Tirawon]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[arcs elfiques]: ./war-tables.md#arc-elfique
+[Mangeurs de cerveau]: ./monsters.md#mangeurs-de-cerveau

@@ -79,9 +79,9 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 **Authentifizierung verwenden:** Ja
 
 !!! warning "Achtung"
-    Spätestens ab 30. Mai 2022 funktioniert dies nicht mehr einfach mit dem Gmail-Passwort ([https://support.google.com/accounts/answer/6010255]).
-    Stattdessen muss man ein so genanntes App-Passwort verwenden einrichten.
-    Genaueres verrät die Gmail-Dokumentation: [https://support.google.com/accounts/answer/185833].
+    Spätestens ab 30. Mai 2022 funktioniert dies nicht mehr einfach mit dem Gmail-Passwort ([https://support.google.com/accounts/answer/6010255]).  
+    Stattdessen muss man ein so genanntes App-Passwort verwenden einrichten.  
+    Genaueres verrät die Gmail-Dokumentation: [https://support.google.com/accounts/answer/185833].  
     Anstelle des Gmail-Passworts gibt man in Magellan dann einfach das App-Passwort an.
 
 ## Freenet

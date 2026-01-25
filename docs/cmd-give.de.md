@@ -60,7 +60,7 @@ GIB TEMP 3 7 PERSONEN
 ```
 
 !!! warning "Vorsicht"
-    Zwischen `MACHE TEMP` und `ENDE` stehen Befehle für die neue Einheit - und diese hat kein Geld.
+    Zwischen `MACHE TEMP` und `ENDE` stehen Befehle für die neue Einheit - und diese hat kein Geld.  
     Folgendes funktioniert also nicht:
 
 ```text

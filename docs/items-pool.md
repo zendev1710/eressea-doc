@@ -20,7 +20,7 @@ At the end of the round, the unit will try again to pay for the building from it
 They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [[cmd-give]].
 
 !!! warning "Attention"
-    when `TEMP` units get silver, they also use it to recruit!
+    when `TEMP` units get silver, they also use it to recruit!  
     So if you want them to take silver with themselves to another region, the recruitment silver must also be handed over.
 
 Special rules apply to the maintenance of units: all silver in the region is used here, regardless of previous reservations.  

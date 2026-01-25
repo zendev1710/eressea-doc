@@ -113,8 +113,8 @@ Plantes nécessaires pour concocter cette potion :
 [[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
 !!! note
-    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.
-    L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.
+    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
+    L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.  
     Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
 
 ### Élixir de pouvoir
@@ -233,7 +233,7 @@ Plantes nécessaires pour concocter cette potion :
 - 1 **paysan**
 
 !!! note
-    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.
+    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.  
     Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de *Peasant blood* pour tous les démons.
 
 ### Amour des paysans

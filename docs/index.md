@@ -7,7 +7,8 @@ alias: home
 Welcome to [[eressea]]!
 
 !!! warning "important"
-    The rules described on this site **are not authoritative**.
+    The rules described on this site **are not authoritative**.  
+
     The **official rules** of the game are available in **[this wiki]**.
 
 This site reproduces the rules of the game described in the wiki, **fully translated into English**.

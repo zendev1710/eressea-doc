@@ -17,7 +17,7 @@ Si la perception des victimes et la dissimulation des auteurs sont de même nive
 Si la perception des victimes est plus élevée que la dissimulation des auteurs, ces derniers seront pris sur le fait et identifiés.  
 
 !!! warning "Attention"
-    Les voleurs volent toujours dans la [réserve d'argent].
+    Les voleurs volent toujours dans la [réserve d'argent].  
     Cela signifie que l'argent peut être volé sur d'autres unités qui n'ont pas été directement ciblées par les voleurs.
 
 !!! note

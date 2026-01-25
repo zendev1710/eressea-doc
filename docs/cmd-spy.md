@@ -57,7 +57,7 @@ As a countermeasure, basic training in camouflage helps against many bad spies. 
 It is clear that espionage attempts with many bad units will be noticed with almost 100% certainty.  
 
 !!! warning "Caution"
-    If the game mechanics are changed so that the target unit only calculates a random limit once per round, then the same result applies to all equally good spies, which makes this consideration incorrect.
+    If the game mechanics are changed so that the target unit only calculates a random limit once per round, then the same result applies to all equally good spies, which makes this consideration incorrect.  
     At the moment there are different results for the same spies.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->

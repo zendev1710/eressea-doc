@@ -49,8 +49,8 @@ De nouvelles unités temporaires ne peuvent pas être créées même si la limit
 Il est donc préférable de s'assurer à l'avance que la faction fusionnée respecte la limite courante.  
 
 !!! warning "Attention"
-    Si l'ordre est mal donné, une mort sans reddition peut survenir.
-    Si votre mot de passe est **secret** et que vous souhaitez fusionner avec la faction (enno), l'ordre est :
+    Si l'ordre est mal donné, une mort sans reddition peut survenir.  
+    Si votre mot de passe est **secret** et que vous souhaitez fusionner avec la faction (enno), l'ordre est :  
 
     ```text
     QUIT "secret" FACTION enno
@@ -58,5 +58,6 @@ Il est donc préférable de s'assurer à l'avance que la faction fusionnée resp
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
 
-[Orcs]: ./races.md#orcs
-[Demons]: ./races.md#demons
+[Orcs]: ./races.md#orcs "Orcs"
+[Démons]: ./races.md#demons "Demons"
+[Monstres]: ./monsters.md "Monsters"

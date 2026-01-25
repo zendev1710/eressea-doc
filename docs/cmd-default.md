@@ -181,7 +181,7 @@ Default orders for the week after next if no other orders are sent in for the un
 Here too, the unit would not carry out a long order.
 
 !!! note
-    There is a cap on the number of orders stored for a unit.
+    There is a cap on the number of orders stored for a unit.  
     This is currently 128 orders, which should easily be enough for most purposes.
 
 Player experience (Solthar):

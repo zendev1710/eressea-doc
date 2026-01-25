@@ -255,7 +255,7 @@ Continue reading: [[alchemy|Potions]].
 [Negate Curse]: ./spells-descriptions.md#negate-curse
 [Opfere Kraft]: ./spells-descriptions.md#opfere-kraft
 [Path of Trees]: ./spells-descriptions.md#path-of-trees
-[Pentagramm]: ./spells-descriptions.md#pentagramm
+[Pentagramm]: ./spells-descriptions.md#pentagram
 [Protection from Magic]: ./spells-descriptions.md#protection-from-magic
 [Protective Runes]: ./spells-descriptions.md#protective-runes
 [Rain Dance]: ./spells-descriptions.md#rain-dance

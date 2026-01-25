@@ -16,7 +16,7 @@ As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all
 However, it is possible to order multiple units to `LEARN MAGIC "<magic school>"` if you are unsure which unit will come first.  
 
 !!! note
-    Once a magic school has been chosen, **it cannot be changed**.
+    Once a magic school has been chosen, **it cannot be changed**.  
     Therefore, this decision needs to be carefully considered!
 
 There can be a **maximum of five magician units per faction**;
@@ -36,15 +36,15 @@ So an untrained magician pays 100 Silver for his first lessons;
 If he already has level 5 in magic skill, he has to pay 1100 Silver per week of learning.  
 
 !!! warning "Caution"
-    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.
-    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2.
-    A goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).
+    The learning cost always refers to the level learned before any racial bonuses or penalties are applied.  
+    So an elf pays 100 and not 200 silver for her first learning attempt that brings her to T2.  
+    A goblin with his -1 pays 200 silver for the second learning attempt even though he is still at level 0 (The system evaluates it as T1 -1 = 0).  
 
 !!! info "Caution, dwarves"
-    You have -2 to magic skill.
-    A unit that appears as Magic 0 may actually be at T1 or T2.
-    In the latter case, however, the learning costs increase to 350 silver!
-    There is no way to know which of the two is true. So it's better to plan a little more generously.
+    You have -2 to magic skill.  
+    A unit that appears as Magic 0 may actually be at T1 or T2.  
+    In the latter case, however, the learning costs increase to 350 silver!  
+    There is no way to know which of the two is true. So it's better to plan a little more generously.  
 
 Learning in an [Academy] costs twice as much.
 Only magicians from the same area of ​​magic as the teacher can be taught.

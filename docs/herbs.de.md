@@ -26,8 +26,8 @@ viele = Weniger als 90
 sehr viele = Ab 90
 
 !!! warning "Achtung"
-    gepflückte Kräuter halten nicht ewig.
-    Sie verrotten im Laufe der Zeit.
+    gepflückte Kräuter halten nicht ewig.  
+    Sie verrotten im Laufe der Zeit.  
 
 ## Kräuterliste
 

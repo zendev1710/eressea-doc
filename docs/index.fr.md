@@ -7,7 +7,8 @@ alias: accueil
 Bienvenue dans [[eressea]] !
 
 !!! warning "important"
-    Les règles décrites sur ce site **ne font pas autorité**.
+    Les règles décrites sur ce site **ne font pas autorité**.  
+
     Les **règles officielles** et de référence du jeu sont disponibles dans **[ce wiki]**.
 
 Ce site reprend les règles du jeu décrites dans le wiki, **entièrement traduites en français**.

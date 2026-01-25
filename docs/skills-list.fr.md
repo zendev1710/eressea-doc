@@ -168,7 +168,7 @@ On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
 Pour la prospection, on ne voit pas plus que la couche (niveau en mining X 2). Si la couche est plus profonde on ne verra rien.
 
 !!! note
-    L'extraction de [[laen]] nécessite une [mine] et une compétence de **niveau 7**.
+    L'extraction de [[laen]] nécessite une [mine] et une compétence de **niveau 7**.  
     L'extraction d'[[adamantium]] nécessite une [mine] et une compétence de **niveau 7**.
 
 ## Fabrication d'armes

@@ -19,7 +19,7 @@ Your units will accept all items and silver from the other faction.
 It is similar to a permanent [[cmd-contact]] for [[cmd-give]].
 
 !!! warning "Attention !"
-    For giving persons or units to another faction with the orders [[cmd-give|`GIVE <their-unit> <number> MEN`]] or [[cmd-give|`GIVE <their-unit> UNIT`]], the receiving faction must use the [[cmd-contact]] order!
+    For giving persons or units to another faction with the orders [[cmd-give|`GIVE <their-unit> <number> MEN`]] or [[cmd-give|`GIVE <their-unit> UNIT`]], the receiving faction must use the [[cmd-contact]] order!  
     Also for targeted spells, `CONTACT` is necessary.
 
 ## `HELP COMBAT`

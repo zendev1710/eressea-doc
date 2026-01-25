@@ -69,7 +69,9 @@ Si une autre unité a besoin de ces marchandises, elle peut les récupérer (ave
 Il est important que l'entrepôt soit prioritaire car [[cmd-reserve]] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède. De plus, cela permet de visualiser en un coup d'œil les objets disponibles.
 
 !!! tip
-     Si l'entrepôt adopte un camouflage permanent, le stock devrait échapper à un espion peu compétent, errant ou nageant, appartenant à une faction hostile. Une autre théorie suggère un niveau de perception élevé pour rendre l'entrepôt difficile à piller ; toutefois, un bon observateur de la même faction, en plus de la présence de l'entrepôt lui-même, suffirait également à empêcher le vol.
+    Si l'entrepôt adopte un camouflage permanent, le stock devrait échapper à un espion peu compétent, errant ou nageant, appartenant à une faction hostile.  
+    Une autre théorie suggère un niveau de perception élevé pour rendre l'entrepôt difficile à piller;  
+    toutefois, un bon observateur de la même faction, en plus de la présence de l'entrepôt lui-même, suffirait également à empêcher le vol.
 
 ## Escaping death by starvation
 

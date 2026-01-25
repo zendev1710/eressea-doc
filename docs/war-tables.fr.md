@@ -189,10 +189,10 @@ Elles atteignent **6** cibles.
 - Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence *Combat à mains nues* et ne subissent alors aucun malus lorsqu'elles combattent sans arme
 
 !!! info
-    Le « d » signifie « dé ».
-    Un d5 est donc un dé à 5 faces.
-    Le nombre qui précède le « d » indique combien de dés sont lancés.
-    Enfin, une valeur fixe est ajoutée.
+    Le « d » signifie « dé ».  
+    Un d5 est donc un dé à 5 faces.  
+    Le nombre qui précède le « d » indique combien de dés sont lancés.  
+    Enfin, une valeur fixe est ajoutée.  
 
     Un arc (1d11+1) inflige ainsi de 2 à 12 points de dégâts, une hallebarde (2d6+3) de 5 à 15.
 

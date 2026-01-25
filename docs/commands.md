@@ -146,7 +146,7 @@ UNIT schm;               wrought [3,1343$,U250]
 ```
 
 !!! note
-    There is a cap on the number of orders stored for a unit.
+    There is a cap on the number of orders stored for a unit.  
     This is currently 128 orders, which should easily be enough for most purposes.
 
 ## Suppress errors

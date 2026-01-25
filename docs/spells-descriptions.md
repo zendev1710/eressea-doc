@@ -516,7 +516,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST "Create A Sphere of Invisibility"`  
 
-### Create an [[amulet-of-true-sight|Amulet of True Sight]]
+### Create an [[amulet-of-true-sight]]
 
 :   The spell allows a magician to create an [[amulet-of-true-sight]].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
@@ -608,7 +608,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                | Lvl |   Type | Rank | Ship | Dist.              |
 |:---:|---------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  D  | 80 auras, 1 [Drachenkopf] |  11 | Normal |  5   |      | :heavy_check_mark: |
+|  D  | 80 auras, 1 [[dragonhead]] |  11 | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] *Dragon Call`  
 
@@ -1114,7 +1114,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
-### Pentagramm  <!-- TODO -->
+### Pentagram  <!-- TODO -->
 
 :   Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments.  
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  

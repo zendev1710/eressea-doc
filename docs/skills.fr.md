@@ -64,11 +64,11 @@ L'unité s1 est enseignée par l1 et l2 et apprend deux fois plus vite que la no
 L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50 % plus vite.
 
 !!! warning "Attention"
-    Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.
-    Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.
-    Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.
-    Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.
-    Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.
+    Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.  
+    Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.  
+    Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.  
+    Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
+    Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
 [[magie]], [alchimie], [herboristerie], [espionnage] et [[tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.

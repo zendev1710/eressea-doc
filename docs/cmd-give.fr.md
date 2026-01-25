@@ -42,14 +42,14 @@ Avec `GIVE`*`unit-id`*`herb`, toutes les plantes dont dispose l'unité sont remi
 En donnant explicitement l'ordre `GIVE`*`unit-id`*`ALL MEN`, toutes les personnes sont remises et l'unité est dissoute.  
 
 !!! warning "Attention"
-    Tous les objets et l'argent remis avec l'ordre `GIVE` sont automatiquement réservés et ne peuvent plus être transférés depuis la réserve de matériel !
+    Tous les objets et l'argent remis avec l'ordre `GIVE` sont automatiquement réservés et ne peuvent plus être transférés depuis la réserve de matériel !  
     En outre, `GIVE` utilise la [[items-pool|réserve d'objets]], sauf dans le contexte d'un ordre `GIVE ALL`, où l'unité ne donne que ses propres objets, sans réserve.
 
 La variante `GIVE xyz EACH` remet la quantité spécifiée d'objets **par personne** de l’unité cible.  
 Par exemple, si l'unité *xyz* compte 10 personnes, avec l'ordre `GIVE xyz EACH 20 Silver`, il lui transfère au global 200 silver.
 
 !!! tip
-    Avec`@GIVE`, vous pouvez mettre en place des transferts automatiques.
+    Avec`@GIVE`, vous pouvez mettre en place des transferts automatiques.  
     Par exemple, une unité donnant l'ordre `@GIVE abc ALL Iron` remet chaque semaine tout le fer à l'unité *abc*.
 
 ```text
@@ -64,7 +64,7 @@ GIVE TEMP 3 7 MEN
 ```
 
 !!! Attention
-    Entre `MAKE TEMP` et `END` sont spécifiés les ordres pour une unité nouvellement unité,
+    Entre `MAKE TEMP` et `END` sont spécifiés les ordres pour une unité nouvellement unité,  
     mais celle-ci **n'a pas d'argent**.
 
 Par exemple, ce qui suit **ne marche pas** :

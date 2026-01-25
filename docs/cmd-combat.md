@@ -59,17 +59,17 @@ If a guarding unit places `COMBAT FLEE`, the guarding is immediately canceled, w
 Units with the combat status can still move after combat (with [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
 
 !!! warning "Caution"
-    Units with `COMBAT FLEE` or `COMBAT NOT` will fight if they are attacked and the first two rows are overrun.
-    That means magicians also do magic.
-    Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.
-    If you want to prevent this, you can deactivate the [[cmd-combatspell|combat spell status]].
+    Units with `COMBAT FLEE` or `COMBAT NOT` will fight if they are attacked and the first two rows are overrun.  
+    That means magicians also do magic.  
+    Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.  
+    If you want to prevent this, you can deactivate the [[cmd-combatspell|combat spell status]].  
 
 Operating catapults is a task that requires a lot of preparation, so a unit with the combat status `COMBAT NOT` or `COMBAT FLEE` will not fire ammunition, but will use any other weapon if it has one with it and knows how to use it.  
 
 !!! warning "Caution"
-    People with low hit points who have not set `COMBAT FLEE` will only flee if they have taken a hit in combat.
-    Hits whose damage points were completely stopped by the armor and failed hit attempts also count.
-    Of course, people with `COMBAT FLEE` flee beforehand.
+    People with low hit points who have not set `COMBAT FLEE` will only flee if they have taken a hit in combat.  
+    Hits whose damage points were completely stopped by the armor and failed hit attempts also count.  
+    Of course, people with `COMBAT FLEE` flee beforehand.  
 
 ## `COMBAT HELP`
 

@@ -20,7 +20,7 @@ Si l’entité propriétaire du bâtiment ne peut pas le payer de sa poche ou de
 Ils couvrent les frais de recrutement à partir de la réserve d'argent, si nécessaire, mais devraient recevoir de l'argent et des objets qu'ils devraient emporter avec eux dans une autre région ou traiter immédiatement avec [[cmd-give]].
 
 !!! warning "Attention"
-    Lorsque les unités `TEMP` obtiennent de l'argent, elles l'utilisent également pour recruter !
+    Lorsque les unités `TEMP` obtiennent de l'argent, elles l'utilisent également pour recruter !  
     Donc, si vous souhaitez qu'ils emportent de l'argent avec eux dans une autre région, l'argent de recrutement doit également être remis.
 
 Des règles particulières s'appliquent à l'entretien des unités : tout l'argent de la région est utilisé ici, quelles que soient les réservations antérieures.  

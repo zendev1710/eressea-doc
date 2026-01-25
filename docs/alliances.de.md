@@ -19,7 +19,7 @@ Die eigenen Einheiten werden alles annehmen, was alliierte Einheiten ihnen geben
 Dies ist quasi ein ständiges [[bef-kontaktiere]] für [[bef-gib]].
 
 !!! warning "Achtung"
-    Für die Übergabe einzelner Personen oder Einheiten an Einheiten einer anderen Partei mit dem Befehl [[bef-gib|GIB fremder-einheit anzahl PERSONEN]] muss weiterhin der [[bef-kontaktiere]]-Befehl explizit von der Empfänger-Partei benutzt werden!
+    Für die Übergabe einzelner Personen oder Einheiten an Einheiten einer anderen Partei mit dem Befehl [[bef-gib|GIB fremder-einheit anzahl PERSONEN]] muss weiterhin der [[bef-kontaktiere]]-Befehl explizit von der Empfänger-Partei benutzt werden!  
     Ebenso kann für einige Zauber ein [[bef-kontaktiere]] notwendig sein.
 
 ## `HELFE KÄMPFE`

@@ -54,7 +54,7 @@ Allerdings muss immer mehr Aufwand in Tarnung gesteckt werden, als die Spione in
 Klar ist, dass Spionageversuche mit vielen schlechten Einheiten mit fast 100% Sicherheit auffallen werden.
 
 !!! warning "Achtung"
-    Sofern die Spielmechanik dahingehend verändert wird, dass die Zieleinheit nur einmal pro Runde einen zufälligen Grenzwert berechnet, dann gilt für alle gleich guten Spione das gleiche Ergebnis, womit diese Betrachtung hier falsch wird.
+    Sofern die Spielmechanik dahingehend verändert wird, dass die Zieleinheit nur einmal pro Runde einen zufälligen Grenzwert berechnet, dann gilt für alle gleich guten Spione das gleiche Ergebnis, womit diese Betrachtung hier falsch wird.  
     Momentan gibt es aber unterschiedliche Ergebnisse für gleiche Spione.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPIONIERE&oldid=16733] -->

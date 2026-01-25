@@ -49,8 +49,8 @@ New Temp units cannot be created even if the unit limit would be below the limit
 It is therefore better to ensure in advance that the merged faction complies with the current limit.  
 
 !!! warning "Caution"
-    If the order is given incorrectly, a death without surrender can occur.
-    If your password is *secret* and you want to merge with the faction (enno), the order is:
+    If the order is given incorrectly, a death without surrender can occur.  
+    If your password is *secret* and you want to merge with the faction (enno), the order is:  
 
     ```text
     QUIT "secret" FACTION enno

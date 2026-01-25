@@ -59,7 +59,7 @@ Il est par exemple possible de produire 10 boucliers à partir de 5 fers.
 Les forgerons bénéficient également d'un **bonus de compétence de +1** en [fabrication d'armes] et [fabrication d'armures].  
 
 !!! note "important"
-    Les niveaux de compétence ne comptent ensemble que si les personnes sont dans une unité !
+    Les niveaux de compétence ne comptent ensemble que si les personnes sont dans une unité !  
     Cependant, l'unité doit toujours avoir la valeur de compétence minimale
 
 En particulier pour les grandes factions, « collecter » tous les objets nécessaires à la production (par exemple de bâtiments) peut s'avérer fastidieux.  

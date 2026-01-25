@@ -48,7 +48,7 @@ Dann kann die Zielpartei aber keine neuen Einheiten erzeugen, bis sie wieder unt
 Es können auch dann keine neuen Temp-Einheiten erzeugt werden, wenn am Ende der Runde das Einheitenlimit unter der Grenze liegen würde! Es ist also besser, im Vorfeld dafür Sorge zu tragen, dass die fusionierte Partei den aktuellen Grenzwert einhält.
 
 !!! warning "Achtung"
-    Wird der Befehl falsch gegeben, kann es zu einem Stirb ohne Übergabe kommen.
+    Wird der Befehl falsch gegeben, kann es zu einem Stirb ohne Übergabe kommen.  
     Wenn dein Passwort *geheim* lautet und du mit der Partei (enno) fusionieren möchtest, lautet der Befehl dazu:
 
 ```text

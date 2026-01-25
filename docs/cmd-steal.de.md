@@ -14,7 +14,7 @@ Sind Wahrnehmung der Opfer und Tarnung der Täter gleich hoch, gelingt der Diebs
 Ist die Wahrnehmung der Opfer sogar höher als die Tarnung der Täter, werden die Täter auf frischer Tat ertappt und identifiziert.
 
 !!! warning "Achtung"
-    Diebe klauen immer aus dem [Silberpool].
+    Diebe klauen immer aus dem [Silberpool].  
     Dadurch kann auch Silber von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
 
 In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.

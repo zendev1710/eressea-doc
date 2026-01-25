@@ -17,7 +17,7 @@ If the perception of the victims and the concealment of the perpetrators are equ
 If the perception of the victims is even higher than the concealment of the perpetrators, the perpetrators will be caught in the act and identified.  
 
 !!! warning "Caution"
-    Thieves always steal from [silver pool].
+    Thieves always steal from [silver pool].  
     This means that Silver can be stolen from other units that were not directly targeted by the thieves.
 
 !!! note

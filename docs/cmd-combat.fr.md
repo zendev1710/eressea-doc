@@ -61,16 +61,16 @@ Si une unité de garde se place en `COMBAT FLEE`, la garde est immédiatement an
 Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
 
 !!! warning "Attention"
-    Les unités avec `COMBAT FLEE`ou`COMBAT NOT` se battront s'ils sont attaqués et que les deux premières lignes sont débordées.
-    Cela signifie que les magiciens font aussi de la magie.
-    Les sorts pré et post-combat sont (actuellement) lancés même si les lignes de front ne sont pas débordées.
+    Les unités avec `COMBAT FLEE`ou`COMBAT NOT` se battront s'ils sont attaqués et que les deux premières lignes sont débordées.  
+    Cela signifie que les magiciens font aussi de la magie.  
+    Les sorts pré et post-combat sont (actuellement) lancés même si les lignes de front ne sont pas débordées.  
     Si vous souhaitez éviter cela, vous pouvez désactiver le [[cmd-combatspell|statut des sorts de combat]].
 
 Faire fonctionner des catapultes est une tâche qui demande beaucoup de préparation, donc une unité ayant le statut de combat `COMBAT NOT` ou `COMBAT FLEE` ne tirera pas de munitions, mais utilisera toute autre arme si elle en possède une et sait s'en servir.
 
 !!! warning "Attention"
-    Les personnes avec **peu de points de vie** qui ne sont pas en `COMBAT FLEE` fuiront dès qu’ils auront été touchés au combat.
-    Les coups dont les points de dégâts ont été complètement stoppés par l'armure et les tentatives de coup ratées comptent également.
+    Les personnes avec **peu de points de vie** qui ne sont pas en `COMBAT FLEE` fuiront dès qu’ils auront été touchés au combat.  
+    Les coups dont les points de dégâts ont été complètement stoppés par l'armure et les tentatives de coup ratées comptent également.  
     Bien entendu, les personnes ayant `COMBAT FLEE` fuient avant.
 
 ## `COMBAT HELP`

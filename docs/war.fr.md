@@ -73,9 +73,10 @@ Expérience de jeu :
 
 En fait, c'est encore un peu plus compliqué.  
 
-**Attention :**
-Des statuts d'aide ou des ordres `ATTACK` mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue.  
-Des alliés sont restés sans rien faire ou se sont même battus entre eux.  
+!!! warning "Attention"
+    Des statuts d'aide ou des ordres `ATTACK` mal définis ont déjà donné lieu à des combats dont l'issue n'était pas celle attendue.  
+    Des alliés sont restés sans rien faire ou se sont même battus entre eux.  
+
 Quelques astuces permettent d'éviter les plus grosses bourdes :
 
 - Tu devrais régulièrement vérifier les statuts d'aide pour tous tes alliés.
@@ -403,7 +404,7 @@ Les unités en fuite échappent au combat, mais restent à une distance sûre de
 Si l'unité se trouvait dans un bâtiment ou sur un bateau à terre, elle le quitte dès qu'une personne de l'unité s'est enfuie pendant la bataille.
 
 !!! note
-    Il peut être utile d'ordonner aux occupants d'un château (ou d'un bateau) de réintégrer leur propre château (ou bateau), ce qu'ils pourront peut-être faire après la bataille.
+    Il peut être utile d'ordonner aux occupants d'un château (ou d'un bateau) de réintégrer leur propre château (ou bateau), ce qu'ils pourront peut-être faire après la bataille.  
     Pensez également à remettre le commandement à la bonne unité avec [[cmd-give|`GIVE COMMAND`]].
 
 ### Statut de combat `FLEE`

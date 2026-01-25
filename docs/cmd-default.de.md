@@ -178,8 +178,8 @@ Defaultbefehle der übernächsten Woche, wenn sonst keine Befehle für die Einhe
 Auch hier würde die Einheit also dann keinen langen Befehl ausführen.
 
 !!! note
-    Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden.
-    Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.
+    Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden.  
+    Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.  
 
 Spielererfahrung (Solthar):
 

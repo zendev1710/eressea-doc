@@ -31,7 +31,7 @@ For prospecting you can only see layers up to (mining level X 2).
 If the layer is deeper, you won't see anything.
 
 !!! note
-    [[laen]] mining needs a [mine] and a skill level of **7**.
+    [[laen]] mining needs a [mine] and a skill level of **7**.  
     [[adamantium]] mining needs a [mine] and a skill level of **8**.
 
 ## Bow

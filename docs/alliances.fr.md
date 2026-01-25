@@ -19,8 +19,8 @@ Tes unités accepteront tous les objets et l'argent de l'autre faction.
 Cela équivaut à un [[cmd-contact]] permanent pour [[cmd-give]].
 
 !!! warning "Attention !"
-    Pour transférer des personnes ou* des unités à une autre faction avec les ordres [[cmd-give|`GIVE <leur-unité> <nombre> MEN`]] ou [[cmd-give|`GIVE <leur-unité> UNIT`]], la faction destinataire doit utiliser l’ordre [[cmd-contact]] !
-    L’ordre `CONTACT` est également nécessaire pour les sorts ciblés.
+    Pour transférer des personnes ou* des unités à une autre faction avec les ordres [[cmd-give|`GIVE <leur-unité> <nombre> MEN`]] ou [[cmd-give|`GIVE <leur-unité> UNIT`]], la faction destinataire doit utiliser l’ordre [[cmd-contact]] !  
+    L’ordre `CONTACT` est également nécessaire pour les sorts ciblés.  
 
 ## `HELP COMBAT`
 

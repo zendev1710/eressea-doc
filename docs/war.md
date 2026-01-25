@@ -79,8 +79,8 @@ In this case they help each other against C (even if they are not allied), since
 Player experience:In fact, it's even more complicated.
 
 !!! warning
-    Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes.
-    Allies have stood by and done nothing or have even fought amongst themselves.
+    Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes.  
+    Allies have stood by and done nothing or have even fought amongst themselves.  
 
 There are a few tips to help you **avoid the biggest blunders**:
 
@@ -242,7 +242,7 @@ Against ranged weapons, those being attacked only defend with half their skill l
 Units in the front row defend with their full skill level if the ranged combatant is also in the front row.
 
 !!! warning "Attention"
-    If a ranged fighter gets into the front line (e.g. because it has been [overrun][combat rows]), they must defend themselves with a melee weapon.
+    If a ranged fighter gets into the front line (e.g. because it has been [overrun][combat rows]), they must defend themselves with a melee weapon.  
     If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves [unarmed][2]!
 
 Catapults require ammunition.  
@@ -384,7 +384,7 @@ Fleeing units evade combat, but remain at a safe distance from the fighting in t
 If the unit was in a building or on a ship on land, it leaves this as soon as a person from the unit has fled during the battle.
 
 !!! note
-    It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.
+    It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.  
     It should be noted that the command should also be handed back to the correct unit with [[cmd-give|`GIVE COMMAND`]].
 
 Special rules apply to units with the FLEE status.  

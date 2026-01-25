@@ -58,7 +58,7 @@ Cependant, il faut toujours déployer plus d’efforts pour le camouflage que le
 Il est clair que les tentatives d'espionnage impliquant de nombreuses unités malveillantes seront détectées avec une certitude de presque 100 %.  
 
 !!! warning "Attention"
-    Si les mécanismes de jeu sont modifiés de manière à ce que l'unité cible ne calcule une limite aléatoire qu'une fois par tour, alors le même résultat s'applique à tous les espions de même qualité, ce qui rend cette considération incorrecte.
+    Si les mécanismes de jeu sont modifiés de manière à ce que l'unité cible ne calcule une limite aléatoire qu'une fois par tour, alors le même résultat s'applique à tous les espions de même qualité, ce qui rend cette considération incorrecte.  
     Actuellement, les résultats sont différents pour des espions de même nature.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->

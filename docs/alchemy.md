@@ -91,7 +91,7 @@ To be made, this potion requires the following herbs:
 
 !!! note
     You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
-    The application of the potion fails if the `Stealth` skill of the acting unit is less or equal to the victim's `Perception` level **+ 2**.
+    The application of the potion fails if the `Stealth` skill of the acting unit is less or equal to the victim's `Perception` level **+ 2**.  
     In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
 
 ### Elixir of power

@@ -77,10 +77,10 @@ Cela sera expliqué (y compris la vidéo) sur [cet autre lien de support GMX].
 <!-- cspell:enable -->
 
 !!! warning "Attention"
-    À partir du 30 mai 2022 au plus tard, cela ne fonctionnera plus simplement avec le mot de passe Gmail ([applications non sécurisées et Gmail]).
-    Au lieu de cela, vous devez configurer ce que l'on appelle un mot de passe d'utilisation de l'application.
-    La documentation Gmail révèle plus de détails : [mot de passe de l'application et Gmail].
-    Au lieu du mot de passe Gmail, vous entrez simplement le mot de passe de l'application dans Magellan.
+    À partir du 30 mai 2022 au plus tard, cela ne fonctionnera plus simplement avec le mot de passe Gmail ([applications non sécurisées et Gmail]).  
+    Au lieu de cela, vous devez configurer ce que l'on appelle un mot de passe d'utilisation de l'application.  
+    La documentation Gmail révèle plus de détails : [mot de passe de l'application et Gmail].  
+    Au lieu du mot de passe Gmail, vous entrez simplement le mot de passe de l'application dans Magellan.  
 
 ## Freenet
 

@@ -72,7 +72,7 @@ However, the jewels can never occupy the entire capacity, which is why a minimum
 This reduces the search to 41*3 or with Pareto-optimal intermediate states to 41 + 24 + 4 = 69 states.  
 
 !!! warning "Attention"
-    If you prioritize the goods instead of evaluating them, then this type of packaging is unlikely to be used.
+    If you prioritize the goods instead of evaluating them, then this type of packaging is unlikely to be used.  
     Then the following applies: highest priority first...
 
 ### Packages

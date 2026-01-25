@@ -41,14 +41,14 @@ With`GIVE`*`unit-id`*`herb` all herbs that the unit has are handed over.
 When you explicitly give the `GIVE`*`unit-id`*`ALL MEN` order, all people are handed over and the unit is dissolved.  
 
 !!! warning "Caution"
-    All items and silver that come with `GIVE` have been handed over, are automatically reserved and can no longer be passed on from the material pool!
+    All items and silver that come with `GIVE` have been handed over, are automatically reserved and can no longer be passed on from the material pool!  
     Also `GIVE` uses the [[items-pool]], except in the context of `GIVE ALL`, where the unit only gives its own, unreserved items.
 
 The variant `GIVE xyz EACH` hands over *number* items per person in the target unit.
 For example, if the unit xyz has 10 people, with `GIVE xyz EACH 20 Silver` order, it transfers her 200 Silver.
 
 !!! tip
-    With `@GIVE` you can set up automatic transfers.
+    With `@GIVE` you can set up automatic transfers.  
     For example, a unit with `@GIVE abc ALL Iron` hand over all the iron to the *abc* unit every week.
 
 ```text
@@ -62,7 +62,7 @@ GIVE TEMP 3 7 MEN
 ; Gives 7 people to the newly created unit TEMP 3.
 ```
 
-!!! Caution
+!!! warning "Caution"
     Between `MAKE TEMP` and `END` there are orders for the new unit - and it has no money.
 
 So the following **doesn't work**:

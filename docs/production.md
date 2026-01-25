@@ -59,7 +59,7 @@ for example they could produce 10 shields from 5 iron.
 They also have a **+1 skill bonus** on the weaponsmithing and armoursmithing skills
 
 !!! note "important"
-    The skill levels only count together if the people are in a unit!
+    The skill levels only count together if the people are in a unit!  
     However, the unit must always have the minimum skill value
 
 Especially for larger factions, “collecting” all the items, e.g. for buildings, can be annoying.

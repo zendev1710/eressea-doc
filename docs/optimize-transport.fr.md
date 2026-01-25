@@ -72,7 +72,7 @@ Cependant, les bijoux ne peuvent jamais occuper la totalité de la capacité, c'
 Cela réduit la recherche à 41*3 ou avec les états intermédiaires Pareto-optimaux à 41 + 24 + 4 = 69 états.
 
 !!! warning "Attention"
-    Si vous priorisez les marchandises au lieu de les évaluer, il est peu probable que ce type de paquet soit utilisé.
+    Si vous priorisez les marchandises au lieu de les évaluer, il est peu probable que ce type de paquet soit utilisé.  
     Alors ce qui suit s'applique : la priorité la plus élevée en premier...
 
 ### Paquets

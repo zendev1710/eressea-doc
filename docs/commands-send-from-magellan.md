@@ -71,9 +71,9 @@ This will be explained (including video) at [this other GMX Support link].
 **Use authentication:** Yes  
 
 !!! warning "Caution"
-    From May 30, 2022 at the latest, this will no longer work simply with the Gmail password ([unsecured applications and Gmail]).
-    Instead, you have to set up a so-called use app password.
-    The Gmail documentation reveals more details: [application password and Gmail].
+    From May 30, 2022 at the latest, this will no longer work simply with the Gmail password ([unsecured applications and Gmail]).  
+    Instead, you have to set up a so-called use app password.  
+    The Gmail documentation reveals more details: [application password and Gmail].  
     Instead of the Gmail password, you simply enter the app password in Magellan.
 
 ## Freenet

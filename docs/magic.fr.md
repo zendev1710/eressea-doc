@@ -16,7 +16,7 @@ En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école 
 Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
 !!! note
-    Une fois qu’une École de Magie a été choisie, **elle ne peut plus être modifiée**.
+    Une fois qu’une École de Magie a été choisie, **elle ne peut plus être modifiée**.  
     Cette décision doit donc être mûrement réfléchie !
 
 Il peut y avoir un **maximum de 5 unités de mages par faction**;
@@ -36,15 +36,16 @@ Ainsi, un mage non formé paie 100 Silver pour ses premiers apprentissages;
 S’il est déjà au niveau 5 en magie, il doit payer 1 100 Silver par semaine d’apprentissage.  
 
 !!! warning "Attention"
-    Le coût d'apprentissage fait toujours référence au niveau appris avant que les bonus ou pénalités raciales ne soient appliqués.
-    Ainsi un elfe paie 100 et non 200 Silver pour sa première tentative d'apprentissage qui l'amène à T2.
-    Un gobelin avec son -1 paie 200 Silver pour la deuxième tentative d'apprentissage même s'il est encore au niveau 0 (le système l'évalue comme T1 -1 = 0).
+    Le coût d'apprentissage fait toujours référence au niveau appris avant que les bonus ou pénalités raciales ne soient appliqués.  
+    Ainsi un elfe paie 100 et non 200 Silver pour sa première tentative d'apprentissage qui l'amène à T2.  
+    Un gobelin avec son -1 paie 200 Silver pour la deuxième tentative d'apprentissage même s'il est encore au niveau 0 (le système l'évalue comme T1 -1 = 0).  
 
 !!! info "message à destination des mains"
-    Vous avez -2 en compétence magique.
-    Une unité qui apparaît avec Magie à 0 peut en réalité être en T1 ou T2.
-    Dans ce dernier cas, cependant, les coûts d’apprentissage s’élèvent à 350 Silver!
-    Il n’y a aucun moyen de savoir lequel des deux est vrai. Il vaut donc mieux planifier un peu plus généreusement.
+    Vous avez -2 en compétence magique.  
+    Une unité qui apparaît avec Magie à 0 peut en réalité être en T1 ou T2.  
+    Dans ce dernier cas, cependant, les coûts d’apprentissage s’élèvent à 350 Silver !  
+    Il n’y a aucun moyen de savoir lequel des deux est vrai.  
+    Il vaut donc mieux planifier un peu plus généreusement.  
 
 Apprendre dans une **[académie]** coûte **deux fois plus cher**.
 

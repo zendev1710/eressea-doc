@@ -23,7 +23,7 @@ Les événements se mesurent en mois et en années (en temps réel) plutôt qu'e
 Néanmoins, de nombreux joueurs attendent chaque semaine avec impatience le prochain tour, et certains sont là depuis des décennies.
 
 !!! note "À l'attention des joueurs francophones"
-    Les règles et explications sont en français, **MAIS pas le jeu**.
+    Les règles et explications sont en français, **MAIS pas le jeu**.  
     Tu devras choisir entre l'anglais (EN) et l'allemand (DE) pour renseigner tes ordres.
 
 Eressea est un jeu vivant !

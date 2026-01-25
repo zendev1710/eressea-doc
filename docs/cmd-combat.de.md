@@ -54,17 +54,17 @@ Setzt eine bewachende Einheit KÄMPFE FLIEHE, wird das Bewachen sofort aufgehobe
 Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit [[bef-nach]], [[bef-route]], [[bef-folge]]).
 
 !!! warning "Achtung"
-    Einheiten mit KÄMPFE FLIEHE oder KÄMPFE NICHT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.
-    Das heißt, Magier zaubern auch.
-    Prä- und Postkampfzauber werden (derzeit) selbst dann gezaubert, wenn die ersten Reihen nicht überrannt werden.
-    Soll dies verhindert werden, kann man die [Kampfzauber] deaktivieren.
+    Einheiten mit KÄMPFE FLIEHE oder KÄMPFE NICHT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.  
+    Das heißt, Magier zaubern auch.  
+    Prä- und Postkampfzauber werden (derzeit) selbst dann gezaubert, wenn die ersten Reihen nicht überrannt werden.  
+    Soll dies verhindert werden, kann man die [Kampfzauber] deaktivieren.  
 
 Katapulte zu bedienen ist eine Aufgabe, die viel Vorbereitung erfordert, daher werden Einheiten mit dem Kampfstatus KÄMPFE NICHT und KÄMPFE FLIEHE keine Munition verschießen, aber zu anderen Waffen greifen, so sie welche dabei haben und beherrschen.
 
 !!! warning "Achtung"
-    Personen mit niedrigen Trefferpunkten, die nicht `KÄMPFE FLIEHE` gesetzt haben, fliehen erst dann, wenn sie im Kampf auch einen Treffer abbekommen haben.
-    Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche.
-    Personen mit `KÄMPFE FLIEHE` fliehen natürlich schon vorher.
+    Personen mit niedrigen Trefferpunkten, die nicht `KÄMPFE FLIEHE` gesetzt haben, fliehen erst dann, wenn sie im Kampf auch einen Treffer abbekommen haben.  
+    Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche.  
+    Personen mit `KÄMPFE FLIEHE` fliehen natürlich schon vorher.  
 
 ## `KÄMPFE HELFE`
 

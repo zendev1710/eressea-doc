@@ -90,12 +90,12 @@ This page lists combat-relevant properties of weapons, armor, and races.
 - Some races (generally only monsters and familiars) can learn the *Unarmed combat* skill and then have no penalty when fighting without a weapon
 
 !!! info
-    The "d" stands for dice.
-    A d5 is therefore a 5-sided die.
-    The number before the "d" indicates how many of these dice are rolled.
-    Finally, a fixed value is added.
+    The "d" stands for dice.  
+    A d5 is therefore a 5-sided die.  
+    The number before the "d" indicates how many of these dice are rolled.  
+    Finally, a fixed value is added.  
 
-    A bow (1d11+1) thus inflicts 2 to 12 damage points, a halberd (2d6+3) 5 to 15.
+    A bow (1d11+1) thus inflicts 2 to 12 damage points, a halberd (2d6+3) 5 to 15.  
 
 Remarks:
 
@@ -237,8 +237,8 @@ It indicates what percentage of magical damage is reduced by combat spells.
 
 !!! note
     All **Mallorn weapons** increase magic resistance by **15%**.  
-    All **Laen weapons and armors** increase magic resistance by **30%**.
-The combination of natural magic resistance, weapon, armor, and shield is not simply added together, but multiplied like the hit chance modification.
+    All **Laen weapons and armors** increase magic resistance by **30%**.  
+The combination of natural magic resistance, weapon, armor, and shield is not simply added together, but multiplied like the hit chance modification.  
 
 An elf with a longsword and full longsword armor (shield + chain) therefore does **not** have 10 + 30 +30 + 30 = 100% resistance but:
 

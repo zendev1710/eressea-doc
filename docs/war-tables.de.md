@@ -46,10 +46,10 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 - Manche Rassen (i.A. nur Monster und [[vertraute]]) können das Talent *Unbewaffneter Kampf* lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen
 
 !!! info
-    d steht für dice, Würfel.
-    Ein d5 ist also ein 5-seitiger Würfel.
-    Die Zahl vor dem d gibt an, wie viele dieser Würfel geworfen werden.
-    Und schließlich wird noch ein Festwert addiert.
+    d steht für dice, Würfel.  
+    Ein d5 ist also ein 5-seitiger Würfel.  
+    Die Zahl vor dem d gibt an, wie viele dieser Würfel geworfen werden.  
+    Und schließlich wird noch ein Festwert addiert.  
 
     Ein Bogen (1d11+1) erreicht also 2 bis 12 Schadenspunkte, eine Hellebarde (2d6+3) 5 bis 15.
 

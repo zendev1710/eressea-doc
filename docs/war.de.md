@@ -40,9 +40,10 @@ Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, 
 Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter.
 
 !!! warning "Achtung"
-    Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde.
-    Freunde blieben plötzlich tatenlos im Lager zurück oder kämpften gar plötzlich gegeneinander.
-    Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
+    Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde.  
+    Freunde blieben plötzlich tatenlos im Lager zurück oder kämpften gar plötzlich gegeneinander.  
+
+Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
 
 - Du solltest regelmäßig deine Helfe-Stati kontrollieren zu allen Verbündeten. Am besten ist HELFE ALLES für alle, mit denen du in einen Kampf geraten *könntest*. Misstrauen tut hier oft weh.
 - Nach Möglichkeit sollte nur eine [[bef-gruppe]] vorhanden sein.

@@ -31,9 +31,9 @@ Die Pools gelten nur für die eigene Partei.
 Fremden Einheiten müssen Gegenstände explizit übergeben werden.
 
 !!! warning "Achtung"
-    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[bef-mache]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[bef-reserviere]], [[bef-gib]], [[bef-benutze]], [[bef-zaubere]], [[bef-rekrutiere]].
-    Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren.
-    Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.
+    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[bef-mache]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[bef-reserviere]], [[bef-gib]], [[bef-benutze]], [[bef-zaubere]], [[bef-rekrutiere]].  
+    Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren.  
+    Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.  
 
 Unerfahrene Parteien sollten den Materialpool gründlich planen, da man leicht Einheiten Ressourcen "klaut", mit denen man nicht rechnete, und somit "beklaute" Einheiten nicht oder nicht genug produzieren kann, während die andere Einheit mehr Ressourcen verbrauchte und mehr produzierte, als beabsichtigt.
 

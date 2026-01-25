@@ -52,7 +52,7 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [cmd-claim]             | X  |    |    | [BEANSPRUCHE]             |       |
 | [cmd-combat]            | X  |    |    | [KÄMPFE]                  |       |
 | [cmd-combatspell]       | X  |    |    | [KAMPFZAUBER]             |       |
-| [cmd-comment]           | X  |    |    | [KOMMENTAR]               |       |
+| [cmd-comment-slash]     | X  |    |    | [KOMMENTAR]               |       |
 | [cmd-contact]           | X  |    |    | [KONTAKTIERE]             |       |
 | [cmd-default]           | X  |    |    | [DEFAULT]                 |       |
 | [cmd-describe]          | X  |    |    | [BESCHREIBE]              |       |
@@ -96,7 +96,7 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [cmd-ride]              | X  |    |    | [FAHRE]                   |       |
 | [cmd-route]             | X  |    |    | [ROUTE]                   |       |
 | [cmd-sell]              | X  |    |    | [VERKAUFE]                |       |
-| [cmd-comment]         | X  | N  | N  | [;]                       |       |
+| [cmd-comment]           | X  | N  | N  | [;]                       |       |
 | [cmd-show]              | X  |    |    | [ZEIGE]                   |       |
 | [cmd-sort]              | X  | NT | NT | [SORTIERE]                | TBR   |
 | [cmd-spy]               | X  |    |    | [SPIONIERE]               |       |
@@ -117,7 +117,7 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [csmapfx]               | X  | N  | N  | [CSMap]                   |       |
 | [development]           | X  | N  | N  | [entwicklung]             |       |
 | [echeck]                | X  | N  | N  | [echeck]                  |       |
-| [ehmv]                  | X  | N  | N  | [EHMV]                    |       |
+| [ehmv]                  | X  | N  | N  | [EHMV ext]                |       |
 | [eressea-join]          | X  | N  | N  | [eressea:mitmachen]       |       |
 | [eressea-story]         | X  | N  | N  | [Geschichte_von]          |       |
 | [faction-pool]          | X  | NT | NT | [parteipool]              |       |
@@ -233,7 +233,7 @@ Legend:
 [Cerddorzauber]: https://wiki.eressea.de/Cerddorzauber "Cerddorzauber"
 [DEFAULT]: https://wiki.eressea.de/DEFAULT "DEFAULT"
 [Draigzauber]: https://wiki.eressea.de/Draigzauber "Draigzauber"
-[EHMV]: https://wiki.eressea.de/EHMV "EHMV"
+[EHMV ext]: https://wiki.eressea.de/EHMV "EHMV"
 [EINHEIT]: https://wiki.eressea.de/EINHEIT "EINHEIT"
 [EMAIL]: https://wiki.eressea.de/EMAIL "EMAIL"
 [ENDE]: https://wiki.eressea.de/ENDE "ENDE"
@@ -339,7 +339,7 @@ Legend:
 [cmd-claim]: ./cmd-claim.md "cmd-claim"
 [cmd-combat]: ./cmd-combat.md "cmd-combat"
 [cmd-combatspell]: ./cmd-combatspell.md "cmd-combatspell"
-[cmd-comment]: ./cmd-comment-slash.md "cmd-comment"
+[cmd-comment-slash]: ./cmd-comment-slash.md "cmd-comment"
 [cmd-contact]: ./cmd-contact.md "cmd-contact"
 [cmd-default]: ./cmd-default.md "cmd-default"
 [cmd-describe]: ./cmd-describe.md "cmd-describe"

@@ -1,11 +1,3 @@
----
-# alias:
-#  name: 
-#  text: 
-# category:
-# tags:
-#  - magie
----
 # eressea-doc
 
 MkDocs project for Eressea documentation.

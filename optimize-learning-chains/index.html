@@ -4866,10 +4866,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#lernketten-analyse" class="md-nav__link">
+  <a href="#learning-chain-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Lernketten-Analyse
+        Learning chain analysis
       
     </span>
   </a>
@@ -7617,10 +7617,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#lernketten-analyse" class="md-nav__link">
+  <a href="#learning-chain-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Lernketten-Analyse
+        Learning chain analysis
       
     </span>
   </a>
@@ -7757,142 +7757,142 @@
 <h1 id="optimization-of-learning-chains">Optimization of learning chains<a class="headerlink" href="#optimization-of-learning-chains" title="Permanent link">&para;</a></h1>
 <h2 id="preliminary-considerations">Preliminary considerations<a class="headerlink" href="#preliminary-considerations" title="Permanent link">&para;</a></h2>
 <p>The first thing you should do when optimizing learning chains is to be clear about which assignments of teachers to students you prefer.<br />
-Only then can you either create a set of rules (so-called expert knowledge) or write an optimization algorithm that produces the best or at least the best possible state (assignments of teachers and students).</p>
+Only then can you either create a set of rules (so-called expert knowledge) or write an optimization algorithm that produces the best or at least the best possible state (assignments of teachers and students).  </p>
 <p>All other approaches I have seen so far belong more to the category of expert knowledge.<br />
-The Techer plugin from Magellan or the FF tools (2) should be mentioned here.<br />
+The Teacher plugin from Magellan or the FF tools (2) should be mentioned here.<br />
 The units are sorted according to a criterion and then processed.<br />
 The assignments are created successively.<br />
 An evaluation or comparison of different options only takes place at the lowest level.</p>
-<p>This approach is by no means bad as it delivers good results in a great time.
-In addition, the rules are clear and understandable and no one will be surprised why an assignment was made.</p>
-<p>But I would also like to point out another possibility here: each partial state can be evaluated with a cost or profit and an estimation function, similar to route finding.
-This means that a usually unattainable optimum can be defined to which one tries to trim the assignments.
-The most important thing is the cost or profit function and then the estimation function derived from it.</p>
+<p>This approach is by no means bad as it delivers good results in a great time.<br />
+In addition, the rules are clear and understandable and no one will be surprised why an assignment was made.  </p>
+<p>But I would also like to point out another possibility here: each partial state can be evaluated with a cost or profit and an estimation function, similar to route finding.<br />
+This means that a usually unattainable optimum can be defined to which one tries to trim the assignments.<br />
+The most important thing is the cost or profit function and then the estimation function derived from it.  </p>
 <h2 id="cost-profit-function">Cost - Profit function<a class="headerlink" href="#cost-profit-function" title="Permanent link">&para;</a></h2>
-<p>Learning has costs, I think that is clear to everyone.
-In Eressea it is the silver for maintenance or for the expensive talents.
-If you are taught, the costs remain absolutely the same, but the learning effect is greater.
-So you can say the costs per week of learning are reduced by half -right, not completely, because the teacher also wants to be paid.</p>
-<p>You can also approach it the other way around and maximize the learning gain and assume the costs are constant (which is usually true).
-This case suits us because teaching no longer means infinite costs (since we don't learn anything).</p>
+<p>Learning has costs, I think that is clear to everyone.<br />
+In Eressea it is the silver for maintenance or for the expensive skills.<br />
+If you are taught, the costs remain absolutely the same, but the learning effect is greater.<br />
+So you can say the costs per week of learning are reduced by half -right, not completely, because the teacher also wants to be paid.  </p>
+<p>You can also approach it the other way around and maximize the learning gain and assume the costs are constant (which is usually true).<br />
+This case suits us because teaching no longer means infinite costs (since we don't learn anything).  </p>
 <p>So a simple profit function could return the following values ​​per person (Example 1):</p>
-<div class="highlight"><pre><span></span><code>Teacher            = 0
-Learn without a teacher = 1
-Learns with teacher  = 2
+<div class="highlight"><pre><span></span><code>    Teacher            = 0
+    Learn without a teacher = 1
+    Learns with teacher  = 2
 </code></pre></div>
-<p>I can confirm this much, this function does what you would expect -it ensures that as many students as possible get a teacher.
-Unfortunately, it does not evaluate the talents of teachers or students and thus ensures that sooner or later all units are within a range of 2-3 talent levels.
-It will also happen that a teacher teaches a 2 person unit.</p>
-<p>So, as mentioned at the beginning, it is important to be clear about some boundaries.
-Then these limits, which unfortunately often have the opposite effect, must be integrated into the cost function.</p>
+<p>I can confirm this much, this function does what you would expect -it ensures that as many students as possible get a teacher.<br />
+Unfortunately, it does not evaluate the skills of teachers or students and thus ensures that sooner or later all units are within a range of 2-3 skill levels.<br />
+It will also happen that a teacher teaches a 2 person unit.  </p>
+<p>So, as mentioned at the beginning, it is important to be clear about some boundaries.<br />
+Then these limits, which unfortunately often have the opposite effect, must be integrated into the cost function.  </p>
 <h3 id="limit-cases-for-the-cost-function">Limit cases for the cost function<a class="headerlink" href="#limit-cases-for-the-cost-function" title="Permanent link">&para;</a></h3>
-<p>The first thing you should do is determine how many students a teacher should have at least, even if the talent difference is only 2 levels.
-Furthermore, one should clarify up to which level recruits can be taught, i.e. whether T20s can also teach T0s.
-More generally, one specifies up to which talent difference, depending on the teacher's talent, how many students must be taught at least so that this allocation is more favorable than letting teacher and student learn.
-The best thing to do here is to create a small diagram with the desired line/curve and then develop a function that covers it as well as possible.</p>
+<p>The first thing you should do is determine how many students a teacher should have at least, even if the skill difference is only 2 levels.<br />
+Furthermore, one should clarify up to which level recruits can be taught, i.e. whether T20s can also teach T0s.<br />
+More generally, one specifies up to which skill difference, depending on the teacher's skill, how many students must be taught at least so that this allocation is more favorable than letting teacher and student learn.<br />
+The best thing to do here is to create a small diagram with the desired line/curve and then develop a function that covers it as well as possible.  </p>
 <p>I developed the following function for myself:</p>
-<div class="highlight"><pre><span></span><code>A = 1.2
-B = 15
-C = 0.34
-Teacher            = 0
-Learn without a teacher = (A^Level + B) * (3^C)
-Learns with teacher  = (A^Level + B) * (6^C)
+<div class="highlight"><pre><span></span><code>    A = 1.2
+    B = 15
+    C = 0.34
+    Teacher            = 0
+    Learn without a teacher = (A^Level + B) * (3^C)
+    Learns with teacher  = (A^Level + B) * (6^C)
 </code></pre></div>
-<p>The parameters A, B and C were created after long tests and partly by equating various formulas.
-The formula can also easily be used for brainwax and academy use by substituting the 3 or 6 for the number of learning attempts*3 is replaced.
-So learning with brainpower results in (1 + &#8531;)*3 = 4.</p>
-<p>As you can calculate, learning with a teacher due to factor C is not twice as profitable as without a teacher, but is only worth around 27% more.
-And because the level is included in the formula as a power, you gain much more if you teach 8 high-level people instead of 10 newbies.</p>
+<p>The parameters A, B and C were created after long tests and partly by equating various formulas.<br />
+The formula can also easily be used for <a href="../alchemy/#brain-wax">brain wax</a> and <a href="../buildings-others/#academy">academy</a> use by substituting the 3 or 6 for the number of learning attempts*3 is replaced.<br />
+So learning with brainpower results in (1 + &#8531;)*3 = 4.  </p>
+<p>As you can calculate, learning with a teacher due to factor C is not twice as profitable as without a teacher, but is only worth around 27% more.<br />
+And because the level is included in the formula as a power, you gain much more if you teach 8 high-level people instead of 10 newbies.  </p>
 <h2 id="estimator-function">Estimator function<a class="headerlink" href="#estimator-function" title="Permanent link">&para;</a></h2>
-<p>As mentioned, this should predict the profit as well as possible.
-It is important not to underestimate the optimum.
-But where is our optimum? Apparently not all people can be taught without there being a teacher.
-This means that we can assume that each unit is taught in its entirety, but at the same time we have to deduct the minimum that a teacher could have achieved as profit.
+<p>As mentioned, this should predict the profit as well as possible.<br />
+It is important not to underestimate the optimum.<br />
+But where is our optimum? Apparently not all people can be taught without there being a teacher.<br />
+This means that we can assume that each unit is taught in its entirety, but at the same time we have to deduct the minimum that a teacher could have achieved as profit.<br />
 A very good approximation for this results from:</p>
-<p>Estimated Profit = Learn_with_Teacher(Level) -0.1 *Learn_with_Teacher(Level+2) + 0.01 *Learn_with_Teacher(Level+4)</p>
-<p>This means we are definitely slightly above the possible optimum.</p>
+<p>Estimated Profit = Learn_with_Teacher(Level) -0.1 *Learn_with_Teacher(Level+2) + 0.01 *Learn_with_Teacher(Level+4)  </p>
+<p>This means we are definitely slightly above the possible optimum.  </p>
 <h2 id="a-search">A* Search<a class="headerlink" href="#a-search" title="Permanent link">&para;</a></h2>
-<p>The A*-Search is probably familiar to some people from wayfinding.
-In short, there are one or more target states, many intermediate states and of course a starting state somewhere.
-These states are connected by edges.
-If you walk along an edge you incur costs (or generate profit -depending on how you look at it).
-A path is sought in the state graph that causes minimum costs or maximum profit.</p>
-<p>The A*Search optimizes the search in the graph by not searching all possible paths, but rather specifically pursuing paths that have low estimated costs /high estimated profits.</p>
-<p>How good the A*-Search works, so it depends heavily on the accuracy of the estimator.
-Accuracy means how close the estimated value is to the actual optimal value.</p>
+<p>The A*-Search is probably familiar to some people from way-finding.<br />
+In short, there are one or more target states, many intermediate states and of course a starting state somewhere.<br />
+These states are connected by edges.<br />
+If you walk along an edge you incur costs (or generate profit -depending on how you look at it).<br />
+A path is sought in the state graph that causes minimum costs or maximum profit.  </p>
+<p>The A*Search optimizes the search in the graph by not searching all possible paths, but rather specifically pursuing paths that have low estimated costs /high estimated profits.  </p>
+<p>How good the A*-Search works, so it depends heavily on the accuracy of the estimator.<br />
+Accuracy means how close the estimated value is to the actual optimal value.  </p>
 <h3 id="learning-states">Learning states<a class="headerlink" href="#learning-states" title="Permanent link">&para;</a></h3>
-<p>It is now difficult to specify the states for this case of learning system optimization.
-It is important to distinguish whether a unit is learning or teaching, how many students it has, or how many of its own people are being taught.
-The question of whether you care about which students a teacher has becomes more difficult.
-If the teachers are at the same level, it generally doesn't matter who teaches which student.
-Unfortunately, this is not practical, as each teacher can only have one student who is taught by several teachers (namely the last one), unless you specify all students for each teacher, but we don't want that either (but it would probably work on the server side).</p>
-<p>When constructing the states, you have to be careful not to produce two comparable states, as this can make the search space much larger.
-Unfortunately, this happens very often, as it is not uncommon for there to be several equally good and equally large teaching units.
-It helps here to only allow such teachers in a defined order.
-Of course, such units should be taught in exactly the reverse order if possible.</p>
-<p>What you quickly notice is that the number of states (i.e. possible combinations) grows exponentially.
-Without A*-Search a result would be unthinkable.
-Unfortunately, the A*-Searching for more than 10 units still takes quite a long time, you let them search for the very best target state.</p>
-<p>Only by "blinders" did I manage to get the algorithm to a very good result in a reasonable amount of time.
-This result often corresponds to the optimum.
-In some cases, however, the algorithm misses opportunities.
-This has to do with the construction mechanism of the states.
-I don't create all possible combinations for a teacher to teach students, but only those in which the next free units are searched top-down.
-This generally works quite well, but in exceptional cases a better condition is “overlooked”.</p>
+<p>It is now difficult to specify the states for this case of learning system optimization.<br />
+It is important to distinguish whether a unit is learning or teaching, how many students it has, or how many of its own people are being taught.<br />
+The question of whether you care about which students a teacher has becomes more difficult.<br />
+If the teachers are at the same level, it generally doesn't matter who teaches which student.<br />
+Unfortunately, this is not practical, as each teacher can only have one student who is taught by several teachers (namely the last one), unless you specify all students for each teacher, but we don't want that either (but it would probably work on the server side).  </p>
+<p>When constructing the states, you have to be careful not to produce two comparable states, as this can make the search space much larger.<br />
+Unfortunately, this happens very often, as it is not uncommon for there to be several equally good and equally large teaching units.<br />
+It helps here to only allow such teachers in a defined order.<br />
+Of course, such units should be taught in exactly the reverse order if possible.  </p>
+<p>What you quickly notice is that the number of states (i.e. possible combinations) grows exponentially.<br />
+Without A*-Search a result would be unthinkable.<br />
+Unfortunately, the A*-Searching for more than 10 units still takes quite a long time, you let them search for the very best target state.  </p>
+<p>Only by "blinders" did I manage to get the algorithm to a very good result in a reasonable amount of time.<br />
+This result often corresponds to the optimum.<br />
+In some cases, however, the algorithm misses opportunities.<br />
+This has to do with the construction mechanism of the states.<br />
+I don't create all possible combinations for a teacher to teach students, but only those in which the next free units are searched top-down.<br />
+This generally works quite well, but in exceptional cases a better condition is “overlooked”.  </p>
 <h2 id="static-learning-chains">Static learning chains<a class="headerlink" href="#static-learning-chains" title="Permanent link">&para;</a></h2>
-<p>So far we have discussed how to schedule existing units as teachers/students.
-Now it's about which unit structure you should form so that teaching and learning can be coordinated as well as possible.
-Some typical teacher-student chains are presented and discussed below:</p>
+<p>So far we have discussed how to schedule existing units as teachers/students.<br />
+Now it's about which unit structure you should form so that teaching and learning can be coordinated as well as possible.<br />
+Some typical teacher-student chains are presented and discussed below.  </p>
 <h3 id="typical-learning-chains">Typical learning chains<a class="headerlink" href="#typical-learning-chains" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Simple teacher-student chain</strong> --consisting of a teacher unit (L) and a student unit (S) with 10*|L|=|S|.
-  The teachers learn until they are two talent levels ahead, then they teach the students.
-  When students are not studying, they do other activities.
-  Disadvantage: slow learning pace, advantages: only two units are required, easy to automate.
-  Useful for units where learning is not a priority, e.g. for miners who mainly only learn to reach deeper ore layers, or for tax collectors who gradually increase their combat skills in order to be able to fight smaller groups of monsters independently.</li>
-<li><strong>Pyramid</strong> --Further development of the simple teacher-student chain, consisting of a teacher unit (L) and several layers of student units (S1, S2,...) with 10*|L|=|S1|, 10*|S1|=|S2|... 
-  If the aim is to minimize costs when learning [expensive talents], then the teacher learns and then teaches the first student unit (S1).
-  These then teach S2 etc. Students only learn when they are taught.
-  Although this minimizes costs, it is faster if the students in the intermediate shifts learn even if they do not have a teacher.
-  However, it doesn't make sense if that too*lowest*Student shift learns without a teacher.
-  In the medium term, this will mean that there will be almost no teaching at all, because no layer will be able to achieve a talent advantage over the next lower level.
-  If you want, you can skip the whole pyramid structure and just have a unit learn without a teacher.
-  The more layers a pyramid has, the faster it learns.
-  Since the number of people required increases by a factor of 10 with each shift, there are limits to the height of the pyramid.</li>
-<li><strong>Pyramid with double peak</strong> --The teacher unit at the top of a pyramid learns at least two-thirds of the time and can teach at most one-third of the time. 
-  However, it would be ideal if the first student unit learned half of the time (and passed on their knowledge in the other half).
-  This leads to the idea of ​​using not just one teacher unit at the top but two.
-  The hope that two teachers could then take turns teaching two-thirds of the time turns out to be deceptive.
-  But you can achieve an increase in learning speed.
-  More detailed analyzes show that a pyramid with a double top achieves the same learning speed as a normal pyramid that has one more layer.
-  The pyramid with a double top is somewhat less efficient (i.e. people have relatively less time to do anything other than study), but it works with fewer people.</li>
-<li><strong>Pyramid of 5</strong> --The 5 pyramid works as the name suggests with a factor of 5 in unit sizes. 
-  In return, a teacher always teaches 2 units and thus has 10 times the number of students.
-  This system can be staggered over any number of levels.
-  The top level ideally has 6 units of the same size.
-  The second level has 3 units of 5 times the size, the third level has 3 units of 25 times the size.
-  One unit teaches each of the intermediate levels and two are taught.
-  At the top level, one person teaches and the other 5 units learn without a teacher, but with brain power and/or an academy.</li>
-<li><strong>Learning from two talents</strong> --Combat units (S) usually learn two talents, their [Weapon Talent and Stamina]. 
-  It also turns out to be useful for various teachers (L_K,L_A) to use.
-  In principle you have two options: The teachers are specialists and only learn one talent.
-  Although this is better in terms of learning speed, such specialists are very vulnerable (or unusable) in the event of a fight.
-  Alternatively, choose |S|=9*|L_K|=9*|L_A|.
-  L_K learns the combat talent and then teaches S and L_A
-  L_A learns endurance and then teaches S and L_K</li>
-<li>Pyramids with two talents --There are countless possible combinations here. 
-  The greatest learning speeds are achieved when all but the lowest layer are doubled, e.g. L_K,L_A,S1_K,S1_A,S2_K,S2_A,S3.
-  Of course, you also need a lot of units for this.</li>
+<li><strong>Simple teacher-student chain</strong> --consisting of a teacher unit (L) and a student unit (S) with 10*|L|=|S|.<br />
+  The teachers learn until they are two skill levels ahead, then they teach the students.<br />
+  When students are not studying, they do other activities.<br />
+  Disadvantage: slow learning pace, advantages: only two units are required, easy to automate.<br />
+  Useful for units where learning is not a priority, e.g. for miners who mainly only learn to reach deeper ore layers, or for tax collectors who gradually increase their combat skills in order to be able to fight smaller groups of monsters independently.  </li>
+<li><strong>Pyramid</strong> --Further development of the simple teacher-student chain, consisting of a teacher unit (L) and several layers of student units (S1, S2,...) with 10*|L|=|S1|, 10*|S1|=|S2|...<br />
+  If the aim is to minimize costs when learning <a href="../skills/">expensive skills</a>, then the teacher learns and then teaches the first student unit (S1).<br />
+  These then teach S2 etc. Students only learn when they are taught.<br />
+  Although this minimizes costs, it is faster if the students in the intermediate shifts learn even if they do not have a teacher.<br />
+  However, it doesn't make sense if that too*lowest*Student shift learns without a teacher.<br />
+  In the medium term, this will mean that there will be almost no teaching at all, because no layer will be able to achieve a skill advantage over the next lower level.<br />
+  If you want, you can skip the whole pyramid structure and just have a unit learn without a teacher.<br />
+  The more layers a pyramid has, the faster it learns.<br />
+  Since the number of people required increases by a factor of 10 with each shift, there are limits to the height of the pyramid.  </li>
+<li><strong>Pyramid with double peak</strong> --The teacher unit at the top of a pyramid learns at least two-thirds of the time and can teach at most one-third of the time.<br />
+  However, it would be ideal if the first student unit learned half of the time (and passed on their knowledge in the other half).<br />
+  This leads to the idea of ​​using not just one teacher unit at the top but two.<br />
+  The hope that two teachers could then take turns teaching two-thirds of the time turns out to be deceptive.<br />
+  But you can achieve an increase in learning speed.<br />
+  More detailed analyzes show that a pyramid with a double top achieves the same learning speed as a normal pyramid that has one more layer.<br />
+  The pyramid with a double top is somewhat less efficient (i.e. people have relatively less time to do anything other than study), but it works with fewer people.  </li>
+<li><strong>Pyramid of 5</strong> --The 5 pyramid works as the name suggests with a factor of 5 in unit sizes.<br />
+  In return, a teacher always teaches 2 units and thus has 10 times the number of students.<br />
+  This system can be staggered over any number of levels.<br />
+  The top level ideally has 6 units of the same size.<br />
+  The second level has 3 units of 5 times the size, the third level has 3 units of 25 times the size.<br />
+  One unit teaches each of the intermediate levels and two are taught.<br />
+  At the top level, one person teaches and the other 5 units learn without a teacher, but with brain power and/or an academy.  </li>
+<li><strong>Learning from two skills</strong> --Combat units (S) usually learn two skills, their <a href="../skills-list/">weapon skill and Endurance</a>.<br />
+  It also turns out to be useful for various teachers (L_K,L_A) to use.<br />
+  In principle you have two options: The teachers are specialists and only learn one skill.<br />
+  Although this is better in terms of learning speed, such specialists are very vulnerable (or unusable) in the event of a fight.<br />
+  Alternatively, choose |S|=9*|L_K|=9*|L_A|.<br />
+  L_K learns the combat skill and then teaches S and L_A<br />
+  L_A learns endurance and then teaches S and L_K  </li>
+<li>Pyramids with two skills --There are countless possible combinations here.
+  The greatest learning speeds are achieved when all but the lowest layer are doubled, e.g. L_K,L_A,S1_K,S1_A,S2_K,S2_A,S3.<br />
+  Of course, you also need a lot of units for this.  </li>
 </ul>
-<h3 id="lernketten-analyse">Lernketten-Analyse<a class="headerlink" href="#lernketten-analyse" title="Permanent link">&para;</a></h3>
-<p>Four factors play a role when assessing a learning chain: Which one*Speed*is she learning (measured in learning attempts/week)? Like*effective*is it, i.e. how much time do people have to do something other than study? How many*Units*do you need? How many*people*do you need?
-Young parties, for example, cannot build five-tier pyramids because they don't have that many people.
-Older parties have to simplify their chains because of the unit limit.
-Production units want to have a lot of time to work and only learn when it is really worth it, etc. With a few simplifications and a little mathematics, you can easily analyze learning chains regarding these four factors.</p>
-<p><strong>Simplifications:</strong> </p>
+<h3 id="learning-chain-analysis">Learning chain analysis<a class="headerlink" href="#learning-chain-analysis" title="Permanent link">&para;</a></h3>
+<p>Four factors play a role when assessing a learning chain: Which one*Speed*is she learning (measured in learning attempts/week)? Like*effective*is it, i.e. how much time do people have to do something other than study? How many*Units*do you need? How many*people*do you need?<br />
+Young factions, for example, cannot build five-tier pyramids because they don't have that many people.<br />
+Older factions have to simplify their chains because of the unit limit.<br />
+Production units want to have a lot of time to work and only learn when it is really worth it, etc. With a few simplifications and a little mathematics, you can easily analyze learning chains regarding these four factors.  </p>
+<p><strong>Simplifications:</strong></p>
 <ol>
 <li>All units take the same amount of time to reach the next level.
-    In fact, there are random fluctuations in the learning time to the next level and teachers have to learn slightly more than students because they are at a higher talent level.</li>
+    In fact, there are random fluctuations in the learning time to the next level and teachers have to learn slightly more than students because they are at a higher skill level.</li>
 <li>Time can be divided into any fine detail.
     In fact, you can only teach weekly./cmd-learn.md.
     In practice, this division is also fine enough.</li>
@@ -7900,10 +7900,10 @@ Production units want to have a lot of time to work and only learn when it is re
     Situations such as: S2 could learn from S1, but also teach S3; S1 cannot learn from L and S3 cannot teach S4.
     Since S2 cannot do both at the same time, either S1 or S3 has to learn without a teacher, wasting time.
     In fact, such situations can (almost) only occur in the starting phase.
-    In order for such a constellation to arise "on its own", S1 would have to have climbed two talent levels in a week, which is rather unlikely.</li>
+    In order for such a constellation to arise "on its own", S1 would have to have climbed two skill levels in a week, which is rather unlikely.</li>
 </ol>
 <p><strong>Example calculation</strong><br />
- for a pyramid with three levels (L,S1,S2): for each unit it is indicated what proportion of its time it spends being taught /learning without a teacher /teaching /doing something else.</p>
+ for a pyramid with three levels (L,S1,S2): for each unit it is indicated what proportion of its time it spends being taught /learning without a teacher /teaching /doing something else.  </p>
 <ul>
 <li>L cannot be taught
     Let the proportion of time in which L learns be x.
@@ -7922,20 +7922,20 @@ Production units want to have a lot of time to work and only learn when it is re
   Three units and 111 people are required
   Below we specify this as a 4-tuple (0.8000, 0.5405, 3, 111).</li>
 </ul>
-<p>In comparison, the same calculation assuming that each layer has to learn 10% less than the next higher level.</p>
+<p>In comparison, the same calculation assuming that each layer has to learn 10% less than the next higher level.  </p>
 <ul>
-<li>L cannot be taught. 
+<li>L cannot be taught.
   Let the proportion of time in which L learns be x.
   So he teaches 1-x.
   Result:[0/x/1-x/0].</li>
-<li>S1 is taught 1-x by L and learns y without a teacher. 
+<li>S1 is taught 1-x by L and learns y without a teacher.
   Since S1 has to learn 10% less than L, the following applies: 2*(1-x)+y= 0.9x .
   So y=2.9x-2.
   The rest of the time[1-(1-x)-(2.9x-2)=2-1.9x]teaches S1.
   Yields[1-x /2.9x-2 /2-1.9x /0].</li>
-<li>S2 is taught 2-1.9x by S1 the rest of the time (1-(2-1.9x)=1.9x-1) he does something else. 
+<li>S2 is taught 2-1.9x by S1 the rest of the time (1-(2-1.9x)=1.9x-1) he does something else.
   Yields[2-1.9x /0 /0 /1.9x-1].</li>
-<li>So that S2 0.9*0.9=0.81 times as fast as L learns, must be 0.81x = 2*(2-1.9x), so x=0.8677. 
+<li>So that S2 0.9*0.9=0.81 times as fast as L learns, must be 0.81x = 2*(2-1.9x), so x=0.8677.
   So the learning speed of L is 0.8677, that of S1 is 0.7809 and that of S2 is 0.7028.
   On average that's 0.7113.
   The time not used for learning (weighted by unit size) is (100*0.6486+10*0+1*0)/111=0.5843.</li>
@@ -7945,45 +7945,45 @@ The absolute size of the values ​​given below should not be taken lightly.
 The comparison between each other is more interesting (A is faster than B)</p>
 <p>Now here's one <strong>Overview of the learning chain analysis</strong> for the above examples.</p>
 <ul>
-<li>L-S chain (pyramid with 2 layers): (0.6667, 0.6061, 2, 11) </li>
-<li>Pyramid with 3 layers, the intermediate layer does not learn without a teacher: (0.6667, 0.6306, 3, 111). 
+<li>L-S chain (pyramid with 2 layers): (0.6667, 0.6061, 2, 11)</li>
+<li>Pyramid with 3 layers, the intermediate layer does not learn without a teacher: (0.6667, 0.6306, 3, 111).
   With each additional shift, the proportion of time not spent studying approaches 0.6333.
   The learning speed remains the same.</li>
-<li>Pyramid with 3 layers, the intermediate layer learns even without a teacher: (0.8000, 0.5405, 3, 111). </li>
-<li>Pyramid with 4 layers, the intermediate layers learn even without a teacher: (0.8571, 0.5143, 4, 1111). </li>
-<li>Pyramid with 5 layers, the intermediate layers learn even without a teacher: (0.8889, 0.5000, 5, 11111). </li>
-<li>Pyramid with 2 layers and double tip: (0.8000, 0.5000, 3, 12). 
+<li>Pyramid with 3 layers, the intermediate layer learns even without a teacher: (0.8000, 0.5405, 3, 111).</li>
+<li>Pyramid with 4 layers, the intermediate layers learn even without a teacher: (0.8571, 0.5143, 4, 1111).</li>
+<li>Pyramid with 5 layers, the intermediate layers learn even without a teacher: (0.8889, 0.5000, 5, 11111).</li>
+<li>Pyramid with 2 layers and double tip: (0.8000, 0.5000, 3, 12).
   Additional peaks act similar to additional layers in a pyramid.
   The efficiency is slightly lower, fewer people are needed.</li>
-<li>Two teachers (for different talents) each teaching the other and a student unit: (1.0000, 0.4091, 3, 11). </li>
-<li>Two teachers (for different talents) who each only teach the student unit: (1.2222, 0.2778, 3, 12). 
+<li>Two teachers (for different skills) each teaching the other and a student unit: (1.0000, 0.4091, 3, 11).</li>
+<li>Two teachers (for different skills) who each only teach the student unit: (1.2222, 0.2778, 3, 12).
   The students learn at a speed of 4/3, the teachers only at &#8532;.</li>
-<li>If three teachers teach three different talents, then the students can (almost) always learn with the teacher. 
-  Unfortunately, there are only a few cases in which you want to learn three talents permanently.</li>
+<li>If three teachers teach three different skills, then the students can (almost) always learn with the teacher.
+  Unfortunately, there are only a few cases in which you want to learn three skills permanently.</li>
 </ul>
 <h3 id="other-influences-on-speed">Other influences on speed<a class="headerlink" href="#other-influences-on-speed" title="Permanent link">&para;</a></h3>
-<p>The above analyzes show how you can get more time out of 100% time by using the lessons and usually accepting a reduction in the learning speed.
-For certain talents, however, it is extremely important to master them as well as possible and still be able to teach enough students.
-The aim is therefore to increase the learning speed above 100% (= always learn without a teacher).</p>
-<p>The increase through academy and brain wax are known.
-They each have a &#8531; effect when learning without a teacher, i.e. both together result in a learning speed of 166%.</p>
-<p>Other influencing factors that increase the maximum learning speed are races, terrain and familiars.
-This takes advantage of the fact that talent fluctuates depending on the "condition" and that by changing the condition, a unit can become from teacher to student.
-The best example of this are insects, which can push every talent in combination with other breeds.</p>
-<p>Without going into too much detail, we note that the maximum learning speed of the best units can be over 100%.
-The above considerations must therefore be expanded.</p>
+<p>The above analyzes show how you can get more time out of 100% time by using the lessons and usually accepting a reduction in the learning speed.<br />
+For certain skills, however, it is extremely important to master them as well as possible and still be able to teach enough students.<br />
+The aim is therefore to increase the learning speed above 100% (= always learn without a teacher).  </p>
+<p>The increase through academy and brain wax are known.<br />
+They each have a &#8531; effect when learning without a teacher, i.e. both together result in a learning speed of 166%.  </p>
+<p>Other influencing factors that increase the maximum learning speed are races, terrain and familiars.<br />
+This takes advantage of the fact that skill fluctuates depending on the "condition" and that by changing the condition, a unit can become from teacher to student.<br />
+The best example of this are insects, which can push every skill in combination with other breeds.  </p>
+<p>Without going into too much detail, we note that the maximum learning speed of the best units can be over 100%.<br />
+The above considerations must therefore be expanded.  </p>
 <h4 id="5-pyramid">5 pyramid<a class="headerlink" href="#5-pyramid" title="Permanent link">&para;</a></h4>
-<p>Let's assume an academy and brainpower for the 6 teacher units.
-So we get 5/3=166%.
-When teaching there is no learning progress (students not in the academy) therefore 0/3 = 0% in this case.
-A teacher teaches, 5 learning -&gt; &#8537;*0/3 + &#8538;*5/3= 0 + 25/18 = 139%.
-The next level with 3 teaching units is divided into 2 learning and 1 teaching: &#8532;*6/3 + &#8531;*0% = 4/3 = 133% This is slightly slower, but ultimately faster because each level has about 10% less to learn, as mentioned above.
-1-2 more such intermediate levels are possible, each increasing the number of possible students fivefold.</p>
-<p>If you start with two units at the top, they will fill half of an academy -but they also require a lot of brain power.
-The first intermediate level then has 3 units with 10 people each, the second has 3 units with 50 people each.
-The third and probably last intermediate level has 250 people per unit and can therefore train 2500 people at once -at 200%, i.e. the students catch up.
-Otherwise there would be 3750 that can be taught up to 133%.
-i.e. after deducting a few percentages for the level differences, 4000 students should be possible.</p>
+<p>Let's assume an academy and brainpower for the 6 teacher units.<br />
+So we get 5/3=166%.<br />
+When teaching there is no learning progress (students not in the academy) therefore 0/3 = 0% in this case.<br />
+A teacher teaches, 5 learning -&gt; &#8537;*0/3 + &#8538;*5/3= 0 + 25/18 = 139%.<br />
+The next level with 3 teaching units is divided into 2 learning and 1 teaching: &#8532;*6/3 + &#8531;*0% = 4/3 = 133% This is slightly slower, but ultimately faster because each level has about 10% less to learn, as mentioned above.<br />
+1-2 more such intermediate levels are possible, each increasing the number of possible students fivefold.  </p>
+<p>If you start with two units at the top, they will fill half of an academy -but they also require a lot of brain power.<br />
+The first intermediate level then has 3 units with 10 people each, the second has 3 units with 50 people each.<br />
+The third and probably last intermediate level has 250 people per unit and can therefore train 2500 people at once -at 200%, i.e. the students catch up.<br />
+Otherwise there would be 3750 that can be taught up to 133%.<br />
+i.e. after deducting a few percentages for the level differences, 4000 students should be possible.  </p>
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
 
 

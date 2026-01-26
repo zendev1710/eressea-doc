@@ -7488,7 +7488,7 @@
 <li><a href="../cmd-give/">GIVE CONTROL</a></li>
 <li><a href="../cmd-forget/">FORGET</a></li>
 <li><a href="../cmd-give/">GIVE</a><a href="../cmd-give/">GIVE CONTROL</a></li>
-<li><a href="../cmd-recruit/">RECRUIT</a>*</li>
+<li><a href="../cmd-recruit/">RECRUIT</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
 <li><a href="../cmd-destroy/">DESTROY</a></li>
 <li><a href="../cmd-follow/">FOLLOW</a> is set</li>
 <li><a href="../cmd-promote/">PROMOTE</a></li>
@@ -7498,14 +7498,14 @@
 <li><a href="../cmd-cast/">CAST</a></li>
 <li><a href="../cmd-teach/">TEACH</a></li>
 <li><a href="../cmd-learn/">LEARN</a></li>
-<li><a href="../cmd-make/">MAKE</a><a href="../cmd-make/">MAKE TEMP</a> *</li>
+<li><a href="../cmd-make/">MAKE</a><a href="../cmd-make/">MAKE TEMP</a><sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
 <li><a href="../cmd-research/">RESEARCH</a>, <a href="../cmd-plant/">PLANT</a>, <a href="../cmd-spy/">SPY</a>, <a href="../cmd-grow/">GROW</a></li>
-<li><a href="../cmd-entertain/">ENTERTAIN</a> *</li>
-<li><a href="../cmd-work/">WORK</a> *</li>
-<li><a href="../cmd-tax/">TAX</a> *</li>
-<li><a href="../cmd-buy/">BUY</a> *</li>
-<li><a href="../cmd-sell/">SELL</a> *</li>
-<li><a href="../cmd-steal/">STEAL</a> *</li>
+<li><a href="../cmd-entertain/">ENTERTAIN</a><sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><a href="../cmd-work/">WORK</a><sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><a href="../cmd-tax/">TAX</a><sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><a href="../cmd-buy/">BUY</a><sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><a href="../cmd-sell/">SELL</a><sup id="fnref7:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><a href="../cmd-steal/">STEAL</a><sup id="fnref8:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
 <li>ships with insufficient crew suffer damage</li>
 <li>ENTER; 4<sup>th</sup> attempt</li>
 <li><a href="../cmd-move/">MOVE</a> and <a href="../cmd-route/">ROUTE</a>, including <a href="../cmd-ride/">RIDE</a> and <a href="../cmd-carry/">CARRY</a> are executed, and units ordered to FOLLOW other units do so</li>
@@ -7518,21 +7518,30 @@
 <li><a href="../cmd-sort/">SORT</a></li>
 <li><a href="../cmd-number/">NUMBER</a></li>
 </ol>
-<p>* Orders marked like this are divided "fairly"; see <a href="#notes">notes</a> below.</p>
-<p>However, the orders do not necessarily have to be entered in this order. It is perfectly permissible to enter the following:</p>
-<div class="highlight"><pre><span></span><code>GIVE TEMP 5 300 Silver
+<p>However, the orders do not necessarily have to be entered in this order.<br />
+It is perfectly permissible to enter the following:</p>
+<div class="highlight"><pre><span></span><code>GIVE TEMP 5300 Silver
 MAKE TEMP 5
-  RECRUIT 1
-  COMBAT NOT
-  LEARN FORESTRY
+    RECRUIT 1
+    COMBAT NOT
+    LEARN FORESTRY
 END
 </code></pre></div>
 <p>Here the orders sequence is: The new unit is first created, no longer joins combats, receives 300 silver, recruits 1, and finally learns forestry - although this is not the sequence in which the orders were written.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Orders of the same rank from different units are normally processed in the sequence in which they appear in the report. For example, first all GIVE orders of the first unit, then all GIVE orders of the second unit, then all RECRUIT orders of the first unit, then the second and so on. The <a href="../items-pool/">item pool</a> also usually works in this way: units higher up in the region are first "asked" if the can share a certain item. However, this sequence can be changed by certain commands. These include <code>ENTER, LEAVE, MAKE TEMP, GIVE CONTROL</code> and <code>GIVE SHIP</code>. The exact behavior is not guaranteed! Therefore, if in doubt, give orders in such a way that the unit sequence does not matter.</p>
-<p>For orders where the result has an upper limit, for example the maximum number of trees in the region for <code>MAKE wood</code>, the maximum number of recruits to <code>RECRUIT</code> or the region's money for <code>ENTERTAIN</code> and <code>TAX</code>, it may happen that several units are in competition. In this case, we try to distribute the scarce good in proportion to the quantity that each unit could produce if it were unlimited. In this case, there may be gaps and a unit may end up with nothing. The <code>SELL</code>, <code>BUY</code> and <code>WORK</code> orders are also affected.</p>
-<p>About ENTER 1<sup>st</sup>/2<sup>nd</sup>/3<sup>rd</sup>/4<sup>th</sup> attempt<br />
-This means that you can still enter a castle before an attack. After the fight, a unit may try to enter again, as the former owner might be dead or has fled in the meantime.</p>
+<p>Orders of the same rank from different units are normally processed in the sequence in which they appear in the report.<br />
+For example, first all GIVE orders of the first unit, then all <code>GIVE</code> orders of the second unit, then all <code>RECRUIT</code> orders of the first unit, then the second and so on.<br />
+The <a href="../items-pool/">item pool</a> also usually works in this way: units higher up in the region are first "asked" if the can share a certain item.<br />
+However, this sequence can be changed by certain orders.<br />
+These include <code>ENTER, LEAVE, MAKE TEMP, GIVE CONTROL</code> and <code>GIVE SHIP</code>.<br />
+The exact behavior is not guaranteed! Therefore, if in doubt, give orders in such a way that the unit sequence does not matter.  </p>
+<p>For orders where the result has an upper limit, for example the maximum number of trees in the region for <code>MAKE wood</code>, the maximum number of recruits to <code>RECRUIT</code> or the region's money for <code>ENTERTAIN</code> and <code>TAX</code>, it may happen that several units are in competition.<br />
+In this case, we try to distribute the scarce good in proportion to the quantity that each unit could produce if it were unlimited.<br />
+In this case, there may be gaps and a unit may end up with nothing.<br />
+The <code>SELL</code>, <code>BUY</code> and <code>WORK</code> orders are also affected.  </p>
+<p>About <code>ENTER</code> 1<sup>st</sup>/2<sup>nd</sup>/3<sup>rd</sup>/4<sup>th</sup> attempt<br />
+This means that you can still enter a castle before an attack.<br />
+After the fight, a unit may try to enter again, as the former owner might be dead or has fled in the meantime.  </p>
 <p>It does not mean that units leaving a ship can still attack in the same turn, as the server remembers who left ships and intercepts it accordingly.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7542,6 +7551,15 @@ This means that you can still enter a castle before an attack. After the fight, 
 </ul>
 <p>Continue reading: <a href="../commands-list/">Short Description</a>.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Orders marked like this are divided "fairly"; see <a href="#notes">notes</a> below.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

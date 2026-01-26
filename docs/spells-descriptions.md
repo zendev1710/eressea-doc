@@ -512,7 +512,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components                                  | Lvl |   Type | Rank | Ship               | Dist. |
 |:---:|---------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| 13  | 150 auras, 30 000 silver, 3 permanent auras |     | Normal |  5   | :heavy_check_mark: |       |
+|  I  | 150 auras, 30 000 silver, 3 permanent auras |  13 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -522,9 +522,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+|  Sc.   | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|:------:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| \*[^1] | 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -1206,10 +1206,10 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     With the help of a ritual, a dream weaver can attempt to capture the soul and return it to the body of the deceased.  
     Although the spell does not heal physical injuries, the person treated will survive the fight.
 
-**Type:** Postkampfzauber  
-**Rank:** 4  
-**Components:** 1 Aura \* Level  
-**Modifiers:**  
+| Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
+|:---:|------------|----:|--------:|:----:|:-----|:------|
+|  I  | T auras    |   5 | Post-c. |  4   |      |       |
+
 `COMBATSPELL [LEVEL n] Resurrection`  
 
 ### Rindenhaut  <!-- TODO -->

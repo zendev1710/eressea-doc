@@ -80,7 +80,7 @@ Cette plante pousse uniquement dans les montagnes.
 ## Gousse
 
 <!-- cspell:disable -->
-*windbag (EN), Windbeutel (DE)*.
+*Windbag (EN), Windbeutel (DE)*.
 <!-- cspell:enable -->
 
 Cette plante pousse uniquement dans les highlands

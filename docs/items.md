@@ -59,7 +59,7 @@ Weight, skill and raw material requirements.
 | [chainmail]        |      2 | [armoursmithing] |    3 |               3 iron |
 | [platemail]        |      4 | [armoursmithing] |    4 |               5 iron |
 | [laen shield]      |      0 | [armoursmithing] |    7 |               1 laen |
-| [laenmail]         |      1 | [armoursmithing] |    9 |               3 laen |
+| [laen chainmail]   |      1 | [armoursmithing] |    9 |               3 laen |
 | [adamantium plate] |      1 | [armoursmithing] |   10 |         3 adamantium |
 | [potions]          |      0 | [alchemy]        |    2 |                herbs |
 
@@ -137,7 +137,7 @@ Continue reading: [Roads].
 [chainmail]: ./war-tables.md#chainmail
 [platemail]: ./war-tables.md#platemail
 [laen shield]: ./war-tables.md#laen-shield
-[laenmail]: ./war-tables.md#laen-chainmail
+[laen chainmail]: ./war-tables.md#laen-chainmail
 [adamantium plate]: ./war-tables.md#adamantium-armor
 [potions]: ./alchemy.md#potions
 

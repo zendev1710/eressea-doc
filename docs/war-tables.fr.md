@@ -23,7 +23,7 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 ### Claymore rouillée
 
 <!-- cspell:disable -->
-*Rusty claymore (EN),  (DE)*.
+*Rusty claymore (EN), Rostiger zweihänder (DE)*.
 <!-- cspell:enable -->
 
 ### Épée en laen
@@ -47,7 +47,7 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 ### Hache de guerre rouillée
 
 <!-- cspell:disable -->
-*Rusty axe (EN),  (DE)*.
+*Rusty axe (EN), Rostige kriegsaxt (DE)*.
 <!-- cspell:enable -->
 
 ### Hache de guerre
@@ -73,7 +73,7 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 ### Hallebarde rouillée
 
 <!-- cspell:disable -->
-*Rusty halberd (EN),  (DE)*.
+*Rusty halberd (EN), Rostige Hellebarde (DE)*.
 <!-- cspell:enable -->
 
 ### Javelot

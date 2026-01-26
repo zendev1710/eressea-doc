@@ -6,6 +6,50 @@ alias: kriegstabellen
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.
 
+## Weapons
+
+### Adamantiumaxt
+
+### Kriegsaxt
+
+### Bogen
+
+### Katapult
+
+### Bihänder
+
+### Armbrust
+
+### Elfenbogen
+
+### [[flammenschwert]]
+
+### Hellebarde
+
+### Laenschwert
+
+### Lanze
+
+### Mallornbogen
+
+### Mallornarmbrust
+
+### Mallornlanze
+
+### Mallornspeer
+
+### Rostige kriegsaxt
+
+### Rostige hellebarde
+
+### Rostiges schwert
+
+### Rostiger zweihänder
+
+### Speer
+
+### Schwert
+
 ## Waffeneigenschaften
 
 | Waffe               | Schaden/Fuß   | ⌀           | Schaden/Pferd | ⌀    | OB | DB | Talent | Summe |

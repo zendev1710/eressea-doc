@@ -4,16 +4,16 @@ alias: illaun-spells
 ---
 # Illaun spells
 
-## Level 1 spells
+## Level 1
 
 ### Shadow Knights
 
 :   This spell can give the enemy a slightly different image of their own troops.  
     The Shadow Knights have no effective attack and being wounded in battle will destroy them instantly.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | T auras    |   1 | Pre-c. |  4   |      |       |
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| T auras    |   1 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
@@ -21,289 +21,295 @@ alias: illaun-spells
 
 :   The magician sends the target of the spell a dream.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
-### Wahrsagen
+### Divination
 
-**Beschreibung**:  
-Niemand kann so gut die Träume deuten wie ein Magier des Illaun. Auch die Kunst der Wahrsagerei, des Kartenlegens und des Handlesens sind ihm geläufig. Dafür zahlen ihm die Bauern 50 Silber pro Stufe.  
-**Art**: Normaler Zauber  
-**Level**: 1  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST \[LEVEL n\] "Wahrsagen"  
+:   No one can interpret dreams as well as an Illaun magician.  
+    He is also familiar with the art of fortune telling, card reading and palm reading.  
+    In return, the farmers pay him 50 silver per level.
 
-## Level 2 spells
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
 
-### Grauen der Schlacht
+`CAST [LEVEL n] Divination`  
 
-**Beschreibung**:  
-Der Traumweber beschwört vor dem Kampf grauenerregende Trugbilder herauf, die viele Gegner in Panik versetzen. Die Betroffenen werden versuchen, vor den Trugbildern zu fliehen.  
-**Art**: Präkampfzauber  
-**Level**: 2  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Grauen der Schlacht"  
+## Level 2
 
-### Seelenfrieden
+### Unspeakable Horrors
 
-**Beschreibung**:  
-Dieses magische Ritual beruhigt die gequälten Seelen der gewaltsam zu Tode gekommenen und ermöglicht es ihnen so, ihre letzte Reise in die Anderlande zu beginnen. Je Stufe des Zaubers werden ungefähr 50 Seelen ihre Ruhe finden. Der Zauber vermag nicht, bereits wieder auferstandene lebende Tote zu erlösen, da deren Bindung an diese Welt zu stark ist.  
-**Art**: Normaler Zauber  
-**Level**: 2  
-**Rank**: 5  
-**Components**: 3 Aura \* Stufe, 1 Wasser des Lebens  
-**Modifikationen**:  
-**Syntax**: CAST \[LEVEL n\] "Seelenfrieden"  
+:   Before battle, the dream weaver conjures up terrifying illusions that cause many opponents to panic.  
+    Those affected will try to escape from the mirages.
 
-## Level 3 spells
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| T auras    |   2 | Pre-c. |  5   |      |       |
 
-### Gestaltwandlung
+`COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
-**Beschreibung**:  
-Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern. Unbedarften Beobachtern erscheint sie dann als einer anderen Rasse zugehörig.  
-**Art**: Normaler Zauber  
-**Level**: 3  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: CAST \[LEVEL n\] "Gestaltwandlung" &lt;Einheit-Nr&gt; &lt;Rasse&gt;  
+### Eternal Rest
 
-### Traum der Magie
+:   This magical ritual soothes the tormented souls of those who died violently, allowing them to begin their final journey to the other lands.  
+    Approximately 50 souls will find peace per level of the spell.  
+    The spell cannot redeem the living dead who have already been resurrected because their ties to this world are too strong.
 
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.  
-**Art**: Normaler Zauber  
-**Level**: 3  
-**Rank**: 1  
-**Components**: 2 Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Traum der Magie" &lt;Einheit-Nr&gt; &lt;Aura&gt;  
+| Components  | Lvl |   Type | Rank | Ship               | Dist. |
+|-------------|----:|-------:|:----:|:-------------------|:------|
+| 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
 
-### Traumschlößchen
+`CAST [LEVEL n] "Eternal Rest"`  
 
-**Beschreibung**:  
-Mit Hilfe dieses Zaubers kann der Traumweber die Illusion eines beliebigen Gebäudes erzeugen. Die Illusion kann betreten werden, ist aber ansonsten funktionslos und benötigt auch keinen Unterhalt. Sie wird einige Wochen bestehen bleiben.  
-**Art**: Normaler Zauber  
-**Level**: 3  
-**Rank**: 5  
-**Components**: 3 Aura  
-**Modifikationen**:  
-**Syntax**: CAST "Traumschlößchen" &lt;Gebäudetyp&gt;  
+## Level 3
 
-## Level 4 spells
+### Shapeshift
 
-### Schwere Glieder
+:   With the help of this arcane ritual, the dream weaver is able to disguise the true form of a group.  
+    To inexperienced observers, she then appears to belong to a different race.
 
-**Beschreibung**:  
-Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden. Die Soldaten verschlafen manchmal ihren Angriff und verteidigen sich schlechter.  
-**Art**: Präkampfzauber  
-**Level**: 4  
-**Rank**: 5  
-**Components**: 4 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Schwere Glieder"  
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| T auras    |   3 | Normal |  5   |      |       |
 
-### Traumlesen
+`CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.  
-**Art**: Normaler Zauber  
-**Level**: 4  
-**Rank**: 5  
-**Components**: 8 Aura  
-**Modifikationen**: Fernzauber  
-**Syntax**: CAST \[REGION x y\] "Traumlesen" &lt;Einheit-Nr&gt;  
+### Dream of Magic
 
-## Level 5 spells
+:   With the help of this spell, the dream weaver can transfer his own aura to another dream weaver at a ratio of 2:1.
 
-### Traumbilder analysieren
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| 2 auras    |   3 | Normal |  1   | :heavy_check_mark: |       |
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Traumweber versuchen, die Verzauberungen einer einzelnen Einheit zu erkennen. Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können. Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
-**Art**: Normaler Zauber  
-**Level**: 5  
-**Rank**: 5  
-**Components**: 25 Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Traumbilder analysieren" &lt;Einheit-Nr&gt;  
+`CAST "Dream of Magic" <unit-id> <Aura>`  
 
-### Wiederbelebung
+### Castle of Illusion
 
-**Beschreibung**:  
-Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen. Mit Hilfe eines Rituals kann ein Traumweber versuchen, die Seele wieder einzufangen und in den Körper des Verstorbenen zurückzubringen. Zwar heilt der Zauber keine körperlichen Verwundungen, doch ein Behandelter wird den Kampf überleben.  
-**Art**: Postkampfzauber  
-**Level**: 5  
-**Rank**: 4  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Wiederbelebung"  
+:   With the help of this spell, the dream weaver can create the illusion of any building.  
+    The illusion can be entered, but is otherwise non-functional and requires no maintenance.
+    It will last for a few weeks.
 
-## Level 6 spells
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| 3 auras    |   3 | Normal |  5   |      |       |
 
-### Erschaffe ein Amulett des wahren Sehens
+`CAST "Castle of Illusion" <Gebäudetyp>`  
 
-**Beschreibung**:  
-Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen. Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
-**Art**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Erschaffe ein Amulett des wahren Sehens"  
+## Level 4
 
-### Erschaffe einen Ring der Unsichtbarkeit
+### Tiredness
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
-**Art**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Erschaffe einen Ring der Unsichtbarkeit"  
+:   This combat spell causes some enemies to suffer severe fatigue during combat.  
+    The soldiers sometimes oversleep their attack and defend themselves poorly.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 4 x T auras |   4 | Pre-c. |  5   |      |       |
+
+`COMBATSPELL [LEVEL n] Tiredness`  
+
+### Read Dreams
+
+:   This spell allows the Dreamweaver to enter a unit"s dreams to obtain a report on the surrounding area.
+
+| Components | Lvl |   Type | Rank | Ship | Dist.              |
+|------------|----:|-------:|:----:|:-----|:-------------------|
+| 8 auras    |   4 | Normal |  5   |      | :heavy_check_mark: |
+
+`CAST [REGION x y] "Read Dreams" <unit-id>`  
+
+## Level 5
+
+### Analyse Dreams
+
+:   With this spell, the dream weaver can attempt to detect the enchantments of a single unit.  
+    He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
+    With stronger spells he needs a little luck for a successful analysis.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| 25 auras   |   5 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Analyse Dreams" <unit-id>`  
+
+### Resurrection
+
+:   If a warrior dies in battle, his soul begins the long journey to the stars.  
+    With the help of a ritual, a dream weaver can attempt to capture the soul and return it to the body of the deceased.  
+    Although the spell does not heal physical injuries, the person treated will survive the fight.
+
+| Components | Lvl |    Type | Rank | Ship | Dist. |
+|------------|----:|--------:|:----:|:-----|:------|
+| T auras    |   5 | Post-c. |  4   |      |       |
+
+`COMBATSPELL [LEVEL n] Resurrection`  
+
+## Level 6
+
+### Create an [[amulet-of-true-sight]]
+
+:   The spell allows a magician to create an [[amulet-of-true-sight]].  
+    The amulet allows the wearer to see all units protected by a ring of invisibility.  
+    However, units that use their [[camouflage]] skill to hide still remain undetected.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create An Amulet of True Sight"`  
+
+### Create a [[ring-of-invisibility]]
+
+:   With this spell the wizard can create a ring of invisibility.  
+    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    In an invisible unit, each person must wear a ring.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Ring of Invisibility"`  
 
 ### Schlechter Schlaf
 
-**Beschreibung**:  
-Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe. Den Betroffenen fällt das Lernen deutlich schwerer.  
-**Art**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 18 Aura  
-**Modifikationen**: Fernzauber  
-**Syntax**: CAST \[REGION x y\] "Schlechter Schlaf"  
+### Insomnia
 
-## Level 7 spells
+:   This spell causes insomnia and restlessness in the affected area for a few weeks.  
+    Those affected find it much more difficult to learn.
 
-### Schlaf
+| Components | Lvl |   Type | Rank | Ship | Dist.              |
+|------------|----:|-------:|:----:|:-----|:-------------------|
+| 18 auras   |   6 | Normal |  5   |      | :heavy_check_mark: |
 
-**Beschreibung**:  
-Dieser Zauber läßt einige feindliche Kämpfer einschlafen. Schlafende Kämpfer greifen nicht an und verteidigen sich schlechter, sie wachen jedoch auf, sobald sie im Kampf getroffen werden.  
-**Art**: Kampfzauber  
-**Level**: 7  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Schlaf"  
+`CAST [REGION x y] Insomnia`  
 
-### Traumdeuten
+## Level 7
 
-**Beschreibung**:  
-Mit diesem Zauber dringt der Traumweber in die Gedanken und Traumwelt seines Opfers ein und kann so seine intimsten Geheimnisse ausspähen. Seine Fähigkeiten, seinen Besitz und seine Parteizugehörigkeit wird nicht länger ungewiss sein.  
-**Art**: Normaler Zauber  
-**Level**: 7  
-**Rank**: 5  
-**Components**: 20 Aura  
-**Modifikationen**:  
-**Syntax**: CAST "Traumdeuten" &lt;Einheit-Nr&gt;  
+### Sleep
 
-## Level 8 spells
+:   This spell causes some enemy combatants to fall asleep.  
+    Sleeping fighters do not attack and have poorer defenses, but they wake up as soon as they are hit in combat.
 
-### Schöne Träume
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| T auras    |   7 | Combat |  5   |      |       |
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.  
-**Art**: Normaler Zauber  
-**Level**: 8  
-**Rank**: 5  
-**Components**: 80 Aura  
-**Modifikationen**: Fernzauber  
-**Syntax**: CAST \[REGION x y\] "Schöne Träume"  
+`COMBATSPELL [LEVEL n] Sleep`  
+
+### Mind Probe
+
+:   With this spell, the dream weaver penetrates the thoughts and dream world of his victim and can thus spy on his most intimate secrets.  
+    His abilities, possessions and faction affiliation will no longer be uncertain.
+
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| 20 auras   |   7 | Normal |  5   |      |       |
+
+`CAST "Mind Probe" <unit-id>`  
+
+## Level 8
+
+### Schöne Träume  <!-- TODO -->
+
+:   This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all skills for a period of time.
+
+| Components | Lvl |   Type | Rank | Ship | Dist.              |
+|------------|----:|-------:|:----:|:-----|:-------------------|
+| 80 auras   |   8 | Normal |  5   |      | :heavy_check_mark: |
+
+`CAST [REGION x y] "Schöne Träume"`  
 
 ### Traumbilder entwirren
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.  
-**Art**: Normaler Zauber  
-**Level**: 8  
-**Rank**: 2  
-**Components**: 6 Aura \* Stufe  
-**Modifikationen**: Fernzauber, Schiffszauber  
-**Syntax**: CAST \[REGION x y\] \[LEVEL n\] "Traumbilder entwirren" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )  
+:   This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
 
-## Level 9 spell
+| Components  | Lvl |   Type | Rank | Ship               | Dist.              |
+|-------------|----:|-------:|:----:|:-------------------|:-------------------|
+| 6 x T auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
-### Vertrauten rufen
+`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-**Beschreibung**:  
-Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
-**Art**: Normaler Zauber  
-**Level**: 9  
-**Rank**: 5  
-**Components**: 100 Aura, 5 permanente Aura  
-**Modifikationen**:  
-**Syntax**: CAST "Vertrauten rufen"  
+## Level 9
 
-## Level 10 spell
+### Summon Familiar
 
-### Schlechte Träume
+:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
 
-**Beschreibung**:  
-Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELP GUARD) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.  
-**Art**: Normaler Zauber  
-**Level**: 10  
-**Rank**: 5  
-**Components**: 90 Aura  
-**Modifikationen**: Fernzauber  
-**Syntax**: CAST \[REGION x y\] "Schlechte Träume"  
+| Components                   | Lvl |   Type | Rank | Ship | Dist. |
+|------------------------------|----:|-------:|:----:|:-----|:------|
+| 100 auras, 5 permanent auras |   9 | Normal |  5   |      |       |
 
-## Level 11 spell
+`CAST "Summon Familiar"`  
 
-### Tod des Geistes
+## Level 10
 
-**Beschreibung**:  
-Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an. Ein Schlag aus astraler und elektrischer Energie trifft die Gegner, wird die Magieresistenz durchbrochen, verliert ein Opfer permanent einen Teil seiner Erinnerungen. Wird es zu oft ein Opfer dieses Zaubers kann es daran sterben.  
-**Art**: Präkampfzauber  
-**Level**: 11  
-**Rank**: 5  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: COMBATSPELL \[LEVEL n\] "Tod des Geistes"  
+### Schlechte Träume  <!-- TODO -->
 
-## Level 12 spell
+:   This spell allows the Dreamer to disrupt the sleep of all non-allied units (`HELP GUARD`) in the region to such an extent that they temporarily lose some of their memories.
 
-### Süße Träume
+| Components | Lvl |   Type | Rank | Ship | Dist.              |
+|------------|----:|-------:|:----:|:-----|:-------------------|
+| 90 auras   |  10 | Normal |  5   |      | :heavy_check_mark: |
 
-**Beschreibung**:  
-Dieser Zauber - dessen Anwendung in den meisten Kulturen streng verboten ist - löst im Opfer ein unkontrollierbares Verlangen nach körperlicher Liebe aus. Die betroffenen Personen werden sich Hals über Kopf in ein Liebesabenteuer stürzen, zu blind vor Verlangen, um an etwas anderes zu denken. Meistens bereuen sie es einige Wochen später...  
-**Art**: Normaler Zauber  
-**Level**: 12  
-**Rank**: 5  
-**Components**: 5 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: CAST \[LEVEL n\] "Süße Träume" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]  
+`CAST [REGION x y] "Schlechte Träume"`  
 
-## Level 13 spell
+## Level 11
 
-### Erschaffe eine Sphäre der Unsichtbarkeit
+### Tod des Geistes <!-- TODO -->
 
-**Beschreibung**:  
-Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen. Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
-**Art**: Normaler Zauber  
-**Level**: 13  
-**Rank**: 5  
-**Components**: 150 Aura, 30000 Silber, 3 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Erschaffe eine Sphäre der Unsichtbarkeit"  
+:   With this spell the magician attacks the minds of his opponents directly.  
+    A blast of Astral and electrical energy hits the opponents;  
+    if magic resistance is broken, a victim permanently loses part of their memories.  
+    If it falls victim to this spell too often, it can die.
 
-## Level 14 spell
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 2 x T auras |  11 | Pre-c. |  5   |      |       |
 
-### Erschaffe ein Traumauge
+`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
-**Beschreibung**:  
-Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen. Lange Zeit wurde eine solche Fähigkeit für nutzlos erachtet, bis die ehemalige waldelfische Magistra für Kampfmagie, Liarana Sonnentau von der Akademie Thall, eine besondere Anwendung vorstellte: Feldherren träumen vor großen Kämpfen oft unruhig und verraten im Traum ihre Pläne. Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben. Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
-**Art**: Normaler Zauber  
-**Level**: 14  
-**Rank**: 5  
-**Components**: 1 Drachenkopf, 5 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: CAST "Erschaffe ein Traumauge"  
+## Level 12
+
+### Süße Träume <!-- TODO -->
+
+:   This spell -the use of which is strictly forbidden in most cultures -triggers an uncontrollable desire for physical love in the victim.  
+    The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else.  
+    Most of the time they regret it a few weeks later...
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 5 x T auras |  12 | Normal |  5   |      |       |
+
+`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+
+## Level 13
+
+### Create a [[sphere-of-invisibility]]
+
+:   With this spell the magician can create a sphere of invisibility.  
+    The sphere renders its wielder and ninety-nine other people in the same unit invisible.
+
+| Components                                  | Lvl |   Type | Rank | Ship               | Dist. |
+|---------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 150 auras, 30 000 silver, 3 permanent auras |  13 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Sphere of Invisibility"`  
+
+## Level 14
+
+### Create a [[flaming-sword]]
+
+:   "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.  
+    And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
+
+| Components                                                   | Lvl |   Type | Rank | Ship               | Dist. |
+|--------------------------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 100 auras, 1 [berserkers blood], 1 [sword], 1 permanent aura |  12 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Flaming Sword"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->

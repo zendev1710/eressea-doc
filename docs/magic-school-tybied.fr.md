@@ -6,7 +6,7 @@ alias: sorts-tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Sorts de niveau 1
+## Niveau 1
 
 ### Analyse de la Magie
 
@@ -55,7 +55,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
-## Sorts de niveau 2
+## Niveau 2
 
 ### Protection contre la magie
 
@@ -72,7 +72,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
-## Sorts de niveau 3
+## Niveau 3
 
 ### Préservation du butin
 
@@ -105,7 +105,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
-## Sorts de niveau 4
+## Niveau 4
 
 ### Sortie de l'Astral
 
@@ -139,7 +139,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
-## Sorts de niveau 5
+## Niveau 5
 
 ### Antimagie
 
@@ -200,7 +200,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
-## Sorts de niveau 6
+## Niveau 6
 
 ### Invocation de l'Astral
 
@@ -295,7 +295,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
-## Sorts de niveau 7
+## Niveau 7
 
 ### Créer un [Cristal d'Antimagie]
 
@@ -341,7 +341,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
-## Sorts de niveau 8
+## Niveau 8
 
 ### Runes de protection
 
@@ -377,7 +377,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
-## Sorts de niveau 9
+## Niveau 9
 
 ### Accélération
 
@@ -407,7 +407,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST "Create A Ring of Power"`  
 
-## Sorts de niveau 10
+## Niveau 10
 
 ### Blick in die Realität <!-- TODO -->
 
@@ -456,7 +456,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Zeitdehnung" <unit-id> [<Unit-id> ...]`  
 
-## Sorts de niveau 12
+## Niveau 12
 
 ### Bouclier d'armure
 

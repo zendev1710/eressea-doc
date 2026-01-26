@@ -272,7 +272,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | 100                 |
 | Capacity                | 3 persons           |
 
-- A stonecircle can be blessed by a [powerful spell]. This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses. In addition, magicians in the building can interrupt the connection between the astral space and the real world
+- A stonecircle can be blessed by a [powerful spell]. This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses. In addition, magicians in the building can interrupt the connection between the Astral space and the real world
 - In a blessed stonecircle, a mage regenerates 50% more aura
 - The power of any spell cast in a blessed stonecircle increases as if the spell had been cast with one more level
 - Occupants have 30% extra magic resistance

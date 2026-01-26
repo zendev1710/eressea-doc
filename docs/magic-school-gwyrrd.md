@@ -454,7 +454,7 @@ This earthquake will damage all buildings in the region.
 ### Wurzeln der Magie <!-- TODO -->
 
 :   With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region.  
-    This will change the balance of nature in the region forever, and in the future only the demanding but strong mallornas will thrive in the region.
+    This will change the balance of nature in the region forever, and in the future only the demanding but strong mallorns will thrive in the region.
 
 | Components                                      | Lvl |   Type | Rank | Ship | Dist.              |
 |-------------------------------------------------|----:|-------:|:----:|:-----|:-------------------|

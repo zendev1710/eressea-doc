@@ -7,9 +7,10 @@ alias: home
 Welcome to [[eressea]]!
 
 !!! warning "important"
+
     The rules described on this site **are not authoritative**.  
 
-    The **official rules** of the game are available in **[this wiki]**.
+    The **official rules** of the game are available in [**this wiki**](https://wiki.eressea.de/Hauptseite/en).
 
 This site reproduces the rules of the game described in the wiki, **fully translated into English**.
 
@@ -51,7 +52,7 @@ The game ended on August 11, 2019 after 517 turns.
 
 - [An overview about race changes (in German)]
 - [List of rules changes compared to E2 (in German)]
-- [Announcments from the e3-announce mailing list]
+- [Announcements from the e3-announce mailing list]
 
 #### Deveron (discontinued)
 
@@ -83,7 +84,6 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 
 Continue reading: [rules].
 
-[this wiki]: https://wiki.eressea.de/Hauptseite/en
 [rules]: ./rules.md
 [Eressea]: ./cmd-eressea.md
 [Discord]: https://discord.gg/KT5Fffh
@@ -106,7 +106,7 @@ Continue reading: [rules].
 [The Third Age]: ./the-third-age.md
 [An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [List of rules changes compared to E2 (in German)]: ./the-third-age.md
-[Announcments from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
+[Announcements from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreons]: https://www.patreon.com/enno
 [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Rules (in German)]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc

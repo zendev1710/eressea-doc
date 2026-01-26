@@ -25,11 +25,11 @@ In principle, it is advisable to assign a priority to events and then process th
 ## Reaction
 
 Once the events have been prioritized, the next step is to identify the affected units so they can potentially react to the event.  
-Despite prioritization, reacting to multiple events is difficult, as secondary events may also influence a unit's commands.  
+Despite prioritization, reacting to multiple events is difficult, as secondary events may also influence a unit's orders.  
 
 <!-- TODO: replace outdaed example, the current remains here until a suitable alternative example is created -->
-***outdated example***: starvation no longer prevents long commands.  
-Example: a unit is starving and undead appear. Starvation should have higher priority here, as it forces the long WORK command.  
+***outdated example***: starvation no longer prevents long orders.  
+Example: a unit is starving and undead appear. Starvation should have higher priority here, as it forces the long `WORK` order.  
 This naturally limits the possible reactions to the undead event.  
 Moving to the adjacent region is no longer possible.  
 

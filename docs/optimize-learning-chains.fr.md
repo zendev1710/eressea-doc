@@ -164,7 +164,7 @@ En contrepartie, un enseignant enseigne toujours 2 unités et dispose ainsi de 1
   Les vitesses d'apprentissage les plus élevées sont atteintes lorsque toutes les couches sauf la plus basse sont doublées, par ex. L_K,L_A,S1_K,S1_A,S2_K,S2_A,S3.
   Bien entendu, cela nécessite également de nombreuses unités.
 
-### Lernketten-Analyse
+### Analyse de la chaîne d'apprentissage
 
 Quatre facteurs jouent un rôle lors de l’évaluation d’une chaîne d’apprentissage : Lequel*Vitesse*est-ce qu'elle apprend (mesurée en tentatives d'apprentissage/semaine) ? Comme*efficace*est-ce vrai, c'est-à-dire de combien de temps les gens disposent-ils pour faire autre chose que étudier ? Combien*Unités*as-tu besoin ? Combien*les gens*as-tu besoin ?
 Les jeunes partis, par exemple, ne peuvent pas construire de pyramides à cinq niveaux parce qu'ils n'ont pas beaucoup de monde.

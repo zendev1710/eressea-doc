@@ -29,6 +29,46 @@ sehr viele = Ab 90
     gepflückte Kräuter halten nicht ewig.  
     Sie verrotten im Laufe der Zeit.  
 
+## Alraune
+
+## Blasenmorchel
+
+## Blauer Baumringel
+
+## Eisblume
+
+## Elfenlieb
+
+## Eulenauge
+
+## Fjordwuchs
+
+## Flachwurz
+
+## Grüner Spinnerich
+
+## Gurgelkraut
+
+## Höhlenglimm
+
+## Knotiger Saugwurz
+
+## Sandfäule
+
+## Schneekristall
+
+## Spaltwachs
+
+## Steinbeißer
+
+## Wasserfinder
+
+## Weißer Wüterich
+
+## Windbeutel
+
+## Würziger Wagemut
+
 ## Kräuterliste
 
 Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung

@@ -27,6 +27,7 @@ dracoids
 Draig
 Draiochean
 Dream
+Duckstein's
 Dunfanaghy
 echeck
 EHMV
@@ -49,6 +50,7 @@ freenet
 Freenet
 Garan
 Gmail
+googlemail
 Gorm
 Gornt
 Grauwolf

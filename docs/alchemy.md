@@ -18,13 +18,13 @@ Each turn, an alchemist can make (skill level)/(potion level\*2) potions.
 A level 6 alchemist can therefore make a maximum of one level 3 potion, one level 2 potion or three level 1 potions.
 
 If you want to use a potion, you do so with [[cmd-use|&#91;amount&#93; "&lt;potion name&gt;" &#91;unit ID&#93;]] order.  
-*Unit ID* is required **only** for **[Duncebun]** potion.
+*Unit ID* is required **only** for **[duncebun]** potion.
 
 A potion cannot be divided between several units.
 However, a large unit can be divided into several smaller units after the potion has been used, retaining its effects.
 
 Most potions give their benefits to the unit giving the order.
-Exceptions are potions which affect a region -then the region where the unit was at the beginning of turn is affected- or those that affect other units (Duncebun potion).
+Exceptions are potions which affect a region -then the region where the unit was at the beginning of turn is affected- or those that affect other units (duncebun potion).
 
 Usually a potion affects 10 people or 10 goods during the turn it is used, as mentioned in its recipe.
 Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
@@ -32,7 +32,7 @@ Many potions work in such a way that too many people in the unit make no differe
 This is not possible with "berserks blood" potion, as the persons do not act as a unit in battle.
 Here it is necessary that all persons in the unit have the effect of the potion before the fight, otherwise it will not work!
 
-The "residual effect" of potions does not expire with all potions, so that, for example, a person can benefit from the effect of a “Brain wax” or “busybeers” for ten weeks after using it.
+The "residual effect" of potions does not expire with all potions, so that, for example, a person can benefit from the effect of a [brain wax] or [busybeer] for ten weeks after using it.
 
 ### Berserkers blood
 
@@ -92,7 +92,7 @@ To be made, this potion requires the following herbs:
 !!! note
     You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
     The application of the potion fails if the `Stealth` skill of the acting unit is less or equal to the victim's `Perception` level **+ 2**.  
-    In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
+    In this case, you get an error message and the duncebun is not used up (thus it remains to the unit).
 
 ### Elixir of power
 
@@ -274,7 +274,7 @@ So you only need to equip one unit (per region), as long as it drinks enough pea
 
 [^2]: You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
 The application of the potion fails if the STEALTH skill of the acting unit is less or equal to the victim's PERCEPTION+2.
-In this case, you get an error message and the Duncebun is not used up (thus it remains to the unit).
+In this case, you get an error message and the duncebun is not used up (thus it remains to the unit).
 
 ## Herbs table
 
@@ -333,3 +333,5 @@ Continue reading: [[herbs]].
 [waterfinder]: ./herbs.md#waterfinder
 [white hemlocks]: ./herbs.md#white-hemlocks
 [windbag]: ./herbs.md#windbag
+[brain wax]: #brain-wax
+[busybeer]: #busybeer

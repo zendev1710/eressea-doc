@@ -400,7 +400,7 @@ alias: cerddor-spells
 
 ### Gesang der Versklavung  <!-- TODO -->
 
-:   This powerful spell robs the victim of their free will and subjects them to the Bard"s commands.  
+:   This powerful spell robs the victim of their free will and subjects them to the Bard"s orders.  
     For a time, the victim will turn completely away from his own people and feel that he belongs to the bard"s faction.
 
 | Components | Lvl |   Type | Rank | Ship | Dist. |

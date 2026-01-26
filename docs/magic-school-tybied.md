@@ -4,367 +4,381 @@ alias: tybied-spells
 ---
 # Tybied spells
 
-## Magie analysieren
-
-**Description**:  
-Mit diesem Spruch kann der Magier versuchen, die Verzauberungen eines einzelnen angegebenen Objekts zu erkennen. Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können. Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
-**Type**: Normaler Zauber  
-**Level**: 1  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Magie analysieren" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )`  
-
-## Schleieraura
-
-**Description**:  
-Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern. Der Zauber schützt nicht vor Dieben und Spionen.  
-**Type**: Normaler Zauber  
-**Level**: 1  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Schleieraura" &lt;Einheit-Nr&gt;`  
-
-## Wunderdoktor
-
-**Description**:  
-Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten Tybiedmagier. Seine Tränke und Tinkturen helfen gegen alles, was man sonst nicht bekommen kann. Ob nun die kryptische Formel unter dem Holzschuh des untreuen Ehemannes wirklich geholfen hat - nun, der des Lesens nicht mächtige Bauer wird es nie wissen. Dem Magier hilft es auf jeden Fall... beim Füllen seines Geldbeutels. 50 Silber pro Stufe lassen sich so in einer Woche verdienen.  
-**Type**: Normaler Zauber  
-**Level**: 1  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Wunderdoktor"`  
-
-## Schutz vor Magie
-
-**Description**:  
-Dieser Zauber legt ein antimagisches Feld um die Magier der Feinde und behindert ihre Zauber erheblich. Nur wenige werden die Kraft besitzen, das Feld zu durchdringen und ihren Truppen in der Schlacht zu helfen.  
-**Type**: Präkampfzauber  
-**Level**: 2  
-**Rank**: 2  
-**Components**: 3 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Schutz vor Magie"`  
-
-## Beute Bewahren
-
-**Description**:  
-Dieser Zauber verhindert, dass ein Teil der sonst im Kampf zerstörten Gegenstände beschädigt wird. Die Verluste reduzieren sich um 5% pro Stufe des Zaubers bis zu einem Minimum von 25%.  
-**Type**: Postkampfzauber  
-**Level**: 3  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Beute Bewahren"`  
-
-## Schutzzauber
-
-**Description**:  
-Dieser Zauber verstärkt die natürliche Widerstandskraft gegen Magie. Eine so geschützte Einheit ist auch gegen Kampfmagie weniger empfindlich. Pro Stufe reicht die Kraft des Magiers aus, um 5 Personen zu schützen.  
-**Type**: Normaler Zauber  
-**Level**: 3  
-**Rank**: 2  
-**Components**: 5 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Schutzzauber" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Astraler Ausgang
-
-**Description**:  
-Der Magier konzentriert sich auf die Struktur der Realität und kann so die astrale Ebene verlassen. Er kann insgesamt (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
-**Type**: Normaler Zauber  
-**Level**: 4  
-**Rank**: 7  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Astraler Ausgang" &lt;x&gt; &lt;y&gt; &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Astraler Weg
-
-**Description**:  
-Alte arkane Formeln ermöglichen es dem Magier, sich und andere in die astrale Ebene zu schicken. Der Magier kann (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
-**Type**: Normaler Zauber  
-**Level**: 4  
-**Rank**: 7  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Astraler Weg" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Astrale Schwächezone
-
-**Description**:  
-Mit diesem Zauber kann der Magier eine Zone der astralen Schwächung erzeugen, ein lokales Ungleichgewicht im Astralen Feld. Dieses Zone wird bestrebt sein, wieder in den Gleichgewichtszustand zu gelangen. Dazu wird sie jedem in dieser Region gesprochenen Zauber einen Teil seiner Stärke entziehen, die schwächeren gar ganz absorbieren.  
-**Type**: Normaler Zauber  
-**Level**: 5  
-**Rank**: 2  
-**Components**: 3 Aura \* Stufe  
-**Modifikationen**: Fernzauber  
-**Syntax**: `CAST \[REGION x y\] \[LEVEL n\] "Astrale Schwächezone"`  
-
-## Auratransfer
-
-**Description**:  
-Mit Hilfe dieses Zauber kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen.  
-**Type**: Normaler Zauber  
-**Level**: 5  
-**Rank**: 1  
-**Components**: 1 Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Auratransfer" &lt;Einheit-Nr&gt; &lt;Aura&gt;`  
-
-## Magiefresser
-
-**Description**:  
-Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
-**Type**: Normaler Zauber  
-**Level**: 5  
-**Rank**: 2  
-**Components**: 4 Aura \* Stufe  
-**Modifikationen**: Fernzauber, Schiffszauber  
-**Syntax**: `CAST \[REGION x y\] \[LEVEL n\] "Magiefresser" ( REGION | UNIT &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\] | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )`  
-
-## Schockwelle
-
-**Description**:  
-Dieser Zauber läßt eine Welle aus purer Kraft über die gegnerischen Reihen hinwegfegen. Viele Kämpfer wird der Schock so benommen machen, daß sie für einen kurzen Moment nicht angreifen können.  
-**Type**: Kampfzauber  
-**Level**: 5  
-**Rank**: 5  
-**Components**: 1 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Schockwelle"`  
-
-## Astraler Ruf
-
-**Description**:  
-Ein Magier, der sich in der astralen Ebene befindet, kann mit Hilfe dieses Zaubers andere Einheiten zu sich holen. Der Magier kann (Stufe-3)\*15 kg durch das kurzzeitig entstehende Tor schicken. Ist der Magier erfahren genug, den Zauber auf Stufen von 13 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 7  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Astraler Ruf" &lt;x&gt; &lt;y&gt; &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Erschaffe ein Amulett des wahren Sehens
-
-**Description**:  
-Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen. Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen. Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Erschaffe ein Amulett des wahren Sehens"`  
-
-## Erschaffe einen Ring der Unsichtbarkeit
-
-**Description**:  
-Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen. Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag. In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 50 Aura, 3000 Silber, 1 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Erschaffe einen Ring der Unsichtbarkeit"`  
-
-## Luftschiff
-
-**Description**:  
-Diese magischen Runen bringen ein Boot oder Langboot für eine Woche zum Fliegen. Damit kann dann auch Land überquert werden. Für die Farbe der Runen muss eine spezielle Tinte aus einem Windbeutel und einem Schneekristall angerührt werden.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 5  
-**Components**: 10 Aura, 1 Windbeutel, 1 Schneekristall  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Luftschiff" &lt;Schiff-Nr&gt;`  
-
-## Ruf der Realität
-
-**Description**:  
-Ein Magier, welcher sich in der materiellen Welt befindet, kann er mit Hilfe dieses Zaubers Einheiten aus der angrenzenden Astralwelt herbeiholen. Ist der Magier erfahren genug, den Zauber auf Stufen von 13 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen in die materielle Welt zwingen.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 7  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Ruf der Realität" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Stehle Aura
-
-**Description**:  
-Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen dessen Willen entziehen und sich selber zuführen.  
-**Type**: Normaler Zauber  
-**Level**: 6  
-**Rank**: 3  
-**Components**: 2 Aura \* Stufe  
-**Modifikationen**: Fernzauber  
-**Syntax**: `CAST \[REGION x y\] \[LEVEL n\] "Stehle Aura" &lt;Einheit-Nr&gt;`  
-
-## Erschaffe Antimagiekristall
-
-**Description**:  
-Mit Hilfe dieses Zauber entzieht der Magier einem Quarzkristall all seine magischen Energien. Der Kristall wird dann, wenn er zu feinem Staub zermahlen und verteilt wird, die beim Zaubern freigesetzten magischen Energien aufsaugen und die Kraft aller Zauber reduzieren, welche in der betreffenden Woche in der Region gezaubert werden.  
-**Type**: Normaler Zauber  
-**Level**: 7  
-**Rank**: 5  
-**Components**: 50 Aura, 3000 Silber  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Erschaffe Antimagiekristall"`  
-
-## Fluch brechen
-
-**Description**:  
-Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
-**Type**: Normaler Zauber  
-**Level**: 7  
-**Rank**: 3  
-**Components**: 3 Aura \* Stufe  
-**Modifikationen**: Fernzauber, Schiffszauber  
-**Syntax**: `CAST \[REGION x y\] \[LEVEL n\] "Fluch brechen" ( REGION | UNIT &lt;Einheit-Nr&gt; | SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; ) &lt;Zauber-ID&gt;`  
-
-## Mauern der Ewigkeit
-
-**Description**:  
-Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern des Gebäudes. Ein solchermaßen verzaubertes Gebäude ist gegen den Zahn der Zeit geschützt und benötigt keinen Unterhalt mehr.  
-**Type**: Normaler Zauber  
-**Level**: 7  
-**Rank**: 5  
-**Components**: 50 Aura, 1 permanente Aura  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Mauern der Ewigkeit" &lt;Gebäude-Nr&gt;`  
-
-## Runen des Schutzes
-
-**Description**:  
-Zeichnet man diese Runen auf die Wände eines Gebäudes oder auf die Planken eines Schiffes, so wird es schwerer durch Zauber zu beeinflussen sein. Jedes Ritual erhöht die Widerstandskraft des Gebäudes oder Schiffes gegen Verzauberung um 20%. Werden mehrere Schutzzauber übereinander gelegt, so addiert sich ihre Wirkung, doch ein hundertprozentiger Schutz läßt sich so nicht erreichen. Der Zauber hält mindestens drei Wochen an, je nach Talent des Magiers aber auch viel länger.  
-**Type**: Normaler Zauber  
-**Level**: 8  
-**Rank**: 2  
-**Components**: 20 Aura  
-**Modifikationen**:  
-**Syntax**: `CAST "Runen des Schutzes" ( SCHIFF &lt;Schiff-Nr&gt; | BURG &lt;Gebäude-Nr&gt; )`  
-
-## Schild des Fisches
-
-**Description**:  
-Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln, so wie der Fisch im Wasser auch nicht dort ist wo er zu sein scheint. Von jedem Treffer kann so die Hälfte des Schadens unschädlich abgeleitet werden. Doch hält der Schild nur einige Hundert Schwerthiebe aus, danach wird er sich auflösen. Je stärker der Magier, desto mehr Schaden hält der Schild aus.  
-**Type**: Präkampfzauber  
-**Level**: 8  
-**Rank**: 2  
-**Components**: 4 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Schild des Fisches"`  
-
-## Beschleunigung
-
-**Description**:  
-Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können.  
-**Type**: Präkampfzauber  
-**Level**: 9  
-**Rank**: 5  
-**Components**: 5 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Beschleunigung"`  
-
-## Erschaffe einen Ring der Macht
-
-**Description**:  
-Dieses mächtige Ritual erschafft einen Ring der Macht. Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
-**Type**: Normaler Zauber  
-**Level**: 9  
-**Rank**: 5  
-**Components**: 100 Aura, 1 permanente Aura, 4000 Silber  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Erschaffe einen Ring der Macht"`  
-
-## Blick in die Realität
-
-**Description**:  
-Der Magier kann mit Hilfe dieses Zaubers aus der Astral- in die materielle Ebene blicken und die Regionen und Einheiten genau erkennen.  
-**Type**: Normaler Zauber  
-**Level**: 10  
-**Rank**: 5  
-**Components**: 40 Aura  
-**Modifikationen**:  
-**Syntax**: `CAST "Blick in die Realität"`  
-
-## Erschaffe einen Beutel des Negativen Gewichts
-
-**Description**:  
-Dieser Beutel umschließt eine kleine Dimensionsfalte, in der bis zu 200 Gewichtseinheiten transportiert werden können, ohne dass sie auf das Traggewicht angerechnet werden. Pferde und andere Lebewesen sowie besonders sperrige Dinge (Wagen und Katapulte) können nicht in dem Beutel transportiert werden. Auch ist es nicht möglich, einen Zauberbeutel in einem anderen zu transportieren. Der Beutel selber wiegt 1 kg.  
-**Type**: Normaler Zauber  
-**Level**: 10  
-**Rank**: 5  
-**Components**: 30 Aura, 1 permanente Aura, 5000 Silber  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST "Erschaffe einen Beutel des Negativen Gewichts"`  
-
-## Zeitdehnung
-
-**Description**:  
-Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern. Auf diese Weise veränderte Personen bekommen für einige Wochen doppelt soviele Bewegungspunkte und doppelt soviele Angriffe pro Runde.  
-**Type**: Normaler Zauber  
-**Level**: 11  
-**Rank**: 5  
-**Components**: 5 Aura \* Stufe  
-**Modifikationen**: Schiffszauber  
-**Syntax**: `CAST \[LEVEL n\] "Zeitdehnung" &lt;Einheit-Nr&gt; \[&lt;Einheit-Nr&gt; ...\]`  
-
-## Rüstschild
-
-**Description**:  
-Diese vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung. Jeder Treffer reduziert die Kraft des Zaubers, so dass der Schild sich irgendwann im Kampf auflösen wird.  
-**Type**: Präkampfzauber  
-**Level**: 12  
-**Rank**: 2  
-**Components**: 4 Aura \* Stufe  
-**Modifikationen**:  
-**Syntax**: `COMBATSPELL \[LEVEL n\] "Rüstschild"`  
-
-## Vertrauten rufen
-
-**Description**:  
-Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
-**Type**: Normaler Zauber  
-**Level**: 12  
-**Rank**: 5  
-**Components**: 100 Aura, 5 permanente Aura  
-**Modifikationen**:  
-**Syntax**: `CAST "Vertrauten rufen"`  
-
-## Belebtes Gestein
-
-**Description**:  
-Dieses kräftezehrende Ritual beschwört mit Hilfe einer Kugel aus konzentriertem Laen einen gewaltigen Erdelementar und bannt ihn in ein Gebäude. Dem Elementar kann dann befohlen werden, das Gebäude mitsamt aller Bewohner in eine Nachbarregion zu tragen. Die Stärke des beschworenen Elementars hängt vom Talent des Magiers ab: Der Elementar kann maximal \[Stufe-12\]\*250 Größeneinheiten große Gebäude versetzen. Das Gebäude wird diese Prozedur nicht unbeschädigt überstehen.  
-**Type**: Normaler Zauber  
-**Level**: 13  
-**Rank**: 5  
-**Components**: 10 Aura \* Stufe, 1 permanente Aura, 5 Laen  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Belebtes Gestein" &lt;Gebäude-Nr&gt; &lt;Richtung&gt;`  
-
-## Störe Astrale Integrität
-
-**Description**:  
-Dieser Zauber bewirkt eine schwere Störung des Astralraums. Innerhalb eines astralen Radius von Stufe/5 Regionen werden alle Astralwesen, die dem Zauber nicht wiederstehen können, aus der astralen Ebene geschleudert. Der astrale Kontakt mit allen betroffenen Regionen ist für Stufe/3 Wochen gestört.  
-**Type**: Normaler Zauber  
-**Level**: 14  
-**Rank**: 4  
-**Components**: 140 Aura  
-**Modifikationen**:  
-**Syntax**: `CAST \[LEVEL n\] "Störe Astrale Integrität"`  
-
-## Opfere Kraft
-
-**Description**:  
-Mit Hilfe dieses Zaubers kann der Magier einen Teil seiner magischen Kraft permanent auf einen anderen Magier übertragen. Auf einen Tybied-Magier kann er die Hälfte der eingesetzten Kraft übertragen, auf einen Magier eines anderen Gebietes ein Drittel.  
-**Type**: Normaler Zauber  
-**Level**: 15  
-**Rank**: 1  
-**Components**: 100 Aura  
-**Modifikationen**:  
-**Syntax**: `CAST "Opfere Kraft" &lt;Einheit-Nr&gt; &lt;Aura&gt;`  
+## Level 1
+
+### Analyze Magic
+
+:   This spell allows the magician to attempt to detect the enchantments of a single specified object.  
+    He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
+    With stronger spells he needs a little luck for a successful analysis.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+### Concealing Aura
+
+:   This spell will obscure all of the target unit"s equipment from view for a period of time.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] "Concealing Aura" <unit-id>`  
+
+### Miracle Doctor
+
+:   If the alchemist cannot help you, you go to the learned Tybied magician.  
+    His potions and tinctures help against everything you can"t get otherwise.  
+    Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who doesn't know how to read will never know.  
+    It definitely helps the magician...fill his wallet.  
+    You can earn 50 silver per level in a week.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] "Miracle Doctor"`  
+
+### Protection from Magic
+
+:   This spell places an antimagic field around enemy mages, significantly hindering their spell casting.  
+    Only a few will have the strength to penetrate the field and aid their troops in battle.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 3 x T auras |   2 | Pre-c. |  2   |      |       |
+
+`COMBATSPELL [LEVEL n] "Protection from Magic"`  
+
+### Save Spoils
+
+:   This spell prevents some of the objects that would otherwise be destroyed in battle from being damaged.  
+    Losses are reduced by 5% per level of the spell, up to a minimum of 25%.
+
+| Components | Lvl |    Type | Rank | Ship | Dist. |
+|------------|----:|--------:|:----:|:-----|:------|
+| T auras    |   3 | Post-c. |  5   |      |       |
+
+### Resist Magic
+
+:   This spell increases your natural resistance to magic.  
+    A unit protected in this way is also less vulnerable to combat magic.  
+    Per level, the magician"s power is enough to protect 5 people.
+
+| Components  | Lvl |   Type | Rank | Ship               | Dist. |
+|-------------|----:|-------:|:----:|:-------------------|:------|
+| 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
+
+### Astral Exit
+
+:   The magician concentrates on the structure of reality and can thus leave the Astral plane.  
+    He can overall (Level-3)*Send 15 kg through the briefly created gate.  
+    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 2 x T auras |   4 | Normal |  7   |      |       |
+
+`CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
+
+### Astral Path
+
+:   Ancient arcane formulas allow the magician to send himself and others into the Astral plane.  
+    The magician can (level 3)*Send 15 kg through the briefly created gate.  
+    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 2 x T auras |   4 | Normal |  7   |      |       |
+
+`CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
+
+### Antimagic
+
+:   With this spell the magician can create a zone of Astral weakening, a local imbalance in the Astral field.  
+    This zone will strive to return to equilibrium.  
+    To do this, it will remove part of the strength of every spell cast in this region and even completely absorb the weaker ones.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist.              |
+|-------------|----:|-------:|:----:|:-----|:-------------------|
+| 3 x T auras |   5 | Normal |  2   |      | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Antimagic"`  
+
+### Transfer Aura
+
+:   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| 1 aura     |   5 | Normal |  1   | :heavy_check_mark: |       |
+
+`CAST "Transfer aura" <unit-id> <Aura>`  
+
+### Destroy Magic
+
+:   This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
+
+| Components  | Lvl |   Type | Rank | Ship               | Dist.              |
+|-------------|----:|-------:|:----:|:-------------------|:-------------------|
+| 4 x T auras |   5 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+### Shockwave
+
+:   This spell causes a wave of pure power to sweep across the enemy ranks.  
+    The shock will leave many fighters so dazed that they will be unable to attack for a brief moment.
+
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| T auras    |   5 | Combat |  5   |      |       |
+
+`COMBATSPELL [LEVEL n] Shockwave`  
+
+### Astral Call
+
+:   A magician who is in the Astral plane can use this spell to bring other units to him.  
+    The magician can (level 3)*Send 15 kg through the briefly created gate.  
+    If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 2 x T auras |   6 | Normal |  7   |      |       |
+
+`CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
+
+### Create an [[amulet-of-true-sight]]
+
+:   The spell allows a magician to create an [[amulet-of-true-sight]].  
+    The amulet allows the wearer to see all units protected by a ring of invisibility.  
+    However, units that use their [[camouflage]] skill to hide still remain undetected.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create An Amulet of True Sight"`  
+
+### Create a [[ring-of-invisibility]]
+
+:   With this spell the wizard can create a ring of invisibility.  
+    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    In an invisible unit, each person must wear a ring.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Ring of Invisibility"`  
+
+### Airship
+
+:   These magical runes make a boat or longboat fly for a week.  
+This can then also be used to cross land.  
+For the color of the runes, a special ink must be mixed from a cream puff and a snow crystal.
+
+| Components                                           | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 10 auras, 1 [gousse], 1 [pétale de cristal de neige] |   6 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST Airship <ship-id>`  
+
+### Call of Reality
+
+:   A magician who is in the material world can use this spell to summon units from the adjacent Astral world.  
+    If the magician is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 2 x T auras |   6 | Normal |  7   |      |       |
+
+`CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
+
+### Steal Aura
+
+:   With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist.              |
+|-------------|----:|-------:|:----:|:-----|:-------------------|
+| 2 x T auras |   6 | Normal |  3   |      | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
+
+### Create an [[antimagic-crystal|Antimagic Crystal]]
+
+:   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
+    The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
+
+| Components             | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 3 000 silver |   7 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create An Antimagic Crystal"`  
+
+### Negate Curse
+
+:   This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
+
+| Components  | Lvl |   Type | Rank | Ship               | Dist.              |
+|-------------|----:|-------:|:----:|:-------------------|:-------------------|
+| 3 x T auras |   7 | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+
+`CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
+
+### Eternal Walls
+
+:   With this formula, the magician binds the forces of the earth into the walls of the building forever.  
+    A building enchanted in this way is protected against the ravages of time and no longer requires any maintenance.
+
+| Components                 | Lvl |   Type | Rank | Ship               | Dist. |
+|----------------------------|----:|-------:|:----:|:-------------------|:------|
+| 50 auras, 1 permanent aura |   7 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] "Eternal Walls" <building-id>`  
+
+### Protective Runes
+
+:   If you draw these runes on the walls of a building or on the planks of a ship, it will be more difficult to influence by magic.  
+    Each ritual increases the building or ship"s resistance to enchantment by 20%.  
+    If several protective spells are placed on top of each other, their effects are added together, but 100% protection cannot be achieved this way.  
+    The spell lasts at least three weeks, but depending on the magician"s skill it can last much longer.
+
+| Components | Lvl |   Type | Rank | Ship               | Dist. |
+|------------|----:|-------:|:----:|:-------------------|:------|
+| 20 auras   |   8 | Normal |  2   | :heavy_check_mark: |       |
+
+`CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
+
+### Shield of the Fish
+
+:   This spell can give the enemy a slightly different image of their own troops, just like the fish in the water is not where it seems to be.  
+    In this way, half of the damage from each hit can be rendered harmless.  
+    But the shield can only withstand a few hundred sword blows, after which it will disintegrate.  
+    The stronger the magician, the more damage the shield can withstand.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 4 x T auras |   8 | Pre-c. |  2   |      |       |
+
+`COMBATSPELL [LEVEL n] "Shield of the Fish"`  
+
+### Acceleration
+
+:   This spell speeds up some fighters on your side so that they can attack twice in one combat round throughout the entire combat.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 5 x T auras |   9 | Pre-c. |  5   |      |       |
+
+`COMBATSPELL [LEVEL n] Acceleration`  
+
+### Create a [[ring-of-power]]
+
+:   This powerful ritual creates a ring of power.  
+    A ring of power increases the power of any spell its wearer casts, as if the mage were one level better.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 100 auras, 1 permanent aura, 4000 silver |   9 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Ring of Power"`  
+
+### Blick in die Realität <!-- TODO -->
+
+:   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
+
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| 40 auras   |  10 | Normal |  5   |      |       |
+
+`CAST "Blick in die Realität"`  
+
+### Create a [[negative-weight-bag]] <!-- TODO: check -->
+
+:   This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight.  
+    Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag.  
+    It is also not possible to transport one magic bag in another.  
+    The bag itself weighs 1 kg.
+
+| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
+| 30 auras, 1 permanent aura, 5 000 silver |  10 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+
+### Zeitdehnung <!-- TODO -->
+
+:   This practical application of theoretical knowledge of space and time makes it possible to change the flow of time for some people.  
+    People modified in this way get twice as many movement points and twice as many attacks per round for a few weeks.
+
+| Components  | Lvl |   Type | Rank | Ship               | Dist. |
+|-------------|----:|-------:|:----:|:-------------------|:------|
+| 5 x T auras |  11 | Normal |  5   | :heavy_check_mark: |       |
+
+`CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
+
+### Armor Shield  <!-- TODO -->
+<!-- TODO: check if it is really Armor Shield -->
+
+:   This ritual, which can be cast before battle, gives your troops an additional bonus to their armor.  
+    Each hit reduces the spell"s power, so the shield will dissipate at some point in the fight.
+
+| Components  | Lvl |   Type | Rank | Ship | Dist. |
+|-------------|----:|-------:|:----:|:-----|:------|
+| 4 x T auras |  12 | Pre-c. |  2   |      |       |
+
+`COMBATSPELL [LEVEL n] "Armor Shield"`  
+
+### Summon Familiar
+
+:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+
+| Components                   | Lvl |   Type | Rank | Ship | Dist. |
+|------------------------------|----:|-------:|:----:|:-----|:------|
+| 100 auras, 5 permanent auras |  12 | Normal |  5   |      |       |
+
+`CAST "Summon Familiar"`  
+
+### Belebtes Gestein <!-- TODO -->
+
+:   This energy-sapping ritual uses a ball of concentrated Laen to summon a massive earth elemental and banish it to a building.  
+    The elemental can then be ordered to carry the building and all its inhabitants to a neighboring region.  
+    The strength of the summoned elemental depends on the skill of the magician: the elemental can do maximum[Level-12]*Move 250 size units buildings.  
+    The building will not survive this procedure unscathed.
+
+| Components                               | Lvl |   Type | Rank | Ship | Dist. |
+|------------------------------------------|----:|-------:|:----:|:-----|:------|
+| 10 x T auras, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
+
+`CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
+
+### Störe Astrale Integrität <!-- TODO -->
+
+:   This spell causes severe disruption to the Astral space.  
+    Within an Astral radius of level/5 regions, all Astral beings who cannot resist the spell are thrown out of the Astral plane.  
+    Astral contact with all affected regions is disrupted for level/3 weeks.
+
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| 140 auras  |  14 | Normal |  4   |      |       |
+
+`CAST [LEVEL n] "Störe Astrale Integrität"`  
+
+### Opfere Kraft  <!-- TODO -->
+
+:   With the help of this spell, the magician can permanently transfer part of his magical power to another magician.  
+    He can transfer half of the power used to a magician of the same magic area, and a third to other magicians.
+
+| Components | Lvl |   Type | Rank | Ship | Dist. |
+|------------|----:|-------:|:----:|:-----|:------|
+| 100 auras  |  15 | Normal |  1   |      |       |
+
+`CAST "Opfere Kraft" <unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->

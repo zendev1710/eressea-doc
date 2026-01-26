@@ -242,8 +242,8 @@ metaFriendFoeCallback(HashMap tmpCallback){
 ### Meta orders checker
 
 This is also a little more complicated.
-Is done using `metaCommandChecker("party#");` called.
-This means that units get the lines `// m/abbauen/stein` or have also set the corresponding commands for iron or wood.
+Is done using `metaCommandChecker("faction#");` called.
+This means that units get the lines `// m/abbauen/stein` or have also set the corresponding orders for iron or wood.
 
 ```java
 /*********************************************

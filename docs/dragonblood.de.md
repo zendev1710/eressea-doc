@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: dragonblut
+alias: drachenblut
 ---
 
-# Dragonblut
+# Drachenblut

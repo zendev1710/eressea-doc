@@ -32,7 +32,7 @@ The advantages of `TEACH`/`LEARN` are:
 - Teachers and learners do not have to belong to the same faction
 - Units that are not allowed to teach (e.g. most familiars) can still be taught
 
-The advantages of `LEARN AUTO` are the folllowing:
+The advantages of `LEARN AUTO` are the following:
 
 - It's less detailed work and can be left alone for several weeks
 - Units that are not fully used as teachers use the remaining capacity to learn themselves

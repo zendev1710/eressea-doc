@@ -90,7 +90,7 @@ Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateau
 L'unité cible devient le commandant d'un convoi.
 L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas.
 L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau.
-Le talent total de l'équipage doit également être un multiple correspondant au nombre de bateaux.
+La compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.
 La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.
 
 Exemple :

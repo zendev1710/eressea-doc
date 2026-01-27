@@ -39,7 +39,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
-## Sort de niveau 2
+## Niveau 2
 
 ### Boule de feu
 
@@ -55,7 +55,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `COMBATSPELL [LEVEL n] "Fireball"`  
 
-## Sort de niveau 3
+## Niveau 3
 
 ### Don du Chaos
 
@@ -72,7 +72,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Chaos Gift"`  
 
-## Sort de niveau 4
+## Niveau 4
 
 ### Petit sacrifice de sang
 
@@ -429,7 +429,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST "Create A Flaming Sword"`  
 
-## Sort de niveau 13
+## Niveau 13
 
 ### Invocation du Familier
 
@@ -479,10 +479,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
 
-[Dragons]: ./monsters.md#dragons
+[Dragons]: ./monsters.md#dragons "Dragons"
 [amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Vision"
 [anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
-[camouflage]: ./camouflage.md
+[camouflage]: ./camouflage.md "Stealth"
 
 [sang de berserker]: ./alchemy.fr.md#sang-de-berserker "Berserkers blood"
 [épée]: ./war-tables.md#epee "Sword"

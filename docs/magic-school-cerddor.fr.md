@@ -221,7 +221,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 ## Niveau 6
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [[amulette-de-vision-decuplee]]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
@@ -526,7 +526,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
-## Sort de niveau 13
+## Niveau 13
 
 ### Gesang der Versklavung
 
@@ -543,7 +543,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST "Gesang der Versklavung" <unit-id>`  
 
-## Sort de niveau 14
+## Niveau 14
 
 ### Hohe Kunst der Überzeugung
 
@@ -561,7 +561,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
-## Sort de niveau 15
+## Niveau 15
 
 ### Aufruhr beschwichtigen
 
@@ -574,7 +574,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
-## Sort de niveau 16
+## Niveau 16
 
 ### Aufruhr verursachen
 
@@ -590,6 +590,6 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
 
-[amulette de vision décuplée]: ./amulet-of-true-sight.md
-[camouflage]: ./camouflage.md
+[amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Sight"
+[camouflage]: ./camouflage.md "Stealth"
 [anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"

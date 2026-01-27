@@ -456,3 +456,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 `ZAUBERE [REGION x y] 'Aufruhr verursachen'`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
+
+[Amulett des wahren Sehens]: ./amulet-of-true-sight.md
+[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
+[knotiger saugwurz]: ./herbs.md#knotiger-saugwurz

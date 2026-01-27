@@ -108,17 +108,6 @@ alias: draigzauber
 
 ## Stufe 6
 
-### Erschaffe einen [magischen Kräuterbeutel]
-
-:   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
-    Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
-
-|                    Komponenten                    | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :heavy_check_mark: |       |
-
-`ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
-
 ### Mächte des Todes
 
 :   Nächtelang muss der Schwarzmagier durch die Friedhöfe und Gräberfelder der Region ziehen um dann die ausgegrabenen Leichen beleben zu können.  
@@ -311,18 +300,16 @@ alias: draigzauber
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattenmeister'`  
 
-### Erschaffe ein [Traumauge]
+### Erschaffe ein [Flammenschwert]
 
-:   Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen.  
-    Lange Zeit wurde eine solche Fähigkeit für nutzlos erachtet, bis die ehemalige waldelfische Magistra für Kampfmagie, Liarana Sonnentau von der Akademie Thall, eine besondere Anwendung vorstellte: Feldherren träumen vor großen Kämpfen oft unruhig und verraten im Traum ihre Pläne.  
-    Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben.  
-    Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
+:   'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.  
+    Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
 
-|              Komponenten              | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 1 [[drachenkopf]], 5 permanente auras |  14   | Normal |  5   | :heavy_check_mark: |       |
+|                         Komponenten                         | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:-----------------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+| 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :heavy_check_mark: |       |
 
-`ZAUBERE 'Erschaffe ein Traumauge'`  
+`ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
 ## Stufe 13
 
@@ -361,3 +348,13 @@ alias: draigzauber
 `ZAUBERE [STUFE n] 'Unheilige Kraft' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
+
+[Drachen]: ./monsters.md#drachen
+[Amulett des wahren Sehens]: ./amulet-of-true-sight.md
+[Ring der Macht]: ./ring-of-power.md
+[Flammenschwert]: ./flaming-sword.md
+[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
+
+[berserkerblut]: ./alchemy.md#berserkerblut
+[schwert]: ./war-tables.md#schwert
+[öl]: ./silver.md#ol

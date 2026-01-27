@@ -144,6 +144,8 @@ plugins:
           nav_translations:
             Home: Hauptseite
             Getting-started: Erste Schritte
+            Rules: Regeln
+            Introduction: Einleitung
             Gameplay: Spielablauf
             Exploration: Erforschung
             Production: Produktion
@@ -151,8 +153,19 @@ plugins:
             Magic: Magie
             Alchemy: Alchemie
             Orders: Befehle
+            Misc: Versch
             References: Referenzen
-            Help: helfen
+            Help: Helfen
+            Weekly reports: Wochenbericht
+            Hints: Hinweise
+            Beginner tips: Anfängertipps
+            Basics: Grundlagen
+            Sending orders: Befehle einschicken
+            Sending orders from Magellan: Befehle von Magellan verschicken
+            Puppy protection: Welpenschutz
+            The World: Welt
+            Factions and units: Parteien und einheiten
+            Races: Rassen
       docs_structure: suffix
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 

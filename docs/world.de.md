@@ -72,11 +72,11 @@ So kann man durch Holzfällen einen Wald zu einer Ebene machen oder umgekehrt du
 | Vulkan    | 500                       | 50                                               | 250                             | --                                                                                      |
 
 Wird die Zahl vorhandener Arbeitsplätze überschritten, wird es für die Bauern sehr schwierig den benötigen Wochenlohn zu erwirtschaften - auch Bauern brauchen jede Runde 10 Silber um zu überleben, die sie durch [Arbeit] verdienen.  
-Größere [[Burgen]] geben zwar einen kleinen Bonus auf den Silberverdienst durch Arbeit in der Region, so dass eventuell die arbeitenden Bauern einige andere Bauern der Region mitversorgen können, aber das Risiko, dass Bauern sterben, zum Beispiel durch eine Pest, steigt enorm, wenn die Anzahl der verfügbaren Arbeitsplätze klein ist.  
+Größere [[burgen]] geben zwar einen kleinen Bonus auf den Silberverdienst durch Arbeit in der Region, so dass eventuell die arbeitenden Bauern einige andere Bauern der Region mitversorgen können, aber das Risiko, dass Bauern sterben, zum Beispiel durch eine Pest, steigt enorm, wenn die Anzahl der verfügbaren Arbeitsplätze klein ist.  
 Des Weiteren können auch keine Spieler-Einheiten in dieser Region mehr arbeiten, sollten alle Arbeitsplätze belegt sein.  
 
-Die Geländeart legt außerdem fest, welche [[Kräuter]] in der Region wachsen können.  
-Ein Alchemist wird aus unterschiedlichen Zutaten hilfreiche [[Tränke]] brauen können.  
+Die Geländeart legt außerdem fest, welche [[kraeuter]] in der Region wachsen können.  
+Ein Alchemist wird aus unterschiedlichen Zutaten hilfreiche [[alchemie|Tränke]] brauen können.  
 Manche Kräuter gedeihen nur in Wüsten, andere brauchen das sumpfige Klima eines Moors, so gibt es für jedes Terrain Kräuter, die nur dort wachsen können.  
 Das dort wachsende Kraut kann allerdings nicht verändert werden.  
 Selbst wenn alle Kräuter aus der Region gezupft wurden, kann nur das ursprünglich dort wachsende Kraut wieder [angepflanzt] werden.  

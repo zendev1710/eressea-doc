@@ -439,7 +439,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
-## Sort de niveau 11
+## Niveau 11
 
 ### Zeitdehnung
 
@@ -488,7 +488,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST "Summon Familiar"`  
 
-## Sort de niveau 13
+## Niveau 13
 
 ### Belebtes Gestein
 
@@ -507,7 +507,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
-## Sort de niveau 14
+## Niveau 14
 
 ### Störe Astrale Integrität
 
@@ -525,7 +525,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
-## Sort de niveau 15
+## Niveau 15
 
 ### Opfere Kraft
 

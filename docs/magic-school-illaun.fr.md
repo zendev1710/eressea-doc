@@ -6,7 +6,7 @@ alias: sorts-illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.
 
-## Sorts de niveau 1
+## Niveau 1
 
 ### Chevaliers de l'Ombre
 
@@ -55,7 +55,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] Divination`  
 
-## Sorts de niveau 2
+## Niveau 2
 
 ### Horreurs indicibles
 
@@ -88,7 +88,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
-## Sorts de niveau 3
+## Niveau 3
 
 ### Changement de forme
 
@@ -135,7 +135,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST "Castle of Illusion" <building-type>`  
 
-## Sorts de niveau 4
+## Niveau 4
 
 ### Affaiblissement
 
@@ -166,7 +166,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
-## Sorts de niveau 5
+## Niveau 5
 
 ### Analyse des rêves
 
@@ -200,7 +200,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
-## Sorts de niveau 6
+## Niveau 6
 
 ### Créer une [[amulette-de-vision-decuplee]]
 
@@ -250,7 +250,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] Insomnia`  
 
-## Sorts de niveau 7
+## Niveau 7
 
 ### Endormissement
 
@@ -282,7 +282,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST "Mind Probe" <unit-id>`  
 
-## Sorts de niveau 8
+## Niveau 8
 
 ### Schöne Träume
 
@@ -312,7 +312,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-## Sort de niveau 9
+## Niveau 9
 
 ### Invocation du Familier
 
@@ -328,7 +328,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST "Summon Familiar"`  
 
-## Sort de niveau 10
+## Niveau 10
 
 ### Schlechte Träume
 
@@ -344,7 +344,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [REGION x y] "Schlechte Träume"`  
 
-## Sort de niveau 11
+## Niveau 11
 
 ### Tod des Geistes
 
@@ -363,7 +363,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
-## Sorts de niveau 12
+## Niveau 12
 
 ### Süße Träume
 
@@ -381,7 +381,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
-## Sort de niveau 13
+## Niveau 13
 
 ### Créer une [Sphère d'Invisibilité]
 
@@ -398,7 +398,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST "Create A Sphere of Invisibility"`  
 
-## Sort de niveau 14
+## Niveau 14
 
 ### Créer un [[dreameye]]
 

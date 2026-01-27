@@ -50,8 +50,8 @@ Irgendwann
 
 04.12.1998
 
-- Der Befehl **FINDE** fällt weg (Was hat der gemacht?).
-- Die Option **ADRESSEN** wird eingeführt.
+- Der Befehl `FINDE` fällt weg (Was hat der gemacht?).
+- Die Option `ADRESSEN` wird eingeführt.
 
 05.12.1998
 
@@ -68,11 +68,11 @@ Irgendwann
 
 08.01.1999
 
-- Das Talent **SCHIFFSBAU** wird in **SCHIFFBAU** umbenannt.
+- Das Talent `SCHIFFSBAU` wird in `SCHIFFBAU` umbenannt.
 
 14.01.1999
 
-- Das Format des **COMPUTERREPORT**s wird geändert
+- Das Format des **COMPUTERREPORTs** wird geändert
 
 23.02.1999
 
@@ -80,11 +80,11 @@ Irgendwann
 
 28.02.1999
 
-- Der Befehl **ADRESSE** wird abgeschafft. Er wird durch die Befehle **EMAIL** und BANNER **ersetzt.**
+- Der Befehl `ADRESSE` wird abgeschafft. Er wird durch die Befehle `EMAIL` und `BANNER` **ersetzt.**
 
 08.04.1999
 
-- Der Befehl **MEINUNG** wird eingeführt um Umfragen und Meinungsbilder direkt als Befehl eingeben zu können.
+- Der Befehl `MEINUNG` wird eingeführt um Umfragen und Meinungsbilder direkt als Befehl eingeben zu können.
 
 27.04.1999
 
@@ -100,7 +100,7 @@ Irgendwann
 
 09.05.1999
 
-- Betreten von Gebäuden benötigt **HELFE BEWACHE** oder **KONTAKTIERE** nicht mehr **HELFE GIB**.
+- Betreten von Gebäuden benötigt `HELFE BEWACHE` oder `KONTAKTIERE` nicht mehr `HELFE GIB`.
 
 17.05.1999
 
@@ -108,7 +108,7 @@ Irgendwann
 
 31.05.1999
 
-- **LIEFERE** und **GIB** können nun mit dem Parameter **ALLES** benutzt werden.
+- **LIEFERE** und `GIB` können nun mit dem Parameter `ALLES` benutzt werden.
 
 06.06.1999
 
@@ -123,13 +123,13 @@ Irgendwann
 
 06.06.1999
 
-- Der Befehl **ROUTE** wird abgeändert und um den Parameter **PAUSE** bereichert.
+- Der Befehl `ROUTE` wird abgeändert und um den Parameter `PAUSE` bereichert.
 
 12.09.1999
 
 - Die Einheitennummern werden auf vierstellige Base36 Nummern umgestellt.
-- Der Befehl **NUMMER \[Wunschid\]** wird eingeführt.
-- Der Parameter **BAUERN** entfällt und wird durch **0** ersetzt, da GIB BAUERN mit der Base36 Nummer baue verwechselt werden könnte.
+- Der Befehl `NUMMER [Wunschid]` wird eingeführt.
+- Der Parameter `BAUERN` entfällt und wird durch `0` ersetzt, da `GIB BAUERN` mit der Base36 Nummer `baue` verwechselt werden könnte.
 
 19.12.1999
 
@@ -149,7 +149,7 @@ Irgendwann
 
 20.2.2000
 
-- **FOLGE** ist nur noch dann ein langer Befehl wenn sich die Einheit tatsächlich bewegt.
+- `FOLGE` ist nur noch dann ein langer Befehl wenn sich die Einheit tatsächlich bewegt.
 
 28.02.2000
 
@@ -157,7 +157,7 @@ Irgendwann
 
 12.3.2000
 
-- **BEWACHEN** können nur noch bewaffnete Einheiten, die mit der Waffe umgehen können.
+- `BEWACHEN` können nur noch bewaffnete Einheiten, die mit der Waffe umgehen können.
 
 ## Zweites Zeitalter
 
@@ -183,7 +183,7 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
 ### Die "Magiereform" 08.04.2000 (Runde 184)
 
 - Das bisher universelle Magiegebiet Lirpa (Der Name stammt ursprünglich aus einer Aprilscherz Ankündigung, wurde nach Einführung der neuen Magiegebiete aber recht schnell als geläufiger Name für 'die alte Magie' eingebürgert.) wird von Draig, Illaun, Tybied, Gwyrrd und Cerddor abgelöst. Die Reform bedeutet eine drastische Abschwächung der Magie, gerade durch das Wegbleiben des Spruches Sonnenfeuer, dessen Wirkung mit keinem heute bekannten Kampfzauber zu vergleichen ist.
-- **FORSCHE** nach Sprüchen entfällt. Ein Magier kann alle Sprüche seines Magiegebietes zaubern, deren Stufe kleiner oder gleich seinem Magietalent ist.
+- `FORSCHE` nach Sprüchen entfällt. Ein Magier kann alle Sprüche seines Magiegebietes zaubern, deren Stufe kleiner oder gleich seinem Magietalent ist.
 - Magie-Lernen wird wesentlich teurer (50+50\*(1+Stufe)\*Stufe/2), insbesondere auf hohen Stufen. Früher kostete es immer 200 Silber.
 - Anstelle eines Zaubers pro Runde wird Aura eingeführt. Dadurch ist es, unter deutlicher Steigerung der Aurakosten, nun auch möglich mehrere Sprüche in einer Woche zu zaubern.
 - Nur Magier gleichen Magiegebiets können sich unterrichten.
@@ -198,10 +198,10 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
 - Die Rekrutierungskosten für Elfen, Dämonen und Insekten werden auf 130, 150 und 80 erhöht.
 - Hungerde Einheiten sterben nicht mehr mit einer Wahrscheinlichkeit von 2/3 sondern erleiden Hungerschaden; selbiges gilt für Dämonen die keine Bauern zu fressen bekommen.
 - Pro Region wächst nur noch ein Kraut, welches nachwachsen muss und nicht mehr endlos vorhanden ist.
-- Der Befehl **ZÜCHTE KRÄUTER** wird eingeführt, alternativ funktioniert auch der Befehl **ZÜCHTE BLUMEN**
+- Der Befehl `ZÜCHTE KRÄUTER` wird eingeführt, alternativ funktioniert auch der Befehl `ZÜCHTE BLUMEN`
 - Die Universität wird in Akademie umbenannt.
 - Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
-- Die Befehle **LIEFERE**, **RESERVIERE** und **//** werden nun solange ausgeführt bis gegenteilige Befehle für eine Einheit eingehen. Hat der Spieler also beispielsweise einen NMR werden diese Befehle trotzdem ausgeführt.
+- Die Befehle `LIEFERE`, `RESERVIERE` und `//` werden nun solange ausgeführt bis gegenteilige Befehle für eine Einheit eingehen. Hat der Spieler also beispielsweise einen NMR werden diese Befehle trotzdem ausgeführt.
 - Bauernblut wirkt auf 100 Dämonen in einer Region, nicht mehr nur auf eine Einheit.
 - Vertraute und der Astralraum werden eingeführt.
 
@@ -325,7 +325,7 @@ Oktober 2003 -- Anmeldung geschlossen
 - Die 1. Reihe wird im Kampf leichter zu überrennen. Dies geschieht nun schon bei einem Verhältnis von 3:1 (statt bisher 10:1).
 - Die Regeneration von Lebenspunkten wird verlangsamt.
 - Schwimmende Meermenschen können andere Rassen nicht mehr transportieren.
-- Helden werden eingeführt. Eine Einheit kann mit dem Befehl **BEFÖRDERUNG** zu einer Heldeneinheit gemacht werden. Helden teilen im Kampf zehnmal mehr Schläge aus, verhalten sich aber sonst normal und sind für den Gegner nicht von normalen Einheiten zu unterscheiden. Die Anzahl an Helden, die eine Partei besitzen darf, ist stark beschränkt und folgt der selben Formel wie die Migranten (log10(Parteigröße÷50)×20).
+- Helden werden eingeführt. Eine Einheit kann mit dem Befehl `BEFÖRDERUNG` zu einer Heldeneinheit gemacht werden. Helden teilen im Kampf zehnmal mehr Schläge aus, verhalten sich aber sonst normal und sind für den Gegner nicht von normalen Einheiten zu unterscheiden. Die Anzahl an Helden, die eine Partei besitzen darf, ist stark beschränkt und folgt der selben Formel wie die Migranten (log10(Parteigröße÷50)×20).
 
 17.4.2005 -- NEUSTART, Gewichte, etc.
 
@@ -350,7 +350,7 @@ Oktober 2003 -- Anmeldung geschlossen
 
 13.9.2005 -- Bewegung nach Kampf
 
-- Lange Befehle nach kurzen Kämpfen möglich; **NACH**, **ROUTE** etc. nur, wenn keine der Einheiten aus der *Partei* einen langen Kampf hatte.
+- Lange Befehle nach kurzen Kämpfen möglich; `NACH`, `ROUTE` etc. nur, wenn keine der Einheiten aus der *Partei* einen langen Kampf hatte.
 
 31.1.2007/14.2.2007 -- Kampfregeln (Runde 513)
 
@@ -358,7 +358,7 @@ Oktober 2003 -- Anmeldung geschlossen
 - Kämpfe in anderen Regionen sind kurz, wenn eine befreundete Einheit die Region bewacht hat.
 - Schiffe bekommen ab der 2. Kampfrunde Schaden, wenn mindestens eine Person auf dem Schiff Schaden bekommt.
 - Fliehende Einheiten bleiben in der Region und verlieren keine Gegenstände.
-- Einheiten mit **KÄMPFE FLIEHE** können sich noch bewegen.
+- Einheiten mit `KÄMPFE FLIEHE` können sich noch bewegen.
 - Vorher galt ungefähr: Ein Kampf war lang, wenn er über eine Runde dauerte. Fliehende Einheiten warfen fast alle Gegenstände weg und flohen in eine zufällige Nachbarregion.
 
 15.11.2007 -- Unicode

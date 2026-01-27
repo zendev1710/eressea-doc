@@ -6,7 +6,7 @@ alias: hauptseite
 
 Willkommen auf [[eressea]]!
 
-!!! warning "wichtig"
+!!! warning "Wichtig"
     Die auf dieser Seite beschriebenen Regeln **sind nicht offiziel**.  
 
     Die **offiziellen Spielregeln** sind in **[diesem Wiki]** verfügbar.  

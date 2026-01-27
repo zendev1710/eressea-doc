@@ -13,9 +13,9 @@ alias: draig-spells
     Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
     For this service, the magician earns 50 silver per level.
 
-| Components | Lvl |   Type | Rank | Ship               | Dist. |
-|------------|----:|-------:|:----:|:-------------------|:------|
-| L auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
+|  L auras   |  1  | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST [LEVEL n] "Minor Curses"`  
 
@@ -23,9 +23,9 @@ alias: draig-spells
 
 :   The magician"s target is afflicted by a harmless curse.
 
-| Components | Lvl |   Type | Rank | Ship | Dist. |
-|------------|----:|-------:|:----:|:-----|:------|
-| L auras    |   1 | Normal |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+|  L auras   |  1  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
@@ -34,9 +34,9 @@ alias: draig-spells
 :   The sorcerer hurls focused chaos into the enemy"s ranks.  
     The ball-shaped chaos will wound anyone it hits.
 
-| Components | Lvl |   Type | Rank | Ship | Dist. |
-|------------|----:|-------:|:----:|:-----|:------|
-| L auras    |   2 | Combat |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+|  L auras   |  2  | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Fireball`  
 
@@ -45,9 +45,9 @@ alias: draig-spells
 :   The magician opens his mind to the spheres of chaos and will thus have more magical power for some time.  
     But the help of the Lords of the Spheres comes at a price, and so the phase of power is replaced by a phase of weakness.
 
-| Components | Lvl |   Type | Rank | Ship               | Dist. |
-|------------|----:|-------:|:----:|:-------------------|:------|
-| 6 auras    |   3 | Normal |  3   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
+|  6 auras   |  3  | Normal |  3   | :heavy_check_mark: |       |
 
 `CAST "Chaos Gift"`  
 
@@ -58,9 +58,9 @@ alias: draig-spells
     So it is written in the "Book of Blood": "So let He establish the sign of the four elements in the circle of creation and decay and consecrate each one with a drop of blood.  
     Then let He go into the midst of the Eternal Four and let life pass away so that strength can be born."
 
-| Components | Lvl |   Type | Rank | Ship               | Dist. |
-|------------|----:|-------:|:----:|:-------------------|:------|
-| 16 PV      |   4 | Normal |  1   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
+|   16 PV    |  4  | Normal |  1   | :heavy_check_mark: |       |
 
 `CAST "Lesser Sacrifice"`  
 
@@ -69,9 +69,9 @@ alias: draig-spells
 :   In this bloody ritual, the magician sacrifices a newborn baby in front of his army before battle.  
     The blood spirits summoned in this way will take possession of the soldiers and send them into a bloodlust.
 
-| Components            | Lvl |   Type | Rank | Ship | Dist. |
-|-----------------------|----:|-------:|:----:|:-----|:------|
-| 5 x L auras, 1 paysan |   5 | Pre-c. |  4   |      |       |
+|      Components       | Lvl |  Type  | Rank | Ship | Dist. |
+|:---------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x L auras, 1 paysan |  5  | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
@@ -80,9 +80,9 @@ alias: draig-spells
 :   This insidious curse significantly impairs the victim"s magical abilities.  
     A chaos magic zone around the victim reduces his ability to concentrate and makes it very difficult for him to cast spells.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 4 x L auras |   5 | Normal |  4   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 4 x L auras |  5  | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
@@ -92,9 +92,9 @@ alias: draig-spells
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+|                Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
+| 50 auras, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :heavy_check_mark: |       |
 
 ### Create a [[ring-of-invisibility]]
 
@@ -102,9 +102,9 @@ alias: draig-spells
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
-| Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+|                Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
+| 50 auras, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -113,9 +113,9 @@ alias: draig-spells
 :   The black magician has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses.  
     The undead will be at his service, but the uninformed be warned that summoning the forces of death can be a double-edged sword.
 
-| Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-| 5 x L auras |   6 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Components  | Lvl |  Type  | Rank |        Ship        |       Dist.        |
+|:-----------:|:---:|:------:|:----:|:------------------:|:------------------:|
+| 5 x L auras |  6  | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
@@ -124,9 +124,9 @@ alias: draig-spells
 :   This ritual conjures up a dark storm front that towers ominously over the region.  
     The magical rain will cause all ore to rust, destroying many of the enemy's weapons.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 2 x L auras |   6 | Combat |  5   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x L auras |  6  | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
@@ -135,9 +135,9 @@ alias: draig-spells
 :   The wizard creates a wall of fire in the specified direction.
     It hurts everyone who walks through it.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 6 x L auras |   7 | Normal |  4   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 6 x L auras |  7  | Normal |  4   |      |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
 
@@ -145,9 +145,9 @@ alias: draig-spells
 
 :   In an elaborate ritual, the black magician sacrifices some peasants and then magically distributes the corpses into the region"s wells.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 4 x L auras |   5 | Normal |  4   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 4 x L auras |  5  | Normal |  4   |      |       |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
@@ -155,9 +155,9 @@ alias: draig-spells
 
 With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
-| Components | Lvl |   Type | Rank | Ship               | Dist. |
-|------------|----:|-------:|:----:|:-------------------|:------|
-| 2 auras    |   7 | Normal |  1   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
+|  2 auras   |  7  | Normal |  1   | :heavy_check_mark: |       |
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
@@ -168,18 +168,18 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
     Shadow demons are feared opponents in battle.  
     They are difficult to hit and drain their opponent"s power.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 3 x L auras |   8 | Normal |  5   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 3 x L auras |  8  | Normal |  5   |      |       |
 
 ### Madness of War
 
 :   In front of the enemy soldiers, the black magician sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops.  
     They will react confusedly in battle and be unable to follow the orders of their officers.
 
-| Components             | Lvl |   Type | Rank | Ship | Dist. |
-|------------------------|----:|-------:|:----:|:-----|:------|
-| 3 x L auras, 10 Bauern |   8 | Pre-c. |  5   |      |       |
+|       Components       | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 3 x L auras, 10 Bauern |  8  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
@@ -188,9 +188,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.  
     All magically gifted people in the region will lose much of their aura.
 
-| Components                  | Lvl |   Type | Rank | Ship | Dist. |
-|-----------------------------|----:|-------:|:----:|:-----|:------|
-| 35 auras, 1 [[dragonblood]] |   9 | Normal |  3   |      |       |
+|         Components          | Lvl |  Type  | Rank | Ship | Dist. |
+|:---------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 35 auras, 1 [[dragonblood]] |  9  | Normal |  3   |      |       |
 
 `CAST "Astral Leak"`  
 
@@ -198,9 +198,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 :   This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 6 x L auras |   9 | Pre-c. |  2   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 6 x L auras |  9  | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
@@ -209,9 +209,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This magical artifact grants the wearer the strength of a full-grown cave troll.  
     Its carrying capacity increases 50 times and the increased strength and troll-tough skin will also have a positive effect in combat.
 
-| Components                 | Lvl |   Type | Rank | Ship               | Dist. |
-|----------------------------|----:|-------:|:----:|:-------------------|:------|
-| 20 auras, 1 permanent aura |   9 | Normal |  5   | :heavy_check_mark: |       |
+|         Components         | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:--------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
+| 20 auras, 1 permanent aura |  9  | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST "Create A Belt of Troll Strength"`  
 
@@ -220,9 +220,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This ritual binds the already escaping souls of some battle victims to their dead bodies, resurrecting them to undead life.  
     Whether they previously fought on the enemy"s side or their own is irrelevant to the ritual.
 
-| Components | Lvl |    Type | Rank | Ship | Dist. |
-|------------|----:|--------:|:----:|:-----|:------|
-| L auras    |   9 | Post-c. |  5   |      |       |
+| Components | Lvl |  Type   | Rank | Ship | Dist. |
+|:----------:|:---:|:-------:|:----:|:----:|:-----:|
+|  L auras   |  9  | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
@@ -231,9 +231,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This elemental invocation summons a fire devil, a creature from the deepest reaches of the flaming hells.  
     The fire devil will eagerly pounce on the region"s forests and set them ablaze.
 
-| Components          | Lvl |   Type | Rank | Ship | Dist.              |
-|---------------------|----:|-------:|:----:|:-----|:-------------------|
-| 50 auras, 1 [huile] |  10 | Normal |  5   |      | :heavy_check_mark: |
+|     Components      | Lvl |  Type  | Rank | Ship |       Dist.        |
+|:-------------------:|:---:|:------:|:----:|:----:|:------------------:|
+| 50 auras, 1 [huile] | 10  | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -243,9 +243,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  
     The gentlemen will help him, but whether he succeeds in solving the spell depends solely on his own strength.
 
-| Components   | Lvl |   Type | Rank | Ship               | Dist.              |
-|--------------|----:|-------:|:----:|:-------------------|:-------------------|
-| 10 x L auras |  10 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+|  Components  | Lvl |  Type  | Rank |        Ship        |       Dist.        |
+|:------------:|:---:|:------:|:----:|:------------------:|:------------------:|
+| 10 x L auras | 10  | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -256,9 +256,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
 
-| Components                 | Lvl |   Type | Rank | Ship | Dist.              |
-|----------------------------|----:|-------:|:----:|:-----|:-------------------|
-| 80 auras, 1 [[dragonhead]] |  11 | Normal |  5   |      | :heavy_check_mark: |
+|         Components         | Lvl |  Type  | Rank | Ship |       Dist.        |
+|:--------------------------:|:---:|:------:|:----:|:----:|:------------------:|
+| 80 auras, 1 [[dragonhead]] | 11  | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] *Dragon Call`  
 
@@ -267,9 +267,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   With a dark ritual and sacrificing his own blood, the black magician summons a great spirit from the elemental plane of poisons.  
     The spirit manifests itself as a bright green cloud over the region and will harm all who come into contact with it.
 
-| Components      | Lvl |   Type | Rank | Ship | Dist.              |
-|-----------------|----:|-------:|:----:|:-----|:-------------------|
-| 40 auras, 15 PV |  11 | Normal |  5   |      | :heavy_check_mark: |
+|   Components    | Lvl |  Type  | Rank | Ship |       Dist.        |
+|:---------------:|:---:|:------:|:----:|:----:|:------------------:|
+| 40 auras, 15 PV | 11  | Normal |  5   |      | :heavy_check_mark: |
 
 `CAST [REGION x y] Todeswolke`  
 
@@ -280,9 +280,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
     In battle, shadow masters are feared opponents.  
     They are difficult to hit and drain their opponent"s strength and life.
 
-| Components  | Lvl |   Type | Rank | Ship | Dist. |
-|-------------|----:|-------:|:----:|:-----|:------|
-| 7 x L auras |  12 | Normal |  5   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 7 x L auras | 12  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
@@ -291,9 +291,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.  
     And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
 
-| Components                                                   | Lvl |   Type | Rank | Ship               | Dist. |
-|--------------------------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| 100 auras, 1 [berserkers blood], 1 [sword], 1 permanent aura |  12 | Normal |  5   | :heavy_check_mark: |       |
+|                          Components                          | Lvl |  Type  | Rank |        Ship        | Dist. |
+|:------------------------------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
+| 100 auras, 1 [berserkers blood], 1 [sword], 1 permanent aura | 12  | Normal |  5   | :heavy_check_mark: |       |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -301,9 +301,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 :   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
 
-| Components                   | Lvl |   Type | Rank | Ship | Dist. |
-|------------------------------|----:|-------:|:----:|:-----|:------|
-| 100 auras, 5 permanent auras |  13 | Normal |  5   |      |       |
+|          Components          | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 100 auras, 5 permanent auras | 13  | Normal |  5   |      |       |
 
 `CAST "Summon Familiar"`  
 
@@ -312,9 +312,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   By sacrificing 200 farmers, the chaos magician can open a gate to the Astral world.  
     The gate can be used the following week, it dissolves at the end of the following week.
 
-| Components             | Lvl |   Type | Rank | Ship | Dist. |
-|------------------------|----:|-------:|:----:|:-----|:------|
-| 150 auras, 200 paysans |  14 | Normal |  5   |      |       |
+|       Components       | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 150 auras, 200 paysans | 14  | Normal |  5   |      |       |
 
 `CAST Chaossog`  
 
@@ -323,9 +323,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This ritual is only passed on to the adepts in the dark academies in whispers, as it is one of the darkest ever written down.  
     By invoking unholy demons, the power of the living dead is amplified and they transform into undead monsters of great power.
 
-| Components                  | Lvl |   Type | Rank | Ship | Dist. |
-|-----------------------------|----:|-------:|:----:|:-----|:------|
-| 10 x L auras, 5 x N paysans |  14 | Normal |  5   |      |       |
+|         Components          | Lvl |  Type  | Rank | Ship | Dist. |
+|:---------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 10 x L auras, 5 x N paysans | 14  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 

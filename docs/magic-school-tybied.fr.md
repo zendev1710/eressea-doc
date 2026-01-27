@@ -18,9 +18,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
     Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
 
-| Composants | Niv. |   Type | Rang | B                  | D |
-|------------|-----:|-------:|:----:|:-------------------|:--|
-| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |         B          | D |
+|:----------:|:----:|:------:|:----:|:------------------:|:-:|
+|  N auras   |  1   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -32,9 +32,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Ce sort masquera tout l'équipement de l'unité cible pendant un certain temps.
 
-| Composants | Niv. |   Type | Rang | B                  | D |
-|------------|-----:|-------:|:----:|:-------------------|:--|
-| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |         B          | D |
+|:----------:|:----:|:------:|:----:|:------------------:|:-:|
+|  N auras   |  1   | Normal |  5   | :heavy_check_mark: |   |
 
  `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
@@ -49,9 +49,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.  
     Cela aide certainement le mage... à remplir son portefeuille. Vous pouvez gagner 50 silver par niveau en une semaine.
 
-| Composants | Niv. |   Type | Rang | B                  | D |
-|------------|-----:|-------:|:----:|:-------------------|:--|
-| N auras    |    1 | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |         B          | D |
+|:----------:|:----:|:------:|:----:|:------------------:|:-:|
+|  N auras   |  1   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
@@ -66,9 +66,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Ce sort place un champ d'antimagie autour des mages ennemis, gênant considérablement leur lancement de sorts.  
     Seuls quelques-uns auront la force de pénétrer sur le terrain et d’aider leurs troupes au combat.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 3 x N auras |    2 | Pré-c. |  2   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 3 x N auras |  2   | Pré-c. |  2   |   |   |
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
@@ -83,9 +83,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Ce sort empêche certains objets qui seraient normalement détruits au combat de subir des dommages.  
     Les pertes sont réduites de 5 % par niveau du sort, jusqu'à un minimum de 25 %.
 
-| Composants | Niv. |    Type | Rang | B | D |
-|------------|-----:|--------:|:----:|:--|:--|
-| N auras    |    3 | Post-c. |  5   |   |   |
+| Composants | Niv. |  Type   | Rang | B | D |
+|:----------:|:----:|:-------:|:----:|:-:|:-:|
+|  N auras   |  3   | Post-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
@@ -99,9 +99,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Une unité ainsi protégée est également moins vulnérable à la magie de combat.  
     Par niveau, le pouvoir du mage est suffisant pour protéger 5 personnes.
 
-| Composants  | Niv. |   Type | Rang | B                  | D |
-|-------------|-----:|-------:|:----:|:-------------------|:--|
-| 5 x N auras |    3 | Normal |  2   | :heavy_check_mark: |   |
+| Composants  | Niv. |  Type  | Rang |         B          | D |
+|:-----------:|:----:|:------:|:----:|:------------------:|:-:|
+| 5 x N auras |  3   | Normal |  2   | :heavy_check_mark: |   |
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
@@ -117,9 +117,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 2 x N auras |    4 | Normal |  7   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N auras |  4   | Normal |  7   |   |   |
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -133,9 +133,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Le mage peut envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 2 x N auras |    4 | Normal |  7   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N auras |  4   | Normal |  7   |   |   |
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
@@ -151,9 +151,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Cette zone s'efforcera de revenir à l'équilibre.  
     Pour ce faire, il supprimera une partie de la force de chaque sort lancé dans cette région et même absorbera complètement les plus faibles.
 
-| Composants  | Niv. |   Type | Rang | B | D                  |
-|-------------|-----:|-------:|:----:|:--|:-------------------|
-| 3 x N auras |    5 | Normal |  2   |   | :heavy_check_mark: |
+| Composants  | Niv. |  Type  | Rang | B |         D          |
+|:-----------:|:----:|:------:|:----:|:-:|:------------------:|
+| 3 x N auras |  5   | Normal |  2   |   | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
@@ -165,9 +165,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   À l'aide de ce sort, le mage peut transférer sa propre aura à un autre mage de la même École de Magie dans un rapport de 2:1 ou à un mage d'une autre École de Magie dans un rapport de 3:1.
 
-| Composants | Niv. |   Type | Rang | B                  | D |
-|------------|-----:|-------:|:----:|:-------------------|:--|
-| 1 aura     |    5 | Normal |  1   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |         B          | D |
+|:----------:|:----:|:------:|:----:|:------------------:|:-:|
+|   1 aura   |  5   | Normal |  1   | :heavy_check_mark: |   |
 
 `CAST "Transfer aura" <unit-id> <Aura>`  
 
@@ -179,9 +179,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Ce sort permet au mage de dissiper les enchantements sur une unité, un bateau, un bâtiment ou même une région.
 
-| Composants  | Niv. |   Type | Rang | B                  | D                  |
-|-------------|-----:|-------:|:----:|:-------------------|:-------------------|
-| 4 x N auras |    5 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants  | Niv. |  Type  | Rang |         B          |         D          |
+|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
+| 4 x N auras |  5   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> | CASTLE <building-id> )`  
 
@@ -194,9 +194,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Ce sort provoque une vague de puissance pure qui déferle sur les rangs ennemis.  
     Le choc laissera de nombreux combattants tellement hébétés qu’ils seront incapables d’attaquer pendant un bref instant.
 
-| Composants | Niv. |   Type | Rang | B | D |
-|------------|-----:|-------:|:----:|:--|:--|
-| N auras    |    5 | Combat |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+|  N auras   |  5   | Combat |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
@@ -212,9 +212,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 13 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 2 x N auras |    6 | Normal |  7   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N auras |  6   | Normal |  7   |   |   |
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -228,9 +228,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
     Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
 
-| Composants                               | Niv. |   Type | Rang | B                  | D |
-|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+|                Composants                | Niv. |  Type  | Rang |         B          | D |
+|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -244,9 +244,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
-| Composants                               | Niv. |   Type | Rang | B                  | D |
-|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 50 auras, 3 000 silver, 1 aura permanent |    6 | Normal |  5   | :heavy_check_mark: |   |
+|                Composants                | Niv. |  Type  | Rang |         B          | D |
+|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -260,9 +260,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Cela peut alors également être utilisé pour traverser des terres.  
     Pour la couleur des runes, une encre spéciale doit être mélangée à partir d'un chou à la crème et d'un cristal de neige.
 
-| Composants                                           | Niv. |   Type | Rang | B                  | D |
-|------------------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 10 auras, 1 [gousse], 1 [pétale de cristal de neige] |    6 | Normal |  5   | :heavy_check_mark: |   |
+|                      Composants                      | Niv. |  Type  | Rang |         B          | D |
+|:----------------------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 10 auras, 1 [gousse], 1 [pétale de cristal de neige] |  6   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST Airship <ship-id>`  
 
@@ -275,9 +275,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Un mage qui se trouve dans le monde matériel peut utiliser ce sort pour invoquer des unités du monde Astral adjacent.  
     Si le mage est suffisamment expérimenté pour lancer le sort à des niveaux de 13 ou plus, il peut forcer d'autres unités à entrer dans le monde matériel contre leur gré.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 2 x N auras |    6 | Normal |  7   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N auras |  6   | Normal |  7   |   |   |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
@@ -289,9 +289,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Avec l'aide de ce sort, le mage peut retirer son aura à un autre mage contre son gré et se la fournir.  
 
-| Composants  | Niv. |   Type | Rang | B | D                  |
-|-------------|-----:|-------:|:----:|:--|:-------------------|
-| 2 x N auras |    6 | Normal |  3   |   | :heavy_check_mark: |
+| Composants  | Niv. |  Type  | Rang | B |         D          |
+|:-----------:|:----:|:------:|:----:|:-:|:------------------:|
+| 2 x N auras |  6   | Normal |  3   |   | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
@@ -306,9 +306,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   À l'aide de ce sort, le mage draine un cristal de quartz de toutes ses énergies magiques.  
     Le cristal, une fois broyé en une fine poussière et dispersé, absorbera les énergies magiques libérées lors du lancement et réduira la puissance de tous les sorts lancés dans la région cette semaine-là.
 
-| Composants             | Niv. |   Type | Rang | B                  | D |
-|------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 50 auras, 3 000 silver |    7 | Normal |  5   | :heavy_check_mark: |   |
+|       Composants       | Niv. |  Type  | Rang |         B          | D |
+|:----------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 50 auras, 3 000 silver |  7   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create An Antimagic Crystal"`  
 
@@ -320,9 +320,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Ce sort permet au mage de dissiper spécifiquement un enchantement spécifique sur une unité, un bateau, un bâtiment ou même la région.
 
-| Composants  | Niv. |   Type | Rang | B                  | D                  |
-|-------------|-----:|-------:|:----:|:-------------------|:-------------------|
-| 3 x N auras |    7 | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants  | Niv. |  Type  | Rang |         B          |         D          |
+|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
+| 3 x N auras |  7   | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
 
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
@@ -335,9 +335,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Avec cette formule, le mage lie pour toujours les forces de la terre dans les murs du bâtiment.  
     Un bâtiment ainsi enchanté est protégé contre les agressions du temps et ne nécessite plus aucun entretien.
 
-| Composants                 | Niv. |   Type | Rang | B                  | D |
-|----------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 50 auras, 1 aura permanent |    7 | Normal |  5   | :heavy_check_mark: |   |
+|         Composants         | Niv. |  Type  | Rang |         B          | D |
+|:--------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 50 auras, 1 aura permanent |  7   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
@@ -354,9 +354,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Si plusieurs sorts de protection sont superposés, leurs effets s'additionnent, mais une protection à 100 % ne peut pas être obtenue de cette façon.  
     Le sort dure au moins trois semaines, mais selon la compétence du mage, il peut durer beaucoup plus longtemps.
 
-| Composants | Niv. |   Type | Rang | B                  | D |
-|------------|-----:|-------:|:----:|:-------------------|:--|
-| 20 auras   |    8 | Normal |  2   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |         B          | D |
+|:----------:|:----:|:------:|:----:|:------------------:|:-:|
+|  20 auras  |  8   | Normal |  2   | :heavy_check_mark: |   |
 
 `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
 
@@ -371,9 +371,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Mais le bouclier ne peut résister que quelques centaines de coups d’épée, après quoi il se désintègre.  
     Plus le mage est fort, plus le bouclier peut résister aux dégâts.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 4 x N auras |    8 | Pré-c. |  2   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 4 x N auras |  8   | Pré-c. |  2   |   |   |
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
@@ -387,9 +387,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Ce sort accélère certains combattants de votre côté afin qu'ils puissent attaquer deux fois en un seul round de combat, tout au long du combat.  
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 5 x N auras |    9 | Pré-c. |  5   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 5 x N auras |  9   | Pré-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
@@ -401,9 +401,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Ce rituel puissant crée un [[anneau-de-pouvoir]]. Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
 
-| Composants                                | Niv. |   Type | Rang | B                  | D |
-|-------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 100 auras, 1 aura permanent, 4 000 silver |    9 | Normal |  5   | :heavy_check_mark: |   |
+|                Composants                 | Niv. |  Type  | Rang |         B          | D |
+|:-----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 100 auras, 1 aura permanent, 4 000 silver |  9   | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A Ring of Power"`  
 
@@ -417,9 +417,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Grâce à ce sort, le mage peut regarder du plan Astral vers le plan matériel et reconnaître avec précision les régions et les unités.
 
-| Composants | Niv. |   Type | Rang | B | D |
-|------------|-----:|-------:|:----:|:--|:--|
-| 40 auras   |   10 | Normal |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+|  40 auras  |  10  | Normal |  5   |   |   |
 
 `CAST "Blick in die Realität"`  
 
@@ -433,9 +433,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Les chevaux et autres êtres vivants ainsi que les objets particulièrement volumineux (chars et catapultes) ne peuvent pas être transportés dans le sac.  
     Il n'est pas non plus possible de transporter un sac magique dans un autre. Le sac lui-même pèse 1 kg.
 
-| Composants                               | Niv. |   Type | Rang | B                  | D |
-|------------------------------------------|-----:|-------:|:----:|:-------------------|:--|
-| 30 auras, 1 aura permanent, 5 000 silver |   10 | Normal |  5   | :heavy_check_mark: |   |
+|                Composants                | Niv. |  Type  | Rang |         B          | D |
+|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
+| 30 auras, 1 aura permanent, 5 000 silver |  10  | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
@@ -450,9 +450,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
     Les personnes ainsi modifiées obtiennent deux fois plus de points de mouvement et deux fois plus d'attaques par round pendant quelques semaines.
 
-| Composants  | Niv. |   Type | Rang | B                  | D |
-|-------------|-----:|-------:|:----:|:-------------------|:--|
-| 5 x N auras |   11 | Normal |  5   | :heavy_check_mark: |   |
+| Composants  | Niv. |  Type  | Rang |         B          | D |
+|:-----------:|:----:|:------:|:----:|:------------------:|:-:|
+| 5 x N auras |  11  | Normal |  5   | :heavy_check_mark: |   |
 
 `CAST [LEVEL n] "Zeitdehnung" <unit-id> [<Unit-id> ...]`  
 
@@ -468,9 +468,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.  
     Chaque coup réduit la puissance du sort, le bouclier se dissipera donc à un moment donné du combat.
 
-| Composants  | Niv. |   Type | Rang | B | D |
-|-------------|-----:|-------:|:----:|:--|:--|
-| 4 x N auras |   12 | Pré-c. |  2   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 4 x N auras |  12  | Pré-c. |  2   |   |   |
 
 `COMBATSPELL [LEVEL n] "Armor Shield"`  
 
@@ -482,9 +482,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
 
-| Composants                    | Niv. |   Type | Rang | B | D |
-|-------------------------------|-----:|-------:|:----:|:--|:--|
-| 100 auras, 5 auras permanents |   12 | Normal |  5   |   |   |
+|          Composants           | Niv. |  Type  | Rang | B | D |
+|:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 100 auras, 5 auras permanents |  12  | Normal |  5   |   |   |
 
 `CAST "Summon Familiar"`  
 
@@ -501,9 +501,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
-| Composants                               | Niv. |   Type | Rang | B | D |
-|------------------------------------------|-----:|-------:|:----:|:--|:--|
-| 10 x N auras, 1 aura permanent, 5 [laen] |   13 | Normal |  5   |   |   |
+|                Composants                | Niv. |  Type  | Rang | B | D |
+|:----------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 10 x N auras, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
@@ -519,9 +519,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Dans un rayon Astral de régions de niveau 5, tous les êtres astraux qui ne peuvent pas résister au sort sont expulsés du plan Astral.  
     Le contact Astral avec toutes les régions affectées est perturbé pendant le niveau/3 semaines.
 
-| Composants | Niv. |   Type | Rang | B | D |
-|------------|-----:|-------:|:----:|:--|:--|
-| 140 auras  |   14 | Normal |  4   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 140 auras  |  14  | Normal |  4   |   |   |
 
 `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
@@ -536,9 +536,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 :   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.  
     Il peut transférer la moitié de la puissance utilisée à un mage de la même École de Magie, et un tiers à d'autres mages.
 
-| Composants | Niv. |   Type | Rang | B | D |
-|------------|-----:|-------:|:----:|:--|:--|
-| 100 auras  |   15 | Normal |  1   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 100 auras  |  15  | Normal |  1   |   |   |
 
 `CAST "Opfere Kraft" <unit-id> <Aura>`  
 

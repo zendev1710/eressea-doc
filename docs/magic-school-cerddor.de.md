@@ -13,8 +13,8 @@ alias: cerddorzauber
     Unbehelligt kann der Magier in eine Nachbarregion ziehen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
-| 2 aura      |   1   | Prä-k. |  5   |        |       |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|   2 aura    |   1   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Friedenslied`  
 
@@ -24,8 +24,8 @@ alias: cerddorzauber
     Schon Anfänger lernen die kleinen Kunststücke und magischen Tricks, mit denen man das Volk locken und verführen kann, den Geldbeutel ganz weit zu öffnen, und am Ende der Woche wird der Gaukler 50 Silber pro Stufe verdient haben.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| T aura      |   1   | Normal |  5   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE [STUFE n] Gaukeleien`  
 
@@ -37,7 +37,7 @@ alias: cerddorzauber
     Überall werden Tavernen und Theater gut gefüllt sein und selbst die Bettler satt werden.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------------------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
 | 2 x T aura  |   2   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Hohes Lied der Gaukelei'`  
@@ -49,8 +49,8 @@ alias: cerddorzauber
     Dieses Lied vermag Wunden zu schließen, gebrochene Knochen zu richten und selbst abgetrennte Glieder wieder zu regenerieren.  
 
 | Komponenten | Stufe |   Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:-------:|:----:|:------:|:-----:|
-| T aura      |   2   | Post-k. |  5   |        |       |
+|:-----------:|:-----:|:-------:|:----:|:------:|:-----:|
+|   T aura    |   2   | Post-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Lied der Heilung'`  
 
@@ -63,8 +63,8 @@ alias: cerddorzauber
     Voller Angst werden sie versuchen, den gräßlichen Gesängen zu entrinnen und fliehen.  
 
 | Komponenten | Stufe |  Art  | Rang | Schiff | Fern. |
-|-------------|:-----:|:-----:|:----:|:------:|:-----:|
-| T aura      |   3   | Kampf |  5   |        |       |
+|:-----------:|:-----:|:-----:|:----:|:------:|:-----:|
+|   T aura    |   3   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Furcht'`  
 
@@ -74,8 +74,8 @@ alias: cerddorzauber
     Die Erträge der Bauern werden für einige Wochen deutlich besser ausfallen.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------------------:|:------------------:|
-| T aura      |   3   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
+|   T aura    |   3   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] Regentanz`  
 
@@ -88,7 +88,7 @@ alias: cerddorzauber
     So sollen schon einst wohlgeordnete Heere plötzlich ihre Schützen weit vorne und ihre Kavallerie bei den Lagerwachen kartenspielend wiedergefunden haben (oder ihren Anführer schlafend im lange verlassenen Lager, wie es in den Großen Kriegen der Alten Welt wirklich geschehen sein soll).  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 2 x T aura  |   4   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Verwirrung'`  
@@ -99,7 +99,7 @@ alias: cerddorzauber
     Begeistert werden sie sich Euch anschliessen und selbst Haus und Hof in Stich lassen.'  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 2 x T aura  |   4   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Gesang des Werbens'`  
@@ -110,8 +110,8 @@ alias: cerddorzauber
     Leider beeinflußt dieser Zauber nicht das Gedächtnis, und so wird sie sich im nachhinein wohl bewußt werden, dass sie zuviel erzählt hat.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
-| 10 aura     |   4   | Normal |  5   |        |       |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|   10 aura   |   4   | Normal |  5   |        |       |
 
 `ZAUBERE Plappermaul <Einheit-Nr>`  
 
@@ -123,7 +123,7 @@ alias: cerddorzauber
     Die besonderen Dissonanzen in den Melodien machen es Magiern fast unmöglich, sich auf ihre Zauber zu konzentrieren.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] Bannlied`  
@@ -133,8 +133,8 @@ alias: cerddorzauber
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 2 aura      |   5   | Normal |  1   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   2 aura    |   5   | Normal |  1   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Gesang des Auratransfers' <Einheit-Nr> <Aura>`  
 
@@ -147,8 +147,8 @@ alias: cerddorzauber
     Alle Verzauberungen, die nicht stärker maskiert sind als Eure Fähigkeit, werdet Ihr so entschlüsseln und demaskieren können.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 10 aura     |   5   | Normal |  5   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   10 aura   |   5   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Gesang des Lebens analysieren' <Einheit-Nr>`  
 
@@ -158,7 +158,7 @@ alias: cerddorzauber
     Ein derartig gefestigter Krieger wird auch in schwierigen Situationen nicht die Flucht ergreifen und sein überlegtes Verhalten wird ihm manch Vorteil in der Verteidigung geben.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 2 x T aura  |   5   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Heldengesang`  
@@ -171,8 +171,8 @@ alias: cerddorzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-| Komponenten                             | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
@@ -183,8 +183,8 @@ alias: cerddorzauber
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-| Komponenten                             | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
@@ -195,8 +195,8 @@ alias: cerddorzauber
     Sie behält jedoch immer soviel, wie sie zum Überleben braucht.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
-| 12 aura     |   6   | Normal |  5   |        |       |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|   12 aura   |   6   | Normal |  5   |        |       |
 
 `ZAUBERE 'Lied der Verführung' <Einheit-Nr>`  
 
@@ -207,8 +207,8 @@ alias: cerddorzauber
     Doch sollte man sich nicht täuschen, es wird dennoch ein unberechenbares Wesen bleiben.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 15 aura     |   6   | Normal |  5   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   15 aura   |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Monster friedlich stimmen' <Einheit-Nr>`  
 
@@ -220,8 +220,8 @@ alias: cerddorzauber
 Ist in der Region niemand ihrer Partei, so weiß sie nichts zu berichten.  
 Auch kann sie nur das erzählen, was sie selber sehen könnte.  
 
-| Komponenten        | Stufe |  Art   | Rang | Schiff | Fern. |
-|--------------------|:-----:|:------:|:----:|:------:|:-----:|
+|    Komponenten     | Stufe |  Art   | Rang | Schiff | Fern. |
+|:------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 4 aura, 100 silber |   7   | Normal |  5   |        |       |
 
 `ZAUBERE Aushorchen <Einheit-Nr> <x> <y>`  
@@ -234,7 +234,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Während ihre Attacke verstärkt ist achten sie kaum auf sich selbst.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 5 x T aura  |   7   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Kriegsgesang`  
@@ -252,8 +252,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Und er wird gar sicherlich von seiner besten Fähigkeit einige Tage bis hin zu den Studien zweier Wochen vergessen haben.  
     Noch ein Wort der Warnung: dieses ist sehr aufwendig, und so Ihr noch weitere Zauber in der selben Woche wirken wollt, so werden sie Euch schwerer fallen.'  
 
-| Komponenten                               | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------------------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|                Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
+|:-----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 28 aura, 3 [knotiger saugwurz], 50 silber |   7   | Normal |  5   |        |       |
 
 `ZAUBERE 'Schaler Wein' <Einheit-Nr>`  
@@ -266,7 +266,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Angst wird ihren Schwertarm schwächen und Furcht ihren Schildarm lähmen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 5 x T aura  |   8   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Angst'`  
@@ -277,7 +277,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der kundige Barde kann versuchen, das Lebenslied aufzufangen und zu verstärken und die Veränderungen aus dem Lied zu tilgen.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------------------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
 | 5 x T aura  |   8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Lebenslied festigen' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
@@ -288,7 +288,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Und so, wie aus dem Lebenslied einer Person erkannt werden kann, ob diese unter einem Zauber steht, so ist dies auch bei Burgen, Schiffen oder Regionen möglich.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 3 x T aura  |   8   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE [STUFE n] 'Lied des Ortes analysieren' ( REGION | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
@@ -305,8 +305,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der das Ritual leitende Magier muss für die permanente Bindung des Aufnahmewilligen an seine Partei naturgemäß auch permanente Aura aufwenden.  
     Pro Stufe und pro 1 permanente Aura kann er eine Person aufnehmen.  
 
-| Komponenten                    | Stufe |  Art   | Rang | Schiff | Fern. |
-|--------------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|          Komponenten           | Stufe |  Art   | Rang | Schiff | Fern. |
+|:------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 3 x T aura, T permanente auras |   9   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Ritual der Aufnahme' <Einheit-Nr>`  
@@ -315,8 +315,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-| Komponenten                  | Stufe |  Art   | Rang | Schiff | Fern. |
-|------------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 100 aura, 5 permanente auras |   9   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
@@ -330,7 +330,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Bis das Lied ganz verklungen ist, wird seine Magie allen Verbündeten des Barden (HELFE BEWACHE), und natürlich auch seinen eigenem Volk, einen einmaligen Bonus von 15% auf die natürliche Widerstandskraft gegen eine Verzauberung verleihen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 2 x T aura  |  10   | Normal |  2   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des wachen Geistes'`  
@@ -343,7 +343,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Wie viele Bauern sich dem Magier anschließen hängt von der Kraft seines Gesangs ab.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 4 x T aura  |  10   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Mob aufwiegeln'`  
@@ -356,8 +356,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Einige Wochen lang werden sie sich in ihre Hütten zurückziehen und kein Silber in den Theatern und Tavernen lassen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------:|:------------------:|
-| 40 aura     |  11   | Normal |  5   |        | :heavy_check_mark: |
+|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|   40 aura   |  11   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Gesang der Melancholie'`  
 
@@ -369,8 +369,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     (Das soll sie auch an anderer Stelle ausgenutzt haben, ihr Ruf als Falschspielerin war berüchtigt).  
     Handwerker können somit das zehnfache produzieren, und bei einigen anderen Tätigkeiten könnte dies ebenfalls von Nutzen sein.  
 
-| Komponenten                              | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|------------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 20 aura, 1 000 silber, 1 permanente aura |  11   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Miriams flinke Finger'`  
@@ -384,7 +384,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die Wirkung kann etliche Wochen andauern.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 20 x T aura |  12   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Gesang der Friedfertigkeit'`  
@@ -395,7 +395,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Nur die Verbündeten des Barden (HELFE BEWACHE) sind gegen die Wirkung des Gesangs gefeit.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 2 x T aura  |  12   | Normal |  2   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des schwachen Geistes'`  
@@ -408,8 +408,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Für einige Zeit wird das Opfer sich völlig von seinen eigenen Leuten abwenden und der Partei des Barden zugehörig fühlen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
-| 40 aura     |  13   | Normal |  5   |        |       |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|   40 aura   |  13   | Normal |  5   |        |       |
 
 `ZAUBERE 'Gesang der Versklavung' <Einheit-Nr>`  
 
@@ -423,7 +423,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Nur zögerlich war er bereit mir das Geheimnis seiner Überzeugungskraft zu lehren.'  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 20 x T aura |  14   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Hohe Kunst der Überzeugung'`  
@@ -436,8 +436,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die Bauernhorden werden sich verlaufen und wieder auf ihre Felder zurückkehren.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------:|:------------------:|
-| 30 aura     |  15   | Normal |  5   |        | :heavy_check_mark: |
+|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|   30 aura   |  15   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Aufruhr beschwichtigen'`  
 
@@ -450,8 +450,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Nach einigen Wochen beruhigt sich der Mob wieder.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------:|:------------------:|
-| 40 aura     |  16   | Normal |  5   |        | :heavy_check_mark: |
+|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|   40 aura   |  16   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Aufruhr verursachen'`  
 

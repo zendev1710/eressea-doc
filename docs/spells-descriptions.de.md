@@ -13,8 +13,8 @@ alias: zauberbeschreibungen
     Dazu wird sie jedem in dieser Region gesprochenen Zauber einen Teil seiner Stärke entziehen, die schwächeren gar ganz absorbieren.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    T | 3 x T aura  |   5   | Normal |  2   |        | :heavy_check_mark: |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  T   | 3 x T aura  |   5   | Normal |  2   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Astrale Schwächezone'`  
 
@@ -25,8 +25,8 @@ alias: zauberbeschreibungen
     Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T | 2 x T aura  |   4   | Normal |  7   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 2 x T aura  |   4   | Normal |  7   |        |       |
 
 `ZAUBERE [STUFE n] 'Astraler Ausgang' <x> <y> <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -36,8 +36,8 @@ alias: zauberbeschreibungen
     Alle magisch begabten in der Region werden einen Großteil ihrer Aura verlieren.  
 
 | Mag. |        Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:--------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 35 aura, 1 [[drachenblut]] |   9   | Normal |  3   |        |       |
+|:----:|:--------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 35 aura, 1 [[drachenblut]] |   9   | Normal |  3   |        |       |
 
 `ZAUBERE 'Astraler Riss'`  
 
@@ -48,8 +48,8 @@ alias: zauberbeschreibungen
     Ist der Magier erfahren genug, den Zauber auf Stufen von 13 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T | 2 x T aura  |   6   | Normal |  7   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 2 x T aura  |   6   | Normal |  7   |        |       |
 
 `ZAUBERE [STUFE n] 'Astraler Ruf' <x> <y> <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -60,8 +60,8 @@ alias: zauberbeschreibungen
     Ist der Magier erfahren genug, den Zauber auf Stufen von 11 oder mehr zu zaubern, kann er andere Einheiten auch gegen ihren Willen auf die andere Ebene zwingen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T | 2 x T aura  |   4   | Normal |  7   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 2 x T aura  |   4   | Normal |  7   |        |       |
 
 `ZAUBERE [STUFE n] 'Astraler Weg' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -70,8 +70,8 @@ alias: zauberbeschreibungen
 :   Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 6 x T aura  |   9   | Prä-k. |  2   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 6 x T aura  |   9   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Astrales Chaos'`  
 
@@ -81,8 +81,8 @@ alias: zauberbeschreibungen
     Diesen wird das Zaubern für die Dauer des Kampfes deutlich schwerer fallen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    G | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] Astralschutzgeister`  
 
@@ -92,8 +92,8 @@ alias: zauberbeschreibungen
     Die Bauernhorden werden sich verlaufen und wieder auf ihre Felder zurückkehren.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    C |   30 aura   |  15   | Normal |  5   |        | :heavy_check_mark: |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  C   |   30 aura   |  15   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Aufruhr beschwichtigen'`  
 
@@ -104,8 +104,8 @@ alias: zauberbeschreibungen
     Nach einigen Wochen beruhigt sich der Mob wieder.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    C |   40 aura   |  16   | Normal |  5   |        | :heavy_check_mark: |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  C   |   40 aura   |  16   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Aufruhr verursachen'`  
 
@@ -114,8 +114,8 @@ alias: zauberbeschreibungen
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    T |   1 aura    |   5   | Normal |  1   | :heavy_check_mark: |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  T   |   1 aura    |   5   | Normal |  1   | :heavy_check_mark: |       |
 
 `ZAUBERE Auratransfer <Einheit-Nr> <Aura>`  
 
@@ -126,8 +126,8 @@ Ist in der Region niemand ihrer Partei, so weiß sie nichts zu berichten.
 Auch kann sie nur das erzählen, was sie selber sehen könnte.  
 
 | Mag. |    Komponenten     | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    C | 4 aura, 100 silber |   7   | Normal |  5   |        |       |
+|:----:|:------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  C   | 4 aura, 100 silber |   7   | Normal |  5   |        |       |
 
 `ZAUBERE Aushorchen <Einheit-Nr> <x> <y>`  
 
@@ -139,8 +139,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die besonderen Dissonanzen in den Melodien machen es Magiern fast unmöglich, sich auf ihre Zauber zu konzentrieren.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    C | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  C   | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] Bannlied`  
 
@@ -152,8 +152,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Das Gebäude wird diese Prozedur nicht unbeschädigt überstehen.  
 
 | Mag. |               Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T | 10 x T aura, 1 permanente aura, 5 [laen] |  13   | Normal |  5   |        |       |
+|:----:|:----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 10 x T aura, 1 permanente aura, 5 [laen] |  13   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Belebtes Gestein' <Gebäude-Nr> <Richtung>`  
 
@@ -163,8 +163,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der Bergwächter ist an den Ort der Beschwörung gebunden.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    G | 3 x T aura  |   3   | Normal |  5   |        | :heavy_check_mark: |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  G   | 3 x T aura  |   3   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] Bergwächter`  
 
@@ -173,9 +173,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T | 5 x T aura  |   9   | Prä-k. |  5   |        |       |
-|      |             |       |        |      |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 5 x T aura  |   9   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Beschleunigung`  
 
@@ -187,8 +186,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Sie sind schwer zu treffen und entziehen ihrem Gegner Kraft.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 3 x T aura  |   8   | Normal |  5   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 3 x T aura  |   8   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattendämonen'`  
 
@@ -200,8 +199,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Sie sind schwer zu treffen und entziehen ihrem Gegner Kraft und Leben.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 7 x T aura  |  12   | Normal |  5   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 7 x T aura  |  12   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattenmeister'`  
 
@@ -211,8 +210,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die Verluste reduzieren sich um 5% pro Stufe des Zaubers bis zu einem Minimum von 25%.  
 
 | Mag. | Komponenten | Stufe |   Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:-------:|:----:|:------:|:-----:|
-|    T |   T aura    |   3   | Post-k. |  5   |        |       |
+|:----:|:-----------:|:-----:|:-------:|:----:|:------:|:-----:|
+|  T   |   T aura    |   3   | Post-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Beute Bewahren'`  
 
@@ -222,8 +221,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die betroffenen Personen werden nicht mehr kämpfen, können jedoch auch nicht verwundet werden.  
 
 | Mag. | Komponenten | Stufe |  Art  | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:-----:|:----:|:------:|:-----:|
-|    G |   T aura    |   8   | Kampf |  5   |        |       |
+|:----:|:-----------:|:-----:|:-----:|:----:|:------:|:-----:|
+|  G   |   T aura    |   8   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Blick des Basilisken'`  
 
@@ -232,8 +231,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Der Magier kann mit Hilfe dieses Zaubers aus der Astral- in die materielle Ebene blicken und die Regionen und Einheiten genau erkennen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    T |   40 aura   |  10   | Normal |  5   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   |   40 aura   |  10   | Normal |  5   |        |       |
 
 `ZAUBERE 'Blick in die Realität'`  
 
@@ -243,8 +242,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die so gerufenen Blutgeister werden von den Soldaten Besitz ergreifen und sie in einen Blutrausch versetzen.  
 
 | Mag. |     Komponenten     | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 5 x T aura, 1 bauer |   5   | Prä-k. |  4   |        |       |
+|:----:|:-------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 5 x T aura, 1 bauer |   5   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Blutrausch`  
 
@@ -256,8 +255,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Eine chaosmagische Zone um das Opfer vermindert seine Konzentrationsfähigkeit und macht es ihm sehr schwer Zauber zu wirken.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 4 x T aura  |   5   | Normal |  4   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 4 x T aura  |   5   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] Chaosfluch <Einheit-Nr>`  
 
@@ -267,8 +266,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Das Tor kann in der Folgewoche verwendet werden, es löst sich am Ende der Folgewoche auf.  
 
 | Mag. |     Komponenten      | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:--------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    D | 150 aura, 200 bauern |  14   | Normal |  5   |        |       |
+|:----:|:--------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  D   | 150 aura, 200 bauern |  14   | Normal |  5   |        |       |
 
 `ZAUBERE Chaossog`  
 
@@ -282,8 +281,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der Köder hält etwa 6 Wochen, muss aber in einem drachengenehmen Terrain platziert werden.  
 
 | Mag. |        Komponenten         | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:--------------------------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    D | 80 aura, 1 [[drachenkopf]] |  11   | Normal |  5   |        | :heavy_check_mark: |
+|:----:|:--------------------------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  D   | 80 aura, 1 [[drachenkopf]] |  11   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] Drachenruf`  
 
@@ -295,8 +294,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
 
 | Mag. |    Komponenten    | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----:|:-----------------:|:-----:|:------:|:----:|:------:|:------------------:|
-|    G | 25 aura, 2 [laen] |   7   | Normal |  5   |        | :heavy_check_mark: |
+|:----:|:-----------------:|:-----:|:------:|:----:|:------:|:------------------:|
+|  G   | 25 aura, 2 [laen] |   7   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] Erdelementar`  
 
@@ -306,9 +305,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der Kristall wird dann, wenn er zu feinem Staub zermahlen und verteilt wird, die beim Zaubern freigesetzten magischen Energien aufsaugen und die Kraft aller Zauber reduzieren, welche in der betreffenden Woche in der Region gezaubert werden.  
 
 | Mag. |     Komponenten      | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:--------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|      |                      |       |        |      |                    |       |
-|    T | 50 aura, 3000 silber |   7   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:--------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  T   | 50 aura, 3000 silber |   7   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe Antimagiekristall'`  
 
@@ -319,8 +317,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Gibt man den Golems den Befehl MACHE SCHWERT/BIHÄNDER oder MACHE SCHILD/KETTENHEMD/PLATTENPANZER, so werden pro Golem 4 Eisenbarren verbaut und der Golem löst sich auf.  
 
 | Mag. |                 Komponenten                  | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:--------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    G | 2 x T aura, T [eisen], 1 [wasser des lebens] |   2   | Normal |  4   |        |       |
+|:----:|:--------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 2 x T aura, T [eisen], 1 [wasser des lebens] |   2   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Eisengolems'`  
 
@@ -333,8 +331,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Gibt man den Golems die Befehle MACHE BURG oder MACHE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
 
 | Mag. |                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|    G | 2 x T aura, T [steine][stein], 1 [wasser des lebens] |   1   | Normal |  4   |        |       |
+|:----:|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 2 x T aura, T [steine][stein], 1 [wasser des lebens] |   1   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Steingolems'`  
 
@@ -344,9 +342,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|   Mag. |               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|        |                                         |       |        |      |                    |       |
+|  Mag.  |               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:------:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | \*[^1] | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
@@ -357,8 +354,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
 
 | Mag. |                         Komponenten                         | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:-----------------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    D | 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:-----------------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  D   | 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
@@ -370,8 +367,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
 
 | Mag. |              Komponenten              | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:-------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    I | 1 [[drachenkopf]], 5 permanente auras |  14   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:-------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  I   | 1 [[drachenkopf]], 5 permanente auras |  14   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Traumauge'`  
 
@@ -381,8 +378,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
 
 | Mag. |                Komponenten                 | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    I | 150 aura, 30000 silber, 3 permanente auras |  13   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  I   | 150 aura, 30000 silber, 3 permanente auras |  13   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe eine Sphäre der Unsichtbarkeit'`  
 
@@ -394,8 +391,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der Beutel selber wiegt 1 GE.  
 
 | Mag. |               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    T | 30 aura, 1 permanente aura, 5000 silber |  10   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  T   | 30 aura, 1 permanente aura, 5000 silber |  10   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Beutel des Negativen Gewichts'`  
 
@@ -405,8 +402,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Seine Tragkraft erhöht sich auf das 50fache und auch im Kampf werden sich die erhöhte Kraft und die trollisch zähe Haut positiv auswirken.  
 
 | Mag. |        Komponenten         | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:--------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    D | 20 aura, 1 permanente aura |   9   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:--------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  D   | 20 aura, 1 permanente aura |   9   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Gürtel der Trollstärke'`  
 
@@ -416,8 +413,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
 
 | Mag. |               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    T | 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  T   | 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Macht'`  
 
@@ -427,8 +424,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-|   Mag. |               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  Mag.  |               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:------:|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | \*[^1] | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
@@ -439,8 +436,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
 
 | Mag. |                    Komponenten                    | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----:|:-------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    G | 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :heavy_check_mark: |       |
+|:----:|:-------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|  G   | 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
 
@@ -450,8 +447,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  
 
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
-|    G | 6 x T aura  |  10   | Normal |  5   |        |       |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 6 x T aura  |  10   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Erwecke Ents'`  
 
@@ -967,9 +964,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Selbst Sümpfe und Gletscher können so verzaubert werden.  
     Je mehr Kraft der Magier in den Bann legt, desto länger bleibt die Straße bestehen.  
 
-| Mag. |        Komponenten         | Stufe |  Art   | Rang |       Schiff       | Fern.              |
-|:----:|:--------------------------:|:-----:|:------:|:----:|:------------------:|:-------------------|
-|  G   | T aura, 1 [pierre], 1 holz |   4   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Mag. |         Komponenten         | Stufe |  Art   | Rang |       Schiff       | Fern.              |
+|:----:|:---------------------------:|:-----:|:------:|:----:|:------------------:|:-------------------|
+|  G   | T aura, 1 [stein], 1 [holz] |   4   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Magischer Pfad'`  
 
@@ -1191,8 +1188,6 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
 |:----:|:-----------:|:-----:|:------:|:----:|:------:|:------|
 |  T   | 4 x T aura  |  12   | Prä-k. |  2   |        |       |
-|      |             |       |        |      |        |       |
-|      |             |       |        |      |        |       |
 
 `KAMPFZAUBER [STUFE n] Rüstschild`  
 
@@ -1238,7 +1233,6 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
 |:----:|:-----------:|:-----:|:------:|:----:|:------:|:------|
 |  T   | 4 x T aura  |   8   | Prä-k. |  2   |        |       |
-|      |             |       |        |      |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Schild des Fisches'`  
 
@@ -1359,8 +1353,6 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 | Mag. | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern.              |
 |:----:|:-----------:|:-----:|:------:|:----:|:------------------:|:-------------------|
 |  G   |   T aura    |   1   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
-|      |             |       |        |      |                    |                    |
-|      |             |       |        |      |                    |                    |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segen der Erde'`  
 
@@ -1490,9 +1482,6 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 | Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
 |:----:|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
 |  G   |  800 aura   |  17   | Normal |  5   |        | :heavy_check_mark: |
-
-<!-- TODO: what is it ? -->
-<!-- |  D  | 40 aura, 15 PV |   11 | Normal |  5   |        | :heavy_check_mark: |-->
 
 `ZAUBERE [REGION x y] 'Tor in die Ebene der Hitze'`  
 
@@ -1697,8 +1686,6 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 | Mag. | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
 |:----:|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
 |  G   | 2 x T aura  |   4   | Prä-k. |  5   | :heavy_check_mark: |       |
-|      |             |       |        |      |                    |       |
-|      |             |       |        |      |                    |       |
 
 `KAMPFZAUBER [STUFE n] Windschild`  
 

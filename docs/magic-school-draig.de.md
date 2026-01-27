@@ -14,8 +14,8 @@ alias: draigzauber
     Für diese Dienstleistung streicht der Magier 50 Silber pro Stufe ein.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| T aura      |   1   | Normal |  5   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE [STUFE n] 'Kleine Flüche'`  
 
@@ -24,8 +24,8 @@ alias: draigzauber
 :   Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
-| T aura      |   1   | Normal |  5   |        |       |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
+|   T aura    |   1   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] Verwünschung <Einheit-Nr>`  
 
@@ -37,8 +37,8 @@ alias: draigzauber
     Das ballförmige Chaos wird jeden verwunden, den es trifft.  
 
 | Komponenten | Stufe |  Art  | Rang | Schiff | Fern. |
-|-------------|:-----:|:-----:|:----:|:------:|:-----:|
-| T aura      |   2   | Kampf |  5   |        |       |
+|:-----------:|:-----:|:-----:|:----:|:------:|:-----:|
+|   T aura    |   2   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Feuerball`  
 
@@ -50,8 +50,8 @@ alias: draigzauber
     Doch die Hilfe der Herren der Sphären hat seinen Preis, und so wird die Phase der Macht abgelöst von einer Phase der Schwäche.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 6 aura      |   3   | Normal |  3   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   6 aura    |   3   | Normal |  3   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Gabe des Chaos'`  
 
@@ -65,8 +65,8 @@ alias: draigzauber
     Sodann begebe Er in der Mitten der Ewigen Vierer sich und lasse Leben verrinnen, auf das Kraft geboren werde.'  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 16 PV       |   4   | Normal |  1   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|    16 PV    |   4   | Normal |  1   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Kleines Blutopfer'`  
 
@@ -77,8 +77,8 @@ alias: draigzauber
 :   In diesem blutigen Ritual opfert der Magier vor der Schlacht ein Neugeborenes vor den Augen seiner Armee.  
     Die so gerufenen Blutgeister werden von den Soldaten Besitz ergreifen und sie in einen Blutrausch versetzen.  
 
-| Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
-|---------------------|:-----:|:------:|:----:|:------:|:-----:|
+|     Komponenten     | Stufe |  Art   | Rang | Schiff | Fern. |
+|:-------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 5 x T aura, 1 bauer |   5   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Blutrausch`  
@@ -89,7 +89,7 @@ alias: draigzauber
     Eine chaosmagische Zone um das Opfer vermindert seine Konzentrationsfähigkeit und macht es ihm sehr schwer Zauber zu wirken.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 4 x T aura  |   5   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] Chaosfluch <Einheit-Nr>`  
@@ -100,8 +100,8 @@ alias: draigzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-| Komponenten                             | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-----------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
@@ -113,8 +113,8 @@ alias: draigzauber
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
 
-| Komponenten                                       | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|---------------------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|                    Komponenten                    | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:-------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
@@ -125,7 +125,7 @@ alias: draigzauber
     Die Untoten werden ihm zu Diensten sein, doch sei der Unkundige gewarnt, dass die Beschwörung der Mächte des Todes ein zweischneidiges Schwert sein kann.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------------------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
 | 5 x T aura  |   6   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Mächte des Todes'`  
@@ -136,7 +136,7 @@ alias: draigzauber
     Der magische Regen wird alles Erz rosten lassen und so viele Waffen des Gegners zerstören.  
 
 | Komponenten | Stufe |  Art  | Rang | Schiff | Fern. |
-|-------------|:-----:|:-----:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:-----:|:----:|:------:|:-----:|
 | 2 x T aura  |   6   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Rosthauch`  
@@ -149,7 +149,7 @@ alias: draigzauber
     Sie verletzt jeden, der sie durchschreitet.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 6 x T aura  |   7   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] Feuerwand <Richtung>`  
@@ -158,8 +158,8 @@ alias: draigzauber
 
 :   In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region.  
 
-| Komponenten        | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|--------------------|:-----:|:------:|:----:|:------:|:------------------:|
+|    Komponenten     | Stufe |  Art   | Rang | Schiff |       Fern.        |
+|:------------------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 30 aura, 50 bauern |   7   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] 'Fluch der Pestilenz'`  
@@ -169,8 +169,8 @@ alias: draigzauber
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|-------------|:-----:|:------:|:----:|:------------------:|:-----:|
-| 2 aura      |   7   | Normal |  1   | :heavy_check_mark: |       |
+|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
+|   2 aura    |   7   | Normal |  1   | :heavy_check_mark: |       |
 
 `ZAUBERE Machtübertragung <Einheit-Nr> <Aura>`  
 
@@ -184,7 +184,7 @@ alias: draigzauber
     Sie sind schwer zu treffen und entziehen ihrem Gegner Kraft.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 3 x T aura  |   8   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattendämonen'`  
@@ -194,8 +194,8 @@ alias: draigzauber
 :   Vor den Augen der feindlichen Soldaten opfert der Schwarzmagier die zehn Bauern in einem blutigen, grausamen Ritual und beschwört auf diese Weise Geister des Wahnsinns über die feindlichen Truppen.  
     Diese werden im Kampf verwirrt reagieren und nicht in der Lage sein, den Anweisungen ihrer Offiziere zu folgen.  
 
-| Komponenten           | Stufe |  Art   | Rang | Schiff | Fern. |
-|-----------------------|:-----:|:------:|:----:|:------:|:-----:|
+|      Komponenten      | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 3 x T aura, 10 Bauern |   8   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Wahnsinn des Krieges'`  
@@ -207,8 +207,8 @@ alias: draigzauber
 :   Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der Magie bewirken, der alle magische Kraft aus der Region reißen wird.  
     Alle magisch begabten in der Region werden einen Großteil ihrer Aura verlieren.  
 
-| Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|----------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|        Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:--------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 35 aura, 1 [[drachenblut]] |   9   | Normal |  3   |        |       |
 
 `ZAUBERE 'Astraler Riss'`  
@@ -218,7 +218,7 @@ alias: draigzauber
 :   Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 6 x T aura  |   9   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Astrales Chaos'`  
@@ -228,8 +228,8 @@ alias: draigzauber
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
 
-| Komponenten                              | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|------------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Macht'`  
@@ -240,8 +240,8 @@ alias: draigzauber
     Ob sie ehemals auf der Seite des Feindes oder der eigenen kämpften, ist für das Ritual ohne belang.  
 
 | Komponenten | Stufe |   Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:-------:|:----:|:------:|:-----:|
-| T aura      |   9   | Post-k. |  5   |        |       |
+|:-----------:|:-----:|:-------:|:----:|:------:|:-----:|
+|   T aura    |   9   | Post-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Untote Helden'`  
 
@@ -252,8 +252,8 @@ alias: draigzauber
 :   Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen.  
     Der Feuerteufel wird sich begierig auf die Wälder der Region stürzen und sie in Flammen setzen.  
 
-| Komponenten     | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|-----------------|:-----:|:------:|:----:|:------:|:------------------:|
+|   Komponenten   | Stufe |  Art   | Rang | Schiff |       Fern.        |
+|:---------------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 50 aura, 1 [öl] |  10   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] Feuerteufel`  
@@ -265,7 +265,7 @@ alias: draigzauber
     Die Herren werden ihm beistehen, doch ob es ihm gelingt, den Zauber zu lösen, hängt allein von seiner eigenen Kraft ab.  
 
 | Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|-------------|:-----:|:------:|:----:|:------------------:|:------------------:|
+|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
 | 10 x T aura |  10   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] [STUFE n] Pentagramm ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
@@ -279,8 +279,8 @@ alias: draigzauber
     Es soll beides bereits vorgekommen sein.  
     Der Köder hält etwa 6 Wochen, muss aber in einem drachengenehmen Terrain platziert werden.  
 
-| Komponenten                | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|----------------------------|:-----:|:------:|:----:|:------:|:------------------:|
+|        Komponenten         | Stufe |  Art   | Rang | Schiff |       Fern.        |
+|:--------------------------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 80 aura, 1 [[drachenkopf]] |  11   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] Drachenruf`  
@@ -290,8 +290,8 @@ alias: draigzauber
 :   Mit einem düsteren Ritual und unter Opferung seines eigenen Blutes beschwört der Schwarzmagier einen großen Geist von der Elementarebene der Gifte.  
     Der Geist manifestiert sich als giftgrüner Schwaden über der Region und wird allen, die mit ihm in Kontakt kommen, Schaden zufügen.  
 
-| Komponenten    | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|----------------|:-----:|:------:|:----:|:------:|:------------------:|
+|  Komponenten   | Stufe |  Art   | Rang | Schiff |       Fern.        |
+|:--------------:|:-----:|:------:|:----:|:------:|:------------------:|
 | 40 aura, 15 PV |  11   | Normal |  5   |        | :heavy_check_mark: |
 
 `ZAUBERE [REGION x y] Todeswolke`  
@@ -306,7 +306,7 @@ alias: draigzauber
     Sie sind schwer zu treffen und entziehen ihrem Gegner Kraft und Leben.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
-|-------------|:-----:|:------:|:----:|:------:|:-----:|
+|:-----------:|:-----:|:------:|:----:|:------:|:-----:|
 | 7 x T aura  |  12   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattenmeister'`  
@@ -318,8 +318,8 @@ alias: draigzauber
     Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben.  
     Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
 
-| Komponenten                           | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|---------------------------------------|:-----:|:------:|:----:|:------------------:|:-----:|
+|              Komponenten              | Stufe |  Art   | Rang |       Schiff       | Fern. |
+|:-------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
 | 1 [[drachenkopf]], 5 permanente auras |  14   | Normal |  5   | :heavy_check_mark: |       |
 
 `ZAUBERE 'Erschaffe ein Traumauge'`  
@@ -330,8 +330,8 @@ alias: draigzauber
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-| Komponenten                  | Stufe |  Art   | Rang | Schiff | Fern. |
-|------------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 100 aura, 5 permanente auras |  13   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
@@ -343,8 +343,8 @@ alias: draigzauber
 :   Durch das Opfern von 200 Bauern kann der Chaosmagier ein Tor zur astralen Welt öffnen.  
     Das Tor kann in der Folgewoche verwendet werden, es löst sich am Ende der Folgewoche auf.  
 
-| Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|----------------------|:-----:|:------:|:----:|:------:|:-----:|
+|     Komponenten      | Stufe |  Art   | Rang | Schiff | Fern. |
+|:--------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 150 aura, 200 bauern |  14   | Normal |  5   |        |       |
 
 `ZAUBERE Chaossog`  
@@ -354,8 +354,8 @@ alias: draigzauber
 :   Nur geflüstert wird dieses Ritual an den dunklen Akademien an die Adepten weitergegeben, gehört es doch zu den finstersten, die je niedergeschrieben wurden.  
     Durch die Anrufung unheiliger Dämonen wird die Kraft der lebenden Toten verstärkt und sie verwandeln sich in untote Monster großer Kraft.  
 
-| Komponenten               | Stufe |  Art   | Rang | Schiff | Fern. |
-|---------------------------|:-----:|:------:|:----:|:------:|:-----:|
+|        Komponenten        | Stufe |  Art   | Rang | Schiff | Fern. |
+|:-------------------------:|:-----:|:------:|:----:|:------:|:-----:|
 | 10 x T aura, 5 x T bauern |  14   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Unheilige Kraft' <Einheit-Nr> [<Einheit-Nr> ...]`  

@@ -83,5 +83,5 @@ Poursuivre la lecture : [[deplacements]].
 [combat]: ./war.md#la-fuite
 [Espionnage]: ./skills-list.md#espionnage
 [revenus]: ./silver.md#le-vol-la-methode-malhonnete
-[Discrétion]: ./skills-list.fr.md#discretion "Stealth"
+[Discrétion]: ./skills-list.md#discretion "Stealth"
 [Perception]: ./skills-list.md#perception

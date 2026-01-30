@@ -237,7 +237,7 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [bateaux]: ./ships.md
 [Mêlée]: ./skills-list.md#melee "Melee"
 [combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[Discrétion]: ./skills-list.fr.md#discretion "Stealth"
+[Discrétion]: ./skills-list.md#discretion "Stealth"
 [potion]: ./alchemy.md
 [groupes]: ./cmd-group.md
 [déplacent]: ./travel.md

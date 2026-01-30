@@ -69,13 +69,13 @@ Statistik für Cabyn (0,0):
 
 ## Exemple d'un fichier d'ordres
 
-Ce fichier d'ordres, légèrement modifié, a été utilisé lors d'un premier tour d'une partie (pour E3 !).
-Je ne sais pas exactement quand elle a commencé.
+Ce fichier d'ordres, légèrement modifié, a été utilisé lors d'un premier tour d'une partie (pour E3).  
+Je ne sais pas exactement quand elle a commencé.  
 
-Note que certains ordres s'étendent sur plusieurs lignes.
-Ici, l'ordre `DESCRIBE` avec des commentaires `//` a été utilisé.
+Note que certains ordres s'étendent sur plusieurs lignes.  
+Ici, l'ordre `DESCRIBE` avec des commentaires `//` a été utilisé.  
 
-Cependant, si tu utilises [Magellan] pour tes ordres, tu n'as pas à t'en soucier.
+Cependant, si vous utilisez [Magellan] pour vos ordres, vous n'avez pas à vous en soucier.  
 
 ```text
 ERESSEA 37wj "pwpw42"

@@ -309,8 +309,8 @@ Poursuivre la lecture : [Material Pool].
 [morts-vivants]: ./monsters.md#morts-vivants
 [ce tableau]: ./castles.md#apercu
 [commerce]: ./skills-list.md#commerce "Trade"
-[port]: ./buildings-others.fr.md#port "Harbour"
-[très forte]: ./war-tables.fr.md#etat-de-sante
+[port]: ./buildings-others.md#port "Harbour"
+[très forte]: ./war-tables.md#etat-de-sante
 
 [commercer]: #commerce
 

@@ -18,7 +18,7 @@ Par exemple, passer du niveau 2 au niveau 3 prend environ 3 semaines.
 Généralement, un niveau de compétence de 2 est deux fois plus efficace qu'un niveau de compétence de 1;  
 un niveau de compétence de 3 est trois fois plus efficace, et ainsi de suite.  
 
-Avec un ordre de la forme `LEARN`*`<Compétence>`*`200`, tu peux indiquer à des outils tiers (comme [[echeck]]) les [[competences|coûts d'apprentissage]] de la compétence (ici 200 silver).  
+Avec un ordre de la forme `LEARN <Compétence> 200`, vous pouvez indiquer à des outils tiers (comme [[echeck]]) les [[competences|coûts d'apprentissage]] de la compétence (ici 200 silver).  
 Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'évaluation (d'exécution des ordres).
 
 ## Apprentissage accéléré

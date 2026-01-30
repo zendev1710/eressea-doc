@@ -395,7 +395,7 @@ Poursuivre la lecture : [[herbs|plantes]].
 [bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
 [racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
 [mandragore]: ./herbs.md#mandragore "Mandrake"
-[œil de chouette]: ./herbs.fr.md#il-de-chouette "Owlsgaze"
+[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"
 [herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
 [pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
 [pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"

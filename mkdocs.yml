@@ -83,6 +83,7 @@ theme:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/lore-dialogue.css
   - assets/css/fantasy.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
@@ -92,6 +93,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   # our own scripts
   - javascripts/formulas-try.js
+  - javascripts/lore-dialogue.js
 
 copyright: Copyright &copy; 2025 Cyril Guillon
 

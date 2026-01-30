@@ -11,9 +11,9 @@ N'importe quelle unité peut prendre des objets dans la réserve grâce à l'ord
 Le but de la réserve de faction est de te permettre de choisir quelle unité utilisera un objet particulier.  
 Les objets de la réserve possèdent généralement des pouvoirs magiques spéciaux.
 
-Tu peux obtenir des informations sur ces pouvoirs en utilisant l'ordre [[cmd-show]].  
+Vous pouvez obtenir des informations sur ces pouvoirs en utilisant l'ordre [[cmd-show]].  
 Cela fonctionne également si l'objet est déjà dans la réserve.  
-Cependant, ces informations peuvent être vagues, et tu devras dans ce cas déterminer toi-même les effets réels de l'objet récupéré depuis la réserve.
+Cependant, ces informations peuvent être vagues, et vous devrez dans ce cas déterminer vous-même les effets réels de l'objet récupéré depuis la réserve.
 
 Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à présent :
 

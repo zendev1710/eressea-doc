@@ -80,7 +80,7 @@ Si une telle unité est spécifiquement attaquée, aucune autre unité ne sera e
 Bien entendu, cela ne s'applique que si d'autres unités ne possédant pas ce statut ne sont pas également attaquées.  
 
 Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle-même ou une faction qu'elle aide est attaquée.  
-Tu trouveras plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [[alliances|Alliance]].
+Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [[alliances|Alliance]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 

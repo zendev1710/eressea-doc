@@ -471,5 +471,5 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 [Tour de Mage]: ./buildings-others.md#tour-de-mage
 [Cercle de pierres bénies]: ./buildings-others.md#cercle-de-pierres
 [armes ou armures]: ./war-tables.md#resistance-a-la-magie
-[Malédiction du Chaos]: ./spells-descriptions.fr.md#malediction-du-chaos
+[Malédiction du Chaos]: ./spells-descriptions.md#malediction-du-chaos
 [créatures monstrueuses]: ./monsters.md#morts-vivants

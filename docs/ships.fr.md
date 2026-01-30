@@ -174,5 +174,6 @@ GIVE 123 ALL MEN
 Poursuivre la lecture : [[batiments]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
+
 [barques]: #barque
-[voile]: ./skills-list.fr.md#voile "Sailing"
+[voile]: ./skills-list.md#voile "Sailing"

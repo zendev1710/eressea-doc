@@ -5,7 +5,7 @@ alias: reponse-automatisee-a-un-evenement
 # Réponse automatisée à un événement
 
 De nombreux événements d'Eressea sont aléatoires ou influencés par d'autres joueurs.  
-Pour ne pas les manquer, ou mieux encore, pour y réagir de manière appropriée, tu dois d'abord décider quels événements tu souhaites découvrir et comment procéder.  
+Pour ne pas les manquer, ou mieux encore, pour y réagir de manière appropriée, vous devez d'abord décider quels événements vous souhaitez découvrir et comment procéder.  
 
 ## Messages
 
@@ -37,6 +37,6 @@ Cela limite naturellement les réactions possibles à l’apparition des morts-v
 Il n’est plus possible de se déplacer vers la région adjacente.  
 
 Cependant, il est possible de modifier l’état du combat.  
-Selon que tu sois en position de force ou non, différentes réactions sont nécessaires.  
+Selon que vous soyez en position de force ou non, différentes réactions sont nécessaires.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Automatisierung\_Ereignissreaktion&oldid=6434] -->

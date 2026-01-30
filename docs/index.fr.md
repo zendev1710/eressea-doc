@@ -6,7 +6,7 @@ alias: accueil
 
 Bienvenue dans [[eressea]] !
 
-!!! warning "important"
+!!! warning "Important"
     Les règles décrites sur ce site **ne font pas autorité**.  
 
     Les **règles officielles** et de référence du jeu sont disponibles dans **[ce wiki]**.

@@ -6,7 +6,7 @@ alias: cmd-prefix-fr
 
 **`PREFIX`**`[`*`préfixe`*`]`  
 
-Avec l'ordre `PREFIX`, tu peux préfixer les désignations de races des unités de ta faction (ou de tes groupes) dans le rapport.  
+Avec l'ordre `PREFIX`, vous pouvez préfixer les désignations de races des unités de votre faction (ou de vos groupes) dans le rapport.  
 Le préfixe n'a aucun autre effet.  
 
 Sans paramètres, l'ordre supprime un préfixe existant.  

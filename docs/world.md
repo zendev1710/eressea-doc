@@ -6,38 +6,47 @@ alias: world
 
 ## Geography
 
-*Selen Ard'Ragorn calmly looked at the door when Rahel, her young novice, clumsily stumbled into the small chamber in the library wing of the temple.  
-Slightly amused, she regarded the nervously twitching tail of the young cat, who desperately but unsuccessfully tried to straighten her disheveled robes.*
-
-*"Come closer, my child", Selen asked.  
-Rahel bashfully neared the decorated table where the abbess sat.  
-As the young cat caught sight of the big parchment spread on the table, she meowed in astonishment.  
-She saw a detailed, neatly drawn map of the whole known world.  
-Information from all lands under the Gold−Eyed Cat's gaze had been collected and sketched in this map by skilled hands.  
-Rahel discerned Andune, the little island almost divided into two, in the middle of the sea.  
-Around Andune she saw the well−known contours of the neighboring islands, embedded as Andune itself in the seemingly endless ocean.*
+<div class="lore-dialogue">
+Selen Ard'Ragorn calmly looked at the door when Rahel, her young novice, clumsily stumbled into the small chamber in the library wing of the temple.
+Slightly amused, she regarded the nervously twitching tail of the young cat, who desperately but unsuccessfully tried to straighten her disheveled robes.
+"Come closer, my child", Selen asked.
+Rahel bashfully neared the decorated table where the abbess sat.
+As the young cat caught sight of the big parchment spread on the table, she meowed in astonishment.
+She saw a detailed, neatly drawn map of the whole known world.
+Information from all lands under the Gold−Eyed Cat's gaze had been collected and sketched in this map by skilled hands.
+Rahel discerned Andune, the little island almost divided into two, in the middle of the sea.
+Around Andune she saw the well−known contours of the neighboring islands, embedded as Andune itself in the seemingly endless ocean.
+</div>
 
 The world of Eressea consists of many islands and continents with entirely different sizes.  
+
 Islands and oceans are segmented to regions.  
 Inside the regions are the players' units, buildings and ships, as well as peasants and various raw materials.
 
-> Rahel was still looking at the secret map in amazement when Selen pointed to one of the islands at the very edge.
-> "Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"
+<div class="lore-dialogue">
+Rahel was still looking at the secret map in amazement when Selen pointed to one of the islands at the very edge.
+"Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"
+</div>
 
-<!-- TODO: 490X264 - should be where in the page ? -->
 ![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
-*The novice contemplated the map intently.  
-Apparently it was confined to the essential and the discovered districts were only roughly classified.  
-Rahel recognized forests and mountains, many swamps and some woodless plains.*
+<div class="lore-dialogue">
+The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified.
+Rahel recognized forests and mountains, many swamps and some woodless plains.
+</div>
 
 In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain.  
-Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.
+Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.  
 
-> "Well done my child," Selen assured the much younger cat.
-> "These maps are mostly used for navigating our ships. But you notice they contain only little information. Because of that ..."
-> − Selen opened a big, heavy book beside the map − "...
-> our scouts send us detailed reports about the explored regions every week. We gather these reports, because they are important for our decisions."
+<div class="lore-dialogue">
+"Well done my child", Selen assured the much younger cat.
+"These maps are mostly used for navigating our ships.
+But you notice they contain only little information.
+Because of that..."
+Selen opened a big, heavy book beside the map
+"our scouts send us detailed reports about the explored regions every week.
+We gather these reports, because they are important for our decisions."
+</div>
 
 In the world of Eressea there are various [[terrain-types]] (mountain, plain, forest, glacier, highland, swamp, desert and volcano) with different characteristics.  
 An explorer who does not shy away from the vast oceans may discover other, exotic region types on his exploratory journeys.  
@@ -108,13 +117,16 @@ In other region types you can also find laen with luck, but then possibly only a
 You therefore need a miner with mining 5 to be able to rule out laen in every land region.  
 However, if you are very lucky and have found a region with laen, you will need a [mine] to gain it.  
 
-> Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.
-> "Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time."
-> The young novice tried to look composed, but Magistra Selen noticed her relief at not having to memorise all the information immediately.
-> Selen then continued "You don't just learn in the academies and libraries, but also in the taverns.
-> Because that's where you occasionally meet miners over a mead who tell each other stories about an even rarer metal than Laen. They call it adamantium.
-> It is said to be even rarer than Laen and only the most experienced miners have ever found it.
-> But the best smiths can make the best weapons and armour in all of Eressea from this metal."
+<div class="lore-dialogue">
+Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.
+"Rahel, my child, you don't have to memorise all these numbers. Instead, remember that you can look them up here in the library at any time.
+The young novice tried to look composed, but Magistra Selen noticed her relief at not having to memorise all the information immediately."
+Selen then continued:
+"You don't just learn in the academies and libraries, but also in the taverns.
+Because that's where you occasionally meet miners over a mead who tell each other stories about an even rarer metal than Laen. They call it adamantium.
+It is said to be even rarer than Laen and only the most experienced miners have ever found it.
+But the best smiths can make the best weapons and armour in all of Eressea from this metal."
+</div>
 
 The information for the following region is explained in detail:
 
@@ -150,22 +162,28 @@ This amount is important to be able to estimate how the peasants are being suppl
 
 ## The Regions of Eressea
 
-> Selen pointed to the open page.
-> "Take a look at this and tell me what you see."
-> Rahel looked at the text intently before she began.*
+<div class="lore-dialogue">
+Selen pointed to the open page.
+"Take a look at this and tell me what you see."
+Rahel looked at the text intently before she began.
+</div>
 
 The report lists all regions in which you have a unit, through which you have traveled, or ocean regions that you have seen from a [lighthouse][]:
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamps of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountains of Nipevan (−2,0).`
 
-> "Well, first, there is the region's name as known by its inhabitants and its position, followed by its type.
-> We can also see how many peasants live there and how much silver they have.
-> Finally, the scout has reported the amount of trees and horses they have found in this region.
-> Stones and iron have not yet been discovered there."
+<div class="lore-dialogue">
+— "Well, first, there is the region's name as known by its inhabitants and its position, followed by its type.
+We can also see how many peasants live there and how much silver they have.
+Finally, the scout has reported the amount of trees and horses they have found in this region.
+Stones and iron have not yet been discovered there."
+</div>
 
 The peasants living in the region can be recruited to your faction with the command [[cmd-recruit]], the trees can be cut down and horses tamed with the command [[cmd-make]].
 
-> "Very good, Rahel. And what is written in the lines below?"
+<div class="lore-dialogue">
+— "Very good, Rahel. And what is written in the lines below?"
+</div>
 
 ```text
 The local market offers incense at a price of 4 silver.
@@ -186,44 +204,83 @@ silver: 821
 swords: 2
 ```
 
-> The young novice beamed proudly at her obviously satisfied teacher.
-> "This, Magistra, is further information that our scouts have discovered.
-> Firstly, they seem to have looked around the market and noted the prices.
-> The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
-> The last lines then state how many of our people are there and what they are carrying."
+<div class="lore-dialogue">
+The young novice beamed proudly at her obviously satisfied teacher.
+— "This, Magistra, is further information that our scouts have discovered.
+Firstly, they seem to have looked around the market and noted the prices.
+The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
+The last lines then state how many of our people are there and what they are carrying."
+</div>
 
 Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade]).  
 Trading more goods may change the price permanently! For further information, read the section on [trade].
 
-> "Excellent, my child. This is a complete report.
-> Sometimes we only get less extensive ones, especially when our scout only passed through a region on their horse.
-> We only get detailed reports like this when members of our people stay there."
-> Selen pointed at a chair at the other side of the table.
-> "You may sit down now, child." Rahel took place, purring briefly, a little bit satisfied she had not disappointed her teacher, but also wondering what would come next.
-> The ordained member of the Clan of the Golden-Eyed Cats leaned back in her chair and watched her.
-> "These are just numbers, useful and worth preserving, yes. But exploring the laws they are based on, is very important, too."
-> Standing up, Selen took out another parchment from the bag she had placed beneath the table and spread it above the map.
-> Rahel tried to understand the chaotic drawing of almost horizontal lines, but she couldn't make head or tail of it.
-> "Explain it to me, please."
-> "This, my child, is an attempt to track down the natural laws.
-> Every week, the amount of peasants, trees, and horses are changing in the regions.
-> They die, are born or emigrate. I tried to find out why they do so, without ever asking them." A silent smile appeared on Selens face.
-> "It seems that most depends on the space peasants and trees must share." The young novice pointed at a second little drawing scribbled at the edge of the parchment.
-> "And what does this mean? It looks similar to the big one." - "In the big drawing, I sketched in the figures of a plain near the ocean with fertile soil.
-> The little one describes the development of an inhospitable swamp. You can see that the trends are similar, but the swamp has less of everything."
+<div class="lore-dialogue">
+— "Excellent, my child. This is a complete report.
+Sometimes we only get less extensive ones, especially when our scout only passed through a region on their horse.
+We only get detailed reports like this when members of our people stay there."
+Selen pointed at a chair at the other side of the table.
+"You may sit down now, child."
+Rahel took place, purring briefly, a little bit satisfied she had not disappointed her teacher, but also wondering what would come next.
+The ordained member of the Clan of the Golden-Eyed Cats leaned back in her chair and watched her.
+"These are just numbers, useful and worth preserving, yes. But exploring the laws they are based on, is very important, too."
+Standing up, Selen took out another parchment from the bag she had placed beneath the table and spread it above the map.
+Rahel tried to understand the chaotic drawing of almost horizontal lines, but she couldn't make head or tail of it.
+— "Explain it to me, please."
+— "This, my child, is an attempt to track down the natural laws.
+Every week, the amount of peasants, trees, and horses are changing in the regions.
+They die, are born or emigrate. I tried to find out why they do so, without ever asking them."
+A silent smile appeared on Selens face.
+"It seems that most depends on the space peasants and trees must share."
+The young novice pointed at a second little drawing scribbled at the edge of the parchment.
+— "And what does this mean? It looks similar to the big one."
+— "In the big drawing, I sketched in the figures of a plain near the ocean with fertile soil.
+The little one describes the development of an inhospitable swamp.
+You can see that the trends are similar, but the swamp has less of everything."
+</div>
 
 ## The Eressean Calendar
 
-> Selen Ard'Ragorn rose from her chair. Rahel also stood up and admired how supple the old abbess still moved.
-> She already knew what would follow. At the end of every instruction, they were taking a walk through the spacious garden of the temple during which she would receive more lessons.
-> Together they walked through a little grove, when Selen said:
-> "Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us.
-> Very hard on the insects, who can't breed in winter."
-> "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again."
-> "You are right, Rahel. So there is something positive to be found in everything."
-> Until late in the evenening, the guardians of the temple could see the two cats strolling through the garden, illuminated by magic...
+<div class="lore-dialogue">
+Selen Ard'Ragorn rose from her chair. Rahel also stood up and admired how supple the old abbess still moved.
+She already knew what would follow. At the end of every instruction, they were taking a walk through the spacious garden of the temple during which she would receive more lessons.
+Together they walked through a little grove, when Selen said:
+"Do you notice the descending sun? So early... Soon, it will be winter. Anon, the "storm moon" will turn into "hearth fire". A time of deprivation for most of us.
+Very hard on the insects, who can't breed in winter."
+— "Yes, mistress. But at least our sailors are relieved that the time of destructive autumn storms has gone and the sea turns safer again."
+— "You are right, Rahel. So there is something positive to be found in everything."
+Until late in the evenening, the guardians of the temple could see the two cats strolling through the garden, illuminated by magic...
+</div>
 
 Eressea's year is divided into nine months with three weeks in each.  
+
+| Month            | Season | Storm frequency |
+|------------------|--------|----------------:|
+| harvest moon     | summer |            0.5% |
+| impenetrable fog | autumn |              3% |
+| storm moon       | autumn |              4% |
+| hearth fire      | winter |            2.5% |
+| icewind          | winter |            1.5% |
+| snowbane         | winter |              3% |
+| flowerrain       | spring |              3% |
+| mild winds       | spring |            0.5% |
+| sunfire          | summer |              3% |
+
+Every turn of the game corresponds to one week in Eressea's world.  
+Many things can be done in one week.  
+But there are some actions lasting almost the whole week.  
+You can only do one of these so called long orders per turn (see also the chapter about [[orders]]).  
+
+Although the influence of the seasons is generally not particularly pronounced, there are some areas or events that are definitely influenced significantly.  
+
+Here is a brief overview:
+
+- Peoples of the [insect] race can hardly recruit in winter
+- Storms at [[travel|sea]] are much more common in autumn
+- The individual phases of [forest growth] are linked to seasonal cycle
+- In winter the growth of the [[herbs]] comes to a standstill
+
+## Months
 
 ### Harvest Moon
 
@@ -278,31 +335,6 @@ Eressea's year is divided into nine months with three weeks in each.
 <!-- cspell:disable -->
 *Sonnenfeuer (DE).*
 <!-- cspell:enable -->
-
-| Month            | Season | Storm Frequency |
-|------------------|--------|----------------:|
-| harvest moon     | summer |            0.5% |
-| impenetrable fog | autumn |              3% |
-| storm moon       | autumn |              4% |
-| hearth fire      | winter |            2.5% |
-| icewind          | winter |            1.5% |
-| snowbane         | winter |              3% |
-| flowerrain       | spring |              3% |
-| mild winds       | spring |            0.5% |
-| sunfire          | summer |              3% |
-
-Every turn of the game corresponds to one week in Eressea's world.  
-Many things can be done in one week.  
-But there are some actions lasting almost the whole week.  
-You can only do one of these so called long orders per turn (see also the chapter about [[orders]]).  
-
-Although the influence of the seasons is generally not particularly pronounced, there are some areas or events that are definitely influenced significantly.  
-Here is a brief overview:
-
-- Peoples of the [insect] race can hardly recruit in winter
-- Storms at [[travel|sea]] are much more common in autumn
-- The individual phases of [forest growth] are linked to seasonal cycle
-- In winter the growth of the [[herbs]] comes to a standstill
 
 ## See also
 

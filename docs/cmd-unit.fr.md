@@ -6,7 +6,7 @@ alias: cmd-unit-fr
 
 **`UNIT`**` `*`<unit-id>`*  
 
-Avec cet ordre, tu commences à renseigner les ordre pour l'une de tes unités.  
+Avec cette instruction, vous commencez à renseigner les ordre à donner à l'une de vos unités.  
 
 ```text
 UNIT 45

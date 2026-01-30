@@ -11,19 +11,19 @@ Une introduction et quelques exemples de scripts sont disponibles sur le [site w
 La bibliothèque de scripts est accessible via le menu Magellan *`Plugins > Extended Commands > Edit Library...`*.  
 Une nouvelle fenêtre s’ouvre sur le côté, proposant un champ de saisie pour renseigner le code, ainsi que des boutons d’exécution et d’enregistrement.  
 
-Tu trouveras ci-dessous des exemples de méta-scripts.  
+Vous trouverez ci-dessous des exemples de méta-scripts.  
 
 ## Méta-scripts
 
-En général, tu peux copier les scripts les uns après les autres, mais il est aussi possible de les diviser en quatre :
+En général, vous pouvez copier les scripts les uns après les autres, mais il est aussi possible de les diviser en quatre :
 
 1. Importations : copie simplement deux lignes
 2. Bibliothèque de fonctions : copie-colle
 3. Configuration : cette étape nécessite une configuration manuelle
-4. Appels : ici, tu peux configurer le comportement de chaque appel
+4. Appels : ici, vous pouvez configurer le comportement de chaque appel
 
-Si tu souhaites écrire du code toi-même, tu trouveras tout le nécessaire  dans *`Desktop > Advanced Commands > Help.`*.
-Tu peux également consulter la page dans ton navigateur en cliquant sur le bouton « Navigateur ».
+Si vous souhaitez écrire votre propre code, vous trouveras toutes le sinformations nécessaires dans *`Desktop > Advanced Commands > Help.`*.  
+Vous pouvez également consulter la page dans votre navigateur en cliquant sur le bouton « Navigateur ».  
 
 Voici les deux lignes pour l'importation :
 
@@ -32,11 +32,11 @@ import magellan.library.*;
 import magellan.library.rules.*;
 ```
 
-Ci-dessous tu trouveras mes scripts.
+Ci-dessous vous trouverez mes scripts.  
 
 ### Méta-script de construction de château
 
-En appelant `metaBurgenbauSchilder()` dans toutes les régions, vous recevrez un `Sign` avec les informations suivantes : 
+En appelant `metaBurgenbauSchilder()` dans toutes les régions, vous recevrez un `Sign` avec les informations suivantes :
 
 - Taille du château M Moral
 - Argent par taille de château

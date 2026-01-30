@@ -14,7 +14,9 @@ Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes
 
     La durée exacte de la protection peut varier selon le moment où elle est accordée.
 
-> Note : auparavant, le message indiquait : « Votre faction est immunisée contre les attaques pendant X semaines ».
+!!! Note
+
+    Auparavant, le message indiquait : « Votre faction est immunisée contre les attaques pendant X semaines ».
 
 !!! warning "Attention"
 

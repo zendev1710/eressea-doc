@@ -6,40 +6,51 @@ alias: le-monde-d-eressea
 
 ## Géographie
 
-> Selen Ard'Ragorn regarda la porte lorsque Rahel, sa jeune novice, entra maladroitement dans la petite chambre du panneau de la bibliothèque du temple.
-> Un peu amusée, elle considéra la queue nerveusement agitée de la jeune chatte, qui tentait désespérément, mais sans succès, d'égaliser sa robe froissée.
-> "Approche-toi, mon enfant", demanda Selen.
-> Rahel s'approcha timidement de la table décorée où était assise l'abbesse. Lorsque la jeune chatte aperçut le grand parchemin étalé sur la table, elle poussa un miaulement étonné. Elle vit une carte détaillée, dessinée à la main, de tout le monde connu. Les informations de tous les pays contrôlés par le Chat aux Yeux d'Or avaient été rassemblées et esquissées sur cette carte par des mains expertes. Rahel distingua Andune, la petite île presque divisée en deux, au milieu de la mer. Autour d'Andune, elle vit les contours bien connus des îles voisines, enchâssées dans l'océan éternel.
+<div class="lore-dialogue">
+Selen Ard'Ragorn regarda la porte lorsque Rahel, sa jeune novice, entra maladroitement dans la petite chambre du panneau de la bibliothèque du temple.
+Un peu amusée, elle considéra la queue nerveusement agitée de la jeune chatte, qui tentait désespérément, mais sans succès, d'égaliser sa robe froissée.
+"Approche-toi, mon enfant", demanda Selen.
+Rahel s'approcha timidement de la table décorée où était assise l'abbesse.
+Lorsque la jeune chatte aperçut le grand parchemin étalé sur la table, elle poussa un miaulement étonné.
+Elle vit une carte détaillée, dessinée à la main, de tout le monde connu.
+Les informations de tous les pays contrôlés par le Chat aux Yeux d'Or avaient été rassemblées et esquissées sur cette carte par des mains expertes.
+Rahel distingua Andune, la petite île presque divisée en deux, au milieu de la mer.
+Autour d'Andune, elle vit les contours bien connus des îles voisines, enchâssées dans l'océan éternel.
+</div>
 
 Le monde d'Eressea est composé d'une multitude d'îles et de continents de tailles très différentes.  
 
 Les îles et les océans sont divisés en régions.  
 Dans les régions, on trouve les unités des joueurs, les bâtiments et les bateaux, les paysans et différentes matières premières.  
 
-> Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsque Selen pointa du doigt l'une des îles en bordure.
-> "Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?"
+<div class="lore-dialogue">
+Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsque Selen pointa du doigt l'une des îles en bordure.
+"Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?"
+</div>
 
-<!-- TODO: 490X264 - where to put it ? -->
 ![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
-> La novice observa attentivement la carte. Apparemment, on s'était limité à l'essentiel lors de son élaboration et les régions découvertes n'avaient été que grossièrement classées.
-> Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plaines non boisées.
+<div class="lore-dialogue">
+La novice observa attentivement la carte. Apparemment, on s'était limité à l'essentiel lors de son élaboration et les régions découvertes n'avaient été que grossièrement classées.
+Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plaines non boisées.
+</div>
 
 Dans cet exemple, à l'emplacement (0,0) il y a un marais, au nord-est à l'emplacement (0,1) il y a une montagne.  
 Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [[cmd-origin]], par exemple pour l'aligner sur celui d'une autre faction.  
 
-> "Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
-> "Ces cartes servent surtout à la navigation de nos bateaux.
-> Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations.
-> C'est pourquoi..."
-> Et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte.
-> "... c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées.
-> Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
+<div class="lore-dialogue">
+"Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
+"Ces cartes servent surtout à la navigation de nos bateaux.
+Mais comme tu peux le constater, elles ne contiennent pas beaucoup d'informations.
+C'est pourquoi..."
+Et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la table à côté de la carte.
+"...c'est pourquoi nous recevons chaque semaine de chacun de nos éclaireurs un rapport détaillé sur les régions explorées.
+Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
+</div>
 
-Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.
+Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.  
 
 <!-- TODO reorganize info. Some are partially duplicated in terrains.md -->
-
 En fonction du type de terrain, la région accueillera un nombre différent de paysans pour gagner leur salaire hebdomadaire dans les champs.  
 Ainsi, une plaine offre un emploi à beaucoup plus de paysans qu'un marais par exemple.  
 De plus, les arbres réduisent le nombre d'emplois disponibles.  
@@ -103,13 +114,16 @@ Dans d'autres types de régions, on peut aussi avoir de la chance de trouver du 
 Il faut donc un mineur de niveau 5 pour pouvoir exclure le laen dans chaque région.  
 Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [mine] pour l'exploiter.  
 
-> Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates.
-> "Rahel, mon enfant, tu n'as pas besoin de te souvenir de tous ces chiffres. Retiens plutôt que tu pourras les consulter ici, dans la bibliothèque, à tout moment".
-> La jeune novice essayait d'avoir l'air calme, mais la magistrate Selen pouvait voir qu'elle était soulagée de ne pas avoir à se souvenir de toutes les informations immédiatement.
-> Selen poursuit : "Mais on n'apprend pas seulement dans les académies et les bibliothèques, mais aussi dans les tavernes.
-> Car on y rencontre parfois des mineurs autour d'un hydromel, qui se racontent des histoires sur un métal encore plus rare que le laen.
-> Ils l'appellent adamantium. Il serait encore bien plus rare que le laen et seuls les mineurs les plus expérimentés l'auraient trouvé.
-> Mais avec ce métal, les meilleurs forgerons peuvent aussi fabriquer les meilleures armes et armures de tout Eressea".
+<div class="lore-dialogue">
+Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates.
+"Rahel, mon enfant, tu n'as pas besoin de te souvenir de tous ces chiffres. Retiens plutôt que tu pourras les consulter ici, dans la bibliothèque, à tout moment."
+La jeune novice s'efforçait de garder son calme, mais la magistrate Selen pouvait voir qu'elle était soulagée de ne pas avoir à se souvenir de toutes les informations immédiatement.
+Selen poursuit :
+"Mais on n'apprend pas seulement dans les académies et les bibliothèques, mais aussi dans les tavernes.
+Car on y rencontre parfois des mineurs autour d'un hydromel, qui se racontent des histoires sur un métal encore plus rare que le laen.
+Ils l'appellent adamantium. Il serait encore bien plus rare que le laen et seuls les mineurs les plus expérimentés l'auraient trouvé.
+Mais avec ce métal, les meilleurs forgerons peuvent aussi fabriquer les meilleures armes et armures de tout Eressea."
+</div>
 
 Pour la région suivante, les informations sont expliquées en détail :
 
@@ -146,23 +160,29 @@ Ce montant est important pour estimer l'état de l'approvisionnement des paysans
 
 ## Les régions d'Eressea
 
-> Selen montra du doigt la page ouverte.
-> "Maintenant, toi, Rahel, regarde ce rapport et dis-moi ce que tu vois."
-> Rahel regarda intensément un instant avant de commencer.
+<div class="lore-dialogue">
+Selen montra du doigt la page ouverte.
+"Maintenant, toi, Rahel, regarde ce rapport et dis-moi ce que tu vois."
+Rahel regarda intensément un instant avant de commencer.
+</div>
 
 Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesquelles tu as voyagé ou les régions océaniques que tu as aperçues depuis un [phare] sont listées :
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamp of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountain of Nipevan (−2,0).`
 
-> "Tout d'abord, il y a le nom par lequel la région est connue des locaux, ainsi que sa localisation.
-> Juste derrière, l'éclaireur a noté la nature de la région.
-> On y trouve également le nombre de paysans qui y vivent et une estimation approximative de leur richesse.
-> Le nombre d'arbres et de montures trouvés dans la région est également indiqué.
-> Les pierres et le fer n'y ont pas encore été découverts."
+<div class="lore-dialogue">
+— "Tout d'abord, il y a le nom par lequel la région est connue des locaux, ainsi que sa localisation.
+Juste derrière, l'éclaireur a noté la nature de la région.
+On y trouve également le nombre de paysans qui y vivent et une estimation approximative de leur richesse.
+Le nombre d'arbres et de montures trouvés dans la région est également indiqué.
+Les pierres et le fer n'y ont pas encore été découverts."
+</div>
 
 Les paysans vivant dans la région peuvent être recrutés dans sa faction avec l'ordre [[cmd-recruit]], les arbres peuvent être abattus et les chevaux domestiqués avec l'ordre [[cmd-make]].  
 
-> "Très bien, Rahel. Et que disent les lignes en dessous ?"
+<div class="lore-dialogue">
+— "Très bien, Rahel. Et que disent les lignes en dessous ?"
+</div>
 
 ```text
 The local market offers incense at a price of 4 silver.
@@ -181,105 +201,58 @@ swords: 2
 horses: 4
 ```
 
-> La jeune novice rayonne de fierté devant son enseignante apparemment satisfaite.
-> "Il s'agit, Magistra, d'informations supplémentaires que nos éclaireurs ont obtenues.
-> Tout d'abord, ils semblent avoir fait le tour du marché et noté les prix.
-> Dans la partie inférieure, ils indiquent combien d'argent les habitants de la région sont prêts à dépenser pour les forains et les musiciens, combien on peut obtenir pour des travaux simples, combien de paysans sont prêts à se joindre à un peuple et combien de marchandises sont vendues sur le marché au prix indiqué ci-dessus.
-> Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y trouvent et ce qu'elles transportent."
+<div class="lore-dialogue">
+La jeune novice rayonne de fierté devant son enseignante apparemment satisfaite.
+— "Il s'agit, Magistra, d'informations supplémentaires que nos éclaireurs ont obtenues.
+Tout d'abord, ils semblent avoir fait le tour du marché et noté les prix.
+Dans la partie inférieure, ils indiquent combien d'argent les habitants de la région sont prêts à dépenser pour les forains et les musiciens, combien on peut obtenir pour des travaux simples, combien de paysans sont prêts à se joindre à un peuple et combien de marchandises sont vendues sur le marché au prix indiqué ci-dessus.
+Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y trouvent et ce qu'elles transportent."
+</div>
 
 Dans `Luxuries`, vous pouvez voir la quantité de marchandises achetées ou vendues par les paysans pour le prix indiqué (voir aussi [Commerce]).  
 Échanger plus de marchandises changera le prix durablement !  
 
 Pour plus d'informations, lisez la section [Commerce].  
 
-> "Excellent, Rahel. Ce que tu as sous les yeux est un rapport complet. Mais parfois, nous recevons des rapports moins complets, par exemple lorsqu'un éclaireur a simplement traversé une région à la hâte.
-> Nous ne recevons des rapports aussi détaillés que celui-ci que lorsque des membres de notre peuple s'y trouvent."
-> Selen désigne de la main la chaise de l'autre côté de la table.
-> "Tu peux t'asseoir maintenant, mon enfant".
-> Rahel s'approcha de la chaise, s'assit et émit un bref ronronnement, mélange de satisfaction de ne pas avoir apparemment déçu son professeur et d'attente de ce qui allait suivre.
-> La consacrée des Chats aux Yeux d'Or se pencha en arrière sur sa chaise et regarda Rahel un instant.
-> "Ce que tu vois là, ce ne sont que des chiffres. Des chiffres utiles, qui valent la peine d'être conservés, oui. Mais il est aussi important d'étudier les lois qui se cachent derrière ces chiffres."
-> Elle se leva, plongea la main dans le sac qu'elle avait placé sous la table et en sortit un autre parchemin qu'elle étala sur la table, au-dessus de la carte.
-> Rahel y jeta un regard intéressé, mais ne reconnut d'abord qu'un dessin chaotique fait de lignes plus ou moins horizontales. Elle regarda son enseignante d'un air interrogateur.
-> "Qu'est-ce que cela signifie, Magistra ?"
-> "Ceci, mon enfant, est une tentative de suivre les lois de la nature.
-> Chaque semaine, le nombre d'arbres, de paysans et de chevaux d'une région change.
-> Ils meurent, naissent ou vont chercher fortune ailleurs. Je me suis efforcée de comprendre pourquoi ils font cela, sans jamais les interroger".
-> La consacrée sourit intérieurement.
-> "Il semble que beaucoup de choses dépendent de la place qu'il y a dans une région. Les paysans, les arbres et les chevaux se prennent mutuellement la place".
-> La novice désigna un deuxième petit dessin griffonné sur le bord du parchemin.
-> "Et que signifie ce dessin ? Il ressemble presque au grand..."
-> "Dans le grand dessin, Rahel, j'ai reporté les chiffres pour une région côtière plate avec un sol excellent.
-> Le plus petit dessin décrit le développement dans un marais inhospitalier. Comme tu le vois, l'évolution est similaire, sauf que dans le marais, on trouve moins de tout."
+<div class="lore-dialogue">
+— "Excellent, Rahel. Ce que tu as sous les yeux est un rapport complet.
+Mais parfois, nous recevons des rapports moins complets, par exemple lorsqu'un éclaireur a simplement traversé une région à la hâte.
+Nous ne recevons des rapports aussi détaillés que celui-ci que lorsque des membres de notre peuple s'y trouvent."
+Selen désigne de la main la chaise de l'autre côté de la table.
+"Tu peux t'asseoir maintenant, mon enfant".
+Rahel s'approcha de la chaise, s'assit et émit un bref ronronnement, mélange de satisfaction de ne pas avoir apparemment déçu son professeur et d'attente de ce qui allait suivre.
+La consacrée des Chats aux Yeux d'Or se pencha en arrière sur sa chaise et regarda Rahel un instant.
+"Ce que tu vois là, ce ne sont que des chiffres. Des chiffres utiles, qui valent la peine d'être conservés, oui. Mais il est aussi important d'étudier les lois qui se cachent derrière ces chiffres."
+Elle se leva, plongea la main dans le sac qu'elle avait placé sous la table et en sortit un autre parchemin qu'elle étala sur la table, au-dessus de la carte.
+Rahel y jeta un regard intéressé, mais ne reconnut d'abord qu'un dessin chaotique fait de lignes plus ou moins horizontales. Elle regarda son enseignante d'un air interrogateur.
+— "Qu'est-ce que cela signifie, Magistra ?"
+— "Ceci, mon enfant, est une tentative de suivre les lois de la nature.
+Chaque semaine, le nombre d'arbres, de paysans et de chevaux d'une région change.
+Ils meurent, naissent ou vont chercher fortune ailleurs. Je me suis efforcée de comprendre pourquoi ils font cela, sans jamais les interroger."
+La consacrée sourit intérieurement.
+"Il semble que beaucoup de choses dépendent de la place qu'il y a dans une région. Les paysans, les arbres et les chevaux se prennent mutuellement la place."
+La novice désigna un deuxième petit dessin griffonné sur le bord du parchemin.
+— "Et que signifie ce dessin ? Il ressemble presque au grand..."
+— "Dans le grand dessin, Rahel, j'ai reporté les chiffres pour une région côtière plate avec un sol excellent.
+Le plus petit dessin décrit le développement dans un marais inhospitalier.
+Comme tu le vois, l'évolution est similaire, sauf que dans le marais, on trouve moins de tout."
+</div>
 
 ## Le calendrier d'Eressea
 
-> Selen Ard'Ragorn se leva de sa chaise. Comme toujours, Rahel admira la souplesse avec laquelle la vieille bibliothécaire et directrice du temple se déplaçait encore et se leva à son tour.
-> Elle savait déjà ce qui allait se passer. À la fin de chaque cours, la magistrate se promenait dans le vaste parc du Grand Temple et lui donnait d'autres leçons.
-> Ensemble, elles traversèrent un petit bois d'aulnes. Jusqu'à présent, Selen était restée silencieuse, mais elle s'adressa à Rahel.
-> "Tu vois le soleil couchant ? Si tôt déjà... L'hiver approche. Bientôt, la lune de l'orage (Storm moon) fera place au mois du feu de camp (Hearth fire). Une période de privation pour beaucoup.
-> Pour les colonies d'insectes, par exemple, car elles ne peuvent pas se reproduire pendant les mois d'hiver"
-> "Oui, Magistra. Mais au moins nos marins respirent, le temps des grandes tempêtes d'automne est passé et la mer est à nouveau plus sûre"
-> "Tu as raison, Rahel. Il y a donc du bon dans tout cela."
-> Jusque tard dans la soirée, les gardes du temple pouvaient les voir déambuler silencieusement dans le parc magiquement éclairé...
+<div class="lore-dialogue">
+Selen Ard'Ragorn se leva de sa chaise. Comme toujours, Rahel admira la souplesse avec laquelle la vieille bibliothécaire et directrice du temple se déplaçait encore et se leva à son tour.
+Elle savait déjà ce qui allait se passer. À la fin de chaque cours, la magistrate se promenait dans le vaste parc du Grand Temple et lui donnait d'autres leçons.
+Ensemble, elles traversèrent un petit bois d'aulnes. Jusqu'à présent, Selen était restée silencieuse, mais elle s'adressa à Rahel.
+"Tu vois le soleil couchant ? Si tôt déjà... L'hiver approche. Bientôt, la Lune des Tempêtes fera place au mois du Feu du Foyer. Une période de privation pour beaucoup.
+Pour les colonies d'insectes, par exemple, car elles ne peuvent pas se reproduire pendant les mois d'hiver."
+— "Oui, Magistra. Mais au moins nos marins respirent, le temps des grandes tempêtes d'automne est passé et la mer est à nouveau plus sûre."
+— "Tu as raison, Rahel. Il y a donc du bon dans tout cela."
+Jusque tard dans la soirée, les gardes du temple pouvaient les voir déambuler silencieusement dans le parc magiquement éclairé...
+</div>
 
 Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines chacun.  
 
-### Lune des Récoltes
-
-<!-- cspell:disable -->
-*Harvest Moon (EN), Feldsegen (DE).*
-<!-- cspell:enable -->
-
-### Brouillard Impénétrable
-
-<!-- cspell:disable -->
-*Impenetrable Fog (EN), Nebeltage (DE).*
-<!-- cspell:enable -->
-
-### Lune des Tempêtes
-
-<!-- cspell:disable -->
-*Storm Moon (EN), Sturmmond (DE).*
-<!-- cspell:enable -->
-
-### Feu du Foyer
-
-<!-- cspell:disable -->
-*Hearth Fire (EN), Herdfeuer (DE).*
-<!-- cspell:enable -->
-
-### Vent des Glaces
-
-<!-- cspell:disable -->
-*Icewind (EN), Eiswind (DE).*
-<!-- cspell:enable -->
-
-### Neiges Envoûtantes
-
-<!-- cspell:disable -->
-*Snowbane (EN), Schneebann (DE).*
-<!-- cspell:enable -->
-
-### Pluies de Fleurs
-
-<!-- cspell:disable -->
-*Flowerrain (EN), Blütenregen (DE).*
-<!-- cspell:enable -->
-
-### Vents Doux
-
-<!-- cspell:disable -->
-*Mild Winds (EN), Mond der milden Winde (DE).*
-<!-- cspell:enable -->
-
-### Feu du Soleil
-
-<!-- cspell:disable -->
-*Sunfire (EN), Sonnenfeuer (DE).*
-<!-- cspell:enable -->
-
-<!-- cspell:disable -->
 | Mois                    | Saison    | Fréquence des tempêtes |
 |-------------------------|-----------|-----------------------:|
 | Lune des Récoltes       | Été       |                  0.5 % |
@@ -292,19 +265,96 @@ Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines ch
 | Vents Doux              | Printemps |                  0.5 % |
 | Feu du Soleil           | Été       |                    3 % |
 
-<!-- cspell:enable -->
-
 Chaque tour du jeu correspond à une semaine dans le monde.  
 Pendant ce temps, on peut faire beaucoup de choses.  
 Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir le chapitre [[ordres]]).  
 
 Même si l'influence des saisons n'est généralement pas très marquée, certains domaines ou événements sont tout de même influencés de manière significative.  
+
 En voici un bref aperçu :
 
 - Les peuples d'[Insectes] recrutent difficilement en hiver
 - Les tempêtes en [[deplacements|mer]] sont plus fréquentes en automne
 - Les différentes phases de [croissance des forêts] sont liées à des saisons particulières
 - En hiver, la croissance des [[plantes]] s'arrête
+
+## Mois et saisons
+
+### Lune des Récoltes
+
+<!-- cspell:disable -->
+*Harvest Moon (EN), Feldsegen (DE).*
+<!-- cspell:enable -->
+
+Premier mois d'été.
+
+### Brouillard Impénétrable
+
+<!-- cspell:disable -->
+*Impenetrable Fog (EN), Nebeltage (DE).*
+<!-- cspell:enable -->
+
+Premier mois d'automne.
+
+### Lune des Tempêtes
+
+<!-- cspell:disable -->
+*Storm Moon (EN), Sturmmond (DE).*
+<!-- cspell:enable -->
+
+Second mois d'automne.  
+
+Durant ce mois, les tempêtes sont les plus fréquentes.  
+
+### Feu du Foyer
+
+<!-- cspell:disable -->
+*Hearth Fire (EN), Herdfeuer (DE).*
+<!-- cspell:enable -->
+
+Premier mois de l'hiver, qui en compte trois.
+
+Les [[plantes|plantes]]{title="Herbs"} cessent de croître, jusqu'au retour du printemps.  
+
+### Vent des Glaces
+
+<!-- cspell:disable -->
+*Icewind (EN), Eiswind (DE).*
+<!-- cspell:enable -->
+
+Deuxième mois d'hiver.
+
+### Neiges Envoûtantes
+
+<!-- cspell:disable -->
+*Snowbane (EN), Schneebann (DE).*
+<!-- cspell:enable -->
+
+Troisième mois d'hiver.
+
+### Pluies de Fleurs
+
+<!-- cspell:disable -->
+*Flowerrain (EN), Blütenregen (DE).*
+<!-- cspell:enable -->
+
+Premier mois du printemps.
+
+### Vents Doux
+
+<!-- cspell:disable -->
+*Mild Winds (EN), Mond der milden Winde (DE).*
+<!-- cspell:enable -->
+
+Second mois du printemps.
+
+### Feu du Soleil
+
+<!-- cspell:disable -->
+*Sunfire (EN), Sonnenfeuer (DE).*
+<!-- cspell:enable -->
+
+Second mois d'été.
 
 ## Voir aussi
 

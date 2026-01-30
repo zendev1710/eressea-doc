@@ -6,39 +6,46 @@ alias: welt
 
 ## Die Landschaft von Eressea
 
-*Ruhig blickte Selen Ard'Ragorn zur Tür, als Rahel, ihre junge Novizin, unbeholfen in die kleine Kammer im Bibliotheksflügel des Tempels hinein stolperte.  
-Leicht amüsiert betrachtete sie den etwas nervös umherzuckenden Schwanz der jungen Katze, die sich ebenso verzweifelt wie erfolglos bemühte, ihr in Unordnung geratenes Gewand zu glätten.*
-
-*"Komm näher, Kind", bat Selen, und etwas schüchtern näherte sich Rahel dem goldintarsiengeschmückten Tisch, an dem die Tempelvorsteherin Platz genommen hatte.  
-Als die Augen der Jungkatze über das große Pergament glitten, welches ausgebreitet darauf lag, maunzte sie erstaunt auf.  
-Auf dem Tisch lag eine feinsäuberlich gezeichnete Karte der ganzen bekannten Welt.  
-Informationen aus allen im Blick der Goldäugigen Katze liegenden Ländern waren zusammengetragen und von geschickten Händen in dieser Karte eingetragen worden.  
-Rahel erkannte Andune in der Mitte, die kleine, fast zweigeteilte Insel inmitten des Meeres.  
-Um Andune herum sah sie die bekannten Konturen der Nachbarinseln, wie Andune selbst eingebettet in den unendlich scheinenden Ozean.*
+<div class="lore-dialogue">
+Ruhig blickte Selen Ard'Ragorn zur Tür, als Rahel, ihre junge Novizin, unbeholfen in die kleine Kammer im Bibliotheksflügel des Tempels hinein stolperte.  
+Leicht amüsiert betrachtete sie den etwas nervös umherzuckenden Schwanz der jungen Katze, die sich ebenso verzweifelt wie erfolglos bemühte, ihr in Unordnung geratenes Gewand zu glätten.
+"Komm näher, Kind" bat Selen.
+Und etwas schüchtern näherte sich Rahel dem goldintarsiengeschmückten Tisch, an dem die Tempelvorsteherin Platz genommen hatte.
+Als die Augen der Jungkatze über das große Pergament glitten, welches ausgebreitet darauf lag, maunzte sie erstaunt auf.
+Auf dem Tisch lag eine feinsäuberlich gezeichnete Karte der ganzen bekannten Welt.
+Informationen aus allen im Blick der Goldäugigen Katze liegenden Ländern waren zusammengetragen und von geschickten Händen in dieser Karte eingetragen worden.
+Rahel erkannte Andune in der Mitte, die kleine, fast zweigeteilte Insel inmitten des Meeres.
+Um Andune herum sah sie die bekannten Konturen der Nachbarinseln, wie Andune selbst eingebettet in den unendlich scheinenden Ozean.
+</div>
 
 Die Welt von Eressea besteht aus einer Vielzahl von Inseln und Kontinenten von ganz unterschiedlicher Größe.  
+
 Inseln wie Ozeane sind unterteilt in Regionen.  
-In den Regionen findet man die Einheiten der Spieler, Gebäude und Schiffe, die Bauern und verschiedene Rohstoffe.
+In den Regionen findet man die Einheiten der Spieler, Gebäude und Schiffe, die Bauern und verschiedene Rohstoffe.  
 
->Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit dem Finger auf eine der Inseln ganz am Rande deutete.
-> "Sieh, Rahel. Dort ist eine Insel, die gerade erst eingetragen wurde. Erkennst du, wie unsere Kartographen arbeiten?"
+<div class="lore-dialogue">
+Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit dem Finger auf eine der Inseln ganz am Rande deutete.
+"Sieh, Rahel. Dort ist eine Insel, die gerade erst eingetragen wurde. Erkennst du, wie unsere Kartographen arbeiten?"
+</div>
 
-<!-- TODO: 490X264 - should be where in the page ? -->
 ![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
 
-> Angestrengt betrachtete die Novizin die Karte.  
-> Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert.  
-> Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.
-
+<div class="lore-dialogue">
+Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert.
+Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.
+</div>
 In diesem Beispiel ist bei (0,0) ein Sumpf, nordöstlich davon bei (0,1) ein Gebirge.  
-Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [[bef-ursprung]] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.
+Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [[bef-ursprung]] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.  
 
-> "Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze.  
-> "Solche Karten dienen vor allem der Navigation unserer Schiffe.  
-> Wie du aber sicher leicht einsiehst, enthalten sie nicht sehr viele Informationen.  
-> Deshalb ..." - und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben der Karte auf dem Tisch gelegen hatte, - "...
-> deshalb bekommen wir von jedem unserer Kundschafter jede Woche einen ausführlichen Bericht über die erforschten Regionen.  
-> Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."
+<div class="lore-dialogue">
+"Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze.
+"Solche Karten dienen vor allem der Navigation unserer Schiffe.
+Wie du aber sicher leicht einsiehst, enthalten sie nicht sehr viele Informationen.
+Deshalb ..."
+und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben der Karte auf dem Tisch gelegen hatte,...
+"...deshalb bekommen wir von jedem unserer Kundschafter jede Woche einen ausführlichen Bericht über die erforschten Regionen.
+Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."
+</div>
 
 In der Welt von Eressea gibt es verschiedene [Geländearten] (Berge, Ebene, Wald, Gletscher, Hochland, Sumpf, Wüste und Vulkan) mit unterschiedlichen Eigenschaften.  
 Ein Forschungsreisender, der die weiten Ozeane nicht scheut, wird auf seinen Erkundungsreisen eventuell noch andere, exotische Regionstypen entdecken.  
@@ -109,13 +116,16 @@ In anderen Regionstypen kann man mit Glück auch Laen finden, dann aber eventuel
 Man benötigt also einen Geologen mit Bergbau 5 um Laen in jeder Landregion ausschließen zu können.  
 Wenn man großes Glück hatte und eine Region mit Laen gefunden hat, benötigt man zum Abbau allerdings noch ein [Bergwerk].  
 
-> Selen blickte zur jungen Katze Rahel, die sich offensichtlich bemühte sich all die Zahlen und Daten einzuprägen.
-> "Rahel, mein Kind, Du musst Dir diese Zahlen nicht alle merken.
-> Merke Dir lieber, dass Du sie hier in der Bibliothek jederzeit wirst nachschlagen können." Die junge Novizin versuchte gefasst zu gucken, Magistra Selen merkte ihr die Erleichterung aber an, sich die Informationen nicht alle sofort merken zu müssen.
-> Selen fuhr dann fort "Man lernt aber nicht nur in den Akademien und Bibliotheken, sondern auch in den Tavernen.
-> Denn dort trifft man vereinzelt Bergbauer bei einem Met, die sich Geschichten von einem noch selteneren Metall als Laen erzählen. Sie nennen es Adamantium.
-> Es soll noch sehr viel seltener als Laen sein und nur die erfahrensten Bergbauer sollen es je gefunden haben.
-> Aber aus diesem Metall können die besten Schmiede auch die besten Waffen und Rüstungen in ganz Eressea fertigen."
+<div class="lore-dialogue">
+Selen blickte zur jungen Katze Rahel, die sich offensichtlich bemühte sich all die Zahlen und Daten einzuprägen.
+"Rahel, mein Kind, Du musst Dir diese Zahlen nicht alle merken. Merke Dir lieber, dass Du sie hier in der Bibliothek jederzeit wirst nachschlagen können."
+Die junge Novizin versuchte gefasst zu gucken, Magistra Selen merkte ihr die Erleichterung aber an, sich die Informationen nicht alle sofort merken zu müssen.
+Selen fuhr dann fort
+"Man lernt aber nicht nur in den Akademien und Bibliotheken, sondern auch in den Tavernen.
+Denn dort trifft man vereinzelt Bergbauer bei einem Met, die sich Geschichten von einem noch selteneren Metall als Laen erzählen. Sie nennen es Adamantium.
+Es soll noch sehr viel seltener als Laen sein und nur die erfahrensten Bergbauer sollen es je gefunden haben.
+Aber aus diesem Metall können die besten Schmiede auch die besten Waffen und Rüstungen in ganz Eressea fertigen."
+</div>
 
 Für die nachfolgende Region werden die Infos ausführlich erläutert:
 
@@ -151,23 +161,29 @@ Dieser Betrag ist wichtig um abschätzen zu können, wie es um die Versorgung de
 
 ## Die Regionen Eresseas
 
-> Selen deutete auf die aufgeschlagene Seite.
-> "Jetzt Du, Rahel, sieh dir diesen Bericht einmal an, und sag mir, was du siehst."
-> Rahel sah nur einen Moment angestrengt hin, bevor sie begann.
+<div class="lore-dialogue">
+Selen deutete auf die aufgeschlagene Seite.
+"Jetzt Du, Rahel, sieh dir diesen Bericht einmal an, und sag mir, was du siehst."
+Rahel sah nur einen Moment angestrengt hin, bevor sie begann.
+</div>
 
 Im Report werden alle Regionen, in denen man eine Einheit hat, durch die man gereist ist oder Ozean-Regionen, die man von einem [Leuchtturm] erblickt hat, aufgeführt:.
 
 `Tetos (-1,0), Ebene, 1042 Bauern, 73/5 Bäume, 10953 Silber, 132 Pferde. Im Nordwesten der Region liegt der Wald von Faldorn (-2,1), im Nordosten die Ebene von Litforuvys (-1,1), im Osten die Ebene von Tumyvesfod (0,0), im Südosten der Sumpf von Titymovut (0,-1), im Südwesten die Ebene von Livedfir (-1,-1) und im Westen das Gebirge von Nipevan (-2,0).`
 
-> "Nun, zunächst findet sich dort der Name, unter dem die Region bei den Einheimischen bekannt ist, sowie ihre Position.
-> Direkt dahinter hat der Kundschafter vermerkt, von welcher Beschaffenheit die Region ist.
-> Auch die Zahl der dort lebenden Bauern und eine grobe Abschätzung ihres Reichtums ist dort zu finden.
-> Und es ist auch vermerkt, wie viele Bäume und Reittiere in dem Landstrich gefunden wurden.
-> Steine und Eisen wurden dort bisher nicht entdeckt."
+<div class="lore-dialogue">
+— "Nun, zunächst findet sich dort der Name, unter dem die Region bei den Einheimischen bekannt ist, sowie ihre Position.
+Direkt dahinter hat der Kundschafter vermerkt, von welcher Beschaffenheit die Region ist.
+Auch die Zahl der dort lebenden Bauern und eine grobe Abschätzung ihres Reichtums ist dort zu finden.
+Und es ist auch vermerkt, wie viele Bäume und Reittiere in dem Landstrich gefunden wurden.
+Steine und Eisen wurden dort bisher nicht entdeckt."
+</div>
 
 Die in der Region lebenden Bauern können mit dem Befehl [REKRUTIERE] in die eigene Partei rekrutiert werden, die Bäume und Pferde mit dem Befehl [MACHE] eingeschlagen bzw. gezähmt werden.  
 
-> "Sehr gut, Rahel. Und was steht in den Zeilen darunter vermerkt?"
+<div class="lore-dialogue">
+— "Sehr gut, Rahel. Und was steht in den Zeilen darunter vermerkt?"
+</div>
 
 ```text
 Auf dem Markt wird für Weihrauch 4 Silber verlangt.  
@@ -175,7 +191,6 @@ Geboten wird für Balsam 12 Silber,
 für Gewürz 10 Silber, für Juwelen 21 Silber,
 für Myrrhe 15 Silber,
 für Öl 12 Silber und für Seide 30 Silber.
-
 
 Statistik für Tetos (-1,0):
 
@@ -189,44 +204,85 @@ Silber: 821
 Schwerter: 2
 ```
 
-> Stolz strahlte die junge Novizin ihre offenbar zufriedene Lehrerin an.
-> "Dabei, Magistra, handelt um weitere Informationen, die unsere Kundschafter herausgefunden haben.
-> Zunächst scheinen sie sich auf dem Markt umgesehen und die Preise notiert zu haben.
-> In dem Abschnitt darunter ist vermerkt, wie viel Silber die Bewohner der Region für Schausteller und Musiker auszugeben bereit sind, wie viel man für einfache Arbeiten bekommt, wie viele Bauern bereit sind, sich einem Volk anzuschließen und wie viele Güter auf den Markt überhaupt für den oben angegebenen Preis verkauft werden.  
-> In den letzten Zeilen ist dann vermerkt, wie viele Personen unseres Volkes sich dort aufhalten, und was sie mit sich führen."
+<div class="lore-dialogue">
+Stolz strahlte die junge Novizin ihre offenbar zufriedene Lehrerin an.
+— "Dabei, Magistra, handelt um weitere Informationen, die unsere Kundschafter herausgefunden haben.
+Zunächst scheinen sie sich auf dem Markt umgesehen und die Preise notiert zu haben.
+In dem Abschnitt darunter ist vermerkt, wie viel Silber die Bewohner der Region für Schausteller und Musiker auszugeben bereit sind, wie viel man für einfache Arbeiten bekommt, wie viele Bauern bereit sind, sich einem Volk anzuschließen und wie viele Güter auf den Markt überhaupt für den oben angegebenen Preis verkauft werden.  
+In den letzten Zeilen ist dann vermerkt, wie viele Personen unseres Volkes sich dort aufhalten, und was sie mit sich führen."
+</div>
 
 Bei Luxusgüter steht die Anzahl von Luxusgütern, die zum "Listenpreis" (siehe auch [Handel]), von den Bauern ver- bzw. gekauft werden.  
-Werden mehr Güter gehandelt, verändert sich der Preis, unter Umständen dauerhaft! Näheres dazu siehe im Kapitel [Handel].  
+Werden mehr Güter gehandelt, verändert sich der Preis, unter Umständen dauerhaft!
 
-> "Ausgezeichnet, Rahel. Was du da vor dir siehst, ist ein vollständiger Bericht.
-> Manchmal jedoch erhalten wir auch weniger umfassende Berichte, etwa, wenn ein Kundschafter lediglich in Eile durch eine Region hindurch geritten ist.
-> Solch ausführliche Berichte wie diesen bekommen wir nur, wenn sich Angehörige unseres Volkes dort aufhalten."
->Selen deutete mit der Hand auf den Stuhl auf der anderen Seite des Tisches.
-> "Du kannst dich jetzt setzen, mein Kind." Rahel ging zum Stuhl, nahm Platz, und gab ein kurzes Schnurren von sich, eine Mischung aus Zufriedenheit darüber, dass sie ihre Lehrerin offenbar nicht enttäuscht hatte, und Erwartung des noch Kommenden.
-> Die Geweihte der Goldäugigen Katzen lehnte sich in ihrem Stuhl zurück und blickte Rahel einen Moment an.
-> "Was du dort siehst, sind nur Zahlen. Nützliche Zahlen, die es wert sind, bewahrt zu werden, ja. Aber wichtig ist es auch, die Gesetze zu erforschen, die hinter diesen Zahlen stehen."
-> Sie stand auf, griff in den Beutel, den sie unter dem Tisch platziert hatte, und zog ein weiteres Pergament hervor, welches sie auf dem Tisch über der Karte ausbreitete.
-> Rahel blickte interessiert darauf, erkannte aber zunächst nur eine chaotische Zeichnung aus mehr oder weniger horizontalen Linien. Fragend blickte sie ihre Lehrerin an. "Was bedeutet das, Magistra?"
-> "Das, mein Kind, ist ein Versuch, Naturgesetzen auf die Spur zu kommen. Jede Woche verändert sich die Zahl der Bäume, Bauern und Pferde in einer Region. Sie sterben, werden geboren oder suchen ihr Glück anderswo.
-> Ich habe mich bemüht, herauszufinden, warum sie das tun, ohne sie jemals zu befragen." Die Geweihte lächelte in sich hinein.  
-> "Es scheint, als würde viel vom Platz abhängen, den es in einem Landstrich gibt.  
-> Bauern, Bäume und Pferde nehmen sich gegenseitig den Platz." Die Novizin deutete auf eine an den Rand des Pergaments gekritzelte zweite kleine Zeichnung.  
-> "Und was bedeutet diese Zeichnung? Sie sieht fast aus wie die große." "In der großen Zeichnung, Rahel, habe ich die Zahlen für eine flache Küstenregion mit ausgezeichnetem Boden aufgetragen.  
-> Die kleinere Zeichnung beschreibt die Entwicklung in einem unwirtlichen Sumpf.  
-> Wie du siehst, ist die Entwicklung ähnlich, nur dass im Sumpf von allem weniger zu finden ist."
+Näheres dazu siehe im Kapitel [Handel].  
+
+<div class="lore-dialogue">
+— "Ausgezeichnet, Rahel. Was du da vor dir siehst, ist ein vollständiger Bericht.
+Manchmal jedoch erhalten wir auch weniger umfassende Berichte, etwa, wenn ein Kundschafter lediglich in Eile durch eine Region hindurch geritten ist.
+Solch ausführliche Berichte wie diesen bekommen wir nur, wenn sich Angehörige unseres Volkes dort aufhalten."
+Selen deutete mit der Hand auf den Stuhl auf der anderen Seite des Tisches.
+"Du kannst dich jetzt setzen, mein Kind." Rahel ging zum Stuhl, nahm Platz, und gab ein kurzes Schnurren von sich, eine Mischung aus Zufriedenheit darüber, dass sie ihre Lehrerin offenbar nicht enttäuscht hatte, und Erwartung des noch Kommenden.
+Die Geweihte der Goldäugigen Katzen lehnte sich in ihrem Stuhl zurück und blickte Rahel einen Moment an.
+"Was du dort siehst, sind nur Zahlen. Nützliche Zahlen, die es wert sind, bewahrt zu werden, ja. Aber wichtig ist es auch, die Gesetze zu erforschen, die hinter diesen Zahlen stehen."
+Sie stand auf, griff in den Beutel, den sie unter dem Tisch platziert hatte, und zog ein weiteres Pergament hervor, welches sie auf dem Tisch über der Karte ausbreitete.
+Rahel blickte interessiert darauf, erkannte aber zunächst nur eine chaotische Zeichnung aus mehr oder weniger horizontalen Linien. Fragend blickte sie ihre Lehrerin an.
+— "Was bedeutet das, Magistra?"
+— "Das, mein Kind, ist ein Versuch, Naturgesetzen auf die Spur zu kommen.
+Jede Woche verändert sich die Zahl der Bäume, Bauern und Pferde in einer Region.
+Sie sterben, werden geboren oder suchen ihr Glück anderswo.
+Ich habe mich bemüht, herauszufinden, warum sie das tun, ohne sie jemals zu befragen."
+Die Geweihte lächelte in sich hinein.
+"Es scheint, als würde viel vom Platz abhängen, den es in einem Landstrich gibt. Bauern, Bäume und Pferde nehmen sich gegenseitig den Platz."
+Die Novizin deutete auf eine an den Rand des Pergaments gekritzelte zweite kleine Zeichnung.
+— "Und was bedeutet diese Zeichnung? Sie sieht fast aus wie die große."
+— "In der großen Zeichnung, Rahel, habe ich die Zahlen für eine flache Küstenregion mit ausgezeichnetem Boden aufgetragen.  
+Die kleinere Zeichnung beschreibt die Entwicklung in einem unwirtlichen Sumpf.
+Wie du siehst, ist die Entwicklung ähnlich, nur dass im Sumpf von allem weniger zu finden ist."
+</div>
 
 ## Die Zeitrechnung Eresseas
 
-> Selen Ard'Ragorn erhob sich von ihrem Stuhl. Wie immer bewunderte Rahel, wie geschmeidig sich die alte Bibliothekarin und Tempelvorsteherin noch immer bewegte und erhob sich selbst.
-> Sie wusste schon, was kommen würde. Am Ende jeder Unterweisung unternahm die Magistra einen Spaziergang durch den weitläufigen Park des Großen Tempels, und erteilte ihre währenddessen einige weitere Lektionen.
-> Gemeinsam schritten sie durch ein kleines Erlenwäldchen des Parks. Bis jetzt hatte Selen geschwiegen, doch nun richtete sie ihr Wort an Rahel:
-> "Siehst du die untergehende Sonne? So früh schon... Es wird langsam Winter. Schon bald geht der Sturmmond in den Monat des Herdfeuers über. Eine entbehrungsreiche Zeit für viele. Für die Insektenvölker zum Beispiel,
-> denn sie können sich in den Wintermonaten nicht vermehren."
-> "Ja, Magistra. Aber wenigstens unsere Seeleute atmen auf, dass die Zeit der großen Herbststürme vorbei sind und die See wieder sicherer ist."
-> "Du hast recht, Rahel. So ist denn in allem auch etwas Gutes zu finden."
-> Bis spät in den Abend konnten die Tempelwachen die beiden stumm durch den magisch erleuchteten Park wandern sehen...
+<div class="lore-dialogue">
+Selen Ard'Ragorn erhob sich von ihrem Stuhl. Wie immer bewunderte Rahel, wie geschmeidig sich die alte Bibliothekarin und Tempelvorsteherin noch immer bewegte und erhob sich selbst.
+Sie wusste schon, was kommen würde. Am Ende jeder Unterweisung unternahm die Magistra einen Spaziergang durch den weitläufigen Park des Großen Tempels, und erteilte ihre währenddessen einige weitere Lektionen.
+Gemeinsam schritten sie durch ein kleines Erlenwäldchen des Parks. Bis jetzt hatte Selen geschwiegen, doch nun richtete sie ihr Wort an Rahel:
+"Siehst du die untergehende Sonne? So früh schon... Es wird langsam Winter. Schon bald geht der Sturmmond in den Monat des Herdfeuers über. Eine entbehrungsreiche Zeit für viele. Für die Insektenvölker zum Beispiel,
+denn sie können sich in den Wintermonaten nicht vermehren."
+— "Ja, Magistra. Aber wenigstens unsere Seeleute atmen auf, dass die Zeit der großen Herbststürme vorbei sind und die See wieder sicherer ist."
+— "Du hast recht, Rahel. So ist denn in allem auch etwas Gutes zu finden."
+Bis spät in den Abend konnten die Tempelwachen die beiden stumm durch den magisch erleuchteten Park wandern sehen...
+</div>
 
 Das Jahr ist in der Welt von Eressea in neun Monate zu je drei Wochen eingeteilt.
+
+| Monat                 | Jahreszeit | Sturmhäufigkeit |
+|-----------------------|------------|----------------:|
+| Feldsegen             | Sommer     |            0.5% |
+| Nebeltage             | Herbst     |              3% |
+| Sturmmond             | Herbst     |              4% |
+| Herdfeuer             | Winter     |            2.5% |
+| Eiswind               | Winter     |            1.5% |
+| Schneebann            | Winter     |              3% |
+| Blütenregen           | Frühling   |              3% |
+| Mond der milden Winde | Frühling   |            0.5% |
+| Sonnenfeuer           | Sommer     |              3% |
+
+Jede Runde des Spiels entspricht einer Woche in der Welt.  
+In dieser Zeit kann man viel unternehmen.  
+Es gibt aber ein paar Sachen, für die man fast die gesamte Woche aufwenden muss.  
+Von diesen Aktionen, den sogenannten langen Befehlen, kann man jeweils nur eine pro Woche ausführen (mehr dazu im Kapitel [Befehle]).
+
+Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark hervortritt, so gibt es doch einige Bereiche bzw. Ereignisse die durchaus nennenswert beeinflusst werden.  
+
+Hier eine kurze Übersicht:
+
+- Völker der Rasse [Insekt] können im Winter kaum rekrutieren
+- Stürme auf [See] sind im Herbst weitaus häufiger
+- Die einzelnen Phasen des [Waldwachstums] sind an bestimmte Jahreszeiten gekoppelt
+- Im Winter kommt das Wachstum der [Kräuter] zum Erliegen
+
+## Monate
 
 ### Feldsegen
 
@@ -281,31 +337,6 @@ Das Jahr ist in der Welt von Eressea in neun Monate zu je drei Wochen eingeteilt
 <!-- cspell:disable -->
 *Sunfire (EN).*
 <!-- cspell:enable -->
-
-| Monat                 | Jahreszeit | Sturmhäufigkeit |
-|-----------------------|------------|----------------:|
-| Feldsegen             | Sommer     |            0.5% |
-| Nebeltage             | Herbst     |              3% |
-| Sturmmond             | Herbst     |              4% |
-| Herdfeuer             | Winter     |            2.5% |
-| Eiswind               | Winter     |            1.5% |
-| Schneebann            | Winter     |              3% |
-| Blütenregen           | Frühling   |              3% |
-| Mond der milden Winde | Frühling   |            0.5% |
-| Sonnenfeuer           | Sommer     |              3% |
-
-Jede Runde des Spiels entspricht einer Woche in der Welt.  
-In dieser Zeit kann man viel unternehmen.  
-Es gibt aber ein paar Sachen, für die man fast die gesamte Woche aufwenden muss.  
-Von diesen Aktionen, den sogenannten langen Befehlen, kann man jeweils nur eine pro Woche ausführen (mehr dazu im Kapitel [Befehle]).
-
-Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark hervortritt, so gibt es doch einige Bereiche bzw. Ereignisse die durchaus nennenswert beeinflusst werden.  
-Hier eine kurze Übersicht:
-
-- Völker der Rasse [Insekt] können im Winter kaum rekrutieren
-- Stürme auf [See] sind im Herbst weitaus häufiger
-- Die einzelnen Phasen des [Waldwachstums] sind an bestimmte Jahreszeiten gekoppelt
-- Im Winter kommt das Wachstum der [Kräuter] zum Erliegen
 
 ## Siehe auch
 

@@ -13,7 +13,8 @@ Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xy
 !!! info
     La construction d'un bâtiment nécessite un niveau de compétence minimal en [maçonnerie].
 
-> Note : certains bâtiments sont d'une taille maximale déterminée, d'autres non.
+!!! note "Remarque"
+    Certains bâtiments sont d'une taille maximale déterminée, d'autres non.
 
 Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de bâtiment :
 
@@ -349,7 +350,7 @@ Poursuivre la lecture : [pool de factions].
 
 [^1]: nécessite également 2 mallorns et 2 laens par point de taille.
 
-[eau de vie]: ./alchemy.fr.md#eau-de-vie "Water of life"
+[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
 [tableau des châteaux]: ./castles.md#apercu
 [puissant sort]: ./spells-descriptions.md#segne-steinkreis
 [Bâtiments]: ./buildings.md
@@ -378,5 +379,5 @@ Poursuivre la lecture : [pool de factions].
 [sylviculture]: ./skills-list.md#sylviculture "Forestry"
 [extraction minière]: ./skills-list.md#extraction-miniere "Mining"
 [extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[pousses]: ./resources.fr.md#jeunes-arbres-ou-pousses "Saplings"
+[pousses]: ./resources.md#jeunes-arbres-ou-pousses "Saplings"
 [apprivoisement]: ./skills-list.md#apprivoisement

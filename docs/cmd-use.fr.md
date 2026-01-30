@@ -25,4 +25,4 @@ Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dan
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
 
-[pain d'andouille]: ./alchemy.fr.md#pain-dandouille "Duncebun"
+[pain d'andouille]: ./alchemy.md#pain-dandouille "Duncebun"

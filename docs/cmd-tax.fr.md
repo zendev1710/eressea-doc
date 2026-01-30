@@ -15,14 +15,14 @@ Jusqu'à **20 Silver** sont collectées auprès des agriculteurs par personne [[
 !!! note
     Les catapultes ne conviennent pas en tant qu'arme pour collecter des impôts.  
 
-Si tu précises un montant, un maximum de ce montant sera collecté en taxes.  
+Si vous précisez un montant, un maximum de ce montant sera collecté en taxes.  
 Seules des dizaines peuvent être spécifiées; dans le cas contraire, le montant est arrondi à la dizaine suivante.  
 
 !!! warning "Attention"
     Les agriculteurs donnent même l’argent dont ils ont réellement besoin pour survivre, **ce qui peut conduire à la [famine]**.  
 
 Si plusieurs factions passent l'ordre de collecte des impôts, l’argent résultant de la collecte sera réparti entre les différentes factions.  
-Si tu souhaites empêcher les factions non alliées de collecter l'impôt, tu devras passer l'ordre [[cmd-guard]].  
+Si vous souhaitez empêcher les factions non alliées de collecter l'impôt, vous devrez donner l'ordre [[cmd-guard]].  
 
 !!! note
     La compétence de collecte des impôts n’augmente pas avec son utilisation.

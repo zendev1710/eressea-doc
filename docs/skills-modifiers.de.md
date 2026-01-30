@@ -51,7 +51,7 @@ Weiterlesen: [Talente].
 [Talente]: ./skills.md
 [Rassen]: ./races.md
 
-[Zwerge]: ./races.de.md#zwerge
+[Zwerge]: ./races.md#zwerge
 [Orks]: ./races.md#orks
 [Elfen]: ./races.md#elfen
 [Katzen]: ./races.md#katzen

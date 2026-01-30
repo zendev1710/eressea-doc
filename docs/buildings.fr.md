@@ -35,10 +35,13 @@ L'ordre [[cmd-sort]] permet de remédier à cette situation.
 
 ## Construction
 
-Les bâtiments sont construits et améliorés avec l'ordre [[cmd-make|`MAKE`` `*`type bâtiment`*]].  
+Les bâtiments sont construits et améliorés (agrandis) avec l'ordre [[cmd-make|`MAKE`` `*`type bâtiment`*]].  
+
 Comme pour les autres ordres de production, la capacité de construction dépend du niveau de compétence en [maçonnerie], de la taille de l'unité qui bâtit, et du niveau de compétence minimum requis.  
+
 Une unité peut construire (niveau de compétence x personnes / niveau minimum) points de "taille" par tour;  
-tu peux donc facilement construire une tour en une semaine avec une unité suffisamment bonne et suffisamment de pierres.  
+
+Vous pouvez donc facilement construire une tour en un tour avec une unité suffisamment compétente et des pierres en quantité suffisante.  
 
 ## Voir aussi
 

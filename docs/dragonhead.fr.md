@@ -14,5 +14,5 @@ Les sorts de magie suivants en ont besoin pour être lancés :
 
 [DreamEye]: ./dream-eye.md "DreamEye"
 [Invocation du Dragon]: ./magic-school-draig.md#invocation-du-dragon "Dragon Call"
-[Créer un [DreamEye]]: ./magic-school-illaun.fr.md#creer-un-dreameye "Create A DreamEye"
+[Créer un [DreamEye]]: ./magic-school-illaun.md#creer-un-dreameye "Create A DreamEye"
 [dragon]: ./monsters.md#dragons

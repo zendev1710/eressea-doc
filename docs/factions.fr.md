@@ -4,35 +4,38 @@ alias: factions-fr
 ---
 # Les factions
 
-Les joueurs dirigent ce que l'on appelle des *factions* sur Eressea.  
-Une faction est au départ composée d'une seule unité d'une personne, puis progressivement d'un grand nombre d'unités.  
-Ces unités sont composées d'une, de quelques ou même de milliers de personnes de la [[races|race]] de la faction.  
-Chaque unité peut posséder autant d'objets et de Silver qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
-Tu peux donner aux unités des [[ordres]] à chaque tour, qu'elles exécuteront du mieux possible.
+Dans Eressea, un joueur dirige ce que l'on appelle une **faction**.  
 
-Tu es éliminé du jeu lorsque ta faction n'a plus aucun membre - c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).
+Une faction est au départ composée d'une seule **unité** d'une personne, puis progressivement d'un grand nombre d'unités.  
+
+Une unité est composée d'une, de quelques ou même de milliers de personnes de la **[[races|race]]** de la faction.  
+
+Chaque unité peut posséder autant d'objets et [[argent|d'argent]] (***silver***) qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
+Vous pouvez donner aux unités des [[ordres]] à chaque tour, qu'elles exécuteront du mieux possible.
+
+Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).
 
 ## Les unités
 
-La faction commence la partie avec une **unité**, composée d'une personne avec 2500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie].
+La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie].
 
 !!! Tip
-    Si tu ne sais pas à quoi ça sert, essaye l'ordre [[cmd-show|`SHOW Item`]].
+    Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [[cmd-show|`SHOW <Item>`]].
 
 Cette première personne n'est en aucun cas spéciale;  
-il s'agit simplement de la première personne appartenant à ta nouvelle faction.  
-Tu peux [recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [[batiments]] ou des [[bateaux]], capturer des [chevaux], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.
+il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
+Vous pouvez [recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [[batiments]] ou des [[bateaux]], capturer des [chevaux], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.  
 
 Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [[cmd-make|`MAKE TEMP`]].  
 Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [[cmd-give|transférer]] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent].  
-Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.
+Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.  
 
 Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le nom de **limite d'unités**.  
 Celle-ci est actuellement de 2500 unités et est également affichée dans le rapport.  
 La limite d'unités empêche la création de nouvelles unités.  
 Cela n'a pas d'importance si des unités sont dissoutes plus tard dans le tour.  
 Dans certaines circonstances, il est possible qu'une faction ait plus d'unités que la limite d'unités.  
-Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.
+Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.  
 
 Exemple d'unités :
 
@@ -50,8 +53,8 @@ Exemple d'unités :
       + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
 ```
 
-Vos propres unités sont marquées d'un '\*'.  
-Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|aidez]] cette faction.
+Vos propres unités sont marquées du carctère '*'.  
+Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|êtes allié]] à cette faction.
 
 Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.  
 Dans le premier cas ici l'ID est ***tb2***.  
@@ -65,7 +68,7 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée], compétence dans laquelle l'unité est de niveau 1.  
 Il maîtrise [[cmd-tax|taxation]] au niveau 2 (pour plus de détails : les [[competences]]).  
-Comme vous pouvez le voir, Konrad a également une [épée].  
+Comme vous pouvez le voir, Konrad a également une [[tableaux-relatifs-a-la-guerre|épée]]{title="Sword"}.  
 "`TAX`" est ce qu'on appelle un ordre par [[cmd-default|défaut]].  
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  
@@ -83,7 +86,7 @@ Elle sera notée *[`exhausted`]* (épuisée), *`wounded`* (blessée), ou même *
 
 L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [bourse d'argent].  
 Cela signifie qu'elle possède au moins 500 Silver.  
-Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent".  
+Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.  
 Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [[cmd-hide|masquée]], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.  
 La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
@@ -127,5 +130,5 @@ Poursuivre la lecture : [[races]].
 [humains]: ./races.md#humains
 [nains]: ./races.md#nains
 [mêlée]: ./skills-list.md#melee "Melee"
-[`exhausted`]: ./war-tables.fr.md#etat-de-sante
+[`exhausted`]: ./war-tables.md#etat-de-sante
 [bourse d'argent]: ./silverbag.md "Silverbag"

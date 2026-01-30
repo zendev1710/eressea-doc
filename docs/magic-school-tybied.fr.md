@@ -548,7 +548,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 [anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
 [camouflage]: ./camouflage.md
 
-[gousse]: ./herbs.fr.md#gousse "Windbag"
-[pétale de cristal de neige]: ./herbs.fr.md#petale-de-cristal-de-neige "Snowcrystal petal"
+[gousse]: ./herbs.md#gousse "Windbag"
+[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
 [laen]: ./resources.md#laen "Laen"
 [Cristal d'Antimagie]: ./antimagic-crystal.md "Antimagic Crystal"

@@ -484,6 +484,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 [anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
 [camouflage]: ./camouflage.md "Stealth"
 
-[sang de berserker]: ./alchemy.fr.md#sang-de-berserker "Berserkers blood"
+[sang de berserker]: ./alchemy.md#sang-de-berserker "Berserkers blood"
 [épée]: ./war-tables.md#epee "Sword"
 [huile]: ./silver.md#huile "Oil"

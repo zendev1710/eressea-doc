@@ -1,0 +1,149 @@
+/* ============================
+   PALETTE LIGHT (par défaut)
+   ============================ */
+:root {
+  --lore-bg: #f3efe6;
+  --lore-border: #7a5c3a;
+  --lore-text: #33291f;
+  --lore-nar: #4a3a2a;
+
+  --lore-dropcap: #6b4f2a;
+  --lore-quote: #7a5c3a;
+}
+
+/* ============================
+   PALETTE DARK (Material "slate")
+   ============================ */
+[data-md-color-scheme="slate"] {
+  --lore-bg: #2a2620;
+  --lore-border: #bfa37a;
+  --lore-text: #e8e0d4;
+  --lore-nar: #c8b8a0;
+
+  --lore-dropcap: #d8c4a0;
+  --lore-quote: #bfa37a;
+}
+
+/* ============================
+   BLOC LORE
+   ============================ */
+/* Texture papier légère pour le bloc lore */
+.lore-dialogue {
+  background: var(--lore-bg);
+  background-image:
+    radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,0.06), rgba(0,0,0,0.06));
+  background-size: 5px 5px, 100% 100%;
+  padding: 1.3em 1.5em;
+  border-left: 6px solid var(--lore-border);
+  border-radius: 6px;
+  margin: 1.5em 0;
+  font-family: "EB Garamond", serif;
+  font-size: .95rem;
+  line-height: 1.3;
+  color: var(--lore-text);
+  box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+.lore-dialogue p {
+  margin: 0.25em 0;
+}
+
+/* ============================
+   NARRATION
+   ============================ */
+.lore-dialogue .nar {
+  color: var(--lore-nar);
+}
+
+/* ============================
+   RÉPLIQUES & MONOLOGUES
+   ============================ */
+.lore-dialogue .rep,
+.lore-dialogue .mono {
+  display: block;
+  color: var(--lore-text);
+}
+
+/* Indentation FR uniquement */
+html[lang="fr"] .lore-dialogue .rep {
+  padding-left: 1.4em;
+  text-indent: -1.4em;
+}
+
+/* Pas d’indentation en EN/DE */
+html[lang="en"] .lore-dialogue .rep,
+html[lang="de"] .lore-dialogue .rep {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+/* Monologue = réplique sans tiret */
+.lore-dialogue .mono {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+/* Parole (italique en FR) */
+.lore-dialogue .rep-part {
+  font-style: italic;
+}
+
+/* Incise = style narratif */
+.lore-dialogue .nar-part {
+  font-style: normal;
+  color: var(--lore-nar);
+}
+
+/* ============================
+   LETTRINE (narration uniquement)
+   ============================ */
+.lore-dialogue p:first-child.nar::first-letter {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: var(--lore-dropcap);
+  margin-right: 0.12em;
+}
+
+/* ============================
+   LIGNE VIDE
+   ============================ */
+.lore-dialogue p.blank-line {
+  margin: 0.6em 0;
+}
+
+/* ============================
+   INTERLIGNE TYPOGRAPHIQUE
+   ============================ */
+
+/* Espace AVANT une réplique/monologue */
+.lore-dialogue p.nar + p.rep,
+.lore-dialogue p.nar + p.mono {
+  margin-top: 0.55em;
+}
+
+/* Espace APRÈS une réplique/monologue */
+.lore-dialogue p.rep + p.nar,
+.lore-dialogue p.mono + p.nar {
+  margin-top: 0.55em;
+}
+
+/* Espace réduit ENTRE deux répliques/monologues */
+.lore-dialogue p.rep + p.rep,
+.lore-dialogue p.mono + p.mono,
+.lore-dialogue p.rep + p.mono,
+.lore-dialogue p.mono + p.rep {
+  margin-top: 0.18em;
+}
+
+/* PAS d’espace avant la première réplique/monologue du bloc */
+.lore-dialogue p.rep:first-child,
+.lore-dialogue p.mono:first-child {
+  margin-top: 0;
+}
+
+/* PAS d’espace après la dernière réplique/monologue du bloc */
+.lore-dialogue p.rep:last-child,
+.lore-dialogue p.mono:last-child {
+  margin-bottom: 0;
+}

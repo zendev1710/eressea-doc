@@ -63,6 +63,8 @@
     
       <link rel="stylesheet" href="../../assets/css/extra.css">
     
+      <link rel="stylesheet" href="../../assets/css/lore-dialogue.css">
+    
       <link rel="stylesheet" href="../../assets/css/fantasy.css">
     
       <link rel="stylesheet" href="../../assets/external/unpkg.com/katex@0/dist/katex.min.css">
@@ -7383,7 +7385,7 @@
 <h1 id="teach"><code>TEACH</code><a class="headerlink" href="#teach" title="Permanent link">&para;</a></h1>
 <p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a>.</em></p>
 <p><strong><code>TEACH</code></strong><code></code><em><code>unit-id</code></em><code>[</code><em><code>unit-id</code></em><code>]...</code>  </p>
-<p>Pour réduire le temps nécessaire à une autre unité pour apprendre une compétence, tu peux lui enseigner cette compétence.<br />
+<p>Pour réduire le temps nécessaire à une autre unité pour apprendre une compétence, vous pouvez lui <strong>enseigner</strong> cette compétence.<br />
 Pour cela, l’unité d’enseignement (maître) doit être <strong>supérieure d’au moins 2 niveaux</strong> à l’unité d’apprentissage (élève) dans la compétence concernée.<br />
 Cela signifie que l’unité d’apprentissage apprend deux fois plus vite que si elle essayait d’améliorer ses compétences par elle-même.  </p>
 <p>Cet ordre enseigne à toutes les unités renseignées la compétence qu'elles apprennent.<br />
@@ -7393,7 +7395,7 @@ Cependant, une unité enseignante ne peut permettre qu'à 10 élèves par tour d
 Plusieurs maîtres peuvent également enseigner à un grand groupe d'élèves.  </p>
 <p>La compétence à enseigner ne doit <strong>PAS</strong> être spécifiée - la compétence acquise par l'élève est automatiquement enseignée.<br />
 Il peut également s'agir de compétences différentes, à condition que l'enseignant maîtrise ces compétences suffisamment mieux que les élèves.  </p>
-<p>Si tu souhaites enseigner des unités d'autres factions, tu dois avoir reçu l'ordre <a href="../cmd-help/"><code>HELP GUARD</code></a> de cette faction, ou l'unité à enseigner doit <a href="../cmd-contact/">contacter</a> l'enseignant.  </p>
+<p>Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reçu l'ordre <a href="../cmd-help/"><code>HELP GUARD</code></a> de cette faction, ou l'unité à enseigner doit <a href="../cmd-contact/">contacter</a> l'enseignant.  </p>
 <p><strong>Exemple</strong> :</p>
 <div class="highlight"><pre><span></span><code>TEACH xxxx yyyy TEMP 2 zzzz
 </code></pre></div>
@@ -7479,6 +7481,8 @@ Il peut également s'agir de compétences différentes, à condition que l'ensei
         <script src="../../assets/external/unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
         <script src="../../javascripts/formulas-try.js"></script>
+      
+        <script src="../../javascripts/lore-dialogue.js"></script>
       
     
   </body>

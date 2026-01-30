@@ -63,6 +63,8 @@
     
       <link rel="stylesheet" href="../../assets/css/extra.css">
     
+      <link rel="stylesheet" href="../../assets/css/lore-dialogue.css">
+    
       <link rel="stylesheet" href="../../assets/css/fantasy.css">
     
       <link rel="stylesheet" href="../../assets/external/unpkg.com/katex@0/dist/katex.min.css">
@@ -7504,30 +7506,30 @@
 
 
 <h1 id="les-factions">Les factions<a class="headerlink" href="#les-factions" title="Permanent link">&para;</a></h1>
-<p>Les joueurs dirigent ce que l'on appelle des <em>factions</em> sur Eressea.<br />
-Une faction est au départ composée d'une seule unité d'une personne, puis progressivement d'un grand nombre d'unités.<br />
-Ces unités sont composées d'une, de quelques ou même de milliers de personnes de la <a href="../races/">race</a> de la faction.<br />
-Chaque unité peut posséder autant d'objets et de Silver qu'elle le souhaite, et peut apprendre toutes les <a href="../skills/">Compétences</a> d'Eressea.<br />
-Tu peux donner aux unités des <a href="../commands/">Ordres</a> à chaque tour, qu'elles exécuteront du mieux possible.</p>
-<p>Tu es éliminé du jeu lorsque ta faction n'a plus aucun membre - c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).</p>
+<p>Dans Eressea, un joueur dirige ce que l'on appelle une <strong>faction</strong>.  </p>
+<p>Une faction est au départ composée d'une seule <strong>unité</strong> d'une personne, puis progressivement d'un grand nombre d'unités.  </p>
+<p>Une unité est composée d'une, de quelques ou même de milliers de personnes de la <strong><a href="../races/">race</a></strong> de la faction.  </p>
+<p>Chaque unité peut posséder autant d'objets et <a href="../silver/">d'argent</a> (<strong><em>silver</em></strong>) qu'elle le souhaite, et peut apprendre toutes les <a href="../skills/">Compétences</a> d'Eressea.<br />
+Vous pouvez donner aux unités des <a href="../commands/">Ordres</a> à chaque tour, qu'elles exécuteront du mieux possible.</p>
+<p>Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).</p>
 <h2 id="les-unites">Les unités<a class="headerlink" href="#les-unites" title="Permanent link">&para;</a></h2>
-<p>La faction commence la partie avec une <strong>unité</strong>, composée d'une personne avec 2500 Silver, 10 Bois, 4 Pierres et un <a href="../eressea-story/#debut-du-6eme-monde">cadeau de départ spécifique à la race choisie</a>.</p>
+<p>La faction commence la partie avec une <strong>unité</strong>, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un <a href="../eressea-story/#debut-du-6eme-monde">cadeau de départ spécifique à la race choisie</a>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Si tu ne sais pas à quoi ça sert, essaye l'ordre <a href="../cmd-show/"><code>SHOW Item</code></a>.</p>
+<p>Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre <a href="../cmd-show/"><code>SHOW &lt;Item&gt;</code></a>.</p>
 </div>
 <p>Cette première personne n'est en aucun cas spéciale;<br />
-il s'agit simplement de la première personne appartenant à ta nouvelle faction.<br />
-Tu peux <a href="../silver/#recruter">recruter</a> de nouvelles personnes, également <a href="../items/">produire des objets</a>, construire des <a href="../buildings/">Bâtiments</a> ou des <a href="../ships/">Bateaux</a>, capturer des <a href="../travel/#chevaux-et-chariots">chevaux</a>, forger des <a href="../war-tables/">armes</a> et ainsi de suite.</p>
+il s'agit simplement de la première personne appartenant à votre nouvelle faction.<br />
+Vous pouvez <a href="../silver/#recruter">recruter</a> de nouvelles personnes, également <a href="../items/">produire des objets</a>, construire des <a href="../buildings/">Bâtiments</a> ou des <a href="../ships/">Bateaux</a>, capturer des <a href="../travel/#chevaux-et-chariots">chevaux</a>, forger des <a href="../war-tables/">armes</a> et ainsi de suite.  </p>
 <p>Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre <a href="../cmd-make/"><code>MAKE TEMP</code></a>.<br />
 Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y <a href="../cmd-give/">transférer</a> les personnes d'une autre unité ou en recruter, ce qui nécessite de <a href="../silver/#depenses">l'argent</a>.<br />
-Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.</p>
+Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.  </p>
 <p>Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le nom de <strong>limite d'unités</strong>.<br />
 Celle-ci est actuellement de 2500 unités et est également affichée dans le rapport.<br />
 La limite d'unités empêche la création de nouvelles unités.<br />
 Cela n'a pas d'importance si des unités sont dissoutes plus tard dans le tour.<br />
 Dans certaines circonstances, il est possible qu'une faction ait plus d'unités que la limite d'unités.<br />
-Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.</p>
+Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.  </p>
 <p>Exemple d'unités :</p>
 <div class="highlight"><pre><span></span><code>    * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
         melee 1, taxation 2, has: sword, 20 silver, &quot;TAX&quot;;
@@ -7541,8 +7543,8 @@ Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de c
        
       + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
 </code></pre></div>
-<p>Vos propres unités sont marquées d'un '*'.<br />
-Les unités des autres factions sont marquées d'un '-', ou '+' si vous <a href="../alliances/">aidez</a> cette faction.</p>
+<p>Vos propres unités sont marquées du carctère '*'.<br />
+Les unités des autres factions sont marquées d'un '-', ou '+' si vous <a href="../alliances/">êtes allié</a> à cette faction.</p>
 <p>Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.<br />
 Dans le premier cas ici l'ID est <strong><em>tb2</em></strong>.<br />
 Dans Eressea, les identifiants des unités sont définis en <em>base 36</em>, donc constitués uniquement de caractères alphanumériques en minuscules.  </p>
@@ -7553,7 +7555,7 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 <p>Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.<br />
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en <a href="../skills-list/#melee" title="Melee">mêlée</a>, compétence dans laquelle l'unité est de niveau 1.<br />
 Il maîtrise <a href="../cmd-tax/">taxation</a> au niveau 2 (pour plus de détails : les <a href="../skills/">Compétences</a>).<br />
-Comme vous pouvez le voir, Konrad a également une [épée].<br />
+Comme vous pouvez le voir, Konrad a également une <a href="../war-tables/" title="Sword">épée</a>.<br />
 "<code>TAX</code>" est ce qu'on appelle un ordre par <a href="../cmd-default/">défaut</a>.<br />
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.<br />
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.<br />
@@ -7567,7 +7569,7 @@ Cela sera noté par "guards the region" dans le rapport.</p>
 Elle sera notée <em>[<code>exhausted</code>]</em> (épuisée), <em><code>wounded</code></em> (blessée), ou même <em><code>badly wounded</code></em> (gravement blessée).</p>
 <p>L'unité suivante porte l'identifiant <strong><em>2ow</em></strong>, est composée d'un nain, d'un cheval et d'une <a href="../silverbag/" title="Silverbag">bourse d'argent</a>.<br />
 Cela signifie qu'elle possède au moins 500 Silver.<br />
-Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent".<br />
+Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.<br />
 Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est <a href="../cmd-hide/">masquée</a>, c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.<br />
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.<br />
 La seule chose que vous pouvez faire est de lui envoyer un <a href="../cmd-message/">MESSAGE</a>.</p>
@@ -7668,6 +7670,8 @@ Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.</p>
         <script src="../../assets/external/unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
         <script src="../../javascripts/formulas-try.js"></script>
+      
+        <script src="../../javascripts/lore-dialogue.js"></script>
       
     
   </body>

@@ -7584,69 +7584,123 @@
 <h1 id="befehl">Befehl<a class="headerlink" href="#befehl" title="Permanent link">&para;</a></h1>
 <h2 id="konventionen">Konventionen<a class="headerlink" href="#konventionen" title="Permanent link">&para;</a></h2>
 <p>In diesen Regeln gelten die folgenden Konventionen:</p>
-<div class="highlight"><pre><span></span><code> GIB einheit-nr [anzahl|ALLES] [gegenstand]
+<div class="highlight"><pre><span></span><code>GIB einheit-nr [anzahl|ALLES] [gegenstand]
 </code></pre></div>
 <ul>
-<li>Schlüsselwörter wie GIB, MACHE, NICHT sind in Großbuchstaben gesetzt. Das ist nicht Pflicht, wir empfehlen es aber.</li>
-<li>Platzhalter sind in Kleinbuchstaben. Sie sollen nicht wörtlich übernommen werden, sondern müssen durch konkrete Werte ersetzt werden, also zum Beispiel einheit-nr durch die Nummer der gewünschten Einheit. Manchmal schreiben wir dies auch als &lt;einheit-nr&gt;, in diesem Fall sind die &lt;- und &gt;-Symbole <em>nicht</em> zu übernehmen.</li>
-<li>Worte in []-Klammern sind optional. Sie können also weggelassen werden, ändern dadurch aber die Bedeutung des Befehls. Alternativen sind dabei durch | getrennt. Obiges Beispiel lässt also <code>GIB 123 ALLES</code> oder auch <code>GIB abc 4 Schwert</code> zu.</li>
+<li>Schlüsselwörter wie <code>GIB</code>, <code>MACHE</code>, <code>NICHT</code> sind in Großbuchstaben gesetzt.
+  Das ist nicht Pflicht, wir empfehlen es aber.</li>
+<li>Platzhalter sind in Kleinbuchstaben. Sie sollen nicht wörtlich übernommen werden, sondern müssen durch konkrete Werte ersetzt werden, also zum Beispiel einheit-nr durch die Nummer der gewünschten Einheit.
+  Manchmal schreiben wir dies auch als <code>&lt;einheit-nr&gt;</code>, in diesem Fall sind die <code>&lt;</code> und  <code>&gt;</code>-Symbole <strong>nicht</strong> zu übernehmen.</li>
+<li>Worte in <code>[]</code>-Klammern sind optional.
+  Sie können also weggelassen werden, ändern dadurch aber die Bedeutung des Befehls.
+  Alternativen sind dabei durch <code>|</code> getrennt.</li>
 </ul>
+<p>Obiges Beispiel lässt also <code>GIB 123 ALLES</code> oder auch <code>GIB abc 4 Schwert</code> zu.</p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
-<p>Bis auf das Passwort und die Parteinummer sind dem Server Groß- und Kleinschreibung egal. <code>lerNE armBRUSTschiessen</code> ist völlig legal (wird aber nicht empfohlen, da es für Menschen schwer lesbar ist).</p>
-<p>Gegenstände sollten immer in der <em>Einzahl</em> stehen, also <code>GIB xyz 100 Schwert</code> oder <code>MACHE 15 Stein</code>. Im Report tauchen Gegenstände oft in der Mehrzahl auf und in Befehlen wird sie meist verstanden, aber du solltest dir bewusst machen, dass der Server natürliche Sprache nicht versteht, auch wenn die Befehle fast so aussehen.</p>
-<p>Viele Befehle lassen sich abkürzen, wobei du es nicht übertreiben solltest, da dies fehlerträchtig ist: VER passt auf VERGISS, VERKAUFE und VERLASSE und wird darum als Fehler angemerkt; hier solltest du also mindestens vier Buchstaben verwenden. Außerdem sind allzu kryptische Verkürzungen nicht sonderlich leserlich, wenn du später deine Züge durchsiehst... Am sichersten ist es immer noch, wenn du deine Befehle nicht abkürzt, zumal es Befehle, Gegenstände und Talente geben kann, die absichtlich nicht in der Anleitung stehen, aber ähnlich anfangen wie bekannte Befehle, Gegenstände und Talente.</p>
-<p>Texte, die Leerzeichen enthalten, müssen in Anführungszeichen (") eingeschlossen werden oder die Leerzeichen durch ~ (Tilde) ersetzt. Ferner dürfen Umlaute durch die entsprechende Umschreibung (Ä=AE usw.) ersetzt werden:</p>
-<div class="highlight"><pre><span></span><code> BENENNE Schiff &quot;Großer Blauer Vogel&quot;
- GIB einh 5 Würziger~Wagemut
- KAEMPFE HINTEN
+<p>Bis auf das Passwort und die Parteinummer sind dem Server Groß- und Kleinschreibung egal.<br />
+<code>lerNE armBRUSTschiessen</code> ist völlig legal (wird aber nicht empfohlen, da es für Menschen schwer lesbar ist).  </p>
+<p>Gegenstände sollten immer in der <em>Einzahl</em> stehen, also <code>GIB xyz 100 Schwert</code> oder <code>MACHE 15 Stein</code>.<br />
+Im Report tauchen Gegenstände oft in der Mehrzahl auf und in Befehlen wird sie meist verstanden, aber du solltest dir bewusst machen, dass der Server natürliche Sprache nicht versteht, auch wenn die Befehle fast so aussehen.</p>
+<p>Viele Befehle lassen sich abkürzen, wobei du es nicht übertreiben solltest, da dies fehlerträchtig ist: VER passt auf VERGISS, VERKAUFE und VERLASSE und wird darum als Fehler angemerkt; hier solltest du also mindestens vier Buchstaben verwenden.<br />
+Außerdem sind allzu kryptische Verkürzungen nicht sonderlich leserlich, wenn du später deine Züge durchsiehst...<br />
+Am sichersten ist es immer noch, wenn du deine Befehle nicht abkürzt, zumal es Befehle, Gegenstände und Talente geben kann, die absichtlich nicht in der Anleitung stehen, aber ähnlich anfangen wie bekannte Befehle, Gegenstände und Talente.</p>
+<p>Texte, die Leerzeichen enthalten, müssen in Anführungszeichen (") eingeschlossen werden oder die Leerzeichen durch ~ (Tilde) ersetzt.<br />
+Ferner dürfen Umlaute durch die entsprechende Umschreibung (Ä=AE usw.) ersetzt werden:</p>
+<div class="highlight"><pre><span></span><code>BENENNE Schiff &quot;Großer Blauer Vogel&quot;
+GIB einh 5 Würziger~Wagemut
+KAEMPFE HINTEN
 </code></pre></div>
-<p>Es ist möglich, einfache Anführungszeichen (') zu benutzen und zu kombinieren. Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.</p>
-<div class="highlight"><pre><span></span><code> BOTSCHAFT REGION &#39;Sprich &quot;Freund&quot; und tritt ein&#39;
- BENENNE BURG xyz &quot;Helm&#39;s Deep&quot;
- DEFAULT &#39;MACHE 1 &quot;Wasser des Lebens&quot;&#39;
+<p>Es ist möglich, einfache Anführungszeichen (<code>'</code>) zu benutzen und zu kombinieren.<br />
+Was dabei genau herauskommt, solltest du lieber ausprobieren, weil sich das genaue Verhalten immer mal verändern kann.  </p>
+<div class="highlight"><pre><span></span><code>BOTSCHAFT REGION &#39;Sprich &quot;Freund&quot; und tritt ein&#39;
+BENENNE BURG xyz &quot;Helm&#39;s Deep&quot;
+DEFAULT &#39;MACHE 1 &quot;Wasser des Lebens&quot;&#39;
 </code></pre></div>
-<p>Auch so genannte Maskierung (escaping) durch das Zeichen \ sind möglich, aber nicht unbedingt empfohlen:</p>
-<div class="highlight"><pre><span></span><code> BOTSCHAFT REGION &quot;Sprich \&quot;Freund\&quot; und tritt ein&quot;
- BENENNE BURG xyz &#39;Helm\&#39;s Deep&#39;
- DEFAULT &#39;MACHE 1 Wasser\~des\~Lebens&#39;
+<p>Auch so genannte Maskierung (escaping) durch das Zeichen <code>\</code> sind möglich, aber nicht unbedingt empfohlen:</p>
+<div class="highlight"><pre><span></span><code>BOTSCHAFT REGION &quot;Sprich \&quot;Freund\&quot; und tritt ein&quot;
+BENENNE BURG xyz &#39;Helm\&#39;s Deep&#39;
+DEFAULT &#39;MACHE 1 Wasser\~des\~Lebens&#39;
 </code></pre></div>
-<p>Es ist übrigens nicht nötig, sich auf das lateinische Alphabet zu beschränken. In Namen und Beschreibungen ist der volle Unicode-Zeichensatz möglich:</p>
-<div class="highlight"><pre><span></span><code> BENENNE EINHEIT &quot;Σωκράτης&quot;
- BOTSCHAFT REGION &quot;🨀 شاه مات&quot;
+<p>Es ist übrigens nicht nötig, sich auf das lateinische Alphabet zu beschränken.<br />
+In Namen und Beschreibungen ist der volle Unicode-Zeichensatz möglich:</p>
+<div class="highlight"><pre><span></span><code>BENENNE EINHEIT &quot;Σωκράτης&quot;
+BOTSCHAFT REGION &quot;🨀 شاه مات&quot;
 </code></pre></div>
-<p>Natürlich solltest darauf achten, von anderen auch verstanden zu werden.</p>
+<p>Natürlich solltest darauf achten, von anderen auch verstanden zu werden.  </p>
 <h2 id="die-zugvorlage">Die Zugvorlage<a class="headerlink" href="#die-zugvorlage" title="Permanent link">&para;</a></h2>
-<p>Am einfachsten ist es, wenn du die Zugvorlage verwendest, die am Ende der Auswertung steht. Dort sind alle Einheiten aufgeführt, so dass du niemanden vergisst. Solltest du einmal keine Befehle einschicken, werden die Befehle der Zugvorlage trotzdem automatisch ausgeführt. Auch wenn du nur für einen Teil deiner Einheiten Befehle einsendest, werden für die restlichen Einheiten die Befehle der Zugvorlage ausgeführt. Sollte deine Auswertung keine Zugvorlage (mit der Endung .txt) enthalten, kannst du sie mit dem Befehl [<code>OPTION ZUGVORLAGE</code>] wieder einschalten.</p>
+<p>Am einfachsten ist es, wenn du die Zugvorlage verwendest, die am Ende der Auswertung steht.<br />
+Dort sind alle Einheiten aufgeführt, so dass du niemanden vergisst.<br />
+Solltest du einmal keine Befehle einschicken, werden die Befehle der Zugvorlage trotzdem automatisch ausgeführt.<br />
+Auch wenn du nur für einen Teil deiner Einheiten Befehle einsendest, werden für die restlichen Einheiten die Befehle der Zugvorlage ausgeführt.<br />
+Sollte deine Auswertung keine Zugvorlage (mit der Endung <code>.txt</code>) enthalten, kannst du sie mit dem Befehl [<code>OPTION ZUGVORLAGE</code>] wieder einschalten.  </p>
 <h2 id="kurze-und-lange-befehle">Kurze und lange Befehle<a class="headerlink" href="#kurze-und-lange-befehle" title="Permanent link">&para;</a></h2>
 <p>Es gibt in Eressea kurze und lange Befehle.</p>
 <p>Die langen Befehle sind:</p>
-<p><a href="../cmd-work/">ARBEITE</a>, <a href="../cmd-attack/">ATTACKIERE</a>, <a href="../cmd-steal/">BEKLAUE</a>, <a href="../cmd-ride/">FAHRE</a>, <a href="../cmd-follow/">FOLGE</a>, <a href="../cmd-research/">FORSCHE</a>, <a href="../cmd-buy/">KAUFE</a>, <a href="../cmd-teach/">LEHRE</a>, <a href="../cmd-learn/">LERNE</a>, <a href="../cmd-make/">MACHE</a> (Ausnahme: MACHE TEMP), <a href="../cmd-move/">NACH</a>, <a href="../cmd-plant/">PFLANZE</a>, <a href="../cmd-piracy/">PIRATERIE</a>, <a href="../cmd-route/">ROUTE</a>, <a href="../cmd-spy/">SPIONIERE</a>, <a href="../cmd-tax/">TREIBE</a>, <a href="../cmd-entertain/">UNTERHALTE</a>, <a href="../cmd-sell/">VERKAUFE</a>, <a href="../cmd-cast/">ZAUBERE</a>, <a href="../cmd-destroy/">ZERSTÖRE</a>, <a href="../cmd-grow/">ZÜCHTE</a>.</p>
-<p>Alle anderen Befehle sind kurze Befehle (<a href="../commands-list/">Kurzbeschreibung</a> aller Befehle). Du kannst beliebig viele kurze Befehle pro Einheit eingeben. Eine Einheit kann in der Regel nur einen langen Befehl haben. Es gibt ein paar Ausnahmen, die so genannten pseudolangen Befehle (<code>ATTACKIERE, FOLGE, KAUFE, VERKAUFE, ZAUBERE</code>), von denen unter Umständen mehrere gegeben werden können. Näheres in der Beschreibung der einzelnen Befehle.</p>
-<p>Wird einer Einheit ein langer Befehl gegeben, wird sie diesen als Default-Befehl übernehmen und damit den vorherigen Default-Befehl ersetzen. Der Default-Befehl steht in der [Zugvorlage][3 Die Zugvorlage] immer als Vorschlag für einen langen Befehl. Du brauchst also einem Pferdedresseur nur einmal den Befehl MACHE pferd zu geben und dieser Befehl erscheint solange in der Zugvorlage, bis sie einen anderen langen Befehl erhält (z.B. LERNE Pferdedressur). Sinnvollerweise werden nicht alle langen Befehle als Default-Befehle übernommen. Das betrifft z.B. NACH, ATTACKIERE und FOLGE. Weiteres zu Default-Befehlen auf der Seite zum Befehl <a href="../cmd-default/">DEFAULT</a>.</p>
+<ul>
+<li><a href="../cmd-work/">ARBEITE</a>,</li>
+<li><a href="../cmd-attack/">ATTACKIERE</a>,</li>
+<li><a href="../cmd-steal/">BEKLAUE</a>,</li>
+<li><a href="../cmd-ride/">FAHRE</a>,</li>
+<li><a href="../cmd-follow/">FOLGE</a>,</li>
+<li><a href="../cmd-research/">FORSCHE</a>,</li>
+<li><a href="../cmd-buy/">KAUFE</a>,</li>
+<li><a href="../cmd-teach/">LEHRE</a>,</li>
+<li><a href="../cmd-learn/">LERNE</a>,</li>
+<li><a href="../cmd-make/">MACHE</a> (Ausnahme: <code>MACHE TEMP</code>),</li>
+<li><a href="../cmd-move/">NACH</a>,</li>
+<li><a href="../cmd-plant/">PFLANZE</a>,</li>
+<li><a href="../cmd-piracy/">PIRATERIE</a>,</li>
+<li><a href="../cmd-route/">ROUTE</a>,</li>
+<li><a href="../cmd-spy/">SPIONIERE</a>,</li>
+<li><a href="../cmd-tax/">TREIBE</a>,</li>
+<li><a href="../cmd-entertain/">UNTERHALTE</a>,</li>
+<li><a href="../cmd-sell/">VERKAUFE</a>,</li>
+<li><a href="../cmd-cast/">ZAUBERE</a>,</li>
+<li><a href="../cmd-destroy/">ZERSTÖRE</a>,</li>
+<li><a href="../cmd-grow/">ZÜCHTE</a></li>
+</ul>
+<p>Alle anderen Befehle sind kurze Befehle (<a href="../commands-list/">Kurzbeschreibung</a> aller Befehle).  </p>
+<p>Du kannst beliebig viele kurze Befehle pro Einheit eingeben.<br />
+Eine Einheit kann in der Regel nur einen langen Befehl haben.  </p>
+<p>Es gibt ein paar Ausnahmen, die so genannten pseudolangen Befehle (<code>ATTACKIERE, FOLGE, KAUFE, VERKAUFE, ZAUBERE</code>), von denen unter Umständen mehrere gegeben werden können.<br />
+Näheres in der Beschreibung der einzelnen Befehle.  </p>
+<p>Wird einer Einheit ein langer Befehl gegeben, wird sie diesen als Default-Befehl übernehmen und damit den vorherigen Default-Befehl ersetzen.<br />
+Der Default-Befehl steht in der [Zugvorlage][3 Die Zugvorlage] immer als Vorschlag für einen langen Befehl.<br />
+Du brauchst also einem Pferdedresseur nur einmal den Befehl MACHE pferd zu geben und dieser Befehl erscheint solange in der Zugvorlage, bis sie einen anderen langen Befehl erhält (z.B. LERNE Pferdedressur).<br />
+Sinnvollerweise werden nicht alle langen Befehle als Default-Befehle übernommen.<br />
+Das betrifft z.B. <code>NACH</code>, <code>ATTACKIERE</code> und <code>FOLGE</code>.<br />
+Weiteres zu Default-Befehlen auf der Seite zum Befehl <a href="../cmd-default/">DEFAULT</a>.  </p>
 <p>Eine Einheit, die eine Runde arbeitete, in der kommenden Runde nach Norden zog und dann keinen Befehl mehr bekam, wird sich in der darauf folgenden Runde niederlassen und wieder arbeiten (es sei denn natürlich, sie erhält in dieser Runde einen anderen langen Befehl).</p>
-<p>Bitte beachte, dass pro Einheit nur ein Befehl pro Einheit im normalen Report (NR) angezeigt wird. Die restlichen Default-Befehle werden in der Zugvorlage und im Computerreport angezeigt.</p>
+<p>Bitte beachte, dass pro Einheit nur ein Befehl pro Einheit im normalen Report (NR) angezeigt wird.<br />
+Die restlichen Default-Befehle werden in der Zugvorlage und im Computerreport angezeigt.  </p>
 <h2 id="kurze-befehle-dauerhaft-ausfuhren">Kurze Befehle dauerhaft ausführen<a class="headerlink" href="#kurze-befehle-dauerhaft-ausfuhren" title="Permanent link">&para;</a></h2>
-<p>Manchmal ist es sinnvoll, dass ein kurzer Befehl jede Runde ausgeführt wird, so z.B. GIB, weil die Bergarbeiter das abgebaute Eisen ständig an die Schmiede liefern sollen.</p>
-<p>Hierzu kannst du vor jeden kurzen Befehl ein @ (At-Zeichen, Klammeraffe) setzen. Solche Befehle werden einfach in die Zugvorlage der kommenden Runde kopiert und - so du sie nicht wieder löschst - wieder ausgeführt.</p>
+<p>Manchmal ist es sinnvoll, dass ein kurzer Befehl jede Runde ausgeführt wird, so z.B. <code>GIB</code>,<br />
+weil die Bergarbeiter das abgebaute Eisen ständig an die Schmiede liefern sollen.  </p>
+<p>Hierzu kannst du vor jeden kurzen Befehl ein @ (At-Zeichen, Klammeraffe) setzen.<br />
+Solche Befehle werden einfach in die Zugvorlage der kommenden Runde kopiert und - so du sie nicht wieder löschst - wieder ausgeführt.  </p>
 <p><strong>Ein Beispiel</strong>:</p>
-<div class="highlight"><pre><span></span><code> EINHEIT berg;         Bergarbeiter [5,400$,U500]
-   MACHE Eisen
-   @GIB schm ALLES Eisen;   immer an die Schmiede liefern
- EINHEIT schm;         Schmiede [3,1343$,U250]
-   MACHE Schwerter
+<div class="highlight"><pre><span></span><code>EINHEIT berg;         Bergarbeiter [5,400$,U500]
+    MACHE Eisen
+    @GIB schm ALLES Eisen;   immer an die Schmiede liefern
+EINHEIT schm;         Schmiede [3,1343$,U250]
+    MACHE Schwerter
 </code></pre></div>
-<p><strong>Hinweis:</strong> Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.</p>
+<div class="admonition note">
+<p class="admonition-title">Hinweis</p>
+<p>Es gibt eine Obergrenze an Befehlen, die für eine Einheit gespeichert werden. Diese liegt derzeit bei 128 Befehlen, was für die meisten Zwecke leicht ausreichen sollte.</p>
+</div>
 <h2 id="fehler-unterdrucken">Fehler unterdrücken<a class="headerlink" href="#fehler-unterdrucken" title="Permanent link">&para;</a></h2>
-<p>Es kann vorkommen, dass du Fehler bei der Ausführung eines Befehls bewusst in Kauf nimmst. Durch Voranstellen eines Ausrufezeichens (!) kannst du die Servermeldungen, die diesen Befehl betreffen, unterdrücken.</p>
+<p>Es kann vorkommen, dass du Fehler bei der Ausführung eines Befehls bewusst in Kauf nimmst.<br />
+Durch Voranstellen eines Ausrufezeichens (<code>!</code>) kannst du die Servermeldungen, die diesen Befehl betreffen, unterdrücken.  </p>
 <p><strong>Ein Beispiel</strong>:</p>
-<div class="highlight"><pre><span></span><code> EINHEIT berg;         Bergarbeiter
-   MACHE Eisen
-   !@GIB tran ALLES Eisen;   Der Transporter ist nicht immer da; wir wollen darüber keine Fehlermeldung
- EINHEIT tran;         Transporter
-   ROUTE w PAUSE o PAUSE ;   Wir pendeln zwischen zwei Regionen
-   !@GIB schm ALLES Eisen;   Im Westen übergeben wir das Eisen an die Schmiede
+<div class="highlight"><pre><span></span><code>EINHEIT berg;         Bergarbeiter
+    MACHE Eisen
+    !@GIB tran ALLES Eisen;   Der Transporter ist nicht immer da; wir wollen darüber keine Fehlermeldung
+EINHEIT tran;         Transporter
+    ROUTE w PAUSE o PAUSE ;   Wir pendeln zwischen zwei Regionen
+    !@GIB schm ALLES Eisen;   Im Westen übergeben wir das Eisen an die Schmiede
 </code></pre></div>
-<p>Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht gerechnet hast.</p>
+<p>Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht gerechnet hast.  </p>
 <h2 id="siehe-auch">Siehe auch<a class="headerlink" href="#siehe-auch" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../commands-sequence/">Befehlsreihenfolge</a></li>

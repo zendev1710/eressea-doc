@@ -464,13 +464,3 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
 [knotiger saugwurz]: ./herbs.md#knotiger-saugwurz
-
-[berserkerblut]: ./alchemy.md#berserkerblut
-[schwert]: ./war-tables.md#schwert
-[holz]: ./resources.md#holz
-[eisen]: ./resources.md#eisen
-[stein]: ./resources.md#stein
-[öl]: ./silver.md#ol
-[knotiger saugwurz]: ./herbs.md#knotiger-saugwurz
-[wasser des lebens]: ./alchemy.md#wasser-des-lebens
-[schneekristall]: ./herbs.md#schneekristall

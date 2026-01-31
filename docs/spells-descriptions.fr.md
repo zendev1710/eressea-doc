@@ -1212,7 +1212,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
 Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
 Il accepta de me révéler, à contrecœur, le secret de son éloquence."
-</di>
+</div>
 
 Extrait de « Errants » de Firudin le Sage.
 

@@ -40,8 +40,8 @@ S’il est déjà au niveau 5 en magie, il doit payer 1 100 Silver par semaine 
     Ainsi un elfe paie 100 et non 200 Silver pour sa première tentative d'apprentissage qui l'amène à T2.  
     Un gobelin avec son -1 paie 200 Silver pour la deuxième tentative d'apprentissage même s'il est encore au niveau 0 (le système l'évalue comme T1 -1 = 0).  
 
-!!! info "message à destination des mains"
-    Vous avez -2 en compétence magique.  
+!!! info "message à destination des Nains"
+    Les nains ont un malus de **-2** en **magie**.  
     Une unité qui apparaît avec Magie à 0 peut en réalité être en T1 ou T2.  
     Dans ce dernier cas, cependant, les coûts d’apprentissage s’élèvent à 350 Silver !  
     Il n’y a aucun moyen de savoir lequel des deux est vrai.  

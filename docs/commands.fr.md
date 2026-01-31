@@ -13,10 +13,10 @@ GIVE unit-id [number|ALL] [item]
 Les conventions suivantes s'appliquent dans les règles de cette documentation :
 
 - Des mots-clés comme `GIVE`, `MAKE`, `NOT` sont en majuscules.
-  Ce n'est pas obligatoire, mais nous le recommandons. Le reste est en lettres minuscules.
+  Ce n'est pas obligatoire mais recommandé. Le reste est en lettres minuscules.
   Les éléments en minuscules ne doivent pas être adoptés littéralement, mais doivent être remplacés par des valeurs concrètes, par exemple *unit-id* par l'identifiant de l'unité souhaitée.
-  Parfois, nous écrirons également ceci sous la forme `<unit-id>`, auquel cas les symboles `<` et `>` ne sont **PAS** à inclure.
-- Les éléments entre crochets sont facultatifs
+  Parfois, nous écrirons également ceci sous la forme `<unit-id>`, auquel cas les symboles `<` et `>` ne sont **pas** à inclure.
+- Les éléments entre crochets (`[]`) sont facultatifs
   Ils peuvent donc être omis, mais ils changent le sens de l'ordre.
   Les alternatives sont définis avec le caractère `|`.
 
@@ -78,7 +78,7 @@ Le plus simple est d’utiliser le modèle d'ordres à la fin de l’évaluation
 Toutes les unités y sont répertoriées pour que vous n'oubliiez personne.  
 Si vous n'envoyez aucun ordre, les ordres du modèle d'ordres seront quand même exécutés automatiquement.  
 Même si vous n'envoyez des ordres que pour certaines de vos unités, les ordres du modèle d'ordres seront exécutés pour les unités restantes.  
-Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [[cmd-option|`OPTION ZUGVORLAGE`]].
+Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [[cmd-option|`OPTION ZUGVORLAGE`]].  
 
 ## Ordres courts et longs
 

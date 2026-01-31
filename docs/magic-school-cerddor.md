@@ -14,7 +14,7 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  2 auras   |  1  | Pre-c. |  5   |      |       |
+|   2 aura   |  1  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
@@ -23,9 +23,9 @@ alias: cerddor-spells
 :   Cerddor mages are the leading jugglers among the mages, they love to entertain the people and be the center of attention.  
     Even beginners learn the little tricks and magical tricks that can be used to lure and seduce people into opening their wallets very wide, and at the end of the week the juggler will have earned 50 silver per level.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  L auras   |  1  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|   L aura   |  1  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Jugglery`  
 
@@ -36,9 +36,9 @@ alias: cerddor-spells
 :   This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood.  
     Taverns and theaters everywhere will be full and even the beggars will be fed.
 
-| Components  | Lvl |  Type  | Rank |        Ship        |       Dist.        |
-|:-----------:|:---:|:------:|:----:|:------------------:|:------------------:|
-| 2 x L auras |  2  | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 2 x L aura |  2  | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
@@ -50,7 +50,7 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type   | Rank | Ship | Dist. |
 |:----------:|:---:|:-------:|:----:|:----:|:-----:|
-|  L auras   |  2  | Post-c. |  5   |      |       |
+|   L aura   |  2  | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
@@ -64,7 +64,7 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  L auras   |  3  | Combat |  5   |      |       |
+|   L aura   |  3  | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
@@ -73,9 +73,9 @@ alias: cerddor-spells
 :   This ancient dance ritual invokes the forces of life and fertility.  
     Farmers' yields will be significantly better for several weeks.
 
-| Components | Lvl |  Type  | Rank |        Ship        |       Dist.        |
-|:----------:|:---:|:------:|:----:|:------------------:|:------------------:|
-|  L auras   |  3  | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
+|   L aura   |  3  | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
@@ -86,9 +86,9 @@ alias: cerddor-spells
 :   This magical song comes from the ancient songs of cats and, when used before a fight, can bring decisive strategic advantages.  
     Anyone who comes under the influence of this song will not pay attention to the melody of their surroundings, their mind will become confused and give in erratically to sudden inspirations. Well-ordered armies are said to have suddenly found their archers far in front and their cavalry playing cards with the camp guards (or their leader sleeping in the long-abandoned camp, as is actually said to have happened in the Great Wars of the Old World).
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x L auras |  4  | Pre-c. |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x L aura |  4  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
@@ -98,9 +98,9 @@ alias: cerddor-spells
     "This seductive little melody and a few insinuating words overcome the distrust of the peasants in an instant.  
     They will enthusiastically join you and leave their house and yard in ruins themselves."
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x L auras |  4  | Normal |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x L aura |  4  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Song of Courting"`  
 
@@ -111,7 +111,7 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  10 auras  |  4  | Normal |  5   |      |       |
+|  10 aura   |  4  | Normal |  5   |      |       |
 
 `CAST Blabbermouth <unit-id>`  
 
@@ -122,9 +122,9 @@ alias: cerddor-spells
 :   This shrill chant echoes throughout the battlefield.  
     The special dissonances in the melodies make it almost impossible for magicians to concentrate on their spells.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 5 x L auras |  5  | Pre-c. |  2   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x L aura |  5  | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
 
@@ -133,9 +133,9 @@ alias: cerddor-spells
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
 <!-- TODO: check values below -->
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  2 auras   |  5  | Normal |  1   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|   2 aura   |  5  | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
@@ -147,9 +147,9 @@ alias: cerddor-spells
     This chant helps to hear those changes in a person"s life song that are magical in nature.  
     You will be able to decipher and unmask all enchantments that are not more masked than your ability.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  10 auras  |  5  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|  10 aura   |  5  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
@@ -158,9 +158,9 @@ alias: cerddor-spells
 :   This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings.  
     Such a solid warrior will not flee even in difficult situations and his considered behavior will give him many an advantage in defense.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x L auras |  5  | Pre-c. |  4   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x L aura |  5  | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
@@ -172,9 +172,9 @@ alias: cerddor-spells
     The amulet allows the wearer to see all units protected by a [[ring-of-invisibility]].  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-|                Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 50 auras, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :heavy_check_mark: |       |
+|               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -183,9 +183,9 @@ alias: cerddor-spells
 :   With this spell the magician can create a sphere of invisibility.  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
-|                 Components                  | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:-------------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 150 auras, 30 000 silver, 3 permanent auras |  6  | Normal |  5   | :heavy_check_mark: |       |
+|                Components                 | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:-----------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 150 aura, 30 000 silver, 3 permanent aura |  6  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -196,7 +196,7 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  12 auras  |  6  | Normal |  5   |      |       |
+|  12 aura   |  6  | Normal |  5   |      |       |
 
 `CAST "Song of Seduction" <unit-id>`  
 
@@ -206,9 +206,9 @@ alias: cerddor-spells
     It will refrain from attacking the magician and will not touch its companions.  
     But make no mistake, it will still remain an unpredictable creature.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  15 auras  |  6  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|  15 aura   |  6  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Calm Monster" <unit-id>`  
 
@@ -220,9 +220,9 @@ alias: cerddor-spells
     If there is no one from her faction in the region, she has nothing to report.  
     She can also only tell what she could see herself.
 
-|     Components      | Lvl |  Type  | Rank | Ship | Dist. |
-|:-------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 4 auras, 100 silver |  7  | Normal |  5   |      |       |
+|     Components     | Lvl |  Type  | Rank | Ship | Dist. |
+|:------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 4 aura, 100 silver |  7  | Normal |  5   |      |       |
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
@@ -233,9 +233,9 @@ alias: cerddor-spells
     Regardless of their own pain, they will fight to the death and never flee.  
     While their attack is intensified, they pay little attention to themselves.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 5 x L auras |  7  | Pre-c. |  4   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x L aura |  7  | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
@@ -252,9 +252,9 @@ alias: cerddor-spells
     And he will almost certainly have forgotten some of his best abilities for a few days, even up to two weeks, of study.  
     One more word of warning: This is very time-consuming, and if you wish to cast other spells in the same week, they will be more difficult for you.
 
-|            Components             | Lvl |  Type  | Rank | Ship | Dist. |
-|:---------------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 28 auras, 3 [knotroot], 50 silver |  7  | Normal |  5   |      |       |
+|            Components            | Lvl |  Type  | Rank | Ship | Dist. |
+|:--------------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 28 aura, 3 [knotroot], 50 silver |  7  | Normal |  5   |      |       |
 
 `CAST Hangover <unit-id>`  
 
@@ -265,9 +265,9 @@ alias: cerddor-spells
 :   This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength.  
     Fear will weaken their sword arm and fear will paralyze their shield arm.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 5 x L auras |  8  | Pre-c. |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x L aura |  8  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
@@ -276,9 +276,9 @@ alias: cerddor-spells
 :   Each enchantment affects the Life Song, weakening and distorting it.  
     The skilled bard can attempt to capture and amplify the song of life and erase the changes from the song.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 5 x L auras |  5  | Pre-c. |  2   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x L aura |  5  | Pre-c. |  2   |      |       |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -287,9 +287,9 @@ alias: cerddor-spells
 :   Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear.  
     And just as you can tell from a person"s life song whether they are under a spell, this is also possible with castles, ships or regions.
 
-| Components  | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:-----------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 3 x L auras |  8  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 3 x L aura |  8  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -304,9 +304,9 @@ alias: cerddor-spells
     The magician leading the ritual must naturally expend aura permanently to ensure the permanent binding of the initiate to his faction.  
     He can accommodate one person per level and per permanent aura.
 
-|           Components           | Lvl |  Type  | Rank | Ship | Dist. |
-|:------------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 3 x L auras, L permanent auras |  9  | Normal |  5   |      |       |
+|          Components          | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 3 x L aura, L permanent aura |  9  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
@@ -314,9 +314,9 @@ alias: cerddor-spells
 
 :   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
 
-|          Components          | Lvl |  Type  | Rank | Ship | Dist. |
-|:----------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 100 auras, 5 permanent auras |  9  | Normal |  5   |      |       |
+|         Components         | Lvl |  Type  | Rank | Ship | Dist. |
+|:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 100 aura, 5 permanent aura |  9  | Normal |  5   |      |       |
 
 `CAST "Summon Familiar"`  
 
@@ -328,9 +328,9 @@ alias: cerddor-spells
     How many weeks the song disappears from the memory of the region depends on the skill of the bard.  
     Until the song has completely faded away, his magic will grant all of the bard"s allies (HELP GUARD), and of course his own people, a one-time bonus of 15% to the natural resistance to an enchantment.
 
-| Components  | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:-----------:|:---:|:------:|:----:|:----:|:------------------:|
-| 2 x L auras | 10  | Normal |  2   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 2 x L aura | 10  | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
@@ -340,9 +340,9 @@ alias: cerddor-spells
     However, the farmers will not leave their homeland and will not give away any of their possessions.  
     Each week some of the farmers will also cast off the spell and return to their fields. How many farmers join the magician depends on the power of his song.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 4 x L auras | 10  | Normal |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 4 x L aura | 10  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
@@ -353,9 +353,9 @@ alias: cerddor-spells
 :   With this song the bard spreads a melancholic, sad mood among the farmers.  
     For a few weeks they will retreat to their huts and leave no silver in the theaters and taverns.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  40 auras  | 11  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  40 aura   | 11  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Gesang der Melancholie"`  
 
@@ -367,9 +367,9 @@ alias: cerddor-spells
     She is said to have exploited this elsewhere as well; her reputation as a card cheat was notorious.  
     Craftsmen can thus produce ten times as much, and this could also be useful in some other activities.
 
-|               Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:---------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 20 auras, 1000 silver, 1 permanent aura | 11  | Normal |  5   | :heavy_check_mark: |       |
+|               Components               | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:--------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 20 aura, 1000 silver, 1 permanent aura | 11  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Miriams flinke Finger"`  
 
@@ -381,9 +381,9 @@ alias: cerddor-spells
     No one in the entire region is capable of taking up arms against anyone.  
     The effects can last for several weeks.
 
-|  Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:------------:|:---:|:------:|:----:|:----:|:-----:|
-| 20 x L auras | 12  | Normal |  5   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 20 x L aura | 12  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
@@ -392,9 +392,9 @@ alias: cerddor-spells
 :   Woven into the magical essence of the region, this song weakens one"s natural resistance to an enchantment by 15% once.  
     Only the bard"s allies (HELP GUARD) are immune to the effect of the song.
 
-| Components  | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:-----------:|:---:|:------:|:----:|:----:|:------------------:|
-| 2 x L auras | 12  | Normal |  2   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 2 x L aura | 12  | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
@@ -405,21 +405,22 @@ alias: cerddor-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  40 auras  | 13  | Normal |  5   |      |       |
+|  40 aura   | 13  | Normal |  5   |      |       |
 
 `CAST "Gesang der Versklavung" <unit-id>`  
 
-### Hohe Kunst der Überzeugung  <!-- TODO -->
+<div class="lore-dialogue">
+"In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.
+It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.
+After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.
+He was only hesitantly willing to teach me the secret of his persuasiveness."
+</div>
 
-:   From "Wanderings" by Firudin the Wise:  
-    "In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.  
-    It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.  
-    After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.  
-    He was only hesitantly willing to teach me the secret of his persuasiveness."
+From "Wanderings" by Firudin the Wise.  
 
-|  Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:------------:|:---:|:------:|:----:|:----:|:-----:|
-| 20 x L auras | 14  | Normal |  5   |      |       |
+| Components  | Lvl |  Type  | Rank | Ship | Dist. |
+|:-----------:|:---:|:------:|:----:|:----:|:-----:|
+| 20 x L aura | 14  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
@@ -428,9 +429,9 @@ alias: cerddor-spells
 :   With the help of this magical chant, the magician can calm a region in turmoil.  
     The hordes of farmers will get lost and return to their fields.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  30 auras  | 15  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  30 aura   | 15  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
@@ -440,9 +441,9 @@ alias: cerddor-spells
     Rebellious hordes of farmers make any taxation impossible, hardly anyone will donate money to scams anymore and no new people can be recruited.  
     After a few weeks the mob calms down again.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  40 auras  | 16  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  40 aura   | 16  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr verursachen"`  
 

@@ -13,7 +13,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  T auras   |  1  | Pre-c. |  4   |      |       |
+|   T aura   |  1  | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
@@ -21,9 +21,9 @@ alias: illaun-spells
 
 :   The magician sends the target of the spell a dream.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  T auras   |  1  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|   T aura   |  1  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
@@ -33,9 +33,9 @@ alias: illaun-spells
     He is also familiar with the art of fortune telling, card reading and palm reading.  
     In return, the farmers pay him 50 silver per level.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  T auras   |  1  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|   T aura   |  1  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Divination`  
 
@@ -48,7 +48,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  T auras   |  2  | Pre-c. |  5   |      |       |
+|   T aura   |  2  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
@@ -58,9 +58,9 @@ alias: illaun-spells
     Approximately 50 souls will find peace per level of the spell.  
     The spell cannot redeem the living dead who have already been resurrected because their ties to this world are too strong.
 
-| Components  | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:-----------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 5 x T auras |  3  | Normal |  2   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 5 x T aura |  3  | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -73,7 +73,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  T auras   |  3  | Normal |  5   |      |       |
+|   T aura   |  3  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
@@ -81,9 +81,9 @@ alias: illaun-spells
 
 :   With the help of this spell, the dream weaver can transfer his own aura to another dream weaver at a ratio of 2:1.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  2 auras   |  3  | Normal |  1   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|   2 aura   |  3  | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Dream of Magic" <unit-id> <Aura>`  
 
@@ -95,7 +95,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  3 auras   |  3  | Normal |  5   |      |       |
+|   3 aura   |  3  | Normal |  5   |      |       |
 
 `CAST "Castle of Illusion" <Gebäudetyp>`  
 
@@ -106,9 +106,9 @@ alias: illaun-spells
 :   This combat spell causes some enemies to suffer severe fatigue during combat.  
     The soldiers sometimes oversleep their attack and defend themselves poorly.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 4 x T auras |  4  | Pre-c. |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 4 x T aura |  4  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
@@ -116,9 +116,9 @@ alias: illaun-spells
 
 :   This spell allows the Dreamweaver to enter a unit"s dreams to obtain a report on the surrounding area.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  8 auras   |  4  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|   8 aura   |  4  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
@@ -130,9 +130,9 @@ alias: illaun-spells
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
     With stronger spells he needs a little luck for a successful analysis.
 
-| Components | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------:|:---:|:------:|:----:|:------------------:|:-----:|
-|  25 auras  |  5  | Normal |  5   | :heavy_check_mark: |       |
+| Components | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+|  25 aura   |  5  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyse Dreams" <unit-id>`  
 
@@ -144,7 +144,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type   | Rank | Ship | Dist. |
 |:----------:|:---:|:-------:|:----:|:----:|:-----:|
-|  T auras   |  5  | Post-c. |  4   |      |       |
+|   T aura   |  5  | Post-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
@@ -156,9 +156,9 @@ alias: illaun-spells
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-|                Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 50 auras, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :heavy_check_mark: |       |
+|               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -168,9 +168,9 @@ alias: illaun-spells
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
-|                Components                | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:----------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 50 auras, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :heavy_check_mark: |       |
+|               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -181,9 +181,9 @@ alias: illaun-spells
 :   This spell causes insomnia and restlessness in the affected area for a few weeks.  
     Those affected find it much more difficult to learn.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  18 auras  |  6  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  18 aura   |  6  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] Insomnia`  
 
@@ -196,7 +196,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  T auras   |  7  | Combat |  5   |      |       |
+|   T aura   |  7  | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Sleep`  
 
@@ -207,7 +207,7 @@ alias: illaun-spells
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
-|  20 auras  |  7  | Normal |  5   |      |       |
+|  20 aura   |  7  | Normal |  5   |      |       |
 
 `CAST "Mind Probe" <unit-id>`  
 
@@ -217,9 +217,9 @@ alias: illaun-spells
 
 :   This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all skills for a period of time.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  80 auras  |  8  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  80 aura   |  8  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schöne Träume"`  
 
@@ -227,9 +227,9 @@ alias: illaun-spells
 
 :   This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
 
-| Components  | Lvl |  Type  | Rank |        Ship        |       Dist.        |
-|:-----------:|:---:|:------:|:----:|:------------------:|:------------------:|
-| 6 x T auras |  8  | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 6 x T aura |  8  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -239,9 +239,9 @@ alias: illaun-spells
 
 :   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
 
-|          Components          | Lvl |  Type  | Rank | Ship | Dist. |
-|:----------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 100 auras, 5 permanent auras |  9  | Normal |  5   |      |       |
+|         Components         | Lvl |  Type  | Rank | Ship | Dist. |
+|:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 100 aura, 5 permanent aura |  9  | Normal |  5   |      |       |
 
 `CAST "Summon Familiar"`  
 
@@ -251,9 +251,9 @@ alias: illaun-spells
 
 :   This spell allows the Dreamer to disrupt the sleep of all non-allied units (`HELP GUARD`) in the region to such an extent that they temporarily lose some of their memories.
 
-| Components | Lvl |  Type  | Rank | Ship |       Dist.        |
-|:----------:|:---:|:------:|:----:|:----:|:------------------:|
-|  90 auras  | 10  | Normal |  5   |      | :heavy_check_mark: |
+| Components | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
+|  90 aura   | 10  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schlechte Träume"`  
 
@@ -266,9 +266,9 @@ alias: illaun-spells
     if magic resistance is broken, a victim permanently loses part of their memories.  
     If it falls victim to this spell too often, it can die.
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x T auras | 11  | Pre-c. |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x T aura | 11  | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
@@ -280,9 +280,9 @@ alias: illaun-spells
     The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else.  
     Most of the time they regret it a few weeks later...
 
-| Components  | Lvl |  Type  | Rank | Ship | Dist. |
-|:-----------:|:---:|:------:|:----:|:----:|:-----:|
-| 5 x T auras | 12  | Normal |  5   |      |       |
+| Components | Lvl |  Type  | Rank | Ship | Dist. |
+|:----------:|:---:|:------:|:----:|:----:|:-----:|
+| 5 x T aura | 12  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
@@ -293,9 +293,9 @@ alias: illaun-spells
 :   With this spell the magician can create a sphere of invisibility.  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
-|                 Components                  | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:-------------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 150 auras, 30 000 silver, 3 permanent auras | 13  | Normal |  5   | :heavy_check_mark: |       |
+|                Components                 | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:-----------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 150 aura, 30 000 silver, 3 permanent aura | 13  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -306,9 +306,9 @@ alias: illaun-spells
 :   "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.  
     And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
 
-|                          Components                          | Lvl |  Type  | Rank |        Ship        | Dist. |
-|:------------------------------------------------------------:|:---:|:------:|:----:|:------------------:|:-----:|
-| 100 auras, 1 [berserkers blood], 1 [sword], 1 permanent aura | 12  | Normal |  5   | :heavy_check_mark: |       |
+|                         Components                          | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:-----------------------------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 100 aura, 1 [berserkers blood], 1 [sword], 1 permanent aura | 12  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Flaming Sword"`  
 

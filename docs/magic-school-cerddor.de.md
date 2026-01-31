@@ -23,9 +23,9 @@ alias: cerddorzauber
 :   Cerddormagier sind die führenden Gaukler unter den Magiern, sie lieben es das Volk zu unterhalten und im Mittelpunkt zu stehen.  
     Schon Anfänger lernen die kleinen Kunststücke und magischen Tricks, mit denen man das Volk locken und verführen kann, den Geldbeutel ganz weit zu öffnen, und am Ende der Woche wird der Gaukler 50 Silber pro Stufe verdient haben.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Gaukeleien`  
 
@@ -36,9 +36,9 @@ alias: cerddorzauber
 :   Dieser fröhliche Gesang wird sich wie ein Gerücht in der Region ausbreiten und alle Welt in Feierlaune versetzen.  
     Überall werden Tavernen und Theater gut gefüllt sein und selbst die Bettler satt werden.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 2 x T aura  |   2   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 2 x T aura  |   2   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Hohes Lied der Gaukelei'`  
 
@@ -73,9 +73,9 @@ alias: cerddorzauber
 :   Dieses uralte Tanzritual ruft die Kräfte des Lebens und der Fruchtbarkeit.  
     Die Erträge der Bauern werden für einige Wochen deutlich besser ausfallen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-|   T aura    |   3   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|   T aura    |   3   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Regentanz`  
 
@@ -132,9 +132,9 @@ alias: cerddorzauber
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   2 aura    |   5   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   2 aura    |   5   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Gesang des Auratransfers' <Einheit-Nr> <Aura>`  
 
@@ -146,9 +146,9 @@ alias: cerddorzauber
     Dieser Gesang hilft, jene Veränderungen im Lebenslied einer Person zu erlauschen, welche magischer Natur sind.  
     Alle Verzauberungen, die nicht stärker maskiert sind als Eure Fähigkeit, werdet Ihr so entschlüsseln und demaskieren können.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   10 aura   |   5   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   10 aura   |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Gesang des Lebens analysieren' <Einheit-Nr>`  
 
@@ -171,9 +171,9 @@ alias: cerddorzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
@@ -183,9 +183,9 @@ alias: cerddorzauber
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
 
@@ -206,9 +206,9 @@ alias: cerddorzauber
     Es wird von Angriffen auf den Magier absehen und auch seine Begleiter nicht anrühren.  
     Doch sollte man sich nicht täuschen, es wird dennoch ein unberechenbares Wesen bleiben.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   15 aura   |   6   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   15 aura   |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Monster friedlich stimmen' <Einheit-Nr>`  
 
@@ -276,9 +276,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Jede Verzauberung beeinflußt das Lebenslied, schwächt und verzerrt es.  
     Der kundige Barde kann versuchen, das Lebenslied aufzufangen und zu verstärken und die Veränderungen aus dem Lied zu tilgen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 5 x T aura  |   8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 5 x T aura  |   8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Lebenslied festigen' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -287,9 +287,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Wie Lebewesen, so haben auch Schiffe und Gebäude und sogar Regionen ihr eigenes Lied, wenn auch viel schwächer und schwerer zu hören.  
     Und so, wie aus dem Lebenslied einer Person erkannt werden kann, ob diese unter einem Zauber steht, so ist dies auch bei Burgen, Schiffen oder Regionen möglich.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 3 x T aura  |   8   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 3 x T aura  |   8   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Lied des Ortes analysieren' ( REGION | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -305,9 +305,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Der das Ritual leitende Magier muss für die permanente Bindung des Aufnahmewilligen an seine Partei naturgemäß auch permanente Aura aufwenden.  
     Pro Stufe und pro 1 permanente Aura kann er eine Person aufnehmen.  
 
-|          Komponenten           | Stufe |  Art   | Rang | Schiff | Fern. |
-|:------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 3 x T aura, T permanente auras |   9   | Normal |  5   |        |       |
+|          Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
+|:-----------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 3 x T aura, T permanente aura |   9   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Ritual der Aufnahme' <Einheit-Nr>`  
 
@@ -315,9 +315,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 100 aura, 5 permanente auras |   9   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 100 aura, 5 permanente aura |   9   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
 
@@ -329,9 +329,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Nach wie vielen Wochen der Gesang aus dem Gedächtnis der Region entschwunden ist, ist von dem Geschick des Barden abhängig.  
     Bis das Lied ganz verklungen ist, wird seine Magie allen Verbündeten des Barden (HELFE BEWACHE), und natürlich auch seinen eigenem Volk, einen einmaligen Bonus von 15% auf die natürliche Widerstandskraft gegen eine Verzauberung verleihen.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 2 x T aura  |  10   | Normal |  2   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 2 x T aura  |  10   | Normal |  2   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des wachen Geistes'`  
 
@@ -355,9 +355,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Mit diesem Gesang verbreitet der Barde eine melancholische, traurige Stimmung unter den Bauern.  
     Einige Wochen lang werden sie sich in ihre Hütten zurückziehen und kein Silber in den Theatern und Tavernen lassen.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|   40 aura   |  11   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+|   40 aura   |  11   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Gesang der Melancholie'`  
 
@@ -369,9 +369,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     (Das soll sie auch an anderer Stelle ausgenutzt haben, ihr Ruf als Falschspielerin war berüchtigt).  
     Handwerker können somit das zehnfache produzieren, und bei einigen anderen Tätigkeiten könnte dies ebenfalls von Nutzen sein.  
 
-|               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 20 aura, 1 000 silber, 1 permanente aura |  11   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 20 aura, 1 000 silber, 1 permanente aura |  11   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Miriams flinke Finger'`  
 
@@ -394,9 +394,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Dieses Lied, das in die magische Essenz der Region gewoben wird, schwächt die natürliche Widerstandskraft gegen eine Verzauberung einmalig um 15%.  
     Nur die Verbündeten des Barden (HELFE BEWACHE) sind gegen die Wirkung des Gesangs gefeit.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 2 x T aura  |  12   | Normal |  2   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 2 x T aura  |  12   | Normal |  2   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des schwachen Geistes'`  
 
@@ -417,10 +417,14 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 ### Hohe Kunst der Überzeugung
 
-:   Aus 'Wanderungen' von Firudin dem Weisen: 'In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist.  
-    Niemanden bekannt ist, das dieser Hof bis vor einigen Jahren die Bleibe des verbannten Wanderpredigers Grauwolf war.  
-    Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesammte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.  
-    Nur zögerlich war er bereit mir das Geheimnis seiner Überzeugungskraft zu lehren.'  
+<div class="lore-dialogue">
+"In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist.  
+Niemanden bekannt ist, das dieser Hof bis vor einigen Jahren die Bleibe des verbannten Wanderpredigers Grauwolf war.  
+Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesammte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.  
+Nur zögerlich war er bereit mir das Geheimnis seiner Überzeugungskraft zu lehren."
+</div>
+
+Aus 'Wanderungen' von Firudin dem Weisen.  
 
 | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
 |:-----------:|:-----:|:------:|:----:|:------:|:-----:|
@@ -435,9 +439,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Mit Hilfe dieses magischen Gesangs kann der Magier eine Region in Aufruhr wieder beruhigen.  
     Die Bauernhorden werden sich verlaufen und wieder auf ihre Felder zurückkehren.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|   30 aura   |  15   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+|   30 aura   |  15   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Aufruhr beschwichtigen'`  
 
@@ -449,9 +453,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Rebellierende Bauernhorden machen jedes Besteuern unmöglich, kaum jemand wird mehr für Gaukeleien Geld spenden und es können keine neuen Leute angeworben werden.  
     Nach einigen Wochen beruhigt sich der Mob wieder.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-|   40 aura   |  16   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+|   40 aura   |  16   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Aufruhr verursachen'`  
 
@@ -460,3 +464,13 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
 [knotiger saugwurz]: ./herbs.md#knotiger-saugwurz
+
+[berserkerblut]: ./alchemy.md#berserkerblut
+[schwert]: ./war-tables.md#schwert
+[holz]: ./resources.md#holz
+[eisen]: ./resources.md#eisen
+[stein]: ./resources.md#stein
+[öl]: ./silver.md#ol
+[knotiger saugwurz]: ./herbs.md#knotiger-saugwurz
+[wasser des lebens]: ./alchemy.md#wasser-des-lebens
+[schneekristall]: ./herbs.md#schneekristall

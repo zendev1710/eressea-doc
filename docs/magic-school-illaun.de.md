@@ -22,9 +22,9 @@ alias: illaunzauber
 
 :   Der Zauberer sendet dem Ziel des Spruches einen Traum.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Traumsenden <Einheit-Nr>`  
 
@@ -34,9 +34,9 @@ alias: illaunzauber
     Auch die Kunst der Wahrsagerei, des Kartenlegens und des Handlesens sind ihm geläufig.  
     Dafür zahlen ihm die Bauern 50 Silber pro Stufe.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Wahrsagen`  
 
@@ -82,9 +82,9 @@ alias: illaunzauber
 
 :   Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   2 aura    |   3   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   2 aura    |   3   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Traum der Magie' <Einheit-Nr> <Aura>`  
 
@@ -117,9 +117,9 @@ alias: illaunzauber
 
 :   Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|   8 aura    |   4   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|   8 aura    |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Traumlesen <Einheit-Nr>`  
 
@@ -131,9 +131,9 @@ alias: illaunzauber
     Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können.  
     Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   25 aura   |   5   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   25 aura   |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Traumbilder analysieren' <Einheit-Nr>`  
 
@@ -157,9 +157,9 @@ alias: illaunzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
@@ -169,9 +169,9 @@ alias: illaunzauber
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
 
@@ -180,9 +180,9 @@ alias: illaunzauber
 :   Dieser Zauber führt in der betroffenen Region für einige Wochen zu Schlaflosigkeit und Unruhe.  
     Den Betroffenen fällt das Lernen deutlich schwerer.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|   18 aura   |   6   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|   18 aura   |   6   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Schlechter Schlaf'`  
 
@@ -216,9 +216,9 @@ alias: illaunzauber
 
 :   Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|   80 aura   |   8   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|   80 aura   |   8   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Schöne Träume'`  
 
@@ -226,9 +226,9 @@ alias: illaunzauber
 
 :   Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-------------------|
-| 6 x T aura  |   8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+| 6 x T aura  |   8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Traumbilder entwirren' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -238,9 +238,9 @@ alias: illaunzauber
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:------|
-| 100 aura, 5 permanente auras |   9   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:------|
+| 100 aura, 5 permanente aura |   9   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
 
@@ -250,9 +250,9 @@ alias: illaunzauber
 
 :   Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELFE BEWACHE) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|   90 aura   |  10   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|   90 aura   |  10   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Schlechte Träume'`  
 
@@ -291,9 +291,9 @@ alias: illaunzauber
 :   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
     Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
 
-|                Komponenten                 | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 150 aura, 30000 silber, 3 permanente auras |  13   | Normal |  5   | :heavy_check_mark: |       |
+|                Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 150 aura, 30000 silber, 3 permanente aura |  13   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe eine Sphäre der Unsichtbarkeit'`  
 
@@ -306,9 +306,9 @@ alias: illaunzauber
     Dies kann dem Anwender einen großen Vorteil im kommenden Kampf geben.  
     Aber Vorsicht: Die Interpretation von Träumen ist eine schwierige Angelegenheit.  
 
-|              Komponenten              | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 1 [[drachenkopf]], 5 permanente auras |  14   | Normal |  5   | :heavy_check_mark: |       |
+|             Komponenten              | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 1 [[drachenkopf]], 5 permanente aura |  14   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Traumauge'`  
 

@@ -29,7 +29,9 @@ Le résultat en retour de l'ordre sera un message indiquant la quantité de plan
 Attention, les plantes ne durent pas éternellement.  
 Elles se décomposent au fil du temps.  
 
-## Amour d'Elfes
+## Liste des plantes
+
+### Amour d'Elfes
 
 <!-- cspell:disable -->
 *Elvendear (EN), Elfenlieb (DE)*.
@@ -37,7 +39,7 @@ Elles se décomposent au fil du temps.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Bégonia des glaces
+### Bégonia des glaces
 
 <!-- cspell:disable -->
 *Ice begonia (EN), Eisblume (DE)*.
@@ -45,7 +47,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse uniquement sur les glaciers.
 
-## Champignon cobalt
+### Champignon cobalt
 
 <!-- cspell:disable -->
 *Cobalt fungus (EN), Blauer Baumringel (DE)*.
@@ -53,7 +55,7 @@ Cette plante pousse uniquement sur les glaciers.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Champignon des fjords
+### Champignon des fjords
 
 <!-- cspell:disable -->
 *Fjord fungus (EN), Fjordwuchs (DE)*.
@@ -61,7 +63,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse uniquement dans les highlands.
 
-## Tamaris
+### Tamaris
 
 <!-- cspell:disable -->
 *Waterfinder (EN), Wasserfinder (DE)*.
@@ -69,7 +71,7 @@ Cette plante pousse uniquement dans les highlands.
 
 Cette plante indicatrice d’humidité en milieu aride pousse uniquement dans le désert.
 
-## Cire fissurée
+### Cire fissurée
 
 <!-- cspell:disable -->
 *gapgrowth (EN), Spaltwachs (DE)*.
@@ -77,7 +79,7 @@ Cette plante indicatrice d’humidité en milieu aride pousse uniquement dans le
 
 Cette plante pousse uniquement dans les montagnes.
 
-## Gousse
+### Gousse
 
 <!-- cspell:disable -->
 *Windbag (EN), Windbeutel (DE)*.
@@ -85,7 +87,7 @@ Cette plante pousse uniquement dans les montagnes.
 
 Cette plante pousse uniquement dans les highlands
 
-## Herbe de clairon
+### Herbe de clairon
 
 <!-- cspell:disable -->
 *Bugleweed (EN), Gurgelkraut (DE)*.
@@ -93,7 +95,7 @@ Cette plante pousse uniquement dans les highlands
 
 Cette plante pousse uniquement dans les marais.
 
-## Herbe de roche
+### Herbe de roche
 
 <!-- cspell:disable -->
 *Rock weed (EN), Steinbeißer (DE)*.
@@ -101,7 +103,7 @@ Cette plante pousse uniquement dans les marais.
 
 Cette plante pousse uniquement dans les montagnes.
 
-## Lichen des cavernes
+### Lichen des cavernes
 
 <!-- cspell:disable -->
 *Cave lichen (EN), Höhlenglimm (DE)*.
@@ -109,7 +111,7 @@ Cette plante pousse uniquement dans les montagnes.
 
 Cette plante pousse uniquement dans les montagnes.
 
-## Lierre d'araignée
+### Lierre d'araignée
 
 <!-- cspell:disable -->
 *Spider ivy (EN), Grüner Spinnerich (DE)*.
@@ -117,7 +119,7 @@ Cette plante pousse uniquement dans les montagnes.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Mandragore
+### Mandragore
 
 <!-- cspell:disable -->
 *Mandrake (EN), Alraune (DE)*.
@@ -125,7 +127,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse uniquement dans les highlands.
 
-## Morille
+### Morille
 
 <!-- cspell:disable -->
 *Bubblemorel (EN), Blasenmorchel (DE)*.
@@ -133,7 +135,7 @@ Cette plante pousse uniquement dans les highlands.
 
 Cette plante pousse uniquement dans les marais.
 
-## Œil de chouette
+### Œil de chouette
 
 <!-- cspell:disable -->
 *owlsgaze (EN), Eulenauge (DE)*.
@@ -141,7 +143,15 @@ Cette plante pousse uniquement dans les marais.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Pétale de cristal de neige
+### Peyote
+
+<!-- cspell:disable -->
+*Peyote (EN), Kakteenschwitz (DE)*.
+<!-- cspell:enable -->
+
+Ce petit cactus sans épines qui pousse uniquement dans le désert.
+
+### Pétale de cristal de neige
 
 <!-- cspell:disable -->
 *Snowcrystal petal (EN), Schneekristall (DE)*.
@@ -149,7 +159,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse uniquement sur les glaciers.
 
-## Pourriture de sable
+### Pourriture de sable
 
 <!-- cspell:disable -->
 *Sand reeker (EN), Sandfäule (DE)*.
@@ -157,7 +167,7 @@ Cette plante pousse uniquement sur les glaciers.
 
 Cette plante pousse uniquement dans le désert.
 
-## Racine de nœud
+### Racine de nœud
 
 <!-- cspell:disable -->
 *Knotroot (EN), Knotiger Saugwurz (DE)*.
@@ -165,7 +175,7 @@ Cette plante pousse uniquement dans le désert.
 
 Cette plante pousse uniquement dans les marais.
 
-## Racine plate
+### Racine plate
 
 <!-- cspell:disable -->
 *Flatroot (EN), Flachwurz (DE)*.
@@ -173,7 +183,7 @@ Cette plante pousse uniquement dans les marais.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Témérité piquante
+### Témérité piquante
 
 <!-- cspell:disable -->
 *Tangy temerity (EN), Würziger Wagemut (DE)*.
@@ -181,7 +191,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse dans les forêts et les plaines.
 
-## Tsugas blancs
+### Tsugas blancs
 
 <!-- cspell:disable -->
 *White hemlocks (EN), Weißer Wüterich (DE)*.
@@ -189,7 +199,7 @@ Cette plante pousse dans les forêts et les plaines.
 
 Cette plante pousse uniquement sur les glaciers.
 
-## Liste des plantes
+## Plantes - Synthèse
 
 <!-- TODO: remove one of the duplicate information with potions-and-herbs.md -->
 
@@ -210,4 +220,4 @@ Poursuivre la lecture : [[ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
 
-[herboristerie]: ./skills-list.md#herboristerie
+[herboristerie]: ./skills-list.md#herboristerie "Herbalism"

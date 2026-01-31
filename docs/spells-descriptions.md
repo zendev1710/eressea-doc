@@ -10,9 +10,9 @@ alias: description-of-spells
 
 :   This spell speeds up some fighters on your side so that they can attack twice in one combat round throughout the entire combat.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 5 x T auras |   9 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 5 x T aura |   9 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
@@ -20,9 +20,9 @@ alias: description-of-spells
 
 :   Invoking the Elemental Spirits of Wind conjures up sudden gusts of wind, small gusts of wind, and vents that will hinder opposing archers.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | 2 x T auras |   4 | Pre-c. |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  G  | 2 x T aura |   4 | Pre-c. |  5   | :material-check:{ .success } |       |
 
 `COMBATSPELL [LEVEL n] "Air Shield"`  
 
@@ -32,9 +32,9 @@ alias: description-of-spells
 This can then also be used to cross land.  
 For the color of the runes, a special ink must be mixed from a cream puff and a snow crystal.
 
-| Sc. | Components                                           | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 10 auras, 1 [gousse], 1 [pétale de cristal de neige] |   6 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                                          | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-----------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 10 aura, 1 [gousse], 1 [pétale de cristal de neige] |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST Airship <ship-id>`  
 
@@ -43,9 +43,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear.  
     And just as you can tell from a person"s life song whether they are under a spell, this is also possible with castles, ships or regions.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 3 x T auras |   8 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 3 x T aura |   8 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -55,9 +55,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
     With stronger spells he needs a little luck for a successful analysis.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | 25 auras   |   5 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 25 aura    |   5 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyse Dreams" <unit-id>`  
 
@@ -67,9 +67,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
     With stronger spells he needs a little luck for a successful analysis.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -81,9 +81,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     This chant helps to hear those changes in a person"s life song that are magical in nature.  
     You will be able to decipher and unmask all enchantments that are not more masked than your ability.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 10 auras   |   5 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 10 aura    |   5 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
@@ -92,9 +92,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   The black magician has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses.  
     The undead will be at his service, but the uninformed be warned that summoning the forces of death can be a double-edged sword.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  D  | 5 x T auras |   6 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  D  | 5 x T aura |   6 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
@@ -104,9 +104,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     This zone will strive to return to equilibrium.  
     To do this, it will remove part of the strength of every spell cast in this region and even completely absorb the weaker ones.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  T  | 3 x T auras |   5 | Normal |  2   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  T  | 3 x T aura |   5 | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
@@ -118,7 +118,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 auras    |   1 | Pre-c. |  5   |      |       |
+|  C  | 2 aura     |   1 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
@@ -128,9 +128,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual, which can be cast before battle, gives your troops an additional bonus to their armor.  
     Each hit reduces the spell"s power, so the shield will dissipate at some point in the fight.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 4 x T auras |  12 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Armor Shield"`  
 
@@ -140,9 +140,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The magician can (level 3)*Send 15 kg through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x T auras |   6 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 2 x T aura |   6 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -150,9 +150,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 6 x T auras |   9 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 6 x T aura |   9 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
@@ -162,9 +162,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     He can overall (Level-3)*Send 15 kg through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x T auras |   4 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 2 x T aura |   4 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -173,9 +173,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual summons some elemental spirits of magic and sends them into the ranks of the enemy mages.  
     These will find it much more difficult to cast spells for the duration of the fight.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 5 x T aura |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
@@ -184,9 +184,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.  
     All magically gifted people in the region will lose much of their aura.
 
-| Sc. | Components                  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 35 auras, 1 [[dragonblood]] |   9 | Normal |  3   |      |       |
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 35 aura, 1 [[dragonblood]] |   9 | Normal |  3   |      |       |
 
 `CAST "Astral Leak"`  
 
@@ -196,9 +196,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The magician can (level 3)*Send 15 kg through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x T auras |   4 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 2 x T aura |   4 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
@@ -207,9 +207,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With the help of this magical chant, the magician can calm a region in turmoil.  
     The hordes of farmers will get lost and return to their fields.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 30 auras   |  15 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 30 aura    |  15 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
@@ -219,9 +219,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Rebellious hordes of farmers make any taxation impossible, hardly anyone will donate money to scams anymore and no new people can be recruited.  
     After a few weeks the mob calms down again.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 40 auras   |  16 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 40 aura    |  16 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr verursachen"`  
 
@@ -230,9 +230,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 6 x T auras |  10 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 6 x T aura |  10 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Awakening of the Ents"`  
 
@@ -244,9 +244,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The magician conjures and banishes these into a form to achieve the desired effect.  
     This ritual is able to drive away elemental spirits that have been summoned into this world in order to free an object from magic.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | 6 x T auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  G  | 6 x T aura |   8 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -257,9 +257,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The strength of the summoned elemental depends on the skill of the magician: the elemental can do maximum[Level-12]*Move 250 size units buildings.  
     The building will not survive this procedure unscathed.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  T  | 10 x T auras, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
+| Sc. | Components                              | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------------------------|----:|-------:|:----:|:-----|:------|
+|  T  | 10 x T aura, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
 
@@ -270,9 +270,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     In battle, shadow masters are feared opponents.  
     They are difficult to hit and drain their opponent"s strength and life.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 7 x T auras |  12 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 7 x T aura |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
@@ -283,7 +283,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | 10 auras   |   4 | Normal |  5   |      |       |
+|  C  | 10 aura    |   4 | Normal |  5   |      |       |
 
 `CAST Blabbermouth <unit-id>`  
 
@@ -292,9 +292,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This harvest ritual improves the yields of working farmers in the region by one piece of silver.  
     The more power the druid invests, the longer the spell lasts.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | T auras    |   1 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  G  | T aura     |   1 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
@@ -304,7 +304,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 40 auras   |  10 | Normal |  5   |      |       |
+|  T  | 40 aura    |  10 | Normal |  5   |      |       |
 
 `CAST "Blick in die Realität"`  
 
@@ -313,9 +313,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   In this bloody ritual, the magician sacrifices a newborn baby in front of his army before battle.  
     The blood spirits summoned in this way will take possession of the soldiers and send them into a bloodlust.
 
-| Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 5 x T auras, 1 paysan |   5 | Pre-c. |  4   |      |       |
+| Sc. | Components           | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 5 x T aura, 1 paysan |   5 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
@@ -326,9 +326,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   A magician who is in the material world can use this spell to summon units from the adjacent Astral world.  
     If the magician is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 2 x T auras |   6 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 2 x T aura |   6 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
@@ -338,9 +338,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     It will refrain from attacking the magician and will not touch its companions.  
     But make no mistake, it will still remain an unpredictable creature.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 15 auras   |   6 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 15 aura    |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Calm Monster" <unit-id>`  
 
@@ -352,7 +352,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | 3 auras    |   3 | Normal |  5   |      |       |
+|  I  | 3 aura     |   3 | Normal |  5   |      |       |
 
 `CAST "Castle of Illusion" <Gebäudetyp>`  
 
@@ -365,7 +365,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  G  | T auras    |   5 | Post-c. |  5   |      |       |
+|  G  | T aura     |   5 | Post-c. |  5   |      |       |
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
@@ -374,9 +374,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This insidious curse significantly impairs the victim"s magical abilities.  
     A chaos magic zone around the victim reduces his ability to concentrate and makes it very difficult for him to cast spells.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 4 x T auras |   5 | Normal |  4   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 4 x T aura |   5 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
@@ -385,9 +385,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   The magician opens his mind to the spheres of chaos and will thus have more magical power for some time.  
     But the help of the Lords of the Spheres comes at a price, and so the phase of power is replaced by a phase of weakness.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | 6 auras    |   3 | Normal |  3   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 6 aura     |   3 | Normal |  3   | :material-check:{ .success } |       |
 
 `CAST "Chaos Gift"`  
 
@@ -396,9 +396,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   By sacrificing 200 farmers, the chaos magician can open a gate to the Astral world.  
     The gate can be used the following week, it dissolves at the end of the following week.
 
-| Sc. | Components             | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 150 auras, 200 paysans |  14 | Normal |  5   |      |       |
+| Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 150 aura, 200 paysans |  14 | Normal |  5   |      |       |
 
 `CAST Chaossog`  
 
@@ -406,9 +406,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell will obscure all of the target unit"s equipment from view for a period of time.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
@@ -417,9 +417,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This shrill chant echoes throughout the battlefield.  
     The special dissonances in the melodies make it almost impossible for magicians to concentrate on their spells.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 5 x T aura |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
 
@@ -430,9 +430,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     It is also not possible to transport one magic bag in another.  
     The bag itself weighs 1 kg.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 30 auras, 1 permanent aura, 5 000 silver |  10 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 30 aura, 1 permanent aura, 5 000 silver |  10 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
@@ -441,9 +441,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This magical artifact grants the wearer the strength of a full-grown cave troll.  
     Its carrying capacity increases 50 times and the increased strength and troll-tough skin will also have a positive effect in combat.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | 20 auras, 1 permanent aura |   9 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|---------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 20 aura, 1 permanent aura |   9 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Belt of Troll Strength"`  
 
@@ -454,20 +454,22 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     This can give the user a huge advantage in the upcoming battle.  
     But be careful: interpreting dreams is a difficult matter.
 
-| Sc. | Components                            | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|---------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | 1 [tête de dragon], 5 permanent auras |  14 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                           | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|--------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 1 [tête de dragon], 5 permanent aura |  14 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A DreamEye"`  
 
 ### Create a [[flaming-sword]]
 
-:   "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.  
-    And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
+<div class="lore-dialogue">
+"And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.
+And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
+</div>
 
-| Sc. | Components                                                   | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|--------------------------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | 100 auras, 1 [berserkers blood], 1 [sword], 1 permanent aura |  12 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                                                  | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-------------------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 100 aura, 1 [berserkers blood], 1 [sword], 1 permanent aura |  12 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -476,9 +478,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material.  
     He now uses the leather prepared in this way to make a small bag that can better preserve the herbs stored in it.
 
-| Sc. | Components                                    | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-----------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | 30 auras, 1 permanent aura, 1 [water of life] |   5 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                                   | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  G  | 30 aura, 1 permanent aura, 1 [water of life] |   5 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -487,9 +489,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This powerful ritual creates a ring of power.  
     A ring of power increases the power of any spell its wearer casts, as if the mage were one level better.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 100 auras, 1 permanent aura, 4000 silver |   9 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 100 aura, 1 permanent aura, 4000 silver |   9 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Power"`  
 
@@ -499,9 +501,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
-|  Sc.   | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|:------:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| \*[^1] | 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+|  Sc.   | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
+|:------:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+| \*[^1] | 50 aura, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -510,9 +512,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this spell the magician can create a sphere of invisibility.  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
-| Sc. | Components                                  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|---------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | 150 auras, 30 000 silver, 3 permanent auras |  13 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                                | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 150 aura, 30 000 silver, 3 permanent aura |  13 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -522,9 +524,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-|  Sc.   | Components                               | Lvl |   Type | Rank | Ship               | Dist. |
-|:------:|------------------------------------------|----:|-------:|:----:|:-------------------|:------|
-| \*[^1] | 50 auras, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :heavy_check_mark: |       |
+|  Sc.   | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
+|:------:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+| \*[^1] | 50 aura, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -533,9 +535,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
 
-| Sc. | Components             | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 50 auras, 3 000 silver |   7 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components            | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-----------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 50 aura, 3 000 silver |   7 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Antimagic Crystal"`  
 
@@ -545,23 +547,26 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Each golem has a 15 percent chance of turning to dust each round.  
     If you give the golems the order `MAKE  Sword | Claymore` or `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 iron bars are installed per golem and the golem dissolves.
 
-| Sc. | Components                                | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T auras, T [irons], 1 [water of life] |   2 | Normal |  4   |      |       |
+| Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura, T [irons], 1 [water of life] |   2 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
 ### Create [[stone-golem|Stone Golems]]
 
-:   Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock.  
-    Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength.  
-    The more power the magician invests, the more golems can be created before the aura dissipates.  
+<div class="lore-dialogue">
+"Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock.
+Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength."
+</div>
+
+:   The more power the magician invests, the more golems can be created before the aura dissipates.  
     Each golem has a 10 percent chance of turning to dust each round.  
     If you give the golems the `MAKE CASTLE` or `MAKE STREET` orders, 4 stones are placed per golem and the golem dissolves.
 
-| Sc. | Components                                        | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|---------------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T auras, T [stones][stone], 1 [water of life] |   1 | Normal |  4   |      |       |
+| Sc. | Components                                       | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|--------------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura, T [stones][stone], 1 [water of life] |   1 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -569,9 +574,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   In an elaborate ritual, the black magician sacrifices some peasants and then magically distributes the corpses into the region"s wells.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 4 x T auras |   5 | Normal |  4   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 4 x T aura |   5 | Normal |  4   |      |       |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
@@ -581,9 +586,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  T  | 4 x T auras |   5 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  T  | 4 x T aura |   5 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -593,9 +598,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     He is also familiar with the art of fortune telling, card reading and palm reading.  
     In return, the farmers pay him 50 silver per level.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Divination`  
 
@@ -606,9 +611,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|----------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  D  | 80 auras, 1 [[dragonhead]] |  11 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|---------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  D  | 80 aura, 1 [[dragonhead]] |  11 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] *Dragon Call`  
 
@@ -616,9 +621,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   With the help of this spell, the dream weaver can transfer his own aura to another dream weaver at a ratio of 2:1.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | 2 auras    |   3 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 2 aura     |   3 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Dream of Magic" <unit-id> <Aura>`  
 
@@ -626,9 +631,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   The magician sends the target of the spell a dream.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  I  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
@@ -639,9 +644,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings.  
     Such a solid warrior will not flee even in difficult situations and his considered behavior will give him many an advantage in defense.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x T auras |   5 | Pre-c. |  4   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 2 x T aura |   5 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
@@ -651,9 +656,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Approximately 50 souls will find peace per level of the spell.  
     The spell cannot redeem the living dead who have already been resurrected because their ties to this world are too strong.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 5 x T aura |   3 | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -662,9 +667,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this formula, the magician binds the forces of the earth into the walls of the building forever.  
     A building enchanted in this way is protected against the ravages of time and no longer requires any maintenance.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 50 auras, 1 permanent aura |   7 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|---------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 50 aura, 1 permanent aura |   7 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
@@ -675,9 +680,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This elemental invocation summons a fire devil, a creature from the deepest reaches of the flaming hells.  
     The fire devil will eagerly pounce on the region"s forests and set them ablaze.
 
-| Sc. | Components          | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|---------------------|----:|-------:|:----:|:-----|:-------------------|
-|  D  | 50 auras, 1 [huile] |  10 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components         | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|--------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  D  | 50 aura, 1 [huile] |  10 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -688,7 +693,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  D  | T auras    |   2 | Combat |  5   |      |       |
+|  D  | T aura     |   2 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Fireball`  
 
@@ -697,9 +702,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   The wizard creates a wall of fire in the specified direction.
     It hurts everyone who walks through it.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 6 x T auras |   7 | Normal |  4   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 6 x T aura |   7 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
 
@@ -710,9 +715,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The saying works on a level*10 insects.  
     A Ring of Power increases the number of enchantable insects by an additional 10.
 
-|  Sc.   | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:------:|-------------|----:|-------:|:----:|:-------------------|:------|
-| \*[^1] | 2 x T auras |   3 | Normal |  5   | :heavy_check_mark: |       |
+|  Sc.   | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:------:|------------|----:|-------:|:----:|:-----------------------------|:------|
+| \*[^1] | 2 x T aura |   3 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
@@ -725,7 +730,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | T auras    |   8 | Combat |  5   |      |       |
+|  G  | T aura     |   8 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
@@ -735,9 +740,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     No one in the entire region is capable of taking up arms against anyone.  
     The effects can last for several weeks.
 
-| Sc. | Components   | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|--------------|----:|-------:|:----:|:-----|:------|
-|  C  | 20 x T auras |  12 | Normal |  5   |      |       |
+| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-------------|----:|-------:|:----:|:-----|:------|
+|  C  | 20 x T aura |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
@@ -746,9 +751,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this song the bard spreads a melancholic, sad mood among the farmers.  
     For a few weeks they will retreat to their huts and leave no silver in the theaters and taverns.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 40 auras   |  11 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 40 aura    |  11 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Gesang der Melancholie"`  
 
@@ -759,7 +764,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | 40 auras   |  13 | Normal |  5   |      |       |
+|  C  | 40 aura    |  13 | Normal |  5   |      |       |
 
 `CAST "Gesang der Versklavung" <unit-id>`  
 
@@ -768,9 +773,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   Woven into the magical essence of the region, this song weakens one"s natural resistance to an enchantment by 15% once.  
     Only the bard"s allies (HELP GUARD) are immune to the effect of the song.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 2 x T auras |  12 | Normal |  2   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 2 x T aura |  12 | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
@@ -780,9 +785,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     How many weeks the song disappears from the memory of the region depends on the skill of the bard.  
     Until the song has completely faded away, his magic will grant all of the bard"s allies (HELP GUARD), and of course his own people, a one-time bonus of 15% to the natural resistance to an enchantment.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  C  | 2 x T auras |  10 | Normal |  2   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 2 x T aura |  10 | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
@@ -790,9 +795,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 4 x T auras, T [wood], 1 [water of life] |   2 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                              | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-----------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 4 x T aura, T [wood], 1 [water of life] |   2 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -805,7 +810,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | T auras    |   3 | Combat |  5   |      |       |
+|  G  | T aura     |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Hail`  
 
@@ -822,9 +827,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     And he will almost certainly have forgotten some of his best abilities for a few days, even up to two weeks, of study.  
     One more word of warning: This is very time-consuming, and if you wish to cast other spells in the same week, they will be more difficult for you.
 
-| Sc. | Components                        | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------------|----:|-------:|:----:|:-----|:------|
-|  C  | 28 auras, 3 [knotroot], 50 silver |   7 | Normal |  5   |      |       |
+| Sc. | Components                       | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------------------|----:|-------:|:----:|:-----|:------|
+|  C  | 28 aura, 3 [knotroot], 50 silver |   7 | Normal |  5   |      |       |
 
 `CAST Hangover <unit-id>`  
 
@@ -835,7 +840,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  G  | T auras    |   5 | Post-c. |  5   |      |       |
+|  G  | T aura     |   5 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Heal`  
 
@@ -845,7 +850,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  D  | T auras    |   1 | Normal |  5   |      |       |
+|  D  | T aura     |   1 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
@@ -856,23 +861,26 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Trees wither, animals die, and the harvest fails.  
     There is hardly any work to be found in agriculture for day laborers.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 600 auras  |  13 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 600 aura   |  13 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] Hitzeelementar`  
 
 ### Hohe Kunst der Überzeugung  <!-- TODO -->
 
-:   From "Wanderings" by Firudin the Wise:  
-    "In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.  
-    It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.  
-    After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.  
-    He was only hesitantly willing to teach me the secret of his persuasiveness."
+<div class="lore-dialogue">
+"In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.
+It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.
+After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.
+He was only hesitantly willing to teach me the secret of his persuasiveness."
+</div>
 
-| Sc. | Components   | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|--------------|----:|-------:|:----:|:-----|:------|
-|  C  | 20 x T auras |  14 | Normal |  5   |      |       |
+From "Wanderings" by Firudin the Wise.  
+
+| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-------------|----:|-------:|:----:|:-----|:------|
+|  C  | 20 x T aura |  14 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
@@ -882,9 +890,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Walls that have been strengthened in this way cannot be destroyed either by magic or with heavy artillery, and age also affects them less.  
     The building also offers better protection against attacks with swords and magic.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 50 auras, 1 permanent aura |   7 | Normal |  5   |      |       |
+| Sc. | Components                | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|---------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 50 aura, 1 permanent aura |   7 | Normal |  5   |      |       |
 
 `CAST Homestone`  
 
@@ -893,9 +901,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
 <!-- TODO: check values below -->
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 2 auras    |   5 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 2 aura     |   5 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
@@ -906,9 +914,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This spell causes insomnia and restlessness in the affected area for a few weeks.  
     Those affected find it much more difficult to learn.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  I  | 18 auras   |   6 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 18 aura    |   6 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] Insomnia`  
 
@@ -919,9 +927,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   Cerddor mages are the leading jugglers among the mages, they love to entertain the people and be the center of attention.  
     Even beginners learn the little tricks and magical tricks that can be used to lure and seduce people into opening their wallets very wide, and at the end of the week the juggler will have earned 50 silver per level.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Jugglery`  
 
@@ -934,9 +942,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     So it is written in the "Book of Blood": "So let He establish the sign of the four elements in the circle of creation and decay and consecrate each one with a drop of blood.  
     Then let He go into the midst of the Eternal Four and let life pass away so that strength can be born."
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | 16 PV      |   4 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 16 PV      |   4 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Lesser Sacrifice"`  
 
@@ -947,9 +955,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   In front of the enemy soldiers, the black magician sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops.  
     They will react confusedly in battle and be unable to follow the orders of their officers.
 
-| Sc. | Components             | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 3 x T auras, 10 Bauern |   8 | Pre-c. |  5   |      |       |
+| Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 3 x T aura, 10 Bauern |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
@@ -961,9 +969,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Even swamps and glaciers can be enchanted this way.  
     The more power the magician puts into the spell, the longer the road lasts.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|----------------------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  G  | T auras, 1 [stone], 1 bois |   4 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components                | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|---------------------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  G  | T aura, 1 [stone], 1 bois |   4 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
@@ -972,9 +980,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual summons a great water elemental from the depths of the ocean.  
     The elemental creates a massive whirlpool, a maelstrom, which can severely damage any ships that pass through it.
 
-| Sc. | Components                          | Lvl |   Type | Rank | Ship                   | Dist. |
-|:---:|-------------------------------------|----:|-------:|:----:|:-----------------------|:------|
-|  G  | 200 auras, 1 tête de serpent de mer |  15 | Normal |  5   | :heavy_check_mark:[^3] |       |
+| Sc. | Components                         | Lvl |   Type | Rank | Ship                             | Dist. |
+|:---:|------------------------------------|----:|-------:|:----:|:---------------------------------|:------|
+|  G  | 200 aura, 1 tête de serpent de mer |  15 | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST Mahlstrom`  
 
@@ -984,9 +992,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual increases the effect of the magical potion many times over.  
     Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 
-| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 6 x T auras, T [[mallorn]], 1 [water of life] |   4 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                                   | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|----------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 6 x T aura, T [[mallorn]], 1 [water of life] |   4 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Mallorn quarterstaff"`  
 
@@ -994,9 +1002,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | 2 auras    |   6 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  G  | 2 aura     |   6 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
 
@@ -1007,7 +1015,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | 20 auras   |   7 | Normal |  5   |      |       |
+|  I  | 20 aura    |   7 | Normal |  5   |      |       |
 
 `CAST "Mind Probe" <unit-id>`  
 
@@ -1018,9 +1026,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
     For this service, the magician earns 50 silver per level.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Minor Curses"`  
 
@@ -1032,9 +1040,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     It definitely helps the magician...fill his wallet.  
     You can earn 50 silver per level in a week.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | T auras    |   1 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
@@ -1046,9 +1054,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     She is said to have exploited this elsewhere as well; her reputation as a card cheat was notorious.  
     Craftsmen can thus produce ten times as much, and this could also be useful in some other activities.
 
-| Sc. | Components                              | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-----------------------------------------|----:|-------:|:----:|:-------------------|:------|
-|  C  | 20 auras, 1000 silver, 1 permanent aura |  11 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 20 aura, 1000 silver, 1 permanent aura |  11 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Miriams flinke Finger"`  
 
@@ -1058,9 +1066,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     However, the farmers will not leave their homeland and will not give away any of their possessions.  
     Each week some of the farmers will also cast off the spell and return to their fields. How many farmers join the magician depends on the power of his song.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 4 x T auras |  10 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 4 x T aura |  10 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
@@ -1069,9 +1077,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   Creates a guardian spirit that prevents iron and metal mining in glaciers and mountains by non-allied factions (`HELP GUARD`) as long as it guards the region.  
     The mountain guardian is bound to the location of the summoning.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 3 x T auras |   3 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 3 x T aura |   3 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
 
@@ -1081,9 +1089,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  T  | 3 x T auras |   7 | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  T  | 3 x T aura |   7 | Normal |  3   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
@@ -1096,7 +1104,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 100 auras  |  15 | Normal |  1   |      |       |
+|  T  | 100 aura   |  15 | Normal |  1   |      |       |
 
 `CAST "Opfere Kraft" <unit-id> <Aura>`  
 
@@ -1108,9 +1116,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The druid can collect this power and create a gateway into the world of spiritual beings.  
     The druid can then level*Send 5 units of weight through the gate.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 3 x T auras |   9 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 3 x T aura |   9 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
@@ -1120,9 +1128,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  
     The gentlemen will help him, but whether he succeeds in solving the spell depends solely on his own strength.
 
-| Sc. | Components   | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|--------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  D  | 10 x T auras |  10 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components  | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|-------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  D  | 10 x T aura |  10 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1131,9 +1139,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This spell places an antimagic field around enemy mages, significantly hindering their spell casting.  
     Only a few will have the strength to penetrate the field and aid their troops in battle.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 3 x T auras |   2 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 3 x T aura |   2 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
@@ -1144,9 +1152,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     If several protective spells are placed on top of each other, their effects are added together, but 100% protection cannot be achieved this way.  
     The spell lasts at least three weeks, but depending on the magician"s skill it can last much longer.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 20 auras   |   8 | Normal |  2   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 20 aura    |   8 | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
 
@@ -1157,9 +1165,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ancient dance ritual invokes the forces of life and fertility.  
     Farmers' yields will be significantly better for several weeks.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  C  | T auras    |   3 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  C  | T aura     |   3 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
@@ -1172,9 +1180,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Up to 10 iron weapons can be affected for each level.  
     A ring of power increases the effect like an additional level.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 2 x T auras |   3 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 2 x T aura |   3 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
@@ -1182,9 +1190,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell allows the Dreamweaver to enter a unit"s dreams to obtain a report on the surrounding area.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  I  | 8 auras    |   4 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 8 aura     |   4 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
@@ -1194,9 +1202,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     A unit protected in this way is also less vulnerable to combat magic.  
     Per level, the magician"s power is enough to protect 5 people.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x T auras |   3 | Normal |  2   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 5 x T aura |   3 | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
@@ -1208,7 +1216,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  I  | T auras    |   5 | Post-c. |  4   |      |       |
+|  I  | T aura     |   5 | Post-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
@@ -1217,9 +1225,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual, cast before battle, grants your troops an additional armor bonus.  
     Each hit reduces the spell's power, so the shield will eventually dissipate during the fight.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 4 x T auras |  12 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Rindenhaut`  
 
@@ -1232,9 +1240,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The magician leading the ritual must naturally expend aura permanently to ensure the permanent binding of the initiate to his faction.  
     He can accommodate one person per level and per permanent aura.
 
-| Sc. | Components                     | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|--------------------------------|----:|-------:|:----:|:-----|:------|
-|  C  | 3 x T auras, T permanent auras |   9 | Normal |  5   |      |       |
+| Sc. | Components                   | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------------------------|----:|-------:|:----:|:-----|:------|
+|  C  | 3 x T aura, T permanent aura |   9 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
@@ -1245,9 +1253,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This ritual summons various natural spirits into the soil of the region, which guard it from then on.  
     In such a blessed region, the dead will never again leave their graves, and undead that have arisen elsewhere will avoid them whenever possible.
 
-| Sc. | Components                  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 80 auras, 3 permanent auras |   9 | Normal |  5   |      |       |
+| Sc. | Components                | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|---------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 80 aura, 3 permanent aura |   9 | Normal |  5   |      |       |
 
 `CAST "Sacred Ground"`  
 
@@ -1258,7 +1266,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  T  | T auras    |   3 | Post-c. |  5   |      |       |
+|  T  | T aura     |   3 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
@@ -1266,9 +1274,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell allows the Dreamer to disrupt the sleep of all non-allied units (`HELP GUARD`) in the region to such an extent that they temporarily lose some of their memories.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  I  | 90 auras   |  10 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 90 aura    |  10 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schlechte Träume"`  
 
@@ -1279,7 +1287,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | T auras    |   1 | Pre-c. |  4   |      |       |
+|  I  | T aura     |   1 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
@@ -1290,9 +1298,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     But the shield can only withstand a few hundred sword blows, after which it will disintegrate.  
     The stronger the magician, the more damage the shield can withstand.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  T  | 4 x T auras |   8 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 4 x T aura |   8 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
@@ -1303,7 +1311,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | T auras    |   7 | Combat |  5   |      |       |
+|  I  | T aura     |   7 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Sleep`  
 
@@ -1314,7 +1322,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | T auras    |   5 | Combat |  5   |      |       |
+|  T  | T aura     |   5 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
@@ -1322,9 +1330,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all skills for a period of time.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  I  | 80 auras   |   8 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 80 aura    |   8 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schöne Träume"`  
 
@@ -1334,9 +1342,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     The Druid"s Blessing turns the circle into a powerful site of magical activity, providing protection from magic and increased aura regeneration.  
     It is said that virgins encountered strange creatures around stone circles.
 
-| Sc. | Components                   | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 350 auras, 5 permanent auras |  11 | Normal |  5   |      |       |
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 350 aura, 5 permanent aura |  11 | Normal |  5   |      |       |
 
 `CAST "Segne Steinkreis" <building-id>`  
 
@@ -1347,7 +1355,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | T auras    |   3 | Normal |  5   |      |       |
+|  I  | T aura     |   3 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
@@ -1356,9 +1364,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   Each enchantment affects the Life Song, weakening and distorting it.  
     The skilled bard can attempt to capture and amplify the song of life and erase the changes from the song.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x T auras |   5 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 5 x T aura |   5 | Pre-c. |  2   |      |       |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1367,9 +1375,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This magical song comes from the ancient songs of cats and, when used before a fight, can bring decisive strategic advantages.  
     Anyone who comes under the influence of this song will not pay attention to the melody of their surroundings, their mind will become confused and give in erratically to sudden inspirations. Well-ordered armies are said to have suddenly found their archers far in front and their cavalry playing cards with the camp guards (or their leader sleeping in the long-abandoned camp, as is actually said to have happened in the Great Wars of the Old World).
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x T auras |   4 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 2 x T aura |   4 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
@@ -1379,9 +1387,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     "This seductive little melody and a few insinuating words overcome the distrust of the peasants in an instant.  
     They will enthusiastically join you and leave their house and yard in ruins themselves."
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 2 x T auras |   4 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 2 x T aura |   4 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Song of Courting"`  
 
@@ -1390,9 +1398,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength.  
     Fear will weaken their sword arm and fear will paralyze their shield arm.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x T auras |   8 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 5 x T aura |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
@@ -1401,9 +1409,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood.  
     Taverns and theaters everywhere will be full and even the beggars will be fed.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  C  | 2 x T auras |   2 | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  C  | 2 x T aura |   2 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
@@ -1415,7 +1423,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  C  | T auras    |   2 | Post-c. |  5   |      |       |
+|  C  | T aura     |   2 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
@@ -1426,7 +1434,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | 12 auras   |   6 | Normal |  5   |      |       |
+|  C  | 12 aura    |   6 | Normal |  5   |      |       |
 
 `CAST "Song of Seduction" <unit-id>`  
 
@@ -1438,7 +1446,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | T auras    |   3 | Combat |  5   |      |       |
+|  C  | T aura     |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
@@ -1449,9 +1457,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     Regardless of their own pain, they will fight to the death and never flee.  
     While their attack is intensified, they pay little attention to themselves.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 5 x T auras |   7 | Pre-c. |  4   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 5 x T aura |   7 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
@@ -1461,9 +1469,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
     If there is no one from her faction in the region, she has nothing to report.  
     She can also only tell what she could see herself.
 
-| Sc. | Components          | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|---------------------|----:|-------:|:----:|:-----|:------|
-|  C  | 4 auras, 100 silver |   7 | Normal |  5   |      |       |
+| Sc. | Components         | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|--------------------|----:|-------:|:----:|:-----|:------|
+|  C  | 4 aura, 100 silver |   7 | Normal |  5   |      |       |
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
@@ -1471,9 +1479,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 :   With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-----|:-------------------|
-|  T  | 2 x T auras |   6 | Normal |  3   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  T  | 2 x T aura |   6 | Normal |  3   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
@@ -1482,9 +1490,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this formula, at the beginning of a fight, the magician binds some elemental spirits of the rock into the walls of the building in which he is currently located.  
     The building then offers better protection against attacks with the sword and magic.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T auras |   8 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura |   8 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
@@ -1496,7 +1504,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 140 auras  |  14 | Normal |  4   |      |       |
+|  T  | 140 aura   |  14 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
@@ -1505,9 +1513,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   With this ritual, the druid summons an elemental spirit of the earth and causes it to cause the earth to tremble.  
 This earthquake will damage all buildings in the region.
 
-| Sc. | Components         | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|--------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 25 auras, 2 [laen] |   7 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components        | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 25 aura, 2 [laen] |   7 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
@@ -1515,9 +1523,9 @@ This earthquake will damage all buildings in the region.
 
 :   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
 
-|  Sc.   | Components                   |  Lvl |   Type | Rank | Ship | Dist. |
-|:------:|------------------------------|-----:|-------:|:----:|:-----|:------|
-| \*[^1] | 100 auras, 5 permanent auras | [^2] | Normal |  5   |      |       |
+|  Sc.   | Components                 |  Lvl |   Type | Rank | Ship | Dist. |
+|:------:|----------------------------|-----:|-------:|:----:|:-----|:------|
+| \*[^1] | 100 aura, 5 permanent aura | [^2] | Normal |  5   |      |       |
 
 `CAST "Summon Familiar"`  
 
@@ -1528,9 +1536,9 @@ This earthquake will damage all buildings in the region.
     Shadow demons are feared opponents in battle.  
     They are difficult to hit and drain their opponent"s power.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 3 x T auras |   8 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 3 x T aura |   8 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
@@ -1540,9 +1548,9 @@ This earthquake will damage all buildings in the region.
     The druid banishes the elementals into the sails of the ships, where they help carry the ship over the waves at high speed.  
     The more power the druid invests in the spell, the greater the number of elemental spirits that can be banished. An elemental spirit is required for each ship.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship                   | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----------------------|:------|
-|  G  | 6 x T auras |   6 | Normal |  5   | :heavy_check_mark:[^3] |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                             | Dist. |
+|:---:|------------|----:|-------:|:----:|:---------------------------------|:------|
+|  G  | 6 x T aura |   6 | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
@@ -1551,9 +1559,9 @@ This earthquake will damage all buildings in the region.
 :   With this ritual, the magician forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
     In addition, the ship is not affected by unfavorable winds or currents.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  G  | T auras    |   4 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  G  | T aura     |   4 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
 
@@ -1563,9 +1571,9 @@ This earthquake will damage all buildings in the region.
     The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else.  
     Most of the time they regret it a few weeks later...
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 5 x T auras |  12 | Normal |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  I  | 5 x T aura |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
@@ -1576,9 +1584,9 @@ This earthquake will damage all buildings in the region.
 :   Over the course of their lives in nature, quite a few Druids become friends with the oldest friends of the great peoples.  
     They learn to summon many of their friends to aid them in battle with a single howling call.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T auras |   7 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura |   7 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
@@ -1586,9 +1594,9 @@ This earthquake will damage all buildings in the region.
 
 :   A druid who has fallen into the world of spirits can use this spell to level up*Send 5 units of weight back to a forest on the material world.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T auras |   9 | Normal |  7   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura |   9 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -1597,9 +1605,9 @@ This earthquake will damage all buildings in the region.
 :   This combat spell causes some enemies to suffer severe fatigue during combat.  
     The soldiers sometimes oversleep their attack and defend themselves poorly.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 4 x T auras |   4 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  I  | 4 x T aura |   4 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
@@ -1610,9 +1618,9 @@ This earthquake will damage all buildings in the region.
     if magic resistance is broken, a victim permanently loses part of their memories.  
     If it falls victim to this spell too often, it can die.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  I  | 2 x T auras |  11 | Pre-c. |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  I  | 2 x T aura |  11 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
@@ -1621,9 +1629,9 @@ This earthquake will damage all buildings in the region.
 :   With a dark ritual and sacrificing his own blood, the black magician summons a great spirit from the elemental plane of poisons.  
     The spirit manifests itself as a bright green cloud over the region and will harm all who come into contact with it.
 
-| Sc. | Components      | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-----------------|----:|-------:|:----:|:-----|:-------------------|
-|  D  | 40 auras, 15 PV |  11 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components     | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|----------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  D  | 40 aura, 15 PV |  11 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] Todeswolke`  
 
@@ -1634,9 +1642,9 @@ This earthquake will damage all buildings in the region.
     Farmers, animals and plants in the region are fighting for survival, but only half of all living things can survive such a drought.  
     The region can be affected by the consequences of such a drought for years to come.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 800 auras  |  17 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 800 aura   |  17 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
@@ -1644,9 +1652,9 @@ This earthquake will damage all buildings in the region.
 
 :   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 1 aura     |   5 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 1 aura     |   5 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer aura" <unit-id> <Aura>`  
 
@@ -1654,9 +1662,9 @@ This earthquake will damage all buildings in the region.
 
 With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|------------|----:|-------:|:----:|:-------------------|:------|
-|  D  | 2 auras    |   7 | Normal |  1   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 2 aura     |   7 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
@@ -1664,9 +1672,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 :   This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist.              |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:-------------------|
-|  I  | 6 x T auras |   8 | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  I  | 6 x T aura |   8 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1679,7 +1687,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
-|  D  | T auras    |   9 | Post-c. |  5   |      |       |
+|  D  | T aura     |   9 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
@@ -1688,9 +1696,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This ritual is only passed on to the adepts in the dark academies in whispers, as it is one of the darkest ever written down.  
     By invoking unholy demons, the power of the living dead is amplified and they transform into undead monsters of great power.
 
-| Sc. | Components                  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 10 x T auras, 5 x T paysans |  14 | Normal |  5   |      |       |
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 10 x T aura, 5 x T paysans |  14 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
@@ -1701,7 +1709,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | T auras    |   2 | Pre-c. |  5   |      |       |
+|  I  | T aura     |   2 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
@@ -1714,7 +1722,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | 15 auras   |   5 | Pre-c. |  5   |      |       |
+|  G  | 15 aura    |   5 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Whirlwind`  
 
@@ -1723,9 +1731,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This ritual conjures up a dark storm front that towers ominously over the region.  
     The magical rain will cause all ore to rust, destroying many of the enemy's weapons.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  D  | 2 x T auras |   6 | Combat |  5   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 2 x T aura |   6 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
@@ -1734,9 +1742,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region.  
     This will change the balance of nature in the region forever, and in the future only the demanding but strong mallornas will thrive in the region.
 
-| Sc. | Components                                      | Lvl |   Type | Rank | Ship | Dist.              |
-|:---:|-------------------------------------------------|----:|-------:|:----:|:-----|:-------------------|
-|  G  | 250 auras, 10 permanent auras, 1 [[cream-puff]] |  16 | Normal |  5   |      | :heavy_check_mark: |
+| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 250 aura, 10 permanent aura, 1 [[cream-puff]] |  16 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Wurzeln der Magie"`  
 
@@ -1747,9 +1755,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   This practical application of theoretical knowledge of space and time makes it possible to change the flow of time for some people.  
     People modified in this way get twice as many movement points and twice as many attacks per round for a few weeks.
 
-| Sc. | Components  | Lvl |   Type | Rank | Ship               | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-------------------|:------|
-|  T  | 5 x T auras |  11 | Normal |  5   | :heavy_check_mark: |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 5 x T aura |  11 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
 

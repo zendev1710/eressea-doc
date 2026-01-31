@@ -14,9 +14,9 @@ This system aims to improve game balance for new factions.
 
     The exact duration of protection may vary depending on the date it is granted.
 
-> Note: Previously, the message stated: "Your faction is immune to attacks for X weeks."
+*Note: Previously, the message stated: "Your faction is immune to attacks for X weeks".*
 
-!!! Warning "Caution"
+!!! warning "Caution"
 
     If your report states: "Your faction is immune for 1 week", this means you can be targeted by stealth and attacks starting in the week for which you submit your orders!
 

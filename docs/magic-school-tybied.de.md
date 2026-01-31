@@ -12,9 +12,9 @@ alias: tybiedzauber
     Von allen Sprüchen, die seine eigenen Fähigkeiten nicht überschreiten, wird er einen Eindruck ihres Wirkens erhalten können.  
     Bei stärkeren Sprüchen benötigt er ein wenig Glück für eine gelungene Analyse.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Magie analysieren' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -22,9 +22,9 @@ alias: tybiedzauber
 
 :   Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Schleieraura <Einheit-Nr>`  
 
@@ -37,9 +37,9 @@ alias: tybiedzauber
     beim Füllen seines Geldbeutels.  
     50 Silber pro Stufe lassen sich so in einer Woche verdienen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Wunderdoktor`  
 
@@ -75,9 +75,9 @@ alias: tybiedzauber
     Eine so geschützte Einheit ist auch gegen Kampfmagie weniger empfindlich.  
     Pro Stufe reicht die Kraft des Magiers aus, um 5 Personen zu schützen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-| 5 x T aura  |   3   | Normal |  2   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+| 5 x T aura  |   3   | Normal |  2   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Schutzzauber <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -115,9 +115,9 @@ alias: tybiedzauber
     Dieses Zone wird bestrebt sein, wieder in den Gleichgewichtszustand zu gelangen.  
     Dazu wird sie jedem in dieser Region gesprochenen Zauber einen Teil seiner Stärke entziehen, die schwächeren gar ganz absorbieren.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 3 x T aura  |   5   | Normal |  2   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 3 x T aura  |   5   | Normal |  2   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Astrale Schwächezone'`  
 
@@ -125,9 +125,9 @@ alias: tybiedzauber
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   1 aura    |   5   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   1 aura    |   5   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Auratransfer <Einheit-Nr> <Aura>`  
 
@@ -135,9 +135,9 @@ alias: tybiedzauber
 
 :   Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-------------------|
-| 4 x T aura  |   5   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+| 4 x T aura  |   5   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Magiefresser ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -172,9 +172,9 @@ alias: tybiedzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
@@ -184,9 +184,9 @@ alias: tybiedzauber
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
 
@@ -196,9 +196,9 @@ alias: tybiedzauber
     Damit kann dann auch Land überquert werden.  
     Für die Farbe der Runen muss eine spezielle Tinte aus einem Windbeutel und einem Schneekristall angerührt werden.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:------|
-| 10 aura, 1 [gousse], 1 [schneekristall] |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:------|
+| 10 aura, 1 [gousse], 1 [schneekristall] |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE Luftschiff <Schiff-Nr>`  
 
@@ -217,9 +217,9 @@ alias: tybiedzauber
 
 :   Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen dessen Willen entziehen und sich selber zuführen.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-| 2 x T aura  |   6   | Normal |  3   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 2 x T aura  |   6   | Normal |  3   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Stehle Aura' <Einheit-Nr>`  
 
@@ -232,7 +232,7 @@ alias: tybiedzauber
 
 | Mag. |     Komponenten      | Stufe |  Art   | Rang |       Schiff       | Fern. |
 |:--------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber |   7   | Normal |  5   | :heavy_check_mark: |       |
+| 50 aura, 3000 silber |   7   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe Antimagiekristall'`  
 
@@ -240,9 +240,9 @@ alias: tybiedzauber
 
 :   Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 3 x T aura  |   7   | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 3 x T aura  |   7   | Normal |  3   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Fluch brechen' ( REGION | EINHEIT <Einheit-Nr> | SCHIFF <Schiff-Nr> | BURG <Gebäude-Nr> ) <Zauber-ID>`  
 
@@ -251,9 +251,9 @@ alias: tybiedzauber
 :   Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern des Gebäudes.  
     Ein solchermaßen verzaubertes Gebäude ist gegen den Zahn der Zeit geschützt und benötigt keinen Unterhalt mehr.  
 
-|        Komponenten         | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:--------------------------:|:-----:|:------:|:----:|:------------------:|:------|
-| 50 aura, 1 permanente aura |   7   | Normal |  5   | :heavy_check_mark: |       |
+|        Komponenten         | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:--------------------------:|:-----:|:------:|:----:|:----------------------------:|:------|
+| 50 aura, 1 permanente aura |   7   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Mauern der Ewigkeit' <Gebäude-Nr>`  
 
@@ -266,9 +266,9 @@ alias: tybiedzauber
     Werden mehrere Schutzzauber übereinander gelegt, so addiert sich ihre Wirkung, doch ein hundertprozentiger Schutz läßt sich so nicht erreichen.  
     Der Zauber hält mindestens drei Wochen an, je nach Talent des Magiers aber auch viel länger.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   20 aura   |   8   | Normal |  2   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   20 aura   |   8   | Normal |  2   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Runen des Schutzes' ( SCHIFF <Schiff-Nr> | BURG <Gebäude-Nr> )`  
 
@@ -300,9 +300,9 @@ alias: tybiedzauber
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
 
-|               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Macht'`  
 
@@ -325,9 +325,9 @@ alias: tybiedzauber
     Auch ist es nicht möglich, einen Zauberbeutel in einem anderen zu transportieren.  
     Der Beutel selber wiegt 1 GE.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 30 aura, 1 permanente aura, 5000 silber |  10   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 30 aura, 1 permanente aura, 5000 silber |  10   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Beutel des Negativen Gewichts'`  
 
@@ -338,9 +338,9 @@ alias: tybiedzauber
 :   Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.  
     Auf diese Weise veränderte Personen bekommen für einige Wochen doppelt soviele Bewegungspunkte und doppelt soviele Angriffe pro Runde.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-| 5 x T aura  |  11   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+| 5 x T aura  |  11   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Zeitdehnung <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -361,9 +361,9 @@ alias: tybiedzauber
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:------|
-| 100 aura, 5 permanente auras |  12   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:------|
+| 100 aura, 5 permanente aura |  12   | Normal |  5   |        |       |
 
 ## Stufe 13
 

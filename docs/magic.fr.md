@@ -216,14 +216,14 @@ Ceci peut être utile, par exemple, lorsque vous souhaitez conserver de l'aura p
 CAST LEVEL 4 "Miracle doctor"
 ```
 
-Ce sort coûtera 4 auras et rapportera 200 silver.  
-Avec un Anneau de Pouvoir, cela coûte toujours 4 auras mais rapporte 250 silver.
+Ce sort coûtera 4 aura et rapportera 200 silver.  
+Avec un Anneau de Pouvoir, cela coûte toujours 4 aura mais rapporte 250 silver.
 
 ### Composants
 
-S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : **Créer un Anneau d'invisibilité** coûte toujours 50 auras.  
-Si les composants d'in sort indiquent par exemple `3 Aura * Level`, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 auras multiplié par le niveau auquel le sort est lancé.  
-Ainsi, **Miracle Doctor** coûte 1 aura lorsqu'il est lancé au niveau 1, et 30 auras lorsqu'il est lancé au niveau 30.  
+S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : **Créer un Anneau d'invisibilité** coûte toujours 50 aura.  
+Si les composants d'in sort indiquent par exemple `3 Aura * Level`, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 aura multiplié par le niveau auquel le sort est lancé.  
+Ainsi, **Miracle Doctor** coûte 1 aura lorsqu'il est lancé au niveau 1, et 30 aura lorsqu'il est lancé au niveau 30.  
 
 Si le sort nécessite une aura permanente, l'aura maximale de l'unité est définitivement réduite de cette valeur.  
 D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des agriculteurs.  
@@ -261,7 +261,7 @@ Cela ne s'applique pas aux autres composants, qui ne sont augmentés que par les
 
 Les sorts à distance et les sorts multiples combinés peuvent également augmenter les coûts en aura (CA) :
 
-| Distance région (a) |   0    |   1    |    2    |    3    |    4    |
+| Distance région (a) | 0      | 1      |       2 |       3 | 4       |
 |---------------------|--------|--------|--------:|--------:|---------|
 | 1er sort            | CA x 1 | CA x 2 |  CA x 4 |  CA x 8 | CA x 16 |
 | 2ème sort           | CA x 2 | CA x 4 |  CA x 8 | CA x 16 | CA x 32 |
@@ -309,9 +309,9 @@ Les sorts de même rang sont lancés dans l'ordre spécifié lors du tour.
 
 Soit trois sorts, appelés "Aaa", "Bee" et "Cee" :
 
-- "Aaaa" est de rang 5 et coûte 10 auras
-- "Beee" est de rang 2 et coûte 20 auras
-- "Ceee" est de rang 5 et coûte 5 auras
+- "Aaaa" est de rang 5 et coûte 10 aura
+- "Beee" est de rang 2 et coûte 20 aura
+- "Ceee" est de rang 5 et coûte 5 aura
 
 En supposant que l'unité passe les ordres :
 
@@ -324,7 +324,7 @@ CAST "Aaaa"
 dans cet ordre.
 
 « Beee » est lancé en premier, car le sort est de rang 2.
-C'est le premier sort de l'unité cette semaine, il coûte donc 20 auras.
+C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.
 Ensuite, "Ceee" est lancé, car "Aaaa" et "Ceee" ont le même rang et "Ceee" vient avant "Aaaa".
 "Ceee" est le deuxième sort, il coûte donc 5*2^1=10 aura. Vient maintenant « Aaaa ».
 "Aaaa" est le troisième sort, il coûte donc 10*2^2=40 aura.

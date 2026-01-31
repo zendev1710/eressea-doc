@@ -8,9 +8,12 @@ alias: gwyrrdzauber
 
 ### Erschaffe [Steingolems]
 
-:   Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde.  
-    Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und forme der ungebundenen Kraft ein Gehäuse.  
-    Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden, bevor die Aura sich verflüchtigt.  
+<div class="lore-dialogue">
+"Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde.
+Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und forme der ungebundenen Kraft ein Gehäuse."
+</div>
+
+:   Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden, bevor die Aura sich verflüchtigt.  
     Jeder Golem hat jede Runde eine Chance von 10 Prozent zu Staub zu zerfallen.  
     Gibt man den Golems die Befehle MACHE BURG oder MACHE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
 
@@ -25,9 +28,9 @@ alias: gwyrrdzauber
 :   Dieses Ernteritual verbessert die Erträge der arbeitenden Bauern in der Region um ein Silberstück.  
     Je mehr Kraft der Druide investiert, desto länger wirkt der Zauber.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-------------------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segen der Erde'`  
 
@@ -38,9 +41,9 @@ alias: gwyrrdzauber
     Manch einer mag auch sein Talent dazu nutzen, ein Tier für einen besseren Preis zu verkaufen.  
     Pro Stufe kann der Magier so 50 Silber verdienen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Viehheilung`  
 
@@ -60,9 +63,9 @@ alias: gwyrrdzauber
 
 :   Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-|                 Komponenten                 | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-------------------------------------------:|:-----:|:------:|:----:|:------:|:-------------------|
-| 4 x T aura, T [holz], 1 [wasser des lebens] |   2   | Normal |  5   |        | :heavy_check_mark: |
+|                 Komponenten                 | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 4 x T aura, T [holz], 1 [wasser des lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Hainzauber`  
 
@@ -71,9 +74,9 @@ alias: gwyrrdzauber
 :   Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELFE BEWACHE) verhindert, solange er die Region bewacht.  
     Der Bergwächter ist an den Ort der Beschwörung gebunden.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 3 x T aura  |   3   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 3 x T aura  |   3   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Bergwächter`  
 
@@ -84,9 +87,9 @@ alias: gwyrrdzauber
     Der Spruch wirkt auf Stufe x 10 Insekten.  
     Ein Ring der Macht erhöht die Menge der verzauberbaren Insekten zusätzlich um 10.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 2 x T aura  |   3   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 2 x T aura  |   3   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Firuns Fell' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -110,9 +113,9 @@ alias: gwyrrdzauber
     Für jede Stufe können bis zu 10 Eisenwaffen betroffen werden.  
     Ein Ring der Macht verstärkt die Wirkung wie eine zusätzliche Stufe.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-| 2 x T aura  |   3   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 2 x T aura  |   3   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Rostregen <Einheit-Nr> [<Einheit-Nr> ...]`  
 
@@ -124,9 +127,9 @@ alias: gwyrrdzauber
     Selbst Sümpfe und Gletscher können so verzaubert werden.  
     Je mehr Kraft der Magier in den Bann legt, desto länger bleibt die Straße bestehen.  
 
-|         Komponenten         | Stufe |  Art   | Rang |       Schiff       | Fern.              |
-|:---------------------------:|:-----:|:------:|:----:|:------------------:|:-------------------|
-| T aura, 1 [stein], 1 [holz] |   4   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+|         Komponenten         | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:---------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+| T aura, 1 [stein], 1 [holz] |   4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Magischer Pfad'`  
 
@@ -135,9 +138,9 @@ alias: gwyrrdzauber
 :   Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.  
     Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-|                   Komponenten                   | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------------------------------------------:|:-----:|:------:|:----:|:------:|:-------------------|
-| 6 x T aura, T [mallorns], 1 [wasser des lebens] |   4   | Normal |  5   |        | :heavy_check_mark: |
+|                   Komponenten                   | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 6 x T aura, T [mallorns], 1 [wasser des lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segne Mallornstecken'`  
 
@@ -146,9 +149,9 @@ alias: gwyrrdzauber
 :   Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen Dienst und bringt sie dazu, das angegebene Schiff schneller durch das Wasser zu tragen.  
     Zudem wird das Schiff nicht durch ungünstige Winde oder Strömungen beeinträchtigt.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   T aura    |   4   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   T aura    |   4   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Wasserelementar <Schiff-Nr>`  
 
@@ -156,9 +159,9 @@ alias: gwyrrdzauber
 
 :   Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-| 2 x T aura  |   4   | Prä-k. |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+| 2 x T aura  |   4   | Prä-k. |  5   | :material-check:{ .success } |       |
 
 `KAMPFZAUBER [STUFE n] Windschild`  
 
@@ -178,9 +181,9 @@ alias: gwyrrdzauber
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
 
-|                    Komponenten                    | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :heavy_check_mark: |       |
+|                    Komponenten                    | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
 
@@ -211,9 +214,9 @@ alias: gwyrrdzauber
 :   Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.  
     Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
 
-|    Komponenten    | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:-----------------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 25 aura, 2 [laen] |   7   | Normal |  5   |        | :heavy_check_mark: |
+|    Komponenten    | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 25 aura, 2 [laen] |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Erdelementar`  
 
@@ -223,9 +226,9 @@ alias: gwyrrdzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
@@ -235,9 +238,9 @@ alias: gwyrrdzauber
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
     In einer unsichtbaren Einheit muss jede Person einen Ring tragen.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
 
@@ -245,9 +248,9 @@ alias: gwyrrdzauber
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------|
-|   2 aura    |   6   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|   2 aura    |   6   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Meditation <Einheit-Nr> <Aura>`  
 
@@ -258,9 +261,9 @@ alias: gwyrrdzauber
     Je mehr Kraft der Druide in den Zauber investiert, desto größer ist die Zahl der Elementargeister, die sich bannen lassen.  
     Für jedes Schiff wird ein Elementargeist benötigt.  
 
-| Komponenten | Stufe |  Art   | Rang |         Schiff         | Fern. |
-|:-----------:|:-----:|:------:|:----:|:----------------------:|:------|
-| 6 x T aura  |   6   | Normal |  5   | :heavy_check_mark:[^3] |       |
+| Komponenten | Stufe |  Art   | Rang |              Schiff              | Fern. |
+|:-----------:|:-----:|:------:|:----:|:--------------------------------:|:------|
+| 6 x T aura  |   6   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `ZAUBERE [STUFE n] Sturmelementar <Schiff-Nr> [<Schiff-Nr> ...]`  
 
@@ -303,9 +306,9 @@ alias: gwyrrdzauber
     Der Magier beschwört und bannt diese in eine Form, um den gewünschten Effekt zu erzielen.  
     Dieses Ritual nun vermag es, in diese Welt gerufene Elementargeister zu vertreiben, um so ein Objekt von Magie zu befreien.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 6 x T aura  |   8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 6 x T aura  |   8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Geister bannen' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -325,9 +328,9 @@ alias: gwyrrdzauber
 :   Dieses Ritual beschwört verschiedene Naturgeister in den Boden der Region, welche diese fortan bewachen.  
     In einer so gesegneten Region werden niemals wieder die Toten ihre Gräber verlassen, und anderswo entstandene Untote werden sie wann immer möglich meiden.  
 
-|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
-|:---------------------------:|:-----:|:------:|:----:|:------:|:------|
-| 80 aura, 3 permanente auras |   9   | Normal |  5   |        |       |
+|        Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:--------------------------:|:-----:|:------:|:----:|:------:|:------|
+| 80 aura, 3 permanente aura |   9   | Normal |  5   |        |       |
 
 `ZAUBERE 'Heiliger Boden'`  
 
@@ -368,9 +371,9 @@ alias: gwyrrdzauber
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:------|
-| 100 aura, 5 permanente auras |  10   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:------|
+| 100 aura, 5 permanente aura |  10   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
 
@@ -380,9 +383,9 @@ alias: gwyrrdzauber
     Die Segnung des Druiden macht aus dem Kreis eine mächtige Stätte magischen Wirkens, die Schutz vor Magie und erhöhte Aura- Regeneration bewirkt.  
     Man sagt, Jungfrauen seien in der Umgebung von Steinkreisen seltsame Wesen begegnet.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:------|
-| 350 aura, 5 permanente auras |  11   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:------|
+| 350 aura, 5 permanente aura |  11   | Normal |  5   |        |       |
 
 `ZAUBERE 'Segne Steinkreis' <Gebäude-Nr>`  
 
@@ -404,9 +407,9 @@ alias: gwyrrdzauber
     Bäume verdorren, Tiere verenden, und die Ernte fällt aus.  
     Für Tagelöhner gibt es kaum noch Arbeit in der Landwirtschaft zu finden.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|  600 aura   |  13   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|  600 aura   |  13   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Hitzeelementar`  
 
@@ -415,9 +418,9 @@ alias: gwyrrdzauber
 :   Dieses Ritual beschört einen großen Wasserelementar aus den Tiefen des Ozeans.  
     Der Elementar erzeugt einen gewaltigen Strudel, einen Mahlstrom, welcher alle Schiffe, die ihn passieren, schwer beschädigen kann.  
 
-|            Komponenten             | Stufe |  Art   | Rang |         Schiff         | Fern. |
-|:----------------------------------:|:-----:|:------:|:----:|:----------------------:|:------|
-| 200 aura, 1 tête de serpent de mer |  15   | Normal |  5   | :heavy_check_mark:[^3] |       |
+|            Komponenten             | Stufe |  Art   | Rang |              Schiff              | Fern. |
+|:----------------------------------:|:-----:|:------:|:----:|:--------------------------------:|:------|
+| 200 aura, 1 tête de serpent de mer |  15   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `ZAUBERE Mahlstrom`  
 
@@ -426,9 +429,9 @@ alias: gwyrrdzauber
 :   Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.  
     Dadurch wird das Gleichgewicht der Natur in der Region für immer verändert, und in Zukunft werden nur noch die anspruchsvollen, aber kräftigen Mallorngewächse in der Region gedeihen.  
 
-|                     Komponenten                     | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:---------------------------------------------------:|:-----:|:------:|:----:|:------:|:-------------------|
-| 250 aura, 10 permanente auras, 1  [[cream-puff-de]] |  16   | Normal |  5   |        | :heavy_check_mark: |
+|                    Komponenten                     | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:--------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 250 aura, 10 permanente aura, 1  [[cream-puff-de]] |  16   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Wurzeln der Magie'`  
 
@@ -439,10 +442,14 @@ alias: gwyrrdzauber
     Bauern, Tiere und Pflanzen der Region kämpfen um das nackte Überleben, aber eine solche Dürre überlebt wohl nur die Hälfte aller Lebewesen.  
     Der Landstrich kann über Jahre hinaus von den Folgen einer solchen Dürre betroffen sein.  
 
-| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.              |
-|:-----------:|:-----:|:------:|:----:|:------:|:-------------------|
-|  800 aura   |  17   | Normal |  5   |        | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:-----------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|  800 aura   |  17   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Tor in die Ebene der Hitze'`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
+
+[holz]: ./resources.md#holz
+[eisen]: ./resources.md#eisen
+[stein]: ./resources.md#stein

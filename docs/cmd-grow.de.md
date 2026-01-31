@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: bef-züchte
+alias: bef-zuechte
 ---
 # ZÜCHTE
 

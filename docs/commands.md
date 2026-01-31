@@ -9,15 +9,16 @@ alias: orders
 ```text
 GIVE unit-id [number|ALL] [item]
 ```
+
 The following conventions apply in these rules:
 
-- Keywords like GIVE, MAKE, NOT are in capital letters.
+- Keywords like `GIVE`, `MAKE`, `NOT` are in capital letters.
   This is not mandatory, but we recommend it. Placeholders are in lowercase letter.
   They should not be adopted literally, but must be replaced by concrete values, for example unit-id by the number of the desired unit.
   Sometimes we also write this as &lt;unit-id&gt;, in which case the `<` and `>` symbols are **NOT** to be included.
 - Words in \[\] brackets are optional.
   So they can be omitted, but they change the meaning of the order.
-  Alternatives are through | separated.
+  Alternatives are through `|` separated.
 
 The example above allows `GIVE 123 EVERYTHING` or `GIVE abc 4 sword`.  
 

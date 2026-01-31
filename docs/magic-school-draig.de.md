@@ -13,9 +13,9 @@ alias: draigzauber
     Ob nun der Sohn des Nachbarn in einen Liebesbann gezogen werden soll oder die Nebenbuhlerin Pickel und Warzen bekommen soll, niemand gibt gerne zu, zu solchen Mitteln gegriffen zu haben.  
     Für diese Dienstleistung streicht der Magier 50 Silber pro Stufe ein.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   T aura    |   1   | Normal |  5   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Kleine Flüche'`  
 
@@ -49,9 +49,9 @@ alias: draigzauber
 :   Der Magier öffnet seinen Geist den Sphären des Chaos und wird so für einige Zeit über mehr magische Kraft verfügen.  
     Doch die Hilfe der Herren der Sphären hat seinen Preis, und so wird die Phase der Macht abgelöst von einer Phase der Schwäche.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   6 aura    |   3   | Normal |  3   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   6 aura    |   3   | Normal |  3   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Gabe des Chaos'`  
 
@@ -64,9 +64,9 @@ alias: draigzauber
     So steht im 'Buch des Blutes' geschrieben: 'So richte Er aus das Zeichen der vier Elemente im Kreis des Werdens und Vergehens und Weihe ein jedes mit einem Tropfen Blut.  
     Sodann begebe Er in der Mitten der Ewigen Vierer sich und lasse Leben verrinnen, auf das Kraft geboren werde.'  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|    16 PV    |   4   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|    16 PV    |   4   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Kleines Blutopfer'`  
 
@@ -100,9 +100,9 @@ alias: draigzauber
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
-|               Komponenten               | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:---------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
@@ -113,9 +113,9 @@ alias: draigzauber
 :   Nächtelang muss der Schwarzmagier durch die Friedhöfe und Gräberfelder der Region ziehen um dann die ausgegrabenen Leichen beleben zu können.  
     Die Untoten werden ihm zu Diensten sein, doch sei der Unkundige gewarnt, dass die Beschwörung der Mächte des Todes ein zweischneidiges Schwert sein kann.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 5 x T aura  |   6   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 5 x T aura  |   6   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Mächte des Todes'`  
 
@@ -147,9 +147,9 @@ alias: draigzauber
 
 :   In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region.  
 
-|    Komponenten     | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:------------------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 30 aura, 50 bauern |   7   | Normal |  5   |        | :heavy_check_mark: |
+|    Komponenten     | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 30 aura, 50 bauern |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Fluch der Pestilenz'`  
 
@@ -157,9 +157,9 @@ alias: draigzauber
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:-----:|
-|   2 aura    |   7   | Normal |  1   | :heavy_check_mark: |       |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|   2 aura    |   7   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Machtübertragung <Einheit-Nr> <Aura>`  
 
@@ -217,9 +217,9 @@ alias: draigzauber
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
 
-|               Komponenten                | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:----------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :heavy_check_mark: |       |
+|               Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Macht'`  
 
@@ -241,9 +241,9 @@ alias: draigzauber
 :   Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen.  
     Der Feuerteufel wird sich begierig auf die Wälder der Region stürzen und sie in Flammen setzen.  
 
-|   Komponenten   | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:---------------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 50 aura, 1 [öl] |  10   | Normal |  5   |        | :heavy_check_mark: |
+|   Komponenten   | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:---------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 50 aura, 1 [öl] |  10   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Feuerteufel`  
 
@@ -253,9 +253,9 @@ alias: draigzauber
     Dazu zeichnet er ein Pentagramm in das verzauberte Objekt und beginnt mit einer Anrufung der Herren der Finsternis.  
     Die Herren werden ihm beistehen, doch ob es ihm gelingt, den Zauber zu lösen, hängt allein von seiner eigenen Kraft ab.  
 
-| Komponenten | Stufe |  Art   | Rang |       Schiff       |       Fern.        |
-|:-----------:|:-----:|:------:|:----:|:------------------:|:------------------:|
-| 10 x T aura |  10   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Komponenten | Stufe |  Art   | Rang |            Schiff            |            Fern.             |
+|:-----------:|:-----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 10 x T aura |  10   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Pentagramm ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
@@ -268,9 +268,9 @@ alias: draigzauber
     Es soll beides bereits vorgekommen sein.  
     Der Köder hält etwa 6 Wochen, muss aber in einem drachengenehmen Terrain platziert werden.  
 
-|        Komponenten         | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:--------------------------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 80 aura, 1 [[drachenkopf]] |  11   | Normal |  5   |        | :heavy_check_mark: |
+|        Komponenten         | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:--------------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 80 aura, 1 [[drachenkopf]] |  11   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Drachenruf`  
 
@@ -279,9 +279,9 @@ alias: draigzauber
 :   Mit einem düsteren Ritual und unter Opferung seines eigenen Blutes beschwört der Schwarzmagier einen großen Geist von der Elementarebene der Gifte.  
     Der Geist manifestiert sich als giftgrüner Schwaden über der Region und wird allen, die mit ihm in Kontakt kommen, Schaden zufügen.  
 
-|  Komponenten   | Stufe |  Art   | Rang | Schiff |       Fern.        |
-|:--------------:|:-----:|:------:|:----:|:------:|:------------------:|
-| 40 aura, 15 PV |  11   | Normal |  5   |        | :heavy_check_mark: |
+|  Komponenten   | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:--------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 40 aura, 15 PV |  11   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Todeswolke`  
 
@@ -305,9 +305,9 @@ alias: draigzauber
 :   'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.  
     Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
 
-|                         Komponenten                         | Stufe |  Art   | Rang |       Schiff       | Fern. |
-|:-----------------------------------------------------------:|:-----:|:------:|:----:|:------------------:|:-----:|
-| 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :heavy_check_mark: |       |
+|                         Komponenten                         | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
@@ -317,9 +317,9 @@ alias: draigzauber
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
 
-|         Komponenten          | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 100 aura, 5 permanente auras |  13   | Normal |  5   |        |       |
+|         Komponenten         | Stufe |  Art   | Rang | Schiff | Fern. |
+|:---------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 100 aura, 5 permanente aura |  13   | Normal |  5   |        |       |
 
 `ZAUBERE 'Vertrauten rufen'`  
 

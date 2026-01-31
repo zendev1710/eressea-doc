@@ -13,156 +13,156 @@ alias: liste-des-sorts
 
 **C** : [[sorts-cerddor|Cerddor]], **D** : [[sorts-draig|Draig]], **G** : [[sorts-gwyrrd|Gwyrrd]], **I** : [[sorts-illaun|Illaun]], **T** : [[sorts-tybied|Tybied]]  
 <!-- TODO: Lecture des rêves is not found -->
-| Nom                                     | École  | Composants                                                   | Niv. |    Type | Rang | B                      | D                  |
-|-----------------------------------------|:------:|--------------------------------------------------------------|-----:|--------:|:----:|:-----------------------|:-------------------|
-| [Accélération]                          |   T    | 5 x N auras                                                  |    9 |  Pré-c. |  5   |                        |                    |
-| [Affaiblissement]                       |   I    | 4 x N auras                                                  |    4 |  Pré-c. |  5   |                        |                    |
-| [Analyse de la Magie]                   |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Analyse des rêves]                     |   I    | 25 auras                                                     |    5 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Analyse du chant de la Vie]            |   C    | 10 auras                                                     |    5 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Analyses]                              |   C    | 3 x N auras                                                  |    8 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Antimagie]                             |   T    | 3 x N auras                                                  |    5 |      -- |  2   |                        | :heavy_check_mark: |
-| [Aufruhr beschwichtigen]                |   C    | 30 auras                                                     |   15 |      -- |  5   |                        | :heavy_check_mark: |
-| [Aufruhr verursachen]                   |   C    | 40 auras                                                     |   16 |      -- |  5   |                        | :heavy_check_mark: |
-| [Bannissement des Esprits]              |   G    | 6 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Bâton de Mallorn]                      |   G    | 6 x N auras, N [mallorns], 1 [eau de vie]                    |    4 |      -- |  5   |                        | :heavy_check_mark: |
-| [Belebtes Gestein]                      |   T    | 10 x N auras, 1 aura permanent, 5 [laen]                     |   13 |      -- |  5   |                        |                    |
-| [Bénédiction de la terre]               |   G    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Beschwöre Schattenmeister]             |   D    | 7 x N auras                                                  |   12 |      -- |  5   |                        |                    |
-| [Blick in die Realität]                 |   T    | 40 auras                                                     |   10 |      -- |  5   |                        |                    |
-| [Bouclier aérien]                       |   G    | 2 x N auras                                                  |    4 |  Pré-c. |  5   | :heavy_check_mark:     |                    |
-| [Bouclier d'armure]                     |   T    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
-| [Bouclier du poisson]                   |   T    | 4 x N auras                                                  |    8 |  Pré-c. |  2   |                        |                    |
-| [Boule de feu]                          |   D    | N auras                                                      |    2 |  Combat |  5   |                        |                    |
-| [Brise‑malédiction]                     |   T    | 3 x N auras                                                  |    7 |      -- |  3   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Changement de forme]                   |   I    | N auras                                                      |    3 |      -- |  5   |                        |                    |
-| [Chant apaisant]                        |   C    | 2 auras                                                      |    1 |  Pré-c. |  5   |                        |                    |
-| [Chant d'effroi]                        |   C    | 5 x N auras                                                  |    8 |  Pré-c. |  5   |                        |                    |
-| [Chant de confusion]                    |   C    | 2 x N auras                                                  |    4 |  Pré-c. |  5   |                        |                    |
-| [Chant de contre]                       |   C    | 5 x N auras                                                  |    5 |  Pré-c. |  2   |                        |                    |
-| [Chant de cour]                         |   C    | 2 x N auras                                                  |    4 |      -- |  5   |                        |                    |
-| [Chant de générosité]                   |   C    | 2 x N auras                                                  |    2 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Chant de guérison]                     |   C    | N auras                                                      |    2 | Post-c. |  5   |                        |                    |
-| [Chant de guerre]                       |   C    | 5 x N auras                                                  |    7 |  Pré-c. |  4   |                        |                    |
-| [Chant de séduction]                    |   C    | 12 auras                                                     |    6 |      -- |  5   |                        |                    |
-| [Chant de terreur]                      |   C    | N auras                                                      |    3 |  Combat |  5   |                        |                    |
-| [Chant des héros]                       |   C    | 2 x N auras                                                  |    5 |  Pré-c. |  4   |                        |                    |
-| [Chaos de l'Astral]                     |   D    | 6 x N auras                                                  |    9 |  Pré-c. |  2   |                        |                    |
-| [Chaossog]                              |   D    | 150 auras, 200 paysans                                       |   14 |      -- |  5   |                        |                    |
-| [Château d'Illusion]                    |   I    | 3 auras                                                      |    3 |      -- |  5   |                        |                    |
-| [Chevaliers de l'Ombre]                 |   I    | N auras                                                      |    1 |  Pré-c. |  4   |                        |                    |
-| [Créer un Sac à poids négatif]          |   T    | 30 auras, 1 aura permanent, 5 000 silver                     |   10 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer une Ceinture de force de troll]  |   D    | 20 auras, 1 aura permanent                                   |    9 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer un Dream-Eye]                    |   I    | 1 [tête de dragon], 5 auras permanents                       |   14 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer une Épée de Flammes]             |   D    | 100 auras, 1 [sang de berserker], 1 [épée], 1 aura permanent |   12 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer un Sac à herbes magique]         |   G    | 30 auras, 1 aura permanent, 1 [eau de vie]                   |    5 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer un Anneau d'Invisibilité]        | \*[^1] | 50 auras, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer un Anneau de Pouvoir]            |   T    | 100 auras, 1 aura permanent, 4000 silver                     |    9 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer une Sphère d'Invisibilité]       |   13   | 150 auras, 30 000 silver, 3 auras permanents                 |      |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer une Amulette de vision décuplée] |   C    | 50 auras, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer un Cristal d'Antimagie]          |   T    | 50 auras, 3 000 silver                                       |    7 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Créer des Golems de Fer]               |   G    | 2 x N auras, N [fers], 1 [eau de vie]                        |    2 |      -- |  4   |                        |                    |
-| [Créer des Golems de Pierre]            |   G    | 2 x N auras, N [pierres][pierre], 1 [eau de vie]             |    1 |      -- |  4   |                        |                    |
-| [Danse de la pluie]                     |   C    | N auras                                                      |    3 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Dévoreur de magie]                     |   T    | 4 x N auras                                                  |    5 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Dirigeable]                            |   T    | 10 auras, 1 [gousse], 1 [pétale de cristal de neige]         |    6 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Dissimulation d'aura]                  |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Dissonance du silence]                 |   C    | 5 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Divination]                            |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Docteur Miracle]                       |   T    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Don du Chaos]                          |   D    | 6 auras                                                      |    3 |      -- |  3   | :heavy_check_mark:     |                    |
-| [Écoute clandestine]                    |   C    | 4 auras, 100 silver                                          |    7 |      -- |  5   |                        |                    |
-| [Endormissement]                        |   I    | N auras                                                      |    7 |  Combat |  5   |                        |                    |
-| [Esprits du Gardien de l'Astral]        |   G    | 5 x N auras                                                  |    5 |  Pré-c. |  2   |                        |                    |
-| [Éveil des Ents]                        |   G    | 6 x N auras                                                  |   10 |      -- |  5   |                        |                    |
-| [Feuerteufel]                           |   D    | 50 auras, 1 [huile]                                          |   10 |      -- |  5   |                        | :heavy_check_mark: |
-| [Folie de la guerre]                    |   D    | 3 x N auras, 10 Bauern                                       |    8 |  Pré-c. |  5   |                        |                    |
-| [Fuite de l'Astral]                     |   D    | 35 auras, 1 [[sang-de-dragon]]                               |    9 |      -- |  3   |                        |                    |
-| [Gardien de la Montagne]                |   G    | 3 x N auras                                                  |    3 |      -- |  5   |                        | :heavy_check_mark: |
-| [Gesang der Friedfertigkeit]            |   C    | 20 x N auras                                                 |   12 |      -- |  5   |                        |                    |
-| [Gesang der Melancholie]                |   C    | 40 auras                                                     |   11 |      -- |  5   |                        | :heavy_check_mark: |
-| [Gesang der Versklavung]                |   C    | 40 auras                                                     |   13 |      -- |  5   |                        |                    |
-| [Gesang des schwachen Geistes]          |   C    | 2 x N auras                                                  |   12 |      -- |  2   |                        | :heavy_check_mark: |
-| [Gesang des wachen Geistes]             |   C    | 2 x N auras                                                  |   10 |      -- |  2   |                        | :heavy_check_mark: |
-| [Grêle]                                 |   G    | N auras                                                      |    3 |  Combat |  5   |                        |                    |
-| [Guérison du bétail]                    |   G    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Guérison]                              |   G    | N auras                                                      |    5 | Post-c. |  5   |                        |                    |
-| [Gueule de bois]                        |   C    | 28 auras, 3 [racines de nœud], 50 silver                     |    7 |      -- |  5   |                        |                    |
-| [Héros morts‑vivants]                   |   D    | N auras                                                      |    9 | Post-c. |  5   |                        |                    |
-| [Hitzeelementar]                        |   G    | 600 auras                                                    |   13 |      -- |  5   |                        | :heavy_check_mark: |
-| [Hohe Kunst der Überzeugung]            |   C    | 20 x N auras                                                 |   14 |      -- |  5   |                        |                    |
-| [Horreurs indicibles]                   |   I    | N auras                                                      |    2 |  Pré-c. |  5   |                        |                    |
-| [Hurlement des Loups]                   |   G    | 2 x N auras                                                  |    7 |  Pré-c. |  5   |                        |                    |
-| [Hymne du partage d'aura]               |   C    | 2 auras                                                      |    5 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Imprécation]                           |   D    | N auras                                                      |    1 |      -- |  5   |                        |                    |
-| [Insomnie]                              |   I    | 18 auras                                                     |    6 |      -- |  5   |                        | :heavy_check_mark: |
-| [Intrusion mentale]                     |   I    | 20 auras                                                     |    7 |      -- |  5   |                        |                    |
-| [Invocation de l'Astral]                |   T    | 2 x N auras                                                  |    6 |      -- |  7   |                        |                    |
-| [Invocation de l'Eau]                   |   G    | N auras                                                      |    4 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Invocation de la Réalité]              |   T    | 2 x N auras                                                  |    6 |      -- |  7   |                        |                    |
-| [Invocation de la Tempête]              |   G    | 6 x N auras                                                  |    6 |      -- |  5   | :heavy_check_mark:[^3] |                    |
-| [Invocation de la Terre]                |   G    | 25 auras, 2 [laen]                                           |    7 |      -- |  5   |                        | :heavy_check_mark: |
-| [Invocation des Démons de l'Ombre]      |   D    | 3 x N auras                                                  |    8 |      -- |  5   |                        |                    |
-| [Invocation du Dragon]                  |   D    | 80 auras, 1 [tete-de-dragon]                                 |   11 |      -- |  5   |                        | :heavy_check_mark: |
-| [Invocation du Familier]                | \*[^1] | 100 auras, 5 auras permanents                                | [^2] |      -- |  5   |                        |                    |
-| [Jonglerie]                             |   C    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Le manteau de Firun]                   | \*[^1] | 2 x N auras                                                  |    3 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Lecture des rêves]                     |   I    | 8 auras                                                      |    4 |      -- |  5   |                        | :heavy_check_mark: |
-| [Liens de Vie]                          |   G    | 2 x N auras                                                  |    9 |      -- |  7   |                        |                    |
-| [Magie du bosquet de chêne]             |   G    | 4 x N auras, N [bois], 1 [eau de vie]                        |    2 |      -- |  5   |                        | :heavy_check_mark: |
-| [Mahlstrom]                             |   G    | 200 auras, 1 tête de serpent de mer                          |   15 |      -- |  5   | :heavy_check_mark:[^3] |                    |
-| [Malédiction de la peste]               |   D    | 30 auras, 50 paysans                                         |    7 |      -- |  5   |                        | :heavy_check_mark: |
-| [Malédiction du Chaos]                  |   D    | 4 x N auras                                                  |    5 |      -- |  4   |                        |                    |
-| [Méditation]                            |   G    | 2 auras                                                      |    6 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Miriams flinke Finger]                 |   C    | 20 auras, 1000 silver, 1 aura permanent                      |   11 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Mob aufwiegeln]                        |   C    | 4 x N auras                                                  |   10 |      -- |  5   |                        |                    |
-| [Monstres paisibles]                    |   C    | 15 auras                                                     |    6 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Moulin à paroles]                      |   C    | 10 auras                                                     |    4 |      -- |  5   |                        |                    |
-| [Mur de feu]                            |   D    | 6 x N auras                                                  |    7 |      -- |  4   |                        |                    |
-| [Murs d'éternité]                       |   T    | 50 auras, 1 aura permanent                                   |    7 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Onde de choc]                          |   T    | N auras                                                      |    5 |  Combat |  5   |                        |                    |
-| [Opfere Kraft]                          |   T    | 100 auras                                                    |   15 |      -- |  1   |                        |                    |
-| [Peau d'écorce]                         |   G    | 4 x N auras                                                  |   12 |  Pré-c. |  2   |                        |                    |
-| [Pentagramme]                           |   D    | 10 x N auras                                                 |   10 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Petit sacrifice de sang]               |   D    | 16 PV                                                        |    4 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Petites malédictions]                  |   D    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Pierre de maison]                      |   G    | 50 auras, 1 aura permanent                                   |    7 |      -- |  5   |                        |                    |
-| [Pluie de rouille]                      |   G    | 2 x N auras                                                  |    3 |      -- |  5   |                        | :heavy_check_mark: |
-| [Portail puissant et Mur robuste]       |   G    | 2 x N auras                                                  |    8 |  Pré-c. |  5   |                        |                    |
-| [Pouvoirs des morts]                    |   D    | 5 x N auras                                                  |    6 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Préservation du butin]                 |   T    | N auras                                                      |    3 | Post-c. |  5   |                        |                    |
-| [Protection contre la magie]            |   T    | 3 x N auras                                                  |    2 |  Pré-c. |  2   |                        |                    |
-| [Regard du Basilic]                     |   G    | N auras                                                      |    8 |  Combat |  5   |                        |                    |
-| [Repos éternel]                         |   I    | 3 x N auras, 1 [eau de vie]                                  |    2 |      -- |  5   |                        |                    |
-| [Résistance à la magie]                 |   T    | 5 x N auras                                                  |    3 |      -- |  2   | :heavy_check_mark:     |                    |
-| [Résurrection]                          |   I    | N auras                                                      |    5 | Post-c. |  4   |                        |                    |
-| [Rêve de magie]                         |   I    | 2 auras                                                      |    3 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Rêve]                                  |   I    | N auras                                                      |    1 |      -- |  5   | :heavy_check_mark:     |                    |
-| [Ritual der Aufnahme]                   |   C    | 3 x N auras, N auras permanents                              |    9 |      -- |  5   |                        |                    |
-| [Runes de protection]                   |   T    | 20 auras                                                     |    8 |      -- |  2   | :heavy_check_mark:     |                    |
-| [Schlechte Träume]                      |   I    | 90 auras                                                     |   10 |      -- |  5   |                        | :heavy_check_mark: |
-| [Schöne Träume]                         |   I    | 80 auras                                                     |    8 |      -- |  5   |                        | :heavy_check_mark: |
-| [Segne Steinkreis]                      |   G    | 350 auras, 5 auras permanents                                |   11 |      -- |  5   |                        |                    |
-| [Soif de sang]                          |   D    | 5 x N auras, 1 paysan                                        |    5 |  Pré-c. |  4   |                        |                    |
-| [Sortie de l'Astral]                    |   T    | 2 x N auras                                                  |    4 |      -- |  7   |                        |                    |
-| [Störe Astrale Integrität]              |   T    | 140 auras                                                    |   14 |      -- |  4   |                        |                    |
-| [Süße Träume]                           |   I    | 5 x N auras                                                  |   12 |      -- |  5   |                        |                    |
-| [Terre Sacrée]                          |   G    | 80 auras, 3 auras permanents                                 |    9 |      -- |  5   |                        |                    |
-| [Tod des Geistes]                       |   I    | 2 x N auras                                                  |   11 |  Pré-c. |  5   |                        |                    |
-| [Todeswolke]                            |   D    | 40 auras, 15 PV                                              |   11 |      -- |  5   |                        | :heavy_check_mark: |
-| [Tor in die Ebene der Hitze]            |   F    | 800 auras                                                    |   17 |      -- |  5   |                        | :heavy_check_mark: |
-| [Tourbillon]                            |   G    | 15 auras                                                     |    5 |  Pré-c. |  5   |                        |                    |
-| [Transfert d'aura]                      |   T    | 1 aura                                                       |    5 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Transfert de pouvoir]                  |   D    | 2 auras                                                      |    7 |      -- |  1   | :heavy_check_mark:     |                    |
-| [Traumbilder entwirren]                 |   I    | 6 x N auras                                                  |    8 |      -- |  2   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Unheilige Kraft]                       |   D    | 10 x N auras, 5 x N paysans                                  |   14 |      -- |  5   |                        |                    |
-| [Vents de rouille]                      |   D    | 2 x N auras                                                  |    6 |  Combat |  5   |                        |                    |
-| [Voie de l'Astral]                      |   T    | 2 x N auras                                                  |    4 |      -- |  7   |                        |                    |
-| [Voie des Arbres]                       |   G    | 3 x N auras                                                  |    9 |      -- |  7   |                        |                    |
-| [Voie magique]                          |   G    | N auras, 1 [pierre], 1 bois                                  |    4 |      -- |  5   | :heavy_check_mark:     | :heavy_check_mark: |
-| [Vol d'aura]                            |   T    | 2 x N auras                                                  |    6 |      -- |  3   |                        | :heavy_check_mark: |
-| [Wurzeln der Magie]                     |   G    | 250 auras, 10 auras permanents, 1 pot de bave de crapaud     |   16 |      -- |  5   |                        | :heavy_check_mark: |
-| [Zeitdehnung]                           |   T    | 5 x N auras                                                  |   11 |      -- |  5   | :heavy_check_mark:     |                    |
+| Nom                                     | École  | Composants                                                  | Niv. |    Type | Rang | B                                | D                            |
+|-----------------------------------------|:------:|-------------------------------------------------------------|-----:|--------:|:----:|:---------------------------------|:-----------------------------|
+| [Accélération]                          |   T    | 5 x N aura                                                  |    9 |  Pré-c. |  5   |                                  |                              |
+| [Affaiblissement]                       |   I    | 4 x N aura                                                  |    4 |  Pré-c. |  5   |                                  |                              |
+| [Analyse de la Magie]                   |   T    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Analyse des rêves]                     |   I    | 25 aura                                                     |    5 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Analyse du chant de la Vie]            |   C    | 10 aura                                                     |    5 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Analyses]                              |   C    | 3 x N aura                                                  |    8 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Antimagie]                             |   T    | 3 x N aura                                                  |    5 |      -- |  2   |                                  | :material-check:{ .success } |
+| [Aufruhr beschwichtigen]                |   C    | 30 aura                                                     |   15 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Aufruhr verursachen]                   |   C    | 40 aura                                                     |   16 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Bannissement des Esprits]              |   G    | 6 x N aura                                                  |    8 |      -- |  2   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Bâton de Mallorn]                      |   G    | 6 x N aura, N [mallorns], 1 [eau de vie]                    |    4 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Belebtes Gestein]                      |   T    | 10 x N aura, 1 aura permanent, 5 [laen]                     |   13 |      -- |  5   |                                  |                              |
+| [Bénédiction de la terre]               |   G    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Beschwöre Schattenmeister]             |   D    | 7 x N aura                                                  |   12 |      -- |  5   |                                  |                              |
+| [Blick in die Realität]                 |   T    | 40 aura                                                     |   10 |      -- |  5   |                                  |                              |
+| [Bouclier aérien]                       |   G    | 2 x N aura                                                  |    4 |  Pré-c. |  5   | :material-check:{ .success }     |                              |
+| [Bouclier d'armure]                     |   T    | 4 x N aura                                                  |   12 |  Pré-c. |  2   |                                  |                              |
+| [Bouclier du poisson]                   |   T    | 4 x N aura                                                  |    8 |  Pré-c. |  2   |                                  |                              |
+| [Boule de feu]                          |   D    | N aura                                                      |    2 |  Combat |  5   |                                  |                              |
+| [Brise‑malédiction]                     |   T    | 3 x N aura                                                  |    7 |      -- |  3   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Changement de forme]                   |   I    | N aura                                                      |    3 |      -- |  5   |                                  |                              |
+| [Chant apaisant]                        |   C    | 2 aura                                                      |    1 |  Pré-c. |  5   |                                  |                              |
+| [Chant d'effroi]                        |   C    | 5 x N aura                                                  |    8 |  Pré-c. |  5   |                                  |                              |
+| [Chant de confusion]                    |   C    | 2 x N aura                                                  |    4 |  Pré-c. |  5   |                                  |                              |
+| [Chant de contre]                       |   C    | 5 x N aura                                                  |    5 |  Pré-c. |  2   |                                  |                              |
+| [Chant de cour]                         |   C    | 2 x N aura                                                  |    4 |      -- |  5   |                                  |                              |
+| [Chant de générosité]                   |   C    | 2 x N aura                                                  |    2 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Chant de guérison]                     |   C    | N aura                                                      |    2 | Post-c. |  5   |                                  |                              |
+| [Chant de guerre]                       |   C    | 5 x N aura                                                  |    7 |  Pré-c. |  4   |                                  |                              |
+| [Chant de séduction]                    |   C    | 12 aura                                                     |    6 |      -- |  5   |                                  |                              |
+| [Chant de terreur]                      |   C    | N aura                                                      |    3 |  Combat |  5   |                                  |                              |
+| [Chant des héros]                       |   C    | 2 x N aura                                                  |    5 |  Pré-c. |  4   |                                  |                              |
+| [Chaos de l'Astral]                     |   D    | 6 x N aura                                                  |    9 |  Pré-c. |  2   |                                  |                              |
+| [Chaossog]                              |   D    | 150 aura, 200 paysans                                       |   14 |      -- |  5   |                                  |                              |
+| [Château d'Illusion]                    |   I    | 3 aura                                                      |    3 |      -- |  5   |                                  |                              |
+| [Chevaliers de l'Ombre]                 |   I    | N aura                                                      |    1 |  Pré-c. |  4   |                                  |                              |
+| [Créer un Sac à poids négatif]          |   T    | 30 aura, 1 aura permanent, 5 000 silver                     |   10 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer une Ceinture de force de troll]  |   D    | 20 aura, 1 aura permanent                                   |    9 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer un Dream-Eye]                    |   I    | 1 [tête de dragon], 5 aura permanents                       |   14 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer une Épée de Flammes]             |   D    | 100 aura, 1 [sang de berserker], 1 [épée], 1 aura permanent |   12 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer un Sac à herbes magique]         |   G    | 30 aura, 1 aura permanent, 1 [eau de vie]                   |    5 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer un Anneau d'Invisibilité]        | \*[^1] | 50 aura, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer un Anneau de Pouvoir]            |   T    | 100 aura, 1 aura permanent, 4000 silver                     |    9 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer une Sphère d'Invisibilité]       |   13   | 150 aura, 30 000 silver, 3 aura permanents                  |      |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer une Amulette de vision décuplée] |   C    | 50 aura, 3 000 silver, 1 aura permanent                     |    6 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer un Cristal d'Antimagie]          |   T    | 50 aura, 3 000 silver                                       |    7 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Créer des Golems de Fer]               |   G    | 2 x N aura, N [fers], 1 [eau de vie]                        |    2 |      -- |  4   |                                  |                              |
+| [Créer des Golems de Pierre]            |   G    | 2 x N aura, N [pierres][pierre], 1 [eau de vie]             |    1 |      -- |  4   |                                  |                              |
+| [Danse de la pluie]                     |   C    | N aura                                                      |    3 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Dévoreur de magie]                     |   T    | 4 x N aura                                                  |    5 |      -- |  2   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Dirigeable]                            |   T    | 10 aura, 1 [gousse], 1 [pétale de cristal de neige]         |    6 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Dissimulation d'aura]                  |   T    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Dissonance du silence]                 |   C    | 5 x N aura                                                  |    8 |      -- |  2   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Divination]                            |   I    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Docteur Miracle]                       |   T    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Don du Chaos]                          |   D    | 6 aura                                                      |    3 |      -- |  3   | :material-check:{ .success }     |                              |
+| [Écoute clandestine]                    |   C    | 4 aura, 100 silver                                          |    7 |      -- |  5   |                                  |                              |
+| [Endormissement]                        |   I    | N aura                                                      |    7 |  Combat |  5   |                                  |                              |
+| [Esprits du Gardien de l'Astral]        |   G    | 5 x N aura                                                  |    5 |  Pré-c. |  2   |                                  |                              |
+| [Éveil des Ents]                        |   G    | 6 x N aura                                                  |   10 |      -- |  5   |                                  |                              |
+| [Feuerteufel]                           |   D    | 50 aura, 1 [huile]                                          |   10 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Folie de la guerre]                    |   D    | 3 x N aura, 10 paysans                                      |    8 |  Pré-c. |  5   |                                  |                              |
+| [Fuite de l'Astral]                     |   D    | 35 aura, 1 [[sang-de-dragon]]                               |    9 |      -- |  3   |                                  |                              |
+| [Gardien de la Montagne]                |   G    | 3 x N aura                                                  |    3 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Gesang der Friedfertigkeit]            |   C    | 20 x N aura                                                 |   12 |      -- |  5   |                                  |                              |
+| [Gesang der Melancholie]                |   C    | 40 aura                                                     |   11 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Gesang der Versklavung]                |   C    | 40 aura                                                     |   13 |      -- |  5   |                                  |                              |
+| [Gesang des schwachen Geistes]          |   C    | 2 x N aura                                                  |   12 |      -- |  2   |                                  | :material-check:{ .success } |
+| [Gesang des wachen Geistes]             |   C    | 2 x N aura                                                  |   10 |      -- |  2   |                                  | :material-check:{ .success } |
+| [Grêle]                                 |   G    | N aura                                                      |    3 |  Combat |  5   |                                  |                              |
+| [Guérison du bétail]                    |   G    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Guérison]                              |   G    | N aura                                                      |    5 | Post-c. |  5   |                                  |                              |
+| [Gueule de bois]                        |   C    | 28 aura, 3 [racines de nœud], 50 silver                     |    7 |      -- |  5   |                                  |                              |
+| [Héros morts‑vivants]                   |   D    | N aura                                                      |    9 | Post-c. |  5   |                                  |                              |
+| [Hitzeelementar]                        |   G    | 600 aura                                                    |   13 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Hohe Kunst der Überzeugung]            |   C    | 20 x N aura                                                 |   14 |      -- |  5   |                                  |                              |
+| [Horreurs indicibles]                   |   I    | N aura                                                      |    2 |  Pré-c. |  5   |                                  |                              |
+| [Hurlement des Loups]                   |   G    | 2 x N aura                                                  |    7 |  Pré-c. |  5   |                                  |                              |
+| [Hymne du partage d'aura]               |   C    | 2 aura                                                      |    5 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Imprécation]                           |   D    | N aura                                                      |    1 |      -- |  5   |                                  |                              |
+| [Insomnie]                              |   I    | 18 aura                                                     |    6 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Intrusion mentale]                     |   I    | 20 aura                                                     |    7 |      -- |  5   |                                  |                              |
+| [Invocation de l'Astral]                |   T    | 2 x N aura                                                  |    6 |      -- |  7   |                                  |                              |
+| [Invocation de l'Eau]                   |   G    | N aura                                                      |    4 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Invocation de la Réalité]              |   T    | 2 x N aura                                                  |    6 |      -- |  7   |                                  |                              |
+| [Invocation de la Tempête]              |   G    | 6 x N aura                                                  |    6 |      -- |  5   | :material-check:{ .success }[^3] |                              |
+| [Invocation de la Terre]                |   G    | 25 aura, 2 [laen]                                           |    7 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Invocation des Démons de l'Ombre]      |   D    | 3 x N aura                                                  |    8 |      -- |  5   |                                  |                              |
+| [Invocation du Dragon]                  |   D    | 80 aura, 1 [tête de dragon]                                 |   11 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Invocation du Familier]                | \*[^1] | 100 aura, 5 aura permanents                                 | [^2] |      -- |  5   |                                  |                              |
+| [Jonglerie]                             |   C    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Le manteau de Firun]                   | \*[^1] | 2 x N aura                                                  |    3 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Lecture des rêves]                     |   I    | 8 aura                                                      |    4 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Liens de Vie]                          |   G    | 2 x N aura                                                  |    9 |      -- |  7   |                                  |                              |
+| [Magie du bosquet de chêne]             |   G    | 4 x N aura, N [bois], 1 [eau de vie]                        |    2 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Mahlstrom]                             |   G    | 200 aura, 1 [tête de serpent de mer]                        |   15 |      -- |  5   | :material-check:{ .success }[^3] |                              |
+| [Malédiction de la peste]               |   D    | 30 aura, 50 paysans                                         |    7 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Malédiction du Chaos]                  |   D    | 4 x N aura                                                  |    5 |      -- |  4   |                                  |                              |
+| [Méditation]                            |   G    | 2 aura                                                      |    6 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Miriams flinke Finger]                 |   C    | 20 aura, 1000 silver, 1 aura permanent                      |   11 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Mob aufwiegeln]                        |   C    | 4 x N aura                                                  |   10 |      -- |  5   |                                  |                              |
+| [Monstres paisibles]                    |   C    | 15 aura                                                     |    6 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Moulin à paroles]                      |   C    | 10 aura                                                     |    4 |      -- |  5   |                                  |                              |
+| [Mur de feu]                            |   D    | 6 x N aura                                                  |    7 |      -- |  4   |                                  |                              |
+| [Murs d'éternité]                       |   T    | 50 aura, 1 aura permanent                                   |    7 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Onde de choc]                          |   T    | N aura                                                      |    5 |  Combat |  5   |                                  |                              |
+| [Opfere Kraft]                          |   T    | 100 aura                                                    |   15 |      -- |  1   |                                  |                              |
+| [Peau d'écorce]                         |   G    | 4 x N aura                                                  |   12 |  Pré-c. |  2   |                                  |                              |
+| [Pentagramme]                           |   D    | 10 x N aura                                                 |   10 |      -- |  2   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Petit sacrifice de sang]               |   D    | 16 PV                                                       |    4 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Petites malédictions]                  |   D    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Pierre de maison]                      |   G    | 50 aura, 1 aura permanent                                   |    7 |      -- |  5   |                                  |                              |
+| [Pluie de rouille]                      |   G    | 2 x N aura                                                  |    3 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Portail puissant et Mur robuste]       |   G    | 2 x N aura                                                  |    8 |  Pré-c. |  5   |                                  |                              |
+| [Pouvoirs des morts]                    |   D    | 5 x N aura                                                  |    6 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Préservation du butin]                 |   T    | N aura                                                      |    3 | Post-c. |  5   |                                  |                              |
+| [Protection contre la magie]            |   T    | 3 x N aura                                                  |    2 |  Pré-c. |  2   |                                  |                              |
+| [Regard du Basilic]                     |   G    | N aura                                                      |    8 |  Combat |  5   |                                  |                              |
+| [Repos éternel]                         |   I    | 3 x N aura, 1 [eau de vie]                                  |    2 |      -- |  5   |                                  |                              |
+| [Résistance à la magie]                 |   T    | 5 x N aura                                                  |    3 |      -- |  2   | :material-check:{ .success }     |                              |
+| [Résurrection]                          |   I    | N aura                                                      |    5 | Post-c. |  4   |                                  |                              |
+| [Rêve de magie]                         |   I    | 2 aura                                                      |    3 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Rêve]                                  |   I    | N aura                                                      |    1 |      -- |  5   | :material-check:{ .success }     |                              |
+| [Ritual der Aufnahme]                   |   C    | 3 x N aura, N aura permanents                               |    9 |      -- |  5   |                                  |                              |
+| [Runes de protection]                   |   T    | 20 aura                                                     |    8 |      -- |  2   | :material-check:{ .success }     |                              |
+| [Schlechte Träume]                      |   I    | 90 aura                                                     |   10 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Schöne Träume]                         |   I    | 80 aura                                                     |    8 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Segne Steinkreis]                      |   G    | 350 aura, 5 aura permanents                                 |   11 |      -- |  5   |                                  |                              |
+| [Soif de sang]                          |   D    | 5 x N aura, 1 paysan                                        |    5 |  Pré-c. |  4   |                                  |                              |
+| [Sortie de l'Astral]                    |   T    | 2 x N aura                                                  |    4 |      -- |  7   |                                  |                              |
+| [Störe Astrale Integrität]              |   T    | 140 aura                                                    |   14 |      -- |  4   |                                  |                              |
+| [Süße Träume]                           |   I    | 5 x N aura                                                  |   12 |      -- |  5   |                                  |                              |
+| [Terre Sacrée]                          |   G    | 80 aura, 3 aura permanents                                  |    9 |      -- |  5   |                                  |                              |
+| [Tod des Geistes]                       |   I    | 2 x N aura                                                  |   11 |  Pré-c. |  5   |                                  |                              |
+| [Todeswolke]                            |   D    | 40 aura, 15 PV                                              |   11 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Tor in die Ebene der Hitze]            |   F    | 800 aura                                                    |   17 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Tourbillon]                            |   G    | 15 aura                                                     |    5 |  Pré-c. |  5   |                                  |                              |
+| [Transfert d'aura]                      |   T    | 1 aura                                                      |    5 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Transfert de pouvoir]                  |   D    | 2 aura                                                      |    7 |      -- |  1   | :material-check:{ .success }     |                              |
+| [Traumbilder entwirren]                 |   I    | 6 x N aura                                                  |    8 |      -- |  2   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Unheilige Kraft]                       |   D    | 10 x N aura, 5 x N paysans                                  |   14 |      -- |  5   |                                  |                              |
+| [Vents de rouille]                      |   D    | 2 x N aura                                                  |    6 |  Combat |  5   |                                  |                              |
+| [Voie de l'Astral]                      |   T    | 2 x N aura                                                  |    4 |      -- |  7   |                                  |                              |
+| [Voie des Arbres]                       |   G    | 3 x N aura                                                  |    9 |      -- |  7   |                                  |                              |
+| [Voie magique]                          |   G    | N aura, 1 [pierre], 1 [bois]                                |    4 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
+| [Vol d'aura]                            |   T    | 2 x N aura                                                  |    6 |      -- |  3   |                                  | :material-check:{ .success } |
+| [Wurzeln der Magie]                     |   G    | 250 aura, 10 aura permanents, 1 pot de bave de crapaud      |   16 |      -- |  5   |                                  | :material-check:{ .success } |
+| [Zeitdehnung]                           |   T    | 5 x N aura                                                  |   11 |      -- |  5   | :material-check:{ .success }     |                              |
 
 Poursuivre la lecture : [[alchimie|potions]].
 
@@ -182,6 +182,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Aufruhr beschwichtigen]: ./spells-descriptions.md#aufruhr-beschwichtigen "Aufruhr beschwichtigen"
 [Aufruhr verursachen]: ./spells-descriptions.md#aufruhr-verursachen "Aufruhr verursachen"
 [Bannissement des Esprits]: ./spells-descriptions.md#bannissement-des-esprits "Banish Spirits"
+[Bâton de Mallorn]: ./spells-descriptions.md#baton-de-mallorn "Mallorn quarterstaff"
 [Belebtes Gestein]: ./spells-descriptions.md#belebtes-gestein "Belebtes Gestein"
 [Beschwöre Schattenmeister]: ./spells-descriptions.md#beschwore-schattenmeister "Beschwöre Schattenmeister"
 [Blick in die Realität]: ./spells-descriptions.md#blick-in-die-realitat "Blick in die Realität"
@@ -246,7 +247,7 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Hohe Kunst der Überzeugung]: ./spells-descriptions.md#hohe-kunst-der-uberzeugung "Hohe Kunst der Überzeugung"
 [Horreurs indicibles]: ./spells-descriptions.md#horreurs-indicibles "Unspeakable Horrors"
 [Hurlement des Loups]: ./spells-descriptions.md#hurlement-des-loups "Timber Wolves"
-[Hymne du partage d'aura]: ./spells-descriptions.md#hymne-du-partage-daura Auras Hymn of Aura Sharing"
+[Hymne du partage d'aura]: ./spells-descriptions.md#hymne-du-partage-daura "Hymn of Aura Sharing"
 [Héros morts‑vivants]: ./spells-descriptions.md#heros-mortsvivants "Undead Heroes"
 [Imprécation]: ./spells-descriptions.md#imprecation "Hex"
 [Insomnie]: ./spells-descriptions.md#insomnie "Insomnia"
@@ -296,7 +297,6 @@ Poursuivre la lecture : [[alchimie|potions]].
 [Rêve]: ./spells-descriptions.md#reve "Dream"
 [Schlechte Träume]: ./spells-descriptions.md#schlechte-traume "Schlechte Träume"
 [Schöne Träume]: ./spells-descriptions.md#schone-traume "Schöne Träume"
-[Segne Mallornstecken]: ./spells-descriptions.md#baton-de-mallorn "Mallorn quarterstaff"
 [Segne Steinkreis]: ./spells-descriptions.md#segne-steinkreis "Segne Steinkreis"
 [Soif de sang]: ./spells-descriptions.md#soif-de-sang "Blood Frenzy"
 [Sortie de l'Astral]: ./spells-descriptions.md#sortie-de-lastral "Astral Exit"
@@ -331,5 +331,8 @@ Poursuivre la lecture : [[alchimie|potions]].
 [pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
 [racines de nœud]: ./herbs.md#racine-de-nud "Knotroot"
 [sang de berserker]: ./alchemy.md#sang-de-berserker "Berserkers blood"
-[tete-de-dragon]: ./dragonhead.md "Dragonhead"
 [épée]: ./war-tables.md#epee "Sword"
+[tête de dragon]: ./dragonhead.md "Dragonhead"
+<!-- TODO -->
+[tête de serpent de mer] : ./dragonhead.md "Dragonhead"
+[huile]: ./silver.md#huile "Oil"

@@ -4,7 +4,9 @@ alias: sorts-cerddor
 ---
 # Sorts Cerddor
 
-Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.
+Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.  
+
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast]] ou [[cmd-combatspell]] lancés.*
 
 ## Niveau 1
 
@@ -20,7 +22,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  2 auras   |  1   | Pré-c. |  5   |   |   |
+|   2 aura   |  1   | Pré-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
@@ -34,9 +36,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
     Même les débutants apprennent les petits trucs et tours de magie qui peuvent être utilisés pour attirer et séduire les gens et leur faire ouvrir très grand leur portefeuille,  
     et à la fin de la semaine, le jongleur aura gagné 50 silver par niveau.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  N auras   |  1   | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   N aura   |  1   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST [LEVEL n] Jugglery`  
 
@@ -51,9 +53,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 :   Cette chanson joyeuse se répandra comme une rumeur dans toute la région et mettra le monde entier dans une ambiance de fête.  
     Les tavernes et les théâtres seront partout pleins et même les mendiants seront nourris.
 
-| Composants  | Niv. |  Type  | Rang |         B          |         D          |
-|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-| 2 x N auras |  2   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang |              B               |              D               |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 2 x N aura |  2   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
@@ -69,7 +71,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 | Composants | Niv. |  Type   | Rang | B | D |
 |:----------:|:----:|:-------:|:----:|:-:|:-:|
-|  N auras   |  2   | Post-c. |  5   |   |   |
+|   N aura   |  2   | Post-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
@@ -87,7 +89,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  N auras   |  3   | Combat |  5   |   |   |
+|   N aura   |  3   | Combat |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
@@ -100,9 +102,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 :   Cet ancien rituel de danse invoque les forces de vie et de fertilité.  
     Les rendements des agriculteurs seront nettement meilleurs pendant plusieurs semaines.
 
-| Composants | Niv. |  Type  | Rang |         B          |         D          |
-|:----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  N auras   |  3   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang |              B               |              D               |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|   N aura   |  3   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
@@ -118,9 +120,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
     Quiconque est sous l'influence de cette chanson ne prêtera pas attention à la mélodie de son environnement, son esprit deviendra confus et cédera de manière erratique à des inspirations soudaines.  
     On dit que des armées bien ordonnées ont soudainement trouvé leurs archers loin devant et leur cavalerie jouant aux cartes avec les gardes du camp (ou leur chef dormant dans le camp abandonné depuis longtemps, comme cela se serait effectivement produit lors des grandes guerres de l'Ancien Monde).
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N auras |  4   | Pré-c. |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura |  4   | Pré-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
@@ -134,9 +136,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
     « Cette petite mélodie séduisante et quelques mots insinuants vainquent en un instant la méfiance des paysans.  
     Ils vous rejoindront avec enthousiasme et laisseront eux-mêmes leur maison et leur cour en ruines. »
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N auras |  4   | Normal |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura |  4   | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Song of Courting"`  
 
@@ -151,7 +153,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  10 auras  |  4   | Normal |  5   |   |   |
+|  10 aura   |  4   | Normal |  5   |   |   |
 
 `CAST "Blabbermouth" <unit-id>`  
 
@@ -166,9 +168,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 :   Ce chant strident résonne sur tout le champ de bataille.  
     Les dissonances particulières des mélodies rendent presque impossible aux mages de se concentrer sur leurs sorts.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 5 x N auras |  5   | Pré-c. |  2   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 5 x N aura |  5   | Pré-c. |  2   |   |   |
 
 `COMBATSPELL [LEVEL n] "Countersong"`  
 
@@ -180,9 +182,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 <!-- TODO: check values below -->
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  2 auras   |  5   | Normal |  1   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   2 aura   |  5   | Normal |  1   | :material-check:{ .success } |   |
 
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
@@ -198,9 +200,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
     Ce chant aide à entendre les changements dans le chant de la vie d'une personne qui sont de nature magique.  
     Vous pourrez déchiffrer et démasquer tous les enchantements qui ne sont pas plus masqués que vos capacités.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  10 auras  |  5   | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|  10 aura   |  5   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
@@ -213,9 +215,9 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 :   Cet ancien chant de bataille remonte le moral de vos troupes et les aide également à résister à l'aura effrayante des êtres démoniaques et morts-vivants.  
 Un guerrier aussi solide ne fuira pas même dans des situations difficiles et son comportement réfléchi lui donnera de nombreux avantages en défense.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N auras |  5   | Pré-c. |  4   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura |  5   | Pré-c. |  4   |   |   |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
@@ -231,9 +233,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
     Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
 
-|                Composants                | Niv. |  Type  | Rang |         B          | D |
-|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -247,9 +249,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
-|                Composants                | Niv. |  Type  | Rang |         B          | D |
-|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -264,7 +266,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  12 auras  |  6   | Normal |  5   |   |   |
+|  12 aura   |  6   | Normal |  5   |   |   |
 
 `CAST "Song of Seduction" <unit-id>`  
 
@@ -278,9 +280,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Il s'abstiendra d'attaquer le mage et ne touchera pas ses compagnons.  
     Mais ne vous y trompez pas, il restera toujours une créature imprévisible.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  15 auras  |  6   | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|  15 aura   |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Calm Monster" <unit-id>`  
 
@@ -296,9 +298,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     S’il n’y a personne de son parti dans la région, elle n’a rien à signaler.  
     Elle ne peut également dire que ce qu'elle a pu voir elle-même.
 
-|     Composants      | Niv. |  Type  | Rang | B | D |
-|:-------------------:|:----:|:------:|:----:|:-:|:-:|
-| 4 auras, 100 silver |  7   | Normal |  5   |   |   |
+|     Composants     | Niv. |  Type  | Rang | B | D |
+|:------------------:|:----:|:------:|:----:|:-:|:-:|
+| 4 aura, 100 silver |  7   | Normal |  5   |   |   |
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
@@ -313,9 +315,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Indépendamment de leur propre souffrance, ils se battront jusqu’à la mort et ne fuiront jamais.  
     Alors que leur attaque s’intensifie, ils ne prêtent que peu d’attention à eux-mêmes.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 5 x N auras |  7   | Pré-c. |  4   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 5 x N aura |  7   | Pré-c. |  4   |   |   |
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
@@ -339,9 +341,9 @@ Cependant, le véritable danger inhérent à l’élixir n’est pas la tentatio
 Et il aura presque certainement oublié certaines de ses meilleures capacités pendant quelques jours, voire deux semaines d'études.  
 Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhaitez lancer d'autres sorts dans la même semaine, ils seront plus difficiles pour vous. »
 
-|                Composants                | Niv. |  Type  | Rang | B | D |
-|:----------------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 28 auras, 3 [racines de nœud], 50 silver |  7   | Normal |  5   |   |   |
+|               Composants                | Niv. |  Type  | Rang | B | D |
+|:---------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 28 aura, 3 [racines de nœud], 50 silver |  7   | Normal |  5   |   |   |
 
 `CAST "Hangover" <unit-id>`  
 
@@ -356,9 +358,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   Ce chant de guerre sème la panique sur les lignes de front ennemies et affaiblit ainsi considérablement leur force de combat.  
     La peur affaiblira leur bras d’épée et la peur paralysera leur bras de bouclier.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 5 x N auras |  8   | Pré-c. |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 5 x N aura |  8   | Pré-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
@@ -371,9 +373,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   Chaque enchantement affecte le Chant de Vie, l'affaiblissant et le déformant.  
     Le barde expérimenté peut tenter de capturer et d’amplifier le chant de la vie et d’effacer les changements du chant.
 
-| Composants  | Niv. |  Type  | Rang |         B          |         D          |
-|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-| 5 x N auras |  8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang |              B               |              D               |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 5 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -386,9 +388,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   Comme les êtres vivants, les bateaux, les bâtiments et même les régions ont leur propre chant, bien que beaucoup plus faible et plus difficile à entendre.  
     Et tout comme le chant de la vie d'une personne permet de savoir si elle est sous le charme, cela est également possible pour les châteaux, les bateaux ou les régions.
 
-| Composants  | Niv. |  Type  | Rang |         B          | D |
-|:-----------:|:----:|:------:|:----:|:------------------:|:-:|
-| 3 x N auras |  8   | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 3 x N aura |  8   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -407,9 +409,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à son groupe.  
     Il peut accueillir une personne par niveau et par aura permanente.
 
-|           Composants            | Niv. |  Type  | Rang | B | D |
-|:-------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 3 x N auras, N auras permanents |  9   | Normal |  5   |   |   |
+|          Composants           | Niv. |  Type  | Rang | B | D |
+|:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 3 x N aura, N aura permanents |  9   | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
@@ -421,9 +423,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 :   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
 
-|          Composants           | Niv. |  Type  | Rang | B | D |
-|:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 100 auras, 5 auras permanents |  9   | Normal |  5   |   |   |
+|         Composants          | Niv. |  Type  | Rang | B | D |
+|:---------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 100 aura, 5 aura permanents |  9   | Normal |  5   |   |   |
 
 `CAST "Summon Familiar"`  
 
@@ -439,9 +441,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.  
     Jusqu'à ce que la chanson disparaisse complètement, sa magie accordera à tous les alliés du barde (`HELP GUARD`), et bien sûr à son propre peuple, un bonus unique de 15 % à la résistance naturelle à un enchantement.
 
-| Composants  | Niv. |  Type  | Rang | B |         D          |
-|:-----------:|:----:|:------:|:----:|:-:|:------------------:|
-| 2 x N auras |  10  | Normal |  2   |   | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang | B |              D               |
+|:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 2 x N aura |  10  | Normal |  2   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
@@ -456,9 +458,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
     Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 4 x N auras |  10  | Normal |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 4 x N aura |  10  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
@@ -473,9 +475,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
     Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
 
-| Composants | Niv. |  Type  | Rang | B |         D          |
-|:----------:|:----:|:------:|:----:|:-:|:------------------:|
-|  40 auras  |  11  | Normal |  5   |   | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang | B |              D               |
+|:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
+|  40 aura   |  11  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Gesang der Melancholie"`  
 
@@ -491,9 +493,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.  
     Les artisans peuvent ainsi produire dix fois plus, ce qui pourrait également être utile dans d'autres activités.
 
-|                Composants                | Niv. |  Type  | Rang |         B          | D |
-|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 20 auras, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :heavy_check_mark: |   |
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 20 aura, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Miriams flinke Finger"`  
 
@@ -505,9 +507,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
     Les effets peuvent durer plusieurs semaines.
 
-|  Composants  | Niv. |  Type  | Rang | B | D |
-|:------------:|:----:|:------:|:----:|:-:|:-:|
-| 20 x N auras |  12  | Normal |  5   |   |   |
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 20 x N aura |  12  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
@@ -520,9 +522,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
     Seuls les alliés du barde (`HELP GUARD`) sont immunisés contre l'effet de la chanson.
 
-| Composants  | Niv. |  Type  | Rang | B |         D          |
-|:-----------:|:----:|:------:|:----:|:-:|:------------------:|
-| 2 x N auras |  12  | Normal |  2   |   | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang | B |              D               |
+|:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 2 x N aura |  12  | Normal |  2   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
@@ -539,7 +541,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  40 auras  |  13  | Normal |  5   |   |   |
+|  40 aura   |  13  | Normal |  5   |   |   |
 
 `CAST "Gesang der Versklavung" <unit-id>`  
 
@@ -551,13 +553,18 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 *(EN), Hohe Kunst der Überzeugung (DE)*.
 <!-- cspell:enable -->
 
-:   Extrait de « Errants » de Firudin le Sage :  
-    « À Weilersweide, près du port de Wythar, il y a une petite auberge rarement visitée.  
-    Personne ne sait que jusqu'à il y a quelques années cette ferme était la maison du prédicateur itinérant banni Grauwolf. force de persuasion. »
+<div class="lore-dialogue">
+"À Weilersweide, près du port de Wythar, se trouve une petite auberge rarement visitée.
+Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
+Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
+Il accepta de me révéler, à contrecœur, le secret de son éloquence."
+</di>
 
-|  Composants  | Niv. |  Type  | Rang | B | D |
-|:------------:|:----:|:------:|:----:|:-:|:-:|
-| 20 x N auras |  14  | Normal |  5   |   |   |
+Extrait de « Errants » de Firudin le Sage.  
+
+| Composants  | Niv. |  Type  | Rang | B | D |
+|:-----------:|:----:|:------:|:----:|:-:|:-:|
+| 20 x N aura |  14  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
@@ -568,9 +575,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
     Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
 
-| Composants | Niv. |  Type  | Rang | B |         D          |
-|:----------:|:----:|:------:|:----:|:-:|:------------------:|
-|  30 auras  |  15  | Normal |  5   |   | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang | B |              D               |
+|:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
+|  30 aura   |  15  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
@@ -582,9 +589,9 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
     Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
     Après quelques semaines, la foule se calme à nouveau.
 
-| Composants | Niv. |  Type  | Rang | B |         D          |
-|:----------:|:----:|:------:|:----:|:-:|:------------------:|
-|  40 auras  |  16  | Normal |  5   |   | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang | B |              D               |
+|:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
+|  40 aura   |  16  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr verursachen"`  
 

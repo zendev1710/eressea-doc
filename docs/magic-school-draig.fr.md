@@ -4,7 +4,9 @@ alias: sorts-draig
 ---
 # Sorts Draig
 
-Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.
+Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.  
+
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast]] ou [[cmd-combatspell]] lancés.*
 
 ## Niveau 1
 
@@ -19,9 +21,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     Que le fils du voisin soit entraîné dans un sortilège d'amour ou que le rival ait des boutons et des verrues, personne n'aime admettre qu'il a eu recours à de telles mesures.  
     Pour ce service, le mage gagne 50 silver par niveau.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  N auras   |  1   | Normal |  5   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   N aura   |  1   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST [LEVEL n] "Minor Curses"`  
 
@@ -35,7 +37,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  N auras   |  1   | Normal |  5   |   |   |
+|   N aura   |  1   | Normal |  5   |   |   |
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
@@ -51,7 +53,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
-|  N auras   |  2   | Combat |  5   |   |   |
+|   N aura   |  2   | Combat |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Fireball"`  
 
@@ -66,9 +68,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Le mage ouvre son esprit aux sphères du Chaos et disposera ainsi de plus de pouvoir magique pendant un certain temps.  
     Mais l’aide des Seigneurs des Sphères a un prix, et la phase de pouvoir est donc remplacée par une phase de faiblesse.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  6 auras   |  3   | Normal |  3   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   6 aura   |  3   | Normal |  3   | :material-check:{ .success } |   |
 
 `CAST "Chaos Gift"`  
 
@@ -85,9 +87,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     Ainsi est-il écrit dans le « Livre du Sang » : « Qu'Il établisse donc le signe des quatre éléments dans le cercle de la création et de la décomposition et consacre chacun d'entre eux avec une goutte de sang.  
     Alors laissez-le aller au milieu des Quatre Éternels et laissez la vie passer pour que la force puisse naître. »
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|   16 PV    |  4   | Normal |  1   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   16 PV    |  4   | Normal |  1   | :material-check:{ .success } |   |
 
 `CAST "Lesser Sacrifice"`  
 
@@ -102,9 +104,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Dans ce rituel sanglant, le mage sacrifie un nouveau-né devant son armée avant le combat.  
     Les esprits du sang ainsi invoqués prendront possession des soldats et les plongeront dans une soif de sang.
 
-|      Composants       | Niv. |  Type  | Rang | B | D |
-|:---------------------:|:----:|:------:|:----:|:-:|:-:|
-| 5 x N auras, 1 paysan |  5   | Pré-c. |  4   |   |   |
+|      Composants      | Niv. |  Type  | Rang | B | D |
+|:--------------------:|:----:|:------:|:----:|:-:|:-:|
+| 5 x N aura, 1 paysan |  5   | Pré-c. |  4   |   |   |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
@@ -117,9 +119,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Cette malédiction insidieuse altère considérablement les capacités magiques de la victime.  
     Une zone magique de chaos autour de la victime réduit sa capacité de concentration et rend très difficile le lancement de sorts.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 4 x N auras |  5   | Normal |  4   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 4 x N aura |  5   | Normal |  4   |   |   |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
@@ -136,9 +138,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
-|                Composants                | Niv. |  Type  | Rang |         B          | D |
-|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -152,9 +154,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
-|                Composants                | Niv. |  Type  | Rang |         B          | D |
-|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |   |
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -167,9 +169,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Le mage noir doit passer des nuits à errer dans les cimetières et cimetières de la région afin de pouvoir faire revivre les cadavres déterrés.  
     Les morts-vivants seront à son service, mais les non-informés doivent savoir qu'invoquer les forces de la mort peut être une arme à double tranchant.
 
-| Composants  | Niv. |  Type  | Rang |         B          |         D          |
-|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-| 5 x N auras |  6   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants | Niv. |  Type  | Rang |              B               |              D               |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 5 x N aura |  6   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
@@ -182,9 +184,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.  
     La pluie magique fera rouiller tout le minerai, détruisant de nombreuses armes ennemies.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N auras |  6   | Combat |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura |  6   | Combat |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
@@ -199,9 +201,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   L'assistant crée un mur de feu dans la direction spécifiée.
     Cela fait mal à tous ceux qui le traversent.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 6 x N auras |  7   | Normal |  4   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 6 x N aura |  7   | Normal |  4   |   |   |
 
 `CAST [LEVEL n] "Firewall" <direction>`  
 
@@ -213,9 +215,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 :   Dans un rituel élaboré, le mage noir sacrifie quelques paysans puis distribue comme par magie les cadavres dans les puits de la région.
 
-|      Composants      | Niv. |  Type  | Rang | B |         D          |
-|:--------------------:|:----:|:------:|:----:|:-:|:------------------:|
-| 30 auras, 50 paysans |  7   | Normal |  5   |   | :heavy_check_mark: |
+|     Composants      | Niv. |  Type  | Rang | B |              D               |
+|:-------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 30 aura, 50 paysans |  7   | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
@@ -227,9 +229,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 
-| Composants | Niv. |  Type  | Rang |         B          | D |
-|:----------:|:----:|:------:|:----:|:------------------:|:-:|
-|  2 auras   |  7   | Normal |  1   | :heavy_check_mark: |   |
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   2 aura   |  7   | Normal |  1   | :material-check:{ .success } |   |
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
@@ -246,9 +248,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     Les démons de l’ombre sont des adversaires redoutés au combat.  
     Ils sont difficiles à toucher et drainent la puissance de leur adversaire.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 3 x N auras |  8   | Normal |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 3 x N aura |  8   | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
@@ -261,9 +263,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Devant les soldats ennemis, le mage noir sacrifie les dix pions dans un rituel sanglant et cruel et invoque ainsi les esprits de la folie sur les troupes ennemies.  
     Ils réagiront confusément au combat et seront incapables de suivre les ordres de leurs officiers.
 
-|       Composants       | Niv. |  Type  | Rang | B | D |
-|:----------------------:|:----:|:------:|:----:|:-:|:-:|
-| 3 x N auras, 10 Bauern |  8   | Pré-c. |  5   |   |   |
+|      Composants       | Niv. |  Type  | Rang | B | D |
+|:---------------------:|:----:|:------:|:----:|:-:|:-:|
+| 3 x N aura, 10 Bauern |  8   | Pré-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
@@ -278,9 +280,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Avec ce sombre rituel, le mage noir peut provoquer une rupture dans le tissu magique, qui arrachera tout pouvoir magique de la région.  
     Toutes les personnes douées pour la magie dans la région perdront une grande partie de leur aura.
 
-|           Composants           | Niv. |  Type  | Rang | B | D |
-|:------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 35 auras, 1 [[sang-de-dragon]] |  9   | Normal |  3   |   |   |
+|          Composants           | Niv. |  Type  | Rang | B | D |
+|:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 35 aura, 1 [[sang-de-dragon]] |  9   | Normal |  3   |   |   |
 
 `CAST "Astral Leak"`  
 
@@ -292,9 +294,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 :   Ce rituel, effectué avant la bataille, fait tourbillonner les énergies astrales sur le champ de bataille, rendant plus difficile le lancement de leurs sorts par les mages ennemis.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 6 x N auras |  9   | Pré-c. |  2   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 6 x N aura |  9   | Pré-c. |  2   |   |   |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
@@ -307,9 +309,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Cet artefact magique confère à son porteur la force d'un Troll des Cavernes adulte.  
     Sa capacité de charge est multipliée par 50 et sa force accrue et sa peau résistante aux trolls auront également un effet positif au combat.
 
-|         Composants         | Niv. |  Type  | Rang |         B          | D |
-|:--------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 20 auras, 1 aura permanent |  9   | Normal |  5   | :heavy_check_mark: |   |
+|        Composants         | Niv. |  Type  | Rang |              B               | D |
+|:-------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 20 aura, 1 aura permanent |  9   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Belt of Troll Strength"`  
 
@@ -324,7 +326,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 | Composants | Niv. |  Type   | Rang | B | D |
 |:----------:|:----:|:-------:|:----:|:-:|:-:|
-|  N auras   |  9   | Post-c. |  5   |   |   |
+|   N aura   |  9   | Post-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
@@ -339,9 +341,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
     Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
-|     Composants      | Niv. |  Type  | Rang | B |         D          |
-|:-------------------:|:----:|:------:|:----:|:-:|:------------------:|
-| 50 auras, 1 [huile] |  10  | Normal |  5   |   | :heavy_check_mark: |
+|     Composants     | Niv. |  Type  | Rang | B |              D               |
+|:------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 50 aura, 1 [huile] |  10  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -355,9 +357,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 Pour ce faire, il dessine un pentagramme sur l'objet enchanté et commence par une invocation aux seigneurs des ténèbres.  
 Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquement de sa propre force.
 
-|  Composants  | Niv. |  Type  | Rang |         B          |         D          |
-|:------------:|:----:|:------:|:----:|:------------------:|:------------------:|
-| 10 x N auras |  10  | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Composants  | Niv. |  Type  | Rang |              B               |              D               |
+|:-----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| 10 x N aura |  10  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Pentagram ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -374,9 +376,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
 
-|           Composants           | Niv. |  Type  | Rang | B |         D          |
-|:------------------------------:|:----:|:------:|:----:|:-:|:------------------:|
-| 80 auras, 1 [[tete-de-dragon]] |  11  | Normal |  5   |   | :heavy_check_mark: |
+|          Composants           | Niv. |  Type  | Rang | B |              D               |
+|:-----------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 80 aura, 1 [[tete-de-dragon]] |  11  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Dragon Call"`  
 
@@ -389,9 +391,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
     L'esprit se manifeste sous la forme d'un nuage vert vif au-dessus de la région et nuira à tous ceux qui entreront en contact avec lui.
 
-|   Composants    | Niv. |  Type  | Rang | B |         D          |
-|:---------------:|:----:|:------:|:----:|:-:|:------------------:|
-| 40 auras, 15 PV |  11  | Normal |  5   |   | :heavy_check_mark: |
+|   Composants   | Niv. |  Type  | Rang | B |              D               |
+|:--------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 40 aura, 15 PV |  11  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Todeswolke"`  
 
@@ -408,9 +410,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Au combat, les maîtres de l’ombre sont des adversaires redoutés.  
     Ils sont difficiles à frapper et drainent la force et la vie de leur adversaire.
 
-| Composants  | Niv. |  Type  | Rang | B | D |
-|:-----------:|:----:|:------:|:----:|:-:|:-:|
-| 7 x N auras |  12  | Normal |  5   |   |   |
+| Composants | Niv. |  Type  | Rang | B | D |
+|:----------:|:----:|:------:|:----:|:-:|:-:|
+| 7 x N aura |  12  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
@@ -423,9 +425,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.  
     Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
 
-|                          Composants                          | Niv. |  Type  | Rang |         B          | D |
-|:------------------------------------------------------------:|:----:|:------:|:----:|:------------------:|:-:|
-| 100 auras, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :heavy_check_mark: |   |
+|                         Composants                          | Niv. |  Type  | Rang |              B               | D |
+|:-----------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 100 aura, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -439,9 +441,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
 
-|          Composants           | Niv. |  Type  | Rang | B | D |
-|:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 100 auras, 5 auras permanents |  13  | Normal |  5   |   |   |
+|         Composants          | Niv. |  Type  | Rang | B | D |
+|:---------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 100 aura, 5 aura permanents |  13  | Normal |  5   |   |   |
 
 `CAST "Summon Familiar"`  
 
@@ -456,9 +458,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
     Le portail peut être utilisé la semaine suivante, il se dissout à la fin de la semaine suivante.
 
-|       Composants       | Niv. |  Type  | Rang | B | D |
-|:----------------------:|:----:|:------:|:----:|:-:|:-:|
-| 150 auras, 200 paysans |  14  | Normal |  5   |   |   |
+|      Composants       | Niv. |  Type  | Rang | B | D |
+|:---------------------:|:----:|:------:|:----:|:-:|:-:|
+| 150 aura, 200 paysans |  14  | Normal |  5   |   |   |
 
 `CAST Chaossog`  
 
@@ -471,9 +473,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
     En invoquant des démons impies, le pouvoir des morts-vivants est amplifié et ils se transforment en monstres morts-vivants d'une grande puissance.
 
-|         Composants          | Niv. |  Type  | Rang | B | D |
-|:---------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 10 x N auras, 5 x N paysans |  14  | Normal |  5   |   |   |
+|         Composants         | Niv. |  Type  | Rang | B | D |
+|:--------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 10 x N aura, 5 x N paysans |  14  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 

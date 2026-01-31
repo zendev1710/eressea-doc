@@ -14,9 +14,9 @@ alias: description-des-sorts
 
 :   Ce sort accélère certains combattants de votre côté afin qu'ils puissent attaquer deux fois en un seul round de combat, tout au long du combat.  
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 5 x N auras |  9   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 5 x N aura |  9   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
@@ -29,9 +29,9 @@ alias: description-des-sorts
 :   Ce sort de combat provoque une fatigue intense chez certains ennemis pendant le combat.  
     Les soldats tardent parfois à attaquer et se défendent mal.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 4 x N auras |  4   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 4 x N aura |  4   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
@@ -45,9 +45,9 @@ alias: description-des-sorts
     Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
     Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -61,9 +61,9 @@ alias: description-des-sorts
     Il pourra se faire une idée de leur efficacité grâce à tous les sorts qui ne dépassent pas ses propres capacités.  
     Avec des sorts plus puissants, il lui faut un peu de chance pour réussir son analyse.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  |  25 auras  |  5   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  |  25 aura   |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyse Dreams" <unit-id>`  
 
@@ -79,9 +79,9 @@ alias: description-des-sorts
     Ce chant aide à entendre les changements dans le chant de la vie d'une personne qui sont de nature magique.  
     Vous pourrez déchiffrer et démasquer tous les enchantements qui ne sont pas plus masqués que vos capacités.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  |  10 auras  |  5   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  |  10 aura   |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
@@ -94,9 +94,9 @@ alias: description-des-sorts
 :   Comme les êtres vivants, les bateaux, les bâtiments et même les régions ont leur propre chant, bien que beaucoup plus faible et plus difficile à entendre.  
     Et tout comme le chant de la vie d'une personne permet de savoir si elle est sous le charme, cela est également possible pour les châteaux, les bateaux ou les régions.  
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  | 3 x N auras |  8   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  | 3 x N aura |  8   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -110,9 +110,9 @@ alias: description-des-sorts
     Cette zone s'efforcera de revenir à l'équilibre.  
     Pour ce faire, il supprimera une partie de la force de chaque sort lancé dans cette région et même absorbera complètement les plus faibles.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  T  | 3 x N auras |  5   | Normal |  2   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  T  | 3 x N aura |  5   | Normal |  2   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
@@ -125,9 +125,9 @@ alias: description-des-sorts
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
     Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  C  |  30 auras  |  15  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  |  30 aura   |  15  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr beschwichtigen"`  
 
@@ -141,9 +141,9 @@ alias: description-des-sorts
     Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
     Après quelques semaines, la foule se calme à nouveau.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  C  |  40 auras  |  16  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  |  40 aura   |  16  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Aufruhr verursachen"`  
 
@@ -158,9 +158,9 @@ alias: description-des-sorts
 :   Selon les anciens enseignements des druides, ce que les êtres ordinaires appellent magie est constitué d'esprits élémentaires.  
     Le mage les évoque et les bannit sous une forme permettant d'obtenir l'effet souhaité. Ce rituel est capable de chasser les esprits élémentaires invoqués dans ce monde afin de libérer un objet de la magie.  
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  G  | 6 x N auras |  8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  G  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -174,9 +174,9 @@ alias: description-des-sorts
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
-| Éc. |                Composants                 | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------------------------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 6 x N auras, N [mallorns], 1 [eau de vie] |  4   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |                Composants                | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 6 x N aura, N [mallorns], 1 [eau de vie] |  4   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
 
@@ -191,9 +191,9 @@ alias: description-des-sorts
     La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
-| Éc. |                Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 10 x N auras, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |        |       |
+| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 10 x N aura, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
@@ -207,9 +207,9 @@ alias: description-des-sorts
 :   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  G  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  G  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
@@ -224,9 +224,9 @@ alias: description-des-sorts
     Au combat, les maîtres de l’ombre sont des adversaires redoutés.  
     Ils sont difficiles à frapper et drainent la force et la vie de leur adversaire.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 7 x N auras |  12  | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 7 x N aura |  12  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Beschwöre Schattenmeister"`  
 
@@ -240,7 +240,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  |  40 auras  |  10  | Normal |  5   |        |       |
+|  T  |  40 aura   |  10  | Normal |  5   |        |       |
 
 `CAST "Blick in die Realität"`  
 
@@ -253,9 +253,9 @@ alias: description-des-sorts
 :   Invoque les esprits élémentaires du vent.  
     Invoque des rafales de vent soudaines, de petites rafales de vent et des évents qui gêneront les archers adverses.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  G  | 2 x N auras |  4   | Pré-c. |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  | 2 x N aura |  4   | Pré-c. |  5   | :material-check:{ .success } |       |
 
 `COMBATSPELL [LEVEL n] "Air Shield"`  
 
@@ -269,9 +269,9 @@ alias: description-des-sorts
 :   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.  
     Chaque coup réduit la puissance du sort, le bouclier se dissipera donc à un moment donné du combat.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 4 x N auras |  12  | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Armor Shield"`  
 
@@ -286,9 +286,9 @@ alias: description-des-sorts
     Mais le bouclier ne peut résister que quelques centaines de coups d’épée, après quoi il se désintègre.  
     Plus le mage est fort, plus le bouclier peut résister aux dégâts.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 4 x N auras |  8   | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 4 x N aura |  8   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
@@ -302,7 +302,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  |  N auras   |  2   | Combat |  5   |        |       |
+|  D  |   N aura   |  2   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Fireball`  
 
@@ -314,9 +314,9 @@ alias: description-des-sorts
 
 :   Ce sort permet au mage de dissiper spécifiquement un enchantement spécifique sur une unité, un bateau, un bâtiment ou même la région.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  T  | 3 x N auras |  7   | Normal |  3   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  T  | 3 x N aura |  7   | Normal |  3   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
@@ -333,7 +333,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  N auras   |  3   | Normal |  5   |        |       |
+|  I  |   N aura   |  3   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
@@ -349,7 +349,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  2 auras   |  1   | Pré-c. |  5   |        |       |
+|  C  |   2 aura   |  1   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
@@ -362,9 +362,9 @@ alias: description-des-sorts
 :   Ce chant de guerre sème la panique sur les lignes de front ennemies et affaiblit ainsi considérablement leur force de combat.  
     La peur affaiblira leur bras d’épée et la peur paralysera leur bras de bouclier.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 5 x N auras |  8   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 5 x N aura |  8   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
@@ -378,9 +378,9 @@ alias: description-des-sorts
     Quiconque est sous l'influence de cette chanson ne prêtera pas attention à la mélodie de son environnement, son esprit deviendra confus et cédera de manière erratique à des inspirations soudaines.  
     On dit que des armées bien ordonnées ont soudainement trouvé leurs archers loin devant et leur cavalerie jouant aux cartes avec les gardes du camp (ou leur chef dormant dans le camp abandonné depuis longtemps, comme cela se serait effectivement produit lors des grandes guerres de l'Ancien Monde).
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 2 x N auras |  4   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 2 x N aura |  4   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
@@ -393,9 +393,9 @@ alias: description-des-sorts
 :   Ce chant strident résonne sur tout le champ de bataille.  
     Les dissonances particulières des mélodies rendent presque impossible aux mages de se concentrer sur leurs sorts.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 5 x N auras |  5   | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 5 x N aura |  5   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
 
@@ -409,9 +409,9 @@ alias: description-des-sorts
     « Cette petite mélodie séduisante et quelques mots insinuants vainquent en un instant la méfiance des paysans.  
     Ils vous rejoindront avec enthousiasme et laisseront eux-mêmes leur maison et leur cour en ruines. »
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 2 x N auras |  4   | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 2 x N aura |  4   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Song of Courting"`  
 
@@ -424,9 +424,9 @@ alias: description-des-sorts
 :   Cette chanson joyeuse se répandra comme une rumeur dans toute la région et mettra le monde entier dans une ambiance de fête.  
     Les tavernes et les théâtres seront partout pleins et même les mendiants seront nourris.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  C  | 2 x N auras |  2   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  C  | 2 x N aura |  2   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
 
@@ -442,7 +442,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type   | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:-------:|:----:|:------:|:-----:|
-|  C  |  N auras   |  2   | Post-c. |  5   |        |       |
+|  C  |   N aura   |  2   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
@@ -457,9 +457,9 @@ alias: description-des-sorts
     Indépendamment de leur propre souffrance, ils se battront jusqu’à la mort et ne fuiront jamais.  
     Alors que leur attaque s’intensifie, ils ne prêtent que peu d’attention à eux-mêmes.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 5 x N auras |  7   | Pré-c. |  4   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 5 x N aura |  7   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
@@ -474,7 +474,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  12 auras  |  6   | Normal |  5   |        |       |
+|  C  |  12 aura   |  6   | Normal |  5   |        |       |
 
 `CAST "Song of Seduction" <unit-id>`  
 
@@ -490,7 +490,7 @@ alias: description-des-sorts
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  N auras   |  3   | Combat |  5   |        |       |
+|  C  |   N aura   |  3   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
@@ -503,9 +503,9 @@ alias: description-des-sorts
 :   Cet ancien chant de bataille remonte le moral de vos troupes et les aide également à résister à l'aura effrayante des êtres démoniaques et morts-vivants.  
 Un guerrier aussi solide ne fuira pas même dans des situations difficiles et son comportement réfléchi lui donnera de nombreux avantages en défense.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 2 x N auras |  5   | Pré-c. |  4   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 2 x N aura |  5   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
@@ -517,9 +517,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Ce rituel, effectué avant la bataille, fait tourbillonner les énergies astrales sur le champ de bataille, rendant plus difficile le lancement de leurs sorts par les mages ennemis.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 6 x N auras |  9   | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 6 x N aura |  9   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
@@ -532,9 +532,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
     Le portail peut être utilisé la semaine suivante, il se dissout à la fin de la semaine suivante.
 
-| Éc. |       Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 150 auras, 200 paysans |  14  | Normal |  5   |        |       |
+| Éc. |      Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 150 aura, 200 paysans |  14  | Normal |  5   |        |       |
 
 `CAST Chaossog`  
 
@@ -550,7 +550,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  3 auras   |  3   | Normal |  5   |        |       |
+|  I  |   3 aura   |  3   | Normal |  5   |        |       |
 
 `CAST "Castle of Illusion" <building-type>`  
 
@@ -566,7 +566,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  N auras   |  1   | Pré-c. |  4   |        |       |
+|  I  |   N aura   |  1   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
@@ -580,9 +580,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
 
-| Éc. |              Composants               | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N auras, N [fers], 1 [eau de vie] |  2   | Normal |  4   |        |       |
+| Éc. |              Composants              | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura, N [fers], 1 [eau de vie] |  2   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -592,15 +592,18 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
 <!-- cspell:enable -->
 
-:   "Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.  
-    Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."  
-    Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.  
-    Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.  
+<div class="lore-dialogue">
+"Humidifiez un bloc de fine roche cristalline sans interstice avec une fiole d’eau de vie jusqu’à ce qu’elle soit complètement absorbée par la roche.
+Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et formez un logement pour la force non liée."
+</div>
+
+:   Plus le mage investit de puissance, plus de golems peuvent être créés avant que l'aura ne se dissipe.  
+    Chaque golem a 10 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
 
-| Éc. |                    Composants                    | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N auras, N [pierres][pierre], 1 [eau de vie] |  1   | Normal |  4   |        |       |
+| Éc. |                   Composants                    | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura, N [pierres][pierre], 1 [eau de vie] |  1   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -614,9 +617,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
-|  Éc.   |                Composants                | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:------:|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-| \*[^1] | 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |       |
+|  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:------:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+| \*[^1] | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -629,9 +632,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Ce rituel puissant crée un [[anneau-de-pouvoir]].  
     Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
 
-| Éc. |                Composants                 | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:-----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 100 auras, 1 aura permanent, 4 000 silver |  9   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |                Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 100 aura, 1 aura permanent, 4 000 silver |  9   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Power"`  
 
@@ -644,9 +647,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   À l'aide de ce sort, le mage draine un cristal de quartz de toutes ses énergies magiques.  
     Le cristal, une fois broyé en une fine poussière et dispersé, absorbera les énergies magiques libérées lors du lancement et réduira la puissance de tous les sorts lancés dans la région cette semaine-là.
 
-| Éc. |       Composants       | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 50 auras, 3 000 silver |  7   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |      Composants       | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 50 aura, 3 000 silver |  7   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Antimagic Crystal"`  
 
@@ -662,9 +665,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.  
     Mais attention : interpréter les rêves est une affaire difficile.
 
-| Éc. |                Composants                | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  | 1 [[tete-de-dragon]], 5 auras permanents |  14  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  | 1 [[tete-de-dragon]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A DreamEye"`  
 
@@ -677,9 +680,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.  
     Il utilise désormais le cuir ainsi préparé pour fabriquer un petit sac qui permet de mieux conserver les herbes qui y sont stockées.
 
-| Éc. |                 Composants                 | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:------------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  G  | 30 auras, 1 aura permanent, 1 [eau de vie] |  5   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |                Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:-----------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  | 30 aura, 1 aura permanent, 1 [eau de vie] |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -693,9 +696,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Les chevaux et autres êtres vivants ainsi que les objets particulièrement volumineux (chars et catapultes) ne peuvent pas être transportés dans le sac.  
     Il n'est pas non plus possible de transporter un sac magique dans un autre. Le sac lui-même pèse 1 kg.
 
-| Éc. |                Composants                | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 30 auras, 1 aura permanent, 5 000 silver |  10  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 30 aura, 1 aura permanent, 5 000 silver |  10  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
 
@@ -710,9 +713,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
-|  Éc.   |                Composants                | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:------:|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-| \*[^1] | 50 auras, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :heavy_check_mark: |       |
+|  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:------:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+| \*[^1] | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -725,9 +728,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Cet artefact magique confère à son porteur la force d'un Troll des Cavernes adulte.  
     Sa capacité de charge est multipliée par 50 et sa force accrue et sa peau résistante aux trolls auront également un effet positif au combat.
 
-| Éc. |         Composants         | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:--------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  | 20 auras, 1 aura permanent |  9   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |        Composants         | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:-------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  | 20 aura, 1 aura permanent |  9   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Belt of Troll Strength"`  
 
@@ -737,12 +740,14 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Create A Flaming Sword (EN), Erschaffe ein Flammenschwert (DE)*.
 <!-- cspell:enable -->
 
-:   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.  
-    Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
+<div class="lore-dialogue">
+"Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.
+Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
+</div>
 
-| Éc. |                          Composants                          | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:------------------------------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  | 100 auras, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |                         Composants                          | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:-----------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  | 100 aura, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -755,9 +760,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité].  
     Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
-| Éc. |                  Composants                  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:--------------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  | 150 auras, 30 000 silver, 3 auras permanents |  13  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |                 Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  | 150 aura, 30 000 silver, 3 aura permanents |  13  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
 
@@ -772,9 +777,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Cet ancien rituel de danse invoque les forces de vie et de fertilité.  
     Les rendements des agriculteurs seront nettement meilleurs pendant plusieurs semaines.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  C  |  N auras   |  3   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  C  |   N aura   |  3   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
@@ -786,9 +791,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Ce sort permet au mage de dissiper les enchantements sur une unité, un bateau, un bâtiment ou même une région.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  T  | 4 x N auras |  5   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  T  | 4 x N aura |  5   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -802,9 +807,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Cela peut alors également être utilisé pour traverser des terres.  
     Pour la couleur des runes, une encre spéciale doit être mélangée à partir d'un chou à la crème et d'un cristal de neige.
 
-| Éc. |                      Composants                      | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------------------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 10 auras, 1 [gousse], 1 [pétale de cristal de neige] |  6   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |                     Composants                      | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 10 aura, 1 [gousse], 1 [pétale de cristal de neige] |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST Airship <ship-id>`  
 
@@ -816,9 +821,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Ce sort masquera tout l'équipement de l'unité cible pendant un certain temps.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
 
@@ -831,9 +836,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Chaque enchantement affecte le Chant de Vie, l'affaiblissant et le déformant.  
     Le barde expérimenté peut tenter de capturer et d’amplifier le chant de la vie et d’effacer les changements du chant.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  C  | 5 x N auras |  8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  C  | 5 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -848,9 +853,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Il maîtrise également l'art de la divination, de la cartomancie et de la chiromancie.  
     Pour cela, les paysans lui versent 50 silver par niveau.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Divination`  
 
@@ -865,9 +870,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.  
     Cela aide certainement le mage... à remplir son portefeuille. Vous pouvez gagner 50 silver par niveau en une semaine.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
@@ -880,9 +885,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Le mage ouvre son esprit aux sphères du Chaos et disposera ainsi de plus de pouvoir magique pendant un certain temps.  
     Mais l’aide des Seigneurs des Sphères a un prix, et la phase de pouvoir est donc remplacée par une phase de faiblesse.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  |  6 auras   |  3   | Normal |  3   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  |   6 aura   |  3   | Normal |  3   | :material-check:{ .success } |       |
 
 `CAST "Chaos Gift"`  
 
@@ -898,9 +903,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     S’il n’y a personne de sa faction dans la région, elle n’a rien à signaler.  
     Elle ne peut également dire que ce qu'elle a pu voir elle-même.
 
-| Éc. |     Composants      | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 4 auras, 100 silver |  7   | Normal |  5   |        |       |
+| Éc. |     Composants     | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 4 aura, 100 silver |  7   | Normal |  5   |        |       |
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
@@ -915,7 +920,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  N auras   |  7   | Combat |  5   |        |       |
+|  I  |   N aura   |  7   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Sleep`  
 
@@ -928,9 +933,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Ce rituel invoque des esprits élémentaires de magie et les envoie dans les rangs des mages ennemis.  
     Ces derniers auront bien plus de mal à lancer des sorts pendant toute la durée du combat.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 5 x N auras |  5   | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 5 x N aura |  5   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
@@ -943,9 +948,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec l'aide de ce sort, le druide réveille les Ents endormis dans les forêts de la région de leur sommeil éternel.  
     Les créatures sauvages des arbres le rejoindront et l’assisteront, mais après un certain temps, elles retomberont dans le sommeil.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 6 x N auras |  10  | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 6 x N aura |  10  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Awakening of the Ents"`  
 
@@ -960,9 +965,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
     Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
-| Éc. |     Composants      | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  D  | 50 auras, 1 [huile] |  10  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |     Composants     | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 50 aura, 1 [huile] |  10  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -975,9 +980,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Devant les soldats ennemis, le mage noir sacrifie les dix pions dans un rituel sanglant et cruel et invoque ainsi les esprits de la folie sur les troupes ennemies.  
     Ils réagiront confusément au combat et seront incapables de suivre les ordres de leurs officiers.
 
-| Éc. |       Composants        | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 3 x N auras, 10 paysans |  8   | Pré-c. |  5   |        |       |
+| Éc. |       Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 3 x N aura, 10 paysans |  8   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
@@ -990,9 +995,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec ce sombre rituel, le mage noir peut provoquer une rupture dans le tissu magique, qui arrachera tout pouvoir magique de la région.  
     Toutes les personnes douées pour la magie dans la région perdront une grande partie de leur aura.
 
-| Éc. |           Composants           | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 35 auras, 1 [[sang-de-dragon]] |  9   | Normal |  3   |        |       |
+| Éc. |          Composants           | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 35 aura, 1 [[sang-de-dragon]] |  9   | Normal |  3   |        |       |
 
 `CAST "Astral Leak"`  
 
@@ -1007,9 +1012,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Crée un esprit gardien qui empêche l'exploitation du fer et des métaux dans les glaciers et les montagnes par des factions non alliées (`HELP GUARD`) tant qu'il garde la région.  
     Le [Gardien de la Montagne] est lié au lieu de l'invocation.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 3 x N auras |  3   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 3 x N aura |  3   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
 
@@ -1023,9 +1028,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
     Les effets peuvent durer plusieurs semaines.
 
-| Éc. |  Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 20 x N auras |  12  | Normal |  5   |        |       |
+| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 20 x N aura |  12  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
 
@@ -1038,9 +1043,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
     Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  C  |  40 auras  |  11  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  |  40 aura   |  11  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Gesang der Melancholie"`  
 
@@ -1055,7 +1060,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  40 auras  |  13  | Normal |  5   |        |       |
+|  C  |  40 aura   |  13  | Normal |  5   |        |       |
 
 `CAST "Gesang der Versklavung" <unit-id>`  
 
@@ -1068,9 +1073,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
     Seuls les alliés du barde (`HELP GUARD`) sont immunisés contre l'effet de la chanson.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  C  | 2 x N auras |  12  | Normal |  2   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  | 2 x N aura |  12  | Normal |  2   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
 
@@ -1084,9 +1089,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.  
     Jusqu'à ce que la chanson disparaisse complètement, sa magie accordera à tous les alliés du barde (`HELP GUARD`), et bien sûr à son propre peuple, un bonus unique de 15 % à la résistance naturelle à un enchantement.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  C  | 2 x N auras |  10  | Normal |  2   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  | 2 x N aura |  10  | Normal |  2   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
 
@@ -1101,7 +1106,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  |  N auras   |  3   | Combat |  5   |        |       |
+|  G  |   N aura   |  3   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Hail`  
 
@@ -1116,9 +1121,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.  
     Le mage peut gagner 50 silver par niveau.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  G  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
@@ -1133,7 +1138,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type   | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:-------:|:----:|:------:|:-----:|
-|  G  |  N auras   |  5   | Post-c. |  5   |        |       |
+|  G  |   N aura   |  5   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Heal`  
 
@@ -1157,9 +1162,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Et il aura presque certainement oublié certaines de ses meilleures capacités pendant quelques jours, voire deux semaines d'études.  
     Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhaitez lancer d'autres sorts dans la même semaine, ils seront plus difficiles pour vous. »
 
-| Éc. |                Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 28 auras, 3 [racines de nœud], 50 silver |  7   | Normal |  5   |        |       |
+| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 28 aura, 3 [racines de nœud], 50 silver |  7   | Normal |  5   |        |       |
 
 `CAST Hangover <unit-id>`  
 
@@ -1176,7 +1181,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type   | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:-------:|:----:|:------:|:-----:|
-|  D  |  N auras   |  9   | Post-c. |  5   |        |       |
+|  D  |   N aura   |  9   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
@@ -1190,9 +1195,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.  
     Il n’y a pratiquement pas de travail dans l’agriculture pour les journaliers.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 600 auras  |  13  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  |  600 aura  |  13  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] Hitzeelementar`  
 
@@ -1202,13 +1207,18 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *(EN), Hohe Kunst der Überzeugung (DE)*.
 <!-- cspell:enable -->
 
-:   Extrait de « Errants » de Firudin le Sage :
-    « À Weilersweide, près du port de Wythar, il y a une petite auberge rarement visitée.  
-    Personne ne sait que jusqu'à il y a quelques années cette ferme était la maison du prédicateur itinérant banni Grauwolf. force de persuasion. »
+<div class="lore-dialogue">
+"À Weilersweide, près du port de Wythar, se trouve une petite auberge rarement visitée.
+Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
+Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
+Il accepta de me révéler, à contrecœur, le secret de son éloquence."
+</di>
 
-| Éc. |  Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 20 x N auras |  14  | Normal |  5   |        |       |
+Extrait de « Errants » de Firudin le Sage.
+
+| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 20 x N aura |  14  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
@@ -1223,7 +1233,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  N auras   |  2   | Pré-c. |  5   |        |       |
+|  I  |   N aura   |  2   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
@@ -1236,9 +1246,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Au cours de leur vie dans la nature, de nombreux druides se lient d'amitié avec les plus anciens amis des grands peuples.  
     Ils apprennent à invoquer plusieurs de leurs amis pour les aider au combat avec un seul appel hurlant.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N auras |  7   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura |  7   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
@@ -1251,9 +1261,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 
 <!-- TODO: check values below -->
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  |  2 auras   |  5   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  |   2 aura   |  5   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
@@ -1269,7 +1279,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  |  N auras   |  1   | Normal |  5   |        |       |
+|  D  |   N aura   |  1   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
@@ -1282,9 +1292,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Ce sort provoque de l'insomnie et de l'agitation dans la zone touchée pendant quelques semaines.  
     Les personnes concernées ont beaucoup plus de mal à apprendre.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  I  |  18 auras  |  6   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |  18 aura   |  6   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] Insomnia`  
 
@@ -1299,7 +1309,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  |  20 auras  |  7   | Normal |  5   |        |       |
+|  I  |  20 aura   |  7   | Normal |  5   |        |       |
 
 `CAST "Mind Probe" <unit-id>`  
 
@@ -1313,9 +1323,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 13 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 2 x N auras |  6   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 2 x N aura |  6   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -1328,9 +1338,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec ce rituel, le mage force les esprits élémentaires de l'eau à son service et les amène à transporter plus rapidement le bateau spécifié sur l'eau.  
     De plus, le bateau n’est pas affecté par des vents ou des courants défavorables.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  G  |  N auras   |  4   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  |   N aura   |  4   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Summon Water Elemental" <ship-id>`  
 
@@ -1343,9 +1353,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Un mage qui se trouve dans le monde matériel peut utiliser ce sort pour invoquer des unités du monde Astral adjacent.  
     Si le mage est suffisamment expérimenté pour lancer le sort à des niveaux de 13 ou plus, il peut forcer d'autres unités à entrer dans le monde matériel contre leur gré.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 2 x N auras |  6   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 2 x N aura |  6   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
 
@@ -1360,9 +1370,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
     Un esprit élémentaire est requis pour chaque vaisseau.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |         Bateau         | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:----------------------:|:-----:|
-|  G  | 6 x N auras |  6   | Normal |  5   | :heavy_check_mark:[^3] |       |
+| Éc. | Composants | Niv. |  Type  | Rang |              Bateau              | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
+|  G  | 6 x N aura |  6   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
@@ -1375,9 +1385,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
     Ce tremblement de terre endommagera tous les bâtiments de la région.
 
-| Éc. |     Composants     | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 25 auras, 2 [laen] |  7   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |    Composants     | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-----------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 25 aura, 2 [laen] |  7   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
@@ -1392,9 +1402,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Les démons de l’ombre sont des adversaires redoutés au combat.  
     Ils sont difficiles à toucher et drainent la puissance de leur adversaire.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 3 x N auras |  8   | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 3 x N aura |  8   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
@@ -1409,9 +1419,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
 
-| Éc. |           Composants           | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:------------------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  D  | 80 auras, 1 [[tete-de-dragon]] |  11  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |          Composants           | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 80 aura, 1 [[tete-de-dragon]] |  11  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Dragon Call"`  
 
@@ -1423,9 +1433,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   À un moment donné de ses pérégrinations, un mage expérimenté rencontrera un spécimen inhabituel d'une espèce qui rejoindra le mage.
 
-|  Éc.   |          Composants           | Niv. |  Type  | Rang | Bateau | Dist. |
-|:------:|:-----------------------------:|:----:|:------:|:----:|:------:|:-----:|
-| \*[^1] | 100 auras, 5 auras permanents | [^2] | Normal |  5   |        |       |
+|  Éc.   |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
+|:------:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
+| \*[^1] | 100 aura, 5 aura permanents | [^2] | Normal |  5   |        |       |
 
 `CAST "Summon Familiar"`  
 
@@ -1441,9 +1451,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Même les débutants apprennent les petits trucs et tours de magie qui peuvent être utilisés pour attirer et séduire les gens et leur faire ouvrir très grand leur portefeuille,  
     et à la fin de la semaine, le jongleur aura gagné 50 silver par niveau.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Jugglery`  
 
@@ -1460,9 +1470,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Le dicton fonctionne au niveau*10 insectes.  
     Un [Anneau de Pouvoir] augmente le nombre d'insectes enchantables de 10 supplémentaires.
 
-|  Éc.   | Composants  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:------:|:-----------:|:----:|:------:|:----:|:------------------:|:-----:|
-| \*[^1] | 2 x N auras |  3   | Normal |  5   | :heavy_check_mark: |       |
+|  Éc.   | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:------:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+| \*[^1] | 2 x N aura |  3   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
@@ -1474,9 +1484,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Ce sort permet au Dreamweaver d'entrer dans les rêves d'une unité pour obtenir un rapport sur les environs.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  I  |  8 auras   |  4   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |   8 aura   |  4   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
@@ -1488,9 +1498,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Un druide tombé dans le monde des esprits peut utiliser ce sort pour passer au niveau supérieur x Renvoyer 5 unités de poids dans une forêt du monde matériel.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N auras |  9   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura |  9   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Ties of Life" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -1504,9 +1514,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Alors qu'auparavant seul un arbre pouvait germer à partir d'un bâton, chaque branche produit désormais des racines.
 
-| Éc. |              Composants               | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-------------------------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 4 x N auras, N [bois], 1 [eau de vie] |  2   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |              Composants              | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 4 x N aura, N [bois], 1 [eau de vie] |  2   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -1519,9 +1529,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
     L'élémentaire crée un énorme tourbillon, un maelström, qui peut gravement endommager tous les bateaux qui le traversent.
 
-| Éc. |             Composants              | Niv. |  Type  | Rang |         Bateau         | Dist. |
-|:---:|:-----------------------------------:|:----:|:------:|:----:|:----------------------:|:-----:|
-|  G  | 200 auras, 1 tête de serpent de mer |  15  | Normal |  5   | :heavy_check_mark:[^3] |       |
+| Éc. |             Composants             | Niv. |  Type  | Rang |              Bateau              | Dist. |
+|:---:|:----------------------------------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
+|  G  | 200 aura, 1 tête de serpent de mer |  15  | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST Mahlstrom`  
 
@@ -1533,9 +1543,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Dans un rituel élaboré, le mage noir sacrifie quelques paysans puis distribue comme par magie les cadavres dans les puits de la région.
 
-| Éc. |      Composants      | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:--------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  D  | 30 auras, 50 paysans |  7   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |     Composants      | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 30 aura, 50 paysans |  7   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
@@ -1548,9 +1558,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Cette malédiction insidieuse altère considérablement les capacités magiques de la victime.  
     Une zone magique de chaos autour de la victime réduit sa capacité de concentration et rend très difficile le lancement de sorts.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 4 x N auras |  5   | Normal |  4   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 4 x N aura |  5   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
@@ -1562,9 +1572,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  G  |  2 auras   |  6   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  |   2 aura   |  6   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
 
@@ -1580,9 +1590,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.  
     Les artisans peuvent ainsi produire dix fois plus, ce qui pourrait également être utile dans d'autres activités.
 
-| Éc. |                Composants                | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  | 20 auras, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  | 20 aura, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Miriams flinke Finger"`  
 
@@ -1597,9 +1607,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
     Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 4 x N auras |  10  | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 4 x N aura |  10  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Mob aufwiegeln"`  
 
@@ -1613,9 +1623,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Il s'abstiendra d'attaquer le mage et ne touchera pas ses compagnons.  
     Mais ne vous y trompez pas, il restera toujours une créature imprévisible.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  C  |  15 auras  |  6   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  |  15 aura   |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Calm Monster" <unit-id>`  
 
@@ -1630,7 +1640,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  10 auras  |  4   | Normal |  5   |        |       |
+|  C  |  10 aura   |  4   | Normal |  5   |        |       |
 
 `CAST Blabbermouth <unit-id>`  
 
@@ -1643,9 +1653,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   L'assistant crée un mur de feu dans la direction spécifiée.  
     Cela fait mal à tous ceux qui le traversent.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 6 x N auras |  7   | Normal |  4   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 6 x N aura |  7   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
 
@@ -1658,9 +1668,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Avec cette formule, le mage lie pour toujours les forces de la terre dans les murs du bâtiment.  
     Un bâtiment ainsi enchanté est protégé contre les agressions du temps et ne nécessite plus aucun entretien.
 
-| Éc. |         Composants         | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:--------------------------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 50 auras, 1 aura permanent |  7   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. |        Composants         | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:-------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 50 aura, 1 aura permanent |  7   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
@@ -1677,7 +1687,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  |  N auras   |  5   | Combat |  5   |        |       |
+|  T  |   N aura   |  5   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
@@ -1692,7 +1702,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 100 auras  |  15  | Normal |  1   |        |       |
+|  T  |  100 aura  |  15  | Normal |  1   |        |       |
 
 `CAST "Opfere Kraft" <unit-id> <Aura>`  
 
@@ -1707,9 +1717,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 :   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.  
     Chaque coup réduit la puissance du sort, le bouclier finira donc par se dissiper au cours du combat.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 4 x N auras |  12  | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] Rindenhaut`  
 
@@ -1723,9 +1733,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 Pour ce faire, il dessine un pentagramme sur l'objet enchanté et commence par une invocation aux seigneurs des ténèbres.  
 Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquement de sa propre force.
 
-| Éc. |  Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:------------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  D  | 10 x N auras |  10  | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants  | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:-----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  D  | 10 x N aura |  10  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Pentagram ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -1740,9 +1750,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Ainsi est-il écrit dans le « Livre du Sang » : « Qu'Il établisse donc le signe des quatre éléments dans le cercle de la création et de la décomposition et consacre chacun d'entre eux avec une goutte de sang.  
     Alors laissez-le aller au milieu des Quatre Éternels et laissez la vie passer pour que la force puisse naître. »
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  |   16 PV    |  4   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  |   16 PV    |  4   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Lesser Sacrifice"`  
 
@@ -1757,9 +1767,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Que le fils du voisin soit entraîné dans un sortilège d'amour ou que le rival ait des boutons et des verrues, personne n'aime admettre qu'il a eu recours à de telles mesures.  
     Pour ce service, le mage gagne 50 silver par niveau.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Minor Curses"`  
 
@@ -1773,9 +1783,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Les murs ainsi renforcés ne peuvent être détruits ni par magie ni par l'artillerie lourde, et l'âge les affecte également moins.  
     Le bâtiment offre également une meilleure protection contre les attaques à l’épée et à la magie.
 
-| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 50 auras, 1 aura permanent |  7   | Normal |  5   |        |       |
+| Éc. |        Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 50 aura, 1 aura permanent |  7   | Normal |  5   |        |       |
 
 `CAST Homestone`  
 
@@ -1792,9 +1802,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Jusqu'à 10 armes de fer peuvent être affectées pour chaque niveau.  
     Un anneau de pouvoir augmente l'effet comme un niveau supplémentaire.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 2 x N auras |  3   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 2 x N aura |  3   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
@@ -1807,9 +1817,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Avec cette formule, au début d'un combat, le mage lie des esprits élémentaires du rocher dans les murs du bâtiment dans lequel il se trouve actuellement.  
     Le bâtiment offre alors une meilleure protection contre les attaques à l'épée et à la magie.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N auras |  8   | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura |  8   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
@@ -1822,9 +1832,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Le mage noir doit passer des nuits à errer dans les cimetières et cimetières de la région afin de pouvoir faire revivre les cadavres déterrés.  
     Les morts-vivants seront à son service, mais les non-informés doivent savoir qu'invoquer les forces de la mort peut être une arme à double tranchant.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  D  | 5 x N auras |  6   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  D  | 5 x N aura |  6   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
@@ -1839,7 +1849,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 | Éc. | Composants | Niv. |  Type   | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:-------:|:----:|:------:|:-----:|
-|  T  |  N auras   |  3   | Post-c. |  5   |        |       |
+|  T  |   N aura   |  3   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
@@ -1852,9 +1862,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Ce sort place un champ d'antimagie autour des mages ennemis, gênant considérablement leur lancement de sorts.  
     Seuls quelques-uns auront la force de pénétrer sur le terrain et d’aider leurs troupes au combat.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 3 x N auras |  2   | Pré-c. |  2   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 3 x N aura |  2   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
@@ -1871,7 +1881,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  |  N auras   |  8   | Combat |  5   |        |       |
+|  G  |   N aura   |  8   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
@@ -1885,9 +1895,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Environ 50 âmes trouveront la paix par niveau de sort.  
     Le sort ne peut pas racheter les morts-vivants déjà ressuscités car leurs liens avec ce monde sont trop forts.
 
-| Éc. |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 3 x N auras, 1 [eau de vie] |  2   | Normal |  5   |        |       |
+| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 3 x N aura, 1 [eau de vie] |  2   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -1901,9 +1911,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Une unité ainsi protégée est également moins vulnérable à la magie de combat.  
     Par niveau, le pouvoir du mage est suffisant pour protéger 5 personnes.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 5 x N auras |  3   | Normal |  2   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 5 x N aura |  3   | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
@@ -1919,7 +1929,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 | Éc. | Composants | Niv. |  Type   | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:-------:|:----:|:------:|:-----:|
-|  I  |  N auras   |  5   | Post-c. |  4   |        |       |
+|  I  |   N aura   |  5   | Post-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
@@ -1931,9 +1941,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Avec l'aide de ce sort, le tisserand de rêves peut transférer sa propre aura à un autre tisserand de rêves dans un rapport de 2:1.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  |  2 auras   |  3   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  |   2 aura   |  3   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Dream of Magic" <unit-id> <Aura>`  
 
@@ -1945,9 +1955,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Le mage envoie un rêve à la cible du sort.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  I  |  N auras   |  1   | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
@@ -1964,9 +1974,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à sa faction.  
     Il peut accueillir une personne par niveau et par aura permanente.
 
-| Éc. |           Composants            | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 3 x N auras, N auras permanents |  9   | Normal |  5   |        |       |
+| Éc. |          Composants           | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 3 x N aura, N aura permanents |  9   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
 
@@ -1981,9 +1991,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Si plusieurs sorts de protection sont superposés, leurs effets s'additionnent, mais une protection à 100 % ne peut pas être obtenue de cette façon.  
     Le sort dure au moins trois semaines, mais selon la compétence du mage, il peut durer beaucoup plus longtemps.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  |  20 auras  |  8   | Normal |  2   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  |  20 aura   |  8   | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
 
@@ -1997,9 +2007,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Ce sort permet au Rêveur de perturber le sommeil de toutes les unités non alliées (`HELP GUARD`) de la région à tel point qu'elles perdent temporairement une partie de leurs souvenirs.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  I  |  90 auras  |  10  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |  90 aura   |  10  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schlechte Träume"`  
 
@@ -2011,9 +2021,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Ce sort permet au Dreamweaver d'affecter le sommeil de toutes les unités alliées de la région, leur donnant un bonus dans toutes les compétences pendant un certain temps.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  I  |  80 auras  |  8   | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |  80 aura   |  8   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schöne Träume"`  
 
@@ -2027,9 +2037,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
     On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
 
-| Éc. |          Composants           | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 350 auras, 5 auras permanents |  11  | Normal |  5   |        |       |
+| Éc. |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 350 aura, 5 aura permanents |  11  | Normal |  5   |        |       |
 
 `CAST "Segne Steinkreis" <building-id>`  
 
@@ -2042,9 +2052,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Dans ce rituel sanglant, le mage sacrifie un nouveau-né devant son armée avant le combat.  
     Les esprits du sang ainsi invoqués prendront possession des soldats et les plongeront dans une soif de sang.
 
-| Éc. |      Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 5 x N auras, 1 paysan |  5   | Pré-c. |  4   |        |       |
+| Éc. |      Composants      | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:--------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 5 x N aura, 1 paysan |  5   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
 
@@ -2058,9 +2068,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 2 x N auras |  4   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 2 x N aura |  4   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
@@ -2076,7 +2086,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 140 auras  |  14  | Normal |  4   |        |       |
+|  T  |  140 aura  |  14  | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Störe Astrale Integrität"`  
 
@@ -2090,9 +2100,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.  
     La plupart du temps, ils le regrettent quelques semaines plus tard...
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 5 x N auras |  12  | Normal |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 5 x N aura |  12  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
 
@@ -2107,9 +2117,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Ce rituel convoque divers esprits de la nature dans le sol de la région, qui le gardent désormais.  
     Dans une région aussi bénie, les morts ne quitteront plus jamais leurs tombes, et les morts-vivants apparus ailleurs les éviteront autant que possible.
 
-| Éc. |          Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 80 auras, 3 auras permanents |  9   | Normal |  5   |        |       |
+| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 80 aura, 3 aura permanents |  9   | Normal |  5   |        |       |
 
 `CAST "Sacred Ground"`  
 
@@ -2124,9 +2134,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.  
     S'il est trop souvent victime de ce sort, il peut mourir.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 2 x N auras |  11  | Pré-c. |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 2 x N aura |  11  | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Tod des Geistes"`  
 
@@ -2139,9 +2149,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
     L'esprit se manifeste sous la forme d'un nuage vert vif au-dessus de la région et nuira à tous ceux qui entreront en contact avec lui.
 
-| Éc. |   Composants    | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:---------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  D  | 40 auras, 15 PV |  11  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |   Composants   | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 40 aura, 15 PV |  11  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] Todeswolke`  
 
@@ -2156,9 +2166,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
     La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 800 auras  |  17  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  |  800 aura  |  17  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
@@ -2173,7 +2183,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  |  15 auras  |  5   | Pré-c. |  5   |        |       |
+|  G  |  15 aura   |  5   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Whirlwind`  
 
@@ -2185,9 +2195,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   À l'aide de ce sort, le mage peut transférer sa propre aura à un autre mage de la même École de Magie dans un rapport de 2:1 ou à un mage d'une autre École de Magie dans un rapport de 3:1.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  |   1 aura   |  5   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  |   1 aura   |  5   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer aura" <unit-id> <Aura>`  
 
@@ -2199,9 +2209,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 
-| Éc. | Composants | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  D  |  2 auras   |  7   | Normal |  1   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  |   2 aura   |  7   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
@@ -2213,9 +2223,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Ce sort permet au tisserand de rêves de distinguer et de démêler les images oniriques naturelles et forcées d'une personne, d'un bâtiment, d'un bateau ou d'une région.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  I  | 6 x N auras |  8   | Normal |  2   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  I  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
@@ -2230,9 +2240,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
     En invoquant des démons impies, le pouvoir des morts-vivants est amplifié et ils se transforment en monstres morts-vivants d'une grande puissance.
 
-| Éc. |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 10 x N auras, 5 x N paysans |  14  | Normal |  5   |        |       |
+| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 10 x N aura, 5 x N paysans |  14  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
@@ -2247,9 +2257,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Ce rituel évoque un sombre front de tempête qui domine de façon menaçante la région.  
     La pluie magique fera rouiller tout le minerai, détruisant de nombreuses armes ennemies.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 2 x N auras |  6   | Combat |  5   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 2 x N aura |  6   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
@@ -2263,9 +2273,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Le mage peut envoyer 15 kg par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 2 x N auras |  4   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 2 x N aura |  4   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
@@ -2279,9 +2289,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Le druide peut collecter ce pouvoir et créer une passerelle vers le monde des êtres spirituels.  
     Le druide peut alors niveau*Envoyer 5 unités de poids à travers la porte.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 3 x N auras |  9   | Normal |  7   |        |       |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 3 x N aura |  9   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
@@ -2296,9 +2306,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.  
     Même les marécages et les glaciers peuvent être enchantés de cette façon. Plus le mage met de puissance dans le sort, plus le chemin dure longtemps.
 
-| Éc. |         Composants          | Niv. |  Type  | Rang |       Bateau       |         D          |
-|:---:|:---------------------------:|:----:|:------:|:----:|:------------------:|:------------------:|
-|  G  | N auras, 1 [pierre], 1 bois |  4   | Normal |  5   | :heavy_check_mark: | :heavy_check_mark: |
+| Éc. |         Composants         | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:--------------------------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  G  | N aura, 1 [pierre], 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
@@ -2310,9 +2320,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 :   Avec l'aide de ce sort, le mage peut retirer son aura à un autre mage contre son gré et se la fournir.
 
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:------------------:|
-|  T  | 2 x N auras |  6   | Normal |  3   |        | :heavy_check_mark: |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  T  | 2 x N aura |  6   | Normal |  3   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
 
@@ -2327,9 +2337,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
     Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
 
-| Éc. |                      Composants                      | Niv. |  Type  | Rang | Bateau |         D          |
-|:---:|:----------------------------------------------------:|:----:|:------:|:----:|:------:|:------------------:|
-|  G  | 250 auras, 10 auras permanents, 1  [[cream-puff-fr]] |  16  | Normal |  5   |        | :heavy_check_mark: |
+| Éc. |                     Composants                     | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 250 aura, 10 aura permanents, 1  [[cream-puff-fr]] |  16  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Wurzeln der Magie"`  
 
@@ -2344,9 +2354,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
     Les personnes ainsi modifiées obtiennent deux fois plus de points de mouvement et deux fois plus d'attaques par round pendant quelques semaines.
 
-| Éc. | Composants  | Niv. |  Type  | Rang |       Bateau       | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------------------:|:-----:|
-|  T  | 5 x N auras |  11  | Normal |  5   | :heavy_check_mark: |       |
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 5 x N aura |  11  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
 

@@ -6,139 +6,61 @@ alias: alchimie
 
 ## Potions
 
-Les **potions** sont préparées à l'aide de [[herbs|plantes]] et d'autres ingrédients, et peuvent ensuite être utilisées par n'importe quelle **unité**.  
-Pour fabriquer une potion, il faut des unités compétentes en [alchimie], et pour trouver les plantes nécessaires, il faut des unités maîtrisant l'[herboristerie].
+Les **potions** sont préparées à l'aide de [[herbs|plantes]], et peuvent ensuite être utilisées par n'importe quelle **unité**.  
 
-Les potions sont produites avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].  
+### Fabrication
+
+Seule une unité sufisamment compétente en [alchimie] peut fabriquer une potion.  
+
+Les potions sont concoctées avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].  
+
 Une potion nécessite plusieurs ingrédients.  
-Les recettes sont données à chaque fois que l'on atteint le niveau requis pour les concocter.  
-Plus tard, on pourra les retrouver avec l'ordre [[cmd-show]].  
-Pour pouvoir fabriquer une potion, le niveau de l'alchimiste doit être deux fois plus élevé que le niveau de la potion.  
-Un alchimiste peut chaque tour créer (niveau de compétence)/(niveau de potion\*2) potions.  
-Un alchimiste de niveau 6 peut donc fabriquer au maximum une potion de niveau 3, une potion de niveau 2 ou trois potions de niveau 1.  
+La recette de préparation d'une potion est dévoilée à l'alchimiste quand son niveau de compétence vient d'augmenter et qu'il correspond au niveau d'une nouvelle potion.  
 
-Si vous souhaitez utiliser une potion, vous le faites avec l'ordre [[cmd-use|USE &#91;quantité&#93; "&lt;nom de la potion&gt;" &#91;ID d'unité&#93;]].  
-*L'identifiant d'unité (ID)* ne doit être spécifié **uniquement** pour la potion de **[pain d'andouille]**.  
+!!! tip "Astuce"
+
+    La recette peut être ensuite retrouvée à tout moment avec l'ordre [[cmd-show|`SHOW "<nom potion>"`]].  
+
+Pour pouvoir concocter une potion, le niveau de l'alchimiste doit être **2 fois plus élevé** que celui de la potion.  
+Un alchimiste de niveau T pourra donc produire à chaque tour un nombre de potions N calculé ainsi :
+$$N = \frac{T_{\text{unité}}}{Niveau_{\text{potion}}*2}$$
+
+*Ex. Un alchimiste **T6** peut produire 1 potion N3 ($6\,/\,(3\,\times\,2)=1$), 1 potion N2 ($6\,/\,(2\,\times\,2)=1$) **ou** 3 potions N1 ($6\,/\,(1\,\times\,2)=3$).*  
+
+!!! note "Note"
+    Les plantes peuvent être découvertes dans une région puis récoltées par une unité compétente en [herboristerie].
+
+### Utilisation
+
+L'ordre [[cmd-use|`USE <quantité> "<nom potion>" <unit-id>`]] permet d'utiliser une ou plusieurs potions en sa possession.  
+
+Remarque: l'identifiant d'unité `<unit-id>` est à renseigner **uniquement** pour le **[pain d'andouille]**.  
 
 Une potion ne peut pas être divisée entre plusieurs unités.  
-On peut cependant diviser une grande unité en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.  
+On peut cependant diviser une unité de plusieurs membres en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.  
+
+Les potions ont toutes un effet positif, à l'exception du [pain d'andouille].  
 
 La plupart des potions profitent à l'unité qui les utilise.  
-Les exceptions sont les potions qui se rapportent à une région - dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités ([pain d'andouille]).  
+Mais certaines s'appliquent à une région. Dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités ([pain d'andouille]).  
 
 En général, une potion affecte 10 personnes ou 10 biens pendant le tour où elle est utilisée, comme indiqué dans sa recette.  
 Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.  
 De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes.  
+
 Cela n'est pas possible avec le [sang de berserker], car les personnes n'agissent pas comme une unité au combat.  
 Ici, il est nécessaire que toutes les personnes de l'unité aient l'effet de la potion avant le combat, sinon cela ne fonctionnera pas !  
 
-L'"effet résiduel" des potions n'expire pas pour toutes les potions;
-par exemple, une personne peut bénéficier de l'effet de l'[huile de cervelle] ou du [breuvage de labeur] pendant dix semaines après l'avoir utilisé.  
+L'effet "résiduel" des potions n'expire pas pour toutes les potions.  
+Par exemple, une personne peut bénéficier de l'effet de l'[huile de cervelle] ou du [breuvage de labeur] pendant dix semaines après l'avoir utilisé.  
 
-### Sang de berserker
+## Liste des potions
 
-<!-- cspell:disable -->
-*Berserkers blood (EN), Berserkerblut (DE)*.
-<!-- cspell:enable -->
+Vous trouverez ci-dessous la liste des potions par ordre croissant de niveau.
 
-:   10 personnes reçoivent un modificateur d'attaque de **+1** au combat.
+### Niveau 1
 
-*Objectif :* renforcer l'attaque.  
-*Niveau requis :* **3**.  
-*Cible :* **unité**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [racine plate]
-- 1 [mandragore]
-- 1 [pourriture de sable]
-- 1 [tsugas blancs]
-
-### Huile de cervelle
-
-<!-- cspell:disable -->
-*Brain wax (EN), Gehirnschmalz (DE)*.
-<!-- cspell:enable -->
-
-:   jusqu'à 10 personnes : augmente les chances **d'apprentissage d'une compétence**.
-
-*Objectif :* accélérer l'apprentissage.  
-*Niveau requis :* **3**.  
-*Cible :* **unité**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [herbe de clairon]
-- 1 [herbe de roche]
-- 1 [waterfinder]
-- 1 [gousse]
-
-### Breuvage de labeur
-
-<!-- cspell:disable -->
-*Busybeer (EN), Schaffenstrunk (DE)*.
-<!-- cspell:enable -->
-
-:   **Double la productivité** de 10 hommes utilisant l'ordre **`MAKE`**.
-
-*Objectif :* accélérer la production.  
-*Niveau requis :* **2**.  
-*Cible :* **unité**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [cire fissurée]
-- 1 [mandragore]
-- 1 [témérité piquante]
-
-### Pain d'andouille
-
-<!-- cspell:disable -->
-*Duncebun (EN), Dumpfbackenbrot (DE)*.
-<!-- cspell:enable -->
-
-:   pour 10 personnes : pas d'apprentissage, ou l'enseignant n'apporte rien, ou oubli d'1 semaine de la meilleure compétence.
-
-*Objectif :* ralentir l'apprentissage d'une unité (adverse).  
-*Niveau requis :* **3**.  
-*Cible :* unité \[étrangère\].  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [lichen des cavernes]
-- 1 [champignon des fjords]
-- 1 [œil de chouette]
-- 1 [lierre d'araignée]
-
-[[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
-
-!!! note
-    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
-    L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.  
-    Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
-
-### Élixir de pouvoir
-
-<!-- cspell:disable -->
-*Elixir of power (EN), Elixier der Macht (DE)*.
-<!-- cspell:enable -->
-
-:   10 personnes ont leurs **points de vie multipliés par 5**.
-
-*Objectif :* augmenter les points de vie d'une unité.  
-*Niveau requis :* **4**.  
-*Cible :* **unité**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [[sang-de-dragon]]
-- 1 [morille]
-- 1 [amour d'Elfes]
-- 1 [lierre d'araignée]
-- 1 [waterfinder]
-- 1 [gousse]
-
-### Eau de Goliath
+#### Eau de Goliath
 
 <!-- cspell:disable -->
 *Goliath water (EN), Goliathwasser (DE)*.
@@ -147,35 +69,131 @@ Plantes nécessaires pour concocter cette potion :
 :   10 hommes peuvent porter autant que 10 chevaux.
 
 *Objectif :* augmenter la capacité à transporter.  
-*Niveau requis :* **1**.  
+*Niveau :* **1**.  
 *Cible :* **unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [herbe de clairon]
-- 1 [champignon des fjords]
+- [herbe de clairon]
+- [champignon des fjords]
 
-### Potion de guérison
+#### Eau de vie
 
 <!-- cspell:disable -->
-*Healing potion (EN), Heiltrank (DE)*.
+*Water of life (EN), Wasser des Lebens (DE)*.
 <!-- cspell:enable -->
 
-:   Une personne survit à des dommages mortels (une seule fois par personne et par tour).
+:   Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns).
 
-*Objectif :* augmenter les chances de survie au combat.  
-*Niveau requis :* **4**.  
+*Objectif :* augmenter les ressources d'une région (arbres et mallorns).  
+*Niveau :* **1**.  
+*Cible :* **région**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [amour d'Elfes]
+- [racine de nœud]
+
+#### Potion de vérité
+
+<!-- cspell:disable -->
+*Potion of truth (EN), Trank der Wahrheit (DE)*.
+<!-- cspell:enable -->
+
+:   ***Cette potion n'a plus aucune fonction***.
+
+*Niveau :* 1.  
+*Cible :* région.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [champignon des fjords]
+- [racine plate]
+
+#### Thé des sept lieues
+
+<!-- cspell:disable -->
+*Seven mile tea (EN), Siebenmeilentee (DE)*.
+<!-- cspell:enable -->
+
+:   10 hommes à pied peuvent se déplacer **aussi vite qu'à cheval**.
+
+*Objectif :* augmenter la vitesse de déplacement.  
+*Niveau :* **1**.  
 *Cible :* **unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [herbe de clairon]
-- 1 [amour d'Elfes]
-- 1 [cire fissurée]
-- 1 [bégonia des glaces]
-- 1 [gousse]
+- [champignon cobalt]
+- [gousse]
 
-### Bien-être des chevaux
+### Niveau 2
+
+#### Breuvage de labeur
+
+<!-- cspell:disable -->
+*Busybeer (EN), Schaffenstrunk (DE)*.
+<!-- cspell:enable -->
+
+:   **Double la productivité** de 10 hommes utilisant l'ordre **`MAKE`**.
+
+*Objectif :* accélérer la production.  
+*Niveau :* **2**.  
+*Cible :* **unité**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [cire fissurée]
+- [mandragore]
+- [témérité piquante]
+
+#### Onguent de soin
+
+<!-- cspell:disable -->
+*Ointment (EN), Wundsalbe (DE)*.
+<!-- cspell:enable -->
+
+:   Soigne jusqu'à 400 points de vie.
+
+*Objectif :* soigner une unité.  
+*Niveau :* **2**.  
+*Cible :* **unité**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [champignon cobalt]
+- [témérité piquante]
+- [tsugas blancs]
+
+#### Sang de paysan
+
+<!-- cspell:disable -->
+*Peasant blood (EN), Bauernblut (DE)*.
+<!-- cspell:enable -->
+
+:   Jusqu'à 100 démons peuvent se passer de tuer des paysans.
+
+*Objectif :* augmenter les ressources d'une région (paysans) où des démons sont présents.  
+*Niveau :* **2**.  
+*Cible :* **unité**.  
+
+!!! warning "Remarque"
+    Pour la préparation de cette potion, un paysan doit être sacrifié.
+
+Éléments nécessaires pour concocter cette potion :
+
+- [lichen des cavernes]
+- [champignon cobalt]
+- [champignon des fjords]
+- **paysan**
+
+!!! note
+    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.  
+    Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de *Peasant blood* pour tous les démons.
+
+### Niveau 3
+
+#### Bien-être des chevaux
 
 <!-- cspell:disable -->
 *Horsepower potion (EN), Pferdeglück (DE)*.
@@ -185,78 +203,17 @@ Plantes nécessaires pour concocter cette potion :
     **50 chevaux** mettent au monde jusqu'à **4 poulains**.
 
 *Objectif :* augmenter les ressources d'une région (chevaux).  
-*Niveau requis :* **3**.  
+*Niveau :* **3**.  
 *Cible :* **région**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [champignon cobalt]
-- 1 [racine de nœud]
-- 1 [peyote]
-- 1 [pourriture de sable]
+- [champignon cobalt]
+- [racine de nœud]
+- [peyote]
+- [pourriture de sable]
 
-### Onguent de soin
-
-<!-- cspell:disable -->
-*Ointment (EN), Wundsalbe (DE)*.
-<!-- cspell:enable -->
-
-:   Soigne jusqu'à 400 points de vie.
-
-*Objectif :* soigner une unité.  
-*Niveau requis :* **2**.  
-*Cible :* **unité**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [champignon cobalt]
-- 1 [témérité piquante]
-- 1 [tsugas blancs]
-
-### Sang de paysan
-
-<!-- cspell:disable -->
-*Peasant blood (EN), Bauernblut (DE)*.
-<!-- cspell:enable -->
-
-:   Jusqu'à 100 démons peuvent se passer de tuer des paysans.
-
-*Objectif :* augmenter les ressources d'une région (paysans) où des démons sont présents.  
-*Niveau requis :* **2**.  
-*Cible :* **unité**.  
-
-Éléments nécessaires pour concocter cette potion :
-
-- 1 [lichen des cavernes]
-- 1 [champignon cobalt]
-- 1 [champignon des fjords]
-- 1 **paysan**
-
-!!! note
-    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.  
-    Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de *Peasant blood* pour tous les démons.
-
-### Amour des paysans
-
-<!-- cspell:disable -->
-*Peasant love potion (EN), Bauernlieb (DE)*.
-<!-- cspell:enable -->
-
-:   1 000 paysans **croissent deux fois plus vite** que la normale.
-
-*Objectif :* augmenter les ressources d'une région (paysans).  
-*Niveau requis*: **4**.  
-*Cible*: **région**.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [morille]
-- 1 [amour d'Elfes]
-- 1 [mandragore]
-- 1 [herbe de roche]
-- 1 [pétale de cristal de neige]
-
-### Chaleur du nid
+#### Chaleur du nid
 
 <!-- cspell:disable -->
 *Potion of nest warmth (EN), Nestwärme (DE)*.
@@ -265,85 +222,162 @@ Plantes nécessaires pour concocter cette potion :
 :   Permet aux **[Insectes]** de recruter **même en hiver**.
 
 *Objectif :* permettre le recrutement d'Insectes en hiver.  
-*Niveau requis :* **3**.  
+*Niveau :* **3**.  
 *Cible :* **région**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [cire fissurée]
-- 1 [bégonia des glaces]
-- 1 [peyote]
-- 1 [lierre d'araignée]
+- [cire fissurée]
+- [bégonia des glaces]
+- [peyote]
+- [lierre d'araignée]
 
-### Potion de vérité
-
-<!-- cspell:disable -->
-*Potion of truth (EN), Trank der Wahrheit (DE)*.
-<!-- cspell:enable -->
-
-:   ***Cette potion n'a plus aucune fonction***.
-
-*Niveau requis :* 1.  
-*Cible :* région.  
-
-Plantes nécessaires pour concocter cette potion :
-
-- 1 [champignon des fjords]
-- 1 [racine plate]
-
-### Thé des sept lieues
+#### Huile de cervelle
 
 <!-- cspell:disable -->
-*Seven mile tea (EN), Siebenmeilentee (DE)*.
+*Brain wax (EN), Gehirnschmalz (DE)*.
 <!-- cspell:enable -->
 
-:   10 hommes à pied peuvent se déplacer **aussi vite qu'à cheval**.
+:   jusqu'à 10 personnes : augmente les chances **d'apprentissage d'une compétence**.
 
-*Objectif :* augmenter la vitesse de déplacement.  
-*Niveau requis :* **1**.  
+*Objectif :* accélérer l'apprentissage.  
+*Niveau :* **3**.  
 *Cible :* **unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [champignon cobalt]
-- 1 [gousse]
+- [herbe de clairon]
+- [herbe de roche]
+- [waterfinder]
+- [gousse]
 
-### Eau de vie
+#### Pain d'andouille
 
 <!-- cspell:disable -->
-*Water of life (EN), Wasser des Lebens (DE)*.
+*Duncebun (EN), Dumpfbackenbrot (DE)*.
 <!-- cspell:enable -->
 
-:   Transforme 10 bois (ou mallorn) en 10 pousses (ou pousses de mallorns).
+:   pour 10 personnes : pas d'apprentissage, ou l'enseignant n'apporte rien, ou oubli d'1 semaine de la meilleure compétence.
 
-*Objectif :* augmenter les ressources d'une région (arbres et mallorns).  
-*Niveau requis :* **1**.  
-*Cible :* **région**.  
+*Objectif :* ralentir l'apprentissage d'une unité (adverse).  
+*Niveau :* **3**.  
+*Cible :* unité étrangère.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- 1 [amour d'Elfes]
-- 1 [racine de nœud]
+- [lichen des cavernes]
+- [champignon des fjords]
+- [œil de chouette]
+- [lierre d'araignée]
 
-## Tableau récapitulatif
+[[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
-| Potion                  | Abr. | Niv. | Cible                   |
-|-------------------------|:----:|:----:|-------------------------|
-| [eau de Goliath]        |  GW  |  1   | Unité                   |
-| [potion de vérité]      |  PT  |  1   | Région                  |
-| [thé des sept lieues]   |  SM  |  1   | Unité                   |
-| [eau de vie]            |  WL  |  1   | Région                  |
-| [breuvage de labeur]    |  BZ  |  2   | Unité                   |
-| [onguent de soin]       |  OM  |  2   | Unité                   |
-| [sang de paysan]        |  PB  |  2   | Unité[^1]               |
-| [sang de berserker]     |  BK  |  3   | Unité                   |
-| [huile de cervelle]     |  BW  |  3   | Unité                   |
-| [pain d'andouille]      |  DB  |  3   | Unité \[étrangère\][^2] |
-| [bien-être des chevaux] |  HP  |  3   | Région                  |
-| [chaleur du nid]        |  NW  |  3   | Région                  |
-| [élixir de pouvoir]     |  EP  |  4   | Unité                   |
-| [potion de guérison]    |  HL  |  4   | Unité                   |
-| [amour des paysans]     |  PL  |  4   | Région                  |
+!!! note
+    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
+    L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.  
+    Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
+
+#### Sang de berserker
+
+<!-- cspell:disable -->
+*Berserkers blood (EN), Berserkerblut (DE)*.
+<!-- cspell:enable -->
+
+:   10 personnes reçoivent un modificateur d'attaque de **+1** au combat.
+
+*Objectif :* renforcer l'attaque.  
+*Niveau :* **3**.  
+*Cible :* **unité**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [racine plate]
+- [mandragore]
+- [pourriture de sable]
+- [tsugas blancs]
+
+### Niveau 4
+
+#### Amour des paysans
+
+<!-- cspell:disable -->
+*Peasant love potion (EN), Bauernlieb (DE)*.
+<!-- cspell:enable -->
+
+:   1 000 paysans **croissent deux fois plus vite** que la normale.
+
+*Objectif :* augmenter les ressources d'une région (paysans).  
+*Niveau*: **4**.  
+*Cible*: **région**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [morille]
+- [amour d'Elfes]
+- [mandragore]
+- [herbe de roche]
+- [pétale de cristal de neige]
+
+#### Élixir de pouvoir
+
+<!-- cspell:disable -->
+*Elixir of power (EN), Elixier der Macht (DE)*.
+<!-- cspell:enable -->
+
+:   10 personnes ont leurs **points de vie multipliés par 5**.
+
+*Objectif :* augmenter les points de vie d'une unité.  
+*Niveau :* **4**.  
+*Cible :* **unité**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [[sang-de-dragon]]
+- [morille]
+- [amour d'Elfes]
+- [lierre d'araignée]
+- [waterfinder]
+- [gousse]
+
+#### Potion de guérison
+
+<!-- cspell:disable -->
+*Healing potion (EN), Heiltrank (DE)*.
+<!-- cspell:enable -->
+
+:   Une personne survit à des dommages mortels (une seule fois par personne et par tour).
+
+*Objectif :* augmenter les chances de survie au combat.  
+*Niveau :* **4**.  
+*Cible :* **unité**.  
+
+Plantes nécessaires pour concocter cette potion :
+
+- [herbe de clairon]
+- [amour d'Elfes]
+- [cire fissurée]
+- [bégonia des glaces]
+- [gousse]
+
+## Potions - Synthèse
+
+| Potion                  | Abr. | Niv. | Cible               |
+|-------------------------|:----:|:----:|---------------------|
+| [eau de Goliath]        |  GW  |  1   | Unité               |
+| [eau de vie]            |  WL  |  1   | Région              |
+| [potion de vérité]      |  PT  |  1   | Région              |
+| [thé des sept lieues]   |  SM  |  1   | Unité               |
+| [breuvage de labeur]    |  BZ  |  2   | Unité               |
+| [onguent de soin]       |  OM  |  2   | Unité               |
+| [sang de paysan]        |  PB  |  2   | Unité[^1]           |
+| [bien-être des chevaux] |  HP  |  3   | Région              |
+| [chaleur du nid]        |  NW  |  3   | Région              |
+| [huile de cervelle]     |  BW  |  3   | Unité               |
+| [pain d'andouille]      |  DB  |  3   | Unité étrangère[^2] |
+| [sang de berserker]     |  BK  |  3   | Unité               |
+| [amour des paysans]     |  PL  |  4   | Région              |
+| [élixir de pouvoir]     |  EP  |  4   | Unité               |
+| [potion de guérison]    |  HL  |  4   | Unité               |
 
 [^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
     Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
@@ -353,29 +387,29 @@ Plantes nécessaires pour concocter cette potion :
 
 ## Plantes et leur utilisation
 
-| Plante                     | PT | SM | GW | WL | PB | BZ | OM | BK | DB | BW | HP | NW | PL | EP | HL |
-|----------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| morille                    |    |    |    |    |    |    |    |    |    |    |    |    | X  | X  |    |
-| herbe de clairon           |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    | X  |
-| lichen des cavernes        |    |    |    |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| champignon cobalt          |    | X  |    |    | X  |    | X  |    |    |    | X  |    |    |    |    |
-| amour d'Elfes              |    |    |    | X  |    |    |    |    |    |    |    |    | X  | X  | X  |
-| champignon des fjords      | X  |    | X  |    | X  |    |    |    | X  |    |    |    |    |    |    |
-| racine plate               | X  |    |    |    |    |    |    | X  |    |    |    |    |    |    |    |
-| cire fissurée              |    |    |    |    |    | X  |    |    |    |    |    | X  |    |    | X  |
-| bégonia des glaces         |    |    |    |    |    |    |    |    |    |    |    | X  |    |    | X  |
-| racine de nœud             |    |    |    | X  |    |    |    |    |    |    | X  |    |    |    |    |
-| mandragore                 |    |    |    |    |    | X  |    | X  |    |    |    |    | X  |    |    |
-| œil de chouette            |    |    |    |    |    |    |    |    | X  |    |    |    |    |    |    |
-| peyote                     |    |    |    |    |    |    |    |    |    |    | X  | X  |    |    |    |
-| herbe de roche             |    |    |    |    |    |    |    |    |    | X  |    |    | X  |    |    |
-| pourriture de sable        |    |    |    |    |    |    |    | X  |    |    | X  |    |    |    |    |
-| pétale de cristal de neige |    |    |    |    |    |    |    |    |    |    |    |    | X  |    |    |
-| lierre d'araignée          |    |    |    |    |    |    |    |    | X  |    |    | X  |    | X  |    |
-| témérité piquante          |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |    |
-| waterfinder                |    |    |    |    |    |    |    |    |    | X  |    |    |    | X  |    |
-| tsugas blancs              |    |    |    |    |    |    | X  | X  |    |    |    |    |    |    |    |
-| gousse                     |    | X  |    |    |    |    |    |    |    | X  |    |    |    | X  | X  |
+| Plante                       |             [SM]             |             [GW]             |             [WL]             |             [PB]             |             [BZ]             |             [OM]             |             [BK]             |             [DB]             |             [BW]             |             [HP]             |             [NW]             |             [PL]             |             [EP]             |             [HL]             |
+|------------------------------|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|
+| [amour d'Elfes]              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } | :material-check:{ .success } |
+| [bégonia des glaces]         |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
+| [champignon cobalt]          | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [champignon des fjords]      |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [cire fissurée]              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
+| [gousse]                     | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |
+| [herbe de clairon]           |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |
+| [herbe de roche]             |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |
+| [lichen des cavernes]        |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [lierre d'araignée]          |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |
+| [mandragore]                 |                              |                              |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
+| [morille]                    |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |
+| [œil de chouette]            |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [peyote]                     |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |
+| [pourriture de sable]        |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [pétale de cristal de neige] |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
+| [racine de nœud]             |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [racine plate]               |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
+| [tamaris]                    |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |
+| [témérité piquante]          |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              |
+| [tsugas blancs]              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
 
 Poursuivre la lecture : [[herbs|plantes]].
 
@@ -384,26 +418,29 @@ Poursuivre la lecture : [[herbs|plantes]].
 [alchimie]: ./skills-list.md#alchimie
 [herboristerie]: ./skills-list.md#herboristerie
 [Insectes]: ./races.md#insectes
-[morille]: ./herbs.md#morille "Bubblemorel"
-[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
-[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
-[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
+
 [amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
-[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
-[racine plate]: ./herbs.md#racine-plate "Flatroot"
-[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
 [bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
-[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
-[mandragore]: ./herbs.md#mandragore "Mandrake"
-[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"
+[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
+[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
+[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
+[gousse]: ./herbs.md#gousse "Windbag"
+[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
 [herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
-[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
+[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
 [lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
+[mandragore]: ./herbs.md#mandragore "Mandrake"
+[morille]: ./herbs.md#morille "Bubblemorel"
+[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
+[peyote]: ./herbs.fr.md#peyote "Peyote"
+[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
+[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
+[racine plate]: ./herbs.md#racine-plate "Flatroot"
+[tamaris]: ./herbs.fr.md#tamaris "Waterfinder"
+[tsugas blancs]: ./herbs.md#tsugas-blancs "White hemlocks"
 [témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
 [waterfinder]: ./herbs.md#tamaris "Waterfinder"
-[tsugas blancs]: ./herbs.md#tsugas-blancs "White hemlocks"
-[gousse]: ./herbs.md#gousse "Windbag
+[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"
 
 [eau de Goliath]: #eau-de-goliath "Goliath water"
 [eau de vie]: #eau-de-vie "Water of life"
@@ -420,3 +457,18 @@ Poursuivre la lecture : [[herbs|plantes]].
 [bien-être des chevaux]: ./alchemy.md#bien-etre-des-chevaux "Horsepower potion"
 [élixir de pouvoir]: ./alchemy.md#elixir-de-pouvoir "Elixir of power"
 [potion de guérison]: ./alchemy.md#potion-de-guerison "Healing potion"
+
+[SM]: ./alchemy.fr.md#the-des-sept-lieues "Thé des sept lieues (Seven mile tea)"
+[GW]: ./alchemy.fr.md#eau-de-goliath "Eau de Goliath (Goliath water)"
+[WL]: ./alchemy.fr.md#eau-de-vie "Eau de vie (Water of life)"
+[PB]: ./alchemy.fr.md#sang-de-paysan "Sang de paysan (Peasant blood)"
+[BZ]: ./alchemy.fr.md#breuvage-de-labeur "Breuvage de labeur (Busybeer)"
+[OM]: ./alchemy.fr.md#onguent-de-soin "Onguent de soin (Ointment)"
+[BK]: ./alchemy.fr.md#sang-de-berserker "Sang de berserker (Berserkers blood)"
+[DB]: ./alchemy.fr.md#pain-dandouille "Pain d'andouille (Duncebun)"
+[BW]: ./alchemy.fr.md#huile-de-cervelle "Huile de cervelle (Brain wax)"
+[HP]: ./alchemy.fr.md#bien-etre-des-chevaux "Bien-être des chevaux (Horsepower potion)"
+[NW]: ./alchemy.fr.md#chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
+[PL]: ./alchemy.fr.md#amour-des-paysans "Amour des paysans (Peasant love potion)"
+[EP]: ./alchemy.fr.md#elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
+[HL]: ./alchemy.fr.md#potion-de-guerison "Potion de guérison ()"

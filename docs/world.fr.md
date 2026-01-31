@@ -67,7 +67,7 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 
 | Terrain   | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
 |-----------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
-| Désert    |               500 |                     50 |                 100 | chercheuse d'eau, peyote, pourriture de sable                                                         |
+| Désert    |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
 | Forêt     |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
 | Glacier   |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsugas blancs                                          |
 | Highlands |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |

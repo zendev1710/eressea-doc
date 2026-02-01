@@ -110,10 +110,10 @@ Dans les glaciers, les marais et les déserts, la construction de routes n'est p
 
 [Désert]: ./terrains.md#desert "Desert"
 [Forêt]: ./terrains.md#foret "Forest"
-[Glacier]: ./terrains.md#glacier "Glacie
-[Haut-plateau]: ./terrains.md#haut-plate
+[Glacier]: ./terrains.md#glacier "Glacier"
+[Haut-plateau]: ./terrains.md#haut-plateau "Highlands"
 [Marais]: ./terrains.md#marais "Swamp"
-[Montagne]: ./terrains.md#montagne "Moun
+[Montagne]: ./terrains.md#montagne "Mountain"
 [Plaine]: ./terrains.md#plaine "Plain"
 [Volcan]: ./terrains.md#volcan "Volcano"
 

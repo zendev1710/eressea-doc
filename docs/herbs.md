@@ -77,19 +77,28 @@ Herbs will rot with time.
 
 *List of herbs and their distribution.*
 
-| Region    | Herbs                                                                    |
-|-----------|--------------------------------------------------------------------------|
-| Desert    | waterfinder, peyote, sand reeker                                         |
-| Forest    | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Glacier   | ice begonia, white hemlock, snowcrystal petal                            |
-| Highlands | windbag, fjord fungus, mandrake                                          |
-| Mountain  | rock weed, gapgrowth, cave lichen                                        |
-| Plain     | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Swamp     | bugleweed, knotroot, bubblemorel                                         |
-| Volcano   | --                                                                       |
+| Region      | Herbs                                                                    |
+|-------------|--------------------------------------------------------------------------|
+| [Desert]    | waterfinder, peyote, sand reeker                                         |
+| [Forest]    | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Glacier]   | ice begonia, white hemlock, snowcrystal petal                            |
+| [Highlands] | windbag, fjord fungus, mandrake                                          |
+| [Mountain]  | rock weed, gapgrowth, cave lichen                                        |
+| [Plain]     | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Swamp]     | bugleweed, knotroot, bubblemorel                                         |
+| [Volcano]   | --                                                                       |
 
 Continue reading: [[orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->
 
 [herbalism]: ./skills-list.md#herbalism
+
+[Desert]: ./terrains.md#desert
+[Forest]: ./terrains.md#forest
+[Glacier]: ./terrains.md#glacier
+[Highlands]: ./terrains.md#highlands
+[Swamp]: ./terrains.md#swamp
+[Mountain]: ./terrains.md#mountain
+[Plain]: ./terrains.md#plain
+[Volcano]: ./terrains.md#volcano

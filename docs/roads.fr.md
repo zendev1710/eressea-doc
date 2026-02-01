@@ -32,16 +32,16 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 
 *Construction de routes.*
 
-| Terrain   | Pierres | Bâtiment        |
-|-----------|--------:|-----------------|
-| Désert    |     100 | [caravansérail] |
-| Forêt     |      50 | --              |
-| Glacier   |     250 | [tunnel]        |
-| Highlands |     100 | --              |
-| Marais    |      75 | [barrage]       |
-| Montagne  |     250 | --              |
-| Plaine    |      50 | --              |
-| Volcan    |     250 | --              |
+| Terrain        | Pierres | Bâtiment        |
+|----------------|--------:|-----------------|
+| [Désert]       |     100 | [caravansérail] |
+| [Forêt]        |      50 | --              |
+| [Glacier]      |     250 | [tunnel]        |
+| [Haut-plateau] |     100 | --              |
+| [Marais]       |      75 | [barrage]       |
+| [Montagne]     |     250 | --              |
+| [Plaine]       |      50 | --              |
+| [Volcan]       |     250 | --              |
 
 Poursuivre la lecture : [[bateaux]].
 
@@ -52,3 +52,12 @@ Poursuivre la lecture : [[bateaux]].
 [bâtiment]: ./buildings-others.md
 [barrage]: ./buildings-others.md#barrage "Dam"
 [construction de routes]: ./skills-list.md#construction-de-routes "Roadwork"
+
+[Désert]: ./terrains.md#desert "Desert"
+[Forêt]: ./terrains.md#foret "Forest"
+[Glacier]: ./terrains.md#glacier "Glacier"
+[Haut-plateau]: ./terrains.md#haut-plateau "Highland"
+[Marais]: ./terrains.md#marais "Swamp"
+[Montagne]: ./terrains.md#montagne "Mountain"
+[Plaine]: ./terrains.md#plaine "Plain"
+[Volcan]: ./terrains.md#volcan "Volcano"

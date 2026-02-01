@@ -12,7 +12,7 @@ Chaque race a des avantages et des inconvénients qui se traduisent par des [bon
 
 Chaque race a des [coûts de recrutement][bonus et malus] différents.  
 
-En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (kg) et **peut porter jusqu'à 5,4 kg**.  
+En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [trolls], les [gobelins] et divers monstres constituent des exceptions.
 
 Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jouer.  
@@ -71,7 +71,7 @@ Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, 
 Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent compter sur la ruse ou le surnombre. Chez eux, la règle est "la masse plutôt que la classe".
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
-- Les gobelins ne pèsent que 6 kg, mais leur capacité de transport (4,4 kg) est également moindre.
+- Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
 - Un gobelin au moins T4 en [Discrétion] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
@@ -203,7 +203,7 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 
 Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. Ils adorent travailler les pierres. Mais ils effraient les chevaux et la natation n'a jamais été considérée comme leur passe-temps favori.
 
-- Les trolls sont forts et peuvent porter deux fois plus que les autres (10,8 kg), mais ils pèsent aussi deux fois plus (20 kg).
+- Les trolls sont forts et peuvent porter deux fois plus que les autres (10,8 lbs), mais ils pèsent aussi deux fois plus (20 lbs).
 - Il n'y a pas de cavalerie troll, ce qui signifie que les trolls ne reçoivent pas de bonus de cheval. Cela n'a aucun effet sur le transport de marchandises et la vitesse de déplacement des trolls montés.
 - Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici] et [ici][1]).
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.

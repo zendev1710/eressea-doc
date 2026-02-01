@@ -694,7 +694,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 :   Ce sac renferme un petit pli dimensionnel dans lequel jusqu'à 200 unités de poids peuvent être transportées sans être comptées dans le poids transporté.  
     Les chevaux et autres êtres vivants ainsi que les objets particulièrement volumineux (chars et catapultes) ne peuvent pas être transportés dans le sac.  
-    Il n'est pas non plus possible de transporter un sac magique dans un autre. Le sac lui-même pèse 1 kg.
+    Il n'est pas non plus possible de transporter un sac magique dans un autre. Le sac lui-même pèse 1 lbs.
 
 | Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
@@ -1320,7 +1320,7 @@ Extrait de « Errants » de Firudin le Sage.
 <!-- cspell:enable -->
 
 :   Un mage qui se trouve dans le plan Astral peut utiliser ce sort pour lui amener d'autres unités.  
-    Le mage peut (niveau 3)*Envoyer 15 kg par la porte brièvement créée.  
+    Le mage peut (niveau 3)*Envoyer 15 lbs par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 13 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
@@ -2065,7 +2065,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 <!-- cspell:enable -->
 
 :   Le mage se concentre sur la structure de la réalité et peut ainsi quitter le plan Astral.  
-    Il peut globalement (Niveau-3)*Envoyer 15 kg par la porte brièvement créée.  
+    Il peut globalement (Niveau-3)*Envoyer 15 lbs par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
@@ -2270,7 +2270,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 <!-- cspell:enable -->
 
 :   D'anciennes formules arcaniques permettent au mage de s'envoyer lui-même et les autres dans le plan Astral.  
-    Le mage peut envoyer 15 kg par la porte brièvement créée.  
+    Le mage peut envoyer 15 lbs par la porte brièvement créée.  
     Si le mage est suffisamment expérimenté pour lancer le sort aux niveaux 11 ou plus, il peut forcer d'autres unités à passer à l'autre niveau, même contre leur gré.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |

@@ -114,7 +114,7 @@ Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* 
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
 Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes] et des [[objets|pierres]].  
-Dans les glaciers, il lui faut au préalable un [tunnel], dans les déserts un [caravansérail] et dans les marécages un [barrage].  
+Dans les glaciers, il faut au préalable un [tunnel], dans les déserts un [caravansérail] et dans les marais un [barrage].  
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  
 Les routes ne fonctionnent que si elles sont complètes.

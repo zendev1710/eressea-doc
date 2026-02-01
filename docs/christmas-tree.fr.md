@@ -6,7 +6,7 @@ alias: sapin-de-noel
 
 **Le Sapin de Noël** était le cadeau de Noël d'Eressean en 2006.
 
-Description : Sapin de Noël (poids : 0 kg) : cet arbre joliment décoré a un effet magique sur toute la forêt pendant les mois d'hiver.
+Description : Sapin de Noël (poids : 0 lbs) : cet arbre joliment décoré a un effet magique sur toute la forêt pendant les mois d'hiver.
 
 ## Annonce de l'association sur l'entretien des arbres de Noël adapté aux espèces
 

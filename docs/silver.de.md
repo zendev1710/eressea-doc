@@ -4,6 +4,9 @@ alias: geld
 ---
 # Geld
 
+!!! note "Hinweis"
+    In Eressea ist die Grundeinheit des Währungssystems **Silber**.
+
 Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben] oder [Handel] treiben.
 
 Während Arbeiten eher eine Notlösung ist, kann mit Unterhaltung und dem Eintreiben von Steuern schon recht viel Geld verdient werden. Der Handel kann in Eressea, Regionen mit entsprechenden Luxusgütern vorausgesetzt, besonders am Anfang die größte Einnahmequelle sein.

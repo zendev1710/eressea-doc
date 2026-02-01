@@ -4,8 +4,12 @@ alias: argent
 ---
 # Argent
 
+!!! note "Note"
+    Dans Eressea, l'unité de base du système monétaire est le **silver**.
+
 L'argent mène le monde - c'est aussi le cas dans Eressea.  
-Il y a plusieurs façons d'en obtenir : [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer].  
+
+Il y a plusieurs façons d'obtenir de l'argent : une unité peut [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer].  
 
 Le travail (`WORK`) est plus une sorte de palliatif, les unités qui travaillent gagnent à peine de quoi se nourrir.  
 Vous pouvez gagner beaucoup d'argent avec le divertissement (`ENTERTAIN`) et les impôts (`TAX`).  
@@ -14,9 +18,9 @@ Surtout au début de votre aventure, le commerce peut être la plus grande sourc
 L'argent a son propre poids : 100 silver équivalent à une unité de poids.  
 Lors du calcul du poids, il est courant d'arrondir à l'unité supérieure; un seul silver peut surcharger une unité.  
 
-Comme les personnes (de la plupart des [[races]]) peuvent porter 5,4 UW/kg, elles peuvent transporter jusqu'à 540 silvers;  
+Comme les personnes (de la plupart des [[races]]) peuvent porter 5,4 lbs, elles peuvent transporter jusqu'à 540 silvers;  
 lorsqu'elles en portent 541 une seule personne est surchargée.  
-Un bateau (capacité de 50 UW/kg) par exemple, peut transporter une personne (10 kg dans la plupart des cas) avec 4000 silvers; 4001 pièces serait une surcharge.  
+Un bateau (capacité de 50 lbs) par exemple, peut transporter une personne (10 lbs dans la plupart des cas) avec 4000 silvers; 4001 pièces serait une surcharge.  
 
 ## Dépenses
 
@@ -185,7 +189,7 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 
 *Prix de base des biens de luxe.*
 
-| Produits de luxe | Prix de base | Poids (kg) |
+| Produits de luxe | Prix de base | Poids (lbs) |
 |------------------|:------------:|:----------:|
 | [baume]          |      4       |     2      |
 | [encens]         |      4       |     2      |

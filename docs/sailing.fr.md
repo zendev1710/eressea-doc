@@ -8,7 +8,7 @@ Seuls les [[bateaux]] permettent de quitter son île et ainsi, par exemple, d'ou
 Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec des capitaines aquariens ou de la magie.  
 
 Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.  
-Tous les autres types de régions (par exemple les montagnes, les highlands, les marais, etc.) ont besoin d'un [**Port**] pour que les bateaux puissent accoster.  
+Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un [**Port**] pour que les bateaux puissent accoster.  
 Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages].  
 Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.  
 
@@ -31,7 +31,7 @@ Les bateaux pilotés par une unité d'aquariens d'une faction d'aquariens (les a
 **Exemple :**
 
 - Une trirème peut être pilotée par une unité de 30 personnes avec sailing 4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2.
-  Dans tous les cas, elle navigue sur 7 régions par tour (8 pour les aquariens) et peut emporter 2000 kg, dont le poids de l'équipage est bien sûr déduit.
+  Dans tous les cas, elle navigue sur 7 régions par tour (8 pour les aquariens) et peut emporter 2 000 lbs, dont le poids de l'équipage est bien sûr déduit.
 - Un dragonship avec une unité de 25 personnes de niveau 2 se déplace 5 régions.
   Cependant, avec 3 personnes de niveau 20, il peut se déplacer de 7 régions.
 
@@ -99,7 +99,7 @@ La portée, y compris tous les bonus d'accélération (aquarien, artefacts, sort
 
 Exemple : Un bateau avec une capitaine aquarien est endommagé à 17 %.  
 
-- La capacité est donc réduite (50 x 0,83 = 41,5 arrondir vers le bas) à 41 kg
+- La capacité est donc réduite (50 x 0,83 = 41,5 arrondir vers le bas) à 41 lbs
 - La portée (1 + 2 x 0,83 = 2,49 arrondir à l'unité supérieure) reste donc à 3
 
 Si un bateau subit 100% de dégâts, il coule avec son équipage et ses passagers.  

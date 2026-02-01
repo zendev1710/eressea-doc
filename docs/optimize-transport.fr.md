@@ -16,23 +16,23 @@ Les optimisations du problème du sac à dos peuvent difficilement résoudre ce 
 
 Un exemple simple :
 
-Vous devez transporter 10 pierres (60 kg chacune) et 100 bijoux (1 kg chacun).  
-Cependant, seule une capacité de 500 kg est disponible.  
+Vous devez transporter 10 pierres (60 lbs chacune) et 100 bijoux (1 lbs chacun).  
+Cependant, seule une capacité de 500 lbs est disponible.  
 Une pierre vaut 1 200, un bijou une valeur de 50.  
-Comme les bijoux offrent plus de valeur au kg (50 par kg), nous chargeons d'abord tous les bijoux :
+Comme les bijoux offrent plus de valeur au lbs (50 par lbs), nous chargeons d'abord tous les bijoux :
 
 ```text
 Value  = 100 * 50 = 5000
-Charge = 100 * 1 kg = 100 kg
-Free   = 400 kg
+Charge = 100 * 1 lbs = 100 lbs
+Free   = 400 lbs
 ```
 
-À 400 kg on arrive quand même à charger 6 pierres, laissant 40 kg libres.
+À 400 lbs on arrive quand même à charger 6 pierres, laissant 40 lbs libres.
 
 ```text
 Value  = 5000 + 6 * 1200 = 12200
-Charge = 100 kg + 6 * 60 kg = 460 kg
-Free   = 40 kg
+Charge = 100 lbs + 6 * 60 lbs = 460 lbs
+Free   = 40 lbs
 ```
 
 Alors essayons d'abord avec les pierres : 8 pierres, puis il reste encore de la place pour 20 bijoux :

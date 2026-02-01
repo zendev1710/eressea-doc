@@ -31,7 +31,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 **Example:**
 
 - A trireme can be piloted by a unit of 30 persons with sailing 4 or by a unit of one person with sailing 4 and a unit of 58 persons with sailing 2.
-  In all cases, it sails over 7 regions per turn (8 for Aquarians) and can carry 2000 kg, from which the weight of the crew is of course deducted.
+  In all cases, it sails over 7 regions per turn (8 for Aquarians) and can carry 2000 lbs, from which the weight of the crew is of course deducted.
 - A dragonship with a level 2 unit of 25 persons moves 5 regions.
   However, with 3 level 20 persons, it can move 7 regions.
 

@@ -16,23 +16,23 @@ Optimizations of the backpack problem can hardly cope with this.
 
 A simple example:
 
-You have to transport 10 stones (60 kg each) and 100 jewels (1 kg each).  
+You have to transport 10 stones (60 lbs each) and 100 jewels (1 lbs each).  
 However, only 500GE capacity is available.  
 A stone is valued at 1200, a jewel at a value of 50.  
-Since the jewels offer more value per kg (50 per kg), we load all the jewels first:  
+Since the jewels offer more value per lbs (50 per lbs), we load all the jewels first:  
 
 ```text
 Value  = 100 * 50 = 5000
-Charge = 100 * 1 kg = 100 kg
-Free   = 400 kg
+Charge = 100 * 1 lbs = 100 lbs
+Free   = 400 lbs
 ```
 
-At 400 kg we still manage to load 6 stones, leaving 40 kg free.  
+At 400 lbs we still manage to load 6 stones, leaving 40 lbs free.  
 
 ```text
 Value  = 5000 + 6 * 1200 = 12200
-Charge = 100 kg + 6 * 60 kg = 460 kg
-Free   = 40 kg
+Charge = 100 lbs + 6 * 60 lbs = 460 lbs
+Free   = 40 lbs
 ```
 
 So let's try with the stones first: 8 stones, then there's still room for 20 jewels:

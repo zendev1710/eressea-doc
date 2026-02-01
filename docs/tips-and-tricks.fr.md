@@ -7,20 +7,20 @@ alias: trucs-et-astuces
 ## Il n'est pas toujours nécessaire de savoir monter à cheval
 
 Le commerce et le transport deviennent rentables dès le début de la partie.  
-Même sans savoir monter à cheval, on peut emmener un cheval par personne, ce qui augmente la capacité de l'unité de 5,4 à 25,4 kg.  
-4 [trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 kg.  
+Même sans savoir monter à cheval, on peut emmener un cheval par personne, ce qui augmente la capacité de l'unité de 5,4 à 25,4 lbs.  
+4 [trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.  
 
 Cela permet même à un petit groupe de transporter des pierres, des marchandises et autres objets lourds.  
 
 ## Comment équiper mes troupes
 
 La meilleure armure est composée d'une [armure de plaques] et d'un bouclier.  
-Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d'une épée pèse 6 kg et est immobilisé.  
+Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d'une épée pèse 6 lbs et est immobilisé.  
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.  
 
-Pour chaque tranche de 20 kg de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.  
+Pour chaque tranche de 20 lbs de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.  
 Comme mentionné [ici](./tips-and-tricks.md#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.  
-On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 kg, soit sa capacité de charge maximale.  
+On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 lbs, soit sa capacité de charge maximale.  
 
 !!! note
     Si l'adversaire inflige des dégâts très élevés par coup, il peut être préférable de remplacer l'armure de plates par une cotte de mailles, voire de l'omettre complètement, car sinon la probabilité de coup plus élevée n'est pas compensée par la protection de l'armure.

@@ -6,7 +6,7 @@ alias: christmas-tree
 
 The **Christmas tree** was the Eressean Christmas present of 2006.
 
-Description: Christmas tree (weight: 0 kg): this beautifully decorated tree has a magical effect on the entire forest in the winter months.
+Description: Christmas tree (weight: 0 lbs): this beautifully decorated tree has a magical effect on the entire forest in the winter months.
 
 ## Announcement from the association on the species-appropriate keeping of Christmas trees
 

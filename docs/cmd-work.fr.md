@@ -25,19 +25,29 @@ Mais même la forêt la plus dense produit suffisamment de fruits, de racines ou
 Si le nombre d'emplois disponibles est dépassé, les unités des joueurs ne peuvent plus travailler dans la région concernée.  
 Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.  
 
-| Terrain   | max. jobs d'agriculteurs | max. arbres | min. jobs d'agriculteurs |
-|-----------|-------------------------:|------------:|-------------------------:|
-| Désert    |                      500 |          63 |                       50 |
-| Forêt     |                    10000 |        1250 |                      200 |
-| Glacier   |                      100 |          13 |                       10 |
-| Highlands |                     4000 |         500 |                      200 |
-| Marais    |                     2000 |         250 |                      200 |
-| Montagnes |                     1000 |         125 |                      100 |
-| Plaines   |                    10000 |        1250 |                      200 |
-| Volcan    |                      500 |          63 |                       50 |
+<!-- TODO do not duplicate information -->
+| Terrain        | max. jobs d'agriculteurs | max. arbres | min. jobs d'agriculteurs |
+|----------------|-------------------------:|------------:|-------------------------:|
+| [Désert]       |                      500 |          63 |                       50 |
+| [Forêt]        |                   10 000 |       1 250 |                      200 |
+| [Glacier]      |                      100 |          13 |                       10 |
+| [Haut-plateau] |                    4 000 |         500 |                      200 |
+| [Marais]       |                    2 000 |         250 |                      200 |
+| [Montagne]     |                    1 000 |         125 |                      100 |
+| [Plaine]       |                   10 000 |       1 250 |                      200 |
+| [Volcan]       |                      500 |          63 |                       50 |
 
 Les unités à bord des bateaux dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [[cmd-guard]], [[cmd-help]] et [[cmd-entertain]]).  
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
 
 [ce tableau]: ./silver.md#exemples-de-possibilites-de-remuneration
+
+[Désert]: ./terrains.md#desert "Desert"
+[Forêt]: ./terrains.md#foret "Forest"
+[Glacier]: ./terrains.md#glacier "Glacier"
+[Haut-plateau]: ./terrains.md#haut-plateau "Highland"
+[Marais]: ./terrains.md#marais "Swamp"
+[Montagne]: ./terrains.md#montagne "Mountain"
+[Plaine]: ./terrains.md#plaine "Plain"
+[Volcan]: ./terrains.md#volcan "Volcano"

@@ -246,13 +246,13 @@ Le coût **total** d'una académie (de taille 25) est de : 250 pierres, 150 bois
 *Caravanserai (EN), Karawanserei (DE)*.
 <!-- cspell:enable -->
 
-| Coûts par point de taille           | Niveau requis |  Maintenance par tour  | Taille max. | Capacité (nb. personnes) |
-|-------------------------------------|:-------------:|:----------------------:|:-----------:|--------------------------|
-| 1 pierre, 5 bois, 1 fer, 500 silver |       2       | 3000 silver, 2 chevaux |     10      | *taille du bâtiment*     |
+| Coûts par point de taille           | Niveau requis |  Maintenance par tour   | Taille max. | Capacité (nb. personnes) |
+|-------------------------------------|:-------------:|:-----------------------:|:-----------:|--------------------------|
+| 1 pierre, 5 bois, 1 fer, 500 silver |       2       | 3 000 silver, 2 chevaux |     10      | *taille du bâtiment*     |
 
-Le coût **total** d'un caravansérail (de taille 10) est de : 10 pierres, 50 bois, 10 fers, 5000 silver.  
+Le coût **total** d'un caravansérail (de taille maximale 10) est de 10 pierres, 50 bois, 10 fers, 5 000 silver.  
 
-- Un caravansérail permet de construire des routes dans les déserts.
+- Un caravansérail permet de construire des routes dans les [déserts].
   Si le caravansérail est détruit, la moitié des routes seront également détruites.
   Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Dans les déserts, double le volume du commerce possible.
@@ -381,3 +381,5 @@ Poursuivre la lecture : [pool de factions].
 [extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
 [pousses]: ./resources.md#jeunes-arbres-ou-pousses "Saplings"
 [apprivoisement]: ./skills-list.md#apprivoisement
+
+[déserts]: ./terrains.md#desert "Desert"

@@ -124,7 +124,7 @@ La portée correspond à celle du type de bateau, les dégâts maximums et la ch
 Exemple.
 
 Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec [voile] T3 et un équipage avec 90 niveaux de compétence au total.
-Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 kg. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
+Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9 000 lbs. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
 ```text
 Caravel (2seh), 3 Caravels, (9000/9000).

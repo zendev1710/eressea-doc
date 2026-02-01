@@ -137,7 +137,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 ### Astral Call
 
 :   A magician who is in the Astral plane can use this spell to bring other units to him.  
-    The magician can (level 3)*Send 15 kg through the briefly created gate.  
+    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -159,7 +159,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 ### Astral Exit
 
 :   The magician concentrates on the structure of reality and can thus leave the Astral plane.  
-    He can overall (Level-3)*Send 15 kg through the briefly created gate.  
+    He can overall (Level-3)*Send 15 lbs through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -193,7 +193,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 ### Astral Path
 
 :   Ancient arcane formulas allow the magician to send himself and others into the Astral plane.  
-    The magician can (level 3)*Send 15 kg through the briefly created gate.  
+    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
     If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -428,7 +428,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 :   This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight.  
     Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag.  
     It is also not possible to transport one magic bag in another.  
-    The bag itself weighs 1 kg.
+    The bag itself weighs 1 lbs.
 
 | Sc. | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|

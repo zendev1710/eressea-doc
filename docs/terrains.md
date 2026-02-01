@@ -4,21 +4,21 @@ alias: terrain-types
 ---
 # Terrain types
 
-## Désert
+## Desert
 
-## Forêt
+## Forest
 
 ## Glacier
 
 ## Highlands
 
-## Marais
+## Mountain
 
-## Montagne
+## Plain
 
-## Plaine
+## Swamp
 
-## Volcan
+## Volcano
 
 ## Terrains - Summary
 

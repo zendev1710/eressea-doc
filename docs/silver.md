@@ -4,13 +4,16 @@ alias: money
 ---
 # Money
 
+!!! note "Note"
+    In Eressea, the basic unit of the monetary system is the **silver**.
+
 Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working], [entertaining] the peasants, [collecting taxes], or [trading].
 
 Working is more of a type of stopgap, units working will earn barely enough to feed themselves. You can make quite a lot of money with entertainment and taxation. Especially at the beginning of your ventures, trading might be the biggest source of income, profits of some thousands of silver are possible, provided the regions have the appropriate luxury goods.
 
-Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/kg). There is no rounding: even one piece of silver above your carrying limit can overload.
+Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/lbs). There is no rounding: even one piece of silver above your carrying limit can overload.
 
-Because persons (of most [[races]]) can carry 5.4 UW/kg, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/kg capacity), for example, can carry one person (10 kg for most [[races]]) with 4000 Silver; even 4001 silver would be too much.
+Because persons (of most [[races]]) can carry 5.4 UW/lbs, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded. A boat (50 UW/lbs capacity), for example, can carry one person (10 lbs for most [[races]]) with 4000 Silver; even 4001 silver would be too much.
 
 ## Expenses
 
@@ -142,7 +145,7 @@ Every type of trade good has a certain base price (see table below). The number 
 
 *Base prices of luxury goods.*
 
-| Luxury good | Base price | Weight UW/kg |
+| Luxury good | Base price | Weight UW/lbs |
 |-------------|------------|--------------|
 | balm        | 4          | 2            |
 | oil         | 3          | 3            |

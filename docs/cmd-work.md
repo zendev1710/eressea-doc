@@ -10,7 +10,7 @@ The unit works in agriculture and earns between 10 and 15 Silver per person per 
 
 | Merit Castle | none | Fastening | Tower | Castle | fortress | Citadel |
 |--------------|:----:|:---------:|:-----:|:------:|:--------:|:-------:|
-| wage         |  10  |    11     |  12   |   13   |    14    |   15    |
+| Wage         |  10  |    11     |  12   |   13   |    14    |   15    |
 | Orc wages    |  10  |    11     |  11   |   12   |    12    |   13    |
 
 Different regions have different numbers of jobs available.  

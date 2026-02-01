@@ -240,7 +240,7 @@ S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétenc
 
 Les catapultes nécessitent des munitions.  
 Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres].  
-Elles pèsent 10 kg.  
+Elles pèsent 10 lbs.  
 Une unité de munitions correspond à une salve (6 cibles).
 
 *Armes de tir à distance - bonus et temps de rechargement.*
@@ -284,7 +284,7 @@ Voir aussi : [tables de combat].
 
 #### Bonus de cavalerie
 
-:   Dans les plaines, les déserts et les Highlands, les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
+:   Dans les [plaines], les [déserts] et les [haut-plateaux], les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
     Pour monter un cheval au combat, il faut être T2 en [équitation] et posséder un cheval.  
     Les cavaliers bénéficient d'un bonus de +2 à l'attaque et à la parade, car ils sont plus rapides et plus agiles.  
     Les cavaliers à l'intérieur d'un château, et bénéficiant du bonus du château, n'ont pas le bonus cavalerie si ils sont attaqués.  
@@ -513,3 +513,7 @@ Poursuivre la lecture : [[alliances]].
 <!-- prefixed with war.md to avoid markdown lint warning due to accents in anchors -->
 [combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires
 [Héros]: ./war.md#heros
+
+[plaines]: ./terrains.md#plaine "Plain"
+[déserts]: ./terrains.md#desert "Desert"
+[haut-plateaux]: ./terrains.md#haut-plateau "Highland"

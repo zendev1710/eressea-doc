@@ -67,16 +67,15 @@ Der einzige Unterschied zwischen einer Ebene und einem Wald ist die Anzahl Bäum
 Ab einer Gesamtzahl von 600 Bäumen und/oder Schösslingen gilt eine Ebene als Wald.  
 So kann man durch Holzfällen einen Wald zu einer Ebene machen oder umgekehrt durch Aufforsten eine Ebene in einen Wald verwandeln.
 
-| Gelände   | max. Anzahl Arbeitsplätze | Mindestanzahl Arbeitsplätze (trotz vieler Bäume) | Steine für Straße (je Richtung) | mögliche Kräuter                                                                        |
-|-----------|---------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------------------------------------------------------|
-| Berge     | 1000                      | 100                                              | 250                             | Steinbeißer, Spaltwachs, Höhlenglimm                                                    |
-| Ebene     | 10000                     | 200                                              | 50                              | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb |
-| Wald      | 10000                     | 200                                              | 50                              | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb |
-| Gletscher | 100                       | 10                                               | 250                             | Eisblume, Weißer Wüterich, Schneekristall                                               |
-| Hochland  | 4000                      | 200                                              | 100                             | Windbeutel, Fjordwuchs, Alraune                                                         |
-| Sumpf     | 2000                      | 200                                              | 75                              | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           |
-| Wüste     | 500                       | 50                                               | 100                             | Wasserfinder, Kakteenschwitz, Sandfäule                                                 |
-| Vulkan    | 500                       | 50                                               | 250                             | --                                                                                      |
+| Gelände     | max. Anzahl Arbeitsplätze | Mindestanzahl Arbeitsplätze (trotz vieler Bäume) | Steine für Straße (je Richtung) | mögliche Kräuter                                                                        |
+|-------------|---------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------------------------------------------------------|
+| [Berge]     | 1000                      | 100                                              | 250                             | Steinbeißer, Spaltwachs, Höhlenglimm                                                    |
+| [Ebene]     | 10000                     | 200                                              | 50                              | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb |
+| [Wald]      | 10000                     | 200                                              | 50                              | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb |
+| [Gletscher] | 100                       | 10                                               | 250                             | Eisblume, Weißer Wüterich, Schneekristall                                               |
+| [Hochland]  | 4000                      | 200                                              | 100                             | Windbeutel, Fjordwuchs, Alraune                                                         |
+| [Sumpf]     | 2000                      | 200                                              | 75                              | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           |
+| [Vulkan]    | 500                       | 50                                               | 250                             | --                                                                                      |
 
 Wird die Zahl vorhandener Arbeitsplätze überschritten, wird es für die Bauern sehr schwierig den benötigen Wochenlohn zu erwirtschaften - auch Bauern brauchen jede Runde 10 Silber um zu überleben, die sie durch [Arbeit] verdienen.  
 Größere [[burgen]] geben zwar einen kleinen Bonus auf den Silberverdienst durch Arbeit in der Region, so dass eventuell die arbeitenden Bauern einige andere Bauern der Region mitversorgen können, aber das Risiko, dass Bauern sterben, zum Beispiel durch eine Pest, steigt enorm, wenn die Anzahl der verfügbaren Arbeitsplätze klein ist.  
@@ -350,7 +349,6 @@ Weiterlesen: [Parteien].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[bef-ursprung]: ./cmd-origin.md
 [Geländearten]: ./terrains.md
 [Kräuter]: ./herbs.md
 [Befehle]: ./commands.md

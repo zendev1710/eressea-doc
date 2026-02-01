@@ -163,7 +163,7 @@ Plantes nécessaires pour concocter cette potion :
 
 - [champignon cobalt]
 - [témérité piquante]
-- [tsugas blancs]
+- [tsuga blanc]
 
 #### Sang de paysan
 
@@ -248,7 +248,7 @@ Plantes nécessaires pour concocter cette potion :
 
 - [herbe de clairon]
 - [herbe de roche]
-- [waterfinder]
+- [tamaris]
 - [gousse]
 
 #### Pain d'andouille
@@ -294,7 +294,7 @@ Plantes nécessaires pour concocter cette potion :
 - [racine plate]
 - [mandragore]
 - [pourriture de sable]
-- [tsugas blancs]
+- [tsuga blanc]
 
 ### Niveau 4
 
@@ -336,7 +336,7 @@ Plantes nécessaires pour concocter cette potion :
 - [morille]
 - [amour d'Elfes]
 - [lierre d'araignée]
-- [waterfinder]
+- [tamaris]
 - [gousse]
 
 #### Potion de guérison
@@ -409,7 +409,7 @@ Plantes nécessaires pour concocter cette potion :
 | [racine plate]               |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
 | [tamaris]                    |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |
 | [témérité piquante]          |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              |
-| [tsugas blancs]              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
+| [tsuga blanc]                |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
 
 Poursuivre la lecture : [[herbs|plantes]].
 
@@ -432,14 +432,13 @@ Poursuivre la lecture : [[herbs|plantes]].
 [mandragore]: ./herbs.md#mandragore "Mandrake"
 [morille]: ./herbs.md#morille "Bubblemorel"
 [pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[peyote]: ./herbs.fr.md#peyote "Peyote"
+[peyote]: ./herbs.md#peyote "Peyote"
 [pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
 [racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
 [racine plate]: ./herbs.md#racine-plate "Flatroot"
-[tamaris]: ./herbs.fr.md#tamaris "Waterfinder"
-[tsugas blancs]: ./herbs.md#tsugas-blancs "White hemlocks"
+[tamaris]: ./herbs.md#tamaris "Waterfinder"
+[tsuga blanc]: ./herbs.md#tsuga-blanc "White hemlocks"
 [témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[waterfinder]: ./herbs.md#tamaris "Waterfinder"
 [œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"
 
 [eau de Goliath]: #eau-de-goliath "Goliath water"
@@ -458,17 +457,17 @@ Poursuivre la lecture : [[herbs|plantes]].
 [élixir de pouvoir]: ./alchemy.md#elixir-de-pouvoir "Elixir of power"
 [potion de guérison]: ./alchemy.md#potion-de-guerison "Healing potion"
 
-[SM]: ./alchemy.fr.md#the-des-sept-lieues "Thé des sept lieues (Seven mile tea)"
-[GW]: ./alchemy.fr.md#eau-de-goliath "Eau de Goliath (Goliath water)"
-[WL]: ./alchemy.fr.md#eau-de-vie "Eau de vie (Water of life)"
-[PB]: ./alchemy.fr.md#sang-de-paysan "Sang de paysan (Peasant blood)"
-[BZ]: ./alchemy.fr.md#breuvage-de-labeur "Breuvage de labeur (Busybeer)"
-[OM]: ./alchemy.fr.md#onguent-de-soin "Onguent de soin (Ointment)"
-[BK]: ./alchemy.fr.md#sang-de-berserker "Sang de berserker (Berserkers blood)"
-[DB]: ./alchemy.fr.md#pain-dandouille "Pain d'andouille (Duncebun)"
-[BW]: ./alchemy.fr.md#huile-de-cervelle "Huile de cervelle (Brain wax)"
-[HP]: ./alchemy.fr.md#bien-etre-des-chevaux "Bien-être des chevaux (Horsepower potion)"
-[NW]: ./alchemy.fr.md#chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
-[PL]: ./alchemy.fr.md#amour-des-paysans "Amour des paysans (Peasant love potion)"
-[EP]: ./alchemy.fr.md#elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
-[HL]: ./alchemy.fr.md#potion-de-guerison "Potion de guérison ()"
+[SM]: ./alchemy.md#the-des-sept-lieues "Thé des sept lieues (Seven mile tea)"
+[GW]: ./alchemy.md#eau-de-goliath "Eau de Goliath (Goliath water)"
+[WL]: ./alchemy.md#eau-de-vie "Eau de vie (Water of life)"
+[PB]: ./alchemy.md#sang-de-paysan "Sang de paysan (Peasant blood)"
+[BZ]: ./alchemy.md#breuvage-de-labeur "Breuvage de labeur (Busybeer)"
+[OM]: ./alchemy.md#onguent-de-soin "Onguent de soin (Ointment)"
+[BK]: ./alchemy.md#sang-de-berserker "Sang de berserker (Berserkers blood)"
+[DB]: ./alchemy.md#pain-dandouille "Pain d'andouille (Duncebun)"
+[BW]: ./alchemy.md#huile-de-cervelle "Huile de cervelle (Brain wax)"
+[HP]: ./alchemy.md#bien-etre-des-chevaux "Bien-être des chevaux (Horsepower potion)"
+[NW]: ./alchemy.md#chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
+[PL]: ./alchemy.md#amour-des-paysans "Amour des paysans (Peasant love potion)"
+[EP]: ./alchemy.md#elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
+[HL]: ./alchemy.md#potion-de-guerison "Potion de guérison ()"

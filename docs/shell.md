@@ -13,7 +13,7 @@ At the best of times, around 60 (or more) peoples had their representatives in t
 
 The gods created the shell (week 453, last week of the month of Sunfire in the year 10 of the Second Age,*December 11, 2005*), which is given to every nation that enters the Shell Plateau ambassador region for the first time.
 
-The shell weighs 0 kg in a person's material inventory.
+The shell weighs 0 lbs in a person's material inventory.
 When used, a region report is generated in which the user reports to the region's residents of Muschelplateau and how many weeks ago he was there for the first time.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Muschel&oldid=7360] -->

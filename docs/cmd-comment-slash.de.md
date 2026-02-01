@@ -22,7 +22,7 @@ Das `//` muß wie ein Befehl behandelt werden, man darf also nicht
 @GIB 345 100 SILBER // wegen Sägewerk
 ```
 
-!!! note
+!!! note "Hinweis"
     Außerdem muß ein Leerzeichen hinter den `//` sein.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->

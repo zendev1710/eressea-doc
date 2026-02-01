@@ -35,7 +35,7 @@ La novice observa attentivement la carte. Apparemment, on s'était limité à l'
 Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plaines non boisées.
 </div>
 
-Dans cet exemple, à l'emplacement (0,0) il y a un marais, au nord-est à l'emplacement (0,1) il y a une montagne.  
+Dans cet exemple, à l'emplacement (0,0) se trouve un marais, au nord-est à l'emplacement (0,1) une montagne.  
 Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [[cmd-origin]], par exemple pour l'aligner sur celui d'une autre faction.  
 
 <div class="lore-dialogue">
@@ -48,7 +48,9 @@ Et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la 
 Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
 </div>
 
-Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut plateau, marais, désert et volcan) avec des caractéristiques différentes. Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.  
+Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut-plateau, marais, désert et volcan) avec des caractéristiques différentes.  
+
+Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.  
 
 <!-- TODO reorganize info. Some are partially duplicated in terrains.md -->
 En fonction du type de terrain, la région accueillera un nombre différent de paysans pour gagner leur salaire hebdomadaire dans les champs.  
@@ -65,18 +67,19 @@ La seule différence entre une plaine et une forêt est le nombre d'arbres et de
 À partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt.  
 Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou, inversement, de transformer une plaine en forêt en la reboisant.  
 
-| Terrain   | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
-|-----------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
-| Désert    |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
-| Forêt     |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
-| Glacier   |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsugas blancs                                          |
-| Highlands |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |
-| Marais    |             2 000 |                    200 |                  75 | herbe de clairon, morille, racine de nœud                                                             |
-| Montagne  |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |
-| Plaine    |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
-| Volcan    |               500 |                     50 |                 250 | --                                                                                                    |
+| Terrain        | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
+|----------------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
+| [Désert]       |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
+| [Forêt]        |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| [Glacier]      |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsuga blanc                                            |
+| [Haut-plateau] |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |
+| [Marais]       |             2 000 |                    200 |                  75 | herbe de clairon, morille, racine de nœud                                                             |
+| [Montagne]     |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |
+| [Plaine]       |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| [Volcan]       |               500 |                     50 |                 250 | --                                                                                                    |
 
-Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire - les paysans ont également besoin de 10 silver chaque tour pour survivre, qu'ils gagnent grâce au [travail].  
+Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire.  
+Les paysans ont également besoin [[argent|d'argent]] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail].  
 Les plus grands [[chateaux]] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
@@ -253,17 +256,17 @@ Jusque tard dans la soirée, les gardes du temple pouvaient les voir déambuler 
 
 Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines chacun.  
 
-| Mois                    | Saison    | Fréquence des tempêtes |
-|-------------------------|-----------|-----------------------:|
-| Lune des Récoltes       | Été       |                  0.5 % |
-| Brouillard Impénétrable | Automne   |                    3 % |
-| Lune des Tempêtes       | Automne   |                    4 % |
-| Feu du Foyer            | Hiver     |                  2.5 % |
-| Vent des Glaces         | Hiver     |                  1.5 % |
-| Neiges Envoûtantes      | Hiver     |                    3 % |
-| Pluies de Fleurs        | Printemps |                    3 % |
-| Vents Doux              | Printemps |                  0.5 % |
-| Feu du Soleil           | Été       |                    3 % |
+| Mois                      | Saison    | Fréquence des tempêtes |
+|---------------------------|-----------|-----------------------:|
+| [Lune des Récoltes]       | Été       |                  0.5 % |
+| [Vents Doux]              | Printemps |                  0.5 % |
+| [Vent des Glaces]         | Hiver     |                  1.5 % |
+| [Feu du Foyer]            | Hiver     |                  2.5 % |
+| [Brouillard Impénétrable] | Automne   |                    3 % |
+| [Neiges Envoûtantes]      | Hiver     |                    3 % |
+| [Pluies de Fleurs]        | Printemps |                    3 % |
+| [Feu du Soleil]           | Été       |                    3 % |
+| [Lune des Tempêtes]       | Automne   |                    4 % |
 
 Chaque tour du jeu correspond à une semaine dans le monde.  
 Pendant ce temps, on peut faire beaucoup de choses.  
@@ -383,3 +386,22 @@ Poursuivre la lecture : [[factions]].
 [Insectes]: ./races.md#insectes
 [croissance des forêts]: ./resources.md#ressources-forestieres
 [1]: ./silver.md#recruter
+
+[Désert]: ./terrains.md#desert "Desert"
+[Forêt]: ./terrains.md#foret "Forest"
+[Glacier]: ./terrains.md#glacier "Glacie
+[Haut-plateau]: ./terrains.md#haut-plate
+[Marais]: ./terrains.md#marais "Swamp"
+[Montagne]: ./terrains.md#montagne "Moun
+[Plaine]: ./terrains.md#plaine "Plain"
+[Volcan]: ./terrains.md#volcan "Volcano"
+
+[Lune des Récoltes]: ./world.fr.md#lune-des-recoltes
+[Vents Doux]: ./world.fr.md#vents-doux
+[Vent des Glaces]: ./world.fr.md#vent-des-glaces
+[Feu du Foyer]: ./world.fr.md#feu-du-foyer
+[Brouillard Impénétrable]: ./world.fr.md#brouillard-impenetrable
+[Neiges Envoûtantes]: ./world.fr.md#neiges-envoutantes
+[Pluies de Fleurs]: ./world.fr.md#pluies-de-fleurs
+[Feu du Soleil]: ./world.fr.md#feu-du-soleil
+[Lune des Tempêtes]: ./world.fr.md#lune-des-tempetes

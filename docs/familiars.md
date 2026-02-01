@@ -34,7 +34,7 @@ Features of an Eagle.
 
 | PV | Résistance à la magie | Attaque | Défense | Armure naturelle |
 |:--:|:---------------------:|:-------:|:-------:|:----------------:|
-| 20 |           0           |    6    |    2    |         4        |
+| 20 |           0           |    6    |    2    |        4         |
 
 2 attacks: one magical attack, one unarmed attack (2d3).
 
@@ -230,14 +230,14 @@ Features of a Rat.
 |:--:|:---------------------:|:-------:|:-------:|:----------------:|
 | 10 |           0           |    1    |    1    |        -         |
 
-| Propriété             | Valeur |
-|-----------------------|-------:|
-| Magie                 |     +0 |
-| Espionnage            |     +5 |
-| Stealth               |     +4 |
-| Perception            |     +2 |
-| Endurance             |     +0 |
-| Combat à mains nues   |     +0 |
+| Propriété           | Valeur |
+|---------------------|-------:|
+| Magie               |     +0 |
+| Espionnage          |     +5 |
+| Stealth             |     +4 |
+| Perception          |     +2 |
+| Endurance           |     +0 |
+| Combat à mains nues |     +0 |
 
 3 attacks: **1** magical attack, **2** unarmed attack **1d4**.
 
@@ -379,8 +379,8 @@ If a field is empty, then the race cannot learn that skill or does not have that
 | Property               | Eagle | Demon | Delphin | Unicorn | owl | fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Tunnel worm | Wolf |
 |------------------------|------:|------:|--------:|--------:|----:|------:|------:|-------:|--------:|--------:|-----:|------:|----:|---------------:|---------------:|-------------:|------:|---------:|------------:|-----:|
 | Hit Points             |    15 |    50 |      24 |      40 |   9 |     6 |    30 |     16 |      40 |     300 |   20 |    15 |  10 |            900 |             40 |           10 |    30 |       10 |         300 |   25 |
-| Weight \[kg\]          |     5 |    10 |       5 |       5 |   5 |     2 |     5 |      6 |       5 |       5 |    5 |    10 |   1 |             16 |             10 |            5 |     5 |        5 |         300 |    5 |
-| Capacity \[kg\]        |   5.4 |   5.4 |     5.4 |      20 | 5.4 |   5.4 |   5.4 |    4.4 |     5.4 |     5.4 |  5.4 |   5.4 | 5.4 |              6 |              6 |          5.4 |   5.4 |      5.4 |         100 |  5.4 |
+| Weight (lbs)           |     5 |    10 |       5 |       5 |   5 |     2 |     5 |      6 |       5 |       5 |    5 |    10 |   1 |             16 |             10 |            5 |     5 |        5 |         300 |    5 |
+| Capacity (lbs)         |   5.4 |   5.4 |     5.4 |      20 | 5.4 |   5.4 |   5.4 |    4.4 |     5.4 |     5.4 |  5.4 |   5.4 | 5.4 |              6 |              6 |          5.4 |   5.4 |      5.4 |         100 |  5.4 |
 | Natural Armor          |     0 |     2 |       0 |       0 |   0 |     0 |     5 |      0 |       0 |       0 |    0 |     0 |   0 |              7 |              1 |            1 |     0 |        0 |           6 |    0 |
 | Magic resistance       |     0 |    15 |       0 |      90 |   0 |    80 |   100 |     -5 |      50 |       0 |    0 |    90 |   0 |              0 |             99 |           50 |     0 |       50 |          80 |    0 |
 | Own magic              |       |       |         |     yes |     |   yes |   yes |        |         |         |      |   yes |     |                |            yes |          yes |       |      yes |             |      |

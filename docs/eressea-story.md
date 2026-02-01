@@ -283,7 +283,7 @@ However, most of the new players, disparagingly referred to as BRAVO kiddies by 
   This makes the driver ant strategy less attractive.
 - Catapults now only have 6 attacks instead of the previous 10.
   In addition, her skill penalty is now 4 instead of 1.
-  Its weight is reduced from 120 to 100 kg.
+  Its weight is reduced from 120 to 100 lbs.
 - Catapult ammunition can be produced (the change on June 2nd, 2002).
   Until the evaluation on June 2nd, all catapults still fire without ammunition, with the evaluation on June 2nd, catapults must be supplied with ammunition!
 - Crossbows and bows have so far been little differentiated; their effect is mathematically almost identical.  

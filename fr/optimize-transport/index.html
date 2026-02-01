@@ -7764,18 +7764,18 @@
 Cependant, dans Eressea, vous tombez rapidement dans le piège d’essayer de charger trop d’éléments similaires.<br />
 Les optimisations du problème du sac à dos peuvent difficilement résoudre ce problème.</p>
 <p>Un exemple simple :</p>
-<p>Vous devez transporter 10 pierres (60 kg chacune) et 100 bijoux (1 kg chacun).<br />
-Cependant, seule une capacité de 500 kg est disponible.<br />
+<p>Vous devez transporter 10 pierres (60 lbs chacune) et 100 bijoux (1 lbs chacun).<br />
+Cependant, seule une capacité de 500 lbs est disponible.<br />
 Une pierre vaut 1 200, un bijou une valeur de 50.<br />
-Comme les bijoux offrent plus de valeur au kg (50 par kg), nous chargeons d'abord tous les bijoux :</p>
+Comme les bijoux offrent plus de valeur au lbs (50 par lbs), nous chargeons d'abord tous les bijoux :</p>
 <div class="highlight"><pre><span></span><code>Value  = 100 * 50 = 5000
-Charge = 100 * 1 kg = 100 kg
-Free   = 400 kg
+Charge = 100 * 1 lbs = 100 lbs
+Free   = 400 lbs
 </code></pre></div>
-<p>À 400 kg on arrive quand même à charger 6 pierres, laissant 40 kg libres.</p>
+<p>À 400 lbs on arrive quand même à charger 6 pierres, laissant 40 lbs libres.</p>
 <div class="highlight"><pre><span></span><code>Value  = 5000 + 6 * 1200 = 12200
-Charge = 100 kg + 6 * 60 kg = 460 kg
-Free   = 40 kg
+Charge = 100 lbs + 6 * 60 lbs = 460 lbs
+Free   = 40 lbs
 </code></pre></div>
 <p>Alors essayons d'abord avec les pierres : 8 pierres, puis il reste encore de la place pour 20 bijoux :</p>
 <div class="highlight"><pre><span></span><code>Value  = 20 * 50 + 8 * 1200 = 10600

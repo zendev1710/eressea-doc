@@ -46,3 +46,20 @@ img.icon {
 
 /* to enable animation */
 #war-tables-compute-endurance-result { display: inline-block; }
+
+/*
+.md-typeset .compact-table table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.md-typeset .compact-table th,
+.md-typeset .compact-table td {
+  white-space: nowrap;
+  padding: 0.15rem 0.3rem;
+  max-width: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.85em;
+}
+*/

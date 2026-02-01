@@ -8050,10 +8050,16 @@
 
 
 <h1 id="alchimie">Alchimie<a class="headerlink" href="#alchimie" title="Permanent link">&para;</a></h1>
+<p>Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (plantes) en potions.  </p>
 <h2 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h2>
 <p>Les <strong>potions</strong> sont préparées à l'aide de <a href="../herbs/">plantes</a>, et peuvent ensuite être utilisées par n'importe quelle <strong>unité</strong>.  </p>
+<p>Une potion ne pèse rien.  </p>
 <h3 id="fabrication">Fabrication<a class="headerlink" href="#fabrication" title="Permanent link">&para;</a></h3>
-<p>Seule une unité sufisamment compétente en <a href="../skills-list/#alchimie">alchimie</a> peut fabriquer une potion.  </p>
+<p>Seule une personne sufisamment compétente en <a href="../skills-list/#alchimie">alchimie</a>, appelée alchimiste, peut fabriquer une potion.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Remarque</p>
+<p>Une faction compte au plus <strong>3 alchimistes</strong>.</p>
+</div>
 <p>Les potions sont concoctées avec l'ordre <a href="../cmd-make/"><code>MAKE "&lt;nom de la potion&gt;"</code></a>.  </p>
 <p>Une potion nécessite plusieurs ingrédients.<br />
 La recette de préparation d'une potion est dévoilée à l'alchimiste quand son niveau de compétence vient d'augmenter et qu'il correspond au niveau d'une nouvelle potion.  </p>
@@ -8063,21 +8069,23 @@ La recette de préparation d'une potion est dévoilée à l'alchimiste quand son
 </div>
 <p>Pour pouvoir concocter une potion, le niveau de l'alchimiste doit être <strong>2 fois plus élevé</strong> que celui de la potion.<br />
 Un alchimiste de niveau T pourra donc produire à chaque tour un nombre de potions N calculé ainsi :
-$<span class="arithmatex">\(N = \frac{T_{\text{unité}}}{Niveau_{\text{potion}}*2}\)</span>$</p>
+$$
+N = \frac{T_{\text{unité}}}{Niveau_{\text{potion}}*2}
+$$</p>
 <p><em>Ex. Un alchimiste <strong>T6</strong> peut produire 1 potion N3 (<span class="arithmatex">\(6\,/\,(3\,\times\,2)=1\)</span>), 1 potion N2 (<span class="arithmatex">\(6\,/\,(2\,\times\,2)=1\)</span>) <strong>ou</strong> 3 potions N1 (<span class="arithmatex">\(6\,/\,(1\,\times\,2)=3\)</span>).</em>  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Les plantes peuvent être découvertes dans une région puis récoltées par une unité compétente en <a href="../skills-list/#herboristerie">herboristerie</a>.</p>
+<p>Les plantes peuvent être <a href="../cmd-research/">découvertes</a> dans une région puis <a href="../cmd-make/">récoltées</a> par une unité compétente en <a href="../skills-list/#herboristerie">herboristerie</a>.</p>
 </div>
 <h3 id="utilisation">Utilisation<a class="headerlink" href="#utilisation" title="Permanent link">&para;</a></h3>
 <p>L'ordre <a href="../cmd-use/"><code>USE &lt;quantité&gt; "&lt;nom potion&gt;" &lt;unit-id&gt;</code></a> permet d'utiliser une ou plusieurs potions en sa possession.  </p>
 <p>Remarque: l'identifiant d'unité <code>&lt;unit-id&gt;</code> est à renseigner <strong>uniquement</strong> pour le <strong><a href="#pain-dandouille" title="Duncebun">pain d'andouille</a></strong>.  </p>
-<p>Une potion ne peut pas être divisée entre plusieurs unités.<br />
+<p>Une potion ne peut pas être partagée entre plusieurs unités.<br />
 On peut cependant diviser une unité de plusieurs membres en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.  </p>
 <p>Les potions ont toutes un effet positif, à l'exception du <a href="#pain-dandouille" title="Duncebun">pain d'andouille</a>.  </p>
 <p>La plupart des potions profitent à l'unité qui les utilise.<br />
 Mais certaines s'appliquent à une région. Dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités (<a href="#pain-dandouille" title="Duncebun">pain d'andouille</a>).  </p>
-<p>En général, une potion affecte 10 personnes ou 10 biens pendant le tour où elle est utilisée, comme indiqué dans sa recette.<br />
+<p>En général, une potion affecte 10 personnes ou 10 objets pendant le tour où elle est utilisée, comme indiqué dans sa recette.<br />
 Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.<br />
 De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes.  </p>
 <p>Cela n'est pas possible avec le <a href="#sang-de-berserker" title="Berserkers blood">sang de berserker</a>, car les personnes n'agissent pas comme une unité au combat.<br />
@@ -8094,7 +8102,7 @@ Par exemple, une personne peut bénéficier de l'effet de l'<a href="#huile-de-c
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>10 hommes peuvent porter autant que 10 chevaux.</p>
+<p>10 personnes peuvent porter autant que 10 chevaux.</p>
 </dd>
 </dl>
 <p><em>Objectif :</em> augmenter la capacité à transporter.<br />
@@ -8147,7 +8155,7 @@ Par exemple, une personne peut bénéficier de l'effet de l'<a href="#huile-de-c
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>10 hommes à pied peuvent se déplacer <strong>aussi vite qu'à cheval</strong>.</p>
+<p>10 personnes à pied peuvent se déplacer <strong>aussi vite qu'à cheval</strong>.</p>
 </dd>
 </dl>
 <p><em>Objectif :</em> augmenter la vitesse de déplacement.<br />
@@ -8275,12 +8283,12 @@ Il vous suffit donc d'équiper une seule unité (par région), à condition qu'e
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>jusqu'à 10 personnes : augmente les chances <strong>d'apprentissage d'une compétence</strong>.</p>
+<p>Augmente les chances <strong>d'apprentissage d'une compétence</strong>.</p>
 </dd>
 </dl>
 <p><em>Objectif :</em> accélérer l'apprentissage.<br />
 <em>Niveau :</em> <strong>3</strong>.<br />
-<em>Cible :</em> <strong>unité</strong>.  </p>
+<em>Cible :</em> <strong>au plus 10 membres d'une unité</strong>.  </p>
 <p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li><a href="../herbs/#herbe-de-clairon" title="Bugleweed">herbe de clairon</a></li>
@@ -8295,12 +8303,12 @@ Il vous suffit donc d'équiper une seule unité (par région), à condition qu'e
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>pour 10 personnes : pas d'apprentissage, ou l'enseignant n'apporte rien, ou oubli d'1 semaine de la meilleure compétence.</p>
+<p>Bloque l'apprentissage, l'enseignement, ou provoque l'oubli de la meilleure compétence pendant uen semaine.</p>
 </dd>
 </dl>
-<p><em>Objectif :</em> ralentir l'apprentissage d'une unité (adverse).<br />
+<p><em>Objectif :</em> ralentir l'apprentissage d'une unité.<br />
 <em>Niveau :</em> <strong>3</strong>.<br />
-<em>Cible :</em> unité étrangère.  </p>
+<em>Cible :</em> <strong>10 membres d'une unité (logiquement adverse)</strong>.  </p>
 <p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li><a href="../herbs/#lichen-des-cavernes" title="Cave lichen">lichen des cavernes</a></li>
@@ -8312,7 +8320,7 @@ Il vous suffit donc d'équiper une seule unité (par région), à condition qu'e
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Vous pouvez l'appliquer à une unité avec l'ordre <code>USE "Duncebun" &lt;ID unité cible&gt;</code>.<br />
-L'effet de la potion échoue si la compétence <code>Stealth</code> de l'unité agissante est inférieure ou égale au niveau de <code>Perception</code> <strong>+ 2</strong> de la victime.<br />
+L'effet de la potion échoue si le niveau de <a href="../camouflage/" title="Stealth">discrétion</a> de l'unité agissante est inférieur ou égal <strong>au niveau de <a href="../skills-list/#perception">perception</a> + 2</strong> de la victime.<br />
 Dans ce cas, vous obtenez un message d'erreur et le <a href="#pain-dandouille" title="Duncebun">pain d'andouille</a> n'est pas consommé (il reste à l'unité).</p>
 </div>
 <h4 id="sang-de-berserker">Sang de berserker<a class="headerlink" href="#sang-de-berserker" title="Permanent link">&para;</a></h4>
@@ -8322,12 +8330,12 @@ Dans ce cas, vous obtenez un message d'erreur et le <a href="#pain-dandouille" t
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>10 personnes reçoivent un modificateur d'attaque de <strong>+1</strong> au combat.</p>
+<p>L'unité reçoit un modificateur d'attaque de <strong>+1</strong> au combat.</p>
 </dd>
 </dl>
 <p><em>Objectif :</em> renforcer l'attaque.<br />
 <em>Niveau :</em> <strong>3</strong>.<br />
-<em>Cible :</em> <strong>unité</strong>.  </p>
+<em>Cible :</em> <strong>au plus 10 membres d'une unité</strong>.  </p>
 <p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li><a href="../herbs/#racine-plate" title="Flatroot">racine plate</a></li>
@@ -8364,12 +8372,12 @@ Dans ce cas, vous obtenez un message d'erreur et le <a href="#pain-dandouille" t
 <dt><!-- cspell:enable -->
 </dt>
 <dd>
-<p>10 personnes ont leurs <strong>points de vie multipliés par 5</strong>.</p>
+<p>Les <strong>Points de Vie sont multipliés par 5</strong>.</p>
 </dd>
 </dl>
-<p><em>Objectif :</em> augmenter les points de vie d'une unité.<br />
+<p><em>Objectif :</em> augmenter les Points de Vie d'une unité.<br />
 <em>Niveau :</em> <strong>4</strong>.<br />
-<em>Cible :</em> <strong>unité</strong>.  </p>
+<em>Cible :</em> <strong>au plus 10 membres d'une unité</strong>.  </p>
 <p>Plantes nécessaires pour concocter cette potion :</p>
 <ul>
 <li><a href="../dragonblood/">Sang de Dragon</a></li>
@@ -8504,6 +8512,22 @@ Dans ce cas, vous obtenez un message d'erreur et le <a href="#pain-dandouille" t
 </tbody>
 </table>
 <h2 id="plantes-et-leur-utilisation">Plantes et leur utilisation<a class="headerlink" href="#plantes-et-leur-utilisation" title="Permanent link">&para;</a></h2>
+<!--
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| 1 | 2 | 3 | 4 | 5 |
+
+-->
+
+<!-- To have a specific larger column: 
+
+| A | B | <div style="width:20em">C</div> | D | E |
+|---|---|---------------------------------|---|---|
+| 1 | 2 | 3                               | 4 | 5 |
+
+-->
+
 <table>
 <thead>
 <tr>

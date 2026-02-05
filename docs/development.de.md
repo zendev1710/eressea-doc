@@ -28,7 +28,12 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 
 ## Skripte
 
-Bei automatisieren von Eressea-Parteien fallen immer wieder die gleichen Probleme auf. Jeder hat natürlich eine etwas andere Herangehensweise, aber im Grunde sind die Problemgebiete die gleichen. Damit man nicht immer wieder von vorn anfängt und sich vielleicht Anregungen holen kann, möchte ich hier gern eine Art Fundgrube für Automatisierungen gründen. Solche Fragesellung sind ja unabhängig vom verwendeten Tool. Natürlich sind aber auch Links auf (toolspezifische) Skriptsammlungen hilfreich.
+Bei automatisieren von Eressea-Parteien fallen immer wieder die gleichen Probleme auf.  
+Jeder hat natürlich eine etwas andere Herangehensweise, aber im Grunde sind die Problemgebiete die gleichen.  
+Damit man nicht immer wieder von vorn anfängt und sich vielleicht Anregungen holen kann, möchte ich hier gern eine Art Fundgrube für Automatisierungen gründen.  
+Solche Fragesellung sind ja unabhängig vom verwendeten Tool.  
+
+Natürlich sind aber auch Links auf (toolspezifische) Skriptsammlungen hilfreich.  
 
 ### Skriptsammlungen
 
@@ -45,10 +50,13 @@ Bei automatisieren von Eressea-Parteien fallen immer wieder die gleichen Problem
 
 ### Optimierungsprobleme
 
-Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimierungsprobleme (nahezu) optimal lösen. Dabei trifft man viele grundlegende Optimierungprobleme an. Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithmen zu beschäftigen, die solche Optimierungsprobleme in angemessener Zeit lösen.
+Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimierungsprobleme (nahezu) optimal lösen.  
+Dabei trifft man viele grundlegende Optimierungprobleme an.  
 
-- [[automatisierung-wegfindung|Wegfindung / Routenberechnung]] (A\*-Suche)
-- [[optimierung-lernketten|Optimierung von Lernketten]] (A\*-Suche, Rucksackproblem)
+Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithmen zu beschäftigen, die solche Optimierungsprobleme in angemessener Zeit lösen.  
+
+- [[automatisierung-wegfindung|Wegfindung / Routenberechnung]] ([A*-Algorithmus])
+- [[optimierung-lernketten|Optimierung von Lernketten]] (A*-Algorithmus, [Rucksackproblem])
 - [[optimierung-transport|Transport- und Handelssysteme]] (Handelsreisender, Rucksackproblem)
 - [[optimierung-transport]] (Rucksackproblem)
 
@@ -62,3 +70,5 @@ Die zentralen Fragestellungen lassen sich oft nur durch Lösen komplexer Optimie
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
 [Skriptsammlung]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
+[Rucksackproblem]: https://de.wikipedia.org/wiki/Rucksackproblem
+[A*-Algorithmus]: https://de.wikipedia.org/wiki/A*-Algorithmus

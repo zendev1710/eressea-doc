@@ -6,17 +6,19 @@ alias: noel
 
 ## Le Gnome de Noël
 
-« Ho ho ho ! » Un gros gnome traverse la nuit sur un traîneau tiré par huit jeunes dragons.
+<div class="lore-dialogue">
+"Ho ho ho !"
+Un gros gnome vole dans la nuit sur un traîneau tiré par huit jeunes dragons.
+...Et lègue à votre faction...
+</div>
 
-Et lègue à ta faction...
+Environ tous les deux ans (selon le calendrier Éresséen), le Gnome de Noël apparaît.  
 
-Environ tous les deux ans (selon le calendrier Éresséen), le lutin de Noël apparaît.
-Parfois, il apporte même des cadeaux, laissant planer le doute sur ce qu'il convient d'en faire.
+Parfois, il apporte même des cadeaux, laissant planer le doute sur ce qu'il convient d'en faire.  
 
 ## Cadeaux de Noël
 
-<!-- TODO: translate in french -->
-Voici un petit aperçu des cadeaux de Noël de ces dernières années
+Voici un petit aperçu des cadeaux de Noël de ces dernières années :
 
 - 1999 -- Pomme, biscuit, noix ou noyau d'amande
 - 2001 -- Un [[gui]]

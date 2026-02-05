@@ -6,9 +6,14 @@ alias: adamantium-fr
 
 Expérience de jeu :
 
-L’adamantium est encore plus rare que le laen !  
+L’adamantium est encore plus rare que le [[laen]] !  
 
-On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.
+On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.  
+
+Ce métal précieux permet de fabriquer :
+
+- une [[armure-en-adamantium]]
+- une [[tableaux-relatifs-a-la-guerre#hache-en-adamantium|hache en adamantium]]
 
 ## Liens externes
 

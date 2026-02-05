@@ -4,13 +4,23 @@ alias: alchimie
 ---
 # Alchimie
 
+Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (plantes) en potions.
+
 ## Potions
 
-Les **potions** sont préparées à l'aide de [[herbs|plantes]], et peuvent ensuite être utilisées par n'importe quelle **unité**.  
+Dans le monde d'Eressea, les potions ne sont pas de simples breuvages.
+Ce sont de puissants outils capables de renverser le cours des événements et d'influencer grandement le destin d'un peuple, par exemple pour soutenir la production, renforcer les troupes au combat ou aider un peuple à prospérer.  
+
+Les potions sont préparées à l'aide de [[herbs|plantes]], et peuvent ensuite être utilisées par n'importe quelle **unité**.  
+
+Une potion ne pèse rien.
 
 ### Fabrication
 
-Seule une unité sufisamment compétente en [alchimie] peut fabriquer une potion.  
+Seule une personne sufisamment compétente en [alchimie], appelée alchimiste, peut fabriquer une potion.  
+
+!!! warning "Remarque"
+    Une faction compte au plus **3 alchimistes**.
 
 Les potions sont concoctées avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].  
 
@@ -18,25 +28,26 @@ Une potion nécessite plusieurs ingrédients.
 La recette de préparation d'une potion est dévoilée à l'alchimiste quand son niveau de compétence vient d'augmenter et qu'il correspond au niveau d'une nouvelle potion.  
 
 !!! tip "Astuce"
-
     La recette peut être ensuite retrouvée à tout moment avec l'ordre [[cmd-show|`SHOW "<nom potion>"`]].  
 
 Pour pouvoir concocter une potion, le niveau de l'alchimiste doit être **2 fois plus élevé** que celui de la potion.  
 Un alchimiste de niveau T pourra donc produire à chaque tour un nombre de potions N calculé ainsi :
-$$N = \frac{T_{\text{unité}}}{Niveau_{\text{potion}}*2}$$
+$$
+N = \frac{T_{\text{unité}}}{Niveau_{\text{potion}}*2}
+$$
 
-*Ex. Un alchimiste **T6** peut produire 1 potion N3 ($6\,/\,(3\,\times\,2)=1$), 1 potion N2 ($6\,/\,(2\,\times\,2)=1$) **ou** 3 potions N1 ($6\,/\,(1\,\times\,2)=3$).*  
+*Ex. Un alchimiste **T6** peut produire 1 potion N3 ($6\,/\,(3\,\times\,2)=1$), 1 potion N2 ($6\,/\,(2\,\times\,2)=1$) ou 3 potions N1 ($6\,/\,(1\,\times\,2)=3$).*  
 
 !!! note "Note"
-    Les plantes peuvent être découvertes dans une région puis récoltées par une unité compétente en [herboristerie].
+    Les plantes peuvent être [[cmd-research|découvertes]] dans une région puis [[cmd-make|récoltées]] par une unité compétente en [herboristerie].
 
 ### Utilisation
 
-L'ordre [[cmd-use|`USE <quantité> "<nom potion>" <unit-id>`]] permet d'utiliser une ou plusieurs potions en sa possession.  
+L'ordre [[cmd-use|`USE [<quantité>] "<nom potion>" [<unit-id>]`]] permet d'utiliser une ou plusieurs potions en sa possession.  
 
 Remarque: l'identifiant d'unité `<unit-id>` est à renseigner **uniquement** pour le **[pain d'andouille]**.  
 
-Une potion ne peut pas être divisée entre plusieurs unités.  
+Une potion ne peut pas être partagée entre plusieurs unités.  
 On peut cependant diviser une unité de plusieurs membres en plusieurs unités plus petites après l'utilisation de la potion en en conservant les effets.  
 
 Les potions ont toutes un effet positif, à l'exception du [pain d'andouille].  
@@ -44,7 +55,7 @@ Les potions ont toutes un effet positif, à l'exception du [pain d'andouille].
 La plupart des potions profitent à l'unité qui les utilise.  
 Mais certaines s'appliquent à une région. Dans ce cas, l'effet est obtenu dans la région où se trouve l'unité au début du tour - ou celles qui affectent d'autres unités ([pain d'andouille]).  
 
-En général, une potion affecte 10 personnes ou 10 biens pendant le tour où elle est utilisée, comme indiqué dans sa recette.  
+En général, une potion affecte 10 personnes ou 10 objets pendant le tour où elle est utilisée, comme indiqué dans sa recette.  
 Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.  
 De nombreuses potions fonctionnent de telle sorte qu'un trop grand nombre de personnes dans l'unité importe peu, c'est-à-dire qu'avec 12 personnes et une potion (qui fonctionne pour 10), l'effet n'affecte que 10 des 12 personnes.  
 
@@ -66,16 +77,16 @@ Vous trouverez ci-dessous la liste des potions par ordre croissant de niveau.
 *Goliath water (EN), Goliathwasser (DE)*.
 <!-- cspell:enable -->
 
-:   10 hommes peuvent porter autant que 10 chevaux.
+:   10 personnes peuvent porter autant que 10 chevaux.
 
-*Objectif :* augmenter la capacité à transporter.  
+*Objectif :* augmenter la capacité de transport.  
 *Niveau :* **1**.  
 *Cible :* **unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- [herbe de clairon]
 - [champignon des fjords]
+- [herbe de clairon]
 
 #### Eau de vie
 
@@ -116,7 +127,7 @@ Plantes nécessaires pour concocter cette potion :
 *Seven mile tea (EN), Siebenmeilentee (DE)*.
 <!-- cspell:enable -->
 
-:   10 hommes à pied peuvent se déplacer **aussi vite qu'à cheval**.
+:   10 personnes à pied peuvent se déplacer **aussi vite qu'à cheval**.
 
 *Objectif :* augmenter la vitesse de déplacement.  
 *Niveau :* **1**.  
@@ -137,7 +148,7 @@ Plantes nécessaires pour concocter cette potion :
 
 :   **Double la productivité** de 10 hommes utilisant l'ordre **`MAKE`**.
 
-*Objectif :* accélérer la production.  
+*Objectif :* augmenter la productivité.  
 *Niveau :* **2**.  
 *Cible :* **unité**.  
 
@@ -182,14 +193,14 @@ Plantes nécessaires pour concocter cette potion :
 
 Éléments nécessaires pour concocter cette potion :
 
-- [lichen des cavernes]
 - [champignon cobalt]
 - [champignon des fjords]
-- **paysan**
+- [lichen des cavernes]
+- paysan
 
 !!! note
-    Une *Peasant blood* agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.  
-    Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de *Peasant blood* pour tous les démons.
+    Cette potion agit sur l'unité, mais tous les démons de la faction de la région l'utilisent s'il en reste.  
+    Il vous suffit donc d'équiper une seule unité (par région), à condition qu'elle boive suffisamment de cette potion pour tous les démons.
 
 ### Niveau 3
 
@@ -209,9 +220,9 @@ Plantes nécessaires pour concocter cette potion :
 Plantes nécessaires pour concocter cette potion :
 
 - [champignon cobalt]
-- [racine de nœud]
 - [peyote]
 - [pourriture de sable]
+- [racine de nœud]
 
 #### Chaleur du nid
 
@@ -227,10 +238,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [cire fissurée]
 - [bégonia des glaces]
-- [peyote]
+- [cire fissurée]
 - [lierre d'araignée]
+- [peyote]
 
 #### Huile de cervelle
 
@@ -238,18 +249,18 @@ Plantes nécessaires pour concocter cette potion :
 *Brain wax (EN), Gehirnschmalz (DE)*.
 <!-- cspell:enable -->
 
-:   jusqu'à 10 personnes : augmente les chances **d'apprentissage d'une compétence**.
+:   Augmente les chances **d'apprentissage d'une compétence**.
 
 *Objectif :* accélérer l'apprentissage.  
 *Niveau :* **3**.  
-*Cible :* **unité**.  
+*Cible :* **au plus 10 membres d'une unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
+- [gousse]
 - [herbe de clairon]
 - [herbe de roche]
 - [tamaris]
-- [gousse]
 
 #### Pain d'andouille
 
@@ -257,24 +268,24 @@ Plantes nécessaires pour concocter cette potion :
 *Duncebun (EN), Dumpfbackenbrot (DE)*.
 <!-- cspell:enable -->
 
-:   pour 10 personnes : pas d'apprentissage, ou l'enseignant n'apporte rien, ou oubli d'1 semaine de la meilleure compétence.
+:   Bloque l'apprentissage, l'enseignement, ou provoque l'oubli de la meilleure compétence pendant uen semaine.
 
-*Objectif :* ralentir l'apprentissage d'une unité (adverse).  
+*Objectif :* ralentir l'apprentissage d'une unité.  
 *Niveau :* **3**.  
-*Cible :* unité étrangère.  
+*Cible :* **10 membres d'une unité (logiquement adverse)**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- [lichen des cavernes]
 - [champignon des fjords]
-- [œil de chouette]
+- [lichen des cavernes]
 - [lierre d'araignée]
+- [œil de chouette]
 
 [[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
 !!! note
     Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
-    L'effet de la potion échoue si la compétence `Stealth` de l'unité agissante est inférieure ou égale au niveau de `Perception` **+ 2** de la victime.  
+    L'effet de la potion échoue si le niveau de [discrétion] de l'unité agissante est inférieur ou égal **au niveau de [perception] + 2** de la victime.  
     Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
 
 #### Sang de berserker
@@ -283,17 +294,17 @@ Plantes nécessaires pour concocter cette potion :
 *Berserkers blood (EN), Berserkerblut (DE)*.
 <!-- cspell:enable -->
 
-:   10 personnes reçoivent un modificateur d'attaque de **+1** au combat.
+:   L'unité reçoit un modificateur d'attaque de **+1** au combat.
 
 *Objectif :* renforcer l'attaque.  
 *Niveau :* **3**.  
-*Cible :* **unité**.  
+*Cible :* **au plus 10 membres d'une unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- [racine plate]
 - [mandragore]
 - [pourriture de sable]
+- [racine plate]
 - [tsuga blanc]
 
 ### Niveau 4
@@ -312,10 +323,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [morille]
 - [amour d'Elfes]
-- [mandragore]
 - [herbe de roche]
+- [mandragore]
+- [morille]
 - [pétale de cristal de neige]
 
 #### Élixir de pouvoir
@@ -324,20 +335,20 @@ Plantes nécessaires pour concocter cette potion :
 *Elixir of power (EN), Elixier der Macht (DE)*.
 <!-- cspell:enable -->
 
-:   10 personnes ont leurs **points de vie multipliés par 5**.
+:   Les **Points de Vie sont multipliés par 5**.
 
-*Objectif :* augmenter les points de vie d'une unité.  
+*Objectif :* augmenter les Points de Vie d'une unité.  
 *Niveau :* **4**.  
-*Cible :* **unité**.  
+*Cible :* **au plus 10 membres d'une unité**.  
 
 Plantes nécessaires pour concocter cette potion :
 
-- [[sang-de-dragon]]
-- [morille]
 - [amour d'Elfes]
-- [lierre d'araignée]
-- [tamaris]
 - [gousse]
+- [lierre d'araignée]
+- [morille]
+- [[sang-de-dragon]]
+- [tamaris]
 
 #### Potion de guérison
 
@@ -353,37 +364,31 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [herbe de clairon]
 - [amour d'Elfes]
-- [cire fissurée]
 - [bégonia des glaces]
+- [cire fissurée]
 - [gousse]
+- [herbe de clairon]
 
 ## Potions - Synthèse
 
-| Potion                  | Abr. | Niv. | Cible               |
-|-------------------------|:----:|:----:|---------------------|
-| [eau de Goliath]        |  GW  |  1   | Unité               |
-| [eau de vie]            |  WL  |  1   | Région              |
-| [potion de vérité]      |  PT  |  1   | Région              |
-| [thé des sept lieues]   |  SM  |  1   | Unité               |
-| [breuvage de labeur]    |  BZ  |  2   | Unité               |
-| [onguent de soin]       |  OM  |  2   | Unité               |
-| [sang de paysan]        |  PB  |  2   | Unité[^1]           |
-| [bien-être des chevaux] |  HP  |  3   | Région              |
-| [chaleur du nid]        |  NW  |  3   | Région              |
-| [huile de cervelle]     |  BW  |  3   | Unité               |
-| [pain d'andouille]      |  DB  |  3   | Unité étrangère[^2] |
-| [sang de berserker]     |  BK  |  3   | Unité               |
-| [amour des paysans]     |  PL  |  4   | Région              |
-| [élixir de pouvoir]     |  EP  |  4   | Unité               |
-| [potion de guérison]    |  HL  |  4   | Unité               |
-
-[^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
-    Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
-[^2]: la potion agit à une unité ciblée avec l'ordre `USE "Duncebun" <ID unité cible>`.  
-    À cet égard, il convient de noter que si la compétence `Stealth` de l'utilisateur est inférieure ou égale à la `Perception` **+ 2** de la victime, la tentative échoue.  
-    Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
+| Potion                  | Niv. | Cible               |
+|-------------------------|:----:|---------------------|
+| [eau de Goliath]        |  1   | Unité               |
+| [eau de vie]            |  1   | Région              |
+| [potion de vérité]      |  1   | Région              |
+| [thé des sept lieues]   |  1   | Unité               |
+| [breuvage de labeur]    |  2   | Unité               |
+| [onguent de soin]       |  2   | Unité               |
+| [sang de paysan]        |  2   | Unité[^1]           |
+| [bien-être des chevaux] |  3   | Région              |
+| [chaleur du nid]        |  3   | Région              |
+| [huile de cervelle]     |  3   | Unité               |
+| [pain d'andouille]      |  3   | Unité étrangère[^2] |
+| [sang de berserker]     |  3   | Unité               |
+| [amour des paysans]     |  4   | Région              |
+| [élixir de pouvoir]     |  4   | Unité               |
+| [potion de guérison]    |  4   | Unité               |
 
 ## Plantes et leur utilisation
 
@@ -413,11 +418,19 @@ Plantes nécessaires pour concocter cette potion :
 
 Poursuivre la lecture : [[herbs|plantes]].
 
+[^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
+    Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
+[^2]: la potion agit à une unité ciblée avec l'ordre `USE Duncebun <unit-id>`.  
+    À cet égard, il convient de noter que si le **niveau de [discrétion]** de l'utilisateur est **inférieur ou égal** au **niveau de [perception] + 2** de la victime, la tentative échoue.  
+    Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
+
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
 
-[alchimie]: ./skills-list.md#alchimie
-[herboristerie]: ./skills-list.md#herboristerie
-[Insectes]: ./races.md#insectes
+[alchimie]: ./skills-list.md#alchimie "Alchemy"
+[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
+[perception]: ./skills-list.md#perception "Perception"
+[discrétion]: ./camouflage.md "Stealth"
+[Insectes]: ./races.md#insectes "Insects"
 
 [amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
 [bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
@@ -470,4 +483,4 @@ Poursuivre la lecture : [[herbs|plantes]].
 [NW]: ./alchemy.md#chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
 [PL]: ./alchemy.md#amour-des-paysans "Amour des paysans (Peasant love potion)"
 [EP]: ./alchemy.md#elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
-[HL]: ./alchemy.md#potion-de-guerison "Potion de guérison ()"
+[HL]: ./alchemy.md#potion-de-guerison "Potion de guérison (Healing potion)"

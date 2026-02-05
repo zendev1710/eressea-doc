@@ -26,13 +26,13 @@ Les listes de diffusion [E-Client] et Développement Magellan constituent un bon
 
 ## Format
 
-- [[cr-format]]
+- [[format-cr]]
 
 ## Scripts
 
 Lors de l’automatisation des factions d’Eressea, les mêmes problèmes surviennent encore et encore.  
 Bien sûr, chacun a une approche légèrement différente, mais fondamentalement, les problématiques sont les mêmes.  
-Pour que vous n'ayez pas à recommencer et peut-être à trouver des idées, j'aimerais créer ici une sorte de trésor pour l'automatisation.
+Pour que vous n'ayez pas à recommencer et peut-être à trouver des idées, j'aimerais créer ici une sorte de trésor pour l'automatisation.  
 Ces questions sont indépendantes de l’outil utilisé.  
 
 Bien entendu, les liens vers des collections de scripts (spécifiques à l’outil) sont également utiles.  
@@ -41,14 +41,14 @@ Bien entendu, les liens vers des collections de scripts (spécifiques à l’out
 
 - [collection de scripts] pour [[vorlage]] sur la page d'accueil de Vorlage
 
-### Questions fréquentes
+### Questions récurrentes
 
-- [[auto-trading]]
-- [[auto-transport]]
-- [[auto-learning-chains]]
+- [[commerce-automatise]]
+- [[transport-automatise]]
+- [[chaines-d-apprentissage-automatisees]]
 - [[production]]
-- [[auto-way-finding]]
-- [[auto-event-response]]
+- [[orientation-automatisee]]
+- [[reponse-automatisee-a-un-evenement]]
 
 ### Problèmes d'optimisation
 
@@ -57,10 +57,10 @@ Vous rencontrerez de nombreux problèmes d’optimisation fondamentaux.
 
 C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent mettre en pratique des algorithmes qui résolvent de tels problèmes d’optimisation dans un laps de temps raisonnable.  
 
-- [[optimize-wayfinding|Recherche de chemin / Calcul d'itinéraire]] (A\*-Search)
-- [[optimize-learning-chains]] ([algorithme de recherche A\*], [problème du sac à dos])
-- [[optimize-transport|Systèmes de transport et de commerce]] (représentant de commerce, problème du sac à dos)
-- [[optimize-production]] (problème du sac à dos)
+- [[orientation-optimisee|Recherche de chemin et calcul d'itinéraire optimisés]] ([algorithme de recherche A*])
+- [[chaines-d-apprentissage-optimisees]] (algorithme de recherche A*, [problème du sac à dos])
+- [[transport-optimise|Systèmes de transport et de commerce optimisés]] (représentant de commerce, problème du sac à dos)
+- [[production-optimisee]] (problème du sac à dos)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->
 
@@ -73,4 +73,4 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 [FFTools 2]: http://fftools2.fietefietz.de/
 [collection de scripts]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [problème du sac à dos]: https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_sac_%C3%A0_dos
-[algorithme de recherche A\*]: https://fr.wikipedia.org/wiki/Algorithme_A*#:~:text=L'algorithme%20A*%20est%20un,ordre%20de%20cette%20%C3%A9valuation%20heuristique.
+[algorithme de recherche A*]: https://fr.wikipedia.org/wiki/Algorithme_A*#:~:text=L'algorithme%20A*%20est%20un,ordre%20de%20cette%20%C3%A9valuation%20heuristique.

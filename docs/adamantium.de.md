@@ -6,8 +6,9 @@ alias: adamantium-de
 
 Spielererfahrung:
 
-BruckAdamantium ist noch seltener als Laen!  
-Pro Schicht gib es gerade mal ein Adamantium, so es überhaupt Adamantium in der Region gibt.
+BruckAdamantium ist noch seltener als [[laen]]!  
+
+Pro Schicht gib es gerade mal ein Adamantium, so es überhaupt Adamantium in der Region gibt.  
 
 ## Externe Links
 

@@ -4,15 +4,15 @@ alias: cmd-unit-fr
 ---
 # `UNIT`
 
-**`UNIT`**` `*`<unit-id>`*  
+**`UNIT <unit-id>`**  
 
 Avec cette instruction, vous commencez à renseigner les ordre à donner à l'une de vos unités.  
 
 ```text
-UNIT 45
+UNIT unt1
     MOVE WEST
-UNIT 46
-    ENTER BUILDING 7
+UNIT unt2
+    ENTER CASTLE cstl
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=UNIT&oldid=1548] -->

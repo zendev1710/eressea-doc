@@ -5,38 +5,34 @@ alias: regles
 # Règles
 
 Eressea se joue exclusivement par e-mail.
-Ceux qui n'ont pas d'adresse e-mail ne peuvent malheureusement pas jouer à Eressea.
-Eressea est la version allemande d'[[atlantis]], un jeu développé en 1993 par Russell Wallace.
+Ceux qui n'ont pas d'adresse e-mail ne peuvent malheureusement pas jouer à Eressea.  
+Eressea est la version allemande d'[[atlantis]], un jeu développé en 1993 par Russell Wallace.  
 
 Eressea fonctionne sans interruption depuis 1996.  
 
-Dans Eressea, tu prends la direction d'une **faction** et tu joues avec de nombreuses autres factions dirigées par d'autres joueurs dans le même monde fantastique.  
+Dans Eressea, vous prenez la direction d'une **[[factions|faction]]** et vous jouez avec de nombreuses autres factions dirigées par d'autres joueurs dans le même monde fantastique.  
 
-Ces règles sont relativement complexes, mais tu devrais quand même les lire avant de commencer à jouer.
-Il suffit de suivre les liens *Poursuivre la lecture* en bas de chaque page pour avoir le fil conducteur.
-Bien sûr, tu ne dois pas te souvenir de tous les détails dès le début.
-Tu feras des erreurs qui auront bien sûr un impact négatif sur ta faction, mais ce n'est pas grave !
-D'autres font aussi des erreurs et, avec l'aide des autres joueurs, ta faction aura quand même une chance de survivre.
+Ces règles sont relativement complexes, mais vous devriez quand même les lire avant de commencer à jouer.  
+Il suffit de suivre les liens *Poursuivre la lecture* en bas de chaque page pour avoir le fil conducteur.  
 
-Eressea n'est pas un jeu rapide.
-Les événements se mesurent en mois et en années (en temps réel) plutôt qu'en jours ou en semaines.
-Néanmoins, de nombreux joueurs attendent chaque semaine avec impatience le prochain tour, et certains sont là depuis des décennies.
+Bien sûr, vous ne devez pas vous souvenir de tous les détails dès le début.  
+Vous ferez des erreurs qui auront bien sûr un impact négatif sur votre faction, mais ce n'est pas grave !  
+D'autres font aussi des erreurs et, avec l'aide des autres joueurs, votre faction aura quand même une chance de survivre.  
+
+Eressea n'est pas un jeu rapide.  
+Les événements se mesurent **en mois et en années** (en temps réel) plutôt qu'en jours ou en semaines.  
+Néanmoins, de nombreux joueurs attendent chaque semaine avec impatience le prochain tour, et certains sont là depuis des décennies.  
 
 !!! note "À l'attention des joueurs francophones"
     Les règles et explications sont en français, **MAIS pas le jeu**.  
-    Tu devras choisir entre l'anglais (EN) et l'allemand (DE) pour renseigner tes ordres.
+    Vous devrez choisir entre l'anglais (EN) et l'allemand (DE) pour renseigner vos ordres.  
 
-Eressea est un jeu vivant !
+Eressea est un jeu vivant !  
 
-Il a connu des améliorations continues au cours des dernières années, et nous continuons à travailler pour l'améliorer.
-Cela signifie que **les règles peuvent changer**.
+Il a connu des améliorations continues au cours des dernières années, et nous continuons à travailler pour l'améliorer.  
+Cela signifie que **les règles peuvent changer**.  
 
-<!-- TODO: translate in french -->
-<!-- Though such changes have sometimes unfortunately led to extensive disputes between the game masters and a few dissatisfied players in the past, we hereby expressly point out that we reserve the right to change all rules at any time, under special circumstances even without prior notice. -->
-
-Certains changements ont pu donner lieu à de longues discussions entre l'équipe de direction et quelques joueurs mécontents.
-
-<!-- L'édition de ces règles est autorisée et encouragée, mais il est important de respecter les [Conseils pour l'édition des règles] !-->
+Certains changements ont pu donner lieu à de longues discussions entre l'équipe de direction et quelques joueurs mécontents.  
 
 Poursuivre la lecture : [[introduction]].
 

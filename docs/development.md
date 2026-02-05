@@ -55,8 +55,8 @@ You will encounter many fundamental optimization problems.
 
 This is exactly the right thing for (prospective) computer scientists to deal with algorithms in practice that solve such optimization problems in a reasonable amount of time.
 
-- [[optimize-wayfinding|Way finding / Route calculation]] (A\*-Search)
-- [[optimize-learning-chains]] ([A\* search algorithm], [backpack problem])
+- [[optimize-wayfinding|Way finding / Route calculation]] ([A* search algorithm])
+- [[optimize-learning-chains]] (A* search algorithm, [backpack problem])
 - [[optimize-transport|Transportation and trading systems]] (traveling salesman, Backpack problem)
 - [[optimize-production]] (backpack problem)
 
@@ -71,4 +71,4 @@ This is exactly the right thing for (prospective) computer scientists to deal wi
 [FFTools 2]: http://fftools2.fietefietz.de/
 [Script collection]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [backpack problem]: https://en.wikipedia.org/wiki/Knapsack_problem
-[A\* search algorithm]: https://en.wikipedia.org/wiki/A*_search_algorithm
+[A* search algorithm]: https://en.wikipedia.org/wiki/A*_search_algorithm

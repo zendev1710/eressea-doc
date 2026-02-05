@@ -11,16 +11,16 @@ alias: cmd-attack-fr
 
 **`ATTACK`**` `*`unit-id`*  
 
-Cet ordre déclenche l'attaque l'unité affectée dans la région actuelle.  
+Cet ordre déclenche l'attaque de l'unité spécifiée présente dans la région de l'attaquant.  
 Un ordre doit être donné pour chaque unité à attaquer.  
 
-Les unités qui ne [[cmd-combat|combattent]] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.
+Les unités qui ne [[cmd-combat|combattent]] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.  
 
-Au cours des premières semaines, une faction est [[puppy-protection|immunisée]] contre les attaques.
+Au cours des premières semaines, une faction est [[puppy-protection|immunisée]] contre les attaques.  
 
 ## Voir aussi
 
-- [[guerre]]
+- [[guerre|La guerre]]
 - [[cmd-combat]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->

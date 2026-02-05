@@ -140,6 +140,9 @@ plugins:
             Puppy protection: Protection du chiot
             The World: Le Monde d'Eressea
             Factions and units: Factions et unités
+            Development: Développement
+            Tools: Outils
+            Events: Événements
         - locale: de
           name: Deutsch
           build: true
@@ -168,6 +171,9 @@ plugins:
             The World: Welt
             Factions and units: Parteien und einheiten
             Races: Rassen
+            Development: Entwicklung
+            Tools: Werkzeuge
+            Events: Ereignisse
       docs_structure: suffix
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
 
@@ -186,8 +192,7 @@ extra:
 
 # Extensions
 markdown_extensions:
-
-# Python Markdown
+  # Python Markdown
   - abbr
   - admonition
   - attr_list
@@ -205,6 +210,7 @@ markdown_extensions:
       #inline_syntax: true
   - pymdownx.betterem:
       smart_enable: all
+  #- pymdownx.blocks
   - pymdownx.blocks.caption
   - pymdownx.caret
   - pymdownx.details

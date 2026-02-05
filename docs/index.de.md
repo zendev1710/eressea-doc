@@ -8,10 +8,9 @@ Willkommen auf [[eressea]]!
 
 !!! warning "Wichtig"
     Die auf dieser Seite beschriebenen Regeln **sind nicht offiziel**.  
-
     Die **offiziellen Spielregeln** sind in **[diesem Wiki]** verfügbar.  
 
-Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
+Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.  
 
 ## Was es hier gibt
 
@@ -39,14 +38,14 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 
 ### Eressea
 
-Die Partie läuft als Endlosspiel seit 1996.
-Seit einigen Regeländerungen im Jahre 2000 läuft es als "Das Zweite Zeitalter", kurz **E2**.
+Die Partie läuft als Endlosspiel seit 1996.  
+Seit einigen Regeländerungen im Jahre 2000 läuft es als "Das Zweite Zeitalter", kurz **E2**.  
 
 ### E3 (eingestellt)
 
-Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat.
-Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele.
-Das Spiel endete am 11. August 2019 nach 517 Auswertungen.
+Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat.  
+Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele.  
+Das Spiel endete am 11. August 2019 nach 517 Auswertungen.  
 
 - [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]
 - [Eine Liste aller Regeländerungen gegenüber dem alten Eressea-Spiel][Das dritte Zeitalter]
@@ -54,13 +53,13 @@ Das Spiel endete am 11. August 2019 nach 517 Auswertungen.
 
 #### Deveron (eingestellt)
 
-Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-Förderer].
-Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien.
-Sie endete mit Auswertung 243 am 2. März 2019.
+Am 19. April 2014 begann eine neue Partie names **Deveron** für Ennos [Patreon-Förderer].  
+Die Welt startet mit den Regeln von E3, sollte aber stärkeren Änderungen unterworfen werden als die bisherigen Partien.  
+Sie endete mit Auswertung 243 am 2. März 2019.  
 
 #### Drachensgrab (eingestellt)
 
-Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 ZAT pro Woche und kleinen Änderungen.
+Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 ZAT pro Woche und kleinen Änderungen.  
 
 - [Thread im Forum]
 - [Drachensgrab-Spielregeln]
@@ -69,7 +68,7 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 
 - [Eressea Homepage]
 - [**Anmeldunge zum Spiel**]
-- [Discord] Server. Hier findest du auch immer jemanden, der dir bei Regelfragen weiter hilft.
+- [Discord] Server: Hier findest du auch immer jemanden, der dir bei Regelfragen weiter hilft.
 - [Forum] für Eressea
 - [Mantis], Bugs melden
 - [Magellan]

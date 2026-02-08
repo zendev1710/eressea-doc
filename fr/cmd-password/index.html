@@ -7746,31 +7746,40 @@
 
 <h1 id="password"><code>PASSWORD</code><a class="headerlink" href="#password" title="Permanent link">&para;</a></h1>
 <p><strong><code>PASSWORD</code></strong><code>["new-password"]</code>  </p>
-<p>Cela réinitialise le mot de passe.<br />
-Vous devez toujours l'utiliser en donnant l'ordre <a href="../cmd-eressea/">ERESSEA</a> dans le fichier d'ordres suivant.<br />
-Seuls des lettres et des chiffres sont autorisés dans le mot de passe.<br />
-Si le mot de passe contient des caractères illégaux, ceux-ci seront remplacés par des caractères autorisés aléatoires.<br />
+<p>Cette instruction réinitialise le mot de passe de votre faction.  </p>
+<div class="admonition info">
+<p class="admonition-title">Rappel</p>
+<p>L'ordre <a href="../cmd-eressea/">ERESSEA</a> doit être défini dans le lot d'ordres pour que l'instruction soit prise en compte.  </p>
+</div>
+<p><strong>Seuls des lettres et des chiffres sont autorisés dans le mot de passe</strong>.  </p>
+<p>Si le mot de passe contient des caractères illégaux, ceux-ci seront remplacés par des caractères autorisés aléatoires.<br />
 L'ordre <code>PASSWORD</code> sans paramètres définit un mot de passe généré aléatoirement.  </p>
-<p>Au début, chaque faction se voit attribuer un mot de passe aléatoire.  </p>
-<p>Exemple :</p>
+<p>Au premier tour après l'inscription, chaque faction se voit attribuer un mot de passe aléatoire, renseigné dans le rapport.  </p>
+<p>Le mot de passe doit être défini <strong>par une unité</strong>, comme dans cet exemple :</p>
 <div class="highlight"><pre><span></span><code>; la deuxième semaine du mois hearth fire
 ERESSEA 11 &quot;OldPassword&quot;
-PASSWORD &quot;Incorrect&quot; ; no effect
+PASSWORD &quot;Incorrect&quot; ; pas d&#39;effet (l&#39;ordre doit être passé par l&#39;unité, comme ci-dessous)
 UNIT 75
     PASSWORD &quot;MoftZga&quot; ; s&#39;applique à partir du prochain tour !
     [...]
-        
-; la dernière semaine du mois hearth fire
+</code></pre></div>
+<p>Le message <code>The password was changed to ...</code> est inclus dans le rapport suivant si le mot de passe a été réinitialisé avec succès.  </p>
+<p>Le fichiers d'ordres suivants devront contenir le nouveau mot de passe :</p>
+<div class="highlight"><pre><span></span><code>; la dernière semaine du mois hearth fire
 ERESSEA 11 &quot;MoftZga&quot;
 [...]
 </code></pre></div>
-<p>Quelques précisions :</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Lors de l'ouverture d'un rapport avec <a href="../magellan/">Magellan</a>, le mot de passe renseigné dans le rapport est associé à la faction concernée, et mémorisé sur confirmation.<br />
+Magellan inscrit ensuite automatiquement les ordres <code>ERESSEA</code> et <code>PASSWORD</code> dans le fichier d'ordres à <a href="../commands-send-from-magellan/">envoyer</a>.  </p>
+</div>
+<!-- TODO: improve, remarks are not very clear -->
+<p>Remarques :</p>
 <ul>
-<li>Le mot de passe est le seul élément du fichier d'ordres qui soit sensible à la casse</li>
-<li>Le mot de passe doit être défini par une unité</li>
-<li>Le mot de passe qui était valide lors du dernier tour ou celui qui a été défini lors du dernier tour s'applique toujours au fichier d'ordres respectif.
-  Le mot de passe des envois d'ordre précédents reste valable même si plusieurs fichiers d'ordre ont été envoyés pour le lot d'ordres actuel dans lequel des mots de passe différents ont été définis</li>
-<li>Le mot de passe n'a été réinitialisé avec succès que si le message <code>The password was changed to ...</code> a été inclus dans l'évaluation</li>
+<li>le mot de passe est le seul élément du fichier d'ordres qui soit sensible à la casse</li>
+<li>le mot de passe qui était valide lors du dernier tour ou celui qui a été défini lors du dernier tour s'applique toujours aux fichiers d'ordres respectifs</li>
+<li>le mot de passe des envois d'ordre précédents reste valable même si plusieurs fichiers d'ordres ont été envoyés pour le lot d'ordres actuel dans lequel des mots de passe différents ont été définis</li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->
 

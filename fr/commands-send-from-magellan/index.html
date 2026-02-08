@@ -947,9 +947,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Dans Magellan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gmx" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -959,8 +960,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gmail" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -970,8 +971,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#freenet" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -981,8 +982,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#posteo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -990,6 +991,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7762,9 +7768,10 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Dans Magellan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gmx" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7774,8 +7781,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gmail" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7785,8 +7792,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#freenet" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7796,8 +7803,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#posteo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7805,6 +7812,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7879,60 +7891,76 @@
 <h1 id="envoi-des-ordres-depuis-magellan">Envoi des ordres depuis Magellan<a class="headerlink" href="#envoi-des-ordres-depuis-magellan" title="Permanent link">&para;</a></h1>
 <!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
 <p><img alt="Sending commands with Magellan using Gmail as an example" src="../../assets/images/orders-sending-gmail.png" title="Sending commands with Magellan using Gmail as an example" /></p>
-<p><a href="../magellan/">Magellan</a> offre la possibilité d'<a href="../commands-send/">envoyer par email</a> les ordres directement depuis le programme.<br />
-L'avantage est d'éliminer le risque d'erreurs causées par la copie dans le programme de messagerie ou le webmailer.<br />
-De plus, aucun formatage automatique n'est effectué que le serveur Eressea ne saurait comprendre, par exemple le formatage HTML, les sauts de ligne étranges, les bannières automatiques ou l'encodage de lettres étranges, notamment avec les trémas.<br />
-Pour recevoir une copie de l'e-mail, vous pouvez envoyer une copie des ordres à votre propre adresse.<br />
-Pour ce faire, vous devez effectuer les réglages appropriés dans Magellan, y compris la configuration du serveur SMTP du fournisseur de messagerie.<br />
-Les données sont généralement obtenues grâce à l'aide du fournisseur, pour certaines, les données sont indiquées ci-dessous.<br />
+<p><a href="../magellan/">Magellan</a> offre la possibilité d'<a href="../commands-send/">envoyer les ordres par email</a> directement depuis le programme.<br />
+L'avantage est d'éliminer le risque d'erreurs causées par la copie dans le programme de messagerie ou le webmailer.  </p>
+<p>De plus, aucun formatage automatique n'est effectué que le serveur Eressea ne saurait comprendre, comme par exemple :</p>
+<ul>
+<li>un formatage HTML</li>
+<li>des sauts de ligne non désirés,</li>
+<li>des bannières automatiques</li>
+<li>l'encodage de caractères spéciaux, notamment les caractères avec trémas</li>
+</ul>
+<p>Pour recevoir une copie de l'e-mail, vous pouvez envoyer une copie des ordres à votre propre adresse mél.<br />
+Pour ce faire, vous devez effectuer les réglages appropriés dans Magellan, y compris la configuration du serveur SMTP du fournisseur de messagerie.  </p>
+<p>Les données sont généralement obtenues grâce à l'aide du fournisseur, pour certaines, les données sont indiquées ci-dessous.<br />
 De plus, le fournisseur peut devoir accorder explicitement une autorisation pour des programmes externes.  </p>
 <h2 id="dans-magellan">Dans Magellan<a class="headerlink" href="#dans-magellan" title="Permanent link">&para;</a></h2>
-<p>Le réglage peut être trouvé dans <code>File =&gt; Save Orders...</code>, dans le deuxième onglet <code>E-Mail</code>.<br />
-Une fois les réglages effectués, vous pouvez également envoyer directement l'e-mail via <code>File =&gt; Send orders by E-Mail</code>.  </p>
+<p>Pour définir la configuration pour l'envoi d'email, aller dans <code>File =&gt; Orders - dialog...</code>.  </p>
 <!-- cspell:disable -->
-<p><strong>Return address:</strong> votre email<br />
+<p><strong>Sender's address:</strong> votre email<br />
 <strong>SMTP server:</strong> celui du fournisseur de messagerie (voir ci-dessous)<br />
 <strong>Port:</strong> celui du fournisseur de messagerie<br />
-<strong>Username:</strong> votre nom d'utilisateur auprès du fournisseur de messagerie
-<strong>Password:</strong> votre mot de passe pour le fournisseur de messagerie, <strong>pas</strong> le mot de passe des ordres Eressea
+<strong>Username:</strong> votre nom d'utilisateur auprès du fournisseur de messagerie<br />
+<strong>Password:</strong> votre mot de passe pour le fournisseur de messagerie, <strong>pas</strong> le mot de passe des ordres Eressea<br />
 <strong>Recipient address:</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#114;&#101;&#115;&#115;&#101;&#97;&#45;&#115;&#101;&#114;&#118;&#101;&#114;&#64;&#101;&#114;&#101;&#115;&#115;&#101;&#97;&#46;&#107;&#110;&#45;&#98;&#114;&#101;&#109;&#101;&#110;&#46;&#100;&#101;">&#101;&#114;&#101;&#115;&#115;&#101;&#97;&#45;&#115;&#101;&#114;&#118;&#101;&#114;&#64;&#101;&#114;&#101;&#115;&#115;&#101;&#97;&#46;&#107;&#110;&#45;&#98;&#114;&#101;&#109;&#101;&#110;&#46;&#100;&#101;</a><br />
 <strong>Subject:</strong> ERESSEA 2 ORDERS<br />
-<strong>CC:</strong> Facultatif, par exemple votre propre adresse</p>
-<p><strong>Copy to sender:</strong> Envoie également les ordres à l'adresse de l'expéditeur<br />
-<strong>Use SSL/TLS:</strong> cryptage des e-mails; doit être sélectionné si possible si c'est pris en charge par le fournisseur de messagerie (en cas de doute, essayez-le)  </p>
-<p><strong>Use authentication:</strong> habituellement nécessaire  </p>
-<p><strong>always ask:</strong> Demande le mot de passe du fournisseur de messagerie à chaque fois que vous envoyez l'e-mail, il n'est donc pas nécessaire de l'enregistrer dans Magellan<br />
+<strong>CC:</strong> Facultatif, par exemple votre propre adresse<br />
+<strong>Copy to sender:</strong> Envoie également les ordres à l'adresse de l'expéditeur<br />
+<strong>Use SSL/TLS:</strong> cryptage des e-mails; doit être sélectionné si possible si c'est pris en charge par le fournisseur de messagerie (en cas de doute, essayez-le)<br />
+<strong>Use authentication:</strong> habituellement nécessaire<br />
+<strong>always ask:</strong> Demande le mot de passe du fournisseur de messagerie à chaque fois que vous envoyez l'e-mail, il n'est donc pas nécessaire de l'enregistrer dans Magellan<br />
 <strong>Use values from CR:</strong> Remplit automatiquement l'adresse et le sujet du destinataire si les données sont dans le CR  </p>
 <!-- cspell:enable -->
 
+<p>Une fois les réglages effectués, vous pourrez envoyer directement l'e-mail avec <code>File =&gt; Orders - mail</code>.  </p>
 <p>Pour certains fournisseurs de messagerie bien connus, voici les valeurs requises, telles que connues actuellement.</p>
-<h2 id="gmx">GMX<a class="headerlink" href="#gmx" title="Permanent link">&para;</a></h2>
-<p>L'aide de GMX pour le serveur SMTP est disponible dans <a href="https://support.gmx.com/pop-imap/index.html">Support GMX - SMTP</a> et pour les paramètres SMTP sous <a href="https://support.gmx.com/pop-imap/pop3/serverdata.html">Support GMX - Serveur SMTP</a>.<br />
-De plus, il est nécessaire d’accorder une autorisation externe pour envoyer.<br />
-Cela sera expliqué (y compris la vidéo) sur <a href="https://support.gmx.com/pop-imap/toggle.html">cet autre lien de support GMX</a>.</p>
+<h3 id="gmx">GMX<a class="headerlink" href="#gmx" title="Permanent link">&para;</a></h3>
+<p>Dans l'interface GMX, il sera nécessaire d’accorder une autorisation externe pour l'envoi d'email par une application tierce.
+<a href="https://support.gmx.fr/pop-imap/toggle.html">Ce lien de support GMX</a> explique comment procéder.  </p>
+<p>La configuration correspondante devrait ressembler à ceci :</p>
+<!-- TODO: frame surrrounding the image -->
+<p><img alt="GMX - Autorisation" src="../img-gmx-enable-third-party-apps.png" title="Exemple de configuration d'autorisation dans GMX" /></p>
+<p>Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consulter les pages d'aide GMX suivantes :</p>
+<ul>
+<li>configuration du serveur SMTP : <a href="https://support.gmx.fr/pop-imap/pop3/serverdata.html">support GMX - Serveur SMTP</a></li>
+<li>autres paramètres SMTP : <a href="https://support.gmx.fr/pop-imap/index.html">support GMX - SMTP</a></li>
+</ul>
+<p><em>Exemple de configuration GMX dans Magellan.</em></p>
+<!-- TODO: frame surrrounding the image -->
+<p><img alt="GMX - Configuration email" src="../img-gmx-email-settings.png" title="Exemple de configuration email GMX dans Magellan" /></p>
 <!-- cspell:disable -->
-<p><strong>Return address:</strong> votre e-mail GMX<br />
-<strong>SMTP server:</strong> mail.gmx.net<br />
+<p><strong>Sender's address:</strong> votre adresse e-mail GMX (suffixée par @gmx.com)<br />
+<strong>SMTP server:</strong> mail.gmx.com<br />
 <strong>Port:</strong> 587 (avec TLS) ou 465 (avec SSL)<br />
-<strong>Username:</strong> votre nom d'utilisateur GMX (soit votre adresse email, soit votre identifiant)<br />
-<strong>Password:</strong> votre mot de passe sur GMX, <strong>pas</strong> le mot de passe des ordres Eressea  </p>
-<p><strong>Use SSL:</strong> oui (Avec le port 465, sinon non)<br />
-<strong>Use TLS:</strong> oui (Avec le port 587, sinon non)<br />
-<strong>Use authentication:</strong> oui  </p>
+<strong>Username:</strong> votre nom d'utilisateur GMX (soit votre adresse email GMX, soit votre identifiant)<br />
+<strong>Password:</strong> votre mot de passe d'accès GMX (pas le mot de passe des ordres Eressea)<br />
+<strong>Use SSL:</strong> cocher l'option (avec port 465, sinon non)<br />
+<strong>Use TLS:</strong> cocher l'option (avec port 587, sinon non)<br />
+<strong>Use authentication:</strong> cocher l'option  </p>
 <!-- cspell:enable -->
 
-<h2 id="gmail">Gmail<a class="headerlink" href="#gmail" title="Permanent link">&para;</a></h2>
+<h3 id="gmail">Gmail<a class="headerlink" href="#gmail" title="Permanent link">&para;</a></h3>
 <!-- TODO: - should be where in the page ? -->
 <p><img alt="Sending commands with Magellan using Gmail as an example" src="../../assets/images/orders-sending-gmail.png" title="Sending commands with Magellan using Gmail as an example" /></p>
 <!-- cspell:disable -->
-<p><strong>Return address:</strong> votre email sur Gmail<br />
+<p><strong>Sender's:</strong> votre email sur Gmail<br />
 <strong>SMTP server:</strong> smtp.googlemail.com<br />
 <strong>Port:</strong> 465<br />
 <strong>Username:</strong> votre nom d'utilisateur Gmail<br />
-<strong>Password:</strong> votre mot de passe Gmail, <strong>pas</strong> le mot de passe des ordres Eressea  </p>
-<p><strong>Use SSL:</strong> oui<br />
+<strong>Password:</strong> votre mot de passe Gmail (pas le mot de passe des ordres Eressea)<br />
+<strong>Use SSL:</strong> cocher l'option<br />
 <strong>Use TLS:</strong> peu importe, les deux fonctionnent<br />
-<strong>Use authentication:</strong> oui  </p>
+<strong>Use authentication:</strong> cocher l'option  </p>
 <!-- cspell:enable -->
 
 <div class="admonition warning">
@@ -7942,7 +7970,7 @@ Au lieu de cela, vous devez configurer ce que l'on appelle un mot de passe d'uti
 La documentation Gmail révèle plus de détails : <a href="https://support.google.com/accounts/answer/185833">mot de passe de l'application et Gmail</a>.<br />
 Au lieu du mot de passe Gmail, vous entrez simplement le mot de passe de l'application dans Magellan.  </p>
 </div>
-<h2 id="freenet">Freenet<a class="headerlink" href="#freenet" title="Permanent link">&para;</a></h2>
+<h3 id="freenet">Freenet<a class="headerlink" href="#freenet" title="Permanent link">&para;</a></h3>
 <!-- cspell:disable -->
 <p><strong>Return address:</strong> votre email Freenet<br />
 <strong>SMTP server:</strong> mx.freenet.de<br />
@@ -7954,7 +7982,7 @@ Au lieu du mot de passe Gmail, vous entrez simplement le mot de passe de l'appli
 <strong>Use authentication:</strong> oui  </p>
 <!-- cspell:enable -->
 
-<h2 id="posteo">Posteo<a class="headerlink" href="#posteo" title="Permanent link">&para;</a></h2>
+<h3 id="posteo">Posteo<a class="headerlink" href="#posteo" title="Permanent link">&para;</a></h3>
 <!-- TODO: orders sending with Posteo 400X159 - should be where in the page ? -->
 <p><img alt="Sending in commands with Magellan using Posteo as an example" src="../../assets/images/orders-sending-posteo.png" title="Sending in commands with Magellan using Posteo as an example" /></p>
 <!-- cspell:disable -->

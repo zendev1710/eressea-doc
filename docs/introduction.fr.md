@@ -16,16 +16,16 @@ Les joueurs sont ensuite plongés avec quelques autres dans [[le-monde-d-eressea
 
 Eressea est un monde fantastique.  
 
-Des êtres comme les [[races#elfes]]{title="Elves"} et les [[races#nains]]{title="Dwarves"} peuplent le monde, et la [[magie|magie]] fait partie du quotidien.  
+Des êtres comme les [[races#elfes|Elfes]]{title="Elves"} et les [[races#nains|Nains]]{title="Dwarves"} peuplent le monde, et la [[magie|magie]] fait partie du quotidien.  
 Même des [[monstres#dragons-connus|dragons]] ont été aperçus, des [[monstres|monstres]] imposants, puissants et surtout dangereux, qui nécessitent des centaines de soldats pour les affronter.  
-On peut aussi y rencontrer des [[monstres#serpents-de-mer|serpents de mer]], des [[monstres#ents]] et d'autres créatures étranges.
+On peut aussi y rencontrer des [[monstres#serpents-de-mer|serpents de mer]], des [[monstres#ents|Ents]] et d'autres créatures étranges.
 
 Eressea est un vaste monde. Des centaines de peuples vivent sur les îles d'Eressea, et la plupart ne se rencontreront probablement jamais, car il peut falloir des années pour combler les distances.  
 
 Eressea est un monde complexe.  
 
-Diriger un peuple n'est pas tâche facile. Beaucoup d'éléments sont à prendre en compte pour que tout se passe sans accroc, et c'est sans compter l'intervention vos voisins !
-Il faut trouver des accords, il se peut qu'il y ait des querelles, voire une [[guerre]].  
+Diriger un peuple n'est pas tâche facile. Beaucoup d'éléments sont à prendre en compte pour que tout se passe sans accroc, et c'est sans compter l'intervention de vos voisins !  
+Il faut trouver des accords, il se peut qu'il y ait des querelles, pouvant aller jusqu'à la [[guerre|guerre]].  
 
 Même si tout se passe bien, gérer sa faction dans Eressea prendra beaucoup de temps.  
 Alors qu'au début, une heure par semaine devrait suffire, cela peut monter à dix heures et plus par semaine.  

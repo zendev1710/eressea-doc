@@ -30,8 +30,7 @@ Wenn die Einstellungen einmal vorgenommen wurden, kann man auch direkt über `Da
 **Passwort:** Passwort vom Mailanbieter, **nicht** das Eressea-Befehlspasswort  
 **Empfängeradresse:** <eressea-server@eressea.kn-bremen.de>  
 **Subject:** ERESSEA 2 BEFEHLE  
-**CC:** Optional, zum Beispiel die eigene Adresse
-
+**CC:** Optional, zum Beispiel die eigene Adresse  
 **Kopie an Absender:** Sendet die Befehle auch an Absendeadresse  
 **Verwende SSL/TLS:** Emailverschlüsselung; sollte möglichst ausgewählt werden, wenn vom Mailanbieter unterstützt (im Zweifel einfach ausprobieren)  
 
@@ -53,11 +52,10 @@ Dies wird (inklusive Video) unter [https://hilfe.gmx.net/pop-imap/einschalten.ht
 **SMTP-Server:** mail.gmx.net  
 **Port:** 587 (mit TLS) oder 465 (mit SSL)  
 **Benutzername:** Dein Benutzername bei GMX (entweder deine Mailadresse oder deine Benutzernummer)  
-**Passwort:** Passwort vom GMX, **nicht** das Eressea-Befehlspasswort
-
+**Passwort:** Passwort vom GMX, **nicht** das Eressea-Befehlspasswort  
 **Verwende SSL:** Ja (Mit Port 465, sonst Nein)  
 **Verwende TLS:** Ja (Mit Port 587, sonst Nein)  
-**Authentifizierung verwenden:** Ja
+**Authentifizierung verwenden:** Ja  
 
 ## Gmail
 
@@ -72,11 +70,10 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 **SMTP-Server:** smtp.googlemail.com  
 **Port:** 465  
 **Benutzername:** Dein Benutzername bei Gmail  
-**Passwort:** Passwort vom Gmail, **nicht** das Eressea-Befehlspasswort
-
+**Passwort:** Passwort vom Gmail, **nicht** das Eressea-Befehlspasswort  
 **Verwende SSL:** Ja  
 **Verwende TLS:** Egal, geht beides  
-**Authentifizierung verwenden:** Ja
+**Authentifizierung verwenden:** Ja  
 
 !!! warning "Achtung"
     Spätestens ab 30. Mai 2022 funktioniert dies nicht mehr einfach mit dem Gmail-Passwort ([https://support.google.com/accounts/answer/6010255]).  
@@ -90,11 +87,10 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 **SMTP-Server:** mx.freenet.de  
 **Port:** 587  
 **Benutzername:** Dein Benutzername bei Freenet  
-**Passwort:** Passwort vom Freenet, **nicht** das Eressea-Befehlspasswort
-
+**Passwort:** Passwort vom Freenet, **nicht** das Eressea-Befehlspasswort  
 **Verwende SSL:** Ja  
 **Verwende TLS:** Ja  
-**Authentifizierung verwenden:** Ja
+**Authentifizierung verwenden:** Ja  
 
 ## Posteo
 
@@ -109,11 +105,10 @@ title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Ein
 **SMTP-Server:** posteo.de  
 **Port:** 465  
 **Benutzername:** Deine E-Mail bei Posteo  
-**Passwort:** Passwort vom Posteo, **nicht** das Eressea-Befehlspasswort
-
+**Passwort:** Passwort vom Posteo, **nicht** das Eressea-Befehlspasswort  
 **Verwende SSL:** Ja  
 **Verwende TLS:** Ja  
-**Authentifizierung verwenden:** Ja
+**Authentifizierung verwenden:** Ja  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_von\_Magellan\_verschicken&oldid=7407] -->
 

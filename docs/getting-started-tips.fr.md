@@ -5,6 +5,7 @@ alias: conseils-pour-debutants
 # Conseils pour débutants
 
 Lorsque vous renseignez les ordres, assurez-vous d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
+
 [[cmd-password|Définissez un mot de passe]] et n'oubliez pas de le mémoriser.  
 
 C'est plus intéressant pour tout le monde si vous donnes des noms originaux à votre faction et à toutes vos unités.  

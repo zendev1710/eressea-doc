@@ -23,15 +23,13 @@ Once the settings have been made, you can also directly send your e-mail via `Fi
 **Return address:** Your email  
 **SMTP server:** From the mail provider (see below)  
 **Port:** From the mail provider  
-**Username:** Your username with the email provider
-**Password:** Password from email provider, **not** the Eressea orders password
+**Username:** Your username with the email provider  
+**Password:** Password from email provider, **not** the Eressea orders password  
 **Recipient address:** <eressea-server@eressea.kn-bremen.de>  
 **Subject:** ERESSEA 2 ORDERS  
 **CC:** Optional, for example your own address  
-
 **Copy to sender:** Also sends the orders to the sender address  
 **Use SSL/TLS:** email encryption; Should be selected if possible if supported by the mail provider (if in doubt, just try it out)  
-
 **Use authentication:** usually necessary  
 
 **always ask:** Requests the mail provider password every time you send it, so it doesn't have to be saved in Magellan  
@@ -50,7 +48,6 @@ This will be explained (including video) at [this other GMX Support link].
 **Port:** 587 (with TLS) or 465 (with SSL)  
 **Username:** Your username at GMX (either your email address or your user number)  
 **Password:** password from GMX, **not** the Eressea orders password  
-
 **Use SSL:** Yes (With port 465, otherwise no)  
 **Use TLS:** Yes (With port 587, otherwise no)  
 **Use authentication:** Yes  
@@ -65,7 +62,6 @@ This will be explained (including video) at [this other GMX Support link].
 **Port:** 465  
 **Username:** Your Gmail username  
 **Password:** Gmail password, **not** the Eressea orders password  
-
 **Use SSL:** Yes  
 **Use TLS:** Regardless, both work  
 **Use authentication:** Yes  

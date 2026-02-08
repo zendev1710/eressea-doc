@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: auto-transport
 ---
-# Automatisierung Transport
+# Automated transport
 
 The logistics processes at Eressea can be roughly divided into these 3 areas:
 
@@ -20,7 +20,7 @@ However, dynamic routes offer the advantage of distributing external goods well 
 
 The raw materials sector is also less closed but largely stable.  
 
-In certain regions, raw materials are produced continuously (at least over the year), i.e. there are regular supplies that have to be transported away.
+In certain regions, raw materials are produced continuously (at least over the year), i.e. there are regular supplies that have to be transported away.  
 However, such regions usually do not have a regular demand for goods at the same level as raw materials are transported away.  
 Unfortunately, this makes logistics somewhat ineffective.  
 

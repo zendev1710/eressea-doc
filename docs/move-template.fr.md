@@ -1,7 +1,7 @@
 ---
 # cSpell:locale fr
-alias: modele-pour-deplacements
+alias: modele-d-ordres
 ---
-# Modèle pour déplacements
+# Modèle d'ordres
 
 <!-- TODO: TO BE WRITTEN -->

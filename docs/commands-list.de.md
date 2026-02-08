@@ -98,7 +98,7 @@ Kurzliste der Befehle.
 | [MACHE \[anzahl\] KRÄUTER](./cmd-make.md)                                  | suche Kräuter der Region                               | L      |
 | [MACHE \[anzahl\] trank](./cmd-make.md)                                    | mache einen alchemistischen Trank                      | L      |
 | [MACHE \[anzahl\] gegenstand](./cmd-make.md)                               | mache einen Gegenstand oder baue Rohstoffe ab          | L      |
-| [NACH richtung \[richtung etc.\]](./cmd-make.md)                           | reisen                                                 | L      |
+| [NACH richtung \[richtung etc.\]](./cmd-move.md)                           | reisen                                                 | L      |
 | [NÄCHSTER]                                                                 | beendet Befehle                                        | K      |
 | [NUMMER EINHEIT \[neue\_nr\]](./cmd-number.md)                             | vergibt neue Nummer                                    | K      |
 | [NUMMER GEBÄUDE \[neue\_nr\]](./cmd-number.md)                             |                                                        | K      |
@@ -138,7 +138,7 @@ Kurzliste der Befehle.
 | [TARNE PARTEI NUMMER nummer]                                               | Parteizugehörigkeit tarnen (als andere Partei getarnt) | K      |
 | [TRANSPORTIERE einheit-nr]                                                 | andere Einheiten mitnehmen                             | K      |
 | [TREIBE \[betrag\]](./cmd-tax.md)                                          | Steuern eintreiben                                     | L      |
-| [UNTERHALTE \[betrag\]](./cmd-origin.md)                                   | verdient 20 oder mehr Silber                           | L      |
+| [UNTERHALTE \[betrag\]](./cmd-entertain.md)                                   | verdient 20 oder mehr Silber                           | L      |
 | [URSPRUNG x y]                                                             | setzt den Koordinaten-Ursprung                         | K      |
 | [VERGISS talent]                                                           | vergisst das Talent                                    | K      |
 | [VERKAUFE anzahl luxusgut]                                                 | verkauft Luxusgüter                                    | PL[^3] |
@@ -176,7 +176,7 @@ Weiterlesen: [[der-erste-zug]].
 [ATTACKIERE einheit-nr]: ./cmd-attack.md
 [BANNER "text"]: ./cmd-banner.md
 [BEANSPRUCHE anzahl gegenstand]: ./cmd-claim.md
-[BEKLAUE einheit-nr]: ./camouflage.md
+[BEKLAUE einheit-nr]: ./cmd-steal.md
 [BENENNE EINHEIT "name"]: ./cmd-name.md
 [BENENNE PARTEI "name"]: ./cmd-name.md
 [BENENNE GEBÄUDE "name"]: ./cmd-name.md
@@ -230,7 +230,7 @@ Weiterlesen: [[der-erste-zug]].
 [NÄCHSTER]: ./cmd-next.md
 [PASSWORT "neues-passwort"]: ./cmd-password.md
 [REGION x,y]: ./cmd-region.md
-[REKRUTIERE anzahl]: ./silver.md#rekrutieren
+[REKRUTIERE anzahl]: ./cmd-recruit.md
 [RESERVIERE anzahl "gegenstand"]: ./cmd-reserve.md
 [RESERVIERE anzahl SILBER]: ./cmd-reserve.md
 [SORTIERE VOR einheit-nr]: ./cmd-sort.md

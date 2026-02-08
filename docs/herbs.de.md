@@ -51,6 +51,8 @@ sehr viele = Ab 90
 
 ## Höhlenglimm
 
+## Kakteenschwitz
+
 ## Knotiger Saugwurz
 
 ## Sandfäule
@@ -73,16 +75,16 @@ sehr viele = Ab 90
 
 Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 
-| Verbreitung | Kräuter                                                                                 | Herbs (english names)                                                    |
-|-------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| Wald/Ebene  | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Wald        | Flachwurz, Würziger Wagemut, Eulenauge, Grüner Spinnerich, Blauer Baumringel, Elfenlieb | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| Sumpf       | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           | bugleweed, knotroot, bubblemorel                                         |
-| Wüste       | Wasserfinder, Kakteenschwitz, Sandfäule                                                 | waterfinder, peyote, sand reeker                                         |
-| Hochland    | Windbeutel, Fjordwuchs, Alraune                                                         | windbag, fjord fungus, mandrake                                          |
-| Gebirge     | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | rock weed, gapgrowth, cave lichen                                        |
-| Gletscher   | Eisblume, Weißer Wüterich, Schneekristall                                               | ice begonia, white hemlock, snowcrystal petal                            |
-| Vulkan      | --                                                                                      | --                                                                       |
+| Verbreitung | Kräuter                                                                                             |
+|-------------|-----------------------------------------------------------------------------------------------------|
+| [Berge]     | [Steinbeißer], [Spaltwachs], [Höhlenglimm]                                                          |
+| [Ebene]     | [Flachwurz], [Würziger Wagemut], [Eulenauge], [Grüner Spinnerich], [Blauer Baumringel], [Elfenlieb] |
+| [Gletscher] | [Eisblume], [Weißer Wüterich], [Schneekristall]                                                     |
+| [Hochland]  | [Windbeutel], [Fjordwuchs], [Alraune]                                                               |
+| [Sumpf]     | [Gurgelkraut], [Knotiger Saugwurz], [Blasenmorchel]                                                 |
+| [Vulkan]    | --                                                                                                  |
+| [Wald]      | [Flachwurz], [Würziger Wagemut], [Eulenauge], [Grüner Spinnerich], [Blauer Baumringel], [Elfenlieb] |
+| [Wüste]     | [Wasserfinder], [Kakteenschwitz], [Sandfäule]                                                       |
 
 Weiterlesen: [Befehle](./commands.md).
 
@@ -94,3 +96,34 @@ Weiterlesen: [Befehle](./commands.md).
 [Alchemie]: ./alchemy.md
 [Zauber]: ./magic.md
 [FORSCHE KRÄUTER]: ./cmd-research.md
+
+[Ebene]: ./terrains.md#ebene
+[Berge]: ./terrains.md#berge
+[Gletscher]: ./terrains.md#gletscher
+[Hochland]: ./terrains.md#hochland
+[Sumpf]: ./terrains.md#sumpf
+[Vulkan]: ./terrains.md#vulkan
+[Wald]: ./terrains.md#wald
+[Wüste]: ./terrains.md#wuste
+
+[Alraune]: ./herbs.de.md#alraune
+[Blasenmorchel]: ./herbs.de.md#blasenmorchel
+[Blauer Baumringel]: ./herbs.de.md#blauer-baumringel
+[Eisblume]: ./herbs.de.md#eisblume
+[Elfenlieb]: ./herbs.de.md#elfenlieb
+[Eulenauge]: ./herbs.de.md#eulenauge
+[Fjordwuchs]: ./herbs.de.md#fjordwuchs
+[Flachwurz]: ./herbs.de.md#flachwurz
+[Grüner Spinnerich]: ./herbs.de.md#gruner-spinnerich
+[Gurgelkraut]: ./herbs.de.md#gurgelkraut
+[Höhlenglimm]: ./herbs.de.md#hohlenglimm
+[Kakteenschwitz]: ./herbs.de.md#kakteenschwitz
+[Knotiger Saugwurz]: ./herbs.de.md#knotiger-saugwurz
+[Sandfäule]: ./herbs.de.md#sandfaule
+[Schneekristall]: ./herbs.de.md#schneekristall
+[Spaltwachs]: ./herbs.de.md#spaltwachs
+[Steinbeißer]: ./herbs.de.md#steinbeier
+[Wasserfinder]: ./herbs.de.md#wasserfinder
+[Weißer Wüterich]: ./herbs.de.md#weier-wuterich
+[Windbeutel]: ./herbs.de.md#windbeutel
+[Würziger Wagemut]: ./herbs.de.md#wurziger-wagemut

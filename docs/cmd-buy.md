@@ -4,9 +4,9 @@ alias: cmd-buy
 ---
 # BUY
 
-*`BUY` is like [[cmd-sell]], a [pseudo-long] order[^1].*  
+*`BUY` is like [[cmd-sell]], a [[orders#short-and-long-orders|pseudo-long order]][^1].*  
 
-**`BUY`**` `*`number`*` `*`luxury goods`*  
+**`BUY <number> <luxury-good>`**  
 
 If the unit has the [trade] skill, it will attempt to purchase that number of luxury goods.
 This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
@@ -18,6 +18,7 @@ Nevertheless, it is of course more diplomatic to ask beforehand...
 So you cannot use the earnings from sales directly in the same round for new purchases.  
 It also means that units without enough skill to execute all `BUY` and `SELL` orders first buy as much as possible and if there are no skill points left for selling.  
 
+<!-- TODO:check if it's Jewel or gem  -->
 Example:
 
 ```text
@@ -44,5 +45,4 @@ In the computer report and the [[orders|orders template]] are all `BUY` and `SEL
 
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
 
-[pseudo-long]: ./commands.md#short-and-long-orders
 [trade]: ./silver.md#trade

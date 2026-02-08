@@ -29,6 +29,8 @@ Le résultat en retour de l'ordre sera un message indiquant la quantité de plan
 Attention, les plantes ne durent pas éternellement.  
 Elles se décomposent au fil du temps.  
 
+Une plante ne pèse rien.  
+
 ## Liste des plantes
 
 ### Amour d'Elfes

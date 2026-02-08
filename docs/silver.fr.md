@@ -190,14 +190,14 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 *Prix de base des biens de luxe.*
 
 | Produits de luxe | Prix de base | Poids (lbs) |
-|------------------|:------------:|:----------:|
-| [baume]          |      4       |     2      |
-| [encens]         |      4       |     2      |
-| [gemme]          |      7       |     1      |
-| [huile]          |      3       |     3      |
-| [myrrhe]         |      5       |     2      |
-| [soie]           |      6       |     3      |
-| [épice]          |      5       |     2      |
+|------------------|:------------:|:-----------:|
+| [baume]          |      4       |      2      |
+| [encens]         |      4       |      2      |
+| [gemme]          |      7       |      1      |
+| [huile]          |      3       |      3      |
+| [myrrhe]         |      5       |      2      |
+| [soie]           |      6       |      3      |
+| [épice]          |      5       |      2      |
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.  
 Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  
@@ -236,7 +236,7 @@ En revanche, si l'on revient d'une île étrangère avec une cargaison de marcha
 !!! warning "Attention"
     Un tradepost est un préalable à tout commerce.
 
-### Produits de luxe
+### Biens de luxe
 
 #### Baume
 

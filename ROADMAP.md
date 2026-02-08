@@ -42,8 +42,8 @@ A page review is achieved when:
 | [auto-event-response]        |    |    |    |
 | [auto-learning-chains]       |    |    |    |
 | [auto-trading]               |    |    |    |
-| [auto-transport]             |    |    |    |
-| [basics]                     |    |    |    |
+| [auto-transport]             | ✔️ | ✔️ |    |
+| [basics]                     | ✔️ |    |    |
 | [birthday-cake][^1]          | ✔️ | ✔️ | ✔️ |
 | [buildings-others]           |    |    |    |
 | [buildings]                  |    |    |    |
@@ -133,12 +133,13 @@ A page review is achieved when:
 | [faq]                        |    |    |    |
 | [farmers-hike]               |    |    |    |
 | [fftools]                    |    |    |    |
+| [first-round]                |    |    |    |
 | [flaming-sword]              |    |    |    |
 | [getting-started-tips]       |    |    |    |
 | [herbs]                      |    |    |    |
 | [hints]                      |    |    |    |
 | [index]                      | ✔️ | ✔️ | ✔️ |
-| [introduction]               |    |    |    |
+| [introduction]               | ✔️ |    |    |
 | [items-pool]                 |    |    |    |
 | [items]                      |    |    |    |
 | [laen][^1]                   | ✔️ | ✔️ | ✔️ |
@@ -164,12 +165,11 @@ A page review is achieved when:
 | [production]                 |    |    |    |
 | [puppy-protection]           |    | ✔️ |    |
 | [races]                      |    |    |    |
-| [reports]                    |    |    |    |
+| [reports][^1]                | ✔️ | ✔️ | ✔️ |
 | [resources]                  |    |    |    |
 | [ring-of-invisibility]       | ✔️ | ✔️ | ✔️ |
 | [ring-of-power][^1]          | ✔️ | ✔️ | ✔️ |
 | [roads]                      |    |    |    |
-| [first-round]                |    |    |    |
 | [rules]                      | ✔️ |    |    |
 | [sailing]                    |    |    |    |
 | [shell]                      | ✔️ | ✔️ | ✔️ |

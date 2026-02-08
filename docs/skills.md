@@ -18,6 +18,12 @@ Dans la plupart des cas, la valeur de compétence affichée dans le rapport est 
 Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
 Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.
 
+## Terminologie
+
+On dira d'une unité qu'ell est compétente (ou maîtrise la compétence) si elle a [[cmd-learn|acquis]]{title="LEARN"} la compétence concernée.  
+
+Au premier succès d'un ordre d'apprentissage `LEARN`, l'unité apprenante sera, dans cette compétence, de niveau 1, noté **T1**.  
+
 ## Learn skills
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.

@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: camouflage
 ---
-# Camouflage
+# Stealth
 
 The **Stealth** [[skills|skill]] allows you to camouflage yourself from other units.  
 However, if a unit [[cmd-guard|is guarding]] the region, or is on a ship or in a building, it is always visible.  

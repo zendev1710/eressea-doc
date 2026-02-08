@@ -1,4 +1,3 @@
-!astral
 # !commande
 # !commandes
 !domaine
@@ -6,6 +5,7 @@
 !magiciens
 !navire
 !navires
+
 #!numéro
 #!pièce
 #!pièces
@@ -25,5 +25,7 @@ morphique
 oeillères
 peyote
 silvers
+tsuga
+Tsuga
 tsugas
 Tsugas

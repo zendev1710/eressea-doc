@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: histoire-d-eressea
 ---
-# Histoire d'Eressea
+# Eressea depuis ses débuts
 
 Selon [Wikipedia], Eressea a été lancé le 27 août 1996.
 Il a été développé en tant que spin-off d'[[atlantis]].

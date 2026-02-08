@@ -8,8 +8,11 @@ alias: cmd-research-fr
 
 **`RESEARCH`**`HERBS`  
 
-Avec cet ordre, l'unité essaie de découvrir quelle plante pousse dans une région et quelle quantité approximative est présente.  
-Pour ce faire, l'unité doit être au moins de **niveau 7** en [herboristerie].  
+Avec cet ordre, l'unité tente de découvrir quelle plante pousse dans une région et en quelle quantité approximative.  
+
+L'unité doit être au moins **T7** en [herboristerie].  
+
+<!-- TODO: display kind of result -->
 
 ## Voir aussi
 

@@ -1,3 +1,7 @@
+---
+# cSpell:locale de
+alias: echeck-de
+---
 # ECheck
 
 **ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut.

@@ -6,8 +6,8 @@ alias: cmd-grow-fr
 
 *Ordre [long].*  
 
-**`GROW`**`HORSES`  
-**`GROW`**`[`*`quantité`*`] HERBS`  
+**`GROW HORSES`  
+**`GROW [<quantité>] HERBS`  
 
 Avec l'ordre **`GROW`**, une unité essaie de replanter des plantes dans une région, ou d'élever des chevaux dans un [Haras].  
 

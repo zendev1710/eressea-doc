@@ -19,7 +19,7 @@ Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-�
 
 La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie].
 
-!!! Tip
+!!! Tip "Astuce"
     Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [[cmd-show|`SHOW <Item>`]].
 
 Cette première personne n'est en aucun cas spéciale;  
@@ -53,7 +53,7 @@ Exemple d'unités :
       + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
 ```
 
-Vos propres unités sont marquées du carctère '*'.  
+Vos propres unités sont marquées du caractère '*'.  
 Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|êtes allié]] à cette faction.
 
 Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.  

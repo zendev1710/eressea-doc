@@ -6,98 +6,15 @@ alias: monsters
 
 The faction of monsters is currently the only non-player character (NPC) faction in Eressea.  
 
-It had the faction ID 0, but since around round 572 it has had the ID (ii).
-Why actually (ii)? If you convert ii from Base36 to the decimal system, you get 666.  
+It had the faction ID 0, but since around round 572 it has had the ID (ii). Why actually (ii)? If you convert ii from Base36 to the decimal system, you get 666.  
 
 There are many different monster races with different characteristics and abilities.  
-The most common are the various [undead types] as well as [dragons] and their followers.  
+The most common are the various [Undead] as well as [Dragons] and their followers.  
+
 Some monster types are rather rare, if not unique.
 Others, such as the [braineaters], are (almost) only found in certain areas.  
 
 In certain circumstances, players can also own monster units (e.g. skeletons).
-
-## Undead
-
-Undead make up the largest part of the monsters.  
-They spawn where peasants die (from [famine] and disease, or as victims of [dragons]), or where warriors fall in [[war|battle]].  
-Undead can learn various [[skills]], making them more dangerous.  
-They can also mutate, which makes them significantly stronger.  
-Undead (like all monsters) can attack faction units.  
-In combat, they possess various special attacks and immunities.  
-They can attack with their bare hands (and are still considered [[armed]]), but they can also carry weapons.  
-
-There are seven types of undead:
-
-- **Undead** - obsolete, only exist in the old worlds, if at all
-- **Skeletons**, mutate into **Skeleton Lords**
-- **Ghouls**, mutate into **Ghosts**
-- **Zombies**, mutate into **Juju Zombies**
-
-Some [[magic|magicians]] are able to control the undead.  
-
-## Dragons
-
-Dragons are among the strongest monster units.  
-They hatch from eggs as young dragons, later develop into dragons and further into Wyrms.  
-There are rumors that dragons can also reach Eressea from the Sphere of Chaos.  
-
-Dragons are particularly unpleasant because they drive away and eat farmers.  
-Often the farmers killed in this way later return as [undead types].
-
-Dragons can learn different skills and thus become more dangerous. They can (like all monsters) attack player units. In combat, they have dragon breath attacks, but also attack with teeth and claws. They are difficult to wound and can therefore take a lot of hits.
-
-There are different types of dragons:
-
-- **Young dragons** develop into:
-- **Dragons** develop into:
-- **Wyrms**
-- A class of its own is (or was) **[Igjarjuk] (igjr)**
-- The dragons are distant relatives **Sea snakes** that make the oceans unsafe and ambush passing ships.
-  However, boats should let them go in peace
-- For the sake of completeness, these are: **Singing kite** mentioned.
-  However, these miniature dragons have little in common with their larger counterparts and can hardly be counted as monsters
-
-It is said that some magicians can influence dragons.  
-However, it is doubtful that a fully grown dragon will really submit to the will of a magician, no matter how powerful.  
-
-Over time, dragons and wyrms begin to gather a retinue around themselves, called dracoids.
-They are low, scaled, humanoid creatures who can fight with swords, spears or bows.
-
-## Igjarjuk
-
-Igjarjuk is an Ice Dragon, also called the **Great Wyrm**.  
-After its death, it evolved into an Undead Wyrm, a monster that intervened in the battle between [[pentagram-and-tirawon]] (and died a second time in the process).
-According to rumors, Igjarjuk was last seen in the 13th World - perhaps he has seven lives?
-
-## Shadow Demons and Shadow Masters
-
-Shadow Demons and Shadow Masters can be summoned by [Draig] Mages.  
-They have magic resistance.  
-Successful attacks cause panic in enemies, which reduces their attack or defense value by 1.  
-<!-- TODO: clarify: bonus for victims !? -->
-Shadow Master's victims can even get the equivalent of a week's worth of learning one of their talents per hit.  
-
-Shadow Demon characteristics.
-
-| Property   | Value |
-|------------|------:|
-| Hit Points |    50 |
-| Attack     |     8 |
-| Defense    |    11 |
-| Armor      |     3 |
-
-In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarmed attack (2d3), one magical attack.
-
-Shadow Master characteristics.
-
-| Property   | Value |
-|------------|------:|
-| Hit Points |   150 |
-| Attack     |    11 |
-| Defense    |    13 |
-| Armor      |     4 |
-
-In combat, a Shadow Master triggers **4** attacks: one magical attack, one unarmed attack (2d4), two magical attacks again.
 
 ## Braineaters
 
@@ -107,8 +24,136 @@ In the normal world they are only encountered when they have been thrown from th
 
 ## Ents
 
-Ents, powerful tree creatures, are summoned by [Gwyrrd] druids, or sometimes arise when their spells go wrong.  
+Ents are powerful tree creatures.  
 Sometimes it's good to just avoid them because they often calm down after a while.  
+
+!!! info "Information"
+    Ents are summoned by [Gwyrrd] druids.  
+    They also sometimes arise when their spells go wrong.  
+
+## Igjarjuk
+
+*Id (igjr).*
+
+Igjarjuk is (or was?) an Ice Dragon, also called the **Great Wyrm**.  
+After its death, it evolved into an Undead Wyrm, a monster that intervened in the battle between [[pentagram-and-tirawon]] (and died a second time in the process).  
+According to rumors, Igjarjuk was last seen in the 13th World.  
+
+Perhaps he has seven lives?  
+
+## Known Dragons
+
+Dragons are among the strongest monster units.  
+They hatch from eggs as young dragons, later develop into dragons and further into Wyrms.  
+There are rumors that dragons can also reach Eressea from the Sphere of Chaos.  
+
+Dragons are particularly unpleasant because they drive away and eat farmers.  
+Often the farmers killed in this way later return as [Undead].  
+
+Dragons can learn different skills and thus become more dangerous.
+
+They can (like all monsters) attack player units.  
+In combat, they have dragon breath attacks, but also attack with teeth and claws.  
+They are difficult to wound and can therefore take a lot of hits.  
+
+Over time, dragons and wyrms begin to gather a retinue around themselves, called **dracoids**.  
+They are low, scaled, humanoid creatures who can fight with swords, spears or bows.  
+
+It is said that some mages can influence dragons.  
+However, it is doubtful that a fully grown dragon will really submit to the will of a magician, no matter how powerful.  
+
+There are different types of dragons, as described below.
+
+### Young Dragons
+
+**Young dragons** develop into [Adult Dragons].
+
+### Dragons
+
+**Dragons** develop into [Wyrms].
+
+### Wyrms
+
+See [Igjarjuk].
+
+### Singing kite
+
+These miniature dragons have little in common with their larger counterparts.  
+They can hardly be counted as monsters  
+
+### Sea snakes
+
+The dragons are distant relatives **Sea snakes** that make the oceans unsafe and ambush passing ships.  
+However, boats should let them go in peace  
+
+## Known Undead
+
+Undead make up the largest part of the monsters.  
+
+They spawn where peasants die (from [famine] and disease, or as victims of [Dragons]), or where warriors fall in [[war|battle]].  
+Undead can learn various [[skills]], making them more dangerous.  
+
+They can also mutate, which makes them significantly stronger.  
+Undead (like all monsters) can attack faction units.  
+In combat, they possess various special attacks and immunities.  
+They can attack with their bare hands (and are still considered [[armed]]), but they can also carry weapons.  
+
+!!! note "Note"
+    Some [[magic|mages]] are able to control the undead.  
+
+Until now, seven types of Undead are known.
+
+### Ghosts
+
+### Ghouls
+
+Ghouls mutate into [Ghosts].
+
+### Juju Zombies
+
+### Skeletons
+
+Skeletons mutate into [Skeleton Lords].
+
+### Skeleton Lords
+
+### Undead
+
+These are obsolete, only exist in the old worlds, if at all.
+
+### Zombies
+
+Zombies mutate into [Juju Zombies].
+
+## Shadow Monsters
+
+### Shadow Demons
+
+| Hit Points | Attack | Defense | Armor |
+|:----------:|:------:|:-------:|:-----:|
+|     50     |   8    |   11    |   3   |
+
+Shadow Demons have magic resistance.  
+Successful attacks cause **panic** in enemies, which **reduces** their attack or defense value **by 1**.  
+
+In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarmed attack (2d3), one magical attack.
+
+!!! info "Information"
+    Shadow Demons can be summoned by [Draig] mages.  
+
+### Shadow Masters
+
+| Hit Points | Attack | Defense | Armor |
+|:----------:|:------:|:-------:|:-----:|
+|    150     |   11   |   13    |   4   |
+
+In combat, a Shadow Master triggers **4** attacks: one magical attack, one unarmed attack (2d4), two magical attacks again.  
+
+<!-- TODO: clarify: bonus for victims !? -->
+Shadow Master's victims can even get the equivalent of a week's worth of learning one of their skills per hit.  
+
+!!! info "Information"
+    Shadow Masters can be summoned by [Draig] mages.  
 
 ## See also
 
@@ -116,10 +161,15 @@ Sometimes it's good to just avoid them because they often calm down after a whil
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
-[undead types]: #undead
-[dragons]: #dragons
-[braineaters]: #braineaters
+[Undead]: #known-undead
+[Dragons]: #known-dragons
+[Adult Dragons]: #dragons
+[Braineaters]: #braineaters
 [Igjarjuk]: #igjarjuk
+[Wyrms]: #wyrms
+[Ghosts]: #ghosts
+[Skeleton Lords]: #skeleton-lords
+[Juju Zombies]: #juju-zombies
 
 [famine]: ./silver.md#starvation
 [Draig]: ./magic-schools.md#draig

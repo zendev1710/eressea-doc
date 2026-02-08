@@ -4,10 +4,10 @@ alias: cmd-destroy
 ---
 # DESTROY
 
-*[long] order.*
+*[[orders#short-and-long-orders|long order]].*
 
-**`DESTROY`**`[`*`level`*`]`  
-**`DESTROY`**`[`*`level`*`] STREET`*`direction`*  
+**`DESTROY [<level>]`**  
+**`DESTROY [<level>] STREET <direction>`**  
 
 A unit in command of a [[ships|ship]] or [[buildings|building]] can shrink or destroy it at any time using this order.  
 She doesn't need any skill for that.  
@@ -23,12 +23,9 @@ The crew refuses to damage the ship on the high seas!
 With `DESTROY [`*`level`*`] STREET`*`direction`* you can demolish or damage a [[roads|road]].  
 <!-- TODO: check if the sentence below is related to DESTROY -->
 No faction is allowed to guard the region that has not set `HELP GUARD` as its own faction.  
-To damage or destroy a road, a unit requires the [Roadwork] skill.
+To damage or destroy a road, a unit requires the [[skills-list#roadwork]] skill.
 You can destroy one size point per skill point.  
 
 A unit can only destroy one structure (building, ship or road) per week.
 
 <!-- From [https://wiki.eressea.de/index.php?title=DESTROY&oldid=16738] -->
-
-[long]: ./commands.md#short-and-long-orders
-[Roadwork]: ./skills-list.md#roadwork

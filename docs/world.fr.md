@@ -362,7 +362,7 @@ Second mois d'été.
 ## Voir aussi
 
 - [[argent|L'argent]]
-- [[cmd-recruit]][1]
+- [[cmd-recruit]]
 - [[cmd-entertain]]
 
 Poursuivre la lecture : [[factions]].
@@ -385,7 +385,6 @@ Poursuivre la lecture : [[factions]].
 [Commerce]: ./silver.md#commerce
 [Insectes]: ./races.md#insectes
 [croissance des forêts]: ./resources.md#ressources-forestieres
-[1]: ./silver.md#recruter
 
 [Désert]: ./terrains.md#desert "Desert"
 [Forêt]: ./terrains.md#foret "Forest"
@@ -396,12 +395,12 @@ Poursuivre la lecture : [[factions]].
 [Plaine]: ./terrains.md#plaine "Plain"
 [Volcan]: ./terrains.md#volcan "Volcano"
 
-[Lune des Récoltes]: ./world.fr.md#lune-des-recoltes
-[Vents Doux]: ./world.fr.md#vents-doux
-[Vent des Glaces]: ./world.fr.md#vent-des-glaces
-[Feu du Foyer]: ./world.fr.md#feu-du-foyer
-[Brouillard Impénétrable]: ./world.fr.md#brouillard-impenetrable
-[Neiges Envoûtantes]: ./world.fr.md#neiges-envoutantes
-[Pluies de Fleurs]: ./world.fr.md#pluies-de-fleurs
-[Feu du Soleil]: ./world.fr.md#feu-du-soleil
-[Lune des Tempêtes]: ./world.fr.md#lune-des-tempetes
+[Lune des Récoltes]: ./world.md#lune-des-recoltes
+[Vents Doux]: ./world.md#vents-doux
+[Vent des Glaces]: ./world.md#vent-des-glaces
+[Feu du Foyer]: ./world.md#feu-du-foyer
+[Brouillard Impénétrable]: ./world.md#brouillard-impenetrable
+[Neiges Envoûtantes]: ./world.md#neiges-envoutantes
+[Pluies de Fleurs]: ./world.md#pluies-de-fleurs
+[Feu du Soleil]: ./world.md#feu-du-soleil
+[Lune des Tempêtes]: ./world.md#lune-des-tempetes

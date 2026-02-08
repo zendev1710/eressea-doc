@@ -4,44 +4,116 @@ alias: travel
 ---
 # Movement
 
-There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships. Sometimes you may even fly or swim. For alle modes the orders [[cmd-move]] or [[cmd-route]] are used.
+There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships.  
+Sometimes you may even fly or swim.  
+
+For alle modes the orders [[cmd-move]] or [[cmd-route]] are used.  
+
+!!! info "Information"
+    The unit of weight is the **lbs**.  
+
+## Transport capacity
+
+*Person's transport capacity according to race.*
+
+| Race       | Transport capacity |
+|------------|-------------------:|
+| [Goblin]   |            **4.4** |
+| [Aquarian] |                5.4 |
+| [Cat]      |                5.4 |
+| [Demon]    |                5.4 |
+| [Dwarf]    |                5.4 |
+| [Elf]      |                5.4 |
+| [Halfling] |                5.4 |
+| [Human]    |                5.4 |
+| [Insect]   |                5.4 |
+| [Orc]      |                5.4 |
+| [Troll]    |           **10.8** |
+
+Trolls have a greater carrying capacity. Goblins have a lesser one.  
+
+A unit can increase its transport capacity through [horses and carts].  
+
+| Transporter | Transport capacity |
+|-------------|-------------------:|
+| Horse       |               20.0 |
+| Cart        |              100.0 |
+
+!!! tip "Tip"
+    Use [Goliath Water] at the opportune moment! This potion allows you to increase the carrying capacity of a unit for a limited time.
+
+| Ship         | Transport capacity |
+|--------------|-------------------:|
+| [Boat]       |                 50 |
+| [Longboat]   |                500 |
+| [Dragonship] |               1000 |
+| [Caravel]    |               3000 |
+| [Trireme]    |               2000 |
+| [Galleon]    |              20000 |
+
+## Weight
+
+*Person's weight according to race.*
+
+| Race       | Weight |
+|------------|-------:|
+| [Goblin]   |      6 |
+| [Aquarian] |     10 |
+| [Cat]      |     10 |
+| [Demon]    |     10 |
+| [Dwarf]    |     10 |
+| [Elf]      |     10 |
+| [Halfling] |     10 |
+| [Human]    |     10 |
+| [Insect]   |     10 |
+| [Orc]      |     10 |
+| [Troll]    |     20 |
+
+The weight of the most common items is listed in the [summary table of items].  
+
+!!! note "Note"
+    [Potions], [herbs], and most magical items (rings, amulets, etc.) weigh nothing.
 
 ## Travel: By land or by sea
 
-On land, it is possible to travel a distance of one region, so a unit can more from one region to the next. If the unit has enough horses and the Riding skill, it can travel one region further. If the regions are connected by road, it is possible to move up to two regions on foot or even up to three regions on horseback.
+On land, it is possible to travel a distance of one region, so a unit can more from one region to the next.  
+If the unit has enough **horses** and the [Riding] skill, it can travel **one region further**.  
+If the regions are connected by [[roads|road]], it is possible to move up **to 2 regions on foot** or even up **to 3 regions on horseback**.  
 
-Movement is only possible in six directions: northeast, northwest, east, west, southeast and southwest. It is not possible to move straight north or south.
+Movement is only possible in six directions: northeast (NE), northwest (NW), east (E), west (W), southeast (SE) and southwest (SW).  
+It is not possible to move straight north or south.  
 
-The order [[cmd-carry]]` `*`passenger-unit`* allows units to transport other units while moving. The unit that is to be carried must have the order [[cmd-ride]]` `*`transporting-unit`*. Units that do not have the riding skill can still be transported along on horses or carts with this combination of orders. Of course, the carrying units must have enough capacity for the passengers and their equipment. Using [[cmd-follow]]` UNIT `*`followee`* oder `FOLLOW SHIP`*`followed-ship`* is mostly equivalent to the unit using the MOVE command itself, if the the followed unit also has a movement command. The followers must carry their own weight.
+The order [[cmd-carry|`CARRY <passenger-unit>`]] allows units to transport other units while moving.  
+The unit that is to be carried must have the order [[cmd-ride|`RIDE <transporting-unit>`]].  
 
-Travelling units may be stopped from passing through a region by guarding units (siehe [[cmd-guard]]).
+Units that do not have the riding skill can still be transported along on horses or carts with this combination of orders.  
+Of course, the carrying units must have enough capacity for the passengers and their equipment.  
 
-If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move. The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table] to find out the weight of items).
+Using [[cmd-follow|`FOLLOW UNIT <followee>`]] or `FOLLOW SHIP <followed-ship>` is mostly equivalent to the unit using the [[cmd-move]] order itself, if the the followed unit also has a movement order.  
+The followers must carry their own weight.  
 
-TODO: Katapulte.
+Travelling units may be stopped from passing through a region by guarding units (siehe [[cmd-guard]]).  
 
-| Race            | Weight | Capacity |
-|-----------------|-------:|---------:|
-| Trolls          |     20 |     10.8 |
-| Goblins         |      6 |      4.4 |
-| All other races |     10 |      5.4 |
-| Horse           |     50 |     20.0 |
-| Cart            |     40 |    100.0 |
-| Catapult        |      ? |        ? |
-| Boat            |     -- |     50.0 |
-| Longboat        |     -- |    500.0 |
-| Dragonship      |     -- |   1000.0 |
-| Caravel         |     -- |   3000.0 |
-| Trireme         |     -- |   2000.0 |
-| Galleon         |     -- |  20000.0 |
+If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move.  
+The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table] to find out the weight of items).
 
 ## Roads
 
-The speed of travel can be enhanced by building [roads]. If all regions that are passed through have the appropriate road network. you can travel one region further. If. for example. a unit wants to walk two regions to the east, it needs to start in a region with a (completed) road towards the east. In addition, the middle region needs to have roads to the east and west, and the destination needs to have a road to the west - all of which must be completed, too.
+The speed of travel can be enhanced by building [roads].  
+If all regions that are passed through have the appropriate road network, you can travel one region further.  
+For example, a unit wants to walk two regions to the east:
+
+- it needs to start in a region with a (completed) road towards the east
+- the middle region needs to have roads to the east and west
+- the destination needs to have a road to the west - all of which must be completed, too
 
 ## Horse and Carriage
 
-The **movement speed** on foot without [road][roads] is one region per turn; with a road, it's two. On horseback, you can move two regions without a road, and three regions with roads. A skill level 2 per 2 horses is required to ride. The unit rides automatically if it has enough riding levels for all the horses it owns and if the unit is not overloaded. If the unit is too heavily laden to ride, but not too heavily laden to move on foot, the unit moves through a single region (without roads). The unit is considered to be leading the horses by the bridle.
+The **movement speed** on foot without [road][roads] is one region per turn; with a road, it's two.  
+
+On horseback, you can move two regions without a road, and three regions with roads.
+
+A skill level 2 per 2 horses is required to ride. The unit rides automatically if it has enough riding levels for all the horses it owns and if the unit is not overloaded. If the unit is too heavily laden to ride, but not too heavily laden to move on foot, the unit moves through a single region (without roads). The unit is considered to be leading the horses by the bridle.
 
 **Horses'** have a capacity of 20 WU/lbs.
 
@@ -79,6 +151,18 @@ Continue reading: [Sailing].
 [Sailing]: ./sailing.md
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
+
+[Troll]: ./races.md#trolls
+[Goblin]: ./races.md#goblins
+[Aquarian]: ./races.md#aquarians
+[Cat]: ./races.md#cats
+[Demon]: ./races.md#demons
+[Elf]: ./races.md#elves
+[Halfling]: ./races.md#halflings
+[Human]: ./races.md#humans
+[Insect]: ./races.md#insects
+[Dwarf]: ./races.md#dwarves
+[Orc]: ./races.md#orcs
 
 [this table]: ./items.md
 [roads]: ./roads.md

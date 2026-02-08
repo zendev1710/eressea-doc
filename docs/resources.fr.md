@@ -28,11 +28,24 @@ La compétence requise est indiquée dans le tableau de la section [objets].
 *Cart (EN), Wagen (DE)*.
 <!-- cspell:enable -->
 
+| Poids | Capacité de transport |
+|:-----:|:---------------------:|
+|  40   |          100          |
+
+Un chariot facilite le transport des unités en augmentant la [capacité de transport].
+
 ### Cheval
 
 <!-- cspell:disable -->
 *Horse (EN), Pferd (DE)*.
 <!-- cspell:enable -->
+
+| Poids | Capacité de transport |
+|:-----:|:---------------------:|
+|  50   |          20           |
+
+Un cheval facilite le transport des unités en augmentant la [capacité de transport].  
+Un cheval augmente également la vitesse de déplacement (d'une région supplémentaire) s'il est monté par une unité suffisamment compétente en équitation.
 
 ### Fer
 
@@ -188,3 +201,5 @@ Poursuivre la lecture : [[objets]].
 [herboristerie]: ./skills-list.md#herboristerie "Herbalism"
 [extraction minière]: ./skills-list.md#extraction-miniere "Mining"
 [extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
+
+[capacité de transport]: ./travel.fr.md#capacite-de-transport

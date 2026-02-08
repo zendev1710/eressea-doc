@@ -91,13 +91,15 @@ ignoreRegExpList:
   - "^\\[.*]:.*"                                      # ignore link entry (cf other markdown link format) : [...]: <link>
   - "/^(-|\\.){3}[\\s\\S]*?^\\s*(-|\\.){3}/gm"        # ignore yaml header tag : --- <multiline content> ---
   - "\\*« .* »\\*"                                    # ignore emphasized quotes in italic to represent a translation : *« my translation »*
+  - "\\{title=\"(.*)\"\\}"                            # ignore tooltips defined with {title="..."}
+  - "\\{ \\.(.*) \\}"                                 # ignore css class attribute like { .success } for mkdocs predefined svgs
 
 ignorePaths:
   - ./node_modules
   - ./mkdocs.yml
   - ./Taskfile.yml
-  - ./docs/*.fr.md
-  - ./docs/*.de.md
+  #- ./docs/*.fr.md
+  #- ./docs/*.de.md
 
 files:
   - ./docs/*.md

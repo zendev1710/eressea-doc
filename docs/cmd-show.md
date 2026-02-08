@@ -4,12 +4,12 @@ alias: cmd-show
 ---
 # SHOW
 
-**`SHOW`**`"Spell"`  
-**`SHOW`**`"Item"`  
-**`SHOW`**`"Potion"`  
-**`SHOW`**`ALL SPELL`  
-**`SHOW`**`ALL POTION`  
-**`SHOW`**`"race"`  
+**`SHOW "<Spell>"`**  
+**`SHOW "<Item>"`**  
+**`SHOW "<Potion>"`**  
+**`SHOW ALL SPELL`**  
+**`SHOW ALL POTION`**  
+**`SHOW "race"`**  
 
 Displays the description of a spell, the recipe for an alchemical potion, or the description of an item.  
 

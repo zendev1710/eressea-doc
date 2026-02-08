@@ -4,7 +4,7 @@ alias: cmd-default
 ---
 # DEFAULT
 
-**`DEFAULT`**`"`*`order`*`"`  
+**`DEFAULT "<order>"`**  
 
 `DEFAULT` changes the [[orders|order]] that a unit normally issues **in the next week**.  
 
@@ -19,7 +19,7 @@ They are also included in the computer report (CR).
 The normal report (NR) always only contains the first long default order.  
 So you can't see all the default orders there.
 
-All [long orders] are normally included in a unit's default orders.
+All [[orders#short-and-long-orders|long orders]] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.  
 
 In addition, all [[comment-with-slashes|`//`]] and all orders beginning with `@` are adopted.
@@ -200,5 +200,3 @@ Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftool
 - [[sending-orders]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
-
-[long orders]: ./commands.md#short-and-long-orders

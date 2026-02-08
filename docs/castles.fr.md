@@ -4,15 +4,17 @@ alias: chateaux
 ---
 # Châteaux
 
-Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et, enfin, offrent à leurs occupants une protection en cas d'attaque.  
-Ils réduisent également la probabilité de [[peste]].
+Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et offrent à leurs occupants une protection en cas d'attaque.  
+Ils réduisent également la probabilité de [[peste]].  
 
 Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie].  
 Un château entre dans une nouvelle catégorie selon sa taille :
 
-| Taille |     1      |         2         |      10       |  50   |   250   |   1 250    |  6 250+   |
-|:------:|:----------:|:-----------------:|:-------------:|:-----:|:-------:|:----------:|:---------:|
-|  Type  | Fondation | Poste de commerce | Fortification | Tower | Bastion | Forteresse | Citadelle |
+*Taille d'un château selon son type.*
+
+| Fondation | Poste de commerce | Fortification | Tower | Bastion | Forteresse | Citadelle |
+|:---------:|:-----------------:|:-------------:|:-----:|:-------:|:----------:|:---------:|
+|     1     |         2         |      10       |  50   |   250   |   1 250    |  6 250+   |
 
 Plus le château est grand, plus il est difficile de l'agrandir.  
 Pour continuer à construire un château, vous devez avoir au moins la compétence Maçonnerie au niveau requis.  

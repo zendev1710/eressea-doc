@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: e-check-fr
+alias: echeck-fr
 ---
 # ECheck
 

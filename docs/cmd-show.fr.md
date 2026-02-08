@@ -4,12 +4,13 @@ alias: cmd-show-fr
 ---
 # `SHOW`
 
-**`SHOW`**`"Spell"`  
-**`SHOW`**`"Item"`  
-**`SHOW`**`"Potion"`  
-**`SHOW`**`ALL SPELL`  
-**`SHOW`**`ALL POTION`  
-**`SHOW`**`"race"`  
+<!-- TODO: check SHOW race (is race a variable?) -->
+**`SHOW "<Sort>"`**  
+**`SHOW "<Item>"`**  
+**`SHOW "<Potion>"`**  
+**`SHOW ALL SPELL`**  
+**`SHOW ALL POTION`**  
+**`SHOW "<race>"`**  
 
 Affiche la description d'un sort, la recette d'une potion ou la description d'un objet.  
 

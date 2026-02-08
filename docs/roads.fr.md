@@ -4,9 +4,14 @@ alias: routes
 ---
 # Routes
 
-Les **routes** augmentent la vitesse de déplacement sur terre.  
-Pour cela, il faut qu'il y ait une route complète entre la région de départ et la région d'arrivée.  
-Ces routes permettent de se déplacer facilement, car elles ne s'embourbent pas en cas de pluie, ne sont pas envahies par la forêt et les rivières et les ravins sont enjambés par des ponts.  
+## Utilité
+
+Les routes permettent de se déplacer plus facilement, car entretenues, elles ne s'embourbent pas en cas de pluie, ne sont pas envahies par la forêt ni les rivières, et les ravins sont enjambés par des ponts.  
+
+Elles augmentent la vitesse de déplacement par voie terrestre.  
+Pour qu'une route soit praticable, elle doit être complètement construite.  
+
+## Construction
 
 Dans chaque région, on peut construire une route vers les six points cardinaux, tant que la région de destination n'est pas un océan.  
 Pour qu'une route soit complète, il doit y avoir une route dans la région de la direction correspondante dans la direction opposée.  
@@ -20,10 +25,10 @@ La route terminée fonctionne même sans que l'entretien soit payé.
 
 **Exemple:**
 
-Pour construire une route depuis la plaine en (0,0) jusqu'à la montagne en (1,1) en passant par le marais en (1,0), tu as besoin de :
+Pour construire une route depuis la plaine en (0,0) jusqu'à la montagne en (1,1), en passant par le marais en (1,0), vous avez besoin de :
 
 - en (0,0) 50 pierre pour `MAKE Road E`
-- en (1,0) un [barrage] opérationnel pendant la construction et coûtant 1000 silver et 3 bois par tour.
+- en (1,0) un [barrage] opérationnel pendant la construction et coûtant 1 000 silver et 3 bois par tour.
 - en (1,0) 75 pierre pour `MAKE Road W`
 - en (1,0) 75 pierre pour `MAKE Road NE`
 - en (1,1) 250 pierre pour `MAKE Road SW`

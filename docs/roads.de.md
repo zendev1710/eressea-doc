@@ -1,8 +1,8 @@
 ---
 # cSpell:locale de
-alias: strasse
+alias: strassen
 ---
-# Straße
+# Straßen
 
 **Straßen** erhöhen die Reisegeschwindigkeit über Land. Dazu müssen von der Start- bis zur Zielregion inklusive Straßen existieren. Diese Straßen erlauben ein leichtes Fortkommen, da sie bei Regen nicht versumpfen, nicht vom Wald überwachsen werden und Flüsse und Schluchten von Brücken überspannt werden.
 

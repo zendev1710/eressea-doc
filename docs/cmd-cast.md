@@ -4,7 +4,7 @@ alias: cmd-cast
 ---
 # CAST
 
-*[Short] order [^1].*  
+*[[orders#short-and-long-orders|Short order]][^1].*  
 
 **`CAST`**` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Spell`*`" [`*`parameter`*`] ...`
 
@@ -27,6 +27,5 @@ However, this can lead to bigger battles!
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
 
-[Short]: ./commands.md#short-and-long-orders
 [ranged spells]: ./magic.md#ranged-spells
 [cost]: ./magic.md#components

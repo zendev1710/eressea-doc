@@ -27,6 +27,10 @@ Pour un aperçu rapide, consultez le [Tableau des modificateurs raciaux][bonus e
 *Demons (EN), Dämonen (DE).*
 <!-- cspell:enable -->
 
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs | 5,4 lbs  |
+
 Les démons sont cruels et imprévisibles.  
 Ils dévorent les paysans des environs et surprennent toujours par l'acquisition de nouvelles capacités ou la perte de celles-ci.  
 
@@ -52,6 +56,10 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 *Elves (EN), Elfen (DE).*
 <!-- cspell:enable -->
 
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs | 5,4 lbs  |
+
 Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, mais ses archers sont presque aussi redoutés que ses mages.
 
 - Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
@@ -68,6 +76,10 @@ Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, 
 *Goblins (EN), Goblins (DE).*
 <!-- cspell:enable -->
 
+| Poids | Capacité |
+|:-----:|:--------:|
+| 6 lbs | 4,4 lbs  |
+
 Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent compter sur la ruse ou le surnombre. Chez eux, la règle est "la masse plutôt que la classe".
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
@@ -82,6 +94,10 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 *Halflings (EN), Halblinge (DE).*
 <!-- cspell:enable -->
 
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
+
 Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
 - Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
@@ -93,6 +109,10 @@ Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons comme
 <!-- cspell:disable -->
 *Insects (EN), Insekten (DE).*
 <!-- cspell:enable -->
+
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
 
 !!! warning **Attention**
     Les insectes ne sont pas conseillés aux joueurs inexpérimentés !
@@ -127,6 +147,10 @@ Les insectes n'ont besoin d'aucune construction pour [commercer] dans les déser
 *Cats (EN), Katzen (DE).*
 <!-- cspell:enable -->
 
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
+
 Connus pour leurs sens développés, les chats font des espions excellents et des gardes hors-pairs . Mais, comme les elfes, ils n’aiment pas les travaux pénibles.
 
 - « Sept vies » : les chats ont 1/7 chance de survivre à un coup mortel ; ils ont dans ce cas leurs points de vie maximum.
@@ -139,9 +163,9 @@ Connus pour leurs sens développés, les chats font des espions excellents et de
 *Aquarians (EN), Meermenschen (DE).*
 <!-- cspell:enable -->
 
-Les aquariens (Aquarians) sont chez eux dans l’eau, mais sont plutôt mal à l’aise en montagne. Ils construisent et dirigent des bateaux de main de maître, alors que d'autres tâches leur sont plus compliquées.
+Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en montagne. Ils construisent et dirigent des bateaux de main de maître, alors que d'autres tâches leur sont plus compliquées.
 
-- Tous les bateaux commandés par un capitaine aquarien appartenant à une faction d'aquariens se [déplacent] d'une région supplémentaire chaque semaine.
+- Tous les bateaux commandés par un capitaine Aquarien appartenant à une faction d'aquariens se [déplacent] d'une région supplémentaire chaque semaine.
 - Les aquariens peuvent exécuter des [ordres longs] sur les bateaux. Attention, cela a quelques conséquences implicites : Les aquariens peuvent par exemple se déplacer d'une région océanique adjacente à une région terrestre vers la région terrestre, voir [nager].
 - Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work]].
 
@@ -151,7 +175,11 @@ Les aquariens (Aquarians) sont chez eux dans l’eau, mais sont plutôt mal à l
 *Humans (EN), Menschen (DE).*
 <!-- cspell:enable -->
 
-Les humains (humans) peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
+
+Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
 
 - Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [[cmd-give|récupérer]] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
 
@@ -186,6 +214,10 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 *Orcs (EN), Orks (DE).*
 <!-- cspell:enable -->
 
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
+
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
 - Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [Mêlée] et [combat à l'arme d'hast].
@@ -200,6 +232,10 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 <!-- cspell:disable -->
 *Trolls (EN), Trolle (DE).*
 <!-- cspell:enable -->
+
+| Poids  | Capacité |
+|:------:|:--------:|
+| 20 lbs | 10,8 lbs |
 
 Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. Ils adorent travailler les pierres. Mais ils effraient les chevaux et la natation n'a jamais été considérée comme leur passe-temps favori.
 
@@ -216,6 +252,10 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 <!-- cspell:disable -->
 *Dwarves (EN), Zwerge (DE).*
 <!-- cspell:enable -->
+
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs |  5,4 lbs |
 
 Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
 

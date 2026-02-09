@@ -4,13 +4,6 @@ alias: befehle-von-magellan-verschicken
 ---
 # Befehle von Magellan verschicken
 
-<!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
-![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
-<!--
-Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
-<figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
--->
-
 [Magellan] bietet die Möglichkeit des [E-Mail-Versands] der Befehle direkt aus dem Programm.
 Vorteil davon ist, dass es keine Fehler durch Kopieren in das E-Mail-Programm oder Webmailer gibt und diese keine automatischen Formatierung vornehmen, die der Eressea Server nicht versteht, zum Beispiel HTML-Formatierung, komische Zeilenumbrüche, automatische Banner oder eine seltsame Buchstabencodierung, insbesondere bei Umlauten.
 Um eine Kopie der gesendeten E-Mail zu haben, kann man sich die Befehle als Kopie an die eigene Adresse senden.
@@ -44,7 +37,7 @@ Für einige bekannte Mailanbieter folgen hier die benötigten Werte, soweit derz
 
 ## GMX
 
-Die Hilfe von GMX zum STMP-Server findet sich unter: [https://hilfe.gmx.net/pop-imap/index.html] und zu den SMTP Einstellungen unter [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html].
+Die Hilfe von GMX zum SMTP-Server findet sich unter: [https://hilfe.gmx.net/pop-imap/index.html] und zu den SMTP Einstellungen unter [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html].
 Darüber hinaus ist es notwendig die externe Berechtigung zum Senden zu erteilen.
 Dies wird (inklusive Video) unter [https://hilfe.gmx.net/pop-imap/einschalten.html] erklärt.
 

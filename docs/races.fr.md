@@ -64,7 +64,7 @@ Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, 
 
 - Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
   Cela peut faire une grande différence en fonction du nombre d'elfes sur la région.
-- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [camouflage et vol] et [perception], et +2 en [tactique].
+- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion] et [perception], et +2 en [tactique].
 - Les elfes peuvent avoir 6 [mages] (au lieu de 5).
 - Les mages elfes régénèrent leur aura beaucoup plus rapidement.
 - Les elfes font 1 point de dégâts supplémentaire avec les arcs.
@@ -84,7 +84,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
 - Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
-- Un gobelin au moins T4 en [Discrétion] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
+- Un gobelin au moins T4 en [discrétion] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 
@@ -276,8 +276,10 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [dérobera]: ./cmd-steal.md
 [bateaux]: ./ships.md
 [Mêlée]: ./skills-list.md#melee "Melee"
+[discrétion]: ./skills-list.md#discretion "Stealth"
+[tactique]: ./skills-list.md#tactique "Tactics"
+[perception]: ./skills-list.md#perception
 [combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[Discrétion]: ./skills-list.md#discretion "Stealth"
 [potion]: ./alchemy.md
 [groupes]: ./cmd-group.md
 [déplacent]: ./travel.md

@@ -89,7 +89,7 @@ A page review is achieved when:
 | [cmd-number]                 |    |    |    |
 | [cmd-option]                 |    |    |    |
 | [cmd-origin]                 |    |    |    |
-| [cmd-password]               |    |    |    |
+| [cmd-password]               | ✔️ |    |    |
 | [cmd-pay-not]                |    |    |    |
 | [cmd-piracy]                 |    |    |    |
 | [cmd-plant]                  |    |    |    |

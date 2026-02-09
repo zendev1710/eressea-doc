@@ -10,7 +10,7 @@ alias: premier-tour
 Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
 
 ```text
-                Report für E3, Wednesday, 01. July 2009, 19:56
+                Report für E2, Wednesday, 01. July 2009, 19:56
    Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
                           Zeitalters. Es ist Sommer.
 
@@ -37,7 +37,7 @@ Das Passwort für diese Partei lautet pwpw42.
 
 ------------------------------------------------------------------------------
 
-Cabyn (0,0), Ebene, 24/6 Bäume, 2308 zufriedene Bauern, 50000 Silber, 52
+Cabyn (0,0), Ebene, 24/6 Bäume, 2308 zufriedene Bauern, 50000 Silver, 52
 Pferde. Die Region ist im Besitz von Partei 37wj (37wj). Im Nordwesten der
 Region liegt Ozean (-1,1), im Nordosten Ozean (0,1), im Osten die Wüste von
 Budesodid (1,0), im Südosten der Sumpf von Bigecod (1,-1), im Südwesten das
@@ -47,16 +47,16 @@ Auf dem Markt werden Juwelen und Flachwurz feilgeboten.
 
 Statistik für Cabyn (0,0):
 
-  Bauerneinnahmen: 11 Silber
+  Bauerneinnahmen: 11 Silver
   Rekruten: max. 57 Bauern
   Personen: 1
   Holz: 10
-  Silber: 5000
+  Silver: 5000
   Steine: 10
 
   Heimat (wvg3), Größe 10, Befestigung.
 
-    * Entdecker (vdko), 1 Goblin, aggressiv, hat: 10 Holz, 5000 Silber, 10
+    * Entdecker (vdko), 1 Goblin, aggressiv, hat: 10 Holz, 5000 Silver, 10
       Steine, "ARBEITEN".
 
 ------------------------------------------------------------------------------
@@ -67,176 +67,175 @@ Statistik für Cabyn (0,0):
 ------------------------------------------------------------------------------
 ```
 
-## Exemple d'un fichier d'ordres
+## Exemple de fichier d'ordres
 
 Ce fichier d'ordres, légèrement modifié, a été utilisé lors d'un premier tour d'une partie (pour E3).  
-Je ne sais pas exactement quand elle a commencé.  
+Nous ne savons pas exactement quand elle a débuté.  
 
-Note que certains ordres s'étendent sur plusieurs lignes.  
-Ici, l'ordre `DESCRIBE` avec des commentaires `//` a été utilisé.  
+Notez que certains ordres s'étendent sur plusieurs lignes.  
+Ici, l'ordre `DESCRIBE` avec le délimiteur de retour à la ligne `\` a été utilisé.  
 
-Cependant, si vous utilisez [Magellan] pour vos ordres, vous n'avez pas à vous en soucier.  
+Cependant, si vous utilisez [[magellan]] pour vos ordres, vous n'avez pas à vous en soucier.  
 
 ```text
 ERESSEA 37wj "pwpw42"
-; du muss natürlich oben dein eigenes Passwort einsetzen
+; Vous devez bien sûr renseigner votre propre mot de passe ci-dessus.
 REGION 0,0 ; Cabyn
-UNIT vdko;       Entdecker [1,5000$]
-    NAME UNIT "Dracheneinreiter"
+UNIT vdko;       Explorateur [1,5000$]
+    NAME UNIT "Le Chevaucheur du Dragon"
     ;
-    ; Das ist im Moment unsere erste und einzige Einheit,
-    ; erstmal ein paar grundsätzliche Einstellungen
-    NAME FACTION "Der Drachenclan"
-    NUMBER FACTION drac ; hoffentlich noch frei
-    OPTION PUNKTE ; Wird erst ab Runde 13 angezeigt
+    ; Il s'agit actuellement de notre premier et unique unité,
+    ; Tout d'abord, quelques réglages de base.
+    NAME FACTION "Le clan des Dragons"
+    NUMBER FACTION drac ; j'espère que l'id sera disponible
+    OPTION SCORE; Affiché uniquement à partir du tour 13
     OPTION TALENTVERSCHIEBUNG
     PREFIX Nebel
-    BANNER "Immer schön eines zu haben"
-    PASSWORD "Setze das Passwort nie in öffentliche Dokumente"
-    ; wir haben schon eine Burg!
-    NAME BURG "Drachenhort"
-    DESCRIBE BURG "Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
-    eine Höhle in den Fels gehauen. Eine kleine Mauer mit einem niedrigen Wacht\
-    urm schützt das Innere. Der schmale Eingang ist von zwei aufgespießten Schä\
-    deln flankiert. Sie sagen: Hier haust der Drachenclan!"
-    NAME REGION "Drachental"
+    BANNER "C'est toujours agréable d'en avoir un."
+    PASSWORD "Ne jamais consigner le mot de passe dans des documents publics"
+    ; Nous avons déjà un château !
+    NAME BURG "Repaire du Dragon"
+    DESCRIBE CASTLE "Au pied d'une falaise surplombant la mer, une \
+    grotte creusée dans la roche. Un petit muret avec une tour de guet basse\
+    protège l'intérieur. L'étroite entrée est flanquée de deux crânes empalés.\
+    Il est écrit à l'entrée : Ici réside le Clan du Dragon !"
+    NAME REGION "Vallée du Dragon"
     ;
-    ; das kann nicht schaden...
+    ; Ça ne peut pas faire de mal...
     LEARN Pferdedressur
-    ; Burgenbesitzer setze ich gerne auf COMBAT NOT, damit sie die Burg nicht 
-    ; aus Versehen bei der Flucht verlassen ...
+    ; j'aime paramétrer les propriétaires de châteaux sur « COMBAT NOT » 
+    ; pour qu'ils ne quittent pas accidentellement leur château en fuyant...
     COMBAT NOT
     ;
-    ; Zeit für die erste neue Einheit
-    ; Rekrutierungssilber sollte besser übergeben werden
-    ; Lernkosten und Einheitenunterhalt holt sie sich notfalls aus dem Pool
-    GIVE TEMP dr01 460 Silber
+    ; Il est temps de créer notre première nouvelle unité
+    ; L'argent du recrutement doit être remis
+    ; Si nécessaire, l'unité prendra en charge les frais de formation
+    ; et d'entretien du matériel grâce aux fonds communs.
+    GIVE TEMP dr01 460 Silver
     MAKE TEMP dr01
-        NAME UNIT "prismatischer Drache"
-        RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        NAME UNIT "Dragon prismatique"
+        RECRUIT 1 Demon
+        LEARN Magic "Illaun"
         COMBAT FLEE
-        // Bei Gelegenheit COMBAT REAR
+        // À l'occasion COMBAT REAR
     END
     ;
-    ; Man muss sich genau überlegen, ob man im ersten Zug schon genug Geld für
-    ; drei Magier hat. Eigentlich lohnen sich Magier aber immer, besonders
-    ;  Dämonen. Zur Not haben sie einen Zauber, mit dem sie Geld verdienen können
-    ; -- und dabei lernen sie sogar noch was dazu!
-    GIVE TEMP dr02 460 Silber
-    GIVE TEMP dr03 460 Silber
+    ; Il vous faut bien réfléchir avant d'engager trois mages, afin de vous assurer d'en avoir assez dès le premier tour.
+    ; Les mages sont généralement toujours un bon investissement, surtout les démons. 
+    ; Au besoin, ils disposent d'un sort pour gagner de l'argent, et ils apprennent même quelque chose au passage !
+    GIVE TEMP dr02 460 Silver
+    GIVE TEMP dr03 460 Silver
     MAKE TEMP dr02
-        NAME UNIT "prismatischer Drache"
-        RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        NAME UNIT "Dragon prismatique"
+        RECRUIT 1 Demon
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
     MAKE TEMP dr03
-        NAME UNIT "prismatischer Drache"
+        NAME UNIT "Dragon prismatique"
         RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
-    ; wird es sich lohnen, sich so früh schon Elitekämpfer (Helden!) zu leisten?
-    GIVE TEMP dr05 720 Silber
+    ; Investir dans des combattants d'élite (des héros !) aussi tôt sera-t-il judicieux ?
+    GIVE TEMP dr05 720 Silver
     MAKE TEMP dr05
-        NAME UNIT "Schattendrache"
-        RECRUIT 2 Dämon
-        LEARN Stangenwaffen
-        // Held?
-        ; wir sind zwar noch unbewaffnet, aber bevor wir es später vergessen
+        NAME UNIT "Dragon de l'Ombre"
+        RECRUIT 2 Demon
+        LEARN Polearm
+        // Héros ?
+        ; Nous sommes toujours désarmés, mais avant d'oublier
         COMBAT AGGRESSIVE
     END
     ;
-    ; wenn er das Mindesttalent erreicht hat, produzieren wir hoffentlich schon
-    ; Holz oder Eisen
-    GIVE TEMP dr06 66 Silber
+    ; Une fois qu'il aura atteint le niveau de compétence minimum, nous espérons déjà avoir commencé la production.
+    ; bois ou fer
+    GIVE TEMP dr06 66 Silver
     MAKE TEMP dr06
-        NAME UNIT "grauer Drache"
+        NAME UNIT "Dragon gris"
         RECRUIT 1
         LEARN Waffenbau
         COMBAT FLEE
     END
     ;
-    ; Burgen kontrollieren in E3 Regionen, deshalb sind sie schon früh wichtig!
-    GIVE TEMP dr07 66 Silber
+    ; Les châteaux contrôlent des régions, c'est pourquoi ils sont importants dès le début !
+    GIVE TEMP dr07 66 Silver
     MAKE TEMP dr07
-        NAME UNIT "grauer Drache"
+        NAME UNIT "Dragon gris"
         RECRUIT 1
-        LEARN Burgenbau
+        LEARN Masonry
         COMBAT FLEE
     END
     ;
-    ; evtl. wollen wir hier noch mehr Burgenbauer...
+    ; Peut-être avons-nous besoin de plus de maçons ici...
     ;
-    ; Holz ist am Anfang super wichtig für Waffen und Wachposten,
-    ; später für Gebäude, Schiffe
-    GIVE TEMP dr08 180 Silber
+    ; Le bois est extrêmement important au début pour les armes et les postes de garde,
+    ; puis pour les bâtiments et les navires.
+    GIVE TEMP dr08 180 Silver
     MAKE TEMP dr08
-        NAME UNIT "grüner Drache"
+        NAME UNIT "Dragon vert"
         RECRUIT 3
-        LEARN Holzfällen
+        LEARN Forestry
         COMBAT FLEE
     END
     ;
-    ; Wollen wir uns auf Nahkampf oder Fernkampf, Bögen oder Armbrüste
-    ; spezialisieren? Evtl. ist es gefährlich, das zu früh zu tun.
-    GIVE TEMP dr10 660 Silber
+    ; Souhaitons-nous nous spécialiser le combat au corps à corps ou à distance,
+    ; les arcs ou les arbalètes ? Il pourrait être dangereux de le faire trop tôt.
+    GIVE TEMP dr10 660 Silver
     MAKE TEMP dr10
-        NAME UNIT "Drachenflügel"
+        NAME UNIT "Ailes de dragon"
         RECRUIT 10
-        LEARN Armbrustschießen
+        LEARN Crossbow
         COMBAT FLEE
     END
     ;
-    ; Eisen zu finden ist auch wichtig
-    GIVE TEMP dr11 180 Silber
+    ; Trouver du fer est également important
+    GIVE TEMP dr11 180 Silver
     MAKE TEMP dr11
-        NAME UNIT "Höhlendrache"
+        NAME UNIT "Dragon des cavernes"
         RECRUIT 3
-        LEARN Bergbau
-        // als Späher in Nachbarregionen
+        LEARN Mininh
+        // comme éclaireurs dans les régions voisines
         COMBAT FLEE
     END
     ;
-    ; ...ebenso wie Steine für Burgen
-    GIVE TEMP dr12 180 Silber
+    ; ...ainsi que des pierres pour les châteaux
+    GIVE TEMP dr12 180 Silver
     MAKE TEMP dr12
-        NAME UNIT "Höhlendrache"
+        NAME UNIT "Dragon des cavernes"
         RECRUIT 3
-        LEARN Steinbau
+        LEARN Quarrying
         COMBAT FLEE
     END
     ;
-    ; Wir brauchen Späher, vermutlich mindestens einen für jede Himmelsrichtung
-    ; Wichtig: Unterhaltssilber nicht vergessen!
-    GIVE TEMP drr1 260 Silber
+    ; Il nous faut des éclaireurs, probablement au moins un pour chaque point cardinal.
+    ; Important : n'oubliez pas l'argent pour l'entretien !
+    GIVE TEMP drr1 260 Silver
     MAKE TEMP drr1
-        NAME UNIT "kleiner Drachenreiter"
+        NAME UNIT "petit chevaucheur de dragon"
         RECRUIT 1
         MOVE sw
-        // Stein- und Bergbauer machen
+        // Extraire des pierres et du fer
         COMBAT FLEE
     END
     ;
-    GIVE TEMP drr2 260 Silber
+    GIVE TEMP drr2 260 Silver
     MAKE TEMP drr2
-        NAME UNIT "kleiner Drachenreiter"
+        NAME UNIT "petit chevaucheur de dragon"
         RECRUIT 1
         MOVE so
-        // Stein- und Bergbauer machen
+        //  Extraire des pierres et du fer
         COMBAT FLEE
     END
     ;
     ;
-    ;  in E2 müssten wir jetzt noch unbedingt Unterhalter rekrutieren!
+    ; Nous avons absolument besoin de recruter des artistes dès maintenant !
     ; ...
-    ; Vielleicht sollten wir auch noch Reiter (Steintransport!), Wagenbauer,
-    ; Rüstungsbauer oder noch mehr Soldaten ausbilden? Andererseits sollte man 
-    ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
-    ; plötzlich pleite ist!
+    ; Peut-être devrions-nous aussi former de la cavalerie (pour le transport des pierres !), des charrons,
+    ; des armuriers, voire davantage de soldats ? Par ailleurs, il ne faut pas
+    ; se surestimer au début et veiller scrupuleusement à ne pas se retrouver soudainement en faillite !
 NEXT
 ```
 
@@ -250,5 +249,4 @@ Poursuivre la lecture : [protection du chiot].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Magellan]: ./magellan.md
 [Tutoriel Eressea]: https://playeressea.wordpress.com/eressea-tutorium/ "Tutoriel Erressea en allemand (web)"

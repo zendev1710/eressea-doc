@@ -126,6 +126,7 @@ plugins:
             Introduction: Introduction
             Beginner tips: Conseils pour débutants
             Basics: Bases
+            First round: Premier tour de jeu
             Sending orders: Envoi des ordres
             Sending orders from Magellan: Envoi des ordres depuis Magellan
             Puppy protection: Protection du chiot
@@ -172,7 +173,6 @@ plugins:
             Herbs: Plantess
             # orders submenu
             Sequence: Séquence
-            First round: Premier tour
             Detailed orders: Ordres détaillés
             Development: Développement
             Tools: Outils
@@ -184,6 +184,7 @@ plugins:
           name: Deutsch
           build: true
           nav_translations:
+            # GERMAN main menu item translations
             Home: Hauptseite
             Getting-started: Erste Schritte
             Rules: Regeln
@@ -199,10 +200,12 @@ plugins:
             Misc: Versch
             References: Referenzen
             Help: Helfen
+            # GERMAN submenu item translations
             Skills: Talente
             Overview: Überblick
             Modifiers: Modifikatoren
             Camouflage: Tarnung
+            First round: Erste Runde
             Travel: Reisen
             Sailing: Segeln
             Resources: Ressourcen
@@ -227,7 +230,6 @@ plugins:
             Description: Beschreibung
             Herbs: Kräuter
             Sequence: Reihenfolge
-            First round: Erste Runde
             Detailed orders: Detaillierte Befehle
             Weekly reports: Wochenbericht
             Hints: Hinweise
@@ -242,7 +244,7 @@ plugins:
             Development: Entwicklung
             Tools: Werkzeuge
             Events: Ereignisse
-          # GERMAN nav needed here to reorganize (sort) cmd-*.md files in the right order
+          # GERMAN nav is needed here to reorganize (sort) cmd-*.md files in the right order
           nav:
             - Home: index.md
             - Getting-started:
@@ -251,6 +253,7 @@ plugins:
               - Introduction: introduction.md
               - Beginner tips: getting-started-tips.md
               - Basics: basics.md
+              - First round: first-round.md
               - Sending orders: commands-send.md
               - Sending orders from Magellan: commands-send-from-magellan.md
               - Puppy protection: puppy-protection.md
@@ -299,7 +302,6 @@ plugins:
             - Orders:
               - Overview: commands.md
               - Sequence: commands-sequence.md
-              - First round: first-round.md
               - List: commands-list.md
               - Detailed orders:
               # - commands-send.md
@@ -522,7 +524,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# en/fr navigation structure
+# ENGLISH navigation structure (also used forFRENCH language)
 nav:
   - Home: index.md
   - Getting-started:
@@ -531,6 +533,7 @@ nav:
     - Introduction: introduction.md
     - Beginner tips: getting-started-tips.md
     - Basics: basics.md
+    - First round: first-round.md
     - Sending orders: commands-send.md
     - Sending orders from Magellan: commands-send-from-magellan.md
     - Puppy protection: puppy-protection.md
@@ -579,7 +582,6 @@ nav:
   - Orders:
     - Overview: commands.md
     - Sequence: commands-sequence.md
-    - First round: first-round.md
     - List: commands-list.md
     - Detailed orders:
     # - commands-send.md

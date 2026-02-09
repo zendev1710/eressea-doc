@@ -4,9 +4,6 @@ alias: sending-orders-from-magellan
 ---
 # Sending orders from Magellan
 
-<!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
-![Sending commands with Magellan using Gmail as an example](./assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
-
 [[magellan]] offers the possibility of [[sending-orders|emailing]] the orders directly from the program.  
 The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer.
 More, they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.  

@@ -4,9 +4,6 @@ alias: envoi-des-ordres-depuis-magellan
 ---
 # Envoi des ordres depuis Magellan
 
-<!-- TODO: magellan screenshot 400X134 - should be where in the page ? -->
-![Sending commands with Magellan using Gmail as an example](./assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
-
 [[magellan]] offre la possibilité d'[[envoi-des-ordres|envoyer les ordres par email]] directement depuis le programme.  
 L'avantage est d'éliminer le risque d'erreurs causées par la copie dans le programme de messagerie ou le webmailer.  
 

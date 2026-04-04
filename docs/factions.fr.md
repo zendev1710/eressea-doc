@@ -1,8 +1,8 @@
 ---
 # cSpell:locale fr
-alias: factions-fr
+alias: faction-fr
 ---
-# Les factions
+# Faction
 
 Dans Eressea, un joueur dirige ce que l'on appelle une **faction**.  
 
@@ -15,7 +15,7 @@ Vous pouvez donner aux unités des [[ordres]] à chaque tour, qu'elles exécuter
 
 Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).
 
-## Les unités
+## Unités
 
 La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie].
 

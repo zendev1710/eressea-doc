@@ -365,7 +365,7 @@ Second mois d'été.
 - [[cmd-recruit]]
 - [[cmd-entertain]]
 
-Poursuivre la lecture : [[factions]].
+Poursuivre la lecture : [faction].
 
 [^1]: quelque soit le nombre d'arbres.
 
@@ -382,7 +382,7 @@ Poursuivre la lecture : [[factions]].
 [caravanserail]: ./buildings-others.md#caravanserail
 [revenus]: ./silver.md#revenus
 [phare]: ./buildings-others.md#phare
-[Commerce]: ./silver.md#commerce
+[Commerce]: ./silver.md#le-commerce
 [Insectes]: ./races.md#insectes
 [croissance des forêts]: ./resources.md#ressources-forestieres
 

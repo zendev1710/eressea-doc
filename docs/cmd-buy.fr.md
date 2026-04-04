@@ -2,13 +2,15 @@
 # cSpell:locale fr
 alias: cmd-buy-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `BUY`
 
-*`BUY` est, comme [[cmd-sell]], un ordre [pseudo-long][^1].*  
+*`BUY` est, comme [[cmd-sell]], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
 
-**`BUY`**` `*`nombre`*` `*`produit de luxe`*  
+**`BUY <nombre> "produit de luxe"`**  
 
-Si l'unité possède la compétence [Commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.  
+Si l'unité maîtrise le [commerce][commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.  
 Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.  
 Pour acheter quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
 Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  
@@ -39,10 +41,7 @@ Dans le rapport informatique (CR) et le [[ordres|modèle d'ordres]] tous les ord
 
 ## Voir aussi
 
-- [Commerce]
+- [Le commerce][le-commerce]
 - [[cmd-sell]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
-
-[pseudo-long]: ./commands.md#ordres-courts-et-longs
-[Commerce]: ./silver.md#commerce

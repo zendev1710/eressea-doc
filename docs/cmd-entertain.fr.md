@@ -2,13 +2,15 @@
 # cSpell:locale fr
 alias: cmd-entertain-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `ENTERTAIN`
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  
 
 L'unité passera le tour à divertir les paysans.  
 
-Vous pouvez gagner jusqu'à 20 Silver par personne et par niveau de compétence en [divertissement].  
+Vous pouvez gagner jusqu'à 20 Silver par personne et par niveau de compétence en [divertissement][divertissement]{title="Entertainment"}.  
 Mais les agriculteurs ne dépensent que 5 % de leur argent en divertissement.
 Si plus d'unités tentent d'entretenir les agriculteurs que ce que ces derniers peuvent payer, l'argent sera réparti entre toutes les unités d'entretien.  
 Si vous spécifiez un montant, l'unité gagnera au maximum ce montant.  
@@ -25,7 +27,7 @@ Cela fait environ 12 Silver pour A et 48 Silver pour B.
 
 Les unités à bord d'un bateau présent dans une région gardée ne peuvent ni [[cmd-work|travailler]] ni divertir (voir [[cmd-guard]] et [[cmd-help]]).
 
-La limite de collecte des impôts d'une région indique la quantité totale d'argent qui peut être retirée aux agriculteurs (hors [commerce]) sans qu'ils partent.  
+La limite de collecte des impôts d'une région indique la quantité totale d'argent qui peut être retirée aux agriculteurs (hors [commerce][le-commerce]) sans qu'ils partent.  
 Il est aussi élevé que le surplus de revenu des agriculteurs.
 
 ## Voir aussi
@@ -33,6 +35,3 @@ Il est aussi élevé que le surplus de revenu des agriculteurs.
 - [[argent]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
-
-[commerce]: ./silver.md#commerce
-[divertissement]: ./skills-list.md#divertissement

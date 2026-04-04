@@ -2,36 +2,98 @@
 # cSpell:locale fr
 alias: cmd-option-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `OPTION`
 
-**`OPTION`**` `*`option`*`[NOT]`  
+**OPTION**&nbsp;ADDRESSES|COMPUTER|PLAINTEXT|SCORE|SHOWSKCHANGE|STATISTICS|TEMPLATE&nbsp;&#91;NOT&#93;  
+**OPTION**&nbsp;ZIPPED|BZIP2  
 
-<!-- TODO: check if the following options stay in german or not for english players -->
+Ces options peuvent être activées ou désactivées avec l'opérateur `NOT` (à l'exception de `ZIPPED` et `BZIP2`).
+Avec elles, vous contrôlez exactement à quoi ressemble l’évaluation.  
 
-Ces options peuvent être activées ou désactivées.
-Vous contrôlez exactement à quoi ressemble l’évaluation.  
+!!! info "Information"
+    Les options et leur statut sont renseignés en allemand dans le rapport informatique (`.cr`) de l'évaluation :
+    ```text
+    OPTIONEN
+    1;AUSWERTUNG
+    1;COMPUTER
+    1;ZUGVORLAGE
+    1;STATISTIK
+    1;ZIPPED
+    1;ADRESSEN
+    0;BZIP2
+    1;PUNKTE
+    0;SHOWSKCHANGE
+    ```
 
-- `AUSWERTUNG` : il s'agit de l'évaluation normale en texte brut.
-  Si vous utilisez uniquement l'évaluation informatique, l'évaluation normale peut être omise
-- `COMPUTER` : cette évaluation est plus facile à lire pour les programmes. Il peut être utilisé pour alimenter tout type de programmes tiers développé, par ex. outils auxiliaires ou visionneuse de cartes
-- `ZIPPED` : l'évaluation sera compressée au format zip avant envoi par email
-- `BZIP2` : l'évaluation sera compressée avec bzip2 avant envoi par email
-- `STATISTIK` : avec cette option, un résumé statistique est affichée après chaque région dans l'analyse standard
-- `PUNKTE` : avec cette option, dès le 13ème tour au plus tôt, un score est émis qui permet une petite comparaison avec les autres factions
-- `ZUGVORLAGE` : un fichier séparé contient un [[ordres|modèle d'ordres du prochain tour]].
-  Si vous n'en avez pas besoin, par exemple parce que vous utilisez un outil pour créer un déplacement, vous devez désactiver le modèle d'ordres
-- `TALENTVERSCHIEBUNG` : cela vous permet d'activer l'ajout d'informations relatives aux compétences dans le NR. Après la compétence, il est indiqué si elle a changé au cours du tour
-- `ADRESSEN` : ceci ajoute au rapport la liste d'adresses des factions vues dans le groupe
+Les options disponibles sont décrites ci-dessous.
 
-## Anciennes options
+## `OPTION ADDRESSES`
 
-À partir de l'évaluation 559, les options  `MATERIALPOOL` et  `SILVERPOOL` ont été **activées** par défaut. **Ces options ne sont plus désactivables**.
+**OPTION**&nbsp;ADDRESSES &#91;NOT&#93;  
 
-- `SILVERPOOL` : en règle générale, les unités paient les dépenses engagées « de leur poche ». Cette option peut être utilisée pour garantir que l'argent nécessaire soit collecté auprès de toutes les unités de la région
-- `MATERIALPOOL` : si la [[reserve-d-objets]] est activée, tous les objets requis dans une unité sont collectés selon les besoins, comme pour l'argent avec la [réserve d'argent].
-  Les unités peuvent utiliser la commande [[cmd-reserve]] pour sécuriser des objets, empêchant ainsi d'autres unités de les prendre et de les consommer.
-  Cette option est à utiliser avec précaution, car vous pouvez rapidement, par exemple, utiliser tout le bois d'une région que vous aviez prévu à d'autres fins, simplement parce que vous avez oublié un `RESERVE`.
+Si cette option est activée, la liste des adresses email des factions visibles lors du tour est ajoutée au rapport.
+
+## `OPTION COMPUTER`
+
+**OPTION**&nbsp;COMPUTER &#91;NOT&#93;  
+
+Si cette option est activée, l'évaluation informatique (fichier d'extension `.cr`) est incluse à l'email renvoyé par le serveur au joueur.  
+L'évaluation informatique est plus facile à lire pour les programmes.  
+Elle peut être utilisée pour alimenter tout type de programme tiers développé, par exemple les outils auxiliaires ou visionneuse de cartes.
+
+## `OPTION PLAINTEXT`
+
+**OPTION**&nbsp;PLAINTEXT &#91;NOT&#93;  
+
+Si cette option est activée, l'évaluation normale en texte brut (fichier d'extension `.nr`) est incluse dans l'email renvoyé par le serveur au joueur.  
+Si vous utilisez uniquement l'évaluation informatique (fichier d'extension `.cr`), vous pouvez désactiver l'option; l'évaluation normale ne sera alors pas envoyée.
+
+## `OPTION SCORE`
+
+**OPTION**&nbsp;SCORE &#91;NOT&#93;  
+
+Si cette option est activée, **à partir du 13ème tour**, un score est émis pour votre faction.  
+Ce score est un premier élément de comparaison de votre progression dans le jeu relativement aux autres factions.
+
+## `OPTION SHOWSKCHANGE`
+
+**OPTION**&nbsp;SHOWSKCHANGE &#91;NOT&#93;  
+
+Si cette option est activée, des informations relatives aux compétences des unités sont ajoutées dans le rapport standard NR.  
+Après chaque compétence, il est indiqué si elle a changé au cours du tour.
+
+## `OPTION STATISTICS`
+
+**OPTION**&nbsp;STATISTICS &#91;NOT&#93;  
+
+Si cette option est activée, un résumé statistique est affiché après chaque région dans l'évaluation normale (fichier d'extension `.nr`).
+
+## `OPTION TEMPLATE`
+
+**OPTION**&nbsp;TEMPLATE &#91;NOT&#93;  
+
+Si cette option est activée, un fichier séparé contiendra un [[ordres|modèle d'ordres du prochain tour]].  
+Si vous n'en avez pas besoin, par exemple parce que vous utilisez un outil pour renseigner les ordres, il est recommandé de désactiver cette option.  
+
+## `OPTION ZIPPED|BZIP2`
+
+**OPTION**&nbsp;ZIPPED  
+**OPTION**&nbsp;BZIP2  
+
+Avant d'être envoyé par email par le serveur au joueur, le fichier correspondant à l'évaluation sera **compressé** à un format défini par l'une des deux options suivantes :
+
+- `OPTION ZIPPED` : compression au format `zip`
+- `OPTION BZIP2` : compression avec `bzip2`
+
+## Options dépréciées
+
+**À partir de l'évaluation 559**, les options  `ITEMPOOL` et  `SILVERPOOL` ont été activées par défaut et **ne sont plus désactivables**.  
+
+La [[reserve-d-objets]] et la [réserve d'argent][reserve-dargent] sont donc toujours actives.  
+
+!!! note "rappel"
+    Les unités peuvent utiliser l'ordre [[cmd-reserve]] pour sécuriser des objets, empêchant ainsi d'autres unités de les prendre et de les consommer.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
-
-[réserve d'argent]: ./items-pool.md#reserve-dargent

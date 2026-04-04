@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-move-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `MOVE`
 
-*Ordre [long].*  
+*Ordre [long][ordres-courts-et-longs].*  
 
 **`MOVE`**` `*`direction`*`[`*`direction`*`]...`  
 
@@ -55,5 +57,3 @@ LEARN Ride
 - [[cmd-default]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
-
-[long]: ./commands.md#ordres-courts-et-longs

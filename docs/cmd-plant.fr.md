@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-plant-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `PLANT`
 
-*Ordre [long].*  
+*Ordre [long][ordres-courts-et-longs].*  
 
 **`PLANT`**`[`*`quantité`*`] HERBS`  
 **`PLANT`**`[`*`quantité`*`] TREES`  
@@ -13,7 +15,7 @@ alias: cmd-plant-fr
 
 Cet ordre peut être utilisé pour redonner de la verdure à une région vidée ou dévastée, ou pour contrôler la reproduction naturelle des arbres.  
 
-L'ordre `PLANT HERBS` nécessite au moins un **niveau 6** en [Herboristerie].  
+L'ordre `PLANT HERBS` nécessite au moins un **niveau 6** en [Herboristerie][herboristerie]{title="Herbalism"}.  
 L'unité tente de planter le nombre spécifié de plantes, jusqu'à un maximum d'une plante par niveau de compétence;  
 Pour ce faire, elle a besoin du nombre approprié de plantes du type correspondant et d'une et une seule fiole de la potion [[tableaux-potions-et-plantes|Water of life]].  
 Il n'est possible de replanter que la plante originaire de la région.
@@ -47,6 +49,3 @@ Mais ce n’est pas recommandé.
 - [[resources]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
-
-[long]: ./commands.md#ordres-courts-et-longs
-[Herboristerie]: ./skills-list.md#herboristerie

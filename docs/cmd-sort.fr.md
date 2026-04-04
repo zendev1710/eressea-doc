@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-sort-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `SORT`
 
 **`SORT`**` BEFORE `*`unit-id`*  
@@ -11,7 +13,7 @@ Cet ordre modifie l'ordre de tes unités **dans le rapport** et l'[[orders|éval
 Cela permet, par exemple, d'afficher les *élèves* (unités exécutant l'ordre `LEARN`) et les *enseignants* (unités exécutant l'ordre `TEACH`) les uns en dessous des autres.  
 
 !!! info
-    L'ordre de tri des unités [a un impact] en cas de famine.
+    L'ordre de tri des unités [a un impact][echapper-a-la-mort-par-famine] en cas de famine.
 
 Les limitations suivantes s'appliquent :
 
@@ -22,5 +24,3 @@ Les limitations suivantes s'appliquent :
 
 Le tri s'effectue en toute fin du tour, après les déplacements.  
 Ainsi, les unités entrées dans une région par [[cmd-move]] ou [[cmd-ride]] peuvent être triées immédiatement.  
-
-[a un impact]: ./tips-and-tricks.md#echapper-a-la-mort-par-famine

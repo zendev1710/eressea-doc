@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-teach-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `TEACH`
 
-*Ordre [long].*
+*Ordre [long][ordres-courts-et-longs].*
 
 **`TEACH`**` `*`unit-id`*`[`*`unit-id`*`]...`  
 
@@ -35,5 +37,3 @@ Avec l'ordre [[cmd-learn-auto]], le serveur **tente d'automatiser** l'apprentiss
     L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
-
-[long]: ./commands.md#ordres-courts-et-longs

@@ -146,8 +146,8 @@ Poursuivre la lecture : [[xontormia-express]].
 [collecte d'impôts]: ./silver.md#collecter-les-impots
 [compétences d'armes]: ./skills.md#competences-de-combat
 [piller]: ./silver.md#le-vol-la-methode-malhonnete
-[commerce]: ./silver.md#commerce
-[commercer]: ./silver.md#commerce ""
+[commerce]: ./silver.md#le-commerce
+[commercer]: ./silver.md#le-commerce
 [de chevaux et de chariots]: ./travel.md#chevaux-et-chariots
 [maconnerie]: ./skills-list.md#maconnerie "Masonry"
 [extraction minière]: ./skills-list.md#extraction-miniere "Mining"

@@ -9,10 +9,12 @@ Toutes les personnes d'une unité ont les mêmes compétences.
 Elles doivent d'abord les apprendre.
 Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
 
+## Progression par usage
+
 Certaines compétences s'améliorent également en les utilisant.
 Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
 Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN).
-Les compétences qui ne s'améliorent *pas* en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
+Les compétences qui ne s'améliorent **pas** en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
 
 Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
 Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
@@ -70,7 +72,7 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magie]], [alchimie], [herboristerie], [espionnage] et [[tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
+[[magie]], [alchimie], [herboristerie], [espionnage] et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [[magie|tableau]]).
@@ -129,17 +131,17 @@ Ces compétences permettent de fabriquer des objets, des bâtiments, des bateaux
 Les compétences de production sont les suivantes :
 
 - [alchimie] (fabrication de potions)
-- [apprivoisement] (***« taming »***; obtention de chevaux)
-- [construction navale] (***« shipcraft »***)
-- [construction de routes] (***« roadwork »***)
-- [extraction de pierres] (***« quarrying »***)
-- [extraction minière] (***« mining »***; production de fer, de laen ou d'adamantium)
-- [fabrication d'armes]  (***« weaponsmithing »***)
-- [fabrication d'armures]  (***« armoursmithing »***)
-- [fabrication de chariots et de catapultes] (***« cartmakind »***)
-- [herboristerie] (***« herbalism »***; récolte de plantes)
-- [maçonnerie] (***« herbalism »***; construction de bâtiments et chateaux)
-- [sylviculture] (***« forestry »***; production de bois)
+- [apprivoisement] (obtention de chevaux)
+- [construction navale]
+- [construction de routes]
+- [extraction de pierres]
+- [extraction minière] (production de fer, de laen ou d'adamantium)
+- [fabrication d'armes]
+- [fabrication d'armures]
+- [fabrication de chariots et de catapultes]
+- [herboristerie] (récolte de plantes)
+- [maçonnerie]
+- [sylviculture] (production de bois et de mallorn)
 
 Pour plus d'information, consulter les chapitres :
 
@@ -158,7 +160,7 @@ Plus d'information : [[argent|l'argent]].
 
 ### Compétences de déplacements
 
-[La voile] (***« sailing »***) et [l'équitation] (***« riding »***) sont des compétences expliquées dans le chapitre sur les [[deplacements]].  
+La [voile] et l'[équitation] sont des compétences expliquées dans le chapitre sur les [[deplacements|déplacements]].  
 
 L'équitation est également abordée dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
 
@@ -191,31 +193,32 @@ Poursuivre la lecture : [[liste-des-competences]].
 
 [nain]: ./races.md#nains
 [académie]: ./buildings-others.md#academie
-[alchimie]: ./skills-list.md#alchimie
-[herboristerie]: ./skills-list.md#herboristerie
-[espionnage]: ./skills-list.md#espionnage
+
+[alchimie]: ./skills-list.md#alchimie "Alchemy"
+[apprivoisement]: ./skills-list.md#apprivoisement "Taming"
+[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
+[combat à mains nues]: ./skills-list.md#combat-a-mains-nues "Unarmed combat"
+[commerce]: ./skills-list.md#commerce "Trade"
+[construction de routes]: ./skills-list.md#construction-de-routes "Roadwork"
+[construction navale]: ./skills-list.md#construction-navale "Shipcraft"
 [discrétion]: ./skills-list.md#discretion "Stealth"
-[extraction minière]: ./skills-list.md#extraction-miniere
-[maçonnerie]: ./skills-list.md#maconnerie
-[sylviculture]: ./skills-list.md#sylviculture
-[apprivoisement]: ./skills-list.md#apprivoisement
-[fabrication d'armures]: ./skills-list.md#fabrication-darmures
-[construction navale]: ./skills-list.md#construction-navale
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres
-[construction de routes]: ./skills-list.md#construction-de-routes
-[fabrication d'armes]: ./skills-list.md#fabrication-darmes
-[fabrication de chariots et de catapultes]: ./skills-list.md#fabrication-de-chariots
-[commerce]: ./skills-list.md#commerce
-[taxation]: ./skills-list.md#taxation
-[divertissement]: ./skills-list.md#divertissement
-[La voile]: ./skills-list.md#voile
-[l'équitation]: ./skills-list.md#equitation
-[mêlée]: ./skills-list.md#melee
-[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast
-[tir à l'arc]: ./skills-list.md#tir-a-larc
-[tir à l'arbalète]: ./skills-list.md#tir-a-larbalete
-[tir à la catapulte]: ./skills-list.md#tir-a-la-catapulte
-[combat à mains nues]: ./skills-list.md#combat-a-mains-nues
-[endurance]: ./skills-list.md#endurance
-[équitation]: ./skills-list.md#equitation
-[tactique]: ./skills-list.md#tactique
+[divertissement]: ./skills-list.md#divertissement "Entertainment"
+[endurance]: ./skills-list.md#endurance "Endurance"
+[équitation]: ./skills-list.md#equitation "Riding"
+[espionnage]: ./skills-list.md#espionnage "Espionage"
+[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
+[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
+[fabrication d'armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
+[fabrication d'armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
+[fabrication de chariots et de catapultes]: ./skills-list.md#fabrication-de-chariots "Cartmaking"
+[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
+[maçonnerie]: ./skills-list.md#maconnerie "Masonry"
+[mêlée]: ./skills-list.md#melee "Melee"
+[perception]: ./skills-list.md#perception "Perception"
+[sylviculture]: ./skills-list.md#sylviculture "Forestry"
+[tactique]: ./skills-list.md#tactique "Tactics"
+[taxation]: ./skills-list.md#taxation "Taxation"
+[tir à l'arbalète]: ./skills-list.md#tir-a-larbalete "Crossbow"
+[tir à l'arc]: ./skills-list.md#tir-a-larc "Bow"
+[tir à la catapulte]: ./skills-list.md#tir-a-la-catapulte "Catapult"
+[voile]: ./skills-list.md#voile "Sailing"

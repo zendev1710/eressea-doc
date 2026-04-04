@@ -5,10 +5,10 @@ alias: races-fr
 
 # Races
 
-En plus des [humains], il existe beaucoup d'autres races (types de faction) dans Eressea.  
-Tu devras en choisir une pour ta [[factions|faction]].  
+En plus des [humains], il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
+Vous devrez en choisir une pour votre [faction].  
 
-Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus] dans certaines compétences et parfois des capacités spéciales.  
+Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus] dans certaines compétences, et parfois des capacités spéciales.  
 
 Chaque race a des [coûts de recrutement][bonus et malus] différents.  
 
@@ -26,6 +26,10 @@ Pour un aperçu rapide, consultez le [Tableau des modificateurs raciaux][bonus e
 <!-- cspell:disable -->
 *Demons (EN), Dämonen (DE).*
 <!-- cspell:enable -->
+
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 50 |        2         |          15           |    7,5 %     | 150 silver  |
 
 | Poids  | Capacité |
 |:------:|:--------:|
@@ -56,6 +60,28 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 *Elves (EN), Elfen (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 18 |        0         |          10           |     5 %      | 130 silver  |
+
+*Compétences de combat.*
+
+| [Magie] | [Discrétion] | [Espionnage] | [Perception] | [Arme d'hast] | [Endurance] | [Mêlée] | [Tactique] | [Tir arbalète] | [Tir arc] | [Tir catapulte] |
+|:-------:|:------------:|:------------:|:------------:|:-------------:|:-----------:|:-------:|:----------:|:--------------:|:---------:|:---------------:|
+|   +1    |      +1      |      0       |      +1      |       0       |      0      |    0    |     0      |       0        |    +2     |       -2        |
+
+*Compétences de production.*
+
+| [Apprivoisement] | [Construction routes] | [Construction navale] | [Extraction pierres] | [Extraction minière] | [Fab. armes] | [Fab. armures] | [Fab. chariots] | [Maçonnerie] | [Sylviculture] |
+|:----------------:|:---------------------:|:---------------------:|:--------------------:|:--------------------:|:------------:|:--------------:|:---------------:|:------------:|:--------------:|
+|        +1        |          -1           |          -1           |          -1          |          -2          |      0       |       -1       |        0        |      -1      |       0        |
+
+*Autres compétences.*
+
+| [Équitation] | [Voile] | [Commerce] | [Divertissement] | [Taxation] | [Alchimie] | [Herboristerie] |
+|:------------:|:-------:|:----------:|:----------------:|:----------:|:----------:|:---------------:|
+|      0       |   -1    |     0      |        0         |     0      |     -1     |       +2        |
+
 | Poids  | Capacité |
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
@@ -76,6 +102,10 @@ Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, 
 *Goblins (EN), Goblins (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 16 |        0         |          -5           |     10 %     |  40 silver  |
+
 | Poids | Capacité |
 |:-----:|:--------:|
 | 6 lbs | 4,4 lbs  |
@@ -94,9 +124,13 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 *Halflings (EN), Halblinge (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 18 |        0         |           5           |     5 %      |  80 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
@@ -110,9 +144,13 @@ Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons comme
 *Insects (EN), Insekten (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 24 |        2         |           5           |     5 %      |  80 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 !!! warning **Attention**
     Les insectes ne sont pas conseillés aux joueurs inexpérimentés !
@@ -147,14 +185,18 @@ Les insectes n'ont besoin d'aucune construction pour [commercer] dans les déser
 *Cats (EN), Katzen (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 20 |        0         |           0           |     5 %      |  90 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 Connus pour leurs sens développés, les chats font des espions excellents et des gardes hors-pairs . Mais, comme les elfes, ils n’aiment pas les travaux pénibles.
 
 - « Sept vies » : les chats ont 1/7 chance de survivre à un coup mortel ; ils ont dans ce cas leurs points de vie maximum.
-- Les chats ne peuvent porter de Platemail.
+- Les chats ne peuvent porter d'[armure de plaque].
 - Leur Agilité confère aux chats un bonus de +1 en Défense
 
 ## Aquariens
@@ -162,6 +204,14 @@ Connus pour leurs sens développés, les chats font des espions excellents et de
 <!-- cspell:disable -->
 *Aquarians (EN), Meermenschen (DE).*
 <!-- cspell:enable -->
+
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 20 |        0         |           0           |     5 %      |  80 silver  |
+
+| Poids  | Capacité |
+|:------:|:--------:|
+| 10 lbs | 5,4 lbs  |
 
 Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en montagne. Ils construisent et dirigent des bateaux de main de maître, alors que d'autres tâches leur sont plus compliquées.
 
@@ -175,9 +225,13 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 *Humans (EN), Menschen (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 20 |        0         |           0           |     5 %      |  75 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
 
@@ -214,9 +268,13 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 *Orcs (EN), Orks (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 24 |        0         |          -5           |     5 %      |  70 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
@@ -232,6 +290,10 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 <!-- cspell:disable -->
 *Trolls (EN), Trolle (DE).*
 <!-- cspell:enable -->
+
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 30 |        1         |          10           |    7,5 %     |  90 silver  |
 
 | Poids  | Capacité |
 |:------:|:--------:|
@@ -253,9 +315,13 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 *Dwarves (EN), Zwerge (DE).*
 <!-- cspell:enable -->
 
+| PV | Armure naturelle | Résistance à la magie | Régénération | Recrutement |
+|:--:|:----------------:|:---------------------:|:------------:|:-----------:|
+| 24 |        0         |           5           |     5 %      | 110 silver  |
+
 | Poids  | Capacité |
 |:------:|:--------:|
-| 10 lbs |  5,4 lbs |
+| 10 lbs | 5,4 lbs  |
 
 Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
 
@@ -275,11 +341,6 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [mages]: ./magic.md
 [dérobera]: ./cmd-steal.md
 [bateaux]: ./ships.md
-[Mêlée]: ./skills-list.md#melee "Melee"
-[discrétion]: ./skills-list.md#discretion "Stealth"
-[tactique]: ./skills-list.md#tactique "Tactics"
-[perception]: ./skills-list.md#perception
-[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
 [potion]: ./alchemy.md
 [groupes]: ./cmd-group.md
 [déplacent]: ./travel.md
@@ -294,11 +355,12 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [fuir]: ./war.md#la-fuite
 [dragons]: ./monsters.md#dragons
 [hier]: ./war-tables.md#races-et-leurs-caracteristiques
-[commercer]: ./silver.md#commerce
+[commercer]: ./silver.md#le-commerce
 [nager]: ./sailing.md#nager
 [ici]: ./buildings-others.md#cercle-de-pierres
 [1]: ./resources.md#ressources-minieres
 [2]: ./buildings-others.md#mine
+[armure de plaque]: ./war-tables.md#armure-de-plaque "Platemail"
 
 [trolls]: #trolls
 [gobelins]: #gobelins
@@ -307,3 +369,33 @@ Poursuivre la lecture : [Modificateurs de compétences].
 [Feu du Foyer]: ./world.md#feu-du-foyer "Hearth Fire"
 [Vent des Glaces]: ./world.md#vent-des-glaces "Icewind"
 [Neiges Envoûtantes]: ./world.md#neiges-envoutantes "Snowbane"
+
+[alchimie]: ./skills-list.md#alchimie "Alchemy"
+[apprivoisement]: ./skills-list.md#apprivoisement "Taming"
+[arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
+[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
+[commerce]: ./skills-list.md#commerce "Trade"
+[construction routes]: ./skills-list.md#construction-de-routes "Roadwork"
+[construction navale]: ./skills-list.md#construction-navale "Shipcraft"
+[discrétion]: ./skills-list.md#discretion "Stealth"
+[divertissement]: ./skills-list.md#divertissement "Entertainment"
+[endurance]: ./skills-list.md#endurance "Endurance"
+[Équitation]: ./skills-list.fr.md#equitation "Riding"
+[espionnage]: ./skills-list.md#espionnage "Espionage"
+[extraction pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
+[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
+[fab. armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
+[fab. armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
+[fab. chariots]: ./skills-list.md#fabrication-de-chariots "Cartmaking"
+[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
+[maçonnerie]: ./skills-list.md#maconnerie "Masonry"
+[magie]: ./skills-list.md#magie "Magic"
+[mêlée]: ./skills-list.md#melee "Melee"
+[perception]: ./skills-list.md#perception "Perception"
+[sylviculture]: ./skills-list.md#sylviculture "Forestry"
+[tactique]: ./skills-list.md#tactique "Tactics"
+[taxation]: ./skills-list.md#taxation "Taxation"
+[Tir arbalète]: ./skills-list.md#tir-a-larbalete "Crossbow"
+[Tir arc]: ./skills-list.md#tir-a-larc "Bow"
+[Tir catapulte]: ./skills-list.md#tir-a-la-catapulte "Catapult"
+[Voile]: ./skills-list.fr.md#voile "Sailing"

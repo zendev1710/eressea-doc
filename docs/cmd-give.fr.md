@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-give-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `GIVE`
 
 **`GIVE`**` `*`ID-unité`*`HERBS`  
@@ -20,7 +22,7 @@ alias: cmd-give-fr
 
 L'unité transfère des objets, le commandement de bateaux ou de bâtiments, des personnes, des bateaux ou même elle-même à d'autres unités.
 
-## Objets
+## Transfert d'objets
 
 Avec `GIVE` les unités peuvent donner toutes les marchandises qu'elles possèdent à d'autres unités.
 La condition est que l'unité indiquée accepte des choses.  
@@ -88,7 +90,7 @@ END
 ; GIVE TEMP 1 200 Silver  ;  ou ici !
 ```
 
-## People and units
+## Transfert d'unités
 
 Pour réunir des personnes de différentes unités, il faut utiliser l'ordre `GIVE`*`unit-id`*`<quantité> MEN`.  
 Les [[competences]] sont alors **mélangées**.
@@ -101,7 +103,7 @@ Expérience de jeu (Solthar) :
 Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [[cmd-help|`HELP GIVE`]] ne suffit pas !  
 **L'unité réceptrice doit également passer l'ordre [[cmd-contact]]** sur l'unité transférante.  
 
-De plus, si l’unité d’accueil est une [unité de migrants], elle ne doit contenir personne au moment du transfert.  
+De plus, si l’unité d’accueil est une [unité de migrants][humains], elle ne doit contenir personne au moment du transfert.  
 Idéalement, il devrait s'agir d'une unité `TEMP` vide, par exemple :
 
 ```text
@@ -117,7 +119,7 @@ UNIT b; Faction Y
 Avec `GIVE`*`unit-id`*`UNIT` l'unité complète avec tous les objets est donnée à une autre faction, mais pas à l'unité d'identifiant spécifié !  
 L'unité n'exécute plus d'ordres pendant le tour après ce `GIVE` !
 
-## Commandement
+## Transfert de commandement
 
 Si l'unité a également un navire ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.  
 L'unité aux commandes détermine quelles autres unités sont autorisées à entrer dans le bateau ou le bâtiment.
@@ -129,11 +131,11 @@ Ils ne peuvent donc bénéficier des avantages (bonus...) du bâtiment que **lor
 
 Le commandement ne peut pas être donné à des unités sans membre (par exemple après une bataille, ou à des unités `TEMP` "vides").  
 
-## Convoi
+## Transfert de convoi
 
-Avec `GIVE`*`unit-id`*` `*`number`*`SHIP` le propriétaire d'un bateau ou d'un [convoi] remet le nombre de beteaux spécifié.  
+Avec `GIVE`*`unit-id`*` `*`number`*`SHIP` le propriétaire d'un bateau ou d'un [convoi][convoi] remet le nombre de beteaux spécifié.  
 Les unités transférantes et réceptrices doivent appartenir à la même faction (`HELP ALL` et `CONTACT` ne le permmettent pas).  
-Si l'autre unité possède également un bateau, un [convoi] est formé.  
+Si l'autre unité possède également un bateau, un [convoi][convoi] est formé.  
 Les convois sont toujours constitués de bateaux du même type.  
 Les barques ne peuvent pas former de convois et les bateaux doivent se trouver sur la même côte.  
 
@@ -145,6 +147,3 @@ Les barques ne peuvent pas former de convois et les bateaux doivent se trouver s
 - [[buildings]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/fr&oldid=15993] -->
-
-[unité de migrants]: ./races.md#humains
-[convoi]: ./ships.md#convoi

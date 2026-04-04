@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-make-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `MAKE`
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
@@ -68,7 +70,7 @@ Cependant, la nouvelle unité doit toujours avoir des membres, sinon elle sera s
 Il faut donc qu'elle recrute ou qu'on lui donne une personne au moins.  
 Si la nouvelle unité veut recruter de nouveaux membres, elle doit également recevoir suffisamment d’argent pour le faire.  
 Si elle ne reçoit pas cette information, l'unité ne pourra recruter personne et sera silencieusement retirée à la fin de la semaine.  
-Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux [autres unités de leur propre faction].  
+Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux [autres unités de leur propre faction][dissolution-des-unites].  
 
 ```text
 UNIT 17;   Combattants [15,700$]
@@ -108,13 +110,13 @@ Les bateaux ne peuvent être construits qu'à la taille définie selon leur type
 Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* combien de points de taille vous souhaitez ajouter.  
 
 - première semaine : `MAKE longboat`. Un nouveau bateau est construit et reçoit l'identifiant 76 de la part du serveur.
-- deuxième semaine : `MAKE SHIP 76`. Poursuit la construction d'une [chaloupe] d'identifiant 76.
+- deuxième semaine : `MAKE SHIP 76`. Poursuit la construction d'une [chaloupe][chaloupe]{title="Longboat"} d'identifiant 76.
 
 ## Routes
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
-Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes] et des [[objets|pierres]].  
-Dans les glaciers, il faut au préalable un [tunnel], dans les déserts un [caravansérail] et dans les marais un [barrage].  
+Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [[objets|pierres]].  
+Dans les glaciers, il faut au préalable un [tunnel][tunnel], dans les déserts un [caravansérail][caravanserail] et dans les marais un [barrage][barrage]{title="Dam"}.  
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  
 Les routes ne fonctionnent que si elles sont complètes.
@@ -152,12 +154,3 @@ MAKE building xyz ; incorrect : only CASTLE or building type is allowed
 - [[alchimie|Alchimie]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->
-
-[herboristerie]: ./skills-list.md#herboristerie
-[autres unités de leur propre faction]: ./factions.md#dissolution-des-unites
-[construction de routes]: ./skills-list.md#construction-de-routes
-[tunnel]: ./buildings-others.md#tunnel
-[caravansérail]: ./buildings-others.md#caravanserail
-[barrage]: ./buildings-others.md#barrage
-
-[chaloupe]: ./ships.md#chaloupe "Longboat"

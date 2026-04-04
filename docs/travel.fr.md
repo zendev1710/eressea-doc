@@ -2,12 +2,23 @@
 # cSpell:locale fr
 alias: deplacements
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Déplacements
 
 Il existe plusieurs façons de se déplacer : à pied, à cheval, ou en bateau sur les océans.  
-Parfois vous pouvez même voler ou nager.  
 
-Pour toutes ces variantes, il faut utiliser l'ordre [[cmd-move]] ou [[cmd-route]] (déplacement planfié sur plusieurs tours).  
+<!-- TODO: précision : qui peut voler ? à quelle occasion ? -->
+Parfois vous pouvez même voler ou nager (capacité exclusive des [Aquariens][aquariens]{title="Aquarians"}).  
+
+Un déplacement n'est possible que dans les six directions suivantes : nord-est (NE), nord-ouest (NW), est (E), ouest (W), sud-est (SE) et sud-ouest (SW).  
+
+!!! note "Note"
+    Il n'est pas possible de se déplacer directement vers le nord ou le sud.  
+
+Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [[cmd-move]] ou [[cmd-route]] (déplacement planfié sur plusieurs tours).  
+
+La vitesse de déplacement se caractérise par le nombre de régions terrestres (ou de régions océaniques pour un bateau) que peut parcourir une unité en une seule fois.  
 
 Pour qu'une unité puisse se déplacer, le poids total des objets qu'elle porte ne doit pas excéder sa capacité de transport.  
 De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépasse pas sa capacité de transport.
@@ -20,100 +31,92 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 <!-- TODO: check catapult capacity -->
 *Capacité de transport d'une personne selon la race.*
 
-| Race       | Capacité de transport |
-|------------|----------------------:|
-| [Gobelin]  |               **4,4** |
-| [Aquarien] |                   5,4 |
-| [Chat]     |                   5,4 |
-| [Démon]    |                   5,4 |
-| [Elfe]     |                   5,4 |
-| [Halfling] |                   5,4 |
-| [Humain]   |                   5,4 |
-| [Insecte]  |                   5,4 |
-| [Nain]     |                   5,4 |
-| [Orc]      |                   5,4 |
-| [Troll]    |              **10,8** |
+| Race                                     | Capacité de transport |
+|------------------------------------------|----------------------:|
+| [Gobelin][gobelins]{title="Goblins"}     |               **4,4** |
+| [Aquarien][aquariens]{title="Aquarians"} |                   5,4 |
+| [Chat][chats]{title="Cats"}              |                   5,4 |
+| [Démon][demons]{title="Demons"}          |                   5,4 |
+| [Elfe][elfes]{title="Elves"}             |                   5,4 |
+| [Halfling][halflings]{title="Halflings"} |                   5,4 |
+| [Humain][humains]{title="Humans"}        |                   5,4 |
+| [Insecte][insectes]{title="nsects"}      |                   5,4 |
+| [Nain][nains]{title="Dwarves"}           |                   5,4 |
+| [Orc][orcs]{title="Orcs"}                |                   5,4 |
+| [Troll][trolls]{title="Trolls"}          |              **10,8** |
 
-Les trolls ont une capacité de transport supérieure. Les Gobelins ont une capacité de transport moindre.  
+Les trolls ont une capacité de transport supérieure aux autres peuples.
+Les Gobelins ont une capacité de transport moindre.  
 
 Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chariots].  
 
-| Transporteur | Capacité de transport |
-|--------------|----------------------:|
-| [Chariot]    |                   100 |
-| [Cheval]     |                    20 |
+| Transporteur          | Capacité de transport |
+|-----------------------|----------------------:|
+| [Chariot][chariot]{title="Cart"} |                   100 |
+| [Cheval][cheval]{title="Horse"}  |                    20 |
 
 !!! tip "Astuce"
-    Utilisez de l'[Eau de Goliath] au moment opportun ! Cette potion permet d'augmenter la capacité de transport d'une unité sur une durée limitée.
+    Utilisez de l'[Eau de Goliath][eau-de-goliath]{title="Goliath water"} au moment opportun ! Cette potion permet d'augmenter la capacité de transport d'une unité sur une durée limitée.
 
-| Bateau      | Capacité de transport |
-|-------------|----------------------:|
-| [Barque]    |                    50 |
-| [Chaloupe]  |                   500 |
-| [Drakkar]   |                 1 000 |
-| [Trirème]   |                 2 000 |
-| [Caravelle] |                 3 000 |
-| [Galion]    |                20 000 |
+| Bateau                                    | Capacité de transport |
+|-------------------------------------------|----------------------:|
+| [Barque][barque]{title="Boat"}            |                    50 |
+| [Chaloupe][chaloupe]{title="Longboat"}    |                   500 |
+| [Drakkar][drakkar]{title="Dragonship"}    |                 1 000 |
+| [Trirème][trireme]{title="Trireme"}       |                 2 000 |
+| [Caravelle][caravelle]{title="Caravelle"} |                 3 000 |
+| [Galion][galion]{title="Galleon"}         |                20 000 |
 
 ## Poids
 
 *Poids d'une personne selon la race.*
 
-| Race       | Poids |
-|------------|------:|
-| [Gobelin]  |     6 |
-| [Aquarien] |    10 |
-| [Chat]     |    10 |
-| [Démon]    |    10 |
-| [Elfe]     |    10 |
-| [Halfling] |    10 |
-| [Humain]   |    10 |
-| [Insecte]  |    10 |
-| [Nain]     |    10 |
-| [Orc]      |    10 |
-| [Troll]    |    20 |
-| [Chariot]  |    40 |
+| Race                                     | Poids |
+|------------------------------------------|------:|
+| [Gobelin][gobelins]{title="Goblins"}     |     6 |
+| [Aquarien][aquariens]{title="Aquarians"} |    10 |
+| [Chat][chats]{title="Cats"}              |    10 |
+| [Démon][demons]{title="Demons"}          |    10 |
+| [Elfe][elfes]{title="Elves"}             |    10 |
+| [Halfling][halflings]{title="Halflings"} |    10 |
+| [Humain][humains]{title="Humans"}        |    10 |
+| [Insecte][insectes]{title="nsects"}      |    10 |
+| [Nain][nains]{title="Dwarves"}           |    10 |
+| [Orc][orcs]{title="Orcs"}                |    10 |
+| [Troll][trolls]{title="Trolls"}          |    20 |
+
+<!-->
+| [Chariot][chariot]{title="ar"}  |    40 |
+-->
 
 Le poids des objets les plus courants est répertorié dans le [tableau récapitulatif des objets].  
 
 !!! note "Note"
-    Les [potions], [plantes] et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
+    Les [potions][potions], [[plantes|plantes]]{title="plantes"} et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
 
-## Voyage : par terre ou par mer
+## Déplacement par voie terrestre
 
-À chaque tour, il est possible de parcourir une région par voie terrestre.  
-Si une unité a suffisamment de **chevaux** et qu'elle maîtrise l'[Équitation], elle peut se déplacer **d'une région supplémentaire**.  
+À chaque tour, il est possible de parcourir par défaut une région par voie terrestre.  
+
+Si une unité a suffisamment de **chevaux** et qu'elle maîtrise l'[Équitation][equitation]{title="Riding"}, elle peut se déplacer **d'une région supplémentaire**.  
 Si les régions contiguës sont reliées par des [[routes]], les unités peuvent se déplacer jusqu'à **2 régions à pied** et **3 régions à cheval**.  
 
-Le déplacement n'est possible que dans les six directions suivantes : nord-est (NE), nord-ouest (NW), est (E), ouest (W), sud-est (SE) et sud-ouest (SW).  
-Il n'est pas possible de se déplacer directement vers le nord ou le sud.  
-
-Avec l'ordre [[cmd-carry|`CARRY <ID-du-passager>`]], les unités peuvent transporter d'autres unités pendant leur déplacement.  
-L'unité souhaitant être transportée doit donner l'ordre [[cmd-ride|`RIDE <ID-du-transporteur>`]] ([ordre long]).  
-
-Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.  
-L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
-
-Par contre, avec [[cmd-follow|`FOLLOW UNIT <ID-unité-suivie>`]] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
-L'unité qui suit doit porter son propre poids.  
-
-Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
-
-Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
-Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
-Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
-
-## Routes
+### Routes
 
 La construction de [[routes]] permet d'augmenter d'une région la vitesse de déplacement.  
-Pour cela, toutes les régions traversées doivent avoir un réseau routier complet.  
-Ainsi, si l'on veut se rendre à pied à l'est en deux régions en une semaine :
+Pour cela, toutes les régions traversées doivent avoir un réseau routier complet et praticable.  
 
-- la région de départ a besoin d'une route complète vers l'est
-- la région intermédiaire a besoin d'une route complète vers l'est et d'une route complète vers l'ouest
-- la région d'arrivée a besoin d'une route complète vers l'ouest
+Ainsi, si l'on veut se rendre à pied à l'est deux régions plus loin (`MOVE E E`) en une seule fois :
 
-## Chevaux et chariots
+- la région de départ a besoin d'une route praticable vers l'est
+- la région intermédiaire traversée a besoin d'une route praticable vers l'est et d'une route praticable vers l'ouest
+- la région d'arrivée a besoin d'une route praticable vers l'ouest
+
+Si l'une des routes à emprunter n'est pas praticable, l'unité s'arrêtera en chemin, sur la région intermédiaire.
+
+Plus d'information : [[routes|les routes]].
+
+### Chevaux et chariots
 
 La **vitesse de déplacement** à pied sans [[routes|route]] est de 1 région par tour; avec une route, c'est 2.  
 
@@ -155,6 +158,38 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 - Une unité T1 en Équitation, un chariot et deux chevaux peut déplacer 130 épées sur deux régions (le cavalier pèse 10 et doit être déduit de la capacité lorsqu'il est assis sur le chariot). Une unité T1 en Équitation 1 et 4 personnes pourrait déplacer 20 chevaux et 10 chariots sur une région et 8 chevaux et quatre chariots sur deux régions.
 - Si un chariot vide avec deux chevaux doit être transporté sur un bateau, le bateau doit avoir pour cela une capacité libre de 140  lbs (40 lbs pour le chariot et 2 x 50 lbs pour les chevaux).
 
+### Transport d'unités par d'autres
+
+Avec l'ordre [[cmd-carry|`CARRY <ID-du-passager>`]], les unités peuvent transporter d'autres unités pendant leur déplacement.  
+L'unité souhaitant être transportée doit donner l'ordre [[cmd-ride|`RIDE <ID-du-transporteur>`]] ([ordre long][ordres-courts-et-longs]).  
+
+Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.  
+L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
+
+Par contre, avec [[cmd-follow|`FOLLOW UNIT <ID-unité-suivie>`]] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+L'unité qui suit doit porter son propre poids.  
+
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
+
+Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
+Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
+Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
+
+## Déplacement en mer
+
+À chaque tour, il est possible de parcourir un océan.  
+
+L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
+
+Par contre, avec [[cmd-follow|`FOLLOW UNIT <ID-unité-suivie>`]] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+L'unité qui suit doit porter son propre poids.  
+
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
+
+Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
+Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
+Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
+
 ## Voir aussi
 
 - [[bateaux]]
@@ -162,32 +197,4 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 
 Poursuivre la lecture : [[naviguer]].
 
-[Équitation]: ./skills-list.md#equitation "Riding"
-
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
-
-[Troll]: ./races.md#trolls "Trolls"
-[Gobelin]: ./races.md#gobelins "Goblins"
-[Aquarien]: ./races.md#aquariens "Aquarians"
-[Chat]: ./races.md#chats "Cats"
-[Démon]: ./races.md#demons "Demons"
-[Elfe]: ./races.md#elfes "Elves"
-[Halfling]: ./races.md#halflings "Halflings"
-[Humain]: ./races.md#humains "Humans"
-[Insecte]: ./races.md#insectes "Insects"
-[Nain]: ./races.md#nains "Dwarves"
-[Orc]: ./races.md#orcs "Orcs"
-
-[Barque]: ./ships.md#barque "Boat"
-[Chaloupe]: ./ships.md#chaloupe "Longboat"
-[Drakkar]: ./ships.md#drakkar "Dragonship"
-[Trirème]: ./ships.md#trireme "Trireme"
-[Caravelle]: ./ships.md#caravelle "Caravelle"
-[Galion]: ./ships.md#galion "Galleon"
-
-[Chariot]: ./resources.md#chariot "Cart"
-[Cheval]: ./resources.md#cheval "Horse"
-[Eau de Goliath]: ./alchemy.md#eau-de-goliath "Goliath water"
-[potions]: ./alchemy.md#potions "Potions"
-[plantes]: ./herbs.md "Herbs"
-[ordre long]: ./commands.md#ordres-courts-et-longs

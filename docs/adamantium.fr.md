@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: adamantium-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Adamantium
 
 Expérience de jeu :
@@ -12,8 +14,8 @@ On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.
 
 Ce métal précieux permet de fabriquer :
 
-- une [[armure-en-adamantium]]
-- une [[tableaux-relatifs-a-la-guerre#hache-en-adamantium|hache en adamantium]]
+- une [[armure-en-adamantium]]{title="Adamantium armor"}
+- une [hache en adamantium][hache-en-adamantium]{title="Adamantium axe"}
 
 ## Liens externes
 

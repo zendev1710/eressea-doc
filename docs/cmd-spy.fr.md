@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-spy-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `SPY`
 
-*Ordre [long]*.
+*Ordre [long][ordres-courts-et-longs]*.
 
 **`SPY`**` `*`unit-id`*
 
@@ -62,5 +64,3 @@ Il est clair que les tentatives d'espionnage impliquant de nombreuses unités ma
     Actuellement, les résultats sont différents pour des espions de même nature.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->
-
-[long]: ./commands.md#ordres-courts-et-longs

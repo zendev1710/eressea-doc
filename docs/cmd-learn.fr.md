@@ -2,14 +2,16 @@
 # cSpell:locale fr
 alias: cmd-learn-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `LEARN`
 
-*Ordre [long]*.
+*Ordre [long][ordres-courts-et-longs]*.
 
 **`LEARN`**` `*`<compétence>`*  
 **`LEARN`**`Magic "`*`<École de Magie>`*`"`  
 
-Avec cet ordre, l'unité passe un tour à [apprendre] une [[competences|compétence]] donnée (voir aussi : [[liste-des-competences]]).  
+Avec cet ordre, l'unité passe un tour à [apprendre][apprendre-des-competences] une [[competences|compétence]] donnée (voir aussi : [[liste-des-competences]]).  
 
 En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues à la race ou au terrain.  
 
@@ -38,11 +40,8 @@ L'ordre `LEARN Magic "<Magic School>"` détermine [[magie|l'École de Magie]] po
 
 ## Voir aussi
 
-- [apprendre]
+- [apprendre][apprendre-des-competences]
 - [[cmd-teach|enseigner]]
 - [[cmd-learn-auto|apprentissage automatisé]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
-
-[long]: ./commands.md#ordres-courts-et-longs
-[apprendre]: ./skills.md#apprendre-des-competences

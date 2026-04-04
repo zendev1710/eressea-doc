@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-promote-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `PROMOTE`
 
 **`PROMOTE`**  
@@ -17,7 +19,7 @@ C'est pourquoi il vaut la peine de promouvoir les unités dotées de compétence
 
 <!-- TODO: which cost exactly ? -->
 Le coût de la promotion en tant que Héros d'une unité dépend du nombre total de personnes de la faction.  
-Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent] lorsqu'il y en a suffisamment.  
+Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent][reserve-dargent] lorsqu'il y en a suffisamment.  
 
 Le nombre maximum de héros est limité, mais augmente avec la taille de la faction.  
 La formule pour cela est : log10((taille de la faction-500)÷50)×20.  
@@ -40,5 +42,3 @@ Pour ceux qui sont paresseux en maths, voici un tableau indiquant combien de Hé
 | Héros     |  21  |  22  |  23  |  24  |  25  |  26  |  27  |  28  |  29  |  30  |  35  |  40  |  45  |  50   |  55   |  60   |  65   |   70   |   75   |   80   | ... |
 
 <!-- From [https://wiki.eressea.de/index.php?title=PROMOTE&oldid=16056] -->
-
-[réserve d'argent]: ./items-pool.md#reserve-dargent

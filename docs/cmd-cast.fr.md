@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-cast-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `CAST`
 
-*Ordre [court][^1].*
+*Ordre [court][ordres-courts-et-longs] [^1].*
 
 **`CAST`**` [REGION `*`<x>`*` `*`<y>`*`] [LEVEL`` `*`niveau`*`] "`*`<sort>`*`" [`*`parameter`*`] ...`
 
@@ -12,7 +14,7 @@ Avec cet ordre, une unité de mage tentera de lancer le sort spécifié.
 
 Veuillez noter que les modificateurs `REGION` et `LEVEL` ne s'appliquent pas à tous les sorts.  
 
-`REGION` ne peut être utilisé qu'avec des [sorts à distance], et `LEVEL` n'a de sens qu'avec des sorts à [coût] variable.
+`REGION` ne peut être utilisé qu'avec des [sorts à distance][magie-a-distance], et `LEVEL` n'a de sens qu'avec des sorts à [coût][composants] variable.
 
 !!! note
     Certains sorts ont des paramètres supplémentaires.
@@ -27,7 +29,3 @@ Cependant, cela peut déclencher de plus grandes batailles !
 [^1]: bien que `CAST` ne soit pas un ordre long, il exclut les autres ordres longs. Mais vous pouvez lancer d'autres sorts.
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
-
-[court]: ./commands.md#ordres-courts-et-longs
-[sorts à distance]: ./magic.md#magie-a-distance
-[coût]: ./magic.md#composants

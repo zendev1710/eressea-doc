@@ -2,11 +2,14 @@
 # cSpell:locale fr
 alias: armure-en-adamantium
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Armure en adamantium
 
-Armure [fabriquée] à partir d'[[adamantium]].  
+<!-- cspell:disable -->
+*Adamantium armor (EN), Adamantiumrüstung (DE)*.
+<!-- cspell:enable -->
 
-Cette armure offre la **meilleure** [protection].
+Armure [fabriquée][fabrication-darmures]{title="Armoursmithing"} à partir d'[[adamantium]].  
 
-[fabriquée]: ./skills-list.md#fabrication-darmures
-[protection]: ./war-tables.md#armures
+Cette armure offre la **meilleure** [protection][armures]{title="Armours"}.

@@ -6,7 +6,7 @@ alias: bases
 
 Ce n’est pas parce qu’il n’y a pas de gagnant à Eressea que vous ne pouvez pas perdre.  
 
-Nous voyons souvent des erreurs évitables chez les débutants, qui conduisent à l'élimination précoce d'une [[factions-fr|faction]] du jeu parce qu'une règle n'a pas été entièrement comprise, ou que le joueur rencontre des problèmes sans être préparé.  
+Nous voyons souvent des erreurs évitables chez les débutants, qui conduisent à l'élimination précoce d'une [[faction-fr]] du jeu parce qu'une règle n'a pas été entièrement comprise, ou que le joueur rencontre des problèmes sans être préparé.  
 
 Pour bien débuter, chaque joueur devrait prendre connaissance des éléments de base qui suivent.  
 
@@ -19,27 +19,27 @@ Le rapport informatique (CR) est un fichier compris par des outils tels que [[ma
 Nous recommandons aux débutants de faire leurs premiers pas avec le rapport normal et un éditeur de texte.  
 Les premières commandes font rarement plus d'une douzaine de lignes et vous n'avez pas besoin d'un outil comme Magellan pour les créer.  
 
-Au contraire, étant donné que ces outils sont conçus pour gérer de grandes factions comptant des centaines d'[[factions-fr#les-unites|unités]], ils comportent de nombreuses fonctionnalités qui ont tendance à prêter à confusion au début.  
+Au contraire, étant donné que ces outils sont conçus pour gérer de grandes factions comptant des centaines d'[[faction-fr#unites|unités]], ils comportent de nombreuses fonctionnalités qui ont tendance à prêter à confusion au début.  
 Cela peut détourner l’attention des informations importantes, qui sont plus faciles à identifier dans le rapport normal.  
 
-## Ordres longs et courts
+## Les ordres longs et courts
 
 Chaque unité ne peut effectuer qu'un seul [[ordres#ordres-courts-et-longs|ordre long]] par semaine, mais peut effectuer un nombre illimité d'ordres courts.  
 
 !!! warning "Danger"
     Le [[guerre#le-combat|combat]] peut être une action longue, même si vous n'avez pas vous-même attaqué.  
 
-## Bataille
+## La bataille
 
 Les combats dans des régions que vous ne [[cmd-guard|gardez pas]]{title="GUARD"} sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [[cmd-attack|attaque]]{title="ATTACK"} d'exécuter leur ordre long.  
 Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que votre faction est susceptible d'être attaquée.  
 
-## Famine
+## La famine
 
 Évitez la [[argent#famine|famine]] à tout prix. Les effets sont catastrophiques.  
 Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
-## Finance
+## Les finances
 
 Le [[liste-des-competences#divertissement|divertissement]]{title="Entertainment"} et la [[liste-des-competences#taxation|collecte d'impôts]]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
 

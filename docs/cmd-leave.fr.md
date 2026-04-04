@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-leave-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `LEAVE`
 
 **`LEAVE`**  
@@ -24,8 +26,6 @@ Pour plus d'informations, consultez [[cmd-guard]].
 
 L’ordre `LEAVE` ne fonctionne pas en haute mer.
 Une façon de laisser les gens sauter par-dessus bord est de donner l'ordre `GIVE 0 [number] MEN`.  
-Une autre solution **réservée aux Aquariens** et qui ne tue pas de membres de l'unité est de [nager].
+Une autre solution **réservée aux Aquariens** et qui ne tue pas de membres de l'unité est de [nager][nager].
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
-
-[nager]: ./sailing.md#nager

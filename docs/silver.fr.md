@@ -157,7 +157,7 @@ Si la compétence de [[camouflage]] du voleur est supérieure à la [perception]
 
 Plus d'information : [[camouflage|le camouflage et le vol]].  
 
-## Commerce
+## Le commerce
 
 Dans chaque région, les paysans fabriquent un produit de luxe.  
 Ce produit peut leur être acheté.  

@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-route-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `ROUTE`
 
-*Ordre [long].*  
+*Ordre [long][ordres-courts-et-longs].*  
 
 **`ROUTE`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
@@ -50,5 +52,3 @@ Et finalement, l'ordre devient identique à l'ordre initial.
 - [[cmd-follow]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
-
-[long]: ./commands.md#ordres-courts-et-longs

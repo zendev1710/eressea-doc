@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: cmd-piracy-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `PIRACY`
 
-*Ordre [long].*  
+*Ordre [long][ordres-courts-et-longs].*  
 
 **`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`  
 
@@ -16,9 +18,6 @@ Si aucun identifiant de faction n'est renseigné, il répond à tous les bateaux
 
 ## Voir aussi
 
-- [Piraterie]
+- [Piraterie][piraterie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRACY&oldid=16789] -->
-
-[long]: ./commands.md#ordres-courts-et-longs
-[Piraterie]: ./war.md#piraterie

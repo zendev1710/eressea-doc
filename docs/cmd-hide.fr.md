@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-hide-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `HIDE`
 
 **`HIDE`**`[`*`niveau`*`]`  
@@ -46,14 +48,11 @@ Cependant, ce camouflage présente quelques fonctionnalités spéciales, qui son
 Cependant, [[cmd-group]] a également pour effet secondaire d'avoir plusieurs armées.  
 De cette façon, vous ne pouvez pas voir si les unités se font passer pour une faction étrangère ou si la personne en question possède simplement plusieurs groupes.
 
-Avec `HIDE <race>` les [démons] peuvent se déguiser en une autre race.
+Avec `HIDE <race>` les [démons][demons] peuvent se déguiser en une autre race.
 
 ## Voir aussi
 
-- [espionnage]
+- [Espionnage][espionnage]{title="Espionage"}
 - [[camouflage]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
-
-[espionnage]: ./skills-list.md#espionnage
-[démons]: ./races.md#demons

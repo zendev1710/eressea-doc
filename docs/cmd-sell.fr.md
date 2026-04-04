@@ -2,14 +2,16 @@
 # cSpell:locale fr
 alias: cmd-sell-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `SELL`
 
-*`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][^1].*  
+*`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
 
 **`SELL`**` `*`nombre`*` `*`produit de luxe`*  
 **`SELL`**` ALL `*`produit de luxe`*  
 
-L'unité compétente en [commerce] peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
+L'unité compétente en [commerce][le-commerce] peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
 Cela n'est possible que si, premièrement, il y a un poste de commerce ou un [[chateaux|château de plus grande taille]] dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.  
 Pour vendre quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
 Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  
@@ -32,10 +34,7 @@ Dans le rapport informatique (CR) et le [[ordres|modèle d'ordres]] tous les ord
 
 ## Voir aussi
 
-- [Commerce]
+- [Commerce][le-commerce]
 - [[cmd-buy]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
-
-[pseudo-long]: ./commands.md#ordres-courts-et-longs
-[commerce]: ./silver.md#commerce

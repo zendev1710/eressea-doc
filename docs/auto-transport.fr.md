@@ -10,13 +10,13 @@ Les processus logistiques dans Eressea peuvent être grossièrement divisés en 
 2. Offre et demande de matières premières
 3. Offre et demande de produits finis
 
-## Commerce
+## Transport des biens de luxe
 
 Le secteur commercial forme un cercle relativement fermé et stable, car au moins l'ampleur de l'offre et de la demande correspond, et une livraison régulière et permanente est nécessaire.  
 Les itinéraires fixes se sont révélés simples et efficaces, du moins pour les deux biens échangeables.  
 Cependant, les itinéraires dynamiques offrent l'avantage de bien répartir les marchandises externes et permettent également d'effectuer des transports avec moins d'unités et avec plus de capacité.  
 
-## Matières premières
+## Transport des matières premières
 
 Le secteur des matières premières est également moins fermé mais largement stable.  
 
@@ -28,7 +28,7 @@ La possibilité de fabriquer les produits finis directement sur place peut s'av�
 Cependant, d’autres conditions supplémentaires rendent également intéressante la poursuite du traitement centralisé.  
 Il est donc important de peser les choses ici.  
 
-### Plantes
+### Transport des plantes
 
 Les plantes sont une particularité lors de la planification du transport.  
 
@@ -37,7 +37,7 @@ Des itinéraires fixes pour une collecte régulière garantie ont donc été mis
 
 Toutefois, des approches dynamiques prenant en compte l’inventaire et les besoins existants sont envisageables.  
 
-## Produits finis
+## Transport des produits finis
 
 Les éléments les plus difficiles à calculer sont les produits finis.  
 

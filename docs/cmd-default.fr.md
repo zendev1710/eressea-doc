@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-default-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `DEFAULT`
 
 **`DEFAULT`**`"`*`order`*`"`  
@@ -19,7 +21,7 @@ Ils sont également inclus dans le rapport informatique (CR).
 Le rapport normal (NR) ne contient toujours que le premier ordre long par défaut.  
 Vous ne pouvez donc pas y voir tous les ordres par défaut.
 
-Tous les [ordres longs] sont normalement inclus dans les ordres par défaut d'une unité.
+Tous les [ordres longs][ordres-courts-et-longs] sont normalement inclus dans les ordres par défaut d'une unité.
 Les exceptions sont `ATTACK`, `FOLLOW` et `MOVE`.  
 
 De plus, tous les [[comment-with-slashes|`//`]] et tous les ordres commençant par `@` sont adoptés.
@@ -55,7 +57,7 @@ Il en va de même pour les autres ordres invalides.
 
 L'ordre `DEFAULT` change ce comportement en modifiant les ordres par défaut transmis par le serveur.  
 Si l'unité a reçu un ordre `DEFAULT`, ses ordres **longs** ne seront pas inclus dans le modèle d'ordres.  
-Les [ordres longs] avec `//` et ordres court avec `@` sont acceptés.
+Les [ordres longs][ordres-courts-et-longs] avec `//` et ordres court avec `@` sont acceptés.
 Les ordres donnés sont validés dans une certaine mesure.
 Les ordres invalides ne sont donc pas acceptés.  
 Cependant, ce test a des limites, il vaut mieux ne pas s’y fier.
@@ -199,5 +201,3 @@ Les langages de script tels que [[vorlage]], [[extended-commands]] ou [[fftools]
 - [[sending-orders]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
-
-[ordres longs]: ./commands.md#ordres-courts-et-longs

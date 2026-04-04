@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-quit-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `QUIT`
 
 **`QUIT`**` ``"<mot de passe>"`  
@@ -16,7 +18,7 @@ Seuls ceux qui ont reçu un [[cmd-help|`HELP SILVER`]] sont considérés comme d
 La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
 Les objets vont à la première unité de la faction dans la région.  
 S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  
-Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs], [Démons] et [Monstres]).  
+Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs][orcs], [Démons][demons] et [Monstres][monstres]).  
 
 **`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 
@@ -57,7 +59,3 @@ Il est donc préférable de s'assurer à l'avance que la faction fusionnée resp
     ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
-
-[Orcs]: ./races.md#orcs "Orcs"
-[Démons]: ./races.md#demons "Demons"
-[Monstres]: ./monsters.md "Monsters"

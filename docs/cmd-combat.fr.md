@@ -2,17 +2,19 @@
 # cSpell:locale fr
 alias: cmd-combat-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # `COMBAT`
 
-**`COMBAT`**`FRONT`  
-**`COMBAT`**`AGGRESSIVE`  
-**`COMBAT`**`REAR`  
-**`COMBAT`**`DEFENSIVE`  
-**`COMBAT`**`NOT`  
-**`COMBAT`**`FLEE`  
-**`COMBAT`**`HELP [NOT]`  
+**`COMBAT FRONT`**  
+**`COMBAT AGGRESSIVE`**  
+**`COMBAT REAR`**  
+**`COMBAT DEFENSIVE`**  
+**`COMBAT NOT`**  
+**`COMBAT FLEE`**  
+**`COMBAT HELP [NOT]`**  
 
-Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section [Lignes de combat] dans le chapitre [[guerre]]).  
+Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section [Lignes de combat][lignes-de-combat] dans le chapitre [[guerre]]).  
 
 ## `COMBAT AGGRESSIVE`
 
@@ -48,7 +50,7 @@ L'unité tentera de fuir dès qu'elle aura perdu 10% de ses points de vie.
 
 ## `COMBAT FLEE`
 
-Si une unité prête à [fuir] est impliquée dans un combat, elle tentera de fuir avant chaque round de combat.  
+Si une unité prête à [fuir][la-fuite] est impliquée dans un combat, elle tentera de fuir avant chaque round de combat.  
 <!-- TODO: find escape section and combat chapter -->
 Pour plus d'informations sur le comportement de fuite, consultez la section [Échappement] du chapitre Combat.  
 
@@ -83,6 +85,3 @@ Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle
 Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [[alliances|Alliance]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
-
-[Lignes de combat]: ./war.md#lignes-de-combat
-[fuir]: ./war.md#la-fuite

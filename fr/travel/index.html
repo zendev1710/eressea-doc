@@ -1445,17 +1445,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voyage-par-terre-ou-par-mer" class="md-nav__link">
+  <a href="#deplacement-par-voie-terrestre" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voyage : par terre ou par mer
+        Déplacement par voie terrestre
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Déplacement par voie terrestre">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#routes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1465,12 +1466,39 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#chevaux-et-chariots" class="md-nav__link">
     <span class="md-ellipsis">
       
         Chevaux et chariots
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transport-dunites-par-dautres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport d'unités par d'autres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deplacement-en-mer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Déplacement en mer
       
     </span>
   </a>
@@ -6665,6 +6693,8 @@
       
         
       
+        
+      
     
     
     
@@ -6724,7 +6754,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6977,6 +7007,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7787,17 +7845,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voyage-par-terre-ou-par-mer" class="md-nav__link">
+  <a href="#deplacement-par-voie-terrestre" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voyage : par terre ou par mer
+        Déplacement par voie terrestre
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Déplacement par voie terrestre">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#routes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7807,12 +7866,39 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#chevaux-et-chariots" class="md-nav__link">
     <span class="md-ellipsis">
       
         Chevaux et chariots
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transport-dunites-par-dautres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport d'unités par d'autres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deplacement-en-mer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Déplacement en mer
       
     </span>
   </a>
@@ -7898,10 +7984,19 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="deplacements">Déplacements<a class="headerlink" href="#deplacements" title="Permanent link">&para;</a></h1>
-<p>Il existe plusieurs façons de se déplacer : à pied, à cheval, ou en bateau sur les océans.<br />
-Parfois vous pouvez même voler ou nager.  </p>
-<p>Pour toutes ces variantes, il faut utiliser l'ordre <a href="../cmd-move/">MOVE</a> ou <a href="../cmd-route/">ROUTE</a> (déplacement planfié sur plusieurs tours).  </p>
+<p>Il existe plusieurs façons de se déplacer : à pied, à cheval, ou en bateau sur les océans.  </p>
+<!-- TODO: précision : qui peut voler ? à quelle occasion ? -->
+<p>Parfois vous pouvez même voler ou nager (capacité exclusive des <a class="autorefs autorefs-internal" href="../races/#aquariens" title="Aquarians">Aquariens</a>).  </p>
+<p>Un déplacement n'est possible que dans les six directions suivantes : nord-est (NE), nord-ouest (NW), est (E), ouest (W), sud-est (SE) et sud-ouest (SW).  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il n'est pas possible de se déplacer directement vers le nord ou le sud.  </p>
+</div>
+<p>Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres <a href="../cmd-move/">MOVE</a> ou <a href="../cmd-route/">ROUTE</a> (déplacement planfié sur plusieurs tours).  </p>
+<p>La vitesse de déplacement se caractérise par le nombre de régions terrestres (ou de régions océaniques pour un bateau) que peut parcourir une unité en une seule fois.  </p>
 <p>Pour qu'une unité puisse se déplacer, le poids total des objets qu'elle porte ne doit pas excéder sa capacité de transport.<br />
 De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépasse pas sa capacité de transport.</p>
 <div class="admonition info">
@@ -7920,52 +8015,53 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 </thead>
 <tbody>
 <tr>
-<td><a href="../races/#gobelins" title="Goblins">Gobelin</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#gobelins" title="Goblins">Gobelin</a></td>
 <td style="text-align: right;"><strong>4,4</strong></td>
 </tr>
 <tr>
-<td><a href="../races/#aquariens" title="Aquarians">Aquarien</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#aquariens" title="Aquarians">Aquarien</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#chats" title="Cats">Chat</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#chats" title="Cats">Chat</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#demons" title="Demons">Démon</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#demons" title="Demons">Démon</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#elfes" title="Elves">Elfe</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#elfes" title="Elves">Elfe</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#halflings" title="Halflings">Halfling</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#halflings" title="Halflings">Halfling</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#humains" title="Humans">Humain</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#humains" title="Humans">Humain</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#insectes" title="Insects">Insecte</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#insectes" title="nsects">Insecte</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#nains" title="Dwarves">Nain</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#nains" title="Dwarves">Nain</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#orcs" title="Orcs">Orc</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#orcs" title="Orcs">Orc</a></td>
 <td style="text-align: right;">5,4</td>
 </tr>
 <tr>
-<td><a href="../races/#trolls" title="Trolls">Troll</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#trolls" title="Trolls">Troll</a></td>
 <td style="text-align: right;"><strong>10,8</strong></td>
 </tr>
 </tbody>
 </table>
-<p>Les trolls ont une capacité de transport supérieure. Les Gobelins ont une capacité de transport moindre.  </p>
+<p>Les trolls ont une capacité de transport supérieure aux autres peuples.
+Les Gobelins ont une capacité de transport moindre.  </p>
 <p>Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chariots].  </p>
 <table>
 <thead>
@@ -7976,18 +8072,18 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 </thead>
 <tbody>
 <tr>
-<td><a href="../resources/#chariot" title="Cart">Chariot</a></td>
+<td><a class="autorefs autorefs-internal" href="../resources/#chariot" title="Cart">Chariot</a></td>
 <td style="text-align: right;">100</td>
 </tr>
 <tr>
-<td><a href="../resources/#cheval" title="Horse">Cheval</a></td>
+<td><a class="autorefs autorefs-internal" href="../resources/#cheval" title="Horse">Cheval</a></td>
 <td style="text-align: right;">20</td>
 </tr>
 </tbody>
 </table>
 <div class="admonition tip">
 <p class="admonition-title">Astuce</p>
-<p>Utilisez de l'<a href="../alchemy/#eau-de-goliath" title="Goliath water">Eau de Goliath</a> au moment opportun ! Cette potion permet d'augmenter la capacité de transport d'une unité sur une durée limitée.</p>
+<p>Utilisez de l'<a class="autorefs autorefs-internal" href="../alchemy/#eau-de-goliath" title="Goliath water">Eau de Goliath</a> au moment opportun ! Cette potion permet d'augmenter la capacité de transport d'une unité sur une durée limitée.</p>
 </div>
 <table>
 <thead>
@@ -7998,27 +8094,27 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 </thead>
 <tbody>
 <tr>
-<td><a href="../ships/#barque" title="Boat">Barque</a></td>
+<td><a class="autorefs autorefs-internal" href="../ships/#barque" title="Boat">Barque</a></td>
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td><a href="../ships/#chaloupe" title="Longboat">Chaloupe</a></td>
+<td><a class="autorefs autorefs-internal" href="../ships/#chaloupe" title="Longboat">Chaloupe</a></td>
 <td style="text-align: right;">500</td>
 </tr>
 <tr>
-<td><a href="../ships/#drakkar" title="Dragonship">Drakkar</a></td>
+<td><a class="autorefs autorefs-internal" href="../ships/#drakkar" title="Dragonship">Drakkar</a></td>
 <td style="text-align: right;">1 000</td>
 </tr>
 <tr>
-<td><a href="../ships/#trireme" title="Trireme">Trirème</a></td>
+<td><a class="autorefs autorefs-internal" href="../../ships/#trireme" title="Trireme">Trirème</a></td>
 <td style="text-align: right;">2 000</td>
 </tr>
 <tr>
-<td><a href="../ships/#caravelle" title="Caravelle">Caravelle</a></td>
+<td><a class="autorefs autorefs-internal" href="../ships/#caravelle" title="Caravelle">Caravelle</a></td>
 <td style="text-align: right;">3 000</td>
 </tr>
 <tr>
-<td><a href="../ships/#galion" title="Galleon">Galion</a></td>
+<td><a class="autorefs autorefs-internal" href="../ships/#galion" title="Galleon">Galion</a></td>
 <td style="text-align: right;">20 000</td>
 </tr>
 </tbody>
@@ -8034,86 +8130,76 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 </thead>
 <tbody>
 <tr>
-<td><a href="../races/#gobelins" title="Goblins">Gobelin</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#gobelins" title="Goblins">Gobelin</a></td>
 <td style="text-align: right;">6</td>
 </tr>
 <tr>
-<td><a href="../races/#aquariens" title="Aquarians">Aquarien</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#aquariens" title="Aquarians">Aquarien</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#chats" title="Cats">Chat</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#chats" title="Cats">Chat</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#demons" title="Demons">Démon</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#demons" title="Demons">Démon</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#elfes" title="Elves">Elfe</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#elfes" title="Elves">Elfe</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#halflings" title="Halflings">Halfling</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#halflings" title="Halflings">Halfling</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#humains" title="Humans">Humain</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#humains" title="Humans">Humain</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#insectes" title="Insects">Insecte</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#insectes" title="nsects">Insecte</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#nains" title="Dwarves">Nain</a></td>
+<td><a class="autorefs autorefs-internal" href="../races/#nains" title="Dwarves">Nain</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#orcs" title="Orcs">Orc</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#orcs" title="Orcs">Orc</a></td>
 <td style="text-align: right;">10</td>
 </tr>
 <tr>
-<td><a href="../races/#trolls" title="Trolls">Troll</a></td>
+<td><a class="autorefs autorefs-internal" href="../../races/#trolls" title="Trolls">Troll</a></td>
 <td style="text-align: right;">20</td>
-</tr>
-<tr>
-<td><a href="../resources/#chariot" title="Cart">Chariot</a></td>
-<td style="text-align: right;">40</td>
 </tr>
 </tbody>
 </table>
+<!-->
+| [Chariot][chariot]{title="ar"}  |    40 |
+-->
+
 <p>Le poids des objets les plus courants est répertorié dans le [tableau récapitulatif des objets].  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Les <a href="../alchemy/#potions" title="Potions">potions</a>, <a href="../herbs/" title="Herbs">plantes</a> et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.</p>
+<p>Les <a class="autorefs autorefs-internal" href="../../alchemy/#potions">potions</a>, <a href="../herbs/" title="plantes">plantes</a> et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.</p>
 </div>
-<h2 id="voyage-par-terre-ou-par-mer">Voyage : par terre ou par mer<a class="headerlink" href="#voyage-par-terre-ou-par-mer" title="Permanent link">&para;</a></h2>
-<p>À chaque tour, il est possible de parcourir une région par voie terrestre.<br />
-Si une unité a suffisamment de <strong>chevaux</strong> et qu'elle maîtrise l'<a href="../skills-list/#equitation" title="Riding">Équitation</a>, elle peut se déplacer <strong>d'une région supplémentaire</strong>.<br />
+<h2 id="deplacement-par-voie-terrestre">Déplacement par voie terrestre<a class="headerlink" href="#deplacement-par-voie-terrestre" title="Permanent link">&para;</a></h2>
+<p>À chaque tour, il est possible de parcourir par défaut une région par voie terrestre.  </p>
+<p>Si une unité a suffisamment de <strong>chevaux</strong> et qu'elle maîtrise l'<a class="autorefs autorefs-internal" href="../skills-list/#equitation" title="Riding">Équitation</a>, elle peut se déplacer <strong>d'une région supplémentaire</strong>.<br />
 Si les régions contiguës sont reliées par des <a href="../roads/">Routes</a>, les unités peuvent se déplacer jusqu'à <strong>2 régions à pied</strong> et <strong>3 régions à cheval</strong>.  </p>
-<p>Le déplacement n'est possible que dans les six directions suivantes : nord-est (NE), nord-ouest (NW), est (E), ouest (W), sud-est (SE) et sud-ouest (SW).<br />
-Il n'est pas possible de se déplacer directement vers le nord ou le sud.  </p>
-<p>Avec l'ordre <a href="../cmd-carry/"><code>CARRY &lt;ID-du-passager&gt;</code></a>, les unités peuvent transporter d'autres unités pendant leur déplacement.<br />
-L'unité souhaitant être transportée doit donner l'ordre <a href="../cmd-ride/"><code>RIDE &lt;ID-du-transporteur&gt;</code></a> (<a href="../commands/#ordres-courts-et-longs">ordre long</a>).  </p>
-<p>Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.<br />
-L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  </p>
-<p>Par contre, avec <a href="../cmd-follow/"><code>FOLLOW UNIT &lt;ID-unité-suivie&gt;</code></a> ou <code>FOLLOW SHIP &lt;ID-bateau-suivi&gt;</code>, c'est comme si l'unité avait elle-même donné un ordre <a href="../cmd-move/">MOVE</a>, si l'unité suivie (ou le bateau) a un ordre de déplacement.<br />
-L'unité qui suit doit porter son propre poids.  </p>
-<p>Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir <a href="../cmd-guard/">GUARD</a>).  </p>
-<p>Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.<br />
-Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les <em>silvers</em> qu'elle transporte, est comparé à sa capacité de transport.<br />
-Le tableau dans le chapitre <a href="../items/">Objets</a> référence le poids des marchandises.</p>
-<h2 id="routes">Routes<a class="headerlink" href="#routes" title="Permanent link">&para;</a></h2>
+<h3 id="routes">Routes<a class="headerlink" href="#routes" title="Permanent link">&para;</a></h3>
 <p>La construction de <a href="../roads/">Routes</a> permet d'augmenter d'une région la vitesse de déplacement.<br />
-Pour cela, toutes les régions traversées doivent avoir un réseau routier complet.<br />
-Ainsi, si l'on veut se rendre à pied à l'est en deux régions en une semaine :</p>
+Pour cela, toutes les régions traversées doivent avoir un réseau routier complet et praticable.  </p>
+<p>Ainsi, si l'on veut se rendre à pied à l'est deux régions plus loin (<code>MOVE E E</code>) en une seule fois :</p>
 <ul>
-<li>la région de départ a besoin d'une route complète vers l'est</li>
-<li>la région intermédiaire a besoin d'une route complète vers l'est et d'une route complète vers l'ouest</li>
-<li>la région d'arrivée a besoin d'une route complète vers l'ouest</li>
+<li>la région de départ a besoin d'une route praticable vers l'est</li>
+<li>la région intermédiaire traversée a besoin d'une route praticable vers l'est et d'une route praticable vers l'ouest</li>
+<li>la région d'arrivée a besoin d'une route praticable vers l'ouest</li>
 </ul>
-<h2 id="chevaux-et-chariots">Chevaux et chariots<a class="headerlink" href="#chevaux-et-chariots" title="Permanent link">&para;</a></h2>
+<p>Si l'une des routes à emprunter n'est pas praticable, l'unité s'arrêtera en chemin, sur la région intermédiaire.</p>
+<p>Plus d'information : <a href="../roads/">les routes</a>.</p>
+<h3 id="chevaux-et-chariots">Chevaux et chariots<a class="headerlink" href="#chevaux-et-chariots" title="Permanent link">&para;</a></h3>
 <p>La <strong>vitesse de déplacement</strong> à pied sans <a href="../roads/">route</a> est de 1 région par tour; avec une route, c'est 2.  </p>
 <p>À cheval, on peut se déplacer de 2 régions sans route, de 3 régions avec des routes.  </p>
 <p>Un niveau de compétence par 2 chevaux est nécessaire pour monter.
@@ -8144,6 +8230,26 @@ Il convient de noter que le poids des cavaliers doit être déduit de la capacit
 <li>Une unité T1 en Équitation, un chariot et deux chevaux peut déplacer 130 épées sur deux régions (le cavalier pèse 10 et doit être déduit de la capacité lorsqu'il est assis sur le chariot). Une unité T1 en Équitation 1 et 4 personnes pourrait déplacer 20 chevaux et 10 chariots sur une région et 8 chevaux et quatre chariots sur deux régions.</li>
 <li>Si un chariot vide avec deux chevaux doit être transporté sur un bateau, le bateau doit avoir pour cela une capacité libre de 140  lbs (40 lbs pour le chariot et 2 x 50 lbs pour les chevaux).</li>
 </ul>
+<h3 id="transport-dunites-par-dautres">Transport d'unités par d'autres<a class="headerlink" href="#transport-dunites-par-dautres" title="Permanent link">&para;</a></h3>
+<p>Avec l'ordre <a href="../cmd-carry/"><code>CARRY &lt;ID-du-passager&gt;</code></a>, les unités peuvent transporter d'autres unités pendant leur déplacement.<br />
+L'unité souhaitant être transportée doit donner l'ordre <a href="../cmd-ride/"><code>RIDE &lt;ID-du-transporteur&gt;</code></a> (<a class="autorefs autorefs-internal" href="../commands/#ordres-courts-et-longs">ordre long</a>).  </p>
+<p>Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.<br />
+L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  </p>
+<p>Par contre, avec <a href="../cmd-follow/"><code>FOLLOW UNIT &lt;ID-unité-suivie&gt;</code></a> ou <code>FOLLOW SHIP &lt;ID-bateau-suivi&gt;</code>, c'est comme si l'unité avait elle-même donné un ordre <a href="../cmd-move/">MOVE</a>, si l'unité suivie (ou le bateau) a un ordre de déplacement.<br />
+L'unité qui suit doit porter son propre poids.  </p>
+<p>Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir <a href="../cmd-guard/">GUARD</a>).  </p>
+<p>Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.<br />
+Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les <em>silvers</em> qu'elle transporte, est comparé à sa capacité de transport.<br />
+Le tableau dans le chapitre <a href="../items/">Objets</a> référence le poids des marchandises.</p>
+<h2 id="deplacement-en-mer">Déplacement en mer<a class="headerlink" href="#deplacement-en-mer" title="Permanent link">&para;</a></h2>
+<p>À chaque tour, il est possible de parcourir un océan.  </p>
+<p>L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  </p>
+<p>Par contre, avec <a href="../cmd-follow/"><code>FOLLOW UNIT &lt;ID-unité-suivie&gt;</code></a> ou <code>FOLLOW SHIP &lt;ID-bateau-suivi&gt;</code>, c'est comme si l'unité avait elle-même donné un ordre <a href="../cmd-move/">MOVE</a>, si l'unité suivie (ou le bateau) a un ordre de déplacement.<br />
+L'unité qui suit doit porter son propre poids.  </p>
+<p>Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir <a href="../cmd-guard/">GUARD</a>).  </p>
+<p>Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.<br />
+Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les <em>silvers</em> qu'elle transporte, est comparé à sa capacité de transport.<br />
+Le tableau dans le chapitre <a href="../items/">Objets</a> référence le poids des marchandises.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../ships/">Bateaux</a></li>

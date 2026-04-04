@@ -3501,10 +3501,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objets" class="md-nav__link">
+  <a href="#transfert-dobjets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objets
+        Transfert d'objets
       
     </span>
   </a>
@@ -3512,10 +3512,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#people-and-units" class="md-nav__link">
+  <a href="#transfert-dunites" class="md-nav__link">
     <span class="md-ellipsis">
       
-        People and units
+        Transfert d'unités
       
     </span>
   </a>
@@ -3523,10 +3523,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commandement" class="md-nav__link">
+  <a href="#transfert-de-commandement" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Commandement
+        Transfert de commandement
       
     </span>
   </a>
@@ -3534,10 +3534,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#convoi" class="md-nav__link">
+  <a href="#transfert-de-convoi" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Convoi
+        Transfert de convoi
       
     </span>
   </a>
@@ -6659,6 +6659,8 @@
       
         
       
+        
+      
     
     
     
@@ -6718,7 +6720,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6971,6 +6973,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7759,10 +7789,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objets" class="md-nav__link">
+  <a href="#transfert-dobjets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objets
+        Transfert d'objets
       
     </span>
   </a>
@@ -7770,10 +7800,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#people-and-units" class="md-nav__link">
+  <a href="#transfert-dunites" class="md-nav__link">
     <span class="md-ellipsis">
       
-        People and units
+        Transfert d'unités
       
     </span>
   </a>
@@ -7781,10 +7811,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commandement" class="md-nav__link">
+  <a href="#transfert-de-commandement" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Commandement
+        Transfert de commandement
       
     </span>
   </a>
@@ -7792,10 +7822,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#convoi" class="md-nav__link">
+  <a href="#transfert-de-convoi" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Convoi
+        Transfert de convoi
       
     </span>
   </a>
@@ -7899,6 +7929,8 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="give"><code>GIVE</code><a class="headerlink" href="#give" title="Permanent link">&para;</a></h1>
 <p><strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>HERBS</code><br />
 <strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>COMMAND</code><br />
@@ -7914,7 +7946,7 @@
 <strong><code>GIVE</code></strong><code>0</code><em><code>quantité</code></em><code>SHIP</code><br />
 <strong><code>GIVE</code></strong><code>0</code><em><code>quantité objet</code></em>  </p>
 <p>L'unité transfère des objets, le commandement de bateaux ou de bâtiments, des personnes, des bateaux ou même elle-même à d'autres unités.</p>
-<h2 id="objets">Objets<a class="headerlink" href="#objets" title="Permanent link">&para;</a></h2>
+<h2 id="transfert-dobjets">Transfert d'objets<a class="headerlink" href="#transfert-dobjets" title="Permanent link">&para;</a></h2>
 <p>Avec <code>GIVE</code> les unités peuvent donner toutes les marchandises qu'elles possèdent à d'autres unités.
 La condition est que l'unité indiquée accepte des choses.<br />
 C'est le cas si elle appartient à la même faction ou à une faction alliée (<code>HELP GIVE</code>), ou si elle a donné ce tour-ci l'ordre <a href="../cmd-contact/">CONTACT</a> pour l'unité donatrice.<br />
@@ -7971,7 +8003,7 @@ MAKE TEMP 1
 END
 ; GIVE TEMP 1 200 Silver  ;  ou ici !
 </code></pre></div>
-<h2 id="people-and-units">People and units<a class="headerlink" href="#people-and-units" title="Permanent link">&para;</a></h2>
+<h2 id="transfert-dunites">Transfert d'unités<a class="headerlink" href="#transfert-dunites" title="Permanent link">&para;</a></h2>
 <p>Pour réunir des personnes de différentes unités, il faut utiliser l'ordre <code>GIVE</code><em><code>unit-id</code></em><code>&lt;quantité&gt; MEN</code>.<br />
 Les <a href="../skills/">Compétences</a> sont alors <strong>mélangées</strong>.</p>
 <div class="admonition warning">
@@ -7981,7 +8013,7 @@ Les <a href="../skills/">Compétences</a> sont alors <strong>mélangées</strong
 <p>Expérience de jeu (Solthar) :</p>
 <p>Si vous souhaitez confier des personnes à une unité <strong>d’une autre faction</strong>, un simple <a href="../cmd-help/"><code>HELP GIVE</code></a> ne suffit pas !<br />
 <strong>L'unité réceptrice doit également passer l'ordre <a href="../cmd-contact/">CONTACT</a></strong> sur l'unité transférante.  </p>
-<p>De plus, si l’unité d’accueil est une <a href="../races/#humains">unité de migrants</a>, elle ne doit contenir personne au moment du transfert.<br />
+<p>De plus, si l’unité d’accueil est une <a class="autorefs autorefs-internal" href="../races/#humains">unité de migrants</a>, elle ne doit contenir personne au moment du transfert.<br />
 Idéalement, il devrait s'agir d'une unité <code>TEMP</code> vide, par exemple :</p>
 <div class="highlight"><pre><span></span><code>UNIT a; Faction X
     GIVE TEMP x ALL MEN
@@ -7993,7 +8025,7 @@ UNIT b; Faction Y
 <!-- TODO clarify -->
 <p>Avec <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> l'unité complète avec tous les objets est donnée à une autre faction, mais pas à l'unité d'identifiant spécifié !<br />
 L'unité n'exécute plus d'ordres pendant le tour après ce <code>GIVE</code> !</p>
-<h2 id="commandement">Commandement<a class="headerlink" href="#commandement" title="Permanent link">&para;</a></h2>
+<h2 id="transfert-de-commandement">Transfert de commandement<a class="headerlink" href="#transfert-de-commandement" title="Permanent link">&para;</a></h2>
 <p>Si l'unité a également un navire ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.<br />
 L'unité aux commandes détermine quelles autres unités sont autorisées à entrer dans le bateau ou le bâtiment.</p>
 <p><code>GIVE unit COMMAND</code> devrit toujours être utilisé, même si l'unité avec le commandement quitte le bateau ou le bâtiment et que l'unité suivante doit normalement recevoir le commandement.<br />
@@ -8001,10 +8033,10 @@ L'ordre des unités lors de l'évaluation n'est pas toujours celui du rapport.<b
 Les nouveaux propriétaires d'un bâtiment sont placés en première position dans le bâtiment <strong>à la fin du tour</strong>.<br />
 Ils ne peuvent donc bénéficier des avantages (bonus...) du bâtiment que <strong>lors du tour suivant</strong>.  </p>
 <p>Le commandement ne peut pas être donné à des unités sans membre (par exemple après une bataille, ou à des unités <code>TEMP</code> "vides").  </p>
-<h2 id="convoi">Convoi<a class="headerlink" href="#convoi" title="Permanent link">&para;</a></h2>
-<p>Avec <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> le propriétaire d'un bateau ou d'un <a href="../ships/#convoi">convoi</a> remet le nombre de beteaux spécifié.<br />
+<h2 id="transfert-de-convoi">Transfert de convoi<a class="headerlink" href="#transfert-de-convoi" title="Permanent link">&para;</a></h2>
+<p>Avec <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> le propriétaire d'un bateau ou d'un <a class="autorefs autorefs-internal" href="../ships/#convoi">convoi</a> remet le nombre de beteaux spécifié.<br />
 Les unités transférantes et réceptrices doivent appartenir à la même faction (<code>HELP ALL</code> et <code>CONTACT</code> ne le permmettent pas).<br />
-Si l'autre unité possède également un bateau, un <a href="../ships/#convoi">convoi</a> est formé.<br />
+Si l'autre unité possède également un bateau, un <a class="autorefs autorefs-internal" href="../ships/#convoi">convoi</a> est formé.<br />
 Les convois sont toujours constitués de bateaux du même type.<br />
 Les barques ne peuvent pas former de convois et les bateaux doivent se trouver sur la même côte.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>

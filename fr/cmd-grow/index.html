@@ -6615,6 +6615,8 @@
       
         
       
+        
+      
     
     
     
@@ -6674,7 +6676,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6927,6 +6929,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7811,17 +7841,19 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="grow"><code>GROW</code><a class="headerlink" href="#grow" title="Permanent link">&para;</a></h1>
-<p><em>Ordre <a href="../commands/#ordres-courts-et-longs">long</a>.</em>  </p>
+<p><em>Ordre <a class="autorefs autorefs-internal" href="../commands/#ordres-courts-et-longs">long</a>.</em>  </p>
 <p><strong><code>GROW HORSES</code><br />
 </strong><code>GROW [&lt;quantité&gt;] HERBS</code>  </p>
-<p>Avec l'ordre <strong><code>GROW</code></strong>, une unité essaie de replanter des plantes dans une région, ou d'élever des chevaux dans un <a href="../buildings-others/#haras">Haras</a>.  </p>
-<p>Avec <code>GROW HORSES</code> une unité peut élever un cheval par personne et par niveau en <a href="../skills-list/#apprivoisement">Apprivoisement de chevaux</a> avec une probabilité de <strong><em>[Niveau Apprivoisement]</em></strong>%.<br />
+<p>Avec l'ordre <strong><code>GROW</code></strong>, une unité essaie de replanter des plantes dans une région, ou d'élever des chevaux dans un <a class="autorefs autorefs-internal" href="../buildings-others/#haras" title="Stable">haras</a>.  </p>
+<p>Avec <code>GROW HORSES</code> une unité peut élever un cheval par personne et par niveau en <a class="autorefs autorefs-internal" href="../skills-list/#apprivoisement" title="Taming">apprivoisement de chevaux</a> avec une probabilité de <strong><em>[Niveau Apprivoisement]</em></strong>%.<br />
 3 personnes niveau 5 auraient donc 3 x 5 = 15 tentatives à 5% d'obtenir un cheval en plus.  </p>
-<p>Pour pouvoir élever des chevaux, il faut qu'il y ait au moins 2 chevaux dans le <a href="../buildings-others/#haras">Haras</a>.<br />
+<p>Pour pouvoir élever des chevaux, il faut qu'il y ait au moins 2 chevaux dans le <a class="autorefs autorefs-internal" href="../buildings-others/#haras" title="Stable">haras</a>.<br />
 En outre, il doit y avoir un cheval par "opportunité d'élevage" (c'est-à-dire 15 chevaux dans l'exemple ci-dessus).<br />
 L'unité doit avoir elle-même les chevaux, la <a href="../items-pool/">Réserve d'objets</a> n'est pas utilisée ici.  </p>
-<p>Pour pouvoir utiliser l'ordre <code>GROW HERBS</code>, vous devez avoir au moins <a href="../skills-list/#herboristerie">Herboristerie</a> au niveau 6.<br />
+<p>Pour pouvoir utiliser l'ordre <code>GROW HERBS</code>, vous devez avoir au moins [Herboristerie][] au niveau 6.<br />
 L'unité essaie de planter le nombre de plantes spécifié, mais pas plus d'une plante par niveau de compétence;<br />
 elle a besoin du nombre approprié de plantes du type correspondant, ainsi qu'une potion "Water of Life".<br />
 Il n'est pas possible de changer le type de plante d'une région, l'unité ne peut replanter que le type de plante trouvé précédemment dans la région.  </p>

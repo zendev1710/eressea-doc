@@ -6709,6 +6709,8 @@
       
         
       
+        
+      
     
     
     
@@ -6768,7 +6770,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -7021,6 +7023,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7999,6 +8029,8 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="make"><code>MAKE</code><a class="headerlink" href="#make" title="Permanent link">&para;</a></h1>
 <p><strong><code>MAKE TEMP</code></strong><code></code><em><code>unit-alias-id</code></em><code>["</code><em><code>nom</code></em><code>"]</code><br />
 <strong><code>MAKE</code></strong><code>[</code><em><code>niveau</code></em><code>]</code><em><code>type_batiment</code></em><code>[</code><em><code>id_batiment</code></em><code>]</code><br />
@@ -8017,7 +8049,7 @@ Sans préciser la <em>quantité</em>, l'unité produira autant d'items que de pe
 <p>Concocter une potion est très complexe et ne peut être réalisé que par des alchimistes particulièrement talentueux.<br />
 Les détails peuvent être trouvés dans le chapitre sur <a href="../alchemy/">l'alchimie</a>.</p>
 <h3 id="plantes">Plantes<a class="headerlink" href="#plantes" title="Permanent link">&para;</a></h3>
-<p>Les plantes sont produites avec l'ordre <code>MAKE HERBS</code> par des unités maîtrisant l'<a href="../skills-list/#herboristerie">herboristerie</a>.
+<p>Les plantes sont produites avec l'ordre <code>MAKE HERBS</code> par des unités maîtrisant l'[herboristerie].
 Pour plus de détails, voir le chapitre sur les <a href="../herbs/">Plantes</a>.</p>
 <h2 id="unites">Unités<a class="headerlink" href="#unites" title="Permanent link">&para;</a></h2>
 <p>Lorsque vous créez une nouvelle unité (<code>MAKE TEMP xyz</code>), vous lui attribuez un alias d'identifiant (son identifiant réel n'est pas encore connu).<br />
@@ -8044,7 +8076,7 @@ La suppression des unités vides intervenant en fin de séquence des ordres, de 
 Il faut donc qu'elle recrute ou qu'on lui donne une personne au moins.<br />
 Si la nouvelle unité veut recruter de nouveaux membres, elle doit également recevoir suffisamment d’argent pour le faire.<br />
 Si elle ne reçoit pas cette information, l'unité ne pourra recruter personne et sera silencieusement retirée à la fin de la semaine.<br />
-Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux <a href="../factions/#dissolution-des-unites">autres unités de leur propre faction</a>.  </p>
+Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux <a class="autorefs autorefs-internal" href="../factions/#dissolution-des-unites">autres unités de leur propre faction</a>.  </p>
 <div class="highlight"><pre><span></span><code>UNIT 17;   Combattants [15,700$]
     MAKE TEMP 1
         NAME UNIT &quot;dragon riders&quot;
@@ -8076,12 +8108,12 @@ Les bateaux ne peuvent être construits qu'à la taille définie selon leur type
 <p>Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec <em>niveau</em> combien de points de taille vous souhaitez ajouter.  </p>
 <ul>
 <li>première semaine : <code>MAKE longboat</code>. Un nouveau bateau est construit et reçoit l'identifiant 76 de la part du serveur.</li>
-<li>deuxième semaine : <code>MAKE SHIP 76</code>. Poursuit la construction d'une <a href="../ships/#chaloupe" title="Longboat">chaloupe</a> d'identifiant 76.</li>
+<li>deuxième semaine : <code>MAKE SHIP 76</code>. Poursuit la construction d'une <a class="autorefs autorefs-internal" href="../ships/#chaloupe" title="Longboat">chaloupe</a> d'identifiant 76.</li>
 </ul>
 <h2 id="routes">Routes<a class="headerlink" href="#routes" title="Permanent link">&para;</a></h2>
 <p>Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre <code>MAKE ROAD</code><em><code>direction</code></em>.<br />
-Pour construire des <a href="../roads/">Routes</a>, l'unité a besoin de la compétence <a href="../skills-list/#construction-de-routes">construction de routes</a> et des <a href="../items/">pierres</a>.<br />
-Dans les glaciers, il faut au préalable un <a href="../buildings-others/#tunnel">tunnel</a>, dans les déserts un <a href="../buildings-others/#caravanserail">caravansérail</a> et dans les marais un <a href="../buildings-others/#barrage">barrage</a>.<br />
+Pour construire des <a href="../roads/">Routes</a>, l'unité a besoin de la compétence <a class="autorefs autorefs-internal" href="../skills-list/#construction-de-routes" title="Roadwork">construction de routes</a> et des <a href="../items/">pierres</a>.<br />
+Dans les glaciers, il faut au préalable un <a class="autorefs autorefs-internal" href="../../buildings-others/#tunnel">tunnel</a>, dans les déserts un <a class="autorefs autorefs-internal" href="../buildings-others/#caravanserail">caravansérail</a> et dans les marais un <a class="autorefs autorefs-internal" href="../buildings-others/#barrage" title="Dam">barrage</a>.<br />
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les <a href="../terrains/">Terrain types</a>.<br />
 Les routes ne fonctionnent que si elles sont complètes.</p>

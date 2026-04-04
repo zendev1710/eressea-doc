@@ -6681,6 +6681,8 @@
       
         
       
+        
+      
     
     
     
@@ -6740,7 +6742,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6993,6 +6995,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7943,15 +7973,17 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="combat"><code>COMBAT</code><a class="headerlink" href="#combat" title="Permanent link">&para;</a></h1>
-<p><strong><code>COMBAT</code></strong><code>FRONT</code><br />
-<strong><code>COMBAT</code></strong><code>AGGRESSIVE</code><br />
-<strong><code>COMBAT</code></strong><code>REAR</code><br />
-<strong><code>COMBAT</code></strong><code>DEFENSIVE</code><br />
-<strong><code>COMBAT</code></strong><code>NOT</code><br />
-<strong><code>COMBAT</code></strong><code>FLEE</code><br />
-<strong><code>COMBAT</code></strong><code>HELP [NOT]</code>  </p>
-<p>Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section <a href="../war/#lignes-de-combat">Lignes de combat</a> dans le chapitre <a href="../war/">Guerre</a>).  </p>
+<p><strong><code>COMBAT FRONT</code></strong><br />
+<strong><code>COMBAT AGGRESSIVE</code></strong><br />
+<strong><code>COMBAT REAR</code></strong><br />
+<strong><code>COMBAT DEFENSIVE</code></strong><br />
+<strong><code>COMBAT NOT</code></strong><br />
+<strong><code>COMBAT FLEE</code></strong><br />
+<strong><code>COMBAT HELP [NOT]</code></strong>  </p>
+<p>Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section <a class="autorefs autorefs-internal" href="../war/#lignes-de-combat">Lignes de combat</a> dans le chapitre <a href="../war/">Guerre</a>).  </p>
 <h2 id="combat-aggressive"><code>COMBAT AGGRESSIVE</code><a class="headerlink" href="#combat-aggressive" title="Permanent link">&para;</a></h2>
 <p>Au combat, l'unité est au front et ne fuira jamais, mais se battra jusqu'à la mort.<br />
 Ceci est utilisé à son avantage lorsque la dernière puissance offensive compte vraiment.  </p>
@@ -7973,7 +8005,7 @@ Ceci est utilisé avec avantage pour les magiciens.  </p>
 Ceci est utilisé avantageusement pour les unités qui restent hors du combat mais ne sont pas censées fuir, par exemple pour occuper un bâtiment.<br />
 L'unité tentera de fuir dès qu'elle aura perdu 10% de ses points de vie.  </p>
 <h2 id="combat-flee"><code>COMBAT FLEE</code><a class="headerlink" href="#combat-flee" title="Permanent link">&para;</a></h2>
-<p>Si une unité prête à <a href="../war/#la-fuite">fuir</a> est impliquée dans un combat, elle tentera de fuir avant chaque round de combat.  </p>
+<p>Si une unité prête à <a class="autorefs autorefs-internal" href="../war/#la-fuite">fuir</a> est impliquée dans un combat, elle tentera de fuir avant chaque round de combat.  </p>
 <!-- TODO: find escape section and combat chapter -->
 <p>Pour plus d'informations sur le comportement de fuite, consultez la section [Échappement] du chapitre Combat.  </p>
 <p>Ce statut de combat est mis à profit par presque tous les « civils ».<br />

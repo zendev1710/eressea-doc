@@ -6615,6 +6615,8 @@
       
         
       
+        
+      
     
     
     
@@ -6674,7 +6676,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6927,6 +6929,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7811,22 +7841,32 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="attack"><code>ATTACK</code><a class="headerlink" href="#attack" title="Permanent link">&para;</a></h1>
-<p><em>ordre <a href="../commands/#ordres-courts-et-longs">pseudo-long</a>.</em><br />
-<em>C'est un ordre court dans le sens où plusieurs ordres  <code>ATTACK</code> peuvent être effectués.</em><br />
-<em>C'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.</em><br />
-<em>Le moment où un combat « long » se produit est expliqué dans la section <a href="../war/#fin-du-combat">fin de la bataille</a>.</em></p>
-<p><strong><code>ATTACK</code></strong><code></code><em><code>unit-id</code></em>  </p>
+<p><strong>ATTACK</strong>&nbps;&lt;unit-id&gt; <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>  </p>
+<p>Ordre pseudo-long <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  </p>
 <p>Cet ordre déclenche l'attaque de l'unité spécifiée présente dans la région de l'attaquant.<br />
-Un ordre doit être donné pour chaque unité à attaquer.  </p>
+Un ordre <code>ATTACK</code> doit être donné pour chaque unité à attaquer.  </p>
 <p>Les unités qui ne <a href="../cmd-combat/">combattent</a> ni à l'avant (<code>COMBAT</code> ou <code>COMBAT AGGRESSIVE</code>) ni à l'arrière (<code>COMBAT REAR</code> ou <code>COMBAT DEFENSIVE</code>) ne peuvent pas attaquer.  </p>
 <p>Au cours des premières semaines, une faction est <a href="../puppy-protection/">immunisée</a> contre les attaques.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../war/">La guerre</a></li>
-<li><a href="../cmd-combat/">COMBAT</a></li>
+<li>Ordre <a href="../cmd-combat/">COMBAT</a></li>
 </ul>
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><code>ATTACK</code> est un <a class="autorefs autorefs-internal" href="../commands/#ordres-courts-et-longs">ordre pseudo-long</a> : c'est un ordre court dans le sens où plusieurs ordres  <code>ATTACK</code> peuvent être donnés;
+c'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.
+Le moment où un combat « long » se produit est expliqué dans la section <a class="autorefs autorefs-internal" href="../war/#fin-du-combat">fin de la bataille</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

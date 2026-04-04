@@ -6648,6 +6648,8 @@
       
         
       
+        
+      
     
     
     
@@ -6707,7 +6709,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6960,6 +6962,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7877,6 +7907,8 @@
   
 
 
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 <h1 id="default"><code>DEFAULT</code><a class="headerlink" href="#default" title="Permanent link">&para;</a></h1>
 <p><strong><code>DEFAULT</code></strong><code>"</code><em><code>order</code></em><code>"</code>  </p>
 <p>L'ordre <code>DEFAULT</code> définit <a href="../commands/">l'ordre</a> par défaut qu'une unité exécutera <strong>la semaine suivante</strong>.  </p>
@@ -7889,7 +7921,7 @@ Ils seront exécutés la semaine suivantes si vous n'envoyez pas d'ordre <strong
 Ils sont également inclus dans le rapport informatique (CR).
 Le rapport normal (NR) ne contient toujours que le premier ordre long par défaut.<br />
 Vous ne pouvez donc pas y voir tous les ordres par défaut.</p>
-<p>Tous les <a href="../commands/#ordres-courts-et-longs">ordres longs</a> sont normalement inclus dans les ordres par défaut d'une unité.
+<p>Tous les <a class="autorefs autorefs-internal" href="../commands/#ordres-courts-et-longs">ordres longs</a> sont normalement inclus dans les ordres par défaut d'une unité.
 Les exceptions sont <code>ATTACK</code>, <code>FOLLOW</code> et <code>MOVE</code>.  </p>
 <p>De plus, tous les <a href="../cmd-comment-slash/"><code>//</code></a> et tous les ordres commençant par <code>@</code> sont adoptés.
 L'orthographe peut être standardisée.  </p>
@@ -7915,7 +7947,7 @@ Il en va de même pour les autres ordres invalides.</p>
 <h2 id="lordre-default">L'ordre DEFAULT<a class="headerlink" href="#lordre-default" title="Permanent link">&para;</a></h2>
 <p>L'ordre <code>DEFAULT</code> change ce comportement en modifiant les ordres par défaut transmis par le serveur.<br />
 Si l'unité a reçu un ordre <code>DEFAULT</code>, ses ordres <strong>longs</strong> ne seront pas inclus dans le modèle d'ordres.<br />
-Les <a href="../commands/#ordres-courts-et-longs">ordres longs</a> avec <code>//</code> et ordres court avec <code>@</code> sont acceptés.
+Les <a class="autorefs autorefs-internal" href="../commands/#ordres-courts-et-longs">ordres longs</a> avec <code>//</code> et ordres court avec <code>@</code> sont acceptés.
 Les ordres donnés sont validés dans une certaine mesure.
 Les ordres invalides ne sont donc pas acceptés.<br />
 Cependant, ce test a des limites, il vaut mieux ne pas s’y fier.</p>

@@ -6567,6 +6567,8 @@
       
         
       
+        
+      
     
     
     
@@ -6626,7 +6628,7 @@
   <span class="md-ellipsis">
     
   
-    Armure en adamantium
+    Adamantium armor
   
 
     
@@ -6879,6 +6881,34 @@
     
   
     Tête de Dragon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairy-boots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fairy boots
   
 
     
@@ -7745,23 +7775,26 @@
 
 
 <h1 id="name"><code>NAME</code><a class="headerlink" href="#name" title="Permanent link">&para;</a></h1>
-<p><strong><code>NAME UNIT</code></strong><code></code><em><code>"name"</code></em><br />
-<strong><code>NAME STRANGERS UNIT</code></strong><code></code><em><code>unit-id "name"</code></em><br />
-<strong><code>NAME FACTION</code></strong><code></code>* <code>"name"</code><em><br />
-<strong><code>NAME STRANGERS FACTION</code></strong><code></code></em><code>faction-id "name"</code><em><br />
-<strong><code>NAME BUILDIN?G</code></strong><code></code></em><code>"name"</code><em><br />
-<strong><code>NAME STRANGERS GEBÄUDE</code></strong><code></code></em><code>building-id "name"</code><em><br />
-<strong><code>NAME SHIP</code></strong><code></code></em><code>"name"</code><em><br />
-<strong><code>NAME STRANGERS SHIP</code></strong><code></code></em><code>ship-id "name"</code><em><br />
-<strong><code>NAME REGION</code></strong><code></code></em><code>"name"</code><em><br />
-<strong><code>NAME GROUP</code></strong><code></code></em><code>"name"</code>*  </p>
+<p><strong><code>NAME UNIT "&lt;name&gt;"</code>*<br />
+</strong><code>NAME FOREIGN UNIT &lt;unit-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FOREIGNUNIT UNIT &lt;unit-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FACTION "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FOREIGN FACTION &lt;faction-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME CASTLE "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FOREIGN CASTLE &lt;building-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME BUILDING "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FOREIGN BUILDING &lt;building-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME SHIP "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME FOREIGN SHIP &lt;ship-id&gt; "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME REGION "&lt;name&gt;"</code><strong><br />
+</strong><code>NAME GROUP "&lt;name&gt;"</code>**  </p>
 <p>Renomme l'élément spécifié.  </p>
 <p>Un bateau ou un bâtiment ne peut être renommé que si l'unité le contrôle - elle doit donc être la première unité sous le bâtiment ou le bateau dans l'évaluation.<br />
 Une région ne peut être renommée que par le seigneur du château le plus puissant d'une région.<br />
 Les groupes ne peuvent être renommés que par les membres du groupe et le nouveau nom de groupe ne peut pas déjà exister.  </p>
 <p>Le nouveau nom peut contenir jusqu’à 127 caractères.<br />
 Des descriptions plus longues peuvent être ajoutées à l'aide de l'ordre <a href="../cmd-describe/">DESCRIBE</a>.  </p>
-<p>Grâce à l'ajout <code>STRANGERS</code> (ou <code>STRANGER</code>) et en spécifiant l'identifiant, vous pouvez nommer des unités, des bateaux ou même des bâtiments (pas seulement des châteaux) d'autres factions s'ils n'ont pas encore de nom (càd de libellé « unit abc »).
+<p>Grâce à l'ajout <code>FOREIGN</code> et en spécifiant l'identifiant, vous pouvez nommer des unités, des bateaux ou même des bâtiments (pas seulement des châteaux) d'autres factions s'ils n'ont pas encore de nom (càd de libellé « unit abc »).
 Vous pouvez même nommer une faction étrangère à condition qu'elle date de plus de dix tours.  </p>
 <p>Le nommage de la faction doit également être effectuée par une unité :</p>
 <div class="highlight"><pre><span></span><code>ERESSEA 7 &quot;Seven&quot;

@@ -1,9 +1,11 @@
 adamantium
+ADDRESSES
 Allanon
 Althochelfisch
 Andune
 Aquazone
 Ard'Ragorn
+ATTACK
 Bar'Glingal
 Bärmann
 Barney
@@ -95,12 +97,14 @@ Rehling
 Salassar
 Schlittchen
 Screenfun
+SHOWSKCHANGE
 Sitanleta
 Solthar
 Staubnix
 Sundew
 Talinster
 Tanstaafl
+TEMPLATE
 Thall
 Tirawon
 Tirawons
@@ -117,3 +121,4 @@ Wythar
 Xolgrim
 Xontormia
 Zedel
+ZIPPED

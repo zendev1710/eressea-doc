@@ -70,6 +70,7 @@ silverchest
 snowbane
 snowcrystal
 stargates
+STATISTICS
 stonecircle
 Stonecircle
 sunfire

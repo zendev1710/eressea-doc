@@ -14,6 +14,7 @@ __pycache__/
 
 # Development tools
 #.vscode/
+.cache
 .idea/
 *.swp
 *.swo
@@ -38,3 +39,4 @@ generated/
 # Éventuels fichiers temporaires
 *.tmp
 *.bak
+

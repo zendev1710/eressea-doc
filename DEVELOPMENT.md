@@ -32,7 +32,10 @@ In a PowerShell console, from the folder containing the `docs` folder:
 - To run the web site in local: `Start-Process mkdocs serve &`, then go to the web site: <http://127.0.0.1:8000/eressea-doc/>
 - To stop the web site: `Stop-Process -Name python`
 
-For an auto-reload much faster : `mkdocs serve --dirtyreload`.
+On your computer, to get changes after browser page update: `mkdocs serve --livereload`.  
+<!--
+For an auto-reload much faster: `mkdocs serve --dirtyreload`.  
+-->
 
 ## Deployment on GitHub
 

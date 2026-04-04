@@ -36,7 +36,7 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 - [[bef-helfe|`HELFE BEWACHE`]]
 - [Allianz][alliiert]
-- [[bef-kontaktiere]][[bef-kontaktiere]]
+- [[bef-kontaktiere]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 

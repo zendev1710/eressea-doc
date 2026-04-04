@@ -305,7 +305,7 @@ Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppe
 
 ## Die Flucht
 
-Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [attackiert][[bef-attackiere]] werden, versuchen zu fliehen.
+Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [[bef-attackiere|attackiert]] werden, versuchen zu fliehen.
 Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
 
 Personen mit [`KÄMPFE`] oder [`KÄMPFE HINTEN`][`KÄMPFE`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`KÄMPFE`] oder [`KÄMPFE NICHT`][`KÄMPFE`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben.
@@ -340,7 +340,7 @@ Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrund
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][[bef-bewache]] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
+Will man mit einem Schiff Truppen in einer feindlich [[bef-bewache|bewachten]] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
 Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen.

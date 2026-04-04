@@ -56,7 +56,7 @@ Wollen Einheiten ein Schiff verlassen, so müssen sie dies erst mit [[bef-verlas
 
 ## Anschwimmen
 
-[Meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [[bef-nach]][[bef-nach]] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [Transportieren][[bef-transportiere]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
+[Meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [[bef-nach]] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [[bef-transportiere|Transportieren]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
 
 ## Schiffsschaden
 

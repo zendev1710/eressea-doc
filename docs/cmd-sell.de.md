@@ -18,7 +18,7 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 ## Siehe auch
 
 - [Handel][Handeln]
-- [[bef-kaufe]][[bef-kaufe]]
+-[[bef-kaufe]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERKAUFE&oldid=16784] -->
 

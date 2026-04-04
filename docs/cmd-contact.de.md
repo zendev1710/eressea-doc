@@ -29,7 +29,7 @@ Einheit a darf Einheit x also die 1000 Silber übergeben. Falls x die einzige be
 
 ## Unterschiede zu HELFE
 
-`KONTAKTIERE` hat eine ähnliche Funktion wie [`HELFE GIB + HELFE BEWACHE`][[bef-helfe]], ist aber nicht 100%ig dasselbe.
+`KONTAKTIERE` hat eine ähnliche Funktion wie [[bef-helfe|`HELFE GIB + HELFE BEWACHE`]], ist aber nicht 100%ig dasselbe.
 
 - `KONTAKTIERE` ist für manche Dinge erforderlich, die `HELFE GIB` oder `HELFE BEWACHE` nicht abdeckt, wie zum Beispiel [`GIB PERSONEN`] und manche Zauber.
 - `HELFE` schließt `HELFE SILBER, HELFE KÄMPFE` und `HELFE PARTEITARNUNG` ein.

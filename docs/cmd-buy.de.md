@@ -37,7 +37,7 @@ Im Computerreport und der [Zugvorlage]["pseudolanger" Befehl] sind alle `KAUFE`-
 ## Siehe auch
 
 - [Handel][Handeln]
-- [[bef-verkaufe]][[bef-verkaufe]]
+- [[bef-verkaufe]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->
 

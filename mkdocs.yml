@@ -90,14 +90,14 @@ copyright: Copyright &copy; 2025 Cyril Guillon
 plugins:
   # - categories
   - alias
-      # use_anchor_titles: true
-      # use_page_icon: true
-  # - awesome-nav
   - privacy
   - redirects
   - search
-  # - autorefs
-  # - live-edit
+  - table-reader
+  - autorefs:
+      # for french markdown pages anchors, I want a tooltiphaving the english translation.
+      # so internal link_titles are disabled for that reason
+      link_titles: external
   - i18n:
       languages:
         - locale: en

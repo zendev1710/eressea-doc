@@ -4,13 +4,13 @@ alias: cmd-banner
 ---
 # BANNER
 
-**`BANNER`**`"`*`text`*`"`
+**BANNER**&nbsp;"&lt;*text*&gt;"  
 
 This allows you to set a description that will appear in the address list of [[cmd-option]] `ADDRESS`.  
 It can contain the player's name or an alternative email address for fellow players.  
 It is also noted here if a [vacation replacement] plays.  
 
-**Example** :
+**Example**:
 
 ```text
 BANNER "Henning Peters, Bremen. eMail also faroul@gmx.en"

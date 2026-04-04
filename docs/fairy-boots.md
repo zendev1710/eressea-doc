@@ -4,4 +4,4 @@ alias: fairy-boots
 ---
 # Fairy boots
 
-<!-- TODO add documentation for this file that was initially empty -->
+These leather boots are embroidered with unicorn hair and allow their wearer to **walk at twice his normal speed**.

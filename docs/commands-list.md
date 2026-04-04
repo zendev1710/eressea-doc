@@ -95,10 +95,10 @@ More information: [[orders]].
 | [MOVE direction &#91;direction&#93;...]                                    | Travel                                     | L      |
 | [NAME BUILDING "&lt;name&gt;"]                                             |                                            | S      |
 | [NAME FACTION "&lt;name&gt;"]                                              |                                            | S      |
-| [NAME STRANGERS FACTION &lt;faction id&gt; "&lt;name&gt;"]                 |                                            | S      |
-| [NAME STRANGERS UNIT &lt;unit id&gt; "&lt;name&gt;"]                       | Names foreign and unnamed objects          | S      |
-| [NAME STRANGER BUILDING building "&lt;name&gt;"]                           |                                            | S      |
-| [NAME STRANGER SHIP &lt;ship id&gt; "&lt;name&gt;"]                        |                                            | S      |
+| [NAME FOREIGN FACTION &lt;faction id&gt; "&lt;name&gt;"]                   |                                            | S      |
+| [NAME FOREIGN UNIT &lt;unit id&gt; "&lt;name&gt;"]                         | Names foreign and unnamed objects          | S      |
+| [NAME FOREIGN BUILDING building "&lt;name&gt;"]                            |                                            | S      |
+| [NAME FOREIGN SHIP &lt;ship id&gt; "&lt;name&gt;"]                         |                                            | S      |
 | [NAME REGION "&lt;name&gt;"]                                               |                                            | S      |
 | [NAME SHIP "&lt;name&gt;"]                                                 |                                            | S      |
 | [NAME UNIT "&lt;name&gt;"]                                                 | Names objects                              | S      |
@@ -168,134 +168,136 @@ Continue reading: [[first-round]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
-[//]: ./cmd-comment-slash.md
+[//]: [[comment-with-slashes]]
 
-[ATTACK &lt;unit id&gt;]: ./cmd-attack.md
-[BANNER "&lt;text&gt;"]: ./cmd-banner.md
-[BUY &lt;number&gt; &lt;luxury item&gt;]: ./cmd-buy.md
-[CARRY &lt;unit id&gt;]: ./cmd-carry.md
-[CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]: ./cmd-cast.md
-[CLAIM &lt;number&gt; &lt;item&gt;]: ./cmd-claim.md
-[COMBAT AGGRESSIVE]: ./cmd-combat.md
-[COMBAT DEFENSIVE]: ./cmd-combat.md
-[COMBAT FLEE]: ./cmd-combat.md
-[COMBAT HELP &#91;NOT&#93;]: ./cmd-combat.md
-[COMBAT NOT]: ./cmd-combat.md
-[COMBAT REAR]: ./cmd-combat.md
-[COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]: ./cmd-combatspell.md
-[CONTACT &lt;unit id&gt;]: ./cmd-contact.md
-[DEFAULT "Orders"]: ./cmd-default.md
-[DESCRIBE BUILDING "&lt;text&gt;"]: ./cmd-describe.md
-[DESCRIBE PRIVATE "&lt;text&gt;"]: ./cmd-describe.md
-[DESCRIBE REGION "&lt;text&gt;"]: ./cmd-describe.md
-[DESCRIBE SHIP "&lt;text&gt;"]: ./cmd-describe.md
-[DESCRIBE UNIT "&lt;text&gt;"]: ./cmd-describe.md
-[DESTROY &#91;level&#93;]: ./cmd-destroy.md
-[DESTROY &#91;level&#93; STREET direction]: ./cmd-destroy.md
-[EMAIL email@adresse]: ./cmd-email.md
-[ENTER BUILDING &lt;building id&gt;]: ./cmd-enter.md
-[ENTER SHIP &lt;ship id&gt;]: ./cmd-enter.md
-[ENTERTAIN &#91;amount&#93;]: ./cmd-entertain.md
-[ERESSEA &lt;faction id&gt; "password"]: ./cmd-eressea.md
-[FOLLOW SHIP &lt;ship id&gt;]: ./cmd-follow.md
-[FOLLOW UNIT &lt;unit id&gt;]: ./cmd-follow.md
-[FORGET &lt;skill&gt;]: ./cmd-forget.md
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]: ./cmd-give.md
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]: ./cmd-give.md
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]: ./cmd-give.md
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]: ./cmd-give.md
-[GIVE &lt;unit id&gt; COMMAND]: ./cmd-give.md
-[GIVE &lt;unit id&gt; UNIT]: ./cmd-give.md
-[GIVE &lt;unit id&gt; herb]: ./cmd-give.md
-[GIVE 0 &lt;number&gt; &lt;item&gt;]: ./cmd-give.md
-[GIVE 0 &lt;number&gt; MEN]: ./cmd-give.md
-[GIVE 0 &lt;number&gt; SILVER]: ./cmd-give.md
-[GROUP &#91;"&lt;name&gt;"&#93;]: ./cmd-group.md
-[GROW HORSES]: ./cmd-grow.md
-[GUARD &#91;NOT&#93;]: ./cmd-guard.md
-[HELP &lt;faction id&gt; ALL &#91;NOT&#93;]: ./cmd-help.md
-[HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]: ./cmd-help.md
-[HELP &lt;faction id&gt; GIVE &#91;NOT&#93;]: ./cmd-help.md
-[HELP &lt;faction id&gt; GUARD &#91;NOT&#93;]: ./cmd-help.md
-[HELP &lt;faction id&gt; PARTEITARNUNG &#91;NOT&#93;]: ./cmd-help.md
-[HELP &lt;faction id&gt; SILVER &#91;NOT&#93;]: ./cmd-help.md
-[HIDE &#91;level&#93;]: ./cmd-hide.md
-[HIDE FACTION &#91;NOT&#93;]: ./cmd-hide.md
-[HIDE FACTION NUMBER &lt;faction id&gt;]: ./cmd-hide.md
-[HIDE race]: ./cmd-hide.md
-[LANGUAGE en/de]: ./cmd-language.md
-[LEARN &lt;skill&gt;]: ./cmd-learn.md
-[LEARN AUTO &lt;skill&gt;]: ./cmd-learn-auto.md
-[LOCALE en/de]: ./cmd-locale.md
-[MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]: ./cmd-make.md
-[MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]: ./cmd-make.md
-[MAKE &#91;&lt;amount&gt;&#93; Potion]: ./cmd-make.md
-[MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;]: ./cmd-make.md
-[MAKE &#91;level&#93; &lt;ship-type&gt;]: ./cmd-make.md
-[MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]: ./cmd-make.md
-[MAKE &#91;level&#93; STREET direction]: ./cmd-make.md
-[MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]: ./cmd-make.md
-[MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]: ./cmd-message.md
-[MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]: ./cmd-message.md
-[MESSAGE REGION "&lt;text&gt;"]: ./cmd-message.md
-[MESSAGE SHIP &lt;ship id&gt; "&lt;text&gt;"]: ./cmd-message.md
-[MESSAGE UNIT &lt;unit id&gt; "&lt;text&gt;"]: ./cmd-message.md
-[MOVE direction &#91;direction&#93;...]: ./cmd-move.md
-[NAME BUILDING "&lt;name&gt;"]: ./cmd-name.md
-[NAME FACTION "&lt;name&gt;"]: ./cmd-name.md
-[NAME REGION "&lt;name&gt;"]: ./cmd-name.md
-[NAME SHIP "&lt;name&gt;"]: ./cmd-name.md
-[NAME STRANGER BUILDING building "&lt;name&gt;"]: ./cmd-name.md
-[NAME STRANGER SHIP &lt;ship id&gt; "&lt;name&gt;"]: ./cmd-name.md
-[NAME STRANGERS FACTION &lt;faction id&gt; "&lt;name&gt;"]: ./cmd-name.md
-[NAME STRANGERS UNIT &lt;unit id&gt; "&lt;name&gt;"]: ./cmd-name.md
-[NAME UNIT "&lt;name&gt;"]: ./cmd-name.md
-[NUMBER BUILDING &#91;neue-nr&#93;]: ./cmd-number.md
-[NUMBER FACTION &#91;neue-nr&#93;]: ./cmd-number.md
-[NUMBER SHIP &#91;neue-nr&#93;]: ./cmd-number.md
-[NUMBER UNIT &#91;neue-nr&#93;]: ./cmd-number.md
-[OPTION ADRESSEN &#91;NOT&#93;]: ./cmd-option.md
-[OPTION AUSWERTUNG &#91;NOT&#93;]: ./cmd-option.md
-[OPTION BZIP2 &#91;NOT&#93;]: ./cmd-option.md
-[OPTION COMPUTER &#91;NOT&#93;]: ./cmd-option.md
-[OPTION MATERIALPOOL &#91;NOT&#93;]: ./cmd-option.md
-[OPTION PUNKTE &#91;NOT&#93;]: ./cmd-option.md
-[OPTION SILBERPOOL &#91;NOT&#93;]: ./cmd-option.md
-[OPTION STATISTIK &#91;NOT&#93;]: ./cmd-option.md
-[OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]: ./cmd-option.md
-[OPTION ZIPPED &#91;NOT&#93;]: ./cmd-option.md
-[OPTION ZUGVORLAGE &#91;NOT&#93;]: ./cmd-option.md
-[ORIGIN x y]: ./cmd-origin.md
-[PASSWORD "neues-password"]: ./cmd-password.md
-[PAY NOT &#91;&lt;building id&gt;&#93;]: ./cmd-pay-not.md
-[PIRACY &#91;faction 1&#93; &#91;faction 2&#93;...]: ./cmd-piracy.md
-[PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]: ./cmd-plant.md
-[PLANT &#91;&lt;number&gt;&#93; SEEDS]: ./cmd-plant.md
-[PLANT &#91;&lt;number&gt;&#93; TREES]: ./cmd-plant.md
-[PLANT &#91;&lt;number&gt;&#93; herb]: ./cmd-plant.md
-[PREFIX &#91;prefix&#93;]: ./cmd-prefix.md
-[QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]: ./cmd-quit.md
+[ATTACK &lt;unit id&gt;]: [[cmd-attack]]
+[BANNER "&lt;text&gt;"]: [[cmd-banner]]
+[BUY &lt;number&gt; &lt;luxury item&gt;]: [[cmd-buy]]
+[CARRY &lt;unit id&gt;]: [[cmd-carry]]
+[CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]: [[cmd-cast]]
+[CLAIM &lt;number&gt; &lt;item&gt;]: [[cmd-claim]]
+[COMBAT AGGRESSIVE]: [[cmd-combat]]
+[COMBAT DEFENSIVE]: [[cmd-combat]]
+[COMBAT FLEE]: [[cmd-combat]]
+[COMBAT HELP &#91;NOT&#93;]: [[cmd-combat]]
+[COMBAT NOT]: [[cmd-combat]]
+[COMBAT REAR]: [[cmd-combat]]
+[COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]: [[cmd-combatspell]]
+[CONTACT &lt;unit id&gt;]: [[cmd-contact]]
+[DEFAULT "Orders"]: [[cmd-default]]
+[DESCRIBE BUILDING "&lt;text&gt;"]: [[cmd-describe]]
+[DESCRIBE PRIVATE "&lt;text&gt;"]: [[cmd-describe]]
+[DESCRIBE REGION "&lt;text&gt;"]: [[cmd-describe]]
+[DESCRIBE SHIP "&lt;text&gt;"]: [[cmd-describe]]
+[DESCRIBE UNIT "&lt;text&gt;"]: [[cmd-describe]]
+[DESTROY &#91;level&#93;]: [[cmd-destroy]]
+[DESTROY &#91;level&#93; STREET direction]: [[cmd-destroy]]
+[EMAIL email@adresse]: [[cmd-email]]
+[ENTER BUILDING &lt;building id&gt;]: [[cmd-enter]]
+[ENTER SHIP &lt;ship id&gt;]: [[cmd-enter]]
+[ENTERTAIN &#91;amount&#93;]: [[cmd-entertain]]
+[ERESSEA &lt;faction id&gt; "password"]: [[cmd-eressea]]
+[FOLLOW SHIP &lt;ship id&gt;]: [[cmd-follow]]
+[FOLLOW UNIT &lt;unit id&gt;]: [[cmd-follow]]
+[FORGET &lt;skill&gt;]: [[cmd-forget]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]: [[cmd-give]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]: [[cmd-give]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]: [[cmd-give]]
+[GIVE &lt;unit id&gt; COMMAND]: [[cmd-give]]
+[GIVE &lt;unit id&gt; UNIT]: [[cmd-give]]
+[GIVE &lt;unit id&gt; herb]: [[cmd-give]]
+[GIVE 0 &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
+[GIVE 0 &lt;number&gt; MEN]: [[cmd-give]]
+[GIVE 0 &lt;number&gt; SILVER]: [[cmd-give]]
+[GROUP &#91;"&lt;name&gt;"&#93;]: [[cmd-group]]
+[GROW HORSES]: [[cmd-grow]]
+[GUARD &#91;NOT&#93;]: [[cmd-guard]]
+[HELP &lt;faction id&gt; ALL &#91;NOT&#93;]: [[cmd-help]]
+[HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]: [[cmd-help]]
+[HELP &lt;faction id&gt; GIVE &#91;NOT&#93;]: [[cmd-help]]
+[HELP &lt;faction id&gt; GUARD &#91;NOT&#93;]: [[cmd-help]]
+[HELP &lt;faction id&gt; PARTEITARNUNG &#91;NOT&#93;]: [[cmd-help]]
+[HELP &lt;faction id&gt; SILVER &#91;NOT&#93;]: [[cmd-help]]
+[HIDE &#91;level&#93;]: [[cmd-hide]]
+[HIDE FACTION &#91;NOT&#93;]: [[cmd-hide]]
+[HIDE FACTION NUMBER &lt;faction id&gt;]: [[cmd-hide]]
+[HIDE race]: [[cmd-hide]]
+[LANGUAGE en/de]: [[cmd-language]]
+[LEARN &lt;skill&gt;]: [[cmd-learn]]
+[LEARN AUTO &lt;skill&gt;]: [[cmd-learn-auto]]
+[LOCALE en/de]: [[cmd-locale]]
+[MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]: [[cmd-make]]
+[MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]: [[cmd-make]]
+[MAKE &#91;&lt;amount&gt;&#93; Potion]: [[cmd-make]]
+[MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;]: [[cmd-make]]
+[MAKE &#91;level&#93; &lt;ship-type&gt;]: [[cmd-make]]
+[MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]: [[cmd-make]]
+[MAKE &#91;level&#93; STREET direction]: [[cmd-make]]
+[MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]: [[cmd-make]]
+[MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]: [[cmd-message]]
+[MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]: [[cmd-message]]
+[MESSAGE REGION "&lt;text&gt;"]: [[cmd-message]]
+[MESSAGE SHIP &lt;ship id&gt; "&lt;text&gt;"]: [[cmd-message]]
+[MESSAGE UNIT &lt;unit id&gt; "&lt;text&gt;"]: [[cmd-message]]
+[MOVE direction &#91;direction&#93;...]: [[cmd-move]]
+[NAME BUILDING "&lt;name&gt;"]: [[cmd-name]]
+[NAME FACTION "&lt;name&gt;"]: [[cmd-name]]
+[NAME REGION "&lt;name&gt;"]: [[cmd-name]]
+[NAME SHIP "&lt;name&gt;"]: [[cmd-name]]
+[NAME FOREIGN BUILDING building "&lt;name&gt;"]: [[cmd-name]]
+[NAME FOREIGN SHIP &lt;ship id&gt; "&lt;name&gt;"]: [[cmd-name]]
+[NAME FOREIGN FACTION &lt;faction id&gt; "&lt;name&gt;"]: [[cmd-name]]
+[NAME FOREIGN UNIT &lt;unit id&gt; "&lt;name&gt;"]: [[cmd-name]]
+[NAME UNIT "&lt;name&gt;"]: [[cmd-name]]
+[NUMBER BUILDING &#91;neue-nr&#93;]: [[cmd-number]]
+[NUMBER FACTION &#91;neue-nr&#93;]: [[cmd-number]]
+[NUMBER SHIP &#91;neue-nr&#93;]: [[cmd-number]]
+[NUMBER UNIT &#91;neue-nr&#93;]: [[cmd-number]]
+[OPTION ADRESSEN &#91;NOT&#93;]: [[cmd-option]]
+[OPTION AUSWERTUNG &#91;NOT&#93;]: [[cmd-option]]
+[OPTION BZIP2 &#91;NOT&#93;]: [[cmd-option]]
+[OPTION COMPUTER &#91;NOT&#93;]: [[cmd-option]]
+[OPTION MATERIALPOOL &#91;NOT&#93;]: [[cmd-option]]
+[OPTION PUNKTE &#91;NOT&#93;]: [[cmd-option]]
+[OPTION SILBERPOOL &#91;NOT&#93;]: [[cmd-option]]
+[OPTION STATISTIK &#91;NOT&#93;]: [[cmd-option]]
+[OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]: [[cmd-option]]
+[OPTION ZIPPED &#91;NOT&#93;]: [[cmd-option]]
+[OPTION ZUGVORLAGE &#91;NOT&#93;]: [[cmd-option]]
+[ORIGIN x y]: [[cmd-origin]]
+[PASSWORD "neues-password"]: [[cmd-password]]
+[PAY NOT &#91;&lt;building id&gt;&#93;]: [[cmd-pay-not]]
+[PIRACY &#91;faction 1&#93; &#91;faction 2&#93;...]: [[cmd-piracy]]
+[PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]: [[cmd-plant]]
+[PLANT &#91;&lt;number&gt;&#93; SEEDS]: [[cmd-plant]]
+[PLANT &#91;&lt;number&gt;&#93; TREES]: [[cmd-plant]]
+[PLANT &#91;&lt;number&gt;&#93; herb]: [[cmd-plant]]
+[PREFIX &#91;prefix&#93;]: [[cmd-prefix]]
+[QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]: [[cmd-quit]]
+[REGION x,y]: [[cmd-region]]
+[RESEARCH HERBS]: [[cmd-research]]
+[RESERVE &lt;number&gt; "&lt;item&gt;"]: [[cmd-reserve]]
+[RESERVE &lt;number&gt; SILVER]: [[cmd-reserve]]
+[RIDE &lt;unit id&gt;]: [[cmd-ride]]
+[ROUTE direction &#91;direction&#93;...]: [[cmd-route]]
+[SELL &lt;amount&gt; &lt;luxury item&gt;]: [[cmd-sell]]
+[SELL ALL &lt;luxury item&gt;]: [[cmd-sell]]
+[SHOW "&lt;item&gt;"]: [[cmd-show]]
+[SHOW "&lt;potion&gt;"]: [[cmd-show]]
+[SHOW "&lt;race&gt;"]: [[cmd-show]]
+[SHOW "&lt;spell&gt;"]: [[cmd-show]]
+[SHOW ALL POTIONS]: [[cmd-show]]
+[SHOW ALL SPELLS]: [[cmd-show]]
+[SORT AFTER &lt;unit id&gt;]: [[cmd-sort]]
+[SORT BEFORE &lt;unit id&gt;]: [[cmd-sort]]
+[SPY &lt;unit id&gt;]: [[cmd-spy]]
+[STEAL &lt;unit id&gt;]: ./camouflage]]
+[TAX &#91;amount&#93;]: [[cmd-tax]]
+[TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
+[UNIT &lt;unit id&gt;]: [[cmd-unit]]
+[USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use]]
+
 [RECRUIT &lt;number&gt;]: ./silver.md#recruiting
-[REGION x,y]: ./cmd-region.md
-[RESEARCH HERBS]: ./cmd-research.md
-[RESERVE &lt;number&gt; "&lt;item&gt;"]: ./cmd-reserve.md
-[RESERVE &lt;number&gt; SILVER]: ./cmd-reserve.md
-[RIDE &lt;unit id&gt;]: ./cmd-ride.md
-[ROUTE direction &#91;direction&#93;...]: ./cmd-route.md
-[SELL &lt;amount&gt; &lt;luxury item&gt;]: ./cmd-sell.md
-[SELL ALL &lt;luxury item&gt;]: ./cmd-sell.md
-[SHOW "&lt;item&gt;"]: ./cmd-show.md
-[SHOW "&lt;potion&gt;"]: ./cmd-show.md
-[SHOW "&lt;race&gt;"]: ./cmd-show.md
-[SHOW "&lt;spell&gt;"]: ./cmd-show.md
-[SHOW ALL POTIONS]: ./cmd-show.md
-[SHOW ALL SPELLS]: ./cmd-show.md
-[SORT AFTER &lt;unit id&gt;]: ./cmd-sort.md
-[SORT BEFORE &lt;unit id&gt;]: ./cmd-sort.md
-[SPY &lt;unit id&gt;]: ./cmd-spy.md
-[STEAL &lt;unit id&gt;]: ./camouflage.md
-[TAX &#91;amount&#93;]: ./cmd-tax.md
-[TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: ./cmd-teach.md
-[UNIT &lt;unit id&gt;]: ./cmd-unit.md
-[USE &#91;&lt;number&gt;&#93; potion]: ./cmd-use.md
+
 [The end of the battle]: ./war.md#the-end

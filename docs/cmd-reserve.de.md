@@ -21,7 +21,7 @@ reserviert bei einer Einheit mit 10 Personen also 1000 Silber.
 ## Fehlerquellen
 
 - `TEMP`-Einheiten können nicht reservieren! Silber wie Gegenstände müssen ihnen mit [[bef-gib]] übergeben werden.
-- `RESERVIERE` kommt vor [[bef-gib]][[bef-gib]] und [[bef-rekrutiere]] in der [Befehlsreihenfolge]. Also bezieht sich `JE` auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.
+- `RESERVIERE` kommt vor [[bef-gib]] und [[bef-rekrutiere]] in der [Befehlsreihenfolge]. Also bezieht sich `JE` auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.
 - Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe [Materialpool].
 - Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.
 
@@ -46,7 +46,7 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 ## Siehe auch
 
 - [Materialpool]
-- [[bef-gib]][[bef-gib]]
+- [[bef-gib]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVIERE&oldid=14809] -->
 

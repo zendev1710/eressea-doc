@@ -4,16 +4,19 @@ alias: cmd-name
 ---
 # NAME
 
-**`NAME UNIT`**` `*`"name"`*  
-**`NAME STRANGERS UNIT`**` `*`unit-id "name"`*  
-**`NAME FACTION`**` `* `"name"`*  
-**`NAME STRANGERS FACTION`**` `*`faction-id "name"`*  
-**`NAME BUILDIN?G`**` `*`"name"`*  
-**`NAME STRANGERS GEBÄUDE`**` `*`building-id "name"`*  
-**`NAME SHIP`**` `*`"name"`*  
-**`NAME STRANGERS SHIP`**` `*`ship-id "name"`*  
-**`NAME REGION`**` `*`"name"`*  
-**`NAME GROUP`**` `*`"name"`*  
+**`NAME UNIT "<name>"`*  
+**`NAME FOREIGN UNIT <unit-id> "<name>"`**  
+**`NAME FOREIGNUNIT UNIT <unit-id> "<name>"`**  
+**`NAME FACTION "<name>"`**  
+**`NAME FOREIGN FACTION <faction-id> "<name>"`**  
+**`NAME CASTLE "<name>"`**  
+**`NAME FOREIGN CASTLE <building-id> "<name>"`**  
+**`NAME BUILDING "<name>"`**  
+**`NAME FOREIGN BUILDING <building-id> "<name>"`**  
+**`NAME SHIP "<name>"`**  
+**`NAME FOREIGN SHIP <ship-id> "<name>"`**  
+**`NAME REGION "<name>"`**  
+**`NAME GROUP "<name>"`**  
 
 Rename the listed item.  
 
@@ -24,7 +27,7 @@ Groups can only be renamed by group members and the new group name cannot alread
 The new name can be up to 127 characters long.  
 Longer descriptions can be added using the [[cmd-describe]] order.  
 
-Through the additional `STRANGERS` (or `STRANGER`) and specifying the number, you can name units, ships and even buildings (not just castles) of other factions if they do not yet have a name (i.e. units are named as "unit abc").  
+Through the additional `FOREIGN` specifying the element id, you can name units, ships and even buildings (not just castles) of other factions if they do not yet have a name (i.e. units are named as "unit abc").  
 You can even name a foreign faction as long as it is older than ten rounds.  
 
 The naming of the faction must also be carried out by a unit:

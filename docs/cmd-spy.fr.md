@@ -4,7 +4,7 @@ alias: cmd-spy-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `SPY`
+# SPY
 
 *Ordre [long][ordres-courts-et-longs]*.
 
@@ -24,7 +24,7 @@ Toutes les autres informations peuvent être déterminées avec un simple succè
 Ensuite, quel que soit le succès, un dé est lancé pour voir si la tentative d'espionnage a été remarquée.  
 La probabilité que cela se produise est calculée ainsi :
 
-`(100 - SpySpy x 5 + (Perception Sacrifice x 2)%`
+`(100 - SpySpy x 5 + (Perception Sacrifice x 2) %`
 
 ## Expérience de jeu (Ralf D.)
 
@@ -35,13 +35,13 @@ Comme toutes les activités qui dépendent des probabilités, vous pouvez égale
 
 Les espions avec Espionnage à 10 espionnent une unité de combat avec Furtivité 1.  
 
-- 1 unité a une chance de 10% + (10 -1)*5% = 55% d'espionner l'unité cible
-- 5 unités ont donc une chance de 100% - (100% -55%)^5 = 98,2%
+- 1 unité a une chance de 10 % + (10 -1) * 5 % = 55 % d'espionner l'unité cible
+- 5 unités ont donc une chance de 100 % - (100 % - 55 %)^5 = 98,2 %
 
 Ce qui suit est également intéressant (toujours contre le camouflage 1 de l'unité cible) :
 
 - 5 unités avec Espionnage 2 ont également 55 % de chances de succès
-- 8 unités avec Espionnage 1 ont 57% de chances de succès
+- 8 unités avec Espionnage 1 ont 57 % de chances de succès
 - 22 unités avec Espionnage 1 ont 90 % de chances de succès
 
 Les considérations de coût sont alors intéressantes :

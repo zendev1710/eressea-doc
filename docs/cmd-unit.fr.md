@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-unit-fr
 ---
-# `UNIT`
+# UNIT
 
 **`UNIT <unit-id>`**  
 

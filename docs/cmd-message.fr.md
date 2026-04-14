@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-message-fr
 ---
-# `MESSAGE`
+# MESSAGE
 
 **`MESSAGE`**` UNIT `*`unit id`*`"`*`text`*`"`  
 **`MESSAGE`**` FACTION `*`faction-id`*`"`*`text`*`"`  

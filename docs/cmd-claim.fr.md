@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-claim-fr
 ---
-# `CLAIM`
+# CLAIM
 
 **`CLAIM`**` `*`Qté <objet>`*
 

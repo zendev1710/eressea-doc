@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-contact-fr
 ---
-# `CONTACT`
+# CONTACT
 
 **`CONTACT`**` UNIT `*`unit-id`*  
 **`CONTACT`**` PARTEI `*`faction-id`*  

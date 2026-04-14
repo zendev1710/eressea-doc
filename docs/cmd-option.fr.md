@@ -4,7 +4,7 @@ alias: cmd-option-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `OPTION`
+# OPTION
 
 **OPTION**&nbsp;ADDRESSES|COMPUTER|PLAINTEXT|SCORE|SHOWSKCHANGE|STATISTICS|TEMPLATE&nbsp;&#91;NOT&#93;  
 **OPTION**&nbsp;ZIPPED|BZIP2  

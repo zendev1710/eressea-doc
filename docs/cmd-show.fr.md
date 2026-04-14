@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-show-fr
 ---
-# `SHOW`
+# SHOW
 
 <!-- TODO: check SHOW race (is race a variable?) -->
 **`SHOW "<Sort>"`**  

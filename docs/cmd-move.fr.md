@@ -4,7 +4,7 @@ alias: cmd-move-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `MOVE`
+# MOVE
 
 *Ordre [long][ordres-courts-et-longs].*  
 

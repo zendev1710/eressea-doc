@@ -4,7 +4,7 @@ alias: cmd-route-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `ROUTE`
+# ROUTE
 
 *Ordre [long][ordres-courts-et-longs].*  
 

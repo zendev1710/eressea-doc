@@ -4,7 +4,7 @@ alias: cmd-sell-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `SELL`
+# SELL
 
 *`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
 

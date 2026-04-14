@@ -4,7 +4,7 @@ alias: cmd-ride-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `RIDE`
+# RIDE
 
 *`RIDE` est un ordre [long][ordres-courts-et-longs].*  
 *`CARRY` est un ordre court, mais cela n'a bien sûr de sens que si l'unité exécute un  ordre (long) de mouvement.*  

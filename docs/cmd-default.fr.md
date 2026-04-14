@@ -4,7 +4,7 @@ alias: cmd-default-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `DEFAULT`
+# DEFAULT
 
 **`DEFAULT`**`"`*`order`*`"`  
 

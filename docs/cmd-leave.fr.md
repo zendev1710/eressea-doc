@@ -4,7 +4,7 @@ alias: cmd-leave-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `LEAVE`
+# LEAVE
 
 **`LEAVE`**  
 

@@ -4,7 +4,7 @@ alias: cmd-make-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `MAKE`
+# MAKE
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
 **`MAKE`**`[`*`niveau`*`]`*`type_batiment`*`[`*`id_batiment`*`]`  

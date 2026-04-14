@@ -4,7 +4,7 @@ alias: cmd-give-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `GIVE`
+# GIVE
 
 **`GIVE`**` `*`ID-unité`*`HERBS`  
 **`GIVE`**` `*`ID-unité`*`COMMAND`  

@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-prefix-fr
 ---
-# `PREFIX`
+# PREFIX
 
 **`PREFIX`**`[`*`préfixe`*`]`  
 

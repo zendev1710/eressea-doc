@@ -4,7 +4,7 @@ alias: cmd-use-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `USE`
+# USE
 
 **`USE`**`[`*`<quantité>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  
 **`USE`**`[`*`<quantité>`*`] "`*`<Item>`*`" [...]`  

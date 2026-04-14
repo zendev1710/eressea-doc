@@ -4,7 +4,7 @@ alias: cmd-origin-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `ORIGIN`
+# ORIGIN
 
 **`ORIGIN`**` `*`x y`*  
 

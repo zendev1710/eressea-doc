@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-group-fr
 ---
-# `GROUP`
+# GROUP
 
 **`GROUP`**`["`*`name`*`"]`  
 

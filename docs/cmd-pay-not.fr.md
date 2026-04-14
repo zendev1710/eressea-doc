@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-pay-not-fr
 ---
-# `PAY NOT`
+# PAY NOT
 
 **`PAY NOT`**  
 **`PAY NOT`**` `*`building-id`*  

@@ -4,7 +4,7 @@ alias: cmd-learn-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `LEARN`
+# LEARN
 
 *Ordre [long][ordres-courts-et-longs]*.
 

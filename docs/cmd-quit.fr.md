@@ -4,7 +4,7 @@ alias: cmd-quit-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `QUIT`
+# QUIT
 
 **`QUIT`**` ``"<mot de passe>"`  
 

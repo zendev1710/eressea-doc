@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-next-fr
 ---
-# `NEXT`
+# NEXT
 
 **`NEXT`**  
 

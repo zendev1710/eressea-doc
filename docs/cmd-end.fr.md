@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-end-fr
 ---
-# `END`
+# END
 
 **`END`**
 

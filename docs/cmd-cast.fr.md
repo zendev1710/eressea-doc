@@ -4,7 +4,7 @@ alias: cmd-cast-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `CAST`
+# CAST
 
 *Ordre [court][ordres-courts-et-longs] [^1].*
 

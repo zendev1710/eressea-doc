@@ -4,7 +4,7 @@ alias: cmd-tax-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `TAX`
+# TAX
 
 *Ordre [long][ordres-courts-et-longs]*.
 

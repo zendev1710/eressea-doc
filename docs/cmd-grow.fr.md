@@ -4,7 +4,7 @@ alias: cmd-grow-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
-# `GROW`
+# GROW
 
 *Ordre [long][ordres-courts-et-longs].*  
 
@@ -13,8 +13,8 @@ alias: cmd-grow-fr
 
 Avec l'ordre **`GROW`**, une unité essaie de replanter des plantes dans une région, ou d'élever des chevaux dans un [haras][haras]{title="Stable"}.  
 
-Avec `GROW HORSES` une unité peut élever un cheval par personne et par niveau en [apprivoisement de chevaux][apprivoisement]{title="Taming"} avec une probabilité de ***\[Niveau Apprivoisement\]***%.  
-3 personnes niveau 5 auraient donc 3 x 5 = 15 tentatives à 5% d'obtenir un cheval en plus.  
+Avec `GROW HORSES` une unité peut élever un cheval par personne et par niveau en [apprivoisement de chevaux][apprivoisement]{title="Taming"} avec une probabilité de ***\[Niveau Apprivoisement\]* %**.  
+3 personnes niveau 5 auraient donc 3 x 5 = 15 tentatives à 5 % d'obtenir un cheval en plus.  
 
 Pour pouvoir élever des chevaux, il faut qu'il y ait au moins 2 chevaux dans le [haras][haras]{title="Stable"}.  
 En outre, il doit y avoir un cheval par "opportunité d'élevage" (c'est-à-dire 15 chevaux dans l'exemple ci-dessus).  

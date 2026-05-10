@@ -1,33 +1,33 @@
 
 Alchemy
+Armoursmithing
+Bow
+Cartmaking
+Catapult
 Crossbow
 Endurance
-Mining
-Bow
-Masonry
-Trade
-Melee
+Entertainment
+Espionage
 Forestry
-Catapult
 Herbalism
 Magic
-Taming
-Riding
-Armoursmithing
-Shipcraft
-Sailing
-Espionage
+Masonry
+Melee
+Mining
+Perception
 Polearm
 Quarrying
-Taxation
+Riding
 Roadwork
-Tactics
+Sailing
+Shipcraft
 Stealth
-Entertainment
-Weaponsmithing
+Tactics
+Taming
+Taxation
+Trade
 Unarmed combat
-Cartmaking
-Perception
+Weaponsmithing
 
 ===============
 

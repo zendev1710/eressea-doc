@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: tableaux-relatifs-a-la-guerre
 ---
+<!-- properdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD022 -->
 # Tableaux relatifs à la guerre
 
 Cette page répertorie les propriétés des armes, des armures et des races pour le combat.
@@ -203,6 +205,7 @@ Remarques :
 - Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir [plus bas])
 - Une Épée de Flammes invoque également une petite boule de feu à chaque round de combat
 
+[](){ #tableau-endurance }
 ## Endurance
 
 Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance], est calculé ainsi :

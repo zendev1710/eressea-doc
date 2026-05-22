@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: argent
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Argent
 
 !!! note "Note"
@@ -72,9 +74,9 @@ D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n
 
 La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification.  
 Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat.  
-Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille]).  
+Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille][fin-du-combat]).  
 
-Si l'unité maîtrise l'[Endurance] à un niveau élevé, il peut arriver, après avoir été affamé, qu'une unité soit [très forte] selon le rapport (c'est-à-dire qu'elle ait plus de points de vie qu'elle ne devrait normalement en avoir).  
+Si l'unité maîtrise l'[Endurance][tableau-endurance] à un niveau élevé, il peut arriver, après avoir été affamé, qu'une unité soit [très forte][etat-de-sante] selon le rapport (c'est-à-dire qu'elle ait plus de points de vie qu'elle ne devrait normalement en avoir).  
 
 ### Famine des paysans
 
@@ -99,7 +101,7 @@ Cependant, plus les forêts sont denses dans une région, moins il y a de surfac
 Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [[cmd-work]]).  
 
 Un paysan gagne normalement 11 Silver par tour.  
-Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau]).  
+Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau][apercu]).  
 Par exemple, si une citadelle est construite dans une plaine et que la forêt est coupée, 10000 paysans peuvent se nourrir en un tour et 60000 Silver supplémentaires sont ajoutés aux réserves de la région.  
 
 Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires.  
@@ -153,7 +155,7 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol.  
 Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal]].  
 
-Si la compétence de [[camouflage]] du voleur est supérieure à la [perception] de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
+Si la compétence de [[camouflage]] du voleur est supérieure à la [perception][perception] de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
 Plus d'information : [[camouflage|le camouflage et le vol]].  
 
@@ -164,7 +166,7 @@ Ce produit peut leur être acheté.
 Dans toutes les régions qui ne produisent pas ce bien, il existe une demande toujours croissante pour ces produits.  
 Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.  
 
-Pour faire du commerce, il faut être compétent en [commerce].  
+Pour faire du commerce, il faut être compétent en [commerce][commerce].  
 Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [[cmd-buy]] et [[cmd-sell]].  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
 Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 Gems et vendre 12 Soies et 8 Baumes par tour.  
@@ -191,18 +193,18 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 
 | Produits de luxe | Prix de base | Poids (lbs) |
 |------------------|:------------:|:-----------:|
-| [baume]          |      4       |      2      |
-| [encens]         |      4       |      2      |
-| [gemme]          |      7       |      1      |
-| [huile]          |      3       |      3      |
-| [myrrhe]         |      5       |      2      |
-| [soie]           |      6       |      3      |
-| [épice]          |      5       |      2      |
+| [baume][baume]   |      4       |      2      |
+| [encens][encens] |      4       |      2      |
+| [gemme][gemme]   |      7       |      1      |
+| [huile][huile]   |      3       |      3      |
+| [myrrhe][myrrhe] |      5       |      2      |
+| [soie][soie]     |      6       |      3      |
+| [épice][epice]   |      5       |      2      |
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.  
 Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  
 Chaque tour, il y a 10% de chances que le prix de vente de chaque produit de luxe augmente du prix de base.  
-Dans les régions où se trouve un [port], cette chance est de 20 %.  
+Dans les régions où se trouve un [port][port], cette chance est de 20 %.  
 Si le prix de vente est déjà de 25 fois le prix de base, il n'augmentera pas davantage.  
 
 Les prix et les maxima indiqués sont valables pour toutes les factions de la région et non par faction, mais par produit de luxe.  
@@ -214,11 +216,11 @@ La hausse ou la baisse des prix affecte donc de manière égale tous ceux qui ac
 Exemple :
 
 - Supposons une région comptant 8 000 paysans.
-  Elle propose de l'[encens] à 4 Silver et demande des [épices][épice] à 15 Silver.
+  Elle propose de l'[encens] à 4 Silver et demande des [épices][epice] à 15 Silver.
   1 % des paysans correspond à 80.
   Si un commerçant vend 200 épices, les 80 premières épices seront vendues à 15 Silver, les 80 suivantes à 10 Silver et les 40 restantes à 5 Silver.
   La semaine suivante, les épices ne pourront plus être vendues qu'à 5 Silver.
-  Sauf si le prix est remonté à 10 (10 % de probabilité, 20 % dans un [port]).
+  Sauf si le prix est remonté à 10 (10 % de probabilité, 20 % dans un [port][port]).
 - Si 100 encens sont achetés dans cette région, les 80 premiers encens coûtent 4 silver chacun, et les 20 suivants 8 silver chacun.
   La semaine suivante, le prix de l'encens est à nouveau de 4 Silver et on peut à nouveau acheter les 80 premiers encens à ce prix.
   Si les 100 encens ont été achetés par des unités de deux factions différentes, les deux paieront (aux effets d'arrondi près) 4,8 Silver par produit de luxe.
@@ -301,28 +303,8 @@ Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'uni
 - [stealth]
 - [[cmd-guard]]
 
-Poursuivre la lecture : [Material Pool].
-
-[Material Pool]: ./items-pool.md
+Poursuivre la lecture : [[reserve-d-objets]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
 
-[endurance]: ./war-tables.md#endurance
-[aquariens]: ./races.md#aquariens
-[Fin de bataille]: ./war.md#fin-du-combat
-[morts-vivants]: ./monsters.md#morts-vivants
-[ce tableau]: ./castles.md#apercu
-[commerce]: ./skills-list.md#commerce "Trade"
-[port]: ./buildings-others.md#port "Harbour"
-[très forte]: ./war-tables.md#etat-de-sante
-
-[commercer]: #commerce
-
-[baume]: #baume "Balm"
-[encens]: #encens "Incense"
-[gemme]: #gemme "Gem"
-[huile]: #huile "Oil"
-[myrrhe]: #myrrhe "Myrrh"
-[soie]: #soie "Silk"
-[épice]: ./silver.md#epice "Spice"
-[perception]: ./skills-list.md#perception
+[commercer]: #le-commerce "Trade"

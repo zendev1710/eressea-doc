@@ -76,7 +76,7 @@ Cette compétence permet d'acheter et de vendre des [[argent#biens-de-luxe|biens
 
 Plus d'information :
 
-- Chapitre dédié : [[argent#commerce|le commerce]]
+- Chapitre dédié : [[argent#le-commerce|le commerce]]
 - Ordre [[cmd-buy]]
 - Ordre [[cmd-sell]]
 

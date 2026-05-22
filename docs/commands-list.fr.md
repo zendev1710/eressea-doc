@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: tableau-recapitulatif-des-ordres
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tableau récapitulatif des ordres
 
 `C`/`L`indique si l'[[ordres|ordre]] est un ordre Court ou Long.  
@@ -126,7 +128,7 @@ Plus d'information : [[ordres]].
 | [PREFIX &#91;prefix&#93;]                                                  | Donne un préfixe au nom de la race                   | C      |
 | [[cmd-promote]]                                                            | Transforme l'unité en héros                          | C      |
 | [QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]             | Quitte le jeu                                        | C      |
-| [RECRUIT &lt;number&gt;]                                                   | Recrute plus de personnes                            | C      |
+| [RECRUIT &lt;number&gt;][recruter]                                         | Recrute plus de personnes                            | C      |
 | [REGION x,y]                                                               | Aucune fonction (uniquement pour les outils)         | C      |
 | [RESEARCH HERBS]                                                           | Recherche des plantes                                | L      |
 | [RESERVE &lt;number&gt; "&lt;item&gt;"]                                    | Gegenstände reservieren                              | C      |
@@ -151,7 +153,7 @@ Plus d'information : [[ordres]].
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Utilise une potion alchimique                        | C      |
 | [[cmd-work]]                                                               | Gagne 10 silver ou plus                              | L      |
 
-[^1]: l'ordre n'est pas toujours long, voir [Fin de la bataille]
+[^1]: l'ordre n'est pas toujours long, voir [Fin de la bataille][fin-du-combat]
 [^2]: si l'unité suivie ne bouge pas, un autre ordre long peut être exécuté à la place
 [^3]: un ordre `BUY` et plusieurs ordres `SELL` peuvent être combinés
 [^4]: une unité peut lancer plusieurs sorts
@@ -292,11 +294,8 @@ Poursuivre la lecture : [[premier-tour]].
 [SORT AFTER &lt;unit id&gt;]: [[cmd-sort]]
 [SORT BEFORE &lt;unit id&gt;]: [[cmd-sort]]
 [SPY &lt;unit id&gt;]: [[cmd-spy]]
-[STEAL &lt;unit id&gt;]: ./camouflage]]
+[STEAL &lt;unit id&gt;]: [[camouflage]]
 [TAX &#91;amount&#93;]: [[cmd-tax]]
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit]]
 [USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use]]
-
-[RECRUIT &lt;number&gt;]: ./silver.md#recruiting
-[Fin de la bataille]: ./war.md#fin-du-combat

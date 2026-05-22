@@ -20,7 +20,8 @@ Pour pouvoir élever des chevaux, il faut qu'il y ait au moins 2 chevaux dans le
 En outre, il doit y avoir un cheval par "opportunité d'élevage" (c'est-à-dire 15 chevaux dans l'exemple ci-dessus).  
 L'unité doit avoir elle-même les chevaux, la [[reserve-d-objets]] n'est pas utilisée ici.  
 
-Pour pouvoir utiliser l'ordre `GROW HERBS`, vous devez avoir au moins [Herboristerie][Herboristerie]{title="Herbalism"} au niveau 6.  
+Pour pouvoir utiliser l'ordre `GROW HERBS`, **il faut être T6** en [herboristerie][herboristerie]{title="Herbalism"}.
+
 L'unité essaie de planter le nombre de plantes spécifié, mais pas plus d'une plante par niveau de compétence;  
 elle a besoin du nombre approprié de plantes du type correspondant, ainsi qu'une potion "Water of Life".  
 Il n'est pas possible de changer le type de plante d'une région, l'unité ne peut replanter que le type de plante trouvé précédemment dans la région.  

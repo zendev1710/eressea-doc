@@ -13,33 +13,35 @@
    6. [Sort lines](https://github.com/Tyriar/vscode-sort-lines)
    7. [Trailing Spaces](https://github.com/shardulm94/vscode-trailingspaces.git)
 3. Install python 3
-4. Install [mkdocs](https://www.mkdocs.org/user-guide/installation/): `pip install mkdocs`
+4. Install [ProperDocs](https://properdocs.org/) (continuation of MkDocs 1): `pip install properdocs`
 5. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#installation): `pip install mkdocs-material`
 6. Install other needed MkDocs plugins:
    1. [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/getting-started/installation/): `pip install mkdocs-static-i18n[material]`
    2. [mkdocs-alias-plugin](https://github.com/EddyLuten/mkdocs-alias-plugin?tab=readme-ov-file#installation): `pip install mkdocs-alias-plugin`
    3. [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects) (optional): `pip install mkdocs-redirects`
+   4. [mkdocs-table-reader](https://github.com/timvink/mkdocs-table-reader-plugin): `pip install mkdocs-table-reader-plugin`
+   5. [mkdocs-autorefs](https://github.com/mkdocstrings/autorefs):`pip install mkdocs-autorefs`
 7. [Install Task](https://taskfile.dev/docs/installation#winget)
 
 ## Building the web site
 
-In a PowerShell console, from the folder containing the `docs` folder: `mkdocs build` or `mkdocs build *> build.log`.
+In a PowerShell console, from the folder containing the `docs` folder: `properdocs build` or `properdocs build *> build.log`.
 
 ## Running in local mode
 
 In a PowerShell console, from the folder containing the `docs` folder:
 
-- To run the web site in local: `Start-Process mkdocs serve &`, then go to the web site: <http://127.0.0.1:8000/eressea-doc/>
+- To run the web site in local: `Start-Process properdocs serve &`, then go to the web site: <http://127.0.0.1:8000/eressea-doc/>
 - To stop the web site: `Stop-Process -Name python`
 
-On your computer, to get changes after browser page update: `mkdocs serve --livereload`.  
+On your computer, to get changes after browser page update: `properdocs serve --livereload`.  
 <!--
 For an auto-reload much faster: `mkdocs serve --dirtyreload`.  
 -->
 
 ## Deployment on GitHub
 
-`mkdocs gh-deploy`:
+`properdocs gh-deploy`:
 
 - site content is updated on the `gh-deploy` repository branch
 - Updated branch is deployed on <https://zendev1710.github.io/eressea-doc/>, which should be then updated

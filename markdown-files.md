@@ -37,7 +37,7 @@
 [appendices/items/stardust.md](/docs/stardust.md)
 [appendices/items/stone-golem.md](/docs/stone-golem.md)
 [appendices/items/sun-sail.md](/docs/sun-sail.md)
-[gameplay/camouflage.md](/docs/camouflage.md)
+[gameplay/stealth.md](/docs/stealth.md)
 [gameplay/factions.md](/docs/factions.md)
 [gameplay/races.md](/docs/races.md)
 [gameplay/skills-list.md](/docs/skills-list.md)

@@ -33,12 +33,12 @@ Weaponsmithing
 
 Alchimie
 Apprivoisement
-Camouflage
 Combat à l'arme d'hast
 Combat à mains nues
 Commerce
 Construction de routes
 Construction navale
+Discrétion
 Divertissement
 Endurance
 Équitation

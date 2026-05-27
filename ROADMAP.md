@@ -47,7 +47,6 @@ A page review is achieved when:
 | [birthday-cake][^1]          | ✔️ | ✔️ | ✔️ |
 | [buildings-others]           |    |    |    |
 | [buildings]                  |    |    |    |
-| [camouflage]                 |    |    |    |
 | [castles]                    |    |    |    |
 | [christmas-tree]             | ✔️ | ✔️ | ✔️ |
 | [christmas]                  | ✔️ | ✔️ | ✔️ |
@@ -183,6 +182,7 @@ A page review is achieved when:
 | [spells-list]                |    |    |    |
 | [sphere-of-invisibility][^1] | ✔️ | ✔️ | ✔️ |
 | [stardust]                   | ✔️ | ✔️ | ✔️ |
+| [stealth]                    |    |    |    |
 | [sun-sail]                   | ✔️ | ✔️ | ✔️ |
 | [tactic]                     |    |    |    |
 | [terrains]                   | ✔️ |    |    |
@@ -204,7 +204,7 @@ A page review is achieved when:
 [birthday-cake]: https://zendev1710.github.io/eressea-doc/birthday-cake "birthday-cake"
 [buildings-others]: https://zendev1710.github.io/eressea-doc/buildings-others "buildings-others"
 [buildings]: https://zendev1710.github.io/eressea-doc/buildings "buildings"
-[camouflage]: https://zendev1710.github.io/eressea-doc/camouflage "camouflage"
+[stealth]: https://zendev1710.github.io/eressea-doc/stealth "stealth"
 [castles]: https://zendev1710.github.io/eressea-doc/castles "castles"
 [christmas]: https://zendev1710.github.io/eressea-doc/christmas "Christmas"
 [christmas-tree]: https://zendev1710.github.io/eressea-doc/christmas-tree "christmas-tree"

@@ -35,7 +35,7 @@ appendices/items/sphere-of-invisibility.md
 appendices/items/stardust.md
 appendices/items/stone-golem.md
 appendices/items/sun-sail.md
-gameplay/camouflage.md
+gameplay/stealth.md
 gameplay/factions.md
 gameplay/races.md
 gameplay/skills-list.md

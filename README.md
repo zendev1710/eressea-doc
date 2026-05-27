@@ -32,7 +32,7 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [birthday-cake]         | N  | N  | N  | [geburtstagstorte]        |       |
 | [buildings-others]      | X  | X  | X  | [andere_gebäude]          |       |
 | [buildings]             | X  | X  | X  | [gebäude]                 |       |
-| [camouflage]            | X  | NT | X  | [tarnung]                 |       |
+| [stealth]               | X  | NT | X  | [tarnung]                 |       |
 | [castles]               | X  | X  | X  | [burg]                    |       |
 | [christmas-tree]        | X  | N  | N  | [weihnachtsbaum]          |       |
 | [christmas]             | X  | N  | N  | [weihnachten]             |       |
@@ -319,7 +319,6 @@ Legend:
 [buildings-others]: ./buildings-others.md "buildings-others"
 [buildings]: ./buildings.md "buildings"
 [burg]: https://wiki.eressea.de/burg "burg"
-[camouflage]: ./camouflage.md "camouflage"
 [castles]: ./castles.md "castles"
 [christmas-tree]: ./christmas-tree.md "christmas-tree"
 [christmas]: ./christmas.md "christmas"
@@ -492,6 +491,7 @@ Legend:
 [spells-list]: ./spells-list.md "spells-list"
 [spielerseiten]: https://wiki.eressea.de/spielerseiten "spielerseiten"
 [stardust]: ./stardust.md "stardust"
+[stealth]: ./steath.md "stealth"
 [sternenstaub]: https://wiki.eressea.de/sternenstaub "sternenstaub"
 [straße]: https://wiki.eressea.de/straße "straße"
 [sun-sail]: ./sun-sail.md "sun-sail"

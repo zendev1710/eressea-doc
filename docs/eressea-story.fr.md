@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: histoire-d-eressea
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Eressea depuis ses débuts
 
 Selon [Wikipedia], Eressea a été lancé le 27 août 1996.
@@ -20,14 +22,14 @@ Mais le jeu continue.
 - Alex Schröder
   Développeur de l'Atlantide version allemande.
   Le code Atlantis 1.0 et celui de la version allemande sont disponibles gratuitement, contrairement au code Eressea basé sur celui-ci.
-- Christian Schlittchen ([Corwin])
+- Christian Schlittchen ([Corwin][corwin])
   a développé Eressea et fait tourner le jeu pendant longtemps (jusqu'au tour 289, vers mi-2002).
-- Katja Zedel ([Katze (Designerin)])
+- Katja Zedel ([Katze (Designerin)][katja-zedel])
   était la développeuse et directrice du jeu d'Eressea avec Corwin.
   Le plus grand projet de Katja a été le développement d'une nouvelle magie.
-- [Enno Rehling]
+- [Enno Rehling][enno]
   est là depuis le tour 39 et a pris en charge le développement et la gestion du jeu après le départ des deux autres directeurs du jeu.
-- Henning Peters ([Faroul])
+- Henning Peters ([Faroul][faroul])
   Développeur, entre autres, du vérificateur d'ordres [[echeck]].
 - Benjamin Bärmann, Ingo Wilken
   Co-développeur dans les premières années, notamment sur l'alchimie
@@ -423,7 +425,7 @@ Il s’agissait à l’origine d’une étape intermédiaire plus petite vers E1
 En raison des changements massifs de règles, l'E1.1 démarrera dans un nouveau monde.  
 Afin de contrecarrer les problèmes du jeu sans fin et de maintenir la charge de travail du jeu en cours aussi faible que possible, il ne sera pas possible de démarrer le jeu plus tard.  
 
-Le programmeur de ce projet est [Enno][Enno Rehling], l'équipe de conception à ce stade n'est composée que de Xolgrim.  
+Le programmeur de ce projet est [Enno][enno], l'équipe de conception à ce stade n'est composée que de Xolgrim.  
 Quelques jours plus tard, elle a été agrandie à sa taille actuelle avec Eon, qui avait remarqué Enno via une liste de diffusion, et Phygon, qui, comme Xolgrim, avait déjà travaillé sur divers projets inachevés d'Eressea.  
 
 Le titre provisoire, qui est l'abréviation de « Eressea 2009 », illustre le peu de temps qui reste pour le développement, la conception, la programmation et les tests.
@@ -442,11 +444,4 @@ Comme ceux-ci ne peuvent être évoqués qu'au plus tôt au deuxième tour du je
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Atlantis]: ./atlantis.md
-[Corwin]: ./contributors.md#corwin
-[Katze (Designerin)]: ./contributors.md#katja-zedel
-[Enno Rehling]: ./contributors.md#enno
-[Faroul]: ./contributors.md#faroul
-[ECheck]: ./echeck.md
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
-[Xontormia-Express]: ./xontormia-express.md

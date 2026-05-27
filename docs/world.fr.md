@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: le-monde-d-eressea
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Le Monde d'Eressea
 
 ## Géographie
@@ -67,24 +69,24 @@ La seule différence entre une plaine et une forêt est le nombre d'arbres et de
 À partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt.  
 Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou, inversement, de transformer une plaine en forêt en la reboisant.  
 
-| Terrain        | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
-|----------------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
-| [Désert]       |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
-| [Forêt]        |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
-| [Glacier]      |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsuga blanc                                            |
-| [Haut-plateau] |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |
-| [Marais]       |             2 000 |                    200 |                  75 | herbe de clairon, morille, racine de nœud                                                             |
-| [Montagne]     |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |
-| [Plaine]       |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
-| [Volcan]       |               500 |                     50 |                 250 | --                                                                                                    |
+| Terrain                                        | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
+|------------------------------------------------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
+| [Désert][desert]{title="Desert"}               |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
+| [Forêt][foret]{title="Forest"}                 |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| [Glacier][glacier]{title="Glacier"}            |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsuga blanc                                            |
+| [Haut-plateau][haut-plateau]{title="Highland"} |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |
+| [Marais][marais]{title="Swamp"}                |             2 000 |                    200 |                  75 | herbe de clairon, morille, racine de nœud                                                             |
+| [Montagne][montagne]{title="Mountain"}         |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |
+| [Plaine][plaine]{title="Plain"}                |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
+| [Volcan][volcan]{title="Volcano"}              |               500 |                     50 |                 250 | --                                                                                                    |
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire.  
-Les paysans ont également besoin [[argent|d'argent]] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail].  
+Les paysans ont également besoin [[argent|d'argent]] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail][travail].  
 Les plus grands [[chateaux]] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
 Le type de terrain détermine également quelles [[plantes]] peuvent pousser dans la région.  
-Un alchimiste pourra concocter des [potions] utiles à partir de différents ingrédients.  
+Un alchimiste pourra concocter des [potions][potions] utiles à partir de différents ingrédients.  
 Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là.  
 Les herbes qui y poussent ne peuvent toutefois pas être modifiées.  
 Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]].  
@@ -115,7 +117,7 @@ Outre le fer et les pierres, il y a aussi le laen, un métal nettement plus rare
 Si une montagne, un glacier ou un volcan abrite du laen, on en trouve à partir de la profondeur d'extraction 7.  
 Dans d'autres types de régions, on peut aussi avoir de la chance de trouver du laen, mais alors éventuellement seulement au niveau d'extraction 7 à 10.  
 Il faut donc un mineur de niveau 5 pour pouvoir exclure le laen dans chaque région.  
-Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [mine] pour l'exploiter.  
+Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [mine][mine]{title="Mine"} pour l'exploiter.  
 
 <div class="lore-dialogue">
 Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates.
@@ -144,22 +146,22 @@ Il reste donc actuellement 306 emplois libres dans la région.
 
 36 chevaux sauvages vivent dans la région.  
 Les chevaux n'ont aucune influence sur le nombre d'emplois disponibles.  
-L'[apprivoisement] permet de capturer les chevaux et de les utiliser par exemple pour le [transport] de marchandises ou d'en équiper des combattants.  
-Ces derniers peuvent alors recevoir le [bonus de cavalerie] au combat s'ils sont au moins N2 en [équitation].  
+L'[apprivoisement][apprivoisement]{title="Taming"}  permet de capturer les chevaux et de les utiliser par exemple pour le [transport][chevaux-et-chariots] de marchandises ou d'en équiper des combattants.  
+Ces derniers peuvent alors recevoir le [bonus de cavalerie][bonus-et-malus] au combat s'ils sont au moins N2 en [équitation][equitation]{title="Riding"}.  
 
 De plus, il y a des pierres à Vîpot, ce qui n'est pas le cas de tous les déserts, mais cela arrive de temps en temps.  
 Actuellement, il y a 22 pierres au niveau d'extraction 3 (couche 3).  
-Pour découvrir ce gisement de pierres, il faut un tailleur de pierre au moins T2 en [extraction de pierres] (avec ce niveau, on peut voir des gisements de pierres jusqu'à la couche 4 maximum).  
-Cependant, pour pouvoir effectivement extraire des pierres, l'unité doit être T3 T2 en [extraction de pierres].  
+Pour découvrir ce gisement de pierres, il faut un tailleur de pierre au moins T2 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"} (avec ce niveau, on peut voir des gisements de pierres jusqu'à la couche 4 maximum).  
+Cependant, pour pouvoir effectivement extraire des pierres, l'unité doit être T3 T2 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
 
 On peut en principe construire des [[routes]] dans chaque région non maritime pour augmenter la vitesse de déplacement par voie terrestre.  
 Pour le désert de Vîpot, il faut 100 pierres pour construire une route sur l'un des 6 points cardinaux (W, NW, NE, E, SW, SW).  
 De plus, la région voisine doit également avoir une route aménagée en direction de Vîpot, afin qu'il y ait une liaison routière.  
-Mais comme Vîpot est un désert, il faut en plus un [caravanserail] entièrement construit.  
+Mais comme Vîpot est un désert, il faut en plus un [caravanserail][caravanserail] entièrement construit.  
 Un désert n'est donc pas forcément le premier choix pour construire un réseau routier, mais peut être un investissement rentable selon la géographie de l'île.  
 
 La ligne contient également le montant actuel de silvers dans la région (la réserve).  
-Ce montant est important pour estimer l'état de l'approvisionnement des paysans et combien les unités de joueurs peuvent avoir de [revenus] en divertissant ou en collectant des impôts.  
+Ce montant est important pour estimer l'état de l'approvisionnement des paysans et combien les unités de joueurs peuvent avoir de [revenus][revenus] en divertissant ou en collectant des impôts.  
 
 ## Les régions d'Eressea
 
@@ -169,7 +171,7 @@ Selen montra du doigt la page ouverte.
 Rahel regarda intensément un instant avant de commencer.
 </div>
 
-Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesquelles tu as voyagé ou les régions océaniques que tu as aperçues depuis un [phare] sont listées :
+Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesquelles tu as voyagé ou les régions océaniques que tu as aperçues depuis un [phare][phare]{title="Lighthouse"} sont listées :
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamp of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountain of Nipevan (−2,0).`
 
@@ -215,7 +217,7 @@ Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y t
 Dans `Luxuries`, vous pouvez voir la quantité de marchandises achetées ou vendues par les paysans pour le prix indiqué (voir aussi [Commerce]).  
 Échanger plus de marchandises changera le prix durablement !  
 
-Pour plus d'informations, lisez la section [Commerce].  
+Pour plus d'informations, lisez la section [Commerce][le-commerce].  
 
 <div class="lore-dialogue">
 — "Excellent, Rahel. Ce que tu as sous les yeux est un rapport complet.
@@ -256,17 +258,17 @@ Jusque tard dans la soirée, les gardes du temple pouvaient les voir déambuler 
 
 Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines chacun.  
 
-| Mois                      | Saison    | Fréquence des tempêtes |
-|---------------------------|-----------|-----------------------:|
-| [Lune des Récoltes]       | Été       |                  0.5 % |
-| [Vents Doux]              | Printemps |                  0.5 % |
-| [Vent des Glaces]         | Hiver     |                  1.5 % |
-| [Feu du Foyer]            | Hiver     |                  2.5 % |
-| [Brouillard Impénétrable] | Automne   |                    3 % |
-| [Neiges Envoûtantes]      | Hiver     |                    3 % |
-| [Pluies de Fleurs]        | Printemps |                    3 % |
-| [Feu du Soleil]           | Été       |                    3 % |
-| [Lune des Tempêtes]       | Automne   |                    4 % |
+| Mois                                               | Saison    | Fréquence des tempêtes |
+|----------------------------------------------------|-----------|-----------------------:|
+| [Lune des Récoltes][lune-des-recoltes]             | Été       |                  0.5 % |
+| [Vents Doux][vents-doux]                           | Printemps |                  0.5 % |
+| [Vent des Glaces][vent-des-glaces]                 | Hiver     |                  1.5 % |
+| [Feu du Foyer][feu-du-foyer]                       | Hiver     |                  2.5 % |
+| [Brouillard Impénétrable][brouillard-impenetrable] | Automne   |                    3 % |
+| [Neiges Envoûtantes][neiges-envoutantes]           | Hiver     |                    3 % |
+| [Pluies de Fleurs][pluies-de-fleurs]               | Printemps |                    3 % |
+| [Feu du Soleil][feu-du-soleil]                     | Été       |                    3 % |
+| [Lune des Tempêtes][lune-des-tempetes]             | Automne   |                    4 % |
 
 Chaque tour du jeu correspond à une semaine dans le monde.  
 Pendant ce temps, on peut faire beaucoup de choses.  
@@ -276,9 +278,9 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 
 En voici un bref aperçu :
 
-- Les peuples d'[Insectes] recrutent difficilement en hiver
+- Les peuples d'[Insectes][insectes] recrutent difficilement en hiver
 - Les tempêtes en [[deplacements|mer]] sont plus fréquentes en automne
-- Les différentes phases de [croissance des forêts] sont liées à des saisons particulières
+- Les différentes phases de [croissance des forêts][ressources-forestieres] sont liées à des saisons particulières
 - En hiver, la croissance des [[plantes]] s'arrête
 
 ## Mois et saisons
@@ -370,37 +372,3 @@ Poursuivre la lecture : [faction].
 [^1]: quelque soit le nombre d'arbres.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
-
-[potions]: ./alchemy.md#potions
-[travail]: ./silver.md#travail
-[mine]: ./buildings-others.md#mine
-[apprivoisement]: ./skills-list.md#apprivoisement "Taming"
-[équitation]: ./skills-list.md#equitation "Riding"
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[transport]: ./travel.md#chevaux-et-chariots
-[bonus de cavalerie]: ./war.md#bonus-et-malus
-[caravanserail]: ./buildings-others.md#caravanserail
-[revenus]: ./silver.md#revenus
-[phare]: ./buildings-others.md#phare
-[Commerce]: ./silver.md#le-commerce
-[Insectes]: ./races.md#insectes
-[croissance des forêts]: ./resources.md#ressources-forestieres
-
-[Désert]: ./terrains.md#desert "Desert"
-[Forêt]: ./terrains.md#foret "Forest"
-[Glacier]: ./terrains.md#glacier "Glacier"
-[Haut-plateau]: ./terrains.md#haut-plateau "Highlands"
-[Marais]: ./terrains.md#marais "Swamp"
-[Montagne]: ./terrains.md#montagne "Mountain"
-[Plaine]: ./terrains.md#plaine "Plain"
-[Volcan]: ./terrains.md#volcan "Volcano"
-
-[Lune des Récoltes]: ./world.md#lune-des-recoltes
-[Vents Doux]: ./world.md#vents-doux
-[Vent des Glaces]: ./world.md#vent-des-glaces
-[Feu du Foyer]: ./world.md#feu-du-foyer
-[Brouillard Impénétrable]: ./world.md#brouillard-impenetrable
-[Neiges Envoûtantes]: ./world.md#neiges-envoutantes
-[Pluies de Fleurs]: ./world.md#pluies-de-fleurs
-[Feu du Soleil]: ./world.md#feu-du-soleil
-[Lune des Tempêtes]: ./world.md#lune-des-tempetes

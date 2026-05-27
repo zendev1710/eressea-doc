@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: production-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Production
 
 Diverses choses peuvent être produites à Eressea.  
@@ -17,7 +19,7 @@ Pour les objets avec des valeurs de compétence minimales élevées, vous ne pou
 Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’un seul type d’objet ou de ressource et travailler sur un seul bâtiment ou bateau.  
 
 À l'exception du [[laen]] et de l'[[adamantium]], deux métaux particulièrement précieux et rares, et du [[mallorn]] (un bois magique), toutes les matières premières peuvent être produites avec une valeur de compétence de 1, tout comme les chevaux et les plantes.  
-Pour obtenir du laen et de l'adamantium, vous avez besoin d'une [mine] et d'une compétence d'[extraction minière] de **7 pour le laen**, de **8 pour l'adamantium**, et d'une compétence de niveau 2 en [sylviculture] pour le mallorn.
+Pour obtenir du laen et de l'adamantium, vous avez besoin d'une [mine][mine] et d'une compétence d'[extraction minière][extraction-miniere]{title="Mining"} de **7 pour le laen**, de **8 pour l'adamantium**, et d'une compétence de niveau 2 en [sylviculture][sylviculture]{title="Forestry"} pour le mallorn.
 
 Pour les objets ainsi que pour les bâtiments et les bateaux, les niveaux de compétence de toutes les personnes de l'unité sont additionnés et divisés par la compétence minimale requise en construction.  
 Pour chaque point ainsi calculé, un bâtiment ou un beateau peut être construit ou agrandi d'un point, ou un objet peut être produit.
@@ -32,7 +34,7 @@ Cependant, il n'est pas possible de construire plusieurs bâtiments ou bateaux e
 Permet à une unité de produire 10 boucliers, en supposant qu'elle :
 
 - possède 10 fer
-- soit au moins T2 en [fabrication d'armures]
+- soit au moins T2 en [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}
 - posssède un total de 20 niveaux de compétence (10 boucliers x compétence minimale 2 = 20)
 
 ## Exemple 2
@@ -44,7 +46,7 @@ Il définit la quantité de bois voulue pour construire le bateau du type mentio
 
 ## Exemple 3
 
-Une unité composée de 4 personnes et **T5 en [fabrication d'armes]** possède un total de 20 niveaux de compétence.  
+Une unité composée de 4 personnes et **T5 en [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}** possède un total de 20 niveaux de compétence.  
 Elle peut utiliser ses compétences pour créer au choix (et sans aucun outil) par exemple :
 
 - 6 épées (compétence requise T3), ou
@@ -53,10 +55,10 @@ Elle peut utiliser ses compétences pour créer au choix (et sans aucun outil) p
 
 ## Exemple 4
 
-Avec une **[forge]**, la consommation de fer pour les épées et les boucliers (et autres objets produits dans une forge) est **réduite de moitié**.  
+Avec une **[forge][forge]{title="Smithy"}**, la consommation de fer pour les épées et les boucliers (et autres objets produits dans une forge) est **réduite de moitié**.  
 Il est par exemple possible de produire 10 boucliers à partir de 5 fers.  
 
-Les forgerons bénéficient également d'un **bonus de compétence de +1** en [fabrication d'armes] et [fabrication d'armures].  
+Les forgerons bénéficient également d'un **bonus de compétence de +1** en [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"} et [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}.  
 
 !!! note "important"
     Les niveaux de compétence ne comptent ensemble que si les personnes sont dans une unité !  
@@ -77,10 +79,3 @@ Pour faciliter la collecte, il existe une [[reserve-d-objets]].
 Poursuivre la lecture : [[resources]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
-
-[mine]: ./buildings-others.md#mine
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
-[sylviculture]: ./skills-list.md#sylviculture "Forestry"
-[fabrication d'armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
-[fabrication d'armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
-[forge]: ./buildings-others.md#forge "Smithy"

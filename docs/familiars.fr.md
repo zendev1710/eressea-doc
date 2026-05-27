@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: familiers
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Familiers
 
 Les familiers sont toujours des représentants particulièrement intelligents de leur espèce, mais ils sont très rarement doués eux-même de magie.  
@@ -44,10 +46,10 @@ Caractéristiques d'un Aigle.
 
 ### Démon
 
-Les [Démons] sont cruels et imprévisibles.
+Les [Démons][demons] sont cruels et imprévisibles.
 Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.  
 
-Caractéristiques d'un Démon : voir [Modificateurs de compétences].
+Caractéristiques d'un Démon : voir [Modificateurs de compétences][modificateurs-de-competences].
 
 ### Dauphin
 
@@ -134,9 +136,9 @@ Caractéristiques d'un Fantôme.
 
 ### Gobelin
 
-Les [Gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.  
+Les [Gobelins][gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.  
 
-Caractéristiques d'un Gobelin : voir [Modificateurs de compétences].
+Caractéristiques d'un Gobelin : voir [Modificateurs de compétences][modificateurs-de-competences].
 
 ### Chat de l'Enfer
 
@@ -448,7 +450,3 @@ Un Aquarien ne devrait pas nécessairement se tenir à côté d'un lac intérieu
 Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'invoquer un familier flottant dans une région sans accès à une tuile océan (lac ou mer), ni comment cela change les chances d'obtenir une autre race de familier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
-
-[Démons]: ./races.md#demons
-[Gobelins]: ./races.md#gobelins
-[Modificateurs de compétences]: ./skills-modifiers.md#modificateurs-de-competences

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: magie
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Magie
 
 La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].
@@ -47,7 +49,7 @@ S’il est déjà au niveau 5 en magie, il doit payer 1 100 Silver par semaine 
     Il n’y a aucun moyen de savoir lequel des deux est vrai.  
     Il vaut donc mieux planifier un peu plus généreusement.  
 
-Apprendre dans une **[académie]** coûte **deux fois plus cher**.
+Apprendre dans une **[académie][academie]** coûte **deux fois plus cher**.
 
 Seuls les mages de la même école de magie que le professeur peuvent être formés.
 Un mage Draig ne peut donc pas enseigner à un mage Illaun.  
@@ -120,7 +122,7 @@ Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant 
 Au lieu de cela, ils sont lancés lorsque l’unité est activement engagée dans un combat.  
 Les trois types peuvent être définis avec l'ordre [[cmd-combatspell|`COMBATSPELL LEVEL n "<sort>"`]].  
 Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [[cmd-combatspell|`COMBATSPELL NOT`]].  
-Les sorts de combat fonctionnent un peu comme les ordres [`COMBAT`], c'est-à-dire qu'une fois définis, ils restent enregistrés.  
+Les sorts de combat fonctionnent un peu comme les ordres [`COMBAT`][lignes-de-combat], c'est-à-dire qu'une fois définis, ils restent enregistrés.  
 Une unité peut avoir au maximum un sort de pré-combat, un sort de combat et un sort de post-combat.  
 Par exemple, si l'unité possède déjà un sort de pré-combat et qu'elle lance un nouveau sort de pré-combat, l'ancien est remplacé par le nouveau.
 
@@ -142,11 +144,11 @@ Syntax:
     COMBATSPELL [LEVEL n] 'Song of Fear'
 ```
 <!-- TODO check if below is what german text meant -->
-Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre `ATTACK` lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir [Les camps dans une bataille]).  
+Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre `ATTACK` lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir [Les camps dans une bataille][les-camps-dans-une-bataille]).  
 Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack]] !
 
 Un sort de pré-combat ou de post-combat est lancé une fois avant ou après le début du combat.  
-Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura]) et qu'elle soit encore en vie.
+Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura][aura]) et qu'elle soit encore en vie.
 
 ### Aura
 
@@ -176,7 +178,7 @@ Le premier sort lancé par l'unité au cours d'un round coûte l'aura normale sp
 Le deuxième coûte deux fois plus cher, le troisième quatre fois plus, le quatrième huit fois, etc.
 
 Les sorts de combat sont traités séparément; ils n'augmentent pas le coût des sorts normaux ou d'autres sorts de combat et ne coûtent toujours que l'aura spécifiée.  
-Les [sorts à distance] augmentent également le coût de lancement.  
+Les [sorts à distance][magie-a-distance] augmentent également le coût de lancement.  
 
 ### Niveau de lanceur de sorts
 
@@ -184,7 +186,7 @@ La valeur spécifiée comme "niveau" est initialement le niveau minimum auquel l
 
 Certains sorts ont des effets et des coûts fixes.  
 Ils sont toujours lancés au niveau du sort et ne peuvent pas être modifiés par des paramètres.  
-Cela peut toujours être important pour des choses comme la [résistance à la magie].  
+Cela peut toujours être important pour des choses comme la [résistance à la magie][resistance-a-la-magie].  
 Le sort **Create A Ring of Invisibility** est toujours lancé au niveau 6 et produit exactement un anneau.  
 
 De nombreux sorts ont des effets et des coûts qui dépendent du niveau.  
@@ -196,11 +198,11 @@ Avec ces sorts variables, vous pouvez spécifier un niveau auquel le sort doit �
 Celui-ci doit être égal ou inférieur au niveau en magie de l'unité, mais il peut être supérieur ou inférieur au niveau normal du sort.  
 Cela vous permet de lancer le sort à un niveau inférieur à votre propre compétence.
 
-En utilisant un [[anneau-de-pouvoir]], une [Tour des mages] ou un [Cercle de pierres bénies], la force peut être augmentée d'un point supplémentaire.  
+En utilisant un [[anneau-de-pouvoir]], une [Tour des mages] ou un [Cercle de pierres bénies][cercle-de-pierres], la force peut être augmentée d'un point supplémentaire.  
 Ce bonus est ajouté au niveau spécifié.
 
 Si le niveau n'est pas précisé, le sort est lancé au niveau maximum possible, c'est à dire le niveau de compétence de l'unité (les modifications comme les bonus raciaux ou les bonus spéciaux comme ceux des Insectes dans les déserts sont pris en compte).  
-Une raison pour laquelle cela n'est pas toujours souhaitable est que le niveau auquel le sort est lancé affecte également la [probabilité d'erreurs].
+Une raison pour laquelle cela n'est pas toujours souhaitable est que le niveau auquel le sort est lancé affecte également la [probabilité d'erreurs][gaffe].
 
 Spécifier un niveau fonctionne également pour les sorts de combat :
 
@@ -366,7 +368,7 @@ La résistance à la magie d'une unité s'obtient par l'addition de :
 - +5 % par niveau de compétence en magie
 - *+10 % x Nombre de licornes* par personne
 - Éventuellement un bonus ou un malus dû au [[liste-des-sorts|sort]] sur l'unité ou la région
-- Éventuellement un bonus de [bâtiment][Cercle de pierres bénies]
+- Éventuellement un bonus de [bâtiment][cercle-de-pierres]
 
 Le résultat ne peut jamais être supérieur à 90 %.  
 
@@ -376,7 +378,7 @@ Pour certains enchantements directs, il est en outre influencé par l'expérienc
 - Jamais en dessous de 2 %, jamais au-dessus de 98 %
 
 <!-- TODO: clarify translation -->
-Au lieu de cela, les bonus supplémentaires des [armes ou armures] fonctionnent contre les sorts de combat tels que les boules de feu et les armes considérées comme magiques.  
+Au lieu de cela, les bonus supplémentaires des [armes ou armures][resistance-a-la-magie] fonctionnent contre les sorts de combat tels que les boules de feu et les armes considérées comme magiques.  
 Sinon, seules la protection magique et l’armure naturelle fonctionnent contre les dégâts de magie.  
 
 Même la « matière inanimée » (c'est-à-dire les régions, les bateaux, les bâtiments...), a parfois une résistance magique.  
@@ -386,15 +388,15 @@ Il peut également être renforcé par certains sorts.
 
 La chance de base est de 0 % pour les humains, de 10 % pour les [[skills-modifiers|elfes]], et de -5 % pour les [[skills-modifiers|gobelins]].  
 
-Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos] lancé par une unité de T10 en magie.  
+Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos][malediction-du-chaos] lancé par une unité de T10 en magie.  
 Si le niveau en magie est T12, les chances tombent à 40 %.  
 Si l'unité cible est composée de gobelins, les chances diminuent encore à 35 %.  
 
-Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une [épée en laen][armes ou armures] * 70 %) = 63 % de cela, soit environ 31 dégâts.  
+Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une [épée en laen][resistance-a-la-magie] * 70 %) = 63 % de cela, soit environ 31 dégâts.  
 
 ## Tour des Mages
 
-Une [Tour de Mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [[anneau-de-pouvoir]] sans augmenter le coût.  
+Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [[anneau-de-pouvoir]] sans augmenter le coût.  
 De plus, la probabilité d’un échec du sort est considérablement réduite.  
 
 ## Familiers
@@ -446,7 +448,7 @@ Ce n'est que grâce à la magie que la réalité peut être modifiée de telle m
 De plus, vous ne pouvez pas emmener de pierres, de chevaux, de chars ou de catapultes dans le monde des Esprits.  
 Seulement les **Chevaux elfiques** semblent être capables de survivre en tant que montures magiques dans l'Astral.  
 
-En général, tout le monde devrait être mis en garde contre une traversée imprudente dans l'Astral, car celui-ci est habité par des [créatures monstrueuses] qui ne peuvent être vaincus par des armes ordinaires et qui privent impitoyablement leurs victimes de leur volonté et de leur mémoire.  
+En général, tout le monde devrait être mis en garde contre une traversée imprudente dans l'Astral, car celui-ci est habité par des [créatures monstrueuses][morts-vivants] qui ne peuvent être vaincus par des armes ordinaires et qui privent impitoyablement leurs victimes de leur volonté et de leur mémoire.  
 Seuls ceux qui portent avec eux des armes magiques puissantes  ou sont capables de se cacher extrêmement bien des regards hostiles seront immunisés contre ces horreurs de l'Astral.  
 Les autres devront compter sur leurs alliés !  
 
@@ -459,17 +461,3 @@ C'est pourquoi il existe désormais une [[liste-des-sorts]] et une [[description
 Poursuivre la lecture : [[ecoles-de-magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
-
-[aura]: #aura
-[sorts à distance]: ./magic.md#magie-a-distance
-[résistance à la magie]: ./magic.md#resistance-a-la-magie
-[probabilité d'erreurs]: #gaffe
-
-[Académie]: ./buildings-others.md#academie
-[`COMBAT`]: ./war.md#lignes-de-combat
-[Les camps dans une bataille]: ./war.md#les-camps-dans-une-bataille
-[Tour de Mage]: ./buildings-others.md#tour-de-mage
-[Cercle de pierres bénies]: ./buildings-others.md#cercle-de-pierres
-[armes ou armures]: ./war-tables.md#resistance-a-la-magie
-[Malédiction du Chaos]: ./spells-descriptions.md#malediction-du-chaos
-[créatures monstrueuses]: ./monsters.md#morts-vivants

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: routes
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Routes
 
 ## Utilité
@@ -16,10 +18,11 @@ Pour qu'une route soit praticable, elle doit être complètement construite.
 Dans chaque région, on peut construire une route vers les six points cardinaux, tant que la région de destination n'est pas un océan.  
 Pour qu'une route soit complète, il doit y avoir une route dans la région de la direction correspondante dans la direction opposée.  
 Par exemple, si l'on construit une route vers le nord-est dans une région, il faut aussi construire une route vers le sud-ouest dans la région voisine.  
-Pour construire des routes, il faut un niveau minimum de 1 en [construction de routes] et on peut augmenter la route d'une pierre par niveau en construction de routes (et par personne dans l'unité).  
+Pour construire des routes, il faut un niveau minimum de 1 en [construction de routes][construction-de-routes]{title="Roadwork"}
+et on peut augmenter la route d'une pierre par niveau en construction de routes (et par personne dans l'unité).  
 
 Le tableau suivant indique combien de pierres sont nécessaires par direction.  
-De plus, certaines régions sont tellement inhospitalières qu'il faut au préalable construire un [bâtiment].  
+De plus, certaines régions sont tellement inhospitalières qu'il faut au préalable construire un [bâtiment][bâtiments].  
 Celui-ci doit fonctionner au moment de la construction, c'est-à-dire qu'il doit être terminé et que son entretien doit être payé.  
 La route terminée fonctionne même sans que l'entretien soit payé.  
 
@@ -37,32 +40,19 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 
 *Construction de routes.*
 
-| Terrain        | Pierres | Bâtiment        |
-|----------------|--------:|-----------------|
-| [Désert]       |     100 | [caravansérail] |
-| [Forêt]        |      50 | --              |
-| [Glacier]      |     250 | [tunnel]        |
-| [Haut-plateau] |     100 | --              |
-| [Marais]       |      75 | [barrage]       |
-| [Montagne]     |     250 | --              |
-| [Plaine]       |      50 | --              |
-| [Volcan]       |     250 | --              |
+| Terrain                                        | Pierres | Bâtiment                        |
+|------------------------------------------------|--------:|---------------------------------|
+| [Désert][desert]{title="Desert"}               |     100 | [Caravansérail][caravanserail]  |
+| [Forêt][foret]{title="Forest"}                 |      50 | --                              |
+| [Glacier][glacier]{title="Glacier"}            |     250 | [Tunnel][tunnel]                |
+| [Haut-plateau][haut-plateau]{title="Highland"} |     100 | --                              |
+| [Marais][marais]{title="Swamp"}                |      75 | [Barrage][barrage]{title="Dam"} |
+| [Montagne][montagne]{title="Mountain"}         |     250 | --                              |
+| [Plaine][plaine]{title="Plain"}                |      50 | --                              |
+| [Volcan][volcan]{title="Volcano"}              |     250 | --                              |
 
 Poursuivre la lecture : [[bateaux]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/fr&oldid=15940] -->
 
-[caravansérail]: ./buildings-others.md#caravanserail
-[Tunnel]: ./buildings-others.md#tunnel
-[bâtiment]: ./buildings-others.md
-[barrage]: ./buildings-others.md#barrage "Dam"
-[construction de routes]: ./skills-list.md#construction-de-routes "Roadwork"
-
-[Désert]: ./terrains.md#desert "Desert"
-[Forêt]: ./terrains.md#foret "Forest"
-[Glacier]: ./terrains.md#glacier "Glacier"
-[Haut-plateau]: ./terrains.md#haut-plateau "Highland"
-[Marais]: ./terrains.md#marais "Swamp"
-[Montagne]: ./terrains.md#montagne "Mountain"
-[Plaine]: ./terrains.md#plaine "Plain"
-[Volcan]: ./terrains.md#volcan "Volcano"
+[bâtiments]: [[batiments-speciaux]]

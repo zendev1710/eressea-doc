@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: premier-tour
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Premier tour
 
 ## Premier rapport
@@ -243,9 +245,7 @@ NEXT
 
 - Un autre [Tutoriel Eressea] (actuellement seulement en allemand)
 
-Poursuivre la lecture : [protection du chiot].
-
-[protection du chiot]: ./puppy-protection.md
+Poursuivre la lecture : [[protection-du-chiot]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 

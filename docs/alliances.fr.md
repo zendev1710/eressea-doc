@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: alliances-fr
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Alliances
 
 Les alliances constituent l'épine dorsale du monde, que ce soit en temps de guerre, de commerce ou de simple coopération pacifique.  
@@ -30,18 +32,18 @@ Tes propres unités prêtes au combat (à l'exception de celles ayant `COMBAT FL
 
 ## `HELP SILVER`
 
-Aide la faction alliée en [soutenant] ses unités s'il te reste de l'argent après avoir payé ton propre soutien.  
+Aide la faction alliée en [soutenant][frais-dentretien] ses unités s'il te reste de l'argent après avoir payé ton propre soutien.  
 Si les unités de la faction alliée n'ont pas assez d'argent pour se nourrir, tes unités leur en fourniront.  
 La faction bénéficiaire n'a pas besoin de faire de don pour ce type de transfert.  
 
 ## `HELP GUARD`
 
 Lève toutes les restrictions de [[cmd-guard]] et étend certaines fonctions utiles à la faction ciblée.  
-Normalement, les factions de garde empêchent les autres factions de [[argent|lever des impôts]], de [recruter] ou de [[ressources|produire]] des ressources limitées;  
+Normalement, les factions de garde empêchent les autres factions de [[argent|lever des impôts]], de [recruter][recruter] ou de [[ressources|produire]] des ressources limitées;  
 Il arrive aussi que certaines unités soient empêchées de [[cmd-guard|traverser]] ta région.  
 Si ce statut d'aide est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.  
 
-De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats] si vous défendez la région.  
+De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats][fin-du-combat] si vous défendez la région.  
 
 Enfin, les unités de la faction alliée peuvent [[cmd-enter|entrer]] dans tes bâtiments et sur tes bateaux.  
 
@@ -62,7 +64,3 @@ Cela englobe dans un seul ordre tous les types d'alliance qui peuvent être nou�
 Poursuivre la lecture : [[magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
-
-[soutenant]: ./silver.md#frais-dentretien
-[recruter]: ./silver.md#recruter
-[après les combats]: ./war.md#fin-du-combat

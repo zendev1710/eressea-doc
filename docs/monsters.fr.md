@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: monstres
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Monstres
 
 La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.  
@@ -69,7 +71,7 @@ Les Ents sont de puissantes créatures à l'apparence d'arbres.
 Il peut être parfois bon de les éviter, car généralement ils s'apaisent au bout d'un certain temps.  
 
 !!! info "Information"
-    Les Ent peuvent être invoqués par les druides **[Gwyrrd]**.  
+    Les Ent peuvent être invoqués par les druides **[Gwyrrd][gwyrrd]**.  
     Ils surgissent aussi parfois lorsque les sorts invoqués tournent mal.  
 
 ## Igjarjuk
@@ -102,7 +104,7 @@ Les attaques réussies provoquent la **panique** chez les ennemis, ce qui **réd
 En combat, un Démon de l'Ombre déclenche **3** attaques : une attaque magique, une attaque à mains nues (2d3), une attaque magique.  
 
 !!! info "Information"
-    Les Démons de l'Ombre peuvent être invoqués par les mages **[Draig]**.  
+    Les Démons de l'Ombre peuvent être invoqués par les mages **[Draig][draig]**.  
 
 ### Maîtres de l'Ombre
 
@@ -120,11 +122,11 @@ En combat, un Maître de l'Ombre déclenche **4** attaques : une attaque magique
 Les victimes d'un Maître de l'Ombre peuvent même obtenir l'équivalent d'une semaine d'apprentissage d'une de leurs compétences par coup.  
 
 !!! info "Information"
-    Les Maîtres de l'Ombre peuvent être invoqués par les mages [Draig].  
+    Les Maîtres de l'Ombre peuvent être invoqués par les mages [Draig][draig].  
 
 ## Mangeurs de cerveau
 
-Les mangeurs de cerveau peuplent l'[Astral].  
+Les mangeurs de cerveau peuplent l'[Astral][lastral].  
 Ils attaquent à l'abri des brumes et leurs attaques peuvent faire oublier aux unités certaines des compétences qu'elles ont acquises.  
 Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de leur sphère par de puissants sorts.  
 
@@ -132,7 +134,7 @@ Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de 
 
 Les Morts-Vivants constituent la plus grande partie des monstres.  
 
-Ils apparaissent là où les paysans meurent (de [famine] et de maladie, ou victimes de [dragons]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
+Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [dragons]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
 Les Morts-Vivants peuvent acquérir diverses [[competences]], ce qui les rend plus dangereux.  
 
 Ils peuvent également muter, ce qui les rend nettement plus forts.  
@@ -151,7 +153,7 @@ Ils peuvent attaquer à mains nues (et sont toujours considérés comme [[arme-e
 
 ### Goules
 
-Les Goules peuvent muter en [Fantômes].
+Les Goules peuvent muter en [Fantômes][fantomes].
 
 ### Juju Zombies
 
@@ -185,11 +187,5 @@ Les Zombies peuvent muter en [Juju Zombies].
 [Braineaters]: #mangeurs-de-cerveau
 [Wyrms]: #wyrms
 [Igjarjuk]: #igjarjuk
-[Fantômes]: ./monsters.md#fantomes
 [Seigneurs Squelettes]: #seigneurs-squelettes
 [Juju Zombies]: #juju-zombies
-
-[famine]: ./silver.md#famine
-[Draig]: ./magic-schools.md#draig
-[Gwyrrd]: ./magic-schools.md#gwyrrd
-[Astral]: ./magic.md#lastral

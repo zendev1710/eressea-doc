@@ -3,7 +3,7 @@
 alias: tableaux-relatifs-a-la-guerre
 ---
 <!-- properdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD022 -->
+<!-- markdownlint-disable MD042 MD022 MD051 MD052 -->
 # Tableaux relatifs à la guerre
 
 Cette page répertorie les propriétés des armes, des armures et des races pour le combat.
@@ -132,7 +132,7 @@ Un tir d'arbalète **réduit de moitié la protection de l'armure** de l'adversa
 *Elven bow (EN), Elfenbogen (DE)*.
 <!-- cspell:enable -->
 
-Ce type d'arc ne peut être fabriqué que par les [elfes].
+Ce type d'arc ne peut être fabriqué que par les [elfes][elfes]{title="Elves"}.
 
 ### Arc en mallorn
 
@@ -152,42 +152,42 @@ Elles atteignent **6** cibles.
 
 ## Armes - tableau de synthèse
 
-| Arme                     | Dommages à pied |    ⌀ | Dommages à cheval | ⌀    | OB | DB | Compétence | Total |
-|--------------------------|----------------:|-----:|------------------:|------|---:|---:|:----------:|------:|
-| Non armé : Troll         |           1d5+1 |    4 |                 - | -    | -2 | -2 |            |    -4 |
-| Arc                      |          1d11+1 |    7 |            1d11+1 | 7    | -2 |  0 |    [B]     |    -2 |
-| Arc en mallorn           |          1d11+2 |    8 |            1d11+2 | 8    | -2 |  0 |    [B]     |    -2 |
-| Javelot[^3]              |            1d10 |  5,5 |            1d12+2 | 8,5  |  0 |  0 |    [H]     |     0 |
-| Javelot en mallorn[^3]   |          1d10+1 |  6,5 |            1d12+3 | 9,5  |  0 |  0 |    [H]     |     0 |
-| Non armé[^4]             |             1d5 |    3 |               1d6 | 3,5  | -2 | -2 |            |    -4 |
-| Non armé : Gobelin       |             1d5 |    3 |               1d6 | 3,5  | -2 |  0 |            |    -2 |
-| Épée rouillée            |             1d9 |    5 |               1d9 | 5    | -1 | -1 |    [M]     |    -2 |
-| Épée                     |           1d9+2 |    7 |             1d9+2 | 7    |  0 |  0 |    [M]     |     0 |
-| Hache de guerre rouillée |             2d6 |    7 |               2d6 | 7    |  0 | -3 |    [M]     |    -3 |
-| Hallebarde rouillée[^3]  |             2d6 |    7 |               2d6 | 7    | -2 | +1 |    [H]     |    -1 |
-| Hallebarde[^3]           |           2d6+3 |   10 |             2d6+3 | 10   | -1 | +2 |    [H]     |    +1 |
-| Arc d'Elfe               |           2d6+4 |   11 |             2d6+4 | 11   | -2 |  0 |    [B]     |    -2 |
-| Hache de guerre          |           2d6+4 |   11 |             2d6+4 | 11   | +1 | -2 |    [M]     |    -1 |
-| Lance[^3]                |             1d5 |    3 |             2d6+5 | 12   |  0 | -2 |    [H]     |    -2 |
-| Lance en mallorn[^3]     |           1d5+1 |    4 |             2d6+6 | 13   |  0 | -2 |    [H]     |    -2 |
-| Claymore rouillée        |             2d8 |    9 |               2d8 | 9    | -2 | -3 |    [M]     |    -5 |
-| Claymore                 |           2d8+3 |   12 |             2d8+3 | 12   | -1 | -2 |    [M]     |    -3 |
-| Catapulte[^2]            |          3d10+5 | 21,5 |            3d10+5 | 21.5 | -4 |  0 |    [K]     |    -4 |
-| Arbalète[^1]             |           3d3+5 |   11 |             3d3+5 | 11   |  0 |  0 |    [A]     |     0 |
-| Arbalète en mallorn[^1]  |           3d3+6 |   12 |             3d3+6 | 12   |  0 |  0 |    [A]     |     0 |
-| Hache en adamantium      |          3d4+15 | 22,5 |            3d4+15 | 22,5 | +2 | -2 |    [M]     |     0 |
-| Épée en laen             |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 |    [M]     |    +2 |
-| [[epee-de-flammes]]      |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 |    [M]     |    +2 |
+| Arme                     | Dommages à pied |    ⌀ | Dommages à cheval | ⌀    | OB | DB | Compétence                                 | Total |
+|--------------------------|----------------:|-----:|------------------:|------|---:|---:|:-------------------------------------------|------:|
+| Non armé : Troll         |           1d5+1 |    4 |                 - | -    | -2 | -2 |                                            |    -4 |
+| Arc                      |          1d11+1 |    7 |            1d11+1 | 7    | -2 |  0 | [B][tir-a-larc]{title="Bow"}               |    -2 |
+| Arc en mallorn           |          1d11+2 |    8 |            1d11+2 | 8    | -2 |  0 | [B][tir-a-larc]{title="Bow"}               |    -2 |
+| Javelot[^3]              |            1d10 |  5,5 |            1d12+2 | 8,5  |  0 |  0 | [H][combat-a-larme-dhast]{title="Polearm"} |     0 |
+| Javelot en mallorn[^3]   |          1d10+1 |  6,5 |            1d12+3 | 9,5  |  0 |  0 | [H][combat-a-larme-dhast]{title="Polearm"} |     0 |
+| Non armé[^4]             |             1d5 |    3 |               1d6 | 3,5  | -2 | -2 |                                            |    -4 |
+| Non armé : Gobelin       |             1d5 |    3 |               1d6 | 3,5  | -2 |  0 |                                            |    -2 |
+| Épée rouillée            |             1d9 |    5 |               1d9 | 5    | -1 | -1 | [M][melee]{title="Melee"}                  |    -2 |
+| Épée                     |           1d9+2 |    7 |             1d9+2 | 7    |  0 |  0 | [M][melee]{title="Melee"}                  |     0 |
+| Hache de guerre rouillée |             2d6 |    7 |               2d6 | 7    |  0 | -3 | [M][melee]{title="Melee"}                  |    -3 |
+| Hallebarde rouillée[^3]  |             2d6 |    7 |               2d6 | 7    | -2 | +1 | [H][combat-a-larme-dhast]{title="Polearm"} |    -1 |
+| Hallebarde[^3]           |           2d6+3 |   10 |             2d6+3 | 10   | -1 | +2 | [H][combat-a-larme-dhast]{title="Polearm"} |    +1 |
+| Arc d'Elfe               |           2d6+4 |   11 |             2d6+4 | 11   | -2 |  0 | [B][tir-a-larc]{title="Bow"}               |    -2 |
+| Hache de guerre          |           2d6+4 |   11 |             2d6+4 | 11   | +1 | -2 | [M][melee]{title="Melee"}                  |    -1 |
+| Lance[^3]                |             1d5 |    3 |             2d6+5 | 12   |  0 | -2 | [H][combat-a-larme-dhast]{title="Polearm"} |    -2 |
+| Lance en mallorn[^3]     |           1d5+1 |    4 |             2d6+6 | 13   |  0 | -2 | [H][combat-a-larme-dhast]{title="Polearm"} |    -2 |
+| Claymore rouillée        |             2d8 |    9 |               2d8 | 9    | -2 | -3 | [M][melee]{title="Melee"}                  |    -5 |
+| Claymore                 |           2d8+3 |   12 |             2d8+3 | 12   | -1 | -2 | [M][melee]{title="Melee"}                  |    -3 |
+| Catapulte[^2]            |          3d10+5 | 21,5 |            3d10+5 | 21.5 | -4 |  0 | [K][tir-a-la-catapulte]{title="Catapult"}  |    -4 |
+| Arbalète[^1]             |           3d3+5 |   11 |             3d3+5 | 11   |  0 |  0 | [A][tir-a-larbalete]{title="Crossbow"}     |     0 |
+| Arbalète en mallorn[^1]  |           3d3+6 |   12 |             3d3+6 | 12   |  0 |  0 | [A][tir-a-larbalete]{title="Crossbow"}     |     0 |
+| Hache en adamantium      |          3d4+15 | 22,5 |            3d4+15 | 22,5 | +2 | -2 | [M][melee]{title="Melee"}                  |     0 |
+| Épée en laen             |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][melee]{title="Melee"}                  |    +2 |
+| [[epee-de-flammes]]      |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][melee]{title="Melee"}                  |    +2 |
 
 [^1]: les arbalètes ne tirent qu'aux 1er et 4e tours de combat. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
 [^2]: les catapultes ne tirent que lors du premier tour de combat, mais **atteignent 6 cibles**.
 [^3]: [arme d'hast]
 [^4]: particularités selon la race :
 
-- Les [gobelins] ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
-- Les [trolls] infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
-- Les [orcs] combattent avec leur meilleure compétence de mêlée à -3;
-- Les [chats] bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
+- Les [gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
+- Les [trolls][trolls]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
+- Les [orcs][orcs]{title="Orcs"} combattent avec leur meilleure compétence de mêlée à -3;
+- Les [chats][chats]{title="Cats"} bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
 - Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence *Combat à mains nues* et ne subissent alors aucun malus lorsqu'elles combattent sans arme
 
 !!! info
@@ -200,7 +200,7 @@ Elles atteignent **6** cibles.
 
 Remarques :
 
-- Les dégâts subis à cheval ne s'appliquent qu'en conjonction avec le [bonus de monture]
+- Les dégâts subis à cheval ne s'appliquent qu'en conjonction avec le [bonus de monture][bonus-et-malus]
 - OB et DB représentent les bonus offensifs et défensifs; ainsi, une hache de guerre est conçue davantage comme une arme offensive, tandis qu'une hallebarde est plus utile pour la défense
 - Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir [plus bas])
 - Une Épée de Flammes invoque également une petite boule de feu à chaque round de combat
@@ -208,7 +208,7 @@ Remarques :
 [](){ #tableau-endurance }
 ## Endurance
 
-Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance], est calculé ainsi :
+Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance][endurance], est calculé ainsi :
 
 <!-- cspell:disable -->
 :   $$
@@ -390,28 +390,14 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
 
-[gobelins]: ./races.md#gobelins "Goblins"
-[trolls]: ./races.md#trolls "Trolls"
-[orcs]: ./races.md#orcs "Orcs"
-[chats]: ./races.md#chats "Cats"
-[elfes]: ./races.md#elfes "Elves"
-[K]: ./skills-list.md#tir-a-la-catapulte "Catapult"
-[A]: ./skills-list.md#tir-a-larbalete "Crossbow"
-[B]: ./skills-list.md#tir-a-larc "Bow"
-[M]: ./skills-list.md#melee "Melee"
-[H]: ./skills-list.md#combat-a-larme-dhast "Unarmed combat"
-[endurance]: ./skills-list.md#endurance "Endurance"
-[bonus de monture]: ./war.md#bonus-et-malus
+[plus bas]: #resistance-a-la-magie
+[bouclier rouillé]: #bouclier-rouille "Rusty shield"
+[armure de plaque rouillée]: #armure-de-plaque-rouillee "Rusty platemail"
+[cotte de mailles rouillée]: #cotte-de-mailles-rouillee "Rusty Chainmail"
 [arme d'hast]: #armes-dhast
-
 [armure de plaque]: #armure-de-plaque "Platemail"
 [armure en adamantium]: #armure-en-adamantium "Adamantium armor"
 [bouclier en laen]: #bouclier-en-laen "Laen shield"
 [bouclier]: #bouclier "Shield"
 [cotte de mailles en laen]: #cotte-de-mailles-en-laen "Laen chainmail"
 [cotte de mailles]: #cotte-de-mailles "Chainmail"
-
-[plus bas]: ./war-tables.md/#resistance-a-la-magie
-[bouclier rouillé]: ./war-tables.md#bouclier-rouille "Rusty shield"
-[armure de plaque rouillée]: ./war-tables.md#armure-de-plaque-rouillee "Rusty platemail"
-[cotte de mailles rouillée]: ./war-tables.md#cotte-de-mailles-rouillee "Rusty Chainmail"

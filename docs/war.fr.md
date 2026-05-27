@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: guerre
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD051 MD052 -->
 # Guerre
 
 Les conflits sont inévitables dans Eressea.  
@@ -152,7 +154,7 @@ Une unité de 10 personnes avec 10 épées et 10 haches de guerre se battra avec
 ## Tour du tacticien
 
 Avant la bataille, le meilleur [[tactique|Tacticien]] de toutes les unités participantes est désigné.  
-Un tacticien qui se bat en première ligne reçoit un bonus de +1 à son niveau de compétence [Tactique].  
+Un tacticien qui se bat en première ligne reçoit un bonus de +1 à son niveau de compétence [Tactique][tactique].  
 S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1.  
 Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.  
 
@@ -199,23 +201,23 @@ Dans chaque bataille, les armées s'affrontent personne par personne, quel que s
 Chaque personne attaque une fois par tour de combat (sauf les [Héros] et certains monstres).
 
 Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts.  
-Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes]).  
+Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes][armes-tableau-de-synthese]).  
 Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence.  
 Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas.  
 Cela vaut aussi bien pour le combat à distance que pour le combat rapproché.  
 En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.
 
-Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences] les différents coups portés pendant le combat s'additionnent).
+Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences][races-et-leurs-caracteristiques] les différents coups portés pendant le combat s'additionnent).
 
 Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts.  
-Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [le tableau des armures]).  
+Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [le tableau des armures][armures-synthese]).  
 Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).
 
 Certaines créatures ou armes peuvent également infliger des dégâts magiques.  
 Une armure normale est inefficace contre les dégâts magiques.  
-Seule compte la [Résistance à la magie], qui peut être augmentée par certains équipements et sorts.  
+Seule compte la [Résistance à la magie][resistance-a-la-magie], qui peut être augmentée par certains équipements et sorts.  
 
-Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau]).
+Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][tableau-endurance]).
 
 ### Combat à distance
 
@@ -239,7 +241,7 @@ Cependant les unités en première ligne se défendent avec leur niveau de comp�
 S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend [à mains nues] !
 
 Les catapultes nécessitent des munitions.  
-Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres].  
+Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
 Elles pèsent 10 lbs.  
 Une unité de munitions correspond à une salve (6 cibles).
 
@@ -284,8 +286,8 @@ Voir aussi : [tables de combat].
 
 #### Bonus de cavalerie
 
-:   Dans les [plaines], les [déserts] et les [haut-plateaux], les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
-    Pour monter un cheval au combat, il faut être T2 en [équitation] et posséder un cheval.  
+:   Dans les [plaines][plaine]{title="Plain"}, les [desert]{title="Desert"} et les [haut-plateaux][haut-plateau]{title="Highland"}, les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
+    Pour monter un cheval au combat, il faut être T2 en [équitation][equitation]{title="Riding"} et posséder un cheval.  
     Les cavaliers bénéficient d'un bonus de +2 à l'attaque et à la parade, car ils sont plus rapides et plus agiles.  
     Les cavaliers à l'intérieur d'un château, et bénéficiant du bonus du château, n'ont pas le bonus cavalerie si ils sont attaqués.  
     Les trolls ne peuvent pas utiliser de chevaux au combat.  
@@ -300,7 +302,7 @@ Voir aussi : [tables de combat].
 
 #### Modificateurs d'armes
 
-:   Les [Modificateurs d'armes][Caractéristiques des armes] sont également considérés comme des bonus et des malus.  
+:   Les [Modificateurs d'armes][armes-tableau-de-synthese] sont également considérés comme des bonus et des malus.  
     Une unité de hallebardiers a donc (en plus de tout autre bonus ou malus éventuel) un bonus de +2 à sa parade.  
     Si elle n'est pas montée et qu'elle se bat contre un cavalier, sa valeur de parade est alors augmentée de +1.  
 
@@ -429,7 +431,7 @@ Le [tour de tactique] et le premier tour ne sont pas pris en compte, les dégât
 Des dégâts supplémentaires peuvent survenir si des serpents de mer sont impliqués dans la bataille.  
 Ces monstres, comme certains familiers, ont une attaque qui peut causer des dégâts structurels aux bateaux à chaque round de combat.
 
-Si le bateau est en sous-équipage ou vide après la bataille, il dérive sans contrôle dans l'océan et subit davantage de [dommages].
+Si le bateau est en sous-équipage ou vide après la bataille, il dérive sans contrôle dans l'océan et subit davantage de [dommages][dommages-aux-bateaux].
 
 Si vous souhaitez atterrir dans une région [[cmd-guard|gardée]] par une autre faction, vous devez d'abord [[cmd-leave|quitter]] le bateau et ne pourrez attaquer ou vous déplacer que lors du tour suivant.  
 Cela donne à vos ennemis le temps de se préparer.
@@ -490,16 +492,6 @@ Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 
-[Caractéristiques des armes]: ./war-tables.md#armes-tableau-de-synthese
-[Modificateurs de compétences]: ./war-tables.md#races-et-leurs-caracteristiques
-[le tableau des armures]: ./war-tables.md#armures-synthese
-[Résistance à la magie]: ./war-tables.md#resistance-a-la-magie
-[ce tableau]: ./war-tables.md#endurance
-[dommages]: ./sailing.md#dommages-aux-bateaux
-[Tactique]: ./skills-list.md#tactique "Tactics"
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[équitation]: ./skills-list.md#equitation "Riding"
-
 [tour de tactique]: #tour-du-tacticien
 [Lignes de combat]: #lignes-de-combat
 [débordé]: #lignes-de-combat
@@ -509,11 +501,5 @@ Poursuivre la lecture : [[alliances]].
 [non armés]: #bonus-et-malus
 [à mains nues]: #bonus-et-malus
 [tables de combat]: #bonus-et-malus
-
-<!-- prefixed with war.md to avoid markdown lint warning due to accents in anchors -->
-[combat en mer]: ./war.md#combats-a-bord-et-depuis-les-navires
-[Héros]: ./war.md#heros
-
-[plaines]: ./terrains.md#plaine "Plain"
-[déserts]: ./terrains.md#desert "Desert"
-[haut-plateaux]: ./terrains.md#haut-plateau "Highland"
+[combat en mer]: #combats-a-bord-et-depuis-les-navires
+[Héros]: #heros

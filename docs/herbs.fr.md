@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: plantes
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Plantes
 
 **Les plantes** se ramassent avec l'ordre [[cmd-make|`MAKE HERBS`]].  
@@ -39,7 +41,7 @@ Une plante ne pèse rien.
 *Elvendear (EN), Elfenlieb (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine]{title="Plain"}.  
 
 ### Bégonia des glaces
 
@@ -47,7 +49,7 @@ Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].
 *Ice begonia (EN), Eisblume (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][Glacier].  
+Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
 
 ### Champignon cobalt
 
@@ -55,7 +57,7 @@ Cette plante pousse uniquement sur les [glaciers][Glacier].
 *Cobalt fungus (EN), Blauer Baumringel (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
 
 ### Champignon des fjords
 
@@ -63,7 +65,7 @@ Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].
 *Fjord fungus (EN), Fjordwuchs (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [hauts-plateaux][Haut-plateau].  
+Cette plante pousse uniquement sur les [hauts-plateaux][haut-plateau]{title="Highland"}.  
 
 ### Tamaris
 
@@ -95,7 +97,7 @@ Cette plante pousse uniquement sur les [hauts-plateaux].
 *Bugleweed (EN), Gurgelkraut (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement dans les [marais].  
+Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.  
 
 ### Herbe de roche
 
@@ -119,7 +121,7 @@ Cette plante pousse uniquement dans les [montagnes].
 *Spider ivy (EN), Grüner Spinnerich (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
 
 ### Mandragore
 
@@ -127,7 +129,7 @@ Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].
 *Mandrake (EN), Alraune (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [hauts-plateaux][Haut-plateau].  
+Cette plante pousse uniquement sur les [hauts-plateaux][haut-plateau]{title="Highland"}.  
 
 ### Morille
 
@@ -135,7 +137,7 @@ Cette plante pousse uniquement sur les [hauts-plateaux][Haut-plateau].
 *Bubblemorel (EN), Blasenmorchel (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement dans les [marais].  
+Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.  
 
 ### Œil de chouette
 
@@ -143,7 +145,7 @@ Cette plante pousse uniquement dans les [marais].
 *owlsgaze (EN), Eulenauge (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
 
 ### Peyote
 
@@ -159,7 +161,7 @@ Ce petit cactus sans épines qui pousse uniquement dans le [désert].
 *Snowcrystal petal (EN), Schneekristall (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][Glacier].  
+Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
 
 ### Pourriture de sable
 
@@ -175,7 +177,7 @@ Cette plante pousse uniquement dans le [désert].
 *Knotroot (EN), Knotiger Saugwurz (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement dans les [marais].  
+Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.  
 
 ### Racine plate
 
@@ -183,7 +185,7 @@ Cette plante pousse uniquement dans les [marais].
 *Flatroot (EN), Flachwurz (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
 
 ### Témérité piquante
 
@@ -191,7 +193,7 @@ Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].
 *Tangy temerity (EN), Würziger Wagemut (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
 
 ### Tsuga blanc
 
@@ -199,7 +201,7 @@ Cette plante pousse dans les [forêts][Forêt] et les [plaines][Plaine].
 *White hemlocks (EN), Weißer Wüterich (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][Glacier].  
+Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
 
 ## Plantes - Synthèse
 
@@ -207,50 +209,17 @@ Cette plante pousse uniquement sur les [glaciers][Glacier].
 
 *Plantes et leur localisation.*  
 
-| Région         | Plantes                                                                                                           |
-|----------------|-------------------------------------------------------------------------------------------------------------------|
-| [Désert]       | [tamaris], [peyote], [pourriture de sable]                                                                        |
-| [Forêt]        | [amour d'Elfes], [champignon cobalt], [œil de chouette], [lierre d'araignée], [racine plate], [témérité piquante] |
-| [Glacier]      | [bégonia des glaces], [pétale de cristal de neige], [tsuga blanc]                                                 |
-| [Haut-plateau] | [champignon des fjords], [mandragore], [gousse]                                                                   |
-| [Marais]       | [herbe de clairon], [morille], [racine de nœud]                                                                   |
-| [Montagne]     | [cire fissurée], [herbe de roche], [lichen des cavernes]                                                          |
-| [Plaine]       | [amour d'Elfes], [champignon cobalt], [œil de chouette], [lierre d'araignée], [racine plate], [témérité piquante] |
-| [Volcan]       | --                                                                                                                |
+| Région                                         | Plantes                                                                                                                                                                                                                                                                                                                                         |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Désert][desert]{title="Desert"}               | [tamaris][tamaris]{title="Waterfinder"}, [peyote][peyote]{title="Peyote"}, [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                                                                                                                                                                                                      |
+| [Forêt][foret]{title="Forest"}                 | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"}                    |
+| [Glacier][glacier]{title="Glacier"}            | [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}, [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"}, [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                                                                                                                          |
+| [Haut-plateau][haut-plateau]{title="Highland"} | [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}, [mandragore][mandragore]{title="Mandrake"}, [gousse][gousse]{title="Windbag"}                                                                                                                                                                                             |
+| [Marais][marais]{title="Swamp"}                | [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}, [morille][morille]{title="Bubblemorel"}, [racine de nœud][racine-de-nud]{title="Knotroot"}                                                                                                                                                                                             |
+| [Montagne][montagne]{title="Mountain"}         | [cire fissurée][cire-fissuree]{title="Gapgrowth"}, [herbe de roche][herbe-de-roche]{title="Rock weed"}, [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                                                                                                                                                                         |
+| [Plaine][plaine]{title="Plain"}                | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"} |
+| [Volcan][volcan]{title="Volcano"}              | --                                                                                                                                                                                                                                                                                                                                              |
 
 Poursuivre la lecture : [[ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
-
-[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
-
-[Désert]: ./terrains.md#desert "Desert"
-[Forêt]: ./terrains.md#foret "Forest"
-[Glacier]: ./terrains.md#glacier "Glacier"
-[Haut-plateau]: ./terrains.md#haut-plateau "Highland"
-[Marais]: ./terrains.md#marais "Swamp"
-[Montagne]: ./terrains.md#montagne "Mountain"
-[Plaine]: ./terrains.md#plaine "Plain"
-[Volcan]: ./terrains.md#volcan "Volcano"
-
-[amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
-[bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
-[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
-[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
-[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
-[gousse]: ./herbs.md#gousse "Windbag"
-[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
-[herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
-[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
-[lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
-[mandragore]: ./herbs.md#mandragore "Mandrake"
-[morille]: ./herbs.md#morille "Bubblemorel"
-[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[peyote]: ./herbs.md#peyote "Peyote"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
-[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
-[racine plate]: ./herbs.md#racine-plate "Flatroot"
-[tamaris]: ./herbs.md#tamaris "Waterfinder"
-[tsuga blanc]: ./herbs.md#tsuga-blanc "White hemlocks"
-[témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"

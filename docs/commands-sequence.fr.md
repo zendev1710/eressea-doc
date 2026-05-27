@@ -9,15 +9,15 @@ Les ordres qui sont dans une même séquence sont exécutés en même temps ou l
 
 1. les nouveaux ordres par défaut sont définis
 2. [[cmd-group]], [[cmd-make|`MAKE TEMP`]]
-3. [[cmd-name]], [[cmd-describe]], [[cmd-guard|`GUARD NOT`]], [[cmd-help]], [[cmd-combat]], [[cmd-combatspell]], [[cmd-hide]], [[cmd-origin]], [[cmd-show]]
-4. [[cmd-banner]], [[cmd-email]], [[cmd-option]], [[cmd-password]]
+3. [[cmd-name]], [[cmd-describe]], [GUARD NOT][cmd-guard], [[cmd-help]], [[cmd-combat]], [[cmd-combatspell]], [[cmd-hide]], [[cmd-origin]], [[cmd-show]]
+4. [[cmd-banner]], [[cmd-email]], [[cmd-option|OPTION]], [[cmd-password]]
 5. [[cmd-contact]]
 6. [[cmd-message]]
 7. [[cmd-enter]]; 1er essai
 8. [[cmd-use]]
 9. [[cmd-leave]]
 10. [[cmd-enter]]; 2ème essai
-11. [[cmd-attack]]
+11. [[cmd-attack|ATTACK]]
 12. [[cmd-reserve]], [[cmd-claim]]
 13. [[cmd-enter]]; 3ème essai
 14. [[cmd-give|`GIVE CONTROL`]]
@@ -99,3 +99,4 @@ Poursuivre la lecture : [[tableau-recapitulatif-des-ordres]].
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
 [notes explicatives]: #notes-explicatives
+[cmd-guard]: [[cmd-guard]]

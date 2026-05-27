@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sorts-gwyrrd
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sorts Gwyrrd
 
 Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -25,9 +27,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     Chaque golem a 10 pour cent de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
 
-|                   Composants                    | Niv. |  Type  | Rang | B | D |
-|:-----------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N aura, N [pierres][pierre], 1 [eau de vie] |  1   | Normal |  4   |   |   |
+|                                            Composants                                             | Niv. |  Type  | Rang | B | D |
+|:-------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura, N [pierres][pierre]{title="Stone"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  1   | Normal |  4   |   |   |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -76,9 +78,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
 
-|              Composants              | Niv. |  Type  | Rang | B | D |
-|:------------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 2 x N aura, N [fers], 1 [eau de vie] |  2   | Normal |  4   |   |   |
+|                                         Composants                                         | Niv. |  Type  | Rang | B | D |
+|:------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 2 x N aura, N [fers][fer]{title="Iron"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  4   |   |   |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -90,9 +92,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 :   Alors qu'auparavant seul un arbre pouvait germer à partir d'un bâton, chaque branche produit désormais des racines.
 
-|              Composants              | Niv. |  Type  | Rang | B |              D               |
-|:------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 4 x N aura, N [bois], 1 [eau de vie] |  2   | Normal |  5   |   | :material-check:{ .success } |
+|                                         Composants                                          | Niv. |  Type  | Rang | B |              D               |
+|:-------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 4 x N aura, N [bois][bois]{title="Wood"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -176,9 +178,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.  
     Même les marécages et les glaciers peuvent être enchantés de cette façon. Plus le mage met de puissance dans le sort, plus le chemin dure longtemps.
 
-|         Composants         | Niv. |  Type  | Rang |              B               |              D               |
-|:--------------------------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
-| N aura, 1 [pierre], 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+|                    Composants                     | Niv. |  Type  | Rang |              B               |              D               |
+|:-------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+| N aura, 1 [pierre][pierre]{title="Stone"}, 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
@@ -192,9 +194,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
-|                Composants                | Niv. |  Type  | Rang | B |              D               |
-|:----------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 6 x N aura, N [mallorns], 1 [eau de vie] |  4   | Normal |  5   |   | :material-check:{ .success } |
+|                                 Composants                                  | Niv. |  Type  | Rang | B |              D               |
+|:---------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
 
@@ -254,9 +256,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 :   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.  
     Il utilise désormais le cuir ainsi préparé pour fabriquer un petit sac qui permet de mieux conserver les herbes qui y sont stockées.
 
-|                Composants                 | Niv. |  Type  | Rang |              B               | D |
-|:-----------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
-| 30 aura, 1 aura permanent, 1 [eau de vie] |  5   | Normal |  5   | :material-check:{ .success } |   |
+|                                  Composants                                  | Niv. |  Type  | Rang |              B               | D |
+|:----------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 30 aura, 1 aura permanent, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  5   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -300,7 +302,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].  
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -500,7 +502,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 10
 
-### Éveil des [Ents]
+### Éveil des [Ents][ents]
 
 <!-- cspell:disable -->
 *Awakening of the Ents (EN), Erwecke Ents (DE)*.
@@ -637,9 +639,3 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 `CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
-
-[Ents]: ./monsters.md#ents "Ents"
-[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
-[bois]: ./resources.md#bois "Wood"
-[fers]: ./resources.md#fer "Iron"
-[pierre]: ./resources.md#pierre "Stone"

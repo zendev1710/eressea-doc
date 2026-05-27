@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: camouflage-fr
+alias: discretion
 ---
 <!-- disable some rules due to of autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: conseils-pour-debutants
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Conseils pour débutants
 
 Lorsque vous renseignez les ordres, assurez-vous d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
@@ -38,14 +40,14 @@ Créez davantage d'unités et apprenez certaines compétences dont vous pensez a
 Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent.  
 Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
 Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus;  
-pour cela, il te faut, par exemple, des métaux ([exploitation minière]) ou du bois ([exploitation forestière]) pour fabriquer des armes comme des épées ou des lances;  
-et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts], [compétences d'armes]).  
+pour cela, il te faut, par exemple, des métaux ([exploitation minière][ressources-minieres]) ou du bois ([exploitation forestière][ressources-forestieres]) pour fabriquer des armes comme des épées ou des lances;  
+et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts][collecter-les-impots], [compétences d'armes][competences-de-combat]).  
 
-La [[camouflage|perception]] est une compétence essentielle, souvent sous-estimée par les débutants.  
-Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller] !  
+La [perception][perception] est une compétence essentielle, souvent sous-estimée par les débutants.  
+Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
-Il est également conseillé de construire des [[chateaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie] et [extraction minière] pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer].  
-Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots].  
+Il est également conseillé de construire des [[chateaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  
+Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots][chevaux-et-chariots].  
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 
 Les unités aux compétences coûteuses, comme [[tactique|les Tacticiens]], [[liste-des-competences|les Alchimistes]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 silver par tour).  
@@ -88,7 +90,7 @@ N'oublie pas les unités qui quittent la région !
 
 Durant les premiers tours, vous pouvez vivre de votre capital de départ, mais **vous aurez rapidement besoin d'un revenu régulier**.  
 Ce capital de départ est généralement épuisé après 4 à 6 tours.  
-Le moyen le plus rapide de générer des revenus est de travailler comme percepteur d'impôts et artiste, et le [commerce] de produits de luxe promet des profits importants à long terme.  
+Le moyen le plus rapide de générer des revenus est de travailler comme percepteur d'impôts et artiste, et le [commerce][le-commerce] de produits de luxe promet des profits importants à long terme.  
 
 Planifiez soigneusement les premières semaines.  
 Vous pourrez ainsi calculer précisément le nombre d'artistes, de percepteurs d'impôts, d'armuriers, de bûcherons, etc., que ous pouvez et devez recruter.  
@@ -140,17 +142,6 @@ Ne vous laissez pas agacer ni emporter par des décisions hâtives : le joueur 
 Poursuivre la lecture : [[xontormia-express]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
-
-[exploitation minière]: ./resources.md#ressources-minieres
-[exploitation forestière]: ./resources.md#ressources-forestieres
-[collecte d'impôts]: ./silver.md#collecter-les-impots
-[compétences d'armes]: ./skills.md#competences-de-combat
-[piller]: ./silver.md#le-vol-la-methode-malhonnete
-[commerce]: ./silver.md#le-commerce
-[commercer]: ./silver.md#le-commerce
-[de chevaux et de chariots]: ./travel.md#chevaux-et-chariots
-[maconnerie]: ./skills-list.md#maconnerie "Masonry"
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
 
 [serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
 [forum des Jeux PbEm]: http://www.pbem-spiele.de/

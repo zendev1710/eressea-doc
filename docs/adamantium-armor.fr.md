@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: armure-en-adamantium
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
 # Armure en adamantium
 

@@ -50,8 +50,8 @@ Les Gobelins ont une capacité de transport moindre.
 
 Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chariots].  
 
-| Transporteur          | Capacité de transport |
-|-----------------------|----------------------:|
+| Transporteur                     | Capacité de transport |
+|----------------------------------|----------------------:|
 | [Chariot][chariot]{title="Cart"} |                   100 |
 | [Cheval][cheval]{title="Horse"}  |                    20 |
 

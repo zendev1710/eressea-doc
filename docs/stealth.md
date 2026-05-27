@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: camouflage
+alias: stealth
 ---
 # Stealth
 

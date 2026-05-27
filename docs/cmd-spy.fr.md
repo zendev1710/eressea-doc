@@ -11,7 +11,7 @@ alias: cmd-spy-fr
 **`SPY`**` `*`unit-id`*
 
 L'espionnage vous permet d'espionner les unités d'une autre faction.  
-La compétence d'espionnage de l'espion est comparée à la [[camouflage|compétence de vol]] de l'unité cible.  
+La compétence d'espionnage de l'espion est comparée à la [compétence de discrétion][discretion]{title="Stealth"} de l'unité cible.  
 
 La probabilité de base d'une tentative d'espionnage réussie est de 10 %.  
 Pour chaque niveau de compétence où la compétence d'espionnage dépasse la compétence de furtivité de la victime, cela augmente de 5 %.  

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: ressources
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Ressources
 
 Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient.  
@@ -32,7 +34,7 @@ La compétence requise est indiquée dans le tableau de la section [objets].
 |:-----:|:---------------------:|
 |  40   |          100          |
 
-Un chariot facilite le transport des unités en augmentant la [capacité de transport].
+Un chariot facilite le transport des unités en augmentant la [capacité de transport][capacite-de-transport].
 
 ### Cheval
 
@@ -44,7 +46,7 @@ Un chariot facilite le transport des unités en augmentant la [capacité de tran
 |:-----:|:---------------------:|
 |  50   |          20           |
 
-Un cheval facilite le transport des unités en augmentant la [capacité de transport].  
+Un cheval facilite le transport des unités en augmentant la [capacité de transport][capacite-de-transport].  
 Un cheval augmente également la vitesse de déplacement (d'une région supplémentaire) s'il est monté par une unité suffisamment compétente en équitation.
 
 ### Fer
@@ -80,7 +82,7 @@ Un cheval augmente également la vitesse de déplacement (d'une région supplém
 ## Exploitation des ressources
 
 Lors de l'exploitation des ressources, il est important de considérer que les unités en [[cmd-guard|garde]] empêchent l'exploitation, si les factions en garde n'ont ni [[cmd-help|`HELP GUARD`]] ni [[cmd-help|`HELP ALL`]] avec ta faction, ou donné l'ordre [[cmd-contact|`CONTACT`]] avec l'unité ou la faction qui exploite.  
-Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est [[camouflage|camouflé]].`  
+Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est [dissimulé][discretion].  
 
 ### Ressources minières
 
@@ -92,7 +94,7 @@ Par exemple, si le rapport indique « 20 fer/4 », cela signifie que 20 fers a
 Une fois ceux-ci extraits, les mineurs auront besoin d'être niveau 5 pour extraire du fer de la couche suivante (5).
 En général, les quantités pouvant être extraites augmentent à chaque nouvelle couche.
 
-Compétences concernées : [extraction minière], [extraction de pierres].
+Compétences concernées : [extraction minière][extraction-miniere]{title="Mining"}, [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.
 
 ### Ressources forestières
 
@@ -110,7 +112,7 @@ Le mallorn se reproduit certes comme le bois, mais les graines de mallorn ne pou
 Dans les régions à mallorn, l'ordre `MAKE wood` permet également d'abattre du bois à la place du Mallorn.  
 Le nombre d'arbres de mallorn est alors réduit d'autant que si l'on avait abattu des mallorns.  
 
-Compétences concernées : [sylviculture], [herboristerie].
+Compétences concernées : [sylviculture][sylviculture]{title="Forestry"}, [herboristerie][herboristerie]{title="Herbalism"}.
 
 #### Arbres
 
@@ -157,7 +159,7 @@ Compétences concernées : [sylviculture], [herboristerie].
 
 Les chevaux peuvent également être capturés à volonté avec l'ordre [[cmd-make|`MAKE horse`]].
 Sans aide, seuls les chevaux sauvages se reproduisent.
-Il est toutefois possible de faire naître d'autres chevaux dans un [haras].  
+Il est toutefois possible de faire naître d'autres chevaux dans un [haras][haras].  
 
 Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'entre eux migrent vers les régions voisines lorsque les chevaux y sont moins nombreux.
 
@@ -182,7 +184,7 @@ Avec 1000 chevaux il n'y a plus de croissance.
 On peut également récolter des plantes pour concocter des potions.  
 Il n'y a qu'au plus une espèce de plante dans chaque région.  
 
-Plus d'information : [liste des plantes].
+Plus d'information : [liste des plantes][liste-des-plantes].
 
 ## Voir aussi
 
@@ -194,12 +196,3 @@ Plus d'information : [liste des plantes].
 Poursuivre la lecture : [[objets]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
-
-[haras]: ./buildings-others.md#haras
-[liste des plantes]: ./herbs.md#liste-des-plantes
-[sylviculture]: ./skills-list.md#sylviculture "Forestry"
-[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-
-[capacité de transport]: ./travel.fr.md#capacite-de-transport

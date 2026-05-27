@@ -2,11 +2,13 @@
 # cSpell:locale fr
 alias: batiments-speciaux
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Bâtiments spéciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.
 
-Ils sont construits avec l'ordre [MAKE "type de bâtiment"] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][MAKE "type de bâtiment"].
+Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make_fr] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make_fr].
 
 Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 
@@ -24,23 +26,23 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
-| Bâtiment            | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
-|---------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
-| [Phare]             |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
-| [Mine]              |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
-| [Carrière]          |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
-| [Scierie]           |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
-| [Forge]             |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
-| [Haras]             |       2 |    4 |    1 |    100 |    2 |        150 | --        |          -- |      taille |
-| [Port]              |       5 |    5 |   -- |    250 |    3 |        250 | --        |          25 |      taille |
-| [Caravansérail]     |       1 |    5 |    1 |    500 |    2 |      3 000 | 2 chevaux |          10 |      taille |
-| [Académie]          |       5 |    5 |    1 |    500 |    3 |      1 000 | --        |          25 |      taille |
-| [Tour de mage][^1]  |       5 |    3 |    3 |    500 |    5 |      1 000 | --        |          50 | 2 personnes |
-| [Barrage]           |       5 |   10 |    1 |    500 |    4 |      1 000 | 3 bois    |          50 |      taille |
-| [Tunnel]            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
-| [Auberge]           |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
-| [Monument]          |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
-| [Cercle de Pierres] |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
+| Bâtiment                                         | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
+|--------------------------------------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
+| [Phare][phare]{title="Lighthouse"}               |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
+| [Mine][mine]{title="Mine"}                       |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
+| [Carrière][carriere]{title=""}                   |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
+| [Scierie][scierie]{title=""}                     |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
+| [Forge][forge]{title=""}                         |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
+| [Haras][haras]{title=""}                         |       2 |    4 |    1 |    100 |    2 |        150 | --        |          -- |      taille |
+| [Port][port]{title=""}                           |       5 |    5 |   -- |    250 |    3 |        250 | --        |          25 |      taille |
+| [Caravansérail][caravanserail]{title=""}         |       1 |    5 |    1 |    500 |    2 |      3 000 | 2 chevaux |          10 |      taille |
+| [Académie][academie]{title=""}                   |       5 |    5 |    1 |    500 |    3 |      1 000 | --        |          25 |      taille |
+| [Tour de mage][tour-de-mage]{title=""}[^1]       |       5 |    3 |    3 |    500 |    5 |      1 000 | --        |          50 | 2 personnes |
+| [Barrage][barrage]{title=""}                     |       5 |   10 |    1 |    500 |    4 |      1 000 | 3 bois    |          50 |      taille |
+| [Tunnel][tunnel]{title=""}                       |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
+| [Auberge][auberge]{title=""}                     |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
+| [Monument][monument]{title=""}                   |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
+| [Cercle de Pierres][cercle-de-pierres]{title=""} |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
 
 !!! warning "Attention"
 
@@ -49,7 +51,7 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
     - Ses [frais d'entretien] ont été **payés** en début de tour
     - Le nombre de personnes qui l'occupent est **inférieur ou égal** à sa taille (cette règle ne s'applique pas à certains bâtiments, comme le [phare])
 
-Voir aussi : [Construction d'un château].
+Voir aussi : [Construction d'un château][apercu].
 
 ## Phare
 
@@ -89,12 +91,12 @@ Les avantages d'un phare :
 
 - Seule la moitié du fer extrait par les unités situées à l'intérieur de la mine est déduite des ressources de la région.
   Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
-- Les unités à l'intérieur de la mine ont +1 en [extraction minière], mais ceci ne s'applique pas au niveau requis pour atteindre une couche plus profonde.
+- Les unités à l'intérieur de la mine ont +1 en [extraction minière][extraction-miniere]{title="Mining"}, mais ceci ne s'applique pas au niveau requis pour atteindre une couche plus profonde.
 - Pour extraire du laen il est nécessaire d'être dans une mine.
 
 **Exemple:**
 
-- Dans une mine, un humain T2 en [extraction minière] peut extraire 3 fers à la couche 1 ou 2.
+- Dans une mine, un humain T2 en [extraction minière][extraction-miniere]{title="Mining"} peut extraire 3 fers à la couche 1 ou 2.
   Cependant, en raison de l'arrondi, 2 fers sont déduits de la réserve de la région.
 - 1 unité d'humain de 2 personnes niveau 4.
   Elle produit 8 fers et prélève 8 fers des ressources de la région.
@@ -115,7 +117,7 @@ Les avantages d'un phare :
 
 - Seule la moitié de la pierre extraite par les unités situées à l'intérieur de la carrière est déduite des ressources de la région.
   Cet effet fonctionne de manière cumulative avec tous les avantages raciaux correspondants.
-- Les unités à l'intérieur de la carrière ont **un bonus de +1** en [extraction de pierres], mais ceci ne s'applique pas au niveau requis pour atteindre une couche plus profonde.
+- Les unités à l'intérieur de la carrière ont **un bonus de +1** en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}, mais ceci ne s'applique pas au niveau requis pour atteindre une couche plus profonde.
 
 **Exemple:**
 
@@ -136,14 +138,14 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 |---------------------------------------|:-------------:|:--------------------:|:-----------:|--------------------------|
 | 5 pierres, 5 bois, 3 fers, 200 silver |       3       |      250 silver      |     --      | *taille du bâtiment*     |
 
-- Seule la moitié du bois (des [pousses], des mallorns) produit par les unités dans une scierie est déduite des ressources de la région.
+- Seule la moitié du bois (des [pousses][jeunes-arbres-ou-pousses]{title="Saplings"}, des mallorns) produit par les unités dans une scierie est déduite des ressources de la région.
   Ce nombre est arrondi au supérieur : quand une unité produit 11 bois dans une scierie, 6 arbres sont abattus.
-- Les unités à l'intérieur d'une scierie bénéficient d'un bonus de +1 en [sylviculture].
+- Les unités à l'intérieur d'une scierie bénéficient d'un bonus de +1 en [sylviculture][sylviculture]{title="Forestry"}.
 
 **Exemple :**
 
-Avec une potion d'[eau de vie] et 10 bois vous pouvez créer du bois dans une scierie.  
-Avec l'ordre [[cmd-use|`USE 1 water~of~life`]] vous créez 10 [pousses] en utilisant 10 bois.  
+Avec une potion d'[eau de vie][eau-de-vie]{title="Water of life"} et 10 bois vous pouvez créer du bois dans une scierie.  
+Avec l'ordre [[cmd-use|`USE 1 water~of~life`]] vous créez 10 [pousses][jeunes-arbres-ou-pousses]{title="Saplings"} en utilisant 10 bois.  
 Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 
 ## Forge
@@ -171,7 +173,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 | 2 pierres, 4 bois, 1 fer, 100 silver |       2       |      150 silver      |     --      | *taille du bâtiment*     |
 
 - Les unités à l'intérieur d'un haras peuvent reproduire des chevaux en utilisant l'ordre [[cmd-grow|`GROW HORSES`]].
-  Pour cela l'unité doit maîtriser l'[apprivoisement] et d'au moins 2 chevaux (en sa possession).
+  Pour cela l'unité doit maîtriser l'[apprivoisement][apprivoisement]{title="Taming"} et d'au moins 2 chevaux (en sa possession).
 - La chance d'élever des chevaux correspond à la compétence de l'unité.
   De plus, l'unité dispose d'un nombre de tentatives égal à son niveau.
   Si une unité est T5, il dispose de 5 tentatives à 5% chacune pour élever un cheval.
@@ -191,7 +193,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 
 Le coût **total** d'un port (de taille 25) est de : 125 pierres, 125 bois, 6250 silvers.  
 
-- Permet aux bateaux plus gros qu'une [barque] d'accoster dans des régions qui ne sont ni des plaines ni des forêts.
+- Permet aux bateaux plus gros qu'une [barque][barque]{title="Boat"} d'accoster dans des régions qui ne sont ni des plaines ni des forêts.
 - Une région avec un port peut être utilisée comme une « région canal », c'est-à-dire qu'un bateau dans le port peut naviguer dans n'importe quelle autre direction maritime.
 - Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre [[cmd-help|`HELP GUARD`]] avec la faction du Capitaine.
 - Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.
@@ -252,11 +254,11 @@ Le coût **total** d'una académie (de taille 25) est de : 250 pierres, 150 bois
 
 Le coût **total** d'un caravansérail (de taille maximale 10) est de 10 pierres, 50 bois, 10 fers, 5 000 silver.  
 
-- Un caravansérail permet de construire des routes dans les [déserts].
+- Un caravansérail permet de construire des routes dans les [déserts][desert].
   Si le caravansérail est détruit, la moitié des routes seront également détruites.
   Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Dans les déserts, double le volume du commerce possible.
-  Le propriétaire reçoit une part des recettes des ventes comme dans les règles des châteaux ([tableau des châteaux]).
+  Le propriétaire reçoit une part des recettes des ventes comme dans les règles des châteaux ([tableau des châteaux][apercu]).
 - Un caravansérail ne fonctionnera que s’il est entièrement construit !
 
 ## Barrage
@@ -331,7 +333,7 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 
 Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 500 bois.  
 
-- Un cercle de pierres peut être béni grâce à un [puissant sort].
+- Un cercle de pierres peut être béni grâce à un [puissant sort][segne-steinkreis].
   Cela développe alors des effets étranges.
   Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
   De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.
@@ -342,44 +344,10 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 
 ## Voir aussi
 
-- [Bâtiments]
-- [Châteaux]
-- [Production]
+- [Bâtiments][batiments]
+- [Châteaux][chateaux]
+- [Production][production]
 
-Poursuivre la lecture : [pool de factions].
+Poursuivre la lecture : [réserve de faction][reserve-de-faction].
 
 [^1]: nécessite également 2 mallorns et 2 laens par point de taille.
-
-[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
-[tableau des châteaux]: ./castles.md#apercu
-[puissant sort]: ./spells-descriptions.md#segne-steinkreis
-[Bâtiments]: ./buildings.md
-[Châteaux]: ./castles.md
-[Production]: ./production.md
-[pool de factions]: ./faction-pool.md
-[Construction d'un château]: ./castles.md#apercu
-[Phare]: #phare
-[Mine]: #mine
-[Carrière]: ./buildings-others.md#carriere
-[Scierie]: #scierie
-[Forge]: #forge
-[Haras]: #haras
-[Port]: #port
-[Caravansérail]: ./buildings-others.md#caravanserail
-[Académie]: ./buildings-others.md#academie
-[Tour de mage]: #tour-de-mage
-[Barrage]: #barrage
-[Tunnel]: #tunnel
-[Auberge]: #auberge
-[Monument]: #monument
-[Cercle de Pierres]: #cercle-de-pierres
-[MAKE "type de bâtiment"]: ./cmd-make.md
-[barque]: ./ships.md#barque "Boat"
-
-[sylviculture]: ./skills-list.md#sylviculture "Forestry"
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[pousses]: ./resources.md#jeunes-arbres-ou-pousses "Saplings"
-[apprivoisement]: ./skills-list.md#apprivoisement
-
-[déserts]: ./terrains.md#desert "Desert"

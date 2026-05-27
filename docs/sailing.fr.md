@@ -2,13 +2,15 @@
 # cSpell:locale fr
 alias: naviguer
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Naviguer
 
 Seuls les [[bateaux]] permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.  
 Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec des capitaines aquariens ou de la magie.  
 
 Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.  
-Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un [**Port**] pour que les bateaux puissent accoster.  
+Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un **[port][port]** pour que les bateaux puissent accoster.  
 Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages].  
 Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.  
 
@@ -18,7 +20,7 @@ Un bateau venant de l'est (le rapport indique alors "côte est") peut donc parti
 Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [[cmd-help]]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
 
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.  
-Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow]] ou [Piraterie].  
+Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow]] ou [piraterie][piraterie].  
 
 Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.  
 Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
@@ -65,7 +67,7 @@ En mer, il ne coulera pas immédiatement, mais dérivera.
 Les capacités des bateaux sont indiquées dans le tableau ci-dessus et sont toujours affichées dans le rapport.  
 Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différentes races, dans le tableau [[deplacements|Poids et Capacités]].  
 
-Il est possible de regrouper plusieurs bateaux en [convoi].  
+Il est possible de regrouper plusieurs bateaux en [convoi][convoi].  
 Les détails à ce sujet sont décrits dans le chapitre sur les [[bateaux]].  
 
 Les unités qui se trouvent à bord d'un bateau ne sont peuvent exécuter d'ordres longs (à l'exception des aquariens).  
@@ -83,7 +85,7 @@ Cela s'applique bien sûr aussi à [[cmd-ride]] et [[cmd-carry]].
 
 ## Nager
 
-Les [aquariens] peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.  
+Les [aquariens][aquariens] peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.  
 Cela fonctionne comme un mouvement normal avec [[cmd-move]] et seulement si l'unité n'est pas surchargée.  
 Ils peuvent emporter des objets, mais pas de chevaux, même si l'unité qui nage peut les porter.  
 De même [[cmd-carry|transporter]] des personnes d'autres races n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
@@ -106,7 +108,7 @@ Si un bateau subit 100% de dégâts, il coule avec son équipage et ses passager
 
 Lors des événements suivants, un bateau subit des dommages :
 
-- le bateau est engagé dans un combat : 0%-20% de dommages (voir [combat naval])
+- le bateau est engagé dans un combat : 0%-20% de dommages (voir [combat naval][combats-a-bord-et-depuis-les-navires])
 - le bateau est endommagé par un sort puissant (jusqu'à 90 %)
 - le bateau subit des dommages à cause des raz-de-marée (50 %)
 - si le bateau heurte des écueils, il subit 10% de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)
@@ -136,9 +138,4 @@ Poursuivre la lecture : [[production]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
 
-[**Port**]: ./buildings-others.md#port
 [dommages]: #dommages-aux-bateaux
-[Piraterie]: ./war.md#piraterie
-[convoi]: ./ships.md#convoi
-[aquariens]: ./races.md#aquariens
-[combat naval]: ./war.md#combats-a-bord-et-depuis-les-navires

@@ -294,7 +294,7 @@ Poursuivre la lecture : [[premier-tour]].
 [SORT AFTER &lt;unit id&gt;]: [[cmd-sort]]
 [SORT BEFORE &lt;unit id&gt;]: [[cmd-sort]]
 [SPY &lt;unit id&gt;]: [[cmd-spy]]
-[STEAL &lt;unit id&gt;]: [[camouflage]]
+[STEAL &lt;unit id&gt;]: [[discretion]]{title="Stealth"}
 [TAX &#91;amount&#93;]: [[cmd-tax]]
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit]]

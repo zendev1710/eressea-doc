@@ -40,7 +40,7 @@ $$
 
 ### Using
 
-If you want to use a potion, you do so with [[cmd-use|`USE [<amount>] "<potion name>" [<unit-id>]`]] order.  
+If you want to use a potion, you do so with [`USE [<amount>] "<potion name>" [<unit-id>]`][cmd-use] order.  
 
 Remark: *Unit ID* is required **only** for **[duncebun]** potion.  
 
@@ -415,3 +415,5 @@ In this case, you get an error message and the [duncebun] is not used up (thus i
 [PL]: #peasant-love-potion "Peasant love potion"
 [EP]: #elixir-of-power "Elixir of power"
 [HL]: #healing-potion "Healing potion"
+
+[cmd-use]: [[cmd-use]]

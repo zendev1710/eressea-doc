@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: ecoles-de-magie
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Écoles de Magie
 
 Il existe cinq Écoles de Magie dans Eressea.  
@@ -9,7 +11,7 @@ Il existe cinq Écoles de Magie dans Eressea.
 Chaque faction doit en choisir une lors de son premier apprentissage de la [[magie]];  
 **une fois choisie, l'École de Magie n'est plus modifiable**.  
 
-Avant de choisir ton École de Magie, n'hésite pas à consulter la [liste des sorts] !  
+Avant de choisir ton École de Magie, n'hésite pas à consulter la [liste des sorts][liste-des-sorts] !  
 
 Tu trouveras ci-dessous la description des cinq Écoles de Magie et des liens vers leurs sorts.  
 
@@ -25,7 +27,7 @@ Les frontières s'estompent..."
 
 Fragment du Livre des Temps, écrit en Althochelfisch, Âge inconnu, origine inconnue, localisation de l'original inconnue, aucune copie connue, traduction du fragment par Rehlan Staubnix, bibliothécaire au Département des Écritures Ésotériques, Bibliothèque de l'Académie de Xontormia.
 
-En savoir plus : [les sorts Illaun].
+En savoir plus : [les sorts Illaun][sorts-illaun].
 
 ## Tybied
 
@@ -44,7 +46,7 @@ Ce qui, hmm, je dois l'admettre, peut aussi être très utile dans, hmm, la prat
 
 D'une conférence aux Novices, Feoral Birnkern, Maître de conférences en Magie Théorique, Académie de Thall.
 
-En savoir plus :  [les sorts Tybied].
+En savoir plus :  [les sorts Tybied][sorts-tybied].
 
 ## Cerddor
 
@@ -65,7 +67,7 @@ Le côté droit de son visage était marqué d'une profonde cicatrice, résultat
 Lui aussi semblait captivé par la voix du barde, et pendant un instant, il sembla à l'elfe que la cicatrice sur le visage du vieil homme s'estompait et qu'une nouvelle vie palpitait à travers sa peau grise.
 </div>
 
-En savoir plus :  [les sorts Cerddor].
+En savoir plus :  [les sorts Cerddor][sorts-cerddor].
 
 ## Gwyrrd
 
@@ -91,7 +93,7 @@ Le mage a crié des mots obscurs dans la forêt.
 Les cœurs de Draiochean et Llyfr battirent plus vite et il lui prit timidement la main alors que quelque chose d'ancien et de grand les attrapa tous les deux et les souleva dans les airs...
 </div>
 
-En savoir plus :  [les sorts Gwyrrd].
+En savoir plus :  [les sorts Gwyrrd][sorts-gwyrrd].
 
 ## Draig
 
@@ -110,16 +112,8 @@ Sachez donc que le Draig n'a pas besoin de serviteurs, car le Draig était au d�
 
 Prophétie d'Igjarjuk, l'un des anciens des Wyrms, sur son lit de mort après la bataille de Melvaunt, à Casandra, Maître Voleur du clan Deathhawk.  
 
-En savoir plus :  [les sorts Draig].
+En savoir plus :  [les sorts Draig][sorts-draig].
 
-Poursuivre la lecture : [liste des sorts].
-
-[liste des sorts]: ./spells-list.md
+Poursuivre la lecture : [liste des sorts][liste-des-sorts].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
-
-[les sorts Illaun]: ./magic-school-illaun.md
-[les sorts Tybied]: ./magic-school-tybied.md
-[les sorts Cerddor]: ./magic-school-cerddor.md
-[les sorts Gwyrrd]: ./magic-school-gwyrrd.md
-[les sorts Draig]: ./magic-school-draig.md

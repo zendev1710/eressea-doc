@@ -2,9 +2,9 @@
 # cSpell:locale fr
 alias: bateaux
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Bateaux
-
-<!-- translated from german to french -->
 
 Les bateaux sont construits avec l'ordre [[cmd-make|**`MAKE`**&#91;*`niveaux`*&#93;*`type de bateau`*]].  
 Les bateaux existants, inachevés ou endommagés sont construits avec **`MAKE`**&#91;*`niveaux`*&#91;&nbsp;`SHIP`&nbsp;&#91;`*`id-bateau`*&#93;.  
@@ -81,7 +81,7 @@ Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent 
 
 ### Bateaux - Tableau de synthèse
 
-Bateaux - Type, portée, capacité, compétence de [voile] nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
+Bateaux - Type, portée, capacité, compétence de [voile][voile]{title="Sailing"} nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
 
 | Type      | Portée | Capacité | Capitaine/Équipage | Niv. construction |  Bois |
 |-----------|:------:|---------:|-------------------:|:-----------------:|------:|
@@ -115,7 +115,7 @@ Les unité sources et cibles **doivent appartenir à la même faction**, les ord
 
 L'unité propriétaire d'un convoi dirige tous ses bateaux ensemble et doit pour cela :
 
-- Avoir le niveau de compétence requis en [voile] pour le type de bateau
+- Avoir le niveau de compétence requis en [voile][voile]{title="Sailing"} pour le type de bateau
 - Avoir une personne par bateau
 
 Le compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.  
@@ -123,7 +123,7 @@ La portée correspond à celle du type de bateau, les dégâts maximums et la ch
 
 Exemple.
 
-Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec [voile] T3 et un équipage avec 90 niveaux de compétence au total.
+Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec [voile][voile]{title="Sailing"} T3 et un équipage avec 90 niveaux de compétence au total.
 Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9 000 lbs. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
 ```text
@@ -176,4 +176,3 @@ Poursuivre la lecture : [[batiments]].
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
 
 [barques]: #barque
-[voile]: ./skills-list.md#voile "Sailing"

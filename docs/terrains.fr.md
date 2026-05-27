@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: types-de-terrain
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Types de terrain
 
 <!-- TODO reorganize info. Some are partially duplicated in world.md -->
@@ -14,10 +16,10 @@ alias: types-de-terrain
 
 Dans ce milieu hostile, les déplacements et le commerce sont par nature limités.  
 
-Pour y construire des [[routes|routes]] et ainsi faciliter les déplacements, un [caravansérail] doit y être au préalable érigé et fonctionnel.  
+Pour y construire des [[routes|routes]] et ainsi faciliter les déplacements, un [caravansérail][caravanserail]{title="Caravanserai"} doit y être au préalable érigé et fonctionnel.  
 Un caravansérail permet également d'y doubler le volume de commerce.  
 
-Les plantes qui poussent dans le désert sont le [tamaris], le [peyote], et la [pourriture de sable].  
+Les plantes qui poussent dans le désert sont le [tamaris][tamaris]{title="Waterfinder"}, le [peyote][peyote]{title="Peyote"}, et la [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}.  
 
 ## Forêt
 
@@ -25,7 +27,7 @@ Les plantes qui poussent dans le désert sont le [tamaris], le [peyote], et la [
 *Forest (EN), Wald (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les forêts sont l'[amour d'Elfes], le [champignon cobalt], l'[œil de chouette], le [lierre d'araignée], la [racine plate] et la [témérité piquante].  
+Les plantes qui poussent dans les forêts sont l'[amour d'Elfes][amour-delfes]{title="Elvendear"}, le [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, l'[œil de chouette][il-de-chouette]{title="Owlsgaze"}, le [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, la [racine plate][racine-plate]{title="Flatroot"} et la [témérité piquante][temerite-piquante]{title="Tangy temerity"}.  
 Ces mêmes plantes poussent dans les plaines.  
 
 ## Glacier
@@ -34,7 +36,7 @@ Ces mêmes plantes poussent dans les plaines.
 *Glacier (EN), Gletscher (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent sur les glaciers sont le [bégonia des glaces], le [pétale de cristal de neige] et le [tsuga blanc].  
+Les plantes qui poussent sur les glaciers sont le [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}, le [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"} et le [tsuga blanc][tsuga-blanc]{title="White hemlocks"}.  
 
 ## Haut-plateau
 
@@ -42,7 +44,7 @@ Les plantes qui poussent sur les glaciers sont le [bégonia des glaces], le [pé
 *Highland (EN), Hochland (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent sur les hauts-plateaux sont le [champignon des fjords], la [mandragore] et la [gousse].  
+Les plantes qui poussent sur les hauts-plateaux sont le [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}, la [mandragore][mandragore]{title="Mandrake"} et la [gousse][gousse]{title="Windbag"}.  
 
 ## Marais
 
@@ -50,7 +52,7 @@ Les plantes qui poussent sur les hauts-plateaux sont le [champignon des fjords],
 *Swamp (EN), Sumpf (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les marais sont l'[herbe de clairon], la [morille] et la [racine de nœud].  
+Les plantes qui poussent dans les marais sont l'[herbe-de-clairon]{title="Bugleweed"}, la [morille][morille]{title="Bubblemorel"} et la [racine de nœud][racine-de-nud]{title="Knotroot"}.  
 
 ## Montagne
 
@@ -58,7 +60,7 @@ Les plantes qui poussent dans les marais sont l'[herbe de clairon], la [morille]
 *Mountain (EN), Berge (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les montagnes sont la [cire fissurée], l'[herbe de roche] et le [lichen des cavernes].  
+Les plantes qui poussent dans les montagnes sont la [cire fissurée][cire-fissuree]{title="Gapgrowth"}, l'[herbe de roche][herbe-de-roche]{title="Rock weed"} et le [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}.  
 
 ## Plaine
 
@@ -66,7 +68,7 @@ Les plantes qui poussent dans les montagnes sont la [cire fissurée], l'[herbe d
 *Plain (EN), Ebene (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les plaines sont l'[amour d'Elfes], le [champignon cobalt], l'[œil de chouette], le [lierre d'araignée], la [racine plate] et la [témérité piquante].  
+Les plantes qui poussent dans les plaines sont l'[amour d'Elfes][amour-delfes]{title="Elvendear"}, le [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, l'[œil de chouette][il-de-chouette]{title="Owlsgaze"}, le [lierre-daraignee]{title="Spider ivy"}, la [racine plate][racine-plate]{title="Flatroot"} et la [témérité piquante][temerite-piquante]{title="Tangy temerity"}.  
 Ces mêmes plantes poussent dans les forêts.  
 
 ## Volcan
@@ -80,16 +82,16 @@ Ces mêmes plantes poussent dans les forêts.
 
 ## Terrains - Synthèse
 
-| Terrain        | max. travailleurs | min. travailleurs [^1] | max. arbres | Pierres pour routes |
-|----------------|------------------:|-----------------------:|------------:|--------------------:|
-| [Glacier]      |               100 |                     10 |          13 |                 250 |
-| [Désert]       |               500 |                     50 |          63 |                 100 |
-| [Volcan]       |               500 |                     50 |          63 |                 250 |
-| [Montagne]     |             1 000 |                    100 |         125 |                 250 |
-| [Marais]       |             2 000 |                    200 |         250 |                  75 |
-| [Haut-plateau] |             4 000 |                    200 |         500 |                 100 |
-| [Forêt][^2]    |            10 000 |                    200 |       1 250 |                  50 |
-| [Plaine][^2]   |            10 000 |                    200 |       1 250 |                  50 |
+| Terrain                                        | max. travailleurs | min. travailleurs [^1] | max. arbres | Pierres pour routes |
+|------------------------------------------------|------------------:|-----------------------:|------------:|--------------------:|
+| [Glacier][glacier]{title="Glacier"}            |               100 |                     10 |          13 |                 250 |
+| [Désert][desert]{title="Desert"}               |               500 |                     50 |          63 |                 100 |
+| [Volcan][volcan]{title="Volcano"}              |               500 |                     50 |          63 |                 250 |
+| [Montagne][montagne]{title="Mountain"}         |             1 000 |                    100 |         125 |                 250 |
+| [Marais][marais]{title="Swamp"}                |             2 000 |                    200 |         250 |                  75 |
+| [Haut-plateau][haut-plateau]{title="Highland"} |             4 000 |                    200 |         500 |                 100 |
+| [Forêt][foret]{title="Forest"}[^2]             |            10 000 |                    200 |       1 250 |                  50 |
+| [Plaine][plaine]{title="Plain"}[^2]            |            10 000 |                    200 |       1 250 |                  50 |
 
 Le nombre d'emplois disponibles varie d'une région à l'autre.  
 Chaque paysan prend un emploi, chaque pousse d'arbre en prend 4, et chaque arbre en prend 8.  
@@ -105,36 +107,3 @@ Dans les glaciers, les marais et les déserts, la construction de routes n'est p
 [^2]: à partir d'un nombre total de **600** arbres, pousses (jeunes arbres) incluses, une plaine est considérée comme une forêt.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten/fr&oldid=9104] -->
-
-[caravansérail]: ./buildings-others.md#caravanserail "Caravanserai"
-
-[Désert]: ./terrains.md#desert "Desert"
-[Forêt]: ./terrains.md#foret "Forest"
-[Glacier]: ./terrains.md#glacier "Glacier"
-[Haut-plateau]: ./terrains.md#haut-plateau "Highlands"
-[Marais]: ./terrains.md#marais "Swamp"
-[Montagne]: ./terrains.md#montagne "Mountain"
-[Plaine]: ./terrains.md#plaine "Plain"
-[Volcan]: ./terrains.md#volcan "Volcano"
-
-[amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
-[bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
-[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
-[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
-[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
-[gousse]: ./herbs.md#gousse "Windbag"
-[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
-[herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
-[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
-[lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
-[mandragore]: ./herbs.md#mandragore "Mandrake"
-[morille]: ./herbs.md#morille "Bubblemorel"
-[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[peyote]: ./herbs.md#peyote "Peyote"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
-[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
-[racine plate]: ./herbs.md#racine-plate "Flatroot"
-[tamaris]: ./herbs.md#tamaris "Waterfinder"
-[tsuga blanc]: ./herbs.md#tsuga-blanc "White hemlocks"
-[témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"

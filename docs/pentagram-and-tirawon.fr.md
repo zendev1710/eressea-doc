@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: pentagramme-et-tirawon
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Pentagramm et Tirawon
 
 Les alliances **`Pentagramm`** et **`Eternal Fire of Tirawon` / `Green Hand of Salassar`** étaient deux des alliances les plus puissantes du 6ème Monde et régnaient chacune sur plusieurs centaines de régions.  
@@ -12,10 +14,10 @@ Au total, 182 686 personnes se sont rencontrées dans le plan Astral au-dessus d
 Cela représentait à l’époque près de 2 % de la population totale d’Eressea.  
 
 Les armées étaient principalement composées d'elfes, de nains et de halflings (ensemble plus de 80 %).  
-La plus grande armée composée de 32 554 elfes était celle des elfes Garan, qui étaient pratiquement tous armés d'[arcs elfiques], certainement un facteur décisif dans la victoire de Tirawon.  
+La plus grande armée composée de 32 554 elfes était celle des elfes Garan, qui étaient pratiquement tous armés d'[arcs elfiques][arc-elfique], certainement un facteur décisif dans la victoire de Tirawon.  
 Il convient également de mentionner les près de 6 000 démons qui ont combattu aux côtés de Tirawon, et aucun d'entre eux n'est tombé au combat.  
 
-Ce qui est peut-être unique, c'est le fait que [Igjarjuk] personnellement – ​​ressuscité sous le nom de [Wyrm Mort-Vivant] – a daigné soutenir Pentagramm.
+Ce qui est peut-être unique, c'est le fait que [Igjarjuk][igjarjuk] personnellement – ​​ressuscité sous le nom de [Wyrm Mort-Vivant][igjarjuk] – a daigné soutenir Pentagramm.
 Les rivières de sang qui lui étaient promises en retour ont coulé.  
 Peut-être pas tout à fait comme Pentagramm l’avait espéré.  
 
@@ -54,7 +56,7 @@ Du côté de **Tirawon**, 15 peuples se sont battus :
 - Armée 36: Der Feuerschwarm (erob) -- 750 Insecten
 
 <!-- cspell:enable -->
-Du côté de **Pentagramm** 20 peuples, [Igjarjuk] et la faction des monstres se sont battus :
+Du côté de **Pentagramm** 20 peuples, [Igjarjuk][igjarjuk] et la faction des monstres se sont battus :
 
 <!-- cspell:disable -->
 - Armée 1: DAS PENTAGRAMM (dpen) -- 9951 Nains
@@ -83,7 +85,7 @@ Du côté de **Pentagramm** 20 peuples, [Igjarjuk] et la faction des monstres se
 
 Et :
 
-- Armée 37: Faction inconnue (Monstre) -- 38 [Mangeurs de cerveau]
+- Armée 37: Faction inconnue (Monstre) -- 38 [Mangeurs de cerveau][mangeurs-de-cerveau]
 - Armée 38: Igjarjuks Kundschafter (rr) -- Igjarjuk (igjr), 1 Untoter Wyrm
 <!-- cspell:enable -->
 
@@ -95,8 +97,4 @@ Et :
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[Igjarjuk]: ./monsters.md#igjarjuk
-[Wyrm Mort-Vivant]: ./monsters.md#igjarjuk
 [Rapport détaillé du point de vue de Tirawon]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
-[arcs elfiques]: ./war-tables.md#arc-elfique
-[Mangeurs de cerveau]: ./monsters.md#mangeurs-de-cerveau

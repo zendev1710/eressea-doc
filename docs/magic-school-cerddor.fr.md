@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sorts-cerddor
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sorts Cerddor
 
 Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -231,7 +233,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].
     L'amulette permet au porteur de voir toutes les unités protégées par un [[anneau-d-invisibilite]].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
@@ -597,6 +599,5 @@ Extrait de « Errants » de Firudin le Sage.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
 
-[amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Sight"
-[camouflage]: ./camouflage.md "Stealth"
-[anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
+[amulette de vision décuplée]: [[amulette-de-vision-decuplee]]{title="Amulet of True Sight"}
+[anneau d'Invisibilité]: [[anneau-d-invisibilite]]{title="Ring of Invisibility"}

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: tactique
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tactique
 
 ## Tacticien
@@ -16,10 +18,10 @@ Le tour de tactique permet également une tentative de fuite supplémentaire.
 
 ## Bonus de tactique en fonction de la situation
 
-Un tacticien qui [[cmd-combat|combat]] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique].  
+Un tacticien qui [[cmd-combat|combat]] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique][tactique].  
 S'il se trouve en 3e ou 4e ligne, sa compétence est réduite de 1.
 
-La compétence en [Tactique] bénéficie également de quelques bonus raciaux qui dépendent du terrain :
+La compétence en [Tactique][tactique] bénéficie également de quelques bonus raciaux qui dépendent du terrain :
 
 | Race    | Terrain           | Bonus/Malus |
 |---------|-------------------|:-----------:|
@@ -65,9 +67,6 @@ On peut donc (aussi) remplacer le manque de niveau des tacticiens par la masse, 
 
 ## Voir aussi
 
-- [la guerre]
+- [la guerre][tour-du-tacticien]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/fr&oldid=13466] -->
-
-[la guerre]: ./war.md#tour-du-tacticien
-[Tactique]: ./skills-list.md#tactique "Tactics"

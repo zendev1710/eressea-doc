@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: alchimie
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD051 MD052 -->
 # Alchimie
 
 Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (plantes) en potions.
@@ -17,7 +19,7 @@ Une potion ne pèse rien.
 
 ### Fabrication
 
-Seule une personne sufisamment compétente en [alchimie], appelée alchimiste, peut fabriquer une potion.  
+Seule une personne sufisamment compétente en [alchimie][alchimie]{title="Alchemy"}, appelée alchimiste, peut fabriquer une potion.  
 
 !!! warning "Remarque"
     Une faction compte au plus **3 alchimistes**.
@@ -39,11 +41,11 @@ $$
 *Ex. Un alchimiste **T6** peut produire 1 potion N3 ($6\,/\,(3\,\times\,2)=1$), 1 potion N2 ($6\,/\,(2\,\times\,2)=1$) ou 3 potions N1 ($6\,/\,(1\,\times\,2)=3$).*  
 
 !!! note "Note"
-    Les plantes peuvent être [[cmd-research|découvertes]] dans une région puis [[cmd-make|récoltées]] par une unité compétente en [herboristerie].
+    Les plantes peuvent être [[cmd-research|découvertes]] dans une région puis [[cmd-make|récoltées]] par une unité compétente en [herboristerie][herboristerie]{title="Herbalism"}.
 
 ### Utilisation
 
-L'ordre [[cmd-use|`USE [<quantité>] "<nom potion>" [<unit-id>]`]] permet d'utiliser une ou plusieurs potions en sa possession.  
+L'ordre [`USE [<quantité>] "<nom potion>" [<unit-id>]`][cmd-use] permet d'utiliser une ou plusieurs potions en sa possession.  
 
 Remarque: l'identifiant d'unité `<unit-id>` est à renseigner **uniquement** pour le **[pain d'andouille]**.  
 
@@ -85,8 +87,8 @@ Vous trouverez ci-dessous la liste des potions par ordre croissant de niveau.
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon des fjords]
-- [herbe de clairon]
+- [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}
+- [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}
 
 #### Eau de vie
 
@@ -102,8 +104,8 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [amour d'Elfes]
-- [racine de nœud]
+- [amour d'Elfes][amour-delfes]{title="Elvendear"}
+- [racine de nœud][racine-de-nud]{title="Knotroot"}
 
 #### Potion de vérité
 
@@ -118,8 +120,8 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon des fjords]
-- [racine plate]
+- [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}
+- [racine plate][racine-plate]{title="Flatroot"}
 
 #### Thé des sept lieues
 
@@ -135,8 +137,8 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon cobalt]
-- [gousse]
+- [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}
+- [gousse][gousse]{title="Windbag"}
 
 ### Niveau 2
 
@@ -154,9 +156,9 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [cire fissurée]
-- [mandragore]
-- [témérité piquante]
+- [cire fissurée][cire-fissuree]{title="Gapgrowth"}
+- [mandragore][mandragore]{title="Mandrake"}
+- [témérité piquante][temerite-piquante]{title="Tangy temerity"}
 
 #### Onguent de soin
 
@@ -172,9 +174,9 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon cobalt]
-- [témérité piquante]
-- [tsuga blanc]
+- [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}
+- [témérité piquante][temerite-piquante]{title="Tangy temerity"}
+- [tsuga blanc][tsuga-blanc]{title="White hemlocks"}
 
 #### Sang de paysan
 
@@ -193,9 +195,9 @@ Plantes nécessaires pour concocter cette potion :
 
 Éléments nécessaires pour concocter cette potion :
 
-- [champignon cobalt]
-- [champignon des fjords]
-- [lichen des cavernes]
+- [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}
+- [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}
+- [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}
 - paysan
 
 !!! note
@@ -219,10 +221,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon cobalt]
-- [peyote]
-- [pourriture de sable]
-- [racine de nœud]
+- [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}
+- [peyote][peyote]{title="Peyote"}
+- [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}
+- [racine de nœud][racine-de-nud]{title="Knotroot"}
 
 #### Chaleur du nid
 
@@ -230,7 +232,7 @@ Plantes nécessaires pour concocter cette potion :
 *Potion of nest warmth (EN), Nestwärme (DE)*.
 <!-- cspell:enable -->
 
-:   Permet aux **[Insectes]** de recruter **même en hiver**.
+:   Permet aux **[Insectes][insectes]** de recruter **même en hiver**.
 
 *Objectif :* permettre le recrutement d'Insectes en hiver.  
 *Niveau :* **3**.  
@@ -238,10 +240,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [bégonia des glaces]
-- [cire fissurée]
+- [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}
+- [cire fissurée][cire-fissuree]{title="Gapgrowth"}
 - [lierre d'araignée]
-- [peyote]
+- [peyote][peyote]{title="Peyote"}
 
 #### Huile de cervelle
 
@@ -257,10 +259,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [gousse]
-- [herbe de clairon]
-- [herbe de roche]
-- [tamaris]
+- [gousse][gousse]{title="Windbag"}
+- [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}
+- [herbe de roche][herbe-de-roche]{title="Rock weed"}
+- [tamaris][tamaris]{title="Waterfinder"}
 
 #### Pain d'andouille
 
@@ -276,16 +278,16 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [champignon des fjords]
-- [lichen des cavernes]
+- [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}
+- [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}
 - [lierre d'araignée]
-- [œil de chouette]
+- [œil de chouette][il-de-chouette]{title="Owlsgaze"}
 
 [[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
 !!! note
     Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
-    L'effet de la potion échoue si le niveau de [discrétion] de l'unité agissante est inférieur ou égal **au niveau de [perception] + 2** de la victime.  
+    L'effet de la potion échoue si le niveau de [discrétion][discretion]{title="Stealth"} de l'unité agissante est inférieur ou égal **au niveau de [perception][perception]{title="Perception"} + 2** de la victime.  
     Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
 
 #### Sang de berserker
@@ -302,10 +304,10 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [mandragore]
-- [pourriture de sable]
-- [racine plate]
-- [tsuga blanc]
+- [mandragore][mandragore]{title="Mandrake"}
+- [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}
+- [racine plate][racine-plate]{title="Flatroot"}
+- [tsuga blanc][tsuga-blanc]{title="White hemlocks"}
 
 ### Niveau 4
 
@@ -323,11 +325,11 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [amour d'Elfes]
-- [herbe de roche]
-- [mandragore]
-- [morille]
-- [pétale de cristal de neige]
+- [amour d'Elfes][amour-delfes]{title="Elvendear"}
+- [herbe de roche][herbe-de-roche]{title="Rock weed"}
+- [mandragore][mandragore]{title="Mandrake"}
+- [morille][morille]{title="Bubblemorel"}
+- [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"}
 
 #### Élixir de pouvoir
 
@@ -343,12 +345,12 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [amour d'Elfes]
-- [gousse]
+- [amour d'Elfes][amour-delfes]{title="Elvendear"}
+- [gousse][gousse]{title="Windbag"}
 - [lierre d'araignée]
-- [morille]
+- [morille][morille]{title="Bubblemorel"}
 - [[sang-de-dragon]]
-- [tamaris]
+- [tamaris][tamaris]{title="Waterfinder"}
 
 #### Potion de guérison
 
@@ -364,11 +366,11 @@ Plantes nécessaires pour concocter cette potion :
 
 Plantes nécessaires pour concocter cette potion :
 
-- [amour d'Elfes]
-- [bégonia des glaces]
-- [cire fissurée]
-- [gousse]
-- [herbe de clairon]
+- [amour d'Elfes][amour-delfes]{title="Elvendear"}
+- [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}
+- [cire fissurée][cire-fissuree]{title="Gapgrowth"}
+- [gousse][gousse]{title="Windbag"}
+- [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}
 
 ## Potions - Synthèse
 
@@ -392,67 +394,39 @@ Plantes nécessaires pour concocter cette potion :
 
 ## Plantes et leur utilisation
 
-| Plante                       |             [SM]             |             [GW]             |             [WL]             |             [PB]             |             [BZ]             |             [OM]             |             [BK]             |             [DB]             |             [BW]             |             [HP]             |             [NW]             |             [PL]             |             [EP]             |             [HL]             |
-|------------------------------|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|
-| [amour d'Elfes]              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } | :material-check:{ .success } |
-| [bégonia des glaces]         |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
-| [champignon cobalt]          | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
-| [champignon des fjords]      |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
-| [cire fissurée]              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
-| [gousse]                     | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |
-| [herbe de clairon]           |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |
-| [herbe de roche]             |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |
-| [lichen des cavernes]        |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
-| [lierre d'araignée]          |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |
-| [mandragore]                 |                              |                              |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
-| [morille]                    |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |
-| [œil de chouette]            |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
-| [peyote]                     |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |
-| [pourriture de sable]        |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
-| [pétale de cristal de neige] |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
-| [racine de nœud]             |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
-| [racine plate]               |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
-| [tamaris]                    |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |
-| [témérité piquante]          |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              |
-| [tsuga blanc]                |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
+| Plante                                                                              |             [SM]             |             [GW]             |             [WL]             |             [PB]             |             [BZ]             |             [OM]             |             [BK]             |             [DB]             |             [BW]             |             [HP]             |             [NW]             |             [PL]             |             [EP]             |             [HL]             |
+|-------------------------------------------------------------------------------------|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|
+| [amour d'Elfes][amour-delfes]{title="Elvendear"}                                    |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } | :material-check:{ .success } |
+| [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}                       |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
+| [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}                       | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}                |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [cire fissurée][cire-fissuree]{title="Gapgrowth"}                                   |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |
+| [gousse][gousse]{title="Windbag"}                                                   | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |
+| [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}                             |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |
+| [herbe de roche][herbe-de-roche]{title="Rock weed"}                                 |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |
+| [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                     |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [lierre d'araignée]                                                                 |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |
+| [mandragore][mandragore]{title="Mandrake"}                                          |                              |                              |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
+| [morille][morille]{title="Bubblemorel"}                                             |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |
+| [œil de chouette][il-de-chouette]{title="Owlsgaze"}                                 |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
+| [peyote][peyote]{title="Peyote"}                                                    |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |
+| [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                     |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"} |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
+| [racine de nœud][racine-de-nud]{title="Knotroot"}                                   |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
+| [racine plate][racine-plate]{title="Flatroot"}                                      |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
+| [tamaris][tamaris]{title="Waterfinder"}                                             |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              | :material-check:{ .success } |                              |
+| [témérité piquante][temerite-piquante]{title="Tangy temerity"}                      |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |                              |
+| [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                  |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |                              |
 
 Poursuivre la lecture : [[herbs|plantes]].
 
 [^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
     Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
 [^2]: la potion agit à une unité ciblée avec l'ordre `USE Duncebun <unit-id>`.  
-    À cet égard, il convient de noter que si le **niveau de [discrétion]** de l'utilisateur est **inférieur ou égal** au **niveau de [perception] + 2** de la victime, la tentative échoue.  
+    À cet égard, il convient de noter que si le **niveau de [discrétion]{title="Stealth"}** de l'utilisateur est **inférieur ou égal** au **niveau de [perception][perception]{title="Perception"} + 2** de la victime, la tentative échoue.  
     Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->
-
-[alchimie]: ./skills-list.md#alchimie "Alchemy"
-[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
-[perception]: ./skills-list.md#perception "Perception"
-[discrétion]: ./camouflage.md "Stealth"
-[Insectes]: ./races.md#insectes "Insects"
-
-[amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
-[bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
-[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
-[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
-[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
-[gousse]: ./herbs.md#gousse "Windbag"
-[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
-[herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
-[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
-[lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
-[mandragore]: ./herbs.md#mandragore "Mandrake"
-[morille]: ./herbs.md#morille "Bubblemorel"
-[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[peyote]: ./herbs.md#peyote "Peyote"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
-[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
-[racine plate]: ./herbs.md#racine-plate "Flatroot"
-[tamaris]: ./herbs.md#tamaris "Waterfinder"
-[tsuga blanc]: ./herbs.md#tsuga-blanc "White hemlocks"
-[témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"
 
 [eau de Goliath]: #eau-de-goliath "Goliath water"
 [eau de vie]: #eau-de-vie "Water of life"
@@ -464,23 +438,25 @@ Poursuivre la lecture : [[herbs|plantes]].
 [pain d'andouille]: #pain-dandouille "Duncebun"
 [chaleur du nid]: #chaleur-du-nid "Potion of nest warmth"
 [amour des paysans]: #amour-des-paysans "Peasant love potion"
-[potion de vérité]: ./alchemy.md#potion-de-verite "Potion of truth"
-[thé des sept lieues]: ./alchemy.md#the-des-sept-lieues "Seven mile tea"
-[bien-être des chevaux]: ./alchemy.md#bien-etre-des-chevaux "Horsepower potion"
-[élixir de pouvoir]: ./alchemy.md#elixir-de-pouvoir "Elixir of power"
-[potion de guérison]: ./alchemy.md#potion-de-guerison "Healing potion"
+[potion de vérité]: #potion-de-verite "Potion of truth"
+[thé des sept lieues]: #the-des-sept-lieues "Seven mile tea"
+[bien-être des chevaux]: #bien-etre-des-chevaux "Horsepower potion"
+[élixir de pouvoir]: #elixir-de-pouvoir "Elixir of power"
+[potion de guérison]: #potion-de-guerison "Healing potion"
 
-[SM]: ./alchemy.md#the-des-sept-lieues "Thé des sept lieues (Seven mile tea)"
-[GW]: ./alchemy.md#eau-de-goliath "Eau de Goliath (Goliath water)"
-[WL]: ./alchemy.md#eau-de-vie "Eau de vie (Water of life)"
-[PB]: ./alchemy.md#sang-de-paysan "Sang de paysan (Peasant blood)"
-[BZ]: ./alchemy.md#breuvage-de-labeur "Breuvage de labeur (Busybeer)"
-[OM]: ./alchemy.md#onguent-de-soin "Onguent de soin (Ointment)"
-[BK]: ./alchemy.md#sang-de-berserker "Sang de berserker (Berserkers blood)"
-[DB]: ./alchemy.md#pain-dandouille "Pain d'andouille (Duncebun)"
-[BW]: ./alchemy.md#huile-de-cervelle "Huile de cervelle (Brain wax)"
-[HP]: ./alchemy.md#bien-etre-des-chevaux "Bien-être des chevaux (Horsepower potion)"
-[NW]: ./alchemy.md#chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
-[PL]: ./alchemy.md#amour-des-paysans "Amour des paysans (Peasant love potion)"
-[EP]: ./alchemy.md#elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
-[HL]: ./alchemy.md#potion-de-guerison "Potion de guérison (Healing potion)"
+[SM]: #the-des-sept-lieues "Thé des sept lieues (Seven mile tea)"
+[GW]: #eau-de-goliath "Eau de Goliath (Goliath water)"
+[WL]: #eau-de-vie "Eau de vie (Water of life)"
+[PB]: #sang-de-paysan "Sang de paysan (Peasant blood)"
+[BZ]: #breuvage-de-labeur "Breuvage de labeur (Busybeer)"
+[OM]: #onguent-de-soin "Onguent de soin (Ointment)"
+[BK]: #sang-de-berserker "Sang de berserker (Berserkers blood)"
+[DB]: #pain-dandouille "Pain d'andouille (Duncebun)"
+[BW]: #huile-de-cervelle "Huile de cervelle (Brain wax)"
+[HP]: #bien-etre-des-chevaux "Bien-être des chevaux (Horsepower potion)"
+[NW]: #chaleur-du-nid "Chaleur du nid (Potion of nest warmth)"
+[PL]: #amour-des-paysans "Amour des paysans (Peasant love potion)"
+[EP]: #elixir-de-pouvoir "Élixir de pouvoir (Elixir of power)"
+[HL]: #potion-de-guerison "Potion de guérison (Healing potion)"
+
+[cmd-use]: [[cmd-use]]

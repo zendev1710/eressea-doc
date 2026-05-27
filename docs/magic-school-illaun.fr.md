@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sorts-illaun
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sorts Illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -84,9 +86,9 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
     Environ 50 âmes trouveront la paix par niveau de sort.  
     Le sort ne peut pas racheter les morts-vivants déjà ressuscités car leurs liens avec ce monde sont trop forts.
 
-|         Composants         | Niv. |  Type  | Rang | B | D |
-|:--------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 3 x N aura, 1 [eau de vie] |  2   | Normal |  5   |   |   |
+|                          Composants                           | Niv. |  Type  | Rang | B | D |
+|:-------------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 3 x N aura, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -212,7 +214,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].  
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -421,5 +423,3 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 `CAST "Create A DreamEye"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->
-
-[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"

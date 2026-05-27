@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: liste-des-competences
 ---
+<!-- disable MD051 due to a linter bug about links with special characters -->
+<!-- markdownlint-disable MD051 MD052 -->
 # Liste des compétences
 
 Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn]].  
@@ -109,9 +111,9 @@ Cette compétence augmente la furtivité d'une unité.
 Une unité ayant acquis cette compétence est visible uniquement pour celles ayant un niveau de [perception] supérieur ou égal à son niveau de discrétion.  
 Elle n'est pas visible des autres unités.  
 
-Une unité dissimulée grâce à sa discrétion peut aussi [[camouflage#vol-de-silver|voler]] ou déjouer la [[cmd-guard|vigilance]] des gardes de région.  
+Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [[cmd-guard|vigilance]] des gardes de région.  
 
-Plus d'information dans le chapitre dédié : [[camouflage|le camouflage]].  
+Plus d'information :  [compétence de discrétion en détail][discretion-page].  
 
 ## Divertissement
 
@@ -188,8 +190,8 @@ On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
 Pour la prospection, on ne voit pas plus que la couche (niveau en extraction minière X 2). Si la couche est plus profonde on ne verra rien.
 
 !!! note
-    L'extraction de [[laen]] nécessite une [[batiments-speciaux#mine|mine]] et une compétence de **niveau 7**.  
-    L'extraction d'[[adamantium]] nécessite une [[batiments-speciaux#mine|mine]] et une compétence de **niveau 7**.
+    L'extraction de [[laen]] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.  
+    L'extraction d'[[adamantium]] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.
 
 ## Fabrication d'armes
 
@@ -267,9 +269,9 @@ Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut
 *Perception (EN), Wahrnehmung (DE)*.
 <!-- cspell:enable -->
 
-Capacité à détecter les unités [[camouflage|camouflées]].  
+Capacité à détecter les unités [dissimulées][discretion].  
 
-Cette compétence permet également d'éviter le [[camouflage#vol-de-silver|vol]].  
+Cette compétence permet également d'éviter le [vol][vol-de-silver].  
 
 ## Sylviculture
 
@@ -350,4 +352,6 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 
 [perception]: #perception
 [taxation]: #taxation
-[combat à mains nues]: ./skills-list.md#combat-a-mains-nues
+[combat à mains nues]: #combat-a-mains-nues
+
+[discretion-page]: [[discretion]]{title="Stealth"}

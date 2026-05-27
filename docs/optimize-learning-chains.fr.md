@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: chaines-d-apprentissage-optimisees
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Chaînes d'apprentissage optimisées
 
 ## Considérations préliminaires
@@ -62,7 +64,7 @@ J'ai développé moi-même la fonction suivante :
     Apprendre avec le professeur  = (A^Level + B) * (6^C)
 
 Les paramètres A, B et C ont été créés après de longs tests et en partie en assimilant diverses formules.
-La formule peut également être facilement utilisée pour [l'huile de cervelle] et [l'académie] en remplaçant le 3 ou le 6 pour le nombre de tentatives d'apprentissage*3 est remplacé.
+La formule peut également être facilement utilisée pour [l'huile de cervelle][huile-de-cervelle]{title="Brain wax"} et [l'académie][academie] en remplaçant le 3 ou le 6 pour le nombre de tentatives d'apprentissage*3 est remplacé.
 Ainsi, apprendre avec la matière grise donne (1 + 1/3)*3 = 4.
 
 Comme vous pouvez le calculer, apprendre avec un professeur grâce au facteur C n'est pas deux fois plus rentable que sans professeur, mais ne vaut qu'environ 27 % de plus.
@@ -130,8 +132,8 @@ Certaines chaînes typiques enseignant-élève sont présentées et discutées c
   Lorsque les étudiants n'étudient pas, ils font d'autres activités.
   Inconvénient : rythme d'apprentissage lent, avantages : seulement deux unités sont nécessaires, facile à automatiser.
   Utile pour les unités où l'apprentissage n'est pas une priorité, par ex. pour les mineurs qui apprennent principalement à atteindre des couches de minerai plus profondes, ou pour les collecteurs d'impôts qui augmentent progressivement leurs compétences de combat afin de pouvoir combattre de manière indépendante de plus petits groupes de monstres.
-- **Pyramide** --Poursuite du développement de la chaîne simple enseignant-élève, composée d'une unité enseignant (L) et de plusieurs couches d'unités élèves (S1, S2,...) avec 10*|L|=|S1|, 10*|S1|=|S2|... 
-  Si l'objectif est de minimiser les coûts d'apprentissage des [compétences coûteuses], alors l'enseignant apprend puis enseigne à la première unité d'élèves (S1).
+- **Pyramide** --Poursuite du développement de la chaîne simple enseignant-élève, composée d'une unité enseignant (L) et de plusieurs couches d'unités élèves (S1, S2,...) avec 10*|L|=|S1|, 10*|S1|=|S2|...
+  Si l'objectif est de minimiser les coûts d'apprentissage des [compétences coûteuses][competences], alors l'enseignant apprend puis enseigne à la première unité d'élèves (S1).
   Ceux-ci enseignent ensuite S2, etc. Les étudiants n'apprennent que lorsqu'on leur enseigne.
   Même si cela minimise les coûts, cela est plus rapide si les élèves des classes intermédiaires apprennent même s'ils n'ont pas d'enseignant.
   Cependant, cela n'a aucun sens si cela aussi*le plus bas*Les étudiants apprennent sans professeur.
@@ -153,7 +155,7 @@ En contrepartie, un enseignant enseigne toujours 2 unités et dispose ainsi de 1
   Le deuxième niveau comporte 3 unités de 5 fois la taille, le troisième niveau comporte 3 unités de 25 fois la taille.
   Une unité enseigne chacun des niveaux intermédiaires et deux sont enseignées.
   Au niveau supérieur, une personne enseigne et les 5 autres unités apprennent sans professeur, mais avec la puissance cérébrale et/ou une académie.
-- **Apprendre de deux compétences** --Les unités de combat (S) apprennent généralement deux compétences, leur [compétences d'arme et leur Endurance].
+- **Apprendre de deux compétences** --Les unités de combat (S) apprennent généralement deux compétences, leur [compétences d'arme et leur Endurance][liste-des-competences].
   Il s'avère également utile à divers enseignants (L_K, L_A).
   En principe, vous avez deux options : Les professeurs sont des spécialistes et n'apprennent qu'une seule compétence.
   Bien que cela soit meilleur en termes de vitesse d'apprentissage, ces spécialistes sont très vulnérables (voire inutilisables) en cas de combat.
@@ -276,8 +278,3 @@ Sinon, il y en aurait 3750 qui pourraient être enseignés jusqu'à 133 %.
 c'est-à-dire qu'après avoir déduit quelques pourcentages pour les différences de niveaux, 4000 étudiants devraient être possibles.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
-
-[compétences coûteuses]: ./skills.md
-[compétences d'arme et leur Endurance]: ./skills-list.md
-[l'huile de cervelle]: ./alchemy.md#huile-de-cervelle "Brain wax"
-[l'académie]: ./buildings-others.md#academie "Academy"

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: accueil
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Accueil
 
 Bienvenue dans [[eressea]] !
@@ -17,10 +19,10 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 - Les [[regles]]
 - [L'inscription au jeu]
 - [E-Announce] : la mailing list pour les modifications de règles — **IMPORTANT** !
-- [Les outils indispensables pour jouer]
-- [Conseils pour les nouveaux joueurs]
-- [L'histoire d'Eressea] : Eressea provient d'[[atlantis]]
-- [Questions fréquentes (FAQ)]
+- [Les outils indispensables pour jouer][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres]
+- [Conseils pour les nouveaux joueurs][conseils-pour-debutants]
+- [[histoire-d-eressea|L'histoire d'Eressea]] : Eressea provient d'[[atlantis]]
+- [Questions fréquentes (FAQ)][questions-frequentes]
 
 ## Liens utiles
 
@@ -30,8 +32,8 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 - [[developpement]] d'outils et de scripts
 - [Xontormia Express] - La gazette et ses [numéros archivés]
 - Les archives des [annonces] des changements de règles
-- [Les pages des joueurs]
-- [Tu joues trop à Eressea si ...]
+- [Les pages des joueurs][joueurs]
+- [Tu joues trop à Eressea si ...][tu-joues-trop-a-eressea-si]
 
 ## Les jeux
 
@@ -51,7 +53,7 @@ La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluati
 Sur E3, tu peux consulter la documentation suivante :
 
 - [Aperçu de nos réflexions concernant les races]
-- [Ensemble des modifications des règles par rapport au jeu Eressea original][Le Troisième Âge]
+- [Ensemble des modifications des règles par rapport au jeu Eressea original][le-troisieme-age]
 - [Annonces de la liste de diffusion e3-announce]
 
 #### Deveron (abandonné)
@@ -85,15 +87,8 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 Poursuivre la lecture : [[regles|les règles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
-[ce wiki]: https://wiki.eressea.de/Hauptseite/fr
-[Les outils indispensables pour jouer]: ./commands-send.md#ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres
-[Conseils pour les nouveaux joueurs]: ./getting-started-tips.md
-[L'histoire d'Eressea]: ./eressea-story.md
-[Questions fréquentes (FAQ)]: ./faq.md
-[Les pages des joueurs]: ./player-pages.md
-[Tu joues trop à Eressea si ...]: ./play-too-much-if.md
-[Le Troisième Âge]: ./the-third-age.md
 
+[ce wiki]: https://wiki.eressea.de/Hauptseite/fr
 [Discord]: https://discord.gg/KT5Fffh
 [L'inscription au jeu]: https://www.eressea.de/?page_id=186
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/

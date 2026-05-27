@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sorts-draig
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sorts Draig
 
 Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -133,9 +135,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -144,13 +146,13 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Créer un [anneau d'Invisibilité]
+### Créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -341,9 +343,9 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 :   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
     Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
-|     Composants     | Niv. |  Type  | Rang | B |              D               |
-|:------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 50 aura, 1 [huile] |  10  | Normal |  5   |   | :material-check:{ .success } |
+|               Composants               | Niv. |  Type  | Rang | B |              D               |
+|:--------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -371,7 +373,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Dragon Call (EN), Drachenruf (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons].  
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons].  
     Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.  
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
@@ -425,9 +427,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 :   "Et alors frottez le sang d'un féroce combattant dans l'acier de la lame et commencez l'invocation des Sphères du Chaos.  
     Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
 
-|                         Composants                          | Niv. |  Type  | Rang |              B               | D |
-|:-----------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
-| 100 aura, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |   |
+|                                                          Composants                                                           | Niv. |  Type  | Rang |              B               | D |
+|:-----------------------------------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 100 aura, 1 [sang de berserker][sang-de-berserker]{title="Berserkers blood"}, 1 [épée][epee]{title="Sword"}, 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -480,12 +482,3 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 `CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
-
-[Dragons]: ./monsters.md#dragons "Dragons"
-[amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Vision"
-[anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
-[camouflage]: ./camouflage.md "Stealth"
-
-[sang de berserker]: ./alchemy.md#sang-de-berserker "Berserkers blood"
-[épée]: ./war-tables.md#epee "Sword"
-[huile]: ./silver.md#huile "Oil"

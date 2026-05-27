@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: description-des-sorts
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Description des sorts
 
 ## A
@@ -174,9 +176,9 @@ alias: description-des-sorts
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
-| Éc. |                Composants                | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 6 x N aura, N [mallorns], 1 [eau de vie] |  4   | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |                                 Composants                                  | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:---------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
 
@@ -580,9 +582,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
     Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
 
-| Éc. |              Composants              | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N aura, N [fers], 1 [eau de vie] |  2   | Normal |  4   |        |       |
+| Éc. |                                         Composants                                         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura, N [fers][fer]{title="Iron"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -601,19 +603,19 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     Chaque golem a 10 % de chances de se transformer en poussière à chaque tour.  
     Si vous donnez aux golems l'ordre `MAKE CASTLE` ou `MAKE STREET`, 4 pierres sont utilisées par golem et le golem se dissout.
 
-| Éc. |                   Composants                    | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 2 x N aura, N [pierres][pierre], 1 [eau de vie] |  1   | Normal |  4   |        |       |
+| Éc. |                                            Composants                                             | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 2 x N aura, N [pierres][pierre]{title="Stone"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  1   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
-### Créer un [anneau d'Invisibilité]
+### Créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -638,7 +640,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Power"`  
 
-### Créer un [Cristal d'Antimagie]
+### Créer un [Cristal d'Antimagie][cristal-d-antimagie]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -653,7 +655,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create An Antimagic Crystal"`  
 
-### Créer un [DreamEye]
+### Créer un [DreamEye][dreameye]{title="DreamEye"}
 
 <!-- cspell:disable -->
 *Create A DreamEye (EN), Erschaffe ein Traumauge (DE)*.
@@ -680,9 +682,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 :   Le druide prend du cuir préparé, qu'il nettoie de tous les esprits impurs lors d'un grand rituel de purification, puis lie quelques petits esprits de l'air et de l'eau au matériau.  
     Il utilise désormais le cuir ainsi préparé pour fabriquer un petit sac qui permet de mieux conserver les herbes qui y sont stockées.
 
-| Éc. |                Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
-|:---:|:-----------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
-|  G  | 30 aura, 1 aura permanent, 1 [eau de vie] |  5   | Normal |  5   | :material-check:{ .success } |       |
+| Éc. |                                  Composants                                  | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  G  | 30 aura, 1 aura permanent, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -708,9 +710,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée].
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 <!-- TODO: check if it's only Cerdorr or not -->
 |  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -745,19 +747,19 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour imprégner l'épée de son pouvoir..."
 </div>
 
-| Éc. |                         Composants                          | Niv. |  Type  | Rang |            Bateau            | Dist. |
-|:---:|:-----------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
-|  D  | 100 aura, 1 [sang de berserker], 1 [épée], 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |       |
+| Éc. |                                                           Composants                                                           | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:------------------------------------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  D  | 100 aura, 1 [sang de berserker][sang-de-berserker]{title="Berserkers blood""}, 1 [épée][epee]{title="Sword"}, 1 aura permanent |  12  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Flaming Sword"`  
 
-### Créer une [Sphère d'Invisibilité]
+### Créer une [Sphère d'Invisibilité][sphere-d-invisibilite]{title="Sphere of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité].  
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-d-invisibilite]{title="Sphere of Invisibility"}.  
     Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
 | Éc. |                 Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -939,7 +941,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
-### Éveil des [Ents]
+### Éveil des [Ents][ents]
 
 <!-- cspell:disable -->
 *Awakening of the Ents (EN), Erwecke Ents (DE)*.
@@ -965,9 +967,9 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 :   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
     Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
-| Éc. |     Composants     | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  D  | 50 aura, 1 [huile] |  10  | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |               Composants               | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] Feuerteufel`  
 
@@ -1010,7 +1012,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 <!-- cspell:enable -->
 
 :   Crée un esprit gardien qui empêche l'exploitation du fer et des métaux dans les glaciers et les montagnes par des factions non alliées (`HELP GUARD`) tant qu'il garde la région.  
-    Le [Gardien de la Montagne] est lié au lieu de l'invocation.
+    Le [Gardien de la Montagne][garde-des-montagnes]{title="Mountain Guard"} est lié au lieu de l'invocation.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
@@ -1162,9 +1164,9 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
     Et il aura presque certainement oublié certaines de ses meilleures capacités pendant quelques jours, voire deux semaines d'études.  
     Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhaitez lancer d'autres sorts dans la même semaine, ils seront plus difficiles pour vous. »
 
-| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 28 aura, 3 [racines de nœud], 50 silver |  7   | Normal |  5   |        |       |
+| Éc. |                                Composants                                | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 28 aura, 3 [racines de nœud][racine-de-nud]{title="Knotroot"}, 50 silver |  7   | Normal |  5   |        |       |
 
 `CAST Hangover <unit-id>`  
 
@@ -1414,7 +1416,7 @@ Extrait de « Errants » de Firudin le Sage.
 *Dragon Call (EN), Drachenruf (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons].  
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons].  
     Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.  
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
@@ -1468,7 +1470,7 @@ Extrait de « Errants » de Firudin le Sage.
 :   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
     Vous pouvez entrer dans les glaciers et y agir normalement.  
     Le dicton fonctionne au niveau*10 insectes.  
-    Un [Anneau de Pouvoir] augmente le nombre d'insectes enchantables de 10 supplémentaires.
+    Un [Anneau de Pouvoir][anneau-de-pouvoir]{title="Ring of Power"} augmente le nombre d'insectes enchantables de 10 supplémentaires.
 
 |  Éc.   | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:------:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
@@ -1514,9 +1516,9 @@ Extrait de « Errants » de Firudin le Sage.
 
 :   Alors qu'auparavant seul un arbre pouvait germer à partir d'un bâton, chaque branche produit désormais des racines.
 
-| Éc. |              Composants              | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 4 x N aura, N [bois], 1 [eau de vie] |  2   | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |                                          Composants                                          | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 4 x N aura, N [bois][bois]{title="Wood"},, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -1895,9 +1897,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Environ 50 âmes trouveront la paix par niveau de sort.  
     Le sort ne peut pas racheter les morts-vivants déjà ressuscités car leurs liens avec ce monde sont trop forts.
 
-| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 3 x N aura, 1 [eau de vie] |  2   | Normal |  5   |        |       |
+| Éc. |                          Composants                           | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 3 x N aura, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
@@ -2306,9 +2308,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     Cela signifie que tous les voyageurs bénéficient des mêmes avantages qui, autrement, ne seraient offerts que par un réseau routier asphalté développé.  
     Même les marécages et les glaciers peuvent être enchantés de cette façon. Plus le mage met de puissance dans le sort, plus le chemin dure longtemps.
 
-| Éc. |         Composants         | Niv. |  Type  | Rang |            Bateau            |              D               |
-|:---:|:--------------------------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
-|  G  | N aura, 1 [pierre], 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+| Éc. |                    Composants                     | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:-------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  G  | N aura, 1 [pierre][pierre]{title="Stone"}, 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
@@ -2369,23 +2371,3 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 [^3]: le sort peut être lancé **en mer**.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
-
-[Dragons]: ./monsters.md#dragons
-[Ents]: ./monsters.md#ents
-[amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Vision"
-[anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
-[camouflage]: ./camouflage.md
-
-[sang de berserker]: ./alchemy.md#sang-de-berserker "Berserkers blood"
-[épée]: ./war-tables.md#epee "Sword"
-[eau de vie]: ./alchemy.md#eau-de-vie "Water of life"
-[bois]: ./resources.md#bois "Wood"
-[fers]: ./resources.md#fer "Iron"
-[pierre]: ./resources.md#pierre "Stone"
-[huile]: ./silver.md#huile "Oil"
-[Gardien de la Montagne]: ./mountain-guard.md "Mountain Guard"
-[Cristal d'Antimagie]: ./antimagic-crystal.md "Antimagic Crystal"
-[Sphère d'Invisibilité]: ./sphere-of-invisibility.md "Sphere of Invisibility"
-[DreamEye]: ./dream-eye.md "DreamEye"
-[Anneau de Pouvoir]: ./ring-of-power.md "Ring of Power"
-[racines de nœud]: ./herbs.md#racine-de-nud "Knotroot"

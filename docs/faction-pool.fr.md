@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: reserve-de-faction
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Réserve de faction
 
 La réserve de faction contient des objets spéciaux, généralement placés là par le maître du jeu pour des occasions particulières (par exemple, Noël, les anniversaires d'Eressea).  
@@ -26,10 +28,8 @@ Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à
 - [[coquillage]] (accueil des personnes qui atteignent le Plateau des Coquillages pour la première fois, le 11 Décembre 2005)
 
 !!! note
-    Ne pas confondre la réserve de faction avec la [[reserve-d-objets]] et la [réserve d'argent], qui contiennent pratiquement tous les objets d'unité ou l'argent d'une faction dans une région.
+    Ne pas confondre la réserve de faction avec la [[reserve-d-objets]] et la [réserve d'argent][reserve-dargent], qui contiennent pratiquement tous les objets d'unité ou l'argent d'une faction dans une région.
 
 Poursuivre la lecture : l'[[argent]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
-
-[réserve d'argent]: ./items-pool.md#reserve-dargent

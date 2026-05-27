@@ -2,12 +2,14 @@
 # cSpell:locale fr
 alias: chateaux
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Châteaux
 
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et offrent à leurs occupants une protection en cas d'attaque.  
 Ils réduisent également la probabilité de [[peste]].  
 
-Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie].  
+Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie][maconnerie].  
 Un château entre dans une nouvelle catégorie selon sa taille :
 
 *Taille d'un château selon son type.*
@@ -35,10 +37,10 @@ Au nord du temple, la ville de Xontormia s'étend le long du Whyren, enjambée u
 ```
 
 Les unités dans un château sont protégées, à savoir qu'une personne est protégée par unité de taille du château.  
-Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre [[guerre]], en particulier la liste des [bonus et malus]).  
+Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre [[guerre]], en particulier la liste des [bonus et malus][bonus-et-malus]).  
 Chaque unité de taille du château nécessite une pierre.  
 
-Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi [tableau du bas]), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.  
+Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi [tableau du bas][apercu]), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.  
 
 ## Fondation
 
@@ -117,15 +119,9 @@ Construction de châteaux : type, niveau minimum de compétence en maçonnerie, 
 
 - [[batiments-speciaux]]
 - [[batiments]]
-- [bonus et malus]
-- [revenus]
+- [bonus et malus][bonus-et-malus]
+- [revenus][revenus]
 
 Poursuivre la lecture : [[batiments-speciaux]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
-
-[tableau du bas]: ./castles.md#apercu
-
-[bonus et malus]: ./war.md#bonus-et-malus
-[revenus]: ./silver.md#revenus
-[maçonnerie]: ./skills-list.md#maconnerie "Masonry"

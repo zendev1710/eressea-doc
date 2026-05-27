@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: competences
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Compétences
 
 Les compétences sont un élément essentiel qui définit une [[cmd-unit|unité]] dans Eressea.
@@ -28,19 +30,19 @@ Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
 Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
-Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
+Il faut en moyenne deux semaines à un [nain][nains]{title="Dwarves"} pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
 
 **Exemples :**
 
 Passer du niveau 3 au niveau 4 prend en moyenne 4 semaines, mais parfois aussi peu qu'une semaine et parfois jusqu'à 7 semaines.
-Une [unité de nainsnaine][nain] avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.
+Une [unité de nains][nains]{title="Dwarves"} avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.
 Il faut en moyenne deux semaines pour progresser dans la compétence d'extraction minière du niveau 3 au niveau 4.
 
 Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.
-Un apprentissage dans une [académie] permet d'apprendre plus rapidement.
+Un apprentissage dans une [académie][academie]{title="Academy"} permet d'apprendre plus rapidement.
 
 Un enseignant peut avoir jusqu'à 10 élèves.
 Une unité enseignante peut contenir autant de personnes que souhaité.
@@ -72,13 +74,13 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magie]], [alchimie], [herboristerie], [espionnage] et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
+[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][espionnage]{title="Espionage"} et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [[magie|tableau]]).
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
-Si l'unité est dans une [académie], le coût d'apprentissage des compétences payantes est doublé.
+Si l'unité est dans une [académie][academie]{title="Academy"}, le coût d'apprentissage des compétences payantes est doublé.
 
 Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;
 par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
@@ -130,18 +132,18 @@ Il s'agit du plus grand groupe de compétences.
 Ces compétences permettent de fabriquer des objets, des bâtiments, des bateaux ou des routes.  
 Les compétences de production sont les suivantes :
 
-- [alchimie] (fabrication de potions)
-- [apprivoisement] (obtention de chevaux)
-- [construction navale]
-- [construction de routes]
-- [extraction de pierres]
-- [extraction minière] (production de fer, de laen ou d'adamantium)
-- [fabrication d'armes]
-- [fabrication d'armures]
-- [fabrication de chariots et de catapultes]
-- [herboristerie] (récolte de plantes)
-- [maçonnerie]
-- [sylviculture] (production de bois et de mallorn)
+- [alchimie][alchimie]{title="Alchemy"} (fabrication de potions)
+- [apprivoisement][apprivoisement]{title="Taming"}  (obtention de chevaux)
+- [construction navale][construction-navale]{title="Shipcraft"}
+- [construction de routes][construction-de-routes]{title="Roadwork"}
+- [extraction de pierres][extraction-de-pierres]{title="Quarrying"}
+- [extraction minière][extraction-miniere]{title="Mining"} (production de fer, de laen ou d'adamantium)
+- [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}
+- [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}
+- [fabrication de chariots et de catapultes][fabrication-de-chariots]{title="Cartmaking"}
+- [herboristerie][herboristerie]{title="Herbalism"} (récolte de plantes)
+- [maçonnerie][maconnerie]{title="Masonry"}
+- [sylviculture][sylviculture]{title="Forestry"} (production de bois et de mallorn)
 
 Pour plus d'information, consulter les chapitres :
 
@@ -150,17 +152,17 @@ Pour plus d'information, consulter les chapitres :
 
 ### Compétences de gain d'argent
 
-Le [commerce], la [taxation], et le [divertissement] permettent de gagner de l'argent (des silvers).
+Le [commerce][commerce]{title="Trade"}, la [taxation][taxation]{title="Taxation"}, et le [divertissement][divertissement]{title="Entertainment"} permettent de gagner de l'argent (des silvers).
 
 Plus d'information : [[argent|l'argent]].
 
 ### Dissimulation
 
-[espionnage], [discrétion] et [perception] sont centrés sur la dissimulation.
+[espionnage][espionnage]{title="Espionage"}, [discrétion][discretion]{title="Stealth"} et [perception][perception]{title="Perception"} sont centrés sur la dissimulation.
 
 ### Compétences de déplacements
 
-La [voile] et l'[équitation] sont des compétences expliquées dans le chapitre sur les [[deplacements|déplacements]].  
+La [voile][voile]{title="Sailing"} et l'[équitation][equitation]{title="Riding"} sont des compétences expliquées dans le chapitre sur les [[deplacements|déplacements]].  
 
 L'équitation est également abordée dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
 
@@ -172,53 +174,21 @@ La [[magie]] est une compétence aux pouvoirs particulièrement puissants.
 
 Les compétences de maniement des armes sont les suivantes :
 
-- [combat à l'arme d'hast] (***« polearm »***)
-- [combat à mains nues] (***« unarmed »***)
-- [mêlée]
-- [tir à l'arc] (***« bow »***)
-- [tir à l'arbalète] (***« crossbow »***)
-- [tir à la catapulte]
+- [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}
+- [combat à mains nues][combat-a-mains-nues]{title="Unarmed combat"}
+- [mêlée][melee]{title="Melee"}
+- [tir à l'arc][tir-a-larc]{title="Bow"}
+- [tir à l'arbalète][tir-a-larbalete]{title="Crossbow"}
+- [tir à la catapulte][tir-a-la-catapulte]{title="Catapult"}
 
 Les autres compétences essentielles au combat sont :
 
-- [endurance]
-- [équitation]  (***« riding »***)
-- [tactique]
+- [endurance][endurance]{title="Endurance"}
+- [équitation][equitation]{title="Riding"}
+- [tactique][tactique]{title="Tactics"}
 
 Toutes ces compétences sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des [[monstres]].
 
 Poursuivre la lecture : [[liste-des-competences]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
-
-[nain]: ./races.md#nains
-[académie]: ./buildings-others.md#academie
-
-[alchimie]: ./skills-list.md#alchimie "Alchemy"
-[apprivoisement]: ./skills-list.md#apprivoisement "Taming"
-[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[combat à mains nues]: ./skills-list.md#combat-a-mains-nues "Unarmed combat"
-[commerce]: ./skills-list.md#commerce "Trade"
-[construction de routes]: ./skills-list.md#construction-de-routes "Roadwork"
-[construction navale]: ./skills-list.md#construction-navale "Shipcraft"
-[discrétion]: ./skills-list.md#discretion "Stealth"
-[divertissement]: ./skills-list.md#divertissement "Entertainment"
-[endurance]: ./skills-list.md#endurance "Endurance"
-[équitation]: ./skills-list.md#equitation "Riding"
-[espionnage]: ./skills-list.md#espionnage "Espionage"
-[extraction de pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
-[fabrication d'armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
-[fabrication d'armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
-[fabrication de chariots et de catapultes]: ./skills-list.md#fabrication-de-chariots "Cartmaking"
-[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
-[maçonnerie]: ./skills-list.md#maconnerie "Masonry"
-[mêlée]: ./skills-list.md#melee "Melee"
-[perception]: ./skills-list.md#perception "Perception"
-[sylviculture]: ./skills-list.md#sylviculture "Forestry"
-[tactique]: ./skills-list.md#tactique "Tactics"
-[taxation]: ./skills-list.md#taxation "Taxation"
-[tir à l'arbalète]: ./skills-list.md#tir-a-larbalete "Crossbow"
-[tir à l'arc]: ./skills-list.md#tir-a-larc "Bow"
-[tir à la catapulte]: ./skills-list.md#tir-a-la-catapulte "Catapult"
-[voile]: ./skills-list.md#voile "Sailing"

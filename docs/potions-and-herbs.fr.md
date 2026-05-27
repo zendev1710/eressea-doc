@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: tableaux-potions-et-plantes
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tableaux : potions et plantes
 
 ## Liste des potions alchimiques et plantes
@@ -31,39 +33,17 @@ Les potions qui affectent les objets d'une unité expirent si elles ne peuvent p
 
 *Plantes et leur localisation.*  
 
-| Région         | Plantes                                                                                                           |
-|----------------|-------------------------------------------------------------------------------------------------------------------|
-| [Désert]       | [tamaris], [peyote], [pourriture de sable]                                                                        |
-| [Forêt]        | [amour d'Elfes], [champignon cobalt], [œil de chouette], [lierre d'araignée], [racine plate], [témérité piquante] |
-| [Glacier]      | [bégonia des glaces], [pétale de cristal de neige], [tsuga blanc]                                                 |
-| [Haut-plateau] | [champignon des fjords], [mandragore], [gousse]                                                                   |
-| [Marais]       | [herbe de clairon], [morille], [racine de nœud]                                                                   |
-| [Montagne]     | [cire fissurée], [herbe de roche], [lichen des cavernes ]                                                         |
-| [Plaine]       | [amour d'Elfes], [champignon cobalt], [œil de chouette], [lierre d'araignée], [racine plate], [témérité piquante] |
-| [Volcan]       | --                                                                                                                |
+| Région         | Plantes                                                                                                                                                                                                                                                                                                                                         |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Désert]       | [tamaris][tamaris]{title="Waterfinder"}, [peyote][peyote]{title="Peyote"}, [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                                                                                                                                                                                                      |
+| [Forêt]        | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"}                    |
+| [Glacier]      | [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}, [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"}, [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                                                                                                                          |
+| [Haut-plateau] | [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}, [mandragore][mandragore]{title="Mandrake"}, [gousse][gousse]{title="Windbag"}                                                                                                                                                                                             |
+| [Marais]       | [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}, [morille][morille]{title="Bubblemorel"}, [racine de nœud][racine-de-nud]{title="Knotroot"}                                                                                                                                                                                             |
+| [Montagne]     | [cire fissurée][cire-fissuree]{title="Gapgrowth"}, [herbe de roche][herbe-de-roche]{title="Rock weed"}, [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                                                                                                                                                                         |
+| [Plaine]       | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"} |
+| [Volcan]       | --                                                                                                                                                                                                                                                                                                                                              |
 
 Voir [[alchimie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->
-
-[amour d'Elfes]: ./herbs.md#amour-delfes "Elvendear"
-[bégonia des glaces]: ./herbs.md#begonia-des-glaces "Ice begonia"
-[champignon cobalt]: ./herbs.md#champignon-cobalt "Cobalt fungus"
-[champignon des fjords]: ./herbs.md#champignon-des-fjords "Fjord fungus"
-[cire fissurée]: ./herbs.md#cire-fissuree "Gapgrowth"
-[gousse]: ./herbs.md#gousse "Windbag"
-[herbe de clairon]: ./herbs.md#herbe-de-clairon "Bugleweed"
-[herbe de roche]: ./herbs.md#herbe-de-roche "Rock weed"
-[lichen des cavernes]: ./herbs.md#lichen-des-cavernes "Cave lichen"
-[lierre d'araignée]: ./herbs.md#lierre-daraignee "Spider ivy"
-[mandragore]: ./herbs.md#mandragore "Mandrake"
-[morille]: ./herbs.md#morille "Bubblemorel"
-[pourriture de sable]: ./herbs.md#pourriture-de-sable "Sand reeker"
-[peyote]: ./herbs.md#peyote "Peyote"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
-[racine de nœud]: ./herbs.md#racine-de-nud "Knotroot"
-[racine plate]: ./herbs.md#racine-plate "Flatroot"
-[tamaris]: ./herbs.md#tamaris "Waterfinder"
-[tsuga blanc]: ./herbs.md#tsuga-blanc "White hemlocks"
-[témérité piquante]: ./herbs.md#temerite-piquante "Tangy temerity"
-[œil de chouette]: ./herbs.md#il-de-chouette "Owlsgaze"

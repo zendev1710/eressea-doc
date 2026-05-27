@@ -2,13 +2,15 @@
 # cSpell:locale fr
 alias: trucs-et-astuces
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Trucs et astuces
 
 ## Il n'est pas toujours nécessaire de savoir monter à cheval
 
 Le commerce et le transport deviennent rentables dès le début de la partie.  
 Même sans savoir monter à cheval, on peut emmener un cheval par personne, ce qui augmente la capacité de l'unité de 5,4 à 25,4 lbs.  
-4 [trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.  
+4 [trolls][trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.  
 
 Cela permet même à un petit groupe de transporter des pierres, des marchandises et autres objets lourds.  
 
@@ -19,7 +21,7 @@ Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.  
 
 Pour chaque tranche de 20 lbs de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.  
-Comme mentionné [ici](./tips-and-tricks.md#il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval), il n'est même pas nécessaire de savoir monter à cheval.  
+Comme mentionné [ici][il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval], il n'est même pas nécessaire de savoir monter à cheval.  
 On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 lbs, soit sa capacité de charge maximale.  
 
 !!! note
@@ -36,7 +38,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## De quoi ai-je absolument besoin au premier tour ?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins un percepteur et peut-être une unité en [camouflage] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
+Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][perception] et peut-être une unité en [discrétion][discretion]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
 
 ## Acheter de la marchandise
 
@@ -58,8 +60,8 @@ La condition préalable est bien sûr de disposer de deux unités dans la régio
 
 ## Les agriculteurs comme éclaireurs
 
-Les [paysans nomades] apportent des informations précieuses des régions voisines.  
-Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans] venus des régions voisines.  
+Les [paysans nomades][deplacement-des-agriculteurs] apportent des informations précieuses des régions voisines.  
+Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans][proliferation-des-agriculteurs] venus des régions voisines.  
 Souvent, des monstres ayant élu domicile dans les environs et chassant les paysans en sont responsables.  
 Une autre possibilité est que certains paysans ne trouvent pas de travail dans leur région d'origine.  
 
@@ -123,19 +125,12 @@ Il arrive parfois qu'un message indique qu'un bateau n'a pas pu partir en raison
 Cependant, après vérification, il s'avère que le bateau n'est en réalité pas surchargé.  
 
 Il ne s'agit généralement pas d'un bug, mais plutôt d'une surcharge du bateau liée à un volume trop important d'argent, ensuite dépensé.  
-Comme l'ordre `MOVE` précède la maintenance des unités dans la [séquence des ordres], le bateau était encore surchargé lors de sa tentative de départ.  
+Comme l'ordre `MOVE` précède la maintenance des unités dans la [séquence des ordres][sequence-des-ordres], le bateau était encore surchargé lors de sa tentative de départ.  
 Parfois, l'erreur est également due à des unités exécutant l'ordre `WORK`.  
 Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent, qu'elle consomme ensuite après la phase de déplacement.  
 
 ## Voir aussi
 
-- [Conseils]
+- [Conseils][remarques]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
-
-[migration de paysans]: ./farmers-proliferation.md
-[séquence des ordres]: ./commands-sequence.md
-[Conseils]: ./hints.md
-[paysans nomades]: ./farmers-hike.md
-
-[trolls]: ./races.md#trolls

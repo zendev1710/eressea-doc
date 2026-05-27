@@ -2,15 +2,16 @@
 # cSpell:locale fr
 alias: races-fr
 ---
-
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Races
 
 En plus des [humains], il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
 Vous devrez en choisir une pour votre [faction].  
 
-Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus] dans certaines compétences, et parfois des capacités spéciales.  
+Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences] dans certaines compétences, et parfois des capacités spéciales.  
 
-Chaque race a des [coûts de recrutement][bonus et malus] différents.  
+Chaque race a des [coûts de recrutement][modificateurs-de-competences] différents.  
 
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [trolls], les [gobelins] et divers monstres constituent des exceptions.
@@ -19,7 +20,7 @@ Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jou
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 
-Pour un aperçu rapide, consultez le [Tableau des modificateurs raciaux][bonus et malus].
+Pour un aperçu rapide, consultez le [tableau des modificateurs raciaux][modificateurs-de-competences].
 
 ## Démons
 
@@ -45,12 +46,12 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
   La compétence peut perdre jusqu'à 3 semaines d'apprentissage (40 %) ou augmenter jusqu'à 3 semaines d'apprentissage (60 %).
   Il n'en résulte pas de valeurs négatives; aucune compétence ne peut descendre en dessous du niveau 0.
 - Les démons mangent des paysans à chaque tour.
-  Un paysan nourrit 10 démons. Les démons qui ne reçoivent pas de nourriture (pas assez de paysans) perdent des points de vie et sont soumis à la réduction de compétences selon la règle normale de la [famine].
-  Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport].
-- Les démons [recrutés] ne sont pas déduits de la réserve de paysans.
+  Un paysan nourrit 10 démons. Les démons qui ne reçoivent pas de nourriture (pas assez de paysans) perdent des points de vie et sont soumis à la réduction de compétences selon la règle normale de la [famine][famine].
+  Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr].
+- Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
   Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
 - Si on rend des démons aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
-- Les démons peuvent se [camoufler] en une autre race.
+- Les démons peuvent se [camoufler][cmd-hide-fr] en une autre race.
 - Au corps à corps, chaque coup porté par un démon à un adversaire provoque une "panique sur 1 personne" : la personne touchée uniquement (pas l'unité) a -1 à ses compétences de combat.
 - Les démons blessés se régénèrent à hauteur de 7,5 % de leurs points de vie (PV).
 
@@ -66,21 +67,21 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 *Compétences de combat.*
 
-| [Magie] | [Discrétion] | [Espionnage] | [Perception] | [Arme d'hast] | [Endurance] | [Mêlée] | [Tactique] | [Tir arbalète] | [Tir arc] | [Tir catapulte] |
-|:-------:|:------------:|:------------:|:------------:|:-------------:|:-----------:|:-------:|:----------:|:--------------:|:---------:|:---------------:|
-|   +1    |      +1      |      0       |      +1      |       0       |      0      |    0    |     0      |       0        |    +2     |       -2        |
+| [Magie][magie]{title="Magie"} | [Discrétion] | [Espionnage][espionnage]{title="Espionage"} | [Perception] | [Arme d'hast] | [Endurance][endurance]{title="Endurance"} | [Mêlée][melee]{title="Melee"} | [Tactique][tactique]{title="Tactics"} | [Tir arbalète][tir-a-larbalete]{title="Crossbow"} | [Tir arc][tir-a-larc]{title="Bow"} | [Tir catapulte][tir-a-la-catapulte]{title="Catapult"} |
+|:-----------------------------:|:------------:|:-------------------------------------------:|:------------:|:-------------:|:-----------------------------------------:|:-----------------------------:|:-------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-----------------------------------------------------:|
+|              +1               |      +1      |                      0                      |      +1      |       0       |                     0                     |               0               |                   0                   |                         0                         |                 +2                 |                          -2                           |
 
 *Compétences de production.*
 
-| [Apprivoisement] | [Construction routes] | [Construction navale] | [Extraction pierres] | [Extraction minière] | [Fab. armes] | [Fab. armures] | [Fab. chariots] | [Maçonnerie] | [Sylviculture] |
-|:----------------:|:---------------------:|:---------------------:|:--------------------:|:--------------------:|:------------:|:--------------:|:---------------:|:------------:|:--------------:|
-|        +1        |          -1           |          -1           |          -1          |          -2          |      0       |       -1       |        0        |      -1      |       0        |
+| [Apprivoisement][apprivoisement]{title="Taming"} | [Construction routes][construction-de-routes]{title="Roadwork"} | [Construction navale] | [Extraction pierres][extraction-de-pierres]{title="Quarrying"} | [Extraction minière][extraction-miniere]{title="Mining"} | [Fab. armes][fabrication-darmes]{title="Weaponsmithing"} | [Fab. armures][fabrication-darmures]{title="Armoursmithing"} | [Fab. chariots][fabrication-de-chariots]{title="Cartmaking"} | [Maçonnerie] | [Sylviculture] |
+|:------------------------------------------------:|:---------------------------------------------------------------:|:---------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|:------------:|:--------------:|
+|                        +1                        |                               -1                                |          -1           |                               -1                               |                            -2                            |                            0                             |                              -1                              |                              0                               |      -1      |       0        |
 
 *Autres compétences.*
 
-| [Équitation] | [Voile] | [Commerce] | [Divertissement] | [Taxation] | [Alchimie] | [Herboristerie] |
-|:------------:|:-------:|:----------:|:----------------:|:----------:|:----------:|:---------------:|
-|      0       |   -1    |     0      |        0         |     0      |     -1     |       +2        |
+| [Équitation][equitation]{title="Riding"} | [Voile][voile]{title="Sailing"} | [Commerce] | [Divertissement] | [Taxation][taxation]{title="Taxation"} | [Alchimie] | [Herboristerie] |
+|:----------------------------------------:|:-------------------------------:|:----------:|:----------------:|:--------------------------------------:|:----------:|:---------------:|
+|                    0                     |               -1                |     0      |        0         |                   0                    |     -1     |       +2        |
 
 | Poids  | Capacité |
 |:------:|:--------:|
@@ -88,13 +89,13 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, mais ses archers sont presque aussi redoutés que ses mages.
 
-- Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
+- Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs][géographie] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
   Cela peut faire une grande différence en fonction du nombre d'elfes sur la région.
-- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion] et [perception], et +2 en [tactique].
-- Les elfes peuvent avoir 6 [mages] (au lieu de 5).
+- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion][discretion]{title="Stealth"} et [perception][perception]{title="Perception"}, et +2 en [tactique][tactique]{title="Tactics"}.
+- Les elfes peuvent avoir 6 [mages][magie] (au lieu de 5).
 - Les mages elfes régénèrent leur aura beaucoup plus rapidement.
 - Les elfes font 1 point de dégâts supplémentaire avec les arcs.
-- Seuls les elfes peuvent fabriquer des [arcs elfiques].
+- Seuls les elfes peuvent fabriquer des [arcs elfiques][arc-elfique]{title="Elven bow"}.
 
 ## Gobelins
 
@@ -114,7 +115,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
 - Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
-- Un gobelin au moins T4 en [discrétion] [dérobera] toujours au moins 50 Silver, même s'il est détecté.
+- Un gobelin au moins T4 en [discrétion][discretion]{title="Stealth"} [dérobera][cmd-steal-fr] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 
@@ -132,10 +133,10 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
 
-Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
+Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halflings qui essaient de [fuir] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
-- Les halflings ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons].
+- Les halflings qui essaient de [fuir]la-fuite un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
+- Les halflings ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons].
 - Les halflings sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
 ## Insectes
@@ -165,19 +166,19 @@ Dans les déserts et les marais, régions qu'ils affectionnent, ils bénéficien
 Dans les montagnes et les glaciers, ils reçoivent un malus de **-1**.  
 
 Les insectes ne peuvent normalement pas entrer dans les glaciers, et ne peuvent pas y être recrutés, il y fait trop froid.  
-Ceux qui pénètrent malgré tout dans un glacier perdent des points de vie et voient leur compétence réduite de moitié selon la règle normale de la [famine].
+Ceux qui pénètrent malgré tout dans un glacier perdent des points de vie et voient leur compétence réduite de moitié selon la règle normale de la [famine][famine].
 
-Durant les **mois d'hiver** ([Feu du Foyer], [Vent des Glaces] et [Neiges Envoûtantes]), les insectes peuvent **recruter uniquement dans les déserts**.  
-Il est cependant possible grâce à l'[[alchimie]] de créer une [potion] de "nest warmth" qui permet de recruter dans d'autres types de région.
+Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, [Vent des Glaces][vent-des-glaces]{title="Icewind"} et [Neiges Envoûtantes][neiges-envoutantes]{title="Snowbane"}), les insectes peuvent **recruter uniquement dans les déserts**.  
+Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de créer une [potion][Potions] de "nest warmth" qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
-Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [hier]).  
+Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][races-et-leurs-caracteristiques]).  
 
 Les insectes obtiennent un bonus de [[tactique]] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
-Cela peut également entraîner un malus s'il y a très peu de combattants ! Attention, les unités dans différents [groupes] sont gérées dans des armées différentes !  
+Cela peut également entraîner un malus s'il y a très peu de combattants ! Attention, les unités dans différents [groupes][cmd-group-fr] sont gérées dans des armées différentes !  
 
-Les insectes n'ont besoin d'aucune construction pour [commercer] dans les déserts et les marais.  
+Les insectes n'ont besoin d'aucune construction pour [commercer][le-commerce] dans les déserts et les marais.  
 
 ## Chats
 
@@ -196,7 +197,7 @@ Les insectes n'ont besoin d'aucune construction pour [commercer] dans les déser
 Connus pour leurs sens développés, les chats font des espions excellents et des gardes hors-pairs . Mais, comme les elfes, ils n’aiment pas les travaux pénibles.
 
 - « Sept vies » : les chats ont 1/7 chance de survivre à un coup mortel ; ils ont dans ce cas leurs points de vie maximum.
-- Les chats ne peuvent porter d'[armure de plaque].
+- Les chats ne peuvent porter d'[armure de plaque][armure-de-plaque]{title="Platemail"}.
 - Leur Agilité confère aux chats un bonus de +1 en Défense
 
 ## Aquariens
@@ -215,8 +216,8 @@ Connus pour leurs sens développés, les chats font des espions excellents et de
 
 Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en montagne. Ils construisent et dirigent des bateaux de main de maître, alors que d'autres tâches leur sont plus compliquées.
 
-- Tous les bateaux commandés par un capitaine Aquarien appartenant à une faction d'aquariens se [déplacent] d'une région supplémentaire chaque semaine.
-- Les aquariens peuvent exécuter des [ordres longs] sur les bateaux. Attention, cela a quelques conséquences implicites : Les aquariens peuvent par exemple se déplacer d'une région océanique adjacente à une région terrestre vers la région terrestre, voir [nager].
+- Tous les bateaux commandés par un capitaine Aquarien appartenant à une faction d'aquariens se [déplacent][deplacements] d'une région supplémentaire chaque semaine.
+- Les aquariens peuvent exécuter des [ordres longs][ordres-courts-et-longs] sur les bateaux. Attention, cela a quelques conséquences implicites : Les aquariens peuvent par exemple se déplacer d'une région océanique adjacente à une région terrestre vers la région terrestre, voir [nager][nager].
 - Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work]].
 
 ## Humains
@@ -235,7 +236,7 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 
 Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
 
-- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [[cmd-give|récupérer]] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
+- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [[cmd-give|récupérer]] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes][competences], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
 
 Le nombre d'immigrants se calcule ainsi :
 
@@ -260,7 +261,7 @@ Le nombre d'immigrants se calcule ainsi :
     </div>
 
 Si l'on a soudainement trop d'immigrants à cause d'une catastrophe ou d'un combat, ceux-ci ne sont pas supprimés, on ne pourra juste plus en accueillir de nouveaux.  
-Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros].
+Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros][cmd-promote-fr].
 
 ## Orcs
 
@@ -278,7 +279,7 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
-- Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [Mêlée] et [combat à l'arme d'hast].
+- Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][melee]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
 - Paresse : les orcs gagnent moins de silver que les autres races avec l'ordre [[cmd-work]].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
 - De même : si vous donnez des orcs aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
@@ -303,7 +304,7 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 
 - Les trolls sont forts et peuvent porter deux fois plus que les autres (10,8 lbs), mais ils pèsent aussi deux fois plus (20 lbs).
 - Il n'y a pas de cavalerie troll, ce qui signifie que les trolls ne reçoivent pas de bonus de cheval. Cela n'a aucun effet sur le transport de marchandises et la vitesse de déplacement des trolls montés.
-- Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici] et [ici][1]).
+- Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici][cercle-de-pierres] et [ici][ressources-minieres]).
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.
 - Les trolls sont la seule race capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [[cmd-ride]].
 - Les trolls non armés infligent de 2 à 6 points de dégâts.
@@ -325,77 +326,14 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 
 Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
 
-- Le fer extrait par les nains n'est déduit qu'à 60% de la "réserve de la région". Cet effet est cumulatif avec une mine (voir [ici][2] et [ici][1]).
-- Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique].
-- Les [mages] nains régénèrent leur aura beaucoup plus lentement que les autres.
+- Le fer extrait par les nains n'est déduit qu'à 60% de la "réserve de la région". Cet effet est cumulatif avec une mine (voir [ici][mine]{title="Mine"} et [ici][ressources-minieres]).
+- Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique][tactique]{title="Tactics"}.
+- Les [mages][magie] nains régénèrent leur aura beaucoup plus lentement que les autres.
 
-Poursuivre la lecture : [Modificateurs de compétences].
-
-[Modificateurs de compétences]: ./skills-modifiers.md
+Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
-
-[bonus et malus]: ./skills-modifiers.md
-[camoufler]: ./cmd-hide.md
-[nombre maximal de travailleurs]: ./world.md
-[mages]: ./magic.md
-[dérobera]: ./cmd-steal.md
-[bateaux]: ./ships.md
-[potion]: ./alchemy.md
-[groupes]: ./cmd-group.md
-[déplacent]: ./travel.md
-[ordres longs]: ./commands.md
-[compétences payantes]: ./skills.md
-[Héros]: ./cmd-promote.md
-
-[rapport]: ./reports.md#cr
-[famine]: ./silver.md#famine
-[recrutés]: ./silver.md#recruter
-[arcs elfiques]: ./war-tables.md#arc-elfique
-[fuir]: ./war.md#la-fuite
-[dragons]: ./monsters.md#dragons
-[hier]: ./war-tables.md#races-et-leurs-caracteristiques
-[commercer]: ./silver.md#le-commerce
-[nager]: ./sailing.md#nager
-[ici]: ./buildings-others.md#cercle-de-pierres
-[1]: ./resources.md#ressources-minieres
-[2]: ./buildings-others.md#mine
-[armure de plaque]: ./war-tables.md#armure-de-plaque "Platemail"
 
 [trolls]: #trolls
 [gobelins]: #gobelins
 [humains]: #humains
-
-[Feu du Foyer]: ./world.md#feu-du-foyer "Hearth Fire"
-[Vent des Glaces]: ./world.md#vent-des-glaces "Icewind"
-[Neiges Envoûtantes]: ./world.md#neiges-envoutantes "Snowbane"
-
-[alchimie]: ./skills-list.md#alchimie "Alchemy"
-[apprivoisement]: ./skills-list.md#apprivoisement "Taming"
-[arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[combat à l'arme d'hast]: ./skills-list.md#combat-a-larme-dhast "Polearm"
-[commerce]: ./skills-list.md#commerce "Trade"
-[construction routes]: ./skills-list.md#construction-de-routes "Roadwork"
-[construction navale]: ./skills-list.md#construction-navale "Shipcraft"
-[discrétion]: ./skills-list.md#discretion "Stealth"
-[divertissement]: ./skills-list.md#divertissement "Entertainment"
-[endurance]: ./skills-list.md#endurance "Endurance"
-[Équitation]: ./skills-list.fr.md#equitation "Riding"
-[espionnage]: ./skills-list.md#espionnage "Espionage"
-[extraction pierres]: ./skills-list.md#extraction-de-pierres "Quarrying"
-[extraction minière]: ./skills-list.md#extraction-miniere "Mining"
-[fab. armes]: ./skills-list.md#fabrication-darmes "Weaponsmithing"
-[fab. armures]: ./skills-list.md#fabrication-darmures "Armoursmithing"
-[fab. chariots]: ./skills-list.md#fabrication-de-chariots "Cartmaking"
-[herboristerie]: ./skills-list.md#herboristerie "Herbalism"
-[maçonnerie]: ./skills-list.md#maconnerie "Masonry"
-[magie]: ./skills-list.md#magie "Magic"
-[mêlée]: ./skills-list.md#melee "Melee"
-[perception]: ./skills-list.md#perception "Perception"
-[sylviculture]: ./skills-list.md#sylviculture "Forestry"
-[tactique]: ./skills-list.md#tactique "Tactics"
-[taxation]: ./skills-list.md#taxation "Taxation"
-[Tir arbalète]: ./skills-list.md#tir-a-larbalete "Crossbow"
-[Tir arc]: ./skills-list.md#tir-a-larc "Bow"
-[Tir catapulte]: ./skills-list.md#tir-a-la-catapulte "Catapult"
-[Voile]: ./skills-list.fr.md#voile "Sailing"

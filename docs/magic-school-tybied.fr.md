@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sorts-tybied
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sorts Tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -226,9 +228,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [camouflage] pour se cacher ne sont toujours pas détectées.
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
@@ -236,13 +238,13 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Créer un [anneau d'Invisibilité]
+### Créer un anneau d'Invisibilité
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité].  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -262,9 +264,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     Cela peut alors également être utilisé pour traverser des terres.  
     Pour la couleur des runes, une encre spéciale doit être mélangée à partir d'un chou à la crème et d'un cristal de neige.
 
-|                     Composants                      | Niv. |  Type  | Rang |              B               | D |
-|:---------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
-| 10 aura, 1 [gousse], 1 [pétale de cristal de neige] |  6   | Normal |  5   | :material-check:{ .success } |   |
+|                                                             Composants                                                              | Niv. |  Type  | Rang |              B               | D |
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 10 aura, 1 [gousse][gousse]{title="Windbag"}, 1 [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"} |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST Airship <ship-id>`  
 
@@ -299,7 +301,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ## Niveau 7
 
-### Créer un [Cristal d'Antimagie]
+### Créer un [Cristal d'Antimagie][cristal-d-antimagie]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -503,9 +505,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
-|               Composants                | Niv. |  Type  | Rang | B | D |
-|:---------------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 10 x N aura, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |   |   |
+|                         Composants                          | Niv. |  Type  | Rang | B | D |
+|:-----------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 10 x N aura, 1 aura permanent, 5 [laen][laen]{title="Laen"} |  13  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
 
@@ -545,12 +547,3 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 `CAST "Opfere Kraft" <unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->
-
-[amulette de vision décuplée]: ./amulet-of-true-sight.md "Amulet of True Vision"
-[anneau d'Invisibilité]: ./ring-of-invisibility.md "Ring of Invisibility"
-[camouflage]: ./camouflage.md
-
-[gousse]: ./herbs.md#gousse "Windbag"
-[pétale de cristal de neige]: ./herbs.md#petale-de-cristal-de-neige "Snowcrystal petal"
-[laen]: ./resources.md#laen "Laen"
-[Cristal d'Antimagie]: ./antimagic-crystal.md "Antimagic Crystal"

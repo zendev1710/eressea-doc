@@ -30,7 +30,7 @@
 [appendices/items/flaming-sword.md](/docs/flaming-sword.md)
 [appendices/items/iron-golem.md](/docs/iron-golem.md)
 [appendices/items/mountain-guard.md](/docs/mountain-guard.md)
-[appendices/items/negative-weight-bag.md](/docs/negative-weight-bag.md)
+[appendices/items/sack-of-holding.md](/docs/sack-of-holding.md)
 [appendices/items/ring-of-invisibility.md](/docs/ring-of-invisibility.md)
 [appendices/items/ring-of-power.md](/docs/ring-of-power.md)
 [appendices/items/sphere-of-invisibility.md](/docs/sphere-of-invisibility.md)

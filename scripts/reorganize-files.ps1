@@ -26,8 +26,8 @@ $gameplayFiles = @(
 $itemsFiles = @(
     'potions-and-herbs', 'herbs', 'amulet-of-true-sight', 'antimagic-crystal',
     'belt-of-troll-strength', 'dream-eye', 'flaming-sword', 'iron-golem',
-    'magical-herb-bag', 'mountain-guard', 'negative-weight-bag', 'ring-of-invisibility',
-    'ring-of-power', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail', 'alchemy'
+    'magical-herb-bag', 'mountain-guard', 'ring-of-invisibility',
+    'ring-of-power', 'sack-of-holding', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail', 'alchemy'
 )
 
 $worldFiles = @(

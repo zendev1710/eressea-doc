@@ -413,10 +413,10 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ## Niveau 10
 
-### Blick in die Realität <!-- TODO -->
+### Aperçu sur la réalité
 
 <!-- cspell:disable -->
-*(EN), Blick in die Realität (DE)*.
+*Gaze Upon Reality (EN), Blick in die Realität (DE)*.
 <!-- cspell:enable -->
 
 :   Grâce à ce sort, le mage peut regarder du plan Astral vers le plan matériel et reconnaître avec précision les régions et les unités.
@@ -425,12 +425,12 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 |  40 aura   |  10  | Normal |  5   |   |   |
 
-`CAST "Blick in die Realität"`  
+`CAST "Gaze Upon Reality"`  
 
-### Créer un [[sac-a-poids-negatif]] <!-- TODO: check -->
+### Créer un [[sac-sans-fond]]
 
 <!-- cspell:disable -->
-*Create A Bag of Negative Weight (EN), Erschaffe einen Beutel des Negativen Gewichts (DE)*.
+*Create A Bag of Holding (EN), Erschaffe einen Beutel des Negativen Gewichts (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sac renferme un petit pli dimensionnel dans lequel jusqu'à 200 unités de poids peuvent être transportées sans être comptées dans le poids transporté.  
@@ -441,14 +441,14 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 30 aura, 1 aura permanent, 5 000 silver |  10  | Normal |  5   | :material-check:{ .success } |   |
 
-`CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+`CAST "Create A Bag of Holding"`
 
 ## Niveau 11
 
-### Zeitdehnung
+### Étirement du temps
 
 <!-- cspell:disable -->
-*(EN), Zeitdehnung (DE)*.
+*Double Time (EN), Zeitdehnung (DE)*.
 <!-- cspell:enable -->
 
 :   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
@@ -458,15 +458,14 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 5 x N aura |  11  | Normal |  5   | :material-check:{ .success } |   |
 
-`CAST [LEVEL n] "Zeitdehnung" <unit-id> [<Unit-id> ...]`  
+`CAST [LEVEL n] "Double Time" <unit-id> [<Unit-id> ...]`  
 
 ## Niveau 12
 
 ### Bouclier d'armure
 
-<!-- TODO: check if it is really Armor Shield -->
 <!-- cspell:disable -->
-*Armor Shield (EN), Rüstschild (DE)*.
+*Shield Shine (EN), Rüstschild (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.  
@@ -476,7 +475,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 4 x N aura |  12  | Pré-c. |  2   |   |   |
 
-`COMBATSPELL [LEVEL n] "Armor Shield"`  
+`COMBATSPELL [LEVEL n] "Shield Shine"`  
 
 ### Invocation du Familier
 
@@ -494,10 +493,10 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ## Niveau 13
 
-### Belebtes Gestein
+### Roche vivante
 
 <!-- cspell:disable -->
-*(EN), Belebtes Gestein (DE)*.
+*Living Rock (EN), Belebtes Gestein (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel énergivore utilise une boule de laen concentré pour invoquer un énorme élémentaire de terre et le bannir dans un bâtiment.  
@@ -509,14 +508,14 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:-----------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
 | 10 x N aura, 1 aura permanent, 5 [laen][laen]{title="Laen"} |  13  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
+`CAST [LEVEL n] "Living Rock" <building-id> <direction>`  
 
 ## Niveau 14
 
-### Störe Astrale Integrität
+### Perturbation de l'Astral
 
 <!-- cspell:disable -->
-*(EN), Störe Astrale Integrität (DE)*.
+*Astral Disruption (EN), Störe Astrale Integrität (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort provoque de graves perturbations dans l'Astral.  
@@ -527,14 +526,14 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 |  140 aura  |  14  | Normal |  4   |   |   |
 
-`CAST [LEVEL n] "Störe Astrale Integrität"`  
+`CAST [LEVEL n] "Astral Disruption"`  
 
 ## Niveau 15
 
-### Opfere Kraft
+### Sacrifier la Force
 
 <!-- cspell:disable -->
-*(EN), Opfere Kraft (DE)*.
+*Sacrifice Strength (EN), Opfere Kraft (DE)*.
 <!-- cspell:enable -->
 
 :   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.  
@@ -544,6 +543,6 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 |  100 aura  |  15  | Normal |  1   |   |   |
 
-`CAST "Opfere Kraft" <unit-id> <Aura>`  
+`CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->

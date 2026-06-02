@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: gwyrrd-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Gwyrrd spells
 
 ## Level 1
@@ -17,9 +19,9 @@ Then you direct your strength towards the fine aura of life that is forming and 
     Each golem has a 10 percent chance of turning to dust each round.  
     If you give the golems the `MAKE CASTLE` or `MAKE STREET` orders, 4 stones are placed per golem and the golem dissolves.
 
-|                    Components                    | Lvl |  Type  | Rank | Ship | Dist. |
-|:------------------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x T aura, T [stones][stone], 1 [water of life] |  1  | Normal |  4   |      |       |
+|                           Components                            | Lvl |  Type  | Rank | Ship | Dist. |
+|:---------------------------------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x T aura, T [stones][stone], 1 [water of life][water-of-life] |  1  | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -51,14 +53,13 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Create [[iron-golem|Iron Golems]]
 
-<!-- TODO: fix MAKE orders -->
 :   The more power the magician invests, the more golems can be created.  
     Each golem has a 15 percent chance of turning to dust each round.  
-    If you give the golems the order `MAKE  Sword | Claymore` or `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 iron bars are installed per golem and the golem dissolves.
+    If you give the golems the order `MAKE  SWORD/CLAYMORE` or `MAKE Shield/CHAIN​​​MAIL/PLATEMAIL`, 4 iron bars are installed per golem and the golem dissolves.
 
-|                Components                | Lvl |  Type  | Rank | Ship | Dist. |
-|:----------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 2 x T aura, T [irons], 1 [water of life] |  2  | Normal |  4   |      |       |
+|                          Components                           | Lvl |  Type  | Rank | Ship | Dist. |
+|:-------------------------------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 2 x T aura, T [irons][iron], 1 [water of life][water-of-life] |  2  | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -66,9 +67,9 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 :   Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 
-|               Components                | Lvl |  Type  | Rank | Ship |            Dist.             |
-|:---------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
-| 4 x T aura, T [wood], 1 [water of life] |  2  | Normal |  5   |      | :material-check:{ .success } |
+|                          Components                          | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:------------------------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 4 x T aura, T [wood][wood], 1 [water of life][water-of-life] |  2  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -134,23 +135,22 @@ Then you direct your strength towards the fine aura of life that is forming and 
     Even swamps and glaciers can be enchanted this way.  
     The more power the magician puts into the spell, the longer the road lasts.
 
-|        Components         | Lvl |  Type  | Rank |             Ship             |            Dist.             |
-|:-------------------------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
-| T aura, 1 [stone], 1 bois |  4  | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+|                Components                | Lvl |  Type  | Rank |             Ship             |            Dist.             |
+|:----------------------------------------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
+| T aura, 1 [stone][stone], 1 [wood][wood] |  4  | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
-### Mallorn quarterstaff
-<!-- TODO: check if it's really mallorn quarterstaff -->
+### Bless Mallorn Logs
 
-:   This ritual increases the effect of the magical potion many times over.  
-    Where previously only a tree could sprout from a stick, every branch now sprouts roots.
+:   This ritual greatly increases the effect of the potion.  
+    Now every branch becomes a mallorn tree where before only one could be grown from a log.
 
-|                  Components                  | Lvl |  Type  | Rank | Ship |            Dist.             |
-|:--------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
-| 6 x T aura, T [[mallorn]], 1 [water of life] |  4  | Normal |  5   |      | :material-check:{ .success } |
+|                             Components                             | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:------------------------------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 6 x T aura, T [mallorn][mallorn], 1 [water of life][water-of-life] |  4  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Mallorn quarterstaff"`  
+`CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
 ### Summon Water Elemental
 
@@ -191,9 +191,9 @@ Then you direct your strength towards the fine aura of life that is forming and 
 :   The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material.  
     He now uses the leather prepared in this way to make a small bag that can better preserve the herbs stored in it.
 
-|                  Components                  | Lvl |  Type  | Rank |             Ship             | Dist. |
-|:--------------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
-| 30 aura, 1 permanent aura, 1 [water of life] |  5  | Normal |  5   | :material-check:{ .success } |       |
+|                         Components                          | Lvl |  Type  | Rank |             Ship             | Dist. |
+|:-----------------------------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
+| 30 aura, 1 permanent aura, 1 [water of life][water-of-life] |  5  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -399,91 +399,86 @@ This earthquake will damage all buildings in the region.
 
 ## Level 11
 
-### Segne Steinkreis <!-- TODO -->
+### Bless Stone Circle
 
-:   This ritual blesses a stone circle that must first be built from stones and some wood.  
-    The Druid"s Blessing turns the circle into a powerful site of magical activity, providing protection from magic and increased aura regeneration.  
-    It is said that virgins encountered strange creatures around stone circles.
+:   This ritual blesses a circle of stones that has to be constructed from stones and some wood before.  
+    The druid's blessing turns the circle into a place of great magic that is suitable for rituals of all kinds.  
+    It protects from hostile magic and improves aura regeneration.  
+    Virgins are said to have been visited by strange creatures in the vicinity of these places.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
 | 350 aura, 5 permanent aura | 11  | Normal |  5   |      |       |
 
-`CAST "Segne Steinkreis" <building-id>`  
+`CAST "Bless Stone Circle" <building-id>`  
 
 ## Level 12
 
-### Rindenhaut  <!-- TODO -->
+### Barkskin
 
-:   This ritual, cast before battle, grants your troops an additional armor bonus.  
-    Each hit reduces the spell's power, so the shield will eventually dissipate during the fight.
+:   Performing this ritual before going into battle gives your troups an additional bonus to their armor.  
+    Every hit reduces the energy of the spell, dissolving it at some point during battle.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 4 x T aura | 12  | Pre-c. |  2   |      |       |
 
-`COMBATSPELL [LEVEL n] Rindenhaut`  
+`COMBATSPELL [LEVEL n] "Barkskin"`  
 
 ## Level 13
 
-### Hitzeelementar  <!-- TODO -->
+### Summon Fire Elemental
 
-:   This ritual summons angry heat elementals.  
-    A drought is plaguing the country.  
-    Trees wither, animals die, and the harvest fails.  
-    There is hardly any work to be found in agriculture for day laborers.
+:   This Ritual summons an angry elemental spirit that puts a drought on the entire region.  
+    Trees wither, animals die of thirst and the harvest is destroyed.  
+    Workers find little to no work in farming.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  600 aura  | 13  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] Hitzeelementar`  
+`CAST [REGION x y] "Summon Fire Elemental"`  
 
 ## Level 15
 
-### Mahlstrom  <!-- TODO -->
+### Maelstrom
 
-:   This ritual summons a great water elemental from the depths of the ocean.  
-    The elemental creates a massive whirlpool, a maelstrom, which can severely damage any ships that pass through it.
+:   This ritual summons a mighty water elemental from the depths of the ocean.  
+    The elemental creates an enormous maelstrom which damages any passing ships.
 
-|             Components             | Lvl |  Type  | Rank |               Ship               | Dist. |
-|:----------------------------------:|:---:|:------:|:----:|:--------------------------------:|:-----:|
-| 200 aura, 1 tête de serpent de mer | 15  | Normal |  5   | :material-check:{ .success }[^3] |       |
+|                    Components                    | Lvl |  Type  | Rank |               Ship               | Dist. |
+|:------------------------------------------------:|:---:|:------:|:----:|:--------------------------------:|:-----:|
+| 200 aura, 1 [sea serpent head][sea-serpent-head] | 15  | Normal |  5   | :material-check:{ .success }[^3] |       |
 
-`CAST Mahlstrom`  
+`CAST "Maelstrom"`  
 
 ## Level 16
 
-### Wurzeln der Magie <!-- TODO -->
+### Roots of Magic
 
-:   With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region.  
-    This will change the balance of nature in the region forever, and in the future only the demanding but strong mallorns will thrive in the region.
+:   Through a elaborate ritual a druid permanently channels a fragment of his power into the soil and the forests of the region.  
+    This forever changes the equilibrium of nature in the region.  
+    From this point on only the fierce but strong mallorn trees will grow there.
 
-|                  Components                   | Lvl |  Type  | Rank | Ship |            Dist.             |
-|:---------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
-| 250 aura, 10 permanent aura, 1 [[cream-puff]] | 16  | Normal |  5   |      | :material-check:{ .success } |
+|                     Components                      | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:---------------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 250 aura, 10 permanent aura, 1 [[pot-of-toadslime]] | 16  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Wurzeln der Magie"`  
+`CAST [REGION x y] "Roots of Magic"`  
 
 ## Level 17
 
-### Tor in die Ebene der Hitze <!-- TODO -->
+### Great Drought
 
-:   This powerful ritual opens a gateway into the elemental plane of heat.  
-    A great drought is coming to the country.  
-    Farmers, animals and plants in the region are fighting for survival, but only half of all living things can survive such a drought.  
-    The region can be affected by the consequences of such a drought for years to come.
+:   This powerful ritual opens a gate to the elemental plane of fire.  
+    A great drought comes over the land.  
+    Farmers, animals and plants of the region are fighting for survival, but only half of all living things will be able to survive a drought like this.  
+    The region will suffer the consequences of such a drought for years to come.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  800 aura  | 17  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Tor in die Ebene der Hitze"`  
+`CAST [REGION x y] "Great Drought"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
-
-[water of life]: ./alchemy.md#water-of-life
-[wood]: ./resources.md#wood
-[irons]: ./resources.md#iron
-[stone]: ./resources.md#stone
-[mallorn]: ./resources.md#mallorn

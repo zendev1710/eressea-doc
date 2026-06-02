@@ -139,7 +139,6 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
-<!-- TODO: check if it's only Cerdorr or not -->
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
@@ -334,20 +333,20 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 ## Niveau 10
 
-### Feuerteufel
+### Diable de feu
 
 <!-- cspell:disable -->
-*(EN), Feuerteufel (DE)*.
+*Fire Fiend (EN), Feuerteufel (DE)*.
 <!-- cspell:enable -->
 
 :   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
-    Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
+    Le diable de feu se jettera avec impatience sur les forêts de la région et les incendiera.
 
 |               Composants               | Niv. |  Type  | Rang | B |              D               |
 |:--------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
 | 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] Feuerteufel`  
+`CAST [REGION x y] "Fire Fiend"`  
 
 ### Pentagramme
 
@@ -384,10 +383,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] "Dragon Call"`  
 
-### Todeswolke
+### Nuage de la Mort
 
 <!-- cspell:disable -->
-*(EN), Todeswolke (DE)*.
+*Death Cloud (EN), Todeswolke (DE)*.
 <!-- cspell:enable -->
 
 :   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
@@ -397,14 +396,14 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |:--------------:|:----:|:------:|:----:|:-:|:----------------------------:|
 | 40 aura, 15 PV |  11  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Todeswolke"`  
+`CAST [REGION x y] "Death Cloud"`  
 
 ## Niveau 12
 
-### Beschwöre Schattenmeister
+### Invocation des Maîtres de l'Ombre
 
 <!-- cspell:disable -->
-*(EN), Beschwöre Schattenmeister (DE)*.
+*Summon Shadowmasters (EN), Beschwöre Schattenmeister (DE)*.
 <!-- cspell:enable -->
 
 :   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.  
@@ -416,7 +415,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 7 x N aura |  12  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Beschwöre Schattenmeister"`  
+`CAST [LEVEL n] "Summon Shadowmasters"`  
 
 ### Créer une [[epee-de-flammes]]
 
@@ -451,10 +450,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## Niveau 14
 
-### Chaossog
+### Portail du Chaos
 
 <!-- cspell:disable -->
-*(EN), Chaossog (DE)*.
+*Chaos Gate (EN), Chaossog (DE)*.
 <!-- cspell:enable -->
 
 :   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
@@ -464,12 +463,12 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |:---------------------:|:----:|:------:|:----:|:-:|:-:|
 | 150 aura, 200 paysans |  14  | Normal |  5   |   |   |
 
-`CAST Chaossog`  
+`CAST "Chaos Gate"`  
 
-### Unheilige Kraft
+### Force impie
 
 <!-- cspell:disable -->
-*(EN), Unheilige Kraft (DE)*.
+*Unholy Strength (EN), Unheilige Kraft (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
@@ -479,6 +478,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |:--------------------------:|:----:|:------:|:----:|:-:|:-:|
 | 10 x N aura, 5 x N paysans |  14  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->

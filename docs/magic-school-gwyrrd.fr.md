@@ -39,7 +39,6 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 *Blessed Harvest (EN), Segen der Erde (DE)*.
 <!-- cspell:enable -->
 
-<!-- TODO: check description -->
 :   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
@@ -73,10 +72,10 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 <!-- cspell:disable -->
 *Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
 <!-- cspell:enable -->
-<!-- TODO: fix MAKE orders -->
+
 :   Plus le mage investit de puissance, plus de golems peuvent être créés.  
     Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
-    Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
+    Si vous donnez aux golems l'ordre `MAKE SWORD/CLAYMORE` ou `MAKE SHIELD/CHAIN​​​​MAIL/PLATEMAIL`, 4 fer sont consommés par golem et le golem se dissout.
 
 |                                         Composants                                         | Niv. |  Type  | Rang | B | D |
 |:------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
@@ -186,9 +185,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ### Bâton de Mallorn
 
-<!-- TODO: check if it's really mallorn quarterstaff -->
 <!-- cspell:disable -->
-*Mallorn quarterstaff (EN), Segne Mallornstecken (DE)*.
+*Bless Mallorn Logs (EN), Segne Mallornstecken (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
@@ -198,9 +196,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:---------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
 | 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
+`CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
-### Invocation de l'Eau
+### Invocation d'un Élémentaire d'Eau
 
 <!-- cspell:disable -->
 *Summon Water Elemental (EN), Beschwörung eines Wasserelementares (DE)*.
@@ -304,7 +302,6 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
-<!-- TODO: check if it's only Cerdorr or not -->
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
@@ -341,16 +338,16 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST Meditate <unit-id> <Aura>`  
 
-### Invocation de la Tempête
+### Invocation des Élémentaires des Tempêtes
 
 <!-- cspell:disable -->
 *Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
 <!-- cspell:enable -->
 
-:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.  
-    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
-    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
-    Un esprit élémentaire est requis pour chaque vaisseau.
+:   L'invocation des Esprits Élémentaires des Tempêtes est un rituel ancien.  
+    Le druide bannit les Élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
+    Plus le druide investit de puissance dans le sort, plus le nombre d'Esprits Élémentaires pouvant être bannis est grand.  
+    Un Esprit Élémentaire est requis pour chaque vaisseau.
 
 | Composants | Niv. |  Type  | Rang |                B                 | D |
 |:----------:|:----:|:------:|:----:|:--------------------------------:|:-:|
@@ -360,7 +357,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 7
 
-### Invocation de la Terre
+### Invocation d'un Élémentaire de Terre
 
 <!-- cspell:disable -->
 *Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
@@ -533,10 +530,10 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 11
 
-### Segne Steinkreis <!-- TODO -->
+### Bénédiction du cercle de pierres
 
 <!-- cspell:disable -->
-*(EN), Segne Steinkreis (DE)*.
+*Bless Stone Circle (EN), Segne Steinkreis (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
@@ -547,14 +544,14 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:---------------------------:|:----:|:------:|:----:|:-:|:-:|
 | 350 aura, 5 aura permanents |  11  | Normal |  5   |   |   |
 
-`CAST "Segne Steinkreis" <building-id>`  
+`CAST "Bless Stone Circle" <building-id>`  
 
 ## Niveau 12
 
 ### Peau d'écorce
 
 <!-- cspell:disable -->
-*(EN), Rindenhaut (DE)*.
+*Barkskin (EN), Rindenhaut (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.  
@@ -564,14 +561,14 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 4 x N aura |  12  | Pré-c. |  2   |   |   |
 
-`COMBATSPELL [LEVEL n] "Rindenhaut"`  
+`COMBATSPELL [LEVEL n] "Barkskin"`  
 
 ## Niveau 13
 
-### Hitzeelementar
+### Invocation d'un Élémentaire de Feu
 
 <!-- cspell:disable -->
-*(EN), Hitzeelementar (DE)*.
+*Summon Fire Elemental (EN), Hitzeelementar (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel invoque des élémentaires de chaleur en colère.  
@@ -582,49 +579,48 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  600 aura  |  13  | Normal |  5   |   | :material-check:{ .success } |
 
-<!-- TODO: chec if it's `CAST [REGION x y] "Beschwörung eines Hitzeelementar"`  -->
-`CAST [REGION x y] Hitzeelementar`  
+`CAST [REGION x y] Summon Fire Elemental`  
 
 ## Niveau 15
 
-### Mahlstrom
+### Maelstrom
 
 <!-- cspell:disable -->
-*(EN), Mahlstrom (DE)*.
+*Maelstrom (EN), Mahlstrom (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
-    L'élémentaire crée un énorme tourbillon, un maelström, qui peut gravement endommager tous les bateaux qui le traversent.
+    L'élémentaire crée un énorme tourbillon, un maelstrom, qui peut gravement endommager tous les bateaux qui le traversent.
 
-|             Composants             | Niv. |  Type  | Rang |                B                 | D |
-|:----------------------------------:|:----:|:------:|:----:|:--------------------------------:|:-:|
-| 200 aura, 1 tête de serpent de mer |  15  | Normal |  5   | :material-check:{ .success }[^3] |   |
+|                                       Composants                                       | Niv. |  Type  | Rang |                B                 | D |
+|:--------------------------------------------------------------------------------------:|:----:|:------:|:----:|:--------------------------------:|:-:|
+| 200 aura, 1 [tête de serpent de mer][tete-de-serpent-de-mer]{title="Sea Serpent Head"} |  15  | Normal |  5   | :material-check:{ .success }[^3] |   |
 
-`CAST Mahlstrom`  
+`CAST "Maelstrom"`  
 
 ## Niveau 16
 
-### Wurzeln der Magie
+### Racines de la magie
 
 <!-- cspell:disable -->
-*(EN), Wurzeln der Magie (DE)*.
+*Roots of Magic (EN), Wurzeln der Magie (DE)*.
 <!-- cspell:enable -->
-<!-- TODO: check 1 pot de bave de crapaud -->
+
 :   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
     Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
 
-|                    Composants                     | Niv. |  Type  | Rang | B |              D               |
-|:-------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 250 aura, 10 aura permanents, 1 [[cream-puff-fr]] |  16  | Normal |  5   |   | :material-check:{ .success } |
+|                       Composants                        | Niv. |  Type  | Rang | B |              D               |
+|:-------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 250 aura, 10 aura permanents, 1 [[pot-of-toadslime-fr]] |  16  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Wurzeln der Magie"`  
+`CAST [REGION x y] "Roots of Magic"`  
 
 ## Niveau 17
 
-### Tor in die Ebene der Hitze
+### Grande sécheresse
 
 <!-- cspell:disable -->
-*(EN), Tor in die Ebene der Hitze (DE)*.
+*Great Drought (EN), Tor in die Ebene der Hitze (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
@@ -636,6 +632,6 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  800 aura  |  17  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Tor in die Ebene der Hitze"`  
+`CAST [REGION x y] "Great Drought"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->

@@ -132,7 +132,6 @@ alias: cerddor-spells
 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
-<!-- TODO: check values below -->
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
 |   2 aura   |  5  | Normal |  1   | :material-check:{ .success } |       |
@@ -295,20 +294,20 @@ alias: cerddor-spells
 
 ## Level 9
 
-### Ritual der Aufnahme  <!-- TODO -->
+### Rite of Acceptance
 
-:   This ritual makes it possible to incorporate any entity, regardless of its type, into one's own faction.  
-    He proves this by CONTACTING the magician.  
-    He will also be exclusively occupied with preparations for the ritual throughout the week.  
-    The ritual will fail if he is too strongly tied to his old faction, for example, if he owes them services in return for his expensive education.  
-    The magician leading the ritual must naturally expend aura permanently to ensure the permanent binding of the initiate to his faction.  
-    He can accommodate one person per level and per permanent aura.
+:   This ritual facilitates the migration of an unit to the own faction.  
+    The candidate has to be able and willing to leave his previous faction.  
+    He attests to that by CONTACTing the mage and will otherwise be occupied with preparations for the ritual.  
+    The ritual will fail, if the candidate owes the previous faction fealty for an expensive training.  
+    The mage performing the ritual has to invest permanent aura to bind the candidate to the faction.  
+    Per level and per point of permanent aura the mage can bind one person.
 
 |          Components          | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------------------------:|:---:|:------:|:----:|:----:|:-----:|
 | 3 x L aura, L permanent aura |  9  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
+`CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
 
 ### Summon Familiar
 
@@ -322,44 +321,45 @@ alias: cerddor-spells
 
 ## Level 10
 
-### Gesang des wachen Geistes  <!-- TODO -->
+### Song of the Youthful Spirit
 
-:   This magical song, once sung with fervor, will spread throughout the region, jump from mouth to mouth and be heard everywhere for a while.  
-    How many weeks the song disappears from the memory of the region depends on the skill of the bard.  
-    Until the song has completely faded away, his magic will grant all of the bard"s allies (HELP GUARD), and of course his own people, a one-time bonus of 15% to the natural resistance to an enchantment.
+:   This magical song, once performed with vigor, will propagate in the region by wandering from mouth to mouth.  
+    It will be heard everywhere. How long the song will last in the public perception depends on the bard's skill.  
+    Until it is gone it will give him and all his allies (`HELP GUARD`) a bonus of 15% to their natural resistance to magic.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 | 2 x L aura | 10  | Normal |  2   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
+`CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
 
-### Mob aufwiegeln  <!-- TODO -->
+### Mob Rule
 
-:   With the help of this magical song, the magician convinces the farmers of the region to join him.  
-    However, the farmers will not leave their homeland and will not give away any of their possessions.  
-    Each week some of the farmers will also cast off the spell and return to their fields. How many farmers join the magician depends on the power of his song.
+:   Employing this magic chant the mage convinces the peasants of the region to join him.  
+    The peasants won't leave their home region and won't give up their possessions, though.  
+    Additionally each week some peasants will shake off the spell and return to their fields.  
+    How many peasants join the mage depends on the power of his chant.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 4 x L aura | 10  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Mob aufwiegeln"`  
+`CAST [LEVEL n] "Mob Rule"`  
 
 ## Level 11
 
-### Gesang der Melancholie  <!-- TODO -->
+### Song of Melancholy
 
-:   With this song the bard spreads a melancholic, sad mood among the farmers.  
-    For a few weeks they will retreat to their huts and leave no silver in the theaters and taverns.
+:   With this chant the bard spreads a melancholic, sad mood among the peasants.  
+    For a few weeks they will retreat to their huts and not spend any silver in the theatres and taverns.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  40 aura   | 11  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Gesang der Melancholie"`  
+`CAST [REGION x y] "Song of Melancholy"`  
 
-### Miriams flinke Finger  <!-- TODO -->
+### Quick Fingers
 
 :   The famous bard Miriam bhean'Meddaf was known for her extraordinary skill with the harp.  
     Her fingers were said to move so quickly across the strings that they were virtually unrecognizable.  
@@ -371,49 +371,51 @@ alias: cerddor-spells
 |:--------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
 | 20 aura, 1000 silver, 1 permanent aura | 11  | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST "Miriams flinke Finger"`  
+`CAST "Quick Fingers"`  
 
 ## Level 12
 
-### Gesang der Friedfertigkeit <!-- TODO -->
+### Song of Peace
 
 :   This powerful spell prevents any attacks.  
-    No one in the entire region is capable of taking up arms against anyone.  
-    The effects can last for several weeks.
+    Noone in the entire region will be able to raise his weapon against another.  
+    The effect can last for weeks.
 
 | Components  | Lvl |  Type  | Rank | Ship | Dist. |
 |:-----------:|:---:|:------:|:----:|:----:|:-----:|
 | 20 x L aura | 12  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
+`CAST [LEVEL n] "Song of Peace"`  
 
-### Gesang des schwachen Geistes  <!-- TODO -->
+### Song of the Aging Spirit
 
-:   Woven into the magical essence of the region, this song weakens one"s natural resistance to an enchantment by 15% once.  
-    Only the bard"s allies (HELP GUARD) are immune to the effect of the song.
+:   This song, which is woven into the magical essence of the region, weakens the natural resistance against a singular enchantment by 15%.  
+    Only the allies of the bard (HELP GUARD) are immune to the effect of the chant.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 | 2 x L aura | 12  | Normal |  2   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
+`CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
 
-### Gesang der Versklavung  <!-- TODO -->
+### Song of Slavery
 
-:   This powerful spell robs the victim of their free will and subjects them to the Bard"s orders.  
-    For a time, the victim will turn completely away from his own people and feel that he belongs to the bard"s faction.
+:   This powerful spell robs the victim of their own free will and enslaves them to the commands of the bard.  
+    For some time the victim will turn their back on their own people and join the faction of the bard.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 |  40 aura   | 13  | Normal |  5   |      |       |
 
-`CAST "Gesang der Versklavung" <unit-id>`  
+`CAST "Song of Slavery" <unit-id>`  
+
+### High art of persuasion
 
 <div class="lore-dialogue">
-"In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.
-It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.
-After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.
-He was only hesitantly willing to teach me the secret of his persuasiveness."
+"There's a small, scarcely visited inn in Weilersweide, near Wytharhafen.
+It is a little known fact, that it was home to the banished itinerant preacher Grauwolf until a few years ago.
+After he recruited almost the whole peasantry with one of his notorious speeches, he was convicted and banished for inciting unrest.
+Only hesitantly did he disclose the secret to his powers of persuasion to me."
 </div>
 
 From "Wanderings" by Firudin the Wise.  
@@ -422,29 +424,29 @@ From "Wanderings" by Firudin the Wise.
 |:-----------:|:---:|:------:|:----:|:----:|:-----:|
 | 20 x L aura | 14  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
+`CAST [LEVEL n] "High art of persuasion"`  
 
-### Aufruhr beschwichtigen <!-- TODO -->
+### Calm Riot
 
-:   With the help of this magical chant, the magician can calm a region in turmoil.  
-    The hordes of farmers will get lost and return to their fields.
+:   By means of this magical chant the mage can calm a rioting region.  
+    The peasant mobs will disperse and return to their fields.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  30 aura   | 15  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Aufruhr beschwichtigen"`  
+`CAST [REGION x y] "Calm Riot"`  
 
-### Aufruhr verursachen <!-- TODO -->
+### Riot
 
-:   With the help of this magical song, the magician puts an entire region in turmoil.  
-    Rebellious hordes of farmers make any taxation impossible, hardly anyone will donate money to scams anymore and no new people can be recruited.  
-    After a few weeks the mob calms down again.
+:   By means of this magical chant the mage incites riots in a region.  
+    Rebelling peasant mobs prevent taxation and recruiting and almost noone will pay money for entertainment.  
+    After a few weeks the mob will calm down again.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  40 aura   | 16  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Aufruhr verursachen"`  
+`CAST [REGION x y] "Riot"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->

@@ -183,7 +183,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 <!-- cspell:enable -->
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
-<!-- TODO: check values below -->
+
 | Composants | Niv. |  Type  | Rang |              B               | D |
 |:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
 |   2 aura   |  5   | Normal |  1   | :material-check:{ .success } |   |
@@ -329,7 +329,6 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Hangover (EN), Schaler Wein (DE)*.
 <!-- cspell:enable -->
 
-<!-- TODO: trématode à nœuds ??? c'est quoi ? -->
 :   Enregistrement de la conférence de Selen Ard'Ragorn à Bar'Glingal :  
 « On dit que ce dicton trouve son origine dans les tavernes des rues de l'Ouest, mais il pourrait tout aussi bien provenir de n'importe quel autre quartier peu recommandable.  
 Son ingrédient le plus important est un tonneau du pire vin; plus l'essence est bon marché et malsaine, plus elle est puissante.  
@@ -398,10 +397,10 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 ## Niveau 9
 
-### Ritual der Aufnahme
+### Rite d'acceptation
 
 <!-- cspell:disable -->
-*(EN), Ritual der Aufnahme (DE)*.
+*Rite of Acceptance (EN), Ritual der Aufnahme (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
@@ -415,7 +414,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:-----------------------------:|:----:|:------:|:----:|:-:|:-:|
 | 3 x N aura, N aura permanents |  9   | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
+`CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
 
 ### Invocation du Familier
 
@@ -433,10 +432,10 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 ## Niveau 10
 
-### Gesang des wachen Geistes
+### Chant de l'esprit de jouvence
 
 <!-- cspell:disable -->
-*(EN), Gesang des wachen Geistes (DE)*.
+*Song of the Youthful Spirit (EN), Gesang des wachen Geistes (DE)*.
 <!-- cspell:enable -->
 
 :   Ce chant magique, autrefois chanté avec ferveur, va se répandre dans toute la région, sauter de bouche en bouche et se faire entendre partout pendant un moment.  
@@ -447,12 +446,12 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 | 2 x N aura |  10  | Normal |  2   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
+`CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
 
-### Mob aufwiegeln
+### Ralliement des foules
 
 <!-- cspell:disable -->
-*(EN), Mob aufwiegeln (DE)*.
+*Mob Rule (EN), Mob aufwiegeln (DE)*.
 <!-- cspell:enable -->
 
 :   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
@@ -464,14 +463,14 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 4 x N aura |  10  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Mob aufwiegeln"`  
+`CAST [LEVEL n] "Mob Rule"`  
 
 ## Niveau 11
 
-### Gesang der Melancholie
+### Chant de mélancolie
 
 <!-- cspell:disable -->
-*(EN), Gesang der Melancholie (DE)*.
+*Song of Melancholy (EN), Gesang der Melancholie (DE)*.
 <!-- cspell:enable -->
 
 :   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
@@ -481,29 +480,29 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  40 aura   |  11  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Gesang der Melancholie"`  
+`CAST [REGION x y] "Song of Melancholy"`  
 
-### Miriams flinke Finger
+### Doigts de fée
 
 <!-- cspell:disable -->
-*(EN), Miriams flinke Finger (DE)*.
+*Quick Fingers (EN), Miriams flinke Finger (DE)*.
 <!-- cspell:enable -->
 
 :   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
     On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
     Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
-    On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.  
+    On dit qu’elle a également exploité cela ailleurs; sa réputation de tricheuse de cartes était notoire.  
     Les artisans peuvent ainsi produire dix fois plus, ce qui pourrait également être utile dans d'autres activités.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 20 aura, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :material-check:{ .success } |   |
 
-`CAST "Miriams flinke Finger"`  
+`CAST "Quick Fingers"`  
 
 ## Niveau 12
 
-### Gesang der Friedfertigkeit
+### Chant de paix
 
 :   Ce sort puissant empêche toute attaque.  
     Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
@@ -513,12 +512,12 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:-----------:|:----:|:------:|:----:|:-:|:-:|
 | 20 x N aura |  12  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
+`CAST [LEVEL n] "Song of Peace"`  
 
-### Gesang des schwachen Geistes
+### Chant de l'esprit vieillissant
 
 <!-- cspell:disable -->
-*(EN), Gesang des schwachen Geistes (DE)*.
+*Song of the Aging Spirit (EN), Gesang des schwachen Geistes (DE)*.
 <!-- cspell:enable -->
 
 :   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
@@ -528,14 +527,14 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 | 2 x N aura |  12  | Normal |  2   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
+`CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
 
 ## Niveau 13
 
-### Gesang der Versklavung
+### Chant de servitude
 
 <!-- cspell:disable -->
-*(EN), Gesang der Versklavung (DE)*.
+*Song of Slavery (EN), Gesang der Versklavung (DE)*.
 <!-- cspell:enable -->
 
 :   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
@@ -545,14 +544,14 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 |  40 aura   |  13  | Normal |  5   |   |   |
 
-`CAST "Gesang der Versklavung" <unit-id>`  
+`CAST "Song of Slavery" <unit-id>`  
 
 ## Niveau 14
 
-### Hohe Kunst der Überzeugung
+### Art subtil de la persuasion
 
 <!-- cspell:disable -->
-*(EN), Hohe Kunst der Überzeugung (DE)*.
+*High art of persuasion (EN), Hohe Kunst der Überzeugung (DE)*.
 <!-- cspell:enable -->
 
 <div class="lore-dialogue">
@@ -568,11 +567,11 @@ Extrait de « Errants » de Firudin le Sage.
 |:-----------:|:----:|:------:|:----:|:-:|:-:|
 | 20 x N aura |  14  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
+`CAST [LEVEL n] "High art of persuasion"`  
 
 ## Niveau 15
 
-### Aufruhr beschwichtigen
+### Apaisement des émeutes
 
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
     Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
@@ -581,11 +580,11 @@ Extrait de « Errants » de Firudin le Sage.
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  30 aura   |  15  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Aufruhr beschwichtigen"`  
+`CAST [REGION x y] "Calm Riot"`  
 
 ## Niveau 16
 
-### Aufruhr verursachen
+### Émeutes
 
 :   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
     Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
@@ -595,7 +594,7 @@ Extrait de « Errants » de Firudin le Sage.
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  40 aura   |  16  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Aufruhr verursachen"`  
+`CAST [REGION x y] "Riot"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
 

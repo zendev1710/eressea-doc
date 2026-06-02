@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: description-of-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Description of spells
 
 ## A
@@ -28,13 +30,12 @@ alias: description-of-spells
 
 ### Airship
 
-:   These magical runes make a boat or longboat fly for a week.  
-This can then also be used to cross land.  
-For the color of the runes, a special ink must be mixed from a cream puff and a snow crystal.
+:   These magic runes allow a boat with a capacity of up to 50 weight units to fly for a week and allow the boat to cross land.  
+    The enchanted ink's components include a windbag and a snowcrystal petal.
 
-| Sc. | Components                                          | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|-----------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  T  | 10 aura, 1 [gousse], 1 [pétale de cristal de neige] |   6 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components                                                              | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-------------------------------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 10 aura, 1 [windbag][windbag], 1 [snowcrystal petal][snowcrystal-petal] |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST Airship <ship-id>`  
 
@@ -122,18 +123,6 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
-### Armor Shield  <!-- TODO -->
-<!-- TODO: check if it is really Armor Shield -->
-
-:   This ritual, which can be cast before battle, gives your troops an additional bonus to their armor.  
-    Each hit reduces the spell"s power, so the shield will dissipate at some point in the fight.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
-
-`COMBATSPELL [LEVEL n] "Armor Shield"`  
-
 ### Astral Call
 
 :   A magician who is in the Astral plane can use this spell to bring other units to him.  
@@ -155,6 +144,18 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 |  D  | 6 x T aura |   9 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
+
+### Astral Disruption
+
+:   This spell causes a severe disturbance of the astral plane.  
+    Within an astral radius of level/5 regions all astral creatures not able to resist the spell will be thrown from the astral plane.  
+    The astral contact with all affected regions will be disrupted for level/3 weeks.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 140 aura   |  14 | Normal |  4   |      |       |
+
+`CAST [LEVEL n] "Astral Disruption"`  
 
 ### Astral Exit
 
@@ -202,30 +203,7 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
-### Aufruhr beschwichtigen <!-- TODO -->
-
-:   With the help of this magical chant, the magician can calm a region in turmoil.  
-    The hordes of farmers will get lost and return to their fields.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  C  | 30 aura    |  15 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Aufruhr beschwichtigen"`  
-
-### Aufruhr verursachen <!-- TODO -->
-
-:   With the help of this magical song, the magician puts an entire region in turmoil.  
-    Rebellious hordes of farmers make any taxation impossible, hardly anyone will donate money to scams anymore and no new people can be recruited.  
-    After a few weeks the mob calms down again.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  C  | 40 aura    |  16 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Aufruhr verursachen"`  
-
-### Awakening of the [Ents]
+### Awakening of the [Ents][ents]
 
 :   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.
@@ -237,6 +215,16 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 `CAST [LEVEL n] "Awakening of the Ents"`  
 
 ## B
+
+### Bad Dreams
+
+:   This spell enables the dreamer to disturb the sleep of all non-allied units (`HELP GUARD`) in the region so severely they lose parts of their memories.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 90 aura    |  10 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Bad Dreams]"`  
 
 ### Banish Spirits
 
@@ -250,31 +238,16 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-### Belebtes Gestein <!-- TODO -->
+### Barkskin
 
-:   This energy-sapping ritual uses a ball of concentrated Laen to summon a massive earth elemental and banish it to a building.  
-    The elemental can then be ordered to carry the building and all its inhabitants to a neighboring region.  
-    The strength of the summoned elemental depends on the skill of the magician: the elemental can do maximum[Level-12]*Move 250 size units buildings.  
-    The building will not survive this procedure unscathed.
-
-| Sc. | Components                              | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------------------|----:|-------:|:----:|:-----|:------|
-|  T  | 10 x T aura, 1 permanent aura, 5 [laen] |  13 | Normal |  5   |      |       |
-
-`CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
-
-### Beschwöre Schattenmeister <!-- TODO -->
-
-:   Using dark rituals, the magician summons demons from the sphere of shadows.  
-    These feared creatures can move almost invisibly among the living, but their dark aura can be felt by everyone.  
-    In battle, shadow masters are feared opponents.  
-    They are difficult to hit and drain their opponent"s strength and life.
+:   Performing this ritual before going into battle gives your troups an additional bonus to their armor.  
+    Every hit reduces the energy of the spell, dissolving it at some point during battle.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  D  | 7 x T aura |  12 | Normal |  5   |      |       |
+|  G  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
 
-`CAST [LEVEL n] "Beschwöre Schattenmeister"`  
+`COMBATSPELL [LEVEL n] "Barkskin"`  
 
 ### Blabbermouth
 
@@ -287,6 +260,30 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST Blabbermouth <unit-id>`  
 
+### Bless Mallorn Logs
+
+:   This ritual greatly increases the effect of the potion.  
+    Now every branch becomes a mallorn tree where before only one could be grown from a log.
+
+| Sc. | Components                                                         | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|--------------------------------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 6 x T aura, T [mallorn][mallorn], 1 [water of life][water-of-life] |   4 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
+
+### Bless Stone Circle
+
+:   This ritual blesses a circle of stones that has to be constructed from stones and some wood before.  
+    The druid's blessing turns the circle into a place of great magic that is suitable for rituals of all kinds.  
+    It protects from hostile magic and improves aura regeneration.  
+    Virgins are said to have been visited by strange creatures in the vicinity of these places.
+
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 350 aura, 5 permanent aura |  11 | Normal |  5   |      |       |
+
+`CAST "Bless Stone Circle" <building-id>`  
+
 ### Blessed Harvest
 
 :   This harvest ritual improves the yields of working farmers in the region by one piece of silver.  
@@ -297,16 +294,6 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 |  G  | T aura     |   1 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
-
-### Blick in die Realität <!-- TODO -->
-
-:   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 40 aura    |  10 | Normal |  5   |      |       |
-
-`CAST "Blick in die Realität"`  
 
 ### Blood Frenzy
 
@@ -344,6 +331,17 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST "Calm Monster" <unit-id>`  
 
+### Calm Riot
+
+:   By means of this magical chant the mage can calm a rioting region.  
+    The peasant mobs will disperse and return to their fields.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 30 aura    |  15 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Calm Riot"`  
+
 ### Castle of Illusion
 
 :   With the help of this spell, the dream weaver can create the illusion of any building.  
@@ -380,6 +378,18 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
+### Chaos Gate
+
+:   By sacrificing the lives of 200 peasants, the chaossorcerer is able to open a planar gate.  
+    This gate can be used during the following week to transfer units to the astral plane.  
+    It dissipates at the end of the following week.
+
+| Sc. | Components             | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 150 aura, 200 peasants |  14 | Normal |  5   |      |       |
+
+`CAST "Chaos Gate"`  
+
 ### Chaos Gift
 
 :   The magician opens his mind to the spheres of chaos and will thus have more magical power for some time.  
@@ -390,17 +400,6 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 |  D  | 6 aura     |   3 | Normal |  3   | :material-check:{ .success } |       |
 
 `CAST "Chaos Gift"`  
-
-### Chaossog <!-- TODO -->
-
-:   By sacrificing 200 farmers, the chaos magician can open a gate to the Astral world.  
-    The gate can be used the following week, it dissolves at the end of the following week.
-
-| Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 150 aura, 200 paysans |  14 | Normal |  5   |      |       |
-
-`CAST Chaossog`  
 
 ### Concealing Aura
 
@@ -423,18 +422,17 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `COMBATSPELL [LEVEL n] Countersong`  
 
-### Create a [[negative-weight-bag]] <!-- TODO: check -->
+### Create A Bag of Holding
 
-:   This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight.  
-    Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag.  
-    It is also not possible to transport one magic bag in another.  
-    The bag itself weighs 1 lbs.
+:   This bag encloses a dimensional rift in which up to 200 units of weight can be carries.  
+    Horses and other large objects cannot be put into the bag.  
+    The bag itself has a weight of 1.
 
-| Sc. | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  T  | 30 aura, 1 permanent aura, 5 000 silver |  10 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 30 aura, 1 permanent aura, 5000 silver |  10 | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+`CAST "Create A Bag of Holding"`
 
 ### Create a [[belt-of-troll-strength]]
 
@@ -447,19 +445,6 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST "Create A Belt of Troll Strength"`  
 
-### Create a [[dreameye]] <!-- TODO: check -->
-
-:   A dragon"s eye cast with this spell and consumed at communion allows the user to enter and read another person"s dreams.  
-    For a long time, such an ability was considered useless until the former Wood Elf master of battle magic, Liarana Sundew from the Thall Academy, presented a special application: Generals often dream restlessly before major battles and reveal their plans in dreams.  
-    This can give the user a huge advantage in the upcoming battle.  
-    But be careful: interpreting dreams is a difficult matter.
-
-| Sc. | Components                           | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|--------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  I  | 1 [tête de dragon], 5 permanent aura |  14 | Normal |  5   | :material-check:{ .success } |       |
-
-`CAST "Create A DreamEye"`  
-
 ### Create a [[flaming-sword]]
 
 <div class="lore-dialogue">
@@ -467,9 +452,9 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
 </div>
 
-| Sc. | Components                                                  | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|-------------------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  D  | 100 aura, 1 [berserkers blood], 1 [sword], 1 permanent aura |  12 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components                                                                           | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|--------------------------------------------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  D  | 100 aura, 1 [berserkers blood][berserkers-blood], 1 [sword][sword], 1 permanent aura |  12 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Flaming Sword"`  
 
@@ -478,9 +463,9 @@ And if you have done everything to please them, they will send one of their own 
 :   The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material.  
     He now uses the leather prepared in this way to make a small bag that can better preserve the herbs stored in it.
 
-| Sc. | Components                                   | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|----------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  G  | 30 aura, 1 permanent aura, 1 [water of life] |   5 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components                                                  | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|-------------------------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  G  | 30 aura, 1 permanent aura, 1 [water of life][water-of-life] |   5 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
 
@@ -501,9 +486,9 @@ And if you have done everything to please them, they will send one of their own 
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
-|  Sc.   | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
-|:------:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-| \*[^1] | 50 aura, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
+|  Sc.   | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
+|:------:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+| \*[^1] | 50 aura, 3000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Ring of Invisibility"`  
 
@@ -512,11 +497,24 @@ And if you have done everything to please them, they will send one of their own 
 :   With this spell the magician can create a sphere of invisibility.  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
-| Sc. | Components                                | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|-------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  I  | 150 aura, 30 000 silver, 3 permanent aura |  13 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components                               | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 150 aura, 30000 silver, 3 permanent aura |  13 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
+
+### Create a Visioneye
+
+:   A dragon"s eye cast with this spell and consumed at communion allows the user to enter and read another person"s dreams.  
+    For a long time, such an ability was considered useless until the former Wood Elf master of battle magic, Liarana Sundew from the Thall Academy, presented a special application: Generals often dream restlessly before major battles and reveal their plans in dreams.  
+    This can give the user a huge advantage in the upcoming battle.  
+    But be careful: interpreting dreams is a difficult matter.
+
+| Sc. | Components                                   | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 1 [dragonhead][dragonhead], 5 permanent aura |  14 | Normal |  5   | :material-check:{ .success } |       |
+
+`CAST "Create a Visioneye"`  
 
 ### Create an [[amulet-of-true-sight]]
 
@@ -524,9 +522,9 @@ And if you have done everything to please them, they will send one of their own 
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[camouflage]] skill to hide still remain undetected.
 
-|  Sc.   | Components                              | Lvl |   Type | Rank | Ship                         | Dist. |
-|:------:|-----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-| \*[^1] | 50 aura, 3 000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
+|  Sc.   | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
+|:------:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+| \*[^1] | 50 aura, 3000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
 
@@ -535,21 +533,21 @@ And if you have done everything to please them, they will send one of their own 
 :   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
 
-| Sc. | Components            | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|-----------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  T  | 50 aura, 3 000 silver |   7 | Normal |  5   | :material-check:{ .success } |       |
+| Sc. | Components           | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 50 aura, 3000 silver |   7 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Antimagic Crystal"`  
 
 ### Create [[iron-golem|Iron Golems]]
-<!-- TODO: fix MAKE orders -->
-:   The more power the magician invests, the more golems can be created.  
-    Each golem has a 15 percent chance of turning to dust each round.  
-    If you give the golems the order `MAKE  Sword | Claymore` or `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 iron bars are installed per golem and the golem dissolves.
 
-| Sc. | Components                               | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T aura, T [irons], 1 [water of life] |   2 | Normal |  4   |      |       |
+:   The more power a magician invests, the more golems can be created before the aura dissipates.  
+    Each golem has a 15% chance per week to turn to dust.  
+    If you command a golem to `MAKE SWORD/CLAYMORE` or `MAKE SHIELD/CHAINMAIL/PLATEMAIL`, it will work 5 iron ingots and disintegrate afterwards.
+
+| Sc. | Components                                                    | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|---------------------------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura, T [irons][iron], 1 [water of life][water-of-life] |   2 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
@@ -561,12 +559,12 @@ Then you direct your strength towards the fine aura of life that is forming and 
 </div>
 
 :   The more power the magician invests, the more golems can be created before the aura dissipates.  
-    Each golem has a 10 percent chance of turning to dust each round.  
+    Each golem has a 10% chance of turning to dust each round.  
     If you give the golems the `MAKE CASTLE` or `MAKE STREET` orders, 4 stones are placed per golem and the golem dissolves.
 
-| Sc. | Components                                       | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|--------------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 2 x T aura, T [stones][stone], 1 [water of life] |   1 | Normal |  4   |      |       |
+| Sc. | Components                                                      | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  G  | 2 x T aura, T [stones][stone], 1 [water of life][water-of-life] |   1 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
@@ -581,6 +579,17 @@ Then you direct your strength towards the fine aura of life that is forming and 
 `CAST [REGION x y] "Curse of Pestilence"`  
 
 ## D
+
+### Death Cloud
+
+:   By performing a gruesome ritual and sacrificing his own blood the Sorcerer conjurs up a spirit from the Elemental Plane of Poison.  
+    It will take the form of a green cloud of toxic gases that envelops a whole region and that will harm anyone within.
+
+| Sc. | Components     | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|----------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  D  | 40 aura, 15 PV |  11 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Death Cloud"`  
 
 ### Destroy Magic
 
@@ -604,16 +613,27 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [LEVEL n] Divination`  
 
+### Double Time
+
+:   Abstract theories of space and time at last find practical application in this spell which warps the very fabric of time around a person.  
+    Such a person has twice as many movement points and doubles their attacks per round for a few weeks.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
+|  T  | 5 x T aura |  11 | Normal |  5   | :material-check:{ .success } |       |
+
+`CAST [LEVEL n] "Double Time" <unit-id> [<unit-id> ...]`  
+
 ### Dragon Call
 
-:   With this dark ritual, the magician creates a lure that smells irresistible to [Dragons].  
+:   With this dark ritual, the magician creates a lure that smells irresistible to [Dragons][dragons].  
     It has not yet been possible to research whether the dragons come from the surrounding area or from the sphere of chaos.  
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
 
-| Sc. | Components                | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|---------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  D  | 80 aura, 1 [[dragonhead]] |  11 | Normal |  5   |      | :material-check:{ .success } |
+| Sc. | Components                          | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  D  | 80 aura, 1 [dragonhead][dragonhead] |  11 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] *Dragon Call`  
 
@@ -675,16 +695,16 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## F
 
-### Feuerteufel <!-- TODO -->
+### Fire Fiend
 
-:   This elemental invocation summons a fire devil, a creature from the deepest reaches of the flaming hells.  
-    The fire devil will eagerly pounce on the region"s forests and set them ablaze.
+:   This elemental summoning calls a fire fiend, a creature from the deepest hell.  
+    The demon will eagerly rush into the forests of a region and set them ablaze.
 
 | Sc. | Components         | Lvl |   Type | Rank | Ship | Dist.                        |
 |:---:|--------------------|----:|-------:|:----:|:-----|:-----------------------------|
 |  D  | 50 aura, 1 [huile] |  10 | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] Feuerteufel`  
+`CAST [REGION x y] "Fire Fiend"`  
 
 ### Fireball
 
@@ -734,70 +754,36 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
-### Gesang der Friedfertigkeit <!-- TODO -->
+### Gaze Upon Reality
 
-:   This powerful spell prevents any attacks.  
-    No one in the entire region is capable of taking up arms against anyone.  
-    The effects can last for several weeks.
-
-| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-------------|----:|-------:|:----:|:-----|:------|
-|  C  | 20 x T aura |  12 | Normal |  5   |      |       |
-
-`CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
-
-### Gesang der Melancholie  <!-- TODO -->
-
-:   With this song the bard spreads a melancholic, sad mood among the farmers.  
-    For a few weeks they will retreat to their huts and leave no silver in the theaters and taverns.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  C  | 40 aura    |  11 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Gesang der Melancholie"`  
-
-### Gesang der Versklavung  <!-- TODO -->
-
-:   This powerful spell robs the victim of their free will and subjects them to the Bard"s commands.  
-    For a time, the victim will turn completely away from his own people and feel that he belongs to the bard"s faction.
+:   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
-|  C  | 40 aura    |  13 | Normal |  5   |      |       |
+|  T  | 40 aura    |  10 | Normal |  5   |      |       |
 
-`CAST "Gesang der Versklavung" <unit-id>`  
+`CAST "Gaze Upon Reality"`  
 
-### Gesang des schwachen Geistes  <!-- TODO -->
+### Great Drought
 
-:   Woven into the magical essence of the region, this song weakens one"s natural resistance to an enchantment by 15% once.  
-    Only the bard"s allies (HELP GUARD) are immune to the effect of the song.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  C  | 2 x T aura |  12 | Normal |  2   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
-
-### Gesang des wachen Geistes  <!-- TODO -->
-
-:   This magical song, once sung with fervor, will spread throughout the region, jump from mouth to mouth and be heard everywhere for a while.  
-    How many weeks the song disappears from the memory of the region depends on the skill of the bard.  
-    Until the song has completely faded away, his magic will grant all of the bard"s allies (HELP GUARD), and of course his own people, a one-time bonus of 15% to the natural resistance to an enchantment.
+:   This powerful ritual opens a gate to the elemental plane of fire.  
+    A great drought comes over the land.  
+    Farmers, animals and plants of the region are fighting for survival, but only half of all living things will be able to survive a drought like this.  
+    The region will suffer the consequences of such a drought for years to come.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  C  | 2 x T aura |  10 | Normal |  2   |      | :material-check:{ .success } |
+|  G  | 800 aura   |  17 | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
+`CAST [REGION x y] "Great Drought"`  
 
 ### Grove of Oak Trees
 
 :   Where previously only a tree could sprout from a stick, every branch now sprouts roots.
 
-| Sc. | Components                              | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|-----------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 4 x T aura, T [wood], 1 [water of life] |   2 | Normal |  5   |      | :material-check:{ .success } |
+| Sc. | Components                                                   | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|--------------------------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 4 x T aura, T [wood][wood], 1 [water of life][water-of-life] |   2 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
@@ -827,9 +813,9 @@ Then you direct your strength towards the fine aura of life that is forming and 
     And he will almost certainly have forgotten some of his best abilities for a few days, even up to two weeks, of study.  
     One more word of warning: This is very time-consuming, and if you wish to cast other spells in the same week, they will be more difficult for you.
 
-| Sc. | Components                       | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|----------------------------------|----:|-------:|:----:|:-----|:------|
-|  C  | 28 aura, 3 [knotroot], 50 silver |   7 | Normal |  5   |      |       |
+| Sc. | Components                                 | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|--------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  C  | 28 aura, 3 [knotroot][knotroot], 50 silver |   7 | Normal |  5   |      |       |
 
 `CAST Hangover <unit-id>`  
 
@@ -854,26 +840,13 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [LEVEL n] Hex <unit-id>`  
 
-### Hitzeelementar  <!-- TODO -->
-
-:   This ritual summons angry heat elementals.  
-    A drought is plaguing the country.  
-    Trees wither, animals die, and the harvest fails.  
-    There is hardly any work to be found in agriculture for day laborers.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 600 aura   |  13 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] Hitzeelementar`  
-
-### Hohe Kunst der Überzeugung  <!-- TODO -->
+### High art of persuasion
 
 <div class="lore-dialogue">
-"In Weilersweide, near the Wythar harbor, there is a small inn that is rarely visited.
-It is not known to anyone that until a few years ago this farm was the home of the banished itinerant preacher Grauwolf.
-After recruiting almost the entire peasantry in one of his infamous fiery speeches, he was convicted of sedition and banished.
-He was only hesitantly willing to teach me the secret of his persuasiveness."
+"There's a small, scarcely visited inn in Weilersweide, near Wytharhafen.
+It is a little known fact, that it was home to the banished itinerant preacher Grauwolf until a few years ago.
+After he recruited almost the whole peasantry with one of his notorious speeches, he was convicted and banished for inciting unrest.
+Only hesitantly did he disclose the secret to his powers of persuasion to me."
 </div>
 
 From "Wanderings" by Firudin the Wise.  
@@ -882,7 +855,7 @@ From "Wanderings" by Firudin the Wise.
 |:---:|-------------|----:|-------:|:----:|:-----|:------|
 |  C  | 20 x T aura |  14 | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
+`CAST [LEVEL n] "High art of persuasion"`  
 
 ### Homestone
 
@@ -900,7 +873,6 @@ From "Wanderings" by Firudin the Wise.
 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
 
-<!-- TODO: check values below -->
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
 |  C  | 2 aura     |   5 | Normal |  1   | :material-check:{ .success } |       |
@@ -948,6 +920,19 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST "Lesser Sacrifice"`  
 
+### Living Rock
+
+:   This draining ritual summons a gigantic earth elemental from a sphere of laen and binds it to a building.  
+    The elemental can then be commanded to move the building with all its occupants to a neighbouring region.
+    The strength of the elemental depends of the mage's skill: it can move up to (level-12)*250 size units of building.
+    The building won't remain undamaged by the process.
+
+| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  T  | 10 x T aura, 1 permanent aura, 5 [laen][laen] |  13 | Normal |  5   |      |       |
+
+`CAST [LEVEL n] "Living Rock" <building-id> <Richtung>`  
+
 ## M
 
 ### Madness of War
@@ -961,6 +946,17 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
+### Maelstrom
+
+:   This ritual summons a mighty water elemental from the depths of the ocean.  
+    The elemental creates an enormous maelstrom which damages any passing ships.
+
+| Sc. | Components                                       | Lvl |   Type | Rank | Ship                             | Dist. |
+|:---:|--------------------------------------------------|----:|-------:|:----:|:---------------------------------|:------|
+|  G  | 200 aura, 1 [sea serpent head][sea-serpent-head] |  15 | Normal |  5   | :material-check:{ .success }[^3] |       |
+
+`CAST "Maelstrom"`  
+
 ### Magic Path
 
 :   By performing these rituals, the magician is able to summon a powerful earth elemental.  
@@ -969,34 +965,11 @@ From "Wanderings" by Firudin the Wise.
     Even swamps and glaciers can be enchanted this way.  
     The more power the magician puts into the spell, the longer the road lasts.
 
-| Sc. | Components                | Lvl |   Type | Rank | Ship                         | Dist.                        |
-|:---:|---------------------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
-|  G  | T aura, 1 [stone], 1 bois |   4 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+| Sc. | Components                               | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------------------------------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  G  | T aura, 1 [stone][stone], 1 [wood][wood] |   4 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
-
-### Mahlstrom  <!-- TODO -->
-
-:   This ritual summons a great water elemental from the depths of the ocean.  
-    The elemental creates a massive whirlpool, a maelstrom, which can severely damage any ships that pass through it.
-
-| Sc. | Components                         | Lvl |   Type | Rank | Ship                             | Dist. |
-|:---:|------------------------------------|----:|-------:|:----:|:---------------------------------|:------|
-|  G  | 200 aura, 1 tête de serpent de mer |  15 | Normal |  5   | :material-check:{ .success }[^3] |       |
-
-`CAST Mahlstrom`  
-
-### Mallorn quarterstaff
-<!-- TODO: check if it's really mallorn quarterstaff -->
-
-:   This ritual increases the effect of the magical potion many times over.  
-    Where previously only a tree could sprout from a stick, every branch now sprouts roots.
-
-| Sc. | Components                                   | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|----------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 6 x T aura, T [[mallorn]], 1 [water of life] |   4 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Mallorn quarterstaff"`  
 
 ### Meditate
 
@@ -1007,6 +980,19 @@ From "Wanderings" by Firudin the Wise.
 |  G  | 2 aura     |   6 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
+
+### Mental Death
+
+:   With this spell the mentalist directly attacks his enemies' souls.  
+    A blast of astral and electrical energy strikes the foes.  
+    If a victim fails to resist the magic, he will permanently lose part of his memories.  
+    Being the target of this spell for too many times may result in death.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  I  | 2 x T aura |  11 | Pre-c. |  5   |      |       |
+
+`COMBATSPELL [LEVEL n] "Mental Death"`  
 
 ### Mind Probe
 
@@ -1046,31 +1032,18 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
-### Miriams flinke Finger  <!-- TODO -->
+### Mob Rule
 
-:   The famous bard Miriam bhean'Meddaf was known for her extraordinary skill with the harp.  
-    Her fingers were said to move so quickly across the strings that they were virtually unrecognizable.  
-    This spell, which is quite easy to cast into a silver ring, results in a tenfold improvement in finger dexterity and agility.  
-    She is said to have exploited this elsewhere as well; her reputation as a card cheat was notorious.  
-    Craftsmen can thus produce ten times as much, and this could also be useful in some other activities.
-
-| Sc. | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
-|  C  | 20 aura, 1000 silver, 1 permanent aura |  11 | Normal |  5   | :material-check:{ .success } |       |
-
-`CAST "Miriams flinke Finger"`  
-
-### Mob aufwiegeln  <!-- TODO -->
-
-:   With the help of this magical song, the magician convinces the farmers of the region to join him.  
-    However, the farmers will not leave their homeland and will not give away any of their possessions.  
-    Each week some of the farmers will also cast off the spell and return to their fields. How many farmers join the magician depends on the power of his song.
+:   Employing this magic chant the mage convinces the peasants of the region to join him.  
+    The peasants won't leave their home region and won't give up their possessions, though.  
+    Additionally each week some peasants will shake off the spell and return to their fields.  
+    How many peasants join the mage depends on the power of his chant.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
 |  C  | 4 x T aura |  10 | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Mob aufwiegeln"`  
+`CAST [LEVEL n] "Mob Rule"`  
 
 ### [[mountain-guard|Mountain Guardian]]
 
@@ -1094,19 +1067,6 @@ From "Wanderings" by Firudin the Wise.
 |  T  | 3 x T aura |   7 | Normal |  3   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
-
-## O
-
-### Opfere Kraft  <!-- TODO -->
-
-:   With the help of this spell, the magician can permanently transfer part of his magical power to another magician.  
-    He can transfer half of the power used to a magician of the same magic area, and a third to other magicians.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 100 aura   |  15 | Normal |  1   |      |       |
-
-`CAST "Opfere Kraft" <unit-id> <Aura>`  
 
 ## P
 
@@ -1132,7 +1092,17 @@ From "Wanderings" by Firudin the Wise.
 |:---:|-------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
 |  D  | 10 x T aura |  10 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+`CAST [REGION x y] [LEVEL n] "Pentagram" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+### Pleasant Dreams
+
+:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all talents for some time.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  I  | 80 aura    |   8 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Pleasant Dreams"`  
 
 ### Protection from Magic
 
@@ -1157,6 +1127,22 @@ From "Wanderings" by Firudin the Wise.
 |  T  | 20 aura    |   8 | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
+
+## Q
+
+### Quick Fingers
+
+:   The famous bard Miriam bhean'Meddaf was known for her extraordinary skill with the harp.  
+    Her fingers were said to move so quickly across the strings that they were virtually unrecognizable.  
+    This spell, which is quite easy to cast into a silver ring, results in a tenfold improvement in finger dexterity and agility.  
+    She is said to have exploited this elsewhere as well; her reputation as a card cheat was notorious.  
+    Craftsmen can thus produce ten times as much, and this could also be useful in some other activities.
+
+| Sc. | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  C  | 20 aura, 1000 silver, 1 permanent aura |  11 | Normal |  5   | :material-check:{ .success } |       |
+
+`CAST "Quick Fingers"`  
 
 ## R
 
@@ -1196,6 +1182,16 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
+### Remove Dreams
+
+:   This spell allows the mentalist to distinguish between the natural and unnatural dreams of a person, a ship, a building or a region and remove those that are of magical origin.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
+|  I  | 6 x T aura |   8 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
 ### Resist Magic
 
 :   This spell increases your natural resistance to magic.  
@@ -1220,31 +1216,44 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
-### Rindenhaut  <!-- TODO -->
+### Riot
 
-:   This ritual, cast before battle, grants your troops an additional armor bonus.  
-    Each hit reduces the spell's power, so the shield will eventually dissipate during the fight.
+:   By means of this magical chant the mage incites riots in a region.  
+    Rebelling peasant mobs prevent taxation and recruiting and almost noone will pay money for entertainment.  
+    After a few weeks the mob will calm down again.
 
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  G  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 40 aura    |  16 | Normal |  5   |      | :material-check:{ .success } |
 
-`COMBATSPELL [LEVEL n] Rindenhaut`  
+`CAST [REGION x y] "Riot"`  
 
-### Ritual der Aufnahme  <!-- TODO -->
+### Rite of Acceptance
 
-:   This ritual makes it possible to incorporate any entity, regardless of its type, into one's own faction.  
-    He proves this by CONTACTING the magician.  
-    He will also be exclusively occupied with preparations for the ritual throughout the week.  
-    The ritual will fail if he is too strongly tied to his old faction, for example, if he owes them services in return for his expensive education.  
-    The magician leading the ritual must naturally expend aura permanently to ensure the permanent binding of the initiate to his faction.  
-    He can accommodate one person per level and per permanent aura.
+:   This ritual facilitates the migration of an unit to the own faction.  
+    The candidate has to be able and willing to leave his previous faction.  
+    He attests to that by CONTACTing the mage and will otherwise be occupied with preparations for the ritual.  
+    The ritual will fail, if the candidate owes the previous faction fealty for an expensive training.  
+    The mage performing the ritual has to invest permanent aura to bind the candidate to the faction.  
+    Per level and per point of permanent aura the mage can bind one person.
 
 | Sc. | Components                   | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------------------------|----:|-------:|:----:|:-----|:------|
 |  C  | 3 x T aura, T permanent aura |   9 | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
+`CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
+
+### Roots of Magic
+
+:   Through a elaborate ritual a druid permanently channels a fragment of his power into the soil and the forests of the region.  
+    This forever changes the equilibrium of nature in the region.  
+    From this point on only the fierce but strong mallorn trees will grow there.
+
+| Sc. | Components                                                          | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|---------------------------------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 250 aura, 10 permanent aura, 1 [pot of toadslime][pot-of-toadslime] |  16 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Roots of Magic"`  
 
 ## S
 
@@ -1259,6 +1268,17 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST "Sacred Ground"`  
 
+### Sacrifice Strength
+
+:   This spell allows the magician to transfer part of his magical powers to another magician.  
+    Magicians of the seam school will receive half the power invested, magicians of other schoolsreceive receive one third.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 100 aura   |  15 | Normal |  1   |      |       |
+
+`CAST "Sacrifice Strength" <unit-id> <Aura>`  
+
 ### Save Spoils
 
 :   This spell prevents some of the objects that would otherwise be destroyed in battle from being damaged.  
@@ -1269,16 +1289,6 @@ From "Wanderings" by Firudin the Wise.
 |  T  | T aura     |   3 | Post-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
-
-### Schlechte Träume  <!-- TODO -->
-
-:   This spell allows the Dreamer to disrupt the sleep of all non-allied units (`HELP GUARD`) in the region to such an extent that they temporarily lose some of their memories.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  I  | 90 aura    |  10 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Schlechte Träume"`  
 
 ### Shadow Knights
 
@@ -1304,6 +1314,17 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
+### Shield Shine
+
+:   This ritual, to be performed before battle, gives the own troops an added bonus to their armor.  
+    Every hit reduces the strength of the spell until it dissipates during battle.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  T  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
+
+`COMBATSPELL [LEVEL n] "Shield Shine"`  
+
 ### Sleep
 
 :   This spell causes some enemy combatants to fall asleep.  
@@ -1325,28 +1346,6 @@ From "Wanderings" by Firudin the Wise.
 |  T  | T aura     |   5 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
-
-### Schöne Träume  <!-- TODO -->
-
-:   This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all skills for a period of time.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  I  | 80 aura    |   8 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Schöne Träume"`  
-
-### Segne Steinkreis <!-- TODO -->
-
-:   This ritual blesses a stone circle that must first be built from stones and some wood.  
-    The Druid"s Blessing turns the circle into a powerful site of magical activity, providing protection from magic and increased aura regeneration.  
-    It is said that virgins encountered strange creatures around stone circles.
-
-| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
-|  G  | 350 aura, 5 permanent aura |  11 | Normal |  5   |      |       |
-
-`CAST "Segne Steinkreis" <building-id>`  
 
 ### Shapeshift
 
@@ -1427,6 +1426,29 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
+### Song of Melancholy
+
+:   With this chant the bard spreads a melancholic, sad mood among the peasants.  
+    For a few weeks they will retreat to their huts and not spend any silver in the theatres and taverns.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 40 aura    |  11 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Song of Melancholy"`  
+
+### Song of Peace
+
+:   This powerful spell prevents any attacks.  
+    Noone in the entire region will be able to raise his weapon against another.  
+    The effect can last for weeks.
+
+| Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-------------|----:|-------:|:----:|:-----|:------|
+|  C  | 20 x T aura |  12 | Normal |  5   |      |       |
+
+`CAST [LEVEL n] "Song of Peace"`  
+
 ### Song of Seduction
 
 :   This song can be used to charm a unit into giving most of their cash and possessions to the bard.  
@@ -1437,6 +1459,17 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 12 aura    |   6 | Normal |  5   |      |       |
 
 `CAST "Song of Seduction" <unit-id>`  
+
+### Song of Slavery
+
+:   This powerful spell robs the victim of their own free will and enslaves them to the commands of the bard.  
+    For some time the victim will turn their back on their own people and join the faction of the bard.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  C  | 40 aura    |  13 | Normal |  5   |      |       |
+
+`CAST "Song of Slavery" <unit-id>`  
 
 ### Song of Terror
 
@@ -1449,6 +1482,29 @@ From "Wanderings" by Firudin the Wise.
 |  C  | T aura     |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
+
+### Song of the Aging Spirit
+
+:   This song, which is woven into the magical essence of the region, weakens the natural resistance against a singular enchantment by 15%.  
+    Only the allies of the bard (HELP GUARD) are immune to the effect of the chant.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 2 x T aura |  12 | Normal |  2   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
+
+### Song of the Youthful Spirit
+
+:   This magical song, once performed with vigor, will propagate in the region by wandering from mouth to mouth.  
+    It will be heard everywhere. How long the song will last in the public perception depends on the bard's skill.  
+    Until it is gone it will give him and all his allies (`HELP GUARD`) a bonus of 15% to their natural resistance to magic.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  C  | 2 x T aura |  10 | Normal |  2   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
 
 ### Song of War
 
@@ -1496,26 +1552,14 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
-### Störe Astrale Integrität <!-- TODO -->
-
-:   This spell causes severe disruption to the Astral space.  
-    Within an Astral radius of level/5 regions, all Astral beings who cannot resist the spell are thrown out of the Astral plane.  
-    Astral contact with all affected regions is disrupted for level/3 weeks.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  T  | 140 aura   |  14 | Normal |  4   |      |       |
-
-`CAST [LEVEL n] "Störe Astrale Integrität"`  
-
 ### Summon Earth Elemental
 
 :   With this ritual, the druid summons an elemental spirit of the earth and causes it to cause the earth to tremble.  
 This earthquake will damage all buildings in the region.
 
-| Sc. | Components        | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|-------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 25 aura, 2 [laen] |   7 | Normal |  5   |      | :material-check:{ .success } |
+| Sc. | Components              | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 25 aura, 2 [laen][laen] |   7 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
@@ -1529,6 +1573,18 @@ This earthquake will damage all buildings in the region.
 
 `CAST "Summon Familiar"`  
 
+### Summon Fire Elemental
+
+:   This Ritual summons an angry elemental spirit that puts a drought on the entire region.  
+    Trees wither, animals die of thirst and the harvest is destroyed.  
+    Workers find little to no work in farming.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 600 aura   |  13 | Normal |  5   |      | :material-check:{ .success } |
+
+`CAST [REGION x y] "Summon Fire Elemental"`  
+
 ### Summon Shadowdemons
 
 :   Using dark rituals, the magician summons demons from the sphere of shadows.  
@@ -1541,6 +1597,18 @@ This earthquake will damage all buildings in the region.
 |  D  | 3 x T aura |   8 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
+
+### Summon Shadowmasters
+
+:   With the help of dark rituals the sorcerer summons demons from the Sphere of Shadows.  
+    These fearsome creatures can walk almost unseen among the living, but their dark aura can be sensed by everyone.  
+    Shadowmasters are feared in combat for they are hard to hit and have the ability to drain strength and life force from their victims.
+
+| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|------------|----:|-------:|:----:|:-----|:------|
+|  D  | 7 x T aura |  12 | Normal |  5   |      |       |
+
+`CAST [LEVEL n] "Summon Shadowmasters"`  
 
 ### Summon Storm Elemental
 
@@ -1565,17 +1633,17 @@ This earthquake will damage all buildings in the region.
 
 `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
 
-### Süße Träume <!-- TODO -->
+### Sweet Dreams
 
-:   This spell -the use of which is strictly forbidden in most cultures -triggers an uncontrollable desire for physical love in the victim.  
-    The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else.  
-    Most of the time they regret it a few weeks later...
+:   This spell - whose use is forbidden in most cultures - creates an uncontrollable desire for physical love in the victim.  
+    The affected persons will rush head over heels into a love affair, unable to think of anything else.  
+    Most of them will regret this a few months later...
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
 |  I  | 5 x T aura |  12 | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Sweet Dreams" <unit-id> [<unit-id> ...]`  
 
 ## T
 
@@ -1611,43 +1679,6 @@ This earthquake will damage all buildings in the region.
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
-### Tod des Geistes <!-- TODO -->
-
-:   With this spell the magician attacks the minds of his opponents directly.  
-    A blast of Astral and electrical energy hits the opponents;  
-    if magic resistance is broken, a victim permanently loses part of their memories.  
-    If it falls victim to this spell too often, it can die.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----|:------|
-|  I  | 2 x T aura |  11 | Pre-c. |  5   |      |       |
-
-`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
-
-### Todeswolke <!-- TODO -->
-
-:   With a dark ritual and sacrificing his own blood, the black magician summons a great spirit from the elemental plane of poisons.  
-    The spirit manifests itself as a bright green cloud over the region and will harm all who come into contact with it.
-
-| Sc. | Components     | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|----------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  D  | 40 aura, 15 PV |  11 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] Todeswolke`  
-
-### Tor in die Ebene der Hitze <!-- TODO -->
-
-:   This powerful ritual opens a gateway into the elemental plane of heat.  
-    A great drought is coming to the country.  
-    Farmers, animals and plants in the region are fighting for survival, but only half of all living things can survive such a drought.  
-    The region can be affected by the consequences of such a drought for years to come.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 800 aura   |  17 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Tor in die Ebene der Hitze"`  
-
 ### Transfer Aura
 
 :   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
@@ -1668,16 +1699,6 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
 
-### Traumbilder entwirren
-
-:   This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
-|:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
-|  I  | 6 x T aura |   8 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
-
 ## U
 
 ### Undead Heroes
@@ -1691,16 +1712,16 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
-### Unheilige Kraft <!-- TODO -->
+### Unholy Strength
 
-:   This ritual is only passed on to the adepts in the dark academies in whispers, as it is one of the darkest ever written down.  
-    By invoking unholy demons, the power of the living dead is amplified and they transform into undead monsters of great power.
+:   Only whispered the knowledge of performing this ritual is passed to the adepts of the dark academies, for it is one of the darkest that has ever been written down.  
+    By calling unholy demons the strength of the living dead is greatly increased and they are turned into undead monsters of immense power.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 10 x T aura, 5 x T paysans |  14 | Normal |  5   |      |       |
+| Sc. | Components                  | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|-----------------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 10 x T aura, 5 x T peasants |  14 | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
 
 ### Unspeakable Horrors
 
@@ -1737,30 +1758,6 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
 
-### Wurzeln der Magie <!-- TODO -->
-
-:   With the help of this elaborate ritual, the druid allows part of his power to flow permanently into the soil and forests of the region.  
-    This will change the balance of nature in the region forever, and in the future only the demanding but strong mallornas will thrive in the region.
-
-| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 250 aura, 10 permanent aura, 1 [[cream-puff]] |  16 | Normal |  5   |      | :material-check:{ .success } |
-
-`CAST [REGION x y] "Wurzeln der Magie"`  
-
-## Z
-
-### Zeitdehnung <!-- TODO -->
-
-:   This practical application of theoretical knowledge of space and time makes it possible to change the flow of time for some people.  
-    People modified in this way get twice as many movement points and twice as many attacks per round for a few weeks.
-
-| Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
-|:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
-|  T  | 5 x T aura |  11 | Normal |  5   | :material-check:{ .success } |       |
-
-`CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
-
 ## See also
 
 - [[list-of-spells]]
@@ -1770,14 +1767,3 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 [^3]: the spell can be casted **on sea**.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
-
-[Dragons]: ./monsters.md#dragons
-[Ents]: ./monsters.md#ents
-
-[berserkers blood]: ./alchemy.md#berserkers-blood "berserkers blood"
-[sword]: ./war-tables.md#sword
-[water of life]: ./alchemy.md#water-of-life
-[wood]: ./resources.md#wood
-[irons]: ./resources.md#iron
-[stone]: ./resources.md#stone
-[knotroot]: ./herbs.md#knotroot

@@ -213,25 +213,25 @@ alias: illaun-spells
 
 ## Level 8
 
-### Schöne Träume  <!-- TODO -->
+### Pleasant Dreams
 
-:   This spell allows the Dreamweaver to affect the sleep of all allied units in the region, giving them a bonus in all skills for a period of time.
+:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all talents for some time.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  80 aura   |  8  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Schöne Träume"`  
+`CAST [REGION x y] "Pleasant Dreams"`  
 
-### Traumbilder entwirren
+### Remove Dreams
 
-:   This spell allows the dream weaver to distinguish and unravel the natural and forced dream images of a person, building, ship, or region.
+:   This spell allows the mentalist to distinguish between the natural and unnatural dreams of a person, a ship, a building or a region and remove those that are of magical origin.
 
 | Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
 | 6 x T aura |  8  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+`CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ## Level 9
 
@@ -247,44 +247,44 @@ alias: illaun-spells
 
 ## Level 10
 
-### Schlechte Träume  <!-- TODO -->
+### Bad Dreams
 
-:   This spell allows the Dreamer to disrupt the sleep of all non-allied units (`HELP GUARD`) in the region to such an extent that they temporarily lose some of their memories.
+:   This spell enables the dreamer to disturb the sleep of all non-allied units (`HELP GUARD`) in the region so severely they lose parts of their memories.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
 |  90 aura   | 10  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] "Schlechte Träume"`  
+`CAST [REGION x y] "Bad Dreams"`  
 
 ## Level 11
 
-### Tod des Geistes <!-- TODO -->
+### Mental Death
 
-:   With this spell the magician attacks the minds of his opponents directly.  
-    A blast of Astral and electrical energy hits the opponents;  
-    if magic resistance is broken, a victim permanently loses part of their memories.  
-    If it falls victim to this spell too often, it can die.
+:   With this spell the mentalist directly attacks his enemies' souls.  
+    A blast of astral and electrical energy strikes the foes.  
+    If a victim fails to resist the magic, he will permanently lose part of his memories.  
+    Being the target of this spell for too many times may result in death.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 2 x T aura | 11  | Pre-c. |  5   |      |       |
 
-`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
+`COMBATSPELL [LEVEL n] "Mental Death"`  
 
 ## Level 12
 
-### Süße Träume <!-- TODO -->
+### Sweet Dreams
 
-:   This spell -the use of which is strictly forbidden in most cultures -triggers an uncontrollable desire for physical love in the victim.  
-    The affected individuals will rush headlong into a love affair, too blinded by desire to think of anything else.  
-    Most of the time they regret it a few weeks later...
+:   This spell - whose use is forbidden in most cultures - creates an uncontrollable desire for physical love in the victim.  
+    The affected persons will rush head over heels into a love affair, unable to think of anything else.  
+    Most of them will regret this a few months later...
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 5 x T aura | 12  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] Sweet Dreams" <unit-id> [<unit-id> ...]`  
 
 ## Level 13
 

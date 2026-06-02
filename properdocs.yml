@@ -89,7 +89,9 @@ copyright: Copyright &copy; 2025 Cyril Guillon
 
 plugins:
   # - categories
-  - alias
+  - alias:
+      # open_tag: "[$"
+      # close_tag: "$]"
   - privacy
   - redirects
   - search
@@ -99,7 +101,7 @@ plugins:
       # so internal link_titles are disabled for that reason
       link_titles: external
       # recommended when used with i18n plugin to avoid multiple link warnings
-      resolve_closest: true
+      # resolve_closest: true
   - i18n:
       languages:
         - locale: en
@@ -140,7 +142,7 @@ plugins:
             Skills: Compétences
             Overview: Vue d'ensemble
             Modifiers: Modificateurs
-            Camouflage: Camouflage
+            Stealth: Stealth
             # Exploration submenu
             Travel: Déplacement
             Sailing: Navigation
@@ -184,7 +186,8 @@ plugins:
             # References submenu
         - locale: de
           name: Deutsch
-          build: true
+          # TODO: enable before push
+          build: false
           nav_translations:
             # GERMAN main menu item translations
             Home: Hauptseite
@@ -206,7 +209,7 @@ plugins:
             Skills: Talente
             Overview: Überblick
             Modifiers: Modifikatoren
-            Camouflage: Tarnung
+            Stealth: Tarnung
             First round: Erste Runde
             Travel: Reisen
             Sailing: Segeln
@@ -267,7 +270,7 @@ plugins:
               - Skills:
                 - Overview: skills.md
                 - Modifiers: skills-modifiers.md
-                - Camouflage: camouflage.md
+                - Stealth: stealth.md
             - Exploration:
               - Travel: travel.md
               - Sailing: sailing.md
@@ -441,21 +444,22 @@ plugins:
                   - amulet-of-true-sight.md
                   - antimagic-crystal.md
                   - belt-of-troll-strength.md
-                  - cream-puff.md
                   - dragonblood.md
                   - dragonhead.md
                   - fairy-boots.md
                   - flaming-sword.md
                   - magical-herb-pouch.md
-                  - negative-weight-bag.md
                   - ring-of-invisibility.md
                   - ring-of-power.md
+                  - sack-of-holding.md
+                  - seaserpenthead.md
                   - shell.md
                   - silverbag.md
                   - sphere-of-invisibility.md
                   - stardust.md
                   - sun-sail.md
                   - pentagram-and-tirawon.md
+                  - pot-of-toadslime.md
             - Help:
               - tips-and-tricks.md
               - tutorials.md
@@ -527,7 +531,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# ENGLISH navigation structure (also used forFRENCH language)
+# ENGLISH navigation structure (also used for FRENCH language)
 nav:
   - Home: index.md
   - Getting-started:
@@ -548,7 +552,7 @@ nav:
     - Skills:
       - Overview: skills.md
       - Modifiers: skills-modifiers.md
-      - Camouflage: camouflage.md
+      - Stealth: stealth.md
   - Exploration:
     - Travel: travel.md
     - Sailing: sailing.md
@@ -722,21 +726,22 @@ nav:
         - amulet-of-true-sight.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md
-        - cream-puff.md
         - dragonblood.md
         - dragonhead.md
         - fairy-boots.md
         - flaming-sword.md
         - magical-herb-pouch.md
-        - negative-weight-bag.md
         - ring-of-invisibility.md
         - ring-of-power.md
+        - sack-of-holding.md
+        - seaserpenthead.md
         - shell.md
         - silverbag.md
         - sphere-of-invisibility.md
         - stardust.md
         - sun-sail.md
         - pentagram-and-tirawon.md
+        - pot-of-toadslime.md
   - Help:
     - tips-and-tricks.md
     - tutorials.md

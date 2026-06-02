@@ -228,18 +228,18 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
-### Feuerteufel <!-- TODO -->
+### Fire Fiend
 
-:   This elemental invocation summons a fire devil, a creature from the deepest reaches of the flaming hells.  
-    The fire devil will eagerly pounce on the region"s forests and set them ablaze.
+:   This elemental summoning calls a fire fiend, a creature from the deepest hell.  
+    The demon will eagerly rush into the forests of a region and set them ablaze.
 
 |     Components     | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
 | 50 aura, 1 [huile] | 10  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] Feuerteufel`  
+`CAST [REGION x y] "Fire Fiend"`  
 
-### Pentagram  <!-- TODO -->
+### Pentagram
 
 :   Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments.  
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  
@@ -249,7 +249,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 |:-----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
 | 10 x T aura | 10  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] Pentagramm ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+`CAST [REGION x y] [LEVEL n] "Pentagram" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ### Dragon Call
 
@@ -264,18 +264,18 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `CAST [REGION x y] *Dragon Call`  
 
-### Todeswolke <!-- TODO -->
+### Death Cloud
 
-:   With a dark ritual and sacrificing his own blood, the black magician summons a great spirit from the elemental plane of poisons.  
-    The spirit manifests itself as a bright green cloud over the region and will harm all who come into contact with it.
+:   By performing a gruesome ritual and sacrificing his own blood the Sorcerer conjurs up a spirit from the Elemental Plane of Poison.  
+    It will take the form of a green cloud of toxic gases that envelops a whole region and that will harm anyone within.
 
 |   Components   | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:--------------:|:---:|:------:|:----:|:----:|:----------------------------:|
 | 40 aura, 15 PV | 11  | Normal |  5   |      | :material-check:{ .success } |
 
-`CAST [REGION x y] Todeswolke`  
+`CAST [REGION x y] "Death Cloud"`  
 
-### Beschwöre Schattenmeister <!-- TODO -->
+### Summon Shadowmasters
 
 :   Using dark rituals, the magician summons demons from the sphere of shadows.  
     These feared creatures can move almost invisibly among the living, but their dark aura can be felt by everyone.  
@@ -286,7 +286,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 7 x T aura | 12  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Beschwöre Schattenmeister"`  
+`CAST [LEVEL n] "Summon Shadowmasters"`  
 
 ### Create a [[flaming-sword]]
 
@@ -309,26 +309,27 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `CAST "Summon Familiar"`  
 
-### Chaossog <!-- TODO -->
+### Chaos Gate
 
-:   By sacrificing 200 farmers, the chaos magician can open a gate to the Astral world.  
-    The gate can be used the following week, it dissolves at the end of the following week.
+:   By sacrificing the lives of 200 peasants, the chaossorcerer is able to open a planar gate.  
+    This gate can be used during the following week to transfer units to the astral plane.  
+    It dissipates at the end of the following week.
 
 |      Components       | Lvl |  Type  | Rank | Ship | Dist. |
 |:---------------------:|:---:|:------:|:----:|:----:|:-----:|
 | 150 aura, 200 paysans | 14  | Normal |  5   |      |       |
 
-`CAST Chaossog`  
+`CAST "Chaos Gate"`  
 
-### Unheilige Kraft <!-- TODO -->
+### Unholy Strength
 
-:   This ritual is only passed on to the adepts in the dark academies in whispers, as it is one of the darkest ever written down.  
-    By invoking unholy demons, the power of the living dead is amplified and they transform into undead monsters of great power.
+:   Only whispered the knowledge of performing this ritual is passed to the adepts of the dark academies, for it is one of the darkest that has ever been written down.  
+    By calling unholy demons the strength of the living dead is greatly increased and they are turned into undead monsters of immense power.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
 | 10 x T aura, 5 x N paysans | 14  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->

@@ -1,8 +1,8 @@
 ---
 # cSpell:locale en
-alias: cream-puff
+alias: pot-of-toadslime
 ---
 
-# Cream puff
+# Pot of toadslime
 
 <!-- TODO : fill info -->

@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: cream-puff-de
+alias: pot-of-toadslime-de
 ---
 
 # Tiegel mit Krötenschleim

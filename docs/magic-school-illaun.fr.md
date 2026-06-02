@@ -14,9 +14,8 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ### Chevaliers de l'Ombre
 
-<!-- TODO: checkif it is Schattenritter or Schattenritteren for German CAST -->
 <!-- cspell:disable -->
-*Shadow Knights (EN), Schattenritteren (DE)*.
+*Shadow Knights (EN), Schattenritter (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes.  
@@ -28,25 +27,10 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-### Rêve
-
-<!-- cspell:disable -->
-*Dream (EN), Traum (DE)*.
-<!-- cspell:enable -->
-
-:   Le mage envoie un rêve à la cible du sort.
-
-| Composants | Niv. |  Type  | Rang |              B               | D |
-|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
-|   N aura   |  1   | Normal |  5   | :material-check:{ .success } |   |
-
-`CAST [LEVEL n] Dream <unit-id>`  
-
 ### Divination
 
-<!-- TODO: check if it is Wahrsagen or Weissagung in CAST german order -->
 <!-- cspell:disable -->
-*Divination (EN), Weissagung (DE)*.
+*Divination (EN), Wahrsagen (DE)*.
 <!-- cspell:enable -->
 
 :   Nul ne sait interpréter les rêves aussi bien qu'un mage Illaun.  
@@ -58,6 +42,20 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST [LEVEL n] Divination`  
+
+### Rêve
+
+<!-- cspell:disable -->
+*Dream (EN), Traumsenden (DE)*.
+<!-- cspell:enable -->
+
+:   Le mage envoie un rêve à la cible du sort.
+
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   N aura   |  1   | Normal |  5   | :material-check:{ .success } |   |
+
+`CAST [LEVEL n] Dream <unit-id>`  
 
 ## Niveau 2
 
@@ -109,20 +107,6 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
-### Rêve de magie
-
-<!-- cspell:disable -->
-*Dream of Magic (EN), Traum der Magie (DE)*.
-<!-- cspell:enable -->
-
-:   Avec l'aide de ce sort, le tisserand de rêves peut transférer sa propre aura à un autre tisserand de rêves dans un rapport de 2:1.
-
-| Composants | Niv. |  Type  | Rang |              B               | D |
-|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
-|   2 aura   |  3   | Normal |  1   | :material-check:{ .success } |   |
-
-`CAST "Dream of Magic" <unit-id> <Aura>`  
-
 ### Château d'Illusion
 
 <!-- cspell:disable -->
@@ -138,6 +122,20 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |   3 aura   |  3   | Normal |  5   |   |   |
 
 `CAST "Castle of Illusion" <building-type>`  
+
+### Rêve de magie
+
+<!-- cspell:disable -->
+*Dream of Magic (EN), Traum der Magie (DE)*.
+<!-- cspell:enable -->
+
+:   Avec l'aide de ce sort, le tisserand de rêves peut transférer sa propre aura à un autre tisserand de rêves dans un rapport de 2:1.
+
+| Composants | Niv. |  Type  | Rang |              B               | D |
+|:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
+|   2 aura   |  3   | Normal |  1   | :material-check:{ .success } |   |
+
+`CAST "Dream of Magic" <unit-id> <Aura>`  
 
 ## Niveau 4
 
@@ -206,23 +204,6 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ## Niveau 6
 
-### Créer une [[amulette-de-vision-decuplee]]
-
-<!-- cspell:disable -->
-*Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
-<!-- cspell:enable -->
-
-:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
-    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
-
-<!-- TODO: check if it's only Cerdorr or not -->
-|               Composants                | Niv. |  Type  | Rang |              B               | D |
-|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
-| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
-
-`CAST "Create An Amulet of True Sight"`  
-
 ### Créer un [anneau d'Invisibilité]
 
 <!-- cspell:disable -->
@@ -238,6 +219,22 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create A Ring of Invisibility"`  
+
+### Créer une [[amulette-de-vision-decuplee]]
+
+<!-- cspell:disable -->
+*Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
+<!-- cspell:enable -->
+
+:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
+    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
+
+|               Composants                | Niv. |  Type  | Rang |              B               | D |
+|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |   |
+
+`CAST "Create An Amulet of True Sight"`  
 
 ### Insomnie
 
@@ -288,10 +285,10 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ## Niveau 8
 
-### Schöne Träume
+### De beaux rêves
 
 <!-- cspell:disable -->
-*(EN), Schöne Träume (DE)*.
+*Pleasant Dreams (EN), Schöne Träume (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort permet au Dreamweaver d'affecter le sommeil de toutes les unités alliées de la région, leur donnant un bonus dans toutes les compétences pendant un certain temps.
@@ -300,12 +297,12 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  80 aura   |  8   | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Schöne Träume"`  
+`CAST [REGION x y] "Pleasant Dreams"`  
 
-### Traumbilder entwirren
+### Délivrance des rêves
 
 <!-- cspell:disable -->
-*(EN), Traumbilder entwirren (DE)*.
+*Remove Dreams (EN), Traumbilder entwirren (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort permet au tisserand de rêves de distinguer et de démêler les images oniriques naturelles et forcées d'une personne, d'un bâtiment, d'un bateau ou d'une région.
@@ -314,7 +311,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
 | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+`CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
 ## Niveau 9
 
@@ -334,10 +331,10 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ## Niveau 10
 
-### Schlechte Träume
+### Mauvais rêves
 
 <!-- cspell:disable -->
-*(EN), Schlechte Träume (DE)*.
+*Bad Dreams (EN), Schlechte Träume (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort permet au Rêveur de perturber le sommeil de toutes les unités non alliées (`HELP GUARD`) de la région à tel point qu'elles perdent temporairement une partie de leurs souvenirs.
@@ -346,14 +343,14 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
 |  90 aura   |  10  | Normal |  5   |   | :material-check:{ .success } |
 
-`CAST [REGION x y] "Schlechte Träume"`  
+`CAST [REGION x y] "Bad Dreams"`  
 
 ## Niveau 11
 
-### Tod des Geistes
+### Mort mentale
 
 <!-- cspell:disable -->
-*(EN), Tod des Geistes (DE)*.
+*Mental Death (EN), Tod des Geistes (DE)*.
 <!-- cspell:enable -->
 
 :   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.  
@@ -365,14 +362,14 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 2 x N aura |  11  | Pré-c. |  5   |   |   |
 
-`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
+`COMBATSPELL [LEVEL n] "Mental Death"`  
 
 ## Niveau 12
 
-### Süße Träume
+### De doux rêves
 
 <!-- cspell:disable -->
-*(EN), Süße Träume (DE)*.
+*Sweet Dreams (EN), Süße Träume (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.  
@@ -383,7 +380,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 | 5 x N aura |  12  | Normal |  5   |   |   |
 
-`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Sweet Dreams" <unit-id> [<unit-id> ...]`  
 
 ## Niveau 13
 
@@ -407,7 +404,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 ### Créer un [[dreameye]]
 
 <!-- cspell:disable -->
-*Create A DreamEye (EN), Erschaffe ein Traumauge (DE)*.
+*Create a Visioneye (EN), Erschaffe ein Traumauge (DE)*.
 <!-- cspell:enable -->
 
 :   Un œil de dragon lancé avec ce sort est consommé lors de la communion, ce qui permet à l'utilisateur d'entrer et de lire les rêves d'une autre personne.  
@@ -420,6 +417,6 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
 | 1 [[tete-de-dragon]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |   |
 
-`CAST "Create A DreamEye"`  
+`CAST "Create a Visioneye"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->

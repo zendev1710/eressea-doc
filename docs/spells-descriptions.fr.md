@@ -118,10 +118,10 @@ alias: description-des-sorts
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
-### Aufruhr beschwichtigen <!-- TODO -->
+### Apaisement des émeutes
 
 <!-- cspell:disable -->
-*(EN), Aufruhr beschwichtigen (DE)*.
+*Calm Riot (EN), Aufruhr beschwichtigen (DE)*.
 <!-- cspell:enable -->
 
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
@@ -131,23 +131,42 @@ alias: description-des-sorts
 |:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
 |  C  |  30 aura   |  15  | Normal |  5   |        | :material-check:{ .success } |
 
-`CAST [REGION x y] "Aufruhr beschwichtigen"`  
+`CAST [REGION x y] "Calm Riot"`  
 
-### Aufruhr verursachen <!-- TODO -->
+### Aperçu sur la réalité
 
 <!-- cspell:disable -->
-*(EN),  (DE)*.
+*Gaze Upon Reality (EN), Blick in die Realität (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
-    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
-    Après quelques semaines, la foule se calme à nouveau.
+:   Grâce à ce sort, le mage peut regarder du plan Astral vers le plan matériel et reconnaître avec précision les régions et les unités.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  C  |  40 aura   |  16  | Normal |  5   |        | :material-check:{ .success } |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  |  40 aura   |  10  | Normal |  5   |        |       |
 
-`CAST [REGION x y] "Aufruhr verursachen"`  
+`CAST "Gaze Upon Reality"`  
+
+### Art subtil de la persuasion
+
+<!-- cspell:disable -->
+*High art of persuasion (EN), Hohe Kunst der Überzeugung (DE)*.
+<!-- cspell:enable -->
+
+<div class="lore-dialogue">
+"À Weilersweide, près du port de Wythar, se trouve une petite auberge rarement visitée.
+Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
+Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
+Il accepta de me révéler, à contrecœur, le secret de son éloquence."
+</div>
+
+Extrait de « Errants » de Firudin le Sage.
+
+| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 20 x N aura |  14  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "High art of persuasion"`  
 
 ## B
 
@@ -166,11 +185,10 @@ alias: description-des-sorts
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
-### Bâton de Mallorn  
+### Bâton de Mallorn
 
-<!-- TODO: check if it's really mallorn quarterstaff -->
 <!-- cspell:disable -->
-*Mallorn quarterstaff (EN), Segne Mallornstecken (DE)*.
+*Bless Mallorn Logs (EN), Segne Mallornstecken (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
@@ -180,24 +198,7 @@ alias: description-des-sorts
 |:---:|:---------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
 |  G  | 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |        | :material-check:{ .success } |
 
-`CAST [REGION x y] [LEVEL n] "Mallorn Quarterstaff "`  
-
-### Belebtes Gestein <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Belebtes Gestein (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel énergivore utilise une boule de laen concentré pour invoquer un énorme élémentaire de terre et le bannir dans un bâtiment.  
-    L'élémentaire peut alors recevoir l'ordre de transporter le bâtiment et tous ses habitants vers une région voisine.  
-    La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
-    Le bâtiment ne sortira pas indemne de cette procédure.
-
-| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 10 x N aura, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Belebtes Gestein" <building-id> <direction>`  
+`CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
 ### Bénédiction de la terre
 
@@ -205,7 +206,6 @@ alias: description-des-sorts
 *Blessed Harvest (EN), Segen der Erde (DE)*.
 <!-- cspell:enable -->
 
-<!-- TODO: check description -->
 :   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
@@ -215,36 +215,21 @@ alias: description-des-sorts
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
-### Beschwöre Schattenmeister <!-- TODO -->
+### Bénédiction du cercle de pierres
 
 <!-- cspell:disable -->
-*(EN), Beschwöre Schattenmeister (DE)*.
+*Bless Stone Circle (EN), Segne Steinkreis (DE)*.
 <!-- cspell:enable -->
 
-:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.  
-    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.  
-    Au combat, les maîtres de l’ombre sont des adversaires redoutés.  
-    Ils sont difficiles à frapper et drainent la force et la vie de leur adversaire.
+:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
+    La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
+    On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 7 x N aura |  12  | Normal |  5   |        |       |
+| Éc. |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  G  | 350 aura, 5 aura permanents |  11  | Normal |  5   |        |       |
 
-`CAST [LEVEL n] "Beschwöre Schattenmeister"`  
-
-### Blick in die Realität <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Blick in die Realität (DE)*.
-<!-- cspell:enable -->
-
-:   Grâce à ce sort, le mage peut regarder du plan Astral vers le plan matériel et reconnaître avec précision les régions et les unités.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  |  40 aura   |  10  | Normal |  5   |        |       |
-
-`CAST "Blick in die Realität"`  
+`CAST "Bless Stone Circle" <building-id>`  
 
 ### Bouclier aérien
 
@@ -263,9 +248,8 @@ alias: description-des-sorts
 
 ### Bouclier d'armure
 
-<!-- TODO: check if it is really Armor Shield -->
 <!-- cspell:disable -->
-*Armor Shield (EN), Rüstschild (DE)*.
+*Shield Shine (EN), Rüstschild (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel, qui peut être lancé avant le combat, confère à vos troupes un bonus supplémentaire à leur armure.  
@@ -275,7 +259,7 @@ alias: description-des-sorts
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
 |  T  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
-`COMBATSPELL [LEVEL n] "Armor Shield"`  
+`COMBATSPELL [LEVEL n] "Shield Shine"`  
 
 ### Bouclier du poisson
 
@@ -465,6 +449,68 @@ alias: description-des-sorts
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
+### Chant de l'esprit de jouvence
+
+<!-- cspell:disable -->
+*Song of the Youthful Spirit (EN), Gesang des wachen Geistes (DE)*.
+<!-- cspell:enable -->
+
+:   Ce chant magique, autrefois chanté avec ferveur, va se répandre dans toute la région, sauter de bouche en bouche et se faire entendre partout pendant un moment.  
+    Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.  
+    Jusqu'à ce que la chanson disparaisse complètement, sa magie accordera à tous les alliés du barde (`HELP GUARD`), et bien sûr à son propre peuple, un bonus unique de 15 % à la résistance naturelle à un enchantement.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  | 2 x N aura |  10  | Normal |  2   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
+
+### Chant de l'esprit vieillissant
+
+<!-- cspell:disable -->
+*Song of the Aging Spirit (EN), Gesang des schwachen Geistes (DE)*.
+<!-- cspell:enable -->
+
+:   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
+    Seuls les alliés du barde (`HELP GUARD`) sont immunisés contre l'effet de la chanson.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  | 2 x N aura |  12  | Normal |  2   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
+
+### Chant de mélancolie
+
+<!-- cspell:disable -->
+*Song of Melancholy (EN), Gesang der Melancholie (DE)*.
+<!-- cspell:enable -->
+
+:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
+    Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  |  40 aura   |  11  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Song of Melancholy"`  
+
+### Chant de paix
+
+<!-- cspell:disable -->
+*Song of Peace (EN), Gesang der Friedfertigkeit (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort puissant empêche toute attaque.  
+    Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
+    Les effets peuvent durer plusieurs semaines.
+
+| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 20 x N aura |  12  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Song of Peace"`  
+
 ### Chant de séduction
 
 <!-- cspell:disable -->
@@ -479,6 +525,21 @@ alias: description-des-sorts
 |  C  |  12 aura   |  6   | Normal |  5   |        |       |
 
 `CAST "Song of Seduction" <unit-id>`  
+
+### Chant de servitude
+
+<!-- cspell:disable -->
+*Song of Slavery (EN), Gesang der Versklavung (DE)*.
+<!-- cspell:enable -->
+
+:   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
+    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir à la faciton du barde.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  |  40 aura   |  13  | Normal |  5   |        |       |
+
+`CAST "Song of Slavery" <unit-id>`  
 
 ### Chant de terreur
 
@@ -525,21 +586,6 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
 
-### Chaossog <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Chaossog (DE)*.
-<!-- cspell:enable -->
-
-:   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
-    Le portail peut être utilisé la semaine suivante, il se dissout à la fin de la semaine suivante.
-
-| Éc. |      Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 150 aura, 200 paysans |  14  | Normal |  5   |        |       |
-
-`CAST Chaossog`  
-
 ### Château d'Illusion
 
 <!-- cspell:disable -->
@@ -558,9 +604,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 ### Chevaliers de l'Ombre
 
-<!-- TODO: checkif it is Schattenritter or Schattenritteren for German CAST -->
 <!-- cspell:disable -->
-*Shadow Knights (EN), Schattenritteren (DE)*.
+*Shadow Knights (EN), Schattenritter (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sort peut donner à l'ennemi une image légèrement différente de ses propres troupes.  
@@ -577,10 +622,10 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 <!-- cspell:disable -->
 *Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
 <!-- cspell:enable -->
-<!-- TODO: fix MAKE orders -->
+
 :   Plus le mage investit de puissance, plus de golems peuvent être créés.  
     Chaque golem a 15 % de chances de se transformer en poussière à chaque tour.  
-    Si vous donnez aux golems l'ordre `MAKE Sword | Claymore` ou `MAKE Shield | CHAIN ​​​​MAIL | PLATE ARMOR`, 4 fer sont consommés par golem et le golem se dissout.
+    Si vous donnez aux golems l'ordre `MAKE SWORD/CLAYMORE` ou `MAKE SHIELD/CHAIN​​​​MAIL/PLATEMAIL`, 4 fers sont consommés par golem et le golem se dissout.
 
 | Éc. |                                         Composants                                         | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
@@ -658,7 +703,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 ### Créer un [DreamEye][dreameye]{title="DreamEye"}
 
 <!-- cspell:disable -->
-*Create A DreamEye (EN), Erschaffe ein Traumauge (DE)*.
+*Create a Visioneye (EN), Erschaffe ein Traumauge (DE)*.
 <!-- cspell:enable -->
 
 :   Un œil de dragon lancé avec ce sort est consommé lors de la communion, ce qui permet à l'utilisateur d'entrer et de lire les rêves d'une autre personne.  
@@ -671,7 +716,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
 |  I  | 1 [[tete-de-dragon]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST "Create A DreamEye"`  
+`CAST "Create a Visioneye"`  
 
 ### Créer un [[sac-a-herbes-magique]]
 
@@ -688,10 +733,10 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A magical Herb Pouch"`
 
-### Créer un [[sac-a-poids-negatif]] <!-- TODO: check -->
+### Créer un [[sac-sans-fond]]
 
 <!-- cspell:disable -->
-*Create A Bag of Negative Weight (EN), Erschaffe einen Beutel des Negativen Gewichts (DE)*.
+*Create A Bag of Holding (EN), Erschaffe einen Beutel des Negativen Gewichts (DE)*.
 <!-- cspell:enable -->
 
 :   Ce sac renferme un petit pli dimensionnel dans lequel jusqu'à 200 unités de poids peuvent être transportées sans être comptées dans le poids transporté.  
@@ -702,7 +747,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
 |  T  | 30 aura, 1 aura permanent, 5 000 silver |  10  | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+`CAST "Create A Bag of Holding"`
 
 ### Créer une [[amulette-de-vision-decuplee]]
 
@@ -714,7 +759,6 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
-<!-- TODO: check if it's only Cerdorr or not -->
 |  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:------:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
 | \*[^1] | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |       |
@@ -785,6 +829,50 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
+### De beaux rêves
+
+<!-- cspell:disable -->
+*(EN), Schöne Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au Dreamweaver d'affecter le sommeil de toutes les unités alliées de la région, leur donnant un bonus dans toutes les compétences pendant un certain temps.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |  80 aura   |  8   | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Schöne Träume"`  
+
+### De doux rêves
+
+<!-- cspell:disable -->
+*Sweet Dreams (EN), Süße Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.  
+    Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.  
+    La plupart du temps, ils le regrettent quelques semaines plus tard...
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 5 x N aura |  12  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Sweet Dreams" <unit-id> [<unit-id> ...]`  
+
+### Délivrance des rêves
+
+<!-- cspell:disable -->
+*Remove Dreams (EN), Traumbilder entwirren (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au tisserand de rêves de distinguer et de démêler les images oniriques naturelles et forcées d'une personne, d'un bâtiment, d'un bateau ou d'une région.
+
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
+|  I  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
+
+`CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
 ### Dévoreur de magie
 
 <!-- cspell:disable -->
@@ -798,6 +886,21 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  | 4 x N aura |  5   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+### Diable de feu
+
+<!-- cspell:disable -->
+*Fire Fiend (EN), Feuerteufel (DE)*.
+<!-- cspell:enable -->
+
+:   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
+    Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
+
+| Éc. |               Composants               | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Fire Fiend"`  
 
 ### Dirigeable
 
@@ -846,9 +949,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ### Divination
 
-<!-- TODO: check if it is Wahrsagen or Weissagung in CAST german order -->
 <!-- cspell:disable -->
-*Divination (EN), Weissagung (DE)*.
+*Divination (EN), Wahrsagen (DE)*.
 <!-- cspell:enable -->
 
 :   Nul ne sait interpréter les rêves aussi bien qu'un mage Illaun.  
@@ -877,6 +979,24 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
+
+### Doigts de fée
+
+<!-- cspell:disable -->
+*Quick Fingers (EN), Miriams flinke Finger (DE)*.
+<!-- cspell:enable -->
+
+:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
+    On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
+    Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
+    On dit qu’elle a également exploité cela ailleurs; sa réputation de tricheuse de cartes était notoire.  
+    Les artisans peuvent ainsi produire 10 fois plus, ce qui pourrait également être utile dans d'autres activités.
+
+| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  C  | 20 aura, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :material-check:{ .success } |       |
+
+`CAST "Quick Fingers"`  
 
 ### Don du Chaos
 
@@ -911,6 +1031,22 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
+### Émeutes
+
+<!-- cspell:disable -->
+*Riot (EN), Aufruhr verursachen (DE)*.
+<!-- cspell:enable -->
+
+:   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
+    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
+    Après quelques semaines, la foule se calme à nouveau.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  C  |  40 aura   |  16  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Riot"`  
+
 ### Endormissement
 
 <!-- cspell:disable -->
@@ -941,6 +1077,21 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
+### Étirement du temps
+
+<!-- cspell:disable -->
+*Double Time (EN), Zeitdehnung (DE)*.
+<!-- cspell:enable -->
+
+:   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
+    Les personnes ainsi modifiées obtiennent deux fois plus de points de mouvement et deux fois plus d'attaques par round pendant quelques semaines.
+
+| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  T  | 5 x N aura |  11  | Normal |  5   | :material-check:{ .success } |       |
+
+`CAST [LEVEL n] "Double Time" <unit-id> [<unit-id> ...]`  
+
 ### Éveil des [Ents][ents]
 
 <!-- cspell:disable -->
@@ -958,21 +1109,6 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## F
 
-### Feuerteufel <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Feuerteufel (DE)*.
-<!-- cspell:enable -->
-
-:   Cette invocation élémentaire invoque un diable de feu, une créature venue des profondeurs des enfers enflammés.  
-    Le diable du feu se jettera avec impatience sur les forêts de la région et les incendiera.
-
-| Éc. |               Composants               | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:--------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  D  | 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] Feuerteufel`  
-
 ### Folie de la guerre
 
 <!-- cspell:disable -->
@@ -987,6 +1123,21 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  | 3 x N aura, 10 paysans |  8   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
+
+### Force impie
+
+<!-- cspell:disable -->
+*Unholy Strength (EN), Unheilige Kraft (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
+    En invoquant des démons impies, le pouvoir des morts-vivants est amplifié et ils se transforment en monstres morts-vivants d'une grande puissance.
+
+| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 10 x N aura, 5 x N paysans |  14  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
 
 ### Fuite de l'Astral
 
@@ -1020,82 +1171,22 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
 
-### Gesang der Friedfertigkeit <!-- TODO -->
+### Grande sécheresse
 
 <!-- cspell:disable -->
-*(EN), Gesang der Friedfertigkeit (DE)*.
+*Great Drought (EN), Tor in die Ebene der Hitze (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort puissant empêche toute attaque.  
-    Personne dans toute la région n’est capable de prendre les armes contre qui que ce soit.  
-    Les effets peuvent durer plusieurs semaines.
-
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 20 x N aura |  12  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Gesang der Friedfertigkeit"`  
-
-### Gesang der Melancholie  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Gesang der Melancholie (DE)*.
-<!-- cspell:enable -->
-
-:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
-    Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
+:   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
+    Une grande sécheresse s'annonce dans le pays.  
+    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
+    La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  C  |  40 aura   |  11  | Normal |  5   |        | :material-check:{ .success } |
+|  G  |  800 aura  |  17  | Normal |  5   |        | :material-check:{ .success } |
 
-`CAST [REGION x y] "Gesang der Melancholie"`  
-
-### Gesang der Versklavung  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Gesang der Versklavung (DE)*.
-<!-- cspell:enable -->
-
-:   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
-    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir à la faciton du barde.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  |  40 aura   |  13  | Normal |  5   |        |       |
-
-`CAST "Gesang der Versklavung" <unit-id>`  
-
-### Gesang des schwachen Geistes  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Gesang des schwachen Geistes (DE)*.
-<!-- cspell:enable -->
-
-:   Tissée dans l'essence magique de la région, cette chanson affaiblit une fois la résistance naturelle à un enchantement de 15 %.  
-    Seuls les alliés du barde (`HELP GUARD`) sont immunisés contre l'effet de la chanson.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  C  | 2 x N aura |  12  | Normal |  2   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Gesang des schwachen Geistes"`  
-
-### Gesang des wachen Geistes  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Gesang des wachen Geistes (DE)*.
-<!-- cspell:enable -->
-
-:   Ce chant magique, autrefois chanté avec ferveur, va se répandre dans toute la région, sauter de bouche en bouche et se faire entendre partout pendant un moment.  
-    Le nombre de semaines pendant lesquelles la chanson disparaît de la mémoire de la région dépend de l'habileté du barde.  
-    Jusqu'à ce que la chanson disparaisse complètement, sa magie accordera à tous les alliés du barde (`HELP GUARD`), et bien sûr à son propre peuple, un bonus unique de 15 % à la résistance naturelle à un enchantement.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  C  | 2 x N aura |  10  | Normal |  2   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Gesang des wachen Geistes"`  
+`CAST [REGION x y] "Great Drought"`  
 
 ### Grêle
 
@@ -1150,7 +1241,6 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 *Hangover (EN), Schaler Wein (DE)*.
 <!-- cspell:enable -->
 
-<!-- TODO: trématode à nœuds ??? c'est quoi ? -->
 :   Enregistrement de la conférence de Selen Ard'Ragorn à Bar'Glingal :  
     « On dit que ce dicton trouve son origine dans les tavernes des rues de l'Ouest, mais il pourrait tout aussi bien provenir de n'importe quel autre quartier peu recommandable.  
     Son ingrédient le plus important est un tonneau du pire vin; plus l'essence est bon marché et malsaine, plus elle est puissante.  
@@ -1186,43 +1276,6 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  |   N aura   |  9   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
-
-### Hitzeelementar  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Hitzeelementar (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel invoque des élémentaires de chaleur en colère.  
-    Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.  
-    Il n’y a pratiquement pas de travail dans l’agriculture pour les journaliers.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  |  600 aura  |  13  | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] Hitzeelementar`  
-
-### Hohe Kunst der Überzeugung  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Hohe Kunst der Überzeugung (DE)*.
-<!-- cspell:enable -->
-
-<div class="lore-dialogue">
-"À Weilersweide, près du port de Wythar, se trouve une petite auberge rarement visitée.
-Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
-Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
-Il accepta de me révéler, à contrecœur, le secret de son éloquence."
-</div>
-
-Extrait de « Errants » de Firudin le Sage.
-
-| Éc. | Composants  | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:-----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 20 x N aura |  14  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Hohe Kunst der Überzeugung"`  
 
 ### Horreurs indicibles
 
@@ -1262,7 +1315,6 @@ Extrait de « Errants » de Firudin le Sage.
 
 :   Avec l'aide de ce sort, le mage peut transférer sa propre aura dans un rapport de 2:1 à un autre mage de la même École de Magie.
 
-<!-- TODO: check values below -->
 | Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
 |  C  |   2 aura   |  5   | Normal |  1   | :material-check:{ .success } |       |
@@ -1331,7 +1383,7 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Invocation de l'Eau
+### Invocation d'un Élémentaire d'Eau
 
 <!-- cspell:disable -->
 *Summon Water Elemental (EN), Beschwörung eines Wasserelementares (DE)*.
@@ -1345,6 +1397,37 @@ Extrait de « Errants » de Firudin le Sage.
 |  G  |   N aura   |  4   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Summon Water Elemental" <ship-id>`  
+
+### Invocation d'un Élémentaire de Feu
+
+<!-- cspell:disable -->
+*Summon Fire Elemental (EN), Hitzeelementar (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque des élémentaires de chaleur en colère.  
+    Une sécheresse ravage le pays. Les arbres se fanent, les animaux meurent et les récoltes échouent.  
+    Il n’y a pratiquement pas de travail dans l’agriculture pour les journaliers.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  |  600 aura  |  13  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] Summon Fire Elemental`  
+
+### Invocation d'un Élémentaire de Terre
+
+<!-- cspell:disable -->
+*Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
+    Ce tremblement de terre endommagera tous les bâtiments de la région.
+
+| Éc. |    Composants     | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-----------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 25 aura, 2 [laen] |  7   | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Summon Earth Elemental"`  
 
 ### Invocation de la Réalité
 
@@ -1360,38 +1443,6 @@ Extrait de « Errants » de Firudin le Sage.
 |  T  | 2 x N aura |  6   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
-
-### Invocation de la Tempête
-
-<!-- cspell:disable -->
-*Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
-<!-- cspell:enable -->
-
-:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.  
-    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
-    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
-    Un esprit élémentaire est requis pour chaque vaisseau.
-
-| Éc. | Composants | Niv. |  Type  | Rang |              Bateau              | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
-|  G  | 6 x N aura |  6   | Normal |  5   | :material-check:{ .success }[^3] |       |
-
-`CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
-
-### Invocation de la Terre
-
-<!-- cspell:disable -->
-*Summon Earth Elemental (EN), Beschwöre einen Erdelementar (DE)*.
-<!-- cspell:enable -->
-
-:   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
-    Ce tremblement de terre endommagera tous les bâtiments de la région.
-
-| Éc. |    Composants     | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:-----------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 25 aura, 2 [laen] |  7   | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] "Summon Earth Elemental"`  
 
 ### Invocation des Démons de l'Ombre
 
@@ -1409,6 +1460,40 @@ Extrait de « Errants » de Firudin le Sage.
 |  D  | 3 x N aura |  8   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
+
+### Invocation des Élémentaires des Tempêtes
+
+<!-- cspell:disable -->
+*Summon Storm Elemental (EN), Beschwöre einen Sturmelementar (DE)*.
+<!-- cspell:enable -->
+
+:   L'invocation des esprits élémentaires des tempêtes est un rituel ancien.  
+    Le druide bannit les élémentaires dans les voiles des bateaux, où ils aident à transporter le bateau sur les vagues à grande vitesse.  
+    Plus le druide investit de puissance dans le sort, plus le nombre d'esprits élémentaires pouvant être bannis est grand.  
+    Un esprit élémentaire est requis pour chaque vaisseau.
+
+| Éc. | Composants | Niv. |  Type  | Rang |              Bateau              | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
+|  G  | 6 x N aura |  6   | Normal |  5   | :material-check:{ .success }[^3] |       |
+
+`CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
+
+### Invocation des Maîtres de l'Ombre
+
+<!-- cspell:disable -->
+*Summon Shadowmasters (EN), Beschwöre Schattenmeister (DE)*.
+<!-- cspell:enable -->
+
+:   À l’aide de rituels sombres, le mage invoque des démons depuis la sphère des ombres.  
+    Ces créatures redoutées peuvent se déplacer de manière presque invisible parmi les vivants, mais leur aura sombre peut être ressentie par tout le monde.  
+    Au combat, les maîtres de l’ombre sont des adversaires redoutés.  
+    Ils sont difficiles à frapper et drainent la force et la vie de leur adversaire.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 7 x N aura |  12  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Summon Shadowmasters"`  
 
 ### Invocation du Dragon
 
@@ -1508,6 +1593,21 @@ Extrait de « Errants » de Firudin le Sage.
 
 ## M
 
+### Maelstrom
+
+<!-- cspell:disable -->
+*Maelstrom (EN), Mahlstrom (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
+    L'élémentaire crée un énorme tourbillon, un maelstrom, qui peut gravement endommager tous les bateaux qui le traversent.
+
+| Éc. |                                       Composants                                       | Niv. |  Type  | Rang |              Bateau              | Dist. |
+|:---:|:--------------------------------------------------------------------------------------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
+|  G  | 200 aura, 1 [tête de serpent de mer][tete-de-serpent-de-mer]{title="Sea Serpent Head"} |  15  | Normal |  5   | :material-check:{ .success }[^3] |       |
+
+`CAST "Maelstrom"`  
+
 ### Magie du bosquet de chêne
 
 <!-- cspell:disable -->
@@ -1521,21 +1621,6 @@ Extrait de « Errants » de Firudin le Sage.
 |  G  | 4 x N aura, N [bois][bois]{title="Wood"},, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
-
-### Mahlstrom  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Mahlstrom (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel invoque un grand élémentaire d'eau des profondeurs de l'océan.  
-    L'élémentaire crée un énorme tourbillon, un maelström, qui peut gravement endommager tous les bateaux qui le traversent.
-
-| Éc. |             Composants             | Niv. |  Type  | Rang |              Bateau              | Dist. |
-|:---:|:----------------------------------:|:----:|:------:|:----:|:--------------------------------:|:-----:|
-|  G  | 200 aura, 1 tête de serpent de mer |  15  | Normal |  5   | :material-check:{ .success }[^3] |       |
-
-`CAST Mahlstrom`  
 
 ### Malédiction de la peste
 
@@ -1566,6 +1651,20 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
+### Mauvais rêves
+
+<!-- cspell:disable -->
+*Bad Dreams (EN), Schlechte Träume (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort permet au Rêveur de perturber le sommeil de toutes les unités non alliées (`HELP GUARD`) de la région à tel point qu'elles perdent temporairement une partie de leurs souvenirs.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  I  |  90 aura   |  10  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Bad Dreams"`  
+
 ### Méditation
 
 <!-- cspell:disable -->
@@ -1579,41 +1678,6 @@ Extrait de « Errants » de Firudin le Sage.
 |  G  |   2 aura   |  6   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
-
-### Miriams flinke Finger  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Miriams flinke Finger (DE)*.
-<!-- cspell:enable -->
-
-:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
-    On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
-    Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
-    On dit qu’elle a également exploité cela ailleurs ; sa réputation de tricheuse de cartes était notoire.  
-    Les artisans peuvent ainsi produire dix fois plus, ce qui pourrait également être utile dans d'autres activités.
-
-| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
-|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
-|  C  | 20 aura, 1 000 silver, 1 aura permanent |  11  | Normal |  5   | :material-check:{ .success } |       |
-
-`CAST "Miriams flinke Finger"`  
-
-### Mob aufwiegeln  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Mob aufwiegeln (DE)*.
-<!-- cspell:enable -->
-
-:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
-    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
-    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
-    Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  C  | 4 x N aura |  10  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Mob aufwiegeln"`  
 
 ### Monstres paisibles
 
@@ -1630,6 +1694,23 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  |  15 aura   |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Calm Monster" <unit-id>`  
+
+### Mort mentale
+
+<!-- cspell:disable -->
+*Mental Death (EN), Tod des Geistes (DE)*.
+<!-- cspell:enable -->
+
+:   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.  
+    Une explosion d'énergie astrale et électrique frappe les adversaires;  
+    si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.  
+    S'il est trop souvent victime de ce sort, il peut mourir.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  I  | 2 x N aura |  11  | Pré-c. |  5   |        |       |
+
+`COMBATSPELL [LEVEL n] "Mental Death"`  
 
 ### Moulin à paroles
 
@@ -1676,6 +1757,23 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Eternal Walls" <building-id>`  
 
+## N
+
+### Nuage de la Mort
+
+<!-- cspell:disable -->
+*Death Cloud (EN), Todeswolke (DE)*.
+<!-- cspell:enable -->
+
+:   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
+    L'esprit se manifeste sous la forme d'un nuage vert vif au-dessus de la région et nuira à tous ceux qui entreront en contact avec lui.
+
+| Éc. |   Composants   | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 40 aura, 15 PV |  11  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Death Cloud"`  
+
 ## O
 
 ### Onde de choc
@@ -1693,27 +1791,12 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] Shockwave`  
 
-### Opfere Kraft  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Opfere Kraft (DE)*.
-<!-- cspell:enable -->
-
-:   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.  
-    Il peut transférer la moitié de la puissance utilisée à un mage de la même École de Magie, et un tiers à d'autres mages.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  |  100 aura  |  15  | Normal |  1   |        |       |
-
-`CAST "Opfere Kraft" <unit-id> <Aura>`  
-
 ## P
 
-### Peau d'écorce  <!-- TODO -->
+### Peau d'écorce
 
 <!-- cspell:disable -->
-*(EN), Rindenhaut (DE)*.
+*Barkskin (EN), Rindenhaut (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel, lancé avant la bataille, confère à vos troupes un bonus d'armure supplémentaire.  
@@ -1723,7 +1806,7 @@ Extrait de « Errants » de Firudin le Sage.
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
 |  G  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
-`COMBATSPELL [LEVEL n] Rindenhaut`  
+`COMBATSPELL [LEVEL n] "Barkskin"`  
 
 ### Pentagramme
 
@@ -1740,6 +1823,22 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  D  | 10 x N aura |  10  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Pentagram ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+### Perturbation de l'Astral
+
+<!-- cspell:disable -->
+*Astral Disruption (EN), Störe Astrale Integrität (DE)*.
+<!-- cspell:enable -->
+
+:   Ce sort provoque de graves perturbations dans l'Astral.  
+    Dans un rayon Astral de régions de niveau 5, tous les êtres astraux qui ne peuvent pas résister au sort sont expulsés du plan Astral.  
+    Le contact Astral avec toutes les régions affectées est perturbé pendant le niveau/3 semaines.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  |  140 aura  |  14  | Normal |  4   |        |       |
+
+`CAST [LEVEL n] "Astral Disruption"`  
 
 ### Petit sacrifice de sang
 
@@ -1810,6 +1909,21 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
+### Portail du Chaos
+
+<!-- cspell:disable -->
+*Chaos Gate (EN), Chaossog (DE)*.
+<!-- cspell:enable -->
+
+:   En sacrifiant 200 paysans, le mage du chaos peut ouvrir une porte vers le monde Astral.  
+    Le portail peut être utilisé la semaine suivante, il se dissout à la fin de la semaine suivante.
+
+| Éc. |      Composants       | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  D  | 150 aura, 200 paysans |  14  | Normal |  5   |        |       |
+
+`CAST "Chaos Gate"`  
+
 ### Portail puissant et Mur robuste
 
 <!-- cspell:disable -->
@@ -1871,6 +1985,38 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
 
 ## R
+
+### Racines de la magie
+
+<!-- cspell:disable -->
+*Roots of Magic (EN), Wurzeln der Magie (DE)*.
+<!-- cspell:enable -->
+
+:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
+    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
+
+| Éc. |                        Composants                        | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:--------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 250 aura, 10 aura permanents, 1  [[pot-of-toadslime-fr]] |  16  | Normal |  5   |        | :material-check:{ .success } |
+
+`CAST [REGION x y] "Roots of Magic"`  
+
+### Ralliement des foules
+
+<!-- cspell:disable -->
+*Mob Rule (EN), Mob aufwiegeln (DE)*.
+<!-- cspell:enable -->
+
+:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
+    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
+    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
+    Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
+
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  C  | 4 x N aura |  10  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Mob Rule"`  
 
 ### Regard du Basilic
 
@@ -1950,9 +2096,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 `CAST "Dream of Magic" <unit-id> <Aura>`  
 
 ### Rêve
-<!-- TODO: understand if it's Traumsenden or Traum -->
 <!-- cspell:disable -->
-*Dream (EN), Traum (DE)*.
+*Dream (EN), Traumsenden (DE)*.
 <!-- cspell:enable -->
 
 :   Le mage envoie un rêve à la cible du sort.
@@ -1963,10 +2108,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] Dream <unit-id>`  
 
-### Ritual der Aufnahme  <!-- TODO -->
+### Rite d'acceptation
 
 <!-- cspell:disable -->
-*(EN), Ritual der Aufnahme (DE)*.
+*Rite of Acceptance (EN), Ritual der Aufnahme (DE)*.
 <!-- cspell:enable -->
 
 :   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
@@ -1980,7 +2125,24 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:-----:|
 |  C  | 3 x N aura, N aura permanents |  9   | Normal |  5   |        |       |
 
-`CAST [LEVEL n] "Ritual der Aufnahme" <unit-id>`  
+`CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
+
+### Roche vivante
+
+<!-- cspell:disable -->
+*Living Rock (EN), Belebtes Gestein (DE)*.
+<!-- cspell:enable -->
+
+:   Ce rituel énergivore utilise une boule de laen concentré pour invoquer un énorme élémentaire de terre et le bannir dans un bâtiment.  
+    L'élémentaire peut alors recevoir l'ordre de transporter le bâtiment et tous ses habitants vers une région voisine.  
+    La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
+    Le bâtiment ne sortira pas indemne de cette procédure.
+
+| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 10 x N aura, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |        |       |
+
+`CAST [LEVEL n] "Living Rock" <building-id> <direction>`  
 
 ### Runes de protection
 
@@ -2001,49 +2163,20 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## S
 
-### Schlechte Träume  <!-- TODO -->
+### Sacrifier la Force
 
 <!-- cspell:disable -->
-*(EN), Schlechte Träume (DE)*.
+*Sacrifice Strength (EN), Opfere Kraft (DE)*.
 <!-- cspell:enable -->
 
-:   Ce sort permet au Rêveur de perturber le sommeil de toutes les unités non alliées (`HELP GUARD`) de la région à tel point qu'elles perdent temporairement une partie de leurs souvenirs.
+:   À l'aide de ce sort, le mage peut transférer définitivement une partie de son pouvoir magique à un autre mage.  
+    Il peut transférer la moitié de la puissance utilisée à un mage de la même École de Magie, et un tiers à d'autres mages.
 
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  I  |  90 aura   |  10  | Normal |  5   |        | :material-check:{ .success } |
+| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  |  100 aura  |  15  | Normal |  1   |        |       |
 
-`CAST [REGION x y] "Schlechte Träume"`  
-
-### Schöne Träume  <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Schöne Träume (DE)*.
-<!-- cspell:enable -->
-
-:   Ce sort permet au Dreamweaver d'affecter le sommeil de toutes les unités alliées de la région, leur donnant un bonus dans toutes les compétences pendant un certain temps.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  I  |  80 aura   |  8   | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] "Schöne Träume"`  
-
-### Segne Steinkreis <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Segne Steinkreis (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
-    La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
-    On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
-
-| Éc. |         Composants          | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  G  | 350 aura, 5 aura permanents |  11  | Normal |  5   |        |       |
-
-`CAST "Segne Steinkreis" <building-id>`  
+`CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
 ### Soif de sang
 
@@ -2076,38 +2209,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Störe Astrale Integrität <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Störe Astrale Integrität (DE)*.
-<!-- cspell:enable -->
-
-:   Ce sort provoque de graves perturbations dans l'Astral.  
-    Dans un rayon Astral de régions de niveau 5, tous les êtres astraux qui ne peuvent pas résister au sort sont expulsés du plan Astral.  
-    Le contact Astral avec toutes les régions affectées est perturbé pendant le niveau/3 semaines.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  |  140 aura  |  14  | Normal |  4   |        |       |
-
-`CAST [LEVEL n] "Störe Astrale Integrität"`  
-
-### Süße Träume <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Süße Träume (DE)*.
-<!-- cspell:enable -->
-
-:   Ce sortilège dont l'usage est strictement interdit dans la plupart des cultures déclenche chez la victime un désir incontrôlable d'amour physique.  
-    Les individus concernés se précipiteront à corps perdu dans une histoire d'amour, trop aveuglés par le désir de penser à autre chose.  
-    La plupart du temps, ils le regrettent quelques semaines plus tard...
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 5 x N aura |  12  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Süße Träume" <unit-id> [<unit-id> ...]`  
-
 ## T
 
 ### Terre Sacrée
@@ -2124,55 +2225,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | 80 aura, 3 aura permanents |  9   | Normal |  5   |        |       |
 
 `CAST "Sacred Ground"`  
-
-### Tod des Geistes <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Tod des Geistes (DE)*.
-<!-- cspell:enable -->
-
-:   Avec ce sort, le mage attaque directement l'esprit de ses adversaires.  
-    Une explosion d'énergie astrale et électrique frappe les adversaires;  
-    si la résistance magique est brisée, la victime perd définitivement une partie de ses souvenirs.  
-    S'il est trop souvent victime de ce sort, il peut mourir.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
-|  I  | 2 x N aura |  11  | Pré-c. |  5   |        |       |
-
-`COMBATSPELL [LEVEL n] "Tod des Geistes"`  
-
-### Todeswolke <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Todeswolke (DE)*.
-<!-- cspell:enable -->
-
-:   Avec un sombre rituel et en sacrifiant son propre sang, le mage noir invoque un grand esprit du plan élémentaire des poisons.  
-    L'esprit se manifeste sous la forme d'un nuage vert vif au-dessus de la région et nuira à tous ceux qui entreront en contact avec lui.
-
-| Éc. |   Composants   | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:--------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  D  | 40 aura, 15 PV |  11  | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] Todeswolke`  
-
-### Tor in die Ebene der Hitze <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Tor in die Ebene der Hitze (DE)*.
-<!-- cspell:enable -->
-<!-- TODO: confirm it's a gwyrrd only -->
-:   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
-    Une grande sécheresse s'annonce dans le pays.  
-    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
-    La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
-
-| Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  |  800 aura  |  17  | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] "Tor in die Ebene der Hitze"`  
 
 ### Tourbillon
 
@@ -2216,37 +2268,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  D  |   2 aura   |  7   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer Power" <unit-id> <Aura>`  
-
-### Traumbilder entwirren
-
-<!-- cspell:disable -->
-*(EN), Traumbilder entwirren (DE)*.
-<!-- cspell:enable -->
-
-:   Ce sort permet au tisserand de rêves de distinguer et de démêler les images oniriques naturelles et forcées d'une personne, d'un bâtiment, d'un bateau ou d'une région.
-
-| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
-|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
-|  I  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
-
-`CAST [REGION x y] [LEVEL n] "Traumbilder entwirren" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
-
-## U
-
-### Unheilige Kraft <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Unheilige Kraft (DE)*.
-<!-- cspell:enable -->
-
-:   Ce rituel n’est transmis aux adeptes des académies obscures qu’à voix basse, car c’est l’un des plus sombres jamais écrits.  
-    En invoquant des démons impies, le pouvoir des morts-vivants est amplifié et ils se transforment en monstres morts-vivants d'une grande puissance.
-
-| Éc. |         Composants         | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:--------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  D  | 10 x N aura, 5 x N paysans |  14  | Normal |  5   |        |       |
-
-`CAST [LEVEL n] "Unheilige Kraft" <unit-id> [<unit-id> ...]`  
 
 ## V
 
@@ -2327,40 +2348,6 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  | 2 x N aura |  6   | Normal |  3   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
-
-## W
-
-### Wurzeln der Magie <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Wurzeln der Magie (DE)*.
-<!-- cspell:enable -->
-
-:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
-    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
-
-| Éc. |                     Composants                     | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:--------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 250 aura, 10 aura permanents, 1  [[cream-puff-fr]] |  16  | Normal |  5   |        | :material-check:{ .success } |
-
-`CAST [REGION x y] "Wurzeln der Magie"`  
-
-## Z
-
-### Zeitdehnung <!-- TODO -->
-
-<!-- cspell:disable -->
-*(EN), Zeitdehnung (DE)*.
-<!-- cspell:enable -->
-
-:   Cette application pratique des connaissances théoriques sur l’espace et le temps permet de modifier l’écoulement du temps pour certaines personnes.  
-    Les personnes ainsi modifiées obtiennent deux fois plus de points de mouvement et deux fois plus d'attaques par round pendant quelques semaines.
-
-| Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
-|:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
-|  T  | 5 x N aura |  11  | Normal |  5   | :material-check:{ .success } |       |
-
-`CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
 
 ## Voir aussi
 

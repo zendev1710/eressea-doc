@@ -1,11 +1,11 @@
 ---
 # cSpell:locale fr
-alias: sac-a-poids-negatif
+alias: sac-sans-fond
 ---
-# Sac à poids négatif
+# Sac sans fond
 
 <!-- cspell:disable -->
-*Negative Weight Bag (EN), Beutel des Negativen Gewichts (DE)*.
+*Sack of holding (EN), Beutel des Negativen Gewichts (DE)*.
 <!-- cspell:enable -->
 
 <!-- TODO add documentation for this file that was initially empty -->

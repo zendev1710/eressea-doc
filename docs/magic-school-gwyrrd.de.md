@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: gwyrrdzauber
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Gwyrrdzauber
 
 ## Stufe 1
@@ -17,9 +19,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
     Jeder Golem hat jede Runde eine Chance von 10 Prozent zu Staub zu zerfallen.  
     Gibt man den Golems die Befehle MACHE BURG oder MACHE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
 
-|                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 2 x T aura, T [steine][stein], 1 [wasser des lebens] |   1   | Normal |  4   |        |       |
+|                               Komponenten                               | Stufe |  Art   | Rang | Schiff | Fern. |
+|:-----------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 2 x T aura, T [steine][stein], 1 [wasser des lebens][wasser-des-lebens] |   1   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Steingolems'`  
 
@@ -53,9 +55,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
     Jeder Golem hat jede Runde eine Chance von 15 Prozent zu Staub zu zerfallen.  
     Gibt man den Golems den Befehl MACHE SCHWERT/BIHÄNDER oder MACHE SCHILD/KETTENHEMD/PLATTENPANZER, so werden pro Golem 4 Eisenbarren verbaut und der Golem löst sich auf.  
 
-|                 Komponenten                  | Stufe |  Art   | Rang | Schiff | Fern. |
-|:--------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 2 x T aura, T [eisen], 1 [wasser des lebens] |   2   | Normal |  4   |        |       |
+|                              Komponenten                               | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 2 x T aura, T [eisen][eisen], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Eisengolems'`  
 
@@ -63,9 +65,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 
 :   Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-|                 Komponenten                 | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:-------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-| 4 x T aura, T [holz], 1 [wasser des lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
+|                             Komponenten                              | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:--------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 4 x T aura, T [holz][holz], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Hainzauber`  
 
@@ -127,9 +129,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
     Selbst Sümpfe und Gletscher können so verzaubert werden.  
     Je mehr Kraft der Magier in den Bann legt, desto länger bleibt die Straße bestehen.  
 
-|         Komponenten         | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
-|:---------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
-| T aura, 1 [stein], 1 [holz] |   4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+|               Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+| T aura, 1 [stein][stein], 1 [holz][holz] |   4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Magischer Pfad'`  
 
@@ -138,9 +140,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.  
     Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-|                   Komponenten                   | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:-----------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-| 6 x T aura, T [mallorns], 1 [wasser des lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
+|                                  Komponenten                                   | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:------------------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 6 x T aura, T [mallorns][mallorn-de], 1 [wasser des lebens][wasser-des-lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segne Mallornstecken'`  
 
@@ -181,9 +183,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
 
-|                    Komponenten                    | Stufe |  Art   | Rang |            Schiff            | Fern. |
-|:-------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
-| 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
+|                             Komponenten                              | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:--------------------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 30 aura, 1 permanente aura, 1 [wasser des lebens][wasser-des-lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
 
@@ -214,9 +216,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.  
     Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
 
-|    Komponenten    | Stufe |  Art   | Rang | Schiff |            Fern.             |
-|:-----------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
-| 25 aura, 2 [laen] |   7   | Normal |  5   |        | :material-check:{ .success } |
+|        Komponenten         | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:--------------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 25 aura, 2 [laen][laen-de] |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Erdelementar`  
 
@@ -418,9 +420,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Dieses Ritual beschört einen großen Wasserelementar aus den Tiefen des Ozeans.  
     Der Elementar erzeugt einen gewaltigen Strudel, einen Mahlstrom, welcher alle Schiffe, die ihn passieren, schwer beschädigen kann.  
 
-|            Komponenten             | Stufe |  Art   | Rang |              Schiff              | Fern. |
-|:----------------------------------:|:-----:|:------:|:----:|:--------------------------------:|:------|
-| 200 aura, 1 tête de serpent de mer |  15   | Normal |  5   | :material-check:{ .success }[^3] |       |
+|                   Komponenten                    | Stufe |  Art   | Rang |              Schiff              | Fern. |
+|:------------------------------------------------:|:-----:|:------:|:----:|:--------------------------------:|:------|
+| 200 aura, 1 [seeschlangenkopf][seeschlangenkopf] |  15   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `ZAUBERE Mahlstrom`  
 
@@ -429,9 +431,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.  
     Dadurch wird das Gleichgewicht der Natur in der Region für immer verändert, und in Zukunft werden nur noch die anspruchsvollen, aber kräftigen Mallorngewächse in der Region gedeihen.  
 
-|                    Komponenten                     | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:--------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-| 250 aura, 10 permanente aura, 1  [[cream-puff-de]] |  16   | Normal |  5   |        | :material-check:{ .success } |
+|                       Komponenten                        | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:--------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 250 aura, 10 permanente aura, 1  [[pot-of-toadslime-de]] |  16   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Wurzeln der Magie'`  
 
@@ -449,7 +451,3 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 `ZAUBERE [REGION x y] 'Tor in die Ebene der Hitze'`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gwyrrdzauber&oldid=7693] -->
-
-[holz]: ./resources.md#holz
-[eisen]: ./resources.md#eisen
-[stein]: ./resources.md#stein

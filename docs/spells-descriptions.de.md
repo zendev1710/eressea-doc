@@ -1740,9 +1740,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 :   Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.  
     Dadurch wird das Gleichgewicht der Natur in der Region für immer verändert, und in Zukunft werden nur noch die anspruchsvollen, aber kräftigen Mallorngewächse in der Region gedeihen.  
 
-| Mag. |                    Komponenten                     | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:----:|:--------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-|  G   | 250 aura, 10 permanente aura, 1  [[cream-puff-de]] |  16   | Normal |  5   |        | :material-check:{ .success } |
+| Mag. |                       Komponenten                        | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:----:|:--------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|  G   | 250 aura, 10 permanente aura, 1  [[pot-of-toadslime-de]] |  16   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Wurzeln der Magie'`  
 
@@ -1774,7 +1774,7 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 [Flammenschwert]: ./flaming-sword.md
 [Traumauge]: ./dream-eye.md
 [Sphäre der Unsichtbarkeit]: ./sphere-of-invisibility.md
-[Beutel des Negativen Gewichts]: ./negative-weight-bag.md
+[Beutel des Negativen Gewichts]: ./sack-of-holding.md
 [Gürtel der Trollstärke]: ./belt-of-troll-strength.md
 [Ring der Macht]: ./ring-of-power.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md

@@ -177,11 +177,10 @@ alias: tybied-spells
 
 `CAST "Create A Ring of Invisibility"`  
 
-### Airship
+### Airship 
 
-:   These magical runes make a boat or longboat fly for a week.  
-This can then also be used to cross land.  
-For the color of the runes, a special ink must be mixed from a cream puff and a snow crystal.
+:   These magic runes allow a boat with a capacity of up to 50 weight units to fly for a week and allow the boat to cross land.  
+    The enchanted ink's components include a windbag and a snowcrystal petal.
 
 |                     Components                      | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -289,51 +288,49 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST "Create A Ring of Power"`  
 
-### Blick in die Realität <!-- TODO -->
+### Gaze Upon Reality
 
-:   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
+:   With this spell the mage can glance from the astral to the material plane and recognize regions and units.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 |  40 aura   | 10  | Normal |  5   |      |       |
 
-`CAST "Blick in die Realität"`  
+`CAST "Gaze Upon Reality"`  
 
-### Create a [[negative-weight-bag]] <!-- TODO: check -->
+### Create A Bag of Holding
 
-:   This bag encloses a small dimensional fold in which up to 200 weight units can be transported without being counted towards the carrying weight.  
-    Horses and other living creatures as well as particularly bulky items (chariots and catapults) cannot be transported in the bag.  
-    It is also not possible to transport one magic bag in another.  
-    The bag itself weighs 1 lbs.
+:   This bag encloses a dimensional rift in which up to 200 units of weight can be carries.  
+    Horses and other large objects cannot be put into the bag.  
+    The bag itself has a weight of 1.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
 | 30 aura, 1 permanent aura, 5 000 silver | 10  | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST "Create A Bag of Negative Weight"`   <!-- TODO: check -->
+`CAST "Create A Bag of Holding"`
 
-### Zeitdehnung <!-- TODO -->
+### Double Time
 
-:   This practical application of theoretical knowledge of space and time makes it possible to change the flow of time for some people.  
-    People modified in this way get twice as many movement points and twice as many attacks per round for a few weeks.
+:   Abstract theories of space and time at last find practical application in this spell which warps the very fabric of time around a person.  
+    Such a person has twice as many movement points and doubles their attacks per round for a few weeks.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
 | 5 x T aura | 11  | Normal |  5   | :material-check:{ .success } |       |
 
-`CAST [LEVEL n] Zeitdehnung <unit-id> [<unit-id> ...]`  
+`CAST [LEVEL n] "Double Time" <unit-id> [<unit-id> ...]`  
 
-### Armor Shield  <!-- TODO -->
-<!-- TODO: check if it is really Armor Shield -->
+### Shield Shine
 
-:   This ritual, which can be cast before battle, gives your troops an additional bonus to their armor.  
-    Each hit reduces the spell"s power, so the shield will dissipate at some point in the fight.
+:   This ritual, to be performed before battle, gives the own troops an added bonus to their armor.  
+    Every hit reduces the strength of the spell until it dissipates during battle.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 | 4 x T aura | 12  | Pre-c. |  2   |      |       |
 
-`COMBATSPELL [LEVEL n] "Armor Shield"`  
+`COMBATSPELL [LEVEL n] "Shield Shine"`  
 
 ### Summon Familiar
 
@@ -345,40 +342,40 @@ For the color of the runes, a special ink must be mixed from a cream puff and a 
 
 `CAST "Summon Familiar"`  
 
-### Belebtes Gestein <!-- TODO -->
+### Living Rock
 
-:   This energy-sapping ritual uses a ball of concentrated Laen to summon a massive earth elemental and banish it to a building.  
-    The elemental can then be ordered to carry the building and all its inhabitants to a neighboring region.  
-    The strength of the summoned elemental depends on the skill of the magician: the elemental can do maximum[Level-12]*Move 250 size units buildings.  
-    The building will not survive this procedure unscathed.
+:   This draining ritual summons a gigantic earth elemental from a sphere of laen and binds it to a building.  
+    The elemental can then be commanded to move the building with all its occupants to a neighbouring region.
+    The strength of the elemental depends of the mage's skill: it can move up to (level-12)*250 size units of building.
+    The building won't remain undamaged by the process.
 
 |               Components                | Lvl |  Type  | Rank | Ship | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
 | 10 x T aura, 1 permanent aura, 5 [laen] | 13  | Normal |  5   |      |       |
 
-`CAST [LEVEL n] "Belebtes Gestein" <building-id> <Richtung>`  
+`CAST [LEVEL n] "Living Rock" <building-id> <Richtung>`  
 
-### Störe Astrale Integrität <!-- TODO -->
+### Astral Disruption
 
-:   This spell causes severe disruption to the Astral space.  
-    Within an Astral radius of level/5 regions, all Astral beings who cannot resist the spell are thrown out of the Astral plane.  
-    Astral contact with all affected regions is disrupted for level/3 weeks.
+:   This spell causes a severe disturbance of the astral plane.  
+    Within an astral radius of level/5 regions all astral creatures not able to resist the spell will be thrown from the astral plane.  
+    The astral contact with all affected regions will be disrupted for level/3 weeks.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 |  140 aura  | 14  | Normal |  4   |      |       |
 
-`CAST [LEVEL n] "Störe Astrale Integrität"`  
+`CAST [LEVEL n] "Astral Disruption"`  
 
-### Opfere Kraft  <!-- TODO -->
+### Sacrifice Strength
 
-:   With the help of this spell, the magician can permanently transfer part of his magical power to another magician.  
-    He can transfer half of the power used to a magician of the same magic area, and a third to other magicians.
+:   This spell allows the magician to transfer part of his magical powers to another magician.  
+    Magicians of the seam school will receive half the power invested, magicians of other schoolsreceive receive one third.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
 |  100 aura  | 15  | Normal |  1   |      |       |
 
-`CAST "Opfere Kraft" <unit-id> <Aura>`  
+`CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->

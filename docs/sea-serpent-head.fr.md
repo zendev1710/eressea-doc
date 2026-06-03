@@ -10,6 +10,6 @@ alias: tete-de-serpent-de-mer
 *seaserpenthead (EN), Seeschlangenkopf (DE)*.
 <!-- cspell:enable -->
 
-Une tête de serpent de mer peut être obtenue lorsqu'un [serpent de mer][serpent-de-mer]{title="Sea serpent"} est tué.
+Une tête de serpent de mer peut être obtenue lorsqu'un [serpent de mer][serpents-de-mer]{title="Sea serpent"} est tué.
 
 Le sort de magie [Maelstrom][maelstrom]{title="Maelstrom (Gwyrrd)"} (École de Magie Gwyrrd) en a besoin pour être lancé.

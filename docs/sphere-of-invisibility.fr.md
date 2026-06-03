@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: sphere-d-invisibilite
+alias: sphere-dinvisibilite
 ---
 # Sphère d'invisibilité
 

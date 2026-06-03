@@ -144,7 +144,7 @@ Weiterlesen: [Xontormia-Express].
 [Zugvorlage]: ./commands.md
 [Unterhaltung]: ./cmd-entertain.md
 [Steuereintreiber]: ./cmd-tax.md
-[Wahrnehmung]: ./camouflage.md
+[Wahrnehmung]: ./stealth.md
 [Burgen]: ./castles.md
 [Burgenbau]: ./buildings.md
 [Taktiker]: ./tactic.md

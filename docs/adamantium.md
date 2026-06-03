@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: adamantium
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Adamantium
 
 Player experience:
 
-Adamantium is even rarer than [[laen]]!  
+Adamantium is even rarer than [laen][laen-id]!  
 
 There's barely one Adamantium per round, assuming there is any Adamantium in the region at all.
 

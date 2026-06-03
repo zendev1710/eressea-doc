@@ -143,10 +143,10 @@ Plus d'information : [[ordres]].
 | [SHOW "&lt;item&gt;"]                                                      | Affiche la description d'un sort                     | C      |
 | [SHOW ALL POTIONS]                                                         | Affiche la description de toutes les potions connues | C      |
 | [SHOW ALL SPELLS]                                                          | Affiche la description de tous les sorts connus      | C      |
-| [SORT AFTER &lt;unit id&gt;]                                               |                                                      | C      |
+| [SORT AFTER &lt;unit id&gt;]                           "                    |                                                      | C      |
 | [SORT BEFORE &lt;unit id&gt;]                                              | Tri l'unité dans le rapport                          | C      |
 | [SPY &lt;unit id&gt;]                                                      | Espionne une unité                                   | L      |
-| [STEAL &lt;unit id&gt;]                                                    | Vole 50 silver ou plus                               | L      |
+| [STEAL &lt;unit id&gt;][discretion]{title="Stealth"}                       | Vole 50 silver ou plus                               | L      |
 | [TAX &#91;amount&#93;]                                                     | Collecte les impôts                                  | L      |
 | [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]                       | Enseigne à des unités                                | L      |
 | [UNIT &lt;unit id&gt;]                                                     | Commence les ordres d'une unité                      | C      |
@@ -294,7 +294,6 @@ Poursuivre la lecture : [[premier-tour]].
 [SORT AFTER &lt;unit id&gt;]: [[cmd-sort]]
 [SORT BEFORE &lt;unit id&gt;]: [[cmd-sort]]
 [SPY &lt;unit id&gt;]: [[cmd-spy]]
-[STEAL &lt;unit id&gt;]: [[discretion]]{title="Stealth"}
 [TAX &#91;amount&#93;]: [[cmd-tax]]
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit]]

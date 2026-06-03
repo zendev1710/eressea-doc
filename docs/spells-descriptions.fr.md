@@ -194,9 +194,9 @@ Extrait de « Errants » de Firudin le Sage.
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
-| Éc. |                                 Composants                                  | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:---------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |                                                 Composants                                                  | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-----------------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 6 x N aura, N [mallorns][mallorn-fr-id]{title="Mallorn"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
@@ -215,13 +215,13 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
 
-### Bénédiction du cercle de pierres
+### Bénédiction du Cercle de Pierres
 
 <!-- cspell:disable -->
 *Bless Stone Circle (EN), Segne Steinkreis (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
+:   Ce rituel bénit un [Cercle de Pierres][cercle-de-pierres] qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
     La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
     On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
 
@@ -654,13 +654,13 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
-### Créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}
+### Créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -685,7 +685,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Power"`  
 
-### Créer un [Cristal d'Antimagie][cristal-d-antimagie]{title="Antimagic Crystal"}
+### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -756,7 +756,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 <!-- cspell:enable -->
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -797,13 +797,13 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Create A Flaming Sword"`  
 
-### Créer une [Sphère d'Invisibilité][sphere-d-invisibilite]{title="Sphere of Invisibility"}
+### Créer une [Sphère d'Invisibilité][sphere-dinvisibilite]{title="Sphere of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-d-invisibilite]{title="Sphere of Invisibility"}.  
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-dinvisibilite]{title="Sphere of Invisibility"}.  
     Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
 | Éc. |                 Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -1423,9 +1423,9 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 :   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
     Ce tremblement de terre endommagera tous les bâtiments de la région.
 
-| Éc. |    Composants     | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:-----------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  G  | 25 aura, 2 [laen] |  7   | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |                 Composants                  | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:-------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  G  | 25 aura, 2 [laen][laen-fr-id]{title="Laen"} |  7   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
@@ -2138,9 +2138,9 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
     La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
-| Éc. |               Composants                | Niv. |  Type  | Rang | Bateau | Dist. |
-|:---:|:---------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
-|  T  | 10 x N aura, 1 aura permanent, 5 [laen] |  13  | Normal |  5   |        |       |
+| Éc. |                            Composants                             | Niv. |  Type  | Rang | Bateau | Dist. |
+|:---:|:-----------------------------------------------------------------:|:----:|:------:|:----:|:------:|:-----:|
+|  T  | 10 x N aura, 1 aura permanent, 5 [laen][laen-fr-id]{title="Laen"} |  13  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Living Rock" <building-id> <direction>`  
 

@@ -3,10 +3,12 @@
 alias: discretion
 ---
 <!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #discretion-id }
+
 # Discrétion
 
-La compétence de [discrétion][camuflage]{title="Stealth"} permet de se camoufler aux yeux des autres unités.  
+La compétence de [discrétion][skill-discretion-id]{title="Stealth"} permet de se camoufler aux yeux des autres unités.  
 Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.  
 
 ## Contre-mesures
@@ -23,11 +25,11 @@ Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressourc
 
 ## Augmenter les chances de fuite
 
-La chance de fuite standard d'une unité en [combat][la-fuite] est de 25 % (50 % pour les halflings).  
+La chance de fuite standard d'une unité en [combat][la-fuite] est de 25 % (50 % pour les [Halfelins][halfelins]).  
 À chaque niveau de stealth, les chances de fuite de l'unité augmentent de 5 %.  
 Qu'une unité sache ou non monter à cheval, en posséder un augmente ses chances de fuite d'un de ses membres de 10 % **une seule fois**;
 5 chevaux n'apportent donc **PAS** +50 % à une personne, mais seulement +10 %.  
-Les chances de fuite maximales sont de 75 % (90 % pour les halflings).  
+Les chances de fuite maximales sont de 75 % (90 % pour les Halfelins).  
 
 ## Vol de Silver
 

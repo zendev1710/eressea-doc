@@ -67,7 +67,7 @@ The capacity refers only to the persons who can benefit from the building.
 | Costs per point of size | 5 stones, 10 wood, 1 iron, 250 silver |
 | Skill required          | 4                                     |
 | Maintenance per turn    | 500 silver                            |
-| Maximum size            | --                                  |
+| Maximum size            | --                                    |
 | Capacity                | 1 person per size                     |
 
 - Only half of the iron mined by units inside the mine is deducted from the region's supply. This effect works cumulatively together with any corresponding racial advantages.
@@ -86,7 +86,7 @@ The capacity refers only to the persons who can benefit from the building.
 | Costs per point of size | 1 stone, 5 wood, 1 iron, 250 silver |
 | Skill required          | 2                                   |
 | Maintenance per turn    | 250 silver                          |
-| Maximum size            | --                                |
+| Maximum size            | --                                  |
 | Capacity:               | 1 person per size                   |
 
 - Only half of the stone mined by units inside the mine is deducted from the region's supply. This effect works cumulatively together with any corresponding racial advantages.
@@ -101,7 +101,7 @@ The capacity refers only to the persons who can benefit from the building.
 | Costs per point of size | 5 stone, 5 wood, 3 iron, 200 silver |
 | Skill required          | 3                                   |
 | Maintenance per turn    | 250 silver                          |
-| Maximum size            | --                                |
+| Maximum size            | --                                  |
 | Capacity                | 1 person per size                   |
 
 - Only half of the wood/saplings/mallorn produced by units inside a sawmill is subtracted from the supply in the region. This number is rounded up (i.e. if a unit, in a sawmill, makes 11 woods, 6 trees are cut).
@@ -287,7 +287,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 Continue reading: [[faction-pool]].
 
 [castle rules table]: ./castles.md#overview
-[powerful spell]: ./spells-descriptions.md#segne-steinkreis
+[powerful spell]: ./spells-descriptions.md#bless-stone-circle
 
 [Lighthouse]: #lighthouse
 [Mine]: #mine

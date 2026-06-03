@@ -53,14 +53,14 @@ Les **Dragons adultes** évoluent en [Wyrms].
 
 Voir [Igjarjuk].
 
-### Cerf-volant chantant
+### Cerfs-volants chantants
 
 Ces dragons miniatures ont peu de points communs avec leurs homologues plus grands.  
 Ils peuvent difficilement être considérés comme des monstres.  
 
 ### Serpents de mer
 
-Les dragons sont des parents éloignés des Serpents de mer.  
+Les dragons sont des parents éloignés des serpents de mer.  
 
 Ceux-ci rendent les océans périlleux et tendent des embuscades aux bateaux de passage.  
 Cependant, les bateaux devraient les laisser partir en toute tranquillité.  

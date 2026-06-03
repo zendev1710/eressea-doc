@@ -30,13 +30,13 @@ Potions that affect a unit's items expire if they cannot be used because the uni
 See [[alchemy]].
 
 List of herbs and their distribution.
-
+<!-- TODO: bad list -->
 | Herbs                                                                              | spread       |
 |------------------------------------------------------------------------------------|--------------|
 | Flachwurz, Spicy Daring, Owl's Eye, Green Spinnerich, Blauer Baumringel, Elfenlieb | Forest/plain |
 | Garglewort, Knotty Suckerwort, Bladder Morel                                       | swamp        |
 | Water finder, cactus sweat, sand rot                                               | desert       |
-| Cream puffs, fjord growth, mandrakes                                               | Highlands    |
+| fjord fungus, mandrakes, windbag                                                   | Highlands    |
 | Stonebiter, cleavage wax, cave glow                                                | Mountains    |
 | Ice Flower, White Rager, Snow Crystal                                              | Glacier      |
 

@@ -18,7 +18,7 @@ La majorité des [[ressources]] ne nécessitent qu'une connaissance de base des 
 Pour les objets avec des valeurs de compétence minimales élevées, vous ne pouvez en fabriquer que quelques-uns.
 Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’un seul type d’objet ou de ressource et travailler sur un seul bâtiment ou bateau.  
 
-À l'exception du [[laen]] et de l'[[adamantium]], deux métaux particulièrement précieux et rares, et du [[mallorn]] (un bois magique), toutes les matières premières peuvent être produites avec une valeur de compétence de 1, tout comme les chevaux et les plantes.  
+À l'exception du [laen][laen-fr-id]{title="Laen"} et de l'[[adamantium]], deux métaux particulièrement précieux et rares, et du [mallorn][mallorn-fr-id]{title="Mallorn"} (un bois magique), toutes les matières premières peuvent être produites avec une valeur de compétence de 1, tout comme les chevaux et les plantes.  
 Pour obtenir du laen et de l'adamantium, vous avez besoin d'une [mine][mine] et d'une compétence d'[extraction minière][extraction-miniere]{title="Mining"} de **7 pour le laen**, de **8 pour l'adamantium**, et d'une compétence de niveau 2 en [sylviculture][sylviculture]{title="Forestry"} pour le mallorn.
 
 Pour les objets ainsi que pour les bâtiments et les bateaux, les niveaux de compétence de toutes les personnes de l'unité sont additionnés et divisés par la compétence minimale requise en construction.  

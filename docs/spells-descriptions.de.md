@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: zauberbeschreibungen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Zauberbeschreibungen
 
 ## A
@@ -151,9 +153,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Die Stärke des beschworenen Elementars hängt vom Talent des Magiers ab: Der Elementar kann maximal \[Stufe-12\] x 250 Größeneinheiten große Gebäude versetzen.  
     Das Gebäude wird diese Prozedur nicht unbeschädigt überstehen.  
 
-| Mag. |               Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----:|:----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|  T   | 10 x T aura, 1 permanente aura, 5 [laen] |  13   | Normal |  5   |        |       |
+| Mag. |                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  T   | 10 x T aura, 1 permanente aura, 5 [laen][laen-de-id] |  13   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Belebtes Gestein' <Gebäude-Nr> <Richtung>`  
 
@@ -275,7 +277,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 ### Drachenruf
 
-:   Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für [Drachen] einfach unwiderstehlich riecht.  
+:   Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für [Drachen][drachen] einfach unwiderstehlich riecht.  
     Ob die Drachen aus der Umgebung oder aus der Sphäre des Chaos stammen, konnte noch nicht erforscht werden.  
     Es soll beides bereits vorgekommen sein.  
     Der Köder hält etwa 6 Wochen, muss aber in einem drachengenehmen Terrain platziert werden.  
@@ -293,9 +295,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 :   Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.  
     Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
 
-| Mag. |    Komponenten    | Stufe |  Art   | Rang | Schiff |            Fern.             |
-|:----:|:-----------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
-|  G   | 25 aura, 2 [laen] |   7   | Normal |  5   |        | :material-check:{ .success } |
+| Mag. |          Komponenten          | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:----:|:-----------------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+|  G   | 25 aura, 2 [laen][laen-de-id] |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Erdelementar`  
 
@@ -316,9 +318,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Jeder Golem hat jede Runde eine Chance von 15 Prozent zu Staub zu zerfallen.  
     Gibt man den Golems den Befehl MACHE SCHWERT/BIHÄNDER oder MACHE SCHILD/KETTENHEMD/PLATTENPANZER, so werden pro Golem 4 Eisenbarren verbaut und der Golem löst sich auf.  
 
-| Mag. |                 Komponenten                  | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----:|:--------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|  G   | 2 x T aura, T [eisen], 1 [wasser des lebens] |   2   | Normal |  4   |        |       |
+| Mag. |                              Komponenten                               | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:----------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 2 x T aura, T [eisen][eisen], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Eisengolems'`  
 
@@ -333,9 +335,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
     Jeder Golem hat jede Runde eine Chance von 10 Prozent zu Staub zu zerfallen.  
     Gibt man den Golems die Befehle MACHE BURG oder MACHE STRASSE, so werden pro Golem 4 Steine verbaut und der Golem löst sich auf.  
 
-| Mag. |                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----:|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-|  G   | 2 x T aura, T [steine][stein], 1 [wasser des lebens] |   1   | Normal |  4   |        |       |
+| Mag. |                               Komponenten                               | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:-----------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+|  G   | 2 x T aura, T [steine][stein], 1 [wasser des lebens][wasser-des-lebens] |   1   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Steingolems'`  
 
@@ -358,9 +360,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen..."
 </div>
 
-| Mag. |                         Komponenten                         | Stufe |  Art   | Rang |            Schiff            | Fern. |
-|:----:|:-----------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
-|  D   | 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :material-check:{ .success } |       |
+| Mag. |                                     Komponenten                                     | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----:|:-----------------------------------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|  D   | 100 aura, 1 [berserkerblut][berserkerblut], 1 [schwert][schwert], 1 permanente aura |  12   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
@@ -440,13 +442,13 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
 
-| Mag. |                    Komponenten                    | Stufe |  Art   | Rang |            Schiff            | Fern. |
-|:----:|:-------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
-|  G   | 30 aura, 1 permanente aura, 1 [wasser des lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
+| Mag. |                             Komponenten                              | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----:|:--------------------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+|  G   | 30 aura, 1 permanente aura, 1 [wasser des lebens][wasser-des-lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
 
-### Erwecke [Ents]
+### Erwecke [Ents][ents]
 
 :   Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf.  
     Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  
@@ -475,9 +477,9 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 :   Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen.  
     Der Feuerteufel wird sich begierig auf die Wälder der Region stürzen und sie in Flammen setzen.  
 
-| Mag. |   Komponenten   | Stufe |  Art   | Rang | Schiff |            Fern.             |
-|:----:|:---------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
-|  D   | 50 aura, 1 [öl] |  10   | Normal |  5   |        | :material-check:{ .success } |
+| Mag. |     Komponenten     | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:----:|:-------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+|  D   | 50 aura, 1 [öl][ol] |  10   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Feuerteufel`  
 
@@ -739,9 +741,9 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 :   Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-| Mag. |                 Komponenten                 | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:----:|:-------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-|  G   | 4 x T aura, T [holz], 1 [wasser des lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
+| Mag. |                             Komponenten                              | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:----:|:--------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|  G   | 4 x T aura, T [holz][holz], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Hainzauber`  
 
@@ -925,9 +927,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
     Damit kann dann auch Land überquert werden.  
     Für die Farbe der Runen muss eine spezielle Tinte aus einem Windbeutel und einem Schneekristall angerührt werden.  
 
-| Mag. |               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
-|:----:|:---------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:------|
-|  T   | 10 aura, 1 [gousse], 1 [schneekristall] |   6   | Normal |  5   | :material-check:{ .success } |       |
+| Mag. |                       Komponenten                       | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:----:|:-------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:------|
+|  T   | 10 aura, 1 [gousse], 1 [schneekristall][schneekristall] |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE Luftschiff <Schiff-Nr>`  
 
@@ -973,9 +975,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
     Selbst Sümpfe und Gletscher können so verzaubert werden.  
     Je mehr Kraft der Magier in den Bann legt, desto länger bleibt die Straße bestehen.  
 
-| Mag. |         Komponenten         | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
-|:----:|:---------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
-|  G   | T aura, 1 [stein], 1 [holz] |   4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
+| Mag. |               Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern.                        |
+|:----:|:----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----------------------------|
+|  G   | T aura, 1 [stein][stein], 1 [holz][holz] |   4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Magischer Pfad'`  
 
@@ -1215,9 +1217,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
     Und er wird gar sicherlich von seiner besten Fähigkeit einige Tage bis hin zu den Studien zweier Wochen vergessen haben.  
     Noch ein Wort der Warnung: dieses ist sehr aufwendig, und so Ihr noch weitere Zauber in der selben Woche wirken wollt, so werden sie Euch schwerer fallen.'  
 
-| Mag. |                Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----:|:-----------------------------------------:|:-----:|:------:|:----:|:------:|:------|
-|  C   | 28 aura, 3 [knotiger saugwurz], 50 silber |   7   | Normal |  5   |        |       |
+| Mag. |                         Komponenten                          | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:------|
+|  C   | 28 aura, 3 [knotiger saugwurz][knotiger-saugwurz], 50 silber |   7   | Normal |  5   |        |       |
 
 `ZAUBERE 'Schaler Wein' <Einheit-Nr>`  
 
@@ -1348,9 +1350,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
     Je Stufe des Zaubers werden ungefähr 50 Seelen ihre Ruhe finden.  
     Der Zauber vermag nicht, bereits wieder auferstandene lebende Tote zu erlösen, da deren Bindung an diese Welt zu stark ist.  
 
-| Mag. |            Komponenten            | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----:|:---------------------------------:|:-----:|:------:|:----:|:------:|:------|
-|  I   | 3 x T aura, 1 [wasser des lebens] |   2   | Normal |  5   |        |       |
+| Mag. |                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:------|
+|  I   | 3 x T aura, 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] Seelenfrieden`  
 
@@ -1370,9 +1372,9 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 :   Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.  
     Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-| Mag. |                   Komponenten                   | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:----:|:-----------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-|  G   | 6 x T aura, T [mallorns], 1 [wasser des lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
+| Mag. |                                    Komponenten                                    | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:----:|:---------------------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+|  G   | 6 x T aura, T [mallorns][mallorn-de-id], 1 [wasser des lebens][wasser-des-lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segne Mallornstecken'`  
 
@@ -1766,7 +1768,6 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
 
 [Bergwächter]: ./mountain-guard.md
-[Drachen]: ./monsters.md#drachen
 [Antimagiekristall]: ./antimagic-crystal.md
 [Eisengolems]: ./iron-golem.md
 [Steingolems]: ./stone-golem.md
@@ -1779,15 +1780,4 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 [Ring der Macht]: ./ring-of-power.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
 [magischen Kräuterbeutel]: ./magical-herb-pouch.md
-[Ents]: ./monsters.md#ents
 [Zauberliste E2]: ./spells-list.md
-
-[berserkerblut]: ./alchemy.md#berserkerblut
-[schwert]: ./war-tables.md#schwert
-[holz]: ./resources.md#holz
-[eisen]: ./resources.md#eisen
-[stein]: ./resources.md#stein
-[öl]: ./silver.md#ol
-[knotiger saugwurz]: ./herbs.md#knotiger-saugwurz
-[wasser des lebens]: ./alchemy.md#wasser-des-lebens
-[schneekristall]: ./herbs.md#schneekristall

@@ -140,9 +140,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.  
     Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
 
-|                                  Komponenten                                   | Stufe |  Art   | Rang | Schiff | Fern.                        |
-|:------------------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
-| 6 x T aura, T [mallorns][mallorn-de], 1 [wasser des lebens][wasser-des-lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
+|                                    Komponenten                                    | Stufe |  Art   | Rang | Schiff | Fern.                        |
+|:---------------------------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----------------------------|
+| 6 x T aura, T [mallorns][mallorn-de-id], 1 [wasser des lebens][wasser-des-lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segne Mallornstecken'`  
 
@@ -216,9 +216,9 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 :   Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.  
     Dieses Erdbeben wird alle Gebäude in der Region beschädigen.  
 
-|        Komponenten         | Stufe |  Art   | Rang | Schiff |            Fern.             |
-|:--------------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
-| 25 aura, 2 [laen][laen-de] |   7   | Normal |  5   |        | :material-check:{ .success } |
+|          Komponenten          | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-----------------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 25 aura, 2 [laen][laen-de-id] |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Erdelementar`  
 

@@ -136,7 +136,7 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 <!-- cspell:enable -->
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -145,13 +145,13 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}
+### Créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 

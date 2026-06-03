@@ -229,7 +229,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 <!-- cspell:enable -->
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -244,7 +244,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -301,7 +301,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ## Niveau 7
 
-### Créer un [Cristal d'Antimagie][cristal-d-antimagie]{title="Antimagic Crystal"}
+### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -504,9 +504,9 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
     La force de l'élémentaire invoqué dépend de la compétence du mage : l'élémentaire peut faire au maximum (Niveau - 12) X Déplacer des bâtiments de taille 250.  
     Le bâtiment ne sortira pas indemne de cette procédure.
 
-|                         Composants                          | Niv. |  Type  | Rang | B | D |
-|:-----------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
-| 10 x N aura, 1 aura permanent, 5 [laen][laen]{title="Laen"} |  13  | Normal |  5   |   |   |
+|                            Composants                             | Niv. |  Type  | Rang | B | D |
+|:-----------------------------------------------------------------:|:----:|:------:|:----:|:-:|:-:|
+| 10 x N aura, 1 aura permanent, 5 [laen][laen-fr-id]{title="Laen"} |  13  | Normal |  5   |   |   |
 
 `CAST [LEVEL n] "Living Rock" <building-id> <direction>`  
 

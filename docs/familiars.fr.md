@@ -435,7 +435,7 @@ Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de M
 | Démons    | Diablotin          | Diablotin       | Fantôme       | Rat             | Loup            | Diablotin   |
 | Elfes     | Lynx               | Fée             | Hibou         | Nymphe          | Licorne         | Diablotin   |
 | Gobelins  | Rat                | Dragon chanteur | Diablotin     | Rat             | Rat             | Diablotin   |
-| Halflings | Hibou              | Rat             | Aigle         | Dragon chanteur | Aigle           | Rat         |
+| Halfelins | Hibou              | Rat             | Aigle         | Dragon chanteur | Aigle           | Rat         |
 | Humains   | Loup               | Dreamcat        | Hibou         | Hibou           | Aigle           | Diablotin   |
 | Insectes  | Fantôme            | Rat             | Hibou         | Rat             | Ver des tunnels | Diablotin   |
 | Nains     | Ver des tunnels    | Aigle           | Hibou         | Lynx            | Loup            | Rat         |

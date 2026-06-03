@@ -8,7 +8,7 @@ alias: adamantium-fr
 
 Expérience de jeu :
 
-L’adamantium est encore plus rare que le [[laen]] !  
+L’adamantium est encore plus rare que le [laen][laen-fr-id]{title="Laen"} !  
 
 On en trouve à peine un par tour, si tant est qu’il y en ait dans la région.  
 

@@ -399,8 +399,8 @@ Les unités **touchées au combat** tentent également de fuir si :
 Les coups dont les points de dégâts ont été entièrement absorbés par l'armure et les tentatives de coup ratées comptent également.  
 Ceci a pour but d'empêcher les unités déjà endommagées avant la bataille de fuir même si elles n'étaient pas réellement en danger.  
 
-La chance de base de s'échapper est de 25 % (50 % pour les halflings), plus 10 % si vous possédez un cheval et 5 % par niveau de compétence furtive;  
-la valeur maximale est de 75 % (ou 90 % pour les Halflings).
+La chance de base de s'échapper est de 25 % (50 % pour les [Halfelins][halfelins]{title="Halflings"}), plus 10 % si vous possédez un cheval et 5 % par niveau de compétence furtive;  
+la valeur maximale est de 75 % (ou 90 % pour les Halfelins).
 
 Les unités en fuite échappent au combat, mais restent à une distance sûre des combats dans la région.  
 Si l'unité se trouvait dans un bâtiment ou sur un bateau à terre, elle le quitte dès qu'une personne de l'unité s'est enfuie pendant la bataille.

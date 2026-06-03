@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: production
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Production
 
 Various things can be produced in Eressea.  
@@ -16,8 +18,8 @@ Most [[resources]] only require basic knowledge of the corresponding skills (Lev
 For items with high minimum skill values, you can only craft a few of them.
 In any case, **per unit per round**, you can only produce one type of item or resource and work on one building or ship.  
 
-With the exception of [[laen]] and [[adamantium]], two particularly valuable and rare metals, and [[mallorn]] (a magical wood), all raw materials can be produced with a skill value of 1, as can horses and herbs.
-To obtain laen and adamantium you need a [mine] and a [mining] skill of **7 for laen**, **8 for adamantium**, and **[forestry] level 2 for Mallorn**.
+With the exception of [laen][laen-id] and [[adamantium]], two particularly valuable and rare metals, and [mallorn][mallorn-id] (a magical wood), all raw materials can be produced with a skill value of 1, as can horses and herbs.
+To obtain laen and adamantium you need a [mine][mine] and a [mining][mining] skill of **7 for laen**, **8 for adamantium**, and **[forestry][forestry] level 2 for Mallorn**.
 
 For items as well as buildings and ships, the skill levels of all people in the unit are added together and divided by the minimum construction skill.  
 For each point calculated in this way, a building or ship can be built or expanded by one point in size or an object can be produced.
@@ -32,7 +34,7 @@ However, it is not possible to build multiple buildings or ships at the same tim
 Lets the unit produce 10 shields, assuming :
 
 - it has 10 iron,
-- at least [armoursmithing] T2,
+- at least [armoursmithing][armoursmithing] T2,
 - a total of 20 skill levels (10 shields x minimum skill 2 = 20).
 
 ## Example 2
@@ -44,7 +46,7 @@ but it defines only the appropriate amount of wood for the ship mentioned (here 
 
 ## Example 3
 
-A unit with 4 people and [weaponsmithing] T5 has a total of 20 skill levels.
+A unit with 4 people and [weaponsmithing][weaponsmithing] T5 has a total of 20 skill levels.
 For example, she can use it to create :
 
 - 6 swords (minimum weaponsmithing skill T3), or
@@ -53,7 +55,7 @@ For example, she can use it to create :
 
 ## Example 4
 
-With a **[smithy]**, people could halve their iron consumption for swords, shields, etc.
+With a [smithy][smithy], people could halve their iron consumption for swords, shields, etc.
 for example they could produce 10 shields from 5 iron.
 
 They also have a **+1 skill bonus** on the weaponsmithing and armoursmithing skills
@@ -77,10 +79,3 @@ To simplify this, there is an [[items-pool]].
 Continue reading: [[resources]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
-
-[mine]: ./buildings-others.md#mine
-[mining]: ./skills-list.md#mining
-[forestry]: ./skills-list.md#forestry
-[armoursmithing]: ./skills-list.md#armoursmithing
-[weaponsmithing]: ./skills-list.md#weaponsmithing
-[smithy]: ./buildings-others.md#smithy

@@ -7,7 +7,7 @@ alias: seeschlangenkopf
 
 <!-- TODO: translate into german -->
 <!--
-A sea serpent head can be obtained when a [sea serpent][sea-serpent] is killed.
+A sea serpent head can be obtained when a [sea serpent][sea-serpents] is killed.
 
 The magic spell [Maelstrom][maelstrom] (Gwyrrd) requires it to be cast.
 -->

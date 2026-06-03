@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: vertraute
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Vertraute
 
 Vertraute sind stets besonders intelligente Vertreter ihrer Gattung, jedoch sind sie selten aus sich heraus magiebegabt.
@@ -33,7 +35,7 @@ Der Adler ist ein ausgezeichneter Späher, fliegend überquert er sogar kurze Me
 
 ### Dämon
 
-[Dämonen] sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
+[Dämonen][damonen] sind grausam und unberechenbar. Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fähigkeiten oder deren Verlust.
 
 50 Trefferpunkte, Magieresistenz 15, Angriff: -2, Verteidigung: -2, Rüstung: 2. Kann Waffen benutzen. 3 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5), ein magischer Angriff. Alchemie +2, Armbrustschießen +0, Bergbau +0, Bogenschießen +0, Burgenbau +0, Handeln -3, Holzfällen +1, Katapultbedienung +0, Kräuterkunde -3, Magie +1, Pferdedressur -3, Reiten -1, Rüstungsbau +0, Schiffbau -1, Hiebwaffen +1, Segeln -1, Stangenwaffen +1, Spionage +0, Steinbau +0, Straßenbau +0, Taktik -1, Tarnung +1, Unterhaltung -3, Waffenbau +1, Wagenbau -2, Wahrnehmung +1, Steuereintreiben +1 und Ausdauer +0
 
@@ -67,9 +69,11 @@ Keine Informationen über diese Rasse verfügbar.
 
 30 Trefferpunkte, Magieresistenz 80, Angriff: 5, Verteidigung: 8, Rüstung: 5. Kann Waffen benutzen. 6 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (1d5), ein unbewaffneter Angriff (1d5), ein Angriff mit der Waffe oder unbewaffnet (2d6), ein magischer Angriff, ein magischer Angriff. Magie +1, Reiten -2, Hiebwaffen +0, Stangenwaffen +0, Spionage +0, Tarnung +0, Wahrnehmung +0, Ausdauer +0 und Waffenloser Kampf +0
 
+[](){ #goblin-de-id }
+
 ### Goblin
 
-[Goblins] sind feige und hinterhältig, lieber verstecken sie sich, als dass sie zur Tat schreiten.
+[Goblins][goblin-de-id] sind feige und hinterhältig, lieber verstecken sie sich, als dass sie zur Tat schreiten.
 
 16 Trefferpunkte, Magieresistenz -5, Angriff: -2, Verteidigung: 0. Kann Waffen benutzen. 2 Angriffe: ein magischer Angriff, ein Angriff mit der Waffe oder unbewaffnet (1d5). Alchemie +1, Armbrustschießen +0, Bergbau +1, Bogenschießen +0, Burgenbau +1, Handeln -1, Holzfällen +0, Katapultbedienung +1, Kräuterkunde +0, Magie -1, Pferdedressur +0, Reiten +0, Rüstungsbau +0, Schiffbau -2, Hiebwaffen +0, Segeln -2, Stangenwaffen +0, Spionage +0, Steinbau +0, Straßenbau -2, Taktik -2, Tarnung +1, Unterhaltung -1, Waffenbau +0, Wagenbau -1, Wahrnehmung +0, Steuereintreiben +0 und Ausdauer +0
 
@@ -232,6 +236,3 @@ Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region o
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
 [bef-zeige]: ./cmd-show.md
-
-[Dämonen]: ./races.md#damonen
-[Goblins]: ./races.md#goblins

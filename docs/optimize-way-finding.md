@@ -35,7 +35,7 @@ However, every obstacle and every additional condition that is to be built into 
 Magellan has already built in a route finding function.
 In addition to distance, it also supports ships sailing along coasts.  
 
-Further secondary conditions can concern the safety of regions (sea snakes, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round.  
+Further secondary conditions can concern the safety of regions (sea serpents, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round.  
 However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behavior of the algorithm becomes more and more “greedy”.  
 The A*-Searching with an estimator that always returns 0 corresponds to the greedy search.  
 

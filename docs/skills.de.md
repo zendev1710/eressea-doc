@@ -169,8 +169,8 @@ Weiterlesen: [Liste der Talente].
 [5]: ./alchemy.md
 [Geld]: ./silver.md
 [Spionage]: ./skills-list.md#spionage
-[Tarnung]: ./camouflage.md
-[Wahrnehmung]: ./camouflage.md
+[Tarnung]: ./stealth.md
+[Wahrnehmung]: ./stealth.md
 [Reisen]: ./travel.md
 [Kampf]: ./war-tables.md
 [Krieg]: ./war.md

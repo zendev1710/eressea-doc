@@ -13,7 +13,7 @@ La bataille entre Pentagramm et Tirawon est considérée comme l'une des plus gr
 Au total, 182 686 personnes se sont rencontrées dans le plan Astral au-dessus du 6ème Monde, 82 398 de Pentagramm et 100 288 de Tirawon.  
 Cela représentait à l’époque près de 2 % de la population totale d’Eressea.  
 
-Les armées étaient principalement composées d'elfes, de nains et de halflings (ensemble plus de 80 %).  
+Les armées étaient principalement composées d'elfes, de nains et de halfelins (ensemble plus de 80 %).  
 La plus grande armée composée de 32 554 elfes était celle des elfes Garan, qui étaient pratiquement tous armés d'[arcs elfiques][arc-elfique], certainement un facteur décisif dans la victoire de Tirawon.  
 Il convient également de mentionner les près de 6 000 démons qui ont combattu aux côtés de Tirawon, et aucun d'entre eux n'est tombé au combat.  
 
@@ -43,16 +43,16 @@ Du côté de **Tirawon**, 15 peuples se sont battus :
 - Armée 3: Garan-Elfen (ii) -- 32554 Elfes
 - Armée 4: Ritter des verlorenen Schwerts (j9) -- 11271 Nains
 - Armée 5: Söhne von Armathorn (sva) -- 7543 Humains
-- Armée 25: Die Kurzen aus der Steppe (i2) -- 1863 Halflings
+- Armée 25: Die Kurzen aus der Steppe (i2) -- 1863 Halfelins
 - Armée 26: Träumende Steine (trst) -- 1400 Trolls
-- Armée 28: Die kleinen Hobbits (i7) -- 6592 Halflings
+- Armée 28: Die kleinen Hobbits (i7) -- 6592 Halfelins
 - Armée 29: Naugrim (naug) -- 5052 Nains
 - Armée 30: Tänzer im Sturm (jL) -- 1596 Aquariens
 - Armée 31: Rollo's gehorsame Kinder (roLo) -- 1671 Nains
 - Armée 32: Skarsniks Clan der Blauschaedel (hs) -- 4154 Gobelins
 - Armée 33: Elfen des verschwiegenen Waldes (fb) -- 9000 Elfes
 - Armée 34: Die wahren Diener der heiligen Nuß (nuss) -- 8407 Nains
-- Armée 35: Nelvin (neLv) -- 2508 Halflings
+- Armée 35: Nelvin (neLv) -- 2508 Halfelins
 - Armée 36: Der Feuerschwarm (erob) -- 750 Insecten
 
 <!-- cspell:enable -->
@@ -62,7 +62,7 @@ Du côté de **Pentagramm** 20 peuples, [Igjarjuk][igjarjuk] et la faction des m
 - Armée 1: DAS PENTAGRAMM (dpen) -- 9951 Nains
 - Armée 2: Vorboten der Verdammnis (f0) -- 19 Démons
 - Armée 6: Terranische Hegemonie - Krieger des Pentagramms (the) -- 2428 Trolls
-- Armée 7: Das Pentagramm (pent) -- 21431 Halflings
+- Armée 7: Das Pentagramm (pent) -- 21431 Halfelins
 - Armée 8: Valcashri - Auserwählte des Pentagramms (vaL) -- 7247 Chats
 - Armée 9: Charriu-Solair Drachenmeister des Pentagramms (chs) -- 3036 Elfes
 - Armée 10: Alamostrolle (589) -- 829 Trolls
@@ -71,12 +71,12 @@ Du côté de **Pentagramm** 20 peuples, [Igjarjuk][igjarjuk] et la faction des m
 - Armée 13: Die Hüter des Einhornwaldes (fari) -- 2826 Elfes
 - Armée 14: Die Hüter des Einhornwaldes (fari) -- 1 Elfe [^1]
 - Armée 15: Meister der Inseln (mdi) -- 822 Elfen
-- Armée 16: die Tavirin (b1) -- 1070 Halflings
+- Armée 16: die Tavirin (b1) -- 1070 Halfelins
 - Armée 17: Idolum D. (idod) -- 3123 Insectes
 - Armée 18: Die Völker des Propheten (eike) -- 100 Humains
 - Armée 19: Die Nains von Kosch (kosh) -- 290 Nains
 - Armée 20: Flammenkrieger - Vollstrecker des Pentagramms (dq) -- 5767 Nains
-- Armée 21: Tuks (tukz) -- 4 Halflings
+- Armée 21: Tuks (tukz) -- 4 Halfelins
 - Armée 22: Grafschaft von Kaltenstein (kaLt) -- 7500 Nains
 - Armée 23: Pharaonische Komtur Sued-Mandalay (dh) -- 711 Chats
 - Armée 24: Sidhe von Zemur (gz) -- 365 Elfes

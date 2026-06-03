@@ -33,9 +33,9 @@ Un mineur T4 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"
 | [Graine][graines]{title="Seeds"}                                             |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    3 |                   -- |
 | [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"}                |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    4 |                   -- |
 | [Bois][bois]{title="Wood"}                                                   |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    1 |                   -- |
-| [Mallorn][mallorn]{title="Mallorn"}                                          |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    2 |                   -- |
+| [Mallorn][mallorn-fr-id]{title="Mallorn"}                                    |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    2 |                   -- |
 | [Fer][fer]{title="Iron"}                                                     |     5 | [extraction minière][extraction-miniere]{title="Mining"}               |    1 |                   -- |
-| [Laen][laen]{title="Laen"}[^1]                                               |     2 | [extraction minière][extraction-miniere]{title="Mining"}               |    7 |                   -- |
+| [Laen][laen-fr-id]{title="Laen"}[^1]                                         |     2 | [extraction minière][extraction-miniere]{title="Mining"}               |    7 |                   -- |
 | [Adamantium][adamantium]{title="Adamantium"}[^1]                             |     2 | [extraction minière][extraction-miniere]{title="Mining"}               |    8 |                   -- |
 | [Pierre][pierre]{title="Stone"}                                              |    60 | [extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |    1 |                   -- |
 | [Munition][munition]{title="Ammunition"}                                     |    10 | [extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |    3 |             1 pierre |
@@ -50,7 +50,7 @@ Un mineur T4 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"
 | [Hache de guerre][hache-de-guerre]{title="Axe"}                              |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |        1 fer, 1 bois |
 | [Hallebarde][hallebarde]{title="Halberd"}                                    |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |        1 fer, 2 bois |
 | [Claymore][claymore]{title="Claymore"}                                       |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    4 |                2 fer |
-| [Arbalète en mallorn][arbalete-en-mallorn ]{title="Mallorn crossbow"}        |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 mallorn |
+| [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"}         |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 mallorn |
 | [Arc en mallorn][arc-en-mallorn]{title="Mallorn bow"}                        |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 mallorn |
 | [Javelot en mallorn][javelot-en-mallorn]{title="Mallorn spear"}              |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 Mallorn |
 | [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}                  |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            2 mallorn |

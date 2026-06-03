@@ -93,8 +93,8 @@ Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [[cmd
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.  
 La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
-Enfin, des alliés [Trolls][trolls] transportent des gems (joyaux).  
-En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls], il y a beaucoup d'autres races en Eressea.  
+Enfin, des alliés [Trolls][trolls-fr-id]{title="Trolls"} transportent des gems (joyaux).  
+En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls-fr-id]{title="Trolls"}, il y a beaucoup d'autres races en Eressea.  
 Elles sont décrites dans [[races|ce chapitre]].
 
 Vous ne disposez que d'informations limitées sur les unités étrangères.  

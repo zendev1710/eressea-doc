@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: tips-and-tricks
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tips and tricks
 
 <!-- TODO: translate in english -->
@@ -10,7 +12,7 @@ alias: tips-and-tricks
 
 Le commerce et le transport deviennent rentables dès le début de la partie.
 Même sans savoir monter à cheval, on peut emmener un cheval par personne, ce qui augmente la capacité de l'unité de 5,4 à 25,4 lbs.
-4 [trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.
+4 [trolls][trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.
 
 Cela permet même à un petit groupe de transporter des pierres, des marchandises et autres objets lourds.
 
@@ -37,7 +39,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## What do I absolutely need in the first round?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins un percepteur et peut-être une unité en [camouflage] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
+Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][perception] et peut-être une unité en [discrétion][stealth] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
 
 ## Buy merchandise
 
@@ -128,7 +130,6 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[trolls]: ./races.md#trolls
 [paysans nomades]: ./farmers-hike.md
 [migration de paysans]: ./farmers-proliferation.md
 [séquence des ordres]: ./commands-sequence.md

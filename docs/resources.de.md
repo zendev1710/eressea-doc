@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: rohstoffe
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Natürliche Ressourcen
 
 Rohstoffe können ohne weitere Zutaten gewonnen direkt aus den Vorräten der [Region] gewonnen werden.
@@ -16,7 +18,11 @@ Das benötigte Talent geht aus der Tabelle im Abschnitt [Waren] hervor.
 
 ### Holz
 
+[](){ #laen-de-id }
+
 ### Laen
+
+[](){ #mallorn-de-id }
 
 ### Mallorn
 
@@ -61,7 +67,7 @@ Der Bestand an Mallornbäumen wird dabei um den gleichen Betrag reduziert, als w
 Die in einer Region wild lebenden Pferde können von Einheiten mit dem Talent [Pferdedressur][Kräuterkundlern] mit dem Befehl [[bef-mache|`MACHE Pferd`]] gefangen werden.
 Wildpferde vermehren sich jede Runde.
 Sie sind platz- und freiheitsliebend, und so wandern einige von ihnen in Nachbarregionen ab, wenn dort weniger Pferde leben.
-Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent [Pferdedressur][Kräuterkundlern] sie in einer [Pferdezucht] mit dem Befehl [`ZÜCHTE PFERDE`] züchtet.
+Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent [Pferdedressur][Kräuterkundlern] sie in einer [Pferdezucht][pferdezucht] mit dem Befehl [`ZÜCHTE PFERDE`] züchtet.
 
 Spielererfahrung (Solthar):
 
@@ -75,7 +81,7 @@ Bei 500 Pferden kommen 10 pro Runde hinzu.
 Ab 1000 Pferden tut sich nichts mehr.
 
 Weiterhin gibt es in jeder Region maximal eine Kräuterart.
-Zur Zuordnung siehe die [Kräuterliste].
+Zur Zuordnung siehe die [Kräuterliste][krauterliste].
 
 ## Siehe auch
 
@@ -91,7 +97,7 @@ Weiterlesen: [Waren].
 [Waren]: ./items.md
 [Region]: ./world.md
 [kontaktiert]: ./cmd-contact.md
-[getarnt]: ./camouflage.md
+[getarnt]: ./stealth.md
 [bef-mache]: ./cmd-make.md
 [Kräuterkundlern]: ./skills-list.md
 [bef-pflanze]: ./cmd-plant.md
@@ -99,6 +105,3 @@ Weiterlesen: [Waren].
 [Produktion]: ./production.md
 [Straßen]: ./roads.md
 [Gebäude]: ./buildings.md
-
-[Pferdezucht]: ./buildings-others.md#pferdezucht
-[Kräuterliste]: ./herbs.md#krauterliste

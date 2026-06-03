@@ -3,7 +3,7 @@
 alias: liste-des-competences
 ---
 <!-- disable MD051 due to a linter bug about links with special characters -->
-<!-- markdownlint-disable MD051 MD052 -->
+<!-- markdownlint-disable MD042 MD051 MD052 -->
 # Liste des compétences
 
 Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn]].  
@@ -100,6 +100,8 @@ Une pierre peut être posée par personne, par niveau de compétence et par tour
 
 Cette compétence permet de construire et de réparer un [[bateaux|bateau]] en [[ressources#bois|bois]].
 
+[](){ #skill-discretion-id }
+
 ## Discrétion
 
 <!-- cspell:disable -->
@@ -113,7 +115,7 @@ Elle n'est pas visible des autres unités.
 
 Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [[cmd-guard|vigilance]] des gardes de région.  
 
-Plus d'information :  [compétence de discrétion en détail][discretion-page].  
+Plus d'information :  [compétence de discrétion en détail][discretion-id].  
 
 ## Divertissement
 
@@ -190,7 +192,7 @@ On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
 Pour la prospection, on ne voit pas plus que la couche (niveau en extraction minière X 2). Si la couche est plus profonde on ne verra rien.
 
 !!! note
-    L'extraction de [[laen]] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.  
+    L'extraction de [laen][laen-fr-id]{title="Laen"} nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.  
     L'extraction d'[[adamantium]] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.
 
 ## Fabrication d'armes
@@ -207,7 +209,7 @@ Fabrication d'armes en bois et en métal (voir [[objets]]).
 *Armoursmithing (EN), Rüstungsbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la fabrication d'armures en fer, [[laen]] ou [[adamantium]] (voir [[objets]]).
+Permet la fabrication d'armures en fer, en [laen][laen-fr-id]{title="Laen"} ou en [[adamantium]] (voir [[objets]]).
 
 ## Fabrication de chariots
 
@@ -353,5 +355,3 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 [perception]: #perception
 [taxation]: #taxation
 [combat à mains nues]: #combat-a-mains-nues
-
-[discretion-page]: [[discretion]]{title="Stealth"}

@@ -185,7 +185,7 @@ Elles atteignent **6** cibles.
 [^4]: particularités selon la race :
 
 - Les [gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
-- Les [trolls][trolls]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
+- Les [trolls][trolls-fr-id]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
 - Les [orcs][orcs]{title="Orcs"} combattent avec leur meilleure compétence de mêlée à -3;
 - Les [chats][chats]{title="Cats"} bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
 - Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence *Combat à mains nues* et ne subissent alors aucun malus lorsqu'elles combattent sans arme
@@ -226,7 +226,7 @@ Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance][en
 | Démons    |    50 |    53 |     60 |     68 |     78 |     89 |     101 |     115 |     130 |     145 |     161 |     255 |     366 |     491 |       630 |      782 |       944 |
 | Elfes     |    18 |    19 |     21 |     24 |     28 |     32 |      36 |      41 |      46 |      52 |      58 |      91 |     131 |     177 |       227 |      281 |       339 |
 | Gobelins  |    16 |    17 |     19 |     21 |     25 |     28 |      32 |      36 |      41 |      46 |      51 |      81 |     117 |     157 |       201 |      250 |       302 |
-| Halflings |    18 |    19 |     21 |     24 |     28 |     32 |      36 |      41 |      46 |      52 |      58 |      91 |     131 |     177 |       227 |      281 |       339 |
+| Halfelins |    18 |    19 |     21 |     24 |     28 |     32 |      36 |      41 |      46 |      52 |      58 |      91 |     131 |     177 |       227 |      281 |       339 |
 | Humains   |    20 |    21 |     24 |     27 |     31 |     35 |      40 |      46 |      52 |      58 |      64 |     102 |     146 |     196 |       252 |      312 |       377 |
 | Insectes  |    24 |    25 |     28 |     32 |     37 |     42 |      48 |      55 |      62 |      69 |      77 |     122 |     175 |     236 |       302 |      375 |       453 |
 | Nains     |    24 |    25 |     28 |     32 |     37 |     42 |      48 |      55 |      62 |      69 |      77 |     122 |     175 |     236 |       302 |      375 |       453 |
@@ -352,7 +352,7 @@ Points de vie (PV), résistance à la magie (RM) et armure naturelle (AN).
 | Démons    | 50 | 15 |  2 |
 | Elfes     | 18 | 10 |  0 |
 | Gobelins  | 16 | -5 |  0 |
-| Halflings | 18 |  5 |  0 |
+| Halfelins | 18 |  5 |  0 |
 | Humains   | 20 |  0 |  0 |
 | Insectes  | 24 |  5 |  2 |
 | Nains     | 24 |  5 |  0 |

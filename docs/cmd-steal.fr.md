@@ -3,7 +3,9 @@
 alias: cmd-steal-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #cmd-steal-fr-id }
+
 # STEAL
 
 *Ordre [long][ordres-courts-et-longs].*

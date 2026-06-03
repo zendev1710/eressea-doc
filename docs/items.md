@@ -17,51 +17,51 @@ A miner with a 4 mine in a region with "20 iron/4" can extract 4 iron per turn (
 
 Weight, skill and raw material requirements.  
 
-| Item               | Weight | Skill            | min. |         raw material |
-|--------------------|-------:|------------------|-----:|---------------------:|
-| [silver]           |   0,01 | --               |   -- |                   -- |
-| [gem]              |      1 | [trade]          |    1 |                   -- |
-| [incense]          |      2 | [trade]          |    1 |                   -- |
-| [balm]             |      2 | [trade]          |    1 |                   -- |
-| [spice]            |      2 | [trade]          |    1 |                   -- |
-| [myrrh]            |      2 | [trade]          |    1 |                   -- |
-| [oil]              |      3 | [trade]          |    1 |                   -- |
-| [silk]             |      3 | [trade]          |    1 |                   -- |
-| [[herbs]]          |      0 | [herbalism]      |    1 |                   -- |
-| [seed]             |    0,1 | [herbalism]      |    3 |                   -- |
-| [mallorn seed]     |    0,1 | [herbalism]      |    4 |                   -- |
-| [iron]             |      5 | [mining]         |    1 |                   -- |
-| [laen][^1]         |      2 | [mining]         |    7 |                   -- |
-| [adamantium][^1]   |      2 | [mining]         |    8 |                   -- |
-| [wood]             |      5 | [forestry]       |    1 |                   -- |
-| [mallorn]          |      5 | [forestry]       |    2 |                   -- |
-| [stone]            |     60 | [quarrying]      |    1 |                   -- |
-| [ammunition]       |     10 | [quarrying]      |    3 |              1 stone |
-| [horse]            |     50 | [taming]         |    1 |                   -- |
-| [cart]             |     40 | [cartmaking]     |    1 |               5 wood |
-| [catapult]         |    100 | [cartmaking]     |    5 |              10 wood |
-| [spear]            |      1 | [weaponsmithing] |    2 |               1 wood |
-| [bow]              |      1 | [weaponsmithing] |    2 |               1 wood |
-| [lance]            |      2 | [weaponsmithing] |    2 |               2 wood |
-| [sword]            |      1 | [weaponsmithing] |    3 |               1 iron |
-| [crossbow]         |      1 | [weaponsmithing] |    3 |               1 wood |
-| [axe]              |      2 | [weaponsmithing] |    3 |       1 iron, 1 wood |
-| [halberd]          |      2 | [weaponsmithing] |    3 |       1 iron, 2 wood |
-| [claymore]         |      2 | [weaponsmithing] |    4 |               2 iron |
-| [mallorn bow]      |      1 | [weaponsmithing] |    5 |            1 mallorn |
-| [mallorn crossbow] |      1 | [weaponsmithing] |    5 |            1 mallorn |
-| [mallorn spear]    |      1 | [weaponsmithing] |    5 |            1 mallorn |
-| [mallorn lance]    |      1 | [weaponsmithing] |    5 |            2 mallorn |
-| [elven bow][^2]    |      1 | [weaponsmithing] |    5 |            2 mallorn |
-| [laen sword]       |      1 | [weaponsmithing] |    8 |               1 laen |
-| [adamantium axe]   |      1 | [weaponsmithing] |    8 | 1 adamantium, 1 wood |
-| [shield]           |      1 | [armoursmithing] |    2 |               1 iron |
-| [chainmail]        |      2 | [armoursmithing] |    3 |               3 iron |
-| [platemail]        |      4 | [armoursmithing] |    4 |               5 iron |
-| [laen shield]      |      0 | [armoursmithing] |    7 |               1 laen |
-| [laen chainmail]   |      1 | [armoursmithing] |    9 |               3 laen |
-| [adamantium plate] |      1 | [armoursmithing] |   10 |         3 adamantium |
-| [potions]          |      0 | [alchemy]        |    2 |                herbs |
+| Item                  | Weight | Skill            | min. |         raw material |
+|-----------------------|-------:|------------------|-----:|---------------------:|
+| [silver]              |   0,01 | --               |   -- |                   -- |
+| [gem]                 |      1 | [trade]          |    1 |                   -- |
+| [incense]             |      2 | [trade]          |    1 |                   -- |
+| [balm]                |      2 | [trade]          |    1 |                   -- |
+| [spice]               |      2 | [trade]          |    1 |                   -- |
+| [myrrh]               |      2 | [trade]          |    1 |                   -- |
+| [oil]                 |      3 | [trade]          |    1 |                   -- |
+| [silk]                |      3 | [trade]          |    1 |                   -- |
+| [[herbs]]             |      0 | [herbalism]      |    1 |                   -- |
+| [seed]                |    0,1 | [herbalism]      |    3 |                   -- |
+| [mallorn seed]        |    0,1 | [herbalism]      |    4 |                   -- |
+| [iron]                |      5 | [mining]         |    1 |                   -- |
+| [laen][laen-id][^1]   |      2 | [mining]         |    7 |                   -- |
+| [adamantium][^1]      |      2 | [mining]         |    8 |                   -- |
+| [wood]                |      5 | [forestry]       |    1 |                   -- |
+| [mallorn][mallorn-id] |      5 | [forestry]       |    2 |                   -- |
+| [stone]               |     60 | [quarrying]      |    1 |                   -- |
+| [ammunition]          |     10 | [quarrying]      |    3 |              1 stone |
+| [horse]               |     50 | [taming]         |    1 |                   -- |
+| [cart]                |     40 | [cartmaking]     |    1 |               5 wood |
+| [catapult]            |    100 | [cartmaking]     |    5 |              10 wood |
+| [spear]               |      1 | [weaponsmithing] |    2 |               1 wood |
+| [bow]                 |      1 | [weaponsmithing] |    2 |               1 wood |
+| [lance]               |      2 | [weaponsmithing] |    2 |               2 wood |
+| [sword]               |      1 | [weaponsmithing] |    3 |               1 iron |
+| [crossbow]            |      1 | [weaponsmithing] |    3 |               1 wood |
+| [axe]                 |      2 | [weaponsmithing] |    3 |       1 iron, 1 wood |
+| [halberd]             |      2 | [weaponsmithing] |    3 |       1 iron, 2 wood |
+| [claymore]            |      2 | [weaponsmithing] |    4 |               2 iron |
+| [mallorn bow]         |      1 | [weaponsmithing] |    5 |            1 mallorn |
+| [mallorn crossbow]    |      1 | [weaponsmithing] |    5 |            1 mallorn |
+| [mallorn spear]       |      1 | [weaponsmithing] |    5 |            1 mallorn |
+| [mallorn lance]       |      1 | [weaponsmithing] |    5 |            2 mallorn |
+| [elven bow][^2]       |      1 | [weaponsmithing] |    5 |            2 mallorn |
+| [laen sword]          |      1 | [weaponsmithing] |    8 |               1 laen |
+| [adamantium axe]      |      1 | [weaponsmithing] |    8 | 1 adamantium, 1 wood |
+| [shield]              |      1 | [armoursmithing] |    2 |               1 iron |
+| [chainmail]           |      2 | [armoursmithing] |    3 |               3 iron |
+| [platemail]           |      4 | [armoursmithing] |    4 |               5 iron |
+| [laen shield]         |      0 | [armoursmithing] |    7 |               1 laen |
+| [laen chainmail]      |      1 | [armoursmithing] |    9 |               3 laen |
+| [adamantium plate]    |      1 | [armoursmithing] |   10 |         3 adamantium |
+| [potions]             |      0 | [alchemy]        |    2 |                herbs |
 
 [^1]: laen and adamantium require a mine for extraction.
 [^2]: Elven bows can only be crafted by elves.
@@ -107,10 +107,8 @@ Continue reading: [Roads].
 [seed]: ./resources.md#seeds
 [mallorn seed]: ./resources.md#mallornseeds
 [iron]: ./resources.md#iron
-[laen]: ./resources.md#laen
 [adamantium]: ./resources.md#adamantium
 [wood]: ./resources.md#wood
-[mallorn]: ./resources.md#mallorn
 [stone]: ./resources.md#stone
 [ammunition]: ./resources.md#ammunition
 [horse]: ./resources.md#horse

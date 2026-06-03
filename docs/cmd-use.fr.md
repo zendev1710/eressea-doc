@@ -20,7 +20,7 @@ Vous pouvez utiliser une potion plusieurs fois pour étendre les effets à plus 
 
 Avec cet ordre, d'autres objets que les potions peuvent être utilisés, par exemple :
 
-- un [[cristal-d-antimagie]]
+- un [[cristal-dantimagie]]
 - certains objets de la réserve de faction ([[noel]]).
 
 Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dans la [[cmd-show|description]] de l'item à utiliser.  

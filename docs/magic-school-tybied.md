@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: tybied-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tybied spells
 
 ## Level 1
@@ -157,7 +159,7 @@ alias: tybied-spells
 
 :   The spell allows a magician to create an [[amulet-of-true-sight]].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[camouflage]] skill to hide still remain undetected.
+    However, units that use their [[stealth]] skill to hide still remain undetected.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -177,7 +179,7 @@ alias: tybied-spells
 
 `CAST "Create A Ring of Invisibility"`  
 
-### Airship 
+### Airship
 
 :   These magic runes allow a boat with a capacity of up to 50 weight units to fly for a week and allow the boat to cross land.  
     The enchanted ink's components include a windbag and a snowcrystal petal.
@@ -349,9 +351,9 @@ alias: tybied-spells
     The strength of the elemental depends of the mage's skill: it can move up to (level-12)*250 size units of building.
     The building won't remain undamaged by the process.
 
-|               Components                | Lvl |  Type  | Rank | Ship | Dist. |
-|:---------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 10 x T aura, 1 permanent aura, 5 [laen] | 13  | Normal |  5   |      |       |
+|                    Components                    | Lvl |  Type  | Rank | Ship | Dist. |
+|:------------------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 10 x T aura, 1 permanent aura, 5 [laen][laen-id] | 13  | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Living Rock" <building-id> <Richtung>`  
 

@@ -186,8 +186,7 @@ plugins:
             # References submenu
         - locale: de
           name: Deutsch
-          # TODO: enable before push
-          build: false
+          build: true
           nav_translations:
             # GERMAN main menu item translations
             Home: Hauptseite
@@ -439,8 +438,6 @@ plugins:
                 - Items:
                   - adamantium-armor.md
                   - adamantium.md
-                  - laen.md
-                  - mallorn.md
                   - amulet-of-true-sight.md
                   - antimagic-crystal.md
                   - belt-of-troll-strength.md
@@ -452,7 +449,7 @@ plugins:
                   - ring-of-invisibility.md
                   - ring-of-power.md
                   - sack-of-holding.md
-                  - seaserpenthead.md
+                  - sea-serpent-head.md
                   - shell.md
                   - silverbag.md
                   - sphere-of-invisibility.md
@@ -721,8 +718,6 @@ nav:
       - Items:
         - adamantium-armor.md
         - adamantium.md
-        - laen.md
-        - mallorn.md
         - amulet-of-true-sight.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md
@@ -734,7 +729,7 @@ nav:
         - ring-of-invisibility.md
         - ring-of-power.md
         - sack-of-holding.md
-        - seaserpenthead.md
+        - sea-serpent-head.md
         - shell.md
         - silverbag.md
         - sphere-of-invisibility.md

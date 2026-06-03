@@ -8,7 +8,7 @@ alias: batiments-speciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.
 
-Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make_fr] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make_fr].
+Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make].
 
 Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 
@@ -26,23 +26,23 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
-| Bâtiment                                         | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
-|--------------------------------------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
-| [Phare][phare]{title="Lighthouse"}               |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
-| [Mine][mine]{title="Mine"}                       |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
-| [Carrière][carriere]{title=""}                   |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
-| [Scierie][scierie]{title=""}                     |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
-| [Forge][forge]{title=""}                         |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
-| [Haras][haras]{title=""}                         |       2 |    4 |    1 |    100 |    2 |        150 | --        |          -- |      taille |
-| [Port][port]{title=""}                           |       5 |    5 |   -- |    250 |    3 |        250 | --        |          25 |      taille |
-| [Caravansérail][caravanserail]{title=""}         |       1 |    5 |    1 |    500 |    2 |      3 000 | 2 chevaux |          10 |      taille |
-| [Académie][academie]{title=""}                   |       5 |    5 |    1 |    500 |    3 |      1 000 | --        |          25 |      taille |
-| [Tour de mage][tour-de-mage]{title=""}[^1]       |       5 |    3 |    3 |    500 |    5 |      1 000 | --        |          50 | 2 personnes |
-| [Barrage][barrage]{title=""}                     |       5 |   10 |    1 |    500 |    4 |      1 000 | 3 bois    |          50 |      taille |
-| [Tunnel][tunnel]{title=""}                       |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
-| [Auberge][auberge]{title=""}                     |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
-| [Monument][monument]{title=""}                   |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
-| [Cercle de Pierres][cercle-de-pierres]{title=""} |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
+| Bâtiment                                                    | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
+|-------------------------------------------------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
+| [Phare][phare]{title="Lighthouse"}                          |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
+| [Mine][mine]{title="Mine"}                                  |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
+| [Carrière][carriere]{title="Quarry"}                        |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
+| [Scierie][scierie]{title="Sawmill"}                         |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
+| [Forge][forge]{title="Smithy"}                              |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
+| [Haras][haras]{title="Stable"}                              |       2 |    4 |    1 |    100 |    2 |        150 | --        |          -- |      taille |
+| [Port][port]{title="Harbour"}                               |       5 |    5 |   -- |    250 |    3 |        250 | --        |          25 |      taille |
+| [Caravansérail][caravanserail]{title="Caravanserai"}        |       1 |    5 |    1 |    500 |    2 |      3 000 | 2 chevaux |          10 |      taille |
+| [Académie][academie]{title="Academy"}                       |       5 |    5 |    1 |    500 |    3 |      1 000 | --        |          25 |      taille |
+| [Tour de mage][tour-de-mage]{title="Mage Tower"}[^1]        |       5 |    3 |    3 |    500 |    5 |      1 000 | --        |          50 | 2 personnes |
+| [Barrage][barrage]{title="Dam"}                             |       5 |   10 |    1 |    500 |    4 |      1 000 | 3 bois    |          50 |      taille |
+| [Tunnel][tunnel]{title="Tunnel"}                            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
+| [Auberge][auberge]{title="Inn"}                             |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
+| [Monument][monument]{title="Monument"}                      |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
+| [Cercle de Pierres][cercle-de-pierres]{title="Stonecircle"} |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
 
 !!! warning "Attention"
 
@@ -333,14 +333,14 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 
 Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 500 bois.  
 
-- Un cercle de pierres peut être béni grâce à un [puissant sort][segne-steinkreis].
+- Un Cercle de Pierres peut être béni grâce à [ce puissant sort][benediction-du-cercle-de-pierres].
   Cela développe alors des effets étranges.
   Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
   De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.
-- Dans un cercle de pierres béni, un mage régénère 50 % d’aura en plus.
-- La puissance de tout sort lancé dans un cercle de pierres béni augmente comme si le sort avait été lancé avec un niveau supplémentaire.
+- Dans un Cercle de Pierres béni, un mage régénère 50 % d’aura en plus.
+- La puissance de tout sort lancé dans un Cercle de Pierres béni augmente comme si le sort avait été lancé avec un niveau supplémentaire.
 - Les occupants ont 30% de résistance à la magie supplémentaire.
-- Un cercle de pierres ne fonctionnera que s’il est entièrement construit et béni !
+- Un Cercle de Pierres ne fonctionnera que s’il est entièrement construit et béni !
 
 ## Voir aussi
 
@@ -351,3 +351,5 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 Poursuivre la lecture : [réserve de faction][reserve-de-faction].
 
 [^1]: nécessite également 2 mallorns et 2 laens par point de taille.
+
+[cmd-make]: [[cmd-make]]

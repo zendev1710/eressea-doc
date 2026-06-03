@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-hide
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # HIDE
 
 **`HIDE`**`[`*`level`*`]`  
@@ -10,13 +12,13 @@ alias: cmd-hide
 **`HIDE`**` `*`race`*  
 
 With the first variant you can adjust how “intensively” a unit tries to camouflage itself.
-`level` obviously cannot be higher than the unit's [[camouflage|camouflage skill]].  
+`level` obviously cannot be higher than the unit's [stealth][stealth-id] skill.  
 
 If no parameters are specified, the maximum is set.  
 
 With `HIDE FACTION` you can try to hide your faction affiliation.
 The faction affiliation is then displayed as **anonymous** to other players.  
-In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage]**.  
+In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage][espionage]**.  
 
 With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.  
 
@@ -45,14 +47,11 @@ However, this camouflage comes with a few special features, which are listed her
 However, [[cmd-group]] also has the side effect of having multiple armies.  
 This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
 
-With `HIDE race` [demons] can disguise themselves as another race.
+With `HIDE race` [demons][demons] can disguise themselves as another race.
 
 ## See also
 
-- [espionage]
-- [[camouflage]]
+- [Espionage][espionage]
+- [[discretion]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
-
-[espionage]: ./skills-list.md#espionage
-[demons]: ./races.md#demons

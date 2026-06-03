@@ -192,9 +192,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 :   Ce rituel augmente plusieurs fois l'effet de la potion magique.  
     Alors qu’auparavant seul un arbre pouvait germer à partir d’un bâton, chaque branche produit désormais des racines.
 
-|                                 Composants                                  | Niv. |  Type  | Rang | B |              D               |
-|:---------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 6 x N aura, N [mallorns], 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |   | :material-check:{ .success } |
+|                                                 Composants                                                  | Niv. |  Type  | Rang | B |              D               |
+|:-----------------------------------------------------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 6 x N aura, N [mallorns][mallorn-fr-id]{title="Mallorn"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  4   | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
@@ -366,9 +366,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 :   Avec ce rituel, le druide invoque un esprit élémentaire de la terre et le fait trembler la terre.  
     Ce tremblement de terre endommagera tous les bâtiments de la région.
 
-|    Composants     | Niv. |  Type  | Rang | B |              D               |
-|:-----------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 25 aura, 2 [laen] |  7   | Normal |  5   |   | :material-check:{ .success } |
+|                 Composants                  | Niv. |  Type  | Rang | B |              D               |
+|:-------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 25 aura, 2 [laen][laen-fr-id]{title="Laen"} |  7   | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
@@ -530,13 +530,13 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 11
 
-### Bénédiction du cercle de pierres
+### Bénédiction du Cercle de Pierres
 
 <!-- cspell:disable -->
 *Bless Stone Circle (EN), Segne Steinkreis (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel bénit un cercle de pierres qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
+:   Ce rituel bénit un [Cercle de Pierres][cercle-de-pierres] qui doit d'abord être construit à partir de pierres et d'un peu de bois.  
     La bénédiction du druide transforme le cercle en un puissant site d'activité magique, offrant une protection contre la magie et une régénération accrue de l'aura.  
     On dit que les vierges rencontraient d'étranges créatures autour des cercles de pierres.
 

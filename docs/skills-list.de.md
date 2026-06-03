@@ -135,7 +135,7 @@ Weiterlesen: [Tarnung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
-[Tarnung]: ./camouflage.md
+[Tarnung]: ./stealth.md
 [Alchemie]: ./alchemy.md
 [Tränken]: ./alchemy.md
 [Kräutern]: ./herbs.md
@@ -151,9 +151,9 @@ Weiterlesen: [Tarnung].
 [Schiffe]: ./ships.md
 [bef-spioniere]: ./cmd-spy.md
 [Straßen]: ./roads.md
-[beklauen]: ./camouflage.md
+[beklauen]: ./stealth.md
 [Bewachungen]: ./cmd-guard.md
-[Wahrnehmung]: ./camouflage.md
+[Wahrnehmung]: ./stealth.md
 
 [Tabelle]: ./war-tables.md#ausdauer
 [Handel]: ./silver.md#handel

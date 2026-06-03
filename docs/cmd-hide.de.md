@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-tarne
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # TARNE
 
 **`TARNE`**`[`*`stufe`*`]`  
@@ -10,19 +12,19 @@ alias: bef-tarne
 **`TARNE`**` `*`rasse`*  
 
 Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht.
-`stufe` kann natürlich nicht höher als das [Talent] der Einheit sein.
+`stufe` kann natürlich nicht höher als das [Talent][tarnung] der Einheit sein.
 Ohne Parameterangabe wird das Maximum gesetzt.
 
 Mit `TARNE PARTEI` kann man seine Parteizugehörigkeit zu verbergen versuchen.
 Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt.
-Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit [Spionage] erkennen.
+Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit [Spionage][spionage] erkennen.
 Mit `TARNE PARTEI NICHT` wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.
 
 `TARNE PARTEI NUMMER nummer` tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen.
 Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen.
 Um wieder der eigenen Partei zugehörig zu erscheinen, muß für `nummer` die eigene Parteinummer verwendet werden.
 Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl.
-Parteien, die von der Partei oder Gruppe der Einheit [HELFE xyz PARTEITARNUNG] bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.
+Parteien, die von der Partei oder Gruppe der Einheit [`HELFE xyz PARTEITARNUNG`][cmd-help] bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.
 
 Soweit, so einfach.
 Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:
@@ -42,18 +44,14 @@ Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser 
 [[bef-gruppe]] hat allerdings auch die Nebenwirkung mit den mehreren Heeren.
 Auf diese Weise kann man also nicht sehen ob Einheiten sich als eine fremde Partei ausgeben oder ob der Betreffende nur mehrere Gruppen hat.
 
-Mit `TARNE rasse` können [Dämonen] sich als andere Rasse tarnen.
+Mit `TARNE rasse` können [Dämonen][damonen] sich als andere Rasse tarnen.
 
 ## Siehe auch
 
-- [Tarnung][Talent]
-- [Wahrnehmung]
+- [Spionage][spionage]
+- [Tarnung][tarnung]
+- [Wahrnehmung][wahrnehmung]
 
 <!-- From [https://wiki.eressea.de/index.php?title=TARNE&oldid=15791] -->
 
-[Talent]: ./camouflage.md
-[Spionage]: ./skills-list.md
-[HELFE xyz PARTEITARNUNG]: ./cmd-help.md
-[bef-gruppe]: ./cmd-group.md
-[Dämonen]: ./races.md#damonen
-[Wahrnehmung]: ./camouflage.md
+[cmd-help]: [[cmd-help]]

@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: races
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Races
 
 As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties] in certain skills, and sometimes special abilities; each race has different [recruitment costs][bonuses and penalties]. As a general rule, a person weighs 10 weight units (WU or lbs) and can carry 5.4 WU/lbs. Trolls, goblins and various monsters are exceptions.
@@ -10,6 +12,8 @@ At the start of the game, you must choose the race you want to play. This race i
 
 For a quick overview, see the [table of racial modifiers][bonuses and penalties].
 
+[](){ #demons-id }
+
 ## Demons
 
 Demons are cruel and unpredictable. They devour the local peasants and always surprise by acquiring new abilities or losing them.
@@ -17,8 +21,8 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 **Attention!** Demons are extremely unsuitable for inexperienced Eressea players!
 
 - Volatility: All skills with at least one skill level (before racial malus) have a 25% chance of shifting. The skill can lose up to 3 weeks of learning (40%), or rise up to 3 weeks of learning (60%). No skill can ever fall below level 0.
-- Infernal Hunger: Demons eat peasants every turn. Demons that do not receive food (not enough peasants) lose hit points and are subject to skill reduction according to the normal [starvation rule].
-- Ethereal Creature: Demons are not [recruited] from the peasant population (they aren't deducted from the peasant pool). However, the normal recruitment limits still apply for balance reasons.
+- Infernal Hunger: Demons eat peasants every turn. Demons that do not receive food (not enough peasants) lose hit points and are subject to skill reduction according to the normal [starvation rule][starvation].
+- Ethereal Creature: Demons are not [recruited][recruiting] from the peasant population (they aren't deducted from the peasant pool). However, the normal recruitment limits still apply for balance reasons.
 - Ethereal Creature: When a demon unit gives away men with [[cmd-give|`GIVE 0`]], these people are not added to the peasant population in the region.
 - Intrinsic Disguise: Demons can [change their appearance] to become that of any other player race.
 - Panic: In close combat, taking a hit from a demon causes panic in the victim. The person receives a modifier of −1 to all combat skills (not the unit).
@@ -33,7 +37,9 @@ The magical people of the faery kingdom aren't built for heavy labor, but they h
 - Magicians: Elf factions can have 1 additional [magician], allowing them to have a maximum of 6.
 - Elf magicians regenerate aura 25% faster.
 - Expert Archers: Elves cause 1 additional damage point when using bows.
-- Only elves can build [elven bows].
+- Only elves can build [elven bows][weapons-summary-table].
+
+[](){ #goblins-id }
 
 ## Goblins
 
@@ -49,7 +55,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 
 Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and [ships] to others. Weaponry is not one of their strengths.
 
-- Halflings who try to [flee] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [[cmd-combat|`COMBAT FLEE`]]).
+- Halflings who try to [flee][fleeing] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [[cmd-combat|`COMBAT FLEE`]]).
 - Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against [dragons].
 - Always Hungry : Halflings suffer more damage from starvation than other races (between 8 and 17 hit points (1d10+7)).
 
@@ -60,11 +66,11 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 **Attention!** Insects are not very suitable for inexperienced Eressea players!
 
 - Cold Blooded: In deserts and swamps, insects get +1 on all skills they still have at least at 1, in mountains and glaciers they get -1.
-- Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation rule] rule.
+- Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation] rule.
 - Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can produce a [potion] of "nest warmth" that makes recruitment in other terrains possible.
-- Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table]).
+- Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
 - Tacticians: Insects get a bonus on the [tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
-- Nomad Traders: Insects can [trade] in deserts and swamps without needing castles.
+- Nomad Traders: Insects can [trade][silver-trade-id ] in deserts and swamps without needing castles.
 
 ## Cats
 
@@ -79,7 +85,7 @@ Known for their enhanced senses, the cat people are excellent spies and master g
 Aquarians are at home in the water, but they feel uncomfortable in the mountains. They build and drive ships as easily as they were building blocks, while other tasks do not come to them so naturally.
 
 - Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move] by 1 extra region per week.
-- Sea dwellers: Aquarians can issue [long orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming].
+- Sea dwellers: Aquarians can issue [long orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming][swimming].
 - Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
 
 ## Humans
@@ -123,13 +129,15 @@ Orcs start their life as fighters, and usually end it as fighters. They intuitiv
 - Dangerous: Unarmed orcs do not fight with a -2 penalty in close combat like other races, but with (best close combat skill - 3). They still need weapons to collect taxes.
 - Orcs are slow thinkers and generally learn all non-weapon skills somewhat slower than other races.
 
+[](){ #trolls-id }
+
 ## Trolls
 
 These walking boulders are among the strongest creatures of Eressea. They love to work with rocks, horses are afraid of them, and swimming has never been known as one of the troll's favorite pastimes.
 
 - Heavy Weights: Trolls are strong and they can lift up to 10.8 WU/lbs, but they also weigh 20 WU/lbs, twice as much as other races.
 - Foot Soldiers: While technically trolls can ride, there is no troll cavalry, and thus no bonus for riding in combat (This has no effect on the transport of goods and the movement speed of mounted trolls).
-- Quarrying: Only 75% of the stones [quarried] by trolls are subtracted from the amount of stones available in a region. This effect is cumulative with a [quarry].
+- Quarrying: Only 75% of the stones [quarried][about-mining] by trolls are subtracted from the amount of stones available in a region. This effect is cumulative with a [quarry][quarry].
 - The enemy's cavalry only gets a +1 bonus against trolls instead of the normal +2.
 - Horsepower: Trolls are the only race able to use carts without horses. Four trolls can pull a cart, making them less dependent on horses, but they can only move one region (without a road). This is explained with the [[cmd-ride]] order.
 - Unarmed Combat: Unarmed trolls cause 2−6 points of damage.
@@ -139,7 +147,7 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 
 Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal skepticism, and their sailing skills are among the worst in the world.
 
-- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine] and [mining][quarried]).
+- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine][mine] and [mining][about-mining]).
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
 - Dwarves [mages][magician] regenerate aura 50% slower.
 
@@ -150,27 +158,18 @@ Continue reading: [Racial skill modifiers].
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
 [bonuses and penalties]: ./skills-modifiers.md
-[starvation rule]: ./silver.md#starvation
-[recruited]: ./silver.md#recruiting
 [change their appearance]: ./cmd-hide.md
 [region's maximum]: ./world.md
 [magician]: ./magic.md
-[elven bows]: ./war-tables.md#weapons-summary-table
-[steal]: ./camouflage.md
+[steal]: ./stealth.md
 [ships]: ./ships.md
-[flee]: ./war.md#fleeing
-[dragons]: ./monsters.md#dragons
 [alchemists]: ./skills-list.md
 [potion]: ./alchemy.md
-[combat table]: ./war-tables.md#races-and-their-characteristics
 [tactics]: ./tactic.md
 [groups]: ./cmd-group.md
-[trade]: ./silver.md#trade
 [move]: ./travel.md
 [long orders]: ./commands.md
-[swimming]: ./sailing.md#swimming
 [expensive skills]: ./skills.md
 [heroes]: ./cmd-promote.md
-[quarried]: ./resources.md#about-mining
-[quarry]: ./buildings-others.md#quarry
-[mine]: ./buildings-others.md#mine
+
+[dragons]: ./monsters.md#dragons

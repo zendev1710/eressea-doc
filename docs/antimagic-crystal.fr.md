@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: cristal-d-antimagie
+alias: cristal-dantimagie
 ---
 # Cristal d'Antimagie
 

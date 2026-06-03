@@ -2,14 +2,16 @@
 # cSpell:locale en
 alias: cmd-spy
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # SPY
 
-*[long] order.*
+*[long prder][short-and-long-orders].*
 
 **`SPY`**` `*`unit-id`*
 
 Espionage allows you to spy on units of another faction.  
-The spy's espionage skill is compared with the target unit's [[camouflage|stealth skill]].  
+The spy's espionage skill is compared with the target unit's [stealth][stealth] skill.  
 
 The basic chance of a successful espionage attempt is 10%.  
 For each skill level that the espionage skill exceeds the victim's stealth skill, this increases by 5%.  
@@ -61,5 +63,3 @@ It is clear that espionage attempts with many bad units will be noticed with alm
     At the moment there are different results for the same spies.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPY&oldid=16733] -->
-
-[long]: ./commands.md#short-and-long-orders

@@ -32,7 +32,7 @@ alias: list-of-spells
 |    |    |  8 |    |    | [Banish Spirits]                  | --      |  2   | 6 x T aura                                              | Distance, Ship |
 |    |    | 12 |    |    | [Barkskin]                        | Pre-c.  |  2   | 4 x T aura                                              |                |
 |  4 |    |    |    |    | [Blabbermouth]                    | --      |  5   | 10 aura                                                 |                |
-|    |    |  4 |    |    | [Bless Mallorn Logs]              | --      |  5   | 6 x T aura, T [mallorns], 1 [water of life]             | Distance       |
+|    |    |  4 |    |    | [Bless Mallorn Logs]              | --      |  5   | 6 x T aura, T [mallorns][mallorn-id], 1 [water of life] | Distance       |
 |    |    | 11 |    |    | [Bless Stone Circle]              | --      |  5   | 350 aura, 5 perm. aura                                  |                |
 |    |    |  1 |    |    | [Blessed Harvest]                 | --      |  5   | T aura                                                  | Distance, Ship |
 |    |  5 |    |    |    | [Blood Frenzy]                    | Pre-c.  |  4   | 5 x T aura, 1 peasant                                   |                |
@@ -87,7 +87,7 @@ alias: list-of-spells
 |    |    |    |  6 |    | [Insomnia]                        | --      |  5   | 18 aura                                                 | Distance       |
 |  1 |    |    |    |    | [Jugglery]                        | --      |  5   | T aura                                                  | Ship           |
 |    |  4 |    |    |    | [Lesser Sacrifice]                | --      |  1   | 16 Hit Points                                           | Ship           |
-|    |    |    |    | 13 | [Living Rock]                     | --      |  5   | 10 x T aura, 1 perm. aura, 5 [laen]                     |                |
+|    |    |    |    | 13 | [Living Rock]                     | --      |  5   | 10 x T aura, 1 perm. aura, 5 [laen][laen-id]            |                |
 |    |  8 |    |    |    | [Madness of War]                  | Pre-c.  |  5   | 3 x T aura, 10 peasants                                 |                |
 |    |    | 15 |    |    | [Maelstrom]                       | --      |  5   | 200 aura, 1 Seeschlangenkopf                            | Sea, Ship      |
 |    |    |  4 |    |    | [Magic Path]                      | --      |  5   | T aura, 1 [stone], 1 [wood]                             | Distance, Ship |
@@ -139,7 +139,7 @@ alias: list-of-spells
 |  7 |    |    |    |    | [Sound out]                       | --      |  5   | 4 aura, 100 silver                                      |                |
 |    |    |    |    |  6 | [Steal Aura]                      | --      |  3   | 2 x T aura                                              | Distance       |
 |    |    |  8 |    |    | [Strong Wall And Sturdy Gate]     | Pre-c.  |  5   | 2 x T aura                                              |                |
-|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |  5   | 25 aura, 2 [laen]                                       | Distance       |
+|    |    |  6 |    |    | [Summon Earth Elemental]          | --      |  5   | 25 aura, 2 [laen][laen-id]                              | Distance       |
 |  9 | 13 | 10 |  9 | 12 | [Summon Familiar]                 | --      |  5   | 100 aura, 5 perm. aura                                  |                |
 |    |    | 13 |    |    | [Summon Fire Elemental]           | --      |  5   | 600 aura                                                | Distance       |
 |    |  8 |    |    |    | [Summon Shadowdemons]             | --      |  5   | 3 x T aura                                              |                |
@@ -198,7 +198,7 @@ Continue reading: [[alchemy|Potions]].
 [Chaos Gift]: ./spells-descriptions.md#chaos-gift
 [Concealing aura]: ./spells-descriptions.md#concealing-aura
 [Countersong]: ./spells-descriptions.md#countersong
-[Create A Bag of Holding]: ./spells-descriptions.md#Create-a-bag-of-holding
+[Create A Bag of Holding]: ./spells-descriptions.md#create-a-bag-of-holding
 [Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength
 [Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch
 [Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility
@@ -230,7 +230,7 @@ Continue reading: [[alchemy|Potions]].
 [Great Drought]: ./spells-descriptions.md#great-drought
 [Grove of Oak Trees]: ./spells-descriptions.md#grove-of-oak-trees
 [Hail]: ./spells-descriptions.md#hail
-[Hangover]: ./spells-descriptions.md#schaler-wein
+[Hangover]: ./spells-descriptions.md#hangover
 [Heal]: ./spells-descriptions.md#heal
 [Hex]: ./spells-descriptions.md#hex
 [High art of persuasion]: ./spells-descriptions.md#high-art-of-persuasion
@@ -286,7 +286,7 @@ Continue reading: [[alchemy|Potions]].
 [Song of Seduction]: ./spells-descriptions.md#song-of-seduction
 [Song of Slavery]: ./spells-descriptions.md#song-of-slavery
 [Song of Terror]: ./spells-descriptions.md#song-of-terror
-[Song of the Aging Spirit]: ./spells-descriptions.md#gsong-of-the-aging-spirit
+[Song of the Aging Spirit]: ./spells-descriptions.md#song-of-the-aging-spirit
 [Song of the Youthful Spirit]: ./spells-descriptions.md#song-of-the-youthful-spirit
 [Song of War]: ./spells-descriptions.md#song-of-war
 [Sound out]: ./spells-descriptions.md#sound-out
@@ -315,9 +315,7 @@ Continue reading: [[alchemy|Potions]].
 [berserkers blood]: ./alchemy.md#berserkers-blood
 [dragonhead]: ./dragonhead.md
 [irons]: ./resources.md#iron
-[laen]: ./resources.md#laen
 [knotroot]: ./herbs.md#knotroot
-[mallorns]: ./resources.md#mallorn
 [snowcrystal petal]: ./herbs.md#snowcrystal-petal
 [stone]: ./resources.md#stone
 [sword]: ./war-tables.md#sword

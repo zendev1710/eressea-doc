@@ -2,6 +2,10 @@
 # cSpell:locale fr
 alias: cmd-group-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #cmd-group-fr-id }
+
 # GROUP
 
 **`GROUP`**`["`*`name`*`"]`  

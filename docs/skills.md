@@ -2,7 +2,10 @@
 # cSpell:locale en
 alias: skills
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Skills
+<!-- TODO: translate page in english -->
 
 Les compétences sont un élément essentiel qui définit une [[cmd-unit|unité]] dans Eressea.
 Toutes les personnes d'une unité ont les mêmes compétences.
@@ -18,7 +21,7 @@ Dans la plupart des cas, la valeur de compétence affichée dans le rapport est 
 Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
 Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.
 
-## Terminologie
+## Terminology
 
 On dira d'une unité qu'ell est compétente (ou maîtrise la compétence) si elle a [[cmd-learn|acquis]]{title="LEARN"} la compétence concernée.  
 
@@ -32,19 +35,19 @@ Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
 Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
-Il faut en moyenne deux semaines à un [nain] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
+Il faut en moyenne deux semaines à un [nain][dwarves] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
 
 **Examples:**
 
 Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.
-A [dwarven unit][nain] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
+A [dwarven unit][dwarves] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
 It takes an average of two weeks to advance in the mining skill from level 3 to level 4.
 
 Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.
-Un apprentissage dans une [académie] permet d'apprendre en plus rapidement.
+Un apprentissage dans une [academy][academy] permet d'apprendre en plus rapidement.
 
 Un enseignant peut avoir jusqu'à 10 élèves.
 Une unité enseignante peut contenir autant de personnes que souhaité.
@@ -76,13 +79,13 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magic]], [alchemy], [herbalism], [espionage] et [[tactics]] sont particulièrement difficiles et coûteuses.
+[[magic]], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [[tactics]] sont particulièrement difficiles et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [[magic|ce tableau]]).
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
-Si l'unité est dans une [academy], le coût d'apprentissage des compétences payantes est doublé.
+Si l'unité est dans une [academy][academy], le coût d'apprentissage des compétences payantes est doublé.
 
 Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;
 par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
@@ -147,7 +150,7 @@ Pour en savoir plus, consultez le chapitre sur [[money|l'argent]].
 
 ### Concealment & Co
 
-[espionage], [[camouflage|stealth]] et [[camouflage|perception]] sont centrés sur la dissimulation.
+[espionage][skill-espionage-id], [stealth][stealth] et [perception][perception] sont centrés sur la dissimulation.
 Elles ont leur propre chapitre.
 
 ### For travel
@@ -166,10 +169,3 @@ Les compétences de maniement des armes telles que crossbow, bow, melee, catapul
 Continue reading: [[skills-list]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
-
-[alchemy]: ./skills-list.md#alchemy
-[espionage]: ./skills-list.md#espionage
-[herbalism]: ./skills-list.md#herbalism
-[academy]: ./buildings-others.md#academy
-[académie]: ./buildings-others.md#academy
-[nain]: ./races.md#dwarves

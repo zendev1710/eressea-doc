@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: kriegstabellen
 ---
+<!-- properdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Kriegstabellen
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.
@@ -83,10 +85,10 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 ² Armbrüste schießen nur in der 1. Runde und in der 4. Runde. Bei einem Armbrusttreffer wird der Rüstungsschutz des Gegners halbiert und abgerundet.
 ³
 
-- [Goblins] haben unbewaffnet nicht den Abzug von -2 auf Defensive
-- [Trolle] machen unbewaffnet mehr Schaden, können aber nicht zu Pferd kämpfen
-- [Orks] kämpfen mit bestem Nahkampftalent -3
-- [Katzen] bekommen ihren üblichen Bonus, haben also unbewaffnet -1 auf Defensive
+- [Goblins][goblins-de-id] haben unbewaffnet nicht den Abzug von -2 auf Defensive
+- [Trolle][trolle] machen unbewaffnet mehr Schaden, können aber nicht zu Pferd kämpfen
+- [Orks][orks] kämpfen mit bestem Nahkampftalent -3
+- [Katzen][katzen] bekommen ihren üblichen Bonus, haben also unbewaffnet -1 auf Defensive
 - Manche Rassen (i.A. nur Monster und [[vertraute]]) können das Talent *Unbewaffneter Kampf* lernen und haben dann keinen Abzug, wenn sie ohne Waffe kämpfen
 
 !!! info
@@ -99,7 +101,7 @@ Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Ra
 
 Bemerkungen:
 
-- Der Schaden zu Pferd gilt nur in Verbindung mit dem [Pferdebonus]
+- Der Schaden zu Pferd gilt nur in Verbindung mit dem [Pferdebonus][boni-und-mali]
 - OB und DB sind der Offensiv- und Defensiv-Bonus; so ist eine Kriegsaxt eher als Angriffswaffe ausgelegt, derweil eine Hellebarde eher der Verteidigung dienlich ist
 - Bei [[talente]] bedeutet K = Katapultbedienung, A = Armbrustschießen, B = Bogenschießen, H = Hiebwaffen, S = Stangenwaffen
 - Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und rüstungen um 30%. Details zur Magieresistenz folgen unten
@@ -126,7 +128,7 @@ Erhöhte Trefferpunkte durch Ausdauer. Die Formel dazu ist:
 | Katzen        |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
 | Meermenschen  |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
 | Menschen      |  20 |  21 |   24 |   27 |   31 |   35 |    40 |    46 |    52 |    58 |    64 |   102 |   146 |   196 |    252 |    312 |    377 |
-| Orks          |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
+| [Orks][orks]  |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
 | Trolle        |  30 |  32 |   36 |   41 |   46 |   53 |    61 |    69 |    78 |    87 |    97 |   153 |   219 |   295 |    378 |    469 |    566 |
 | Zwerge/       |  24 |  25 |   28 |   32 |   37 |   42 |    48 |    55 |    62 |    69 |    77 |   122 |   175 |   236 |    302 |    375 |    453 |
 
@@ -189,7 +191,7 @@ Trefferpunkte (HP), Magieresistenz (R.) und natürliche Rüstung (NR).
 | Menschen     | 20 |  0 |  0 |
 | Meermenschen | 20 |  0 |  0 |
 | Zwerge       | 24 |  5 |  0 |
-| Orks         | 24 | -5 |  0 |
+| [Orks][orks] | 24 | -5 |  0 |
 | Elfen        | 18 | 10 |  0 |
 | Halblinge    | 18 |  5 |  0 |
 | Goblins      | 16 | -5 |  0 |
@@ -221,9 +223,3 @@ Dabei wird die Kombination aus natürlicher Magieresistenz, Waffe, Rüstung und 
 Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild+Kette) hat also *nicht* 10+30+30+30=100% Resistenz sondern 90% x 70% x 70% x 70% = 31% -> 69% Magieresistenz.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
-
-[Goblins]: ./races.md#goblins
-[Trolle]: ./races.md#trolle
-[Orks]: ./races.md#orks
-[Katzen]: ./races.md#katzen
-[Pferdebonus]: ./war.md#boni-und-mali

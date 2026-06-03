@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: beginner-tips
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Beginner tips
 
 When entering orders, make sure you have used the correct faction number and unit numbers.
@@ -35,13 +37,13 @@ Create more units and learn some skills that you expect to need in the next thre
 [[cmd-entertain|Entertainment]] is essential for earning money.
 Without sufficient silver, your faction won't be able to grow.
 [[cmd-tax|Tax collectors]] are also a good source of income;
-for this, you need, for example, metals ([mining]) or wood ([logging]) to craft weapons like swords or spears;
-and of course, tax collectors need the appropriate weapon skill ([tax collection], [weapon skills]).
+for this, you need, for example, metals ([mining][about-mining]) or wood ([logging][deep-in-the-forest]) to craft weapons like swords or spears;
+and of course, tax collectors need the appropriate weapon skill ([tax collection][collecting-taxes], [weapon skills][combat-skills]).
 
-[[camouflage|Perception]] is a very important skill that is often underestimated by beginners.
-Only tax collectors are able to see camouflaged units and prevent them from [stealing]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
-It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry] and [mining] for the stone and [[buildings|castles building]]) so that [trade] can be conducted.
-Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons] is also essential.
+[Perception][perception] is a very important skill that is often underestimated by beginners.
+Only tax collectors are able to see camouflaged units and prevent them from [stealing][stealing-the-dishonest-way]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
+It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [[buildings|castles building]]) so that [trade][silver-trade-id] can be conducted.
+Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
 Units with expensive skills like [[tactics|Tacticians]], [[skills-list|Alchemists]], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
@@ -83,7 +85,7 @@ Don't forget units that leave the region!
 
 In the first few rounds, you can live off your starting capital, but soon you'll need a steady income.
 This nest egg is generally depleted after four to six rounds.
-The fastest way to generate income is with tax collectors and entertainers, and [trading] luxury goods promises large profits in the long run.
+The fastest way to generate income is with tax collectors and entertainers, and [trading][silver-trade-id] luxury goods promises large profits in the long run.
 
 Plan the first few weeks thoroughly.
 You can calculate exactly how many entertainers, tax collectors, weapon makers, lumberjacks, etc., you can and need to recruit.
@@ -134,16 +136,6 @@ Don't let yourselves get annoyed or be carried away by rash decisions – the pl
 Continue reading: [[xontormia-express]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
-
-[mining]: ./resources.md#about-mining
-[logging]: ./resources.md#deep-in-the-forest
-[tax collection]: ./silver.md#collecting-taxes
-[weapon skills]: ./skills.md#combat-skills
-[stealing]: ./silver.md#stealing-the-dishonest-way
-[trade]: ./silver.md#trade
-[trading]: ./silver.md#trade
-[horses and wagons]: ./travel.md#horse-and-carriage
-[masonry]: ./skills-list.md#masonry
 
 [Eressea's Discord channel]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm Games forum]: http://www.pbem-spiele.de/

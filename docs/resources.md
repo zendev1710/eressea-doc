@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: resources
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Resources
 
 Raw materials can be obtained without other ingredients from the region without further ingredients.  
@@ -20,7 +22,11 @@ The necessary skill can be looked up in the section about [[items|goods]].
 
 ### Iron
 
+[](){ #laen-id }
+
 ### Laen
+
+[](){ #mallorn-id }
 
 ### Mallorn
 
@@ -31,7 +37,7 @@ The necessary skill can be looked up in the section about [[items|goods]].
 ## Extraction of Raw Materials
 
 When exploiting resources, it is important to consider that units [[cmd-guard|on guard]] prevent non-allied factions - having neither [[cmd-help|`HELP GUARD`]] nor [[cmd-help|`HELP ALL`]] to your faction and not [[cmd-contact|contacting]] your unit or faction - from exploiting them.
-This does not apply if the guarding faction does not see the producer, for example because they are [[camouflage|cloaked]].
+This does not apply if the guarding faction does not see the producer, for example because they are [cloaked][stealth].
 
 ### About Mining
 
@@ -48,7 +54,7 @@ In general, the quantities that can be extracted increase with each new layer.
 The development of Eressea's vegetation is determined by the seasons.
 As soon as the first rays of sunlight hit the ground in spring, the seeds hidden in the soil germinate and last year's saplings grow into mature trees.
 If there isn't enough sun (no free working space), the seeds remain dormant in the soil.
-During the summer and autumn months, mature trees shed their seeds, which can be collected with the [[cmd-make]]`seed / "mallorn seed"` order and the [herbalism] skill (minimum level 3 / 4) and then replanted elsewhere with the [[cmd-plant]]`seed / "mallorn seed"` order (minimum level 6 / 7).
+During the summer and autumn months, mature trees shed their seeds, which can be collected with the [[cmd-make]]`seed / "mallorn seed"` order and the [herbalism][herbalism] skill (minimum level 3 / 4) and then replanted elsewhere with the [[cmd-plant]]`seed / "mallorn seed"` order (minimum level 6 / 7).
 
 If wood or mallorn is felled, the forest shrinks and only recovers very slowly.
 As long as there is enough wood, it can be felled in any quantity.
@@ -73,10 +79,10 @@ Skills: forestry, herbalism
 
 ### And Elsewhere
 
-You may capture wild horses as you like with [[cmd-make|`MAKE horse`]] by a unit with the [taming skill][herbalism].
+You may capture wild horses as you like with [[cmd-make|`MAKE horse`]] by a unit with the [taming][taming] skill.
 Without help, only wild horses reproduce.
 They love space and freedom, which is why some of them migrate to neighboring regions when there are fewer horses there.
-However, it is possible to breed captured horses in a [stable] with the taming skill and the order [[cmd-grow|`BREED HORSES`]].
+However, it is possible to breed captured horses in a [stable][stable] with the taming skill and the order [[cmd-grow|`BREED HORSES`]].
 
 Player experience (Solthar):
 
@@ -92,7 +98,7 @@ At 1000 horses there is no more growth.
 
 Herbs can also be harvested to make potions.  
 There is a maximum of one herb species in each region.  
-See the [list of herbs].  
+See the [list of herbs][list-of-herbs].  
 
 ## See also
 
@@ -104,7 +110,3 @@ See the [list of herbs].
 Continue reading: [[items|Goods]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
-
-[herbalism]: ./skills-list.md#herbalism
-[stable]: ./buildings-others.md#stable
-[list of herbs]: ./herbs.md#list-of-herbs

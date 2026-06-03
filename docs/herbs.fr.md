@@ -57,7 +57,7 @@ Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.
 *Cobalt fungus (EN), Blauer Baumringel (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
 ### Champignon des fjords
 
@@ -121,7 +121,7 @@ Cette plante pousse uniquement dans les [montagnes].
 *Spider ivy (EN), Grüner Spinnerich (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
 ### Mandragore
 
@@ -145,7 +145,7 @@ Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.
 *owlsgaze (EN), Eulenauge (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
 ### Peyote
 
@@ -185,7 +185,7 @@ Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.
 *Flatroot (EN), Flachwurz (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
 ### Témérité piquante
 
@@ -193,7 +193,7 @@ Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][P
 *Tangy temerity (EN), Würziger Wagemut (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][Plaine].  
+Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
 ### Tsuga blanc
 

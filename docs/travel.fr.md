@@ -31,19 +31,19 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 <!-- TODO: check catapult capacity -->
 *Capacité de transport d'une personne selon la race.*
 
-| Race                                     | Capacité de transport |
-|------------------------------------------|----------------------:|
-| [Gobelin][gobelins]{title="Goblins"}     |               **4,4** |
-| [Aquarien][aquariens]{title="Aquarians"} |                   5,4 |
-| [Chat][chats]{title="Cats"}              |                   5,4 |
-| [Démon][demons]{title="Demons"}          |                   5,4 |
-| [Elfe][elfes]{title="Elves"}             |                   5,4 |
-| [Halfling][halflings]{title="Halflings"} |                   5,4 |
-| [Humain][humains]{title="Humans"}        |                   5,4 |
-| [Insecte][insectes]{title="nsects"}      |                   5,4 |
-| [Nain][nains]{title="Dwarves"}           |                   5,4 |
-| [Orc][orcs]{title="Orcs"}                |                   5,4 |
-| [Troll][trolls]{title="Trolls"}          |              **10,8** |
+| Race                                      | Capacité de transport |
+|-------------------------------------------|----------------------:|
+| [Gobelin][gobelins]{title="Goblins"}      |               **4,4** |
+| [Aquarien][aquariens]{title="Aquarians"}  |                   5,4 |
+| [Chat][chats]{title="Cats"}               |                   5,4 |
+| [Démon][demons]{title="Demons"}           |                   5,4 |
+| [Elfe][elfes]{title="Elves"}              |                   5,4 |
+| [Halfelins][halfelins]{title="Halflings"} |                   5,4 |
+| [Humain][humains]{title="Humans"}         |                   5,4 |
+| [Insecte][insectes]{title="nsects"}       |                   5,4 |
+| [Nain][nains]{title="Dwarves"}            |                   5,4 |
+| [Orc][orcs]{title="Orcs"}                 |                   5,4 |
+| [Troll][trolls-fr-id]{title="Trolls"}     |              **10,8** |
 
 Les trolls ont une capacité de transport supérieure aux autres peuples.
 Les Gobelins ont une capacité de transport moindre.  
@@ -78,12 +78,12 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Chat][chats]{title="Cats"}              |    10 |
 | [Démon][demons]{title="Demons"}          |    10 |
 | [Elfe][elfes]{title="Elves"}             |    10 |
-| [Halfling][halflings]{title="Halflings"} |    10 |
+| [Halfelin][halfelins]{title="Halflings"} |    10 |
 | [Humain][humains]{title="Humans"}        |    10 |
 | [Insecte][insectes]{title="nsects"}      |    10 |
 | [Nain][nains]{title="Dwarves"}           |    10 |
 | [Orc][orcs]{title="Orcs"}                |    10 |
-| [Troll][trolls]{title="Trolls"}          |    20 |
+| [Troll][trolls-fr-id]{title="Trolls"}    |    20 |
 
 <!-->
 | [Chariot][chariot]{title="ar"}  |    40 |

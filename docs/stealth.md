@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: stealth
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #stealth-id }
+
 # Stealth
 
 The **Stealth** [[skills|skill]] allows you to camouflage yourself from other units.  

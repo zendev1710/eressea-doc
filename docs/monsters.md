@@ -81,9 +81,9 @@ See [Igjarjuk].
 These miniature dragons have little in common with their larger counterparts.  
 They can hardly be counted as monsters  
 
-### Sea snakes
+### Sea serpents
 
-The dragons are distant relatives **Sea snakes** that make the oceans unsafe and ambush passing ships.  
+The dragons are distant relatives **Sea serpents** that make the oceans unsafe and ambush passing ships.  
 However, boats should let them go in peace  
 
 ## Known Undead

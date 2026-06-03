@@ -3,7 +3,9 @@
 alias: cmd-hide-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #cmd-hide-fr-id }
+
 # HIDE
 
 **`HIDE`**`[`*`niveau`*`]`  
@@ -27,7 +29,7 @@ Il n’existe pas de moyen simple de voir à travers cette forme de camouflage.
 Pour paraître à nouveau comme appartenant à votre propre faction, vous devez passer le même ordre avec en spécifiant le paramètre `number` à la valeur de votre propre identifiant de faction.  
 La faction spécifiée doit être connue de la faction qui donne l'ordre, c'est-à-dire apparaître dans son rapport, sinon l'ordre échouera.  
 
-Les factions qui reçoivent un ordre [[cmd-help|`HELP xyz FACTION DISGUISE`]] de la faction de l'unité (ou du groupe) peut voir la véritable affiliation de la faction de l'unité qui aura donné l'ordre.  
+Les factions qui reçoivent un ordre [`HELP xyz FACTION DISGUISE`][cmd-help] de la faction de l'unité (ou du groupe) peut voir la véritable affiliation de la faction de l'unité qui aura donné l'ordre.  
 
 Jusqu’ici, c’est relativement simple.  
 
@@ -53,6 +55,9 @@ Avec `HIDE <race>` les [démons][demons] peuvent se déguiser en une autre race.
 ## Voir aussi
 
 - [Espionnage][espionnage]{title="Espionage"}
-- [discrétion][discretion]{title="Stealth"}
+- [Discrétion][discretion]{title="Stealth"}
+- [Perception][perception]{title="Perception"}
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
+
+[cmd-help]: [[cmd-help]]

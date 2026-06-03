@@ -3,7 +3,10 @@
 alias: cmd-promote-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #cmd-promote-fr-id }
+
 # PROMOTE
 
 **`PROMOTE`**  

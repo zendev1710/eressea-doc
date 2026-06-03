@@ -35,7 +35,7 @@ Cependant, chaque obstacle et chaque condition supplémentaire à intégrer dans
 Magellan a déjà intégré une fonction de recherche d'itinéraire.  
 En plus de la distance, il supporte également les bateaux naviguant le long des côtes.  
 
-D'autres conditions secondaires peuvent concerner la sécurité des régions (serpents de mer, adversaires), la direction d'atterrissage dans la région cible ou encore l'escale privilégiée dans les régions terrestres en fin de tour.  
+D'autres conditions secondaires peuvent concerner la sécurité des régions ([serpents de mer][serpents-de-mer], adversaires), la direction d'atterrissage dans la région cible ou encore l'escale privilégiée dans les régions terrestres en fin de tour.  
 Or, ce sont précisément ces conditions secondaires qui sont difficiles voire impossibles à calculer à l'aide de la fonction d'estimation, de sorte que le comportement de l'algorithme devient de plus en plus « gourmand ».
 Une recherche A* avec un estimateur qui renvoie toujours 0 correspond à une recherche gloutonne.  
 

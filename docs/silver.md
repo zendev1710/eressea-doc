@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: money
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Money
 
 !!! note "Note"
@@ -42,9 +44,9 @@ A starving unit cannot give people to other units. In addition, the skill levels
 
 Over time, wounded units recover. Units normally regenerate 5% (some races more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.
 
-The sailing skill is only reduced by one level when units are starving. Nevertheless, starvation at sea is a critical situation. On the one hand, nobody can work there except [aquarians], so you are dependent on silver from outside. Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take [damage] and drift away.
+The sailing skill is only reduced by one level when units are starving. Nevertheless, starvation at sea is a critical situation. On the one hand, nobody can work there except [aquarians][aquarians], so you are dependent on silver from outside. Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take [damage] and drift away.
 
-Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning. Units lose hit points and will be much weaker in any subsequent battle. If units survive such a battle anyway, there is still a risk that they will continue to starve because they were unable to work due to the battle (see [combat end]).
+Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning. Units lose hit points and will be much weaker in any subsequent battle. If units survive such a battle anyway, there is still a risk that they will continue to starve because they were unable to work due to the battle (see [combat end][the-end]).
 
 If units master the [endurance skill] at a high level, they may experience the strange effect that a unit is "very strong" according to the report (i.e. it has more hit points than it should normally have) after starving.
 
@@ -57,7 +59,7 @@ Peasants also need sustenance, which they normally earn themselves and take from
 - The peasants earn enough silver, but player units collect [taxes][collecting taxes] before the peasants can provide for themselves.
 - There are also rumors of special events that can temporarily or permanently reduce the fertility of a region, which means that the peasants can no longer earn their own living.
 
-Starved peasants can later be resurrected as [undead].
+Starved peasants can later be resurrected as [undead][undead].
 
 ## Income
 
@@ -67,7 +69,7 @@ Units can earn money by working in agriculture (see [[cmd-work]]).
 However, the larger the forests in a region, the less arable land there is, and the fewer peasants (and player units) can work: eight peasants or players can no longer work per tree, each sapling occupies 4 jobs.
 The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [[cmd-work]] order page).
 
-A peasant normally earns 11 silver per turn. This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table]). If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.
+A peasant normally earns 11 silver per turn. This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table][castles-overview-id]). If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.
 
 However, working units of players earn less - after all, they are only auxiliaries. How much they can earn (usually 1 silver less than peasants) is specified in the report and can also be found in the table in the [WORK order page][`WORK`].
 
@@ -121,6 +123,8 @@ If the [stealth skill] of the stealing unit is higher than the [perception] of t
 
 It is also worth reading the chapter on [stealth][stealth skill] about this topic.
 
+[](){ #silver-trade-id }
+
 ## Trade
 
 In every region, the peasantry produce one special luxury item.
@@ -146,16 +150,16 @@ Every type of trade good has a certain base price (see table below). The number 
 *Base prices of luxury goods.*
 
 | Luxury good | Base price | Weight UW/lbs |
-|-------------|------------|--------------|
-| balm        | 4          | 2            |
-| oil         | 3          | 3            |
-| spice       | 5          | 2            |
-| silk        | 6          | 3            |
-| gem         | 7          | 1            |
-| incense     | 4          | 2            |
-| myrrh       | 5          | 2            |
+|-------------|------------|---------------|
+| balm        | 4          | 2             |
+| oil         | 3          | 3             |
+| spice       | 5          | 2             |
+| silk        | 6          | 3             |
+| gem         | 7          | 1             |
+| incense     | 4          | 2             |
+| myrrh       | 5          | 2             |
 
-The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a [harbour], this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.
+The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a [harbour][harbour], this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.
 
 The prices and maximums shown are valid for all factions in the region and not per faction, but per luxury product. Without trade agreements between players, the selling prices of luxury goods can be "messed up" faster than you would like ...
 
@@ -199,7 +203,7 @@ If all guarding factions have set [[cmd-help|`HELP GUARD`]] or [[cmd-help|`HELP 
 
 - [[cmd-give]]
 - [[cmd-reserve]][reserved]
-- [[cmd-recruit]][1]
+- [[cmd-recruit]]
 - [Item pool]
 - [Stealth][stealth skill]
 - [[cmd-guard]]
@@ -219,15 +223,9 @@ Continue reading: [Material pool].
 [damage]: ./ships.md
 [endurance skill]: ./war-tables.md
 [`WORK`]: ./cmd-work.md
-[stealth skill]: ./camouflage.md
-[perception]: ./camouflage.md
+[stealth skill]: ./stealth.md
+[perception]: ./stealth.md
 [castles]: ./castles.md
 [Item pool]: ./items-pool.md
 
-[trading]: ./silver.md#trade
-[aquarians]: ./races.md#aquarians
-[combat end]: ./war.md#the-end
-[undead]: ./monsters.md#undead
-[castles table]: ./castles.md#overview
-[harbour]: ./buildings-others.md#harbour
-[1]: ./silver.md#recruiting
+[trading]: #trade

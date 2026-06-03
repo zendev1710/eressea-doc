@@ -3,7 +3,7 @@
 alias: ressources
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Ressources
 
 Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient.  
@@ -55,11 +55,15 @@ Un cheval augmente également la vitesse de déplacement (d'une région supplém
 *Iron (EN), Eisen (DE)*.
 <!-- cspell:enable -->
 
+[](){ #laen-fr-id }
+
 ### Laen
 
 <!-- cspell:disable -->
 *Laen (EN), Laen (DE)*.
 <!-- cspell:enable -->
+
+[](){ #mallorn-fr-id }
 
 ### Mallorn
 

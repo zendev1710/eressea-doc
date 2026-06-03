@@ -3,7 +3,7 @@
 alias: races-fr
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Races
 
 En plus des [humains], il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
@@ -14,13 +14,15 @@ Chaque race a des avantages et des inconvénients qui se traduisent par des [bon
 Chaque race a des [coûts de recrutement][modificateurs-de-competences] différents.  
 
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
-Les [trolls], les [gobelins] et divers monstres constituent des exceptions.
+Les [trolls][trolls-fr-id]{title="Trolls"}, les [gobelins] et divers monstres constituent des exceptions.
 
 Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jouer.  
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 
 Pour un aperçu rapide, consultez le [tableau des modificateurs raciaux][modificateurs-de-competences].
+
+[](){ #demons-fr-id }
 
 ## Démons
 
@@ -51,7 +53,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 - Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
   Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
 - Si on rend des démons aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
-- Les démons peuvent se [camoufler][cmd-hide-fr] en une autre race.
+- Les démons peuvent [se camoufler][cmd-hide-fr-id] en une autre race.
 - Au corps à corps, chaque coup porté par un démon à un adversaire provoque une "panique sur 1 personne" : la personne touchée uniquement (pas l'unité) a -1 à ses compétences de combat.
 - Les démons blessés se régénèrent à hauteur de 7,5 % de leurs points de vie (PV).
 
@@ -89,7 +91,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, mais ses archers sont presque aussi redoutés que ses mages.
 
-- Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs][géographie] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
+- Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs][geographie] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
   Cela peut faire une grande différence en fonction du nombre d'elfes sur la région.
 - Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion][discretion]{title="Stealth"} et [perception][perception]{title="Perception"}, et +2 en [tactique][tactique]{title="Tactics"}.
 - Les elfes peuvent avoir 6 [mages][magie] (au lieu de 5).
@@ -115,11 +117,11 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
 - Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
-- Un gobelin au moins T4 en [discrétion][discretion]{title="Stealth"} [dérobera][cmd-steal-fr] toujours au moins 50 Silver, même s'il est détecté.
+- Un gobelin au moins T4 en [discrétion][discretion]{title="Stealth"} [dérobera][cmd-steal-fr-id] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 
-## Halflings
+## Halfelins
 
 <!-- cspell:disable -->
 *Halflings (EN), Halblinge (DE).*
@@ -133,11 +135,11 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
 
-Les halflings sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
+Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halflings qui essaient de [fuir]la-fuite un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
-- Les halflings ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons].
-- Les halflings sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
+- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
+- Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons].
+- Les halfelins sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
 ## Insectes
 
@@ -169,14 +171,14 @@ Les insectes ne peuvent normalement pas entrer dans les glaciers, et ne peuvent 
 Ceux qui pénètrent malgré tout dans un glacier perdent des points de vie et voient leur compétence réduite de moitié selon la règle normale de la [famine][famine].
 
 Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, [Vent des Glaces][vent-des-glaces]{title="Icewind"} et [Neiges Envoûtantes][neiges-envoutantes]{title="Snowbane"}), les insectes peuvent **recruter uniquement dans les déserts**.  
-Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de créer une [potion][Potions] de "nest warmth" qui permet de recruter dans d'autres types de région.
+Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de créer une [potion][potions] de "nest warmth" qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
 Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][races-et-leurs-caracteristiques]).  
 
 Les insectes obtiennent un bonus de [[tactique]] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
-Cela peut également entraîner un malus s'il y a très peu de combattants ! Attention, les unités dans différents [groupes][cmd-group-fr] sont gérées dans des armées différentes !  
+Cela peut également entraîner un malus s'il y a très peu de combattants ! Attention, les unités dans différents [groupes][cmd-group-fr-id] sont gérées dans des armées différentes !  
 
 Les insectes n'ont besoin d'aucune construction pour [commercer][le-commerce] dans les déserts et les marais.  
 
@@ -261,7 +263,7 @@ Le nombre d'immigrants se calcule ainsi :
     </div>
 
 Si l'on a soudainement trop d'immigrants à cause d'une catastrophe ou d'un combat, ceux-ci ne sont pas supprimés, on ne pourra juste plus en accueillir de nouveaux.  
-Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros][cmd-promote-fr].
+Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros][cmd-promote-fr-id].
 
 ## Orcs
 
@@ -285,6 +287,8 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 - De même : si vous donnez des orcs aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
 - Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres races, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
 - Les orcs ont le cerveau lent et apprennent généralement toutes les compétences un peu plus lentement que les autres races, hors celles de combat (cad celles pour maîtriser une arme).
+
+[](){ #trolls-fr-id }
 
 ## Trolls
 
@@ -334,6 +338,5 @@ Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-compete
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 
-[trolls]: #trolls
 [gobelins]: #gobelins
 [humains]: #humains

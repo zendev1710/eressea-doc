@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: tipps-und-tricks
 ---
+<!-- properdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tipps und Tricks
 
 ## Man muss nicht immer reiten können
 
-Schon früh im Spiel lohnt sich Handel und Transport. Auch wenn man nicht reiten kann, kann man pro Person ein Pferd mit sich führen - was dann die Kapazität der Einheit von 5,4 auf 25,4 GE pusht (4 [Trolle] können sogar noch einen Wagen mitnehmen und kommen mit 4 Pferden auf eine Kapazität von 223,2 GE). So kann man mit ein paar wenigen Leuten schon Steine, Handelsgüter und anderes schweres Zeug herumtragen.
+Schon früh im Spiel lohnt sich Handel und Transport. Auch wenn man nicht reiten kann, kann man pro Person ein Pferd mit sich führen - was dann die Kapazität der Einheit von 5,4 auf 25,4 GE pusht (4 [Trolle][trolle] können sogar noch einen Wagen mitnehmen und kommen mit 4 Pferden auf eine Kapazität von 223,2 GE). So kann man mit ein paar wenigen Leuten schon Steine, Handelsgüter und anderes schweres Zeug herumtragen.
 
 ## Wie rüste ich meine Truppen aus?
 
@@ -85,7 +87,6 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[Trolle]: ./races.md#trolle "Troll"
 [Umherwandernde Bauern]: ./farmers-hike.md
 [Bauernvermehrung]: ./farmers-proliferation.md
 [bef-reserviere]: ./cmd-reserve.md

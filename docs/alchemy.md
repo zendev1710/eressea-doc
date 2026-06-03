@@ -323,7 +323,7 @@ To prepare this potion, you will need the following herbs:
 
 ## Herbs table
 
-<!-- TODO: not possible to disp^lay this table without horizontal scrooll bar !? min column width is too high -->
+<!-- TODO: not possible to display this table without horizontal scroll bar !? min column width is too high -->
 | Herb                |       [SM]       |       [GW]       |       [WL]       |       [PB]       |       [BZ]       |       [OM]       |       [BK]       |       [DB]       |       [BW]       |       [HP]       |       [NW]       |       [PL]       |       [EP]       |       [HL]       |
 |---------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
 | [bubblemorel]       |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
@@ -353,7 +353,7 @@ Continue reading: [[herbs]].
 [^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
 [^2]: You can apply it to a unit with the order `USE Duncebun <unit−id>`.  
-The application of the potion fails if the [[camouflage]] skill of the acting unit is **less or equal** to the victim's **[perception] level + 2**.
+The application of the potion fails if the [[stealth]] skill of the acting unit is **less or equal** to the victim's **[perception] level + 2**.
 In this case, you get an error message and the [duncebun] is not used up (thus it remains to the unit).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/en&oldid=16929] -->

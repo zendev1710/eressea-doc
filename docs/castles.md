@@ -2,12 +2,14 @@
 # cSpell:locale en
 alias: castles
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Castles
 
 Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.  
 They also reduce the likelihood of [[plague]].
 
-Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry] skill.  
+Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry][masonry] skill.  
 The size at which a castle enters a new category is shown in the table below:
 
 | Size |     1      |     2     |      10       |  50   |    250     |   1250   |  6250+  |
@@ -31,7 +33,7 @@ To the north of the temple, the city of Xontormia stretches along the Whyren, wh
 ```
 
 Units in a castle are protected by its walls, namely one person is protected per size unit of the castle.  
-Only the protected persons benefit from the bonus that a castle gives its occupants in the event of a raid (for more information, see the [[war]] chapter, in particular the list of [bonuses and penalties]).  
+Only the protected persons benefit from the bonus that a castle gives its occupants in the event of a raid (for more information, see the [[war]] chapter, in particular the list of [bonuses and penalties][bonuses-and-mali]).  
 Each size unit of the castle requires a stone.  
 
 A larger castle improves the population's income: all workers and peasants receive a bonus when they work, which depends on the size of the largest castle in a region (see also the [summary table]), and the owner of the largest castle receives a share of the profit when other players sell trade goods.  
@@ -68,6 +70,8 @@ So, the fortification is increased by 15 stones and a size 25 fortification will
 With skill level 2, builders will, in 2 additional weeks, enlarge the fortification to size 50, creating a tower.  
 They will not be able to enlarge the tower, though, due to the new required minimum level of 3.  
 
+[](){ #castles-overview-id }
+
 ## Overview
 
 Building castles - building material, minimum Masonry skill level, wage bonus (in silvers), trade share and defense bonus.  
@@ -86,15 +90,11 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 
 - [[other-buildings]]
 - [[buildings]]
-- [Bonuses and penalties]
-- [Income]
+- [Bonuses and penalties][bonuses-and-mali]
+- [Income][income]
 
 Continue reading: [[other-buildings]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
 
 [summary table]: #overview
-
-[bonuses and penalties]: ./war.md#bonuses-and-mali
-[Income]: ./silver.md#income
-[masonry]: ./skills-list.md#masonry

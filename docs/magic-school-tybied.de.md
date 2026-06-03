@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: tybiedzauber
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tybiedzauber
 
 ## Stufe 1
@@ -374,9 +376,9 @@ alias: tybiedzauber
     Die Stärke des beschworenen Elementars hängt vom Talent des Magiers ab: Der Elementar kann maximal \[Stufe-12\] x 250 Größeneinheiten große Gebäude versetzen.  
     Das Gebäude wird diese Prozedur nicht unbeschädigt überstehen.  
 
-|               Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|:----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 10 x T aura, 1 permanente aura, 5 [laen] |  13   | Normal |  5   |        |       |
+|                     Komponenten                      | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 10 x T aura, 1 permanente aura, 5 [laen][laen-de-id] |  13   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Belebtes Gestein' <Gebäude-Nr> <Richtung>`  
 

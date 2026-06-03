@@ -201,10 +201,10 @@ Weiterlesen: [Materialpool].
 [Gebäude]: ./buildings.md
 [Schaden]: ./ships.md
 [Ausdauertalent]: ./war-tables.md
-[bef-beklaue]: ./camouflage.md
-[Tarnungstalent]: ./camouflage.md
-[Wahrnehmung]: ./camouflage.md
-[Tarnung]: ./camouflage.md
+[bef-beklaue]: ./stealth.md
+[Tarnungstalent]: ./stealth.md
+[Wahrnehmung]: ./stealth.md
+[Tarnung]: ./stealth.md
 [kaufen]: ./cmd-buy.md
 [verkaufen]: ./cmd-sell.md
 [Burgen]: ./castles.md

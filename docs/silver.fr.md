@@ -54,7 +54,7 @@ En savoir plus : les [[batiments]].
 ### La Famine pour les unités des joueurs
 
 Les unités affamées subissent des dégâts, et donc perdent des points de vie.  
-Les halflings affamés proportionnellement plus que les autres races.  
+Les [Halfelins][halfelins] affamés proportionnellement plus que les autres races.  
 La santé d'une unité apparaît dans le rapport.  
 L'unité sera exhausted, wounded ou badly wounded.  
 Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine.  

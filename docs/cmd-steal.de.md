@@ -31,4 +31,4 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 [Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
 [immun]: ./puppy-protection.md
 [Geld]: ./silver.md
-[Tarnung und Wahrnehmung]: ./camouflage.md
+[Tarnung und Wahrnehmung]: ./stealth.md

@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: anneau-d-invisibilite
+alias: anneau-dinvisibilite
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->

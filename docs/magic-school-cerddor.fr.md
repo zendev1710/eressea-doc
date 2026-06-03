@@ -232,7 +232,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 <!-- cspell:enable -->
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].
-    L'amulette permet au porteur de voir toutes les unités protégées par un [[anneau-d-invisibilite]].  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [[anneau-dinvisibilite]].  
     Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -247,7 +247,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer un [[anneau-d-invisibilite]].  
+:   Avec ce sort, le mage peut créer un [[anneau-dinvisibilite]].  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.  
 
@@ -599,4 +599,4 @@ Extrait de « Errants » de Firudin le Sage.
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
 
 [amulette de vision décuplée]: [[amulette-de-vision-decuplee]]{title="Amulet of True Sight"}
-[anneau d'Invisibilité]: [[anneau-d-invisibilite]]{title="Ring of Invisibility"}
+[anneau d'Invisibilité]: [[anneau-dinvisibilite]]{title="Ring of Invisibility"}

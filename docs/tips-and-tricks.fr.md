@@ -10,7 +10,7 @@ alias: trucs-et-astuces
 
 Le commerce et le transport deviennent rentables dès le début de la partie.  
 Même sans savoir monter à cheval, on peut emmener un cheval par personne, ce qui augmente la capacité de l'unité de 5,4 à 25,4 lbs.  
-4 [trolls][trolls] peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.  
+4 [trolls][trolls-fr-id]{title="Trolls"} peuvent même transporter un chariot et, avec 4 chevaux, atteindre une capacité de 223,2 lbs.  
 
 Cela permet même à un petit groupe de transporter des pierres, des marchandises et autres objets lourds.  
 

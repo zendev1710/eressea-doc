@@ -265,9 +265,9 @@ alias: description-of-spells
 :   This ritual greatly increases the effect of the potion.  
     Now every branch becomes a mallorn tree where before only one could be grown from a log.
 
-| Sc. | Components                                                         | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|--------------------------------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 6 x T aura, T [mallorn][mallorn], 1 [water of life][water-of-life] |   4 | Normal |  5   |      | :material-check:{ .success } |
+| Sc. | Components                                                            | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|-----------------------------------------------------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 6 x T aura, T [mallorn][mallorn-id], 1 [water of life][water-of-life] |   4 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
@@ -520,7 +520,7 @@ And if you have done everything to please them, they will send one of their own 
 
 :   The spell allows a magician to create an [[amulet-of-true-sight]].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[camouflage]] skill to hide still remain undetected.
+    However, units that use their [[stealth]] skill to hide still remain undetected.
 
 |  Sc.   | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
 |:------:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -927,9 +927,9 @@ From "Wanderings" by Firudin the Wise.
     The strength of the elemental depends of the mage's skill: it can move up to (level-12)*250 size units of building.
     The building won't remain undamaged by the process.
 
-| Sc. | Components                                    | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|-----------------------------------------------|----:|-------:|:----:|:-----|:------|
-|  T  | 10 x T aura, 1 permanent aura, 5 [laen][laen] |  13 | Normal |  5   |      |       |
+| Sc. | Components                                       | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|--------------------------------------------------|----:|-------:|:----:|:-----|:------|
+|  T  | 10 x T aura, 1 permanent aura, 5 [laen][laen-id] |  13 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Living Rock" <building-id> <Richtung>`  
 
@@ -1557,9 +1557,9 @@ From "Wanderings" by Firudin the Wise.
 :   With this ritual, the druid summons an elemental spirit of the earth and causes it to cause the earth to tremble.  
 This earthquake will damage all buildings in the region.
 
-| Sc. | Components              | Lvl |   Type | Rank | Ship | Dist.                        |
-|:---:|-------------------------|----:|-------:|:----:|:-----|:-----------------------------|
-|  G  | 25 aura, 2 [laen][laen] |   7 | Normal |  5   |      | :material-check:{ .success } |
+| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist.                        |
+|:---:|----------------------------|----:|-------:|:----:|:-----|:-----------------------------|
+|  G  | 25 aura, 2 [laen][laen-id] |   7 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 

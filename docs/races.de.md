@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: rassen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Rassen
 
 Neben den Menschen gibt es in Eressea noch viele andere Rassen (Parteitypen), unter denen du wählen kannst.
@@ -24,8 +26,8 @@ Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fäh
     Dämonen sind denkbar ungeeignet für unerfahrene Eressea-Spieler!
 
 - Alle Talente, in denen sie mindestens Talentstufe 1 haben (vor Rassenmalus), verschieben sich mit einer Wahrscheinlichkeit von 25% um bis zu 3 Lernwochen nach oben (mit 60% Chance) oder unten (mit 40% Chance; das Talent steigt oder sinkt also, nicht beides). Die Verschiebung erfolgt nach den langen Befehlen und der Bewegung. Negative Talentwerte entstehen dabei nicht; ein Talent kann nicht unter 0 fallen.
-- Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel].
-- [Rekrutierte] Dämonen werden nicht vom Bauernpool abgezogen. Aus spieltechnischen Gründen gilt aber trotzdem das Rekrutierungslimit.
+- Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger].
+- [Rekrutierte][rekrutieren] Dämonen werden nicht vom Bauernpool abgezogen. Aus spieltechnischen Gründen gilt aber trotzdem das Rekrutierungslimit.
 - Gibt man Dämonen mit [[bef-gib|`GIB 0`]] an die Bauern, kehren diese in ihre Heimatsphäre zurück, sie werden nicht zu Bauern.
 - Dämonen können sich als eine andere Rasse [[bef-tarne|tarnen]].
 - Im Nahkampf bewirkt jeder Treffer eines Dämons bei einem Gegner eine "1-Personen-Panik": die betroffene Person hat -1 auf ihr Kampftalent.
@@ -40,7 +42,9 @@ Elfen sind ein geradezu magisches Volk. Schwere Arbeiten sind nicht unbedingt ih
 - Elfen dürfen sechs (statt fünf) [[magie-de|Magier]] besitzen.
 - Elfenmagier regenerieren Aura 25% schneller
 - Elfen machen mit Bögen einen Schadenspunkt mehr.
-- Nur Elfen können [Elfenbögen] bauen.
+- Nur Elfen können [Elfenbögen][waffeneigenschaften] bauen.
+
+[](){ #goblins-de-id }
 
 ## Goblins
 
@@ -60,8 +64,8 @@ Sie sind gute Händler und verstehen es, die Bauern zu unterhalten.
 Sie sind gute Baumeister, Pferde und [Schiffe] überlassen sie aber lieber anderen.
 Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
 
-- Halblinge, die in einem Kampf versuchen zu [fliehen], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [[bef-kaempfe|`KÄMPFE FLIEHE`]]).
-- Halblinge haben einen Angriffs- und Schadens-Bonus von je +5 im Kampf gegen [Drachen].
+- Halblinge, die in einem Kampf versuchen zu [fliehen][die-flucht], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [[bef-kaempfe|`KÄMPFE FLIEHE`]]).
+- Halblinge haben einen Angriffs- und Schadens-Bonus von je +5 im Kampf gegen [Drachen][drachen].
 - Halblinge nehmen durch Hungern mehr Schaden als andere Rassen. (Zwischen 8 und 17 Punkten (1d10+7) Schaden.)
 
 ## Insekten
@@ -71,11 +75,11 @@ Insekten leben in einem streng organisiertem Staat. Sie hassen die Kälte und f�
 Insekten sind nicht sehr geeignet für unerfahrene Eressea-Spieler!
 
 - Insekten mögen Wärme und Feuchtigkeit und hassen die Kälte: In Wüsten und Sümpfen haben sie +1 auf alle Talente, in denen sie wenigstens Talent 1 haben, in Gebirgen und Gletschern -1.
-- Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel].
+- Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger].
 - Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie] ein [Trank] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
-- Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier]).
+- Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier][rasseneigenschaften]).
 - Insekten bekommen einen [Taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [[bef-gruppe|Gruppen]] in der Regel in verschiedenen Heeren!
-- Insekten können in Wüsten und Sümpfen auch ohne Burgen [handeln].
+- Insekten können in Wüsten und Sümpfen auch ohne Burgen [handeln][handel].
 
 ## Katzen
 
@@ -90,7 +94,7 @@ Die Katzen zählen kaum zu den Handwerkern. Ihre feinen Sinne und ihre Geschmeid
 Meermenschen sind im Wasser zu Hause, im Gebirge fühlen sie sich dagegen unwohl. Schiffe bauen und bedienen sie so leicht, als seien es Bauklötzchen, während ihnen andere Arbeiten nicht ganz so leicht fallen.
 
 - Alle Schiffe mit Meermenschen-Kapitän einer Meermenschen-Partei können sich ein Feld weiter [bewegen].
-- Meermenschen können auch auf Schiffen [lange Befehle] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen].
+- Meermenschen können auch auf Schiffen [lange Befehle] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen][anschwimmen].
 - Bis zu 100 Meermenschen pro Ozeanfeld können auf hoher See mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen.
 
 ## Menschen
@@ -142,7 +146,7 @@ Trolle stapfen wandelnden Felsbrocken gleich unübersehbar durch die Lande. Mit 
 
 - Trolle sind stark und können doppelt soviel tragen wie andere (10,8 GE), wiegen aber auch doppelt soviel (20 GE).
 - Es gibt keine Troll-Kavallerie, d.h. Trolle erhalten keinen Pferdebonus. Auf den Warentransport und die Bewegungsgeschwindigkeit berittener Trolle hat das keine Auswirkungen.
-- Von Trollen [abgebaute Steine] werden nur zu 75% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem [Steinbruch].
+- Von Trollen [abgebaute Steine][vom-bergbau] werden nur zu 75% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem [Steinbruch][steinbruch].
 - Gegen Trolle hat Kavallerie nur einen Bonus von +1.
 - Trolle sind als einzige Rasse dazu in der Lage, Wagen ohne Pferde zu benutzen. Je vier Trolle können einen Wagen ziehen, sich allerdings auch nur eine Region (ohne Straße) bewegen. Genauer wird das beim Befehl [[bef-fahre]] erklärt.
 - Unbewaffnete Trolle machen 2 bis 6 Trefferpunkte Schaden.
@@ -154,35 +158,23 @@ Zwerge leben in den Bergen.
 Ihre Schmiedekünste sind viel gerühmt, ihre Bauten weltbekannt.
 Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist nicht gerade ihr Element.
 
-- Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][11] und [hier][abgebaute Steine]).
+- Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][bergwerk] und [hier][vom-bergbau]).
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
 - [[magie-de|Zwergenmagier]] regenerieren Aura 50% langsamer.
 
 Weiterlesen: [Talentmodifikatoren].
 
-[Talentmodifikatoren]: ./skills-modifiers.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
+[Talentmodifikatoren]: ./skills-modifiers.md
 [Boni bzw. Mali]: ./skills-modifiers.md
-[Hungerregel]: ./silver.md#hunger
-[Rekrutierte]: ./silver.md#rekrutieren
 [Regionskapazität]: ./world.md
-[Elfenbögen]: ./war-tables.md#waffeneigenschaften
 [klauen]: ./cmd-steal.md
 [Schiffe]: ./ships.md
-[fliehen]: ./war.md#die-flucht
-[Drachen]: ./monsters.md#drachen
 [Alchemie]: ./skills-list.md
 [Trank]: ./alchemy.md
-[hier]: ./war-tables.md#rasseneigenschaften
 [Taktik]: ./tactic.md
-[handeln]: ./silver.md#handel
-[bewegen]: ./travel.md
 [lange Befehle]: ./commands.md
-[Anschwimmen]: ./sailing.md#anschwimmen
+[bewegen]: ./travel.md
 [teuren Talenten]: ./skills.md
 [Helden]: ./cmd-promote.md
-[abgebaute Steine]: ./resources.md#vom-bergbau
-[Steinbruch]: ./buildings-others.md#steinbruch
-[11]: ./buildings-others.md#bergwerk

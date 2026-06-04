@@ -1501,8 +1501,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 *Dragon Call (EN), Drachenruf (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons].  
-    Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.  
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons-connus].  
+    Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la Sphère du Chaos.  
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
 

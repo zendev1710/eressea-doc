@@ -3,7 +3,7 @@
 alias: plantes
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Plantes
 
 **Les plantes** se ramassent avec l'ordre [[cmd-make|`MAKE HERBS`]].  
@@ -49,7 +49,7 @@ Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][p
 *Ice begonia (EN), Eisblume (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
+Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"}.  
 
 ### Champignon cobalt
 
@@ -147,6 +147,8 @@ Cette plante pousse uniquement dans les [marais][marais]{title="Swamp"}.
 
 Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][plaine].  
 
+[](){ #peyote-fr-id }
+
 ### Peyote
 
 <!-- cspell:disable -->
@@ -161,7 +163,7 @@ Ce petit cactus sans épines qui pousse uniquement dans le [désert].
 *Snowcrystal petal (EN), Schneekristall (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
+Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"}.  
 
 ### Pourriture de sable
 
@@ -201,7 +203,7 @@ Cette plante pousse dans les [forêts][foret]{title="Forest"} et les [plaines][p
 *White hemlocks (EN), Weißer Wüterich (DE)*.
 <!-- cspell:enable -->
 
-Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.  
+Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"}.  
 
 ## Plantes - Synthèse
 
@@ -211,9 +213,9 @@ Cette plante pousse uniquement sur les [glaciers][glacier]{title="Glacier"}.
 
 | Région                                         | Plantes                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Désert][desert]{title="Desert"}               | [tamaris][tamaris]{title="Waterfinder"}, [peyote][peyote]{title="Peyote"}, [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                                                                                                                                                                                                      |
+| [Désert][desert-fr-id]{title="Desert"}         | [tamaris][tamaris]{title="Waterfinder"}, [peyote][peyote-fr-id]{title="Peyote"}, [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                                                                                                                                                                                                |
 | [Forêt][foret]{title="Forest"}                 | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"}                    |
-| [Glacier][glacier]{title="Glacier"}            | [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}, [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"}, [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                                                                                                                          |
+| [Glacier][glacier-fr-id]{title="Glacier"}      | [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}, [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"}, [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                                                                                                                          |
 | [Haut-plateau][haut-plateau]{title="Highland"} | [champignon des fjords][champignon-des-fjords]{title="Fjord fungus"}, [mandragore][mandragore]{title="Mandrake"}, [gousse][gousse]{title="Windbag"}                                                                                                                                                                                             |
 | [Marais][marais]{title="Swamp"}                | [herbe de clairon][herbe-de-clairon]{title="Bugleweed"}, [morille][morille]{title="Bubblemorel"}, [racine de nœud][racine-de-nud]{title="Knotroot"}                                                                                                                                                                                             |
 | [Montagne][montagne]{title="Mountain"}         | [cire fissurée][cire-fissuree]{title="Gapgrowth"}, [herbe de roche][herbe-de-roche]{title="Rock weed"}, [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                                                                                                                                                                         |

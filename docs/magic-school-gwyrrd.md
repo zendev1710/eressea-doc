@@ -3,7 +3,7 @@
 alias: gwyrrd-spells
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Gwyrrd spells
 
 ## Level 1
@@ -398,6 +398,8 @@ This earthquake will damage all buildings in the region.
 `CAST "Summon Familiar"`  
 
 ## Level 11
+
+[](){ #g-bless-stone-circle-id }
 
 ### Bless Stone Circle
 

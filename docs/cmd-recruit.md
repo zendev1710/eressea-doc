@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-recruit
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # RECRUIT
 
 **`RECRUIT`**` `*`number`*  
@@ -11,10 +13,10 @@ This involves hiring new people from the region's farmers.
 Depending on the [[races|race]], you have to spend between 40 and 150 silver in [[skills-modifiers|recruitment costs]] per person hired.  
 The unit recruiting new members must carry this Silver with it.  
 When a new unit is created, you must give the new unit the necessary money so that it can recruit.  
-If the unit doesn't have enough Silver, it gets it from the [silver pool].  
+If the unit doesn't have enough Silver, it gets it from the [silver pool][the-silver-pool].  
 
 You can only recruit people from your own faction race.  
-So [migrant] units do not recruit any more migrants.  
+So [migrant][humans] units do not recruit any more migrants.  
 The farmers of a region have no race.  
 They only “decide” what race they belong to when they are recruited.  
 
@@ -37,17 +39,12 @@ Whatever the division, Faction C's second unit doesn't get any recruits because 
 So you shouldn't rely too much on the exact division and it's best to always discuss it with other factions.  
 
 If you hire additional members in an existing unit, **the skills in the unit are diluted** because the new ones have no skill.  
-The accumulated skill levels of the old unit are simply distributed among the new number of members (see [Mixing skills]).  
+The accumulated skill levels of the old unit are simply distributed among the new number of members (see [Mixing skills][mixing-skills]).  
 
 After you have recruited people, you can certainly carry out other orders.  
 
 ## See also
 
-- [recruiting]
+- [recruiting][recruiting]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RECRUIT&oldid=15790] -->
-
-[silver pool]: ./items-pool.md#the-silver-pool
-[migrant]: ./races.md#humans
-[Mixing skills]: ./skills.md#mixing-skills
-[recruiting]: ./silver.md#recruiting

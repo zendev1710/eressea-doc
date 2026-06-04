@@ -25,7 +25,7 @@ They can therefore collect taxes, mine resources, destroy roads, and recruit far
 
 ## Increase chance of escape
 
-The standard escape chance of a unit in [combat] is 25% (halflings 50%).  
+The standard [escape][fleeing] chance of a unit in combat is 25% (halflings 50%).  
 Each level of camouflage increases the unit's escape chance by 5%.  
 A horse increases a person's escape chance by 10% once (so 5 horses do NOT give a person +50%, but only +10%), regardless of whether the unit can ride.  
 The maximum escape chance is 75% (halflings 90%).  
@@ -50,7 +50,7 @@ Theft occasionally presents an effective way to bring down spies who are themsel
 
 ## Espionage
 
-If a unit with the [Espionage] skill issues the [[cmd-spy|`SPY`*`unit id`*]] order, its espionage skill is compared to the target unit's camouflage value.  
+If a unit with the [Espionage][skill-espionage-id] skill issues the [[cmd-spy|`SPY`*`unit id`*]] order, its espionage skill is compared to the target unit's camouflage value.  
 The base chance for a successful espionage attempt is 10%.  
 For each skill level by which the espionage skill exceeds the target's camouflage skill, the latter increases by 5%.  
 A high camouflage skill thus helps the unit to make a successful espionage attempt more difficult.  
@@ -75,12 +75,8 @@ In addition to these passive applications of camouflage, one can of course use w
 ## See also
 
 - [[cmd-guard]]
-- [revenue]
+- [revenue][stealing-the-dishonest-way]
 
 Continue reading: [[travel]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
-
-[combat]: ./war.md#fleeing
-[Espionage]: ./skills-list.md#espionage
-[revenue]: ./silver.md#stealing-the-dishonest-way

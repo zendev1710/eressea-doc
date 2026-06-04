@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: draig-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 -->
 # Draig spells
 
 *Note : in the documentation below, T represents the magic skill level.*
@@ -76,6 +78,8 @@ alias: draig-spells
 | 5 x T aura, 1 paysan |  5  | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
+
+[](){ #d-chaos-curse-id }
 
 ### Chaos Curse
 
@@ -250,6 +254,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 | 10 x T aura | 10  | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Pentagram" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #d-dragon-call-id }
 
 ### Dragon Call
 

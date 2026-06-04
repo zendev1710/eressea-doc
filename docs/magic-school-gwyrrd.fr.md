@@ -3,7 +3,7 @@
 alias: sorts-gwyrrd
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Sorts Gwyrrd
 
 Les sorts de l'École de magie **Gwyrrd** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -529,6 +529,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 `CAST "Summon Familiar"`  
 
 ## Niveau 11
+
+[](){ #g-benediction-du-cercle-de-pierres-id }
 
 ### Bénédiction du Cercle de Pierres
 

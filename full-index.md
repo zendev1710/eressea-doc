@@ -21,8 +21,6 @@
 [appendices/potions-and-herbs.md](./appendices/potions-and-herbs.md)
 [appendices/terrains.md](./appendices/terrains.md)
 [appendices/war-tables.md](./appendices/war-tables.md)
-[appendices/items/adamantium-armor.md](./appendices/items/adamantium-armor.md)
-[appendices/items/adamantium.md](./appendices/items/adamantium.md)
 [appendices/items/amulet-of-true-sight.md](./appendices/items/amulet-of-true-sight.md)
 [appendices/items/antimagic-crystal.md](./appendices/items/antimagic-crystal.md)
 [appendices/items/belt-of-troll-strength.md](./appendices/items/belt-of-troll-strength.md)

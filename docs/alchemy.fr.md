@@ -3,10 +3,12 @@
 alias: alchimie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD051 MD052 -->
+<!-- markdownlint-disable MD042 MD051 MD052 -->
 # Alchimie
 
 Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (plantes) en potions.
+
+[](){ #potions-fr-id }
 
 ## Potions
 
@@ -222,7 +224,7 @@ Plantes nécessaires pour concocter cette potion :
 Plantes nécessaires pour concocter cette potion :
 
 - [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}
-- [peyote][peyote]{title="Peyote"}
+- [peyote][peyote-fr-id]{title="Peyote"}
 - [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}
 - [racine de nœud][racine-de-nud]{title="Knotroot"}
 
@@ -243,7 +245,7 @@ Plantes nécessaires pour concocter cette potion :
 - [bégonia des glaces][begonia-des-glaces]{title="Ice begonia"}
 - [cire fissurée][cire-fissuree]{title="Gapgrowth"}
 - [lierre d'araignée]
-- [peyote][peyote]{title="Peyote"}
+- [peyote][peyote-fr-id]{title="Peyote"}
 
 #### Huile de cervelle
 
@@ -409,7 +411,7 @@ Plantes nécessaires pour concocter cette potion :
 | [mandragore][mandragore]{title="Mandrake"}                                          |                              |                              |                              |                              | :material-check:{ .success } |                              | :material-check:{ .success } |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
 | [morille][morille]{title="Bubblemorel"}                                             |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |
 | [œil de chouette][il-de-chouette]{title="Owlsgaze"}                                 |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              |
-| [peyote][peyote]{title="Peyote"}                                                    |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |
+| [peyote][peyote-fr-id]{title="Peyote"}                                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } | :material-check:{ .success } |                              |                              |                              |
 | [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                     |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |
 | [pétale de cristal de neige][petale-de-cristal-de-neige]{title="Snowcrystal petal"} |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |
 | [racine de nœud][racine-de-nud]{title="Knotroot"}                                   |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |                              |                              | :material-check:{ .success } |                              |                              |                              |                              |

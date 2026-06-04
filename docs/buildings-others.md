@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: other-buildings
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Other Buildings
 
 Buildings are built with the [[cmd-make|`MAKE "building type"`]] order and can be enlarged with [[cmd-make|`MAKE "building type" building-id`]].  
@@ -204,7 +206,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Capacity                | persons according to size               |
 
 - A caravanserai allows you to build roads in deserts. If the caravanserai is destroyed, half of the roads will also be destroyed. A completed road remains if the building maintenance is not paid.
-- In deserts, double the possible trade volume. The owner receives a part of the trade as in (see [castle rules table]).
+- In deserts, double the possible trade volume. The owner receives a part of the trade as in (see [castle rules table][castles-overview-id]).
 - A caravanserai will only work if it is completely built!
 
 ## Dam
@@ -220,6 +222,8 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 - Dam allows you to build roads in swamps. If the dam is destroyed, half of the roads will also be destroyed. A completed road remains if the building maintenance is not paid.
 - Dam will only work if it is completely built!
+
+[](){ #tunnel-id }
 
 ## Tunnel
 
@@ -272,7 +276,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | 100                 |
 | Capacity                | 3 persons           |
 
-- A stonecircle can be blessed by a [powerful spell]. This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses. In addition, magicians in the building can interrupt the connection between the Astral space and the real world
+- A stonecircle can be blessed by [this powerful spell][g-bless-stone-circle-id]{title="Bless Stone Circle"} (Gwyrrd). This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses. In addition, magicians in the building can interrupt the connection between the Astral space and the real world
 - In a blessed stonecircle, a mage regenerates 50% more aura
 - The power of any spell cast in a blessed stonecircle increases as if the spell had been cast with one more level
 - Occupants have 30% extra magic resistance
@@ -285,9 +289,6 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 - [[production]]
 
 Continue reading: [[faction-pool]].
-
-[castle rules table]: ./castles.md#overview
-[powerful spell]: ./spells-descriptions.md#bless-stone-circle
 
 [Lighthouse]: #lighthouse
 [Mine]: #mine

@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: orders-list
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # List of orders
 
 Under `S`/`L` it is noted whether the [[orders|order]] is a Short or Long order.  
@@ -129,7 +131,7 @@ More information: [[orders]].
 | [PREFIX &#91;prefix&#93;]                                                  | Gives the breed name a prefix              | S      |
 | [[cmd-promote]]                                                            | Turns unity into heroes                    | S      |
 | [QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]             | Leave the game                             | S      |
-| [RECRUIT &lt;number&gt;]                                                   | Recruits more people                       | S      |
+| [RECRUIT &lt;number&gt;][recruiting]                                       | Recruits more people                       | S      |
 | [REGION x,y]                                                               | No function (only for tools)               | S      |
 | [RESEARCH HERBS]                                                           | Looking for herbs                          | L      |
 | [RESERVE &lt;number&gt; "&lt;item&gt;"]                                    | Gegenstände reservieren                    | S      |
@@ -154,7 +156,7 @@ More information: [[orders]].
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Uses alchemical potion                     | S      |
 | [[cmd-work]]                                                               | Earns 10 silver or more                    | L      |
 
-[^1]: the order is not always long, see [The end of the battle]
+[^1]: the order is not always long, see [The end of the battle][the-end]
 [^2]: if the tracked unit does not move, another long order can be executed instead
 [^3]: a `BUY` and several `SELL` orders can be combined
 [^4]: a unit can cast multiple spells
@@ -297,7 +299,3 @@ Continue reading: [[first-round]].
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit]]
 [USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use]]
-
-[RECRUIT &lt;number&gt;]: ./silver.md#recruiting
-
-[The end of the battle]: ./war.md#the-end

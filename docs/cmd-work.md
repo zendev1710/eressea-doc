@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: cmd-work
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # WORK
 
 **`WORK`**  
 
-The unit works in agriculture and earns between 10 and 15 Silver per person per round (see also [this table]).
+The unit works in agriculture and earns between 10 and 15 Silver per person per round (see also [this table][examples-of-potential-income]).
 
 | Merit Castle | none | Fastening | Tower | Castle | fortress | Citadel |
 |--------------|:----:|:---------:|:-----:|:------:|:--------:|:-------:|
@@ -36,5 +38,3 @@ If the number of available jobs is exceeded, player units can no longer work in 
 Units on board ships in foreign-guarded regions cannot work or maintain themselves (see [[cmd-guard]], [[cmd-help]] and [[cmd-entertain]]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
-
-[this table]: ./silver.md#examples-of-potential-income

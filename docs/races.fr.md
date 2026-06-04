@@ -138,7 +138,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
 
 - Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
-- Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons].
+- Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons-connus].
 - Les halfelins sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
 ## Insectes
@@ -264,6 +264,8 @@ Le nombre d'immigrants se calcule ainsi :
 
 Si l'on a soudainement trop d'immigrants à cause d'une catastrophe ou d'un combat, ceux-ci ne sont pas supprimés, on ne pourra juste plus en accueillir de nouveaux.  
 Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes factions, il est presque identique au nombre de [Héros][cmd-promote-fr-id].
+
+[](){ #orcs-fr-id }
 
 ## Orcs
 

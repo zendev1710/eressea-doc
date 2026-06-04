@@ -69,6 +69,8 @@ Schattenmeister: 150 Trefferpunkte, Angriff: 11, Verteidigung: 13, Rüstung: 4. 
 
 Hirntöter bevölkern den [Astralraum]. Sie greifen versteckt aus den Nebeln an und ihre Attacken können Einheiten ihre gelernten Talente zum Teil vergessen lassen. In der normalen Welt begegnet man ihnen nur, wenn sie von mächtigen Zaubern aus ihren Sphären geschleudert wurden.
 
+[](){ #ents-de-id }
+
 ## Ents
 
 Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen manchmal, wenn deren Zauber schieflaufen. Manchmal ist es gut, ihnen einfach aus dem Weg zu gehen, weil sie sich oft nach einer Weile wieder beruhigen.

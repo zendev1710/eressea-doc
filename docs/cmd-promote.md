@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-promote
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # PROMOTE
 
 **`PROMOTE`**  
@@ -16,7 +18,7 @@ That's why it's worth promoting units with combat skills to hero status.
     Heroes **do not attack more often** with magic, crossbows or catapults.
 
 If a unit is to be promoted, it requires Silver per person (the faction's total number of people).  
-As usual, missing Silver is taken from the [silver pool] when there is enough.  
+As usual, missing Silver is taken from the [silver pool][the-silver-pool] when there is enough.  
 
 The maximum number of heroes is limited, but increases with faction size.  
 The formula for this is: log10((faction size-500)÷50)×20.  
@@ -39,5 +41,3 @@ For those who are lazy about math, here is a table showing how many heroes are a
 | Heroes |  21  |  22  |  23  |  24  |  25  |  26  |  27  |  28  |  29  |  30  |  35  |  40  |  45  |  50   |  55   |  60   |  65   |   70   |   75   |   80   | ... |
 
 <!-- From [https://wiki.eressea.de/index.php?title=PROMOTE&oldid=16056] -->
-
-[silver pool]: ./items-pool.md#the-silver-pool

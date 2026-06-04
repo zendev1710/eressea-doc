@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-plant
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # PLANT
 
-*[long] order.*  
+*[long order][short-and-long-orders].*  
 
 **`PLANT`**`[`*`number`*`] HERBS`  
 **`PLANT`**`[`*`number`*`] TREES`  
@@ -13,7 +15,7 @@ alias: cmd-plant
 
 This order can be used to restore fresh greenery to a emptied or devastated region or to control natural tree reproduction.  
 
-For `PLANT HERBS` requires at least [Herbalism] 6.  
+For `PLANT HERBS` requires at least [Herbalism][herbalism] 6.  
 The unit attempts to plant the specified number of herbs, up to a maximum of one herb per skill level;  
 To do this, she needs the appropriate number of herbs of the corresponding type and a vial of [[tables-potions-and-herbs|Water of Life]] (for no matter how many herbs).  
 This means that no herb type can be changed; we always try to plant the herb that is native to the region.  
@@ -41,6 +43,3 @@ You can grow seeds and plant horses. But it is not recommended.
 - [[resources]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
-
-[long]: ./commands.md#short-and-long-orders
-[Herbalism]: ./skills-list.md#herbalism

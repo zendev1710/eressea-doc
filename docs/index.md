@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: home
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Home
 
 Welcome to [[eressea]]!
@@ -15,9 +17,9 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 ## What is here?
 
 - The [[rules]]
-- [Registering for the game]
+- [Registering for the game][registration]
 - [E-Announce]: mailing list for rules changes — IMPORTANT!
-- [Tools]
+- [Tools][what-you-need-to-play-eressea]
 - [Tips for beginners]
 - The [story of Eressea]
 - Eressea originates from [Atlantis]
@@ -85,9 +87,7 @@ Continue reading: [rules].
 [rules]: ./rules.md
 [Eressea]: ./cmd-eressea.md
 [Discord]: https://discord.gg/KT5Fffh
-[Registering for the game]: ./hints.md#registration
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Tools]: ./commands-send.md#what-you-need-to-play-eressea
 [Tips for beginners]: ./getting-started-tips.md
 [story of Eressea]: ./eressea-story.md
 [Atlantis]: ./atlantis.md

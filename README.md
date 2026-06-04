@@ -18,7 +18,6 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 
 | page                    | DE | EN | FR | GERMAN LINK TO WIKI PAGE  | stat. |
 |-------------------------|----|----|----|---------------------------|-------|
-| [adamantium-armor]      | N  | N  | N  | [adamantiumrüstung]       | TBW   |
 | [adamantium]            | X  | NT | NT | [adamantium]              | TBR   |
 | [alchemy]               | X  | X  | X  | [tränke]                  |       |
 | [alliances]             | X  | X  | NT | [allianz]                 | TBR   |
@@ -288,7 +287,6 @@ Legend:
 [ZEIGE]: https://wiki.eressea.de/ZEIGE "ZEIGE"
 [ZERSTÖRE]: https://wiki.eressea.de/ZERSTÖRE "ZERSTÖRE"
 [ZÜCHTE]: https://wiki.eressea.de/ZÜCHTE "ZÜCHTE"
-[adamantium-armor]: ./adamantium-armor.md "adamantium-armor"
 [adamantium]: https://wiki.eressea.de/adamantium "adamantium"
 [adamantiumrüstung]: https://wiki.eressea.de/adamantiumrüstung "adamantiumrüstung"
 [alchemy]: ./alchemy.md "alchemy"

@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-destroy
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # DESTROY
 
-*[[orders#short-and-long-orders|long order]].*
+*[long order][short-and-long-orders].*
 
 **`DESTROY [<level>]`**  
 **`DESTROY [<level>] STREET <direction>`**  

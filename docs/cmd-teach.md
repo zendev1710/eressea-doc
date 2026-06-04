@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-teach
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # TEACH
 
-*[long] order.*
+*[long order][short-and-long-orders].*
 
 **`TEACH`**` `*`unit-id`*`[`*`unit-id`*`]...`  
 
@@ -34,5 +36,3 @@ Through the [[cmd-learn-auto]] order, the server attempts to automate learning a
     A mixture of `TEACH` and `LEARN AUTO` by unis of the same faction is not possible.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
-
-[long]: ./commands.md#short-and-long-orders

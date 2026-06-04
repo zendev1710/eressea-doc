@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-combat
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # COMBAT
 
 **`COMBAT`**`FRONT`  
@@ -12,7 +14,7 @@ alias: cmd-combat
 **`COMBAT`**`FLEE`  
 **`COMBAT`**`HELP [NOT]`  
 
-This order determines the reaction of a unit in the event of a battle (see also the section [Battle lines] in the chapter [[war]]).  
+This order determines the reaction of a unit in the event of a battle (see also the section [Battle lines][combat-rows] in the chapter [[war]]).  
 
 ## `COMBAT AGGRESSIVE`
 
@@ -46,7 +48,7 @@ The unit attempts to flee when it still has 90% of its hit points.
 
 ## `COMBAT FLEE`
 
-If a unit that is ready to [flee] is involved in combat, it will attempt to flee before each round of combat.  
+If a unit that is ready to [flee][fleeing] is involved in combat, it will attempt to flee before each round of combat.  
 <!-- TODO: find escape section and combat chapter -->
 For more information about "escape behavior", see the [Escape] section in the Combat chapter.  
 
@@ -81,6 +83,3 @@ Your own faction is always involved when it attacks, or when it or a faction it 
 You'll find further details at [[cmd-help]] and in the chapters [[war]] and [[alliances|Alliance]].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
-
-[Battle lines]: ./war.md#combat-rows
-[flee]: ./war.md#fleeing

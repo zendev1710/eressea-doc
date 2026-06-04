@@ -184,7 +184,7 @@ S'il n'y a pas de pierres dans la couche (niveau de compétence X 2), on ne voit
 *Mining (EN), Bergbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet d'extraire du [[ressources#fer|fer]], du [[laen]] ou de l'[[adamantium]].  
+Cette compétence permet d'extraire du [[ressources#fer|fer]], du [laen][laen-fr-id]{title="Laen"} ou de l'[adamantium][adamantium-fr-id].  
 Il est possible d'extraire **un fer par personne, par niveau de compétence et par tour**.  
 
 Notez que les [[ressources#ressources-minieres|gisements sont limités]] par niveau.
@@ -193,7 +193,7 @@ Pour la prospection, on ne voit pas plus que la couche (niveau en extraction min
 
 !!! note
     L'extraction de [laen][laen-fr-id]{title="Laen"} nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.  
-    L'extraction d'[[adamantium]] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.
+    L'extraction d'[adamantium][adamantium-fr-id] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.
 
 ## Fabrication d'armes
 
@@ -209,7 +209,7 @@ Fabrication d'armes en bois et en métal (voir [[objets]]).
 *Armoursmithing (EN), Rüstungsbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la fabrication d'armures en fer, en [laen][laen-fr-id]{title="Laen"} ou en [[adamantium]] (voir [[objets]]).
+Permet la fabrication d'armures en fer, en [laen][laen-fr-id]{title="Laen"} ou en [adamantium][adamantium-fr-id] (voir [[objets]]).
 
 ## Fabrication de chariots
 

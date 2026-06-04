@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: tactics
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tactics
 
 Before the battle, the best tactician of all participating units is determined.  
@@ -52,9 +54,8 @@ You can therefore (also) replace a lack of class in Tacticians with mass, but it
 
 ## See also
 
-- [The war]
+- [The war][tacticians-round]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952] -->
 
 [fighting]: ./cmd-combat.md
-[The war]: ./war.md#tacticians-round

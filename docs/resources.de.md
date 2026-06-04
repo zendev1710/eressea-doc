@@ -12,7 +12,21 @@ Das benötigte Talent geht aus der Tabelle im Abschnitt [Waren] hervor.
 
 ## Rohstoffe
 
+[](){ #adamantium-de-id }
+
 ### Adamantium
+
+Spielererfahrung:
+
+BruckAdamantium ist noch seltener als [laen][laen-de-id] !  
+
+Pro Schicht gib es gerade mal ein Adamantium, so es überhaupt Adamantium in der Region gibt.
+
+#### Externe Links
+
+- [Adamantium auf Wikipedia]
+
+<!-- From [https://wiki.eressea.de/index.php?title=Adamantium&oldid=6241] -->
 
 ### Eisen
 
@@ -105,3 +119,5 @@ Weiterlesen: [Waren].
 [Produktion]: ./production.md
 [Straßen]: ./roads.md
 [Gebäude]: ./buildings.md
+
+[Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium

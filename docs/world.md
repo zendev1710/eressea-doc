@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: world
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # World
 
 ## Geography
@@ -68,18 +70,18 @@ The only difference between a plain and a forest is the number of trees and sapl
 From a total number of 600 trees and/or saplings, a plain is considered a forest.  
 This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.  
 
-| Terrain    | max. workers | min. workers [^1] | Stones for road | Herbs                                                                     |
-|------------|-------------:|------------------:|----------------:|---------------------------------------------------------------------------|
-| [Glacier]  |          100 |                10 |             250 | ice begonia, white hemlock, snowcrystal petal                             |
-| [Desert]   |          500 |                50 |             100 | waterfinder, peyote, sand reeker                                          |
-| [Volcano]  |          500 |                50 |             250 | --                                                                        |
-| [Mountain] |         1000 |               100 |             250 | rock weed, gapgrowth, cave lichen                                         |
-| [Swamp]    |         2000 |               200 |              75 | bugleweed, knotroot, bubblemorel                                          |
-| [Highland] |         4000 |               200 |             100 | windbag, fjord fungus, mandrake                                           |
-| [Forest]   |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| [Plain]    |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| Terrain                | max. workers | min. workers [^1] | Stones for road | Herbs                                                                     |
+|------------------------|-------------:|------------------:|----------------:|---------------------------------------------------------------------------|
+| [Glacier][glacier-id]  |          100 |                10 |             250 | ice begonia, white hemlock, snowcrystal petal                             |
+| [Desert][desert-id]    |          500 |                50 |             100 | waterfinder, peyote, sand reeker                                          |
+| [Volcano][volcano]     |          500 |                50 |             250 | --                                                                        |
+| [Mountain][mountain]   |         1000 |               100 |             250 | rock weed, gapgrowth, cave lichen                                         |
+| [Swamp][swamp]         |         2000 |               200 |              75 | bugleweed, knotroot, bubblemorel                                          |
+| [Highlands][highlands] |         4000 |               200 |             100 | windbag, fjord fungus, mandrake                                           |
+| [Forest][forest]       |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Plain][plain]         |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 
-If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work].  
+If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work][work].  
 Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.  
 Furthermore, no more player units can work in this region if all workplaces are occupied.  
 
@@ -115,7 +117,7 @@ In addition to iron and stone, there is also the much rarer metal laen.
 If a mountain, glacier or volcano is home to laen, then it can be found from mining depth 7.  
 In other region types you can also find laen with luck, but then possibly only at mining level 7 to 10.  
 You therefore need a miner with mining 5 to be able to rule out laen in every land region.  
-However, if you are very lucky and have found a region with laen, you will need a [mine] to gain it.  
+However, if you are very lucky and have found a region with laen, you will need a [mine][mine] to gain it.  
 
 <div class="lore-dialogue">
 Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.
@@ -144,7 +146,7 @@ This means that there are currently 306 vacant jobs in the region.
 
 There are 36 wild horses living in the region.  
 Horses have no influence on the number of jobs available.  
-With the skill [taming] you can capture the horses and use them for [transport] of goods, for example, or equip fighters with them, who can then receive the [horse bonus] in battle if they have at least riding 2.  
+With the skill [taming][taming] you can capture the horses and use them for [transport][horse-and-carriage] of goods, for example, or equip fighters with them, who can then receive the [horse bonus][bonuses-and-mali] in battle if they have at least riding 2.  
 
 There are also stones in Vîpot, which does not apply to every desert, but it does occur from time to time.  
 There are currently 22 stones at quarrying level 3.  
@@ -154,11 +156,11 @@ However, to actually extract stones, the unit must have quarrying level 3.
 In principle, you can build [[roads]] in any land region to increase your traveling speed over land.  
 For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW).  
 In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection.  
-However, since Vîpot is a desert, you also need a fully developed [caravanserai].  
+However, since Vîpot is a desert, you also need a fully developed [caravanserai][caravanserai].  
 A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.  
 
 The line also contains the current level of regional silver.  
-This amount is important to be able to estimate how the peasants are being supplied and how much silver player units can earn here through entertainment or tax collection [income].  
+This amount is important to be able to estimate how the peasants are being supplied and how much silver player units can earn here through entertainment or tax collection [income][income].  
 
 ## The Regions of Eressea
 
@@ -168,7 +170,7 @@ Selen pointed to the open page.
 Rahel looked at the text intently before she began.
 </div>
 
-The report lists all regions in which you have a unit, through which you have traveled, or ocean regions that you have seen from a [lighthouse][]:
+The report lists all regions in which you have a unit, through which you have traveled, or ocean regions that you have seen from a [lighthouse][lighthouse]:
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamps of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountains of Nipevan (−2,0).`
 
@@ -212,8 +214,8 @@ The section below notes how much silver the inhabitants of the region are willin
 The last lines then state how many of our people are there and what they are carrying."
 </div>
 
-Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade]).  
-Trading more goods may change the price permanently! For further information, read the section on [trade].
+Under luxuries you can see the amount of goods bought or sold by the peasants for the listed price (see also [trade][silver-trade-id]).  
+Trading more goods may change the price permanently! For further information, read the section on [trade][silver-trade-id].
 
 <div class="lore-dialogue">
 — "Excellent, my child. This is a complete report.
@@ -275,9 +277,9 @@ Although the influence of the seasons is generally not particularly pronounced, 
 
 Here is a brief overview:
 
-- Peoples of the [insect] race can hardly recruit in winter
+- Peoples of the [insect][insects] race can hardly recruit in winter
 - Storms at [[travel|sea]] are much more common in autumn
-- The individual phases of [forest growth] are linked to seasonal cycle
+- The individual phases of [forest growth][deep-in-the-forest] are linked to seasonal cycle
 - In winter the growth of the [[herbs]] comes to a standstill
 
 ## Months
@@ -347,24 +349,3 @@ Continue reading: [[factions]].
 [^1]: despite many trees
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
-
-[work]: ./silver.md#work
-[mine]: ./buildings-others.md#mine
-[taming]: ./skills-list.md#taming
-[transport]: ./travel.md#horse-and-carriage
-[horse bonus]: ./war.md#bonuses-and-mali
-[caravanserai]: ./buildings-others.md#caravanserai
-[income]: ./silver.md#income
-[lighthouse]: ./buildings-others.md#lighthouse
-[trade]: ./silver.md#trade
-[insect]: ./races.md#insects
-[forest growth]: ./resources.md#deep-in-the-forest
-
-[Desert]: ./terrains.md#desert
-[Forest]: ./terrains.md#forest
-[Glacier]: ./terrains.md#glacier
-[Highland]: ./terrains.md#highlands
-[Swamp]: ./terrains.md#swamp
-[Mountain]: ./terrains.md#mountain
-[Plain]: ./terrains.md#plain
-[Volcano]: ./terrains.md#volcano

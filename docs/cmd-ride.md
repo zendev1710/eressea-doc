@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-ride
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # RIDE
 
-*`RIDE` is a [long] order.  
+*`RIDE` is a [long order][short-and-long-orders].  
 *`CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*  
 
 **`RIDE`**` `*`unit-id`*  
@@ -32,8 +34,8 @@ Partei 300:
         CONTACT 311
 ```
 
-- [Aquarians] cannot transport other races when [swimming], nor can they take horses or carts with them
-- [Insects] can also be transported using `CARRY`, but cannot be brought into or through a glacier
+- [Aquarians][aquarians] cannot transport other races when [swimming][swimming], nor can they take horses or carts with them
+- [Insects][insects] can also be transported using `CARRY`, but cannot be brought into or through a glacier
 
 ## See also
 
@@ -42,8 +44,3 @@ Partei 300:
 - [[cmd-route]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
-
-[long]: ./commands.md#short-and-long-orders
-[Aquarians]: ./races.md#aquarians
-[swimming]: ./sailing.md#swimming
-[Insects]: ./races.md#insects

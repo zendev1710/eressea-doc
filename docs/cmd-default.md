@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-default
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # DEFAULT
 
 **`DEFAULT "<order>"`**  
@@ -19,7 +21,7 @@ They are also included in the computer report (CR).
 The normal report (NR) always only contains the first long default order.  
 So you can't see all the default orders there.
 
-All [[orders#short-and-long-orders|long orders]] are normally included in a unit's default orders.
+All [long orders][short-and-long-orders] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.  
 
 In addition, all [[comment-with-slashes|`//`]] and all orders beginning with `@` are adopted.

@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: monsters
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Monsters
 
 The faction of monsters is currently the only non-player character (NPC) faction in Eressea.  
@@ -9,7 +11,7 @@ The faction of monsters is currently the only non-player character (NPC) faction
 It had the faction ID 0, but since around round 572 it has had the ID (ii). Why actually (ii)? If you convert ii from Base36 to the decimal system, you get 666.  
 
 There are many different monster races with different characteristics and abilities.  
-The most common are the various [Undead] as well as [Dragons] and their followers.  
+The most common are the various [Undead] as well as [Dragons][known-dragons] and their followers.  
 
 Some monster types are rather rare, if not unique.
 Others, such as the [braineaters], are (almost) only found in certain areas.  
@@ -18,9 +20,11 @@ In certain circumstances, players can also own monster units (e.g. skeletons).
 
 ## Braineaters
 
-Braineaters populate the [Astral Space].  
+Braineaters populate the [Astral Space][the-astral-space].  
 They attack hidden from the mists and their attacks can make units forget some of the skills they have learned.  
 In the normal world they are only encountered when they have been thrown from their spheres by powerful spells.  
+
+[](){ #ents-id }
 
 ## Ents
 
@@ -28,8 +32,10 @@ Ents are powerful tree creatures.
 Sometimes it's good to just avoid them because they often calm down after a while.  
 
 !!! info "Information"
-    Ents are summoned by [Gwyrrd] druids.  
+    Ents are summoned by [Gwyrrd][gwyrrd] druids.  
     They also sometimes arise when their spells go wrong.  
+
+[](){ #igjarjuk-id }
 
 ## Igjarjuk
 
@@ -66,15 +72,19 @@ There are different types of dragons, as described below.
 
 ### Young Dragons
 
-**Young dragons** develop into [Adult Dragons].
+**Young Dragons** develop into [adult Dragons][dragons-id].
+
+[](){ #dragons-id }
 
 ### Dragons
 
-**Dragons** develop into [Wyrms].
+**Dragons** develop into [Wyrms][wyrms-id].
+
+[](){ #wyrms-id }
 
 ### Wyrms
 
-See [Igjarjuk].
+See [Igjarjuk][igjarjuk-id].
 
 ### Singing kite
 
@@ -90,7 +100,7 @@ However, boats should let them go in peace
 
 Undead make up the largest part of the monsters.  
 
-They spawn where peasants die (from [famine] and disease, or as victims of [Dragons]), or where warriors fall in [[war|battle]].  
+They spawn where peasants die (from [famine][starvation] and disease, or as victims of [Dragons][known-dragons]), or where warriors fall in [[war|battle]].  
 Undead can learn various [[skills]], making them more dangerous.  
 
 They can also mutate, which makes them significantly stronger.  
@@ -139,7 +149,7 @@ Successful attacks cause **panic** in enemies, which **reduces** their attack or
 In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarmed attack (2d3), one magical attack.
 
 !!! info "Information"
-    Shadow Demons can be summoned by [Draig] mages.  
+    Shadow Demons can be summoned by [Draig][draig] mages.  
 
 ### Shadow Masters
 
@@ -153,7 +163,7 @@ In combat, a Shadow Master triggers **4** attacks: one magical attack, one unarm
 Shadow Master's victims can even get the equivalent of a week's worth of learning one of their skills per hit.  
 
 !!! info "Information"
-    Shadow Masters can be summoned by [Draig] mages.  
+    Shadow Masters can be summoned by [Draig][draig] mages.  
 
 ## See also
 
@@ -162,16 +172,7 @@ Shadow Master's victims can even get the equivalent of a week's worth of learnin
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
 [Undead]: #known-undead
-[Dragons]: #known-dragons
-[Adult Dragons]: #dragons
 [Braineaters]: #braineaters
-[Igjarjuk]: #igjarjuk
-[Wyrms]: #wyrms
 [Ghosts]: #ghosts
 [Skeleton Lords]: #skeleton-lords
 [Juju Zombies]: #juju-zombies
-
-[famine]: ./silver.md#starvation
-[Draig]: ./magic-schools.md#draig
-[Gwyrrd]: ./magic-schools.md#gwyrrd
-[Astral Space]: ./magic.md#the-astral-space

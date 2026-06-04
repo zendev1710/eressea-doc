@@ -3,7 +3,7 @@
 alias: argent
 ---
 <!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Argent
 
 !!! note "Note"
@@ -269,6 +269,8 @@ En revanche, si l'on revient d'une île étrangère avec une cargaison de marcha
 <!-- cspell:disable -->
 *Oil (EN), Öl (DE)*.
 <!-- cspell:enable -->
+
+[](){ #myrrhe-fr-id }
 
 #### Myrrhe
 

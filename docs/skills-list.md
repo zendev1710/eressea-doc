@@ -43,7 +43,7 @@ If the layer is deeper, you won't see anything.
 
 !!! note
     [laen][laen-id] mining needs a [mine][mine] and a skill level of **7**.  
-    [[adamantium]] mining needs a [mine][mine] and a skill level of **8**.
+    [adamantium][adamantium-id] mining needs a [mine][mine] and a skill level of **8**.
 
 [](){ #skill-bow-id }
 
@@ -112,7 +112,7 @@ With a [horse][horse-and-carriage]: Starting from riding 1 faster movement; star
 
 ## Armoursmithing
 
-Produce iron, laen, and adamantium armor (see [[items]]).
+Produce iron, laen, and adamantium plates (see [[items]]).
 
 [](){ #skill-shipcraft-id }
 

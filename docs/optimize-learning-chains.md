@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: optimize-learning-chains
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Optimization of learning chains
 
 ## Preliminary considerations
@@ -66,7 +68,7 @@ I developed the following function for myself:
 ```
 
 The parameters A, B and C were created after long tests and partly by equating various formulas.  
-The formula can also easily be used for [brain wax] and [academy] use by substituting the 3 or 6 for the number of learning attempts*3 is replaced.  
+The formula can also easily be used for [brain wax][brain-wax] and [academy][academy] use by substituting the 3 or 6 for the number of learning attempts*3 is replaced.  
 So learning with brainpower results in (1 + 1/3)*3 = 4.  
 
 As you can calculate, learning with a teacher due to factor C is not twice as profitable as without a teacher, but is only worth around 27% more.  
@@ -80,7 +82,7 @@ But where is our optimum? Apparently not all people can be taught without there 
 This means that we can assume that each unit is taught in its entirety, but at the same time we have to deduct the minimum that a teacher could have achieved as profit.  
 A very good approximation for this results from:
 
-Estimated Profit = Learn_with_Teacher(Level) -0.1 *Learn_with_Teacher(Level+2) + 0.01 *Learn_with_Teacher(Level+4)  
+Estimated Profit = Learn_with_Teacher(Level) -0.1 *Learn_with_Teacher(Level+2) + 0.01 X Learn_with_Teacher(Level+4)  
 
 This means we are definitely slightly above the possible optimum.  
 
@@ -283,6 +285,3 @@ i.e. after deducting a few percentages for the level differences, 4000 students 
 
 [expensive skills]: ./skills.md
 [weapon skill and Endurance]: ./skills-list.md
-
-[brain wax]: ./alchemy.md#brain-wax
-[academy]: ./buildings-others.md#academy

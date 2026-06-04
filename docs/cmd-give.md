@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-give
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # GIVE
 
 ` `**`GIVE`**` `*`unit_ID amount item`*  
@@ -95,7 +97,7 @@ Player experience (Solthar):
 
 If you want to hand over people to a unit of another faction, a simple [[cmd-help|`HELP GIVE`]] is not enough!  
 The receiving unit must [[cmd-contact]] the transferring unit.  
-In addition, if the receiving unit is a [migrant unit], it must not have any people at the time of transfer.
+In addition, if the receiving unit is a [migrant unit][humans], it must not have any people at the time of transfer.
 Ideally it should be an empty TEMP unit.
 Example:
 
@@ -123,9 +125,9 @@ The command cannot be given to units without people (e.g. after a battle, or to 
 
 ## Convoy
 
-With `GIVE`*`unit-id`*` `*`number`*`SHIP` the owner of a ship or [convoy] hands over the number of ships.  
+With `GIVE`*`unit-id`*` `*`number`*`SHIP` the owner of a ship or [convoy][convoy] hands over the number of ships.  
 The transferring and receiving units must belong to the same faction; `HELP ALL` or `CONTACT` is not sufficient.  
-If the other unit also owns a ship, a [convoy] is formed.  
+If the other unit also owns a ship, a [convoy][convoy] is formed.  
 Convoys always consist of ships of the same type.  
 Boats cannot form convoys and the ships must be on the same coast.  
 
@@ -137,6 +139,3 @@ Boats cannot form convoys and the ships must be on the same coast.
 - [[buildings]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/en&oldid=15995] -->
-
-[migrant unit]: ./races.md#humans
-[convoy]: ./ships.md#convoy

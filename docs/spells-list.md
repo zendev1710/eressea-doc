@@ -201,7 +201,7 @@ Continue reading: [[alchemy|Potions]].
 [Create A Bag of Holding]: ./spells-descriptions.md#create-a-bag-of-holding
 [Create A Belt of Troll Strength]: ./spells-descriptions.md#create-a-belt-of-troll-strength
 [Create A Magical Herb Pouch]: ./spells-descriptions.md#create-a-magical-herb-pouch
-[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility
+[Create A Ring of Invisibility]: ./spells-descriptions.md#create-a-ring-of-invisibility-id
 [Create A Ring of Power]: ./spells-descriptions.md#create-a-ring-of-power
 [Create A Sphere of Invisibility]: ./spells-descriptions.md#create-a-sphere-of-invisibility
 [Create An Amulet of True Sight]: ./spells-descriptions.md#create-an-amulet-of-true-sight

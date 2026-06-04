@@ -3,7 +3,7 @@
 alias: tybied-spells
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Tybied spells
 
 ## Level 1
@@ -210,6 +210,8 @@ alias: tybied-spells
 | 2 x T aura |  6  | Normal |  3   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
+
+[](){ #t-create-an-antimagic-crystal-id }
 
 ### Create an [[antimagic-crystal|Antimagic Crystal]]
 

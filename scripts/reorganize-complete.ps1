@@ -19,7 +19,7 @@ $mapping = @{
         'belt-of-troll-strength', 'dream-eye', 'flaming-sword', 'iron-golem',
         'magical-herb-bag', 'mountain-guard', 'ring-of-invisibility',
         'ring-of-power', 'sack-of-holding', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail',
-        'alchemy', 'adamantium-armor', 'adamantium', 'armed'
+        'alchemy', 'adamantium-plate', 'adamantium', 'armed'
     )
     'world' = @(
         'travel', 'terrains', 'roads', 'resources', 'faction-pool', 'items-pool', 'monsters',

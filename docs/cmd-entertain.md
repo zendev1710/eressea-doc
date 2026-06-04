@@ -2,13 +2,15 @@
 # cSpell:locale en
 alias: cmd-entertain
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ENTERTAIN
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  
 
 The unit will spend the round entertaining the farmers.  
 
-You can earn up to 20 Silver per person and skill level in [entertainment].  
+You can earn up to 20 Silver per person and skill level in [entertainment][entertainment].  
 But the farmers only spend 5% of their money on entertainment.
 If more units try to maintain the farmers than they will pay, the money is divided among all the maintaining units.  
 If you specify an amount, the unit will earn a maximum of that much.  
@@ -25,7 +27,7 @@ That makes around 12 Silver for A and around 48 Silver for B.
 
 Units aboard ships in guarded regions cannot work or maintain (see [[cmd-work]], [[cmd-guard]] and [[cmd-help]]).
 
-The tax collection limit of a region indicates how much silver can be taken from farmers in total (excluding [trade]) without them leaving.
+The tax collection limit of a region indicates how much silver can be taken from farmers in total (excluding [trade][silver-trade-id]) without them leaving.
 It is as high as the farmers' surplus income.
 
 ## See also
@@ -33,6 +35,3 @@ It is as high as the farmers' surplus income.
 - [[money]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
-
-[trade]: ./silver.md#trade
-[entertainment]: ./skills-list.md#entertainment

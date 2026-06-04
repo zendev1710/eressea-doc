@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: herbs
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Herbs
 
 **Herbs** are gathered with the order [[cmd-make|`MAKE HERBS`]].  
 
-Depending on the skill level in [herbalism], you will gather more or less herbs in the region.  
+Depending on the skill level in [herbalism][herbalism], you will gather more or less herbs in the region.  
 Each region have only one typ of herb.  
 Herbs grow back like trees;  
 if you are not careful, you can pick all the herbs in a region and then have to plant some again using [[cmd-grow|`GROW HERBS`]].  
@@ -55,6 +57,8 @@ Herbs will rot with time.
 
 ### Owlsgaze
 
+[](){ #peyote-id }
+
 ### Peyote
 
 ### Rock weed
@@ -77,28 +81,17 @@ Herbs will rot with time.
 
 *List of herbs and their distribution.*
 
-| Region      | Herbs                                                                    |
-|-------------|--------------------------------------------------------------------------|
-| [Desert]    | waterfinder, peyote, sand reeker                                         |
-| [Forest]    | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| [Glacier]   | ice begonia, white hemlock, snowcrystal petal                            |
-| [Highlands] | windbag, fjord fungus, mandrake                                          |
-| [Mountain]  | rock weed, gapgrowth, cave lichen                                        |
-| [Plain]     | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
-| [Swamp]     | bugleweed, knotroot, bubblemorel                                         |
-| [Volcano]   | --                                                                       |
+| Region                 | Herbs                                                                    |
+|------------------------|--------------------------------------------------------------------------|
+| [Desert][desert-id]    | waterfinder, peyote, sand reeker                                         |
+| [Forest][forest]       | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Glacier][glacier-id]  | ice begonia, white hemlock, snowcrystal petal                            |
+| [Highlands][highlands] | windbag, fjord fungus, mandrake                                          |
+| [Mountain][mountain]   | rock weed, gapgrowth, cave lichen                                        |
+| [Plain][plain]         | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Swamp][swamp]         | bugleweed, knotroot, bubblemorel                                         |
+| [Volcano][volcano]     | --                                                                       |
 
 Continue reading: [[orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->
-
-[herbalism]: ./skills-list.md#herbalism
-
-[Desert]: ./terrains.md#desert
-[Forest]: ./terrains.md#forest
-[Glacier]: ./terrains.md#glacier
-[Highlands]: ./terrains.md#highlands
-[Swamp]: ./terrains.md#swamp
-[Mountain]: ./terrains.md#mountain
-[Plain]: ./terrains.md#plain
-[Volcano]: ./terrains.md#volcano

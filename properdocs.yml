@@ -436,8 +436,6 @@ plugins:
                   - snowman.md
                   - toad.md
                 - Items:
-                  - adamantium-armor.md
-                  - adamantium.md
                   - amulet-of-true-sight.md
                   - antimagic-crystal.md
                   - belt-of-troll-strength.md
@@ -716,8 +714,6 @@ nav:
         - snowman.md
         - toad.md
       - Items:
-        - adamantium-armor.md
-        - adamantium.md
         - amulet-of-true-sight.md
         - antimagic-crystal.md
         - belt-of-troll-strength.md

@@ -30,9 +30,9 @@ Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.
 <!-- TODO do not duplicate information -->
 | Terrain                                        | max. jobs d'agriculteurs | max. arbres | min. jobs d'agriculteurs |
 |------------------------------------------------|-------------------------:|------------:|-------------------------:|
-| [Désert][desert]{title="Desert"}               |                      500 |          63 |                       50 |
+| [Désert][desert-fr-id]{title="Desert"}         |                      500 |          63 |                       50 |
 | [Forêt][foret]{title="Forest"}                 |                   10 000 |       1 250 |                      200 |
-| [Glacier][glacier]{title="Glacier"}            |                      100 |          13 |                       10 |
+| [Glacier][glacier-fr-id]{title="Glacier"}      |                      100 |          13 |                       10 |
 | [Haut-plateau][haut-plateau]{title="Highland"} |                    4 000 |         500 |                      200 |
 | [Marais][marais]{title="Swamp"}                |                    2 000 |         250 |                      200 |
 | [Montagne][montagne]{title="Mountain"}         |                    1 000 |         125 |                      100 |

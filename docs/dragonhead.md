@@ -2,17 +2,13 @@
 # cSpell:locale en
 alias: dragonhead
 ---
-
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Dragonhead
 
-A dragon's head can be obtained when a [dragon] is killed.
+A dragon's head can be obtained when a [dragon][dragons-id] is killed.
 
 The following magic spells require it to be cast:
 
-- [Dragon Call] (Draig Magic School)
-- [Create a [DreamEye]] (Illaun Magic School)
-
-[DreamEye]: ./dream-eye.md "DreamEye"
-[Dragon Call]: ./magic-school-draig.md#dragon-call
-[Create a [DreamEye]]: ./magic-school-illaun.md#create-a-dreameye
-[dragon]: ./monsters.md#dragons
+- [Dragon Call][d-dragon-call-id] (Draig Magic School)
+- [Create a Visioneye][i-create-a-visioneye-id] (Illaun Magic School)

@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-research
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # RESEARCH
 
-*[[orders#short-and-long-orders|long order]].*  
+*[long order][short-and-long-orders].*  
 
 **`RESEARCH HERBS`**  
 

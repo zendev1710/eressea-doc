@@ -182,6 +182,11 @@ Trägt er stattdessen ein Schild, vermindert sie sich auf 85% x 60% = 51%. Hat e
 Rüstungen und Schilde zusammen multiplizieren sich. Trägt er ein Kettenhemd und benutzt einen Schild, so ist die Chance am Ende 115% x 60% = 69%(Kettenhemd), 85% x 69% = 58,65% (Kettenhemd und Schild).
 Das Endergebnis wird immer zu ungunsten des Verteidigers gerundet, sprich der Verteidigungswert abgerundet.
 
+<!-- TODO: translate in german -->
+## Armures
+
+### Adamantiumrüstung
+
 ## Rasseneigenschaften
 
 Trefferpunkte (HP), Magieresistenz (R.) und natürliche Rüstung (NR).

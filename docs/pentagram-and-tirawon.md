@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: pentagram-and-tirawon
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Pentagram and Tirawon
 
 The alliances **"The Pentagram"** and **"Eternal Fire of Tirawon /Green Hand of Salassar"** were two of the most powerful alliances in the 6th world and each ruled over several hundred regions.  
@@ -14,7 +16,7 @@ The armies consisted mainly of elves, dwarves and halflings (together over 80%).
 The largest single army consisting of 32,554 elves were the Garan elves, practically all of whom were armed with elven bows, certainly a decisive factor in Tirawon's victory.  
 Also worth mentioning are the almost 6,000 demons who fought on Tirawon's side, not a single one of them fell in battle.  
 
-What is perhaps unique is the fact that [Igjarjuk] personally --resurrected as [Undead Wyrm] --deigned to support the pentagram.  
+What is perhaps unique is the fact that [Igjarjuk][igjarjuk-id] personally --resurrected as [Undead Wyrm][dragons-id] --deigned to support the pentagram.  
 The rivers of blood that were promised to him in return have flowed.  
 Maybe not quite as the pentagram had hoped.  
 In the end, even Igjarjuk couldn't turn the tide.  
@@ -92,6 +94,4 @@ The ones with (*) marked factions appear twice each.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[Igjarjuk]: ./monsters.md#igjarjuk
-[Undead Wyrm]: ./monsters.md#dragons
 [Detailed report from Tirawon's perspective]: http://members.chello.at/r.lang/eressea/pentagramm/index.html

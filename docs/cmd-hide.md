@@ -52,6 +52,6 @@ With `HIDE race` [demons][demons] can disguise themselves as another race.
 ## See also
 
 - [Espionage][espionage]
-- [[discretion]]
+- [[stealth]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->

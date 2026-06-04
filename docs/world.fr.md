@@ -71,9 +71,9 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 
 | Terrain                                        | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
 |------------------------------------------------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
-| [Désert][desert]{title="Desert"}               |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
+| [Désert][desert-fr-id]{title="Desert"}         |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
 | [Forêt][foret]{title="Forest"}                 |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
-| [Glacier][glacier]{title="Glacier"}            |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsuga blanc                                            |
+| [Glacier][glacier-fr-id]{title="Glacier"}      |               100 |                     10 |                 250 | bégonia des glaces, pétale de cristal de neige tsuga blanc                                            |
 | [Haut-plateau][haut-plateau]{title="Highland"} |             4 000 |                    200 |                 100 | champignon des fjords, mandragore, gousse                                                             |
 | [Marais][marais]{title="Swamp"}                |             2 000 |                    200 |                  75 | herbe de clairon, morille, racine de nœud                                                             |
 | [Montagne][montagne]{title="Mountain"}         |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |

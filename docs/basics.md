@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: basics
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Basics
 
 Just because there is no winner in Eressea doesn't mean you can't lose.  
@@ -24,7 +26,7 @@ It could distract from the important information that is easier to see in the no
 
 ## Long and short orders
 
-A unit can only perform one [[orders#short-and-long-orders|long order]] per week, but can perform any number of short ones.  
+A unit can only perform one [long order][short-and-long-orders] per week, but can perform any number of short ones.  
 
 !!! warning "Danger"
     [Combat] can be a long action, even if you haven't attacked yourself.  

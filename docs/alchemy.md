@@ -2,9 +2,13 @@
 # cSpell:locale en
 alias: alchemy
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Alchemy
 
 In Eressea, alchemy is the art of transforming natural substances (herbs) into potions.
+
+[](){ #potions-id }
 
 ## Potions
 
@@ -14,7 +18,7 @@ A potion weighs nothing.
 
 ### Making
 
-To make a potion, you need units with the [alchemy] skill, and to find the required herbs, you need units with the [herbalism] skill.
+To make a potion, you need units with the [alchemy][skill-alchemy-id] skill, and to find the required herbs, you need units with the [herbalism][herbalism] skill.
 
 !!! warning "Remark"
     A faction has at most **3 alchemists**.
@@ -36,7 +40,7 @@ $$
 *For example, a T6 alchemist can therefore make a maximum of 1 L3 potion ($6\,/\,(3\,\times\,2)=1$), 1 L2 potion ($6\,/\,(2\,\times\,2)=1$) or 3 L1 potions ($6\,/\,(1\,\times\,2)=3$).*
 
 !!! note "Note"
-    Herbs can be [[cmd-research|discovered]] in a region and then [[cmd-make|harvested]] by a competent unit in [herbalism].
+    Herbs can be [[cmd-research|discovered]] in a region and then [[cmd-make|harvested]] by a competent unit in [herbalism][herbalism].
 
 ### Using
 
@@ -78,8 +82,8 @@ Below you will find the list of potions in ascending order of level.
 
 To prepare this potion, you will need the following herbs:
 
-- [bugleweed]
-- [fjord fungus]
+- [bugleweed][bugleweed]
+- [fjord fungus][fjord-fungus]
 
 #### Potion of truth
 
@@ -90,8 +94,8 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [fjord fungus]
-- [flatroot]
+- [fjord fungus][fjord-fungus]
+- [flatroot][flatroot]
 
 #### Seven mile tea
 
@@ -103,8 +107,8 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [cobalt fungus]
-- [windbag]
+- [cobalt fungus][cobalt-fungus]
+- [windbag][windbag]
 
 #### Water of life
 
@@ -116,8 +120,8 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [elvendear]
-- [knotroot]
+- [elvendear][elvendear]
+- [knotroot][knotroot]
 
 ### Level 2
 
@@ -131,9 +135,9 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [gapgrowth]
-- [mandrake]
-- [tangy temerity]
+- [gapgrowth][gapgrowth]
+- [mandrake][mandrake]
+- [tangy temerity][tangy-temerity]
 
 #### Ointment
 
@@ -145,9 +149,9 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [cobalt fungus]
-- [tangy temerity]
-- [white hemlocks]
+- [cobalt fungus][cobalt-fungus]
+- [tangy temerity][tangy-temerity]
+- [white hemlocks][white-hemlocks]
 
 #### Peasant blood
 
@@ -159,9 +163,9 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following ingredients:
 
-- [cave lichen]
-- [cobalt fungus]
-- [fjord fungus]
+- [cave lichen][cave-lichen]
+- [cobalt fungus][cobalt-fungus]
+- [fjord fungus][fjord-fungus]
 - peasant
 
 !!! note
@@ -180,10 +184,10 @@ To prepare this potion, you will need the following ingredients:
 
 To prepare this potion, you will need the following herbs:
 
-- [flatroot]
-- [mandrake]
-- [sand reeker]
-- [white hemlocks]
+- [flatroot][flatroot]
+- [mandrake][mandrake]
+- [sand reeker][sand-reeker]
+- [white hemlocks][white-hemlocks]
 
 #### Brain wax
 
@@ -195,10 +199,10 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [bugleweed]
-- [rock weed]
-- [waterfinder]
-- [windbag]
+- [bugleweed][bugleweed]
+- [rock weed][rock-weed]
+- [waterfinder][waterfinder]
+- [windbag][windbag]
 
 #### Duncebun
 
@@ -210,10 +214,10 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [cave lichen]
-- [fjord fungus]
-- [owlsgaze]
-- [spider ivy]
+- [cave lichen][cave-lichen]
+- [fjord fungus][fjord-fungus]
+- [owlsgaze][owlsgaze]
+- [spider ivy][spider-ivy]
 
 !!! note
     You can apply it to a unit with the order `USE "Duncebun"`&nbsp;&lt;`unit−id`&gt;.  
@@ -230,25 +234,25 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [cobalt fungus]
-- [knotroot]
-- [peyote],
-- [sand reeker]
+- [cobalt fungus][cobalt-fungus]
+- [knotroot][knotroot]
+- [peyote][peyote-id]
+- [sand reeker][sand-reeker]
 
 #### Potion of nest warmth
 
-:   Allows **[Insects]** to recruit men **even in winter**.
+:   Allows [Insects][insects] to recruit men **even in winter**.
 
-*Goal:* to allow the recruitment of [Insects] in winter.  
+*Goal:* to allow the recruitment of [Insects][insects] in winter.  
 *Level:* **3**.  
 *Target:* **region**.  
 
 To prepare this potion, you will need the following herbs:
 
-- [gapgrowth]
-- [ice begonia]
-- [peyote]
-- [spider ivy]
+- [gapgrowth][gapgrowth]
+- [ice begonia][ice-begonia]
+- [peyote][peyote-id]
+- [spider ivy][spider-ivy]
 
 ### Level 4
 
@@ -262,12 +266,12 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [bubblemorel]
+- [bubblemorel][bubblemorel]
 - [[dragonblood]]
-- [elvendear]
-- [spider ivy]
-- [waterfinder]
-- [windbag]
+- [elvendear][elvendear]
+- [spider ivy][spider-ivy]
+- [waterfinder][waterfinder]
+- [windbag][windbag]
 
 #### Healing potion
 
@@ -279,11 +283,11 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [bugleweed]
-- [elvendear]
-- [gapgrowth]
-- [ice begonia]
-- [windbag]
+- [bugleweed][bugleweed]
+- [elvendear][elvendear]
+- [gapgrowth][gapgrowth]
+- [ice begonia][ice-begonia]
+- [windbag][windbag]
 
 #### Peasant love potion
 
@@ -295,11 +299,11 @@ To prepare this potion, you will need the following herbs:
 
 To prepare this potion, you will need the following herbs:
 
-- [bubblemorel]
-- [elvendear]
-- [mandrake]
-- [rock weed]
-- [snowcrystal petal]
+- [bubblemorel][bubblemorel]
+- [elvendear][elvendear]
+- [mandrake][mandrake]
+- [rock weed][rock-weed]
+- [snowcrystal petal][snowcrystal-petal]
 
 ## Potions - Summary table
 
@@ -324,66 +328,39 @@ To prepare this potion, you will need the following herbs:
 ## Herbs table
 
 <!-- TODO: not possible to display this table without horizontal scroll bar !? min column width is too high -->
-| Herb                |       [SM]       |       [GW]       |       [WL]       |       [PB]       |       [BZ]       |       [OM]       |       [BK]       |       [DB]       |       [BW]       |       [HP]       |       [NW]       |       [PL]       |       [EP]       |       [HL]       |
-|---------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
-| [bubblemorel]       |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
-| [bugleweed]         |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  | :material-check: |
-| [cave lichen]       |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [cobalt fungus]     | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |
-| [elvendear]         |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: | :material-check: |
-| [fjord fungus]      |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [flatroot]          |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |
-| [gapgrowth]         |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
-| [ice begonia]       |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
-| [knotroot]          |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |
-| [mandrake]          |                  |                  |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  |                  | :material-check: |                  |                  |
-| [owlsgaze]          |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [peyote]            |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |
-| [rock weed]         |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |
-| [sand reeker]       |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |                  |                  |
-| [snowcrystal petal] |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |
-| [spider ivy]        |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
-| [tangy temerity]    |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
-| [waterfinder]       |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
-| [white hemlocks]    |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
-| [windbag]           | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
+| Herb                                   |       [SM]       |       [GW]       |       [WL]       |       [PB]       |       [BZ]       |       [OM]       |       [BK]       |       [DB]       |       [BW]       |       [HP]       |       [NW]       |       [PL]       |       [EP]       |       [HL]       |
+|----------------------------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
+| [bubblemorel][bubblemorel]             |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
+| [bugleweed][bugleweed]                 |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  | :material-check: |
+| [cave lichen][cave-lichen]             |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| [cobalt fungus][cobalt-fungus]         | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| [elvendear][elvendear]                 |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: | :material-check: |
+| [fjord fungus][fjord-fungus]           |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| [flatroot][flatroot]                   |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| [gapgrowth][gapgrowth]                 |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| [ice begonia][ice-begonia]             |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
+| [knotroot][knotroot]                   |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |
+| [mandrake][mandrake]                   |                  |                  |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  |                  | :material-check: |                  |                  |
+| [owlsgaze][owlsgaze]                   |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
+| [peyote][peyote-id]                    |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |
+| [rock weed][rock-weed]                 |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |
+| [sand reeker][sand-reeker]             |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |                  |                  |
+| [snowcrystal petal][snowcrystal-petal] |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |
+| [spider ivy][spider-ivy]               |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
+| [tangy temerity][tangy-temerity]       |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
+| [waterfinder][waterfinder]             |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
+| [white hemlocks][white-hemlocks]       |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
+| [windbag][windbag]                     | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
 
 Continue reading: [[herbs]].
 
 [^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
 [^2]: You can apply it to a unit with the order `USE Duncebun <unit−id>`.  
-The application of the potion fails if the [[stealth]] skill of the acting unit is **less or equal** to the victim's **[perception] level + 2**.
+The application of the potion fails if the [[stealth]] skill of the acting unit is **less or equal** to the victim's **[perception][skill-perception-id] level + 2**.
 In this case, you get an error message and the [duncebun] is not used up (thus it remains to the unit).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/en&oldid=16929] -->
-
-[Alchemy]: ./skills-list.md#alchemy
-[Herbalism]: ./skills-list.md#herbalism
-[perception]: ./skills-list.md#perception
-[Insects]: ./races.md#insects
-
-[bubblemorel]: ./herbs.md#bubblemorel
-[bugleweed]: ./herbs.md#bugleweed
-[cave lichen]: ./herbs.md#cave-lichen
-[cobalt fungus]: ./herbs.md#cobalt-fungus
-[elvendear]: ./herbs.md#elvendear
-[fjord fungus]: ./herbs.md#fjord-fungus
-[flatroot]: ./herbs.md#flatroot
-[gapgrowth]: ./herbs.md#gapgrowth
-[ice begonia]: ./herbs.md#ice-begonia
-[knotroot]: ./herbs.md#knotroot
-[mandrake]: ./herbs.md#mandrake
-[owlsgaze]: ./herbs.md#owlsgaze
-[peyote]: ./herbs.md#peyote
-[rock weed]: ./herbs.md#rock-weed
-[sand reeker]: ./herbs.md#sand-reeker
-[snowcrystal petal]: ./herbs.md#snowcrystal-petal
-[spider ivy]: ./herbs.md#spider-ivy
-[tangy temerity]: ./herbs.md#tangy-temerity
-[waterfinder]: ./herbs.md#waterfinder
-[white hemlocks]: ./herbs.md#white-hemlocks
-[windbag]: ./herbs.md#windbag
 
 [Goliath water]: #goliath-water
 [Potion of truth]: #potion-of-truth
@@ -394,7 +371,7 @@ In this case, you get an error message and the [duncebun] is not used up (thus i
 [Peasant blood]: #peasant-blood
 [Berserkers blood]: #berserkers-blood
 [Brain wax]: #brain-wax
-[Duncebun]:#duncebun
+[Duncebun]: #duncebun
 [Horsepower potion]: #horsepower-potion
 [Potion of nest warmth]: #potion-of-nest-warmth
 [Elixir of power]: #elixir-of-power

@@ -62,7 +62,7 @@ Un mineur T4 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"
 | [Armure de plaque][armure-de-plaque]{title="Platemail"}                      |     4 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    4 |                5 fer |
 | [Bouclier en laen][bouclier-en-laen]{title="Laen shield"}                    |     0 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    7 |               1 laen |
 | [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    9 |               3 laen |
-| [Armure en adamantium][armure-en-adamantium]{title="Adamantium armor"}       |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   10 |         3 adamantium |
+| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   10 |         3 adamantium |
 | Potions                                                                      |     0 | [alchimie][alchimie]{title="Alchemy"}                                  |    2 |              Plantes |
 
 [^1]: l'extraction du laen et de l'adamantium nécessitent une [mine][mine]{title="Mine"}.

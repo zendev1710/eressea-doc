@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: travel
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Movement
 
 There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships.  
@@ -16,19 +18,19 @@ For alle modes the orders [[cmd-move]] or [[cmd-route]] are used.
 
 *Person's transport capacity according to race.*
 
-| Race       | Transport capacity |
-|------------|-------------------:|
-| [Goblin]   |            **4.4** |
-| [Aquarian] |                5.4 |
-| [Cat]      |                5.4 |
-| [Demon]    |                5.4 |
-| [Dwarf]    |                5.4 |
-| [Elf]      |                5.4 |
-| [Halfling] |                5.4 |
-| [Human]    |                5.4 |
-| [Insect]   |                5.4 |
-| [Orc]      |                5.4 |
-| [Troll]    |           **10.8** |
+| Race                  | Transport capacity |
+|-----------------------|-------------------:|
+| [Goblin][goblins-id]  |            **4.4** |
+| [Aquarian][aquarians] |                5.4 |
+| [Cat][cats]           |                5.4 |
+| [Demon][demons-id]    |                5.4 |
+| [Dwarf][dwarves]      |                5.4 |
+| [Elf][elves]          |                5.4 |
+| [Halfling][halflings] |                5.4 |
+| [Human][humans]       |                5.4 |
+| [Insect][insects]     |                5.4 |
+| [Orc][orcs-id]        |                5.4 |
+| [Troll][trolls-id]    |           **10.8** |
 
 Trolls have a greater carrying capacity. Goblins have a lesser one.  
 
@@ -55,19 +57,19 @@ A unit can increase its transport capacity through [horses and carts].
 
 *Person's weight according to race.*
 
-| Race       | Weight |
-|------------|-------:|
-| [Goblin]   |      6 |
-| [Aquarian] |     10 |
-| [Cat]      |     10 |
-| [Demon]    |     10 |
-| [Dwarf]    |     10 |
-| [Elf]      |     10 |
-| [Halfling] |     10 |
-| [Human]    |     10 |
-| [Insect]   |     10 |
-| [Orc]      |     10 |
-| [Troll]    |     20 |
+| Race                  | Weight |
+|-----------------------|-------:|
+| [Goblin][goblins-id]  |      6 |
+| [Aquarian][aquarians] |     10 |
+| [Cat][cats]           |     10 |
+| [Demon][demons-id]    |     10 |
+| [Dwarf][dwarves]      |     10 |
+| [Elf][elves]          |     10 |
+| [Halfling][halflings] |     10 |
+| [Human][humans]       |     10 |
+| [Insect][insects]     |     10 |
+| [Orc][orcs-id]        |     10 |
+| [Troll][trolls-id]    |     20 |
 
 The weight of the most common items is listed in the [summary table of items].  
 
@@ -148,22 +150,9 @@ If a unit has several horses and carts, their transport capacity is simply added
 
 Continue reading: [Sailing].
 
-[Sailing]: ./sailing.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
 
-[Troll]: ./races.md#trolls
-[Goblin]: ./races.md#goblins
-[Aquarian]: ./races.md#aquarians
-[Cat]: ./races.md#cats
-[Demon]: ./races.md#demons
-[Elf]: ./races.md#elves
-[Halfling]: ./races.md#halflings
-[Human]: ./races.md#humans
-[Insect]: ./races.md#insects
-[Dwarf]: ./races.md#dwarves
-[Orc]: ./races.md#orcs
-
+[Sailing]: ./sailing.md
 [this table]: ./items.md
 [roads]: ./roads.md
 [Ships]: ./ships.md

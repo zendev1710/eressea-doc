@@ -3,6 +3,8 @@
 alias:
     - war
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # War
 
 Conflict is bound to arise in Eressea.  
@@ -14,7 +16,7 @@ That's why you should always look for friends and allies, because "friends come 
 The [[cmd-attack]] order launches an attack against the opponent.  
 `ATTACK` orders are executed in random order.  
 During an attack, units from all sides gather in the area and fight each other individually (person by person).  
-A battle lasts a maximum of six turns: five regular combat turns and possibly also turn 0 (zero), the [tactics turn].
+A battle lasts a maximum of six turns: five regular combat turns and possibly also turn 0 (zero), the [tactics turn][tacticians-round].
 
 The attacking side consists of all units that have given `ATTACK` orders against one or more units of the defenders.
 
@@ -29,10 +31,10 @@ These are, listed in order of priority:
 1. The unit ready to fight attacks another unit.
    In this case, it takes part in the combat in any case.
 2. The unit is attacked by another unit.
-   Then it joins the [combat rows] according to its combat status.
+   Then it joins the [combat rows][combat-rows] according to its combat status.
 3. A unit whose faction is being attacked.
    The unit then takes part in the combat if it has not set `COMBAT NOT` or `COMBAT FLEE`.
-   In the latter case, it does not [flee] as it is not directly threatened.
+   In the latter case, it does not [flee][fleeing] as it is not directly threatened.
 4. A unit from an allied faction (that is, a faction to which `HELP COMBAT` has been set) is attacked by someone.
    The unit then takes part in the combat, unless it has set `COMBAT NOT` or `COMBAT FLEE`.
    Again, a unit with `COMBAT FLEE` will not run away, as it is not exposed to a direct threat.
@@ -102,7 +104,7 @@ A battle lasts five combat rounds plus a possible tactics round.
 In each combat round, the combatants strike in a random order.
 
 Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders.  
-The exceptions are [combat at sea] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [[cmd-help|`HELP GUARD`]] towards the combatant's faction.  
+The exceptions are [combat at sea][combat-on-and-with-ships] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [[cmd-help|`HELP GUARD`]] towards the combatant's faction.  
 In this case, other long orders are possible.
 
 ### Combat rows
@@ -119,7 +121,7 @@ For more information on combat status, see [[cmd-combat]].
 
 Only the first two combat rows actively take part in the battle, i.e. they can strike, shoot and be hit.  
 Units that are not combat ready and are directly attacked only really take part in the battle when one of the front rows is overrun.  
-Fleeing units naturally try to escape (see [fleeing]).
+Fleeing units naturally try to escape (see [fleeing][fleeing]).
 
 Units fighting in the 2nd row can only be attacked directly in close combat when they reach the 1st row (this can happen, for example, when the 1st row is overrun, see below).  
 Against opposing ranged attacks, they defend with their best combat skill.
@@ -140,14 +142,14 @@ Now, the units arm themselves.
 Each person in a unit equips themselves with a melee weapon, a ranged weapon and armor, according to their skills.  
 They choose the weapons that give them the highest Attack and Parry scores.  
 Mages who have chosen a combat spell use it to attack.  
-However, for defense, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed].
+However, for defense, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed][bonuses-and-mali].
 
 !!! warning "Beware"
     Unused weapons or armor are not automatically redistributed to unarmed or unequipped units.
 
 During combat, you no longer change weapons, unless it is possible to take a better weapon from someone in the same unit who has already died (the surviving combatants each use the best weapon sets available).
 
-A ranged combatant who suddenly finds himself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themselves [unarmed][1].
+A ranged combatant who suddenly finds himself in the front row must, if attacked, grab a melee weapon (if the have one and if they have the corresponding skill at least at level 1), otherwise they defend themselves [unarmed][bonuses-and-mali].
 
 **Example:**
 
@@ -194,7 +196,7 @@ In each battle, armies face each other person by person, regardless of their num
 The procedure is as follows:
 
 - The attacker's attack and the defender's parry are (initially) as high as their weapon skill level.
-- Add bonuses and penalties: Add any [bonuses and penalties][1] to the attacker's attack and the defender's parry.
+- Add bonuses and penalties: Add any [bonuses and penalties][bonuses-and-mali] to the attacker's attack and the defender's parry.
 - If the attacker is a ranged fighter, the opponent's modified parry value is halved.
 - The basic hit probability (BT) of an attacker is 30%.
 - Subtract values from each other: For every point difference between the attacker's attack and the defender's parry, the BT is now increased or decreased by 5%.
@@ -205,23 +207,23 @@ The procedure is as follows:
 Each person attacks once per combat round (except [[cmd-promote|Heroes]] and some monsters).
 
 When a fighter manages to hit his opponent, he inflicts damage.  
-Different weapons inflict different amounts of damage (damage points, see [Weapon characteristics]).  
+Different weapons inflict different amounts of damage (damage points, see [Weapon characteristics][weapons-summary-table]).  
 It's also worthwhile having high levels of skill in weapon mastery: if you have more skill levels than your opponent, the damage inflicted by a hit increases by one point for every two skill levels difference.  
 Only skill levels are considered, and the bonuses provided by horses, castles, etc. do not count.  
 This applies to both ranged and close combat.  
 In addition, there is a certain chance, depending on the level difference, of receiving a critical hit that can cause up to five times more damage.
 
-If a person has received more damage than he can "take", he dies (see [Racial skill modifiers] the different hits taken during the fight are added together).
+If a person has received more damage than he can "take", he dies (see [races-and-their-characteristics] the different hits taken during the fight are added together).
 
 When a fighter wears armor, it can absorb some (or all) of the damage points.  
-However, armor makes the fighter less mobile and increases his chances of being hit (see [this armors table]).  
+However, armor makes the fighter less mobile and increases his chances of being hit (see [this armors table][armors-summary]).  
 Against crossbows, armor is only half effective (rounded down).
 
 Some creatures or weapons are also able to cause magical damage.  
 Normal armor is ineffective against magical damage.  
-Only the [Magic Resistance] counts, which can be increased by specific items and spells.
+Only the [Magic Resistance][magic-resistance] counts, which can be increased by specific items and spells.
 
-There's also the Endurance skill, which allows you to harden your body and take more damage before dying (see [this table]).
+There's also the Endurance skill, which allows you to harden your body and take more damage before dying (see [this table][table-endurance-id]).
 
 ### Ranged combat
 
@@ -242,8 +244,8 @@ Against ranged weapons, those being attacked only defend with half their skill l
 Units in the front row defend with their full skill level if the ranged combatant is also in the front row.
 
 !!! warning "Attention"
-    If a ranged fighter gets into the front line (e.g. because it has been [overrun][combat rows]), they must defend themselves with a melee weapon.  
-    If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves [unarmed][2]!
+    If a ranged fighter gets into the front line (e.g. because it has been [overrun][combat-rows]), they must defend themselves with a melee weapon.  
+    If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves [unarmed][bonuses-and-mali]!
 
 Catapults require ammunition.  
 This can be produced from stones using [[cmd-make|MAKE ammunition]] by a mason with quarrying skill 3 and it weighs 10 weight units.  
@@ -304,7 +306,7 @@ Pike bonus
 
 Weapon modifiers
 
-:   For this purpose, [weapon modifiers][Weapon characteristics] also count as bonuses and penalties.  
+:   For this purpose, [weapon modifiers][weapons-summary-table] also count as bonuses and penalties.  
     A halberd unit thus has +2 to its parry (in addition to any other bonuses or penalties).  
     If it is not riding and fights against a rider, its parry value is increased by +1 at this moment.  
 
@@ -405,13 +407,15 @@ The [[tactics|tactics round]] and the first round are not counted, so the maximu
 More damage can occur if sea serpents are involved in the battle.  
 These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.  
 
-If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage].
+If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage][damage-to-ships].
 
 If you want to land in a region [[cmd-guard|guarded]] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round.  
 This gives your enemies some time to prepare.
 
 From land you can attack a ship immediately.  
 Units on ships join the battle rows normally according to their `COMBAT` and [[cmd-help|`HELP COMBAT`]] status if their allies or they themselves are attacked.
+
+[](){ #piracy-id }
 
 ## Piracy
 
@@ -464,19 +468,3 @@ After sea battles on oceans you can always execute long orders.
 Continue reading: [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
-
-[Weapon characteristics]: ./war-tables.md#weapons-summary-table
-[Racial skill modifiers]: ./war-tables.md#races-and-their-characteristics
-[this  armors table]: ./war-tables.md#armors-summary
-[Magic Resistance]: ./war-tables.md#magic-resistance
-[this table]: ./war-tables.md#endurance
-[damage]: ./sailing.md#damage-to-ships
-
-[tactics turn]: #tacticians-round
-[combat rows]: #combat-rows
-[flee]: #fleeing
-[fleeing]: #fleeing
-[combat at sea]: #combat-on-and-with-ships
-[unarmed]: #bonuses-and-mali
-[1]: #bonuses-and-mali
-[2]: #bonuses-and-mali

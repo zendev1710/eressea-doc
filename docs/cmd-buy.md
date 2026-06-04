@@ -2,13 +2,15 @@
 # cSpell:locale en
 alias: cmd-buy
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # BUY
 
-*`BUY` is like [[cmd-sell]], a [[orders#short-and-long-orders|pseudo-long order]][^1].*  
+*`BUY` is like [[cmd-sell]], a [pseudo-long order][short-and-long-orders][^1].*  
 
 **`BUY <number> <luxury-good>`**  
 
-If the unit has the [trade] skill, it will attempt to purchase that number of luxury goods.
+If the unit has the [trade skill][skill-trade-id], it will attempt to purchase that number of luxury goods.
 This is only possible if, firstly, there is a trading post or a larger type of castle in the region near which the market can be held, and secondly, if the product is actually produced in the region.
 In order to buy something, no contact with the lord of the castle is necessary;  
 Nevertheless, it is of course more diplomatic to ask beforehand...
@@ -40,9 +42,7 @@ In the computer report and the [[orders|orders template]] are all `BUY` and `SEL
 
 ## See also
 
-- [trade]
+- [trade][silver-trade-id]
 - [[cmd-sell]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
-
-[trade]: ./silver.md#trade

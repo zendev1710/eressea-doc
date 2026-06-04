@@ -42,7 +42,7 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 | [Humain][humains]{title="Humans"}         |                   5,4 |
 | [Insecte][insectes]{title="nsects"}       |                   5,4 |
 | [Nain][nains]{title="Dwarves"}            |                   5,4 |
-| [Orc][orcs]{title="Orcs"}                 |                   5,4 |
+| [Orc][orcs-fr-id]{title="Orcs"}           |                   5,4 |
 | [Troll][trolls-fr-id]{title="Trolls"}     |              **10,8** |
 
 Les trolls ont une capacité de transport supérieure aux autres peuples.
@@ -82,7 +82,7 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Humain][humains]{title="Humans"}        |    10 |
 | [Insecte][insectes]{title="nsects"}      |    10 |
 | [Nain][nains]{title="Dwarves"}           |    10 |
-| [Orc][orcs]{title="Orcs"}                |    10 |
+| [Orc][orcs-fr-id]{title="Orcs"}          |    10 |
 | [Troll][trolls-fr-id]{title="Trolls"}    |    20 |
 
 <!-->

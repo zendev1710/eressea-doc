@@ -19,8 +19,8 @@ Cependant, ces informations peuvent être vagues, et vous devrez dans ce cas dé
 
 Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à présent :
 
-- [[adamantium]] (au tour 574)
-- [[armure-en-adamantium]] (au tour 574)
+- [Adamantium][adamantium-fr-id] (au tour 574)
+- [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"} (au tour 574)
 - [[gateau-d-anniversaire]] (au tour 487, Le 20 août 2006, à l'occasion des 10 ans d'Eressea)
 - [[voile-solaire]] (au tour 407, Noël 2004)
 - [[poussiere-d-etoile]] (au tour 454, Noël 2005)

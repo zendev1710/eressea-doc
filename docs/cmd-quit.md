@@ -2,12 +2,14 @@
 # cSpell:locale en
 alias: cmd-quit
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # QUIT
 
 **`QUIT`**`"<password>"`  
 
 This causes the faction to disband and no longer play.  
-For security purposes, the faction's password must be provided. 
+For security purposes, the faction's password must be provided.  
 This order must also be given to a unit.  
 
 All items, including Silver, from the dying faction are given to friendly units that are in the same region as units of the dying faction.  
@@ -16,7 +18,7 @@ Only those who have been given a [[cmd-help|HELP SILVER]] are considered friends
 The receiving faction must have put HELP GIVE on the dying faction.  
 The items go to the faction's first unit in the region.  
 If there is no friendly unit in a region, all items go to the farmers.  
-The faction's people are always handed over to the farmers (exceptions apply to [Orcs], [Demons] and [Monsters]).  
+The faction's people are always handed over to the farmers (exceptions apply to [Orcs][orcs-id], [Demons][demons-id] and [Monsters]).  
 
 **`QUIT`**` "<password>" FACTION `*`faction-id`*  
 
@@ -57,6 +59,3 @@ It is therefore better to ensure in advance that the merged faction complies wit
     ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
-
-[Orcs]: ./races.md#orcs
-[Demons]: ./races.md#demons

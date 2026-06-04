@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-route
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ROUTE
 
-*[long] order.*  
+*[long order][short-and-long-orders].*  
 
 **`ROUTE`**` `*`direction`*`[`*`direction`*`...]`  
 
@@ -50,5 +52,3 @@ And finally again like at the beginning.
 - [[cmd-follow]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
-
-[long]: ./commands.md#short-and-long-orders

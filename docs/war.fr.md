@@ -286,7 +286,7 @@ Voir aussi : [tables de combat].
 
 #### Bonus de cavalerie
 
-:   Dans les [plaines][plaine]{title="Plain"}, les [desert]{title="Desert"} et les [haut-plateaux][haut-plateau]{title="Highland"}, les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
+:   Dans les [plaines][plaine]{title="Plain"}, les [désert][desert-fr-id]{title="Desert"} et les [haut-plateaux][haut-plateau]{title="Highland"}, les combattants en première ligne en terrain découvert peuvent utiliser un cheval.  
     Pour monter un cheval au combat, il faut être T2 en [équitation][equitation]{title="Riding"} et posséder un cheval.  
     Les cavaliers bénéficient d'un bonus de +2 à l'attaque et à la parade, car ils sont plus rapides et plus agiles.  
     Les cavaliers à l'intérieur d'un château, et bénéficiant du bonus du château, n'ont pas le bonus cavalerie si ils sont attaqués.  

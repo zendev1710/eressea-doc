@@ -46,7 +46,7 @@ If he already has level 5 in magic skill, he has to pay 1100 Silver per week of 
     In the latter case, however, the learning costs increase to 350 silver!  
     There is no way to know which of the two is true. So it's better to plan a little more generously.  
 
-Learning in an [Academy] costs twice as much.
+Learning in an [Academy][academy] costs twice as much.
 Only magicians from the same area of ​​magic as the teacher can be taught.
 So a Draig Mage cannot teach an Illaun Mage.  
 
@@ -119,7 +119,7 @@ The three types of combat spells can never be cast using `CAST`.
 Instead, they are cast when the unit is actively engaged in combat.  
 All three types can be set with the [[cmd-combatspell|`COMBATSPELL LEVEL n "Spell"`]] order.  
 You can delete a specific combat spell with the `COMBATSPELL "Spell" NOT` order or all set combat spells with [[cmd-combatspell|`COMBATSPELL NOT`]]
-Combat spells work somewhat like the [`COMBAT`] orders, i.e. once set, they remain saved.
+Combat spells work somewhat like the [`COMBAT`][combat-rows] orders, i.e. once set, they remain saved.
 A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
 For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.
 
@@ -141,7 +141,7 @@ Syntax:
     COMBATSPELL [LEVEL n] 'Song of Fear'
 ```
 <!-- TODO check if below is what german text meant -->
-If a mage has cast combat spells, it automatically casts spells as soon as it takes part in combat, either by ordering `ATTACK` himself or by being drawn into battle by an attack on his side (see [The Sides in a Battle]).  
+If a mage has cast combat spells, it automatically casts spells as soon as it takes part in combat, either by ordering `ATTACK` himself or by being drawn into battle by an attack on his side (see [The Sides in a Battle][the-sides-in-a-battle]).  
 This can also happen even if he is set to `COMBAT NOT` or `FLEE`, when he is explicitly attacked with the [[cmd-attack]] order!
 
 A pre-combat or post-combat spell is cast once before or after the combat begins.
@@ -192,7 +192,7 @@ With these variable spells you can specify a level at which the spell should be 
 This must be equal to or lower than the unit's magic skill, but it can be higher or lower than the spell's normal level.  
 This allows you to cast the spell at a lower level than your own skill.
 
-Using a [[ring-of-power]], [Mage Tower] or [Blessed Stone Circle], the strength can be increased by an additional point.  
+Using a [[ring-of-power]], [Mage Tower][mage-tower] or [Bless Stone Circle][bless-stone-circle], the strength can be increased by an additional point.  
 This bonus is added to the specified level.
 
 If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's skill value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).  
@@ -350,7 +350,7 @@ A unit's magic resistance is:
 - plus 5% per magic skill
 - plus 10%*Unicorns per person
 - Possibly bonus or penalty due to [[list-of-spells|spell]] on the unit or region
-- Possibly bonus from [building][Blessed Stone Circle]
+- Possibly bonus from [building][stonecircle]
 - These values ​​are added together, but the result can never be higher than 90%
 
 For certain direct enchantments, it is additionally influenced by the unit's experience:
@@ -358,7 +358,7 @@ For certain direct enchantments, it is additionally influenced by the unit's exp
 - 50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)
 - Never below 2%, never above 98%
 
-Instead, additional bonuses from [Weapons or Armor] work against combat spells such as fireballs and weapons that are considered magical.  
+Instead, additional bonuses from [Weapons or Armor][magic-resistance] work against combat spells such as fireballs and weapons that are considered magical.  
 Otherwise, only magical protection and natural armor work against magical damage.  
 
 Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.  
@@ -366,14 +366,14 @@ Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have ma
  **Examples:**
 
 The base chance is 0% for humans, 10% for [[skills-modifiers|elves]], for [[skills-modifiers|goblins]] it is only -5%.  
-A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse] cast by a Magic 10 unit.  
+A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse][d-chaos-curse-id] cast by a Magic 10 unit.  
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  
 
-For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with [Lensword][Weapons or Armor].*70%) = 63% of that, so about 31 damage.
+For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with [Laensword][magic-resistance].*70%) = 63% of that, so about 31 damage.
 
 ## Mage Tower
 
-A [Mage Tower] increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.  
+A [Mage Tower][mage-tower] increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.  
 In addition, the likelihood of a spell failure is significantly reduced.
 
 ## Familiar
@@ -414,7 +414,7 @@ This area is shaped like a parallelogram with four regions each extending in the
 The "reference point" is the southwest corner of it.  
 All regions in such an area lead to the same point when entering the astral world.  
 This connection is a prerequisite for most spells involving the astral space.  
-But it can also be disturbed, for example by blessed stone circles that have recently been visited by a magician.  
+But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a magician.  
 Depending on the spell used, additional restrictions may apply.  
 
 That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.  
@@ -425,7 +425,7 @@ Only through magic can reality be changed in such a way that living beings enter
 Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.  
 Only **Elven horses** seem to be able to survive as magical mounts in the astral space.  
 
-In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible [beings] who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.  
+In general, everyone should be warned against carelessly crossing into the astral space, as it is inhabited by terrible [beings][braineaters] who cannot be defeated by ordinary weapons and who ruthlessly rob their victims of their will and memory.  
 Only those who carry powerful magical weapons or are able to hide themselves extremely well from unfriendly eyes will be immune from these horrors of the astral space.  
 The others will have to rely on their allies!  
 
@@ -442,12 +442,3 @@ Continue reading: [[schools-of-magic]].
 [Ranged Spells]: #ranged-spells
 [Magic Resistance]: #magic-resistance
 [probability of blunders]: #blunder
-
-[Academy]: ./buildings-others.md#academy
-[`COMBAT`]: ./war.md#combat-rows
-[The Sides in a Battle]: ./war.md#the-sides-in-a-battle
-[Mage Tower]: ./buildings-others.md#mage-tower
-[Blessed Stone Circle]: ./buildings-others.md#stonecircle
-[Weapons or Armor]: ./war-tables.md#magic-resistance
-[Chaos Curse]: ./spells-descriptions.md#chaos-curse
-[beings]: ./monsters.md#braineaters

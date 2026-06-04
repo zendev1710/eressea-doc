@@ -2,14 +2,16 @@
 # cSpell:locale en
 alias: cmd-sell
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # SELL
 
-*`SELL` is like [[cmd-buy]], a [pseudo-long] order[^1].*  
+*`SELL` is like [[cmd-buy]], a [pseudo-long order][short-and-long-orders][^1].*  
 
 **`SELL`**[<sup>`(l)`</sup>]` `*`number`*` `*`Luxury item`*  
 **`SELL`**[<sup>`(l)`</sup>]` ALL `*`Luxury item`*  
 
-The unit skilled in [trading] can use this order to sell luxury goods that it owns to the farmers.  
+The unit skilled in [trading][skill-trade-id] can use this order to sell luxury goods that it owns to the farmers.  
 This is only possible if, firstly, there is a trading post or larger [[castles|castle type]] in the region near which the market can be held, and secondly, if there is any demand for the product at all.  
 In order to sell something, no contact with the lord of the castle is necessary;  
 Nevertheless, it is of course more diplomatic to ask beforehand...  
@@ -32,10 +34,7 @@ In the computer report 5CR) and the [[orders|orders template]], all `BUY` and `S
 
 ## See also
 
-- [trading]
+- [trading][silver-trade-id]
 - [[cmd-buy]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
-
-[pseudo-long]: ./commands.md#short-and-long-orders
-[trading]: ./silver.md#trade

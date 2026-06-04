@@ -31,7 +31,6 @@ A page review is achieved when:
 
 | page                         | FR | EN | DE |
 |------------------------------|:--:|:--:|:--:|
-| [adamantium-armor][^1]       | ✅ | ✔️ | ✔️ |
 | [adamantium][^2]             | ✔️ | ✔️ | ✔️ |
 | [alchemy]                    | ✔️ | ✔️ |    |
 | [alliances]                  | ✔️ |    |    |

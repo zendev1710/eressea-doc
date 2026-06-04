@@ -2,14 +2,16 @@
 # cSpell:locale en
 alias: sailing
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sailing
 
 You can leave your island only with [[ships]] and, for example, open up new markets or establish direct contact with other factions.
 With a ship it is possible to move up to 7 regions, even more than 7 regions with the help of aquarians or with magic.
 
 All ships larger than a boat (including longboats) can only dock in plains and forests.
-All other types of region (e.g. mountains, highlands, swamps, etc.) require a [**Harbour**] for ships to dock.
-If a ship tries to dock in an unsuitable region, it suffers [damages].
+All other types of region (e.g. mountains, highlands, swamps, etc.) require an [Harbour][harbour] for ships to dock.
+If a ship tries to dock in an unsuitable region, it suffers [damages][damage-to-ships].
 However, ships can set sail from anywhere, so you can build ships in any coastal region and launch them.
 
 Ships cannot pass directly from one coast to a neighbouring coastal region without first sailing on an ocean region.
@@ -18,7 +20,7 @@ A ship coming from the east (report indicates then "coast east") can thus leave 
 However, if a region has a harbour, the ships of the owner of the harbour and of friendly factions (see [[cmd-help]]) can go in any directions as long as they are oceanic regions.
 
 On the high seas - i.e. ocean areas that are not bordered by a land region - ships can drift into a neighbouring area and suffer damage due to storms.
-This does not apply to ships ordering [[cmd-follow]] or [Piracy].
+This does not apply to ships ordering [[cmd-follow]] or [[cmd-piracy]].
 
 To be able to sail a ship, you need a trained crew, i.e. units that have learnt the skill of sailing.
 In the following table, the sailing skill level of the captain (the first unit on the ship in the report) is indicated under "Captain".
@@ -53,18 +55,17 @@ Dragonship Range.
 |---------|:-:|:-:|:--:|:--:|:---:|
 | Range   | 5 | 6 | 7  | 8  |  9  |
 
-
 If a ship does not have a sufficient crew, it cannot set sail.
 If this happens at sea (for example due to combat or units starving for lack of money), it drifts until it reaches a coastal region.
-It then suffers [damages] every turn, so that it quickly sinks.
+It then suffers [damages][damage-to-ships] every turn, so that it quickly sinks.
 
 The total weight of all units on a ship, including the weight of horses, carts, persons and of course all goods and silver of the units, must be able to be transported by the ship.
 If this is not the case, or is no longer the case, the ship cannot sail.
 At sea, it will not sink immediately, but will drift.
 Ships capacities are shown in the table above and are always displayed in the report.
-The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities].
+The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities][travel-by-land-or-by-sea].
 
-It is possible to group together several ships in a [convoy].
+It is possible to group together several ships in a [convoy][convoy].
 Details are described in the chapter on [[ships]].
 
 Units aboard a ship cannot execute long orders (with the exception of aquarians).
@@ -82,7 +83,7 @@ This also applies to [[cmd-ride]] and [[cmd-carry]].
 
 ## Swimming
 
-[Aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.
+[Aquarians][aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.
 Aquarians can not swim from a land region onto any ocean region.
 This works only if the unit isn’t overloaded.
 Swimming aquarians can carry items, but not horses.
@@ -106,7 +107,7 @@ If the damage exceeds 100%, the ship will sink with all units on board.
 
 The following events will damage a ship :
 
-- The ship was involved in a fight : 0%-20% damage (see [Battle on ship])
+- The ship was involved in a fight : 0%-20% damage (see [Battle on ship][combat-on-and-with-ships])
 - The ship was harmed by a spell, up to 90% damage.
 - A tidal wave damages the ship, 50% damage.
 - if the ship hits reefs, it suffers 10% damage (hitting reefs: attempting to dock in an unsuitable region)
@@ -133,12 +134,3 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 Continue reading: [[production]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
-
-[damages]: #damage-to-ships
-[**Harbour**]: ./buildings-others.md#harbour
-[Piracy]: ./war.md#piracy
-<!-- [items]: ./items.md#getenständen TODO: statuses but where ? -->
-[Weights and Capacities]: ./travel.md#travel-by-land-or-by-sea
-[convoy]: ./ships.md#convoy
-[Aquarians]: ./races.md#aquarians
-[Battle on ship]: ./war.md#combat-on-and-with-ships

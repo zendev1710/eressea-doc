@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: history-of-eressea
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # History of Eressea
 
 According to [Wikipedia], Eressea launched on August 27, 1996.
@@ -20,14 +22,14 @@ But the game still goes on.
 - Alex Schröder
   Developer of German Atlantis.
   The Atlantis 1.0 and German Atlantis code is freely available, in contrast to the Eressea code based on it.
-- Christian Schlittchen ([Corwin])
+- Christian Schlittchen ([Corwin][corwin-id])
   Developed Eressea and ran the game for a long time (until round 289, around mid-2002).
-- Katja Zedel ([Katze (Designerin)])
+- Katja Zedel ([Katze (Designerin)][katja-zedel-id])
   was the developer and game director of Eressea together with Corwin.
   Katja's biggest project was the development of new magic.
-- [Enno Rehling]
+- [Enno Rehling][enno-id]
   has been there since round 39 and took over development and game management after the other two game managers left.
-- Henning Peters ([Faroul])
+- Henning Peters ([Faroul][faroul-id])
   Developer, among others, of the train checker [[echeck]].
 - Benjamin Bärmann, Ingo Wilken
   Co-developer in the first years, including alchemy
@@ -415,7 +417,7 @@ It was originally intended as a smaller intermediate step to E1.5.
 Due to the massive rule changes, E1.1 will start in a new world.  
 In order to counteract the problems of the endless game and to keep the workload for the current game as low as possible, it will not be possible to start the game later.  
 
-The programmer for this project is [Enno][Enno Rehling] the design team at this point only consists of Xolgrim.  
+The programmer for this project is [Enno][enno-id] the design team at this point only consists of Xolgrim.  
 Just a few days later, it was expanded to its current size with Eon, who had noticed Enno via a mailing list, and Phygon, who, like Xolgrim, had already worked on various unfinished Eressea projects.  
 
 The working title, which stands as an abbreviation for "Eressea 2009", illustrates the small time window that remains for development, design, programming and testing.  
@@ -431,11 +433,6 @@ For example, many spells, some of which are already level 2, have not yet been c
 Since these can only be conjured up in the second round of the game at the earliest, there is still plenty of time for these and other little things...  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
-
-[Corwin]: ./contributors.md#corwin
-[Katze (Designerin)]: ./contributors.md#katja-zedel
-[Enno Rehling]: ./contributors.md#enno
-[Faroul]: ./contributors.md#faroul
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim

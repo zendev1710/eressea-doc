@@ -2,17 +2,19 @@
 # cSpell:locale en
 alias: introduction
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Eressea map view")
 
-In Eressea, each player takes charge of a [[factions|faction]] of people of a certain [[races|race]] that they can choose at [sign up]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
+In Eressea, each player takes charge of a [[factions|faction]] of people of a certain [[races|race]] that they can choose at [sign up][registration]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
 
-Eressea is a fantastic world. Creatures such as [elves] and [dwarves] populate the world, and [magic] is a daily occurrence. Even [dragons] have been sighted, large, powerful and above all dangerous [monsters] that require hundreds of soldiers to fight, as well as sea serpents, [ents] and other strange creatures.
+Eressea is a fantastic world. Creatures such as [elves] and [dwarves][dwarves] populate the world, and [magic] is a daily occurrence. Even [dragons][dragons-id] have been sighted, large, powerful and above all dangerous [monsters] that require hundreds of soldiers to fight, as well as sea serpents, [ents][ents-id] and other strange creatures.
 
 Eressea is a large world. Hundreds of peoples live on the islands of Eressea, and many of them will probably never meet, as it can take years to bridge the distances.
 
@@ -33,8 +35,8 @@ A turn consists of [orders] that your party's units execute in the world as well
 A turn is similar to a computer program so that the *server*, the computer program that knows the state of the world, can evaluate it and the turns of all other players and calculate the new state of the world.  
 The turn cycle is one week, Due Date (ZAT in German for "move submission deadline") is Saturday evening 21:00 (CET).  
 In response to your turn you will receive a *report* containing the state of the world as far as it is known to your faction.  
-A report consists of several parts: A *[NR]* (normal report), which presents the report in a form that is easy to read for humans.  
-A *[CR]* (computer report), which presents the same information but in computer-readable form that [automatic tools] can work with.  
+A report consists of several parts: a [NR][nr-id] (normal report), which presents the report in a form that is easy to read for humans.  
+A [CR][cr-id] (computer report), which presents the same information but in computer-readable form that [automatic tools][what-you-need-to-consider-when-entering-data] can work with.  
 And a *[move template]*, which can serve as a template for your next move.  
 There may also be [weekly abstract] (Wochenbericht), which contains a few statistics about the state of the game.  
 And sometimes the [Xontormia Express], a newspaper that contains posts from players from the perspective of the game world.  
@@ -55,12 +57,4 @@ Continue reading: [World].
 [move template]: ./move-template.md
 [weekly abstract]: ./weekly-report.md
 
-[sign up]: ./hints.md#registration
-[elves]: ./races.md#elves
-[dwarves]: ./races.md#dwarves
-[dragons]: ./monsters.md#dragons
-[ents]: ./monsters.md#ents
-[NR]: ./reports.md#nr
-[CR]: ./reports.md#cr
-[automatic tools]: ./commands-send.md#what-you-need-to-consider-when-entering-data
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express

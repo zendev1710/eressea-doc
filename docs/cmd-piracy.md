@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-piracy
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # PIRACY
 
-*[long] order.*  
+*[long order][short-and-long-orders].*  
 
 **`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`  
 
@@ -16,9 +18,6 @@ If no faction number is provided, it responds to all ships from factions to whic
 
 ## See also
 
-- [Piracy]
+- [Piracy][piracy-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRACY&oldid=16789] -->
-
-[long]: ./commands.md#short-and-long-orders
-[Piracy]: ./war.md#piracy

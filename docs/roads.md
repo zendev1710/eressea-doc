@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: roads
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Roads
 
 **Roads** increase the travelling speed over land. To achieve this, there must be inclusive roads from the start to the destination region. These roads allow easy progress as they do not become boggy when it rains, are not overgrown by forest and rivers and ravines are spanned by bridges.
@@ -12,20 +14,16 @@ The following table states how many stones per direction are needed. Furthermore
 
 Building Roads
 
-| Terrain  | Stones | Building       |
-|----------|-------:|----------------|
-| Plain    |     50 | --             |
-| Forest   |     50 | --             |
-| Highland |    100 | --             |
-| Mountain |    250 | --             |
-| Volcano  |    250 | --             |
-| Swamp    |     75 | [Dam]          |
-| Desert   |    100 | [Caravanserai] |
-| Glacier  |    250 | [Tunnel]       |
-
-[Dam]: ./buildings-others.md#dam
-[Caravanserai]: ./buildings-others.md#caravanserai
-[Tunnel]: ./buildings-others.md#tunnel
+| Terrain  | Stones | Building                     |
+|----------|-------:|------------------------------|
+| Plain    |     50 | --                           |
+| Forest   |     50 | --                           |
+| Highland |    100 | --                           |
+| Mountain |    250 | --                           |
+| Volcano  |    250 | --                           |
+| Swamp    |     75 | [Dam][dam]                   |
+| Desert   |    100 | [Caravanserai][caravanserai] |
+| Glacier  |    250 | [Tunnel][tunnel-id]          |
 
 **Example:** For building a road from the plain at (0,0) through the swamp at (1,0) to the mountain at (1,1) you need
 

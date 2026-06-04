@@ -254,7 +254,7 @@ Le coût **total** d'una académie (de taille 25) est de : 250 pierres, 150 bois
 
 Le coût **total** d'un caravansérail (de taille maximale 10) est de 10 pierres, 50 bois, 10 fers, 5 000 silver.  
 
-- Un caravansérail permet de construire des routes dans les [déserts][desert].
+- Un caravansérail permet de construire des routes dans les [déserts][desert-fr-id]{title="Desert"}.
   Si le caravansérail est détruit, la moitié des routes seront également détruites.
   Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Dans les déserts, double le volume du commerce possible.
@@ -333,7 +333,7 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 
 Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 500 bois.  
 
-- Un Cercle de Pierres peut être béni grâce à [ce puissant sort][benediction-du-cercle-de-pierres].
+- Un Cercle de Pierres peut être béni grâce à [ce puissant sort][g-benediction-du-cercle-de-pierres-id]{title="Bless Stone Circle"} (Gwyrrd).
   Cela développe alors des effets étranges.
   Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
   De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.

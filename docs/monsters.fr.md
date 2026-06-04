@@ -3,7 +3,7 @@
 alias: monstres
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Monstres
 
 La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.  
@@ -11,10 +11,10 @@ La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.
 Elle avait l'ID 0, mais a l'ID (ii) depuis le tour 572. Pourquoi (ii) ? Si l'on convertit ii de la base 36 au système décimal, on obtient 666.  
 
 Il existe de nombreuses races de monstres avec des caractéristiques et des capacités différentes.  
-Les plus répandues sont les différents types de [Morts-Vivants], les [Dragons] et leur cortège.  
+Les plus répandues sont les différents types de [Morts-Vivants][morts-vivants-connus], les [Dragons][dragons-connus] et leur cortège.  
 
 Certains types de monstres sont plutôt rares, voire uniques.  
-D'autres, tels que les [Braineaters], ne se trouvent (presque) uniquement dans certaines régions.  
+D'autres, tels que les [Braineaters][mangeurs-de-cerveau], ne se trouvent (presque) uniquement dans certaines régions.  
 
 Dans certaines circonstances, les joueurs peuvent également posséder des unités de monstres (par exemple des squelettes).  
 
@@ -25,7 +25,7 @@ Ils éclosent d'œufs en tant que jeunes dragons, se transforment plus tard en d
 Des rumeurs courent selon lesquelles les dragons peuvent également atteindre Eressea depuis la Sphère du Chaos.  
 
 Les dragons sont particulièrement désagréables car ils chassent et mangent les agriculteurs.  
-Souvent, les agriculteurs ainsi tués reviennent plus tard sous forme de [Morts-Vivants].  
+Souvent, les agriculteurs ainsi tués reviennent plus tard sous forme de [Morts-Vivants][morts-vivants-connus].  
 
 Les dragons peuvent acquérir différentes compétences et devenir ainsi encore plus dangereux.  
 
@@ -43,15 +43,19 @@ Il existe différents types de dragons, référencés ci-dessous.
 
 ### Jeunes Dragons
 
-Les **Jeunes Dragons** évoluent en [Dragons adultes].
+Les **jeunes Dragons** évoluent en [Dragons adultes][dragons-fr-id].
+
+[](){ #dragons-fr-id }
 
 ### Dragons
 
-Les **Dragons adultes** évoluent en [Wyrms].
+Les **Dragons adultes** évoluent en [Wyrms][wyrms-fr-id].
+
+[](){ #wyrms-fr-id }
 
 ### Wyrms
 
-Voir [Igjarjuk].
+Voir [Igjarjuk][igjarjuk-fr-id].
 
 ### Cerfs-volants chantants
 
@@ -65,6 +69,8 @@ Les dragons sont des parents éloignés des serpents de mer.
 Ceux-ci rendent les océans périlleux et tendent des embuscades aux bateaux de passage.  
 Cependant, les bateaux devraient les laisser partir en toute tranquillité.  
 
+[](){ #ents-fr-id }
+
 ## Ents
 
 Les Ents sont de puissantes créatures à l'apparence d'arbres.  
@@ -73,6 +79,8 @@ Il peut être parfois bon de les éviter, car généralement ils s'apaisent au b
 !!! info "Information"
     Les Ent peuvent être invoqués par les druides **[Gwyrrd][gwyrrd]**.  
     Ils surgissent aussi parfois lorsque les sorts invoqués tournent mal.  
+
+[](){ #igjarjuk-fr-id }
 
 ## Igjarjuk
 
@@ -134,7 +142,7 @@ Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de 
 
 Les Morts-Vivants constituent la plus grande partie des monstres.  
 
-Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [dragons]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
+Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [Dragons][dragons-connus]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
 Les Morts-Vivants peuvent acquérir diverses [[competences]], ce qui les rend plus dangereux.  
 
 Ils peuvent également muter, ce qui les rend nettement plus forts.  
@@ -181,11 +189,5 @@ Les Zombies peuvent muter en [Juju Zombies].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
 
-[dragons adultes]: #dragons
-[dragons]: #dragons-connus
-[Morts-Vivants]: #morts-vivants-connus
-[Braineaters]: #mangeurs-de-cerveau
-[Wyrms]: #wyrms
-[Igjarjuk]: #igjarjuk
 [Seigneurs Squelettes]: #seigneurs-squelettes
 [Juju Zombies]: #juju-zombies

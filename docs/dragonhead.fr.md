@@ -6,7 +6,7 @@ alias: tete-de-dragon
 <!-- markdownlint-disable MD052 -->
 # Tête de Dragon
 
-Une tête de dragon peut être obtenue lorsqu'un [dragon][dragons] est tué.
+Une tête de dragon peut être obtenue lorsqu'un [dragon][dragons-fr-id] est tué.
 
 Les sorts de magie suivants en ont besoin pour être lancés :
 

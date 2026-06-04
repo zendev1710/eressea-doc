@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-make
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # MAKE
 
 **`MAKE`**`[`*`amount`*`]`*`item`*  
@@ -28,7 +30,7 @@ Details can be found in the [[alchemy|Alchemy chapter]].
 
 ### Herbs
 
-Herbs are produced with the `MAKE HERBS` order by units with the [herbalism] skill. For details, see the chapter on [[herbs]].
+Herbs are produced with the `MAKE HERBS` order by units with the [herbalism][herbalism] skill. For details, see the chapter on [[herbs]].
 
 ## Units
 
@@ -61,7 +63,7 @@ However, the new unit must still have members, otherwise it will be silently del
 It must therefore recruit or be given people.  
 If the new unit is to recruit new members, it must also receive enough money to do so.  
 If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week.  
-If the unit receives money but does not recruit any members, it is also disbanded and the money falls to [other units of their own faction].  
+If the unit receives money but does not recruit any members, it is also disbanded and the money falls to [other units of their own faction][dissolving-units].  
 
 ```text
 UNIT 17;    Fighters [15,700$]
@@ -105,8 +107,8 @@ With buildings as well as ships you can specify with *levels* how many size poin
 ## Roads
 
 To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*.  
-To build [[roads]], the unit needs the skill [roadwork] and [[items|stones]].  
-In glaciers, it needs a [tunnel] beforehand, in deserts a [caravanserai] and in swamps a [dam].  
+To build [[roads]], the unit needs the skill [roadwork][roadwork] and [[items|stones]].  
+In glaciers, it needs a [tunnel][tunnel-id] beforehand, in deserts a [caravanserai][caravanserai] and in swamps a [dam][dam].  
 One stone is used per skill point of road construction.
 Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]].  
 Roads only work if they are complete.
@@ -144,10 +146,3 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
 - [[alchemy|Alchemy]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->
-
-[herbalism]: ./skills-list.md#herbalism
-[other units of their own faction]: ./factions.md#dissolving-units
-[roadwork]: ./skills-list.md#roadwork
-[tunnel]: ./buildings-others.md#tunnel
-[caravanserai]: ./buildings-others.md#caravanserai
-[dam]: ./buildings-others.md#dam

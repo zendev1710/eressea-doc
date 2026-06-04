@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: familiars
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Familiars
 
 Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.  
@@ -44,10 +46,10 @@ Features of an Eagle.
 
 ### Demon
 
-[Demons] are cruel and unpredictable.
+[Demons][demons-id] are cruel and unpredictable.
 They eat the farmers in the area and always surprise people with new abilities or their loss.  
 
-Features of a Demon: see [races skills modifiers].
+Features of a Demon: see [races skills modifiers][racial-skill-modifiers].
 
 ### Dolphin
 
@@ -134,9 +136,9 @@ Features of a Ghost.
 
 ### Goblin
 
-[Goblins] are cowardly and devious, preferring to hide rather than take action.  
+[Goblins][goblins-id] are cowardly and devious, preferring to hide rather than take action.  
 
-Features of a Goblin: see [races skills modifiers].
+Features of a Goblin: see [races skills modifiers][racial-skill-modifiers].
 
 ### Hellcat
 
@@ -459,7 +461,3 @@ An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the mo
 However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
-
-[Demons]: ./races.md#demons
-[Goblins]: ./races.md#goblins
-[races skills modifiers]: ./skills-modifiers.md#racial-skill-modifiers

@@ -90,6 +90,8 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 *Mallorn spear (EN), Mallornspeer (DE)*.
 <!-- cspell:enable -->
 
+[](){ #lance-fr-id }
+
 ### Lance
 
 <!-- cspell:disable -->
@@ -184,10 +186,10 @@ Elles atteignent **6** cibles.
 [^3]: [arme d'hast]
 [^4]: particularités selon la race :
 
-- Les [gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
-- Les [trolls][trolls-fr-id]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
-- Les [orcs][orcs]{title="Orcs"} combattent avec leur meilleure compétence de mêlée à -3;
-- Les [chats][chats]{title="Cats"} bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
+- Les [Gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
+- Les [Trolls][trolls-fr-id]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
+- Les [Orcs][orcs-fr-id]{title="Orcs"} combattent avec leur meilleure compétence de mêlée à -3;
+- Les [Chats][chats]{title="Cats"} bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
 - Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence *Combat à mains nues* et ne subissent alors aucun malus lorsqu'elles combattent sans arme
 
 !!! info
@@ -286,10 +288,14 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 <!-- cspell:enable -->
 
 ### Armure en adamantium
-<!-- TODO: check: or adamantium platemail ? -->
+
 <!-- cspell:disable -->
-*Adamantium armor (EN), Adamantiumrüstung (DE)*.
+*Adamantium plate (EN), Adamantiumrüstung (DE)*.
 <!-- cspell:enable -->
+
+Armure [fabriquée][fabrication-darmures]{title="Armoursmithing"} à partir d'[adamantium][adamantium-fr-id].  
+
+Cette armure offre la **meilleure** [protection][armures]{title="Armours"}.
 
 ### Bouclier
 
@@ -329,17 +335,17 @@ Si le combattant porte une cotte de mailles et utilise un bouclier, la probabili
 
 ## Armures - Synthèse
 
-| Armure                      | Protection | Chance de frapper |
-|-----------------------------|:----------:|------------------:|
-| [bouclier]                  |     1      |              85 % |
-| [bouclier rouillé]          |     1      |             100 % |
-| [bouclier en laen]          |     2      |              75 % |
-| [cotte de mailles rouillée] |     2      |             130 % |
-| [cotte de mailles]          |     3      |             115 % |
-| [armure de plaque rouillée] |     3      |             145 % |
-| [armure de plaque]          |     5      |             130 % |
-| [cotte de mailles en laen]  |     6      |                 - |
-| [armure en adamantium]      |     7      |             110 % |
+| Armure                                                                 | Protection | Chance de frapper |
+|------------------------------------------------------------------------|:----------:|------------------:|
+| [bouclier]                                                             |     1      |              85 % |
+| [bouclier rouillé]                                                     |     1      |             100 % |
+| [bouclier en laen]                                                     |     2      |              75 % |
+| [cotte de mailles rouillée]                                            |     2      |             130 % |
+| [cotte de mailles]                                                     |     3      |             115 % |
+| [armure de plaque rouillée]                                            |     3      |             145 % |
+| [armure de plaque]                                                     |     5      |             130 % |
+| [cotte de mailles en laen]                                             |     6      |                 - |
+| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"} |     7      |             110 % |
 
 ## Races et leurs caractéristiques
 
@@ -396,7 +402,6 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 [cotte de mailles rouillée]: #cotte-de-mailles-rouillee "Rusty Chainmail"
 [arme d'hast]: #armes-dhast
 [armure de plaque]: #armure-de-plaque "Platemail"
-[armure en adamantium]: #armure-en-adamantium "Adamantium armor"
 [bouclier en laen]: #bouclier-en-laen "Laen shield"
 [bouclier]: #bouclier "Shield"
 [cotte de mailles en laen]: #cotte-de-mailles-en-laen "Laen chainmail"

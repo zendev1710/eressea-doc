@@ -12,7 +12,21 @@ The necessary skill can be looked up in the section about [[items|goods]].
 
 ## Raw materials
 
+[](){ #adamantium-id }
+
 ### Adamantium
+
+Player experience:
+
+Adamantium is even rarer than [laen][laen-id]!  
+
+There's barely one Adamantium per round, assuming there is any Adamantium in the region at all.
+
+#### Externe links
+
+- [Adamantium on Wikipedia]
+
+<!-- From [https://wiki.eressea.de/index.php?title=Adamantium&oldid=6241] -->
 
 ### Ammunition
 
@@ -110,3 +124,5 @@ See the [list of herbs][list-of-herbs].
 Continue reading: [[items|Goods]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
+
+[Adamantium on Wikipedia]: http://en.wikipedia.org/wiki/Adamantium

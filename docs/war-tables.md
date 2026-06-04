@@ -14,11 +14,15 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Axe
 
+[](){ #bow-id }
+
 ### Bow
 
 ### Catapult
 
 ### Claymore
+
+[](){ #crossbow-id }
 
 ### Crossbow
 
@@ -29,6 +33,8 @@ This page lists combat-relevant properties of weapons, armor, and races.
 ### Halberd
 
 ### Laen sword
+
+[](){ #lance-id }
 
 ### Lance
 
@@ -85,9 +91,9 @@ This page lists combat-relevant properties of weapons, armor, and races.
 [^2]: crossbows only fire in the 1st and 4th rounds. A crossbow hit halves the opponent's armor protection.
 [^3]: specific features depending on the race:
 
-- [Goblins][goblins] do not have the -2 penalty to defense when unarmed
-- [Trolls][trolls] deal more damage unarmed but cannot fight on horseback
-- [Orcs][orcs] fight with their best Melee skill at -3
+- [Goblins][goblins-id] do not have the -2 penalty to defense when unarmed
+- [Trolls][trolls-id] deal more damage unarmed but cannot fight on horseback
+- [Orcs][orcs-id] fight with their best Melee skill at -3
 - [Cats][cats] receive their usual bonus, so they have -1 to Defense when unarmed
 - Some races (generally only monsters and familiars) can learn the *Unarmed combat* skill and then have no penalty when fighting without a weapon
 
@@ -153,9 +159,7 @@ A unit can be in one of the following health status:
 
 ## Armors
 
-### Adamantium armor
-
-<!-- TODO: check: or adamantium platemail ? -->
+### Adamantium plate
 
 ### Chainmail
 
@@ -185,7 +189,7 @@ A unit can be in one of the following health status:
 | Rusty platemail  |     3      |          145% |
 | Platemail        |     5      |          130% |
 | Laen chainmail   |     6      |            -- |
-| Adamantium armor |     7      |          110% |
+| Adamantium plate |     7      |          110% |
 
 Only one suit of armor can be used at a time.
 Multiple suits of armor do not provide multiple levels of protection.

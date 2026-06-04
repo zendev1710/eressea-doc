@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: alliances
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Alliances
 
 Alliances form the backbone of the world, be it in war, trade or just peaceful cooperation.
@@ -28,16 +30,16 @@ Your own combat-ready units (except those with `COMBAT FLEE` or `COMBAT NOT`) wi
 
 ## `HELP SILVER`
 
-Help the allied faction [supporting] their units if you have silver left after paying for your own support.
+Help the allied faction [supporting][upkeep-costs] their units if you have silver left after paying for your own support.
 If the units of the allied faction do not have enough silver to feed themselves, your units will give them silver.
 No HELP GIVE is required by the receiving faction for this kind of transfer.
 
 ## `HELP GUARD`
 
-Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit], or [[resources|produce]] finite resources and sometimes other units are prevented from [[cmd-guard|traveling through]] your region.
+Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit][recruiting], or [[resources|produce]] finite resources and sometimes other units are prevented from [[cmd-guard|traveling through]] your region.
 If this help status is set, units of the other factions are allowed to do all that, so they can travel, mine, or recruit freely.
 
-Additionally, allied factions are allowed long orders [after battles] if you guard the region.
+Additionally, allied factions are allowed long orders [after battles][the-end] if you guard the region.
 
 Finally, the other faction's units are allowed to [[cmd-enter|enter]] your buildings and ships.
 
@@ -58,7 +60,3 @@ this covers all the above areas in one order.
 Continue reading: [[magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
-
-[supporting]: ./silver.md#upkeep-costs
-[recruit]: ./silver.md#recruiting
-[after battles]: ./war.md#the-end

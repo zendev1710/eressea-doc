@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-sort
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # SORT
 
 **`SORT`**` BEFORE `*`unit-id`*  
@@ -11,7 +13,7 @@ This order modifies the order of your units **in the report** and the [[orders|o
 This allows, for example, the display of *students* (units executing the `LEARN` order) and *teachers* (units executing the `TEACH` order) one below the other.  
 
 !!! info
-    The sorting order of units [has an impact] in case of famine
+    The sorting order of units [has an impact][escaping-death-by-starvation] in case of famine
 
 The following limitations apply:
 
@@ -22,5 +24,3 @@ The following limitations apply:
 
 Sorting takes place at the very end of the round, after movement.  
 Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.  
-
-[has an impact]: ./tips-and-tricks.md#escaping-death-by-starvation

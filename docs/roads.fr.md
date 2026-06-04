@@ -42,9 +42,9 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 
 | Terrain                                        | Pierres | Bâtiment                        |
 |------------------------------------------------|--------:|---------------------------------|
-| [Désert][desert]{title="Desert"}               |     100 | [Caravansérail][caravanserail]  |
+| [Désert][desert-fr-id]{title="Desert"}         |     100 | [Caravansérail][caravanserail]  |
 | [Forêt][foret]{title="Forest"}                 |      50 | --                              |
-| [Glacier][glacier]{title="Glacier"}            |     250 | [Tunnel][tunnel]                |
+| [Glacier][glacier-fr-id]{title="Glacier"}      |     250 | [Tunnel][tunnel]                |
 | [Haut-plateau][haut-plateau]{title="Highland"} |     100 | --                              |
 | [Marais][marais]{title="Swamp"}                |      75 | [Barrage][barrage]{title="Dam"} |
 | [Montagne][montagne]{title="Mountain"}         |     250 | --                              |

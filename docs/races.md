@@ -56,7 +56,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and [ships] to others. Weaponry is not one of their strengths.
 
 - Halflings who try to [flee][fleeing] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [[cmd-combat|`COMBAT FLEE`]]).
-- Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against [dragons].
+- Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against [Dragons][known-dragons].
 - Always Hungry : Halflings suffer more damage from starvation than other races (between 8 and 17 hit points (1d10+7)).
 
 ## Insects
@@ -70,7 +70,7 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 - Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can produce a [potion] of "nest warmth" that makes recruitment in other terrains possible.
 - Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
 - Tacticians: Insects get a bonus on the [tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
-- Nomad Traders: Insects can [trade][silver-trade-id ] in deserts and swamps without needing castles.
+- Nomad Traders: Insects can [trade][silver-trade-id  in deserts and swamps without needing castles.
 
 ## Cats
 
@@ -117,6 +117,8 @@ If you have to many migrants, for example after a battle, they are not removed, 
         <button id="races-compute-migrants-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Compute</button>
         <p style="margin-top: 1em;">Number of migrants: <strong id="races-compute-migrants-result">---</strong></p>
     </div>
+
+[](){ #orcs-id }
 
 ## Orcs
 
@@ -171,5 +173,3 @@ Continue reading: [Racial skill modifiers].
 [long orders]: ./commands.md
 [expensive skills]: ./skills.md
 [heroes]: ./cmd-promote.md
-
-[dragons]: ./monsters.md#dragons

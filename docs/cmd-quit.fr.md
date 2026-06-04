@@ -18,7 +18,7 @@ Seuls ceux qui ont reçu un [[cmd-help|`HELP SILVER`]] sont considérés comme d
 La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
 Les objets vont à la première unité de la faction dans la région.  
 S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  
-Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs][orcs], [Démons][demons] et [Monstres][monstres]).  
+Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs][orcs-fr-id], [Démons][demons] et [Monstres][monstres]).  
 
 **`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 

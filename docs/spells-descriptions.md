@@ -3,7 +3,7 @@
 alias: description-of-spells
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Description of spells
 
 ## A
@@ -480,6 +480,8 @@ And if you have done everything to please them, they will send one of their own 
 
 `CAST "Create A Ring of Power"`  
 
+[](){ #create-a-ring-of-invisibility-id }
+
 ### Create a [[ring-of-invisibility]]
 
 :   With this spell the wizard can create a ring of invisibility.  
@@ -516,6 +518,8 @@ And if you have done everything to please them, they will send one of their own 
 
 `CAST "Create a Visioneye"`  
 
+[](){ #create-an-amulet-of-true-sight-id }
+
 ### Create an [[amulet-of-true-sight]]
 
 :   The spell allows a magician to create an [[amulet-of-true-sight]].  
@@ -527,6 +531,8 @@ And if you have done everything to please them, they will send one of their own 
 | \*[^1] | 50 aura, 3000 silver, 1 permanent aura |   6 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
+
+[](){ #create-an-antimagic-crystal-id }
 
 ### Create an [[antimagic-crystal|Antimagic Crystal]]
 
@@ -626,7 +632,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Dragon Call
 
-:   With this dark ritual, the magician creates a lure that smells irresistible to [Dragons][dragons].  
+:   With this dark ritual, the magician creates a lure that smells irresistible to [Dragons][known-dragons].  
     It has not yet been possible to research whether the dragons come from the surrounding area or from the sphere of chaos.  
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.

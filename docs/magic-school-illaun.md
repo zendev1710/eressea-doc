@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: illaun-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Illaun spells
 
 ## Level 1
@@ -301,15 +303,27 @@ alias: illaun-spells
 
 ## Level 14
 
-### Create a [[flaming-sword]]
+[](){ #i-create-a-visioneye-id }
 
-:   "And so rub the blood of a fierce fighter into the steel of the blade and begin the invocation of the Spheres of Chaos.  
-    And if you have done everything to please them, they will send one of their own to imbue the sword with his power..."
+### Create a Visioneye
 
-|                         Components                          | Lvl |  Type  | Rank |             Ship             | Dist. |
-|:-----------------------------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
-| 100 aura, 1 [berserkers blood], 1 [sword], 1 permanent aura | 12  | Normal |  5   | :material-check:{ .success } |       |
+<!-- cspell:disable -->
+*Create a Visioneye (EN), Erschaffe ein Traumauge (DE)*.
+<!-- cspell:enable -->
 
-`CAST "Create A Flaming Sword"`  
+:   A dragon"s eye cast with this spell and consumed at communion allows the user to enter and read another person"s dreams.  
+    For a long time, such an ability was considered useless until the former Wood Elf master of battle magic, Liarana Sundew from the Thall Academy, presented a special application: Generals often dream restlessly before major battles and reveal their plans in dreams.  
+    This can give the user a huge advantage in the upcoming battle.  
+    But be careful: interpreting dreams is a difficult matter.
+
+| Sc. | Components                                   | Lvl |   Type | Rank | Ship                         | Dist. |
+|:---:|----------------------------------------------|----:|-------:|:----:|:-----------------------------|:------|
+|  I  | 1 [dragonhead][dragonhead], 5 permanent aura |  14 | Normal |  5   | :material-check:{ .success } |       |
+
+|             Composants              | Niv. |  Type  | Rang |              B               | D |
+|:-----------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 1 [[dragonhead]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |   |
+
+`CAST "Create a Visioneye"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->

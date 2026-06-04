@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-leave
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LEAVE
 
 **`LEAVE`**  
@@ -22,8 +24,6 @@ For more information, see [[cmd-guard]].
 
 The `LEAVE` order does not work on the open sea.
 One way to still let people jump overboard is `GIVE 0 [number] MEN`.  
-Another **Aquarian-only** solution that doesn't kill people is [swimming].
+Another **Aquarian-only** solution that doesn't kill people is [swimming][swimming].
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
-
-[swimming]: ./sailing.md#swimming

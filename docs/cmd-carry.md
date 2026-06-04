@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: cmd-carry
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # CARRY
 
-*`RIDE` is a [[orders#short-and-long-orders|long order]].*  
+*`RIDE` is a [ong order][short-and-long-orders].*  
 *`CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.*  
 
 **`RIDE <unit-id>`**  
@@ -34,8 +36,8 @@ PARTEI 300:
 
 Restrictive rules:
 
-- [Aquarians] cannot transport other races when [swimming], nor can they take horses or chariots with them
-- [Insects] can also be transported by means of `CARRY`, but cannot be brought into or through a glacier
+- [Aquarians][aquarians] cannot transport other races when [swimming][swimming], nor can they take horses or chariots with them
+- [Insects][insects] can also be transported by means of `CARRY`, but cannot be brought into or through a glacier
 
 ## See also
 
@@ -44,7 +46,3 @@ Restrictive rules:
 - [[cmd-route]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
-
-[Aquarians]: ./races.md#aquarians
-[swimming]: ./sailing.md#swimming
-[Insects]: ./races.md#insects

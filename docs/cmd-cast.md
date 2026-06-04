@@ -2,16 +2,18 @@
 # cSpell:locale en
 alias: cmd-cast
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # CAST
 
-*[[orders#short-and-long-orders|Short order]][^1].*  
+*[Short order][short-and-long-orders][^1].*  
 
 **`CAST`**` [REGION `*`x`*` `*`y`*`] [LEVEL`*`nr`*`] "`*`Spell`*`" [`*`parameter`*`] ...`
 
 With this order, a mage unit will attempt to cast the named spell.  
 
 Please note that the REGION and LEVEL modifiers do not apply to every spell.
-REGION can only be used with [ranged spells], and LEVEL only makes sense with variable [cost] spells.
+REGION can only be used with [ranged spells][ranged-spells], and LEVEL only makes sense with variable [cost][components] spells.
 
 !!! note
     Some spells have additional parameters.
@@ -26,6 +28,3 @@ However, this can lead to bigger battles!
 [^1]: although `CAST` is not a long order, it excludes other long orders. But you can cast other spells.
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
-
-[ranged spells]: ./magic.md#ranged-spells
-[cost]: ./magic.md#components

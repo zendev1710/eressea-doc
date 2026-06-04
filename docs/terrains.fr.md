@@ -3,10 +3,12 @@
 alias: types-de-terrain
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Types de terrain
 
 <!-- TODO reorganize info. Some are partially duplicated in world.md -->
+
+[](){ #desert-fr-id }
 
 ## Désert
 
@@ -19,7 +21,7 @@ Dans ce milieu hostile, les déplacements et le commerce sont par nature limité
 Pour y construire des [[routes|routes]] et ainsi faciliter les déplacements, un [caravansérail][caravanserail]{title="Caravanserai"} doit y être au préalable érigé et fonctionnel.  
 Un caravansérail permet également d'y doubler le volume de commerce.  
 
-Les plantes qui poussent dans le désert sont le [tamaris][tamaris]{title="Waterfinder"}, le [peyote][peyote]{title="Peyote"}, et la [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}.  
+Les plantes qui poussent dans le désert sont le [tamaris][tamaris]{title="Waterfinder"}, le [peyote][peyote-fr-id]{title="Peyote"}, et la [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}.  
 
 ## Forêt
 
@@ -29,6 +31,8 @@ Les plantes qui poussent dans le désert sont le [tamaris][tamaris]{title="Water
 
 Les plantes qui poussent dans les forêts sont l'[amour d'Elfes][amour-delfes]{title="Elvendear"}, le [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, l'[œil de chouette][il-de-chouette]{title="Owlsgaze"}, le [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, la [racine plate][racine-plate]{title="Flatroot"} et la [témérité piquante][temerite-piquante]{title="Tangy temerity"}.  
 Ces mêmes plantes poussent dans les plaines.  
+
+[](){ #glacier-fr-id }
 
 ## Glacier
 
@@ -84,8 +88,8 @@ Ces mêmes plantes poussent dans les forêts.
 
 | Terrain                                        | max. travailleurs | min. travailleurs [^1] | max. arbres | Pierres pour routes |
 |------------------------------------------------|------------------:|-----------------------:|------------:|--------------------:|
-| [Glacier][glacier]{title="Glacier"}            |               100 |                     10 |          13 |                 250 |
-| [Désert][desert]{title="Desert"}               |               500 |                     50 |          63 |                 100 |
+| [Glacier][glacier-fr-id]{title="Glacier"}      |               100 |                     10 |          13 |                 250 |
+| [Désert][desert-fr-id]{title="Desert"}         |               500 |                     50 |          63 |                 100 |
 | [Volcan][volcan]{title="Volcano"}              |               500 |                     50 |          63 |                 250 |
 | [Montagne][montagne]{title="Mountain"}         |             1 000 |                    100 |         125 |                 250 |
 | [Marais][marais]{title="Swamp"}                |             2 000 |                    200 |         250 |                  75 |

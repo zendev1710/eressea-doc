@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: reisen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Reisen
 
 In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln. Einige wenige können sogar schwimmen oder fliegen. Für alle Varianten wird der Befehl [[bef-nach]] oder [[bef-route]] benutzt.
@@ -22,19 +24,19 @@ TODO: Katapulte
 
 Gewichte und Kapazitäten
 
-|                            | Gewicht | Kapazität |
-|----------------------------|--------:|----------:|
-| Trolle                     |      20 |      10,8 |
-| Goblins                    |       6 |       4,4 |
-| alle anderen Spielerrassen |      10 |       5,4 |
-| Pferd                      |      50 |        20 |
-| Wagen                      |      40 |       100 |
-| Boot                       |      -- |        50 |
-| Langboot                   |      -- |       500 |
-| Drachenschiff              |      -- |      1000 |
-| Karavelle                  |      -- |      3000 |
-| Trireme                    |      -- |      2000 |
-| Galeone                    |      -- |     20000 |
+|                                | Gewicht | Kapazität |
+|--------------------------------|--------:|----------:|
+| Trolle                         |      20 |      10,8 |
+| Goblins                        |       6 |       4,4 |
+| alle anderen Spielerrassen     |      10 |       5,4 |
+| Pferd                          |      50 |        20 |
+| Wagen                          |      40 |       100 |
+| [Boot][boot]                   |      -- |        50 |
+| [Langboot][langboot]           |      -- |       500 |
+| [Drachenschiff][drachenschiff] |      -- |      1000 |
+| [Karavelle][karavelle]         |      -- |      3000 |
+| [Trireme][trireme-de-id]       |      -- |      2000 |
+| [Galeone][galeone]             |      -- |     20000 |
 
 ## Straßen
 

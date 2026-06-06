@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: development
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Development
 
 This page is intended to bring developers of different tools or script developers together or to address questions that arise again and again.
@@ -44,7 +46,7 @@ Of course, links to (tool-specific) script collections are also helpful.
 - [[auto-trading]]
 - [[auto-transport]]
 - [[auto-learning-chains]]
-- [[production]]
+- [Production][production-id]
 - [[auto-way-finding]]
 - [[auto-event-response]]
 

@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: liste-des-competences
 ---
-<!-- disable MD051 due to a linter bug about links with special characters -->
+<!-- disable some rules due to of autorefs plugin usage -->
 <!-- markdownlint-disable MD042 MD051 MD052 -->
 # Liste des compétences
 
@@ -54,7 +54,7 @@ L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [[
 
 Cette compétence permet de se battre avec une [[tableaux-relatifs-a-la-guerre#armes-dhast|arme d'hast]].  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 ## Combat à mains nues
 
@@ -98,7 +98,7 @@ Une pierre peut être posée par personne, par niveau de compétence et par tour
 *Shipcraft (EN), Schiffbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de construire et de réparer un [[bateaux|bateau]] en [[ressources#bois|bois]].
+Cette compétence permet de construire et de réparer un [nateau][bateaux-id] en [[ressources#bois|bois]].
 
 [](){ #skill-discretion-id }
 
@@ -129,6 +129,8 @@ Capacité à divertir la population.
 
 Si les paysans ont suffisamment d'argent, il est possible de gagner 20 Silver par personne, par niveau de compétence et par tour.
 
+[](){ #skill-endurance-fr-id }
+
 ## Endurance
 
 <!-- cspell:disable -->
@@ -137,7 +139,7 @@ Si les paysans ont suffisamment d'argent, il est possible de gagner 20 Silver pa
 
 Cette capacité permet à une unité d'encaisser plus de points de dégâts au combat et de mieux résister à la [[argent#famine|famine]]{title="Starvation"}.  
 
-En pratique, une unité [[tableaux-relatifs-a-la-guerre#endurance|bénéficie d'un bonus de PV]], dont la valeur est fonction de son **niveau en endurance** et de **sa race**.  
+En pratique, une unité [bénéficie d'un bonus de PV][table-endurance-fr-id], dont la valeur est fonction de son **niveau en endurance** et de **sa race**.  
 
 ## Équitation
 
@@ -156,6 +158,8 @@ Par personne et par niveau de compétence, il est possible :
 
 - de mener `(4 X Niveau) + 1` chevaux sur une région (sur 2 régions avec une route praticable)
 - de monter `2 X Niveau` chevaux sur 2 régions (sur 3 régions avec une route praticable)
+
+[](){ #skill-espionnage-id }
 
 ## Espionnage
 
@@ -194,8 +198,8 @@ On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
 Pour la prospection, on ne voit pas plus que la couche (niveau en extraction minière X 2). Si la couche est plus profonde on ne verra rien.
 
 !!! note
-    L'extraction de [laen][laen-fr-id]{title="Laen"} nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.  
-    L'extraction d'[adamantium][adamantium-fr-id] nécessite une [mine][mine]{title="Mine"} et une compétence de **niveau 7**.
+    L'extraction de [laen][laen-fr-id]{title="Laen"} nécessite une [mine][mine-fr-id]{title="Mine"} et une compétence de **niveau 7**.  
+    L'extraction d'[adamantium][adamantium-fr-id] nécessite une [mine][mine-fr-id]{title="Mine"} et une compétence de **niveau 7**.
 
 ## Fabrication d'armes
 
@@ -236,7 +240,7 @@ Permet de récolter des [[plantes]] pour concocter des [[alchimie|potions]].
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
-À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]] et [[cmd-make|`MAKE SEEDS`]] (voir [[production]]) et [[cmd-plant]].  
+À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]] et [[cmd-make|`MAKE SEEDS`]] (voir [Production][production-fr-id]) et [[cmd-plant]].  
 Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 ## [[magie]]
@@ -256,6 +260,7 @@ L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tou
 <!-- cspell:enable -->
 
 Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
+[](){ #skill-melee-fr-id }
 
 ## Mêlée
 
@@ -265,7 +270,7 @@ Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
 
 Capacité à se battre avec une arme de mêlée (sword, claymore, axe, laensword).  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 [](){ #skill-perception-fr-id }
 
@@ -304,6 +309,8 @@ L'apprentissage de la tactique coûte 200 silver par tour et par personne.
 
 !!! warning "Important"
     Un expert tacticien peut modifier le cours et l'issue d’une bataille.  
+
+[](){ #skill-taxation-fr-id }
 
 ## Taxation
 
@@ -356,5 +363,4 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
-[taxation]: #taxation
 [combat à mains nues]: #combat-a-mains-nues

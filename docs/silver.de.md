@@ -31,6 +31,8 @@ Jede Person der Spieler und jeder Bauer benötigen jede Runde 10 Silber, um sich
 
 Auch einige Gebäude brauchen wöchentliche Unterhaltskosten, um zu funktionieren. Diese Unterhaltskosten fallen schon am Rundenanfang an, müssen also bereits in der Vorrunde eingenommen werden und sind fällig, sobald das Gebäude begonnen wurde (also auch bei halbfertigen Gebäuden). Steht nicht genug Geld zur Verfügung, kann die Funktion des Gebäudes nicht benutzt werden. Näheres im Kapitel über [Gebäude] nachzulesen.
 
+[](){ #hunger-de-id }
+
 ## Hunger
 
 ### Hunger bei Spieler-Einheiten

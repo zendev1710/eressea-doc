@@ -223,7 +223,7 @@ Some creatures or weapons are also able to cause magical damage.
 Normal armor is ineffective against magical damage.  
 Only the [Magic Resistance][war-tables-magic-resistance-id] counts, which can be increased by specific items and spells.
 
-There's also the Endurance skill, which allows you to harden your body and take more damage before dying (see [this table][table-endurance-id]).
+[Endurance][skill-endurance-id] skill allows you to harden your body and take more damage before dying (see [this table][table-endurance-id]).
 
 ### Ranged combat
 

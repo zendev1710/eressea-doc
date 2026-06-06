@@ -118,7 +118,7 @@ Construction de châteaux : type, niveau minimum de compétence en maçonnerie, 
 ## Voir aussi
 
 - [[batiments-speciaux]]
-- [[batiments]]
+- [Bâtiments][batiments-id]
 - [bonus et malus][bonus-et-malus]
 - [revenus][revenus]
 

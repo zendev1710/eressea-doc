@@ -376,7 +376,7 @@ This earthquake will damage all buildings in the region.
 
 ## Level 10
 
-### Awakening of the [Ents]
+### Awakening of the [Ents][ents-id]
 
 :   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.

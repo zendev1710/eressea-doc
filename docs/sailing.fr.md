@@ -6,7 +6,7 @@ alias: naviguer
 <!-- markdownlint-disable MD052 -->
 # Naviguer
 
-Seuls les [[bateaux]] permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.  
+Seuls les [bateaux][bateaux-id] permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.  
 Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec des capitaines aquariens ou de la magie.  
 
 Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.  
@@ -20,7 +20,7 @@ Un bateau venant de l'est (le rapport indique alors "côte est") peut donc parti
 Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [[cmd-help]]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
 
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.  
-Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow]] ou [piraterie][piraterie].  
+Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow]] ou [piraterie][piraterie-fr-id].  
 
 Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.  
 Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
@@ -68,7 +68,7 @@ Les capacités des bateaux sont indiquées dans le tableau ci-dessus et sont tou
 Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différentes races, dans le tableau [[deplacements|Poids et Capacités]].  
 
 Il est possible de regrouper plusieurs bateaux en [convoi][convoi].  
-Les détails à ce sujet sont décrits dans le chapitre sur les [[bateaux]].  
+Les détails à ce sujet sont décrits dans le chapitre sur les [bateaux][bateaux-id].  
 
 Les unités qui se trouvent à bord d'un bateau ne sont peuvent exécuter d'ordres longs (à l'exception des aquariens).  
 Seul le capitaine d'un bateau peut donner des ordres de [[cmd-move]] ou [[cmd-route]] pour faire naviguer le bateau.  
@@ -134,7 +134,7 @@ Les bateaux voyagent le long des côtes ou en pleine mer.
 - [[deplacements]]
 - [[bateaux]]
 
-Poursuivre la lecture : [[production]].
+Poursuivre la lecture : [production][production-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
 

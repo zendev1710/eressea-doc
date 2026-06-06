@@ -86,7 +86,7 @@ Les plus grands [[chateaux]] donnent un petit bonus de salaire dans la région, 
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
 Le type de terrain détermine également quelles [[plantes]] peuvent pousser dans la région.  
-Un alchimiste pourra concocter des [potions][potions] utiles à partir de différents ingrédients.  
+Un alchimiste pourra concocter des [potions][potions-fr-id] utiles à partir de différents ingrédients.  
 Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là.  
 Les herbes qui y poussent ne peuvent toutefois pas être modifiées.  
 Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]].  
@@ -117,7 +117,7 @@ Outre le fer et les pierres, il y a aussi le laen, un métal nettement plus rare
 Si une montagne, un glacier ou un volcan abrite du laen, on en trouve à partir de la profondeur d'extraction 7.  
 Dans d'autres types de régions, on peut aussi avoir de la chance de trouver du laen, mais alors éventuellement seulement au niveau d'extraction 7 à 10.  
 Il faut donc un mineur de niveau 5 pour pouvoir exclure le laen dans chaque région.  
-Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [mine][mine]{title="Mine"} pour l'exploiter.  
+Si on a de la chance d'avoir trouvé une région avec du Laen, on a besoin d'une [mine][mine-fr-id]{title="Mine"} pour l'exploiter.  
 
 <div class="lore-dialogue">
 Selen regarda la jeune chatte Rahel, qui s'efforçait visiblement de mémoriser tous les chiffres et les dates.

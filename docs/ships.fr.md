@@ -3,7 +3,9 @@
 alias: bateaux
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #bateaux-id }
+
 # Bateaux
 
 Les bateaux sont construits avec l'ordre [[cmd-make|**`MAKE`**&#91;*`niveaux`*&#93;*`type de bateau`*]].  
@@ -66,6 +68,8 @@ Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent 
 <!-- cspell:disable -->
 *Caravel (EN), Karavelle (DE).*
 <!-- cspell:enable -->
+
+[](){ #trireme-fr-id }
 
 ### Trirème
 
@@ -171,7 +175,7 @@ GIVE 123 ALL MEN
 - [[deplacements]]
 - [[cmd-give]]
 
-Poursuivre la lecture : [[batiments]].
+Poursuivre la lecture : [bâtiments][batiments-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
 

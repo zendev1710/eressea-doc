@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: schiff
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Schiff
 
 Schiffe werden dem Befehl [**`MACHE`**&#91;*`stufen`*&#93;*`Schiffstyp`*][1] gebaut.  
@@ -41,6 +43,8 @@ Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachba
 
 ### Karavelle
 
+[](){ #trireme-de-id }
+
 ### Trireme
 
 ### Galeone
@@ -49,14 +53,14 @@ Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachba
 
 Schiffe - Reichweite, Kapazität, Talente
 
-| Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
-|---------------|:----------:|----------:|------------------:|----------:|--------:|
-| Boot          |     2      |        50 |               1/2 |         1 |       5 |
-| Langboot      |     3      |       500 |              1/10 |         1 |      50 |
-| Drachenschiff |   5[^1]    |      1000 |              2/50 |         2 |     100 |
-| Karavelle     |     5      |      3000 |              3/30 |         3 |     250 |
-| Trireme       |     7      |      2000 |             4/120 |         4 |     200 |
-| Galeone       |     5      |     20000 |         5/250[^2] |         5 |    2000 |
+| Typ                            | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+|--------------------------------|:----------:|----------:|------------------:|----------:|--------:|
+| [Boot][boot]                   |     2      |        50 |               1/2 |         1 |       5 |
+| [Langboot][langboot]           |     3      |       500 |              1/10 |         1 |      50 |
+| [Drachenschiff][drachenschiff] |   5[^1]    |      1000 |              2/50 |         2 |     100 |
+| [Karavelle][karavelle]         |     5      |      3000 |              3/30 |         3 |     250 |
+| [Trireme][trireme-de-id]       |     7      |      2000 |             4/120 |         4 |     200 |
+| [Galeone][galeone]             |     5      |     20000 |         5/250[^2] |         5 |    2000 |
 
 [^1]: Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
 [^2]: Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.
@@ -66,6 +70,8 @@ Drachenschiffgeschwindigkeit
 | Kapitän    | 2 | 6 | 18 | 54 | 162 |
 |------------|---|---|----|----|:---:|
 | Reichweite | 5 | 6 | 7  | 8  |  9  |
+
+[](){ #konvoi-id }
 
 ## Konvoi
 

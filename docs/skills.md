@@ -15,7 +15,13 @@ Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentat
 Certaines compétences s'améliorent également en les utilisant.
 Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
 Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN).
-Les compétences qui ne s'améliorent *pas* en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
+Les compétences qui *ne s'améliorent pas* en les exerçant sont les suivantes :
+
+- toutes les compétences d'armes
+- l'[endurance][skill-endurance-id]
+- perception
+- tactics
+- taxation
 
 Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
 Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
@@ -141,7 +147,7 @@ alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft
 
 Il s'agit du plus grand groupe de compétences.
 Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [[production]] et [[alchemy|alchemy]].
+Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [[alchemy|alchemy]].
 
 ### Skills for making money
 
@@ -164,7 +170,22 @@ riding est également abordé dans le chapitre des [[war-tables|combats]].
 
 ### Combat skills
 
-Les compétences de maniement des armes telles que crossbow, bow, melee, catapult, polearm et unarmed, ainsi que les compétences spéciales endurance, riding et tactics sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
+Les compétences de maniement des armes sont les suivantes :
+
+- [catapult][catapult]
+- [bow][bow]
+- [crossbow][crossbow]
+- [melee][melee]
+- [polearm][polearm]
+- [unarmed combat][unarmed-combat]
+  
+Les autres compétences essentielles au combat sont :
+
+- [endurance][skill-endurance-id]
+- [riding][riding]
+- [tactics][tactics]
+
+Toutes ces compétences sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
 
 Continue reading: [[skills-list]].
 

@@ -43,7 +43,7 @@ Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten ka
 
 Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [[bef-bewache]]). In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
 
-Schlussendlich kann eine Einheit durch einen [Kampf][Krieg] oder durch [Hunger][hunger] verwundet sein. In diesem Fall steht bei der Einheit noch "erschöpft", "verwundet" oder gar "schwer verwundet".
+Schlussendlich kann eine Einheit durch einen [Kampf][Krieg] oder durch [Hunger][hunger-de-id] verwundet sein. In diesem Fall steht bei der Einheit noch "erschöpft", "verwundet" oder gar "schwer verwundet".
 
 Die nächste Einheit hat die Nummer 2ow, besteht aus einem [Zwergen][zwerge] und hat ein Pferd und einen Silberbeutel. Das heißt, dass sie mehr als 500 Silber bei sich hat. Hätte sie gar mehr als 5000 Silber bei sich, sähe man eine Silberkassette. Hätte sie nur 500 Silber oder weniger, würde man bei einer fremden Einheit gar nichts sehen. Welcher Partei die fremde Einheit angehört, kann man nicht sehen, denn sie hat sich [parteigetarnt], verbirgt also ihre Parteizugehörigkeit. Dies ist bei Botschaftern natürlich keine besonders kluge Wahl, da die anderen Spielenden so auch nicht an die E-Mail-Adresse der Partei kommen. Du kannst einer solchen Einheit höchstens eine [[bef-botschaft]] zukommen lassen.
 

@@ -46,7 +46,7 @@ Caractéristiques d'un Aigle.
 
 ### Démon
 
-Les [Démons][demons] sont cruels et imprévisibles.
+Les [Démons][demons-fr-id] sont cruels et imprévisibles.
 Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.  
 
 Caractéristiques d'un Démon : voir [Modificateurs de compétences][modificateurs-de-competences].

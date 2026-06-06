@@ -524,7 +524,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erwecke-ents-id }
 
-### Erwecke [Ents][ents]
+### Erwecke [Ents][ents-de-id]
 
 :   Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf.  
     Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  

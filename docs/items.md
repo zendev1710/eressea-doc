@@ -13,7 +13,7 @@ The only limits are, on the one hand, the raw materials available and, on the ot
 
 The following table shows the items available on Eressea.  
 They can only be produced if the unit has the corresponding skill at a sufficiently high level.  
-The total of the skill levels is always divided by the skill level required to produce these items (see [these examples]).  
+The total of the skill levels is always divided by the skill level required to produce these items (see [these examples][production-id]).  
 The same applies to raw materials!  
 A miner with a 4 mine in a region with "20 iron/4" can extract 4 iron per turn (and not just 1 iron).  
 
@@ -49,7 +49,7 @@ Weight, skill and raw material requirements.
 | [crossbow][crossbow-id]              |      1 | [weaponsmithing][weaponsmithing] |    3 |               1 wood |
 | [axe][axe]                           |      2 | [weaponsmithing][weaponsmithing] |    3 |       1 iron, 1 wood |
 | [halberd][halberd]                   |      2 | [weaponsmithing][weaponsmithing] |    3 |       1 iron, 2 wood |
-| [claymore][claymore]                 |      2 | [weaponsmithing][weaponsmithing] |    4 |               2 iron |
+| [claymore][claymore-id]              |      2 | [weaponsmithing][weaponsmithing] |    4 |               2 iron |
 | [mallorn bow][mallorn-bow]           |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
 | [mallorn crossbow][mallorn-crossbow] |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
 | [mallorn spear][mallorn-spear]       |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
@@ -70,7 +70,7 @@ Weight, skill and raw material requirements.
 
 ## See also
 
-- [production][these examples]
+- [These examples][production-id]
 - [resources]
 - [roads]
 - [buildings]
@@ -82,7 +82,6 @@ Continue reading: [Roads].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 
-[these examples]: ./production.md
 [resources]: ./resources.md
 [buildings]: ./buildings.md
 [war tables]: ./war-tables.md

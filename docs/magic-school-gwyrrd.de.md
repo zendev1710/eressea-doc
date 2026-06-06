@@ -358,7 +358,7 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 
 `ZAUBERE [STUFE n] 'Weg der Bäume' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
-### Erwecke [Ents]
+### Erwecke [Ents][ents-de-id]
 
 :   Mit Hilfe dieses Zaubers weckt der Druide die in den Wälder der Region schlummernden Ents aus ihrem äonenlangen Schlaf.  
     Die wilden Baumwesen werden sich ihm anschließen und ihm beistehen, jedoch nach einiger Zeit wieder in Schlummer verfallen.  

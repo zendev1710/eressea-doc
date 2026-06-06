@@ -3,7 +3,7 @@
 alias: magie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Magie
 
 La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].
@@ -148,7 +148,9 @@ Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès
 Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack]] !
 
 Un sort de pré-combat ou de post-combat est lancé une fois avant ou après le début du combat.  
-Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura][aura]) et qu'elle soit encore en vie.
+Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura][aura-fr-id]) et qu'elle soit encore en vie.
+
+[](){ #aura-fr-id }
 
 ### Aura
 
@@ -257,7 +259,7 @@ Formule : 2 puissance a, où *a* est la distance entre la région cible et la r�
 Le coût de l'aura est également augmenté si une unité lance plusieurs sorts en un tour.  
 La formule déterminant le coût de l'aura en fonction du nombre de sorts lancés est la suivante :
 
-2 puissance (b-1), où b est le nombre de sorts dans ce tour, voir [ci-dessus][aura]).  
+2 puissance (b-1), où b est le nombre de sorts dans ce tour, voir [ci-dessus][aura-fr-id]).  
 
 Cela ne s'applique pas aux autres composants, qui ne sont augmentés que par les sorts à distance.
 

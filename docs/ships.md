@@ -3,7 +3,7 @@
 alias: ships
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Ships
 
 Ships are built using the [[cmd-make|**`MAKE`**&#91;*`levels`*&#93;*`ship type`*]] order.  
@@ -51,6 +51,8 @@ Newly built ships are not located on any coast and can therefore sail to any nei
 
 ### Caravel
 
+[](){ #trireme-id }
+
 ### Trireme
 
 ### Galleon
@@ -59,14 +61,14 @@ Newly built ships are not located on any coast and can therefore sail to any nei
 
 Ships - type, range, capacity, needed sailing skill for captain/crew, needed building skill, needed wood.
 
-| Type       | Range | Capacity | Captain/Crew | Building skill |  Wood |
-|------------|:-----:|---------:|-------------:|---------------:|------:|
-| Boat       |   2   |       50 |          1/2 |              1 |     5 |
-| Longboat   |   3   |      500 |         1/10 |              1 |    50 |
-| Dragonship | 5[^1] |    1 000 |         2/50 |              2 |   100 |
-| Caravel    |   5   |    3 000 |         3/30 |              3 |   250 |
-| Trireme    |   7   |    2 000 |        4/120 |              4 |   200 |
-| Galleon    |   5   |   20 000 |    5/250[^2] |              5 | 2 000 |
+| Type                     | Range | Capacity | Captain/Crew | Building skill |  Wood |
+|--------------------------|:-----:|---------:|-------------:|---------------:|------:|
+| [Boat][boat]             |   2   |       50 |          1/2 |              1 |     5 |
+| [Longboat][longboat]     |   3   |      500 |         1/10 |              1 |    50 |
+| [Dragonship][dragonship] | 5[^1] |    1 000 |         2/50 |              2 |   100 |
+| [Caravel][caravel]       |   5   |    3 000 |         3/30 |              3 |   250 |
+| [Trireme][trireme-id]    |   7   |    2 000 |        4/120 |              4 |   200 |
+| [Galleon][galleon]       |   5   |   20 000 |    5/250[^2] |              5 | 2 000 |
 
 [^1]: Dragonship speed depends on captain sailing skill.
 [^2]: Only units from level 2 in sails are taken into account for the overall skill of the galleon.
@@ -77,7 +79,7 @@ Dragon ship speed.
 |---------|---|---|----|----|:---:|
 | Range   | 5 | 6 | 7  | 8  |  9  |
 
-[](){ #-convoy-id }
+[](){ #convoy-id }
 
 ## Convoy
 

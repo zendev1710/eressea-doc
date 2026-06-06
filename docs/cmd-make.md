@@ -3,7 +3,7 @@
 alias: cmd-make
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # MAKE
 
 **`MAKE`**`[`*`amount`*`]`*`item`*  
@@ -15,13 +15,15 @@ alias: cmd-make
 **`MAKE`**`[`*`level`*`] ROAD`*`direction`*` `
 
 The `MAKE` order is the general production order.
-To find out more, see the [[production]] chapter.
+To find out more, see the [Production][production-id] chapter.
 
 ## Items
 
 [[items]] and [[resources|raw materials]] are created with `MAKE [`*`number`*`]`*`item`*` `.  
 Depending on the item, a certain skill and perhaps also certain raw materials are required.  
 Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.  
+
+[](){ #make-potions-id }
 
 ### Potions
 
@@ -142,7 +144,7 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
 
 ## See also
 
-- [[production]]
+- [Production][production-id]
 - [[alchemy|Alchemy]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->

@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: developpement
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Développement
 
 Cette page est destinée à rassembler les développeurs de différents outils ou développeurs de scripts ou à répondre à des questions qui reviennent sans cesse.
@@ -46,7 +48,7 @@ Bien entendu, les liens vers des collections de scripts (spécifiques à l’out
 - [[commerce-automatise]]
 - [[transport-automatise]]
 - [[chaines-d-apprentissage-automatisees]]
-- [[production]]
+- [Production][production-fr-id]
 - [[orientation-automatisee]]
 - [[reponse-automatisee-a-un-evenement]]
 

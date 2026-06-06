@@ -159,7 +159,7 @@ Some typical teacher-student chains are presented and discussed below.
   The second level has 3 units of 5 times the size, the third level has 3 units of 25 times the size.  
   One unit teaches each of the intermediate levels and two are taught.  
   At the top level, one person teaches and the other 5 units learn without a teacher, but with brain power and/or an academy.  
-- **Learning from two skills** --Combat units (S) usually learn two skills, their [weapon skill and Endurance].  
+- **Learning from two skills** --Combat units (S) usually learn two skills, their weapon skill and [endurance][skill-endurance-id].  
   It also turns out to be useful for various teachers (L_K,L_A) to use.  
   In principle you have two options: The teachers are specialists and only learn one skill.  
   Although this is better in terms of learning speed, such specialists are very vulnerable (or unusable) in the event of a fight.  
@@ -284,4 +284,3 @@ i.e. after deducting a few percentages for the level differences, 4000 students 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
 
 [expensive skills]: ./skills.md
-[weapon skill and Endurance]: ./skills-list.md

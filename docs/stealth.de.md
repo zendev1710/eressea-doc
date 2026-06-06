@@ -3,7 +3,7 @@
 alias: tarnung
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Tarnung
 
 Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
@@ -30,9 +30,11 @@ Rechnet man damit, erfolgreich beklaut zu werden, hilft es nur, Silber in die be
 
 Diebstahl stellt hin und wieder eine effektive Möglichkeit dar, Spione zur Strecke zu bringen, die ihrerseits gut getarnt sind, da diese bei Angriffen durch ihre hohe Tarnung eine hohe Fluchtchance haben.
 
+[](){ #spionage-id }
+
 ## Spionage
 
-Gibt eine Einheit mit dem Talent [Spionage][spionage] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen.  
+Gibt eine Einheit mit dem Talent [Spionage][skill-spionage-id] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen.  
 Die Grundchance für einen erfolgreichen Spionageversuch ist 10%.  
 Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%.  
 Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren.  

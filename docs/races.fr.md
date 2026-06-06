@@ -49,7 +49,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
   Il n'en résulte pas de valeurs négatives; aucune compétence ne peut descendre en dessous du niveau 0.
 - Les démons mangent des paysans à chaque tour.
   Un paysan nourrit 10 démons. Les démons qui ne reçoivent pas de nourriture (pas assez de paysans) perdent des points de vie et sont soumis à la réduction de compétences selon la règle normale de la [famine][famine].
-  Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr].
+  Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr-fr-id].
 - Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
   Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
 - Si on rend des démons aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
@@ -69,9 +69,9 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 *Compétences de combat.*
 
-| [Magie][magie]{title="Magie"} | [Discrétion][skill-discretion-id]{title="Stealth"} | [Espionnage][espionnage]{title="Espionage"} | [Perception][skill-perception-fr-id]{title="Perception"} | [Arme d'hast] | [Endurance][endurance]{title="Endurance"} | [Mêlée][melee]{title="Melee"} | [Tactique][tactique]{title="Tactics"} | [Tir arbalète][tir-a-larbalete]{title="Crossbow"} | [Tir arc][tir-a-larc]{title="Bow"} | [Tir catapulte][tir-a-la-catapulte]{title="Catapult"} |
-|:-----------------------------:|:--------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------:|:-------------:|:-----------------------------------------:|:-----------------------------:|:-------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-----------------------------------------------------:|
-|              +1               |                         +1                         |                      0                      |                            +1                            |       0       |                     0                     |               0               |                   0                   |                         0                         |                 +2                 |                          -2                           |
+| [Magie][magie]{title="Magie"} | [Discrétion][skill-discretion-id]{title="Stealth"} | [Espionnage][skill-espionnage-id]{title="Espionage"} | [Perception][skill-perception-fr-id]{title="Perception"} | [Arme d'hast] | [Endurance][skill-endurance-fr-id]{title="Endurance"} | [Mêlée][skill-melee-fr-id]{title="Melee"} | [Tactique][tactique]{title="Tactics"} | [Tir arbalète][tir-a-larbalete]{title="Crossbow"} | [Tir arc][tir-a-larc]{title="Bow"} | [Tir catapulte][tir-a-la-catapulte]{title="Catapult"} |
+|:-----------------------------:|:--------------------------------------------------:|:----------------------------------------------------:|:--------------------------------------------------------:|:-------------:|:-----------------------------------------------------:|:-----------------------------------------:|:-------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-----------------------------------------------------:|
+|              +1               |                         +1                         |                          0                           |                            +1                            |       0       |                           0                           |                     0                     |                   0                   |                         0                         |                 +2                 |                          -2                           |
 
 *Compétences de production.*
 
@@ -81,9 +81,9 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 *Autres compétences.*
 
-| [Équitation][equitation]{title="Riding"} | [Voile][voile]{title="Sailing"} | [Commerce][commerce]{title="Trade"} | [Divertissement][skill-divertissement-id]{title="Entertainment"} | [Taxation][taxation]{title="Taxation"} | [Alchimie] | [Herboristerie] |
-|:----------------------------------------:|:-------------------------------:|:-----------------------------------:|:----------------------------------------------------------------:|:--------------------------------------:|:----------:|:---------------:|
-|                    0                     |               -1                |                  0                  |                                0                                 |                   0                    |     -1     |       +2        |
+| [Équitation][equitation]{title="Riding"} | [Voile][voile]{title="Sailing"} | [Commerce][commerce]{title="Trade"} | [Divertissement][skill-divertissement-id]{title="Entertainment"} | [Taxation][skill-taxation-fr-id]{title="Taxation"} | [Alchimie] | [Herboristerie] |
+|:----------------------------------------:|:-------------------------------:|:-----------------------------------:|:----------------------------------------------------------------:|:--------------------------------------------------:|:----------:|:---------------:|
+|                    0                     |               -1                |                  0                  |                                0                                 |                         0                          |     -1     |       +2        |
 
 | Poids  | Capacité |
 |:------:|:--------:|
@@ -135,7 +135,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
 
-Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux] aux autres. Le maniement des armes n'est pas leur point fort.
+Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux-id] aux autres. Le maniement des armes n'est pas leur point fort.
 
 - Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
 - Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons-connus].
@@ -171,7 +171,7 @@ Les insectes ne peuvent normalement pas entrer dans les glaciers, et ne peuvent 
 Ceux qui pénètrent malgré tout dans un glacier perdent des points de vie et voient leur compétence réduite de moitié selon la règle normale de la [famine][famine].
 
 Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, [Vent des Glaces][vent-des-glaces]{title="Icewind"} et [Neiges Envoûtantes][neiges-envoutantes]{title="Snowbane"}), les insectes peuvent **recruter uniquement dans les déserts**.  
-Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de créer une [potion][potions] de "nest warmth" qui permet de recruter dans d'autres types de région.
+Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de [créer][make-potions-fr-id] une [potion de chaleur du nid][chaleur-du-nid]{title="Potion of nest warmth"} qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
 Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][races-et-leurs-caracteristiques]).  
@@ -283,7 +283,7 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
-- Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][melee]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
+- Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][skill-melee-fr-id]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
 - Paresse : les orcs gagnent moins de silver que les autres races avec l'ordre [[cmd-work]].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
 - De même : si vous donnez des orcs aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
@@ -332,7 +332,7 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 
 Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
 
-- Le fer extrait par les nains n'est déduit qu'à 60% de la "réserve de la région". Cet effet est cumulatif avec une mine (voir [ici][mine]{title="Mine"} et [ici][ressources-minieres]).
+- Le fer extrait par les nains n'est déduit qu'à 60% de la "réserve de la région". Cet effet est cumulatif avec une mine (voir [ici][mine-fr-id]{title="Mine"} et [ici][ressources-minieres]).
 - Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique][tactique]{title="Tactics"}.
 - Les [mages][magie] nains régénèrent leur aura beaucoup plus lentement que les autres.
 

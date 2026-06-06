@@ -11,7 +11,7 @@ alias: cmd-destroy-fr
 **`DESTROY`**`[`*`niveau`*`]`  
 **`DESTROY`**`[`*`niveau`*`] STREET`*`direction`*  
 
-Une unité commandant un [[bateaux|bateau]] ou un [[batiments|bâtiment]] peut réduire sa taille ou le détruire à tout moment en utilisant cet ordre.  
+Une unité commandant un [bateau][bateaux-id] ou un [bâtiment][batiments-id] peut réduire sa taille ou le détruire à tout moment en utilisant cet ordre.  
 Elle n'a besoin d'aucune compétence pour cela.  
 
 Pour les **bâtiments**, le paramètre *niveau* indique le **nombre de points de taille** duquel le bâtiment doit être réduit.  

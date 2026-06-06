@@ -116,7 +116,7 @@ See the [list of herbs][list-of-herbs].
 
 ## See also
 
-- [[production]]
+- [Production][production-id]
 - [[items|Goods]]
 - [[roads]]
 - [[buildings]]

@@ -3,7 +3,7 @@
 alias: cmd-make-fr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # MAKE
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
@@ -16,13 +16,15 @@ alias: cmd-make-fr
 
 L'ordre `MAKE` est l'ordre de production général.  
 
-Pour en savoir plus, voir le chapitre [[production]].
+Pour en savoir plus, voir le chapitre [Production][production-fr-id].
 
 ## Objets
 
 Les [[objets]] et les [[ressources|matières premières]] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
 Selon l'objet, une certaine compétence et peut-être aussi certaines matières premières sont nécessaires.  
 Sans préciser la *quantité*, l'unité produira autant d'items que de personnes dans l'unité, de niveaux de compétence et éventuellement de matières premières le permettent.  
+
+[](){ #make-potions-fr-id }
 
 ### Potions
 
@@ -91,7 +93,7 @@ UNIT 17;   Combattants [15,700$]
 
 ## Bâtiments
 
-Pour ériger un nouveau bâtiment, utilisez l'ordre `MAKE [`*`niveau`*`]`*`<type bâtiment>`* (voir [[batiments]]).  
+Pour ériger un nouveau bâtiment, utilisez l'ordre `MAKE [`*`niveau`*`]`*`<type bâtiment>`* (voir [bâtiments][batiments-id]).  
 Pour continuer à construire (agrandir un batiment), l'ordre est `MAKE [levels]`*`<type bâtiment>`*` `*`building_id`*.  
 Le type de bâtiment peut être remplacé par `CASTLE` lors de la poursuite de la construction, même s'il s'agit d'un type de bâtiment différent.  
 
@@ -99,9 +101,11 @@ Les châteaux et bien d’autres bâtiments peuvent être agrandis autant que vo
 Afin de construire des châteaux, l'unité doit avoir des compétences en maçonnerie et en pierres;
 d'autres bâtiments nécessitent généralement également du bois, du fer et de l'argent en diverses quantités.
 
-## Bâteaux
+[](){ #make-bateaux-id }
 
-Avec `MAKE`*`type bateau`* une unité commence à construire un nouveau [[bateaux|bateau]].  
+## Bateaux
+
+Avec `MAKE`*`type bateau`* une unité commence à construire un nouveau [bateau][bateaux-id].  
 Cela nécessite une compétence en matière de construction navale, et du bois.
 On peut continuer à construire avec `MAKE [`*`niveau`*`] SHIP`*`ID bateau`*.
 Les bateaux ne peuvent pas être agrandis comme les châteaux : le type est déterminé au début de la construction.  
@@ -116,7 +120,7 @@ Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* 
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
 Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [[objets|pierres]].  
-Dans les glaciers, il faut au préalable un [tunnel][tunnel], dans les déserts un [caravansérail][caravanserail] et dans les marais un [barrage][barrage]{title="Dam"}.  
+Dans les glaciers, il faut au préalable un [tunnel][tunnel-fr-id], dans les déserts un [caravansérail][caravanserail] et dans les marais un [barrage][barrage]{title="Dam"}.  
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  
 Les routes ne fonctionnent que si elles sont complètes.
@@ -150,7 +154,7 @@ MAKE building xyz ; incorrect : only CASTLE or building type is allowed
 
 ## Voir aussi
 
-- [[production]]
+- [Production][production-fr-id]
 - [[alchimie|Alchimie]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->

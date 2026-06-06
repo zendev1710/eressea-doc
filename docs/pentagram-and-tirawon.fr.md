@@ -17,7 +17,7 @@ Les armées étaient principalement composées d'elfes, de nains et de halfelins
 La plus grande armée composée de 32 554 elfes était celle des elfes Garan, qui étaient pratiquement tous armés d'[arcs elfiques][arc-elfique], certainement un facteur décisif dans la victoire de Tirawon.  
 Il convient également de mentionner les près de 6 000 démons qui ont combattu aux côtés de Tirawon, et aucun d'entre eux n'est tombé au combat.  
 
-Ce qui est peut-être unique, c'est le fait que [Igjarjuk][igjarjuk] personnellement – ​​ressuscité sous le nom de [Wyrm Mort-Vivant][igjarjuk] – a daigné soutenir Pentagramm.
+Ce qui est peut-être unique, c'est le fait que [Igjarjuk][igjarjuk-fr-id] personnellement – ​​ressuscité sous le nom de [Wyrm Mort-Vivant][igjarjuk-fr-id] – a daigné soutenir Pentagramm.
 Les rivières de sang qui lui étaient promises en retour ont coulé.  
 Peut-être pas tout à fait comme Pentagramm l’avait espéré.  
 
@@ -56,7 +56,7 @@ Du côté de **Tirawon**, 15 peuples se sont battus :
 - Armée 36: Der Feuerschwarm (erob) -- 750 Insecten
 
 <!-- cspell:enable -->
-Du côté de **Pentagramm** 20 peuples, [Igjarjuk][igjarjuk] et la faction des monstres se sont battus :
+Du côté de **Pentagramm** 20 peuples, [Igjarjuk][igjarjuk-fr-id] et la faction des monstres se sont battus :
 
 <!-- cspell:disable -->
 - Armée 1: DAS PENTAGRAMM (dpen) -- 9951 Nains

@@ -47,7 +47,7 @@ Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pou
 Ces frais d'entretien sont dûs dès le début du tour, ils doivent donc être perçus dès le premier tour et sont dûs dès que le bâtiment a été commencé (donc également pour les bâtiments à moitié construits).  
 S'il n'y a pas assez d'argent disponible, la fonction du bâtiment ne peut pas être utilisée.  
 
-En savoir plus : les [[batiments]].  
+En savoir plus : les [bâtiments][batiments-id].  
 
 ## Famine
 
@@ -70,13 +70,13 @@ Les unités de Morts-vivants ne se régénèrent pas
 La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées.  
 Néanmoins, la famine en mer est une situation critique.  
 D'une part, personne d'autre que les [aquariens] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers.  
-D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le bateau, ce qui fait que le bateau subit des [[bateaux|dommages]] et dérive.  
+D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le [bateau][bateaux-id], ce qui fait que ce dernier subit des dommages et dérive.  
 
 La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification.  
 Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat.  
 Si elles survivent malgré tout à un tel combat, elles risquent de continuer à avoir faim parce qu'elles n'ont pas pu travailler à cause du combat (voir [Fin de bataille][fin-du-combat]).  
 
-Si l'unité maîtrise l'[Endurance][tableau-endurance] à un niveau élevé, il peut arriver, après avoir été affamé, qu'une unité soit [très forte][etat-de-sante] selon le rapport (c'est-à-dire qu'elle ait plus de points de vie qu'elle ne devrait normalement en avoir).  
+Si l'unité maîtrise l'[endurance][skill-endurance-fr-id]{title="Endurance"} à un niveau élevé, il peut arriver, après avoir été affamé, qu'une unité soit [très forte][etat-de-sante] selon le rapport (c'est-à-dire qu'elle ait plus de points de vie qu'elle ne devrait normalement en avoir).  
 
 ### Famine des paysans
 

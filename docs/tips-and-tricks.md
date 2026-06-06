@@ -30,7 +30,7 @@ On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte d
 
 ## What should my troops learn?
 
-*Les troupes apprennent [l'endurance] et la [maîtrise des armes].
+Les troupes apprennent [l'endurance][[skill-endurance-id]] et la [maîtrise des armes].
 Selon la race, il arrive un moment où il est plus avantageux d'apprendre l'endurance que la Maîtrise des armes.
 Finalement, chaque nouveau niveau de maîtrise des armes coûte autant de temps d'apprentissage que plusieurs niveaux d'endurance.
 Tu peux calculer quand ce point est atteint, ou te baser sur la maîtrise des armes de tes ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.

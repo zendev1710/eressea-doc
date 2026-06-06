@@ -44,14 +44,14 @@ A unit can increase its transport capacity through [horses and carts].
 !!! tip "Tip"
     Use [Goliath Water] at the opportune moment! This potion allows you to increase the carrying capacity of a unit for a limited time.
 
-| Ship         | Transport capacity |
-|--------------|-------------------:|
-| [Boat]       |                 50 |
-| [Longboat]   |                500 |
-| [Dragonship] |               1000 |
-| [Caravel]    |               3000 |
-| [Trireme]    |               2000 |
-| [Galleon]    |              20000 |
+| Ship                     | Transport capacity |
+|--------------------------|-------------------:|
+| [Boat][boat]             |                 50 |
+| [Longboat][longboat]     |                500 |
+| [Dragonship][dragonship] |               1000 |
+| [Caravel][caravel]       |               3000 |
+| [Trireme][trireme-id]    |               2000 |
+| [Galleon][galleon]       |              20000 |
 
 ## Weight
 
@@ -74,7 +74,7 @@ A unit can increase its transport capacity through [horses and carts].
 The weight of the most common items is listed in the [summary table of items].  
 
 !!! note "Note"
-    [Potions], [herbs], and most magical items (rings, amulets, etc.) weigh nothing.
+    [Potions][potions-id], [herbs] [herbs], and most magical items (rings, amulets, etc.) weigh nothing.
 
 ## Travel: By land or by sea
 

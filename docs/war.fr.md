@@ -3,7 +3,7 @@
 alias: guerre
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD051 MD052 -->
+<!-- markdownlint-disable MD042 MD051 MD052 -->
 # Guerre
 
 Les conflits sont inévitables dans Eressea.  
@@ -215,9 +215,9 @@ Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inf
 
 Certaines créatures ou armes peuvent également infliger des dégâts magiques.  
 Une armure normale est inefficace contre les dégâts magiques.  
-Seule compte la [Résistance à la magie][resistance-a-la-magie], qui peut être augmentée par certains équipements et sorts.  
+Seule compte la [résistance à la magie][resistance-a-la-magie], qui peut être augmentée par certains équipements et sorts.  
 
-Il y a également la compétence Endurance, qui permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][tableau-endurance]).
+La compétence d'[endurance][skill-endurance-fr-id]{title="Endurance"} permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][table-endurance-fr-id]).
 
 ### Combat à distance
 
@@ -421,7 +421,7 @@ Cela se produit au début du tour, ce qui signifie que tous les effets de [[cmd-
 
 ## Combats à bord et depuis les navires
 
-Les batailles navales se déroulent comme des batailles terrestres : les [[bateaux]] s'abordent et les unités s'affrontent.  
+Les batailles navales se déroulent comme des batailles terrestres : les [bateaux][bateaux-id] s'abordent et les unités s'affrontent.  
 Après la bataille, il est possible pour les unités d'exécuter d'autres ordres longs.
 
 Si un bateau est impliqué dans une bataille, il subit 5 % de dégâts par round de bataille si au moins une personne qui se trouve sur le navire ou qui s'y trouvait au début du tour subit des dégâts.  
@@ -438,6 +438,8 @@ Cela donne à vos ennemis le temps de se préparer.
 
 Depuis la terre, vous pouvez attaquer un bateau immédiatement.  
 Lorsque les unités à bord d'un bateau (ou ses alliés) sont attaqués, elles rejoignent les lignes de bataille normalement en fonction de leur statut de combat ([[cmd-combat]]) et de leur statut d'aide au combat ([[cmd-help|`HELP COMBAT`]]).  
+
+[](){ #piraterie-fr-id }
 
 ## Piraterie
 

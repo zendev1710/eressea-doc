@@ -3,7 +3,9 @@
 alias: production
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD052 -->
+[](){ #production-id }
+
 # Production
 
 Various things can be produced in Eressea.  
@@ -19,7 +21,7 @@ For items with high minimum skill values, you can only craft a few of them.
 In any case, **per unit per round**, you can only produce one type of item or resource and work on one building or ship.  
 
 With the exception of [laen][laen-id] and [adamantium][adamantium-id], two particularly valuable and rare metals, and [mallorn][mallorn-id] (a magical wood), all raw materials can be produced with a skill value of 1, as can horses and herbs.
-To obtain laen and adamantium you need a [mine][mine] and a [mining][mining] skill of **7 for laen**, **8 for adamantium**, and **[forestry][forestry] level 2 for Mallorn**.
+To obtain laen and adamantium you need a [mine][mine-id] and a [mining][mining] skill of **7 for laen**, **8 for adamantium**, and **[forestry][forestry] level 2 for Mallorn**.
 
 For items as well as buildings and ships, the skill levels of all people in the unit are added together and divided by the minimum construction skill.  
 For each point calculated in this way, a building or ship can be built or expanded by one point in size or an object can be produced.

@@ -20,7 +20,7 @@ Si aucun paramètre n'est spécifié, le maximum est défini.
 
 Avec l'ordre `HIDE FACTION`, vous pouvez essayer de cacher votre affiliation à une faction.
 L'affiliation à la faction est alors affichée en tant qu'affiliation **anonyme** aux autres joueurs.  
-Contrairement au mécanisme standard de détection en fonction des niveaux de furtivité versus perception, l'affiliation à une faction d'une telle unité ne peut être identifiée **qu'en utilisant l'[espionnage]**.  
+Contrairement au mécanisme standard de détection en fonction des niveaux de furtivité versus perception, l'affiliation à une faction d'une telle unité ne peut être identifiée **qu'en utilisant l'[espionnage][espionnage-id]**.  
 
 Avec `HIDE FACTION NOT` cette anonymisation sera à nouveau annulée et les autres joueurs verront l'affiliation correcte de la faction - s'ils sont suffisamment "conscients" (en termes de perception) et voient l'unité dans leur rapport.  
 
@@ -50,11 +50,11 @@ Cependant, ce camouflage présente quelques fonctionnalités spéciales, qui son
 Cependant, [[cmd-group]] a également pour effet secondaire d'avoir plusieurs armées.  
 De cette façon, vous ne pouvez pas voir si les unités se font passer pour une faction étrangère ou si la personne en question possède simplement plusieurs groupes.
 
-Avec `HIDE <race>` les [démons][demons] peuvent se déguiser en une autre race.
+Avec `HIDE <race>` les [démons][demons-fr-id] peuvent se déguiser en une autre race.
 
 ## Voir aussi
 
-- [Espionnage][espionnage]{title="Espionage"}
+- [Espionnage][espionnage-id]{title="Espionage"}
 - [Discrétion][discretion-id]{title="Stealth"}
 - [Perception][skill-perception-fr-id]{title="Perception"}
 

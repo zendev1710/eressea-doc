@@ -12,26 +12,25 @@ Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in 
 
 Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [[bef-helfe]] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
 
-Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [[bef-folge]] oder [Piraterie][piraterie] ausführen.
+Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [[bef-folge]] oder [Piraterie][piraterie-de-id] ausführen.
 
 Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheiten, die das Talent Segeln erlernt haben. In der folgenden Tabelle steht unter "Kapitän" die Talentstufe, den der Kapitän oder die Kapitänin (die erste Einheit auf dem Schiff im Report) des Schiffes in Segeln haben muss. Zudem braucht man auf dem Schiff eine gewisses Gesamttalent in Segeln. Dazu werden die Talentwerte aller Personen auf dem Schiff zusammengezählt, einschließlich der Kapitänseinheit und Einheiten fremder Parteien. Der benötigte Wert steht in der Tabelle unter "Besatzung". Die in der Tabelle aufgeführte Reichweite gilt pro Runde, d.h. ein Schiff kann pro Runde maximal so weit segeln. Schiffe, die von einer Meermenscheneinheit einer Meermenschenpartei gesteuert werden (Migranten-Meermenschen einer Menschenpartei zählt also nicht), können jeweils ein Feld weiter segeln.
 
 **Beispiele:**
 
-- Eine Trireme kann mit einer Einheit mit 30 Personen mit Segeln 4 gesteuert werden oder mit einer Einheit mit einer Person der Stufe 4 und einer Einheit mit 58 Personen der Stufe 2. In jedem Fall segelt sie pro Runde 7 Regionen weit (Meermenschen 8) und kann 2000 GE mitnehmen, wovon das Gewicht der Crew natürlich abgeht.
+- Eine [Trireme][trireme-de-id] kann mit einer Einheit mit 30 Personen mit Segeln 4 gesteuert werden oder mit einer Einheit mit einer Person der Stufe 4 und einer Einheit mit 58 Personen der Stufe 2. In jedem Fall segelt sie pro Runde 7 Regionen weit (Meermenschen 8) und kann 2000 GE mitnehmen, wovon das Gewicht der Crew natürlich abgeht.
 - Eine Drachenschiff mit einer Einheit mit 25 Personen der Stufe 2 segelt 5 Regionen weit. Mit 3 Personen der Stufe 20 kann es allerdings 7 Regionen weit segeln.
 
 Schiffe - Reichweite, Kapazität, Talente
 
-| Typ           | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
-|---------------|------------|-----------|-------------------|-----------|---------|
-| Boot          | 2          | 50        | 1/2               | 1         | 5       |
-| Langboot      | 3          | 500       | 1/10              | 1         | 50      |
-| Drachenschiff | 5\*        | 1000      | 2/50              | 2         | 100     |
-| Karavelle     | 5          | 3000      | 3/30              | 3         | 250     |
-| Trireme       | 7          | 2000      | 4/120             | 4         | 200     |
-| Galeone       | 5          | 20000     | 5/250\*\*         | 5         | 2000    |
-|               |            |           |                   |           |         |
+| Typ      b                     | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
+|--------------------------------|------------|-----------|-------------------|-----------|---------|
+| [Boot][boot]                   | 2          | 50        | 1/2               | 1         | 5       |
+| [Langboot][langboot]           | 3          | 500       | 1/10              | 1         | 50      |
+| [Drachenschiff][drachenschiff] | 5\*        | 1000      | 2/50              | 2         | 100     |
+| [Karavelle][karavelle]         | 5          | 3000      | 3/30              | 3         | 250     |
+| [Trireme][trireme-de-id]       | 7          | 2000      | 4/120             | 4         | 200     |
+| [Galeone][galeone]             | 5          | 20000     | 5/250\*\*         | 5         | 2000    |
 
 \* Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
 
@@ -48,7 +47,7 @@ Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passier
 
 Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
-Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe] beschrieben.
+Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe] beschrieben.
 
 Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [[bef-nach]] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
 

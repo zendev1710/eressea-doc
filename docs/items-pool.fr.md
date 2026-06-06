@@ -12,7 +12,7 @@ La réserve d'argent prend en charge la distribution de l'argent lorsque vous jo
 Néanmoins, il est précisé tout au long des instructions que les unités doivent avoir suffisamment d'argent sur elles.  
 C'est juste pour éviter de l'oublier.
 
-De même, les [[batiments]] sont approvisionnés depuis la réserve si l'argent est présent dans la région au début du tour.  
+De même, les [bâtiments][batiments-id] sont approvisionnés depuis la réserve si l'argent est présent dans la région au début du tour.  
 Si l’entité propriétaire du bâtiment ne peut pas le payer de sa poche ou de la réserve, le bâtiment ne peut pas fonctionner.  
 À la fin du tour, l'unité tentera à nouveau de payer le bâtiment à partir de ses propres réserves d'argent ou de la cagnotte de son propre groupe.  
 

@@ -499,7 +499,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 10
 
-### Éveil des [Ents][ents]
+### Éveil des [Ents][ents-fr-id]
 
 <!-- cspell:disable -->
 *Awakening of the Ents (EN), Erwecke Ents (DE)*.

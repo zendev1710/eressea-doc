@@ -117,7 +117,7 @@ In addition to iron and stone, there is also the much rarer metal laen.
 If a mountain, glacier or volcano is home to laen, then it can be found from mining depth 7.  
 In other region types you can also find laen with luck, but then possibly only at mining level 7 to 10.  
 You therefore need a miner with mining 5 to be able to rule out laen in every land region.  
-However, if you are very lucky and have found a region with laen, you will need a [mine][mine] to gain it.  
+However, if you are very lucky and have found a region with laen, you will need a [mine][mine-id] to gain it.  
 
 <div class="lore-dialogue">
 Selen looked at the young cat Rahel, who was obviously trying to memorise all the numbers and dates.

@@ -3,7 +3,10 @@
 alias: batiments
 ---
 <!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #batiments-id }
+
 # Bâtiments
 
 Il existe différents bâtiments à Eressea qui offrent différents avantages.  
@@ -49,7 +52,7 @@ Vous pouvez donc facilement construire une tour en un tour avec une unité suffi
 
 - [[chateaux]]
 - [[batiments-speciaux]]
-- [[production]]
+- [Production][production-fr-id]
 - [dépenses][depenses]
 
 Poursuivre la lecture : [[chateaux]].

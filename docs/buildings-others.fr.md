@@ -29,7 +29,7 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 | Bâtiment                                                    | Pierres | Bois | Fers | Silver | Niv. |     Silver | Ressource | Taille Max. |    Capacité |
 |-------------------------------------------------------------|--------:|-----:|-----:|-------:|-----:|-----------:|-----------|------------:|------------:|
 | [Phare][phare]{title="Lighthouse"}                          |       2 |    1 |    1 |    100 |    3 |        100 | --        |          -- | 4 personnes |
-| [Mine][mine]{title="Mine"}                                  |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
+| [Mine][mine-fr-id]{title="Mine"}                            |       5 |   10 |    1 |    250 |    4 |        500 | --        |          -- |      taille |
 | [Carrière][carriere]{title="Quarry"}                        |       1 |    5 |    1 |    250 |    2 |        250 | --        |          -- |      taille |
 | [Scierie][scierie]{title="Sawmill"}                         |       5 |    5 |    3 |    200 |    3 |        250 | --        |          -- |      taille |
 | [Forge][forge]{title="Smithy"}                              |       5 |    5 |    2 |    200 |    3 |        300 | 1 bois    |          -- |      taille |
@@ -39,9 +39,9 @@ Le tableau récapitulatif ci-dessous comprend, dans l'ordre, pour chaque type de
 | [Académie][academie]{title="Academy"}                       |       5 |    5 |    1 |    500 |    3 |      1 000 | --        |          25 |      taille |
 | [Tour de mage][tour-de-mage]{title="Mage Tower"}[^1]        |       5 |    3 |    3 |    500 |    5 |      1 000 | --        |          50 | 2 personnes |
 | [Barrage][barrage]{title="Dam"}                             |       5 |   10 |    1 |    500 |    4 |      1 000 | 3 bois    |          50 |      taille |
-| [Tunnel][tunnel]{title="Tunnel"}                            |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
+| [Tunnel][tunnel-fr-id]{title="Tunnel"}                      |      10 |    5 |    1 |    300 |    6 |        100 | 2 pierres |         100 |      taille |
 | [Auberge][auberge]{title="Inn"}                             |       4 |    3 |    1 |    200 |    2 | 5 X taille | --        |          -- |      taille |
-| [Monument][monument]{title="Monument"}                      |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
+| [Monument][monument-fr-id]{title="Monument"}                |       1 |    1 |    1 |    400 |    4 |         -- | --        |          -- |      taille |
 | [Cercle de Pierres][cercle-de-pierres]{title="Stonecircle"} |       5 |    5 |   -- |     -- |    2 |         -- | --        |         100 | 3 personnes |
 
 !!! warning "Attention"
@@ -78,6 +78,8 @@ Les avantages d'un phare :
 - Le phare donne aux occupants (jusqu'à 4 unités seulement) des informations sur les bateaux visibles dans un rayon de log10 (taille du phare) + 1 régions.
   L'unité doit avoir une perception d'au moins distance × 3.
   Un rapport provenant d'une région océanique située à trois hexagones de distance ne peut être obtenu que si le phare est d'au moins une taille de 100 et que l'unité a au moins une perception de 9.
+
+[](){ #mine-id }
 
 ## Mine
 
@@ -310,6 +312,8 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 - Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.
 - Toutes les personnes à l'intérieur d'une auberge ont besoin de 14 silver par semaine pour vivre au lieu des 10 normales.
 
+[](){ #monument-fr-id }
+
 ## Monument
 
 <!-- cspell:disable -->
@@ -346,9 +350,9 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 
 ## Voir aussi
 
-- [Bâtiments][batiments]
+- [Bâtiments][batiments-id]
 - [Châteaux][chateaux]
-- [Production][production]
+- [Production][production-fr-id]
 
 Poursuivre la lecture : [réserve de faction][reserve-de-faction].
 

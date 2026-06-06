@@ -26,7 +26,7 @@ La faction commence la partie avec une **unité**, composée d'une personne avec
 
 Cette première personne n'est en aucun cas spéciale;  
 il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
-Vous pouvez [recruter][recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [[batiments]] ou des [bateaux][bateaux], capturer des [chevaux][chevaux-et-chariots], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.  
+Vous pouvez [recruter][recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.  
 
 Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [[cmd-make|`MAKE TEMP`]].  
 Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [[cmd-give|transférer]] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
@@ -68,7 +68,7 @@ La plupart des descriptions que vous rencontrerez au cours du jeu seront en alle
 Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos unités, mais gardez à l'esprit l'impact que cela peut avoir sur l'expérience de vos co-joueurs.est disponible, les compétences sont indiquées.
 
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
-Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][melee]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
+Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][skill-melee-fr-id]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
 Il maîtrise [[cmd-tax|taxation]] au niveau 2 (pour plus de détails : les [[competences]]).  
 Comme vous pouvez le voir, Konrad a également une [[tableaux-relatifs-a-la-guerre|épée]]{title="Sword"}.  
 "`TAX`" est ce qu'on appelle un ordre par [[cmd-default|défaut]].  
@@ -121,5 +121,3 @@ Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
 Poursuivre la lecture : [[races]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
-
-<!-- [bateaux]: [[bateaux]] -->

@@ -18,6 +18,6 @@ Si aucun identifiant de faction n'est renseigné, il répond à tous les bateaux
 
 ## Voir aussi
 
-- [Piraterie][piraterie]
+- [Piraterie][piraterie-fr-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRACY&oldid=16789] -->

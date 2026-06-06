@@ -2,11 +2,13 @@
 # cSpell:locale fr
 alias: voile-solaire
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Voile Solaire
 
 La **Voile Solaire** était le [[noel|cadeau de Noël]] des Éresséens en 2004.  
 
-À l'origine, elle permettait une accélération *unique et extrême* d'un [[bateaux|bateau]] (portée de +50 régions).  
+À l'origine, elle permettait une accélération *unique et extrême* d'un [bateau][bateaux-id] (portée de +50 régions).  
 L'idée sous-jacente était de faciliter les contacts (pacifiques) entre différentes races sur de grandes distances.  
 Même les « voyageurs du monde » parcourant la spirale cosmique en bateau dans les deux sens pouvaient en bénéficier.  
 

@@ -10,6 +10,8 @@ Cette page répertorie les propriétés des armes, des armures et des races pour
 
 ## Armes de combat en corps à corps
 
+[](){ #claymore-fr-id }
+
 ### Claymore
 
 <!-- cspell:disable -->
@@ -163,23 +165,23 @@ Elles atteignent **6** cibles.
 | Javelot en mallorn[^3]   |          1d10+1 |  6,5 |            1d12+3 | 9,5  |  0 |  0 | [H][combat-a-larme-dhast]{title="Polearm"} |     0 |
 | Non armé[^4]             |             1d5 |    3 |               1d6 | 3,5  | -2 | -2 |                                            |    -4 |
 | Non armé : Gobelin       |             1d5 |    3 |               1d6 | 3,5  | -2 |  0 |                                            |    -2 |
-| Épée rouillée            |             1d9 |    5 |               1d9 | 5    | -1 | -1 | [M][melee]{title="Melee"}                  |    -2 |
-| Épée                     |           1d9+2 |    7 |             1d9+2 | 7    |  0 |  0 | [M][melee]{title="Melee"}                  |     0 |
-| Hache de guerre rouillée |             2d6 |    7 |               2d6 | 7    |  0 | -3 | [M][melee]{title="Melee"}                  |    -3 |
+| Épée rouillée            |             1d9 |    5 |               1d9 | 5    | -1 | -1 | [M][skill-melee-fr-id]{title="Melee"}      |    -2 |
+| Épée                     |           1d9+2 |    7 |             1d9+2 | 7    |  0 |  0 | [M][skill-melee-fr-id]{title="Melee"}      |     0 |
+| Hache de guerre rouillée |             2d6 |    7 |               2d6 | 7    |  0 | -3 | [M][skill-melee-fr-id]{title="Melee"}      |    -3 |
 | Hallebarde rouillée[^3]  |             2d6 |    7 |               2d6 | 7    | -2 | +1 | [H][combat-a-larme-dhast]{title="Polearm"} |    -1 |
 | Hallebarde[^3]           |           2d6+3 |   10 |             2d6+3 | 10   | -1 | +2 | [H][combat-a-larme-dhast]{title="Polearm"} |    +1 |
 | Arc d'Elfe               |           2d6+4 |   11 |             2d6+4 | 11   | -2 |  0 | [B][tir-a-larc]{title="Bow"}               |    -2 |
-| Hache de guerre          |           2d6+4 |   11 |             2d6+4 | 11   | +1 | -2 | [M][melee]{title="Melee"}                  |    -1 |
+| Hache de guerre          |           2d6+4 |   11 |             2d6+4 | 11   | +1 | -2 | [M][skill-melee-fr-id]{title="Melee"}      |    -1 |
 | Lance[^3]                |             1d5 |    3 |             2d6+5 | 12   |  0 | -2 | [H][combat-a-larme-dhast]{title="Polearm"} |    -2 |
 | Lance en mallorn[^3]     |           1d5+1 |    4 |             2d6+6 | 13   |  0 | -2 | [H][combat-a-larme-dhast]{title="Polearm"} |    -2 |
-| Claymore rouillée        |             2d8 |    9 |               2d8 | 9    | -2 | -3 | [M][melee]{title="Melee"}                  |    -5 |
-| Claymore                 |           2d8+3 |   12 |             2d8+3 | 12   | -1 | -2 | [M][melee]{title="Melee"}                  |    -3 |
+| Claymore rouillée        |             2d8 |    9 |               2d8 | 9    | -2 | -3 | [M][skill-melee-fr-id]{title="Melee"}      |    -5 |
+| Claymore                 |           2d8+3 |   12 |             2d8+3 | 12   | -1 | -2 | [M][skill-melee-fr-id]{title="Melee"}      |    -3 |
 | Catapulte[^2]            |          3d10+5 | 21,5 |            3d10+5 | 21.5 | -4 |  0 | [K][tir-a-la-catapulte]{title="Catapult"}  |    -4 |
 | Arbalète[^1]             |           3d3+5 |   11 |             3d3+5 | 11   |  0 |  0 | [A][tir-a-larbalete]{title="Crossbow"}     |     0 |
 | Arbalète en mallorn[^1]  |           3d3+6 |   12 |             3d3+6 | 12   |  0 |  0 | [A][tir-a-larbalete]{title="Crossbow"}     |     0 |
-| Hache en adamantium      |          3d4+15 | 22,5 |            3d4+15 | 22,5 | +2 | -2 | [M][melee]{title="Melee"}                  |     0 |
-| Épée en laen             |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][melee]{title="Melee"}                  |    +2 |
-| [[epee-de-flammes]]      |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][melee]{title="Melee"}                  |    +2 |
+| Hache en adamantium      |          3d4+15 | 22,5 |            3d4+15 | 22,5 | +2 | -2 | [M][skill-melee-fr-id]{title="Melee"}      |     0 |
+| Épée en laen             |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][skill-melee-fr-id]{title="Melee"}      |    +2 |
+| [[epee-de-flammes]]      |          3d6+10 | 20,5 |            3d6+10 | 20,5 | +1 | +1 | [M][skill-melee-fr-id]{title="Melee"}      |    +2 |
 
 [^1]: les arbalètes ne tirent qu'aux 1er et 4e tours de combat. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
 [^2]: les catapultes ne tirent que lors du premier tour de combat, mais **atteignent 6 cibles**.
@@ -207,10 +209,11 @@ Remarques :
 - Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir [plus bas])
 - Une Épée de Flammes invoque également une petite boule de feu à chaque round de combat
 
-[](){ #tableau-endurance }
+[](){ #table-endurance-fr-id }
+
 ## Endurance
 
-Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance][endurance], est calculé ainsi :
+Le bonus de points de vie (PV) en pourcentages, selon le niveau d'[endurance][skill-endurance-fr-id]{title="Endurance"}, est calculé ainsi :
 
 <!-- cspell:disable -->
 :   $$

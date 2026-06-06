@@ -121,7 +121,7 @@ Das Kommando kann nicht an Einheiten ohne Personen (z.B. nach einem Kampf oder "
 
 Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiffes oder Konvois die Anzahl Schiffe.
 Die übergebende und empfangende Einheit müssen der selben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht.
-Ist die anderen Einheit ebenfalls Besitzer eines Schiffes wird ein [Konvoi][konvoi] gebildet.
+Ist die anderen Einheit ebenfalls Besitzer eines Schiffes wird ein [Konvoi][konvoi-id] gebildet.
 Konvois bestehen immer aus Schiffen des gleichen Typs.
 Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küste liegen.
 

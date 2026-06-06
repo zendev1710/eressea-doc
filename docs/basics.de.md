@@ -3,7 +3,7 @@
 alias: grundlagen
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Grundlagen
 
 Nur weil es in Eressea keinen Gewinner gibt, heißt das nicht, das man nicht verlieren kann.
@@ -33,9 +33,11 @@ Einheiten können nur eine lange [Aktion][kurze-und-lange-befehle] Aktion pro Wo
 Kämpfe in Regionen die man nicht [bewacht] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [attackiert] hat, daran ihren langen Befehl auszuführen.
 Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der deine Partei angegriffen werden kann, deine Regionen bewachst.
 
+[](){ #basics-hunger-de-id }
+
 ## Hunger
 
-Unbedingt [Hungern][hunger] vermeiden.
+Unbedingt [Hungern][hunger-de-id] vermeiden.
 Die Auswirkungen sind katastrophal.
 Jede Person benötigt pro Woche 10 Silber Unterhalt um nicht zu hungern
 

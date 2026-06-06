@@ -67,7 +67,7 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 
 - Cold Blooded: In deserts and swamps, insects get +1 on all skills they still have at least at 1, in mountains and glaciers they get -1.
 - Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation] rule.
-- Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can produce a [potion] of "nest warmth" that makes recruitment in other terrains possible.
+- Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can [produce][make-potions-id] a [potion of nest warmth][potion-of-nest-warmth] that makes recruitment in other terrains possible.
 - Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
 - Tacticians: Insects get a bonus on the [tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
 - Nomad Traders: Insects can [trade][silver-trade-id  in deserts and swamps without needing castles.
@@ -149,7 +149,7 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 
 Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal skepticism, and their sailing skills are among the worst in the world.
 
-- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine][mine] and [mining][about-mining]).
+- Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine][mine-id] and [mining][about-mining]).
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
 - Dwarves [mages][magician] regenerate aura 50% slower.
 
@@ -166,7 +166,6 @@ Continue reading: [Racial skill modifiers].
 [steal]: ./stealth.md
 [ships]: ./ships.md
 [alchemists]: ./skills-list.md
-[potion]: ./alchemy.md
 [tactics]: ./tactic.md
 [groups]: ./cmd-group.md
 [move]: ./travel.md

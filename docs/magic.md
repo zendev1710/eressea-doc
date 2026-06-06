@@ -3,7 +3,7 @@
 alias: magic
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Magic
 
 Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in [[war]].
@@ -147,7 +147,9 @@ If a mage has cast combat spells, it automatically casts spells as soon as it ta
 This can also happen even if he is set to `COMBAT NOT` or `FLEE`, when he is explicitly attacked with the [[cmd-attack]] order!
 
 A pre-combat or post-combat spell is cast once before or after the combat begins.
-A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under [Aura]) and that it is still alive.
+A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under [Aura][aura-id]) and that it is still alive.
+
+[](){ #aura-id }
 
 ### Aura
 
@@ -247,7 +249,7 @@ For illustration:
 | **Iron** required    |  5 | 10 | 20 | 40 |  80 |
 | **Wood** required    | 10 | 20 | 40 | 80 | 160 |
 
-Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see [above][Aura]).  
+Aura cost is also increased if a unit casts multiple spells in one turn (Formula: 2<sup>b-1</sup>, where b is the number of spells in this round, see [above][aura-id]).  
 This does not apply to other components; they are only increased by long-distance spells.  
 
 Distance spells and multiple spells can also increase the aura costs in combination:  
@@ -442,6 +444,5 @@ Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Aura]: #aura
 [Ranged Spells]: #ranged-spells
 [probability of blunders]: #blunder

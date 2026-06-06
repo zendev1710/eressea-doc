@@ -23,9 +23,9 @@ Make [[alchemy|potions]] from [[herbs]]. Learning costs 200 silver per person. T
 
 With a crossbow: fight. With the taxation skill: collect taxes (TAX).
 
-[](){ #skill-endurance-id }
+[](){ #skill--id }
 
-## Endurance
+## 
 
 Gives more hit points, making a unit more resistant to damage in combat or due to lack of food (see this [table][table-endurance-id]).
 
@@ -42,8 +42,8 @@ For prospecting you can only see layers up to (mining level X 2).
 If the layer is deeper, you won't see anything.
 
 !!! note
-    [laen][laen-id] mining needs a [mine][mine] and a skill level of **7**.  
-    [adamantium][adamantium-id] mining needs a [mine][mine] and a skill level of **8**.
+    [laen][laen-id] mining needs a [mine][mine-id] and a skill level of **7**.  
+    [adamantium][adamantium-id] mining needs a [mine][mine-id] and a skill level of **8**.
 
 [](){ #skill-bow-id }
 
@@ -85,7 +85,7 @@ With a catapult and ammunition: fight. Can't be used to collect taxes.
 
 ## Herbalism
 
-Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [[production]]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
 
 [](){ #skill-magic-id }
 

@@ -26,7 +26,7 @@ Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fäh
     Dämonen sind denkbar ungeeignet für unerfahrene Eressea-Spieler!
 
 - Alle Talente, in denen sie mindestens Talentstufe 1 haben (vor Rassenmalus), verschieben sich mit einer Wahrscheinlichkeit von 25% um bis zu 3 Lernwochen nach oben (mit 60% Chance) oder unten (mit 40% Chance; das Talent steigt oder sinkt also, nicht beides). Die Verschiebung erfolgt nach den langen Befehlen und der Bewegung. Negative Talentwerte entstehen dabei nicht; ein Talent kann nicht unter 0 fallen.
-- Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger].
+- Dämonen fressen jede Runde Bauern. Ein Bauer ernährt zehn Dämonen, und Dämonen, die keine Nahrung bekommen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger-de-id].
 - [Rekrutierte][rekrutieren] Dämonen werden nicht vom Bauernpool abgezogen. Aus spieltechnischen Gründen gilt aber trotzdem das Rekrutierungslimit.
 - Gibt man Dämonen mit [[bef-gib|`GIB 0`]] an die Bauern, kehren diese in ihre Heimatsphäre zurück, sie werden nicht zu Bauern.
 - Dämonen können sich als eine andere Rasse [[bef-tarne|tarnen]].
@@ -75,7 +75,7 @@ Insekten leben in einem streng organisiertem Staat. Sie hassen die Kälte und f�
 Insekten sind nicht sehr geeignet für unerfahrene Eressea-Spieler!
 
 - Insekten mögen Wärme und Feuchtigkeit und hassen die Kälte: In Wüsten und Sümpfen haben sie +1 auf alle Talente, in denen sie wenigstens Talent 1 haben, in Gebirgen und Gletschern -1.
-- Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger].
+- Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger-de-id].
 - Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie] ein [Trank] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
 - Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier][rasseneigenschaften]).
 - Insekten bekommen einen [Taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [[bef-gruppe|Gruppen]] in der Regel in verschiedenen Heeren!

@@ -18,7 +18,7 @@ Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z
 ## Untote
 
 Untote stellen den größten Teil der Monster-Partei.
-Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger-de-id] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
 Untote können verschiedene [[talente]] lernen und werden dadurch gefährlicher.
 Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
 Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [[bewaffnet]]), können aber auch Waffen tragen.
@@ -45,7 +45,7 @@ Es gibt verschiedene Arten von Drachen:
 - **Jungdrachen** entwickeln sich zu:
 - **Drachen** entwickeln sich zu:
 - **Wyrme**
-- Eine Klasse für sich ist (bzw. war) **[Igjarjuk] (igjr)**, der **Große Wyrm**, der nach seinem Tod als  
+- Eine Klasse für sich ist (bzw. war) **[Igjarjuk][igjarjuk-de-id] (igjr)**, der **Große Wyrm**, der nach seinem Tod als  
   **Untoter Wyrm** in den Kampf zwischen [[pentagramm-und-tirawon]] eingriff (und dabei ein zweites Mal starb).  
   Gerüchten zu Folge soll Igjarjuk zuletzt in der 13. Welt gesichtet worden sein -- vielleicht hat er ja auch sieben Leben?
 - Entfernte Verwandte der Drachen sind die **Seeschlangen**, die die Ozeane unsicher machen und vorbeifahrenden Schiffen auflauern. Boote sollen sie jedoch in Frieden ziehen lassen.
@@ -88,4 +88,3 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 [Untoten-Typen]: #untote
 [Drachen]: #drachen
 [Hirntöter]: ./monsters.md/#hirntoter
-[Igjarjuk]: #igjarjuk

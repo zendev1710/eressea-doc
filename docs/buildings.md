@@ -42,7 +42,7 @@ A unit can build ( skill level x persons / minimum skill) size points per round,
 
 - [[castles]]
 - [[other-buildings|special buildings]]
-- [[production]]
+- [Production][production-id]
 - [expenses][expenses]
 
 Continue reading: [[castles]].

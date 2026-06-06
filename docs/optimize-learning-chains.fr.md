@@ -127,7 +127,7 @@ Certaines chaînes typiques enseignant-élève sont présentées et discutées c
 
 ### Chaînes d'apprentissage typiques
 
-- **Chaîne simple enseignant-élève** -- constitué d'une unité enseignant (L) et d'une unité étudiant (S) avec 10*|L|=|S|.
+- **Chaîne simple enseignant-élève** -- constituée d'une unité enseignant (L) et d'une unité étudiant (S) avec 10*|L|=|S|.
   Les enseignants apprennent jusqu'à ce qu'ils aient deux niveaux d'avance, puis ils enseignent aux étudiants.
   Lorsque les étudiants n'étudient pas, ils font d'autres activités.
   Inconvénient : rythme d'apprentissage lent, avantages : seulement deux unités sont nécessaires, facile à automatiser.
@@ -155,13 +155,13 @@ En contrepartie, un enseignant enseigne toujours 2 unités et dispose ainsi de 1
   Le deuxième niveau comporte 3 unités de 5 fois la taille, le troisième niveau comporte 3 unités de 25 fois la taille.
   Une unité enseigne chacun des niveaux intermédiaires et deux sont enseignées.
   Au niveau supérieur, une personne enseigne et les 5 autres unités apprennent sans professeur, mais avec la puissance cérébrale et/ou une académie.
-- **Apprendre de deux compétences** --Les unités de combat (S) apprennent généralement deux compétences, leur [compétences d'arme et leur Endurance][liste-des-competences].
+- **Apprendre de deux compétences** --Les unités de combat (S) apprennent généralement deux compétences, leur compétence d'arme et leur [endurance][skill-endurance-fr-id]{title="Endurance"}.
   Il s'avère également utile à divers enseignants (L_K, L_A).
   En principe, vous avez deux options : Les professeurs sont des spécialistes et n'apprennent qu'une seule compétence.
   Bien que cela soit meilleur en termes de vitesse d'apprentissage, ces spécialistes sont très vulnérables (voire inutilisables) en cas de combat.
   Vous pouvez également choisir |S|=9*|L_K|=9*|L_A|.
   L_K apprend la compétences de combat puis enseigne S et L_A
-  L_A apprend l'endurance puis enseigne S et L_K
+  L_A apprend l'[endurance][skill-endurance-fr-id]{title="Endurance"} puis enseigne S et L_K
 - Pyramides à deux compétences --Il existe ici d'innombrables combinaisons possibles.
   Les vitesses d'apprentissage les plus élevées sont atteintes lorsque toutes les couches sauf la plus basse sont doublées, par ex. L_K,L_A,S1_K,S1_A,S2_K,S2_A,S3.
   Bien entendu, cela nécessite également de nombreuses unités.

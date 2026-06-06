@@ -17,7 +17,7 @@ Ohne Parameterangabe wird das Maximum gesetzt.
 
 Mit `TARNE PARTEI` kann man seine Parteizugehörigkeit zu verbergen versuchen.
 Die Parteizugehörigkeit wird für andere Spieler dann als "anonym" angezeigt.
-Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit [Spionage][spionage] erkennen.
+Im Gegensatz zum normalen Tarnung/Wahrnehmungs-Mechanismus kann man die Parteizugehörigkeit einer solchen Einheit nur noch mit [spionage][spionage-id] erkennen.
 Mit `TARNE PARTEI NICHT` wird diese Anonymisierung wieder aufgehoben und andere Spieler sehen die korrekte Parteizugehörigkeit - so sie denn über ausreichend Wahrnehmung verfügen und die Einheit überhaupt in ihrem Report erspähen.
 
 `TARNE PARTEI NUMMER nummer` tarnt die Einheit mit der angegebenen Parteinummer, sie kann sich also als einer beliebigen anderen Partei zugehörig tarnen.
@@ -48,7 +48,7 @@ Mit `TARNE rasse` können [Dämonen][damonen] sich als andere Rasse tarnen.
 
 ## Siehe auch
 
-- [Spionage][spionage]
+- [Spionage][spionage-id]
 - [Tarnung][tarnung]
 - [Wahrnehmung][wahrnehmung]
 

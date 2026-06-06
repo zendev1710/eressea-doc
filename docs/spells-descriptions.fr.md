@@ -1232,7 +1232,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 [](){ #veil-des-ents-id }
 
-### Éveil des [Ents][ents]
+### Éveil des [Ents][ents-fr-id]
 
 <!-- cspell:disable -->
 *Awakening of the Ents (EN), Erwecke Ents (DE)*.

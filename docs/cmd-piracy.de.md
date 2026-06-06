@@ -14,7 +14,7 @@ Mit diesem Befehl legt sich der Kapitän eines Schiffes automatisch auf die Laue
 
 ## Siehe auch
 
-- [Piraterie][piraterie]
+- [Piraterie][piraterie-de-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRATERIE&oldid=16789] -->
 

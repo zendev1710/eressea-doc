@@ -18,7 +18,7 @@ If no parameters are specified, the maximum is set.
 
 With `HIDE FACTION` you can try to hide your faction affiliation.
 The faction affiliation is then displayed as **anonymous** to other players.  
-In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage][espionage]**.  
+In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage][espionage-id]**.  
 
 With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.  
 
@@ -47,11 +47,11 @@ However, this camouflage comes with a few special features, which are listed her
 However, [[cmd-group]] also has the side effect of having multiple armies.  
 This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
 
-With `HIDE race` [demons][demons] can disguise themselves as another race.
+With `HIDE race` [demons][demons-id] can disguise themselves as another race.
 
 ## See also
 
-- [Espionage][espionage]
+- [Espionage][espionage-id]
 - [[stealth]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->

@@ -22,6 +22,8 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Catapult
 
+[](){ #claymore-id }
+
 ### Claymore
 
 [](){ #crossbow-id }

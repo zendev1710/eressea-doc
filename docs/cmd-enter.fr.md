@@ -9,7 +9,7 @@ alias: cmd-enter-fr
 **`ENTER`**` BUILDING `*`building-id`*  
 **`ENTER`**` SHIP `*`ship-id`*  
 
-Permet d'entrer dans le [[batiments|bâtiment]] ou le [[bateaux|bateau]] spécifié.  
+Permet d'entrer dans le [bâtiment][batiments-id] ou le [bateau][bateaux-id] spécifié.  
 
 L'unité qui [contrôle][unites-et-batiments] le bâtiment ou le bateau doit autoriser l'accès.  
 L'entrée réussit si l'unité propriétaire appartient à une autre faction mais a défini [[cmd-help|`HELP GUARD`]] pour la faction demandant l'entrée, ou si elle donne l'ordre [[cmd-contact]] pour l'unité requérante au même tour de jeu.  

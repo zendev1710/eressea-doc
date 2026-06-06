@@ -48,7 +48,7 @@ The sailing skill is only reduced by one level when units are starving. Neverthe
 
 Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning. Units lose hit points and will be much weaker in any subsequent battle. If units survive such a battle anyway, there is still a risk that they will continue to starve because they were unable to work due to the battle (see [combat end][the-end]).
 
-If units master the [endurance skill] at a high level, they may experience the strange effect that a unit is "very strong" according to the report (i.e. it has more hit points than it should normally have) after starving.
+If units master the [endurance][skill-endurance-id] skill at a high level, they may experience the strange effect that a unit is "very strong" according to the report (i.e. it has more hit points than it should normally have) after starving.
 
 ### Starvation for peasants
 
@@ -223,7 +223,6 @@ Continue reading: [Material pool].
 [reserved]: ./cmd-reserve.md
 [buildings]: ./buildings.md
 [damage]: ./ships.md
-[endurance skill]: ./war-tables.md
 [`WORK`]: ./cmd-work.md
 [stealth skill]: ./stealth.md
 [castles]: ./castles.md

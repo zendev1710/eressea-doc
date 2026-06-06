@@ -36,7 +36,7 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 | [Gobelin][gobelins]{title="Goblins"}      |               **4,4** |
 | [Aquarien][aquariens]{title="Aquarians"}  |                   5,4 |
 | [Chat][chats]{title="Cats"}               |                   5,4 |
-| [Démon][demons]{title="Demons"}           |                   5,4 |
+| [Démon][demons-fr-id]{title="Demons"}     |                   5,4 |
 | [Elfe][elfes]{title="Elves"}              |                   5,4 |
 | [Halfelins][halfelins]{title="Halflings"} |                   5,4 |
 | [Humain][humains]{title="Humans"}         |                   5,4 |
@@ -63,7 +63,7 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Barque][barque]{title="Boat"}            |                    50 |
 | [Chaloupe][chaloupe]{title="Longboat"}    |                   500 |
 | [Drakkar][drakkar]{title="Dragonship"}    |                 1 000 |
-| [Trirème][trireme]{title="Trireme"}       |                 2 000 |
+| [Trirème][trireme-fr-id]{title="Trireme"} |                 2 000 |
 | [Caravelle][caravelle]{title="Caravelle"} |                 3 000 |
 | [Galion][galion]{title="Galleon"}         |                20 000 |
 
@@ -76,7 +76,7 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Gobelin][gobelins]{title="Goblins"}     |     6 |
 | [Aquarien][aquariens]{title="Aquarians"} |    10 |
 | [Chat][chats]{title="Cats"}              |    10 |
-| [Démon][demons]{title="Demons"}          |    10 |
+| [Démon][demons-fr-id]{title="Demons"}    |    10 |
 | [Elfe][elfes]{title="Elves"}             |    10 |
 | [Halfelin][halfelins]{title="Halflings"} |    10 |
 | [Humain][humains]{title="Humans"}        |    10 |
@@ -92,7 +92,7 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 Le poids des objets les plus courants est répertorié dans le [tableau récapitulatif des objets].  
 
 !!! note "Note"
-    Les [potions][potions], [[plantes|plantes]]{title="plantes"} et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
+    Les [potions][potions-fr-id], [plantes][plantes]{title="Herbs"} et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
 
 ## Déplacement par voie terrestre
 
@@ -192,7 +192,7 @@ Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
 
 ## Voir aussi
 
-- [[bateaux]]
+- [Bateaux][bateaux-id]
 - [[routes]]
 
 Poursuivre la lecture : [[naviguer]].

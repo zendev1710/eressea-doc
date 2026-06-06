@@ -14,9 +14,16 @@ Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentat
 ## Progression par usage
 
 Certaines compétences s'améliorent également en les utilisant.
-Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
-Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN).
-Les compétences qui ne s'améliorent **pas** en les exerçant sont toutes les compétences d'armes, endurance, perception, tactics et taxation.
+Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (et donc 2/3 de chances qu'elle n'en gagne pas).
+Ainsi, en exerçant une compétence, une unité progresse statistiquement à environ 1/3 de la vitesse d'apprentissage (par LEARN).
+
+Les compétences **qui ne s'améliorent pas** en les **exerçant** sont les suivantes :
+
+- toutes les compétences d'armes
+- l'[endurance][skill-endurance-fr-id]{title="Endurance"}
+- la perception
+- la tacticque
+- la taxation
 
 Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
 Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
@@ -62,10 +69,11 @@ Unit s2; 10 Persons, Melee 1
 LEARN Melee
 ```
 
-Résultat : l'unité l1 forme 10 personnes de l'unité s1 en endurance.
-L'unité l2 enseigne aux 5 personnes restantes de s1 l'endurance et aux 5 personnes de l'unité s2 les armes coupantes.
-L'unité s1 est enseignée par l1 et l2 et apprend deux fois plus vite que la normale.
-L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50 % plus vite.
+Résultat :  
+l'unité l1 forme 10 personnes de l'unité s1 en endurance.  
+L'unité l2 enseigne l'endurance aux 5 personnes restantes de s1,  et enseigne les armes coupantes (mêlée) aux 5 personnes de l'unité s2.  
+L'unité s1 est enseignée par l1 et l2 et apprend deux fois plus vite que la normale.  
+L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50 % plus vite.  
 
 !!! warning "Attention"
     Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.  
@@ -74,7 +82,7 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][espionnage]{title="Espionage"} et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
+[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][skill-espionnage-id]{title="Espionage"} et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [[magie|tableau]]).
@@ -147,18 +155,18 @@ Les compétences de production sont les suivantes :
 
 Pour plus d'information, consulter les chapitres :
 
-- [[production]]
+- [Production][production-fr-id]
 - [[alchimie]]
 
 ### Compétences de gain d'argent
 
-Le [commerce][commerce]{title="Trade"}, la [taxation][taxation]{title="Taxation"}, et le [divertissement][divertissement]{title="Entertainment"} permettent de gagner de l'argent (des silvers).
+Le [commerce][commerce]{title="Trade"}, la [taxation][skill-taxation-fr-id]{title="Taxation"}, et le [divertissement][divertissement]{title="Entertainment"} permettent de gagner de l'argent (des silvers).
 
 Plus d'information : [[argent|l'argent]].
 
 ### Dissimulation
 
-[espionnage][espionnage]{title="Espionage"}, [discrétion][skill-discretion-id]{title="Stealth"} et [perception][skill-perception-fr-id]{title="Perception"} sont centrés sur la dissimulation.
+[espionnage][skill-espionnage-id]{title="Espionage"}, [discrétion][skill-discretion-id]{title="Stealth"} et [perception][skill-perception-fr-id]{title="Perception"} sont centrés sur la dissimulation.
 
 ### Compétences de déplacements
 
@@ -176,14 +184,14 @@ Les compétences de maniement des armes sont les suivantes :
 
 - [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}
 - [combat à mains nues][combat-a-mains-nues]{title="Unarmed combat"}
-- [mêlée][melee]{title="Melee"}
+- [mêlée][skill-melee-fr-id]{title="Melee"} (combat à l'arme coupante)
 - [tir à l'arc][tir-a-larc]{title="Bow"}
 - [tir à l'arbalète][tir-a-larbalete]{title="Crossbow"}
 - [tir à la catapulte][tir-a-la-catapulte]{title="Catapult"}
 
 Les autres compétences essentielles au combat sont :
 
-- [endurance][endurance]{title="Endurance"}
+- [endurance][skill-endurance-fr-id]{title="Endurance"}
 - [équitation][equitation]{title="Riding"}
 - [tactique][tactique]{title="Tactics"}
 

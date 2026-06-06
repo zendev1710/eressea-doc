@@ -3,7 +3,7 @@
 alias: magie-de
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Magie
 
 Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [Kampf] den Feind schwächen oder Verbündete stärken.
@@ -143,7 +143,9 @@ Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, fall
 
 Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert.
 Ein normaler Kampfzauber einmal in jeder Kampfrunde.
-Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter [Aura]) und dass sie noch lebt.
+Selbstverständlich nur unter der Voraussetzung, dass die Einheit noch ausreichend Aura besitzt (siehe unter [Aura][aura-de-id]) und dass sie noch lebt.
+
+[](){ #aura-de-id }
 
 ### Aura
 
@@ -213,7 +215,7 @@ Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten
 | Entfernung Regionen (a)           | 0                                 | 1                                   | 2                                   | 3                                   | 4                                     |
 | Anzahl der benötigten Komponenten | 1 Stein  <br>5 Eisen  <br>10 Holz | 2 Steine  <br>10 Eisen  <br>20 Holz | 4 Steine  <br>20 Eisen  <br>40 Holz | 8 Steine  <br>40 Eisen  <br>80 Holz | 16 Steine  <br>80 Eisen  <br>160 Holz |
 
-Aurakosten werden auch erhöht, wenn eine Einheit mehrere Zauber in einer Runde zaubert (Formel: 2<sup>b-1</sup>, wobei b die Anzahl der Zauber in dieser Runde ist, siehe [oben][Aura]). Für andere Komponenten gilt dies nicht, sie werden nur durch Fernzauber erhöht.
+Aurakosten werden auch erhöht, wenn eine Einheit mehrere Zauber in einer Runde zaubert (Formel: 2<sup>b-1</sup>, wobei b die Anzahl der Zauber in dieser Runde ist, siehe [oben][aura-de-id]). Für andere Komponenten gilt dies nicht, sie werden nur durch Fernzauber erhöht.
 
 Fernzauber und Mehrfachzauber können also auch in Kombination die Aurakosten erhöhen:
 
@@ -381,7 +383,6 @@ Weiterlesen: [[magiegebiete]].
 [bef-nach]: ./cmd-move.md
 [Zauberbeschreibungen]: ./spells-descriptions.md
 
-[Aura]: #aura
 [Fernzauber]: #fernzauber
 [Magieresistenz]: #magieresistenz
 [Wahrscheinlichkeit für Patzer]: #patzer

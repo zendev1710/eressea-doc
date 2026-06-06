@@ -48,6 +48,8 @@ If you expect to be successfully robbed, the only solution is to bring silver in
 
 Theft occasionally presents an effective way to bring down spies who are themselves well disguised, as their high level of camouflage gives them a high chance of escape during attacks.  
 
+[](){ #espionage-id }
+
 ## Espionage
 
 If a unit with the [Espionage][skill-espionage-id] skill issues the [[cmd-spy|`SPY`*`unit id`*]] order, its espionage skill is compared to the target unit's camouflage value.  

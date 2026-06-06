@@ -24,12 +24,12 @@ Mais le jeu continue.
   Le code Atlantis 1.0 et celui de la version allemande sont disponibles gratuitement, contrairement au code Eressea basé sur celui-ci.
 - Christian Schlittchen ([Corwin][corwin])
   a développé Eressea et fait tourner le jeu pendant longtemps (jusqu'au tour 289, vers mi-2002).
-- Katja Zedel ([Katze (Designerin)][katja-zedel])
+- Katja Zedel ([Katze (Designerin)][katja-zedel-fr-id])
   était la développeuse et directrice du jeu d'Eressea avec Corwin.
   Le plus grand projet de Katja a été le développement d'une nouvelle magie.
-- [Enno Rehling][enno]
+- [Enno Rehling][enno-fr-id]
   est là depuis le tour 39 et a pris en charge le développement et la gestion du jeu après le départ des deux autres directeurs du jeu.
-- Henning Peters ([Faroul][faroul])
+- Henning Peters ([Faroul][faroul-fr-id])
   Développeur, entre autres, du vérificateur d'ordres [[echeck]].
 - Benjamin Bärmann, Ingo Wilken
   Co-développeur dans les premières années, notamment sur l'alchimie
@@ -67,7 +67,7 @@ Un jour
 
 18.12.1998
 
-- Les combattants reçoivent 10 jours d'apprentissage en Endurance en plus des jours d'apprentissage de leur compétence d'arme respective, et 10 jours d'équitation s'ils sont montés et impliqués dans le combat
+- Les combattants reçoivent 10 jours d'apprentissage en [endurance][skill-endurance-fr-id] en plus des jours d'apprentissage de leur compétence d'arme respective, et 10 jours d'équitation s'ils sont montés et impliqués dans le combat
 
 08.01.1999
 
@@ -193,7 +193,7 @@ La grande majorité de ces changements concerne les races et les règles de comb
   - Les Humains obtiennent une fortification (à cette époque elle n'était composée que de 2 pierres)
   - Les halfelins reçoivent 1 chariot, 2 chevaux, 5 objets de luxe de chaque type et un cheval T1
   - Les trolls reçoivent 10 pierres et Perception T3
-  - Les démons obtiennent une endurance T15
+  - Les démons obtiennent une [endurance][skill-endurance-fr-id] T15
 - Les Murs de Feu (*Firewall*) sont introduits en tant que nouveau type de région
 
 ### La "Réforme Magique" 08.04.2000 (Tour 184)
@@ -425,7 +425,7 @@ Il s’agissait à l’origine d’une étape intermédiaire plus petite vers E1
 En raison des changements massifs de règles, l'E1.1 démarrera dans un nouveau monde.  
 Afin de contrecarrer les problèmes du jeu sans fin et de maintenir la charge de travail du jeu en cours aussi faible que possible, il ne sera pas possible de démarrer le jeu plus tard.  
 
-Le programmeur de ce projet est [Enno][enno], l'équipe de conception à ce stade n'est composée que de Xolgrim.  
+Le programmeur de ce projet est [Enno][enno-fr-id], l'équipe de conception à ce stade n'est composée que de Xolgrim.  
 Quelques jours plus tard, elle a été agrandie à sa taille actuelle avec Eon, qui avait remarqué Enno via une liste de diffusion, et Phygon, qui, comme Xolgrim, avait déjà travaillé sur divers projets inachevés d'Eressea.  
 
 Le titre provisoire, qui est l'abréviation de « Eressea 2009 », illustre le peu de temps qui reste pour le développement, la conception, la programmation et les tests.

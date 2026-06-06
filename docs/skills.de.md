@@ -66,7 +66,7 @@ Hier solltest du also ggf. durch Umstrukturieren der Lehrer-Einheiten "klare Ver
 Beim Befehl [LERNE AUTO] versucht der Server, das Lernen und Lehren in einer Region zu automatisieren.
 Da dies allerdings durch eine einfache Heuristik bewirkt wird, ist nicht garantiert, dass hier eine (dauerhaft) optimale Lernkette entsteht.
 
-[Magie], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][spionage] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
+[Magie], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][skill-spionage-id] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
 Spionage zu erlernen kostet 100 Silber pro Person und Runde, Alchemie, Kräuterkunde und Taktik sogar 200 Silber pro Person und Woche.
 Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe [Tabelle][Magie]).
 Die Einheit, welche eines dieser Talente lernt, muss dieses Silber bei sich tragen.
@@ -133,7 +133,7 @@ Mehr dazu im Kapitel über [Geld].
 
 ### Heimlich & Co
 
-[Spionage][spionage], [Tarnung] und [Wahrnehmung] drehen sich um Heimlichkeiten.
+[Spionage][skill-spionage-id], [Tarnung] und [Wahrnehmung] drehen sich um Heimlichkeiten.
 Sie haben ihre eigenen Kapitel.
 
 ### Fortbewegung

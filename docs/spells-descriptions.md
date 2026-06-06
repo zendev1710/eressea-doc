@@ -239,7 +239,7 @@ alias: description-of-spells
 
 [](){ #awakening-of-the-ents-id }
 
-### Awakening of the [Ents][ents]
+### Awakening of the [Ents][ents-id]
 
 :   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.

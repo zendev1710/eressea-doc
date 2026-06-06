@@ -22,21 +22,21 @@ The capacity refers only to the persons who can benefit from the building.
 | Buildings                       | Building costs |      |      |        | Skill | Upkeep  |          | Max. | Capacity   |
 |---------------------------------|----------------|------|------|--------|-------|---------|----------|------|------------|
 |                                 | Stone          | Wood | Iron | Silver |       | Silver  | Resource |      |            |
-| [Lighthouse]                    | 2              | 1    | 1    | 100    | 3     | 100     | --       | --   | 4 persons  |
-| [Mine]                          | 5              | 10   | 1    | 250    | 4     | 500     | --       | --   | size       |
-| [Quarry]                        | 1              | 5    | 1    | 250    | 2     | 250     | --       | --   | size       |
-| [Sawmill]                       | 5              | 5    | 3    | 200    | 3     | 250     | --       | --   | size       |
-| [Smithy]                        | 5              | 5    | 2    | 200    | 3     | 300     | 1 wood   | --   | size       |
-| [Stable]                        | 2              | 4    | 1    | 100    | 2     | 150     | --       | --   | size       |
-| [Harbour]                       | 5              | 5    | --   | 250    | 3     | 250     | --       | 25   | size       |
-| [Caravanserai]                  | 1              | 5    | 1    | 500    | 2     | 3000    | 2 horses | 10   | size       |
-| [Academy]                       | 5              | 5    | 1    | 500    | 3     | 1000    | --       | 25   | size       |
+| [Lighthouse][lighthouse]        | 2              | 1    | 1    | 100    | 3     | 100     | --       | --   | 4 persons  |
+| [Mine][mine-id]                 | 5              | 10   | 1    | 250    | 4     | 500     | --       | --   | size       |
+| [Quarry][quarry]                | 1              | 5    | 1    | 250    | 2     | 250     | --       | --   | size       |
+| [Sawmill][sawmill]              | 5              | 5    | 3    | 200    | 3     | 250     | --       | --   | size       |
+| [Smithy][smithy]                | 5              | 5    | 2    | 200    | 3     | 300     | 1 wood   | --   | size       |
+| [Stable][stable]                | 2              | 4    | 1    | 100    | 2     | 150     | --       | --   | size       |
+| [Harbour][harbour]              | 5              | 5    | --   | 250    | 3     | 250     | --       | 25   | size       |
+| [Caravanserai][caravanserai]    | 1              | 5    | 1    | 500    | 2     | 3000    | 2 horses | 10   | size       |
+| [Academy][academy]              | 5              | 5    | 1    | 500    | 3     | 1000    | --       | 25   | size       |
 | [Mage Tower][mage-tower-id][^1] | 5              | 3    | 3    | 500    | 5     | 1000    | --       | 50   | 2 Personen |
-| [Dam]                           | 5              | 10   | 1    | 500    | 4     | 1000    | 3 wood   | 50   | size       |
-| [Tunnel]                        | 10             | 5    | 1    | 300    | 6     | 100     | 2 stones | 100  | size       |
-| [Inn]                           | 4              | 3    | 1    | 200    | 2     | 5\*size | --       | --   | size       |
-| [Monument]                      | 1              | 1    | 1    | 400    | 4     | --      | --       | --   | size       |
-| [Stonecircle]                   | 5              | 5    | --   | --     | 2     | --      | --       | 100  | 3 Persons  |
+| [Dam][dam]                      | 5              | 10   | 1    | 500    | 4     | 1000    | 3 wood   | 50   | size       |
+| [Tunnel][tunnel-id]             | 10             | 5    | 1    | 300    | 6     | 100     | 2 stones | 100  | size       |
+| [Inn][inn]                      | 4              | 3    | 1    | 200    | 2     | 5\*size | --       | --   | size       |
+| [Monument][monument-id]         | 1              | 1    | 1    | 400    | 4     | --      | --       | --   | size       |
+| [Stonecircle][stonecircle]      | 5              | 5    | --   | --     | 2     | --      | --       | 100  | 3 Persons  |
 
 [^1]: also needs 2 Mallorn and 2 Laen per size point.
 
@@ -61,6 +61,8 @@ The capacity refers only to the persons who can benefit from the building.
 - Beginning from size 10, a lighthouse reduces the possibility that a ship drifts off.
   This effect extends 1+ log10(size of the lighthouse) regions around the building.
 - The lighthouse gives the occupants (only up to 4 units) information about ship sightings in all ocean regions within a radius of 1 + log10(lighthouse size) regions. The unit must have a perception of at least distance \* 3. A report from an ocean region three hexes away can only be obtained if the lighthouse is at least size 100 and the unit has at least perception 9.
+
+[](){ #mine-fr-id }
 
 ## Mine
 
@@ -177,7 +179,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 - Teachers who teach pupils in an academy also get a chance to learn, which is up to 1/3 depending on the number of their pupils. They do not have to be in an academy themselves for this.
 - An academy will only work if it is completely built!
 
-[](){ #-mage-tower-id }
+[](){ #mage-tower-id }
 
 ## Mage Tower
 
@@ -254,6 +256,8 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 - Units in a Inn regenerate 50% faster
 - All persons inside an Inn need 14 silver per week to live instead of the normal 10 silver
 
+[](){ #monument-id }
+
 ## Monument
 
 |                         |                                     |
@@ -288,22 +292,6 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 - [[buildings]]
 - [[castles]]
-- [[production]]
+- [Production][production-id]
 
 Continue reading: [[faction-pool]].
-
-[Lighthouse]: #lighthouse
-[Mine]: #mine
-[Quarry]: #quarry
-[Sawmill]: #sawmill
-[Smithy]: #smithy
-[Stable]: #stable
-[Harbour]: #harbour
-[Caravanserai]: #caravanserai
-[Academy]: #academy
-[Mage Tower]: #mage-tower
-[Dam]: #dam
-[Tunnel]: #tunnel
-[Inn]: #inn
-[Monument]: #monument
-[Stonecircle]: #stonecircle

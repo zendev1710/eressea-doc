@@ -211,10 +211,10 @@ Plus d'information : [liste des plantes][liste-des-plantes].
 
 ## Voir aussi
 
-- [[production]]
+- [Production][production-fr-id]
 - [[objets]]
 - [[routes]]
-- [[batiments]]
+- [Bâtiments][batiments-id]
 
 Poursuivre la lecture : [[objets]].
 

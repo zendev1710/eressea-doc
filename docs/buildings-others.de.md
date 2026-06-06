@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: andere-gebaeude
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Andere Gebäude
 
 Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: [[bef-mache|MACHE leuchtturm]] oder [[bef-mache|MACHE hafen]] xyz.
@@ -195,7 +197,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Kapazität:                 | Personen entsprechend Größe               |
 
 - Ermöglicht Straßenbau in Wüsten. Wird die Karawanserei komplett zerstört, wird die Hälfte der Straße vernichtet. Eine fertige Straße bleibt bestehen, wenn der Gebäudeunterhalt nicht bezahlt wird.
-- Verdoppelt in Wüsten das dort mögliche Handelsvolumen. Der Besitzer erhält einen Erlösanteil vom Handel entsprechend den Burgen (siehe [Tabelle zu Burgen]).
+- Verdoppelt in Wüsten das dort mögliche Handelsvolumen. Der Besitzer erhält einen Erlösanteil vom Handel entsprechend den Burgen (siehe [Tabelle zu Burgen][ubersicht]).
 - Die Karawanserei funktioniert nur, wenn sie voll ausgebaut ist!
 
 ## Damm
@@ -211,6 +213,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 - Ein Damm ermöglicht den Straßenbau in Sümpfen. Wird der Damm zerstört, so wird die Hälfte der Straße vernichtet. Eine fertige Straße bleibt bestehen, wenn der Gebäudeunterhalt nicht bezahlt wird.
 - Der Damm funktioniert nur, wenn er voll ausgebaut ist!
+
+[](){ #tunnel-de-id }
 
 ## Tunnel
 
@@ -263,7 +267,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Größenbegrenzung:          | 100                  |
 | Kapazität:                 | 3 Personen           |
 
-- Ein Steinkreis kann durch einen mächtigen Zauber [gesegnet werden]. Dieser entfaltet dann einige sonderbare Wirkungen. Unter anderem scheint er die überaus seltenen Elfenpferde anzulocken. Außerdem können Magier in dem Gebäude die Verbindung zwischen Astralraum und Realwelt unterbrechen.
+- Ein Steinkreis kann durch einen mächtigen Zauber [gesegnet werden][segne-steinkreis]. Dieser entfaltet dann einige sonderbare Wirkungen. Unter anderem scheint er die überaus seltenen Elfenpferde anzulocken. Außerdem können Magier in dem Gebäude die Verbindung zwischen Astralraum und Realwelt unterbrechen.
 - Ein Steinkreis funktioniert nur, wenn er voll ausgebaut und gesegnet ist!
 - In einem gesegneten Steinkreis regeneriert ein Magier 50% mehr Aura.
 - Die Stärke jedes Zaubers, der von einem gesegneten Steinkreis aus gesprochen wird, erhöht sich, als wäre der Zauber mit einer Stufe mehr gezaubert worden.
@@ -304,6 +308,3 @@ Weiterlesen: [Parteipool].
 [Taverne]: #taverne
 [Monument]: #monument
 [Steinkreis]: #steinkreis
-
-[Tabelle zu Burgen]: ./castles.md#ubersicht
-[gesegnet werden]: ./spells-descriptions.md#segne-steinkreis

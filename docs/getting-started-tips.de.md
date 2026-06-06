@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: anfängertipps
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Anfängertipps
 
 Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt.
@@ -35,13 +37,13 @@ Erschafft weitere Einheiten und lernt ein paar Talente, die ihr in den nächsten
 Hier ist vor allem [Unterhaltung] essenziell, um Geld zu verdienen.
 Ohne entsprechendes Silber wird eure Partei nicht wachsen können.
 Auch [Steuereintreiber] sind eine gute Einnahmequelle;
-hierfür braucht man z.B. Metalle ([Bergbau]) oder Holz ([Holzfällen]), um Waffen wie Schwerter oder Speere zu bauen;
-und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben], [Waffentalente]).
+hierfür braucht man z.B. Metalle ([vom-bergbau]) oder Holz ([Holzfällen][tief-im-wald]), um Waffen wie Schwerter oder Speere zu bauen;
+und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben][steuereintreiben], [Waffentalente][kampftalente]).
 
 [Wahrnehmung] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird.
-Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen.
-Ratsam ist auch das frühe Bauen von [Burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][Bergbau] für die Steine und [Burgenbau] zum Bau der Burg), damit [Handel] getrieben werden kann.
-Natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel Reiter) sowie deren Ausstattung ([Pferde und ggf. Wägen]).
+Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl][diebstahl-der-unehrliche-weg] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen.
+Ratsam ist auch das frühe Bauen von [Burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][vom-bergbau] für die Steine und [Burgenbau] zum Bau der Burg), damit [Handel][handel] getrieben werden kann.
+Natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel Reiter) sowie deren Ausstattung ([Pferde und ggf. Wägen][pferd-und-wagen]).
 Handel zu verstehen ist für Anfänger nicht ganz leicht, aber es lohnt sich.
 
 Einheiten mit teuren Talenten wie [Taktiker], [Alchemisten] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde).
@@ -57,21 +59,19 @@ Ein guter Ausgangspunkt für eure neue Befehlsdatei ist die an der Auswertung an
 Bei jeder Einheit kann man noch anmerken, was sie produziert, für wen sie es produziert, wohin sie unterwegs ist, oder welche Art von Handel sie treibt.
 Hier ein Beispiel für diese Kommentare:
 
-    ```
-    REGION 4,4 ; Lochinver
-    ; Vorsicht vor der dunklen Horde
-    ; abgeholzt?
-
-    EINHEIT zbt;           Bogenbauer Jog'nabat und seine Sippe [4;100$]
-        Mache Schwerter
-        Gib sjur 5 Schwerter ; wahrscheinlich gibt er nur die 4, die er
-                             ; letzte Runde hatte
-
-    EINHEIT sjur;          Fuhrmann Sjur [2;243$]
-        // Kapazität: 420 = 7 Steine; Silber!
-        Gib 7jht 7 Steine
-        Route Südwest West Pause Ost Nordost Pause
-    ```
+```text
+REGION 4,4 ; Lochinver
+; Vorsicht vor der dunklen Horde
+; abgeholzt?
+EINHEIT zbt;           Bogenbauer Jog'nabat und seine Sippe [4;100$]
+    Mache Schwerter
+    Gib sjur 5 Schwerter ; wahrscheinlich gibt er nur die 4, die er
+                         ; letzte Runde hatte
+EINHEIT sjur;          Fuhrmann Sjur [2;243$]
+    // Kapazität: 420 = 7 Steine; Silber!
+    Gib 7jht 7 Steine
+    Route Südwest West Pause Ost Nordost Pause
+```
 
 Der Kommentar hinter dem [EINHEIT-Befehl] wird vom Programm in die Zugvorlage eingesetzt;
 hinter dem Namen der Einheit steht in \[ \], wie viele Personen in der Einheit sind und wieviel Geld sie dabei hat (hier also 4 Personen mit 100 Silber und 2 mit 243 Silber).
@@ -83,7 +83,7 @@ Dabei sollte man Einheiten, die die Region verlassen, nicht vergessen!
 
 In den ersten Runden kann man noch vom Startkapital leben, aber bald braucht man aber ein ständiges Einkommen.
 Dieser Schatz ist im Allgemeinen nach vier bis sechs Runden aufgebraucht.
-Einnahmen erwirtschaftet man am schnellsten mit Steuereintreibern und Unterhaltern, und der [Handel][2] mit Luxusgütern verspricht langfristig große Gewinne.
+Einnahmen erwirtschaftet man am schnellsten mit Steuereintreibern und Unterhaltern, und der [Handel][handel] mit Luxusgütern verspricht langfristig große Gewinne.
 
 Plant die ersten Wochen vollständig durch.
 Man kann genau ausrechnen, wieviele Unterhalter, Steuereintreiber, Waffenbauer, Holzfäller ect., man ausheben kann und braucht.
@@ -153,12 +153,3 @@ Weiterlesen: [Xontormia-Express].
 [Hinweise]: ./hints.md
 [Der erste Zug]: ./first-round.md
 [Grundlagen]: ./basics.md
-
-[Bergbau]: ./resources.md#vom-bergbau
-[Holzfällen]: ./resources.md#tief-im-wald
-[Steuereintreiben]: ./skills.md <!-- TODO: #steuereintreiben -->
-[Waffentalente]: ./skills.md  <!-- TODO: #waffentalente-und-ausdauer "Talente" -->
-[Diebstahl]: ./silver.md#diebstahl-der-unehrliche-weg
-[Handel]: ./silver.md#handel "Geld"
-[Pferde und ggf. Wägen]: ./travel.md#pferd-und-wagen "Reisen"
-[2]: ./silver.md#handel "Handel"

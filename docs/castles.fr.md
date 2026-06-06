@@ -9,7 +9,7 @@ alias: chateaux
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et offrent à leurs occupants une protection en cas d'attaque.  
 Ils réduisent également la probabilité de [[peste]].  
 
-Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie][maconnerie].  
+Les châteaux sont construits en pierre à l'aide de l'ordre [[cmd-make|`MAKE CASTLE`]] par des unités maîtrisant la [maçonnerie][maconnerie]{title="Masonry"}.  
 Un château entre dans une nouvelle catégorie selon sa taille :
 
 *Taille d'un château selon son type.*

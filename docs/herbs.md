@@ -1,6 +1,8 @@
 ---
 # cSpell:locale en
-alias: herbs
+alias: 
+    name: herbs
+    text: herbs
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD042 MD052 -->

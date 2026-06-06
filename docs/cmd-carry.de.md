@@ -2,9 +2,14 @@
 # cSpell:locale de
 alias: bef-transportiere
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # TRANSPORTIERE
 
-**`FAHRE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
+*`FAHRE` ist ein [langer Befehl][kurze-und-lange-befehle]*.  
+*`TRANSPORTIERE` ist kurz, aber ergibt natürlich nur Sinn, wenn die Einheit einen (langen) Bewegungsbefehl ausführt.*
+
+**`FAHRE`**` `*`einheit-nr`*  
 **`TRANSPORTIERE`**` `*`einheit-nr`*  
 
 Mit dem Befehl `FAHRE` schließt sich eine Einheit einer transportierenden Einheit an und kann von dieser, sofern sie den Befehl `TRANSPORTIERE` für die fahrende Einheit gegeben hat, mitgenommen werden.
@@ -29,10 +34,8 @@ Partei 300:
         KONTAKTIERE 311
 ```
 
-[<sup>L</sup>][<sup>`L`</sup>] `FAHRE` ist ein langer Befehl. `TRANSPORTIERE` ist kurz, aber ergibt natürlich nur Sinn, wenn die Einheit einen (langen) Bewegungsbefehl ausführt.
-
-- [Meermenschen] können beim [Anschwimmen] keine anderen Rassen transportieren und auch keine Pferde oder Wagen mitnehmen.
-- [Insekten] können auch mittels `TRANSPORTIERE` nicht in oder durch einen Gletscher gebracht werden.
+- [Meermenschen][meermenschen] können beim [Anschwimmen][anschwimmen] keine anderen Rassen transportieren und auch keine Pferde oder Wagen mitnehmen.
+- [Insekten][insekten] können auch mittels `TRANSPORTIERE` nicht in oder durch einen Gletscher gebracht werden.
 
 ## Siehe auch
 
@@ -45,8 +48,3 @@ Partei 300:
 [Reisen]: ./travel.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
-
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
-[Meermenschen]: ./races.md#meermenschen
-[Anschwimmen]: ./sailing.md#anschwimmen
-[Insekten]: ./races.md#insekten

@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: strassen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Straßen
 
 **Straßen** erhöhen die Reisegeschwindigkeit über Land. Dazu müssen von der Start- bis zur Zielregion inklusive Straßen existieren. Diese Straßen erlauben ein leichtes Fortkommen, da sie bei Regen nicht versumpfen, nicht vom Wald überwachsen werden und Flüsse und Schluchten von Brücken überspannt werden.
@@ -12,20 +14,16 @@ Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Au
 
 Straßenbau
 
-| Gelände   | Steine | Gebäude        |
-|-----------|--------|----------------|
-| Ebene     | 50     | --             |
-| Wald      | 50     | --             |
-| Hochland  | 100    | --             |
-| Gebirge   | 250    | --             |
-| Vulkan    | 250    |                |
-| Sumpf     | 75     | [Damm]         |
-| Wüste     | 100    | [Karawanserei] |
-| Gletscher | 250    | [Tunnel]       |
-
-[Damm]: ./buildings-others.md#damm "Andere Gebäude"
-[Karawanserei]: ./buildings-others.md#karawanserei "Andere Gebäude"
-[Tunnel]: ./buildings-others.md#tunnel "Andere Gebäude"
+| Gelände   | Steine | Gebäude                      |
+|-----------|--------|------------------------------|
+| Ebene     | 50     | --                           |
+| Wald      | 50     | --                           |
+| Hochland  | 100    | --                           |
+| Gebirge   | 250    | --                           |
+| Vulkan    | 250    |                              |
+| Sumpf     | 75     | [Damm][damm]                 |
+| Wüste     | 100    | [Karawanserei][karawanserei] |
+| Gletscher | 250    | [Tunnel][tunnel-de-id]       |
 
 **Beispiel:** Um von der Ebene bei (0,0) über den Sumpf bei (1,0) bis zum Berg in (1,1) eine Straße zu bauen, brauchst du
 
@@ -39,8 +37,7 @@ Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (
 
 Weiterlesen: [Schiff].
 
-[Schiff]: ./ships.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Straße&oldid=15933] -->
 
+[Schiff]: ./ships.md
 [Gebäude]: ./buildings-others.md

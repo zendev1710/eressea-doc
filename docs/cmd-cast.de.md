@@ -2,19 +2,20 @@
 # cSpell:locale de
 alias: bef-zaubere
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ZAUBERE
 
-**`ZAUBERE`**[<sup>`(l)`</sup>]` [REGION `*`x`*` `*`y`*`] [STUFE`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`  
+*[kurzer befehl][kurze-und-lange-befehle][^1]*.  
+
+**`ZAUBERE`**` [REGION `*`x`*` `*`y`*`] [STUFE`*`nr`*`] "`*`Zauberspruch`*`" [`*`parameter`*`] ...`  
 
 Mit diesem Befehl wird eine Magiereinheit versuchen, den genannten Zauberspruch zu zaubern.
-
-[<sup>(l)</sup>][<sup>`(l)`</sup>] ZAUBERE ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus.
-Man kann aber weitere Zauber sprechen.
 
 !!! warning "Achtung"
     Die Modifikatoren REGION und STUFE sind nicht für jeden Zauber zutreffend.
 
-REGION kann nur bei [Fernzaubern] verwendet werden und STUFE macht nur bei Zaubersprüchen mit variablen [Kosten] Sinn.
+REGION kann nur bei [Fernzaubern][fernzauber] verwendet werden und STUFE macht nur bei Zaubersprüchen mit variablen [Kosten][komponenten] Sinn.
 Manche Zauber haben noch weitere Parameter.
 
 Die Anwendung der Zauber ist zum einen im Kapitel [[magie-de]] genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden.
@@ -24,8 +25,6 @@ Kampfzauber können nicht einfach so gezaubert werden.
 Will man diese gegen eine Einheit verwenden, muß man den [[bef-kampfzauber]] setzen und dann eine Einheit [[bef-attackiere|attackieren]] oder attackiert werden.
 Dies kann allerdings zu größeren Schlachten führen!
 
-<!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
+[^1]: ZAUBERE ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus. Man kann aber weitere Zauber sprechen.
 
-[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
-[Fernzaubern]: ./magic.md#fernzauber
-[Kosten]: ./magic.md#komponenten
+<!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->

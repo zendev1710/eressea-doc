@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: burgen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Burgen
 
 Burgen erhöhen den Verdienst der Bauern, sie ermöglichen den Handel mit Luxusgütern und schließlich bieten sie ihren Insassen Schutz bei Angriffen.  
@@ -27,10 +29,10 @@ langen Brücke überspannt wird.
 ```
 
 Einheiten in Burgen werden von dieser geschützt, und zwar wird pro Größeneinheit der Burg eine Person geschützt.  
-Nur die geschützten Personen profitieren bei einem Überfall vom Bonus, den eine Burg den Insassen verleiht (weiteres hierzu siehe Kapitel [Krieg], insbesondere die Liste der [Boni und Mali]).  
+Nur die geschützten Personen profitieren bei einem Überfall vom Bonus, den eine Burg den Insassen verleiht (weiteres hierzu siehe Kapitel [Krieg], insbesondere die Liste der [Boni und Mali][boni-und-mali]).  
 Jeder Größenpunkt der Burg benötigt einen Stein.  
 
-Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter und Bauern profitieren beim Arbeiten von einem Bonus, der davon abhängt, wie groß die größte Burg in einer Region ist (siehe auch [Übersichtstabelle]), außerdem bekommt die Besitzereinheit der größten Burg einen Anteil von den Erlösen der Verkäufe anderer Spieler.
+Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter und Bauern profitieren beim Arbeiten von einem Bonus, der davon abhängt, wie groß die größte Burg in einer Region ist (siehe auch [Übersichtstabelle][ubersicht]), außerdem bekommt die Besitzereinheit der größten Burg einen Anteil von den Erlösen der Verkäufe anderer Spieler.
 
 ## Grundmauern
 
@@ -75,8 +77,8 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 
 - [Andere Gebäude]
 - [Gebäude]
-- [Boni und Mali]
-- [Einnahmen]
+- [Boni und Mali][boni-und-mali]
+- [Einnahmen][einnahmen]
 
 Weiterlesen: [Andere Gebäude].
 
@@ -87,7 +89,3 @@ Weiterlesen: [Andere Gebäude].
 [MACHE BURG]: ./cmd-make.md
 [Krieg]: ./war.md
 [Gebäude]: ./buildings.md
-
-[Boni und Mali]: ./war.md#boni-und-mali
-[Übersichtstabelle]: ./castles.md/#ubersicht
-[Einnahmen]: ./silver.md#einnahmen

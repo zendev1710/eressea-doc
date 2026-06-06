@@ -2,15 +2,17 @@
 # cSpell:locale de
 alias: bef-bewache
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # BEWACHE
 
 **`BEWACHE`**`[NICHT]`  
 
-Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
+Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
 Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
-- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel] oder Bauern rekrutieren.
+- Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel][handel] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
 - Befinden sie sich auf einem Schiff, so können sie nicht [[bef-arbeite]]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [[bef-verlasse]] haben.
 
@@ -20,7 +22,7 @@ Es ist aber sehr wohl möglich in einer bewachten Region an Land zu unterhalten,
 
 Geben mehrere Parteien gleichzeitig oder nacheinander den BEWACHE-Befehl, so bewachen sie alle die Region. Nur für Parteien, die mit *allen* bewachenden Parteien alliiert sind, gelten dann die obigen Einschränkungen nicht.
 
-Parteien, die mit *mindestens einer* bewachenden Partei alliiert sind, können trotz Kämpfen noch lange Befehle (evtl. mit den obigen Ausnahmen) ausführen (siehe [Kampfende]).
+Parteien, die mit *mindestens einer* bewachenden Partei alliiert sind, können trotz Kämpfen noch lange Befehle (evtl. mit den obigen Ausnahmen) ausführen (siehe [Kampfende][das-ende]).
 
 In der Runde, in der der `BEWACHE`-Befehl gegeben wurde, gelten all diese Beschränkungen allerdings noch nicht, denn die bewachende Einheit muss erst einmal herausfinden, wo fremde Einheiten überall Silber eintreiben könnten etc. Die bewachende Einheit wird sofort für alle anderen Einheiten in der Region sichtbar, egal wie hoch ihr Tarnungstalent ist.
 
@@ -40,12 +42,9 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
-[Waffe]: ./war-tables.md#waffeneigenschaften "Kriegstabellen"
 [bewaffnet]: ./armed.md
 [alliiert]: ./alliances.md
 [bef-kontaktiere]: ./cmd-contact.md
-[Kampfende]: ./war.md#das-ende "Kampfende"
 [KÄMPFE FLIEHE]: ./cmd-combat.md
 [Monster]: ./monsters.md
 [ersten Wochen]: ./puppy-protection.md
-[handel]: ./silver.md#handel

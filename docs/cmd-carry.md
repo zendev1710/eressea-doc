@@ -6,7 +6,7 @@ alias: cmd-carry
 <!-- markdownlint-disable MD052 -->
 # CARRY
 
-*`RIDE` is a [ong order][short-and-long-orders].*  
+*`RIDE` is a [long order][short-and-long-orders].*  
 *`CARRY` is short, but of course only makes sense if the unit executes a (long) movement order.*  
 
 **`RIDE <unit-id>`**  

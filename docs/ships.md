@@ -2,9 +2,9 @@
 # cSpell:locale en
 alias: ships
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 -->
 # Ships
-
-<!-- translated from german to english -->
 
 Ships are built using the [[cmd-make|**`MAKE`**&#91;*`levels`*&#93;*`ship type`*]] order.  
 Existing, unfinished, or damaged ships can be further built using **`MAKE`**&#91;*`levels`*&#93;&nbsp;`SHIP`&nbsp;&#93;*`ship-id`*&#93;.  
@@ -76,6 +76,8 @@ Dragon ship speed.
 | Captain | 2 | 6 | 18 | 54 | 162 |
 |---------|---|---|----|----|:---:|
 | Range   | 5 | 6 | 7  | 8  |  9  |
+
+[](){ #-convoy-id }
 
 ## Convoy
 

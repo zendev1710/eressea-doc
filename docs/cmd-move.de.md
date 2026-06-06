@@ -2,9 +2,13 @@
 # cSpell:locale de
 alias: bef-nach
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # NACH
 
-**`NACH`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`]...`  
+*[Langer Befehl][kurze-und-lange-befehle].*
+
+**`NACH`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`]...`  
 
 Mit dem Befehl `NACH` bewegt sich die Einheit durch die Welt von Eressea. Die Himmelsrichtungen sind in Eressea Nordosten, Nordwesten, Osten, Westen, Südosten und Südwesten. Die Koordinaten werden nicht verwendet.
 
@@ -41,7 +45,6 @@ Vorlage nächste Woche:
 
 <!-- From [https://wiki.eressea.de/index.php?title=NACH&oldid=16729] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Defaultbefehle]: ./cmd-default.md
 [Zugvorlage]: ./commands.md
 [Reisen]: ./travel.md

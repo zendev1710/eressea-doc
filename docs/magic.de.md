@@ -2,7 +2,8 @@
 # cSpell:locale de
 alias: magie-de
 ---
-
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Magie
 
 Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [Kampf] den Feind schwächen oder Verbündete stärken.
@@ -114,7 +115,7 @@ Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden.
 Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird.
 Alle drei Arten können mit dem Befehl [KAMPFZAUBER STUFE n "Zauber"] gesetzt werden.
 Löschen kann man einen bestimmten Kampfzauber mit dem Befehl [KAMPFZAUBER "Zauber" NICHT][KAMPFZAUBER STUFE n "Zauber"] oder alle gesetzten Kampfzauber mit [KAMPFZAUBER NICHT][KAMPFZAUBER STUFE n "Zauber"].
-Kampfzauber wirken in etwa wie die [KÄMPFE-Befehle], d. h. einmal gesetzt, bleiben sie gespeichert.
+Kampfzauber wirken in etwa wie die [KÄMPFE-Befehle][kampfreihen], d. h. einmal gesetzt, bleiben sie gespeichert.
 Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben.
 Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.
 
@@ -137,7 +138,7 @@ Syntax:
 ```
 
 Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt.
-Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe [Die Seiten in einer Schlacht]).
+Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe [Die Seiten in einer Schlacht][die-seiten-in-einer-schlacht]).
 Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, falls sie explizit mit dem Befehl [[bef-attackiere]] angegriffen wird!
 
 Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert.
@@ -173,19 +174,23 @@ Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet
 
 Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
 
-Durch einen [Ring der Macht], [Andere Gebäude#magierturm] oder [gesegneten Steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
+Durch einen [Ring der Macht], [magierturm][magierturm] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
 
 Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer] beeinflusst.
 
 Diese Modifikation funktioniert auch bei Kampfzaubern:
 
-     KAMPFZAUBER STUFE 2 "Gesang der Furcht"
+```text
+KAMPFZAUBER STUFE 2 "Gesang der Furcht"
+```
 
 Das ist zum Beispiel sinnvoll, wenn man sich etwas Aura aufsparen will, um für einen Postkampfzauber noch etwas Aura übrig zu haben.
 
 **Beispiel:**
 
-     ZAUBERE STUFE 4 "Wunderdoktor"
+```text
+ZAUBERE STUFE 4 "Wunderdoktor"
+```
 
 Dieser Zauber wird 4 Aura kosten und 200 Silber verdienen. Mit einem Ring der Macht kostet er immer noch 4 Aura, verdient aber 250 Silber.
 
@@ -197,7 +202,9 @@ Steht dort einfach nur Anzahl Aura, so heißt das, dass die Kosten fix sind: *Ri
 
 Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber in einer anderen. Bei diesen Zaubern kann man dann die folgende Syntax benutzen:
 
-     ZAUBERE REGION <x> <y> "Zauber"
+```text
+ZAUBERE REGION <x> <y> "<Zauber>"
+```
 
 Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den [[bef-ursprung]]. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:
 
@@ -218,7 +225,9 @@ Fernzauber und Mehrfachzauber können also auch in Kombination die Aurakosten er
 
 Die beiden Modifikatoren können auch verknüpft werden:
 
-     ZAUBERE REGION <x> <y> STUFE <nr> "Zauber"
+```text
+ZAUBERE REGION <x> <y> STUFE <nr> "<Zauber>"
+```
 
 Dabei ist wichtig, dass man erst die Region und dann die Stufe angibt.
 
@@ -250,9 +259,11 @@ Es gäbe drei Zauber, genannt "Aaaa", "Beee" und "Ceee".
 
 Angenommen die Einheit hat die Befehle
 
-       ZAUBERE "Ceee"
-       ZAUBERE "Beee"
-       ZAUBERE "Aaaa"
+```text
+ZAUBERE "Ceee"
+ZAUBERE "Beee"
+ZAUBERE "Aaaa"
+```
 
 in dieser Reihenfolge. Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura. Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa". "Ceee" ist der zweite Zauber, er kostet also 5\*2^1=10 Aura. Nun kommt noch "Aaaa". "Aaaa" ist der dritte Zauber, er kostet also 10\*2^2=40 Aura.
 
@@ -285,7 +296,7 @@ Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähig
 - plus 5% pro Magietalent
 - plus 10% \* Einhörner pro Person
 - evtl. Bonus oder Abzug durch [Zauber] auf der Einheit oder der Region
-- evtl. Bonus durch [Gebäude][gesegneten Steinkreis]
+- evtl. Bonus durch [Gebäude][steinkreis]
 - Diese Werte werden addiert, das Ergebnis kann aber nie höher als 90% sein.
 
 Bei bestimmten direkten Verzauberungen wird sie zusätzlich von der Erfahrung der Einheit beeinflusst:
@@ -293,19 +304,19 @@ Bei bestimmten direkten Verzauberungen wird sie zusätzlich von der Erfahrung de
 - 50% + 5% \* (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)
 - nie unter 2%, nie über 98%
 
-Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen]. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
+Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen][magieresistenz]. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
 
 Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.
 
 **Beispiele:** Die Basischance ist 0% für Menschen, 10% für [Elfen], für [Goblins][Elfen] ist sie nur -5%.
 
-Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
+Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch][chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
 
-Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][Waffen oder Rüstungen] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
+Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][magieresistenz] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
 
 ## Magierturm
 
-Ein [Magierturm][Andere Gebäude#magierturm] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
+Ein [Magierturm][magierturm] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
 
 ## Vertraute
 
@@ -336,7 +347,7 @@ Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einers
 
 Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten. Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen. Einzig *Elfenpferde* scheinen als magische Reittiere im Astralraum überleben zu können.
 
-Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben. Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
+Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen][hirntoter] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben. Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
 
 ## Listen aller Zauber
 
@@ -369,14 +380,6 @@ Weiterlesen: [[magiegebiete]].
 [Vertraute]: ./familiars.md
 [bef-nach]: ./cmd-move.md
 [Zauberbeschreibungen]: ./spells-descriptions.md
-
-[KÄMPFE-Befehle]: ./war.md#kampfreihen
-[Die Seiten in einer Schlacht]: ./war.md#die-seiten-in-einer-schlacht
-[Andere Gebäude#magierturm]: ./buildings-others.md#magierturm
-[gesegneten Steinkreis]: ./buildings-others.md#steinkreis
-[Waffen oder Rüstungen]: ./war-tables.md#magieresistenz
-[Chaosfluch]: ./spells-descriptions.md#chaosfluch
-[Wesen]: ./monsters.md#hirntoter
 
 [Aura]: #aura
 [Fernzauber]: #fernzauber

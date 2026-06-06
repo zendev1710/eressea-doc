@@ -8,6 +8,8 @@ alias: description-of-spells
 
 ## A
 
+[](){ #acceleration-id }
+
 ### Acceleration
 
 :   This spell speeds up some fighters on your side so that they can attack twice in one combat round throughout the entire combat.
@@ -18,6 +20,8 @@ alias: description-of-spells
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
+[](){ #air-shield-id }
+
 ### Air Shield
 
 :   Invoking the Elemental Spirits of Wind conjures up sudden gusts of wind, small gusts of wind, and vents that will hinder opposing archers.
@@ -27,6 +31,8 @@ alias: description-of-spells
 |  G  | 2 x T aura |   4 | Pre-c. |  5   | :material-check:{ .success } |       |
 
 `COMBATSPELL [LEVEL n] "Air Shield"`  
+
+[](){ #airship-id }
 
 ### Airship
 
@@ -39,6 +45,8 @@ alias: description-of-spells
 
 `CAST Airship <ship-id>`  
 
+[](){ #analysis-id }
+
 ### Analysis
 
 :   Like living things, ships and buildings and even regions have their own song, albeit much fainter and harder to hear.  
@@ -49,6 +57,8 @@ alias: description-of-spells
 |  C  | 3 x T aura |   8 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #analyse-dreams-id }
 
 ### Analyse Dreams
 
@@ -62,6 +72,8 @@ alias: description-of-spells
 
 `CAST "Analyse Dreams" <unit-id>`  
 
+[](){ #analyze-magic-id }
+
 ### Analyze Magic
 
 :   This spell allows the magician to attempt to detect the enchantments of a single specified object.  
@@ -73,6 +85,8 @@ alias: description-of-spells
 |  T  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #analyze-song-of-life-id }
 
 ### Analyze Song of Life
 
@@ -88,6 +102,8 @@ alias: description-of-spells
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
+[](){ #animate-dead-id }
+
 ### Animate Dead
 
 :   The black magician has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses.  
@@ -98,6 +114,8 @@ alias: description-of-spells
 |  D  | 5 x T aura |   6 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
+
+[](){ #antimagic-id }
 
 ### Antimagic
 
@@ -111,6 +129,8 @@ alias: description-of-spells
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
+[](){ #appeasing-song-id }
+
 ### Appeasing Song
 
 :   This song tames even the wildest orc and makes him peaceful and gentle.  
@@ -122,6 +142,8 @@ alias: description-of-spells
 |  C  | 2 aura     |   1 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
+
+[](){ #astral-call-id }
 
 ### Astral Call
 
@@ -135,6 +157,8 @@ alias: description-of-spells
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
+[](){ #astral-chaos-id }
+
 ### Astral Chaos
 
 :   This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
@@ -144,6 +168,8 @@ alias: description-of-spells
 |  D  | 6 x T aura |   9 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
+
+[](){ #astral-disruption-id }
 
 ### Astral Disruption
 
@@ -157,6 +183,8 @@ alias: description-of-spells
 
 `CAST [LEVEL n] "Astral Disruption"`  
 
+[](){ #astral-exit-id }
+
 ### Astral Exit
 
 :   The magician concentrates on the structure of reality and can thus leave the Astral plane.  
@@ -169,6 +197,8 @@ alias: description-of-spells
 
 `CAST [LEVEL n] "Astral Exit" <x> <y> <unit-id> [<unit-id> ...]`  
 
+[](){ #astral-guardian-spirits-id }
+
 ### Astral Guardian Spirits
 
 :   This ritual summons some elemental spirits of magic and sends them into the ranks of the enemy mages.  
@@ -179,6 +209,8 @@ alias: description-of-spells
 |  G  | 5 x T aura |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
+
+[](){ #astral-leak-id }
 
 ### Astral Leak
 
@@ -191,6 +223,8 @@ alias: description-of-spells
 
 `CAST "Astral Leak"`  
 
+[](){ #astral-path-id }
+
 ### Astral Path
 
 :   Ancient arcane formulas allow the magician to send himself and others into the Astral plane.  
@@ -202,6 +236,8 @@ alias: description-of-spells
 |  T  | 2 x T aura |   4 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
+
+[](){ #awakening-of-the-ents-id }
 
 ### Awakening of the [Ents][ents]
 
@@ -216,6 +252,8 @@ alias: description-of-spells
 
 ## B
 
+[](){ #bad-dreams-id }
+
 ### Bad Dreams
 
 :   This spell enables the dreamer to disturb the sleep of all non-allied units (`HELP GUARD`) in the region so severely they lose parts of their memories.
@@ -225,6 +263,8 @@ alias: description-of-spells
 |  I  | 90 aura    |  10 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Bad Dreams]"`  
+
+[](){ #banish-spirits-id }
 
 ### Banish Spirits
 
@@ -238,6 +278,8 @@ alias: description-of-spells
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #barkskin-id }
+
 ### Barkskin
 
 :   Performing this ritual before going into battle gives your troups an additional bonus to their armor.  
@@ -248,6 +290,8 @@ alias: description-of-spells
 |  G  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Barkskin"`  
+
+[](){ #blabbermouth-id }
 
 ### Blabbermouth
 
@@ -260,6 +304,8 @@ alias: description-of-spells
 
 `CAST Blabbermouth <unit-id>`  
 
+[](){ #bless-mallorn-logs-id }
+
 ### Bless Mallorn Logs
 
 :   This ritual greatly increases the effect of the potion.  
@@ -270,6 +316,8 @@ alias: description-of-spells
 |  G  | 6 x T aura, T [mallorn][mallorn-id], 1 [water of life][water-of-life] |   4 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
+
+[](){ #bless-stone-circle-id }
 
 ### Bless Stone Circle
 
@@ -284,6 +332,8 @@ alias: description-of-spells
 
 `CAST "Bless Stone Circle" <building-id>`  
 
+[](){ #blessed-harvest-id }
+
 ### Blessed Harvest
 
 :   This harvest ritual improves the yields of working farmers in the region by one piece of silver.  
@@ -294,6 +344,8 @@ alias: description-of-spells
 |  G  | T aura     |   1 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
+
+[](){ #blood-frenzy-id }
 
 ### Blood Frenzy
 
@@ -308,6 +360,8 @@ alias: description-of-spells
 
 ## C
 
+[](){ #call-of-reality-id }
+
 ### Call of Reality
 
 :   A magician who is in the material world can use this spell to summon units from the adjacent Astral world.  
@@ -318,6 +372,8 @@ alias: description-of-spells
 |  T  | 2 x T aura |   6 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
+
+[](){ #calm-monster-id }
 
 ### Calm Monster
 
@@ -331,6 +387,8 @@ alias: description-of-spells
 
 `CAST "Calm Monster" <unit-id>`  
 
+[](){ #calm-riot-id }
+
 ### Calm Riot
 
 :   By means of this magical chant the mage can calm a rioting region.  
@@ -341,6 +399,8 @@ alias: description-of-spells
 |  C  | 30 aura    |  15 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Calm Riot"`  
+
+[](){ #castle-of-illusion-id }
 
 ### Castle of Illusion
 
@@ -353,6 +413,8 @@ alias: description-of-spells
 |  I  | 3 aura     |   3 | Normal |  5   |      |       |
 
 `CAST "Castle of Illusion" <Gebäudetyp>`  
+
+[](){ #cattle-healing-id }
 
 ### Cattle Healing
 
@@ -367,6 +429,8 @@ alias: description-of-spells
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
+[](){ #chaos-curse-id }
+
 ### Chaos Curse
 
 :   This insidious curse significantly impairs the victim"s magical abilities.  
@@ -377,6 +441,8 @@ alias: description-of-spells
 |  D  | 4 x T aura |   5 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
+
+[](){ #chaos-gate-id }
 
 ### Chaos Gate
 
@@ -390,6 +456,8 @@ alias: description-of-spells
 
 `CAST "Chaos Gate"`  
 
+[](){ #chaos-gift-id }
+
 ### Chaos Gift
 
 :   The magician opens his mind to the spheres of chaos and will thus have more magical power for some time.  
@@ -401,6 +469,8 @@ alias: description-of-spells
 
 `CAST "Chaos Gift"`  
 
+[](){ #concealing-aura-id }
+
 ### Concealing Aura
 
 :   This spell will obscure all of the target unit"s equipment from view for a period of time.
@@ -410,6 +480,8 @@ alias: description-of-spells
 |  T  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
+
+[](){ #countersong-id }
 
 ### Countersong
 
@@ -421,6 +493,8 @@ alias: description-of-spells
 |  C  | 5 x T aura |   5 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
+
+[](){ #create-a-bag-of-holding-id }
 
 ### Create A Bag of Holding
 
@@ -434,6 +508,8 @@ alias: description-of-spells
 
 `CAST "Create A Bag of Holding"`
 
+[](){ #create-a-belt-of-troll-strength-id }
+
 ### Create a [[belt-of-troll-strength]]
 
 :   This magical artifact grants the wearer the strength of a full-grown cave troll.  
@@ -444,6 +520,8 @@ alias: description-of-spells
 |  D  | 20 aura, 1 permanent aura |   9 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Belt of Troll Strength"`  
+
+[](){ #create-a-flaming-sword-id }
 
 ### Create a [[flaming-sword]]
 
@@ -458,6 +536,8 @@ And if you have done everything to please them, they will send one of their own 
 
 `CAST "Create A Flaming Sword"`  
 
+[](){ #create-a-magical-herb-pouch-id }
+
 ### Create a [[magical-herb-pouch]]
 
 :   The Druid takes some prepared leather, which he cleanses of all unclean spirits in a great ritual of purification, and then binds some small spirits of air and water into the material.  
@@ -468,6 +548,8 @@ And if you have done everything to please them, they will send one of their own 
 |  G  | 30 aura, 1 permanent aura, 1 [water of life][water-of-life] |   5 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
+
+[](){ #create-a-ring-of-power-id }
 
 ### Create a [[ring-of-power]]
 
@@ -494,6 +576,8 @@ And if you have done everything to please them, they will send one of their own 
 
 `CAST "Create A Ring of Invisibility"`  
 
+[](){ #create-a-sphere-of-invisibility-id }
+
 ### Create a [[sphere-of-invisibility]]
 
 :   With this spell the magician can create a sphere of invisibility.  
@@ -504,6 +588,8 @@ And if you have done everything to please them, they will send one of their own 
 |  I  | 150 aura, 30000 silver, 3 permanent aura |  13 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Sphere of Invisibility"`  
+
+[](){ #create-a-visioneye-id }
 
 ### Create a Visioneye
 
@@ -545,6 +631,8 @@ And if you have done everything to please them, they will send one of their own 
 
 `CAST "Create An Antimagic Crystal"`  
 
+[](){ #create-iron-golems-id }
+
 ### Create [[iron-golem|Iron Golems]]
 
 :   The more power a magician invests, the more golems can be created before the aura dissipates.  
@@ -556,6 +644,8 @@ And if you have done everything to please them, they will send one of their own 
 |  G  | 2 x T aura, T [irons][iron], 1 [water of life][water-of-life] |   2 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
+
+[](){ #create-stone-golems-id }
 
 ### Create [[stone-golem|Stone Golems]]
 
@@ -574,6 +664,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
+[](){ #curse-of-pestilence-id }
+
 ### Curse of Pestilence
 
 :   In an elaborate ritual, the black magician sacrifices some peasants and then magically distributes the corpses into the region"s wells.
@@ -586,6 +678,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## D
 
+[](){ #death-cloud-id }
+
 ### Death Cloud
 
 :   By performing a gruesome ritual and sacrificing his own blood the Sorcerer conjurs up a spirit from the Elemental Plane of Poison.  
@@ -597,6 +691,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [REGION x y] "Death Cloud"`  
 
+[](){ #destroy-magic-id }
+
 ### Destroy Magic
 
 :   This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
@@ -606,6 +702,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  T  | 4 x T aura |   5 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #divination-id }
 
 ### Divination
 
@@ -619,6 +717,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [LEVEL n] Divination`  
 
+[](){ #double-time-id }
+
 ### Double Time
 
 :   Abstract theories of space and time at last find practical application in this spell which warps the very fabric of time around a person.  
@@ -629,6 +729,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  T  | 5 x T aura |  11 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Double Time" <unit-id> [<unit-id> ...]`  
+
+[](){ #dragon-call-id }
 
 ### Dragon Call
 
@@ -643,6 +745,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [REGION x y] *Dragon Call`  
 
+[](){ #dream-of-magic-id }
+
 ### Dream of Magic
 
 :   With the help of this spell, the dream weaver can transfer his own aura to another dream weaver at a ratio of 2:1.
@@ -652,6 +756,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  I  | 2 aura     |   3 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Dream of Magic" <unit-id> <Aura>`  
+
+[](){ #dream-id }
 
 ### Dream
 
@@ -665,6 +771,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## E
 
+[](){ #epic-heroes-id }
+
 ### Epic Heroes
 
 :   This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings.  
@@ -675,6 +783,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  C  | 2 x T aura |   5 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
+
+[](){ #eternal-rest-id }
 
 ### Eternal Rest
 
@@ -687,6 +797,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  T  | 5 x T aura |   3 | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Eternal Rest"`  
+
+[](){ #eternal-walls-id }
 
 ### Eternal Walls
 
@@ -701,6 +813,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## F
 
+[](){ #fire-fiend-id }
+
 ### Fire Fiend
 
 :   This elemental summoning calls a fire fiend, a creature from the deepest hell.  
@@ -711,6 +825,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  D  | 50 aura, 1 [huile] |  10 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Fire Fiend"`  
+
+[](){ #fireball-id }
 
 ### Fireball
 
@@ -723,6 +839,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `COMBATSPELL [LEVEL n] Fireball`  
 
+[](){ #firewall-id }
+
 ### Firewall
 
 :   The wizard creates a wall of fire in the specified direction.
@@ -733,6 +851,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  D  | 6 x T aura |   7 | Normal |  4   |      |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
+
+[](){ #firuns-coat-id }
 
 ### Firun's Coat
 
@@ -749,6 +869,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## G
 
+[](){ #gaze-of-the-basilisk-id }
+
 ### Gaze of the Basilisk
 
 :   This difficult but effective combat spell uses the elemental spirits of stone to turn a number of enemies to stone for the duration of the battle.  
@@ -760,6 +882,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
 
+[](){ #gaze-upon-reality-id }
+
 ### Gaze Upon Reality
 
 :   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
@@ -769,6 +893,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  T  | 40 aura    |  10 | Normal |  5   |      |       |
 
 `CAST "Gaze Upon Reality"`  
+
+[](){ #great-drought-id }
 
 ### Great Drought
 
@@ -783,6 +909,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST [REGION x y] "Great Drought"`  
 
+[](){ #grove-of-oak-trees-id }
+
 ### Grove of Oak Trees
 
 :   Where previously only a tree could sprout from a stick, every branch now sprouts roots.
@@ -795,6 +923,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## H
 
+[](){ #hail-id }
+
 ### Hail
 
 :   In battle, the magician calls upon the elemental spirits of cold and binds them to himself.  
@@ -805,6 +935,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  G  | T aura     |   3 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Hail`  
+
+[](){ #hangover-id }
 
 ### Hangover
 
@@ -825,6 +957,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST Hangover <unit-id>`  
 
+[](){ #heal-id }
+
 ### Heal
 
 :   It"s not just the medic who can help the wounded in battle.  
@@ -836,6 +970,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `COMBATSPELL [LEVEL n] Heal`  
 
+[](){ #hex-id }
+
 ### Hex
 
 :   The magician"s target is afflicted by a harmless curse.
@@ -845,6 +981,8 @@ Then you direct your strength towards the fine aura of life that is forming and 
 |  D  | T aura     |   1 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
+
+[](){ #high-art-of-persuasion-id }
 
 ### High art of persuasion
 
@@ -863,6 +1001,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "High art of persuasion"`  
 
+[](){ #homestone-id }
+
 ### Homestone
 
 :   With this formula, the magician binds the forces of the earth forever into the walls of the castle in which he currently finds himself.  
@@ -875,6 +1015,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST Homestone`  
 
+[](){ #hymn-of-aura-sharing-id }
+
 ### Hymn of Aura Sharing
 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
@@ -886,6 +1028,8 @@ From "Wanderings" by Firudin the Wise.
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
 ## I
+
+[](){ #insomnia-id }
 
 ### Insomnia
 
@@ -900,6 +1044,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## J
 
+[](){ #jugglery-id }
+
 ### Jugglery
 
 :   Cerddor mages are the leading jugglers among the mages, they love to entertain the people and be the center of attention.  
@@ -913,6 +1059,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## L
 
+[](){ #lesser-sacrifice-id }
+
 ### Lesser Sacrifice
 
 :   With this ritual the magician can sacrifice part of his life energy in order to gain magical power.  
@@ -925,6 +1073,8 @@ From "Wanderings" by Firudin the Wise.
 |  D  | 16 PV      |   4 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Lesser Sacrifice"`  
+
+[](){ #living-rock-id }
 
 ### Living Rock
 
@@ -941,6 +1091,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## M
 
+[](){ #madness-of-war-id }
+
 ### Madness of War
 
 :   In front of the enemy soldiers, the black magician sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops.  
@@ -952,6 +1104,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
+[](){ #maelstrom-id }
+
 ### Maelstrom
 
 :   This ritual summons a mighty water elemental from the depths of the ocean.  
@@ -962,6 +1116,8 @@ From "Wanderings" by Firudin the Wise.
 |  G  | 200 aura, 1 [sea serpent head][sea-serpent-head] |  15 | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST "Maelstrom"`  
+
+[](){ #magic-path-id }
 
 ### Magic Path
 
@@ -977,6 +1133,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
 
+[](){ #meditate-id }
+
 ### Meditate
 
 :   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
@@ -986,6 +1144,8 @@ From "Wanderings" by Firudin the Wise.
 |  G  | 2 aura     |   6 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
+
+[](){ #mental-death-id }
 
 ### Mental Death
 
@@ -1000,6 +1160,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Mental Death"`  
 
+[](){ #mind-probe-id }
+
 ### Mind Probe
 
 :   With this spell, the dream weaver penetrates the thoughts and dream world of his victim and can thus spy on his most intimate secrets.  
@@ -1010,6 +1172,8 @@ From "Wanderings" by Firudin the Wise.
 |  I  | 20 aura    |   7 | Normal |  5   |      |       |
 
 `CAST "Mind Probe" <unit-id>`  
+
+[](){ #minor-curses-id }
 
 ### Minor Curses
 
@@ -1023,6 +1187,8 @@ From "Wanderings" by Firudin the Wise.
 |  D  | T aura     |   1 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Minor Curses"`  
+
+[](){ #miracle-doctor-id }
 
 ### Miracle Doctor
 
@@ -1038,6 +1204,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Miracle Doctor"`  
 
+[](){ #mob-rule-id }
+
 ### Mob Rule
 
 :   Employing this magic chant the mage convinces the peasants of the region to join him.  
@@ -1050,6 +1218,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 4 x T aura |  10 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Mob Rule"`  
+
+[](){ #mountain-guardian-id }
 
 ### [[mountain-guard|Mountain Guardian]]
 
@@ -1064,6 +1234,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## N
 
+[](){ #negate-curse-id }
+
 ### Negate Curse
 
 :   This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
@@ -1075,6 +1247,8 @@ From "Wanderings" by Firudin the Wise.
 `CAST [REGION x y] [LEVEL n] "Negate Curse" ( REGION | UNIT <unit-id> | SHIP <ship-id> | CASTLE <building-id> ) <spell-id>`  
 
 ## P
+
+[](){ #path-of-trees-id }
 
 ### Path of Trees
 
@@ -1088,6 +1262,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
 
+[](){ #pentagram-id }
+
 ### Pentagram
 
 :   Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments.  
@@ -1100,6 +1276,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] [LEVEL n] "Pentagram" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #pleasant-dreams-id }
+
 ### Pleasant Dreams
 
 :   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all talents for some time.
@@ -1109,6 +1287,8 @@ From "Wanderings" by Firudin the Wise.
 |  I  | 80 aura    |   8 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Pleasant Dreams"`  
+
+[](){ #protection-from-magic-id }
 
 ### Protection from Magic
 
@@ -1120,6 +1300,8 @@ From "Wanderings" by Firudin the Wise.
 |  T  | 3 x T aura |   2 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Protection from Magic"`  
+
+[](){ #protective-runes-id }
 
 ### Protective Runes
 
@@ -1135,6 +1317,8 @@ From "Wanderings" by Firudin the Wise.
 `CAST "Protective Runes" ( SHIP <ship-id> | CASTLE <building-id> )`  
 
 ## Q
+
+[](){ #quick-fingers-id }
 
 ### Quick Fingers
 
@@ -1152,6 +1336,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## R
 
+[](){ #rain-dance-id }
+
 ### Rain Dance
 
 :   This ancient dance ritual invokes the forces of life and fertility.  
@@ -1162,6 +1348,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | T aura     |   3 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
+
+[](){ #rain-of-rust-id }
 
 ### Rain of Rust
 
@@ -1178,6 +1366,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
+[](){ #read-dreams-id }
+
 ### Read Dreams
 
 :   This spell allows the Dreamweaver to enter a unit"s dreams to obtain a report on the surrounding area.
@@ -1188,6 +1378,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
 
+[](){ #remove-dreams-id }
+
 ### Remove Dreams
 
 :   This spell allows the mentalist to distinguish between the natural and unnatural dreams of a person, a ship, a building or a region and remove those that are of magical origin.
@@ -1197,6 +1389,8 @@ From "Wanderings" by Firudin the Wise.
 |  I  | 6 x T aura |   8 | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #resist-magic-id }
 
 ### Resist Magic
 
@@ -1210,6 +1404,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
 
+[](){ #resurrection-id }
+
 ### Resurrection
 
 :   If a warrior dies in battle, his soul begins the long journey to the stars.  
@@ -1222,6 +1418,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
+[](){ #riot-id }
+
 ### Riot
 
 :   By means of this magical chant the mage incites riots in a region.  
@@ -1233,6 +1431,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 40 aura    |  16 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Riot"`  
+
+[](){ #rite-of-acceptance-id }
 
 ### Rite of Acceptance
 
@@ -1249,6 +1449,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
 
+[](){ #roots-of-magic-id }
+
 ### Roots of Magic
 
 :   Through a elaborate ritual a druid permanently channels a fragment of his power into the soil and the forests of the region.  
@@ -1263,6 +1465,8 @@ From "Wanderings" by Firudin the Wise.
 
 ## S
 
+[](){ #sacred-ground-id }
+
 ### Sacred Ground
 
 :   This ritual summons various natural spirits into the soil of the region, which guard it from then on.  
@@ -1273,6 +1477,8 @@ From "Wanderings" by Firudin the Wise.
 |  G  | 80 aura, 3 permanent aura |   9 | Normal |  5   |      |       |
 
 `CAST "Sacred Ground"`  
+
+[](){ #sacrifice-strength-id }
 
 ### Sacrifice Strength
 
@@ -1285,6 +1491,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
+[](){ #save-spoils-id }
+
 ### Save Spoils
 
 :   This spell prevents some of the objects that would otherwise be destroyed in battle from being damaged.  
@@ -1296,6 +1504,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
+[](){ #shadow-knights-id }
+
 ### Shadow Knights
 
 :   This spell can give the enemy a slightly different image of their own troops.  
@@ -1306,6 +1516,8 @@ From "Wanderings" by Firudin the Wise.
 |  I  | T aura     |   1 | Pre-c. |  4   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
+
+[](){ #shield-of-the-fish-id }
 
 ### Shield of the Fish
 
@@ -1320,6 +1532,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
+[](){ #shield-shine-id }
+
 ### Shield Shine
 
 :   This ritual, to be performed before battle, gives the own troops an added bonus to their armor.  
@@ -1330,6 +1544,8 @@ From "Wanderings" by Firudin the Wise.
 |  T  | 4 x T aura |  12 | Pre-c. |  2   |      |       |
 
 `COMBATSPELL [LEVEL n] "Shield Shine"`  
+
+[](){ #sleep-id }
 
 ### Sleep
 
@@ -1342,6 +1558,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] Sleep`  
 
+[](){ #shockwave-id }
+
 ### Shockwave
 
 :   This spell causes a wave of pure power to sweep across the enemy ranks.  
@@ -1352,6 +1570,8 @@ From "Wanderings" by Firudin the Wise.
 |  T  | T aura     |   5 | Combat |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Shockwave`  
+
+[](){ #shapeshift-id }
 
 ### Shapeshift
 
@@ -1364,6 +1584,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
 
+[](){ #silence-dissonance-id }
+
 ### Silence Dissonance
 
 :   Each enchantment affects the Life Song, weakening and distorting it.  
@@ -1375,6 +1597,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #song-of-confusion-id }
+
 ### Song of Confusion
 
 :   This magical song comes from the ancient songs of cats and, when used before a fight, can bring decisive strategic advantages.  
@@ -1385,6 +1609,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 2 x T aura |   4 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
+
+[](){ #song-of-courting-id }
 
 ### Song of Courting
 
@@ -1398,6 +1624,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Song of Courting"`  
 
+[](){ #song-of-fear-id }
+
 ### Song of Fear
 
 :   This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength.  
@@ -1409,6 +1637,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
 
+[](){ #song-of-generosity-id }
+
 ### Song of Generosity
 
 :   This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood.  
@@ -1419,6 +1649,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 2 x T aura |   2 | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
+
+[](){ #song-of-healing-id }
 
 ### Song of Healing
 
@@ -1432,6 +1664,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
 
+[](){ #song-of-melancholy-id }
+
 ### Song of Melancholy
 
 :   With this chant the bard spreads a melancholic, sad mood among the peasants.  
@@ -1442,6 +1676,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 40 aura    |  11 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Song of Melancholy"`  
+
+[](){ #song-of-peace-id }
 
 ### Song of Peace
 
@@ -1455,6 +1691,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST [LEVEL n] "Song of Peace"`  
 
+[](){ #song-of-seduction-id }
+
 ### Song of Seduction
 
 :   This song can be used to charm a unit into giving most of their cash and possessions to the bard.  
@@ -1466,6 +1704,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST "Song of Seduction" <unit-id>`  
 
+[](){ #song-of-slavery-id }
+
 ### Song of Slavery
 
 :   This powerful spell robs the victim of their own free will and enslaves them to the commands of the bard.  
@@ -1476,6 +1716,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 40 aura    |  13 | Normal |  5   |      |       |
 
 `CAST "Song of Slavery" <unit-id>`  
+
+[](){ #song-of-terror-id }
 
 ### Song of Terror
 
@@ -1489,6 +1731,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
+[](){ #song-of-the-aging-spirit-id }
+
 ### Song of the Aging Spirit
 
 :   This song, which is woven into the magical essence of the region, weakens the natural resistance against a singular enchantment by 15%.  
@@ -1499,6 +1743,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 2 x T aura |  12 | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
+
+[](){ #song-of-the-youthful-spirit-id }
 
 ### Song of the Youthful Spirit
 
@@ -1511,6 +1757,8 @@ From "Wanderings" by Firudin the Wise.
 |  C  | 2 x T aura |  10 | Normal |  2   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
+
+[](){ #song-of-war-id }
 
 ### Song of War
 
@@ -1525,6 +1773,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
+[](){ #sound-out-id }
+
 ### Sound out
 
 :   If the unit succumbs to the spell, it will tell the magician everything it knows about the region in question.  
@@ -1537,6 +1787,8 @@ From "Wanderings" by Firudin the Wise.
 
 `CAST "Sound out" <unit-id> <x> <y>`  
 
+[](){ #steal-aura-id }
+
 ### Steal Aura
 
 :   With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
@@ -1546,6 +1798,8 @@ From "Wanderings" by Firudin the Wise.
 |  T  | 2 x T aura |   6 | Normal |  3   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Steal Aura" <unit-id>`  
+
+[](){ #strong-wall-and-sturdy-gate-id }
 
 ### Strong Wall And Sturdy Gate
 
@@ -1558,6 +1812,8 @@ From "Wanderings" by Firudin the Wise.
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
+[](){ #summon-earth-elemental-id }
+
 ### Summon Earth Elemental
 
 :   With this ritual, the druid summons an elemental spirit of the earth and causes it to cause the earth to tremble.  
@@ -1569,6 +1825,8 @@ This earthquake will damage all buildings in the region.
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
+[](){ #summon-familiar-id }
+
 ### Summon Familiar
 
 :   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
@@ -1578,6 +1836,8 @@ This earthquake will damage all buildings in the region.
 | \*[^1] | 100 aura, 5 permanent aura | [^2] | Normal |  5   |      |       |
 
 `CAST "Summon Familiar"`  
+
+[](){ #summon-fire-elemental-id }
 
 ### Summon Fire Elemental
 
@@ -1590,6 +1850,8 @@ This earthquake will damage all buildings in the region.
 |  G  | 600 aura   |  13 | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Summon Fire Elemental"`  
+
+[](){ #summon-shadowdemons-id }
 
 ### Summon Shadowdemons
 
@@ -1604,6 +1866,8 @@ This earthquake will damage all buildings in the region.
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
+[](){ #summon-shadowmasters-id }
+
 ### Summon Shadowmasters
 
 :   With the help of dark rituals the sorcerer summons demons from the Sphere of Shadows.  
@@ -1615,6 +1879,8 @@ This earthquake will damage all buildings in the region.
 |  D  | 7 x T aura |  12 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Summon Shadowmasters"`  
+
+[](){ #summon-storm-elemental-id }
 
 ### Summon Storm Elemental
 
@@ -1628,6 +1894,8 @@ This earthquake will damage all buildings in the region.
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
 
+[](){ #summon-water-elemental-id }
+
 ### Summon Water Elemental
 
 :   With this ritual, the magician forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
@@ -1638,6 +1906,8 @@ This earthquake will damage all buildings in the region.
 |  G  | T aura     |   4 | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Summon Water Elemental <ship-id>`  
+
+[](){ #sweet-dreams-id }
 
 ### Sweet Dreams
 
@@ -1653,6 +1923,8 @@ This earthquake will damage all buildings in the region.
 
 ## T
 
+[](){ #timber-wolves-id }
+
 ### Timber Wolves
 
 :   Over the course of their lives in nature, quite a few Druids become friends with the oldest friends of the great peoples.  
@@ -1664,6 +1936,8 @@ This earthquake will damage all buildings in the region.
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
 
+[](){ #ties-of-life-id }
+
 ### Ties of Life
 
 :   A druid who has fallen into the world of spirits can use this spell to level up*Send 5 units of weight back to a forest on the material world.
@@ -1673,6 +1947,8 @@ This earthquake will damage all buildings in the region.
 |  G  | 2 x T aura |   9 | Normal |  7   |      |       |
 
 `CAST [LEVEL n] "Sog des Lebens" <x> <y> <unit-id> [<unit-id> ...]`  
+
+[](){ #tiredness-id }
 
 ### Tiredness
 
@@ -1685,6 +1961,8 @@ This earthquake will damage all buildings in the region.
 
 `COMBATSPELL [LEVEL n] Tiredness`  
 
+[](){ #transfer-aura-id }
+
 ### Transfer Aura
 
 :   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
@@ -1694,6 +1972,8 @@ This earthquake will damage all buildings in the region.
 |  T  | 1 aura     |   5 | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer aura" <unit-id> <Aura>`  
+
+[](){ #transfer-power-id }
 
 ### Transfer Power
 
@@ -1707,6 +1987,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 ## U
 
+[](){ #undead-heroes-id }
+
 ### Undead Heroes
 
 :   This ritual binds the already escaping souls of some battle victims to their dead bodies, resurrecting them to undead life.  
@@ -1718,6 +2000,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
 
+[](){ #unholy-strength-id }
+
 ### Unholy Strength
 
 :   Only whispered the knowledge of performing this ritual is passed to the adepts of the dark academies, for it is one of the darkest that has ever been written down.  
@@ -1728,6 +2012,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 |  D  | 10 x T aura, 5 x T peasants |  14 | Normal |  5   |      |       |
 
 `CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
+
+[](){ #unspeakable-horrors-id }
 
 ### Unspeakable Horrors
 
@@ -1742,6 +2028,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 ## W
 
+[](){ #whirlwind-id }
+
 ### Whirlwind
 
 :   This incantation opens a gate into the plane of the elemental spirits of the wind.  
@@ -1752,6 +2040,8 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 |  G  | 15 aura    |   5 | Pre-c. |  5   |      |       |
 
 `COMBATSPELL [LEVEL n] Whirlwind`  
+
+[](){ #winds-of-rust-id }
 
 ### Winds of Rust
 

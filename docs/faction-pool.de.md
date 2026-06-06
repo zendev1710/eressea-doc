@@ -13,7 +13,7 @@ Sinn des Parteipools ist es, dass du selbst entscheiden kannst, welche Einheit e
 Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
 
 - [Adamantium][adamantium-de-id] (in Runde 574)
-- [Adamantiumrüstung][adamantiumruestung] (in Runde 574)
+- [Adamantiumrüstung][adamantiumrustung] (in Runde 574)
 - [Geburtstagstorte] (in Runde 487, 20. August 2006, 10 Jahre Eressea)
 - [Sonnensegel] (in Runde 407, Weihnachten 2004)
 - [Sternenstaub] (in Runde 454, Weihnachten 2005)

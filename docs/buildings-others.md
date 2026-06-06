@@ -19,24 +19,24 @@ Building; see also table on [[castles|building castles]]
 
 The capacity refers only to the persons who can benefit from the building.  
 
-| Buildings        | Building costs |      |      |        | Skill | Upkeep  |          | Max. | Capacity   |
-|------------------|----------------|------|------|--------|-------|---------|----------|------|------------|
-|                  | Stone          | Wood | Iron | Silver |       | Silver  | Resource |      |            |
-| [Lighthouse]     | 2              | 1    | 1    | 100    | 3     | 100     | --       | --   | 4 persons  |
-| [Mine]           | 5              | 10   | 1    | 250    | 4     | 500     | --       | --   | size       |
-| [Quarry]         | 1              | 5    | 1    | 250    | 2     | 250     | --       | --   | size       |
-| [Sawmill]        | 5              | 5    | 3    | 200    | 3     | 250     | --       | --   | size       |
-| [Smithy]         | 5              | 5    | 2    | 200    | 3     | 300     | 1 wood   | --   | size       |
-| [Stable]         | 2              | 4    | 1    | 100    | 2     | 150     | --       | --   | size       |
-| [Harbour]        | 5              | 5    | --   | 250    | 3     | 250     | --       | 25   | size       |
-| [Caravanserai]   | 1              | 5    | 1    | 500    | 2     | 3000    | 2 horses | 10   | size       |
-| [Academy]        | 5              | 5    | 1    | 500    | 3     | 1000    | --       | 25   | size       |
-| [Mage Tower][^1] | 5              | 3    | 3    | 500    | 5     | 1000    | --       | 50   | 2 Personen |
-| [Dam]            | 5              | 10   | 1    | 500    | 4     | 1000    | 3 wood   | 50   | size       |
-| [Tunnel]         | 10             | 5    | 1    | 300    | 6     | 100     | 2 stones | 100  | size       |
-| [Inn]            | 4              | 3    | 1    | 200    | 2     | 5\*size | --       | --   | size       |
-| [Monument]       | 1              | 1    | 1    | 400    | 4     | --      | --       | --   | size       |
-| [Stonecircle]    | 5              | 5    | --   | --     | 2     | --      | --       | 100  | 3 Persons  |
+| Buildings                       | Building costs |      |      |        | Skill | Upkeep  |          | Max. | Capacity   |
+|---------------------------------|----------------|------|------|--------|-------|---------|----------|------|------------|
+|                                 | Stone          | Wood | Iron | Silver |       | Silver  | Resource |      |            |
+| [Lighthouse]                    | 2              | 1    | 1    | 100    | 3     | 100     | --       | --   | 4 persons  |
+| [Mine]                          | 5              | 10   | 1    | 250    | 4     | 500     | --       | --   | size       |
+| [Quarry]                        | 1              | 5    | 1    | 250    | 2     | 250     | --       | --   | size       |
+| [Sawmill]                       | 5              | 5    | 3    | 200    | 3     | 250     | --       | --   | size       |
+| [Smithy]                        | 5              | 5    | 2    | 200    | 3     | 300     | 1 wood   | --   | size       |
+| [Stable]                        | 2              | 4    | 1    | 100    | 2     | 150     | --       | --   | size       |
+| [Harbour]                       | 5              | 5    | --   | 250    | 3     | 250     | --       | 25   | size       |
+| [Caravanserai]                  | 1              | 5    | 1    | 500    | 2     | 3000    | 2 horses | 10   | size       |
+| [Academy]                       | 5              | 5    | 1    | 500    | 3     | 1000    | --       | 25   | size       |
+| [Mage Tower][mage-tower-id][^1] | 5              | 3    | 3    | 500    | 5     | 1000    | --       | 50   | 2 Personen |
+| [Dam]                           | 5              | 10   | 1    | 500    | 4     | 1000    | 3 wood   | 50   | size       |
+| [Tunnel]                        | 10             | 5    | 1    | 300    | 6     | 100     | 2 stones | 100  | size       |
+| [Inn]                           | 4              | 3    | 1    | 200    | 2     | 5\*size | --       | --   | size       |
+| [Monument]                      | 1              | 1    | 1    | 400    | 4     | --      | --       | --   | size       |
+| [Stonecircle]                   | 5              | 5    | --   | --     | 2     | --      | --       | 100  | 3 Persons  |
 
 [^1]: also needs 2 Mallorn and 2 Laen per size point.
 
@@ -176,6 +176,8 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 - Learning in an academy costs 50 silver per person for skills which can be normally learned without any costs and the double amount of silver for skills which cost something to learn them.
 - Teachers who teach pupils in an academy also get a chance to learn, which is up to 1/3 depending on the number of their pupils. They do not have to be in an academy themselves for this.
 - An academy will only work if it is completely built!
+
+[](){ #-mage-tower-id }
 
 ## Mage Tower
 

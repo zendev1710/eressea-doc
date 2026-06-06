@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: grundlagen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Grundlagen
 
 Nur weil es in Eressea keinen Gewinner gibt, heißt das nicht, das man nicht verlieren kann.
@@ -21,7 +23,7 @@ Im Gegenteil, weil diese Tools für das Management großer Parteien mit hunderte
 
 ## Lange und Kurze Befehle
 
-Einheiten können nur eine lange [Aktion] Aktion pro Woche ausführen, aber beliebig viele kurze.
+Einheiten können nur eine lange [Aktion][kurze-und-lange-befehle] Aktion pro Woche ausführen, aber beliebig viele kurze.
 
 !!! warning "Achtung"
     Kampf kann eine lange Aktion, selbst wenn man nicht selber attackiert hat.
@@ -33,7 +35,7 @@ Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der 
 
 ## Hunger
 
-Unbedingt [Hungern] vermeiden.
+Unbedingt [Hungern][hunger] vermeiden.
 Die Auswirkungen sind katastrophal.
 Jede Person benötigt pro Woche 10 Silber Unterhalt um nicht zu hungern
 
@@ -74,8 +76,6 @@ In der Regel reicht es nicht, eine Unterhalter-Einheit in den benachbarten Berg 
 
 [Magellan]: ./magellan.md
 [CSMap]: ./csmapfx.md
-[Aktion]:./commands.md#kurze-und-lange-befehle "Befehl"
 [bewacht]: ./cmd-guard.md
 [attackiert]: ./cmd-attack.md
-[Hungern]: ./silver.md#hunger "Geld"
 [Materialpool]: ./items-pool.md

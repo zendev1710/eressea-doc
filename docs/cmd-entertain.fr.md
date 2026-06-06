@@ -10,7 +10,7 @@ alias: cmd-entertain-fr
 
 L'unité passera le tour à divertir les paysans.  
 
-Vous pouvez gagner jusqu'à 20 Silver par personne et par niveau de compétence en [divertissement][divertissement]{title="Entertainment"}.  
+Vous pouvez gagner jusqu'à 20 Silver par personne et par niveau de compétence en [divertissement][skill-divertissement-id]{title="Entertainment"}.  
 Mais les agriculteurs ne dépensent que 5 % de leur argent en divertissement.
 Si plus d'unités tentent d'entretenir les agriculteurs que ce que ces derniers peuvent payer, l'argent sera réparti entre toutes les unités d'entretien.  
 Si vous spécifiez un montant, l'unité gagnera au maximum ce montant.  

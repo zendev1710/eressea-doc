@@ -10,7 +10,7 @@ alias: cmd-entertain
 
 The unit will spend the round entertaining the farmers.  
 
-You can earn up to 20 Silver per person and skill level in [entertainment][entertainment].  
+You can earn up to 20 Silver per person and skill level in [entertainment][skill-entertainment-id].  
 But the farmers only spend 5% of their money on entertainment.
 If more units try to maintain the farmers than they will pay, the money is divided among all the maintaining units.  
 If you specify an amount, the unit will earn a maximum of that much.  

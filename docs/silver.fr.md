@@ -120,7 +120,8 @@ C'est pour cela qu'il est judicieux de construire un château, car cela permet d
 
 Garder empêche la collecte des taxes (sauf en cas d'utilisation de `HELP`).  
 
-### Divertissement (Entertain)
+[](){ #silver-divertissement-id }
+### Divertissement
 
 L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans).  
 Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment).  
@@ -155,9 +156,9 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol.  
 Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal]].  
 
-Si la compétence de [discrétion][discretion]{title="Stealth"} du voleur est supérieure à la [perception][perception] de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
+Si la compétence de [discrétion][skill-discretion-id]{title="Stealth"} du voleur est supérieure à la [perception][skill-perception-fr-id]{title="Perception"}de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
-Plus d'information : [le camouflage et le vol][discretion].  
+Plus d'information : [le camouflage et le vol][full-discretion-id].  
 
 ## Le commerce
 
@@ -166,7 +167,7 @@ Ce produit peut leur être acheté.
 Dans toutes les régions qui ne produisent pas ce bien, il existe une demande toujours croissante pour ces produits.  
 Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.  
 
-Pour faire du commerce, il faut être compétent en [commerce][commerce].  
+Pour faire du commerce, il faut être compétent en [commerce][commerce]{title="Trade"}.  
 Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [[cmd-buy]] et [[cmd-sell]].  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
 Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 Gems et vendre 12 Soies et 8 Baumes par tour.  

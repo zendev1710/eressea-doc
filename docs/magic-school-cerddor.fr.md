@@ -233,7 +233,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée].
     L'amulette permet au porteur de voir toutes les unités protégées par un [[anneau-dinvisibilite]].  
-    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
+    Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
 |:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|

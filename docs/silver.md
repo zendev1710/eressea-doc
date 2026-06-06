@@ -86,6 +86,8 @@ This is why it makes sense to build a castle, as this increases wages: with 12 s
 
 Collecting taxes is prevented by guarding.
 
+[](){ #silver-entertainment-id }
+
 ### Entertainment
 
 The silver that remains to peasants after paying taxes is added to the region's silver (the peasants' silver supply, so to speak).
@@ -119,7 +121,7 @@ Entertainment is prevented by guarding only for entertaining units on ships.
 
 In addition to the honest ways of earning money, there is also the dishonest variant: theft. Units that with stealth can attempt to steal silver from other units using the [[cmd-steal]] order.
 
-If the [stealth skill] of the stealing unit is higher than the [perception] of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.
+If the [stealth skill] of the stealing unit is higher than the [perception][skill-perception-id] of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.
 
 It is also worth reading the chapter on [stealth][stealth skill] about this topic.
 
@@ -224,7 +226,6 @@ Continue reading: [Material pool].
 [endurance skill]: ./war-tables.md
 [`WORK`]: ./cmd-work.md
 [stealth skill]: ./stealth.md
-[perception]: ./stealth.md
 [castles]: ./castles.md
 [Item pool]: ./items-pool.md
 

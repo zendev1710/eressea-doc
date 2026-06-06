@@ -158,7 +158,7 @@ Plus d'information : [[argent|l'argent]].
 
 ### Dissimulation
 
-[espionnage][espionnage]{title="Espionage"}, [discrétion][discretion]{title="Stealth"} et [perception][perception]{title="Perception"} sont centrés sur la dissimulation.
+[espionnage][espionnage]{title="Espionage"}, [discrétion][skill-discretion-id]{title="Stealth"} et [perception][skill-perception-fr-id]{title="Perception"} sont centrés sur la dissimulation.
 
 ### Compétences de déplacements
 

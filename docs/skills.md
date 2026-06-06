@@ -150,7 +150,7 @@ Pour en savoir plus, consultez le chapitre sur [[money|l'argent]].
 
 ### Concealment & Co
 
-[espionage][skill-espionage-id], [stealth][stealth] et [perception][perception] sont centrés sur la dissimulation.
+[espionage][skill-espionage-id], [stealth][stealth] et [perception][skill-perception-id] sont centrés sur la dissimulation.
 Elles ont leur propre chapitre.
 
 ### For travel

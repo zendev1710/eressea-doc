@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: monster
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Monster
 
 Die Partei der Monster ist derzeit die einzige NPC-Partei in Eressea.
@@ -16,7 +18,7 @@ Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z
 ## Untote
 
 Untote stellen den größten Teil der Monster-Partei.
-Sie entstehen da, wo Bauern sterben (durch [Hungersnöte] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
 Untote können verschiedene [[talente]] lernen und werden dadurch gefährlicher.
 Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
 Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [[bewaffnet]]), können aber auch Waffen tragen.
@@ -53,13 +55,15 @@ Es heißt, manche Magier könnten Drachen beeinflussen. Es darf aber bezweifelt 
 
 Mit der Zeit beginnen Drachen und Wyrme ein Gefolge um sich zu scharen, die so genannten Dracoide. Niedere, geschuppte, humanoide Wesen welche mit Schwertern, Speeren oder Bögen kämpfen können.
 
+[](){ #igjarjuk-de-id }
+
 ## Igjarjuk
 
 Eisdrache
 
 ## Schattendämonen und Schattenmeister
 
-Schattendämonen und Schattenmeister können von [Draig]-Magiern beschworen werden. Sie besitzen Magieresistenz. Erfolgreich Attacken erzeugen bei Gegnern Panik, die Angriffs- oder Verteidigungswert um 1 verringert. Bei Schattenmeister können deren Opfer sogar pro Treffer den Gegenwert einer Lernwoche eines ihrer Talente.
+Schattendämonen und Schattenmeister können von [Draig][draig]-Magiern beschworen werden. Sie besitzen Magieresistenz. Erfolgreich Attacken erzeugen bei Gegnern Panik, die Angriffs- oder Verteidigungswert um 1 verringert. Bei Schattenmeister können deren Opfer sogar pro Treffer den Gegenwert einer Lernwoche eines ihrer Talente.
 
 Schattendämon: 50 Trefferpunkte, Angriff: 8, Verteidigung: 11, Rüstung: 3. 3 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d3), ein magischer Angriff.
 
@@ -67,7 +71,7 @@ Schattenmeister: 150 Trefferpunkte, Angriff: 11, Verteidigung: 13, Rüstung: 4. 
 
 ## Hirntöter
 
-Hirntöter bevölkern den [Astralraum]. Sie greifen versteckt aus den Nebeln an und ihre Attacken können Einheiten ihre gelernten Talente zum Teil vergessen lassen. In der normalen Welt begegnet man ihnen nur, wenn sie von mächtigen Zaubern aus ihren Sphären geschleudert wurden.
+Hirntöter bevölkern den [Astralraum][der-astralraum]. Sie greifen versteckt aus den Nebeln an und ihre Attacken können Einheiten ihre gelernten Talente zum Teil vergessen lassen. In der normalen Welt begegnet man ihnen nur, wenn sie von mächtigen Zaubern aus ihren Sphären geschleudert wurden.
 
 [](){ #ents-de-id }
 
@@ -80,10 +84,6 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 - [[vertraute]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
-
-[Hungersnöte]: ./silver.md#hunger
-[Draig]: ./magic-schools.md#draig
-[Astralraum]: ./magic.md#der-astralraum
 
 [Untoten-Typen]: #untote
 [Drachen]: #drachen

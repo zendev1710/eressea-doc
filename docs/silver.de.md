@@ -2,12 +2,14 @@
 # cSpell:locale de
 alias: geld
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Geld
 
 !!! note "Hinweis"
     In Eressea ist die Grundeinheit des Währungssystems **Silber**.
 
-Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben] oder [Handel] treiben.
+Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben] oder [handel][handel] treiben.
 
 Während Arbeiten eher eine Notlösung ist, kann mit Unterhaltung und dem Eintreiben von Steuern schon recht viel Geld verdient werden. Der Handel kann in Eressea, Regionen mit entsprechenden Luxusgütern vorausgesetzt, besonders am Anfang die größte Einnahmequelle sein.
 
@@ -39,9 +41,9 @@ Eine hungernde Einheit kann keine Personen an andere Einheiten abgeben. Zudem fa
 
 Im Laufe der Zeit erholen sich verwundete Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige Rassen mehr) ihrer maximalen Trefferpunkte pro Runde hinzu, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
 
-Das Talent Segeln wird bei hungernden Einheiten nur um eine Stufe reduziert. Dennoch ist Hunger auf See eine kritische Situation. Zum einen kann dort niemand außer [Meermenschen] arbeiten, die Besatzung ist also auf Silber von außen angewiesen. Zum anderen kann es geschehen, dass auf Grund der Talentreduzierung nicht mehr genügend Segeltalent zum Manövrieren des Schiffes vorhanden ist, wodurch das Schiff [Schaden] nimmt und abtreiben kann.
+Das Talent Segeln wird bei hungernden Einheiten nur um eine Stufe reduziert. Dennoch ist Hunger auf See eine kritische Situation. Zum einen kann dort niemand außer [Meermenschen][meermenschen] arbeiten, die Besatzung ist also auf Silber von außen angewiesen. Zum anderen kann es geschehen, dass auf Grund der Talentreduzierung nicht mehr genügend Segeltalent zum Manövrieren des Schiffes vorhanden ist, wodurch das Schiff [Schaden] nimmt und abtreiben kann.
 
-Nahezu tödlich ist Hunger bei Feindkontakt, hervorgerufen z.B. durch Diebstahl oder wegen Fehlplanung. Einheiten verlieren Trefferpunkte und kämpfen in einem eventuell folgenden Kampf deutlich schwächer. Sollten sie so einen Kampf trotzdem überleben, besteht noch die Gefahr, dass sie weiter hungern, weil sie wegen des Kampfes nicht arbeiten konnten (siehe [Kampfende]).
+Nahezu tödlich ist Hunger bei Feindkontakt, hervorgerufen z.B. durch Diebstahl oder wegen Fehlplanung. Einheiten verlieren Trefferpunkte und kämpfen in einem eventuell folgenden Kampf deutlich schwächer. Sollten sie so einen Kampf trotzdem überleben, besteht noch die Gefahr, dass sie weiter hungern, weil sie wegen des Kampfes nicht arbeiten konnten (siehe [Kampfende][das-ende]).
 
 Beherrscht sie das [Ausdauertalent] auf hohem Niveau, so kann es nach dem Hungern zu dem seltsamen Effekt kommen, dass eine Einheit laut Bericht "sehr stark" ist (d.h. sie hat mehr Trefferpunkte als sie normalerweise haben dürfte).
 
@@ -54,7 +56,7 @@ Auch Bauern benötigen Unterhalt, den sie normalerweise selbst verdienen und dem
 - Die Bauern verdienen zwar genug Silber, aber Spieler-Einheiten [treiben][Steuern eintreiben] dieses Silber ein, bevor sich die Bauern damit selbst versorgen können.
 - Des weiteren gibt es Gerüchte über besondere Ereignisse, die zeitweilig oder dauerhaft die Fruchtbarkeit einer Region verschlechtern können, wodurch die Bauern nicht mehr ihren eigenen Unterhalt erarbeiten können.
 
-Verhungerte Bauern können später als [Untote] wiederauferstehen.
+Verhungerte Bauern können später als [Untote][untote] wiederauferstehen.
 
 ## Einnahmen
 
@@ -64,7 +66,7 @@ Geld können Einheiten mit dem Befehl [[bef-arbeite]] in der Landwirtschaft verd
 Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze.
 Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [[bef-arbeite]]).
 
-Ein Bauer verdient normalerweise 11 Silber pro Runde. Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.
+Ein Bauer verdient normalerweise 11 Silber pro Runde. Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle][ubersicht]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.
 
 Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter. Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [[bef-arbeite]] nachlesen.
 
@@ -214,10 +216,3 @@ Weiterlesen: [Materialpool].
 [bef-kontaktiere]: ./cmd-contact.md
 [bef-gib]: ./cmd-give.md
 [bef-bewache]: ./cmd-guard.md
-
-[Handel]: ./silver.md#handel
-[Meermenschen]: ./races.md#meermenschen
-[Kampfende]: ./war.md#das-ende
-[Untote]: ./monsters.md#untote
-[Burgen-Tabelle]: ./castles.md#ubersicht
-[bef-rekrutiere]: ./silver.md#rekrutieren

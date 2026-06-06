@@ -69,21 +69,21 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 
 *Compétences de combat.*
 
-| [Magie][magie]{title="Magie"} | [Discrétion] | [Espionnage][espionnage]{title="Espionage"} | [Perception] | [Arme d'hast] | [Endurance][endurance]{title="Endurance"} | [Mêlée][melee]{title="Melee"} | [Tactique][tactique]{title="Tactics"} | [Tir arbalète][tir-a-larbalete]{title="Crossbow"} | [Tir arc][tir-a-larc]{title="Bow"} | [Tir catapulte][tir-a-la-catapulte]{title="Catapult"} |
-|:-----------------------------:|:------------:|:-------------------------------------------:|:------------:|:-------------:|:-----------------------------------------:|:-----------------------------:|:-------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-----------------------------------------------------:|
-|              +1               |      +1      |                      0                      |      +1      |       0       |                     0                     |               0               |                   0                   |                         0                         |                 +2                 |                          -2                           |
+| [Magie][magie]{title="Magie"} | [Discrétion][skill-discretion-id]{title="Stealth"} | [Espionnage][espionnage]{title="Espionage"} | [Perception][skill-perception-fr-id]{title="Perception"} | [Arme d'hast] | [Endurance][endurance]{title="Endurance"} | [Mêlée][melee]{title="Melee"} | [Tactique][tactique]{title="Tactics"} | [Tir arbalète][tir-a-larbalete]{title="Crossbow"} | [Tir arc][tir-a-larc]{title="Bow"} | [Tir catapulte][tir-a-la-catapulte]{title="Catapult"} |
+|:-----------------------------:|:--------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------:|:-------------:|:-----------------------------------------:|:-----------------------------:|:-------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-----------------------------------------------------:|
+|              +1               |                         +1                         |                      0                      |                            +1                            |       0       |                     0                     |               0               |                   0                   |                         0                         |                 +2                 |                          -2                           |
 
 *Compétences de production.*
 
-| [Apprivoisement][apprivoisement]{title="Taming"} | [Construction routes][construction-de-routes]{title="Roadwork"} | [Construction navale] | [Extraction pierres][extraction-de-pierres]{title="Quarrying"} | [Extraction minière][extraction-miniere]{title="Mining"} | [Fab. armes][fabrication-darmes]{title="Weaponsmithing"} | [Fab. armures][fabrication-darmures]{title="Armoursmithing"} | [Fab. chariots][fabrication-de-chariots]{title="Cartmaking"} | [Maçonnerie] | [Sylviculture] |
-|:------------------------------------------------:|:---------------------------------------------------------------:|:---------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|:------------:|:--------------:|
-|                        +1                        |                               -1                                |          -1           |                               -1                               |                            -2                            |                            0                             |                              -1                              |                              0                               |      -1      |       0        |
+| [Apprivoisement][apprivoisement]{title="Taming"} | [Construction routes][construction-de-routes]{title="Roadwork"} | [Construction navale] | [Extraction pierres][extraction-de-pierres]{title="Quarrying"} | [Extraction minière][extraction-miniere]{title="Mining"} | [Fab. armes][fabrication-darmes]{title="Weaponsmithing"} | [Fab. armures][fabrication-darmures]{title="Armoursmithing"} | [Fab. chariots][fabrication-de-chariots]{title="Cartmaking"} | [Maçonnerie][maconnerie]{title="Masonry"} | [Sylviculture][sylviculture]{title="Forestry"} |
+|:------------------------------------------------:|:---------------------------------------------------------------:|:---------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|:-----------------------------------------:|:----------------------------------------------:|
+|                        +1                        |                               -1                                |          -1           |                               -1                               |                            -2                            |                            0                             |                              -1                              |                              0                               |                    -1                     |                       0                        |
 
 *Autres compétences.*
 
-| [Équitation][equitation]{title="Riding"} | [Voile][voile]{title="Sailing"} | [Commerce] | [Divertissement] | [Taxation][taxation]{title="Taxation"} | [Alchimie] | [Herboristerie] |
-|:----------------------------------------:|:-------------------------------:|:----------:|:----------------:|:--------------------------------------:|:----------:|:---------------:|
-|                    0                     |               -1                |     0      |        0         |                   0                    |     -1     |       +2        |
+| [Équitation][equitation]{title="Riding"} | [Voile][voile]{title="Sailing"} | [Commerce][commerce]{title="Trade"} | [Divertissement][skill-divertissement-id]{title="Entertainment"} | [Taxation][taxation]{title="Taxation"} | [Alchimie] | [Herboristerie] |
+|:----------------------------------------:|:-------------------------------:|:-----------------------------------:|:----------------------------------------------------------------:|:--------------------------------------:|:----------:|:---------------:|
+|                    0                     |               -1                |                  0                  |                                0                                 |                   0                    |     -1     |       +2        |
 
 | Poids  | Capacité |
 |:------:|:--------:|
@@ -93,7 +93,7 @@ Le peuple magique du Royaume des Fées n'est pas fait pour le travail pénible, 
 
 - Chaque elfe (jusqu'à 1/8 du [nombre maximal de travailleurs][geographie] de la région, par exemple 250 dans un marais) augmente les chances qu'un arbre (y compris les mallorn) sème une graine au cours d'une semaine d'été ou d'automne.
   Cela peut faire une grande différence en fonction du nombre d'elfes sur la région.
-- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion][discretion]{title="Stealth"} et [perception][perception]{title="Perception"}, et +2 en [tactique][tactique]{title="Tactics"}.
+- Dans les forêts, les Elfes ont un bonus de compétence de +1 en [discrétion][skill-discretion-id]{title="Stealth"} et [perception][skill-perception-fr-id]{title="Perception"}, et +2 en [tactique][tactique]{title="Tactics"}.
 - Les elfes peuvent avoir 6 [mages][magie] (au lieu de 5).
 - Les mages elfes régénèrent leur aura beaucoup plus rapidement.
 - Les elfes font 1 point de dégâts supplémentaire avec les arcs.
@@ -117,7 +117,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 - Lorsque leur nombre est dix fois supérieur à celui de l'adversaire, les gobelins bénéficient d'un bonus de +1 à l'attaque.
 - Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
-- Un gobelin au moins T4 en [discrétion][discretion]{title="Stealth"} [dérobera][cmd-steal-fr-id] toujours au moins 50 Silver, même s'il est détecté.
+- Un gobelin au moins T4 en [discrétion][skill-discretion-id]{title="Stealth"} [dérobera][cmd-steal-fr-id] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
 - Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
 

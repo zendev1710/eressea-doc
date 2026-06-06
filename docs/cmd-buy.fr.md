@@ -10,7 +10,7 @@ alias: cmd-buy-fr
 
 **`BUY <nombre> "produit de luxe"`**  
 
-Si l'unité maîtrise le [commerce][commerce], elle tentera d'acheter le nombre de produits de luxe renseigné.  
+Si l'unité maîtrise le [commerce][commerce]{title="Trade"}, elle tentera d'acheter le nombre de produits de luxe renseigné.  
 Cela n'est possible que si, d'une part, il existe dans la région un poste de commerce ou un château de plus grande taille à proximité duquel le marché peut avoir lieu, et d'autre part, si le produit est effectivement fabriqué dans la région.  
 Pour acheter quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
 Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  

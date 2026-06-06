@@ -259,7 +259,7 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 
 ### Dragon Call
 
-:   With this dark ritual, the magician creates a lure that smells irresistible to [[monsters#dragons]].  
+:   With this dark ritual, the magician creates a lure that smells irresistible to [dragons][known-dragons].  
     It has not yet been possible to research whether the dragons come from the surrounding area or from the sphere of chaos.  
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.

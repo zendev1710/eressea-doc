@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: tarnung
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Tarnung
 
 Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
@@ -16,7 +18,7 @@ Für erfolgreich getarnte Einheiten zählen die Restriktionen von [[bef-bewache]
 
 ## Fluchtchance erhöhen
 
-Die Standardfluchtchance einer Einheit im [Kampf] beträgt 25% (Halblinge 50%). Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%. Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NICHT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann. Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
+Die Standardfluchtchance einer Einheit im [Kampf][die-flucht] beträgt 25% (Halblinge 50%). Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%. Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NICHT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann. Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
 
 ## Diebstahl von Silber
 
@@ -30,7 +32,7 @@ Diebstahl stellt hin und wieder eine effektive Möglichkeit dar, Spione zur Stre
 
 ## Spionage
 
-Gibt eine Einheit mit dem Talent [Spionage] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen.  
+Gibt eine Einheit mit dem Talent [Spionage][spionage] den Befehl [`SPIONIERE`*`einheit-nr`*], wird ihr Spionagetalent mit dem Wert der Tarnung der Zieleinheit verglichen.  
 Die Grundchance für einen erfolgreichen Spionageversuch ist 10%.  
 Für jede Talentstufe, die das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%.  
 Ein hohes Tarnungstalent hilft also der Einheit einen erfolgreichen Spionageversuch zu erschweren.  
@@ -53,7 +55,7 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 ## Siehe auch
 
 - [[bef-bewache]][Bewacht]
-- [Einnahmen]
+- [Einnahmen][diebstahl-der-unehrliche-weg]
 
 Weiterlesen: [Reisen].
 
@@ -64,7 +66,3 @@ Weiterlesen: [Reisen].
 [Bewacht]: ./cmd-guard.md
 [bef-beklaue]: ./cmd-steal.md
 [Kampfstatus]: ./cmd-combat.md
-
-[Kampf]: ./war.md#die-flucht
-[Spionage]: ./skills-list.md#spionage
-[Einnahmen]: ./silver.md#diebstahl-der-unehrliche-weg

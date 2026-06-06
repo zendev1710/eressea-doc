@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: allianz
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Allianz
 
 Allianzen bilden das Rückgrat der Welt, ob dies nun Kriegs-, Handels- oder einfach nur Friedensallianzen sind.
@@ -34,10 +36,10 @@ Für das reine Bereitstellen von Unterhalt über HELFE SILBER ist kein HELFE GIB
 
 ## `HELFE BEWACHE`
 
-Hebt die behindernden Funktionen von [[bef-bewache]] auf und dehnt die nützlichen Funktionen auf die Zielpartei aus: Normalerweise lassen bewachende Einheiten keine andere Partei [Steuern eintreiben], [rekrutieren] oder endliche [Rohstoffe] abbauen und manchmal werden fremde Einheiten bei der [[bef-bewache|Durchreise aufgehalten]].
+Hebt die behindernden Funktionen von [[bef-bewache]] auf und dehnt die nützlichen Funktionen auf die Zielpartei aus: Normalerweise lassen bewachende Einheiten keine andere Partei [Steuern eintreiben], [rekrutieren][rekrutieren] oder endliche [Rohstoffe] abbauen und manchmal werden fremde Einheiten bei der [[bef-bewache|Durchreise aufgehalten]].
 Ist diese Hilfe gesetzt, wird den Einheiten der anderen Partei dieses gestattet und sie können ungehindert durchreisen, abbauen und rekrutieren.
 
-Außerdem dürfen alliierte Parteien eventuell nach langen Kämpfen noch lange Befehle ausführen (siehe [Kampfende]).
+Außerdem dürfen alliierte Parteien eventuell nach langen Kämpfen noch lange Befehle ausführen (siehe [Kampfende][das-ende]).
 
 Schließlich wird hiermit alliierten Parteien erlaubt, eigene Burgen und Schiffe zu [[bef-betrete|betreten]].
 
@@ -60,6 +62,4 @@ Weiterlesen: [[magie-de]].
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->
 
 [Steuern eintreiben]: ./silver.md
-[rekrutieren]: ./silver.md#rekrutieren "REKRUTIERE"
 [Rohstoffe]: ./resources.md
-[Kampfende]: ./war.md#das-ende "Kampfende"

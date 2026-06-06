@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: hauptseite
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Hauptseite
 
 Willkommen auf [[eressea]]!
@@ -15,9 +17,9 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 ## Was es hier gibt
 
 - Die [[regeln]]
-- [Anmeldung zum Spiel]
+- [Anmeldung zum Spiel][anmeldung]
 - [E-Announce] – Mailingliste Für Regeländerungen WICHTIG!
-- [Hilfsmittel]
+- [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss]
 - [Anfängertipps]
 - Die [Geschichte von Eressea]
 - Eressea stammt von [[atlantis]] ab
@@ -93,9 +95,6 @@ Weiterlesen: [[regeln]].
 [Anfängertipps]: ./getting-started-tips.md
 [Geschichte von Eressea]: ./eressea-story.md
 [Befehlsreihenfolge]: ./commands-sequence.md
-
-[Anmeldung zum Spiel]: ./hints.md#anmeldung
-[Hilfsmittel]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss
 
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"

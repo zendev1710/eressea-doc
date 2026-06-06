@@ -2,17 +2,19 @@
 # cSpell:locale de
 alias: einleitung
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Einleitung
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Map view")
 
-In Eressea übernimmst du eine [Partei] von Personen einer bestimmten [Rasse], die du dir bei der [Anmeldung] aussuchen kannst. Du wirst dann mit einigen anderen gemeinsam in der Welt von Eressea ausgesetzt und kannst von dort aus mit der Erforschung der Umgebung und der ganzen Welt beginnen.
+In Eressea übernimmst du eine [Partei] von Personen einer bestimmten [Rasse], die du dir bei der [Anmeldung][anmeldung] aussuchen kannst. Du wirst dann mit einigen anderen gemeinsam in der Welt von Eressea ausgesetzt und kannst von dort aus mit der Erforschung der Umgebung und der ganzen Welt beginnen.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
 
-Eressea ist eine fantastische Welt. Wesen wie [Elfen] und [Zwerge] bevölkern die Welt, und [[magie-de]] gehört zum täglichen Geschehen. Sogar [Drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
+Eressea ist eine fantastische Welt. Wesen wie [Elfen][elfen] und [Zwerge][zwerge] bevölkern die Welt, und [[magie-de]] gehört zum täglichen Geschehen. Sogar [Drachen][drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
 
 Eressea ist eine große Welt. Hunderte von Völkern leben auf den Inseln Eresseas und viele von ihnen werden sich wohl niemals begegnen, denn es kann Jahre dauern, die Entfernungen zu überbrücken.
 
@@ -28,7 +30,7 @@ Es gibt kein eindeutiges Spielziel in Eressea, kein Ende, welches es zu erreiche
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
 ![Eressea orders](assets/images/orders-example.jpg "Eressea orders")
 
-In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug besteht aus [Befehlen], die die Einheiten deiner Partei in der Welt so gut wie möglich auszuführen. Ein Zug ähnelt einem Computerprogramm, damit der *Server*, das Computerprogramm, das den Zustand der Welt kennt, ihn und die Züge aller anderen Spielenden auswerten und den neuen Zustand der Welt berechnen kann. Der Zugrhythmus liegt bei einer Woche, ZAT (Zug-Abgabe-Termin) ist jeweils Samstag Abend 21:00 Uhr (CET). Als Antwort auf deinen Zug bekommst du einen *Report*, der den Zustand der Welt enthält, soweit er deiner Partei bekannt ist. Die Auswertung besteht aus mehreren Teilen: Einem *[nr]* (Normalreport), der den Report in einer für Menschen gut lesbaren Form darstellt. Einem *[cr]* (Computerreport), der die gleichen Informationen, aber in einer computerlesbaren Form darstellt, mit der [Hilfsprogramme] gut zurechtkommen. Und einer *[Zugvorlage]*, die als Schablone für deinen nächsten Zug dienen kann. Außerdem kann es noch einen [Wochenbericht] geben, der ein paar Statistiken über den Zustand des Spiels enthält. Und manchmal den [Xontormia Express], eine Zeitung, die Beiträge von Spielenden aus Sicht der Spielwelt enthält.
+In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein. Ein Zug besteht aus [Befehlen], die die Einheiten deiner Partei in der Welt so gut wie möglich auszuführen. Ein Zug ähnelt einem Computerprogramm, damit der *Server*, das Computerprogramm, das den Zustand der Welt kennt, ihn und die Züge aller anderen Spielenden auswerten und den neuen Zustand der Welt berechnen kann. Der Zugrhythmus liegt bei einer Woche, ZAT (Zug-Abgabe-Termin) ist jeweils Samstag Abend 21:00 Uhr (CET). Als Antwort auf deinen Zug bekommst du einen *Report*, der den Zustand der Welt enthält, soweit er deiner Partei bekannt ist. Die Auswertung besteht aus mehreren Teilen: Einem [nr][nr] (Normalreport), der den Report in einer für Menschen gut lesbaren Form darstellt. Einem [cr][cr] (Computerreport), der die gleichen Informationen, aber in einer computerlesbaren Form darstellt, mit der [was-man-bei-der-eingabe-beachten-muss] gut zurechtkommen. Und einer *[Zugvorlage]*, die als Schablone für deinen nächsten Zug dienen kann. Außerdem kann es noch einen [Wochenbericht] geben, der ein paar Statistiken über den Zustand des Spiels enthält. Und manchmal den [Xontormia Express], eine Zeitung, die Beiträge von Spielenden aus Sicht der Spielwelt enthält.
 
 Kam bei der Spielleitung kein Zug an, so gibt das einen so genanten NMR (No Move Received). Bei 4 NMR in Folge wird die Partei automatisch aus dem Spiel genommen, also wird beim 5. NMR die Partei gelöscht.
 
@@ -36,19 +38,13 @@ Weiterlesen: [Welt].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805] -->
 
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+
 [Welt]: ./world.md
 [Partei]: ./factions.md
 [Rasse]: ./races.md
-[Anmeldung]: ./hints.md#anmeldung "Anmelden wie?"
-[Elfen]: ./races.md#elfen "Elf"
-[Zwerge]: ./races.md#zwerge "Zwerg"
-[Drachen]: ./monsters.md#drachen "Drachen"
 [Monster]: ./monsters.md
 [Krieg]: ./war.md
 [Befehlen]: ./commands.md
-[nr]: ./reports.md#nr "NR (to be documented)"
-[cr]: ./reports.md#cr "CR (to be documented)"
-[Hilfsprogramme]: ./commands-send.md#was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [Zugvorlage]: ./commands.md
 [Wochenbericht]: ./weekly-report.md
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"

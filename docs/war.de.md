@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: krieg
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Krieg
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
@@ -56,7 +58,7 @@ Eine Schlacht dauert fünf Kampfrunden zuzüglich einer eventuellen Taktikerrund
 In jeder Kampfrunde schlagen die Kämpfenden in einer zufälligen Reihenfolge zu.
 
 Man beachte, dass an einem Kampf teilnehmende Personen (das sind Personen, die im Kampfbericht aufgelistet werden) grundsätzlich keine weiteren langen Befehle ausführen können.
-Ausnahmen sind [Kämpfe auf See] und Kämpfe in Regionen, die *zu Kampfbeginn* von mindestens einer Einheit, die dem Kämpfer [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, oder aus der eigenen Partei ist, bewacht wird.
+Ausnahmen sind [Kämpfe auf See][kampf-auf-und-von-schiffen] und Kämpfe in Regionen, die *zu Kampfbeginn* von mindestens einer Einheit, die dem Kämpfer [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, oder aus der eigenen Partei ist, bewacht wird.
 In diesem Fall sind weitere lange Befehle möglich.
 
 ### Kampfreihen
@@ -68,11 +70,11 @@ Für weitere Informationen über die Kampfstati siehe [KÄMPFE][`KÄMPFE`].
 1. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE`] oder [`KÄMPFE AGGRESSIV`][`KÄMPFE`] gesetzt haben.
 2. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE HINTEN`][`KÄMPFE`] oder [`KÄMPFE DEFENSIV`][`KÄMPFE`] gesetzt haben.
 3. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE NICHT`][`KÄMPFE`] gesetzt haben.
-4. Reihe: Hier stehen alle Einheiten, die gerade versuchen, zu fliehen. Also die, die [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben und solche, die entsprechend viele Trefferpunkte verloren haben (siehe auch [Flucht]).
+4. Reihe: Hier stehen alle Einheiten, die gerade versuchen, zu fliehen. Also die, die [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben und solche, die entsprechend viele Trefferpunkte verloren haben (siehe auch [Flucht][die-flucht]).
 
 Nur die ersten beiden Kampfreihen nehmen aktiv am Kampf teil, können also zuschlagen, schießen und getroffen werden.
 Nicht kampfbereite Einheiten, die direkt angegriffen werden, nehmen erst am Kampf teil, wenn eine der vorderen Reihen überrannt wird.
-Fliehende Einheiten versuchen natürlich zu fliehen (siehe [hier][Flucht]).
+Fliehende Einheiten versuchen natürlich zu fliehen (siehe [hier][die-flucht]).
 
 Einheiten, die in der 2. Reihe kämpfen, können erst direkt im Nahkampf angegriffen werden, wenn sie an die Front kommen (das kann z.B. passieren, wenn die 1. Reihe überrannt wird, s.u.).
 Gegen Angriffe gegnerischer Fernkämpfer verteidigen sie sich mit dem besten Kampftalent.
@@ -145,23 +147,23 @@ Dabei wird folgendermaßen vorgegangen:
 Jede Person attackiert einmal pro Kampfrunde (außer [Helden] und einigen Monstern).
 
 Gelingt einem Kämpfer ein Treffer, so fügt er dem Gegner Schaden zu.
-Dabei verursachen verschiedene Waffen auch verschieden starken Schaden (Schadenspunkte, siehe [Waffeneigenschaften]).
+Dabei verursachen verschiedene Waffen auch verschieden starken Schaden (Schadenspunkte, siehe [Waffeneigenschaften][waffeneigenschaften]).
 Außerdem lohnt es sich, hohe Waffentalente zu haben: hat man mehr Talentstufen als der Gegner, so erhöht sich der Schaden bei einem Schlag um einen Punkt pro zwei Talentstufen Unterschied.
 Dabei werden reine Talentwerte gerechnet, Boni durch Pferde, Burgen usw.
 zählen nicht. Dies gilt für Fern- und Nahkampf gleichermaßen.
 Daneben gibt es noch eine gewisse vom Talentunterschied abhängige Chance, dass man einen kritischen Treffer landet, der bis zum fünffachen Waffenschaden verursachen kann.
 
-Hat eine Person mehr Schadenspunkte hinnehmen müssen, als sie "einstecken kann" (siehe [Rasseneigenschaften]; dabei addieren sich die verschiedenen Treffer im Kampf), so stirbt sie.
+Hat eine Person mehr Schadenspunkte hinnehmen müssen, als sie "einstecken kann" (siehe [Rasseneigenschaften][rasseneigenschaften]; dabei addieren sich die verschiedenen Treffer im Kampf), so stirbt sie.
 
 Trägt ein Kämpfer eine Rüstung, so kann diese einen Teil (oder gar alle) der Schadenspunkte auffangen.
-Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug erhöht sich die Chance, überhaupt getroffen zu werden (siehe [diese] Tabelle).
+Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug erhöht sich die Chance, überhaupt getroffen zu werden (siehe [diese][rustung] Tabelle).
 Gegen Armbrüste wirkt eine Rüstung nur zur Hälfte (abgerundet).
 
 Manche Wesen oder Waffen sind auch in der Lage magischen Schaden zu verursachen.
 Gegen magischen Schaden ist eine normale Rüstung wirkungslos.
-Es zählt nur die [Magieresistenz] welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.
+Es zählt nur die [Magieresistenz][magieresistenz] welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.
 
-Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle]).
+Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle][ausdauer]).
 
 ### Fernkampf
 
@@ -239,7 +241,7 @@ Pikenbonus
 Speer- und Hellebardenträger, die kein Pferd benutzen, erhalten gegen berittene Truppen einen Bonus von +1 zur Parade.
 
 Waffenmodifikatoren  
-Auch [Waffenmodifikatoren][Waffeneigenschaften] gelten in diesem Sinne als Boni und Mali.
+Auch [Waffenmodifikatoren][waffeneigenschaften] gelten in diesem Sinne als Boni und Mali.
 
 Eine Hellebarden-Einheit hat also (zusätzlich zu eventuellen anderen Boni oder Mali) +2 auf ihre Parade.
 Wenn sie selbst nicht reitet und gegen einen Reiter kämpft, wird ihr Paradewert für diesen Moment noch einmal um +1 erhöht.
@@ -338,7 +340,7 @@ Die [Taktikrunde][Taktiker] und die erste Runde wird nicht mitgezählt, so dass 
 Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind.
 Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.
 
-Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden].
+Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden][schiffsschaden].
 
 Will man mit einem Schiff Truppen in einer feindlich [[bef-bewache|bewachten]] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
 Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
@@ -406,12 +408,3 @@ Weiterlesen: [[allianz]].
 [Taktikerrunde]: #die-taktikerrunde
 [Kampfreihen]: #die-schlacht
 [flüchten]: #die-flucht
-
-[Schaden]: ./sailing.md#schiffsschaden
-[Kämpfe auf See]: ./war.md#kampf-auf-und-von-schiffen
-[Flucht]: ./war.md#die-flucht "Die Flucht"
-[Waffeneigenschaften]: ./war-tables.md#waffeneigenschaften
-[Rasseneigenschaften]: ./war-tables.md#rasseneigenschaften
-[diese]: ./war-tables.md#rustung
-[Magieresistenz]: ./war-tables.md#magieresistenz
-[diese Tabelle]: ./war-tables.md#ausdauer

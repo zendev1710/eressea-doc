@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-unterhalte
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # UNTERHALTE
 
 **`UNTERHALTE`**`[`*`betrag`*`]`
@@ -14,7 +16,7 @@ Da aber nur 60 Silber zur Verfügung stehen, werden diese 60 Silber ungefähr im
 
 Einheiten an Bord von Schiffen in bewachten Regionen können weder arbeiten noch unterhalten (siehe [[bef-arbeite]], [[bef-bewache]] und [[bef-helfe]]).
 
-Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Bauern insgesamt (ausgenommen [Handel]) abgenommen werden kann, ohne dass diese abwandern. Es ist so hoch, wie die überschüssigen Einnahmen der Bauern.
+Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Bauern insgesamt (ausgenommen [Handel][handel]) abgenommen werden kann, ohne dass diese abwandern. Es ist so hoch, wie die überschüssigen Einnahmen der Bauern.
 
 ## Siehe auch
 
@@ -25,5 +27,4 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 [bef-arbeite]: ./cmd-work.md
 [bef-bewache]: ./cmd-guard.md
 [bef-helfe]: ./cmd-help.md
-[Handel]: ./silver.md#handel "Handel"
 [Geld]: ./silver.md

@@ -39,7 +39,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## What do I absolutely need in the first round?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][perception] et peut-être une unité en [discrétion][stealth] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
+Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-id] et peut-être une unité en [discrétion][skill-discretion-id] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
 
 ## Buy merchandise
 

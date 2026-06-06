@@ -38,7 +38,7 @@ So you should make sure that you are guarding your regions from the first week i
 
 ## Hunger
 
-Avoid [[money#starvation|starvation]] at all costs. The effects are catastrophic.  
+Avoid [starvation][starvation] at all costs. The effects are catastrophic.  
 Each person needs 10 silver maintenance per week in order not to go hungry  
 
 ## Finance
@@ -60,7 +60,7 @@ When something is used, for example to make an item or to recruit, who uses it a
 
 ## Load capacity
 
-[[travel#movement]] will fail if the carrier's [[travel#transport-capacity|load capacity]] is less than the total weight of the people, objects, equipment, etc.
+[movement][movement] will fail if the carrier's [load capacity][transport-capacity] is less than the total weight of the people, objects, equipment, etc.
 
 Please check the position of the `MOVE` order in the [[orders-sequence|order sequence]].  
 

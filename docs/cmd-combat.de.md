@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-kaempfe
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # KÄMPFE
 
 **`KÄMPFE`**`VORNE`  
@@ -12,9 +14,9 @@ alias: bef-kaempfe
 **`KÄMPFE`**`FLIEHE`  
 **`KÄMPFE`**`HELFE [NICHT]`  
 
-Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel [Vom Kriege] auch den Abschnitt [Kampfreihen]).
+Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel [Vom Kriege] auch den Abschnitt [Kampfreihen][die-schlacht]).
 
-##  `KÄMPFE AGGRESSIV`
+## `KÄMPFE AGGRESSIV`
 
 Im Kampf steht die Einheit an der Front und wird nie fliehen, sondern bis zum Tode kämpfen.
 Dies verwendet man mit Vorteil, wenn es wirklich auf das letzte bisschen Offensivkraft ankommt.
@@ -46,7 +48,7 @@ Die Einheit versucht zu fliehen, wenn sie noch 90% ihrer Trefferpunkte hat.
 ## `KÄMPFE FLIEHE`
 
 Wird eine fluchtbereite Einheit in einen Kampf verwickelt, versucht sie vor jeder Kampfrunde zu fliehen.
-Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt [Flucht] im Kapitel Kampf.
+Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt [Flucht][die-flucht] im Kapitel Kampf.
 Diesen Kampfstatus setzt man mit Vorteil für fast alle "Zivilisten" ein.
 Flieht aus einer Einheit auch nur eine Person erfolgreich aus einem Kampf, verlässt diese automatisch Gebäude oder an Land liegende Schiffe, in denen sie sich befindet.
 Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.Einheiten mit diesem Kampfstatus können auch nicht [[bef-attackiere]] oder [[bef-bewache]].
@@ -79,6 +81,3 @@ Weitere Details unter [[bef-helfe]] und in den Kapiteln [Kampf][Vom Kriege] und 
 
 [Vom Kriege]: ./war.md
 [Kampfzauber]: ./cmd-combatspell.md
-
-[Kampfreihen]: ./war.md#die-schlacht
-[Flucht]: ./war.md#die-flucht

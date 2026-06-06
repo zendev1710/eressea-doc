@@ -2,9 +2,11 @@
 # cSpell:locale de
 alias: kurzbeschreibung
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Kurzbeschreibung
 
-Unter `K`/`L` ist vermerkt, ob der [[befehl]] ein [kurzer] oder [langer] Befehl ist.
+Unter `K`/`L` ist vermerkt, ob der [[befehl]] ein [kurzer][kurze-und-lange-befehle] oder [langer][kurze-und-lange-befehle] Befehl ist.
 Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.
 
 `PL` bezeichnet einen [[befehl|pseudolangen Befehl]], der einer Einheit mehrfach gegeben werden kann.
@@ -138,7 +140,7 @@ Kurzliste der Befehle.
 | [TARNE PARTEI NUMMER nummer]                                               | Parteizugehörigkeit tarnen (als andere Partei getarnt) | K      |
 | [TRANSPORTIERE einheit-nr]                                                 | andere Einheiten mitnehmen                             | K      |
 | [TREIBE \[betrag\]](./cmd-tax.md)                                          | Steuern eintreiben                                     | L      |
-| [UNTERHALTE \[betrag\]](./cmd-entertain.md)                                   | verdient 20 oder mehr Silber                           | L      |
+| [UNTERHALTE \[betrag\]](./cmd-entertain.md)                                | verdient 20 oder mehr Silber                           | L      |
 | [URSPRUNG x y]                                                             | setzt den Koordinaten-Ursprung                         | K      |
 | [VERGISS talent]                                                           | vergisst das Talent                                    | K      |
 | [VERKAUFE anzahl luxusgut]                                                 | verkauft Luxusgüter                                    | PL[^3] |
@@ -155,7 +157,7 @@ Kurzliste der Befehle.
 | [ZERSTÖRE \[stufen\] STRASSE richtung](./cmd-destroy.md)                   | Straße einreißen                                       | L      |
 | [ZÜCHTE PFERDE]                                                            | Pferde züchten - nur in Pferdezucht                    | L      |
 
-[^1]: der Befehl ist nicht immer lang, siehe [Kampfende]  
+[^1]: der Befehl ist nicht immer lang, siehe [Kampfende][das-ende]  
 [^2]: bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  
 [^3]: ein KAUFE- und mehrere VERKAUFE-Befehle können kombiniert werden  
 [^4]: eine Einheit kann mehrere Zauber ausführen  
@@ -169,8 +171,6 @@ Weiterlesen: [[der-erste-zug]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
-[kurzer]: ./commands.md#kurze-und-lange-befehle
-[langer]: ./commands.md#kurze-und-lange-befehle
 [//]: ./cmd-comment-slash.md
 [bef-arbeite]: ./cmd-work.md
 [ATTACKIERE einheit-nr]: ./cmd-attack.md
@@ -254,5 +254,3 @@ Weiterlesen: [[der-erste-zug]].
 [ZÜCHTE PFERDE]: ./cmd-grow.md
 
 [BENUTZE &#91;anzahl&#93; trank]: ./cmd-use.md
-
-[Kampfende]: ./war.md#das-ende

@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: bef-arbeite
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ARBEITE
 
 **`ARBEITE`**  
 
-Die Einheit arbeitet in der Landwirtschaft und verdient zwischen 10 und 15 Silber pro Person und Runde (s.a. [diese Tabelle]).
+Die Einheit arbeitet in der Landwirtschaft und verdient zwischen 10 und 15 Silber pro Person und Runde (s.a. [diese Tabelle][beispiele-zu-den-verdienstmoglichkeiten]).
 
 | Verdienst Burg | keine | Befestigung | Turm | Burg | Festung | Zitadelle |
 |----------------|-------|-------------|------|------|---------|-----------|
@@ -33,5 +35,3 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 [bef-bewache]: ./cmd-guard.md
 [bef-helfe]: ./cmd-help.md
 [bef-unterhalte]: ./cmd-entertain.md
-
-[diese Tabelle]: ./silver.md#beispiele-zu-den-verdienstmoglichkeiten

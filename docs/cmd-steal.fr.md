@@ -14,7 +14,7 @@ alias: cmd-steal-fr
 
 Avec cet ordre, une unité tente de voler l'unité spécifiée.  
 
-Si le niveau de [Discrétion][discretion]{title="Stealth"} des auteurs de [vol][vol-de-silver] est supérieure au niveau de [Perception][perception] des victimes (cela prend en compte la compétence de perception de la meilleure unité de la région), les victimes remarquent seulement qu'elles ont été volées, mais non par qui.  
+Si le niveau de [discrétion][skill-discretion-id]{title="Stealth"} des auteurs de [vol][vol-de-silver] est supérieure au niveau de [Perception][skill-perception-fr-id]{title="Perception"} des victimes (cela prend en compte la compétence de perception de la meilleure unité de la région), les victimes remarquent seulement qu'elles ont été volées, mais non par qui.  
 Les auteurs volent **50 Silver** par personne et par différence de niveau de compétence (entre les deux compétences vol et perception).  
 
 Si la perception des victimes et la dissimulation des auteurs sont de même niveau, le vol ne réussira pas et les victimes deviendront méfiantes.  
@@ -30,6 +30,6 @@ Si la perception des victimes est plus élevée que la dissimulation des auteurs
 ## Voir aussi
 
 - [[money]]
-- [discrétion][discretion]{title="Stealth"}
+- [Discrétion][discretion-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->

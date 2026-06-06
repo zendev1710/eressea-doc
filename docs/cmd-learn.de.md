@@ -2,12 +2,16 @@
 # cSpell:locale de
 alias: bef-lerne
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LERNE
 
-**`LERNE`**[<sup>`L`</sup>]` `*`talent`*  
-**`LERNE`**[<sup>`L`</sup>]`Magie "`*`Magiegebiet`*`"`  
+*[Langer Befehl][kurze-und-lange-befehle].*
 
-Mit diesem Befehl verbringt die Einheit eine Runde damit, das angegebene [Talent] zu [lernen] (siehe auch: [Liste der Talente]). Im Mittel dauert der Aufstieg in eine neue Talentstufe durch reines Lernen in etwa eine Anzahl von Wochen entsprechend der angepeilten Talentstufe ohne Berücksichtigung von Modifikationen durch Rasse oder Terrain. Um von Stufe 2 auf 3 zu kommen also etwa 3 Wochen. Normalerweise ist ein Talentwert von 2 doppelt so effektiv wie ein Talentwert von 1, ein Talentwert von 3 dreimal so effektiv und so weiter.
+**`LERNE`**` `*`talent`*  
+**`LERNE`**`Magie "`*`Magiegebiet`*`"`  
+
+Mit diesem Befehl verbringt die Einheit eine Runde damit, das angegebene [Talent] zu [lernen][talente-erlernen] (siehe auch: [Liste der Talente]). Im Mittel dauert der Aufstieg in eine neue Talentstufe durch reines Lernen in etwa eine Anzahl von Wochen entsprechend der angepeilten Talentstufe ohne Berücksichtigung von Modifikationen durch Rasse oder Terrain. Um von Stufe 2 auf 3 zu kommen also etwa 3 Wochen. Normalerweise ist ein Talentwert von 2 doppelt so effektiv wie ein Talentwert von 1, ein Talentwert von 3 dreimal so effektiv und so weiter.
 
 Der Befehl `LERNE Magie "Magiegebiet"` bestimmt das [Magiegebiet] bei einer Partei, die noch keines hat.
 
@@ -15,7 +19,7 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 
 ## Siehe auch
 
-- [Talente erlernen][lernen]
+- [Talente erlernen][talente-erlernen]
 
 - Durch den Einsatz von [Lehrern] kann man die benötigten Lernzeiten halbieren.
 
@@ -23,9 +27,7 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck] mitteilen, wie hoch die [
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE&oldid=16727] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Talent]: ./skills.md
-[lernen]: ./skills.md#talente-erlernen "Talente"
 [Liste der Talente]: ./skills-list.md
 [Magiegebiet]: ./magic.md
 [ECheck]: ./echeck.md

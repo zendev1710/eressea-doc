@@ -110,12 +110,14 @@ Cette compétence permet de construire et de réparer un [[bateaux|bateau]] en [
 
 Cette compétence augmente la furtivité d'une unité.  
 
-Une unité ayant acquis cette compétence est visible uniquement pour celles ayant un niveau de [perception] supérieur ou égal à son niveau de discrétion.  
+Une unité ayant acquis cette compétence est visible uniquement pour celles ayant un niveau de [perception][skill-perception-fr-id]{title="Perception"} supérieur ou égal à son niveau de discrétion.  
 Elle n'est pas visible des autres unités.  
 
 Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [[cmd-guard|vigilance]] des gardes de région.  
 
 Plus d'information :  [compétence de discrétion en détail][discretion-id].  
+
+[](){ #skill-divertissement-id }
 
 ## Divertissement
 
@@ -265,13 +267,15 @@ Capacité à se battre avec une arme de mêlée (sword, claymore, axe, laensword
 
 Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation].  
 
+[](){ #skill-perception-fr-id }
+
 ## Perception
 
 <!-- cspell:disable -->
 *Perception (EN), Wahrnehmung (DE)*.
 <!-- cspell:enable -->
 
-Capacité à détecter les unités [dissimulées][discretion].  
+Capacité à détecter les unités [dissimulées][discretion-id].  
 
 Cette compétence permet également d'éviter le [vol][vol-de-silver].  
 
@@ -352,6 +356,5 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
-[perception]: #perception
 [taxation]: #taxation
 [combat à mains nues]: #combat-a-mains-nues

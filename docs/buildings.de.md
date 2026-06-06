@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: gebaeude
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Gebäude
 
 Es gibt verschiedene Gebäude in Eressea, die unterschiedliche Vorteile bieten. Außer Burgen und Monumente brauchen alle Gebäude einen laufenden Unterhalt, der die Funktion sicherstellt.
@@ -31,7 +33,7 @@ Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und er
 - [Burgen]
 - [Andere Gebäude]
 - [Produktion]
-- [Ausgaben]
+- [Ausgaben][ausgaben]
 - [Zerstöre][4]
 
 Weiterlesen: [Burgen].
@@ -43,10 +45,9 @@ Weiterlesen: [Burgen].
 [bef-gib]: ./cmd-give.md
 [Befehlsreihenfolge]: ./commands-sequence.md
 [`MACHE `*`Gebäude`*]: ./cmd-make.md
-[`BEZAHLE NICHT`]: ./cmd-pay-not.md_NICHT "BEZAHLE NICHT"
 [bef-sortiere]: ./cmd-sort.md
 [ZERSTÖRE]: ./cmd-destroy.md
 [Andere Gebäude]: ./buildings-others.md
 [Produktion]: ./production.md
-[Ausgaben]: ./silver.md#ausgaben "Ausgaben"
 [4]: ./cmd-destroy.md
+[`BEZAHLE NICHT`]: ./cmd-pay-not.md

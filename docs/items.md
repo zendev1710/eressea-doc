@@ -41,7 +41,7 @@ Weight, skill and raw material requirements.
 | [ammunition][ammunition]             |     10 | [quarrying][quarrying]           |    3 |              1 stone |
 | [horse][horse]                       |     50 | [taming][taming]                 |    1 |                   -- |
 | [cart][cart]                         |     40 | [cartmaking][cartmaking]         |    1 |               5 wood |
-| [catapult][catapult]                 |    100 | [cartmaking][cartmaking]         |    5 |              10 wood |
+| [catapult][weapon-catapult-id]       |    100 | [cartmaking][cartmaking]         |    5 |              10 wood |
 | [spear][spear]                       |      1 | [weaponsmithing][weaponsmithing] |    2 |               1 wood |
 | [bow][bow-id]                        |      1 | [weaponsmithing][weaponsmithing] |    2 |               1 wood |
 | [lance][lance-id]                    |      2 | [weaponsmithing][weaponsmithing] |    2 |               2 wood |
@@ -63,7 +63,7 @@ Weight, skill and raw material requirements.
 | [laen shield][laen-shield]           |      0 | [armoursmithing][armoursmithing] |    7 |               1 laen |
 | [laen chainmail][laen-chainmail]     |      1 | [armoursmithing][armoursmithing] |    9 |               3 laen |
 | [adamantium plate][adamantium-plate] |      1 | [armoursmithing][armoursmithing] |   10 |         3 adamantium |
-| [potions][potions-id]                            |      0 | [alchemy][skill-alchemy-id]      |    2 |                herbs |
+| [potions][potions-id]                |      0 | [alchemy][skill-alchemy-id]      |    2 |                herbs |
 
 [^1]: laen and adamantium require a mine for extraction.
 [^2]: Elven bows can only be crafted by elves.

@@ -18,6 +18,8 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Bow
 
+[](){ #weapon-catapult-id }
+
 ### Catapult
 
 ### Claymore
@@ -109,7 +111,7 @@ Remarks:
 
 - Damage incurred while on horseback only applies in conjunction with the [horse bonus][bonuses-and-mali]
 - OB and DB represent the offensive and defensive bonuses; thus, an axe is designed more as an offensive weapon, while a halberd is more useful for defense
-- All Mallorn weapons increase magic resistance by 15%, all laen weapons and armors by 30% (see [below])
+- All Mallorn weapons increase magic resistance by 15%, all laen weapons and armors by 30% (see [below][magic-resistance-id])
 - A [[flaming-sword]] also conjures a small fireball per combat round
 
 [](){ #table-endurance-id }
@@ -238,6 +240,8 @@ The maximum achievable with conventional equipment is an armor rating of 7 with 
 With armor made of Laen armor, an armor rating of 9 is even possible, and with adamantium, a rating of 10.
 Such a well-armored unit is difficult to wound with simple weapons like swords or bows, as the armor can absorb much of the damage.
 
+[](){ #war-tables-magic-resistance-id }
+
 ## Magic resistance
 
 Magic resistance is a special attribute that can be influenced by race and equipment, as well as by certain spells.  
@@ -254,5 +258,3 @@ An elf with a longsword and full longsword armor (shield + chain) therefore does
 90% x 70% x 70% x 70% = 31% -> 69% magic resistance.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
-
-[below]: #magic-resistance

@@ -14,7 +14,7 @@ alias: cmd-hide-fr
 **`HIDE`**` `*`race`*  
 
 Avec la première variante, vous pouvez ajuster l'intensité avec laquelle une unité essaie de se camoufler.
-Le `niveau` spécifié ne peut évidemment pas être supérieur au niveau de l'unité en [discrétion][discretion]{title="Stealth"}.  
+Le `niveau` spécifié ne peut évidemment pas être supérieur au niveau de l'unité en [discrétion][skill-discretion-id]{title="Stealth"}.  
 
 Si aucun paramètre n'est spécifié, le maximum est défini.  
 
@@ -55,8 +55,8 @@ Avec `HIDE <race>` les [démons][demons] peuvent se déguiser en une autre race.
 ## Voir aussi
 
 - [Espionnage][espionnage]{title="Espionage"}
-- [Discrétion][discretion]{title="Stealth"}
-- [Perception][perception]{title="Perception"}
+- [Discrétion][discretion-id]{title="Stealth"}
+- [Perception][skill-perception-fr-id]{title="Perception"}
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 

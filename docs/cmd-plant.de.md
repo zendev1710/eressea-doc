@@ -2,12 +2,16 @@
 # cSpell:locale de
 alias: bef-pflanze
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # PFLANZE
 
-**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] KRÄUTER`  
-**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] BÄUME`  
-**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] MALLORNSAMEN`  
-**`PFLANZE`**[<sup>`L`</sup>]`[`*`anzahl`*`] SAMEN`  
+*[Langer Befehl][kurze-und-lange-befehle].*  
+
+**`PFLANZE`**`[`*`anzahl`*`] KRÄUTER`  
+**`PFLANZE`**`[`*`anzahl`*`] BÄUME`  
+**`PFLANZE`**`[`*`anzahl`*`] MALLORNSAMEN`  
+**`PFLANZE`**`[`*`anzahl`*`] SAMEN`  
 
 Um in einer leer gepflückten oder verwüsteten Region wieder frisches Grün sprießen zu lassen oder die natürliche Baumvermehrung zu steuern, kann dieser Befehl verwendet werden.
 
@@ -26,7 +30,6 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=PFLANZE&oldid=16730] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Kräuterkunde]: ./skills-list.md
 [Wasser des Lebens]: ./potions-and-herbs.md
 [ZÜCHTE]: ./cmd-grow.md

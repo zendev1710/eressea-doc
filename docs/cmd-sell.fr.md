@@ -6,12 +6,12 @@ alias: cmd-sell-fr
 <!-- markdownlint-disable MD052 -->
 # SELL
 
-*`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
+*`SELL` est, comme [[cmd-buy]], un ordre [pseudo-long][ordres-courts-et-longs][^1].*  
 
 **`SELL`**` `*`nombre`*` `*`produit de luxe`*  
 **`SELL`**` ALL `*`produit de luxe`*  
 
-L'unité compétente en [commerce][le-commerce] peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
+L'unité compétente en [commerce][commerce]{title="Trade"} peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
 Cela n'est possible que si, premièrement, il y a un poste de commerce ou un [[chateaux|château de plus grande taille]] dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.  
 Pour vendre quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
 Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  

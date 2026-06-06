@@ -2,15 +2,18 @@
 # cSpell:locale de
 alias: bef-kaufe
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # KAUFE
 
-**`KAUFE`**[<sup>`(l)`</sup>]` `*`anzahl`*` `*`luxusgut`*  
+*`KAUFE` ist wie [[bef-verkaufe]] ein ["pseudolanger" Befehl][kurze-und-lange-befehle].*
 
-Wenn die Einheit das Talent [Handeln] hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen.
+**`KAUFE`**` `*`anzahl`*` `*`luxusgut`*  
+
+Wenn die Einheit das Talent [Handeln][handel] hat, wird sie versuchen, die genannte Anzahl Luxusgüter zu kaufen.
 Dies geht nur, wenn sich in der Region erstens ein Handelsposten oder ein größerer Burgtyp befindet, in dessen Nähe der Markt abgehalten werden kann, und zweitens das Produkt überhaupt in der Region produziert wird.
 Um etwas zu kaufen, ist kein Kontakt zum Burgherren notwendig; trotzdem ist es natürlich diplomatischer, vorher zu fragen...
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] `KAUFE` ist wie [[bef-verkaufe]] ein ["pseudolanger" Befehl].
 Man kann insgesamt Talentstufe(Handeln) \* 10 Luxusgüter umsetzen, allerdings keine anderen langen Befehle geben.
 KAUFE-Order haben Priorität vor Verkäufen.
 
@@ -36,13 +39,10 @@ Im Computerreport und der [Zugvorlage]["pseudolanger" Befehl] sind alle `KAUFE`-
 
 ## Siehe auch
 
-- [Handel][Handeln]
+- [Handel][handel]
 - [[bef-verkaufe]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->
 
 [bef-verkaufe]: ./cmd-sell.md
 ["pseudolanger" Befehl]: ./commands.md
-
-[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
-[Handeln]: ./silver.md#handel

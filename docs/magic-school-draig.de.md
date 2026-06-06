@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: draigzauber
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Draigzauber
 
 ## Stufe 1
@@ -97,7 +99,7 @@ alias: draigzauber
 ### Erschaffe ein [Amulett des wahren Sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
-    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
+    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit] geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
 |               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
@@ -241,9 +243,9 @@ alias: draigzauber
 :   Diese Elementarbeschwörung ruft einen Feuerteufel herbei, ein Wesen aus den tiefsten Niederungen der Flammenhöllen.  
     Der Feuerteufel wird sich begierig auf die Wälder der Region stürzen und sie in Flammen setzen.  
 
-|   Komponenten   | Stufe |  Art   | Rang | Schiff |            Fern.             |
-|:---------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
-| 50 aura, 1 [öl] |  10   | Normal |  5   |        | :material-check:{ .success } |
+|     Komponenten     | Stufe |  Art   | Rang | Schiff |            Fern.             |
+|:-------------------:|:-----:|:------:|:----:|:------:|:----------------------------:|
+| 50 aura, 1 [öl][ol] |  10   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Feuerteufel`  
 
@@ -263,7 +265,7 @@ alias: draigzauber
 
 ### Drachenruf
 
-:   Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für [Drachen] einfach unwiderstehlich riecht.  
+:   Mit diesem dunklen Ritual erzeugt der Magier einen Köder, der für [Drachen][drachen] einfach unwiderstehlich riecht.  
     Ob die Drachen aus der Umgebung oder aus der Sphäre des Chaos stammen, konnte noch nicht erforscht werden.  
     Es soll beides bereits vorgekommen sein.  
     Der Köder hält etwa 6 Wochen, muss aber in einem drachengenehmen Terrain platziert werden.  
@@ -305,9 +307,9 @@ alias: draigzauber
 :   'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.  
     Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
 
-|                         Komponenten                         | Stufe |  Art   | Rang |            Schiff            | Fern. |
-|:-----------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
-| 100 aura, 1 [berserkerblut], 1 [schwert], 1 permanente aura |  12   | Normal |  5   | :material-check:{ .success } |       |
+|                                     Komponenten                                     | Stufe |  Art   | Rang |            Schiff            | Fern. |
+|:-----------------------------------------------------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
+| 100 aura, 1 [berserkerblut][berserkerblut], 1 [schwert][schwert], 1 permanente aura |  12   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
@@ -349,12 +351,7 @@ alias: draigzauber
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
 
-[Drachen]: ./monsters.md#drachen
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
 [Ring der Macht]: ./ring-of-power.md
 [Flammenschwert]: ./flaming-sword.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
-
-[berserkerblut]: ./alchemy.md#berserkerblut
-[schwert]: ./war-tables.md#schwert
-[öl]: ./silver.md#ol

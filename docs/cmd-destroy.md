@@ -25,7 +25,7 @@ The crew refuses to damage the ship on the high seas!
 With `DESTROY [`*`level`*`] STREET`*`direction`* you can demolish or damage a [[roads|road]].  
 <!-- TODO: check if the sentence below is related to DESTROY -->
 No faction is allowed to guard the region that has not set `HELP GUARD` as its own faction.  
-To damage or destroy a road, a unit requires the [[skills-list#roadwork]] skill.
+To damage or destroy a road, a unit requires the [roadwork][roadwork] skill.
 You can destroy one size point per skill point.  
 
 A unit can only destroy one structure (building, ship or road) per week.

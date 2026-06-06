@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: magic
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Magic
 
 Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in [[war]].
@@ -180,7 +182,7 @@ The value specified as "level" is initially the minimum skill at which the unit 
 
 Some spells have fixed effects and costs.  
 They are always cast at the spell's level and cannot be changed by parameters.  
-It can still be important for things like [Magic Resistance].  
+It can still be important for things like [Magic Resistance][magic-resistance-id].  
 **Create A Ring of Invisibility** is always cast at level 6 and produces exactly one ring.  
 
 Many spells have level-dependent effects and costs.  
@@ -192,7 +194,7 @@ With these variable spells you can specify a level at which the spell should be 
 This must be equal to or lower than the unit's magic skill, but it can be higher or lower than the spell's normal level.  
 This allows you to cast the spell at a lower level than your own skill.
 
-Using a [[ring-of-power]], [Mage Tower][mage-tower] or [Bless Stone Circle][bless-stone-circle], the strength can be increased by an additional point.  
+Using a [[ring-of-power]], [Mage Tower][mage-tower-id] or [Bless Stone Circle][bless-stone-circle], the strength can be increased by an additional point.  
 This bonus is added to the specified level.
 
 If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's skill value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).  
@@ -341,6 +343,8 @@ For draigmages it is 10% more. Possible consequences (in descending order of fre
 
 Special effects mainly affect Gwyrrd (enraged Ents are created) and Draig (pawn mobs or other consequences).  
 
+[](){ #magic-resistance-id }
+
 ## Magic resistance
 
 A person/unit's magic resistance is each person's inherent ability to resist a spell cast against them, and how severely a person is affected by magical damage in combat.  
@@ -358,7 +362,7 @@ For certain direct enchantments, it is additionally influenced by the unit's exp
 - 50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)
 - Never below 2%, never above 98%
 
-Instead, additional bonuses from [Weapons or Armor][magic-resistance] work against combat spells such as fireballs and weapons that are considered magical.  
+Instead, additional bonuses from [Weapons or Armor][war-tables-magic-resistance-id] work against combat spells such as fireballs and weapons that are considered magical.  
 Otherwise, only magical protection and natural armor work against magical damage.  
 
 Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.  
@@ -368,12 +372,12 @@ Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have ma
 The base chance is 0% for humans, 10% for [[skills-modifiers|elves]], for [[skills-modifiers|goblins]] it is only -5%.  
 A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse][d-chaos-curse-id] cast by a Magic 10 unit.  
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  
-
-For example, a fireball that would do 50 damage (5d10 + 15) only does (90%) against an elf with [Laensword][magic-resistance].*70%) = 63% of that, so about 31 damage.
+<!-- TODO : check original -->
+For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with [Laensword][war-tables-magic-resistance-id].*70% = 63% of that, so about 31 damage.
 
 ## Mage Tower
 
-A [Mage Tower][mage-tower] increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.  
+A [Mage Tower][mage-tower-id] increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.  
 In addition, the likelihood of a spell failure is significantly reduced.
 
 ## Familiar
@@ -440,5 +444,4 @@ Continue reading: [[schools-of-magic]].
 
 [Aura]: #aura
 [Ranged Spells]: #ranged-spells
-[Magic Resistance]: #magic-resistance
 [probability of blunders]: #blunder

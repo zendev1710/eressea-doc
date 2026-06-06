@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: cerddorzauber
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Cerddorzauber
 
 ## Stufe 1
@@ -252,9 +254,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
     Und er wird gar sicherlich von seiner besten Fähigkeit einige Tage bis hin zu den Studien zweier Wochen vergessen haben.  
     Noch ein Wort der Warnung: dieses ist sehr aufwendig, und so Ihr noch weitere Zauber in der selben Woche wirken wollt, so werden sie Euch schwerer fallen.'  
 
-|                Komponenten                | Stufe |  Art   | Rang | Schiff | Fern. |
-|:-----------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
-| 28 aura, 3 [knotiger saugwurz], 50 silber |   7   | Normal |  5   |        |       |
+|                         Komponenten                          | Stufe |  Art   | Rang | Schiff | Fern. |
+|:------------------------------------------------------------:|:-----:|:------:|:----:|:------:|:-----:|
+| 28 aura, 3 [knotiger saugwurz][knotiger-saugwurz], 50 silber |   7   | Normal |  5   |        |       |
 
 `ZAUBERE 'Schaler Wein' <Einheit-Nr>`  
 
@@ -463,4 +465,3 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
 [Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
-[knotiger saugwurz]: ./herbs.md#knotiger-saugwurz

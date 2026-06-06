@@ -2,12 +2,14 @@
 # cSpell:locale de
 alias: bef-betrete
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # BETRETE
 
 **`BETRETE`**` BURG `*`gebäude-nr`*  
 **`BETRETE`**` SCHIFF `*`schiff-nr`*  
 
-Betritt das angegebene [Gebäude] oder [Schiff]. Die Einheit mit dem [Kommando] über das Gebäude oder Schiff muss den Zutritt erlauben. Das tut sie, wenn sie zur eigenen Partei gehört, [[bef-helfe]] BEWACHE für die eigene Partei gesetzt hat oder in dieser Runde den [[bef-kontaktiere]] Befehl für die Einheit gibt. Anderenfalls wird der Zutritt verweigert.
+Betritt das angegebene [Gebäude] oder [Schiff]. Die Einheit mit dem [Kommando][einheiten-und-gebaude] über das Gebäude oder Schiff muss den Zutritt erlauben. Das tut sie, wenn sie zur eigenen Partei gehört, [[bef-helfe]] BEWACHE für die eigene Partei gesetzt hat oder in dieser Runde den [[bef-kontaktiere]] Befehl für die Einheit gibt. Anderenfalls wird der Zutritt verweigert.
 
 Ein BETRETE impliziert [[bef-verlasse]], wenn die Einheit sich auf einem Schiff oder in einem Gebäude befindet.
 
@@ -22,10 +24,10 @@ Es ist durchaus möglich, auf hoher See von einem Schiff auf ein anderes zu wech
 
 Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig das Kommando weiterzugeben, kann man Folgendes machen:
 
-```
- VERLASSE
- BETRETE BURG b2
- GIB u2 KOMMANDO
+```text
+VERLASSE
+BETRETE BURG b2
+GIB u2 KOMMANDO
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=BETRETE&oldid=7174] -->
@@ -38,5 +40,3 @@ Spielererfahrung: Solthar Um in E3 ein Gebäude zu verlassen und gleichzeitig da
 [bef-gib]: ./cmd-give.md
 <!-- TODO: exclude E3 from documentation -->
 [E3A — Das Dritte Zeitalter]: ./the-third-age.md
-
-[Kommando]: ./buildings.md#einheiten-und-gebaude

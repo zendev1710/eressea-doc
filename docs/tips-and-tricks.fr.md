@@ -38,7 +38,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## De quoi ai-je absolument besoin au premier tour ?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][perception] et peut-être une unité en [discrétion][discretion]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
+Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-fr-id]{title="Perception"} et peut-être une unité en [discrétion][skill-discretion-id]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
 
 ## Acheter de la marchandise
 

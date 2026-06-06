@@ -200,5 +200,3 @@ Weiterlesen: [Krieg].
 [bef-benutze]: ./cmd-use.md
 [bef-zaubere]: ./cmd-cast.md
 [Befehlsreihenfolge]: ./commands-sequence.md
-
-[bef-rekrutiere]: ./silver.md#rekrutieren

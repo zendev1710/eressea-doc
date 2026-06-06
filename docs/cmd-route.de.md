@@ -2,9 +2,13 @@
 # cSpell:locale de
 alias: bef-route
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ROUTE
 
-**`ROUTE`**[<sup>`L`</sup>]` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
+*[Langer Befehl][kurze-und-lange-befehle].*  
+
+**`ROUTE`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
 Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl [[bef-nach]] durch die Welt von Eressea.
 
@@ -26,7 +30,7 @@ Und in der Runde darauf:
 
 Und in der Runde darauf:
 
-     ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
+    ROUTE SW Westen NW NO Osten Pause Osten Osten SO Westen Westen Pause
 
 Und schließlich wieder wie am Anfang.
 
@@ -38,7 +42,6 @@ Und schließlich wieder wie am Anfang.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [bef-nach]: ./cmd-move.md
 [Reisen]: ./travel.md
 [bef-folge]: ./cmd-follow.md

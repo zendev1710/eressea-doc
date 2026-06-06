@@ -13,7 +13,7 @@ Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se 
 
 ## Contre-mesures
 
-Les unités camouflées peuvent être découvertes grâce à la compétence **[Perception][perception]**.  
+Les unités camouflées peuvent être découvertes grâce à la compétence de [perception][skill-perception-fr-id]{title="Perception"}.  
 Si le plus haut niveau en perception de ta faction dans la région est inférieur au niveau en Discrétion d'une unité étrangère, l'unité camouflée n'apparaît pas dans le rapport - elle devient invisible.  
 Si le niveau de perception et le niveau de Discrétion sont égaux, l'unité camouflée apparaît dans le rapport.  
 C'est la situation de départ lorsque l'on commence la partie, car toutes les nouvelles unités sont T0 en Discrétion et Perception.  

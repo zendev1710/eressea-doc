@@ -276,9 +276,9 @@ Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark her
 
 Hier eine kurze Übersicht:
 
-- Völker der Rasse [Insekt] können im Winter kaum rekrutieren
+- Völker der Rasse [Insekt][insekten] können im Winter kaum rekrutieren
 - Stürme auf [See] sind im Herbst weitaus häufiger
-- Die einzelnen Phasen des [Waldwachstums] sind an bestimmte Jahreszeiten gekoppelt
+- Die einzelnen Phasen des [Waldwachstums][tief-im-wald] sind an bestimmte Jahreszeiten gekoppelt
 - Im Winter kommt das Wachstum der [Kräuter] zum Erliegen
 
 ## Monate
@@ -355,7 +355,3 @@ Weiterlesen: [Parteien].
 [See]: ./travel.md
 [Geld]: ./silver.md
 [bef-unterhalte]: ./cmd-entertain.md
-
-[bef-rekrutiere]: ./silver.md#rekrutieren
-[Insekt]: ./races.md#insekten
-[Waldwachstums]: ./resources.md#tief-im-wald

@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: liste-der-talente
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Liste der Talente
 
 Hier die Liste aller Talente, die Einheiten in Eressea erlernen können. Dies ist nur eine kurze Übersicht, weitere Details enthalten die jeweiligen Kapitel.
@@ -16,7 +18,7 @@ Zusammen mit einer Armbrust: kämpfen. Mit Talent Steuereintreiben: Steuern eint
 
 ## Ausdauer
 
-Mit Ausdauer kann eine Einheit im Kampf mehr Trefferpunkte einstecken (siehe [Tabelle]).
+Mit Ausdauer kann eine Einheit im Kampf mehr Trefferpunkte einstecken (siehe [Tabelle][ausdauer]).
 
 ## Bergbau
 
@@ -34,7 +36,7 @@ Mit diesem Talent können [Gebäude und Burgen] gebaut werden.
 
 ## Handeln
 
-In Regionen mit einer Burg: Luxusgüter kaufen und verkaufen. Pro Person und Talentstufe können 10 Güter gehandelt werden (siehe [Handel] und [[bef-kaufe]]).
+In Regionen mit einer Burg: Luxusgüter kaufen und verkaufen. Pro Person und Talentstufe können 10 Güter gehandelt werden (siehe [Handel][handel] und [[bef-kaufe]]).
 
 ## Hiebwaffen
 
@@ -42,7 +44,7 @@ Zusammen mit einer Hiebwaffe: kämpfen. Mit Talent Steuereintreiben: Steuern ein
 
 ## Holzfällen
 
-Bäume und Mallorn fällen (siehe [Rohstoffe][1]).
+Bäume und Mallorn fällen (siehe [Rohstoffe][tief-im-wald]).
 
 ## Katapultbedienung
 
@@ -58,14 +60,14 @@ Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von M
 
 ## Pferdedressur
 
-Das Talent wird benötigt um an [Pferde] zu gelangen. Man kann es auf zwei Arten anwenden:
+Das Talent wird benötigt um an [Pferde][pferd-und-wagen] zu gelangen. Man kann es auf zwei Arten anwenden:
 
 - Mit [[bef-mache]][`MACHE SAMEN`]`[`*`anzahl`*`] Pferd` fängt man Pferde aus der Region und zwar 1 Pferd pro Person und Talentstufe Pferdedressur. Natürlich maximal soviele Pferde wie in der Region sind.
-- Mit [`ZÜCHTE PFERDE`] kann man aus bestehenden Pferden neue züchten, dazu muss man sich jedoch in einer [Pferdezucht] befinden.
+- Mit [`ZÜCHTE PFERDE`] kann man aus bestehenden Pferden neue züchten, dazu muss man sich jedoch in einer [Pferdezucht][pferdezucht] befinden.
 
 ## Reiten
 
-Zusammen mit einem [Pferd][Pferde]: Ab Reiten 1 schnellere Bewegung, ab Reiten 2 Pferdebonus im Kampf. Pro Person und Talentstufe vier Pferde (und ein weiteres pro Person) zu Fuß oder zwei Pferde reitend.
+Zusammen mit einem [Pferd][pferd-und-wagen]: Ab Reiten 1 schnellere Bewegung, ab Reiten 2 Pferdebonus im Kampf. Pro Person und Talentstufe vier Pferde (und ein weiteres pro Person) zu Fuß oder zwei Pferde reitend.
 
 ## Rüstungsbau
 
@@ -91,7 +93,7 @@ Zusammen mit einer Stangenwaffe: kämpfen. Mit Talent Steuereintreiben: Steuern 
 
 Steine und Katapultmunition (ab Talentstufe 3) produzieren. Pro Person und Talentstufe kann ein Stein gemacht werden.
 
-Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][2]). Man sieht immer nur, wie viele Steine auf der obersten Schicht liegen. Wenn bis zu einer Tiefe von (Talentstufe Steinbau \* 2) keine Steine mehr vorkommen, sieht man kein eventuelles Steinvorkommen.
+Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][vom-bergbau]). Man sieht immer nur, wie viele Steine auf der obersten Schicht liegen. Wenn bis zu einer Tiefe von (Talentstufe Steinbau \* 2) keine Steine mehr vorkommen, sieht man kein eventuelles Steinvorkommen.
 
 ## Steuereintreiben
 
@@ -105,7 +107,7 @@ Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut 
 
 ## [[taktik]]
 
-Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (siehe [Musterung]). Lernen kostet 200 Silber pro Person.
+Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (siehe [Musterung][die-musterung-der-einheiten]). Lernen kostet 200 Silber pro Person.
 
 ## [Tarnung]
 
@@ -154,11 +156,3 @@ Weiterlesen: [Tarnung].
 [beklauen]: ./stealth.md
 [Bewachungen]: ./cmd-guard.md
 [Wahrnehmung]: ./stealth.md
-
-[Tabelle]: ./war-tables.md#ausdauer
-[Handel]: ./silver.md#handel
-[1]: ./resources.md#tief-im-wald
-[Pferde]: ./travel.md#pferd-und-wagen
-[Pferdezucht]: ./buildings-others.md#pferdezucht
-[2]: ./resources.md#vom-bergbau
-[Musterung]: ./war.md#die-musterung-der-einheiten

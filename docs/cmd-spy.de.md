@@ -2,9 +2,13 @@
 # cSpell:locale de
 alias: bef-spioniere
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # SPIONIERE
 
-**`SPIONIERE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
+*[Langer Befehl][kurze-und-lange-befehle].*  
+
+**`SPIONIERE`**` `*`einheit-nr`*  
 
 Mit Spionage kann man Einheiten einer anderen Partei ausspionieren.
 Dabei wird das Spionagetalent des Spions mit dem [Tarnungstalent] der Zieleinheit verglichen.
@@ -59,5 +63,4 @@ Klar ist, dass Spionageversuche mit vielen schlechten Einheiten mit fast 100% Si
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPIONIERE&oldid=16733] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Tarnungstalent]: ./stealth.md

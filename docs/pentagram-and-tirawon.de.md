@@ -2,13 +2,15 @@
 # cSpell:locale de
 alias: pentagramm-und-tirawon
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Pentagramm und Tirawon
 
 Die Bündnisse **"Das Pentagramm"** und **"Ewiges Feuer von Tirawon / Grüne Hand Salassars"** waren zwei der mächtigsten Großbündnisse der 6. Welt und herrschten jeweils über mehrere hundert Regionen. In der Runde 381 (letzte Woche des Monats Sturmmond im Jahre 8 des zweiten Zeitalters) trafen ihre aufeinander ...
 
 Die Schlacht zwischen dem Pentagramm und Tirawon gilt als eine der größten, die jemals in Eressea ausgetragen wurden. In der Astralebene über der 6. Welt trafen insgesamt 182686 Personen\* aufeinander, 82398 vom Pentagramm und 100288 Tirawoner. Das waren knapp 2% der damaligen Gesamtbevölkerung Eresseas. Die Heere bestanden hauptsächlich aus Elfen, Zwergen und Halblingen (zusammen über 80%). Das größte Einzelheer bestehend aus 32554 Elfen stellten die Garan-Elfen die praktisch alle mit Elfenbögen bewaffnet waren, sicherlich ein entscheidender Faktor für den Sieg Tirawons. Erwähnenswert sind auch die fast 6000 Dämonen, die auf der Seite Tirawons kämpften, kein einziger von ihnen fiel im Kampf.
 
-Einmalig ist wohl die Tatsache, dass sich [Igjarjuk] persönlich -- als [Untoter Wyrm] auferstanden -- herabließ, das Pentagramm zu unterstützen. Die Ströme von Blut, die ihm dafür versprochen wurden, sind geflossen. Vielleicht nicht ganz so, wie sich das Pentagramm das erhofft hatte. Letzten Endes konnte aber selbst Igjarjuk das Blatt nicht wenden. Sein (erneuter) Tod setzte den Schlußpunkt unter diese Schlacht.
+Einmalig ist wohl die Tatsache, dass sich [Igjarjuk][igjarjuk-de-id] persönlich -- als [Untoter Wyrm][drachen] auferstanden -- herabließ, das Pentagramm zu unterstützen. Die Ströme von Blut, die ihm dafür versprochen wurden, sind geflossen. Vielleicht nicht ganz so, wie sich das Pentagramm das erhofft hatte. Letzten Endes konnte aber selbst Igjarjuk das Blatt nicht wenden. Sein (erneuter) Tod setzte den Schlußpunkt unter diese Schlacht.
 
 Die Schlacht endete mit einem triumphalen Sieg Tirawons. Auf Seiten des Pentagramms fielen 76189 Personen, 6209 flohen. Tirawon hatte lediglich 1192 Tote zu beklagen.
 
@@ -73,7 +75,6 @@ Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-  [Igjarjuk]: ./monsters.md#igjarjuk "Igjarjuk"
-  [Untoter Wyrm]: ./monsters.md#drachen "Drachen"
-  [falschem Banner]: ./cmd-hide.md
-  [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+
+[falschem Banner]: ./cmd-hide.md

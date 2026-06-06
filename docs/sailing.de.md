@@ -2,15 +2,17 @@
 # cSpell:locale de
 alias: schiffsreise
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Schiffsreise
 
 Nur mit [Schiffen] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen. Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
 
-Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
+Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
 
 Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [[bef-helfe]] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
 
-Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [[bef-folge]] oder [Piraterie] ausführen.
+Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [[bef-folge]] oder [Piraterie][piraterie] ausführen.
 
 Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheiten, die das Talent Segeln erlernt haben. In der folgenden Tabelle steht unter "Kapitän" die Talentstufe, den der Kapitän oder die Kapitänin (die erste Einheit auf dem Schiff im Report) des Schiffes in Segeln haben muss. Zudem braucht man auf dem Schiff eine gewisses Gesamttalent in Segeln. Dazu werden die Talentwerte aller Personen auf dem Schiff zusammengezählt, einschließlich der Kapitänseinheit und Einheiten fremder Parteien. Der benötigte Wert steht in der Tabelle unter "Besatzung". Die in der Tabelle aufgeführte Reichweite gilt pro Runde, d.h. ein Schiff kann pro Runde maximal so weit segeln. Schiffe, die von einer Meermenscheneinheit einer Meermenschenpartei gesteuert werden (Migranten-Meermenschen einer Menschenpartei zählt also nicht), können jeweils ein Feld weiter segeln.
 
@@ -44,9 +46,9 @@ Drachenschiffgeschwindigkeit
 
 Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passiert dies auf See (z.B. durch einen Kampf oder Einheiten verhungerten wegen Silbermangel), treibt es steuerlos umher, bis es an eine Küstenregion trifft. Dabei nimmt es ständig [Schaden], so dass es nach kurzer Zeit versinken wird.
 
-Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen].
+Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
-Es ist möglich, mehrere Schiffe zu einem [Konvoi] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe] beschrieben.
+Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe] beschrieben.
 
 Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [[bef-nach]] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
 
@@ -56,7 +58,7 @@ Wollen Einheiten ein Schiff verlassen, so müssen sie dies erst mit [[bef-verlas
 
 ## Anschwimmen
 
-[Meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [[bef-nach]] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [[bef-transportiere|Transportieren]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
+[Meermenschen][meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [[bef-nach]] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [[bef-transportiere|Transportieren]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
 
 ## Schiffsschaden
 
@@ -73,7 +75,7 @@ Nimmt ein Schiff 100% Schaden, so sinkt es mit Mann und Maus.
 
 Bei folgenden Ereignissen nimmt ein Schiff Schaden:
 
-- das Schiff ist in einen Kampf verwickelt 0%-20% (siehe [Kampf auf Schiffen])
+- das Schiff ist in einen Kampf verwickelt 0%-20% (siehe [Kampf auf Schiffen][kampf-auf-und-von-schiffen])
 - das Schiff wird durch einen mächtigen Zauber beschädigt (bis 90%)
 - das Schiff nimmt durch Flutwellen Schäden (50%)
 - wenn das Schiff auf Klippen aufläuft, nimmt es 10% Schaden
@@ -89,7 +91,7 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 
 ## Siehe auch
 
-- [Reisen][2]
+- [Reisen][reisen]
 - [Schiff][Schiffen]
 
 Weiterlesen: [Produktion].
@@ -111,12 +113,4 @@ Weiterlesen: [Produktion].
 [bef-fahre]: ./cmd-ride.md
 [bef-transportiere]: ./cmd-carry.md
 [1]: ./cmd-make.md
-[2]: ./travel.md
 [Waren]: ./items.md
-
-[**Hafen**]: ./buildings-others.md#hafen
-[Piraterie]: ./war.md#piraterie
-[Reisen]: ./travel.md#reisen
-[Konvoi]: ./ships.md#konvoi
-[Meermenschen]: ./races.md#meermenschen
-[Kampf auf Schiffen]: ./war.md#kampf-auf-und-von-schiffen

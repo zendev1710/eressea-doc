@@ -3,7 +3,7 @@
 alias: batiments-speciaux
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Bâtiments spéciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.
@@ -13,7 +13,7 @@ Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make] et peuvent
 Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 
 !!! info
-    La construction d'un bâtiment nécessite un niveau de compétence minimal en [maçonnerie].
+    La construction d'un bâtiment nécessite un niveau de compétence minimal en [maçonnerie][maconnerie]{title="Masonry"}.
 
 !!! note "Remarque"
     Certains bâtiments sont d'une taille maximale déterminée, d'autres non.
@@ -277,6 +277,8 @@ Le coût **total** d'un barrage (de taille 50) est de : 250 pierres, 500 bois, 5
   Si le barrage est détruit, la moitié des routes seront également détruites.
   Une route achevée demeure si l'entretien du bâtiment n'est pas payé.
 - Le barrage ne fonctionnera que s’il est entièrement construit !
+
+[](){ #tunnel-fr-id }
 
 ## Tunnel
 

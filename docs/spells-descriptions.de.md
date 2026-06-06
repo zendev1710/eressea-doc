@@ -3,10 +3,12 @@
 alias: zauberbeschreibungen
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Zauberbeschreibungen
 
 ## A
+
+[](){ #astrale-schw-chezone-id }
 
 ### Astrale Schwächezone
 
@@ -20,6 +22,8 @@ alias: zauberbeschreibungen
 
 `ZAUBERE [REGION x y] [STUFE n] "Astrale Schwächezone"`  
 
+[](){ #astraler-ausgang-id }
+
 ### Astraler Ausgang
 
 :   Der Magier konzentriert sich auf die Struktur der Realität und kann so die astrale Ebene verlassen.  
@@ -32,6 +36,8 @@ alias: zauberbeschreibungen
 
 `ZAUBERE [STUFE n] "Astraler Ausgang" <x> <y> <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #astraler-riss-id }
+
 ### Astraler Riss
 
 :   Der Schwarzmagier kann mit diesem dunklen Ritual einen Riss in das Gefüge der Magie bewirken, der alle magische Kraft aus der Region reißen wird.  
@@ -42,6 +48,8 @@ alias: zauberbeschreibungen
 |  D   | 35 aura, 1 [[drachenblut]] |   9   | Normal |  3   |        |       |
 
 `ZAUBERE "Astraler Riss"`  
+
+[](){ #astraler-ruf-id }
 
 ### Astraler Ruf
 
@@ -55,6 +63,8 @@ alias: zauberbeschreibungen
 
 `ZAUBERE [STUFE n] "Astraler Ruf" <x> <y> <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #astraler-weg-id }
+
 ### Astraler Weg
 
 :   Alte arkane Formeln ermöglichen es dem Magier, sich und andere in die astrale Ebene zu schicken.  
@@ -67,6 +77,8 @@ alias: zauberbeschreibungen
 
 `ZAUBERE [STUFE n] 'Astraler Weg' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #astrales-chaos-id }
+
 ### Astrales Chaos
 
 :   Dieses Ritual, ausgeführt vor einem Kampf, verwirbelt die astralen Energien auf dem Schlachtfeld und macht es so feindlichen Magier schwieriger, ihre Zauber zu wirken.  
@@ -76,6 +88,8 @@ alias: zauberbeschreibungen
 |  D   | 6 x T aura  |   9   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Astrales Chaos'`  
+
+[](){ #astralschutzgeister-id }
 
 ### Astralschutzgeister
 
@@ -88,6 +102,8 @@ alias: zauberbeschreibungen
 
 `KAMPFZAUBER [STUFE n] Astralschutzgeister`  
 
+[](){ #aufruhr-beschwichtigen-id }
+
 ### Aufruhr beschwichtigen
 
 :   Mit Hilfe dieses magischen Gesangs kann der Magier eine Region in Aufruhr wieder beruhigen.  
@@ -98,6 +114,8 @@ alias: zauberbeschreibungen
 |  C   |   30 aura   |  15   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Aufruhr beschwichtigen'`  
+
+[](){ #aufruhr-verursachen-id }
 
 ### Aufruhr verursachen
 
@@ -111,6 +129,8 @@ alias: zauberbeschreibungen
 
 `ZAUBERE [REGION x y] 'Aufruhr verursachen'`  
 
+[](){ #auratransfer-id }
+
 ### Auratransfer
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes oder im Verhältnis 3:1 auf einen Magier eines anderen Magiegebietes übertragen.  
@@ -120,6 +140,8 @@ alias: zauberbeschreibungen
 |  T   |   1 aura    |   5   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Auratransfer <Einheit-Nr> <Aura>`  
+
+[](){ #aushorchen-id }
 
 ### Aushorchen
 
@@ -135,6 +157,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 ## B
 
+[](){ #bannlied-id }
+
 ### Bannlied
 
 :   Dieser schrille Gesang hallt über das ganze Schlachtfeld.  
@@ -145,6 +169,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  C   | 5 x T aura  |   5   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] Bannlied`  
+
+[](){ #belebtes-gestein-id }
 
 ### Belebtes Gestein
 
@@ -159,6 +185,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE [STUFE n] 'Belebtes Gestein' <Gebäude-Nr> <Richtung>`  
 
+[](){ #bergw-chter-id }
+
 ### [Bergwächter]
 
 :   Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELFE BEWACHE) verhindert, solange er die Region bewacht.  
@@ -170,6 +198,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE [REGION x y] [STUFE n] Bergwächter`  
 
+[](){ #beschleunigung-id }
+
 ### Beschleunigung
 
 :   Dieser Zauber beschleunigt einige Kämpfer auf der eigenen Seite so, dass sie während des gesamten Kampfes in einer Kampfrunde zweimal angreifen können.  
@@ -179,6 +209,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  T   | 5 x T aura  |   9   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Beschleunigung`  
+
+[](){ #beschw-re-schattend-monen-id }
 
 ### Beschwöre Schattendämonen
 
@@ -193,6 +225,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattendämonen'`  
 
+[](){ #beschw-re-schattenmeister-id }
+
 ### Beschwöre Schattenmeister
 
 :   Mit Hilfe dunkler Rituale beschwört der Zauberer Dämonen aus der Sphäre der Schatten.  
@@ -206,6 +240,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattenmeister'`  
 
+[](){ #beute-bewahren-id }
+
 ### Beute Bewahren
 
 :   Dieser Zauber verhindert, dass ein Teil der sonst im Kampf zerstörten Gegenstände beschädigt wird.  
@@ -216,6 +252,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  T   |   T aura    |   3   | Post-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Beute Bewahren'`  
+
+[](){ #blick-des-basilisken-id }
 
 ### Blick des Basilisken
 
@@ -228,6 +266,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `KAMPFZAUBER [STUFE n] 'Blick des Basilisken'`  
 
+[](){ #blick-in-die-realit-t-id }
+
 ### Blick in die Realität
 
 :   Der Magier kann mit Hilfe dieses Zaubers aus der Astral- in die materielle Ebene blicken und die Regionen und Einheiten genau erkennen.  
@@ -237,6 +277,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  T   |   40 aura   |  10   | Normal |  5   |        |       |
 
 `ZAUBERE 'Blick in die Realität'`  
+
+[](){ #blutrausch-id }
 
 ### Blutrausch
 
@@ -251,6 +293,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 ## C
 
+[](){ #chaosfluch-id }
+
 ### Chaosfluch
 
 :   Dieser heimtückische Fluch beeinträchtigt die magischen Fähigkeiten des Opfers erheblich.  
@@ -261,6 +305,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  D   | 4 x T aura  |   5   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] Chaosfluch <Einheit-Nr>`  
+
+[](){ #chaossog-id }
 
 ### Chaossog
 
@@ -274,6 +320,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 `ZAUBERE Chaossog`  
 
 ## D
+
+[](){ #drachenruf-id }
 
 ### Drachenruf
 
@@ -290,6 +338,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 ## E
 
+[](){ #erdelementar-id }
+
 ### Erdelementar
 
 :   Der Druide beschwört mit diesem Ritual einen Elementargeist der Erde und bringt ihn dazu, die Erde erbeben zu lassen.  
@@ -300,6 +350,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  G   | 25 aura, 2 [laen][laen-de-id] |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Erdelementar`  
+
+[](){ #erschaffe-antimagiekristall-id }
 
 ### Erschaffe [Antimagiekristall]
 
@@ -312,6 +364,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE 'Erschaffe Antimagiekristall'`  
 
+[](){ #erschaffe-eisengolems-id }
+
 ### Erschaffe [Eisengolems]
 
 :   Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden.  
@@ -323,6 +377,8 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 |  G   | 2 x T aura, T [eisen][eisen], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Erschaffe Eisengolems'`  
+
+[](){ #erschaffe-steingolems-id }
 
 ### Erschaffe [Steingolems]
 
@@ -341,6 +397,8 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 
 `ZAUBERE [STUFE n] 'Erschaffe Steingolems'`  
 
+[](){ #erschaffe-ein-amulett-des-wahren-sehens-id }
+
 ### Erschaffe ein [Amulett des wahren Sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
@@ -352,6 +410,8 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 | \*[^1] | 50 aura, 3000 silber, 1 permanente aura |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
+
+[](){ #erschaffe-ein-flammenschwert-id }
 
 ### Erschaffe ein [Flammenschwert]
 
@@ -366,6 +426,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Erschaffe ein Flammenschwert'`  
 
+[](){ #erschaffe-ein-traumauge-id }
+
 ### Erschaffe ein [Traumauge]
 
 :   Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen.  
@@ -379,6 +441,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Erschaffe ein Traumauge'`  
 
+[](){ #erschaffe-eine-sph-re-der-unsichtbarkeit-id }
+
 ### Erschaffe eine [Sphäre der Unsichtbarkeit]
 
 :   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
@@ -389,6 +453,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  I   | 150 aura, 30000 silber, 3 permanente aura |  13   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe eine Sphäre der Unsichtbarkeit'`  
+
+[](){ #erschaffe-einen-beutel-des-negativen-gewichts-id }
 
 ### Erschaffe einen [Beutel des Negativen Gewichts]
 
@@ -403,6 +469,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Erschaffe einen Beutel des Negativen Gewichts'`  
 
+[](){ #erschaffe-einen-g-rtel-der-trollst-rke-id }
+
 ### Erschaffe einen [Gürtel der Trollstärke]
 
 :   Dieses magische Artefakt verleiht dem Träger die Stärke eines ausgewachsenen Höhlentrolls.  
@@ -414,6 +482,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Erschaffe einen Gürtel der Trollstärke'`  
 
+[](){ #erschaffe-einen-ring-der-macht-id }
+
 ### Erschaffe einen [Ring der Macht]
 
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
@@ -424,6 +494,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  T   | 100 aura, 1 permanente aura, 4000 silber |   9   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen Ring der Macht'`  
+
+[](){ #erschaffe-einen-ring-der-unsichtbarkeit-id }
 
 ### Erschaffe einen [Ring der Unsichtbarkeit]
 
@@ -437,6 +509,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'`  
 
+[](){ #erschaffe-einen-magischen-kr-uterbeutel-id }
+
 ### Erschaffe einen [magischen Kräuterbeutel]
 
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
@@ -447,6 +521,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  G   | 30 aura, 1 permanente aura, 1 [wasser des lebens][wasser-des-lebens] |   5   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Erschaffe einen magischen Kräuterbeutel'`  
+
+[](){ #erwecke-ents-id }
 
 ### Erwecke [Ents][ents]
 
@@ -461,6 +537,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 ## F
 
+[](){ #feuerball-id }
+
 ### Feuerball
 
 :   Der Zauberer schleudert fokussiertes Chaos in die Reihen der Gegner.  
@@ -471,6 +549,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  D   |   T aura    |   2   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Feuerball`  
+
+[](){ #feuerteufel-id }
 
 ### Feuerteufel
 
@@ -483,6 +563,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [REGION x y] Feuerteufel`  
 
+[](){ #feuerwand-id }
+
 ### Feuerwand
 
 :   Der Zauberer erschafft eine Wand aus Feuer in der angegebenen Richtung.  
@@ -493,6 +575,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  D   | 6 x T aura  |   7   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] Feuerwand <Richtung>`  
+
+[](){ #firuns-fell-id }
 
 ### Firuns Fell
 
@@ -507,6 +591,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [STUFE n] 'Firuns Fell' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #fluch-brechen-id }
+
 ### Fluch brechen
 
 :   Dieser Zauber ermöglicht dem Magier, gezielt eine bestimmte Verzauberung einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
@@ -517,6 +603,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [REGION x y] [STUFE n] 'Fluch brechen' ( REGION | EINHEIT <Einheit-Nr> | SCHIFF <Schiff-Nr> | BURG <Gebäude-Nr> ) <Zauber-ID>`  
 
+[](){ #fluch-der-pestilenz-id }
+
 ### Fluch der Pestilenz
 
 :   In einem aufwendigen Ritual opfert der Schwarzmagier einige Bauern und verteilt dann die Leichen auf magische Weise in den Brunnen der Region.  
@@ -526,6 +614,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  D   | 30 aura, 50 bauern |   7   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Fluch der Pestilenz'`  
+
+[](){ #friedenslied-id }
 
 ### Friedenslied
 
@@ -541,6 +631,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 ## G
 
+[](){ #gabe-des-chaos-id }
+
 ### Gabe des Chaos
 
 :   Der Magier öffnet seinen Geist den Sphären des Chaos und wird so für einige Zeit über mehr magische Kraft verfügen.  
@@ -552,6 +644,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Gabe des Chaos'`  
 
+[](){ #gaukeleien-id }
+
 ### Gaukeleien
 
 :   Cerddormagier sind die führenden Gaukler unter den Magiern, sie lieben es das Volk zu unterhalten und im Mittelpunkt zu stehen.  
@@ -562,6 +656,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  C   |   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Gaukeleien`  
+
+[](){ #geister-bannen-id }
 
 ### Geister bannen
 
@@ -575,6 +671,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [REGION x y] [STUFE n] 'Geister bannen' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
+[](){ #gesang-der-angst-id }
+
 ### Gesang der Angst
 
 :   Dieser Kriegsgesang sät Panik in der Front der Gegner und schwächt so ihre Kampfkraft erheblich.  
@@ -585,6 +683,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  C   | 5 x T aura  |   8   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Angst'`  
+
+[](){ #gesang-der-friedfertigkeit-id }
 
 ### Gesang der Friedfertigkeit
 
@@ -598,6 +698,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [STUFE n] 'Gesang der Friedfertigkeit'`  
 
+[](){ #gesang-der-furcht-id }
+
 ### Gesang der Furcht
 
 :   Ein gar machtvoller Gesang aus den Überlieferungen der Katzen, der tief in die Herzen der Feinde dringt und ihnen Mut und Hoffnung raubt.  
@@ -610,6 +712,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Furcht'`  
 
+[](){ #gesang-der-melancholie-id }
+
 ### Gesang der Melancholie
 
 :   Mit diesem Gesang verbreitet der Barde eine melancholische, traurige Stimmung unter den Bauern.  
@@ -621,6 +725,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [REGION x y] 'Gesang der Melancholie'`  
 
+[](){ #gesang-der-versklavung-id }
+
 ### Gesang der Versklavung
 
 :   Dieser mächtige Bann raubt dem Opfer seinen freien Willen und unterwirft es den Befehlen des Barden.  
@@ -631,6 +737,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  C   |   40 aura   |  13   | Normal |  5   |        |       |
 
 `ZAUBERE 'Gesang der Versklavung' <Einheit-Nr>`  
+
+[](){ #gesang-der-verwirrung-id }
 
 ### Gesang der Verwirrung
 
@@ -644,6 +752,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `KAMPFZAUBER [STUFE n] 'Gesang der Verwirrung'`  
 
+[](){ #gesang-des-auratransfers-id }
+
 ### Gesang des Auratransfers
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
@@ -653,6 +763,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  C   |   2 aura    |   5   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Gesang des Auratransfers' <Einheit-Nr> <Aura>`  
+
+[](){ #gesang-des-lebens-analysieren-id }
 
 ### Gesang des Lebens analysieren
 
@@ -668,6 +780,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Gesang des Lebens analysieren' <Einheit-Nr>`  
 
+[](){ #gesang-des-werbens-id }
+
 ### Gesang des Werbens
 
 :   Aus 'Die Gesänge der Alten' von Firudin dem Weisen: 'Diese verführerische kleine Melodie und einige einschmeichelnde Worte überwinden das Misstrauen der Bauern im Nu.  
@@ -679,6 +793,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [STUFE n] 'Gesang des Werbens'`  
 
+[](){ #gesang-des-schwachen-geistes-id }
+
 ### Gesang des schwachen Geistes
 
 :   Dieses Lied, das in die magische Essenz der Region gewoben wird, schwächt die natürliche Widerstandskraft gegen eine Verzauberung einmalig um 15%.  
@@ -689,6 +805,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  C   | 2 x T aura  |  12   | Normal |  2   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des schwachen Geistes'`  
+
+[](){ #gesang-des-wachen-geistes-id }
 
 ### Gesang des wachen Geistes
 
@@ -702,6 +820,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE [REGION x y] [STUFE n] 'Gesang des wachen Geistes'`  
 
+[](){ #gestaltwandlung-id }
+
 ### Gestaltwandlung
 
 :   Mit Hilfe dieses arkanen Rituals vermag der Traumweber die wahre Gestalt einer Gruppe zu verschleiern.  
@@ -712,6 +832,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  I   |   T aura    |   3   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] Gestaltwandlung <Einheit-Nr> <Rasse>`  
+
+[](){ #grauen-der-schlacht-id }
 
 ### Grauen der Schlacht
 
@@ -726,6 +848,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 ## H
 
+[](){ #hagel-id }
+
 ### Hagel
 
 :   Im Kampf ruft der Magier die Elementargeister der Kälte an und bindet sie an sich.  
@@ -737,6 +861,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `KAMPFZAUBER [STUFE n] Hagel`  
 
+[](){ #hainzauber-id }
+
 ### Hainzauber
 
 :   Wo sonst aus einem Stecken nur ein Baum sprießen konnte, so treibt nun jeder Ast Wurzeln.  
@@ -746,6 +872,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  G   | 4 x T aura, T [holz][holz], 1 [wasser des lebens][wasser-des-lebens] |   2   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Hainzauber`  
+
+[](){ #heiliger-boden-id }
 
 ### Heiliger Boden
 
@@ -758,6 +886,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `ZAUBERE 'Heiliger Boden'`  
 
+[](){ #heilung-id }
+
 ### Heilung
 
 :   Nicht nur der Feldscher kann den Verwundeten einer Schlacht helfen.  
@@ -769,6 +899,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `KAMPFZAUBER [STUFE n] Heilung`  
 
+[](){ #heimstein-id }
+
 ### Heimstein
 
 :   Mit dieser Formel bindet der Magier auf ewig die Kräfte der Erde in die Mauern der Burg, in der er sich gerade befindet.  
@@ -779,6 +911,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  G   | 50 aura, 1 permanente aura |   7   | Normal |  5   |        |       |
 
 `ZAUBERE Heimstein`  
+
+[](){ #heldengesang-id }
 
 ### Heldengesang
 
@@ -792,6 +926,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 `KAMPFZAUBER [STUFE n] Heldengesang`  
 
+[](){ #hitzeelementar-id }
+
 ### Hitzeelementar
 
 :   Dieses Ritual beschwört wütende Elementargeister der Hitze.  
@@ -804,6 +940,8 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 |  G   |  600 aura   |  13   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Hitzeelementar`  
+
+[](){ #hohe-kunst-der-berzeugung-id }
 
 ### Hohe Kunst der Überzeugung
 
@@ -822,6 +960,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Hohe Kunst der Überzeugung'`  
 
+[](){ #hohes-lied-der-gaukelei-id }
+
 ### Hohes Lied der Gaukelei
 
 :   Dieser fröhliche Gesang wird sich wie ein Gerücht in der Region ausbreiten und alle Welt in Feierlaune versetzen.  
@@ -834,6 +974,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 `ZAUBERE [REGION x y] [STUFE n] 'Hohes Lied der Gaukelei'`  
 
 ## K
+
+[](){ #kleine-fl-che-id }
 
 ### Kleine Flüche
 
@@ -848,6 +990,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Kleine Flüche'`  
 
+[](){ #kleines-blutopfer-id }
+
 ### Kleines Blutopfer
 
 :   Mit diesem Ritual kann der Magier einen Teil seiner Lebensenergie opfern, um dafür an magischer Kraft zu gewinnen.  
@@ -860,6 +1004,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   |    16 PV    |   4   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Kleines Blutopfer'`  
+
+[](){ #kriegsgesang-id }
 
 ### Kriegsgesang
 
@@ -876,6 +1022,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## L
 
+[](){ #lebenslied-festigen-id }
+
 ### Lebenslied festigen
 
 :   Jede Verzauberung beeinflußt das Lebenslied, schwächt und verzerrt es.  
@@ -886,6 +1034,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  C   | 5 x T aura  |   8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Lebenslied festigen' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
+
+[](){ #lied-der-heilung-id }
 
 ### Lied der Heilung
 
@@ -899,6 +1049,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] 'Lied der Heilung'`  
 
+[](){ #lied-der-verf-hrung-id }
+
 ### Lied der Verführung
 
 :   Mit diesem Lied kann eine Einheit derartig betört werden, so dass sie dem Barden den größten Teil ihres Bargelds und ihres Besitzes schenkt.  
@@ -910,6 +1062,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Lied der Verführung' <Einheit-Nr>`  
 
+[](){ #lied-des-ortes-analysieren-id }
+
 ### Lied des Ortes analysieren
 
 :   Wie Lebewesen, so haben auch Schiffe und Gebäude und sogar Regionen ihr eigenes Lied, wenn auch viel schwächer und schwerer zu hören.  
@@ -920,6 +1074,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  C   | 3 x T aura  |   8   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] 'Lied des Ortes analysieren' ( REGION | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
+
+[](){ #luftschiff-id }
 
 ### Luftschiff
 
@@ -935,6 +1091,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## M
 
+[](){ #macht-bertragung-id }
+
 ### Machtübertragung
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
@@ -944,6 +1102,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   |   2 aura    |   7   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Machtübertragung <Einheit-Nr> <Aura>`  
+
+[](){ #magie-analysieren-id }
 
 ### Magie analysieren
 
@@ -957,6 +1117,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Magie analysieren' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
 
+[](){ #magiefresser-id }
+
 ### Magiefresser
 
 :   Dieser Zauber ermöglicht dem Magier, Verzauberungen einer Einheit, eines Schiffes, Gebäudes oder auch der Region aufzulösen.  
@@ -966,6 +1128,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   | 4 x T aura  |   5   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Magiefresser ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
+
+[](){ #magischer-pfad-id }
 
 ### Magischer Pfad
 
@@ -981,6 +1145,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] [STUFE n] 'Magischer Pfad'`  
 
+[](){ #mahlstrom-id }
+
 ### Mahlstrom
 
 :   Dieses Ritual beschört einen großen Wasserelementar aus den Tiefen des Ozeans.  
@@ -991,6 +1157,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 200 aura, 1 tête de serpent de mer |  15   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `ZAUBERE Mahlstrom`  
+
+[](){ #mauern-der-ewigkeit-id }
 
 ### Mauern der Ewigkeit
 
@@ -1003,6 +1171,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Mauern der Ewigkeit' <Gebäude-Nr>`  
 
+[](){ #meditation-id }
+
 ### Meditation
 
 :   Mit Hilfe dieses Zaubers kann der Magier eigene Aura im Verhältnis 2:1 auf einen anderen Magier des gleichen Magiegebietes übertragen.  
@@ -1012,6 +1182,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   |   2 aura    |   6   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE Meditation <Einheit-Nr> <Aura>`  
+
+[](){ #miriams-flinke-finger-id }
 
 ### Miriams flinke Finger
 
@@ -1027,6 +1199,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Miriams flinke Finger'`  
 
+[](){ #mob-aufwiegeln-id }
+
 ### Mob aufwiegeln
 
 :   Mit Hilfe dieses magischen Gesangs überzeugt der Magier die Bauern der Region, sich ihm anzuschließen.  
@@ -1040,6 +1214,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Mob aufwiegeln'`  
 
+[](){ #monster-friedlich-stimmen-id }
+
 ### Monster friedlich stimmen
 
 :   Dieser einschmeichelnde Gesang kann fast jedes intelligente Monster zähmen.  
@@ -1051,6 +1227,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  C   |   15 aura   |   6   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Monster friedlich stimmen' <Einheit-Nr>`  
+
+[](){ #m-chte-des-todes-id }
 
 ### Mächte des Todes
 
@@ -1065,6 +1243,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## O
 
+[](){ #opfere-kraft-id }
+
 ### Opfere Kraft
 
 :   Mit Hilfe dieses Zaubers kann der Magier einen Teil seiner magischen Kraft permanent auf einen anderen Magier übertragen.  
@@ -1078,6 +1258,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## P
 
+[](){ #pentagramm-id }
+
 ### Pentagramm
 
 :   Genau um Mitternacht, wenn die Kräfte der Finsternis am größten sind, kann auch ein Schwarzmagier seine Kräfte nutzen um Verzauberungen aufzuheben.  
@@ -1089,6 +1271,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   | 10 x T aura |  10   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] Pentagramm ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
+
+[](){ #plappermaul-id }
 
 ### Plappermaul
 
@@ -1103,6 +1287,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## R
 
+[](){ #regentanz-id }
+
 ### Regentanz
 
 :   Dieses uralte Tanzritual ruft die Kräfte des Lebens und der Fruchtbarkeit.  
@@ -1114,6 +1300,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] [STUFE n] Regentanz`  
 
+[](){ #rindenhaut-id }
+
 ### Rindenhaut
 
 :   Dieses vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung.  
@@ -1124,6 +1312,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 4 x T aura  |  12   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] Rindenhaut`  
+
+[](){ #ritual-der-aufnahme-id }
 
 ### Ritual der Aufnahme
 
@@ -1141,6 +1331,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Ritual der Aufnahme' <Einheit-Nr>`  
 
+[](){ #rosthauch-id }
+
 ### Rosthauch
 
 :   Mit diesem Ritual wird eine dunkle Gewitterfront beschworen, die sich unheilverkündend über der Region auftürmt.  
@@ -1151,6 +1343,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   | 2 x T aura  |   6   | Kampf |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Rosthauch`  
+
+[](){ #rostregen-id }
 
 ### Rostregen
 
@@ -1167,6 +1361,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] [STUFE n] Rostregen <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #ruf-der-realit-t-id }
+
 ### Ruf der Realität
 
 :   Ein Magier, welcher sich in der materiellen Welt befindet, kann er mit Hilfe dieses Zaubers Einheiten aus der angrenzenden Astralwelt herbeiholen.  
@@ -1177,6 +1373,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   | 2 x T aura  |   6   | Normal |  7   |        |       |
 
 `ZAUBERE [STUFE n] 'Ruf der Realität' <Einheit-Nr> [<Einheit-Nr> ...]`  
+
+[](){ #runen-des-schutzes-id }
 
 ### Runen des Schutzes
 
@@ -1191,6 +1389,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Runen des Schutzes' ( SCHIFF <Schiff-Nr> | BURG <Gebäude-Nr> )`  
 
+[](){ #r-stschild-id }
+
 ### Rüstschild
 
 :   Diese vor dem Kampf zu zaubernde Ritual gibt den eigenen Truppen einen zusätzlichen Bonus auf ihre Rüstung.  
@@ -1203,6 +1403,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 `KAMPFZAUBER [STUFE n] Rüstschild`  
 
 ## S
+
+[](){ #schaler-wein-id }
 
 ### Schaler Wein
 
@@ -1223,6 +1425,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Schaler Wein' <Einheit-Nr>`  
 
+[](){ #schattenritter-id }
+
 ### Schattenritter
 
 :   Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln.  
@@ -1233,6 +1437,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   |   T aura    |   1   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Schattenritter`  
+
+[](){ #schild-des-fisches-id }
 
 ### Schild des Fisches
 
@@ -1247,6 +1453,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] 'Schild des Fisches'`  
 
+[](){ #schlaf-id }
+
 ### Schlaf
 
 :   Dieser Zauber läßt einige feindliche Kämpfer einschlafen.  
@@ -1258,6 +1466,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] Schlaf`  
 
+[](){ #schlechte-tr-ume-id }
+
 ### Schlechte Träume
 
 :   Dieser Zauber ermöglicht es dem Träumer, den Schlaf aller nichtaliierten Einheiten (HELFE BEWACHE) in der Region so stark zu stören, das sie vorübergehend einen Teil ihrer Erinnerungen verlieren.  
@@ -1267,6 +1477,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   |   90 aura   |  10   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Schlechte Träume'`  
+
+[](){ #schlechter-schlaf-id }
 
 ### Schlechter Schlaf
 
@@ -1279,6 +1491,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] 'Schlechter Schlaf'`  
 
+[](){ #schleieraura-id }
+
 ### Schleieraura
 
 :   Dieser Zauber wird die gesamte Ausrüstung der Zieleinheit für einige Zeit vor den Blicken anderer verschleiern.  
@@ -1288,6 +1502,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   |   T aura    |   1   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Schleieraura <Einheit-Nr>`  
+
+[](){ #schockwelle-id }
 
 ### Schockwelle
 
@@ -1300,6 +1516,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] Schockwelle`  
 
+[](){ #schutz-vor-magie-id }
+
 ### Schutz vor Magie
 
 :   Dieser Zauber legt ein antimagisches Feld um die Magier der Feinde und behindert ihre Zauber erheblich.  
@@ -1310,6 +1528,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   | 3 x T aura  |   2   | Prä-k. |  2   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Schutz vor Magie'`  
+
+[](){ #schutzzauber-id }
 
 ### Schutzzauber
 
@@ -1323,6 +1543,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] Schutzzauber <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #schwere-glieder-id }
+
 ### Schwere Glieder
 
 :   Dieser Kampfzauber führt dazu, dass einige Gegner im Kampf unter schwerer Müdigkeit leiden.  
@@ -1334,6 +1556,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] 'Schwere Glieder'`  
 
+[](){ #sch-ne-tr-ume-id }
+
 ### Schöne Träume
 
 :   Dieser Zauber ermöglicht es dem Traumweber, den Schlaf aller aliierten Einheiten in der Region so zu beeinflussen, dass sie für einige Zeit einen Bonus in allen Talenten bekommen.  
@@ -1343,6 +1567,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   |   80 aura   |   8   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] 'Schöne Träume'`  
+
+[](){ #seelenfrieden-id }
 
 ### Seelenfrieden
 
@@ -1356,6 +1582,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] Seelenfrieden`  
 
+[](){ #segen-der-erde-id }
+
 ### Segen der Erde
 
 :   Dieses Ernteritual verbessert die Erträge der arbeitenden Bauern in der Region um ein Silberstück.  
@@ -1367,6 +1595,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segen der Erde'`  
 
+[](){ #segne-mallornstecken-id }
+
 ### Segne Mallornstecken
 
 :   Diese Ritual verstärkt die Wirkung des magischen Trankes um ein vielfaches.  
@@ -1377,6 +1607,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 6 x T aura, T [mallorns][mallorn-de-id], 1 [wasser des lebens][wasser-des-lebens] |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Segne Mallornstecken'`  
+
+[](){ #segne-steinkreis-id }
 
 ### Segne Steinkreis
 
@@ -1390,6 +1622,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Segne Steinkreis' <Gebäude-Nr>`  
 
+[](){ #sog-des-lebens-id }
+
 ### Sog des Lebens
 
 :   Ein Druide, den es in die Welt der Geister verschlagen hat, kann mit Hilfe dieses Zaubers Stufe x 5 Gewichtseinheiten in einen Wald auf der materiellen Welt zurückschicken.  
@@ -1399,6 +1633,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 2 x T aura  |   9   | Normal |  7   |        |       |
 
 `ZAUBERE [STUFE n] 'Sog des Lebens' <x> <y> <Einheit-Nr> [<Einheit-Nr> ...]`  
+
+[](){ #starkes-tor-und-feste-mauer-id }
 
 ### Starkes Tor und feste Mauer
 
@@ -1411,6 +1647,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] 'Starkes Tor und feste Mauer'`  
 
+[](){ #stehle-aura-id }
+
 ### Stehle Aura
 
 :   Mit Hilfe dieses Zaubers kann der Magier einem anderen Magier seine Aura gegen dessen Willen entziehen und sich selber zuführen.  
@@ -1420,6 +1658,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   | 2 x T aura  |   6   | Normal |  3   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Stehle Aura' <Einheit-Nr>`  
+
+[](){ #sturmelementar-id }
 
 ### Sturmelementar
 
@@ -1434,6 +1674,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] Sturmelementar <Schiff-Nr> [<Schiff-Nr> ...]`  
 
+[](){ #st-re-astrale-integrit-t-id }
+
 ### Störe Astrale Integrität
 
 :   Dieser Zauber bewirkt eine schwere Störung des Astralraums.  
@@ -1445,6 +1687,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  T   |  140 aura   |  14   | Normal |  4   |        |       |
 
 `ZAUBERE [STUFE n] 'Störe Astrale Integrität'`  
+
+[](){ #s-e-tr-ume-id }
 
 ### Süße Träume
 
@@ -1460,6 +1704,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## T
 
+[](){ #tod-des-geistes-id }
+
 ### Tod des Geistes
 
 :   Mit diesem Zauber greift der Magier direkt den Geist seiner Gegner an.  
@@ -1472,6 +1718,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] 'Tod des Geistes'`  
 
+[](){ #todeswolke-id }
+
 ### Todeswolke
 
 :   Mit einem düsteren Ritual und unter Opferung seines eigenen Blutes beschwört der Schwarzmagier einen großen Geist von der Elementarebene der Gifte.  
@@ -1482,6 +1730,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   | 40 aura, 15 PV |  11   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Todeswolke`  
+
+[](){ #tor-in-die-ebene-der-hitze-id }
 
 ### Tor in die Ebene der Hitze
 
@@ -1496,6 +1746,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [REGION x y] 'Tor in die Ebene der Hitze'`  
 
+[](){ #traum-der-magie-id }
+
 ### Traum der Magie
 
 :   Mit Hilfe dieses Zaubers kann der Traumweber eigene Aura im Verhältnis 2:1 auf einen anderen Traumweber übertragen.  
@@ -1505,6 +1757,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   |   2 aura    |   3   | Normal |  1   | :material-check:{ .success } |       |
 
 `ZAUBERE 'Traum der Magie' <Einheit-Nr> <Aura>`  
+
+[](){ #traumbilder-analysieren-id }
 
 ### Traumbilder analysieren
 
@@ -1518,6 +1772,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Traumbilder analysieren' <Einheit-Nr>`  
 
+[](){ #traumbilder-entwirren-id }
+
 ### Traumbilder entwirren
 
 :   Dieser Zauber ermöglicht es dem Traumweber die natürlichen und aufgezwungenen Traumbilder einer Person, eines Gebäudes, Schiffes oder einer Region zu unterscheiden und diese zu entwirren.  
@@ -1527,6 +1783,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   | 6 x T aura  |   8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] [STUFE n] 'Traumbilder entwirren' ( REGION | EINHEIT <Einheit-Nr> [<Einheit-Nr> ...] | SCHIFF <Schiff-Nr> [<Schiff-Nr> ...] | BURG <Gebäude-Nr> [<Gebäude-Nr> ...] )`  
+
+[](){ #traumdeuten-id }
 
 ### Traumdeuten
 
@@ -1539,6 +1797,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE Traumdeuten <Einheit-Nr>`  
 
+[](){ #traumlesen-id }
+
 ### Traumlesen
 
 :   Dieser Zauber ermöglicht es dem Traumweber, in die Träume einer Einheit einzudringen und so einen Bericht über die Umgebung zu erhalten.  
@@ -1548,6 +1808,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  I   |   8 aura    |   4   | Normal |  5   |        | :material-check:{ .success } |
 
 `ZAUBERE [REGION x y] Traumlesen <Einheit-Nr>`  
+
+[](){ #traumschl-chen-id }
 
 ### Traumschlößchen
 
@@ -1561,6 +1823,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE Traumschlößchen <Gebäudetyp>`  
 
+[](){ #traumsenden-id }
+
 ### Traumsenden
 
 :   Der Zauberer sendet dem Ziel des Spruches einen Traum.  
@@ -1573,6 +1837,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## U
 
+[](){ #unheilige-kraft-id }
+
 ### Unheilige Kraft
 
 :   Nur geflüstert wird dieses Ritual an den dunklen Akademien an die Adepten weitergegeben, gehört es doch zu den finstersten, die je niedergeschrieben wurden.  
@@ -1583,6 +1849,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   | 10 x T aura, 5 x T bauern |  14   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] 'Unheilige Kraft' <Einheit-Nr> [<Einheit-Nr> ...]`  
+
+[](){ #untote-helden-id }
 
 ### Untote Helden
 
@@ -1597,6 +1865,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## V
 
+[](){ #vertrauten-rufen-id }
+
 ### Vertrauten rufen
 
 :   Einem erfahrenen Magier wird irgendwann auf seinen Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich dem Magier anschließen wird.  
@@ -1607,6 +1877,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE 'Vertrauten rufen'`  
 
+[](){ #verw-nschung-id }
+
 ### Verwünschung
 
 :   Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht.  
@@ -1616,6 +1888,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   |   T aura    |   1   | Normal |  5   |        |       |
 
 `ZAUBERE [STUFE n] Verwünschung <Einheit-Nr>`  
+
+[](){ #viehheilung-id }
 
 ### Viehheilung
 
@@ -1632,6 +1906,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## W
 
+[](){ #wahnsinn-des-krieges-id }
+
 ### Wahnsinn des Krieges
 
 :   Vor den Augen der feindlichen Soldaten opfert der Schwarzmagier die zehn Bauern in einem blutigen, grausamen Ritual und beschwört auf diese Weise Geister des Wahnsinns über die feindlichen Truppen.  
@@ -1642,6 +1918,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  D   | 3 x T aura, 10 Bauern |   8   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] 'Wahnsinn des Krieges'`  
+
+[](){ #wahrsagen-id }
 
 ### Wahrsagen
 
@@ -1655,6 +1933,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] Wahrsagen`  
 
+[](){ #wasserelementar-id }
+
 ### Wasserelementar
 
 :   Der Magier zwingt mit diesem Ritual die Elementargeister des Wassers in seinen Dienst und bringt sie dazu, das angegebene Schiff schneller durch das Wasser zu tragen.  
@@ -1665,6 +1945,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   |   T aura    |   4   | Normal |  5   | :material-check:{ .success } |       |
 
 `ZAUBERE [STUFE n] Wasserelementar <Schiff-Nr>`  
+
+[](){ #weg-der-b-ume-id }
 
 ### Weg der Bäume
 
@@ -1678,6 +1960,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] 'Weg der Bäume' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
+[](){ #wiederbelebung-id }
+
 ### Wiederbelebung
 
 :   Stirbt ein Krieger im Kampf so macht sich seine Seele auf die lange Wanderung zu den Sternen.  
@@ -1690,6 +1974,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] Wiederbelebung`  
 
+[](){ #windschild-id }
+
 ### Windschild
 
 :   Die Anrufung der Elementargeister des Windes beschwört plötzliche Windböen, kleine Windhosen und Luftlöcher herauf, die die gegnerischen Schützen behindern werden.  
@@ -1699,6 +1985,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 2 x T aura  |   4   | Prä-k. |  5   | :material-check:{ .success } |       |
 
 `KAMPFZAUBER [STUFE n] Windschild`  
+
+[](){ #wirbelwind-id }
 
 ### Wirbelwind
 
@@ -1711,6 +1999,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `KAMPFZAUBER [STUFE n] Wirbelwind`  
 
+[](){ #wolfsgeheul-id }
+
 ### Wolfsgeheul
 
 :   Nicht wenige Druiden freunden sich im Laufe ihres Lebens in der Natur mit den ältesten Freunden der großen Völker an.  
@@ -1721,6 +2011,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 |  G   | 2 x T aura  |   7   | Prä-k. |  5   |        |       |
 
 `KAMPFZAUBER [STUFE n] Wolfsgeheul`  
+
+[](){ #wunderdoktor-id }
 
 ### Wunderdoktor
 
@@ -1737,6 +2029,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 `ZAUBERE [STUFE n] Wunderdoktor`  
 
+[](){ #wurzeln-der-magie-id }
+
 ### Wurzeln der Magie
 
 :   Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.  
@@ -1749,6 +2043,8 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 `ZAUBERE [REGION x y] 'Wurzeln der Magie'`  
 
 ## Z
+
+[](){ #zeitdehnung-id }
 
 ### Zeitdehnung
 

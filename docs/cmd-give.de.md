@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-gib
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # GIB
 
 ` `**`GIB`**` `*`einheit-nr anzahl gegenstand`*  
@@ -89,7 +91,7 @@ Dabei werden dann auch die [Talente] vermischt, und man sollte die Gegenstände 
 den Bauern zufallen, wenn die Einheit keine Personen mehr hat.
 
 Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches HELFE GIB nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN.
-Falls die Empfängereinheit eine [Migranteneinheit] ist, darf sie außerdem zum Zeitpunkt der Übergabe keine Personen haben.
+Falls die Empfängereinheit eine [Migranteneinheit][menschen] ist, darf sie außerdem zum Zeitpunkt der Übergabe keine Personen haben.
 Am besten sollte sie also eine leere TEMP-Einheit sein.
 
 Beispiel:
@@ -102,8 +104,6 @@ MACHE TEMP x
 KONTAKTIERE EINHEIT a
 ENDE
 ```
-
-[Migranteneinheit]: ./races.md#menschen "Rassen"
 
 Mit `GIB`*`einheit-nr`*`EINHEIT` wird die komplette Einheit mit allen Gegenständen einer anderen Partei gegeben, d.h. sie wechselt zur Partei der Empfänger-Einheit, und wird nicht zur Empfängereinheit zugefügt! Die Einheit führt in der Runde keine weiteren Befehle aus!
 
@@ -121,7 +121,7 @@ Das Kommando kann nicht an Einheiten ohne Personen (z.B. nach einem Kampf oder "
 
 Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiffes oder Konvois die Anzahl Schiffe.
 Die übergebende und empfangende Einheit müssen der selben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht.
-Ist die anderen Einheit ebenfalls Besitzer eines Schiffes wird ein [Konvoi] gebildet.
+Ist die anderen Einheit ebenfalls Besitzer eines Schiffes wird ein [Konvoi][konvoi] gebildet.
 Konvois bestehen immer aus Schiffen des gleichen Typs.
 Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küste liegen.
 
@@ -137,7 +137,6 @@ Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küst
 [bef-kontaktiere]: ./cmd-contact.md
 [Materialpool]: ./items-pool.md
 [Talente]: ./skills.md
-[Konvoi]: ./ships.md#konvoi "Schiff"
 [bef-reserviere]: ./cmd-reserve.md
 [Schiff]: ./ships.md
 [Gebäude]: ./buildings.md

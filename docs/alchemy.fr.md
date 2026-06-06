@@ -289,7 +289,7 @@ Plantes nécessaires pour concocter cette potion :
 
 !!! note
     Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
-    L'effet de la potion échoue si le niveau de [discrétion][discretion]{title="Stealth"} de l'unité agissante est inférieur ou égal **au niveau de [perception][perception]{title="Perception"} + 2** de la victime.  
+    L'effet de la potion échoue si le niveau de [discrétion][skill-discretion-id]{title="Stealth"} de l'unité agissante est inférieur ou égal **au niveau de [perception][skill-perception-fr-id]{title="Perception"} + 2** de la victime.  
     Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille] n'est pas consommé (il reste à l'unité).
 
 #### Sang de berserker
@@ -425,7 +425,7 @@ Poursuivre la lecture : [[herbs|plantes]].
 [^1]: Le [sang de paysan] agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
     Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.
 [^2]: la potion agit à une unité ciblée avec l'ordre `USE Duncebun <unit-id>`.  
-    À cet égard, il convient de noter que si le **niveau de [discrétion]{title="Stealth"}** de l'utilisateur est **inférieur ou égal** au **niveau de [perception][perception]{title="Perception"} + 2** de la victime, la tentative échoue.  
+    À cet égard, il convient de noter que si le **niveau de [discrétion][skill-discretion-id]{title="Stealth"}** de l'utilisateur est **inférieur ou égal** au **niveau de [perception][skill-perception-fr-id]{title="Perception"} + 2** de la victime, la tentative échoue.  
     Si la tentative échoue, le [pain d'andouille] reste chez l'utilisateur et il reçoit un message d'erreur.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/fr&oldid=16931] -->

@@ -23,7 +23,7 @@ When a faction is guarding a region, units that are not allied with it are subje
 
 If the unit is not seen, for example because it has a higher Stealth skill than the guarding faction's best Perception skill in the region, the first two restrictions do not apply.
 
-However, it is very possible to [entertain][entertainment] on land in a guarded region, even if the guard has not set `HELP GUARD`.  
+However, it is very possible to [entertain][silver-entertainment-id] on land in a guarded region, even if the guard has not set `HELP GUARD`.  
 This is not possible if the entertainer unit is on board a ship.  
 
 If several factions give the `GUARD` order at the same time or one after the other, they all guard the region.  

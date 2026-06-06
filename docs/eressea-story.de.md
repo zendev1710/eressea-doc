@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: geschichte-von-eressea
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Geschichte von Eressea
 
 Laut [Wikipedia] startete Eressea am 27. August 1996.
@@ -20,13 +22,13 @@ Das Spiel geht aber immer noch weiter.
 - Alex Schröder
   Entwickler von German Atlantis.
   Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
-- Christian Schlittchen ([Corwin])
+- Christian Schlittchen ([Corwin][corwin-de-id])
   entwickelte Eressa und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
-- Katja Zedel ([Katze (Designerin)])
+- Katja Zedel ([Katze (Designerin)][katja-zedel-de-id])
   war zusammen mit Corwin Entwicklerin und Spielleiterin von Eressea. Katjas grösstes Projekt war die Entwicklung der neuen Magie.
-- [Enno Rehling]
+- [Enno Rehling][enno-de-id]
   ist seit Runde 39 dabei und übernahm Entwicklung und Spielleitung nach dem Ausstieg der anderen beiden Spielleiter.
-- Henning Peters ([Faroul])
+- Henning Peters ([Faroul][faroul-de-id])
   Entwickler, u.a. des Zugüberprüfers [ECheck]
 - Benjamin Bärmann, Ingo Wilken
   Co-Entwickler in den ersten Jahren, u.a. der Alchemie
@@ -409,7 +411,7 @@ Ursprünglich ist es als kleinerer Zwischenschritt zu E1.5 gedacht.
 Auf Grund der massiven Regeländerungen wird E1.1 in einer neuen Welt gestartet.
 Um den Problemen des Endlosspieles entgegen zu wirken und den Arbeitsaufwand für das laufende Spiel so gering wie möglich zu halten wird ein späterer Einstieg in das Spiel nicht möglich sein.
 
-Programmierer für dieses Projekt ist [Enno][Enno Rehling] das Design Team besteht zu diesem Zeitpunkt nur aus Xolgrim.
+Programmierer für dieses Projekt ist [Enno][enno-de-id] das Design Team besteht zu diesem Zeitpunkt nur aus Xolgrim.
 Bereits wenige Tage später wird es mit Eon, der Enno über ein Mailingliste aufgefallen war, und Phygon, welcher wie Xolgrim schon an diversen nicht zu Ende gebrachten Eressea Projekten mitgearbeitet hatte, auf aktuelle Größe erweitert.
 
 Der Arbeitstitel welcher als Kürzel für "Eressea 2009" steht verdeutlicht das kleine Zeitfenster welches für Entwicklung, Design, Programmierung und Tests bleibt.
@@ -426,12 +428,9 @@ Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können ble
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
-[Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Atlantis]: ./atlantis.md
-[Corwin]: ./contributors.md#corwin "Corwin (to be documented)"
-[Katze (Designerin)]: ./contributors.md#katja-zedel "Katze (Designerin)"
-[Enno Rehling]: ./contributors.md#enno "Enno (to be documented)"
-[Faroul]: ./contributors.md#faroul "Faroul (to be documented)"
-[ECheck]: ./echeck.md
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
+[Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
+
+[Atlantis]: ./atlantis.md
+[ECheck]: ./echeck.md
 [Xontormia-Express]: ./xontormia-express.md

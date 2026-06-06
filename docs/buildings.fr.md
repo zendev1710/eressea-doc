@@ -39,7 +39,7 @@ L'ordre [[cmd-sort]] permet de remédier à cette situation.
 
 Les bâtiments sont construits et améliorés (agrandis) avec l'ordre [[cmd-make|`MAKE`` `*`type bâtiment`*]].  
 
-Comme pour les autres ordres de production, la capacité de construction dépend du niveau de compétence en [maçonnerie][maconnerie], de la taille de l'unité qui bâtit, et du niveau de compétence minimum requis.  
+Comme pour les autres ordres de production, la capacité de construction dépend du niveau de compétence en [maçonnerie][maconnerie]{title="Masonry"}, de la taille de l'unité qui bâtit, et du niveau de compétence minimum requis.  
 
 Une unité peut construire (niveau de compétence x personnes / niveau minimum) points de "taille" par tour;  
 

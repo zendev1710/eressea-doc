@@ -43,7 +43,7 @@ Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de
 pour cela, il te faut, par exemple, des métaux ([exploitation minière][ressources-minieres]) ou du bois ([exploitation forestière][ressources-forestieres]) pour fabriquer des armes comme des épées ou des lances;  
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts][collecter-les-impots], [compétences d'armes][competences-de-combat]).  
 
-La [perception][perception] est une compétence essentielle, souvent sous-estimée par les débutants.  
+La [perception][skill-perception-fr-id]{title="Perception"} est une compétence essentielle, souvent sous-estimée par les débutants.  
 Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
 Il est également conseillé de construire des [[chateaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  

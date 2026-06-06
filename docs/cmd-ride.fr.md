@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-ride-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
 # RIDE
 

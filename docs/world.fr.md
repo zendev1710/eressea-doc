@@ -214,7 +214,7 @@ Dans la partie inférieure, ils indiquent combien d'argent les habitants de la r
 Les dernières lignes indiquent le nombre de personnes de notre peuple qui s'y trouvent et ce qu'elles transportent."
 </div>
 
-Dans `Luxuries`, vous pouvez voir la quantité de marchandises achetées ou vendues par les paysans pour le prix indiqué (voir aussi [Commerce]).  
+Dans `Luxuries`, vous pouvez voir la quantité de marchandises achetées ou vendues par les paysans pour le prix indiqué (voir aussi [Commerce][le-commerce]).  
 Échanger plus de marchandises changera le prix durablement !  
 
 Pour plus d'informations, lisez la section [Commerce][le-commerce].  

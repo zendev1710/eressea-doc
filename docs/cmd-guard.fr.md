@@ -24,9 +24,9 @@ Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions
 3. Si ton unité est sur un navire, elle ne pourra pas [[cmd-work|travailler]], [[cmd-entertain|divertir]], ou [[cmd-attack|attaquer]], ni se déplacer immédiatement par voie terrestre.
   Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord [[cmd-leave|quitter]] le bateau
 
-Si l'unité n'est pas visible, parce qu'elle possède une compétence de [discrétion][discretion]{title="Stealth"} de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.
+Si l'unité n'est pas visible, parce qu'elle possède une compétence de [discrétion][skill-discretion-id]{title="Stealth"} de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.
 
-Dans tous les cas, il est tout à fait possible de [divertir][divertissement]{title="Entertainment"} à terre dans une région gardée, même si le gardien n'a pas activé l'ordre `HELP GUARD`.  
+Dans tous les cas, il est tout à fait possible de [divertir][silver-divertissement-id]{title="Entertainment"} à terre dans une région gardée, même si le gardien n'a pas activé l'ordre `HELP GUARD`.  
 Cela n'est pas possible si l'unité de divertissement se trouve à bord d'un bateau.  
 
 Dans le tour au cours duquel l'ordre  `GUARD` a été donné, toutes ces restrictions ne s'appliquent pas encore, car l'unité de garde doit d'abord découvrir où les unités étrangères pourraient collecter de l'argent, etc.  

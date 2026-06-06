@@ -75,13 +75,13 @@ With a "melee" weapon (sword, claymore, axe, laensword): fight. With the taxatio
 
 Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
-[](){ #skill--id }
+[](){ #skill-catapult-id }
 
 ## Catapult
 
 With a catapult and ammunition: fight. Can't be used to collect taxes.
 
-[](){ #skill-catapult-id }
+[](){ #skill-herbalism-id }
 
 ## Herbalism
 
@@ -202,7 +202,7 @@ Construction of carts and catapults from wood. A cart can be built with 5 wood. 
 
 ## Perception
 
-The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [perception][perception]).
+The unit is always on the lookout for camouflaged units. For example this allows you to prevent theft (see [perception][skill-perception-id]).
 
 Continue reading: [stealth][stealth].
 

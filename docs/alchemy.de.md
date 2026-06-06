@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: alchemie
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Alchemie
 
 In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke zu verwandeln.
@@ -11,9 +13,9 @@ In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke 
 In der Welt von Eressea sind alchemistische Tränke nicht nur einfache Gebräue.  
 Sie sind mächtige Werkzeuge, die das Blatt wenden und das Schicksal eines Volkes stark beeinflussen können, zum Beispiel zur Unterstützung der Produktion, zur Stärkung der Truppen im Kampf oder um ein Volk besser gedeihen zu lassen.  
 
-Tränke werden mit Hilfe von [[kraeuter|Kräutern]] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie].  
+Tränke werden mit Hilfe von [[kraeuter|Kräutern]] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie][alchemie].  
 
-Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde].
+Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde][krauterkunde].
 
 Tränke werden mit dem Befehl [[bef-mache|`MACHE "<Trank>"`]] hergestellt.  
 
@@ -61,8 +63,8 @@ Nachfolgend finden Sie die Liste der Tränke in aufsteigender Reihenfolge ihrer 
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Fjordwuchs]
-- [Gurgelkraut]
+- [Fjordwuchs][fjordwuchs]
+- [Gurgelkraut][gurgelkraut]
 
 #### Siebenmeilentee
 
@@ -73,8 +75,8 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Blauer Baumringel]
-- [Windbeutel]
+- [Blauer Baumringel][blauer-baumringel]
+- [Windbeutel][windbeutel]
 
 #### Trank der Wahrheit
 
@@ -85,8 +87,8 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Fjordwuchs]
-- [Flachwurz]
+- [Fjordwuchs][fjordwuchs]
+- [Flachwurz][flachwurz]
 
 #### Wasser des Lebens
 
@@ -97,8 +99,8 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Elfenlieb]
-- [Knotiger Saugwurz]
+- [Elfenlieb][elfenlieb]
+- [Knotiger Saugwurz][knotiger-saugwurz]
 
 ### Stufe 2
 
@@ -112,9 +114,9 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 Zur Zubereitung dieses Tranks benötigen Sie folgende Zutaten:
 
 - Bauer
-- [Blauer Baumringel]
-- [Fjordwuchs]
-- [Höhlenglimm]
+- [Blauer Baumringel][blauer-baumringel]
+- [Fjordwuchs][fjordwuchs]
+- [Höhlenglimm][hohlenglimm]
 
 #### Schaffenstrunk
 
@@ -125,9 +127,9 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Zutaten:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Alraune]
-- [Spaltwachs]
-- [Würziger Wagemut]
+- [Alraune][alraune]
+- [Spaltwachs][spaltwachs]
+- [Würziger Wagemut][wurziger-wagemut]
 
 #### Wundsalbe
 
@@ -138,9 +140,9 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Blauer Baumringel]
-- [Weißer Wüterich]
-- [Würziger Wagemut]
+- [Blauer Baumringel][blauer-baumringel]
+- [Weißer Wüterich][weier-wuterich]
+- [Würziger Wagemut][wurziger-wagemut]
 
 ### Stufe 3
 
@@ -153,10 +155,10 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Alraune]
-- [Flachwurz]
-- [Sandfäule]
-- [Weißer Wüterich]
+- [Alraune][alraune]
+- [Flachwurz][flachwurz]
+- [Sandfäule][sandfaule]
+- [Weißer Wüterich][weier-wuterich]
 
 #### Dumpfbackenbrot
 
@@ -167,10 +169,10 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Eulenauge]
-- [Fjordwuchs]
-- [Grüner Spinnerich]
-- [Höhlenglimm]
+- [Eulenauge][eulenauge]
+- [Fjordwuchs][fjordwuchs]
+- [Grüner Spinnerich][gruner-spinnerich]
+- [Höhlenglimm][hohlenglimm]
 
 #### Gehirnschmalz
 
@@ -181,24 +183,24 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Gurgelkraut]
-- [Steinbeißer]
-- [Wasserfinder]
-- [Windbeutel]
+- [Gurgelkraut][gurgelkraut]
+- [Steinbeißer][steinbeier]
+- [Wasserfinder][wasserfinder]
+- [Windbeutel][windbeutel]
 
 #### Nestwärme
 
-:   [Insekten] können auch im Winter rekrutieren.  
+:   [Insekten][insekten] können auch im Winter rekrutieren.  
 
 *Stufe:* **3**.  
 *Wirkung:* **Region**.  
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Eisblume]
-- [Grüner Spinnerich]
-- [Kakteenschwitz]
-- [Spaltwachs]
+- [Eisblume][eisblume]
+- [Grüner Spinnerich][gruner-spinnerich]
+- [Kakteenschwitz][kakteenschwitz]
+- [Spaltwachs][spaltwachs]
 
 #### Pferdeglück
 
@@ -209,10 +211,10 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Blauer Baumringel]
-- [Kakteenschwitz]
-- [Knotiger Saugwurz]
-- [Sandfäule]
+- [Blauer Baumringel][blauer-baumringel]
+- [Kakteenschwitz][kakteenschwitz]
+- [Knotiger Saugwurz][knotiger-saugwurz]
+- [Sandfäule][sandfaule]
 
 ### Stufe 4
 
@@ -225,11 +227,11 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Alraune]
-- [Blasenmorchel]
-- [Elfenlieb]
-- [Schneekristall]
-- [Steinbeißer]
+- [Alraune][alraune]
+- [Blasenmorchel][blasenmorchel]
+- [Elfenlieb][elfenlieb]
+- [Schneekristall][schneekristall]
+- [Steinbeißer][steinbeier]
 
 #### Elixier der Macht
 
@@ -240,12 +242,12 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Blasenmorchel]
+- [Blasenmorchel][blasenmorchel]
 - [Drachenblut]
-- [Elfenlieb]
-- [Grüner Spinnerich]
-- [Wasserfinder]
-- [Windbeutel]
+- [Elfenlieb][elfenlieb]
+- [Grüner Spinnerich][gruner-spinnerich]
+- [Wasserfinder][wasserfinder]
+- [Windbeutel][windbeutel]
 
 #### Heiltrank
 
@@ -256,121 +258,64 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
-- [Eisblume]
-- [Elfenlieb]
-- [Gurgelkraut]
-- [Spaltwachs]
-- [Windbeutel]
+- [Eisblume][eisblume]
+- [Elfenlieb][elfenlieb]
+- [Gurgelkraut][gurgelkraut]
+- [Spaltwachs][spaltwachs]
+- [Windbeutel][windbeutel]
 
 ## Tränke – Übersichtstabelle
 
-| Name                 | Stufe | Wirkung              |
-|----------------------|:-----:|----------------------|
-| [Trank der Wahrheit] |   1   | Region               |
-| [Siebenmeilentee]    |   1   | Einheit              |
-| [Goliathwasser]      |   1   | Einheit              |
-| [Wasser des Lebens]  |   1   | Region               |
-| [Bauernblut]         |   2   | Einheit[^1]          |
-| [Schaffenstrunk]     |   2   | Einheit              |
-| [Wundsalbe]          |   2   | Einheit              |
-| [Berserkerblut]      |   3   | Einheit              |
-| [Dumpfbackenbrot]    |   3   | (fremde) Einheit[^2] |
-| [Gehirnschmalz]      |   3   | Einheit              |
-| [Pferdeglück]        |   3   | Region               |
-| [Nestwärme]          |   3   | Region               |
-| [Bauernlieb]         |   4   | Region               |
-| [Elixier der Macht]  |   4   | Einheit              |
-| [Heiltrank]          |   4   | Einheit              |
+| Name                                   | Stufe | Wirkung              |
+|----------------------------------------|:-----:|----------------------|
+| [Trank der Wahrheit]                   |   1   | Region               |
+| [Siebenmeilentee][siebenmeilentee]     |   1   | Einheit              |
+| [Goliathwasser][goliathwasser]         |   1   | Einheit              |
+| [wasser-des-lebens]                    |   1   | Region               |
+| [Bauernblut][bauernblut]               |   2   | Einheit[^1]          |
+| [Schaffenstrunk][schaffenstrunk]       |   2   | Einheit              |
+| [Wundsalbe][wundsalbe]                 |   2   | Einheit              |
+| [Berserkerblut][berserkerblut]         |   3   | Einheit              |
+| [Dumpfbackenbrot][dumpfbackenbrot]     |   3   | (fremde) Einheit[^2] |
+| [Gehirnschmalz][gehirnschmalz]         |   3   | Einheit              |
+| [Pferdeglück][pferdegluck]             |   3   | Region               |
+| [Nestwärme][nestwarme]                 |   3   | Region               |
+| [Bauernlieb][bauernlieb]               |   4   | Region               |
+| [Elixier der Macht][elixier-der-macht] |   4   | Einheit              |
+| [Heiltrank][heiltrank]                 |   4   | Einheit              |
 
 ## Kräutermatrix
 
-| Kraut               | [SM]             | [GW]             | [WL]             | [BA]             | [ST]             | [WS]             | [BE]             | [DB]             | [GS]             | [PG]             | [NW]             | [BL]             | [EM]             | [HT]             |
-|---------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
-| [Alraune]           |                  |                  |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  |                  | :material-check: |                  |                  |
-| [Blasenmorchel]     |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |
-| [Blauer Baumringel] | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |
-| [Eisblume]          |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
-| [Elfenlieb]         |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: | :material-check: |
-| [Eulenauge]         |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [Fjordwuchs]        |                  | :material-check: |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [Flachwurz]         |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |                  |
-| [Grüner Spinnerich] |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  | :material-check: |                  |
-| [Gurgelkraut]       |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  | :material-check: |
-| [Höhlenglimm]       |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  |
-| [Kakteenschwitz]    |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |
-| [Knotiger Saugwurz] |                  |                  | :material-check: |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |
-| [Sandfäule]         |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |                  |                  |
-| [Schneekristall]    |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |
-| [Spaltwachs]        |                  |                  |                  |                  | :material-check: |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |
-| [Wasserfinder]      |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: |                  |
-| [Weißer Wüterich]   |                  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |
-| [Windbeutel]        | :material-check: |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  |                  | :material-check: | :material-check: |
-| [Würziger Wagemut]  |                  |                  |                  |                  | :material-check: | :material-check: |                  |                  |                  |                  |                  |                  |                  |                  |
-| [Steinbeißer]       |                  |                  |                  |                  |                  |                  |                  |                  | :material-check: |                  |                  | :material-check: |                  |                  |
+| Kraut                                  | [SM][siebenmeilentee]{title="Siebenmeilentee"} | [GW][goliathwasser]{title="Goliathwasser"} | [WL][wasser-des-lebens]{title="Wasser des Lebens"} | [BA][bauernblut]{title="Bauernblut"} | [ST][schaffenstrunk]{title="Schaffenstrunk"} | [WS][wundsalbe]{title="Wundsalbe"} | [BE][berserkerblut]{title="Berserkerblut"} | [DB][dumpfbackenbrot]{title="Dumpfbackenbrot"} | [GS][gehirnschmalz]{title="Gehirnschmalz"} | [PG][pferdegluck]{title="Pferdeglück"} | [NW][nestwarme]{title="Nestwärme"} | [BL][bauernlieb]{title="Bauernlieb"} | [EM][elixier-der-macht]{title="Elixier der Macht"} | [HT][heiltrank]{title="Heiltrank"} |
+|----------------------------------------|------------------------------------------------|--------------------------------------------|----------------------------------------------------|--------------------------------------|----------------------------------------------|------------------------------------|--------------------------------------------|------------------------------------------------|--------------------------------------------|----------------------------------------|------------------------------------|--------------------------------------|----------------------------------------------------|------------------------------------|
+| [Alraune][alraune]                     |                                                |                                            |                                                    |                                      | :material-check:                             |                                    | :material-check:                           |                                                |                                            |                                        |                                    | :material-check:                     |                                                    |                                    |
+| [Blasenmorchel][blasenmorchel]         |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                |                                            |                                        |                                    | :material-check:                     | :material-check:                                   |                                    |
+| [Blauer Baumringel][blauer-baumringel] | :material-check:                               |                                            |                                                    | :material-check:                     |                                              | :material-check:                   |                                            |                                                |                                            | :material-check:                       |                                    |                                      |                                                    |                                    |
+| [Eisblume][eisblume]                   |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                |                                            |                                        | :material-check:                   |                                      |                                                    | :material-check:                   |
+| [Elfenlieb][elfenlieb]                 |                                                |                                            | :material-check:                                   |                                      |                                              |                                    |                                            |                                                |                                            |                                        |                                    | :material-check:                     | :material-check:                                   | :material-check:                   |
+| [Eulenauge][eulenauge]                 |                                                |                                            |                                                    |                                      |                                              |                                    |                                            | :material-check:                               |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Fjordwuchs][fjordwuchs]               |                                                | :material-check:                           |                                                    | :material-check:                     |                                              |                                    |                                            | :material-check:                               |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Flachwurz][flachwurz]                 |                                                |                                            |                                                    |                                      |                                              |                                    | :material-check:                           |                                                |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Grüner Spinnerich][gruner-spinnerich] |                                                |                                            |                                                    |                                      |                                              |                                    |                                            | :material-check:                               |                                            |                                        | :material-check:                   |                                      | :material-check:                                   |                                    |
+| [Gurgelkraut][gurgelkraut]             |                                                | :material-check:                           |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    |                                      |                                                    | :material-check:                   |
+| [Höhlenglimm][hohlenglimm]             |                                                |                                            |                                                    | :material-check:                     |                                              |                                    |                                            | :material-check:                               |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Kakteenschwitz][kakteenschwitz]       |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                |                                            | :material-check:                       | :material-check:                   |                                      |                                                    |                                    |
+| [Knotiger Saugwurz][knotiger-saugwurz] |                                                |                                            | :material-check:                                   |                                      |                                              |                                    |                                            |                                                |                                            | :material-check:                       |                                    |                                      |                                                    |                                    |
+| [Sandfäule][sandfaule]                 |                                                |                                            |                                                    |                                      |                                              |                                    | :material-check:                           |                                                |                                            | :material-check:                       |                                    |                                      |                                                    |                                    |
+| [Schneekristall][schneekristall]       |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                |                                            |                                        |                                    | :material-check:                     |                                                    |                                    |
+| [Spaltwachs][spaltwachs]               |                                                |                                            |                                                    |                                      | :material-check:                             |                                    |                                            |                                                |                                            |                                        | :material-check:                   |                                      |                                                    | :material-check:                   |
+| [Wasserfinder][wasserfinder]           |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    |                                      | :material-check:                                   |                                    |
+| [Weißer Wüterich][weier-wuterich]      |                                                |                                            |                                                    |                                      |                                              | :material-check:                   | :material-check:                           |                                                |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Windbeutel][windbeutel]               | :material-check:                               |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    |                                      | :material-check:                                   | :material-check:                   |
+| [Würziger Wagemut][wurziger-wagemut]   |                                                |                                            |                                                    |                                      | :material-check:                             | :material-check:                   |                                            |                                                |                                            |                                        |                                    |                                      |                                                    |                                    |
+| [Steinbeißer][steinbeier]              |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    | :material-check:                     |                                                    |                                    |
 
 Weiterlesen: [[kraeuter]].
 
 [^1]: Wirkt auf die Einheit, aber alle Dämonen der Partei in der Region bedienen sich davon, wenn etwas übrig ist.  
     Es reicht also, eine Einheit (pro Region) damit zu bestücken, solange sie genug Bauernblut für alle Dämonen trinkt.
 [^2]: Der Trank wird auf eine andere Einheit mit dem Befehl `BENUTZE Dumpfbackenbrot <einheit-nr>` angewandt.  
-    Hierbei ist zu beachten: Ist das [[tarnung|Tarnungstalent]] des Anwenders kleiner oder gleich [Wahrnehmung] + 2 des Opfers, so geht die Anwendung fehl.  
-    Im Falle dass die Anwendung schief geht, bleibt das [Dumpfbackenbrot] beim Anwender und er bekommt eine Fehlermeldung.
+    Hierbei ist zu beachten: Ist das [[tarnung|Tarnungstalent]] des Anwenders kleiner oder gleich [Wahrnehmung][wahrnehmung] + 2 des Opfers, so geht die Anwendung fehl.  
+    Im Falle dass die Anwendung schief geht, bleibt das [Dumpfbackenbrot][dumpfbackenbrot] beim Anwender und er bekommt eine Fehlermeldung.
 
-<!-- From [https://wiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
-
-[Alchemie]: ./skills-list.md#alchemie
-[Wahrnehmung]: ./skills-list.md#wahrnehmung
-[Kräuterkunde]: ./skills-list.md#krauterkunde
-[Insekten]: ./races.md#insekten
-
-[Alraune]: ./herbs.md#alraune
-[Blasenmorchel]: ./herbs.md#blasenmorchel
-[Blauer Baumringel]: ./herbs.md#blauer-baumringel
-[Eisblume]: ./herbs.md#eisblume
-[Elfenlieb]: ./herbs.md#elfenlieb
-[Eulenauge]: ./herbs.md#eulenauge
-[Fjordwuchs]: ./herbs.md#fjordwuchs
-[Flachwurz]: ./herbs.md#flachwurz
-[Grüner Spinnerich]: ./herbs.md#gruner-spinnerich
-[Gurgelkraut]: ./herbs.md#gurgelkraut
-[Höhlenglimm]: ./herbs.md#hohlenglimm
-[Kakteenschwitz]: ./herbs.md#
-[Knotiger Saugwurz]: ./herbs.md#knotiger-saugwurz
-[Sandfäule]: ./herbs.md#sandfaule
-[Schneekristall]: ./herbs.md#schneekristall
-[Spaltwachs]: ./herbs.md#spaltwachs
-[Wasserfinder]: ./herbs.md#wasserfinder
-[Weißer Wüterich]: ./herbs.md#weier-wuterich
-[Windbeutel]: ./herbs.md#windbeutel
-[Würziger Wagemut]: ./herbs.md#wurziger-wagemut
-[Steinbeißer]: ./herbs.md#steinbeier
-
-[Siebenmeilentee]: ./alchemy.md#siebenmeilentee
-[Goliathwasser]: ./alchemy.md#goliathwasser
-[Wasser des Lebens]: ./alchemy.md#wasser-des-lebens
-[Bauernblut]: ./alchemy.md#bauernblut
-[Schaffenstrunk]: ./alchemy.md#schaffenstrunk
-[Wundsalbe]: ./alchemy.md#wundsalbe
-[Berserkerblut]: ./alchemy.md#berserkerblut
-[Dumpfbackenbrot]: ./alchemy.md#dumpfbackenbrot
-[Gehirnschmalz]: ./alchemy.md#gehirnschmalz
-[Pferdeglück]: ./alchemy.md#pferdegluck
-[Nestwärme]: ./alchemy.md#nestwarme
-[Bauernlieb]: ./alchemy.md#bauernlieb
-[Elixier der Macht]: ./alchemy.md#elixier-der-macht
-[Heiltrank]: ./alchemy.md#heiltrank
-
-[SM]: ./alchemy.md#siebenmeilentee "Siebenmeilentee"
-[GW]: ./alchemy.md#goliathwasser "Goliathwasser"
-[WL]: ./alchemy.md#wasser-des-lebens "Wasser des Lebens"
-[BA]: ./alchemy.md#bauernblut "Bauernblut"
-[ST]: ./alchemy.md#schaffenstrunk "Schaffenstrunk"
-[WS]: ./alchemy.md#wundsalbe "Wundsalbe"
-[BE]: ./alchemy.md#berserkerblut "Berserkerblut"
-[DB]: ./alchemy.md#dumpfbackenbrot "Dumpfbackenbrot"
-[GS]: ./alchemy.md#gehirnschmalz "Gehirnschmalz"
-[PG]: ./alchemy.md#pferdegluck "Pferdeglück"
-[NW]: ./alchemy.md#nestwarme "Nestwärme"
-[BL]: ./alchemy.md#bauernlieb "Bauernlieb"
-[EM]: ./alchemy.md#elixier-der-macht "Elixier der Macht"
-[HT]: ./alchemy.md#heiltrank "Heiltrank"
+<!-- From [https://kwiki.eressea.de/index.php?title=Tränke&oldid=16967] -->

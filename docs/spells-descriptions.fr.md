@@ -3,10 +3,12 @@
 alias: description-des-sorts
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Description des sorts
 
 ## A
+
+[](){ #acc-l-ration-id }
 
 ### Accélération
 
@@ -22,6 +24,8 @@ alias: description-des-sorts
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
+[](){ #affaiblissement-id }
+
 ### Affaiblissement
 
 <!-- cspell:disable -->
@@ -36,6 +40,8 @@ alias: description-des-sorts
 |  I  | 4 x N aura |  4   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Tiredness`  
+
+[](){ #analyse-de-la-magie-id }
 
 ### Analyse de la Magie
 
@@ -53,6 +59,8 @@ alias: description-des-sorts
 
 `CAST [LEVEL n] "Analyze Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #analyse-des-r-ves-id }
+
 ### Analyse des rêves
 
 <!-- cspell:disable -->
@@ -68,6 +76,8 @@ alias: description-des-sorts
 |  I  |  25 aura   |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Analyse Dreams" <unit-id>`  
+
+[](){ #analyse-du-chant-de-la-vie-id }
 
 ### Analyse du chant de la Vie
 
@@ -87,6 +97,8 @@ alias: description-des-sorts
 
 `CAST "Analyze Song of Life" <unit-id>`  
 
+[](){ #analyses-id }
+
 ### Analyses
 
 <!-- cspell:disable -->
@@ -101,6 +113,8 @@ alias: description-des-sorts
 |  C  | 3 x N aura |  8   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Analysis" ( REGION | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #antimagie-id }
 
 ### Antimagie
 
@@ -118,6 +132,8 @@ alias: description-des-sorts
 
 `CAST [REGION x y] [LEVEL n] "Antimagic"`  
 
+[](){ #apaisement-des-meutes-id }
+
 ### Apaisement des émeutes
 
 <!-- cspell:disable -->
@@ -133,6 +149,8 @@ alias: description-des-sorts
 
 `CAST [REGION x y] "Calm Riot"`  
 
+[](){ #aper-u-sur-la-r-alit-id }
+
 ### Aperçu sur la réalité
 
 <!-- cspell:disable -->
@@ -146,6 +164,8 @@ alias: description-des-sorts
 |  T  |  40 aura   |  10  | Normal |  5   |        |       |
 
 `CAST "Gaze Upon Reality"`  
+
+[](){ #art-subtil-de-la-persuasion-id }
 
 ### Art subtil de la persuasion
 
@@ -170,6 +190,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 ## B
 
+[](){ #bannissement-des-esprits-id }
+
 ### Bannissement des Esprits
 
 <!-- cspell:disable -->
@@ -184,6 +206,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  G  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Banish Spirits" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #b-ton-de-mallorn-id }
 
 ### Bâton de Mallorn
 
@@ -200,6 +224,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [REGION x y] [LEVEL n] "Bless Mallorn Logs"`  
 
+[](){ #b-n-diction-de-la-terre-id }
+
 ### Bénédiction de la terre
 
 <!-- cspell:disable -->
@@ -214,6 +240,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  G  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Blessed Harvest"`  
+
+[](){ #b-n-diction-du-cercle-de-pierres-id }
 
 ### Bénédiction du Cercle de Pierres
 
@@ -231,6 +259,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST "Bless Stone Circle" <building-id>`  
 
+[](){ #bouclier-a-rien-id }
+
 ### Bouclier aérien
 
 <!-- cspell:disable -->
@@ -246,6 +276,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Air Shield"`  
 
+[](){ #bouclier-d-armure-id }
+
 ### Bouclier d'armure
 
 <!-- cspell:disable -->
@@ -260,6 +292,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  T  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Shield Shine"`  
+
+[](){ #bouclier-du-poisson-id }
 
 ### Bouclier du poisson
 
@@ -278,6 +312,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Shield of the Fish"`  
 
+[](){ #boule-de-feu-id }
+
 ### Boule de feu
 
 <!-- cspell:disable -->
@@ -291,6 +327,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  D  |   N aura   |  2   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Fireball`  
+
+[](){ #brise-mal-diction-id }
 
 ### Brise‑malédiction
 
@@ -308,6 +346,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 ## C
 
+[](){ #changement-de-forme-id }
+
 ### Changement de forme
 
 <!-- cspell:disable -->
@@ -322,6 +362,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  I  |   N aura   |  3   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] Shapeshift <unit-id> <race>`  
+
+[](){ #chant-apaisant-id }
 
 ### Chant apaisant
 
@@ -339,6 +381,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Appeasing Song"`  
 
+[](){ #chant-d-effroi-id }
+
 ### Chant d'effroi
 
 <!-- cspell:disable -->
@@ -353,6 +397,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  | 5 x N aura |  8   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Fear"`  
+
+[](){ #chant-de-confusion-id }
 
 ### Chant de confusion
 
@@ -370,6 +416,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Song of Confusion"`  
 
+[](){ #chant-de-contre-id }
+
 ### Chant de contre
 
 <!-- cspell:disable -->
@@ -384,6 +432,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  | 5 x N aura |  5   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] Countersong`  
+
+[](){ #chant-de-cour-id }
 
 ### Chant de cour
 
@@ -401,6 +451,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Song of Courting"`  
 
+[](){ #chant-de-g-n-rosit-id }
+
 ### Chant de générosité
 
 <!-- cspell:disable -->
@@ -415,6 +467,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  | 2 x N aura |  2   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Song of Generosity"`  
+
+[](){ #chant-de-gu-rison-id }
 
 ### Chant de guérison
 
@@ -431,6 +485,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  |   N aura   |  2   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Song of Healing"`  
+
+[](){ #chant-de-guerre-id }
 
 ### Chant de guerre
 
@@ -449,6 +505,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Song of War"`  
 
+[](){ #chant-de-l-esprit-de-jouvence-id }
+
 ### Chant de l'esprit de jouvence
 
 <!-- cspell:disable -->
@@ -465,6 +523,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [REGION x y] [LEVEL n] "Song of the Youthful Spirit"`  
 
+[](){ #chant-de-l-esprit-vieillissant-id }
+
 ### Chant de l'esprit vieillissant
 
 <!-- cspell:disable -->
@@ -480,6 +540,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [REGION x y] [LEVEL n] "Song of the Aging Spirit"`  
 
+[](){ #chant-de-m-lancolie-id }
+
 ### Chant de mélancolie
 
 <!-- cspell:disable -->
@@ -494,6 +556,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  |  40 aura   |  11  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Song of Melancholy"`  
+
+[](){ #chant-de-paix-id }
 
 ### Chant de paix
 
@@ -511,6 +575,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Song of Peace"`  
 
+[](){ #chant-de-s-duction-id }
+
 ### Chant de séduction
 
 <!-- cspell:disable -->
@@ -526,6 +592,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST "Song of Seduction" <unit-id>`  
 
+[](){ #chant-de-servitude-id }
+
 ### Chant de servitude
 
 <!-- cspell:disable -->
@@ -540,6 +608,8 @@ Extrait de « Errants » de Firudin le Sage.
 |  C  |  40 aura   |  13  | Normal |  5   |        |       |
 
 `CAST "Song of Slavery" <unit-id>`  
+
+[](){ #chant-de-terreur-id }
 
 ### Chant de terreur
 
@@ -557,6 +627,8 @@ Extrait de « Errants » de Firudin le Sage.
 
 `COMBATSPELL [LEVEL n] "Song of Terror"`  
 
+[](){ #chant-des-h-ros-id }
+
 ### Chant des héros
 
 <!-- cspell:disable -->
@@ -572,6 +644,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Epic Heroes"`  
 
+[](){ #chaos-de-l-astral-id }
+
 ### Chaos de l'Astral
 
 <!-- cspell:disable -->
@@ -585,6 +659,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |  D  | 6 x N aura |  9   | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Astral Chaos"`  
+
+[](){ #ch-teau-d-illusion-id }
 
 ### Château d'Illusion
 
@@ -602,6 +678,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST "Castle of Illusion" <building-type>`  
 
+[](){ #chevaliers-de-l-ombre-id }
+
 ### Chevaliers de l'Ombre
 
 <!-- cspell:disable -->
@@ -616,6 +694,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |  I  |   N aura   |  1   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
+
+[](){ #cr-er-des-golem-de-fer-id }
 
 ### Créer des [[golem-de-fer]]
 
@@ -632,6 +712,8 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 |  G  | 2 x N aura, N [fers][fer]{title="Iron"}, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  2   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Create Iron Golems"`  
+
+[](){ #cr-er-des-golem-de-pierre-id }
 
 ### Créer des [[golem-de-pierre]]
 
@@ -654,6 +736,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
+[](){ #cr-er-un-anneau-d-invisibilit-title-ring-of-invisibility-id }
+
 ### Créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
@@ -670,6 +754,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Invisibility"`  
 
+[](){ #cr-er-un-anneau-de-pouvoir-id }
+
 ### Créer un [[anneau-de-pouvoir]]
 
 <!-- cspell:disable -->
@@ -685,6 +771,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Power"`  
 
+[](){ #cr-er-un-cristal-d-antimagie-title-antimagic-crystal-id }
+
 ### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
@@ -699,6 +787,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |  T  | 50 aura, 3 000 silver |  7   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Antimagic Crystal"`  
+
+[](){ #cr-er-un-dreameye-title-dreameye-id }
 
 ### Créer un [DreamEye][dreameye]{title="DreamEye"}
 
@@ -718,6 +808,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create a Visioneye"`  
 
+[](){ #cr-er-un-sac-a-herbes-magique-id }
+
 ### Créer un [[sac-a-herbes-magique]]
 
 <!-- cspell:disable -->
@@ -732,6 +824,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |  G  | 30 aura, 1 aura permanent, 1 [eau de vie][eau-de-vie]{title="Water of life"} |  5   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A magical Herb Pouch"`
+
+[](){ #cr-er-un-sac-sans-fond-id }
 
 ### Créer un [[sac-sans-fond]]
 
@@ -749,6 +843,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Bag of Holding"`
 
+[](){ #cr-er-une-amulette-de-vision-decuplee-id }
+
 ### Créer une [[amulette-de-vision-decuplee]]
 
 <!-- cspell:disable -->
@@ -757,13 +853,15 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 :   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
-    Cependant, les unités qui utilisent leur compétence de [discrétion][discretion]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
+    Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:------:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
 | \*[^1] | 50 aura, 3 000 silver, 1 aura permanent |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create An Amulet of True Sight"`  
+
+[](){ #cr-er-une-ceinture-de-force-de-troll-id }
 
 ### Créer une [[ceinture-de-force-de-troll]]
 
@@ -779,6 +877,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 |  D  | 20 aura, 1 aura permanent |  9   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create A Belt of Troll Strength"`  
+
+[](){ #cr-er-une-epee-de-flammes-id }
 
 ### Créer une [[epee-de-flammes]]
 
@@ -797,6 +897,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Create A Flaming Sword"`  
 
+[](){ #cr-er-une-sph-re-d-invisibilit-title-sphere-of-invisibility-id }
+
 ### Créer une [Sphère d'Invisibilité][sphere-dinvisibilite]{title="Sphere of Invisibility"}
 
 <!-- cspell:disable -->
@@ -814,6 +916,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## D
 
+[](){ #danse-de-la-pluie-id }
+
 ### Danse de la pluie
 
 <!-- cspell:disable -->
@@ -829,6 +933,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] [LEVEL n] Rain Dance`  
 
+[](){ #de-beaux-r-ves-id }
+
 ### De beaux rêves
 
 <!-- cspell:disable -->
@@ -842,6 +948,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  I  |  80 aura   |  8   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Schöne Träume"`  
+
+[](){ #de-doux-r-ves-id }
 
 ### De doux rêves
 
@@ -859,6 +967,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Sweet Dreams" <unit-id> [<unit-id> ...]`  
 
+[](){ #d-livrance-des-r-ves-id }
+
 ### Délivrance des rêves
 
 <!-- cspell:disable -->
@@ -872,6 +982,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  I  | 6 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Remove Dreams" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #d-voreur-de-magie-id }
 
 ### Dévoreur de magie
 
@@ -887,6 +999,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] [LEVEL n] "Destroy Magic" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #diable-de-feu-id }
+
 ### Diable de feu
 
 <!-- cspell:disable -->
@@ -901,6 +1015,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  | 50 aura, 1 [huile][huile]{title="Oil"} |  10  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Fire Fiend"`  
+
+[](){ #dirigeable-id }
 
 ### Dirigeable
 
@@ -918,6 +1034,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST Airship <ship-id>`  
 
+[](){ #dissimulation-d-aura-id }
+
 ### Dissimulation d'aura
 
 <!-- cspell:disable -->
@@ -931,6 +1049,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Concealing Aura" <unit-id>`  
+
+[](){ #dissonance-du-silence-id }
 
 ### Dissonance du silence
 
@@ -946,6 +1066,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  C  | 5 x N aura |  8   | Normal |  2   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Silence Dissonance" ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
+
+[](){ #divination-id }
 
 ### Divination
 
@@ -963,6 +1085,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] Divination`  
 
+[](){ #docteur-miracle-id }
+
 ### Docteur Miracle
 
 <!-- cspell:disable -->
@@ -979,6 +1103,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Miracle Doctor"`  
+
+[](){ #doigts-de-f-e-id }
 
 ### Doigts de fée
 
@@ -998,6 +1124,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Quick Fingers"`  
 
+[](){ #don-du-chaos-id }
+
 ### Don du Chaos
 
 <!-- cspell:disable -->
@@ -1015,6 +1143,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## E
 
+[](){ #coute-clandestine-id }
+
 ### Écoute clandestine
 
 <!-- cspell:disable -->
@@ -1030,6 +1160,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  C  | 4 aura, 100 silver |  7   | Normal |  5   |        |       |
 
 `CAST "Sound out" <unit-id> <x> <y>`  
+
+[](){ #meutes-id }
 
 ### Émeutes
 
@@ -1047,6 +1179,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Riot"`  
 
+[](){ #endormissement-id }
+
 ### Endormissement
 
 <!-- cspell:disable -->
@@ -1061,6 +1195,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  I  |   N aura   |  7   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Sleep`  
+
+[](){ #esprits-du-gardien-de-l-astral-id }
 
 ### Esprits du Gardien de l'Astral
 
@@ -1077,6 +1213,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Astral Guardian Spirits"`  
 
+[](){ #tirement-du-temps-id }
+
 ### Étirement du temps
 
 <!-- cspell:disable -->
@@ -1091,6 +1229,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  | 5 x N aura |  11  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Double Time" <unit-id> [<unit-id> ...]`  
+
+[](){ #veil-des-ents-id }
 
 ### Éveil des [Ents][ents]
 
@@ -1109,6 +1249,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## F
 
+[](){ #folie-de-la-guerre-id }
+
 ### Folie de la guerre
 
 <!-- cspell:disable -->
@@ -1124,6 +1266,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Madness of War"`  
 
+[](){ #force-impie-id }
+
 ### Force impie
 
 <!-- cspell:disable -->
@@ -1138,6 +1282,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  | 10 x N aura, 5 x N paysans |  14  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Unholy Strength" <unit-id> [<unit-id> ...]`  
+
+[](){ #fuite-de-l-astral-id }
 
 ### Fuite de l'Astral
 
@@ -1156,6 +1302,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## G
 
+[](){ #gardien-de-la-montagne-id }
+
 ### Gardien de la Montagne
 
 <!-- cspell:disable -->
@@ -1170,6 +1318,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  | 3 x N aura |  3   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] Mountain Guardian`  
+
+[](){ #grande-s-cheresse-id }
 
 ### Grande sécheresse
 
@@ -1188,6 +1338,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Great Drought"`  
 
+[](){ #gr-le-id }
+
 ### Grêle
 
 <!-- cspell:disable -->
@@ -1202,6 +1354,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  |   N aura   |  3   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Hail`  
+
+[](){ #gu-rison-du-b-tail-id }
 
 ### Guérison du bétail
 
@@ -1220,6 +1374,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Cattle Healing"`  
 
+[](){ #gu-rison-id }
+
 ### Guérison
 
 <!-- cspell:disable -->
@@ -1234,6 +1390,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  |   N aura   |  5   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] Heal`  
+
+[](){ #gueule-de-bois-id }
 
 ### Gueule de bois
 
@@ -1262,6 +1420,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## H
 
+[](){ #h-ros-morts-vivants-id }
+
 ### Héros morts‑vivants
 
 <!-- cspell:disable -->
@@ -1276,6 +1436,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  |   N aura   |  9   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Undead Heroes"`  
+
+[](){ #horreurs-indicibles-id }
 
 ### Horreurs indicibles
 
@@ -1292,6 +1454,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Unspeakable Horrors"`  
 
+[](){ #hurlement-des-loups-id }
+
 ### Hurlement des Loups
 
 <!-- cspell:disable -->
@@ -1306,6 +1470,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  | 2 x N aura |  7   | Pré-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Timber Wolves"`  
+
+[](){ #hymne-du-partage-d-aura-id }
 
 ### Hymne du partage d'aura
 
@@ -1323,6 +1489,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## I
 
+[](){ #impr-cation-id }
+
 ### Imprécation
 
 <!-- cspell:disable -->
@@ -1336,6 +1504,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  |   N aura   |  1   | Normal |  5   |        |       |
 
 `CAST [LEVEL n] Hex <unit-id>`  
+
+[](){ #insomnie-id }
 
 ### Insomnie
 
@@ -1352,6 +1522,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] Insomnia`  
 
+[](){ #intrusion-mentale-id }
+
 ### Intrusion mentale
 
 <!-- cspell:disable -->
@@ -1366,6 +1538,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  I  |  20 aura   |  7   | Normal |  5   |        |       |
 
 `CAST "Mind Probe" <unit-id>`  
+
+[](){ #invocation-de-l-astral-id }
 
 ### Invocation de l'Astral
 
@@ -1383,6 +1557,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
+[](){ #invocation-d-un-l-mentaire-d-eau-id }
+
 ### Invocation d'un Élémentaire d'Eau
 
 <!-- cspell:disable -->
@@ -1397,6 +1573,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  |   N aura   |  4   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] "Summon Water Elemental" <ship-id>`  
+
+[](){ #invocation-d-un-l-mentaire-de-feu-id }
 
 ### Invocation d'un Élémentaire de Feu
 
@@ -1414,6 +1592,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] Summon Fire Elemental`  
 
+[](){ #invocation-d-un-l-mentaire-de-terre-id }
+
 ### Invocation d'un Élémentaire de Terre
 
 <!-- cspell:disable -->
@@ -1429,6 +1609,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
+[](){ #invocation-de-la-r-alit-id }
+
 ### Invocation de la Réalité
 
 <!-- cspell:disable -->
@@ -1443,6 +1625,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  T  | 2 x N aura |  6   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Call of Reality" <unit-id> [<unit-id> ...]`  
+
+[](){ #invocation-des-d-mons-de-l-ombre-id }
 
 ### Invocation des Démons de l'Ombre
 
@@ -1461,6 +1645,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Summon Shadowdemons"`  
 
+[](){ #invocation-des-l-mentaires-des-temp-tes-id }
+
 ### Invocation des Élémentaires des Tempêtes
 
 <!-- cspell:disable -->
@@ -1477,6 +1663,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  | 6 x N aura |  6   | Normal |  5   | :material-check:{ .success }[^3] |       |
 
 `CAST [LEVEL n] "Summon Storm Elemental" <ship-id> [<ship-id> ...]`  
+
+[](){ #invocation-des-ma-tres-de-l-ombre-id }
 
 ### Invocation des Maîtres de l'Ombre
 
@@ -1495,6 +1683,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Summon Shadowmasters"`  
 
+[](){ #invocation-du-dragon-id }
+
 ### Invocation du Dragon
 
 <!-- cspell:disable -->
@@ -1512,6 +1702,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Dragon Call"`  
 
+[](){ #invocation-du-familier-id }
+
 ### Invocation du Familier
 
 <!-- cspell:disable -->
@@ -1527,6 +1719,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 `CAST "Summon Familiar"`  
 
 ## J
+
+[](){ #jonglerie-id }
 
 ### Jonglerie
 
@@ -1546,6 +1740,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## L
 
+[](){ #le-manteau-de-firun-id }
+
 ### Le manteau de Firun
 
 <!-- cspell:disable -->
@@ -1563,6 +1759,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Firun's Coat" <unit-id> [<unit-id> ...]`  
 
+[](){ #lecture-des-r-ves-id }
+
 ### Lecture des rêves
 
 <!-- cspell:disable -->
@@ -1576,6 +1774,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  I  |   8 aura   |  4   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Read Dreams" <unit-id>`  
+
+[](){ #liens-de-vie-id }
 
 ### Liens de Vie
 
@@ -1593,6 +1793,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## M
 
+[](){ #maelstrom-id }
+
 ### Maelstrom
 
 <!-- cspell:disable -->
@@ -1608,6 +1810,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Maelstrom"`  
 
+[](){ #magie-du-bosquet-de-ch-ne-id }
+
 ### Magie du bosquet de chêne
 
 <!-- cspell:disable -->
@@ -1622,6 +1826,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] [LEVEL n] "Grove of Oak Trees"`  
 
+[](){ #mal-diction-de-la-peste-id }
+
 ### Malédiction de la peste
 
 <!-- cspell:disable -->
@@ -1635,6 +1841,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  | 30 aura, 50 paysans |  7   | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Curse of Pestilence"`  
+
+[](){ #mal-diction-du-chaos-id }
 
 ### Malédiction du Chaos
 
@@ -1651,6 +1859,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
+[](){ #mauvais-r-ves-id }
+
 ### Mauvais rêves
 
 <!-- cspell:disable -->
@@ -1665,6 +1875,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Bad Dreams"`  
 
+[](){ #m-ditation-id }
+
 ### Méditation
 
 <!-- cspell:disable -->
@@ -1678,6 +1890,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  |   2 aura   |  6   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST Meditate <unit-id> <Aura>`  
+
+[](){ #monstres-paisibles-id }
 
 ### Monstres paisibles
 
@@ -1694,6 +1908,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  C  |  15 aura   |  6   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Calm Monster" <unit-id>`  
+
+[](){ #mort-mentale-id }
 
 ### Mort mentale
 
@@ -1712,6 +1928,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `COMBATSPELL [LEVEL n] "Mental Death"`  
 
+[](){ #moulin-paroles-id }
+
 ### Moulin à paroles
 
 <!-- cspell:disable -->
@@ -1727,6 +1945,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST Blabbermouth <unit-id>`  
 
+[](){ #mur-de-feu-id }
+
 ### Mur de feu
 
 <!-- cspell:disable -->
@@ -1741,6 +1961,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  D  | 6 x N aura |  7   | Normal |  4   |        |       |
 
 `CAST [LEVEL n] Firewall <direction>`  
+
+[](){ #murs-d-ternit-id }
 
 ### Murs d'éternité
 
@@ -1759,6 +1981,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## N
 
+[](){ #nuage-de-la-mort-id }
+
 ### Nuage de la Mort
 
 <!-- cspell:disable -->
@@ -1775,6 +1999,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 `CAST [REGION x y] "Death Cloud"`  
 
 ## O
+
+[](){ #onde-de-choc-id }
 
 ### Onde de choc
 
@@ -1793,6 +2019,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 ## P
 
+[](){ #peau-d-corce-id }
+
 ### Peau d'écorce
 
 <!-- cspell:disable -->
@@ -1807,6 +2035,8 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 |  G  | 4 x N aura |  12  | Pré-c. |  2   |        |       |
 
 `COMBATSPELL [LEVEL n] "Barkskin"`  
+
+[](){ #pentagramme-id }
 
 ### Pentagramme
 
@@ -1824,6 +2054,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] [LEVEL n] Pentagram ( REGION | UNIT <unit-id> [<unit-id> ...] | SHIP <ship-id> [<ship-id> ...] | CASTLE <building-id> [<building-id> ...] )`  
 
+[](){ #perturbation-de-l-astral-id }
+
 ### Perturbation de l'Astral
 
 <!-- cspell:disable -->
@@ -1839,6 +2071,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  |  140 aura  |  14  | Normal |  4   |        |       |
 
 `CAST [LEVEL n] "Astral Disruption"`  
+
+[](){ #petit-sacrifice-de-sang-id }
 
 ### Petit sacrifice de sang
 
@@ -1857,6 +2091,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST "Lesser Sacrifice"`  
 
+[](){ #petites-mal-dictions-id }
+
 ### Petites malédictions
 
 <!-- cspell:disable -->
@@ -1874,6 +2110,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Minor Curses"`  
 
+[](){ #pierre-de-maison-id }
+
 ### Pierre de maison
 
 <!-- cspell:disable -->
@@ -1889,6 +2127,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | 50 aura, 1 aura permanent |  7   | Normal |  5   |        |       |
 
 `CAST Homestone`  
+
+[](){ #pluie-de-rouille-id }
 
 ### Pluie de rouille
 
@@ -1909,6 +2149,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] [LEVEL n] "Rain of Rust" <unit-id> [<unit-id> ...]`  
 
+[](){ #portail-du-chaos-id }
+
 ### Portail du Chaos
 
 <!-- cspell:disable -->
@@ -1923,6 +2165,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  D  | 150 aura, 200 paysans |  14  | Normal |  5   |        |       |
 
 `CAST "Chaos Gate"`  
+
+[](){ #portail-puissant-et-mur-robuste-id }
 
 ### Portail puissant et Mur robuste
 
@@ -1939,6 +2183,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `COMBATSPELL [LEVEL n] "Strong Wall And Sturdy Gate"`  
 
+[](){ #pouvoirs-des-morts-id }
+
 ### Pouvoirs des morts
 
 <!-- cspell:disable -->
@@ -1954,6 +2200,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [REGION x y] [LEVEL n] "Animate Dead"`  
 
+[](){ #pr-servation-du-butin-id }
+
 ### Préservation du butin
 
 <!-- cspell:disable -->
@@ -1968,6 +2216,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  |   N aura   |  3   | Post-c. |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
+
+[](){ #protection-contre-la-magie-id }
 
 ### Protection contre la magie
 
@@ -1986,6 +2236,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## R
 
+[](){ #racines-de-la-magie-id }
+
 ### Racines de la magie
 
 <!-- cspell:disable -->
@@ -2000,6 +2252,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | 250 aura, 10 aura permanents, 1  [[pot-of-toadslime-fr]] |  16  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Roots of Magic"`  
+
+[](){ #ralliement-des-foules-id }
 
 ### Ralliement des foules
 
@@ -2018,6 +2272,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Mob Rule"`  
 
+[](){ #regard-du-basilic-id }
+
 ### Regard du Basilic
 
 <!-- cspell:disable -->
@@ -2032,6 +2288,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  |   N aura   |  8   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Gaze of the Basilisk"`  
+
+[](){ #repos-ternel-id }
 
 ### Repos éternel
 
@@ -2049,6 +2307,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
+[](){ #r-sistance-la-magie-id }
+
 ### Résistance à la magie
 
 <!-- cspell:disable -->
@@ -2064,6 +2324,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  | 5 x N aura |  3   | Normal |  2   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Resist Magic <unit-id> [<unit-id> ...]`  
+
+[](){ #r-surrection-id }
 
 ### Résurrection
 
@@ -2081,6 +2343,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `COMBATSPELL [LEVEL n] Resurrection`  
 
+[](){ #r-ve-de-magie-id }
+
 ### Rêve de magie
 
 <!-- cspell:disable -->
@@ -2095,6 +2359,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST "Dream of Magic" <unit-id> <Aura>`  
 
+[](){ #r-ve-id }
+
 ### Rêve
 <!-- cspell:disable -->
 *Dream (EN), Traumsenden (DE)*.
@@ -2107,6 +2373,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  I  |   N aura   |  1   | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST [LEVEL n] Dream <unit-id>`  
+
+[](){ #rite-d-acceptation-id }
 
 ### Rite d'acceptation
 
@@ -2127,6 +2395,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
 
+[](){ #roche-vivante-id }
+
 ### Roche vivante
 
 <!-- cspell:disable -->
@@ -2143,6 +2413,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  | 10 x N aura, 1 aura permanent, 5 [laen][laen-fr-id]{title="Laen"} |  13  | Normal |  5   |        |       |
 
 `CAST [LEVEL n] "Living Rock" <building-id> <direction>`  
+
+[](){ #runes-de-protection-id }
 
 ### Runes de protection
 
@@ -2163,6 +2435,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## S
 
+[](){ #sacrifier-la-force-id }
+
 ### Sacrifier la Force
 
 <!-- cspell:disable -->
@@ -2178,6 +2452,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
+[](){ #soif-de-sang-id }
+
 ### Soif de sang
 
 <!-- cspell:disable -->
@@ -2192,6 +2468,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  D  | 5 x N aura, 1 paysan |  5   | Pré-c. |  4   |        |       |
 
 `COMBATSPELL [LEVEL n] "Blood Frenzy"`  
+
+[](){ #sortie-de-l-astral-id }
 
 ### Sortie de l'Astral
 
@@ -2211,6 +2489,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## T
 
+[](){ #terre-sacr-e-id }
+
 ### Terre Sacrée
 
 <!-- cspell:disable -->
@@ -2225,6 +2505,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | 80 aura, 3 aura permanents |  9   | Normal |  5   |        |       |
 
 `CAST "Sacred Ground"`  
+
+[](){ #tourbillon-id }
 
 ### Tourbillon
 
@@ -2241,6 +2523,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `COMBATSPELL [LEVEL n] Whirlwind`  
 
+[](){ #transfert-d-aura-id }
+
 ### Transfert d'aura
 
 <!-- cspell:disable -->
@@ -2254,6 +2538,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  T  |   1 aura   |  5   | Normal |  1   | :material-check:{ .success } |       |
 
 `CAST "Transfer aura" <unit-id> <Aura>`  
+
+[](){ #transfert-de-pouvoir-id }
 
 ### Transfert de pouvoir
 
@@ -2271,6 +2557,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## V
 
+[](){ #vents-de-rouille-id }
+
 ### Vents de rouille
 
 <!-- cspell:disable -->
@@ -2285,6 +2573,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  D  | 2 x N aura |  6   | Combat |  5   |        |       |
 
 `COMBATSPELL [LEVEL n] "Winds of Rust"`  
+
+[](){ #voie-de-l-astral-id }
 
 ### Voie de l'Astral
 
@@ -2302,6 +2592,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Astral Path" <unit-id> [<unit-id> ...]`  
 
+[](){ #voie-des-arbres-id }
+
 ### Voie des Arbres
 
 <!-- cspell:disable -->
@@ -2317,6 +2609,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | 3 x N aura |  9   | Normal |  7   |        |       |
 
 `CAST [LEVEL n] "Path of Trees" <unit-id> [<unit-id> ...]`  
+
+[](){ #voie-magique-id }
 
 ### Voie magique
 
@@ -2334,6 +2628,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 |  G  | N aura, 1 [pierre][pierre]{title="Stone"}, 1 bois |  4   | Normal |  5   | :material-check:{ .success } | :material-check:{ .success } |
 
 `CAST [REGION x y] [LEVEL n] "Magic Path"`  
+
+[](){ #vol-d-aura-id }
 
 ### Vol d'aura
 

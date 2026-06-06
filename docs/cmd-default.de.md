@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-default
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # DEFAULT
 
 **`DEFAULT`**`"`*`befehl`*`"`
@@ -17,7 +19,7 @@ Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage ode
 Außerdem sind sie im Computerreport (CR) enthalten.
 Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.
 
-In die Defaultbefehle einer Einheit werden normalerweise alle [langen Befehle] übernommen.
+In die Defaultbefehle einer Einheit werden normalerweise alle [langen Befehle][kurze-und-lange-befehle] übernommen.
 Ausgenommen davon sind `ATTACKIERE`, `FOLGE` und `NACH`.
 Außerdem werden alle [kommentar-mit-schraegstrichen|`//`]-Kommentare und alle Befehle, die mit @ beginnen übernommen.
 Die Schreibweise wird dabei möglicherweise standardisiert.
@@ -196,5 +198,3 @@ Für solche Vorhaben sind Scriptsprachen wie [[vorlage]], [[extendedcommands]] o
 - [[befehle-einschicken]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
-
-[langen Befehle]: ./commands.md#kurze-und-lange-befehle

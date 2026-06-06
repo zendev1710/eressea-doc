@@ -2,10 +2,14 @@
 # cSpell:locale de
 alias: bef-folge
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # FOLGE
 
-**`FOLGE`**[<sup>`(l)`</sup>]` EINHEIT `*`einheit-nr`*  
-**`FOLGE`**[<sup>`(l)`</sup>]` SCHIFF `*`schiff-nr`*`[`*`Geschwindigkeit`*`]`  
+*[Kurzer Befehl][kurze-und-lange-befehle].*  
+
+**`FOLGE`**` EINHEIT `*`einheit-nr`*  
+**`FOLGE`**` SCHIFF `*`schiff-nr`*`[`*`Geschwindigkeit`*`]`  
 
 Hiermit kann man Einheiten bzw. Schiffen folgen.
 
@@ -16,7 +20,7 @@ Einheiten, die per Schiff reisen, können nicht mit `FOLGE EINHEIT` verfolgt wer
 Ebensowenig können Kapitäne hiermit ihr Schiff bewegen.
 Stattdessen würden sie ihr Schiff verlassen und der Einheit zu Fuß folgen, wenn möglich.
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] Hat die verfolgte Einheit keinen Bewegungsbefehl gesetzt (dazu zählen `NACH, ROUTE, FAHRE, FOLGE`, aber nicht `PIRATERIE`), kann die verfolgende Einheit ihren langen Befehl ausführen.
+Hat die verfolgte Einheit keinen Bewegungsbefehl gesetzt (dazu zählen `NACH, ROUTE, FAHRE, FOLGE`, aber nicht `PIRATERIE`), kann die verfolgende Einheit ihren langen Befehl ausführen.
 
 Mit `FOLGE SCHIFF`*`schiff-nr`* können Schiffe verfolgt werden, welche in der aktuellen oder der vorigen Runde die Region durchquert haben.
 Hat der Kapitän den Befehl `FOLGE SCHIFF`*`schiffnummer`* gegeben, wird das Schiff dann dem Kurs des angegebenen Schiffes folgen, bis es - wenn das eigene Schiff schnell genug ist - eingeholt wurde.
@@ -25,7 +29,7 @@ Ist der optionale Parameter *Geschwindigkeit* angegeben, wird das verfolgende Sc
 !!! warning "Achtung"
     nicht gefolgt werden kann Schiffen, die selber `FOLGE SCHIFF` oder `PIRATERIE` als Befehl haben.
 
-[<sup>(l)</sup>][<sup>`(l)`</sup>] `FOLGE SCHIFF` ist genau wie `FOLGE EINHEIT` nur dann ein langer Befehl, wenn das Ziel einen Bewegungsbefehl hat, und ersetzt dann alle anderen langen Befehle.
+`FOLGE SCHIFF` ist genau wie `FOLGE EINHEIT` nur dann ein langer Befehl, wenn das Ziel einen Bewegungsbefehl hat, und ersetzt dann alle anderen langen Befehle.
 
 `FOLGE` hält nur in der Runde an, in welcher der Befehle gegeben wird.
 Soll der Befehl länger andauern, muss ihm ein `@` vorgestellt werden.
@@ -57,7 +61,6 @@ Es wird immer nur der erste ausgeführt.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
-[<sup>`(l)`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Reisen]: ./travel.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md

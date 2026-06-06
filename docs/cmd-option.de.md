@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-option
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # OPTION
 
 **`OPTION`**` `*`option`*`[NICHT]`  
@@ -32,11 +34,10 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
 `SILBERPOOL`: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silber von allen Einheiten der Region gesammelt wird.
 
-`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silber mit dem [Silberpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[bef-reserviere]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVIERE` vergaß.
+`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silber mit dem [Silberpool][der-silberpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[bef-reserviere]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVIERE` vergaß.
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
 [Vorlage für die Befehle der nächsten Runde]: ./commands.md
 [Materialpool]: ./items-pool.md
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
 [bef-reserviere]: ./cmd-reserve.md

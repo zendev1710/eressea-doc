@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-stirb
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # STIRB
 
 **`STIRB`**`"Passwort"`  
@@ -16,7 +18,7 @@ Als befreundet gilt hier nur, wem ein [[bef-helfe|HELFE SILBER]] gesetzt wurde, 
 Die Empfängerpartei muss HELFE GIB auf die sterbende Partei gesetzt haben.
 Die Gegenstände gehen an die jeweils erste Einheit der Partei in der Region.
 Sollte sich keine befreundete Einheit in einer Region befinden, gehen alle Gegenstände an die Bauern.
-Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks], [Dämonen], Monstern).
+Die Personen der Partei werden immer an die Bauern übergeben (Ausnahmen gelten bei [Orks][orks], [Dämonen][damonen], Monstern).
 
 **`STIRB`**` "Passwort" PARTEI `*`Partei-nr`*  
 
@@ -56,6 +58,3 @@ STIRB "geheim" PARTEI enno
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=STIRB&oldid=16825] -->
-
-[Orks]: ./races.md#orks
-[Dämonen]: ./races.md#damonen

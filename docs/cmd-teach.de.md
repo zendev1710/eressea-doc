@@ -2,9 +2,13 @@
 # cSpell:locale de
 alias: bef-lehre
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LEHRE
 
-**`LEHRE`**[<sup>`L`</sup>]` `*`einheit-nr`*`[`*`einheit-nr`*`]...`  
+*[Langer Befehl][kurze-und-lange-befehle].*  
+
+**`LEHRE`**` `*`einheit-nr`*`[`*`einheit-nr`*`]...`  
 
 Um die Zeit herabzusetzen, die eine andere Einheit braucht, um ein Talent zu erlernen, kann man sie das Talent lehren. Dazu muss die lehrende Einheit in dem betreffenden Talent mindestens 2 Stufen besser als die lernende Einheit sein, Damit lernt die lernende Einheit doppelt so schnell, als wenn sie versucht, ihr Talent auf eigene Faust zu verbessern.
 
@@ -16,13 +20,12 @@ Will man Einheiten fremder Parteien lehren, muss man von dieser Partei den Befeh
 
 **Beispiel**:
 
-     LEHRE xxxx yyyy TEMP 2 zzzz
+    LEHRE xxxx yyyy TEMP 2 zzzz
 
 Durch den Befehl [LERNE AUTO] versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von `LEHRE` und `LERNE AUTO` ist allerdings nicht möglich.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEHRE&oldid=16726] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [bef-helfe]: ./cmd-help.md
 [bef-kontaktiere]: ./cmd-contact.md
 [LERNE AUTO]: ./cmd-learn-auto.md

@@ -2,9 +2,13 @@
 # cSpell:locale de
 alias: bef-beklaue
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # BEKLAUE
 
-**`BEKLAUE`**[<sup>`L`</sup>]` `*`einheit-nr`*  
+*[Langer Befehl][kurze-und-lange-befehle].*
+
+**`BEKLAUE`**` `*`einheit-nr`*  
 
 Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen.
 Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem.
@@ -14,7 +18,7 @@ Sind Wahrnehmung der Opfer und Tarnung der Täter gleich hoch, gelingt der Diebs
 Ist die Wahrnehmung der Opfer sogar höher als die Tarnung der Täter, werden die Täter auf frischer Tat ertappt und identifiziert.
 
 !!! warning "Achtung"
-    Diebe klauen immer aus dem [Silberpool].  
+    Diebe klauen immer aus dem [Silberpool][der-silberpool].  
     Dadurch kann auch Silber von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
 
 In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
@@ -26,9 +30,7 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
 [Tarnungstalent]: ./skills-list.md
-[Silberpool]: ./items-pool.md#der-silberpool "Silberpool"
 [immun]: ./puppy-protection.md
 [Geld]: ./silver.md
 [Tarnung und Wahrnehmung]: ./stealth.md

@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: talente
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Talente
 
 Eine der wesentlichen Eigenschaften, die [Einheiten] in Eressea definieren, sind ihre Talente.
@@ -27,14 +29,14 @@ Die maximale Lernzeit übersteigt (2 x neue Stufe − 1) nicht.
 Diese Extremwerte kommen weniger häufig vor als die durchschnittliche Dauer.
 
 **Beispiele:** Das Aufsteigen von Stufe 3 nach Stufe 4 dauert im Schnitt 4 Wochen, jedoch manchmal nur eine Woche und manchmal bis zu 7 Wochen.
-Eine [Zwergeneinheit] mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben.
+Eine [Zwergeneinheit][zwerge] mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben.
 Sie benötigt für den Aufstieg im Talent Bergbau von Stufe 3 nach Stufe 4 im Schnitt zwei Wochen.
 
 Um die Zeit herabzusetzen, die eine Einheit zum Erlernen eines Talentes benötigt, kann eine zweite Einheit, die besser ist, die erste Einheit das Talent [lehren].
 Diese lehrende Einheit muss eine Talentstufe haben, die um mindestens 2 größer ist als die Talentstufe der Schüler.
 Damit lernt die gelehrte Einheit doppelt so schnell, als wenn sie versucht, ein Talent auf eigene Faust zu verbessern.
 Die lehrende Einheit lernt jedoch gar nicht.
-Ein Lernen in einer [Akademie] bringt einen weiteren Zeitvorteil.
+Ein Lernen in einer [Akademie][akademie] bringt einen weiteren Zeitvorteil.
 
 Eine Lehrperson kann maximal 10 Schüler lehren.
 Hat die "Schüler-Einheit" mehr Personen, als die Lehreinheit lehren kann, so wird dies trotzdem anteilig auf die Zeit, die neue Stufe zu erreichen, angerechnet.
@@ -64,12 +66,12 @@ Hier solltest du also ggf. durch Umstrukturieren der Lehrer-Einheiten "klare Ver
 Beim Befehl [LERNE AUTO] versucht der Server, das Lernen und Lehren in einer Region zu automatisieren.
 Da dies allerdings durch eine einfache Heuristik bewirkt wird, ist nicht garantiert, dass hier eine (dauerhaft) optimale Lernkette entsteht.
 
-[Magie], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][Alchemie] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
+[Magie], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][spionage] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
 Spionage zu erlernen kostet 100 Silber pro Person und Runde, Alchemie, Kräuterkunde und Taktik sogar 200 Silber pro Person und Woche.
 Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe [Tabelle][Magie]).
 Die Einheit, welche eines dieser Talente lernt, muss dieses Silber bei sich tragen.
 Dabei ist es für die Kosten unerheblich, ob die Einheit gelehrt wird oder nicht.
-Befindet sich die Einheit in einer [Akademie][1], verdoppeln sich die Lernkosten teurer Talente.
+Befindet sich die Einheit in einer [Akademie][akademie], verdoppeln sich die Lernkosten teurer Talente.
 
 Wenn der lernenden Einheit zum Zeitpunkt des Bezahlens nicht der volle Betrag des Geldes zur Verfügung steht, lernt sie anteilig je nach vorhandener Geldmenge, das heißt, wenn sie beispielsweise nur 500 von 550 Silber hat, sinkt ihre Lerngeschwindigkeit um etwa 10%.
 
@@ -131,7 +133,7 @@ Mehr dazu im Kapitel über [Geld].
 
 ### Heimlich & Co
 
-[Spionage], [Tarnung] und [Wahrnehmung] drehen sich um Heimlichkeiten.
+[Spionage][spionage], [Tarnung] und [Wahrnehmung] drehen sich um Heimlichkeiten.
 Sie haben ihre eigenen Kapitel.
 
 ### Fortbewegung
@@ -156,19 +158,15 @@ Weiterlesen: [Liste der Talente].
 [Einheiten]: ./cmd-unit.md
 [bef-lerne]: ./cmd-learn.md
 [Rasse]: ./races.md
-[Zwergeneinheit]: ./races.md#zwerge
 [lehren]: ./cmd-teach.md
-[Akademie]: ./buildings-others.md#akademie
 [LERNE AUTO]: ./cmd-learn-auto.md
 [Magie]: ./magic.md
 [Alchemie]: ./skills-list.md
 [Taktik]: ./tactic.md
-[1]: ./buildings-others.md#akademie
 [bef-vergiss]: ./cmd-forget.md
 [Produktion]: ./production.md
 [5]: ./alchemy.md
 [Geld]: ./silver.md
-[Spionage]: ./skills-list.md#spionage
 [Tarnung]: ./stealth.md
 [Wahrnehmung]: ./stealth.md
 [Reisen]: ./travel.md

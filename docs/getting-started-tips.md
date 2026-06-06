@@ -40,7 +40,7 @@ Without sufficient silver, your faction won't be able to grow.
 for this, you need, for example, metals ([mining][about-mining]) or wood ([logging][deep-in-the-forest]) to craft weapons like swords or spears;
 and of course, tax collectors need the appropriate weapon skill ([tax collection][collecting-taxes], [weapon skills][combat-skills]).
 
-[Perception][perception] is a very important skill that is often underestimated by beginners.
+[Perception][skill-perception-id] is a very important skill that is often underestimated by beginners.
 Only tax collectors are able to see camouflaged units and prevent them from [stealing][stealing-the-dishonest-way]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
 It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [[buildings|castles building]]) so that [trade][silver-trade-id] can be conducted.
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.

@@ -2,15 +2,19 @@
 # cSpell:locale de
 alias: bef-mache
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # MACHE
 
-**`MACHE`**[<sup>`L`</sup>]`[`*`anzahl`*`]`*`gegenstand`*  
-**`MACHE`**[<sup>`L`</sup>]`[`*`anzahl`*`] KRÄUTER`  
-**`MACHE TEMP`**` `*`unit-alias-nr`*`["`*`name`*`"]`  
-**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`]`*`gebäudetyp`*`[`*`gebäude-nr`*`]`  
-**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`]`*`schiffstyp`*  
-**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`] SCHIFF [`*`schiff-nr`*`]`  
-**`MACHE`**[<sup>`L`</sup>]`[`*`stufen`*`] STRASSE`*`richtung`*` `  
+*[Langer Befehl][kurze-und-lange-befehle].*
+
+**`MACHE`**`[`*`anzahl`*`]`*`gegenstand`*  
+**`MACHE`**`[`*`anzahl`*`] KRÄUTER`  
+**`MACHE`**`[`*`stufen`*`]`*`gebäudetyp`*`[`*`gebäude-nr`*`]`  
+**`MACHE`**`[`*`stufen`*`]`*`schiffstyp`*  
+**`MACHE`**`[`*`stufen`*`] SCHIFF [`*`schiff-nr`*`]`  
+**`MACHE`**`[`*`stufen`*`] STRASSE`*`richtung`*` `  
+**`MACHE TEMP`**` `*`unit-alias-nr`*`["`*`name`*`"]`  (Kurzer Befehl)
 
 Der Befehl `MACHE` ist der allgemeine Produktionsbefehl.
 Mehr dazu auch im Kapitel [Produktion].
@@ -65,7 +69,7 @@ Nach diesem Befehl werden die Befehle für die neue Einheit angegeben, bis der B
 Die neue Einheit muss allerdings noch Mitglieder bekommen, sonst wird sie stillschweigend am Ende der Runde wieder gelöscht! Sie muss also rekrutieren oder Personen übergeben bekommen.
 Wenn die neue Einheit Mitglieder neu rekrutieren soll, muss sie auch genug Geld dafür erhalten.
 Erhält sie das nicht, wird die Einheit niemanden rekrutieren können und am Ende der Woche stillschweigend entfernt werden.
-Bekommt die Einheit Geld, rekrutiert aber keine Mitglieder, löst sie sich ebenfalls auf und das Geld fällt [wieder einer Einheit der eigenen Partei zu].
+Bekommt die Einheit Geld, rekrutiert aber keine Mitglieder, löst sie sich ebenfalls auf und das Geld fällt [wieder einer Einheit der eigenen Partei zu][auflosung-von-einheiten].
 
 ```text
 EINHEIT 17;       Kämpfer [15,700$]
@@ -110,8 +114,8 @@ Sowohl bei Gebäuden als auch bei Schiffen kannst du mit *stufen* angeben, wie v
 ## Straßen
 
 Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MACHE STRASSE`*`richtung`*.
-Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau] und [Steine][Gegenstände].
-In Gletschern benötigt sie dazu vorher einen [Tunnel], in Wüsten eine [Karawanserei] und in Sümpfen einen [Damm].
+Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau][straenbau] und [Steine][Gegenstände].
+In Gletschern benötigt sie dazu vorher einen [Tunnel][tunnel-de-id], in Wüsten eine [Karawanserei][karawanserei] und in Sümpfen einen [Damm][damm].
 Pro Talentpunkt Straßenbau wird ein Stein verbaut.
 Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten].
 Straßen funktionieren nur wenn sie vollständig sind.
@@ -121,7 +125,7 @@ Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit b
 `MACHE gebäudetyp` bzw. `MACHE SCHIFF` ohne weitere Parameter baut derzeit an dem Gebäude bzw. Schiff weiter, in dem die Einheit sich gerade befindet.
 
 !!! warning "Achtung"
-    Falls sich die Einheit in einem Gebäude befindet, fängt MACHE Leuchtturm _kein neues_ Gebäude an, sondern baut an dem alten weiter.
+    Falls sich die Einheit in einem Gebäude befindet, fängt MACHE Leuchtturm kein neues Gebäude an, sondern baut an dem alten weiter.
 
 ## Beispiele
 
@@ -163,10 +167,3 @@ MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
 [Straßen]: ./roads.md
 [Geländearten]: ./terrains.md
 [Alchemie]: ./alchemy.md
-
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
-[wieder einer Einheit der eigenen Partei zu]: ./factions.md#auflosung-von-einheiten
-[Straßenbau]: ./skills-list.md#straenbau
-[Tunnel]: ./buildings-others.md#tunnel
-[Karawanserei]: ./buildings-others.md#karawanserei
-[Damm]: ./buildings-others.md#damm

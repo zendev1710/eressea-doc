@@ -2,11 +2,15 @@
 # cSpell:locale de
 alias: bef-zuechte
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ZÜCHTE
 
-**`ZÜCHTE`**[<sup>`L`</sup>]`PFERDE`  
+*[Langer Befehl][kurze-und-lange-befehle].*  
 
-**`ZÜCHTE`** ist ein langer Befehl, mit dem Einheiten in einer [Pferdezucht] Pferde züchten oder versuchen, in einer Region neue Kräuter zu pflanzen.
+**`ZÜCHTE`**`PFERDE`  
+
+**`ZÜCHTE`** ist ein langer Befehl, mit dem Einheiten in einer [Pferdezucht][pferdezucht] Pferde züchten oder versuchen, in einer Region neue Kräuter zu pflanzen.
 
 Mit `ZÜCHTE PFERDE` kann pro Person und Talentstufe [Pferdedressur] ein Pferd mit einer Wahrscheinlichkeit von \[Pferdedressur\]% entstehen.
 3 Personen mit Pferdedressur 5 hätten also 3 x 5 = 15 Versuche zu je 5%, ein Pferd dazuzubekommen.
@@ -21,7 +25,5 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE&oldid=16739] -->
 
-[<sup>`L`</sup>]: ./commands.md#kurze-und-lange-befehle
-[Pferdezucht]: ./buildings-others.md#pferdezucht "Andere Gebäude"
 [Pferdedressur]: ./skills-list.md
 [bef-pflanze]: ./cmd-plant.md

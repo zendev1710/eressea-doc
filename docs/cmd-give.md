@@ -125,9 +125,9 @@ The command cannot be given to units without people (e.g. after a battle, or to 
 
 ## Convoy
 
-With `GIVE`*`unit-id`*` `*`number`*`SHIP` the owner of a ship or [convoy][convoy] hands over the number of ships.  
+With `GIVE`*`unit-id`*` `*`number`*`SHIP` the owner of a ship or [convoy][convoy-id] hands over the number of ships.  
 The transferring and receiving units must belong to the same faction; `HELP ALL` or `CONTACT` is not sufficient.  
-If the other unit also owns a ship, a [convoy][convoy] is formed.  
+If the other unit also owns a ship, a [convoy][convoy-id] is formed.  
 Convoys always consist of ships of the same type.  
 Boats cannot form convoys and the ships must be on the same coast.  
 

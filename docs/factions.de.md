@@ -37,7 +37,7 @@ Eigene Einheiten sind mit einem '\*' markiert, Einheiten anderer Parteien mit ei
 
 Jede Einheit besitzt eine eindeutige Nummer, die vom Computer vergeben wird und die bei allen Befehlen verwendet wird, im ersten Fall hier die Nummer tb2. Der Begriff "Nummer" mutet hier seltsam an, denn in Eressea werden die Einheiten mit "base36"-Zahlen versehen; neben den Ziffern 0-9 sind also die Buchstaben a-z als "Ziffern" gültig. Jede Einheit hat zudem einen Namen ("Konrad Rabenhelm") und vielleicht eine Beschreibung (nach dem Semikolon). Zudem werden Besitz und, falls die Information verfügbar ist, Talente angezeigt.
 
-Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report bekam. Sie besteht aus einem Menschen der eigenen Partei (wird nicht angezeigt), hat 20 Silber und kann mit Hiebwaffen kämpfen: in diesem Talent hat die Einheit die Stufe 1. Das Talent [Steuereintreiben] beherrscht sie auf Stufe 2 (näheres im Kapitel [zu den Talenten][Talente]). Wie man sieht, hat Konrad Rabenhelm ein Schwert. "TREIBE" ist der so genannte [Defaultbefehl]. Bekommt diese Einheit keine neuen Befehle für die nächste Runde, so wird sie weiterhin Steuern eintreiben. Im NR wird immer nur ein Defaultbefehl angezeigt, aber die Einheit kann unter Umständen mehrere haben, die nur im CR oder in der Zugvorlage sichtbar sind. Das wird im Kapitel über [Befehle] weiter erklärt.
+Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report bekam. Sie besteht aus einem Menschen der eigenen Partei (wird nicht angezeigt), hat 20 Silber und kann mit Hiebwaffen kämpfen: in diesem Talent hat die Einheit die Stufe 1. Das Talent [Steuereintreiben][skill-steuereintreiben-id] beherrscht sie auf Stufe 2 (näheres im Kapitel [zu den Talenten][Talente]). Wie man sieht, hat Konrad Rabenhelm ein Schwert. "TREIBE" ist der so genannte [Defaultbefehl]. Bekommt diese Einheit keine neuen Befehle für die nächste Runde, so wird sie weiterhin Steuern eintreiben. Im NR wird immer nur ein Defaultbefehl angezeigt, aber die Einheit kann unter Umständen mehrere haben, die nur im CR oder in der Zugvorlage sichtbar sind. Das wird im Kapitel über [Befehle] weiter erklärt.
 
 Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten kannst du im Kapital [Krieg] im Abschnitt [Kampfreihen][die-schlacht] sowie in der Erklärung zum Befehl [KÄMPFE] nachlesen.
 
@@ -78,7 +78,6 @@ Weiterlesen: [Rassen].
 [`MACHE TEMP`]: ./cmd-make.md
 [transferiert]: ./cmd-give.md
 [hilft]: ./alliances.md
-[Steuereintreiben]: ./cmd-tax.md
 [Defaultbefehl]: ./cmd-default.md
 [Krieg]: ./war.md
 [KÄMPFE]: ./cmd-combat.md

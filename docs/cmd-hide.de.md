@@ -12,7 +12,7 @@ alias: bef-tarne
 **`TARNE`**` `*`rasse`*  
 
 Mit der ersten Variante kann man einstellen, wie "intensiv" eine Einheit sich zu tarnen versucht.
-`stufe` kann natürlich nicht höher als das [Talent][tarnung] der Einheit sein.
+`stufe` kann natürlich nicht höher als das [Talent][skill-tarnung-id] der Einheit sein.
 Ohne Parameterangabe wird das Maximum gesetzt.
 
 Mit `TARNE PARTEI` kann man seine Parteizugehörigkeit zu verbergen versuchen.
@@ -49,7 +49,7 @@ Mit `TARNE rasse` können [Dämonen][damonen] sich als andere Rasse tarnen.
 ## Siehe auch
 
 - [Spionage][spionage-id]
-- [Tarnung][tarnung]
+- [Tarnung][tarnung-id]
 - [Wahrnehmung][wahrnehmung]
 
 <!-- From [https://wiki.eressea.de/index.php?title=TARNE&oldid=15791] -->

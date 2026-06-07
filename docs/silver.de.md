@@ -9,7 +9,7 @@ alias: geld
 !!! note "Hinweis"
     In Eressea ist die Grundeinheit des Währungssystems **Silber**.
 
-Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben] oder [handel][handel] treiben.
+Geld regiert die Welt - das ist auch in Eressea der Fall. Es gibt verschiedene Möglichkeiten, an Geld heranzukommen: [Arbeiten], [Unterhalten], [Steuern eintreiben][skill-steuereintreiben-id] oder [handel][handel] treiben.
 
 Während Arbeiten eher eine Notlösung ist, kann mit Unterhaltung und dem Eintreiben von Steuern schon recht viel Geld verdient werden. Der Handel kann in Eressea, Regionen mit entsprechenden Luxusgütern vorausgesetzt, besonders am Anfang die größte Einnahmequelle sein.
 
@@ -47,7 +47,7 @@ Das Talent Segeln wird bei hungernden Einheiten nur um eine Stufe reduziert. Den
 
 Nahezu tödlich ist Hunger bei Feindkontakt, hervorgerufen z.B. durch Diebstahl oder wegen Fehlplanung. Einheiten verlieren Trefferpunkte und kämpfen in einem eventuell folgenden Kampf deutlich schwächer. Sollten sie so einen Kampf trotzdem überleben, besteht noch die Gefahr, dass sie weiter hungern, weil sie wegen des Kampfes nicht arbeiten konnten (siehe [Kampfende][das-ende]).
 
-Beherrscht sie das [Ausdauertalent] auf hohem Niveau, so kann es nach dem Hungern zu dem seltsamen Effekt kommen, dass eine Einheit laut Bericht "sehr stark" ist (d.h. sie hat mehr Trefferpunkte als sie normalerweise haben dürfte).
+Beherrscht sie das [Ausdauertalent][skill-ausdauer-id] auf hohem Niveau, so kann es nach dem Hungern zu dem seltsamen Effekt kommen, dass eine Einheit laut Bericht "sehr stark" ist (d.h. sie hat mehr Trefferpunkte als sie normalerweise haben dürfte).
 
 ### Hunger bei Bauern
 
@@ -55,7 +55,7 @@ Auch Bauern benötigen Unterhalt, den sie normalerweise selbst verdienen und dem
 
 - Die Region ist überbevölkert. In einer Ebene ohne Bäume, in der jeder Bauer 12 Silber verdient, können langfristig nur 12000 Bauern überleben, weil nur 10000 Bauern arbeiten, dabei 120000 verdienen, was nur für 12000 Bauern ausreicht. Kurzfristig kann die Zahl der Bauern höher liegen, so lange noch genügend Silber im Regionsvorrat ist.
 - Die Region ist zwar nicht überbevölkert, aber [arbeitende][Arbeiten] Spieler-Einheiten belegen einen Teil der Arbeitsplätze.
-- Die Bauern verdienen zwar genug Silber, aber Spieler-Einheiten [treiben][Steuern eintreiben] dieses Silber ein, bevor sich die Bauern damit selbst versorgen können.
+- Die Bauern verdienen zwar genug Silber, aber Spieler-Einheiten [[cmd-tax|treiben]] dieses Silber ein, bevor sich die Bauern damit selbst versorgen können.
 - Des weiteren gibt es Gerüchte über besondere Ereignisse, die zeitweilig oder dauerhaft die Fruchtbarkeit einer Region verschlechtern können, wodurch die Bauern nicht mehr ihren eigenen Unterhalt erarbeiten können.
 
 Verhungerte Bauern können später als [Untote][untote] wiederauferstehen.
@@ -74,9 +74,11 @@ Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind s
 
 Arbeiten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
+[](){ #silver-steuereintreiben-id }
+
 ### Steuereintreiben
 
-Bewaffnete und trainierte Schergen können mit dem Befehl [[bef-treibe]][Steuern eintreiben] pro Person und Talentstufe Steuereintreiben 20 Silber an Steuern aus den Bauern herausquetschen. Hierzu brauchen sie natürlich das Talent Steuereintreiben, außerdem pro Person eine Waffe (Katapulte zählen nicht) und die entsprechenden Talente Hiebwaffen, Stangenwaffen, Bogen- oder Armbrustschießen.
+Bewaffnete und trainierte Schergen können mit dem Befehl [[bef-treibe]] pro Person und Talentstufe Steuereintreiben 20 Silber an Steuern aus den Bauern herausquetschen. Hierzu brauchen sie natürlich das Talent Steuereintreiben, außerdem pro Person eine Waffe (Katapulte zählen nicht) und die entsprechenden Talente Hiebwaffen, Stangenwaffen, Bogen- oder Armbrustschießen.
 
 Wenn die Bauern nahe am Maximum der Bevölkerungsdichte leben, werden fast alle Geldreserven von den Bauern selber aufgebraucht, so dass sie kein Silber mehr für Steuern "übrig" haben. Steuern können dann trotzdem (in Höhe des Regionsvorrats) eingetrieben werden, aber die nicht versorgten Bauern werden dann verhungern (und dadurch werden die Verdienste auch nicht mehr ...). Gerade hier ist es sinnvoll, eine Burg zu bauen, da damit der Arbeitslohn steigt: Schon bei 12 statt 11 Silber verdienen 2000 Bauern auch 2000 Silber pro Runde mehr!
 
@@ -109,9 +111,9 @@ Unterhalten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
 Neben den ehrlichen Wegen, Geld zu verdienen (und auch auszugeben) gibt es die unehrliche Variante: Diebstahl. Einheiten, die sich getarnt haben, können versuchen, mit dem Befehl [[bef-beklaue]] bei anderen Einheiten Silber zu stehlen.
 
-Ist das [Tarnungstalent] der klauenden Einheit höher als die [Wahrnehmung] der besten Einheit der bestohlenen Partei in der Region, so klaut sie pro Talentstufe Unterschied 50 Silber.
+Ist das [Tarnungstalent][skill-tarnung-id] der klauenden Einheit höher als die [Wahrnehmung] der besten Einheit der bestohlenen Partei in der Region, so klaut sie pro Talentstufe Unterschied 50 Silber.
 
-Es lohnt sich, zu diesem Thema auch das Kapitel über [Tarnung] durchzulesen.
+Es lohnt sich, zu diesem Thema auch das Kapitel über [Tarnung][tarnung-id] durchzulesen.
 
 ## Handel
 
@@ -187,7 +189,7 @@ Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALL
 - [[bef-reserviere]][reserviert]
 - [[bef-rekrutiere]]
 - [Materialpool]
-- [Tarnung][Tarnungstalent]
+- [Tarnung][skill-tarnung-id]
 - [[bef-bewache]]
 
 Weiterlesen: [Materialpool].
@@ -197,7 +199,6 @@ Weiterlesen: [Materialpool].
 [Materialpool]: ./items-pool.md
 [Arbeiten]: ./cmd-work.md
 [Unterhalten]: ./cmd-entertain.md
-[Steuern eintreiben]: ./cmd-tax.md
 [Rassen]: ./races.md
 [rekrutieren]: ./cmd-recruit.md
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md
@@ -206,11 +207,8 @@ Weiterlesen: [Materialpool].
 [reserviert]: ./cmd-reserve.md
 [Gebäude]: ./buildings.md
 [Schaden]: ./ships.md
-[Ausdauertalent]: ./war-tables.md
 [bef-beklaue]: ./stealth.md
-[Tarnungstalent]: ./stealth.md
 [Wahrnehmung]: ./stealth.md
-[Tarnung]: ./stealth.md
 [kaufen]: ./cmd-buy.md
 [verkaufen]: ./cmd-sell.md
 [Burgen]: ./castles.md

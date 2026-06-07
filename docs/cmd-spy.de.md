@@ -11,7 +11,7 @@ alias: bef-spioniere
 **`SPIONIERE`**` `*`einheit-nr`*  
 
 Mit Spionage kann man Einheiten einer anderen Partei ausspionieren.
-Dabei wird das Spionagetalent des Spions mit dem [Tarnungstalent] der Zieleinheit verglichen.
+Dabei wird das Spionagetalent des Spions mit dem [Tarnungstalent][skill-tarnung-id] der Zieleinheit verglichen.
 
 Die Grundchance für einen erfolgreichen Spionage-Versuch ist 10%.
 Für jede Talentstufe, den das Spionagetalent das Tarnungstalent des Opfers übersteigt, erhöht sich dieses um 5%.
@@ -62,5 +62,3 @@ Klar ist, dass Spionageversuche mit vielen schlechten Einheiten mit fast 100% Si
     Momentan gibt es aber unterschiedliche Ergebnisse für gleiche Spione.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPIONIERE&oldid=16733] -->
-
-[Tarnungstalent]: ./stealth.md

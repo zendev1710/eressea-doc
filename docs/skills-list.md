@@ -19,15 +19,57 @@ Make [[alchemy|potions]] from [[herbs]]. Learning costs 200 silver per person. T
 
 [](){ #skill-crossbow-id }
 
+[](){ #skill-bow-id }
+
+## Bow
+
+With a bow: fight. With the taxation skill: collect taxes (TAX).
+
+[](){ #skill-catapult-id }
+
+## Catapult
+
+With a catapult and ammunition: fight. Can't be used to collect taxes.
+
 ## Crossbow
 
 With a crossbow: fight. With the taxation skill: collect taxes (TAX).
 
-[](){ #skill--id }
+[](){ #skill-endurance-id }
 
-## 
+## Endurance
 
 Gives more hit points, making a unit more resistant to damage in combat or due to lack of food (see this [table][table-endurance-id]).
+
+[](){ #skill-forestry-id }
+
+## Forestry
+
+Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
+
+[](){ #skill-herbalism-id }
+
+## Herbalism
+
+Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+
+[](){ #skill-magic-id }
+
+## [[magic]]
+
+This allows you to cast combat spells and other types spells. Learning magic [[magic|costs silver]] depending on the level.
+
+[](){ #skill-masonry-id }
+
+## Masonry
+
+Build [castles and other buildings].
+
+[](){ #skill-melee-id }
+
+## Melee
+
+With a "melee" weapon (sword, claymore, axe, laensword): fight. With the taxation skill: collect taxes (TAX).
 
 [](){ #skill-mining-id }
 
@@ -45,53 +87,12 @@ If the layer is deeper, you won't see anything.
     [laen][laen-id] mining needs a [mine][mine-id] and a skill level of **7**.  
     [adamantium][adamantium-id] mining needs a [mine][mine-id] and a skill level of **8**.
 
-[](){ #skill-bow-id }
 
-## Bow
+[](){ #skill-riding-id }
 
-With a bow: fight. With the taxation skill: collect taxes (TAX).
+## Riding
 
-[](){ #skill-masonry-id }
-
-## Masonry
-
-Build [castles and other buildings].
-
-[](){ #skill-trade-id }
-
-## Trade
-
-In regions with a castle: buy and sell luxury goods. Per person and skill you can trade 10 goods (see [trade][silver-trade-id] and [[cmd-buy]]).
-
-[](){ #skill-melee-id }
-
-## Melee
-
-With a "melee" weapon (sword, claymore, axe, laensword): fight. With the taxation skill: collect taxes (TAX).
-
-[](){ #skill-forestry-id }
-
-## Forestry
-
-Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
-
-[](){ #skill-catapult-id }
-
-## Catapult
-
-With a catapult and ammunition: fight. Can't be used to collect taxes.
-
-[](){ #skill-herbalism-id }
-
-## Herbalism
-
-Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
-
-[](){ #skill-magic-id }
-
-## [[magic]]
-
-This allows you to cast combat spells and other types spells. Learning magic [[magic|costs silver]] depending on the level.
+With a [horse][horse-and-carriage]: Starting from riding 1 faster movement; starting from riding 2 you may get the cavalry bonus in combat. Walk with (4 x riding level) + 1 horses or ride with (2 x riding level) horses.
 
 [](){ #skill-taming-id }
 
@@ -102,11 +103,11 @@ This skill is required to get [horses][horse-and-carriage]. It can be used in tw
 - With [[cmd-make|`MAKE SEEDS`]]`[`*`amount`*`] horse` a unit captures horses present in the region, at a rate of one horse per person and per level of taming skill.
 - With [[cmd-grow|`GROW HORSES`]] you can reproduce horses from existing horses, but you must be in a [stable][stable].
 
-[](){ #skill-riding-id }
+[](){ #skill-trade-id }
 
-## Riding
+## Trade
 
-With a [horse][horse-and-carriage]: Starting from riding 1 faster movement; starting from riding 2 you may get the cavalry bonus in combat. Walk with (4 x riding level) + 1 horses or ride with (2 x riding level) horses.
+In regions with a castle: buy and sell luxury goods. Per person and skill you can trade 10 goods (see [trade][silver-trade-id] and [[cmd-buy]]).
 
 [](){ #skill-armoursmithing-id }
 

@@ -62,7 +62,7 @@ The capacity refers only to the persons who can benefit from the building.
   This effect extends 1+ log10(size of the lighthouse) regions around the building.
 - The lighthouse gives the occupants (only up to 4 units) information about ship sightings in all ocean regions within a radius of 1 + log10(lighthouse size) regions. The unit must have a perception of at least distance \* 3. A report from an ocean region three hexes away can only be obtained if the lighthouse is at least size 100 and the unit has at least perception 9.
 
-[](){ #mine-fr-id }
+[](){ #mine-id }
 
 ## Mine
 

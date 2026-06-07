@@ -36,9 +36,9 @@ Erschafft weitere Einheiten und lernt ein paar Talente, die ihr in den nächsten
 
 Hier ist vor allem [Unterhaltung] essenziell, um Geld zu verdienen.
 Ohne entsprechendes Silber wird eure Partei nicht wachsen können.
-Auch [Steuereintreiber] sind eine gute Einnahmequelle;
+Auch [Steuereintreiber][silver-steuereintreiben-id] sind eine gute Einnahmequelle;
 hierfür braucht man z.B. Metalle ([vom-bergbau]) oder Holz ([Holzfällen][tief-im-wald]), um Waffen wie Schwerter oder Speere zu bauen;
-und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben][steuereintreiben], [Waffentalente][kampftalente]).
+und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben][silver-steuereintreiben-id], [Waffentalente][kampftalente]).
 
 [Wahrnehmung] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird.
 Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl][diebstahl-der-unehrliche-weg] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen.
@@ -143,7 +143,6 @@ Weiterlesen: [Xontormia-Express].
 [ECheck]: ./echeck.md
 [Zugvorlage]: ./commands.md
 [Unterhaltung]: ./cmd-entertain.md
-[Steuereintreiber]: ./cmd-tax.md
 [Wahrnehmung]: ./stealth.md
 [Burgen]: ./castles.md
 [Burgenbau]: ./buildings.md

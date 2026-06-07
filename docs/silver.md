@@ -9,7 +9,7 @@ alias: money
 !!! note "Note"
     In Eressea, the basic unit of the monetary system is the **silver**.
 
-Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working], [entertaining] the peasants, [collecting taxes], or [trading].
+Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working][cmd-work-id], [entertaining] the peasants, [collecting taxes], or [trading].
 
 Working is more of a type of stopgap, units working will earn barely enough to feed themselves. You can make quite a lot of money with entertainment and taxation. Especially at the beginning of your ventures, trading might be the biggest source of income, profits of some thousands of silver are possible, provided the regions have the appropriate luxury goods.
 
@@ -55,13 +55,15 @@ If units master the [endurance][skill-endurance-id] skill at a high level, they 
 Peasants also need sustenance, which they normally earn themselves and take from the regional supply. If the regional supply is exhausted, the peasants starve and die. This can have various causes:
 
 - The region is overpopulated. In a plain without trees, where each peasant earns 12 silver, only 12000 peasants can survive in the long term, because only 10000 peasants work, earning 120000 silver, which is only enough for 12000 peasants. In the short term, the number of peasants can be higher as long as there is still enough silver in the region's supply.
-- The region is not overpopulated, but [working] player units occupy some of the jobs.
+- The region is not overpopulated, but [working][cmd-work-id] player units occupy some of the jobs.
 - The peasants earn enough silver, but player units collect [taxes][collecting taxes] before the peasants can provide for themselves.
 - There are also rumors of special events that can temporarily or permanently reduce the fertility of a region, which means that the peasants can no longer earn their own living.
 
 Starved peasants can later be resurrected as [undead][undead].
 
 ## Income
+
+[](){ #silver-work-id }
 
 ### Work
 
@@ -217,7 +219,6 @@ Continue reading: [Material pool].
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
 [collecting taxes]: ./cmd-tax.md
-[working]: ./cmd-work.md
 [entertaining]: ./cmd-entertain.md
 [recruit]: ./cmd-recruit.md
 [reserved]: ./cmd-reserve.md

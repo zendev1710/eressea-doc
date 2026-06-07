@@ -170,13 +170,13 @@ Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für norma
 
 Der Wert, der als "Stufe" angegeben wird, ist zunächst einmal das Mindesttalent, bei dem die Einheit den Zauber bekommt.
 
-Manche Zauber haben feste Wirkungen und Kosten. Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden. Für Dinge wie [Magieresistenz] kann sie trotzdem wichtig sein. *Ring der Unsichtbarkeit* wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.
+Manche Zauber haben feste Wirkungen und Kosten. Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden. Für Dinge wie [Magieresistenz][magic-magieresistenz-id] kann sie trotzdem wichtig sein. *Ring der Unsichtbarkeit* wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.
 
 Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet sich von der Stufe ab, auf der gezaubert wurde. Die Details hängen vom jeweiligen Zauber ab. Manchmal betrifft es die Wirkungsdauer, manchmal die Anzahl der verzauberten Personen und so weiter.
 
 Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
 
-Durch einen [Ring der Macht], [magierturm][magierturm] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
+Durch einen [Ring der Macht], [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
 
 Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer] beeinflusst.
 
@@ -290,6 +290,8 @@ Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig
 
 [Kröte]: ./toad.md
 
+[](){ #magic-magieresistenz-id }
+
 ## Magieresistenz
 
 Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:
@@ -306,7 +308,7 @@ Bei bestimmten direkten Verzauberungen wird sie zusätzlich von der Erfahrung de
 - 50% + 5% \* (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)
 - nie unter 2%, nie über 98%
 
-Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen][magieresistenz]. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
+Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen][war-table-magieresistenz-id]. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
 
 Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.
 
@@ -314,11 +316,13 @@ Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen 
 
 Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch][chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
 
-Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][magieresistenz] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
+Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][war-table-magieresistenz-id] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
+
+[](){ #magic-magierturm-id }
 
 ## Magierturm
 
-Ein [Magierturm][magierturm] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
+Ein [Magierturm][magierturm-id] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
 
 ## Vertraute
 
@@ -384,5 +388,4 @@ Weiterlesen: [[magiegebiete]].
 [Zauberbeschreibungen]: ./spells-descriptions.md
 
 [Fernzauber]: #fernzauber
-[Magieresistenz]: #magieresistenz
 [Wahrscheinlichkeit für Patzer]: #patzer

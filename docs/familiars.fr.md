@@ -49,7 +49,7 @@ Caractéristiques d'un Aigle.
 Les [Démons][demons-fr-id] sont cruels et imprévisibles.
 Ils dévorent les paysans des alentours et ne cessent de surprendre par l'apparition ou la perte de nouvelles capacités.  
 
-Caractéristiques d'un Démon : voir [Modificateurs de compétences][modificateurs-de-competences].
+Caractéristiques d'un Démon : voir [Modificateurs de compétences][modificateurs-de-competences-id].
 
 ### Dauphin
 
@@ -138,7 +138,7 @@ Caractéristiques d'un Fantôme.
 
 Les [Gobelins][gobelins] sont lâches et sournois, ils préfèrent se cacher plutôt que d'agir.  
 
-Caractéristiques d'un Gobelin : voir [Modificateurs de compétences][modificateurs-de-competences].
+Caractéristiques d'un Gobelin : voir [Modificateurs de compétences][modificateurs-de-competences-id].
 
 ### Chat de l'Enfer
 
@@ -355,6 +355,8 @@ Caractéristiques d'un Loup.
 | Magie | Espionnage | Tactique | Discrétion | Perception | Endurance | Combat à mains nues |
 |:-----:|:----------:|:--------:|:----------:|:----------:|:---------:|:-------------------:|
 |  +0   |     +0     |    +0    |     +0     |     +2     |    +0     |         +0          |
+
+[](){ #familiars-modificateurs-de-competences-id }
 
 ## Modificateurs de compétences
 

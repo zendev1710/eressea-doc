@@ -3,7 +3,7 @@
 alias: sorts-tybied
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Sorts Tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -92,6 +92,8 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 |   N aura   |  3   | Post-c. |  5   |   |   |
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
+
+[](){ t-spell-resistance-a-la-magie-id }
 
 ### Résistance à la magie
 

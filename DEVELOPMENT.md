@@ -20,8 +20,9 @@
    2. [mkdocs-alias-plugin](https://github.com/EddyLuten/mkdocs-alias-plugin?tab=readme-ov-file#installation): `pip install mkdocs-alias-plugin`
    3. [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects) (optional): `pip install mkdocs-redirects`
    4. [mkdocs-table-reader](https://github.com/timvink/mkdocs-table-reader-plugin): `pip install mkdocs-table-reader-plugin`
-   5. [mkdocs-autorefs](https://github.com/mkdocstrings/autorefs):`pip install mkdocs-autorefs`
+   5. [mkdocs-autorefs](https://github.com/mkdocstrings/autorefs): `pip install mkdocs-autorefs`
 7. [Install Task](https://taskfile.dev/docs/installation#winget)
+8. [Install Coreutils for Windows](https://github.com/microsoft/coreutils)(`winget install Microsoft.Coreutils`)
 
 ## Building the web site
 

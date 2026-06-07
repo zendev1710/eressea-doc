@@ -215,7 +215,7 @@ Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inf
 
 Certaines créatures ou armes peuvent également infliger des dégâts magiques.  
 Une armure normale est inefficace contre les dégâts magiques.  
-Seule compte la [résistance à la magie][resistance-a-la-magie], qui peut être augmentée par certains équipements et sorts.  
+Seule compte la [résistance à la magie][war-table-resistance-a-la-magie-id], qui peut être augmentée par certains équipements et sorts.  
 
 La compétence d'[endurance][skill-endurance-fr-id]{title="Endurance"} permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][table-endurance-fr-id]).
 
@@ -266,9 +266,11 @@ les valeurs de compétence non modifiées comptent ici.
 
 Voir aussi : [tables de combat].
 
+[](){ #war-combat-a-mains-nues-id }
+
 #### Combat à mains nues
 
-:   Les personnes ne possédant pas de compétence correspondant à leur arme sont également considérées comme désarmées.  
+:   Les personnes ne possédant pas de compétence correspondant à leur arme sont considérées comme désarmées.  
     Les personnes désarmées combattent avec un score de -2.  
     Les combattants à distance qui entrent en combat au corps à corps et ne peuvent accéder à une arme de corps à corps (et à la compétence correspondante) se défendent avec un score de -2.  
     Ils peuvent toujours attaquer avec leur arme à distance.  
@@ -472,7 +474,7 @@ Après la bataille, on compte les morts, et tout le matériel utilisable des uni
 Les unités blessées au combat restent blessées.  
 Ceci est indiqué dans le rapport.  
 Avec le temps, elles guérissent.  
-Elles régénèrent généralement 5 % (certaines races [[modificateurs-de-competences|davantage]]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
+Elles régénèrent généralement 5 % (certaines races [davantage][modificateurs-de-competences-id]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
 Les unités mortes-vivantes ne se régénèrent pas.
 
 Si la région où les combats ont eu lieu était [[alliances|gardée]] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [[cmd-help|`HELP GUARD`]] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  

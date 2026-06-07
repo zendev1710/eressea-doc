@@ -30,7 +30,7 @@ On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte d
 
 ## What should my troops learn?
 
-Les troupes apprennent [l'endurance][[skill-endurance-id]] et la [maîtrise des armes].
+Les troupes apprennent [l'endurance][skill-endurance-id] et la [maîtrise des armes].
 Selon la race, il arrive un moment où il est plus avantageux d'apprendre l'endurance que la Maîtrise des armes.
 Finalement, chaque nouveau niveau de maîtrise des armes coûte autant de temps d'apprentissage que plusieurs niveaux d'endurance.
 Tu peux calculer quand ce point est atteint, ou te baser sur la maîtrise des armes de tes ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.
@@ -39,7 +39,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## What do I absolutely need in the first round?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-id] et peut-être une unité en [discrétion][skill-discretion-id] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
+Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-id] et peut-être une unité en [discrétion][skill-stealth-id] dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.
 
 ## Buy merchandise
 

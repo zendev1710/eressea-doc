@@ -81,7 +81,7 @@ This means that you can turn a forest into a plain by felling trees or, converse
 | [Forest][forest]       |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | [Plain][plain]         |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 
-If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work][work].  
+If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work][cmd-work-id].  
 Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.  
 Furthermore, no more player units can work in this region if all workplaces are occupied.  
 

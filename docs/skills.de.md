@@ -133,7 +133,7 @@ Mehr dazu im Kapitel über [Geld].
 
 ### Heimlich & Co
 
-[Spionage][skill-spionage-id], [Tarnung] und [Wahrnehmung] drehen sich um Heimlichkeiten.
+[Spionage][skill-spionage-id], [Tarnung][tarnung-id] und [Wahrnehmung] drehen sich um Heimlichkeiten.
 Sie haben ihre eigenen Kapitel.
 
 ### Fortbewegung
@@ -167,7 +167,6 @@ Weiterlesen: [Liste der Talente].
 [Produktion]: ./production.md
 [5]: ./alchemy.md
 [Geld]: ./silver.md
-[Tarnung]: ./stealth.md
 [Wahrnehmung]: ./stealth.md
 [Reisen]: ./travel.md
 [Kampf]: ./war-tables.md

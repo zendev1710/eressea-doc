@@ -161,9 +161,9 @@ Gegen Armbrüste wirkt eine Rüstung nur zur Hälfte (abgerundet).
 
 Manche Wesen oder Waffen sind auch in der Lage magischen Schaden zu verursachen.
 Gegen magischen Schaden ist eine normale Rüstung wirkungslos.
-Es zählt nur die [Magieresistenz][magieresistenz] welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.
+Es zählt nur die [Magieresistenz][war-table-magieresistenz-id] welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.
 
-Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle][ausdauer]).
+Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle][table-endurance-fr-id]).
 
 ### Fernkampf
 

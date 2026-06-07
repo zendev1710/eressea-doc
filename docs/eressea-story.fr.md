@@ -22,7 +22,7 @@ Mais le jeu continue.
 - Alex Schröder
   Développeur de l'Atlantide version allemande.
   Le code Atlantis 1.0 et celui de la version allemande sont disponibles gratuitement, contrairement au code Eressea basé sur celui-ci.
-- Christian Schlittchen ([Corwin][corwin])
+- Christian Schlittchen ([Corwin][corwin-fr-id])
   a développé Eressea et fait tourner le jeu pendant longtemps (jusqu'au tour 289, vers mi-2002).
 - Katja Zedel ([Katze (Designerin)][katja-zedel-fr-id])
   était la développeuse et directrice du jeu d'Eressea avec Corwin.

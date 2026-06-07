@@ -17,24 +17,24 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 \* außerdem 2 Mallorn und 2 Laen pro Größenpunkt
 
-| Gebäude                      | Baukosten |      |       |        | Talent | Unterhalt |            | Max.  | Kapazität   |
-|------------------------------|-----------|------|-------|--------|--------|-----------|------------|-------|-------------|
-|                              | Stein     | Holz | Eisen | Silber |        | Silber    | Ressourcen |       |             |
-| [Leuchtturm][leuchtturm]     | 2         | 1    | 1     | 100    | 3      | 100       | --         | keins | 4 Einheiten |
-| [Bergwerk][bergwerk]         | 5         | 10   | 1     | 250    | 4      | 500       | --         | keins | Größe       |
-| [Steinbruch][steinbruch]     | 1         | 5    | 1     | 250    | 2      | 250       | --         | keins | Größe       |
-| [Sägewerk][sagewerk]         | 5         | 5    | 3     | 200    | 3      | 250       | --         | keins | Größe       |
-| [Schmiede][schmiede]         | 5         | 5    | 2     | 200    | 3      | 300       | 1 Holz     | keins | Größe       |
-| [Pferdezucht][pferdezucht]   | 2         | 4    | 1     | 100    | 2      | 150       | --         | keins | Größe       |
-| [Hafen][hafen]               | 5         | 5    | --    | 250    | 3      | 250       | --         | 25    | Größe       |
-| [Karawanserei][karawanserei] | 1         | 5    | 1     | 500    | 2      | 3000      | 2 Pferde   | 10    | Größe       |
-| [Akademie][akademie]         | 5         | 5    | 1     | 500    | 3      | 1000      | --         | 25    | Größe       |
-| [Magierturm][magierturm]\*   | 5         | 3    | 3     | 500    | 5      | 1000      | --         | 50    | 2 Personen  |
-| [Damm][damm]                 | 5         | 10   | 1     | 500    | 4      | 1000      | 3 Holz     | 50    | Größe       |
-| [Tunnel][tunnel-de-id]       | 10        | 5    | 1     | 300    | 6      | 100       | 2 Stein    | 100   | Größe       |
-| [Taverne][taverne]           | 4         | 3    | 1     | 200    | 2      | 5\*Größe  | --         | keins | Größe       |
-| [Monument][monument-de-id]   | 1         | 1    | 1     | 400    | 4      | --        | --         | keins | Größe       |
-| [Steinkreis]                 | 5         | 5    | --    | --     | 2      | --        | --         | 100   | 3 Personen  |
+| Gebäude                       | Baukosten |      |       |        | Talent | Unterhalt |            | Max.  | Kapazität   |
+|-------------------------------|-----------|------|-------|--------|--------|-----------|------------|-------|-------------|
+|                               | Stein     | Holz | Eisen | Silber |        | Silber    | Ressourcen |       |             |
+| [Leuchtturm][leuchtturm]      | 2         | 1    | 1     | 100    | 3      | 100       | --         | keins | 4 Einheiten |
+| [Bergwerk][bergwerk]          | 5         | 10   | 1     | 250    | 4      | 500       | --         | keins | Größe       |
+| [Steinbruch][steinbruch]      | 1         | 5    | 1     | 250    | 2      | 250       | --         | keins | Größe       |
+| [Sägewerk][sagewerk]          | 5         | 5    | 3     | 200    | 3      | 250       | --         | keins | Größe       |
+| [Schmiede][schmiede]          | 5         | 5    | 2     | 200    | 3      | 300       | 1 Holz     | keins | Größe       |
+| [Pferdezucht][pferdezucht]    | 2         | 4    | 1     | 100    | 2      | 150       | --         | keins | Größe       |
+| [Hafen][hafen]                | 5         | 5    | --    | 250    | 3      | 250       | --         | 25    | Größe       |
+| [Karawanserei][karawanserei]  | 1         | 5    | 1     | 500    | 2      | 3000      | 2 Pferde   | 10    | Größe       |
+| [Akademie][akademie]          | 5         | 5    | 1     | 500    | 3      | 1000      | --         | 25    | Größe       |
+| [Magierturm][magierturm-id]\* | 5         | 3    | 3     | 500    | 5      | 1000      | --         | 50    | 2 Personen  |
+| [Damm][damm]                  | 5         | 10   | 1     | 500    | 4      | 1000      | 3 Holz     | 50    | Größe       |
+| [Tunnel][tunnel-de-id]        | 10        | 5    | 1     | 300    | 6      | 100       | 2 Stein    | 100   | Größe       |
+| [Taverne][taverne]            | 4         | 3    | 1     | 200    | 2      | 5\*Größe  | --         | keins | Größe       |
+| [Monument][monument-de-id]    | 1         | 1    | 1     | 400    | 4      | --        | --         | keins | Größe       |
+| [Steinkreis]                  | 5         | 5    | --    | --     | 2      | --        | --         | 100   | 3 Personen  |
 
 ## Leuchtturm
 
@@ -167,6 +167,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - Lernen in einer Akademie kostet bei nicht kostenpflichtigen Talenten 50 Silber pro Person, bei kostenpflichtigen Talenten das Doppelte der normalen Lernkosten.
 - Eine Akademie funktioniert nur, wenn sie voll ausgebaut ist!
 - Lehrer, die Schüler in einer Akademie lehren, bekommen ebenfalls eine Chance, zu lernen, die je nach Anzahl ihrer Schüler bis zu 1/3 beträgt. Sie müssen dafür nicht selbst in einer Akademie stehen.
+
+[](){ #magierturm-id }
 
 ## Magierturm
 

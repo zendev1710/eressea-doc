@@ -188,7 +188,7 @@ La valeur spécifiée comme "niveau" est initialement le niveau minimum auquel l
 
 Certains sorts ont des effets et des coûts fixes.  
 Ils sont toujours lancés au niveau du sort et ne peuvent pas être modifiés par des paramètres.  
-Cela peut toujours être important pour des choses comme la [résistance à la magie][resistance-a-la-magie].  
+Cela peut toujours être important pour des choses comme la [résistance à la magie][magic-resistance-a-la-magie-id].  
 Le sort **Create A Ring of Invisibility** est toujours lancé au niveau 6 et produit exactement un anneau.  
 
 De nombreux sorts ont des effets et des coûts qui dépendent du niveau.  
@@ -361,6 +361,8 @@ Conséquences possibles (par ordre décroissant de fréquence) :
 
 Les effets spéciaux affectent principalement Gwyrrd (des Ents enragés sont créés) et Draig (des foules de paysans ou d'autres conséquences).
 
+[](){ #magic-resistance-a-la-magie-id }
+
 ## Résistance à la magie
 
 La résistance à la magie d'une unité est la capacité inhérente de chaque personne à résister à un sort lancé contre elle et la gravité avec laquelle une personne est affectée par les dégâts de magie au combat.  
@@ -380,7 +382,7 @@ Pour certains enchantements directs, il est en outre influencé par l'expérienc
 - Jamais en dessous de 2 %, jamais au-dessus de 98 %
 
 <!-- TODO: clarify translation -->
-Au lieu de cela, les bonus supplémentaires des [armes ou armures][resistance-a-la-magie] fonctionnent contre les sorts de combat tels que les boules de feu et les armes considérées comme magiques.  
+Au lieu de cela, les bonus supplémentaires des [armes ou armures][war-table-resistance-a-la-magie-id] fonctionnent contre les sorts de combat tels que les boules de feu et les armes considérées comme magiques.  
 Sinon, seules la protection magique et l’armure naturelle fonctionnent contre les dégâts de magie.  
 
 Même la « matière inanimée » (c'est-à-dire les régions, les bateaux, les bâtiments...), a parfois une résistance magique.  
@@ -394,7 +396,7 @@ Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédicti
 Si le niveau en magie est T12, les chances tombent à 40 %.  
 Si l'unité cible est composée de gobelins, les chances diminuent encore à 35 %.  
 
-Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une [épée en laen][resistance-a-la-magie] * 70 %) = 63 % de cela, soit environ 31 dégâts.  
+Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une [épée en laen][war-table-resistance-a-la-magie-id] * 70 %) = 63 % de cela, soit environ 31 dégâts.  
 
 ## Tour des Mages
 

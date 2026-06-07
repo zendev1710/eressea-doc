@@ -79,7 +79,7 @@ Les avantages d'un phare :
   L'unité doit avoir une perception d'au moins distance × 3.
   Un rapport provenant d'une région océanique située à trois hexagones de distance ne peut être obtenu que si le phare est d'au moins une taille de 100 et que l'unité a au moins une perception de 9.
 
-[](){ #mine-id }
+[](){ #mine-fr-id }
 
 ## Mine
 

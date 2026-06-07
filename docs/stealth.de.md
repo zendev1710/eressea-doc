@@ -3,7 +3,9 @@
 alias: tarnung
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #tarnung-id }
+
 # Tarnung
 
 Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.

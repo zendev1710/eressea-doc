@@ -16,9 +16,11 @@ Herstellen von [Tränken] aus [Kräutern]. Lernen kostet 200 Silber Person. Pro 
 
 Zusammen mit einer Armbrust: kämpfen. Mit Talent Steuereintreiben: Steuern eintreiben.
 
+[](){ #skill-ausdauer-id }
+
 ## Ausdauer
 
-Mit Ausdauer kann eine Einheit im Kampf mehr Trefferpunkte einstecken (siehe [Tabelle][ausdauer]).
+Mit Ausdauer kann eine Einheit im Kampf mehr Trefferpunkte einstecken (siehe [Tabelle][table-endurance-fr-id]).
 
 ## Bergbau
 
@@ -97,6 +99,8 @@ Steine und Katapultmunition (ab Talentstufe 3) produzieren. Pro Person und Talen
 
 Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][vom-bergbau]). Man sieht immer nur, wie viele Steine auf der obersten Schicht liegen. Wenn bis zu einer Tiefe von (Talentstufe Steinbau \* 2) keine Steine mehr vorkommen, sieht man kein eventuelles Steinvorkommen.
 
+[](){ #skill-steuereintreiben-id }
+
 ## Steuereintreiben
 
 Von den Bauern Steuern eintreiben. Pro Talentstufe und bewaffneter (und an dieser Waffe ausgebildete) Person können Einheiten 20 Silber von den Bauern eintreiben.
@@ -111,7 +115,9 @@ Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut 
 
 Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (siehe [Musterung][die-musterung-der-einheiten]). Lernen kostet 200 Silber pro Person.
 
-## [Tarnung]
+[](){ #skill-tarnung-id }
+
+## Tarnung
 
 Die Einheit ist immer getarnt und nur für Einheiten mit gleichem oder größeren Wahrnehmungstalent sichtbar. Erfolgreich getarnte Einheiten können andere Einheiten [beklauen] und [Bewachungen] umgehen.
 
@@ -135,11 +141,10 @@ Bau von Wagen und Katapulten aus Holz. Pro Person und Talentstufe kann aus 5 Hol
 
 Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung]).
 
-Weiterlesen: [Tarnung].
+Weiterlesen: [Tarnung][tarnung-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
-[Tarnung]: ./stealth.md
 [Alchemie]: ./alchemy.md
 [Tränken]: ./alchemy.md
 [Kräutern]: ./herbs.md

@@ -11,7 +11,7 @@ alias: bef-beklaue
 **`BEKLAUE`**` `*`einheit-nr`*  
 
 Mit diesem Befehl wird versucht, die angegebene Einheit zu beklauen.
-Ist das [Tarnungstalent] der Täter höher als die [Wahrnehmung][Tarnungstalent] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem.
+Ist das [Tarnungstalent][skill-tarnung-id] der Täter höher als die [Wahrnehmung][skill-tarnung-id] der Opfer (hierbei zählt das Wahrnehmungstalent der besten Einheit in der Region), merken die Opfer nur, dass sie beklaut worden sind, nicht von wem.
 Die Täter klauen pro Person und Talentstufe Unterschied 50 Silber.
 
 Sind Wahrnehmung der Opfer und Tarnung der Täter gleich hoch, gelingt der Diebstahl nicht und die Opfer schöpfen Verdacht.
@@ -26,11 +26,9 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 ## Siehe auch
 
 - [Geld]
-- [Tarnung und Wahrnehmung]
+- [Tarnung und Wahrnehmung][tarnung-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
 
-[Tarnungstalent]: ./skills-list.md
 [immun]: ./puppy-protection.md
 [Geld]: ./silver.md
-[Tarnung und Wahrnehmung]: ./stealth.md

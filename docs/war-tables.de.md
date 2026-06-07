@@ -3,7 +3,7 @@
 alias: kriegstabellen
 ---
 <!-- properdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Kriegstabellen
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.
@@ -106,6 +106,8 @@ Bemerkungen:
 - Bei [[talente]] bedeutet K = Katapultbedienung, A = Armbrustschießen, B = Bogenschießen, H = Hiebwaffen, S = Stangenwaffen
 - Alle Mallornwaffen erhöhen die Magieresistenz um 15%, alle Laenwaffen und rüstungen um 30%. Details zur Magieresistenz folgen unten
 - Ein Flammenschwert zaubert pro Kampfrunde zusätzlich einen kleinen Feuerball
+
+[](){ #table-ausdauer-id }
 
 ## Ausdauer
 
@@ -216,6 +218,8 @@ Ein Insekt oder ein Dämon mit Kettenhemd kommt hingegen auf einen Rüstungswert
 Das maximal Erreichbare mit konventioneller Ausrüstung ist ein Rüstungswert von 7 mit Plattenpanzer und Schild.
 Mit Laenausrüstung ist sogar ein Rüstungswert von 9 möglich und mit Adamantium gar 10.
 Eine derart gut gepanzerte Einheit ist mit einfachen Waffen wie Schwertern oder Bögen nur schwer zu verwunden, da die Rüstung viel vom Schaden abfangen kann.
+
+[](){ #war-table-magieresistenz-id }
 
 ## Magieresistenz
 

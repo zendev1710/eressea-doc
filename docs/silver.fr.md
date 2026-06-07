@@ -121,6 +121,7 @@ C'est pour cela qu'il est judicieux de construire un château, car cela permet d
 Garder empêche la collecte des taxes (sauf en cas d'utilisation de `HELP`).  
 
 [](){ #silver-divertissement-id }
+
 ### Divertissement
 
 L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans).  
@@ -158,7 +159,7 @@ Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'au
 
 Si la compétence de [discrétion][skill-discretion-id]{title="Stealth"} du voleur est supérieure à la [perception][skill-perception-fr-id]{title="Perception"}de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
-Plus d'information : [le camouflage et le vol][full-discretion-id].  
+Plus d'information : [le camouflage et le vol][discretion-id].  
 
 ## Le commerce
 

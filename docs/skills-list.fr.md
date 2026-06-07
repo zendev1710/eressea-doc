@@ -10,7 +10,7 @@ Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn]].
 
 Elles peuvent être acquises plus rapidement à l'aide d'un [[cmd-teach|maître enseignant]]{title="TEACH"}.  
 
-Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous, à l'exception du [combat à mains nues].
+Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous, à l'exception du [combat à mains nues][skill-combat-a-mains-nues-id]{title="Unarmed combat"}.
 
 ## [[alchimie]]
 
@@ -55,6 +55,8 @@ L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [[
 Cette compétence permet de se battre avec une [[tableaux-relatifs-a-la-guerre#armes-dhast|arme d'hast]].  
 
 Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
+
+[](){ #skill-combat-a-mains-nues-id }
 
 ## Combat à mains nues
 
@@ -362,5 +364,3 @@ Avec un bateau : permet de naviguer.
 Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'équipage.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
-
-[combat à mains nues]: #combat-a-mains-nues

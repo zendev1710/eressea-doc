@@ -9,9 +9,9 @@ alias: races-fr
 En plus des [humains], il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
 Vous devrez en choisir une pour votre [faction].  
 
-Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences] dans certaines compétences, et parfois des capacités spéciales.  
+Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences-id] dans certaines compétences, et parfois des capacités spéciales.  
 
-Chaque race a des [coûts de recrutement][modificateurs-de-competences] différents.  
+Chaque race a des [coûts de recrutement][modificateurs-de-competences-id] différents.  
 
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [trolls][trolls-fr-id]{title="Trolls"}, les [gobelins] et divers monstres constituent des exceptions.
@@ -20,7 +20,7 @@ Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jou
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 
-Pour un aperçu rapide, consultez le [tableau des modificateurs raciaux][modificateurs-de-competences].
+Pour un aperçu rapide, consultez le [tableau des modificateurs de compétences][modificateurs-de-competences-id].
 
 [](){ #demons-fr-id }
 
@@ -336,7 +336,7 @@ Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forter
 - Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique][tactique]{title="Tactics"}.
 - Les [mages][magie] nains régénèrent leur aura beaucoup plus lentement que les autres.
 
-Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences].
+Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
 

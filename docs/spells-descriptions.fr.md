@@ -2307,7 +2307,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 `CAST [LEVEL n] "Eternal Rest"`  
 
-[](){ #r-sistance-la-magie-id }
+[](){ #spell-resistance-a-la-magie-id }
 
 ### Résistance à la magie
 

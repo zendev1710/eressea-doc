@@ -382,6 +382,8 @@ Le maximum atteignable avec un équipement conventionnel est une protection de 7
 Avec une armure de Laen, une protection de 9 est même possible, et avec de l'adamantium, une protection de 10.  
 Une unité aussi bien protégée est difficile à blesser avec des armes simples comme des épées ou des arcs, car l'armure absorbe une grande partie des dégâts.  
 
+[](){ #war-table-resistance-a-la-magie-id }
+
 ## Résistance à la magie
 
 La résistance à la magie est un attribut spécial dépendant de la race, de l'équipement et de certains sorts.  

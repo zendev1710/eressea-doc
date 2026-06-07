@@ -315,7 +315,7 @@ Weiterlesen: [[kraeuter]].
 [^1]: Wirkt auf die Einheit, aber alle Dämonen der Partei in der Region bedienen sich davon, wenn etwas übrig ist.  
     Es reicht also, eine Einheit (pro Region) damit zu bestücken, solange sie genug Bauernblut für alle Dämonen trinkt.
 [^2]: Der Trank wird auf eine andere Einheit mit dem Befehl `BENUTZE Dumpfbackenbrot <einheit-nr>` angewandt.  
-    Hierbei ist zu beachten: Ist das [[tarnung|Tarnungstalent]] des Anwenders kleiner oder gleich [Wahrnehmung][wahrnehmung] + 2 des Opfers, so geht die Anwendung fehl.  
+    Hierbei ist zu beachten: Ist das [Tarnungstalent][skill-tarnung-id] des Anwenders kleiner oder gleich [Wahrnehmung][wahrnehmung] + 2 des Opfers, so geht die Anwendung fehl.  
     Im Falle dass die Anwendung schief geht, bleibt das [Dumpfbackenbrot][dumpfbackenbrot] beim Anwender und er bekommt eine Fehlermeldung.
 
 <!-- From [https://kwiki.eressea.de/index.php?title=Tränke&oldid=16967] -->

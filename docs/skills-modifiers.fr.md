@@ -3,7 +3,9 @@
 alias: modificateurs-de-competences
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #modificateurs-de-competences-id }
+
 # Modificateurs de compétences
 
 Les différentes [[races]] ont, en plus de leurs capacités spéciales, des coûts de recrutement (silver) et des modificateurs différents sur les [[competences]]  

@@ -245,6 +245,14 @@ Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]] et [[cmd-make|`MAKE SEEDS`]] (voir [Production][production-fr-id]) et [[cmd-plant]].  
 Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
+## Maçonnerie
+
+<!-- cspell:disable -->
+*Masonry (EN), Burgenbau (DE)*.
+<!-- cspell:enable -->
+
+Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
+
 ## [[magie]]
 
 <!-- cspell:disable -->
@@ -255,13 +263,6 @@ Permet de lancer des sorts de combat et d'autres types de sorts.
 
 L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tour, en fonction du niveau.
 
-## Maçonnerie
-
-<!-- cspell:disable -->
-*Masonry (EN), Burgenbau (DE)*.
-<!-- cspell:enable -->
-
-Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
 [](){ #skill-melee-fr-id }
 
 ## Mêlée

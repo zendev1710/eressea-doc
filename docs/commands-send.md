@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: sending-orders
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Sending orders
 
 ## What you need to play Eressea
@@ -39,7 +41,7 @@ The server uses the send time as the basis for overwriting old orders, not the r
 Please note: The trains must appear as normal text (text/plain) in the text of the email (mail body).  
 Alternatively, they can be in one `.txt` file can be sent as an attachment, but then the email must otherwise be empty (no text in the email body).  
 Otherwise the orders will not be recognized by the game server and will be ignored!  
-There are various [tools] that make entering orders easier, especially for larger factions.  
+There are various [tools][how-to-submit-orders-and-what-you-get-in-return] that make entering orders easier, especially for larger factions.  
 
 Be careful when using web interfaces such as GMX or GMail!  
 These have proven to be problematic in the past because emails were formatted incorrectly.  
@@ -197,8 +199,6 @@ The date of the email (Date: header) is used as the order.
 Continue reading: [[hints]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
-
-[tools]: #how-to-submit-orders-and-what-you-get-in-return
 
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net

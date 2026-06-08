@@ -163,7 +163,9 @@ Ils peuvent attaquer à mains nues (et sont toujours considérés comme [[arme-e
 
 Les Goules peuvent muter en [Fantômes][fantomes].
 
-### Juju Zombies
+[](){ #juju-zombies-fr-id }
+
+### Juju-Zombies
 
 <!-- TODO : properties ? -->
 
@@ -177,17 +179,14 @@ Ceux-ci n'existent que dans les anciens mondes, ou peut-être plus du tout.
 
 ### Squelettes
 
-Les Squelettes peuvent muter en [Seigneurs Squelettes].
+Les Squelettes peuvent muter en [Seigneurs Squelettes][seigneurs-squelettes].
 
 ### Zombies
 
-Les Zombies peuvent muter en [Juju Zombies].
+Les Zombies peuvent muter en [Juju Zombies][juju-zombies-fr-id].
 
 ## Voir aussi
 
 - [[familiers]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->
-
-[Seigneurs Squelettes]: #seigneurs-squelettes
-[Juju Zombies]: #juju-zombies

@@ -176,7 +176,7 @@ But there is a catch: the aura costs of the spells increase. The first spell the
 The second costs twice as much, the third four times as much, the fourth as eight times, etc.  
 
 Combat spells are treated separately; they do not increase the cost of normal spells or other combat spells and always only cost the specified aura.  
-[Ranged Spells] also increase the casting cost.  
+[Ranged Spells][ranged-spells] also increase the casting cost.  
 
 ### Caster level
 
@@ -200,7 +200,7 @@ Using a [[ring-of-power]], [Mage Tower][mage-tower-id] or [Bless Stone Circle][b
 This bonus is added to the specified level.
 
 If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's skill value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).  
-One reason this isn't always desirable is that the level also affects the [probability of blunders].  
+One reason this isn't always desirable is that the level also affects the probability of [blunders][blunder].  
 
 This modification also works on combat spells:
 
@@ -443,6 +443,3 @@ That's why there is now a [[list-of-spells]] and [[description-of-spells]].
 Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
-
-[Ranged Spells]: #ranged-spells
-[probability of blunders]: #blunder

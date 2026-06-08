@@ -10,7 +10,7 @@ Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, u
 
 ## Die Seiten in einer Schlacht
 
-Mit dem Befehl [[bef-attackiere]] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde].
+Mit dem Befehl [[bef-attackiere]] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde][die-taktikerrunde].
 
 Die angreifende Seite besteht aus allen Einheiten, welche `ATTACKIERE`-Befehle gegen eine oder mehrere Einheiten der verteidigenden Partei gegeben haben.
 
@@ -19,9 +19,9 @@ Die verteidigende Seite besteht aus den Einheiten der verteidigenden Partei, die
 Es gibt also unterschiedliche Gründe, warum eine Einheit am Kampf teilnimmt. Diese sind in der Reihenfolge ihrer Priorität:
 
 1. Die kampfbereite Einheit greift eine andere Einheit an. Dann nimmt sie in jedem Fall am Kampf teil.
-2. Die Einheit wird von einer anderen Einheit angegriffen. Dann gliedert sie sich entsprechend ihres Kampfstatus in die [Kampfreihen] ein.
-3. Eine Einheit aus der eigenen Partei wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie weder `KÄMPFE NICHT` noch `KÄMPFE FLIEHE` gesetzt hat. In letzterem Fall kommt sie nicht auf die Idee, zu [flüchten], da sie ja nicht selbst bedroht ist.
-4. Eine Einheit aus einer verbündeten Partei (also einer Partei, der man `HELFE KÄMPFE` gesetzt hat) wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie nicht `KÄMPFE NICHT` oder `KÄMPFE FLIEHE` gesetzt hat. Wiederum wird eine Einheit mit `KÄMPFE FLIEHE` nicht [flüchten], da sie keiner direkten Bedrohung ausgesetzt ist.
+2. Die Einheit wird von einer anderen Einheit angegriffen. Dann gliedert sie sich entsprechend ihres Kampfstatus in die [Kampfreihen][die-schlacht] ein.
+3. Eine Einheit aus der eigenen Partei wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie weder `KÄMPFE NICHT` noch `KÄMPFE FLIEHE` gesetzt hat. In letzterem Fall kommt sie nicht auf die Idee, zu [flüchten][die-flucht], da sie ja nicht selbst bedroht ist.
+4. Eine Einheit aus einer verbündeten Partei (also einer Partei, der man `HELFE KÄMPFE` gesetzt hat) wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie nicht `KÄMPFE NICHT` oder `KÄMPFE FLIEHE` gesetzt hat. Wiederum wird eine Einheit mit `KÄMPFE FLIEHE` nicht [flüchten][die-flucht], da sie keiner direkten Bedrohung ausgesetzt ist.
 
 Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verteidiger nicht selber attackiert hat*. Angegriffene verteidigen sich mit dem Rest der Partei, wenn dieser sich nicht explizit aus dem Kampf heraushält. Für einen Angriff spielt der Kampfstatus primär keine Rolle: außer Verteidigern werden nur solche Einheiten in den Kampf verwickelt, die einen [[bef-attackiere]] Befehl gegeben haben. Einheiten, die jedoch [`KÄMPFE NICHT`][`KÄMPFE`] oder [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben, können aber nicht angreifen.
 
@@ -98,7 +98,7 @@ Für die Verteidigung benötigen sie aber eine Waffe (und ein passendes Kampftal
 
 Während des Kampfes wird die Waffe nicht mehr gewechselt, es sei denn, es kann eine bessere Waffe von einer Person aus der gleichen Einheit übernommen werden, die bereits gestorben ist (die überlebenden Kämpfer benutzen jeweils die besten verfügbaren Waffensets).
 
-Ein Fernkämpfer, der plötzlich in der ersten Reihe angegriffen wird, muss zu einer Nahkampfwaffe greifen (sofern er eine besitzt und das entsprechende Talent zumindest auf Stufe 1 hat), sonst verteidigt er sich [ohne Waffe].
+Ein Fernkämpfer, der plötzlich in der ersten Reihe angegriffen wird, muss zu einer Nahkampfwaffe greifen (sofern er eine besitzt und das entsprechende Talent zumindest auf Stufe 1 hat), sonst verteidigt er sich [ohne Waffe][boni-und-mali].
 
 **Beispiele:** Eine Einheit mit 20 Personen hat 15 Schwerter, 10 Schilde und 5 Kettenhemden.
 Dann werden 5 Personen mit Schwert, Schild und Kettenhemd kämpfen, 5 weitere mit Schwert und Schild, 5 nur mit einem Schwert und die letzten 5 Kämpfer bleiben unbewaffnet.
@@ -183,7 +183,7 @@ Katapulte schießen immer in der ersten Runde (das kann die Taktikrunde oder Run
 Gegen Fernkampfwaffen parieren angegriffene Personen nur mit ihrem halben Talent.
 Einheiten in der ersten Reihe verteidigen sich aber mit ihrem vollem Talentwert, wenn die Fernkämpfereinheit auch in der ersten Reihe steht.
 
-**Achtung!** Wenn ein Fernkämpfer in die erste Reihe gerät (z.B. weil diese [überrannt][Kampfreihen] wurde), muss er sich mit einer Nahkampfwaffe verteidigen.
+**Achtung!** Wenn ein Fernkämpfer in die erste Reihe gerät (z.B. weil diese [überrannt][die-schlacht] wurde), muss er sich mit einer Nahkampfwaffe verteidigen.
 Wenn er diese nicht hat oder nicht damit umgehen kann (also sein entsprechendes Talent kleiner als 1 ist), verteidigt er sich [unbewaffnet]!
 
 Katapulte benötigen Munition.
@@ -405,8 +405,3 @@ Weiterlesen: [[allianz]].
 [MACHE Katapultmunition]: ./cmd-make.md
 [bef-bewache]: ./cmd-guard.md
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md
-
-[ohne Waffe]: #boni-und-mali
-[Taktikerrunde]: #die-taktikerrunde
-[Kampfreihen]: #die-schlacht
-[flüchten]: #die-flucht

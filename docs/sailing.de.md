@@ -8,7 +8,7 @@ alias: schiffsreise
 
 Nur mit [Schiffen] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen. Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
 
-Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
+Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden][schiffsschaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
 
 Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [[bef-helfe]] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
 
@@ -43,7 +43,7 @@ Drachenschiffgeschwindigkeit
 | Kapitän    | 2 | 6 | 18 | 54 | 162 |
 | Reichweite | 5 | 6 | 7  | 8  | 9   |
 
-Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passiert dies auf See (z.B. durch einen Kampf oder Einheiten verhungerten wegen Silbermangel), treibt es steuerlos umher, bis es an eine Küstenregion trifft. Dabei nimmt es ständig [Schaden], so dass es nach kurzer Zeit versinken wird.
+Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passiert dies auf See (z.B. durch einen Kampf oder Einheiten verhungerten wegen Silbermangel), treibt es steuerlos umher, bis es an eine Küstenregion trifft. Dabei nimmt es ständig [Schaden][schiffsschaden], so dass es nach kurzer Zeit versinken wird.
 
 Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
@@ -100,7 +100,6 @@ Weiterlesen: [Produktion].
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
 [Schiffen]: ./ships.md
-[Schaden]: #schiffsschaden
 [bef-helfe]: ./cmd-help.md
 [bef-folge]: ./cmd-follow.md
 [Schiffe]: ./ships.md

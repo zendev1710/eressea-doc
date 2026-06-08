@@ -11,10 +11,10 @@ The faction of monsters is currently the only non-player character (NPC) faction
 It had the faction ID 0, but since around round 572 it has had the ID (ii). Why actually (ii)? If you convert ii from Base36 to the decimal system, you get 666.  
 
 There are many different monster races with different characteristics and abilities.  
-The most common are the various [Undead] as well as [Dragons][known-dragons] and their followers.  
+The most common are the various [Undead][known-undead] as well as [Dragons][known-dragons] and their followers.  
 
 Some monster types are rather rare, if not unique.
-Others, such as the [braineaters], are (almost) only found in certain areas.  
+Others, such as the [braineaters][braineaters], are (almost) only found in certain areas.  
 
 In certain circumstances, players can also own monster units (e.g. skeletons).
 
@@ -54,7 +54,7 @@ They hatch from eggs as young dragons, later develop into dragons and further in
 There are rumors that dragons can also reach Eressea from the Sphere of Chaos.  
 
 Dragons are particularly unpleasant because they drive away and eat farmers.  
-Often the farmers killed in this way later return as [Undead].  
+Often the farmers killed in this way later return as [Undead][known-undead].  
 
 Dragons can learn different skills and thus become more dangerous.
 
@@ -117,13 +117,15 @@ Until now, seven types of Undead are known.
 
 ### Ghouls
 
-Ghouls mutate into [Ghosts].
+Ghouls mutate into [Ghosts][ghosts].
 
-### Juju Zombies
+[](){ #juju-zombies-id }
+
+### Juju-Zombies
 
 ### Skeletons
 
-Skeletons mutate into [Skeleton Lords].
+Skeletons mutate into [Skeleton Lords][skeleton-lords].
 
 ### Skeleton Lords
 
@@ -133,7 +135,7 @@ These are obsolete, only exist in the old worlds, if at all.
 
 ### Zombies
 
-Zombies mutate into [Juju Zombies].
+Zombies mutate into [Juju Zombies][juju-zombies-id].
 
 ## Shadow Monsters
 
@@ -171,8 +173,4 @@ Shadow Master's victims can even get the equivalent of a week's worth of learnin
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/en&oldid=8052] -->
 
-[Undead]: #known-undead
-[Braineaters]: #braineaters
-[Ghosts]: #ghosts
-[Skeleton Lords]: #skeleton-lords
-[Juju Zombies]: #juju-zombies
+Juju Zombies

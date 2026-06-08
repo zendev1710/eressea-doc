@@ -36,7 +36,7 @@ Units in a castle are protected by its walls, namely one person is protected per
 Only the protected persons benefit from the bonus that a castle gives its occupants in the event of a raid (for more information, see the [[war]] chapter, in particular the list of [bonuses and penalties][bonuses-and-mali]).  
 Each size unit of the castle requires a stone.  
 
-A larger castle improves the population's income: all workers and peasants receive a bonus when they work, which depends on the size of the largest castle in a region (see also the [summary table]), and the owner of the largest castle receives a share of the profit when other players sell trade goods.  
+A larger castle improves the population's income: all workers and peasants receive a bonus when they work, which depends on the size of the largest castle in a region (see also the [summary table][castles-overview-id]), and the owner of the largest castle receives a share of the profit when other players sell trade goods.  
 
 ## Foundation
 
@@ -96,5 +96,3 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 Continue reading: [[other-buildings]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
-
-[summary table]: #overview

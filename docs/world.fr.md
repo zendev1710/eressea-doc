@@ -82,7 +82,7 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire.  
 Les paysans ont également besoin [[argent|d'argent]] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail][travail].  
-Les plus grands [[chateaux]] donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
+Les plus grands [châteaux][chateaux]{title="Castle"} donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
 Le type de terrain détermine également quelles [[plantes]] peuvent pousser dans la région.  

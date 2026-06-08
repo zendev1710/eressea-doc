@@ -13,7 +13,7 @@ Il se conclut par le nombre de factions et le nombre de nouveaux joueurs.
 
 Il est envoyé avec le rapport sous forme de fichier `.txt` et, comme son nom l'indique, apparaît chaque semaine.
 
-## Exemple de rapport hebdomadaire#1000
+## Exemple de rapport hebdomadaire
 
 Eressea dans la première semaine du mois de la Tempête de Lune en l'an 31 du Deuxième Âge.
 

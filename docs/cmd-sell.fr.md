@@ -12,7 +12,7 @@ alias: cmd-sell-fr
 **`SELL`**` ALL `*`produit de luxe`*  
 
 L'unité compétente en [commerce][commerce]{title="Trade"} peut utiliser cet ordre pour vendre aux agriculteurs les produits de luxe qu'elle possède.  
-Cela n'est possible que si, premièrement, il y a un poste de commerce ou un [[chateaux|château de plus grande taille]] dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.  
+Cela n'est possible que si, premièrement, il y a un poste de commerce ou un [château de plus grande taille][chateaux]{title="Castle"} dans la région à proximité duquel le marché peut avoir lieu, et deuxièmement, s'il existe une demande pour le produit.  
 Pour vendre quelque chose, aucun contact avec le seigneur du château n'est nécessaire;  
 Néanmoins, il est bien sûr plus diplomatique de demander au préalable...  
 

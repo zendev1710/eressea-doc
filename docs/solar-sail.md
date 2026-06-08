@@ -4,8 +4,6 @@ alias: solar-sail
 ---
 # Solar Sail
 
-<!-- TODO: check the real name in the game: Sun Sail or Solar Sail or what ? -->
-
 The **Solar Sail** was the Eressians' [[christmas|Christmas Gift]] in 2004.  
 
 Originally, it provided a *unique and extreme* acceleration for a [[ships|ship]] (range of +50 regions).  

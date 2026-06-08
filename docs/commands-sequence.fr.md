@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: sequence-des-ordres
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Séquence des ordres
 
 Les ordres d'Eressea sont exécutés dans un ordre fixe.  
@@ -94,9 +96,8 @@ Cela ne signifie pas que les unités qui quittent un bateau peuvent attaquer dan
 
 Poursuivre la lecture : [[tableau-recapitulatif-des-ordres]].
 
-[^1]: ordres divisés "équitablement"; voir les [notes explicatives].
+[^1]: ordres divisés "équitablement"; voir les [notes explicatives][notes-explicatives].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
-[notes explicatives]: #notes-explicatives
 [cmd-guard]: [[cmd-guard]]

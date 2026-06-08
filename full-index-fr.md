@@ -35,7 +35,7 @@
 [appendices/items/sphere-of-invisibility.fr.md](./appendices/items/sphere-of-invisibility.fr.md)
 [appendices/items/stardust.fr.md](./appendices/items/stardust.fr.md)
 [appendices/items/stone-golem.fr.md](./appendices/items/stone-golem.fr.md)
-[appendices/items/sun-sail.fr.md](./appendices/items/sun-sail.fr.md)
+[appendices/items/solar-sail.fr.md](./appendices/items/solar-sail.fr.md)
 [gameplay/stealth.fr.md](./gameplay/stealth.fr.md)
 [gameplay/factions.fr.md](./gameplay/factions.fr.md)
 [gameplay/races.fr.md](./gameplay/races.fr.md)

@@ -15,7 +15,7 @@ C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis 
 L'ordre [[cmd-attack]] permet de lancer l'attaque contre l'adversaire.  
 Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.  
 Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).  
-Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique].  
+Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique][tour-du-tacticien].  
 
 Le camp attaquant est constitué de toutes les unités qui ont donné des ordres `ATTACK` contre une ou plusieurs unités des défenseurs.  
 
@@ -26,12 +26,12 @@ Il y a donc différentes raisons pour lesquelles une unité participe au combat.
 Celles-ci sont classées par ordre de priorité :
 
 1. L'unité prête à combattre attaque une autre unité. Dans ce cas, elle participe au combat dans tous les cas.
-2. L'unité est attaquée par une autre unité. Elle rejoint alors les [Lignes de combat] en fonction de son statut de combat.
+2. L'unité est attaquée par une autre unité. Elle rejoint alors les [Lignes de combat][lignes-de-combat] en fonction de son statut de combat.
 3. Une unité dont la faction est attaquée. L'unité participe alors au combat si elle n'a pas mis `COMBAT NOT` ou `COMBAT FLEE`.
-   Dans ce dernier cas, elle n'a pas l'idée de [fuir] puisqu'elle n'est pas directement menacée.
+   Dans ce dernier cas, elle n'a pas l'idée de [fuir][la-fuite] puisqu'elle n'est pas directement menacée.
 4. Une unité d'une faction alliée (donc une faction à laquelle on a mis `HELP COMBAT`) est attaquée par quelqu'un.
    L'unité participe alors au combat, à moins qu'elle n'ait mis `COMBAT NOT` ou `COMBAT FLEE`.
-   Encore une fois, une unité avec `COMBAT FLEE` ne [s'enfuira] pas, car elle n'est pas exposée à une menace directe.
+   Encore une fois, une unité avec `COMBAT FLEE` ne [s'enfuira][la-fuite] pas, car elle n'est pas exposée à une menace directe.
 
 Les alliés n'aident donc automatiquement que les défenseurs et ***seulement si le défenseur n'a pas lui-même attaqué**.  
 Les unités attaquées se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat.  
@@ -99,7 +99,7 @@ Une bataille dure cinq tours de combat, plus un éventuel tour de tactique.
 À chaque tour de combat, les combattants frappent dans un ordre aléatoire.  
 
 Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs.  
-Les exceptions sont [combat en mer] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
+Les exceptions sont [combat en mer][combats-a-bord-et-depuis-les-navires] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
 Dans ce cas, d'autres ordres longs sont possibles.
 
 ### Lignes de combat
@@ -112,11 +112,11 @@ Pour plus d'informations sur les statuts de combat, voir [[cmd-combat]][`COMBAT`
 2. ligne : Ici se trouvent toutes les unités qui ont mis [[cmd-combat|`COMBAT REAR`]] ou [[cmd-combat|`COMBAT DEFENSIVE`]].
 3. ligne : Ici se trouvent toutes les unités qui ont mis [[cmd-combat|`COMBAT NOT`]].
 4. ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper.
-   Donc celles qui ont mis [[cmd-combat|`COMBAT FLEE`]] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite]).
+   Donc celles qui ont mis [[cmd-combat|`COMBAT FLEE`]] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite][la-fuite]).
 
 Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées.  
 Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée.  
-Les unités en fuite tentent naturellement de s'échapper (voir [ici][la fuite]).  
+Les unités en fuite tentent naturellement de s'échapper (voir [ici][la-fuite]).  
 
 Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous).  
 Contre les attaques à distance adverses, elles se défendent avec leur meilleure compétence de combat.
@@ -137,7 +137,7 @@ Maintenant, les unités s'arment.
 Chaque personne d'une unité s'équipe en fonction de ses compétences d'une arme de corps à corps, d'une arme à distance et d'une armure.  
 Elle privilégie les armes qui lui permettent d'obtenir le plus haut score en Attaque et Parade.  
 Les mages qui ont choisi un sort de combat l'utilisent pour attaquer.  
-Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence de combat appropriée), sinon ils seront considérés comme [non armés].  
+Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence de combat appropriée), sinon ils seront considérés comme [non armés][bonus-et-malus].  
 
 **Attention:** les armes ou armures non utilisées ne sont pas automatiquement redistribuées aux unités non armées ou non équipées.
 
@@ -190,7 +190,7 @@ Pour plus d'informations, voir [[cmd-promote]].
 Dans chaque bataille, les armées s'affrontent personne par personne, quel que soit leur nombre.La procédure est la suivante :
 
 - L'attaque de l'attaquant et la parade du défenseur sont (au départ) aussi élevées que leur niveau de compétence en armes.
-- Ajouter des bonus/malus : A l'attaque de l'attaquant et à la parade du défenseur, on ajoute les éventuels [bonus et malus][non armés].
+- Ajouter des bonus/malus : A l'attaque de l'attaquant et à la parade du défenseur, on ajoute les éventuels [bonus et malus][bonus-et-malus].
 - Si l'attaquant est un combattant à distance, la valeur de parade de son adversaire ainsi modifiée est divisée par deux.
 - Les probabilités de base de toucher (BT) d'un attaquant sont de 30%.
 - Soustraire les valeurs les unes des autres : Pour chaque point de différence entre l'attaque de l'attaquant et la parade du défenseur, le BT est maintenant augmenté ou diminué de 5%.
@@ -198,7 +198,7 @@ Dans chaque bataille, les armées s'affrontent personne par personne, quel que s
 - Chance du débutant : si l'attaque échoue, l'attaquant a en plus 10% de chances de transformer son attaque : Il peut frapper une deuxième fois, avec une chance de toucher augmentée de 90 à 99% (hasard).
   Les combattants fortement désavantagés ont ainsi la possibilité d'obtenir au moins quelques coups aléatoires.
 
-Chaque personne attaque une fois par tour de combat (sauf les [Héros] et certains monstres).
+Chaque personne attaque une fois par tour de combat (sauf les [Héros][heros] et certains monstres).
 
 Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts.  
 Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes][armes-tableau-de-synthese]).  
@@ -237,8 +237,8 @@ Les catapultes tirent toujours au premier tour (cela peut être le tour tactique
 Contre les armes à distance, les personnes attaquées ne se défendent qu'avec la moitié de leur niveau de compétence.  
 Cependant les unités en première ligne se défendent avec leur niveau de compétence si le combattant à distance se trouve également en première ligne.
 
-*Attention !'* Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été [débordé]), il doit se défendre avec une arme de mêlée.  
-S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend [à mains nues] !
+*Attention !'* Si un combattant à distance se retrouve au premier rang (par exemple, parce qu'il a été [débordé][lignes-de-combat]), il doit se défendre avec une arme de mêlée.  
+S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend [à mains nues][bonus-et-malus] !
 
 Les catapultes nécessitent des munitions.  
 Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [[cmd-make|`MAKE ammunition`]], passé par des maçons T3 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
@@ -264,7 +264,7 @@ Tous les bonus et malus ont un effet direct sur la compétence et sont pris en c
 Les points de dégâts qu'une personne inflige ne sont pas modifiés par les bonus et les pénalités;  
 les valeurs de compétence non modifiées comptent ici.
 
-Voir aussi : [tables de combat].
+Voir aussi : [tables de combat][bonus-et-malus].
 
 [](){ #war-combat-a-mains-nues-id }
 
@@ -428,7 +428,7 @@ Après la bataille, il est possible pour les unités d'exécuter d'autres ordres
 
 Si un bateau est impliqué dans une bataille, il subit 5 % de dégâts par round de bataille si au moins une personne qui se trouve sur le navire ou qui s'y trouvait au début du tour subit des dégâts.  
 Il ne sert donc à rien de quitter le bateau avant le début de la bataille.  
-Le [tour de tactique] et le premier tour ne sont pas pris en compte, les dégâts maximum possibles sont donc de 20 %.  
+Le [tour de tactique][tour-du-tacticien] et le premier tour ne sont pas pris en compte, les dégâts maximum possibles sont donc de 20 %.  
 
 Des dégâts supplémentaires peuvent survenir si des serpents de mer sont impliqués dans la bataille.  
 Ces monstres, comme certains familiers, ont une attaque qui peut causer des dégâts structurels aux bateaux à chaque round de combat.
@@ -495,15 +495,3 @@ Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
-
-[tour de tactique]: #tour-du-tacticien
-[Lignes de combat]: #lignes-de-combat
-[débordé]: #lignes-de-combat
-[la fuite]: #la-fuite
-[fuir]: #la-fuite
-[s'enfuira]: #la-fuite
-[non armés]: #bonus-et-malus
-[à mains nues]: #bonus-et-malus
-[tables de combat]: #bonus-et-malus
-[combat en mer]: #combats-a-bord-et-depuis-les-navires
-[Héros]: #heros

@@ -141,7 +141,7 @@ Comme on peut le voir, il est possible de déplacer de grandes unités dans un c
 Pour le reste, les convois se comportent comme un bateau normal.  
 Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.  
 
-Les [barques] sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.  
+Les [barques][barque] sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.  
 Il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.  
 
 Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
@@ -178,5 +178,3 @@ GIVE 123 ALL MEN
 Poursuivre la lecture : [bâtiments][batiments-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
-
-[barques]: #barque

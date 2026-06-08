@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: envoi-des-ordres
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Envoi des ordres
 
 ## Ce dont vous avez besoin pour jouer à Eressea
@@ -40,7 +42,7 @@ Le serveur utilise l'heure d'envoi comme base pour écraser les anciens ordres, 
 Attention : les ordres doivent apparaître sous forme de texte normal (texte brut) dans le corps de l'e-mail.  
 Alternativement, ils peuvent être dans un fichier `.txt` envoyé en pièce jointe, mais l'e-mail doit alors être vide (pas de texte dans le corps de l'e-mail).  
 Dans le cas contraire, les ordres ne seront pas reconnus par le serveur de jeu et seront ignorés !  
-Il existe divers [outils] qui facilitent la saisie des ordres, en particulier pour les grandes factions.  
+Il existe divers [outils][comment-soumettre-des-ordres-et-ce-que-vous-obtenez-en-retour] qui facilitent la saisie des ordres, en particulier pour les grandes factions.  
 
 Soyez prudent lorsque vous utilisez des interfaces web telles que GMX ou GMail !  
 Ceux-ci se sont avérés problématiques dans le passé car les e-mails étaient mal formatés.  
@@ -202,8 +204,6 @@ La date de l'email (Date : en-tête) fait office d'ordre.
 Poursuivre la lecture : [[remarques]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
-
-[outils]: #comment-soumettre-des-ordres-et-ce-que-vous-obtenez-en-retour
 
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net

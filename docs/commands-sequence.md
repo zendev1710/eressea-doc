@@ -52,7 +52,7 @@ Eressea's orders are evaluated in a fixed sequence. Orders with the same number 
 44. [[cmd-sort]]
 45. [[cmd-number]]
 
-[^1]: Orders marked like this are divided "fairly"; see [notes] below.
+[^1]: Orders marked like this are divided "fairly"; see [notes][notes] below.
 
 However, the orders do not necessarily have to be entered in this order.  
 It is perfectly permissible to enter the following:
@@ -100,12 +100,10 @@ Continue reading: [Short Description].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 
-
 [MAKE TEMP]: ./cmd-make.md
 [GUARD NOT]: ./cmd-guard.md
 [GIVE CONTROL]: ./cmd-give.md
 [PAY NOT]: ./cmd-pay-not.md
-[notes]: #notes
 [item pool]: ./items-pool.md
 [orders]: ./commands.md
 [short description DE/EN]: ./commands-list.md

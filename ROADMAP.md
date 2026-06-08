@@ -182,7 +182,7 @@ A page review is achieved when:
 | [sphere-of-invisibility][^1] | ✔️ | ✔️ | ✔️ |
 | [stardust]                   | ✔️ | ✔️ | ✔️ |
 | [stealth]                    |    |    |    |
-| [sun-sail]                   | ✔️ | ✔️ | ✔️ |
+| [solar-sail]                 | ✔️ | ✔️ | ✔️ |
 | [tactic]                     |    |    |    |
 | [terrains]                   | ✔️ |    |    |
 | [tips-and-tricks]            |    |    |    |
@@ -338,7 +338,7 @@ A page review is achieved when:
 [spells-list]: https://zendev1710.github.io/eressea-doc/spells-list "spells-list"
 [sphere-of-invisibility]: https://zendev1710.github.io/eressea-doc/sphere-of-invisibility "Sphere of Invisibility"
 [stardust]: https://zendev1710.github.io/eressea-doc/stardust "stardust"
-[sun-sail]: https://zendev1710.github.io/eressea-doc/sun-sail "sun-sail"
+[solar-sail]: https://zendev1710.github.io/eressea-doc/solar-sail "solar-sail"
 [tactic]: https://zendev1710.github.io/eressea-doc/tactic "tactic"
 [terrains]: https://zendev1710.github.io/eressea-doc/terrains "terrains"
 [tips-and-tricks]: https://zendev1710.github.io/eressea-doc/tips-and-tricks "tips-and-tricks"

@@ -50,11 +50,11 @@ Vous pouvez donc facilement construire une tour en un tour avec une unité suffi
 
 ## Voir aussi
 
-- [[chateaux]]
+- [Les châteaux][chateaux]{title="Castle"}
 - [[batiments-speciaux]]
 - [Production][production-fr-id]
 - [dépenses][depenses]
 
-Poursuivre la lecture : [[chateaux]].
+Poursuivre la lecture : [les châteaux][chateaux]{title="Castle"}.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/fr&oldid=16680] -->

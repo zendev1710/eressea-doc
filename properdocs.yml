@@ -452,7 +452,7 @@ plugins:
                   - silverbag.md
                   - sphere-of-invisibility.md
                   - stardust.md
-                  - sun-sail.md
+                  - solar-sail.md
                   - pentagram-and-tirawon.md
                   - pot-of-toadslime.md
             - Help:
@@ -730,7 +730,7 @@ nav:
         - silverbag.md
         - sphere-of-invisibility.md
         - stardust.md
-        - sun-sail.md
+        - solar-sail.md
         - pentagram-and-tirawon.md
         - pot-of-toadslime.md
   - Help:

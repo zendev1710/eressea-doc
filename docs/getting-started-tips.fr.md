@@ -46,7 +46,7 @@ et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'arm
 La [perception][skill-perception-fr-id]{title="Perception"} est une compétence essentielle, souvent sous-estimée par les débutants.  
 Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
-Il est également conseillé de construire des [[chateaux]] rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  
+Il est également conseillé de construire des [châteaux][chateaux]{title="Castle"} rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots][chevaux-et-chariots].  
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 

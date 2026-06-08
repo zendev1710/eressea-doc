@@ -39,7 +39,7 @@ Der Server nimmt die Sendezeit als Grundlage, um alte Befehle zu überschreiben,
 
 Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text der Mail stehen (Mail-Body).
 Alternativ können sie in einer .txt Datei im Anhang versendet werden, dann muss die Mail jedoch ansonsten leer sein (kein Text im Mail-Body).
-Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse [Hilfsmittel], die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern.
+Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss], die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern.
 Vorsicht bei der Benutzung von Weboberflächen wie bei GMX oder GMail! Diese haben sich in der Vergangenheit immer mal wieder als problematisch erwiesen, da Mails falsch formatiert wurden.
 Benutzer von [Magellan][1] können die [Befehle am bequemsten direkt aus dem Programm verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
 
@@ -192,10 +192,9 @@ Als Reihenfolge wird das Datum der Mail (Date:-Header) benutzt.
 
 Weiterlesen: [Hinweise].
 
-[Hinweise]: ./hints.md
-
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
+[Hinweise]: ./hints.md
 [Befehle]: ./commands.md
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
@@ -205,9 +204,7 @@ Weiterlesen: [Hinweise].
 [ExtendedCommands]: ./commands-extended.md
 [FFTools2]: ./fftools.md
 [Vorlage]: ./vorlage.md
-[Hilfsmittel]: #was-man-bei-der-eingabe-beachten-muss "Hilfsmittel"
 [Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md
-[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 [ERESSEA xxx "passwort"]: ./cmd-eressea.md
 [NÄCHSTER]: ./cmd-next.md
 [bef-einheit]: ./cmd-unit.md
@@ -220,3 +217,5 @@ Weiterlesen: [Hinweise].
 [Kommentar-Befehl //]: ./cmd-comment-slash.md
 [Die Welt]: ./world.md
 [Der erste Zug]: ./first-round.md
+
+[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de

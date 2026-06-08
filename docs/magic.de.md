@@ -164,7 +164,7 @@ Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanen
 
 [[bef-zaubere]] ist ein pseudolanger Befehl vergleichbar mit [[bef-attackiere]]. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.
 
-Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. [Fernzauber] erhöhen ebenfalls die Zauberkosten.
+Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. [Fernzauber][fernzauber] erhöhen ebenfalls die Zauberkosten.
 
 ### Zauberstufe
 
@@ -178,7 +178,7 @@ Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber 
 
 Durch einen [Ring der Macht], [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
 
-Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer] beeinflusst.
+Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer][patzer] beeinflusst.
 
 Diese Modifikation funktioniert auch bei Kampfzaubern:
 
@@ -386,6 +386,3 @@ Weiterlesen: [[magiegebiete]].
 [Vertraute]: ./familiars.md
 [bef-nach]: ./cmd-move.md
 [Zauberbeschreibungen]: ./spells-descriptions.md
-
-[Fernzauber]: #fernzauber
-[Wahrscheinlichkeit für Patzer]: #patzer

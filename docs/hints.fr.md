@@ -68,7 +68,3 @@ Poursuivre la lecture : [[conseils-pour-debutants]].
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
 [ce lien]: https://www.eressea.de/?page_id=189&lang=en
-
-[rapport de bug]: #rapport-de-bug
-[Mantis]: http://bugs.eressea.de/
-[Discord]: https://discord.gg/KT5Fffh

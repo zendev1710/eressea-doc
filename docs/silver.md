@@ -9,7 +9,7 @@ alias: money
 !!! note "Note"
     In Eressea, the basic unit of the monetary system is the **silver**.
 
-Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working][cmd-work-id], [entertaining] the peasants, [collecting taxes], or [trading].
+Money makes the world go round; even in Eressea. Many different ways to earn money exist in Eressea: You can earn money by: [working][cmd-work-id], [entertaining] the peasants, [collecting taxes], or [trading][silver-trade-id].
 
 Working is more of a type of stopgap, units working will earn barely enough to feed themselves. You can make quite a lot of money with entertainment and taxation. Especially at the beginning of your ventures, trading might be the biggest source of income, profits of some thousands of silver are possible, provided the regions have the appropriate luxury goods.
 
@@ -228,5 +228,3 @@ Continue reading: [Material pool].
 [stealth skill]: ./stealth.md
 [castles]: ./castles.md
 [Item pool]: ./items-pool.md
-
-[trading]: #trade

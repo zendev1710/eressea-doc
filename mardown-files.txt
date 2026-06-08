@@ -32,7 +32,7 @@ appendices/items/ring-of-power.md
 appendices/items/sphere-of-invisibility.md
 appendices/items/stardust.md
 appendices/items/stone-golem.md
-appendices/items/sun-sail.md
+appendices/items/solar-sail.md
 gameplay/stealth.md
 gameplay/factions.md
 gameplay/races.md

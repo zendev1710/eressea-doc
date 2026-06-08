@@ -350,8 +350,8 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 
 ## Voir aussi
 
-- [Bâtiments][batiments-id]
-- [Châteaux][chateaux]
+- [Les bâtiments][batiments-id]
+- [Les châteaux][chateaux]{title="Castle"}
 - [Production][production-fr-id]
 
 Poursuivre la lecture : [réserve de faction][reserve-de-faction].

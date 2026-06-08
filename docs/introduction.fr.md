@@ -2,12 +2,14 @@
 # cSpell:locale fr
 alias: introduction-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Eressea map view")
 
-Dans Eressea, chaque joueur prend en charge une [[factions|faction]] de personnes d'une certaine [[races|race]], qu'il devra choisir lors de l'[[remarques#inscription|inscription]].  
+Dans Eressea, chaque joueur prend en charge une [[factions|faction]] de personnes d'une certaine [[races|race]], qu'il devra choisir lors de l'[inscription][inscription].  
 
 Les joueurs sont ensuite plongés avec quelques autres dans [[le-monde-d-eressea|le monde d'Eressea]] et peuvent alors commencer à explorer les alentours.
 
@@ -16,9 +18,9 @@ Les joueurs sont ensuite plongés avec quelques autres dans [[le-monde-d-eressea
 
 Eressea est un monde fantastique.  
 
-Des êtres comme les [[races#elfes|Elfes]]{title="Elves"} et les [[races#nains|Nains]]{title="Dwarves"} peuplent le monde, et la [[magie|magie]] fait partie du quotidien.  
-Même des [[monstres#dragons-connus|dragons]] ont été aperçus, des [[monstres|monstres]] imposants, puissants et surtout dangereux, qui nécessitent des centaines de soldats pour les affronter.  
-On peut aussi y rencontrer des [[monstres#serpents-de-mer|serpents de mer]], des [[monstres#ents|Ents]] et d'autres créatures étranges.
+Des êtres comme les [Elfes][elfes]{title="Elves"} et les [Nains][nains]{title="Dwarves"} peuplent le monde, et la [[magie|magie]] fait partie du quotidien.  
+Même des [dragons][dragons-connus] ont été aperçus, des [monstres][monstres] imposants, puissants et surtout dangereux, qui nécessitent des centaines de soldats pour les affronter.  
+On peut aussi y rencontrer des [serpents de mer][serpents-de-mer], des [Ents][ents-fr-id]{title="Ents"} et d'autres créatures étranges.
 
 Eressea est un vaste monde. Des centaines de peuples vivent sur les îles d'Eressea, et la plupart ne se rencontreront probablement jamais, car il peut falloir des années pour combler les distances.  
 
@@ -57,8 +59,8 @@ En réponse à votre **lot d'ordres**, vous recevrez un **rapport** qui contient
 
 Le rapport complet (fichier d'extension `.zip`) se compose de plusieurs éléments :
 
-- un [[rapports#nr|rapport standard]] (fichier d'extension `.nr`, pour « normal report »), qui présente un rapport textuel, lisible par un humain
-- un [[rapports#cr|rapport informatique]] (fichier d'extension `.cr`, pour « computer report »), qui présente les mêmes informations, mais sous une forme utilisable par des [[envoi-des-ordres#ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres|programmes]] adaptés
+- un [rapport standard][nr-fr-id] (fichier d'extension `.nr`, pour « normal report »), qui présente un rapport textuel, lisible par un humain
+- un [rapport informatique][cr-fr-id] (fichier d'extension `.cr`, pour « computer report »), qui présente les mêmes informations, mais sous une forme utilisable par des [programmes][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres] adaptés
 - un [[modele-d-ordres|modèle d'ordres]] (fichier d'extension `.txt`) pouvant servir de modèle pour votre prochain tour de jeu
 
 Le rapport peut aussi contenir un [[rapport-hebdomadaire|point hebdomadaire]], qui présente différentes statistiques sur l'état général du monde d'Eressea, et enfin, parfois, le [Xontormia Express], la gazette alimentée par les écrits des joueurs.  

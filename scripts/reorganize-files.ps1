@@ -27,7 +27,7 @@ $itemsFiles = @(
     'potions-and-herbs', 'herbs', 'amulet-of-true-sight', 'antimagic-crystal',
     'belt-of-troll-strength', 'dream-eye', 'flaming-sword', 'iron-golem',
     'magical-herb-bag', 'mountain-guard', 'ring-of-invisibility',
-    'ring-of-power', 'sack-of-holding', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'sun-sail', 'alchemy'
+    'ring-of-power', 'sack-of-holding', 'sphere-of-invisibility', 'stardust', 'stone-golem', 'solar-sail', 'alchemy'
 )
 
 $worldFiles = @(

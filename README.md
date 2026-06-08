@@ -164,7 +164,7 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [spells-descriptions]   | X  | NT | NT | [zauberbeschreibungen_e2] |       |
 | [spells-list]           | X  | NT | NT | [zuberliste_e2]           |       |
 | [stardust]              | X  | N  | N  | [sternenstaub]            |       |
-| [sun-sail]              | X  | NT | NT | [sonnensegel]             | TBR   |
+| [solar-sail]            | X  | NT | NT | [sonnensegel]             | TBR   |
 | [tactic]                | X  | X  | X  | [taktik]                  |       |
 | [terrains]              | X  | X  | X  | [geländearten]            |       |
 | [tips-and-tricks]       | X  | N  | NT | [tipps_und_Tricks]        | TBR   |
@@ -492,7 +492,7 @@ Legend:
 [stealth]: ./steath.md "stealth"
 [sternenstaub]: https://wiki.eressea.de/sternenstaub "sternenstaub"
 [straße]: https://wiki.eressea.de/straße "straße"
-[sun-sail]: ./sun-sail.md "sun-sail"
+[solar-sail]: ./solar-sail.md "solar-sail"
 [tränke_und_kräuter]: https://wiki.eressea.de/tabellen:_tränke_und_kräuter "tabellen:_tränke_und_kräuter"
 [tactic]: ./tactic.md "tactic"
 [taktik]: https://wiki.eressea.de/taktik "taktik"

@@ -6,7 +6,7 @@ alias: races-fr
 <!-- markdownlint-disable MD042 MD052 -->
 # Races
 
-En plus des [humains], il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
+En plus des [Humains][humains]title={"Humans"}, il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
 Vous devrez en choisir une pour votre [faction].  
 
 Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences-id] dans certaines compétences, et parfois des capacités spéciales.  
@@ -14,7 +14,7 @@ Chaque race a des avantages et des inconvénients qui se traduisent par des [bon
 Chaque race a des [coûts de recrutement][modificateurs-de-competences-id] différents.  
 
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
-Les [trolls][trolls-fr-id]{title="Trolls"}, les [gobelins] et divers monstres constituent des exceptions.
+Les [Trolls][trolls-fr-id]{title="Trolls"}, les [Gobelins][gobelins]title={"Goblins"} et divers monstres constituent des exceptions.
 
 Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jouer.  
 **Elle ne pourra plus être modifiée par la suite**.  
@@ -339,6 +339,3 @@ Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forter
 Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
-
-[gobelins]: #gobelins
-[humains]: #humains

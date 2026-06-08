@@ -29,7 +29,7 @@ Weiterlesen: [Geld].
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 
 [Geburtstagstorte]: ./birthday-cake.md
-[Sonnensegel]: ./sun-sail.md
+[Sonnensegel]: ./solar-sail.md
 [Sternenstaub]: ./stardust.md
 [Weihnachtsbaum]: ./christmas-tree.md
 [Muschel]: ./shell.md

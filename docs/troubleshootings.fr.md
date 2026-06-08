@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: depannage
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Dépannage
 
 ## Erreur dans le jeu
@@ -20,7 +22,7 @@ C'est à la seule discrétion du meneur de jeu de donner aux joueurs concernés 
 Les petites erreurs concernent souvent de nombreuses factions, de sorte que dans l'ensemble, cela s'équilibre tout seul.
 
 Tous les joueurs sont tenus de signaler les bugs à l'administrateur du jeu, même et surtout s'ils en tirent un avantage.
-Pour cela, il est préférable de publier un [rapport de bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
+Pour cela, il est préférable de publier un [rapport de bug][rapport-de-bug] sur [Mantis] avec l'extrait du rapport concerné et une explication.
 
 ## Rapport de bug
 
@@ -52,7 +54,5 @@ Ainsi, si un bug a été marqué comme "corrigé" dans Mantis, cela ne signifie 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
-[Link]: https://www.eressea.de/?page_id=186
-[rapport de bug]: #rapport-de-bug
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh

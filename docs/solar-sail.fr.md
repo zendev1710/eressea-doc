@@ -6,6 +6,10 @@ alias: voile-solaire
 <!-- markdownlint-disable MD052 -->
 # Voile Solaire
 
+<!-- cspell:disable -->
+*Solar sail (EN), Sonnensegel (DE).*
+<!-- cspell:enable -->
+
 La **Voile Solaire** était le [[noel|cadeau de Noël]] des Éresséens en 2004.  
 
 À l'origine, elle permettait une accélération *unique et extrême* d'un [bateau][bateaux-id] (portée de +50 régions).  

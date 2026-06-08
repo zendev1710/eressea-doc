@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: bases
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Bases
 
 Ce n’est pas parce qu’il n’y a pas de gagnant à Eressea que vous ne pouvez pas perdre.  
@@ -19,15 +21,15 @@ Le rapport informatique (CR) est un fichier compris par des outils tels que [[ma
 Nous recommandons aux débutants de faire leurs premiers pas avec le rapport normal et un éditeur de texte.  
 Les premières commandes font rarement plus d'une douzaine de lignes et vous n'avez pas besoin d'un outil comme Magellan pour les créer.  
 
-Au contraire, étant donné que ces outils sont conçus pour gérer de grandes factions comptant des centaines d'[[faction-fr#unites|unités]], ils comportent de nombreuses fonctionnalités qui ont tendance à prêter à confusion au début.  
+Au contraire, étant donné que ces outils sont conçus pour gérer de grandes factions comptant des centaines d'[unités][unites], ils comportent de nombreuses fonctionnalités qui ont tendance à prêter à confusion au début.  
 Cela peut détourner l’attention des informations importantes, qui sont plus faciles à identifier dans le rapport normal.  
 
 ## Les ordres longs et courts
 
-Chaque unité ne peut effectuer qu'un seul [[ordres#ordres-courts-et-longs|ordre long]] par semaine, mais peut effectuer un nombre illimité d'ordres courts.  
+Chaque unité ne peut effectuer qu'un seul [ordre long][ordres-courts-et-longs] par semaine, mais peut effectuer un nombre illimité d'ordres courts.  
 
 !!! warning "Danger"
-    Le [[guerre#le-combat|combat]] peut être une action longue, même si vous n'avez pas vous-même attaqué.  
+    Le [combat][le-combat] peut être une action longue, même si vous n'avez pas vous-même attaqué.  
 
 ## La bataille
 
@@ -36,12 +38,12 @@ Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que
 
 ## La famine
 
-Évitez la [[argent#famine|famine]] à tout prix. Les effets sont catastrophiques.  
+Évitez la [famine][silver-famine-id] à tout prix. Les effets sont catastrophiques.  
 Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
 ## Les finances
 
-Le [[liste-des-competences#divertissement|divertissement]]{title="Entertainment"} et la [[liste-des-competences#taxation|collecte d'impôts]]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
+Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-fr-taxation-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
 
 ## Mage
 
@@ -58,7 +60,7 @@ Quand quelque chose est utilisé, par exemple pour fabriquer un objet ou pour re
 
 ## Capacité de chargement
 
-Un [[deplacements|déplacement]] échouera si la [[deplacements#capacite-de-transport|capacité de chargement]] du transporteur est inférieure au poids total des personnes, des objets, des équipements etc.  
+Un [[deplacements|déplacement]] échouera si la [capacité de chargement][capacite-de-transport] du transporteur est inférieure au poids total des personnes, des objets, des équipements etc.  
 
 N'hésitez pas à vérifier l'emplacement de l'ordre `MOVE` dans la [[sequence-des-ordres|séquence des ordres]].  
 
@@ -69,11 +71,11 @@ Par exemple, l'ordre `ENTERTAIN` s'exécute avant; avec l'argent potentiellement
 Les unités qui ont de l'argent ou qui reçoivent de l'argent utilisent toujours cet argent en premier avant d'accéder à la [[reserve-d-objets]].  
 
 <!-- TODO: add orders example otherwise it"s unclear  -->
-Par exemple, vous créez une nouvelle unité, recrutez un [[races-fr#chats|Chat]]{"title=Cat"} (coûte 90 silver).  
-Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [[cmd-learn|apprendre]]{title="LEARN"} le [[liste-des-competences#divertissement|divertissement]]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
+Par exemple, vous créez une nouvelle unité, recrutez un [Chat][chats]{"title=Cat"} (coûte 90 silver).  
+Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [[cmd-learn|apprendre]]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
 
 Dans cette situation, il ne suffit pas de lui donner 20 silver pour le temps de trajet et la semaine d'apprentissage.  
-Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [[argent#famine|affamée]] dans la région voisine.  
+Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [affamée][silver-famine-id] dans la région voisine.  
 
 ## Scout
 

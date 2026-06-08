@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: fehlerbehebung
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Fehlerbehebung
 
 ## Fehler im Spiel
@@ -16,14 +18,14 @@ Ebenso ist es nicht immer möglich, durch Fehler aufgetretene Verluste u.ä. aus
 
 Es liegt alleine im Ermessen der Spielleitung, betroffenen Spielern Ersatz, z.B. in Form von Silber, zu geben. Gerade kleinere Fehler betreffen oftmals viele Parteien, so dass es sich im Großen und Ganzen von alleine ausgleicht.
 
-Alle Spielenden sind angehalten, auftretende Fehler der Spielleitung zu melden, auch und besonders dann, wenn sie davon Vorteile haben. Dazu eignet sich am best ein [Bugreport] auf [Mantis] mit dem betreffenden Ausschnitt des Reports und einer Erklärung.
+Alle Spielenden sind angehalten, auftretende Fehler der Spielleitung zu melden, auch und besonders dann, wenn sie davon Vorteile haben. Dazu eignet sich am best ein [Bugreport][bugreport] auf [Mantis] mit dem betreffenden Ausschnitt des Reports und einer Erklärung.
 
 ## Bugreport
 
 Eressea ist nicht fehlerfrei, doch es hat sehr wenige Fehler. Wenn man meint, einen Fehler gefunden zu haben, gehe man wie folgt vor:
 
 1. Überprüfe nochmal genau, ob der Fehler im Programm liegt. Manchmal hat man einfach eine Kleinigkeit übersehen.
-2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#general im [Discord][]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
+2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#general im [Discord]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
 3. Überlege dir, wie es wohl zu dem Fehler kam. Stelle alles notwendige dafür zusammen. Starte einen neuen Bureport in [Mantis]. Er sollte folgendes enthalten:
     1. Deine Parteinummer
     2. Nummern der betroffenen Einheiten, Schiffe oder anderer Objekte
@@ -45,6 +47,5 @@ Behobene Bugs werden in der Regel nicht mehr sofort in die aktuelle Serverversio
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366] -->
 
-[Bugreport]: #bugreport "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh

@@ -74,7 +74,7 @@ Seuls les monstres et autres races spéciales ont cette compétence de combat à
 *Trade (EN), Handeln (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet d'acheter et de vendre des [[argent#biens-de-luxe|biens de luxe]], dans les **régions comportant un [[chateaux|château]]**.  
+Cette compétence permet d'acheter et de vendre des [[argent#biens-de-luxe|biens de luxe]], dans les **régions comportant un [château][chateaux]{title="Castle"}**.  
 
 10 biens de luxe peuvent être échangés par personne, niveau de compétence et tour.  
 
@@ -251,7 +251,7 @@ Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 *Masonry (EN), Burgenbau (DE)*.
 <!-- cspell:enable -->
 
-Permet de construire des [[batiments-speciaux]] et des [[chateaux]].
+Permet de construire des [[batiments-speciaux]] et des [châteaux][chateaux]{title="Castle"}.
 
 ## [[magie]]
 

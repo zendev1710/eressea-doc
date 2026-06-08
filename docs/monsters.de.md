@@ -10,15 +10,15 @@ Die Partei der Monster ist derzeit die einzige NPC-Partei in Eressea.
 Sie hatte die Nummer 0. Seit etwa der Runde 572 trägt sie die Nummer (ii). Wieso eigentlich (ii)? Wenn man ii von Base36 in das Dezimalsystem umrechnet, kommt man auf 666.
 
 Es gibt viele verschiedene Monster-Rassen mit unterschiedlichen Eigenschaften und Fähigkeiten.
-Am verbreitetsten sind die verschiedenen [Untoten-Typen] sowie [Drachen] und ihr Gefolge.
-Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter], findet man (fast) nur in bestimmten Gegenden.
+Am verbreitetsten sind die verschiedenen [Untoten-Typen][untote] sowie [Drachen][drachen] und ihr Gefolge.
+Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter][hirntoter], findet man (fast) nur in bestimmten Gegenden.
 
 Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von  [[vertraute|Vertrauten]]  nichts lernen, nicht lehren und keine Gegenstände bekommen.
 
 ## Untote
 
 Untote stellen den größten Teil der Monster-Partei.
-Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger-de-id] und Seuchen oder als Opfer von [Drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger-de-id] und Seuchen oder als Opfer von [Drachen][drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
 Untote können verschiedene [[talente]] lernen und werden dadurch gefährlicher.
 Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
 Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [[bewaffnet]]), können aber auch Waffen tragen.
@@ -36,7 +36,7 @@ Manche [[magie-de|Magier]] sind in der Lage, Untote zu kontrollieren.
 
 Drachen gehören zu den stärksten Monster-Einheiten. Sie schlüpfen als Jungdrachen aus Eiern, entwickeln sich später zu Drachen und weiter zu Wyrmen. Es gibt Gerüchte, dass Drachen auch aus der Sphäre des Chaos nach Eressea gelangen können.
 
-Drachen sind besonders unangenehm, weil sie Bauern vertreiben und fressen. Oft kehren die so getöteten Bauern später als [Untote][Untoten-Typen] wieder.
+Drachen sind besonders unangenehm, weil sie Bauern vertreiben und fressen. Oft kehren die so getöteten Bauern später als [Untote][untote] wieder.
 
 Drachen können verschiedene Talente lernen und werden dadurch gefährlicher. Sie können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über Drachenodem-Angriffe, attackieren aber auch mit Zähnen und Klauen. Sie sind nur schwer zu verwunden und können dadurch viele Treffer einstecken.
 
@@ -84,7 +84,3 @@ Ents, mächtige Baumwesen, werden von Gwyrrd-Druiden beschworen oder entstehen m
 - [[vertraute]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster&oldid=16153] -->
-
-[Untoten-Typen]: #untote
-[Drachen]: #drachen
-[Hirntöter]: ./monsters.md/#hirntoter

@@ -11,7 +11,7 @@ Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec de
 
 Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.  
 Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un **[port][port]** pour que les bateaux puissent accoster.  
-Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages].  
+Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages][dommages-aux-bateaux].  
 Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.  
 
 Les bateaux ne peuvent pas passer directement d'une côte à une région côtière voisine sans naviguer d'abord sur une région océanique.  
@@ -59,7 +59,7 @@ Portée d'un drakkar.
 
 Si un bateau n'est pas doté d'un équipage suffisant, il ne peut pas appareiller.  
 Si cela se produit en mer (par exemple à cause d'un combat ou d'unités affamées par manque d'argent), il dérive jusqu'à ce qu'il touche une région côtière.  
-Il subit alors chaque tour des [dommages], si bien qu'il coule rapidement.  
+Il subit alors chaque tour des [dommages][dommages-aux-bateaux], si bien qu'il coule rapidement.  
 
 Le poids total de toutes les unités d'un bateau, y compris le poids des chevaux, des voitures, des personnes et, bien sûr, de toutes les marchandises et de l'argent des unités, doit pouvoir être supporté par le bateau.  
 Si ce n'est pas ou plus le cas, le bateau ne peut pas naviguer.  
@@ -137,5 +137,3 @@ Les bateaux voyagent le long des côtes ou en pleine mer.
 Poursuivre la lecture : [production][production-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
-
-[dommages]: #dommages-aux-bateaux

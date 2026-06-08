@@ -11,7 +11,7 @@ alias: argent
 
 L'argent mène le monde - c'est aussi le cas dans Eressea.  
 
-Il y a plusieurs façons d'obtenir de l'argent : une unité peut [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer].  
+Il y a plusieurs façons d'obtenir de l'argent : une unité peut [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer][le-commerce].  
 
 Le travail (`WORK`) est plus une sorte de palliatif, les unités qui travaillent gagnent à peine de quoi se nourrir.  
 Vous pouvez gagner beaucoup d'argent avec le divertissement (`ENTERTAIN`) et les impôts (`TAX`).  
@@ -180,7 +180,7 @@ En revanche, ils peuvent décider de le "perturber" en attaquant les marchands p
 Le propriétaire du plus grand château de la région reçoit une part des recettes des ventes des autres joueurs.  
 Cette part de recettes est déduite des recettes des marchands.  
 Si deux châteaux sont de même taille, personne ne reçoit cette part.  
-Le montant du "taux d'imposition" est indiqué dans le tableau du chapitre [[chateaux]].  
+Le montant du "taux d'imposition" est indiqué dans le tableau du chapitre [Châteaux][chateaux]{title="Castle"}.  
 
 Garder empêche de travailler uniquement si les unités se trouvent à l'intérieur d'un bateau (sauf en cas d'utilisation de `HELP`).  
 
@@ -310,5 +310,3 @@ Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'uni
 Poursuivre la lecture : [[reserve-d-objets]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
-
-[commercer]: #le-commerce "Trade"

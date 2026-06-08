@@ -185,7 +185,7 @@ Elles atteignent **6** cibles.
 
 [^1]: les arbalètes ne tirent qu'aux 1er et 4e tours de combat. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
 [^2]: les catapultes ne tirent que lors du premier tour de combat, mais **atteignent 6 cibles**.
-[^3]: [arme d'hast]
+[^3]: [arme d'hast][armes-dhast]
 [^4]: particularités selon la race :
 
 - Les [Gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
@@ -206,7 +206,7 @@ Remarques :
 
 - Les dégâts subis à cheval ne s'appliquent qu'en conjonction avec le [bonus de monture][bonus-et-malus]
 - OB et DB représentent les bonus offensifs et défensifs; ainsi, une hache de guerre est conçue davantage comme une arme offensive, tandis qu'une hallebarde est plus utile pour la défense
-- Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir [plus bas])
+- Toutes les armes en Mallorn ont une résistance à la magie de 15 %, toutes les armes et armures en laen de 30 % (voir [plus bas][war-table-resistance-a-la-magie-id])
 - Une Épée de Flammes invoque également une petite boule de feu à chaque round de combat
 
 [](){ #table-endurance-fr-id }
@@ -338,17 +338,17 @@ Cette armure offre la **meilleure** [protection][armures]{title="Armours"}.
 
 ## Armures - Synthèse
 
-| Armure                                                                 | Protection | Chance de frapper |
-|------------------------------------------------------------------------|:----------:|------------------:|
-| [bouclier]                                                             |     1      |              85 % |
-| [bouclier rouillé]                                                     |     1      |             100 % |
-| [bouclier en laen]                                                     |     2      |              75 % |
-| [cotte de mailles rouillée]                                            |     2      |             130 % |
-| [cotte de mailles]                                                     |     3      |             115 % |
-| [armure de plaque rouillée]                                            |     3      |             145 % |
-| [armure de plaque]                                                     |     5      |             130 % |
-| [cotte de mailles en laen]                                             |     6      |                 - |
-| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"} |     7      |             110 % |
+| Armure                                                                          | Protection | Chance de frapper |
+|---------------------------------------------------------------------------------|:----------:|------------------:|
+| [bouclier][bouclier]{title="Shield"}                                            |     1      |              85 % |
+| [bouclier rouillé][bouclier-rouille]{title="Rusty shield"}                      |     1      |             100 % |
+| [bouclier en laen][bouclier-en-laen]{title="Laen shield"}                       |     2      |              75 % |
+| [cotte de mailles rouillée][cotte-de-mailles-rouillee]{title="Rusty Chainmail"} |     2      |             130 % |
+| [cotte de mailles][cotte-de-mailles]{title="Chainmail"}                         |     3      |             115 % |
+| [armure de plaque rouillée][armure-de-plaque-rouillee]{title="Rusty platemail"} |     3      |             145 % |
+| [armure de plaque][armure-de-plaque]{title="Platemail"}                         |     5      |             130 % |
+| [cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"}    |     6      |                 - |
+| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}          |     7      |             110 % |
 
 ## Races et leurs caractéristiques
 
@@ -400,14 +400,3 @@ Un elfe avec une épée longue et une armure complète d'épée longue (bouclier
 90% x 70% x 70% x 70% = 31% -> 69% de résistance magique.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->
-
-[plus bas]: #resistance-a-la-magie
-[bouclier rouillé]: #bouclier-rouille "Rusty shield"
-[armure de plaque rouillée]: #armure-de-plaque-rouillee "Rusty platemail"
-[cotte de mailles rouillée]: #cotte-de-mailles-rouillee "Rusty Chainmail"
-[arme d'hast]: #armes-dhast
-[armure de plaque]: #armure-de-plaque "Platemail"
-[bouclier en laen]: #bouclier-en-laen "Laen shield"
-[bouclier]: #bouclier "Shield"
-[cotte de mailles en laen]: #cotte-de-mailles-en-laen "Laen chainmail"
-[cotte de mailles]: #cotte-de-mailles "Chainmail"

@@ -18,14 +18,14 @@ Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la
 
 Ensemble des statuts de combat, de la plus forte exposition au combat à la plus faible.  
 
-| Statut                     | Ligne | Tentative de fuite | Adapté pour                        |
-|:---------------------------|:------|:-------------------|:-----------------------------------|
-| [`AGGRESSIVE`][aggressive] | 1ère  | Jamais             | Les combattants les moins précieux |
-| [`FRONT`][front]           | 1ère  | Dégâts >= 20 %     | Les bons épéistes                  |
-| [`REAR`][rear]             | 2ème  | Dégâts >= 20 %     | Les tireurs                        |
-| [`DEFENSIVE`][defensive]   | 2ème  | Dégâts >= 10 %     | Les mages                          |
-| [`NOT`][not]               | ---   | Dégâts >= 10 %     | Les occupants d'un bâtiment        |
-| [`FLEE`][flee]             | ---   | Toujours           | Les civils                         |
+| Statut                            | Ligne | Tentative de fuite | Adapté pour                        |
+|:----------------------------------|:------|:-------------------|:-----------------------------------|
+| [`AGGRESSIVE`][combat-aggressive] | 1ère  | Jamais             | Les combattants les moins précieux |
+| [`FRONT`][combat-front]           | 1ère  | Dégâts >= 20 %     | Les bons épéistes                  |
+| [`REAR`][combat-rear]             | 2ème  | Dégâts >= 20 %     | Les tireurs                        |
+| [`DEFENSIVE`][combat-defensive]   | 2ème  | Dégâts >= 10 %     | Les mages                          |
+| [`NOT`][combat-not]               | ---   | Dégâts >= 10 %     | Les occupants d'un bâtiment        |
+| [`FLEE`][ombat-flee]              | ---   | Toujours           | Les civils                         |
 
 !!! note
     une unité **en première ligne** est dite aussi au front (ou dans la mêlée).
@@ -111,10 +111,3 @@ Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]
 L'ordre `COMBAT HELP` réactive le statut qui permet à l'unité d'être aidée en cas d'attaque.
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
-
-[aggressive]: #combat-aggressive
-[front]: #combat-front
-[rear]: #combat-rear
-[defensive]: #combat-defensive
-[not]: #combat-not
-[flee]: #combat-flee

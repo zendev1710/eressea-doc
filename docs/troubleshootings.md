@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: troubleshooting
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Troubleshooting
 
 ## Errors in the Game
@@ -16,7 +18,7 @@ It is also not always possible to compensate for or replace losses caused by err
 
 Even then, it's still a decision that is made by the game masters alone, and is not guaranteed. Minor mistakes often affect many factions, so that on the whole it balances itself out.
 
-Every player is asked to make errors they encounter known to the game masters, also and especially if they profit from them. The best way to do this is to file [bug report] on [Mantis].
+Every player is asked to make errors they encounter known to the game masters, also and especially if they profit from them. The best way to do this is to file [bug report][bug-report] on [Mantis].
 
 ## Bug Report
 
@@ -45,6 +47,6 @@ Bug fixes are generally not included into the running server right away if they 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
-[bug report]: #bug-report "Bugreport"
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
+

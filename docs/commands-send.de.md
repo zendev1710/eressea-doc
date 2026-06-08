@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: befehle-einschicken
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Befehle einschicken
 
 ## Was man braucht, um Eressea zu spielen

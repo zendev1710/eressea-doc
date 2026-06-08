@@ -18,7 +18,7 @@ Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous
 *Alchemy (EN), Alchemie (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de concocter des [[alchimie#potions|potions]] à partir de [[plantes|plantes]]{title="Herbs"}.  
+Cette compétence permet de concocter des [potions][potions-fr-id] à partir de [[plantes|plantes]]{title="Herbs"}.  
 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
@@ -37,14 +37,14 @@ Plus d'information :
 *Taming (EN), Pferdedressur (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet d'obtenir des [[ressources#chevaux|chevaux]]{title="Horses"}.  
+Cette compétence permet d'obtenir des [chevaux][chevaux]{title="Horses"}.  
 
 On peut l'utiliser de deux façons.  
 
 L'ordre [[cmd-make|`MAKE HORSE`]] permet de capturer des chevaux présents dans la région, à raison d'un cheval par personne et par niveau.  
 Bien sûr, il n'est possible de capturer qu'au maximum le nombre de chevaux présents dans la région.  
 
-L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [[batiments-speciaux#haras|haras]]{title="Stable"}, permet la reproduction de chevaux.  
+L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
 
 ## Combat à l'arme d'hast
 
@@ -52,7 +52,7 @@ L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [[
 *Polearm (EN), Stangenwaffen (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de se battre avec une [[tableaux-relatifs-a-la-guerre#armes-dhast|arme d'hast]].  
+Cette compétence permet de se battre avec une [arme d'hast][armes-dhast].  
 
 Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
@@ -74,13 +74,13 @@ Seuls les monstres et autres races spéciales ont cette compétence de combat à
 *Trade (EN), Handeln (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet d'acheter et de vendre des [[argent#biens-de-luxe|biens de luxe]], dans les **régions comportant un [château][chateaux]{title="Castle"}**.  
+Cette compétence permet d'acheter et de vendre des [biens de luxe][biens-de-luxe], dans les **régions comportant un [château][chateaux]{title="Castle"}**.  
 
 10 biens de luxe peuvent être échangés par personne, niveau de compétence et tour.  
 
 Plus d'information :
 
-- Chapitre dédié : [[argent#le-commerce|le commerce]]
+- Chapitre dédié : [le commerce][le commerce]
 - Ordre [[cmd-buy]]
 - Ordre [[cmd-sell]]
 
@@ -90,7 +90,7 @@ Plus d'information :
 *Roadwork (EN), Straßenbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de construire des [[routes|routes]] avec des [[ressources#pierre|pierres]].  
+Cette compétence permet de construire des [[routes|routes]] avec des [pierres][pierre].  
 
 Une pierre peut être posée par personne, par niveau de compétence et par tour.
 
@@ -100,7 +100,7 @@ Une pierre peut être posée par personne, par niveau de compétence et par tour
 *Shipcraft (EN), Schiffbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de construire et de réparer un [nateau][bateaux-id] en [[ressources#bois|bois]].
+Cette compétence permet de construire et de réparer un [nateau][bateaux-id] en [bois][bois].
 
 [](){ #skill-discretion-id }
 
@@ -139,7 +139,7 @@ Si les paysans ont suffisamment d'argent, il est possible de gagner 20 Silver pa
 *Endurance (EN), Ausdauer (DE)*.
 <!-- cspell:enable -->
 
-Cette capacité permet à une unité d'encaisser plus de points de dégâts au combat et de mieux résister à la [[argent#famine|famine]]{title="Starvation"}.  
+Cette capacité permet à une unité d'encaisser plus de points de dégâts au combat et de mieux résister à la [famine][famine]{title="Starvation"}.  
 
 En pratique, une unité [bénéficie d'un bonus de PV][table-endurance-fr-id], dont la valeur est fonction de son **niveau en endurance** et de **sa race**.  
 
@@ -151,7 +151,7 @@ En pratique, une unité [bénéficie d'un bonus de PV][table-endurance-fr-id], d
 
 Aptitude à monter à cheval.  
 
-Une personne équipée d'un [[ressources#cheval|cheval]]{title="Horse"} :
+Une personne équipée d'un [cheval][cheval]{title="Horse"} :
 
 - se déplace plus **rapidement** dès qu'elle est **T1**
 - bénéficie d'un **bonus de cavalerie au combat** dès qu'elle est **T2**
@@ -183,7 +183,7 @@ Une pierre peut être extraite par personne, par niveau de compétence et par to
 
 À partir du niveau **3**, la compétence permet de produire des grosses pierres utilisées comme projectiles (munitions) de catapulte.
 
-Les gisements à exploiter sont limités par niveau (voir [[ressources#ressources-minieres|ressources minières]]) : on voit uniquement le nombre de pierres qui se trouvent dans la couche supérieure.  
+Les gisements à exploiter sont limités par niveau (voir [ressources minières][ressources-minieres]) : on voit uniquement le nombre de pierres qui se trouvent dans la couche supérieure.  
 S'il n'y a pas de pierres dans la couche (niveau de compétence X 2), on ne voit rien.
 
 ## Extraction minière
@@ -192,10 +192,10 @@ S'il n'y a pas de pierres dans la couche (niveau de compétence X 2), on ne voit
 *Mining (EN), Bergbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet d'extraire du [[ressources#fer|fer]], du [laen][laen-fr-id]{title="Laen"} ou de l'[adamantium][adamantium-fr-id].  
+Cette compétence permet d'extraire du [fer][fer]{title="Iron"}, du [laen][laen-fr-id]{title="Laen"} ou de l'[adamantium][adamantium-fr-id]{title="Adamantium"}.  
 Il est possible d'extraire **un fer par personne, par niveau de compétence et par tour**.  
 
-Notez que les [[ressources#ressources-minieres|gisements sont limités]] par niveau.
+Notez que les [gisements sont limités][ressources-minieres] par niveau.
 On ne voit que la quantité de fer qui se trouve sur la couche supérieure.
 Pour la prospection, on ne voit pas plus que la couche (niveau en extraction minière X 2). Si la couche est plus profonde on ne verra rien.
 
@@ -293,10 +293,10 @@ Cette compétence permet également d'éviter le [vol][vol-de-silver].
 *Forestry (EN), Holzfällen (DE)*.
 <!-- cspell:enable -->
 
-Capacité à abattre des arbres et des mallorns pour faire du [[resources#bois|bois]]{title="Wood"}.  
+Capacité à abattre des arbres et des mallorns pour faire du [bois][bois]{title="Wood"}.  
 
 !!! note "Note"
-    Veillez à bien gérer les [[resources#ressources-forestieres|ressources forestières]] des régions que vous [[cmd-guard|gardez]].
+    Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [[cmd-guard|gardez]].
 
 ## [[tactique]]
 
@@ -304,9 +304,9 @@ Capacité à abattre des arbres et des mallorns pour faire du [[resources#bois|b
 *Tactics (EN), Taktik (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de former un [[tactique#tacticien|tacticien]].  
+Cette compétence permet de former un [tacticien][tacticien].  
 
-Lors d'un combat, le camp avec le meilleur tacticien [[guerre#tour-du-tacticien|bénéficie d'attaques supplémentaires]].  
+Lors d'un combat, le camp avec le meilleur tacticien [bénéficie d'attaques supplémentaires][tour-du-tacticien].  
 
 L'apprentissage de la tactique coûte 200 silver par tour et par personne.  
 

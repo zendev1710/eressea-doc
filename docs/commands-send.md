@@ -23,7 +23,7 @@ Most new players use the [[magellan]] tool.
 Eressea also has various other tools that make life easier for the player.  
 Here is a list of the most famous ones:
 
-- [[csmap]]
+- [CSMap][csmap-fr-id]
 - [[echeck]]
 - [[ehmv]]
 - [[magellan]]

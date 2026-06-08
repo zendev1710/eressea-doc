@@ -24,7 +24,7 @@ Die meisten Neuspieler benutzen das Tool [Magellan].
 Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben leichter machen.
 Hier eine Auflistung der bekanntesten.
 
-- [CSMapFX]
+- [CSMap][csmap-de-id]
 - [ECheck]
 - [[ehmv]]
 - [Magellan][1]
@@ -200,7 +200,6 @@ Weiterlesen: [Hinweise].
 [Befehle]: ./commands.md
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
-[CSMapFX]: ./csmapfx.md
 [ECheck]: ./echeck.md
 [1]: ./magellan.md
 [ExtendedCommands]: ./commands-extended.md

@@ -40,6 +40,6 @@ You can grow seeds and plant horses. But it is not recommended.
 ## See also
 
 - [[cmd-grow|`GROW HORSES`]]
-- [[resources]]
+- [Resources][resources]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->

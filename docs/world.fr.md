@@ -30,7 +30,7 @@ Rahel regardait encore, stupéfaite, la carte qui était en fait secrète, lorsq
 "Regarde, Rahel. Il y a là une île qui vient d'être ajoutée. Tu vois comment nos cartographes travaillent ?"
 </div>
 
-![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
+![CSMapFx map](./assets/images/csmapfx-map.jpeg "CSMapFx map")
 
 <div class="lore-dialogue">
 La novice observa attentivement la carte. Apparemment, on s'était limité à l'essentiel lors de son élaboration et les régions découvertes n'avaient été que grossièrement classées.

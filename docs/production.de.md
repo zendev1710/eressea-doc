@@ -6,9 +6,9 @@ alias: produktion
 <!-- markdownlint-disable MD052 -->
 # Produktion
 
-Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MACHE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MACHE Eisen, MACHE Schwert` oder `MACHE 15 Elfenbogen`.
+Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe][rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe][schiff] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MACHE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MACHE Eisen, MACHE Schwert` oder `MACHE 15 Elfenbogen`.
 
-Je nach Gegenstand wird ein verschieden hoher Talentwert benötigt, damit man überhaupt in der Lage ist, diesen herzustellen. die meisten [Rohstoffe][1] erfordern nur Grundkenntnisse der entsprechenden Talente (Stufe 1), während die meisten [Gegenstände] höhere Talentstufen erfordern. Bei Gegenständen mit hohen Mindesttalentwerten kann man auch nur wenige davon herstellen. In jedem Fall kann man pro Einheit und Runde nur eine Art von Gegenständen oder Rohstoffen herstellen und auch nur an einem Gebäude oder Schiff arbeiten.
+Je nach Gegenstand wird ein verschieden hoher Talentwert benötigt, damit man überhaupt in der Lage ist, diesen herzustellen. die meisten [Rohstoffe][rohstoffe] erfordern nur Grundkenntnisse der entsprechenden Talente (Stufe 1), während die meisten [Gegenstände] höhere Talentstufen erfordern. Bei Gegenständen mit hohen Mindesttalentwerten kann man auch nur wenige davon herstellen. In jedem Fall kann man pro Einheit und Runde nur eine Art von Gegenständen oder Rohstoffen herstellen und auch nur an einem Gebäude oder Schiff arbeiten.
 
 Bis auf Laen und Adamantium, zwei besonders wertvolle und seltene Metalle, sowie Mallorn, ein magisches Holz, können alle Rohstoffe ab einem Talentwert von 1 produziert werden, ebenso Pferde und Kräuter. Für die Gewinnung von Laen und Adamantium braucht man ein [Bergwerk][bergwerk] und ein Bergbautalent von 7 für Laen bzw. 8 für Adamantium, für Mallorn Holzfällen der Stufe 2.
 
@@ -28,27 +28,22 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 
 ## Siehe auch
 
-- [Rohstoffe]
+- [Rohstoffe][rohstoffe]
 - [Waren][Endprodukte]
 - [Straßen][2]
-- [Schiffe][3]
+- [Schiffe][schiff]
 - [Gebäude]
 - [Parteipool]
 
-Weiterlesen: [Rohstoffe].
-
-[Rohstoffe]: ./resources.md
+Weiterlesen: [Rohstoffe][rohstoffe].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
 
 [Endprodukte]: ./items.md
-[Schiffe]: ./ships.md
 [Gebäude]: ./buildings.md
 [Straßen]: ./roads.md
 [Tränke]: ./alchemy.md
-[1]: ./resources.md
 [Gegenstände]: ./items.md
 [Materialpool]: ./items-pool.md
 [2]: ./roads.md
-[3]: ./ships.md
 [Parteipool]: ./faction-pool.md

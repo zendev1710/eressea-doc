@@ -15,7 +15,7 @@ A good starting point for discussions is the [E-Client List] and the Magellan De
 ## Tools
 
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Vorlage]
 - [crtools]
 
@@ -66,7 +66,7 @@ This is exactly the right thing for (prospective) computer scientists to deal wi
 
 [E-Client List]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
-[CSMapFX]: https://github.com/ennorehling/csmapfx
+[CSMapFx]: https://github.com/ennorehling/csmapfx
 [Vorlage]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/

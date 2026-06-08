@@ -43,7 +43,7 @@ Eine hungernde Einheit kann keine Personen an andere Einheiten abgeben. Zudem fa
 
 Im Laufe der Zeit erholen sich verwundete Einheiten wieder. Dabei regenerieren Einheiten normalerweise 5% (einige Rassen mehr) ihrer maximalen Trefferpunkte pro Runde hinzu, mindestens aber je einen Punkt pro Person in der Einheit. Untote Einheiten regenerieren nicht.
 
-Das Talent Segeln wird bei hungernden Einheiten nur um eine Stufe reduziert. Dennoch ist Hunger auf See eine kritische Situation. Zum einen kann dort niemand außer [Meermenschen][meermenschen] arbeiten, die Besatzung ist also auf Silber von außen angewiesen. Zum anderen kann es geschehen, dass auf Grund der Talentreduzierung nicht mehr genügend Segeltalent zum Manövrieren des Schiffes vorhanden ist, wodurch das Schiff [Schaden] nimmt und abtreiben kann.
+Das Talent Segeln wird bei hungernden Einheiten nur um eine Stufe reduziert. Dennoch ist Hunger auf See eine kritische Situation. Zum einen kann dort niemand außer [Meermenschen][meermenschen] arbeiten, die Besatzung ist also auf Silber von außen angewiesen. Zum anderen kann es geschehen, dass auf Grund der Talentreduzierung nicht mehr genügend Segeltalent zum Manövrieren des Schiffes vorhanden ist, wodurch das Schiff [Schaden][schiff] nimmt und abtreiben kann.
 
 Nahezu tödlich ist Hunger bei Feindkontakt, hervorgerufen z.B. durch Diebstahl oder wegen Fehlplanung. Einheiten verlieren Trefferpunkte und kämpfen in einem eventuell folgenden Kampf deutlich schwächer. Sollten sie so einen Kampf trotzdem überleben, besteht noch die Gefahr, dass sie weiter hungern, weil sie wegen des Kampfes nicht arbeiten konnten (siehe [Kampfende][das-ende]).
 
@@ -206,7 +206,6 @@ Weiterlesen: [Materialpool].
 [hier]: ./alliances.md
 [reserviert]: ./cmd-reserve.md
 [Gebäude]: ./buildings.md
-[Schaden]: ./ships.md
 [bef-beklaue]: ./stealth.md
 [Wahrnehmung]: ./stealth.md
 [kaufen]: ./cmd-buy.md

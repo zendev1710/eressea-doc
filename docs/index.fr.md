@@ -77,7 +77,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Forum] d'Eressea (ancien)
 - [Mantis] - signaler des bugs
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Le wiki Eressea de Ralf Duckstein]
 - [Eressea sur Wikipedia]
 - La fameuse [carte du monde connu]
@@ -105,7 +105,7 @@ Poursuivre la lecture : [[regles|les règles]].
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
 [Magellan]: https://magellan2.github.io
-[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Le wiki Eressea de Ralf Duckstein]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg

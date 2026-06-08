@@ -102,7 +102,7 @@ With a "melee" weapon (sword, claymore, axe, laensword): fight. With the taxatio
 Extract iron, laen, or adamantium.  
 You can extract **one iron per person and per skill level**.  
 
-Note that deposits are limited by level (see [[resources]]).
+Note that deposits are limited by level (see [resources][resources]).
 You can only see the amount of iron in the top layer.
 For prospecting you can only see layers up to (mining level X 2).
 If the layer is deeper, you won't see anything.
@@ -208,6 +208,5 @@ Continue reading: [stealth][stealth].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
 
-[resources]: ./resources.md
 [castles and other buildings]: ./buildings.md
 [steal]: ./stealth.md

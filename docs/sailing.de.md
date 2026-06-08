@@ -6,7 +6,7 @@ alias: schiffsreise
 <!-- markdownlint-disable MD052 -->
 # Schiffsreise
 
-Nur mit [Schiffen] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen. Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
+Nur mit [Schiffen][schiff] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen. Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
 
 Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden][schiffsschaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
 
@@ -47,7 +47,7 @@ Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passier
 
 Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
-Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe] beschrieben.
+Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe][schiff] beschrieben.
 
 Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [[bef-nach]] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
 
@@ -91,7 +91,7 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 ## Siehe auch
 
 - [Reisen][reisen]
-- [Schiff][Schiffen]
+- [Schiff][schiff]
 
 Weiterlesen: [Produktion].
 
@@ -99,10 +99,8 @@ Weiterlesen: [Produktion].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
-[Schiffen]: ./ships.md
 [bef-helfe]: ./cmd-help.md
 [bef-folge]: ./cmd-follow.md
-[Schiffe]: ./ships.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 [bef-arbeite]: ./cmd-work.md

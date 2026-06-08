@@ -71,7 +71,7 @@ Weight, skill and raw material requirements.
 ## See also
 
 - [These examples][production-id]
-- [resources]
+- [Resources][resources]
 - [roads]
 - [buildings]
 - [war tables]
@@ -82,7 +82,6 @@ Continue reading: [Roads].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 
-[resources]: ./resources.md
 [buildings]: ./buildings.md
 [war tables]: ./war-tables.md
 [silver]: ./silver.md

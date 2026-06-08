@@ -75,7 +75,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 - [Forum] for Eressea
 - [Mantis] - report bugs here
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Ralf Duckstein's Eressea wiki]
 - [Eressea on Wikipedia]
 - The best known [map of the known world]
@@ -113,7 +113,7 @@ Continue reading: [rules].
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
 [Magellan]: https://magellan2.github.io
-[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [map of the known world]: https://karten.adi.tz-o.de/Inselnamen.jpg

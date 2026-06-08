@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: waren
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Waren
 
 ## Produktion von Waren
@@ -65,7 +67,7 @@ Gewicht, Talente und Materialbedarf
 ## Siehe auch
 
 - [Produktion][diese Beispiele]
-- [Rohstoffe]
+- [Rohstoffe][rohstoffe]
 - [Straßen]
 - [Gebäude]
 - [Kriegstabellen]
@@ -77,7 +79,6 @@ Weiterlesen: [Straße].
 <!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
 
 [diese Beispiele]: ./production.md
-[Rohstoffe]: ./resources.md
 [Straßen]: ./roads.md
 [Gebäude]: ./buildings.md
 [Kriegstabellen]: ./war-tables.md

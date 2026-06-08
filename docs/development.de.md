@@ -13,7 +13,7 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 ## Tools
 
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Vorlage]
 - [crtools]
 
@@ -64,7 +64,7 @@ Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithm
 
 [E-Client Liste]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
-[CSMapFX]: https://github.com/ennorehling/csmapfx
+[CSMapFx]: https://github.com/ennorehling/csmapfx
 [Vorlage]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/

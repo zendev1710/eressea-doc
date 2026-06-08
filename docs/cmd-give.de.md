@@ -129,7 +129,7 @@ Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küst
 
 - [[bef-reserviere]]
 - [Materialpool]
-- [Schiff]
+- [Schiff][schiff]
 - [Gebäude]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
@@ -138,5 +138,4 @@ Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küst
 [Materialpool]: ./items-pool.md
 [Talente]: ./skills.md
 [bef-reserviere]: ./cmd-reserve.md
-[Schiff]: ./ships.md
 [Gebäude]: ./buildings.md

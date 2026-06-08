@@ -71,13 +71,13 @@ Pour faciliter la collecte, il existe une [[reserve-d-objets]].
 
 ## Voir aussi
 
-- [[resources]]
+- [Ressources][ressources]
 - [[items|Goods]]
 - [[roads]]
 - [[ships]]
 - [[buildings]]
 - [[faction-pool]]
 
-Poursuivre la lecture : [[resources]].
+Poursuivre la lecture : [ressources][ressources].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->

@@ -26,7 +26,7 @@ Mit Ausdauer kann eine Einheit im Kampf mehr Trefferpunkte einstecken (siehe [Ta
 
 Eisen, Laen und Adamantium herstellen. Pro Person und Talentstufe kann ein Eisen produziert werden, für Laen und Adamantium braucht man Bergbau 7 bzw. 8 und ein Bergwerk.
 
-Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe]). Man sieht immer nur, wie viel Eisen auf der obersten Schicht liegt. Wenn bis zu einer Tiefe von (Talentstufe Bergbau \*2) kein Eisen vorkommt, sieht man kein eventuelles Eisenvorkommen.
+Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][rohstoffe]). Man sieht immer nur, wie viel Eisen auf der obersten Schicht liegt. Wenn bis zu einer Tiefe von (Talentstufe Bergbau \*2) kein Eisen vorkommt, sieht man kein eventuelles Eisenvorkommen.
 
 ## Bogenschießen
 
@@ -77,7 +77,7 @@ Bau von Rüstungen aus Eisen, Laen und Adamantium (siehe [Waren]).
 
 ## Schiffbau
 
-Bau und Reparatur von Schiffen aus Holz (siehe [Schiffe]).
+Bau und Reparatur von Schiffen aus Holz (siehe [Schiffe][schiff]).
 
 ## Segeln
 
@@ -148,7 +148,6 @@ Weiterlesen: [Tarnung][tarnung-id].
 [Alchemie]: ./alchemy.md
 [Tränken]: ./alchemy.md
 [Kräutern]: ./herbs.md
-[Rohstoffe]: ./resources.md
 [Gebäude und Burgen]: ./buildings.md
 [bef-kaufe]: ./cmd-buy.md
 [`FORSCHE KRÄUTER`]: ./cmd-research.md
@@ -157,7 +156,6 @@ Weiterlesen: [Tarnung][tarnung-id].
 [bef-pflanze]: ./cmd-plant.md
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
 [Waren]: ./items.md
-[Schiffe]: ./ships.md
 [bef-spioniere]: ./cmd-spy.md
 [Straßen]: ./roads.md
 [beklauen]: ./stealth.md

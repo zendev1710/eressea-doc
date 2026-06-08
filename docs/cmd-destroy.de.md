@@ -19,6 +19,6 @@ Eine Einheit kann jeweils nur eine Struktur (Gebäude, Straße, Schiff) pro Woch
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZERSTÖRE&oldid=16738] -->
 
-[Schiff]: ./ships.md
+[Schiff]: ./ships.de.md
 [Gebäude]: ./buildings.md
 [Straße]: ./roads.md

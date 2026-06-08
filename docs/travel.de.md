@@ -74,7 +74,7 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 
 ## Siehe auch
 
-- [Schiffe]
+- [Schiffe][schiff]
 - [Straße][Straßen]
 
 Weiterlesen: [Schiffsreise].
@@ -91,4 +91,3 @@ Weiterlesen: [Schiffsreise].
 [bef-bewache]: ./cmd-guard.md
 [diese Tabelle]: ./items.md
 [Straßen]: ./roads.md
-[Schiffe]: ./ships.md

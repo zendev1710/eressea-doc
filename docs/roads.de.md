@@ -35,9 +35,8 @@ Straßenbau
 
 Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (1,1) reisen.
 
-Weiterlesen: [Schiff].
+Weiterlesen: [Schiff][schiff].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße&oldid=15933] -->
 
-[Schiff]: ./ships.md
 [Gebäude]: ./buildings-others.md

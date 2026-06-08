@@ -23,7 +23,7 @@ La plupart des nouveaux joueurs utilisent l'outil [[magellan]].
 Eressea dispose également de divers autres outils qui facilitent la vie du joueur.  
 Voici une liste des plus utilisés :
 
-- [[csmap]]
+- [CSMap][csmap-fr-id]
 - [[echeck]]
 - [[ehmv]]
 - [[magellan]]

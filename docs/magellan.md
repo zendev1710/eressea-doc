@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: magellan
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #magellan-id }
+
 # Magellan
 
 [Magellan] is a full client for Eressea.  

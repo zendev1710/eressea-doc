@@ -74,7 +74,7 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 - [Forum] für Eressea
 - [Mantis], Bugs melden
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Ralf Ducksteins Eressea Wiki] (Link ist leider verwaist).
 - [Eressea in Wikipedia]
 - Die beste uns bekannte [Karte der bekannten Welt]
@@ -111,7 +111,7 @@ Weiterlesen: [[regeln]].
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
 [Magellan]: https://magellan2.github.io
-[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Ralf Ducksteins Eressea Wiki]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea in Wikipedia]: https://de.wikipedia.org/wiki/Eressea_PbeM
 [Karte der bekannten Welt]: https://karten.adi.tz-o.de/Inselnamen.png

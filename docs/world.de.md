@@ -28,7 +28,7 @@ Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit de
 "Sieh, Rahel. Dort ist eine Insel, die gerade erst eingetragen wurde. Erkennst du, wie unsere Kartographen arbeiten?"
 </div>
 
-![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
+![CSMapFx map](./assets/images/csmapfx-map.jpeg "CSMapFx map")
 
 <div class="lore-dialogue">
 Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert.

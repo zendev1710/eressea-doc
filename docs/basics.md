@@ -16,7 +16,7 @@ The following basic things every player should understand.
 
 There are two reports every week that contain the same data.  
 The normal report (NR) is a text file that can be read with any editor.  
-The computer report (CR) is a file that is understood by tools such as [[magellan]] and [[csmap]].  
+The computer report (CR) is a file that is understood by tools such as [[magellan]] and [CSMap][csmap-id].  
 
 We recommend that beginners make their first moves with the normal report and a text editor.  
 The first few commands are rarely more than a dozen lines, and you don't need a tool like Magellan to create them.  

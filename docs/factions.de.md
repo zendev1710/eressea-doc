@@ -12,7 +12,7 @@ Du scheidest aus dem Spiel aus, wenn deine Partei keine Mitglieder mehr hat - we
 
 ## Einheiten
 
-Das Spiel beginnt die Partei mit einer **Einheit**, bestehend aus einer Person mit 2500 Silber, 10 Holz, 4 Steinen und einem [rassenspezifischen Startgeschenk][start-der-6-welt]. Ein Tip: Wenn du nicht weißt, was du da hast, probiere mal [`ZEIGE "`*`Gegenstand`*`"`]. Diese erste Person ist in keiner Weise speziell; es ist einfach die erste Person, die zur neuen Partei gehört. Du kannst nun weitere Personen [rekrutieren][rekrutieren], später dann [Gegenstände produzieren], [Gebäude] und [Schiffe] bauen, [Pferde][pferd-und-wagen] zähmen, [Waffen] schmieden und so weiter.
+Das Spiel beginnt die Partei mit einer **Einheit**, bestehend aus einer Person mit 2500 Silber, 10 Holz, 4 Steinen und einem [rassenspezifischen Startgeschenk][start-der-6-welt]. Ein Tip: Wenn du nicht weißt, was du da hast, probiere mal [`ZEIGE "`*`Gegenstand`*`"`]. Diese erste Person ist in keiner Weise speziell; es ist einfach die erste Person, die zur neuen Partei gehört. Du kannst nun weitere Personen [rekrutieren][rekrutieren], später dann [Gegenstände produzieren], [Gebäude] und [Schiffe][schiff] bauen, [Pferde][pferd-und-wagen] zähmen, [Waffen] schmieden und so weiter.
 
 Neue Einheiten werden gemacht, indem du mit einer bestehenden Einheit eine neue generierst ([`MACHE TEMP`]). Eine neue Einheit enthält noch keine Leute; diese müssen entweder von einer bestehenden in die neue Einheit [transferiert] oder frisch rekrutiert werden, wozu die Einheit dann das notwendige [Geld][ausgaben] bekommen muss. Einheiten, die von Einheiten auf Schiffen oder in Gebäuden gemacht werden, starten dort, also auf dem Schiff bzw. in dem Gebäude.
 
@@ -72,7 +72,6 @@ Weiterlesen: [Rassen].
 [Befehle]: ./commands.md
 [Gegenstände produzieren]: ./items.md
 [Gebäude]: ./buildings.md
-[Schiffe]: ./ships.md
 [`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md
 [Waffen]: ./war-tables.md
 [`MACHE TEMP`]: ./cmd-make.md

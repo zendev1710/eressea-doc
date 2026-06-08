@@ -15,7 +15,7 @@ Les listes de diffusion [E-Client] et Développement Magellan constituent un bon
 ## Outils
 
 - [Magellan]
-- [CSMapFX]
+- [CSMapFx]
 - [Vorlage]
 - [crtools]
 
@@ -68,7 +68,7 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 
 [E-Client]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
-[CSMapFX]: https://github.com/ennorehling/csmapfx
+[CSMapFx]: https://github.com/ennorehling/csmapfx
 [Vorlage]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [Plugin ExtendedCommands]: http://magellan.log-out.net/extcmds/

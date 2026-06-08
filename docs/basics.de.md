@@ -15,7 +15,7 @@ Die folgenden grundlegenden Dinge sollte jeder Spieler verstehen.
 
 Es gibt jede Woche zwei Reporte, in denen die selben Daten stehen.
 Der normale Report (NR) ist eine Textdatei die mit jedem Editor gelesen werden kann.
-Der Computerreport (CR) ist eine Datei, die von Tools wie [Magellan] und [CSMap] verstanden wird.
+Der Computerreport (CR) ist eine Datei, die von Tools wie [Magellan][magellan-id] und [CSMap][csmap-id] verstanden wird.
 
 Wir empfehlen Anfängern, ihre ersten Züge mit dem Normalreport und einem Texteditor zu machen.
 Die ersten Befehle sind selten mehr als ein Dutzend Zeilen, und man braucht kein Tool wie Magellan zur Erstellung.
@@ -76,8 +76,6 @@ In der Regel reicht es nicht, eine Unterhalter-Einheit in den benachbarten Berg 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[Magellan]: ./magellan.md
-[CSMap]: ./csmapfx.md
 [bewacht]: ./cmd-guard.md
 [attackiert]: ./cmd-attack.md
 [Materialpool]: ./items-pool.md

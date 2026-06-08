@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: csmap
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #csmap-id }
+
 # CSMap
 
 The **Coast 'n Sea Mapper**, CSMap or CSMapFx for short, is a map and report viewer for the email game [Eressea] and runs on Windows and Linux.  
@@ -14,9 +18,9 @@ CSMap should be gradually expanded to also be able to carry out orders and simpl
 
 ## Downloads
 
-- [CSMapFX]
+- [CSMapFx]
 
 <!-- From [https://wiki.eressea.de/index.php?title=CSMap&oldid=7342] -->
 
 [Eressea]: http://www.eressea.de/
-[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/

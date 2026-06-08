@@ -10,13 +10,13 @@ alias: production
 
 Various things can be produced in Eressea.  
 
-There are [[resources]] (e.g. iron, stones, wood, horses) and [[items|finished products]]: various weapons and armor, [[ships]] and chariots, [[buildings]] and [[roads]] and alchemical [[alchemy|potions]].  
+There are [resources][resources] (e.g. iron, stones, wood, horses) and [[items|finished products]]: various weapons and armor, [[ships]] and chariots, [[buildings]] and [[roads]] and alchemical [[alchemy|potions]].  
 In order to be able to produce things, you need the appropriate skill.  
 
 Most things are done with the order [[cmd-make|`MAKE`*`<number>`*` `*`item`*]], for example `MAKE Iron`, `MAKE Sword` or `MAKE 15 Elvenbow`.  
 
 Depending on the item, a different level of skill is required in order to be able to produce it.  
-Most [[resources]] only require basic knowledge of the corresponding skills (Level 1), while most [[items]] require higher skill levels.  
+Most [resources][resources] only require basic knowledge of the corresponding skills (Level 1), while most [[items]] require higher skill levels.  
 For items with high minimum skill values, you can only craft a few of them.
 In any case, **per unit per round**, you can only produce one type of item or resource and work on one building or ship.  
 
@@ -71,13 +71,13 @@ To simplify this, there is an [[items-pool]].
 
 ## See also
 
-- [[resources]]
+- [Resources][resources]
 - [[items|Goods]]
 - [[roads]]
 - [[ships]]
 - [[buildings]]
 - [[faction-pool]]
 
-Continue reading: [[resources]].
+Continue reading: [resources][resources].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->

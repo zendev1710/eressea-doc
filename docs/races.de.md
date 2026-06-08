@@ -61,7 +61,7 @@ Bei ihnen gilt: "Masse statt Klasse."
 
 Halblinge sind kleine Gesellen mit haarigen Füßen.
 Sie sind gute Händler und verstehen es, die Bauern zu unterhalten.
-Sie sind gute Baumeister, Pferde und [Schiffe] überlassen sie aber lieber anderen.
+Sie sind gute Baumeister, Pferde und [Schiffe][schiff] überlassen sie aber lieber anderen.
 Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
 
 - Halblinge, die in einem Kampf versuchen zu [fliehen][die-flucht], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [[bef-kaempfe|`KÄMPFE FLIEHE`]]).
@@ -170,7 +170,6 @@ Weiterlesen: [Talentmodifikatoren].
 [Boni bzw. Mali]: ./skills-modifiers.md
 [Regionskapazität]: ./world.md
 [klauen]: ./cmd-steal.md
-[Schiffe]: ./ships.md
 [Alchemie]: ./skills-list.md
 [Trank]: ./alchemy.md
 [Taktik]: ./tactic.md

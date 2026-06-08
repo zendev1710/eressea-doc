@@ -30,7 +30,7 @@ Rahel was still looking at the secret map in amazement when Selen pointed to one
 "Look, Rahel. There's an island that has just been added. Do you recognize how our cartographers work?"
 </div>
 
-![CsMapFx map](./assets/images/csmapfx-map.jpeg "CsMapFx map")
+![CSMapFx map](./assets/images/csmapfx-map.jpeg "CSMapFx map")
 
 <div class="lore-dialogue">
 The novice contemplated the map intently. Apparently it was confined to the essential and the discovered districts were only roughly classified.
@@ -97,7 +97,7 @@ In each region, [[roads]] can be built.
 The costs vary depending on the terrain.  
 In addition, roads can be built in glaciers, swamps and deserts only if there are [[other-buildings]].  
 
-In addition, the type of terrain determines which [[resources]] can be found in the region and with what chance.  
+In addition, the type of terrain determines which [resources][resources] can be found in the region and with what chance.  
 For example, in mountains and glaciers where no resources have been mined so far, iron and stone can always be found at mining level 1.  
 However, mountains always have significantly more resources than a glacier.  
 In a volcano, a quarryman has a 50% chance of finding stone at level 1, and a miner only has a 50% chance of finding iron at level 1.  

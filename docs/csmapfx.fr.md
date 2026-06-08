@@ -2,6 +2,10 @@
 # cSpell:locale fr
 alias: cs-map-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #csmap-fr-id }
+
 # CSMap
 
 Le **Coast 'n Sea Mapper** , CSMap (appelé aussi CSMapFx), est une visionneuse de cartes et de rapports pour le PBEM [Eressea], qui fonctionne sous Windows et Linux.
@@ -14,9 +18,9 @@ CSMap devrait être progressivement étendu pour pouvoir également exécuter de
 
 ## Téléchargement
 
-- [CSMapFX]
+- [CSMapFx]
 
 <!-- From [https://wiki.eressea.de/index.php?title=CSMap&oldid=7342] -->
 
 [Eressea]: http://www.eressea.de/
-[CSMapFX]: https://www.eressea.kn-bremen.de/downloads/
+[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/

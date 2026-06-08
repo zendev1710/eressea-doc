@@ -21,7 +21,7 @@ Mehr dazu auch im Kapitel [Produktion].
 
 ## Gegenstände
 
-[Gegenstände] und [Rohstoffe] werden mit `MACHE [`*`anzahl`*`]`*`gegenstand`*` ` hergestellt.
+[Gegenstände] und [Rohstoffe][rohstoffe] werden mit `MACHE [`*`anzahl`*`]`*`gegenstand`*` ` hergestellt.
 Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt.
 Ohne Angabe von *anzahl* wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl.
 Rohstoffe es ihr ermöglichen.
@@ -98,7 +98,7 @@ Um Burgen zu bauen, muss die Einheit das Talent Burgenbau und Steine haben, ande
 
 ## Schiffe
 
-Mit `MACHE`*`schiffstyp`* beginnt eine Einheit, ein neues [Schiff] zu bauen.
+Mit `MACHE`*`schiffstyp`* beginnt eine Einheit, ein neues [Schiff][schiff] zu bauen.
 Dazu muss sie das Talent Schiffbau und Holz haben.
 Mit `MACHE [`*`stufe`*`] SCHIFF`*`schiff-nr`* kann sie daran weiterbauen.
 Schiffe können nicht wie Burgen erweitert werden, sondern der Typ wird bei Baubeginn festgelegt.
@@ -158,12 +158,10 @@ MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
 
 [Produktion]: ./production.md
 [Gegenstände]: ./items.md
-[Rohstoffe]: ./resources.md
 [Alchemie-Kapitel]: ./skills-list.md
 [Kräuterkunde]: ./skills-list.md
 [Kräuter]: ./herbs.md
 [Gebäude]: ./buildings.md
-[Schiff]: ./ships.md
 [Straßen]: ./roads.md
 [Geländearten]: ./terrains.md
 [Alchemie]: ./alchemy.md

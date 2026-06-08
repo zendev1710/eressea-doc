@@ -16,7 +16,7 @@ Pour bien débuter, chaque joueur devrait prendre connaissance des éléments de
 
 Chaque semaine deux rapports contenant les mêmes données sont envoyés.  
 Le rapport normal (NR) est un fichier texte lisible avec n'importe quel éditeur.  
-Le rapport informatique (CR) est un fichier compris par des outils tels que [[magellan]] et [[csmap]].  
+Le rapport informatique (CR) est un fichier compris par des outils tels que [[magellan]] et [CSMap][csmap-fr-id].  
 
 Nous recommandons aux débutants de faire leurs premiers pas avec le rapport normal et un éditeur de texte.  
 Les premières commandes font rarement plus d'une douzaine de lignes et vous n'avez pas besoin d'un outil comme Magellan pour les créer.  

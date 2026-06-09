@@ -16,7 +16,7 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 
 ## What is here?
 
-- The [[rules]]
+- The [rules][rules]
 - [Registering for the game][registration]
 - [E-Announce]: mailing list for rules changes — IMPORTANT!
 - [Tools][what-you-need-to-play-eressea]
@@ -29,7 +29,7 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 
 - [Orders sequence] - the most important rules page
 - [Tactics] - How many tacticians for which bonus
-- [Familiars] - All about those magical creatures
+- [Familiars][familiars] - All about those magical creatures
 - [Development] of tools or tool-based scripts
 - [Xontormia Express] - a gazette and its [archived issues]
 - Archive of [announcements] of rules changes
@@ -82,28 +82,27 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 - [Who is Who of Eressea (in the Internet Archive, in German)]
 - [Generator of excuses for war]
 
-Continue reading: [rules].
+Continue reading: [rules][rules].
 
-[rules]: ./rules.md
 [Eressea]: ./cmd-eressea.md
-[Discord]: https://discord.gg/KT5Fffh
-[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Tips for beginners]: ./getting-started-tips.md
 [story of Eressea]: ./eressea-story.md
 [Atlantis]: ./atlantis.md
 [Frequently asked questions]: ./faq.md
 [Orders sequence]: ./commands-sequence.md
 [Tactics]: ./tactic.md
-[Familiars]: ./familiars.md
 [Development]: ./development.md
-[Xontormia Express]: <https://wiki.eressea.de/xontormia_express> "Xontormia Express"
-[archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
-[announcements]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Player pages]: ./player-pages.md
 [You play too much Eressea if ...]: ./play-too-much-if.md
 [The Third Age]: ./the-third-age.md
-[An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [List of rules changes compared to E2 (in German)]: ./the-third-age.md
+
+[Discord]: https://discord.gg/KT5Fffh
+[E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
+[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
+[announcements]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
+[An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [Announcements from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreons]: https://www.patreon.com/enno
 [Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170

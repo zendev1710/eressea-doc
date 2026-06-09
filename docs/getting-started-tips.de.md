@@ -47,7 +47,7 @@ Natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel 
 Handel zu verstehen ist für Anfänger nicht ganz leicht, aber es lohnt sich.
 
 Einheiten mit teuren Talenten wie [Taktiker], [Alchemisten] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde).
-[[magie-de|Magier]] auszubilden kostet noch mehr Silber, doch ein Magier mit Kampfzaubern kann im Konfliktfall große Vorteile bringen.
+[Magier][magie-de-id] auszubilden kostet noch mehr Silber, doch ein Magier mit Kampfzaubern kann im Konfliktfall große Vorteile bringen.
 Und Magier aller Magiegebiete können bereits sehr früh einen Zauber zum Silberverdienen sprechen, sodass sich hier eine frühe Investition (vor allem für Rassen mit +1 in Magie) lohnt.
 
 Auch eine kleine Vorsorge, falls die Nachbarn nicht sehr friedlich sein sollten, wäre ratsam.

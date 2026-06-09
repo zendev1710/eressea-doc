@@ -17,7 +17,7 @@ alias: bef-mache
 **`MACHE TEMP`**` `*`unit-alias-nr`*`["`*`name`*`"]`  (Kurzer Befehl)
 
 Der Befehl `MACHE` ist der allgemeine Produktionsbefehl.
-Mehr dazu auch im Kapitel [Produktion].
+Mehr dazu auch im Kapitel [Produktion][produktion].
 
 ## Gegenstände
 
@@ -114,7 +114,7 @@ Sowohl bei Gebäuden als auch bei Schiffen kannst du mit *stufen* angeben, wie v
 ## Straßen
 
 Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MACHE STRASSE`*`richtung`*.
-Um [Straßen] zu bauen, braucht die Einheit das Talent [Straßenbau][straenbau] und [Steine][Gegenstände].
+Um [Straßen][strassen-id] zu bauen, braucht die Einheit das Talent [Straßenbau][straenbau] und [Steine][Gegenstände].
 In Gletschern benötigt sie dazu vorher einen [Tunnel][tunnel-de-id], in Wüsten eine [Karawanserei][karawanserei] und in Sümpfen einen [Damm][damm].
 Pro Talentpunkt Straßenbau wird ein Stein verbaut.
 Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten].
@@ -151,17 +151,15 @@ MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
 
 ## Siehe auch
 
-- [Produktion]
+- [Produktion][produktion]
 - [Alchemie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MACHE&oldid=16728] -->
 
-[Produktion]: ./production.md
 [Gegenstände]: ./items.md
 [Alchemie-Kapitel]: ./skills-list.md
 [Kräuterkunde]: ./skills-list.md
 [Kräuter]: ./herbs.md
 [Gebäude]: ./buildings.md
-[Straßen]: ./roads.md
 [Geländearten]: ./terrains.md
 [Alchemie]: ./alchemy.md

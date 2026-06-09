@@ -18,7 +18,7 @@ Mit diesem Befehl wird eine Magiereinheit versuchen, den genannten Zauberspruch 
 REGION kann nur bei [Fernzaubern][fernzauber] verwendet werden und STUFE macht nur bei Zaubersprüchen mit variablen [Kosten][komponenten] Sinn.
 Manche Zauber haben noch weitere Parameter.
 
-Die Anwendung der Zauber ist zum einen im Kapitel [[magie-de]] genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden.
+Die Anwendung der Zauber ist zum einen im Kapitel [Magie][magie-de-id] genauer erklärt, zum anderen ist sie bei der Zauberbeschreibung selbst zu finden.
 Diese erhält man, wenn man den Zauber neu erhält und kann ihn sich mit [[bef-zeige|`ZEIGE ALLE ZAUBER`]] nochmal anzeigen lassen.
 
 Kampfzauber können nicht einfach so gezaubert werden.

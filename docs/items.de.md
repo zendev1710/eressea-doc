@@ -10,7 +10,7 @@ alias: waren
 
 Die Endprodukte können in beliebiger Menge hergestellt werden. Beschränkung sind hier lediglich zum einen natürlich das vorhandene Rohmaterial und zum anderen Anzahl und Talentwert der herstellenden Personen.
 
-Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie können nur gemacht werden, wenn die betreffende Einheit auch das entsprechende Talent hoch genug hat. Die Gesamt-Talentstufen werden bei der Produktion von Gegenständen immer durch das Mindesttalent geteilt (siehe [diese Beispiele]). Dies gilt auch für Rohstoffe! Ein Bergbauer mit Bergbau 4 in einer Region mit "20 Eisen/4" kann 4 Eisen pro Runde abbauen (und nicht nur 1 Eisen).
+Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie können nur gemacht werden, wenn die betreffende Einheit auch das entsprechende Talent hoch genug hat. Die Gesamt-Talentstufen werden bei der Produktion von Gegenständen immer durch das Mindesttalent geteilt (siehe [diese Beispiele][produktion]). Dies gilt auch für Rohstoffe! Ein Bergbauer mit Bergbau 4 in einer Region mit "20 Eisen/4" kann 4 Eisen pro Runde abbauen (und nicht nur 1 Eisen).
 
 Gewicht, Talente und Materialbedarf
 
@@ -66,19 +66,15 @@ Gewicht, Talente und Materialbedarf
 
 ## Siehe auch
 
-- [Produktion][diese Beispiele]
+- [Produktion][produktion]
 - [Rohstoffe][rohstoffe]
-- [Straßen]
+- [Straßen][strassen-id]
 - [Gebäude]
 - [Kriegstabellen]
 
-Weiterlesen: [Straße].
-
-[Straße]: ./roads.md
+Weiterlesen: [Straße][strassen-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
 
-[diese Beispiele]: ./production.md
-[Straßen]: ./roads.md
 [Gebäude]: ./buildings.md
 [Kriegstabellen]: ./war-tables.md

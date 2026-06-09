@@ -99,9 +99,9 @@ Zur Zuordnung siehe die [Kräuterliste][krauterliste].
 
 ## Siehe auch
 
-- [Produktion]
+- [Produktion][produktion]
 - [Waren]
-- [Straßen]
+- [Straßen][strassen-id]
 - [Gebäude]
 
 Weiterlesen: [Waren].
@@ -116,8 +116,7 @@ Weiterlesen: [Waren].
 [Kräuterkundlern]: ./skills-list.md
 [bef-pflanze]: ./cmd-plant.md
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
-[Produktion]: ./production.md
-[Straßen]: ./roads.md
+
 [Gebäude]: ./buildings.md
 
 [Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium

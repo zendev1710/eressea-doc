@@ -3,7 +3,11 @@
 alias: strassen
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+<!-- NOTE: Straßen slugifyied/stringifyied result is straen, not human readable, so a specific id is used -->
+[](){ #strassen-id }
+
 # Straßen
 
 **Straßen** erhöhen die Reisegeschwindigkeit über Land. Dazu müssen von der Start- bis zur Zielregion inklusive Straßen existieren. Diese Straßen erlauben ein leichtes Fortkommen, da sie bei Regen nicht versumpfen, nicht vom Wald überwachsen werden und Flüsse und Schluchten von Brücken überspannt werden.

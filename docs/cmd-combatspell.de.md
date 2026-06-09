@@ -18,7 +18,7 @@ Die Beschreibung eines Zaubers kann man sich mit dem Befehl [[bef-zeige]] erneut
 
 ## Siehe auch
 
-- [[magie-de]]
+- [Magie][magie-de-id]
 - [[bef-zaubere]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAMPFZAUBER&oldid=16818] -->

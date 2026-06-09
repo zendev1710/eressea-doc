@@ -3,14 +3,14 @@
 alias: production
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 [](){ #production-id }
 
 # Production
 
 Various things can be produced in Eressea.  
 
-There are [resources][resources] (e.g. iron, stones, wood, horses) and [[items|finished products]]: various weapons and armor, [[ships]] and chariots, [[buildings]] and [[roads]] and alchemical [[alchemy|potions]].  
+There are [resources][resources] (e.g. iron, stones, wood, horses) and [[items|finished products]]: various weapons and armor, [ships][ships-id] and chariots, [[buildings]] and [[roads]] and alchemical [[alchemy|potions]].  
 In order to be able to produce things, you need the appropriate skill.  
 
 Most things are done with the order [[cmd-make|`MAKE`*`<number>`*` `*`item`*]], for example `MAKE Iron`, `MAKE Sword` or `MAKE 15 Elvenbow`.  
@@ -73,7 +73,7 @@ To simplify this, there is an [[items-pool]].
 
 - [Resources][resources]
 - [[items|Goods]]
-- [[roads]]
+- [Roads][roads-id]
 - [[ships]]
 - [[buildings]]
 - [[faction-pool]]

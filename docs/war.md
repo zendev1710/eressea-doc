@@ -397,7 +397,7 @@ This happens at the beginning of the turn, which means that all effects of [[cmd
 
 ## Combat on and with ships
 
-Sea battles are fought like land battles: The [[ships]] board each other and the units come at each other.  
+Sea battles are fought like land battles: The [ships][ships-id] board each other and the units come at each other.  
 After the battle, it is possible for the units to carry out further long orders.
 
 If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round.  

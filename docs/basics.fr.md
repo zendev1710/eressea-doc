@@ -38,12 +38,12 @@ Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que
 
 ## La famine
 
-Évitez la [famine][silver-famine-id] à tout prix. Les effets sont catastrophiques.  
+Évitez la [famine][famine] à tout prix. Les effets sont catastrophiques.  
 Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
 ## Les finances
 
-Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-fr-taxation-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
+Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-taxation-fr-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
 
 ## Mage
 
@@ -75,7 +75,7 @@ Par exemple, vous créez une nouvelle unité, recrutez un [Chat][chats]{"title=C
 Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [[cmd-learn|apprendre]]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
 
 Dans cette situation, il ne suffit pas de lui donner 20 silver pour le temps de trajet et la semaine d'apprentissage.  
-Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [affamée][silver-famine-id] dans la région voisine.  
+Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [affamée][famine] dans la région voisine.  
 
 ## Scout
 

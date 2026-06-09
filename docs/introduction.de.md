@@ -9,16 +9,16 @@ alias: einleitung
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Map view")
 
-In Eressea übernimmst du eine [Partei] von Personen einer bestimmten [Rasse], die du dir bei der [Anmeldung][anmeldung] aussuchen kannst. Du wirst dann mit einigen anderen gemeinsam in der Welt von Eressea ausgesetzt und kannst von dort aus mit der Erforschung der Umgebung und der ganzen Welt beginnen.
+In Eressea übernimmst du eine [Partei] von Personen einer bestimmten [Rasse][rassen], die du dir bei der [Anmeldung][anmeldung] aussuchen kannst. Du wirst dann mit einigen anderen gemeinsam in der Welt von Eressea ausgesetzt und kannst von dort aus mit der Erforschung der Umgebung und der ganzen Welt beginnen.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
 
-Eressea ist eine fantastische Welt. Wesen wie [Elfen][elfen] und [Zwerge][zwerge] bevölkern die Welt, und [[magie-de]] gehört zum täglichen Geschehen. Sogar [Drachen][drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
+Eressea ist eine fantastische Welt. Wesen wie [Elfen][elfen] und [Zwerge][zwerge] bevölkern die Welt, und [Magie][magie-de-id] gehört zum täglichen Geschehen. Sogar [Drachen][drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
 
 Eressea ist eine große Welt. Hunderte von Völkern leben auf den Inseln Eresseas und viele von ihnen werden sich wohl niemals begegnen, denn es kann Jahre dauern, die Entfernungen zu überbrücken.
 
-Eressea ist eine komplexe Welt. Ein Volk zu führen ist keine leichte Aufgabe. Vieles gilt es zu berücksichtigen, damit alles klappt und die Nachbarn mischen auch noch mit. Absprachen müssen getroffen werden, vielleicht kommt es zu Streitereien, gar zum [Krieg]. Und auch, wenn alles gut geht, beansprucht Eressea viel Zeit. Während man anfänglich kaum eine Stunde pro Woche braucht, kann das später auf zehn und mehr Stunden pro Woche anwachsen.
+Eressea ist eine komplexe Welt. Ein Volk zu führen ist keine leichte Aufgabe. Vieles gilt es zu berücksichtigen, damit alles klappt und die Nachbarn mischen auch noch mit. Absprachen müssen getroffen werden, vielleicht kommt es zu Streitereien, gar zum [Krieg][krieg]. Und auch, wenn alles gut geht, beansprucht Eressea viel Zeit. Während man anfänglich kaum eine Stunde pro Woche braucht, kann das später auf zehn und mehr Stunden pro Woche anwachsen.
 
 <!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
 ![Eressea report](assets/images/nr-report.jpg "An NR report")
@@ -42,9 +42,7 @@ Weiterlesen: [Welt].
 
 [Welt]: ./world.md
 [Partei]: ./factions.md
-[Rasse]: ./races.md
 [Monster]: ./monsters.md
-[Krieg]: ./war.md
 [Befehlen]: ./commands.md
 [Zugvorlage]: ./commands.md
 [Wochenbericht]: ./weekly-report.md

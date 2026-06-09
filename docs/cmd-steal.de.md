@@ -25,10 +25,9 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 
 ## Siehe auch
 
-- [Geld]
+- [Geld][geld]
 - [Tarnung und Wahrnehmung][tarnung-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
 
 [immun]: ./puppy-protection.md
-[Geld]: ./silver.md

@@ -30,7 +30,7 @@ But the game still goes on.
 - [Enno Rehling][enno-id]
   has been there since round 39 and took over development and game management after the other two game managers left.
 - Henning Peters ([Faroul][faroul-id])
-  Developer, among others, of the train checker [[echeck]].
+  Developer, among others, of the train checker [ECheck][echeck-id].
 - Benjamin Bärmann, Ingo Wilken
   Co-developer in the first years, including alchemy
 

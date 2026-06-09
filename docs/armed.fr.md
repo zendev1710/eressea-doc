@@ -12,7 +12,7 @@ Une unité est considérée comme armée et prête au combat*si elle possède un
     Une unité **doit être armée et prête au combat** pour :
 
     - [[cmd-guard|garder]] une région
-    - [Collecter des taxes][skill-taxaton-fr-id]{title="Taxation"}
+    - [Collecter des taxes][skill-taxation-fr-id]{title="Taxation"}
 
 Les [[monstres]] et autres unités maîtrisant le [combat à mains nues][skill-combat-a-mains-nues-id]{title="Unarmed combat"} sont considérés comme armés et prêts au combat, bien qu'ils ne portent pas d'arme.  
 En réalité, ils sont armés de dents et de griffes (ou de tentacules...).  

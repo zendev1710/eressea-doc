@@ -3,7 +3,7 @@
 alias: magellan
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 [](){ #magellan-id }
 
 # Magellan
@@ -21,7 +21,7 @@ Features include :
   The arrangement of the different windows can be freely adjusted
 - Comprehensive orders editor with autocompletion and syntax check
 - Extensive prediction functions, for example for the handover of items and routes
-- Extensive checking of orders and display of "open issues". Eliminates the need for additional tools such as [[echeck]]
+- Extensive checking of orders and display of "open issues". Eliminates the need for additional tools such as [ECheck][echeck-id]
 - Sending orders via email directly from the program
 - Import and export of (partial) reports and maps for exchange with other players
 - Fast navigation using keyboard shortcuts, search for units, bookmarks...

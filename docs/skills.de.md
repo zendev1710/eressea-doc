@@ -3,7 +3,7 @@
 alias: talente
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Talente
 
 Eine der wesentlichen Eigenschaften, die [Einheiten] in Eressea definieren, sind ihre Talente.
@@ -23,7 +23,7 @@ Manchmal wird aber auch der "rohe" Talentwert ohne Boni benötigt, vor allem um 
 ## Talente erlernen
 
 Eine weitere Talentstufe zu erreichen, wird von Stufe zu Stufe schwieriger.
-Im Mittel dauert der Aufstieg in eine neue Talentstufe mit dem Befehl [[bef-lerne]] in etwa Anzahl von Wochen entsprechend der angepeilten Talentstufe, ohne Berücksichtigung von Modifikationen durch [Rasse] oder Terrain.
+Im Mittel dauert der Aufstieg in eine neue Talentstufe mit dem Befehl [[bef-lerne]] in etwa Anzahl von Wochen entsprechend der angepeilten Talentstufe, ohne Berücksichtigung von Modifikationen durch [Rasse][rassen] oder Terrain.
 Die minimale Lernzeit beträgt eine Woche.
 Die maximale Lernzeit übersteigt (2 x neue Stufe − 1) nicht.
 Diese Extremwerte kommen weniger häufig vor als die durchschnittliche Dauer.
@@ -66,9 +66,9 @@ Hier solltest du also ggf. durch Umstrukturieren der Lehrer-Einheiten "klare Ver
 Beim Befehl [LERNE AUTO] versucht der Server, das Lernen und Lehren in einer Region zu automatisieren.
 Da dies allerdings durch eine einfache Heuristik bewirkt wird, ist nicht garantiert, dass hier eine (dauerhaft) optimale Lernkette entsteht.
 
-[Magie], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][skill-spionage-id] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
+[Magie][magie-de-id], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][skill-spionage-id] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
 Spionage zu erlernen kostet 100 Silber pro Person und Runde, Alchemie, Kräuterkunde und Taktik sogar 200 Silber pro Person und Woche.
-Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe [Tabelle][Magie]).
+Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe [Tabelle][magie-de-id]).
 Die Einheit, welche eines dieser Talente lernt, muss dieses Silber bei sich tragen.
 Dabei ist es für die Kosten unerheblich, ob die Einheit gelehrt wird oder nicht.
 Befindet sich die Einheit in einer [Akademie][akademie], verdoppeln sich die Lernkosten teurer Talente.
@@ -124,12 +124,12 @@ Alchemie, Bergbau, Burgenbau, Holzfällen, Kräuterkunde, Pferdedressur, Rüstun
 
 Dies ist die größte Gruppe von Talenten.
 Sie ermöglichen es, bestimmte Gegenstände, Gebäude, Schiffe oder Straßen herzustellen.
-Sie werden im Kapitel [Produktion] und [Alchemie][5] näher erklärt.
+Sie werden im Kapitel [Produktion][produktion] und [Alchemie][5] näher erklärt.
 
 ### Silbertalente
 
 Handel, Steuereintreiben und Unterhaltung werden gebraucht, um Silber erzeugen zu können.
-Mehr dazu im Kapitel über [Geld].
+Mehr dazu im Kapitel über [Geld][geld].
 
 ### Heimlich & Co
 
@@ -138,16 +138,18 @@ Sie haben ihre eigenen Kapitel.
 
 ### Fortbewegung
 
-Segeln und Reiten werden im Kapitel über [Reisen] erklärt.
+Segeln und Reiten werden im Kapitel über [Reisen][reisen] erklärt.
 Reiten ist zudem auch im [Kampf] nützlich.
+
+[](){ #skill-magie-de-id }
 
 ### Magie
 
-[Magie] ist ein Talent mit besonders großen Auswirkungen und beansprucht ein Kapitel für sich.
+[Magie][magie-de-id] ist ein Talent mit besonders großen Auswirkungen und beansprucht ein Kapitel für sich.
 
 ### Kampftalente
 
-Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im [Krieg] besonders relevant, sei es gegen andere Parteien oder Monster.
+Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im [Krieg][krieg] besonders relevant, sei es gegen andere Parteien oder Monster.
 
 Weiterlesen: [Liste der Talente].
 
@@ -157,17 +159,12 @@ Weiterlesen: [Liste der Talente].
 
 [Einheiten]: ./cmd-unit.md
 [bef-lerne]: ./cmd-learn.md
-[Rasse]: ./races.md
 [lehren]: ./cmd-teach.md
 [LERNE AUTO]: ./cmd-learn-auto.md
-[Magie]: ./magic.md
+[bef-vergiss]: ./cmd-forget.md
+
 [Alchemie]: ./skills-list.md
 [Taktik]: ./tactic.md
-[bef-vergiss]: ./cmd-forget.md
-[Produktion]: ./production.md
 [5]: ./alchemy.md
-[Geld]: ./silver.md
 [Wahrnehmung]: ./stealth.md
-[Reisen]: ./travel.md
 [Kampf]: ./war-tables.md
-[Krieg]: ./war.md

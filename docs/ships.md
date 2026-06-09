@@ -3,7 +3,9 @@
 alias: ships
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #ships-id }
+
 # Ships
 
 Ships are built using the [[cmd-make|**`MAKE`**&#91;*`levels`*&#93;*`ship type`*]] order.  

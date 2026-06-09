@@ -21,7 +21,7 @@ Weight, skill and raw material requirements.
 
 | Item                                 | Weight | Skill                            | min. |         raw material |
 |--------------------------------------|-------:|----------------------------------|-----:|---------------------:|
-| [silver]                             |   0,01 | --                               |   -- |                   -- |
+| [silver][money]                      |   0,01 | --                               |   -- |                   -- |
 | [gem][gem]                           |      1 | [trade][skill-trade-id]          |    1 |                   -- |
 | [incense][incense]                   |      2 | [trade][skill-trade-id]          |    1 |                   -- |
 | [balm][balm]                         |      2 | [trade][skill-trade-id]          |    1 |                   -- |
@@ -72,16 +72,13 @@ Weight, skill and raw material requirements.
 
 - [These examples][production-id]
 - [Resources][resources]
-- [roads]
+- [Roads][roads-id]
 - [buildings]
 - [war tables]
 
-Continue reading: [Roads].
-
-[Roads]: ./roads.md
+Continue reading: [roads][roads-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
 
 [buildings]: ./buildings.md
 [war tables]: ./war-tables.md
-[silver]: ./silver.md

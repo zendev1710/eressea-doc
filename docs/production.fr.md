@@ -73,7 +73,7 @@ Pour faciliter la collecte, il existe une [[reserve-d-objets]].
 
 - [Ressources][ressources]
 - [[items|Goods]]
-- [[roads]]
+- [Routes][routes-id]
 - [[ships]]
 - [[buildings]]
 - [[faction-pool]]

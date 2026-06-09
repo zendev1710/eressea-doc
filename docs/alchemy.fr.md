@@ -379,7 +379,7 @@ Plantes nécessaires pour concocter cette potion :
 | Potion                                                                    | Niv. | Cible               |
 |---------------------------------------------------------------------------|:----:|---------------------|
 | [eau de Goliath][eau-de-goliath]{title="Goliath water"}                   |  1   | Unité               |
-| [eau de vie][eau de vie][eau-de-vie]{title="Water of life"}               |  1   | Région              |
+| [eau de vie][eau-de-vie]{title="Water of life"}                           |  1   | Région              |
 | [potion de vérité][potion-de-verite]{title="Potion of truth"}             |  1   | Région              |
 | [the-des-sept-lieues]{title="Seven mile tea"}                             |  1   | Unité               |
 | [breuvage de labeur][breuvage-de-labeur]{title="Busybeer"}                |  2   | Unité               |

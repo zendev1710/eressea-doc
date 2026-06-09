@@ -54,11 +54,11 @@ Zusammen mit einem Katapult und Katapultmunition: kämpfen. Mit Katapulten kann 
 
 ## Kräuterkunde
 
-Finden von [Kräutern] zur Herstellung von [alchemistischen Tränken][Tränken]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
+Finden von [Kräutern] zur Herstellung von [alchemistischen Tränken][Tränken]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion][produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
 
-## [[magie-de]]
+## [Magie][magie-de-id]
 
-Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [[magie-de|Silber]].
+Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [Silber][magie-de-id].
 
 ## Pferdedressur
 
@@ -109,7 +109,7 @@ Dieses Talent steigt nicht durch Anwendung, ebenso wenig das entsprechende Waffe
 
 ## Straßenbau
 
-Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut werden (siehe [Straßen]).
+Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut werden (siehe [Straßen][strassen-id]).
 
 ## [[taktik]]
 
@@ -149,15 +149,14 @@ Weiterlesen: [Tarnung][tarnung-id].
 [Tränken]: ./alchemy.md
 [Kräutern]: ./herbs.md
 [Gebäude und Burgen]: ./buildings.md
+[Waren]: ./items.md
+[beklauen]: ./stealth.md
+[Wahrnehmung]: ./stealth.md
+
 [bef-kaufe]: ./cmd-buy.md
 [`FORSCHE KRÄUTER`]: ./cmd-research.md
 [`MACHE SAMEN`]: ./cmd-make.md
-[Produktion]: ./production.md
 [bef-pflanze]: ./cmd-plant.md
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
-[Waren]: ./items.md
 [bef-spioniere]: ./cmd-spy.md
-[Straßen]: ./roads.md
-[beklauen]: ./stealth.md
 [Bewachungen]: ./cmd-guard.md
-[Wahrnehmung]: ./stealth.md

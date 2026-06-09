@@ -80,7 +80,7 @@ Cette compétence permet d'acheter et de vendre des [biens de luxe][biens-de-lux
 
 Plus d'information :
 
-- Chapitre dédié : [le commerce][le commerce]
+- Chapitre dédié : [le commerce][le-commerce]
 - Ordre [[cmd-buy]]
 - Ordre [[cmd-sell]]
 

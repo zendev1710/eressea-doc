@@ -18,10 +18,9 @@ Das Steuereintreiben-Talent steigt nicht während der Anwendung.
 
 ## Siehe auch
 
-- [Geld]
+- [Geld][geld]
 
 <!-- From [https://wiki.eressea.de/index.php?title=TREIBE&oldid=16747] -->
 
 [Talent]: ./skills-list.md
 [bewaffneter]: ./armed.md
-[Geld]: ./silver.md

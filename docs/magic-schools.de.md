@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: magiegebiete
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Magiegebiete
 
 Es gibt fünf Magiegebiete in Eressea.  
 
-Jede Partei muss sich beim ersten Mal Lernen von [[magie-de]] für ein Magiegebiet entscheiden;  
+Jede Partei muss sich beim ersten Mal Lernen von [Magie][magie-de-id] für ein Magiegebiet entscheiden;  
 **einmal festgesetzt kann das Magiegebiet nicht geändert werden**.  
 
 Im Folgenden stehen die Beschreibungen der fünf Magiegebiete und jeweils ein Link zu den Zaubersprüchen.  

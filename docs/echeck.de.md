@@ -2,6 +2,10 @@
 # cSpell:locale de
 alias: echeck-de
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #echeck-de-id }
+
 # ECheck
 
 **ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut.

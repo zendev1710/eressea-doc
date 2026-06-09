@@ -143,7 +143,7 @@ Cependant, pour la défense, ils auront besoin d'une arme (et d'une compétence 
 
 Pendant le combat, on ne change plus d'arme, sauf s'il est possible de prendre une meilleure arme à une personne de la même unité qui est déjà morte (les combattants survivants utilisent chacun les meilleurs sets d'armes disponibles).
 
-Un combattant à distance qui soudain se retrouve en première ligne doit s'il est attaqué se saisir d'une arme de corps à corps (s'il en possède une et s'il a la compétence correspondante au moins au niveau 1), sinon il se défend [sans arme][non armés].
+Un combattant à distance qui soudain se retrouve en première ligne doit s'il est attaqué se saisir d'une arme de corps à corps (s'il en possède une et s'il a la compétence correspondante au moins au niveau 1), sinon il se défend [sans arme][war-combat-a-mains-nues-id].
 
 **Exemple :**
 

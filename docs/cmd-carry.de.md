@@ -45,6 +45,6 @@ Partei 300:
 
 <!-- From [https://wiki.eressea.de/index.php?title=FAHRE&oldid=16721] -->
 
-[Reisen]: ./travel.md
+[Reisen]: ./travel.de.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md

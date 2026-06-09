@@ -22,9 +22,7 @@ Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
 
 Nicht zu verwechseln ist der Parteipool mit dem [Materialpool] und dem [Silberpool][der-silberpool], die virtuell alle Einheitsgegenstände bzw. Silber einer Partei in einer Region enthalten.
 
-Weiterlesen: [Geld].
-
-[Geld]: ./silver.md
+Weiterlesen: [Geld][geld].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 

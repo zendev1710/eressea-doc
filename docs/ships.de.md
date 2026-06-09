@@ -135,7 +135,7 @@ GIB 123 ALLES PERSONEN
 
 ## Siehe auch
 
-- [Schiffsreise]
+- [Schiffsreise][reisen]
 - [[bef-gib]][übergibt]
 
 Weiterlesen: [Gebäude].
@@ -147,4 +147,3 @@ Weiterlesen: [Gebäude].
 [umbenennen]: ./cmd-name.md
 [beschreiben]: ./cmd-describe.md
 [übergibt]: ./cmd-give.md
-[Schiffsreise]: ./travel.md

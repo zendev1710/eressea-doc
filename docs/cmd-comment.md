@@ -2,12 +2,14 @@
 # cSpell:locale en
 alias: cmd-comment
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # ; COMMENT
 
 The semicolon “;” is used in Eressea orders to mark (temporary) comments.
 Some of these comments are inserted "automatically".
 For example, the standard [[orders|orders template]] always contains the names of regions and units, the number of people and their silver supply as a comment.
-In addition, comments are also used to provide the [[echeck]] program with certain information, such as wages in a region.
+In addition, comments are also used to provide the [ECheck][echeck-id] program with certain information, such as wages in a region.
 
 ```text
 ERESSEA abcd "Enter password here"

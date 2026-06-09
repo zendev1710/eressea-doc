@@ -36,12 +36,11 @@ Und schließlich wieder wie am Anfang.
 
 ## Siehe auch
 
-- [Reisen]
+- [Reisen][reisen]
 - [[bef-nach]]
 - [[bef-folge]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
 [bef-nach]: ./cmd-move.md
-[Reisen]: ./travel.md
 [bef-folge]: ./cmd-follow.md

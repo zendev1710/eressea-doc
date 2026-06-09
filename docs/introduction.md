@@ -14,7 +14,7 @@ In Eressea, each player takes charge of a [[factions|faction]] of people of a ce
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
 
-Eressea is a fantastic world. Creatures such as [elves] and [dwarves][dwarves] populate the world, and [magic] is a daily occurrence. Even [dragons][dragons-id] have been sighted, large, powerful and above all dangerous [monsters] that require hundreds of soldiers to fight, as well as sea serpents, [ents][ents-id] and other strange creatures.
+Eressea is a fantastic world. Creatures such as [elves] and [dwarves][dwarves] populate the world, and [magic] is a daily occurrence. Even [dragons][dragons-id] have been sighted, large, powerful and above all dangerous [monsters][monsters] that require hundreds of soldiers to fight, as well as sea serpents, [ents][ents-id] and other strange creatures.
 
 Eressea is a large world. Hundreds of peoples live on the islands of Eressea, and many of them will probably never meet, as it can take years to bridge the distances.
 
@@ -45,14 +45,11 @@ If no move is received by the game master, this results in a so-called NMR (no m
 If there are 4 NMRs in a row, the faction is automatically removed from the game.  
 This means that the faction is deleted on the 5th NMR.
 
-Continue reading: [World].
-
-[World]: ./world.md
+Continue reading: [World][world].
 
 <!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
 [magic]: ./magic.md
-[monsters]: ./monsters.md
 [orders]: ./commands.md
 [move template]: ./move-template.md
 [weekly abstract]: ./weekly-report.md

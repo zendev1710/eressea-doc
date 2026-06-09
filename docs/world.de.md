@@ -339,7 +339,7 @@ Hier eine kurze Übersicht:
 
 ## Siehe auch
 
-- [Geld]
+- [Geld][geld]
 - [[bef-rekrutiere]]
 - [[bef-unterhalte]]
 
@@ -352,6 +352,5 @@ Weiterlesen: [Parteien].
 [Geländearten]: ./terrains.md
 [Kräuter]: ./herbs.md
 [Befehle]: ./commands.md
-[See]: ./travel.md
-[Geld]: ./silver.md
+[See]: ./travel.de.md
 [bef-unterhalte]: ./cmd-entertain.md

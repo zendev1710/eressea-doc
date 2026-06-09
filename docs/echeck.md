@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: echeck
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #echeck-id }
+
 # ECheck
 
 **ECheck** is the orders checker that also works on the Eressea server.  

@@ -2,6 +2,10 @@
 # cSpell:locale fr
 alias: echeck-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #echeck-fr-id }
+
 # ECheck
 
  **EVérifiez** est le vérificateur d'ordres, qui fonctionne également sur le serveur d'Eressea.  

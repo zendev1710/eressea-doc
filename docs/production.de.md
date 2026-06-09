@@ -6,7 +6,7 @@ alias: produktion
 <!-- markdownlint-disable MD052 -->
 # Produktion
 
-Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe][rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe][schiff] und Wagen, [Gebäude] und [Straßen] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MACHE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MACHE Eisen, MACHE Schwert` oder `MACHE 15 Elfenbogen`.
+Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe][rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte] (diverse Waffen und Rüstungen, [Schiffe][schiff] und Wagen, [Gebäude] und [Straßen][strassen-id] und alchemistische [Tränke]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MACHE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MACHE Eisen, MACHE Schwert` oder `MACHE 15 Elfenbogen`.
 
 Je nach Gegenstand wird ein verschieden hoher Talentwert benötigt, damit man überhaupt in der Lage ist, diesen herzustellen. die meisten [Rohstoffe][rohstoffe] erfordern nur Grundkenntnisse der entsprechenden Talente (Stufe 1), während die meisten [Gegenstände] höhere Talentstufen erfordern. Bei Gegenständen mit hohen Mindesttalentwerten kann man auch nur wenige davon herstellen. In jedem Fall kann man pro Einheit und Runde nur eine Art von Gegenständen oder Rohstoffen herstellen und auch nur an einem Gebäude oder Schiff arbeiten.
 
@@ -30,7 +30,7 @@ Gerade bei größeren Parteien kann das "Zusammensuchen" aller Materialien z.B. 
 
 - [Rohstoffe][rohstoffe]
 - [Waren][Endprodukte]
-- [Straßen][2]
+- [Straßen][strassen-id]
 - [Schiffe][schiff]
 - [Gebäude]
 - [Parteipool]
@@ -41,9 +41,7 @@ Weiterlesen: [Rohstoffe][rohstoffe].
 
 [Endprodukte]: ./items.md
 [Gebäude]: ./buildings.md
-[Straßen]: ./roads.md
 [Tränke]: ./alchemy.md
 [Gegenstände]: ./items.md
 [Materialpool]: ./items-pool.md
-[2]: ./roads.md
 [Parteipool]: ./faction-pool.md

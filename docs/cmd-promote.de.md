@@ -10,7 +10,7 @@ alias: bef-befoerdere
 
 Befördert eine Einheit der eigenen Parteirasse zum Helden.
 
-Helden sind besonders stark im [Kampf].
+Helden sind besonders stark im [Kampf][krieg].
 Sie attackieren in jeder Kampfrunde 5 mal.
 Darum lohnt sich die Beförderung von Einheiten mit Kampftalenten zum Helden.
 
@@ -39,5 +39,3 @@ Für Rechenfaule hier eine Tabelle, bei welcher Personenzahl in der Partei wie v
 | Helden   |   21 |   22 |   23 |   24 |   25 |   26 |   27 |   28 |   29 |   30 |   35 |   40 |   45 |    50 |    55 |    60 |    65 |     70 |     75 |     80 |
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEFÖRDERE&oldid=16056] -->
-
-[Kampf]: ./war.md

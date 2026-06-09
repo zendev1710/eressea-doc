@@ -8,7 +8,7 @@ alias: bef-rekrutiere
 
 **`REKRUTIERE`**` `*`anzahl`*  
 
-Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse] zwischen 40 und 150 Silber an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silber bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silber, holt sie es sich aus dem [Silberpool][der-silberpool].
+Hiermit werden neue Personen aus den Bauern der Region angeheuert. Pro angeheuerter Person muss man je nach [Rasse][rassen] zwischen 40 und 150 Silber an [Rekrutierungskosten] ausgeben. Die Einheit, welche neue Mitglieder rekrutiert, muss dieses Silber bei sich tragen. Wird eine neue Einheit erschaffen, muss man der neuen Einheit das nötige Geld geben, damit sie rekrutieren kann. Hat die Einheit nicht genug Silber, holt sie es sich aus dem [Silberpool][der-silberpool].
 
 Man kann nur Personen der eigenen Parteirasse anwerben. [Migranten][menschen]-Einheiten werben also keine weiteren Migranten an. Die Bauern einer Region haben keine Rasse. Sie "entscheiden" sich erst bei der Rekrutierung, welcher Rasse sie angehören.
 
@@ -26,5 +26,4 @@ Nachdem man Leute rekrutiert hat, kann man durchaus noch andere Befehle ausführ
 
 <!-- From [https://wiki.eressea.de/index.php?title=REKRUTIERE&oldid=15790] -->
 
-[Rasse]: ./races.md
 [Rekrutierungskosten]: ./skills-modifiers.md

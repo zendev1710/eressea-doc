@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: first-round
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # The first round
 
 ## The first report
@@ -74,7 +76,7 @@ I don't know exactly when it started.
 
 Note that orders spanning more than one line.
 here the DESCRIBE order with backslash (//) were used.
-However, if you're using [Magellan] for your orders, you don't need to worry about this.
+However, if you're using [Magellan][magellan-id] for your orders, you don't need to worry about this.
 
 ```text
 ERESSEA 37wj "pwpw42"
@@ -243,11 +245,8 @@ NEXT
 
 - Another one [Eressea Tutorial] (currently only in German)
 
-Continue reading: [Welpenschutz].
-
-[Welpenschutz]: ./puppy-protection.md
+Continue reading: [puppy protection][puppy-protection].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Magellan]: ./magellan.md
 [Eressea Tutorial]: https://playeressea.wordpress.com/eressea-tutorium/ "Erressea Tutorial in German (web)"

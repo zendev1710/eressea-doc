@@ -44,7 +44,7 @@ A starving unit cannot give people to other units. In addition, the skill levels
 
 Over time, wounded units recover. Units normally regenerate 5% (some races more) of their maximum hit points per round, but at least one point per person in the unit. Undead units do not regenerate.
 
-The sailing skill is only reduced by one level when units are starving. Nevertheless, starvation at sea is a critical situation. On the one hand, nobody can work there except [aquarians][aquarians], so you are dependent on silver from outside. Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take [damage] and drift away.
+The sailing skill is only reduced by one level when units are starving. Nevertheless, starvation at sea is a critical situation. On the one hand, nobody can work there except [aquarians][aquarians], so you are dependent on silver from outside. Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take [damage][ships-id] and drift away.
 
 Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning. Units lose hit points and will be much weaker in any subsequent battle. If units survive such a battle anyway, there is still a risk that they will continue to starve because they were unable to work due to the battle (see [combat end][the-end]).
 
@@ -223,7 +223,6 @@ Continue reading: [Material pool].
 [recruit]: ./cmd-recruit.md
 [reserved]: ./cmd-reserve.md
 [buildings]: ./buildings.md
-[damage]: ./ships.md
 [`WORK`]: ./cmd-work.md
 [stealth skill]: ./stealth.md
 [castles]: ./castles.md

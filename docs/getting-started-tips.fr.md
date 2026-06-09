@@ -21,7 +21,7 @@ Eressea y possède son propre sous-forum.
 
 La plupart des joueurs utilisent [[magellan]], un programme client qui lit le CR (« Computer Report »), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
 
-Il existe aussi [[echeck]], un programme qui vous permet de vérifier la validité de vos ordres.  
+Il existe aussi [ECheck][echeck-fr-id], un programme qui vous permet de vérifier la validité de vos ordres.  
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  
 Utilisez ECheck avec l'option `-e` pour vérifier si vos ordres sont interprétés comme prévu.  
 ECheck vérifie uniquement la syntaxe des ordres.  

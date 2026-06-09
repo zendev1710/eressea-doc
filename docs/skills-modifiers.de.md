@@ -6,7 +6,7 @@ alias: talentmodifikatoren
 <!-- markdownlint-disable MD052 -->
 # Talentmodifikatoren
 
-Die verschiedenen [Rassen] haben neben ihren Spezialfähigkeiten unterschiedliche Rekrutierungskosten und Modifikatoren auf [Talente]. Diese sind in dieser Tabelle zusammengefasst. Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird immer die effektive Stufe angezeigt.
+Die verschiedenen [Rassen][rassen] haben neben ihren Spezialfähigkeiten unterschiedliche Rekrutierungskosten und Modifikatoren auf [Talente]. Diese sind in dieser Tabelle zusammengefasst. Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird immer die effektive Stufe angezeigt.
 
 Rassenmodifikatoren
 
@@ -51,4 +51,3 @@ Weiterlesen: [Talente].
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren&oldid=14857] -->
 
 [Talente]: ./skills.md
-[Rassen]: ./races.md

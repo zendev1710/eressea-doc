@@ -6,7 +6,7 @@ alias: sailing
 <!-- markdownlint-disable MD052 -->
 # Sailing
 
-You can leave your island only with [[ships]] and, for example, open up new markets or establish direct contact with other factions.
+You can leave your island only with [ships][ships-id] and, for example, open up new markets or establish direct contact with other factions.
 With a ship it is possible to move up to 7 regions, even more than 7 regions with the help of aquarians or with magic.
 
 All ships larger than a boat (including longboats) can only dock in plains and forests.
@@ -66,7 +66,7 @@ Ships capacities are shown in the table above and are always displayed in the re
 The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities][travel-by-land-or-by-sea].
 
 It is possible to group together several ships in a [convoy][convoy-id].
-Details are described in the chapter on [[ships]].
+Details are described in the chapter on [ships][ships-id].
 
 Units aboard a ship cannot execute long orders (with the exception of aquarians).
 Only the captain can give [[cmd-move]] or [[cmd-route]] orders to navigate the ship.
@@ -129,7 +129,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 ## See also
 
 - [[travel|movement]]
-- [[ships]]
+- [Ships][ships-id]
 
 Continue reading: [Production][production-id].
 

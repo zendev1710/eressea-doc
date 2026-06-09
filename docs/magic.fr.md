@@ -3,7 +3,10 @@
 alias: magie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #magie-fr-id }
+
 # Magie
 
 La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].

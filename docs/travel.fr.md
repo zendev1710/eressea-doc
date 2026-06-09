@@ -3,7 +3,7 @@
 alias: deplacements
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Déplacements
 
 Il existe plusieurs façons de se déplacer : à pied, à cheval, ou en bateau sur les océans.  
@@ -100,6 +100,8 @@ Le poids des objets les plus courants est répertorié dans le [tableau récapit
 
 Si une unité a suffisamment de **chevaux** et qu'elle maîtrise l'[Équitation][equitation]{title="Riding"}, elle peut se déplacer **d'une région supplémentaire**.  
 Si les régions contiguës sont reliées par des [[routes]], les unités peuvent se déplacer jusqu'à **2 régions à pied** et **3 régions à cheval**.  
+
+[](){ #travel-routes-id }
 
 ### Routes
 

@@ -3,7 +3,10 @@
 alias: roads
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #roads-id }
+
 # Roads
 
 **Roads** increase the travelling speed over land. To achieve this, there must be inclusive roads from the start to the destination region. These roads allow easy progress as they do not become boggy when it rains, are not overgrown by forest and rivers and ravines are spanned by bridges.
@@ -35,9 +38,7 @@ Building Roads
 
 After completion a unit can travel on foot with `MOVE E NE` from (0,0) to (1,1) in one round.
 
-Continue reading: [Ships].
-
-[Ships]: ./ships.md
+Continue reading: [ships][ships-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/en&oldid=15936] -->
 

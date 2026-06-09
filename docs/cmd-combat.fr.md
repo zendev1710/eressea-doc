@@ -25,7 +25,7 @@ Ensemble des statuts de combat, de la plus forte exposition au combat à la plus
 | [`REAR`][combat-rear]             | 2ème  | Dégâts >= 20 %     | Les tireurs                        |
 | [`DEFENSIVE`][combat-defensive]   | 2ème  | Dégâts >= 10 %     | Les mages                          |
 | [`NOT`][combat-not]               | ---   | Dégâts >= 10 %     | Les occupants d'un bâtiment        |
-| [`FLEE`][ombat-flee]              | ---   | Toujours           | Les civils                         |
+| [`FLEE`][combat-flee]             | ---   | Toujours           | Les civils                         |
 
 !!! note
     une unité **en première ligne** est dite aussi au front (ou dans la mêlée).

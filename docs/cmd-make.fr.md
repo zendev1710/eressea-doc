@@ -116,6 +116,8 @@ Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* 
 - première semaine : `MAKE longboat`. Un nouveau bateau est construit et reçoit l'identifiant 76 de la part du serveur.
 - deuxième semaine : `MAKE SHIP 76`. Poursuit la construction d'une [chaloupe][chaloupe]{title="Longboat"} d'identifiant 76.
 
+[](){ #make-routes-id }
+
 ## Routes
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  

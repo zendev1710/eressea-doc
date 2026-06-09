@@ -14,7 +14,7 @@ alias: bef-kaempfe
 **`KÄMPFE`**`FLIEHE`  
 **`KÄMPFE`**`HELFE [NICHT]`  
 
-Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel [Vom Kriege] auch den Abschnitt [Kampfreihen][die-schlacht]).
+Mit diesem Befehl wird die Reaktion einer Einheit im Falle eines Kampfes bestimmt (siehe im Kapitel [Vom Kriege][krieg] auch den Abschnitt [Kampfreihen][die-schlacht]).
 
 ## `KÄMPFE AGGRESSIV`
 
@@ -75,9 +75,8 @@ Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf
 Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.
 
 Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird.
-Weitere Details unter [[bef-helfe]] und in den Kapiteln [Kampf][Vom Kriege] und [[alliances|Allianz]].
+Weitere Details unter [[bef-helfe]] und in den Kapiteln [Kampf][krieg] und [[alliances|Allianz]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
-[Vom Kriege]: ./war.md
 [Kampfzauber]: ./cmd-combatspell.md

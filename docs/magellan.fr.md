@@ -3,7 +3,7 @@
 alias: magellan-fr
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 [](){ #magellan-fr-id }
 
 # Magellan
@@ -23,7 +23,7 @@ Les fonctionnalités incluent :
 - Éditeur d'ordres complet avec saisie semi-automatique et vérification de la syntaxe
 - Fonctions de prédiction étendues, par exemple pour la remise d'objets et les itinéraires
 - Vérification approfondie des ordres et affichage des "problèmes en cours".
-  Élimine le besoin d'outils supplémentaires tels que [[echeck]]
+  Élimine le besoin d'outils supplémentaires tels que [ECheck][echeck-id]
 - Envoi des ordres par e-mail directement depuis le programme
 - Importation et exportation de rapports (partiels) et de cartes pour échange avec d'autres joueurs
 - Navigation rapide grâce aux raccourcis clavier, recherche d'unités, signets...

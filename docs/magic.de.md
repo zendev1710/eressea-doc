@@ -3,10 +3,13 @@
 alias: magie-de
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #magie-de-id }
+
 # Magie
 
-Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [Kampf] den Feind schwächen oder Verbündete stärken.
+Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen und kann im [Kampf][krieg] den Feind schwächen oder Verbündete stärken.
 
 ## Das Studium der Magie
 
@@ -296,7 +299,7 @@ Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig
 
 Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:
 
-- die natürliche Magieresistenz der [Rassen]
+- die natürliche Magieresistenz der [Rassen][rassen]
 - plus 5% pro Magietalent
 - plus 10% \* Einhörner pro Person
 - evtl. Bonus oder Abzug durch [Zauber] auf der Einheit oder der Region
@@ -363,7 +366,6 @@ Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Kampf]: ./war.md
 [Illaun]: ./magic-school-illaun.md
 [Tybied]: ./magic-school-tybied.md
 [Gwyrrd]: ./magic-school-gwyrrd.md
@@ -380,7 +382,6 @@ Weiterlesen: [[magiegebiete]].
 [Ring der Macht]: ./ring-of-power.md
 [bef-ursprung]: ./cmd-origin.md
 [bef-kontaktiere]: ./cmd-contact.md
-[Rassen]: ./races.md
 [Zauber]: ./spells-list.md
 [Elfen]: ./skills-modifiers.md
 [Vertraute]: ./familiars.md

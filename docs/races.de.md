@@ -39,7 +39,7 @@ Elfen sind ein geradezu magisches Volk. Schwere Arbeiten sind nicht unbedingt ih
 
 - Jeder Elf in der Region (bis zu maximal 1/8 der [Regionskapazität] für Bauern, das entspricht z.B. bis zu 250 Elfen in einem Sumpf) erhöht die Chance eines Baums, in einer Sommer- oder Herbstwoche einen Samen abzuwerfen. Das kann je nach Anzahl der Elfen einen ganz deutlichen Unterschied ausmachen.
 - Elfen haben in Wäldern zusätzlich Tarnung und Wahrnehmung +1 und Taktik +2.
-- Elfen dürfen sechs (statt fünf) [[magie-de|Magier]] besitzen.
+- Elfen dürfen sechs (statt fünf) [Magier][magie-de-id] besitzen.
 - Elfenmagier regenerieren Aura 25% schneller
 - Elfen machen mit Bögen einen Schadenspunkt mehr.
 - Nur Elfen können [Elfenbögen][waffeneigenschaften] bauen.
@@ -93,7 +93,7 @@ Die Katzen zählen kaum zu den Handwerkern. Ihre feinen Sinne und ihre Geschmeid
 
 Meermenschen sind im Wasser zu Hause, im Gebirge fühlen sie sich dagegen unwohl. Schiffe bauen und bedienen sie so leicht, als seien es Bauklötzchen, während ihnen andere Arbeiten nicht ganz so leicht fallen.
 
-- Alle Schiffe mit Meermenschen-Kapitän einer Meermenschen-Partei können sich ein Feld weiter [bewegen].
+- Alle Schiffe mit Meermenschen-Kapitän einer Meermenschen-Partei können sich ein Feld weiter [bewegen][reisen].
 - Meermenschen können auch auf Schiffen [lange Befehle] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen][anschwimmen].
 - Bis zu 100 Meermenschen pro Ozeanfeld können auf hoher See mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen.
 
@@ -160,7 +160,7 @@ Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist n
 
 - Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][bergwerk] und [hier][vom-bergbau]).
 - Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
-- [[magie-de|Zwergenmagier]] regenerieren Aura 50% langsamer.
+- [Zwergenmagier][magie-de-id] regenerieren Aura 50% langsamer.
 
 Weiterlesen: [Talentmodifikatoren].
 
@@ -174,6 +174,5 @@ Weiterlesen: [Talentmodifikatoren].
 [Trank]: ./alchemy.md
 [Taktik]: ./tactic.md
 [lange Befehle]: ./commands.md
-[bewegen]: ./travel.md
 [teuren Talenten]: ./skills.md
 [Helden]: ./cmd-promote.md

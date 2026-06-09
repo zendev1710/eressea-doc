@@ -96,7 +96,7 @@ other buildings usually also require wood, iron, and silver in various quantitie
 
 ## Ships
 
-With `MAKE`*`ship_type`* a unit starts building a new [[ships|ship]].
+With `MAKE`*`ship_type`* a unit starts building a new [ship][ships-id].
 This requires the shipcraft skill and wood. It can continue building with `MAKE [`*`levels`*`] SHIP`*`ship-nr`*.
 Ships cannot be expanded like castles; the type is determined at the start of construction.  
 Ships can only be built up to the size specified by their type.
@@ -106,10 +106,12 @@ With buildings as well as ships you can specify with *levels* how many size poin
 - first week: `MAKE longboat`. A new ship is constructed and gets the number 76 from the server.
 - second week: `MAKE SHIP 76`. Continue building the ship with the number 76.
 
+[](){ #make-roads-id }
+
 ## Roads
 
 To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*.  
-To build [[roads]], the unit needs the skill [roadwork][roadwork] and [[items|stones]].  
+To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [[items|stones]].  
 In glaciers, it needs a [tunnel][tunnel-id] beforehand, in deserts a [caravanserai][caravanserai] and in swamps a [dam][dam].  
 One stone is used per skill point of road construction.
 Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]].  

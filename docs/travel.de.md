@@ -40,11 +40,11 @@ Gewichte und Kapazitäten
 
 ## Straßen
 
-Durch den Bau von [Straßen] kann die Reisegeschwindigkeit um eine Region erhöht werden. Dabei müssen alle Regionen, durch die man reist, ein komplettes Straßennetz aufweisen. Will man also zu Fuß in einer Woche zwei Regionen weit nach Osten reisen, benötigt die Startregion eine vollständige Straße nach Osten, die mittlere Region je eine vollständige Straßen nach Osten und Westen und die Zielregion eine vollständige Straße nach Westen.
+Durch den Bau von [Straßen][strassen-id] kann die Reisegeschwindigkeit um eine Region erhöht werden. Dabei müssen alle Regionen, durch die man reist, ein komplettes Straßennetz aufweisen. Will man also zu Fuß in einer Woche zwei Regionen weit nach Osten reisen, benötigt die Startregion eine vollständige Straße nach Osten, die mittlere Region je eine vollständige Straßen nach Osten und Westen und die Zielregion eine vollständige Straße nach Westen.
 
 ## Pferd und Wagen
 
-Die **Bewegungsgeschwindigkeit** zu Fuß beträgt ohne [Straße][Straßen] eine Region pro Runde; mit Straße sind es zwei. Zu Pferd kann man sich ohne Straße zwei Regionen weit bewegen, mit Straßen drei. Pro 2 Pferde wird ein Talentpunkt benötigt um zu reiten. Die Einheit reitet automatisch, wenn für alle Pferde genug Reittalent vorhanden ist und die Einheit nicht überladen ist. Ist die Einheit zu schwer beladen um zu reiten, aber nicht zu schwer beladen um sich zu Fuß zu bewegen, bleibt die Einheit nicht ganz stehen, sondern bewegt sich eine Region weit (ohne Straße).
+Die **Bewegungsgeschwindigkeit** zu Fuß beträgt ohne [Straße][strassen-id] eine Region pro Runde; mit Straße sind es zwei. Zu Pferd kann man sich ohne Straße zwei Regionen weit bewegen, mit Straßen drei. Pro 2 Pferde wird ein Talentpunkt benötigt um zu reiten. Die Einheit reitet automatisch, wenn für alle Pferde genug Reittalent vorhanden ist und die Einheit nicht überladen ist. Ist die Einheit zu schwer beladen um zu reiten, aber nicht zu schwer beladen um sich zu Fuß zu bewegen, bleibt die Einheit nicht ganz stehen, sondern bewegt sich eine Region weit (ohne Straße).
 
 **Pferde** haben eine Kapazität von 20GE.
 
@@ -75,7 +75,7 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 ## Siehe auch
 
 - [Schiffe][schiff]
-- [Straße][Straßen]
+- [Straße][strassen-id]
 
 Weiterlesen: [Schiffsreise].
 
@@ -90,4 +90,3 @@ Weiterlesen: [Schiffsreise].
 [bef-folge]: ./cmd-follow.md
 [bef-bewache]: ./cmd-guard.md
 [diese Tabelle]: ./items.md
-[Straßen]: ./roads.md

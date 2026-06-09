@@ -281,18 +281,20 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 - [Gebäude]
 - [Burgen]
-- [Produktion]
+- [Produktion][produktion]
 
 Weiterlesen: [Parteipool].
 
 [Wasser des Lebens]: ./alchemy.md
 [Burgenbau]: ./castles.md
+
 [BENUTZE 1 Wasser des Lebens]: ./cmd-use.md
 [ZÜCHTE]: ./cmd-grow.md
 [HELFE BEWACHE]: ./cmd-help.md
 [ZERSTÖRE]: ./cmd-destroy.md
+
 [Gebäude]: ./buildings.md
 [Burgen]: ./castles.md
-[Produktion]: ./production.md
 [Parteipool]: ./faction-pool.md
+
 [MACHE gebäudetyp]: ./cmd-make.md

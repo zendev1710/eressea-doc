@@ -3,7 +3,7 @@
 alias: travel
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Movement
 
 There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships.  
@@ -99,9 +99,11 @@ Travelling units may be stopped from passing through a region by guarding units 
 If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move.  
 The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table] to find out the weight of items).
 
+[](){ #travel-roads-id }
+
 ## Roads
 
-The speed of travel can be enhanced by building [roads].  
+The speed of travel can be enhanced by building [roads][roads].  
 If all regions that are passed through have the appropriate road network, you can travel one region further.  
 For example, a unit wants to walk two regions to the east:
 
@@ -145,8 +147,8 @@ If a unit has several horses and carts, their transport capacity is simply added
 
 ## See also
 
-- [Ships]
-- [Roads]
+- [Ships][ships-id]
+- [Roads][roads]
 
 Continue reading: [Sailing].
 
@@ -154,5 +156,3 @@ Continue reading: [Sailing].
 
 [Sailing]: ./sailing.md
 [this table]: ./items.md
-[roads]: ./roads.md
-[Ships]: ./ships.md

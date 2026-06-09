@@ -32,7 +32,7 @@ Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und er
 
 - [Burgen]
 - [Andere Gebäude]
-- [Produktion]
+- [Produktion][produktion]
 - [Ausgaben][ausgaben]
 - [Zerstöre][4]
 
@@ -42,12 +42,12 @@ Weiterlesen: [Burgen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude&oldid=16113] -->
 
-[bef-gib]: ./cmd-give.md
+[Andere Gebäude]: ./buildings-others.md
 [Befehlsreihenfolge]: ./commands-sequence.md
+
+[bef-gib]: ./cmd-give.md
 [`MACHE `*`Gebäude`*]: ./cmd-make.md
 [bef-sortiere]: ./cmd-sort.md
 [ZERSTÖRE]: ./cmd-destroy.md
-[Andere Gebäude]: ./buildings-others.md
-[Produktion]: ./production.md
 [4]: ./cmd-destroy.md
 [`BEZAHLE NICHT`]: ./cmd-pay-not.md

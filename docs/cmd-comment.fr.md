@@ -2,12 +2,14 @@
 # cSpell:locale fr
 alias: cmd-comment-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Commentaire (;)
 
 Le point-virgule « ; » est utilisé dans les ordres Eressea pour marquer les commentaires (temporaires).
 Certains de ces commentaires sont insérés « automatiquement ».
 Par exemple, le [[ordres|modèle d'ordres]] standard contient toujours les noms des régions et des unités, le nombre de personnes et leur réserve d'argent en guise de commentaire.
-De plus, les commentaires sont également utilisés pour fournir au programme [[echeck]] certaines informations, comme les salaires dans une région.
+De plus, les commentaires sont également utilisés pour fournir au programme [ECheck][echeck-id] certaines informations, comme les salaires dans une région.
 
 ```text
 ERESSEA abcd "Entrez le mot de passe ici"

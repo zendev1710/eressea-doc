@@ -53,7 +53,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 
 ## Halflings
 
-Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and [ships] to others. Weaponry is not one of their strengths.
+Halflings are small fellows with hairy feet. They are good traders and know how to entertain the peasants. They are good builders, but prefer to leave horses and [ships][ships-id] to others. Weaponry is not one of their strengths.
 
 - Halflings who try to [flee][fleeing] in a fight have a basic chance of 50% (all other races 25%). The maximum chance for them is 90% (otherwise 75%, see [[cmd-combat|`COMBAT FLEE`]]).
 - Dragonslayers: Halflings get a +5 bonus on attack and damage when fighting against [Dragons][known-dragons].
@@ -84,7 +84,7 @@ Known for their enhanced senses, the cat people are excellent spies and master g
 
 Aquarians are at home in the water, but they feel uncomfortable in the mountains. They build and drive ships as easily as they were building blocks, while other tasks do not come to them so naturally.
 
-- Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move] by 1 extra region per week.
+- Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move][movement] by 1 extra region per week.
 - Sea dwellers: Aquarians can issue [long orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming][swimming].
 - Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
 
@@ -164,11 +164,9 @@ Continue reading: [Racial skill modifiers].
 [region's maximum]: ./world.md
 [magician]: ./magic.md
 [steal]: ./stealth.md
-[ships]: ./ships.md
 [alchemists]: ./skills-list.md
 [tactics]: ./tactic.md
 [groups]: ./cmd-group.md
-[move]: ./travel.md
 [long orders]: ./commands.md
 [expensive skills]: ./skills.md
 [heroes]: ./cmd-promote.md

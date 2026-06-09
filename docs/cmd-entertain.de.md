@@ -20,11 +20,10 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 ## Siehe auch
 
-- [Geld]
+- [Geld][geld]
 
 <!-- From [https://wiki.eressea.de/index.php?title=UNTERHALTE&oldid=16748] -->
 
 [bef-arbeite]: ./cmd-work.md
 [bef-bewache]: ./cmd-guard.md
 [bef-helfe]: ./cmd-help.md
-[Geld]: ./silver.md

@@ -29,7 +29,7 @@ langen Brücke überspannt wird.
 ```
 
 Einheiten in Burgen werden von dieser geschützt, und zwar wird pro Größeneinheit der Burg eine Person geschützt.  
-Nur die geschützten Personen profitieren bei einem Überfall vom Bonus, den eine Burg den Insassen verleiht (weiteres hierzu siehe Kapitel [Krieg], insbesondere die Liste der [Boni und Mali][boni-und-mali]).  
+Nur die geschützten Personen profitieren bei einem Überfall vom Bonus, den eine Burg den Insassen verleiht (weiteres hierzu siehe Kapitel [Krieg][krieg], insbesondere die Liste der [Boni und Mali][boni-und-mali]).  
 Jeder Größenpunkt der Burg benötigt einen Stein.  
 
 Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter und Bauern profitieren beim Arbeiten von einem Bonus, der davon abhängt, wie groß die größte Burg in einer Region ist (siehe auch [Übersichtstabelle][ubersicht]), außerdem bekommt die Besitzereinheit der größten Burg einen Anteil von den Erlösen der Verkäufe anderer Spieler.
@@ -83,9 +83,8 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 Weiterlesen: [Andere Gebäude].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
+[MACHE BURG]: ./cmd-make.md
 
 [Andere Gebäude]: ./buildings-others.md
 [Pest]: ./plague.md
-[MACHE BURG]: ./cmd-make.md
-[Krieg]: ./war.md
 [Gebäude]: ./buildings.md

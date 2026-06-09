@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: solar-sail
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Solar Sail
 
 The **Solar Sail** was the Eressians' [[christmas|Christmas Gift]] in 2004.  
 
-Originally, it provided a *unique and extreme* acceleration for a [[ships|ship]] (range of +50 regions).  
+Originally, it provided a *unique and extreme* acceleration for a [ship][ships-id] (range of +50 regions).  
 The underlying idea was to facilitate (peaceful) contact between different races over great distances.  
 Even "world travelers" traversing the cosmic spiral in their ships in both directions could benefit from it.  
 

@@ -153,7 +153,7 @@ With a ship: allows you to sail. All units on the ship with sailing skill count 
 
 ## Shipcraft
 
-Construct and repair ships with wood (see [[ships]]).
+Construct and repair ships with wood (see [ships][ships-id]).
 
 [](){ #skill-stealth-id }
 

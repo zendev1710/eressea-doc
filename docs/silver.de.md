@@ -15,7 +15,7 @@ Während Arbeiten eher eine Notlösung ist, kann mit Unterhaltung und dem Eintre
 
 Silber hat ein Gewicht: je 100 Silberstücke wiegen eine Gewichtseinheit. Bei der Berechnung des Gewichtes wird nicht gerundet - allein ein Silberstück kann also zu viel sein.
 
-Da Personen (der meisten [Rassen]) 5,4 GE tragen können, können sie bis zu 540 Silber mit sich führen; bei 541 Silber sind sie überladen. Ein Boot (50 GE Tragekapazität) kann z.B. eine Person (10 GE bei den meisten [Rassen]) mit 4000 Silber tragen; schon 4001 Silber wären zu viel.
+Da Personen (der meisten [Rassen][rassen] 5,4 GE tragen können, können sie bis zu 540 Silber mit sich führen; bei 541 Silber sind sie überladen. Ein Boot (50 GE Tragekapazität) kann z.B. eine Person (10 GE bei den meisten [Rassen][rassen]) mit 4000 Silber tragen; schon 4001 Silber wären zu viel.
 
 ## Ausgaben
 
@@ -199,7 +199,6 @@ Weiterlesen: [Materialpool].
 [Materialpool]: ./items-pool.md
 [Arbeiten]: ./cmd-work.md
 [Unterhalten]: ./cmd-entertain.md
-[Rassen]: ./races.md
 [rekrutieren]: ./cmd-recruit.md
 [Tabelle der Rasseneigenschaften]: ./skills-modifiers.md
 [HELFE SILBER]: ./cmd-help.md

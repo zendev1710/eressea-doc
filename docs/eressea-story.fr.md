@@ -30,7 +30,7 @@ Mais le jeu continue.
 - [Enno Rehling][enno-fr-id]
   est là depuis le tour 39 et a pris en charge le développement et la gestion du jeu après le départ des deux autres directeurs du jeu.
 - Henning Peters ([Faroul][faroul-fr-id])
-  Développeur, entre autres, du vérificateur d'ordres [[echeck]].
+  Développeur, entre autres, du vérificateur d'ordres [ECheck][echeck-fr-id].
 - Benjamin Bärmann, Ingo Wilken
   Co-développeur dans les premières années, notamment sur l'alchimie
 
@@ -201,7 +201,7 @@ La grande majorité de ces changements concerne les races et les règles de comb
 - L'école de magie jusqu'ici universelle Lirpa (le nom vient à l'origine d'un poisson d'avril, mais après l'introduction des nouvelles Écoles de Mahie, il est rapidement devenu un nom commun pour « l'ancienne magie ») est remplacée par Draig, Illaun, Tybied, Gwyrrd et Cerddor.
   La Réforme implique un affaiblissement drastique de la magie, notamment en supprimant le sort Feu du Solzil, dont l'effet ne peut être comparé à aucun sort de combat connu aujourd'hui.
 - `RESEARCH` selon la rumeur est supprimé. Un mage peut lancer tous les sorts de son école de magie d'un niveau inférieur ou égal à son niveau en magie.
-- L'apprentissage de la magie devient nettement plus coûteux (50 + 50 * (1 + niveau) * Niveau / 2), surtout à des niveaux élevés. Auparavant, cela coûtait toujours 200 silver
+- L'apprentissage de la magie devient nettement plus coûteux (50 + 50 X (1 + niveau) X Niveau / 2), surtout à des niveaux élevés. Auparavant, cela coûtait toujours 200 silver
 - Au lieu d'un sort par tour, l'aura est introduit. Cela signifie qu'il est désormais possible de lancer plusieurs sorts en une semaine, avec une augmentation significative des coûts d'aura
 - Seuls les mages du même domaine magique peuvent s'enseigner entre eux
 - Lorsque vous apprenez la magie pour la première fois, vous devez choisir une école de magie avec `LEARN MAGIC "<Magic School>"`

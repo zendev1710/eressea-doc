@@ -61,11 +61,10 @@ Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgeb
 - [[bef-bewache]][Bewacht]
 - [Einnahmen][diebstahl-der-unehrliche-weg]
 
-Weiterlesen: [Reisen].
+Weiterlesen: [Reisen][reisen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Reisen]: ./travel.md
 [Talent]: ./skills.md
 [Bewacht]: ./cmd-guard.md
 [bef-beklaue]: ./cmd-steal.md

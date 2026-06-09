@@ -57,6 +57,6 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 - [[bef-bewache]]
 - [[bef-kontaktiere]]
 
-Weiterlesen: [[magie-de]].
+Weiterlesen: [Magie][magie-de-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->

@@ -20,7 +20,7 @@ Eressea has its own subforum there.
 
 Most players use [[magellan]], a program that reads the CR (Computer Report), displays it clearly, helps in creating commands, and shows many errors.
 
-Then there's [[echeck]], a program that lets you check your moves for correctness.
+Then there's [ECheck][echeck-id], a program that lets you check your moves for correctness.
 ECheck is automatically run by the server on incoming moves and the result is sent back.
 Use ECheck at home with the -e option to check if your commands are being interpreted as expected.
 ECheck only checks the spelling of the commands and the order of the parameters.

@@ -24,7 +24,7 @@ Eressea dispose également de divers autres outils qui facilitent la vie du joue
 Voici une liste des plus utilisés :
 
 - [CSMap][csmap-fr-id]
-- [[echeck]]
+- [ECheck][echeck-fr-id]
 - [[ehmv]]
 - [[magellan]]
   - [[extended-commands]]

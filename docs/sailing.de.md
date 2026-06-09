@@ -51,7 +51,7 @@ Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen. 
 
 Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [[bef-nach]] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
 
-Befindet sich das Schiff an Land, können alle Einheiten an Bord etwas tun; sie gehen sozusagen zur Arbeit an Land. Dies können sie auch noch dann, wenn das Schiff in derselben Runde ablegt. Zusätzlich zur normalen Wirkung von Bewachung können sie, wenn die Region von einer nicht-alliierten Partei bewacht wird, jedoch kein [Geld verdienen], auch nicht mit Arbeiten, Unterhalten oder Handeln.
+Befindet sich das Schiff an Land, können alle Einheiten an Bord etwas tun; sie gehen sozusagen zur Arbeit an Land. Dies können sie auch noch dann, wenn das Schiff in derselben Runde ablegt. Zusätzlich zur normalen Wirkung von Bewachung können sie, wenn die Region von einer nicht-alliierten Partei bewacht wird, jedoch kein [Geld verdienen][geld] auch nicht mit Arbeiten, Unterhalten oder Handeln.
 
 Wollen Einheiten ein Schiff verlassen, so müssen sie dies erst mit [[bef-verlasse]] tun. Sofern die Region nicht von einer nicht-alliierten Partei bewacht wird, können die Einheiten sich dann mit NACH sofort bewegen, ansonsten erst in der kommenden Runde. Dies gilt natürlich genauso für [[bef-fahre]] und [[bef-transportiere]].
 
@@ -93,9 +93,7 @@ Schiffe fahren über Küsten (Ozeanfelder mit mindestens einem angrenzenden Land
 - [Reisen][reisen]
 - [Schiff][schiff]
 
-Weiterlesen: [Produktion].
-
-[Produktion]: ./production.md
+Weiterlesen: [Produktion][produktion].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
@@ -104,9 +102,9 @@ Weiterlesen: [Produktion].
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 [bef-arbeite]: ./cmd-work.md
-[Geld verdienen]: ./silver.md
 [bef-verlasse]: ./cmd-leave.md
 [bef-fahre]: ./cmd-ride.md
 [bef-transportiere]: ./cmd-carry.md
 [1]: ./cmd-make.md
+
 [Waren]: ./items.md

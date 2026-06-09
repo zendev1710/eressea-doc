@@ -52,7 +52,7 @@ Es wird immer nur der erste ausgeführt.
 
 ## Siehe auch
 
-- [Reisen]
+- [Reisen][reisen]
 - [[bef-nach]]
 - [[bef-route]]
 - [[bef-fahre]]
@@ -61,7 +61,6 @@ Es wird immer nur der erste ausgeführt.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
-[Reisen]: ./travel.md
 [bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 [bef-fahre]: ./cmd-ride.md

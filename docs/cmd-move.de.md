@@ -38,7 +38,7 @@ Vorlage nächste Woche:
 
 ## Siehe auch
 
-- [Reisen]
+- [Reisen][reisen]
 - [[bef-route]]
 - [[bef-folge]]
 - [[bef-default]][Defaultbefehle]
@@ -47,6 +47,5 @@ Vorlage nächste Woche:
 
 [Defaultbefehle]: ./cmd-default.md
 [Zugvorlage]: ./commands.md
-[Reisen]: ./travel.md
 [bef-route]: ./cmd-route.md
 [bef-folge]: ./cmd-follow.md

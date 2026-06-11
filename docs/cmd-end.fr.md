@@ -6,7 +6,7 @@ alias: cmd-end-fr
 
 **`END`**
 
-Cette instruction clôt les ordres d'une unité temporaire créée par [[cmd-make|`MAKE TEMP`]].
+Cette instruction clôt les ordres d'une unité temporaire créée par [`MAKE TEMP`][cmd-make].
 
 ```text
 MAKE TEMP 1

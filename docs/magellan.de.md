@@ -3,7 +3,7 @@
 alias: magellan-de
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 [](){ #magellan-de-id }
 
 # Magellan
@@ -16,7 +16,7 @@ Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte 
 - Anzeige von Karte, Einheiten, Regionsdetails, und allen anderen Reporteigenschaften. Dabei kann die Anordnung der verschiedenen Fenster frei angepasst werden.
 - Umfangreicher Befehlseditor mit Autovervollständigung und Syntaxcheck.
 - Umfangreiche Vorhersagefunktionen etwa für Übergabe von Gegenständen und Routen.
-- Weitgehende Überprüfung der Befehle und Anzeige "Offener Probleme". Macht zusätzliche Werkzeuge wie [ECheck] überflüssig.
+- Weitgehende Überprüfung der Befehle und Anzeige "Offener Probleme". Macht zusätzliche Werkzeuge wie [ECheck][echeck-de-id] überflüssig.
 - Versand der Befehle per Email direkt aus dem Programm heraus.
 - Im- und Export von (Teil-)Reports und Karten zum Austausch mit anderen Spielern.
 - Schnelle Navigation durch Tastenkürzel, Suche nach Einheiten, Lesezeichen, ...
@@ -29,7 +29,7 @@ Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte 
 
 Bugreports und Featurerequests zu Magellan bitte bitte auf unserem [Bugtracker] melden.
 
-Magellan bietet die Möglichkeit, Befehle direkt aus dem Programm zu verschicken. Was dazu gemacht werden muss, abhängig vom Provider, erklärt [Befehle von Magellan verschicken].
+Magellan bietet die Möglichkeit, Befehle direkt aus dem Programm zu verschicken. Was dazu gemacht werden muss, abhängig vom Provider, erklärt [Befehle von Magellan verschicken][befehle-von-magellan-verschicken].
 
 Eine ältere Version von Magellan ("Magellan 1") wird nicht mehr weiterentwickelt. Es hat zwar einen stabilen Zustand erreicht, aber neuere Entwicklungen des Servers sind dort nicht berücksichtigt. Auf Sourceforge liegt die letzte verfügbare Version.
 
@@ -42,9 +42,7 @@ Eine ältere Version von Magellan ("Magellan 1") wird nicht mehr weiterentwickel
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magellan&oldid=7285] -->
 
-[ECheck]: ./echeck.md
 [Bugtracker]: https://magellan2.github.io/bugs/
-[Befehle von Magellan verschicken]: ./commands-send-from-magellan.md
 [Magellan 2]: https://magellan2.github.io
 [Magellan-Quellcode (für Entwickler)]: https://github.com/magellan2
 [Magellan auf Sourceforge (veraltet)]: http://sourceforge.net/projects/magellan-client

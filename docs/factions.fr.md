@@ -22,14 +22,14 @@ Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-�
 La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie][debut-du-6eme-monde].
 
 !!! Tip "Astuce"
-    Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [[cmd-show|`SHOW <Item>`]].
+    Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [`SHOW <Item>`][cmd-show].
 
 Cette première personne n'est en aucun cas spéciale;  
 il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
 Vous pouvez [recruter][recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.  
 
-Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [[cmd-make|`MAKE TEMP`]].  
-Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [[cmd-give|transférer]] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
+Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [`MAKE TEMP`][cmd-make].  
+Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [transférer][cmd-give] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
 Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.  
 
 Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le nom de **limite d'unités**.  
@@ -69,9 +69,9 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][skill-melee-fr-id]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
-Il maîtrise [[cmd-tax|taxation]] au niveau 2 (pour plus de détails : les [[competences]]).  
+Il maîtrise [taxation][cmd-tax] au niveau 2 (pour plus de détails : les [[competences]]).  
 Comme vous pouvez le voir, Konrad a également une [[tableaux-relatifs-a-la-guerre|épée]]{title="Sword"}.  
-"`TAX`" est ce qu'on appelle un ordre par [[cmd-default|défaut]].  
+"`TAX`" est ce qu'on appelle un ordre par [défaut][cmd-default].  
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  
 Ils ne seront listés que dans le CR ou dans les modèles d'ordres.  
@@ -89,7 +89,7 @@ Elle sera notée *[`exhausted`][etat-de-sante]* (épuisée), *`wounded`* (bless�
 L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [[bourse-d-argent|bourse d'argent]]{title="Silverbag"}.  
 Cela signifie qu'elle possède au moins 500 Silver.  
 Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.  
-Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [[cmd-hide|masquée]], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
+Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée][cmd-hide], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.  
 La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
@@ -104,7 +104,7 @@ La plupart des objets sont visibles, mais l'argent, les herbes et les objets mag
 ### Dissolution des unités
 
 Si une unité se retrouve sans personne à la [[sequence-des-ordres|fin du tour]] (que ce soit à cause de la famine, en donnant des personnes ou en ne les obtenant jamais), elle sera dissoute.  
-Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon (elle doit avoir [[cmd-help|`HELP silver`]] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre).  
+Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon (elle doit avoir [`HELP silver`][cmd-help] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre).  
 En général, c'est à la première unité dans l'ordre du rapport que tout revient.  
 Si les deux options ne sont pas possibles, l'argent et les chevaux vont à la région et tous les autres objets sont perdus.
 

@@ -75,7 +75,7 @@ Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
 ## Herbalism
 
-Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [[cmd-research|`RESEARCH HERBS`]], [[cmd-make|`MAKE SEEDS`]] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
 
 [](){ #skill-magic-id }
 
@@ -159,7 +159,7 @@ Construct and repair ships with wood (see [ships][ships-id]).
 
 ## [[stealth]]
 
-The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [[cmd-steal|steal]] or thwart [[cmd-guard|guarding]] units.
+The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal][cmd-steal] or thwart [guarding][cmd-guard] units.
 
 [](){ #skill-tactics-id }
 
@@ -173,8 +173,8 @@ In combat, the side with the best tactician has extra attacks (see [mustering][t
 
 This skill is required to get [horses][horse-and-carriage]. It can be used in two ways:
 
-- With [[cmd-make|`MAKE SEEDS`]]`[`*`amount`*`] horse` a unit captures horses present in the region, at a rate of one horse per person and per level of taming skill.
-- With [[cmd-grow|`GROW HORSES`]] you can reproduce horses from existing horses, but you must be in a [stable][stable].
+- With [`MAKE SEEDS`][cmd-make]`[`*`amount`*`] horse` a unit captures horses present in the region, at a rate of one horse per person and per level of taming skill.
+- With [`GROW HORSES`][cmd-grow] you can reproduce horses from existing horses, but you must be in a [stable][stable].
 
 [](){ #skill-taxation-id }
 

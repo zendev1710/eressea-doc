@@ -56,7 +56,7 @@ This combat status is used to advantage for almost all "civilians".
 If even one person in a unit successfully escapes from a fight, they automatically leave buildings or land-based ships in which they are located.  
 It is therefore important to consider whether this status makes sense for building (or ship) occupants.  
 
-Units with this combat status also cannot [[cmd-attack|attack]] or [[cmd-guard|guard]].  
+Units with this combat status also cannot [attack][cmd-attack] or [guard][cmd-guard].  
 If a guarding unit places `COMBAT FLEE`, the guarding is immediately canceled, with corresponding consequences.  
 Units with the combat status can still move after combat (with [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
 
@@ -64,7 +64,7 @@ Units with the combat status can still move after combat (with [[cmd-move]], [[c
     Units with `COMBAT FLEE` or `COMBAT NOT` will fight if they are attacked and the first two rows are overrun.  
     That means magicians also do magic.  
     Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.  
-    If you want to prevent this, you can deactivate the [[cmd-combatspell|combat spell status]].  
+    If you want to prevent this, you can deactivate the [combat spell status][cmd-combatspell].  
 
 Operating [catapults][weapon-catapult-id] is a task that requires a lot of preparation, so a unit with the combat status `COMBAT NOT` or `COMBAT FLEE` will not fire ammunition, but will use any other weapon if it has one with it and knows how to use it.  
 

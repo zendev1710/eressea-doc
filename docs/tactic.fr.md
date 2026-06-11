@@ -18,7 +18,7 @@ Le tour de tactique permet également une tentative de fuite supplémentaire.
 
 ## Bonus de tactique en fonction de la situation
 
-Un tacticien qui [[cmd-combat|combat]] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique][tactique].  
+Un tacticien qui [combat][cmd-combat] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique][tactique].  
 S'il se trouve en 3e ou 4e ligne, sa compétence est réduite de 1.
 
 La compétence en [Tactique][tactique] bénéficie également de quelques bonus raciaux qui dépendent du terrain :

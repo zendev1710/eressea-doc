@@ -31,7 +31,7 @@ Note: (*) In order not to make things unnecessarily complicated, we speak of peo
 ## Involved factions
 
 According to the battle report, the following factions were involved.  
-It cannot be ruled out that some participants took part in this battle under [[cmd-hide|false banner]].  
+It cannot be ruled out that some participants took part in this battle under [false banner][cmd-hide].  
 The most likely candidate is the Mist Sea Man Gornt (mwq4), who posed as a dancer in the storm, but was most likely an Aquazone.  
 
 On pages **Tirawons** 15 peoples fought:  

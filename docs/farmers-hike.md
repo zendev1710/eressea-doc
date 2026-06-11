@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: farmers-hike
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Farmers hike
 
 Farmers are able to move from region to region.  
@@ -20,7 +22,7 @@ Monsters summoned by players can also drive away farmers.
 ## Overpopulation
 
 Farmers are emigrating because of overpopulation.  
-If there are more farmers than jobs in a region (see [[cmd-work|here]]), some of the unemployed emigrate to neighboring regions.  
+If there are more farmers than jobs in a region (see [here][cmd-work]), some of the unemployed emigrate to neighboring regions.  
 
 ## Poverty
 

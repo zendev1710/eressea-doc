@@ -6,7 +6,7 @@ alias: cmd-group
 
 **`GROUP`**`["`*`name`*`"]`  
 
-With the `GROUP` order you can divide the faction into subgroups that have a different [[cmd-help|`HELP`]] status than the rest of the faction.  
+With the `GROUP` order you can divide the faction into subgroups that have a different [`HELP`][cmd-help] status than the rest of the faction.  
 This allows you, for example, to set up an army of mercenaries that will help you on the client's island while the rest of the faction does not.  
 
 Similarly, you can remove all `HELP COMBAT` assignments for participants in a tournament to avoid interfering in a duel.  

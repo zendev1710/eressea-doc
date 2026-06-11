@@ -78,7 +78,7 @@ Le plus simple est d’utiliser le modèle d'ordres à la fin de l’évaluation
 Toutes les unités y sont répertoriées pour que vous n'oubliiez personne.  
 Si vous n'envoyez aucun ordre, les ordres du modèle d'ordres seront quand même exécutés automatiquement.  
 Même si vous n'envoyez des ordres que pour certaines de vos unités, les ordres du modèle d'ordres seront exécutés pour les unités restantes.  
-Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [[cmd-option|`OPTION ZUGVORLAGE`]].  
+Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [`OPTION ZUGVORLAGE`][cmd-option].  
 
 ## Ordres courts et longs
 

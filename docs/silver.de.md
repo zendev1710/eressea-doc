@@ -55,7 +55,7 @@ Auch Bauern benötigen Unterhalt, den sie normalerweise selbst verdienen und dem
 
 - Die Region ist überbevölkert. In einer Ebene ohne Bäume, in der jeder Bauer 12 Silber verdient, können langfristig nur 12000 Bauern überleben, weil nur 10000 Bauern arbeiten, dabei 120000 verdienen, was nur für 12000 Bauern ausreicht. Kurzfristig kann die Zahl der Bauern höher liegen, so lange noch genügend Silber im Regionsvorrat ist.
 - Die Region ist zwar nicht überbevölkert, aber [arbeitende][Arbeiten] Spieler-Einheiten belegen einen Teil der Arbeitsplätze.
-- Die Bauern verdienen zwar genug Silber, aber Spieler-Einheiten [[cmd-tax|treiben]] dieses Silber ein, bevor sich die Bauern damit selbst versorgen können.
+- Die Bauern verdienen zwar genug Silber, aber Spieler-Einheiten [treiben][cmd-tax] dieses Silber ein, bevor sich die Bauern damit selbst versorgen können.
 - Des weiteren gibt es Gerüchte über besondere Ereignisse, die zeitweilig oder dauerhaft die Fruchtbarkeit einer Region verschlechtern können, wodurch die Bauern nicht mehr ihren eigenen Unterhalt erarbeiten können.
 
 Verhungerte Bauern können später als [Untote][untote] wiederauferstehen.

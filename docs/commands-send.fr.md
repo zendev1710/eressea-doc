@@ -113,7 +113,7 @@ De telles demandes génèrent un trafic inutile.
 
 ## Ce que vous devez considérer lors de la saisie des ordres
 
-Chaque tour d'ordres doit commencer par la ligne [[cmd-eressea|`ERESSEA xxx "<mot de passe>"`]]. *xxx* est l'identifiant de votre faction, et *mot de passe* est le mot de passe de la faction.  
+Chaque tour d'ordres doit commencer par la ligne [`ERESSEA xxx "<mot de passe>"`][cmd-eressea]. *xxx* est l'identifiant de votre faction, et *mot de passe* est le mot de passe de la faction.  
 Chaque tour doit se terminer avec le mot-clé [[cmd-next]].  
 
 Tous les ordres sont émis par unité, même s'il s'agit d'ordres qui affectent la faction dans son ensemble; quelqu'un doit le faire.  
@@ -144,8 +144,8 @@ NEXT
 La première ligne avec ECHECK est destinée au vérificateur de syntaxe.  
 Il reconnaît cette ligne et utilise les paramètres qui y sont spécifiés.  
 Avec l'option `-z`, les personnes et leurs actifs en commentaire derrière l'ordre [[cmd-unit]] sont interprétés.  
-Les revenus avec [[cmd-work]] (généralement 11 silvers par personne), les [[cmd-tax|taxes]] et le [[cmd-entertain|divertissement]] (20 silver par personne) sont également pris en compte.  
-Les compétences coûteuses telles que l'apprentissage de la magie avec l'ordre[[cmd-learn|`LEARN MAGIC`]] et le déplacement d'unités transportant de l'argent (avec [[cmd-move]]) sont ensuite évalués et des avertissements sont émis s'il y a trop peu d'argent.  
+Les revenus avec [[cmd-work]] (généralement 11 silvers par personne), les [taxes][cmd-tax] et le [divertissement][cmd-entertain] (20 silver par personne) sont également pris en compte.  
+Les compétences coûteuses telles que l'apprentissage de la magie avec l'ordre[`LEARN MAGIC`][cmd-learn] et le déplacement d'unités transportant de l'argent (avec [[cmd-move]]) sont ensuite évalués et des avertissements sont émis s'il y a trop peu d'argent.  
 `-w4` est le « niveau d'avertissement », 4 étant le niveau le plus verbeux.  
 Et enfin, `-r100` indique que le coût de recrutement de cette faction est de 100 silver par personne.  
 
@@ -186,7 +186,7 @@ Si des chaînes de caractères sont requises pour les ordres (par exemple pour u
 Si nécessaire, ces chaînes de caractères peuvent être étendues sur plusieurs lignes, comme décrit précédemment.  
 Entre les guillemets, plusieurs espaces, sauts de ligne et tabulations sont toujours compressés en un espace chacun.  
 
-Tout texte qui suit un point-virgule (`;`) est considéré comme un [[cmd-comment|commentaire]].  
+Tout texte qui suit un point-virgule (`;`) est considéré comme un [commentaire][cmd-comment].  
 Les commentaires peuvent faciliter la compréhension des ordres que vous effectuerez la prochaine fois.  
 Si vous utiliser le [[comment-with-slashes|commentaire `//`]], le commentaire sera automatiquement inclus dans le [[ordres|modèle d'ordres]] du tour suivant.  
 

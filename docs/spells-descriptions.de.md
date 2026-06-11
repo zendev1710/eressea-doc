@@ -185,9 +185,9 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 `ZAUBERE [STUFE n] 'Belebtes Gestein' <Gebäude-Nr> <Richtung>`  
 
-[](){ #bergw-chter-id }
+[](){ #spell-bergwachter-id }
 
-### [Bergwächter]
+### [Bergwächter][bergwachter-id]
 
 :   Erschafft einen Wächtergeist, der in Gletschern und Bergen Eisen- und Laenabbau durch nichtalliierte Parteien (HELFE BEWACHE) verhindert, solange er die Region bewacht.  
     Der Bergwächter ist an den Ort der Beschwörung gebunden.  
@@ -353,7 +353,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 [](){ #erschaffe-antimagiekristall-id }
 
-### Erschaffe [Antimagiekristall]
+### Erschaffe [Antimagiekristall][antimagiekristall]
 
 :   Mit Hilfe dieses Zauber entzieht der Magier einem Quarzkristall all seine magischen Energien.  
     Der Kristall wird dann, wenn er zu feinem Staub zermahlen und verteilt wird, die beim Zaubern freigesetzten magischen Energien aufsaugen und die Kraft aller Zauber reduzieren, welche in der betreffenden Woche in der Region gezaubert werden.  
@@ -366,7 +366,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 [](){ #erschaffe-eisengolems-id }
 
-### Erschaffe [Eisengolems]
+### Erschaffe [Eisengolems][eisengolem]
 
 :   Je mehr Kraft der Magier investiert, desto mehr Golems können geschaffen werden.  
     Jeder Golem hat jede Runde eine Chance von 15 Prozent zu Staub zu zerfallen.  
@@ -399,7 +399,7 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 
 [](){ #erschaffe-ein-amulett-des-wahren-sehens-id }
 
-### Erschaffe ein [Amulett des wahren Sehens]
+### Erschaffe ein [Amulett des wahren Sehens][amulett-des-wahren-sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen Ring der Unsichtbarkeit geschützt sind, zu sehen.  
@@ -428,7 +428,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-ein-traumauge-id }
 
-### Erschaffe ein [Traumauge]
+### Erschaffe ein [Traumauge][traumauge]
 
 :   Ein mit diesem Zauber belegtes Drachenauge, welches zum Abendmahle verzehrt wird, erlaubt es dem Benutzer, in die Träume einer anderen Person einzudringen und diese zu lesen.  
     Lange Zeit wurde eine solche Fähigkeit für nutzlos erachtet, bis die ehemalige waldelfische Magistra für Kampfmagie, Liarana Sonnentau von der Akademie Thall, eine besondere Anwendung vorstellte: Feldherren träumen vor großen Kämpfen oft unruhig und verraten im Traum ihre Pläne.  
@@ -471,7 +471,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-g-rtel-der-trollst-rke-id }
 
-### Erschaffe einen [Gürtel der Trollstärke]
+### Erschaffe einen [Gürtel der Trollstärke][gurtel-der-trollstarke-id]
 
 :   Dieses magische Artefakt verleiht dem Träger die Stärke eines ausgewachsenen Höhlentrolls.  
     Seine Tragkraft erhöht sich auf das 50fache und auch im Kampf werden sich die erhöhte Kraft und die trollisch zähe Haut positiv auswirken.  
@@ -511,7 +511,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-magischen-kr-uterbeutel-id }
 
-### Erschaffe einen [magischen Kräuterbeutel]
+### Erschaffe einen [magischen Kräuterbeutel][magischer-krauterbeutel-id]
 
 :   Der Druide nehme etwas präpariertes Leder, welches er in einem großen Ritual der Reinigung von allen unreinen Geistern befreie, und binde dann einige kleine Geister der Luft und des Wassers in das Material.  
     Aus dem so vorbereiteten Leder fertige er nun ein kleines Beutelchen, welches in ihm aufbewahrte Kräuter besser zu konservieren vermag.  
@@ -2062,11 +2062,3 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 - [Zauberliste E2][zauberliste]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
-
-[Bergwächter]: ./mountain-guard.md
-[Antimagiekristall]: ./antimagic-crystal.md
-[Eisengolems]: ./iron-golem.md
-[Amulett des wahren Sehens]: ./amulet-of-true-sight.md
-[Traumauge]: ./dream-eye.md
-[Gürtel der Trollstärke]: ./belt-of-troll-strength.md
-[magischen Kräuterbeutel]: ./magical-herb-pouch.md

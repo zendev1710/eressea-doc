@@ -23,13 +23,13 @@ To make a potion, you need units with the [alchemy][skill-alchemy-id] skill, and
 !!! warning "Remark"
     A faction has at most **3 alchemists**.
 
-Potions are make with the order [[cmd-make|`MAKE "<potion name>"`]].  
+Potions are make with the order [`MAKE "<potion name>"`][cmd-make].  
 
 Each potion requires several ingredients.  
 Recipes are given each time you reach the level required to concoct them.  
 
 !!! tip "Astuce"
-    Later, you can find them using the [[cmd-show|`SHOW "<nom potion>"`]] order.
+    Later, you can find them using the [`SHOW "<nom potion>"`][cmd-show] order.
 
 To be able to make a potion, the alchemist's level must be **twice** as high as the potion's level.  
 Each turn, an alchemist can make N potions, calculated as follows:
@@ -40,7 +40,7 @@ $$
 *For example, a T6 alchemist can therefore make a maximum of 1 L3 potion ($6\,/\,(3\,\times\,2)=1$), 1 L2 potion ($6\,/\,(2\,\times\,2)=1$) or 3 L1 potions ($6\,/\,(1\,\times\,2)=3$).*
 
 !!! note "Note"
-    Herbs can be [[cmd-research|discovered]] in a region and then [[cmd-make|harvested]] by a competent unit in [herbalism][herbalism].
+    Herbs can be [discovered][cmd-research] in a region and then [harvested][cmd-make] by a competent unit in [herbalism][herbalism].
 
 ### Using
 

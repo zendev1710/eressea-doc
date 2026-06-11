@@ -25,7 +25,7 @@ Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'év
 
 ## Apprentissage accéléré
 
-Une unité peut bénéficier de [[cmd-teach|l'enseignement d'un Maître]] pour **réduire de moitié** les temps d'apprentissage habituellement nécessaires.
+Une unité peut bénéficier de [l'enseignement d'un Maître][cmd-teach] pour **réduire de moitié** les temps d'apprentissage habituellement nécessaires.
 
 ## Apprentissage automatique
 
@@ -41,7 +41,7 @@ L'ordre `LEARN Magic "<Magic School>"` détermine [[magie|l'École de Magie]] po
 ## Voir aussi
 
 - [apprendre][apprendre-des-competences]
-- [[cmd-teach|enseigner]]
-- [[cmd-learn-auto|apprentissage automatisé]]
+- [enseigner][cmd-teach]
+- [apprentissage automatisé][cmd-learn-auto]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->

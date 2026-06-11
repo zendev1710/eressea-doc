@@ -15,11 +15,11 @@ You drop out of the game if your faction has no more members, that is, if all un
 A faction starts a game with one **unit** consisting of one person with 2500 silver, 10 wood, 4 stones and a [race-specific starting gift][start-of-the-6th-world].
 
 !!! Tip
-    if you do not know what you have there, try the order [[cmd-show|`SHOW "`*`Item`*`"`]].
+    if you do not know what you have there, try the order [`SHOW "`*`Item`*`"`][cmd-show].
 
 This first person is not special in any way; they are just the first person belonging to your new faction. You can [recruit][recruiting] new persons, and eventually produce [[items]], and build [[buildings]] and [ships][ships-id], tame [horses][horse-and-carriage], forge [[war-tables|weapons]] and so on.
 
-New units are created by generating them with an existing unit using the [[cmd-make|MAKE TEMP]] order. A new unit has no people, yet: you first have to [[cmd-give|transfer]] them from another unit or recruit them, which requires [money][expenses]. Units created by units on ships or buildings will start inside the same ship or building.
+New units are created by generating them with an existing unit using the [MAKE TEMP][cmd-make] order. A new unit has no people, yet: you first have to [transfer][cmd-give] them from another unit or recruit them, which requires [money][expenses]. Units created by units on ships or buildings will start inside the same ship or building.
 
 A faction can only have a certain number of units, known as the **unit limit**. It is currently at 2500 units, which is also shown in the report. Da unit limit prevents the creation of new units. It does not matter if units have been disbanded during the turn. Under certain circumstances it may be possible that a faction has more units than the limit allows. The surplus units are not deleted; you merely cannot create new units until the number of units goes below the limit again.
 
@@ -46,7 +46,7 @@ Each unit has a unique computer-generated number, which is used as in identifier
 
 Many of the descriptions that you encounter during the game will be in German, because the majority of players is also German. You may use any language you feel comfortable with for naming and describing your units, just bear in mind how that may affect the experience of your co-players.
 
-The first unit in the example is a unit of the faction that received that report. It consists of one human of that faction, which is not explicitly mentioned. It has 20 silver and knows how to wield melee weapons: it has level 1 in this skill. It masters [[cmd-tax|taxation]] at level 2 (for more on [[skills]] see the corresponding chapter). As you can see, Konrad also has a sword. "`TAX`" is his so-called [[cmd-default]] order. If the unit is not given new orders for the next round, it will continue gathering taxes. Only one default order is ever given in the NR, but units may sometimes have more than one. They will be only listed in the CR or in the template orders. More on this in the chapter on [[orders]].
+The first unit in the example is a unit of the faction that received that report. It consists of one human of that faction, which is not explicitly mentioned. It has 20 silver and knows how to wield melee weapons: it has level 1 in this skill. It masters [taxation][cmd-tax] at level 2 (for more on [[skills]] see the corresponding chapter). As you can see, Konrad also has a sword. "`TAX`" is his so-called [[cmd-default]] order. If the unit is not given new orders for the next round, it will continue gathering taxes. Only one default order is ever given in the NR, but units may sometimes have more than one. They will be only listed in the CR or in the template orders. More on this in the chapter on [[orders]].
 
 Units have a "combat status", which is "front" in this case. The details are explained in the chapter about [[war]] in the section on [combat rows][combat-rows] and the explanation of the order [[cmd-combat]].
 
@@ -54,7 +54,7 @@ A unit may guard a region (for more on the consequences, see [[cmd-guard]]). Thi
 
 At last, a unit may be wounded by a [[war|combat]] or [Hunger][starvation]. This will be noted with "exhausted", "wounded", or even "badly wounded".
 
-The next unit has the number 2ow, consists of a dwarf and has a horse and a silver bag. This means that it has at least 500 silver. If it had more than 5000 silver, you would see a "silverchest". With less than 500 you wouldn't see anything for a foreign unit. You cannot see which faction the unit belongs to because it is [[cmd-hide|cloaked]], that is, it does not reveal the faction it belongs to. This is probably not a very smart choice for a "Botschafter" (ambassador), because you do not even get the E-Mail address of the faction now. The only thing you can do is sending it a [[cmd-message]].
+The next unit has the number 2ow, consists of a dwarf and has a horse and a silver bag. This means that it has at least 500 silver. If it had more than 5000 silver, you would see a "silverchest". With less than 500 you wouldn't see anything for a foreign unit. You cannot see which faction the unit belongs to because it is [cloaked][cmd-hide], that is, it does not reveal the faction it belongs to. This is probably not a very smart choice for a "Botschafter" (ambassador), because you do not even get the E-Mail address of the faction now. The only thing you can do is sending it a [[cmd-message]].
 
 Finally you have some allied [trolls][trolls-id] carrying gems. In addition to [humans][humans], [dwarves][dwarves], and [trolls][trolls-id], there are a lot of other races in Eressea. They are describe in [[races|this chapter]].
 
@@ -62,7 +62,7 @@ You only get limited information on foreign units. Their combat status, injuries
 
 ### Dissolving units
 
-If a unit happens to have no persons at the [[orders-sequence|end of the round]] (be it from hunger, giving away persons or never getting them) it will be disbanded. Her items go to a unit of your faction, if one is there, or to an allied faction otherwise. (It must have [[cmd-help|`HELP silver`]] towards that faction and that faction must have `HELP GIVE` towards us.) Usually the first such unit in the order of the report will be selected for this. If both options are not possible, silver and horses go to the region and all other items are lost.
+If a unit happens to have no persons at the [[orders-sequence|end of the round]] (be it from hunger, giving away persons or never getting them) it will be disbanded. Her items go to a unit of your faction, if one is there, or to an allied faction otherwise. (It must have [`HELP silver`][cmd-help] towards that faction and that faction must have `HELP GIVE` towards us.) Usually the first such unit in the order of the report will be selected for this. If both options are not possible, silver and horses go to the region and all other items are lost.
 
 Player experience (Solthar):
 

@@ -6,7 +6,7 @@ alias: other-buildings
 <!-- markdownlint-disable MD042 MD052 -->
 # Other Buildings
 
-Buildings are built with the [[cmd-make|`MAKE "building type"`]] order and can be enlarged with [[cmd-make|`MAKE "building type" building-id`]].  
+Buildings are built with the [`MAKE "building type"`][cmd-make] order and can be enlarged with [`MAKE "building type" building-id`][cmd-make].  
 
 Examples:
 
@@ -114,7 +114,7 @@ The capacity refers only to the persons who can benefit from the building.
 **Example:**
 
 With [[alchemy|water of life]] you can create wood with a sawmill.
-With [[cmd-use|USE 1 "water of life"]] you can create 10 saplings using 10 wood.
+With [USE 1 "water of life"][cmd-use] you can create 10 saplings using 10 wood.
 You can then immediately cut them with a sawmill, producing 20 wood.
 
 ## Smithy
@@ -140,7 +140,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | --                                  |
 | Capacity                | 1 person per 1 size                 |
 
-- Units inside a stable can reproduce horses by using the order [[cmd-grow|`GROW HORSES`]]. For this the unit needs the skill Taming and at least 2 horses (in its possession).
+- Units inside a stable can reproduce horses by using the order [`GROW HORSES`][cmd-grow]. For this the unit needs the skill Taming and at least 2 horses (in its possession).
 - The chance to breed horses corresponds to the unit's skill. In addition, the unit has several attempts according to his skill. If a unit is T5, he has 5 attempts at 5% each to breed a horse.
 - For each breeding attempt, the unit needs one horse. If not enough horses are available, the attempts are forfeited.
 
@@ -157,7 +157,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 - Allows ships larger than a boat to land in regions which are not plains or forests.
 - A region with a harbour can be used as a "canal region", i.e., a ship in the harbour can sail away in any direction with an ocean.
-- In both cases, the prerequisite is that the harbour owner is a member of the same faction or has [[cmd-help|`HELP GUARD`]] set to the captain's faction.
+- In both cases, the prerequisite is that the harbour owner is a member of the same faction or has [`HELP GUARD`][cmd-help] set to the captain's faction.
 - The owner of the harbour receives 10% of all the silver earned through trade, in addition to the possible income through castles.
 - The owner also receives (2 \* trade)% of all luxury items which are on board of incoming ships. Unless the unit which carries the goods has a hiding level higher than the harbour master's perception level or the ship's captain is allied with the harbour owner.
 - In a region with a harbour, the prices of goods will increase with a probability of 20% instead of the normal 10%.

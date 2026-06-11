@@ -6,7 +6,7 @@ alias: cmd-end
 
 **`END`**
 
-This orders stops entering orders for a temporary unit that starts with [[cmd-make|`MAKE TEMP`]] was created.
+This orders stops entering orders for a temporary unit that starts with [`MAKE TEMP`][cmd-make] was created.
 
 ```text
 MAKE TEMP 1

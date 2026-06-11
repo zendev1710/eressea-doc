@@ -21,7 +21,7 @@ Your units will accept all items and silver from the other faction.
 It is similar to a permanent [[cmd-contact]] for [[cmd-give]].
 
 !!! warning "Attention !"
-    For giving persons or units to another faction with the orders [[cmd-give|`GIVE <their-unit> <number> MEN`]] or [[cmd-give|`GIVE <their-unit> UNIT`]], the receiving faction must use the [[cmd-contact]] order!  
+    For giving persons or units to another faction with the orders [`GIVE <their-unit> <number> MEN`][cmd-give] or [`GIVE <their-unit> UNIT`][cmd-give], the receiving faction must use the [[cmd-contact]] order!  
     Also for targeted spells, `CONTACT` is necessary.
 
 ## `HELP COMBAT`
@@ -36,16 +36,16 @@ No HELP GIVE is required by the receiving faction for this kind of transfer.
 
 ## `HELP GUARD`
 
-Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit][recruiting], or [[resources|produce]] finite resources and sometimes other units are prevented from [[cmd-guard|traveling through]] your region.
+Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit][recruiting], or [[resources|produce]] finite resources and sometimes other units are prevented from [traveling through][cmd-guard] your region.
 If this help status is set, units of the other factions are allowed to do all that, so they can travel, mine, or recruit freely.
 
 Additionally, allied factions are allowed long orders [after battles][the-end] if you guard the region.
 
-Finally, the other faction's units are allowed to [[cmd-enter|enter]] your buildings and ships.
+Finally, the other faction's units are allowed to [enter][cmd-enter] your buildings and ships.
 
 ## `HELP FACTIONSTEALTH`
 
-If you disguise your units with [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] as belonging to another faction, factions you have given this help status can see that they really belong to your faction.
+If you disguise your units with [`HIDE FACTION NUMBER <faction>`][cmd-hide] as belonging to another faction, factions you have given this help status can see that they really belong to your faction.
 
 ## `HELP ALL`
 

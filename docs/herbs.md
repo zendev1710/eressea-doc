@@ -8,18 +8,18 @@ alias:
 <!-- markdownlint-disable MD042 MD052 -->
 # Herbs
 
-**Herbs** are gathered with the order [[cmd-make|`MAKE HERBS`]].  
+**Herbs** are gathered with the order [`MAKE HERBS`][cmd-make].  
 
 Depending on the skill level in [herbalism][herbalism], you will gather more or less herbs in the region.  
 Each region have only one typ of herb.  
 Herbs grow back like trees;  
-if you are not careful, you can pick all the herbs in a region and then have to plant some again using [[cmd-grow|`GROW HERBS`]].  
+if you are not careful, you can pick all the herbs in a region and then have to plant some again using [`GROW HERBS`][cmd-grow].  
 If in doubt, you have to try out which herb has ever grown here.  
 
 Herbs are mainly used for [[alchemy|alchemy]].  
 Some [[magic|spells]] also need herbs as components.  
 
-With [[cmd-research|`RESEARCH HERBS`]] you can find out approximately how many herbs grow in the region;  
+With [`RESEARCH HERBS`][cmd-research] you can find out approximately how many herbs grow in the region;  
 this requires herbalism level 7 or higher.  
 
 Result will be something like :

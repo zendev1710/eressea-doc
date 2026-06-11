@@ -7,7 +7,7 @@ alias: beginner-tips
 # Beginner tips
 
 When entering orders, make sure you have used the correct faction number and unit numbers.
-[[cmd-password|Set a password]] and don't forget it.
+[Set a password][cmd-password] and don't forget it.
 
 It's more interesting for everyone if you name your faction and all units in an original way.
 Please keep in mind that Eressea is a fantasy role-playing game – names like "Barney's Remote Control Torturers" (yes, that really existed!) simply don't fit the atmosphere of Eressea.
@@ -34,9 +34,9 @@ Note: the silver required for recruitment must be factored in!
 
 Create more units and learn some skills that you expect to need in the next three to four rounds.
 
-[[cmd-entertain|Entertainment]] is essential for earning money.
+[Entertainment][cmd-entertain] is essential for earning money.
 Without sufficient silver, your faction won't be able to grow.
-[[cmd-tax|Tax collectors]] are also a good source of income;
+[Tax collectors][cmd-tax] are also a good source of income;
 for this, you need, for example, metals ([mining][about-mining]) or wood ([logging][deep-in-the-forest]) to craft weapons like swords or spears;
 and of course, tax collectors need the appropriate weapon skill ([tax collection][collecting-taxes], [weapon skills][combat-skills]).
 
@@ -75,7 +75,7 @@ UNIT sjur;          Fuhrmann Sjur [2;243$]
     ROUTE SW W PAUSE E NE PAUSE
 ```
 
-The comment following the [[cmd-unit|UNIT order]] is inserted into the move template by the program;
+The comment following the [UNIT order][cmd-unit] is inserted into the move template by the program;
 following the unit name, in \[ \], is how many people are in the unit and how much money it has (here, 4 people with 100 silver and 2 with 243 silver).
 
 Beware of upkeep costs.

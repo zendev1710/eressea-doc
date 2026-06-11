@@ -9,7 +9,7 @@ alias: discretion
 # Discrétion
 
 La compétence de [discrétion][skill-discretion-id]{title="Stealth"} permet de se camoufler aux yeux des autres unités.  
-Une unité est toujours visible lorsqu'elle [[cmd-guard|garde]] une région, se trouve sur un bateau ou dans un bâtiment.  
+Une unité est toujours visible lorsqu'elle [garde][cmd-guard] une région, se trouve sur un bateau ou dans un bâtiment.  
 
 ## Contre-mesures
 
@@ -53,7 +53,7 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 
 ## Espionnage
 
-Si une unité dotée de la compétence [Espionnage][skill-espionnage-id] donne l'ordre [[cmd-spy|`SPY`*`ID unité`*]], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
+Si une unité dotée de la compétence [Espionnage][skill-espionnage-id] donne l'ordre [`SPY`*`ID unité`*][cmd-spy], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
 La chance de base de réussir une tentative d'espionnage est de 10%.  
 Pour chaque niveau d'Espionnage dépassant le niveau de Discrétion de la victime, le vol augmente de 5 %.  
 Un niveau élevé en Discrétion permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.  
@@ -72,7 +72,7 @@ probabilité (en %) = 100 − E x 5 + P x 2
 
 ## Remarques
 
-De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([[cmd-combat|position de combat]]: `COMBAT NOT` ou `COMBAT FLEE`).  
+De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([position de combat][cmd-combat]: `COMBAT NOT` ou `COMBAT FLEE`).  
 Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.  
 
 Outre ces utilisations passives de la dissimulation, il est bien sûr possible de partir à la recherche d'informations avec des unités furtives bien entraînées ou d'utiliser la capacité de voler.  

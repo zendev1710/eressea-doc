@@ -13,7 +13,7 @@ Pseudo-long order [^1].
 This order attacks the affected unit in the current region.  
 One order must be given for each unit to be attacked.  
 
-Units that are not [[cmd-combat|fighting]] at the front (`COMBAT` or `COMBAT AGGRESSIVE`) or rear (`COMBAT REAR` or `COMBAT DEFENSIVE`) cannot attack.  
+Units that are not [fighting][cmd-combat] at the front (`COMBAT` or `COMBAT AGGRESSIVE`) or rear (`COMBAT REAR` or `COMBAT DEFENSIVE`) cannot attack.  
 
 In the first few weeks, a faction is [[puppy-protection|immune]] to attacks.  
 

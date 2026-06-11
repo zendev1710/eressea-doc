@@ -11,7 +11,7 @@ alias: argent
 
 L'argent mène le monde - c'est aussi le cas dans Eressea.  
 
-Il y a plusieurs façons d'obtenir de l'argent : une unité peut [[cmd-work|travailler]], [[cmd-entertain|divertir]], [[cmd-tax|collecter les impôts]] ou [commercer][le-commerce].  
+Il y a plusieurs façons d'obtenir de l'argent : une unité peut [travailler][cmd-work], [divertir][cmd-entertain], [collecter les impôts][cmd-tax] ou [commercer][le-commerce].  
 
 Le travail (`WORK`) est plus une sorte de palliatif, les unités qui travaillent gagnent à peine de quoi se nourrir.  
 Vous pouvez gagner beaucoup d'argent avec le divertissement (`ENTERTAIN`) et les impôts (`TAX`).  
@@ -38,9 +38,9 @@ Garder empêche le recrutement (sauf en cas d'utilisation de `HELP`).
 
 Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture.  
 Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de silvers !)  
-Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [[cmd-help|`HELP SILVER`]] avec votre faction aident aussi (voir [[alliances]]).  
+Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [`HELP SILVER`][cmd-help] avec votre faction aident aussi (voir [[alliances]]).  
 Les unités qui se déplacent doivent être ravitaillées là où elles arrivent.  
-Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [[cmd-reserve|réservé]].  
+Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé][cmd-reserve].  
 Sans suffisamment de silvers, les gens souffrent de la faim (voir ci-dessous).  
 
 Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pour fonctionner.  
@@ -86,8 +86,8 @@ Cela peut avoir plusieurs causes :
 
 - La région est surpeuplée. Dans une plaine sans arbres, où chaque paysan gagne 12 silvers, seuls 12 000 paysans peuvent survivre à long terme, car seuls 10 000 paysans travaillent tout en gagnant 1 200 00$, ce qui ne suffit que pour 12 000 paysans.
   À court terme, le nombre de paysans peut être plus élevé tant qu'il reste suffisamment de Silver dans les réserves de la région.
-- La région n'est pas surpeuplée, mais les unités des joueurs [[cmd-work|travaillent]] et occupent donc une partie des emplois.
-- Les paysans gagnent suffisamment de silvers, mais les unités de joueurs [[cmd-tax|taxent]] avant que les paysans n'aient pu subvenir à leurs besoins.
+- La région n'est pas surpeuplée, mais les unités des joueurs [travaillent][cmd-work] et occupent donc une partie des emplois.
+- Les paysans gagnent suffisamment de silvers, mais les unités de joueurs [taxent][cmd-tax] avant que les paysans n'aient pu subvenir à leurs besoins.
 - De plus, des rumeurs circulent sur des événements particuliers qui peuvent temporairement ou définitivement dégrader la fertilité d'une région, empêchant les paysans de subvenir à leurs besoins.
 
 Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivants].  
@@ -127,7 +127,7 @@ Garder empêche la collecte des taxes (sauf en cas d'utilisation de `HELP`).
 L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans).  
 Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment).  
 Les statistiques de la région indiquent également ce montant.  
-Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [[cmd-entertain|divertir]], si les paysans ont suffisamment d'argent à disposition.  
+Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [divertir][cmd-entertain], si les paysans ont suffisamment d'argent à disposition.  
 
 ### Exemples de possibilités de rémunération
 
@@ -294,7 +294,7 @@ Il est préférable de bien s'entendre avec tes colocataires s'ils sont amicaux.
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.
 Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.
 
-Si toutes les factions qui gardent ont paramétré [[cmd-help|`HELP GUARD`]] ou [[cmd-help|`HELP ALL`]] avec notre faction ou un ordre [[cmd-contact]] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help] ou [`HELP ALL`][cmd-help] avec notre faction ou un ordre [[cmd-contact]] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
 Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon.
 Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 

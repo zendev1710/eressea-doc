@@ -41,9 +41,9 @@ In order for unit a to recruit, x and y must both `CONTACT UNIT a` or `CONTACT P
 
 ## Differences to `HELP`
 
-`CONTACT` has a similar function to [[cmd-help|`HELP GIVE + HELP GUARD`]], but it's not 100% the same :
+`CONTACT` has a similar function to [`HELP GIVE + HELP GUARD`][cmd-help], but it's not 100% the same :
 <!-- TODO: compare the second item in enumeration with the original wiki documentation -->
-- `CONTACT` is required for some things that `HELP GIVE` or `HELP GUARD` does not cover, such as [[cmd-give|`GIVE MEN`]] and some spells
+- `CONTACT` is required for some things that `HELP GIVE` or `HELP GUARD` does not cover, such as [`GIVE MEN`][cmd-give] and some spells
 - `HELP` closes `HELP SILVER, HELP COMBAT` and `HELP PARTEITARNUNG` A
 - `CONTACT` applies only to the current round and only to the unit issuing the order
 - `HELP`is permanent and applies to all units of my faction or group (and all units of the other targeted faction)

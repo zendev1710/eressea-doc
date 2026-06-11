@@ -88,7 +88,7 @@ Cela s'applique bien sûr aussi à [[cmd-ride]] et [[cmd-carry]].
 Les [aquariens][aquariens] peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.  
 Cela fonctionne comme un mouvement normal avec [[cmd-move]] et seulement si l'unité n'est pas surchargée.  
 Ils peuvent emporter des objets, mais pas de chevaux, même si l'unité qui nage peut les porter.  
-De même [[cmd-carry|transporter]] des personnes d'autres races n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
+De même [transporter][cmd-carry] des personnes d'autres races n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
 Ce mouvement a lieu avant celui des bateaux, de sorte qu'un bateau peut déposer des unités puis poursuivre sa route.  
 [[cmd-leave]] n'est pas nécessaire lorsque l'on nage à partir d'un bateau, mais ce n'est même pas une erreur.  
 
@@ -116,7 +116,7 @@ Lors des événements suivants, un bateau subit des dommages :
 - si le bateau est sans propriétaire, il subit 5% de dommages
 - Si le bateau dérive (comme suite à une tempête), il subit 2 % de dommages
 
-Un bateau peut être réparé avec l'ordre [[cmd-make|`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;]], exactement comme lorsque sa construction n'était pas encore achevée.  
+Un bateau peut être réparé avec l'ordre [`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;][cmd-make], exactement comme lorsque sa construction n'était pas encore achevée.  
 
 Expérience de jeu :
 

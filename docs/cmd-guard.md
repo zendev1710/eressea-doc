@@ -14,7 +14,7 @@ To do so, the unit must be [[armed]] with at least one [weapon][weapons-summary-
 !!! note
     Ocean regions cannot be guarded.
 
-When a faction is guarding a region, units that are not allied with it are subject to [[alliances|alliances]] ([[cmd-help|`HELP GUARD`]] or [[cmd-contact]]), with the following restrictions:
+When a faction is guarding a region, units that are not allied with it are subject to [[alliances|alliances]] ([`HELP GUARD`][cmd-help] or [[cmd-contact]]), with the following restrictions:
 
 1. You can no longer collect taxes, mine raw materials, [trade][silver-trade-id] or recruit farmers in this region
 2. There is a certain probability that you will be stopped in transit
@@ -36,7 +36,7 @@ The guarding unit immediately becomes visible to all other units in the region, 
 
 With `GUARD NOT` the guard status of a unit is dissolved.  
 This also happens when the unit is moving.  
-Units with the combat status [[cmd-combat|COMBAT FLEE]] cannot guard, and units from which all survivors flee during combat also stop guarding.  
+Units with the combat status [COMBAT FLEE][cmd-combat] cannot guard, and units from which all survivors flee during combat also stop guarding.  
 
 When a unit travels through a region guarded by at least one non-allied faction, the chance of being stopped depends on several factors.
 
@@ -62,7 +62,7 @@ In the [[puppy-protection|first few weeks]] a faction cannot guard yet.
 
 ## See also
 
-- [[cmd-help|`HELP GUARD`]]
+- [`HELP GUARD`][cmd-help]
 - [[alliances]]
 - [[cmd-contact]]
 

@@ -95,7 +95,7 @@ If you want to bring people from different units together, this is done with `GI
 
 Player experience (Solthar):
 
-If you want to hand over people to a unit of another faction, a simple [[cmd-help|`HELP GIVE`]] is not enough!  
+If you want to hand over people to a unit of another faction, a simple [`HELP GIVE`][cmd-help] is not enough!  
 The receiving unit must [[cmd-contact]] the transferring unit.  
 In addition, if the receiving unit is a [migrant unit][humans], it must not have any people at the time of transfer.
 Ideally it should be an empty TEMP unit.

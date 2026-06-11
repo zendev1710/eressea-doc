@@ -26,13 +26,13 @@ Seule une personne sufisamment compétente en [alchimie][alchimie]{title="Alchem
 !!! warning "Remarque"
     Une faction compte au plus **3 alchimistes**.
 
-Les potions sont concoctées avec l'ordre [[cmd-make|`MAKE "<nom de la potion>"`]].  
+Les potions sont concoctées avec l'ordre [`MAKE "<nom de la potion>"`][cmd-make].  
 
 Une potion nécessite plusieurs ingrédients.  
 La recette de préparation d'une potion est dévoilée à l'alchimiste quand son niveau de compétence vient d'augmenter et qu'il correspond au niveau d'une nouvelle potion.  
 
 !!! tip "Astuce"
-    La recette peut être ensuite retrouvée à tout moment avec l'ordre [[cmd-show|`SHOW "<nom potion>"`]].  
+    La recette peut être ensuite retrouvée à tout moment avec l'ordre [`SHOW "<nom potion>"`][cmd-show].  
 
 Pour pouvoir concocter une potion, le niveau de l'alchimiste doit être **2 fois plus élevé** que celui de la potion.  
 Un alchimiste de niveau T pourra donc produire à chaque tour un nombre de potions N calculé ainsi :
@@ -43,7 +43,7 @@ $$
 *Ex. Un alchimiste **T6** peut produire 1 potion N3 ($6\,/\,(3\,\times\,2)=1$), 1 potion N2 ($6\,/\,(2\,\times\,2)=1$) ou 3 potions N1 ($6\,/\,(1\,\times\,2)=3$).*  
 
 !!! note "Note"
-    Les plantes peuvent être [[cmd-research|découvertes]] dans une région puis [[cmd-make|récoltées]] par une unité compétente en [herboristerie][herboristerie]{title="Herbalism"}.
+    Les plantes peuvent être [découvertes][cmd-research] dans une région puis [récoltées][cmd-make] par une unité compétente en [herboristerie][herboristerie]{title="Herbalism"}.
 
 ### Utilisation
 
@@ -285,7 +285,7 @@ Plantes nécessaires pour concocter cette potion :
 - [lierre d'araignée]
 - [œil de chouette][il-de-chouette]{title="Owlsgaze"}
 
-[[cmd-use|À l'utilisation]], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
+[À l'utilisation][cmd-use], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
 !!! note
     Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  

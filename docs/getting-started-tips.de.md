@@ -1,9 +1,12 @@
 ---
 # cSpell:locale de
-alias: anfängertipps
+alias: anfangertipps
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #anfangertipps-id }
+
 # Anfängertipps
 
 Achtet bei der Befehlseingabe darauf, dass ihr die richtige Parteinummer und die richtigen Einheitennummern verwendet habt.
@@ -127,7 +130,7 @@ Lasst euch nicht ärgern und zu unüberlegten Dingen hinreißen - wahrscheinlich
 ## Siehe auch
 
 - [Tipps und Tricks]
-- [Hinweise]
+- [Hinweise][hinweise]
 - [Der erste Zug]
 - [Grundlagen][grundlagen]
 
@@ -140,6 +143,3 @@ Weiterlesen: [Xontormia-Express][xontormia-express-de-id].
 
 [Passwort]: ./cmd-password.md
 [Unterhaltung]: ./cmd-entertain.md
-
-[Tipps und Tricks]: ./tips-and-tricks.md
-[Hinweise]: ./hints.md

@@ -2,6 +2,10 @@
 # cSpell:locale de
 alias: vorlage-de
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #vorlage-de-id }
+
 # Vorlage
 
 **Vorlage** ist eine Win32- oder x86-Linux-Konsolen-Anwendung, die aus einem Computer-Report eine Befehlsvorlage erzeugen kann. Die Vorlage enthält erweiterte Informationen gegenüber der Standardvorlage und macht häufiges nachschlagen im normalen Report überflüssig. Des weiteren wertet das Programm Metabefehle aus, die es ermöglichen, Vorgänge zu automatisieren.

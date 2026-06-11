@@ -8,7 +8,7 @@ alias: ships
 
 # Ships
 
-Ships are built using the [[cmd-make|**`MAKE`**&#91;*`levels`*&#93;*`ship type`*]] order.  
+Ships are built using the [**`MAKE`**&#91;*`levels`*&#93;*`ship type`*][cmd-make] order.  
 Existing, unfinished, or damaged ships can be further built using **`MAKE`**&#91;*`levels`*&#93;&nbsp;`SHIP`&nbsp;&#93;*`ship-id`*&#93;.  
 
 Wood is needed for this. The more complex the ship, the harder it is to build and command.  
@@ -36,7 +36,7 @@ In the report, the units that are on the ship are indented under the ship.
 
 The first unit is a captain and has command of the ship.  
 The captain determines which other units are allowed to board the ship.  
-He may [[cmd-name|rename]] or [[cmd-describe|describe]] the ship, and also counts as crew.
+He may [rename][cmd-name] or [describe][cmd-describe] the ship, and also counts as crew.
 
 Unlike buildings, ships cannot be expanded.  
 So once you start building a longboat, you won't be able to convert it into a caravel later.

@@ -17,6 +17,6 @@ For **duncebun**, the **duration** is limited to **10 weeks** per person.
 
 There are other items than potions that can be used.  
 These include [Antimagic Crystal][t-create-an-antimagic-crystal-id] and some faction items ([[christmas]]).  
-These can have additional parameters, which are specified in the item [[cmd-show|description]].
+These can have additional parameters, which are specified in the item [description][cmd-show].
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->

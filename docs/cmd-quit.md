@@ -14,7 +14,7 @@ This order must also be given to a unit.
 
 All items, including Silver, from the dying faction are given to friendly units that are in the same region as units of the dying faction.  
 If there are several people in the region, it will be divided according to the number of people in the region.  
-Only those who have been given a [[cmd-help|HELP SILVER]] are considered friends here, i.e. where there was already trust on the part of the departing faction.  
+Only those who have been given a [HELP SILVER][cmd-help] are considered friends here, i.e. where there was already trust on the part of the departing faction.  
 The receiving faction must have put HELP GIVE on the dying faction.  
 The items go to the faction's first unit in the region.  
 If there is no friendly unit in a region, all items go to the farmers.  

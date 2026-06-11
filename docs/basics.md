@@ -33,7 +33,7 @@ A unit can only perform one [long order][short-and-long-orders] per week, but ca
 
 ## Battle
 
-Battle in regions that you don't [[cmd-guard|guard]] are always long, even if your entire faction is attacked by just one scout, he prevents ALL units he [[cmd-attack|attacked]] from carrying out their long order.  
+Battle in regions that you don't [guard][cmd-guard] are always long, even if your entire faction is attacked by just one scout, he prevents ALL units he [attacked][cmd-attack] from carrying out their long order.  
 So you should make sure that you are guarding your regions from the first week in which your faction can be attacked at the latest.  
 
 [](){ #basics-hunger-id }

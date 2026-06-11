@@ -50,7 +50,7 @@ There's barely one Adamantium per round, assuming there is any Adamantium in the
 
 ## Extraction of Raw Materials
 
-When exploiting resources, it is important to consider that units [[cmd-guard|on guard]] prevent non-allied factions - having neither [[cmd-help|`HELP GUARD`]] nor [[cmd-help|`HELP ALL`]] to your faction and not [[cmd-contact|contacting]] your unit or faction - from exploiting them.
+When exploiting resources, it is important to consider that units [on guard][cmd-guard] prevent non-allied factions - having neither [`HELP GUARD`][cmd-help] nor [`HELP ALL`][cmd-help] to your faction and not [contacting][cmd-contact] your unit or faction - from exploiting them.
 This does not apply if the guarding faction does not see the producer, for example because they are [cloaked][stealth].
 
 ### About Mining
@@ -74,7 +74,7 @@ If wood or mallorn is felled, the forest shrinks and only recovers very slowly.
 As long as there is enough wood, it can be felled in any quantity.
 The same applies to mallorn, a 'magic' wood found only in a few regions.
 Mallorn reproduces like wood, but mallorn seeds only grow in regions that are suitable for them.
-In regions with mallorn, the order [[cmd-make|`MAKE wood`]] can also be used to harvest wood instead of mallorn.
+In regions with mallorn, the order [`MAKE wood`][cmd-make] can also be used to harvest wood instead of mallorn.
 The number of mallorn trees is then reduced by the same amount as if mallorn had been felled.
 
 Skills: forestry, herbalism
@@ -93,10 +93,10 @@ Skills: forestry, herbalism
 
 ### And Elsewhere
 
-You may capture wild horses as you like with [[cmd-make|`MAKE horse`]] by a unit with the [taming][taming] skill.
+You may capture wild horses as you like with [`MAKE horse`][cmd-make] by a unit with the [taming][taming] skill.
 Without help, only wild horses reproduce.
 They love space and freedom, which is why some of them migrate to neighboring regions when there are fewer horses there.
-However, it is possible to breed captured horses in a [stable][stable] with the taming skill and the order [[cmd-grow|`BREED HORSES`]].
+However, it is possible to breed captured horses in a [stable][stable] with the taming skill and the order [`BREED HORSES`][cmd-grow].
 
 Player experience (Solthar):
 

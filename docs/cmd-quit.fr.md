@@ -14,7 +14,7 @@ Cet ordre doit également être donné à une unité.
 
 Tous les objets, y compris l'argent, de la faction mourante sont donnés aux unités amies qui se trouvent dans la même région.  
 La répartition sera effectuée en fonction du nombre de personnes dans la région.  
-Seuls ceux qui ont reçu un [[cmd-help|`HELP SILVER`]] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
+Seuls ceux qui ont reçu un [`HELP SILVER`][cmd-help] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
 La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
 Les objets vont à la première unité de la faction dans la région.  
 S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  

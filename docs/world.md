@@ -89,7 +89,7 @@ The terrain type also determines which [[herbs]] can grow in the region.
 An alchemist will be able to brew helpful [[alchemy|potions]] from different ingredients.  
 Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there.  
 However, the herbs that grow there cannot be changed.  
-Even if all herbs have been plucked from the region, only the herb that originally grew there can be [[cmd-plant|replanted]].  
+Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted][cmd-plant].  
 If in doubt, you must try out which herb has originally grown here.  
 Herbs never grow in volcanoes.  
 

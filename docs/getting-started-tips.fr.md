@@ -8,7 +8,7 @@ alias: conseils-pour-debutants
 
 Lorsque vous renseignez les ordres, assurez-vous d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
 
-[[cmd-password|Définissez un mot de passe]] et n'oubliez pas de le mémoriser.  
+[Définissez un mot de passe][cmd-password] et n'oubliez pas de le mémoriser.  
 
 C'est plus intéressant pour tout le monde si vous donnes des noms originaux à votre faction et à toutes vos unités.  
 N'oubliez pas qu'Eressea est un jeu de rôle fantastique : des noms comme « Les tortionnaires télécommandés de Barney » (oui, ça a vraiment existé !) ne correspondent pas à l'ambiance d'Eressea.  
@@ -37,14 +37,14 @@ Envoiez donc quelques unités composées d'un seul soldat et donnez-leur suffisa
 
 Créez davantage d'unités et apprenez certaines compétences dont vous pensez avoir besoin lors des trois ou quatre prochains tours.  
 
-Le [[cmd-entertain|divertissement]] est essentiel pour gagner de l'argent.  
+Le [divertissement][cmd-entertain] est essentiel pour gagner de l'argent.  
 Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
-Les [[cmd-tax|collecteurs d'impôts]] constituent également une bonne source de revenus;  
+Les [collecteurs d'impôts][cmd-tax] constituent également une bonne source de revenus;  
 pour cela, il te faut, par exemple, des métaux ([exploitation minière][ressources-minieres]) ou du bois ([exploitation forestière][ressources-forestieres]) pour fabriquer des armes comme des épées ou des lances;  
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts][collecter-les-impots], [compétences d'armes][competences-de-combat]).  
 
 La [perception][skill-perception-fr-id]{title="Perception"} est une compétence essentielle, souvent sous-estimée par les débutants.  
-Seuls les [[cmd-tax|percepteurs]] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
+Seuls les [percepteurs][cmd-tax] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
 Il est également conseillé de construire des [châteaux][chateaux]{title="Castle"} rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots][chevaux-et-chariots].  
@@ -102,8 +102,8 @@ En cas de conflit, sachez que vous n'êtes pas seul.
 Les contacts vous permettent d'échanger des informations, comme des données cartographiques;  
 ils vous permettent de partager vos expériences et vos astuces, et l'apprentissage mutuel est particulièrement précieux.  
 
-Pour contacter d'autres factions, obtenez la liste de celles de votre région à l'aide de l'ordre [[cmd-option|`OPTION ADDRESSES`]] et contactez-les directement.  
-Utilisez l'ordre [[cmd-message|`MESSAGE REGION`]] pour signaler votre présence aux autres factions.  
+Pour contacter d'autres factions, obtenez la liste de celles de votre région à l'aide de l'ordre [`OPTION ADDRESSES`][cmd-option] et contactez-les directement.  
+Utilisez l'ordre [`MESSAGE REGION`][cmd-message] pour signaler votre présence aux autres factions.  
 
 Pour atteindre vos objectifs, ne lésinez pas sur les dépenses.  
 Le capital de départ est destiné à l'investissement.  

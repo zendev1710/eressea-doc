@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: cmd-learn-auto
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LEARN AUTO
 
 **`LEARN AUTO`**` `*`skill`*  
 
-Through the order, the server attempts to automate [[cmd-learn|learning]] and [[cmd-teach|teaching]] in a region for all units in a faction using this order for this skill.  
+Through the order, the server attempts to automate [learning][cmd-learn] and [teaching][cmd-teach] in a region for all units in a faction using this order for this skill.  
 However, a mixture of TEACH and LEARN AUTO is not possible.  
 
 If several units in a region give the `LEARN AUTO <skill>` order, e.g. `LEARN AUTO sailing`, then the server selects those units from these units that have to teach so that the rest get the maximum learning output.  

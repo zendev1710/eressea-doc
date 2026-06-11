@@ -110,7 +110,7 @@ Mails an Eressea
 
 ## What you need to consider when entering data
 
-Each move must begin with the line [[cmd-eressea|`ERESSEA xxx "password"`]]. xxx is your own faction number, and "password" is the faction's password.  
+Each move must begin with the line [`ERESSEA xxx "password"`][cmd-eressea]. xxx is your own faction number, and "password" is the faction's password.  
 Each turn must be ended with the [[cmd-next]] keyword.  
 
 All orders are issued per unit, even if they are orders that affect the faction as a whole; someone has to do it.  
@@ -141,8 +141,8 @@ NEXT
 The first line with the ECHECK is for the syntax checker.  
 It recognizes this line and uses the parameters of the line.  
 With the -z, the people and their assets from the comment behind the command [[cmd-unit]] are evaluated.
-Income with [[cmd-work]] (usually 11 silver each per person), [[cmd-tax|tax]] and [[cmd-entertain]] (20 silver per person) are also taken into account.  
-Expensive skills such as [[cmd-learn|`LEARN MAGIC`]] and units that move silver with [[cmd-move]] are then evaluated and warnings are issued if there is too little silver.  
+Income with [[cmd-work]] (usually 11 silver each per person), [tax][cmd-tax] and [[cmd-entertain]] (20 silver per person) are also taken into account.  
+Expensive skills such as [`LEARN MAGIC`][cmd-learn] and units that move silver with [[cmd-move]] are then evaluated and warnings are issued if there is too little silver.  
 The `-w4` is the “warning level”, 4 means being particularly picky.  
 And finally, the `-r100` says that the recruitment cost of this faction is 100 silver per person.  
 
@@ -181,7 +181,7 @@ If character strings are required for the orders (e.g. for the name), they must 
 If necessary, these character strings can span multiple lines as long as they are extended as described above.  
 Between the quotation marks, multiple spaces, line breaks and tabs are always compressed to one space each.  
 
-Any text that follows a semicolon (`;`) is considered a [[cmd-comment|comment]].  
+Any text that follows a semicolon (`;`) is considered a [comment][cmd-comment].  
 Comments can make it much easier to understand the moves you made next time.  
 If you write comments using the [[comment-with-slashes|comment order `//`]], the comment is automatically included in the [[orders|move template]] of the next round.  
 

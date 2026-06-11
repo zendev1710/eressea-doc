@@ -13,7 +13,7 @@ Ordre pseudo-long [^1].
 Cet ordre déclenche l'attaque de l'unité spécifiée présente dans la région de l'attaquant.  
 Un ordre `ATTACK` doit être donné pour chaque unité à attaquer.  
 
-Les unités qui ne [[cmd-combat|combattent]] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.  
+Les unités qui ne [combattent][cmd-combat] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.  
 
 Au cours des premières semaines, une faction est [[puppy-protection|immunisée]] contre les attaques.  
 

@@ -33,7 +33,7 @@ Note : afin de ne pas compliquer inutilement les choses, on parle de personnes m
 ## Factions impliquées
 
 Selon le rapport de bataille, les factions suivantes étaient impliquées.  
-Il ne peut être exclu que certains participants aient pris part à cette bataille sous [[cmd-hide|fausse bannière]].  
+Il ne peut être exclu que certains participants aient pris part à cette bataille sous [fausse bannière][cmd-hide].  
 Le candidat le plus probable est le Mist Sea Man Gornt (mwq4), qui se faisait passer pour un danseur dans la tempête, mais qui était très probablement un Aquazone.  
 
 Du côté de **Tirawon**, 15 peuples se sont battus :

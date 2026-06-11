@@ -8,7 +8,7 @@ alias: cmd-banner-fr
 
 **`BANNER "<texte>"`**  
 
-Cet ordre vous permet de définir une description qui apparaîtra dans la liste d'adresses de l'[[cmd-option|`OPTION ADDRESS`]].  
+Cet ordre vous permet de définir une description qui apparaîtra dans la liste d'adresses de l'[`OPTION ADDRESS`][cmd-option].  
 Il peut contenir le nom du joueur ou une adresse e-mail alternative pour les autres joueurs.  
 Il est également noté ici si un [remplacement de vacances][triche] joue.  
 

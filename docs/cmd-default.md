@@ -16,7 +16,7 @@ After I have sent in my orders and the server has created the evaluation, specif
 These are the default orders.
 They will be executed next week if you don't send in orders **for this unit**.
 <!-- TODO: clarify (bad from german translation) -->
-You will receive the default orders with the report as a text file (also called an orders template) if you do not use them with [[cmd-option|`OPTION ZUGVORLAGE NOT`]] switched off.
+You will receive the default orders with the report as a text file (also called an orders template) if you do not use them with [`OPTION ZUGVORLAGE NOT`][cmd-option] switched off.
 They are also included in the computer report (CR).
 The normal report (NR) always only contains the first long default order.  
 So you can't see all the default orders there.

@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: vorlage
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #vorlage-id }
+
 # Vorlage
 
 **Vorlage** is a Win32 or x86 Linux console application that can generate an orders template from a computer report.

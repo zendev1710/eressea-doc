@@ -17,7 +17,7 @@ Un capitaine doit d'abord quitter son bateau, avec l'ordre `LEAVE`;
 Les autres marins peuvent utiliser l'ordre `MOVE` pour se déplacer sur terre et quitter automatiquement le bateau.
 
 Si une unité quitte un bâtiment ou un bateau dont elle a le commandement, cela ne passe pas nécessairement à l'unité suivante dans le rapport.  
-Dans cette situation, il est préférable d'utiliser [[cmd-give|`GIVE unit-id COMMAND`]], pour contrôler la passation du commandement.  
+Dans cette situation, il est préférable d'utiliser [`GIVE unit-id COMMAND`][cmd-give], pour contrôler la passation du commandement.  
 L'ordre des unités lors de l'évaluation n'est pas toujours celui du rapport.
 Si vos propres unités se trouvent dans le bâtiment ou sur le bateau, le commandement leur reviendra.
 

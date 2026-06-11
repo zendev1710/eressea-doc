@@ -41,9 +41,9 @@ Pour que l'unité *a* recrute, *x* et *y* doivent tous deux passer un ordre `CON
 
 ## Differences avec `HELP`
 
-`CONTACT` a une fonction similaire à [[cmd-help|`HELP GIVE + HELP GUARD`]], mais n'est pas tout à fait identique :
+`CONTACT` a une fonction similaire à [`HELP GIVE + HELP GUARD`][cmd-help], mais n'est pas tout à fait identique :
 <!-- TODO: compare second item in enumeration with original wiki documentation -->
-- `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [[cmd-give|`GIVE MEN`]] et certains sorts
+- `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [`GIVE MEN`][cmd-give] et certains sorts
 - `HELP` ferme `HELP SILVER, HELP COMBAT` et `HELP PARTEITARNUNG`
 - `CONTACT` s'applique uniquement au tour en cours et uniquement à l'unité émettant l'ordre
 - `HELP` est permanent et s'applique à toutes les unités de la faction ou du groupe (et à toutes les unités de la faction ciblée par l'ordre)

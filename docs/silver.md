@@ -28,7 +28,7 @@ Recruitment is prevented by guarding.
 ### Upkeep costs
 
 Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive.
-Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [[cmd-help|HELP SILVER]] to your own faction will also help (see [[alliances]]).
+Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [HELP SILVER][cmd-help] to your own faction will also help (see [[alliances]]).
 Units that move must be supplied where they arrive. Silver, which was previously [reserved], is also used for unit maintenance.
 Without enough silver, people will starve (see below).
 
@@ -201,7 +201,7 @@ If several factions work, maintain, collect taxes or trade in a region, the poss
 
 If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit. Work, entertainment and trade are possible, however, unless your own unit is on a ship.
 
-If all guarding factions have set [[cmd-help|`HELP GUARD`]] or [[cmd-help|`HELP ALL`]] to our faction or [[cmd-contact]] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
+If all guarding factions have set [`HELP GUARD`][cmd-help] or [`HELP ALL`][cmd-help] to our faction or [[cmd-contact]] to our unit or our faction, then guarding has no effect. This also applies if our unit is not seen due to a sufficiently good stealth skill. For a TEMP unit (particularly relevant when recruiting), the "mother" unit counts, i.e. the unit that gives the command `MAKE TEMP`.
 
 ## See also
 

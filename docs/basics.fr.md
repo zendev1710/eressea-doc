@@ -33,7 +33,7 @@ Chaque unité ne peut effectuer qu'un seul [ordre long][ordres-courts-et-longs] 
 
 ## La bataille
 
-Les combats dans des régions que vous ne [[cmd-guard|gardez pas]]{title="GUARD"} sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [[cmd-attack|attaque]]{title="ATTACK"} d'exécuter leur ordre long.  
+Les combats dans des régions que vous ne [gardez pas][cmd-guard]{title="GUARD"} sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [attaque][cmd-attack]{title="ATTACK"} d'exécuter leur ordre long.  
 Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que votre faction est susceptible d'être attaquée.  
 
 ## La famine
@@ -43,7 +43,7 @@ Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
 ## Les finances
 
-Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-taxation-fr-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [[cmd-work|travaillez]]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
+Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-taxation-fr-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [travaillez][cmd-work]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
 
 ## Mage
 
@@ -72,7 +72,7 @@ Les unités qui ont de l'argent ou qui reçoivent de l'argent utilisent toujours
 
 <!-- TODO: add orders example otherwise it"s unclear  -->
 Par exemple, vous créez une nouvelle unité, recrutez un [Chat][chats]{"title=Cat"} (coûte 90 silver).  
-Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [[cmd-learn|apprendre]]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
+Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [apprendre][cmd-learn]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
 
 Dans cette situation, il ne suffit pas de lui donner 20 silver pour le temps de trajet et la semaine d'apprentissage.  
 Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [affamée][famine] dans la région voisine.  

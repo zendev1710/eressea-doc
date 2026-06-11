@@ -22,8 +22,8 @@ The attacking side consists of all units that have given `ATTACK` orders against
 
 <!-- TODO: check links in this sentence in wiki -->
 The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order `ATTACK`*`unit-id`*, and with all the units of the attacked faction that are ready to fight.  
-Therefore those in [[cmd-combat]], [[cmd-combat|`COMBAT AGGRESSIVE`]], [[cmd-combat|`COMBAT REAR`]] or [[cmd-combat|`COMBAT DEFENSIVE`]].  
-In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put [[cmd-help|`HELP COMBAT`]] with the faction under attack, help out.
+Therefore those in [[cmd-combat]], [`COMBAT AGGRESSIVE`][cmd-combat], [`COMBAT REAR`][cmd-combat] or [`COMBAT DEFENSIVE`][cmd-combat].  
+In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put [`HELP COMBAT`][cmd-help] with the faction under attack, help out.
 
 So there are different reasons why a unit takes part in combat.  
 These are, listed in order of priority:
@@ -42,12 +42,12 @@ These are, listed in order of priority:
 So allies only automatically help defenders and *only if the defenders have not attacked themselves*.  
 Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight.  
 For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an [[cmd-attack]] order are engaged in combat.  
-However, units that have set [[cmd-combat|`COMBAT NOT`]] or [[cmd-combat|`COMBAT FLEE`]] cannot attack.
+However, units that have set [`COMBAT NOT`][cmd-combat] or [`COMBAT FLEE`][cmd-combat] cannot attack.
 
 So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units.  
 To defend together against attackers, all the defending factions do is assist each other (HELP).
 
-Basically anyone to whom [[cmd-help|`HELP COMBAT`]] has been assigned, and who has not attacked anyone to whom [[cmd-help|`HELP COMBAT`]] has also been assigned is considered an ally.
+Basically anyone to whom [`HELP COMBAT`][cmd-help] has been assigned, and who has not attacked anyone to whom [`HELP COMBAT`][cmd-help] has also been assigned is considered an ally.
 
 **Example 1:**
 
@@ -104,7 +104,7 @@ A battle lasts five combat rounds plus a possible tactics round.
 In each combat round, the combatants strike in a random order.
 
 Note that persons taking part in a battle (the persons listed in the battle report, i.e. attacked or attacking) cannot execute other long orders.  
-The exceptions are [combat at sea][combat-on-and-with-ships] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [[cmd-help|`HELP GUARD`]] towards the combatant's faction.  
+The exceptions are [combat at sea][combat-on-and-with-ships] and combat in regions which, *at the start of combat*, are guarded by at least one unit of its own faction or a unit which has [`HELP GUARD`][cmd-help] towards the combatant's faction.  
 In this case, other long orders are possible.
 
 ### Combat rows
@@ -113,11 +113,11 @@ In battle, there are four combat rows.
 These are only made up of units that are actually participating in combat (see above).  
 For more information on combat status, see [[cmd-combat]].
 
-1. row: This is where you'll find all the units that have set [[cmd-combat]] or [[cmd-combat|`COMBAT AGGRESSIVE`]].
-2. row: This is where you'll find all the units that have set [[cmd-combat|`COMBAT REAR`]] or [[cmd-combat|`COMBAT DEFENSIVE`]]
-3. row: This is where you'll find all the units that have set [[cmd-combat|`COMBAT NOT`]].
+1. row: This is where you'll find all the units that have set [[cmd-combat]] or [`COMBAT AGGRESSIVE`][cmd-combat].
+2. row: This is where you'll find all the units that have set [`COMBAT REAR`][cmd-combat] or [`COMBAT DEFENSIVE`][cmd-combat]
+3. row: This is where you'll find all the units that have set [`COMBAT NOT`][cmd-combat].
 4. row: This is where you'll find all the units that are simply trying to escape.
-   So those that have set [[cmd-combat|`COMBAT FLEE`]] and those that have lost an appropriate number of hit points (see also [fleeing]).
+   So those that have set [`COMBAT FLEE`][cmd-combat] and those that have lost an appropriate number of hit points (see also [fleeing]).
 
 Only the first two combat rows actively take part in the battle, i.e. they can strike, shoot and be hit.  
 Units that are not combat ready and are directly attacked only really take part in the battle when one of the front rows is overrun.  
@@ -204,7 +204,7 @@ The procedure is as follows:
 - Beginner's luck: If the attack fails, the attacker has an additional 10% chance of converting his attack after all: He can strike a second time with a 90 to 99% (chance) increased chance of hitting.
   This gives severely disadvantaged fighters the opportunity to get at least a few random hits.
 
-Each person attacks once per combat round (except [[cmd-promote|Heroes]] and some monsters).
+Each person attacks once per combat round (except [Heroes][cmd-promote] and some monsters).
 
 When a fighter manages to hit his opponent, he inflicts damage.  
 Different weapons inflict different amounts of damage (damage points, see [Weapon characteristics][weapons-summary-table]).  
@@ -248,7 +248,7 @@ Units in the front row defend with their full skill level if the ranged combatan
     If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves [unarmed][bonuses-and-mali]!
 
 Catapults require ammunition.  
-This can be produced from stones using [[cmd-make|MAKE ammunition]] by a mason with quarrying skill 3 and it weighs 10 weight units.  
+This can be produced from stones using [MAKE ammunition][cmd-make] by a mason with quarrying skill 3 and it weighs 10 weight units.  
 One unit of ammunition corresponds to one volley.
 
 *Ranged weapons - bonuses and time.*
@@ -373,10 +373,10 @@ It also follows that spear fighters are slightly more effective against mounted 
 
 ## Fleeing
 
-People who have set [[cmd-combat|`COMBAT FLEE`]] and are [[cmd-attack|attacked]] try to flee.  
+People who have set [`COMBAT FLEE`][cmd-combat] and are [attacked][cmd-attack] try to flee.  
 They do this before each round of combat, so they may have to take (more) hits before they can escape.  
 
-Persons with [[cmd-combat]] or [[cmd-combat|`COMBAT REAR`]] with only 20% of their hit points left, and persons with [[cmd-combat|`COMBAT DEFENSIVE`]] or [[cmd-combat|`COMBAT NOT`]] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.  
+Persons with [[cmd-combat]] or [`COMBAT REAR`][cmd-combat] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][cmd-combat] or [`COMBAT NOT`][cmd-combat] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.  
 Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.  
 This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
 
@@ -387,7 +387,7 @@ If the unit was in a building or on a ship on land, it leaves this as soon as a 
 
 !!! note
     It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.  
-    It should be noted that the command should also be handed back to the correct unit with [[cmd-give|`GIVE COMMAND`]].
+    It should be noted that the command should also be handed back to the correct unit with [`GIVE COMMAND`][cmd-give].
 
 Special rules apply to units with the FLEE status.  
 These units can still move after combat, even if they would otherwise not be able to execute a long order.  
@@ -409,11 +409,11 @@ These monsters, like some familiars, have an attack that can cause structural da
 
 If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage][damage-to-ships].
 
-If you want to land in a region [[cmd-guard|guarded]] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round.  
+If you want to land in a region [guarded][cmd-guard] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round.  
 This gives your enemies some time to prepare.
 
 From land you can attack a ship immediately.  
-Units on ships join the battle rows normally according to their `COMBAT` and [[cmd-help|`HELP COMBAT`]] status if their allies or they themselves are attacked.
+Units on ships join the battle rows normally according to their `COMBAT` and [`HELP COMBAT`][cmd-help] status if their allies or they themselves are attacked.
 
 [](){ #piracy-id }
 
@@ -423,12 +423,12 @@ Every captain has the chance to win a prize by capturing ships in adjacent regio
 
 The captain lies in wait for ships that end their movement in a neighboring region.  
 Once there, the crew can act as normal in the next round.  
-With the help of [[cmd-follow|`FOLLOW SHIP`]], for example, you could also just track your victims for the time being.
+With the help of [`FOLLOW SHIP`][cmd-follow], for example, you could also just track your victims for the time being.
 
 There are a few things to bear in mind with the whole story:
 
 - Only factions with which you are not allied with `HELP FIGHT` are recognized as targets.
-- If faction numbers are specified ([[cmd-piracy|`PIRACY`*`<faction-id>`*`...`]]), only captains of the specified factions are recognized as targets.
+- If faction numbers are specified ([`PIRACY`*`<faction-id>`*`...`][cmd-piracy]), only captains of the specified factions are recognized as targets.
 - The mechanism also works when the pirate ship is on land.
   It therefore offers an effective means of coastal protection.
 - Pirates also sail into land regions, provided the ship can land there.
@@ -438,7 +438,7 @@ There are a few things to bear in mind with the whole story:
   Being a pirate has its risks.
 - If there are several potential targets to choose from, the captain will select one at random.
 - Pirate fleets stay together.
-  If an allied ship (to which the captain has set [[cmd-help|`HELP COMBAT`]]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
+  If an allied ship (to which the captain has set [`HELP COMBAT`][cmd-help]) from your own region has already recognized a victim, our ship will also sail to the region in question, provided that the victim recognized by the first ship is also a potential victim for us.
 
 ## The End
 
@@ -450,14 +450,14 @@ Injured units will recover over time.
 Units normally regenerate 5% (some [[skills-modifiers|races]] more) of their maximum hit points per round, but at least one point per person in the unit.  
 Undead units do not regenerate.
 
-If the region being fought in was [[alliances|guarded]] **at the beginning of the battle** by a friendly unit or by a unit that has set a [[cmd-help|`HELP GUARD`]] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
+If the region being fought in was [[alliances|guarded]] **at the beginning of the battle** by a friendly unit or by a unit that has set a [`HELP GUARD`][cmd-help] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
 This works even if enemy troops are also guarding the region.  
 It also works if you have attacked yourself (i.e. you have set the `ATTACK` order yourself).
 
 If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.
 
-The only exception are units with the combat status [[cmd-combat|`COMBAT FLEE`]] and units at sea.  
-Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [[cmd-route]] or [[cmd-follow|`FOLLOW SHIP`]].  
+The only exception are units with the combat status [`COMBAT FLEE`][cmd-combat] and units at sea.  
+Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [[cmd-route]] or [`FOLLOW SHIP`][cmd-follow].  
 After sea battles on oceans you can always execute long orders.
 
 ## See also

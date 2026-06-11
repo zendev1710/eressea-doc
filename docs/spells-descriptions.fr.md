@@ -2383,7 +2383,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 <!-- cspell:enable -->
 
 :   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
-    Il le prouve en [[cmd-contact|**`CONTACTANT`**]] le mage.  
+    Il le prouve en [**`CONTACTANT`**][cmd-contact] le mage.  
     Il sera également exclusivement occupé aux préparatifs du rituel tout au long de la semaine.  
     Le rituel échouera s’il est trop fortement lié à son ancienne faction, par exemple s’il leur doit des services en échange de son éducation coûteuse.  
     Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à sa faction.  

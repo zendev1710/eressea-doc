@@ -79,7 +79,7 @@ The easiest way is to use the orders template at the end of the evaluation.
 All units are listed there so that you don't forget anyone.  
 If you don't send in any orders, the orders in the orders template will still be executed automatically.  
 Even if you only send orders for some of your units, the orders in the orders template will be executed for the remaining units.  
-If your evaluation does not contain an orders template (with the `.txt` extension), you can reactivate it with the [[cmd-option|`OPTION ZUGVORLAGE`]] order.  
+If your evaluation does not contain an orders template (with the `.txt` extension), you can reactivate it with the [`OPTION ZUGVORLAGE`][cmd-option] order.  
 
 ## Short and long orders
 

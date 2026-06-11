@@ -23,7 +23,7 @@ Tes unités accepteront tous les objets et l'argent de l'autre faction.
 Cela équivaut à un [[cmd-contact]] permanent pour [[cmd-give]].  
 
 !!! warning "Attention !"
-    Pour transférer des personnes ou* des unités à une autre faction avec les ordres [[cmd-give|`GIVE <leur-unité> <nombre> MEN`]] ou [[cmd-give|`GIVE <leur-unité> UNIT`]], la faction destinataire doit donner l’ordre [[cmd-contact]] !  
+    Pour transférer des personnes ou* des unités à une autre faction avec les ordres [`GIVE <leur-unité> <nombre> MEN`][cmd-give] ou [`GIVE <leur-unité> UNIT`][cmd-give], la faction destinataire doit donner l’ordre [[cmd-contact]] !  
     L’ordre `CONTACT` est également nécessaire pour les sorts ciblés.  
 
 ## `HELP COMBAT`
@@ -40,16 +40,16 @@ La faction bénéficiaire n'a pas besoin de faire de don pour ce type de transfe
 
 Lève toutes les restrictions de [[cmd-guard]] et étend certaines fonctions utiles à la faction ciblée.  
 Normalement, les factions de garde empêchent les autres factions de [[argent|lever des impôts]], de [recruter][recruter] ou de [[ressources|produire]] des ressources limitées;  
-Il arrive aussi que certaines unités soient empêchées de [[cmd-guard|traverser]] ta région.  
+Il arrive aussi que certaines unités soient empêchées de [traverser][cmd-guard] ta région.  
 Si ce statut d'aide est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.  
 
 De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats][fin-du-combat] si vous défendez la région.  
 
-Enfin, les unités de la faction alliée peuvent [[cmd-enter|entrer]] dans tes bâtiments et sur tes bateaux.  
+Enfin, les unités de la faction alliée peuvent [entrer][cmd-enter] dans tes bâtiments et sur tes bateaux.  
 
 ## `HELP FACTIONSTEALTH`
 
-Si vous déguisez vos unités avec [[cmd-hide|`HIDE FACTION NUMBER <faction>`]] en temps qu'autre faction, les factions auxquelles vous avez donné ce statut d'aide pourront voir que ces unités camouflées appartiennent en réalité à votre faction.  
+Si vous déguisez vos unités avec [`HIDE FACTION NUMBER <faction>`][cmd-hide] en temps qu'autre faction, les factions auxquelles vous avez donné ce statut d'aide pourront voir que ces unités camouflées appartiennent en réalité à votre faction.  
 
 ## `HELP ALL`
 

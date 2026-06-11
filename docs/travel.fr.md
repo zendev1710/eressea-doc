@@ -162,13 +162,13 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 
 ### Transport d'unités par d'autres
 
-Avec l'ordre [[cmd-carry|`CARRY <ID-du-passager>`]], les unités peuvent transporter d'autres unités pendant leur déplacement.  
-L'unité souhaitant être transportée doit donner l'ordre [[cmd-ride|`RIDE <ID-du-transporteur>`]] ([ordre long][ordres-courts-et-longs]).  
+Avec l'ordre [`CARRY <ID-du-passager>`][cmd-carry], les unités peuvent transporter d'autres unités pendant leur déplacement.  
+L'unité souhaitant être transportée doit donner l'ordre [`RIDE <ID-du-transporteur>`][cmd-ride] ([ordre long][ordres-courts-et-longs]).  
 
 Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.  
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [[cmd-follow|`FOLLOW UNIT <ID-unité-suivie>`]] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
 Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
@@ -183,7 +183,7 @@ Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
 
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [[cmd-follow|`FOLLOW UNIT <ID-unité-suivie>`]] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
 Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  

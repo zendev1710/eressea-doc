@@ -104,7 +104,7 @@ Un cheval augmente également la vitesse de déplacement (d'une région supplém
 
 ## Exploitation des ressources
 
-Lors de l'exploitation des ressources, il est important de considérer que les unités en [[cmd-guard|garde]] empêchent l'exploitation, si les factions en garde n'ont ni [[cmd-help|`HELP GUARD`]] ni [[cmd-help|`HELP ALL`]] avec ta faction, ou donné l'ordre [[cmd-contact|`CONTACT`]] avec l'unité ou la faction qui exploite.  
+Lors de l'exploitation des ressources, il est important de considérer que les unités en [garde][cmd-guard] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`][cmd-help] ni [`HELP ALL`][cmd-help] avec ta faction, ou donné l'ordre [`CONTACT`][cmd-contact] avec l'unité ou la faction qui exploite.  
 Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est [dissimulé][discretion].  
 
 ### Ressources minières
@@ -126,7 +126,7 @@ Le développement de la végétation d'Eressea est déterminé par les saisons.
 Dès que les premiers rayons du soleil frappent le sol au printemps, les graines cachées dans le sol germent et les pousses d'arbres de l'année passée se transforment en arbres adultes.  
 S'il n'y a pas assez de soleil (pas d'espace de travail libre), les graines restent dormantes dans le sol.  
 
-Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [[cmd-make|`MAKE seed` ou `MAKE mallorn seed`]] et la compétence [Herbalism] de niveau minimun 3 ou 4, puis replantées ailleurs avec l'ordre [[cmd-plant|`PLANT seed` ou `PLANT mallorn seed`]] (niveau minimum de 6 ou 7).
+Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [`MAKE seed` ou `MAKE mallorn seed`][cmd-make] et la compétence [Herbalism] de niveau minimun 3 ou 4, puis replantées ailleurs avec l'ordre [`PLANT seed` ou `PLANT mallorn seed`][cmd-plant] (niveau minimum de 6 ou 7).
 
 Si du bois ou du mallorn est abattu, la forêt se rétrécit et ne se reconstitue que très lentement.
 Tant qu'il y a suffisamment de bois, il peut être abattu en n'importe quelle quantité.  
@@ -180,7 +180,7 @@ Compétences concernées : [sylviculture][sylviculture]{title="Forestry"}, [her
 *Horses (EN),  (DE)*.
 <!-- cspell:enable -->
 
-Les chevaux peuvent également être capturés à volonté avec l'ordre [[cmd-make|`MAKE horse`]].
+Les chevaux peuvent également être capturés à volonté avec l'ordre [`MAKE horse`][cmd-make].
 Sans aide, seuls les chevaux sauvages se reproduisent.
 Il est toutefois possible de faire naître d'autres chevaux dans un [haras][haras].  
 

@@ -15,7 +15,7 @@ However, this doesn't always work: if the unit is the captain of a ship and uses
 Captains must first `LEAVE` their ship, but all other sailors can use `MOVE` to move over land and automatically leave the ship.
 
 If a unit leaves a building or a ship over which it has command, this does not necessarily pass to the following unit in the report.
-Here you should use [[cmd-give|`GIVE unit-id COMMAND`]] let the handover of command take place in a controlled manner.
+Here you should use [`GIVE unit-id COMMAND`][cmd-give] let the handover of command take place in a controlled manner.
 The order of the units during the evaluation is not always that of the report.
 If your own units are in the building or on the ship, the order falls to them.
 

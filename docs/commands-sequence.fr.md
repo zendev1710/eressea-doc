@@ -10,32 +10,32 @@ Les ordres d'Eressea sont exécutés dans un ordre fixe.
 Les ordres qui sont dans une même séquence sont exécutés en même temps ou l'ordre d'exécution n'a aucune importance.
 
 1. les nouveaux ordres par défaut sont définis
-2. [[cmd-group]], [[cmd-make|`MAKE TEMP`]]
+2. [[cmd-group]], [`MAKE TEMP`][cmd-make]
 3. [[cmd-name]], [[cmd-describe]], [GUARD NOT][cmd-guard], [[cmd-help]], [[cmd-combat]], [[cmd-combatspell]], [[cmd-hide]], [[cmd-origin]], [[cmd-show]]
-4. [[cmd-banner]], [[cmd-email]], [[cmd-option|OPTION]], [[cmd-password]]
+4. [[cmd-banner]], [[cmd-email]], [OPTION][cmd-option], [[cmd-password]]
 5. [[cmd-contact]]
 6. [[cmd-message]]
 7. [[cmd-enter]]; 1er essai
 8. [[cmd-use]]
 9. [[cmd-leave]]
 10. [[cmd-enter]]; 2ème essai
-11. [[cmd-attack|ATTACK]]
+11. [ATTACK][cmd-attack]
 12. [[cmd-reserve]], [[cmd-claim]]
 13. [[cmd-enter]]; 3ème essai
-14. [[cmd-give|`GIVE CONTROL`]]
+14. [`GIVE CONTROL`][cmd-give]
 15. [[cmd-forget]]
-16. [[cmd-give|`GIVE CONTROL`]]
+16. [`GIVE CONTROL`][cmd-give]
 17. [[cmd-recruit]][^1]
 18. [[cmd-destroy]]
 19. [[cmd-follow]] est défini
 20. [[cmd-promote]]
-21. [[cmd-pay-not|PAY NOT]] définit pour la fonctionnalité et les coûts d'entretien du bâtiment concerné.
+21. [PAY NOT][cmd-pay-not] définit pour la fonctionnalité et les coûts d'entretien du bâtiment concerné.
 22. Les coûts d'entretien des bâtiments soumis à l'obligation d'entretien s'appliquent ; sinon, ils n'ont aucune fonctionnalité !
 23. [[cmd-quit]]
 24. [[cmd-cast]]
 25. [[cmd-teach]]
 26. [[cmd-learn]]
-27. [[cmd-make|MAKE TEMP]][^1]
+27. [MAKE TEMP][cmd-make][^1]
 28. [[cmd-research]], [[cmd-plant]], [[cmd-spy]], [[cmd-grow]]
 29. [[cmd-entertain]][^1]
 30. [[cmd-work]][^1]
@@ -46,7 +46,7 @@ Les ordres qui sont dans une même séquence sont exécutés en même temps ou l
 35. Les bateaux dont l'équipage est insuffisant subissent des dommages
 36. [[cmd-enter]]; 4ème essai
 37. [[cmd-move]] et [[cmd-route]], incluant [[cmd-ride]] et [[cmd-carry]] sont exécutés et les unités ayant reçu l'ordre de FOLLOW d'autres unités le font.
-38. [[cmd-guard|`GUARD NOT`]] cela n'est possible que si l'unité n'a pas bougé.
+38. [`GUARD NOT`][cmd-guard] cela n'est possible que si l'unité n'a pas bougé.
 39. Les bateaux dérivent en haute mer
 40. [[cmd-default]]
 41. les unités vides sont supprimées

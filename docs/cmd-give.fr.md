@@ -100,7 +100,7 @@ Les [[competences]] sont alors **mélangées**.
 
 Expérience de jeu (Solthar) :
 
-Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [[cmd-help|`HELP GIVE`]] ne suffit pas !  
+Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [`HELP GIVE`][cmd-help] ne suffit pas !  
 **L'unité réceptrice doit également passer l'ordre [[cmd-contact]]** sur l'unité transférante.  
 
 De plus, si l’unité d’accueil est une [unité de migrants][humains], elle ne doit contenir personne au moment du transfert.  

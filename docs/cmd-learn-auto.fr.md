@@ -2,11 +2,13 @@
 # cSpell:locale fr
 alias: cmd-learn-auto-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LEARN AUTO
 
 **`LEARN AUTO`**` `*`compétence`*  
 
-Grâce à l'ordre, le serveur tente d'automatiser [[cmd-learn|l'apprentissage]] et [[cmd-teach|l'enseignement]] dans une région pour toutes les unités d'une faction utilisant cet ordre pour la compétence spécifiée.  
+Grâce à l'ordre, le serveur tente d'automatiser [l'apprentissage][cmd-learn] et [l'enseignement][cmd-teach] dans une région pour toutes les unités d'une faction utilisant cet ordre pour la compétence spécifiée.  
 Cependant, l'utilisation simultanée sur une même compétence de `TEACH` et `LEARN AUTO` n'est pas autorisée.  
 
 Si plusieurs unités dans une région donnent l'ordre `LEARN AUTO <compétence>`, par exemple `LEARN AUTO sailing`, le serveur sélectionne les unités parmi les unités qui doivent enseigner afin que les autres obtiennent le maximum de résultats d'apprentissage.  

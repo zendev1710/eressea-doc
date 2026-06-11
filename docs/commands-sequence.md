@@ -92,11 +92,12 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 
 ## See also
 
-- [orders]
-- [short description]
-- [short description DE/EN]
+- [orders][orders]
+- [short description][orders-list]
+<!-- TODO: check -->
+<!-- - [short description DE/EN]-->
 
-Continue reading: [Short Description].
+Continue reading: [Short Description][orders-list].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 
@@ -104,7 +105,3 @@ Continue reading: [Short Description].
 [GUARD NOT]: ./cmd-guard.md
 [GIVE CONTROL]: ./cmd-give.md
 [PAY NOT]: ./cmd-pay-not.md
-
-[Short Description]: ./commands-list.md
-[orders]: ./commands.md
-[short description DE/EN]: ./commands-list.md

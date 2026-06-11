@@ -9,7 +9,7 @@ alias: stealth
 # Stealth
 
 The **Stealth** [[skills|skill]] allows you to camouflage yourself from other units.  
-However, if a unit [[cmd-guard|is guarding]] the region, or is on a ship or in a building, it is always visible.  
+However, if a unit [is guarding][cmd-guard] the region, or is on a ship or in a building, it is always visible.  
 
 ## Countermeasures
 
@@ -52,7 +52,7 @@ Theft occasionally presents an effective way to bring down spies who are themsel
 
 ## Espionage
 
-If a unit with the [Espionage][skill-espionage-id] skill issues the [[cmd-spy|`SPY`*`unit id`*]] order, its espionage skill is compared to the target unit's camouflage value.  
+If a unit with the [Espionage][skill-espionage-id] skill issues the [`SPY`*`unit id`*][cmd-spy] order, its espionage skill is compared to the target unit's camouflage value.  
 The base chance for a successful espionage attempt is 10%.  
 For each skill level by which the espionage skill exceeds the target's camouflage skill, the latter increases by 5%.  
 A high camouflage skill thus helps the unit to make a successful espionage attempt more difficult.  
@@ -69,7 +69,7 @@ The probability of this is (100 − Espionage * Spy 5 + Perception Victim 2)%.
 
 ## Remarks
 
-Many factions store their goods with a highly camouflaged unit per region ([[cmd-combat|combat status]]: `COMBAT NOT` or `COMBAT FLEE`).  
+Many factions store their goods with a highly camouflaged unit per region ([combat status][cmd-combat]: `COMBAT NOT` or `COMBAT FLEE`).  
 The goods are thus protected from a multitude of dangers, as long as no enemy observer detects the camouflage.  
 
 In addition to these passive applications of camouflage, one can of course use well-trained camouflaged individuals to gather information or take advantage of the possibility of theft.  

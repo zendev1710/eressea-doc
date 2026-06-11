@@ -25,12 +25,12 @@ Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben le
 Hier eine Auflistung der bekanntesten.
 
 - [CSMap][csmap-de-id]
-- [ECheck]
+- [ECheck][echeck-de-id]
 - [[ehmv]]
 - [Magellan][magellan-web]
-  - [ExtendedCommands]
+  - [ExtendedCommands][extendedcommands]
   - [FFTools2][fftools-de-id]
-- [Vorlage]
+- [Vorlage][vorlage-de-id]
 
 ## Wie man Befehle einschickt, und was man dafür bekommt
 
@@ -43,7 +43,7 @@ Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text 
 Alternativ können sie in einer .txt Datei im Anhang versendet werden, dann muss die Mail jedoch ansonsten leer sein (kein Text im Mail-Body).
 Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss], die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern.
 Vorsicht bei der Benutzung von Weboberflächen wie bei GMX oder GMail! Diese haben sich in der Vergangenheit immer mal wieder als problematisch erwiesen, da Mails falsch formatiert wurden.
-Benutzer von [Magellan][magellan-de-id] können die [Befehle am bequemsten direkt aus dem Programm verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
+Benutzer von [Magellan][magellan-de-id] können die [Befehle am bequemsten direkt aus dem Programm verschicken][befehle-von-magellan-verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
 
 Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden.
 Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert.
@@ -192,15 +192,9 @@ Als Reihenfolge wird das Datum der Mail (Date:-Header) benutzt.
 - [Der erste Zug][der-erste-zug]
 - [Befehle][befehl]
 
-Weiterlesen: [Hinweise].
+Weiterlesen: [Hinweise][hinweise].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
-
-[Hinweise]: ./hints.md
-[ECheck]: ./echeck.md
-[ExtendedCommands]: ./commands-extended.md
-[Vorlage]: ./vorlage.md
-[Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md
 
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 [Notepad++]: http://notepad-plus.sourceforge.net/

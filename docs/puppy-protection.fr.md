@@ -2,11 +2,13 @@
 # cSpell:locale fr
 alias: protection-du-chiot
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Protection du chiot
 
 En général, le premier rapport d'une faction contient un message (en anglais ou en allemand) du type : « Votre faction est immunisée contre les attaques pendant les 3 prochaines semaines ».
 
-Le message signifie que ta faction ne peut être ni [[cmd-attack|attaquée]] ni [[cmd-steal|volée]], et que tu ne peux pas encore [[cmd-guard|garder]].
+Le message signifie que ta faction ne peut être ni [attaquée][cmd-attack] ni [volée][cmd-steal], et que tu ne peux pas encore [garder][cmd-guard].
 
 Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes.
 

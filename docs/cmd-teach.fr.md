@@ -23,7 +23,7 @@ Plusieurs maîtres peuvent également enseigner à un grand groupe d'élèves.
 La compétence à enseigner ne doit **PAS** être spécifiée - la compétence acquise par l'élève est automatiquement enseignée.  
 Il peut également s'agir de compétences différentes, à condition que l'enseignant maîtrise ces compétences suffisamment mieux que les élèves.  
 
-Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reçu l'ordre [[cmd-help|`HELP GUARD`]] de cette faction, ou l'unité à enseigner doit [[cmd-contact|contacter]] l'enseignant.  
+Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reçu l'ordre [`HELP GUARD`][cmd-help] de cette faction, ou l'unité à enseigner doit [contacter][cmd-contact] l'enseignant.  
 
 **Exemple** :
 

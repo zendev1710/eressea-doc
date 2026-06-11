@@ -2,6 +2,10 @@
 # cSpell:locale fr
 alias: vorlage-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #vorlage-fr-id }
+
 # Vorlage
 
  **Vorlage** est une application console Win32 ou Linux x86 capable de générer un modèle d'ordres à partir d'un rapport informatique.  

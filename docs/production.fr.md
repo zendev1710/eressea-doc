@@ -13,7 +13,7 @@ Diverses choses peuvent être produites à Eressea.
 Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [[objets|produits finis]] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [[routes]] et des [[alchimie|potions]].  
 Pour pouvoir produire, il faut posséder les compétences appropriées.  
 
-La plupart des productions s"effectuent avec l'ordre [[cmd-make|`MAKE`*`<number>`*` `*`item`*]], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
+La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
 
 Selon l'objet, un niveau de compétence différent est requis pour pouvoir le produire.  
 La majorité des [[ressources]] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [[objets]] nécessitent des niveaux de compétence plus élevés.  

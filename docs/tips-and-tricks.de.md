@@ -40,7 +40,7 @@ Manchmal kann man mit einem kleinen Trick doch noch beides in einer Runde erledi
 
 ## Bauern als Kundschafter
 
-[Umherwandernde Bauern] bringen aufschlußreiche Informationen aus Nachbarregionen mit. Erhöht sich die Zahl der Bauern einer Region plötzlich deutlich schneller als dies durch die natürliche [Bauernvermehrung] erklärbar ist, dann sind aus Nachbarregionen zugewanderte Bauern die Ursache. Häufig sind dafür Monster verantwortlich, die sich in der Nachbarschaft eingenistet haben und dort Bauern verscheuchen. Die zweite Alternative sind Bauern, die in ihrer Heimat keine Arbeit finden.
+[Umherwandernde Bauern][bauernwanderung] bringen aufschlußreiche Informationen aus Nachbarregionen mit. Erhöht sich die Zahl der Bauern einer Region plötzlich deutlich schneller als dies durch die natürliche [Bauernvermehrung][bauernvermehrung] erklärbar ist, dann sind aus Nachbarregionen zugewanderte Bauern die Ursache. Häufig sind dafür Monster verantwortlich, die sich in der Nachbarschaft eingenistet haben und dort Bauern verscheuchen. Die zweite Alternative sind Bauern, die in ihrer Heimat keine Arbeit finden.
 
 Fazit: Wer auf die Entwicklung der Bevölkerungszahl achtet, wirft damit auch einen Blick auf die Nachbarregionen.
 
@@ -83,12 +83,9 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 
 ## Siehe auch
 
-- [Hinweise]
+- [Hinweise][hinweise]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[Umherwandernde Bauern]: ./farmers-hike.md
-[Bauernvermehrung]: ./farmers-proliferation.md
 [bef-reserviere]: ./cmd-reserve.md
 [bef-sortiere]: ./cmd-sort.md
-[Hinweise]: ./hints.md

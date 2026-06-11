@@ -10,13 +10,13 @@ alias: cmd-group-fr
 
 **`GROUP`**`["`*`name`*`"]`  
 
-Avec l4ORDRE `GROUP`, vous pouvez diviser la faction en sous-groupes qui ont un statut [[cmd-help|`HELP`]] différent du reste de la faction.  
+Avec l4ORDRE `GROUP`, vous pouvez diviser la faction en sous-groupes qui ont un statut [`HELP`][cmd-help] différent du reste de la faction.  
 Cela vous permet par exemple de mettre en place une armée de mercenaires qui vous aideront sur une île en cours de prospection alors que le reste de la faction ne le fera pas.  
 
 De même, vous pouvez supprimer tous les statuts `HELP COMBAT` des participants à un tournoi pour éviter d'interférer dans un duel.  
 Les attaques contre les alliés avec une escouade d'unités camouflées par une faction sont également possibles? sans avoir à détacher le statut `HELP COMBAT` au niveau de la faction.  
 Et si vous souhaitez protéger vos forêts des alliés, par exemple, vous pouvez constituer une troupe de gardes forestiers qui n'en parleront à personne. et passer l'ordre `HELP GUARD`.
-Vous pouvez également définir votre propre [[cmd-prefix|préfixe]] pour chaque groupe.
+Vous pouvez également définir votre propre [préfixe][cmd-prefix] pour chaque groupe.
 
 Par exemple, une unité donne l'ordre `GROUP "Corsaires des Mers"` pour rejoindre un groupe.  
 S'il n'existe pas encore de groupe portant ce nom, il en sera créé un qui portera initialement toujours le même nom. avec statut `HELP` identique à celui de la faction, même si l'unité était auparavant dans un groupe différent.  

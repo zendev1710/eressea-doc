@@ -6,18 +6,18 @@ alias: plantes
 <!-- markdownlint-disable MD042 MD052 -->
 # Plantes
 
-**Les plantes** se ramassent avec l'ordre [[cmd-make|`MAKE HERBS`]].  
+**Les plantes** se ramassent avec l'ordre [`MAKE HERBS`][cmd-make].  
 
 Selon le niveau dans la compétence [Herboristerie], on ramasse plus ou moins de plantes dans une région.  
 Chaque région n'a qu'un seul type de plantes.  
 Les plantes repoussent comme les arbres;  
-si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter grâce à l'ordre [[cmd-grow|`GROW HERBS`]].  
+si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter grâce à l'ordre [`GROW HERBS`][cmd-grow].  
 Dans ce cas, seule la plante qui y poussait à l'origine pourra être replantée. En cas de doute, il faut essayer de savoir quelle plante a déjà poussé dans la région.
 
 Les plantes sont surtout utilisées en [[alchimie|alchimie]].  
 Certains [[magie|sorts]] ont également besoin de plantes comme composants.  
 
-Avec [[cmd-research|`RESEARCH HERBS`]] vous pouvez savoir approximativement combien de plantes poussent dans la région;  
+Avec [`RESEARCH HERBS`][cmd-research] vous pouvez savoir approximativement combien de plantes poussent dans la région;  
 cela nécessite un niveau d'herboristerie de 7 ou plus.  
 
 Le résultat en retour de l'ordre sera un message indiquant la quantité de plantes trouvée.

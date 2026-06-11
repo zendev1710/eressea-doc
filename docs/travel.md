@@ -85,13 +85,13 @@ If the regions are connected by [[roads|road]], it is possible to move up **to 2
 Movement is only possible in six directions: northeast (NE), northwest (NW), east (E), west (W), southeast (SE) and southwest (SW).  
 It is not possible to move straight north or south.  
 
-The order [[cmd-carry|`CARRY <passenger-unit>`]] allows units to transport other units while moving.  
-The unit that is to be carried must have the order [[cmd-ride|`RIDE <transporting-unit>`]].  
+The order [`CARRY <passenger-unit>`][cmd-carry] allows units to transport other units while moving.  
+The unit that is to be carried must have the order [`RIDE <transporting-unit>`][cmd-ride].  
 
 Units that do not have the riding skill can still be transported along on horses or carts with this combination of orders.  
 Of course, the carrying units must have enough capacity for the passengers and their equipment.  
 
-Using [[cmd-follow|`FOLLOW UNIT <followee>`]] or `FOLLOW SHIP <followed-ship>` is mostly equivalent to the unit using the [[cmd-move]] order itself, if the the followed unit also has a movement order.  
+Using [`FOLLOW UNIT <followee>`][cmd-follow] or `FOLLOW SHIP <followed-ship>` is mostly equivalent to the unit using the [[cmd-move]] order itself, if the the followed unit also has a movement order.  
 The followers must carry their own weight.  
 
 Travelling units may be stopped from passing through a region by guarding units (siehe [[cmd-guard]]).  

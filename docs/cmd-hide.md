@@ -26,7 +26,7 @@ With `HIDE FACTION NOT` this anonymization will be canceled again and other play
 There is no easy way to see through this form of camouflage.  
 In order to appear to belong to your own faction again, you have to `number` your own faction number can be used.  
 The specified faction must be known to the faction issuing the order, i.e. appear in their report, otherwise the order will fail.
-Factions that receive [[cmd-help|`HELP xyz FACTION DISGUISE`]] from the unit's faction or group can see the unit's true faction affiliation.
+Factions that receive [`HELP xyz FACTION DISGUISE`][cmd-help] from the unit's faction or group can see the unit's true faction affiliation.
 
 So far, so simple.  
 

@@ -22,7 +22,7 @@ Several teachers can also teach a large group of students.
 The skill to be taught must **not** be specified - the skill that the learning unit learns is automatically taught.  
 These can also be different skills, provided the teacher has mastered these skills sufficiently better than the students.  
 
-If you want to teach units from other factions, you must have received the [[cmd-help|`HELP GUARD`]] order from that faction or the unit to be taught must [[cmd-contact|contact]] the teacher.  
+If you want to teach units from other factions, you must have received the [`HELP GUARD`][cmd-help] order from that faction or the unit to be taught must [contact][cmd-contact] the teacher.  
 
 **Example**:
 

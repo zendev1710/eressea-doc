@@ -20,8 +20,8 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 - [Anmeldung zum Spiel][anmeldung]
 - [E-Announce] – Mailingliste Für Regeländerungen WICHTIG!
 - [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss]
-- [Anfängertipps]
-- Die [Geschichte von Eressea]
+- [Anfängertipps][anfangertipps-id]
+- Die [Geschichte von Eressea][geschichte-von-eressea]
 - Eressea stammt von [[atlantis]] ab
 - [[faq|Häufig gestellte Fragen]] an die Spielleitung.
 
@@ -30,11 +30,11 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 - [Befehlsreihenfolge][befehlsreihenfolge] – die wichtigste Seite der Regeln
 - [Taktik][taktik] – Wieviele Taktiker brauche ich für welchen Bonus?
 - [Vertraute][vertraute] – alle Informationen rund um diese magischen Wesen
-- [Entwicklung] von Tools oder toolbasierten Skripten
+- [Entwicklung][entwicklung] von Tools oder toolbasierten Skripten
 - [Xontormia Express] mit [Archiv alter Ausgaben]
 - Archiv mit [Ankündigungen] von Regeländerungen
-- [Spielerseiten]
-- [Du spielst zuviel Eressea, wenn...]
+- [Spielerseiten][spielerseiten]
+- [Du spielst zuviel Eressea, wenn...][du-spielst-zuviel-eressea-wenn]
 
 ## Partien
 
@@ -45,12 +45,12 @@ Seit einigen Regeländerungen im Jahre 2000 läuft es als "Das Zweite Zeitalter"
 
 ### E3 (eingestellt)
 
-Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat.  
+Am 24. Juni 2009 begann das dritte Zeitalter von Eressea. [Das dritte Zeitalter][das-dritte-zeitalter] ist eine neue Welt, in der sich einiges an den Eressea-Regeln geändert hat.  
 Weniger Micromanagement und eine klarere Trennung der Rassen waren die beiden obersten Designziele.  
 Das Spiel endete am 11. August 2019 nach 517 Auswertungen.  
 
 - [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]
-- [Eine Liste aller Regeländerungen gegenüber dem alten Eressea-Spiel][Das dritte Zeitalter]
+- [Eine Liste aller Regeländerungen gegenüber dem alten Eressea-Spiel][das-dritte-zeitalter]
 - [Ankündigungen aus der e3-announce Mailingliste]
 
 #### Deveron (eingestellt)
@@ -86,14 +86,6 @@ Weiterlesen: [[regeln]].
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
 [diesem wiki]: https://wiki.eressea.de/Hauptseite/de
-
-[Das dritte Zeitalter]: ./the-third-age.md
-[Spielerseiten]: ./player-pages.md
-[Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md
-[Entwicklung]: ./development.md
-[Anfängertipps]: ./getting-started-tips.md
-[Geschichte von Eressea]: ./eressea-story.md
-
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
 [Archiv alter Ausgaben]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"

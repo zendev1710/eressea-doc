@@ -14,7 +14,7 @@ Avec cet ordre, le **capitaine d'un bateau** attend automatiquement les bateaux 
 Il s'y rendra alors automatiquement.
 
 Si des identifiants de faction sont renseignés, il ne répondra qu'aux bateaux des factions spécifiées.  
-Si aucun identifiant de faction n'est renseigné, il répond à tous les bateaux des factions pour lesquelles la faction du capitaine n'a pas de [[cmd-help|`HELP COMBAT`]] défini.  
+Si aucun identifiant de faction n'est renseigné, il répond à tous les bateaux des factions pour lesquelles la faction du capitaine n'a pas de [`HELP COMBAT`][cmd-help] défini.  
 
 ## Voir aussi
 

@@ -11,7 +11,7 @@ A unit is considered armed and ready for fight if it possesses a [combat skill][
 !!! note "Important"
     A unit **must be armed and ready for fight** to be able to:
 
-    - [[cmd-guard|guard]] a region
+    - [guard][cmd-guard] a region
     - [collect taxes][skill-taxation-id]
 
 [[monsters|Monsters]] and other units with the [unarmed combat][unarmed-combat] skill are considered armed even when they are not carrying a weapon.  

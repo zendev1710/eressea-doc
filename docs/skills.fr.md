@@ -6,7 +6,7 @@ alias: competences
 <!-- markdownlint-disable MD052 -->
 # Compétences
 
-Les compétences sont un élément essentiel qui définit une [[cmd-unit|unité]] dans Eressea.
+Les compétences sont un élément essentiel qui définit une [unité][cmd-unit] dans Eressea.
 Toutes les personnes d'une unité ont les mêmes compétences.
 Elles doivent d'abord les apprendre.
 Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
@@ -45,7 +45,7 @@ Passer du niveau 3 au niveau 4 prend en moyenne 4 semaines, mais parfois aussi p
 Une [unité de nains][nains]{title="Dwarves"} avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.
 Il faut en moyenne deux semaines pour progresser dans la compétence d'extraction minière du niveau 3 au niveau 4.
 
-Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
+Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [enseigner][cmd-teach] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.

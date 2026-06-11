@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-prefix
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # PREFIX
 
 **`PREFIX`**`[`*`prefix`*`]`  
@@ -21,6 +23,6 @@ Currently possible prefixes are:
 - blood, wild, chaos, night
 
 The order can be used both in the context of the entire faction and in the context of a group.  
-So it is possible to give each [[cmd-group|group]] in a faction its own prefix.  
+So it is possible to give each [group][cmd-group] in a faction its own prefix.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=PREFIX&oldid=5733] -->

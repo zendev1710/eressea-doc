@@ -2,11 +2,13 @@
 # cSpell:locale en
 alias: puppy-protection
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Puppy protection
 
 Generally, a faction's first report contains a message such as: "Your faction is immune to attacks for the next 3 weeks."  
 
-This message means that your faction cannot be [[cmd-attack|attacked]] or [[cmd-steal|stolen]], and you cannot yet [[cmd-guard|guard]].  
+This message means that your faction cannot be [attacked][cmd-attack] or [stolen][cmd-steal], and you cannot yet [guard][cmd-guard].  
 
 This system aims to improve game balance for new factions.  
 

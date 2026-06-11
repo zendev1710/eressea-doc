@@ -90,7 +90,7 @@ This also applies to [[cmd-ride]] and [[cmd-carry]].
 Aquarians can not swim from a land region onto any ocean region.
 This works only if the unit isn’t overloaded.
 Swimming aquarians can carry items, but not horses.
-[[cmd-carry|transporting]] units of other races is not possible in this way, but aquarians can transport each other.
+[transporting][cmd-carry] units of other races is not possible in this way, but aquarians can transport each other.
 This movement takes place before the movement of ships, so a ship can drop off units and then move on.
 [[cmd-leave]] is not necessary when swimming from a ship, but is not even a mistake.
 
@@ -118,7 +118,7 @@ The following events will damage a ship :
 - The ship does not have any owner, 5% damage per round
 - The ship is hit by a storm and drifts off course, 2% damage
 
-You can repair a ship with [[cmd-make|`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;]], just as if the ship wasn't finished yet.
+You can repair a ship with [`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;][cmd-make], just as if the ship wasn't finished yet.
 
 Player experience: Ship drifted in a storm; what happened?  
 

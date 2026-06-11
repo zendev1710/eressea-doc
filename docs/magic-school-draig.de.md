@@ -96,7 +96,7 @@ alias: draigzauber
 
 `ZAUBERE [STUFE n] Chaosfluch <Einheit-Nr>`  
 
-### Erschaffe ein [Amulett des wahren Sehens]
+### Erschaffe ein [Amulett des wahren Sehens][amulett-des-wahren-sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
     Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit] geschützt sind, zu sehen.  
@@ -350,5 +350,3 @@ alias: draigzauber
 `ZAUBERE [STUFE n] 'Unheilige Kraft' <Einheit-Nr> [<Einheit-Nr> ...]`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
-
-[Amulett des wahren Sehens]: ./amulet-of-true-sight.md

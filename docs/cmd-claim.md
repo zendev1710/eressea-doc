@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cmd-claim
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # CLAIM
 
 **`CLAIM`**` `*`Number Item`*
@@ -17,7 +19,7 @@ The faction pool is only used by the game master to give the player special item
 The faction pool or the `CLAIM` order will not be needed often.  
 
 The items go to the unit that gave the `CLAIM` order.  
-The item can be passed on directly in the same round, but it cannot be [[cmd-use|used]] until the following week.  
+The item can be passed on directly in the same round, but it cannot be [used][cmd-use] until the following week.  
 
 !
 !!! warning "Caution"

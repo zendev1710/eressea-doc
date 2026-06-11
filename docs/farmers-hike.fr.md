@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: deplacement-des-agriculteurs
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Déplacement des agriculteurs
 
 Les agriculteurs peuvent se déplacer d'une région à l'autre.  
@@ -20,7 +22,7 @@ Les monstres invoqués par les joueurs peuvent également chasser les agriculteu
 ## Surpopulation
 
 Les agriculteurs émigrent à cause de la surpopulation.  
-S'il y a plus d'agriculteurs que d'emplois dans une région (voir [[cmd-work|ici]]), une partie des chômeurs émigre vers les régions voisines.
+S'il y a plus d'agriculteurs que d'emplois dans une région (voir [ici][cmd-work]), une partie des chômeurs émigre vers les régions voisines.
 
 ## Pauvreté
 

@@ -6,7 +6,7 @@ alias: comment-with-slashes
 
 **`//`**` `*`Comment`*  
 
-In contrast to a comment after a [[cmd-comment|`;`]] (semicolon), this comment is included in the template **for the next round's** evaluation.  
+In contrast to a comment after a [`;`][cmd-comment] (semicolon), this comment is included in the template **for the next round's** evaluation.  
 
 ```text
 UNIT 123; One hundred and twenty-three [20,450$]

@@ -7,7 +7,7 @@ alias: skills
 # Skills
 <!-- TODO: translate page in english -->
 
-Les compétences sont un élément essentiel qui définit une [[cmd-unit|unité]] dans Eressea.
+Les compétences sont un élément essentiel qui définit une [unité][cmd-unit] dans Eressea.
 Toutes les personnes d'une unité ont les mêmes compétences.
 Elles doivent d'abord les apprendre.
 Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
@@ -29,7 +29,7 @@ Mais parfois, la valeur de compétence "brute" sans bonus est également nécess
 
 ## Terminology
 
-On dira d'une unité qu'ell est compétente (ou maîtrise la compétence) si elle a [[cmd-learn|acquis]]{title="LEARN"} la compétence concernée.  
+On dira d'une unité qu'ell est compétente (ou maîtrise la compétence) si elle a [acquis][cmd-learn]{title="LEARN"} la compétence concernée.  
 
 Au premier succès d'un ordre d'apprentissage `LEARN`, l'unité apprenante sera, dans cette compétence, de niveau 1, noté **T1**.  
 
@@ -49,7 +49,7 @@ Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as 
 A [dwarven unit][dwarves] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
 It takes an average of two weeks to advance in the mining skill from level 3 to level 4.
 
-Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [[cmd-teach|enseigner]] la compétence.
+Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [enseigner][cmd-teach] la compétence.
 Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
 L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
 L'unité enseignante, elle, n'en tire aucune expérience.

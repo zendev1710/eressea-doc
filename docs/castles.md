@@ -9,7 +9,7 @@ alias: castles
 Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.  
 They also reduce the likelihood of [[plague]].
 
-Castles are built from stone using the [[cmd-make|MAKE CASTLE]] order and the [masonry][masonry] skill.  
+Castles are built from stone using the [MAKE CASTLE][cmd-make] order and the [masonry][masonry] skill.  
 The size at which a castle enters a new category is shown in the table below:
 
 | Size |     1      |     2     |      10       |  50   |    250     |   1250   |  6250+  |

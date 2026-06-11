@@ -14,10 +14,10 @@ These maintenance costs are generally independent of the size of the building an
 So a unit cannot collect taxes and then pay for its maintenance with the money collected.
 If there is no money at the time, the building does not function.
 
-Maintenance is due in full as soon as the building is built; but not in the turn it is started with the [[cmd-make|`MAKE`` `*`building type`*]] order.
+Maintenance is due in full as soon as the building is built; but not in the turn it is started with the [`MAKE`` `*`building type`*][cmd-make] order.
 The consequence of this is that buildings that are completed in a single turn do not function during the construction week, as no maintenance was paid for at the start of the week.
 
-If there is a shortage of Silver, or if a certain building is not used during a week and you wish to save on its maintenance, the unit controlling the building (see next section) can ensure that maintenance is not paid for that turn by using the order [[cmd-pay-not|`PAY NOT`]].
+If there is a shortage of Silver, or if a certain building is not used during a week and you wish to save on its maintenance, the unit controlling the building (see next section) can ensure that maintenance is not paid for that turn by using the order [`PAY NOT`][cmd-pay-not].
 The building then, of course, has no use during that week.
 
 ## Units and buildings
@@ -34,7 +34,7 @@ If there are several units in a building, they are interrogated in order, from t
 
 ## Building
 
-Buildings are constructed and expanded using the [[cmd-make|`MAKE`` `*`building type`*]] order.
+Buildings are constructed and expanded using the [`MAKE`` `*`building type`*][cmd-make] order.
 As with other production orders, the construction output depends on the skill (masonry), size of the builder unit and the minimum skill required.
 A unit can build ( skill level x persons / minimum skill) size points per round, so you can easily build a tower in a week with a sufficiently skilled unit and enough stones.
 

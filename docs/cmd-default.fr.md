@@ -16,7 +16,7 @@ Une fois que vous avez envoyé vos ordres et que le serveur a créé l'évaluati
 Ce sont les ordres par défaut.
 Ils seront exécutés la semaine suivantes si vous n'envoyez pas d'ordre **pour une unité donnée**.  
 <!-- TODO: clarify (bad from german translation) -->
-Vous recevrez les ordres par défaut avec le rapport sous forme de fichier texte (également appelé modèle d'ordres), si vous ne les utilisez pas avec l'ordre [[cmd-option|`OPTION ZUGVORLAGE NOT`]] désactivé.  
+Vous recevrez les ordres par défaut avec le rapport sous forme de fichier texte (également appelé modèle d'ordres), si vous ne les utilisez pas avec l'ordre [`OPTION ZUGVORLAGE NOT`][cmd-option] désactivé.  
 Ils sont également inclus dans le rapport informatique (CR).
 Le rapport normal (NR) ne contient toujours que le premier ordre long par défaut.  
 Vous ne pouvez donc pas y voir tous les ordres par défaut.

@@ -8,7 +8,7 @@ alias: liste-des-competences
 
 Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn]].  
 
-Elles peuvent être acquises plus rapidement à l'aide d'un [[cmd-teach|maître enseignant]]{title="TEACH"}.  
+Elles peuvent être acquises plus rapidement à l'aide d'un [maître enseignant][cmd-teach]{title="TEACH"}.  
 
 Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous, à l'exception du [combat à mains nues][skill-combat-a-mains-nues-id]{title="Unarmed combat"}.
 
@@ -41,10 +41,10 @@ Cette compétence permet d'obtenir des [chevaux][chevaux]{title="Horses"}.
 
 On peut l'utiliser de deux façons.  
 
-L'ordre [[cmd-make|`MAKE HORSE`]] permet de capturer des chevaux présents dans la région, à raison d'un cheval par personne et par niveau.  
+L'ordre [`MAKE HORSE`][cmd-make] permet de capturer des chevaux présents dans la région, à raison d'un cheval par personne et par niveau.  
 Bien sûr, il n'est possible de capturer qu'au maximum le nombre de chevaux présents dans la région.  
 
-L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
+L'ordre [`GROW HORSES`][cmd-grow], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
 
 ## Combat à l'arme d'hast
 
@@ -54,7 +54,7 @@ L'ordre [[cmd-grow|`GROW HORSES`]], donné par une unité se trouvant dans un [h
 
 Cette compétence permet de se battre avec une [arme d'hast][armes-dhast].  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [collecter les impôts][cmd-tax], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 [](){ #skill-combat-a-mains-nues-id }
 
@@ -115,7 +115,7 @@ Cette compétence augmente la furtivité d'une unité.
 Une unité ayant acquis cette compétence est visible uniquement pour celles ayant un niveau de [perception][skill-perception-fr-id]{title="Perception"} supérieur ou égal à son niveau de discrétion.  
 Elle n'est pas visible des autres unités.  
 
-Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [[cmd-guard|vigilance]] des gardes de région.  
+Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [vigilance][cmd-guard] des gardes de région.  
 
 Plus d'information :  [compétence de discrétion en détail][discretion-id].  
 
@@ -242,7 +242,7 @@ Permet de récolter des [[plantes]] pour concocter des [[alchimie|potions]].
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
-À un niveau élevé on peut aussi utiliser les ordres [[cmd-research|`RESEARCH HERBS`]] et [[cmd-make|`MAKE SEEDS`]] (voir [Production][production-fr-id]) et [[cmd-plant]].  
+À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research] et [`MAKE SEEDS`][cmd-make] (voir [Production][production-fr-id]) et [[cmd-plant]].  
 Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 ## Maçonnerie
@@ -273,7 +273,7 @@ L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tou
 
 Capacité à se battre avec une arme de mêlée (sword, claymore, axe, laensword).  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [[cmd-tax|collecter les impôts]], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [collecter les impôts][cmd-tax], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 [](){ #skill-perception-fr-id }
 
@@ -296,7 +296,7 @@ Cette compétence permet également d'éviter le [vol][vol-de-silver].
 Capacité à abattre des arbres et des mallorns pour faire du [bois][bois]{title="Wood"}.  
 
 !!! note "Note"
-    Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [[cmd-guard|gardez]].
+    Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [gardez][cmd-guard].
 
 ## [[tactique]]
 

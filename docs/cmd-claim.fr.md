@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-claim-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # CLAIM
 
 **`CLAIM`**` `*`Qté <objet>`*
@@ -17,7 +19,7 @@ La réserve de faction est gérée par le Maître de Jeu, pour donner au(x) joue
 L'ordre `CLAIM` est un ordre utilisé peu fréquemment.  
 
 Les objets réclamés vont à l'unité qui a passé l'odre `CLAIM`.  
-L'objet peut être transmis directement au cours du même tour, mais il ne peut être [[cmd-use|utilisé]] que la semaine suivante.  
+L'objet peut être transmis directement au cours du même tour, mais il ne peut être [utilisé][cmd-use] que la semaine suivante.  
 
 !!! warning "Attention"
     Ne pas confondre réserve de faction et [[reserve-d-objets]], à laquelle vous pouvez accéder avec l'ordre [[cmd-reserve]] !

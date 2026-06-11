@@ -52,7 +52,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
   Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr-fr-id].
 - Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
   Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
-- Si on rend des démons aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
+- Si on rend des démons aux paysans avec l'ordre [`GIVE 0`][cmd-give], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
 - Les démons peuvent [se camoufler][cmd-hide-fr-id] en une autre race.
 - Au corps à corps, chaque coup porté par un démon à un adversaire provoque une "panique sur 1 personne" : la personne touchée uniquement (pas l'unité) a -1 à ses compétences de combat.
 - Les démons blessés se régénèrent à hauteur de 7,5 % de leurs points de vie (PV).
@@ -137,7 +137,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux-id] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [[cmd-combat|`COMBAT FLEE`]]).
+- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`][cmd-combat]).
 - Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons-connus].
 - Les halfelins sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
@@ -238,7 +238,7 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 
 Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
 
-- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [[cmd-give|récupérer]] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes][competences], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
+- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [récupérer][cmd-give] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes][competences], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
 
 Le nombre d'immigrants se calcule ainsi :
 
@@ -286,7 +286,7 @@ Les Orcs commencent leur vie en tant que combattants et la terminent généralem
 - Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][skill-melee-fr-id]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
 - Paresse : les orcs gagnent moins de silver que les autres races avec l'ordre [[cmd-work]].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
-- De même : si vous donnez des orcs aux paysans avec l'ordre [[cmd-give|`GIVE 0`]], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
+- De même : si vous donnez des orcs aux paysans avec l'ordre [`GIVE 0`][cmd-give], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
 - Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres races, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
 - Les orcs ont le cerveau lent et apprennent généralement toutes les compétences un peu plus lentement que les autres races, hors celles de combat (cad celles pour maîtriser une arme).
 

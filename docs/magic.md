@@ -16,7 +16,7 @@ Magic is a mystical and powerful way to change and create things and can weaken 
 Each faction must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], [[tybied-spells|Tybied]], [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].  
 
 The faction's magic area is determined by the very first unit that learns magic in the faction.
-This is done using the [[cmd-learn|`LEARN MAGIC "<magic school>"`]].  
+This is done using the [`LEARN MAGIC "<magic school>"`][cmd-learn].  
 As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all magicians of a [[factions|faction]] then automatically learn the magic school chosen by the faction.  
 However, it is possible to order multiple units to `LEARN MAGIC "<magic school>"` if you are unsure which unit will come first.  
 
@@ -122,8 +122,8 @@ Their effect occurs either immediately (see [[orders-sequence]]) or sometimes at
 
 The three types of combat spells can never be cast using `CAST`.
 Instead, they are cast when the unit is actively engaged in combat.  
-All three types can be set with the [[cmd-combatspell|`COMBATSPELL LEVEL n "Spell"`]] order.  
-You can delete a specific combat spell with the `COMBATSPELL "Spell" NOT` order or all set combat spells with [[cmd-combatspell|`COMBATSPELL NOT`]]
+All three types can be set with the [`COMBATSPELL LEVEL n "Spell"`][cmd-combatspell] order.  
+You can delete a specific combat spell with the `COMBATSPELL "Spell" NOT` order or all set combat spells with [`COMBATSPELL NOT`][cmd-combatspell]
 Combat spells work somewhat like the [`COMBAT`][combat-rows] orders, i.e. once set, they remain saved.
 A unit can have a maximum of one pre-combat spell, one combat spell, and one post-combat spell.
 For example, if the unit already has a pre-combat spell and casts a new pre-combat spell, the old one is replaced by the new one.

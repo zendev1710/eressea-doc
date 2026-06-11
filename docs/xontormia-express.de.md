@@ -3,7 +3,7 @@
 alias: xontormia-express-de
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #xontormia-express-de-id }
 
@@ -55,7 +55,7 @@ Ein **Beispielartikel** könnte so aussehen:
 
 Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle][Archiv].
 
-Weiterlesen: [Danksagung].
+Weiterlesen: [Danksagung][danksagung].
 
 ## Referenzen
 
@@ -63,7 +63,6 @@ Weiterlesen: [Danksagung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Xontormia\_Express&oldid=16988] -->
 
-[Danksagung]: ./thanks.md
-[Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [express@eressea.de]: mailto:express@eressea.de
+[Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
 [Ankündigung des neuen XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025

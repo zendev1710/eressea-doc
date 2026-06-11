@@ -16,7 +16,7 @@ La magie est un moyen mystique et puissant de changer et de créer des choses et
 Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].  
 
 L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
-Cela se fait à l'aide de l'ordre [[cmd-learn|`LEARN MAGIC "<école de magie>"`]].  
+Cela se fait à l'aide de l'ordre [`LEARN MAGIC "<école de magie>"`][cmd-learn].  
 En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [[factions|faction]] apprennent alors automatiquement l'École de Magie choisie par la faction.  
 Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
@@ -123,8 +123,8 @@ Leur effet se produit soit immédiatement (voir [[sequence-des-ordres]]) soit pa
 
 Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant `CAST`.  
 Au lieu de cela, ils sont lancés lorsque l’unité est activement engagée dans un combat.  
-Les trois types peuvent être définis avec l'ordre [[cmd-combatspell|`COMBATSPELL LEVEL n "<sort>"`]].  
-Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [[cmd-combatspell|`COMBATSPELL NOT`]].  
+Les trois types peuvent être définis avec l'ordre [`COMBATSPELL LEVEL n "<sort>"`][cmd-combatspell].  
+Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [`COMBATSPELL NOT`][cmd-combatspell].  
 Les sorts de combat fonctionnent un peu comme les ordres [`COMBAT`][lignes-de-combat], c'est-à-dire qu'une fois définis, ils restent enregistrés.  
 Une unité peut avoir au maximum un sort de pré-combat, un sort de combat et un sort de post-combat.  
 Par exemple, si l'unité possède déjà un sort de pré-combat et qu'elle lance un nouveau sort de pré-combat, l'ancien est remplacé par le nouveau.

@@ -25,7 +25,7 @@ Die Grenzen verschwimmen..."
 
 Fragment aus dem Buch der Zeiten, abgefasst in Althochelfisch, Alter unbekannt, Herkunft unbekannt, Verbleib des Originals unbekannt, keine Kopien bekannt, Übersetzung des Fragments durch Rehlan Staubnix, Bibliothekar in der Abteilung für esoterische Schriften, Bibliothek der Akademie von Xontormia.  
 
-Hier findet man eine Liste aller [Illaunzauber].
+Hier findet man eine Liste aller [Illaunzauber][illaunzauber].
 
 ## Tybied
 
@@ -44,7 +44,7 @@ Was dann, hmm, wie ich zugeben muß, auch in der, hmm, Praxis ganz nützlich sei
 
 Aus einer Vorlesung vor Anfängerstudenten, Feoral Birnkern, Dozent für theoretische Magie, Akademie von Thall.
 
-Hier findet man eine Liste aller [Tybiedzauber].
+Hier findet man eine Liste aller [Tybiedzauber][tybiedzauber].
 
 ## Cerddor
 
@@ -65,7 +65,7 @@ Seine rechte Gesichtshälfte verunstaltete eine tiefe Narbe, der Treffer einer K
 Auch er schien von der Stimme des Sängers gefangengenommen, und einen Moment erschien es der Elfe, als würde die Narbe im Gesicht des alten Mannes verblassen und neues Leben durch seine graue Haut pulsieren.
 </div>
 
-Hier findet man eine Liste aller [Cerddorzauber].
+Hier findet man eine Liste aller [Cerddorzauber][cerddorzauber].
 
 ## Gwyrrd
 
@@ -90,7 +90,7 @@ Die Magierin rief arkane Worte, laut hinaus in den Wald.
 Draiocheans und Llyfrs Herzen schlugen schneller, und er ergriff zaghaft ihre Hand, als etwas Uraltes und Großes die beiden packte und in die Luft erhob...
 </div>
 
-Hier findet man eine Liste aller [Gwyrrdzauber].
+Hier findet man eine Liste aller [Gwyrrdzauber][gwyrrdzauber].
 
 ## Draig
 
@@ -109,16 +109,8 @@ Wisse denn, daß das Draig keine Diener braucht, denn das Draig war am Anfang, u
 
 Prophezeiung Igjarjuks, eines der Ältesten der Wyrme, auf seinem Totenlager nach der Schlacht von Melvaunt, zu Casandra, Meisterdiebin des Clans der Todesfalken  
 
-Hier findet man eine Liste aller [Draigzauber].
+Hier findet man eine Liste aller [Draigzauber][draigzauber].
 
-Weiterlesen: [Zauberliste E2].
-
-[Zauberliste E2]: ./spells-list.md
+Weiterlesen: [Zauberliste E2][zauberliste].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
-
-[Illaunzauber]: ./magic-school-illaun.md
-[Tybiedzauber]: ./magic-school-tybied.md
-[Cerddorzauber]: ./magic-school-cerddor.md
-[Gwyrrdzauber]: ./magic-school-gwyrrd.md
-[Draigzauber]: ./magic-school-draig.md

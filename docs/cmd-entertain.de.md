@@ -14,7 +14,7 @@ Die Bauern einer Region haben 1200 Silber. Die Unterhalter können demzufolge ma
 
 Da aber nur 60 Silber zur Verfügung stehen, werden diese 60 Silber ungefähr im Verhältnis 20:80 aufgeteilt. Einheit A bekommt also ca. 1/5 und Einheit B ca. 4/5 des vorhandenen Geldes. Das macht für A ca. 12 Silber und für B ca. 48 Silber.
 
-Einheiten an Bord von Schiffen in bewachten Regionen können weder arbeiten noch unterhalten (siehe [[bef-arbeite]], [[bef-bewache]] und [[bef-helfe]]).
+Einheiten an Bord von Schiffen in bewachten Regionen können weder arbeiten noch unterhalten (siehe [[bef-arbeite]], [[bef-bewache]] und [HELFE][bef-helfe]).
 
 Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Bauern insgesamt (ausgenommen [Handel][handel]) abgenommen werden kann, ohne dass diese abwandern. Es ist so hoch, wie die überschüssigen Einnahmen der Bauern.
 
@@ -26,4 +26,3 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 [bef-arbeite]: ./cmd-work.md
 [bef-bewache]: ./cmd-guard.md
-[bef-helfe]: ./cmd-help.md

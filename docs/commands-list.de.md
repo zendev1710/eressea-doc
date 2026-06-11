@@ -56,20 +56,20 @@ Kurzliste der Befehle.
 | [EMAIL email@adresse]                                                      | setzt die E-Mail-Adresse                               | K      |
 | [[bef-ende]]                                                               | beendet MACHE TEMP                                     | K      |
 | [ERESSEA partei-nr "passwort"]                                             | beginnt Befehle für Partei                             | K      |
-| [FAHRE einheit-nr]                                                         | sich transportieren lassen                             | L      |
+| [FAHRE einheit-nr][bef-fahre]                                              | sich transportieren lassen                             | L      |
 | [FOLGE EINHEIT einheit-nr]                                                 | folgt einer Einheit                                    | PL[^2] |
 | [FOLGE SCHIFF schiff-nr]                                                   | folgt einem Schiff                                     | PL[^2] |
 | [FORSCHE KRÄUTER]                                                          | sucht Kräuter                                          | L      |
-| [GIB einheit-nr KRÄUTER]                                                   | gibt einer Einheit alle Kräuter                        | K      |
-| [GIB einheit-nr KOMMANDO]                                                  | übergibt Kommando über Schiff/Gebäude                  | K      |
-| [GIB einheit-nr EINHEIT]                                                   | übergibt Einheit an fremde Partei                      | K      |
+| [GIB einheit-nr KRÄUTER][bef-gib]                                          | gibt einer Einheit alle Kräuter                        | K      |
+| [GIB einheit-nr KOMMANDO][bef-gib]                                         | übergibt Kommando über Schiff/Gebäude                  | K      |
+| [GIB einheit-nr EINHEIT][bef-gib]                                          | übergibt Einheit an fremde Partei                      | K      |
 | [GIB einheit-nr \[JE\] anzahl PERSONEN](./cmd-give.md)                     | übergibt Personen                                      | K      |
 | [GIB einheit-nr \[JE\] anzahl SCHIFF](./cmd-give.md)                       | übergibt SCHIFF zur Bildung von Konvois                | K      |
 | [GIB einheit-nr \[JE\] anzahl SILBER](./cmd-give.md)                       | übergibt Silber                                        | K      |
 | [GIB einheit-nr \[JE\] anzahl gegenstand](./cmd-give.md)                   | übergibt Gegenstände                                   | K      |
-| [GIB 0 anzahl SILBER]                                                      | gibt Gegenstände an die Bauern                         | K      |
-| [GIB 0 anzahl PERSONEN]                                                    |                                                        | K      |
-| [GIB 0 anzahl gegenstand]                                                  |                                                        | K      |
+| [GIB 0 anzahl SILBER][bef-gib]                                             | gibt Gegenstände an die Bauern                         | K      |
+| [GIB 0 anzahl PERSONEN][bef-gib]                                           |                                                        | K      |
+| [GIB 0 anzahl gegenstand][bef-gib]                                         |                                                        | K      |
 | [GRUPPE \["name"\]](./cmd-group.md)                                        | Gruppieren von Einheiten                               | K      |
 | [HELFE partei-nr ALLES \[NICHT\]](./cmd-help.md)                           | setzt / löscht einseitige Allianz                      | K      |
 | [HELFE partei-nr GIB \[NICHT\]](./cmd-help.md)                             |                                                        | K      |
@@ -88,8 +88,8 @@ Kurzliste der Befehle.
 | [KAUFE anzahl luxusgut]                                                    | kaufe Luxusgüter                                       | PL[^3] |
 | [KONTAKTIERE einheit-nr]                                                   | kontaktiere fremde Einheiten                           | K      |
 | [LEHRE einheit-nr \[einheit-nr etc.\]](./cmd-teach.md)                     | lehre Einheiten                                        | L      |
-| [LERNE talent]                                                             | Talent lernen                                          | L      |
-| [LERNE AUTO talent]                                                        | Talent lernen oder lehren                              | L      |
+| [LERNE talent][bef-lerne]                                                  | Talent lernen                                          | L      |
+| [LERNE AUTO talent][bef-lerne-auto]                                        | Talent lernen oder lehren                              | L      |
 | [LOCALE en/de]                                                             | zeigt die Sprache der Befehle an                       | K      |
 | [MACHE TEMP unit-alias-nr \["name"\]](./cmd-make.md)                       | erschaffe neue Einheit                                 | K      |
 | [MACHE \[stufe\] gebäude-typ \[gebäude-nr\]](./cmd-make.md)                | erweitere oder baue neues Gebäude                      | L      |
@@ -205,16 +205,9 @@ Weiterlesen: [[der-erste-zug]].
 [EMAIL email@adresse]: ./cmd-email.md
 [bef-ende]: ./cmd-end.md
 [ERESSEA partei-nr "passwort"]: ./cmd-eressea.md
-[FAHRE einheit-nr]: ./cmd-ride.md
 [FOLGE EINHEIT einheit-nr]: ./cmd-follow.md
 [FOLGE SCHIFF schiff-nr]: ./cmd-follow.md
 [FORSCHE KRÄUTER]: ./cmd-research.md
-[GIB einheit-nr KRÄUTER]: ./cmd-give.md
-[GIB einheit-nr KOMMANDO]: ./cmd-give.md
-[GIB einheit-nr EINHEIT]: ./cmd-give.md
-[GIB 0 anzahl SILBER]: ./cmd-give.md
-[GIB 0 anzahl PERSONEN]: ./cmd-give.md
-[GIB 0 anzahl gegenstand]: ./cmd-give.md
 [KÄMPFE]: ./cmd-combat.md
 [KÄMPFE AGGRESSIV]: ./cmd-combat.md
 [KÄMPFE DEFENSIV]: ./cmd-combat.md
@@ -223,8 +216,6 @@ Weiterlesen: [[der-erste-zug]].
 [KÄMPFE NICHT]: ./cmd-combat.md
 [KAUFE anzahl luxusgut]: ./cmd-buy.md
 [KONTAKTIERE einheit-nr]: ./cmd-contact.md
-[LERNE talent]: ./cmd-learn.md
-[LERNE AUTO talent]: ./cmd-learn-auto.md
 [LOCALE en/de]: ./cmd-locale.md
 [bef-mache]: ./cmd-make.md
 [NÄCHSTER]: ./cmd-next.md

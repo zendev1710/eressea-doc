@@ -3,7 +3,7 @@
 alias: terrain-types
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Terrain types
 
 [](){ #desert-id }
@@ -47,11 +47,9 @@ But even the densest forest yields enough fruit, roots or mushrooms for a few pe
 10% of the jobs in a region, but no more than 200, are therefore never blocked by trees or saplings.  
 If the number of available jobs is exceeded, no more player units can work in this region.  
 
-In glaciers, swamps and deserts, road construction is only possible if there are [special buildings].  
+In glaciers, swamps and deserts, road construction is only possible if there are [special buildings][other-buildings].  
 
 [^1]: despite many trees.
 [^2]: from a total number of 600 trees and/or saplings, a level is considered a forest
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten/en&oldid=9103] -->
-
-[special buildings]: ./buildings-others.md

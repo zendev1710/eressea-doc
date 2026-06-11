@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: bef-lerne-auto
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LERNE AUTO
 
 **`LERNE AUTO`**` `*`talent`*  
 
-Durch den Befehl versucht der Server, das [Lernen] und [Lehren] in einer Region für alle Einheiten einer Partei mit diesem Befehl für dieses Talent zu automatisieren. Eine Mischung von LEHRE und LERNE AUTO ist allerdings nicht möglich.
+Durch den Befehl versucht der Server, das [Lernen][bef-lerne] und [Lehren][bef-lehre] in einer Region für alle Einheiten einer Partei mit diesem Befehl für dieses Talent zu automatisieren. Eine Mischung von LEHRE und LERNE AUTO ist allerdings nicht möglich.
 
 Wenn in einer Region mehrere Einheiten den Befehl LERNE AUTO &lt;Talent&gt; geben, z.B. LERNE AUTO Segeln, dann sucht der Server aus diesen Einheiten selber diejenigen heraus, die lehren müssen, damit der Rest die maximale Lernausbeute bekommt. Wie beim einfachen LEHRE lernt jede Person, die dadurch einen Lehrer bekommt, doppelt so schnell.
 
@@ -31,6 +33,3 @@ Die Vorteile von LERNE AUTO sind:
 Spielererfahrung: XolgrimEin Block für LERNE AUTO besteht pro Region und Talent aus maximal 128 Einheiten. Setzen mehr Einheiten einer Partei in einer Region den Befehl, wird ein zweiter Block gebildet, der unabhängig vom ersten eine Lehre/Lern-Kette aufbaut.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE\_AUTO&oldid=15393] -->
-
-[Lernen]: ./cmd-learn.md
-[Lehren]: ./cmd-teach.md

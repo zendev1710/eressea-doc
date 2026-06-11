@@ -8,9 +8,9 @@ alias: bef-bewache
 
 **`BEWACHE`**`[NICHT]`  
 
-Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
+Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet][bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
-Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
+Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert][allianz] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
 - Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel][handel] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
@@ -30,9 +30,9 @@ Mit `BEWACHE NICHT` wird der Bewachungsstatus einer Einheit aufgelöst. Das pass
 
 Wenn eine Einheit durch eine Region reist, die von mindestens einer nicht verbündeten Partei bewacht wird, hängt die Chance, dass sie aufgehalten wird von mehreren Faktoren ab: Sie wird vergrößert durch die Anzahl der feindlichen Bewacher, den Regionstyp (es wird schwerer in Sümpfen, Gletschern, Bergen und Vulkanen), das Wahrnehmungstalent der feindlichen Bewacher, Amulette des Wahren Sehens, sowie die Größe der Burg des Regionsbesitzers, falls dieser nicht verbündet ist. Sie wird verringert durch die Anzahl der verbündeten Bewacher und das Tarnungstalent der Einheit, sowie [[ring-der-unsichtbarkeit]].
 
-Hinweis: [Monster] Einheiten der Partei (ii) gelten durch ihre Klauen, Zähne, Krallen und sonstige Extremitäten prinzipiell als bewaffnet, auch wenn sie keine sichtbare Waffe tragen. Dies gilt auch für von Spielern magisch beschworene Monster.
+Hinweis: [Monster][monster] Einheiten der Partei (ii) gelten durch ihre Klauen, Zähne, Krallen und sonstige Extremitäten prinzipiell als bewaffnet, auch wenn sie keine sichtbare Waffe tragen. Dies gilt auch für von Spielern magisch beschworene Monster.
 
-In den [ersten Wochen] kann deine Partei noch nicht bewachen.
+In den [ersten Wochen][welpenschutz] kann deine Partei noch nicht bewachen.
 
 ## Siehe auch
 
@@ -42,9 +42,5 @@ In den [ersten Wochen] kann deine Partei noch nicht bewachen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
-[bewaffnet]: ./armed.md
-[alliiert]: ./alliances.md
 [bef-kontaktiere]: ./cmd-contact.md
 [KÄMPFE FLIEHE]: ./cmd-combat.md
-[Monster]: ./monsters.md
-[ersten Wochen]: ./puppy-protection.md

@@ -137,7 +137,7 @@ Some typical teacher-student chains are presented and discussed below.
   Disadvantage: slow learning pace, advantages: only two units are required, easy to automate.  
   Useful for units where learning is not a priority, e.g. for miners who mainly only learn to reach deeper ore layers, or for tax collectors who gradually increase their combat skills in order to be able to fight smaller groups of monsters independently.  
 - **Pyramid** --Further development of the simple teacher-student chain, consisting of a teacher unit (L) and several layers of student units (S1, S2,...) with 10*|L|=|S1|, 10*|S1|=|S2|...  
-  If the aim is to minimize costs when learning [expensive skills], then the teacher learns and then teaches the first student unit (S1).  
+  If the aim is to minimize costs when learning [expensive skills][skills], then the teacher learns and then teaches the first student unit (S1).  
   These then teach S2 etc. Students only learn when they are taught.  
   Although this minimizes costs, it is faster if the students in the intermediate shifts learn even if they do not have a teacher.  
   However, it doesn't make sense if that too*lowest*Student shift learns without a teacher.  
@@ -282,5 +282,3 @@ Otherwise there would be 3750 that can be taught up to 133%.
 i.e. after deducting a few percentages for the level differences, 4000 students should be possible.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
-
-[expensive skills]: ./skills.md

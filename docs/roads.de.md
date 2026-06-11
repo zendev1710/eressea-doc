@@ -14,7 +14,7 @@ alias: strassen
 
 In jeder Region kann man in die sechs Himmelsrichtungen eine Straße errichten. Damit eine Straße komplett ist, muss in der Region der entsprechenden Richtung in der Gegenrichtung auch eine Straße sein. Um Straßen zu bauen, benötigt man ein Mindest-Bautalent von 1, pro Talentstufe Straßenbau kann man einen Stein verbauen.
 
-Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Außerdem sind einige Regionen so ungastlich, dass zuvor ein [Gebäude] errichtet werden muss. Dieses muss zum Zeitpunkt des Baus funktionieren, d.h., es muss fertig sein und der Unterhalt muss gezahlt werden. Die fertige Straße funktioniert, auch ohne dass der Unterhalt gezahlt wird.
+Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Außerdem sind einige Regionen so ungastlich, dass zuvor ein [Gebäude][andere-gebaude-id] errichtet werden muss. Dieses muss zum Zeitpunkt des Baus funktionieren, d.h., es muss fertig sein und der Unterhalt muss gezahlt werden. Die fertige Straße funktioniert, auch ohne dass der Unterhalt gezahlt wird.
 
 Straßenbau
 
@@ -42,5 +42,3 @@ Danach kann eine Einheit mit `NACH O NO` zu Fuß in einer Runde von (0,0) nach (
 Weiterlesen: [Schiff][schiff].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße&oldid=15933] -->
-
-[Gebäude]: ./buildings-others.md

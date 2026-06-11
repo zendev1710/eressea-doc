@@ -87,7 +87,7 @@ This allows you to cast combat spells and other types spells. Learning magic [[m
 
 ## Masonry
 
-Build [castles and other buildings].
+Build [castles and other buildings][buildings].
 
 [](){ #skill-melee-id }
 
@@ -159,7 +159,7 @@ Construct and repair ships with wood (see [ships][ships-id]).
 
 ## [[stealth]]
 
-The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal] or thwart [[cmd-guard|guarding]] units.
+The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [[cmd-steal|steal]] or thwart [[cmd-guard|guarding]] units.
 
 [](){ #skill-tactics-id }
 
@@ -204,9 +204,6 @@ It is only available for monsters and other special races where it works like a 
 
 Produce weapons from wood and metals (see [[items]]).
 
-Continue reading: [stealth][stealth].
+Continue reading: [stealth][stealth-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
-
-[castles and other buildings]: ./buildings.md
-[steal]: ./stealth.md

@@ -10,7 +10,7 @@ Eine der wesentlichen Eigenschaften, die [Einheiten] in Eressea definieren, sind
 Alle Mitglieder einer Einheit haben dieselben Talente.
 Jedes Talent hat eine Stufe.
 Je höher die Stufe desto besser kann die Einheit das Talent benutzen.
-Um ein Talent zu lernen, kann eine Einheit mit dem Befehl [[bef-lerne]] pro Zug einen Versuch machen, in eine neue Stufe aufzusteigen.
+Um ein Talent zu lernen, kann eine Einheit mit dem Befehl [LERNE][bef-lerne] pro Zug einen Versuch machen, in eine neue Stufe aufzusteigen.
 
 Manche Talente verbessern sich zudem noch durch Anwendung.
 Wendet die Einheit das Talent lediglich an, dauert es ungefähr dreimal so lange, eine Stufe aufzusteigen, wie beim Lernen.
@@ -23,7 +23,7 @@ Manchmal wird aber auch der "rohe" Talentwert ohne Boni benötigt, vor allem um 
 ## Talente erlernen
 
 Eine weitere Talentstufe zu erreichen, wird von Stufe zu Stufe schwieriger.
-Im Mittel dauert der Aufstieg in eine neue Talentstufe mit dem Befehl [[bef-lerne]] in etwa Anzahl von Wochen entsprechend der angepeilten Talentstufe, ohne Berücksichtigung von Modifikationen durch [Rasse][rassen] oder Terrain.
+Im Mittel dauert der Aufstieg in eine neue Talentstufe mit dem Befehl [LERNE][bef-lerne] in etwa Anzahl von Wochen entsprechend der angepeilten Talentstufe, ohne Berücksichtigung von Modifikationen durch [Rasse][rassen] oder Terrain.
 Die minimale Lernzeit beträgt eine Woche.
 Die maximale Lernzeit übersteigt (2 x neue Stufe − 1) nicht.
 Diese Extremwerte kommen weniger häufig vor als die durchschnittliche Dauer.
@@ -32,7 +32,7 @@ Diese Extremwerte kommen weniger häufig vor als die durchschnittliche Dauer.
 Eine [Zwergeneinheit][zwerge] mit Bergbau 3 im Report hat "roh" eigentlich Stufe 1, da Zwerge auf Bergbau einen Modifikator von +2 haben.
 Sie benötigt für den Aufstieg im Talent Bergbau von Stufe 3 nach Stufe 4 im Schnitt zwei Wochen.
 
-Um die Zeit herabzusetzen, die eine Einheit zum Erlernen eines Talentes benötigt, kann eine zweite Einheit, die besser ist, die erste Einheit das Talent [lehren].
+Um die Zeit herabzusetzen, die eine Einheit zum Erlernen eines Talentes benötigt, kann eine zweite Einheit, die besser ist, die erste Einheit das Talent [lehren][bef-lehre].
 Diese lehrende Einheit muss eine Talentstufe haben, die um mindestens 2 größer ist als die Talentstufe der Schüler.
 Damit lernt die gelehrte Einheit doppelt so schnell, als wenn sie versucht, ein Talent auf eigene Faust zu verbessern.
 Die lehrende Einheit lernt jedoch gar nicht.
@@ -63,10 +63,10 @@ Einheit s2 wird nur zur Hälfte in Ausdauer gelehrt und lernt deshalb nur 50% sc
 Vorsicht! Lehren mehrere Lehrer-Einheiten mehrere Schüler-Einheiten in verschiedenen Talenten oder Talentstufen seitens der Lehrer, kann es passieren, dass einige Schüler keine oder nicht die richtigen Lehrer abbekommen.
 Dies lässt sich aufgrund der Interna von Eressea nicht anders gestalten.
 Hier solltest du also ggf. durch Umstrukturieren der Lehrer-Einheiten "klare Verhältnisse" schaffen.
-Beim Befehl [LERNE AUTO] versucht der Server, das Lernen und Lehren in einer Region zu automatisieren.
+Beim Befehl [LERNE AUTO][bef-lerne-auto] versucht der Server, das Lernen und Lehren in einer Region zu automatisieren.
 Da dies allerdings durch eine einfache Heuristik bewirkt wird, ist nicht garantiert, dass hier eine (dauerhaft) optimale Lernkette entsteht.
 
-[Magie][magie-de-id], [Alchemie], [Kräuterkunde][Alchemie], [Spionage][skill-spionage-id] und [Taktik] zu erlernen ist besonders schwer und aufwendig.
+[Magie][magie-de-id], [Alchemie][skill-alchemie-id], [Kräuterkunde][skill-krauterkunde-id], [Spionage][skill-spionage-id] und [Taktik][taktik] zu erlernen ist besonders schwer und aufwendig.
 Spionage zu erlernen kostet 100 Silber pro Person und Runde, Alchemie, Kräuterkunde und Taktik sogar 200 Silber pro Person und Woche.
 Das Erlernen von Magie kostet auf hohen Stufen leicht mehrere Tausend Silber (siehe [Tabelle][magie-de-id]).
 Die Einheit, welche eines dieser Talente lernt, muss dieses Silber bei sich tragen.
@@ -124,7 +124,7 @@ Alchemie, Bergbau, Burgenbau, Holzfällen, Kräuterkunde, Pferdedressur, Rüstun
 
 Dies ist die größte Gruppe von Talenten.
 Sie ermöglichen es, bestimmte Gegenstände, Gebäude, Schiffe oder Straßen herzustellen.
-Sie werden im Kapitel [Produktion][produktion] und [Alchemie][5] näher erklärt.
+Sie werden im Kapitel [Produktion][produktion] und [Alchemie][alchemie-id] näher erklärt.
 
 ### Silbertalente
 
@@ -133,13 +133,13 @@ Mehr dazu im Kapitel über [Geld][geld].
 
 ### Heimlich & Co
 
-[Spionage][skill-spionage-id], [Tarnung][tarnung-id] und [Wahrnehmung] drehen sich um Heimlichkeiten.
+[Spionage][skill-spionage-id], [Tarnung][tarnung-id] und [Wahrnehmung][tarnung-id] drehen sich um Heimlichkeiten.
 Sie haben ihre eigenen Kapitel.
 
 ### Fortbewegung
 
 Segeln und Reiten werden im Kapitel über [Reisen][reisen] erklärt.
-Reiten ist zudem auch im [Kampf] nützlich.
+Reiten ist zudem auch im [Kampf][kriegstabellen] nützlich.
 
 [](){ #skill-magie-de-id }
 
@@ -151,20 +151,9 @@ Reiten ist zudem auch im [Kampf] nützlich.
 
 Die Waffentalente Armbrustschießen, Bogenschießen, Hiebwaffen, Katapultbedienung, Stangenwaffen und Waffenloser Kampf, sowie die besonderen Talente Ausdauer, Reiten und Taktik sind im [Krieg][krieg] besonders relevant, sei es gegen andere Parteien oder Monster.
 
-Weiterlesen: [Liste der Talente].
-
-[Liste der Talente]: ./skills-list.md
+Weiterlesen: [Liste der Talente][liste-der-talente].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente&oldid=16985] -->
 
 [Einheiten]: ./cmd-unit.md
-[bef-lerne]: ./cmd-learn.md
-[lehren]: ./cmd-teach.md
-[LERNE AUTO]: ./cmd-learn-auto.md
 [bef-vergiss]: ./cmd-forget.md
-
-[Alchemie]: ./skills-list.md
-[Taktik]: ./tactic.md
-[5]: ./alchemy.md
-[Wahrnehmung]: ./stealth.md
-[Kampf]: ./war-tables.md

@@ -97,7 +97,7 @@ The followers must carry their own weight.
 Travelling units may be stopped from passing through a region by guarding units (siehe [[cmd-guard]]).  
 
 If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move.  
-The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table] to find out the weight of items).
+The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table][items-id] to find out the weight of items).
 
 [](){ #travel-roads-id }
 
@@ -150,9 +150,6 @@ If a unit has several horses and carts, their transport capacity is simply added
 - [Ships][ships-id]
 - [Roads][roads]
 
-Continue reading: [Sailing].
+Continue reading: [Sailing][sailing-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
-
-[Sailing]: ./sailing.md
-[this table]: ./items.md

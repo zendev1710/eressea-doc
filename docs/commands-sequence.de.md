@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: befehlsreihenfolge
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Befehlsreihenfolge
 
 Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle, die unter der selben Nummer stehen, werden zur gleichen Zeit ausgeführt oder die Reihenfolge spielt keine Rolle.
@@ -19,9 +21,9 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 11. [[bef-attackiere]]
 12. [[bef-reserviere]], [[bef-beanspruche]]
 13. [[bef-betrete]]; 3. Versuch
-14. [GIB KOMMANDO]
+14. [GIB KOMMANDO][bef-gib]
 15. [[bef-vergiss]]
-16. [[bef-gib]][GIB KOMMANDO]
+16. [GIB][bef-gib]
 17. [[bef-rekrutiere]] \*
 18. [ZERSTÖRE]
 19. [[bef-folge]] wird gesetzt
@@ -52,7 +54,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 44. [[bef-sortiere]]
 45. [[bef-nummer]]
 
-\* So markierte Befehle werden "gerecht" aufgeteilt. Siehe [Erläuterungen] unten.
+\* So markierte Befehle werden "gerecht" aufgeteilt. Siehe [Erläuterungen][erlauterungen-id] unten.
 
 Die Befehle müssen aber nicht zwingend in dieser Reihenfolge eingegeben werden. Es ist durchaus zulässig, folgendes einzugeben:
 
@@ -65,9 +67,11 @@ Die Befehle müssen aber nicht zwingend in dieser Reihenfolge eingegeben werden.
 
 Die neue Einheit wird zuerst erschaffen, kämpft nicht mehr, erhält 300 Silber, rekrutiert 1 und lernt schlussendlich Holzfällen - obwohl das nicht der Reihenfolge entspricht, in der die Befehle eingegeben wurden.
 
+[](){ #erlauterungen-id }
+
 ## Erläuterungen
 
-Gleichrangige Befehle verschiedener Einheiten werden normalerweise in der Reihenfolge abgearbeitet, wie sie im Report erscheinen. Also zum Beispiel erst alle GIB-Befehle der ersten Einheit, dann alle GIB-Befehle der zweiten Einheit, später alle `REKRUTIERE`-Befehle der ersten Einheit, dann der zweiten und so fort. Auch der [Materialpool] funktioniert üblicherweise in dieser Reihenfolge: Einheiten, die weiter oben in der Reihenfolge stehen, werden also zuerst "befragt", ob sie einen Gegenstand hergeben können. Die Reihenfolge kann sich jedoch durch bestimmte Befehle verändern. Dazu gehören `BETRETE, VERLASSE, MACHE TEMP, GIB KOMMANDO` und `GIB SCHIFF`. Das genaue Verhalten wird nicht garantiert! Deshalb sollte man im Zweifel Befehle so geben, dass die Einheitenreihenfolge dafür keine Rolle spielt.
+Gleichrangige Befehle verschiedener Einheiten werden normalerweise in der Reihenfolge abgearbeitet, wie sie im Report erscheinen. Also zum Beispiel erst alle GIB-Befehle der ersten Einheit, dann alle GIB-Befehle der zweiten Einheit, später alle `REKRUTIERE`-Befehle der ersten Einheit, dann der zweiten und so fort. Auch der [Materialpool][materialpool] funktioniert üblicherweise in dieser Reihenfolge: Einheiten, die weiter oben in der Reihenfolge stehen, werden also zuerst "befragt", ob sie einen Gegenstand hergeben können. Die Reihenfolge kann sich jedoch durch bestimmte Befehle verändern. Dazu gehören `BETRETE, VERLASSE, MACHE TEMP, GIB KOMMANDO` und `GIB SCHIFF`. Das genaue Verhalten wird nicht garantiert! Deshalb sollte man im Zweifel Befehle so geben, dass die Einheitenreihenfolge dafür keine Rolle spielt.
 
 Bei Befehlen, deren Resultat eine Obergrenze hat, z.B. die maximale Menge an Bäumen in der Region bei `MACHE Holz`, die maximale Zahl von Rekruten bei `REKRUTIERE` oder dem Regionssilber bei `UNTERHALTE` und `TREIBE`, kann es vorkommen, dass mehrere Einheiten in Konkurrenz zueinander stehen. In diesem Fall wird versucht, das knappe Gut anteilig an der Menge zu verteilen, die jede Einheit produzieren könnte, wenn es unbegrenzt wäre. Hierbei kann es zu Abweichungen kommen, und eine Einheit eventuell leer ausgehen. Ebenfalls betroffen sind die Befehle `VERKAUFE, KAUFE` und `ARBEITE`.
 
@@ -78,22 +82,15 @@ Es bedeutet nicht, dass Einheiten, die ein Schiff verlassen, noch in derselben R
 
 ## Siehe auch
 
-- [Befehle]
-- [Kurzbeschreibung]
+- [Befehle][befehl]
+- [Kurzbeschreibung][kurzbeschreibung]
 
-Weiterlesen: [Kurzbeschreibung].
-
-[Kurzbeschreibung]: ./commands-list.md
+Weiterlesen: [Kurzbeschreibung][kurzbeschreibung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
 
 [BEWACHE NICHT]: ./cmd-guard.md
 [KÄMPFE]: ./cmd-combat.md
-[GIB KOMMANDO]: ./cmd-give.md
 [ZERSTÖRE]: ./cmd-destroy.md
 [BEZAHLE NICHT]: ./cmd-pay-not.md
 [ZÜCHTE]: ./cmd-grow.md
-[Materialpool]: ./items-pool.md
-[Befehle]: ./commands.md
-
-[Erläuterungen]: ./commands-sequence.md/#erlauterungen

@@ -7,7 +7,7 @@ alias: geschichte-von-eressea
 # Geschichte von Eressea
 
 Laut [Wikipedia] startete Eressea am 27. August 1996.
-Es wurde als Ableger von [Atlantis] entwickelt.
+Es wurde als Ableger von [Atlantis][atlantis-de-id] entwickelt.
 Die Popularität war relativ starken Schwankungen unterlegen.
 Der Rekord lag bei über 2000 Parteien Anfang des Jahres 2002.
 Ende 2005 waren es erstmals unter 1000 Parteien.
@@ -29,7 +29,7 @@ Das Spiel geht aber immer noch weiter.
 - [Enno Rehling][enno-de-id]
   ist seit Runde 39 dabei und übernahm Entwicklung und Spielleitung nach dem Ausstieg der anderen beiden Spielleiter.
 - Henning Peters ([Faroul][faroul-de-id])
-  Entwickler, u.a. des Zugüberprüfers [ECheck]
+  Entwickler, u.a. des Zugüberprüfers [ECheck][echeck-de-id]
 - Benjamin Bärmann, Ingo Wilken
   Co-Entwickler in den ersten Jahren, u.a. der Alchemie
 
@@ -331,7 +331,7 @@ Oktober 2003 -- Anmeldung geschlossen
 
 17.4.2005 -- NEUSTART, Gewichte, etc.
 
-4.5.2005 -- Der [Xontormia-Express] erscheint nach einer Pause wieder unter neuer Redaktion
+4.5.2005 -- Der [Xontormia-Express][xontormia-express-de-id] erscheint nach einer Pause wieder unter neuer Redaktion
 
 5.6.2005 -- Astralraumreform (ab Runde 430) u.a.
 
@@ -371,7 +371,7 @@ Oktober 2003 -- Anmeldung geschlossen
 
 - Material- und Silberpool sind für alle Parteien aktiv (vorher waren sie optional).
 
-2.3.2008 -- Nachdem in den vergangenen Monaten nur noch sehr unregelmäßig Artikel veröffentlicht wurden, erscheint die vorläufig letzte Ausgabe des [Xontormia-Express]
+2.3.2008 -- Nachdem in den vergangenen Monaten nur noch sehr unregelmäßig Artikel veröffentlicht wurden, erscheint die vorläufig letzte Ausgabe des [Xontormia-Express][xontormia-express-de-id]
 
 28.4.2008 -- Regionen erhalten IDs
 
@@ -430,7 +430,3 @@ Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können ble
 
 [Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-
-[Atlantis]: ./atlantis.md
-[ECheck]: ./echeck.md
-[Xontormia-Express]: ./xontormia-express.md

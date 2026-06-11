@@ -13,11 +13,11 @@ Magie ist ein mystischer und machtvoller Weg, Dinge zu verändern, zu erschaffen
 
 ## Das Studium der Magie
 
-Jede Partei muss sich für eines der fünf [[magiegebiete]] entscheiden: [Illaun], [Tybied], [Gwyrrd], [Cerddor] oder [Draig].
+Jede Partei muss sich für eines der fünf [[magiegebiete]] entscheiden: [Illaun][illaunzauber], [Tybied][tybiedzauber], [Gwyrrd][gwyrrdzauber], [Cerddor][cerddorzauber] oder [Draig][draigzauber].
 Das Magiegebiet der Partei wird durch die allererste Einheit bestimmt, die in der Partei Magie lernt.
-Dies geschieht mit Hilfe des Befehls [LERNE MAGIE "Magiegebiet"].
-In Folge heißt der Befehl nur noch [LERNE MAGIE][LERNE MAGIE "Magiegebiet"] und alle Magier einer [Partei] erlernen dann automatisch das von der Partei gewählte Magiegebiet.
-Es ist jedoch möglich, mehreren Einheiten [LERNE MAGIE "Magiegebiet"] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt.
+Dies geschieht mit Hilfe des Befehls [LERNE MAGIE "Magiegebiet"][bef-lerne].
+In Folge heißt der Befehl nur noch [LERNE MAGIE][bef-lerne] und alle Magier einer [Partei][parteien] erlernen dann automatisch das von der Partei gewählte Magiegebiet.
+Es ist jedoch möglich, mehreren Einheiten [LERNE MAGIE "Magiegebiet"][bef-lerne] zu befehlen, falls man sich nicht sicher ist, welche Einheit zuerst kommt.
 Ein einmal gewähltes Magiegebiet kann nicht mehr geändert werden.
 Deshalb will diese Entscheidung wohl überlegt sein!
 
@@ -46,7 +46,7 @@ Eine Einheit, die mit Magie 0 angezeigt wird, kann eigentlich auf T1 oder T2 sei
 Die Lernkosten steigen in letzterem Fall jedoch auf 350 Silber! Es gibt keinen Weg herauszufinden, was von beiden zutrifft.
 Also lieber etwas großzügiger planen.
 
-Lernen in einer [Akademie] kostet das Doppelte.
+Lernen in einer [Akademie][akademie] kostet das Doppelte.
 Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer.
 Ein Draig-Magier kann also keinen Illaun-Magier lehren.
 
@@ -112,7 +112,7 @@ Syntax:
 Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.
 
 Normale Zauber werden mit dem Befehl [[bef-zaubere]] gezaubert.
-Ihre Wirkung entfaltet sich entweder sofort (siehe [Befehlsreihenfolge]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
+Ihre Wirkung entfaltet sich entweder sofort (siehe [Befehlsreihenfolge][befehlsreihenfolge]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
 
 Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden.
 Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird.
@@ -179,7 +179,7 @@ Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet
 
 Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
 
-Durch einen [Ring der Macht], [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
+Durch einen ,[Ring der Macht][ring-der-macht] [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
 
 Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer][patzer] beeinflusst.
 
@@ -291,7 +291,7 @@ Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezau
 
 Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig (Bauernmobs oder andere Folgen).
 
-[Kröte]: ./toad.md
+[Kröte][krote-id].
 
 [](){ #magic-magieresistenz-id }
 
@@ -302,7 +302,7 @@ Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähig
 - die natürliche Magieresistenz der [Rassen][rassen]
 - plus 5% pro Magietalent
 - plus 10% \* Einhörner pro Person
-- evtl. Bonus oder Abzug durch [Zauber] auf der Einheit oder der Region
+- evtl. Bonus oder Abzug durch [Zauber][zauberliste] auf der Einheit oder der Region
 - evtl. Bonus durch [Gebäude][steinkreis]
 - Diese Werte werden addiert, das Ergebnis kann aber nie höher als 90% sein.
 
@@ -315,7 +315,7 @@ Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattde
 
 Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.
 
-**Beispiele:** Die Basischance ist 0% für Menschen, 10% für [Elfen], für [Goblins][Elfen] ist sie nur -5%.
+**Beispiele:** Die Basischance ist 0% für Menschen, 10% für [Elfen][talentmodifikatoren], für [Goblins][talentmodifikatoren] ist sie nur -5%.
 
 Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch][chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
 
@@ -329,7 +329,7 @@ Ein [Magierturm][magierturm-id] erhöht die Aura-Regeneration um 75% und erhöht
 
 ## Vertraute
 
-Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über [Vertraute] finden.
+Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über [Vertraute][vertraute] finden.
 
 ## Der Astralraum
 
@@ -338,7 +338,7 @@ Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exe
 
 So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die *Welt der Geisterwesen*, andere wiederum die *astrale Welt*, am bekanntesten jedoch ist der Begriff *Astralraum*. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.
 
-Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber] möglich –, verschwindet vollständig aus der realen Welt. Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt. Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt. Sie können also Befehle wie [[bef-nach]] und [[bef-attackiere]] erhalten und mit anderen Einheiten in der astralen Welt interagieren. Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
+Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber][zauberliste] möglich –, verschwindet vollständig aus der realen Welt. Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt. Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt. Sie können also Befehle wie [NACH][bef-nach] und [[bef-attackiere]] erhalten und mit anderen Einheiten in der astralen Welt interagieren. Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
 
 Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen. Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft. Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild). Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen. Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet. Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
@@ -360,30 +360,15 @@ Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen i
 
 ## Listen aller Zauber
 
-Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][Zauber] und [Zauberbeschreibungen].
+Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][zauberliste] und [Zauberbeschreibungen][zauberbeschreibungen].
 
 Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[Illaun]: ./magic-school-illaun.md
-[Tybied]: ./magic-school-tybied.md
-[Gwyrrd]: ./magic-school-gwyrrd.md
-[Cerddor]: ./magic-school-cerddor.md
-[Draig]: ./magic-school-draig.md
-[LERNE MAGIE "Magiegebiet"]: ./cmd-learn.md
-[Partei]: ./factions.md
-[Akademie]: ./buildings-others.md
 [bef-zeige]: ./cmd-show.md
 [bef-zaubere]: ./cmd-cast.md
-[Befehlsreihenfolge]: ./commands-sequence.md
 [KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md
 [bef-attackiere]: ./cmd-attack.md
-[Ring der Macht]: ./ring-of-power.md
 [bef-ursprung]: ./cmd-origin.md
 [bef-kontaktiere]: ./cmd-contact.md
-[Zauber]: ./spells-list.md
-[Elfen]: ./skills-modifiers.md
-[Vertraute]: ./familiars.md
-[bef-nach]: ./cmd-move.md
-[Zauberbeschreibungen]: ./spells-descriptions.md

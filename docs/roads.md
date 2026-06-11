@@ -13,7 +13,7 @@ alias: roads
 
 In each region, you can build a road to the six cardinal directions. For a road to be complete, there must be a road in the region of the corresponding direction in the opposite direction. To build roads, you need a minimum level of 1 in roadwork, and you can add 1 stone per level (and per person in the unit).
 
-The following table states how many stones per direction are needed. Furthermore, some regions are so inhospitable that a [building] is required before building a road. It must function while building it, that is, it must be completed and the maintenance costs must be paid. Once completed, the road works without paying the building maintenance.
+The following table states how many stones per direction are needed. Furthermore, some regions are so inhospitable that a [building][other-buildings] is required before building a road. It must function while building it, that is, it must be completed and the maintenance costs must be paid. Once completed, the road works without paying the building maintenance.
 
 Building Roads
 
@@ -41,5 +41,3 @@ After completion a unit can travel on foot with `MOVE E NE` from (0,0) to (1,1) 
 Continue reading: [ships][ships-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/en&oldid=15936] -->
-
-[building]: ./buildings-others.md

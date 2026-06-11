@@ -53,16 +53,14 @@ Es wird immer nur der erste ausgeführt.
 ## Siehe auch
 
 - [Reisen][reisen]
-- [[bef-nach]]
+- [NACH][bef-nach]
 - [[bef-route]]
-- [[bef-fahre]]
+- [`FAHRE`][bef-fahre]
 - [[bef-transportiere]]
 - [[bef-piraterie]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
-[bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
-[bef-fahre]: ./cmd-ride.md
 [bef-transportiere]: ./cmd-carry.md
 [bef-piraterie]: ./cmd-piracy.md

@@ -462,9 +462,9 @@ This earthquake will damage all buildings in the region.
     This forever changes the equilibrium of nature in the region.  
     From this point on only the fierce but strong mallorn trees will grow there.
 
-|                     Components                      | Lvl |  Type  | Rank | Ship |            Dist.             |
-|:---------------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
-| 250 aura, 10 permanent aura, 1 [[pot-of-toadslime]] | 16  | Normal |  5   |      | :material-check:{ .success } |
+|                             Components                              | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:-------------------------------------------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 250 aura, 10 permanent aura, 1 [pot of toadslime][pot-of-toadslime] | 16  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] "Roots of Magic"`  
 

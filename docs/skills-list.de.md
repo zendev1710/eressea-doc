@@ -8,9 +8,11 @@ alias: liste-der-talente
 
 Hier die Liste aller Talente, die Einheiten in Eressea erlernen können. Dies ist nur eine kurze Übersicht, weitere Details enthalten die jeweiligen Kapitel.
 
-## [[alchemie]]
+[](){ #skill-alchemie-id }
 
-Herstellen von [Tränken] aus [Kräutern]. Lernen kostet 200 Silber Person. Pro Partei darf es maximal drei Alchemisten geben.
+## [Alchemie][alchemie]
+
+Herstellen von [Tränken][tranke-id] aus [Kräutern][krauter-id]. Lernen kostet 200 Silber Person. Pro Partei darf es maximal drei Alchemisten geben.
 
 ## Armbrustschießen
 
@@ -34,7 +36,7 @@ Zusammen mit einem Bogen: kämpfen. Mit Talent Steuereintreiben: Steuern eintrei
 
 ## Burgenbau
 
-Mit diesem Talent können [Gebäude und Burgen] gebaut werden.
+Mit diesem Talent können [Gebäude und Burgen][gebaude-id] gebaut werden.
 
 ## Handeln
 
@@ -52,9 +54,11 @@ Bäume und Mallorn fällen (siehe [Rohstoffe][tief-im-wald]).
 
 Zusammen mit einem Katapult und Katapultmunition: kämpfen. Mit Katapulten kann man keine Steuern eintreiben.
 
+[](){ #skill-krauterkunde-id }
+
 ## Kräuterkunde
 
-Finden von [Kräutern] zur Herstellung von [alchemistischen Tränken][Tränken]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion][produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
+Finden von [Kräutern][krauter-id] zur Herstellung von [alchemistischen Tränken][tranke-id]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion][produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
 
 ## [Magie][magie-de-id]
 
@@ -73,7 +77,7 @@ Zusammen mit einem [Pferd][pferd-und-wagen]: Ab Reiten 1 schnellere Bewegung, ab
 
 ## Rüstungsbau
 
-Bau von Rüstungen aus Eisen, Laen und Adamantium (siehe [Waren]).
+Bau von Rüstungen aus Eisen, Laen und Adamantium (siehe [Waren][waren]).
 
 ## Schiffbau
 
@@ -119,7 +123,7 @@ Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (sieh
 
 ## Tarnung
 
-Die Einheit ist immer getarnt und nur für Einheiten mit gleichem oder größeren Wahrnehmungstalent sichtbar. Erfolgreich getarnte Einheiten können andere Einheiten [beklauen] und [Bewachungen] umgehen.
+Die Einheit ist immer getarnt und nur für Einheiten mit gleichem oder größeren Wahrnehmungstalent sichtbar. Erfolgreich getarnte Einheiten können andere Einheiten [beklauen][tarnung-id] und [Bewachungen] umgehen.
 
 ## Unterhaltung
 
@@ -127,7 +131,7 @@ Unterhaltung der Bauern. Falls die Bauern genügend Geld haben, kann pro Person 
 
 ## Waffenbau
 
-Bau von Waffen aus Metallen und Holz (siehe [Waren]).
+Bau von Waffen aus Metallen und Holz (siehe [Waren][waren]).
 
 ## Waffenloser Kampf
 
@@ -139,19 +143,11 @@ Bau von Wagen und Katapulten aus Holz. Pro Person und Talentstufe kann aus 5 Hol
 
 ## Wahrnehmung
 
-Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung]).
+Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung][tarnung-id]).
 
 Weiterlesen: [Tarnung][tarnung-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
-
-[Alchemie]: ./alchemy.md
-[Tränken]: ./alchemy.md
-[Kräutern]: ./herbs.md
-[Gebäude und Burgen]: ./buildings.md
-[Waren]: ./items.md
-[beklauen]: ./stealth.md
-[Wahrnehmung]: ./stealth.md
 
 [bef-kaufe]: ./cmd-buy.md
 [`FORSCHE KRÄUTER`]: ./cmd-research.md

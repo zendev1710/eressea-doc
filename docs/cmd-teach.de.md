@@ -16,16 +16,14 @@ Mit diesem Befehl lehrt man allen aufgelisteten Einheiten das Talent, das diese 
 
 Das zu lehrende Talent muss **nicht** angegeben werden - es wird automatisch das Talent gelehrt, welches die lernende Einheit lernt. Dies können auch verschiedene Talente sein, sofern der Lehrer diese Talente ausreichend besser als die Schüler beherrscht.
 
-Will man Einheiten fremder Parteien lehren, muss man von dieser Partei den Befehl [[bef-helfe]] BEWACHE erhalten haben oder die zu lehrende Einheit muss mit [[bef-kontaktiere]] den Lehrer kontaktieren.
+Will man Einheiten fremder Parteien lehren, muss man von dieser Partei den Befehl [HELFE][bef-helfe] BEWACHE erhalten haben oder die zu lehrende Einheit muss mit [[bef-kontaktiere]] den Lehrer kontaktieren.
 
 **Beispiel**:
 
     LEHRE xxxx yyyy TEMP 2 zzzz
 
-Durch den Befehl [LERNE AUTO] versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von `LEHRE` und `LERNE AUTO` ist allerdings nicht möglich.
+Durch den Befehl [LERNE AUTO][bef-lerne-auto] versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von `LEHRE` und `LERNE AUTO` ist allerdings nicht möglich.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEHRE&oldid=16726] -->
 
-[bef-helfe]: ./cmd-help.md
 [bef-kontaktiere]: ./cmd-contact.md
-[LERNE AUTO]: ./cmd-learn-auto.md

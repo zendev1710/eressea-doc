@@ -14,7 +14,7 @@ Mit dem Befehl [[bef-attackiere]] startet man den Angriff gegen den Gegner. Die 
 
 Die angreifende Seite besteht aus allen Einheiten, welche `ATTACKIERE`-Befehle gegen eine oder mehrere Einheiten der verteidigenden Partei gegeben haben.
 
-Die verteidigende Seite besteht aus den Einheiten der verteidigenden Partei, die angegriffen wurden, wo der Gegner also `ATTACKIERE`*`einheit-nr`* gemacht hat, und allen Einheiten, die kampfbereit sind (also [`KÄMPFE`]`,`[`KÄMPFE AGGRESSIV`][`KÄMPFE`]`,`[`KÄMPFE HINTEN`][`KÄMPFE`] oder [`KÄMPFE DEFENSIV`][`KÄMPFE`] gesetzt haben). Außerdem helfen alle kampfbereiten Einheiten alliierter Parteien, also jener, die [`HELFE KÄMPFE`] für die angegriffene Partei gesetzt haben.
+Die verteidigende Seite besteht aus den Einheiten der verteidigenden Partei, die angegriffen wurden, wo der Gegner also `ATTACKIERE`*`einheit-nr`* gemacht hat, und allen Einheiten, die kampfbereit sind (also [`KÄMPFE`]`,`[`KÄMPFE AGGRESSIV`][`KÄMPFE`]`,`[`KÄMPFE HINTEN`][`KÄMPFE`] oder [`KÄMPFE DEFENSIV`][`KÄMPFE`] gesetzt haben). Außerdem helfen alle kampfbereiten Einheiten alliierter Parteien, also jener, die [`HELFE KÄMPFE`][bef-helfe] für die angegriffene Partei gesetzt haben.
 
 Es gibt also unterschiedliche Gründe, warum eine Einheit am Kampf teilnimmt. Diese sind in der Reihenfolge ihrer Priorität:
 
@@ -27,7 +27,7 @@ Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verte
 
 Um also einen Feind gemeinsam anzugreifen, muss jede angreifende Partei mindestens eine Einheit des Feindes attackieren. Um sich gemeinsam gegen Angreifer zu wehren, müssen sich die verteidigenden Parteien nur gegenseitig helfen.
 
-Prinzipiell gilt jeder als alliiert, dem [`HELFE KÄMPFE`] gesetzt wurde, und der niemanden attackiert hat, dem [`HELFE KÄMPFE`] gesetzt wurde.
+Prinzipiell gilt jeder als alliiert, dem [`HELFE KÄMPFE`] gesetzt wurde, und der niemanden attackiert hat, dem [`HELFE KÄMPFE`][bef-helfe] gesetzt wurde.
 
 **Beispiel 1:** A hilft B und C. C attackiert B, deshalb greift A in den Kampf mit ein: B ist alliiert. Partei C gilt nicht als alliiert, weil sie einen Alliierten angreift.  
 Wer kämpft nun gegen wen?  
@@ -58,7 +58,7 @@ Eine Schlacht dauert fünf Kampfrunden zuzüglich einer eventuellen Taktikerrund
 In jeder Kampfrunde schlagen die Kämpfenden in einer zufälligen Reihenfolge zu.
 
 Man beachte, dass an einem Kampf teilnehmende Personen (das sind Personen, die im Kampfbericht aufgelistet werden) grundsätzlich keine weiteren langen Befehle ausführen können.
-Ausnahmen sind [Kämpfe auf See][kampf-auf-und-von-schiffen] und Kämpfe in Regionen, die *zu Kampfbeginn* von mindestens einer Einheit, die dem Kämpfer [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, oder aus der eigenen Partei ist, bewacht wird.
+Ausnahmen sind [Kämpfe auf See][kampf-auf-und-von-schiffen] und Kämpfe in Regionen, die *zu Kampfbeginn* von mindestens einer Einheit, die dem Kämpfer [`HELFE BEWACHE`][bef-helfe] gesetzt hat, oder aus der eigenen Partei ist, bewacht wird.
 In diesem Fall sind weitere lange Befehle möglich.
 
 ### Kampfreihen
@@ -106,7 +106,7 @@ Eine Einheit mit 10 Personen und 10 Schwertern und 10 Kriegsäxten wird mit Schw
 
 ## Die Taktikerrunde
 
-Vor der Schlacht wird der beste [Taktiker] aller teilnehmenden Einheiten bestimmt.
+Vor der Schlacht wird der beste [Taktiker][taktik] aller teilnehmenden Einheiten bestimmt.
 Ein Taktiker, der in der ersten Reihe kämpft, bekommt einen Bonus von +1 auf sein Taktik-Talent.
 Steht er in der 3. oder 4. Reihe, reduziert sich sein Talent um 1. Um ein wenig "Tagesform" und Glück einfließen zu lassen, erhält jeder Taktiker einen zufälligen Bonus, der bei 0 startet und rein theoretisch sehr groß werden kann, wobei die Wahrscheinlichkeit dafür immer geringer wird, je größer der Bonus ist.
 
@@ -335,7 +335,7 @@ Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszufüh
 
 Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war.
 Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen.
-Die [Taktikrunde][Taktiker] und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.
+Die [Taktikrunde][taktik] und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.
 
 Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind.
 Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.
@@ -346,7 +346,7 @@ Will man mit einem Schiff Truppen in einer feindlich [[bef-bewache|bewachten]] R
 Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen.
-Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [[bef-helfe]][`HELFE KÄMPFE`]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
+Auch reihen sich Truppen auf Schiffen normal gemäß Kampf- und [`HELFE KÄMPFE`][bef-helfe]-Status in die Kampfreihen ein, falls sie oder Verbündete angegriffen werden.
 
 [](){ #piraterie-de-id }
 
@@ -365,7 +365,7 @@ Bei der ganzen Geschichte sind einige Sachen zu beachten:
 - Piraten segeln auch in Landregionen, sofern das Schiff dort landen kann. Falls es nicht landen kann, nimmt es Schaden.
 - Piratenkapitäne sind dumm wie Brot. Sie können nicht einschätzen, ob ein Ziel ihnen möglicherweise überlegen ist, und werden fröhlich auch mit einem einzigen Schiff in einer feindliche Flotte von 100 Schiffen hineinfahren. Das Piratendasein hat eben seine Risiken.
 - Stehen mehrere potentielle Ziele zur Auswahl, wird der Kapitän eines nach dem Zufallsprinzip aussuchen.
-- Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [`HELFE KÄMPFE`] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.
+- Piratenflotten bleiben zusammen. Genauer gesagt: Hat bereits ein alliiertes Schiff (zu dem der Kapitän [`HELFE KÄMPFE`][bef-helfe] gesetzt hat) aus der eigenen Region ein Opfer erkannt, so segelt unser Schiff auch in die betreffende Region, vorausgesetzt, das vom ersten Schiff erkannte Opfer ist ebenfalls ein potentielles Opfer für uns.
 
 ## Das Ende
 
@@ -377,7 +377,7 @@ Im Laufe der Zeit erholen sich die verletzten Einheiten wieder.
 Dabei regenerieren Einheiten normalerweise 5% (einige [[talentmodifikatoren|rassen]] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit.
 Untote Einheiten regenerieren nicht.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][`HELFE KÄMPFE`] gesetzt hat, [[allianz|bewacht]] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.
+Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][bef-helfe] gesetzt hat, [[allianz|bewacht]] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.
 Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen.
 Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden).
 Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
@@ -391,16 +391,13 @@ Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 - [[taktik]]
 - [[kriegstabellen]]
 
-Weiterlesen: [[allianz]].
+Weiterlesen: [allianz][allianz].
 
-<!-- [Allianz]: ./alliances.md-->
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
 [bef-attackiere]: ./cmd-attack.md
 [`KÄMPFE`]: ./cmd-combat.md
-[`HELFE KÄMPFE`]: ./cmd-help.md
 [bef-gruppe]: ./cmd-group.md
-[Taktiker]: ./tactic.md
 [Helden]: ./cmd-promote.md
 [MACHE Katapultmunition]: ./cmd-make.md
 [bef-bewache]: ./cmd-guard.md

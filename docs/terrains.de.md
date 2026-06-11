@@ -1,7 +1,11 @@
 ---
 # cSpell:locale de
-alias: geländearten
+alias: gelaendearten
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #gelandearten-id }
+
 # Geländearten
 
 ## Berge
@@ -38,10 +42,8 @@ Doch selbst der dichteste Wald wirft für einige wenige genügend Früchte, Wurz
 10% der Arbeitsplätze in einer Region, jedoch nicht mehr als 200, werden daher nie von Bäumen oder Schösslingen blockiert.  
 Wird die Zahl vorhandener Arbeitsplätze überschritten, können auch keine Spieler-Einheiten in dieser Region mehr arbeiten.  
 
-In Gletschern, Sümpfen und Wüsten ist Straßenbau nur möglich, wenn dort spezielle [Gebäude] stehen.  
+In Gletschern, Sümpfen und Wüsten ist Straßenbau nur möglich, wenn dort spezielle [Gebäude][andere-gebaude-id] stehen.  
 
 [^1]: Ab einer Gesamtzahl von 600 Bäumen und/oder Schösslingen gilt eine Ebene als Wald
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geländearten&oldid=9079] -->
-
-[Gebäude]: ./buildings-others.md

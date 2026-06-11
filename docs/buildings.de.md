@@ -3,14 +3,17 @@
 alias: gebaeude
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #gebaude-id }
+
 # Gebäude
 
 Es gibt verschiedene Gebäude in Eressea, die unterschiedliche Vorteile bieten. Außer Burgen und Monumente brauchen alle Gebäude einen laufenden Unterhalt, der die Funktion sicherstellt.
 
 ## Unterhalt
 
-Diese Unterhaltskosten sind meistens unabhängig von der Größe des Gebäudes und müssen am Anfang der Runde vom Besitzer des Gebäudes bezahlt werden, zwischen dem [[bef-gib]]-Befehl und den langen Befehlen (siehe [Befehlsreihenfolge]). Eine Einheit kann also nicht Steuern eintreiben und dann mit dem eingetriebenen Geld den Unterhalt bezahlen. Ist zu diesem Zeitpunkt kein Geld da, funktioniert das Gebäude nicht.
+Diese Unterhaltskosten sind meistens unabhängig von der Größe des Gebäudes und müssen am Anfang der Runde vom Besitzer des Gebäudes bezahlt werden, zwischen dem [GIB][bef-gib]-Befehl und den langen Befehlen (siehe [Befehlsreihenfolge][befehlsreihenfolge]). Eine Einheit kann also nicht Steuern eintreiben und dann mit dem eingetriebenen Geld den Unterhalt bezahlen. Ist zu diesem Zeitpunkt kein Geld da, funktioniert das Gebäude nicht.
 
 Der Unterhalt ist voll fällig, sobald an dem Gebäude gebaut wird; allerdings noch nicht in der Runde, in der es mit [`MACHE`*`Gebäude`*] angefangen wird. Dies hat zur Folge, dass unterhaltspflichtige Gebäude, die in nur einer Runde fertiggestellt werden, in der Bauwoche nicht funktionieren, da zu Beginn der Woche kein Unterhalt bezahlt wurde.
 
@@ -30,22 +33,16 @@ Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und er
 
 ## Siehe auch
 
-- [Burgen]
-- [Andere Gebäude]
+- [Burgen][burgen]
+- [Andere Gebäude][andere-gebaude-id]
 - [Produktion][produktion]
 - [Ausgaben][ausgaben]
 - [Zerstöre][4]
 
-Weiterlesen: [Burgen].
-
-[Burgen]: ./castles.md
+Weiterlesen: [Burgen][burgen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude&oldid=16113] -->
 
-[Andere Gebäude]: ./buildings-others.md
-[Befehlsreihenfolge]: ./commands-sequence.md
-
-[bef-gib]: ./cmd-give.md
 [`MACHE `*`Gebäude`*]: ./cmd-make.md
 [bef-sortiere]: ./cmd-sort.md
 [ZERSTÖRE]: ./cmd-destroy.md

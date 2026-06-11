@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: der-erste-zug
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Der erste Zug
 
 ## Der erste Report
@@ -66,7 +68,7 @@ Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du na
 
 ## Beispiel für eine Befehlsdatei
 
-Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als erster Zug in einem Spiel (für E3!) verwendet. Ob es ein besonders schlauer Anfang war, weiß ich selber auch nicht. Man beachte, dass Befehle über mehr als eine Zeile (hier die BESCHREIBE-Befehle mit einem \\ (Backslash) "verlängert" wurden. Falls du [Magellan] für deine Befehle benutzt, musst du dir darüber allerdings keine Gedanken machen.
+Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als erster Zug in einem Spiel (für E3!) verwendet. Ob es ein besonders schlauer Anfang war, weiß ich selber auch nicht. Man beachte, dass Befehle über mehr als eine Zeile (hier die BESCHREIBE-Befehle mit einem \\ (Backslash) "verlängert" wurden. Falls du [Magellan][magellan-de-id] für deine Befehle benutzt, musst du dir darüber allerdings keine Gedanken machen.
 
      ERESSEA 37wj "pwpw42"
      ; du muss natürlich oben dein eigenes Passwort einsetzen
@@ -233,10 +235,8 @@ Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als e
 
 - Ein weiteres [Eressea-Tutorium]
 
-Weiterlesen: [Welpenschutz].
+Weiterlesen: [Welpenschutz][welpenschutz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Der\_erste\_Zug&oldid=7430] -->
 
-[Welpenschutz]: ./puppy-protection.md
-[Magellan]: ./magellan.md
 [Eressea-Tutorium]: https://playeressea.wordpress.com/eressea-tutorium/

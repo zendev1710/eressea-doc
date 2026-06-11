@@ -179,7 +179,7 @@ alias: cerddorzauber
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
-### Erschaffe einen [Ring der Unsichtbarkeit]
+### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit]
 
 :   Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen.  
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
@@ -464,4 +464,3 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 <!-- From [https://wiki.eressea.de/index.php?title=Cerddorzauber&oldid=7018] -->
 
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
-[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md

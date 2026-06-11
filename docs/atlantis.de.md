@@ -2,6 +2,11 @@
 # cSpell:locale de
 alias: atlantis-de
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #atlantis-de-id }
+
 # Atlantis
 
 **Atlantis** ist der Urvater von Eressea.

@@ -81,7 +81,7 @@ Analog dazu, wie man mehrere Personen in einer Einheit haben kann, bestehen Konv
 Karavelle (2seh), 73 Karavellen, (12776/85410), 61% beschädigt.
 ```
 
-Dafür [übergibt] man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl `GIB capt 1 SCHIFF`.
+Dafür [übergibt][bef-gib] man der Besitzereinheit eines Schiffes ein oder mehr Schiffe des gleichen Typs mit dem Befehl `GIB capt 1 SCHIFF`.
 Die empfangende Einheit wird Kommandant eines Konvois.
 Die übergebende und empfangende Einheit müssen derselben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht.
 Die Besitzereinheit eines Konvois kommandiert alle ihre Schiffe gemeinsam und muss dafür das Mindesttalent für den Schiffstyp haben und eine Person pro Schiff.
@@ -136,14 +136,12 @@ GIB 123 ALLES PERSONEN
 ## Siehe auch
 
 - [Schiffsreise][reisen]
-- [[bef-gib]][übergibt]
+- [GIB][bef-gib]
 
-Weiterlesen: [Gebäude].
+Weiterlesen: [Gebäude][gebaude-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
-[Gebäude]: ./buildings.md
 [1]: ./cmd-make.md
 [umbenennen]: ./cmd-name.md
 [beschreiben]: ./cmd-describe.md
-[übergibt]: ./cmd-give.md

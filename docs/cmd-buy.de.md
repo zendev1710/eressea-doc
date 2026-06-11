@@ -35,7 +35,7 @@ Also zufällig zwischen 5 und 15 pro Handelsware, so er sie hat.
 
 Im Normalreport taucht immer nur ein Befehl auf.
 Dies ist aber nur, damit nicht eine große Liste von Befehlen dort steht.
-Im Computerreport und der [Zugvorlage]["pseudolanger" Befehl] sind alle `KAUFE`- und `VERKAUFE`-Befehle aufgeführt.
+Im Computerreport und der [Zugvorlage][befehl] sind alle `KAUFE`- und `VERKAUFE`-Befehle aufgeführt.
 
 ## Siehe auch
 
@@ -45,4 +45,3 @@ Im Computerreport und der [Zugvorlage]["pseudolanger" Befehl] sind alle `KAUFE`-
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->
 
 [bef-verkaufe]: ./cmd-sell.md
-["pseudolanger" Befehl]: ./commands.md

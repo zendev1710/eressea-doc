@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: welt
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Welt
 
 ## Die Landschaft von Eressea
@@ -47,7 +49,7 @@ und mit diesen Worten schlug Selen ein großes schweres Buch auf, welches neben 
 Wir sammeln diese Berichte, denn sie helfen uns sehr bei unseren Entscheidungen."
 </div>
 
-In der Welt von Eressea gibt es verschiedene [Geländearten] (Berge, Ebene, Wald, Gletscher, Hochland, Sumpf, Wüste und Vulkan) mit unterschiedlichen Eigenschaften.  
+In der Welt von Eressea gibt es verschiedene [Geländearten][gelandearten-id] (Berge, Ebene, Wald, Gletscher, Hochland, Sumpf, Wüste und Vulkan) mit unterschiedlichen Eigenschaften.  
 Ein Forschungsreisender, der die weiten Ozeane nicht scheut, wird auf seinen Erkundungsreisen eventuell noch andere, exotische Regionstypen entdecken.  
 Als ein Beispiel sei hier nur die "Feuerwand" erwähnt, die ein unüberwindbares Hindernis darstellt.  
 Feuerwände grenzen in der Regel die Welten in Eressea ab.  
@@ -270,16 +272,16 @@ Das Jahr ist in der Welt von Eressea in neun Monate zu je drei Wochen eingeteilt
 Jede Runde des Spiels entspricht einer Woche in der Welt.  
 In dieser Zeit kann man viel unternehmen.  
 Es gibt aber ein paar Sachen, für die man fast die gesamte Woche aufwenden muss.  
-Von diesen Aktionen, den sogenannten langen Befehlen, kann man jeweils nur eine pro Woche ausführen (mehr dazu im Kapitel [Befehle]).
+Von diesen Aktionen, den sogenannten langen Befehlen, kann man jeweils nur eine pro Woche ausführen (mehr dazu im Kapitel [Befehle][befehl]).
 
 Wenngleich der Einfluss der Jahreszeiten im allgemeinen nicht überaus stark hervortritt, so gibt es doch einige Bereiche bzw. Ereignisse die durchaus nennenswert beeinflusst werden.  
 
 Hier eine kurze Übersicht:
 
 - Völker der Rasse [Insekt][insekten] können im Winter kaum rekrutieren
-- Stürme auf [See] sind im Herbst weitaus häufiger
+- Stürme auf [See][reisen] sind im Herbst weitaus häufiger
 - Die einzelnen Phasen des [Waldwachstums][tief-im-wald] sind an bestimmte Jahreszeiten gekoppelt
-- Im Winter kommt das Wachstum der [Kräuter] zum Erliegen
+- Im Winter kommt das Wachstum der [Kräuter][krauter-id] zum Erliegen
 
 ## Monate
 
@@ -343,14 +345,8 @@ Hier eine kurze Übersicht:
 - [[bef-rekrutiere]]
 - [[bef-unterhalte]]
 
-Weiterlesen: [Parteien].
-
-[Parteien]: ./factions.md
+Weiterlesen: [Parteien][parteien].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[Geländearten]: ./terrains.md
-[Kräuter]: ./herbs.md
-[Befehle]: ./commands.md
-[See]: ./travel.de.md
 [bef-unterhalte]: ./cmd-entertain.md

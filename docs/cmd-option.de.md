@@ -22,7 +22,7 @@ Diese Optionen lassen sich ein- und ausstellen. Sie kontrollieren, wie die Auswe
 
 - `PUNKTE`: Mit dieser Option wird, frühestens ab der 13. Runde, eine Punktzahl ausgegeben, die einen kleinen Vergleich mit anderen Parteien zulässt.
 
-- `ZUGVORLAGE`: Eine separate Datei enthält eine [Vorlage für die Befehle der nächsten Runde]. Diese kann man hiermit aus- und wieder anstellen. Wer diese nicht benötigt, weil er z.B. zur Zugerstellung ein Tool benutzt, sollte die Zugvorlage abstellen.
+- `ZUGVORLAGE`: Eine separate Datei enthält eine [Vorlage für die Befehle der nächsten Runde][befehl]. Diese kann man hiermit aus- und wieder anstellen. Wer diese nicht benötigt, weil er z.B. zur Zugerstellung ein Tool benutzt, sollte die Zugvorlage abstellen.
 
 - `TALENTVERSCHIEBUNG`: Hiermit kann man eine kleine Anzeige im NR einschalten. Hinter dem Talent ist dann aufgeführt, wenn sich das Talent in der betreffenden Runde verändert hat.
 
@@ -34,10 +34,8 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
 `SILBERPOOL`: Normalerweise zahlen Einheiten anfallende Ausgaben "aus eigener Tasche". Mit dieser Option kann eingeschaltet werden, dass notwendiges Silber von allen Einheiten der Region gesammelt wird.
 
-`MATERIALPOOL`: ist der [Materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silber mit dem [Silberpool][der-silberpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[bef-reserviere]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVIERE` vergaß.
+`MATERIALPOOL`: ist der [Materialpool][materialpool] eingeschaltet, werden allen benötigten Gegenstände einer Einheit ähnlich wie Silber mit dem [Silberpool][der-silberpool] bei Bedarf zusammengesammelt. Einheiten können sich mit dem Befehl [[bef-reserviere]] Gegenstände sichern und so vermeiden, dass andere Einheiten sie von ihnen nehmen und verbrauchen. Diese Option sollte wohlüberlegt benutzt werden, da man schnell unbedacht z.B. alles Holz einer Region verbaut, welches man für andere Zwecke verplant hatte, nur weil man ein `RESERVIERE` vergaß.
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[Vorlage für die Befehle der nächsten Runde]: ./commands.md
-[Materialpool]: ./items-pool.md
 [bef-reserviere]: ./cmd-reserve.md

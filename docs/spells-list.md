@@ -27,7 +27,7 @@ alias: list-of-spells
 |    |    |    |    | 14 | [Astral Disruption][astral-disruption-id]                             | --      |  4   | 140 aura                                                                         |                |
 |    |    |    |    |  4 | [Astral Exit][astral-exit-id]                                         | --      |  7   | 2 x T aura                                                                       |                |
 |    |    |  5 |    |    | [Astral Guardian Spirits][astral-guardian-spirits-id]                 | Pre-c.  |  2   | 5 x T aura                                                                       |                |
-|    |  9 |    |    |    | [Astral Leak][astral-leak-id]                                         | --      |  3   | 35 aura, 1 [dragonblood]                                                         |                |
+|    |  9 |    |    |    | [Astral Leak][astral-leak-id]                                         | --      |  3   | 35 aura, 1 [dragonblood][dragonblood]                                            |                |
 |    |    |    |    |  4 | [Astral Path][astral-path-id]                                         | --      |  7   | 2 x T aura                                                                       |                |
 |    |    | 10 |    |    | [Awakening of the Ents][awakening-of-the-ents-id]                     | --      |  5   | 6 x T aura                                                                       |                |
 |    |    |    | 10 |    | [Bad Dreams][bad-dreams-id]                                           | --      |  5   | 90 aura                                                                          | Distance       |
@@ -59,26 +59,26 @@ alias: list-of-spells
 |  6 |  6 |  6 |  6 |  6 | [Create An Amulet of True Sight][create-an-amulet-of-true-sight-id]   | --      |  5   | 50 aura, 3000 silver, 1 perm. aura                                               | Ship           |
 |    |    |    |    |  7 | [Create An Antimagic Crystal][create-an-antimagic-crystal-id]         | --      |  5   | 50 aura, 3000 silver                                                             | Ship           |
 |    |    |  2 |    |    | [Create Iron Golems][create-iron-golems-id]                           | --      |  4   | 2 x T aura, T [irons][iron], 1 [water of life][water-of-life]                    |                |
-|    |    |  1 |    |    | [Create Stone Golems][create-stone-golems-id]                         | --      |  4   | 2 x T aura, T [stones][stone][stone], 1 [water of life][water-of-life]           |                |
+|    |    |  1 |    |    | [Create Stone Golems][create-stone-golems-id]                         | --      |  4   | 2 x T aura, T [stones][stone], 1 [water of life][water-of-life]                  |                |
 |    |  7 |    |    |    | [Curse of Pestilence][curse-of-pestilence-id]                         | --      |  5   | 30 aura, 50 peasants                                                             | Distance       |
 |    | 11 |    |    |    | [Death Cloud][death-cloud-id]                                         | --      |  5   | 40 aura, 15 Hit Points                                                           | Distance       |
 |    |    |    |    |  5 | [Destroy Magic][destroy-magic-id]                                     | --      |  2   | 4 x T aura                                                                       | Distance, Ship |
 |    |    |    |  1 |    | [Divination][divination-id]                                           | --      |  5   | T aura                                                                           | Ship           |
 |    |    |    |    | 11 | [Double Time][double-time-id]                                         | --      |  5   | 5 x T aura                                                                       | Ship           |
-|    | 11 |    |    |    | [Dragon Call][dragon-call-id]                                         | --      |  5   | 80 aura, 1 [[dragonhead]]                                                        | Distance       |
+|    | 11 |    |    |    | [Dragon Call][dragon-call-id]                                         | --      |  5   | 80 aura, 1 [dragonhead][dragonhead]                                              | Distance       |
 |    |    |    |  3 |    | [Dream of Magic][dream-of-magic-id]                                   | --      |  1   | 2 aura                                                                           | Ship           |
 |    |    |    |  1 |    | [Dream][dream-id]                                                     | --      |  5   | T aura                                                                           | Ship           |
 |  5 |    |    |    |    | [Epic Heroes][epic-heroes-id]                                         | Pre-c.  |  4   | 2 x T aura                                                                       |                |
 |    |    |    |  2 |    | [Eternal Rest][eternal-rest-id]                                       | --      |  5   | 3 x T aura, 1 [water of life][water-of-life]                                     |                |
 |    |    |    |    |  7 | [Eternal Walls][eternal-walls-id]                                     | --      |  5   | 50 aura, 1 perm. aura                                                            | Ship           |
-|    | 10 |    |    |    | [Fire Fiend][fire-fiend-id]                                           | --      |  5   | 50 aura, 1 [oil]                                                                 | Distance       |
+|    | 10 |    |    |    | [Fire Fiend][fire-fiend-id]                                           | --      |  5   | 50 aura, 1 [oil][oil]                                                            | Distance       |
 |    |  2 |    |    |    | [Fireball][fireball-id]                                               | Combat  |  5   | T aura                                                                           |                |
 |    |  7 |    |    |    | [Firewall][firewall-id]                                               | --      |  4   | 6 x T aura                                                                       |                |
 |  3 |  3 |  3 |  3 |  3 | [Firun's Coat][firuns-coat-id]                                        | --      |  5   | 2 x T aura                                                                       | Ship           |
 |    |    |  8 |    |    | [Gaze of the Basilisk][gaze-of-the-basilisk-id]                       | Combat  |  5   | T aura                                                                           |                |
 |    |    |    |    | 10 | [Gaze Upon Reality][gaze-upon-reality-id]                             | --      |  5   | 40 aura                                                                          |                |
 |    |    | 17 |    |    | [Great Drought][great-drought-id]                                     | --      |  5   | 800 aura                                                                         | Distance       |
-|    |    |  2 |    |    | [Grove of Oak Trees][grove-of-oak-trees-id]                           | --      |  5   | 4 x T aura, T [woods], 1 [water of life][water-of-life]                          | Distance       |
+|    |    |  2 |    |    | [Grove of Oak Trees][grove-of-oak-trees-id]                           | --      |  5   | 4 x T aura, T [woods][wood], 1 [water of life][water-of-life]                    | Distance       |
 |    |    |  3 |    |    | [Hail][hail-id]                                                       | Combat  |  5   | T aura                                                                           |                |
 |  7 |    |    |    |    | [Hangover][hangover-id]                                               | --      |  5   | 28 aura, 3 [knotroot][knotroot], 50 silver                                       |                |
 |    |    |  5 |    |    | [Heal][heal-id]                                                       | Post-c. |  5   | T aura                                                                           |                |
@@ -91,7 +91,7 @@ alias: list-of-spells
 |    |  4 |    |    |    | [Lesser Sacrifice][lesser-sacrifice-id]                               | --      |  1   | 16 Hit Points                                                                    | Ship           |
 |    |    |    |    | 13 | [Living Rock][living-rock-id]                                         | --      |  5   | 10 x T aura, 1 perm. aura, 5 [laen][laen-id]                                     |                |
 |    |  8 |    |    |    | [Madness of War][madness-of-war-id]                                   | Pre-c.  |  5   | 3 x T aura, 10 peasants                                                          |                |
-|    |    | 15 |    |    | [Maelstrom][maelstrom-id]                                             | --      |  5   | 200 aura, 1 Seeschlangenkopf                                                     | Sea, Ship      |
+|    |    | 15 |    |    | [Maelstrom][maelstrom-id]                                             | --      |  5   | 200 aura, 1 [sea serpent head][sea-serpent-head]                                 | Sea, Ship      |
 |    |    |  4 |    |    | [Magic Path][magic-path-id]                                           | --      |  5   | T aura, 1 [stone][stone], 1 [wood][wood]                                         | Distance, Ship |
 |    |    |    | 11 |    | [Mental Death][mental-death-id]                                       | Pre-c.  |  5   | 2 x T aura                                                                       |                |
 |    |    |  6 |    |    | [Meditate][meditate-id]                                               | --      |  1   | 2 aura                                                                           | Ship           |
@@ -114,7 +114,7 @@ alias: list-of-spells
 |    |    |    |  5 |    | [Resurrection][resurrection-id]                                       | Post-c. |  4   | T aura                                                                           |                |
 | 16 |    |    |    |    | [Riot][riot-id]                                                       | --      |  5   | 40 aura                                                                          | Distance       |
 |  9 |    |    |    |    | [Rite of Acceptance][rite-of-acceptance-id]                           | --      |  5   | 3 x T aura, T perm. aura                                                         |                |
-|    |    | 16 |    |    | [Roots of Magic][roots-of-magic-id]                                   | --      |  5   | 250 aura, 10 perm. aura, 1 [[pot-of-toadslime]]                                  | Distance       |
+|    |    | 16 |    |    | [Roots of Magic][roots-of-magic-id]                                   | --      |  5   | 250 aura, 10 perm. aura, 1 [pot of toadslime][pot-of-toadslime]                  | Distance       |
 |    |    |    |    | 15 | [Sacrifice Strength][sacrifice-strength-id]                           | --      |  1   | 100 aura                                                                         |                |
 |    |    |  9 |    |    | [Sacred Ground][sacred-ground-id]                                     | --      |  5   | 80 aura, 3 perm. aura                                                            |                |
 |    |    |    |    |  3 | [Save Spoils][save-spoils-id]                                         | Post-c. |  5   | T aura                                                                           |                |
@@ -164,5 +164,3 @@ alias: list-of-spells
 Continue reading: [[alchemy|Potions]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->
-
-[dragonhead]: ./dragonhead.md

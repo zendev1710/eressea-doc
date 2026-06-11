@@ -7,7 +7,7 @@ alias: burgen
 # Burgen
 
 Burgen erhöhen den Verdienst der Bauern, sie ermöglichen den Handel mit Luxusgütern und schließlich bieten sie ihren Insassen Schutz bei Angriffen.  
-Außerdem verringern sie die Wahrscheinlichkeit, dass [Pest] auftritt.  
+Außerdem verringern sie die Wahrscheinlichkeit, dass [Pest][pest] auftritt.  
 
 Burgen werden mit dem Befehl [MACHE BURG] aus Steinen gebaut.  
 Ab welcher Größe eine Burg in eine neue Kategorie aufsteigt, steht in der Tabelle weiter unten.  
@@ -75,16 +75,12 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 
 ## Siehe auch
 
-- [Andere Gebäude]
-- [Gebäude]
+- [Andere Gebäude][andere-gebaude-id]
+- [Gebäude][gebaude-id]
 - [Boni und Mali][boni-und-mali]
 - [Einnahmen][einnahmen]
 
-Weiterlesen: [Andere Gebäude].
+Weiterlesen: [Andere Gebäude][andere-gebaude-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
 [MACHE BURG]: ./cmd-make.md
-
-[Andere Gebäude]: ./buildings-others.md
-[Pest]: ./plague.md
-[Gebäude]: ./buildings.md

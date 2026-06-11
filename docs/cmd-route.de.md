@@ -10,7 +10,7 @@ alias: bef-route
 
 **`ROUTE`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
-Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl [[bef-nach]] durch die Welt von Eressea.
+Mit diesem Befehl bewegt sich die Einheit genauso wie mit dem Befehl [NACH][bef-nach] durch die Welt von Eressea.
 
 Mit dem `ROUTE`-Befehl kann jedoch eine Bewegungskette erstellen, so dass eine Einheit immer zwischen zwei oder mehr Punkten pendelt oder eine lange Route abarbeitet bis sie am Ziel ist. Alle Bewegungen, die abgearbeitet wurden, werden wieder hinten an den `ROUTE`-Befehl angehängt.
 
@@ -37,10 +37,9 @@ Und schließlich wieder wie am Anfang.
 ## Siehe auch
 
 - [Reisen][reisen]
-- [[bef-nach]]
+- [NACH][bef-nach]
 - [[bef-folge]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[bef-nach]: ./cmd-move.md
 [bef-folge]: ./cmd-follow.md

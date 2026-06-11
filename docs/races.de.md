@@ -7,7 +7,7 @@ alias: rassen
 # Rassen
 
 Neben den Menschen gibt es in Eressea noch viele andere Rassen (Parteitypen), unter denen du wählen kannst.
-Jede Rasse hat gewisse Vor- und Nachteile, die sich durch [Boni bzw. Mali] in einigen Talenten äußern und manchmal gewisse andere spezielle Fähigkeiten; außerdem hat jede Rasse verschiedene [Rekrutierungskosten][Boni bzw. Mali].
+Jede Rasse hat gewisse Vor- und Nachteile, die sich durch [Boni bzw. Mali][boni-und-mali] in einigen Talenten äußern und manchmal gewisse andere spezielle Fähigkeiten; außerdem hat jede Rasse verschiedene [Rekrutierungskosten][talentmodifikatoren].
 Eine Person wiegt in der Regel 10 Gewichtseinheit (GE) und kann 5,4 GE tragen.
 Ausnahmen sind Trolle, Goblins und verschiedene Monster.
 
@@ -15,7 +15,7 @@ Zu Anfang des Spiels musst du dir eine Rasse aussuchen, die du fortan spielen wi
 Diese Rasse wird bei der Anmeldung angegeben und kann danach nicht mehr geändert werden.
 Die Auswahl sollte also gut überdacht werden.
 
-Einen schnellen Überblick gibt es in der [Tabelle rassenspezifischer Vor- und Nachteile][Boni bzw. Mali].
+Einen schnellen Überblick gibt es in der [Tabelle rassenspezifischer Vor- und Nachteile][talentmodifikatoren].
 
 ## Dämonen
 
@@ -37,7 +37,7 @@ Sie fressen die Bauern der Umgebung und überraschen immer wieder mit neuen Fäh
 
 Elfen sind ein geradezu magisches Volk. Schwere Arbeiten sind nicht unbedingt ihre Stärke, dafür umso mehr die Magie der Natur und des Verborgenen, sowie ihre Bogenschützen.
 
-- Jeder Elf in der Region (bis zu maximal 1/8 der [Regionskapazität] für Bauern, das entspricht z.B. bis zu 250 Elfen in einem Sumpf) erhöht die Chance eines Baums, in einer Sommer- oder Herbstwoche einen Samen abzuwerfen. Das kann je nach Anzahl der Elfen einen ganz deutlichen Unterschied ausmachen.
+- Jeder Elf in der Region (bis zu maximal 1/8 der [Regionskapazität][welt] für Bauern, das entspricht z.B. bis zu 250 Elfen in einem Sumpf) erhöht die Chance eines Baums, in einer Sommer- oder Herbstwoche einen Samen abzuwerfen. Das kann je nach Anzahl der Elfen einen ganz deutlichen Unterschied ausmachen.
 - Elfen haben in Wäldern zusätzlich Tarnung und Wahrnehmung +1 und Taktik +2.
 - Elfen dürfen sechs (statt fünf) [Magier][magie-de-id] besitzen.
 - Elfenmagier regenerieren Aura 25% schneller
@@ -76,9 +76,9 @@ Insekten sind nicht sehr geeignet für unerfahrene Eressea-Spieler!
 
 - Insekten mögen Wärme und Feuchtigkeit und hassen die Kälte: In Wüsten und Sümpfen haben sie +1 auf alle Talente, in denen sie wenigstens Talent 1 haben, in Gebirgen und Gletschern -1.
 - Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger-de-id].
-- Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie] ein [Trank] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
+- Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie][alchemie-id] ein [Trank][trank-id] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
 - Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier][rasseneigenschaften]).
-- Insekten bekommen einen [Taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [[bef-gruppe|Gruppen]] in der Regel in verschiedenen Heeren!
+- Insekten bekommen einen [Taktik][taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [[bef-gruppe|Gruppen]] in der Regel in verschiedenen Heeren!
 - Insekten können in Wüsten und Sümpfen auch ohne Burgen [handeln][handel].
 
 ## Katzen
@@ -94,14 +94,14 @@ Die Katzen zählen kaum zu den Handwerkern. Ihre feinen Sinne und ihre Geschmeid
 Meermenschen sind im Wasser zu Hause, im Gebirge fühlen sie sich dagegen unwohl. Schiffe bauen und bedienen sie so leicht, als seien es Bauklötzchen, während ihnen andere Arbeiten nicht ganz so leicht fallen.
 
 - Alle Schiffe mit Meermenschen-Kapitän einer Meermenschen-Partei können sich ein Feld weiter [bewegen][reisen].
-- Meermenschen können auch auf Schiffen [lange Befehle] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen][anschwimmen].
+- Meermenschen können auch auf Schiffen [lange Befehle][befehl] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen][anschwimmen].
 - Bis zu 100 Meermenschen pro Ozeanfeld können auf hoher See mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen.
 
 ## Menschen
 
 Menschen können alles ein bisschen, nichts so richtig schlecht aber auch nichts so richtig gut. Deshalb können sie die Schwächen ihrer Verbündeten oft ausgleichen und sind überall zu finden.
 
-- Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [[bef-gib|geben lassen]]. Es gibt keine Migranten mit [teuren Talenten], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
+- Eine Menschenpartei kann einige Personen anderer Rassen haben, so genannte *Migranten*. Ein Mischen von verschiedenen Rassen in einer Einheit ist aber nicht möglich. Diese Personen kann die Partei nicht selber rekrutieren, sondern muss sie sich von anderen Parteien der entsprechenden Rassen [[bef-gib|geben lassen]]. Es gibt keine Migranten mit [teuren Talenten][talente], also Magie, Alchemie, Kräuterkunde, Spionage und Taktik.
 
 Die Anzahl der Migranten errechnet sich als:
 
@@ -159,20 +159,12 @@ Ihre Schmiedekünste sind viel gerühmt, ihre Bauten weltbekannt.
 Magie ist ihnen ein Gräuel, Pferde nicht ganz geheuer und auch das Wasser ist nicht gerade ihr Element.
 
 - Von Zwergen abgebautes Eisen wird nur zu 60% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem Bergwerk (siehe [hier][bergwerk] und [hier][vom-bergbau]).
-- Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik].
+- Zwerge haben im Gebirge in Gletschern und in Eisbergen +1 auf [Taktik][taktik].
 - [Zwergenmagier][magie-de-id] regenerieren Aura 50% langsamer.
 
-Weiterlesen: [Talentmodifikatoren].
+Weiterlesen: [Talentmodifikatoren][talentmodifikatoren].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
-[Talentmodifikatoren]: ./skills-modifiers.md
-[Boni bzw. Mali]: ./skills-modifiers.md
-[Regionskapazität]: ./world.md
 [klauen]: ./cmd-steal.md
-[Alchemie]: ./skills-list.md
-[Trank]: ./alchemy.md
-[Taktik]: ./tactic.md
-[lange Befehle]: ./commands.md
-[teuren Talenten]: ./skills.md
 [Helden]: ./cmd-promote.md

@@ -3,7 +3,10 @@
 alias: andere-gebaeude
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #andere-gebaude-id }
+
 # Andere Gebäude
 
 Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: [[bef-mache|MACHE leuchtturm]] oder [[bef-mache|MACHE hafen]] xyz.
@@ -11,7 +14,7 @@ Für diese Gebäude ist ein Mindesttalentwert in Burgenbau erforderlich, der in 
 
 Hier zunächst eine zusammenfassende Tabelle, nähere Erklärungen folgen darunter.
 
-Gebäude; siehe auch Tabelle [Burgenbau]
+Gebäude; siehe auch Tabelle [Burgenbau][burgen].
 
 Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitieren können.
 
@@ -104,7 +107,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - Von Einheiten innerhalb des Sägewerks abgeholzte Bäume und Mallornbäume und Schösslinge werden nur zur Hälfte vom Regionsvorrat abgezogen.
 - Einheiten innerhalb eines Sägewerks fällen mit einem Talentbonus von +1.
 
-**Beispiel:** Mit [Wasser des Lebens] kann mit Hilfe eines Sägewerks Holz erzeugt werden: Mit [BENUTZE 1 Wasser des Lebens] werden unter Einsatz von 10 Holz 10 Schösslinge gepflanzt. Diese können dann abgeholzt werden, womit sich die Holzmenge auf 20 vergrößert hat.
+**Beispiel:** Mit [Wasser des Lebens][wasser-des-lebens] kann mit Hilfe eines Sägewerks Holz erzeugt werden: Mit [BENUTZE 1 Wasser des Lebens] werden unter Einsatz von 10 Holz 10 Schösslinge gepflanzt. Diese können dann abgeholzt werden, womit sich die Holzmenge auf 20 vergrößert hat.
 
 ## Schmiede
 
@@ -146,7 +149,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 - Schiffe größer als ein Boot können auch in Nichtebenen anlegen, wenn ein Hafen vorhanden ist.
 - Eine Region mit Hafen kann als "Kanalregion" genutzt werden, d.h. ein Schiff in dem Hafen kann in jede beliebige andere Richtung mit Ozean davon segeln.
-- Voraussetzung ist in beiden Fällen, dass der Hafeneigner dem Kapitän [HELFE BEWACHE] gesetzt hat oder der selben Partei angehört.
+- Voraussetzung ist in beiden Fällen, dass der Hafeneigner dem Kapitän [HELFE BEWACHE][bef-helfe] gesetzt hat oder der selben Partei angehört.
 - Der Eigentümer erhält 10% aller Handelseinnahmen, zusätzlich zu eventuellen Einnahmen durch Burgen.
 - Der Eigentümer erhält (2 \* Handeln)% aller Luxusgüter, die sich auf einlaufenden Schiffen befinden, es sei denn, die die Gegenstände tragende Einheit ist besser getarnt als die Wahrnehmung des Hafenmeisters (Schmuggel) oder der Schiffskapitän ist mit dem Hafenmeister alliiert.
 - In Regionen mit Hafen steigen die Preise für Luxusgüter mit einer Wahrscheinlichkeit von 20% (normalerweise 10%).
@@ -279,22 +282,13 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 ## Siehe auch
 
-- [Gebäude]
-- [Burgen]
+- [Gebäude][gebaude-id]
+- [Burgen][burgen]
 - [Produktion][produktion]
 
-Weiterlesen: [Parteipool].
-
-[Wasser des Lebens]: ./alchemy.md
-[Burgenbau]: ./castles.md
+Weiterlesen: [Parteipool][parteipool].
 
 [BENUTZE 1 Wasser des Lebens]: ./cmd-use.md
 [ZÜCHTE]: ./cmd-grow.md
-[HELFE BEWACHE]: ./cmd-help.md
 [ZERSTÖRE]: ./cmd-destroy.md
-
-[Gebäude]: ./buildings.md
-[Burgen]: ./castles.md
-[Parteipool]: ./faction-pool.md
-
 [MACHE gebäudetyp]: ./cmd-make.md

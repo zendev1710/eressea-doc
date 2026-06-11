@@ -42,7 +42,7 @@ Mit `GIB`*`einheit-nr`*`KRÄUTER` werden sämtliche Kräuter übergeben, welche 
 Gibt man explizit den Befehl `GIB`*`einheit-nr`*`ALLE PERSONEN`, so werden alle Personen übergeben und die Einheit aufgelöst.
 
 !!! warning "Achtung"
-    Alle Gegenstände und Silber, die mit `GIB` übergeben wurden, sind automatisch reserviert und können auch vom Materialpool nicht mehr weiter gegeben werden! Auch `GIB` benutzt den [Materialpool], ausgenommen im Kontext von GIB ALLES, wo die Einheit nur eigene, nicht reservierte Gegenstände gibt.
+    Alle Gegenstände und Silber, die mit `GIB` übergeben wurden, sind automatisch reserviert und können auch vom Materialpool nicht mehr weiter gegeben werden! Auch `GIB` benutzt den [Materialpool][materialpool], ausgenommen im Kontext von GIB ALLES, wo die Einheit nur eigene, nicht reservierte Gegenstände gibt.
 
 Die Variante `GIB xyz JE` übergibt *anzahl* Gegenstände pro Person der Zieleinheit.
 Hat die Einheit xyz also zum Beispiel 10 Personen, so übergibt `GIB xyz JE 20 Silber` ihr 200 Silber.
@@ -87,7 +87,7 @@ ENDE
 ## Personen und Einheiten
 
 Will man Personen verschiedener Einheiten zusammenführen, so geschieht dies mit `GIB`*`einheit-nr`*`anzahl PERSONEN`.
-Dabei werden dann auch die [Talente] vermischt, und man sollte die Gegenstände nicht vergessen, da sie evtl.
+Dabei werden dann auch die [Talente][talente] vermischt, und man sollte die Gegenstände nicht vergessen, da sie evtl.
 den Bauern zufallen, wenn die Einheit keine Personen mehr hat.
 
 Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches HELFE GIB nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN.
@@ -128,14 +128,11 @@ Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küst
 ## Siehe auch
 
 - [[bef-reserviere]]
-- [Materialpool]
+- [Materialpool][materialpool]
 - [Schiff][schiff]
-- [Gebäude]
+- [Gebäude][gebaude-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 
 [bef-kontaktiere]: ./cmd-contact.md
-[Materialpool]: ./items-pool.md
-[Talente]: ./skills.md
 [bef-reserviere]: ./cmd-reserve.md
-[Gebäude]: ./buildings.md

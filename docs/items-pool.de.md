@@ -14,12 +14,12 @@ Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei 
 Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen.
 Dies ist nur, um zu vermeiden, dass es vergessen wird.
 
-Ebenso werden [Gebäude] aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist.
+Ebenso werden [Gebäude][gebaude-id] aus dem Pool versorgt, sofern das Silber am Rundenanfang in der Region vorhanden ist.
 Kann die Einheit, der das Gebäude gehört, dieses nicht aus eigener Tasche oder aus dem Pool bezahlen, kann das Gebäude nicht funktionieren.
 Am Ende der Runde wird die Einheit erneut versuchen, aus den eigenen Silbervorräten oder aus dem Pool der eigenen Partei das Gebäude zu bezahlen.
 
 TEMP-Einheiten können nicht reservieren.
-Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [[bef-gib]] übergeben bekommen.
+Sie bestreiten die Rekrutierungskosten aus dem Silberpool, sofern notwendig, sollten aber Silber und Gegenstände, welche sie in eine andere Region mitnehmen oder sofort verarbeiten sollen, mit [GIB][bef-gib] übergeben bekommen.
 Vorsicht: wenn TEMP-Einheiten Silber bekommen, benutzen sie dieses auch zum Rekrutieren! Sollen sie also Silber in eine andere Region mitnehmen, muss das Rekrutierungssilber zusätzlich übergeben werden.
 
 Für den Unterhalt von Einheiten gelten besondere Regeln: hier wird alles Silber der Region benutzt, ohne Rücksicht auf vorherige Reservierungen.
@@ -33,7 +33,7 @@ Die Pools gelten nur für die eigene Partei.
 Fremden Einheiten müssen Gegenstände explizit übergeben werden.
 
 !!! warning "Achtung"
-    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[bef-mache]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[bef-reserviere]], [[bef-gib]], [[bef-benutze]], [[bef-zaubere]], [[bef-rekrutiere]].  
+    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[bef-mache]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[bef-reserviere]], [GIB][bef-gib], [[bef-benutze]], [[bef-zaubere]], [[bef-rekrutiere]].  
     Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren.  
     Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.  
 
@@ -66,7 +66,7 @@ LERNE Tarnung
 
 ## RESERVIERE und GIB
 
-Bei [[bef-reserviere]] und [[bef-gib]], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten.
+Bei [[bef-reserviere]] und [GIB][bef-gib], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge][befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten.
 Diese gelten für den Silber- und den Materialpool gleichermaßen:
 
 Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung.
@@ -186,18 +186,15 @@ Nun ist der Silber- und der Materialpool für alle Parteien automatisch aktiv un
 
 ## Siehe auch
 
-- [[bef-gib]]
+- [GIB][bef-gib]
 - [[bef-reserviere]]
-- [Befehlsreihenfolge]
+- [Befehlsreihenfolge][befehlsreihenfolge]
 
 Weiterlesen: [Krieg][krieg].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[Gebäude]: ./buildings.md
-[bef-gib]: ./cmd-give.md
 [bef-mache]: ./cmd-make.md
 [bef-reserviere]: ./cmd-reserve.md
 [bef-benutze]: ./cmd-use.md
 [bef-zaubere]: ./cmd-cast.md
-[Befehlsreihenfolge]: ./commands-sequence.md

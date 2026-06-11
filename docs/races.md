@@ -6,11 +6,11 @@ alias: races
 <!-- markdownlint-disable MD042 MD052 -->
 # Races
 
-As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties] in certain skills, and sometimes special abilities; each race has different [recruitment costs][bonuses and penalties]. As a general rule, a person weighs 10 weight units (WU or lbs) and can carry 5.4 WU/lbs. Trolls, goblins and various monsters are exceptions.
+As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties][skills-modifiers] in certain skills, and sometimes special abilities; each race has different [recruitment costs][skills-modifiers]. As a general rule, a person weighs 10 weight units (WU or lbs) and can carry 5.4 WU/lbs. Trolls, goblins and various monsters are exceptions.
 
 At the start of the game, you must choose the race you want to play. This race is chosen when you register and cannot be changed afterwards. So think carefully before making your choice.
 
-For a quick overview, see the [table of racial modifiers][bonuses and penalties].
+For a quick overview, see the [table of racial modifiers][skills-modifiers].
 
 [](){ #demons-id }
 
@@ -32,9 +32,9 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 
 The magical people of the faery kingdom aren't built for heavy labor, but they have a knack for nature as well as hidden things, and their archers are almost as feared as their magicians.
 
-- Green Thumb: Each elf (up to 1/8 of the [region's maximum] working population, e.g. 250 in a swamp) increases the chance of a tree (including mallorn trees) to drop a seed in a summer or autumn week. This can make quite a difference depending on the number of elves.
+- Green Thumb: Each elf (up to 1/8 of the [region's maximum][world] working population, e.g. 250 in a swamp) increases the chance of a tree (including mallorn trees) to drop a seed in a summer or autumn week. This can make quite a difference depending on the number of elves.
 - Forest Dwellers: In forest regions, elves have a skill bonus of +1 to stealth and perception, and +2 to tactics.
-- Magicians: Elf factions can have 1 additional [magician], allowing them to have a maximum of 6.
+- Magicians: Elf factions can have 1 additional [mages][magic-id], allowing them to have a maximum of 6.
 - Elf magicians regenerate aura 25% faster.
 - Expert Archers: Elves cause 1 additional damage point when using bows.
 - Only elves can build [elven bows][weapons-summary-table].
@@ -47,7 +47,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 
 - Overpowering: When their numbers are ten times those of the opponent, goblins get a +1 attack bonus.
 - Midget: Goblins weigh only 6 WU/lbs, but they can carry only 4.4 WU/lbs.
-- Master Thieves: Goblins with level 4 or higher in stealth will always [steal] at least 50 silver, even if they were discovered.
+- Master Thieves: Goblins with level 4 or higher in stealth will always [steal][stealth-id] at least 50 silver, even if they were discovered.
 - Unarmed Defense: Unarmed goblins do not get the usual -2 penalty on defense.
 - Stubborn: A wounded goblin will regenerate 10% of their hit points.
 
@@ -67,9 +67,9 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 
 - Cold Blooded: In deserts and swamps, insects get +1 on all skills they still have at least at 1, in mountains and glaciers they get -1.
 - Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation] rule.
-- Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists] can [produce][make-potions-id] a [potion of nest warmth][potion-of-nest-warmth] that makes recruitment in other terrains possible.
+- Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists][skill-alchemy-id] can [produce][make-potions-id] a [potion of nest warmth][potion-of-nest-warmth] that makes recruitment in other terrains possible.
 - Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
-- Tacticians: Insects get a bonus on the [tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
+- Tacticians: Insects get a bonus on the [tactics][tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
 - Nomad Traders: Insects can [trade][silver-trade-id  in deserts and swamps without needing castles.
 
 ## Cats
@@ -85,14 +85,14 @@ Known for their enhanced senses, the cat people are excellent spies and master g
 Aquarians are at home in the water, but they feel uncomfortable in the mountains. They build and drive ships as easily as they were building blocks, while other tasks do not come to them so naturally.
 
 - Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move][movement] by 1 extra region per week.
-- Sea dwellers: Aquarians can issue [long orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming][swimming].
+- Sea dwellers: Aquarians can issue [long orders][orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming][swimming].
 - Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
 
 ## Humans
 
 Humans can do a bit of everything. They don't have any really bad skills, but they don't really excel at anything either. They can therefore make up for the weaknesses of their allies, even though they have no specialization.
 
-- Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [[cmd-give|get them]] from other factions. There are no migrants with [expensive skills] like magic, alchemy, herbalism, espionage, or tactics.
+- Migrants: Human factions are the only ones who are allowed to have people of another race in their ranks, although mixing different races in one unit is not possible. However they cannot recruit these themselves, but must [[cmd-give|get them]] from other factions. There are no migrants with [expensive skills][skills] like magic, alchemy, herbalism, espionage, or tactics.
 
 The number of migrants is calculated as the following:
 
@@ -150,23 +150,15 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal skepticism, and their sailing skills are among the worst in the world.
 
 - Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine][mine-id] and [mining][about-mining]).
-- Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics] skill.
-- Dwarves [mages][magician] regenerate aura 50% slower.
+- Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics][tactics] skill.
+- Dwarves [mages][magic-id] regenerate aura 50% slower.
 
-Continue reading: [Racial skill modifiers].
-
-[Racial skill modifiers]: ./skills-modifiers.md
+Continue reading: [skills-modifiers].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
-[bonuses and penalties]: ./skills-modifiers.md
 [change their appearance]: ./cmd-hide.md
-[region's maximum]: ./world.md
-[magician]: ./magic.md
-[steal]: ./stealth.md
-[alchemists]: ./skills-list.md
-[tactics]: ./tactic.md
 [groups]: ./cmd-group.md
-[long orders]: ./commands.md
-[expensive skills]: ./skills.md
 [heroes]: ./cmd-promote.md
+
+[skills-modifiers]: [[skills-modifiers]]

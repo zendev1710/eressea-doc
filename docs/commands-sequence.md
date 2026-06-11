@@ -74,7 +74,7 @@ Here the orders sequence is: The new unit is first created, no longer joins comb
 
 Orders of the same rank from different units are normally processed in the sequence in which they appear in the report.  
 For example, first all GIVE orders of the first unit, then all `GIVE` orders of the second unit, then all `RECRUIT` orders of the first unit, then the second and so on.  
-The [item pool] also usually works in this way: units higher up in the region are first "asked" if the can share a certain item.  
+The [items pool][items-pool] also usually works in this way: units higher up in the region are first "asked" if the can share a certain item.  
 However, this sequence can be changed by certain orders.  
 These include `ENTER, LEAVE, MAKE TEMP, GIVE CONTROL` and `GIVE SHIP`.  
 The exact behavior is not guaranteed! Therefore, if in doubt, give orders in such a way that the unit sequence does not matter.  
@@ -98,14 +98,13 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 
 Continue reading: [Short Description].
 
-[Short Description]: ./commands-list.md  
-
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 
 [MAKE TEMP]: ./cmd-make.md
 [GUARD NOT]: ./cmd-guard.md
 [GIVE CONTROL]: ./cmd-give.md
 [PAY NOT]: ./cmd-pay-not.md
-[item pool]: ./items-pool.md
+
+[Short Description]: ./commands-list.md
 [orders]: ./commands.md
 [short description DE/EN]: ./commands-list.md

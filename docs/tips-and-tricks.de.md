@@ -79,7 +79,7 @@ setzen; die leere Einheit übergibt brav das Kommando an die richtige Einheit un
 
 ## Warum kann mein Schiff nicht fahren, obwohl es nicht überladen ist
 
-Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablegen konnte. Beim genaueren Nachsehen stellt sich aber heraus, dass das Schiff gar nicht überladen ist. Dies ist trotzdem meist kein Bug, sondern liegt daran, dass die überschüssige Ladung in Form von Silber aufgegessen wurde. Da NACH vor dem Einheitenunterhalt in der [Befehlsreihenfolge] steht, war das Schiff bei der Bewegung noch überladen. Manchmal wird der Fehler auch durch Einheiten verursacht, die ARBEITEN. Im Report scheint alles okay, aber die Einheit überlädt das Schiff durch Silber, das sie nach der Bewegungsphase selber wieder aufisst.
+Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablegen konnte. Beim genaueren Nachsehen stellt sich aber heraus, dass das Schiff gar nicht überladen ist. Dies ist trotzdem meist kein Bug, sondern liegt daran, dass die überschüssige Ladung in Form von Silber aufgegessen wurde. Da NACH vor dem Einheitenunterhalt in der [Befehlsreihenfolge][befehlsreihenfolge] steht, war das Schiff bei der Bewegung noch überladen. Manchmal wird der Fehler auch durch Einheiten verursacht, die ARBEITEN. Im Report scheint alles okay, aber die Einheit überlädt das Schiff durch Silber, das sie nach der Bewegungsphase selber wieder aufisst.
 
 ## Siehe auch
 
@@ -91,5 +91,4 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 [Bauernvermehrung]: ./farmers-proliferation.md
 [bef-reserviere]: ./cmd-reserve.md
 [bef-sortiere]: ./cmd-sort.md
-[Befehlsreihenfolge]: ./commands-sequence.md
 [Hinweise]: ./hints.md

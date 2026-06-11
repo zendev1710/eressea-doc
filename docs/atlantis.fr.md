@@ -2,6 +2,11 @@
 # cSpell:locale fr
 alias: atlantis-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #atlantis-fr-id }
+
 # Atlantis
 
 Atlantis **est l'ancêtre d'Eressea.**

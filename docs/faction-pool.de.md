@@ -14,21 +14,14 @@ Einige Gegenstände, die bisher im Parteipool abgelegt wurden:
 
 - [Adamantium][adamantium-de-id] (in Runde 574)
 - [Adamantiumrüstung][adamantiumrustung] (in Runde 574)
-- [Geburtstagstorte] (in Runde 487, 20. August 2006, 10 Jahre Eressea)
-- [Sonnensegel] (in Runde 407, Weihnachten 2004)
-- [Sternenstaub] (in Runde 454, Weihnachten 2005)
-- [Weihnachtsbaum] (in Runde 503, Weihnachten 2006)
-- [Muschel] (erhalten Völker, die erstmalig Muschelplateau erreichen, 11. Dezember 2005)
+- [Geburtstagstorte][geburtstagstorte] (in Runde 487, 20. August 2006, 10 Jahre Eressea)
+- [Sonnensegel][sonnensegel] (in Runde 407, Weihnachten 2004)
+- [Sternenstaub][sternenstaub] (in Runde 454, Weihnachten 2005)
+- [Weihnachtsbaum][weihnachtsbaum] (in Runde 503, Weihnachten 2006)
+- [Muschel][muschel] (erhalten Völker, die erstmalig Muschelplateau erreichen, 11. Dezember 2005)
 
-Nicht zu verwechseln ist der Parteipool mit dem [Materialpool] und dem [Silberpool][der-silberpool], die virtuell alle Einheitsgegenstände bzw. Silber einer Partei in einer Region enthalten.
+Nicht zu verwechseln ist der Parteipool mit dem [Materialpool][materialpool] und dem [Silberpool][der-silberpool], die virtuell alle Einheitsgegenstände bzw. Silber einer Partei in einer Region enthalten.
 
 Weiterlesen: [Geld][geld].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
-
-[Geburtstagstorte]: ./birthday-cake.md
-[Sonnensegel]: ./solar-sail.md
-[Sternenstaub]: ./stardust.md
-[Weihnachtsbaum]: ./christmas-tree.md
-[Muschel]: ./shell.md
-[Materialpool]: ./items-pool.md

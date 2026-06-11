@@ -32,7 +32,7 @@ Units of a faction help each other with silver when staying in the same region, 
 Units that move must be supplied where they arrive. Silver, which was previously [reserved], is also used for unit maintenance.
 Without enough silver, people will starve (see below).
 
-Some buildings also require a weekly maintenance cost in order to function. These maintenance costs are incurred at the start of the round, i.e. they must be collected in the preliminary round and are due as soon as the building has been started (i.e. even for half-finished buildings). If there is not enough silver available, the function of the building cannot be used. More details can be found in the chapter on [buildings].
+Some buildings also require a weekly maintenance cost in order to function. These maintenance costs are incurred at the start of the round, i.e. they must be collected in the preliminary round and are due as soon as the building has been started (i.e. even for half-finished buildings). If there is not enough silver available, the function of the building cannot be used. More details can be found in the chapter on [buildings][buildings].
 
 ## Starvation
 
@@ -123,9 +123,9 @@ Entertainment is prevented by guarding only for entertaining units on ships.
 
 In addition to the honest ways of earning money, there is also the dishonest variant: theft. Units that with stealth can attempt to steal silver from other units using the [[cmd-steal]] order.
 
-If the [stealth skill] of the stealing unit is higher than the [perception][skill-perception-id] of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.
+If the [stealth skill][skill-stealth-id] of the stealing unit is higher than the [perception][skill-perception-id] of the best unit in the region of the faction they are stealing from, they earn 50 silver per skill level difference.
 
-It is also worth reading the chapter on [stealth][stealth skill] about this topic.
+It is also worth reading the chapter on [stealth][stealth-id] about this topic.
 
 [](){ #silver-trade-id }
 
@@ -145,7 +145,7 @@ It does not matter who controls the castle, the owner cannot directly prevent th
 However, they can indirectly prevent trading by simply attacking the trading units with their own armed units.
 
 The unit that owns the largest castle in the region receives a percentage of the proceeds of all sales by the other factions.
-This revenue share is deducted from the trader's income. If two castles in the region are the same size, no one receives this share. The amount of the "tax rate" can be found in the table in the [castles] chapter.
+This revenue share is deducted from the trader's income. If two castles in the region are the same size, no one receives this share. The amount of the "tax rate" can be found in the table in the [Castles][castles] chapter.
 
 Trade is prevented by guarding only for trading units on ships.
 
@@ -208,13 +208,11 @@ If all guarding factions have set [[cmd-help|`HELP GUARD`]] or [[cmd-help|`HELP 
 - [[cmd-give]]
 - [[cmd-reserve]][reserved]
 - [[cmd-recruit]]
-- [Item pool]
-- [Stealth][stealth skill]
+- [Items pool][items-pool]
+- [Stealth][stealth-id]
 - [[cmd-guard]]
 
-Continue reading: [Material pool].
-
-[Material pool]: ./items-pool.md
+Continue reading: [Material pool][items-pool].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
@@ -222,8 +220,4 @@ Continue reading: [Material pool].
 [entertaining]: ./cmd-entertain.md
 [recruit]: ./cmd-recruit.md
 [reserved]: ./cmd-reserve.md
-[buildings]: ./buildings.md
 [`WORK`]: ./cmd-work.md
-[stealth skill]: ./stealth.md
-[castles]: ./castles.md
-[Item pool]: ./items-pool.md

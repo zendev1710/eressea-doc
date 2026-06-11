@@ -2,9 +2,11 @@
 # cSpell:locale de
 alias: befehle-von-magellan-verschicken
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Befehle von Magellan verschicken
 
-[Magellan] bietet die Möglichkeit des [E-Mail-Versands] der Befehle direkt aus dem Programm.
+[Magellan][magellan-de-id] bietet die Möglichkeit des [E-Mail-Versands][befehle-einschicken] der Befehle direkt aus dem Programm.
 Vorteil davon ist, dass es keine Fehler durch Kopieren in das E-Mail-Programm oder Webmailer gibt und diese keine automatischen Formatierung vornehmen, die der Eressea Server nicht versteht, zum Beispiel HTML-Formatierung, komische Zeilenumbrüche, automatische Banner oder eine seltsame Buchstabencodierung, insbesondere bei Umlauten.
 Um eine Kopie der gesendeten E-Mail zu haben, kann man sich die Befehle als Kopie an die eigene Adresse senden.
 Hierzu muss man in Magellan die entsprechenden Einstellungen vornehmen inklusive der korrekten Daten des SMTP-Servers des Mailanbieters.
@@ -105,8 +107,6 @@ title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Ein
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_von\_Magellan\_verschicken&oldid=7407] -->
 
-[Magellan]: ./magellan.md
-[E-Mail-Versands]: ./commands-send.md
 [https://hilfe.gmx.net/pop-imap/index.html]: https://hilfe.gmx.net/pop-imap/index.html
 [https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html]: https://hilfe.gmx.net/pop-imap/pop3/serverdaten.html
 [https://hilfe.gmx.net/pop-imap/einschalten.html]: https://hilfe.gmx.net/pop-imap/einschalten.html

@@ -10,7 +10,7 @@ Nur mit [Schiffen][schiff] kann man seine Insel verlassen und so z.B. neue Märk
 
 Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden][schiffsschaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
 
-Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [[bef-helfe]] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
+Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [HELFE][bef-helfe] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
 
 Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [[bef-folge]] oder [Piraterie][piraterie-de-id] ausführen.
 
@@ -45,19 +45,19 @@ Drachenschiffgeschwindigkeit
 
 Ist ein Schiff nicht mit genug Crew ausgerüstet, kann es nicht ablegen. Passiert dies auf See (z.B. durch einen Kampf oder Einheiten verhungerten wegen Silbermangel), treibt es steuerlos umher, bis es an eine Küstenregion trifft. Dabei nimmt es ständig [Schaden][schiffsschaden], so dass es nach kurzer Zeit versinken wird.
 
-Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
+Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können. Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben. Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren][waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
 Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen. Die Details hierzu sind im Kapitel über [Schiffe][schiff] beschrieben.
 
-Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [[bef-nach]] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
+Reguläre Personen, die sich auf einem Ozeanfeld befinden, können keine langen Befehle ausführen (Ausnahme sind die Meermenschen) - außer der Besitzereinheit natürlich, die das Schiff mit [NACH][bef-nach] oder [[bef-route]] steuert. Bis zu 100 Meermenschen können in einer Ozean-Region mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen. Trotzdem verbrauchen alle Einheiten auf dem Schiff den wöchentlichen Unterhalt, es sollte also stets genug Silber an Bord haben.
 
 Befindet sich das Schiff an Land, können alle Einheiten an Bord etwas tun; sie gehen sozusagen zur Arbeit an Land. Dies können sie auch noch dann, wenn das Schiff in derselben Runde ablegt. Zusätzlich zur normalen Wirkung von Bewachung können sie, wenn die Region von einer nicht-alliierten Partei bewacht wird, jedoch kein [Geld verdienen][geld] auch nicht mit Arbeiten, Unterhalten oder Handeln.
 
-Wollen Einheiten ein Schiff verlassen, so müssen sie dies erst mit [[bef-verlasse]] tun. Sofern die Region nicht von einer nicht-alliierten Partei bewacht wird, können die Einheiten sich dann mit NACH sofort bewegen, ansonsten erst in der kommenden Runde. Dies gilt natürlich genauso für [[bef-fahre]] und [[bef-transportiere]].
+Wollen Einheiten ein Schiff verlassen, so müssen sie dies erst mit [[bef-verlasse]] tun. Sofern die Region nicht von einer nicht-alliierten Partei bewacht wird, können die Einheiten sich dann mit NACH sofort bewegen, ansonsten erst in der kommenden Runde. Dies gilt natürlich genauso für [`FAHRE`][bef-fahre] und [[bef-transportiere]].
 
 ## Anschwimmen
 
-[Meermenschen][meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [[bef-nach]] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [[bef-transportiere|Transportieren]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
+[Meermenschen][meermenschen] können von einem Schiff, welches sich in einer Ozean-Regionen direkt neben Land-Regionen befindet, an Land schwimmen, nicht aber umgekehrt. Dies funktioniert wie die normale Bewegung mit [NACH][bef-nach] und nur dann, wenn die Einheit nicht überladen ist. Dabei können sie zwar Gegenstände mitnehmen, aber keine Pferde, selbst wenn die anschwimmende Einheit diese normalerweise tragen könnte. Auch [[bef-transportiere|Transportieren]] von Personen anderer Rassen ist so nicht möglich, Meermenschen können sich aber gegenseitig transportieren. Diese Bewegung findet vor der Bewegung von Schiffen statt, ein Schiff kann also Einheiten absetzen und dann weiterfahren. [[bef-verlasse]] ist beim Anschwimmen nicht notwendig, beziehungsweise sogar ein Fehler.
 
 ## Schiffsschaden
 
@@ -97,14 +97,9 @@ Weiterlesen: [Produktion][produktion].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
-[bef-helfe]: ./cmd-help.md
 [bef-folge]: ./cmd-follow.md
-[bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 [bef-arbeite]: ./cmd-work.md
 [bef-verlasse]: ./cmd-leave.md
-[bef-fahre]: ./cmd-ride.md
 [bef-transportiere]: ./cmd-carry.md
 [1]: ./cmd-make.md
-
-[Waren]: ./items.md

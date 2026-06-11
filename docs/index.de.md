@@ -27,9 +27,9 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 
 ## Sehenswerte Seiten
 
-- [Befehlsreihenfolge] – die wichtigste Seite der Regeln
-- [Taktik] – Wieviele Taktiker brauche ich für welchen Bonus?
-- [Vertraute] – alle Informationen rund um diese magischen Wesen
+- [Befehlsreihenfolge][befehlsreihenfolge] – die wichtigste Seite der Regeln
+- [Taktik][taktik] – Wieviele Taktiker brauche ich für welchen Bonus?
+- [Vertraute][vertraute] – alle Informationen rund um diese magischen Wesen
 - [Entwicklung] von Tools oder toolbasierten Skripten
 - [Xontormia Express] mit [Archiv alter Ausgaben]
 - Archiv mit [Ankündigungen] von Regeländerungen
@@ -86,15 +86,13 @@ Weiterlesen: [[regeln]].
  <!-- from [https://wiki.eressea.de/index.php?title=Hauptseite&oldid=16132] -->
 
 [diesem wiki]: https://wiki.eressea.de/Hauptseite/de
+
 [Das dritte Zeitalter]: ./the-third-age.md
 [Spielerseiten]: ./player-pages.md
 [Du spielst zuviel Eressea, wenn...]: ./play-too-much-if.md
-[Taktik]: ./tactic.md
-[Vertraute]: ./familiars.md
 [Entwicklung]: ./development.md
 [Anfängertipps]: ./getting-started-tips.md
 [Geschichte von Eressea]: ./eressea-story.md
-[Befehlsreihenfolge]: ./commands-sequence.md
 
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"

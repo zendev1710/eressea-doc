@@ -20,21 +20,21 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 - [Registering for the game][registration]
 - [E-Announce]: mailing list for rules changes — IMPORTANT!
 - [Tools][what-you-need-to-play-eressea]
-- [Tips for beginners]
-- The [story of Eressea]
-- Eressea originates from [Atlantis]
-- [Frequently asked questions] to the game master.
+- [Tips for beginners][beginner-tips]
+- The [story of Eressea][history-of-eressea]
+- Eressea originates from [Atlantis][atlantis-id]
+- [Frequently asked questions][faq] to the game master.
 
 ## Noteworthy pages
 
-- [Orders sequence] - the most important rules page
-- [Tactics] - How many tacticians for which bonus
+- [Orders sequence][orders-sequence] - the most important rules page
+- [Tactics][tactics] - How many tacticians for which bonus
 - [Familiars][familiars] - All about those magical creatures
-- [Development] of tools or tool-based scripts
+- [Development][development] of tools or tool-based scripts
 - [Xontormia Express] - a gazette and its [archived issues]
 - Archive of [announcements] of rules changes
-- [Player pages]
-- [You play too much Eressea if ...]
+- [Player pages][player-pages]
+- [You play too much Eressea if ...][play-too-much-if]
 
 ## List of games
 
@@ -46,12 +46,12 @@ Since there were some rules changes in 2000, it is known as "The Second Age", or
 ### E3 (discontinued)
 
 On June 24th, 2009 the Third Age of Eressea started.  
-[The Third Age] is a new world with a lot of rules changes.  
+[The Third Age][the-third-age] is a new world with a lot of rules changes.  
 Less micro management and a clearer profile for races where the main design goals.  
 The game ended on August 11, 2019 after 517 turns.  
 
 - [An overview about race changes (in German)]
-- [List of rules changes compared to E2 (in German)]
+- [List of rules changes compared to E2 (in German)][the-third-age]
 - [Announcements from the e3-announce mailing list]
 
 #### Deveron (discontinued)
@@ -85,17 +85,6 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 Continue reading: [rules][rules].
 
 [Eressea]: ./cmd-eressea.md
-[Tips for beginners]: ./getting-started-tips.md
-[story of Eressea]: ./eressea-story.md
-[Atlantis]: ./atlantis.md
-[Frequently asked questions]: ./faq.md
-[Orders sequence]: ./commands-sequence.md
-[Tactics]: ./tactic.md
-[Development]: ./development.md
-[Player pages]: ./player-pages.md
-[You play too much Eressea if ...]: ./play-too-much-if.md
-[The Third Age]: ./the-third-age.md
-[List of rules changes compared to E2 (in German)]: ./the-third-age.md
 
 [Discord]: https://discord.gg/KT5Fffh
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/

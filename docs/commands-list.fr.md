@@ -143,7 +143,7 @@ Plus d'information : [[ordres]].
 | [SHOW "&lt;item&gt;"]                                                      | Affiche la description d'un sort                     | C      |
 | [SHOW ALL POTIONS]                                                         | Affiche la description de toutes les potions connues | C      |
 | [SHOW ALL SPELLS]                                                          | Affiche la description de tous les sorts connus      | C      |
-| [SORT AFTER &lt;unit id&gt;]                           "                    |                                                      | C      |
+| [SORT AFTER &lt;unit id&gt;]                           "                   |                                                      | C      |
 | [SORT BEFORE &lt;unit id&gt;]                                              | Tri l'unité dans le rapport                          | C      |
 | [SPY &lt;unit id&gt;]                                                      | Espionne une unité                                   | L      |
 | [STEAL &lt;unit id&gt;][discretion]{title="Stealth"}                       | Vole 50 silver ou plus                               | L      |

@@ -28,10 +28,9 @@ Dabei stehen in verschiedenen Regionen unterschiedlich viele Arbeitsplätze zur 
 | Wald      |            10000 |       1250 |              200 |
 | Vulkan    |              500 |         63 |               50 |
 
-Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [[bef-bewache]], [[bef-helfe]] und [[bef-unterhalte]]).
+Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [[bef-bewache]], [HELFE][bef-helfe] und [[bef-unterhalte]]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714] -->
 
 [bef-bewache]: ./cmd-guard.md
-[bef-helfe]: ./cmd-help.md
 [bef-unterhalte]: ./cmd-entertain.md

@@ -21,7 +21,7 @@ Ist die Wahrnehmung der Opfer sogar höher als die Tarnung der Täter, werden di
     Diebe klauen immer aus dem [Silberpool][der-silberpool].  
     Dadurch kann auch Silber von anderen Einheiten geklaut werden, die nicht direkt Ziel der Diebe waren.
 
-In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
+In den ersten Wochen ist deine Partei [immun][welpenschutz] gegen Diebstahl.
 
 ## Siehe auch
 
@@ -29,5 +29,3 @@ In den ersten Wochen ist deine Partei [immun] gegen Diebstahl.
 - [Tarnung und Wahrnehmung][tarnung-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEKLAUE&oldid=16749] -->
-
-[immun]: ./puppy-protection.md

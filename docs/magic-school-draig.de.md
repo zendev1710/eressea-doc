@@ -99,7 +99,7 @@ alias: draigzauber
 ### Erschaffe ein [Amulett des wahren Sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
-    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit] geschützt sind, zu sehen.  
+    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit] geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
 |               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |
@@ -214,7 +214,7 @@ alias: draigzauber
 
 `KAMPFZAUBER [STUFE n] 'Astrales Chaos'`  
 
-### Erschaffe einen [Ring der Macht]
+### Erschaffe einen [Ring der Macht][ring-der-macht]
 
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
@@ -302,7 +302,7 @@ alias: draigzauber
 
 `ZAUBERE [STUFE n] 'Beschwöre Schattenmeister'`  
 
-### Erschaffe ein [Flammenschwert]
+### Erschaffe ein [Flammenschwert][flammenschwert]
 
 :   'Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.  
     Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der ihren senden, das Schwert mit seiner Macht zu beseelen...'  
@@ -352,6 +352,3 @@ alias: draigzauber
 <!-- From [https://wiki.eressea.de/index.php?title=Draigzauber&oldid=6510] -->
 
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
-[Ring der Macht]: ./ring-of-power.md
-[Flammenschwert]: ./flaming-sword.md
-[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md

@@ -17,7 +17,7 @@
 5. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#installation): `pip install mkdocs-material`
 6. Install other needed MkDocs plugins:
    1. [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/getting-started/installation/): `pip install mkdocs-static-i18n[material]`
-   2. [mkdocs-alias-plugin](https://github.com/EddyLuten/mkdocs-alias-plugin?tab=readme-ov-file#installation): `pip install mkdocs-alias-plugin`
+   2. [mkdocs-alias-plugin](https://codeberg.org/luten/mkdocs-alias-plugin#installation): `pip install mkdocs-alias-plugin`
    3. [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects) (optional): `pip install mkdocs-redirects`
    4. [mkdocs-table-reader](https://github.com/timvink/mkdocs-table-reader-plugin): `pip install mkdocs-table-reader-plugin`
    5. [mkdocs-autorefs](https://github.com/mkdocstrings/autorefs): `pip install mkdocs-autorefs`
@@ -46,3 +46,23 @@ For an auto-reload much faster: `mkdocs serve --dirtyreload`.
 
 - site content is updated on the `gh-deploy` repository branch
 - Updated branch is deployed on <https://zendev1710.github.io/eressea-doc/>, which should be then updated
+
+## Python useful commands
+
+### list of packages installed versions
+
+`pip list`
+
+Results :
+
+```console
+...
+mkdocs                     1.6.1
+mkdocs-alias-plugin        0.10.1
+mkdocs-get-deps            0.2.0
+mkdocs-material            9.7.1
+mkdocs-material-extensions 1.3.1
+mkdocs-redirects           1.2.2
+mkdocs-static-i18n         1.3.0
+...
+```

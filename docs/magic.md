@@ -3,7 +3,10 @@
 alias: magic
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #magic-id }
+
 # Magic
 
 Magic is a mystical and powerful way to change and create things and can weaken the enemy or strengthen allies in [[war]].

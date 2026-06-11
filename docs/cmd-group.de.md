@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: bef-gruppe
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # GRUPPE
 
 **`GRUPPE`**`["`*`name`*`"]`  
 
-Mit dem Befehl `GRUPPE` kann man die Partei in Untergruppen zerteilen, die einen andere [[bef-helfe]]-Status haben als der Rest der Partei.  
+Mit dem Befehl `GRUPPE` kann man die Partei in Untergruppen zerteilen, die einen andere [HELFE][bef-helfe]-Status haben als der Rest der Partei.  
 Dadurch kann man z.B. ein Söldnerheer aufstellen, das auf der Insel des Auftragsgebers ihm hilft, während der Rest der Partei es nicht tut.  
 
 Ebenso kann man für Teilnehmer eines Turnieres alle `HELFE KÄMPFE` Zuordnungen auflösen, damit man nicht in einen Zweikampf eingreift.  
@@ -33,5 +35,4 @@ In einem Kampf wird aus jeder Gruppe ein getrenntes Heer, so wie es auch schon p
 
 <!-- From [https://wiki.eressea.de/index.php?title=GRUPPE&oldid=6657] -->
 
-[bef-helfe]: ./cmd-help.md
 [PRÄFIX]: ./cmd-prefix.md

@@ -21,7 +21,7 @@ Mehr dazu auch im Kapitel [Produktion][produktion].
 
 ## Gegenstände
 
-[Gegenstände] und [Rohstoffe][rohstoffe] werden mit `MACHE [`*`anzahl`*`]`*`gegenstand`*` ` hergestellt.
+[Gegenstände][waren] und [Rohstoffe][rohstoffe] werden mit `MACHE [`*`anzahl`*`]`*`gegenstand`*` ` hergestellt.
 Je nach Gegenstand wird ein bestimmtes Talent und vielleicht auch noch bestimmte Rohstoffe benötigt.
 Ohne Angabe von *anzahl* wird die Einheit so viele Gegenstände produzieren, wie Personen, Talent und evtl.
 Rohstoffe es ihr ermöglichen.
@@ -29,12 +29,12 @@ Rohstoffe es ihr ermöglichen.
 ### Tränke
 
 Das Herstellen eines Trankes ist sehr aufwendig und kann nur von besonders talentierten Alchemisten durchgeführt werden.
-Details dazu findest du im [Alchemie-Kapitel].
+Details dazu findest du im [Alchemie-Kapitel][alchemie-id].
 
 ### Kräuter
 
-Kräuter werden mit dem Befehl `MACHE KRÄUTER` von Einheiten mit dem Talent [Kräuterkunde] hergestellt.
-Details dazu im Kapitel über [Kräuter].
+Kräuter werden mit dem Befehl `MACHE KRÄUTER` von Einheiten mit dem Talent [Kräuterkunde][skill-krauterkunde-id] hergestellt.
+Details dazu im Kapitel über [Kräuter][krauter-id].
 
 ## Einheiten
 
@@ -90,7 +90,7 @@ EINHEIT 17;       Kämpfer [15,700$]
 
 ## Gebäude
 
-Um ein neues Gebäude zu errichten, verwendest du *`MACHE`*`[`*`stufen`*`]`*`Gebäudetyp`* (siehe [Gebäude]).
+Um ein neues Gebäude zu errichten, verwendest du *`MACHE`*`[`*`stufen`*`]`*`Gebäudetyp`* (siehe [Gebäude][gebaude-id]).
 Willst du an einem Gebäude weiterbauen, so lautet der Befehl dafür *`MACHE`*`[`*`stufen`*`]`*`Gebäudetyp`*` `*`gebäude-nr`*.
 Der *Gebäudetyp* kann beim Weiterbauen auch durch BURG ersetzt werden, auch wenn es sich um ein anderes Gebäude handelt.
 Burgen und viele andere Gebäude können beliebig ausgebaut werden.
@@ -114,10 +114,10 @@ Sowohl bei Gebäuden als auch bei Schiffen kannst du mit *stufen* angeben, wie v
 ## Straßen
 
 Um in einer Region das Durchreisen durch Straßen und Brücken zu erleichtern, verwendest du `MACHE STRASSE`*`richtung`*.
-Um [Straßen][strassen-id] zu bauen, braucht die Einheit das Talent [Straßenbau][straenbau] und [Steine][Gegenstände].
+Um [Straßen][strassen-id] zu bauen, braucht die Einheit das Talent [Straßenbau][straenbau] und [Steine][stein].
 In Gletschern benötigt sie dazu vorher einen [Tunnel][tunnel-de-id], in Wüsten eine [Karawanserei][karawanserei] und in Sümpfen einen [Damm][damm].
 Pro Talentpunkt Straßenbau wird ein Stein verbaut.
-Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten].
+Für jede gewünschte Richtung werden zwischen 50 und 250 Steine benötigt, abhängig von den [Geländearten][gelandearten-id].
 Straßen funktionieren nur wenn sie vollständig sind.
 
 Spielererfahrung: Solthar Außer beim Neubau eines Gebäudes kannst du derzeit bei MACHE gebäudetyp xyz den Typ auch durch BURG oder jeden anderen Gebäudetyp ersetzen.
@@ -152,14 +152,6 @@ MACHE Gebäude xyz ; falsch: nur Burg oder Gebäudetyp erlaubt
 ## Siehe auch
 
 - [Produktion][produktion]
-- [Alchemie]
+- [Alchemie][alchemie-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MACHE&oldid=16728] -->
-
-[Gegenstände]: ./items.md
-[Alchemie-Kapitel]: ./skills-list.md
-[Kräuterkunde]: ./skills-list.md
-[Kräuter]: ./herbs.md
-[Gebäude]: ./buildings.md
-[Geländearten]: ./terrains.md
-[Alchemie]: ./alchemy.md

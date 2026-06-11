@@ -8,7 +8,7 @@ alias: tarnung
 
 # Tarnung
 
-Mit dem [Talent] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
+Mit dem [Talent][talente] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
 
 ## Gegenmaßnahmen
 
@@ -65,7 +65,6 @@ Weiterlesen: [Reisen][reisen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Talent]: ./skills.md
 [Bewacht]: ./cmd-guard.md
 [bef-beklaue]: ./cmd-steal.md
 [Kampfstatus]: ./cmd-combat.md

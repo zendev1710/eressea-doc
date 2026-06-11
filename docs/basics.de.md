@@ -64,7 +64,7 @@ UNTERHALTE kommt vorher, man kann sich damit ein Boot oder eine TRANSPORTierende
 
 ## Neue Einheiten
 
-Einheiten die Silber haben oder welches übergeben bekommen bedienen sich immer zuerst bei diesem Silber, bevor sie auf den [Materialpool] zugreifen.
+Einheiten die Silber haben oder welches übergeben bekommen bedienen sich immer zuerst bei diesem Silber, bevor sie auf den [Materialpool][materialpool] zugreifen.
 Wenn man eine neue Einheit erstellt, eine Katze rekrutiert (kostet 90 Silber) und diese in die Nachbarregion laufen (10 Silber Unterhalt) lässt um sie dort in der Folgewoche Unterhaltung lernen zu lassen (Weitere 10 Silber Unterhalt) um dann zu unterhalten (ab hier versorgt sie sich selbst) reicht es nicht, ihr 20 Silber für die Reisezeit und die Lernwoche zu übergeben, man muss ihr zusätzlich die 90 Silber für das eigene Rekrutieren übergeben.
 Ansonsten kommt die Einheit hungernd in der Nachbarregion an.
 
@@ -78,4 +78,3 @@ In der Regel reicht es nicht, eine Unterhalter-Einheit in den benachbarten Berg 
 
 [bewacht]: ./cmd-guard.md
 [attackiert]: ./cmd-attack.md
-[Materialpool]: ./items-pool.md

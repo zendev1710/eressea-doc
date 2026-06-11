@@ -57,8 +57,8 @@ Parfois, avec une petite astuce, on peut faire les deux en un seul tour : l’u
 
 ## Farmers as scouts
 
-Les [paysans nomades] apportent des informations précieuses des régions voisines.
-Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans] venus des régions voisines.
+Les [paysans nomades][farmers-hike] apportent des informations précieuses des régions voisines.
+Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans][farmers-proliferation] venus des régions voisines.
 Souvent, des monstres ayant élu domicile dans les environs et chassant les paysans en sont responsables.
 Une autre possibilité est que certains paysans ne trouvent pas de travail dans leur région d'origine.
 
@@ -120,17 +120,12 @@ Il arrive parfois qu'un message indique qu'un bateau n'a pas pu partir en raison
 Cependant, après vérification, il s'avère que le bateau n'est en réalité pas surchargé.
 
 Il ne s'agit généralement pas d'un bug, mais plutôt d'une surcharge du bateau liée à un volume trop important d'argent, ensuite dépensé.
-Comme l'ordre `MOVE` précède la maintenance des unités dans la [séquence des ordres], le bateau était encore surchargé lors de sa tentative de départ.
+Comme l'ordre `MOVE` précède la maintenance des unités dans la [séquence des ordres][orders-sequence], le bateau était encore surchargé lors de sa tentative de départ.
 Parfois, l'erreur est également due à des unités exécutant l'ordre `WORK`.
 Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent, qu'elle consomme ensuite après la phase de déplacement.
 
 ## See also
 
-- [Hints]
+- [Hints][hints]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
-
-[paysans nomades]: ./farmers-hike.md
-[migration de paysans]: ./farmers-proliferation.md
-[séquence des ordres]: ./commands-sequence.md
-[Hints]: ./hints.md

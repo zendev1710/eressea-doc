@@ -18,13 +18,13 @@ Man wird euch hier sicher Tips für die ersten Züge geben oder eure Fragen bean
 Mit Fragen könnt ihr euch auch im [PbEm-Spiele-Forum] melden.
 Dort hat Eressea ein eigenes Sub-Forum.
 
-Die meisten Spieler benutzen [Magellan], ein Programm, was den CR (Computer Report) liest, übersichtlich darstellt, bei der Erstellung der Befehle hilft und viele Fehler anzeigt.
+Die meisten Spieler benutzen [Magellan][magellan-de-id], ein Programm, was den CR (Computer Report) liest, übersichtlich darstellt, bei der Erstellung der Befehle hilft und viele Fehler anzeigt.
 
-Dann gibt es noch [ECheck], ein Programm, mit dem man seine Züge auf ihre Korrektheit überprüfen kann.
+Dann gibt es noch [ECheck][echeck-de-id], ein Programm, mit dem man seine Züge auf ihre Korrektheit überprüfen kann.
 ECheck wird vom Server automatisch auf die eingehenden Züge angesetzt und das Ergebnis zurückgeschickt.
 Verwendet ECheck zu Hause mit der Option -e um zu überprüfen, ob eure Befehle wie erwartet interpretiert werden.
 ECheck überprüft nur die Schreibweise der Befehle und die Reihenfolge der Parameter.
-Die Semantik (also Sinn und Unsinn der Befehle) wird von ECheck nicht erfasst, wobei ECheck jedoch verschiedene Tests bezüglich Silber ausführen kann, wenn die [Zugvorlage] des Servers benutzt wird.
+Die Semantik (also Sinn und Unsinn der Befehle) wird von ECheck nicht erfasst, wobei ECheck jedoch verschiedene Tests bezüglich Silber ausführen kann, wenn die [Zugvorlage][befehl] des Servers benutzt wird.
 
 Steckt euch mehrere Ziele, die ihr erreichen wollt.
 Eines der ersten Ziele sollte die Erkundung der Umgebung sein.
@@ -40,13 +40,13 @@ Auch [Steuereintreiber][silver-steuereintreiben-id] sind eine gute Einnahmequell
 hierfür braucht man z.B. Metalle ([vom-bergbau]) oder Holz ([Holzfällen][tief-im-wald]), um Waffen wie Schwerter oder Speere zu bauen;
 und natürlich brauchen die Steuereintreiber ein entsprechendes Waffentalent ([Steuereintreiben][silver-steuereintreiben-id], [Waffentalente][kampftalente]).
 
-[Wahrnehmung] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird.
+[Wahrnehmung][tarnung-id] ist ein sehr wichtiges Talent, das von Anfängern häufig unterschätzt wird.
 Nur Wahrnehmer sind in der Lage, getarnte Einheiten zu sehen und diese an einem [Diebstahl][diebstahl-der-unehrliche-weg] zu hindern! Es lohnt sich also, gleich zu Anfang zumindest für die Heimatregion(en) je einen Wahrnehmer zu rekrutieren und durchlernen zu lassen.
-Ratsam ist auch das frühe Bauen von [Burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][vom-bergbau] für die Steine und [Burgenbau] zum Bau der Burg), damit [Handel][handel] getrieben werden kann.
+Ratsam ist auch das frühe Bauen von [Burgen][burgen], zumindest auf Stufe 2, "Handelsposten", (benötigte Talente: [Steinbau][vom-bergbau] für die Steine und [Burgenbau][gebaude-id] zum Bau der Burg), damit [Handel][handel] getrieben werden kann.
 Natürlich die Ausbildung der nötigen Händler und Transporteure (in der Regel Reiter) sowie deren Ausstattung ([Pferde und ggf. Wägen][pferd-und-wagen]).
 Handel zu verstehen ist für Anfänger nicht ganz leicht, aber es lohnt sich.
 
-Einheiten mit teuren Talenten wie [Taktiker], [Alchemisten] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde).
+Einheiten mit teuren Talenten wie [Taktiker][taktik], [Alchemisten][skill-alchemie-id] usw. sollte man erst später ausbilden, da ihre Ausbildung sehr viel Silber verschlingt (200 Silber pro Runde).
 [Magier][magie-de-id] auszubilden kostet noch mehr Silber, doch ein Magier mit Kampfzaubern kann im Konfliktfall große Vorteile bringen.
 Und Magier aller Magiegebiete können bereits sehr früh einen Zauber zum Silberverdienen sprechen, sodass sich hier eine frühe Investition (vor allem für Rassen mit +1 in Magie) lohnt.
 
@@ -55,7 +55,7 @@ Also ein Plan, wie man seine Partei zum Ende der anfänglichen Immunität vor An
 
 Schreibt reichhaltig Kommentare in eure Befehlsdateien, damit ihr in den nächsten Runden auch wisst, wofür dies oder das gemacht wurde.
 Es ist eine gute Idee, die Befehle nach Regionen zu gruppieren, so dass man ein paar Zeilen an Kommentaren für die Region zur Verfügung hat.
-Ein guter Ausgangspunkt für eure neue Befehlsdatei ist die an der Auswertung angehängte [Zugvorlage] für den nächsten Zug.
+Ein guter Ausgangspunkt für eure neue Befehlsdatei ist die an der Auswertung angehängte [Zugvorlage][befehl] für den nächsten Zug.
 Bei jeder Einheit kann man noch anmerken, was sie produziert, für wen sie es produziert, wohin sie unterwegs ist, oder welche Art von Handel sie treibt.
 Hier ein Beispiel für diese Kommentare:
 
@@ -129,26 +129,17 @@ Lasst euch nicht ärgern und zu unüberlegten Dingen hinreißen - wahrscheinlich
 - [Tipps und Tricks]
 - [Hinweise]
 - [Der erste Zug]
-- [Grundlagen]
+- [Grundlagen][grundlagen]
 
-Weiterlesen: [Xontormia-Express].
+Weiterlesen: [Xontormia-Express][xontormia-express-de-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
-[Xontormia-Express]: ./xontormia-express.md
-[Passwort]: ./cmd-password.md
 [1]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
-[Magellan]: ./magellan.md
-[ECheck]: ./echeck.md
-[Zugvorlage]: ./commands.md
+
+[Passwort]: ./cmd-password.md
 [Unterhaltung]: ./cmd-entertain.md
-[Wahrnehmung]: ./stealth.md
-[Burgen]: ./castles.md
-[Burgenbau]: ./buildings.md
-[Taktiker]: ./tactic.md
-[Alchemisten]: ./skills-list.md
+
 [Tipps und Tricks]: ./tips-and-tricks.md
 [Hinweise]: ./hints.md
-[Der erste Zug]: ./first-round.md
-[Grundlagen]: ./basics.md

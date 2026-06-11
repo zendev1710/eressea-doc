@@ -69,12 +69,9 @@ Gewicht, Talente und Materialbedarf
 - [Produktion][produktion]
 - [Rohstoffe][rohstoffe]
 - [Straßen][strassen-id]
-- [Gebäude]
-- [Kriegstabellen]
+- [Gebäude][gebaude-id]
+- [Kriegstabellen][kriegstabellen]
 
 Weiterlesen: [Straße][strassen-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren&oldid=16664] -->
-
-[Gebäude]: ./buildings.md
-[Kriegstabellen]: ./war-tables.md

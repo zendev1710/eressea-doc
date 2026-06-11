@@ -10,7 +10,7 @@ alias: befehle-einschicken
 
 Neben einem eigenen Email-Zugang braucht man nur wenig, um Eressea spielen zu können.
 
-Um die [Befehle] zu bearbeiten, reicht ein einfacher Texteditor.
+Um die [Befehle][befehl] zu bearbeiten, reicht ein einfacher Texteditor.
 Unter UNIX/Linux z.B. VI oder EMACS, unter Windows tut's auch das Notepad.
 
 Wichtig ist: der Editor sollte nur dort einen Zeilenumbruch machen, wo man auch wirklich einen eingibt.
@@ -20,16 +20,16 @@ Wichtig ist: der Editor sollte nur dort einen Zeilenumbruch machen, wo man auch 
 
 ### Beispiele
 
-Die meisten Neuspieler benutzen das Tool [Magellan].
+Die meisten Neuspieler benutzen das Tool [Magellan][magellan-de-id].
 Zu Eressea gibt es außerdem diverse weitere Tools, die dem Spieler das Leben leichter machen.
 Hier eine Auflistung der bekanntesten.
 
 - [CSMap][csmap-de-id]
 - [ECheck]
 - [[ehmv]]
-- [Magellan][1]
+- [Magellan][magellan-web]
   - [ExtendedCommands]
-  - [FFTools2]
+  - [FFTools2][fftools-de-id]
 - [Vorlage]
 
 ## Wie man Befehle einschickt, und was man dafür bekommt
@@ -43,7 +43,7 @@ Dabei ist zu beachten: Die Züge müssen als normaler Text (text/plain) im Text 
 Alternativ können sie in einer .txt Datei im Anhang versendet werden, dann muss die Mail jedoch ansonsten leer sein (kein Text im Mail-Body).
 Sonst werden die Befehle vom Spielserver nicht erkannt und ignoriert! Es gibt diverse [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss], die die Eingabe der Züge insbesondere bei größeren Parteien erleichtern.
 Vorsicht bei der Benutzung von Weboberflächen wie bei GMX oder GMail! Diese haben sich in der Vergangenheit immer mal wieder als problematisch erwiesen, da Mails falsch formatiert wurden.
-Benutzer von [Magellan][1] können die [Befehle am bequemsten direkt aus dem Programm verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
+Benutzer von [Magellan][magellan-de-id] können die [Befehle am bequemsten direkt aus dem Programm verschicken], ohne den Umweg über Mailprogramme oder Webmailer.
 
 Die Befehle müssen immer an die Adresse [eressea-server@kn-bremen.de] mit dem Betreff **ERESSEA 2 BEFEHLE** geschickt werden.
 Werden diese Betreffs nicht gebraucht, werden die Mails vom Spielserver nicht erkannt und ignoriert.
@@ -139,7 +139,7 @@ NÄCHSTER
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker.
 Er erkennt diese Zeile und benutzt die Parameter der Zeile.
 Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[bef-einheit]] ausgewertet, ebenso werden dann Einnahmen mit [[bef-arbeite]] (idR. je 11 Silber pro Person) und [TREIBE STEUERN EIN] und [[bef-unterhalte]] (je 20 Silber pro Person) berücksichtigt.
-Teure Talente wie z.B. [LERNE MAGIE] und Einheiten, die mit [[bef-nach]] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben.
+Teure Talente wie z.B. [LERNE MAGIE][bef-lerne] und Einheiten, die mit [NACH][bef-nach] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben.
 Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein.
 Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
 
@@ -149,7 +149,7 @@ Man kann erkennen, dass Personen aus Einheit 32 hungern werden: 30 Silber reiche
 Mit dem oben benutzten ECheck-Parameter -z -w4 wird ECheck dies aber bemerken und eine Warnung ausgeben.
 Die Einheit sollte also entweder Geld verdienen (z.B. mit [[bef-unterhalte]], sofern sie das Talent Unterhaltung schon beherrscht, sonst ggf. mit [[bef-arbeite]]) oder eine andere Einheit mit genug Silber sollte in die Region 5,3 ziehen.
 
-Alle [Befehle] können abgekürzt werden.
+Alle [Befehle][befehl] können abgekürzt werden.
 Der Computer nimmt einfach das erste Wort, welches dem eingegebenen Befehl entspricht.
 
 - NA S kann für den Computer entweder NACH SÜDOSTEN, NACH SÜDWESTEN oder NÄCHSTER S bedeuten, wobei der Computer im letzten Fall alle weiteren Befehle ignoriert!
@@ -179,7 +179,7 @@ Zwischen den Anführungsstrichen werden mehrfache Leerzeichen, Zeilenumbrüche u
 
 Aller Text, der hinter einem Semikolon ('[;]') steht, wird als [Kommentar][;] angesehen.
 Kommentare können einem das Verstehen der gemachten Züge beim nächsten Mal sehr erleichtern.
-Schreibt man Kommentare mit dem [Kommentar-Befehl //], so wird der Kommentar automatisch in die [Zugvorlage][Befehle] der nächsten Runde übernommen.
+Schreibt man Kommentare mit dem [Kommentar-Befehl //], so wird der Kommentar automatisch in die [Zugvorlage][befehl] der nächsten Runde übernommen.
 
 Es können mehrere Züge eingeschickt werden.
 Man kann durchaus Befehle nur für einige Einheiten einschicken und somit sich selbst und dem Server Übertragungsvolumen ersparen.
@@ -188,35 +188,29 @@ Als Reihenfolge wird das Datum der Mail (Date:-Header) benutzt.
 
 ## Siehe auch
 
-- [Die Welt]
-- [Der erste Zug]
-- [Befehle]
+- [Die Welt][welt]
+- [Der erste Zug][der-erste-zug]
+- [Befehle][befehl]
 
 Weiterlesen: [Hinweise].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
 [Hinweise]: ./hints.md
-[Befehle]: ./commands.md
-[Notepad++]: http://notepad-plus.sourceforge.net/
-[Magellan]: http://magellan-client.sf.net
 [ECheck]: ./echeck.md
-[1]: ./magellan.md
 [ExtendedCommands]: ./commands-extended.md
-[FFTools2]: ./fftools.md
 [Vorlage]: ./vorlage.md
 [Befehle am bequemsten direkt aus dem Programm verschicken]: ./commands-send-from-magellan.md
+
+[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
+[Notepad++]: http://notepad-plus.sourceforge.net/
+[magellan-web]: http://magellan-client.sf.net
+
 [ERESSEA xxx "passwort"]: ./cmd-eressea.md
 [NÄCHSTER]: ./cmd-next.md
 [bef-einheit]: ./cmd-unit.md
 [bef-arbeite]: ./cmd-work.md
 [TREIBE STEUERN EIN]: ./cmd-tax.md
 [bef-unterhalte]: ./cmd-entertain.md
-[LERNE MAGIE]: ./cmd-learn.md
-[bef-nach]: ./cmd-move.md
 [;]: ./cmd-comment.md
 [Kommentar-Befehl //]: ./cmd-comment-slash.md
-[Die Welt]: ./world.md
-[Der erste Zug]: ./first-round.md
-
-[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de

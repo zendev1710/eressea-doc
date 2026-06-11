@@ -380,7 +380,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 
 [](){ #erschaffe-steingolems-id }
 
-### Erschaffe [Steingolems]
+### Erschaffe [Steingolems][steingolem]
 
 <div class="lore-dialogue">
 "Man befeuchte einen kluftfreien Block aus feinkristallinen Gestein mit einer Phiole des Lebenswassers bis dieses vollständig vom Gestein aufgesogen wurde.
@@ -413,7 +413,7 @@ Sodann richte man seine Kraft auf die sich bildende feine Aura des Lebens und fo
 
 [](){ #erschaffe-ein-flammenschwert-id }
 
-### Erschaffe ein [Flammenschwert]
+### Erschaffe ein [Flammenschwert][flammenschwert]
 
 <div class="lore-dialogue">
 "Und so reibe das Blut eines wilden Kämpfers in den Stahl der Klinge und beginne die Anrufung der Sphären des Chaos.
@@ -443,7 +443,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-eine-sph-re-der-unsichtbarkeit-id }
 
-### Erschaffe eine [Sphäre der Unsichtbarkeit]
+### Erschaffe eine [Sphäre der Unsichtbarkeit][sphaere-der-unsichtbarkeit]
 
 :   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
     Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
@@ -456,7 +456,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-beutel-des-negativen-gewichts-id }
 
-### Erschaffe einen [Beutel des Negativen Gewichts]
+### Erschaffe einen [Beutel des Negativen Gewichts][beutel-des-negativen-gewichts]
 
 :   Dieser Beutel umschließt eine kleine Dimensionsfalte, in der bis zu 200 Gewichtseinheiten transportiert werden können, ohne dass sie auf das Traggewicht angerechnet werden.  
     Pferde und andere Lebewesen sowie besonders sperrige Dinge (Wagen und Katapulte) können nicht in dem Beutel transportiert werden.  
@@ -484,7 +484,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-ring-der-macht-id }
 
-### Erschaffe einen [Ring der Macht]
+### Erschaffe einen [Ring der Macht][ring-der-macht]
 
 :   Dieses mächtige Ritual erschafft einen Ring der Macht.  
     Ein Ring der Macht erhöht die Stärke jedes Zaubers, den sein Träger zaubert, als wäre der Magier eine Stufe besser.  
@@ -497,7 +497,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-ring-der-unsichtbarkeit-id }
 
-### Erschaffe einen [Ring der Unsichtbarkeit]
+### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit]
 
 :   Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen.  
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  
@@ -2059,21 +2059,14 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 
 ## Siehe auch
 
-- [Zauberliste E2]
+- [Zauberliste E2][zauberliste]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->
 
 [Bergwächter]: ./mountain-guard.md
 [Antimagiekristall]: ./antimagic-crystal.md
 [Eisengolems]: ./iron-golem.md
-[Steingolems]: ./stone-golem.md
 [Amulett des wahren Sehens]: ./amulet-of-true-sight.md
-[Flammenschwert]: ./flaming-sword.md
 [Traumauge]: ./dream-eye.md
-[Sphäre der Unsichtbarkeit]: ./sphere-of-invisibility.md
-[Beutel des Negativen Gewichts]: ./sack-of-holding.md
 [Gürtel der Trollstärke]: ./belt-of-troll-strength.md
-[Ring der Macht]: ./ring-of-power.md
-[Ring der Unsichtbarkeit]: ./ring-of-invisibility.md
 [magischen Kräuterbeutel]: ./magical-herb-pouch.md
-[Zauberliste E2]: ./spells-list.md

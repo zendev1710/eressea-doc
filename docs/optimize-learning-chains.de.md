@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: optimierung-lernketten
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Optimierung Lernketten
 
 ## Vorüberlegungen
@@ -131,7 +133,7 @@ Im folgenden werden einige typische Lehrer-Schüler-Ketten vorgestellt und bespr
   Nachteil: Geringes Lerntempo, Vorteile: es werden nur zwei Einheiten benötigt, leicht zu automatisieren.
   Sinnvoll bei Einheiten bei denen das Lernen nicht im Vordergrund steht, z.B. bei Bergleuten, die hauptsächlich nur lernen um tiefere Erzschichten zu erreichen, oder bei Steuereintreibern, die nach und nach ihre Kampffähigkeiten erhöhen, um kleinere Monstergruppen selbständig bekämpfen zu können.
 - **Pyramide** -- Weiterentwicklung der einfachen Lehrer-Schüler-Kette, bestehend aus einer Lehrer-Einheit (L) und mehreren Schichten Schüler-Einheiten (S1,S2,...) mit 10\*|L|=|S1|, 10\*|S1|=|S2|...
-  Geht es darum beim Lernen [teurer Talente] die Kosten zu minimieren, dann lernt der Lehrer und lehrt anschließend die erste Schüler-Einheit (S1).
+  Geht es darum beim Lernen [teurer Talente][talente] die Kosten zu minimieren, dann lernt der Lehrer und lehrt anschließend die erste Schüler-Einheit (S1).
   Diese lehren anschließend S2 usw. Schüler lernen dabei nur, wenn sie gelehrt werden.
   Das minimiert zwar die Kosten, schneller geht es aber, wenn die Schüler der Zwischen-Schichten auch dann lernen, wenn sie keinen Lehrer haben.
   Nicht sinnvoll hingegen ist es, wenn auch die *unterste* Schülerschicht ohne Lehrer lernt.
@@ -153,7 +155,7 @@ Im folgenden werden einige typische Lehrer-Schüler-Ketten vorgestellt und bespr
   Die zweite Ebene 3 Einheiten mit 5-facher Grösse, die dritte Ebene 3 Einheiten 25-facher Grösse.
   Von den Zwischenebenen lehrt jeweils eine Einheit und 2 werden gelehrt.
   In der oberste Ebene Lehrt einer und die anderen 5 Einheiten lernen ohne Lehrer, dafür mit Gehirnschmalz und/oder Akademie.
-- **Lernen von zwei Talenten** -- Kampfeinheiten (S) lernen in der Regel zwei Talente, ihr [Waffentalent und Ausdauer].
+- **Lernen von zwei Talenten** -- Kampfeinheiten (S) lernen in der Regel zwei Talente, ihr [Waffentalent] und [Ausdauer][skill-ausdauer-id].
   Es erweist sich als sinnvoll dafür auch verschiedene Lehrer (L\_K,L\_A) zu verwenden.
   Prinzipiell hat man zwei Möglichkeiten: Die Lehrer sind Spezialisten und lernen nur ein Talent.
   Das ist zwar von der Lerngeschwindigkeit her günstiger, dafür sind solche Spezialisten im Kampffall sehr anfällig (bzw. nicht zu gebrauchen).
@@ -275,6 +277,3 @@ Sonst wären es 3750 die mit 133% hochgelehrt werden können.
 d.h. nach Abzug einiger Prozente für die Stufenunterschiede sollten 4000 Schüler möglich sein.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
-
-[teurer Talente]: ./skills.md
-[Waffentalent und Ausdauer]: ./skills-list.md

@@ -21,15 +21,15 @@ Da Personen (der meisten [Rassen][rassen] 5,4 GE tragen können, können sie bis
 
 ### Rekrutieren
 
-Um Personen zu [rekrutieren], benötigst du nichts weiter als genügend Kleingeld, denn die Rekrutierungswilligen sind oft besonders durstig. Pro angeheuerter Person musst du je nach Rasse zwischen 40 und 150 Silber an Rekrutierungskosten ausgeben. Die Höhe der Rekrutierungskosten hängt von der Rasse ab und ist in der [Tabelle der Rasseneigenschaften] nachzulesen.
+Um Personen zu [rekrutieren], benötigst du nichts weiter als genügend Kleingeld, denn die Rekrutierungswilligen sind oft besonders durstig. Pro angeheuerter Person musst du je nach Rasse zwischen 40 und 150 Silber an Rekrutierungskosten ausgeben. Die Höhe der Rekrutierungskosten hängt von der Rasse ab und ist in der [Tabelle der Rasseneigenschaften][talentmodifikatoren] nachzulesen.
 
 Rekrutieren wird durch Bewachung verhindert.
 
 ### Unterhaltskosten
 
-Jede Person der Spieler und jeder Bauer benötigen jede Runde 10 Silber, um sich die nötigen Vorräte kaufen zu können. Einheiten einer Partei in derselben Region helfen sich allerdings gegenseitig mit Silber aus, d.h. es reicht prinzipiell, wenn eine Einheit genug Silber für alle anwesenden Personen hat (was aber bei Fehlern sehr fatal sein kann, wenn sonst keiner Silber hat!). Sollte die eigene Partei nicht genügen Silber haben, so helfen auch andere Parteien, die [HELFE SILBER] zur eigenen Partei gesetzt haben (siehe [hier]). Einheiten, die sich bewegen, müssen dort versorgt werden, wo sie ankommen. Für den Einheitenunterhalt wird auch Silber genutzt, das vorher [reserviert] wurde. Ohne ausreichend Silber leiden die Leute Hunger (siehe unten).
+Jede Person der Spieler und jeder Bauer benötigen jede Runde 10 Silber, um sich die nötigen Vorräte kaufen zu können. Einheiten einer Partei in derselben Region helfen sich allerdings gegenseitig mit Silber aus, d.h. es reicht prinzipiell, wenn eine Einheit genug Silber für alle anwesenden Personen hat (was aber bei Fehlern sehr fatal sein kann, wenn sonst keiner Silber hat!). Sollte die eigene Partei nicht genügen Silber haben, so helfen auch andere Parteien, die [HELFE SILBER][bef-helfe] zur eigenen Partei gesetzt haben (siehe [hier][allianz]). Einheiten, die sich bewegen, müssen dort versorgt werden, wo sie ankommen. Für den Einheitenunterhalt wird auch Silber genutzt, das vorher [reserviert] wurde. Ohne ausreichend Silber leiden die Leute Hunger (siehe unten).
 
-Auch einige Gebäude brauchen wöchentliche Unterhaltskosten, um zu funktionieren. Diese Unterhaltskosten fallen schon am Rundenanfang an, müssen also bereits in der Vorrunde eingenommen werden und sind fällig, sobald das Gebäude begonnen wurde (also auch bei halbfertigen Gebäuden). Steht nicht genug Geld zur Verfügung, kann die Funktion des Gebäudes nicht benutzt werden. Näheres im Kapitel über [Gebäude] nachzulesen.
+Auch einige Gebäude brauchen wöchentliche Unterhaltskosten, um zu funktionieren. Diese Unterhaltskosten fallen schon am Rundenanfang an, müssen also bereits in der Vorrunde eingenommen werden und sind fällig, sobald das Gebäude begonnen wurde (also auch bei halbfertigen Gebäuden). Steht nicht genug Geld zur Verfügung, kann die Funktion des Gebäudes nicht benutzt werden. Näheres im Kapitel über [Gebäude][gebaude-id] nachzulesen.
 
 [](){ #hunger-de-id }
 
@@ -109,9 +109,9 @@ Unterhalten wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
 ### Diebstahl: der unehrliche Weg
 
-Neben den ehrlichen Wegen, Geld zu verdienen (und auch auszugeben) gibt es die unehrliche Variante: Diebstahl. Einheiten, die sich getarnt haben, können versuchen, mit dem Befehl [[bef-beklaue]] bei anderen Einheiten Silber zu stehlen.
+Neben den ehrlichen Wegen, Geld zu verdienen (und auch auszugeben) gibt es die unehrliche Variante: Diebstahl. Einheiten, die sich getarnt haben, können versuchen, mit dem Befehl [Tarnung][tarnung-id] bei anderen Einheiten Silber zu stehlen.
 
-Ist das [Tarnungstalent][skill-tarnung-id] der klauenden Einheit höher als die [Wahrnehmung] der besten Einheit der bestohlenen Partei in der Region, so klaut sie pro Talentstufe Unterschied 50 Silber.
+Ist das [Tarnungstalent][skill-tarnung-id] der klauenden Einheit höher als die [Wahrnehmung][tarnung-id] der besten Einheit der bestohlenen Partei in der Region, so klaut sie pro Talentstufe Unterschied 50 Silber.
 
 Es lohnt sich, zu diesem Thema auch das Kapitel über [Tarnung][tarnung-id] durchzulesen.
 
@@ -123,7 +123,7 @@ Um Handel zu treiben, braucht man das Talent Handeln. Pro Talentstufe kann eine 
 
 Außerdem ist zum Handeln eine Burg erforderlich, die mindestens die Größe eines Handelspostens hat und als Marktplatz der Region fungiert. Wem diese Burg gehört, spielt für den Handel grundsätzlich keine Rolle, doch kann der Burgeigentümer oder jede andere Partei durch Bewachen den Handel in der Region unterbinden.
 
-Die Einheit, die Besitzer der größten Burg einer Region ist, bekommt von allen Verkäufen der anderen Parteien einen Erlösanteil. Dieser Erlösanteil wird von den Einnahmen der Händler abgezogen. Sind zwei Burgen der Region gleich groß, erhält niemand diesen Anteil. Die Höhe des "Steuersatzes" geht aus der Tabelle im Kapitel [Burgen] hervor.
+Die Einheit, die Besitzer der größten Burg einer Region ist, bekommt von allen Verkäufen der anderen Parteien einen Erlösanteil. Dieser Erlösanteil wird von den Einnahmen der Händler abgezogen. Sind zwei Burgen der Region gleich groß, erhält niemand diesen Anteil. Die Höhe des "Steuersatzes" geht aus der Tabelle im Kapitel [Burgen][burgen] hervor.
 
 Handel wird durch Bewachung nur für Einheiten auf Schiffen verhindert.
 
@@ -141,7 +141,7 @@ Grundpreise von Luxusgütern
 | Weihrauch | 4          |
 | Myrrhe    | 5          |
 
-Der Verkaufspreis eines Luxusgutes ist ein Vielfaches des Grundpreises und ist im Regionsreport angegeben. Sobald in einer Runde jeweils 1% der Bauern ein Produkt gekauft hat, sinkt der Verkaufspreis um den Grundpreis und steigt in den nächsten Wochen erst langsam wieder an. Jede Runde besteht für jedes Luxusgut eine 10%ige Chance, dass sich der Verkaufspreis um den Grundpreis erhöht. In Regionen, in denen ein [Hafen] ist, liegt diese Chance bei 20%. Liegt der Kaufpreis bereits beim 25fachen Grundpreis, wird er sich nicht weiter erhöhen.
+Der Verkaufspreis eines Luxusgutes ist ein Vielfaches des Grundpreises und ist im Regionsreport angegeben. Sobald in einer Runde jeweils 1% der Bauern ein Produkt gekauft hat, sinkt der Verkaufspreis um den Grundpreis und steigt in den nächsten Wochen erst langsam wieder an. Jede Runde besteht für jedes Luxusgut eine 10%ige Chance, dass sich der Verkaufspreis um den Grundpreis erhöht. In Regionen, in denen ein [Hafen][andere-gebaude-id] ist, liegt diese Chance bei 20%. Liegt der Kaufpreis bereits beim 25fachen Grundpreis, wird er sich nicht weiter erhöhen.
 
 Die angegebenen Preise und Maxima gelten für alle Parteien der Region zusammen und nicht pro Partei, allerdings pro Luxusgut. Ohne eine entsprechende Absprache untereinander kann man sich so den Verkaufspreis schneller "versauen", als einem lieb ist ...
 
@@ -181,36 +181,26 @@ Wenn mehrere Parteien in einer Region arbeiten, unterhalten, Steuern eintreiben 
 
 Wird die Region von einer fremden Partei bewacht, kann eine eigene Einheit keine Steuern eintreiben und nicht rekrutieren. Arbeit, Unterhaltung und Handel sind aber möglich, es sei denn die eigene Einheit befindet sich auf einem Schiff.
 
-Falls alle bewachenden Parteien [`HELFE BEWACHE`][HELFE SILBER] oder [`HELFE ALLES`][HELFE SILBER] zu unserer Partei gesetzt haben oder [[bef-kontaktiere]] zu unserer Einheit oder unserer Partei, dann hat das Bewachen keinen Effekt. Die gilt auch, falls unsere Einheit wegen genügend guter Tarnung nicht gesehen wird. Für eine TEMP-Einheit (besonders relevant beim Rekrutieren) zählt die "Mutter"-Einheit, also die Einheit, die den Befehl `MACHE TEMP` gibt.
+Falls alle bewachenden Parteien [`HELFE BEWACHE`][bef-helfe] oder [`HELFE ALLES`][bef-helfe] zu unserer Partei gesetzt haben oder [[bef-kontaktiere]] zu unserer Einheit oder unserer Partei, dann hat das Bewachen keinen Effekt. Die gilt auch, falls unsere Einheit wegen genügend guter Tarnung nicht gesehen wird. Für eine TEMP-Einheit (besonders relevant beim Rekrutieren) zählt die "Mutter"-Einheit, also die Einheit, die den Befehl `MACHE TEMP` gibt.
 
 ## Siehe auch
 
-- [[bef-gib]]
+- [GIB][bef-gib]
 - [[bef-reserviere]][reserviert]
 - [[bef-rekrutiere]]
-- [Materialpool]
+- [Materialpool][materialpool]
 - [Tarnung][skill-tarnung-id]
 - [[bef-bewache]]
 
-Weiterlesen: [Materialpool].
+Weiterlesen: [Materialpool][materialpool].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld&oldid=16840] -->
 
-[Materialpool]: ./items-pool.md
 [Arbeiten]: ./cmd-work.md
 [Unterhalten]: ./cmd-entertain.md
 [rekrutieren]: ./cmd-recruit.md
-[Tabelle der Rasseneigenschaften]: ./skills-modifiers.md
-[HELFE SILBER]: ./cmd-help.md
-[hier]: ./alliances.md
 [reserviert]: ./cmd-reserve.md
-[Gebäude]: ./buildings.md
-[bef-beklaue]: ./stealth.md
-[Wahrnehmung]: ./stealth.md
 [kaufen]: ./cmd-buy.md
 [verkaufen]: ./cmd-sell.md
-[Burgen]: ./castles.md
-[Hafen]: ./buildings-others.md
 [bef-kontaktiere]: ./cmd-contact.md
-[bef-gib]: ./cmd-give.md
 [bef-bewache]: ./cmd-guard.md

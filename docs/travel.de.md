@@ -6,7 +6,7 @@ alias: reisen
 <!-- markdownlint-disable MD052 -->
 # Reisen
 
-In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln. Einige wenige können sogar schwimmen oder fliegen. Für alle Varianten wird der Befehl [[bef-nach]] oder [[bef-route]] benutzt.
+In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln. Einige wenige können sogar schwimmen oder fliegen. Für alle Varianten wird der Befehl [NACH][bef-nach] oder [[bef-route]] benutzt.
 
 ## Reisen: Zu Land und zur See
 
@@ -14,11 +14,11 @@ In jeder Runde kann man zu Land eine Region weit gehen. Hat eine Einheit genug P
 
 Bewegung ist nur in die sechs Richtungen Nordost, Nordwest, Osten, Westen, Südost und Südwest möglich. Eine direkte Bewegung nach Norden oder Süden geht nicht.
 
-Mit dem Befehl [[bef-transportiere]]` `*`fahrgast-einheit`* können Einheiten andere Einheiten mitnehmen. Die zu transportierende Einheit muss dazu den Befehl [[bef-fahre]]` `*`transporter-einheit`* geben. Durch diesen Befehl ist es z.B. möglich, Einheiten, die nicht reiten können, auf Pferden oder Wagen mitzunehmen. Die transportierende Einheit muss dazu natürlich Tragekapazität für die Passagiere und deren Besitztümer haben. Mit [[bef-folge]]` EINHEIT `*`verfolgte-einheit`* oder `FOLGE SCHIFF`*`verfolgtes-schiff`* ist es hingegen so, als hätte die Einheit selber einen NACH-Befehl gegeben, wenn die verfolgte Einheit oder das Schiff einen Bewegungsbefehl haben. Sie muss also ihr Gewicht selber tragen.
+Mit dem Befehl [[bef-transportiere]]` `*`fahrgast-einheit`* können Einheiten andere Einheiten mitnehmen. Die zu transportierende Einheit muss dazu den Befehl [`FAHRE transporter-einheit`][bef-fahre] geben. Durch diesen Befehl ist es z.B. möglich, Einheiten, die nicht reiten können, auf Pferden oder Wagen mitzunehmen. Die transportierende Einheit muss dazu natürlich Tragekapazität für die Passagiere und deren Besitztümer haben. Mit [[bef-folge]]` EINHEIT `*`verfolgte-einheit`* oder `FOLGE SCHIFF`*`verfolgtes-schiff`* ist es hingegen so, als hätte die Einheit selber einen NACH-Befehl gegeben, wenn die verfolgte Einheit oder das Schiff einen Bewegungsbefehl haben. Sie muss also ihr Gewicht selber tragen.
 
 Reisende Einheiten können von bewachenden Einheiten in einer Region gestoppt werden (siehe [[bef-bewache]]).
 
-Wenn eine Einheit oder ein Schiff zu schwer beladen ist, können sie sich nicht fortbewegen. Dazu wird das Gesamtgewicht der zu transportierenden Einheit samt mitgeführten Waren und Silber mit der Tragekapazität verglichen (siehe [diese Tabelle] für die Gewichte).
+Wenn eine Einheit oder ein Schiff zu schwer beladen ist, können sie sich nicht fortbewegen. Dazu wird das Gesamtgewicht der zu transportierenden Einheit samt mitgeführten Waren und Silber mit der Tragekapazität verglichen (siehe [diese Tabelle][waren] für die Gewichte).
 
 TODO: Katapulte
 
@@ -77,16 +77,11 @@ Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität ei
 - [Schiffe][schiff]
 - [Straße][strassen-id]
 
-Weiterlesen: [Schiffsreise].
-
-[Schiffsreise]: ./sailing.md
+Weiterlesen: [Schiffsreise][schiffsreise].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133] -->
 
-[bef-nach]: ./cmd-move.md
 [bef-route]: ./cmd-route.md
 [bef-transportiere]: ./cmd-carry.md
-[bef-fahre]: ./cmd-ride.md
 [bef-folge]: ./cmd-follow.md
 [bef-bewache]: ./cmd-guard.md
-[diese Tabelle]: ./items.md

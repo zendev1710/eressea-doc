@@ -15,7 +15,7 @@ alias: bef-pflanze
 
 Um in einer leer gepflückten oder verwüsteten Region wieder frisches Grün sprießen zu lassen oder die natürliche Baumvermehrung zu steuern, kann dieser Befehl verwendet werden.
 
-Für `PFLANZE KRÄUTER` braucht man mindestens [Kräuterkunde] 6. Die Einheit versucht die angegebene Anzahl an Kräutern zu pflanzen, maximal jedoch pro Talentstufe ein Kraut; sie benötigt dazu die passende Anzahl Kräuter des entsprechenden Typs sowie eine Phiole [Wasser des Lebens] (für egal wie viele Kräuter). Es können dadurch keine Kräutertypen gewechselt werden, es wird immer versucht, das in der Region heimische Kraut zu pflanzen.
+Für `PFLANZE KRÄUTER` braucht man mindestens [Kräuterkunde][skill-krauterkunde-id] 6. Die Einheit versucht die angegebene Anzahl an Kräutern zu pflanzen, maximal jedoch pro Talentstufe ein Kraut; sie benötigt dazu die passende Anzahl Kräuter des entsprechenden Typs sowie eine Phiole [Wasser des Lebens][wasser-des-lebens] (für egal wie viele Kräuter). Es können dadurch keine Kräutertypen gewechselt werden, es wird immer versucht, das in der Region heimische Kraut zu pflanzen.
 
 In der Region vermehren sich neu gepflanzten Kräuter dann sehr schnell (außer im Winter), wenn man sie einige Wochen in Ruhe lässt. Bei niedrigem Talent können beim Einpflanzen auch Kräuter kaputt gehen. Erst ab Stufe 10 sollte es einigermaßen sicher sein. Das Kräuterzüchten ist also eher dafür gedacht, Regionen zu reaktivieren, bei denen jemand einmal alle Kräuter restlos abgeerntet hat und sich von selbst nichts mehr vermehren kann.
 
@@ -30,6 +30,4 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=PFLANZE&oldid=16730] -->
 
-[Kräuterkunde]: ./skills-list.md
-[Wasser des Lebens]: ./potions-and-herbs.md
 [ZÜCHTE]: ./cmd-grow.md

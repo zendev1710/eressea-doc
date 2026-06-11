@@ -3,7 +3,7 @@
 alias: skills
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
 # Skills
 <!-- TODO: translate page in english -->
 
@@ -164,6 +164,8 @@ Elles ont leur propre chapitre.
 Sailing et riding sont expliquées dans le chapitre sur les [[travel|déplacements]].
 riding est également abordé dans le chapitre des [[war-tables|combats]].
 
+[](){ #skills-skill-magic-id }
+
 ### Magic
 
 [[magic]] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
@@ -178,7 +180,7 @@ Les compétences de maniement des armes sont les suivantes :
 - [melee][melee]
 - [polearm][polearm]
 - [unarmed combat][unarmed-combat]
-  
+
 Les autres compétences essentielles au combat sont :
 
 - [endurance][skill-endurance-id]

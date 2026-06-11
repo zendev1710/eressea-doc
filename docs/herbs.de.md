@@ -3,17 +3,19 @@
 alias: kraeuter
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+[](){ #krauter-id }
+
 # Kräuter
 
 **Kräuter** werden mit dem Befehl [MACHE KRÄUTER] gemacht.
-Je nach Talentwert in [Kräuterkunde] findet man mehr oder weniger Kräuter der Region, in der man sich befindet, wobei jede Region nur ein Kraut hat.
+Je nach Talentwert in [Kräuterkunde][skill-krauterkunde-id] findet man mehr oder weniger Kräuter der Region, in der man sich befindet, wobei jede Region nur ein Kraut hat.
 Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man durchaus alle Kräuter einer Region pflücken und muss dann mittels [ZÜCHTE KRÄUTER] zuerst wieder welche anpflanzen.
 Selbst dann kann nur das ursprünglich dort wachsende Kraut wieder angepflanzt werden.
 Im Zweifelsfall muss man ausprobieren, welches Kraut jemals hier gewachsen ist.
 
-Kräuter werden vor allem für [Alchemie] gebraucht.
-Auch manche [Zauber] brauchen Kräuter als Komponenten.
+Kräuter werden vor allem für [Alchemie][alchemie] gebraucht.
+Auch manche [Zauber][magie-de-id] brauchen Kräuter als Komponenten.
 
 Mit [FORSCHE KRÄUTER] kann man ungefähr feststellen, wie viele Kräuter in der Region wachsen; dazu benötigt man Kräuterkunde der Stufe 7 oder höher.
 
@@ -88,13 +90,10 @@ Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 | [Wald][wald]           | [Flachwurz][flachwurz], [Würziger Wagemut][wurziger-wagemut], [Eulenauge][eulenauge], [Grüner Spinnerich][gruner-spinnerich], [Blauer Baumringel][blauer-baumringel], [Elfenlieb][elfenlieb] |
 | [Wüste][wuste]         | [Wasserfinder][wasserfinder], [Kakteenschwitz][kakteenschwitz], [Sandfäule][sandfaule]                                                                                                       |
 
-Weiterlesen: [Befehle](./commands.md).
+Weiterlesen: [Befehle][befehl].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter&oldid=16100] -->
 
 [MACHE KRÄUTER]: ./cmd-make.md
-[Kräuterkunde]: ./skills-list.md
 [ZÜCHTE KRÄUTER]: ./cmd-grow.md
-[Alchemie]: ./alchemy.md
-[Zauber]: ./magic.md
 [FORSCHE KRÄUTER]: ./cmd-research.md

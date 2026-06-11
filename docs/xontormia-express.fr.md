@@ -2,6 +2,11 @@
 # cSpell:locale fr
 alias: xontormia-express-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #xontormia-express-fr-id }
+
 # Xontormia Express
 
 ## Xontormia Express, c'est quoi ?

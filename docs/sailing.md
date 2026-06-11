@@ -3,7 +3,10 @@
 alias: sailing
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #sailing-id }
+
 # Sailing
 
 You can leave your island only with [ships][ships-id] and, for example, open up new markets or establish direct contact with other factions.

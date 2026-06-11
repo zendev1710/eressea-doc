@@ -79,7 +79,7 @@ Benutzung: ./echeck [Optionen] Befehlsdatei
 
 ## Siehe auch
 
-- [Befehle einschicken]
+- [Befehle einschicken][befehle-einschicken]
 
 ## Externe Links und Downloads
 
@@ -89,7 +89,6 @@ Benutzung: ./echeck [Optionen] Befehlsdatei
 
 <!-- From [https://wiki.eressea.de/index.php?title=ECheck&oldid=7268] -->
 
-[Befehle einschicken]: ./commands-send.md
 [Aktuelle Downloads für Windows (echeck.exe) und Linux (echeck)]: https://www.eressea.kn-bremen.de/downloads
 [ECheck Sourcecode]: https://github.com/eressea/echeck
 [Eine veraltete ECheck-Version für Windows]: https://www.eressea.de/files/echeck.zip

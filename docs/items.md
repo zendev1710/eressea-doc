@@ -3,7 +3,10 @@
 alias: items
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #items-id }
+
 # Items
 
 ## Production of items
@@ -73,12 +76,9 @@ Weight, skill and raw material requirements.
 - [These examples][production-id]
 - [Resources][resources]
 - [Roads][roads-id]
-- [buildings]
-- [war tables]
+- [Buildings][buildings]
+- [War tables][war-tables]
 
 Continue reading: [roads][roads-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/en&oldid=16685] -->
-
-[buildings]: ./buildings.md
-[war tables]: ./war-tables.md

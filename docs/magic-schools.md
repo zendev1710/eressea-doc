@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: schools-of-magic
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Schools of Magic
 
 There are five Schools of Magic in Eressea.  
@@ -25,7 +27,7 @@ The boundaries blur..."
 
 Fragment from the Book of Times, written in Althochelfisch, unknown Age, origin unknown, whereabouts of the original unknown, no copies known, translation of the fragment by Rehlan Staubnix, librarian in the Department of Esoteric Writings, Library of the Academy of Xontormia.  
 
-Learn more: [Illaun spells].
+Learn more: [Illaun spells][illaun-spells].
 
 ## Tybied
 
@@ -44,7 +46,7 @@ Which, hmm, I have to admit, can also be quite useful in, hmm, practice."
 
 From a lecture to beginner students, Feoral Birnkern, lecturer in theoretical magic, Academy of Thall.
 
-Learn more: [Tybied spells].
+Learn more: [Tybied spells][tybied-spells].
 
 ## Cerddor
 
@@ -65,7 +67,7 @@ The right side of his face was marred by a deep scar, the result of a war ax hit
 He too seemed captivated by the singer's voice, and for a moment it seemed to the elf as if the scar on the old man's face was fading and new life was pulsating through his gray skin.
 </div>
 
-Learn more: [Cerddor spells].
+Learn more: [Cerddor spells][cerddor-spells].
 
 ## Gwyrrd
 
@@ -91,7 +93,7 @@ The magician shouted arcane words loudly into the forest.
 Draiochean and Llyfr's hearts beat faster and he tentatively took her hand as something ancient and large grabbed the two of them and lifted them into the air...
 </div>
 
-Learn more: [Gwyrrd spells].
+Learn more: [Gwyrrd spells][gwyrrd-spells].
 
 ## Draig
 
@@ -110,14 +112,8 @@ Know then that the Draig has no need of servants, for the Draig was in the begin
 
 Prophecy of Igjarjuk, one of the elders of the Wyrms, on his deathbed after the Battle of Melvaunt, to Casandra, master thief of the Deathhawk Clan.
 
-Learn more: [Draig spells].
+Learn more: [Draig spells][draig-spells].
 
 Continue reading: [[list-of-spells]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magiegebiete&oldid=16305] -->
-
-[Illaun spells]: ./magic-school-illaun.md
-[Tybied spells]: ./magic-school-tybied.md
-[Cerddor spells]: ./magic-school-cerddor.md
-[Gwyrrd spells]: ./magic-school-gwyrrd.md
-[Draig spells]: ./magic-school-draig.md

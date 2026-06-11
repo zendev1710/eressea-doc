@@ -3,10 +3,12 @@
 alias: alchemie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Alchemie
 
 In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke zu verwandeln.
+
+[](){ #tranke-id }
 
 ## Tränke
 

@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: bef-beanspruche
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # BEANSPRUCHE
 
 **`BEANSPRUCHE`**` `*`anzahl gegenstand`*  
 
-Beansprucht Gegenstände aus dem [Parteipool].
+Beansprucht Gegenstände aus dem [Parteipool][parteipool].
 
 Die Gegenstände im Parteipool können von jeder beliebigen Einheit der Partei beansprucht werden, egal, wo diese sich befindet.
 Es können allerdings keine Gegenstände zurück in den Parteipool gelegt werden.
@@ -22,6 +24,5 @@ Die direkte Weitergabe des Gegenstandes ist noch in der selben Runde möglich, [
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEANSPRUCHE&oldid=3992] -->
 
-[Parteipool]: ./faction-pool.md
 [Benutzt]: ./cmd-use.md
 [bef-reserviere]: ./cmd-reserve.md

@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: befehl
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Befehl
 
 ## Konventionen
@@ -106,7 +108,7 @@ Die langen Befehle sind:
 - [[bef-zerstoere]],
 - [[bef-zuechte]]
 
-Alle anderen Befehle sind kurze Befehle ([Kurzbeschreibung] aller Befehle).  
+Alle anderen Befehle sind kurze Befehle ([Kurzbeschreibung][kurzbeschreibung] aller Befehle).  
 
 Du kannst beliebig viele kurze Befehle pro Einheit eingeben.  
 Eine Einheit kann in der Regel nur einen langen Befehl haben.  
@@ -167,15 +169,12 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 
 ## Siehe auch
 
-- [Befehlsreihenfolge]
-- [Kurzbeschreibung]
+- [Befehlsreihenfolge][befehlsreihenfolge]
+- [Kurzbeschreibung][kurzbeschreibung]
 - [[bef-default]]
 
-Weiterlesen: [Befehlsreihenfolge].
-
-[Befehlsreihenfolge]: ./commands-sequence.md
+Weiterlesen: [Befehlsreihenfolge][befehlsreihenfolge].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
 [`OPTION ZUGVORLAGE`]: ./cmd-option.md
-[Kurzbeschreibung]: ./commands-list.md

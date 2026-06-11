@@ -15,11 +15,11 @@ Un ordre `ATTACK` doit être donné pour chaque unité à attaquer.
 
 Les unités qui ne [combattent][cmd-combat] ni à l'avant (`COMBAT` ou `COMBAT AGGRESSIVE`) ni à l'arrière (`COMBAT REAR` ou `COMBAT DEFENSIVE`) ne peuvent pas attaquer.  
 
-Au cours des premières semaines, une faction est [[puppy-protection|immunisée]] contre les attaques.  
+Au cours des premières semaines, une faction est [immunisée][puppy-protection] contre les attaques.  
 
 ## Voir aussi
 
-- [[guerre|La guerre]]
+- [La guerre][guerre]
 - Ordre [[cmd-combat]]
 
 [^1]: `ATTACK` est un [ordre pseudo-long][ordres-courts-et-longs] : c'est un ordre court dans le sens où plusieurs ordres  `ATTACK` peuvent être donnés;

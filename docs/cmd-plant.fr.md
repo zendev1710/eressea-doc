@@ -17,7 +17,7 @@ Cet ordre peut être utilisé pour redonner de la verdure à une région vidée 
 
 L'ordre `PLANT HERBS` nécessite au moins un **niveau 6** en [Herboristerie][herboristerie]{title="Herbalism"}.  
 L'unité tente de planter le nombre spécifié de plantes, jusqu'à un maximum d'une plante par niveau de compétence;  
-Pour ce faire, elle a besoin du nombre approprié de plantes du type correspondant et d'une et une seule fiole de la potion [[tableaux-potions-et-plantes|Water of life]].  
+Pour ce faire, elle a besoin du nombre approprié de plantes du type correspondant et d'une et une seule fiole de la potion [Water of life][tableaux-potions-et-plantes].  
 Il n'est possible de replanter que la plante originaire de la région.
 
 Dans la région, les plantes nouvellement plantées se multiplient très rapidement (sauf en hiver) dès lors qu'elles ne sont pas cueillies pendant quelques semaines.

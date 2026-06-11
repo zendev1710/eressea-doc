@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: bef-helfe
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # HELFE
 
 **`HELFE`**` `*`partei-nr`*`GIB [NICHT]`  
@@ -13,7 +15,7 @@ alias: bef-helfe
 
 Mit diesem Befehl kann eine Partei verschiedene Stufen der Unterstützung für eine andere Partei setzen. Die Gegenpartei erfährt von einer Änderung des Status nichts und muss auch nicht den selben Status haben.
 
-Die einzelnen Modi sind im Abschnitt über [[allianz|Allianzen]] erklärt.
+Die einzelnen Modi sind im Abschnitt über [Allianzen][allianz] erklärt.
 
 Beispiel:
 

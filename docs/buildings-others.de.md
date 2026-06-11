@@ -9,7 +9,7 @@ alias: andere-gebaeude
 
 # Andere Gebäude
 
-Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: [[bef-mache|MACHE leuchtturm]] oder [[bef-mache|MACHE hafen]] xyz.
+Gebäude werden mit dem Befehl [MACHE gebäudetyp] gebaut und mit [MACHE gebäudetyp gebäude-nr][MACHE gebäudetyp] wird an einem Gebäude weitergebaut. Beispiele: [MACHE leuchtturm][bef-mache] oder [MACHE hafen][bef-mache] xyz.
 Für diese Gebäude ist ein Mindesttalentwert in Burgenbau erforderlich, der in der Tabelle angegeben ist. Außerdem können einige Gebäude nur bis zu einer bestimmten Größe ausgebaut werden.
 
 Hier zunächst eine zusammenfassende Tabelle, nähere Erklärungen folgen darunter.

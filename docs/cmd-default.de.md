@@ -15,7 +15,7 @@ alias: bef-default
 Nachdem ich meine Befehle eingeschickt habe und der Server die Auswertung erstellt hat, kommen für jede Einheit bestimmte Befehle zurück.
 Das sind die Defaultbefehle.
 Sie werden in der nächsten Woche ausgeführt, falls du *für diese Einheit* keine Befehle einschickst.
-Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit [[bef-option|`ZUGVORLAGE NICHT`]] abgeschaltet hast.
+Die Defaultbefehle bekommst du mit dem Report als Textdatei (auch Zugvorlage oder Befehlsvorlage genannt) zugeschickt, falls du sie nicht mit [`ZUGVORLAGE NICHT`][bef-option] abgeschaltet hast.
 Außerdem sind sie im Computerreport (CR) enthalten.
 Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man kann dort also nicht alle Defaultbefehle sehen.
 
@@ -54,7 +54,7 @@ Das Gleiche gilt für sonstige ungültige Befehle.
 
 Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden.
 Wenn die Einheit einen `DEFAULT`-Befehl bekommen hat, werden ihre **langen** Befehle nicht in die Vorlage übernommen.
-[[kommentar-mit-schraegstrichen|Lange Kommentare]] (mit `//`) und kurze `@`-Befehle werden dagegen übernommen.
+[Lange Kommentare][kommentar-mit-schraegstrichen] (mit `//`) und kurze `@`-Befehle werden dagegen übernommen.
 Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert.
 Ungültige Befehle werden also nicht übernommen.
 Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.

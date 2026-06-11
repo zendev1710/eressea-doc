@@ -36,7 +36,7 @@ Au premier succès d'un ordre d'apprentissage `LEARN`, l'unité apprenante sera,
 ## Learn skills
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [[races|race]] ou le terrain.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race][races] ou le terrain.
 Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
@@ -88,7 +88,7 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
 [[magic]], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [[tactics]] sont particulièrement difficiles et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
-Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [[magic|ce tableau]]).
+Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [ce tableau][magic]).
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
 Si l'unité est dans une [academy][academy], le coût d'apprentissage des compétences payantes est doublé.
@@ -147,12 +147,12 @@ alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft
 
 Il s'agit du plus grand groupe de compétences.
 Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [[alchemy|alchemy]].
+Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [alchemy][alchemy].
 
 ### Skills for making money
 
 Trade, taxation et entertainment sont nécessaires pour générer des Silver.
-Pour en savoir plus, consultez le chapitre sur [[money|l'argent]].
+Pour en savoir plus, consultez le chapitre sur [l'argent][money].
 
 ### Concealment & Co
 
@@ -161,8 +161,8 @@ Elles ont leur propre chapitre.
 
 ### For travel
 
-Sailing et riding sont expliquées dans le chapitre sur les [[travel|déplacements]].
-riding est également abordé dans le chapitre des [[war-tables|combats]].
+Sailing et riding sont expliquées dans le chapitre sur les [déplacements][travel].
+riding est également abordé dans le chapitre des [combats][war-tables].
 
 [](){ #skills-skill-magic-id }
 
@@ -187,7 +187,7 @@ Les autres compétences essentielles au combat sont :
 - [riding][riding]
 - [tactics][tactics]
 
-Toutes ces compétences sont particulièrement importantes dans les [[war|batailles]], que ce soit contre d'autres factions ou des monstres.
+Toutes ces compétences sont particulièrement importantes dans les [batailles][war], que ce soit contre d'autres factions ou des monstres.
 
 Continue reading: [[skills-list]].
 

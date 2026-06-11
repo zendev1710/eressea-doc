@@ -59,9 +59,9 @@ Vous rencontrerez de nombreux problèmes d’optimisation fondamentaux.
 
 C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent mettre en pratique des algorithmes qui résolvent de tels problèmes d’optimisation dans un laps de temps raisonnable.  
 
-- [[orientation-optimisee|Recherche de chemin et calcul d'itinéraire optimisés]] ([algorithme de recherche A*])
+- [Recherche de chemin et calcul d'itinéraire optimisés][orientation-optimisee] ([algorithme de recherche A*])
 - [[chaines-d-apprentissage-optimisees]] (algorithme de recherche A*, [problème du sac à dos])
-- [[transport-optimise|Systèmes de transport et de commerce optimisés]] (représentant de commerce, problème du sac à dos)
+- [Systèmes de transport et de commerce optimisés][transport-optimise] (représentant de commerce, problème du sac à dos)
 - [[production-optimisee]] (problème du sac à dos)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->

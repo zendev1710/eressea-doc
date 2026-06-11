@@ -28,7 +28,7 @@ Cela signifie également que les unités qui n'ont pas suffisamment de compéten
 
 Un seul ordre apparaît dans le rapport standard (NR).  
 Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.  
-Dans le rapport informatique (CR) et le [[ordres|modèle d'ordres]] tous les ordres `BUY` et `SELL` sont répertoriés.  
+Dans le rapport informatique (CR) et le [modèle d'ordres][ordres] tous les ordres `BUY` et `SELL` sont répertoriés.  
 
 [^1]: Vous pouvez choisir un niveau de compétence total (acteur) x vente et acheter 10 produits de luxe, mais vous ne pouvez plus donner d'autres ordres longs.
 

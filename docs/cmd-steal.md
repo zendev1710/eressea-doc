@@ -23,7 +23,7 @@ If the perception of the victims is even higher than the concealment of the perp
     This means that Silver can be stolen from other units that were not directly targeted by the thieves.
 
 !!! note
-    For the first few weeks, your faction is [[puppy-protection|immune]] to theft.
+    For the first few weeks, your faction is [immune][puppy-protection] to theft.
 
 ## See also
 

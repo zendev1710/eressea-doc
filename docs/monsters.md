@@ -100,7 +100,7 @@ However, boats should let them go in peace
 
 Undead make up the largest part of the monsters.  
 
-They spawn where peasants die (from [famine][starvation] and disease, or as victims of [Dragons][known-dragons]), or where warriors fall in [[war|battle]].  
+They spawn where peasants die (from [famine][starvation] and disease, or as victims of [Dragons][known-dragons]), or where warriors fall in [battle][war].  
 Undead can learn various [[skills]], making them more dangerous.  
 
 They can also mutate, which makes them significantly stronger.  
@@ -109,7 +109,7 @@ In combat, they possess various special attacks and immunities.
 They can attack with their bare hands (and are still considered [[armed]]), but they can also carry weapons.  
 
 !!! note "Note"
-    Some [[magic|mages]] are able to control the undead.  
+    Some [mages][magic] are able to control the undead.  
 
 Until now, seven types of Undead are known.
 

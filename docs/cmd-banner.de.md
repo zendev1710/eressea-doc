@@ -8,7 +8,7 @@ alias: bef-banner
 
 **`BANNER`**`"`*`text`*`"`  
 
-Hiermit kann man eine Beschreibung setzen, die in der Adressliste von [[bef-option|`OPTION ADRESSE`]] erscheint.
+Hiermit kann man eine Beschreibung setzen, die in der Adressliste von [`OPTION ADRESSE`][bef-option] erscheint.
 Darin kann der Name des Spielers stehen, oder eine alternative eMail-Adresse für die Mitspieler.
 Ebenso wird hier vermerkt, wenn eine [Urlaubsvertretung][schummeln] spielt.
 

@@ -17,7 +17,7 @@ This order can be used to restore fresh greenery to a emptied or devastated regi
 
 For `PLANT HERBS` requires at least [Herbalism][herbalism] 6.  
 The unit attempts to plant the specified number of herbs, up to a maximum of one herb per skill level;  
-To do this, she needs the appropriate number of herbs of the corresponding type and a vial of [[tables-potions-and-herbs|Water of Life]] (for no matter how many herbs).  
+To do this, she needs the appropriate number of herbs of the corresponding type and a vial of [Water of Life][tables-potions-and-herbs] (for no matter how many herbs).  
 This means that no herb type can be changed; we always try to plant the herb that is native to the region.  
 
 In the region, newly planted herbs multiply very quickly (except in winter) if they are left alone for a few weeks.  

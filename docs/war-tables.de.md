@@ -170,7 +170,7 @@ RüstungPanzerungChance NahfernPlattenpanzer3115%100%Kettenhemd2110%100%Schild09
 
 Es kann jeweils nur eine Rüstung benutzt werden, mehrere Rüstungen schützen nicht mehrfach.
 
-Nicht alle [[vertraute|Vertrautenrassen]] oder beschworene Monster können Rüstungen benutzen.
+Nicht alle [Vertrautenrassen][vertraute] oder beschworene Monster können Rüstungen benutzen.
 
 Schilde können, obwohl sie als Rüstung zählen, zusammen mit einer Rüstung benutzt werden und wirken dann additiv zur Rüstung, aber auch nur jeweils ein Schild pro Person.
 

@@ -62,7 +62,7 @@ Please be nice to each other.
 Even your most vicious enemy in the game is actually surely a nice person and does not deserve being spammed with hoax mails, nasty pictures or other things.  
 **Anti-social behavior will lead to exclusion from the game.**  
 
-Continue reading: [[beginner-tips|Tips for Beginners]].  
+Continue reading: [Tips for Beginners][beginner-tips].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 

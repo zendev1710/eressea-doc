@@ -21,7 +21,7 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 - [E-Announce] : la mailing list pour les modifications de règles — **IMPORTANT** !
 - [Les outils indispensables pour jouer][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres]
 - [Conseils pour les nouveaux joueurs][conseils-pour-debutants]
-- [[histoire-d-eressea|L'histoire d'Eressea]] : Eressea provient d'[[atlantis]]
+- [L'histoire d'Eressea][histoire-d-eressea] : Eressea provient d'[[atlantis]]
 - [Questions fréquentes (FAQ)][questions-frequentes]
 
 ## Liens utiles
@@ -84,7 +84,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]
 - [Un génerateur de casus belli]
 
-Poursuivre la lecture : [[regles|les règles]].
+Poursuivre la lecture : [les règles][regles].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hauptseite/fr&oldid=13909] -->
 

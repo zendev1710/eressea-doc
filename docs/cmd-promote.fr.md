@@ -13,7 +13,7 @@ alias: cmd-promote-fr
 
 Promeut une unité de votre propre race de faction au statut de **Héros**.  
 
-Les héros sont particulièrement forts en [[guerre|combat]].  
+Les héros sont particulièrement forts en [combat][guerre].  
 **Ils attaquent 5 fois à chaque round de combat**.  
 C'est pourquoi il vaut la peine de promouvoir les unités dotées de compétences de combat au statut de héros.  
 

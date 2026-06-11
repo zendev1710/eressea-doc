@@ -47,7 +47,7 @@ Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [colle
 
 ## Mage
 
-Chaque [[ecoles-de-magie|École de Magie]] possède un sort de niveau 1 qui produit 50 silver par niveau de lanceur de sorts.  
+Chaque [École de Magie][ecoles-de-magie] possède un sort de niveau 1 qui produit 50 silver par niveau de lanceur de sorts.  
 Si votre race n'a pas de pénalité en magie, former des mages tôt peut être intéressant comme source alternative de revenus.  
 Mais attention, parfois les sorts échouent.  
 
@@ -60,9 +60,9 @@ Quand quelque chose est utilisé, par exemple pour fabriquer un objet ou pour re
 
 ## Capacité de chargement
 
-Un [[deplacements|déplacement]] échouera si la [capacité de chargement][capacite-de-transport] du transporteur est inférieure au poids total des personnes, des objets, des équipements etc.  
+Un [déplacement][deplacements] échouera si la [capacité de chargement][capacite-de-transport] du transporteur est inférieure au poids total des personnes, des objets, des équipements etc.  
 
-N'hésitez pas à vérifier l'emplacement de l'ordre `MOVE` dans la [[sequence-des-ordres|séquence des ordres]].  
+N'hésitez pas à vérifier l'emplacement de l'ordre `MOVE` dans la [séquence des ordres][sequence-des-ordres].  
 
 Par exemple, l'ordre `ENTERTAIN` s'exécute avant; avec l'argent potentiellement gagné, un bateau ou une unité pourrait être surchargé.  
 

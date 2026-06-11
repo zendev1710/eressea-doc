@@ -13,11 +13,11 @@ Magic is a mystical and powerful way to change and create things and can weaken 
 
 ## The Study of Magic
 
-Each faction must choose one of the five [[schools-of-magic]]: [[illaun-spells|Illaun]], [[tybied-spells|Tybied]], [[gwyrrd-spells|Gwyrrd]], [[cerddor-spells|Cerddor]] or [[draig-spells|Draig]].  
+Each faction must choose one of the five [[schools-of-magic]]: [Illaun][illaun-spells], [Tybied][tybied-spells], [Gwyrrd][gwyrrd-spells], [Cerddor][cerddor-spells] or [Draig][draig-spells].  
 
 The faction's magic area is determined by the very first unit that learns magic in the faction.
 This is done using the [`LEARN MAGIC "<magic school>"`][cmd-learn].  
-As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all magicians of a [[factions|faction]] then automatically learn the magic school chosen by the faction.  
+As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all magicians of a [faction][factions] then automatically learn the magic school chosen by the faction.  
 However, it is possible to order multiple units to `LEARN MAGIC "<magic school>"` if you are unsure which unit will come first.  
 
 !!! note
@@ -358,7 +358,7 @@ A unit's magic resistance is:
 - the natural magic resistance of the [[races]]
 - plus 5% per magic skill
 - plus 10%*Unicorns per person
-- Possibly bonus or penalty due to [[list-of-spells|spell]] on the unit or region
+- Possibly bonus or penalty due to [spell][list-of-spells] on the unit or region
 - Possibly bonus from [building][stonecircle]
 - These values ​​are added together, but the result can never be higher than 90%
 
@@ -374,7 +374,7 @@ Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have ma
 
  **Examples:**
 
-The base chance is 0% for humans, 10% for [[skills-modifiers|elves]], for [[skills-modifiers|goblins]] it is only -5%.  
+The base chance is 0% for humans, 10% for [elves][skills-modifiers], for [goblins][skills-modifiers] it is only -5%.  
 A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse][d-chaos-curse-id] cast by a Magic 10 unit.  
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  
 <!-- TODO : check original -->
@@ -401,7 +401,7 @@ Opinions on what this second plane of existence actually is vary as widely as th
 Completely different laws of nature prevail in this other world.  
 This fact may be the only reason why the Astral plane has remained a practical application of magic at all: those who manage to blur the boundary between the Astral plane and reality at the right moment using their magical powers can gain great advantages – be it through perceiving things on the other side without being seen themselves, or through rapid travel over great distances.  
 
-Anyone who enters the Astral space -this is only possible through certain [[list-of-spells|spells]] -disappears completely from the real world.  
+Anyone who enters the Astral space -this is only possible through certain [spells][list-of-spells] -disappears completely from the real world.  
 Like the real world, the Astral space is divided into regions with the known cardinal points.  
 Units located at a point in Astral space appear in the report and are played like other units.  
 So you can receive orders like [[cmd-move]] and [[cmd-attack]] and interact with other entities in the astral world.  

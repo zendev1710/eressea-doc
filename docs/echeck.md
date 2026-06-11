@@ -80,7 +80,7 @@ Usage: ./echeck [options] <orders file>
 
 ## See also
 
-- [[sending-orders|Send in orders]]
+- [Send in orders][sending-orders]
 
 ## External links and downloads
 

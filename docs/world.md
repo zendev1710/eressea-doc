@@ -86,7 +86,7 @@ Larger [[castles]] give a small bonus to the silver earned through work in the r
 Furthermore, no more player units can work in this region if all workplaces are occupied.  
 
 The terrain type also determines which [[herbs]] can grow in the region.  
-An alchemist will be able to brew helpful [[alchemy|potions]] from different ingredients.  
+An alchemist will be able to brew helpful [potions][alchemy] from different ingredients.  
 Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there.  
 However, the herbs that grow there cannot be changed.  
 Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted][cmd-plant].  
@@ -278,7 +278,7 @@ Although the influence of the seasons is generally not particularly pronounced, 
 Here is a brief overview:
 
 - Peoples of the [insect][insects] race can hardly recruit in winter
-- Storms at [[travel|sea]] are much more common in autumn
+- Storms at [sea][travel] are much more common in autumn
 - The individual phases of [forest growth][deep-in-the-forest] are linked to seasonal cycle
 - In winter the growth of the [[herbs]] comes to a standstill
 

@@ -30,7 +30,7 @@ Un bateau (capacité de 50 lbs) par exemple, peut transporter une personne (10 l
 
 Si l'on veut recruter des personnes, il faut suffisamment d'argent, car les candidats au recrutement sont souvent particulièrement avides ...  
 Pour chaque personne recrutée, il faut dépenser, selon la race, entre 40 et 150 Silver en frais de recrutement.  
-Le coût du recrutement dépend de la race et est indiqué dans ce [[races|tableau]].  
+Le coût du recrutement dépend de la race et est indiqué dans ce [tableau][races].  
 
 Garder empêche le recrutement (sauf en cas d'utilisation de `HELP`).  
 

@@ -12,7 +12,7 @@ alias: cmd-sell
 **`SELL`**[<sup>`(l)`</sup>]` ALL `*`Luxury item`*  
 
 The unit skilled in [trading][skill-trade-id] can use this order to sell luxury goods that it owns to the farmers.  
-This is only possible if, firstly, there is a trading post or larger [[castles|castle type]] in the region near which the market can be held, and secondly, if there is any demand for the product at all.  
+This is only possible if, firstly, there is a trading post or larger [castle type][castles] in the region near which the market can be held, and secondly, if there is any demand for the product at all.  
 In order to sell something, no contact with the lord of the castle is necessary;  
 Nevertheless, it is of course more diplomatic to ask beforehand...  
 
@@ -28,9 +28,9 @@ It also means that units without enough skill to execute all `BUY` - and `SELL` 
 
 Only one order appears in the normal report (NR).  
 But this is only so that there is not a large list of orders there.  
-In the computer report 5CR) and the [[orders|orders template]], all `BUY` and `SELL` orders are listed.  
+In the computer report 5CR) and the [orders template][orders], all `BUY` and `SELL` orders are listed.  
 
-[^1]: `SELL` is, like [[cmd-buy]], a [[orders|"pseudo-long" order]].
+[^1]: `SELL` is, like [[cmd-buy]], a ["pseudo-long" order][orders].
 
 ## See also
 

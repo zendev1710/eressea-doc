@@ -28,7 +28,7 @@ Cela équivaut à un [[cmd-contact]] permanent pour [[cmd-give]].
 
 ## `HELP COMBAT`
 
-Tes propres unités prêtes au combat (à l'exception de celles ayant `COMBAT FLEE` ou `COMBAT NOT`) [[guerre|rejoindront un combat]] si la faction alliée est attaquée.  
+Tes propres unités prêtes au combat (à l'exception de celles ayant `COMBAT FLEE` ou `COMBAT NOT`) [rejoindront un combat][guerre] si la faction alliée est attaquée.  
 
 ## `HELP SILVER`
 
@@ -39,7 +39,7 @@ La faction bénéficiaire n'a pas besoin de faire de don pour ce type de transfe
 ## `HELP GUARD`
 
 Lève toutes les restrictions de [[cmd-guard]] et étend certaines fonctions utiles à la faction ciblée.  
-Normalement, les factions de garde empêchent les autres factions de [[argent|lever des impôts]], de [recruter][recruter] ou de [[ressources|produire]] des ressources limitées;  
+Normalement, les factions de garde empêchent les autres factions de [lever des impôts][argent], de [recruter][recruter] ou de [produire][ressources] des ressources limitées;  
 Il arrive aussi que certaines unités soient empêchées de [traverser][cmd-guard] ta région.  
 Si ce statut d'aide est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.  
 

@@ -26,7 +26,7 @@ Les directions cardinales dans Eressea sont : le nord-est, le nord-ouest, l'est,
 !!! note
     Les coordonnées (abscisse X et ordonnée Y) ne sont pas utilisées pour cet ordre.
 
-L'ordre a un comportement particulier en ce qui concerne les [ordres par défaut], c'est-à-dire les ordres que l'unité reçoit dans le [[ordres|modèle d'ordres]] la semaine suivante.  
+L'ordre a un comportement particulier en ce qui concerne les [ordres par défaut], c'est-à-dire les ordres que l'unité reçoit dans le [modèle d'ordres][ordres] la semaine suivante.  
 L'ordre `MOVE` n'est pas inclus dans le modèle d'ordres.
 Au lieu de cela, les ordres longs que l'unité avait dans le modèle la semaine précédente sont adoptés.  
 

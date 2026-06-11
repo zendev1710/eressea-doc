@@ -26,7 +26,7 @@ It is similar to a permanent [[cmd-contact]] for [[cmd-give]].
 
 ## `HELP COMBAT`
 
-Your own combat-ready units (except those with `COMBAT FLEE` or `COMBAT NOT`) will [[war|join a fight]] if the allied faction is being attacked.
+Your own combat-ready units (except those with `COMBAT FLEE` or `COMBAT NOT`) will [join a fight][war] if the allied faction is being attacked.
 
 ## `HELP SILVER`
 
@@ -36,7 +36,7 @@ No HELP GIVE is required by the receiving faction for this kind of transfer.
 
 ## `HELP GUARD`
 
-Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [[money|raise taxes]], [recruit][recruiting], or [[resources|produce]] finite resources and sometimes other units are prevented from [traveling through][cmd-guard] your region.
+Lifts all the restrictions of [[cmd-guard]] and extends some useful functions to the target faction: Normally guarding factions do not let other factions [raise taxes][money], [recruit][recruiting], or [produce][resources] finite resources and sometimes other units are prevented from [traveling through][cmd-guard] your region.
 If this help status is set, units of the other factions are allowed to do all that, so they can travel, mine, or recruit freely.
 
 Additionally, allied factions are allowed long orders [after battles][the-end] if you guard the region.

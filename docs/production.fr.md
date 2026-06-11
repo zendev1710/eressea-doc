@@ -10,7 +10,7 @@ alias: production-fr
 
 Diverses choses peuvent être produites à Eressea.  
 
-Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [[objets|produits finis]] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [[routes]] et des [[alchimie|potions]].  
+Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [produits finis][objets] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [[routes]] et des [potions][alchimie].  
 Pour pouvoir produire, il faut posséder les compétences appropriées.  
 
 La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
@@ -72,7 +72,7 @@ Pour faciliter la collecte, il existe une [[reserve-d-objets]].
 ## Voir aussi
 
 - [Ressources][ressources]
-- [[items|Goods]]
+- [Goods][items]
 - [Routes][routes-id]
 - [[ships]]
 - [[buildings]]

@@ -15,7 +15,7 @@ This is just a short overview, all details are given in the respective chapters.
 
 ## Alchemy
 
-Make [[alchemy|potions]] from [[herbs]]. Learning costs 200 silver per person. There can be no more than three alchemists per faction.
+Make [potions][alchemy] from [[herbs]]. Learning costs 200 silver per person. There can be no more than three alchemists per faction.
 
 [](){ #skill-armoursmithing-id }
 
@@ -75,13 +75,13 @@ Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
 ## Herbalism
 
-Find [[herbs]] to make [[alchemy|potions]]. Learning cost is 200 Silver per week. With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+Find [[herbs]] to make [potions][alchemy]. Learning cost is 200 Silver per week. With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
 
 [](){ #skill-magic-id }
 
 ## [[magic]]
 
-This allows you to cast combat spells and other types spells. Learning magic [[magic|costs silver]] depending on the level.
+This allows you to cast combat spells and other types spells. Learning magic [costs silver][magic] depending on the level.
 
 [](){ #skill-masonry-id }
 

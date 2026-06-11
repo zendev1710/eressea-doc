@@ -261,7 +261,7 @@ L'état de santé d'une unité peut être à l'une des valeurs suivantes :
 On ne peut utiliser qu'une seule armure à la fois.  
 Être équipé de plusieurs armures n'offre pas plusieurs niveaux de protection.  
 
-Aucun monstre invoqué ni [[familiers|Familier]] ne peut utiliser d'armure.  
+Aucun monstre invoqué ni [Familier][familiers] ne peut utiliser d'armure.  
 
 Bien que les boucliers soient considérés comme des armures, ils peuvent être utilisés en complément d'une armure et avoir alors un effet additif sur celle-ci, mais pour un seul bouclier par personne.  
 

@@ -13,7 +13,7 @@ alias: liste-des-sorts
 
 **Légende.**
 
-**C** : [[sorts-cerddor|Cerddor]], **D** : [[sorts-draig|Draig]], **G** : [[sorts-gwyrrd|Gwyrrd]], **I** : [[sorts-illaun|Illaun]], **T** : [[sorts-tybied|Tybied]]  
+**C** : [Cerddor][sorts-cerddor], **D** : [Draig][sorts-draig], **G** : [Gwyrrd][sorts-gwyrrd], **I** : [Illaun][sorts-illaun], **T** : [Tybied][sorts-tybied]  
 
 | Nom                                                                                                                    | École  | Composants                                                                                                                          | Niv. |    Type | Rang | B                                | D                            |
 |------------------------------------------------------------------------------------------------------------------------|:------:|-------------------------------------------------------------------------------------------------------------------------------------|-----:|--------:|:----:|:---------------------------------|:-----------------------------|
@@ -166,7 +166,7 @@ alias: liste-des-sorts
 | [Voie magique][voie-magique]{title=""Magic Path"}                                                                      |   G    | N aura, 1 [pierre][pierre]{title="Stone"}, 1 [bois][bois]{title="Wood"}                                                             |    4 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
 | [Vol d'aura][vol-daura]{title="Steal aura"}                                                                            |   T    | 2 x N aura                                                                                                                          |    6 |      -- |  3   |                                  | :material-check:{ .success } |
 
-Poursuivre la lecture : [[alchimie|potions]].
+Poursuivre la lecture : [potions][alchimie].
 
 [^1]: toutes les Écoles de Magie permettent de lancer ce sort
 [^2]: le niveau du sort varie selon l'École de Magie. C : 9, D : 13, G : 10, I : 10, T : 12

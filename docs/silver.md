@@ -21,7 +21,7 @@ Because persons (of most [[races]]) can carry 5.4 UW/lbs, they can carry up to 5
 
 ### Recruiting
 
-If you want to [recruit] people, all you need is enough small change, because those willing to be recruited are often particularly thirsty. Depending on the race, you have to spend between 40 and 150 silver as recruitment costs for each person you recruit. The amount of the recruitment costs depends on the race and can be found in the [[races|modifiers table]].
+If you want to [recruit] people, all you need is enough small change, because those willing to be recruited are often particularly thirsty. Depending on the race, you have to spend between 40 and 150 silver as recruitment costs for each person you recruit. The amount of the recruitment costs depends on the race and can be found in the [modifiers table][races].
 
 Recruitment is prevented by guarding.
 

@@ -9,7 +9,7 @@ alias: cmd-sort-fr
 **`SORT`**` BEFORE `*`unit-id`*  
 **`SORT`**` AFTER `*`unit-id`*  
 
-Cet ordre modifie l'ordre de tes unités **dans le rapport** et l'[[orders|évaluation des ordres]].  
+Cet ordre modifie l'ordre de tes unités **dans le rapport** et l'[évaluation des ordres][orders].  
 Cela permet, par exemple, d'afficher les *élèves* (unités exécutant l'ordre `LEARN`) et les *enseignants* (unités exécutant l'ordre `TEACH`) les uns en dessous des autres.  
 
 !!! info

@@ -8,7 +8,7 @@ alias: cmd-comment
 
 The semicolon “;” is used in Eressea orders to mark (temporary) comments.
 Some of these comments are inserted "automatically".
-For example, the standard [[orders|orders template]] always contains the names of regions and units, the number of people and their silver supply as a comment.
+For example, the standard [orders template][orders] always contains the names of regions and units, the number of people and their silver supply as a comment.
 In addition, comments are also used to provide the [ECheck][echeck-id] program with certain information, such as wages in a region.
 
 ```text
@@ -49,7 +49,7 @@ UNIT ub2;  Handyman [3,0$] flieht
 ```
 
 The player himself can also insert comments after a semicolon.
-However, since these comments are not included in next week's template, permanent comments after [[comment-with-slashes|`//`]] usually make more sense.
+However, since these comments are not included in next week's template, permanent comments after [`//`][comment-with-slashes] usually make more sense.
 
 To save transmission capacity, temporary comments can be removed before sending the orders.
 Some tools do this, like [[magellan]] or VPP.

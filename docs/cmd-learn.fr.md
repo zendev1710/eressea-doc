@@ -11,7 +11,7 @@ alias: cmd-learn-fr
 **`LEARN`**` `*`<compétence>`*  
 **`LEARN`**`Magic "`*`<École de Magie>`*`"`  
 
-Avec cet ordre, l'unité passe un tour à [apprendre][apprendre-des-competences] une [[competences|compétence]] donnée (voir aussi : [[liste-des-competences]]).  
+Avec cet ordre, l'unité passe un tour à [apprendre][apprendre-des-competences] une [compétence][competences] donnée (voir aussi : [[liste-des-competences]]).  
 
 En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues à la race ou au terrain.  
 
@@ -20,7 +20,7 @@ Par exemple, passer du niveau 2 au niveau 3 prend environ 3 semaines.
 Généralement, un niveau de compétence de 2 est deux fois plus efficace qu'un niveau de compétence de 1;  
 un niveau de compétence de 3 est trois fois plus efficace, et ainsi de suite.  
 
-Avec un ordre de la forme `LEARN <Compétence> 200`, vous pouvez indiquer à des outils tiers (comme [ECheck][echeck-id]) les [[competences|coûts d'apprentissage]] de la compétence (ici 200 silver).  
+Avec un ordre de la forme `LEARN <Compétence> 200`, vous pouvez indiquer à des outils tiers (comme [ECheck][echeck-id]) les [coûts d'apprentissage][competences] de la compétence (ici 200 silver).  
 Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'évaluation (d'exécution des ordres).
 
 ## Apprentissage accéléré
@@ -36,7 +36,7 @@ Avec l'ordre [[cmd-learn-auto]], le serveur **tentera d'automatiser** l'apprenti
 
 ## École de Magie
 
-L'ordre `LEARN Magic "<Magic School>"` détermine [[magie|l'École de Magie]] pour une faction qui n'en a pas déjà une.
+L'ordre `LEARN Magic "<Magic School>"` détermine [l'École de Magie][magie] pour une faction qui n'en a pas déjà une.
 
 ## Voir aussi
 

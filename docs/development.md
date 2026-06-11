@@ -57,9 +57,9 @@ You will encounter many fundamental optimization problems.
 
 This is exactly the right thing for (prospective) computer scientists to deal with algorithms in practice that solve such optimization problems in a reasonable amount of time.
 
-- [[optimize-wayfinding|Way finding / Route calculation]] ([A* search algorithm])
+- [Way finding / Route calculation][optimize-wayfinding] ([A* search algorithm])
 - [[optimize-learning-chains]] (A* search algorithm, [backpack problem])
-- [[optimize-transport|Transportation and trading systems]] (traveling salesman, Backpack problem)
+- [Transportation and trading systems][optimize-transport] (traveling salesman, Backpack problem)
 - [[optimize-production]] (backpack problem)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->

@@ -36,7 +36,7 @@ So randomly between 5 and 15 per trade item if he has it.
 
 Only one order appears in the normal report.  
 But this is only so that there is not a large list of orders there.  
-In the computer report and the [[orders|orders template]] are all `BUY` and `SELL` orders listed.  
+In the computer report and the [orders template][orders] are all `BUY` and `SELL` orders listed.  
 
 [^1]: You can implement a total of skill level (trading) x 10 luxury goods, but you cannot give any other long orders.  
 

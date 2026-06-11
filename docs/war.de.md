@@ -207,7 +207,7 @@ Eine Armbrust kann demnach jede dritte Runde schießen, Bögen sogar jede Runde.
 Verschiedene Faktoren können die Chance, jemanden zu treffen (Attacke) oder einen Treffer abzuwehren (Parade), modifizieren.
 Alle Boni und Mali wirken sich direkt auf das Talent aus und werden vor einer eventuellen Talent-Halbierung durch Fernkämpfer angerechnet.
 Die Schadenspunkte, die eine Person austeilt, werden durch die Boni und Mali nicht verändert, hier zählen die unmodifizierten Talentwerte.
-Siehe verkürzt auch [[kriegstabellen|diese Tabelle]].
+Siehe verkürzt auch [diese Tabelle][kriegstabellen].
 
 Unbewaffnete  
 Als unbewaffnet gelten auch Personen, die kein passendes Waffentalent zu ihrer Waffe haben.
@@ -307,7 +307,7 @@ Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppe
 
 ## Die Flucht
 
-Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [[bef-attackiere|attackiert]] werden, versuchen zu fliehen.
+Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [attackiert][bef-attackiere] werden, versuchen zu fliehen.
 Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
 
 Personen mit [`KÄMPFE`] oder [`KÄMPFE HINTEN`][`KÄMPFE`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`KÄMPFE`] oder [`KÄMPFE NICHT`][`KÄMPFE`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben.
@@ -330,7 +330,7 @@ Dies geschieht zu Beginn der Runde, womit alle Effekte von [[bef-bewache]] sofor
 
 ## Kampf auf und von Schiffen
 
-Seeschlachten werden wie Schlachten zu Land ausgefochten: Die [[schiff|Schiffe]] entern sich gegenseitig und die Einheiten fallen übereinander her.
+Seeschlachten werden wie Schlachten zu Land ausgefochten: Die [Schiffe][schiff] entern sich gegenseitig und die Einheiten fallen übereinander her.
 Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.
 
 Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war.
@@ -342,7 +342,7 @@ Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrund
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden][schiffsschaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [[bef-bewache|bewachten]] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
+Will man mit einem Schiff Truppen in einer feindlich [bewachten][bef-bewache] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
 Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen.
@@ -356,7 +356,7 @@ Mit **Piraterie** hat ein Schiffskapitän die Möglichkeit, Schiffe anderer Part
 
 Der Kapitän legt sich auf die Lauer nach Schiffen, die nach ihrer Bewegung in einer Nachbarregion liegen.
 Dort angekommen, kann die Mannschaft in der kommenden Runde ganz normal agieren.
-Mit Hilfe von [[bef-folge|`FOLGE SCHIFF`]] könnte man zum Beispiel seine Opfer auch erstmal verfolgen.
+Mit Hilfe von [`FOLGE SCHIFF`][bef-folge] könnte man zum Beispiel seine Opfer auch erstmal verfolgen.
 Bei der ganzen Geschichte sind einige Sachen zu beachten:
 
 - Als Ziele werden nur Parteien erkannt, mit denen man nicht mit `HELFE KÄMPFE` alliiert ist.
@@ -374,16 +374,16 @@ Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von a
 Einheiten, die im Kampf verletzt wurden, bleiben verletzt.
 Dies wird im Report mit angezeigt.
 Im Laufe der Zeit erholen sich die verletzten Einheiten wieder.
-Dabei regenerieren Einheiten normalerweise 5% (einige [[talentmodifikatoren|rassen]] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit.
+Dabei regenerieren Einheiten normalerweise 5% (einige [rassen][talentmodifikatoren] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit.
 Untote Einheiten regenerieren nicht.
 
-Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][bef-helfe] gesetzt hat, [[allianz|bewacht]] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.
+Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][bef-helfe] gesetzt hat, [bewacht][allianz] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.
 Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen.
 Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden).
 Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
 Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See.
-Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[[bef-folge|`FOLGE SCHIFF`]].
+Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[`FOLGE SCHIFF`][bef-folge].
 Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Siehe auch

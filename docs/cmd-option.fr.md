@@ -74,7 +74,7 @@ Si cette option est activée, un résumé statistique est affiché après chaque
 
 **OPTION**&nbsp;TEMPLATE &#91;NOT&#93;  
 
-Si cette option est activée, un fichier séparé contiendra un [[ordres|modèle d'ordres du prochain tour]].  
+Si cette option est activée, un fichier séparé contiendra un [modèle d'ordres du prochain tour][ordres].  
 Si vous n'en avez pas besoin, par exemple parce que vous utilisez un outil pour renseigner les ordres, il est recommandé de désactiver cette option.  
 
 ## `OPTION ZIPPED|BZIP2`

@@ -9,7 +9,7 @@ alias: introduction
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Eressea map view")
 
-In Eressea, each player takes charge of a [[factions|faction]] of people of a certain [[races|race]] that they can choose at [sign up][registration]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
+In Eressea, each player takes charge of a [faction][factions] of people of a certain [race][races] that they can choose at [sign up][registration]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")

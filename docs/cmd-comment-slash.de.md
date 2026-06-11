@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: kommentar-mit-schraegstrichen
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # KOMMENTAR (//)
 
 **`//`**` `*`Kommentar`*
 
-Im Gegensatz zu einem Kommentar hinter einem [[bef-kommentar|;]] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
+Im Gegensatz zu einem Kommentar hinter einem [;][bef-kommentar] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
 
 ```text
 EINHEIT 123;     Hundertdreiundzwanzig [20,450$]

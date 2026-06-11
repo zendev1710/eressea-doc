@@ -2,6 +2,8 @@
 # cSpell:locale de
 alias: entwicklung
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Entwicklung
 
 Diese Seite soll Entwickler verschiedener Tools oder Skriptentwickler zusammenführen bzw. auf Fragestellungen eingehen die sich immer wieder stellen.
@@ -55,9 +57,9 @@ Dabei trifft man viele grundlegende Optimierungprobleme an.
 
 Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithmen zu beschäftigen, die solche Optimierungsprobleme in angemessener Zeit lösen.  
 
-- [[automatisierung-wegfindung|Wegfindung / Routenberechnung]] ([A*-Algorithmus])
-- [[optimierung-lernketten|Optimierung von Lernketten]] (A*-Algorithmus, [Rucksackproblem])
-- [[optimierung-transport|Transport- und Handelssysteme]] (Handelsreisender, Rucksackproblem)
+- [Wegfindung / Routenberechnung][automatisierung-wegfindung] ([A*-Algorithmus])
+- [Optimierung von Lernketten][optimierung-lernketten] (A*-Algorithmus, [Rucksackproblem])
+- [Transport- und Handelssysteme][optimierung-transport] (Handelsreisender, Rucksackproblem)
 - [[optimierung-transport]] (Rucksackproblem)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->

@@ -8,7 +8,7 @@ alias: cmd-default
 
 **`DEFAULT "<order>"`**  
 
-`DEFAULT` changes the [[orders|order]] that a unit normally issues **in the next week**.  
+`DEFAULT` changes the [order][orders] that a unit normally issues **in the next week**.  
 
 ## Orders template and default orders
 
@@ -24,7 +24,7 @@ So you can't see all the default orders there.
 All [long orders][short-and-long-orders] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.  
 
-In addition, all [[comment-with-slashes|`//`]] and all orders beginning with `@` are adopted.
+In addition, all [`//`][comment-with-slashes] and all orders beginning with `@` are adopted.
 The spelling may be standardized.  
 
 Orders sent in:

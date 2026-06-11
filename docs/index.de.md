@@ -23,7 +23,7 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 - [Anfängertipps][anfangertipps-id]
 - Die [Geschichte von Eressea][geschichte-von-eressea]
 - Eressea stammt von [[atlantis]] ab
-- [[faq|Häufig gestellte Fragen]] an die Spielleitung.
+- [Häufig gestellte Fragen][faq] an die Spielleitung.
 
 ## Sehenswerte Seiten
 

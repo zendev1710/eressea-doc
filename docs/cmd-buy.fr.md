@@ -35,7 +35,7 @@ Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.
 
 Un seul ordre apparaît dans le rapport standard (NR).  
 Mais c'est uniquement pour qu'il n'y ait pas une longue liste d'ordres.  
-Dans le rapport informatique (CR) et le [[ordres|modèle d'ordres]] tous les ordres `BUY` et `SELL` sont répertoriés.  
+Dans le rapport informatique (CR) et le [modèle d'ordres][ordres] tous les ordres `BUY` et `SELL` sont répertoriés.  
 
 [^1]: Vous pouvez mettre en œuvre un total de niveau de compétence (commerce) x 10 produits de luxe, mais vous ne pouvez pas passer d'autres ordres longs.
 

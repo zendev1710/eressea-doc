@@ -84,7 +84,7 @@ Größere [[burgen]] geben zwar einen kleinen Bonus auf den Silberverdienst durc
 Des Weiteren können auch keine Spieler-Einheiten in dieser Region mehr arbeiten, sollten alle Arbeitsplätze belegt sein.  
 
 Die Geländeart legt außerdem fest, welche [[kraeuter]] in der Region wachsen können.  
-Ein Alchemist wird aus unterschiedlichen Zutaten hilfreiche [[alchemie|Tränke]] brauen können.  
+Ein Alchemist wird aus unterschiedlichen Zutaten hilfreiche [Tränke][alchemie] brauen können.  
 Manche Kräuter gedeihen nur in Wüsten, andere brauchen das sumpfige Klima eines Moors, so gibt es für jedes Terrain Kräuter, die nur dort wachsen können.  
 Das dort wachsende Kraut kann allerdings nicht verändert werden.  
 Selbst wenn alle Kräuter aus der Region gezupft wurden, kann nur das ursprünglich dort wachsende Kraut wieder [angepflanzt] werden.  

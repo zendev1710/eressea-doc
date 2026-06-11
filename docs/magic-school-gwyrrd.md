@@ -8,7 +8,7 @@ alias: gwyrrd-spells
 
 ## Level 1
 
-### Create [[stone-golem|Stone Golems]]
+### Create [Stone Golems][stone-golem]
 
 <div class="lore-dialogue">
 "Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock.
@@ -51,7 +51,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## Level 2
 
-### Create [[iron-golem|Iron Golems]]
+### Create [Iron Golems][iron-golem]
 
 :   The more power the magician invests, the more golems can be created.  
     Each golem has a 15 percent chance of turning to dust each round.  
@@ -75,7 +75,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## Level 3
 
-### [[mountain-guard|Mountain Guardian]]
+### [Mountain Guardian][mountain-guard]
 
 :   Creates a guardian spirit that prevents iron and metal mining in glaciers and mountains by non-allied factions (`HELP GUARD`) as long as it guards the region.  
     The mountain guardian is bound to the location of the summoning.

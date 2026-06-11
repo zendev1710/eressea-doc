@@ -6,10 +6,10 @@ alias: tableau-recapitulatif-des-ordres
 <!-- markdownlint-disable MD052 -->
 # Tableau récapitulatif des ordres
 
-`C`/`L`indique si l'[[ordres|ordre]] est un ordre Court ou Long.  
+`C`/`L`indique si l'[ordre][ordres] est un ordre Court ou Long.  
 Une unité ne peut exécuter qu’un seul ordre long par tour, mais peut exécuter n’importe quel nombre d’ordres courts.
 
-`PL` désigne un [[ordres|ordre Pseudo-Long]], qui peut être donné plusieurs fois à une unité.  
+`PL` désigne un [ordre Pseudo-Long][ordres], qui peut être donné plusieurs fois à une unité.  
 Toutefois, aucun autre ordre long ne peut être exécuté.  
 
 Plus d'information : [[ordres]].

@@ -46,7 +46,7 @@ There are various [tools][how-to-submit-orders-and-what-you-get-in-return] that 
 Be careful when using web interfaces such as GMX or GMail!  
 These have proven to be problematic in the past because emails were formatted incorrectly.  
 
-Users of [[magellan]] can most conveniently [[sending-orders-from-magellan|send orders directly from the program]], without having to go through email programs or web mailers.  
+Users of [[magellan]] can most conveniently [send orders directly from the program][sending-orders-from-magellan], without having to go through email programs or web mailers.  
 
 The orders must always be sent to [eressea-server@kn-bremen.de] with the subject **ERESSEA 2 ORDERS**.  
 If these subjects are not used, the emails will not be recognized by the game server and will be ignored.  
@@ -183,7 +183,7 @@ Between the quotation marks, multiple spaces, line breaks and tabs are always co
 
 Any text that follows a semicolon (`;`) is considered a [comment][cmd-comment].  
 Comments can make it much easier to understand the moves you made next time.  
-If you write comments using the [[comment-with-slashes|comment order `//`]], the comment is automatically included in the [[orders|move template]] of the next round.  
+If you write comments using the [comment order `//`][comment-with-slashes], the comment is automatically included in the [move template][orders] of the next round.  
 
 Multiple trains can be sent in.  
 You can certainly send in orders for only a few units and thus save yourself and the server transfer volume.  
@@ -192,7 +192,7 @@ The date of the email (Date: header) is used as the order.
 
 ## See also
 
-- [[world|The World of Eressea]]
+- [The World of Eressea][world]
 - [[first-round]]
 - [[orders]]
 

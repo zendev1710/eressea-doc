@@ -15,7 +15,7 @@ One order must be given for each unit to be attacked.
 
 Units that are not [fighting][cmd-combat] at the front (`COMBAT` or `COMBAT AGGRESSIVE`) or rear (`COMBAT REAR` or `COMBAT DEFENSIVE`) cannot attack.  
 
-In the first few weeks, a faction is [[puppy-protection|immune]] to attacks.  
+In the first few weeks, a faction is [immune][puppy-protection] to attacks.  
 
 ## See also
 

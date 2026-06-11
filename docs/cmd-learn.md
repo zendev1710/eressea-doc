@@ -11,13 +11,13 @@ alias: cmd-learn
 **`LEARN`**` `*`skill`*  
 **`LEARN`**`Magie "`*`Magic School`*`"`  
 
-With this order, the unit spends one turn [learning][learn-skills] the specified [[skills|skill]] (see also: [[skills-list]]).
+With this order, the unit spends one turn [learning][learn-skills] the specified [skill][skills] (see also: [[skills-list]]).
 On average, advancing to a new skill level through pure learning takes approximately a number of weeks corresponding to the targeted skill level, without taking modifications due to race or terrain into account.
 To go from level 2 to 3 takes about 3 weeks. Typically, a skill rating of 2 is twice as effective as a skill rating of 1, a skill rating of 3 is three times as effective, and so on.
 
-The order `LEARN Magic "Magic School"` determines the [[magic|magic school]] for a faction that does not already have one.
+The order `LEARN Magic "Magic School"` determines the [magic school][magic] for a faction that does not already have one.
 
-With `LEARN`*`Taktik`*`200` you can tell tools like  [ECheck][echeck-id] how high the [[skills|learning costs]] are (here 200 silver).
+With `LEARN`*`Taktik`*`200` you can tell tools like  [ECheck][echeck-id] how high the [learning costs][skills] are (here 200 silver).
 However, this is not evaluated by the server.
 
 ## See also

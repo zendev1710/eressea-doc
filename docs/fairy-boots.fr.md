@@ -17,5 +17,5 @@ Elles permettent à leur porteur de **se déplacer deux fois plus vite**.
 Elles ne peuvent être portées que par des [elfes][elfes].
 
 !!! note "Note"
-    Cet objet magique équipe la première unité d'une [faction][faction] d'Elfes au [[premier-tour|premier tour de jeu]].  
+    Cet objet magique équipe la première unité d'une [faction][faction] d'Elfes au [premier tour de jeu][premier-tour].  
     Il n'est pas possible d'en fabriquer.

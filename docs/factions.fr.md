@@ -10,9 +10,9 @@ Dans Eressea, un joueur dirige ce que l'on appelle une **faction**.
 
 Une faction est au départ composée d'une seule **unité** d'une personne, puis progressivement d'un grand nombre d'unités.  
 
-Une unité est composée d'une, de quelques ou même de milliers de personnes de la **[[races|race]]** de la faction.  
+Une unité est composée d'une, de quelques ou même de milliers de personnes de la **[race][races]** de la faction.  
 
-Chaque unité peut posséder autant d'objets et [[argent|d'argent]] (***silver***) qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
+Chaque unité peut posséder autant d'objets et [d'argent][argent] (***silver***) qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
 Vous pouvez donner aux unités des [[ordres]] à chaque tour, qu'elles exécuteront du mieux possible.
 
 Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).
@@ -26,7 +26,7 @@ La faction commence la partie avec une **unité**, composée d'une personne avec
 
 Cette première personne n'est en aucun cas spéciale;  
 il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
-Vous pouvez [recruter][recruter] de nouvelles personnes, également [[objets|produire des objets]], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [[tableaux-relatifs-a-la-guerre|armes]] et ainsi de suite.  
+Vous pouvez [recruter][recruter] de nouvelles personnes, également [produire des objets][objets], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [armes][tableaux-relatifs-a-la-guerre] et ainsi de suite.  
 
 Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [`MAKE TEMP`][cmd-make].  
 Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [transférer][cmd-give] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
@@ -56,7 +56,7 @@ Exemple d'unités :
 ```
 
 Vos propres unités sont marquées du caractère '*'.  
-Les unités des autres factions sont marquées d'un '-', ou '+' si vous [[alliances|êtes allié]] à cette faction.
+Les unités des autres factions sont marquées d'un '-', ou '+' si vous [êtes allié][alliances] à cette faction.
 
 Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.  
 Dans le premier cas ici l'ID est ***tb2***.  
@@ -70,7 +70,7 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][skill-melee-fr-id]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
 Il maîtrise [taxation][cmd-tax] au niveau 2 (pour plus de détails : les [[competences]]).  
-Comme vous pouvez le voir, Konrad a également une [[tableaux-relatifs-a-la-guerre|épée]]{title="Sword"}.  
+Comme vous pouvez le voir, Konrad a également une [épée][tableaux-relatifs-a-la-guerre]{title="Sword"}.  
 "`TAX`" est ce qu'on appelle un ordre par [défaut][cmd-default].  
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  
@@ -83,10 +83,10 @@ Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section 
 Une unité peut garder une région (pour plus de détails sur les conséquences, voir [[cmd-guard]]).  
 Cela sera noté par "guards the region" dans le rapport.
 
-Enfin, une unité peut être blessée lors d'un [[guerre|combat]] ou d'une [famine][famine].  
+Enfin, une unité peut être blessée lors d'un [combat][guerre] ou d'une [famine][famine].  
 Elle sera notée *[`exhausted`][etat-de-sante]* (épuisée), *`wounded`* (blessée), ou même *`badly wounded`* (gravement blessée).
 
-L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [[bourse-d-argent|bourse d'argent]]{title="Silverbag"}.  
+L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [bourse d'argent][bourse-d-argent]{title="Silverbag"}.  
 Cela signifie qu'elle possède au moins 500 Silver.  
 Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.  
 Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée][cmd-hide], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
@@ -95,7 +95,7 @@ La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
 
 Enfin, des alliés [Trolls][trolls-fr-id]{title="Trolls"} transportent des gems (joyaux).  
 En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls-fr-id]{title="Trolls"}, il y a beaucoup d'autres races en Eressea.  
-Elles sont décrites dans [[races|ce chapitre]].
+Elles sont décrites dans [ce chapitre][races].
 
 Vous ne disposez que d'informations limitées sur les unités étrangères.  
 Leur statut au combat, leurs blessures, leurs compétences, leur groupe, leur camouflage de faction ou de race, leur statut de héros et leurs sorts sont cachés.  
@@ -103,7 +103,7 @@ La plupart des objets sont visibles, mais l'argent, les herbes et les objets mag
 
 ### Dissolution des unités
 
-Si une unité se retrouve sans personne à la [[sequence-des-ordres|fin du tour]] (que ce soit à cause de la famine, en donnant des personnes ou en ne les obtenant jamais), elle sera dissoute.  
+Si une unité se retrouve sans personne à la [fin du tour][sequence-des-ordres] (que ce soit à cause de la famine, en donnant des personnes ou en ne les obtenant jamais), elle sera dissoute.  
 Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon (elle doit avoir [`HELP silver`][cmd-help] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre).  
 En général, c'est à la première unité dans l'ordre du rapport que tout revient.  
 Si les deux options ne sont pas possibles, l'argent et les chevaux vont à la région et tous les autres objets sont perdus.
@@ -115,7 +115,7 @@ Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
 
 ## Voir aussi
 
-- [[reserve-de-faction|Réserve de faction]]
+- [Réserve de faction][reserve-de-faction]
 - [[ordres]]
 
 Poursuivre la lecture : [[races]].

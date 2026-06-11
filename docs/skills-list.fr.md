@@ -18,16 +18,16 @@ Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous
 *Alchemy (EN), Alchemie (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de concocter des [potions][potions-fr-id] à partir de [[plantes|plantes]]{title="Herbs"}.  
+Cette compétence permet de concocter des [potions][potions-fr-id] à partir de [plantes][plantes]{title="Herbs"}.  
 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
 !!! note "Important"
-    Une [[factions|faction]] ne peut compter que **3 alchimistes** au plus.
+    Une [faction][factions] ne peut compter que **3 alchimistes** au plus.
 
 Plus d'information :
 
-- Chapitre dédié : [[alchimie|l'alchimie]]
+- Chapitre dédié : [l'alchimie][alchimie]
 - Ordre [[cmd-make]]
 - Ordre [[cmd-use]]
 
@@ -90,7 +90,7 @@ Plus d'information :
 *Roadwork (EN), Straßenbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de construire des [[routes|routes]] avec des [pierres][pierre].  
+Cette compétence permet de construire des [routes][routes] avec des [pierres][pierre].  
 
 Une pierre peut être posée par personne, par niveau de compétence et par tour.
 
@@ -238,7 +238,7 @@ Une unité peut fabriquer un chariot par personne et niveau de compétence.
 *Herbalism (EN), Kräuterkunde (DE)*.
 <!-- cspell:enable -->
 
-Permet de récolter des [[plantes]] pour concocter des [[alchimie|potions]].  
+Permet de récolter des [[plantes]] pour concocter des [potions][alchimie].  
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
@@ -261,7 +261,7 @@ Permet de construire des [[batiments-speciaux]] et des [châteaux][chateaux]{tit
 
 Permet de lancer des sorts de combat et d'autres types de sorts.  
 
-L'apprentissage de la magie [[magie|coûte de l'argent]] par personne et par tour, en fonction du niveau.
+L'apprentissage de la magie [coûte de l'argent][magie] par personne et par tour, en fonction du niveau.
 
 [](){ #skill-melee-fr-id }
 
@@ -323,7 +323,7 @@ L'apprentissage de la tactique coûte 200 silver par tour et par personne.
 
 Cette compétence permet de collecter les impôts auprès des paysans.  
 
-Une unité peut collecter 20 silver auprès des paysans, par niveau de compétence et par personne **[[arme-et-pret-au-combat|armée et prête au combat]]**.  
+Une unité peut collecter 20 silver auprès des paysans, par niveau de compétence et par personne **[armée et prête au combat][arme-et-pret-au-combat]**.  
 
 Cette compétence n'augmente pas en l'utilisant, pas plus que la compétence d'arme correspondante.  
 

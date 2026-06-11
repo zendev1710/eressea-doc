@@ -15,7 +15,7 @@ These buildings require a minimum level in Masonry skill, which is indicated in 
 
 Here is a summarized table, more detailed explanations follow below.
 
-Building; see also table on [[castles|building castles]]  
+Building; see also table on [building castles][castles]  
 
 The capacity refers only to the persons who can benefit from the building.  
 
@@ -113,7 +113,7 @@ The capacity refers only to the persons who can benefit from the building.
 
 **Example:**
 
-With [[alchemy|water of life]] you can create wood with a sawmill.
+With [water of life][alchemy] you can create wood with a sawmill.
 With [USE 1 "water of life"][cmd-use] you can create 10 saplings using 10 wood.
 You can then immediately cut them with a sawmill, producing 20 wood.
 

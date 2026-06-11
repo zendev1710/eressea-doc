@@ -10,7 +10,7 @@ alias: cmd-recruit-fr
 
 Cela implique l'embauche de nouvelles personnes parmi les agriculteurs de la région.  
 
-Selon la [[races|race]], vous devez dépenser entre 40 et 150 Silver en [[skills-modifiers|coût de recrutement]] par personne embauchée.  
+Selon la [race][races], vous devez dépenser entre 40 et 150 Silver en [coût de recrutement][skills-modifiers] par personne embauchée.  
 L'unité qui recrute de nouveaux membres doit posséder cet argent.  
 Lorsqu'une nouvelle unité est créée, vous devez lui donner l'argent nécessaire pour qu'elle puisse recruter.  
 Si l'unité qui recrute n'a pas assez d'argent, elle l'obtient de la [réserve d'argent][reserve-dargent].  

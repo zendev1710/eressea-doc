@@ -8,7 +8,7 @@ alias: resources
 
 Raw materials can be obtained without other ingredients from the region without further ingredients.  
 However, the deposits are limited and regenerate only slowly or not at all.
-The necessary skill can be looked up in the section about [[items|goods]].
+The necessary skill can be looked up in the section about [goods][items].
 
 ## Raw materials
 
@@ -100,7 +100,7 @@ However, it is possible to breed captured horses in a [stable][stable] with the 
 
 Player experience (Solthar):
 
-The maximal amount of horses in a region equals the **number of [[world|jobs]] / 10**.
+The maximal amount of horses in a region equals the **number of [jobs][world] / 10**.
 
 In a relatively empty plain they grow at a rate of 4%.
 As they approach the upper limit, growth slows down.  
@@ -117,11 +117,11 @@ See the [list of herbs][list-of-herbs].
 ## See also
 
 - [Production][production-id]
-- [[items|Goods]]
+- [Goods][items]
 - [[roads]]
 - [[buildings]]
 
-Continue reading: [[items|Goods]].
+Continue reading: [Goods][items].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 

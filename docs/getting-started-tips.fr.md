@@ -25,7 +25,7 @@ Il existe aussi [ECheck][echeck-fr-id], un programme qui vous permet de vérifie
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  
 Utilisez ECheck avec l'option `-e` pour vérifier si vos ordres sont interprétés comme prévu.  
 ECheck vérifie uniquement la syntaxe des ordres.  
-ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [[ordres|modèle d'ordres]] du serveur est utilisé.  
+ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [modèle d'ordres][ordres] du serveur est utilisé.  
 
 Fixez-vousi plusieurs objectifs.  
 L'un de tes premiers objectifs devrait être d'explorer les environs.  
@@ -46,12 +46,12 @@ et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'arm
 La [perception][skill-perception-fr-id]{title="Perception"} est une compétence essentielle, souvent sous-estimée par les débutants.  
 Seuls les [percepteurs][cmd-tax] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
-Il est également conseillé de construire des [châteaux][chateaux]{title="Castle"} rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [[batiments|la construction des châteaux]]) afin de pouvoir [commercer][le-commerce].  
+Il est également conseillé de construire des [châteaux][chateaux]{title="Castle"} rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [la construction des châteaux][batiments]) afin de pouvoir [commercer][le-commerce].  
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots][chevaux-et-chariots].  
 Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort en vaut la peine.  
 
-Les unités aux compétences coûteuses, comme [[tactique|les Tacticiens]], [[liste-des-competences|les Alchimistes]], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 silver par tour).  
-Entraîner des [[magie|Mages]] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
+Les unités aux compétences coûteuses, comme [les Tacticiens][tactique], [les Alchimistes][liste-des-competences], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 silver par tour).  
+Entraîner des [Mages][magie] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
 De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  
 
 Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.  
@@ -59,7 +59,7 @@ En d'autres termes, un plan pour protéger ta faction contre les attaques une fo
 
 Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
 Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.  
-Un bon point de départ pour votre nouveau fichier d'ordres est le [[ordres|modèle d'évaluation]] ajouté à l'évaluation du tour suivant.  
+Un bon point de départ pour votre nouveau fichier d'ordres est le [modèle d'évaluation][ordres] ajouté à l'évaluation du tour suivant.  
 Pour chaque unité, vous pouvez également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  
 
 Exemple de commentaires :
@@ -137,7 +137,7 @@ Ne vous laissez pas agacer ni emporter par des décisions hâtives : le joueur 
 - [[trucs-et-astuces]]
 - [[remarques]]
 - [[premier-tour]]
-- [[bases|Les bases]]
+- [Les bases][bases]
 
 Poursuivre la lecture : [[xontormia-express]].
 

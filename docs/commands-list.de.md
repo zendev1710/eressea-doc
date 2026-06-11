@@ -9,7 +9,7 @@ alias: kurzbeschreibung
 Unter `K`/`L` ist vermerkt, ob der [[befehl]] ein [kurzer][kurze-und-lange-befehle] oder [langer][kurze-und-lange-befehle] Befehl ist.
 Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.
 
-`PL` bezeichnet einen [[befehl|pseudolangen Befehl]], der einer Einheit mehrfach gegeben werden kann.
+`PL` bezeichnet einen [pseudolangen Befehl][befehl], der einer Einheit mehrfach gegeben werden kann.
 Allerdings kann kein weiterer anderer langer Befehl ausgeführt werden.
 Näheres dazu ist auf der Seite des jeweiligen Befehls nachzulesen.
 
@@ -164,7 +164,7 @@ Kurzliste der Befehle.
 
 ## Siehe auch
 
-- [[befehl|Befehle]]
+- [Befehle][befehl]
 - [[befehlsreihenfolge]]
 
 Weiterlesen: [[der-erste-zug]].

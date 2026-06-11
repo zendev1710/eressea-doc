@@ -37,7 +37,7 @@ Les fonctionnalités incluent :
 Veuillez signaler les rapports de bugs et les demandes de fonctionnalités pour Magellan sur notre [bug tracker].
 
 Magellan offre la possibilité d'envoyer des ordres directement depuis le programme.  
-Ce qui doit être fait, en fonction du fournisseur, est expliqué dans l'[[sending-orders-from-magellan|envoi des ordres depuis Magellan]].  
+Ce qui doit être fait, en fonction du fournisseur, est expliqué dans l'[envoi des ordres depuis Magellan][sending-orders-from-magellan].  
 
 Une ancienne version de Magellan ([Magellan 1]) n'est plus maintenue.  
 Bien qu'elle ait atteint un état stable, les développements plus récents du serveur Eressea n'y sont pas pris en compte.  

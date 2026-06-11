@@ -32,7 +32,7 @@ Mais parfois, la valeur de compétence "brute" sans bonus est également nécess
 ## Apprendre des compétences
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [[races|race]] ou le terrain.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race][races] ou le terrain.
 Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
@@ -82,10 +82,10 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][skill-espionnage-id]{title="Espionage"} et [[tactique|tactique]] sont des compétences particulièrement difficiles à acquérir et coûteuses.
+[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][skill-espionnage-id]{title="Espionage"} et [tactique][tactique] sont des compétences particulièrement difficiles à acquérir et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
-Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [[magie|tableau]]).
+Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [tableau][magie]).
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
 Si l'unité est dans une [académie][academie]{title="Academy"}, le coût d'apprentissage des compétences payantes est doublé.
@@ -162,7 +162,7 @@ Pour plus d'information, consulter les chapitres :
 
 Le [commerce][commerce]{title="Trade"}, la [taxation][skill-taxation-fr-id]{title="Taxation"}, et le [divertissement][divertissement]{title="Entertainment"} permettent de gagner de l'argent (des silvers).
 
-Plus d'information : [[argent|l'argent]].
+Plus d'information : [l'argent][argent].
 
 ### Dissimulation
 
@@ -170,9 +170,9 @@ Plus d'information : [[argent|l'argent]].
 
 ### Compétences de déplacements
 
-La [voile][voile]{title="Sailing"} et l'[équitation][equitation]{title="Riding"} sont des compétences expliquées dans le chapitre sur les [[deplacements|déplacements]].  
+La [voile][voile]{title="Sailing"} et l'[équitation][equitation]{title="Riding"} sont des compétences expliquées dans le chapitre sur les [déplacements][deplacements].  
 
-L'équitation est également abordée dans le chapitre des [[tableaux-relatifs-a-la-guerre|combats]].
+L'équitation est également abordée dans le chapitre des [combats][tableaux-relatifs-a-la-guerre].
 
 ### La magie
 
@@ -195,7 +195,7 @@ Les autres compétences essentielles au combat sont :
 - [équitation][equitation]{title="Riding"}
 - [tactique][tactique]{title="Tactics"}
 
-Toutes ces compétences sont particulièrement importantes dans les [[guerre|batailles]], que ce soit contre d'autres factions ou des [[monstres]].
+Toutes ces compétences sont particulièrement importantes dans les [batailles][guerre], que ce soit contre d'autres factions ou des [[monstres]].
 
 Poursuivre la lecture : [[liste-des-competences]].
 

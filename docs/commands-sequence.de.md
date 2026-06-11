@@ -9,7 +9,7 @@ alias: befehlsreihenfolge
 Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle, die unter der selben Nummer stehen, werden zur gleichen Zeit ausgeführt oder die Reihenfolge spielt keine Rolle.
 
 1. neue Default-Befehle werden gesetzt
-2. [[bef-gruppe]], [[bef-mache|MACHE TEMP]]
+2. [[bef-gruppe]], [MACHE TEMP][bef-mache]
 3. [[bef-benenne]], [[bef-beschreibe]], [BEWACHE NICHT], [[bef-helfe]], [KÄMPFE], [[bef-kampfzauber]], [[bef-tarne]], [[bef-ursprung]], [[bef-zeige]]
 4. [[bef-banner]], [[bef-email]], [[bef-option]], [[bef-passwort]]
 5. [[bef-kontaktiere]]
@@ -34,7 +34,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 24. [[bef-zaubere]]
 25. [[bef-lehre]]
 26. [[bef-lerne]]
-27. [[bef-mache|MACHE TEMP]] \*
+27. [MACHE TEMP][bef-mache] \*
 28. [[bef-forsche]], [[bef-pflanze]], [[bef-spioniere]], [ZÜCHTE]
 29. [[bef-unterhalte]] \*
 30. [[bef-arbeite]] \*
@@ -45,7 +45,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 35. Schiffe mit mangelnder Besatzung nehmen Schäden
 36. BETRETE; 4. Versuch
 37. [[bef-nach]] und [[bef-route]], dabei wird auch [[bef-fahre]] und [[bef-transportiere]] ausgeführt und Verfolger folgen
-38. [[bef-bewache|BEWACHE NICHT]] an; das geht nur, wenn die Einheit sich nicht bewegt hat
+38. [BEWACHE NICHT][bef-bewache] an; das geht nur, wenn die Einheit sich nicht bewegt hat
 39. Schiffe treiben auf hoher See
 40. [[bef-default]]
 41. leere Einheiten werden beseitigt

@@ -153,7 +153,7 @@ Une unité de 10 personnes avec 10 épées et 10 haches de guerre se battra avec
 
 ## Tour du tacticien
 
-Avant la bataille, le meilleur [[tactique|Tacticien]] de toutes les unités participantes est désigné.  
+Avant la bataille, le meilleur [Tacticien][tactique] de toutes les unités participantes est désigné.  
 Un tacticien qui se bat en première ligne reçoit un bonus de +1 à son niveau de compétence [Tactique][tactique].  
 S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1.  
 Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.  
@@ -477,7 +477,7 @@ Avec le temps, elles guérissent.
 Elles régénèrent généralement 5 % (certaines races [davantage][modificateurs-de-competences-id]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
 Les unités mortes-vivantes ne se régénèrent pas.
 
-Si la région où les combats ont eu lieu était [[alliances|gardée]] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
+Si la région où les combats ont eu lieu était [gardée][alliances] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
 Ceci est valable même si des troupes ennemies gardent également la région.  
 Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre `ATTACK`).
 

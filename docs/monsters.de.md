@@ -13,12 +13,12 @@ Es gibt viele verschiedene Monster-Rassen mit unterschiedlichen Eigenschaften un
 Am verbreitetsten sind die verschiedenen [Untoten-Typen][untote] sowie [Drachen][drachen] und ihr Gefolge.
 Einige Monsterarten sind eher selten, wenn nicht gar einmalig. Andere, wie z.b. die [Hirntöter][hirntoter], findet man (fast) nur in bestimmten Gegenden.
 
-Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von  [[vertraute|Vertrauten]]  nichts lernen, nicht lehren und keine Gegenstände bekommen.
+Auch Spieler können unter bestimmten Umständen Einheiten mit Monster-Rassen (z.B. Skelette) besitzen. Diese können in der Regel mit Ausnahme von  [Vertrauten][vertraute]  nichts lernen, nicht lehren und keine Gegenstände bekommen.
 
 ## Untote
 
 Untote stellen den größten Teil der Monster-Partei.
-Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger-de-id] und Seuchen oder als Opfer von [Drachen][drachen]) oder wo Krieger im [[krieg|Kampf]] fallen.
+Sie entstehen da, wo Bauern sterben (durch [Hungersnöte][hunger-de-id] und Seuchen oder als Opfer von [Drachen][drachen]) oder wo Krieger im [Kampf][krieg] fallen.
 Untote können verschiedene [[talente]] lernen und werden dadurch gefährlicher.
 Sie können aber auch mutieren, wodurch sie nochmals deutlich stärker werden.
 Untote können (wie alle Monster) Spieler-Einheiten angreifen. Im Kampf verfügen sie über verschiedene Spezial-Angriffe und Imunitäten. Sie können mit bloßen Händen angreifen (gelten auch dann als [[bewaffnet]]), können aber auch Waffen tragen.

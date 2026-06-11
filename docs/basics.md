@@ -64,7 +64,7 @@ When something is used, for example to make an item or to recruit, who uses it a
 
 [movement][movement] will fail if the carrier's [load capacity][transport-capacity] is less than the total weight of the people, objects, equipment, etc.
 
-Please check the position of the `MOVE` order in the [[orders-sequence|order sequence]].  
+Please check the position of the `MOVE` order in the [order sequence][orders-sequence].  
 
 For example, the `ENTERTAIN` order executes before it; with the potential earnings, a boat or unit could be overloaded.  
 

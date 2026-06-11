@@ -8,7 +8,7 @@ alias: cmd-default-fr
 
 **`DEFAULT`**`"`*`order`*`"`  
 
-L'ordre `DEFAULT` définit [[ordres|l'ordre]] par défaut qu'une unité exécutera **la semaine suivante**.  
+L'ordre `DEFAULT` définit [l'ordre][ordres] par défaut qu'une unité exécutera **la semaine suivante**.  
 
 ## Modèle d'ordres et ordres par défaut
 
@@ -24,7 +24,7 @@ Vous ne pouvez donc pas y voir tous les ordres par défaut.
 Tous les [ordres longs][ordres-courts-et-longs] sont normalement inclus dans les ordres par défaut d'une unité.
 Les exceptions sont `ATTACK`, `FOLLOW` et `MOVE`.  
 
-De plus, tous les [[comment-with-slashes|`//`]] et tous les ordres commençant par `@` sont adoptés.
+De plus, tous les [`//`][comment-with-slashes] et tous les ordres commençant par `@` sont adoptés.
 L'orthographe peut être standardisée.  
 
 Ordres envoyés :

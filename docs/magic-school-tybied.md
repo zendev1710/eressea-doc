@@ -213,7 +213,7 @@ alias: tybied-spells
 
 [](){ #t-create-an-antimagic-crystal-id }
 
-### Create an [[antimagic-crystal|Antimagic Crystal]]
+### Create an [Antimagic Crystal][antimagic-crystal]
 
 :   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.

@@ -142,16 +142,16 @@ Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de 
 
 Les Morts-Vivants constituent la plus grande partie des monstres.  
 
-Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [Dragons][dragons-connus]), ou là où les guerriers tombent au cours d'une [[guerre|bataille]].  
+Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [Dragons][dragons-connus]), ou là où les guerriers tombent au cours d'une [bataille][guerre].  
 Les Morts-Vivants peuvent acquérir diverses [[competences]], ce qui les rend plus dangereux.  
 
 Ils peuvent également muter, ce qui les rend nettement plus forts.  
 Les Morts-Vivants (comme tous les monstres) peuvent attaquer les unités de faction.  
 Au combat, ils possèdent diverses attaques et immunités spéciales.  
-Ils peuvent attaquer à mains nues (et sont toujours considérés comme [[arme-et-pret-au-combat|armés]]), mais ils peuvent également porter des armes.  
+Ils peuvent attaquer à mains nues (et sont toujours considérés comme [armés][arme-et-pret-au-combat]), mais ils peuvent également porter des armes.  
 
 !!! note "Note"
-    Certains [[magie|mages]] sont capables de contrôler les Morts-Vivants.  
+    Certains [mages][magie] sont capables de contrôler les Morts-Vivants.  
 
 À ce jour, sept types de Morts-Vivants sont connus.  
 

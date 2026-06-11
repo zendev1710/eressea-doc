@@ -2,11 +2,13 @@
 # cSpell:locale de
 alias: sonnensegel
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Sonnensegel
 
 Das **Sonnensegel** war das Eresseanische[ [weihnachten|Weihnachtsgeschenk]] des Jahres 2004.  
 
-Ursprünglich diente es der *einmaligen, extremen* Beschleunigung eines [[schiff|Schiffes]] (+50 Regionen Reichweite).  
+Ursprünglich diente es der *einmaligen, extremen* Beschleunigung eines [Schiffes][schiff] (+50 Regionen Reichweite).  
 Der Hintergedanke dieses Geschenkes war es, die (friedliche) Kontaktaufnahme zwischen verschiedenen Völkern über eine große Entfernung hinweg zu ermöglichen.  
 Auch "Weltreisende", die per Schiff die Weltenspirale in die eine oder andere Richtung durchquerten, konnten davon profitieren.  
 

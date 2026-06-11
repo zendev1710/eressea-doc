@@ -106,7 +106,7 @@ Si une telle unité est spécifiquement attaquée, aucune autre unité ne sera e
 Bien entendu, cela ne s'applique que si d'autres unités ne possédant pas ce statut ne sont pas également attaquées.  
 
 Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle-même ou une faction qu'elle aide est attaquée.  
-Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [[alliances|Alliance]].  
+Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [Alliance][alliances].  
 
 L'ordre `COMBAT HELP` réactive le statut qui permet à l'unité d'être aidée en cas d'attaque.
 

@@ -15,11 +15,11 @@ In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke 
 In der Welt von Eressea sind alchemistische Tränke nicht nur einfache Gebräue.  
 Sie sind mächtige Werkzeuge, die das Blatt wenden und das Schicksal eines Volkes stark beeinflussen können, zum Beispiel zur Unterstützung der Produktion, zur Stärkung der Truppen im Kampf oder um ein Volk besser gedeihen zu lassen.  
 
-Tränke werden mit Hilfe von [[kraeuter|Kräutern]] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie][alchemie].  
+Tränke werden mit Hilfe von [Kräutern][kraeuter] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie][alchemie].  
 
 Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde][krauterkunde].
 
-Tränke werden mit dem Befehl [[bef-mache|`MACHE "<Trank>"`]] hergestellt.  
+Tränke werden mit dem Befehl [`MACHE "<Trank>"`][bef-mache] hergestellt.  
 
 Pro Trank braucht man diverse Zutaten.  
 Welche dies sind, erfährt man aus den Rezepten, die man mit Erlangen einer neuen Stufe im Talent Alchemie automatisch für diese Stufe bekommt.  

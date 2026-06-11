@@ -11,7 +11,7 @@ alias: cmd-tax
 **`TAX`**`[`*`Amount`*`]`  
 
 With this order, armed and trained units collect taxes from the farmers.  
-To do this, they need a weapon and the corresponding [[skills-list|skill]], and also the [taxation skill][skill-taxation-id].  
+To do this, they need a weapon and the corresponding [skill][skills-list], and also the [taxation skill][skill-taxation-id].  
 Up to **20 Silver** are collected from farmers per [[armed]] person (and trained in this weapon) and per taxation skill level.  
 
 !!! note

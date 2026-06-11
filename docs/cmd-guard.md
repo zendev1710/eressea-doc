@@ -14,7 +14,7 @@ To do so, the unit must be [[armed]] with at least one [weapon][weapons-summary-
 !!! note
     Ocean regions cannot be guarded.
 
-When a faction is guarding a region, units that are not allied with it are subject to [[alliances|alliances]] ([`HELP GUARD`][cmd-help] or [[cmd-contact]]), with the following restrictions:
+When a faction is guarding a region, units that are not allied with it are subject to [alliances][alliances] ([`HELP GUARD`][cmd-help] or [[cmd-contact]]), with the following restrictions:
 
 1. You can no longer collect taxes, mine raw materials, [trade][silver-trade-id] or recruit farmers in this region
 2. There is a certain probability that you will be stopped in transit
@@ -55,10 +55,10 @@ It is reduced by :
 - the use of a [[ring-of-invisibility]]
 
 !!! note
-    [[monsters|Monster]] faction (ii) units are generally considered armed due to their claws, teeth and other extremities, even if they do not carry a visible weapon.  
+    [Monster][monsters] faction (ii) units are generally considered armed due to their claws, teeth and other extremities, even if they do not carry a visible weapon.  
     This also applies to monsters magically summoned by players.
 
-In the [[puppy-protection|first few weeks]] a faction cannot guard yet.
+In the [first few weeks][puppy-protection] a faction cannot guard yet.
 
 ## See also
 

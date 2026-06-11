@@ -4,7 +4,7 @@ alias: envoi-des-ordres-depuis-magellan
 ---
 # Envoi des ordres depuis Magellan
 
-[[magellan]] offre la possibilité d'[[envoi-des-ordres|envoyer les ordres par email]] directement depuis le programme.  
+[[magellan]] offre la possibilité d'[envoyer les ordres par email][envoi-des-ordres] directement depuis le programme.  
 L'avantage est d'éliminer le risque d'erreurs causées par la copie dans le programme de messagerie ou le webmailer.  
 
 De plus, aucun formatage automatique n'est effectué que le serveur Eressea ne saurait comprendre, comme par exemple :

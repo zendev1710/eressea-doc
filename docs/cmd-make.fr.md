@@ -20,7 +20,7 @@ Pour en savoir plus, voir le chapitre [Production][production-fr-id].
 
 ## Objets
 
-Les [[objets]] et les [[ressources|matières premières]] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
+Les [[objets]] et les [matières premières][ressources] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
 Selon l'objet, une certaine compétence et peut-être aussi certaines matières premières sont nécessaires.  
 Sans préciser la *quantité*, l'unité produira autant d'items que de personnes dans l'unité, de niveaux de compétence et éventuellement de matières premières le permettent.  
 
@@ -29,7 +29,7 @@ Sans préciser la *quantité*, l'unité produira autant d'items que de personnes
 ### Potions
 
 Concocter une potion est très complexe et ne peut être réalisé que par des alchimistes particulièrement talentueux.  
-Les détails peuvent être trouvés dans le chapitre sur [[alchimie|l'alchimie]].
+Les détails peuvent être trouvés dans le chapitre sur [l'alchimie][alchimie].
 
 ### Plantes
 
@@ -121,7 +121,7 @@ Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* 
 ## Routes
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
-Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [[objets|pierres]].  
+Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [pierres][objets].  
 Dans les glaciers, il faut au préalable un [tunnel][tunnel-fr-id], dans les déserts un [caravansérail][caravanserail] et dans les marais un [barrage][barrage]{title="Dam"}.  
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  
@@ -157,6 +157,6 @@ MAKE building xyz ; incorrect : only CASTLE or building type is allowed
 ## Voir aussi
 
 - [Production][production-fr-id]
-- [[alchimie|Alchimie]]
+- [Alchimie][alchimie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/fr&oldid=16448] -->

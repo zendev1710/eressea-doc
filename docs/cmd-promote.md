@@ -10,7 +10,7 @@ alias: cmd-promote
 
 Promotes a unit of your own faction race to **Hero** status.  
 
-Heroes are particularly strong in [[war|combat]].  
+Heroes are particularly strong in [combat][war].  
 **They attack 5 times in each combat round**.  
 That's why it's worth promoting units with combat skills to hero status.  
 

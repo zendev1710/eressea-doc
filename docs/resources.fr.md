@@ -6,7 +6,7 @@ alias: ressources
 <!-- markdownlint-disable MD042 MD052 -->
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [[le-monde-d-eressea|régions]] sans aucun autre ingrédient.  
+Les matières premières peuvent être obtenues directement à partir des réserves des [régions][le-monde-d-eressea] sans aucun autre ingrédient.  
 Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout.  
 La compétence requise est indiquée dans le tableau de la section [objets].
 
@@ -188,7 +188,7 @@ Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'e
 
 Expérience de jeu (Solthar):
 
-Le nombre maximal de chevaux dans une région est égal au **nombre d'[[le-monde-d-eressea|emplois]] / 10**.
+Le nombre maximal de chevaux dans une région est égal au **nombre d'[emplois][le-monde-d-eressea] / 10**.
 
 Dans une plaine relativement vide, leur croissance est de 4 %.
 À mesure qu’ils approchent de la limite supérieure, la croissance ralentit.  

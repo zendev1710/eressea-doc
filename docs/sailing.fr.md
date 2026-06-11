@@ -65,7 +65,7 @@ Le poids total de toutes les unités d'un bateau, y compris le poids des chevaux
 Si ce n'est pas ou plus le cas, le bateau ne peut pas naviguer.  
 En mer, il ne coulera pas immédiatement, mais dérivera.  
 Les capacités des bateaux sont indiquées dans le tableau ci-dessus et sont toujours affichées dans le rapport.  
-Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différentes races, dans le tableau [[deplacements|Poids et Capacités]].  
+Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différentes races, dans le tableau [Poids et Capacités][deplacements].  
 
 Il est possible de regrouper plusieurs bateaux en [convoi][convoi].  
 Les détails à ce sujet sont décrits dans le chapitre sur les [bateaux][bateaux-id].  
@@ -77,7 +77,7 @@ Néanmoins, toutes les unités à bord du bateau consomment l'entretien hebdomad
 
 Lorsque le bateau est à terre, toutes les unités à bord peuvent faire quelque chose ; elles vont pour ainsi dire à terre pour travailler.  
 Elles peuvent le faire même si le bateau part au cours du même tour.  
-Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus [[argent|gagner d'argent]] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
+Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus [gagner d'argent][argent] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
 
 Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [[cmd-leave]].  
 Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec MOVE, sinon elles ne pourront le faire qu'au tour suivant l'ordre LEAVE.  

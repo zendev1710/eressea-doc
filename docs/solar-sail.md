@@ -6,7 +6,7 @@ alias: solar-sail
 <!-- markdownlint-disable MD052 -->
 # Solar Sail
 
-The **Solar Sail** was the Eressians' [[christmas|Christmas Gift]] in 2004.  
+The **Solar Sail** was the Eressians' [Christmas Gift][christmas] in 2004.  
 
 Originally, it provided a *unique and extreme* acceleration for a [ship][ships-id] (range of +50 regions).  
 The underlying idea was to facilitate (peaceful) contact between different races over great distances.  

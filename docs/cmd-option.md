@@ -74,7 +74,7 @@ With this option enabled, a small statistic is displayed after each region in th
 
 **OPTION**&nbsp;TEMPLATE &#91;NOT&#93;  
 
-With this option enabled, a separate file will contains a [[orders|template for the next round's orders]].  
+With this option enabled, a separate file will contains a [template for the next round's orders][orders].  
 If you don't need this, for example because you use a tool to edit orders, you should turn off the template option.  
 
 ## `OPTION ZIPPED|BZIP2`
@@ -91,7 +91,7 @@ With evaluation number 559, the Material Pool and Silver Pool options were set a
 **Deactivation is no longer possible**.  
 
 - `SILVERPOOL`: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.
-- `MATERIALPOOL`: If the [[items-pool|Material Pool]] is switched on, all required items in a unit are collected as needed, similar to Silver with the [Silver Pool][the-silver-pool].
+- `MATERIALPOOL`: If the [Material Pool][items-pool] is switched on, all required items in a unit are collected as needed, similar to Silver with the [Silver Pool][the-silver-pool].
   Units can use the [[cmd-reserve]] order to secure items, preventing other units from taking them and consuming them.
   This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have forgot one `RESERVE`.
 

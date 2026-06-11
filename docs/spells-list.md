@@ -8,7 +8,7 @@ alias: list-of-spells
 
 ## All spells
 
-**Legend:** **C** [[cerddor-spells|Cerddor]], **D** [[draig-spells|Draig]], **G** [[gwyrrd-spells|Gwyrrd]], **I** [[illaun-spells|Illaun]], **T** [[tybied-spells|Tybied]]  
+**Legend:** **C** [Cerddor][cerddor-spells], **D** [Draig][draig-spells], **G** [Gwyrrd][gwyrrd-spells], **I** [Illaun][illaun-spells], **T** [Tybied][tybied-spells]  
 
 |  C |  D |  G |  I |  T | Name                                                                  | Type    | Rank | Components                                                                       | Modifiers      |
 |---:|---:|---:|---:|---:|-----------------------------------------------------------------------|:--------|:----:|----------------------------------------------------------------------------------|----------------|
@@ -161,6 +161,6 @@ alias: list-of-spells
 |    |    |  5 |    |    | [Whirlwind][whirlwind-id]                                             | Pre-c.  |  5   | 15 aura                                                                          |                |
 |    |  6 |    |    |    | [Winds of Rust][winds-of-rust-id]                                     | Combat  |  5   | 2 x T aura                                                                       |                |
 
-Continue reading: [[alchemy|Potions]].
+Continue reading: [Potions][alchemy].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->

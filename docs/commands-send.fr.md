@@ -47,7 +47,7 @@ Il existe divers [outils][comment-soumettre-des-ordres-et-ce-que-vous-obtenez-en
 Soyez prudent lorsque vous utilisez des interfaces web telles que GMX ou GMail !  
 Ceux-ci se sont avérés problématiques dans le passé car les e-mails étaient mal formatés.  
 
-Les utilisateurs de [[magellan]] peuvent très facilement [[envoi-des-ordres-depuis-magellan|envoyer des ordres directement depuis le programme]], sans avoir à passer par des programmes de messagerie ou des outils de messagerie web.
+Les utilisateurs de [[magellan]] peuvent très facilement [envoyer des ordres directement depuis le programme][envoi-des-ordres-depuis-magellan], sans avoir à passer par des programmes de messagerie ou des outils de messagerie web.
 
 Les ordres doivent toujours être envoyés à [eressea-server@kn-bremen.de], avec, en objet, l'intitulé **ERESSEA ORDERS 2**.
 Si l'objet de l'email est différent, les emails ne seront pas reconnus par le serveur de jeu et seront ignorés.  
@@ -188,7 +188,7 @@ Entre les guillemets, plusieurs espaces, sauts de ligne et tabulations sont touj
 
 Tout texte qui suit un point-virgule (`;`) est considéré comme un [commentaire][cmd-comment].  
 Les commentaires peuvent faciliter la compréhension des ordres que vous effectuerez la prochaine fois.  
-Si vous utiliser le [[comment-with-slashes|commentaire `//`]], le commentaire sera automatiquement inclus dans le [[ordres|modèle d'ordres]] du tour suivant.  
+Si vous utiliser le [commentaire `//`][comment-with-slashes], le commentaire sera automatiquement inclus dans le [modèle d'ordres][ordres] du tour suivant.  
 
 Plusieurs ensembles d'ordres peuvent être envoyés.  
 Vous pouvez certainement envoyer des ordres pour quelques unités seulement, et ainsi réduire le volume de transfert de données entre vous-même et le serveur.  
@@ -197,7 +197,7 @@ La date de l'email (Date : en-tête) fait office d'ordre.
 
 ## Voir aussi
 
-- [[world|Le Monde d'Eressea]]
+- [Le Monde d'Eressea][world]
 - [[first-round]]
 - [[ordres]]
 

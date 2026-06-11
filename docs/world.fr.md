@@ -81,7 +81,7 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 | [Volcan][volcan]{title="Volcano"}              |               500 |                     50 |                 250 | --                                                                                                    |
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire.  
-Les paysans ont également besoin [[argent|d'argent]] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail][travail].  
+Les paysans ont également besoin [d'argent][argent] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail][travail].  
 Les plus grands [châteaux][chateaux]{title="Castle"} donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
@@ -279,7 +279,7 @@ Même si l'influence des saisons n'est généralement pas très marquée, certai
 En voici un bref aperçu :
 
 - Les peuples d'[Insectes][insectes] recrutent difficilement en hiver
-- Les tempêtes en [[deplacements|mer]] sont plus fréquentes en automne
+- Les tempêtes en [mer][deplacements] sont plus fréquentes en automne
 - Les différentes phases de [croissance des forêts][ressources-forestieres] sont liées à des saisons particulières
 - En hiver, la croissance des [[plantes]] s'arrête
 
@@ -319,7 +319,7 @@ Durant ce mois, les tempêtes sont les plus fréquentes.
 
 Premier mois de l'hiver, qui en compte trois.
 
-Les [[plantes|plantes]]{title="Herbs"} cessent de croître, jusqu'au retour du printemps.  
+Les [plantes][plantes]{title="Herbs"} cessent de croître, jusqu'au retour du printemps.  
 
 ### Vent des Glaces
 
@@ -363,7 +363,7 @@ Second mois d'été.
 
 ## Voir aussi
 
-- [[argent|L'argent]]
+- [L'argent][argent]
 - [[cmd-recruit]]
 - [[cmd-entertain]]
 

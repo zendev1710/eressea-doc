@@ -10,7 +10,7 @@ alias: cmd-recruit
 
 This involves hiring new people from the region's farmers.  
 
-Depending on the [[races|race]], you have to spend between 40 and 150 silver in [[skills-modifiers|recruitment costs]] per person hired.  
+Depending on the [race][races], you have to spend between 40 and 150 silver in [recruitment costs][skills-modifiers] per person hired.  
 The unit recruiting new members must carry this Silver with it.  
 When a new unit is created, you must give the new unit the necessary money so that it can recruit.  
 If the unit doesn't have enough Silver, it gets it from the [silver pool][the-silver-pool].  

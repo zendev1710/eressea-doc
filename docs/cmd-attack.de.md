@@ -13,9 +13,9 @@ alias: bef-attackiere
 Dieser Befehl attackiert die betreffende Einheit in der aktuellen Region.
 Pro Einheit, die angegriffen werden soll, muß ein Befehl gegeben werden.
 
-Einheiten, die nicht vorne (KÄMPFE oder KÄMPFE AGGRESSIV) oder hinten (KÄMPFE HINTEN oder KÄMPFE DEFENSIV) [[bef-kaempfe|kämpfen]], können auch nicht attackieren.
+Einheiten, die nicht vorne (KÄMPFE oder KÄMPFE AGGRESSIV) oder hinten (KÄMPFE HINTEN oder KÄMPFE DEFENSIV) [kämpfen][bef-kaempfe], können auch nicht attackieren.
 
-In den ersten Wochen ist deine Partei [[welpenschutz|immun]] gegen Angriffe.
+In den ersten Wochen ist deine Partei [immun][welpenschutz] gegen Angriffe.
 
 ## Siehe auch
 

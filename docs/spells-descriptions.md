@@ -620,7 +620,7 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-an-antimagic-crystal-id }
 
-### Create an [[antimagic-crystal|Antimagic Crystal]]
+### Create an [Antimagic Crystal][antimagic-crystal]
 
 :   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
@@ -633,7 +633,7 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-iron-golems-id }
 
-### Create [[iron-golem|Iron Golems]]
+### Create [Iron Golems][iron-golem]
 
 :   The more power a magician invests, the more golems can be created before the aura dissipates.  
     Each golem has a 15% chance per week to turn to dust.  
@@ -647,7 +647,7 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-stone-golems-id }
 
-### Create [[stone-golem|Stone Golems]]
+### Create [Stone Golems][stone-golem]
 
 <div class="lore-dialogue">
 "Moisten a gap-free block of fine crystalline rock with a vial of the water of life until it has been completely absorbed into the rock.
@@ -1221,7 +1221,7 @@ From "Wanderings" by Firudin the Wise.
 
 [](){ #mountain-guardian-id }
 
-### [[mountain-guard|Mountain Guardian]]
+### [Mountain Guardian][mountain-guard]
 
 :   Creates a guardian spirit that prevents iron and metal mining in glaciers and mountains by non-allied factions (`HELP GUARD`) as long as it guards the region.  
     The mountain guardian is bound to the location of the summoning.

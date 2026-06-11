@@ -80,7 +80,7 @@ The weight of the most common items is listed in the [summary table of items].
 
 On land, it is possible to travel a distance of one region, so a unit can more from one region to the next.  
 If the unit has enough **horses** and the [Riding] skill, it can travel **one region further**.  
-If the regions are connected by [[roads|road]], it is possible to move up **to 2 regions on foot** or even up **to 3 regions on horseback**.  
+If the regions are connected by [road][roads], it is possible to move up **to 2 regions on foot** or even up **to 3 regions on horseback**.  
 
 Movement is only possible in six directions: northeast (NE), northwest (NW), east (E), west (W), southeast (SE) and southwest (SW).  
 It is not possible to move straight north or south.  

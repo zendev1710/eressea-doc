@@ -50,7 +50,7 @@ Pro Schicht gib es gerade mal ein Adamantium, so es überhaupt Adamantium in der
 
 ## Abbau von Rohstoffen
 
-Beim Abbau aller Rohstoffe ist zu beachten, dass bewachende Einheiten den Abbau verhindern, wenn die bewachende Partei weder ` `[[bef-helfe|`HELFE BEWACHE`]] oder [[bef-helfe|`HELFE ALLES`]] zur eigenen Partei gesetzt hat oder die abbauende Einheit oder Partei [kontaktiert].
+Beim Abbau aller Rohstoffe ist zu beachten, dass bewachende Einheiten den Abbau verhindern, wenn die bewachende Partei weder ` `[`HELFE BEWACHE`][bef-helfe] oder [`HELFE ALLES`][bef-helfe] zur eigenen Partei gesetzt hat oder die abbauende Einheit oder Partei [kontaktiert].
 Dies gilt nicht, wenn die bewachende Einheit die Produzenten nicht sieht, beispielsweise weil diese [getarnt][tarnung-id] sind.
 
 ### Vom Bergbau
@@ -67,7 +67,7 @@ Im allgemeinen werden die abbaubaren Rohstoffmengen mit steigender Schwierigkeit
 Die Entwicklung der Vegetation Eresseas wird von den Jahreszeiten bestimmt.
 Sobald im Frühjahr die ersten Sonnenstrahlen auf den Waldboden treffen, treiben die im Boden verborgenen Samen aus und die Schösslinge des letzten Jahres wachsen zu ausgewachsenen Bäumen heran.
 Bei zu wenig Sonnenlicht (keine freien Arbeitsplätze) schlummern die Samen weiterhin im Boden.
-In den Sommer- und Herbstmonaten werfen die ausgewachsenen Bäume ihre Samen herab, welche mit [[bef-mache|`Samen`]] bzw. `MACHE Mallornsamen` von [Kräuterkundlern][skill-krauterkunde-id] mit einem Talent von 3 bzw. 4 oder mehr eingesammelt und mit [[bef-pflanze]]`Samen/Mallornsamen` anderswo eingepflanzt werden können (Mindesttalent von 6 bzw. 7).
+In den Sommer- und Herbstmonaten werfen die ausgewachsenen Bäume ihre Samen herab, welche mit [`Samen`][bef-mache] bzw. `MACHE Mallornsamen` von [Kräuterkundlern][skill-krauterkunde-id] mit einem Talent von 3 bzw. 4 oder mehr eingesammelt und mit [[bef-pflanze]]`Samen/Mallornsamen` anderswo eingepflanzt werden können (Mindesttalent von 6 bzw. 7).
 
 Wird Holz oder Mallorn gefällt, schrumpft der Wald und erholt sich nur sehr langsam.
 Solange noch genug Holz vorhanden ist, kann es in beliebigen Mengen gefällt werden.
@@ -78,7 +78,7 @@ Der Bestand an Mallornbäumen wird dabei um den gleichen Betrag reduziert, als w
 
 ### Und anderswo
 
-Die in einer Region wild lebenden Pferde können von Einheiten mit dem Talent [Pferdedressur][pferdedressur] mit dem Befehl [[bef-mache|`MACHE Pferd`]] gefangen werden.
+Die in einer Region wild lebenden Pferde können von Einheiten mit dem Talent [Pferdedressur][pferdedressur] mit dem Befehl [`MACHE Pferd`][bef-mache] gefangen werden.
 Wildpferde vermehren sich jede Runde.
 Sie sind platz- und freiheitsliebend, und so wandern einige von ihnen in Nachbarregionen ab, wenn dort weniger Pferde leben.
 Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent [Pferdedressur][pferdedressur] sie in einer [Pferdezucht][pferdezucht] mit dem Befehl [`ZÜCHTE PFERDE`] züchtet.

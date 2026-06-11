@@ -8,7 +8,7 @@ alias: cmd-comment-fr
 
 Le point-virgule « ; » est utilisé dans les ordres Eressea pour marquer les commentaires (temporaires).
 Certains de ces commentaires sont insérés « automatiquement ».
-Par exemple, le [[ordres|modèle d'ordres]] standard contient toujours les noms des régions et des unités, le nombre de personnes et leur réserve d'argent en guise de commentaire.
+Par exemple, le [modèle d'ordres][ordres] standard contient toujours les noms des régions et des unités, le nombre de personnes et leur réserve d'argent en guise de commentaire.
 De plus, les commentaires sont également utilisés pour fournir au programme [ECheck][echeck-id] certaines informations, comme les salaires dans une région.
 
 ```text
@@ -51,7 +51,7 @@ UNIT ub2;  Handyman [3,0$] flieht
 ```
 
 Le joueur lui-même peut également insérer des commentaires après un point-virgule.
-Cependant, comme ces commentaires ne sont pas inclus dans le modèle de la semaine suivante, les commentaires permanents après [[comment-with-slashes|`//`]] ont généralement plus de sens.
+Cependant, comme ces commentaires ne sont pas inclus dans le modèle de la semaine suivante, les commentaires permanents après [`//`][comment-with-slashes] ont généralement plus de sens.
 
 Pour économiser la capacité de transmission, les commentaires temporaires peuvent être supprimés avant l'envoi des ordres.
 Certains outils font cela, comme [[magellan]] ou VPP.

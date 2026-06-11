@@ -24,7 +24,7 @@ Then there's [ECheck][echeck-id], a program that lets you check your moves for c
 ECheck is automatically run by the server on incoming moves and the result is sent back.
 Use ECheck at home with the -e option to check if your commands are being interpreted as expected.
 ECheck only checks the spelling of the commands and the order of the parameters.
-ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [[orders|orders template]] is used.
+ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [orders template][orders] is used.
 
 Set yourself several goals you want to achieve.
 One of your first goals should be exploring the surrounding area.
@@ -42,12 +42,12 @@ and of course, tax collectors need the appropriate weapon skill ([tax collection
 
 [Perception][skill-perception-id] is a very important skill that is often underestimated by beginners.
 Only tax collectors are able to see camouflaged units and prevent them from [stealing][stealing-the-dishonest-way]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
-It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [[buildings|castles building]]) so that [trade][silver-trade-id] can be conducted.
+It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [castles building][buildings]) so that [trade][silver-trade-id] can be conducted.
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
-Units with expensive skills like [[tactics|Tacticians]], [[skills-list|Alchemists]], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
-Training [[magic|Mages]] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
+Units with expensive skills like [Tacticians][tactics], [Alchemists][skills-list], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
+Training [Mages][magic] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
 And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
 It would also be advisable to have some precautions in case the neighbors aren't very peaceful.
@@ -55,7 +55,7 @@ In other words, a plan for how to protect your faction from attacks once the ini
 
 Write plenty of comments in your orders files so you know what each action was for in the following rounds.
 It's a good idea to group orders by region so you have a few lines of comments for each region.
-A good starting point for your new orders file is the [[orders|Round Template]] appended to the evaluation for the next round.
+A good starting point for your new orders file is the [Round Template][orders] appended to the evaluation for the next round.
 For each unit, you can also note what it produces, for whom it produces it, where it's going, or what kind of trade it's engaged in.
 Here is an example of these comments:
 

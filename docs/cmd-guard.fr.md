@@ -9,14 +9,14 @@ alias: cmd-guard-fr
 **`GUARD`**`[NOT]`
 
 Les unités peuvent garder leur région.  
-Pour cela, elles doivent être [[arme-et-pret-au-combat|armées et prêtes au combat]], c'est à dire équipées d'au moins une [arme][armes-tableau-de-synthese] et posséder la compétence de maniement de l'arme appropriée.  
+Pour cela, elles doivent être [armées et prêtes au combat][arme-et-pret-au-combat], c'est à dire équipées d'au moins une [arme][armes-tableau-de-synthese] et posséder la compétence de maniement de l'arme appropriée.  
 
 !!! note
     Les régions océaniques ne peuvent être gardées.  
 
 ## Garde d'une région par une faction non alliée
 
-Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [[alliances|alliances]] ([`HELP GUARD`][cmd-help] ou [[cmd-contact]]).  
+Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [alliances][alliances] ([`HELP GUARD`][cmd-help] ou [[cmd-contact]]).  
 Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions suivantes s'appliquent :
 
 1. Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de [faire du commerce][le-commerce] ou de recruter des agriculteurs dans cette région
@@ -66,10 +66,10 @@ La probabilité d'être stoppée décroît avec :
 ## Particularités
 
 !!! note
-    Les [[monstres|Monstre]] (ii) sont généralement considérés comme armés en raison de leurs griffes, dents et autres extrémités, même si elles ne portent pas d'arme visible.  
+    Les [Monstre][monstres] (ii) sont généralement considérés comme armés en raison de leurs griffes, dents et autres extrémités, même si elles ne portent pas d'arme visible.  
     Cela s'applique également aux monstres invoqués par magie par les joueurs
 
-Au cours des [[puppy-protection|premières semaines]], une faction ne peut pas encore assurer la garde.
+Au cours des [premières semaines][puppy-protection], une faction ne peut pas encore assurer la garde.
 
 ## Voir aussi
 

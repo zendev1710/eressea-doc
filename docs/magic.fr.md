@@ -13,11 +13,11 @@ La magie est un moyen mystique et puissant de changer et de créer des choses et
 
 ## L'étude de la magie
 
-Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [[sorts-illaun|Illaun]], [[sorts-tybied|Tybied]], [[sorts-gwyrrd|Gwyrrd]], [[sorts-cerddor|Cerddor]] ou [[sorts-draig|Draig]].  
+Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [Illaun][sorts-illaun], [Tybied][sorts-tybied], [Gwyrrd][sorts-gwyrrd], [Cerddor][sorts-cerddor] ou [Draig][sorts-draig].  
 
 L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
 Cela se fait à l'aide de l'ordre [`LEARN MAGIC "<école de magie>"`][cmd-learn].  
-En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [[factions|faction]] apprennent alors automatiquement l'École de Magie choisie par la faction.  
+En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [faction][factions] apprennent alors automatiquement l'École de Magie choisie par la faction.  
 Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
 !!! note
@@ -374,7 +374,7 @@ La résistance à la magie d'une unité s'obtient par l'addition de :
 - la résistance naturelle à la magie des [[races]]
 - +5 % par niveau de compétence en magie
 - *+10 % x Nombre de licornes* par personne
-- Éventuellement un bonus ou un malus dû au [[liste-des-sorts|sort]] sur l'unité ou la région
+- Éventuellement un bonus ou un malus dû au [sort][liste-des-sorts] sur l'unité ou la région
 - Éventuellement un bonus de [bâtiment][cercle-de-pierres]
 
 Le résultat ne peut jamais être supérieur à 90 %.  
@@ -393,7 +393,7 @@ Il peut également être renforcé par certains sorts.
 
 **Exemples:**
 
-La chance de base est de 0 % pour les humains, de 10 % pour les [[skills-modifiers|elfes]], et de -5 % pour les [[skills-modifiers|gobelins]].  
+La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][skills-modifiers], et de -5 % pour les [gobelins][skills-modifiers].  
 
 Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos][malediction-du-chaos] lancé par une unité de T10 en magie.  
 Si le niveau en magie est T12, les chances tombent à 40 %.  
@@ -422,7 +422,7 @@ Les opinions sur ce qu'est réellement ce deuxième plan d'existence varient aus
 Des lois de la nature complètement différentes prévalent dans cet autre monde.  
 Ce fait est peut-être la seule raison pour laquelle l'Astral est resté une application pratique de la magie : celui qui parvient à brouiller la frontière entre l'Astral et la réalité au bon moment en utilisant ses pouvoirs magiques peut obtenir de grands avantages – que ce soit en percevant les choses de l'autre côté sans être vu lui-même, ou en voyageant rapidement sur de grandes distances.
 
-Quiconque pénètre dans l'Astral - cela n'est possible que grâce à certains [[liste-des-sorts|sorts]] - disparaît complètement du monde réel.  
+Quiconque pénètre dans l'Astral - cela n'est possible que grâce à certains [sorts][liste-des-sorts] - disparaît complètement du monde réel.  
 Comme le monde réel, l’Astral est divisé en régions dont les points cardinaux sont connus.  
 Les unités situées en un point de l'Astral apparaissent dans le rapport et sont jouées comme les autres unités.  
 Vous pouvez ainsi recevoir des ordres comme [[cmd-move]] et [[cmd-attack]] et interagir avec d'autres entités de l'Astral.  

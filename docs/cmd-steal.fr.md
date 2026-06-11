@@ -25,7 +25,7 @@ Si la perception des victimes est plus élevée que la dissimulation des auteurs
     Cela signifie que l'argent peut être volé sur d'autres unités qui n'ont pas été directement ciblées par les voleurs.
 
 !!! note
-    Pendant les premières semaines, une faction est [[puppy-protection|immunisée]] contre le vol.
+    Pendant les premières semaines, une faction est [immunisée][puppy-protection] contre le vol.
 
 ## Voir aussi
 

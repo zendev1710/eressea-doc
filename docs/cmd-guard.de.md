@@ -10,7 +10,7 @@ alias: bef-bewache
 
 Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet][bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
 
-Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert][allianz] sind ([[bef-helfe|`HELFE BEWACHE`]] oder [[bef-kontaktiere]]), folgende Einschränkungen:
+Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert][allianz] sind ([`HELFE BEWACHE`][bef-helfe] oder [[bef-kontaktiere]]), folgende Einschränkungen:
 
 - Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel][handel] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
@@ -36,7 +36,7 @@ In den [ersten Wochen][welpenschutz] kann deine Partei noch nicht bewachen.
 
 ## Siehe auch
 
-- [[bef-helfe|`HELFE BEWACHE`]]
+- [`HELFE BEWACHE`][bef-helfe]
 - [Allianz][alliiert]
 - [[bef-kontaktiere]]
 

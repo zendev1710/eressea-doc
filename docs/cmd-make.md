@@ -19,7 +19,7 @@ To find out more, see the [Production][production-id] chapter.
 
 ## Items
 
-[[items]] and [[resources|raw materials]] are created with `MAKE [`*`number`*`]`*`item`*` `.  
+[[items]] and [raw materials][resources] are created with `MAKE [`*`number`*`]`*`item`*` `.  
 Depending on the item, a certain skill and perhaps also certain raw materials are required.  
 Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.  
 
@@ -28,7 +28,7 @@ Without specifying *number*, the unit will produce as many items as people, skil
 ### Potions
 
 Creating a potion is very complex and can only be done by particularly talented alchemists.  
-Details can be found in the [[alchemy|Alchemy chapter]].
+Details can be found in the [Alchemy chapter][alchemy].
 
 ### Herbs
 
@@ -111,7 +111,7 @@ With buildings as well as ships you can specify with *levels* how many size poin
 ## Roads
 
 To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*.  
-To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [[items|stones]].  
+To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [stones][items].  
 In glaciers, it needs a [tunnel][tunnel-id] beforehand, in deserts a [caravanserai][caravanserai] and in swamps a [dam][dam].  
 One stone is used per skill point of road construction.
 Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]].  
@@ -147,6 +147,6 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
 ## See also
 
 - [Production][production-id]
-- [[alchemy|Alchemy]]
+- [Alchemy][alchemy]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->

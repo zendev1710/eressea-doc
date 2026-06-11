@@ -8,7 +8,7 @@ alias: stealth
 
 # Stealth
 
-The **Stealth** [[skills|skill]] allows you to camouflage yourself from other units.  
+The **Stealth** [skill][skills] allows you to camouflage yourself from other units.  
 However, if a unit [is guarding][cmd-guard] the region, or is on a ship or in a building, it is always visible.  
 
 ## Countermeasures

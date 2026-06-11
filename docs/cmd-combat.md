@@ -80,6 +80,6 @@ If such a unit is attacked, no other units will be brought into battle.
 Of course, this only applies if other units without such a status are not also attacked.  
 
 Your own faction is always involved when it attacks, or when it or a faction it helps is attacked.  
-You'll find further details at [[cmd-help]] and in the chapters [[war]] and [[alliances|Alliance]].  
+You'll find further details at [[cmd-help]] and in the chapters [[war]] and [Alliance][alliances].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->

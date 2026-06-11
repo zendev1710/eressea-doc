@@ -15,7 +15,7 @@ Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (pla
 Dans le monde d'Eressea, les potions ne sont pas de simples breuvages.
 Ce sont de puissants outils capables de renverser le cours des événements et d'influencer grandement le destin d'un peuple, par exemple pour soutenir la production, renforcer les troupes au combat ou aider un peuple à prospérer.  
 
-Les potions sont préparées à l'aide de [[herbs|plantes]], et peuvent ensuite être utilisées par n'importe quelle **unité**.  
+Les potions sont préparées à l'aide de [plantes][herbs], et peuvent ensuite être utilisées par n'importe quelle **unité**.  
 
 Une potion ne pèse rien.
 
@@ -420,7 +420,7 @@ Plantes nécessaires pour concocter cette potion :
 | [témérité piquante][temerite-piquante]{title="Tangy temerity"}                      |                                                                         |                                                              |                                                      |                                                              |                  :material-check:{ .success }                   |               :material-check:{ .success }                |                                                                       |                                                            |                                                                |                                                                                |                                                                      |                                                                          |                                                                      |                                                                       |
 | [tsuga blanc][tsuga-blanc]{title="White hemlocks"}                                  |                                                                         |                                                              |                                                      |                                                              |                                                                 |               :material-check:{ .success }                |                     :material-check:{ .success }                      |                                                            |                                                                |                                                                                |                                                                      |                                                                          |                                                                      |                                                                       |
 
-Poursuivre la lecture : [[herbs|plantes]].
+Poursuivre la lecture : [plantes][herbs].
 
 [^1]: Le [sang de paysan][sang-de-paysan]{title="Peasant blood"} agit sur l'unité, mais tous les démons de la faction dans la région s'en servent s'il en reste.  
     Il suffit donc d'en équiper une unité (par région), tant qu'elle boit assez de sang de paysan pour tous les démons.

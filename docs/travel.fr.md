@@ -116,11 +116,11 @@ Ainsi, si l'on veut se rendre à pied à l'est deux régions plus loin (`MOVE E 
 
 Si l'une des routes à emprunter n'est pas praticable, l'unité s'arrêtera en chemin, sur la région intermédiaire.
 
-Plus d'information : [[routes|les routes]].
+Plus d'information : [les routes][routes].
 
 ### Chevaux et chariots
 
-La **vitesse de déplacement** à pied sans [[routes|route]] est de 1 région par tour; avec une route, c'est 2.  
+La **vitesse de déplacement** à pied sans [route][routes] est de 1 région par tour; avec une route, c'est 2.  
 
 À cheval, on peut se déplacer de 2 régions sans route, de 3 régions avec des routes.  
 

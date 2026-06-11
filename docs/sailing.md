@@ -78,7 +78,7 @@ Nevertheless, all persons on the ship need the weekly upkeep, so it should alway
 
 When the ship is ashore, all the units on board can do something; they go ashore to work, so to speak.
 They can do this even if the ship leaves during the same turn.
-However, if the region is guarded by a non-allied faction, they cannot [[money|earn silver]] with WORK, ENTERTAIN or SELL.
+However, if the region is guarded by a non-allied faction, they cannot [earn silver][money] with WORK, ENTERTAIN or SELL.
 
 If units want to leave a ship, they must first do so with [[cmd-leave]].
 If the region is not guarded by a non-allied faction, the units can move immediately with MOVE, otherwise they can only MOVE on the turn following the LEAVE order.
@@ -131,7 +131,7 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 
 ## See also
 
-- [[travel|movement]]
+- [movement][travel]
 - [Ships][ships-id]
 
 Continue reading: [Production][production-id].

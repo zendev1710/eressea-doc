@@ -6,10 +6,10 @@ alias: orders-list
 <!-- markdownlint-disable MD052 -->
 # List of orders
 
-Under `S`/`L` it is noted whether the [[orders|order]] is a Short or Long order.  
+Under `S`/`L` it is noted whether the [order][orders] is a Short or Long order.  
 A unit can only execute one long order per round, but can execute any number of short ones.  
 
-`PL` denotes one [[orders|Pseudo-Long order]], which can be given multiple times to a unit.  
+`PL` denotes one [Pseudo-Long order][orders], which can be given multiple times to a unit.  
 However, no other long order can be executed.  
 
 More information: [[orders]].  
